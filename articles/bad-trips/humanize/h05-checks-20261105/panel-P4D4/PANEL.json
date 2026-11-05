@@ -1,0 +1,51 @@
+{
+ "readers": [
+  "codex",
+  "haiku",
+  "sonnet"
+ ],
+ "sentences": [
+  "Letting them move around is fine, and pacing can help them burn off some of the fear.",
+  "Just keep them from taking more of anything, since that only makes it stronger and longer.",
+  "If they want to go confront somebody, that can wait until it's worn off.",
+  "And if they want to leave, someone goes with them, in case they get lost or end up somewhere dangerous."
+ ],
+ "flagged": {
+  "1": [
+   "haiku",
+   "sonnet"
+  ],
+  "2": [
+   "haiku",
+   "sonnet"
+  ],
+  "3": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ],
+  "4": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ]
+ },
+ "agreed": [
+  1,
+  2,
+  3,
+  4
+ ],
+ "whole": {
+  "codex": [
+   "The paragraph’s orderly progression through movement, taking more, confrontation and departure could suggest machine polishing. These are weak signals, though: nothing in its wording reliably distinguishes AI involvement from ordinary human editing."
+  ],
+  "haiku": [
+   "The four sentences are close in length and shape, each granting a permission and giving a reason, with no first-person detail, no named situation, and no hesitation. The rhythm is even and the voice is neutral and advisory, so the paragraph reads as generic-capable instead of as one person's experience."
+  ],
+  "sonnet": [
+   "The paragraph is a run of four evenly sized, evenly paced \"if X, then Y\" instructions, each one a single smooth sentence with a short reason attached, and none of them includes a specific detail, example or personal observation. The voice is uniformly calm and even-handed, with no digression, no hedging or roughness, and no sign of a particular speaker."
+  ]
+ },
+ "human_clean": []
+}

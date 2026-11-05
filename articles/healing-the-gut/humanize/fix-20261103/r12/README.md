@@ -32,5 +32,5 @@ r12 is live since 21:35 UTC, the second update, with no email (`../live/LIVE-CHE
 
 ## What came next (2026-11-04, Joel's message of 22:35 UTC)
 
-1. His extension on the live post read [Mostly Human Written, 93.0% human](https://www.pangram.com/feed/e3a65841-a626-4b34-aad7-62b9dfa48ada), 18 AI windows (`live-check/`, #142 a miss). All but the fuels stretch's are on words unchanged since r10, whose check read them Human. The live post's 116 quote marks are straight, where r10's check read them curled (E360 (gut)). The same words with the marks curled are in a temporary draft for his click (`substack/`, #143).
+1. His extension on the live post read [Mostly Human Written, 93.0% human](https://www.pangram.com/feed/e3a65841-a626-4b34-aad7-62b9dfa48ada), 18 AI windows (`live-check/`, #142 a miss). All but the fuels stretch's are on words unchanged since r10, whose check read them Human. The live post's 116 quote marks are straight, where r10's check read them curled (E362 (gut)). The same words with the marks curled are in a temporary draft for his click (`substack/`, #143).
 2. The r11 control (#141) was voided unsent: the live check shows the fuels stretch's AI windows on P20's mechanism sentences, which batch 8 didn't change, so it couldn't change what gets fixed. P20's fix is in `../r13/fuels/`.

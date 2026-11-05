@@ -1,0 +1,541 @@
+{
+ "format": "joel-suggestion-review-answers-v1",
+ "review_id": "bad-trips-r02",
+ "title": "Bad Trips Guide, Round 2",
+ "git_file": "articles/bad-trips/review/r02/REVIEW-R02.html",
+ "article": {
+  "file": "articles/bad-trips/GUIDE-SO-FAR-page.md",
+  "sha256": "a827e1c0256a0c10ce3b00de821ee2a6b1b8ac448e430ad8f504ff731d80dc91"
+ },
+ "built": "2026-11-03",
+ "generator": "suggestion_review.py 1.5 (2026-11-02)",
+ "exported_at": "2026-11-04T10:26:12.259Z",
+ "counts": {
+  "approved": 26,
+  "rejected": 0,
+  "revise": 0,
+  "pending": 0
+ },
+ "items": [
+  {
+   "id": "CL-1",
+   "type": "structure",
+   "title": "Step 1: kept in full, with its link",
+   "where": "1. Is this medically or physically dangerous?, P1",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "## 1. Is this medically or physically dangerous?\n\nTrouble breathing, a prolonged or repeated seizure, collapse, inability to wake normally, dangerous overheating, severe or worsening chest pain, one-sided weakness, inability to speak normally, loss of bodily control, serious injury, repeated vomiting, a dangerous drug combination, or someone who cannot be kept physically safe?\n\nGet urgent help while giving basic first aid and any appropriate immediate rescue measures. Medical help and field rescue can happen in parallel. Please don’t spiritually process a body that is going under.\n\nMore: When to Bring In Outside Help",
+   "before": "Trouble breathing, a prolonged or repeated seizure, collapse, inability to wake normally, dangerous overheating, severe or worsening chest pain, one-sided weakness, inability to speak normally, loss of bodily control, serious injury, repeated vomiting, a dangerous drug combination, or someone who cannot be kept physically safe?\n\nGet urgent help while giving basic first aid and any appropriate immediate rescue measures. Medical help and field rescue can happen in parallel. Please don’t spiritually process a body that is going under.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-04T10:19:45.158Z"
+    }
+   ],
+   "updated": "2026-11-04T10:19:45.158Z"
+  },
+  {
+   "id": "CL-1b",
+   "type": "structure",
+   "title": "\"My brain feels damaged\": the check and the next move, nothing else",
+   "where": "If someone says “my brain feels damaged”, P1",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "## If someone says “my brain feels damaged”\n\nTake that seriously even if they are high. Use DMSO immediately while checking whether they can stay awake, breathe normally, smile evenly, raise both arms, repeat a simple sentence, walk, control their bodily functions, and report seizure, severe headache, repeated vomiting, dangerous heat, chest pain, or vision changes. These checks include several recognized stroke warning signs.\n\nIf this is a psychedelic and the concern is actual brain damage rather than a trip that is merely too intense, I am no longer trying to preserve the trip: DMSO comes first, then Ipomoea pes-caprae to stop the trip cold and fast. For MDMA, move from DMSO to the magnesium-and-electrolyte branch.\n\nMore: If Someone Says “My Brain Feels Damaged”: DMSO + Humic Acid First",
+   "before": "Take that seriously even if they are high. The phrase is not a diagnosis, but intoxication does not make it meaningless, and somebody with real neurological trouble may be unable to describe the problem better. Use DMSO immediately while checking whether they can stay awake, breathe normally, smile evenly, raise both arms, repeat a simple sentence, walk, control their bodily functions, and report seizure, severe headache, repeated vomiting, dangerous heat, chest pain, or vision changes. These checks include several recognized stroke warning signs.\n\nIf this is a psychedelic and the concern is actual brain damage rather than a trip that is merely too intense, I am no longer trying to preserve the trip: DMSO comes first, then Ipomoea pes-caprae to stop the trip cold and fast. I do not yet have evidence that pes-caprae aborts MDMA; for MDMA, move from DMSO to the magnesium-and-electrolyte branch. Get medical help in parallel when objective danger signs appear or basic stability cannot be established.\n\nNote: I have found that smelling humic acid can fix an overdose experience in seconds, and tasting a few milligrams of it can produce hyperintelligence, but I’ve only noticed this with ayahuasca & loveyhuasca so far, have not yet tested it with others.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-04T10:20:16.846Z"
+    }
+   ],
+   "updated": "2026-11-04T10:20:16.846Z"
+  },
+  {
+   "id": "CL-2",
+   "type": "structure",
+   "title": "Step 2: kept, with its link",
+   "where": "2. Is anyone about to do something unsafe?, P1",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "## 2. Is anyone about to do something unsafe?\n\nStop the immediate momentum toward roads, balconies, water, stoves, knives, crowds, fights, strangers, driving, posting, texting, or leaving alone.\n\nPut away the car keys, the phone if posting or texting is becoming risky, weapons, sharp objects, and anything else that could turn a temporary state into a permanent consequence.\n\nMore: Psychological First Aid: The First Five Minutes",
+   "before": "Stop the immediate momentum toward roads, balconies, water, stoves, knives, crowds, fights, strangers, driving, posting, texting, or leaving alone.\n\nPut away the car keys, the phone if posting or texting is becoming risky, weapons, sharp objects, and anything else that could turn a temporary state into a permanent consequence.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-04T10:20:21.952Z"
+    }
+   ],
+   "updated": "2026-11-04T10:20:21.952Z"
+  },
+  {
+   "id": "CL-3",
+   "type": "structure",
+   "title": "Step 3: the room check and your music page",
+   "where": "3. Is the room wrong?, P1",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "## 3. Is the room wrong?\n\nCheck the obvious things: light, sound, temperature, privacy, bathroom access, music, crowding, and how many people are talking. Soothing meditative music, like that of Chantress Seba and others on my music page, can be very helpful.\n\nMore: Psychological First Aid: The First Five Minutes",
+   "before": "Check the obvious things: light, sound, temperature, privacy, bathroom access, music, crowding, and how many people are talking. Soothing meditative music, like that of Chantress Seba and others on my music page, can be very helpful. Music can also steer the state in the wrong direction, so use something familiar and keep the stop or change button within reach. Steady drumming may give a scattered body one rhythm to follow; airy harp-like or meditative music may feel more spiritually uplifting.\n\nUsually one calm sober person is the best main anchor. When that person can’t safely hold the situation alone, add one more calm adult or a crisis professional—not a crowd.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-04T10:20:25.351Z"
+    }
+   ],
+   "updated": "2026-11-04T10:20:25.351Z"
+  },
+  {
+   "id": "CL-4",
+   "type": "structure",
+   "title": "Step 4: the two-minute test and the exercise limit",
+   "where": "4. Does the body need stillness or movement?, P2",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "## 4. Does the body need stillness or movement?\n\nDon’t make this ideological. Try the safest option for two minutes and see what actually happens.\n\nAvoid strenuous exercise with overheating, chest pain, faintness, severe confusion, stimulant use, unknown drug mixtures, or other medical instability.\n\nMore: Stillness or Movement?",
+   "before": "If stillness helps, sit against a wall or lie under a blanket, with one hand on the heart and one on the belly.\n\nIf movement helps, try slow pacing, gentle stretching, shaking out the arms and legs, wall push-ups, or one boring ordinary task you can finish.\n\nIf staring inward is making you more stuck, keep part of your attention with the feeling while another part folds five towels, sorts a few objects, draws, or finishes another simple safe task.\n\nIf movement makes you more impulsive, return to sitting or lying down.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-04T10:20:28.232Z"
+    }
+   ],
+   "updated": "2026-11-04T10:20:28.232Z"
+  },
+  {
+   "id": "CL-5",
+   "type": "structure",
+   "title": "Step 5: contact one person; the scripts are in the anchor section",
+   "where": "5. Is there a human anchor?, P1",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "## 5. Is there a human anchor?\n\nContact one grounded person if you can.\n\nMore: Get One Human Anchor",
+   "before": "Contact one grounded person if you can. Say:\n\nI’m in an intense state and I’m scared. I don’t need you to solve my life. Please stay with me, speak slowly, remind me where I am, and help me not make any big decisions until tomorrow.\n\nIf you took a substance:\n\nI took something. I am in [place]. It is [date/time]. This is intense, but it will change.\n\nIf this came from meditation, breathwork, fasting, sleep loss, kundalini-style practice, or emotional overwhelm:\n\nI’m in an intense state. I am in [place]. It is [date/time]. It will change. I am stopping the practice and coming back to ordinary reality.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-04T10:20:30.522Z"
+    }
+   ],
+   "updated": "2026-11-04T10:20:30.522Z"
+  },
+  {
+   "id": "CL-6",
+   "type": "structure",
+   "title": "Step 6: the 3 a.m. plan stays, its movement lines go",
+   "where": "6. Are you alone at 3 a.m.?, P3",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "## 6. Are you alone at 3 a.m.?\n\nOne lamp on. Blanket. Water nearby. Keys away. Put a familiar note, childhood toy, stuffed animal, or other object that already means safety beside you. Use the phone for support only, rather than posting. Write this where you can see it:\n\nThis will change. No big actions until morning.\n\nMore: Alone at 3 a.m.",
+   "before": "If your body needs to move, do something safe and boring: pace slowly, fold clothes, wash one cup, or tidy one surface. If movement escalates you, sit against a wall or lie down. Protect sleep as soon as possible.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-04T10:20:37.516Z"
+    }
+   ],
+   "updated": "2026-11-04T10:20:37.516Z"
+  },
+  {
+   "id": "CL-7",
+   "type": "structure",
+   "title": "Step 7: the condition and the first move; the menu has the rest",
+   "where": "7. Is the trip merely too intense, with no brain-damage concern?, P2",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "## 7. Is the trip merely too intense, with no brain-damage concern?\n\nUse this calming branch only after the quick neurological screen is reassuring and the person wants to preserve the trip. If they say their brain feels damaged, return to the DMSO-first branch instead.\n\nTry grounding before chemically or forcefully changing the state.\n\nMore: Grounding Menu: Choose One or Two Things",
+   "before": "Try grounding before chemically or forcefully changing the state:\n\nOne hand on heart and one on belly.\n\nLonger-exhale breathing.\n\nGentle Buteyko-style reduced breathing: breathe softly and slowly through the nose, taking in slightly less air than you want until there is only faint air hunger. No strain, no long breath-holds while intoxicated, and stop if it spikes fear.\n\nSilence or one calm track on repeat.\n\nLow light, a blanket, and simple reassurance.\n\nSlow pacing or gentle movement when that reduces pressure.\n\nSome people over-breathe during panic. The resulting low CO<sub>2</sub> can produce tingling, lightheadedness, and feelings of unreality that make the trip seem even more threatening. Gentle breathing reduction is meant to soften that loop, rather than become a new breathing project. Source: Johns Hopkins on hyperventilation.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-04T10:20:40.825Z"
+    }
+   ],
+   "updated": "2026-11-04T10:20:40.825Z"
+  },
+  {
+   "id": "CL-8",
+   "type": "structure",
+   "title": "Step 8: kept but for its breakfast line",
+   "where": "8. Is the person euphoric, grandiose, or cosmically certain?, P3",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "## 8. Is the person euphoric, grandiose, or cosmically certain?\n\nSome dangerous states feel wonderful. Bliss, certainty, and “I have a mission” can be more dangerous than fear because the person may resist grounding.\n\nThe action-lock applies double: no driving, posting, confessing, confronting, redosing, disappearing, giving away possessions, testing theories, or proving anything tonight.\n\nMore: When the Trip Feels Amazing: Euphoric Certainty",
+   "before": "If the revelation is true, it will survive sleep and breakfast.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-04T10:20:47.474Z"
+    }
+   ],
+   "updated": "2026-11-04T10:20:47.474Z"
+  },
+  {
+   "id": "CL-9",
+   "type": "structure",
+   "title": "Step 9: what to do and when to call; the God script is in the harm section",
+   "where": "9. Are visions, entities, memories, or cosmic conclusions giving commands?, P2",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "## 9. Are visions, entities, memories, or cosmic conclusions giving commands?\n\nDon’t try to win a metaphysical argument. Don’t agree with harmful conclusions either. Reflect the feeling, then redirect toward safety, non-harm, sleep, and ordinary reality.\n\nGet crisis or emergency help when there is a specific target, a weapon, movement toward action, escalating violence, or a situation the sitter cannot safely contain.\n\nMore: When the Content Turns Toward Harm",
+   "before": "A useful response sounds like this:\n\nI hear how vast and certain this feels. Many traditions say God is in everyone. That makes every body sacred, not disposable. Peace is the godly move tonight. No proof is needed. We protect life and sleep first.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-04T10:20:50.009Z"
+    }
+   ],
+   "updated": "2026-11-04T10:20:50.009Z"
+  },
+  {
+   "id": "CL-10",
+   "type": "structure",
+   "title": "Step 10: the gut signs and zeolite first; charcoal is in its own sections",
+   "where": "10. Is the gut the main problem?, P2",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "## 10. Is the gut the main problem?\n\nNausea, diarrhea, a dirty or toxic feeling, or a parasite-die-off feeling may need body-level support. But don’t let “toxins” distract from repeated vomiting, severe abdominal pain, dehydration, blood, fever, confusion, fainting, respiratory depression, collapse, seizure, dangerous overheating, or another concrete sign of poisoning.\n\nMy personal first thought here is ozonated zeolite rather than charcoal because charcoal can reduce the trip and bind many substances.\n\nMore: Gut-Toxin and Parasite-Die-Off Tools",
+   "before": "My personal first thought here is ozonated zeolite rather than charcoal because charcoal can reduce the trip and bind many substances. That is a personal field note, rather than standard emergency medicine.\n\nActivated charcoal has legitimate toxicology uses after some recent oral ingestions, but it isn’t a universal “I took too much” remedy. It matters what was swallowed, how recently, whether charcoal binds it, and whether the person is fully alert and can protect the airway. It can be dangerous when someone is vomiting, sedated, seizing, or unable to swallow safely. Source: clinical review on activated charcoal.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-04T10:20:52.442Z"
+    }
+   ],
+   "updated": "2026-11-04T10:20:52.442Z"
+  },
+  {
+   "id": "CL-11",
+   "type": "structure",
+   "title": "Step 11: the nausea rule; pes-caprae's margin is in its section",
+   "where": "11. Is nausea still the main problem after basic gut support?, P1",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "## 11. Is nausea still the main problem after basic gut support?\n\nUse nausea smoothers that are unlikely to abort the trip when the person wants to preserve it.\n\nMore: Nausea Smoothers When the Person Wants to Preserve the Trip",
+   "before": "Use nausea smoothers that are unlikely to abort the trip when the person wants to preserve it. Ipomoea pes-caprae is not my ordinary first-line nausea remedy, because the difference between smoothing the nausea and stopping the trip can be narrow.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-04T10:21:01.641Z"
+    }
+   ],
+   "updated": "2026-11-04T10:21:01.641Z"
+  },
+  {
+   "id": "CL-12",
+   "type": "structure",
+   "title": "Step 12: the sledgehammer and the backup",
+   "where": "12. Do I want—or need—to stop a psychedelic trip?, P1",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "## 12. Do I want—or need—to stop a psychedelic trip?\n\nWhen the person wants the trip ended, or when a serious brain-damage feeling makes preserving it irrelevant, Ipomoea pes-caprae is my ultimate sledgehammer. Niacin is a backup trip killer.\n\nMore: When the Goal Is to Stop a Psychedelic Trip",
+   "before": "When the person wants the trip ended, or when a serious brain-damage feeling makes preserving it irrelevant, Ipomoea pes-caprae is my ultimate sledgehammer. For neurological concern, DMSO comes first and pes-caprae follows. Niacin is a backup trip killer. I do not yet have data showing that pes-caprae aborts MDMA.\n\nCharcoal may reduce absorption of some substances, but its use is situation-specific and it can be dangerous with vomiting or impaired consciousness. Source: Poison Control on activated charcoal.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-04T10:21:04.633Z"
+    }
+   ],
+   "updated": "2026-11-04T10:21:04.633Z"
+  },
+  {
+   "id": "CL-13",
+   "type": "structure",
+   "title": "Step 13: what to use; the order is the checklist's first line",
+   "where": "13. Is this shadow work?, P1",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "## 13. Is this shadow work?\n\nThen use love, awareness, inner-child reparenting, somatic release, and gentle witnessing.\n\nMore: Shadow Work and Tripsitting Yourself or Others",
+   "before": "Then use love, awareness, inner-child reparenting, somatic release, and gentle witnessing. Meaning still waits until the person is safe, hydrated, oriented, and unlikely to do anything rash.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-04T10:21:06.714Z"
+    }
+   ],
+   "updated": "2026-11-04T10:21:06.714Z"
+  },
+  {
+   "id": "CL-14",
+   "type": "structure",
+   "title": "Step 14: kept, with your love link",
+   "where": "14. Can I send love to the one suffering?, P1",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "## 14. Can I send love to the one suffering?\n\nWhen you can, do that. When you can’t, stabilize the room, body, breath, human contact, time orientation, and sleep. Then try again.\n\nMore: Dealing With Sorrow: Missing Versus Sending Love",
+   "before": "When you can, do that. When you can’t, stabilize the room, body, breath, human contact, time orientation, and sleep. Then try again.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-04T10:21:08.775Z"
+    }
+   ],
+   "updated": "2026-11-04T10:21:08.776Z"
+  },
+  {
+   "id": "CL-15",
+   "type": "structure",
+   "title": "Step 15: save the numbers first; the lines are in Who to Contact",
+   "where": "15. What support can I contact?, P1",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "## 15. What support can I contact?\n\nIdentify local crisis and peer-support resources before you need them.\n\nMore: Who to Contact, and When",
+   "before": "Identify local crisis and peer-support resources before you need them. Coverage and hours vary by country.\n\nFireside Project Psychedelic Support Line — U.S.-only, non-emergency psychedelic peer support.\n\nTripSit web chat — online peer chat for drug-related support.\n\nFind A Helpline — country-specific crisis lines, including phone, text, and online options where available.\n\nICEERS Support Center — integration-oriented support after difficult psychedelic experiences; not emergency care.\n\nChallenging Psychedelic Experiences Project — education and peer-support resources for post-psychedelic difficulties.\n\nBottom line: safety, room, body, human, no rash actions, sleep if possible, then meaning.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-04T10:21:10.870Z"
+    }
+   ],
+   "updated": "2026-11-04T10:21:10.870Z"
+  },
+  {
+   "id": "LT-1",
+   "type": "structure",
+   "title": "The Longer Triage goes",
+   "where": "the heading \"The Longer Triage: What Kind of Trouble Is This?\"",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "(cut: The Longer Triage: What Kind of Trouble Is This?)\n\n(cut: When somebody is in trouble, the first question is simple: …)\n\n(cut: image 2)\n\n(cut: Is the body failing—or is neurological status still unknown?)\n\n(cut: Breathing trouble, collapse, a seizure lasting five minutes or repeating …)\n\n(cut: A person saying “my brain feels damaged,” “my brain is …)\n\n(cut: Use DMSO immediately while asking what the symptoms actually are. …)\n\n(cut: If objective danger signs appear, use DMSO while somebody arranges …)\n\n(cut: Is the room making everything worse?)\n\n(cut: Too much light. Bad music. A hostile person. A sitter …)\n\n(cut: A huge amount of what gets called “deep psychedelic crisis” …)\n\n(cut: Is this real emotional material?)\n\n(cut: Is the body writing the horror story?)\n\n(cut: Can love be reached yet?)\n\n(cut: This may be the deepest question, but it usually isn’t …)\n\n(cut: ---)",
+   "before": "The Longer Triage: What Kind of Trouble Is This?\n\nWhen somebody is in trouble, the first question is simple: what could hurt them now? A body in danger, a person moving toward harm, and a frightened mind in a terrible room are different problems. Treating all three as “a difficult process” is how people end up trying to breathe through poisoning or calling an annoying song ancestral trauma.\n\nimage 2\n\nIs the body failing—or is neurological status still unknown?\n\nBreathing trouble, collapse, a seizure lasting five minutes or repeating without normal recovery, dangerous overheating, severe or worsening chest pain, one-sided weakness, loss of speech or bodily control, serious injury, signs of real poisoning, or a credible risk of harm to self or others means medical help while acting. This is the branch where time matters and presence alone is not the intervention. Don’t make somebody “sit with it” while a body is going under.\n\nA person saying “my brain feels damaged,” “my brain is broken,” or “I’m losing control of my body” also belongs in this first branch until the symptoms are actively checked. The phrase is not a diagnosis. It is also not permission to call the problem anxiety because the person is high. Someone experiencing real neurological dysfunction may be unable to explain it more clearly.\n\nUse DMSO immediately while asking what the symptoms actually are. Can the person stay awake, breathe normally, smile evenly, raise both arms, repeat a simple sentence, walk, and control their bodily functions? Is there seizure activity, one-sided weakness, speech loss, severe headache, repeated vomiting, dangerous heat, chest pain, or a vision change? If the person cannot answer reliably, basic stability remains unknown rather than reassuring.\n\nIf objective danger signs appear, use DMSO while somebody arranges medical help. If the screen is reassuring but the brain-damage feeling remains, continue the DMSO-first route and reassess promptly. With a psychedelic, safety now means stopping the trip with Ipomoea pes-caprae rather than merely calming it. With MDMA, move to magnesium and the broader electrolyte branch; I do not yet know whether pes-caprae works for MDMA.\n\nIs the room making everything worse?\n\nToo much light. Bad music. A hostile person. A sitter trying too hard—or doing nothing. Five people talking. A phone buzzing. The wrong temperature. No bathroom, privacy, or sense of safety.\n\nA huge amount of what gets called “deep psychedelic crisis” is a nervous system begging for a less irritating room. Dim the light, lower the sound, stop the chatter, clear out extra people, offer water without forcing it, adjust the temperature, open bathroom access, stop touching unless touch is wanted, speak slowly, and please don’t explain the universe at someone who is scared. None of this is glamorous. It’s mercy.\n\nIs this real emotional material?\n\nIs the body writing the horror story?\n\nCan love be reached yet?\n\nThis may be the deepest question, but it usually isn’t the first move. Someone who is too overwhelmed, frightened, sick, hot, or scrambled may be unable to reach “send love.” Stabilize first. Then love.\n\n---",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-04T10:21:18.627Z"
+    }
+   ],
+   "updated": "2026-11-04T10:21:18.627Z"
+  },
+  {
+   "id": "LT-2",
+   "type": "structure",
+   "title": "The Longer Triage's \"reassuring screen\" line moves to the brain-damage checks",
+   "where": "The Longer Triage: What Kind of Trouble Is This?, P7",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "While using DMSO, check wakefulness, breathing, temperature, speech, facial symmetry, both arms, balance, walking, bodily control, seizure activity, severe headache, repeated vomiting, chest pain, and vision. A person who cannot answer or cooperate has not passed the screen; their neurological status is still unknown. If the screen is reassuring but the brain-damage feeling remains, continue the DMSO-first route and reassess promptly.",
+   "before": "While using DMSO, check wakefulness, breathing, temperature, speech, facial symmetry, both arms, balance, walking, bodily control, seizure activity, severe headache, repeated vomiting, chest pain, and vision. A person who cannot answer or cooperate has not passed the screen; their neurological status is still unknown.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-04T10:21:42.860Z"
+    }
+   ],
+   "updated": "2026-11-04T10:21:42.860Z"
+  },
+  {
+   "id": "LT-3",
+   "type": "structure",
+   "title": "What counts as stable, and the ER's limits, move under the rescue section's first paragraph",
+   "where": "The Longer Triage: What Kind of Trouble Is This?, P8",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "When the person is breathing normally, not dangerously hot, not seizing, has no neurological-injury concern, remains conscious enough to cooperate, and can be kept physically safe, calming and stabilizing the trip may be enough.\n\nThe emergency room is not magic, and for a physiologically stable psychedelic crisis it may be a poor environment. A scared, psychotic-feeling person often receives a benzodiazepine; those drugs don’t reliably address psychosis and can cause paradoxical agitation or fear in some people. Antipsychotics may work better for psychosis, but they carry their own risks and interactions, often administered by someone who doesn’t know what was taken.\n\n(move \"A severe altered state that is only too …\" to just before \"image 4\")",
+   "before": "A severe altered state that is only too intense belongs in a different branch. When the person is breathing normally, not dangerously hot, not seizing, has no neurological-injury concern, remains conscious enough to cooperate, and can be kept physically safe, calming and stabilizing the trip may be enough.\n\nThe emergency room is not magic, and for a physiologically stable psychedelic crisis it may be a poor environment. A scared, psychotic-feeling person often receives a benzodiazepine; those drugs don’t reliably address psychosis and can cause paradoxical agitation or fear in some people. Antipsychotics may work better for psychosis, but they carry their own risks and interactions, often administered by someone who doesn’t know what was taken. Calling for help is not the same thing as receiving good care. That is why the decision belongs to the actual symptom pattern rather than the word “overdose.”",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-04T10:25:35.381Z"
+    }
+   ],
+   "updated": "2026-11-04T10:25:35.381Z"
+  },
+  {
+   "id": "LT-4",
+   "type": "structure",
+   "title": "Real emotional material moves to For the Person Helping",
+   "where": "The Longer Triage: What Kind of Trouble Is This?, P14",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "(move \"Crying, grieving, remembering, or touching a genuine wound …\" to just before \"Do\")",
+   "before": "",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-04T10:26:06.864Z"
+    }
+   ],
+   "updated": "2026-11-04T10:26:06.864Z"
+  },
+  {
+   "id": "LT-5",
+   "type": "structure",
+   "title": "\"The body writing the horror story\" moves into the hierarchy",
+   "where": "The Longer Triage: What Kind of Trouble Is This?, P18",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "(cut: Psychedelic culture often treats every crisis as emotional or spiritual. …)\n\n(move \"Sometimes the mind isn’t in a metaphysical crisis. …\" to just before \"A trip with diarrhea, nausea, toxic heaviness, a …\")",
+   "before": "Psychedelic culture often treats every crisis as emotional or spiritual. Sometimes the person is nauseated, overheated, sleep-deprived, poisoned, dealing with an electrolyte problem, reacting to a bad combination, or feeling mentally destroyed because the body is in trouble.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-04T10:24:28.521Z"
+    }
+   ],
+   "updated": "2026-11-04T10:24:28.521Z"
+  },
+  {
+   "id": "AN-Q3a",
+   "type": "words",
+   "title": "DMSO and harmalas, in your words (your answer to Q-3)",
+   "where": "DMSO, P9",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "Don’t take it with drugs that should not absorb rapidly, including corticosteroids and NSAIDs. With harmalas, don't put the harmala in the DMSO or take them at exactly the same time; taking them a bit apart is totally fine, and the point is to take DMSO if you've already absorbed the harmalas and the aya is too crazy.",
+   "before": "Don’t take it with drugs that should not absorb rapidly, including corticosteroids, NSAIDs, and harmalas.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-04T10:25:02.785Z"
+    }
+   ],
+   "updated": "2026-11-04T10:25:02.785Z"
+  },
+  {
+   "id": "AN-Q3b",
+   "type": "words",
+   "title": "A possible bleed, in your words (your answer to Q-3)",
+   "where": "If Someone Says “My Brain Feels Damaged”: DMSO + Humic Acid First, P4",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "For objective stroke-like signs, I would use DMSO immediately while someone calls medics. DMSO cannot identify whether the problem is a clot, a hemorrhage, low oxygen, an electrolyte crisis, or something else. The larger adjacent risk is losing a treatment window or missing a bleed because the symptoms improved enough to feel reassuring. If someone is worried about a bleed, I'd probably skip DMSO, but it depends on how severe their issue is. It's not a powerful blood thinner like heparin, unless maybe injected; it's basically a dietary blood thinner. I've never had any issues with bleeding too much from consuming DMSO, and never heard of it either, but if bleeding is already a medical issue I'd want to think about that more.",
+   "before": "For objective stroke-like signs, I would use DMSO immediately while someone calls medics. DMSO cannot identify whether the problem is a clot, a hemorrhage, low oxygen, an electrolyte crisis, or something else. The larger adjacent risk is losing a treatment window or missing a bleed because the symptoms improved enough to feel reassuring.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-04T10:23:59.492Z"
+    }
+   ],
+   "updated": "2026-11-04T10:23:59.492Z"
+  },
+  {
+   "id": "SF-8",
+   "type": "checked",
+   "title": "DMSO and blood thinners: the line goes (your message of 22:04)",
+   "where": "DMSO, P11",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "(cut: Don’t combine it with blood-thinning medication because DMSO also thins …)",
+   "before": "Don’t combine it with blood-thinning medication because DMSO also thins the blood.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-04T10:25:16.751Z"
+    }
+   ],
+   "updated": "2026-11-04T10:25:16.751Z"
+  },
+  {
+   "id": "AN-Q6",
+   "type": "words",
+   "title": "Ocean water and charcoal water, in your words (your answer to Q-6)",
+   "where": "Shungite, Aged Ozonated-Charcoal Water, or Boiled Charcoal Water, P1",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "I honestly can't say how different these are from ocean water, because I've only used them a handful of times, but I do believe they're different in certain ways. Ocean water seems to reduce the intensity of the trip a bit more, while aged ozonated-charcoal water seems more peaceful without necessarily reducing intensity, and ocean water seems more reliable for some reason. Aged ozonated-charcoal water is different from zeolite and from swallowing charcoal.",
+   "before": "These work similarly to ocean water. Aged ozonated-charcoal water is different from zeolite and from swallowing charcoal.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-04T10:24:50.042Z"
+    }
+   ],
+   "updated": "2026-11-04T10:24:50.042Z"
+  },
+  {
+   "id": "AN-Q1",
+   "type": "words",
+   "title": "Try the remedies in low doses first, in your words (from your answer to Q-1)",
+   "where": "My Acute Rescue Hierarchy, P1",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "In general it's good to try all these things in very low, increasing doses before they are needed in crisis.",
+   "before": "",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-04T10:21:54.345Z"
+    }
+   ],
+   "updated": "2026-11-04T10:21:54.345Z"
+  }
+ ]
+}

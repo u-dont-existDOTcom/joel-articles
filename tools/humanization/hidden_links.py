@@ -27,6 +27,10 @@ one link I did write. This step asks the question his rewrites answer, before dr
       itself has had a fresh read of its current words (make DRAFT DIR/draft, a fresh reader, collect DIR/draft) and each
       thing that reader can't follow is fixed (a new draft, read again) or dropped with a note (gate E355).
 
+Its questions are the making-sense read's (docs/MAKING-SENSE.md, gate E360): since 2026-11-04 22:14 UTC they also ask what
+an instruction is for, which thing exactly, what a word acts on, and whether a fact helps the reader in the section's
+situation, from Joel's round-5 versions in the bad trips guide.
+
 A stated link must be true and the original's own reasoning (or plain common knowledge), never a new claim; the blind
 meaning check reads it as LINK, not as an added fact (the fuels' brief, 2026-11-04).
 
@@ -39,6 +43,25 @@ rewrites changed only that stretch; all six of my TCA tries rewrote the whole pa
 import argparse, json, pathlib, re, sys
 
 EXAMPLES = [
+    # E360 (the bad trips guide's round 5, Joel 2026-11-04 22:14 UTC: "you don't need any lived experience, you just need
+    # it to MAKE SENSE"; docs/MAKING-SENSE.md): what an instruction is for, which thing exactly, what a word acts on, and
+    # whether a fact helps this reader now
+    {'before': 'Begin with whatever could hurt somebody in the next five minutes. Put away the car keys.',
+     'gap': 'Hurt whom, them or someone else? And why put the keys away: is it about where they are, or about driving?',
+     'his': 'Anything that could let someone hurt themselves in the next five minutes takes priority, so get the car keys out '
+            'of reach'},
+    {'before': 'Move away from roads, balconies, water, weapons, crowds, and strangers.',
+     'gap': 'Water? What is dangerous about water?',
+     'his': 'move them away from roads and balconies, or pools of water for that matter'},
+    {'before': 'I treat it as a plausible experimental adjunct rather than something to wait on while a seizure continues.',
+     'gap': 'An adjunct to what?',
+     'his': 'I\'d treat it as a plausible experimental adjunct remedy rather than something to wait on while a seizure '
+            'continues.'},
+    {'before': 'In a 2025 study of high-dose oral CBD, ... focal seizures fell by about half to three quarters over nearly '
+               'three years',
+     'gap': 'This section is about a seizure happening now: what does three years of daily CBD do for me here?',
+     'his': '(cut: "think about the usefulness of the THREE YEAR STUDY when we are talking to people having seizures RIGHT '
+            'NOW")'},
     {'before': 'It skips the complicated digestive steps other nutrients have to go through.',
      'gap': 'So what? Why does skipping digestion matter to the cells, or to me?',
      'his': 'It doesn\'t have to go through the complicated digestive steps other nutrients do. ... So that\'s why consuming '
@@ -99,6 +122,11 @@ List every place where you can't see one of these, because the writer knows it a
 - why it matters to you, the reader;
 - what a "but", "so", "though" or "because" turns on, when the claim it answers or follows from isn't said;
 - what a "this", "that", "it", "these" or "those" points to, when you can't tell;
+- what an instruction is for, when its purpose isn't said and you could guess wrong;
+- which thing exactly, when a word names a whole kind of thing and only one case of it is meant (dangerous, useful,
+  wrong);
+- what a word acts on or means here, when you have to guess ("adjunct" to what?);
+- why a fact is here for you, in the situation this part is about, when it doesn't help you there;
 - why you're being told something at that point, when it comes before you'd want it (a study before the claim it backs, a
   detail before the point, a fact before the question it answers).
 

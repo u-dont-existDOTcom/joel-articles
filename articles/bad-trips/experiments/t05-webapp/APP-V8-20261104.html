@@ -1,0 +1,1735 @@
+<!-- Bad Trip Triage Guide App — Elementor-safe, fully scoped, offline-friendly -->
+<style id="btg-app-styles">
+  #btg-app {
+    --btg-bg: #fbf7ef;
+    --btg-card: #fffdf8;
+    --btg-ink: #1d2530;
+    --btg-muted: #667085;
+    --btg-line: #e5d9c8;
+    --btg-navy: #17375f;
+    --btg-green: #4f6f3d;
+    --btg-green-soft: #eef5e8;
+    --btg-blue: #2f628d;
+    --btg-blue-soft: #eaf3fb;
+    --btg-orange: #c45f2b;
+    --btg-orange-soft: #fff0e7;
+    --btg-purple: #714385;
+    --btg-purple-soft: #f6ecfa;
+    --btg-red: #a52f33;
+    --btg-red-soft: #fff0f1;
+    --btg-amber: #8a5a00;
+    --btg-amber-soft: #fff7dc;
+    --btg-shadow: 0 16px 40px rgba(67, 52, 30, .13);
+    --btg-radius: 18px;
+    max-width: 1180px;
+    margin: 0 auto;
+    color: var(--btg-ink);
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    background:
+      radial-gradient(circle at 8% 0%, rgba(113, 67, 133, .12), transparent 27rem),
+      radial-gradient(circle at 95% 4%, rgba(47, 98, 141, .13), transparent 31rem),
+      linear-gradient(180deg, #fffaf1 0%, var(--btg-bg) 48%, #f7efe4 100%);
+    border: 1px solid rgba(229, 217, 200, .8);
+    border-radius: 24px;
+    overflow: hidden;
+    isolation: isolate;
+  }
+
+  #btg-app,
+  #btg-app * { box-sizing: border-box; }
+
+  #btg-app button,
+  #btg-app input,
+  #btg-app select,
+  #btg-app textarea { font: inherit; }
+
+  #btg-app a { color: var(--btg-blue); text-decoration: underline; text-underline-offset: 2px; }
+  #btg-app a:hover { color: var(--btg-navy); }
+
+  #btg-app .btg-shell { padding: clamp(16px, 3vw, 30px); }
+  #btg-app .btg-hero { padding: 12px 0 18px; text-align: center; }
+  #btg-app .btg-kicker {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 7px 13px;
+    border: 1px solid var(--btg-line);
+    border-radius: 999px;
+    background: rgba(255, 255, 255, .78);
+    color: var(--btg-green);
+    font-weight: 800;
+    letter-spacing: .03em;
+    font-size: 12px;
+    text-transform: uppercase;
+  }
+  #btg-app .btg-title {
+    margin: 14px auto 7px !important;
+    max-width: 980px;
+    color: var(--btg-navy) !important;
+    font-family: inherit !important;
+    font-size: clamp(34px, 6.2vw, 68px) !important;
+    font-weight: 850 !important;
+    line-height: .98 !important;
+    letter-spacing: -.045em !important;
+    text-transform: none !important;
+  }
+  #btg-app .btg-mantra {
+    margin: 12px auto 8px;
+    max-width: 920px;
+    color: var(--btg-green);
+    font-family: Georgia, "Times New Roman", serif;
+    font-style: italic;
+    font-size: clamp(18px, 2.6vw, 27px);
+    line-height: 1.25;
+  }
+  #btg-app .btg-subtitle {
+    max-width: 870px;
+    margin: 0 auto;
+    color: #4a5666;
+    font-size: clamp(15px, 2vw, 19px);
+  }
+  #btg-app .btg-privacy-note {
+    margin: 9px auto 0;
+    color: var(--btg-muted);
+    font-size: 12px;
+  }
+
+  #btg-app .btg-toolbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  #btg-app .btg-btn {
+    appearance: none !important;
+    display: inline-flex !important;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    min-height: 44px;
+    border: 1px solid var(--btg-line) !important;
+    border-radius: 999px !important;
+    padding: 10px 16px !important;
+    background: #fff !important;
+    color: var(--btg-ink) !important;
+    font-family: inherit !important;
+    font-size: 14px !important;
+    font-weight: 800 !important;
+    line-height: 1.1 !important;
+    letter-spacing: 0 !important;
+    text-transform: none !important;
+    text-decoration: none !important;
+    cursor: pointer;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, .05);
+    transition: transform .08s ease, box-shadow .15s ease, background .15s ease;
+  }
+  #btg-app .btg-btn:hover { transform: translateY(-1px); box-shadow: 0 9px 22px rgba(0, 0, 0, .09); }
+  #btg-app .btg-btn:active { transform: translateY(0); }
+  #btg-app .btg-btn--primary { background: var(--btg-blue) !important; border-color: var(--btg-blue) !important; color: #fff !important; }
+  #btg-app .btg-btn--danger { background: var(--btg-red) !important; border-color: var(--btg-red) !important; color: #fff !important; }
+  #btg-app .btg-btn--soft { background: #fff8ed !important; }
+  #btg-app .btg-btn--green { background: var(--btg-green) !important; border-color: var(--btg-green) !important; color: #fff !important; }
+  #btg-app .btg-btn--compact { min-height: 38px; padding: 8px 12px !important; font-size: 13px !important; }
+  #btg-app .btg-btn--inner { background: var(--btg-purple) !important; border-color: var(--btg-purple) !important; color: #fff !important; }
+  #btg-app .btg-btn--large { min-height: 50px; padding: 13px 18px !important; font-size: 15px !important; }
+
+  #btg-app .btg-inner-signal-panel {
+    max-width: 980px;
+    margin: 18px auto 0;
+    text-align: left;
+    border: 2px solid rgba(113, 67, 133, .32);
+    background:
+      radial-gradient(circle at 2% 10%, rgba(113, 67, 133, .12), transparent 18rem),
+      linear-gradient(135deg, rgba(246, 236, 250, .96), rgba(255, 253, 248, .97) 58%, rgba(234, 243, 251, .72));
+  }
+  #btg-app .btg-inner-signal-panel .btg-card__body {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(220px, auto);
+    gap: 16px;
+    align-items: center;
+  }
+  #btg-app .btg-inner-signal-panel .btg-h2 { color: var(--btg-purple) !important; }
+  #btg-app .btg-inner-signal-actions {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    gap: 10px;
+  }
+  #btg-app .btg-inner-signal-note {
+    margin-top: 8px;
+    color: var(--btg-muted);
+    font-size: 12px;
+  }
+
+  #btg-app .btg-btn:focus-visible,
+  #btg-app input:focus-visible,
+  #btg-app select:focus-visible,
+  #btg-app textarea:focus-visible,
+  #btg-app summary:focus-visible,
+  #btg-app a:focus-visible {
+    outline: 3px solid rgba(47, 98, 141, .35) !important;
+    outline-offset: 2px;
+  }
+
+  #btg-app .btg-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 1.14fr) minmax(300px, .86fr);
+    gap: 18px;
+    align-items: start;
+    margin-top: 18px;
+  }
+  #btg-app .btg-grid--equal { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  #btg-app .btg-stack { display: grid; gap: 18px; }
+  #btg-app .btg-section { margin-top: 18px; }
+
+  #btg-app .btg-card {
+    background: rgba(255, 253, 248, .94);
+    border: 1px solid var(--btg-line);
+    border-radius: var(--btg-radius);
+    box-shadow: var(--btg-shadow);
+    overflow: hidden;
+  }
+  #btg-app .btg-card__head {
+    padding: 17px 20px;
+    border-bottom: 1px solid var(--btg-line);
+    background: rgba(255, 255, 255, .68);
+  }
+  #btg-app .btg-card__body { padding: 20px; }
+  #btg-app .btg-h2,
+  #btg-app .btg-h3 {
+    margin: 0 !important;
+    color: #24364f !important;
+    font-family: inherit !important;
+    font-weight: 850 !important;
+    letter-spacing: -.02em !important;
+    line-height: 1.16 !important;
+    text-transform: none !important;
+  }
+  #btg-app .btg-h2 { font-size: clamp(21px, 2.8vw, 27px) !important; }
+  #btg-app .btg-h3 { margin-top: 18px !important; font-size: 18px !important; }
+  #btg-app p { margin: 0 0 12px; }
+  #btg-app .btg-small { color: var(--btg-muted); font-size: 13px; }
+  #btg-app .btg-tight { margin-bottom: 5px; }
+
+  #btg-app .btg-callout {
+    border-radius: 14px;
+    padding: 14px 15px;
+    margin: 12px 0;
+    border: 1px solid var(--btg-line);
+    background: #fff;
+  }
+  #btg-app .btg-callout--red { background: var(--btg-red-soft); border-color: rgba(165, 47, 51, .27); }
+  #btg-app .btg-callout--green { background: var(--btg-green-soft); border-color: rgba(79, 111, 61, .27); }
+  #btg-app .btg-callout--blue { background: var(--btg-blue-soft); border-color: rgba(47, 98, 141, .27); }
+  #btg-app .btg-callout--orange { background: var(--btg-orange-soft); border-color: rgba(196, 95, 43, .27); }
+  #btg-app .btg-callout--purple { background: var(--btg-purple-soft); border-color: rgba(113, 67, 133, .27); }
+  #btg-app .btg-callout--amber { background: var(--btg-amber-soft); border-color: rgba(138, 90, 0, .25); }
+
+  #btg-app .btg-badge-row { display: flex; flex-wrap: wrap; gap: 8px; margin: 11px 0; }
+  #btg-app .btg-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 9px;
+    border: 1px solid var(--btg-line);
+    border-radius: 999px;
+    background: #fff;
+    color: #3a4657;
+    font-size: 12px;
+    font-weight: 800;
+  }
+  #btg-app .btg-badge--consensus { background: var(--btg-green-soft); color: var(--btg-green); }
+  #btg-app .btg-badge--support { background: var(--btg-blue-soft); color: var(--btg-blue); }
+  #btg-app .btg-badge--personal { background: var(--btg-purple-soft); color: var(--btg-purple); }
+  #btg-app .btg-badge--caution { background: var(--btg-amber-soft); color: var(--btg-amber); }
+
+  #btg-app fieldset {
+    border: 1px solid var(--btg-line) !important;
+    border-radius: 14px !important;
+    margin: 0 0 14px !important;
+    padding: 14px !important;
+    background: rgba(255, 255, 255, .58) !important;
+  }
+  #btg-app legend {
+    padding: 0 7px !important;
+    color: #24364f !important;
+    font-weight: 850 !important;
+    font-size: 16px !important;
+  }
+  #btg-app .btg-choice {
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+    padding: 8px 0;
+    cursor: pointer;
+    color: var(--btg-ink);
+  }
+  #btg-app .btg-choice input { margin-top: 4px; flex: 0 0 auto; accent-color: var(--btg-blue); }
+  #btg-app .btg-form-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 11px; }
+  #btg-app .btg-field { display: grid; gap: 6px; margin: 9px 0; }
+  #btg-app .btg-field label { color: #344054; font-size: 13px; font-weight: 800; }
+  #btg-app select,
+  #btg-app input[type="text"],
+  #btg-app input[type="number"],
+  #btg-app textarea {
+    width: 100%;
+    min-height: 44px;
+    border: 1px solid var(--btg-line) !important;
+    border-radius: 12px !important;
+    background: #fff !important;
+    color: var(--btg-ink) !important;
+    padding: 11px 12px !important;
+    box-shadow: none !important;
+  }
+  #btg-app textarea { min-height: 88px; resize: vertical; }
+
+  #btg-app .btg-result {
+    display: none;
+    margin-top: 16px;
+    border: 2px solid rgba(47, 98, 141, .23);
+    border-radius: 18px;
+    background: #fff;
+    box-shadow: 0 12px 28px rgba(47, 98, 141, .10);
+    overflow: hidden;
+  }
+  #btg-app .btg-result.btg-visible { display: block; }
+  #btg-app .btg-result__title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 15px 18px;
+    background: var(--btg-blue-soft);
+    color: #173352;
+    font-weight: 900;
+    font-size: 20px;
+  }
+  #btg-app .btg-result--critical { border-color: rgba(165, 47, 51, .42); }
+  #btg-app .btg-result--critical .btg-result__title { background: var(--btg-red-soft); color: var(--btg-red); }
+  #btg-app .btg-result--urgent { border-color: rgba(138, 90, 0, .38); }
+  #btg-app .btg-result--urgent .btg-result__title { background: var(--btg-amber-soft); color: var(--btg-amber); }
+  #btg-app .btg-result__content { padding: 18px; }
+  #btg-app .btg-result__content ul { margin: 8px 0 0 22px; padding: 0; }
+  #btg-app .btg-result__content li { margin: 7px 0; }
+
+  #btg-app .btg-action-links { display: flex; flex-wrap: wrap; gap: 9px; margin: 13px 0; }
+  #btg-app .btg-action-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 42px;
+    padding: 9px 13px;
+    border: 1px solid var(--btg-line);
+    border-radius: 12px;
+    background: #fff;
+    color: var(--btg-navy) !important;
+    font-size: 13px;
+    font-weight: 850;
+    text-decoration: none !important;
+  }
+  #btg-app .btg-action-link--danger { background: var(--btg-red); border-color: var(--btg-red); color: #fff !important; }
+  #btg-app .btg-action-link--blue { background: var(--btg-blue); border-color: var(--btg-blue); color: #fff !important; }
+  #btg-app .btg-action-link--green { background: var(--btg-green); border-color: var(--btg-green); color: #fff !important; }
+
+  #btg-app .btg-checklist { display: grid; gap: 10px; counter-reset: btg-step; }
+  #btg-app .btg-step {
+    display: grid;
+    grid-template-columns: 40px 1fr;
+    gap: 11px;
+    align-items: start;
+    padding: 12px;
+    border: 1px solid var(--btg-line);
+    border-radius: 14px;
+    background: #fff;
+  }
+  #btg-app .btg-step::before {
+    counter-increment: btg-step;
+    content: counter(btg-step);
+    display: grid;
+    place-items: center;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: var(--btg-green-soft);
+    color: var(--btg-green);
+    font-weight: 900;
+  }
+  #btg-app .btg-step strong { display: block; margin-bottom: 2px; color: #24364f; }
+
+  #btg-app .btg-ladder { display: grid; gap: 10px; }
+  #btg-app details {
+    border: 1px solid var(--btg-line);
+    border-radius: 14px;
+    background: rgba(255, 255, 255, .75);
+    overflow: hidden;
+  }
+  #btg-app summary {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 14px 15px;
+    color: #24364f;
+    font-weight: 850;
+    cursor: pointer;
+    list-style: none;
+  }
+  #btg-app summary::-webkit-details-marker { display: none; }
+  #btg-app summary::after {
+    content: "+";
+    display: grid;
+    place-items: center;
+    width: 25px;
+    height: 25px;
+    margin-left: auto;
+    border: 1px solid var(--btg-line);
+    border-radius: 50%;
+    background: #fff;
+    color: var(--btg-blue);
+    flex: 0 0 auto;
+  }
+  #btg-app details[open] summary::after { content: "–"; }
+  #btg-app .btg-inside { padding: 0 15px 15px; color: #374151; }
+  #btg-app .btg-inside ul { margin: 8px 0 0 20px; padding: 0; }
+  #btg-app .btg-inside li { margin: 7px 0; }
+
+  #btg-app .btg-resource-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+  #btg-app .btg-resource {
+    display: block;
+    min-height: 100%;
+    padding: 13px;
+    border: 1px solid var(--btg-line);
+    border-radius: 14px;
+    background: #fff;
+    color: var(--btg-ink) !important;
+    text-decoration: none !important;
+  }
+  #btg-app .btg-resource strong { display: block; margin-bottom: 2px; color: var(--btg-navy); }
+  #btg-app .btg-resource span { color: var(--btg-muted); font-size: 12px; }
+
+  #btg-app .btg-table-wrap { overflow-x: auto; border: 1px solid var(--btg-line); border-radius: 14px; }
+  #btg-app table { width: 100%; border-collapse: collapse; background: #fff; font-size: 13px; }
+  #btg-app th,
+  #btg-app td { padding: 11px 12px; border-bottom: 1px solid var(--btg-line); vertical-align: top; text-align: left; }
+  #btg-app th { background: #f8f3eb; color: #24364f; font-weight: 850; }
+  #btg-app tr:last-child td { border-bottom: 0; }
+
+  #btg-app .btg-panic-view { display: none; }
+  #btg-app.btg-is-panic .btg-normal-view { display: none !important; }
+  #btg-app.btg-is-panic .btg-panic-view { display: block; }
+  #btg-app.btg-is-panic .btg-shell { max-width: 870px; margin: 0 auto; }
+  #btg-app.btg-is-panic .btg-hero .btg-title { font-size: clamp(34px, 7vw, 58px) !important; }
+  #btg-app.btg-is-panic .btg-card { box-shadow: none; }
+  #btg-app.btg-is-panic .btg-step { font-size: 18px; }
+
+  #btg-app .btg-status { min-height: 18px; margin-top: 8px; color: var(--btg-green); font-size: 12px; font-weight: 800; text-align: center; }
+  #btg-app .btg-footer { margin: 24px 0 5px; color: var(--btg-muted); font-size: 12px; text-align: center; }
+  #btg-app .btg-footer strong { color: var(--btg-navy); }
+  #btg-app .btg-sr-only {
+    position: absolute !important;
+    width: 1px !important;
+    height: 1px !important;
+    padding: 0 !important;
+    margin: -1px !important;
+    overflow: hidden !important;
+    clip: rect(0, 0, 0, 0) !important;
+    white-space: nowrap !important;
+    border: 0 !important;
+  }
+
+
+  #btg-app .btg-quickstart { border: 2px solid rgba(47, 98, 141, .2); }
+  #btg-app .btg-quickgrid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 10px;
+  }
+  #btg-app .btg-quicktile {
+    position: relative;
+    min-height: 132px;
+    padding: 15px 15px 14px 50px;
+    border: 1px solid var(--btg-line);
+    border-radius: 15px;
+    background: #fff;
+  }
+  #btg-app .btg-quicktile strong { display: block; margin-bottom: 4px; color: #24364f; }
+  #btg-app .btg-quicktile p { margin: 0; color: #4a5666; font-size: 13px; }
+  #btg-app .btg-quicknum {
+    position: absolute;
+    top: 14px;
+    left: 13px;
+    display: grid;
+    place-items: center;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background: var(--btg-blue-soft);
+    color: var(--btg-blue);
+    font-weight: 900;
+  }
+  #btg-app .btg-quicktile--danger { background: var(--btg-red-soft); border-color: rgba(165, 47, 51, .25); }
+  #btg-app .btg-quicktile--danger .btg-quicknum { background: #fff; color: var(--btg-red); }
+  #btg-app .btg-quicktile--action { background: var(--btg-amber-soft); border-color: rgba(138, 90, 0, .24); }
+  #btg-app .btg-quicktile--action .btg-quicknum { background: #fff; color: var(--btg-amber); }
+  #btg-app .btg-quicktile--support { background: var(--btg-green-soft); border-color: rgba(79, 111, 61, .24); }
+  #btg-app .btg-quicktile--support .btg-quicknum { background: #fff; color: var(--btg-green); }
+  #btg-app .btg-quick-actions { display: flex; flex-wrap: wrap; gap: 9px; margin-top: 14px; }
+  #btg-app .btg-result-recheck { margin-top: 15px; }
+  #btg-app .btg-evidence-boundary {
+    border-left: 4px solid var(--btg-purple);
+    padding-left: 12px;
+  }
+
+  @media (max-width: 900px) {
+    #btg-app .btg-grid,
+    #btg-app .btg-grid--equal,
+    #btg-app .btg-quickgrid { grid-template-columns: 1fr; }
+  }
+  @media (max-width: 620px) {
+    #btg-app { border-radius: 0; border-left: 0; border-right: 0; }
+    #btg-app .btg-shell { padding: 14px; }
+    #btg-app .btg-card__head,
+    #btg-app .btg-card__body { padding: 15px; }
+    #btg-app .btg-form-grid,
+    #btg-app .btg-resource-grid,
+    #btg-app .btg-inner-signal-panel .btg-card__body { grid-template-columns: 1fr; }
+    #btg-app .btg-toolbar,
+    #btg-app .btg-action-links { align-items: stretch; }
+    #btg-app .btg-toolbar .btg-btn,
+    #btg-app .btg-action-link { width: 100%; }
+    #btg-app .btg-step { grid-template-columns: 36px 1fr; }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    #btg-app * { scroll-behavior: auto !important; transition: none !important; }
+  }
+</style>
+
+<div id="btg-app" class="btg-app" data-version="2026-11-04-v8">
+  <div class="btg-shell">
+    <section class="btg-hero" aria-labelledby="btg-main-title">
+      <div class="btg-kicker">Optimized quick-reference companion</div>
+      <h1 class="btg-title" id="btg-main-title">Bad Trip Triage</h1>
+      <p class="btg-mantra">We are not the feelings, we are what opens to let them flow.</p>
+      <p class="btg-subtitle">First rule out danger. A high person saying “my brain feels damaged” is not automatically just anxious: use DMSO right away while actively checking neurological signs. Then pause unsafe momentum, fix the room, settle the body, get one human anchor, and only afterward decide what meaning—if any—belongs to the experience.</p>
+      <p class="btg-privacy-note">Runs entirely in your browser. Nothing entered here is sent or saved.</p>
+      <div class="btg-toolbar btg-normal-view" aria-label="App actions">
+        <a class="btg-btn btg-btn--green" href="https://badtrips.u-dont-exist.com/" target="_blank" rel="noopener">← Read the full guide</a>
+        <a class="btg-btn btg-btn--inner" href="https://innersignalselfhypnosis.com/using-inner-signal-in-an-altered-state/" target="_blank" rel="noopener noreferrer">Inner Signal: interactive APP</a>
+        <button class="btg-btn btg-btn--danger" type="button" data-btg-action="panic">Emergency / panic mode</button>
+        <button class="btg-btn btg-btn--primary" type="button" data-btg-action="print">Print / save PDF</button>
+        <a class="btg-btn btg-btn--soft" href="#btg-support-title">Live support</a>
+        <a class="btg-btn btg-btn--soft" href="#btg-container-section">Plan a safer session</a>
+        <button class="btg-btn btg-btn--soft" type="button" data-btg-action="copy-checklist">Copy one-minute checklist</button>
+        <button class="btg-btn" type="button" data-btg-action="reset">Reset</button>
+      </div>
+
+      <section class="btg-card btg-inner-signal-panel btg-normal-view" aria-labelledby="btg-inner-signal-hero-title">
+        <div class="btg-card__body">
+          <div>
+            <div class="btg-badge-row">
+              <span class="btg-badge btg-badge--support">Mentally difficult, not medically dangerous</span>
+              <span class="btg-badge btg-badge--personal">Inner-child reparenting support</span>
+            </div>
+            <h2 class="btg-h2" id="btg-inner-signal-hero-title">Use Inner Signal when the trip is safe enough to work with</h2>
+            <p>After an active danger and neurological screen is reassuring—and the person is still clear enough to use simple technology—Inner Signal Self-Hypnosis can guide difficult emotional material into compassionate inner listening and inner-child reparenting.</p>
+            <p class="btg-inner-signal-note">Do not use an app instead of emergency care, poison/toxicology help, mental-health crisis support, or a sober sitter when safety is unclear.</p>
+          </div>
+          <div class="btg-inner-signal-actions" aria-label="Inner Signal links">
+            <a class="btg-btn btg-btn--inner btg-btn--large" href="https://innersignalselfhypnosis.com/using-inner-signal-in-an-altered-state/" target="_blank" rel="noopener noreferrer">Inner Signal: interactive APP</a>
+            <a class="btg-btn btg-btn--soft" href="#btg-inner-signal-section">When to use it</a>
+          </div>
+        </div>
+      </section>
+      <div class="btg-status" aria-live="polite" data-btg-status></div>
+    </section>
+
+    <section class="btg-panic-view" aria-labelledby="btg-panic-title">
+      <article class="btg-card">
+        <div class="btg-card__head"><h2 class="btg-h2" id="btg-panic-title">Do this first</h2></div>
+        <div class="btg-card__body">
+          <div class="btg-callout btg-callout--red">
+            <strong>Call emergency services now</strong> for collapse, prolonged or repeated seizure, trouble breathing, inability to wake, serious chest pain, dangerous overheating, severe injury, one-sided weakness or speech loss, objective loss of bodily control, weapons/violence, or immediate danger to self or others.
+          </div>
+          <div class="btg-callout btg-callout--purple">
+            <strong>If someone says “my brain feels damaged,” take it seriously.</strong> Use DMSO now, and smell humic acid (if that doesn’t help, take a 5mg lick of it), while checking wakefulness, breathing, facial symmetry, both arms, speech, walking, bodily control, temperature, seizure, chest symptoms, and vision. If any objective sign is present—or the person cannot reliably complete the check—activate emergency help in parallel. Do not wait for a perfect description. A measured 39°C / 102.2°F or higher is emergency-level; 38–38.9°C / 100.4–102°F during an altered or stimulant state needs urgent same-day evaluation, active cooling, and repeated checks.
+          </div>
+          <div class="btg-action-links" aria-label="Emergency and crisis resources">
+            <a class="btg-action-link btg-action-link--danger" href="tel:911">U.S.: Call 911</a>
+            <a class="btg-action-link btg-action-link--blue" href="tel:18002221222">U.S. Poison Control: 1-800-222-1222</a>
+            <a class="btg-action-link" href="tel:988">U.S.: Call/Text 988</a>
+            <a class="btg-action-link" href="https://findahelpline.com/" target="_blank" rel="noopener noreferrer">Find local crisis help</a>
+          </div>
+          <p class="btg-small">Outside the U.S., call the local emergency number, poison center, or crisis line. Do not delay emergency care while using this app.</p>
+
+          <div class="btg-checklist">
+            <div class="btg-step"><div><strong>Protect the body.</strong> Move away from traffic, water, heights, sharp objects, heat sources, and crowds. Safe movement is allowed; unsafe momentum is not.</div></div>
+            <div class="btg-step"><div><strong>Use one calm lead person.</strong> One grounded human should speak slowly. Add one more calm adult or crisis professional only if safety, fatigue, or logistics require it.</div></div>
+            <div class="btg-step"><div><strong>Stop redosing and random stacking.</strong> The exception is DMSO first when acute neurological injury is suspected. For a psychedelic brain-damage concern, prepare to stop the trip with beach morning glory (<em>Ipomoea pes-caprae</em>) once swallowing and basic stability are established (in the author’s experience a whole leaf can easily end a trip); for MDMA, use the separate magnesium/electrolyte branch.</div></div>
+            <div class="btg-step"><div><strong>Do not force anything by mouth.</strong> If confused, very drowsy, vomiting, or at seizure risk, do not give food, drink, pills, or charcoal. Do not induce vomiting.</div></div>
+            <div class="btg-step"><div><strong>Lower stimulation and orient.</strong> Dim lights, reduce sound, remove extra people, and repeat: “You are in [place]. It is [time]. This will change.”</div></div>
+            <div class="btg-step"><div><strong>Do not argue to win.</strong> Also do not validate harmful commands. Reflect the feeling, then redirect to safety, peace, sleep, non-harm, and ordinary reality.</div></div>
+            <div class="btg-step"><div><strong>Prepare the handoff.</strong> Gather exact substances, amount, time taken, medication list, medical history, temperature/pulse if known, and packaging.</div></div>
+          </div>
+
+          <div class="btg-callout btg-callout--amber">
+            <strong>Possible serotonin toxicity:</strong> after a serotonergic drug or combination, rhythmic jerking/clonus, marked tremor with very brisk reflexes, severe agitation/confusion, rigidity, or temperature above 38°C are emergency warning signs. Do not try to perform reflex tests; call for help.
+          </div>
+          <button class="btg-btn" type="button" data-btg-action="exit-panic">Return to full guide</button>
+        </div>
+      </article>
+    </section>
+
+    <div class="btg-normal-view">
+
+      <section class="btg-card btg-quickstart btg-section" aria-labelledby="btg-quickstart-title">
+        <div class="btg-card__head">
+          <h2 class="btg-h2" id="btg-quickstart-title">60-second first pass</h2>
+          <p class="btg-small">Use this before reading the longer sections. The order is the intervention.</p>
+        </div>
+        <div class="btg-card__body">
+          <div class="btg-callout btg-callout--purple">
+            <strong>“My brain feels damaged” is a routing signal, not proof of anxiety.</strong> Use DMSO right away while checking wakefulness, breathing, smile, both arms, speech, walking, bodily control, seizure, temperature, chest symptoms, vomiting, and vision. Unable to answer means stability is unknown. Objective signs → emergency help in parallel. Reassuring screen + psychedelic → stop the trip with beach morning glory (<em>Ipomoea pes-caprae</em>). Reassuring screen + MDMA → magnesium/electrolyte branch.
+          </div>
+          <div class="btg-quickgrid">
+            <div class="btg-quicktile btg-quicktile--danger"><span class="btg-quicknum">1</span><strong>Objective danger?</strong><p>Collapse, prolonged/repeated seizure, breathing trouble, focal weakness or speech loss, serious chest pain, dangerous heat, serious injury, repeated vomiting, or real harm risk → urgent help while acting.</p></div>
+            <div class="btg-quicktile btg-quicktile--action"><span class="btg-quicknum">2</span><strong>Pause consequences.</strong><p>Keys, roads, balconies, water, weapons, posting, confronting, redosing, disappearing, and “proving” anything wait until sleep.</p></div>
+            <div class="btg-quicktile"><span class="btg-quicknum">3</span><strong>Identify the pattern.</strong><p>Psychedelic, MDMA, another drug, or unknown? “Too intense” can be calmed; possible brain damage changes the goal toward neurological protection and, for psychedelics, stopping the trip.</p></div>
+            <div class="btg-quicktile"><span class="btg-quicknum">4</span><strong>Fix room + body.</strong><p>Lower stimulation. Ask “music or quiet?” If music helps, use something familiar and keep stop/change within reach. Check temperature, hydration, food, sleep, pain, nausea, bathroom access, jaw/muscle tension, and drug/medication interactions.</p></div>
+            <div class="btg-quicktile btg-quicktile--support"><span class="btg-quicknum">5</span><strong>One human anchor.</strong><p>One calm sober lead person speaks slowly. Add one more calm adult or crisis professional only if safety or logistics require backup.</p></div>
+            <div class="btg-quicktile"><span class="btg-quicknum">6</span><strong>Meaning comes later.</strong><p>Orient to place and time. Protect sleep. Visions are not commands. If the revelation is true, it will survive sleep and breakfast.</p></div>
+          </div>
+          <div class="btg-callout btg-callout--blue">
+            <strong>When staring inward becomes a trap:</strong> let one part of attention stay with the feeling while another part finishes one safe task with a visible endpoint—fold five towels, sort ten objects, draw one shape, or wash one cup. Stop if the task increases speed, agitation, impulsivity, or risk.
+          </div>
+          <div class="btg-quick-actions">
+            <a class="btg-btn btg-btn--primary btg-btn--compact" href="#btg-triage-section">Start interactive triage</a>
+            <button class="btg-btn btg-btn--danger btg-btn--compact" type="button" data-btg-action="panic">Emergency / panic mode</button>
+            <a class="btg-btn btg-btn--compact" href="#btg-support-title">Live and online support</a>
+          </div>
+        </div>
+      </section>
+      <main class="btg-grid">
+        <section class="btg-card" id="btg-triage-section" aria-labelledby="btg-triage-title">
+          <div class="btg-card__head">
+            <h2 class="btg-h2" id="btg-triage-title">Interactive triage</h2>
+            <p class="btg-small">A first-pass decision aid—not a diagnosis. When in doubt, escalate rather than experimenting.</p>
+          </div>
+          <div class="btg-card__body">
+            <form data-btg-form novalidate>
+              <fieldset>
+                <legend>1) Danger check</legend>
+                <label class="btg-choice"><input type="checkbox" name="danger" value="critical-airway"> Collapse, seizure, trouble breathing, blue/gray lips, or cannot be awakened</label>
+                <label class="btg-choice"><input type="checkbox" name="danger" value="critical-chest"> Serious chest pain, fainting, or severe injury</label>
+                <label class="btg-choice"><input type="checkbox" name="danger" value="critical-neuro"> One-sided weakness/numbness, face droop, speech loss, objective loss of bodily control, vision loss, or the person cannot reliably complete a neurological check</label>
+                <label class="btg-choice"><input type="checkbox" name="danger" value="neuro-concern"> The person says “my brain feels damaged/broken” or “I’m losing control of my body,” but the specific signs are still unclear</label>
+                <label class="btg-choice"><input type="checkbox" name="danger" value="critical-heat"> Very hot, rigid, repetitive jerking/clonus, severe shaking, or confused/agitated after a serotonergic drug or combination</label>
+                <label class="btg-choice"><input type="checkbox" name="danger" value="critical-harm"> Immediate danger to self/others, uncontrollable violence, or cannot be kept physically safe</label>
+                <label class="btg-choice"><input type="checkbox" name="danger" value="urgent-exposure"> Possible toxic exposure, unknown substance, risky combination, or unexpected medication interaction</label>
+                <label class="btg-choice"><input type="checkbox" name="danger" value="urgent-vomit"> Repeated vomiting, cannot keep fluids down, severe dehydration, blood, or severe abdominal pain</label>
+              </fieldset>
+
+              <fieldset>
+                <legend>2) What is driving the distress?</legend>
+                <div class="btg-field">
+                  <label for="btg-problem">Main problem right now</label>
+                  <select id="btg-problem" data-btg-problem>
+                    <option value="unknown">Unclear or mixed</option>
+                    <option value="action">Unsafe momentum: driving, posting, leaving alone, confronting, confessing, redosing, or proving a theory</option>
+                    <option value="environment">The room, people, sound, privacy, phone, heat/cold, or setting feels wrong</option>
+                    <option value="body">The body feels hot, dehydrated, exhausted, overstimulated, underfed, overfed, sleep-deprived, or generally unwell</option>
+                    <option value="neurological">“My brain feels damaged/broken,” loss of bodily control, or another hard-to-describe neurological concern</option>
+                    <option value="mdma">MDMA jaw/muscle tension or broader electrolyte concern</option>
+                    <option value="alone">The person is alone or no grounded human is available</option>
+                    <option value="gut">Sick stomach, nausea, diarrhea, toxic heaviness, dirty body-feeling, suspected parasite die-off, or mental hell driven by gut hell</option>
+                    <option value="nausea">Nausea or vomiting is the main problem</option>
+                    <option value="emotional">Grief, fear, shame, trauma, sorrow, or inner-child material is surfacing</option>
+                    <option value="overload">Panic, looping, sensory overload, or mentally “too much”</option>
+                    <option value="grandiosity">Euphoric certainty, “I am God/chosen,” mission energy, no sleep, or a need to prove something</option>
+                    <option value="entity">Demon/jinn/entity/possession-like or terrifying psychic material</option>
+                    <option value="psychosis">Severe disorganization, paranoia, command content, mania-like energy, or psychosis-like symptoms</option>
+                    <option value="abort">The person strongly wants the experience reduced or stopped</option>
+                  </select>
+                </div>
+              </fieldset>
+
+              <fieldset>
+                <legend>3) Substance pattern, neurological screen, alertness, and goal</legend>
+                <div class="btg-form-grid">
+                  <div class="btg-field">
+                    <label for="btg-drug-type">Main substance pattern</label>
+                    <select id="btg-drug-type" data-btg-drug-type>
+                      <option value="unknown">Unknown, mixed, or not entered</option>
+                      <option value="psychedelic">Psychedelic: LSD, mushrooms, DMT/ayahuasca, mescaline, etc.</option>
+                      <option value="mdma">MDMA / ecstasy / molly</option>
+                      <option value="other">Cannabis, stimulant, dissociative, medication, or another drug</option>
+                    </select>
+                  </div>
+                  <div class="btg-field">
+                    <label for="btg-neuro-status">If brain damage or neurological trouble was reported</label>
+                    <select id="btg-neuro-status" data-btg-neuro-status>
+                      <option value="none">No current brain-damage or loss-of-control report</option>
+                      <option value="unchecked">Not yet checked; person can answer</option>
+                      <option value="reassuring">Checked: awake, breathing normally, even smile, both arms, clear speech, no focal loss of control</option>
+                      <option value="unable">Cannot reliably complete the check, or objective signs are present</option>
+                    </select>
+                  </div>
+                  <div class="btg-field">
+                    <label for="btg-alertness">Alertness</label>
+                    <select id="btg-alertness" data-btg-alertness>
+                      <option value="alert">Fully awake and able to answer normally</option>
+                      <option value="confused">Confused or disoriented, but awake</option>
+                      <option value="drowsy">Hard to wake, repeatedly passing out, or unable to protect airway</option>
+                    </select>
+                  </div>
+                  <div class="btg-field">
+                    <label for="btg-goal">Immediate goal</label>
+                    <select id="btg-goal" data-btg-goal>
+                      <option value="stabilize">Stabilize first; preserve the experience if safely possible</option>
+                      <option value="relief">Reduce distress without forcing meaning</option>
+                      <option value="abort">Strongly reduce or stop the experience</option>
+                      <option value="unsure">Unsure—use the least-forceful safe step</option>
+                    </select>
+                  </div>
+                </div>
+              </fieldset>
+
+              <fieldset>
+                <legend>4) Extra caution</legend>
+                <label class="btg-choice"><input type="checkbox" name="context" value="vulnerable"> Child, pregnancy, older adult, major medical condition, or unknown sensitivity</label>
+                <label class="btg-choice"><input type="checkbox" name="context" value="meds"> Prescription medicines, MAOI/harmala exposure, opioids, stimulants, or multiple serotonergic substances</label>
+                <label class="btg-choice"><input type="checkbox" name="context" value="mania"> Mania/psychosis history, pressured speech, escalating grandiosity, or no sleep</label>
+                <label class="btg-choice"><input type="checkbox" name="context" value="commands"> Visions, memories, entities, or cosmic conclusions feel like commands or include harm/proving/testing</label>
+                <label class="btg-choice"><input type="checkbox" name="context" value="alone"> Person is alone, sitter is unsure, or no sober support is available</label>
+                <label class="btg-choice"><input type="checkbox" name="context" value="tech"> Person is medically stable, alert, and able to use a simple app or phone without becoming more confused</label>
+                <label class="btg-choice"><input type="checkbox" name="context" value="kidney"> Significant kidney impairment or uncertainty about kidney function</label>
+                <label class="btg-choice"><input type="checkbox" name="context" value="rescue-plan"> A familiar personal or clinician-provided rescue plan is already available</label>
+              </fieldset>
+
+              <div class="btg-form-grid">
+                <div class="btg-field">
+                  <label for="btg-temp">Temperature °C, if already measured</label>
+                  <input id="btg-temp" data-btg-temp type="number" min="30" max="45" step="0.1" inputmode="decimal" placeholder="e.g., 38.4">
+                </div>
+                <div class="btg-field">
+                  <label for="btg-onset">Approximate onset / time taken</label>
+                  <input id="btg-onset" data-btg-onset type="text" placeholder="e.g., took at 8:15 pm; symptoms 9:00 pm">
+                </div>
+              </div>
+              <div class="btg-field">
+                <label for="btg-substances">Substances, amounts, medications, and combinations, if known</label>
+                <textarea id="btg-substances" data-btg-substances placeholder="Use exact names and amounts. Include supplements and recent medication changes."></textarea>
+              </div>
+
+              <button class="btg-btn btg-btn--primary" type="submit">Show triage response</button>
+            </form>
+
+            <section class="btg-result" data-btg-result aria-live="polite" tabindex="-1">
+              <div class="btg-result__title" data-btg-result-title>Response</div>
+              <div class="btg-result__content" data-btg-result-content></div>
+            </section>
+          </div>
+        </section>
+
+        <aside class="btg-stack">
+          <section class="btg-card" aria-labelledby="btg-check-title">
+            <div class="btg-card__head"><h2 class="btg-h2" id="btg-check-title">Expanded quick checklist</h2></div>
+            <div class="btg-card__body">
+              <div class="btg-checklist" data-btg-checklist>
+                <div class="btg-step"><div><strong>Medical, neurological, or physical danger?</strong> A report of brain damage gets an active screen and DMSO-first field action. Breathing trouble, collapse, prolonged/repeated seizure, focal weakness/speech loss, chest pain, dangerous heat, severe injury, constant vomiting, or immediate harm risk → get help while acting.</div></div>
+                <div class="btg-step"><div><strong>Unsafe momentum?</strong> Pause roads, balconies, water, knives, stoves, driving, posting, texting, confronting, redosing, proving, or leaving alone.</div></div>
+                <div class="btg-step"><div><strong>Room wrong?</strong> Fix light, sound, temperature, crowding, privacy, phone, bathroom/bucket access, and whether touch is wanted. Ask “music or quiet?” Use something familiar, keep stop/change within reach, and change it immediately if it steers the state somewhere unwanted. Steady drumming may feel grounding; airy harp-like or meditative music may feel more uplifting.</div></div>
+                <div class="btg-step"><div><strong>Stillness, movement, or parallel processing?</strong> Try the safest option for two minutes. If immobile introspection is making things worse, keep part of attention with the feeling while another part finishes one safe task with a visible endpoint.</div></div>
+                <div class="btg-step"><div><strong>Human anchor?</strong> One calm sober lead is best. Add one more calm adult or crisis professional only if one person cannot safely hold the situation.</div></div>
+                <div class="btg-step"><div><strong>Alone at 3 a.m.?</strong> One lamp, blanket, water, keys away, phone for support only. Write: “This will change. No big actions until morning.”</div></div>
+                <div class="btg-step"><div><strong>Grounding?</strong> Orient to place/time, hand on heart + solar plexus, longer exhale or gentle Buteyko-style reduced breathing, low light, blanket, water, one familiar track or silence. A familiar note, toy, stuffed animal, or other object may remind you of the Nurturer or Protector—but it does not speak, interpret the trip, or decide what is true.</div></div>
+                <div class="btg-step"><div><strong>Euphoric certainty?</strong> Bliss is not proof of safety. The action lock applies double. If the revelation is true, it will survive sleep and breakfast.</div></div>
+                <div class="btg-step"><div><strong>Visions or commands?</strong> Do not argue to win or validate harm. Redirect to peace, non-harm, sleep, and ordinary reality. Escalate if there is real harm risk.</div></div>
+                <div class="btg-step"><div><strong>Gut hell or nausea?</strong> Check red flags first. If there is no medical danger and the person is alert/not vomiting, the guide’s personal first-thought tools are zeolite and/or ZHoly3O-style ferment. Do not use charcoal casually or to delay poison/medical care.</div></div>
+                <div class="btg-step"><div><strong>Shadow work?</strong> Love, awareness, inner-child care, widening compassion to all beings, and gratitude only after safety, body, room, and action-lock are handled.</div></div>
+                <div class="btg-step"><div><strong>Planned session?</strong> Before future deep work, create a container: rest and timing, physical safety, intention without a forced result, low-directivity support, closure, food/sleep, and next-day integration.</div></div>
+                <div class="btg-step"><div><strong>Afterward?</strong> Sleep, simple food, water, walking, journaling, one grounded person, no major decisions, then integrate slowly.</div></div>
+              </div>
+              <div class="btg-badge-row">
+                <span class="btg-badge btg-badge--consensus">Stabilize before spiritualizing</span>
+                <span class="btg-badge btg-badge--support">Safe movement is allowed</span>
+                <span class="btg-badge btg-badge--support">Do not argue to win</span>
+                <span class="btg-badge btg-badge--caution">No rash actions</span>
+              </div>
+            </div>
+          </section>
+
+          <section class="btg-card" aria-labelledby="btg-handoff-title">
+            <div class="btg-card__head"><h2 class="btg-h2" id="btg-handoff-title">Responder handoff note</h2></div>
+            <div class="btg-card__body">
+              <p class="btg-small">Prepare this before calling. It stays on this device unless you copy it.</p>
+              <div class="btg-field"><label for="btg-h-age">Age / approximate weight</label><input id="btg-h-age" data-btg-h-age type="text" placeholder="Optional"></div>
+              <div class="btg-field"><label for="btg-h-substances">Substance, amount, route, time</label><textarea id="btg-h-substances" data-btg-h-substances placeholder="Exact packaging/name if possible"></textarea></div>
+              <div class="btg-field"><label for="btg-h-symptoms">Current symptoms and when they began</label><textarea id="btg-h-symptoms" data-btg-h-symptoms placeholder="Temperature, pulse, vomiting, clonus/jerking, confusion, etc."></textarea></div>
+              <div class="btg-field"><label for="btg-h-history">Medicines, supplements, conditions, allergies</label><textarea id="btg-h-history" data-btg-h-history placeholder="Include MAOIs/harmalas, opioids, stimulants, SSRIs/SNRIs, and recent dose changes"></textarea></div>
+              <button class="btg-btn btg-btn--green" type="button" data-btg-action="copy-handoff">Copy handoff note</button>
+            </div>
+          </section>
+        </aside>
+      </main>
+
+      <section class="btg-card btg-section" aria-labelledby="btg-ladder-title">
+        <div class="btg-card__head">
+          <h2 class="btg-h2" id="btg-ladder-title">The updated triage ladder</h2>
+          <p class="btg-small">Start at the top. Do not skip a higher-priority layer because a lower one sounds more spiritual.</p>
+        </div>
+        <div class="btg-card__body btg-ladder">
+          <details open>
+            <summary>0. Body danger: time is real here</summary>
+            <div class="btg-inside">
+              <p>Call emergency services for collapse, prolonged or repeated seizure, breathing trouble, inability to wake, dangerous overheating, serious injury, one-sided weakness or speech loss, objective loss of bodily control, weapons/violence, or immediate danger. If someone reports possible brain damage, use DMSO right away while actively screening; objective signs or inability to assess mean urgent help in parallel. Use poison expertise for unknown substances or interaction concerns.</p>
+              <p class="btg-small">Do not make someone “sit with it” while a body is failing.</p>
+            </div>
+          </details>
+          <details open>
+            <summary>1. Pause unsafe momentum and lock out rash actions</summary>
+            <div class="btg-inside">
+              <p>Temporary states should not create permanent consequences. Pause roads, balconies, water, knives, stoves, driving, posting, texting, confessing, confronting, redosing, disappearing, giving away possessions, or proving anything tonight.</p>
+              <p><strong>Action-lock line:</strong> “If this is true, it will still be true after sleep and breakfast.”</p>
+            </div>
+          </details>
+          <details open>
+            <summary>2. Room and setting: fix the obvious</summary>
+            <div class="btg-inside">
+              <ul>
+                <li>Dim lights and reduce noise. Ask “music or quiet?”</li>
+                <li>If music helps, use something familiar and keep pause, volume, and track change immediately available. Steady, non-aggressive drumming may feel organizing; airy harp-like or meditative music may feel uplifting. Silence is valid.</li>
+                <li>Do not impose a playlist arc. Change or stop the track immediately if it begins steering the experience somewhere unwanted.</li>
+                <li>Remove hostile, overtalkative, or theatrical people; stop phone notifications.</li>
+                <li>Check temperature, clothing, water, privacy, bathroom/bucket access, and whether touch is wanted.</li>
+                <li>Speak slowly. Do not explain the universe at someone who is scared.</li>
+              </ul>
+            </div>
+          </details>
+          <details>
+            <summary>3. Stillness or safe movement: experiment, don’t force</summary>
+            <div class="btg-inside">
+              <p>Reduce unsafe movement, not movement itself. Try the safest option for two minutes and ask whether it makes the person safer and clearer or more activated and impulsive.</p>
+              <ul>
+                <li>Stillness options: sit against a wall, lie under a blanket, hand on heart, hand on solar plexus.</li>
+                <li>Movement options: slow pacing, gentle stretching, shaking out arms/legs, wall push-ups, folding clothes, washing one cup, tidying one surface.</li>
+                <li><strong>Parallel processing:</strong> when staring inward becomes a trap, let one part of attention stay with the body or feeling while another part completes one safe task with a visible endpoint—fold five towels, sort ten objects, draw one shape, or wash one cup.</li>
+                <li>Stop the task if it increases speed, agitation, dissociation, impulsivity, or risk. Do not use driving, cooking, knives, heights, water hazards, complex decisions, or strenuous exertion.</li>
+                <li>Avoid strenuous exercise if there is overheating, chest pain, faintness, stimulant/unknown drug combinations, severe confusion, or medical instability.</li>
+              </ul>
+            </div>
+          </details>
+          <details>
+            <summary>4. Human anchor: one lead, backup only if needed</summary>
+            <div class="btg-inside">
+              <p>One calm sober person is usually better than a crowd. If one person cannot safely cover safety, fatigue, logistics, violence risk, or self-harm risk, add one more calm adult or a crisis professional.</p>
+              <p><strong>Script:</strong> “I’m in an intense state. I don’t need you to solve my life. Please stay with me, speak slowly, remind me where I am, and help me not make any big decisions until tomorrow.”</p>
+            </div>
+          </details>
+          <details>
+            <summary>5. Grounding: body, room, breath, human, time</summary>
+            <div class="btg-inside">
+              <ul>
+                <li>Orient: “I am in [place]. It is [time]. This will change.”</li>
+                <li>Hand on heart and solar plexus: give the body a simple signal — love is here.</li>
+                <li>Or hold something with weight or texture, or sit near a calm pet when that feels safe.</li>
+                <li>A familiar note, childhood toy, stuffed animal, blanket, or other object may serve as a reminder of the Nurturer or Protector if its meaning was established while sober. The object can remind you; it does not speak, know the truth, or interpret the trip.</li>
+                <li>Pair the object with one adult action: contact the grounded person, move away from danger, prepare for sleep, or complete another concrete promise.</li>
+                <li>Try longer exhales first. If overbreathing is obvious, gentle Buteyko-style reduced breathing may help: breathe softly and slowly through the nose, taking in slightly less air than you want until there is faint air hunger. Never strain or use long breath-holds while intoxicated.</li>
+                <li>Look at one ordinary object and describe it plainly. Do not introduce a childhood photograph or search it for hidden memories during an acute difficult trip.</li>
+              </ul>
+            </div>
+          </details>
+          <details>
+            <summary>5A. Music: familiar, optional, and immediately changeable</summary>
+            <div class="btg-inside">
+              <p>Music can influence an altered state strongly. Use it as an optional support rather than a prescribed emotional journey.</p>
+              <ul>
+                <li>Ask “music or quiet?” and prefer something the person already knows and trusts.</li>
+                <li>Keep pause, volume, and track change within reach. If the music pulls the experience somewhere unwanted, change it immediately.</li>
+                <li>Steady, non-aggressive drumming may help a scattered body find a rhythm. Airy harp-like, spacious, or meditative music may feel more spiritually uplifting.</li>
+                <li>Those are choices, not promised effects. Silence may be best.</li>
+                <li>Do not automatically impose a nonverbal-to-lyrics progression or rise/peak/descent arc. Lyrics can become suggestion; use them only when chosen and helpful.</li>
+              </ul>
+              <div class="btg-action-links"><a class="btg-action-link" href="https://ibogaqueen.substack.com/p/some-of-my-favorite-music" target="_blank" rel="noopener noreferrer">Joel’s music page</a></div>
+            </div>
+          </details>
+          <details>
+            <summary>6. Euphoric certainty: dangerous states do not always feel bad</summary>
+            <div class="btg-inside">
+              <p>“I am God,” “I am chosen,” or “everyone must hear this tonight” may arrive with bliss. Bliss is not proof of safety. Mission energy plus sleep loss deserves more caution, not less.</p>
+              <ul>
+                <li>No posting, driving, confronting, confessing, redosing, disappearing, or testing theories tonight.</li>
+                <li>Ask: “Have I slept?” and “Has this happened before—and how did it end?”</li>
+                <li>Protect sleep as the first intervention. The revelation can wait.</li>
+              </ul>
+            </div>
+          </details>
+          <details>
+            <summary>7. Content that turns toward harm: redirect from inside the value-world</summary>
+            <div class="btg-inside">
+              <p>Do not try to win a metaphysical argument. Also do not agree with harmful conclusions. Reflect the feeling, then redirect to safety, peace, non-harm, sleep, and ordinary reality.</p>
+              <p><strong>Example:</strong> “I hear how vast and certain this feels. Many traditions say God is in everyone. That makes every body sacred, not disposable. Peace is the godly move tonight. No proof is needed.”</p>
+              <p>Escalate if there is a specific target, weapon, movement toward action, escalating violence, or the sitter cannot safely contain the situation.</p>
+            </div>
+          </details>
+          <details>
+            <summary>8. Body state: do not turn physiology into mythology</summary>
+            <div class="btg-inside">
+              <ul>
+                <li>Check heat, dehydration, exhaustion, sleep deprivation, pain, hunger/fullness, nausea, vomiting, diarrhea, and interactions.</li>
+                <li>A “toxic” or “dirty” feeling is a description, not proof of toxins, parasites, or “die-off.”</li>
+                <li>If fully alert and not vomiting, small sips may be reasonable; never force fluids.</li>
+                <li>Unknown or concerning ingestion → Poison Control or local toxicology advice.</li>
+              </ul>
+            </div>
+          </details>
+          <details>
+            <summary>9. Emotional material: love without interrogation</summary>
+            <div class="btg-inside">
+              <p>If the body is safe and real grief, shame, fear, or trauma is surfacing, use calm presence—not analysis every thirty seconds.</p>
+              <ul>
+                <li>“This feeling is allowed to move through; you do not have to become it.”</li>
+                <li>“Can I help make the room safer or quieter?”</li>
+                <li>Hand on heart and solar plexus only if the person wants it; let it be a signal of love, not forced positivity.</li>
+                <li>Do not trap someone in suffering because it has been labeled “healing.”</li>
+              </ul>
+            </div>
+          </details>
+          <details>
+            <summary>10. Hand on heart, inner-child love, and gratitude 🫶🏿</summary>
+            <div class="btg-inside">
+              <p>This is a deep question, not always the first practical move. If the person is too sick, hot, confused, impulsive, or terrified, stabilize first. Then invite loving awareness.</p>
+              <p>Putting a hand on the heart can change the direction of the trip, especially with emotional contraction, grief, fear, or loneliness. The point is not to fake loving thoughts. The point is to give the body a simple signal: love is here.</p>
+              <ul>
+                <li>Put one hand on the heart. Put the other hand on the solar plexus, just under that hand, to send love to the inner child.</li>
+                <li><strong>Useful prompt:</strong> “Can I send love to the one who is suffering?”</li>
+                <li>Once love reaches the inner child, it can widen to all beings who need it right now. Recognizing you are not the only one suffering can open the field of awareness in a liberating way.</li>
+                <li>Gratitude comes in like icing on the cake: gratitude for lessons, difficult experiences, reprieves, heart openings, and compassion.</li>
+                <li>Do not force gratitude if it feels fake, premature, or shaming. Stabilize first; let gratitude become real.</li>
+              </ul>
+            </div>
+          </details>
+          <details>
+            <summary>11. Inner Signal: guided self-hypnosis when technology is still workable</summary>
+            <div class="btg-inside">
+              <p>If the trip is not medically dangerous, the room is safe, the action-lock is in place, and the person can use a phone or simple web app without getting more confused, Inner Signal can serve as the guided inner-work layer.</p>
+              <ul>
+                <li>Best fit: grief, shame, fear, protector parts, inner-child material, looping emotional content, or a clear desire to listen inward.</li>
+                <li>Use it gently: slow prompts, no recovered-memory forcing, no pressure to find cosmic meaning.</li>
+                <li>Useful supports may include a familiar reminder object, one bounded parallel-processing task, or familiar user-controlled music. The object and music do not become authorities.</li>
+                <li>Do not introduce a childhood photograph during an acute difficult trip. Photograph mode belongs to planned, regulated work with explicit memory-source labeling.</li>
+                <li>Not a fit: chest pain, seizure risk, overheating, serotonin-toxicity signs, mania/psychosis-level danger, severe confusion, or any situation where screens worsen overload.</li>
+              </ul>
+              <div class="btg-action-links"><a class="btg-action-link btg-action-link--blue" href="https://innersignalselfhypnosis.com/using-inner-signal-in-an-altered-state/" target="_blank" rel="noopener noreferrer">Inner Signal: interactive APP</a></div>
+            </div>
+          </details>
+          <details>
+            <summary>12. After the storm: integrate before interpreting</summary>
+            <div class="btg-inside">
+              <ul>
+                <li>Sleep, water, simple food, walking, journaling, prayer/meditation, and one grounded conversation.</li>
+                <li>No major decisions, self-diagnoses, re-dosing, public posting, or literalizing every vision immediately.</li>
+                <li>Ask later: what was medical, environmental, emotional, old trauma, fantasy, and actually useful?</li>
+              </ul>
+            </div>
+          </details>
+        </div>
+      </section>
+
+      <section class="btg-card btg-section" id="btg-container-section" aria-labelledby="btg-container-title">
+        <div class="btg-card__head">
+          <h2 class="btg-h2" id="btg-container-title">Before a planned session: give it a beginning and an end</h2>
+          <p class="btg-small">This is prevention for deliberate inner work or altered-state sessions. Once somebody is already in trouble, use the acute triage above.</p>
+        </div>
+        <div class="btg-card__body">
+          <div class="btg-callout btg-callout--green"><strong>Container sequence:</strong> preparation → physical safety → intention → low-directivity support → closure → sleep and food → next-day integration.</div>
+          <div class="btg-checklist">
+            <div class="btg-step"><div><strong>Rest and timing.</strong> Do not begin deep work already depleted. When practical, start earlier in the day so there is time for the experience, ordinary contact, food, and sleep. This does not apply mechanically to bedtime hypnosis or a session intended to end in sleep.</div></div>
+            <div class="btg-step"><div><strong>Physical safety.</strong> Know the substance and approximate amount when relevant, review combinations and medical concerns, prepare the room, arrange sober support, and decide in advance what requires outside help.</div></div>
+            <div class="btg-step"><div><strong>Intention without a script.</strong> Name what you are open to exploring without demanding a revelation, recovered memory, catharsis, emotional arc, forgiveness, or spiritual result.</div></div>
+            <div class="btg-step"><div><strong>Low-directivity support.</strong> The sitter protects safety and offers choices. They do not force music, touch, photographs, interpretation, confession, prayer, or insight.</div></div>
+            <div class="btg-step"><div><strong>Music remains optional.</strong> Prefer familiar music, quiet, or a track that can be changed immediately. Do not impose an MDMA-style playlist arc.</div></div>
+            <div class="btg-step"><div><strong>Closure.</strong> Stop adding stimulation, return to the real room and date, restore voluntary movement and ordinary alertness unless the endpoint is sleep, eat and hydrate when safe, and write down basic facts before interpretation.</div></div>
+            <div class="btg-step"><div><strong>Integration time.</strong> Leave the rest of the day and, when possible, the next morning relatively free. Sleep and food come before a new life plan.</div></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="btg-grid btg-grid--equal btg-section">
+        <article class="btg-card" aria-labelledby="btg-serotonin-title">
+          <div class="btg-card__head"><h2 class="btg-h2" id="btg-serotonin-title">Serotonin-toxicity warning signs</h2></div>
+          <div class="btg-card__body">
+            <div class="btg-badge-row"><span class="btg-badge btg-badge--consensus">Medical emergency pathway</span></div>
+            <p>After exposure to a serotonergic medicine or drug, concerning neuromuscular signs matter more than anxiety alone:</p>
+            <ul>
+              <li>Spontaneous rhythmic jerking/clonus.</li>
+              <li>Clonus or rapid eye movements with agitation or heavy sweating.</li>
+              <li>Tremor with markedly brisk reflexes.</li>
+              <li>Rigidity with temperature above 38°C.</li>
+              <li>Severe confusion, escalating agitation, seizure, collapse, or breathing problems.</li>
+            </ul>
+            <div class="btg-callout btg-callout--red"><strong>Action:</strong> Stop taking more suspected substances, call emergency services or Poison Control, move to a cooler low-stimulation area without delaying transport, prevent exertion, and bring all packaging/medication details.</div>
+            <div class="btg-callout btg-callout--amber"><strong>Do not delay:</strong> cooling, reduced exertion, airway protection, or urgent care. If the person is fully alert and able to swallow, the guide gives cyproheptadine early, alongside the cooling and the help: case reports describe rapid improvement, while a recent systematic review found the evidence for major outcomes inconclusive. Nothing by mouth with an impaired airway, an active seizure, uncontrolled vomiting, or a caustic ingestion.</div>
+            <p class="btg-small">Source links are in the references section below.</p>
+          </div>
+        </article>
+
+        <article class="btg-card" aria-labelledby="btg-mental-title">
+          <div class="btg-card__head"><h2 class="btg-h2" id="btg-mental-title">When to bring in mental-health or crisis support</h2></div>
+          <div class="btg-card__body">
+            <div class="btg-badge-row"><span class="btg-badge btg-badge--support">Crisis / clinical support</span></div>
+            <ul>
+              <li>The person may be unsafe to themselves or others, or there is a specific target, means, weapon, or movement toward action.</li>
+              <li>Grandiosity, pressured speech, mission certainty, or “I am God/chosen” energy escalates with little or no sleep.</li>
+              <li>Psychosis-like symptoms continue after the expected acute drug state.</li>
+              <li>Sleep does not return and energy, agitation, paranoia, or disorganization escalates.</li>
+              <li>Suicidal thinking, severe panic, dissociation, or inability to function appears afterward.</li>
+              <li>The trauma material is larger than the current room or sitter can safely hold.</li>
+            </ul>
+            <div class="btg-action-links">
+              <a class="btg-action-link btg-action-link--blue" href="tel:988">U.S.: Call/Text 988</a>
+              <a class="btg-action-link" href="https://988lifeline.org/chat/" target="_blank" rel="noopener noreferrer">U.S.: 988 chat</a>
+              <a class="btg-action-link" href="https://findahelpline.com/" target="_blank" rel="noopener noreferrer">Find non-U.S. helplines</a>
+            </div>
+            <p class="btg-small">Immediate physical danger still belongs with emergency services. Peer-support lines are for support, not containment of active violence or medical emergencies.</p>
+          </div>
+        </article>
+      </section>
+
+      <section class="btg-grid btg-grid--equal btg-section">
+        <article class="btg-card" aria-labelledby="btg-script-title">
+          <div class="btg-card__head"><h2 class="btg-h2" id="btg-script-title">Sitter language that helps</h2></div>
+          <div class="btg-card__body">
+            <div class="btg-callout btg-callout--green"><strong>Safety:</strong> “You are not alone. I am here. We are going to make the room quieter and keep your body safe.”</div>
+            <div class="btg-callout btg-callout--blue"><strong>Time:</strong> “This state will change. You do not have to solve it right now.”</div>
+            <div class="btg-callout btg-callout--purple"><strong>Human anchor:</strong> “I don’t need you to explain it perfectly. We only need to stay safe, breathe, and get through the next few minutes.”</div>
+            <div class="btg-callout btg-callout--orange"><strong>Consent:</strong> “Would you like silence, a hand nearby, water, a blanket, movement, or more space?”</div>
+            <div class="btg-callout btg-callout--blue"><strong>Music:</strong> “Music or quiet? If music helps, let’s use something familiar and change it immediately if it starts pulling you somewhere you don’t want to go.”</div>
+            <div class="btg-callout btg-callout--green"><strong>Parallel processing:</strong> “Would it help to keep part of your attention with the feeling while we fold five towels or wash one cup? We stop when the task ends and check whether you feel more present.”</div>
+            <div class="btg-callout btg-callout--purple"><strong>Familiar object:</strong> “This object can remind you of the adult who protects and cares for you. It does not decide what happened or what anything means. You remain in charge.”</div>
+            <div class="btg-callout btg-callout--amber"><strong>Euphoric certainty:</strong> “I believe this feels huge. We still don’t drive, post, confront, or prove anything tonight. If it’s true, it survives sleep.”</div>
+            <div class="btg-callout btg-callout--purple"><strong>Heart and gratitude:</strong> “If it feels right, put one hand on your heart and one on your solar plexus. Love is here. Send love to the inner child first. If that opens, let it widen to everyone suffering right now. Gratitude can come later, only if it feels real.”</div>
+            <div class="btg-callout btg-callout--red"><strong>Content toward harm:</strong> “I hear how vast and certain this feels. Many traditions say God is in everyone. That makes every body sacred, not disposable. Peace is the godly move tonight. No proof is needed.”</div>
+            <p><strong>Avoid:</strong> arguing to win, validating harmful conclusions, diagnosing, crowding, forced touch, forcing interpretation, telling personal trip stories, or insisting that suffering is spiritually necessary.</p>
+          </div>
+        </article>
+
+        <article class="btg-card" aria-labelledby="btg-after-title">
+          <div class="btg-card__head"><h2 class="btg-h2" id="btg-after-title">Aftercare timeline</h2></div>
+          <div class="btg-card__body">
+            <h3 class="btg-h3">Next 24–72 hours</h3>
+            <p>Sleep as intervention. Hydration, simple food, no driving while impaired, no re-dosing, no posting/confessing/confronting/proving, and one calm person who can check in.</p>
+            <h3 class="btg-h3">Within 1–2 weeks</h3>
+            <p>Review substance, dose, combinations, body state, setting, sleep loss, and whether the main aftermath is anxiety, DP/DR, sleep disruption, visual distortion, shame/social withdrawal, existential shock, trauma material, or paranoia/psychosis-like belief.</p>
+            <h3 class="btg-h3">Within 4–12 weeks</h3>
+            <p>Seek clinical review if sleep, mood, anxiety, dissociation, psychosis-like symptoms, or functioning remain impaired. Integration should reduce suffering and improve behavior—not merely produce a more cosmic story.</p>
+          </div>
+        </article>
+      </section>
+
+      <section class="btg-card btg-section" id="btg-inner-signal-section" aria-labelledby="btg-inner-signal-title">
+        <div class="btg-card__head">
+          <h2 class="btg-h2" id="btg-inner-signal-title">Inner Signal Self-Hypnosis: the guided inner-work layer</h2>
+          <p class="btg-small">Use this only after the danger/room/body checks. It is for a difficult but workable mind-state—not for medical danger.</p>
+        </div>
+        <div class="btg-card__body">
+          <div class="btg-badge-row">
+            <span class="btg-badge btg-badge--support">Non-emergency support</span>
+            <span class="btg-badge btg-badge--personal">Inner-child reparenting</span>
+            <span class="btg-badge btg-badge--caution">Technology only if it helps</span>
+          </div>
+          <p><strong>Ideal use case:</strong> the person is not medically unstable, not in psychosis/mania-level danger, and still able to use a simple app. The trip is mentally difficult because material is coming up—fear, shame, grief, protector parts, loneliness, or inner-child pain—and they need a structured way to meet it with love.</p>
+          <div class="btg-grid btg-grid--equal">
+            <div class="btg-callout btg-callout--green"><strong>Good fit</strong><br>Emotionally intense but physically stable; can read/listen; wants support with self-hypnosis, inner listening, and reparenting.</div>
+            <div class="btg-callout btg-callout--red"><strong>Not a fit</strong><br>Emergency signs, overdose/interaction concern, severe confusion, mania/psychosis danger, suicidal/violent risk, or screen use makes the state worse.</div>
+          </div>
+          <div class="btg-grid btg-grid--equal">
+            <div class="btg-callout btg-callout--purple"><strong>Familiar reminder object</strong><br>Use only an object that already means safety or care. It can remind the adult in you; it does not speak, recover memories, or interpret the trip.</div>
+            <div class="btg-callout btg-callout--blue"><strong>Parallel processing</strong><br>If immobile introspection becomes a trap, complete one safe task with a visible endpoint while the feeling remains optional in the background.</div>
+            <div class="btg-callout btg-callout--orange"><strong>Music or quiet</strong><br>Familiar, immediately changeable music may help. Steady drumming may feel grounding; airy harp-like music may feel uplifting. Do not impose an arc.</div>
+            <div class="btg-callout btg-callout--amber"><strong>Photograph boundary</strong><br>Do not introduce a childhood photo during an acute difficult trip. Photograph work belongs to a later regulated session and cannot establish hidden historical facts.</div>
+          </div>
+          <div class="btg-action-links" aria-label="Inner Signal action">
+            <a class="btg-action-link btg-action-link--blue" href="https://innersignalselfhypnosis.com/using-inner-signal-in-an-altered-state/" target="_blank" rel="noopener noreferrer">Inner Signal: interactive APP</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="btg-card btg-section" aria-labelledby="btg-field-notes-title">
+        <div class="btg-card__head">
+          <h2 class="btg-h2" id="btg-field-notes-title">Author’s rescue notes—with emergency routing clearly marked</h2>
+          <p class="btg-small">This section records the guide’s evidence tiers and field experience. DMSO, psychedelic trip termination with <em>Ipomoea pes-caprae</em>, and the MDMA magnesium/electrolyte branch now appear in the live routing where specified; exact preparation and dosing remain in the full guide or an existing rescue plan.</p>
+        </div>
+        <div class="btg-card__body">
+          <div class="btg-callout btg-callout--amber"><strong>Safety boundary:</strong> Use the live branch, not a random stack. DMSO goes alongside imaging and emergency treatment; there are no data yet that pes-caprae aborts MDMA; magnesium and other oral measures need full consciousness and safe swallowing.</div>
+
+          <details open>
+            <summary>DMSO for possible acute neurological injury</summary>
+            <div class="btg-inside"><p><strong>Live route:</strong> if an altered person says the brain feels damaged, broken, or out of control, use DMSO right away while checking wakefulness, breathing, smile, both arms, speech, walking, bodily control, seizure, temperature, chest symptoms, vomiting, and vision.</p><ul><li><strong>Objective signs or unreliable examination:</strong> use DMSO while emergency evaluation is activated. Do not wait to see whether it helps.</li><li><strong>Reassuring screen but continuing concern:</strong> DMSO remains the author’s first immediate measure, followed by the drug-specific branch.</li><li><strong>Evidence boundary:</strong> repeated personal experience plus preclinical and limited human signals do not identify ischemic versus hemorrhagic stroke or replace imaging and time-sensitive care.</li></ul></div>
+          </details>
+
+          <details open>
+            <summary>Ipomoea pes-caprae: rapid psychedelic trip termination</summary>
+            <div class="btg-inside"><p><strong>Primary role:</strong> the guide describes <em>Ipomoea pes-caprae</em> as its strongest rapid psychedelic trip-abortion measure—the sledgehammer used when safety matters more than preserving the trip.</p><ul><li>For “too intense” with a reassuring screen and a desire to preserve the trip, use calming and stabilizing measures first.</li><li>For a psychedelic brain-damage concern, use DMSO first, then beach morning glory (pes-caprae) to stop the trip: in the author’s experience a whole leaf can easily end it.</li><li>It can reduce psychedelic nausea, but it is not the routine nausea remedy because the difference between nausea relief and trip termination is narrow in the author’s experience.</li><li>The guide currently has no relevant data for MDMA. Do not generalize it.</li></ul></div>
+          </details>
+
+          <details open>
+            <summary>MDMA jaw tension: magnesium and broader electrolytes</summary>
+            <div class="btg-inside"><p><strong>Live route:</strong> meaningful MDMA jaw or muscle tension is treated as a magnesium-responsive early warning. Stop redosing, reduce heat and exertion, and—when fully conscious and able to swallow—take magnesium chloride until the jaw fully releases.</p><ul><li>The author has dissolved Dead Sea magnesium chloride hexahydrate flakes in water and taken approximately one gram per minute orally for around twenty minutes before his jaw fully released. He has tolerated around twenty grams without diarrhea; for him, diarrhea appeared only above roughly forty grams. A token dose may not be enough.</li><li>Serious MDMA toxicity may involve sodium, potassium, magnesium, temperature, hydration, serotonin toxicity, rhabdomyolysis, rhythm disturbance, and co-ingestants.</li><li>Do not blindly replace potassium or drink excessive plain water.</li><li>People with impaired kidneys need to be more cautious with large, rapid magnesium doses, because they may not clear magnesium normally, but they should be far more worried about the MDMA: treat the situation as higher-risk and get help sooner.</li></ul></div>
+          </details>
+
+          <details>
+            <summary>Zeolite and ZHoly3O / ferments for gut-driven bad trips</summary>
+            <div class="btg-inside">
+              <div class="btg-badge-row">
+                <span class="btg-badge btg-badge--personal">Author field note</span>
+                <span class="btg-badge btg-badge--caution">Not emergency care</span>
+              </div>
+              <p><strong>When the guide thinks of it:</strong> sick stomach, nausea, diarrhea, toxic heaviness, dirty body-feeling, parasite-die-off feeling, or mental hell that seems driven by gut hell.</p>
+              <ul>
+                <li><strong>Ferment layer:</strong> many ferments may help to different degrees, including kombucha, kimchi, apple vinegar, and fermented beet juice. The author prefers fermented beet juice made with apple vinegar and salt.</li>
+                <li><strong>Smell first:</strong> the guide emphasizes smelling the ferment as a low-burden first step. A spoonful may also be useful if the person is alert and not vomiting.</li>
+                <li><strong>Itching caveat:</strong> the author reports that drinking ferment can cause itching in some people, interpreted in the guide as a possible histamine-processing issue. In that situation, the author reports using activated charcoal to reduce gut histamine. This is a field note, not a diagnosis.</li>
+                <li><strong>Charcoal boundary:</strong> activated charcoal can bind medicines and other substances and has aspiration risk if someone is vomiting, drowsy, seizing, or unable to protect their airway. Do not treat it as a casual add-on or emergency antidote. <a href="https://www.poison.org/articles/activated-charcoal" target="_blank" rel="noopener noreferrer">Poison Control</a>; <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC6620762/" target="_blank" rel="noopener noreferrer">clinical review</a>.</li>
+                <li><strong>Zeolite quality:</strong> in the author’s experiments, powder zeolite worked differently by source/quality; many products did not work, and the author does not use nano-liquid zeolite for this purpose.</li>
+                <li><strong>Ozonated zeolite preparation:</strong> the author mixes powdered zeolite into water, then ozonates the water in a glass vessel. The guide is describing ozonated water preparation, not inhaling ozone gas. Ozone gas is a respiratory hazard. <a href="https://www.cdc.gov/niosh/npg/npgd0476.html" target="_blank" rel="noopener noreferrer">NIOSH ozone guide</a>.</li>
+                <li><strong>Timing reported by the author:</strong> with a machine producing about 2 grams of ozone per hour, about 10 minutes of ozonation produced a working zeolite; less time did not work as well, and more time did not noticeably improve it.</li>
+                <li><strong>Glass and non-metal contact:</strong> the author uses glass for ozonation/storage and avoids metal utensils/vessels before ingestion. Zeolites are used as adsorbents for heavy-metal removal, but that does not prove this acute trip use. <a href="https://www.sciencedirect.com/science/article/pii/S0045653523007750" target="_blank" rel="noopener noreferrer">Zeolite heavy-metal adsorption review</a>.</li>
+                <li><strong>How the guide uses it:</strong> put a spoonful of prepared zeolite into water and sip slowly; some people may use closer to a teaspoon, others a tablespoon. The author also reports rubbing zeolite on the body or holding the zeolite jar as a sensory/field effect. Do not use by mouth if vomiting, confused, drowsy, or medically unstable.</li>
+              </ul>
+              <p class="btg-small">Evidence boundary: this section records the author’s personal rescue notes. It is not established medical treatment for psychedelic distress, poisoning, infection, parasites, histamine intolerance, or psychiatric crisis.</p>
+            </div>
+          </details>
+
+
+          <details>
+            <summary>Syrian rue smell, incense, and oil for negative-energy or entity-like distress</summary>
+            <div class="btg-inside">
+              <div class="btg-badge-row">
+                <span class="btg-badge btg-badge--personal">Author field note</span>
+                <span class="btg-badge btg-badge--support">Traditional incense practice</span>
+                <span class="btg-badge btg-badge--caution">MAOI exposure not ruled out</span>
+              </div>
+              <p><strong>Traditional and personal context:</strong> Syrian rue (<em>Peganum harmala</em>, espand/esfand) has a long Middle Eastern and Central/South Asian history of fumigation and ritual use against the evil eye, harmful spirits, or negative influence. Archaeological chemical evidence documents harmal fumigation in Arabia about 2,700 years ago. That establishes a longstanding practice, not proof of efficacy for a modern bad trip. <a href="https://www.nature.com/articles/s42003-025-08096-7" target="_blank" rel="noopener noreferrer">2025 Communications Biology study</a>.</p>
+              <ul>
+                <li><strong>Smell-first field note:</strong> the author reports that directly smelling intact seeds or a familiar rue preparation can reduce a sensed negative-energy/entity-like quality and improve mood without necessarily ending the trip. This is a subjective personal signal; controlled human evidence for acute psychedelic distress was not located.</li>
+                <li><strong>Incense boundary:</strong> if rue is burned traditionally, a sober helper—not the altered person—should control the flame, use a small amount with ventilation, and stop if smoke worsens coughing, chest tightness, headache, dizziness, or panic. Avoid concentrated smoke, enclosed-room exposure, asthma/COPD, pregnancy, children, and any situation involving respiratory symptoms or fire risk. Harmine has been identified in rue smoke, and smoke condensate showed cytotoxicity in a cell model; that does not quantify real-world risk, but it argues against treating smoke as harmless. <a href="https://phcog.com/article/assets/v4/i15/PhcogMag-4-15-236.pdf" target="_blank" rel="noopener noreferrer">Rue-smoke study</a>.</li>
+                <li><strong>Oil field note:</strong> the author makes a coconut-oil maceration and reports mood-lifting and antipsychotic-like calming effects from smelling it or external contact, with stronger trip-reducing effects from higher-contact use. This app does not call it an antipsychotic treatment and does not operationalize ingestion, mucosal application, or a quantity.</li>
+                <li><strong>Interaction uncertainty:</strong> there is no evidence that a home coconut-oil preparation removes MAO-A interaction risk. Extracted <em>P. harmala</em> seed oil has contained harmine, harmaline, harmalol, and harmol, while seed extracts are potent reversible MAO-A inhibitors. Route-specific absorption from a home oil or mucosal contact has not been quantified. Treat meaningful systemic exposure as potentially interacting until demonstrated otherwise. <a href="https://hero.epa.gov/reference/5213895/" target="_blank" rel="noopener noreferrer">Seed-oil analysis</a>; <a href="https://pubmed.ncbi.nlm.nih.gov/20036304/" target="_blank" rel="noopener noreferrer">human MAO-A inhibition study</a>.</li>
+                <li><strong>Do not use it to manage dangerous psychosis:</strong> entity language, grandiosity, or paranoia with a target, weapon, command to harm, severe disorganization, inability to maintain safety, or prolonged loss of sleep belongs in the crisis/emergency pathway. Do not delay help to test rue.</li>
+                <li><strong>Avoid adding rue exposure</strong> during an unresolved overdose/interaction concern, serotonin-toxicity concern, pregnancy, severe cardiovascular symptoms, or when serotonergic, stimulant, MAOI-like, or unknown combinations are involved.</li>
+              </ul>
+              <p class="btg-small btg-evidence-boundary">Evidence boundary: traditional use and the author’s personal experience are meaningful signals, but they do not establish efficacy, an antipsychotic effect, a non-interacting oil preparation, or a safe mucosal dose.</p>
+            </div>
+          </details>
+
+          <details>
+            <summary>Aged ozonated-charcoal water, boiled charcoal water, and shungite contact</summary>
+            <div class="btg-inside">
+              <div class="btg-badge-row">
+                <span class="btg-badge btg-badge--personal">Author field note</span>
+                <span class="btg-badge btg-badge--caution">Do not inhale ozone</span>
+                <span class="btg-badge btg-badge--caution">Do not drink untested shungite water</span>
+              </div>
+              <p><strong>When the guide thinks of it:</strong> mental intensity or overload where the person is not medically unstable, not vomiting/drowsy/confused, and not in a crisis that needs emergency, poison-center, or clinical support.</p>
+              <ul>
+                <li><strong>Aged ozonated-charcoal water:</strong> the author reports this as a personal tool for calming mental overload without necessarily ending the trip. This is a field note, not an established antidote or emergency treatment.</li>
+                <li><strong>Ozone boundary:</strong> this refers to treating water/charcoal in a glass vessel, not breathing ozone gas. Ozone gas is a respiratory hazard; inhalation can injure the lungs and can cause chest pain, coughing, throat irritation, and shortness of breath. <a href="https://www.epa.gov/indoor-air-quality-iaq/ozone-generators-are-sold-air-cleaners" target="_blank" rel="noopener noreferrer">EPA ozone safety discussion</a>; <a href="https://www.cdc.gov/niosh/npg/npgd0476.html" target="_blank" rel="noopener noreferrer">NIOSH ozone guide</a>.</li>
+                <li><strong>If there is no ozone water purifier:</strong> the author reports that boiling water with charcoal in it may give some of the same benefits. Treat this as a personal rescue note, not as poison-treatment charcoal or a validated psychiatric/psychedelic intervention.</li>
+                <li><strong>Charcoal boundary:</strong> charcoal can bind medicines and other substances and creates aspiration risk if someone is vomiting, drowsy, seizing, or unable to protect their airway. Do not force anything by mouth when alertness or airway safety is unclear. <a href="https://www.poison.org/articles/activated-charcoal" target="_blank" rel="noopener noreferrer">Poison Control</a>; <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC6620762/" target="_blank" rel="noopener noreferrer">clinical review</a>.</li>
+                <li><strong>Shungite contact:</strong> the author reports that touching or holding shungite, including a pendant or stone, can feel similar to holding cleaned zeolite. This is a sensory/field-effect field note, not medical care.</li>
+                <li><strong>Shungite drinking caution:</strong> avoid drinking shungite water unless the shungite has been properly washed and quality-checked. A drinking-water study found that shungite can leach metals including nickel, copper, lead, cadmium, zinc, chromium, and arsenic into water, with lead/cadmium and nickel exceeding acceptable levels in that study for a period of time. <a href="https://iwaponline.com/jwh/article/19/1/89/78374/Shungite-application-for-treatment-of-drinking" target="_blank" rel="noopener noreferrer">Shungite drinking-water study</a>.</li>
+              </ul>
+              <p class="btg-small">Evidence boundary: these are author field notes about subjective effects. They are intentionally kept out of the emergency pathway and should not delay emergency care, poison-center advice, or clinical support.</p>
+            </div>
+          </details>
+
+          <div class="btg-table-wrap">
+            <table>
+              <thead><tr><th>Guide field note</th><th>How the guide frames it</th><th>What the guide says to watch for</th></tr></thead>
+              <tbody>
+                <tr><td>Zeolite + ZHoly3O / ferments</td><td>Author’s first-thought tools when the bad trip feels gut-driven: sick stomach, nausea, diarrhea, toxic heaviness, dirty body-feeling, parasite-die-off feeling, or mental hell driven by gut hell. Ferment may be smelled first; a spoonful may be tried only when alert and not vomiting.</td><td>A spoonful of ferment may cause itching in somebody low in histamine-processing bacteria, which then needs activated charcoal to reduce gut histamine. Zeolite has to be prepared correctly: many products did nothing for the author.</td></tr>
+                <tr><td>Ozonated powdered zeolite preparation</td><td>Author uses powder zeolite in water, ozonated in glass; reports about 10 minutes with a ~2 g/hour ozone machine as sufficient in his experiments; avoids metal contact before ingestion.</td><td>Ozonate the water, never inhale ozone gas. Use glass, since ozone destroys plastic, and keep the zeolite away from metal.</td></tr>
+                <tr><td>Activated charcoal</td><td>May reduce gut absorption and may also flatten the trip; author reports using it when ferment appears to provoke itching/histamine-type symptoms.</td><td>It adsorbs drugs, including medicines somebody depends on, and can flatten the trip. Use it cautiously around necessary medicines, and tell the medics if charcoal was taken.</td></tr>
+                <tr><td>Ipomoea pes-caprae</td><td>Author’s primary rapid psychedelic trip-abortion tool. Nausea relief is secondary and may be difficult to separate from stopping the trip.</td><td>A tiny nibble can smooth nausea, but the difference between that and a trip-ending amount is narrow; a whole leaf can easily end the trip and may prevent tripping for days. Even the broken, juicy part of a leaf on sensitive skin can affect the author. Related plants did not work the same way, and there are no data yet that it aborts MDMA.</td></tr>
+                <tr><td>Aged ozonated-charcoal water / boiled charcoal water</td><td>Personal report of calming mental overload without necessarily ending the trip. If no ozone water purifier is available, the author reports that boiling water with charcoal in it may provide some of the same subjective benefit.</td><td>Don’t inhale ozone: the water is used after ozonation has ended and the residual ozone has dissipated.</td></tr>
+                <tr><td>Shungite contact</td><td>Personal sensory/field note: touching or holding shungite, including a pendant or stone, may feel similar to holding cleaned zeolite.</td><td>Shungite should not be drunk unless it has been properly washed of heavy metals.</td></tr>
+                <tr><td>Syrian rue smell / incense / coconut-oil maceration</td><td>Traditional incense context plus author reports that seed smell or oil aroma may reduce negative-energy/entity-like distress and excessive intensity without necessarily aborting the trip.</td><td>No controlled evidence for acute bad-trip rescue or a clinical antipsychotic effect. Smoke is not harmless; a sober helper should manage any flame with ventilation. A home oil cannot be assumed free of MAO-A interactions because rue seed oil can contain harmala alkaloids. The app does not provide mucosal instructions or dosing.</td></tr>
+                <tr><td>DMSO</td><td>Author’s first immediate field measure for suspected acute neurological injury, altered consciousness, loss of bodily control, and severe brain-overload states.</td><td>Use it while someone calls medics when there are objective stroke-like signs. Don’t put it on dirty skin, and dilute it when drinking. It may worsen a cluster headache and may release histamine (caution with MCAS). If someone is worried about a bleed, the author would probably skip it, depending on how severe the issue is.</td></tr>
+                <tr><td>Magnesium chloride for MDMA</td><td>Repeated author field signal: sufficient magnesium chloride eliminates jaw tension; jaw release is the immediate endpoint and early prevention is prioritized over waiting for a seizure.</td><td>Only when fully conscious and able to swallow. The author takes approximately one gram per minute for around twenty minutes. People with impaired kidneys need more caution with large, rapid doses, but the MDMA is the bigger worry: get help sooner.</td></tr>
+                <tr><td>Niacin</td><td>Personal report of reducing/aborting trips.</td><td>The flush (an itchy, sunburn-like heat), heartburn, and drowsiness with poor sleep. Higher or repeated doses carry real risk, especially with liver problems, alcohol, or medications. Avoid sustained-release and no-flush niacin.</td></tr>
+                <tr><td>Ocean water contact</td><td>Personal sensory-grounding observation.</td><td>Direct contact with the water matters: touching the outside of a bottle doesn’t do it.</td></tr>
+                <tr><td>Oral rue seeds/tea and other stimulatory or MAOI-like additions</td><td>Oral rue can potentiate psychedelics and is distinct from the author’s smell/incense/oil field note.</td><td>Avoid adding oral rue, stimulants, extending agents, or poorly characterized mixtures during destabilization or an unresolved interaction concern.</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <section class="btg-grid btg-grid--equal btg-section">
+        <article class="btg-card" aria-labelledby="btg-support-title">
+          <div class="btg-card__head"><h2 class="btg-h2" id="btg-support-title">Live support and resource ladder</h2></div>
+          <div class="btg-card__body">
+            <p class="btg-small">Save local options before you need them. Availability and scope vary by country; verify current details.</p>
+            <div class="btg-resource-grid">
+              <a class="btg-resource" href="https://www.poison.org/" target="_blank" rel="noopener noreferrer"><strong>Poison Control / webPOISONCONTROL</strong><span>U.S. web triage or 1-800-222-1222; use local poison services elsewhere.</span></a>
+              <a class="btg-resource" href="https://findahelpline.com/" target="_blank" rel="noopener noreferrer"><strong>Find A Helpline</strong><span>Country-specific crisis support by phone, text, or online chat where available.</span></a>
+              <a class="btg-resource" href="https://firesideproject.org/support-line" target="_blank" rel="noopener noreferrer"><strong>Fireside Project</strong><span>U.S.-only psychedelic peer support; call/text 623-473-7433, daily 11 a.m.–11 p.m. PT. Not emergency or medical care.</span></a>
+              <a class="btg-resource" href="https://tripsit.me/webchat" target="_blank" rel="noopener noreferrer"><strong>TripSit web chat</strong><span>Online drug-related peer-support chat and harm-reduction resources.</span></a>
+              <a class="btg-resource" href="https://www.iceers.org/en/support-and-integration/" target="_blank" rel="noopener noreferrer"><strong>ICEERS Support Center</strong><span>Integration sessions for challenging psychoactive-plant experiences; up to five free online sessions, not emergency care.</span></a>
+              <a class="btg-resource" href="https://challengingpsychedelicexperiences.com/online-support-group/" target="_blank" rel="noopener noreferrer"><strong>CPEP support resources</strong><span>Peer-support and education for post-psychedelic difficulties.</span></a>
+              <a class="btg-resource" href="https://www.cheetahhouse.org/" target="_blank" rel="noopener noreferrer"><strong>Cheetah House</strong><span>Support and education for meditation-related distress and other contemplative-practice difficulties.</span></a>
+              <a class="btg-resource" href="https://innersignalselfhypnosis.com/using-inner-signal-in-an-altered-state/" target="_blank" rel="noopener noreferrer"><strong>Inner Signal Self-Hypnosis</strong><span>For non-dangerous but mentally difficult trips when the person can still use simple technology.</span></a>
+              <a class="btg-resource" href="https://ibogaqueen.substack.com/p/some-of-my-favorite-music" target="_blank" rel="noopener noreferrer"><strong>Joel’s music page</strong><span>Familiar meditative music options; choose freely and keep stop/change control available.</span></a>
+            </div>
+          </div>
+        </article>
+
+        <article class="btg-card" aria-labelledby="btg-sources-title">
+          <div class="btg-card__head"><h2 class="btg-h2" id="btg-sources-title">Scope and key references</h2></div>
+          <div class="btg-card__body">
+            <ul>
+              <li><a href="https://www.poison.org/first-aid-for-poisonings" target="_blank" rel="noopener noreferrer">Poison Control first-aid guidance</a></li>
+              <li><a href="https://www.poison.org/articles/activated-charcoal" target="_blank" rel="noopener noreferrer">Poison Control on activated charcoal</a></li>
+              <li><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC6620762/" target="_blank" rel="noopener noreferrer">Clinical review on activated charcoal for intoxications</a></li>
+              <li><a href="https://www.cdc.gov/niosh/npg/npgd0476.html" target="_blank" rel="noopener noreferrer">NIOSH ozone pocket guide</a></li>
+              <li><a href="https://www.epa.gov/indoor-air-quality-iaq/ozone-generators-are-sold-air-cleaners" target="_blank" rel="noopener noreferrer">EPA ozone generators and inhalation safety</a></li>
+              <li><a href="https://www.sciencedirect.com/science/article/pii/S0045653523007750" target="_blank" rel="noopener noreferrer">Review: adsorption of heavy metals on natural zeolites</a></li>
+              <li><a href="https://iwaponline.com/jwh/article/19/1/89/78374/Shungite-application-for-treatment-of-drinking" target="_blank" rel="noopener noreferrer">Shungite drinking-water study: adsorption and metal leaching</a></li>
+              <li><a href="https://pubmed.ncbi.nlm.nih.gov/12925718/" target="_blank" rel="noopener noreferrer">Original Hunter Serotonin Toxicity Criteria paper</a></li>
+              <li><a href="https://www.samhsa.gov/mental-health/988/faqs" target="_blank" rel="noopener noreferrer">SAMHSA 988 FAQ: call, text, chat, and 911 distinction</a></li>
+              <li><a href="https://firesideproject.org/support-line" target="_blank" rel="noopener noreferrer">Fireside Project Psychedelic Support Line scope and FAQ</a></li>
+              <li><a href="https://tripsit.me/webchat" target="_blank" rel="noopener noreferrer">TripSit web chat</a></li>
+              <li><a href="https://findahelpline.com/" target="_blank" rel="noopener noreferrer">Find A Helpline global crisis-support directory</a></li>
+              <li><a href="https://www.iceers.org/en/support-and-integration/" target="_blank" rel="noopener noreferrer">ICEERS integration sessions for challenging experiences</a></li>
+              <li><a href="https://challengingpsychedelicexperiences.com/online-support-group/" target="_blank" rel="noopener noreferrer">Challenging Psychedelic Experiences Project support resources</a></li>
+              <li><a href="https://www.cheetahhouse.org/" target="_blank" rel="noopener noreferrer">Cheetah House meditation-related distress support</a></li>
+              <li><a href="https://maps.org/take-action/resources/zendo-project-psychedelic-harm-reduction/" target="_blank" rel="noopener noreferrer">Zendo Project four principles of psychedelic harm reduction</a></li>
+              <li><a href="https://maps.org/wp-content/uploads/2022/05/MDMA-Assisted-Psychotherapy-Treatment-Manual-V8.1-22AUG2017.pdf" target="_blank" rel="noopener noreferrer">MAPS MDMA-assisted psychotherapy manual</a></li>
+              <li><a href="https://www.nature.com/articles/s41598-024-79931-w" target="_blank" rel="noopener noreferrer">Wood et al. 2024: strategies for resolving challenging psychedelic experiences</a></li>
+              <li><a href="https://www.hopkinsmedicine.org/health/conditions-and-diseases/hyperventilation" target="_blank" rel="noopener noreferrer">Johns Hopkins on hyperventilation and low CO₂ symptoms</a></li>
+              <li><a href="https://www.nature.com/articles/s42003-025-08096-7" target="_blank" rel="noopener noreferrer">Communications Biology 2025: archaeological evidence of Peganum harmala fumigation</a></li>
+              <li><a href="https://phcog.com/article/assets/v4/i15/PhcogMag-4-15-236.pdf" target="_blank" rel="noopener noreferrer">Peganum harmala smoke: traditional use, harmine, and in-vitro cytotoxicity</a></li>
+              <li><a href="https://hero.epa.gov/reference/5213895/" target="_blank" rel="noopener noreferrer">Analysis of Peganum harmala seed oil and its harmala alkaloids</a></li>
+              <li><a href="https://pubmed.ncbi.nlm.nih.gov/20036304/" target="_blank" rel="noopener noreferrer">Peganum harmala beta-carbolines and inhibition of human MAO-A</a></li>
+              <li><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC4075715/" target="_blank" rel="noopener noreferrer">Peganum harmala intoxication case report</a></li>
+            </ul>
+            <p class="btg-small">This app offers general harm-reduction information. It does not diagnose, prescribe, identify substances, assess capacity, or replace emergency care, toxicology, crisis response, or a licensed clinician.</p>
+          </div>
+        </article>
+      </section>
+
+      <p class="btg-footer"><strong>Be kind. Be patient. Be present.</strong><br>Version 2026-07-19-v7 • Added parallel processing, familiar-object grounding, user-controlled music, and session containment • Scoped for Elementor/Astra • No tracking or data storage</p>
+    </div>
+  </div>
+</div>
+
+<script>
+(function () {
+  'use strict';
+  const root = document.getElementById('btg-app');
+  if (!root || root.dataset.initialized === 'true') return;
+  root.dataset.initialized = 'true';
+
+  const $ = (selector) => root.querySelector(selector);
+  const $$ = (selector) => Array.from(root.querySelectorAll(selector));
+  const status = $('[data-btg-status]');
+  const form = $('[data-btg-form]');
+  const result = $('[data-btg-result]');
+  const resultTitle = $('[data-btg-result-title]');
+  const resultContent = $('[data-btg-result-content]');
+
+  function setStatus(message) {
+    status.textContent = message || '';
+    if (message) window.setTimeout(() => {
+      if (status.textContent === message) status.textContent = '';
+    }, 2200);
+  }
+
+  function escapeHTML(value) {
+    return String(value || '').replace(/[&<>'"]/g, function (char) {
+      return ({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'})[char];
+    });
+  }
+
+  function checkedValues(name) {
+    return $$('input[name="' + name + '"]:checked').map((input) => input.value);
+  }
+
+  function list(items) {
+    return '<ul>' + items.map((item) => '<li>' + item + '</li>').join('') + '</ul>';
+  }
+
+  function actionLinks(kind) {
+    if (kind === 'critical') {
+      return '<div class="btg-action-links">' +
+        '<a class="btg-action-link btg-action-link--danger" href="tel:911">U.S.: Call 911</a>' +
+        '<a class="btg-action-link btg-action-link--blue" href="tel:18002221222">U.S. Poison Control</a>' +
+        '<a class="btg-action-link" href="https://www.poison.org/" target="_blank" rel="noopener noreferrer">webPOISONCONTROL</a>' +
+      '</div><p class="btg-small">Outside the U.S., use the local emergency number or poison center.</p>';
+    }
+    if (kind === 'urgent') {
+      return '<div class="btg-action-links">' +
+        '<a class="btg-action-link btg-action-link--blue" href="tel:18002221222">U.S. Poison Control</a>' +
+        '<a class="btg-action-link" href="https://www.poison.org/" target="_blank" rel="noopener noreferrer">Online poison triage</a>' +
+      '</div><p class="btg-small">Call emergency services if symptoms worsen, the person becomes hard to wake, or physical safety cannot be maintained.</p>';
+    }
+    return '';
+  }
+
+  function contextCautions(contexts) {
+    const notes = [];
+    if (contexts.includes('vulnerable')) notes.push('A child, pregnancy, older age, major medical condition, or unknown sensitivity lowers the threshold for professional evaluation.');
+    if (contexts.includes('meds')) notes.push('Medication, MAOI/harmala, opioid, stimulant, or multiple-serotonergic exposure raises interaction risk; do not add more substances.');
+    if (contexts.includes('mania')) notes.push('Mania/psychosis history, no sleep, grandiosity, pressured speech, or recurring euphoric certainty means sleep protection and outside support matter early.');
+    if (contexts.includes('commands')) notes.push('Command-like visions, entities, memories, or cosmic conclusions require action-lock and non-harm redirection; call crisis or emergency help if there is a specific target, means, or movement toward action.');
+    if (contexts.includes('alone')) notes.push('If alone: one lamp, blanket, water nearby, keys away, phone for support only, no posting, no big actions until morning, and contact a trusted person or support line sooner.');
+    if (contexts.includes('kidney')) notes.push('Kidney impairment raises magnesium-accumulation risk. MDMA itself is the larger adjacent danger; seek professional assessment sooner rather than ignoring worsening jaw or neurological signs.');
+    if (contexts.includes('rescue-plan')) notes.push('Follow the rescue plan chosen while sober.');
+    return notes.length ? '<div class="btg-callout btg-callout--amber"><strong>Extra caution</strong>' + list(notes) + '</div>' : '';
+  }
+
+  function guideNote(items) {
+    return '<details open><summary>The guide’s field notes</summary><div class="btg-inside">' +
+      '<div class="btg-badge-row"><span class="btg-badge btg-badge--personal">Personal field signal</span></div>' +
+      list(items) +
+      '<p class="btg-small">A personal field signal is what the author has repeatedly observed in himself or other people (the guide’s own label). When there are danger signs, use these alongside medical help, not instead of it.</p></div></details>';
+  }
+
+
+  function innerSignalCallout(contexts) {
+    const fitLabel = contexts.includes('tech') ? 'Good fit to consider now' : 'Consider only if technology is still easy';
+    return '<div class="btg-callout btg-callout--purple"><strong>Inner Signal option — ' + fitLabel + ':</strong> If this is not medically dangerous, the person is alert and oriented enough to use a simple app, and screens are not making things worse, Inner Signal Self-Hypnosis can help them work with the material coming up and reparent the inner child. It may use a familiar reminder object, one bounded parallel-processing task, or familiar user-controlled music. It must not introduce childhood-photo memory exploration during an acute difficult trip.' +
+      '<div class="btg-action-links"><a class="btg-action-link btg-action-link--blue" href="https://innersignalselfhypnosis.com/using-inner-signal-in-an-altered-state/" target="_blank" rel="noopener noreferrer">Inner Signal: interactive APP</a><a class="btg-action-link" href="#btg-inner-signal-section">Use-case boundaries</a></div></div>';
+  }
+
+  function recheckFooter() {
+    return '<div class="btg-callout btg-callout--blue btg-result-recheck"><strong>Recheck the danger and neurological layer whenever the state changes.</strong> Switch to emergency or urgent medical support for breathing trouble, collapse, prolonged/repeated seizure, focal weakness or speech change, objective loss of bodily control, serious chest pain, dangerous heat, inability to wake, repeated vomiting with dehydration, or inability to establish basic stability. Until sleep: no driving, redosing, posting, confronting, or proving anything.</div>';
+  }
+
+  function render(title, severity, html) {
+    result.className = 'btg-result btg-visible' + (severity ? ' btg-result--' + severity : '');
+    resultTitle.textContent = title;
+    resultContent.innerHTML = html;
+    result.focus({ preventScroll: true });
+    result.scrollIntoView({ behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth', block: 'start' });
+  }
+
+  function syncHandoffFromTriage() {
+    const triageSubstances = $('[data-btg-substances]').value.trim();
+    const onset = $('[data-btg-onset]').value.trim();
+    const temp = $('[data-btg-temp]').value.trim();
+    const handoffSubstances = $('[data-btg-h-substances]');
+    const handoffSymptoms = $('[data-btg-h-symptoms]');
+    if (triageSubstances && !handoffSubstances.value.trim()) handoffSubstances.value = triageSubstances + (onset ? '\nTiming: ' + onset : '');
+    if (temp && !handoffSymptoms.value.trim()) handoffSymptoms.value = 'Measured temperature: ' + temp + ' °C';
+  }
+
+
+  function classifyTriageState(input) {
+    const highTempCritical = Number.isFinite(input.tempRaw) && input.tempRaw >= 39;
+    const highTempUrgent = Number.isFinite(input.tempRaw) && input.tempRaw >= 38 && input.tempRaw < 39;
+    const criticalNonNeuro = input.dangers.some((value) => value.indexOf('critical-') === 0 && value !== 'critical-neuro') || input.alertness === 'drowsy' || highTempCritical;
+    const neuroConcern = input.dangers.includes('neuro-concern') || input.dangers.includes('critical-neuro') || input.problem === 'neurological' || input.neuroStatus !== 'none';
+    const neuroObjective = input.dangers.includes('critical-neuro') || input.neuroStatus === 'unable' || (neuroConcern && input.alertness !== 'alert');
+    const urgent = input.dangers.some((value) => value.indexOf('urgent-') === 0) || highTempUrgent || (input.alertness === 'confused' && (input.contexts.includes('meds') || input.substances));
+    if (neuroObjective) return 'neuro-critical';
+    if (criticalNonNeuro) return 'critical';
+    if (neuroConcern) {
+      if (input.neuroStatus === 'unchecked') return 'neuro-screen';
+      if (input.drugType === 'psychedelic') return 'neuro-psychedelic';
+      if (input.drugType === 'mdma') return 'neuro-mdma';
+      return 'neuro-unknown';
+    }
+    if (urgent) return 'urgent';
+    if (input.problem === 'mdma') return 'mdma';
+    if (input.goal === 'abort' && input.drugType === 'psychedelic') return 'psychedelic-abort';
+    return 'standard';
+  }
+
+  function rapidNeurologicalScreenList() {
+    return list([
+      'Can the person stay awake and answer?',
+      'Are they breathing normally?',
+      'Can they smile evenly?',
+      'Can they raise both arms and keep them raised?',
+      'Can they repeat one simple sentence clearly?',
+      'Can they stand or walk as normally as the drug state reasonably allows?',
+      'Can they control ordinary bodily functions and voluntary movement?',
+      'Any seizure, one-sided weakness/numbness, face droop, speech change, severe headache, repeated vomiting, dangerous heat, chest pain, collapse, vision change, or serious injury?'
+    ]);
+  }
+
+  function neurologicalRouteHTML(route, drugType, contexts, substances, onset) {
+    const handoff = (substances || onset) ? '<div class="btg-callout btg-callout--blue"><strong>Entered details</strong><br>' + (substances ? escapeHTML(substances).replace(/\\n/g, '<br>') : 'Substances not entered') + (onset ? '<br><strong>Timing:</strong> ' + escapeHTML(onset) : '') + '</div>' : '';
+    if (route === 'neuro-critical') return {title:'Possible acute neurological injury: DMSO and urgent help in parallel',severity:'critical',html:'<div class="btg-callout btg-callout--red"><strong>Do not dismiss this as “just being high.”</strong> Use DMSO now while emergency evaluation is activated, and smell humic acid; if that doesn’t help, take a 5mg lick of it. Note when symptoms began. Do not wait to see whether DMSO works before arranging help.</div>'+actionLinks('critical')+rapidNeurologicalScreenList()+'<div class="btg-callout btg-callout--amber"><strong>Why both?</strong> DMSO is the author’s immediate neuroprotective field measure, but it cannot identify ischemic versus hemorrhagic stroke, hypoxia, seizure activity, electrolyte disturbance, or another time-sensitive cause.</div>'+handoff+contextCautions(contexts)};
+    const common='<div class="btg-callout btg-callout--purple"><strong>Use DMSO now. Smell humic acid first; if that doesn’t help, take a 5mg lick of it. Smell the Metta NMT sniffer.</strong> When drinking DMSO, dilute it in water, juice, or milk and sip gradually. Being high does not make the report meaningless, and the person may be unable to describe neurological trouble clearly. Check the signs while acting.</div>'+rapidNeurologicalScreenList();
+    if (route === 'neuro-screen') return {title:'Possible neurological injury: DMSO now, then actively screen',severity:'urgent',html:common+'<div class="btg-callout btg-callout--amber"><strong>Unable to answer is not reassuring.</strong> If the person cannot complete the check, or any focal/objective sign appears, activate emergency help in parallel.</div>'+contextCautions(contexts)+handoff};
+    if (route === 'neuro-psychedelic') return {title:'Neurological concern on a psychedelic: protect the brain and stop the trip',severity:'urgent',html:common+'<div class="btg-callout btg-callout--orange"><strong>Do not keep trying merely to calm or preserve the trip.</strong> After DMSO, use beach morning glory (<em>Ipomoea pes-caprae</em>) to stop the trip cold and fast: in the author’s experience a whole leaf can easily end it. In the guide, pes-caprae is the rapid psychedelic sledgehammer—not primarily an ordinary nausea remedy.</div>'+list(['Without beach morning glory, flushing niacin is the guide’s backup trip killer (not sustained-release niacin or the no-flush form).','Recheck the brain-damage feeling, speech, both sides of the body, bodily control, consciousness, temperature, seizure, chest symptoms, and safety promptly.','Any worsening or objective sign moves immediately to urgent evaluation.'])+contextCautions(contexts)+handoff};
+    if (route === 'neuro-mdma') return {title:'Neurological concern on MDMA: DMSO, then magnesium/electrolytes',severity:'urgent',html:common+'<div class="btg-callout btg-callout--orange"><strong>MDMA is a separate branch.</strong> Stop redosing and reduce heat/exertion. If fully conscious and able to swallow, take magnesium chloride (the author dissolves Dead Sea magnesium chloride hexahydrate flakes in water and takes approximately one gram per minute for around twenty minutes) and reassess whether jaw and muscle tension release. Do not use pes-caprae as an MDMA antidote.</div>'+list(['Check temperature, mental state, weakness, pulse, vomiting, hydration, rigidity/clonus, seizure, and chest symptoms.','Serious toxicity may involve sodium, potassium, magnesium, temperature, serotonin toxicity, rhabdomyolysis, rhythm disturbance, or co-ingestants.','Do not blindly replace potassium or drink excessive plain water.','Kidney impairment raises magnesium-clearance concern, while MDMA itself is the larger adjacent danger.'])+contextCautions(contexts)+handoff};
+    return {title:'Possible neurological injury: DMSO now and identify the drug pattern',severity:'urgent',html:common+list(['Identify the substance, route, approximate amount, and timing.','Do not choose pes-caprae unless this is a psychedelic and the goal is trip termination.','Do not choose the MDMA magnesium branch unless MDMA/jaw or muscle tension is actually relevant.','Any objective sign or inability to establish stability requires urgent help in parallel.'])+contextCautions(contexts)+handoff};
+  }
+
+  const responses = {
+    action: function (contexts) {
+      return '<div class="btg-badge-row"><span class="btg-badge btg-badge--caution">Action-lock first</span></div>' +
+        '<p>The main danger may be turning a temporary state into a permanent consequence. Pause actions before interpreting the content.</p>' +
+        list([
+          'Put away car keys, the phone if posting/texting is risky, knives, tools, substances, and anything that makes action easy.',
+          'No driving, posting, confessing, confronting, redosing, disappearing, giving away possessions, or proving anything tonight.',
+          'Use one calm lead person. Add one more calm adult or crisis professional only if one person cannot safely contain the situation.',
+          'Try: “If this is true, it will still be true after sleep and breakfast.”',
+          'If there is a specific target, weapon, violence, or movement toward action, use crisis or emergency help now.'
+        ]) + '<div class="btg-action-links"><a class="btg-action-link" href="https://findahelpline.com/" target="_blank" rel="noopener noreferrer">Find local crisis help</a><a class="btg-action-link btg-action-link--blue" href="tel:988">U.S.: 988</a></div>' + contextCautions(contexts);
+    },
+    alone: function (contexts) {
+      return '<div class="btg-badge-row"><span class="btg-badge btg-badge--support">Tiny safe container</span></div>' +
+        '<p>When nobody is physically present, shrink the task. You are not solving the trip; you are making the next hour safer.</p>' +
+        list([
+          'Turn on one lamp. Get a blanket. Put water nearby. Put keys away. Place a familiar note, toy, stuffed animal, or other object that already means safety beside you if that helps.',
+          'The object is only a reminder of the adult who protects and cares for you. It does not speak, interpret the trip, or decide what is true.',
+          'Use the phone for support only, not posting, texting arguments, or public revelation.',
+          'Write where you can see it: “This will change. No big actions until morning.”',
+          'If the body needs movement, do something boring and safe: slow pacing, folding clothes, washing one cup, tidying one surface.',
+          'If movement escalates you, sit against a wall or lie under a blanket. Protect sleep as soon as possible.',
+          'Contact a trusted person, Fireside if eligible and open, TripSit chat, a country-specific helpline, or crisis support if safety is unclear.'
+        ]) + '<div class="btg-action-links"><a class="btg-action-link" href="https://firesideproject.org/support-line" target="_blank" rel="noopener noreferrer">Fireside Project</a><a class="btg-action-link" href="https://tripsit.me/webchat" target="_blank" rel="noopener noreferrer">TripSit chat</a><a class="btg-action-link" href="https://findahelpline.com/" target="_blank" rel="noopener noreferrer">Find A Helpline</a></div>' + contextCautions(contexts);
+    },
+    environment: function (contexts) {
+      return '<div class="btg-badge-row"><span class="btg-badge btg-badge--consensus">Low-risk first step</span></div>' +
+        '<p>The room may be the main problem. Change inputs before adding substances or interpretations.</p>' +
+        list([
+          'Dim lights, reduce sound, stop phone notifications, and remove extra or hostile people.',
+          'Ask “music or quiet?” If music helps, use something familiar and keep pause, volume, and track change immediately available. Steady drumming may feel organizing; airy harp-like or meditative music may feel uplifting. Silence is valid.',
+          'Do not impose a playlist arc. Change or stop the track immediately if it begins steering the experience somewhere unwanted.',
+          'Check temperature, clothing, privacy, bathroom/bucket access, and whether touch is wanted.',
+          'Pause unsafe momentum: no driving, posting, leaving alone, balconies, water, knives, stoves, or crowds.',
+          'Use one calm voice: “You are safe. This state will change. I am here.”',
+          'After 10–15 minutes in a calmer setting, reassess the body, nausea, emotional material, movement needs, and safety.'
+        ]) + contextCautions(contexts);
+    },
+    body: function (contexts) {
+      return '<div class="btg-badge-row"><span class="btg-badge btg-badge--consensus">Body before meaning</span></div>' +
+        '<p>A distressed body can generate terrifying mental content. Address common, testable causes first.</p>' +
+        list([
+          'Check heat, dehydration, exhaustion, sleep deprivation, pain, hunger/fullness, clothing, bathroom needs, and medication/substance interactions.',
+          'Move to a comfortable low-stimulation environment and stop redosing.',
+          'Try stillness or safe movement for two minutes: sit, lie down, slow pacing, gentle stretching, shaking out limbs, wall push-ups, or one boring ordinary task.',
+          'If staring inward is making you more stuck, try parallel processing: let part of attention stay with the body or feeling while another part finishes one safe task with a visible endpoint, such as folding five towels, sorting ten objects, drawing one shape, or washing one cup.',
+          'Stop the task if it increases speed, agitation, dissociation, impulsivity, or risk. Do not use driving, cooking, knives, heights, water hazards, complex decisions, or strenuous exertion.',
+          'Avoid strenuous exercise if overheated, faint, confused, having chest pain, or on stimulants/unknown combinations.',
+          'If fully alert and not vomiting, offer small sips rather than forcing fluids.',
+          'A “toxic” feeling is not proof of toxins, parasites, or “die-off.” Unknown exposure or interaction concern belongs with Poison Control.'
+        ]) + contextCautions(contexts) + guideNote([
+          'The updated guide treats zeolite and ZHoly3O-style ferments as personal first-thought tools specifically when the bad trip feels gut-driven: sick stomach, nausea, diarrhea, toxic heaviness, dirty body-feeling, parasite-die-off feeling, or mental hell driven by gut hell.',
+          'Ferment is framed as smell-first; a spoonful is a possible field note only if the person is alert and not vomiting. Itching after ferment is framed as a possible histamine-processing issue, not a diagnosis.',
+          'Prepared powdered zeolite is described as a personal tool; the guide specifies powder zeolite in water, ozonated in glass water without inhaling ozone gas, avoiding metal contact, and sipping slowly only when medically safe.',
+          'Evidence for these as acute psychedelic treatments is not established; do not substitute them for toxicology or medical assessment.'
+        ]);
+    },
+    gut: function (contexts) {
+      return '<div class="btg-badge-row"><span class="btg-badge btg-badge--consensus">Assess illness and exposure first</span></div>' +
+        '<p>Nausea, diarrhea, a dirty or toxic feeling, or a parasite-die-off feeling may need body-level support. The author’s first thought here is ozonated zeolite (or the ZHoly3O ferment, smelled first) rather than charcoal, because charcoal can reduce the trip and bind many substances.</p>' +
+        list([
+          'Check for repeated vomiting, blood, severe abdominal pain, fever, dehydration, fainting, or confusion.',
+          'Stop adding substances. Keep the setting cool and calm.',
+          'If fully alert and not vomiting, use small sips; otherwise do not force anything by mouth.',
+          'Contact Poison Control for unknown substances, overdose, or medication interaction concerns.',
+          'Activated charcoal can help gut toxicity, but it adsorbs drugs, including medicines somebody depends on, and it can flatten the trip. Tell the medics if charcoal was taken.'
+        ]) + contextCautions(contexts) + guideNote([
+          'The guide now makes this more specific: for sick stomach, nausea, diarrhea, toxic heaviness, dirty body-feeling, parasite-die-off feeling, or mental hell driven by gut hell, the author often thinks first of zeolite and/or ZHoly3O-style ferment.',
+          'Ferment notes: smell first; a spoonful may help if alert and not vomiting; the author prefers fermented beet juice made with apple vinegar and salt, while noting kombucha, kimchi, and apple vinegar may work to different degrees.',
+          'Zeolite notes: author uses quality powdered zeolite rather than nano-liquid zeolite, prepared in water, ozonated in glass, kept away from metal before ingestion, and sipped slowly in water. The author also reports rubbing it on the body or holding the jar.',
+          'Charcoal remains a caution item: it can bind medicines/substances and has aspiration risk. The app does not turn it into a routine self-treatment pathway.'
+        ]);
+    },
+    nausea: function (contexts, goal, meta) {
+      const psychedelic = meta && meta.drugType === 'psychedelic';
+      const wantsAbort = goal === 'abort';
+      let pesCaprae = '';
+      if (psychedelic && wantsAbort) pesCaprae = '<div class="btg-callout btg-callout--orange"><strong>Trip termination is the goal:</strong> use beach morning glory (<em>Ipomoea pes-caprae</em>): in the author’s experience a whole leaf can easily end the trip. The guide treats this as rapid psychedelic trip termination, not merely nausea treatment.</div>';
+      else if (psychedelic) pesCaprae = '<div class="btg-callout btg-callout--amber"><strong>Want to preserve the trip?</strong> Eating a couple of coffee cherries helps the author’s nausea, though it may also extend the trip. A tiny nibble of beach morning glory can sometimes smooth nausea, but the difference between that and a trip-ending amount is narrow.</div>';
+      return '<div class="btg-badge-row"><span class="btg-badge btg-badge--consensus">Nausea triage</span></div>' + list(['Separate ordinary nausea from poisoning, severe dehydration, blood, severe abdominal pain, dangerous heat, or persistent vomiting.','Keep the person seated or safely on their side if vomiting; provide a bucket and reduce smells/motion.','Give nothing by mouth if confused, very drowsy, repeatedly vomiting, or at seizure risk.','For concerning or unknown exposure, use poison expertise rather than treating charcoal as a universal antidote.']) + pesCaprae + contextCautions(contexts) + guideNote(['If nausea feels gut-toxic rather than simply dose-heavy, the guide points first to the author’s zeolite and/or ZHoly3O-style ferment notes.','Pes-caprae belongs primarily to the rapid psychedelic trip-termination branch. Nausea use is secondary and carries a real chance of ending the trip.','The guide does not generalize pes-caprae to MDMA.']);
+    },
+    emotional: function (contexts) {
+      return '<div class="btg-badge-row"><span class="btg-badge btg-badge--support">Compassionate witnessing</span></div>' +
+        '<p>If the body is safe and genuine grief, shame, fear, or trauma is surfacing, do not interrogate it or force a lesson.</p>' +
+        list([
+          'Lower stimulation and ask what would feel safer: silence, distance, a blanket, water, movement, or a trusted person.',
+          'Try: “This feeling is allowed to move through; you do not have to become it.”',
+          'Invite, do not impose: “Can I send love to the one who is suffering?”',
+          'If wanted, use hand-on-heart: one hand on heart, one on solar plexus, sending love to the inner child.',
+          'A familiar object may remind the person of the Nurturer or Protector and one concrete adult promise. It does not speak, reveal hidden history, or decide what is true.',
+          'Do not introduce a childhood photograph or question the person toward a hidden memory during an acute difficult trip.',
+          'If immobile introspection is becoming a trap, offer one bounded parallel-processing task with a visible endpoint.',
+          'If love opens, widen it to all beings who need it; gratitude can come later as icing on the cake, not as pressure.',
+          'Use touch only with permission. Hand-on-heart can be self-directed if wanted.',
+          'Escalate if the person becomes unsafe, physically unstable, or trapped in worsening loops.'
+        ]) + contextCautions(contexts) + innerSignalCallout(contexts);
+    },
+    overload: function (contexts, goal) {
+      let abortNote = '';
+      if (goal === 'abort') abortNote = '<div class="btg-callout btg-callout--amber"><strong>About stopping the experience:</strong> There is no universally safe home “trip killer.” If the person cannot be supported, the dose/combination is unknown, or symptoms are severe, call Poison Control or seek medical care.</div>';
+      return '<div class="btg-badge-row"><span class="btg-badge btg-badge--consensus">Reduce input first</span></div>' +
+        list([
+          'Ask “music or quiet?” If music helps, use one familiar track with immediate pause/change control. Steady drumming may feel grounding; airy harp-like or meditative music may feel uplifting. Do not impose a playlist arc.',
+          'Dim light; one calm person; no phone, mirrors, crowds, or explanations.',
+          'Orient: “I am in [place]. It is [time]. This will change.”',
+          'Try longer exhales. If overbreathing is obvious, gentle Buteyko-style reduced breathing may help: breathe softly and slowly through the nose, taking in slightly less air than you want until there is faint air hunger. Never strain or use long breath-holds while intoxicated.',
+          'Try stillness or safe movement for two minutes and keep only what makes the person safer and clearer.',
+          'If staring inward is making the loop tighter, try one bounded parallel-processing task with a visible endpoint. Stop if it increases activation or risk.',
+          'Remind: “You do not have to solve this. The state will change.”',
+          'Stop redosing and avoid stimulatory or extending additions.'
+        ]) + '<p class="btg-small">Overbreathing can lower CO₂ and cause tingling, lightheadedness, confusion, and unreality feelings. See <a href="https://www.hopkinsmedicine.org/health/conditions-and-diseases/hyperventilation" target="_blank" rel="noopener noreferrer">Johns Hopkins on hyperventilation</a>.</p>' + abortNote + contextCautions(contexts) + guideNote([
+          'The guide reports aged ozonated-charcoal water, boiled charcoal water, DMSO, ocean-water contact, and shungite contact as personal stabilizers.',
+          'These are not established treatments. Ozonating water/charcoal is not the same as inhaling ozone; ozone gas is a respiratory hazard. Do not drink shungite water unless properly washed and quality-checked because shungite can leach metals into water.'
+        ]) + innerSignalCallout(contexts);
+    },
+    mdma: function (contexts) {
+      return '<div class="btg-badge-row"><span class="btg-badge btg-badge--personal">Magnesium-responsive early warning</span><span class="btg-badge btg-badge--caution">Watch the whole electrolyte/heat pattern</span></div>' +
+        '<p>Meaningful MDMA jaw or muscle tension is treated as the earliest magnesium alarm in the guide’s repeated field experience.</p>' +
+        list(['Stop redosing MDMA and reduce heat and exertion.','If fully conscious and able to swallow, take magnesium chloride until the jaw fully releases: the author dissolves Dead Sea magnesium chloride hexahydrate flakes in water and takes approximately one gram per minute for around twenty minutes. A token dose may not be enough.','Check temperature, mental state, weakness, pulse, vomiting, hydration, rigidity/clonus, seizure, and chest symptoms.','Serious toxicity may involve sodium, potassium, magnesium, temperature, serotonin toxicity, rhabdomyolysis, rhythm disturbance, and co-ingestants.','Do not blindly replace potassium or drink excessive plain water.','If the brain feels damaged or neurological control is changing, switch to the DMSO-first neurological gate.']) + contextCautions(contexts) + '<p class="btg-small">People with impaired kidneys need to be more cautious with large, rapid magnesium doses, because they may not clear magnesium normally, but they should be far more worried about the MDMA: treat the situation as higher-risk and get help sooner.</p>';
+    },
+    grandiosity: function (contexts) {
+      return '<div class="btg-badge-row"><span class="btg-badge btg-badge--caution">Bliss is not proof of safety</span></div>' +
+        '<p>Not every dangerous state feels bad. Sudden total certainty, mission energy, and “I am God/chosen” can be especially risky because the person may not want grounding.</p>' +
+        list([
+          'The action-lock applies double: no driving, posting, confessing, confronting, redosing, disappearing, giving away possessions, testing theories, or proving anything tonight.',
+          'Ask two questions: “Have I slept?” and “Has this happened before—and how did it end?”',
+          'Treat sleep as the first medicine. The revelation will still be there after breakfast if it is true.',
+          'Use one calm lead person; add backup only if safety requires it.',
+          'If grandiosity turns toward a specific target, weapon, violence, or movement toward action, use crisis or emergency help now.'
+        ]) + '<div class="btg-callout btg-callout--blue"><strong>Grounding line:</strong> “I believe this feels vast. Peace is the godly move tonight. No proof is needed. We protect life and sleep first.”</div>' + contextCautions(contexts);
+    },
+    entity: function (contexts) {
+      return '<div class="btg-badge-row"><span class="btg-badge btg-badge--support">Stabilize without affirming or ridiculing</span></div>' +
+        list([
+          'Treat the experience as frightening and real to the person without declaring the entity objectively real or unreal.',
+          'Make the body and room safe; reduce stimulation and extra people.',
+          'Do not try to win a metaphysical argument. Also do not validate harmful commands.',
+          'Reflect the feeling and redirect: “We do not have to battle this right now. We can stay safe, protect life, and let this pass.”',
+          'The author found that fighting demons and jinn didn’t help, and sending love did. When an entity seemed to attack him and another person, it left within seconds once he sent it love (“Love Thy Enemy”).',
+          'If disorganization, violence, or psychosis-like symptoms become severe or persist, get outside help.'
+        ]) + contextCautions(contexts) + guideNote([
+          'The guide reports direct smelling of Syrian rue seeds or a familiar rue-oil aroma as a personal, non-abortive support when an experience feels like negative energy or an entity attack. Traditional rue fumigation is historically documented, but efficacy for bad trips is not established.',
+          'If rue is burned, only a sober helper should manage a small flame with ventilation. Do not use concentrated smoke or add it when there are respiratory symptoms, fire risk, pregnancy, or an unresolved drug interaction.',
+          'The app does not operationalize rue-oil ingestion, mucosal application, or dosing. A home oil cannot be assumed free of MAO-A interactions because Peganum seed oil can contain harmala alkaloids.'
+        ]);
+    },
+    psychosis: function (contexts) {
+      return '<div class="btg-badge-row"><span class="btg-badge btg-badge--caution">Lower threshold for outside help</span></div>' +
+        list([
+          'Use one calm voice, few people, low light, no confrontation, and no driving or access to weapons/traffic/water.',
+          'Do not validate dangerous commands or argue about beliefs. Focus on immediate safety, non-harm, sleep, and basic orientation.',
+          'If content turns toward harm, redirect from inside their value-world: “If God is in everyone, every body is sacred. Peace is the godly move tonight.”',
+          'Call emergency services if there is a specific target, weapon, movement toward action, violence, inability to maintain safety, or the person becomes hard to wake.',
+          'Use 988, local crisis support, urgent mental-health support, or a clinician if suicidal thinking, mania, or psychosis-like symptoms persist after the acute state or sleep does not return.'
+        ]) + '<div class="btg-callout btg-callout--amber"><strong>Inner Signal boundary:</strong> Do not use a self-hypnosis app as the main response when someone is unsafe, severely disorganized, manic, suicidal, violent, or unable to use technology calmly.</div>' + '<div class="btg-action-links"><a class="btg-action-link btg-action-link--blue" href="tel:988">U.S.: Call/Text 988</a><a class="btg-action-link" href="https://988lifeline.org/chat/" target="_blank" rel="noopener noreferrer">988 chat</a><a class="btg-action-link" href="https://findahelpline.com/" target="_blank" rel="noopener noreferrer">Find local crisis help</a></div>' + contextCautions(contexts);
+    },
+    abort: function (contexts, goal, meta) {
+      if (meta && meta.drugType === 'psychedelic') return '<div class="btg-badge-row"><span class="btg-badge btg-badge--personal">Rapid psychedelic trip termination</span></div><p>The person wants the psychedelic state stopped. Use beach morning glory (<em>Ipomoea pes-caprae</em>), the guide’s sledgehammer for stopping a trip cold and fast, rather than stacking random calming remedies. In the author’s experience a whole leaf can easily end the trip and may prevent tripping for days afterward. Without it, flushing niacin is the backup trip killer (not sustained-release niacin or the no-flush form).</p>' + list(['Stop redosing and remove stimulants, alcohol, and other additions.','Keep one sober person present and preserve the action lock.','If there is also a brain-damage feeling, use DMSO first and run the neurological screen before or while preparing the trip-abort step.','Objective danger signs still require urgent help in parallel.']) + contextCautions(contexts);
+      return '<div class="btg-badge-row"><span class="btg-badge btg-badge--caution">Drug-specific route required</span></div><p>There is no universal aborter across psychedelics, MDMA, stimulants, dissociatives, cannabis, and unknown mixtures.</p>' + list(['Stop redosing and remove stimulants, alcohol, and other additions.','Use low stimulation, supervision, action-lock, and the specific branch matching the drug and symptoms.','MDMA distress belongs in the magnesium/electrolyte and heat/serotonin/cardiovascular screen—not the pes-caprae route.','Unknown dose, risky combination, severe symptoms, or inability to support safely requires poison or medical expertise.']) + contextCautions(contexts);
+    },
+    unknown: function (contexts) {
+      return '<div class="btg-badge-row"><span class="btg-badge btg-badge--consensus">Stabilize and reclassify</span></div>' +
+        list([
+          'Repeat the danger check. If exposure is unknown or a combination is involved, call Poison Control.',
+          'Pause unsafe momentum: no roads, balconies, water, knives, driving, posting, leaving alone, or proving anything tonight.',
+          'Fix the room: dim light, fewer people, safe temperature, bathroom/bucket access. Ask “music or quiet?” and keep any music familiar and immediately changeable.',
+          'Check the body: heat, hydration, sleep, pain, nausea, vomiting, medication interactions.',
+          'Try stillness, safe movement, or one bounded parallel-processing task with a visible endpoint; keep only what makes the person safer and clearer.',
+          'A familiar object may remind the person of the Nurturer or Protector, but it does not interpret the trip. Do not introduce a childhood photograph during an acute difficult state.',
+          'Then ask whether this is emotional material, mental overload, euphoric certainty, psychosis-like disorganization, or a request to stop the experience.',
+          'Use the least-forceful safe step and reassess frequently.'
+        ]) + contextCautions(contexts) + innerSignalCallout(contexts);
+    }
+  };
+
+    form.addEventListener('submit', function (event) {
+    event.preventDefault();
+    const dangers = checkedValues('danger');
+    const contexts = checkedValues('context');
+    const problem = $('[data-btg-problem]').value;
+    const alertness = $('[data-btg-alertness]').value;
+    const goal = $('[data-btg-goal]').value;
+    const drugType = $('[data-btg-drug-type]').value;
+    const neuroStatus = $('[data-btg-neuro-status]').value;
+    const tempRaw = parseFloat($('[data-btg-temp]').value);
+    const substances = $('[data-btg-substances]').value.trim();
+    const onset = $('[data-btg-onset]').value.trim();
+
+    const route = classifyTriageState({ dangers, contexts, problem, alertness, goal, drugType, neuroStatus, tempRaw, substances });
+
+    syncHandoffFromTriage();
+
+    if (route.indexOf('neuro-') === 0) {
+      const neuro = neurologicalRouteHTML(route, drugType, contexts, substances, onset);
+      render(neuro.title, neuro.severity, neuro.html + recheckFooter());
+      return;
+    }
+
+    if (route === 'critical') {
+      render('Emergency services now', 'critical',
+        '<div class="btg-callout btg-callout--red"><strong>Call emergency services now, and give basic first aid and any appropriate immediate rescue measures while help comes.</strong> Medical help and field rescue can happen in parallel. Please don’t spiritually process a body that is going under.</div>' +
+        actionLinks('critical') +
+        list([
+          'Stay with the person if you can do so safely and remove immediate hazards.',
+          'Do not give food, drink, pills, charcoal, or induce vomiting if confused, drowsy, vomiting, or at seizure risk.',
+          'Stop all further substances and prevent exertion.',
+          'Use one calm voice; do not argue to win or validate harmful commands.',
+          'Tell responders the exact substance, amount, route, time, medications, symptoms, and measured temperature if known.'
+        ]) +
+        (substances || onset ? '<div class="btg-callout btg-callout--blue"><strong>Handoff details entered</strong><br>' + (substances ? escapeHTML(substances).replace(/\n/g, '<br>') : 'Substances not entered') + (onset ? '<br><strong>Timing:</strong> ' + escapeHTML(onset) : '') + '</div>' : '') +
+        contextCautions(contexts)
+      );
+      return;
+    }
+
+    if (route === 'urgent') {
+      render('Poison Control or urgent medical advice now', 'urgent',
+        '<div class="btg-callout btg-callout--amber"><strong>Do not guess at an antidote.</strong> Contact a poison center or urgent clinician now; use emergency services if symptoms worsen.</div>' +
+        actionLinks('urgent') +
+        list([
+          'Stop redosing and do not stack random remedies. If the concern is current brain damage or neurological loss of control, return to the DMSO-first neurological gate.',
+          'Keep the person supervised in a calm, safe environment.',
+          'Pause unsafe momentum: no driving, posting, leaving alone, confronting, or proving anything.',
+          'Do not drive; arrange sober transport if a clinician advises evaluation.',
+          'Prepare exact substance, amount, time, medication list, symptoms, and packaging.'
+        ]) + contextCautions(contexts)
+      );
+      return;
+    }
+
+    const key = route === 'mdma' ? 'mdma' : route === 'psychedelic-abort' ? 'abort' : goal === 'abort' && !['body', 'gut', 'nausea', 'emotional', 'psychosis', 'action', 'grandiosity', 'alone', 'mdma'].includes(problem) ? 'abort' : problem;
+    const handler = responses[key] || responses.unknown;
+    const titles = {
+      unknown: 'Stabilize and reclassify',
+      action: 'Action lock: stop permanent consequences',
+      alone: 'Alone: make a tiny safe container',
+      environment: 'Fix the room first',
+      body: 'Settle the body before interpreting',
+      gut: 'Gut symptoms: assess, support, and escalate when needed',
+      nausea: 'Nausea: supportive care and red flags',
+      emotional: 'Emotional material: gentle witnessing',
+      overload: 'Mental overload: reduce input',
+      neurological: 'Possible neurological injury',
+      mdma: 'MDMA jaw tension and electrolytes',
+      grandiosity: 'Euphoric certainty: protect sleep and non-harm',
+      entity: 'Terrifying entity-like material: stabilize first',
+      psychosis: 'Psychosis/mania-like state: safety and outside support',
+      abort: 'Request to reduce or stop the experience'
+    };
+    render(titles[key] || 'Stabilize and reclassify', '', handler(contexts, goal, { drugType, neuroStatus }) + recheckFooter());
+  });
+
+    const checklistText = [
+    'ONE-MINUTE BAD TRIP TRIAGE',
+    '',
+    '1. “My brain feels damaged” is not automatically anxiety. Use DMSO right away while checking wakefulness, breathing, smile, both arms, speech, walking, bodily control, seizure, temperature, chest symptoms, vomiting, and vision.',
+    '2. Unable to answer, focal weakness/speech change, collapse, prolonged/repeated seizure, breathing trouble, dangerous heat, severe chest pain, serious injury, or real harm risk: urgent help while acting. Do not wait to see whether DMSO works.',
+    '3. Psychedelic + reassuring neurological screen + possible brain damage: stop preserving the trip; use beach morning glory (Ipomoea pes-caprae) after DMSO; a whole leaf can easily end the trip.',
+    '4. MDMA + jaw/muscle tension: stop redosing, reduce heat/exertion, take magnesium chloride (about a gram a minute for around twenty minutes, in the author’s experience) only if fully conscious and able to swallow, and reassess jaw release. Watch the broader electrolyte/temperature pattern.',
+    '5. Unsafe momentum? Pause roads, balconies, water, knives, stoves, driving, posting, texting, confronting, redosing, proving, or leaving alone.',
+    '6. Room wrong? Fix light, sound, temperature, crowding, privacy, phone, bathroom access, and touch. Ask “music or quiet?” Use familiar music with stop/change control; steady drumming may ground, airy harp-like music may uplift, and silence is valid.',
+    '7. One calm sober human lead. Add backup only if safety or logistics require it.',
+    '8. If staring inward becomes a trap, use parallel processing: part of attention with the feeling, another part finishing one safe task with a visible endpoint.',
+    '9. A familiar note, toy, stuffed animal, or other object may remind you of the adult Nurturer or Protector. It does not speak, interpret the trip, or decide what is true.',
+    '10. Do not introduce a childhood photograph or search for hidden memories during an acute difficult trip.',
+    '11. “Too intense” without brain-damage concern can use calming and grounding when the person wants to preserve the trip.',
+    '12. Meaning comes later. Visions are not commands. If the revelation is true, it will survive sleep and breakfast.',
+    '',
+    'U.S. Poison Control: 1-800-222-1222 | Emergency: 911 | Crisis: 988',
+    'Fireside Project: 623-473-7433, U.S.-only, daily 11 a.m.–11 p.m. PT; verify current hours.',
+    'TripSit chat: https://tripsit.me/webchat | Global crisis lines: https://findahelpline.com/'
+  ].join('\n');
+
+    async function copyText(text, successMessage) {
+    try {
+      if (navigator.clipboard && window.isSecureContext) {
+        await navigator.clipboard.writeText(text);
+      } else {
+        const area = document.createElement('textarea');
+        area.value = text;
+        area.setAttribute('readonly', '');
+        area.style.position = 'fixed';
+        area.style.opacity = '0';
+        document.body.appendChild(area);
+        area.select();
+        document.execCommand('copy');
+        area.remove();
+      }
+      setStatus(successMessage);
+    } catch (error) {
+      window.prompt('Copy this text:', text);
+    }
+  }
+
+  function handoffText() {
+    const age = $('[data-btg-h-age]').value.trim() || 'Not entered';
+    const substances = $('[data-btg-h-substances]').value.trim() || 'Not entered';
+    const symptoms = $('[data-btg-h-symptoms]').value.trim() || 'Not entered';
+    const history = $('[data-btg-h-history]').value.trim() || 'Not entered';
+    return [
+      'EMERGENCY / POISON-CENTER HANDOFF NOTE',
+      'Prepared: ' + new Date().toLocaleString(),
+      '',
+      'Age / approximate weight: ' + age,
+      '',
+      'Substance, amount, route, time:',
+      substances,
+      '',
+      'Current symptoms and onset:',
+      symptoms,
+      '',
+      'Medicines, supplements, conditions, allergies:',
+      history
+    ].join('\n');
+  }
+
+  function openPrintView() {
+    const styles = document.getElementById('btg-app-styles').textContent;
+    const clone = root.cloneNode(true);
+    clone.classList.remove('btg-is-panic');
+    clone.querySelectorAll('.btg-toolbar, form, .btg-result, .btg-status, [data-btg-action="copy-handoff"]').forEach((el) => el.remove());
+    clone.querySelectorAll('details').forEach((detail) => detail.setAttribute('open', ''));
+    const printWindow = window.open('', '_blank', 'noopener,noreferrer');
+    if (!printWindow) {
+      window.print();
+      return;
+    }
+    printWindow.document.write('' + clone.outerHTML + '');
+    printWindow.document.close();
+    printWindow.focus();
+    window.setTimeout(() => printWindow.print(), 350);
+  }
+
+  root.addEventListener('click', function (event) {
+    const control = event.target.closest('[data-btg-action]');
+    if (!control || !root.contains(control)) return;
+    const action = control.getAttribute('data-btg-action');
+    if (action === 'panic') {
+      root.classList.add('btg-is-panic');
+      root.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    } else if (action === 'exit-panic') {
+      root.classList.remove('btg-is-panic');
+      root.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    } else if (action === 'copy-checklist') {
+      copyText(checklistText, 'One-minute checklist copied.');
+    } else if (action === 'copy-handoff') {
+      copyText(handoffText(), 'Responder handoff note copied.');
+    } else if (action === 'print') {
+      openPrintView();
+    } else if (action === 'reset') {
+      form.reset();
+      result.className = 'btg-result';
+      resultTitle.textContent = 'Response';
+      resultContent.innerHTML = '';
+      $$('[data-btg-h-age], [data-btg-h-substances], [data-btg-h-symptoms], [data-btg-h-history]').forEach((field) => { field.value = ''; });
+      root.classList.remove('btg-is-panic');
+      setStatus('App reset.');
+    }
+  });
+})();
+</script>

@@ -1,0 +1,57 @@
+{
+ "readers": [
+  "codex",
+  "haiku",
+  "sonnet"
+ ],
+ "sentences": [
+  "First, figure out what could hurt somebody in the next five minutes, since that part can't wait.",
+  "Put the car keys away (nobody tripping should be getting behind a wheel) and turn off the stove.",
+  "If you're near a road, a balcony or water, go somewhere you're not.",
+  "Weapons need to be out of reach, and it's best to get away from crowds and strangers as well.",
+  "The phone is a funny one, but if they're about to post the whole revelation of the universe online or text an ex, it's kinder to hang on to it for them for now."
+ ],
+ "flagged": {
+  "1": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ],
+  "2": [
+   "haiku",
+   "sonnet"
+  ],
+  "3": [
+   "haiku",
+   "sonnet"
+  ],
+  "4": [
+   "sonnet"
+  ],
+  "5": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ]
+ },
+ "agreed": [
+  1,
+  2,
+  3,
+  5
+ ],
+ "whole": {
+  "codex": [
+   "The orderly checklist, conversational asides and gently humorous ending could suggest an AI pass intended to make practical instructions feel personable. These are weak signals, though: nothing in the wording reliably establishes AI authorship."
+  ],
+  "haiku": [
+   "The rhythm is very even: most sentences give one instruction plus a reason, in a tidy order from most urgent to least, which reads like a checklist turned into prose. The voice stays careful and reassuring throughout, with the humor kept small and safe, which is typical of polished model writing. These are signals, not proof."
+  ],
+  "sonnet": [
+   "The paragraph is built as an orderly checklist, with each sentence covering one hazard in a similar length and a calm, even rhythm. The voice stays smooth and advisory throughout, with few rough edges, and it closes on a lightly humorous note that looks slotted in to relieve the instructions."
+  ]
+ },
+ "human_clean": [
+  "text an ex"
+ ]
+}

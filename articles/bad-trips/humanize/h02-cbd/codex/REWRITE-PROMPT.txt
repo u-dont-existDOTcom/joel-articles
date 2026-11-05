@@ -1,0 +1,87 @@
+Here is a paragraph from a self-help article by Joel, with the paragraphs around it. Fresh readers found that it reads as
+written by an AI model; their notes are below. Rewrite this one paragraph so it reads like Joel talking to a reader, and
+keeps every point listed.
+
+The paragraph before it (for context only):
+If an appropriate rapid seizure-rescue benzodiazepine is available, use it by its intended route. Benzodiazepines are the established first-line drug class for status epilepticus. An ordinary pill is not the same thing as a nasal, buccal, rectal, intramuscular, or intravenous rescue preparation, and respiratory depressants in the mix change the risk.
+
+THE PARAGRAPH:
+I would also use topical magnesium chloride and consider topical DMSO with a known CBD preparation as adjuncts. CBD on the skin hasn't been shown to help with seizures, though. In a 12-week trial, a CBD gel got into the blood about as well as oral CBD does and still did no better than placebo. Swallowed CBD looks better: it's approved for the seizures that come with Lennox-Gastaut syndrome, Dravet syndrome and tuberous sclerosis complex, and in a 2025 study, people taking a lot of it, around 23 mg/kg a day (about 1,400 mg if you weigh 60 kg), had about half to three quarters fewer focal seizures over almost three years. That study had no placebo group, and neither study tested CBD as a quick rescue during a seizure. DMSO cut seizure activity in a rat temporal-lobe epilepsy model and protects nerve cells in several ways, but at some doses it made things worse in an absence-epilepsy model. So I see it as an experimental extra that might help, and I wouldn't wait on it while a seizure keeps going.
+
+The paragraph after it (for context only):
+Call medics for a convulsive seizure lasting about five minutes, repeated seizures without normal recovery, trouble breathing, dangerous heat, serious injury, a first seizure, or a seizure substantially different from the person's known pattern.
+
+What it has to say (keep every point, at the strength it has, and add none):
+- He would also use topical magnesium chloride, and consider topical DMSO with a known CBD preparation, alongside the rescue drug (his own sentence opens the paragraph).
+- Purified oral CBD is approved for the seizures of Lennox-Gastaut syndrome, Dravet syndrome and tuberous sclerosis complex (a link goes on the word "approved").
+- For focal seizures outside those syndromes the evidence goes both ways.
+- In a 12-week trial (a link goes on "12-week trial"), a CBD skin gel reached the blood at levels like oral CBD's but did no better than placebo.
+- In a 2025 study (a link goes on "2025 study"), people on high-dose oral CBD, around 23 mg/kg a day, which is about 1,400 mg for a 60 kg adult, had their focal seizures fall by about half to three quarters over nearly three years; that study had no placebo group.
+- None of these studies tested CBD as a fast rescue while a seizure is happening.
+- DMSO reduced seizure activity in a rat temporal-lobe epilepsy model (link on those words) and has several neuroprotective mechanisms, but at some doses it had the opposite effect in an absence-epilepsy model (link on those words).
+- His judgment: he treats DMSO as a plausible experimental adjunct, and not as something to wait on while a seizure continues.
+
+What the readers flagged:
+codex:
+AI:
+
+- "That study had no placebo group, and neither study tested CBD as a quick rescue during a seizure." — The neatly bundled caveats read like an AI’s systematic effort to cover every limitation before proceeding.
+- "So I see it as an experimental extra that might help, and I wouldn't wait on it while a seizure keeps going." — This closing sentence efficiently combines a verdict, uncertainty and practical caution, giving it a formulaic wrap-up quality.
+- "around 23 mg/kg a day (about 1,400 mg if you weigh 60 kg)" — The unsolicited worked conversion has the conspicuously helpful explanatory style common in AI-polished prose.
+- "Swallowed CBD looks better" — This breezy transition between technical evidence summaries feels like conversational language added during a plain-English polishing pass.
+
+WHOLE:
+
+The paragraph moves through evidence, qualifications and a cautious takeaway with unusually orderly coverage, while alternating technical terminology with deliberately casual phrasing. That combination can suggest AI polishing, but none of these features establishes authorship.
+
+haiku:
+AI:
+1. "That study had no placebo group, and neither study tested CBD as a quick rescue during a seizure." A tidy two-part limitations sentence that sums up the caveats in the balanced, evenly weighted way models tend to favor.
+2. "So I see it as an experimental extra that might help" The closing verdict stacks two hedges ("I see it as," "might help") into a neat wrap-up that reads like a summary rather than a personal stance.
+3. "but at some doses it made things worse in an absence-epilepsy model" The "but" contrast balances the earlier positive finding in a symmetrical way, and "at some doses" is a vague qualifier that smooths over the specifics.
+4. "(about 1,400 mg if you weigh 60 kg)" An inserted worked example that converts the dose for a hypothetical reader, the kind of explainer aside an assistant adds to make numbers accessible.
+5. "Swallowed CBD looks better:" A colon-led pivot that sets up a clean comparison, a standard explainer move.
+6. "protects nerve cells in several ways" A generic, unspecified claim that gestures at detail without giving any.
+
+WHOLE:
+The paragraph is built in a very even way: nearly every sentence pairs a finding with a caveat, and the sentence lengths and hedging are consistent throughout, which reads like a polished evidence summary rather than one person's voice. The arc, from advice to data to a balanced verdict, is tidy in the way generated text often is, though a few direct phrasings keep it from reading as fully machine-made.
+
+sonnet:
+AI:
+1. "CBD on the skin hasn't been shown to help with seizures, though." Reads like a tidy, hedged summary sentence of the sort models use to open a rebuttal block, with a neat "though" pivot and the careful phrase "hasn't been shown to".
+2. "Swallowed CBD looks better:" Models often use a short colon-led contrast like this to set up a list of supporting details.
+3. "Lennox-Gastaut syndrome, Dravet syndrome and tuberous sclerosis complex" A complete, evenly balanced three-item list, a classic machine pattern, with every name given in full.
+4. "had about half to three quarters fewer focal seizures over almost three years" Smoothed, rounded quantities ("about half to three quarters", "almost three years") sound like a paraphrase of a source and not a writer's own note of the numbers.
+5. "That study had no placebo group, and neither study tested CBD as a quick rescue during a seizure." Reads as an auto-generated caveat sentence that systematically lists what the evidence lacks, with the symmetrical "neither study" closing off every gap.
+6. "DMSO cut seizure activity in a rat temporal-lobe epilepsy model and protects nerve cells in several ways, but at some doses it made things worse in an absence-epilepsy model." Balanced "benefit, but harm" structure with vague quantifiers ("several ways", "some doses") packs a lot into one smooth sentence, which is typical of model summarizing.
+7. "So I see it as an experimental extra that might help, and I wouldn't wait on it while a seizure keeps going." A tidy, hedged "So I see it as..." wrap-up that lands the paragraph's point with a neat closing line.
+8. "as adjuncts" / "an experimental extra" The repeated "adjunct/extra" framing is a polished, careful label that models favour for hedged recommendations.
+
+WHOLE: The paragraph is built as claim, then evidence for, then limits, then a second claim, then evidence for and against, then a hedged verdict. Each sentence is about the same length and carries one carefully qualified point, so the rhythm is even and the caveats are very complete. The overall effect is a balanced, evenly hedged mini-review with no digressions, which is more machine-like than most human writing. The first-person "I" voice sits on top of that structure and does not break it.
+
+Lines of Joel's own from the same article, for how he sounds:
+If someone is worried about a bleed, I'd probably skip DMSO, but it depends on how severe their issue is. It's not a powerful blood thinner like heparin, unless maybe injected; it's basically a dietary blood thinner. I've never had any issues with bleeding too much from consuming DMSO, and never heard of it either, but if bleeding is already a medical issue I'd want to think about that more.
+
+With harmalas, don't put the harmala in the DMSO or take them at exactly the same time; taking them a bit apart is totally fine, and the point is to take DMSO if you've already absorbed the harmalas and the aya is too crazy.
+
+Ocean water is one of the simplest and strangest stabilizers I have found. I noticed it in Kenya and Florida. Rain water also works for me, but I've only tested it near the ocean.
+
+When a trip is too strong, touching ocean water can be extremely soothing. Touching the outside of a bottle doesn't do it. Direct contact with the water seems to matter, even when the water has been stored in a bottle.
+
+In general it's good to try all these things in very low, increasing doses before they are needed in crisis.
+
+Rules:
+- Add no new claims: no facts about Joel or anyone in his life, no stories, no statistics, no new warnings or reassurances.
+  An everyday example of a point that is already there is fine.
+- Say an instruction plainly, as an instruction, and a fact as a fact. No cautious first-person asides around them ("I'd
+  count ...", "I wouldn't wait to ..."), no hedge in front of a directive, no "that doesn't mean ..." reassurance.
+- If a judgment of his is in the points, say it the way a person would, with whatever doubt it really has.
+- If the readers say the whole paragraph is built like a template (a scene, a common mistake, a reassurance, the advice,
+  a closing moral), change how it's built, not only its words: start from one concrete case the way a person tells it,
+  say a minor point in passing, and end on an example or a plain fact. A point marked "(can go)" can be left out.
+- Let the sentences run unevenly, the way a person talks. Don't line the cases up in parallel, and don't end on a quotable
+  line or a fragment that sums up.
+- No list of three unless its last item is a casual catch-all, and no "X, not Y" or "not X but Y" contrast.
+- About the same length as the paragraph, or shorter.
+
+Reply with the rewritten paragraph only.

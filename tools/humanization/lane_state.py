@@ -21,6 +21,9 @@ def set_state(text, turn, date, values):
     text, n1 = re.subn(r'Updated: \d{4}-\d\d-\d\d \(turn \d+\)\.', 'Updated: %s (turn %s).' % (date, turn), text, count=1)
     text, n2 = re.subn(r'## Current checkpoint \(\d{4}-\d\d-\d\d, turn \d+\)', '## Current checkpoint (%s, turn %s)' % (date, turn),
                        text, count=1)
+    # a registered article's state file needs the bare heading "## Current checkpoint" (scripts/validate_content_repository.py
+    # matches headings exactly); there the "Updated:" line carries the date and turn (the bad-trips guide, 2026-11-03)
+    n2 = n2 or len(re.findall(r'^## Current checkpoint$', text, flags=re.M))
     if not (n1 and n2):
         raise SystemExit('no "Updated:" line or checkpoint heading to set')
     for label, new in zip(FIELDS, values):

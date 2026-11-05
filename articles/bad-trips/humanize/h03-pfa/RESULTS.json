@@ -1,0 +1,73 @@
+{
+ "about": "The humanize pass's first section, Psychological First Aid: The First Five Minutes (with Stillness or Movement?). The published post's check read all of it AI High. Every window with its confidence; predictions in ../pangram-ledger.jsonl before each check.",
+ "detector": "Pangram web app (his account, Pangram Professional), through Claude in Chrome",
+ "checks": [
+  {
+   "key": "bt-pfa-D4",
+   "scope": "section (BEFORE.md's 16 blocks as D4.md, plain text D4.txt)",
+   "text_file": "D4.txt",
+   "sha256": "a0ab2d2a6962e0e0559f9431b221b52e1435e611e72fd659e1e725f40b874628",
+   "words": 787,
+   "headline": "AI Generated",
+   "ai_likelihood": 1.0,
+   "windows": [
+    [
+     "AI-Generated",
+     "High",
+     787,
+     "the whole section"
+    ]
+   ],
+   "at": "2026-11-04T15:44:48Z",
+   "link": "https://www.pangram.com/history/38061cf5-7095-4cfb-8d3b-9f50bfa4f111",
+   "what_changed": "my draft: plain words, the lists split, the quips and 'X does not Y' out, a sentence in each paragraph that isn't an instruction (tells_lint REVIEW, no FAIL)"
+  },
+  {
+   "key": "bt-pfa-P3-T1",
+   "scope": "paragraph (the dangers paragraph, narrowed from the section, E343)",
+   "text_file": "P3-T1.txt",
+   "sha256": "eaa31f8139e9528abd96f5c5029e920a1ca9a96fe897ea0f468d3c6ec04f1e37",
+   "words": 107,
+   "headline": "AI Generated",
+   "ai_likelihood": 1.0,
+   "windows": [
+    [
+     "AI-Generated",
+     "High",
+     107,
+     "the whole paragraph"
+    ]
+   ],
+   "at": "2026-11-04T15:47:06Z",
+   "link": "https://www.pangram.com/history/3c87417a-c673-4611-bb59-e08b0dc943d8",
+   "what_changed": "each instruction with its reason, a reaction ('The phone is a funny one'), a judgment of kindness instead of a bare order"
+  },
+  {
+   "key": "bt-pfa-P3-T2",
+   "scope": "paragraph (the dangers paragraph, second try, after the panel on T1: panel-P3T1/PANEL.md, agreed S1, S2, S3, S5)",
+   "text_file": "P3-T2.txt",
+   "sha256": "aaacdfe362bed475feb4337a6ae20e5498830683e64592c3580cda6b3e986978",
+   "words": 71,
+   "headline": "AI Generated",
+   "ai_likelihood": 1.0,
+   "windows": [
+    [
+     "AI-Generated",
+     "High",
+     53,
+     "the first two sentences"
+    ],
+    [
+     "AI-Generated",
+     "Medium",
+     18,
+     "the phone sentence"
+    ]
+   ],
+   "at": "2026-11-04T15:51:13Z",
+   "link": "https://www.pangram.com/history/f2e819da-1d18-4b53-813a-58740905c8b9",
+   "what_changed": "the four agreed sentences fixed: no 'First, ... can't wait', no parenthetical reason, no triad, no 'kinder'; the panel on this draft (panel-P3T2/PANEL.md) agreed on its opener and the weapons sentence, and both readers said it has no first person and nothing at stake ('assembled rather than lived')"
+  }
+ ],
+ "next": "Stopped after three AI results: the readers' diagnosis (no first person, nothing at stake for the writer) is what only Joel can supply, so the paragraph is round 5's card PFA-YOURS. The rest of the how-to sections wait for his version (E333)."
+}

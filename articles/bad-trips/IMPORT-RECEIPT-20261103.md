@@ -1,0 +1,7 @@
+# Bad Trips guide: import receipt (2026-11-03)
+
+- His message of 2026-11-03 15:45 UTC with the guide's Substack editor HTML attached: `experiments/t01-answers/JOEL-MESSAGE-20261103-1545.md`; the HTML byte for byte: `source/owner-editor-20261103.html` (SHA-256 9b1618aa0ef28272d0a11b770addbd47b4152816aeac7c4198cdf58c126f51ab).
+- His post: https://ibogaqueen.substack.com/p/shadow-work-and-tripsitting-yourself (opened by badtrips.u-dont-exist.com; post 170920118; title "Trip-Sitting: Medical Triage, Shadow Work, Therapy (v 5.5, updated 3 Oct, 2026)", subtitle "Did you know there's a safe natural trip killer? Ipomoea pes-caprae!", first published 2025-08-25).
+- The comparison: the post's 402 text blocks (paragraphs, headings, lists, quotes) and the pasted HTML's 402 are the same, block for block (each block's whitespace-collapsed text, SHA-1, hashed in the page and here). So the paste is the post as it stands.
+- `original.md` and `master.md` (SHA-256 4f3199d0bb5bbeac90130d0c6a8871c69554e9a4433e0d0a1379fe1a7add1a89) are the HTML's Markdown, word for word, made by `tools/editor_to_md.py`; `original-blocks.json` is its block map (B0 to B438, numbered as `tools/humanization/reviewer/reviewer.py` numbers blocks). `original-page.md` is the form the shared review pages read (`tools/page_md.py`).
+- `humanize/FIDELITY-KEYS.json`: `python3 tools/humanization/fidelity_keys.py extract master.md humanize/FIDELITY-KEYS.json` (70 numbers with their units, 32 of them different; 61 compounds and terms; 159 warning sentences).

@@ -19,9 +19,13 @@ import pathlib
 import re
 import sys
 
-BLOCK = re.compile(r'<(p|h[1-6])[^>]*>(.*?)</\1>|data-component-name="([A-Za-z0-9]+)"', re.S)
+# The editor HTML he pastes (rather than the published page) marks a YouTube video only by its class, "youtube-wrap", with
+# no data-component-name; and "<p" must be a whole tag name, or a picture's own <picture> tag reads as a paragraph that runs
+# to the next </p>, past the video after it: bad trips turn 4 (2026-11-04), where his pasted post's four videos were
+# missing from the list.
+BLOCK = re.compile(r'<(p|h[1-6])(?=[\s>])[^>]*>(.*?)</\1>|data-component-name="([A-Za-z0-9]+)"|class="(youtube-wrap)"', re.S)
 KINDS = {'Image2ToDOM': 'picture', 'VideoEmbedPlayer': 'video', 'AudioEmbedPlayer': 'audio', 'Youtube2ToDOM': 'video',
-         'DigestPostEmbed': 'post card', 'EmbeddedPostToDOM': 'post card'}
+         'DigestPostEmbed': 'post card', 'EmbeddedPostToDOM': 'post card', 'youtube-wrap': 'video'}
 
 
 def body_of(page):
@@ -66,7 +70,7 @@ def embeds(page):
             if t:
                 last = t
             continue
-        kind = KINDS.get(m.group(3))
+        kind = KINDS.get(m.group(3) or m.group(4))
         if not kind:
             continue
         tag = body.rfind('<', 0, m.start())   # the element's own opening tag (a YouTube embed's id is in it)
