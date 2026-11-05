@@ -1,5 +1,28 @@
 # Status: neuro de-armoring humanization (newest on top)
 
+## 2026-11-05, his answers of 15:55 UTC on Cards, 5 November: ATP-2 in (Human, High); the two ketone-strategy paragraphs to him after three tries each; E363, E364
+
+His answers, word for word: `fix-20261104/cards/ANSWERS-20261105-1555.json`; his message: "idk why the bad trips guide
+answers came to you, unless it's just to learn lessons from those answers? you aren't doing the bad trips guide, that's a
+different lane. here are neuro card answers". **The mailbox first** ("2026-11-05 15:55"): 303 and 304 merged at 15:50 and
+15:51 UTC; the branch fast-forwarded to main 4124558a; 293 open; no comments; UDA unchanged.
+- **His answers**: Y-93b rejected, "already said keep this fix in last turn?": the fix stays (E364: the rebuilt page asked
+  it again). ATP-1 rejected, no comment; his ATP-2 version keeps ATP-1's Calabrese sentence, so the text is his ATP-2.
+  ATP-2: his version ("reduced hippocampal astrocyte ATP release"), [Human Written, 0%, one window,
+  High](https://www.pangram.com/history/d0bbc185-3142-4ad9-9468-718e2263a9ee), in (`fix-20261105/apply_x1105.py`).
+- **The ketone strategies** (the post's blocks 95-96 and 98-100, now one paragraph each): three tries each in his account
+  (`fix-20261104/checks/x1105a` to `x1105c`), the tell panel after two (`fix-20261104/panel/x1105-ketone/PANEL.md`), all
+  AI; the decision paragraph is 40 words, so it was checked with the next (the web app's button stays off under 50). Best:
+  Strategy B at 70-71% AI with its first sentence Human (Medium); the protein warning stays AI High. Try 3 of each is in
+  the article (clearer: why the choice touches the electrolytes, each strategy by the case it's for, the keto flu named),
+  and both are on Neuro De-Armoring Cards, 5 November (2) (`fix-20261104/cards/build_page_x1105b.py`, review id
+  neuro-de-armoring-cards-20261105-x1105b), sent as a file.
+- **Shared fixes**: `tools/humanization/fidelity_keys.py` reads a limit said in words ("under 20g/day") as the post's sign
+  ("<20g/day"), only where the key has the sign (test in `tests/test_fidelity_keys.py`). Lessons E363 (another lane's
+  answers are read for their lessons, the work stays with that lane) and E364 (no rebuilt page re-asks a card).
+- **Bad trips**: no further work from here (E363); that lane continues from main's handoff (its round 7 page waits on him).
+- **Delegations**: two tell-panel readers (Sonnet, Haiku) for the ketone paragraphs, the panel's own rule.
+
 ## 2026-11-05, his message of 15:20 UTC ("try again"): the checks run in his account; the ATP section's first paragraph in (Human, High, first try); Cards (5) rebuilt
 
 **The mailbox first** ("2026-11-05 15:20"): pull request 280 (the bad trips lane) merged at 15:15 UTC, and main merged into

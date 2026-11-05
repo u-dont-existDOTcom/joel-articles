@@ -1,0 +1,35 @@
+[
+ {
+  "key": "b094his",
+  "name": "his ATP-2 version of the ATP section's first paragraph (\"reduced hippocampal astrocyte ATP release\")",
+  "lineage": "ND1104-B095",
+  "scope": "paragraph",
+  "words": 109,
+  "call": "Human",
+  "chance": 0.8,
+  "why": "my version read Human (High) in one window; his changes three words to say what the mouse study measured",
+  "sha256": "b086bc0ee14e6b62b5f82517a9f8036c4c51bd933b53b005fc5a50ae9b8f0ef4"
+ },
+ {
+  "key": "b098-100",
+  "name": "Strategy B, eating fat, and the keto guide, first try (the post's blocks 98 to 100 as one paragraph)",
+  "lineage": "ND1105-B098-100",
+  "scope": "paragraph",
+  "words": 71,
+  "call": "AI",
+  "chance": 0.35,
+  "why": "the making-sense read: \"Fat:EAT FAT TO SATIETY. This is your new energy source.\" said as why (fat becomes your fuel, so eat it until you're full); the protein warning with its reason kept; the guide link as what it is for; names kept for Part 3; the linter clear",
+  "sha256": "da4baaf1e60f72af80b4e7b764356cc9021ed9b2ecc516b2b1764bfd99f568ce"
+ },
+ {
+  "key": "p095-100",
+  "name": "the ketone decision and Strategy A, with Strategy B as its neighbour (the post's blocks 95 to 100, the picture between them left out)",
+  "lineage": "ND1105-B095-096",
+  "scope": "paragraph",
+  "words": 111,
+  "call": "AI",
+  "chance": 0.35,
+  "why": "the making-sense read: the protocol's labels (\"KETONE DECISION:\", \"Method:\") made a sentence each, the choice said with why it matters (the electrolytes later), Strategy A said by what it is for first; the names \"Strategy A\" and \"Crisis Mode\" kept, since Part 3 refers back to Strategy A; the linter clear",
+  "sha256": "cd0306e2580bd0872d51f0a4e6845bf40c69422c51db8bad8f3ee258beb7179e"
+ }
+]

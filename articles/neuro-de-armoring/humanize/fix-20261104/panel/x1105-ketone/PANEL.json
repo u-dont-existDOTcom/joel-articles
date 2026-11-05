@@ -1,0 +1,65 @@
+{
+ "readers": [
+  "haiku",
+  "sonnet"
+ ],
+ "sentences": [
+  "You must pick one of two ketone strategies, a fast one or a slow one, because they need different electrolytes (the next part covers both).",
+  "Strategy A, the \"Crisis Mode\", is the fast one.",
+  "You keep eating a standard low-sugar diet and drink BHB (beta-hydroxybutyrate) salts to clear the fog.",
+  "Strategy B, the \"Resilience Mode\", is the slow one.",
+  "It's for the long run: a keto diet, with carbs under 20g/day so your liver makes the ketones itself.",
+  "That only works if fat becomes your fuel, so eat fat until you're full.",
+  "Don't rely on lean protein like chicken breast alone, because your body turns the extra protein into sugar through gluconeogenesis, and that keeps you out of ketosis.",
+  "Switching over can bring on side effects for a while, and to avoid them, refer to my Keto Adaptation Guide."
+ ],
+ "flagged": {
+  "1": [
+   "haiku",
+   "sonnet"
+  ],
+  "2": [
+   "sonnet"
+  ],
+  "3": [
+   "haiku",
+   "sonnet"
+  ],
+  "4": [
+   "sonnet"
+  ],
+  "5": [
+   "haiku",
+   "sonnet"
+  ],
+  "6": [
+   "sonnet"
+  ],
+  "7": [
+   "haiku",
+   "sonnet"
+  ],
+  "8": [
+   "haiku",
+   "sonnet"
+  ]
+ },
+ "agreed": [
+  1,
+  3,
+  5,
+  7,
+  8
+ ],
+ "whole": {
+  "haiku": [
+   "The paragraph runs in a clean sequence of definition, contrast, instruction, warning and pointer, with sentences of similar length and no break in tone, which reads like a polished explainer. Its voice is generic second-person instruction with no first-person experience until the closing pointer to \"my Keto Adaptation Guide\"."
+  ],
+  "sonnet": [
+   "The paragraph is built as a symmetrical A/B template: a framing sentence, two named options, each with a definition and a reason, then a pointer onward. The rhythm is even, with mid-length sentences, no digressions and no uneven emphasis. The voice is generic and instructional, with no personal detail or specific experience."
+  ]
+ },
+ "human_clean": [
+  "BHB (beta-hydroxybutyrate) salts"
+ ]
+}

@@ -1,0 +1,22 @@
+{
+ "p095-100": {
+  "lineage": "ND1105-B095-096",
+  "name": "the ketone decision and Strategy A (with Strategy B), try 3",
+  "text": "You must pick one of two ketone strategies, because the salts in one bring their own sodium while the diet in the other drains it. If you're in a crisis and need the fog gone fast, there's Strategy A, the \"Crisis Mode\". You drink BHB (beta-hydroxybutyrate) salts and keep eating a standard low-sugar diet.\n\nFor the long run there's Strategy B, the \"Resilience Mode\", a keto diet with carbs under 20g/day so your liver makes the ketones itself. That only works if fat becomes your fuel, so eat fat until you're full. Don't fill up on lean protein like chicken breast instead, because your body turns the extra protein into sugar through gluconeogenesis, and that keeps you out of ketosis. Switching over often brings on the keto flu, and to avoid it, refer to my Keto Adaptation Guide.",
+  "chance": 0.4,
+  "panel": "articles/neuro-de-armoring/humanize/fix-20261104/panel/x1105-ketone/PANEL.md",
+  "why": "both panel readers agreed on the signpost (\"the next part covers both\"), the matched \"Strategy A ... is the fast one\" / \"Strategy B ... is the slow one\" frames, \"It's for the long run\", the unnamed \"side effects\" and \"to clear the fog\". Each read as a sense gap first (E360): the choice now says why it touches the electrolytes (BHB salts bring sodium, the keto diet drains it), each strategy is said by the case it is for in its own shape, and the side effects are named (the keto flu, which the guide's address names)",
+  "diagnosis": "try 2 (#116) AI High on everything after \"It's for the long run\": no reason was given for the choice, and the two strategies were one template",
+  "decides": "whether the sense fixes carry the pair to Human"
+ },
+ "b098-100": {
+  "lineage": "ND1105-B098-100",
+  "name": "Strategy B, eating fat, and the keto guide, try 3",
+  "text": "For the long run there's Strategy B, the \"Resilience Mode\", a keto diet with carbs under 20g/day so your liver makes the ketones itself. That only works if fat becomes your fuel, so eat fat until you're full. Don't fill up on lean protein like chicken breast instead, because your body turns the extra protein into sugar through gluconeogenesis, and that keeps you out of ketosis. Switching over often brings on the keto flu, and to avoid it, refer to my Keto Adaptation Guide.",
+  "chance": 0.45,
+  "panel": "articles/neuro-de-armoring/humanize/fix-20261104/panel/x1105-ketone/PANEL.md",
+  "why": "try 2 read 70% AI with its first two sentences Human (Medium); the AI windows were the protein warning (High) and the guide line (Medium). The protein warning now says what it is the alternative to (\"Don't fill up on lean protein like chicken breast instead\", after \"eat fat until you're full\"), and the guide line names the keto flu",
+  "diagnosis": "try 2 (#117): \"Don't rely on lean protein ... alone\" never said instead of what; \"side effects\" unnamed",
+  "decides": "whether the paragraph goes in"
+ }
+}

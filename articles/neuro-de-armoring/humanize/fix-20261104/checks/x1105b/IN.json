@@ -1,0 +1,20 @@
+{
+ "p095-100": {
+  "lineage": "ND1105-B095-096",
+  "name": "the ketone decision and Strategy A (with Strategy B as its neighbour), try 2",
+  "text": "You must pick one of two ketone strategies, a fast one or a slow one, because they need different electrolytes (the next part covers both). Strategy A, the \"Crisis Mode\", is the fast one. You keep eating a standard low-sugar diet and drink BHB (beta-hydroxybutyrate) salts to clear the fog.\n\nStrategy B, the \"Resilience Mode\", is the slow one. It's for the long run: a keto diet, with carbs under 20g/day so your liver makes the ketones itself. That only works if fat becomes your fuel, so eat fat until you're full. Don't rely on lean protein like chicken breast alone, because your body turns the extra protein into sugar through gluconeogenesis, and that keeps you out of ketosis. Switching over can bring on side effects for a while, and to avoid them, refer to my Keto Adaptation Guide.",
+  "chance": 0.4,
+  "why": "try 1 read AI (High) in all of it. The making-sense read: it never said what tells the two strategies apart, or why the choice touches the electrolytes. Now: a fast one or a slow one (the article's own Part 4: start with BHB salts for the fog, move to the keto diet for long-term repair), the electrolytes pointed to where they are (the next part), and each strategy said by what it is for before what it is",
+  "diagnosis": "try 1 (#113) AI High 42 on the decision paragraph: a choice with no stakes said",
+  "decides": "whether saying what each strategy is for carries it to Human"
+ },
+ "b098-100": {
+  "lineage": "ND1105-B098-100",
+  "name": "Strategy B, eating fat, and the keto guide, try 2",
+  "text": "Strategy B, the \"Resilience Mode\", is the slow one. It's for the long run: a keto diet, with carbs under 20g/day so your liver makes the ketones itself. That only works if fat becomes your fuel, so eat fat until you're full. Don't rely on lean protein like chicken breast alone, because your body turns the extra protein into sugar through gluconeogenesis, and that keeps you out of ketosis. Switching over can bring on side effects for a while, and to avoid them, refer to my Keto Adaptation Guide.",
+  "chance": 0.4,
+  "why": "try 1 read AI (High) on the fat and protein sentences: \"Fat becomes your fuel, so eat it\" never said that the diet only works if fat is the fuel; now \"That only works if fat becomes your fuel, so eat fat until you're full\", Strategy B said as the slow one for the long run, and the guide link given its reason (side effects for a while)",
+  "diagnosis": "try 1 (#112) AI High 51 on \"Carbs stay under 20g/day ... keeps you out of ketosis\"",
+  "decides": "whether the paragraph goes in"
+ }
+}

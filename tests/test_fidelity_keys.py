@@ -34,6 +34,16 @@ class FidelityKeys(unittest.TestCase):
         self.assertEqual(r['numbers_new'], ['150-250mg'])
         self.assertFalse(r['pass'])
 
+    def test_a_limit_in_words_matches_its_sign_but_no_other_number(self):
+        # "under 20g/day" says the post's "<20g/day" (neuro de-armoring, Strategy B, 2026-11-05); "under 25g/day" doesn't
+        master = 'Method: You restrict carbs (<20g/day) to force your liver to produce ketones.\n'
+        keys = fk.extract(master)
+        self.assertTrue(fk.check(keys, 'Carbs stay under 20g/day so the liver makes the ketones itself.\n')['pass'])
+        self.assertFalse(fk.check(keys, 'Carbs stay under 25g/day so the liver makes the ketones itself.\n')['pass'])
+        # a plain number said with "under" stays as it was: no sign is added where the master had none
+        keys90 = fk.extract('Keep it under 90 minutes.\n')
+        self.assertTrue(fk.check(keys90, 'Keep it under 90 minutes.\n')['pass'])
+
     def test_a_dose_said_another_way_fails(self):
         self.assertFalse(fk.check(self.keys, MASTER.replace('150–300 mg', '150 to 300 mg'))['pass'])
 

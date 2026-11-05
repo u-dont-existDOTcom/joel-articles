@@ -186,19 +186,13 @@ Side effects / stop signs: The most dangerous symptoms to watch out for are diag
 
 ### Fixing ATP Signaling if Cortisol Isn't High
 
-If your cortisol is normal or low, low ATP signaling in the brain might be what's behind your anxiety or depression. [Recent neuroscience](https://www.sciencedaily.com/releases/2025/11/251126025315.htm) (Tian-Ming Gao, et al, 2025) has shown in male mice that anxiety and depression are a result of reduced hippocampal ATP signaling. So I'd trial 20mg of PQQ in the morning to boost ATP, with ketones, which your neurons can still burn for energy when they're struggling to burn sugar. In [Calabrese, et al (2024)](https://pmc.ncbi.nlm.nih.gov/articles/PMC11182043/), three adults on a ketogenic diet all went into full remission of depression and anxiety within a few months. That's only three people, but it's part of much broader research.
+If your cortisol is normal or low, low ATP signaling in the brain might be what's behind your anxiety or depression. [Recent neuroscience](https://www.sciencedaily.com/releases/2025/11/251126025315.htm) (Tian-Ming Gao, et al, 2025) has shown in male mice that anxiety and depression are a result of reduced hippocampal astrocyte ATP release. So I'd trial 20mg of PQQ in the morning to boost ATP, with ketones, which your neurons can still burn for energy when they're struggling to burn sugar. In [Calabrese, et al (2024)](https://pmc.ncbi.nlm.nih.gov/articles/PMC11182043/), three adults on a ketogenic diet all went into full remission of depression and anxiety within a few months. That's only three people, but it's part of much broader research.
 
-KETONE DECISION: You must choose your fuel strategy. This determines your electrolyte protocol.
-
-Strategy A: The "Crisis Mode" (BHB, Beta-hydroxybutyrate Salts)Method: You eat a standard low-sugar diet but drink Ketones (BHB Salts) to clear the fog.
+You must pick one of two ketone strategies, because the salts in one bring their own sodium while the diet in the other drains it. If you're in a crisis and need the fog gone fast, there's Strategy A, the "Crisis Mode". You drink BHB (beta-hydroxybutyrate) salts and keep eating a standard low-sugar diet.
 
 [image 3](https://substackcdn.com/image/fetch/$s_!8q8r!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fddfc5f6a-2896-48cf-a63e-f42157ac505e_641x420.png)
 
-Strategy B: The "Resilience Mode" (Keto Diet)Method: You restrict carbs (<20g/day) to force your liver to produce Ketones.
-
-Fat:EAT FAT TO SATIETY. This is your new energy source. Do *not* rely on lean protein alone (chicken breast), or your body will convert the protein to sugar (Gluconeogenesis), keeping you out of ketosis.
-
-To avoid side effects, refer to the [***Keto Adaptation Guide*.](http://ketoflu.u-dont-exist.com/)
+For the long run there's Strategy B, the "Resilience Mode", a keto diet with carbs under 20g/day so your liver makes the ketones itself. That only works if fat becomes your fuel, so eat fat until you're full. Don't fill up on lean protein like chicken breast instead, because your body turns the extra protein into sugar through gluconeogenesis, and that keeps you out of ketosis. Switching over often brings on the keto flu, and to avoid it, refer to my [Keto Adaptation Guide](http://ketoflu.u-dont-exist.com/).
 
 [image 4](https://substackcdn.com/image/fetch/$s_!Gd-0!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3f50e963-b7ee-4211-8c03-1748bbef3507_631x378.png)
 

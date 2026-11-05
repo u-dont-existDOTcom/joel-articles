@@ -1,0 +1,81 @@
+{
+ "format": "joel-suggestion-review-answers-v1",
+ "review_id": "neuro-de-armoring-cards-20261104-x1104f",
+ "title": "Neuro De-Armoring Cards, 5 November",
+ "git_file": "articles/neuro-de-armoring/humanize/fix-20261104/cards/REVIEW-X1104F.html",
+ "article": {
+  "file": "articles/neuro-de-armoring/humanize/HUMANIZED-SO-FAR.md",
+  "sha256": "c4bc6d95ca3c5cb36bddd978989bd8a252eb8920451b3135d55b584152849d96"
+ },
+ "built": "2026-11-05 15:39 UTC",
+ "generator": "suggestion_review.py 1.6 (2026-11-04)",
+ "exported_at": "2026-11-05T15:55:12.497Z",
+ "counts": {
+  "approved": 0,
+  "rejected": 2,
+  "revise": 1,
+  "pending": 0
+ },
+ "items": [
+  {
+   "id": "Y-93b",
+   "type": "fix",
+   "title": "\"Reviews keep warning about the risk with 5-HTP, like this case report ...\"",
+   "where": "Serotonin Bottleneck Pattern: 5-HTP + Low-Dose P5P, P5",
+   "advice": "edit",
+   "status": "rejected",
+   "your_version": "",
+   "comment": "already said keep this fix in last turn?",
+   "my_version": "Serotonin syndrome usually comes from mixing 5-HTP casually with anything else that raises serotonin, like antidepressants or MAOIs. Reviews keep warning about the risk with 5-HTP, like this case report, where a young guy on sertraline (an antidepressant) took 5-HTP with a whole pile of weight-loss and energy supplements before a workout, and ended up with serotonin syndrome so bad that surgeons had to cut open both of his legs and his forearm to relieve the pressure! Luckily he recovered. If you're doing psychedelics, avoid 5-HTP on your psychedelic days, and be especially strict around ayahuasca's harmala MAOI chemistry and around iboga or ibogaine.",
+   "before": "Serotonin syndrome usually comes from mixing 5-HTP casually with anything else that raises serotonin, like antidepressants or MAOIs. Reviews keep warning about the risk with 5-HTP, like this case report, where a young guy on sertraline (an antidepressant) took 5-HTP with a whole pile of weight-loss and energy supplements before a workout, and ended up with serotonin syndrome so bad that surgeons had to cut open both of his legs and his forearm to relieve the pressure! Luckily he recovered. If you're doing psychedelics, avoid 5-HTP on your psychedelic days, and be especially strict around ayahuasca's harmala MAOI chemistry and around iboga or ibogaine.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "rejected",
+     "at": "2026-11-05T15:52:22.222Z"
+    }
+   ],
+   "updated": "2026-11-05T15:52:37.601Z"
+  },
+  {
+   "id": "ATP-1",
+   "type": "fix",
+   "title": "\"In Calabrese, et al (2024), three adults on a ketogenic diet ...\"",
+   "where": "Fixing ATP Signaling if Cortisol Isn't High, P1",
+   "advice": "edit",
+   "status": "rejected",
+   "your_version": "",
+   "comment": "",
+   "my_version": "If your cortisol is normal or low, low ATP signaling in the brain might be what's behind your anxiety or depression. Recent neuroscience (Tian-Ming Gao, et al, 2025) has shown in male mice that anxiety and depression are a result of reduced hippocampal ATP signaling. So I'd trial 20mg of PQQ in the morning to boost ATP, with ketones, which your neurons can still burn for energy when they're struggling to burn sugar. In Calabrese, et al (2024), three adults on a ketogenic diet all went into full remission of depression and anxiety within a few months. That's only three people, but it's part of much broader research.",
+   "before": "If your cortisol is normal or low, low ATP signaling in the brain might be what's behind your anxiety or depression. Recent neuroscience (Tian-Ming Gao, et al, 2025) has shown in male mice that anxiety and depression are a result of reduced hippocampal ATP signaling. So I'd trial 20mg of PQQ in the morning to boost ATP, with ketones, which your neurons can still burn for energy when they're struggling to burn sugar. In Calabrese, et al (2024), three adults on a ketogenic diet all went into full remission of depression and anxiety within a few months. That's only three people, but it's part of much broader research.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "rejected",
+     "at": "2026-11-05T15:54:45.336Z"
+    }
+   ],
+   "updated": "2026-11-05T15:54:45.336Z"
+  },
+  {
+   "id": "ATP-2",
+   "type": "fix",
+   "title": "\"So I'd trial 20mg of PQQ in the morning to boost ATP ...\"",
+   "where": "Fixing ATP Signaling if Cortisol Isn't High, P1",
+   "advice": "edit",
+   "status": "revise",
+   "your_version": "If your cortisol is normal or low, low ATP signaling in the brain might be what's behind your anxiety or depression. Recent neuroscience (Tian-Ming Gao, et al, 2025) has shown in male mice that anxiety and depression are a result of reduced hippocampal astrocyte ATP release. So I'd trial 20mg of PQQ in the morning to boost ATP, with ketones, which your neurons can still burn for energy when they're struggling to burn sugar. In Calabrese, et al (2024), three adults on a ketogenic diet all went into full remission of depression and anxiety within a few months. That's only three people, but it's part of much broader research.",
+   "comment": "",
+   "my_version": "If your cortisol is normal or low, low ATP signaling in the brain might be what's behind your anxiety or depression. Recent neuroscience (Tian-Ming Gao, et al, 2025) has shown in male mice that anxiety and depression are a result of reduced hippocampal ATP signaling. So I'd trial 20mg of PQQ in the morning to boost ATP, with ketones, which your neurons can still burn for energy when they're struggling to burn sugar. In Calabrese, et al (2024), three adults on a ketogenic diet all went into full remission of depression and anxiety within a few months. That's only three people, but it's part of much broader research.",
+   "before": "If your cortisol is normal or low, low ATP signaling in the brain might be what's behind your anxiety or depression. Recent neuroscience (Tian-Ming Gao, et al, 2025) has shown in male mice that anxiety and depression are a result of reduced hippocampal ATP signaling. So I'd trial 20mg of PQQ in the morning to boost ATP, with ketones, which your neurons can still burn for energy when they're struggling to burn sugar. In Calabrese, et al (2024), three adults on a ketogenic diet all went into full remission of depression and anxiety within a few months. That's only three people, but it's part of much broader research.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "revise",
+     "at": "2026-11-05T15:53:54.311Z"
+    }
+   ],
+   "updated": "2026-11-05T15:54:11.210Z"
+  }
+ ]
+}
