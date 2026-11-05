@@ -18,6 +18,9 @@ From an account with Desktop Commander connected to the laptop: "Continue my neu
 
 ## START HERE
 
+- **2026-11-05, his message of 15:20 UTC: Pangram checks run in his account from the desktop app's browser pane; the
+  ATP section's first paragraph in (Human, High, first try); Neuro De-Armoring Cards, 5 November (3 cards).**
+  HUMANIZED-SO-FAR.md is c4bc6d95. See the Next step.
 - **2026-11-04, after Joel's answers of 22:34 UTC on Cards (4): both his versions in (one word of his Y-93 fixed, on
   Cards (5)); lesson E359; the ATP section's first paragraph drafted and predicted, not checked.** HUMANIZED-SO-FAR.md is
   bef55334. No Pangram check ran this turn: the fetch of his four links asked for an approval nobody answered, so the lane
@@ -101,7 +104,21 @@ All of the article is his published post. His queue's rule: "Paragraphs that alr
 stay exactly as they are." Everything else is rewritten in his register and reaches him as cards, each tested first. The
 Scott passages, the introduction and the D-serine paragraph in Part 4 sound most like him.
 
-## Next step (2026-11-04, after Joel's answers of 22:34 UTC on Cards (4))
+## Next step (2026-11-05, after his message of 15:20 UTC)
+
+Waiting on him: Neuro De-Armoring Cards, 5 November (`fix-20261104/cards/REVIEW-X1104F.md`, review id
+neuro-de-armoring-cards-20261104-x1104f), the extension's account switch for the whole check, and the merge of pull
+request 303.
+
+Next:
+1. The rest of the ATP section one paragraph at a time (blocks 96, 97, 99, 100, 101; under 50 words checked with a
+   neighbour), each through the making-sense read (`docs/MAKING-SENSE.md`) and its sources first, a prediction before each
+   check, in his Pangram account from the desktop app's browser pane (signed in on 2026-11-05;
+   `tools/humanization/pangram_page_helpers.js`, then a `RESULTS-GUI.json` and `checks/record_gui.py`).
+2. His answers on Cards (5/5 November) in with a recording script.
+3. The whole article's free check when he says the extension is on his other account.
+
+## Earlier next step (2026-11-04, after Joel's answers of 22:34 UTC on Cards (4))
 
 Done (STATUS.md's entry for 2026-11-04 22:34 has every file and number). Waiting on him: card Y-93b on Neuro De-Armoring
 Cards, 4 November (5) (`fix-20261104/cards/REVIEW-X1104F.md`; sent to him as a file, not yet published as a page; review

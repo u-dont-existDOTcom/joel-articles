@@ -53,12 +53,17 @@ def main():
     t93 = sr.block_text(BL, i93)
     a = t93.index('Reviews keep warning')
     b = t93.index('where a young guy')
+    i95 = block_with('If your cortisol is normal or low')
+    t95 = sr.block_text(BL, i95)
+    c = t95.index('In Calabrese')
+    d = t95.index("So I'd trial")
+    e = t95.index('with ketones')
     S = [
         {'id': 'Y-93b', 'type': 'fix', 'title': '"Reviews keep warning about the risk with 5-HTP, like this case report ..."',
          'advice': 'edit', 'keep_label': 'keep the fix', 'spans': [{'block': i93, 'start': a, 'end': b}],
-         'reading': 'your version, with "MedlinePlus" in it, in your check: "high conf human" '
-                    '([link](%s67441215-b92b-4ca5-a6ff-86941d93f7c2)). This one-word change isn\'t checked yet; I check it '
-                    'next turn.' % P,
+         'reading': 'with "MedlinePlus" out: [Human Written, 0%%](%s3881db67-9c63-4207-9928-69655c68e7aa), High, Medium '
+                    '(3 words: "Luckily he recovered."), High, the same as your version with it in '
+                    '([link](%s67441215-b92b-4ca5-a6ff-86941d93f7c2)).' % (P, P),
          'why': 'Your version said "like this MedlinePlus case report", but the case report isn\'t MedlinePlus\'s: it\'s '
                 'Patel and Marzella 2017 on PubMed Central ([the report](https://pmc.ncbi.nlm.nih.gov/articles/PMC5580516/)). '
                 'MedlinePlus was the page on what serotonin syndrome looks like, which your version folded in. So the article '
@@ -67,13 +72,41 @@ def main():
                 'wrote it: the reviews do warn, and the case report shows the risk they warn about.',
          'advice_note': 'Keep the fix. If you want MedlinePlus named, say where, and I\'ll check that wording.',
          'found_by': 'Reading your version beside the links it carries, 4 November'},
+        {'id': 'ATP-1', 'type': 'fix', 'title': '"In Calabrese, et al (2024), three adults on a ketogenic diet ..."',
+         'advice': 'edit', 'keep_label': 'keep the change', 'spans': [{'block': i95, 'start': c, 'end': len(t95)}],
+         'reading': 'the paragraph: [Human Written, 0%%](%s53b000ed-a200-44af-8eb7-051b992576a1), one window, High, on the '
+                    'first try.' % P,
+         'why': 'Your post said Calabrese, et al (2024) "have shown in one study that\'s part of much broader research that '
+                'ketones and reduced carbohydrate intake are highly effective for anxiety, depression, and other mental '
+                'illnesses". The paper is a case series of three adults on a ketogenic diet, all of whom went into full '
+                'remission of depression and anxiety within 7 to 12 weeks ([the paper](https://pmc.ncbi.nlm.nih.gov/articles/'
+                'PMC11182043/)). Three people can\'t show "highly effective", and it didn\'t look at other mental illnesses, '
+                'so the paragraph now says what it found, and keeps your "part of much broader research". It also comes after '
+                'the step it supports (the ketones), and the paragraph opens on its point: "If your cortisol is normal or low, '
+                'low ATP signaling in the brain might be what\'s behind your anxiety or depression."',
+         'advice_note': 'Keep the change.',
+         'found_by': 'Reading both of the paragraph\'s sources before it went in (gate E348), 5 November'},
+        {'id': 'ATP-2', 'type': 'fix', 'title': '"So I\'d trial 20mg of PQQ in the morning to boost ATP ..."',
+         'advice': 'edit', 'keep_label': 'keep it as it is', 'spans': [{'block': i95, 'start': d, 'end': e}],
+         'reading': 'in the same check as the card above ([Human Written, 0%%](%s53b000ed-a200-44af-8eb7-051b992576a1)): '
+                    'High.' % P,
+         'why': 'Not a change: a question about your argument, which is yours to decide. The mouse study (Wang, Gao and '
+                'colleagues in JNeurosci, 2025, as [ScienceDaily](https://www.sciencedaily.com/releases/2025/11/'
+                '251126025315.htm) reports it) found less ATP '
+                '<i>released</i> by astrocytes in the hippocampus, through a protein called connexin 43, and restoring that '
+                'protein restored the ATP and the mice\'s behavior. PQQ helps cells <i>make</i> more ATP. Whether making more '
+                'means more gets released is your reasoning, not the study\'s; "I\'d trial" already says it\'s an '
+                'experiment. I\'d keep it as it is.',
+         'advice_note': 'Keep it as it is, unless you want to say why making more ATP should help its release.',
+         'found_by': 'Reading the mouse study before the paragraph went in, 5 November'},
     ]
     review = {
         'format': sr.FORMAT, 'review_id': 'neuro-de-armoring-cards-20261104-x1104f',
-        'title': 'Neuro De-Armoring Cards, 4 November (5)',
+        'title': 'Neuro De-Armoring Cards, 5 November',
         'intro': [
             'Both of your versions from the last page are in the article. One word of your 5-HTP interactions paragraph '
-            'changed, because it named the wrong source; this card says why.',
+            'changed, because it named the wrong source; the first card says why. The other two are on the ATP section\'s '
+            'first paragraph, now in the article: one change of a claim to what its source shows, and one question.',
             'Your answers save as you click. When you\'re done, click <b>Copy my answers</b> (or <b>Save them as a file</b>) '
             'and send them to me.'],
         'git_file': GIT_FILE, 'article': {'file': LANE + 'HUMANIZED-SO-FAR.md', 'sha256': SHA},

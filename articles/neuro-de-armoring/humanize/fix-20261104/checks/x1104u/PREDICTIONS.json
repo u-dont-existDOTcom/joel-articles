@@ -15,10 +15,10 @@
   "name": "the ATP section's first paragraph, first try, his way",
   "lineage": "ND1104-B095",
   "scope": "paragraph",
-  "words": 85,
+  "words": 108,
   "call": "AI",
-  "chance": 0.3,
-  "why": "his moves: the dose said as his own advice (\"So I'd trial\", his Y-88 \"I'd avoid\"); the post's \"both issues\" said as what each does (PQQ to boost ATP; ketones as the fuel neurons can still burn, the article's own Part 1 reasoning); \"one study that's part of much broader research\" as its own sentence joined with \", but\" (E352); the PQQand typo fixed; the linter's one flag is the protocol's list, recorded (E336)",
-  "sha256": "6f07df2be06d7af4817bdca7221c3355b5f6a89357cc553fc28b58e696dbb3c0"
+  "chance": 0.35,
+  "why": "the making-sense read first (E360): the point first (\"If your cortisol is normal or low, low ATP signaling in the brain might be what's behind your anxiety or depression\"), the mouse study as its evidence, the step (\"So I'd trial\", his Y-88 voice) with what each part does, then the ketone study after the step it supports, said as what it found (three adults, full remission) with its limit; the linter clear",
+  "sha256": "3fb0a6341f4ca07c5641cd4f4642f8d7bec9bd364064100f6a34a3a134868064"
  }
 ]

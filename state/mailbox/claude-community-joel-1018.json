@@ -304,6 +304,41 @@
     }
    ],
    "recorded_utc": "2026-11-04T22:50Z"
+  },
+  {
+   "turn": "2026-11-05T15:20Z",
+   "lines_of_work": [
+    "neuro de-armoring"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "no new items (the same two, both in the ledger); UDA main c5c9951, AGENTS.md blob 5160080, LESSON-INDEX 7896422 unchanged"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "pull request 280 (bad trips) merged 15:15:28 UTC; 303 (this lane) open, check green, no review comments; 293 open"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no edits by others to this lane's handoff or questions page; main merged in (one conflict in docs/HUMANIZATION-GATE.md, both sides kept)"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "two GitHub notices on 303 last turn (subscribed; check green), read"
+    }
+   ],
+   "items": [
+    {
+     "item": "Joel's message of 2026-11-05 15:20 UTC: 'ok idk why you can't use pangram other lanes are using it try again', with his Bad Trips Round 6 answers",
+     "outcome": "Pangram run in his account from the desktop app's browser pane; his four Cards (4) links read back; batch x1104u checked; the ATP section's first paragraph in; Cards rebuilt; his round 6 answers done in the bad trips lane's worktree"
+    }
+   ],
+   "recorded_utc": "2026-11-05T15:40Z"
   }
  ]
 }

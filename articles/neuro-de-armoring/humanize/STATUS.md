@@ -1,5 +1,28 @@
 # Status: neuro de-armoring humanization (newest on top)
 
+## 2026-11-05, his message of 15:20 UTC ("try again"): the checks run in his account; the ATP section's first paragraph in (Human, High, first try); Cards (5) rebuilt
+
+**The mailbox first** ("2026-11-05 15:20"): pull request 280 (the bad trips lane) merged at 15:15 UTC, and main merged into
+this branch (one conflict in `docs/HUMANIZATION-GATE.md`, both sides kept); 303 still open, its check green; no review
+comments; UDA unchanged. His message came with his Bad Trips Round 6 answers, done in that lane's worktree (its own pull
+request).
+- **Pangram works from here**: the desktop app's browser pane is signed in to his account. His four links from Cards (4)
+  read back from his history, each text's SHA-256 matching what he sent (`fix-20261104/cards/HIS-CHECKS-READ-20261105.json`):
+  Y-92 Human, High (80 words); Y-93 Human, High / Medium / High.
+- **Batch x1104u** (`fix-20261104/checks/x1104u/RESULTS.md`): his Y-93 with "MedlinePlus" out, [Human Written,
+  0%](https://www.pangram.com/history/3881db67-9c63-4207-9928-69655c68e7aa), High / Medium / High, the same as his;
+  block 95, [Human Written, 0%](https://www.pangram.com/history/53b000ed-a200-44af-8eb7-051b992576a1), one window, High,
+  on the first try (predicted AI at 0.35: a miss in the good direction). Before the check it was redrafted by the
+  making-sense read (`docs/MAKING-SENSE.md`, on main from the bad trips lane): the point first, the ketone study after the
+  step it supports; and both sources were read (E348): Gao 2025 is ATP *release* from astrocytes in stressed male mice
+  (ScienceDaily); Calabrese 2024 is a case series of three adults in full remission on a ketogenic diet, so "highly
+  effective for anxiety, depression, and other mental illnesses" became what it found (prediction #108 voided: redrafted
+  before its check). In the article: `fix-20261104/next6/apply_b095.py` (fidelity passes), HUMANIZED-SO-FAR.md c4bc6d95.
+- **Neuro De-Armoring Cards, 5 November** (`cards/build_page_x1104f.py`, REVIEW-X1104F.md): Y-93b (the one word, now
+  checked), ATP-1 (the Calabrese claim), ATP-2 (a question: PQQ makes ATP, the mouse study is about its release; my advice
+  keep). Sent to him as a file; not published as an artifact (approval requests were going unanswered).
+- **Delegations**: two tell-panel readers for the bad trips lane (Sonnet and Haiku subagents, the panel's own rule).
+
 ## 2026-11-04, after Joel's answers of 22:34 UTC on Cards (4): both his versions in, one word of Y-93 fixed (Cards (5)); E359; the ATP section's first paragraph drafted and predicted; no Pangram check this turn
 
 His answers, word for word: `fix-20261104/cards/ANSWERS-20261104-2234.txt` (with the GH handoff line he pasted above the

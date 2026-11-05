@@ -186,7 +186,7 @@ Side effects / stop signs: The most dangerous symptoms to watch out for are diag
 
 ### Fixing ATP Signaling if Cortisol Isn't High
 
-[Recent neuroscience](https://www.sciencedaily.com/releases/2025/11/251126025315.htm) (Tian-Ming Gao, et al, 2025) has shown in male mice that anxiety and depression are a result of reduced hippocampal ATP signaling. [Calabrese, et al (2024) ](https://pmc.ncbi.nlm.nih.gov/articles/PMC11182043/)have shown in one study that's part of much broader research that ketones and reduced carbohydrate intake are highly effective for anxiety, depression, and other mental illnesses. To address both issues, you can trial a morning dose of 20mg of PQQand ketones.
+If your cortisol is normal or low, low ATP signaling in the brain might be what's behind your anxiety or depression. [Recent neuroscience](https://www.sciencedaily.com/releases/2025/11/251126025315.htm) (Tian-Ming Gao, et al, 2025) has shown in male mice that anxiety and depression are a result of reduced hippocampal ATP signaling. So I'd trial 20mg of PQQ in the morning to boost ATP, with ketones, which your neurons can still burn for energy when they're struggling to burn sugar. In [Calabrese, et al (2024)](https://pmc.ncbi.nlm.nih.gov/articles/PMC11182043/), three adults on a ketogenic diet all went into full remission of depression and anxiety within a few months. That's only three people, but it's part of much broader research.
 
 KETONE DECISION: You must choose your fuel strategy. This determines your electrolyte protocol.
 
