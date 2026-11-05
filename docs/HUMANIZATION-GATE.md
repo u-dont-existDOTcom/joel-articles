@@ -2536,6 +2536,26 @@ changed: `docs/MAKING-SENSE.md`.
   Where it's written down: `docs/MAKING-SENSE.md`, questions 6, 7 and 9; the bad trips lane's
   `articles/bad-trips/review/r06/apply_r06.py`.
 
+(The neuro de-armoring lane's E359 is just before this section; the bad trips lane's E360 to E362 are just above. The
+next lesson in any lane was E363 here; it is in the next section.)
+
+## What the neuro de-armoring lane's turn of 2026-11-05 15:55 taught
+
+- **E363. Answers for another lane that reach this chat are read for their lessons; that lane's work stays with it.** On
+  2026-11-05 15:20 UTC his Bad Trips Round 6 answers came into the neuro de-armoring chat, and I applied them, checked
+  them, built round 7's page and opened its pull request, in that lane's branch. Joel, 15:55 UTC: "idk why the bad trips
+  guide answers came to you, unless it's just to learn lessons from those answers? you aren't doing the bad trips guide,
+  that's a different lane." So: a lane works its own article. Another lane's answers or message are read for what they
+  teach (into the shared rules, as E362 was), and the work is left to that lane, which reads from main; if he plainly
+  means the work for this chat, or it's unclear, ask in one line before touching the other article.
+- **E364. A cards page he may have answered is never rebuilt to ask the same card again.** I rebuilt Neuro De-Armoring
+  Cards (5) under the same review id with Y-93b still on it, after he had been sent its first version. His answer:
+  "already said keep this fix in last turn?" New cards go on a new page with its own review id; a card already sent is
+  carried only if he hasn't answered it, and the page says so. The neuro lane's next page, Cards, 5 November (2), is
+  `neuro-de-armoring-cards-20261105-x1105b`.
+
+(The bad trips lane's E365 to E367 follow, in the next section.)
+
 ## What the bad trips guide's round 6 taught, part two (2026-11-05, a second session on the same answers)
 
 His round-6 answers reached two sessions at once (this lane's chat at 15:15 UTC, the neuro de-armoring chat at 15:20

@@ -107734,12 +107734,12 @@
         },
         {
           "path": "articles/neuro-de-armoring/humanize/HANDOFF-neuro-de-armoring.md",
-          "sha256": "4b059bdc7ce3b351295675ad6b315b2e392566c492d386096ccf5bbf1075ecf9",
+          "sha256": "321802f8ededed0698c4b4f1b0bc9af78e728f656595a9d26a841c548721dc2b",
           "role": "humanization_working_record"
         },
         {
           "path": "articles/neuro-de-armoring/humanize/HUMANIZED-SO-FAR.md",
-          "sha256": "c4bc6d95ca3c5cb36bddd978989bd8a252eb8920451b3135d55b584152849d96",
+          "sha256": "ae8acc3a744e936f3ebc4379212dd902ce7473e54f9e7c788f98b5c2ec942403",
           "role": "humanization_working_record"
         },
         {
@@ -107749,7 +107749,7 @@
         },
         {
           "path": "articles/neuro-de-armoring/humanize/STATUS.md",
-          "sha256": "42ac66fd02797640cb8967ecf2fe971aef11f59a5330294daf3375eb4c9b6624",
+          "sha256": "c4ba408343b83ed6c38d57667a4f11b89b927f3d205a34fe1cc219c24991231f",
           "role": "humanization_working_record"
         },
         {
@@ -107839,7 +107839,7 @@
         },
         {
           "path": "articles/neuro-de-armoring/humanize/pangram-ledger.jsonl",
-          "sha256": "53386cea51378fba797b6340db56f7baae31b06aa886eb42946c8d5cbd8a9db0",
+          "sha256": "f33fdd025a4fbdbda1cacf3ddc36a2308250cc7a9decd81f472378d41317fc31",
           "role": "humanization_working_record"
         },
         {
@@ -111290,6 +111290,226 @@
         {
           "path": "articles/neuro-de-armoring/humanize/fix-20261104/next6/read/READ-RECORD.json",
           "sha256": "ee92956b3120b13712ba3395422e81a088148c5cef60b5fda8f5f00770e116bd",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/neuro-de-armoring/humanize/fix-20261104/cards/ANSWERS-20261105-1555.json",
+          "sha256": "dba5af63f3d3d92175ef874d345a701f2608216aa45a43e62ff5744df903274c",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/neuro-de-armoring/humanize/fix-20261104/cards/REVIEW-X1105B.artifact.html",
+          "sha256": "76afb84e5bcaa7e42233697976fa5b7062c3163536aa865cdfad7c7e2960719d",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/neuro-de-armoring/humanize/fix-20261104/cards/REVIEW-X1105B.html",
+          "sha256": "c39415b859638901fe85a31954d485057d96c655e116a31a138a4826723ae97b",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/neuro-de-armoring/humanize/fix-20261104/cards/REVIEW-X1105B.json",
+          "sha256": "f027f36a608fe743c17332616cae407cf4513db90d8537c35499211603fae87d",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/neuro-de-armoring/humanize/fix-20261104/cards/REVIEW-X1105B.md",
+          "sha256": "ffbfe5686ba2360319b6bbcc63762cad14e1dc28ae9f1a915265096f14178c62",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/neuro-de-armoring/humanize/fix-20261104/cards/build_page_x1105b.py",
+          "sha256": "ac16e14b21bca91a99a67e03d7c83271a6fb8ac2c058964084afa241c9ce24a8",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/neuro-de-armoring/humanize/fix-20261104/checks/x1105a/IN.json",
+          "sha256": "e7e94d4f9263ac962370f01f90921d01fe63a7cb0028bc4d63f0fb2c685b9120",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/neuro-de-armoring/humanize/fix-20261104/checks/x1105a/PREDICTIONS.json",
+          "sha256": "bf6e5277e9616bcee33b95af151755ec5e1766efbc91ad700cd43f06006af3e3",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/neuro-de-armoring/humanize/fix-20261104/checks/x1105a/RESULTS-GUI.json",
+          "sha256": "b604e9c7666f1d92e632f76672adc116a66fd9f41a0565d8905b5b4c7b44be1a",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/neuro-de-armoring/humanize/fix-20261104/checks/x1105a/RESULTS.md",
+          "sha256": "88e943f94c573348d11be230357096bc754ad257233a588d75ef733c2ddebcc0",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/neuro-de-armoring/humanize/fix-20261104/checks/x1105a/TEXTS.json",
+          "sha256": "5025c1aaa79409f9c2ce4fd883ccecface0d925d82af0f8f7eb40eeed3b47839",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/neuro-de-armoring/humanize/fix-20261104/checks/x1105a/texts/b094his.txt",
+          "sha256": "b086bc0ee14e6b62b5f82517a9f8036c4c51bd933b53b005fc5a50ae9b8f0ef4",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/neuro-de-armoring/humanize/fix-20261104/checks/x1105a/texts/b095-096.txt",
+          "sha256": "203c3309732cd7984f553ef682f5ca177fea561cc1ff5b64c4c7a5545b855f7d",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/neuro-de-armoring/humanize/fix-20261104/checks/x1105a/texts/b098-100.txt",
+          "sha256": "da4baaf1e60f72af80b4e7b764356cc9021ed9b2ecc516b2b1764bfd99f568ce",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/neuro-de-armoring/humanize/fix-20261104/checks/x1105a/texts/p095-100.txt",
+          "sha256": "cd0306e2580bd0872d51f0a4e6845bf40c69422c51db8bad8f3ee258beb7179e",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/neuro-de-armoring/humanize/fix-20261104/checks/x1105b/IN.json",
+          "sha256": "bc2d8454ed3630c145504b61dbf48338b4b018c9b116f888b31a641b88cb24e3",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/neuro-de-armoring/humanize/fix-20261104/checks/x1105b/PREDICTIONS.json",
+          "sha256": "34c60148f3f1edce258975bbab6ac6b5b250ae4045ce07f4b9e66b5025140c80",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/neuro-de-armoring/humanize/fix-20261104/checks/x1105b/RESULTS-GUI.json",
+          "sha256": "1a3ad1e8627ee63e795eb736b33b1dd124ac345a5daca9caaff12d578b38e815",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/neuro-de-armoring/humanize/fix-20261104/checks/x1105b/RESULTS.md",
+          "sha256": "19bc9f901f9ef116da8e23d7b8b6e4d6a993ad833609fef62089981b1c175c1b",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/neuro-de-armoring/humanize/fix-20261104/checks/x1105b/TEXTS.json",
+          "sha256": "70ceeb8d6cacfeee431593d5402bea53f02266f13ddcf8652cfcf7159546fde2",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/neuro-de-armoring/humanize/fix-20261104/checks/x1105b/texts/b098-100.txt",
+          "sha256": "44d28c1d30c7e3c3e507c111d3a954f614cd44c9dc43d3c66e1f1208dff142e1",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/neuro-de-armoring/humanize/fix-20261104/checks/x1105b/texts/p095-100.txt",
+          "sha256": "7cad0eccfe7648951865ae1cf6303e5510ecd940d3f6d4454786d1a2e9ef9017",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/neuro-de-armoring/humanize/fix-20261104/checks/x1105c/IN.json",
+          "sha256": "d60a8c05539b4d7801b5e5934ea2edffb6d63d881ff068599184471974619d21",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/neuro-de-armoring/humanize/fix-20261104/checks/x1105c/PREDICTIONS.json",
+          "sha256": "59409c6801e60260deb5deb6e1c5c6e770175f350807e30573c4f6ba21889600",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/neuro-de-armoring/humanize/fix-20261104/checks/x1105c/RESULTS-GUI.json",
+          "sha256": "aca77ce44e0c078f7e65864d2881785a6b1a1012748f2c0ef126eb5393ad3212",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/neuro-de-armoring/humanize/fix-20261104/checks/x1105c/RESULTS.md",
+          "sha256": "5c7c4104182a23a52af169eb03c21c47af4aef1af37e349916c58b26f1ebce3b",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/neuro-de-armoring/humanize/fix-20261104/checks/x1105c/TEXTS.json",
+          "sha256": "f6495e22423004b029ddf4c5ecddcf801eb9577a51c38b033bf446de07d3c5c5",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/neuro-de-armoring/humanize/fix-20261104/checks/x1105c/texts/b098-100.txt",
+          "sha256": "2d4e07ef22436168a4a271664c1dbe25655c889dd1843672cd1983571d3869c2",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/neuro-de-armoring/humanize/fix-20261104/checks/x1105c/texts/p095-100.txt",
+          "sha256": "aaf46e2722c0aa828b278c6c0fdc20ed14a216c9e0957ce7bcbbdc16d96f09da",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/neuro-de-armoring/humanize/fix-20261104/panel/x1105-ketone/PANEL.json",
+          "sha256": "73337130eb8c3d64e53c511438a825fb82ab8c59dea6872dd7d625ed8b5babf7",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/neuro-de-armoring/humanize/fix-20261104/panel/x1105-ketone/PANEL.md",
+          "sha256": "946ff8eaff2db228a94b090a4903f829d869c6aee2e7fc5678e7c6067ad369e0",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/neuro-de-armoring/humanize/fix-20261104/panel/x1105-ketone/PROMPT.txt",
+          "sha256": "920cc5408205f89f63b22196779183bf957567b7c049c5cc337695a9bd551971",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/neuro-de-armoring/humanize/fix-20261104/panel/x1105-ketone/TEXT.txt",
+          "sha256": "9518dd82bb66adf243ea03e558b7c0d09d47cf1cbb2c4d4e41a669fb7d2136eb",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/neuro-de-armoring/humanize/fix-20261104/panel/x1105-ketone/haiku.md",
+          "sha256": "6b83d52bde3d725129e151e32eca5fc377a31a08d9067738b8e9ff26419e0f40",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/neuro-de-armoring/humanize/fix-20261104/panel/x1105-ketone/sonnet.md",
+          "sha256": "ae9dfb334ed7d386b20f3c56648e2e9beedf5096ba51e776e622f83f2a71d70d",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/neuro-de-armoring/humanize/fix-20261105/APPLIED-X1105.json",
+          "sha256": "730f5253994936d1353d944bcb6e4c40a7c4a1bcb55913bff8f346dfd6886469",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/neuro-de-armoring/humanize/fix-20261105/apply_x1105.py",
+          "sha256": "d3568bd2f0bef1a1bb7919dfe6875275ce56d7d334d8803bb12457f3f0d81914",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/neuro-de-armoring/humanize/fix-20261105/blocks/095-096-try1.md",
+          "sha256": "dcc1534ae42f6cd4c80757ecca2723c27aea53b828591dd38f1df382da9e47c4",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/neuro-de-armoring/humanize/fix-20261105/blocks/095-096-try2.md",
+          "sha256": "180488bf345ea9602ebb5c71b42d700344f0ef94f168ed917aeefa61b707a5ce",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/neuro-de-armoring/humanize/fix-20261105/blocks/095-096.md",
+          "sha256": "06a75779f3c14fa1b048e6e2e8c37e7696cd5d521765294a10702c3f26cb0f70",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/neuro-de-armoring/humanize/fix-20261105/blocks/098-100-try1.md",
+          "sha256": "7e16187b340901fb7353bb5a08b5c398b5f548ca337e4f913aef1b5b65d5c778",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/neuro-de-armoring/humanize/fix-20261105/blocks/098-100-try2.md",
+          "sha256": "3b9fcbce71395c34642b140d2f2d9a668a3a94b373947de49c54144501af4b44",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/neuro-de-armoring/humanize/fix-20261105/blocks/098-100.md",
+          "sha256": "d2927e5652ea6c4513c7fe8ccba279d28382883672d1118fe0415353a9940f1e",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/neuro-de-armoring/humanize/fix-20261105/read/READ-RECORD.json",
+          "sha256": "3b010d43a92d26202159c4c179a464b412e982452815505e4561b769c3d59289",
           "role": "humanization_working_record"
         }
       ]

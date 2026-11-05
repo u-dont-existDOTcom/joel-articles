@@ -18,6 +18,9 @@ From an account with Desktop Commander connected to the laptop: "Continue my neu
 
 ## START HERE
 
+- **2026-11-05, his answers of 15:55 UTC: ATP-2 in (Human, High); the two ketone-strategy paragraphs to him on Cards, 5
+  November (2) after three AI tries each; lessons E363 (another lane's answers: lessons only) and E364.** HUMANIZED-SO-FAR.md
+  as `fix-20261105/APPLIED-X1105.json` says. See the Next step.
 - **2026-11-05, his message of 15:20 UTC: Pangram checks run in his account from the desktop app's browser pane; the
   ATP section's first paragraph in (Human, High, first try); Neuro De-Armoring Cards, 5 November (3 cards).**
   HUMANIZED-SO-FAR.md is c4bc6d95. See the Next step.
@@ -104,7 +107,19 @@ All of the article is his published post. His queue's rule: "Paragraphs that alr
 stay exactly as they are." Everything else is rewritten in his register and reaches him as cards, each tested first. The
 Scott passages, the introduction and the D-serine paragraph in Part 4 sound most like him.
 
-## Next step (2026-11-05, after his message of 15:20 UTC)
+## Next step (2026-11-05, after his answers of 15:55 UTC)
+
+Waiting on him: Neuro De-Armoring Cards, 5 November (2) (`fix-20261104/cards/REVIEW-X1105B.md`, the two ketone
+paragraphs), the extension's account switch for the whole check, and this turn's pull request.
+
+Next:
+1. His versions of the ketone paragraphs in with a recording script, checked only where he hasn't; then learn what they do
+   (`fix-20261103/examples/WHAT-HIS-VERSIONS-DO.md`).
+2. Part 3, the Shield, one paragraph at a time after the ATP section, the way his versions show: the making-sense read and
+   the sources first, a prediction before each check, in his Pangram account from the desktop app's browser pane.
+3. The whole article's free check when he says the extension is on his other account.
+
+## Earlier next step (2026-11-05, after his message of 15:20 UTC)
 
 Waiting on him: Neuro De-Armoring Cards, 5 November (`fix-20261104/cards/REVIEW-X1104F.md`, review id
 neuro-de-armoring-cards-20261104-x1104f), the extension's account switch for the whole check, and the merge of pull
