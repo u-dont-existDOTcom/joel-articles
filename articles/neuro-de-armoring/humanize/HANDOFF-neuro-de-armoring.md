@@ -21,7 +21,7 @@ From an account with Desktop Commander connected to the laptop: "Continue my neu
 - **2026-11-05, his message of 23:02 UTC ("neuro de-armoring ΔFosB deep pass"): the nine DeltaFosB claims checked
   against the primary papers; the article's own citation says close to the opposite; four cards and question 9.**
   HUMANIZED-SO-FAR.md is unchanged this turn — nothing went in. The check, with every claim and source:
-  `fix-20261105/deltafosb/DELTAFOSB-CHECK.md`. The cards: `fix-20261105/deltafosb/cards/REVIEW-X1105D.md` (page and
+  `fix-20261105/deltafosb/DELTAFOSB-CHECK.md`. The cards: [Neuro De-Armoring Cards, 5 November (3)](https://claude.ai/artifact/3ncbd8T8XWfW127h74THB9), `fix-20261105/deltafosb/cards/REVIEW-X1105D.md` (page and
   artifact view beside it), with a making-sense receipt per card (`deltafosb/receipts/`, gate E365). What it found:
   Vialou 2010, cited for DeltaFosB cementing trauma circuitry, found DeltaFosB in the nucleus accumbens going with
   **resilience** to social defeat, required for fluoxetine's effect, and *reduced* in depressed people at autopsy;

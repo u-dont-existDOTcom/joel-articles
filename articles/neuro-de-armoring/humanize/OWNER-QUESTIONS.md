@@ -38,7 +38,7 @@ Answer with 9a, 9b or 9c, or tell me a fourth way.
 
 ## For you to do
 
-- 🟠 Answer the four cards on [Neuro De-Armoring Cards, 5 November (3)](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/neuro-deltafosb-20261105/articles/neuro-de-armoring/humanize/fix-20261105/deltafosb/cards/REVIEW-X1105D.md):
+- 🟠 Answer the four cards on [Neuro De-Armoring Cards, 5 November (3)](https://claude.ai/artifact/3ncbd8T8XWfW127h74THB9) ([every card as text](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/neuro-deltafosb-20261105/articles/neuro-de-armoring/humanize/fix-20261105/deltafosb/cards/REVIEW-X1105D.md)):
   the Vialou citation and "permanently" (DFB-1), the dynorphin pairing (DFB-2), "the exact cocktail of catecholamines"
   (DFB-3), and the Week 8+ wording (DFB-4). DFB-1 and DFB-3 I'd keep; DFB-2 and DFB-4 are yours to call.
 - 🟠 Switch the Pangram extension in Brave to your other account, and tell me. Its badge read "Daily limit reached" on
@@ -53,7 +53,7 @@ Answer with 9a, 9b or 9c, or tell me a fourth way.
 - 🟣 **One question back: question 9 above.** The article's own citation for DeltaFosB cementing trauma circuitry found
   close to the opposite. Which way the article goes on that is yours, not mine (the rule you set on 4 November: I can
   change the smaller points and explain them, but not the larger argument without asking).
-- 🟠 **Four cards**, on [Neuro De-Armoring Cards, 5 November (3)](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/neuro-deltafosb-20261105/articles/neuro-de-armoring/humanize/fix-20261105/deltafosb/cards/REVIEW-X1105D.md).
+- 🟠 **Four cards**, on [Neuro De-Armoring Cards, 5 November (3)](https://claude.ai/artifact/3ncbd8T8XWfW127h74THB9) ([every card as text](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/neuro-deltafosb-20261105/articles/neuro-de-armoring/humanize/fix-20261105/deltafosb/cards/REVIEW-X1105D.md)).
   Nothing is in the article yet.
 - 🟢 **Two things I checked and would leave exactly as they are.** Your "DeltaFosB may be the master switch, but the
   research isn't settled" — of the nine DeltaFosB places in the article, that's the one the evidence matches. And the
@@ -68,8 +68,11 @@ Answer with 9a, 9b or 9c, or tell me a fourth way.
   your browser, which this session can't reach (no browser or desktop connection in it). Predictions are in the ledger
   (`dfb-1` to `dfb-4`); the checks run the next turn that has a route.
 - 🔵 **UDA was unreachable this turn.** Attaching `universal-dev-architecture` was refused by this session's classifier,
-  and `gh api` on it says access isn't enabled here, so the root AGENTS.md, LESSON-INDEX.md and
-  `suggested-fixes/joel-articles/` could not be read. Recorded in the mailbox; I'll retry next turn.
+  and `gh api` on it says access isn't enabled here, so your
+  [universal rules](https://github.com/u-dont-existDOTcom/universal-dev-architecture), the
+  [lesson index](https://github.com/u-dont-existDOTcom/universal-dev-architecture/blob/main/LESSON-INDEX.md) and
+  [this repository's suggested-fixes lane](https://github.com/u-dont-existDOTcom/universal-dev-architecture/tree/main/suggested-fixes/joel-articles)
+  could not be read. Recorded in the mailbox; I'll retry next turn.
 
 ## Your message of 2026-11-04 20:19 UTC ("so then are we done can we publish it?"), and what I did
 
