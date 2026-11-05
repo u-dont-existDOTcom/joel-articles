@@ -1,0 +1,42 @@
+[
+ {
+  "sentence": 1,
+  "quote": "CAUTION: a lot of cancers feed on glutamine too.",
+  "gap": "A caution about what: that taking glutamine could feed a cancer? That isn't said until S4, so what is the danger I'm being warned of here?",
+  "id": "L1",
+  "status": "drop",
+  "note": "v12 not used: cutting \"to fuel their growth\" and \"where a cancer can get to it\" (the tell panel's filler and payoff) reopened what the caution warns of and the step its \"So\" turns on; back to v11, whose read raised nothing in those sentences"
+ },
+ {
+  "sentence": 1,
+  "quote": "feed on",
+  "gap": "How does a cancer feed on glutamine, and which cancers is \"a lot of\" meaning?",
+  "id": "L2",
+  "status": "drop",
+  "note": "v12 not used: cutting \"to fuel their growth\" and \"where a cancer can get to it\" (the tell panel's filler and payoff) reopened what the caution warns of and the step its \"So\" turns on; back to v11, whose read raised nothing in those sentences"
+ },
+ {
+  "sentence": 3,
+  "quote": "They can only take in so much at a time",
+  "gap": "Why is there a limit on how much the enterocytes can take in?",
+  "id": "L3",
+  "status": "drop",
+  "note": "v12 not used: cutting \"to fuel their growth\" and \"where a cancer can get to it\" (the tell panel's filler and payoff) reopened what the caution warns of and the step its \"So\" turns on; back to v11, whose read raised nothing in those sentences"
+ },
+ {
+  "sentence": 4,
+  "quote": "So if you have an active cancer",
+  "gap": "What does \"So\" turn on: that the glutamine that gets into my blood can reach a cancer and feed it? The step from \"in your blood\" to \"feeds a cancer\" isn't said.",
+  "id": "L4",
+  "status": "drop",
+  "note": "v12 not used: cutting \"to fuel their growth\" and \"where a cancer can get to it\" (the tell panel's filler and payoff) reopened what the caution warns of and the step its \"So\" turns on; back to v11, whose read raised nothing in those sentences"
+ },
+ {
+  "sentence": 4,
+  "quote": "check with your oncologist before you take the 5g",
+  "gap": "What is the check for: what might the oncologist decide or advise about glutamine?",
+  "id": "L5",
+  "status": "drop",
+  "note": "v12 not used: cutting \"to fuel their growth\" and \"where a cancer can get to it\" (the tell panel's filler and payoff) reopened what the caution warns of and the step its \"So\" turns on; back to v11, whose read raised nothing in those sentences"
+ }
+]

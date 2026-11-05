@@ -1,0 +1,25 @@
+[
+ {
+  "id": "G114",
+  "original": "Take 5g a day as a baseline. The point of that baseline is to counter the breakdown of the gut lining that high-intensity or high-volume training causes, like CrossFit or intense cardio. If your immune system is dealing with an acute exposure, if your whole system is under a lot of stress, or if you have active IBD (Crohn's or colitis), raise it gradually to 10-30g a day.",
+  "rewrite": "Take 5g a day as a baseline, to keep your enterocytes fed. The 5g also counters the breakdown of the gut lining that hard or long training causes, like CrossFit or intense cardio. While you train, your body sends blood away from your gut to your working muscles, so your enterocytes get less oxygen and fuel. But the glutamine you swallow doesn't need that blood, since it reaches them from inside your gut. If your immune system is dealing with an acute exposure, if your whole system is under a lot of stress, or if you have active IBD (Crohn's or colitis), raise it gradually to 10-30g a day.",
+  "changed_points": [
+   {
+    "change": "adds the baseline's purpose for every reader: \"to keep your enterocytes fed\"",
+    "reason": "a LINK from the paragraph before (glutamine is the main fuel for your enterocytes): two fresh readers asked what the baseline is for, and whether it's for them at all if they don't train"
+   },
+   {
+    "change": "\"The point of that baseline is to counter the breakdown of the gut lining that high-intensity or high-volume training causes\" becomes \"The 5g also counters the breakdown of the gut lining that hard or long training causes\": countering training's damage becomes the baseline's second job, not its whole point, so the 5g is everyone's baseline",
+    "reason": "his card 4, approved (\"go ahead\", 2026-11-05): fresh readers asked whether the baseline is for them at all if they don't train; the last sentence's \"raise it gradually\" already treats the 5g as everyone's starting point. This reading goes to him on the card as my choice, with the other one (5g only for people who train hard). Check that the rewrite still says the 5g counters what hard training does to the lining"
+   },
+   {
+    "change": "\"high-intensity or high-volume training\" becomes \"hard or long training\"",
+    "reason": "plain words for the same two kinds (a newcomer asked what \"volume\" means); check it doesn't narrow or widen them"
+   },
+   {
+    "change": "adds how training breaks the lining down, and how the 5g gets round it: \"While you train, your body sends blood away from your gut to your working muscles, so your enterocytes get less oxygen and fuel. But the glutamine you swallow doesn't need that blood, since it reaches them from inside your gut.\"",
+    "reason": "a LINK the newcomer reads asked for (\"How does exercise break down the gut lining? I thought exercise was good for the body\"; \"the blood carries them?\"): strenuous exercise redistributes blood to the working muscles and skin, which significantly reduces blood flow to the gut, leading to hypoperfusion and loss of epithelial integrity (van Wijck 2012, abstract: https://pubmed.ncbi.nlm.nih.gov/22517770/); high-intensity or prolonged exercise diverts blood from the gut to the muscles, and the ischemia raises intestinal permeability, while moderate exercise like walking and yoga helps the barrier (systematic review, https://pmc.ncbi.nlm.nih.gov/articles/PMC12175863/). \"Starving\" ties it to the section's first paragraph (energy starvation: without energy, the barrier loosens). Check that this is true and not overstated The last sentence is the paragraph before's own point (\"your enterocytes can take it in as soon as it reaches them\"): two readers asked how swallowed glutamine could make up for what the blood no longer brings. Check it doesn't claim the glutamine replaces the oxygen"
+   }
+  ]
+ }
+]

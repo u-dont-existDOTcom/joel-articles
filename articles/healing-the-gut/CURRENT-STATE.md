@@ -24,20 +24,25 @@ Joel, 2026-11-03 16:15 UTC (`experiments/t01-answers/joel-20261103-1615-messages
 
 ## Current checkpoint
 
-2026-11-04, Joel's message of 22:35 UTC: his extension on the live post (r12) read [Mostly Human Written, 93% human](https://www.pangram.com/feed/e3a65841-a626-4b34-aad7-62b9dfa48ada), 18 AI windows (`humanize/fix-20261103/r12/live-check/`, #142 a miss). All but the fuels stretch's are on words unchanged since r10's 100% Human check. The live post's 116 quote marks are straight, where r10's check read them curled (E362 (gut)). A temporary draft holds the live words with the marks curled ("Healing the Gut, draft A (temp, delete after)", `r12/substack/`, #143); its secret link went to him in chat.
+2026-11-05, Joel's message of 15:18 UTC (`experiments/t13-answers/`): his four cards answered ("1agree with you / 2agree / 3.agree / 4. go ahead"), and cards go on the marking page the turn they're written (E363 (gut)). The fuels stretch is worded from his answers, checked, and on the batch-9 page (`humanize/fix-20261103/r14/`, https://claude.ai/artifact/EyKenia9ksMXj8pH6ZMCkE, cards in `r14/b9/REVIEW-CARDS.md`):
+- P20, with card 3's clause: [Human Written, 100%](https://www.pangram.com/history/7626ceb3-21e5-41b2-b9f1-53fce9a939aa) (#147).
+- P21, card 4's fix (v7): [Human Written, AI 0%](https://www.pangram.com/history/cd90475f-4199-4cc0-b764-b3e88005929d) (#149). One sentence of mine still reads Medium.
+- The caution, cards 1 and 2 (any active cancer, the oncologist, the 5g too, no portal vein): [Human Written, AI 0%](https://www.pangram.com/history/b3f527c2-1d60-4d21-9135-2b53da1a9894), the caution High (#150).
+- The whole stretch: [Human Written, AI 0%](https://www.pangram.com/history/8d1686ec-5214-4648-abc2-cebbeb208ebb) (#152). In his post it read AI Detected 26% (#140).
 
-The fuels stretch (`humanize/fix-20261103/r13/fuels/`): P20's three AI sentences rewritten, and P19 with the new P20 reads Human Written 100%, High (#144). The caution (P22) read AI with its dose paragraph twice (#145, #146; its warning sentence now reads Human Medium). Its liver sentence can't be rewritten faithfully until he decides what the caution rests on: a tumor in the liver is fed mainly by the hepatic artery, not the portal vein, and swallowed glutamine mostly doesn't reach the colon (`r13/fuels/README.md`, `CARDS-DRAFT.md`).
+The live post (r12) read Mostly Human 93% in his extension (#142); its 116 quote marks are straight, where r10's 100% check read them curled (E362 (gut)). Draft A, the live words with the marks curled (`r12/substack/`, #143), is still waiting for his extension's result. Its secret link was given to him again in chat on 2026-11-05.
 
 ## Remaining
 
-1. His extension on draft A's secret link, then record #143. If it reads like r10, ask him to let the live post's marks be curled (E362 (gut)). If it reads like the live check, fix Phase 2 to 5's windows paragraph by paragraph.
-2. The batch-9 marking page: the cards in `r13/fuels/CARDS-DRAFT.md` (the caution's reasons, 5g with an active cancer, two logic gaps in P20, P21's Low sentences), with draft A's outcome. Then the caution's next try, P21's fix, and the fuels stretch's one section recheck.
-3. The next update of his post, with his OK and no email: r13's changes, with the marks as he decides.
-4. He deletes draft A once its result is recorded.
+1. His answers on the batch-9 page. Two are open questions: whether the 5g is everyone's baseline or only for people who train hard (F9-3), and whether readers' questions on his dose sentence get answers (F9-5).
+2. His extension on draft A's secret link, then record #143. If it reads like r10, ask him to let the live post's marks be curled (E362 (gut)). If it reads like the live check, fix Phase 2 to 5's windows paragraph by paragraph.
+3. P21's Medium sentence ("But the glutamine you swallow still gets to them, straight from inside your gut."): the next try cuts it or folds it into the blood sentence (`r14/README.md`).
+4. The next update of his post, with his OK and no email: r14's fuels stretch as he answers, with the marks as he decides.
+5. He deletes draft A once its result is recorded.
 
 ## Blockers / unresolved
 
-- Waiting on Joel: draft A's result page; then his answers on the batch-9 page.
+- Waiting on Joel: his answers on the batch-9 page, and draft A's result page.
 
 ## Evidence / artifacts
 
@@ -45,4 +50,4 @@ The fuels stretch (`humanize/fix-20261103/r13/fuels/`): P20's three AI sentences
 
 ## Next safe action
 
-Record draft A's result (#143) when his page comes, then build the batch-9 marking page from `humanize/fix-20261103/r13/fuels/CARDS-DRAFT.md` with `tools/humanization/suggestion_review.py` and publish it.
+When his batch-9 answers come, apply them to r12 as r15 (`r14/b9/REVIEW.json`), recheck any changed paragraph with its neighbor, and record draft A's result (#143) when his page comes.

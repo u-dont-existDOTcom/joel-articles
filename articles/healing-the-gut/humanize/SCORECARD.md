@@ -9,7 +9,7 @@ Built by `tools/humanization/pangram_ledger.py build` from `articles/healing-the
 | pangram API 4.1 | 97 | 71 (73%) | 55% | 45% | 47% | 0.173 (base 0.248, 97) |
 | Pangram 4.1 (web app) | 10 | 5 (50%) | 70% | 30% | 80% | 0.224 (base 0.210, 10) |
 | pangram 4.1, Pangram's check of the Substack draft (free, Joel's account) | 1 | 1 (100%) | 0% | 100% | 100% | 0.202 (base 0.000, 1) |
-| pangram 4.1, the web app (Joel's account, GUI credits) | 26 | 20 (77%) | 23% | 77% | 92% | 0.159 (base 0.178, 26) |
+| pangram 4.1, the web app (Joel's account, GUI credits) | 32 | 26 (81%) | 19% | 81% | 94% | 0.159 (base 0.152, 32) |
 | pangram 4.1, his Pangram extension on the live post (free, Joel's account) | 1 | 0 (0%) | 100% | 0% | 100% | 0.250 (base 0.000, 1) |
 
 ## pangram API 4.1
@@ -84,25 +84,25 @@ Calibration:
 
 | window | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| the latest 50 | 26 | 20 (77%) | 23% | 77% | 92% | 0.159 (base 0.178, 26) |
-| the latest 100 | 26 | 20 (77%) | 23% | 77% | 92% | 0.159 (base 0.178, 26) |
-| all | 26 | 20 (77%) | 23% | 77% | 92% | 0.159 (base 0.178, 26) |
+| the latest 50 | 32 | 26 (81%) | 19% | 81% | 94% | 0.159 (base 0.152, 32) |
+| the latest 100 | 32 | 26 (81%) | 19% | 81% | 94% | 0.159 (base 0.152, 32) |
+| all | 32 | 26 (81%) | 19% | 81% | 94% | 0.159 (base 0.152, 32) |
 
 The boundary mix (what was checked; accuracy differs a lot between a paragraph and a section):
 
 | scope or kind | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| section | 23 | 19 (83%) | 17% | 83% | 91% | 0.150 (base 0.144, 23) |
-| pair | 3 | 1 (33%) | 67% | 33% | 100% | 0.234 (base 0.222, 3) |
+| section | 24 | 20 (83%) | 17% | 83% | 92% | 0.150 (base 0.139, 24) |
+| pair | 8 | 6 (75%) | 25% | 75% | 100% | 0.185 (base 0.188, 8) |
 
 Calibration:
 
 | my chance of a 100% Human result | calls | mean chance | read Human |
 |---|---|---|---|
 | 0.2 to 0.4 | 2 | 0.28 | 50% |
-| 0.4 to 0.6 | 5 | 0.55 | 40% |
-| 0.6 to 0.8 | 18 | 0.70 | 83% |
-| 0.8 to 1.0 | 3 | 0.80 | 100% |
+| 0.4 to 0.6 | 9 | 0.56 | 67% |
+| 0.6 to 0.8 | 21 | 0.69 | 86% |
+| 0.8 to 1.0 | 4 | 0.80 | 100% |
 
 ## pangram 4.1, his Pangram extension on the live post (free, Joel's account)
 
@@ -202,6 +202,4 @@ The latest:
 | r12-g07 | section | 1 of 2 | Mixed |
 | r12-g13 | section | 1 of 2 | Mixed |
 | r11c-g13 | section | 1 of 2 | Mixed |
-| r12-fuels | section | 1 of 2 | Mixed |
-| r13-fuels-p22 | pair | 2 of 6 | Mixed |
 
