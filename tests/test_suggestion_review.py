@@ -310,5 +310,33 @@ class ReaderBriefTests(unittest.TestCase):
             self.assertTrue(any('user-select:none' in r.replace(' ', '') for r in rules), rel)
 
 
+class ReceiptTests(unittest.TestCase):
+    """Gate E365: from 2026-11-05 a card that adds or changes words carries a making-sense receipt that passes."""
+
+    def test_a_card_with_new_words_needs_its_receipt(self):
+        import tempfile, sense_receipt
+        text = 'Time the seizure. Keep them on their side.'
+        rv = {'built': '2026-11-05'}
+        card = {'id': 'C1', 'advice': 'approve', 'edits': [{'block': 0, 'before': 'Time it.', 'after': text}]}
+        self.assertTrue(R.receipt_problems(rv, card))
+        self.assertEqual(R.receipt_problems(dict(rv, built='2026-11-04'), card), [])
+        self.assertEqual(R.receipt_problems(rv, dict(card, owner_text="his round-6 version")), [])
+        r = sense_receipt.make(text, 'Active Seizure', 'someone with a person having a seizure from MDMA, which is generalized')
+        for x in r['sentences']:
+            x['payoff'], x['follows'] = 'tells the helper what to do', 'the next step after the one before'
+        r['placement'] = 'first in the section, which it opens'
+        r['questions'] = {q: 'PASS: said plainly' for q in sense_receipt.QUESTIONS}
+        with tempfile.NamedTemporaryFile('w', suffix='.json', dir=str(R.ROOT), delete=False) as f:
+            json.dump(r, f)
+        try:
+            rel = str(pathlib.Path(f.name).relative_to(R.ROOT))
+            self.assertEqual(R.receipt_problems(rv, dict(card, receipt=rel)), [])
+            other = dict(card, edits=[{'block': 0, 'before': 'x', 'after': 'Another text.'}], receipt=rel)
+            self.assertTrue(R.receipt_problems(rv, other))
+        finally:
+            pathlib.Path(f.name).unlink()
+
+
+
 if __name__ == '__main__':
     unittest.main()

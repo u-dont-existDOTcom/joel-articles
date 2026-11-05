@@ -2536,8 +2536,43 @@ changed: `docs/MAKING-SENSE.md`.
   Where it's written down: `docs/MAKING-SENSE.md`, questions 6, 7 and 9; the bad trips lane's
   `articles/bad-trips/review/r06/apply_r06.py`.
 
-(The neuro de-armoring lane's E359 is just before this section; the bad trips lane's E360 to E362 are just above. The
-next lesson in any lane is E363.)
+## What the bad trips guide's round 6 taught, part two (2026-11-05, a second session on the same answers)
+
+His round-6 answers reached two sessions at once (this lane's chat at 15:15 UTC, the neuro de-armoring chat at 15:20
+UTC). E362 above is the first's; these are the second's, and how the two were put together is in
+`articles/bad-trips/CURRENT-STATE.md` (turn 11).
+
+- **E365. E362 is enforced where the work passes, not only written down: the making-sense receipt.** The same answers
+  went to a second session (this lane's chat, 15:15 UTC), which read "fix the way you work because i'm not telling you
+  the same stuff over and over" as a demand for enforcement, after UDA's `patterns/task-time-lesson-activation.md` (when
+  the owner catches a violation of a rule he already stated, repair the enforcement, not only the candidate). The cause:
+  E360's question 7 ("does this fact help this reader now?") was in `docs/MAKING-SENSE.md`, and the source check (E348)
+  gave me a job that felt like progress (make the point correct) while nothing made me ask the question again of the
+  corrected point, or of each sentence, before the card went out. What changed: `tools/humanization/sense_receipt.py`
+  makes the read leave a receipt, with a payoff and a reason for its place for every sentence I write, judged against a
+  reader stated as their case ("a seizure from MDMA or a psychedelic overdose, which is generalized", not "seizures"),
+  and a `still_needed` answer for every point I checked, where "no" must be cut. `pangram_ledger.py predict` refuses my
+  text without a passing receipt, and `suggestion_review.py` refuses a marking page whose new words have none (from
+  2026-11-05). The same predict also refuses a retry that rewrites more than 40% of the last try without `--big-change`,
+  so E361's "next obvious fix" is a small step by default. The receipt's `placement` and each sentence's `follows` carry
+  E362's order points: where a paragraph sits and why, and, when a paragraph moves, what its first "also", "this" or "as
+  for" now points to (after the warning stage moved above it, the next paragraph's "I would also use ... as adjuncts"
+  added to the warning-stage list; round 7's AFTER-MOVE card).
+- **E366. An instruction is something the helper does, said plainly, and it names the thing exactly.** "someone goes
+  with them" was "not only compressed but has an air of snobbery to it"; his "have someone go with them" "sounds more
+  concrete and practiacl, less judgey", and took the end of the paragraph from low to high confidence Human. "anything"
+  was vague; his "any substance" says which. (`docs/MAKING-SENSE.md` questions 2 and 3.)
+- **E367. Lessons go to main the turn they are made.** Joel, 2026-11-05 15:15 UTC: "make sure you merge lessons with
+  main branch so everyone is sharing always". E360, E361, `docs/MAKING-SENSE.md` and O68 waited a day in this lane's pull
+  request before he merged it, so every other lane worked that day without them. `tools/humanization/lane_push.py` now
+  refuses to push a branch that changes a shared file (`tools/`, `docs/`, `tests/`, `scripts/`, `.github/`, `AGENTS.md`,
+  `SKILL.md`) unless it says `--merge`, which merges its pull request into main once the checks on the pushed commit
+  pass, or `--no-merge "why"` for a change that must wait. Every lane takes the lesson at its next turn's merge of main
+  (E339). Article work, with no shared change, still waits for his merge.
+
+(The neuro de-armoring lane's E359 is just before the round 5 section; the bad trips lane's E360 to E362 and E365 to
+E367 are just above; E363 and E364 are the neuro de-armoring lane's, in its pull request 305. The next lesson in any
+lane is E368.)
 
 
 ## What turn 100's API checks showed (the Inner Child lane, 2026-10-23)

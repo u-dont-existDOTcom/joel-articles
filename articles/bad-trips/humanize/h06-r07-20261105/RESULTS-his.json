@@ -1,0 +1,41 @@
+{
+ "bt-r07-his-cbd2": [
+  "Human Written",
+  0,
+  73,
+  "Human, High, 73",
+  "15:52:32",
+  "https://www.pangram.com/history/b24a1f68-fe39-4ef8-bfef-a03bbce3dc1c",
+  []
+ ],
+ "bt-r07-his-canna2": [
+  "AI Detected",
+  0.62,
+  80,
+  "Human, Low, 31; AI-Generated, Medium, 38; AI-Generated, Low, 11",
+  "15:52:20",
+  "https://www.pangram.com/history/64d111ca-8c3a-4d94-adc5-beb4a8b32bf0",
+  [
+   "AI-Generated (38 words): But other people say THC vapes and concentrates brought their seizures on, and in rats that get the brief staring seizures called absence seizures, high-THC smoke made them worse while injected CBD cut them about in half.",
+   "AI-Generated (11 words): So the THC may be what makes it go either way."
+  ]
+ ],
+ "bt-r07-his-canna1": [
+  "Human Written",
+  0,
+  106,
+  "Human, High, 106",
+  "15:52:10",
+  "https://www.pangram.com/history/ae1cbe48-eeb7-4e04-8b62-bbb970071cb1",
+  []
+ ],
+ "bt-r07-his-warn": [
+  "Human Written",
+  0,
+  135,
+  "Human, High, 135",
+  "15:51:59",
+  "https://www.pangram.com/history/d6589034-372d-4da4-a85b-1121a8e07f6c",
+  []
+ ]
+}

@@ -1,0 +1,90 @@
+[
+ {
+  "sentence": 1,
+  "quote": "adjuncts",
+  "gap": "Adjuncts to what? The sentence doesn't say what they are added to.",
+  "id": "L1",
+  "answer": "During the seizure, alongside any rescue medicine,",
+  "raised": "I would use topical magnesium chloride"
+ },
+ {
+  "sentence": 1,
+  "quote": "topical magnesium chloride",
+  "gap": "What is magnesium chloride, and how does putting it on the skin do anything for a seizure?",
+  "id": "L2",
+  "status": "drop",
+  "note": "explained in the guide's MDMA section, the magnesium alarm"
+ },
+ {
+  "sentence": 1,
+  "quote": "topical DMSO",
+  "gap": "What is DMSO, and how would it help a seizure?",
+  "id": "L3",
+  "status": "drop",
+  "note": "the DMSO paragraph after the cannabis paragraphs, and the guide's earlier sections"
+ },
+ {
+  "sentence": 1,
+  "quote": "consider",
+  "gap": "What am I supposed to do with this: use these during the seizure, or only if I happen to have them? What is the advice for?",
+  "id": "L4",
+  "status": "drop",
+  "note": "his words, not part of this change; \"During the seizure\" now says when"
+ },
+ {
+  "sentence": 1,
+  "quote": "known-genuine CBD preparation",
+  "gap": "How would I tell that a CBD preparation is genuine, and why does it matter to me that many are fake or very dilute?",
+  "id": "L5",
+  "status": "drop",
+  "note": "his words, not part of this change; his parenthetical says why it matters"
+ },
+ {
+  "sentence": 2,
+  "quote": "Seizures come in all different types",
+  "gap": "What does having different types have to do with there being no study? The step in between isn't shown.",
+  "id": "L6",
+  "status": "drop",
+  "note": "his words, not part of this change; the types clause sets up the list of syndromes the drug is approved for"
+ },
+ {
+  "sentence": 2,
+  "quote": "rescue remedy",
+  "gap": "What is a rescue remedy, and how is it different from a preventive one?",
+  "id": "L7",
+  "status": "drop",
+  "note": "his words, not part of this change; \"rescue\" is set against \"to prevent them\" in the same sentence"
+ },
+ {
+  "sentence": 2,
+  "quote": "(just anecdotes)",
+  "gap": "What are anecdotes here: individual reports from people, with no controlled testing?",
+  "id": "L8",
+  "status": "drop",
+  "note": "his words, not part of this change"
+ },
+ {
+  "sentence": 2,
+  "quote": "even though",
+  "gap": "What expectation is this contrast against? Why would prevention studies make me expect a rescue study too?",
+  "id": "L9",
+  "status": "drop",
+  "note": "his words, not part of this change; the contrast is between no rescue study and the prevention studies"
+ },
+ {
+  "sentence": 2,
+  "quote": "Purified oral CBD",
+  "gap": "What do \"purified\" and \"oral\" mean here, and is this the same as the \"known-genuine\" preparation in the sentence before?",
+  "id": "L10",
+  "status": "drop",
+  "note": "his words, not part of this change"
+ },
+ {
+  "sentence": 2,
+  "quote": "is approved for the seizures of Lennox-Gastaut syndrome, Dravet syndrome and tuberous sclerosis complex",
+  "gap": "Approved by whom? And why does this matter to me when my friend's seizure comes from MDMA or a psychedelic overdose, not one of these conditions?",
+  "id": "L11",
+  "status": "drop",
+  "note": "his words, not part of this change; the guide links the FDA label; why it matters to this reader is in the topical CBD paragraph"
+ }
+]

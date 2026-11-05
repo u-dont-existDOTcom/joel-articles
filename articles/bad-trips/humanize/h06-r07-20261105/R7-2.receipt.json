@@ -1,0 +1,87 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "text_sha256": "e3290d762c6938bc1a10fa251344e952bfb73b8d92a03898c62f2ff5cc04ba65",
+ "text": "As for topical CBD, it hasn't been well-studied. There was a short 12-week trial done, where they used a CBD skin gel, and although absorption was good, it didn't work any better than placebo to prevent seizures. The study authors suggested the dosing may have been too low, or that adults with focal epilepsy just don't respond as well as people with the syndromes oral CBD is approved for. The seizures in Dravet and Lennox-Gastaut syndrome are mostly generalized. Generalized are the type people usually have with MDMA & psychedelic overdoses, so topical CBD might do better for those than it did in that trial.",
+ "section": "Active Seizure",
+ "reader": "someone with a person who is having, or about to have, a seizure from MDMA or a psychedelic overdose, which is generalized, and who wants to know what can stop it now",
+ "sentences": [
+  {
+   "s": "As for topical CBD, it hasn't been well-studied.",
+   "his": true
+  },
+  {
+   "s": "There was a short 12-week trial done, where they used a CBD skin gel, and although absorption was good, it didn't work any better than placebo to prevent seizures.",
+   "his": true
+  },
+  {
+   "s": "The study authors suggested the dosing may have been too low, or that adults with focal epilepsy just don't respond as well as people with the syndromes oral CBD is approved for.",
+   "payoff": "the reader learns why the gel's failure doesn't settle it for them: maybe too little got in, and the people tested were adults with focal epilepsy, not the kind of patients CBD is proven in",
+   "follows": "answers the question the sentence before leaves: it didn't beat placebo, so why might that be?"
+  },
+  {
+   "s": "The seizures in Dravet and Lennox-Gastaut syndrome are mostly generalized.",
+   "payoff": "the reader learns that the proven CBD evidence includes the generalized kind of seizure they are facing, which is what makes it the evidence to go by",
+   "follows": "names, of the approved syndromes just mentioned, the two whose seizures are like the reader's, and leads into Joel's sentence on generalized seizures"
+  },
+  {
+   "s": "Generalized are the type people usually have with MDMA & psychedelic overdoses, so topical CBD might do better for those than it did in that trial.",
+   "payoff": "the reader learns what all this means for their friend: the failed trial doesn't rule topical CBD out for the generalized seizures MDMA and psychedelic overdoses cause, and may undersell it",
+   "follows": "Joel's sentence on which seizures drug overdoses cause, with the conclusion it leads to said, since both fresh readers asked how it bears on the trial"
+  }
+ ],
+ "checked": [
+  {
+   "point": "the authors suggested it works better for generalized rather than focal seizures",
+   "found": "O'Brien et al. 2022: \"It is also possible cannabidiol doses were too low, time to onset of effect exceeded 12 weeks, or the response to cannabidiol in adults with focal epilepsy is not as robust as seen in patients with Dravet syndrome, Lennox-Gastaut syndrome, or tuberous sclerosis complex\"; tuberous sclerosis complex is a condition \"with primarily focal seizures\" (Thiele et al. 2021), so they didn't say generalized",
+   "still_needed": "yes: it's what tells the reader the failed trial was in a different kind of patient",
+   "fate": "changed"
+  },
+  {
+   "point": "Dravet and Lennox-Gastaut seizures are mostly generalized",
+   "found": "the Dravet trial counted convulsive seizures (Devinsky et al. 2017), the Lennox-Gastaut trial drop seizures (Devinsky et al. 2018), and Thiele et al. 2021 sets both syndromes apart from conditions with primarily focal seizures",
+   "still_needed": "yes: it links the proven evidence to the reader's seizure",
+   "fate": "kept"
+  },
+  {
+   "point": "MDMA and psychedelic overdose seizures are usually generalized",
+   "found": "\"Drug induced seizures are generalized processes\" (University of Calgary clinical pharmacology and toxicology pearl, MDMA among the drugs listed); an MDMA case report of a tonic-clonic seizure with low sodium (Elkattawy et al. 2021)",
+   "still_needed": "yes: it's why the reader should care which syndromes the evidence comes from",
+   "fate": "kept"
+  },
+  {
+   "point": "the authors' third reason, that the effect may take longer than 12 weeks to show",
+   "found": "in the paper",
+   "still_needed": "no: a slower preventive effect changes nothing for someone having a seizure now",
+   "fate": "cut"
+  },
+  {
+   "point": "topical CBD might do better for those (generalized, drug-caused) seizures than in the trial",
+   "found": "an extrapolation, said as one (\"might\"): the authors' own reason was that adults with focal epilepsy may respond less than patients with the approved syndromes, two of which have mostly generalized seizures; no study has tested CBD on drug-caused seizures",
+   "still_needed": "yes: it is the paragraph's conclusion for this reader (Joel: \"we should extrapolate from cbd evidence for that\")",
+   "fate": "kept"
+  }
+ ],
+ "placement": "where Joel put it: after the cannabis paragraphs, since topical CBD continues the ways of taking CBD they cover, and before the DMSO paragraph, whose \"As for DMSO\" carries on from P3's list of adjuncts; its \"As for topical CBD\" points back to CBD taken other ways in the paragraphs before",
+ "questions": {
+  "Q1": "PASS: the paragraph opens with its point (topical CBD is not well-studied); the one trial comes after, and the authors' reasons after the result they explain",
+  "Q2": "N/A: no instruction in this paragraph",
+  "Q3": "PASS: \"adults with focal epilepsy\", \"Dravet and Lennox-Gastaut\" and \"generalized seizures\" say which patients and which seizures",
+  "Q4": "PASS: \"the syndromes oral CBD is approved for\" says it is the oral drug that is approved, not the gel (the newcomer read took \"it\" for the gel), and they are the three named in P3",
+  "Q5": "PASS: the authors' reasons answer why it failed; Dravet and Lennox-Gastaut are two of the approved syndromes just mentioned; the last sentence says what follows for the reader's kind of seizure (\"so topical CBD might do better for those\"), which two fresh readers could not see",
+  "Q6": "PASS: what we know, the one trial, why it may have failed, which evidence is closer to the reader, the reader's seizure type",
+  "Q7": "PASS: each sentence bears on whether CBD on the skin could help a generalized, drug-caused seizure; the 12-week onset reason is left out because it does not help this reader now",
+  "Q8": "N/A: no groups or tiers",
+  "Q9": "PASS: one idea a sentence; \"just don't respond as well\" is plain"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first; a study after the question it answers)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

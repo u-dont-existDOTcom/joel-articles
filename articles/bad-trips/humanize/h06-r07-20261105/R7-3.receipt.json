@@ -1,0 +1,55 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "text_sha256": "52f609a2d211d04519ad1313b4ee7dfdd525c1e36bc9b065d3d887734fcba336",
+ "text": "During the seizure, alongside any rescue medicine, I would use topical magnesium chloride and consider topical DMSO with a known-genuine CBD preparation (a lot of CBD is fake or very dilute). Seizures come in all different types, and we have no study on whether CBD could be a rescue remedy for a seizure (just anecdotes), even though we do have studies showing long-term effectiveness to prevent them: Purified oral CBD is approved for the seizures of Lennox-Gastaut syndrome, Dravet syndrome and tuberous sclerosis complex.",
+ "section": "Active Seizure",
+ "reader": "someone with a person who is having, or about to have, a seizure from MDMA or a psychedelic overdose, which is generalized, and who wants to know what can stop it now",
+ "sentences": [
+  {
+   "s": "During the seizure, alongside any rescue medicine, I would use topical magnesium chloride and consider topical DMSO with a known-genuine CBD preparation (a lot of CBD is fake or very dilute).",
+   "payoff": "the reader learns what Joel adds once the seizure has started, alongside the rescue medicine if they have it, and that these are for during the seizure, not for the warning stage just described",
+   "follows": "the paragraph before is the warning stage, so \"During the seizure\" turns back to the seizure itself, and \"alongside any rescue medicine\" ties it to the rescue paragraph before that"
+  },
+  {
+   "s": "Seizures come in all different types, and we have no study on whether CBD could be a rescue remedy for a seizure (just anecdotes), even though we do have studies showing long-term effectiveness to prevent them: Purified oral CBD is approved for the seizures of Lennox-Gastaut syndrome, Dravet syndrome and tuberous sclerosis complex.",
+   "his": true
+  }
+ ],
+ "checked": [
+  {
+   "point": "For focal seizures outside those syndromes, the evidence is mixed, but still long-term.",
+   "found": "this reader's seizure is generalized (\"Drug induced seizures are generalized processes\", University of Calgary pearl), and that the evidence is long-term is said in the sentence before",
+   "still_needed": "no: it tells this reader about a kind of seizure they are not facing",
+   "fate": "cut"
+  },
+  {
+   "point": "as adjuncts",
+   "found": "after the warning paragraph moved in front of it, two fresh readers couldn't tell what they were adjuncts to",
+   "still_needed": "yes: the point that they add to the rescue medicine, not replace it",
+   "fate": "changed"
+  }
+ ],
+ "placement": "P3, where it was, now after the warning-stage paragraph Joel put before it: \"During the seizure\" marks the turn from the warning stage back to the seizure, and \"alongside any rescue medicine\" ties it to the rescue paragraph before the warning paragraph",
+ "questions": {
+  "Q1": "PASS: the first words say when (during the seizure) before the list",
+  "Q2": "PASS: \"use topical magnesium chloride and consider topical DMSO with a known-genuine CBD preparation\" are things the helper does",
+  "Q3": "PASS: \"topical magnesium chloride\" and \"a known-genuine CBD preparation\" say which thing",
+  "Q4": "PASS: \"alongside any rescue medicine\" says what these add to, which \"as adjuncts\" left to guess after the warning paragraph came between (both fresh readers asked \"adjunct to what?\")",
+  "Q5": "PASS: \"alongside any rescue medicine\" ties back to the rescue paragraph; the second sentence's \"even though\" turns on its no-study point",
+  "Q6": "PASS: the during-the-seizure measures come back after the warning-stage paragraph, and the CBD evidence follows the CBD just mentioned",
+  "Q7": "PASS: the cut sentence was the one about focal seizures, which this reader is not facing",
+  "Q8": "N/A: no groups or tiers",
+  "Q9": "PASS: nothing compressed added"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first; a study after the question it answers)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

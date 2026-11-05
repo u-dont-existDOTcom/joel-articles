@@ -1,0 +1,82 @@
+[
+ {
+  "sentence": 1,
+  "quote": "some swear it stops the seizure from going any further",
+  "gap": "What does \"it\" point to: smoking cannabis, vaping it, the nasal spray from the paragraph above, or something else?",
+  "id": "L1",
+  "status": "drop",
+  "note": "his words: cannabis, from the paragraph before"
+ },
+ {
+  "sentence": 1,
+  "quote": "EEG",
+  "gap": "What is an EEG, and what does it measure?",
+  "id": "L2",
+  "status": "drop",
+  "note": "his words (EEG)"
+ },
+ {
+  "sentence": 1,
+  "quote": "fewer seizure discharges",
+  "gap": "What is a seizure discharge, and how is it different from a seizure?",
+  "id": "L3",
+  "status": "drop",
+  "note": "his words"
+ },
+ {
+  "sentence": 1,
+  "quote": "fewer seizure discharges on the days she smoked",
+  "gap": "Fewer than what? Compared with which other days?",
+  "id": "L4",
+  "status": "drop",
+  "note": "his words: against the days she didn't"
+ },
+ {
+  "sentence": 1,
+  "quote": "there was one woman whose EEG showed",
+  "gap": "What does one woman's brain reading have to do with a seizure happening in front of me now?",
+  "id": "L5",
+  "status": "drop",
+  "note": "his words: one case, reported as one"
+ },
+ {
+  "sentence": 2,
+  "quote": "THC vapes and concentrates",
+  "gap": "What are concentrates, and how are they different from the smoke or vapes just mentioned?",
+  "id": "L6",
+  "status": "drop",
+  "note": "a common term (cannabis concentrates)"
+ },
+ {
+  "sentence": 2,
+  "quote": "brought their seizures on",
+  "gap": "Does this mean I should not give it at all, and what should I do with this warning if the seizure has already started?",
+  "id": "L7",
+  "status": "drop",
+  "note": "the paragraph is for the aura, before anyone uses cannabis; what the reader weighs is that THC products have brought seizures on"
+ },
+ {
+  "sentence": 3,
+  "quote": "rats bred to have seizures",
+  "gap": "Why rats, and why would researchers breed animals to have seizures? What does a rat result say about a person?",
+  "id": "L8",
+  "status": "drop",
+  "note": "a study strain; what matters to the reader is what high-THC smoke did"
+ },
+ {
+  "sentence": 3,
+  "quote": "had more of them after high-THC smoke",
+  "gap": "More than what? Compared with rats that were not given the smoke?",
+  "id": "L9",
+  "status": "drop",
+  "note": "against their usual number"
+ },
+ {
+  "sentence": 3,
+  "quote": "And rats bred to have seizures had more of them after high-THC smoke.",
+  "gap": "Which side of the question does this bear on, stopping seizures or setting them off?",
+  "id": "L10",
+  "status": "drop",
+  "note": "\"And\" adds the rats to the reports of THC bringing seizures on, the sentence before"
+ }
+]
