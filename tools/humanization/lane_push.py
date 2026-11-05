@@ -46,6 +46,16 @@ changed the same day. So, before anything is committed:
     LANE_PUSH=1, so a plain `git push` from a lane is refused by the hook.
 A place GitHub can't be reached for prints what failed and doesn't stop the push (as the mailbox does).
 
+Lessons go to main the turn they are made (Joel, 2026-11-05 15:15 UTC: "make sure you merge lessons with main branch so
+everyone is sharing always"). A lesson that waits in an open pull request is shared with nobody: the bad trips lane's
+E360, E361, docs/MAKING-SENSE.md and O68 sat in its pull request #280 for a day while other lanes worked without them. So
+a branch that changes a shared file against main (tools/, docs/, tests/, scripts/, .github/, AGENTS.md, SKILL.md) is
+pushed with --merge: after the push, once its pull request's checks on the pushed commit have finished green, it is
+merged into main (a merge commit, as Joel merges), and every lane takes it at its next turn's merge of main (E339).
+--no-merge "why" pushes without merging, for a change that must wait (its tests fail, or it needs Joel's decision); the
+reason is printed and goes in the commit message. A branch with no shared change needs neither: article work waits for
+Joel's merge as before.
+
 It prints the pushed commit, which the browser's raw.githubusercontent.com fetches use.
 """
 import argparse
@@ -361,6 +371,10 @@ def parser():
     ap.add_argument('--unread-ok', help='push although the comparison gate fails, and say why in the commit message')
     ap.add_argument('--overlap-ok', help='another open pull request changes a shared file this one does: say how this '
                                           'builds on theirs (gate E339)')
+    ap.add_argument('--merge', action='store_true',
+                    help='merge the pull request into main once its checks pass: required when the branch changes shared '
+                         'rules or tools, so every lane has them at its next turn (Joel, 2026-11-05)')
+    ap.add_argument('--no-merge', help='push a branch with shared changes without merging it: why it must wait')
     ap.add_argument('--mailbox', metavar='TURN',
                     help='the turn\'s first clock reading ("2026-11-01 22:27", UTC): its mailbox check must be on record '
                          '(tools/humanization/lane_mailbox.py record); required')
@@ -384,6 +398,54 @@ def mailbox_gate(turn):
         sys.exit('refused: the mailbox check of this turn is not complete:\n  ' + '\n  '.join(probs))
 
 
+def shared_changes():
+    """The shared files this branch changes against origin/main (fetched by main_gate)."""
+    return shared(run(['git', 'diff', '--name-only', 'origin/main...HEAD'], check=False).stdout.split())
+
+
+def merge_gate(a, pending):
+    """Refuse a push of shared changes that says neither --merge nor --no-merge (Joel, 2026-11-05: "make sure you merge
+    lessons with main branch so everyone is sharing always")."""
+    if pending and not (a.merge or a.no_merge):
+        sys.exit('refused: this branch changes shared rules or tools (%s), and lessons go to main the turn they are made '
+                 '(Joel, 2026-11-05 15:15 UTC: "make sure you merge lessons with main branch so everyone is sharing '
+                 'always"). Push again with --merge, or with --no-merge "why it must wait".' % ', '.join(pending[:6]))
+    if a.merge and a.no_merge:
+        sys.exit('refused: --merge and --no-merge together')
+
+
+def merge_now(wait=600):
+    """Merge the branch's open pull request into main once the check runs on the pushed commit have all finished
+    green. Returns what happened."""
+    branch = run(['git', 'rev-parse', '--abbrev-ref', 'HEAD']).stdout.strip()
+    head = run(['git', 'rev-parse', 'HEAD']).stdout.strip()
+    owner, repo = owner_repo()
+    num = run(['gh', 'api', 'repos/%s/%s/pulls?state=open&head=%s:%s' % (owner, repo, owner, branch),
+               '--jq', '.[0].number // empty'], check=False).stdout.strip()
+    if not num:
+        return 'NOT MERGED: no open pull request for %s (open one with --pr)' % branch
+    end = time.time() + wait
+    runs = []
+    while time.time() < end:
+        r = run(['gh', 'api', 'repos/%s/%s/commits/%s/check-runs' % (owner, repo, head), '--jq',
+                 '.check_runs[] | .name + "\t" + .status + "\t" + (.conclusion // "")'], check=False)
+        runs = [x.split('\t') for x in r.stdout.strip().split('\n') if x.strip()]
+        if runs and all(x[1] == 'completed' for x in runs):
+            break
+        time.sleep(15)
+    bad = [x for x in runs if x[1] != 'completed' or x[2] not in ('success', 'neutral', 'skipped')]
+    if not runs:
+        return 'NOT MERGED: no checks ran on %s within %ds; merge it once they have: pull request %s' % (head[:8], wait, num)
+    if bad:
+        return 'NOT MERGED: checks not green on %s (%s): pull request %s waits' % (
+            head[:8], '; '.join('%s %s %s' % tuple(x[:3]) for x in bad), num)
+    r = run(['gh', 'api', '-X', 'PUT', 'repos/%s/%s/pulls/%s/merge' % (owner, repo, num), '-f', 'merge_method=merge',
+             '-f', 'sha=' + head, '--jq', '.sha'], check=False)
+    if r.returncode:
+        return 'NOT MERGED: GitHub refused the merge of pull request %s: %s' % (num, (r.stderr or r.stdout).strip()[-300:])
+    return 'merged pull request %s into main (%s): every lane takes it at its next merge of main' % (num, r.stdout.strip()[:12])
+
+
 def main(argv=None):
     ap = parser()
     a = ap.parse_args(argv)
@@ -401,7 +463,11 @@ def main(argv=None):
     for line in [install_hook()] + integration_gate(a, a.add):
         if line:
             print(line)
+    pending = sorted(set(shared_changes()) | set(shared(a.add)))
+    merge_gate(a, pending)
     note = compare_gate(a.article, a.unread_ok)
+    if pending and a.no_merge:
+        note = ((note + '\n\n') if note else '') + 'Shared changes not merged into main this turn: ' + a.no_merge
     register(a.article)
     made = commit(a.subject, paths, note)
     gone = prune(a.article)
@@ -417,6 +483,10 @@ def main(argv=None):
     if a.pr:
         print('pull request', pull_request(a.pr, a.pr_body))
     print(mergeable())
+    if a.merge:
+        print(merge_now())
+    elif pending:
+        print('shared changes NOT merged into main: %s' % a.no_merge)
     return 0
 
 

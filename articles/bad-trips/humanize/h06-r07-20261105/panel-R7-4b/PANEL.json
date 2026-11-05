@@ -1,0 +1,45 @@
+{
+ "readers": [
+  "codex",
+  "haiku",
+  "sonnet"
+ ],
+ "sentences": [
+  "I also read on forums some swear it stops the seizure from going any further, and there was one woman whose EEG showed fewer seizure discharges on the days she smoked.",
+  "But for some people, THC vapes and concentrates brought their seizures on.",
+  "Rats bred to have seizures had more of them after high-THC smoke, too."
+ ],
+ "flagged": {
+  "1": [
+   "sonnet"
+  ],
+  "2": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ],
+  "3": [
+   "haiku",
+   "sonnet"
+  ]
+ },
+ "agreed": [
+  2,
+  3
+ ],
+ "whole": {
+  "codex": [
+   "The progression from favorable anecdotes to adverse experiences and then animal evidence feels neatly balanced and compressed. That could reflect polishing, but it provides little basis for identifying AI authorship."
+  ],
+  "haiku": [
+   "Apart from those two spots, the paragraph reads mostly human; its three claims are laid out as a tidy ladder of forum talk, one case, a counterexample and animal data, which is a little too evenly paced."
+  ],
+  "sonnet": [
+   "The paragraph is built as a symmetrical evidence ladder (forums, one woman, then a swing to \"but\" and rats) with each sentence carrying one finding at a similar length, so the rhythm is even and the weighing of for and against feels assembled rather than spoken. The voice stays neutral and reportorial, with no stake or reaction from the writer after the opening \"I\"."
+  ]
+ },
+ "human_clean": [
+  "stops the seizure from going any further",
+  "going any further"
+ ]
+}

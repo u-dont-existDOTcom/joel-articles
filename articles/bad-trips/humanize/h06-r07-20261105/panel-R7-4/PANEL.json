@@ -1,0 +1,55 @@
+{
+ "readers": [
+  "codex",
+  "haiku",
+  "sonnet"
+ ],
+ "sentences": [
+  "I also read on forums some swear it stops the seizure from going any further, and there was one woman whose EEG showed fewer seizure discharges on the days she smoked.",
+  "But other people say THC vapes and concentrates brought their seizures on.",
+  "That matches what happened in rats that get the brief staring seizures called absence seizures: high-THC smoke gave them more of those seizures, while injected CBD cut the number about in half.",
+  "So the THC may be what makes cannabis go either way."
+ ],
+ "flagged": {
+  "1": [
+   "haiku",
+   "sonnet"
+  ],
+  "2": [
+   "haiku",
+   "sonnet"
+  ],
+  "3": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ],
+  "4": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ]
+ },
+ "agreed": [
+  1,
+  2,
+  3,
+  4
+ ],
+ "whole": {
+  "codex": [
+   "The paragraph follows an orderly progression from anecdote to counterexample to experiment to tentative conclusion, which can feel model-polished beneath its conversational voice. These are weak stylistic cues; the paragraph alone cannot establish authorship."
+  ],
+  "haiku": [
+   "The paragraph runs at even, similar sentence lengths and moves in a clean sequence of evidence, pivot, study, and tidy close, which reads like a polished summary more than someone working through what they found. The voice stays smooth and generic, with no hesitation or loose ends."
+  ],
+  "sonnet": [
+   "The paragraph moves in a perfectly orderly sequence of claim, counterclaim, supporting evidence and resolving conclusion, with evenly sized sentences and no digression, so it reads as assembled to a logical template rather than thought through aloud. Its voice is evenly explanatory and never snags."
+  ]
+ },
+ "human_clean": [
+  "THC vapes and concentrates",
+  "brought their seizures on",
+  "vapes and concentrates"
+ ]
+}

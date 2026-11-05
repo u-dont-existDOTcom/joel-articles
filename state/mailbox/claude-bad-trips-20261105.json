@@ -1,0 +1,46 @@
+{
+ "about": "Each turn's mailbox check (tools/humanization/lane_mailbox.py; AGENTS.md, \"Suggested fixes from other projects\"). Newest last.",
+ "places": {
+  "uda-lane": "this repository's lane in universal-dev-architecture (suggested-fixes/joel-articles/), against docs/suggested-fixes-ledger.md",
+  "repo": "new issues and pull requests here, and new comments and reviews on any of them, replies on our own included",
+  "notes": "edits others made to the lane's handoff notes and owner questions pages since its last turn",
+  "runtime": "the messages the session's runtime queued for it"
+ },
+ "checks": [
+  {
+   "turn": "2026-11-05T15:15Z",
+   "lines_of_work": [
+    "bad trips guide"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "no new items since the turn's first check (the same two, both in docs/suggested-fixes-ledger.md)"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "pull requests 303 (neuro de-armoring) and 304 (the other bad trips session, on the same round-6 answers) merged at 15:50 and 15:51 UTC; 293 open"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "the other session's edits to this lane's handoff note and current state, through pull request 304"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "none queued for this lane"
+    }
+   ],
+   "items": [
+    {
+     "item": "pull request 304: Joel's round-6 answers applied by a second session (sent to it in the neuro de-armoring chat at 15:20 UTC)",
+     "outcome": "main merged into this branch and the two put together: the guide keeps his words, both sessions' proposals are on round 7's version 2, its files kept beside this branch's, its E362 kept and this branch's lessons renumbered E363 to E365"
+    }
+   ],
+   "recorded_utc": "2026-11-05T16:25Z"
+  }
+ ]
+}

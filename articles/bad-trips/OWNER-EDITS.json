@@ -4,7 +4,7 @@
  "how": [
   "Every edit Joel gives goes in here the same turn, with his words and the strings the guide must (or must not) contain once it's done. Status pending until the guide has it; then applied.",
   "tools/humanization/check_owner_edits.py checks every entry against GUIDE-SO-FAR.md; render_article_so_far.py runs it on every render.",
-  "His words of 2026-11-03 18:59 UTC are in experiments/t01-answers/JOEL-MESSAGE-20261103-1859.md; those of 22:04 and 22:05 UTC in experiments/t01-answers/JOEL-MESSAGE-20261103-2204.md; his round-2 answers of 2026-11-04 10:26 UTC in review/r02/ANSWERS-R02-20261104-1026.json; his message of 2026-11-04 11:35 UTC in experiments/t04-answers/JOEL-MESSAGE-20261104-1135.md. His round-5 answers (exported 2026-11-04 22:14 UTC, sent 22:37 UTC) in review/r05/ANSWERS-R05-20261104-2214.json, his message in experiments/t08-answers/JOEL-MESSAGE-20261104-2237.md."
+  "His words of 2026-11-03 18:59 UTC are in experiments/t01-answers/JOEL-MESSAGE-20261103-1859.md; those of 22:04 and 22:05 UTC in experiments/t01-answers/JOEL-MESSAGE-20261103-2204.md; his round-2 answers of 2026-11-04 10:26 UTC in review/r02/ANSWERS-R02-20261104-1026.json; his message of 2026-11-04 11:35 UTC in experiments/t04-answers/JOEL-MESSAGE-20261104-1135.md. His round-5 answers (exported 2026-11-04 22:14 UTC, sent 22:37 UTC) in review/r05/ANSWERS-R05-20261104-2214.json, his message in experiments/t08-answers/JOEL-MESSAGE-20261104-2237.md. His round-6 answers (exported 2026-11-05 15:14 UTC, sent 15:15 UTC) in review/r06/ANSWERS-R06-20261105-1514.json."
  ],
  "entries": [
   {
@@ -186,13 +186,13 @@
    "must_contain_exact": [
     "consider topical DMSO with a known-genuine CBD preparation as adjuncts (a lot of CBD is fake or very dilute).",
     "Seizures come in all different types, and we have no study on whether CBD could be a rescue remedy for a seizure",
-    "And topical CBD hasn't been well-studied.",
     "I'd treat it as a plausible experimental adjunct remedy rather than something to wait on while a seizure continues."
    ],
    "must_not_contain": [
     "focal seizures fell by about half to three quarters over nearly three years",
     "In a [2025 study]"
-   ]
+   ],
+   "note": "its topical paragraph was replaced by his round-6 version (r06-cbd-trial-his-version), so \"And topical CBD hasn't been well-studied.\" is no longer required"
   },
   {
    "id": "r05-pfa-his-version",
@@ -204,6 +204,43 @@
    ],
    "must_not_contain": [
     "Begin with whatever could hurt somebody in the next five minutes."
+   ]
+  },
+  {
+   "id": "r06-cbd-trial-his-version",
+   "status": "applied",
+   "what": "CBD-TRIAL: his four paragraphs (warning stage with his humic hunch, two cannabis paragraphs, topical CBD), \"comapny\" fixed, his Congress link joined, studies linked",
+   "joel": "15:14: his version on the CBD-TRIAL card",
+   "must_contain_exact": [
+    "I'd also try sniffing humic/fulvic acid powder, although that's just a hunch based on the effects I notice so far.",
+    "There are also people who find THC and/or CBD works as a nasal spray or sublingually",
+    "As for topical CBD, it hasn't been well-studied.",
+    "although absorption was good, it didn't work any better than placebo to prevent seizures"
+   ],
+   "must_not_contain": [
+    "7-OH-CBD"
+   ]
+  },
+  {
+   "id": "r06-seiz-warn-placement",
+   "status": "applied",
+   "what": "SEIZ-WARN: the warning-stage paragraph after P2 (the rescue benzodiazepine), before P3, above all the cannabis paragraphs",
+   "joel": "15:07: \"we should move the non-cannabis para above all the cannabis info ... let's put it after p2 before p3\"",
+   "must_contain_exact": [
+    "Some people get a warning before a seizure takes hold, which is called an aura."
+   ],
+   "must_not_contain": []
+  },
+  {
+   "id": "r06-move-his-version",
+   "status": "applied",
+   "what": "MOVE-YOURS: his paragraph, the movement lines inside his dangers paragraph",
+   "joel": "15:14: \"now it's all high conf human\"",
+   "must_contain_exact": [
+    "or pools of water for that matter. Letting them move around is fine, and pacing can help, but keep them from taking more of any substance. If they want to go confront somebody, that can wait. And if they want to leave, have someone go with them. Put any weapons away"
+   ],
+   "must_not_contain": [
+    "Movement is allowed. Unsafe movement is not."
    ]
   }
  ]
