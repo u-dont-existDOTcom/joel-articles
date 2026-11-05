@@ -1,0 +1,3 @@
+S1 | "because a huge amount of what looks like profound psychedelic crisis is a frightened nervous system stuck in an annoying room" | How does a room make a crisis? Why would the room be the thing to look at, when the crisis is in the person's nervous system? The step between the two is not given.
+S9 | "This is a bad time to defend the playlist." | What does "This" point to: the moment of distress, or the music change in the line before? And what does "defend the playlist" mean here, whose playlist, and what would defending it look like?
+S10 | "since a lot of water fast is dangerous on MDMA" | What is dangerous about drinking a lot of water quickly on MDMA? How does the water hurt the person, and why does sipping avoid it?

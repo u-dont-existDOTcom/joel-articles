@@ -15,6 +15,15 @@ https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/bad-trips
 
 ## START HERE
 
+- **2026-11-05, turn 12 (his round-7 answers and message of 17:09 UTC, with a Gemini write-up on ABRACE's YouTube
+  channel).** All four round-7 cards approved and in, and "non-profit" (his "you're right it's a non-profit that's
+  important"; Human, High). From the write-up only that went in, by his no-clutter rule: the rest is about children
+  taking ABRACE's oils by mouth for months; AskRigor has it now (no CBD or seizure card existed; nine claims checked;
+  findings card ARF-0304 and the research map pending its review; `experiments/t10-answers/ASKRIGOR-CHECK-20261105.md`).
+  The humanize pass reached the room paragraphs of Psychological First Aid: they read AI as they are and in five tries
+  each, four mine (the last two after a tell panel) and one by Codex, so round 8's page asks for his version (Bad Trips
+  Guide, Round 8, https://claude.ai/artifact/FnvfZWzTyK2jktLGc88Vgr; the card as text in `review/r08/REVIEW-R08.md`).
+  **First:** his round-8 version in and checked; **then** the next paragraph (CURRENT-STATE.md's next step).
 - **2026-11-05, turn 11 (his round-6 answers of 15:14 UTC, which reached two sessions, and his message of 15:15 UTC).**
   Two sessions applied the same answers (this lane's chat, and the neuro de-armoring chat at 15:20 UTC); the other's
   went into main first (pull request 304, lesson E362, its page now `review/r07/v1/`), and this session's merge of main

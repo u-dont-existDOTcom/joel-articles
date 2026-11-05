@@ -1,0 +1,106 @@
+[
+ {
+  "sentence": 2,
+  "quote": "A huge amount of what looks like profound psychedelic crisis is a frightened nervous system stuck in an annoying room",
+  "gap": "How does a room make a crisis that looks profound? The step between the room and the crisis isn't shown, and I can't tell whether \"a frightened nervous system\" means the person or something general.",
+  "id": "L1",
+  "status": "drop",
+  "note": "his reason; the sentences after it name the room's part (the big light, five people talking, touch, someone untrusted, heat, cold, the bathroom), and \"frightened nervous system\" is the person's"
+ },
+ {
+  "sentence": 2,
+  "quote": "turn off the big light and put a lamp on",
+  "gap": "Why dim the light? What is the big light doing that a lamp doesn't?",
+  "id": "L2",
+  "status": "drop",
+  "note": "the reason it follows from says why: the room is what keeps the fear going, and the big light is part of the room"
+ },
+ {
+  "sentence": 2,
+  "quote": "if five concerned people are talking at once, keep one or two and send the rest to another room",
+  "gap": "Who are the concerned people, and why keep one or two rather than none or all? The purpose of cutting the group isn't said.",
+  "id": "L3",
+  "status": "drop",
+  "note": "the next section (Get One Human Anchor) is about the one or two who stay; here the point is fewer people talking"
+ },
+ {
+  "sentence": 3,
+  "quote": "Ask before you touch them",
+  "gap": "Why ask before touching? What would go wrong if someone just touched them?",
+  "id": "L4",
+  "status": "drop",
+  "note": "his \"Ask before touching\"; unwanted touch is one of his room checks, under the same reason"
+ },
+ {
+  "sentence": 4,
+  "quote": "If they're trapped beside somebody they don't trust, move them.",
+  "gap": "What does \"trapped\" mean here, and why would a person they don't trust matter to someone who is frightened? The link between distrust and the frightened nervous system isn't said.",
+  "id": "L5",
+  "status": "drop",
+  "note": "his words, under the same reason: someone they don't trust keeps a frightened nervous system frightened"
+ },
+ {
+  "sentence": 5,
+  "quote": "Find out if they're too hot or too cold, or desperate for the bathroom.",
+  "gap": "Why check these things? How does being cold, hot, or needing the bathroom connect to the crisis? The purpose of the check isn't given.",
+  "id": "L6",
+  "status": "drop",
+  "note": "his room checks, under the same reason: the body's discomforts are part of what keeps the fear going"
+ },
+ {
+  "sentence": 6,
+  "quote": "keep the music low if they want it",
+  "gap": "Is music already playing, or does someone have to start it? \"The music\" hasn't been introduced.",
+  "id": "L7",
+  "status": "drop",
+  "note": "the question just before it introduces the music"
+ },
+ {
+  "sentence": 7,
+  "quote": "If a song seems to be making things worse, change it.",
+  "gap": "How does a song make things worse, and what does \"change it\" mean: skip it, switch it off, or swap it for another? What tells you it \"seems\" that way?",
+  "id": "L8",
+  "status": "drop",
+  "note": "to a helper, change it means put on something else; \"seems\" is their judgment, as it would be"
+ },
+ {
+  "sentence": 8,
+  "quote": "This is a bad time to defend the playlist.",
+  "gap": "Whose playlist is it, and who is defending it against whom? Why would anyone attack it? The reason this is a bad time isn't given.",
+  "id": "L9",
+  "status": "drop",
+  "note": "his words: arguing about the music with someone frightened, at a time when changing it costs nothing"
+ },
+ {
+  "sentence": 9,
+  "quote": "please don't explain the universe at somebody who is already frightened by it",
+  "gap": "Does \"it\" mean the universe or the explanation? Why would explaining make a frightened person more frightened? That step isn't shown.",
+  "id": "L10",
+  "status": "drop",
+  "note": "his words: \"it\" is the universe, which already frightens them"
+ },
+ {
+  "sentence": 10,
+  "quote": "Offer water, and leave it if they'd rather not.",
+  "gap": "Why offer water at all? The reason for offering isn't given; S11's reason only covers how to drink it.",
+  "id": "L11",
+  "status": "drop",
+  "note": "plain to a helper: people get thirsty and dry-mouthed; the next line is about how much"
+ },
+ {
+  "sentence": 11,
+  "quote": "a lot of water fast is dangerous",
+  "gap": "Which thing is dangerous: drinking a lot of water, or drinking it fast? What happens in the body that makes it dangerous? That step isn't shown.",
+  "id": "L12",
+  "status": "drop",
+  "note": "the guide's MDMA section, earlier, names it (hyponatremia after a single dose, with its warning signs); here the point is sips"
+ },
+ {
+  "sentence": 11,
+  "quote": "on MDMA",
+  "gap": "What is MDMA, and is this person known to have taken it? The sentence assumes the reader knows the substance is present.",
+  "id": "L13",
+  "status": "drop",
+  "note": "the guide is about MDMA and psychedelic trips, and its MDMA section comes earlier"
+ }
+]

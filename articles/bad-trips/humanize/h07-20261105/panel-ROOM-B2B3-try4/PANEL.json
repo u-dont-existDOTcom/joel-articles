@@ -1,0 +1,59 @@
+{
+ "readers": [
+  "codex",
+  "haiku",
+  "sonnet"
+ ],
+ "sentences": [
+  "Ask \"music or quiet?\"",
+  "Keep any music low, and if a song seems to be making things worse, change it.",
+  "This is a bad time to defend the playlist.",
+  "Talk slowly and say less, and please don't explain the universe at somebody who is already frightened by it.",
+  "Have water there for them, and if they drink, get them to sip rather than chug, since a lot of water fast is dangerous on MDMA."
+ ],
+ "flagged": {
+  "1": [],
+  "2": [
+   "haiku",
+   "sonnet"
+  ],
+  "3": [
+   "haiku",
+   "sonnet"
+  ],
+  "4": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ],
+  "5": [
+   "haiku",
+   "sonnet"
+  ]
+ },
+ "agreed": [
+  2,
+  3,
+  4,
+  5
+ ],
+ "whole": {
+  "codex": [
+   "The paragraph combines an orderly checklist with conspicuously conversational humor, a combination that can resemble AI polishing. Neither its structure nor its wording reliably establishes authorship."
+  ],
+  "haiku": [
+   "The paragraph is five sentences of close to even weight, each a clean imperative with one wry beat, so the rhythm reads smoothed and composed, and the calm, tidy voice has the feel of something edited for polish."
+  ],
+  "sonnet": [
+   "The paragraph is a run of short, evenly sized imperative sentences, each giving one tidy tip in a similar cadence, with no digressions, uneven turns or personal anecdote. That orderly checklist rhythm, each sentence resolving cleanly, reads somewhat machine-assembled, though the voice has a few sharp edges."
+  ]
+ },
+ "human_clean": [
+  "music or quiet?",
+  "since a lot of water fast is dangerous on MDMA",
+  "a lot of water fast",
+  "since a lot of water fast is dangerous on MDMA",
+  "a lot of water fast",
+  "on MDMA"
+ ]
+}

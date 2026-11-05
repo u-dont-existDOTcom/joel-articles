@@ -1,0 +1,54 @@
+{
+ "readers": [
+  "codex",
+  "haiku",
+  "sonnet"
+ ],
+ "sentences": [
+  "Then look at the room.",
+  "A huge amount of what looks like profound psychedelic crisis is a frightened nervous system stuck in an annoying room, so turn off the big light and put a lamp on, and if five concerned people are talking at once, keep one or two and send the rest to another room.",
+  "Ask before you touch them, and make sure everyone else does too.",
+  "If they're trapped beside somebody they don't trust, move them.",
+  "Find out if they're too hot or too cold, or desperate for the bathroom."
+ ],
+ "flagged": {
+  "1": [],
+  "2": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ],
+  "3": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ],
+  "4": [
+   "haiku",
+   "sonnet"
+  ],
+  "5": [
+   "sonnet"
+  ]
+ },
+ "agreed": [
+  2,
+  3,
+  4
+ ],
+ "whole": {
+  "codex": [
+   "The progression through surroundings, company, touch, trust and bodily needs has a checklist completeness that could suggest AI polishing. Those are weak cues, though: the paragraph’s conversational rhythm and unusually concrete wording give no strong basis for attributing it to AI."
+  ],
+  "haiku": [
+   "The paragraph is built as a run of short imperative sentences of similar length, and the closing checklist has a steady, even beat that looks drafted for clarity. The voice stays controlled from first sentence to last, which is more polished than a live, uneven first-person note would be."
+  ],
+  "sonnet": [
+   "It is built as a string of brisk imperatives, each a similar length and shape (condition, then instruction), which gives an even, listicle-like rhythm with no digressions, no first-person experience and no concrete incident. The opening \"Then look at the room\" and the escalating-but-orderly sequence make it feel like a composed checklist."
+  ]
+ },
+ "human_clean": [
+  "five concerned people are talking at once",
+  "five concerned people are talking at once"
+ ]
+}

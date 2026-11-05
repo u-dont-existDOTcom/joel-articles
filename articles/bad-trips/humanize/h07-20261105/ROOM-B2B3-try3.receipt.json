@@ -1,0 +1,69 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "text_sha256": "6a1c385b103ce35d696628baf63fabdf0bcb3bf6de284644e63a9a7d9cc67ca6",
+ "text": "Ask \"music or quiet?\" and keep the music low if they want it. If a song seems to be making things worse, change it. This is a bad time to defend the playlist. Speak slowly and use fewer words, and please don't explain the universe at somebody who is already frightened by it. Offer water, and leave it if they'd rather not. If they do drink, have them sip rather than chug, since a lot of water fast is dangerous on MDMA.",
+ "section": "Psychological First Aid: The First Five Minutes",
+ "reader": "someone looking after a person in a frightening psychedelic or MDMA state, in the first few minutes, once the immediate dangers (keys, stove, roads, more of the substance) are dealt with",
+ "sentences": [
+  {
+   "s": "Ask \"music or quiet?\" and keep the music low if they want it.",
+   "payoff": "the helper learns to ask the person which they want, music or quiet, and to keep any music low",
+   "follows": "his question about the music, after the room paragraph; the sound is the next thing in the room"
+  },
+  {
+   "s": "If a song seems to be making things worse, change it.",
+   "payoff": "the helper learns to change a song that seems to be making the trip worse",
+   "follows": "what to do with the music once it's on"
+  },
+  {
+   "s": "This is a bad time to defend the playlist.",
+   "his": true
+  },
+  {
+   "s": "Speak slowly and use fewer words, and please don't explain the universe at somebody who is already frightened by it.",
+   "payoff": "the helper learns how to talk: slowly, in fewer words, and no big explanations of the universe to someone it already frightens",
+   "follows": "after the music, the helper's own voice, the other sound in the room"
+  },
+  {
+   "s": "Offer water, and leave it if they'd rather not.",
+   "payoff": "the helper learns to offer water and leave it if the person would rather not",
+   "follows": "the last thing the helper offers"
+  },
+  {
+   "s": "If they do drink, have them sip rather than chug, since a lot of water fast is dangerous on MDMA.",
+   "payoff": "the helper learns, if the person drinks, to have them sip, because a lot of water fast is dangerous on MDMA",
+   "follows": "what to do when they take the water; the paragraph ends on why sipping matters, not on a quip"
+  }
+ ],
+ "checked": [
+  {
+   "point": "a lot of water fast is dangerous on MDMA",
+   "found": "MDMA raises antidiuretic hormone while people drink heavily, which can drop blood sodium (hyponatremia), with seizures and brain swelling; the guide's MDMA section and its sodium warnings already rest on this",
+   "still_needed": "yes: it is why sipping matters, which a fresh reader asked",
+   "fate": "kept"
+  }
+ ],
+ "placement": "after the room paragraph, in one paragraph: the music (his paragraph), then how to talk, then water (what was left of his fixes paragraph, in his words)",
+ "questions": {
+  "Q1": "PASS: each sentence says its point first",
+  "Q2": "PASS: the water instruction says what sipping is for; the music one says what to do either way; \"have them sip\" is the helper's act",
+  "Q3": "PASS: exact things: music or quiet, low, a song making things worse, slowly, fewer words, the universe, water, sips",
+  "Q4": "PASS: \"it\" in \"if they want it\" is the music; \"it\" in \"frightened by it\" is the universe",
+  "Q5": "PASS: \"This is a bad time\" follows changing the song, as in his paragraph; \"If they do drink\" follows leaving the water if they'd rather not",
+  "Q6": "PASS: the sound first (music, then the helper's voice), then water: the order a helper works in",
+  "Q7": "PASS: each is something a helper does in the first minutes; the MDMA reason is for this reader's case",
+  "Q8": "N/A: no groups or tiers",
+  "Q9": "PASS: the panel agreed on five of try 2's six sentences and on its two tips-plus-kicker paragraphs; try 3 is one paragraph that ends on the water reason, his two lines sit mid-paragraph, \"pulling the experience somewhere unwanted\" says what the helper would see (a song making things worse), and \"Offer water without forcing it\" says what to do if they don't want it"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first; a study after the question it answers)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

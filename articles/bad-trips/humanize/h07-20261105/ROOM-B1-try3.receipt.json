@@ -1,0 +1,57 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "text_sha256": "4bb65a4b97cbd2713b20a5292479baea29e27c7f574d6ec455f56c818c4d83c8",
+ "text": "Then look at the room. A huge amount of what looks like profound psychedelic crisis is a frightened nervous system stuck in an annoying room, so turn off the big light and put a lamp on, and if five concerned people are talking at once, keep one or two and send the rest to another room. Ask before you touch them, and make sure everyone else does too. If they're trapped beside somebody they don't trust, move them. Find out if they're too hot or too cold, or desperate for the bathroom.",
+ "section": "Psychological First Aid: The First Five Minutes",
+ "reader": "someone looking after a person in a frightening psychedelic or MDMA state, in the first few minutes, once the immediate dangers (keys, stove, roads, more of the substance) are dealt with",
+ "sentences": [
+  {
+   "s": "Then look at the room.",
+   "his": true
+  },
+  {
+   "s": "A huge amount of what looks like profound psychedelic crisis is a frightened nervous system stuck in an annoying room, so turn off the big light and put a lamp on, and if five concerned people are talking at once, keep one or two and send the rest to another room.",
+   "payoff": "the helper learns why the room is worth looking at, his reason, and the first two fixes that follow from it: the overhead light off and a lamp on, and the crowd of worried people cut to one or two, the rest sent to another room",
+   "follows": "it answers \"Then look at the room\" (why the room, which a fresh reader asked), and its \"so\" turns his reason into the fixes"
+  },
+  {
+   "s": "Ask before you touch them, and make sure everyone else does too.",
+   "payoff": "the helper learns to ask before touching the person, and to make sure everyone else in the room asks too",
+   "follows": "after the crowd, the people still in the room: who touches the person"
+  },
+  {
+   "s": "If they're trapped beside somebody they don't trust, move them.",
+   "payoff": "the helper learns to move the person away from someone they don't trust",
+   "follows": "the last of the people in the room: whoever the person is stuck beside"
+  },
+  {
+   "s": "Find out if they're too hot or too cold, or desperate for the bathroom.",
+   "payoff": "the helper learns the plain body checks to make, in his words: too hot, too cold, desperate for the bathroom",
+   "follows": "after the room and the people in it, the person's own body, the last of his room questions"
+  }
+ ],
+ "checked": [],
+ "placement": "where his room paragraph was, right after the first-five-minutes dangers paragraph; his reason paragraph and his fixes paragraph's lights, people and touch go into it, so each check sits beside its fix",
+ "questions": {
+  "Q1": "PASS: \"Then look at the room\" first, then the reason with what it means to do",
+  "Q2": "PASS: each instruction is something the helper does (turn off, put on, keep, send, ask, make sure, move, find out); the room fixes are for the reason his sentence gives",
+  "Q3": "PASS: exact things: the big light, a lamp, five concerned people, one or two, another room, unwanted touch, someone untrusted, too hot, too cold, the bathroom",
+  "Q4": "PASS: \"does too\" is asking before touching; \"them\" is the person throughout",
+  "Q5": "PASS: \"so\" turns his reason into the fixes; each sentence after is the next thing in the room: who touches them, who they're beside, their body",
+  "Q6": "PASS: light, the crowd, touch, someone untrusted, then the body: the room, its people, the person",
+  "Q7": "PASS: each is something a helper does in the first minutes",
+  "Q8": "N/A: no groups or tiers",
+  "Q9": "PASS: the panel (three readers) agreed on S1, S4 and S5 of try 2 and on its tidy checklist build; try 3 gives the reason its fixes with \"so\", rewrites the mirrored touch sentence, replaces \"check the basics\" with his own words (desperate for the bathroom) and varies the sentence lengths"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first; a study after the question it answers)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

@@ -1,0 +1,59 @@
+{
+ "readers": [
+  "codex",
+  "haiku",
+  "sonnet"
+ ],
+ "sentences": [
+  "Then look at the room.",
+  "If the big light is on and five concerned people are talking at once, no wonder they're scared, because a huge amount of what looks like profound psychedelic crisis is a frightened nervous system stuck in an annoying room.",
+  "Put a lamp on instead, keep one or two people with them and send the rest out.",
+  "Don't let anyone touch them unless they want it, and that goes for you too.",
+  "If they're trapped beside somebody they don't trust, move them.",
+  "After that it's the dull stuff, whether they're too hot or too cold, or desperate for the bathroom."
+ ],
+ "flagged": {
+  "1": [],
+  "2": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ],
+  "3": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ],
+  "4": [
+   "haiku",
+   "sonnet"
+  ],
+  "5": [],
+  "6": [
+   "haiku",
+   "sonnet"
+  ]
+ },
+ "agreed": [
+  2,
+  3,
+  4,
+  6
+ ],
+ "whole": {
+  "codex": [
+   "The paragraph moves efficiently from a scene to an explanation and then through practical instructions, which could suggest deliberate smoothing. These are weak signals, though: its wording alone cannot establish AI involvement."
+  ],
+  "haiku": [
+   "The paragraph runs on short, evenly weighted instruction sentences that each land on a balanced beat, so the rhythm reads smooth and generic rather than uneven. The voice stays neutral and advisory, and the one argumentative move, the reframing sentence, is built to sound wise rather than to show a particular person's experience."
+  ],
+  "sonnet": [
+   "Every sentence is about the same length and does one job in order (diagnose, fix, rule, fallback), so the rhythm is even and the paragraph resolves neatly with no digression, hesitation or personal detail. The voice is confident, general and instructional, as if from nobody in particular, and it never names a specific experience."
+  ]
+ },
+ "human_clean": [
+  "the big light",
+  "the big light is on and five concerned people are talking at once",
+  "If they're trapped beside somebody they don't trust, move them."
+ ]
+}

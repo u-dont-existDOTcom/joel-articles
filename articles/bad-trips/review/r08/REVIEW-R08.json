@@ -1,0 +1,63 @@
+{
+ "format": "joel-suggestion-review-v1",
+ "review_id": "bad-trips-r08",
+ "title": "Bad Trips Guide, Round 8",
+ "intro": [
+  "Round 8 (2026-11-05). Your round-7 answers are in the guide as you approved them, all four cards, and so is \"non-profit\": your cannabis paragraph now says \"by a non-profit patients' association called ABRACE\", and it read [Human Written, 0%](https://www.pangram.com/history/a8da55b2-865a-4d5a-88b2-894326eb6851), one window, High.",
+  "From the Gemini write-up on ABRACE's YouTube channel, nothing else went into the guide. Nearly all of it is about children with epilepsy (West syndrome, Dravet, refractory cases) taking ABRACE's oils by mouth for months, and how their seizures and quality of life changed, which does nothing for someone whose friend is seizing on MDMA or a psychedelic right now. Its first-aid video says what the Active Seizure section already says (on their side, nothing in the mouth, medics at about five minutes), and the THC nasal spray is already in your paragraph, from the testimony in Congress. The rest went to AskRigor, as you asked. There was no CBD or seizure card in its Atlas yet. It checked nine of the write-up's claims against the studies: the clobazam interaction holds; the trials' 30 to 50% drop in seizures leaves out placebo, where seizures fell too (by 17 to 27% in the Lennox-Gastaut and tuberous sclerosis trials); diarrhoea is understated (31 to 56% at the tuberous sclerosis trial's doses, against 25% on placebo); and no trial supports any CBD:THC ratio. Three findings are now a card waiting for AskRigor's review (ARF-0304), and the research map is filed for review too ([the full check](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261105/articles/bad-trips/experiments/t10-answers/ASKRIGOR-CHECK-20261105.md)).",
+  "The humanize pass then went on to the next stretch of Psychological First Aid: your four paragraphs after the dangers paragraph, from \"Then look at the room\" to \"This is a bad time to defend the playlist.\" They read AI as they are, and so did every version I could make, so the one card is for your version."
+ ],
+ "git_file": "articles/bad-trips/review/r08/REVIEW-R08.html",
+ "article": {
+  "file": "articles/bad-trips/review/r08/PAGE-R08.md",
+  "sha256": "145addc699d889acf26cc0499f8b8e0e86455763e6c69bb0e6671e5a152d2021"
+ },
+ "built": "2026-11-05",
+ "links": {
+  "guide": "https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261105/articles/bad-trips/GUIDE-SO-FAR.md",
+  "guide_label": "the guide as it stands",
+  "check": "https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261105/articles/bad-trips/humanize/h07-20261105/RESULTS.md",
+  "review": "https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261105/articles/bad-trips/review/r08/REVIEW-R08.md"
+ },
+ "types": {
+  "yours": {
+   "label": "Your version",
+   "about": "paragraphs that read AI as they are and in every version I made: your new words are the fix"
+  }
+ },
+ "suggestions": [
+  {
+   "id": "ROOM-YOURS",
+   "type": "yours",
+   "advice": "edit",
+   "keep_label": "keep them as they are",
+   "title": "The room, the music and the water, in your words",
+   "reading": "Your four paragraphs as they are, checked as two pairs: the room and the annoying room [AI, 100%](https://www.pangram.com/history/3b1372f7-25fb-4d0d-ae1e-ebb33f5b2159) (Medium on \"Then look at the room.\", High on the rest), and the fixes with the music [AI, 100%](https://www.pangram.com/history/adbfab8a-0e1b-4b3e-9718-f7e207d1ed33) (the same). Five versions each, all AI, 100%, every window High but \"Then look at the room.\" on its own (Low in the third room version, Medium in the fourth): the room [1](https://www.pangram.com/history/59d91e5b-7c0b-4c72-a069-4186cf15d2f9), [2](https://www.pangram.com/history/89b18a81-c6cf-41be-bb19-791d9619229e), [3](https://www.pangram.com/history/4fe2d34c-39e0-46dd-b12d-a86ebbbc4a50), [4](https://www.pangram.com/history/35bb7c93-a1cd-4883-8ab7-f4b13891536b), [5](https://www.pangram.com/history/ecfed313-207a-4d78-91e8-d54a8579e652); the music, talking and water [1](https://www.pangram.com/history/d40b990c-ff4a-40b7-9ec6-f17fc5633897), [2](https://www.pangram.com/history/935c6330-d355-4457-90ef-3daff9309d0f), [3](https://www.pangram.com/history/647e8d30-1364-43ab-afb4-f91186802f73), [4](https://www.pangram.com/history/8d476af3-4e68-484a-a377-ec4e30a683c2), [5](https://www.pangram.com/history/ad0a126d-1ef5-4a92-ac5a-d23405e040d0). The fifth of each is the other writer's.",
+   "why": "Every version had its making-sense receipt and a fresh reader. From the third on, three readers (Codex, Sonnet and Haiku) said what reads AI before I changed it, and the fifth came from a writer of another model family (Codex), working from their notes ([the room](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261105/articles/bad-trips/humanize/h07-20261105/panel-ROOM-B1-try5/PANEL.md), [the music and water](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261105/articles/bad-trips/humanize/h07-20261105/panel-ROOM-B2B3-try5/PANEL.md); every round is in [the results](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261105/articles/bad-trips/humanize/h07-20261105/RESULTS.md)). What they flagged every time: a run of instructions all the same length and shape, and your three lines read to them as polished quips (\"a frightened nervous system stuck in an annoying room\", \"This is a bad time to defend the playlist\", \"Please don't explain the universe at somebody who is already frightened by it\"). I kept those three as you wrote them, since they're yours. What it has to keep: look at the room next, with your reason; the big light off and a lamp on; five concerned people cut to one or two who stay; nobody touches them unless they want it, you included; move them away from somebody they don't trust; too hot, too cold, desperate for the bathroom; \"music or quiet?\", kept low, and a song that makes it worse changed; speak slowly, use fewer words, no explaining the universe; water offered, not pushed, and sipped, since a lot of water fast is dangerous on MDMA (that reason is mine: a fresh reader asked what sipping was for). Your dangers paragraph just above went the same way in round 6: four versions of mine read AI, and yours read [Human Written, 0%](https://www.pangram.com/history/e9d8d85c-5c0f-46b6-b780-91652f1efd15).",
+   "advice_note": "Edit it: say it your way, keeping those points. The order and the paragraph breaks are yours to change, and so are your three lines if you want. Or keep them as they are; they read AI.",
+   "found_by": "the humanize pass, Psychological First Aid, the paragraphs after your dangers paragraph",
+   "spans": [
+    {
+     "block": 199,
+     "start": 0,
+     "end": 271
+    },
+    {
+     "block": 200,
+     "start": 0,
+     "end": 119
+    },
+    {
+     "block": 201,
+     "start": 0,
+     "end": 248
+    },
+    {
+     "block": 202,
+     "start": 0,
+     "end": 136
+    }
+   ]
+  }
+ ]
+}

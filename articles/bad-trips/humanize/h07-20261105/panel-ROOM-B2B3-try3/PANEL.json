@@ -1,0 +1,64 @@
+{
+ "readers": [
+  "codex",
+  "haiku",
+  "sonnet"
+ ],
+ "sentences": [
+  "Ask \"music or quiet?\"",
+  "and keep the music low if they want it.",
+  "If a song seems to be making things worse, change it.",
+  "This is a bad time to defend the playlist.",
+  "Speak slowly and use fewer words, and please don't explain the universe at somebody who is already frightened by it.",
+  "Offer water, and leave it if they'd rather not.",
+  "If they do drink, have them sip rather than chug, since a lot of water fast is dangerous on MDMA."
+ ],
+ "flagged": {
+  "1": [],
+  "2": [
+   "haiku"
+  ],
+  "3": [],
+  "4": [
+   "haiku",
+   "sonnet"
+  ],
+  "5": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ],
+  "6": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ],
+  "7": [
+   "haiku",
+   "sonnet"
+  ]
+ },
+ "agreed": [
+  4,
+  5,
+  6,
+  7
+ ],
+ "whole": {
+  "codex": [
+   "The succession of short instructions, preference checks, and carefully placed jokes could suggest AI-assisted polishing. These are also ordinary human editorial choices, so the wording alone cannot establish authorship."
+  ],
+  "haiku": [
+   "Every sentence is a short imperative of similar length built on the same \"if\" frame, so the rhythm is evenly metered and the paragraph reads as a neat checklist, though its plain, practical register is not especially machine-like."
+  ],
+  "sonnet": [
+   "Every sentence is a short, evenly sized imperative with a conditional or contrast tacked on, so the rhythm is uniform and list-like, and nearly each one ends on a neat little turn. The voice is consistently calm and reassuring with no digression, hesitation or personal detail, which makes it read as assembled and polished rather than lived."
+  ]
+ },
+ "human_clean": [
+  "music or quiet?",
+  "a lot of water fast is dangerous on MDMA",
+  "a lot of water fast",
+  "since a lot of water fast is dangerous on MDMA"
+ ]
+}

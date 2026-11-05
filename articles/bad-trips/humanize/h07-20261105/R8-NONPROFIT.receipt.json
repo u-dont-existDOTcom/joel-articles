@@ -1,0 +1,57 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "text_sha256": "e2050f96f8451d9238524355d8cdff449b5a2b35d5630440de5fa8d55a0f85c3",
+ "text": "As for CBD/cannabis, people do smoke or vape it at the start of an aura, while they're still awake enough to do it on purpose. There are also people who find THC and/or CBD works as a nasal spray or sublingually, and there's even a medical THC nasal spray marketed for seizure interruption in Brazil by a non-profit patients' association called ABRACE. They testified in Congress that in more than 30 tests they did with children having seizures, the nasal spray ended those seizures within 30 seconds. You can see it being used on a child in this vid: https://www.youtube.com/watch?v=bgVi5o_2v_w",
+ "section": "Active Seizure",
+ "reader": "someone with a person who is having, or about to have, a seizure from MDMA or a psychedelic overdose, which is generalized, and who wants to know what can stop it now",
+ "sentences": [
+  {
+   "s": "As for CBD/cannabis, people do smoke or vape it at the start of an aura, while they're still awake enough to do it on purpose.",
+   "his": true
+  },
+  {
+   "s": "There are also people who find THC and/or CBD works as a nasal spray or sublingually, and there's even a medical THC nasal spray marketed for seizure interruption in Brazil by a non-profit patients' association called ABRACE.",
+   "payoff": "the reader learns the spray made for exactly their situation exists, and that the people behind it are a non-profit association of patients and families, so the claim that follows isn't a sales pitch and isn't a tested medicine either",
+   "follows": "continues the first sentence's ways of taking cannabis at an aura with the faster routes and the spray made for it"
+  },
+  {
+   "s": "They testified in Congress that in more than 30 tests they did with children having seizures, the nasal spray ended those seizures within 30 seconds.",
+   "his": true
+  },
+  {
+   "s": "You can see it being used on a child in this vid: https://www.youtube.com/watch?v=bgVi5o_2v_w",
+   "his": true
+  }
+ ],
+ "checked": [
+  {
+   "point": "ABRACE is a non-profit patients' association",
+   "found": "Canaltech: \"a associação sem fins lucrativos Abrace Esperança\", supplying its members since 2017 under court authorization; Joel, 17:09 UTC: \"you're right it's a non-profit that's important\"",
+   "still_needed": "yes: it tells the reader how to weigh the next sentence's numbers",
+   "fate": "changed"
+  }
+ ],
+ "placement": "unchanged: the first of the cannabis paragraphs, after P3, where round 7 left it",
+ "questions": {
+  "Q1": "PASS: one word added; each sentence still says its point first",
+  "Q2": "N/A: no instruction in the paragraph",
+  "Q3": "PASS: \"a non-profit patients' association\" says exactly what ABRACE is",
+  "Q4": "PASS: \"non-profit\" acts on \"patients' association\"; nothing else changes",
+  "Q5": "PASS: no connective changed; one adjective added, so no sentence's \"but\", \"so\" or \"they\" moves (E355)",
+  "Q6": "PASS: order unchanged",
+  "Q7": "PASS: Joel named it as what matters about ABRACE; it tells the reader how much to trust the claim",
+  "Q8": "N/A: no groups or tiers",
+  "Q9": "PASS: nothing compressed"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first; a study after the question it answers)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

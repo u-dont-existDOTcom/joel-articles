@@ -1,0 +1,61 @@
+{
+ "readers": [
+  "codex",
+  "haiku",
+  "sonnet"
+ ],
+ "sentences": [
+  "Ask \"music or quiet?\"",
+  "If they want music, keep it low, and if a track starts pulling the experience somewhere unwanted, change it.",
+  "This is a bad time to defend the playlist.",
+  "Offer water without forcing it, and keep it to sips, since a lot of water fast is dangerous on MDMA.",
+  "Speak slowly and use fewer words.",
+  "Please don't explain the universe at somebody who is already frightened by it."
+ ],
+ "flagged": {
+  "1": [],
+  "2": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ],
+  "3": [
+   "haiku",
+   "sonnet"
+  ],
+  "4": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ],
+  "5": [
+   "haiku",
+   "sonnet"
+  ],
+  "6": [
+   "haiku",
+   "sonnet"
+  ]
+ },
+ "agreed": [
+  2,
+  3,
+  4,
+  5,
+  6
+ ],
+ "whole": {
+  "codex": [
+   "Both paragraphs move through practical instructions toward a polished, humorous closing sentence, giving the passage a conspicuously tidy structure. These are weak stylistic clues, not reliable evidence of AI authorship."
+  ],
+  "haiku": [
+   "Most sentences are short imperatives with matching grammar, so the paragraph reads like a tidy checklist ending on a joke, though the MDMA reason and the playlist advice carry a concrete practitioner's voice."
+  ],
+  "sonnet": [
+   "Every sentence is a short, calm imperative, and each of the two mini-paragraphs ends on a small witty kicker, which gives an even, tidy, advice-column rhythm. It is built as a list of tips with a rationale or punchline attached to each, rather than as a voice with its own digressions."
+  ]
+ },
+ "human_clean": [
+  "music or quiet?"
+ ]
+}
