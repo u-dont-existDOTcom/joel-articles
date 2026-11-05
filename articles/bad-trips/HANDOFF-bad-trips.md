@@ -15,6 +15,14 @@ https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/bad-trips
 
 ## START HERE
 
+- **2026-11-05, turn 10 (his research upload of 00:13 UTC on inhaled cannabis for seizures).** Its studies checked on
+  PubMed; last turn's Pangram checks run in his account (13, predictions first: `humanize/h05-checks-20261105/RESULTS.md`).
+  His CBD paragraphs with the video link read Human; my trial sentences and warning-stage paragraph read Human on their
+  second tries; the cannabis paragraph from his research and my first how-to paragraph his way (the movement paragraph)
+  read AI in four tries each, the movement one taking his dangers paragraph to AI with it. Round 6's page, version 2
+  (Bad Trips Guide, Round 6, https://claude.ai/artifact/61WV1ADoZb9fB8oKJkiL6H; cards as text in `review/r06/REVIEW-R06.md`),
+  asks for his versions of those two. **First:** his round-6 answers in; **then** what his movement paragraph does, into
+  the making-sense read, and the next paragraph tried (CURRENT-STATE.md's next step).
 - **2026-11-04, turn 9 (his round-5 answers, sent 22:37 UTC).** Both cards came back with his own versions: the CBD
   paragraph broken into three, and the first five minutes' dangers paragraph ("fully human, super easy"). Both are in
   (`review/r05/apply_r05.py`, three typos fixed, the study links back, the 2025 study gone with his cut). His lessons are

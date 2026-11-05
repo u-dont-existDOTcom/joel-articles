@@ -266,6 +266,66 @@ The boundary mix over all lanes:
 | paragraph | 3 | 2 (67%) | 67% | 33% | 0% | 0.247 (base 0.222, 3) |
 | section | 2 | 1 (50%) | 50% | 50% | 100% | 0.211 (base 0.250, 2) |
 
+## Pangram 4.1 extension (free, live post; Joel's check of 2026-10-18, the same text as his 2026-11-03 paste by SHA-256)
+
+| lane | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
+|---|---|---|---|---|---|---|
+| bad trips guide | 1 | 1 (100%) | 100% | 0% | 0% | 0.000 (base 0.000, 1) |
+| **all lanes** | 1 | 1 (100%) | 100% | 0% | 0% | 0.000 (base 0.000, 1) |
+
+The latest 100 calls of each lane:
+
+| lane | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
+|---|---|---|---|---|---|---|
+| bad trips guide | 1 | 1 (100%) | 100% | 0% | 0% | 0.000 (base 0.000, 1) |
+
+The boundary mix over all lanes:
+
+| scope or kind | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
+|---|---|---|---|---|---|---|
+| article | 1 | 1 (100%) | 100% | 0% | 0% | 0.000 (base 0.000, 1) |
+
+## Pangram web app (his account, Pangram Professional)
+
+| lane | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
+|---|---|---|---|---|---|---|
+| bad trips guide | 3 | 3 (100%) | 100% | 0% | 0% | 0.092 (base 0.000, 3) |
+| **all lanes** | 3 | 3 (100%) | 100% | 0% | 0% | 0.092 (base 0.000, 3) |
+
+The latest 100 calls of each lane:
+
+| lane | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
+|---|---|---|---|---|---|---|
+| bad trips guide | 3 | 3 (100%) | 100% | 0% | 0% | 0.092 (base 0.000, 3) |
+
+The boundary mix over all lanes:
+
+| scope or kind | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
+|---|---|---|---|---|---|---|
+| paragraph | 2 | 2 (100%) | 100% | 0% | 0% | 0.106 (base 0.000, 2) |
+| section | 1 | 1 (100%) | 100% | 0% | 0% | 0.062 (base 0.000, 1) |
+
+## Pangram web app (his account, Pangram Professional), through the Claude desktop app's browser pane
+
+| lane | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
+|---|---|---|---|---|---|---|
+| bad trips guide | 13 | 11 (85%) | 77% | 23% | 38% | 0.182 (base 0.178, 13) |
+| **all lanes** | 13 | 11 (85%) | 77% | 23% | 38% | 0.182 (base 0.178, 13) |
+
+The latest 100 calls of each lane:
+
+| lane | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
+|---|---|---|---|---|---|---|
+| bad trips guide | 13 | 11 (85%) | 77% | 23% | 38% | 0.182 (base 0.178, 13) |
+
+The boundary mix over all lanes:
+
+| scope or kind | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
+|---|---|---|---|---|---|---|
+| paragraph | 8 | 8 (100%) | 75% | 25% | 25% | 0.172 (base 0.188, 8) |
+| pair | 4 | 2 (50%) | 100% | 0% | 50% | 0.239 (base 0.000, 4) |
+| section | 1 | 1 (100%) | 0% | 100% | 100% | 0.040 (base 0.000, 1) |
+
 ## pangram API 4.1
 
 | lane | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
@@ -360,6 +420,8 @@ The boundary mix over all lanes:
 | underrated a plain split | 1 | nibbana article |
 | a neutral signpost reads AI where his casual frame read Human | 1 | nibbana article |
 | a misread page: the caution never read Human | 1 | nibbana article |
+| shape echo | 1 | bad trips guide |
+| parallel frames kept | 1 | bad trips guide |
 | summary-voice-around-owner-lines | 1 | healing the gut article |
 | owner-voice-carries-neighbours | 1 | healing the gut article |
 | opener-and-attribution-asides | 1 | healing the gut article |

@@ -118,6 +118,10 @@ def cards_md(review):
                 out += ['**Until you answer:** %s' % s['stays'], '']
             out += ['**My pick:** %s' % s['advice_note'], '']
             continue
+        if s.get('reading'):
+            out += ['**What Pangram read:** %s' % s['reading'], '']
+        if s.get('tested'):
+            out += ['**Pangram on the suggestion:** %s' % s['tested'], '']
         out += ['**What changes:** %s' % s['what'], '']
         for e in s.get('edits', []):
             out += ['**Now** (the words it changes in bold):', '', '> %s' % marked(e['block'], s['spans']), '']

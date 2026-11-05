@@ -417,6 +417,45 @@
     }
    ],
    "recorded_utc": "2026-11-04T22:40Z"
+  },
+  {
+   "turn": "2026-11-05T00:13Z",
+   "lines_of_work": [
+    "bad trips guide"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "no new items: suggested-fixes/joel-articles/ still holds the two items in docs/suggested-fixes-ledger.md; the root is unchanged at c5c9951 (pulled 00:14 UTC)"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "no pull request merged since 21:13 UTC, so main is unchanged; open: 280 (this lane, pushed 23:00 UTC), 293 (gut, updated 23:42 UTC), 303 (neuro de-armoring); no new issues, comments or reviews since 22:55 UTC (gh api REST)"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "this lane's handoff note and questions page last changed by this session (8cbd9e00, 23:00 UTC); the laptop's handoff note is this session's turn-9 write"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "Joel's message of 00:13 UTC: an attachment only, a research write-up 'Cannabis inhalation for rapid seizure relief: new research' (AskRigor, with forum and YouTube reports); no queued notifications"
+    }
+   ],
+   "items": [
+    {
+     "item": "his research write-up on inhaled cannabis for rapid seizure relief",
+     "outcome": "its studies checked against PubMed; what holds goes into round 6's warning-stage card (SEIZ-WARN), rebuilt as version 2 with it, for the Active Seizure section"
+    },
+    {
+     "item": "the Pangram checks last turn couldn't run (he is here again)",
+     "outcome": "run this turn in Pangram's web app, predictions first: his CBD paragraphs with the video link, round 6's two drafts, the first five minutes' P4"
+    }
+   ],
+   "recorded_utc": "2026-11-05T00:14Z"
   }
  ]
 }

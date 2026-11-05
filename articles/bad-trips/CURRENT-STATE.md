@@ -1,6 +1,6 @@
 # Bad Trips guide: current state
 
-Updated: 2026-11-04 (turn 9, his round-5 answers, sent 22:37 UTC). Registered 2026-11-03 at Joel's message of 15:45 UTC ("start working on humanizing my
+Updated: 2026-11-05 (turn 10, his research upload of 00:13 UTC). Registered 2026-11-03 at Joel's message of 15:45 UTC ("start working on humanizing my
 badtrips guide at badtrips.u-dont-exist.com"; `experiments/t01-answers/JOEL-MESSAGE-20261103-1545.md`).
 
 ## Goal
@@ -148,24 +148,32 @@ dose, unit, timing and warning exactly as it went in, and his post updated with 
   with the note that he may be away and that no other call needing approval should be made until he writes
   again, so the browser routes to his Pangram account (the app's browser pane, Claude in Chrome) weren't tried, and
   round 6's page wasn't published as an artifact; the page went to him as a file, its cards as text on GitHub.
+- 2026-11-05 (turn 10, his upload of 00:13 UTC: "Cannabis inhalation for rapid seizure relief: new research", from AskRigor,
+  saved word for word in `experiments/t09-answers/`): the studies it rests on checked on PubMed from his laptop (Sivakumar et
+  al. 2017, Hegde et al. 2012, Roebuck et al. 2022, Wallace et al. 2003); the Pangram checks of last turn run in his
+  account through the desktop app's browser pane (Claude in Chrome wasn't connected), 13 checks with predictions first
+  (`humanize/h05-checks-20261105/RESULTS.md`; 11 of 13 calls right). His CBD paragraphs with the video link: Human Written,
+  0%, two windows Low (his words; for him on a later page if he wants). The trial sentences: Human on try 2. The warning
+  stage: Human, High, on try 2. The cannabis paragraph from his research: AI in four tries (tell panel after the second);
+  his P3 with my P4: AI in four tries, his P3 included. Round 6's page rebuilt as version 2 (3 cards: CBD-TRIAL,
+  SEIZ-WARN with both paragraphs, MOVE-YOURS for his version; browser test 84 of 84) and published from this account
+  (Bad Trips Guide, Round 6, https://claude.ai/artifact/61WV1ADoZb9fB8oKJkiL6H; db and downloads declared, as the page's
+  answer store and export use them). The scorecards rebuilt.
 
 ## Current checkpoint
 
-- **In progress:** Turn 9: his round-5 versions are in; round 6's two cards (CBD-TRIAL, SEIZ-WARN) are with him; the
-  making-sense read is in the shared rules; the first five minutes' P4 is drafted his way and waits for its check.
-- **Next step (updated on every push, so another account can pick up here):** First, the checks this turn couldn't run,
-  each alone in Pangram's web app with its prediction written first (`pangram_ledger.py predict --detector`; the route
-  per AGENTS.md's paragraph on the API's credits and E356: the app's browser pane, then Claude in Chrome in his Brave;
-  read the gut lane's E353 in pull request 293 before opening tabs in his browser): his CBD paragraphs as they are now
-  (he checked them Human, High, before adding the video link), `humanize/h04-pfa-his-way/P4-D3.txt`, and round 6's two
-  drafts (CBD-TRIAL's sentence, SEIZ-WARN) so his answers come with their readings. Publish round 6's page as an
-  artifact from this account if he hasn't answered from the file. Then the rest of Psychological First Aid one paragraph
-  at a time by `docs/MAKING-SENSE.md` (P5 "Then look at the room ..." next), fixing the next part that doesn't make sense
-  after each check (E361), each paragraph through `tells_lint.py`, `hidden_links.py` and `compare_read.py`, fidelity
-  against `humanize/h01/FIDELITY-KEYS-R05.json`; then the sections by `humanize/SECTION-MAP.md`'s AI High words. His
-  round-6 answers go in with an `apply_r06.py` like round 5's. No whole-guide check until no window already seen reads AI
-  or Low (E354).
-- **Waiting on Joel:** round 6's two cards.
+- **In progress:** Turn 10: round 6 (version 2) is with him: CBD-TRIAL (Human), SEIZ-WARN (the warning stage Human, High;
+  the cannabis paragraph AI after four tries, his to revise), MOVE-YOURS (the first five minutes' movement paragraph, his
+  version asked for after four of mine read AI and took his dangers paragraph with them).
+- **Next step (updated on every push, so another account can pick up here):** His round-6 answers in with an
+  `apply_r06.py` like round 5's (the page's export saved as `review/r06/ANSWERS-R06-*.json`; his versions as he wrote
+  them). Then learn from his MOVE-YOURS version the way `docs/MAKING-SENSE.md` learned from PFA-YOURS: what it does that
+  my four tries (`humanize/h05-checks-20261105/RESULTS.md`) didn't, written into the making-sense read, and tried on the
+  next paragraph of Psychological First Aid (P5, "Then look at the room ..."), one paragraph at a time, a prediction
+  before each check, in his Pangram account (the desktop app's browser pane worked on 2026-11-05; Claude in Chrome
+  wasn't connected). His CBD paragraphs' two Low windows are his words: offer them on a later page only with a fix
+  that keeps his meaning. No whole-guide check until no window already seen reads AI or Low (E354).
+- **Waiting on Joel:** round 6's three cards.
 
 ## Remaining
 
