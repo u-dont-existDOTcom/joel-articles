@@ -2721,6 +2721,11 @@ lane was E368 here; it is in the next section.)
   "HRP"). `sense_receipt.py check` refuses a sentence of mine that explains a term after the text has already used it,
   unless the receipt's `late_ok` says why it can't be explained there.
 
+Joel, 2026-11-05 23:00 UTC, after approving the batch-10 cards written this way: "awesome i'm glad you're
+understanding how to write for pangram finally, make sure that's in the repo for all lanes". So E368 and E369 are also
+where every lane starts: `AGENTS.md`'s workflow, and `SKILL.md`'s "Writing for Pangram: his fixes come first", with
+the before-and-after checks.
+
 (E368 and E369 are the gut lane's. The next lesson in any lane is E370.)
 
 

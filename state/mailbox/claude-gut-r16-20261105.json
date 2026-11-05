@@ -1,0 +1,47 @@
+{
+ "about": "Each turn's mailbox check (tools/humanization/lane_mailbox.py; AGENTS.md, \"Suggested fixes from other projects\"). Newest last.",
+ "places": {
+  "uda-lane": "this repository's lane in universal-dev-architecture (suggested-fixes/joel-articles/), against docs/suggested-fixes-ledger.md",
+  "repo": "new issues and pull requests here, and new comments and reviews on any of them, replies on our own included",
+  "notes": "edits others made to the lane's handoff notes and owner questions pages since its last turn",
+  "runtime": "the messages the session's runtime queued for it"
+ },
+ "checks": [
+  {
+   "turn": "2026-11-05T23:00Z",
+   "lines_of_work": [
+    "gut article",
+    "the Pangram writing lessons for every lane"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "no new items (2026-09-30-claim-checks-for-reviews.md and 2026-10-31-mailbox-every-turn.md, both in the ledger); UDA main still c5c9951, its root AGENTS.md fetched this turn"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "since 19:30 UTC: Joel merged this lane's pull request 293 at 22:56 UTC and the bad trips lane's 307 at 22:53 UTC (this branch starts from main's tip, d8297c1c); open: 278 (Inner Child) and older chat pull requests; no new issue or review comments (gh api REST)"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no edits by anyone else to articles/healing-the-gut since 293"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "no queued notifications"
+    }
+   ],
+   "items": [
+    {
+     "item": "Joel's message of 23:00 UTC: batch-10 answers (F10-1 to F10-3 approved, F10-4 and F10-5 answered), and 'make sure that's in the repo for all lanes'",
+     "outcome": "F10-1 to F10-3 kept as r15 has them; F10-4 and F10-5 worded as r16 and checked, on the batch-11 page; the way to write for Pangram put where every lane starts (AGENTS.md, SKILL.md) and merged to main"
+    }
+   ],
+   "recorded_utc": "2026-11-05T23:03Z"
+  }
+ ]
+}

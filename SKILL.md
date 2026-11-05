@@ -176,6 +176,28 @@ The cold audit is not a substitute for the preservation proof. Preservation unit
 4. `sense_read.py nonwords MASTER.md --known HIS-TEXTS` is the mechanical net under the read, for typos and run-together words.
 5. Read every finding in `FINDINGS-RAW.json` in place and trace whose words it is. Fix a slip in model-written text with the fewest words. A slip in Joel's own words, his published text included, goes to him with the smallest fix and a recommendation, and his answer goes in as he writes it. Record each finding's fate and the recall with the article (the first full record: `articles/inner-signal/humanize/fix-20261103/nonsense/FINDINGS.md`).
 
+## Writing for Pangram: his fixes come first
+
+**Owner rule (Joel, 2026-11-05 23:00 UTC).** After the gut article's term notes and Phase 2 read Human, High once they were written the way he fixes his own windows: "awesome i'm glad you're understanding how to write for pangram finally, make sure that's in the repo for all lanes". What reads as human to Pangram is what reads easily to his readers. Write every new sentence this way, in any lane. On any window below High, make these fixes before any other rewrite (gates E368, E369):
+
+1. **The point first.** Each sentence and each paragraph gives its point before anything the reader has to work through: what to do before the study behind it, what a thing does before the details, a section's aim before whose advice it is. A note never sits between a verb and what it acts on.
+2. **A term is explained once, where it is first used.** Picture a high-school graduate. Enterocytes, zonulin, BPC-157 and FODMAPs get explained; a vitamin doesn't. The explanation goes inside the sentence that first names the term (an appositive, "called X", or a "which" clause). Never a bare "(X)" (E342), and never a sentence after. Make these changes without asking him. Ask only when you can't tell whether such a reader knows the term, or can't explain it without guessing.
+3. **Join what belongs together.** Short sentences that carry one thought become one sentence, the way he writes: "it gets converted into alpha-ketoglutarate, or α-KG, which then goes into the citric acid cycle, which is how the mitochondria make their energy."
+4. **The plain word.** Never a paraphrase to get past the detector: "converted into", not "turned straight into". His words: "it sounded like ai trying to bypass pangram with a paraphrase that looked strangely out of place."
+
+What these fixes did in the gut article (Pangram 4.1, the web app):
+
+| Before | After |
+|---|---|
+| The fuels stretch with his joins and payoffs moved up, but still my "turned straight into": [his check "without that change"](https://www.pangram.com/history/4f7cd93f-1216-4535-84ab-db7fc2d4a8b6) | His final version, with "converted into" and the last span's payoff moved up: ["now it's all high conf human"](https://www.pangram.com/history/07ad8c5f-c603-4c23-8577-92c69846e869) |
+| "Liposomal first-milking colostrum (esp. ...). Colostrum is the first milk a cow makes after giving birth, and liposomal means it comes in tiny fat bubbles that help you absorb it." [AI-Generated, Medium](https://www.pangram.com/history/02aaf3fa-f757-426f-a6c9-0ee74b8ad0fb) | "Liposomal first-milking colostrum, the first milk a cow makes after giving birth, wrapped in tiny fat bubbles that help you absorb it (esp. ...)" [Human, High](https://www.pangram.com/history/7218250e-561f-4d94-bc78-cbeb42cc7b97) |
+| "Zonulin is the molecule released to signal your intestinal tight junctions, the seals between the cells of your gut lining, to open." Human, Medium (same check) | "It's associated clinically with increased levels of zonulin, the molecule released to open your intestinal tight junctions, the seals between the cells of your gut lining." Human, High (same check) |
+| "This is Dr. Michael Ruscio (...) and Dr. Mark Pimentel (...): calm the inflammation down and starve the overgrowths, no harsh chemicals." Phase 2: [AI Detected, 65%](https://www.pangram.com/history/de89477f-ceb5-4762-b6d7-87601979e4d7) | "Once the mechanics work, calm the inflammation down and starve the overgrowths, without any harsh chemicals. This one's from Dr. Michael Ruscio (...) and Dr. Mark Pimentel (...)." [Human, High](https://www.pangram.com/history/c7517cd3-0b56-4a28-b2d0-b8c2de287a48) |
+
+Only after these four, rewrite for a missing link (E355), one small fix at a time (E361). When a stretch fails, narrow it to its paragraphs (E343). Check a paragraph with the one it leans on (E349). The tools hold you to it:
+- `pangram_ledger.py predict` refuses a text of mine that reworks a sentence which read below High until `--first-fix "payoff: ...; join: ...; plain: ..."` says what each fix did.
+- `sense_receipt.py check` refuses a sentence of mine that explains a term after the text has already used it.
+
 ## Relational-thought generation for humanization
 
 For Joel humanization generation, do **not** preallocate one sentence per protected function or assign fixed sentence jobs such as `S1=function A, S2=function B...`. That representation itself can create the model-shaped instructional sequence later criticized as one-function-per-sentence marching.
