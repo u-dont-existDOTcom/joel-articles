@@ -23,7 +23,7 @@ Receipts pass for the three changed stretches (`checks/make_r16.py`): the intro 
 carnivore paragraph before it (16-17), and the Gem section with the note under it (35-36). Predictions are frozen:
 r16-A #172 (Human, 0.75), r16-HRP #173 (Human, 0.65), r16-F #174 (Human, 0.70).
 
-The web-app checks didn't run. At 23:15 UTC Pangram had signed Joel's account out in the desktop app's browser and
+The web-app checks didn't run. During this turn (23:00 to 23:17 UTC), Pangram had signed Joel's account out in the desktop app's browser and
 asked for its "Verify you are human" box, which a session never ticks. They run once he signs in again; the texts are
 `checks/CHECK-r16-*.txt`.
 
@@ -37,4 +37,6 @@ my time"), so the page goes out with the checks.
 
 His "make sure that's in the repo for all lanes": `AGENTS.md`'s workflow and a new `SKILL.md` section, "Writing for
 Pangram: his fixes come first", carry E368 and E369 with the before-and-after checks, in pull request 308. This session's
-permission check refuses a merge into main without review, so Joel merges it.
+permission check refuses a merge into main without review, so Joel merges it. (The two pushes' commit messages give that
+refusal's times as 19:36 and 23:30 UTC. Both were guesses: the first came in the 18:43 turn, the second in this one,
+before 23:17 UTC.)
