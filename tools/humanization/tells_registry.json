@@ -2831,6 +2831,32 @@
    "example": "Trial: UMP 150–300 mg in the morning with food for 3–7 days."
   },
   {
+   "id": "W116",
+   "tell": "\"one ordinary\" (\"we gotta remove \"one ordinary\" anywhere lol so ai\")",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "we gotta remove \"one ordinary\" anywhere lol so ai"
+    }
+   ],
+   "rule": "O46",
+   "example": "When the body wants to move, do one ordinary task you can clearly finish. The kettle takes four minutes to boil."
+  },
+  {
+   "id": "W117",
+   "tell": "\"X does not Y\" (\"let's make sure \"X does not Y\" is changed in general that's super ai, humans don't use that so much\")",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "let's make sure \"X does not Y\" is changed in general that's super ai, humans don't use that so much"
+    }
+   ],
+   "rule": "X1",
+   "example": "The barn roof was patched in May. Urgency does not make a ladder safe, so we waited for the dry week."
+  },
+  {
    "id": "W118",
    "tell": "a negation, then its contrast as a new sentence (\"You can't tell from this whether X. It does suggest that Y.\"), where his version joins them with \", but\"",
    "kind": "mechanical",
@@ -2911,6 +2937,19 @@
    ],
    "rule": "O67",
    "example": "Start with 50 mg at night for two nights."
+  },
+  {
+   "id": "W122",
+   "tell": "a study opened bare (\"In a 12-week trial, ...\", \"In one study of ...\", \"A 2025 study found ...\"), before the reader knows what question it answers",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "docs/HUMANIZATION-GATE.md",
+     "quote": "don't ever say \"In one study...\" you need to INTRODUCE so that people understand WHY they are reading this stuff"
+    }
+   ],
+   "rule": "O68",
+   "example": "In a 12-week trial, a CBD skin gel reached the blood at levels like oral CBD's but did no better than placebo."
   }
  ]
 }

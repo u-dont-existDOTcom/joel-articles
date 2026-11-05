@@ -1,0 +1,210 @@
+{
+ "schema_version": 1,
+ "article": "GUIDE-SO-FAR.md",
+ "how": [
+  "Every edit Joel gives goes in here the same turn, with his words and the strings the guide must (or must not) contain once it's done. Status pending until the guide has it; then applied.",
+  "tools/humanization/check_owner_edits.py checks every entry against GUIDE-SO-FAR.md; render_article_so_far.py runs it on every render.",
+  "His words of 2026-11-03 18:59 UTC are in experiments/t01-answers/JOEL-MESSAGE-20261103-1859.md; those of 22:04 and 22:05 UTC in experiments/t01-answers/JOEL-MESSAGE-20261103-2204.md; his round-2 answers of 2026-11-04 10:26 UTC in review/r02/ANSWERS-R02-20261104-1026.json; his message of 2026-11-04 11:35 UTC in experiments/t04-answers/JOEL-MESSAGE-20261104-1135.md. His round-5 answers (exported 2026-11-04 22:14 UTC, sent 22:37 UTC) in review/r05/ANSWERS-R05-20261104-2214.json, his message in experiments/t08-answers/JOEL-MESSAGE-20261104-2237.md."
+ ],
+ "entries": [
+  {
+   "id": "rp4-gut-line",
+   "status": "applied",
+   "what": "RP-4 his way: the hierarchy's last paragraph goes, his line stays in his words",
+   "joel": "18:59: \"rp-4 approve yes i want to keep the gut driven mental hell line altho i'd change it to sound more human: \\\"A gut-driven mental hell is often mistaken as shadow work\\\"\"",
+   "must_contain": [
+    "A gut-driven mental hell is often mistaken as shadow work."
+   ],
+   "must_not_contain": [
+    "A gut-driven mental hell is not automatically shadow work"
+   ]
+  },
+  {
+   "id": "q1-smell-first",
+   "status": "applied",
+   "what": "Q-1 (a): the Core Order's first step says to smell humic acid first",
+   "joel": "18:59: \"q-1 smell it first for sure, that's like an allergy test\"",
+   "must_contain": [
+    "Smell humic acid first; if that doesn't help, take a 5mg lick of it."
+   ],
+   "must_not_contain": [
+    "Smell humic acid, take a 5mg lick of it."
+   ]
+  },
+  {
+   "id": "q4-note-quote",
+   "status": "applied",
+   "what": "Q-4 (a): the lengths stay; Alone at 3 a.m. quotes the note as it is",
+   "joel": "18:59: \"q-4 a\"",
+   "must_contain": [
+    "No big actions until morning"
+   ],
+   "must_not_contain": [
+    "No actions until morning"
+   ]
+  },
+  {
+   "id": "q5-room-first",
+   "status": "applied",
+   "what": "Q-5 (a): room before body in all four places",
+   "joel": "18:59: \"q-5 a\"",
+   "must_contain": [
+    "room → body → human → time → meaning",
+    "room → body → human → time.",
+    "Then return to room, body, human, time, and love."
+   ],
+   "must_not_contain": [
+    "body → room",
+    "return to body, room"
+   ]
+  },
+  {
+   "id": "q7-charcoal-sentence",
+   "status": "applied",
+   "what": "Q-7 (b): step 12's charcoal sentence goes",
+   "joel": "18:59: \"q-7 b\"",
+   "must_not_contain": [
+    "Charcoal belongs only in the separate recent-oral-ingestion branch."
+   ]
+  },
+  {
+   "id": "rp13-cut",
+   "status": "applied",
+   "what": "RP-13: he overruled my leave",
+   "joel": "18:59: \"rp-13 remove it\"",
+   "must_not_contain": [
+    "No entity, deity, demon, ancestor, angel, algorithm, mission, kundalini surge, or insight overrides basic safety."
+   ]
+  },
+  {
+   "id": "st1-a",
+   "status": "applied",
+   "what": "ST-1 A: the checklist keeps each step's heading and one or two of his lines with a link; the Longer Triage goes",
+   "joel": "18:59: \"st-1a\"",
+   "must_not_contain": [
+    "The Longer Triage: What Kind of Trouble Is This?"
+   ],
+   "applied_by": "his OK on all of round 2's cards (2026-11-04 10:26 UTC), put in by review/r02/apply_r02.py"
+  },
+  {
+   "id": "q3-harmalas",
+   "status": "applied",
+   "what": "Q-3: DMSO with harmalas, in his words",
+   "joel": "18:59: \"don't put the harmala in the dmso or take them exactly at the same time, but it's totally fine to take them a bit apart\"",
+   "must_contain": [
+    "don't put the harmala in the DMSO or take them at exactly the same time"
+   ],
+   "applied_by": "his OK on AN-Q3a (2026-11-04 10:26 UTC), put in by review/r02/apply_r02.py"
+  },
+  {
+   "id": "q3-bleed",
+   "status": "applied",
+   "what": "Q-3: a possible bleed, in his words",
+   "joel": "18:59: \"if someone is worried about a bleed, i'd prob skip dmso but it depends on how severe their issue is\"",
+   "must_contain": [
+    "If someone is worried about a bleed, I'd probably skip DMSO"
+   ],
+   "applied_by": "his OK on AN-Q3b (2026-11-04 10:26 UTC), put in by review/r02/apply_r02.py"
+  },
+  {
+   "id": "q6-ocean",
+   "status": "applied",
+   "what": "Q-6 (b): how ocean water and charcoal water differ, in his words",
+   "joel": "18:59: \"i feel like the ocean water can reduce the intesnity of the trip a bit more than the ozonated charcoal water\"",
+   "must_not_contain": [
+    "These work similarly to ocean water."
+   ],
+   "applied_by": "his OK on AN-Q6 (2026-11-04 10:26 UTC), put in by review/r02/apply_r02.py"
+  },
+  {
+   "id": "q1-doses",
+   "status": "applied",
+   "what": "Q-1: try the remedies in low, increasing doses before a crisis, in his words",
+   "joel": "18:59: \"in general it's good to try all these things in very low, increasing doses before they are needed in crisis.\"",
+   "must_contain": [
+    "try all these things in very low, increasing doses before they are needed in crisis"
+   ],
+   "applied_by": "his OK on AN-Q1 (2026-11-04 10:26 UTC), put in by review/r02/apply_r02.py"
+  },
+  {
+   "id": "one-ordinary",
+   "status": "applied",
+   "what": "\"one ordinary\" goes everywhere (the last one is checklist step 4's \"one boring ordinary task\")",
+   "joel": "18:59: \"we gotta remove \\\"one ordinary\\\" anywhere lol so ai\"",
+   "must_not_contain": [
+    "one boring ordinary task",
+    "one ordinary"
+   ],
+   "applied_by": "CL-4 (his OK, 2026-11-04 10:26 UTC) cut checklist step 4's list, the guide's last \"one ordinary\""
+  },
+  {
+   "id": "x-does-not-y",
+   "status": "pending",
+   "what": "\"X does not Y\" statements changed in general (tells_lint.py X1 lists them: 65 in the guide after round 1)",
+   "joel": "18:59: \"let's make sure \\\"X does not Y\\\" is changed in general that's super ai, humans don't use that so much\"",
+   "waits_for": "the humanize pass, after round 2"
+  },
+  {
+   "id": "ai-quips",
+   "status": "pending",
+   "what": "AI quips removed or humanized",
+   "joel": "18:59: \"so many ai quips, we gotta remove or humanize those\"",
+   "waits_for": "the humanize pass, after round 2"
+  },
+  {
+   "id": "sf8-dmso-blood-thinner",
+   "status": "applied",
+   "what": "DMSO's blood-thinner interaction line goes (round 2's card SF-8; the evidence behind it is lab work, and no study of bleeding in people taking DMSO turned up)",
+   "joel": "22:04: \"hm so maybe we could remove the blood thinner dmso warning\"",
+   "must_not_contain": [
+    "Don’t combine it with blood-thinning medication because DMSO also thins the blood."
+   ],
+   "applied_by": "his OK on SF-8 (2026-11-04 10:26 UTC), put in by review/r02/apply_r02.py"
+  },
+  {
+   "id": "checklist-to-app",
+   "status": "applied",
+   "what": "the Quick Bad Trip Checklist moves out of the guide to the web app once the app's version 9 (or 8), which matches the guide, is live (the guide's first line already links to the app); the four lines that point to the checklist ('The checklist above', 'The quick checklist above', 'the acute checklist', 'use the checklist first') then point to the app",
+   "joel": "11:35: \"rewrite web app to match the guide if you can, but if you're blockewd by guardrails then keep checlist int he guide yeah\"; 14:25: \"i'm updating the triage app now (with gpt who knows how to update it on my netcup vps)\"",
+   "must_not_contain": [
+    "# Quick Bad Trip Checklist"
+   ],
+   "applied_by": "review/r04/apply_r04.py, 2026-11-04 (turn 8): the live page showed data-version 2026-11-04-v9 at 14:59 UTC, its widget byte for byte APP-V9-20261104.html; the four pointers are round 4's APP-1 to APP-4, approved"
+  },
+  {
+   "id": "post-when-finished",
+   "status": "pending",
+   "what": "his post is updated only once the work is finished, with the title's version and date (gate E323)",
+   "joel": "11:35: \"don't need to update the post until we finish\"",
+   "waits_for": "the end of the humanize pass"
+  },
+  {
+   "id": "r05-cbd-his-version",
+   "status": "applied",
+   "what": "CBD-YOURS: his three CBD paragraphs, as he wrote them (typo \"a rats\" fixed), with the study links on the words that name them",
+   "joel": "22:14: \"i broke it up, fixed the first part ...\" (his version in the answers file); \"now it's fully human high conf\"",
+   "must_contain_exact": [
+    "consider topical DMSO with a known-genuine CBD preparation as adjuncts (a lot of CBD is fake or very dilute).",
+    "Seizures come in all different types, and we have no study on whether CBD could be a rescue remedy for a seizure",
+    "And topical CBD hasn't been well-studied.",
+    "I'd treat it as a plausible experimental adjunct remedy rather than something to wait on while a seizure continues."
+   ],
+   "must_not_contain": [
+    "focal seizures fell by about half to three quarters over nearly three years",
+    "In a [2025 study]"
+   ]
+  },
+  {
+   "id": "r05-pfa-his-version",
+   "status": "applied",
+   "what": "PFA-YOURS: his dangers paragraph for the first five minutes (\"take priority\" fixed to \"takes priority\")",
+   "joel": "22:14: \"fully human, super easy\"",
+   "must_contain_exact": [
+    "Anything that could let someone hurt themselves in the next five minutes takes priority, so get the car keys out of reach and turn the stove off, and move them away from roads and balconies, or pools of water for that matter."
+   ],
+   "must_not_contain": [
+    "Begin with whatever could hurt somebody in the next five minutes."
+   ]
+  }
+ ]
+}

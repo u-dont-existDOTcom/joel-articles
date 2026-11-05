@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "article_id": "bad-trips",
+  "status": "recorded",
+  "note": "Pangram results for this guide are in humanize/pangram-ledger.jsonl and each check's notes (humanize/baseline-20261103/), every check with its link once he sends it. They are run-specific evidence, not certification, and they do not outrank meaning, the remedies' fidelity or Joel's decisions.",
+  "runs": [
+    {
+      "run_id": "baseline-20261018-extension",
+      "detector": "Pangram 4.1 (Joel's browser extension, free)",
+      "checked_at": "2026-10-18T19:54:15Z",
+      "read_at": "2026-11-03T19:10Z",
+      "link": "https://www.pangram.com/feed/641b28b6-3d93-4f96-98e0-ca336769cd76",
+      "text": "the published post's checked text, 85,792 characters, SHA-256 8b869a0001bfe5318b366f60592a9333403e6cf04d5494d79b08fc4527b30c34, which is exactly the text rebuilt from his paste of 2026-11-03 (tools/humanization/substack_check_text.py)",
+      "headline": "AI Detected",
+      "fraction_ai": 0.8203,
+      "fraction_human": 0.1633,
+      "document_confidence": "Low (boundary ai)",
+      "windows": "189: AI 147 (High 55, Medium 52, Low 40; 7 AI-Assisted), Human 42 (High 17, Medium 12, Low 13)",
+      "files": [
+        "humanize/baseline-20261103/RESULT-20261018.json",
+        "humanize/baseline-20261103/WINDOWS.txt",
+        "humanize/baseline-20261103/META.json"
+      ],
+      "ledger": "humanize/pangram-ledger.jsonl (prediction 'bad-trips whole guide, published v5.5#1': AI at 2%, right)"
+    }
+  ]
+}

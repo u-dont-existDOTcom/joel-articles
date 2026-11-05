@@ -45,6 +45,12 @@
    "legacy": []
   },
   {
+   "lane": "bad trips guide",
+   "article": "bad-trips",
+   "ledger": "articles/bad-trips/humanize/pangram-ledger.jsonl",
+   "legacy": []
+  },
+  {
    "lane": "healing the gut article",
    "article": "healing-the-gut",
    "ledger": "articles/healing-the-gut/humanize/pangram-ledger.jsonl",

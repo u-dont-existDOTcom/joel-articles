@@ -1,0 +1,303 @@
+{
+ "detector": "Pangram web app (his account, Pangram Professional), through the Claude desktop app's browser pane",
+ "results": {
+  "bt-cbd-his-r05": {
+   "uuid": "01b892a4-ee16-4f06-bb77-52090f1aa4e7",
+   "at": "2026-11-05T00:18:28Z",
+   "headline": "Human Written",
+   "ai": 0.0,
+   "words": 214,
+   "windows": [
+    [
+     "Human",
+     "High",
+     83,
+     "I would also use topical magnesium chloride ... Lennox-Gastaut syndrome, Dravet syndrome and tuberous sclerosis complex."
+    ],
+    [
+     "Human",
+     "Low",
+     14,
+     "For focal seizures outside those syndromes, the evidence is mixed, but still long-term."
+    ],
+    [
+     "Human",
+     "High",
+     97,
+     "And topical CBD hasn't been well-studied. ... in an absence-epilepsy model."
+    ],
+    [
+     "Human",
+     "Low",
+     20,
+     "I'd treat it as a plausible experimental adjunct remedy rather than something to wait on while a seizure continues."
+    ]
+   ]
+  },
+  "bt-r06-trial": {
+   "uuid": "fc22bbd5-30f8-44fe-a91f-0558402a2430",
+   "at": "2026-11-05T00:18:38Z",
+   "headline": "Human Written",
+   "ai": 0.01,
+   "words": 105,
+   "windows": [
+    [
+     "Human",
+     "High",
+     32,
+     "And topical CBD hasn't been well-studied. There was a short 12-week trial done, where they used a CBD skin gel, and it didn't do any better than placebo."
+    ],
+    [
+     "Human",
+     "Medium",
+     41,
+     "The gel got CBD into the blood at about the levels of the starting oral dose, 5 to 10mg/kg. The approved oral doses go up to 20 or 25mg/kg a day, so the dosing may have been too low."
+    ],
+    [
+     "Human",
+     "Low",
+     32,
+     "Transdermal CBD also skips the liver's first pass, so less of it gets converted to 7-OH-CBD, a form that stopped seizures in mice about as well as CBD itself."
+    ]
+   ]
+  },
+  "bt-r06-warn-a": {
+   "uuid": "f6fce8a6-b90d-4e4d-82f7-158db03e8ca8",
+   "at": "2026-11-05T00:18:48Z",
+   "headline": "AI Detected",
+   "ai": 0.26,
+   "words": 112,
+   "windows": [
+    [
+     "AI-Generated",
+     "Low",
+     33,
+     "Some people feel a seizure coming before it takes hold, and in that warning a few things people report can still stop it for some of them, depending on what sets it off."
+    ],
+    [
+     "Human",
+     "Medium",
+     79,
+     "If it's flashing or flickering light, ... a cool, quiet, dark and comfortable space can help."
+    ]
+   ]
+  },
+  "bt-r06-warn-b": {
+   "uuid": "d0c33c95-5464-4a8f-8b75-28eaedc6e4c8",
+   "at": "2026-11-05T00:18:58Z",
+   "headline": "AI Generated",
+   "ai": 1.0,
+   "words": 89,
+   "windows": [
+    [
+     "AI-Generated",
+     "High",
+     23,
+     "Some people with epilepsy smoke or vape cannabis the moment an aura starts, and they say it keeps the seizure from going further."
+    ],
+    [
+     "AI-Generated",
+     "Medium",
+     13,
+     "One woman's EEG showed fewer seizure discharges on the days she smoked."
+    ],
+    [
+     "AI-Generated",
+     "High",
+     53,
+     "Other people say THC vapes and concentrates brought their seizures on, though. ... never for someone who's already convulsing."
+    ]
+   ]
+  },
+  "bt-pfa-P3P4-D3": {
+   "uuid": "0993c7c4-386c-4a5b-821b-f15f3beb738d",
+   "at": "2026-11-05T00:19:09Z",
+   "headline": "AI Generated",
+   "ai": 1.0,
+   "words": 111,
+   "windows": [
+    [
+     "AI-Generated",
+     "High",
+     42,
+     "Anything that could let someone hurt themselves ... or pools of water for that matter."
+    ],
+    [
+     "AI-Generated",
+     "Medium",
+     31,
+     "Put any weapons away ... take the phone."
+    ],
+    [
+     "AI-Generated",
+     "High",
+     28,
+     "Letting them move around is fine, and pacing can help, but keep them from taking more of anything. If they want to go confront somebody, that can wait."
+    ],
+    [
+     "AI-Generated",
+     "Medium",
+     10,
+     "And if they want to leave, someone goes with them."
+    ]
+   ]
+  },
+  "bt-r06-trial-T2": {
+   "uuid": "b50d4304-fb72-49b6-a5cf-b55f1fd269a7",
+   "at": "2026-11-05T00:21:45Z",
+   "headline": "Human Written",
+   "ai": 0.0,
+   "words": 125,
+   "windows": [
+    [
+     "Human",
+     "High",
+     32
+    ],
+    [
+     "Human",
+     "Medium",
+     20
+    ],
+    [
+     "Human",
+     "High",
+     21
+    ],
+    [
+     "Human",
+     "Medium",
+     18
+    ],
+    [
+     "Human",
+     "High",
+     34
+    ]
+   ]
+  },
+  "bt-r06-warn-a2": {
+   "uuid": "9b155e42-fc18-433e-9eb8-e53c737cbc50",
+   "at": "2026-11-05T00:21:56Z",
+   "headline": "Human Written",
+   "ai": 0.0,
+   "words": 112,
+   "windows": [
+    [
+     "Human",
+     "High",
+     112
+    ]
+   ]
+  },
+  "bt-r06-warn-b2": {
+   "uuid": "ce0a18e3-fcf7-4e9c-bd45-8b96081343d9",
+   "at": "2026-11-05T00:22:06Z",
+   "headline": "AI Generated",
+   "ai": 1.0,
+   "words": 100,
+   "windows": [
+    [
+     "AI",
+     "Medium",
+     24
+    ],
+    [
+     "AI",
+     "Low",
+     42
+    ],
+    [
+     "AI",
+     "Medium",
+     16
+    ],
+    [
+     "AI",
+     "High",
+     18
+    ]
+   ]
+  },
+  "bt-pfa-P3P4-D4": {
+   "uuid": "f1b3e3bb-30f2-4399-8398-82bd3998b413",
+   "at": "2026-11-05T00:22:16Z",
+   "headline": "AI Generated",
+   "ai": 1.0,
+   "words": 141,
+   "windows": [
+    [
+     "AI",
+     "High",
+     141
+    ]
+   ]
+  },
+  "bt-r06-warn-b3": {
+   "uuid": "a93d2e44-7bfa-4308-b7f7-762fb9997b9b",
+   "at": "2026-11-05T00:26:52Z",
+   "headline": "AI Generated",
+   "ai": 1.0,
+   "words": 105,
+   "windows": [
+    [
+     "AI",
+     "Medium",
+     24
+    ],
+    [
+     "AI",
+     "High",
+     17
+    ],
+    [
+     "AI",
+     "Medium",
+     64
+    ]
+   ]
+  },
+  "bt-pfa-P3P4-D5": {
+   "uuid": "525ce8ca-ff4d-49cd-a47f-6304b4217035",
+   "at": "2026-11-05T00:27:03Z",
+   "headline": "AI Generated",
+   "ai": 1.0,
+   "words": 132,
+   "windows": [
+    [
+     "AI",
+     "High",
+     132
+    ]
+   ]
+  },
+  "bt-r06-warn-b4": {
+   "uuid": "7e0bcdff-ef6d-432e-842f-24d7a0c30df8",
+   "at": "2026-11-05T00:28:02Z",
+   "headline": "AI Generated",
+   "ai": 1.0,
+   "words": 101,
+   "windows": [
+    [
+     "AI",
+     "Medium",
+     101
+    ]
+   ]
+  },
+  "bt-pfa-P3P4-D6": {
+   "uuid": "60fb8654-35a6-479d-b242-a9ee25f68002",
+   "at": "2026-11-05T00:28:13Z",
+   "headline": "AI Generated",
+   "ai": 1.0,
+   "words": 134,
+   "windows": [
+    [
+     "AI",
+     "High",
+     134
+    ]
+   ]
+  }
+ }
+}

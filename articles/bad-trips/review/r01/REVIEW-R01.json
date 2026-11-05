@@ -1,0 +1,1280 @@
+{
+ "format": "joel-suggestion-review-v1",
+ "review_id": "bad-trips-r01",
+ "title": "Bad Trips Guide, Round 1",
+ "intro": [
+  "This is your whole Bad Trips guide as it is published today (it matches the editor HTML you pasted, block for block), with my suggestions marked where they apply. Nothing changes until you approve it.",
+  "The first card is the one big question: how the quick version and the long version split the work. Most of the repetition is between the checklist, the Longer Triage and the long sections, so those cuts wait for your answer. The other cards are repeats and safety lines inside the long part, which come out whichever way you answer, and eight questions only you can answer (in six of them the guide says two things that don't fit together). Three fresh readers read the whole guide for this, two for repeats and one for safety lines; the cards come from my read and their reports, and every quote on them was checked against your text.",
+  "Pangram (your extension, on the published post) reads the guide as AI overall. The full analysis didn't open from here, so there are no window readings on this page yet. Humanizing starts once the structure is settled, so no work goes into paragraphs that are about to be cut."
+ ],
+ "git_file": "articles/bad-trips/review/r01/REVIEW-R01.html",
+ "article": {
+  "file": "articles/bad-trips/original-page.md",
+  "sha256": "98c77462a747b0643efae1b5e41398556340b8728554da398435520dde1d6a3f"
+ },
+ "built": "2026-11-03",
+ "links": {
+  "guide": "https://ibogaqueen.substack.com/p/shadow-work-and-tripsitting-yourself",
+  "guide_label": "the guide as published",
+  "review": "https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261103/articles/bad-trips/review/r01/REVIEW-R01.md"
+ },
+ "types": {
+  "structure": {
+   "label": "Structure",
+   "about": "how the quick version and the long version split the guide, and where a part goes"
+  },
+  "repeat": {
+   "label": "Said twice",
+   "about": "a point the guide already makes elsewhere: one copy goes, the other stays"
+  },
+  "safety": {
+   "label": "Safety in one place",
+   "about": "a caution or call-for-help line said in several places, or one that changes nothing a reader does"
+  },
+  "question": {
+   "label": "Your call",
+   "about": "something only you can decide or know"
+  }
+ },
+ "suggestions": [
+  {
+   "id": "ST-1",
+   "type": "structure",
+   "advice": "ask",
+   "title": "How should the quick and long versions split the work?",
+   "question": "A (my pick): the Quick Bad Trip Checklist stays at the top, but each step becomes its heading and one or two of your own lines saying what to do, with a link to its section below. Step 1 keeps its danger signs in full, since someone in an emergency shouldn't have to click. Everything else is said once, in the long part. The Longer Triage goes: its paragraphs that aren't said anywhere else (the emergency room isn't magic; the body writing the horror story; love isn't stubbornness) move to the sections they belong to. B: keep today's order (checklist, Longer Triage, outside help, medical rescue, remedies, tripsitting, the shadow-work essays) and only cut the repeats inside it, keeping the fuller copy each time. C: take the quick version out of the post, since the web app at ibogaqueen.com/1625-2/ already is one, and open the post with a short \"In a crisis right now?\" box: the danger signs, the brain-damage branch and the link to the app.",
+   "why": "Most of the guide's advice is told three or four times: in the checklist (15 steps), in the Longer Triage (5 questions), and again in the long sections. The brain-damage order is told six times, \"I do not yet have data that pes-caprae aborts MDMA\" five times, the support lines three times, and one 38-word quote (\"I hear how vast and certain this feels...\") twice word for word. A quick version that only points to the long part lets each thing be said once.",
+   "stays": "Whichever you pick, each checklist step keeps its heading and its first action in your words, and every paragraph that goes is listed with the place that already says it.",
+   "advice_note": "A: it keeps the quick read you want and takes out the third and fourth tellings. B leaves most of the repetition between the checklist and the long part. C makes the post depend on the web app for the quick version. With A, the next page shows the new checklist in full, step by step, for your OK.",
+   "spans": [
+    {
+     "block": 3,
+     "start": 0,
+     "end": 24
+    },
+    {
+     "block": 80,
+     "start": 0,
+     "end": 48
+    }
+   ],
+   "card_after": 4
+  },
+  {
+   "id": "RP-1",
+   "type": "repeat",
+   "advice": "approve",
+   "title": "The brain-damage order, told twice in the long part",
+   "what": "The numbered Core Order list moves up into \"If Someone Says “My Brain Feels Damaged”\", in place of the paragraph that says the same steps in prose (\"After DMSO, the second move depends on the drug...\"). The list's heading (\"The Core Order When the Brain Feels Damaged\") and the paragraph after it (\"After medical danger, environment, dose...\") go. Item 4 drops its last sentence, which the beach morning glory section says (\"I do not yet have data showing that pes-caprae aborts MDMA\").",
+   "why": "The section and the list give the same five steps (DMSO first, check the symptoms, pes-caprae for a psychedelic, magnesium for MDMA, medics in parallel), in two sections a few screens apart. The list is quicker to follow in a crisis and has one thing the prose doesn't (the Metta NMT sniffer). The paragraph after the list says the remedies are done (\"After medical danger ... have been considered\"), but the remedies come after it; \"That finishes the rescue-chemistry side of the guide\" already does that job at the right place.",
+   "stays": "The section keeps its reasons and evidence: why you take the report seriously, the checks, the stroke studies, and the treatment-window warning with \"while someone calls medics\".",
+   "deciding": "Whether you'd rather keep the prose and drop the list (then the sniffer goes into the prose).",
+   "advice_note": "Approve: the list is your clearest version, and it sits where a reader in trouble looks.",
+   "found_by": "my read; readers A and B",
+   "edits": [
+    {
+     "block": 135,
+     "before": "After DMSO, the second move depends on the drug. With a psychedelic, a serious brain-damage feeling changes the objective from calming the trip to stopping it: I would use Ipomoea pes-caprae as the next move. With MDMA, I would move instead to magnesium chloride and the broader electrolyte branch. I do not yet have evidence that pes-caprae aborts MDMA.",
+     "after": ""
+    },
+    {
+     "block": 182,
+     "before": "The Core Order When the Brain Feels Damaged",
+     "after": ""
+    },
+    {
+     "block": 186,
+     "before": "If this is MDMA, move to magnesium chloride and the broader electrolyte branch instead. I do not yet have data that pes-caprae aborts MDMA.",
+     "after": "If this is MDMA, move to magnesium chloride and the broader electrolyte branch instead."
+    },
+    {
+     "block": 188,
+     "before": "After medical danger, environment, dose, gut toxicity, electrolytes, and biochemical overload have been considered, we can return to the deeper question: is this sorrow, fear, shame, inner-child material, demons, jinn, shadow thoughts, or a mind learning to love what it previously exiled?",
+     "after": ""
+    }
+   ],
+   "moves": [
+    {
+     "blocks": [
+      183,
+      184,
+      185,
+      186,
+      187
+     ],
+     "before": 136,
+     "seq": 1
+    }
+   ],
+   "spans": [
+    {
+     "block": 135,
+     "start": 0,
+     "end": 354
+    },
+    {
+     "block": 182,
+     "start": 0,
+     "end": 43
+    },
+    {
+     "block": 186,
+     "start": 88,
+     "end": 139
+    },
+    {
+     "block": 188,
+     "start": 0,
+     "end": 289
+    }
+   ],
+   "card_after": 135
+  },
+  {
+   "id": "RP-2",
+   "type": "repeat",
+   "advice": "approve",
+   "title": "Beach morning glory repeats the brain-damage order",
+   "what": "\"When somebody says their brain feels damaged, I am not interested in merely calming the experience anymore. I use DMSO first, then pes-caprae to terminate the psychedelic state.\" goes.",
+   "why": "It is the brain-damage order again, told inside the plant's own section; the section on the brain-damage feeling gives it with the steps around it.",
+   "stays": "The plant's section keeps that it is your sledgehammer for stopping a psychedelic trip, the dose warning, the woman you gave it to, and that you have no data on MDMA.",
+   "deciding": "Whether a reader who lands on this section first needs the reminder of when to use it.",
+   "advice_note": "Approve.",
+   "found_by": "my read; readers A and B",
+   "edits": [
+    {
+     "block": 223,
+     "before": "When somebody says their brain feels damaged, I am not interested in merely calming the experience anymore. I use DMSO first, then pes-caprae to terminate the psychedelic state.",
+     "after": ""
+    }
+   ],
+   "spans": [
+    {
+     "block": 223,
+     "start": 0,
+     "end": 177
+    }
+   ]
+  },
+  {
+   "id": "SF-1",
+   "type": "safety",
+   "advice": "approve",
+   "title": "When to call for help, in one section",
+   "what": "\"When Peer Support Isn't Enough\" moves, with two of its three paragraphs (when to get urgent help; local emergency services, 988 and 911), from the tripsitting part up into \"When to Bring In Outside Help\", as its third part, under its own heading at the same level as the other two. Its middle paragraph (\"“I might kill someone to test this theory” is a safety signal, rather than merely philosophical content.\") goes: the harm section says it with its own example (\"Treat the statement as a safety signal\"). The mental-health list's first item (\"The person may be unsafe to themselves or others.\") goes, since the moved paragraph says it with the details.",
+   "why": "Today the guide lists when to call for help in about seven places (checklist steps 1 and 9, the Longer Triage, the two lists here, When Peer Support Isn't Enough, and the harm section). You asked for the safety lines in one spot: this puts the medics list, the mental-health list and the urgent-help paragraph together where a reader looks for them.",
+   "stays": "The danger signs in checklist step 1, and the call-for-help lines inside each emergency (the seizure's five minutes, the chest-pain line, serotonin syndrome, the harm script), stay where the reader acts on them.",
+   "deciding": "Whether the tripsitting part should keep a one-line pointer to this section where the heading was.",
+   "advice_note": "Approve.",
+   "found_by": "my read; reader C",
+   "inserts": [
+    {
+     "before": 126,
+     "kind": "h2",
+     "text": "When Peer Support Isn’t Enough",
+     "seq": 1
+    }
+   ],
+   "moves": [
+    {
+     "blocks": [
+      338,
+      340
+     ],
+     "before": 126,
+     "seq": 2
+    }
+   ],
+   "edits": [
+    {
+     "block": 337,
+     "before": "When Peer Support Isn’t Enough",
+     "after": ""
+    },
+    {
+     "block": 339,
+     "before": "“I might kill someone to test this theory” is a safety signal, rather than merely philosophical content.",
+     "after": ""
+    },
+    {
+     "block": 119,
+     "before": "The person may be unsafe to themselves or others.",
+     "after": ""
+    }
+   ],
+   "spans": [
+    {
+     "block": 337,
+     "start": 0,
+     "end": 30
+    },
+    {
+     "block": 339,
+     "start": 0,
+     "end": 104
+    },
+    {
+     "block": 119,
+     "start": 0,
+     "end": 49
+    }
+   ],
+   "card_after": 125
+  },
+  {
+   "id": "SF-2",
+   "type": "safety",
+   "advice": "leave",
+   "title": "The seizure and chest-pain thresholds, in the list and in their sections",
+   "what": "A reader would cut \"Call medics for a convulsive seizure lasting about five minutes...\" from Active Seizure, since the medics list says the same seizure line (and the chest-pain section's thresholds repeat the list's chest-pain line).",
+   "why": "Someone in the middle of a seizure or a chest-pain scare is reading that section, not the list: the threshold changes what they do right there. The list is for scanning before anything happens.",
+   "stays": "Both stay as they are, unless you say otherwise.",
+   "deciding": "Whether two places is one too many for these two thresholds.",
+   "advice_note": "Leave: each is where the reader acts on it, which is your rule for safety lines.",
+   "found_by": "reader B",
+   "edits": [
+    {
+     "block": 140,
+     "before": "Call medics for a convulsive seizure lasting about five minutes, repeated seizures without normal recovery, trouble breathing, dangerous heat, serious injury, a first seizure, or a seizure substantially different from the person’s known pattern.",
+     "after": ""
+    }
+   ],
+   "spans": [
+    {
+     "block": 140,
+     "start": 0,
+     "end": 245
+    }
+   ]
+  },
+  {
+   "id": "RP-3",
+   "type": "repeat",
+   "advice": "approve",
+   "title": "\"Medics in parallel\", said again",
+   "what": "\"Some branches call for medics in parallel. Others describe severe but physiologically stable altered states where a fast field remedy may be more useful than waiting hours to be given a generic sedative.\" goes from the opening of My Acute Rescue Hierarchy.",
+   "why": "\"An emergency means act now...\", which opens the section before (Acute Medical and Neurological Rescue), says both.",
+   "stays": "The hierarchy's first sentence stays: it is for acute situations, not merely uncomfortable trips.",
+   "deciding": "None that I can see.",
+   "advice_note": "Approve.",
+   "found_by": "my read",
+   "edits": [
+    {
+     "block": 178,
+     "before": "This hierarchy is for acute situations, including emergencies—not merely uncomfortable trips. Some branches call for medics in parallel. Others describe severe but physiologically stable altered states where a fast field remedy may be more useful than waiting hours to be given a generic sedative.",
+     "after": "This hierarchy is for acute situations, including emergencies—not merely uncomfortable trips."
+    }
+   ],
+   "spans": [
+    {
+     "block": 178,
+     "start": 94,
+     "end": 136
+    }
+   ]
+  },
+  {
+   "id": "RP-4",
+   "type": "repeat",
+   "advice": "approve",
+   "title": "Why the hierarchy comes first, said a third time",
+   "what": "\"The hierarchy appears before the mystical sections because love doesn’t require us to ignore the body...\" (the whole paragraph) goes.",
+   "why": "The two paragraphs before it make the point (not every crisis is emotional; a gut or brain problem belongs in a different branch), and \"Every hard experience is not a profound lesson...\" in Why Bad Trips Tend to Happen says its last two lines.",
+   "stays": "\"Psychedelic culture often treats every crisis as emotional or spiritual...\" and the paragraph after it.",
+   "deciding": "Whether \"A gut-driven mental hell is not automatically shadow work\" is a line you want to keep somewhere.",
+   "advice_note": "Approve.",
+   "found_by": "my read; reader A",
+   "edits": [
+    {
+     "block": 181,
+     "before": "The hierarchy appears before the mystical sections because love doesn’t require us to ignore the body. Medical danger may need medical help while field rescue begins. A bad room gets fixed. A gut-driven mental hell is not automatically shadow work. A dose or combination problem does not need to become a spiritual curriculum.",
+     "after": ""
+    }
+   ],
+   "spans": [
+    {
+     "block": 181,
+     "start": 0,
+     "end": 326
+    }
+   ]
+  },
+  {
+   "id": "RP-5",
+   "type": "repeat",
+   "advice": "approve",
+   "title": "Swallowing charcoal, explained twice",
+   "what": "\"Ingesting the charcoal itself can improve toxic gut feelings while also adsorbing the drugs and reducing the trip. I generally avoid the charcoal itself unless losing part of the trip is acceptable.\" goes.",
+   "why": "Actual Activated Charcoal, a few sections up, says both: it can help gut toxicity, it adsorbs drugs and can reduce a trip, and you use zeolite when you want to keep the trip.",
+   "stays": "The charcoal-water section keeps its first line (\"...different from zeolite and from swallowing charcoal\") and goes straight on to \"What I usually use is the water portion\".",
+   "deciding": "None that I can see.",
+   "advice_note": "Approve.",
+   "found_by": "my read",
+   "edits": [
+    {
+     "block": 237,
+     "before": "Ingesting the charcoal itself can improve toxic gut feelings while also adsorbing the drugs and reducing the trip. I generally avoid the charcoal itself unless losing part of the trip is acceptable.",
+     "after": ""
+    }
+   ],
+   "spans": [
+    {
+     "block": 237,
+     "start": 0,
+     "end": 198
+    }
+   ]
+  },
+  {
+   "id": "RP-6",
+   "type": "repeat",
+   "advice": "approve",
+   "title": "Music: the same two points in two places",
+   "what": "In The First Five Minutes, \"Music is optional.\" and \"and keep the person able to stop or change it immediately\" go. The paragraph reads: \"Ask “music or quiet?” If a track starts pulling the experience somewhere unwanted, change it. This is a bad time to defend the playlist.\"",
+   "why": "The Grounding Menu's Music list says both (\"Silence is a real option.\" and \"Keep the stop or change control immediate...\"), and both repeat readers took the menu as music's home.",
+   "stays": "The Music list stays whole: silence, familiar music, no forced arc, drumming or harp-like music, the stop control.",
+   "deciding": "Whether you'd rather keep this paragraph whole and trim the menu instead.",
+   "advice_note": "Approve.",
+   "found_by": "my read; readers A and B",
+   "edits": [
+    {
+     "block": 299,
+     "before": "Music is optional. Ask “music or quiet?” and keep the person able to stop or change it immediately. If a track starts pulling the experience somewhere unwanted, change it. This is a bad time to defend the playlist.",
+     "after": "Ask “music or quiet?” If a track starts pulling the experience somewhere unwanted, change it. This is a bad time to defend the playlist."
+    }
+   ],
+   "spans": [
+    {
+     "block": 299,
+     "start": 0,
+     "end": 18
+    },
+    {
+     "block": 299,
+     "start": 41,
+     "end": 98
+    }
+   ]
+  },
+  {
+   "id": "RP-7",
+   "type": "repeat",
+   "advice": "approve",
+   "title": "Movement, in the menu again",
+   "what": "Two items go from the Grounding Menu's Body list (\"Try two minutes of safe movement: ...\" and \"Then ask whether movement made you clearer or more impulsive...\"), and two from its Ordinary world list (\"Do one ordinary task you can clearly finish when the body wants movement.\" and \"Pace along a clear contained path when pacing helps.\").",
+   "why": "Stillness or Movement? says the two-minute test and its question, pacing in a contained space, and the small task with an endpoint; Alone at 3 a.m. lists the movements (pacing, stretching, a few slow wall push-ups).",
+   "stays": "The Body list keeps feet, hands on heart and belly, something with weight, unclenching. Ordinary world keeps food, walking with a sober person, going outside safely, and the strenuous-exercise warning.",
+   "deciding": "\"Shaking out the arms and legs\" is said only here and in checklist step 4; if step 4 shrinks too, say if you want it kept somewhere.",
+   "advice_note": "Approve.",
+   "found_by": "my read; reader B",
+   "edits": [
+    {
+     "block": 375,
+     "before": "Try two minutes of safe movement: slow pacing, gentle stretching, shaking out the arms and legs, wall push-ups, or a boring household task.",
+     "after": ""
+    },
+    {
+     "block": 376,
+     "before": "Then ask whether movement made you clearer or more impulsive. Keep what helps and stop what escalates.",
+     "after": ""
+    },
+    {
+     "block": 410,
+     "before": "Do one ordinary task you can clearly finish when the body wants movement.",
+     "after": ""
+    },
+    {
+     "block": 411,
+     "before": "Pace along a clear contained path when pacing helps.",
+     "after": ""
+    }
+   ],
+   "spans": [
+    {
+     "block": 375,
+     "start": 0,
+     "end": 139
+    },
+    {
+     "block": 376,
+     "start": 0,
+     "end": 102
+    },
+    {
+     "block": 410,
+     "start": 0,
+     "end": 73
+    },
+    {
+     "block": 411,
+     "start": 0,
+     "end": 52
+    }
+   ],
+   "card_after": 414
+  },
+  {
+   "id": "RP-8",
+   "type": "repeat",
+   "advice": "approve",
+   "title": "The lead anchor's backup, in the menu again",
+   "what": "\"When safety is slipping, let that person bring in one additional calm adult or crisis professional.\" goes from the Grounding Menu's Human list.",
+   "why": "Get One Human Anchor says it, and says when (\"When safety, fatigue, logistics, violence, or self-harm risk exceeds what one person can hold...\").",
+   "stays": "The Human list keeps asking one calm person, letting them remind you where you are, and not processing with the most reactive person in your life.",
+   "deciding": "None that I can see.",
+   "advice_note": "Approve.",
+   "found_by": "my read; readers A and B",
+   "edits": [
+    {
+     "block": 401,
+     "before": "When safety is slipping, let that person bring in one additional calm adult or crisis professional.",
+     "after": ""
+    }
+   ],
+   "spans": [
+    {
+     "block": 401,
+     "start": 0,
+     "end": 99
+    }
+   ]
+  },
+  {
+   "id": "RP-9",
+   "type": "repeat",
+   "advice": "approve",
+   "title": "Practice-induced states, told twice",
+   "what": "\"For practice-induced states: “I stopped the practice. Food, ordinary contact, and sleep help the system come down.”\" goes from the Grounding Menu's Time list.",
+   "why": "The First Five Minutes says it (\"A non-drug altered state may have a less predictable clock... stop the practice, eat something ordinary when safe, let the body settle, keep warm, and sleep.\"), along with the line to say (\"I am in an intense state. I am stopping the practice now...\").",
+   "stays": "The Time list keeps the date and place, effects rising and changing, and tomorrow's notebook.",
+   "deciding": "None that I can see.",
+   "advice_note": "Approve.",
+   "found_by": "my read",
+   "edits": [
+    {
+     "block": 406,
+     "before": "For practice-induced states: “I stopped the practice. Food, ordinary contact, and sleep help the system come down.”",
+     "after": ""
+    }
+   ],
+   "spans": [
+    {
+     "block": 406,
+     "start": 0,
+     "end": 115
+    }
+   ]
+  },
+  {
+   "id": "RP-10",
+   "type": "repeat",
+   "advice": "approve",
+   "title": "Not debating, not validating violence: a third time in the helper's section",
+   "what": "\"Don’t debate to win. Don’t validate violence.\" goes from When the Content Turns Toward Harm; the paragraph starts at \"Redirect within the person’s value-world...\".",
+   "why": "The Don't list just above opens with the same two points (\"Don’t try to win an argument with visions... Don’t validate harmful conclusions.\"), and this section's first paragraph says both with its example (\"...can turn the encounter into a status fight. Nodding along as though harm is spiritually neutral is also unacceptable.\").",
+   "stays": "The rest of the paragraph: redirect toward peace and protection, more containment, crisis support early.",
+   "deciding": "None that I can see.",
+   "advice_note": "Approve.",
+   "found_by": "my read; reader A (reader C would keep it, as a line where the helper acts; this section's first paragraph is in the same place)",
+   "edits": [
+    {
+     "block": 363,
+     "before": "Don’t debate to win. Don’t validate violence. Redirect within the person’s value-world toward peace and protection, increase containment, and bring in crisis support as early and as non-coercively as the situation allows.",
+     "after": "Redirect within the person’s value-world toward peace and protection, increase containment, and bring in crisis support as early and as non-coercively as the situation allows."
+    }
+   ],
+   "spans": [
+    {
+     "block": 363,
+     "start": 0,
+     "end": 45
+    }
+   ]
+  },
+  {
+   "id": "RP-11",
+   "type": "repeat",
+   "advice": "approve",
+   "title": "\"Nondual demonology\", the same line twice",
+   "what": "\"Don’t teach nondual demonology to somebody who needs the lights down and a doctor.\" goes from the Don't list for the person helping.",
+   "why": "The same sentence closes Demons, Jinn, Entities, and Shadow Forces, word for word, where demonology is the subject and it follows \"stabilize first\".",
+   "stays": "The Don't list's other four items.",
+   "deciding": "Whether you'd rather keep it in the list and cut it there.",
+   "advice_note": "Approve.",
+   "found_by": "my read; readers A and B",
+   "edits": [
+    {
+     "block": 357,
+     "before": "Don’t teach nondual demonology to somebody who needs the lights down and a doctor.",
+     "after": ""
+    }
+   ],
+   "spans": [
+    {
+     "block": 357,
+     "start": 0,
+     "end": 82
+    }
+   ]
+  },
+  {
+   "id": "RP-12",
+   "type": "repeat",
+   "advice": "approve",
+   "title": "\"If it’s true, it survives breakfast\", twice",
+   "what": "\"“If it’s true, it survives breakfast.”\" goes from the Other useful lines in When the Content Turns Toward Harm.",
+   "why": "When the Trip Feels Amazing ends on the full version (\"The revelation will still exist after breakfast. If it is true, it survives sleep. If it cannot survive one night of rest, it was an emergency impulse wearing angel wings.\"), and the checklist has it too.",
+   "stays": "The other two lines (\"Maybe you are touching something divine...\" and \"Tonight the commandment is no harm, no proof, no mission, sleep first.\").",
+   "deciding": "Whether it works better as a line a sitter says than as the section's ending.",
+   "advice_note": "Approve.",
+   "found_by": "my read; readers A and B",
+   "edits": [
+    {
+     "block": 362,
+     "before": "Other useful lines: “Maybe you are touching something divine. Divine doesn’t need a violent test.” “If it’s true, it survives breakfast.” “Tonight the commandment is no harm, no proof, no mission, sleep first.”",
+     "after": "Other useful lines: “Maybe you are touching something divine. Divine doesn’t need a violent test.” “Tonight the commandment is no harm, no proof, no mission, sleep first.”"
+    }
+   ],
+   "spans": [
+    {
+     "block": 362,
+     "start": 99,
+     "end": 137
+    }
+   ]
+  },
+  {
+   "id": "RP-13",
+   "type": "repeat",
+   "advice": "leave",
+   "title": "No entity or revelation overrides safety, twice",
+   "what": "A reader would cut \"No entity, deity, demon, ancestor, angel, algorithm, mission, kundalini surge, or insight overrides basic safety.\" from No Rash Actions, since Demons, Jinn, Entities has its own safety rule (\"Even a completely real-feeling entity does not make decisions for your body...\").",
+   "why": "It is the same rule, but in two situations a reader meets separately: a revelation pushing you to act, and an entity telling you to.",
+   "stays": "Both stay as they are, unless you say otherwise.",
+   "deciding": "Whether a reader would feel told the same thing twice.",
+   "advice_note": "Leave: each sits where a reader in that situation looks.",
+   "found_by": "readers A and B",
+   "edits": [
+    {
+     "block": 422,
+     "before": "Treat trip content first as experience-content, rather than fact-content. “I saw it” does not create a duty to act. “It felt cosmic” does not make obedience wise. No entity, deity, demon, ancestor, angel, algorithm, mission, kundalini surge, or insight overrides basic safety.",
+     "after": "Treat trip content first as experience-content, rather than fact-content. “I saw it” does not create a duty to act. “It felt cosmic” does not make obedience wise."
+    }
+   ],
+   "spans": [
+    {
+     "block": 422,
+     "start": 163,
+     "end": 276
+    }
+   ]
+  },
+  {
+   "id": "RP-14",
+   "type": "repeat",
+   "advice": "approve",
+   "title": "Two \"Additional Resources\" headings, and the support lines a third time",
+   "what": "The appendix's second heading (\"Additional Resources\", and the divider above it) goes, so the appendix is one list under \"Appendix: Additional Resources\"; its note (\"If somebody is actively in trouble, use the checklist first...\") moves up to open it. \"Free tripsitting hotline at The Fireside Project as well as ICEERS.org\" goes.",
+   "why": "The appendix has two headings with the same name. Fireside and ICEERS are in Who to Contact, and When, with their hours, coverage and what each is for.",
+   "stays": "Every other resource in the appendix: alternativementalhealth.com, the Berkeley class, Ajahn Jayasaro, your visions answer, the Hopkins/Griffiths protocol, the Zendo manuals and the Greer and Tolbert method.",
+   "deciding": "None that I can see.",
+   "advice_note": "Approve.",
+   "found_by": "my read; readers A and B",
+   "edits": [
+    {
+     "block": 580,
+     "before": "---",
+     "after": ""
+    },
+    {
+     "block": 581,
+     "before": "Additional Resources",
+     "after": ""
+    },
+    {
+     "block": 584,
+     "before": "Free tripsitting hotline at The Fireside Project as well as ICEERS.org",
+     "after": ""
+    }
+   ],
+   "moves": [
+    {
+     "blocks": [
+      582
+     ],
+     "before": 576,
+     "seq": 1
+    }
+   ],
+   "spans": [
+    {
+     "block": 581,
+     "start": 0,
+     "end": 20
+    },
+    {
+     "block": 582,
+     "start": 0,
+     "end": 96
+    },
+    {
+     "block": 584,
+     "start": 0,
+     "end": 70
+    }
+   ],
+   "card_after": 584
+  },
+  {
+   "id": "RP-15",
+   "type": "repeat",
+   "advice": "approve",
+   "title": "Calling medics while using a remedy, said twice",
+   "what": "In the first paragraph of Acute Medical and Neurological Rescue, \"Some symptom patterns call for medics while you use an immediate remedy; \" goes, so the sentence starts \"Some severe but physically stable altered states may respond faster to field rescue...\"",
+   "why": "The line under the medics list, a few lines up, says it (\"The remedies below can begin while help is being arranged...\") and adds that using a remedy doesn't mean giving up a time-sensitive medical option. All three readers took that line as the home of the point.",
+   "stays": "\"An emergency means act now\", the ambulance line, and the stable-state line.",
+   "deciding": "None that I can see.",
+   "advice_note": "Approve.",
+   "found_by": "readers A, B and C",
+   "edits": [
+    {
+     "block": 128,
+     "before": "An emergency means act now. It does not always mean that an ambulance is the first or only useful action. Some symptom patterns call for medics while you use an immediate remedy; some severe but physically stable altered states may respond faster to field rescue than to hours in an emergency room.",
+     "after": "An emergency means act now. It does not always mean that an ambulance is the first or only useful action. Some severe but physically stable altered states may respond faster to field rescue than to hours in an emergency room."
+    }
+   ],
+   "spans": [
+    {
+     "block": 128,
+     "start": 106,
+     "end": 178
+    }
+   ]
+  },
+  {
+   "id": "RP-16",
+   "type": "repeat",
+   "advice": "approve",
+   "title": "Magnesium: \"not one exceptional episode\" says the paragraph before again",
+   "what": "\"This was not one exceptional episode. I have repeatedly needed large amounts when taking MDMA. My practical endpoint is the jaw releasing, rather than taking one conventional supplement dose and assuming the problem has been handled.\" goes.",
+   "why": "The paragraph before says each part: \"On multiple occasions\", the amounts, \"A token dose may not be enough\", and \"before my jaw fully released\".",
+   "stays": "Every dose, amount and timing in the magnesium paragraphs (they are all in the paragraph before).",
+   "deciding": "Whether \"my practical endpoint is the jaw releasing\" says it more plainly than the paragraph before does.",
+   "advice_note": "Approve.",
+   "found_by": "reader A",
+   "edits": [
+    {
+     "block": 144,
+     "before": "This was not one exceptional episode. I have repeatedly needed large amounts when taking MDMA. My practical endpoint is the jaw releasing, rather than taking one conventional supplement dose and assuming the problem has been handled.",
+     "after": ""
+    }
+   ],
+   "spans": [
+    {
+     "block": 144,
+     "start": 0,
+     "end": 233
+    }
+   ]
+  },
+  {
+   "id": "RP-17",
+   "type": "repeat",
+   "advice": "approve",
+   "title": "Zeolite's symptom list, a fourth time",
+   "what": "\"Zeolite is what helps me when mental distress seems driven by gut toxicity, parasite die-off, nausea, diarrhea, or the sick-stomach feeling.\" goes; the paragraph keeps \"That water doesn’t fix the gut the way zeolite does.\"",
+   "why": "The zeolite section lists the same symptoms (\"sick stomach, nausea, diarrhea, toxic heaviness, a dirty body-feeling, parasite die-off...\"), as do checklist step 10 and the start of the hierarchy.",
+   "stays": "The contrast: the water acts on the overloaded mind, zeolite on the gut (the next paragraph says the first half).",
+   "deciding": "None that I can see.",
+   "advice_note": "Approve.",
+   "found_by": "readers A and B",
+   "edits": [
+    {
+     "block": 239,
+     "before": "That water doesn’t fix the gut the way zeolite does. Zeolite is what helps me when mental distress seems driven by gut toxicity, parasite die-off, nausea, diarrhea, or the sick-stomach feeling.",
+     "after": "That water doesn’t fix the gut the way zeolite does."
+    }
+   ],
+   "spans": [
+    {
+     "block": 239,
+     "start": 53,
+     "end": 127
+    }
+   ]
+  },
+  {
+   "id": "SF-3",
+   "type": "safety",
+   "advice": "approve",
+   "title": "Not inhaling ozone, said four times",
+   "what": "\"I am never recommending ozone inhalation.\" goes from the charcoal-water paragraph; its instruction stays (\"I mean the water after active ozonation has ended and residual ozone has dissipated.\").",
+   "why": "The guide says you mean the water, not ozone gas, at its first mention (the zeolite: \"I mean ozonating water, never inhaling ozone gas\"), again here, again beside the crying baby (\"No ozone gas was present\"), and in the story of the time you smelled it (\"I don’t recommend inhaling ozone.\"). The first mention and the story are the two a reader needs.",
+   "stays": "The zeolite line, the baby line, your story, and this paragraph's next sentence (the water after ozonation has ended).",
+   "deciding": "Whether you'd rather keep this line and drop the one at the end of your story.",
+   "advice_note": "Approve.",
+   "found_by": "readers A, B and C (C would keep this line and cut the one in your story)",
+   "edits": [
+    {
+     "block": 238,
+     "before": "What I usually use is the water portion: water ozonated in contact with activated charcoal and allowed to sit after the charcoal falls to the bottom, or water ozonated with ordinary rock charcoal. I am never recommending ozone inhalation. I mean the water after active ozonation has ended and residual ozone has dissipated.",
+     "after": "What I usually use is the water portion: water ozonated in contact with activated charcoal and allowed to sit after the charcoal falls to the bottom, or water ozonated with ordinary rock charcoal. I mean the water after active ozonation has ended and residual ozone has dissipated."
+    }
+   ],
+   "spans": [
+    {
+     "block": 238,
+     "start": 197,
+     "end": 238
+    }
+   ]
+  },
+  {
+   "id": "SF-4",
+   "type": "safety",
+   "advice": "approve",
+   "title": "A caveat about the evidence labels that changes nothing",
+   "what": "\"I use the strongest applicable evidence without pretending every useful rescue has already received the trial it deserves.\" goes from How I label the evidence.",
+   "why": "The four labels above it already say how strong each kind of evidence is; this line defends them and changes nothing a reader does.",
+   "stays": "The four labels.",
+   "deciding": "None that I can see.",
+   "advice_note": "Approve.",
+   "found_by": "reader C",
+   "edits": [
+    {
+     "block": 195,
+     "before": "I use the strongest applicable evidence without pretending every useful rescue has already received the trial it deserves.",
+     "after": ""
+    }
+   ],
+   "spans": [
+    {
+     "block": 195,
+     "start": 0,
+     "end": 122
+    }
+   ]
+  },
+  {
+   "id": "RP-18",
+   "type": "repeat",
+   "advice": "approve",
+   "title": "Love becoming practical, twice",
+   "what": "\"Grounding is love becoming practical.\" goes from the start of the Grounding Menu; it starts \"Choose one or two options rather than all of them.\"",
+   "why": "Stillness or Movement? ends on the same line (\"When the nervous system is on fire, love becomes practical first.\"), earlier in the same part.",
+   "stays": "The menu's advice to choose one or two, and why.",
+   "deciding": "Whether it works better as the menu's first line than as that paragraph's last.",
+   "advice_note": "Approve.",
+   "found_by": "reader A",
+   "edits": [
+    {
+     "block": 368,
+     "before": "Grounding is love becoming practical. Choose one or two options rather than all of them. Twelve simultaneous techniques can become another form of panic.",
+     "after": "Choose one or two options rather than all of them. Twelve simultaneous techniques can become another form of panic."
+    }
+   ],
+   "spans": [
+    {
+     "block": 368,
+     "start": 0,
+     "end": 37
+    }
+   ]
+  },
+  {
+   "id": "RP-19",
+   "type": "repeat",
+   "advice": "approve",
+   "title": "Shadow work defined twice, four paragraphs apart",
+   "what": "In the Eshwar sentence, \"—bringing love and awareness to trauma-formed negative states and tendencies—\" goes: \"My friend Eshwar, however, found that shadow work made up about 99% of his path to heart-chakra awakening.\"",
+   "why": "\"Shadow work to me is neither BDSM nor “feeding your demons.” It means bringing loving awareness to the parts of the mind built in fear...\" defines it in full four paragraphs later.",
+   "stays": "Eshwar and his 99%.",
+   "deciding": "Whether a reader needs the short definition the first time shadow work comes up.",
+   "advice_note": "Approve.",
+   "found_by": "readers A and B",
+   "edits": [
+    {
+     "block": 443,
+     "before": "Many people meditate or take psychedelics to feel good. I am definitely one of them, and Buddha also said meditation should generally feel good. My friend Eshwar, however, found that shadow work—bringing love and awareness to trauma-formed negative states and tendencies—made up about 99% of his path to heart-chakra awakening.",
+     "after": "Many people meditate or take psychedelics to feel good. I am definitely one of them, and Buddha also said meditation should generally feel good. My friend Eshwar, however, found that shadow work made up about 99% of his path to heart-chakra awakening."
+    }
+   ],
+   "spans": [
+    {
+     "block": 443,
+     "start": 194,
+     "end": 271
+    }
+   ]
+  },
+  {
+   "id": "RP-20",
+   "type": "repeat",
+   "advice": "approve",
+   "title": "Life forcing the lesson, twice, three paragraphs apart",
+   "what": "\"Sometimes the real-world smackdown is unavoidable for deeper learning.\" goes, and so does \"I would love for everybody to do this in the safe room.\" from the paragraph that starts \"Skip this inner work\".",
+   "why": "The two passages tell the same three steps: skipped shadow work shows up in life, the safe room is better, and sometimes life forces it. Your marriages line and your wish for the safer rooms stay in the first; the second keeps where it leaks and \"the morning you realize the enlightened persona was mostly a nice outfit\".",
+   "stays": "\"When shadow work is bypassed...\" with your two marriages; \"Skip this inner work...\" without the safe-room sentence.",
+   "deciding": "The first sentence of each passage still says the same thing (\"When shadow work is bypassed... it may appear in ordinary life\" and \"Skip this inner work, and the trauma doesn’t vanish\"); say if you want one of them to go too.",
+   "advice_note": "Approve.",
+   "found_by": "readers A and B (they differ on which passage to keep)",
+   "edits": [
+    {
+     "block": 446,
+     "before": "Sometimes the real-world smackdown is unavoidable for deeper learning.",
+     "after": ""
+    },
+    {
+     "block": 449,
+     "before": "Skip this inner work, and the trauma doesn’t vanish. It leaks into marriages, friendships, sex, money, spiritual communities, and the way reality itself is interpreted. I would love for everybody to do this in the safe room. Sometimes the curriculum arrives through heartbreak, divorce, betrayal, illness, or the morning you realize the enlightened persona was mostly a nice outfit.",
+     "after": "Skip this inner work, and the trauma doesn’t vanish. It leaks into marriages, friendships, sex, money, spiritual communities, and the way reality itself is interpreted. Sometimes the curriculum arrives through heartbreak, divorce, betrayal, illness, or the morning you realize the enlightened persona was mostly a nice outfit."
+    }
+   ],
+   "spans": [
+    {
+     "block": 446,
+     "start": 0,
+     "end": 70
+    },
+    {
+     "block": 449,
+     "start": 169,
+     "end": 224
+    }
+   ],
+   "card_after": 449
+  },
+  {
+   "id": "RP-21",
+   "type": "repeat",
+   "advice": "approve",
+   "title": "The planned-session list, then the same list as arrows",
+   "what": "\"Preparation → physical safety → intention → low-directivity support → closure → sleep and food → next-day integration.\" goes; \"Use this sequence for planned sessions...\" follows the list directly.",
+   "why": "It says the list just above it again, in the same order (\"Integration time\" becomes \"sleep and food → next-day integration\").",
+   "stays": "The list, and \"Use this sequence for planned sessions. Once somebody is already in trouble, return to the acute checklist...\"",
+   "deciding": "Whether the one-line chain helps as a summary to remember.",
+   "advice_note": "Approve.",
+   "found_by": "reader A",
+   "edits": [
+    {
+     "block": 483,
+     "before": "Preparation → physical safety → intention → low-directivity support → closure → sleep and food → next-day integration.",
+     "after": ""
+    }
+   ],
+   "spans": [
+    {
+     "block": 483,
+     "start": 0,
+     "end": 118
+    }
+   ]
+  },
+  {
+   "id": "RP-22",
+   "type": "repeat",
+   "advice": "approve",
+   "title": "The calm pet, twice in the Grounding Menu",
+   "what": "In the Body list, \"or sit near a calm pet when that feels safe\" goes; the item reads \"Hold something with weight or texture.\"",
+   "why": "The next entry, A familiar object, says it with more care: \"A calm pet can offer the same quiet company when the animal is comfortable and the situation is safe.\" Both repeat readers took that line as the home.",
+   "stays": "The familiar-object entry, its pet line included.",
+   "deciding": "Whether the pet belongs with the body practices rather than with the familiar object; then the other line goes instead.",
+   "advice_note": "Approve.",
+   "found_by": "readers A and B",
+   "edits": [
+    {
+     "block": 373,
+     "before": "Hold something with weight or texture, or sit near a calm pet when that feels safe.",
+     "after": "Hold something with weight or texture."
+    }
+   ],
+   "spans": [
+    {
+     "block": 373,
+     "start": 37,
+     "end": 82
+    }
+   ]
+  },
+  {
+   "id": "RP-23",
+   "type": "repeat",
+   "advice": "approve",
+   "title": "The helper's Do and Don't lists: two lines said just above",
+   "what": "\"Speak slowly and use fewer words.\" goes from the Do list, and \"Don’t crowd them with five worried friends.\" from the Don't list.",
+   "why": "The First Five Minutes says the first word for word (\"Ask before touching. Speak slowly and use fewer words. Please don’t explain the universe at somebody who is already frightened by it.\"), and Get One Human Anchor says the second with its reason (\"A committee of frantic people rarely improves anyone’s nervous system.\"). Both repeat readers found both.",
+   "stays": "The rest of both lists.",
+   "deciding": "Whether you want the Do and Don't lists complete on their own, for a helper who reads only that section; then both lines stay.",
+   "advice_note": "Approve.",
+   "found_by": "readers A and B; reader C for the second line",
+   "edits": [
+    {
+     "block": 344,
+     "before": "Speak slowly and use fewer words.",
+     "after": ""
+    },
+    {
+     "block": 355,
+     "before": "Don’t crowd them with five worried friends.",
+     "after": ""
+    }
+   ],
+   "spans": [
+    {
+     "block": 344,
+     "start": 0,
+     "end": 33
+    },
+    {
+     "block": 355,
+     "start": 0,
+     "end": 43
+    }
+   ],
+   "card_after": 355
+  },
+  {
+   "id": "SF-5",
+   "type": "safety",
+   "advice": "approve",
+   "title": "Not emergency care, said five times in the support lines",
+   "what": "Four lines go from Who to Contact, and When: \"Non-clinical and non-emergency.\" (Fireside), \"Peer support, rather than clinical or emergency care.\" (TripSit), \"Risk-reduction support, rather than a substitute for medical or psychiatric treatment.\" (ICEERS) and \"It is neither therapy nor immediate crisis care.\" (CPEP).",
+   "why": "The section's first paragraph says it for all of them: \"Psychedelic peer support does not replace emergency, medical, psychiatric, or suicide-crisis care.\" Each entry then says it again for itself. Reader C marked all four as repeats of that line.",
+   "stays": "The first paragraph's line, and every service's name, link, number, hours and what it offers.",
+   "deciding": "Whether a reader who goes straight to one service, past the first paragraph, needs the line beside it.",
+   "advice_note": "Approve.",
+   "found_by": "reader C",
+   "edits": [
+    {
+     "block": 322,
+     "before": "Fireside Project: U.S.-only according to its current FAQ; phone or text psychedelic peer support at 623-473-7433, daily from 11 a.m. to 11 p.m. Pacific Time. Non-clinical and non-emergency.",
+     "after": "Fireside Project: U.S.-only according to its current FAQ; phone or text psychedelic peer support at 623-473-7433, daily from 11 a.m. to 11 p.m. Pacific Time."
+    },
+    {
+     "block": 323,
+     "before": "TripSit live chat: browser-based harm-reduction chat for people using drugs and the people supporting them. Peer support, rather than clinical or emergency care.",
+     "after": "TripSit live chat: browser-based harm-reduction chat for people using drugs and the people supporting them."
+    },
+    {
+     "block": 330,
+     "before": "ICEERS Support Center: up to five free online integration sessions for challenging experiences. Risk-reduction support, rather than a substitute for medical or psychiatric treatment.",
+     "after": "ICEERS Support Center: up to five free online integration sessions for challenging experiences."
+    },
+    {
+     "block": 331,
+     "before": "CPEP online peer group: a free confidential monthly group for post-psychedelic difficulties. It is neither therapy nor immediate crisis care.",
+     "after": "CPEP online peer group: a free confidential monthly group for post-psychedelic difficulties."
+    }
+   ],
+   "spans": [
+    {
+     "block": 322,
+     "start": 158,
+     "end": 189
+    },
+    {
+     "block": 323,
+     "start": 108,
+     "end": 161
+    },
+    {
+     "block": 330,
+     "start": 96,
+     "end": 182
+    },
+    {
+     "block": 331,
+     "start": 93,
+     "end": 141
+    }
+   ],
+   "card_after": 332
+  },
+  {
+   "id": "SF-6",
+   "type": "safety",
+   "advice": "approve",
+   "title": "Chest pain: when to call medics, said ahead of its paragraph",
+   "what": "In Chest Pain and Injury, \", with the decision about medics based on severity and the surrounding symptoms\" goes; the sentence reads \"DMSO is also my first remedy for many injuries and some chest pain.\"",
+   "why": "Two paragraphs on, the section draws that line itself: mild, familiar pain against \"new, severe, persistent, worsening, radiating, or exertional pain\", with \"In the second branch, I would use DMSO while arranging medical evaluation.\"",
+   "stays": "Your angina story, the rat studies, and the paragraph with the severity line and the medics.",
+   "deciding": "None that I can see.",
+   "advice_note": "Approve.",
+   "found_by": "reader C",
+   "edits": [
+    {
+     "block": 150,
+     "before": "DMSO is also my first remedy for many injuries and some chest pain, with the decision about medics based on severity and the surrounding symptoms. After I overused erythritol, I developed angina that lasted for days. I took DMSO, the pain disappeared within about a minute, and it never returned.",
+     "after": "DMSO is also my first remedy for many injuries and some chest pain. After I overused erythritol, I developed angina that lasted for days. I took DMSO, the pain disappeared within about a minute, and it never returned."
+    }
+   ],
+   "spans": [
+    {
+     "block": 150,
+     "start": 68,
+     "end": 145
+    }
+   ]
+  },
+  {
+   "id": "SF-7",
+   "type": "safety",
+   "advice": "approve",
+   "title": "Serotonin syndrome: magnesium \"does not replace\" what the steps already say",
+   "what": "In the last of the serotonin steps, \", but it does not replace treatment of dangerous heat, clonus, rigidity, or instability\" goes; the sentence ends \"...especially with MDMA-related jaw tension or muscle activity.\"",
+   "why": "Steps 3 to 5 come first and say what to do about each: emergency help and transport for moderate or severe signs, cooling, and no exertion. Reader C marked it as a repeat of the cooling step.",
+   "stays": "The magnesium line itself, and every step above it.",
+   "deciding": "Whether a reader who reads only this line, without the steps above it, needs the reminder.",
+   "advice_note": "Approve.",
+   "found_by": "reader C",
+   "edits": [
+    {
+     "block": 175,
+     "before": "Hospitals may use benzodiazepines, external cooling, IV fluids, monitoring, and intensive supportive care. Niacin is unsafe for serotonin syndrome. DMSO is also not part of this branch. I would consider oral magnesium chloride when the person is fully alert, especially with MDMA-related jaw tension or muscle activity, but it does not replace treatment of dangerous heat, clonus, rigidity, or instability.",
+     "after": "Hospitals may use benzodiazepines, external cooling, IV fluids, monitoring, and intensive supportive care. Niacin is unsafe for serotonin syndrome. DMSO is also not part of this branch. I would consider oral magnesium chloride when the person is fully alert, especially with MDMA-related jaw tension or muscle activity."
+    }
+   ],
+   "spans": [
+    {
+     "block": 175,
+     "start": 320,
+     "end": 405
+    }
+   ]
+  },
+  {
+   "id": "RP-24",
+   "type": "repeat",
+   "advice": "approve",
+   "title": "Movement as a test, said again under its evidence",
+   "what": "\"Movement is a tool to test, rather than a rule to obey.\" goes from the end of the movement evidence note.",
+   "why": "Stillness or Movement? opens with it: \"Test them rather than turning them into rival religions. Try one for two minutes...\" All three readers marked this line.",
+   "stays": "The note's evidence: the safe, low-stimulation advice and the 2024 study's list.",
+   "deciding": "None that I can see.",
+   "advice_note": "Approve.",
+   "found_by": "readers A, B and C",
+   "edits": [
+    {
+     "block": 415,
+     "before": "Movement evidence note: the best-supported general advice is to create a safe, low-stimulation environment and choose responses that reduce danger. A 2024 study of strategies for resolving challenging psychedelic experiences identified physical movement, intentional breathing, sensory engagement, sleep-seeking, and social support among the ways people navigate difficulty. Movement is a tool to test, rather than a rule to obey.",
+     "after": "Movement evidence note: the best-supported general advice is to create a safe, low-stimulation environment and choose responses that reduce danger. A 2024 study of strategies for resolving challenging psychedelic experiences identified physical movement, intentional breathing, sensory engagement, sleep-seeking, and social support among the ways people navigate difficulty."
+    }
+   ],
+   "spans": [
+    {
+     "block": 415,
+     "start": 375,
+     "end": 430
+    }
+   ]
+  },
+  {
+   "id": "Q-1",
+   "type": "question",
+   "advice": "ask",
+   "title": "Humic acid: lick it first, or smell it first?",
+   "question": "The Core Order's first step says \"Smell humic acid, take a 5mg lick of it\", and Humic Acid Brings Brain to Optimal Function says a 5mg lick sends your brain \"into hyperfunctionality\". Some Remedies Require More Caution says eating it \"can produce a hyperintelligent state\", could destabilize somebody prone to mania, \"I wouldn’t use it casually during a bad trip\", and \"I’d start with\" smelling it. Which should the guide say for someone whose brain feels damaged: (a) smell it, and lick a tiny bit only if smelling doesn't help and they aren't prone to mania; (b) smell it and lick 5mg, as the Core Order says; (c) your words?",
+   "why": "A reader who follows the Core Order would do what the caution section warns against.",
+   "stays": "All three passages stay as they are until you answer.",
+   "advice_note": "(a): it fits both passages, and the lick stays available when smelling isn't enough.",
+   "spans": [
+    {
+     "block": 183,
+     "start": 18,
+     "end": 58
+    },
+    {
+     "block": 277,
+     "start": 187,
+     "end": 232
+    }
+   ],
+   "card_after": 183
+  },
+  {
+   "id": "Q-2",
+   "type": "question",
+   "advice": "ask",
+   "title": "Where does \"Hello, Lovey Bunny!\" go?",
+   "question": "Your greeting, the MAPS video and the Challenging Psychedelic Experiences Project paragraph sit under Shadow Work and Tripsitting Yourself or Others, about 7,500 words into the post, where the post first began. (a) Leave them there, as the opening of the tripsitting and shadow-work half; (b) move the greeting to the very top, above the checklist; (c) your words?",
+   "why": "A reader meets the greeting after the medical chemistry, which reads like a second start.",
+   "stays": "Everything stays where it is until you answer.",
+   "advice_note": "(a): someone opening the guide in trouble needs the checklist first, and the greeting opens the half they read once they are safe.",
+   "spans": [
+    {
+     "block": 289,
+     "start": 0,
+     "end": 94
+    }
+   ]
+  },
+  {
+   "id": "Q-3",
+   "type": "question",
+   "advice": "ask",
+   "title": "DMSO first: two cautions from the DMSO section",
+   "question": "The brain-damage branch puts DMSO first, whatever the drug. The DMSO section says \"Don’t take it with drugs that should not absorb rapidly, including corticosteroids, NSAIDs, and harmalas\", and ayahuasca is a harmala brew (the serotonin section says \"harmala/ayahuasca-type MAOI exposure\"). It also says \"Don’t combine it with blood-thinning medication because DMSO also thins the blood\", while the stroke paragraph uses DMSO at once though \"DMSO cannot identify whether the problem is a clot, a hemorrhage\". What holds for (a) someone on ayahuasca and (b) a possible bleed? If DMSO still comes first in both, the DMSO section is what changes; if not, the brain-damage branch says what to do instead. Tell me which, in your words, and I'll draft the line for your OK.",
+   "why": "A reader in that situation meets both instructions and can't follow both. Readers A and B each found this.",
+   "stays": "Everything stays as it is until you answer.",
+   "advice_note": "This one is yours: only you know what you do with DMSO in these two cases.",
+   "spans": [
+    {
+     "block": 256,
+     "start": 92,
+     "end": 104
+    },
+    {
+     "block": 258,
+     "start": 48,
+     "end": 81
+    },
+    {
+     "block": 134,
+     "start": 90,
+     "end": 154
+    }
+   ],
+   "card_after": 134
+  },
+  {
+   "id": "Q-4",
+   "type": "question",
+   "advice": "ask",
+   "title": "How long the action lock lasts",
+   "question": "The 3 a.m. note in checklist step 6 says \"No big actions until morning.\" No Rash Actions says \"Use a 24–72 hour action lock.\" and \"Until you have slept and eaten, don’t drive...\". (a) Leave them: the note covers the first night and the lock is the full rule; (b) make the 3 a.m. note say the same as the lock; (c) your words. (The Alone at 3 a.m. section quotes the note as \"No actions until morning\", without \"big\"; I'd make it match whichever you pick.)",
+   "why": "Readers A, B and C each found the different lengths (C also counts checklist step 8's \"tonight\"), with nothing saying which applies when.",
+   "stays": "All three stay as they are until you answer.",
+   "advice_note": "(a): each fits the person reading it, and the lock section is where the full rule lives.",
+   "spans": [
+    {
+     "block": 34,
+     "start": 18,
+     "end": 47
+    },
+    {
+     "block": 334,
+     "start": 111,
+     "end": 135
+    },
+    {
+     "block": 419,
+     "start": 0,
+     "end": 29
+    },
+    {
+     "block": 420,
+     "start": 0,
+     "end": 30
+    }
+   ],
+   "card_after": 420
+  },
+  {
+   "id": "Q-5",
+   "type": "question",
+   "advice": "ask",
+   "title": "Room first, or body first?",
+   "question": "The checklist says \"Use this in order.\" and puts the room before the body (\"fix the room, help the body, find one calm human\"). Stillness or Movement?, the fear loop and the shadow-thoughts section put the body first (\"body → room → human → time\"). (a) Room first everywhere, as the checklist says; (b) body first everywhere; (c) leave them, if the difference is on purpose.",
+   "why": "A reader who follows the checklist and then the loop breaker gets two orders, with no reason for the change.",
+   "stays": "All four places stay as they are until you answer.",
+   "advice_note": "(a): the checklist is the order the reader is told to follow; only the word order changes in the other three.",
+   "spans": [
+    {
+     "block": 4,
+     "start": 68,
+     "end": 95
+    },
+    {
+     "block": 310,
+     "start": 18,
+     "end": 54
+    },
+    {
+     "block": 491,
+     "start": 22,
+     "end": 48
+    },
+    {
+     "block": 535,
+     "start": 246,
+     "end": 279
+    }
+   ],
+   "card_after": 310
+  },
+  {
+   "id": "Q-6",
+   "type": "question",
+   "advice": "ask",
+   "title": "Ocean water and charcoal water: different, or alike?",
+   "question": "Ocean water's section says its effect is \"different from DMSO, aged ozonated-charcoal water, zeolite, or beach morning glory\". The next section opens, right under its heading, \"These work similarly to ocean water.\" (a) Take \"aged ozonated-charcoal water\" out of the first list; (b) change the second to say how they differ; (c) your words.",
+   "why": "Read together, the two lines say opposite things.",
+   "stays": "Both stay as they are until you answer.",
+   "advice_note": "(a): it takes one item out of that list and keeps both sections as you wrote them.",
+   "spans": [
+    {
+     "block": 234,
+     "start": 68,
+     "end": 96
+    },
+    {
+     "block": 236,
+     "start": 0,
+     "end": 36
+    }
+   ],
+   "card_after": 236
+  },
+  {
+   "id": "Q-7",
+   "type": "question",
+   "advice": "ask",
+   "title": "Charcoal: only after a recent oral ingestion?",
+   "question": "Checklist step 12 (stopping a trip) says \"Charcoal belongs only in the separate recent-oral-ingestion branch.\" The gut tools use it outside that branch: \"Activated charcoal can help gut toxicity, but it adsorbs drugs. Sometimes that is exactly the point.\", \"When the goal is to reduce drug absorption or stop a toxic gut situation, charcoal may be relevant.\", and after a ferment, \"which then requires activated charcoal to reduce gut histamine\". (a) Limit the sentence to stopping a trip: \"To stop a trip, charcoal belongs only in the separate recent-oral-ingestion branch.\"; (b) take that sentence out of step 12; (c) your words.",
+   "why": "A reader who follows step 12 would never use charcoal for the gut problems the long part uses it for. Readers A and B each found this.",
+   "stays": "Everything stays as it is until you answer.",
+   "advice_note": "(b): step 12's next paragraph and step 10 already say when charcoal fits and when it is dangerous, so nothing is lost and the contradiction goes.",
+   "spans": [
+    {
+     "block": 62,
+     "start": 256,
+     "end": 323
+    },
+    {
+     "block": 200,
+     "start": 301,
+     "end": 363
+    },
+    {
+     "block": 206,
+     "start": 0,
+     "end": 40
+    },
+    {
+     "block": 207,
+     "start": 43,
+     "end": 98
+    }
+   ],
+   "card_after": 207
+  },
+  {
+   "id": "Q-8",
+   "type": "question",
+   "advice": "ask",
+   "title": "Who to Contact: move it into the help section too?",
+   "question": "With SF-1, When to Bring In Outside Help holds the medics list, the mental-health list and when to get urgent help. Reader C would move Who to Contact, and When (Fireside, TripSit, Find A Helpline, 988, Crisis Text Line, ICEERS, CPEP, Cheetah House) up into it as well, so every kind of help is in one section. (a) Leave the contacts in Get One Human Anchor; (b) move them up, with a one-line pointer left in Get One Human Anchor; (c) your words.",
+   "why": "You asked for the safety language in one spot, and the contacts are the one kind of help still outside it.",
+   "stays": "Everything stays where it is until you answer.",
+   "advice_note": "(a): most of the lines are peer support for someone who needs a calm human, Alone at 3 a.m. sends the reader to them, and the emergency numbers are in the help section either way.",
+   "spans": [
+    {
+     "block": 319,
+     "start": 0,
+     "end": 24
+    }
+   ],
+   "card_after": 320
+  }
+ ]
+}
