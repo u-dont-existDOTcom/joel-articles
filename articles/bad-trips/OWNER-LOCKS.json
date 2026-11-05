@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "article_id": "bad-trips",
+  "owner_review": {
+    "status": "pending",
+    "evidence": "Registered 2026-11-03 at Joel's message of 15:45 UTC (\"start working on humanizing my badtrips guide at badtrips.u-dont-exist.com\"; experiments/t01-answers/JOEL-MESSAGE-20261103-1545.md). No passage is locked until he says so."
+  },
+  "locked_passages": [],
+  "protected_functions": [
+    {
+      "id": "remedy-fidelity",
+      "description": "Every remedy, compound, dose, unit, timing and warning comes out exactly as it went in, the rule his queue of 2026-09-28 set for his supplement protocol (articles/inner-child-therapy/experiments/emulate-20260929/ARTICLES.md, #3: \"Every compound, dose, unit, timing and warning must come out exactly as it went in.\"), applied here to the guide's remedies and doses until he says otherwise. humanize/FIDELITY-KEYS.json lists them from master.md (tools/humanization/fidelity_keys.py). A dedup cut that removes a repeated warning is his decision on the marking page, never a humanizing side effect."
+    },
+    {
+      "id": "emergency-escalation",
+      "description": "Where the guide tells the reader to call medics or emergency help (the danger signs, each emergency's threshold), that line stays where the reader acts on it; dedup moves the general lists into one section and never removes a threshold from the emergency it belongs to."
+    }
+  ]
+}

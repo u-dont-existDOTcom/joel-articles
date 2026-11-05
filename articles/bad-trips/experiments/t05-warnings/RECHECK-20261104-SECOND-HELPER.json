@@ -1,0 +1,684 @@
+[
+ {
+  "source": "CDC, First Aid for Seizures (last reviewed 2024-02-08)",
+  "pubmed_id_or_url": "https://www.cdc.gov/epilepsy/first-aid-for-seizures/index.html",
+  "opens": true,
+  "matches_named_paper": true,
+  "claims_checked": [
+   "OK: time it; turn on side; 'Loosen anything around the neck that could block breathing'; 'Don't hold the person down'; 'Don't put anything in their mouth'",
+   "OK: call 911 if over 5 minutes, another seizure soon after, trouble breathing or waking up, injured, first seizure ('Has never had a seizure before')",
+   "OK: quote 'The seizure happens in water.' is on the page word for word",
+   "OK: 'Don't offer water or food until they are fully alert.' (JSON: 'No food or water until fully alert')",
+   "OK: page also lists 'Has diabetes and loses consciousness' and 'Is pregnant' (JSON index 46 verdict)"
+  ],
+  "problems": null
+ },
+ {
+  "source": "American College of Emergency Physicians warning signs PDF (document title: 'Medical Emergencies: What You Need to Know', EmergencyCareForYou.org)",
+  "pubmed_id_or_url": "https://www.emergencyphysicians.org/siteassets/files/pdfs/isitanemergency.pdf",
+  "opens": true,
+  "matches_named_paper": true,
+  "claims_checked": [
+   "OK: difficulty breathing; chest or upper abdominal pain or pressure; 'Confusion or changes in mental status, unusual behavior, difficulty waking'; 'Severe or persistent vomiting or diarrhea'; 'Coughing or vomiting blood'; 'Uncontrolled bleeding'; 'Suicidal or homicidal feelings'; 'Unusual abdominal pain'",
+   "OK: dehydration not listed (JSON index 8 verdict says so correctly)",
+   "Note: JSON label 'Is it an emergency?' is the file name, not the document's title; content matches"
+  ],
+  "problems": null
+ },
+ {
+  "source": "South Western Ambulance Service NHS, When to call 999",
+  "pubmed_id_or_url": "https://www.swast.nhs.uk/when-to-call-999/",
+  "opens": true,
+  "matches_named_paper": true,
+  "claims_checked": [
+   "OK: loss of consciousness; 'An acute confused state'; chest pain / breathing difficulties; 'Fits / seizures that are not stopping'; suspected stroke; severe bleeding; serious head injuries; major trauma"
+  ],
+  "problems": null
+ },
+ {
+  "source": "NAMI, 988 FAQs (updated 7/12/23)",
+  "pubmed_id_or_url": "https://nami.org/nami-988-faqs-updated-07-12-2023",
+  "opens": true,
+  "matches_named_paper": true,
+  "claims_checked": [
+   "OK: '988 is a number to call for suicide, mental health and substance use-related crises'",
+   "OK: quote 'help de-escalate the crisis' is word for word ('...help de-escalate the crisis, and connect to mental health resources as needed and available.')",
+   "OK: 'If someone is in physical danger, 911 may be most appropriate in order to quickly dispatch Emergency Medical Services.'",
+   "OK: 'anyone experiencing an emergency that requires immediate medical attention should call 911'"
+  ],
+  "problems": null
+ },
+ {
+  "source": "FDA Drug Safety Communication, opioids with benzodiazepines, 8-31-2016",
+  "pubmed_id_or_url": "https://www.fda.gov/Drugs/DrugSafety/ucm518473.htm",
+  "opens": true,
+  "matches_named_paper": true,
+  "claims_checked": [
+   "OK: page opened; title and date 8-31-2016 match",
+   "OK: quote 'can result in extreme sleepiness, slowed or difficult breathing, coma, or death' is word for word; the report's shorter quote 'slowed or difficult breathing, coma, or death' is an exact substring"
+  ],
+  "problems": null
+ },
+ {
+  "source": "NHS, Heat exhaustion and heatstroke",
+  "pubmed_id_or_url": "https://www.nhs.uk/conditions/heat-exhaustion-and-heatstroke/",
+  "opens": true,
+  "matches_named_paper": true,
+  "claims_checked": [
+   "OK: 'Move them to a cool place.'; 'Remove all unnecessary clothing like a jacket or socks.'; 'spray or sponge them with cool water and fan them'; 'Cold packs, wrapped in a cloth and put under the armpits or on the neck are good too.'"
+  ],
+  "problems": "The JSON finding for this page is right, but the guide line it backs (JSON index 88, MD item 30 'cooling (NHS)') puts ice packs at 'the neck, armpits, or groin'. The NHS page names armpits and neck only. If 'groin' stays, its support has to come from Scotton 2019 (not checked here)."
+ },
+ {
+  "source": "US EPA, Ozone Generators that are Sold as Air Cleaners (last updated 2026-02-19)",
+  "pubmed_id_or_url": "https://www.epa.gov/indoor-air-quality-iaq/ozone-generators-are-sold-air-cleaners",
+  "opens": true,
+  "matches_named_paper": true,
+  "claims_checked": [
+   "OK: quote 'When inhaled, ozone can damage the lungs' is word for word",
+   "OK: 'Relatively low amounts can cause chest pain, coughing, shortness of breath and throat irritation.'",
+   "OK: ozone 'may also worsen chronic respiratory diseases such as asthma'",
+   "OK: updated February 2026 (February 19, 2026)"
+  ],
+  "problems": null
+ },
+ {
+  "source": "Bora et al. 2016, Ecstasy (MDMA) and its effects on kidneys and their treatment: a review (Iran J Basic Med Sci 19:1151-8)",
+  "pubmed_id_or_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5126214/ (PMID 27917269)",
+  "opens": false,
+  "matches_named_paper": true,
+  "claims_checked": [
+   "OK (PubMed record): PMC5126214 = PMID 27917269, Bora F, 2016, review; no DOI in the PubMed record",
+   "OK: 'Reasons for acute kidney injury may include rhabdomyolysis, malign hypertension, and necrotizing vasculitis.'",
+   "OK: fatal instances include acute hyponatremia, hyperthermia (>42 C), DIC, rhabdomyolysis (overheating and low sodium)",
+   "Wording: MD item 17 renders 'malign hypertension' as 'high blood pressure'"
+  ],
+  "problems": "Not opened: the WebFetch request for this URL was blocked because a permission prompt went unanswered in this session (not retried, per the tool's instruction). This is not evidence of a dead link: the record behind it was retrieved through the PubMed API and matches. Minor wording: MD item 17 says 'high blood pressure', but the source says malignant ('malign') hypertension, a hypertensive emergency, not ordinary high blood pressure. Suggest 'dangerously high blood pressure (malignant hypertension)'."
+ },
+ {
+  "source": "McKenney et al. 1994, Sustained- vs immediate-release niacin (JAMA 271:672-7)",
+  "pubmed_id_or_url": "https://pubmed.ncbi.nlm.nih.gov/8309029/",
+  "opens": false,
+  "matches_named_paper": true,
+  "claims_checked": [
+   "OK (PubMed record): McKenney JM, JAMA 1994, randomized double-blind; no DOI in the record",
+   "OK: 46 adults, 23 per group; doses up to 3000 mg/d",
+   "OK: no hepatotoxicity on immediate-release; 12 (52%) of 23 on sustained-release",
+   "OK: IR withdrawals mainly vasodilatory symptoms (flushing), fatigue, acanthosis nigricans; SR withdrawals mainly gastrointestinal symptoms, fatigue, raised aminotransferases",
+   "OK: 'IR niacin ... can also cause significant adverse effects' and needs careful monitoring"
+  ],
+  "problems": "Not opened: the WebFetch request for this URL was blocked because a permission prompt went unanswered in this session (not retried, per the tool's instruction). This is not evidence of a dead link: the record behind it was retrieved through the PubMed API and matches."
+ },
+ {
+  "source": "Aroor et al. 2017, BE-FAST (Stroke)",
+  "pubmed_id_or_url": "PMID 28082668",
+  "opens": true,
+  "matches_named_paper": true,
+  "claims_checked": [
+   "OK: 14.1% of 736 ischemic stroke patients had no FAST symptoms; adding gait/leg and visual symptoms cut missed strokes to 4.4%"
+  ],
+  "problems": null
+ },
+ {
+  "source": "Rached et al. 2026, MAOIs in people who use psychoactive substances (CNS Drugs)",
+  "pubmed_id_or_url": "PMID 41546846",
+  "opens": true,
+  "matches_named_paper": true,
+  "claims_checked": [
+   "OK: narrative review of 219 peer-reviewed publications",
+   "OK: suspected serotonin toxicity with amphetamine, dextromethorphan, MDMA, meperidine, methadone, tramadol",
+   "OK: fatalities with MAOIs plus 5-MeO-DMT, MDMA, tramadol (in overdose) and others"
+  ],
+  "problems": null
+ },
+ {
+  "source": "Schlag et al. 2022, Adverse effects of psychedelics (J Psychopharmacol)",
+  "pubmed_id_or_url": "PMID 35107059 (PMC8905125)",
+  "opens": true,
+  "matches_named_paper": true,
+  "claims_checked": [
+   "OK (abstract): 'medical risks are often minimal'",
+   "OK (full text): prolonged psychoses and HPPD 'far less likely'; 'rare cases of psychedelics triggering psychotic episodes'",
+   "OK (full text): DSM-5 covers hallucinogen-induced disorders 'including psychotic and depressive disorders'"
+  ],
+  "problems": null
+ },
+ {
+  "source": "Veiseh et al. 2026, Evaluation framework for psychedelic harm reduction at events (Front Public Health)",
+  "pubmed_id_or_url": "PMID 42871102 (PMC13658179)",
+  "opens": true,
+  "matches_named_paper": true,
+  "claims_checked": [
+   "OK: quote 'medically stable but psychologically distressed' is word for word",
+   "OK: quote 'alongside rather than in place of' is word for word",
+   "OK: the paper's own field data are staff perceptions (19 pre-event, 5 post-event surveys of medical personnel at two Zendo Project events)",
+   "Overreach: MD item 3 says 'The harm-reduction literature' and 'its evidence so far is staff opinion'"
+  ],
+  "problems": "MD item 3 presents one methodological framework paper as 'the harm-reduction literature', and 'its evidence so far is staff opinion' is broader than the paper: it says its own responses 'represent staff perceptions and counterfactual estimates rather than independently verified effects'. Suggest: 'A 2026 framework paper places peer support for \"medically stable but psychologically distressed\" people \"alongside rather than in place of\" medical care; its field data are staff perceptions, not measured outcomes.'"
+ },
+ {
+  "source": "Bless et al. 2025, Swiss guide to acute recreational drug intoxication (Toxics)",
+  "pubmed_id_or_url": "PMID 41441255 (PMC12737127)",
+  "opens": true,
+  "matches_named_paper": true,
+  "claims_checked": [
+   "OK (abstract): 'benzodiazepine sedation for agitation'; midazolam recommended for agitation (full text)",
+   "OK (full text): quote 'only effective within one hour of ingestion' is word for word",
+   "OK (full text): quote 'significant risk of aspiration, especially in agitated or sedated patients' is word for word",
+   "OK (full text): in opioid-related seizures, benzodiazepines need 'Slow titration ... to avoid an increase in respiratory depression'",
+   "OK (full text): amphetamine complications include cerebral oedema, hyponatraemia, renal failure",
+   "OK (full text): ABCDE scheme focused on toxidromes (sympathomimetic, opioid, hallucinogenic)"
+  ],
+  "problems": null
+ },
+ {
+  "source": "Zaman et al. 2017, Benzodiazepines for psychosis-induced aggression or agitation (Cochrane)",
+  "pubmed_id_or_url": "PMID 29219171 (PMC6486117)",
+  "opens": true,
+  "matches_named_paper": true,
+  "claims_checked": [
+   "OK: quote 'The evidence from RCTs for the use of benzodiazepines alone is not good' (report quotes 'not good')",
+   "OK: one small study (n=150) found fewer improved on benzodiazepines than olanzapine",
+   "OK: no difference from haloperidol"
+  ],
+  "problems": null
+ },
+ {
+  "source": "Mancuso et al. 2004, Paradoxical reactions to benzodiazepines (Pharmacotherapy)",
+  "pubmed_id_or_url": "PMID 15460178",
+  "opens": true,
+  "matches_named_paper": true,
+  "claims_checked": [
+   "OK: 'occur in less than 1% of patients'; talkativeness, emotional release, excitement, excessive movement"
+  ],
+  "problems": null
+ },
+ {
+  "source": "Fonseca & Ferro 2013, Drug abuse and stroke (Curr Neurol Neurosci Rep)",
+  "pubmed_id_or_url": "PMID 23299821",
+  "opens": true,
+  "matches_named_paper": true,
+  "claims_checked": [
+   "OK: increased risk of both hemorrhagic and ischemic stroke; stimulants most often; opioids and psychotomimetic drugs incl. cannabis less often"
+  ],
+  "problems": null
+ },
+ {
+  "source": "Powers et al. 2019, AHA/ASA acute ischemic stroke guideline (Stroke)",
+  "pubmed_id_or_url": "PMID 31662037",
+  "opens": true,
+  "matches_named_paper": true,
+  "claims_checked": [
+   "OK: covers prehospital care, urgent and emergency evaluation, intravenous and intra-arterial treatment",
+   "Not checked in the body: specific time windows (abstract does not state them; the report's use is general)"
+  ],
+  "problems": null
+ },
+ {
+  "source": "Kienitz et al. 2022, Benzodiazepines in seizures and status epilepticus (CNS Drugs)",
+  "pubmed_id_or_url": "PMID 35971024 (PMC9477921)",
+  "opens": true,
+  "matches_named_paper": true,
+  "claims_checked": [
+   "OK: 'Benzodiazepines (BZDs) are the first-line treatment for SE worldwide'",
+   "OK: intravenous, intramuscular, rectal, intranasal routes (plus intrapulmonary); rapid onset"
+  ],
+  "problems": null
+ },
+ {
+  "source": "Carletti et al. 2013, Antiepileptic effect of DMSO in a rat temporal lobe epilepsy model (Neurosci Lett)",
+  "pubmed_id_or_url": "PMID 23643984",
+  "opens": true,
+  "matches_named_paper": true,
+  "claims_checked": [
+   "OK: rats; DMSO 10/50/100% gave a dose-dependent reduction of electrically induced paroxysmal activity (maximal dentate activation)",
+   "Wording: MD item 13 and JSON index 130/131 say 'fewer seizures'"
+  ],
+  "problems": "Minor wording: the study measured electrically induced paroxysmal activity (maximal dentate activation), not a count of seizures. MD item 13 and JSON index 130/131 say 'fewer seizures'; JSON index 44 has it right. Suggest 'less electrically induced seizure activity in a rat temporal-lobe model'."
+ },
+ {
+  "source": "Kovacs et al. 2011, DMSO and absence-like epileptic activity in WAG/Rij rats (J Neurosci Methods)",
+  "pubmed_id_or_url": "PMID 21320528",
+  "opens": true,
+  "matches_named_paper": true,
+  "claims_checked": [
+   "OK: WAG/Rij rats; low doses decreased, high doses increased absence-like epileptic activity",
+   "Population: MD item 13 does not say rats (JSON index 44/45/130 does)"
+  ],
+  "problems": "Minor population omission in MD item 13 ('more absence seizures at high doses'): the study was in WAG/Rij rats, but the item attaches 'rat' only to Carletti, although the report promises to say when a study is in rats. Suggest 'more absence seizures at high doses in a rat absence-epilepsy strain'."
+ },
+ {
+  "source": "Maral et al. 2018, DMSO-induced tonic-clonic seizure during stem cell infusion (Cell Tissue Bank)",
+  "pubmed_id_or_url": "PMID 30099684",
+  "opens": true,
+  "matches_named_paper": true,
+  "claims_checked": [
+   "OK: 52-year-old man, tonic-clonic seizure within minutes of starting a DMSO-cryopreserved autologous stem cell infusion (followed by cardiac arrest)"
+  ],
+  "problems": null
+ },
+ {
+  "source": "Zuidema et al. 2025, Critically ill MDMA patients, Amsterdam ICU (Clin Toxicol)",
+  "pubmed_id_or_url": "PMID 39977237",
+  "opens": true,
+  "matches_named_paper": true,
+  "claims_checked": [
+   "OK: 74 patients; threatened airway from trismus in 35 (47%), the most common reason for ICU admission",
+   "OK: 8 (11%) with hyperthermia all had secondary complications (rhabdomyolysis, AKI, liver injury/failure, DIC)",
+   "WRONG: JSON index 55 'Low sodium in 39% of MDMA ICU admissions'"
+  ],
+  "problems": "Wrong number in JSON index 55's finding ('Low sodium in 39% of MDMA ICU admissions'). The abstract says 'Seventeen patients (39%) presented with hyponatraemia', out of 74 admitted: 17/74 is 23%, so the 39% uses a smaller denominator the abstract doesn't give (about 44 patients). The full text couldn't be opened here (the publisher fetch was blocked). Suggest '17 of the 74 ICU patients (23%) had low sodium'. The MD doesn't use the 39%."
+ },
+ {
+  "source": "Allott & Redman 2005, Harm reduction practices of ecstasy users in Australia (Drug Alcohol Depend)",
+  "pubmed_id_or_url": "PMID 16226850",
+  "opens": true,
+  "matches_named_paper": true,
+  "claims_checked": [
+   "OK: 116 users; most common pre/postloading substances multivitamins, 5-HTP, magnesium, fruit juice; efficacy needs research"
+  ],
+  "problems": null
+ },
+ {
+  "source": "Goldy et al. 2026, MDMA aftereffects and coping strategies (Psychopharmacology)",
+  "pubmed_id_or_url": "PMID 42891831",
+  "opens": true,
+  "matches_named_paper": true,
+  "claims_checked": [
+   "OK: survey of 497 MDMA users",
+   "OK: 30.3% used supplements, most commonly N-acetyl-cysteine, acetyl-L-carnitine and magnesium",
+   "Attribution: JSON index 47 says magnesium was 'rated moderately helpful'"
+  ],
+  "problems": "Minor: JSON index 47 attaches 'rated moderately helpful' to magnesium, but the abstract gives 'moderate perceived helpfulness' for supplements (and antidepressants) as a group, not for magnesium on its own. There is no PMC full text. Suggest 'magnesium was among the three most common comedown supplements; supplements overall were rated moderately helpful'."
+ },
+ {
+  "source": "Costello et al. 2023, Re-evaluation of the magnesium upper intake level (Adv Nutr)",
+  "pubmed_id_or_url": "PMID 37487817 (PMC10509448)",
+  "opens": true,
+  "matches_named_paper": true,
+  "claims_checked": [
+   "OK (full text): quote 'cause diarrhea less often than other salt forms' is word for word ('Mg gluconate and Mg chloride have been preferred for oral replacement because they cause diarrhea less often than other salt forms')",
+   "OK (full text): quote 'vary greatly' is word for word; depends on formulation, duration, diet, health status",
+   "OK: 1997-2022 studies, 128-1200 mg/d (up to 1.2 g a day)",
+   "OK (full text): Fine et al., total Mg 1160, 2332 or 4690 mg/d for 4 days, given as a solution with 3 meals and a snack (4.7 g a day over meals)",
+   "OK (full text): 'Large doses should be spread throughout the day'; healthy kidneys clear excess so even excessive ingestion rarely raises serum Mg"
+  ],
+  "problems": null
+ },
+ {
+  "source": "Kontani et al. 2005, Hypermagnesemia from massive cathartic ingestion in an elderly woman (Intern Med)",
+  "pubmed_id_or_url": "PMID 15942092",
+  "opens": true,
+  "matches_named_paper": true,
+  "claims_checked": [
+   "OK: 76-year-old woman, constipation leading to ileus, 34 g magnesium citrate, Mg 16.6 mg/dl, no pre-existing renal dysfunction"
+  ],
+  "problems": null
+ },
+ {
+  "source": "Atila et al. 2023, MDMA provocation test (Lancet Diabetes Endocrinol)",
+  "pubmed_id_or_url": "PMID 37192642",
+  "opens": true,
+  "matches_named_paper": true,
+  "claims_checked": [
+   "OK: single oral 100 mg MDMA; 2 (13%) of 15 healthy controls and 4 (27%) of 15 patients developed transient mild hypokalaemia (JSON index 54 correct)",
+   "Population: MD item 20 says 'a few volunteers'"
+  ],
+  "problems": "Minor population point in MD item 20 ('a few volunteers had mild, passing low potassium'): of the six, 2 of 15 were healthy controls and 4 of 15 were patients with arginine vasopressin deficiency (central diabetes insipidus). JSON index 54 states it correctly. Suggest 'after one 100 mg dose, 2 of 15 healthy volunteers, and 4 of 15 patients with central diabetes insipidus, had mild, passing low potassium'."
+ },
+ {
+  "source": "Atila et al. 2024, Oxytocin and fluid restriction in MDMA hyponatremia (JAMA Netw Open)",
+  "pubmed_id_or_url": "PMID 39546312 (PMC11568463)",
+  "opens": true,
+  "matches_named_paper": true,
+  "claims_checked": [
+   "OK: 96 participants, single 100 or 125 mg dose; hyponatremia in 30 (31%)",
+   "OK: none of the 15 with restricted fluids; 30 of 81 (37%) unrestricted"
+  ],
+  "problems": null
+ },
+ {
+  "source": "Vizeli & Liechti 2017, Safety pharmacology of acute MDMA (J Psychopharmacol)",
+  "pubmed_id_or_url": "PMID 28443695",
+  "opens": true,
+  "matches_named_paper": true,
+  "claims_checked": [
+   "OK: 166 healthy subjects; body temperature >38 C in 19%, significantly more after 125 mg; adverse effects dose-dependent"
+  ],
+  "problems": null
+ },
+ {
+  "source": "Si et al. 2024, Near-fatal hypermagnesemia from Epsom salts with normal renal function (Front Med)",
+  "pubmed_id_or_url": "PMID 39021819 (PMC11251994)",
+  "opens": true,
+  "matches_named_paper": true,
+  "claims_checked": [
+   "OK: quote 'commonly occurs in patients with renal dysfunction' is word for word ('Hypermagnesemia commonly occurs in patients with renal dysfunction.')",
+   "OK: normal renal function, Epsom salts, Mg 8.71 mmol/L",
+   "Wording: JSON index 59 says 'after a stomach operation'"
+  ],
+  "problems": "Minor: JSON index 59 says the near-fatal case came 'after a stomach operation'. The subtotal gastrectomy was in 2005, 18 years earlier. The Epsom salts were taken before endoscopy for a bleeding anastomotic ulcer in 2023 (she also had a stable history of nephrotic syndrome). Suggest 'in a woman with a past stomach operation, taking Epsom salts before endoscopy'."
+ },
+ {
+  "source": "Nordt et al. 1996, Hypermagnesemia after acute Epsom salt ingestion with normal renal function (J Toxicol Clin Toxicol)",
+  "pubmed_id_or_url": "PMID 8941206",
+  "opens": true,
+  "matches_named_paper": true,
+  "claims_checked": [
+   "OK: massive Epsom salt ingestion, extreme musculoskeletal weakness and altered mentation; significant hypermagnesemia with normal renal function after oral magnesium 'is rare'"
+  ],
+  "problems": null
+ },
+ {
+  "source": "Witkowski et al. 2023, Erythritol and cardiovascular event risk (Nat Med)",
+  "pubmed_id_or_url": "PMID 36849732 (PMC10334259)",
+  "opens": true,
+  "matches_named_paper": true,
+  "claims_checked": [
+   "OK: circulating erythritol associated with MACE (death, nonfatal MI or stroke)",
+   "OK: erythritol enhanced platelet reactivity in vitro and thrombosis in vivo",
+   "OK (full text): one 300 mL drink with 30 g erythritol; levels 'remained significantly elevated for over 2 days in all participants'",
+   "Population: the platelet/clotting finding is lab work (human platelets in vitro; FeCl3 carotid thrombosis in mice); MD item 23 and JSON index 63 don't say so"
+  ],
+  "problems": "Minor population omission in MD item 23 and JSON index 63 ('erythritol made platelets clot more readily'). That finding is lab work: platelet-rich plasma and washed platelets from healthy volunteers, tested in a dish, plus a carotid-injury thrombosis model in mice. Only the link to heart attack and stroke comes from people (cohorts). Suggest 'and in lab tests, on human platelets and in mice, erythritol made blood clot more readily'."
+ },
+ {
+  "source": "Evans et al. 1993, DMSO blocks C-fiber conduction (Neurosci Lett)",
+  "pubmed_id_or_url": "PMID 8469412",
+  "opens": true,
+  "matches_named_paper": true,
+  "claims_checked": [
+   "OK: cat sural nerves; slowed at 5-7%; minimum blocking concentration 9%"
+  ],
+  "problems": null
+ },
+ {
+  "source": "Zellner et al. 2019, Activated charcoal to treat intoxications (Dtsch Arztebl Int)",
+  "pubmed_id_or_url": "PMID 31219028 (PMC6620762)",
+  "opens": true,
+  "matches_named_paper": true,
+  "claims_checked": [
+   "OK: indicated for moderately severe to life-threatening poisoning; as soon as possible, within the first hour; up to 6 h for timed-release",
+   "OK: ineffective for acids or bases, alcohols, organic solvents, inorganic salts, metals",
+   "OK: contraindication: impaired consciousness with danger of aspiration and an unsecured airway",
+   "OK: quote 'a poison control center should be consulted' is word for word",
+   "UNVERIFIED: that the review says charcoal 'can adsorb necessary medication' (MD item 24)"
+  ],
+  "problems": "Unverified attribution in MD item 24: 'The cited review says this' covers 'can adsorb necessary medication', which is not in the abstract. The full text couldn't be read here: the PubMed tool returned no body text twice, and the Europe PMC fetch was blocked. The JSON's Zellner findings don't make this claim; in JSON index 69 the medication point rests on Knadler 2011 (duloxetine). Unless the full text confirms it, credit that part to Knadler, as item 34 does."
+ },
+ {
+  "source": "Knadler et al. 2011, Duloxetine pharmacokinetics and interactions (Clin Pharmacokinet)",
+  "pubmed_id_or_url": "PMID 21366359",
+  "opens": true,
+  "matches_named_paper": true,
+  "claims_checked": [
+   "OK: 'activated charcoal decreases duloxetine exposure'"
+  ],
+  "problems": null
+ },
+ {
+  "source": "Dunkley et al. 2003, Hunter Serotonin Toxicity Criteria (QJM)",
+  "pubmed_id_or_url": "PMID 12925718",
+  "opens": true,
+  "matches_named_paper": true,
+  "claims_checked": [
+   "OK: 2222 serotonergic overdose admissions",
+   "OK: clonus (inducible, spontaneous, ocular), agitation, diaphoresis, tremor, hyperreflexia; hypertonicity and temperature >38 C added",
+   "OK: more sensitive (84% vs 75%) and specific (97% vs 96%) than Sternbach"
+  ],
+  "problems": null
+ },
+ {
+  "source": "Graudins et al. 1998, Cyproheptadine for serotonin syndrome (J Emerg Med)",
+  "pubmed_id_or_url": "PMID 9696181",
+  "opens": true,
+  "matches_named_paper": true,
+  "claims_checked": [
+   "OK: 5 cases; 4-8 mg orally; 3 complete resolution within 2 h; 2 after a repeat dose"
+  ],
+  "problems": null
+ },
+ {
+  "source": "King & Rotella 2025, Cyproheptadine in serotonin toxicity, systematic review (Emerg Med Australas)",
+  "pubmed_id_or_url": "PMID 39791184",
+  "opens": true,
+  "matches_named_paper": true,
+  "claims_checked": [
+   "OK: 12 articles (11 case reports, 1 case series), all very low evidence",
+   "OK: quote 'efficacy was not established' is word for word"
+  ],
+  "problems": null
+ },
+ {
+  "source": "Papaliodis et al. 2008, Niacin flush involves PGD2 and serotonin (J Pharmacol Exp Ther)",
+  "pubmed_id_or_url": "PMID 18784348",
+  "opens": true,
+  "matches_named_paper": true,
+  "claims_checked": [
+   "OK: methylnicotinate released serotonin from human platelets (in vitro)",
+   "OK: niacin raised plasma PGD2 and serotonin in a rat model of flush",
+   "OVERSTATED: 'a serotonin blocker stopped its temperature rise' (MD item 29); 'serotonin blockers stopped its temperature rise' (JSON index 94)",
+   "UNVERIFIED: which temperature was measured (the abstract calls it the temperature increase in a rat model of flush; full text not reachable)"
+  ],
+  "problems": "Overstated in MD item 29 and JSON index 94: the blockers did not stop the temperature rise. They cut it: ketanserin, the specific 5-HT2A blocker, by 85%; cyproheptadine by 90% and 50% (two values given); prochlorperazine by 90%. The abstract also frames this as the temperature increase in 'a rat model of flush' and never says core body temperature, so it is the flush's warming, not shown to be the kind of heat that matters in serotonin syndrome. The full text couldn't be opened to confirm where the temperature was measured. The paper's conclusion is that the flush involves both PGD2 and serotonin. Suggest: 'in a rat flush model, niacin raised blood serotonin, and serotonin blockers cut its temperature rise by 85-90%'."
+ },
+ {
+  "source": "Velarde et al. 2023, Adsorption of heavy metals on natural zeolites, review (Chemosphere)",
+  "pubmed_id_or_url": "PMID 36972873",
+  "opens": true,
+  "matches_named_paper": true,
+  "claims_checked": [
+   "OK: 'clinoptilolite is the most applied natural zeolite to remove heavy metals'; effective for As, Cd, Cr, Pb, Hg, Ni (from water)"
+  ],
+  "problems": null
+ },
+ {
+  "source": "Dolanc et al. 2023, Long-term clinoptilolite and metal profiles in rats (Biology)",
+  "pubmed_id_or_url": "PMID 36829471 (PMC9952783)",
+  "opens": true,
+  "matches_named_paper": true,
+  "claims_checked": [
+   "OK: healthy female rats, 12 weeks oral clinoptilolite; decrease of toxic metals in kidney, femur, small and large intestine (with transient serum rise)"
+  ],
+  "problems": null
+ },
+ {
+  "source": "Fitriansyah et al. 2026, Arabica coffee cascara phytochemicals (Pak J Biol Sci)",
+  "pubmed_id_or_url": "PMID 42723161",
+  "opens": true,
+  "matches_named_paper": true,
+  "claims_checked": [
+   "OK: cascara = dried coffee-cherry pulp and skin; caffeine content measured",
+   "Note: JSON title is a paraphrase; real title 'Effect of Growing Altitude on Phytochemical Profiles and Antioxidant Activity of Arabica Coffee Cascara (L.) in West Java'"
+  ],
+  "problems": null
+ },
+ {
+  "source": "Frigerio et al. 2020, Caffeine in bipolar disorder, systematic review (Bipolar Disord)",
+  "pubmed_id_or_url": "PMID 32949106",
+  "opens": true,
+  "matches_named_paper": true,
+  "claims_checked": [
+   "OK: 17 studies incl. 10 case reports; most case reports describe switches to manic, hypomanic or mixed states after caffeine; literature 'not conclusive'"
+  ],
+  "problems": null
+ },
+ {
+  "source": "Ravid et al. 1982, Prolonged DMSO in 13 patients with systemic amyloidosis (Ann Rheum Dis)",
+  "pubmed_id_or_url": "PMID 7149795 (PMC1000989)",
+  "opens": true,
+  "matches_named_paper": true,
+  "claims_checked": [
+   "OK: 13 patients, oral 7-15 g/day, 7-16 months",
+   "OK: 'No serious side effects of DMSO were encountered'",
+   "OK: quote 'Mild nausea and an unpleasant breath odour' is word for word"
+  ],
+  "problems": null
+ },
+ {
+  "source": "Coverly et al. 1998, Skin stinging, non-immunologic contact urticaria and irritation (Contact Dermatitis)",
+  "pubmed_id_or_url": "PMID 9506221",
+  "opens": true,
+  "matches_named_paper": true,
+  "claims_checked": [
+   "OK: 86 volunteers; neat DMSO gave the strongest urticant reactions of the substances tested",
+   "OK: sensory reactions (stinging, itching, tingling or burning) in 64% of stingers vs 76% of non-stingers (JSON's '64-76%' is the two subgroup rates)"
+  ],
+  "problems": null
+ },
+ {
+  "source": "Ozkaya-Bayazit et al. 1998, Intermittent topical DMSO in amyloidosis (Int J Dermatol)",
+  "pubmed_id_or_url": "PMID 9888342",
+  "opens": true,
+  "matches_named_paper": true,
+  "claims_checked": [
+   "OK: 13 patients, 50 or 100% DMSO; side effects contact urticaria, desquamation (peeling), burning, garlic-like breath odour, more prominent at the higher concentration"
+  ],
+  "problems": null
+ },
+ {
+  "source": "Obara et al. 2023, DMSO enhances ACh contractions by inhibiting AChE (Biol Pharm Bull)",
+  "pubmed_id_or_url": "PMID 36724965",
+  "opens": true,
+  "matches_named_paper": true,
+  "claims_checked": [
+   "OK: DMSO 0.5-5% enhanced ACh-induced contractions in rat bladder smooth muscle; inhibited recombinant human acetylcholinesterase (in vitro)"
+  ],
+  "problems": null
+ },
+ {
+  "source": "Kubota et al. 1998, DMSO and nociceptive transmission in newborn rat spinal cord (Eur J Pharmacol)",
+  "pubmed_id_or_url": "PMID 9687000",
+  "opens": true,
+  "matches_named_paper": true,
+  "claims_checked": [
+   "OK: isolated newborn rat spinal cord; DMSO 0.3-1% enhanced the slow ventral root potential, partly via cholinesterase inhibition"
+  ],
+  "problems": null
+ },
+ {
+  "source": "Ataseven et al. 2017, DMSO neurotoxicity in stem cell transplantation (J Pediatr Hematol Oncol)",
+  "pubmed_id_or_url": "PMID 28121745",
+  "opens": true,
+  "matches_named_paper": true,
+  "claims_checked": [
+   "OK: pediatric patient with seizures after DMSO-cryopreserved stem cell infusion; CNS effects of DMSO 'rarely seen'",
+   "Note: cited only in the JSON (index 130), not in the MD"
+  ],
+  "problems": null
+ },
+ {
+  "source": "Swanston et al. 1982, Cutaneous histamine-releasing activity of DMSO in guinea pigs (Toxicol Lett)",
+  "pubmed_id_or_url": "PMID 6177063",
+  "opens": true,
+  "matches_named_paper": true,
+  "claims_checked": [
+   "OK: guinea pig ear swelling abolished by H1- and H2-receptor blockers; mast cell degranulation; population guinea pigs"
+  ],
+  "problems": null
+ },
+ {
+  "source": "Lahti 1987, Terfenadine does not inhibit non-immunologic contact urticaria (Contact Dermatitis)",
+  "pubmed_id_or_url": "PMID 2885150",
+  "opens": true,
+  "matches_named_paper": true,
+  "claims_checked": [
+   "OK: 20 subjects; terfenadine 120 mg did not inhibit erythema or edema from 6 urticants including DMSO"
+  ],
+  "problems": null
+ },
+ {
+  "source": "Stout et al. 1995, DMSO does not trigger urine histamine release in interstitial cystitis (Urology)",
+  "pubmed_id_or_url": "PMID 7495115",
+  "opens": true,
+  "matches_named_paper": true,
+  "claims_checked": [
+   "OK: 12 women; no consistent change in urine histamine:creatinine after intravesical DMSO"
+  ],
+  "problems": null
+ },
+ {
+  "source": "Agnew & Hoffer 1955, Nicotinic acid modified LSD psychosis (J Ment Sci)",
+  "pubmed_id_or_url": "PMID 14368207",
+  "opens": true,
+  "matches_named_paper": true,
+  "claims_checked": [
+   "OK: title 'Nicotinic acid modified lysergic acid diethylamide psychosis'; no abstract in PubMed"
+  ],
+  "problems": null
+ },
+ {
+  "source": "Szentirmai & Kapas 2019, Nicotinic acid promotes sleep in mice (Sci Rep)",
+  "pubmed_id_or_url": "PMID 31745228 (PMC6863905)",
+  "opens": true,
+  "matches_named_paper": true,
+  "claims_checked": [
+   "OK: mice; increased NREM sleep and decreased body temperature"
+  ],
+  "problems": null
+ },
+ {
+  "source": "Meyers et al. 2003, Free nicotinic acid in OTC niacin (Ann Intern Med)",
+  "pubmed_id_or_url": "PMID 14678919",
+  "opens": true,
+  "matches_named_paper": true,
+  "claims_checked": [
+   "OK: no-flush preparations contained no free nicotinic acid",
+   "OK: 'some brands [of sustained-release] are hepatotoxic'"
+  ],
+  "problems": null
+ },
+ {
+  "source": "Litjens & Brunt 2016, How toxic is ibogaine? (Clin Toxicol)",
+  "pubmed_id_or_url": "PMID 26807959",
+  "opens": true,
+  "matches_named_paper": true,
+  "claims_checked": [
+   "OK: 27 fatalities; 8 case reports of QT prolongation / ventricular tachyarrhythmias without pre-existing cardiovascular condition",
+   "OK: metabolized mainly by CYP2D6; CYP2D6 interaction risk with other medication",
+   "OK (loosely): JSON index 148 'toxicity rises with dose' (the abstract's dose evidence is rat neurotoxicity, absent below 25 mg/kg ip; deaths tied to heart conditions and co-medication)"
+  ],
+  "problems": null
+ },
+ {
+  "source": "Szumlinski et al. 1999, Ibogaine increases potency of cocaine in rats (Psychopharmacology)",
+  "pubmed_id_or_url": "PMID 10463325",
+  "opens": true,
+  "matches_named_paper": true,
+  "claims_checked": [
+   "OK: rats; ibogaine pretreatment enhanced cocaine's locomotor effects"
+  ],
+  "problems": null
+ },
+ {
+  "source": "Sunder Sharma & Bhargava 1998, Ibogaine and noribogaine enhance morphine antinociception (Pharmacology)",
+  "pubmed_id_or_url": "PMID 9742287",
+  "opens": true,
+  "matches_named_paper": true,
+  "claims_checked": [
+   "OK: male mice; enhanced morphine antinociception in morphine-tolerant (not naive) mice"
+  ],
+  "problems": null
+ },
+ {
+  "source": "Asmis et al. 2010, DMSO inhibits human platelet activation via COX-1 (BBRC) [MD 'Already settled' paragraph]",
+  "pubmed_id_or_url": "PMID 20035720",
+  "opens": true,
+  "matches_named_paper": true,
+  "claims_checked": [
+   "OK: lab work only: platelets from healthy volunteers' blood, tested in vitro; mild effects (-15.5% adherence, -6.4% maximal aggregation)",
+   "OK: year: e-published 2009-12-24, print issue 2010"
+  ],
+  "problems": null
+ },
+ {
+  "source": "Camici et al. 2006, DMSO inhibits tissue factor and thrombus formation (Circulation) [MD 'Already settled' paragraph]",
+  "pubmed_id_or_url": "PMID 17000906",
+  "opens": true,
+  "matches_named_paper": true,
+  "claims_checked": [
+   "OK: lab work only: human cells in vitro plus a mouse carotid injury model"
+  ],
+  "problems": null
+ }
+]

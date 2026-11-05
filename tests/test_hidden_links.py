@@ -53,6 +53,39 @@ class HiddenLinks(unittest.TestCase):
             links[0]['raised'] = 'skips digestion'
             (p / 'run' / 'LINKS.json').write_text(json.dumps(links), encoding='utf-8')
             H.main(['collect', str(p / 'run')])  # a second collect keeps the answer
+            # every link answered, but the draft itself hasn't been read yet (E355)
+            self.assertEqual(H.main(['check', str(p / 'run'), str(p / 'draft.txt')]), 1)
+            self.assertEqual(H.main(['make', str(p / 'draft.txt'), str(p / 'run' / 'draft')]), 0)
+            (p / 'run' / 'draft' / 'READER.md').write_text('none\n', encoding='utf-8')
+            H.main(['collect', str(p / 'run' / 'draft')])
+            self.assertEqual(H.main(['check', str(p / 'run'), str(p / 'draft.txt')]), 0)
+
+    def test_the_draft_itself_gets_a_fresh_read(self):
+        """Joel, 2026-11-04 16:00 UTC, on my kits: "your version, r08, makes no sense by the 6th word. Where is the "but"
+        coming from? ... it only follows from "these" kits not "three kits"" (E355)."""
+        with tempfile.TemporaryDirectory() as d:
+            p = pathlib.Path(d)
+            (p / 'in.txt').write_text('Gemini suggested these kits to me, but so far they are the best.', encoding='utf-8')
+            H.main(['make', str(p / 'in.txt'), str(p / 'run')])
+            (p / 'run' / 'READER.md').write_text('none\n', encoding='utf-8')
+            H.main(['collect', str(p / 'run')])
+            (p / 'draft.txt').write_text('Gemini suggested three kits to me, but so far they are the best.', encoding='utf-8')
+            self.assertIn('no fresh read of its own', ' '.join(H.draft_problems(p / 'run', (p / 'draft.txt').read_text())))
+            H.main(['make', str(p / 'draft.txt'), str(p / 'run' / 'draft')])
+            self.assertIn('"this", "that", "it"', (p / 'run' / 'draft' / 'BRIEF.txt').read_text(encoding='utf-8'))
+            (p / 'run' / 'draft' / 'READER.md').write_text('S1 | "but so far" | Why "but"? What is it answering?\n', encoding='utf-8')
+            H.main(['collect', str(p / 'run' / 'draft')])
+            self.assertEqual(H.main(['check', str(p / 'run'), str(p / 'draft.txt')]), 1)
+            # fixed: a new draft, so the old read is stale until the new one is read
+            (p / 'draft.txt').write_text('Gemini suggested these kits to me, but so far they are the best.', encoding='utf-8')
+            self.assertIn('changed after its fresh read', ' '.join(H.draft_problems(p / 'run', (p / 'draft.txt').read_text())))
+            # a flag the words answer can be dropped with a note instead
+            H.main(['make', str(p / 'draft.txt'), str(p / 'run' / 'draft')])
+            (p / 'run' / 'draft' / 'READER.md').write_text('S1 | "Gemini" | Who is Gemini?\n', encoding='utf-8')
+            H.main(['collect', str(p / 'run' / 'draft')])
+            g = json.loads((p / 'run' / 'draft' / 'LINKS.json').read_text(encoding='utf-8'))
+            g[0].update(status='drop', note='the article introduces his Gemini Gem earlier')
+            (p / 'run' / 'draft' / 'LINKS.json').write_text(json.dumps(g), encoding='utf-8')
             self.assertEqual(H.main(['check', str(p / 'run'), str(p / 'draft.txt')]), 0)
 
 

@@ -161,6 +161,18 @@ class PostEmbeds(unittest.TestCase):
             ('audio', 'bc40d36b-6d3d-470d-a25d-14eb7eb067fb')])
         self.assertEqual(found[1][2], 'The song I subtitled:')
 
+    def test_a_video_in_the_editor_html(self):
+        # his pasted editor HTML has no data-component-name on a YouTube video, only class="youtube-wrap"
+        editor = ('<p>Before it:</p><div class="captioned-image-container"><figure><picture><source srcset="x.png"><img '
+                  'src="x.png"></picture></figure></div>'
+                  '<div id="youtube2-1aBjoARwlOY" class="youtube-wrap" data-attrs="{&quot;videoId&quot;:'
+                  '&quot;1aBjoARwlOY&quot;,&quot;startTime&quot;:null}" contenteditable="false"><div class="youtube-inner">'
+                  '<iframe src="https://www.youtube-nocookie.com/embed/1aBjoARwlOY?rel=0"></iframe></div></div><p>After.</p>')
+        self.assertEqual(post_embeds.embeds(editor), [('video', '1aBjoARwlOY', 'Before it:')])
+        # the published page, which has both markers on one video, still lists it once
+        both = editor.replace('class="youtube-wrap"', 'class="youtube-wrap" data-component-name="Youtube2ToDOM"')
+        self.assertEqual([(k, r) for k, r, _ in post_embeds.embeds(both)], [('video', '1aBjoARwlOY')])
+
     def test_the_ones_the_article_has_no_note_for(self):
         md = ('<!-- IMAGE https://substack-post-media.s3.amazonaws.com/public/images/40c24f21-070c-4bc5-9333-c838b20d46dd_1122x1402.png : c -->\n'
               '<!-- EMBED https://www.youtube.com/watch?v=4PxC3zZ2Mus : v -->\n')

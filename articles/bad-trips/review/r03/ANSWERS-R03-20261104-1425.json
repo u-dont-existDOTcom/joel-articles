@@ -1,0 +1,216 @@
+{
+ "format": "joel-suggestion-review-answers-v1",
+ "review_id": "bad-trips-r03",
+ "title": "Bad Trips Guide, Round 3",
+ "git_file": "articles/bad-trips/review/r03/REVIEW-R03.html",
+ "article": {
+  "file": "articles/bad-trips/review/r03/PAGE-R03.md",
+  "sha256": "0d07592ef70d4c6449850965017fee7fb94051c642d3debd78588d0383c21f3f"
+ },
+ "built": "2026-11-04",
+ "generator": "suggestion_review.py 1.5 (2026-11-02)",
+ "exported_at": "2026-11-04T14:24:56.464Z",
+ "counts": {
+  "approved": 7,
+  "rejected": 1,
+  "revise": 1,
+  "pending": 0
+ },
+ "items": [
+  {
+   "id": "W-CBD",
+   "type": "more",
+   "title": "CBD through the skin: what the linked trial found",
+   "where": "Active Seizure, P3",
+   "advice": "approve",
+   "status": "revise",
+   "your_version": "",
+   "comment": "Yes, CBD may help reduce focal seizures, particularly in people with drug-resistant epilepsy, but the evidence is mixed. Its effectiveness for focal seizures is less firmly established than for certain other types of epilepsy.\n\nHere's what clinical research shows:\n\n- 2022 randomized trial (188 adults): Transdermal CBD did not reduce focal seizure frequency significantly more than placebo over 12 weeks.&#x20;\n\n  [image](https://www.google.com/s2/favicons?domain=https://pubmed.ncbi.nlm.nih.gov\\&sz=32)\n\n  PubMed\n\n- 2025 study: In people with treatment-resistant focal epilepsy taking oral CBD alongside their existing medications, median focal seizure reductions ranged from 46% to 75% in participants without tuberous sclerosis. However, this was an open-label study without a placebo control, so it cannot establish how much improvement CBD itself caused.&#x20;\n\n  [image](https://www.google.com/s2/favicons?domain=https://pubmed.ncbi.nlm.nih.gov\\&sz=32)\n\n  PubMed\n\n- Established uses: Prescription purified CBD (Epidiolex) is FDA-approved for seizures associated with Dravet syndrome, Lennox-Gastaut syndrome, and tuberous sclerosis complex, but not ordinary focal epilepsy.&#x20;\n\n  [image](https://www.google.com/s2/favicons?domain=https://www.fda.gov\\&sz=32)\n\n  FDA\n\n\n\nThe distinction between oral CBD and transdermal CBD matters: the negative randomized trial tested CBD delivered through the skin, whereas the encouraging uncontrolled results involved oral CBD.\n\nAn important detail is that the 2025 study used a median dose of approximately 23 mg/kg/day in participants without tuberous sclerosis. That's about 1,380 mg daily for a 60 kg person, substantially more than typical over-the-counter CBD doses.&#x20;\n\n[image](https://www.google.com/s2/favicons?domain=https://onlinelibrary.wiley.com\\&sz=32)\n\nWiley Online Library\n\n\n\nCBD also has meaningful medication interactions:\n\n- Clobazam: CBD can increase its active metabolite, causing additional sedation.\n- Valproate: Combining it with CBD raises the risk of elevated liver enzymes.\n- Other antiseizure medications: Interactions need to be checked individually.&#x20;\n\n  [image](https://www.google.com/s2/favicons?domain=https://dailymed.nlm.nih.gov\\&sz=32)\n\n  dailymed.nlm.nih.gov\n\n\n\nBottom line: Purified oral CBD is a plausible additional treatment for difficult-to-control focal seizures, but its effectiveness outside tuberous sclerosis is not yet established by strong randomized evidence. It should not replace existing antiseizure medication.\n\nAre you asking about focal aware seizures (consciousness preserved), focal impaired-awareness seizures, or focal seizures that progress into generalized convulsions? That distinction could help narrow the evidence.",
+   "my_version": "I would also use topical magnesium chloride and consider topical DMSO with a known CBD preparation as adjuncts. CBD has established antiseizure activity in several epilepsy syndromes. In a 12-week trial, a CBD skin gel reached the blood at levels like oral CBD's but did no better than placebo against focal seizures, and it hasn't been tested as rapid seizure rescue. DMSO reduced seizure activity in a rat temporal-lobe epilepsy model and has several neuroprotective mechanisms, but it produced the opposite effect at some doses in an absence-epilepsy model. I treat it as a plausible experimental adjunct rather than something to wait on while a seizure continues.",
+   "before": "I would also use topical magnesium chloride and consider topical DMSO with a known CBD preparation as adjuncts. CBD has established antiseizure activity in several epilepsy syndromes, and transdermal CBD reaches systemic circulation, although it has not been validated as rapid seizure rescue. DMSO reduced seizure activity in a rat temporal-lobe epilepsy model and has several neuroprotective mechanisms, but it produced the opposite effect at some doses in an absence-epilepsy model. I treat it as a plausible experimental adjunct rather than something to wait on while a seizure continues.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-04T14:11:20.519Z"
+    },
+    {
+     "from": "approved",
+     "to": "revise",
+     "at": "2026-11-04T14:24:38.063Z"
+    }
+   ],
+   "updated": "2026-11-04T14:24:44.569Z"
+  },
+  {
+   "id": "W-SS",
+   "type": "more",
+   "title": "Which psychedelics bring on serotonin syndrome",
+   "where": "Suspected Serotonin Syndrome (SS), P1",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "Serotonin syndrome overlaps with several symptoms above, but the rescue measures in the other branches do not necessarily treat it. It can follow serotonergic medication changes, combinations, or excessive exposure. Ayahuasca and other MAOI brews, MDMA, DXM, many antidepressants, tramadol, linezolid, other MAOIs, and some opioids can contribute, especially in combinations.",
+   "comment": "",
+   "my_version": "Serotonin syndrome overlaps with several symptoms above, but the rescue measures in the other branches do not necessarily treat it. It can follow serotonergic medication changes, combinations, or excessive exposure. Ayahuasca and other MAOI brews, MDMA, DXM, many antidepressants, tramadol, linezolid, other MAOIs, and some opioids can contribute, especially in combinations.",
+   "before": "Serotonin syndrome overlaps with several symptoms above, but the rescue measures in the other branches do not necessarily treat it. It can follow serotonergic medication changes, combinations, or excessive exposure. Psychedelics, MDMA, DXM, many antidepressants, tramadol, linezolid, MAOIs, and some opioids can contribute, especially in combinations.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "revise",
+     "at": "2026-11-04T14:15:03.360Z"
+    },
+    {
+     "from": "revise",
+     "to": "approved",
+     "at": "2026-11-04T14:15:21.351Z"
+    }
+   ],
+   "updated": "2026-11-04T14:15:21.351Z"
+  },
+  {
+   "id": "W-ITCH",
+   "type": "more",
+   "title": "Why a ferment can make someone itch",
+   "where": "Zeolite and Ferment in ZHoly3O, P2",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "Many ferments help to different degrees, including kombucha, kimchi, and apple vinegar. I prefer fermented beet juice made with apple vinegar and salt. Smelling the ferment helps a lot. Drinking a spoonful can also help, although it may cause itching in somebody who breaks down histamine poorly, which then requires activated charcoal to reduce gut histamine.",
+   "before": "Many ferments help to different degrees, including kombucha, kimchi, and apple vinegar. I prefer fermented beet juice made with apple vinegar and salt. Smelling the ferment helps a lot. Drinking a spoonful can also help, although it may cause itching in somebody low in histamine-processing bacteria, which then requires activated charcoal to reduce gut histamine.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-04T14:15:31.616Z"
+    }
+   ],
+   "updated": "2026-11-04T14:15:31.616Z"
+  },
+  {
+   "id": "W-SLEEP",
+   "type": "more",
+   "title": "DMSO and sleep: what the rats showed",
+   "where": "DMSO, P5",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "Reduced sleep: DMSO reduces how long I sleep when I take too much, take it too late, or use it over too many consecutive days. It builds up past a threshold that seems to differ between people. In rats, higher doses made sleep lighter. Some people sleep better with DMSO because it reduces whatever symptom had been keeping them awake.",
+   "before": "Reduced sleep: DMSO reduces how long I sleep when I take too much, take it too late, or use it over too many consecutive days. It builds up past a threshold that seems to differ between people. This is proven in rats. Some people sleep better with DMSO because it reduces whatever symptom had been keeping them awake.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-04T14:16:57.369Z"
+    }
+   ],
+   "updated": "2026-11-04T14:16:57.369Z"
+  },
+  {
+   "id": "W-TAR",
+   "type": "nothing",
+   "title": "Nebulizing DMSO with tar in the lungs",
+   "where": "DMSO, P8",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "(cut: Don't nebulize too much DMSO when your lungs are full …)",
+   "before": "Don't nebulize too much DMSO when your lungs are full of smoking-related tar, because it can carry those substances into the blood too quickly. Weakness is an early symptom.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "rejected",
+     "at": "2026-11-04T14:17:04.185Z"
+    },
+    {
+     "from": "rejected",
+     "to": "approved",
+     "at": "2026-11-04T14:17:50.194Z"
+    }
+   ],
+   "updated": "2026-11-04T14:17:50.194Z"
+  },
+  {
+   "id": "W-NSAID",
+   "type": "more",
+   "title": "DMSO with corticosteroids and NSAIDs",
+   "where": "DMSO, P9",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "Don't take it with drugs that should not absorb rapidly: DMSO can strengthen other medicines taken with it. With harmalas, don't put the harmala in the DMSO or take them at exactly the same time; taking them a bit apart is totally fine, and the point is to take DMSO if you've already absorbed the harmalas and the aya is too crazy.",
+   "before": "Don't take it with drugs that should not absorb rapidly, including corticosteroids and NSAIDs. With harmalas, don't put the harmala in the DMSO or take them at exactly the same time; taking them a bit apart is totally fine, and the point is to take DMSO if you've already absorbed the harmalas and the aya is too crazy.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-04T14:23:58.413Z"
+    }
+   ],
+   "updated": "2026-11-04T14:23:58.413Z"
+  },
+  {
+   "id": "W-CHOLINE",
+   "type": "nothing",
+   "title": "\"DMSO depletes choline\"",
+   "where": "DMSO, P10",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "Don't combine it with cholinergic drugs because DMSO is also cholinergic, although I haven't found anecdotes of this causing a real problem.",
+   "before": "Don't combine it with cholinergic drugs because DMSO is also cholinergic, although I haven't found anecdotes of this causing a real problem. Supplement extra choline because DMSO depletes it.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-04T14:24:13.869Z"
+    }
+   ],
+   "updated": "2026-11-04T14:24:13.869Z"
+  },
+  {
+   "id": "W-GLORY",
+   "type": "new",
+   "title": "A 2026 study on beach morning glory's safety",
+   "where": "Beach Morning Glory – Ipomoea pes-caprae, P5",
+   "advice": "approve",
+   "status": "rejected",
+   "your_version": "",
+   "comment": "not sure why mice with no immune system says about an herb humans use traditionally already",
+   "my_version": "A whole leaf can easily end the trip and, in my experience, may prevent tripping for days afterward. Daily use is another matter: in a 2026 study, a leaf tea given every day to mice with tumors, at a dose scaled from the traditional tea, caused skin sores and killed 7 of 10 within 15 days, though one large dose did healthy mice no immediate harm.",
+   "before": "A whole leaf can easily end the trip and, in my experience, may prevent tripping for days afterward.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "rejected",
+     "at": "2026-11-04T14:16:19.200Z"
+    }
+   ],
+   "updated": "2026-11-04T14:16:46.787Z"
+  },
+  {
+   "id": "W-CHEST",
+   "type": "call",
+   "title": "Mild, familiar chest discomfort",
+   "where": "Chest Pain and Injury, P3",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "Mild, familiar, non-progressive discomfort in a fully alert person is different from new, severe, persistent, worsening, radiating, or exertional pain – or pain with breathlessness, sweating, faintness, neurological changes, or collapse. In the second branch, I would use DMSO while arranging medical evaluation. If you're not sure which branch it is, treat it as the second. DMSO can also block pain signals, so pain relief alone does not prove that the underlying problem has ended.",
+   "before": "Mild, familiar, non-progressive discomfort in a fully alert person is different from new, severe, persistent, worsening, radiating, or exertional pain – or pain with breathlessness, sweating, faintness, neurological changes, or collapse. In the second branch, I would use DMSO while arranging medical evaluation. DMSO can also block pain signals, so pain relief alone does not prove that the underlying problem has ended.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-04T14:14:09.127Z"
+    }
+   ],
+   "updated": "2026-11-04T14:14:09.127Z"
+  }
+ ]
+}

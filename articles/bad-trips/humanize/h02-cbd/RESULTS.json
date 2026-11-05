@@ -1,0 +1,161 @@
+{
+ "about": "Pangram web-app checks of the CBD paragraph (B111) after round 4, at his comment on W-CBD2: 'now fix it so it passes pangram' (2026-11-04 14:58 UTC). Every window with its confidence. No prediction was logged in humanize/pangram-ledger.jsonl before these checks, so they are recorded here and not scored there; the next check of this paragraph gets its prediction first.",
+ "detector": "Pangram web app (his account, Pangram Professional), through his Brave",
+ "checks": [
+  {
+   "key": "bt-r04-active-seizure",
+   "scope": "section (Active Seizure: heading and 4 paragraphs, round 4's W-CBD2 in)",
+   "text_file": "../../review/r04/GUIDE-AFTER-R04.md (B108-B112, plain)",
+   "sha256": "1cfbc08e7ba06f77a5f35629ba4c567737bc83664c6698ac3e40d53cd9b60050",
+   "words": 305,
+   "headline": "AI Generated",
+   "ai_likelihood": 1.0,
+   "windows": [
+    [
+     "AI-Generated",
+     "High",
+     97,
+     "heading, B109, B110"
+    ],
+    [
+     "AI-Generated",
+     "Medium",
+     18,
+     "B111's first sentence (his: 'I would also use topical magnesium chloride ...')"
+    ],
+    [
+     "AI-Generated",
+     "High",
+     190,
+     "the rest of B111 and B112"
+    ]
+   ],
+   "at": "2026-11-04T15:06:47Z",
+   "link": "https://www.pangram.com/history/4a1f3bb6-6bd3-481b-94c1-477de1ea3c8e"
+  },
+  {
+   "key": "bt-cbd-C1",
+   "scope": "paragraph (B111, my first version)",
+   "text_file": "C1.txt",
+   "words": 186,
+   "headline": "AI Generated",
+   "ai_likelihood": 1.0,
+   "windows": [
+    [
+     "AI-Generated",
+     "Medium",
+     18,
+     "first sentence"
+    ],
+    [
+     "AI-Generated",
+     "High",
+     168,
+     "the rest"
+    ]
+   ],
+   "at": "2026-11-04T15:08:26Z",
+   "link": "https://www.pangram.com/history/ec075547-e302-4256-856c-e44a9afc3520",
+   "sha256": "d3f675022479129772594dc687e5f7d305ab3ac5b0c33dee6b65567621cdfa8e"
+  },
+  {
+   "key": "bt-cbd-C2",
+   "scope": "paragraph (B111, my second version: the skin gel first, then oral CBD)",
+   "text_file": "C2.txt",
+   "words": 190,
+   "headline": "AI Detected",
+   "ai_likelihood": 0.95,
+   "windows": [
+    [
+     "AI-Generated",
+     "Low",
+     18,
+     "first sentence"
+    ],
+    [
+     "AI-Generated",
+     "Medium",
+     13,
+     "'CBD on the skin hasn't been shown to help with seizures, though.'"
+    ],
+    [
+     "AI-Generated",
+     "High",
+     159,
+     "the rest"
+    ]
+   ],
+   "at": "2026-11-04T15:08:37Z",
+   "link": "https://www.pangram.com/history/5edcd0d9-1a19-4c2d-a158-0ef666bde712",
+   "sha256": "50246bf4fb47a4e6867e910d4696fada1fd3f153856d6dab225d5e5701bf9669"
+  },
+  {
+   "key": "bt-cbd-C3",
+   "scope": "paragraph (B111, my third version, after the tell panel on C2: panel-C2/PANEL.md)",
+   "text_file": "C3.txt",
+   "words": 198,
+   "headline": "AI Generated",
+   "ai_likelihood": 1.0,
+   "windows": [
+    [
+     "AI-Generated",
+     "Medium",
+     18,
+     "first sentence"
+    ],
+    [
+     "AI-Generated",
+     "High",
+     180,
+     "the rest"
+    ]
+   ],
+   "at": "2026-11-04T15:18:28Z",
+   "link": "https://www.pangram.com/history/926b3ab8-73a1-494a-bcbb-88b6eb578488",
+   "sha256": "34c231b7cad4f0dcabc0ce60adce13164f296261a7ba8f6cbfd7616a493bda5f"
+  },
+  {
+   "key": "bt-cbd-C4codex",
+   "scope": "paragraph (B111, GPT's version from the second writer's brief, REWRITE-PROMPT.txt, Codex on his laptop)",
+   "text_file": "C4-codex.txt",
+   "words": 191,
+   "headline": "AI Generated",
+   "ai_likelihood": 1.0,
+   "windows": [
+    [
+     "AI-Generated",
+     "Low",
+     18,
+     "first sentence"
+    ],
+    [
+     "AI-Generated",
+     "Medium",
+     19,
+     "'If the seizure keeps going, don't wait for DMSO. I think DMSO could help as an experimental extra.'"
+    ],
+    [
+     "AI-Generated",
+     "Low",
+     52,
+     "the DMSO evidence and the approval"
+    ],
+    [
+     "AI-Generated",
+     "High",
+     78,
+     "the focal-seizure evidence"
+    ],
+    [
+     "AI-Generated",
+     "Medium",
+     24,
+     "the 12-week trial"
+    ]
+   ],
+   "at": "2026-11-04T15:21:52Z",
+   "link": "https://www.pangram.com/history/6d4a8f3f-886e-4ee1-9cd4-671cae701cc7",
+   "sha256": "26071ded7bab167a83a8f101ffbb3cc5c32c5a3b6712f2af1e963ebdd6255513"
+  }
+ ]
+}

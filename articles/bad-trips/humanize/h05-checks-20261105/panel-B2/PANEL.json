@@ -1,0 +1,59 @@
+{
+ "readers": [
+  "codex",
+  "haiku",
+  "sonnet"
+ ],
+ "sentences": [
+  "Cannabis at the start of an aura can go either way, so it's for someone who already knows how it affects their seizures.",
+  "Some people say smoking or vaping it the moment an aura starts keeps the seizure from going further, and one woman's EEG showed fewer seizure discharges on the days she smoked.",
+  "Others say THC vapes and concentrates brought their seizures on.",
+  "And in rats, high-THC smoke made absence seizures worse, which are the brief staring kind.",
+  "Smoking or vaping also takes someone fully awake, so never try it on someone who's already convulsing."
+ ],
+ "flagged": {
+  "1": [
+   "haiku",
+   "sonnet"
+  ],
+  "2": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ],
+  "3": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ],
+  "4": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ],
+  "5": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ]
+ },
+ "agreed": [
+  1,
+  2,
+  3,
+  4,
+  5
+ ],
+ "whole": {
+  "codex": [
+   "The paragraph moves neatly through possible benefit, opposing reports, animal evidence, and a closing warning, which can suggest AI polishing. Its conversational language also feels consistently managed, although neither feature establishes authorship."
+  ],
+  "haiku": [
+   "Every sentence is a single, evenly weighted beat of similar length, and the paragraph runs as a clean three-part argument (benefit, harm, animal data) that closes on a rule, so the rhythm and construction feel built to a template rather than discovered. The voice stays informational and detached from any lived experience, which is also typical of generated text."
+  ],
+  "sonnet": [
+   "The paragraph is built as a perfectly balanced arc: caveat, evidence for, evidence against, an animal-study point, then a safety warning, with every sentence of similar medium length and similar flat tone. There is no personal voice or stake, only even-handed summary."
+  ]
+ },
+ "human_clean": []
+}
