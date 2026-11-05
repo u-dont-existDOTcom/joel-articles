@@ -2470,7 +2470,7 @@ His message, word for word: `articles/neuro-de-armoring/humanize/fix-20261104/jo
   high conf human"). Where it's written down: the lane's `fix-20261103/examples/WHAT-HIS-VERSIONS-DO.md`, versions twelve
   and thirteen.
 
-(E342, E345, E347 to E349 and E351 are the gut lane's, in its section above. The next lesson in either lane is E360.)
+(E342, E345, E347 to E349 and E351 are the gut lane's, in its section above. The next lesson in either lane was E360 here; it is in the next section.)
 
 ## What the bad trips guide's round 5 taught (2026-11-04, his answers exported 22:14 UTC)
 
@@ -2520,39 +2520,44 @@ changed: `docs/MAKING-SENSE.md`.
   which fix was the last one tried. This narrows E343's "one paragraph at a time" and the method-switch rule in
   `AGENTS.md`: switching is for a method that has failed the same way repeatedly, not for one check that didn't move.
 
-## What the bad trips guide's round 6 taught (2026-11-05, his answers exported 15:14 UTC)
+- **E362. A check that takes away a point's payoff takes the point away too, his points included; and a lesson he has
+  given once is applied to every card after it.** Joel, 2026-11-05 15:07 UTC, on round 6's CBD-TRIAL card, which kept his
+  7-OH-CBD point under "What stays" and explained it at more length after the paper showed 7-OH-CBD works about as well
+  as CBD, not better: "i already told you to stop putting stuff in that is wasting reader's time ... READ what you
+  wrote, it literally is a whole big waste of time to talk about this, there's NO PAYOFF ... why did i have to tell you
+  this twice? fix the way you work because i'm not telling you the same stuff over and over." The cause: the card was
+  built after E360 had asked "does this fact help this reader now?", but I asked it only of my own sentences, and kept
+  his point because it was his. Two fixes in `docs/MAKING-SENSE.md`, question 7: after a fact check weakens a point, ask
+  what the reader would now do differently because of it, and if nothing, propose the cut; and a card's "What stays" is
+  read with that question too. In the same answers: evidence chosen for the reader's own case ("why are we talking
+  about focal seizures, when seizures from mdma and psychedelic overdoses are generalized seizures"), things of one kind
+  kept together ("move the non-cannabis para above all the cannabis info"), and his movement paragraph, which read Human,
+  High with nothing changed but the order ("the problem was simply that you had the ideas out of their natural order").
+  Where it's written down: `docs/MAKING-SENSE.md`, questions 6, 7 and 9; the bad trips lane's
+  `articles/bad-trips/review/r06/apply_r06.py`.
 
-His versions and comments, word for word: `articles/bad-trips/review/r06/ANSWERS-R06-20261105-1514.json`; the questions
-they sharpened: `docs/MAKING-SENSE.md`.
+## What the bad trips guide's round 6 taught, part two (2026-11-05, a second session on the same answers)
 
-- **E362. A rule he has stated is enforced where the work passes, not only written down: every sentence I write carries
-  its payoff for this reader's case, and a point whose check took away its reason goes.** My round-6 card on the skin-gel
-  trial kept his "potentially more active form (7-OH-CBD)" clause after I checked it, corrected it (7-OH-CBD stopped
-  seizures in mice about as well as CBD) and made it longer, and it brought in a trial of adults with focal epilepsy for a
-  reader facing a seizure from MDMA or a psychedelic overdose. Joel: "i already told you to stop putting stuff in that is
-  wasting reader's time. you forgot what i said about 7-OH-CBD in my last message? READ what you wrote, it literally is a
-  whole big waste of time to talk about this, there's NO PAYOFF. nobody asked why CBD is better or worse than 7-OH-CBD,
-  the only reason to mention that is if that's important to consider which we establish it probably IS NOT... why did i
-  have to tell you this twice? fix the way you work because i'm not telling you the same stuff over and over." And: "why
-  are we talking about focal seizures, when seizures from mdma and psychedelic overdoses are generalized seizures,
-  right?" The cause: E360's question 7 ("does this fact help this reader now?") was in `docs/MAKING-SENSE.md`, and the
-  source check (E348) gave me a job that felt like progress (make the point correct) while nothing made me ask the
-  question again of the corrected point, or of each sentence, before the card went out. What changed (UDA's
-  `patterns/task-time-lesson-activation.md`: when the owner catches a violation of a rule he already stated, repair the
-  enforcement): `tools/humanization/sense_receipt.py` makes the read leave a receipt, with a payoff and a reason for its
-  place for every sentence I write, judged against a reader stated as their case ("a seizure from MDMA or a psychedelic
-  overdose, which is generalized", not "seizures"), and a `still_needed` answer for every point I checked, where "no"
-  must be cut. `pangram_ledger.py predict` refuses my text without a passing receipt, and `suggestion_review.py` refuses a
-  marking page whose new words have none (from 2026-11-05). The same predict also refuses a retry that rewrites more
-  than 40% of the last try without `--big-change`, so E361's "next obvious fix" is a small step by default.
-- **E363. Ideas go in the order the reader thinks in, and a paragraph on another subject goes before or after a group,
-  never inside it.** His merged first-five-minutes paragraph read AI until he moved my movement lines, word for word, next
-  to the dangers they belong with: "actually, the problem was simply that you had the ideas out of their natural order, i
-  fixed that with nothing changed apart from moving ... now it's all high conf human". And my page put the warning-stage
-  paragraph (light, smell, a quiet room) between two cannabis paragraphs: "we should move the non-cannabis para above all
-  the cannabis info not put it inbetween canna paras isn't that obvious?" The receipt's `placement` and each sentence's
-  `follows` make me say where a thing sits and why; when a paragraph moves, its first "also", "this" or "as for" is read
-  again for what it now points to.
+His round-6 answers reached two sessions at once (this lane's chat at 15:15 UTC, the neuro de-armoring chat at 15:20
+UTC). E362 above is the first's; these are the second's, and how the two were put together is in
+`articles/bad-trips/CURRENT-STATE.md` (turn 11).
+
+- **E363. E362 is enforced where the work passes, not only written down: the making-sense receipt.** The same answers
+  went to a second session (this lane's chat, 15:15 UTC), which read "fix the way you work because i'm not telling you
+  the same stuff over and over" as a demand for enforcement, after UDA's `patterns/task-time-lesson-activation.md` (when
+  the owner catches a violation of a rule he already stated, repair the enforcement, not only the candidate). The cause:
+  E360's question 7 ("does this fact help this reader now?") was in `docs/MAKING-SENSE.md`, and the source check (E348)
+  gave me a job that felt like progress (make the point correct) while nothing made me ask the question again of the
+  corrected point, or of each sentence, before the card went out. What changed: `tools/humanization/sense_receipt.py`
+  makes the read leave a receipt, with a payoff and a reason for its place for every sentence I write, judged against a
+  reader stated as their case ("a seizure from MDMA or a psychedelic overdose, which is generalized", not "seizures"),
+  and a `still_needed` answer for every point I checked, where "no" must be cut. `pangram_ledger.py predict` refuses my
+  text without a passing receipt, and `suggestion_review.py` refuses a marking page whose new words have none (from
+  2026-11-05). The same predict also refuses a retry that rewrites more than 40% of the last try without `--big-change`,
+  so E361's "next obvious fix" is a small step by default. The receipt's `placement` and each sentence's `follows` carry
+  E362's order points: where a paragraph sits and why, and, when a paragraph moves, what its first "also", "this" or "as
+  for" now points to (after the warning stage moved above it, the next paragraph's "I would also use ... as adjuncts"
+  added to the warning-stage list; round 7's AFTER-MOVE card).
 - **E364. An instruction is something the helper does, said plainly, and it names the thing exactly.** "someone goes
   with them" was "not only compressed but has an air of snobbery to it"; his "have someone go with them" "sounds more
   concrete and practiacl, less judgey", and took the end of the paragraph from low to high confidence Human. "anything"

@@ -140,3 +140,28 @@ full stop of Y-91: `../../fix-20261104/cards/apply_cards_x1104d.py`).
 - His spelling of doses ("50mg"; O67), and the case named where an option comes from it ("like Scott did").
 - A warning's words may change when its meaning stays (E358); the fidelity check holds its warning word, compounds and
   numbers.
+
+## His versions twelve and thirteen: the 5-HTP stop signs and interactions (4 November, gate E359)
+
+His answers on Neuro De-Armoring Cards, 4 November (4) (`../../fix-20261104/cards/ANSWERS-20261104-2234.json`, 22:34 UTC),
+after the stop signs read AI in five versions (four of mine, one of Codex's) and the interactions paragraph read Human with
+a Low window (the case story). Both are in the article (`../../fix-20261104/cards/apply_cards_x1104e.py`); his own checks
+are the links in that script, not yet read back by the lane.
+
+| card | what he changed | his words on it |
+|---|---|---|
+| Y-92, the stop signs | the dangerous pattern first, as what to watch out for and why ("The most dangerous symptoms to watch out for are diagnostic of serotonin syndrome, which can be deadly if untreated"); then "Other stop signs include less dangerous symptoms (some of which are part of serotonin syndrome, but not dangerous alone) like ..." | "again the logic problem, you listed dangerous symptoms and less dangerous symptoms which overlapped"; "even when i don't fix that one, just the more conversational intro fixed it" |
+| Y-93, the interactions | the warning said as its reason, first ("Serotonin syndrome usually comes from mixing 5-HTP casually with anything else that raises serotonin"); the repeat that followed it cut; "Case reports and reviews" as "Reviews"; the MedlinePlus sentence folded into a label; "!" after the case story | "i took out redundancy and made it clear to start with rather than a warning for no reason"; "then i added an exclamation mark where it needed to be after that crazy story and now it's high conf human" |
+
+**Rules from these two** (my drafts, from now on):
+- Before drafting, read the original's own logic: every item of a list sorted into groups against the other groups. An
+  item in two groups says how it belongs to both (his parenthesis), or the groups don't make sense (E359).
+- A two-tier list opens on the tier that matters, said the way a person warns a friend ("the most dangerous symptoms to
+  watch out for are ..."), not as a label and a list. That opening alone read Human.
+- A warning a reader can't see the reason for yet is "a warning for no reason": say the reason, and the warning follows
+  from it (E357's point first, where the point is the fact).
+- Say a thing once: the rule and then "most of the time it comes from an interaction like that" said it twice.
+- A story that would make a person react gets the reaction (his "!" after the surgeons opening both legs).
+- One fix of mine on his Y-93 (card Y-93b on Cards (5)): his "this MedlinePlus case report" named the case report as
+  MedlinePlus's; it is on PubMed Central (Patel and Marzella 2017), so it reads "this case report", and the MedlinePlus page
+  is linked on "Serotonin syndrome".

@@ -2,6 +2,14 @@
 
 The page's cards as text, in the order of the guide. Built 2026-11-05 from [the guide as it stands](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261105/articles/bad-trips/GUIDE-SO-FAR.md), after round 6. To answer, use the page; or write your answer under a card's name in a message to me.
 
+Version 2 of round 7. Your round-6 answers reached two of my sessions (this chat, and the neuro de-armoring chat), and each made a round-7 page; this one puts them together, so it's the one to answer. The guide holds your round-6 words as you wrote them, and every change either session proposed is a card here, one per paragraph, with the other session's checks named on its card.
+
+Round 7 (2026-11-05), after your three round-6 versions and your placement went in. Your new paragraphs were checked in Pangram on your account first: the warning stage with your humic line, your cannabis paragraph and your topical CBD paragraph each read Human, High. Your forums paragraph read AI in the two sentences of mine you kept, so the last card fixes those.
+
+Where you asked "right?": yes, the warning-stage paragraph goes after the rescue medicine and before the paragraph that starts on CBD, so it sits above all the cannabis paragraphs. That move leaves the next paragraph's "also" and "adjuncts" pointing at the warning stage, which is the third card. And yes, the CBD evidence to go by for MDMA and psychedelic seizures is Dravet and Lennox-Gastaut's, whose trials counted generalized seizures (the second card); the third approved use, tuberous sclerosis, is mostly focal.
+
+Every card's new words were read for sense first, sentence by sentence, with a written receipt of what each sentence does for someone whose friend is having a seizure from MDMA or a psychedelic overdose, and two fresh readers each. That receipt is what would have caught the 7-OH-CBD point: a point that's correct after checking still goes when it does nothing for this reader.
+
 ## AFTER-MOVE: The paragraph after your move: when, and no focal sentence (After your move)
 
 *Active Seizure, P4*
@@ -24,7 +32,7 @@ The page's cards as text, in the order of the guide. Built 2026-11-05 from [the 
 
 **What stays:** Everything else in the paragraph, your words.
 
-**For you to weigh:** Whether "alongside any rescue medicine" says it your way. "As adjunct remedies", your own fix from round 5, was the first thing I tried, and the fresh readers still asked what they were adjuncts to.
+**For you to weigh:** Whether "alongside any rescue medicine" says it your way. "As adjunct remedies", your own fix from round 5, was the first thing I tried, and the fresh readers still asked what they were adjuncts to. The other session's card cut only the focal sentence, which also read Human, High ([its check](https://www.pangram.com/history/5d3d05f7-30aa-4aef-b6cf-08deb2f4bd96)); if you'd rather keep "I would also use ... as adjuncts", Revise with just the cut.
 
 **My advice:** Approve.
 
@@ -76,7 +84,7 @@ The page's cards as text, in the order of the guide. Built 2026-11-05 from [the 
 
 > I also read on forums some swear it stops the seizure from going any further, and there was one woman whose EEG showed fewer seizure discharges on the days she smoked. But a few people on the same forums said THC vapes and concentrates brought their seizures on. And rats bred to have seizures had more of them after high-THC smoke.
 
-**Why:** My first fix (split the long sentence, say why the rats are there, "cannabis" for "it") read [AI Detected, 51%](https://www.pangram.com/history/b8fbfcbc-c2d9-48b7-a1f8-0510320bb0a1): the split sentence went Human (Low), and the rats with the last line went AI (High). Three fresh readers then agreed on every one of those: the gloss on the rats' seizures, the rats' two results set in mirror image ("more ... while ... about in half") and the summing-up last line, which also didn't follow (a fresh reader: the rats show more seizures, not "either way"). So each goes, and only what this reader needs stays: that THC products brought some people's seizures on, and that the same happened to rats bred to have seizures ([Roebuck et al. 2022](https://pubmed.ncbi.nlm.nih.gov/33370468/): smoke from a high-THC cannabis raised their seizure discharges; injected THC did too, to over twice their usual number). The injected CBD is out because a helper can't inject CBD and the CBD evidence is in the paragraphs around this one; the kind of seizure, because it changes nothing for the reader. A second panel read on this version asked for "some" not to be said twice and for no trailing "too", so it says who ("a few people on the same forums") and adds the rats with "And".
+**Why:** My first fix (split the long sentence, say why the rats are there, "cannabis" for "it") read [AI Detected, 51%](https://www.pangram.com/history/b8fbfcbc-c2d9-48b7-a1f8-0510320bb0a1): the split sentence went Human (Low), and the rats with the last line went AI (High). Three fresh readers then agreed on every one of those: the gloss on the rats' seizures, the rats' two results set in mirror image ("more ... while ... about in half") and the summing-up last line, which also didn't follow (a fresh reader: the rats show more seizures, not "either way"). So each goes, and only what this reader needs stays: that THC products brought some people's seizures on, and that the same happened to rats bred to have seizures ([Roebuck et al. 2022](https://pubmed.ncbi.nlm.nih.gov/33370468/): smoke from a high-THC cannabis raised their seizure discharges; injected THC did too, to over twice their usual number). The injected CBD is out because a helper can't inject CBD and the CBD evidence is in the paragraphs around this one; the kind of seizure, because it changes nothing for the reader. A second panel read on this version asked for "some" not to be said twice and for no trailing "too", so it says who ("a few people on the same forums") and adds the rats with "And". The other session's four tries at this paragraph all read AI ([62%](https://www.pangram.com/history/2419edef-dd6d-4c05-9ed3-32bf737bef33), your version; [43%](https://www.pangram.com/history/fd1df50a-5f61-44ee-ad14-ab61bda0542c); [98%](https://www.pangram.com/history/d3ff8463-b3c1-40f3-8852-d81cedc403ed); [41%](https://www.pangram.com/history/bbaa0976-fd6a-4cdb-bcb0-207e5e9d1265)), each keeping the rats' two results and a closing line, which is what all three panel readers here named.
 
 **What stays:** Your first sentence, word for word, and the point that THC is what brought seizures on.
 
@@ -108,7 +116,7 @@ The page's cards as text, in the order of the guide. Built 2026-11-05 from [the 
 
 **What stays:** Your first two sentences, and your last sentence's words.
 
-**For you to weigh:** The closing clause is your extrapolation ("we should extrapolate from cbd evidence for that"), said as one. If you'd rather leave the reader to draw it, Revise without it.
+**For you to weigh:** The closing clause is your extrapolation ("we should extrapolate from cbd evidence for that"), said as one. If you'd rather leave the reader to draw it, Revise without it. The other session's shorter fix, "or that CBD just doesn't work as well for focal seizures as it does in Dravet syndrome, where many of the seizures are generalized.", also read Human, High ([its check](https://www.pangram.com/history/aa293ceb-d603-4fe1-9007-2ddc9c6a72bb)); it names Dravet only and leaves the conclusion to the reader. Revise with it if you'd rather.
 
 **My advice:** Approve.
 

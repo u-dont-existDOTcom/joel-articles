@@ -1,7 +1,7 @@
 # The cards of round 7, read by build_r07.py (which defines P, T, whole, span_of, replace_words and card). P('N-CBD-2')
 # is the page block of GUIDE-SO-FAR-blocks.json's N-CBD-2 (the guide after round 6). Each card's new words are the
 # paragraph as it would read, in articles/bad-trips/humanize/h06-r07-20261105/R7-N.txt, with its making-sense receipt
-# beside it (gate E362) and its newcomer reads in newcomer-R7-N/. The sources were opened on 2026-11-05 between 15:30 and
+# beside it (gate E363) and its newcomer reads in newcomer-R7-N/. The sources were opened on 2026-11-05 between 15:30 and
 # 16:00 UTC (from his laptop: every link below answered 200 there, PubMed's through its E-utilities).
 
 BUILT = '2026-11-05'
@@ -25,6 +25,10 @@ def to_text(i, new):
 
 
 INTRO = [
+    'Version 2 of round 7. Your round-6 answers reached two of my sessions (this chat, and the neuro de-armoring chat), '
+    'and each made a round-7 page; this one puts them together, so it\'s the one to answer. The guide holds your round-6 '
+    'words as you wrote them, and every change either session proposed is a card here, one per paragraph, with the '
+    'other session\'s checks named on its card.',
     'Round 7 (2026-11-05), after your three round-6 versions and your placement went in. Your new paragraphs were checked in '
     'Pangram on your account first: the warning stage with your humic line, your cannabis paragraph and your topical CBD '
     'paragraph each read Human, High. Your forums paragraph read AI in the two sentences of mine you kept, so the last card '
@@ -95,7 +99,10 @@ card(id='AUTHORS', type='fact', advice='approve',
           'CBD on a seizure a drug caused.') % OBRIEN,
      stays='Your first two sentences, and your last sentence\'s words.',
      deciding=('The closing clause is your extrapolation ("we should extrapolate from cbd evidence for that"), said as one. If '
-               'you\'d rather leave the reader to draw it, Revise without it.'),
+               'you\'d rather leave the reader to draw it, Revise without it. The other session\'s shorter fix, "or that CBD just '
+               'doesn\'t work as well for focal seizures as it does in Dravet syndrome, where many of the seizures are '
+               'generalized.", also read Human, High ([its check](%saa293ceb-d603-4fe1-9007-2ddc9c6a72bb)); it names Dravet only and '
+               'leaves the conclusion to the reader. Revise with it if you\'d rather.') % H,
      advice_note='Approve.', found_by='checking your new points against the trial\'s paper (gate E348), and your question about focal seizures',
      receipt=RC % 'R7-2',
      edits=[to_text(P('N-CBD-2'), R7('R7-2'))],
@@ -118,7 +125,9 @@ card(id='AFTER-MOVE', type='order', advice='approve',
           'was the Low window in round 6\'s check.'),
      stays='Everything else in the paragraph, your words.',
      deciding=('Whether "alongside any rescue medicine" says it your way. "As adjunct remedies", your own fix from round 5, '
-               'was the first thing I tried, and the fresh readers still asked what they were adjuncts to.'),
+               'was the first thing I tried, and the fresh readers still asked what they were adjuncts to. The other session\'s '
+               'card cut only the focal sentence, which also read Human, High ([its check](%s5d3d05f7-30aa-4aef-b6cf-08deb2f4bd96)); '
+               'if you\'d rather keep "I would also use ... as adjuncts", Revise with just the cut.') % H,
      advice_note='Approve.', found_by='your move of the warning-stage paragraph, and your question about focal seizures',
      receipt=RC % 'R7-3',
      edits=[to_text(P('B111'), R7('R7-3'))],
@@ -145,7 +154,10 @@ card(id='FORUMS', type='mine', advice='approve', title='Your forums paragraph: m
           'out because a helper can\'t inject CBD and the CBD evidence is in the paragraphs around this one; the kind of '
           'seizure, because it changes nothing for the reader. A second panel read on this version asked for "some" not to '
           'be said twice and for no trailing "too", so it says who ("a few people on the same forums") and adds the rats '
-          'with "And".') % H,
+          'with "And". The other session\'s four tries at this paragraph all read AI ([62%%](%s2419edef-dd6d-4c05-9ed3-32bf737bef33), '
+          'your version; [43%%](%sfd1df50a-5f61-44ee-ad14-ab61bda0542c); [98%%](%sd3ff8463-b3c1-40f3-8852-d81cedc403ed); '
+          '[41%%](%sbbaa0976-fd6a-4cdb-bcb0-207e5e9d1265)), each keeping the rats\' two results and a closing line, which is what '
+          'all three panel readers here named.') % (H, H, H, H, H),
      stays='Your first sentence, word for word, and the point that THC is what brought seizures on.',
      deciding=FORUMS_DECIDING,
      advice_note='Approve.', found_by='Pangram on your forums paragraph, then the making-sense read, a tell panel and fresh readers',

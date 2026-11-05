@@ -9,6 +9,7 @@ Built by `tools/humanization/pangram_ledger.py build` from `articles/bad-trips/h
 | Pangram 4.1 extension (free, live post; Joel's check of 2026-10-18, the same text as his 2026-11-03 paste by SHA-256) | 1 | 1 (100%) | 100% | 0% | 0% | 0.000 (base 0.000, 1) |
 | Pangram web app (his account, Pangram Professional) | 3 | 3 (100%) | 100% | 0% | 0% | 0.092 (base 0.000, 3) |
 | Pangram web app (his account, Pangram Professional), through the Claude desktop app's browser pane | 22 | 19 (86%) | 55% | 45% | 59% | 0.162 (base 0.248, 22) |
+| pangram 4.1, the web app: Joel's account, run by the lane in the desktop app's browser pane (E356) | 8 | 6 (75%) | 50% | 50% | 75% | 0.170 (base 0.250, 8) |
 
 ## Pangram 4.1 extension (free, live post; Joel's check of 2026-10-18, the same text as his 2026-11-03 paste by SHA-256)
 
@@ -76,12 +77,35 @@ Calibration:
 | 0.6 to 0.8 | 7 | 0.68 | 100% |
 | 0.8 to 1.0 | 1 | 0.80 | 100% |
 
-## Misses since the ledger (3)
+## pangram 4.1, the web app: Joel's account, run by the lane in the desktop app's browser pane (E356)
+
+| window | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
+|---|---|---|---|---|---|---|
+| the latest 50 | 8 | 6 (75%) | 50% | 50% | 75% | 0.170 (base 0.250, 8) |
+| the latest 100 | 8 | 6 (75%) | 50% | 50% | 75% | 0.170 (base 0.250, 8) |
+| all | 8 | 6 (75%) | 50% | 50% | 75% | 0.170 (base 0.250, 8) |
+
+The boundary mix (what was checked; accuracy differs a lot between a paragraph and a section):
+
+| scope or kind | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
+|---|---|---|---|---|---|---|
+| paragraph | 8 | 6 (75%) | 50% | 50% | 75% | 0.170 (base 0.250, 8) |
+
+Calibration:
+
+| my chance of a 100% Human result | calls | mean chance | read Human |
+|---|---|---|---|
+| 0.4 to 0.6 | 6 | 0.49 | 33% |
+| 0.6 to 0.8 | 3 | 0.67 | 100% |
+
+## Misses since the ledger (5)
 
 | cause | misses |
 |---|---|
 | shape echo | 1 |
 | parallel frames kept | 1 |
+| a flaw of sense left in the ending | 1 |
+| rewording without a sense fix | 1 |
 | not explained yet | 1 |
 
 The latest:
@@ -90,6 +114,8 @@ The latest:
 |---|---|---|---|---|
 | [bt-pfa-P3P4-D3](https://www.pangram.com/history/0993c7c4-386c-4a5b-821b-f15f3beb738d) | bad-trips PFA P4 his way (h04), 1 | Human | AI or mixed | shape echo |
 | [bt-pfa-P3P4-D4](https://www.pangram.com/history/f1b3e3bb-30f2-4399-8398-82bd3998b413) | bad-trips PFA P4 his way (h04), 2 | Human | AI or mixed | parallel frames kept |
+| [bt-r06-forums-2](https://www.pangram.com/history/fd1df50a-5f61-44ee-ad14-ab61bda0542c) | bad-trips Active Seizure N-FORUMS (what forums and the rat study say), 2 | Human | AI or mixed | a flaw of sense left in the ending |
+| [bt-r06-forums-3](https://www.pangram.com/history/d3ff8463-b3c1-40f3-8852-d81cedc403ed) | bad-trips Active Seizure N-FORUMS (what forums and the rat study say), 3 | Human | AI or mixed | rewording without a sense fix |
 | [bt-r07-4](https://www.pangram.com/history/b8fbfcbc-c2d9-48b7-a1f8-0510320bb0a1) | bad-trips round 7 N-CANNA-2 (his forums and studies paragraph), 2 | Human | AI or mixed | **not explained yet** |
 
 ## Lineages still open (tries used of the cap)
@@ -101,4 +127,5 @@ The latest:
 | bad-trips PFA dangers paragraph (h03 P3) | paragraph | 2 of 6 | AI |
 | bad-trips round 6 SEIZ-WARN B (cannabis at an aura) | paragraph | 4 of 6 | AI |
 | bad-trips PFA P4 his way (h04) | pair | 4 of 6 | AI |
+| bad-trips Active Seizure N-FORUMS (what forums and the rat study say) | paragraph | 4 of 6 | Mixed |
 

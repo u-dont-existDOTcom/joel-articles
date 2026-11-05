@@ -326,6 +326,25 @@ The boundary mix over all lanes:
 | pair | 4 | 2 (50%) | 100% | 0% | 50% | 0.239 (base 0.000, 4) |
 | section | 1 | 1 (100%) | 0% | 100% | 100% | 0.040 (base 0.000, 1) |
 
+## pangram 4.1, the web app: Joel's account, run by the lane in the desktop app's browser pane (E356)
+
+| lane | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
+|---|---|---|---|---|---|---|
+| bad trips guide | 8 | 6 (75%) | 50% | 50% | 75% | 0.170 (base 0.250, 8) |
+| **all lanes** | 8 | 6 (75%) | 50% | 50% | 75% | 0.170 (base 0.250, 8) |
+
+The latest 100 calls of each lane:
+
+| lane | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
+|---|---|---|---|---|---|---|
+| bad trips guide | 8 | 6 (75%) | 50% | 50% | 75% | 0.170 (base 0.250, 8) |
+
+The boundary mix over all lanes:
+
+| scope or kind | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
+|---|---|---|---|---|---|---|
+| paragraph | 8 | 6 (75%) | 50% | 50% | 75% | 0.170 (base 0.250, 8) |
+
 ## pangram API 4.1
 
 | lane | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
@@ -422,6 +441,8 @@ The boundary mix over all lanes:
 | a misread page: the caution never read Human | 1 | nibbana article |
 | shape echo | 1 | bad trips guide |
 | parallel frames kept | 1 | bad trips guide |
+| a flaw of sense left in the ending | 1 | bad trips guide |
+| rewording without a sense fix | 1 | bad trips guide |
 | summary-voice-around-owner-lines | 1 | healing the gut article |
 | owner-voice-carries-neighbours | 1 | healing the gut article |
 | opener-and-attribution-asides | 1 | healing the gut article |

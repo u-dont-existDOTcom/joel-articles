@@ -51,7 +51,7 @@ REVIEW.json (the lane's build script writes it; see find_quote, block_text and c
                  on the card (1.5; before it, an approve card didn't show its reading at all),
       "receipt" (needed, from reviews built 2026-11-05, on a card that adds or changes words): the repo-relative path of
                  the new paragraph's making-sense receipt (tools/humanization/sense_receipt.py), or a list of them, one
-                 per new paragraph; check() refuses a card without one that passes (gate E362),
+                 per new paragraph; check() refuses a card without one that passes (gate E363),
       "owner_text" (optional): the new words are Joel's own (whose and where), so no receipt of mine is needed},
      {"id", "type", "title", "advice": "ask", "question", "why", "stays" (optional, what holds until he answers),
       "advice_note", "spans"}   a question: no change, an answer box, counted apart from the decisions,
@@ -284,7 +284,7 @@ def links_in(bl, i, start, end):
 # ---------------------------------------------------------------- checks
 
 def receipt_problems(review, s):
-    """Gate E362 (Joel, 2026-11-05 15:14 UTC: "fix the way you work because i'm not telling you the same stuff over and
+    """Gate E363, enforcing E362 (Joel, 2026-11-05 15:14 UTC: "fix the way you work because i'm not telling you the same stuff over and
     over"): from RECEIPT_FROM on, a card that adds or changes words carries "receipt", a making-sense receipt
     (sense_receipt.py) or a list of them, repo-relative; each passes, and each new text (an edit's block as it would
     read, an insert's text) is the text of one of them. A card whose new words are Joel's own ("owner_text": "whose and
@@ -302,7 +302,7 @@ def receipt_problems(review, s):
     paths = [paths] if isinstance(paths, str) else paths
     if not paths:
         return ['%s: a card that adds or changes words needs its making-sense receipt ("receipt": a sense_receipt.py '
-                'receipt for the paragraph as it would read; gate E362), or "owner_text" when the words are Joel\'s' % sid]
+                'receipt for the paragraph as it would read; gate E363), or "owner_text" when the words are Joel\'s' % sid]
     import sense_receipt
     probs, texts = [], []
     for rp in paths:

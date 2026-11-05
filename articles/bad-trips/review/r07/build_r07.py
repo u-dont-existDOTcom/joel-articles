@@ -2,7 +2,7 @@
 cards on the Active Seizure section: two facts in his paragraphs checked against their sources (gate E348), the paragraph
 after the one he moved (what its "also" and "adjuncts" now point to, and the focal-seizure sentence he questioned), and
 the two sentences of mine in his forums paragraph that read AI. Every card's new words carry their making-sense receipt
-(gate E362).
+(gate E363).
 
 Works on the guide as it stands (PAGE-R07.md, the review-page form of ../../GUIDE-SO-FAR.md after round 6, made by
 ../../tools/page_md.py, with PAGE-R07-map.json).
@@ -102,6 +102,7 @@ def cards_md(review):
            'The page\'s cards as text, in the order of the guide. Built %s from [the guide as it stands](%s), after round 6. '
            'To answer, use the page; or write your answer under a card\'s name in a message to me.'
            % (review['built'], review['links']['guide']), '']
+    out += [x for para in review.get('intro', []) for x in (para, '')]
     def placed(s):  # where the page shows the card: after card_after, else after its first span's block
         at = s.get('card_after')
         return at if at is not None else (s.get('spans') or [{'block': 0}])[0]['block']

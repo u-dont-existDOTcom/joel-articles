@@ -274,7 +274,7 @@ class Ledger(unittest.TestCase):
 
 
 class SenseGate(unittest.TestCase):
-    """Gates E362 and E361 (Joel, 2026-11-05 15:14 UTC: "fix the way you work because i'm not telling you the same stuff
+    """Gates E363 (enforcing E362) and E361 (Joel, 2026-11-05 15:14 UTC: "fix the way you work because i'm not telling you the same stuff
     over and over"): a text of mine reaches Pangram only with a making-sense receipt that passes, and a retry changes at
     most 40% of the words of the try before it unless --big-change says why."""
 

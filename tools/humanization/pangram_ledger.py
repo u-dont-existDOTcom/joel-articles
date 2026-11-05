@@ -510,7 +510,7 @@ BIG_CHANGE = 0.4
 
 
 def sense_gate(a, text, sha, line):
-    """Refusals for a text of mine before it goes to Pangram (gates E362 and E361): its making-sense receipt
+    """Refusals for a text of mine before it goes to Pangram (gates E363, enforcing E362, and E361): its making-sense receipt
     (sense_receipt.py) must pass for this exact text, and a retry may change at most 40%% of the words of the try before it
     in the lineage (moves are free) unless --big-change says why the small fixes are spent. Joel's own text (--his) needs
     neither."""
@@ -522,13 +522,13 @@ def sense_gate(a, text, sha, line):
     if not a.receipt:
         why.append('a text of mine goes to Pangram only with its making-sense receipt (--receipt RECEIPT.json, made and '
                    'checked with tools/humanization/sense_receipt.py), or --his "whose words" for Joel\'s own text (gate '
-                   'E362; Joel, 2026-11-05: "fix the way you work because i\'m not telling you the same stuff over and '
+                   'E363; Joel, 2026-11-05: "fix the way you work because i\'m not telling you the same stuff over and '
                    'over")')
     else:
         receipt = json.loads(pathlib.Path(a.receipt).read_text(encoding='utf-8'))
         if text is None:
             if receipt.get('text_sha256') != sha:
-                why.append('the receipt is for another text (gate E362)')
+                why.append('the receipt is for another text (gate E363)')
             text = receipt.get('text', '')
         probs = sense_receipt.check(text.rstrip('\n'), receipt)
         why += ['making-sense receipt: ' + x for x in probs]
@@ -749,7 +749,7 @@ def main(argv=None):
     p.add_argument('--after-fix', help='a section past its two tries: what the fix changed (his answer 28a, one more check '
                    'of the whole section after each fix)')
     p.add_argument('--receipt', help='the text\'s making-sense receipt (tools/humanization/sense_receipt.py), required for '
-                   'a text of mine (gate E362)')
+                   'a text of mine (gate E363)')
     p.add_argument('--his', help='the text is Joel\'s own words: whose, and from where (no receipt of mine needed)')
     p.add_argument('--big-change', help='a retry that changes more than 40%% of the words of the try before it: why every '
                    'small fix is spent (gate E361)')

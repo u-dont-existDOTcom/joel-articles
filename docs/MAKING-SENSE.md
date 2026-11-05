@@ -8,7 +8,7 @@ instead of a new rule. His words on why it comes first: "you don't need any live
 paragraph makes sense the way his versions do, the AI reading has mostly gone with it; when it doesn't, no rewording
 holds ("it's almost like pangram knows how stupid it sounds somehow").
 
-**Enforced (Joel, 2026-11-05 15:14 UTC, gate E362):** "why did i have to tell you this twice? fix the way you work because
+**Enforced (Joel, 2026-11-05 15:14 UTC, gate E363, which enforces E362):** "why did i have to tell you this twice? fix the way you work because
 i'm not telling you the same stuff over and over." Question 7 was written here on 2026-11-04, and my round-6 card still
 kept a point with no payoff, because nothing made me answer the questions sentence by sentence before the card went out.
 Now the read leaves a receipt (`tools/humanization/sense_receipt.py`): for every sentence I write, what this section's
@@ -67,30 +67,36 @@ the situation its heading names.
    (E347, E360).
    - His CBD paragraph moved the topical trial after the oral approval: "which was out of order, should go AFTER the
      oral part since we were discussing oral before that".
-   - The first five minutes, round 6 (E363): my two paragraphs had the movement lines after the phone line, and his
-     merge read AI until he moved them, word for word, to sit after the dangers they belong with: "actually, the problem
-     was simply that you had the ideas out of their natural order, i fixed that with nothing changed apart from moving
-     ... now it's all high conf human".
-   - A paragraph on another subject doesn't sit inside a group on one subject: the warning-stage paragraph (light,
-     smell, a quiet room) went between two cannabis paragraphs on my page; he put it before all of them: "we should move
-     the non-cannabis para above all the cannabis info not put it inbetween canna paras isn't that obvious?" When a
-     paragraph moves, read what its first "also", "this" or "as for" now points to.
+   - His first-five-minutes paragraph (bad trips guide, round 6, MOVE-YOURS) read AI with my movement sentences after
+     the weapons and phone lines, and Human, High with nothing changed but their place: "actually, the problem was
+     simply that you had the ideas out of their natural order, i fixed that with nothing changed apart from moving".
+     Moving them away from roads, letting them pace, not letting them drive off or leave alone: where they go comes
+     together, then what to put away, then the phone.
+   - Things of one kind stay together: the warning-stage measures that aren't cannabis go before all the cannabis
+     paragraphs, not between them ("we should move the non-cannabis para above all the cannabis info not put it
+     inbetween canna paras isn't that obvious?"). When a paragraph moves, read again what its first "also", "this" or "as for" now points to: after the warning
+     stage moved above it, the next paragraph's "I would also use ... as adjuncts" added to the warning-stage list
+     (round 7's AFTER-MOVE card).
 7. **Does this fact help this reader now?** A section's research is chosen for the situation the section is about, and
    a finding that doesn't serve that reader goes, however true (E360).
    - "think about the usefulness of the THREE YEAR STUDY when we are talking to people having seizures RIGHT NOW, so
      you did the wrong research. i took that one out." An acute section wants what helps in minutes, or says plainly
      that nothing has been tested for that ("we have no study on whether CBD could be a rescue remedy for a seizure").
-   - A point that is now correct can still have no payoff (E362). His round-5 paragraph said the skin gel skips the
-     liver's conversion to "the potentially more active form (7-OH-CBD)". I checked it, found 7-OH-CBD about as active as
-     CBD in mice, and made the point longer and correct, when the check had taken away its only reason for being there:
-     "nobody asked why CBD is better or worse than 7-OH-CBD, the only reason to mention that is if that's important to
-     consider which we establish it probably IS NOT". After a source check, ask again whether the point still serves
-     this reader; a correction is not a payoff.
-   - The reader's case, not just the topic (E362). A trial in adults with focal epilepsy was brought in for a reader
-     facing a seizure from MDMA or a psychedelic overdose: "why are we talking about focal seizures, when seizures from
-     mdma and psychedelic overdoses are generalized seizures, right?" Evidence is picked for the kind of thing the reader
-     faces (here the Dravet and Lennox-Gastaut trials, whose counted seizures are generalized), and a study of another
-     kind is said to be another kind, or left out.
+   - The evidence that fits the reader's case: "why are we talking about focal seizures, when seizures from mdma and
+     psychedelic overdoses are generalized seizures, right? so we should extrapolate from cbd evidence for that which we
+     already stated in the para above with dravet and lennox types". Drug-induced seizures are generalized, so a
+     finding about focal seizures goes unless it says why other evidence doesn't apply (the evidence to go by here is
+     the Dravet and Lennox-Gastaut trials, which counted convulsive and drop seizures, both generalized).
+   - **A check that takes away a point's payoff takes the point away too, his points included** (E362). His 7-OH-CBD
+     point said the skin route misses "the potentially more active form"; the paper showed 7-OH-CBD works about as well
+     as CBD, not better, and I kept the point and explained it at more length. He: "READ what you wrote, it literally
+     is a whole big waste of time to talk about this, there's NO PAYOFF. nobody asked why CBD is better or worse than
+     7-OH-CBD, the only reason to mention that is if that's important to consider which we establish it probably IS
+     NOT". When a fact check weakens a point, ask what the reader would now do differently because of it; if nothing,
+     propose the cut. A card's "What stays" is read with this question too: keeping his point is not a reason to keep
+     a point that no longer does anything.
+     After a source check, ask again whether the point still serves this reader: a correction is not a payoff.
+     Enforced from round 7 by the receipt's "checked" list, where a point whose reason went must be cut (E363).
 8. **Does each item belong where it's put?** When a passage sorts things into groups (kinds, tiers, safe and unsafe,
    dos and don'ts), read every item against every group: an item in two groups says how it belongs to both, or it's a
    contradiction (E359, the neuro de-armoring lane).
@@ -100,6 +106,7 @@ the situation its heading names.
      checklist" and missed the flaw, because the original had it too: read the original's own logic before drafting.
 9. **Is it compressed?** One step a sentence, plain verbs, the small words that carry the relation ("which is",
    "treatment"), no space before "mg" (E338 (gut), E342, O67).
+   - "someone goes with them" was "not only compressed but has an air of snobbery to it": see question 2.
 
 ## How it runs
 
@@ -130,11 +137,12 @@ the situation its heading names.
   universe, or message an ex, take the phone."
 - The CBD paragraphs (round 5, CBD-YOURS), Human, High, before he added his video link; his seven checks and what each
   changed are in his comment in `articles/bad-trips/review/r05/ANSWERS-R05-20261104-2214.json`.
-- The first five minutes, merged (round 6, MOVE-YOURS), Human, High, after he moved the movement lines: "Anything that
-  could let someone hurt themselves in the next five minutes takes priority, so get the car keys out of reach and turn
-  the stove off, and move them away from roads and balconies, or pools of water for that matter. Letting them move around
-  is fine, and pacing can help, but keep them from taking more of any substance. If they want to go confront somebody,
-  that can wait. And if they want to leave, have someone go with them. Put any weapons away and keep the person away from
-  crowds and strangers. If they want to post their big revelation about the universe, or message an ex, take the phone."
+- The first five minutes' dangers and movement, one paragraph (round 6, MOVE-YOURS), Human Written, 0%, High, Medium,
+  High (https://www.pangram.com/history/e9d8d85c-5c0f-46b6-b780-91652f1efd15): "Anything that could let someone hurt
+  themselves in the next five minutes takes priority, so get the car keys out of reach and turn the stove off, and move
+  them away from roads and balconies, or pools of water for that matter. Letting them move around is fine, and pacing can
+  help, but keep them from taking more of any substance. If they want to go confront somebody, that can wait. And if they
+  want to leave, have someone go with them. Put any weapons away and keep the person away from crowds and strangers. If
+  they want to post their big revelation about the universe, or message an ex, take the phone."
 - The warning stage and cannabis paragraphs (round 6, CBD-TRIAL and SEIZ-WARN), his version and placement:
   `articles/bad-trips/review/r06/ANSWERS-R06-20261105-1514.json`.

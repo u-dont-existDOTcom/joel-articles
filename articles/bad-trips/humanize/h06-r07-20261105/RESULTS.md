@@ -7,7 +7,7 @@ hashed each file with its final newline, so no hash was the text Pangram reads; 
 (with a test), and they were made again. Every window's confidence is given; less than High is work to do (E278), Low
 first.
 
-Each draft of mine has its making-sense receipt beside it (`R7-N.receipt.json`, gate E362) and its newcomer reads
+Each draft of mine has its making-sense receipt beside it (`R7-N.receipt.json`, gate E363) and its newcomer reads
 (`newcomer-R7-N/`: the first read, of the paragraph as it was; `draft/`, of the draft as checked; `draft-N/`, of earlier
 drafts, each gap answered or dropped with a note). The reads changed three drafts before Pangram saw them: "the syndromes
 it's approved for" read as the gel being approved (now "oral CBD"); "adjuncts to what?" after his move (now "alongside

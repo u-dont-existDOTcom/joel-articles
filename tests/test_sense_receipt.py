@@ -1,4 +1,4 @@
-"""tools/humanization/sense_receipt.py: the making-sense read's receipt (gate E362; Joel, 2026-11-05 15:14 UTC: "READ what
+"""tools/humanization/sense_receipt.py: the making-sense read's receipt (gate E363, enforcing E362; Joel, 2026-11-05 15:14 UTC: "READ what
 you wrote, it literally is a whole big waste of time to talk about this, there's NO PAYOFF ... fix the way you work
 because i'm not telling you the same stuff over and over")."""
 import json
