@@ -16,39 +16,31 @@
     {
      "place": "uda-lane",
      "status": "read",
-     "found": "no new items: suggested-fixes/joel-articles/ still holds the two items in docs/suggested-fixes-ledger.md; the root unchanged at c5c9951 (pulled 15:16 UTC)"
+     "found": "no new items since the turn's first check (the same two, both in docs/suggested-fixes-ledger.md)"
     },
     {
      "place": "repo",
      "status": "read",
-     "found": "pull request 280 (this lane, turns 1 to 10) merged by Joel at 15:15:28 UTC and its branch deleted, so main (d74cbd6d) carries E360, E361, docs/MAKING-SENSE.md and O68; this lane continues on claude/bad-trips-20261105 from main's tip; open: 293 (gut), 303 (neuro de-armoring); no new issues, comments or reviews since 00:30 UTC (gh api REST)"
+     "found": "pull requests 303 (neuro de-armoring) and 304 (the other bad trips session, on the same round-6 answers) merged at 15:50 and 15:51 UTC; 293 open"
     },
     {
      "place": "notes",
      "status": "read",
-     "found": "this lane's handoff note and questions page last changed by this session (a2210a8c, 00:33 UTC), now on main"
+     "found": "the other session's edits to this lane's handoff note and current state, through pull request 304"
     },
     {
      "place": "runtime",
      "status": "read",
-     "found": "Joel's message of 15:15 UTC: his round-6 answers (exported 15:14 UTC: CBD-TRIAL, SEIZ-WARN and MOVE-YOURS, all Revise, two with his versions) and 'make sure you merge lessons with main branch so everyone is sharing always'; no queued notifications"
+     "found": "none queued for this lane"
     }
    ],
    "items": [
     {
-     "item": "his round-6 answers",
-     "outcome": "recorded and applied (apply_r06.py): his versions as he wrote them, typos and the broken link fixed, the warning-stage paragraph moved after P2 as he asked; his new points checked against their sources (E348), with any finding on round 7's page"
-    },
-    {
-     "item": "his correction: the 7-OH-CBD point and the focal trial had no payoff for a reader with a drug-caused seizure, the same lesson a second time ('fix the way you work')",
-     "outcome": "the enforcement repaired, not only the cards: a making-sense receipt per paragraph that the Pangram predictions and the marking page refuse to go without"
-    },
-    {
-     "item": "his instruction: merge lessons with main so everyone is sharing always",
-     "outcome": "a turn that changes shared rules or tools merges them into main in the same turn (lane_push.py --merge), written into AGENTS.md; this turn's lessons merged so"
+     "item": "pull request 304: Joel's round-6 answers applied by a second session (sent to it in the neuro de-armoring chat at 15:20 UTC)",
+     "outcome": "main merged into this branch and the two put together: the guide keeps his words, both sessions' proposals are on round 7's version 2, its files kept beside this branch's, its E362 kept and this branch's lessons renumbered E363 to E365"
     }
    ],
-   "recorded_utc": "2026-11-05T15:20Z"
+   "recorded_utc": "2026-11-05T16:25Z"
   }
  ]
 }
