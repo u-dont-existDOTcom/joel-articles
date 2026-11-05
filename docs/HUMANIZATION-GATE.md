@@ -2542,7 +2542,7 @@ His round-6 answers reached two sessions at once (this lane's chat at 15:15 UTC,
 UTC). E362 above is the first's; these are the second's, and how the two were put together is in
 `articles/bad-trips/CURRENT-STATE.md` (turn 11).
 
-- **E363. E362 is enforced where the work passes, not only written down: the making-sense receipt.** The same answers
+- **E365. E362 is enforced where the work passes, not only written down: the making-sense receipt.** The same answers
   went to a second session (this lane's chat, 15:15 UTC), which read "fix the way you work because i'm not telling you
   the same stuff over and over" as a demand for enforcement, after UDA's `patterns/task-time-lesson-activation.md` (when
   the owner catches a violation of a rule he already stated, repair the enforcement, not only the candidate). The cause:
@@ -2558,11 +2558,11 @@ UTC). E362 above is the first's; these are the second's, and how the two were pu
   E362's order points: where a paragraph sits and why, and, when a paragraph moves, what its first "also", "this" or "as
   for" now points to (after the warning stage moved above it, the next paragraph's "I would also use ... as adjuncts"
   added to the warning-stage list; round 7's AFTER-MOVE card).
-- **E364. An instruction is something the helper does, said plainly, and it names the thing exactly.** "someone goes
+- **E366. An instruction is something the helper does, said plainly, and it names the thing exactly.** "someone goes
   with them" was "not only compressed but has an air of snobbery to it"; his "have someone go with them" "sounds more
   concrete and practiacl, less judgey", and took the end of the paragraph from low to high confidence Human. "anything"
   was vague; his "any substance" says which. (`docs/MAKING-SENSE.md` questions 2 and 3.)
-- **E365. Lessons go to main the turn they are made.** Joel, 2026-11-05 15:15 UTC: "make sure you merge lessons with
+- **E367. Lessons go to main the turn they are made.** Joel, 2026-11-05 15:15 UTC: "make sure you merge lessons with
   main branch so everyone is sharing always". E360, E361, `docs/MAKING-SENSE.md` and O68 waited a day in this lane's pull
   request before he merged it, so every other lane worked that day without them. `tools/humanization/lane_push.py` now
   refuses to push a branch that changes a shared file (`tools/`, `docs/`, `tests/`, `scripts/`, `.github/`, `AGENTS.md`,
@@ -2570,8 +2570,9 @@ UTC). E362 above is the first's; these are the second's, and how the two were pu
   pass, or `--no-merge "why"` for a change that must wait. Every lane takes the lesson at its next turn's merge of main
   (E339). Article work, with no shared change, still waits for his merge.
 
-(The neuro de-armoring lane's E359 is just before the round 5 section; the bad trips lane's E360 to E365 are just above.
-The next lesson in any lane is E366.)
+(The neuro de-armoring lane's E359 is just before the round 5 section; the bad trips lane's E360 to E362 and E365 to
+E367 are just above; E363 and E364 are the neuro de-armoring lane's, in its pull request 305. The next lesson in any
+lane is E368.)
 
 
 ## What turn 100's API checks showed (the Inner Child lane, 2026-10-23)

@@ -21,8 +21,8 @@ https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/bad-trips
   put them together: the guide holds his round-6 words as he wrote them, and every proposal from both sessions is on
   round 7, version 2 (Bad Trips Guide, Round 7, https://claude.ai/artifact/41gorxz7ZJ1MV8QL1E63vs; cards as text in
   `review/r07/REVIEW-R07.md`), 4 cards, each Human, High. His "fix the way you work" is now enforced: every text of mine
-  needs its making-sense receipt (`tools/humanization/sense_receipt.py`, E363) before Pangram or his page will take it,
-  and a branch that changes shared rules merges into main the turn it's pushed (`lane_push.py --merge`, E365, his "merge
+  needs its making-sense receipt (`tools/humanization/sense_receipt.py`, E365) before Pangram or his page will take it,
+  and a branch that changes shared rules merges into main the turn it's pushed (`lane_push.py --merge`, E367, his "merge
   lessons with main"). **First:** his round-7 answers in; **then** the next paragraph of Psychological First Aid with
   its receipt (CURRENT-STATE.md's next step).
 - **2026-11-05, turn 10 (his research upload of 00:13 UTC on inhaled cannabis for seizures).** Its studies checked on

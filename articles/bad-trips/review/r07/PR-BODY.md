@@ -9,7 +9,7 @@ at 15:20 UTC. The other session's work merged first (#304). This branch merges m
   in `articles/bad-trips/review/r06/from-claude-bad-trips-20261103/`, its checks in `humanize/h06-checks-20261105/`.
 - Both sessions' ledger lines are kept.
 - Its lesson E362 (a check that takes away a point's payoff takes the point) stands, and this branch's lessons follow it
-  as E363 to E365.
+  as E365 to E367 (E363 and E364 are #305's).
 
 **His round 6.** His three versions and his placement are in (`articles/bad-trips/review/r06/apply_r06.py`):
 - the warning stage with his humic line sits after the rescue medicine and before the CBD paragraph;
@@ -19,7 +19,7 @@ at 15:20 UTC. The other session's work merged first (#304). This branch merges m
 
 KEEP-AS-IS (K13 to K17, cuts C9 and C10) and three OWNER-EDITS entries hold his rulings.
 
-**"fix the way you work" (gate E363, enforcing E362).** The making-sense read now leaves a receipt,
+**"fix the way you work" (gate E365, enforcing E362).** The making-sense read now leaves a receipt,
 `tools/humanization/sense_receipt.py`. For every sentence I write it records the sentence's payoff for the reader's
 actual case and why the sentence sits where it does. A point I checked against a source and that lost its reason for
 being there must be cut.
@@ -28,12 +28,12 @@ being there must be cut.
 - `predict` hashes the text the way Pangram reads it, without the file's final newline.
 - Tests for these are in `tests/test_sense_receipt.py`, `tests/test_pangram_ledger.py` and `tests/test_suggestion_review.py`.
 
-**"merge lessons with main" (gate E365).** `lane_push.py` now refuses to push a branch that changes shared rules or tools
+**"merge lessons with main" (gate E367).** `lane_push.py` now refuses to push a branch that changes shared rules or tools
 unless it's given `--merge` or `--no-merge "why"`. With `--merge`, the pull request merges into main once the checks on
 the pushed commit pass. Tests are in `tests/test_lane_push.py`, and `AGENTS.md` has the rule. This pull request is pushed
 with `--merge`.
 
-**Lessons.** E363 to E365 are in `docs/HUMANIZATION-GATE.md`, after the other session's E362. The next lesson is E366.
+**Lessons.** E365 to E367 are in `docs/HUMANIZATION-GATE.md`, after the other session's E362. E363 and E364 belong to the neuro de-armoring lane's #305. The next lesson is E368.
 `docs/MAKING-SENSE.md` now has both sessions' round-6 pairs and the receipt.
 
 **Pangram, in his account (predictions first, 8 of 9 right).** His warning-stage, cannabis and topical CBD paragraphs read
@@ -41,8 +41,10 @@ Human, High. Each card's new words read Human, High (`articles/bad-trips/humaniz
 receipt and two fresh reads. The forums paragraph took a tell panel and three tries. The page's browser test passed 78 of 78.
 
 **Overlaps.**
+- #305 (neuro de-armoring) adds its E363 and E364 after #304's closing note in docs/HUMANIZATION-GATE.md. This branch
+  numbers its own lessons E365 to E367, so the two don't clash, and points to #305 for E363 and E364.
 - #293 changes AGENTS.md's marking-page paragraph; this changes its workflow paragraph.
-- #198 and #199 change other entries of docs/INDEX.md than the one this changes.
+- #198, #199 and #200 change other entries of docs/INDEX.md than the MAKING-SENSE entry this extends.
 
 🤖 Generated with [Claude Code](https://claude.com/claude-code)
 

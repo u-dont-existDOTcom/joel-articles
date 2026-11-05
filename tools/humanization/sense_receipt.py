@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """sense_receipt.py - the making-sense read's receipt: the record, sentence by sentence, that a paragraph I wrote or
-changed was read for sense before it goes to Pangram or onto Joel's marking page (gate E363, which enforces E362).
+changed was read for sense before it goes to Pangram or onto Joel's marking page (gate E365, which enforces E362).
 
 Joel, 2026-11-05 15:14 UTC, on round 6 of the bad trips guide, where my card had kept the 7-OH-CBD point after checking it
 had taken away its reason for being there, and had brought in a trial of focal seizures for a reader facing a seizure

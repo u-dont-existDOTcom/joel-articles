@@ -1,7 +1,7 @@
 # The cards of round 7, read by build_r07.py (which defines P, T, whole, span_of, replace_words and card). P('N-CBD-2')
 # is the page block of GUIDE-SO-FAR-blocks.json's N-CBD-2 (the guide after round 6). Each card's new words are the
 # paragraph as it would read, in articles/bad-trips/humanize/h06-r07-20261105/R7-N.txt, with its making-sense receipt
-# beside it (gate E363) and its newcomer reads in newcomer-R7-N/. The sources were opened on 2026-11-05 between 15:30 and
+# beside it (gate E365) and its newcomer reads in newcomer-R7-N/. The sources were opened on 2026-11-05 between 15:30 and
 # 16:00 UTC (from his laptop: every link below answered 200 there, PubMed's through its E-utilities).
 
 BUILT = '2026-11-05'

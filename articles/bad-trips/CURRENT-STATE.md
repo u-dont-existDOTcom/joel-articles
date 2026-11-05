@@ -171,7 +171,7 @@ dose, unit, timing and warning exactly as it went in, and his post updated with 
   receipt per paragraph: each sentence's payoff for the reader's case; a checked point whose reason went is cut), which
   `pangram_ledger.py predict` and `suggestion_review.py` now require of my text, and a retry that rewrites more than 40%
   of the last try is refused without a reason (E361); `predict` now hashes the text as Pangram reads it. His merge rule:
-  `lane_push.py --merge` (a branch that changes shared rules merges into main once its checks pass). Lessons E363 to E365
+  `lane_push.py --merge` (a branch that changes shared rules merges into main once its checks pass). Lessons E365 to E367
   (`docs/HUMANIZATION-GATE.md`; E362 is the other session's), `docs/MAKING-SENSE.md`'s questions 2, 3, 6 and 7 with his round-6 pairs, `AGENTS.md`.
   Pangram in his account (`humanize/h06-r07-20261105/RESULTS.md`, predictions first, 8 of 9 right): his warning stage,
   cannabis and topical CBD paragraphs Human, High; his forums paragraph AI in my two kept sentences. Round 7's page, 4

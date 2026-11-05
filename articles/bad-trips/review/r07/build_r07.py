@@ -2,7 +2,7 @@
 cards on the Active Seizure section: two facts in his paragraphs checked against their sources (gate E348), the paragraph
 after the one he moved (what its "also" and "adjuncts" now point to, and the focal-seizure sentence he questioned), and
 the two sentences of mine in his forums paragraph that read AI. Every card's new words carry their making-sense receipt
-(gate E363).
+(gate E365).
 
 Works on the guide as it stands (PAGE-R07.md, the review-page form of ../../GUIDE-SO-FAR.md after round 6, made by
 ../../tools/page_md.py, with PAGE-R07-map.json).

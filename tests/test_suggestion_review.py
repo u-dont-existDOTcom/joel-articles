@@ -311,7 +311,7 @@ class ReaderBriefTests(unittest.TestCase):
 
 
 class ReceiptTests(unittest.TestCase):
-    """Gate E363: from 2026-11-05 a card that adds or changes words carries a making-sense receipt that passes."""
+    """Gate E365: from 2026-11-05 a card that adds or changes words carries a making-sense receipt that passes."""
 
     def test_a_card_with_new_words_needs_its_receipt(self):
         import tempfile, sense_receipt

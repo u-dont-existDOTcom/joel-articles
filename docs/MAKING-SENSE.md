@@ -3,12 +3,12 @@
 **ACTIVE (Joel, 2026-11-04 22:14 UTC, gate E360):** "do we need to devise some kind of making sense protocol rather than
 attacking this problem case by case perhaps?" This is it: one read, for every paragraph I draft or rewrite in any of his
 articles, before its first Pangram try and again after every change. It collects what his own fixes have taught, lesson
-by lesson (E87, E342, E345, E347, E351, E355, E357, E359, E360, E362 to E364), so a new case is met by the same questions
+by lesson (E87, E342, E345, E347, E351, E355, E357, E359, E360, E362, E365, E366), so a new case is met by the same questions
 instead of a new rule. His words on why it comes first: "you don't need any lived experience, you just need it to MAKE SENSE". When a
 paragraph makes sense the way his versions do, the AI reading has mostly gone with it; when it doesn't, no rewording
 holds ("it's almost like pangram knows how stupid it sounds somehow").
 
-**Enforced (Joel, 2026-11-05 15:14 UTC, gate E363, which enforces E362):** "why did i have to tell you this twice? fix the way you work because
+**Enforced (Joel, 2026-11-05 15:14 UTC, gate E365, which enforces E362):** "why did i have to tell you this twice? fix the way you work because
 i'm not telling you the same stuff over and over." Question 7 was written here on 2026-11-04, and my round-6 card still
 kept a point with no payoff, because nothing made me answer the questions sentence by sentence before the card went out.
 Now the read leaves a receipt (`tools/humanization/sense_receipt.py`): for every sentence I write, what this section's
@@ -38,7 +38,7 @@ the situation its heading names.
    - Mine: "Begin with whatever could hurt somebody in the next five minutes." His: "Anything that could let someone
      hurt themselves in the next five minutes takes priority" ("how could anything hurt them? you mean they could HURT
      THEMSELF, so why didn't you say that?").
-   - An instruction is said as something the helper does, not as a rule stated as a fact (E364). Mine: "And if they want
+   - An instruction is said as something the helper does, not as a rule stated as a fact (E366). Mine: "And if they want
      to leave, someone goes with them." His: "And if they want to leave, have someone go with them" ("someone goes with
      them" was "not only compressed but has an air of snobbery to it"; his "sounds more concrete and practiacl, less
      judgey", and took the end of the paragraph from low to high confidence Human).
@@ -47,7 +47,7 @@ the situation its heading names.
    - Mine: "Move away from roads, balconies, water, ..." His: "move them away from roads and balconies, or pools of
      water for that matter" ("water isn't dangerous. POOLS of water are.").
    - Mine: "keep them from taking more of anything". His: "keep them from taking more of any substance" (""anything" was
-     vague, i fixed that"; E364).
+     vague, i fixed that"; E366).
 4. **What does this word act on, or mean here?** A word whose object or sense the reader has to guess gets it said
    (E360, E342).
    - "adjuncts" became "adjunct remedy" ("since adjunct is not really clear what it's adjuncting for"; the change that
@@ -96,7 +96,7 @@ the situation its heading names.
      propose the cut. A card's "What stays" is read with this question too: keeping his point is not a reason to keep
      a point that no longer does anything.
      After a source check, ask again whether the point still serves this reader: a correction is not a payoff.
-     Enforced from round 7 by the receipt's "checked" list, where a point whose reason went must be cut (E363).
+     Enforced from round 7 by the receipt's "checked" list, where a point whose reason went must be cut (E365).
 8. **Does each item belong where it's put?** When a passage sorts things into groups (kinds, tiers, safe and unsafe,
    dos and don'ts), read every item against every group: an item in two groups says how it belongs to both, or it's a
    contradiction (E359, the neuro de-armoring lane).
