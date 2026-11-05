@@ -1,6 +1,6 @@
 # Bad Trips guide: current state
 
-Updated: 2026-11-05 (turn 10, his research upload of 00:13 UTC). Registered 2026-11-03 at Joel's message of 15:45 UTC ("start working on humanizing my
+Updated: 2026-11-05 (turn 11, his round-6 answers of 15:14 UTC).
 badtrips guide at badtrips.u-dont-exist.com"; `experiments/t01-answers/JOEL-MESSAGE-20261103-1545.md`).
 
 ## Goal
@@ -162,17 +162,21 @@ dose, unit, timing and warning exactly as it went in, and his post updated with 
 
 ## Current checkpoint
 
-- **In progress:** Turn 10: round 6 (version 2) is with him: CBD-TRIAL (Human), SEIZ-WARN (the warning stage Human, High;
-  the cannabis paragraph AI after four tries, his to revise), MOVE-YOURS (the first five minutes' movement paragraph, his
-  version asked for after four of mine read AI and took his dangers paragraph with them).
-- **Next step (updated on every push, so another account can pick up here):** His round-6 answers in with an
-  `apply_r06.py` like round 5's (the page's export saved as `review/r06/ANSWERS-R06-*.json`; his versions as he wrote
-  them). Then learn from his MOVE-YOURS version the way `docs/MAKING-SENSE.md` learned from PFA-YOURS: what it does that
-  my four tries (`humanize/h05-checks-20261105/RESULTS.md`) didn't, written into the making-sense read, and tried on the
-  next paragraph of Psychological First Aid (P5, "Then look at the room ..."), one paragraph at a time, a prediction
-  before each check, in his Pangram account (the desktop app's browser pane worked on 2026-11-05; Claude in Chrome
-  wasn't connected). His CBD paragraphs' two Low windows are his words: offer them on a later page only with a fix
-  that keeps his meaning. No whole-guide check until no window already seen reads AI or Low (E354).
+- **In progress:** Turn 11 (his round-6 answers, exported 15:14 UTC, sent 15:20 UTC to the neuro de-armoring chat with
+  "ok idk why you can't use pangram other lanes are using it try again"): all three in (`review/r06/apply_r06.py`); the
+  section's new paragraphs checked in his account (`humanize/h06-checks-20261105/RESULTS.md`): four Human, High; the
+  forums paragraph AI after four tries, on round 7's page (Bad Trips Guide, Round 7; cards as text in
+  `review/r07/REVIEW-R07.md`, sent to him as a file) with two changes of mine (Y-B, Y-C). Lesson E362 and
+  `docs/MAKING-SENSE.md` questions 6, 7 and 9.
+- **Next step (updated on every push, so another account can pick up here):** His round-7 answers in (an
+  `apply_r07.py` like round 6's; FORUMS-EDIT's version checked only where he hasn't). The ABRACE sentences in N-CANNA
+  ("testified in Congress", "30 tests ... within 30 seconds", the video) are his and read Human, but the lane couldn't open
+  the Câmara transcript or the video this turn (the fetch asked for an approval nobody answered): read both before the
+  guide goes out, and put a card to him if either doesn't say what the sentence says (E348). Then the next paragraph of
+  Psychological First Aid (P5, "Then look at the room ..."), the making-sense read first, one paragraph at a time, a
+  prediction before each check, in his Pangram account (the desktop app's browser pane works, signed in). No whole-guide
+  check until no window already seen reads AI or Low (E354).
+
 - **Waiting on Joel:** round 6's three cards.
 
 ## Remaining

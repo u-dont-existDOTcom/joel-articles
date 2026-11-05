@@ -2520,8 +2520,24 @@ changed: `docs/MAKING-SENSE.md`.
   which fix was the last one tried. This narrows E343's "one paragraph at a time" and the method-switch rule in
   `AGENTS.md`: switching is for a method that has failed the same way repeatedly, not for one check that didn't move.
 
-(The neuro de-armoring lane's E359 is just before this section; the bad trips lane's E360 and E361 are just above. The next
-lesson in any lane is E362.)
+- **E362. A check that takes away a point's payoff takes the point away too, his points included; and a lesson he has
+  given once is applied to every card after it.** Joel, 2026-11-05 15:07 UTC, on round 6's CBD-TRIAL card, which kept his
+  7-OH-CBD point under "What stays" and explained it at more length after the paper showed 7-OH-CBD works about as well
+  as CBD, not better: "i already told you to stop putting stuff in that is wasting reader's time ... READ what you
+  wrote, it literally is a whole big waste of time to talk about this, there's NO PAYOFF ... why did i have to tell you
+  this twice? fix the way you work because i'm not telling you the same stuff over and over." The cause: the card was
+  built after E360 had asked "does this fact help this reader now?", but I asked it only of my own sentences, and kept
+  his point because it was his. Two fixes in `docs/MAKING-SENSE.md`, question 7: after a fact check weakens a point, ask
+  what the reader would now do differently because of it, and if nothing, propose the cut; and a card's "What stays" is
+  read with that question too. In the same answers: evidence chosen for the reader's own case ("why are we talking
+  about focal seizures, when seizures from mdma and psychedelic overdoses are generalized seizures"), things of one kind
+  kept together ("move the non-cannabis para above all the cannabis info"), and his movement paragraph, which read Human,
+  High with nothing changed but the order ("the problem was simply that you had the ideas out of their natural order").
+  Where it's written down: `docs/MAKING-SENSE.md`, questions 6, 7 and 9; the bad trips lane's
+  `articles/bad-trips/review/r06/apply_r06.py`.
+
+(The neuro de-armoring lane's E359 is just before this section; the bad trips lane's E360 to E362 are just above. The
+next lesson in any lane is E363.)
 
 
 ## What turn 100's API checks showed (the Inner Child lane, 2026-10-23)

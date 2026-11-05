@@ -15,6 +15,14 @@ https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/bad-trips
 
 ## START HERE
 
+- **2026-11-05, turn 11 (his round-6 answers, sent 15:20 UTC in the neuro de-armoring chat).** All three in
+  (`review/r06/apply_r06.py`): his warning-stage, cannabis-and-ABRACE and skin-gel paragraphs, the warning stage after the
+  rescue benzodiazepine as he asked, the 7-OH-CBD point out (KEEP-AS-IS C9), B111's focal sentence out on his question,
+  his movement paragraph as he checked it. Checked in his account (`humanize/h06-checks-20261105/RESULTS.md`): four of the
+  new paragraphs Human, High; the forums paragraph AI in four tries, so it is on round 7's page with my two changes
+  (`review/r07/REVIEW-R07.md`; sent as a file, not yet an artifact). Lesson E362 (a check that takes away a point's
+  payoff takes the point). **First:** his round-7 answers; **then** the ABRACE sources read and Psychological First Aid
+  P5 (CURRENT-STATE.md's next step).
 - **2026-11-05, turn 10 (his research upload of 00:13 UTC on inhaled cannabis for seizures).** Its studies checked on
   PubMed; last turn's Pangram checks run in his account (13, predictions first: `humanize/h05-checks-20261105/RESULTS.md`).
   His CBD paragraphs with the video link read Human; my trial sentences and warning-stage paragraph read Human on their
