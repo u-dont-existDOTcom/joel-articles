@@ -1,0 +1,18 @@
+{
+ "about": "his post's block 95, the ATP section's first paragraph, first try: Human Written, 0.0% AI by itself in the web app, one window, High",
+ "before_sha256": "bef5533447214069b303c009563fd7aee3fcf364ab59e89adb767ea5f75e5c71",
+ "after_sha256": "c4bc6d95ca3c5cb36bddd978989bd8a252eb8920451b3135d55b584152849d96",
+ "block": 94,
+ "before": "[Recent neuroscience](https://www.sciencedaily.com/releases/2025/11/251126025315.htm) (Tian-Ming Gao, et al, 2025) has shown in male mice that anxiety and depression are a result of reduced hippocampal ATP signaling. [Calabrese, et al (2024) ](https://pmc.ncbi.nlm.nih.gov/articles/PMC11182043/)have shown in one study that's part of much broader research that ketones and reduced carbohydrate intake are highly effective for anxiety, depression, and other mental illnesses. To address both issues, you can trial a morning dose of 20mg of PQQand ketones.",
+ "after": "If your cortisol is normal or low, low ATP signaling in the brain might be what's behind your anxiety or depression. [Recent neuroscience](https://www.sciencedaily.com/releases/2025/11/251126025315.htm) (Tian-Ming Gao, et al, 2025) has shown in male mice that anxiety and depression are a result of reduced hippocampal ATP signaling. So I'd trial 20mg of PQQ in the morning to boost ATP, with ketones, which your neurons can still burn for energy when they're struggling to burn sugar. In [Calabrese, et al (2024)](https://pmc.ncbi.nlm.nih.gov/articles/PMC11182043/), three adults on a ketogenic diet all went into full remission of depression and anxiety within a few months. That's only three people, but it's part of much broader research.",
+ "tested": "https://www.pangram.com/history/53b000ed-a200-44af-8eb7-051b992576a1",
+ "windows": [
+  "Human, High, 114"
+ ],
+ "tries": [],
+ "changes": [
+  "the Calabrese case series said as what it shows (E348; card on Cards (5))",
+  "the ketone study after the step it supports; the point first (E357, E360)"
+ ],
+ "fidelity_pass": true
+}

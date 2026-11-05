@@ -1,0 +1,61 @@
+{
+ "format": "joel-suggestion-review-answers-v1",
+ "review_id": "neuro-de-armoring-cards-20261104-x1104e",
+ "title": "Neuro De-Armoring Cards, 4 November (4)",
+ "git_file": "articles/neuro-de-armoring/humanize/fix-20261104/cards/REVIEW-X1104E.html",
+ "article": {
+  "file": "articles/neuro-de-armoring/humanize/HUMANIZED-SO-FAR.md",
+  "sha256": "301782b99522d013a25560d85097e4fe1a17e82a92cb82d3e727b6096f29d07f"
+ },
+ "built": "2026-11-04 21:01 UTC",
+ "generator": "suggestion_review.py 1.6 (2026-11-04)",
+ "exported_at": "2026-11-04T22:34:03.213Z",
+ "counts": {
+  "approved": 0,
+  "rejected": 0,
+  "revise": 2,
+  "pending": 0
+ },
+ "items": [
+  {
+   "id": "Y-92",
+   "type": "help",
+   "title": "\"Side effects / stop signs: Nausea, stomach discomfort, loose stools ...\"",
+   "where": "Serotonin Bottleneck Pattern: 5-HTP + Low-Dose P5P, P4",
+   "advice": "edit",
+   "status": "revise",
+   "your_version": "Side effects / stop signs: The most dangerous symptoms to watch out for are diagnostic of serotonin syndrome, which can be deadly if untreated: agitation + sweating + diarrhea + tremor/clonus + fever, confusion, fast heart rate, or unstable blood pressure.  Other stop signs include less dangerous symptoms (some of which are part of serotonin syndrome, but not dangerous alone) like nausea, stomach discomfort, loose stools, headache, vivid or intense dreams, insomnia, sweating, tremor, anxiety, irritability, emotional agitation, or a too-bright / hypomanic feeling.",
+   "comment": "this is the fully human one i'd use: https://www.pangram.com/history/c5f40d94-efae-4a5b-9830-5f58e44a30d3?ucc=4rq5Ko7gBiW&utm_source=pangram_share&utm_medium=copy_link\n\nagain the logic problem, you listed dangerous symptoms and less dangerous symptoms which overlapped\n\nbut even when i don't fix that one, just the more conversational intro fixed it: \nhttps://www.pangram.com/history/9a21d29d-a678-4f7f-ac7c-3d4d63604dde?ucc=4rq5Ko7gBiW&utm_source=pangram_share&utm_medium=copy_link",
+   "my_version": "Side effects / stop signs: Nausea, stomach discomfort, loose stools, headache, vivid or intense dreams, insomnia, sweating, tremor, anxiety, irritability, emotional agitation, or a too-bright / hypomanic feeling. Stop immediately if you get agitation + sweating + diarrhea + tremor/clonus + fever, confusion, fast heart rate, or unstable blood pressure. That pattern can indicate serotonin toxicity, which can become dangerous.",
+   "before": "Side effects / stop signs: Nausea, stomach discomfort, loose stools, headache, vivid or intense dreams, insomnia, sweating, tremor, anxiety, irritability, emotional agitation, or a too-bright / hypomanic feeling. Stop immediately if you get agitation + sweating + diarrhea + tremor/clonus + fever, confusion, fast heart rate, or unstable blood pressure. That pattern can indicate serotonin toxicity, which can become dangerous.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "revise",
+     "at": "2026-11-04T22:24:32.630Z"
+    }
+   ],
+   "updated": "2026-11-04T22:26:00.811Z"
+  },
+  {
+   "id": "Y-93",
+   "type": "help",
+   "title": "\"Case reports and reviews keep warning about the risk with 5-HTP ...\"",
+   "where": "Serotonin Bottleneck Pattern: 5-HTP + Low-Dose P5P, P5",
+   "advice": "edit",
+   "status": "revise",
+   "your_version": "Serotonin syndrome usually comes from mixing 5-HTP casually with anything else that raises serotonin, like antidepressants or MAOIs. Reviews keep warning about the risk with 5-HTP, like this MedlinePlus case report, where a young guy on sertraline (an antidepressant) took 5-HTP with a whole pile of weight-loss and energy supplements before a workout, and ended up with serotonin syndrome so bad that surgeons had to cut open both of his legs and his forearm to relieve the pressure! Luckily he recovered. If you're doing psychedelics, avoid 5-HTP on your psychedelic days, and be especially strict around ayahuasca's harmala MAOI chemistry and around iboga or ibogaine.",
+   "comment": "i took out redundancy and made it clear to start with rather than a warning for no reason, now it's human but not yet all high conf: https://www.pangram.com/history/87cee5fc-7af1-487b-abdd-53917e062206?ucc=4rq5Ko7gBiW&utm_source=pangram_share&utm_medium=copy_link\n\nthen i added an exclamation mark where it needed to be after that crazy story and now it's high conf human: https://www.pangram.com/history/67441215-b92b-4ca5-a6ff-86941d93f7c2?ucc=4rq5Ko7gBiW&utm_source=pangram_share&utm_medium=copy_link",
+   "my_version": "Don't mix 5-HTP casually with anything else that raises serotonin, like antidepressants or MAOIs. Most of the time serotonin syndrome comes from an interaction like that, with a few different drugs or supplements stacked on top of each other (MedlinePlus has a page on what it looks like). Case reports and reviews keep warning about the risk with 5-HTP, like this case report, where a young guy on sertraline (an antidepressant) took 5-HTP with a whole pile of weight-loss and energy supplements before a workout, and ended up with serotonin syndrome so bad that surgeons had to cut open both of his legs and his forearm to relieve the pressure. Luckily he recovered. If you're doing psychedelics, avoid 5-HTP on your psychedelic days, and be especially strict around ayahuasca's harmala MAOI chemistry and around iboga or ibogaine.",
+   "before": "Don't mix 5-HTP casually with anything else that raises serotonin, like antidepressants or MAOIs. Most of the time serotonin syndrome comes from an interaction like that, with a few different drugs or supplements stacked on top of each other (MedlinePlus has a page on what it looks like). Case reports and reviews keep warning about the risk with 5-HTP, like this case report, where a young guy on sertraline (an antidepressant) took 5-HTP with a whole pile of weight-loss and energy supplements before a workout, and ended up with serotonin syndrome so bad that surgeons had to cut open both of his legs and his forearm to relieve the pressure. Luckily he recovered. If you're doing psychedelics, avoid 5-HTP on your psychedelic days, and be especially strict around ayahuasca's harmala MAOI chemistry and around iboga or ibogaine.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "revise",
+     "at": "2026-11-04T22:31:41.180Z"
+    }
+   ],
+   "updated": "2026-11-04T22:33:56.976Z"
+  }
+ ]
+}

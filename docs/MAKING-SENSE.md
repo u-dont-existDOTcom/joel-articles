@@ -3,7 +3,7 @@
 **ACTIVE (Joel, 2026-11-04 22:14 UTC, gate E360):** "do we need to devise some kind of making sense protocol rather than
 attacking this problem case by case perhaps?" This is it: one read, for every paragraph I draft or rewrite in any of his
 articles, before its first Pangram try and again after every change. It collects what his own fixes have taught, lesson
-by lesson (E87, E342, E345, E347, E351, E355, E357, E359, E360), so a new case is met by the same questions instead of a new
+by lesson (E87, E342, E345, E347, E351, E355, E357, E359, E360, E362), so a new case is met by the same questions instead of a new
 rule. His words on why it comes first: "you don't need any lived experience, you just need it to MAKE SENSE". When a
 paragraph makes sense the way his versions do, the AI reading has mostly gone with it; when it doesn't, no rewording
 holds ("it's almost like pangram knows how stupid it sounds somehow").
@@ -51,11 +51,31 @@ the situation its heading names.
    (E347, E360).
    - His CBD paragraph moved the topical trial after the oral approval: "which was out of order, should go AFTER the
      oral part since we were discussing oral before that".
+   - His first-five-minutes paragraph (bad trips guide, round 6, MOVE-YOURS) read AI with my movement sentences after
+     the weapons and phone lines, and Human, High with nothing changed but their place: "actually, the problem was
+     simply that you had the ideas out of their natural order, i fixed that with nothing changed apart from moving".
+     Moving them away from roads, letting them pace, not letting them drive off or leave alone: where they go comes
+     together, then what to put away, then the phone.
+   - Things of one kind stay together: the warning-stage measures that aren't cannabis go before all the cannabis
+     paragraphs, not between them ("we should move the non-cannabis para above all the cannabis info not put it
+     inbetween canna paras isn't that obvious?").
 7. **Does this fact help this reader now?** A section's research is chosen for the situation the section is about, and
    a finding that doesn't serve that reader goes, however true (E360).
    - "think about the usefulness of the THREE YEAR STUDY when we are talking to people having seizures RIGHT NOW, so
      you did the wrong research. i took that one out." An acute section wants what helps in minutes, or says plainly
      that nothing has been tested for that ("we have no study on whether CBD could be a rescue remedy for a seizure").
+   - The evidence that fits the reader's case: "why are we talking about focal seizures, when seizures from mdma and
+     psychedelic overdoses are generalized seizures, right? so we should extrapolate from cbd evidence for that which we
+     already stated in the para above with dravet and lennox types". Drug-induced seizures are generalized, so a
+     finding about focal seizures goes unless it says why other evidence doesn't apply.
+   - **A check that takes away a point's payoff takes the point away too, his points included** (E362). His 7-OH-CBD
+     point said the skin route misses "the potentially more active form"; the paper showed 7-OH-CBD works about as well
+     as CBD, not better, and I kept the point and explained it at more length. He: "READ what you wrote, it literally
+     is a whole big waste of time to talk about this, there's NO PAYOFF. nobody asked why CBD is better or worse than
+     7-OH-CBD, the only reason to mention that is if that's important to consider which we establish it probably IS
+     NOT". When a fact check weakens a point, ask what the reader would now do differently because of it; if nothing,
+     propose the cut. A card's "What stays" is read with this question too: keeping his point is not a reason to keep
+     a point that no longer does anything.
 8. **Does each item belong where it's put?** When a passage sorts things into groups (kinds, tiers, safe and unsafe,
    dos and don'ts), read every item against every group: an item in two groups says how it belongs to both, or it's a
    contradiction (E359, the neuro de-armoring lane).
@@ -65,6 +85,11 @@ the situation its heading names.
      checklist" and missed the flaw, because the original had it too: read the original's own logic before drafting.
 9. **Is it compressed?** One step a sentence, plain verbs, the small words that carry the relation ("which is",
    "treatment"), no space before "mg" (E338 (gut), E342, O67).
+   - "someone goes with them" became "have someone go with them": "not only compressed but has an air of snobbery to
+     it ... sounds more concrete and practical, less judgey" (the Low window that brought it to High). An instruction to
+     a helper says what the helper does.
+   - "anything" was vague ("so "anything" was vague, i fixed that"): "keep them from taking more of anything" became
+     "keep them from taking more of any substance".
 
 ## How it runs
 
@@ -90,3 +115,10 @@ the situation its heading names.
   universe, or message an ex, take the phone."
 - The CBD paragraphs (round 5, CBD-YOURS), Human, High, before he added his video link; his seven checks and what each
   changed are in his comment in `articles/bad-trips/review/r05/ANSWERS-R05-20261104-2214.json`.
+- The first five minutes' dangers and movement, one paragraph (round 6, MOVE-YOURS), Human Written, 0%, High, Medium,
+  High (https://www.pangram.com/history/e9d8d85c-5c0f-46b6-b780-91652f1efd15): "Anything that could let someone hurt
+  themselves in the next five minutes takes priority, so get the car keys out of reach and turn the stove off, and move
+  them away from roads and balconies, or pools of water for that matter. Letting them move around is fine, and pacing can
+  help, but keep them from taking more of any substance. If they want to go confront somebody, that can wait. And if they
+  want to leave, have someone go with them. Put any weapons away and keep the person away from crowds and strangers. If
+  they want to post their big revelation about the universe, or message an ex, take the phone."
