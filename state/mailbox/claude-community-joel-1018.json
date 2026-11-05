@@ -269,6 +269,76 @@
     }
    ],
    "recorded_utc": "2026-11-04T20:20Z"
+  },
+  {
+   "turn": "2026-11-04T22:37Z",
+   "lines_of_work": [
+    "neuro de-armoring"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "no new items in the lane (2026-09-30-claim-checks-for-reviews.md and 2026-10-31-mailbox-every-turn.md, both in the ledger); UDA main c5c9951; its live AGENTS.md (blob 5160080) and LESSON-INDEX (7896422) unchanged"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "pull request 302 (this lane's) merged at 21:13:28 UTC; 293 (the gut lane, claude/gut-r07-20261104) open, updated 21:40, changing docs/HUMANIZATION-GATE.md and tools; no new issue or review comments since 20:00 UTC (gh api REST)"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no edits by anyone else to this lane's handoff note or questions page since its last turn (main's articles/neuro-de-armoring matches 8dae8122); the branch fast-forwarded to main 75f725a2"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "no queued notifications"
+    }
+   ],
+   "items": [
+    {
+     "item": "Joel's answers of 2026-11-04 22:34 UTC on Neuro De-Armoring Cards, 4 November (4), with his GH handoff line",
+     "outcome": "saved word for word; both his versions in (apply_cards_x1104e.py); one word of his Y-93 fixed and put to him as card Y-93b on Cards (5); lesson E359"
+    }
+   ],
+   "recorded_utc": "2026-11-04T22:50Z"
+  },
+  {
+   "turn": "2026-11-05T15:20Z",
+   "lines_of_work": [
+    "neuro de-armoring"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "no new items (the same two, both in the ledger); UDA main c5c9951, AGENTS.md blob 5160080, LESSON-INDEX 7896422 unchanged"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "pull request 280 (bad trips) merged 15:15:28 UTC; 303 (this lane) open, check green, no review comments; 293 open"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no edits by others to this lane's handoff or questions page; main merged in (one conflict in docs/HUMANIZATION-GATE.md, both sides kept)"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "two GitHub notices on 303 last turn (subscribed; check green), read"
+    }
+   ],
+   "items": [
+    {
+     "item": "Joel's message of 2026-11-05 15:20 UTC: 'ok idk why you can't use pangram other lanes are using it try again', with his Bad Trips Round 6 answers",
+     "outcome": "Pangram run in his account from the desktop app's browser pane; his four Cards (4) links read back; batch x1104u checked; the ATP section's first paragraph in; Cards rebuilt; his round 6 answers done in the bad trips lane's worktree"
+    }
+   ],
+   "recorded_utc": "2026-11-05T15:40Z"
   }
  ]
 }

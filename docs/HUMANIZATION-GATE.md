@@ -2470,7 +2470,7 @@ His message, word for word: `articles/neuro-de-armoring/humanize/fix-20261104/jo
   high conf human"). Where it's written down: the lane's `fix-20261103/examples/WHAT-HIS-VERSIONS-DO.md`, versions twelve
   and thirteen.
 
-(E342, E345, E347 to E349 and E351 are the gut lane's, in its section above. The next lesson in either lane is E360.)
+(E342, E345, E347 to E349 and E351 are the gut lane's, in its section above. The next lesson in either lane was E360 here; it is in the next section.)
 
 ## What the bad trips guide's round 5 taught (2026-11-04, his answers exported 22:14 UTC)
 
