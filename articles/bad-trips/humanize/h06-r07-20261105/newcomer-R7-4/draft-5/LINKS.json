@@ -1,0 +1,34 @@
+[
+ {
+  "sentence": 1,
+  "quote": "it stops the seizure from going any further",
+  "gap": "Which thing is \"it\"? Is it smoking, the drug, or something else? The sentence doesn't name it.",
+  "id": "L1",
+  "status": "drop",
+  "note": "his words: cannabis, from the paragraph before"
+ },
+ {
+  "sentence": 1,
+  "quote": "whose EEG showed fewer seizure discharges",
+  "gap": "What is an EEG, and what is a \"seizure discharge\"?",
+  "id": "L2",
+  "status": "drop",
+  "note": "his words (EEG)"
+ },
+ {
+  "sentence": 2,
+  "quote": "THC vapes and concentrates",
+  "gap": "What is THC? This part never says.",
+  "id": "L3",
+  "status": "drop",
+  "note": "THC is named throughout the guide and in the paragraph before (the THC nasal spray)"
+ },
+ {
+  "sentence": 3,
+  "quote": "Rats bred to have seizures had more of them after high-THC smoke, too.",
+  "gap": "Why is a rat study here? It doesn't tell me what to do for a friend who is seizing now.",
+  "id": "L4",
+  "status": "drop",
+  "note": "the rats show the reports of THC bringing seizures on aren't just stories; this paragraph is for the aura, before anyone uses cannabis"
+ }
+]

@@ -1,0 +1,179 @@
+{
+ "format": "joel-suggestion-review-v1",
+ "review_id": "bad-trips-r07",
+ "title": "Bad Trips Guide, Round 7",
+ "intro": [
+  "Round 7 (2026-11-05), after your three round-6 versions and your placement went in. Your new paragraphs were checked in Pangram on your account first: the warning stage with your humic line, your cannabis paragraph and your topical CBD paragraph each read Human, High. Your forums paragraph read AI in the two sentences of mine you kept, so the last card fixes those.",
+  "Where you asked \"right?\": yes, the warning-stage paragraph goes after the rescue medicine and before the paragraph that starts on CBD, so it sits above all the cannabis paragraphs. That move leaves the next paragraph's \"also\" and \"adjuncts\" pointing at the warning stage, which is the third card. And yes, the CBD evidence to go by for MDMA and psychedelic seizures is Dravet and Lennox-Gastaut's, whose trials counted generalized seizures (the second card); the third approved use, tuberous sclerosis, is mostly focal.",
+  "Every card's new words were read for sense first, sentence by sentence, with a written receipt of what each sentence does for someone whose friend is having a seizure from MDMA or a psychedelic overdose, and two fresh readers each. That receipt is what would have caught the 7-OH-CBD point: a point that's correct after checking still goes when it does nothing for this reader."
+ ],
+ "git_file": "articles/bad-trips/review/r07/REVIEW-R07.html",
+ "article": {
+  "file": "articles/bad-trips/review/r07/PAGE-R07.md",
+  "sha256": "2cddc36ad67f150ef5eac107e720aa7bb54471cf37216592ed6c8216b7ba96d2"
+ },
+ "built": "2026-11-05",
+ "links": {
+  "guide": "https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261105/articles/bad-trips/GUIDE-SO-FAR.md",
+  "guide_label": "the guide as it stands",
+  "check": "https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261105/articles/bad-trips/humanize/h06-r07-20261105/RESULTS.md",
+  "review": "https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261105/articles/bad-trips/review/r07/REVIEW-R07.md"
+ },
+ "types": {
+  "fact": {
+   "label": "Checked against the source",
+   "about": "a point in your paragraph changed to what its source says"
+  },
+  "order": {
+   "label": "After your move",
+   "about": "what a paragraph needs once the one before it changed"
+  },
+  "mine": {
+   "label": "My words read AI",
+   "about": "sentences of mine you kept, which read AI, fixed the next obvious way"
+  }
+ },
+ "suggestions": [
+  {
+   "id": "ABRACE",
+   "type": "fact",
+   "advice": "approve",
+   "title": "ABRACE: a patients' association, and more than 30 tests",
+   "reading": "Your paragraph as it is, [Human Written, 0%](https://www.pangram.com/history/ae1cbe48-eeb7-4e04-8b62-bbb970071cb1), one window, High.",
+   "tested": "With the two changes, [Human Written, 0%](https://www.pangram.com/history/a5570612-ceb1-479d-815e-1cb646423ebc), one window, High.",
+   "what": "Two changes in your cannabis paragraph: \"by a company called ABRACE\" becomes \"by a patients' association called ABRACE\", and \"in 30 tests\" becomes \"in more than 30 tests\".",
+   "why": "What was said in Congress ([the transcript](https://escriba.camara.leg.br/escriba-servicosweb/html/58445), the special committee on bill 399/2015, 19 November 2019): ABRACE's executive director, Cassiano Teixeira, told it \"Nos mais de 30 testes que fizemos, as crianças voltaram em menos de 30 segundos\" (in the more than 30 tests we did, the children came back in under 30 seconds), of a THC nasal spray. ABRACE (Associação Brasileira de Apoio Cannabis Esperança) is a non-profit association of patients and families in João Pessoa that the courts have let grow cannabis and supply its members since 2017 ([Canaltech](https://canaltech.com.br/saude/esta-e-a-maior-plantacao-legal-de-cannabis-medicinal-no-brasil-191927/)), and its products aren't registered as medicines. That matters to the reader: the tests are the makers' own reports, not a trial. \"Within 30 seconds\" is what he said, and the video's title says it's their THC spray.",
+   "stays": "Everything else in the paragraph, in your words: \"marketed\", \"within 30 seconds\", the video.",
+   "deciding": "Two fresh readers asked what kind of tests these were. \"tests they did\" says they were the association's own; if you'd rather say outright that they weren't a trial, Revise with your words.",
+   "advice_note": "Approve.",
+   "found_by": "checking your new points against the testimony (gate E348)",
+   "receipt": "articles/bad-trips/humanize/h06-r07-20261105/R7-1.receipt.json",
+   "edits": [
+    {
+     "block": 52,
+     "before": "As for CBD/cannabis, people do smoke or vape it at the start of an aura, while they're still awake enough to do it on purpose. There are also people who find THC and/or CBD works as a nasal spray or sublingually, and there's even a medical THC nasal spray marketed for seizure interruption in Brazil by a company called ABRACE. They testified in Congress that in 30 tests they did with children having seizures, the nasal spray ended those seizures within 30 seconds. You can see it being used on a child in this vid: https://www.youtube.com/watch?v=bgVi5o_2v_w",
+     "after": "As for CBD/cannabis, people do smoke or vape it at the start of an aura, while they're still awake enough to do it on purpose. There are also people who find THC and/or CBD works as a nasal spray or sublingually, and there's even a medical THC nasal spray marketed for seizure interruption in Brazil by a patients' association called ABRACE. They testified in Congress that in more than 30 tests they did with children having seizures, the nasal spray ended those seizures within 30 seconds. You can see it being used on a child in this vid: https://www.youtube.com/watch?v=bgVi5o_2v_w"
+    }
+   ],
+   "spans": [
+    {
+     "block": 52,
+     "start": 303,
+     "end": 312
+    },
+    {
+     "block": 52,
+     "start": 360,
+     "end": 371
+    }
+   ]
+  },
+  {
+   "id": "AUTHORS",
+   "type": "fact",
+   "advice": "approve",
+   "title": "The gel trial: what its authors said, and what it means for drug seizures",
+   "reading": "Your paragraph as it is, [Human Written, 0%](https://www.pangram.com/history/b24a1f68-fe39-4ef8-bfef-a03bbce3dc1c), one window, High.",
+   "tested": "With the changes, [Human Written, 0%](https://www.pangram.com/history/954a53dc-72c4-457a-b5e2-3e87a8e4ade6), one window, High.",
+   "what": "Your sentence \"The study authors suggested the dosing may have been too low, or it works better for generalized rather than focal seizures.\" becomes two: \"The study authors suggested the dosing may have been too low, or that adults with focal epilepsy just don't respond as well as people with the syndromes oral CBD is approved for. The seizures in Dravet and Lennox-Gastaut syndrome are mostly generalized.\" And your last sentence says what it means for the trial: \"Generalized are the type people usually have with MDMA & psychedelic overdoses, so topical CBD might do better for those than it did in that trial.\"",
+   "why": "The authors didn't say generalized. Their words ([O'Brien et al. 2022](https://pmc.ncbi.nlm.nih.gov/articles/PMC9270696/)): the response \"in adults with focal epilepsy is not as robust as seen in patients with Dravet syndrome, Lennox-Gastaut syndrome, or tuberous sclerosis complex\", and tuberous sclerosis is a condition \"with primarily focal seizures\" ([Thiele et al. 2021](https://pubmed.ncbi.nlm.nih.gov/33346789/)). So their point was the kind of patient. Your extrapolation still holds through Dravet and Lennox-Gastaut: the Dravet trial counted convulsive seizures ([Devinsky et al. 2017](https://pubmed.ncbi.nlm.nih.gov/28538134/)), the Lennox-Gastaut trial drop seizures ([Devinsky et al. 2018](https://pubmed.ncbi.nlm.nih.gov/29768152/)), both generalized kinds, and seizures caused by drugs are generalized ([a toxicology teaching note from the University of Calgary](https://cumming.ucalgary.ca/sites/default/files/teams/127/CPT%20Pearl%20Drug%20Induced%20Seizure.pdf), which lists MDMA). I left out the authors' third reason, that the effect might take longer than 12 weeks to show, since it changes nothing for someone having a seizure now. The last clause is there because two fresh readers couldn't see what the generalized point meant for the trial; \"might\", because no study has tried CBD on a seizure a drug caused.",
+   "stays": "Your first two sentences, and your last sentence's words.",
+   "deciding": "The closing clause is your extrapolation (\"we should extrapolate from cbd evidence for that\"), said as one. If you'd rather leave the reader to draw it, Revise without it.",
+   "advice_note": "Approve.",
+   "found_by": "checking your new points against the trial's paper (gate E348), and your question about focal seizures",
+   "receipt": "articles/bad-trips/humanize/h06-r07-20261105/R7-2.receipt.json",
+   "edits": [
+    {
+     "block": 54,
+     "before": "As for topical CBD, it hasn't been well-studied. There was a short 12-week trial done, where they used a CBD skin gel, and although absorption was good, it didn't work any better than placebo to prevent seizures. The study authors suggested the dosing may have been too low, or it works better for generalized rather than focal seizures. Generalized are the type people usually have with MDMA & psychedelic overdoses.",
+     "after": "As for topical CBD, it hasn't been well-studied. There was a short 12-week trial done, where they used a CBD skin gel, and although absorption was good, it didn't work any better than placebo to prevent seizures. The study authors suggested the dosing may have been too low, or that adults with focal epilepsy just don't respond as well as people with the syndromes oral CBD is approved for. The seizures in Dravet and Lennox-Gastaut syndrome are mostly generalized. Generalized are the type people usually have with MDMA & psychedelic overdoses, so topical CBD might do better for those than it did in that trial."
+    }
+   ],
+   "spans": [
+    {
+     "block": 54,
+     "start": 275,
+     "end": 336
+    },
+    {
+     "block": 54,
+     "start": 338,
+     "end": 417
+    }
+   ]
+  },
+  {
+   "id": "AFTER-MOVE",
+   "type": "order",
+   "advice": "approve",
+   "title": "The paragraph after your move: when, and no focal sentence",
+   "reading": "Checked with your other CBD paragraphs in round 6, [Human Written, 0%](https://www.pangram.com/history/01b892a4-ee16-4f06-bb77-52090f1aa4e7), with its last sentence, \"For focal seizures outside those syndromes, the evidence is mixed, but still long-term.\", in a Low window.",
+   "tested": "With the changes, alone, [Human Written, 0%](https://www.pangram.com/history/ffbdf673-64f0-4253-8712-88b419ddb4f4), one window, High.",
+   "what": "It starts \"During the seizure, alongside any rescue medicine, I would use topical magnesium chloride ...\" where it said \"I would also use ... as adjuncts\", and its last sentence, on focal seizures, goes.",
+   "why": "Your move put the warning stage between this paragraph and the rescue medicine, so its \"also\" and \"as adjuncts\" now add to the warning-stage list: two fresh readers asked \"adjuncts to what?\", one of them after reading the section from its start. \"During the seizure\" turns back to the seizure, and \"alongside any rescue medicine\" says what these go with, which \"adjunct\" said before the move. The focal sentence answers your question, \"why are we talking about focal seizures\": here we needn't, since the seizures drug overdoses cause are generalized, and it was the Low window in round 6's check.",
+   "stays": "Everything else in the paragraph, your words.",
+   "deciding": "Whether \"alongside any rescue medicine\" says it your way. \"As adjunct remedies\", your own fix from round 5, was the first thing I tried, and the fresh readers still asked what they were adjuncts to.",
+   "advice_note": "Approve.",
+   "found_by": "your move of the warning-stage paragraph, and your question about focal seizures",
+   "receipt": "articles/bad-trips/humanize/h06-r07-20261105/R7-3.receipt.json",
+   "edits": [
+    {
+     "block": 51,
+     "before": "I would also use topical magnesium chloride and consider topical DMSO with a known-genuine CBD preparation as adjuncts (a lot of CBD is fake or very dilute). Seizures come in all different types, and we have no study on whether CBD could be a rescue remedy for a seizure (just anecdotes), even though we do have studies showing long-term effectiveness to prevent them: Purified oral CBD is approved for the seizures of Lennox-Gastaut syndrome, Dravet syndrome and tuberous sclerosis complex. For focal seizures outside those syndromes, the evidence is mixed, but still long-term.",
+     "after": "During the seizure, alongside any rescue medicine, I would use topical magnesium chloride and consider topical DMSO with a known-genuine CBD preparation (a lot of CBD is fake or very dilute). Seizures come in all different types, and we have no study on whether CBD could be a rescue remedy for a seizure (just anecdotes), even though we do have studies showing long-term effectiveness to prevent them: Purified oral CBD is approved for the seizures of Lennox-Gastaut syndrome, Dravet syndrome and tuberous sclerosis complex."
+    }
+   ],
+   "spans": [
+    {
+     "block": 51,
+     "start": 0,
+     "end": 16
+    },
+    {
+     "block": 51,
+     "start": 107,
+     "end": 118
+    },
+    {
+     "block": 51,
+     "start": 492,
+     "end": 579
+    }
+   ]
+  },
+  {
+   "id": "FORUMS",
+   "type": "mine",
+   "advice": "approve",
+   "title": "Your forums paragraph: my sentences that read AI",
+   "reading": "As it is, [AI Detected, 62%](https://www.pangram.com/history/64d111ca-8c3a-4d94-adc5-beb4a8b32bf0): your first sentence Human (Low); \"But other people say THC vapes and concentrates brought their seizures on, and in rats ... cut them about in half.\" AI (Medium); \"So the THC may be what makes it go either way.\" AI (Low). Both are mine, from round 6.",
+   "tested": "This version, my third, [Human Written, 0%](https://www.pangram.com/history/59bba2ed-ed63-4db5-9884-5bcd465d4ec2), one window, High.",
+   "what": "After your first sentence, my two become: \"But a few people on the same forums said THC vapes and concentrates brought their seizures on. And rats bred to have seizures had more of them after high-THC smoke.\" Three things of mine go: the rats' kind of seizure (the brief staring seizures called absence seizures), the injected CBD that cut their seizures about in half, and the last line, \"So the THC may be what makes it go either way.\"",
+   "why": "My first fix (split the long sentence, say why the rats are there, \"cannabis\" for \"it\") read [AI Detected, 51%](https://www.pangram.com/history/b8fbfcbc-c2d9-48b7-a1f8-0510320bb0a1): the split sentence went Human (Low), and the rats with the last line went AI (High). Three fresh readers then agreed on every one of those: the gloss on the rats' seizures, the rats' two results set in mirror image (\"more ... while ... about in half\") and the summing-up last line, which also didn't follow (a fresh reader: the rats show more seizures, not \"either way\"). So each goes, and only what this reader needs stays: that THC products brought some people's seizures on, and that the same happened to rats bred to have seizures ([Roebuck et al. 2022](https://pubmed.ncbi.nlm.nih.gov/33370468/): smoke from a high-THC cannabis raised their seizure discharges; injected THC did too, to over twice their usual number). The injected CBD is out because a helper can't inject CBD and the CBD evidence is in the paragraphs around this one; the kind of seizure, because it changes nothing for the reader. A second panel read on this version asked for \"some\" not to be said twice and for no trailing \"too\", so it says who (\"a few people on the same forums\") and adds the rats with \"And\".",
+   "stays": "Your first sentence, word for word, and the point that THC is what brought seizures on.",
+   "deciding": "Three things of yours from round 6's page go: the CBD injection, the kind of seizure, and the last line. The paragraph now ends on the rats and doesn't say what to do with THC at an aura; a fresh reader asked whether it means not to use it. If you'd say what you'd do, Revise with that line, in your words.",
+   "advice_note": "Approve.",
+   "found_by": "Pangram on your forums paragraph, then the making-sense read, a tell panel and fresh readers",
+   "receipt": "articles/bad-trips/humanize/h06-r07-20261105/R7-4.receipt.json",
+   "edits": [
+    {
+     "block": 53,
+     "before": "I also read on forums some swear it stops the seizure from going any further, and there was one woman whose EEG showed fewer seizure discharges on the days she smoked. But other people say THC vapes and concentrates brought their seizures on, and in rats that get the brief staring seizures called absence seizures, high-THC smoke made them worse while injected CBD cut them about in half. So the THC may be what makes it go either way.",
+     "after": "I also read on forums some swear it stops the seizure from going any further, and there was one woman whose EEG showed fewer seizure discharges on the days she smoked. But a few people on the same forums said THC vapes and concentrates brought their seizures on. And rats bred to have seizures had more of them after high-THC smoke."
+    }
+   ],
+   "spans": [
+    {
+     "block": 53,
+     "start": 168,
+     "end": 389
+    },
+    {
+     "block": 53,
+     "start": 390,
+     "end": 436
+    }
+   ]
+  }
+ ]
+}

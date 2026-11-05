@@ -1,0 +1,71 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "text_sha256": "d546ca8e1a5790fc28145632a074a512adee82e3ce74e354a2076583162b0c47",
+ "text": "I also read on forums some swear it stops the seizure from going any further, and there was one woman whose EEG showed fewer seizure discharges on the days she smoked. But other people say THC vapes and concentrates brought their seizures on. That matches what happened in rats that get the brief staring seizures called absence seizures: high-THC smoke gave them more of those seizures, while injected CBD cut the number about in half. So the THC may be what makes cannabis go either way.",
+ "section": "Active Seizure",
+ "reader": "someone with a person who is having, or about to have, a seizure from MDMA or a psychedelic overdose, which is generalized, and who wants to know what can stop it now",
+ "sentences": [
+  {
+   "s": "I also read on forums some swear it stops the seizure from going any further, and there was one woman whose EEG showed fewer seizure discharges on the days she smoked.",
+   "his": true
+  },
+  {
+   "s": "But other people say THC vapes and concentrates brought their seizures on.",
+   "payoff": "the reader learns that cannabis isn't safe for everyone at an aura: for some people the THC kind brought seizures on",
+   "follows": "the other side of the forum reports in Joel's sentence before (\"some swear it stops the seizure\")"
+  },
+  {
+   "s": "That matches what happened in rats that get the brief staring seizures called absence seizures: high-THC smoke gave them more of those seizures, while injected CBD cut the number about in half.",
+   "payoff": "the reader learns the rat study is there because it backs those reports: THC smoke gave the rats more seizures, and CBD cut them, which singles out THC as the part that can bring seizures on",
+   "follows": "says why a rat study follows the forum reports: it matches them"
+  },
+  {
+   "s": "So the THC may be what makes cannabis go either way.",
+   "payoff": "the reader learns that cannabis at an aura is a gamble either way, and that the THC is the likely reason: it is in the spray that stopped children's seizures and in the smoke that gave the rats more",
+   "follows": "draws the conclusion from the reports on both sides and the rats just given"
+  }
+ ],
+ "checked": [
+  {
+   "point": "high-THC smoke gave rats with absence seizures more of them; injected CBD cut the number about in half",
+   "found": "Roebuck et al. 2022 (PubMed 33370468): high-THC smoke increased absence-seizure discharges in rats, injected CBD halved them",
+   "still_needed": "yes: it is the evidence that THC is the part that can bring seizures on",
+   "fate": "kept"
+  },
+  {
+   "point": "people say THC vapes and concentrates brought their seizures on",
+   "found": "the forum threads in Joel's research of 2026-11-05 00:13 UTC",
+   "still_needed": "yes: the other side of the reports",
+   "fate": "kept"
+  },
+  {
+   "point": "the THC may be what makes cannabis go either way",
+   "found": "THC is in the ABRACE spray (stopped children's seizures, the paragraph before) and in the smoke that gave the rats more seizures; THC also stopped seizures in rats with temporal-lobe epilepsy (Wallace et al. 2003, PubMed 12954810), while CBD only helped in these reports and studies",
+   "still_needed": "yes: it is what the reports and the rats add up to for this reader; the fresh read of \"help some people and bring seizures on in others\" asked for a step to THC helping that the paragraph doesn't give, so the sentence goes back to the one Joel kept, with \"cannabis\" for \"it\"",
+   "fate": "kept"
+  }
+ ],
+ "placement": "where Joel put it: the second cannabis paragraph, after the one on the ABRACE spray, carrying on with what people report (\"I also read on forums\"), before the topical CBD paragraph",
+ "questions": {
+  "Q1": "PASS: the reports come first; the rat study is introduced by why it is there (\"That matches what happened in rats\")",
+  "Q2": "N/A: no instruction to the helper here",
+  "Q3": "PASS: \"THC vapes and concentrates\", \"high-THC smoke\" and \"injected CBD\" say which thing",
+  "Q4": "PASS: \"absence seizures\" is glossed; \"those seizures\" and \"the number\" say what THC raised and CBD cut; \"cannabis\" names what goes either way (the first fresh read asked whether \"it\" was the seizure or the smoking)",
+  "Q5": "PASS: \"But\" turns on \"some swear it stops the seizure\"; \"That matches\" points to seizures brought on, which the rats' extra seizures match; \"So\" draws on both",
+  "Q6": "PASS: those it helps, those it harmed, the study that backs the harm, what it adds up to",
+  "Q7": "PASS: whether cannabis at an aura can make it worse, and which part, is what this reader needs before trying it; absence seizures are a generalized kind",
+  "Q8": "N/A: no groups or tiers",
+  "Q9": "PASS: the packed sentence of forum reports and a rat study joined by \"and\" is now two sentences, one step each"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first; a study after the question it answers)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

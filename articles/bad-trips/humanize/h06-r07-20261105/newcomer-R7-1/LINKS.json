@@ -1,0 +1,74 @@
+[
+ {
+  "sentence": 1,
+  "quote": "As for CBD/cannabis",
+  "gap": "As for what? What is this set against, and does it follow from the part before?",
+  "id": "L1",
+  "status": "drop",
+  "note": "his words, not part of this change; \"As for CBD/cannabis\" follows P3, the paragraph before, which brings in CBD"
+ },
+ {
+  "sentence": 1,
+  "quote": "at the start of an aura",
+  "gap": "What is an aura, and how would I tell one has started?",
+  "id": "L2",
+  "status": "drop",
+  "note": "the warning-stage paragraph two paragraphs up defines it (\"which is called an aura\")"
+ },
+ {
+  "sentence": 2,
+  "quote": "sublingually",
+  "gap": "What does it mean to take something sublingually?",
+  "id": "L3",
+  "status": "drop",
+  "note": "his words, not part of this change"
+ },
+ {
+  "sentence": 2,
+  "quote": "find THC and/or CBD works as a nasal spray",
+  "gap": "Works for what? This sentence doesn't say what it is supposed to work on.",
+  "id": "L4",
+  "status": "drop",
+  "note": "his words, not part of this change; the paragraph is about stopping a seizure at an aura, which says what it works on"
+ },
+ {
+  "sentence": 2,
+  "quote": "a patients' association called ABRACE",
+  "gap": "Why does it matter to me who sells this spray and where? Nothing says I can get it.",
+  "id": "L5",
+  "status": "drop",
+  "note": "who makes it is there so the reader weighs the next sentence as the makers' own reports (\"tests they did\"); whether they can get it isn't the point, and the next two sentences say what it does"
+ },
+ {
+  "sentence": 3,
+  "quote": "They testified in Congress",
+  "gap": "Who is \"They\": the association named in the sentence before, or someone else?",
+  "id": "L6",
+  "answer": "a patients' association called ABRACE",
+  "raised": "They testified in Congress"
+ },
+ {
+  "sentence": 3,
+  "quote": "in more than 30 tests they did with children",
+  "gap": "What kind of test was this, who ran it, and was there a comparison group?",
+  "id": "L7",
+  "status": "drop",
+  "note": "testimony of the makers' own tests (\"tests they did\"); there was no comparison group to report, and saying so gives this reader nothing to act on"
+ },
+ {
+  "sentence": 3,
+  "quote": "the nasal spray ended those seizures within 30 seconds",
+  "gap": "Did this happen in every one of the 30 tests, or on average?",
+  "id": "L8",
+  "status": "drop",
+  "note": "the testimony: the children came back in under 30 seconds in more than 30 tests; \"ended those seizures within 30 seconds\" says the same"
+ },
+ {
+  "sentence": 4,
+  "quote": "You can see it being used on a child in this vid",
+  "gap": "Why am I being sent to watch this? What am I meant to learn from it for the friend in front of me?",
+  "id": "L9",
+  "status": "drop",
+  "note": "his words, not part of this change; seeing it used shows how the spray is given"
+ }
+]

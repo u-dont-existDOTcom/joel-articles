@@ -1,0 +1,76 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "text_sha256": "e877dd7dc413ee487099ab77f6a6f78fe671f205c25eada866c75ada7a3e403a",
+ "text": "As for CBD/cannabis, people do smoke or vape it at the start of an aura, while they're still awake enough to do it on purpose. There are also people who find THC and/or CBD works as a nasal spray or sublingually, and there's even a medical THC nasal spray marketed for seizure interruption in Brazil by a patients' association called ABRACE. They testified in Congress that in more than 30 tests they did with children having seizures, the nasal spray ended those seizures within 30 seconds. You can see it being used on a child in this vid: https://www.youtube.com/watch?v=bgVi5o_2v_w",
+ "section": "Active Seizure",
+ "reader": "someone with a person who is having, or about to have, a seizure from MDMA or a psychedelic overdose, which is generalized, and who wants to know what can stop it now",
+ "sentences": [
+  {
+   "s": "As for CBD/cannabis, people do smoke or vape it at the start of an aura, while they're still awake enough to do it on purpose.",
+   "his": true
+  },
+  {
+   "s": "There are also people who find THC and/or CBD works as a nasal spray or sublingually, and there's even a medical THC nasal spray marketed for seizure interruption in Brazil by a patients' association called ABRACE.",
+   "payoff": "the reader learns the two faster routes (nose, under the tongue) and that a THC spray is made for exactly their situation, stopping a seizure; \"patients' association\" tells them it's families' own product, not an approved medicine, so they weigh the next sentence's numbers that way",
+   "follows": "continues the first sentence's ways of taking cannabis at an aura (smoking, vaping) with the other fast routes"
+  },
+  {
+   "s": "They testified in Congress that in more than 30 tests they did with children having seizures, the nasal spray ended those seizures within 30 seconds.",
+   "payoff": "the reader learns how fast it worked in the makers' own reports (under 30 seconds, in more than 30 children's seizures), the speed an active seizure needs, and where the claim was made",
+   "follows": "says what the spray named in the sentence before did, and who said so"
+  },
+  {
+   "s": "You can see it being used on a child in this vid: https://www.youtube.com/watch?v=bgVi5o_2v_w",
+   "his": true
+  }
+ ],
+ "checked": [
+  {
+   "point": "ABRACE is a company",
+   "found": "a non-profit association of patients and families (associação sem fins lucrativos) that the courts have let grow cannabis and supply its members since 2017; its products aren't registered as medicines with Anvisa (Canaltech; Anvisa decision 1606002, 2021)",
+   "still_needed": "yes: who makes it tells the reader how much weight the 30 tests carry",
+   "fate": "changed"
+  },
+  {
+   "point": "in 30 tests",
+   "found": "\"Nos mais de 30 testes que fizemos, as crianças voltaram em menos de 30 segundos\" (Cassiano Teixeira, ABRACE's executive director, Câmara special committee on PL 399/2015, 19 Nov 2019)",
+   "still_needed": "yes: it's the number that says how often it worked",
+   "fate": "changed"
+  },
+  {
+   "point": "within 30 seconds",
+   "found": "\"em menos de 30 segundos\" (in under 30 seconds), the same testimony",
+   "still_needed": "yes: the speed is this section's payoff",
+   "fate": "kept"
+  },
+  {
+   "point": "a THC nasal spray",
+   "found": "the testimony: \"eficácia do spray nasal, no caso, do THC, para parar a crise\"; the video's title: \"Beni utilizando o Spray Nasal (THC Abrace) produzido no Brasil.\"",
+   "still_needed": "yes: it's what the spray is",
+   "fate": "kept"
+  }
+ ],
+ "placement": "where Joel put it: the first of the cannabis paragraphs, after P3, which brings in CBD as an adjunct; its \"As for CBD/cannabis\" points back to P3's CBD, and its \"aura\" to the warning-stage paragraph before P3, which names it",
+ "questions": {
+  "Q1": "PASS: each sentence says its point first; the spray is introduced by what it is for and who makes it before the numbers",
+  "Q2": "N/A: no instruction to the helper here; it reports what people use",
+  "Q3": "PASS: \"THC nasal spray\", \"children having seizures\" and \"within 30 seconds\" say exactly which thing",
+  "Q4": "PASS: \"seizure interruption\" says what the spray acts on; \"patients' association\" says what ABRACE is",
+  "Q5": "PASS: \"also\" continues the routes of sentence 1; \"They\" is ABRACE; the video follows the testimony as seeing it used",
+  "Q6": "PASS: ways people take it at an aura, then the faster routes, then the spray made for it, then the evidence, then the video",
+  "Q7": "PASS: a spray that ends a child's seizure in under 30 seconds is what this reader needs now; who makes it says how much to trust it",
+  "Q8": "N/A: no groups or tiers in this paragraph",
+  "Q9": "PASS: one claim a sentence; \"more than 30 tests\" is not compressed"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first; a study after the question it answers)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

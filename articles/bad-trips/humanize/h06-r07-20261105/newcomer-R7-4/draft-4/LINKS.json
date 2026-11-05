@@ -1,0 +1,122 @@
+[
+ {
+  "sentence": 1,
+  "quote": "some swear it stops the seizure from going any further",
+  "gap": "What does \"it\" refer to: smoking cannabis, THC, CBD, or the nasal spray from the paragraph before?",
+  "id": "L1",
+  "status": "drop",
+  "note": "his words, not part of this change: cannabis, from the paragraph before"
+ },
+ {
+  "sentence": 1,
+  "quote": "stops the seizure from going any further",
+  "gap": "How does smoking something stop a seizure once it has started? The paragraph doesn't say.",
+  "id": "L2",
+  "status": "drop",
+  "note": "his words, not part of this change"
+ },
+ {
+  "sentence": 1,
+  "quote": "EEG",
+  "gap": "What is an EEG, and what does a reader of it see when seizure discharges go down?",
+  "id": "L3",
+  "status": "drop",
+  "note": "his words, not part of this change (EEG)"
+ },
+ {
+  "sentence": 1,
+  "quote": "there was one woman whose EEG showed fewer seizure discharges",
+  "gap": "How does one woman's brain test on days she smoked back up the forum claim that it stops a seizure? The step between them isn't shown.",
+  "id": "L4",
+  "status": "drop",
+  "note": "his words, not part of this change: one case, reported as one"
+ },
+ {
+  "sentence": 1,
+  "quote": "on the days she smoked",
+  "gap": "This is about regular smoking over days, not a seizure happening now. What does it do for the person in front of me right now?",
+  "id": "L5",
+  "status": "drop",
+  "note": "his words, not part of this change: her days smoking, reported as they were"
+ },
+ {
+  "sentence": 2,
+  "quote": "brought their seizures on",
+  "gap": "How would THC vapes or concentrates cause a seizure? Nothing here says how.",
+  "id": "L6",
+  "status": "drop",
+  "note": "how isn't needed for the reader's choice"
+ },
+ {
+  "sentence": 2,
+  "quote": "concentrates",
+  "gap": "What are concentrates, and how are they different from the vapes and smoke already mentioned?",
+  "id": "L7",
+  "status": "drop",
+  "note": "a common term (cannabis concentrates)"
+ },
+ {
+  "sentence": 2,
+  "quote": "But other people say THC vapes",
+  "gap": "Does this help me while someone is seizing? It says THC can trigger seizures, but not what I should do with that knowledge.",
+  "id": "L8",
+  "status": "drop",
+  "note": "the paragraph is about using cannabis at an aura; that THC products have brought seizures on is what the reader weighs before using it"
+ },
+ {
+  "sentence": 3,
+  "quote": "Rats that get the brief staring seizures",
+  "gap": "Why do rat results bear on a person having a seizure? The step from rats to people isn't given.",
+  "id": "L9",
+  "status": "drop",
+  "note": "\"too\" ties the rats to the people: the same thing happened in them"
+ },
+ {
+  "sentence": 3,
+  "quote": "absence seizures",
+  "gap": "Is this the kind of seizure the person I'm helping is having? The paragraph before said seizures come in different types, and this one doesn't say which kind applies.",
+  "id": "L10",
+  "status": "drop",
+  "note": "a generalized kind, glossed; the point is which part of cannabis raised or cut them"
+ },
+ {
+  "sentence": 3,
+  "quote": "about half as many",
+  "gap": "Half as many compared to what? The baseline, such as untreated rats or rats after THC, isn't named.",
+  "id": "L11",
+  "status": "drop",
+  "note": "as many as without it: \"more of them\" and \"about half as many\" are both against the rats' usual number"
+ },
+ {
+  "sentence": 3,
+  "quote": "after a CBD injection",
+  "gap": "Why an injection, when the paragraph before was about nasal sprays and smoking? A helper can't give an injection, so why is it here?",
+  "id": "L12",
+  "status": "drop",
+  "note": "injected because that is what the study did; saying CBD without the route would overclaim (CBD smoke did nothing significant in it)"
+ },
+ {
+  "sentence": 4,
+  "quote": "So it may come down to how much THC is in the cannabis",
+  "gap": "What step gets from the mixed human reports and rat results to the amount of THC? The \"so\" doesn't show it.",
+  "id": "L13",
+  "status": "drop",
+  "note": "the high-THC forms (vapes, concentrates, high-THC smoke) are the ones that brought seizures on, and CBD cut them; the reader who knows concentrates are the strongest kind sees the step; if Pangram reads it AI, the next fix states it"
+ },
+ {
+  "sentence": 4,
+  "quote": "So it may come down",
+  "gap": "What is \"it\" here: whether cannabis helps or harms, or whether a seizure stops?",
+  "id": "L14",
+  "status": "drop",
+  "note": "\"it may come down to\" is an idiom: whether it helps or brings a seizure on"
+ },
+ {
+  "sentence": 4,
+  "quote": "how much THC is in the cannabis",
+  "gap": "How would I know how much THC is in what someone is using, and what would I do with that during a seizure?",
+  "id": "L15",
+  "status": "drop",
+  "note": "the reader knows whether what they have is a vape, a concentrate, flower or a CBD oil; this is for the aura, before using it"
+ }
+]

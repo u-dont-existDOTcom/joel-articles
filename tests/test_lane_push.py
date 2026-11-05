@@ -171,3 +171,81 @@ class LaneIntegration(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
+
+
+class MergeLessons(unittest.TestCase):
+    """Joel, 2026-11-05 15:15 UTC: "make sure you merge lessons with main branch so everyone is sharing always". A branch
+    that changes shared rules or tools merges into main the turn it is pushed, once its checks pass."""
+
+    def args(self, *extra):
+        return P.parser().parse_args(['subject', '--article', 'bad-trips'] + list(extra))
+
+    def test_shared_changes_without_merge_or_reason_refuse(self):
+        with self.assertRaises(SystemExit) as e:
+            P.merge_gate(self.args(), ['docs/MAKING-SENSE.md'])
+        self.assertIn('--merge', str(e.exception))
+        self.assertIn('docs/MAKING-SENSE.md', str(e.exception))
+
+    def test_merge_or_a_reason_lets_it_through(self):
+        P.merge_gate(self.args('--merge'), ['docs/MAKING-SENSE.md'])
+        P.merge_gate(self.args('--no-merge', 'its tests fail until the gut lane merges'), ['docs/MAKING-SENSE.md'])
+
+    def test_article_work_alone_needs_neither(self):
+        P.merge_gate(self.args(), [])
+
+    def test_merge_and_no_merge_together_refuse(self):
+        with self.assertRaises(SystemExit):
+            P.merge_gate(self.args('--merge', '--no-merge', 'why'), ['docs/x.md'])
+
+    def fake(self, checks, merged=True, pull='301'):
+        calls = []
+
+        def run(cmd, check=True, timeout=600):
+            calls.append(cmd)
+            rc, out, err = 0, '', ''
+            if cmd[:2] == ['git', 'rev-parse'] and '--abbrev-ref' in cmd:
+                out = 'claude/bad-trips-20261105\n'
+            elif cmd[:2] == ['git', 'rev-parse']:
+                out = 'abcdef1234567890\n'
+            elif cmd[:3] == ['git', 'remote', 'get-url']:
+                out = 'https://github.com/owner/joel-articles.git\n'
+            elif cmd[:2] == ['gh', 'api'] and 'pulls?state=open' in cmd[2]:
+                out = pull + '\n'
+            elif cmd[:2] == ['gh', 'api'] and cmd[2].endswith('/check-runs'):
+                out = '\n'.join('\t'.join(c) for c in checks) + '\n'
+            elif cmd[:4] == ['gh', 'api', '-X', 'PUT']:
+                if merged:
+                    out = '0123456789abcdef\n'
+                else:
+                    rc, err = 1, 'Pull Request is not mergeable'
+            return subprocess.CompletedProcess(cmd, rc, out, err)
+        return run, calls
+
+    def test_green_checks_merge_with_a_merge_commit_at_the_pushed_commit(self):
+        run, calls = self.fake([('content-integrity', 'completed', 'success')])
+        with mock.patch.object(P, 'run', run):
+            msg = P.merge_now(wait=1)
+        self.assertIn('merged pull request 301 into main', msg)
+        put = [c for c in calls if c[:4] == ['gh', 'api', '-X', 'PUT']][0]
+        self.assertIn('merge_method=merge', put)
+        self.assertIn('sha=abcdef1234567890', put)
+
+    def test_a_failed_check_does_not_merge(self):
+        run, calls = self.fake([('content-integrity', 'completed', 'failure')])
+        with mock.patch.object(P, 'run', run):
+            msg = P.merge_now(wait=1)
+        self.assertTrue(msg.startswith('NOT MERGED'))
+        self.assertIn('content-integrity', msg)
+        self.assertFalse([c for c in calls if c[:4] == ['gh', 'api', '-X', 'PUT']])
+
+    def test_no_pull_request_says_so(self):
+        run, _ = self.fake([], pull='')
+        with mock.patch.object(P, 'run', run):
+            self.assertIn('no open pull request', P.merge_now(wait=1))
+
+    def test_github_refusing_the_merge_is_reported_not_hidden(self):
+        run, _ = self.fake([('content-integrity', 'completed', 'success')], merged=False)
+        with mock.patch.object(P, 'run', run):
+            msg = P.merge_now(wait=1)
+        self.assertIn('NOT MERGED', msg)
+        self.assertIn('not mergeable', msg)

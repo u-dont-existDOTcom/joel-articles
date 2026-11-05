@@ -1,0 +1,74 @@
+[
+ {
+  "sentence": 1,
+  "quote": "As for topical CBD",
+  "gap": "What does \"topical\" mean, and which use of CBD is this about? The earlier text never mentioned it.",
+  "id": "L1",
+  "status": "drop",
+  "note": "his words, not part of this change; the reader was given only the section's first paragraphs, not the CBD paragraphs before"
+ },
+ {
+  "sentence": 1,
+  "quote": "it hasn't been well-studied",
+  "gap": "Studied for what? The sentence doesn't say whether the gap is about seizures in general or about stopping one in progress.",
+  "id": "L2",
+  "status": "drop",
+  "note": "his words, not part of this change; the trial sentence says for preventing seizures"
+ },
+ {
+  "sentence": 2,
+  "quote": "although absorption was good",
+  "gap": "Absorption into what? And what does \"although\" turn on: why is good absorption mentioned as if it should have helped?",
+  "id": "L3",
+  "status": "drop",
+  "note": "his words, not part of this change"
+ },
+ {
+  "sentence": 2,
+  "quote": "it didn't work any better than placebo to prevent seizures",
+  "gap": "What is a placebo? And why is prevention the test here, when the person I'm helping is having a seizure already?",
+  "id": "L4",
+  "status": "drop",
+  "note": "his words, not part of this change; P3 offers CBD on the skin during a seizure, so the reader needs to know it is unproven"
+ },
+ {
+  "sentence": 3,
+  "quote": "adults with focal epilepsy",
+  "gap": "What is \"focal\", and which adults: only those in the trial, or adults with that kind of epilepsy in general?",
+  "id": "L5",
+  "status": "drop",
+  "note": "the name is enough; what matters is that it is a different kind from the reader's"
+ },
+ {
+  "sentence": 3,
+  "quote": "the syndromes oral CBD is approved for",
+  "gap": "Which syndromes? This part never names them, so I can't tell what the comparison is.",
+  "id": "L6",
+  "status": "drop",
+  "note": "named in P3, which this read wasn't given"
+ },
+ {
+  "sentence": 3,
+  "quote": "The study authors suggested the dosing may have been too low",
+  "gap": "Why does a guess about the trial's dose matter to me? It doesn't say what I should take from it when someone is seizing.",
+  "id": "L7",
+  "status": "drop",
+  "note": "his words, not part of this change; the failure may be the dose, not the skin route"
+ },
+ {
+  "sentence": 4,
+  "quote": "The seizures in Dravet and Lennox-Gastaut syndrome are mostly generalized.",
+  "gap": "Which Dravet and Lennox-Gastaut? These are unnamed kinds of illness, and \"generalized\" is not defined. Why is this fact here before the reason for it?",
+  "id": "L8",
+  "status": "drop",
+  "note": "named in P3, which this read wasn't given; generalized is said to be the drug-overdose kind in the next sentence"
+ },
+ {
+  "sentence": 5,
+  "quote": "Generalized are the type people usually have with MDMA & psychedelic overdoses.",
+  "gap": "Generalized what, and what does it change? The sentence doesn't say how this bears on the trial in adults with focal epilepsy, or on topical CBD in my friend's seizure. The step between S3 and S5 is missing.",
+  "id": "L9",
+  "status": "drop",
+  "note": "fixed in the next draft: the last sentence now says what follows (\"so topical CBD might do better for those than it did in that trial\")"
+ }
+]

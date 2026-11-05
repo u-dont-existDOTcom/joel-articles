@@ -1,0 +1,50 @@
+[
+ {
+  "sentence": 1,
+  "quote": "I also read on forums some swear it stops the seizure",
+  "gap": "What does \"also\" add to what came before? Who are \"some\", and does \"it\" mean cannabis?",
+  "id": "L1",
+  "status": "drop",
+  "note": "his words, not part of this change: \"also\" adds to the reports in the paragraph before; \"it\" is cannabis, from it"
+ },
+ {
+  "sentence": 1,
+  "quote": "whose EEG showed fewer seizure discharges",
+  "gap": "What is an EEG, and what is a seizure discharge?",
+  "id": "L2",
+  "status": "drop",
+  "note": "his words, not part of this change (EEG): \"fewer seizure discharges\" says what it showed"
+ },
+ {
+  "sentence": 2,
+  "quote": "THC vapes and concentrates",
+  "gap": "What are concentrates, and how do they differ from vapes?",
+  "id": "L3",
+  "status": "drop",
+  "note": "a common term (cannabis concentrates)"
+ },
+ {
+  "sentence": 3,
+  "quote": "That matches what happened in rats",
+  "gap": "What is \"that\" pointing to, S1 or S2? And why would a result in rats count as a match for people?",
+  "id": "L4",
+  "status": "drop",
+  "note": "\"That\" is the reports of THC bringing seizures on, the sentence before; the rats agree with them, and that is why they are here"
+ },
+ {
+  "sentence": 3,
+  "quote": "absence seizures",
+  "gap": "What are absence seizures, and are they the same kind of seizure this section is about?",
+  "id": "L5",
+  "status": "drop",
+  "note": "a generalized kind, glossed as the brief staring seizures; what matters is which part of cannabis raised or cut them"
+ },
+ {
+  "sentence": 4,
+  "quote": "So the THC may be what makes cannabis go either way.",
+  "gap": "What is the step from the rat result to \"either way\"? The rats show more seizures, not fewer. What does \"either way\" mean here, and how does \"so\" follow?",
+  "id": "L6",
+  "status": "drop",
+  "note": "\"either way\" is helping (the first sentence) or bringing seizures on (the second and third), and the rats single out THC as the part that brought them on, so it is the likely reason it can go either way"
+ }
+]

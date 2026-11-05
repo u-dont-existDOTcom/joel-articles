@@ -1,6 +1,6 @@
 # Bad Trips guide: current state
 
-Updated: 2026-11-05 (turn 10, his research upload of 00:13 UTC). Registered 2026-11-03 at Joel's message of 15:45 UTC ("start working on humanizing my
+Updated: 2026-11-05 (turn 11, his round-6 answers exported 15:14 UTC and his message of 15:15 UTC). Registered 2026-11-03 at Joel's message of 15:45 UTC ("start working on humanizing my
 badtrips guide at badtrips.u-dont-exist.com"; `experiments/t01-answers/JOEL-MESSAGE-20261103-1545.md`).
 
 ## Goal
@@ -160,26 +160,43 @@ dose, unit, timing and warning exactly as it went in, and his post updated with 
   (Bad Trips Guide, Round 6, https://claude.ai/artifact/61WV1ADoZb9fB8oKJkiL6H; db and downloads declared, as the page's
   answer store and export use them). The scorecards rebuilt.
 
+- 2026-11-05 (turn 11, his round-6 answers exported 15:14 UTC, saved as `review/r06/ANSWERS-R06-20261105-1514.json`, and
+  his message "make sure you merge lessons with main branch so everyone is sharing always"): his three versions and his
+  placement in (`review/r06/apply_r06.py`: the warning stage with his humic line after the rescue medicine and before the
+  CBD paragraph; his cannabis paragraphs; his topical CBD paragraph without 7-OH-CBD; his merged first-five-minutes
+  paragraph; 11,941 to 12,287 words). His points checked against their sources (E348): the Congress transcript ("mais de
+  30 testes"), ABRACE (a patients' association), the gel trial's authors (adults with focal epilepsy, not "generalized"),
+  the Dravet and Lennox-Gastaut trials (convulsive and drop seizures), tuberous sclerosis (mostly focal), drug-caused
+  seizures (generalized). His "fix the way you work" made into enforcement: `tools/humanization/sense_receipt.py` (a
+  receipt per paragraph: each sentence's payoff for the reader's case; a checked point whose reason went is cut), which
+  `pangram_ledger.py predict` and `suggestion_review.py` now require of my text, and a retry that rewrites more than 40%
+  of the last try is refused without a reason (E361); `predict` now hashes the text as Pangram reads it. His merge rule:
+  `lane_push.py --merge` (a branch that changes shared rules merges into main once its checks pass). Lessons E362 to E365
+  (`docs/HUMANIZATION-GATE.md`), `docs/MAKING-SENSE.md`'s questions 2, 3, 6 and 7 with his round-6 pairs, `AGENTS.md`.
+  Pangram in his account (`humanize/h06-r07-20261105/RESULTS.md`, predictions first, 8 of 9 right): his warning stage,
+  cannabis and topical CBD paragraphs Human, High; his forums paragraph AI in my two kept sentences. Round 7's page, 4
+  cards, every new text Human, High, with its receipt and two fresh reads (Bad Trips Guide, Round 7,
+  https://claude.ai/artifact/41gorxz7ZJ1MV8QL1E63vs; cards as text in `review/r07/REVIEW-R07.md`; browser test 78 of 78):
+  ABRACE's two facts, the gel trial's authors and what it means for drug seizures, the paragraph after his move ("During
+  the seizure, alongside any rescue medicine", the focal sentence cut), his forums paragraph (my sentences cut down to
+  what the reader needs, after a tell panel).
+
 ## Current checkpoint
 
-- **In progress:** Turn 10: round 6 (version 2) is with him: CBD-TRIAL (Human), SEIZ-WARN (the warning stage Human, High;
-  the cannabis paragraph AI after four tries, his to revise), MOVE-YOURS (the first five minutes' movement paragraph, his
-  version asked for after four of mine read AI and took his dangers paragraph with them).
-- **Next step (updated on every push, so another account can pick up here):** His round-6 answers in with an
-  `apply_r06.py` like round 5's (the page's export saved as `review/r06/ANSWERS-R06-*.json`; his versions as he wrote
-  them). Then learn from his MOVE-YOURS version the way `docs/MAKING-SENSE.md` learned from PFA-YOURS: what it does that
-  my four tries (`humanize/h05-checks-20261105/RESULTS.md`) didn't, written into the making-sense read, and tried on the
-  next paragraph of Psychological First Aid (P5, "Then look at the room ..."), one paragraph at a time, a prediction
-  before each check, in his Pangram account (the desktop app's browser pane worked on 2026-11-05; Claude in Chrome
-  wasn't connected). His CBD paragraphs' two Low windows are his words: offer them on a later page only with a fix
-  that keeps his meaning. No whole-guide check until no window already seen reads AI or Low (E354).
-- **Waiting on Joel:** round 6's three cards.
+- **In progress:** Turn 11: round 7 is with him (4 cards: ABRACE, AUTHORS, AFTER-MOVE, FORUMS; each Human, High).
+- **Next step (updated on every push, so another account can pick up here):** His round-7 answers in with an
+  `apply_r07.py` like round 6's (the page's export saved as `review/r07/ANSWERS-R07-*.json`; his versions as he wrote
+  them; `OWNER-EDITS.json`'s round-6 entries noted where an approved card changes his words). Then the next paragraph of
+  Psychological First Aid (P5, "Then look at the room ..."), one paragraph at a time: its making-sense receipt
+  (`tools/humanization/sense_receipt.py`), two fresh reads, a prediction, then the check in his Pangram account (the
+  desktop app's browser pane worked on 2026-11-05). No whole-guide check until no window already seen reads AI or Low
+  (E354).
+- **Waiting on Joel:** round 7's four cards.
 
 ## Remaining
 
-Round 6's two cards; the whole-guide Pangram check; the 5 generic lines the check left for the humanizing; an overcompletion read (gate E328); the
-humanizing of every section that reads AI or below High, by the gate's own writers (Emulate is no longer used on his writing, Joel 2026-11-03); the word-for-sense read
-(gate E331); his post updated, with the title's version and date (gate E323).
+Round 7's four cards; the rest of the guide one paragraph at a time; the whole-guide Pangram check; an overcompletion read
+(gate E328); the word-for-sense read (gate E331); his post updated, with the title's version and date (gate E323).
 
 ## Blockers / unresolved
 

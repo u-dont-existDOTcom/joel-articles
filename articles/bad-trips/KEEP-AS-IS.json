@@ -122,6 +122,56 @@
    "when": "2026-11-04 22:14 UTC",
    "where": "round 5, card CBD-YOURS (his version)",
    "basis": "his answer"
+  },
+  {
+   "id": "K13",
+   "kind": "voice",
+   "quote": "I'd also try sniffing humic/fulvic acid powder, although that's just a hunch based on the effects I notice so far.",
+   "what": "His hunch, said as a hunch; a pass checking sources would flag it as unsupported, but it says it is his hunch.",
+   "joel": "his round-6 version (CBD-TRIAL)",
+   "when": "2026-11-05 15:14 UTC",
+   "where": "round 6, card CBD-TRIAL (his version)",
+   "basis": "his answer"
+  },
+  {
+   "id": "K14",
+   "kind": "choice",
+   "quote": "have someone go with them",
+   "what": "His fix of my \"someone goes with them\": a pass would tighten it back; it's what makes the line a practical instruction.",
+   "joel": "\"someone goes with them\" was not only compressed but has an air of snobbery to it, i fixed that ... \"have someone go with them\" which sounds more concrete and practiacl, less judgey",
+   "when": "2026-11-05 15:14 UTC",
+   "where": "round 6, card MOVE-YOURS (his version)",
+   "basis": "his answer"
+  },
+  {
+   "id": "K15",
+   "kind": "choice",
+   "quote": "keep them from taking more of any substance",
+   "what": "His \"any substance\" for my vague \"anything\".",
+   "joel": "so \"anything\" was vague, i fixed that",
+   "when": "2026-11-05 15:14 UTC",
+   "where": "round 6, card MOVE-YOURS (his version)",
+   "basis": "his answer"
+  },
+  {
+   "id": "K16",
+   "kind": "choice",
+   "quote": "Letting them move around is fine, and pacing can help, but keep them from taking more of any substance.",
+   "what": "Where the movement lines sit: inside his dangers paragraph, right after moving them away from roads, balconies and pools, before the weapons and the phone. A pass splitting the paragraph or moving these lines back out undoes his fix.",
+   "joel": "actually, the problem was simply that you had the ideas out of their natural order, i fixed that with nothing changed apart from moving",
+   "when": "2026-11-05 15:14 UTC",
+   "where": "round 6, card MOVE-YOURS (his version)",
+   "basis": "his answer"
+  },
+  {
+   "id": "K17",
+   "kind": "choice",
+   "quote": "I also read on forums some swear it stops the seizure from going any further",
+   "what": "His framing of the aura reports as what he read on forums.",
+   "joel": "his round-6 version (CBD-TRIAL)",
+   "when": "2026-11-05 15:14 UTC",
+   "where": "round 6, card CBD-TRIAL (his version)",
+   "basis": "his answer"
   }
  ],
  "cuts": [
@@ -195,6 +245,24 @@
    "joel": "you should think about the usefulness of the THREE YEAR STUDY when we are talking to people having seizures RIGHT NOW, so you did the wrong research. i took that one out.",
    "when": "2026-11-04 22:14 UTC",
    "where": "round 5, card CBD-YOURS (his version)",
+   "basis": "his answer"
+  },
+  {
+   "id": "C9",
+   "quote": "7-OH-CBD",
+   "what": "The 7-OH-CBD point and its mouse study: once checking showed it is about as active as CBD, nothing is missed through the skin, so it has no payoff for the reader (gate E362).",
+   "joel": "nobody asked why CBD is better or worse than 7-OH-CBD, the only reason to mention that is if that's important to consider which we establish it probably IS NOT",
+   "when": "2026-11-05 15:14 UTC",
+   "where": "round 6, card CBD-TRIAL (his version)",
+   "basis": "his answer"
+  },
+  {
+   "id": "C10",
+   "quote": "Unsafe movement is not.",
+   "what": "The movement paragraph's rule lines (\"Movement is allowed. Unsafe movement is not. No driving, ...\"): his paragraph says it with the movement lines inside his dangers paragraph, and the keys already cover driving.",
+   "joel": "now it's all high conf human",
+   "when": "2026-11-05 15:14 UTC",
+   "where": "round 6, card MOVE-YOURS (his version)",
    "basis": "his answer"
   }
  ]

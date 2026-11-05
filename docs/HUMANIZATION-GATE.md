@@ -2520,8 +2520,53 @@ changed: `docs/MAKING-SENSE.md`.
   which fix was the last one tried. This narrows E343's "one paragraph at a time" and the method-switch rule in
   `AGENTS.md`: switching is for a method that has failed the same way repeatedly, not for one check that didn't move.
 
-(The neuro de-armoring lane's E359 is just before this section; the bad trips lane's E360 and E361 are just above. The next
-lesson in any lane is E362.)
+## What the bad trips guide's round 6 taught (2026-11-05, his answers exported 15:14 UTC)
+
+His versions and comments, word for word: `articles/bad-trips/review/r06/ANSWERS-R06-20261105-1514.json`; the questions
+they sharpened: `docs/MAKING-SENSE.md`.
+
+- **E362. A rule he has stated is enforced where the work passes, not only written down: every sentence I write carries
+  its payoff for this reader's case, and a point whose check took away its reason goes.** My round-6 card on the skin-gel
+  trial kept his "potentially more active form (7-OH-CBD)" clause after I checked it, corrected it (7-OH-CBD stopped
+  seizures in mice about as well as CBD) and made it longer, and it brought in a trial of adults with focal epilepsy for a
+  reader facing a seizure from MDMA or a psychedelic overdose. Joel: "i already told you to stop putting stuff in that is
+  wasting reader's time. you forgot what i said about 7-OH-CBD in my last message? READ what you wrote, it literally is a
+  whole big waste of time to talk about this, there's NO PAYOFF. nobody asked why CBD is better or worse than 7-OH-CBD,
+  the only reason to mention that is if that's important to consider which we establish it probably IS NOT... why did i
+  have to tell you this twice? fix the way you work because i'm not telling you the same stuff over and over." And: "why
+  are we talking about focal seizures, when seizures from mdma and psychedelic overdoses are generalized seizures,
+  right?" The cause: E360's question 7 ("does this fact help this reader now?") was in `docs/MAKING-SENSE.md`, and the
+  source check (E348) gave me a job that felt like progress (make the point correct) while nothing made me ask the
+  question again of the corrected point, or of each sentence, before the card went out. What changed (UDA's
+  `patterns/task-time-lesson-activation.md`: when the owner catches a violation of a rule he already stated, repair the
+  enforcement): `tools/humanization/sense_receipt.py` makes the read leave a receipt, with a payoff and a reason for its
+  place for every sentence I write, judged against a reader stated as their case ("a seizure from MDMA or a psychedelic
+  overdose, which is generalized", not "seizures"), and a `still_needed` answer for every point I checked, where "no"
+  must be cut. `pangram_ledger.py predict` refuses my text without a passing receipt, and `suggestion_review.py` refuses a
+  marking page whose new words have none (from 2026-11-05). The same predict also refuses a retry that rewrites more
+  than 40% of the last try without `--big-change`, so E361's "next obvious fix" is a small step by default.
+- **E363. Ideas go in the order the reader thinks in, and a paragraph on another subject goes before or after a group,
+  never inside it.** His merged first-five-minutes paragraph read AI until he moved my movement lines, word for word, next
+  to the dangers they belong with: "actually, the problem was simply that you had the ideas out of their natural order, i
+  fixed that with nothing changed apart from moving ... now it's all high conf human". And my page put the warning-stage
+  paragraph (light, smell, a quiet room) between two cannabis paragraphs: "we should move the non-cannabis para above all
+  the cannabis info not put it inbetween canna paras isn't that obvious?" The receipt's `placement` and each sentence's
+  `follows` make me say where a thing sits and why; when a paragraph moves, its first "also", "this" or "as for" is read
+  again for what it now points to.
+- **E364. An instruction is something the helper does, said plainly, and it names the thing exactly.** "someone goes
+  with them" was "not only compressed but has an air of snobbery to it"; his "have someone go with them" "sounds more
+  concrete and practiacl, less judgey", and took the end of the paragraph from low to high confidence Human. "anything"
+  was vague; his "any substance" says which. (`docs/MAKING-SENSE.md` questions 2 and 3.)
+- **E365. Lessons go to main the turn they are made.** Joel, 2026-11-05 15:15 UTC: "make sure you merge lessons with
+  main branch so everyone is sharing always". E360, E361, `docs/MAKING-SENSE.md` and O68 waited a day in this lane's pull
+  request before he merged it, so every other lane worked that day without them. `tools/humanization/lane_push.py` now
+  refuses to push a branch that changes a shared file (`tools/`, `docs/`, `tests/`, `scripts/`, `.github/`, `AGENTS.md`,
+  `SKILL.md`) unless it says `--merge`, which merges its pull request into main once the checks on the pushed commit
+  pass, or `--no-merge "why"` for a change that must wait. Every lane takes the lesson at its next turn's merge of main
+  (E339). Article work, with no shared change, still waits for his merge.
+
+(The neuro de-armoring lane's E359 is just before the round 5 section; the bad trips lane's E360 to E365 are just above.
+The next lesson in any lane is E366.)
 
 
 ## What turn 100's API checks showed (the Inner Child lane, 2026-10-23)

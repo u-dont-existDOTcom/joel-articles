@@ -48,7 +48,11 @@ REVIEW.json (the lane's build script writes it; see find_quote, block_text and c
       "reading" (optional): what Pangram read on the stretch, with the link to each result (check() refuses a reading
                  with no Pangram link: Joel, 2026-11-02, "always give me the links"),
       "tested" (needed when there is a reading): what Pangram read on the suggestion itself, with its link; both show
-                 on the card (1.5; before it, an approve card didn't show its reading at all)},
+                 on the card (1.5; before it, an approve card didn't show its reading at all),
+      "receipt" (needed, from reviews built 2026-11-05, on a card that adds or changes words): the repo-relative path of
+                 the new paragraph's making-sense receipt (tools/humanization/sense_receipt.py), or a list of them, one
+                 per new paragraph; check() refuses a card without one that passes (gate E362),
+      "owner_text" (optional): the new words are Joel's own (whose and where), so no receipt of mine is needed},
      {"id", "type", "title", "advice": "ask", "question", "why", "stays" (optional, what holds until he answers),
       "advice_note", "spans"}   a question: no change, an answer box, counted apart from the decisions,
      {"id", "type", "title", "advice": "edit", "why", "reading" (optional: what Pangram read there), "advice_note",
@@ -85,10 +89,11 @@ from html_links import join_split_links  # noqa: E402  (a pasted post card's lin
 TEMPLATE = HERE / 'suggestion_review_template.html'
 FORM_CSS = ROOT / 'project-sources' / 'review-form-controls.css'
 FORMAT = 'joel-suggestion-review-v1'
-GENERATOR = 'suggestion_review.py 1.6 (2026-11-04)'
+GENERATOR = 'suggestion_review.py 1.7 (2026-11-05)'
 ID_OK = re.compile(r'^[A-Za-z0-9][A-Za-z0-9.\-]{0,80}$')
 # a Pangram result's page (2026-11-02, Joel on the hypnosis guide's cards: "why are you not giving me the pangram link so
 # i can see? always give me the links", and "you didn't check if your changes passed.. they didn't. don't waste my time")
+RECEIPT_FROM = '2026-11-05'   # reviews built from this day: a card that adds or changes words needs its making-sense receipt
 PANGRAM_LINK = re.compile(r'https?://(?:www\.)?pangram\.com/(?:history|feed)/[0-9a-f][0-9a-f-]{7,}')
 # a link's address may hold one pair of brackets, as Wikipedia's do (2026-11-04, the word-for-sense read: "[Anthony de Mello]
 # (https://en.wikipedia.org/wiki/Anthony_de_Mello_(Jesuit_priest))" came out as "Anthony de Mello) is", and both readers of
@@ -278,6 +283,43 @@ def links_in(bl, i, start, end):
 
 # ---------------------------------------------------------------- checks
 
+def receipt_problems(review, s):
+    """Gate E362 (Joel, 2026-11-05 15:14 UTC: "fix the way you work because i'm not telling you the same stuff over and
+    over"): from RECEIPT_FROM on, a card that adds or changes words carries "receipt", a making-sense receipt
+    (sense_receipt.py) or a list of them, repo-relative; each passes, and each new text (an edit's block as it would
+    read, an insert's text) is the text of one of them. A card whose new words are Joel's own ("owner_text": "whose and
+    where") needs none."""
+    built = review.get('built') or ''
+    if not re.match(r'\d{4}-\d{2}-\d{2}', built) or built[:10] < RECEIPT_FROM or s.get('owner_text') \
+            or s.get('advice') in ('ask', 'edit'):
+        return []
+    new = [e['after'] for e in s.get('edits', []) if (e.get('after') or '').strip() and e.get('after') != e.get('before')]
+    new += [i['text'] for i in s.get('inserts', []) if (i.get('text') or '').strip()]
+    if not new:
+        return []
+    sid = s.get('id', '?')
+    paths = s.get('receipt') or []
+    paths = [paths] if isinstance(paths, str) else paths
+    if not paths:
+        return ['%s: a card that adds or changes words needs its making-sense receipt ("receipt": a sense_receipt.py '
+                'receipt for the paragraph as it would read; gate E362), or "owner_text" when the words are Joel\'s' % sid]
+    import sense_receipt
+    probs, texts = [], []
+    for rp in paths:
+        f = ROOT / rp
+        if not f.exists():
+            probs.append('%s: receipt %s not found' % (sid, rp))
+            continue
+        r = json.loads(f.read_text(encoding='utf-8'))
+        texts.append(r.get('text', ''))
+        probs += ['%s: receipt %s: %s' % (sid, rp, x) for x in sense_receipt.check(r.get('text', ''), r)]
+    for t in new:
+        if not any(t.strip() == x.strip() for x in texts):
+            probs.append('%s: no receipt is for the new text "%s..." (the receipt\'s text must be the paragraph as it '
+                         'would read)' % (sid, t.strip()[:60]))
+    return probs
+
+
 def check(review, bl):
     """Problems with REVIEW against the article's blocks: [message]."""
     probs, ids = [], set()
@@ -303,6 +345,7 @@ def check(review, bl):
                 probs.append('%s: a suggestion for a stretch Pangram flagged needs its own Pangram check, with the link, '
                              'in "tested" (Joel, 2026-11-02: "you didn\'t check if your changes passed.. they didn\'t. '
                              'don\'t waste my time")' % sid)
+        probs += receipt_problems(review, s)
         if s.get('advice') not in ('approve', 'leave', 'ask', 'edit'):
             probs.append('%s: advice must be "approve", "leave", "ask" or "edit"' % sid)
         need = ('title', 'question', 'why') if ask else ('title', 'why', 'advice_note') if edit else \

@@ -1,0 +1,86 @@
+{
+ "format": "joel-suggestion-review-answers-v1",
+ "review_id": "bad-trips-r06",
+ "title": "Bad Trips Guide, Round 6",
+ "git_file": "articles/bad-trips/review/r06/REVIEW-R06.html",
+ "article": {
+  "file": "articles/bad-trips/review/r06/PAGE-R06.md",
+  "sha256": "9a505b85c4dc13c438f04cffd78536cba0552e47e0ce4d6ad7b1356f5ae1304a"
+ },
+ "built": "2026-11-05",
+ "generator": "suggestion_review.py 1.6 (2026-11-04)",
+ "exported_at": "2026-11-05T15:14:55.451Z",
+ "counts": {
+  "approved": 0,
+  "rejected": 0,
+  "revise": 3,
+  "pending": 0
+ },
+ "items": [
+  {
+   "id": "CBD-TRIAL",
+   "type": "more",
+   "title": "The skin-gel trial: what it found, and the 7-OH-CBD point",
+   "where": "Active Seizure, P4",
+   "advice": "approve",
+   "status": "revise",
+   "your_version": "Some people get a warning before a seizure takes hold, which is called an aura. That's when the things people report can still stop it, depending on what sets their seizures off. If it's flashing or flickering light, cover one eye with a hand and turn away from the light, because closing the eyes doesn't block enough of it. Some people stop a seizure at the warning stage with a strong smell like jasmine, and some train themselves to link one smell with feeling calm and then sniff it when a seizure threatens. When overstimulation is what sets it off, a cool, quiet, dark and comfortable space can help. I'd also try sniffing humic/fulvic acid powder, although that's just a hunch based on the effects I notice so far. \n\nAs for CBD/cannabis, people do smoke or vape it at the start of an aura, while they're still awake enough to do it on purpose. \nThere are also people who find THC and/or CBD works as a nasal spray or sublingually, and there's even a medical THC nasal spray marketed for seizure interruption in Brazil by a comapny called ABRACE. They [testified in Congress] (https://escriba.camara.leg.br/escriba-servicosweb/html/58445) that in 30 tests they did with children having seizures, the nasal spray ended those seizures within 30 seconds. You can see it being used on a child in this vid: https://www.youtube.com/watch?v=bgVi5o_2v_w\n\nI also read on forums some swear it stops the seizure from going any further, and there was one woman whose EEG showed fewer seizure discharges on the days she smoked. But other people say THC vapes and concentrates brought their seizures on, and in rats that get the brief staring seizures called absence seizures, high-THC smoke made them worse while injected CBD cut them about in half. So the THC may be what makes it go either way.\n\nAs for topical CBD, it hasn't been well-studied. There was a short 12-week trial done, where they used a CBD skin gel, and although absorption was good, it didn't work any better than placebo to prevent seizures. The study authors suggested the dosing may have been too low, or it works better for generalized rather than focal seizures. Generalized are the type people usually have with MDMA & psychedelic overdoses.",
+   "comment": "i have \n\n\ni already told you to stop putting stuff in that is wasting reader's time. you forgot what i said about 7-OH-CBD in my last message? READ what you wrote, it literally is a whole big waste of time to talk about this, there's NO PAYOFF. nobody asked why CBD is better or worse than 7-OH-CBD, the only reason to mention that is if that's important to consider which we establish it probably IS NOT... why did i have to tell you this twice? fix the way you work because i'm not telling you the same stuff over and over.\n\nand why are we talking about focal seizures, when seizures from mdma and psychedelic overdoses are generalized seizures, right? so we should extrapolate from cbd evidence for that which we already stated in the para above with dravet and lennox types which are mostly generalized types right? ",
+   "my_version": "And topical CBD hasn't been well-studied. There was a short 12-week trial done, where they used a CBD skin gel, and it didn't do any better than placebo. The gel got CBD into the blood at about the levels of the starting oral dose, 5 to 10mg/kg. The approved oral doses go up to 20 or 25mg/kg a day, so the dosing may have been too low. And CBD through the skin goes straight into the blood, while swallowed CBD passes through the liver first. The liver is where some of it gets converted to 7-OH-CBD, which stopped seizures in mice about as well as CBD itself, so the gel may have missed out on that too.",
+   "before": "And topical CBD hasn't been well-studied. There was a short 12-week trial done, where they used a CBD skin gel, and it did show that transdermal absorption works like oral CBD's but the dosing was too low, and transdermal CBD also doesn't get converted to the potentially more active form (7-OH-CBD) by the liver.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "rejected",
+     "at": "2026-11-05T12:03:49.599Z"
+    },
+    {
+     "from": "rejected",
+     "to": "revise",
+     "at": "2026-11-05T12:03:50.670Z"
+    }
+   ],
+   "updated": "2026-11-05T15:07:55.139Z"
+  },
+  {
+   "id": "SEIZ-WARN",
+   "type": "new",
+   "title": "What can help before a seizure takes hold, and cannabis at an aura (from your note and your research)",
+   "where": "Active Seizure, P5",
+   "advice": "approve",
+   "status": "revise",
+   "your_version": "",
+   "comment": "we should move the non-cannabis para above all the  cannabis info not put it inbetween canna paras isn't that obvious? let's put it after p2 before p3 i think that is best place right?",
+   "my_version": "Some people get a warning before a seizure takes hold, which is called an aura. That's when the things people report can still stop it, depending on what sets their seizures off. If it's flashing or flickering light, cover one eye with a hand and turn away from the light, because closing the eyes doesn't block enough of it. Some people stop a seizure at the warning stage with a strong smell like jasmine, and some train themselves to link one smell with feeling calm and then sniff it when a seizure threatens. When overstimulation is what sets it off, a cool, quiet, dark and comfortable space can help.\n\nAs for cannabis, people do smoke or vape it at the start of an aura, while they're still awake enough to do it on purpose. Some swear it stops the seizure from going any further, and there was one woman whose EEG showed fewer seizure discharges on the days she smoked. But other people say THC vapes and concentrates brought their seizures on, and in rats that get the brief staring seizures called absence seizures, high-THC smoke made them worse while injected CBD cut them about in half. So the THC may be what makes it go either way.",
+   "before": "",
+   "history": [
+    {
+     "from": "pending",
+     "to": "revise",
+     "at": "2026-11-05T14:01:10.266Z"
+    }
+   ],
+   "updated": "2026-11-05T15:07:48.882Z"
+  },
+  {
+   "id": "MOVE-YOURS",
+   "type": "yours",
+   "title": "The first five minutes: the movement paragraph, in your words",
+   "where": "Psychological First Aid: The First Five Minutes, P4",
+   "advice": "edit",
+   "status": "revise",
+   "your_version": "Anything that could let someone hurt themselves in the next five minutes takes priority, so get the car keys out of reach and turn the stove off, and move them away from roads and balconies, or pools of water for that matter. Letting them move around is fine, and pacing can help, but keep them from taking more of any substance. If they want to go confront somebody, that can wait. And if they want to leave, have someone go with them. Put any weapons away and keep the person away from crowds and strangers. If they want to post their big revelation about the universe, or message an ex, take the phone.",
+   "comment": "so \"anything\" was vague, i fixed that, and \"someone goes with them\" was not only compressed but has an air of snobbery to it, i fixed that. now that part is human, but it now highlights my previous para has ai, maybe because it introduced some redundancy:\n\nhttps://www.pangram.com/history/dae1102c-8844-439b-8f0e-3ac2be1c1f39?ucc=4rq5Ko7gBiW&utm_source=pangram_share&utm_medium=copy_link\n\nbut first, i saw the last few words \"someone should go with them\" were low conf human, so i changed it to \"have someone go with them\" which sounds more concrete and practiacl, less judgey, and that worked to bring it up to high conf: https://www.pangram.com/history/0a318eff-298e-4afa-b012-cbedc25e582c?ucc=4rq5Ko7gBiW&utm_source=pangram_share&utm_medium=copy_link\n\nactually, the problem was simply that you had the ideas out of their natural order, i fixed that with nothing changed apart from moving:\n\nhttps://www.pangram.com/history/e9d8d85c-5c0f-46b6-b780-91652f1efd15?ucc=4rq5Ko7gBiW&utm_source=pangram_share&utm_medium=copy_link\n\nnow it's all high conf human",
+   "my_version": "Movement is allowed. Unsafe movement is not. No driving, redosing, confrontations, or leaving alone.",
+   "before": "Movement is allowed. Unsafe movement is not. No driving, redosing, confrontations, or leaving alone.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "revise",
+     "at": "2026-11-05T15:08:03.649Z"
+    }
+   ],
+   "updated": "2026-11-05T15:14:49.942Z"
+  }
+ ]
+}

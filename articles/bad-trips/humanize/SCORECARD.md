@@ -8,7 +8,7 @@ Built by `tools/humanization/pangram_ledger.py build` from `articles/bad-trips/h
 |---|---|---|---|---|---|---|
 | Pangram 4.1 extension (free, live post; Joel's check of 2026-10-18, the same text as his 2026-11-03 paste by SHA-256) | 1 | 1 (100%) | 100% | 0% | 0% | 0.000 (base 0.000, 1) |
 | Pangram web app (his account, Pangram Professional) | 3 | 3 (100%) | 100% | 0% | 0% | 0.092 (base 0.000, 3) |
-| Pangram web app (his account, Pangram Professional), through the Claude desktop app's browser pane | 13 | 11 (85%) | 77% | 23% | 38% | 0.182 (base 0.178, 13) |
+| Pangram web app (his account, Pangram Professional), through the Claude desktop app's browser pane | 22 | 19 (86%) | 55% | 45% | 59% | 0.162 (base 0.248, 22) |
 
 ## Pangram 4.1 extension (free, live post; Joel's check of 2026-10-18, the same text as his 2026-11-03 paste by SHA-256)
 
@@ -55,33 +55,34 @@ Calibration:
 
 | window | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| the latest 50 | 13 | 11 (85%) | 77% | 23% | 38% | 0.182 (base 0.178, 13) |
-| the latest 100 | 13 | 11 (85%) | 77% | 23% | 38% | 0.182 (base 0.178, 13) |
-| all | 13 | 11 (85%) | 77% | 23% | 38% | 0.182 (base 0.178, 13) |
+| the latest 50 | 22 | 19 (86%) | 55% | 45% | 59% | 0.162 (base 0.248, 22) |
+| the latest 100 | 22 | 19 (86%) | 55% | 45% | 59% | 0.162 (base 0.248, 22) |
+| all | 22 | 19 (86%) | 55% | 45% | 59% | 0.162 (base 0.248, 22) |
 
 The boundary mix (what was checked; accuracy differs a lot between a paragraph and a section):
 
 | scope or kind | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
 | section | 1 | 1 (100%) | 0% | 100% | 100% | 0.040 (base 0.000, 1) |
-| paragraph | 8 | 8 (100%) | 75% | 25% | 25% | 0.172 (base 0.188, 8) |
+| paragraph | 17 | 16 (94%) | 47% | 53% | 59% | 0.151 (base 0.249, 17) |
 | pair | 4 | 2 (50%) | 100% | 0% | 50% | 0.239 (base 0.000, 4) |
 
 Calibration:
 
 | my chance of a 100% Human result | calls | mean chance | read Human |
 |---|---|---|---|
-| 0.2 to 0.4 | 1 | 0.35 | 0% |
-| 0.4 to 0.6 | 10 | 0.47 | 10% |
-| 0.6 to 0.8 | 1 | 0.65 | 100% |
+| 0.2 to 0.4 | 2 | 0.35 | 0% |
+| 0.4 to 0.6 | 13 | 0.48 | 23% |
+| 0.6 to 0.8 | 7 | 0.68 | 100% |
 | 0.8 to 1.0 | 1 | 0.80 | 100% |
 
-## Misses since the ledger (2)
+## Misses since the ledger (3)
 
 | cause | misses |
 |---|---|
 | shape echo | 1 |
 | parallel frames kept | 1 |
+| not explained yet | 1 |
 
 The latest:
 
@@ -89,6 +90,7 @@ The latest:
 |---|---|---|---|---|
 | [bt-pfa-P3P4-D3](https://www.pangram.com/history/0993c7c4-386c-4a5b-821b-f15f3beb738d) | bad-trips PFA P4 his way (h04), 1 | Human | AI or mixed | shape echo |
 | [bt-pfa-P3P4-D4](https://www.pangram.com/history/f1b3e3bb-30f2-4399-8398-82bd3998b413) | bad-trips PFA P4 his way (h04), 2 | Human | AI or mixed | parallel frames kept |
+| [bt-r07-4](https://www.pangram.com/history/b8fbfcbc-c2d9-48b7-a1f8-0510320bb0a1) | bad-trips round 7 N-CANNA-2 (his forums and studies paragraph), 2 | Human | AI or mixed | **not explained yet** |
 
 ## Lineages still open (tries used of the cap)
 

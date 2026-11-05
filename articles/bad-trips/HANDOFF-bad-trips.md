@@ -8,13 +8,22 @@ and warning exactly as it went in (the same rule as the neuro de-armoring protoc
 15:45 UTC (`experiments/t01-answers/JOEL-MESSAGE-20261103-1545.md`).
 
 **Resume line (paste into any Claude account; the repository is public):**
-> Continue my bad trips guide work: read https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261103/articles/bad-trips/HANDOFF-bad-trips.md and carry on from its next step.
+> Continue my bad trips guide work: read https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261105/articles/bad-trips/HANDOFF-bad-trips.md and carry on from its next step.
 
 If that branch is gone (merged), the same file is on main:
 https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/bad-trips/HANDOFF-bad-trips.md
 
 ## START HERE
 
+- **2026-11-05, turn 11 (his round-6 answers of 15:14 UTC and his message of 15:15 UTC).** His three versions and his
+  placement are in (`review/r06/apply_r06.py`). His "fix the way you work" is now enforced: every text of mine needs its
+  making-sense receipt (`tools/humanization/sense_receipt.py`) before Pangram or his page will take it, and a branch that
+  changes shared rules merges into main the turn it's pushed (`lane_push.py --merge`, his "merge lessons with main"); the
+  lessons are E362 to E365. Pangram in his account (`humanize/h06-r07-20261105/RESULTS.md`): his paragraphs Human, High,
+  except his forums paragraph, AI in my two kept sentences. Round 7's page (Bad Trips Guide, Round 7,
+  https://claude.ai/artifact/41gorxz7ZJ1MV8QL1E63vs; cards as text in `review/r07/REVIEW-R07.md`), 4 cards, each Human,
+  High. **First:** his round-7 answers in; **then** the next paragraph of Psychological First Aid with its receipt
+  (CURRENT-STATE.md's next step).
 - **2026-11-05, turn 10 (his research upload of 00:13 UTC on inhaled cannabis for seizures).** Its studies checked on
   PubMed; last turn's Pangram checks run in his account (13, predictions first: `humanize/h05-checks-20261105/RESULTS.md`).
   His CBD paragraphs with the video link read Human; my trial sentences and warning-stage paragraph read Human on their

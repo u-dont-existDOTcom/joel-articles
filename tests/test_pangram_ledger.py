@@ -29,7 +29,7 @@ class Ledger(unittest.TestCase):
 
     def predict(self, body, lineage='P1', scope='paragraph', call='Human', diagnosis=None, tells=('a list of three',), key=None,
                 narrowed=None, panel=None):
-        argv = ['predict', self.ledger, '--lineage', lineage, '--scope', scope, '--text', self.text(body), '--call', call,
+        argv = ['predict', self.ledger, '--his', 'a test text of Joel\'s', '--lineage', lineage, '--scope', scope, '--text', self.text(body), '--call', call,
                 '--chance', '0.6' if call == 'Human' else '0.4'] + (['--key', key] if key else []) + \
             (['--narrowed', narrowed] if narrowed else []) + (['--panel', panel] if panel else [])
         for t in tells:
@@ -64,7 +64,7 @@ class Ledger(unittest.TestCase):
 
     def test_the_chance_is_of_a_human_result(self):
         """An AI call at 0.9 recorded the confidence in the call; the ledger's chance is of a 100% Human result (2026-10-22)."""
-        argv = lambda ch: ['predict', self.ledger, '--lineage', 'C', '--scope', 'paragraph', '--text', self.text('c' + ch),
+        argv = lambda ch: ['predict', self.ledger, '--his', 'a test text of Joel\'s', '--lineage', 'C', '--scope', 'paragraph', '--text', self.text('c' + ch),
                            '--call', 'AI', '--chance', ch, '--tells', 'a tidy closer']
         self.assertEqual(L.main(argv('0.9')), 2)
         self.assertEqual(L.read(self.ledger), [])
@@ -111,7 +111,7 @@ class Ledger(unittest.TestCase):
     def test_a_half_does_not_go_through_the_paid_api(self):
         """Joel, 2026-11-02 20:38 UTC: "that should be done the free way to not waste my pangram credits" (E218, E325)."""
         half = ' '.join(['word'] * 1500)
-        argv = ['predict', self.ledger, '--lineage', 'W2', '--scope', 'stretch', '--text', self.text(half), '--call', 'AI',
+        argv = ['predict', self.ledger, '--his', 'a test text of Joel\'s', '--lineage', 'W2', '--scope', 'stretch', '--text', self.text(half), '--call', 'AI',
                 '--chance', '0.4', '--tells', 'x', '--detector', "pangram 4.1, the API (Joel's key, run on his laptop; E218)"]
         self.assertEqual(L.main(argv), 2)
         sub = list(argv); sub[-1] = "pangram 4.1, Pangram's check of the Substack draft (free)"
@@ -122,7 +122,7 @@ class Ledger(unittest.TestCase):
         prediction written first. Past its two tries a section takes a check only with --after-fix, and never of a text it
         has already sent."""
         def fixed(body, after_fix=None):
-            argv = ['predict', self.ledger, '--lineage', 'S9', '--scope', 'section', '--text', self.text(body), '--call', 'Human',
+            argv = ['predict', self.ledger, '--his', 'a test text of Joel\'s', '--lineage', 'S9', '--scope', 'section', '--text', self.text(body), '--call', 'Human',
                     '--chance', '0.6', '--tells', 'a closer', '--diagnosis', 'the closer cut']
             return L.main(argv + (['--after-fix', after_fix] if after_fix else []))
         self.assertEqual(self.predict('a1', lineage='S9', scope='section', call='AI'), 0)
@@ -134,14 +134,14 @@ class Ledger(unittest.TestCase):
         self.assertEqual(fixed('a3', 'the closer of P2 cut'), 0)
         self.result('a3', 'Human')
         self.assertEqual(fixed('a3', 'the same text again'), 2)
-        self.assertEqual(L.main(['predict', self.ledger, '--lineage', 'P9', '--scope', 'paragraph', '--text', self.text('p'),
+        self.assertEqual(L.main(['predict', self.ledger, '--his', 'a test text of Joel\'s', '--lineage', 'P9', '--scope', 'paragraph', '--text', self.text('p'),
                                  '--call', 'Human', '--chance', '0.6', '--tells', 'x', '--after-fix', 'not a section']), 0)
 
     def test_a_substack_article_check_goes_past_two_when_it_decides_something(self):
         """Joel, 2026-10-21 17:56 UTC, question 7 b: Substack checks of a whole article may go past two, each predicted
         first and run only when its result decides something. A pangram.com article check keeps the cap of two."""
         def sub(body, decides=None, diagnosis='the fixes since the last check'):
-            argv = ['predict', self.ledger, '--lineage', 'W', '--scope', 'article', '--text', self.text(body), '--call', 'AI',
+            argv = ['predict', self.ledger, '--his', 'a test text of Joel\'s', '--lineage', 'W', '--scope', 'article', '--text', self.text(body), '--call', 'AI',
                     '--chance', '0.1', '--tells', 'as-published sections', '--diagnosis', diagnosis,
                     '--detector', "pangram 4.1, Pangram's check of the Substack draft (free)"]
             return L.main(argv + (['--decides', decides] if decides else []))
@@ -167,7 +167,7 @@ class Ledger(unittest.TestCase):
         self.assertEqual(self.predict('s1', lineage='S', scope='stretch', call='AI'), 0)
         self.result('s1', 'AI')
         self.assertEqual(self.predict('s2', lineage='S', scope='stretch', call='AI', diagnosis='re-said'), 2)
-        self.assertEqual(L.main(['predict', self.ledger, '--lineage', 'S', '--scope', 'stretch', '--text', self.text('s2'),
+        self.assertEqual(L.main(['predict', self.ledger, '--his', 'a test text of Joel\'s', '--lineage', 'S', '--scope', 'stretch', '--text', self.text('s2'),
                                  '--call', 'AI', '--chance', '0.4', '--tells', 'a list', '--diagnosis', 're-said',
                                  '--narrowed', 'P016, P017 and P085 by themselves']), 0)
         # a paragraph's retry needs only its diagnosis, and a stretch that read Human may be tried again
@@ -270,6 +270,106 @@ class Ledger(unittest.TestCase):
         self.assertIn('Misses since the ledger (1)', page)
         self.assertIn('**not explained yet**', page)
         self.assertIn('| test lane | 1 | 0 (0%)', out.read_text(encoding='utf-8'))
+
+
+
+class SenseGate(unittest.TestCase):
+    """Gates E362 and E361 (Joel, 2026-11-05 15:14 UTC: "fix the way you work because i'm not telling you the same stuff
+    over and over"): a text of mine reaches Pangram only with a making-sense receipt that passes, and a retry changes at
+    most 40% of the words of the try before it unless --big-change says why."""
+
+    def setUp(self):
+        self.d = tempfile.TemporaryDirectory()
+        self.dir = pathlib.Path(self.d.name)
+        self.ledger = str(self.dir / 'pangram-ledger.jsonl')
+        self.n = 0
+        import sense_receipt
+        self.S = sense_receipt
+
+    def tearDown(self):
+        self.d.cleanup()
+
+    def files(self, body, fill=True):
+        self.n += 1
+        t = self.dir / ('t%d.txt' % self.n)
+        t.write_text(body + '\n', encoding='utf-8')
+        r = self.S.make(body, 'Active Seizure', 'someone with a person having a seizure from MDMA or a psychedelic '
+                        'overdose, which is generalized')
+        if fill:
+            for x in r['sentences']:
+                x['payoff'] = 'tells the helper what to do next'
+                x['follows'] = 'continues the step before'
+            r['placement'] = 'after the first-aid paragraph, which it continues'
+            r['questions'] = {q: 'PASS: said in the sentence itself' for q in self.S.QUESTIONS}
+        rp = self.dir / ('r%d.json' % self.n)
+        rp.write_text(json.dumps(r), encoding='utf-8')
+        return str(t), str(rp)
+
+    def predict(self, text, receipt=None, extra=()):
+        argv = ['predict', self.ledger, '--lineage', 'G', '--scope', 'paragraph', '--text', text, '--call', 'AI',
+                '--chance', '0.4', '--tells', 'a list'] + (['--receipt', receipt] if receipt else []) + list(extra)
+        return L.main(argv)
+
+    def read_ai(self, t):
+        L.main(['result', self.ledger, '--sha', L.sha256(pathlib.Path(t).read_text(encoding='utf-8').rstrip('\n')), '--verdict', 'AI',
+                '--link', 'https://www.pangram.com/history/x%d' % self.n])
+
+    def test_the_text_is_hashed_as_pangram_reads_it_without_the_final_newline(self):
+        t, r = self.files('Time the seizure. Keep them on their side.')
+        self.assertEqual(self.predict(t, r), 0)
+        self.assertEqual(L.read(self.ledger)[-1]['sha256'], L.sha256('Time the seizure. Keep them on their side.'))
+
+    def test_a_text_of_mine_needs_its_receipt(self):
+        t, r = self.files('Time the seizure. Keep them on their side.')
+        self.assertEqual(self.predict(t), 2)
+        self.assertEqual(L.read(self.ledger), [])
+        self.assertEqual(self.predict(t, r), 0)
+
+    def test_an_unfilled_receipt_is_refused(self):
+        t, r = self.files('Time the seizure. Keep them on their side.', fill=False)
+        self.assertEqual(self.predict(t, r), 2)
+
+    def test_a_point_that_lost_its_reason_is_cut(self):
+        t, r = self.files('Time the seizure. Keep them on their side.')
+        rec = json.loads(pathlib.Path(r).read_text())
+        rec['checked'] = [{'point': '7-OH-CBD is more active', 'found': 'about as active as CBD in mice',
+                           'still_needed': 'no: nothing is missed through the skin', 'fate': 'changed'}]
+        pathlib.Path(r).write_text(json.dumps(rec))
+        self.assertEqual(self.predict(t, r), 2)
+        rec['checked'][0]['fate'] = 'cut'
+        pathlib.Path(r).write_text(json.dumps(rec))
+        self.assertEqual(self.predict(t, r), 0)
+
+    def test_a_receipt_for_another_text_is_refused(self):
+        t, r = self.files('Time the seizure. Keep them on their side.')
+        t2, _ = self.files('Time it. Keep them on their side.')
+        self.assertEqual(self.predict(t2, r), 2)
+
+    def test_his_own_text_needs_no_receipt(self):
+        t, _ = self.files('Anything that could let someone hurt themselves takes priority.')
+        self.assertEqual(self.predict(t, extra=('--his', 'his round-6 version')), 0)
+
+    def test_a_retry_takes_small_steps(self):
+        """His movement fix: two words and a move. My tries rewrote nearly every word (gate E361)."""
+        t1, r1 = self.files('Letting them move around is fine. If they want to leave, someone goes with them.')
+        self.assertEqual(self.predict(t1, r1), 0)
+        self.read_ai(t1)
+        t2, r2 = self.files('If they want to leave, have someone go with them. Letting them move around is fine.')
+        self.assertLess(L.changed_share(pathlib.Path(t1).read_text(), pathlib.Path(t2).read_text()), 0.4)
+        t3, r3 = self.files('Pacing is fine, so let them walk laps of the yard. Walk with them if they insist on going.')
+        self.assertGreater(L.changed_share(pathlib.Path(t1).read_text(), pathlib.Path(t3).read_text()), 0.4)
+        self.assertEqual(self.predict(t3, r3, ('--diagnosis', 'acts on things')), 2)
+        self.assertEqual(self.predict(t3, r3, ('--diagnosis', 'acts on things', '--big-change',
+                                               'every small fix of the windows was tried')), 0)
+        self.read_ai(t3)
+
+    def test_a_small_retry_goes_through(self):
+        t1, r1 = self.files('Letting them move around is fine. If they want to leave, someone goes with them.')
+        self.assertEqual(self.predict(t1, r1), 0)
+        self.read_ai(t1)
+        t2, r2 = self.files('If they want to leave, have someone go with them. Letting them move around is fine.')
+        self.assertEqual(self.predict(t2, r2, ('--diagnosis', 'the leaving line made practical, moved')), 0)
+
 
 
 if __name__ == '__main__':

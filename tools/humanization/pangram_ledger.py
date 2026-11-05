@@ -483,22 +483,91 @@ def universal_page(per_lane):
 
 # ---------- commands ----------
 
+def changed_share(old, new):
+    """The share of NEW's words that are new or changed against OLD, with sentences matched wherever they sit, so a moved
+    sentence costs nothing and a sentence with one word changed costs one word (gate E361)."""
+    import difflib
+    sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
+    import sense_receipt
+    olds = [s.split() for s in sense_receipt.sentences(old)]
+    total = changed = 0
+    for s in sense_receipt.sentences(new):
+        w = s.split()
+        total += len(w)
+        best = None
+        for o in olds:
+            sm = difflib.SequenceMatcher(a=o, b=w, autojunk=False)
+            if best is None or sm.ratio() > best.ratio():
+                best = sm
+        if best is None or best.ratio() < 0.5:
+            changed += len(w)
+            continue
+        changed += sum(j2 - j1 for tag, i1, i2, j1, j2 in best.get_opcodes() if tag in ('replace', 'insert'))
+    return changed / total if total else 0.0
+
+
+BIG_CHANGE = 0.4
+
+
+def sense_gate(a, text, sha, line):
+    """Refusals for a text of mine before it goes to Pangram (gates E362 and E361): its making-sense receipt
+    (sense_receipt.py) must pass for this exact text, and a retry may change at most 40%% of the words of the try before it
+    in the lineage (moves are free) unless --big-change says why the small fixes are spent. Joel's own text (--his) needs
+    neither."""
+    if a.his:
+        return []
+    why = []
+    sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
+    import sense_receipt
+    if not a.receipt:
+        why.append('a text of mine goes to Pangram only with its making-sense receipt (--receipt RECEIPT.json, made and '
+                   'checked with tools/humanization/sense_receipt.py), or --his "whose words" for Joel\'s own text (gate '
+                   'E362; Joel, 2026-11-05: "fix the way you work because i\'m not telling you the same stuff over and '
+                   'over")')
+    else:
+        receipt = json.loads(pathlib.Path(a.receipt).read_text(encoding='utf-8'))
+        if text is None:
+            if receipt.get('text_sha256') != sha:
+                why.append('the receipt is for another text (gate E362)')
+            text = receipt.get('text', '')
+        probs = sense_receipt.check(text.rstrip('\n'), receipt)
+        why += ['making-sense receipt: ' + x for x in probs]
+    prev = next((r for r in reversed(line) if r.get('text')), None)
+    if prev and text is not None and not a.big_change:
+        share = changed_share(prev['text'], text)
+        if share > BIG_CHANGE:
+            why.append('this try changes %d%% of the words of the try before it in the lineage (%s): fix the next part '
+                       'that doesn\'t make sense and keep what helped, or say with --big-change why every small fix is '
+                       'spent (gate E361; Joel, 2026-11-05, on the movement paragraph he fixed with two words and a move: '
+                       '"the problem was simply that you had the ideas out of their natural order")'
+                       % (round(share * 100), prev.get('id', '?')))
+    return why
+
+
 def cmd_predict(a):
     recs = read(a.ledger)
+    text = None
     if a.text:
-        text = pathlib.Path(a.text).read_text(encoding='utf-8')
+        # Hashed as Pangram reads it: the box holds the text without the file's final newline, and the page helpers
+        # check that SHA-256 before the click (2026-11-05: two batches' predictions had hashed the newline too).
+        text = pathlib.Path(a.text).read_text(encoding='utf-8').rstrip('\n')
         sha, words = sha256(text), len(text.split())
     else:
         sha, words = a.sha, a.words
     if not sha:
         raise SystemExit('give --text FILE (preferred) or --sha')
     line = lineage_view(state(recs), a.lineage)
+    gate = sense_gate(a, text, sha, line)
+    if gate:
+        print('REFUSED: ' + '\n  '.join(gate), file=sys.stderr)
+        return 2
     rec = {'type': 'prediction', 'id': '%s#%d' % (a.lineage, len(state(recs)) + 1), 'at': now(), 'lineage': a.lineage,
            'scope': a.scope, 'sha256': sha, 'words': words, 'call': a.call, 'chance': a.chance, 'tells': a.tells or [],
            'human_tells': a.human_tells or [], 'diagnosis': a.diagnosis, 'decides': a.decides, 'key': a.key, 'batch': a.batch,
            'detector': a.detector, 'shading_expected': a.shading_expected, 'emulate_share': a.emulate_share,
            'after_fix': a.after_fix, 'paid_ok': a.paid_ok, 'narrowed': a.narrowed, 'panel': a.panel,
-           'try': len(line) + 1}
+           'try': len(line) + 1, 'his': a.his, 'receipt': a.receipt, 'big_change': a.big_change,
+           'text': text.rstrip('\n') if text is not None and len(text) < 20000 else None}
     why = refusals(recs, rec)
     if why:
         print('REFUSED: ' + '\n  '.join(why), file=sys.stderr)
@@ -679,6 +748,11 @@ def main(argv=None):
                    'whose agreed tells this try fixes (tell_panel.py; E346)')
     p.add_argument('--after-fix', help='a section past its two tries: what the fix changed (his answer 28a, one more check '
                    'of the whole section after each fix)')
+    p.add_argument('--receipt', help='the text\'s making-sense receipt (tools/humanization/sense_receipt.py), required for '
+                   'a text of mine (gate E362)')
+    p.add_argument('--his', help='the text is Joel\'s own words: whose, and from where (no receipt of mine needed)')
+    p.add_argument('--big-change', help='a retry that changes more than 40%% of the words of the try before it: why every '
+                   'small fix is spent (gate E361)')
     p.set_defaults(fn=cmd_predict)
     p = sub.add_parser('result')
     p.add_argument('ledger')
