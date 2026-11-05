@@ -1,50 +1,58 @@
 [
  {
-  "sentence": 1,
-  "quote": "Take 5g a day as a baseline",
-  "gap": "Baseline for whom and compared with what? Is this for everyone, and what is it a starting point for?",
+  "sentence": 2,
+  "quote": "The 5g also counters the breakdown of the gut lining that hard or long training causes",
+  "gap": "How does 5g of glutamine counter that breakdown, and why does training break the lining down at all (the explanation only comes in the next sentence)?",
   "id": "L1",
   "status": "drop",
-  "note": "the reader's own reading is the one meant: the 5g is everyone's baseline, \"to keep your enterocytes fed\", and S5's \"raise it\" makes it the starting point; whether that's his meaning is on the card (card 4)"
+  "note": "the reason comes in the next sentence, in the order the reader asks it (Q1, the point first)"
  },
  {
-  "sentence": 2,
-  "quote": "The 5g also counters the breakdown of the gut lining",
-  "gap": "How does hard or long training break down the lining, and how does 5g of glutamine counter it? The reason only comes in the next two sentences.",
+  "sentence": 3,
+  "quote": "so your enterocytes get less oxygen and fuel",
+  "gap": "Why does getting less oxygen and fuel damage the lining, and how does the 5g make up for it?",
   "id": "L2",
   "status": "drop",
-  "note": "the reason comes in the next two sentences, in the order the reader asks it; with the reason first (v3, v4), readers asked why a training sentence follows the dose before they knew its point (Q1, the point first)"
+  "note": "v9 is the cut, tried for the Pangram reading only: without v7's 'But the glutamine you swallow still gets to them' this reader asks again how the 5g makes up for it, so v7 stays on the page, and the card gives him both readings"
  },
  {
-  "sentence": 5,
-  "quote": "an acute exposure",
-  "gap": "Exposure to what, and why does it call for more glutamine?",
+  "sentence": 4,
+  "quote": "raise it gradually to 10-30g a day",
+  "gap": "What does \"it\" point to (the 5g baseline of glutamine?), and why raise it gradually rather than at once?",
   "id": "L3",
   "status": "drop",
-  "note": "his dose sentence, unchanged: it read Human High in #148, #149 and #150; E350, the window's sentences only. The readers' questions on it (what an acute exposure is, which stress, why gradually, what active means) go on the card as his to answer if he wants"
+  "note": "his dose sentence, unchanged (Human High in every check); its questions are F9-5 on the page"
  },
  {
-  "sentence": 5,
-  "quote": "if your whole system is under a lot of stress",
-  "gap": "What kind of stress (illness, injury, life stress), and why does it call for more glutamine?",
+  "sentence": 4,
+  "quote": "an acute exposure",
+  "gap": "Exposure to what exactly (an infection, a toxin, a food)?",
   "id": "L4",
   "status": "drop",
-  "note": "his dose sentence, unchanged: it read Human High in #148, #149 and #150; E350, the window's sentences only. The readers' questions on it (what an acute exposure is, which stress, why gradually, what active means) go on the card as his to answer if he wants"
+  "note": "his dose sentence, unchanged (Human High in every check); its questions are F9-5 on the page"
  },
  {
-  "sentence": 5,
-  "quote": "raise it gradually to 10-30g a day",
-  "gap": "Why raise the dose in these cases, and what does \"gradually\" mean (how fast, over how long)? Does \"it\" mean the 5g?",
+  "sentence": 4,
+  "quote": "if your whole system is under a lot of stress",
+  "gap": "What kind of stress (mental, physical, illness), and why would it call for more glutamine?",
   "id": "L5",
   "status": "drop",
-  "note": "his dose sentence, unchanged: it read Human High in #148, #149 and #150; E350, the window's sentences only. The readers' questions on it (what an acute exposure is, which stress, why gradually, what active means) go on the card as his to answer if he wants"
+  "note": "his dose sentence, unchanged (Human High in every check); its questions are F9-5 on the page"
  },
  {
-  "sentence": 5,
-  "quote": "active IBD",
-  "gap": "What does \"active\" mean here, as opposed to not active, and why does that change the dose?",
+  "sentence": 4,
+  "quote": "active IBD (Crohn's or colitis)",
+  "gap": "What does IBD stand for and mean, and why does it call for a higher dose?",
   "id": "L6",
   "status": "drop",
-  "note": "his dose sentence, unchanged: it read Human High in #148, #149 and #150; E350, the window's sentences only. The readers' questions on it (what an acute exposure is, which stress, why gradually, what active means) go on the card as his to answer if he wants"
+  "note": "his dose sentence, unchanged (Human High in every check); its questions are F9-5 on the page"
+ },
+ {
+  "sentence": 4,
+  "quote": "if your immune system is dealing with an acute exposure",
+  "gap": "Why do these situations need 10-30g, not 5g (how does that connect to immune cells using glutamine as fuel)?",
+  "id": "L7",
+  "status": "drop",
+  "note": "his dose sentence, unchanged (Human High in every check); its questions are F9-5 on the page"
  }
 ]

@@ -26,9 +26,9 @@ Joel, 2026-11-03 16:15 UTC (`experiments/t01-answers/joel-20261103-1615-messages
 
 2026-11-05, Joel's message of 15:18 UTC (`experiments/t13-answers/`): his four cards answered ("1agree with you / 2agree / 3.agree / 4. go ahead"), and cards go on the marking page the turn they're written (E363 (gut)). The fuels stretch is worded from his answers, checked, and on the batch-9 page (`humanize/fix-20261103/r14/`, https://claude.ai/artifact/EyKenia9ksMXj8pH6ZMCkE, cards in `r14/b9/REVIEW-CARDS.md`):
 - P20, with card 3's clause: [Human Written, 100%](https://www.pangram.com/history/7626ceb3-21e5-41b2-b9f1-53fce9a939aa) (#147).
-- P21, card 4's fix (v7): [Human Written, AI 0%](https://www.pangram.com/history/cd90475f-4199-4cc0-b764-b3e88005929d) (#149). One sentence of mine still reads Medium.
+- P21, card 4's fix (v9): [Human Written, 100%](https://www.pangram.com/history/a569bfb1-d815-4f9e-9498-d07fb0957a17), one window, High (#153).
 - The caution, cards 1 and 2 (any active cancer, the oncologist, the 5g too, no portal vein): [Human Written, AI 0%](https://www.pangram.com/history/b3f527c2-1d60-4d21-9135-2b53da1a9894), the caution High (#150).
-- The whole stretch: [Human Written, AI 0%](https://www.pangram.com/history/8d1686ec-5214-4648-abc2-cebbeb208ebb) (#152). In his post it read AI Detected 26% (#140).
+- The whole stretch: [Human Written, 100%](https://www.pangram.com/history/01015713-1d9b-4b32-9bd0-1f1258a1cfee), one window, High (#154). In his post it read AI Detected 26% (#140).
 
 The live post (r12) read Mostly Human 93% in his extension (#142); its 116 quote marks are straight, where r10's 100% check read them curled (E362 (gut)). Draft A, the live words with the marks curled (`r12/substack/`, #143), is still waiting for his extension's result. Its secret link was given to him again in chat on 2026-11-05.
 
@@ -36,9 +36,8 @@ The live post (r12) read Mostly Human 93% in his extension (#142); its 116 quote
 
 1. His answers on the batch-9 page. Two are open questions: whether the 5g is everyone's baseline or only for people who train hard (F9-3), and whether readers' questions on his dose sentence get answers (F9-5).
 2. His extension on draft A's secret link, then record #143. If it reads like r10, ask him to let the live post's marks be curled (E362 (gut)). If it reads like the live check, fix Phase 2 to 5's windows paragraph by paragraph.
-3. P21's Medium sentence ("But the glutamine you swallow still gets to them, straight from inside your gut."): the next try cuts it or folds it into the blood sentence (`r14/README.md`).
-4. The next update of his post, with his OK and no email: r14's fuels stretch as he answers, with the marks as he decides.
-5. He deletes draft A once its result is recorded.
+3. The next update of his post, with his OK and no email: r14's fuels stretch as he answers, with the marks as he decides.
+4. He deletes draft A once its result is recorded.
 
 ## Blockers / unresolved
 

@@ -18,16 +18,17 @@ Every wording below went through the same steps. A newcomer read the draft fresh
 ### P21, the dose (F9-3, card 4)
 
 - **The first read** (`links-p21/`) asked whether the baseline is for them at all if they don't train, in a section about a leaky gut, and how training breaks down the lining ("I thought exercise was good").
-- **Eight drafts.** The page has v7 (`DRAFT-P21-v7.txt`):
+- **Nine drafts.** The page has v9 (`DRAFT-P21-v9.txt`):
   - The baseline's purpose for everyone: "to keep your enterocytes fed".
   - Training as its second job, in his words: "The 5g also counters the breakdown of the gut lining that hard or long training causes".
-  - How: blood goes to the working muscles, and the swallowed glutamine still reaches the enterocytes from inside the gut.
+  - How: while you train, blood goes away from the gut to the working muscles, so the enterocytes get less oxygen and fuel.
   - What each draft's read changed:
     - v1 said "enough" before the reader knew training mattered.
     - v3 and v4 put the reason first, and readers then asked why a training sentence followed the dose.
     - v5 and v6 led with the point.
-    - Two readers asked how swallowed glutamine could make up for what the blood no longer brings, so v6 to v8 say it.
-- **Meaning checks** G104, G105, G107, G109, G111, G113 and G114 all passed.
+    - Two readers asked how swallowed glutamine could make up for what the blood no longer brings, so v6 to v8 say it in a closing sentence.
+    - That sentence never read High, so v9 cuts it. Its reader asked the question again; the answer is the first sentence's "to keep your enterocytes fed". The card offers the sentence back.
+- **Meaning checks** G104, G105, G107, G109, G111, G113, G114 and G115 all passed.
 - **His call, on the card:** whether the 5g is everyone's baseline, as I read it, or only for people who train hard.
 - **Found:** the trials where glutamine cut training's gut leak used 0.25 to 0.9 g per kg of lean mass before a run, not 5g a day ([Pugh 2017](https://link.springer.com/article/10.1007/s00421-017-3744-4)). His claim stays as it is; the card says so.
 - **Sources for the added how:**
@@ -37,8 +38,8 @@ Every wording below went through the same steps. A newcomer read the draft fresh
 - **The checks** (lineage r14-fuels-p21, with P20 v2):
   - #148, v6: [Human Written](https://www.pangram.com/history/9d4a68b0-f102-4ba0-b1b8-db1a13152a3b), AI 0%. His Low sentences now read High. Two new sentences of mine: Medium ("While you train ...") and Low ("The glutamine you swallow reaches them from inside your gut instead.").
   - #149, v7: [Human Written](https://www.pangram.com/history/cd90475f-4199-4cc0-b764-b3e88005929d), AI 0%. All High but "But the glutamine you swallow still gets to them, straight from inside your gut." (Medium).
-  - #151, v8: [Human Written](https://www.pangram.com/history/63798a2a-0981-4934-a2c1-e90d18de6a66), AI 0%. v8 said that sentence's link ("doesn't need that blood, since it reaches them from inside your gut"), and it read Low. v7 stays as the better of the two.
-  - Next try for that sentence: cut it (P20 already says the enterocytes take glutamine in as soon as it reaches them), or fold it into the blood sentence.
+  - #151, v8: [Human Written](https://www.pangram.com/history/63798a2a-0981-4934-a2c1-e90d18de6a66), AI 0%. v8 said that sentence's link ("doesn't need that blood, since it reaches them from inside your gut"), and it read Low.
+  - #153, v9, the sentence cut: [Human Written, 100%](https://www.pangram.com/history/a569bfb1-d815-4f9e-9498-d07fb0957a17), one window, High.
 
 ### P22, the caution (F9-4, cards 1 and 2)
 
@@ -60,10 +61,11 @@ Every wording below went through the same steps. A newcomer read the draft fresh
   - A tumor in the liver is fed mainly by the hepatic artery ([review](https://pmc.ncbi.nlm.nih.gov/articles/PMC3036477)).
 - **Try 3 of its lineage**, with P21 v7 and the tell panel's notes (`../r13/fuels/panel-p22/`). Prediction #150, Human at 0.5: [Human Written](https://www.pangram.com/history/b3f527c2-1d60-4d21-9135-2b53da1a9894), AI 0%. The whole caution reads High.
 
-### The stretch, P19 to P22 (its one recheck)
+### The stretch, P19 to P22
 
 - Lineage r12-fuels, try 2, after each paragraph was checked by itself (E343). Prediction #152, Human at 0.6.
-- Result: [Human Written](https://www.pangram.com/history/8d1686ec-5214-4648-abc2-cebbeb208ebb), AI 0%, 456 words. Every window is High except P21's "But the glutamine you swallow still gets to them, straight from inside your gut." (Medium).
+  - Result: [Human Written](https://www.pangram.com/history/8d1686ec-5214-4648-abc2-cebbeb208ebb), AI 0%, 456 words. Every window was High except P21 v7's "But the glutamine you swallow still gets to them, straight from inside your gut." (Medium).
+- After that one fix (P21 v9), #154, Human at 0.75: [Human Written, 100%](https://www.pangram.com/history/01015713-1d9b-4b32-9bd0-1f1258a1cfee), one window, High, 442 words.
 - In his post (r12, #140) the stretch read [AI Detected, 26%](https://www.pangram.com/history/2103ebd9-b274-4d8c-b32a-53819d5c740d), with five AI windows.
 
 ### F9-5, a question
@@ -78,10 +80,10 @@ The card asks whether he wants any of that said, in his words.
 
 ## Files
 
-- **Drafts:** `DRAFT-P20-v2.txt`, `DRAFT-P21-v1.txt` to `v8`, `DRAFT-P22-v6.txt` to `v12`.
+- **Drafts:** `DRAFT-P20-v2.txt`, `DRAFT-P21-v1.txt` to `v9`, `DRAFT-P22-v6.txt` to `v12`.
 - **Reads:**
   - `links-p20/`: the first read, carried from r13, and `draft/`.
-  - `links-p21/`: the first read, then `draft-v1/` to `draft-v7/`, with `draft/` for v8.
+  - `links-p21/`: the first read, then `draft-v1/` to `draft-v8/`, with `draft/` for v9.
   - `links-p22/`: the first read, carried from r13, then `draft-v6/` to `draft-v10/` and `draft-v12/`, with `draft/` for v11.
-- **Meaning checks:** `MEANING-PACKET-*.json` and `MEANING-VERDICTS-*.json`, items 1 to 8.
-- **Check texts and results:** `CHECK-*.txt` and `RESULTS-*.json`. Their predictions are #147 to #152 in `../../pangram-ledger.jsonl`.
+- **Meaning checks:** `MEANING-PACKET-*.json` and `MEANING-VERDICTS-*.json`, items 1 to 9.
+- **Check texts and results:** `CHECK-*.txt` and `RESULTS-*.json`. Their predictions are #147 to #154 in `../../pangram-ledger.jsonl`.

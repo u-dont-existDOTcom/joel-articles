@@ -23,7 +23,8 @@ GH = 'https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/gut-r07-20
 PG = 'https://www.pangram.com/history/'
 LIVE = 'https://www.pangram.com/feed/e3a65841-a626-4b34-aad7-62b9dfa48ada'
 STRETCH_R12 = PG + '2103ebd9-b274-4d8c-b32a-53819d5c740d'
-STRETCH_R14 = PG + '8d1686ec-5214-4648-abc2-cebbeb208ebb'
+STRETCH_R14 = PG + '01015713-1d9b-4b32-9bd0-1f1258a1cfee'
+STRETCH_R14A = PG + '8d1686ec-5214-4648-abc2-cebbeb208ebb'
 
 
 def draft(name):
@@ -63,7 +64,7 @@ def card(sid, typ, title, block, pairs, why, stays, whose, reading=None, tested=
 P20, P21, P22 = b('L-Glutamine (watch Dr. Rhonda vid)'), b('Take 5g a day as a baseline'), b('CAUTION: cancer cells')
 assert (P20, P21, P22) == (27, 28, 29)
 P21_NOW, P22_NOW = bl[P21]['text'], bl[P22]['text']
-P21_NEW, P22_NEW = draft('DRAFT-P21-v7.txt'), draft('DRAFT-P22-v11.txt')
+P21_NEW, P22_NEW = draft('DRAFT-P21-v9.txt'), draft('DRAFT-P22-v11.txt')
 P21_S12 = ('Take 5g a day as a baseline. The point of that baseline is to counter the breakdown of the gut lining that '
            'high-intensity or high-volume training causes, like CrossFit or intense cardio.')
 assert P21_NOW.startswith(P21_S12) and P21_NEW.endswith(P21_NOW[len(P21_S12) + 1:])
@@ -119,11 +120,12 @@ S = [
       reading='Your post, through your extension: [Mostly Human 93%%](%s). Its first two sentences read Human Low beside '
               'the caution, twice: [AI Detected, 36%%](%s8563cfe5-5f52-43ad-903c-f5e1fdae01ca), [AI Detected, '
               '26%%](%s84f98fca-d6d3-42b8-b14e-9b8e888e5601).' % (LIVE, PG, PG),
-      tested='With glutamine\'s paragraph: [Human Written](%scd90475f-4199-4cc0-b764-b3e88005929d), AI 0%%, all High but '
-             '"But the glutamine you swallow still gets to them, straight from inside your gut." (Medium); the whole '
-             'stretch: [Human Written](%s), the same sentence Medium. Its other wording read Low '
-             '([Human Written](%s63798a2a-0981-4934-a2c1-e90d18de6a66)), so this is the better one; the next try cuts '
-             'that sentence or folds it into the one before.' % (PG, STRETCH_R14, PG),
+      tested='With glutamine\'s paragraph: [Human Written, 100%%](%sa569bfb1-d815-4f9e-9498-d07fb0957a17), one '
+             'window, High; the whole stretch: [Human Written, 100%%](%s), one window, High. A closing sentence of '
+             'mine, "But the glutamine you swallow still gets to them, straight from inside your gut.", read Medium '
+             '([Human Written](%scd90475f-4199-4cc0-b764-b3e88005929d)), so I cut it; one reader then asked how the 5g '
+             'makes up for the blood, which "to keep your enterocytes fed" answers. If you want it said, Revise with '
+             'that sentence back in.' % (PG, STRETCH_R14, PG),
       note='Approve, Reject, or Revise with your own words. Revise if the 5g is only for people who train hard.'),
  card('F9-4', 'yours', 'The glutamine caution, for any active cancer', P22, [(P22_NOW, P22_NEW)],
       'Your cards 1 and 2 ("1agree with you", "2agree"): any active cancer, your oncologist, the 5g too, and no '
@@ -140,8 +142,9 @@ S = [
               '36%%](%s8563cfe5-5f52-43ad-903c-f5e1fdae01ca), "So if you have an active colon or liver cancer, don\'t '
               'raise the dose that high." AI Low and the liver sentence AI Medium; my try with the liver kept: [AI '
               'Detected, 26%%](%s84f98fca-d6d3-42b8-b14e-9b8e888e5601).' % (LIVE, PG, PG),
-      tested='Beside the dose (F9-3): [Human Written](%sb3f527c2-1d60-4d21-9135-2b53da1a9894), AI 0%%, the whole '
-             'caution High; the whole stretch: [Human Written](%s), the caution High.' % (PG, STRETCH_R14)),
+      tested='Beside the dose paragraph (before its last sentence was cut): [Human Written]'
+             '(%sb3f527c2-1d60-4d21-9135-2b53da1a9894), AI 0%%, the whole caution High; the whole stretch: [Human '
+             'Written, 100%%](%s), one window, High.' % (PG, STRETCH_R14)),
  {'id': 'F9-5', 'type': 'ask', 'title': 'What readers asked about your dose sentence', 'advice': 'ask',
   'question': 'Want any of these said? Readers asked: whether pure glutamine is a powder or a pill, and with meals or '
               'apart; what an "acute exposure" is (a germ, a toxin?); which stress (illness, injury, worry?); how '
@@ -160,8 +163,7 @@ review = {
               'post yet.',
               'Each was read fresh by a newcomer, checked blind for meaning against its sources, and checked in the web '
               'app with the paragraph it leans on. The whole stretch, these four paragraphs together, now reads [Human '
-              'Written, AI 0%%](%s); in your post it read [AI Detected, 26%%](%s). One sentence of mine in the dose '
-              'paragraph still reads Human Medium.' % (STRETCH_R14, STRETCH_R12),
+              'Written, 100%%](%s), one window, High; in your post it read [AI Detected, 26%%](%s).' % (STRETCH_R14, STRETCH_R12),
               'Your answers go in as you write them. Then your post gets the update with your OK, without email. Draft A '
               '(the marks test) is still waiting for your extension\'s result; its link is in my message.'],
     'git_file': 'articles/healing-the-gut/humanize/fix-20261103/r14/b9/REVIEW-PAGE.html',
