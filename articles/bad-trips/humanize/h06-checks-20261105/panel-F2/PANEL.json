@@ -1,0 +1,48 @@
+{
+ "readers": [
+  "haiku",
+  "sonnet"
+ ],
+ "sentences": [
+  "I also read on forums that some people swear smoking at the aura stops the seizure from going any further, and in one study a woman's EEG showed fewer seizure discharges on the days she smoked.",
+  "But other people say THC vapes and concentrates brought their seizures on.",
+  "So the THC may be what makes it go either way.",
+  "That's what happened in rats that get the brief staring seizures called absence seizures: high-THC smoke made them worse, while CBD injections cut them about in half."
+ ],
+ "flagged": {
+  "1": [
+   "haiku",
+   "sonnet"
+  ],
+  "2": [
+   "haiku",
+   "sonnet"
+  ],
+  "3": [
+   "haiku",
+   "sonnet"
+  ],
+  "4": [
+   "haiku",
+   "sonnet"
+  ]
+ },
+ "agreed": [
+  1,
+  2,
+  3,
+  4
+ ],
+ "whole": {
+  "haiku": [
+   "The sentences are even in length and weight, and the paragraph runs as a clean arc from anecdote to study to counter-anecdote to conclusion, and that smoothness is what reads machine-made. The voice underneath is looser than the architecture, so the polish sits on top of the text rather than running through all of it."
+  ],
+  "sonnet": [
+   "Every sentence is a similar medium length and does one job in order (anecdote, study, counter-anecdote, synthesis, animal evidence), with no digressions, so it reads as a smooth, evenly paced evidence-summary pattern. The voice is neutral and informational, with little felt experience behind it."
+  ]
+ },
+ "human_clean": [
+  "I also read on forums",
+  "I also read on forums"
+ ]
+}
