@@ -2413,8 +2413,8 @@ His message and his batch-1 page's answers, word for word: `articles/healing-the
   that leaves him a decision publishes its page (`tools/humanization/suggestion_review.py`) and links it, with the cards'
   Markdown view beside it, in that turn's message (`docs/FIXING-AN-ARTICLE.md`, section 7).
   (E357 to E359 are the neuro de-armoring lane's, in its section below, and E360 and E361 the bad trips lane's, written
-  at the same time as E362 (gut); cite these two as "E362 (gut)" and "E363 (gut)": other lanes have an E362 (bad trips) and an E363 and E364
-  (neuro de-armoring, pull request 305). The next lesson in any lane is E365.)
+  at the same time as E362 (gut); cite these two as "E362 (gut)" and "E363 (gut)": other lanes have their own E362 to E367 (bad trips: E362 and
+  E365 to E367; neuro de-armoring: E363 and E364). The next lesson in any lane is E368.)
 
 (The Inner Child lane's turn-116 lessons, written at the same time, are E337 and E338 (Inner Child), near the top. This section's E337 and E338 keep their numbers too, because this lane's records cite them: cite them as "E337 (gut)" and "E338 (gut)". The Inner Child lane's turn-117 lessons, written after them, are E340 and E341, near the top, and this section's E342, E345, E347 to E349 and E351 came after those; the neuro de-armoring lane's E343, E344 and E346, written at the same time, are in its section after this one, with its E350 in its pull request 290. The next lesson in either lane is E352.)
 
