@@ -1,0 +1,88 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "text_sha256": "41f61f53cf7c48e39f1644a33f969080af7199865773e6fde096e955dcf69704",
+ "text": "BPC-157 is a lab-made short protein based on one in stomach juice, and a good BPC-157 supplement, like this one from Barrier, can also help. Note: I think Barrier's product looks smart, and their product may be really ideal, but there are some red flags in their marketing since they say it's made from plants, which is false.\n\nBeta-glucans, a kind of fiber found in yeast extract.\n\nResistant starch to feed the good bacteria in your gut, since your body can't digest it.\n\nOzonated zeolite (or ZeoCharge), a volcanic mineral full of tiny pores: I find regular zeolite to be ineffective, because the pores on it are clogged up, so it can't adsorb excess zonulin, metals, and other toxins.",
+ "section": "Some Causes of poor gut health",
+ "reader": "Someone with poor gut health reading the plant-food and leaky gut causes, choosing among the leaky gut treatments the list gives, who has never heard of zonulin, colostrum or BPC-157.",
+ "sentences": [
+  {
+   "s": "BPC-157 is a lab-made short protein based on one in stomach juice, and a good BPC-157 supplement, like this one from Barrier, can also help.",
+   "payoff": "The reader knows what BPC-157 is where it is first named, and so why Barrier's claim that it's made from plants is false, and that it can help.",
+   "follows": "Next treatment in the list, after zinc carnosine; his note on Barrier follows it."
+  },
+  {
+   "s": "Note: I think Barrier's product looks smart, and their product may be really ideal, but there are some red flags in their marketing since they say it's made from plants, which is false.",
+   "his": true
+  },
+  {
+   "s": "Beta-glucans, a kind of fiber found in yeast extract.",
+   "payoff": "The reader knows beta-glucans are a fiber, the kind of thing they'd be buying.",
+   "follows": "Next item in the list."
+  },
+  {
+   "s": "Resistant starch to feed the good bacteria in your gut, since your body can't digest it.",
+   "payoff": "The reader knows what it's for first (feeding the good bacteria), then why it gets to them: the body can't digest it.",
+   "follows": "Next item in the list."
+  },
+  {
+   "s": "Ozonated zeolite (or ZeoCharge), a volcanic mineral full of tiny pores: I find regular zeolite to be ineffective, because the pores on it are clogged up, so it can't adsorb excess zonulin, metals, and other toxins.",
+   "payoff": "The reader knows zeolite is a mineral full of pores, so 'the pores are clogged' and 'adsorb' make sense.",
+   "follows": "Next item in the list."
+  }
+ ],
+ "checked": [
+  {
+   "point": "zonulin opens the tight junctions between the gut lining's cells",
+   "found": "Sturgeon and Fasano 2016: zonulin is the only known physiological modulator of the tight junctions between cells, and more of it means a leakier barrier (https://www.ncbi.nlm.nih.gov/pubmed/28123927)",
+   "still_needed": "yes: the leaking in the next sentence depends on it",
+   "fate": "kept"
+  },
+  {
+   "point": "colostrum is the first milk after giving birth; liposomal means in fat bubbles that help absorption",
+   "found": "bovine colostrum is the first milk a cow's mammary gland makes after calving (https://www.alice.cnptia.embrapa.br/alice/bitstream/doc/1135735/1/Bovine-colostrum.pdf); liposomal supplements put the nutrient inside tiny spheres of phospholipid, a fat, which can protect it in digestion and often help absorption (https://neuroganhealth.com/blogs/news/liposomal-vs-capsule-supplements)",
+   "still_needed": "yes: the reader buys it",
+   "fate": "kept"
+  },
+  {
+   "point": "BPC-157 is lab-made, based on a stomach juice protein",
+   "found": "a synthetic 15-amino-acid peptide derived from a protein in human gastric juice (https://en.wikipedia.org/wiki/BPC-157)",
+   "still_needed": "yes: it shows why the plant claim is false",
+   "fate": "kept"
+  },
+  {
+   "point": "resistant starch is starch the body can't digest, so it reaches the gut bacteria",
+   "found": "starch that escapes digestion in the small intestine and is fermented by the bacteria in the colon (https://www.frontiersin.org/articles/10.3389/fnut.2024.1369950/full)",
+   "still_needed": "yes: it is why it feeds them",
+   "fate": "kept"
+  },
+  {
+   "point": "zeolite is a volcanic mineral full of pores",
+   "found": "porous minerals, mostly from volcanic ash (https://pubmed.ncbi.nlm.nih.gov/30999685/)",
+   "still_needed": "yes: the pores are the point",
+   "fate": "kept"
+  }
+ ],
+ "placement": "The plant-food cause and the leaky gut list, in his order; each explanation inside the sentence that first names the term, the colostrum and BPC-157 ones joined into their items instead of the sentences after them.",
+ "questions": {
+  "Q1": "PASS: each term is explained in the sentence that first uses it (zonulin, tight junctions, colostrum, liposomal, BPC-157, resistant starch, FODMAP), none in a sentence after; each sentence's point comes before its explanation (resistant starch's job, then why; Phase 2's aim, then whose it is)",
+  "Q2": "PASS: the only instructions are his (go Paleo-Low FODMAP or Low Fermentation Eating; no snacking) and Phase 2's opening, which says what the reader does (calm the inflammation down and starve the overgrowths)",
+  "Q3": "PASS: each explanation names the exact thing (the seals between the cells of your gut lining; the first milk a cow makes after giving birth; the carbs they ferment most easily)",
+  "Q4": "PASS: zonulin, tight junctions, colostrum, liposomal, BPC-157, beta-glucans, resistant starch and FODMAPs are explained once, where first used; mycotoxins and bifidobacterium were explained in try 1; vitamins and common words left alone",
+  "Q5": "PASS: the \"since\" in the resistant starch and FODMAP sentences each give the reason for the point before them; \"Once the mechanics work\" turns on Phase 1's point",
+  "Q6": "PASS: nothing moved between paragraphs; inside them, Phase 2 now says what it does before whose it is",
+  "Q7": "PASS: each explanation is what a reader needs to buy or follow the item it is in",
+  "Q8": "PASS: no item moved between groups",
+  "Q9": "PASS: \"no harsh chemicals\" uncompressed to \"without any harsh chemicals\"; each explanation is a clause of the sentence that uses the term, one step each"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone?",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

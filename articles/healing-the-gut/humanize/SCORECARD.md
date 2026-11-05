@@ -9,7 +9,7 @@ Built by `tools/humanization/pangram_ledger.py build` from `articles/healing-the
 | pangram API 4.1 | 97 | 71 (73%) | 55% | 45% | 47% | 0.173 (base 0.248, 97) |
 | Pangram 4.1 (web app) | 10 | 5 (50%) | 70% | 30% | 80% | 0.224 (base 0.210, 10) |
 | pangram 4.1, Pangram's check of the Substack draft (free, Joel's account) | 1 | 1 (100%) | 0% | 100% | 100% | 0.202 (base 0.000, 1) |
-| pangram 4.1, the web app (Joel's account, GUI credits) | 34 | 28 (82%) | 18% | 82% | 94% | 0.154 (base 0.145, 34) |
+| pangram 4.1, the web app (Joel's account, GUI credits) | 51 | 43 (84%) | 16% | 84% | 96% | 0.156 (base 0.132, 51) |
 | pangram 4.1, his Pangram extension on the live post (free, Joel's account) | 1 | 0 (0%) | 100% | 0% | 100% | 0.250 (base 0.000, 1) |
 
 ## pangram API 4.1
@@ -84,9 +84,9 @@ Calibration:
 
 | window | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| the latest 50 | 34 | 28 (82%) | 18% | 82% | 94% | 0.154 (base 0.145, 34) |
-| the latest 100 | 34 | 28 (82%) | 18% | 82% | 94% | 0.154 (base 0.145, 34) |
-| all | 34 | 28 (82%) | 18% | 82% | 94% | 0.154 (base 0.145, 34) |
+| the latest 50 | 50 | 42 (84%) | 16% | 84% | 96% | 0.158 (base 0.134, 50) |
+| the latest 100 | 51 | 43 (84%) | 16% | 84% | 96% | 0.156 (base 0.132, 51) |
+| all | 51 | 43 (84%) | 16% | 84% | 96% | 0.156 (base 0.132, 51) |
 
 The boundary mix (what was checked; accuracy differs a lot between a paragraph and a section):
 
@@ -94,14 +94,16 @@ The boundary mix (what was checked; accuracy differs a lot between a paragraph a
 |---|---|---|---|---|---|---|
 | section | 25 | 21 (84%) | 16% | 84% | 92% | 0.147 (base 0.134, 25) |
 | pair | 9 | 7 (78%) | 22% | 78% | 100% | 0.174 (base 0.173, 9) |
+| stretch | 14 | 12 (86%) | 14% | 86% | 100% | 0.168 (base 0.122, 14) |
+| paragraph | 3 | 3 (100%) | 0% | 100% | 100% | 0.128 (base 0.000, 3) |
 
 Calibration:
 
 | my chance of a 100% Human result | calls | mean chance | read Human |
 |---|---|---|---|
 | 0.2 to 0.4 | 2 | 0.28 | 50% |
-| 0.4 to 0.6 | 9 | 0.56 | 67% |
-| 0.6 to 0.8 | 23 | 0.69 | 87% |
+| 0.4 to 0.6 | 21 | 0.57 | 76% |
+| 0.6 to 0.8 | 36 | 0.67 | 92% |
 | 0.8 to 1.0 | 4 | 0.80 | 100% |
 
 ## pangram 4.1, his Pangram extension on the live post (free, Joel's account)
@@ -124,7 +126,7 @@ Calibration:
 |---|---|---|---|
 | 0.4 to 0.6 | 1 | 0.50 | 0% |
 
-## Misses since the ledger (38)
+## Misses since the ledger (40)
 
 | cause | misses |
 |---|---|
@@ -149,13 +151,13 @@ Calibration:
 | every sentence a so-chain | 1 |
 | my new claims in an explainer's frame | 1 |
 | context: red in the whole guide, Human in the pair | 1 |
+| term explained after its first use, and a note splitting a sentence before its point (gates E368, E369) | 1 |
+| the point after the names, and a note splitting his sentence (gate E368) | 1 |
 
 The latest:
 
 | check | lineage, try | said | read | cause |
 |---|---|---|---|---|
-| [r04-fuel-tca-2](https://www.pangram.com/history/e84378ae-d2b3-41e7-83b5-0ad32db69a49) | r03-fuel-tca, 5 | Human | AI or mixed | every sentence a so-chain |
-| [r05-fuel-acids-with-glutamine](https://www.pangram.com/history/0c485194-fcbe-4c46-8d5b-dc95125cab91) | r05-fuel-acids, 1 | Human | AI or mixed | my new claims in an explainer's frame |
 | [r05-fuel-acids-2](https://www.pangram.com/history/7d62d99a-c834-41ab-b8e4-c4cb1dc5d7eb) | r05-fuel-acids, 2 | Human | AI or mixed | context: red in the whole guide, Human in the pair |
 | [r08-p1](https://www.pangram.com/history/31a8b177-a934-4175-9514-18276fc6a374) | b2-ST1-p1, 4 | Human | AI or mixed | explainer structure |
 | [r08-kits-with-categories](https://www.pangram.com/history/38b2da46-e72e-429a-8568-076737a8976f) | b2-ST2-p3, 5 | Human | AI or mixed | explainer structure |
@@ -169,6 +171,8 @@ The latest:
 | [gut-r12-live-article](https://www.pangram.com/feed/e3a65841-a626-4b34-aad7-62b9dfa48ada) | gut-article-whole, 2 | Human | AI or mixed | context |
 | [r13-p21p22-r12](https://www.pangram.com/history/8563cfe5-5f52-43ad-903c-f5e1fdae01ca) | r13-fuels-p22, 1 | Human | AI or mixed | tells |
 | [r13-p21p22-v3](https://www.pangram.com/history/84f98fca-d6d3-42b8-b14e-9b8e888e5601) | r13-fuels-p22, 2 | Human | AI or mixed | tells |
+| [r15-C](https://www.pangram.com/history/02aaf3fa-f757-426f-a6c9-0ee74b8ad0fb) | r15-C, 1 | Human | AI or mixed | term explained after its first use, and a note splitting a sentence before its point (gates E368, E369) |
+| [r15-H](https://www.pangram.com/history/de89477f-ceb5-4762-b6d7-87601979e4d7) | r15-H, 1 | Human | AI or mixed | the point after the names, and a note splitting his sentence (gate E368) |
 
 ## Lineages still open (tries used of the cap)
 

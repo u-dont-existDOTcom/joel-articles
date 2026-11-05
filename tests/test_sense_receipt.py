@@ -79,6 +79,25 @@ class Check(unittest.TestCase):
         self.assertTrue(r['sentences'][0].get('his'))
         self.assertEqual(R.check(TEXT, r), [])
 
+    def test_a_term_is_explained_where_it_is_first_used(self):
+        """Gate E369 (Joel, 2026-11-05 18:43 UTC: "make sure every term is introduced once at first, like enterocytes my
+        readers won't know what those are"). The colostrum note after the item read AI, Medium."""
+        late = ('Liposomal first-milking colostrum, fermented with SIBO yogurt bacteria. Colostrum is the first milk a '
+                'cow makes after giving birth, and liposomal means it comes in tiny fat bubbles.')
+        probs = R.check(late, filled(late))
+        self.assertTrue(any('"Colostrum" is explained' in p and 'E369' in p for p in probs))
+        first = ('Liposomal first-milking colostrum, the first milk a cow makes after giving birth, wrapped in tiny fat '
+                 'bubbles that help you absorb it.')
+        self.assertEqual(R.check(first, filled(first)), [])
+        r = filled(late)
+        r['late_ok'] = {'Colostrum': 'the item is a product name he copies from the label, and it must lead'}
+        self.assertEqual(R.check(late, r), [])
+
+    def test_a_pronoun_or_his_own_definition_is_not_a_late_term(self):
+        text = 'Glutamine feeds the gut lining. That is the main point. Glutamine is the fuel the enterocytes prefer.'
+        self.assertEqual(R.check(text, filled(text, his='Glutamine is the fuel the enterocytes prefer.')), [])
+        self.assertEqual([t for t, s in R.late_definitions(text, filled(text))], ['Glutamine'])
+
     def test_check_files_ignores_the_trailing_newline(self):
         with tempfile.TemporaryDirectory() as d:
             t = pathlib.Path(d, 't.txt')

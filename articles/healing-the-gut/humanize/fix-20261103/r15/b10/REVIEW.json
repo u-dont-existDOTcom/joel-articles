@@ -1,0 +1,209 @@
+{
+ "format": "joel-suggestion-review-v1",
+ "review_id": "healing-the-gut-b10-r15-20261105",
+ "title": "Gut Article, Your Batch-9 Answers (Batch 10)",
+ "intro": [
+  "Your batch-9 answers are in. Your own version of glutamine's paragraph went in as you wrote it, with card F9-2's clause. Every term a reader wouldn't know is now explained where it first comes up (27 notes, listed on the cards file), and the three repeats I found are cut. None of this is in your post yet.",
+  "These cards are what still needs your OK: the dose with the research you asked for, the caution with its payoff first, and Phase 2, which read AI. Two questions are terms I can't introduce without you.",
+  "Every changed stretch was checked in the web app: all twelve read Human Written, the leaky gut list and Phase 2 after a second fix (links in my message)."
+ ],
+ "git_file": "articles/healing-the-gut/humanize/fix-20261103/r15/b10/REVIEW-PAGE.html",
+ "article": {
+  "file": "articles/healing-the-gut/humanize/fix-20261103/r12/r12.md",
+  "sha256": "05f038f7370ca372efec6c103072d2043d9dc622ec858870d97d0bc340baa8b7"
+ },
+ "built": "2026-11-05",
+ "links": {
+  "guide": "https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/gut-r07-20261104/articles/healing-the-gut/humanize/fix-20261103/r15/r15.md",
+  "review": "https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/gut-r07-20261104/articles/healing-the-gut/humanize/fix-20261103/r15/b10/REVIEW-CARDS.md"
+ },
+ "types": {
+  "mine": {
+   "label": "My fix",
+   "about": "An AI window in your post, fixed the way you fix them"
+  },
+  "yours": {
+   "label": "Your answer",
+   "about": "What you answered, worded and checked"
+  },
+  "ask": {
+   "label": "A question",
+   "about": "A term I can't introduce without you"
+  }
+ },
+ "suggestions": [
+  {
+   "id": "F10-1",
+   "type": "yours",
+   "title": "The glutamine dose, with the research you asked for",
+   "advice": "approve",
+   "spans": [
+    {
+     "block": 28,
+     "start": 0,
+     "end": 374
+    }
+   ],
+   "edits": [
+    {
+     "block": 28,
+     "before": "Take 5g a day as a baseline. The point of that baseline is to counter the breakdown of the gut lining that high-intensity or high-volume training causes, like CrossFit or intense cardio. If your immune system is dealing with an acute exposure, if your whole system is under a lot of stress, or if you have active IBD (Crohn's or colitis), raise it gradually to 10-30g a day.",
+     "after": "Take 5g a day as a baseline, to keep your enterocytes fed. Take it away from meals, so it doesn't have to compete with the amino acids in your food to get absorbed. If you train hard or long, like CrossFit or intense cardio, your gut lining takes damage. While you train, your body sends blood away from your gut to your working muscles, so your enterocytes get less oxygen and fuel. Glutamine taken two hours before training helps with that. In a study of men running for an hour in the heat, their gut lining leaked less, even at the lowest dose tested, about 15g for a 70kg man. If your immune system is dealing with an acute exposure to toxins or pathogens, or your whole system is under a lot of stress, raise it to 10-30g a day, adding 1g a day in case you're sensitive to it. Up to 14g a day is known to be safe for the long run, but the studies of higher doses were too short to say, so come back down once it's over. If you have an active inflammatory bowel disease (IBD), like Crohn's or colitis, don't count on it. In the two small trials in active Crohn's, it didn't help."
+    }
+   ],
+   "reads": [
+    {
+     "text": "Take 5g a day as a baseline, to keep your enterocytes fed. Take it away from meals, so it doesn't have to compete with the amino acids in your food to get absorbed. If you train hard or long, like CrossFit or intense cardio, your gut lining takes damage. While you train, your body sends blood away from your gut to your working muscles, so your enterocytes get less oxygen and fuel. Glutamine taken two hours before training helps with that. In a study of men running for an hour in the heat, their gut lining leaked less, even at the lowest dose tested, about 15g for a 70kg man. If your immune system is dealing with an acute exposure to toxins or pathogens, or your whole system is under a lot of stress, raise it to 10-30g a day, adding 1g a day in case you're sensitive to it. Up to 14g a day is known to be safe for the long run, but the studies of higher doses were too short to say, so come back down once it's over. If you have an active inflammatory bowel disease (IBD), like Crohn's or colitis, don't count on it. In the two small trials in active Crohn's, it didn't help.",
+     "kind": "p"
+    }
+   ],
+   "reads_label": "As it would read",
+   "what": "The dose paragraph, reworded from your answers and the research (each change and its source under Why)",
+   "why": "Your F9-3 (\"incorporate your research to make this more accurate and useful\") and F9-5 answers. What changed, and why: \"to keep your enterocytes fed\" says what the 5g is for, whoever you are (your card 4). Away from meals, so the amino acids in your food don't compete with it (your F9-5; amino acids share the gut's transporters, https://www.consumerlab.com/answers/must-i-take-amino-acid-supplements-on-an-empty-stomach/how_to_take_amino_acid). For hard training, how it damages the gut (the blood goes to the muscles) and what was tested: glutamine two hours before an hour's run in the heat cut the leak even at the lowest dose, about 15g for a 70kg man, not 5g (Pugh 2017, https://pmc.ncbi.nlm.nih.gov/articles/PMC5694515/). An acute exposure is to toxins or pathogens, and you raise it a gram a day (your F9-5). 14g a day is the long-term safe level found; higher doses were only tested briefly, so it says to come back down (Shao and Hathcock 2008, https://www.nutraingredients.com/Article/2008/04/18/crn-authors-risk-assessment-for-key-amino-acids/). Active IBD came off the list for raising it: the two small trials in active Crohn's found no benefit (Cochrane 2016, https://www.cochrane.org/CD007348). Your 10-30g stays for the cases you named.",
+   "stays": "Your 5g baseline, CrossFit and intense cardio, your 10-30g and when to go there.",
+   "whose": "Your F9-3 and F9-5 answers, with my research.",
+   "deciding": "Whether it says what you meant.",
+   "advice_note": "Approve, Reject, or Revise with your own words.",
+   "reading": "Your post, through your extension: [Mostly Human 93%](https://www.pangram.com/feed/e3a65841-a626-4b34-aad7-62b9dfa48ada). Batch 9's two checks beside the caution read its first two sentences Human Low: [AI Detected, 36%](https://www.pangram.com/history/8563cfe5-5f52-43ad-903c-f5e1fdae01ca), [AI Detected, 26%](https://www.pangram.com/history/84f98fca-d6d3-42b8-b14e-9b8e888e5601).",
+   "tested": "The whole fuels stretch as r15 has it, 744 words with your F9-1 version and the caution below: [Human Written, AI 0%](https://www.pangram.com/history/626fb9ca-c769-4775-bebc-2483576c71b5), one window, High.",
+   "receipt": [
+    "articles/healing-the-gut/humanize/fix-20261103/r15/b10/RECEIPT-F10-1.json"
+   ],
+   "found_by": "your batch-9 answers, the making-sense read, and the web app"
+  },
+  {
+   "id": "F10-2",
+   "type": "yours",
+   "title": "The caution, with what to do right after the warning",
+   "advice": "approve",
+   "spans": [
+    {
+     "block": 29,
+     "start": 0,
+     "end": 345
+    }
+   ],
+   "edits": [
+    {
+     "block": 29,
+     "before": "CAUTION: cancer cells that multiply really fast can grab glutamine too, to fuel their growth. So if you have an active colon or liver cancer, don't raise the dose that high. The liver is on that list because the blood from your gut goes straight there, through the portal vein, so a big dose of glutamine reaches your liver before anywhere else.",
+     "after": "CAUTION: a lot of cancers feed on glutamine too, to fuel their growth. So if you have an active cancer, check with your oncologist before you take the 5g, and especially before you go up to the 10-30g. Your enterocytes take in a lot of the glutamine you swallow as soon as it reaches them, but not all of it, and the rest gets into your blood, where a cancer can get to it. They can only take in so much at a time, so the bigger the dose, the more of it gets into your blood."
+    }
+   ],
+   "reads": [
+    {
+     "text": "CAUTION: a lot of cancers feed on glutamine too, to fuel their growth. So if you have an active cancer, check with your oncologist before you take the 5g, and especially before you go up to the 10-30g. Your enterocytes take in a lot of the glutamine you swallow as soon as it reaches them, but not all of it, and the rest gets into your blood, where a cancer can get to it. They can only take in so much at a time, so the bigger the dose, the more of it gets into your blood.",
+     "kind": "p"
+    }
+   ],
+   "reads_label": "As it would read",
+   "what": "The approved caution's last sentence, what to do, moved to second",
+   "why": "Your F9-4 approval, with the fix your F9-1 note asks for everywhere: the payoff first. In the version you approved, what to do (check with your oncologist) came last, after two sentences on how glutamine gets to a cancer. Now it comes right after the warning, and the how follows it. Your own caution in your F9-1 version (intestinal or liver cancers, the portal vein) was your fix of the old paragraph in your post; your later F9-4 approval kept any active cancer and no portal vein (a tumor in the liver is fed mainly by the hepatic artery, https://pmc.ncbi.nlm.nih.gov/articles/PMC3036477), so this is that one. If you meant yours, Revise with it.",
+   "stays": "\"CAUTION:\", the warning and its reasons, word for word as you approved them.",
+   "whose": "Your F9-4 approval, in the order you fix payoffs to.",
+   "deciding": "Whether it says what you meant.",
+   "advice_note": "Approve, Reject, or Revise with your own words.",
+   "reading": "Your post, through your extension: [Mostly Human 93%](https://www.pangram.com/feed/e3a65841-a626-4b34-aad7-62b9dfa48ada); beside the dose, \"So if you have an active colon or liver cancer, don't raise the dose that high.\" read AI Low: [AI Detected, 36%](https://www.pangram.com/history/8563cfe5-5f52-43ad-903c-f5e1fdae01ca).",
+   "tested": "In the whole fuels stretch as r15 has it: [Human Written, AI 0%](https://www.pangram.com/history/626fb9ca-c769-4775-bebc-2483576c71b5), one window, High.",
+   "receipt": [
+    "articles/healing-the-gut/humanize/fix-20261103/r15/b10/RECEIPT-F10-2.json"
+   ],
+   "found_by": "your batch-9 answers, the making-sense read, and the web app"
+  },
+  {
+   "id": "F10-3",
+   "type": "mine",
+   "title": "Phase 2 opens with what it does",
+   "advice": "approve",
+   "spans": [
+    {
+     "block": 45,
+     "start": 0,
+     "end": 179
+    },
+    {
+     "block": 46,
+     "start": 0,
+     "end": 144
+    }
+   ],
+   "edits": [
+    {
+     "block": 45,
+     "before": "This is Dr. Michael Ruscio (Healthy Gut, Healthy You) and Dr. Mark Pimentel (The Microbiome Connection): calm the inflammation down and starve the overgrowths, no harsh chemicals.",
+     "after": "Once the mechanics work, calm the inflammation down and starve the overgrowths, without any harsh chemicals. This one's from Dr. Michael Ruscio (Healthy Gut, Healthy You) and Dr. Mark Pimentel (The Microbiome Connection)."
+    },
+    {
+     "block": 46,
+     "before": "Diet-wise, go Paleo-Low FODMAP (Ruscio) or Low Fermentation Eating (Pimentel). Either way you stop feeding the bacteria in your small intestine.",
+     "after": "Diet-wise, go Paleo-Low FODMAP (Ruscio) or Low Fermentation Eating (Pimentel). Either way you stop feeding the bacteria in your small intestine, since both cut out the carbs they ferment most easily."
+    }
+   ],
+   "reads": [
+    {
+     "text": "Once the mechanics work, calm the inflammation down and starve the overgrowths, without any harsh chemicals. This one's from Dr. Michael Ruscio (Healthy Gut, Healthy You) and Dr. Mark Pimentel (The Microbiome Connection).",
+     "kind": "p"
+    },
+    {
+     "text": "Diet-wise, go Paleo-Low FODMAP (Ruscio) or Low Fermentation Eating (Pimentel). Either way you stop feeding the bacteria in your small intestine, since both cut out the carbs they ferment most easily.",
+     "kind": "p"
+    }
+   ],
+   "reads_label": "As it would read",
+   "what": "The opening reordered, and the FODMAP note after your \"Either way\"",
+   "why": "Phase 2 read AI Detected 65% on its own, and its opening read AI-Generated High in your post. It's the issue you always fix: the point came after two doctors and their books. Now it opens with what the phase does, then whose it is, the way Phases 1, 3 and 5 open; \"no harsh chemicals\" is said in full; and my FODMAP note joins your \"Either way\" with \"since\" instead of splitting your \"go A or B\". FODMAPs are the short-chain carbs that are poorly absorbed and quickly fermented (https://pubmed.ncbi.nlm.nih.gov/23588241/).",
+   "stays": "Your diet sentence, your \"Either way you stop feeding the bacteria in your small intestine\", and the no-snacking paragraph.",
+   "whose": "My fix of the AI window in your post.",
+   "deciding": "Whether it says what you meant.",
+   "advice_note": "Approve, Reject, or Revise with your own words.",
+   "reading": "Your post, through your extension: [Mostly Human 93%](https://www.pangram.com/feed/e3a65841-a626-4b34-aad7-62b9dfa48ada), this opening and your diet sentence AI-Generated High. Phase 2 alone with my first FODMAP note inside your sentence: [AI Detected, 65%](https://www.pangram.com/history/de89477f-ceb5-4762-b6d7-87601979e4d7).",
+   "tested": "The two paragraphs: [Human Written](https://www.pangram.com/history/c7517cd3-0b56-4a28-b2d0-b8c2de287a48), one window, High. Phase 2 whole: [Human Written, AI 0%](https://www.pangram.com/history/31e8d763-563d-4c55-aa5f-04218bf2a721), Human windows, three of them Medium where it splits at \"Dr.\".",
+   "receipt": [
+    "articles/healing-the-gut/humanize/fix-20261103/r15/b10/RECEIPT-F10-3a.json",
+    "articles/healing-the-gut/humanize/fix-20261103/r15/b10/RECEIPT-F10-3b.json"
+   ],
+   "found_by": "your batch-9 answers, the making-sense read, and the web app"
+  },
+  {
+   "id": "F10-4",
+   "type": "ask",
+   "title": "What HRP stands for",
+   "advice": "ask",
+   "question": "What is \"HRP\" in \"this HRP deep research report\"? Your readers won't know the letters, and I don't either. The link is a ChatGPT project named askrigor.com: if it's AskRigor's health research protocol, should it say \"this deep research report I made with AskRigor\", or spell HRP out? Tell me the words.",
+   "why": "Your rule: every term a reader wouldn't know is introduced where it first comes up. This is the one I can't introduce without guessing.",
+   "stays": "Your sentence, as it is, until you answer.",
+   "advice_note": "Answer in the box.",
+   "spans": [
+    {
+     "block": 17,
+     "start": 64,
+     "end": 88
+    }
+   ],
+   "found_by": "your batch-9 answers, the making-sense read, and the web app"
+  },
+  {
+   "id": "F10-5",
+   "type": "ask",
+   "title": "Gemini Flash Extended, or Pro?",
+   "advice": "ask",
+   "question": "Your intro says you consolidate the texts so readers can consult Gemini \"on Flash Extended mode\", and the Gem section calls it a \"Gemini Pro\" Gem. Which mode should readers use? I'd name it once, in the Gem section where they open the Gem, and cut \"(on Flash Extended mode)\" from the intro, whose sentence is about what this article does. Say yes, or tell me the mode.",
+   "why": "You asked whether the article repeats itself. I read it through for that: the intro and the Gem section both say you consolidated the books for Gemini, which is fine as a promise and its delivery, but they name two different modes. The other repeats I found are cut (listed on the cards file).",
+   "stays": "Both sentences, as they are, until you answer.",
+   "advice_note": "Answer in the box.",
+   "spans": [
+    {
+     "block": 2,
+     "start": 265,
+     "end": 289
+    },
+    {
+     "block": 35,
+     "start": 87,
+     "end": 97
+    }
+   ],
+   "found_by": "your batch-9 answers, the making-sense read, and the web app"
+  }
+ ]
+}

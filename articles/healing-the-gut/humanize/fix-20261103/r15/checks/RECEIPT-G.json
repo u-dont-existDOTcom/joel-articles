@@ -1,0 +1,97 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "text_sha256": "2f44a5e47083933cc2e011730dddf099af9cd2813afc68b97fd5b223d111404d",
+ "text": "Before you throw supplements or antimicrobials at your gut, the system mechanics that are foundational to gut function have to work. This part is from T.C. Hale (Kick Your Fat in the Nuts) and Stanley Rosenberg (Accessing the Healing Power of the Vagus Nerve).\n\nAre your pupils dilated all the time? Are you missing your gag reflex? Then according to Hale, you're stuck in fight or flight mode (which in medical lingo is called \"sympathetic dominance\"), and digestion is offline. Rosenberg's fix is his Basic Exercise (eye movements) or the Salamander technique (which looks like some kind of yoga, see a video demo here). Both of those help to mechanically release the vagus nerve so your body can switch into rest and digest mode.\n\nNow let's have a look at your bile function. Do you burp extra (not just like one little burp) after fatty meals? Do your stools float (like it's hard to flush), or look like clay? Then your bile is stagnant (not flowing well), and Hale says if you take antimicrobials now, you'll get a herx reaction: the dying microbes release toxins you can't detoxify. So thin the bile first with Beet Flow (an extract of beet greens) or phosphatidylcholine, a fatty nutrient found in egg yolks and soy, before starting on any pathogen killing protocol.\n\nMy notes: for stress and sleep see \"Severe stress\" above, and for stomach acid and bile see \"Low stomach acid\".",
+ "section": "Phase 1: The Pre-Flight Safety Check",
+ "reader": "Someone in Phase 1 checking whether stress or stagnant bile blocks their digestion before they take any antimicrobial.",
+ "sentences": [
+  {
+   "s": "Before you throw supplements or antimicrobials at your gut, the system mechanics that are foundational to gut function have to work.",
+   "his": true
+  },
+  {
+   "s": "This part is from T.C.",
+   "his": true
+  },
+  {
+   "s": "Hale (Kick Your Fat in the Nuts) and Stanley Rosenberg (Accessing the Healing Power of the Vagus Nerve).",
+   "his": true
+  },
+  {
+   "s": "Are your pupils dilated all the time?",
+   "his": true
+  },
+  {
+   "s": "Are you missing your gag reflex?",
+   "his": true
+  },
+  {
+   "s": "Then according to Hale, you're stuck in fight or flight mode (which in medical lingo is called \"sympathetic dominance\"), and digestion is offline.",
+   "his": true
+  },
+  {
+   "s": "Rosenberg's fix is his Basic Exercise (eye movements) or the Salamander technique (which looks like some kind of yoga, see a video demo here).",
+   "his": true
+  },
+  {
+   "s": "Both of those help to mechanically release the vagus nerve so your body can switch into rest and digest mode.",
+   "his": true
+  },
+  {
+   "s": "Now let's have a look at your bile function.",
+   "his": true
+  },
+  {
+   "s": "Do you burp extra (not just like one little burp) after fatty meals?",
+   "his": true
+  },
+  {
+   "s": "Do your stools float (like it's hard to flush), or look like clay?",
+   "his": true
+  },
+  {
+   "s": "Then your bile is stagnant (not flowing well), and Hale says if you take antimicrobials now, you'll get a herx reaction: the dying microbes release toxins you can't detoxify.",
+   "his": true
+  },
+  {
+   "s": "So thin the bile first with Beet Flow (an extract of beet greens) or phosphatidylcholine, a fatty nutrient found in egg yolks and soy, before starting on any pathogen killing protocol.",
+   "payoff": "The reader knows what phosphatidylcholine is, so they can find it.",
+   "follows": "It gives the fix for the stagnant bile just described."
+  },
+  {
+   "s": "My notes: for stress and sleep see \"Severe stress\" above, and for stomach acid and bile see \"Low stomach acid\".",
+   "his": true
+  }
+ ],
+ "checked": [
+  {
+   "point": "phosphatidylcholine is a fatty nutrient in egg yolks and soy",
+   "found": "a phospholipid, the main part of lecithin, from soybeans and eggs (https://uofmhealth.org/health-library/hn-2873001)",
+   "still_needed": "yes: the reader has to find it",
+   "fate": "kept"
+  }
+ ],
+ "placement": "Phase 1, the bile check; the note where phosphatidylcholine is named.",
+ "questions": {
+  "Q1": "PASS: each term note comes right where the term first appears, or in the next sentence, and the sentence's own point still comes first; the caution's instruction now follows its warning",
+  "Q2": "PASS: every instruction says what it is for in the reader's terms (take it away from meals so food doesn't compete; check with your oncologist before the 5g)",
+  "Q3": "PASS: each term note names the exact thing (the A1 type of casein protein; the seals between the cells of your gut lining; the first milk a cow makes after giving birth)",
+  "Q4": "PASS: each new \"it\", \"that\" and \"this\" has its object in the sentence before",
+  "Q5": "PASS: each \"so\", \"but\" and \"because\" has the claim it turns on said before it",
+  "Q6": "PASS: the notes sit where a reader first needs them; nothing moved except the caution's instruction, up to where a reader with cancer needs it",
+  "Q7": "PASS: each note helps this reader act on the sentence it explains",
+  "Q8": "PASS: no item moved between groups",
+  "Q9": "PASS: the long notes are their own short sentences (stress, colostrum, BPC-157), one step each"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first; a study after the question it answers)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

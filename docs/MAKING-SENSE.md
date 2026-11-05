@@ -3,7 +3,7 @@
 **ACTIVE (Joel, 2026-11-04 22:14 UTC, gate E360):** "do we need to devise some kind of making sense protocol rather than
 attacking this problem case by case perhaps?" This is it: one read, for every paragraph I draft or rewrite in any of his
 articles, before its first Pangram try and again after every change. It collects what his own fixes have taught, lesson
-by lesson (E87, E342, E345, E347, E351, E355, E357, E359, E360, E362, E365, E366), so a new case is met by the same questions
+by lesson (E87, E342, E345, E347, E351, E355, E357, E359, E360, E362, E365, E366, E368, E369), so a new case is met by the same questions
 instead of a new rule. His words on why it comes first: "you don't need any lived experience, you just need it to MAKE SENSE". When a
 paragraph makes sense the way his versions do, the AI reading has mostly gone with it; when it doesn't, no rewording
 holds ("it's almost like pangram knows how stupid it sounds somehow").
@@ -24,7 +24,18 @@ Ask each of every sentence, as a reader who doesn't know what the writer knows a
 the situation its heading names.
 
 1. **Why am I reading this sentence, and do I know it before I have to work through it?** The point comes first; a
-   study comes after the question it answers, never opened bare (E357, E351, E360; `tells_lint.py` O65, O68).
+   study comes after the question it answers, never opened bare (E357, E351, E360; `tells_lint.py` O65, O68). Ask it
+   of each sentence and each paragraph, and ask where the point lands, not only whether there is one: a note that
+   splits a sentence before its point, or a term explained in a sentence after the one that uses it, makes the reader
+   work through it first (E368, E369).
+   - Mine: "Zonulin is the molecule released to signal your intestinal tight junctions, the seals between the cells of
+     your gut lining, to open." and, after the item, "Colostrum is the first milk a cow makes after giving birth, and
+     liposomal means it comes in tiny fat bubbles that help you absorb it." (Human Medium, AI-Generated Medium). His
+     fix, applied: "It's associated clinically with increased levels of zonulin, the molecule released to open your
+     intestinal tight junctions, the seals between the cells of your gut lining." and "Liposomal first-milking colostrum,
+     the first milk a cow makes after giving birth, wrapped in tiny fat bubbles that help you absorb it (esp. ...)"
+     (both Human, High). His own, on the fuels stretch: "payoffs coming too late for the reader. fixed that so it reads
+     easily and now it's all high conf human".
    - Mine: "In a 12-week trial, a CBD skin gel reached the blood at levels like oral CBD's but did no better than
      placebo." His: "And topical CBD hasn't been well-studied. There was a short 12-week trial done, where they used a
      CBD skin gel, ..." ("don't ever say "In one study..." you need to INTRODUCE so that people understand WHY they
@@ -56,6 +67,11 @@ the situation its heading names.
      (""known" was unknown what that meant").
    - "your large intestine (colonocytes)" became "the colonocytes lining your large intestine" (E342: a term goes into
      the sentence, not into brackets after it).
+   - Every term a high-school graduate wouldn't know is explained once, where it is first used (Joel, 2026-11-05: "make
+     sure every term is introduced once at first, like enterocytes my readers won't know what those are. we don't need
+     to introduce more common stuff like a vitamin name"; E369). Those changes are made without asking him; ask only
+     when you can't tell whether such a reader knows the term, or can't explain it without guessing (his "HRP").
+     `sense_receipt.py check` refuses a sentence of mine that explains a term after the text has used it.
 5. **Why does this follow from the sentence before?** A "but", "so", "though" or "because" has the claim it turns on;
    two facts side by side have their link said; "this", "that" and "it" point at something the reader can name (E345,
    E351, E355, E357).

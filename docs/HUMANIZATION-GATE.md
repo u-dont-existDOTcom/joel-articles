@@ -2414,7 +2414,8 @@ His message and his batch-1 page's answers, word for word: `articles/healing-the
   Markdown view beside it, in that turn's message (`docs/FIXING-AN-ARTICLE.md`, section 7).
   (E357 to E359 are the neuro de-armoring lane's, in its section below, and E360 and E361 the bad trips lane's, written
   at the same time as E362 (gut); cite these two as "E362 (gut)" and "E363 (gut)": other lanes have their own E362 to E367 (bad trips: E362 and
-  E365 to E367; neuro de-armoring: E363 and E364). The next lesson in any lane is E368.)
+  E365 to E367; neuro de-armoring: E363 and E364). E368 and E369 are this lane's again, after the bad trips lane's round
+  6, part two.)
 
 (The Inner Child lane's turn-116 lessons, written at the same time, are E337 and E338 (Inner Child), near the top. This section's E337 and E338 keep their numbers too, because this lane's records cite them: cite them as "E337 (gut)" and "E338 (gut)". The Inner Child lane's turn-117 lessons, written after them, are E340 and E341, near the top, and this section's E342, E345, E347 to E349 and E351 came after those; the neuro de-armoring lane's E343, E344 and E346, written at the same time, are in its section after this one, with its E350 in its pull request 290. The next lesson in either lane is E352.)
 
@@ -2686,7 +2687,41 @@ UTC). E362 above is the first's; these are the second's, and how the two were pu
 
 (The neuro de-armoring lane's E359 is just before the round 5 section; the bad trips lane's E360 to E362 and E365 to
 E367 are just above; E363 and E364 are the neuro de-armoring lane's, in its pull request 305. The next lesson in any
-lane is E368.)
+lane was E368 here; it is in the next section.)
+
+## What the gut article's batch-9 answers taught (2026-11-05, Joel's message of 18:43 UTC)
+
+- **E368. On any window below High, his usual fix comes first: where the point lands, the join, the plain word.** His
+  answer to card F9-1, my rewrite of the fuels stretch's AI windows: he took the stretch as it read in his post and fixed
+  it himself. "i basically just joined sentences to make it read more flowy and natural"; "it was also important to
+  replace 'turn staight into' to 'converted into'. i felt the first way you statted it sounded like ai trying to bypass
+  pangram with a paraphrase that looked strangely out of place"; "on the last span it was obviously the same issue as
+  always, payoffs coming too late for the reader. fixed that so it reads easily and now it's all high conf human ... why
+  did you not check the same issue i always fix?" The cause: my fix started from what a newcomer couldn't follow (E355)
+  and added the missing links, which made the stretch longer and the points later; nothing made me look first at where
+  each point lands, and the receipt (E365) asked for each sentence's payoff, not for where it comes. The same turn showed
+  it again in my own term notes: "Colostrum is the first milk a cow makes after giving birth, and liposomal means ..."
+  as a sentence after the item read AI-Generated Medium, and "BPC-157 is a lab-made short protein ..." after its item
+  Human Low; explained inside the sentence that first names each, both read Human, High alone and in their stretch
+  (`articles/healing-the-gut/humanize/fix-20261103/r15/`, #157, #167, #168, #170). Phase 2 read AI Detected 65% with the
+  point after two doctors and their books; the point first, as the other phases open, read Human, High (#162, #169).
+  What changed: `docs/MAKING-SENSE.md` question 1 asks where the point lands, of each sentence and each paragraph;
+  `docs/FIXING-AN-ARTICLE.md` item 17 puts his three fixes before any rewrite; and `pangram_ledger.py predict` refuses a
+  text of mine that reworks a sentence which read below High in any earlier check until `--first-fix "payoff: ...; join:
+  ...; plain: ..."` says what each did there (Joel's own text, `--his`, needs none).
+- **E369. Every term a reader wouldn't know is explained once, where it is first used; ask only when unsure.** Joel,
+  the same message: "make sure every term is introduced once at first, like enterocytes my readers won't know what those
+  are. we don't need to introduce more common stuff like a vitamin name of course"; "you don't need to ask me when making
+  those obvious changes like introducing the term at first rather than later, only if you're not sure if you need to
+  introduce a term because not sure if a reader would know it, assume they have some basic knowledge of like a high
+  school graduate that's about all". The reader is a high-school graduate: enterocytes, zonulin, BPC-157 and FODMAPs get
+  explained; a vitamin doesn't. The explanation goes in the sentence that first uses the term (an appositive, "called
+  X", or a "which" clause, never a bare "(X)": E342), with the sentence's own point kept first (E368). These changes go
+  in without a card and are listed for him; a term I can't explain without guessing goes to him as a question (his
+  "HRP"). `sense_receipt.py check` refuses a sentence of mine that explains a term after the text has already used it,
+  unless the receipt's `late_ok` says why it can't be explained there.
+
+(E368 and E369 are the gut lane's. The next lesson in any lane is E370.)
 
 
 ## What turn 100's API checks showed (the Inner Child lane, 2026-10-23)

@@ -1,0 +1,206 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "text_sha256": "7b4b45693f7e94dd02e2838e2c5825758aa8bec3db5725d058bc407f9f76500b",
+ "text": "Mitochondrial and cellular energy starvation is what you get when there's not enough of the fuels each type of cell in your gut prefers (glutamine and butyrate). Your gut barrier needs a lot of energy, to keep its tight junctions intact. If the cells lining your small intestine (called enterocytes) or the colonocytes lining your large intestine don't get that energy, the barrier loosens up. Then lipopolysaccharides (LPS, which come from the walls of bacteria) and other endotoxins leak through those (not-so-tight)-junction gaps into your bloodstream.\n\nL-Glutamine (watch Dr. Rhonda vid) is the main fuel for your enterocytes, and for your immune cells when they're activated. It doesn't have to go through the complicated digestive steps other nutrients do. Inside the mitochondria, it gets converted into alpha-ketoglutarate, or α-KG, which then goes into the citric acid cycle, which is how the mitochondria make their energy. So that's why consuming pure glutamine gives energy to those cells faster than eating food, on top of what they get from their meals. They then use their extra energy to repair the gut lining by pulling the tight junctions together, and that keeps LPS from getting through. Glutamine also provides nitrogen to help build new cells.\n\nTake 5g a day as a baseline, to keep your enterocytes fed. Take it away from meals, so it doesn't have to compete with the amino acids in your food to get absorbed. If you train hard or long, like CrossFit or intense cardio, your gut lining takes damage. While you train, your body sends blood away from your gut to your working muscles, so your enterocytes get less oxygen and fuel. Glutamine taken two hours before training helps with that. In a study of men running for an hour in the heat, their gut lining leaked less, even at the lowest dose tested, about 15g for a 70kg man. If your immune system is dealing with an acute exposure to toxins or pathogens, or your whole system is under a lot of stress, raise it to 10-30g a day, adding 1g a day in case you're sensitive to it. Up to 14g a day is known to be safe for the long run, but the studies of higher doses were too short to say, so come back down once it's over. If you have an active inflammatory bowel disease (IBD), like Crohn's or colitis, don't count on it. In the two small trials in active Crohn's, it didn't help.\n\nCAUTION: a lot of cancers feed on glutamine too, to fuel their growth. So if you have an active cancer, check with your oncologist before you take the 5g, and especially before you go up to the 10-30g. Your enterocytes take in a lot of the glutamine you swallow as soon as it reaches them, but not all of it, and the rest gets into your blood, where a cancer can get to it. They can only take in so much at a time, so the bigger the dose, the more of it gets into your blood.\n\nYour colonocytes are fueled by short-chain fatty acids (SCFAs) like butyrate. Your gut bacteria make SCFAs when they ferment raw resistant starch, and you get SCFAs directly from your home-brewed SIBO yogurt too. Besides feeding the colonocytes, SCFAs lock down the barrier in your lower gut, so dangerous substances can't escape from gut to blood, and your body can turn down the inflammatory signals it would otherwise need to contain the damage.\n\nSome people will tell you to take malic and citric acid (which make green apples and tart cherries sour) as an extra quick energy source for your enterocytes. And they do supply quick energy, because they are made and used by that mitochondrial energy cycle, also called the TCA or Krebs cycle. But glutamine is still the main thing your enterocytes need, because it helps build new cells in addition to giving the needed energy. Those acids do help you absorb iron, even two or three times better according to one study where people ate rice with 1g pure malic acid or citric acid mixed in (Gillooly et al., 1983). That's probably because the acids help keep the iron dissolved so the gut can take it up. So something sour with an iron-rich meal is worth having anyway.",
+ "section": "Some Causes of poor gut health",
+ "reader": "Someone with a leaky gut deciding whether and how to take glutamine (how much, when, and at what risk, cancer included), and where butyrate fits.",
+ "sentences": [
+  {
+   "s": "Mitochondrial and cellular energy starvation is what you get when there's not enough of the fuels each type of cell in your gut prefers (glutamine and butyrate).",
+   "his": true
+  },
+  {
+   "s": "Your gut barrier needs a lot of energy, to keep its tight junctions intact.",
+   "his": true
+  },
+  {
+   "s": "If the cells lining your small intestine (called enterocytes) or the colonocytes lining your large intestine don't get that energy, the barrier loosens up.",
+   "his": true
+  },
+  {
+   "s": "Then lipopolysaccharides (LPS, which come from the walls of bacteria) and other endotoxins leak through those (not-so-tight)-junction gaps into your bloodstream.",
+   "his": true
+  },
+  {
+   "s": "L-Glutamine (watch Dr. Rhonda vid) is the main fuel for your enterocytes, and for your immune cells when they're activated.",
+   "his": true
+  },
+  {
+   "s": "It doesn't have to go through the complicated digestive steps other nutrients do.",
+   "his": true
+  },
+  {
+   "s": "Inside the mitochondria, it gets converted into alpha-ketoglutarate, or α-KG, which then goes into the citric acid cycle, which is how the mitochondria make their energy.",
+   "his": true
+  },
+  {
+   "s": "So that's why consuming pure glutamine gives energy to those cells faster than eating food, on top of what they get from their meals.",
+   "payoff": "'Extra' in the next sentence follows: the glutamine's energy comes on top of the meals' (his card 3, approved).",
+   "follows": "It draws the conclusion of the mechanism just described, as before."
+  },
+  {
+   "s": "They then use their extra energy to repair the gut lining by pulling the tight junctions together, and that keeps LPS from getting through.",
+   "his": true
+  },
+  {
+   "s": "Glutamine also provides nitrogen to help build new cells.",
+   "his": true
+  },
+  {
+   "s": "Take 5g a day as a baseline, to keep your enterocytes fed.",
+   "payoff": "The reader knows the everyday dose and what it's for, whether or not they train (his card 4, approved).",
+   "follows": "It gives the dose right after the paragraph on how glutamine feeds the enterocytes."
+  },
+  {
+   "s": "Take it away from meals, so it doesn't have to compete with the amino acids in your food to get absorbed.",
+   "payoff": "The reader knows when to take it, and why: the amino acids in food compete with it (his F9-5 answer).",
+   "follows": "How to take the dose follows the dose."
+  },
+  {
+   "s": "If you train hard or long, like CrossFit or intense cardio, your gut lining takes damage.",
+   "payoff": "A reader who trains hard learns their training damages the gut lining, so the 5g isn't the whole story for them.",
+   "follows": "Training comes next as the case that needs more than the baseline."
+  },
+  {
+   "s": "While you train, your body sends blood away from your gut to your working muscles, so your enterocytes get less oxygen and fuel.",
+   "payoff": "The reader understands how exercise damages the gut, though exercise is good for them elsewhere in the post: blood leaves the gut for the muscles.",
+   "follows": "It answers how the training in the sentence before does the damage."
+  },
+  {
+   "s": "Glutamine taken two hours before training helps with that.",
+   "payoff": "A reader who trains learns what to do about it: take it two hours before.",
+   "follows": "The fix follows the damage just explained."
+  },
+  {
+   "s": "In a study of men running for an hour in the heat, their gut lining leaked less, even at the lowest dose tested, about 15g for a 70kg man.",
+   "payoff": "The reader knows the dose and timing that helped, about 15g, not 5g, and the evidence behind it (Pugh 2017).",
+   "follows": "The study supports the advice in the sentence before, right after it."
+  },
+  {
+   "s": "If your immune system is dealing with an acute exposure to toxins or pathogens, or your whole system is under a lot of stress, raise it to 10-30g a day, adding 1g a day in case you're sensitive to it.",
+   "payoff": "The reader knows the other cases that call for more, what an exposure is (toxins or pathogens), and how to raise it: a gram a day, in case of sensitivity (his F9-5 answers).",
+   "follows": "After training, the other cases that need more than the baseline, as in his sentence."
+  },
+  {
+   "s": "Up to 14g a day is known to be safe for the long run, but the studies of higher doses were too short to say, so come back down once it's over.",
+   "payoff": "The reader knows how high is safe for how long, so they come back down after the exposure or stress (Shao and Hathcock 2008).",
+   "follows": "The safety limit follows the higher dose it applies to."
+  },
+  {
+   "s": "If you have an active inflammatory bowel disease (IBD), like Crohn's or colitis, don't count on it.",
+   "payoff": "A reader with active IBD won't count on glutamine for it; IBD gets its full name here, at its first mention.",
+   "follows": "After the cases where more helps, the case where the evidence says it doesn't."
+  },
+  {
+   "s": "In the two small trials in active Crohn's, it didn't help.",
+   "payoff": "The reader knows why: the trials found no benefit (Cochrane 2016).",
+   "follows": "The evidence follows the advice it supports."
+  },
+  {
+   "s": "CAUTION: a lot of cancers feed on glutamine too, to fuel their growth.",
+   "payoff": "The reader with cancer knows the danger at once: cancers use glutamine too (his cards 1 and 2).",
+   "follows": "The caution follows the dose paragraph it qualifies."
+  },
+  {
+   "s": "So if you have an active cancer, check with your oncologist before you take the 5g, and especially before you go up to the 10-30g.",
+   "payoff": "The reader with an active cancer knows what to do right after the danger, before the reasons (the issue he always fixes: the payoff first).",
+   "follows": "The instruction follows from the danger just stated."
+  },
+  {
+   "s": "Your enterocytes take in a lot of the glutamine you swallow as soon as it reaches them, but not all of it, and the rest gets into your blood, where a cancer can get to it.",
+   "payoff": "The reader understands how swallowed glutamine reaches a cancer elsewhere: not all of it stays in the gut.",
+   "follows": "It answers the question the instruction raises: how can what I swallow reach my cancer?"
+  },
+  {
+   "s": "They can only take in so much at a time, so the bigger the dose, the more of it gets into your blood.",
+   "payoff": "The reader knows why the 10-30g is worse than the 5g: more of a big dose gets into the blood (Hankard 1995).",
+   "follows": "It explains the 'especially' of the instruction, after the route."
+  },
+  {
+   "s": "Your colonocytes are fueled by short-chain fatty acids (SCFAs) like butyrate.",
+   "payoff": "The reader moves from the small intestine's fuel to the large intestine's, butyrate, without hearing the glutamine point a third time.",
+   "follows": "It opens the butyrate paragraph after the glutamine ones."
+  },
+  {
+   "s": "Your gut bacteria make SCFAs when they ferment raw resistant starch, and you get SCFAs directly from your home-brewed SIBO yogurt too.",
+   "his": true
+  },
+  {
+   "s": "Besides feeding the colonocytes, SCFAs lock down the barrier in your lower gut, so dangerous substances can't escape from gut to blood, and your body can turn down the inflammatory signals it would otherwise need to contain the damage.",
+   "his": true
+  },
+  {
+   "s": "Some people will tell you to take malic and citric acid (which make green apples and tart cherries sour) as an extra quick energy source for your enterocytes.",
+   "his": true
+  },
+  {
+   "s": "And they do supply quick energy, because they are made and used by that mitochondrial energy cycle, also called the TCA or Krebs cycle.",
+   "his": true
+  },
+  {
+   "s": "But glutamine is still the main thing your enterocytes need, because it helps build new cells in addition to giving the needed energy.",
+   "his": true
+  },
+  {
+   "s": "Those acids do help you absorb iron, even two or three times better according to one study where people ate rice with 1g pure malic acid or citric acid mixed in (Gillooly et al., 1983).",
+   "his": true
+  },
+  {
+   "s": "That's probably because the acids help keep the iron dissolved so the gut can take it up.",
+   "his": true
+  },
+  {
+   "s": "So something sour with an iron-rich meal is worth having anyway.",
+   "his": true
+  }
+ ],
+ "checked": [
+  {
+   "point": "glutamine before a run cut the gut's leak, even at the lowest dose",
+   "found": "Pugh 2017: 0.25, 0.5 and 0.9 g per kg of fat-free mass two hours before a 60-minute run at 30 C all lowered the permeability marker; 0.9 g/kg is 54g for a 70kg man at 15% fat, so 0.25 is about 15g (https://pmc.ncbi.nlm.nih.gov/articles/PMC5694515/)",
+   "still_needed": "yes: it gives the training reader a dose that was tested",
+   "fate": "changed"
+  },
+  {
+   "point": "up to 14g a day is safe long term",
+   "found": "Shao and Hathcock 2008: observed safe level 14 g/day; higher intakes tested without harm but not enough data for long-term safety (https://www.nutraingredients.com/Article/2008/04/18/crn-authors-risk-assessment-for-key-amino-acids/)",
+   "still_needed": "yes: the 10-30g is above it",
+   "fate": "kept"
+  },
+  {
+   "point": "take amino acids away from meals",
+   "found": "amino acids share transporters and can compete; there is too little human research to know at what dose, so labels say to take them without food (https://www.consumerlab.com/answers/must-i-take-amino-acid-supplements-on-an-empty-stomach/how_to_take_amino_acid)",
+   "still_needed": "yes: his answer, with its reason",
+   "fate": "kept"
+  },
+  {
+   "point": "glutamine for active Crohn's",
+   "found": "Cochrane 2016: two small trials found no benefit; insufficient evidence (https://www.cochrane.org/CD007348)",
+   "still_needed": "yes: the original raised the dose for active IBD",
+   "fate": "changed"
+  }
+ ],
+ "placement": "The fuels under leaky gut, in order: what starvation is, glutamine, its dose, the caution on the dose, then the colon's fuel; the caution's first \"So\" points to the warning before it.",
+ "questions": {
+  "Q1": "PASS: each term note comes right where the term first appears, or in the next sentence, and the sentence's own point still comes first; the caution's instruction now follows its warning",
+  "Q2": "PASS: every instruction says what it is for in the reader's terms (take it away from meals so food doesn't compete; check with your oncologist before the 5g)",
+  "Q3": "PASS: each term note names the exact thing (the A1 type of casein protein; the seals between the cells of your gut lining; the first milk a cow makes after giving birth)",
+  "Q4": "PASS: each new \"it\", \"that\" and \"this\" has its object in the sentence before",
+  "Q5": "PASS: each \"so\", \"but\" and \"because\" has the claim it turns on said before it",
+  "Q6": "PASS: the notes sit where a reader first needs them; nothing moved except the caution's instruction, up to where a reader with cancer needs it",
+  "Q7": "PASS: each note helps this reader act on the sentence it explains",
+  "Q8": "PASS: no item moved between groups",
+  "Q9": "PASS: the long notes are their own short sentences (stress, colostrum, BPC-157), one step each"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first; a study after the question it answers)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

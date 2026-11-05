@@ -1,0 +1,50 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "text_sha256": "cf40ef30ee5050a5c9f1018cd8322acff5bab8475678b9320ccd13f69b41b49d",
+ "text": "Once the mechanics work, calm the inflammation down and starve the overgrowths, without any harsh chemicals. This one's from Dr. Michael Ruscio (Healthy Gut, Healthy You) and Dr. Mark Pimentel (The Microbiome Connection).",
+ "section": "Phase 2: The Reset",
+ "reader": "Someone starting Phase 2 after Phase 1's checks, to calm the inflammation and starve an overgrowth in the small intestine with diet and meal spacing, who doesn't know what FODMAPs are.",
+ "sentences": [
+  {
+   "s": "Once the mechanics work, calm the inflammation down and starve the overgrowths, without any harsh chemicals.",
+   "payoff": "The reader knows what Phase 2 is for before anything else (calm the inflammation, starve the overgrowths, no harsh chemicals), and that it comes once Phase 1's checks are done.",
+   "follows": "It opens Phase 2 right after Phase 1, whose point was getting the mechanics to work, as Phases 1, 3 and 5 open with what they do."
+  },
+  {
+   "s": "This one's from Dr. Michael Ruscio (Healthy Gut, Healthy You) and Dr. Mark Pimentel (The Microbiome Connection).",
+   "payoff": "The reader knows whose advice this phase is, and which books to read for more.",
+   "follows": "Whose phase it is comes after what it does, as in Phases 1, 3 and 5."
+  }
+ ],
+ "checked": [
+  {
+   "point": "FODMAPs are the carbs gut bacteria ferment most easily, and both diets cut them",
+   "found": "short-chain carbohydrates, poorly absorbed and rapidly fermented (https://pubmed.ncbi.nlm.nih.gov/23588241/); Pimentel's low fermentation diet limits the foods bacteria ferment",
+   "still_needed": "yes: it says what both diets cut",
+   "fate": "kept"
+  }
+ ],
+ "placement": "Phase 2, between Phase 1's checks and Phase 3's purge, in his order; its opening says what the phase does, then whose it is; the FODMAP explanation after his \"Either way\", not inside his \"go A or B\".",
+ "questions": {
+  "Q1": "PASS: each term is explained in the sentence that first uses it (zonulin, tight junctions, colostrum, liposomal, BPC-157, resistant starch, FODMAP), none in a sentence after; each sentence's point comes before its explanation (resistant starch's job, then why; Phase 2's aim, then whose it is)",
+  "Q2": "PASS: the only instructions are his (go Paleo-Low FODMAP or Low Fermentation Eating; no snacking) and Phase 2's opening, which says what the reader does (calm the inflammation down and starve the overgrowths)",
+  "Q3": "PASS: each explanation names the exact thing (the seals between the cells of your gut lining; the first milk a cow makes after giving birth; the carbs they ferment most easily)",
+  "Q4": "PASS: zonulin, tight junctions, colostrum, liposomal, BPC-157, beta-glucans, resistant starch and FODMAPs are explained once, where first used; mycotoxins and bifidobacterium were explained in try 1; vitamins and common words left alone",
+  "Q5": "PASS: the \"since\" in the resistant starch and FODMAP sentences each give the reason for the point before them; \"Once the mechanics work\" turns on Phase 1's point",
+  "Q6": "PASS: nothing moved between paragraphs; inside them, Phase 2 now says what it does before whose it is",
+  "Q7": "PASS: each explanation is what a reader needs to buy or follow the item it is in",
+  "Q8": "PASS: no item moved between groups",
+  "Q9": "PASS: \"no harsh chemicals\" uncompressed to \"without any harsh chemicals\"; each explanation is a clause of the sentence that uses the term, one step each"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone?",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

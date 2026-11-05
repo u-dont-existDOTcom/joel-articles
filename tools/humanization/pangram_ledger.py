@@ -602,6 +602,67 @@ def sense_gate(a, text, sha, line):
     return why
 
 
+FIRST_FIX_PARTS = ('payoff', 'join', 'plain')
+
+
+def fixed_windows(recs, text, min_words=6):
+    """Gate E368: the sentences TEXT reworks that sat in a window reading below High in an earlier check (AI at any
+    confidence, or Human at Low or Medium; windows under MIN_WORDS, the splits at "Dr." or "For H.", are left out): a
+    window sentence TEXT no longer has word for word but has a close version of (the same sentence reworked, ratio 0.6 or
+    more). Returns [(prediction id, label, confidence, the old sentence, its new version)]."""
+    import difflib
+    sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
+    import sense_receipt
+    new = [(s, _norm(s)) for s in sense_receipt.sentences(text)]
+    have = {n for s, n in new}
+    out, seen = [], set()
+    for r in recs:
+        if r.get('type') != 'result':
+            continue
+        for w in r.get('windows') or []:
+            if not isinstance(w, dict) or len((w.get('text') or '').split()) < min_words:
+                continue
+            label, conf = str(w.get('label') or ''), str(w.get('confidence') or '')
+            if not (label.startswith('AI') or conf in ('Low', 'Medium')):
+                continue
+            for s in sense_receipt.sentences(w['text']):
+                old = _norm(s)
+                if old in have or old in seen or len(old.split()) < 4:
+                    continue
+                best, score = None, 0.0
+                for t, n in new:
+                    m = difflib.SequenceMatcher(None, old, n)
+                    if m.real_quick_ratio() >= 0.6 and m.quick_ratio() >= 0.6 and m.ratio() > score:
+                        best, score = t, m.ratio()
+                if best is not None and score >= 0.6:
+                    seen.add(old)
+                    out.append((r.get('prediction'), label, conf, s, best))
+    return out
+
+
+def first_fix_gate(a, recs, text):
+    """Gate E368: a text of mine that reworks a sentence which read below High goes to Pangram only with --first-fix saying
+    what Joel's usual fix did there first: where each payoff now lands (moved up, or why it already leads), which short
+    sentences were joined, and which odd paraphrase went back to its plain word. Joel's own text (--his) needs none."""
+    if a.his or text is None:
+        return []
+    hits = fixed_windows(recs, text)
+    if not hits:
+        return []
+    said = (a.first_fix or '').lower()
+    missing = [k for k in FIRST_FIX_PARTS if not re.search(r'\b%s\w*\s*:\s*\S.{6,}' % k, said)]
+    if not missing:
+        return []
+    shown = '; '.join('"%s" (%s %s, %s)' % (old[:70], label, conf, pid) for pid, label, conf, old, new in hits[:3])
+    return ['this text reworks sentences that read below High before: %s%s. His usual fix comes first, before any '
+            'rewrite: say with --first-fix "payoff: where each changed sentence\'s point now lands (moved up so it '
+            'leads, or why it already does; a term defined where it is first used, not in a sentence after); join: '
+            'which short sentences became one, or why none should; plain: which odd paraphrase went back to the plain '
+            'word, or none" (missing: %s). Gate E368; Joel, 2026-11-05, on the fuels stretch he fixed by joining '
+            'sentences, putting back "converted into" and moving the payoffs up: "why did you not check the same issue '
+            'i always fix?"' % (shown, ' and %d more' % (len(hits) - 3) if len(hits) > 3 else '', ', '.join(missing))]
+
+
 def cmd_predict(a):
     recs = read(a.ledger)
     text = None
@@ -615,7 +676,7 @@ def cmd_predict(a):
     if not sha:
         raise SystemExit('give --text FILE (preferred) or --sha')
     line = lineage_view(state(recs), a.lineage)
-    gate = sense_gate(a, text, sha, line)
+    gate = sense_gate(a, text, sha, line) + first_fix_gate(a, recs, text)
     if gate:
         print('REFUSED: ' + '\n  '.join(gate), file=sys.stderr)
         return 2
@@ -625,7 +686,7 @@ def cmd_predict(a):
            'detector': a.detector, 'shading_expected': a.shading_expected, 'emulate_share': a.emulate_share,
            'after_fix': a.after_fix, 'paid_ok': a.paid_ok, 'narrowed': a.narrowed, 'panel': a.panel,
            'windows_ok': a.windows_ok, 'try': len(line) + 1, 'his': a.his, 'receipt': a.receipt,
-           'big_change': a.big_change,
+           'big_change': a.big_change, 'first_fix': a.first_fix,
            'text': text.rstrip('\n') if text is not None and len(text) < 20000 else None}
     if a.scope == 'article' and text is None:
         raise SystemExit('an article check needs --text: its windows are compared with what the earlier checks showed (E354)')
@@ -840,6 +901,8 @@ def main(argv=None):
     p.add_argument('--his', help='the text is Joel\'s own words: whose, and from where (no receipt of mine needed)')
     p.add_argument('--big-change', help='a retry that changes more than 40%% of the words of the try before it: why every '
                    'small fix is spent (gate E361)')
+    p.add_argument('--first-fix', help='a text of mine that reworks sentences which read below High before: "payoff: ...; '
+                   'join: ...; plain: ...", what his usual fix did there first (gate E368)')
     p.set_defaults(fn=cmd_predict)
     p = sub.add_parser('result')
     p.add_argument('ledger')

@@ -430,6 +430,55 @@ class SenseGate(unittest.TestCase):
         self.assertEqual(self.predict(t2, r2, ('--diagnosis', 'the leaving line made practical, moved')), 0)
 
 
+class FirstFix(SenseGate):
+    """Gate E368 (Joel, 2026-11-05 18:43 UTC, on the fuels stretch he fixed by joining sentences, putting back "converted
+    into" and moving the payoffs up: "why did you not check the same issue i always fix?"): a text of mine that reworks a
+    sentence which read below High goes to Pangram only with --first-fix saying what his usual fix did there first."""
+
+    OLD = ('Inside the mitochondria, it gets turned straight into alpha-ketoglutarate, or α-KG. The α-KG goes into the '
+           'citric acid cycle, which is how the mitochondria make their energy.')
+    NEW = ('Inside the mitochondria, it gets converted into alpha-ketoglutarate, or α-KG, which then goes into the citric '
+           'acid cycle, which is how the mitochondria make their energy.')
+    FIX = ('payoff: the energy point now lands in the same sentence as the conversion; join: the α-KG sentence joined to '
+           'the one before; plain: "turned straight into" back to "converted into"')
+
+    def window(self, label, conf, text):
+        res = self.dir / 'res.json'
+        res.write_text(json.dumps({'old': {'headline': 'Mostly Human Written', 'fraction_ai': 0.2, 'words': 40,
+                                           'windows': [{'label': label, 'confidence': conf, 'words': 30, 'text': text}],
+                                           'link': 'https://www.pangram.com/history/old'}}), encoding='utf-8')
+        L.main(['predict', self.ledger, '--his', 'his post', '--lineage', 'OLD', '--scope', 'paragraph', '--text',
+                self.files(text)[0], '--call', 'Human', '--chance', '0.6', '--human-tells', 'his voice', '--key', 'old'])
+        self.assertEqual(L.main(['results', self.ledger, str(res)]), 0)
+
+    def test_a_rework_of_a_window_below_high_says_what_his_fix_did_first(self):
+        self.window('AI-Generated', 'Medium', self.OLD)
+        t, r = self.files(self.NEW)
+        self.assertEqual(self.predict(t, r), 2)
+        self.assertEqual(self.predict(t, r, ('--first-fix', 'payoff: moved up')), 2)   # join and plain unsaid
+        self.assertEqual(self.predict(t, r, ('--first-fix', self.FIX)), 0)
+        self.assertEqual(L.read(self.ledger)[-1]['first_fix'], self.FIX)
+
+    def test_human_at_medium_is_below_high_too(self):
+        self.window('Human', 'Medium', self.OLD)
+        t, r = self.files(self.NEW)
+        self.assertEqual(self.predict(t, r), 2)
+
+    def test_a_window_read_human_high_or_text_left_alone_needs_nothing(self):
+        self.window('Human', 'High', self.OLD)
+        t, r = self.files(self.NEW)
+        self.assertEqual(self.predict(t, r), 0)
+
+    def test_unchanged_sentences_and_his_own_fix_need_nothing(self):
+        self.window('AI-Generated', 'Low', self.OLD)
+        t, r = self.files(self.OLD + ' Glutamine also provides nitrogen to help build new cells.')
+        self.assertEqual(self.predict(t, r), 0)
+        t2, _ = self.files(self.NEW)
+        self.assertEqual(L.main(['predict', self.ledger, '--lineage', 'H', '--scope', 'paragraph', '--text', t2,
+                                 '--call', 'Human', '--chance', '0.7', '--human-tells', 'his joins',
+                                 '--his', 'his F9-1 version']), 0)
+
+
 
 if __name__ == '__main__':
     unittest.main()
