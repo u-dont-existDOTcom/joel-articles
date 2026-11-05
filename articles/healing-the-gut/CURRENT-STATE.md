@@ -22,42 +22,31 @@ Joel, 2026-11-03 16:15 UTC (`experiments/t01-answers/joel-20261103-1615-messages
 - 2026-11-03 22:52 UTC: batch 2 after his method (`humanize/fix-20261103/b2-stacks/r2-his-method/`): the stacks section's opening, kits (Codex's rewrite), cleanse and clinician paragraphs each read 100% Human alone and passed the blind meaning check; his Parasites paragraph after the swap stayed Human, High. The three-things paragraph (four versions) and the mitochondrial fuels (five) still read AI after the tell panel (Codex, Sonnet, Haiku) and a Codex rewrite: stretches for him to edit. The panel agreed on sentences that then read Human (the opening, the cleanse paragraph), so its flags were a guide, not a verdict. Batch-2 page: https://claude.ai/artifact/Bj7bRyzjx4MVDHcgip8Yf8 (cards in `b2-stacks/REVIEW-CARDS.md`).
 - 2026-11-03 20:08 UTC: batch-1 marking page published (https://claude.ai/artifact/L2vQW2Z6GsNiPaDTYCZnLq, cards in `b1-protocol/REVIEW-CARDS.md`), with Phase 1 asking for his help and the nickname question.
 - 2026-11-05 15:18 UTC: his four fuels cards answered (`experiments/t13-answers/`); the fuels stretch worded and checked (`humanize/fix-20261103/r14/`): the whole stretch [Human Written, 100%](https://www.pangram.com/history/01015713-1d9b-4b32-9bd0-1f1258a1cfee) (#154); batch-9 page https://claude.ai/artifact/EyKenia9ksMXj8pH6ZMCkE. Cards go on the page the turn they are written (E363 (gut)).
+- 2026-11-05 18:43 UTC: his batch-9 answers as r15 (`humanize/fix-20261103/r15/`): 28 term notes, three repeats cut, all twelve changed stretches Human (#155 to #171); gates E368 and E369; batch-10 page https://claude.ai/artifact/NfPt7HckprSDhtuCm84P5E; merged by Joel as #293.
 
 ## Current checkpoint
 
-2026-11-05, Joel's message of 18:43 UTC (`experiments/t14-answers/`): his batch-9 answers, "pr has conflicts", whether the
-article repeats itself, and every term introduced once at first use for a high-school graduate, without asking him for
-the obvious ones. Applied as `humanize/fix-20261103/r15/` (`r15.md`, `build_r15.py`, record in its `README.md`):
-- His F9-1 version of glutamine's paragraph as he wrote it, with F9-2's clause; the dose paragraph with his F9-5 answers
-  and the research F9-3 asked for (Pugh 2017, Shao and Hathcock 2008, ConsumerLab, Cochrane 2016); the approved caution
-  with what to do moved up.
-- 28 term notes and three repeats cut, without a card (listed in `r15/b10/REVIEW-CARDS.md`).
-- Phase 2's opening, the AI window in his post, reordered so its point comes first.
-- Every changed stretch checked in the web app: all twelve read Human Written, the leaky gut list and Phase 2 at their
-  second try (#155 to #171; the two misses explained).
-- Lessons E368 (his usual fix first on any window below High; `pangram_ledger.py predict --first-fix`) and E369 (every
-  term explained where first used; `sense_receipt.py check`), merged to main with the PR (E367).
-
-The batch-10 page (https://claude.ai/artifact/NfPt7HckprSDhtuCm84P5E, cards in `r15/b10/REVIEW-CARDS.md`) has what still
-needs his OK: F10-1 the dose, F10-2 the caution, F10-3 Phase 2's opening, and two questions, F10-4 (what HRP stands for)
-and F10-5 (Gemini Flash Extended or Pro).
-
-The live post (r12) read Mostly Human 93% in his extension (#142). Draft A, the live words with the marks curled
-(`r12/substack/`, #143), still waits for his extension's result; its secret link is in chat only.
+2026-11-05, Joel's message of 23:00 UTC (`experiments/t15-answers/`): batch 10's F10-1 to F10-3 approved (the dose, the
+caution, Phase 2's opening, kept as r15 has them), F10-4 and F10-5 answered, and "make sure that's in the repo for all
+lanes" about how to write for Pangram.
+- r16 (`humanize/fix-20261103/r16/`): his HRP answer (an older version of AskRigor; re-check it with askrigor.com) and his
+  Gemini answer (free works; the highest thinking level) worded. Receipts pass; predictions #172 to #174 frozen.
+- The web-app checks wait for his sign-in: Pangram signed him out in the desktop app's browser and asked for its "Verify
+  you are human" box, which a session never ticks. The batch-11 page (`r16/b11/`, two cards) goes out with them.
+- How to write for Pangram is now in `AGENTS.md`'s workflow and `SKILL.md`'s "Writing for Pangram: his fixes come
+  first", in pull request 308. This session's permission check refuses a merge into main without review, so he merges.
 
 ## Remaining
 
-1. His answers on the batch-10 page; apply them to r15 as r16.
-2. His extension on draft A's secret link, then record #143. If it reads like r10, ask him to let the live post's marks
-   be curled (E362 (gut)); if like the live check, the windows left in his own sentences (Phase 4's two Medium, the
-   pregnancy sentence) go to him paragraph by paragraph.
-3. The whole article checked once his answers are in (a temporary Substack draft, free, never published), then the next
-   update of his post with his OK and no email.
-4. He deletes draft A once its result is recorded.
+1. Once he's signed in: run #172 to #174 (`r16/checks/CHECK-r16-*.txt`), record them, then build and publish the
+   batch-11 page (`r16/b11/build_review.py`, then `suggestion_review.py page`).
+2. His answers on batch 11; then the whole article checked once (a temporary Substack draft, free, never published),
+   then his post updated with his OK and no email.
+3. Draft A (`r12/substack/`, #143) still waits for his extension's result; he deletes it once it is recorded.
 
 ## Blockers / unresolved
 
-- Waiting on Joel: his answers on the batch-10 page, and draft A's result page.
+- Waiting on Joel: his Pangram sign-in in the desktop app's browser, his merge of pull request 308, and draft A's result.
 
 ## Evidence / artifacts
 
@@ -65,4 +54,4 @@ The live post (r12) read Mostly Human 93% in his extension (#142). Draft A, the 
 
 ## Next safe action
 
-When his batch-10 answers come, apply them to r15 as r16 (`r15/b10/REVIEW.json`), recheck any changed paragraph with its neighbor, and record draft A's result (#143) when his page comes.
+When he has signed in to Pangram in the desktop app's browser, run the three r16 checks, record them, and publish the batch-11 page.
