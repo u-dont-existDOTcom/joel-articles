@@ -1,0 +1,49 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "text_sha256": "5e02ee2206a7aab033a3eed27024c49a7348e0a91e8978b0e15ad3bdc28c81af",
+ "text": "Week 8+: The BaselineState: DeltaFosB degraded, if the animal timelines carry over. Hardware reset complete.",
+ "section": "Part 5: The Timeline, Week 8+",
+ "reader": "someone eight weeks into the protocol asking whether the hard part is over",
+ "sentences": [
+  {
+   "s": "Week 8+: The BaselineState: DeltaFosB degraded, if the animal timelines carry over.",
+   "payoff": "It tells the reader what Week 8 is for -- the protein they have been clearing is gone -- and, with the added clause, that the eight weeks is an estimate carried over from animal work, so if they are not there yet nothing has failed.",
+   "follows": "It is the last phase of the timeline, after the Void phase of weeks 3 to 5, and it answers the question the whole timeline sets up: when is this over."
+  },
+  {
+   "s": "Hardware reset complete.",
+   "his": true
+  }
+ ],
+ "checked": [
+  {
+   "point": "DeltaFosB is degraded by Week 8",
+   "found": "Persistence of at least several weeks after the stimulus stops, half-life up to about 8 days in vivo, 28 days in the longest measurement (https://pmc.ncbi.nlm.nih.gov/articles/PMC8879420). No human de-armoring timeline exists, and nothing measures DeltaFosB clearing in a person on a protocol.",
+   "still_needed": "yes: eight weeks sits inside the sourced range, so the line keeps its point; what it cannot claim is that the date has been measured in people",
+   "fate": "changed"
+  }
+ ],
+ "placement": "Last entry of Part 5, after Weeks 3-5. The phases run in the order the reader lives them, and this is the one they are reading for when they want to know whether the hard part is over.",
+ "questions": {
+  "Q1": "PASS: the week comes first, then the state, then the caveat on the week.",
+  "Q2": "N/A: the maintenance instructions are in the next line, his and unchanged.",
+  "Q3": "PASS: \"the animal timelines\" are the rodent persistence measurements, which the card names with their source.",
+  "Q4": "PASS: no new term. \"Carry over\" says what is uncertain -- species, not mechanism.",
+  "Q5": "PASS: \"if\" attaches the condition to the claim it qualifies.",
+  "Q6": "PASS: unchanged position at the end of the timeline.",
+  "Q7": "PASS: this reader is asking whether they are done; an unhedged date would have them judge themselves against a clock nobody has checked in people.",
+  "Q8": "PASS: belongs with the timeline phases.",
+  "Q9": "PASS: one added clause, no step compressed."
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone?",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

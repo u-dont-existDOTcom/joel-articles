@@ -18,6 +18,22 @@ From an account with Desktop Commander connected to the laptop: "Continue my neu
 
 ## START HERE
 
+- **2026-11-05, his message of 23:02 UTC ("neuro de-armoring ΔFosB deep pass"): the nine DeltaFosB claims checked
+  against the primary papers; the article's own citation says close to the opposite; four cards and question 9.**
+  HUMANIZED-SO-FAR.md is unchanged this turn — nothing went in. The check, with every claim and source:
+  `fix-20261105/deltafosb/DELTAFOSB-CHECK.md`. The cards: `fix-20261105/deltafosb/cards/REVIEW-X1105D.md` (page and
+  artifact view beside it), with a making-sense receipt per card (`deltafosb/receipts/`, gate E365). What it found:
+  Vialou 2010, cited for DeltaFosB cementing trauma circuitry, found DeltaFosB in the nucleus accumbens going with
+  **resilience** to social defeat, required for fluoxetine's effect, and *reduced* in depressed people at autopsy;
+  the direction is cell-type specific (D1 resilient, D2 susceptible, Lobo 2013); "permanently" is wrong (half-life
+  ~8 days in vivo, persistence several weeks, 28 days the longest); DeltaFosB *represses* dynorphin (Zachariou 2006),
+  so section C's pairing has them doing the same job when one turns the other down; the ketones-inhibit-class-I-HDACs
+  step holds (Shimazu 2013) but "so it softens the armor" has no source, and the HDAC behavioural literature splits by
+  regimen — do not collapse it. Question 9 (9a/9b/9c) is the frame itself, his to decide. **No Pangram check ran**: API
+  out of credits since 2026-11-04, and no browser or desktop route in this session; predictions `dfb-1` to `dfb-4` are
+  in the ledger. **UDA was unreachable** (repo attach refused by the classifier, `gh api` not enabled for it): the
+  bootstrap is NOT_LOADED for that turn and no UDA protection is claimed; its `suggested-fixes/joel-articles/` lane
+  could not be read either. See the Next step.
 - **2026-11-05, his answers of 15:55 UTC: ATP-2 in (Human, High); the two ketone-strategy paragraphs to him on Cards, 5
   November (2) after three AI tries each; lessons E363 (another lane's answers: lessons only) and E364.** HUMANIZED-SO-FAR.md
   as `fix-20261105/APPLIED-X1105.json` says. See the Next step.
@@ -107,7 +123,23 @@ All of the article is his published post. His queue's rule: "Paragraphs that alr
 stay exactly as they are." Everything else is rewritten in his register and reaches him as cards, each tested first. The
 Scott passages, the introduction and the D-serine paragraph in Part 4 sound most like him.
 
-## Next step (2026-11-05, after his answers of 15:55 UTC)
+## Next step (2026-11-05, after his message of 23:02 UTC: the DeltaFosB deep pass)
+
+Waiting on him: question 9 (the DeltaFosB frame, 9a/9b/9c) and the four cards on Neuro De-Armoring Cards, 5 November (3)
+(`fix-20261105/deltafosb/cards/REVIEW-X1105D.md`); the two ketone paragraphs on Cards, 5 November (2); the extension's
+account switch for the whole check; and this turn's pull request.
+
+Next:
+1. The four DeltaFosB cards checked in Pangram the first turn there is a route (predictions `dfb-1` to `dfb-4` are
+   already in the ledger, so the calls are locked); then his answers in with a recording script.
+2. His answer to question 9 followed through the article: 9a touches four paragraphs, 9b also the Role-Self paragraph
+   (block 25) and the section C heading, 9c the de-armoring metaphor wherever it appears — list the places before
+   changing any of them.
+3. Retry UDA: attach `universal-dev-architecture`, read the root AGENTS.md and LESSON-INDEX.md, and read
+   `suggested-fixes/joel-articles/` for anything waiting. Record the bootstrap as loaded only when it actually is.
+4. Then Part 3, the Shield, one paragraph at a time as before.
+
+## Earlier next step (2026-11-05, after his answers of 15:55 UTC)
 
 Waiting on him: Neuro De-Armoring Cards, 5 November (2) (`fix-20261104/cards/REVIEW-X1105B.md`, the two ketone
 paragraphs), the extension's account switch for the whole check, and this turn's pull request.

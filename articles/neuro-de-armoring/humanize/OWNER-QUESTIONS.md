@@ -1,8 +1,8 @@
 # Neuro de-armoring: what I need from Joel
 
-Last updated 2026-11-04, after your message of 20:19 UTC ("so then are we done can we publish it?").
-**Open questions: 0.** **For you to do**: switch your Pangram extension to your other account, edit two stretches, and
-merge the pull request (below).
+Last updated 2026-11-05, after your message of 23:02 UTC ("neuro de-armoring ΔFosB deep pass").
+**Open questions: 1** (question 9, the DeltaFosB frame). **For you to do**: answer four cards on the DeltaFosB pass,
+switch your Pangram extension to your other account, edit two stretches, and merge the pull request (below).
 Colours: 🟣 a question for you; 🟠 something for you to do; 🔵 next or in progress; 🟢 done or decided.
 
 The master copy of this page is [this file in Git](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/OWNER-QUESTIONS.md), so a session in either of your accounts
@@ -10,16 +10,66 @@ can read and update it. Every file it points to is a link.
 
 ## Open questions
 
-None.
+### 🟣 Question 9: is DeltaFosB the article's armor?
+
+Your ΔFosB deep pass turned up one thing I can't fix without you. The article's spine is that DeltaFosB accumulates as
+armor and the protocol dissolves it. The sources point a different way, and the study the article cites for it,
+[Vialou, et al, 2010](https://pubmed.ncbi.nlm.nih.gov/20473292/), found close to the opposite: in the nucleus accumbens,
+DeltaFosB went with **resilience** to chronic social defeat (the mice that came through best had the most of it, and
+raising it there was necessary and sufficient), fluoxetine needed it to work, and depressed people at autopsy had about
+half as much as controls. The addiction literature does support accumulation with chronic exposure, and
+[which cells it lands in decides the direction](https://www.nature.com/articles/npp201788): more in D1 neurons goes with
+resilience, more in D2 neurons with susceptibility. Everything, with sources, is in
+[the DeltaFosB check](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/neuro-deltafosb-20261105/articles/neuro-de-armoring/humanize/fix-20261105/deltafosb/DELTAFOSB-CHECK.md).
+
+Three ways to go. None of them touches a compound, a dose, a timing or a warning — the protocol runs the same either
+way; what changes is what the article says is happening underneath it.
+
+- **9a. Keep the frame, re-sourced.** DeltaFosB stays the hardening switch, cited to the addiction work where
+  accumulation does go with sensitisation and more motivation for the drug, and the article says the stress literature
+  points the other way. This is what the four cards already do, and it's the smallest change.
+- **9b. Narrow it.** DeltaFosB stays in the addiction half of the story and comes out of the trauma half. The Role-Self
+  glue becomes dopamine and the structural changes rather than DeltaFosB.
+- **9c. Flip the role.** Follow the stress literature: in trauma, too little DeltaFosB in D1 neurons is the problem, and
+  what raises it there is on the protocol's side. The most interesting read, and the biggest change — it inverts the
+  de-armoring metaphor the article is built on.
+
+Answer with 9a, 9b or 9c, or tell me a fourth way.
 
 ## For you to do
 
+- 🟠 Answer the four cards on [Neuro De-Armoring Cards, 5 November (3)](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/neuro-deltafosb-20261105/articles/neuro-de-armoring/humanize/fix-20261105/deltafosb/cards/REVIEW-X1105D.md):
+  the Vialou citation and "permanently" (DFB-1), the dynorphin pairing (DFB-2), "the exact cocktail of catecholamines"
+  (DFB-3), and the Week 8+ wording (DFB-4). DFB-1 and DFB-3 I'd keep; DFB-2 and DFB-4 are yours to call.
 - 🟠 Switch the Pangram extension in Brave to your other account, and tell me. Its badge read "Daily limit reached" on
   the whole article's temporary draft ("Neuro de-armoring, draft A (temp, delete after)"). I'll open the preview again and
   read the result myself.
 - 🟠 Edit two stretches on [Neuro De-Armoring Cards, 4 November (4)](https://claude.ai/artifact/G7HN5K4HMTUEZPnbTaPmpk)
   ([every card as text](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261104/cards/REVIEW-X1104E.md)): the 5-HTP stop signs, and the Low window in the interactions paragraph.
 - 🟠 Merge the pull request for this turn when you've looked.
+
+## Your message of 2026-11-05 23:02 UTC ("neuro de-armoring ΔFosB deep pass"), and what I did
+
+- 🟣 **One question back: question 9 above.** The article's own citation for DeltaFosB cementing trauma circuitry found
+  close to the opposite. Which way the article goes on that is yours, not mine (the rule you set on 4 November: I can
+  change the smaller points and explain them, but not the larger argument without asking).
+- 🟠 **Four cards**, on [Neuro De-Armoring Cards, 5 November (3)](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/neuro-deltafosb-20261105/articles/neuro-de-armoring/humanize/fix-20261105/deltafosb/cards/REVIEW-X1105D.md).
+  Nothing is in the article yet.
+- 🟢 **Two things I checked and would leave exactly as they are.** Your "DeltaFosB may be the master switch, but the
+  research isn't settled" — of the nine DeltaFosB places in the article, that's the one the evidence matches. And the
+  ketones step: beta-hydroxybutyrate really is a class I HDAC inhibitor, at the 1–2 mM the protocol produces
+  ([Shimazu, et al, 2013](https://pmc.ncbi.nlm.nih.gov/articles/PMC4325597/)).
+- 🔵 **What the HDAC claim can and can't carry.** The ketone-to-HDAC-inhibition step holds; "so it softens the armor"
+  doesn't have a source. Two findings pull apart, and I'm not collapsing them: on locomotor sensitisation and place
+  preference, HDAC inhibition in the accumbens made cocaine and morphine responses *stronger*; on a continuous infusion
+  regimen like the protocol's, it *attenuated* cocaine's effects and opposed the plasticity. Different measures,
+  different answers. Nothing found tests whether HDAC inhibition lowers DeltaFosB at all.
+- 🟠 **No Pangram reading on the four cards.** The API has had no credits since 4 November and the web-app route needs
+  your browser, which this session can't reach (no browser or desktop connection in it). Predictions are in the ledger
+  (`dfb-1` to `dfb-4`); the checks run the next turn that has a route.
+- 🔵 **UDA was unreachable this turn.** Attaching `universal-dev-architecture` was refused by this session's classifier,
+  and `gh api` on it says access isn't enabled here, so the root AGENTS.md, LESSON-INDEX.md and
+  `suggested-fixes/joel-articles/` could not be read. Recorded in the mailbox; I'll retry next turn.
 
 ## Your message of 2026-11-04 20:19 UTC ("so then are we done can we publish it?"), and what I did
 

@@ -28,9 +28,19 @@ Every paragraph and every section reads Human in Pangram, with the meaning kept 
 
 The AI windows of every section, rewritten and checked; his cards; his post updated with what he approves; the whole checked again.
 
+## The DeltaFosB pass (2026-11-05)
+
+Every DeltaFosB claim in the article checked against the primary papers at his request of 23:02 UTC
+(`humanize/fix-20261105/deltafosb/DELTAFOSB-CHECK.md`): the article's own citation (Vialou 2010) found close to the
+opposite of the sentence it supports, the direction is cell-type specific, "permanently" is unsupported, DeltaFosB
+represses dynorphin rather than partnering with it, and the ketone-to-HDAC step holds while "so it softens the armor"
+does not. Four cards (`humanize/fix-20261105/deltafosb/cards/REVIEW-X1105D.md`) and question 9 on the questions page.
+Nothing changed in the article or in HUMANIZED-SO-FAR.md; no compound, dose, unit, timing or warning is in play. No
+Pangram check ran (no credits, no browser route in that session); predictions `dfb-1` to `dfb-4` are in the ledger.
+
 ## Blockers / unresolved
 
-Questions 3 and 4 (`humanize/OWNER-QUESTIONS.md`) and two cards on Neuro De-Armoring Cards, 4 November. The rest goes on a paragraph at a time meanwhile.
+Question 9 (`humanize/OWNER-QUESTIONS.md`, the DeltaFosB frame) and the four DeltaFosB cards; the two ketone paragraphs on Cards, 5 November (2). The rest goes on a paragraph at a time meanwhile.
 
 ## Evidence / artifacts
 

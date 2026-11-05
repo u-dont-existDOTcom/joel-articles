@@ -1,0 +1,42 @@
+{
+ "about": "Each turn's mailbox check (tools/humanization/lane_mailbox.py; AGENTS.md, \"Suggested fixes from other projects\"). Newest last.",
+ "places": {
+  "uda-lane": "this repository's lane in universal-dev-architecture (suggested-fixes/joel-articles/), against docs/suggested-fixes-ledger.md",
+  "repo": "new issues and pull requests here, and new comments and reviews on any of them, replies on our own included",
+  "notes": "edits others made to the lane's handoff notes and owner questions pages since its last turn",
+  "runtime": "the messages the session's runtime queued for it"
+ },
+ "checks": [
+  {
+   "turn": "2026-11-05T23:02Z",
+   "lines_of_work": [
+    "the nine DeltaFosB claims checked against the primary papers; four cards; question 9"
+   ],
+   "places": [
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "open pull requests 278, 244, 200, 199, 198, 197, 109: none touches this lane or a shared file I changed; issues 27, 8, 7 open and unrelated; no new comments or reviews on this lane's pull requests"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "the handoff, the questions page and the current state read; no edits by anyone else since the last turn"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "no queued messages for this lane"
+    },
+    {
+     "place": "uda-lane",
+     "status": "unreachable",
+     "failed": "add_repo refused by this session's classifier (Untrusted Code Integration); gh api answers that access to universal-dev-architecture is not enabled for this session, so suggested-fixes/joel-articles/, the root AGENTS.md and LESSON-INDEX.md could not be read and the UDA bootstrap is NOT_LOADED",
+     "retry": "next turn, or once the repository is attached"
+    }
+   ],
+   "items": [],
+   "recorded_utc": "2026-11-05T23:18Z"
+  }
+ ]
+}

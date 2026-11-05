@@ -1,0 +1,145 @@
+{
+ "format": "joel-suggestion-review-v1",
+ "review_id": "neuro-de-armoring-cards-20261105-x1105d",
+ "title": "Neuro De-Armoring Cards, 5 November (3): the DeltaFosB pass",
+ "intro": [
+  "Your \"ΔFosB deep pass\" of 23:02 UTC. I went through every place the article says something about DeltaFosB -- nine of them -- against the primary papers, including the one the article cites.",
+  "Four cards here. The big one is DFB-1: the study cited for DeltaFosB cementing trauma circuitry found close to the opposite, that DeltaFosB in the nucleus accumbens goes with resilience and that depressed people have less of it. That one has a question behind it, question 9 on the questions page, because it touches what the article argues rather than how a sentence is worded, and that part is yours.",
+  "Two things I checked and would leave exactly as they are: your \"DeltaFosB may be the master switch, but the research isn't settled\" -- of the nine places that is the one the evidence matches -- and the ketones step, since beta-hydroxybutyrate really is a class I HDAC inhibitor at the concentrations the protocol produces.",
+  "No compound, dose, unit, timing or warning is touched by any of this. No Pangram reading on these four yet: the API has had no credits since yesterday and the web-app route needs your browser, so the predictions are recorded and the checks run next turn."
+ ],
+ "git_file": "articles/neuro-de-armoring/humanize/fix-20261105/deltafosb/cards/REVIEW-X1105D.html",
+ "article": {
+  "file": "articles/neuro-de-armoring/humanize/HUMANIZED-SO-FAR.md",
+  "sha256": "ae8acc3a744e936f3ebc4379212dd902ce7473e54f9e7c788f98b5c2ec942403"
+ },
+ "built": "2026-11-05T23:15:58Z",
+ "links": {
+  "guide": "https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/neuro-deltafosb-20261105/articles/neuro-de-armoring/humanize/HUMANIZED-SO-FAR.md",
+  "review": "https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/neuro-deltafosb-20261105/articles/neuro-de-armoring/humanize/fix-20261105/deltafosb/cards/REVIEW-X1105D.html"
+ },
+ "types": {
+  "source": {
+   "label": "A point that doesn't match its source",
+   "about": "Something the article asserts that the research says differently, changed to what the sources support, with the sources on the card. Keep the change, or edit the paragraph your way."
+  },
+  "add": {
+   "label": "Something the section is missing",
+   "about": "A mechanism the section implies the other way round. Add it, or leave the section as it is."
+  }
+ },
+ "suggestions": [
+  {
+   "id": "DFB-1",
+   "type": "source",
+   "title": "\"a protein switch that permanently alters gene expression ... (Vialou, et al, 2010)\"",
+   "advice": "approve",
+   "approve_label": "use this wording",
+   "spans": [
+    {
+     "block": 49,
+     "start": 69,
+     "end": 179
+    }
+   ],
+   "edits": [
+    {
+     "block": 49,
+     "before": "The Hardening: Chronic cycles lead to the accumulation of DeltaFosB, a protein switch that permanently alters gene expression to cement the trauma circuitry (Vialou, et al, 2010).",
+     "after": "The Hardening: Chronic cycles lead to the accumulation of DeltaFosB, a protein switch that alters gene expression and holds the circuitry in place for weeks after the cycles stop ([Nestler, 2008](https://pmc.ncbi.nlm.nih.gov/articles/PMC2607320))."
+    }
+   ],
+   "what": "Two changes in one sentence: \"permanently\" goes, and the citation changes.",
+   "why": "The paper cited here found close to the opposite. Vialou, et al, 2010 is about resilience: the mice that came through ten days of social defeat best were the ones with the most DeltaFosB in the nucleus accumbens, raising it there was both necessary and sufficient for that resilience, and fluoxetine needed it to work at all. In the human arm of the same paper, people who had been depressed had roughly half as much DeltaFosB in the accumbens as controls -- less, not more. ([The paper](https://pubmed.ncbi.nlm.nih.gov/20473292/).) So it can't be the source for DeltaFosB cementing trauma circuitry. The accumulation claim itself does hold, from the addiction side, and that is what the new citation points to ([Nestler, 2008](https://pmc.ncbi.nlm.nih.gov/articles/PMC2607320)). \"Permanently\" is separately wrong, and your own Week 8+ line already says so: the measured half-life is up to about 8 days in living animals, and the protein persists for at least several weeks after the stimulus stops -- the longest anything ran was 28 days ([review](https://pmc.ncbi.nlm.nih.gov/articles/PMC8879420)).",
+   "stays": "The hardening, the accumulation, the protein-switch framing, and the sentence's place in section C.",
+   "advice_note": "Use this wording. Whether the opposite finding goes into the article as well is question 9 -- that one changes what the section argues, so it's yours to call, not mine.",
+   "receipt": "articles/neuro-de-armoring/humanize/fix-20261105/deltafosb/receipts/DFB-1.json",
+   "deciding": "Whether to keep the hardening claim with a citation that supports it and no \"permanently\", or to say something different about DeltaFosB altogether (question 9).",
+   "found_by": "The DeltaFosB deep pass, 5 November ([every claim and source](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/neuro-deltafosb-20261105/articles/neuro-de-armoring/humanize/fix-20261105/deltafosb/DELTAFOSB-CHECK.md))"
+  },
+  {
+   "id": "DFB-2",
+   "type": "add",
+   "title": "Dynorphin and DeltaFosB read as partners here, and they aren't",
+   "advice": "approve",
+   "approve_label": "add it",
+   "spans": [
+    {
+     "block": 46,
+     "start": 0,
+     "end": 231
+    }
+   ],
+   "edits": [
+    {
+     "block": 46,
+     "before": "The Problem: To protect itself from the Glutamate storm, the brain eventually releases Dynorphin, a chemical blanket that suppresses dopamine. This creates the \"Void\"--a state of apathy, grayness, and an inability to feel pleasure.",
+     "after": "The Problem: To protect itself from the Glutamate storm, the brain eventually releases Dynorphin, a chemical blanket that suppresses dopamine. This creates the \"Void\"--a state of apathy, grayness, and an inability to feel pleasure. The two aren't one mechanism, though: DeltaFosB accumulates inside the dynorphin neurons themselves, and what it does there is turn dynorphin down, not up ([Zachariou, et al, 2006](https://pubmed.ncbi.nlm.nih.gov/16415864/))."
+    }
+   ],
+   "what": "One sentence at the end of the paragraph.",
+   "why": "The heading puts Dynorphin and DeltaFosB together and the section has them doing the same job -- dynorphin making the Void, DeltaFosB cementing it. In the animal work they pull against each other on that exact point: DeltaFosB in the accumbens produces its opiate-addiction phenotype partly by repressing dynorphin expression ([Zachariou, et al, 2006](https://pubmed.ncbi.nlm.nih.gov/16415864/)). What makes it easy to conflate is that the standard way of studying DeltaFosB puts it in the dynorphin-positive neurons, so the two are in the same cells -- in the same place, doing opposite things. A reader who takes them as allies will be wrong about why the Void lifts.",
+   "stays": "Everything you wrote about dynorphin, the chemical blanket, and the Void.",
+   "advice_note": "Your call. It makes section C more accurate and slightly more crowded. If you'd rather keep the section clean, the heading and the Void story still work -- it's the implied teamwork that doesn't.",
+   "receipt": "articles/neuro-de-armoring/humanize/fix-20261105/deltafosb/receipts/DFB-2.json",
+   "deciding": "Whether section C tells the reader how dynorphin and DeltaFosB actually relate, or stays as it is.",
+   "found_by": "The DeltaFosB deep pass, 5 November ([every claim and source](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/neuro-deltafosb-20261105/articles/neuro-de-armoring/humanize/fix-20261105/deltafosb/DELTAFOSB-CHECK.md))"
+  },
+  {
+   "id": "DFB-3",
+   "type": "source",
+   "title": "\"the exact cocktail of catecholamines that transcribes new DeltaFosB proteins\"",
+   "advice": "approve",
+   "approve_label": "use this wording",
+   "spans": [
+    {
+     "block": 33,
+     "start": 108,
+     "end": 166
+    }
+   ],
+   "edits": [
+    {
+     "block": 33,
+     "before": "In this state, functional IQ drops substantially. More importantly, this state floods the Nucleus Accumbens with the exact cocktail of catecholamines that transcribes new DeltaFosB proteins (the \"armor\"). The Takeaway: If you attempt to process trauma while living above this red line, you are not de-armoring; you are actively re-enforcing the armor.",
+     "after": "In this state, functional IQ drops substantially. More importantly, this state floods the Nucleus Accumbens with the catecholamines that transcribe new DeltaFosB proteins (the \"armor\"). The Takeaway: If you attempt to process trauma while living above this red line, you are not de-armoring; you are actively re-enforcing the armor."
+    }
+   ],
+   "what": "\"the exact cocktail of catecholamines\" becomes \"the catecholamines\".",
+   "why": "That chronic stress drives DeltaFosB up in the nucleus accumbens is well supported -- restraint stress, unpredictable stress and social defeat all do it ([review](https://pmc.ncbi.nlm.nih.gov/articles/PMC4380559)). \"The exact cocktail\" claims a precision none of the work gives: nobody has identified a specific catecholamine mixture that does the transcribing. Cutting two words fixes it and the sentence keeps its force.",
+   "stays": "The red line, the flooding, the armor label, and The Takeaway after it.",
+   "advice_note": "Use this wording. The \"(the 'armor')\" label in the same sentence is the bigger question, and it's question 9.",
+   "receipt": "articles/neuro-de-armoring/humanize/fix-20261105/deltafosb/receipts/DFB-3.json",
+   "deciding": "Whether the sentence claims a specific catecholamine mixture or just the catecholamines.",
+   "found_by": "The DeltaFosB deep pass, 5 November ([every claim and source](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/neuro-deltafosb-20261105/articles/neuro-de-armoring/humanize/fix-20261105/deltafosb/DELTAFOSB-CHECK.md))"
+  },
+  {
+   "id": "DFB-4",
+   "type": "source",
+   "title": "\"Week 8+: The BaselineState: DeltaFosB degraded.\"",
+   "advice": "approve",
+   "approve_label": "use this wording",
+   "spans": [
+    {
+     "block": 183,
+     "start": 28,
+     "end": 47
+    }
+   ],
+   "edits": [
+    {
+     "block": 183,
+     "before": "Week 8+: The BaselineState: DeltaFosB degraded. Hardware reset complete.",
+     "after": "Week 8+: The BaselineState: DeltaFosB degraded, if the animal timelines carry over. Hardware reset complete."
+    }
+   ],
+   "what": "Four words added, so the eight weeks reads as the protocol's estimate rather than a measurement.",
+   "why": "Week 8 is inside what the research supports, which is the good news: the protein persists for at least several weeks after the stimulus stops, with a half-life up to about 8 days in living animals, and the longest persistence measured was 28 days ([review](https://pmc.ncbi.nlm.nih.gov/articles/PMC8879420)). What doesn't exist is any human de-armoring timeline, or any measurement of DeltaFosB clearing in a person on this protocol. As it stands the line reads like a clock someone has checked.",
+   "stays": "The week number, the phase name, and \"Hardware reset complete.\"",
+   "advice_note": "Your call on the wording -- you may want it shorter, or the hedge somewhere else in the timeline rather than in this line. The eight weeks itself I'd keep: nothing contradicts it.",
+   "receipt": "articles/neuro-de-armoring/humanize/fix-20261105/deltafosb/receipts/DFB-4.json",
+   "deciding": "Whether the Week 8 line reads as a measured date or as the protocol's estimate.",
+   "found_by": "The DeltaFosB deep pass, 5 November ([every claim and source](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/neuro-deltafosb-20261105/articles/neuro-de-armoring/humanize/fix-20261105/deltafosb/DELTAFOSB-CHECK.md))"
+  }
+ ]
+}

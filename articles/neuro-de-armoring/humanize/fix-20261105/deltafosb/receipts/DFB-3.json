@@ -1,0 +1,53 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "text_sha256": "56999c0e5de05e5e5d7ad8f5e3c9dffe668b98e0876f99000facb9ad7d81abe9",
+ "text": "In this state, functional IQ drops substantially. More importantly, this state floods the Nucleus Accumbens with the catecholamines that transcribe new DeltaFosB proteins (the \"armor\"). The Takeaway: If you attempt to process trauma while living above this red line, you are not de-armoring; you are actively re-enforcing the armor.",
+ "section": "Part 1 A: The Metabolic Red Line",
+ "reader": "someone deciding whether to do trauma work today, who needs to know that processing while dysregulated makes things worse",
+ "sentences": [
+  {
+   "s": "In this state, functional IQ drops substantially.",
+   "his": true
+  },
+  {
+   "s": "More importantly, this state floods the Nucleus Accumbens with the catecholamines that transcribe new DeltaFosB proteins (the \"armor\").",
+   "payoff": "It gives the reader the reason the red line matters more than discomfort: above it they are not just uncomfortable, they are laying down more of the protein the rest of the protocol is trying to clear.",
+   "follows": "\"More importantly\" turns on the IQ drop before it: that was the cost to thinking, this is the cost to the hardware, and the hardware is what the article is about."
+  },
+  {
+   "s": "The Takeaway: If you attempt to process trauma while living above this red line, you are not de-armoring; you are actively re-enforcing the armor.",
+   "his": true
+  }
+ ],
+ "checked": [
+  {
+   "point": "An exact cocktail of catecholamines transcribes new DeltaFosB",
+   "found": "Chronic stress does drive DeltaFosB up in the nucleus accumbens -- restraint, unpredictable and social defeat stress all do it (https://pmc.ncbi.nlm.nih.gov/articles/PMC4380559). No work identifies a specific catecholamine mixture that does the transcribing.",
+   "still_needed": "yes: the induction-by-stress point holds and is the reason the sentence is here; only the claimed precision goes",
+   "fate": "changed"
+  }
+ ],
+ "placement": "Second paragraph of section A, between the IQ drop and The Takeaway, which tells the reader what to do about it. The sentence has to come before The Takeaway or the instruction has no reason.",
+ "questions": {
+  "Q1": "PASS: the reader knows from the sentence before that they are above the red line; this says what that costs.",
+  "Q2": "N/A: the instruction is in The Takeaway, which is his and unchanged.",
+  "Q3": "PASS: \"the catecholamines\" are the ones this state floods the accumbens with, named by the clause itself.",
+  "Q4": "PASS: no term is added. Nucleus Accumbens, catecholamines and DeltaFosB all stand as he introduced them.",
+  "Q5": "PASS: \"that transcribe\" ties the catecholamines to the DeltaFosB they produce.",
+  "Q6": "PASS: unchanged order -- cost to thinking, cost to hardware, what to do.",
+  "Q7": "PASS: it is the mechanical reason not to do trauma work while dysregulated, which is this reader's decision today.",
+  "Q8": "PASS: stays in the red-line group.",
+  "Q9": "PASS: cutting \"exact cocktail of\" removes a compression, not a step."
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone?",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}
