@@ -8,7 +8,7 @@ Built by `tools/humanization/pangram_ledger.py build` from `articles/bad-trips/h
 |---|---|---|---|---|---|---|
 | Pangram 4.1 extension (free, live post; Joel's check of 2026-10-18, the same text as his 2026-11-03 paste by SHA-256) | 1 | 1 (100%) | 100% | 0% | 0% | 0.000 (base 0.000, 1) |
 | Pangram web app (his account, Pangram Professional) | 3 | 3 (100%) | 100% | 0% | 0% | 0.092 (base 0.000, 3) |
-| Pangram web app (his account, Pangram Professional), through the Claude desktop app's browser pane | 22 | 19 (86%) | 55% | 45% | 59% | 0.162 (base 0.248, 22) |
+| Pangram web app (his account, Pangram Professional), through the Claude desktop app's browser pane | 35 | 32 (91%) | 69% | 31% | 40% | 0.147 (base 0.216, 35) |
 | pangram 4.1, the web app: Joel's account, run by the lane in the desktop app's browser pane (E356) | 8 | 6 (75%) | 50% | 50% | 75% | 0.170 (base 0.250, 8) |
 
 ## Pangram 4.1 extension (free, live post; Joel's check of 2026-10-18, the same text as his 2026-11-03 paste by SHA-256)
@@ -56,25 +56,25 @@ Calibration:
 
 | window | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| the latest 50 | 22 | 19 (86%) | 55% | 45% | 59% | 0.162 (base 0.248, 22) |
-| the latest 100 | 22 | 19 (86%) | 55% | 45% | 59% | 0.162 (base 0.248, 22) |
-| all | 22 | 19 (86%) | 55% | 45% | 59% | 0.162 (base 0.248, 22) |
+| the latest 50 | 35 | 32 (91%) | 69% | 31% | 40% | 0.147 (base 0.216, 35) |
+| the latest 100 | 35 | 32 (91%) | 69% | 31% | 40% | 0.147 (base 0.216, 35) |
+| all | 35 | 32 (91%) | 69% | 31% | 40% | 0.147 (base 0.216, 35) |
 
 The boundary mix (what was checked; accuracy differs a lot between a paragraph and a section):
 
 | scope or kind | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
 | section | 1 | 1 (100%) | 0% | 100% | 100% | 0.040 (base 0.000, 1) |
-| paragraph | 17 | 16 (94%) | 47% | 53% | 59% | 0.151 (base 0.249, 17) |
-| pair | 4 | 2 (50%) | 100% | 0% | 50% | 0.239 (base 0.000, 4) |
+| paragraph | 26 | 25 (96%) | 62% | 38% | 42% | 0.141 (base 0.237, 26) |
+| pair | 8 | 6 (75%) | 100% | 0% | 25% | 0.182 (base 0.000, 8) |
 
 Calibration:
 
 | my chance of a 100% Human result | calls | mean chance | read Human |
 |---|---|---|---|
-| 0.2 to 0.4 | 2 | 0.35 | 0% |
-| 0.4 to 0.6 | 13 | 0.48 | 23% |
-| 0.6 to 0.8 | 7 | 0.68 | 100% |
+| 0.2 to 0.4 | 10 | 0.33 | 0% |
+| 0.4 to 0.6 | 17 | 0.47 | 18% |
+| 0.6 to 0.8 | 8 | 0.69 | 100% |
 | 0.8 to 1.0 | 1 | 0.80 | 100% |
 
 ## pangram 4.1, the web app: Joel's account, run by the lane in the desktop app's browser pane (E356)
@@ -128,4 +128,8 @@ The latest:
 | bad-trips round 6 SEIZ-WARN B (cannabis at an aura) | paragraph | 4 of 6 | AI |
 | bad-trips PFA P4 his way (h04) | pair | 4 of 6 | AI |
 | bad-trips Active Seizure N-FORUMS (what forums and the rat study say) | paragraph | 4 of 6 | Mixed |
+| bad-trips PFA P5 and P6 (look at the room; the annoying room) | pair | 1 of 6 | AI |
+| bad-trips PFA P7 and P8 (dim the lights; music or quiet) | pair | 1 of 6 | AI |
+| bad-trips PFA room his way: look at the room (B1) | paragraph | 5 of 6 | AI |
+| bad-trips PFA room his way: music and water (B2, B3) | paragraph | 5 of 6 | AI |
 

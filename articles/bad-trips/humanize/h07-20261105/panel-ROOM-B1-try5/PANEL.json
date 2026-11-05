@@ -1,0 +1,70 @@
+{
+ "readers": [
+  "codex",
+  "haiku",
+  "sonnet"
+ ],
+ "sentences": [
+  "Then look at the room.",
+  "If five concerned people are talking at once, keep one or two with them and send the rest to another room.",
+  "Turn the big overhead light off and use a lamp, because a huge amount of what looks like profound psychedelic crisis is a frightened nervous system stuck in an annoying room.",
+  "Move them if they're trapped beside somebody they don't trust, and ask before you touch them.",
+  "Don't let anyone else touch them when they don't want it, either.",
+  "Find out if they're too hot or too cold.",
+  "Ask about the bathroom while you're at it; they might be desperate to go."
+ ],
+ "flagged": {
+  "1": [],
+  "2": [
+   "haiku"
+  ],
+  "3": [
+   "haiku",
+   "sonnet"
+  ],
+  "4": [
+   "haiku",
+   "sonnet"
+  ],
+  "5": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ],
+  "6": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ],
+  "7": []
+ },
+ "agreed": [
+  3,
+  4,
+  5,
+  6
+ ],
+ "whole": {
+  "codex": [
+   "The succession of short commands gives the paragraph a systematically assembled checklist rhythm. Its colloquial voice is more distinctive, however, and nothing here reliably establishes AI involvement."
+  ],
+  "haiku": [
+   "The paragraph is a run of short, parallel imperatives (\"Turn\", \"Move\", \"Ask\", \"Find out\", \"Ask\") in an evenly paced sequence, each sentence doing one tidy job, which gives it a checklist cadence more typical of generated guidance than of a single speaker's remembered practice."
+  ],
+  "sonnet": [
+   "It is built as a run of short imperative sentences of similar length and shape, each one a separate tip, with a neat explanatory thesis in the middle, so it reads like an organized checklist with even rhythm and little digression or personal stake."
+  ]
+ },
+ "human_clean": [
+  "five concerned people are talking at once",
+  "concerned",
+  "Ask about the bathroom while you're at it; they might be desperate to go.",
+  "desperate to go",
+  "while you're at it",
+  "Ask about the bathroom",
+  "Ask about the bathroom while you're at it; they might be desperate to go.",
+  "while you're at it",
+  "If five concerned people are talking at once",
+  "Then look at the room."
+ ]
+}

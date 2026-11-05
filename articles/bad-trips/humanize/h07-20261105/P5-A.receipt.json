@@ -1,0 +1,58 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "text_sha256": "c501bc8e7205a37cb51b9197e4cd169313a79708085e863935f53c977829d996",
+ "text": "Then look at the room, because a huge amount of what gets called profound psychedelic crisis is a frightened nervous system stuck in an annoying room. Is the light too bright? Is the music horrible? Are five concerned people talking at once? Is somebody touching the person when touch is unwelcome? Are they too hot, too cold, desperate for the bathroom, or trapped beside somebody they don't trust?",
+ "section": "Psychological First Aid: The First Five Minutes",
+ "reader": "someone looking after a person in a frightening psychedelic or MDMA state, in the first few minutes, once the immediate dangers (keys, stove, roads, more of the substance) are dealt with",
+ "sentences": [
+  {
+   "s": "Then look at the room, because a huge amount of what gets called profound psychedelic crisis is a frightened nervous system stuck in an annoying room.",
+   "payoff": "the helper learns what to do next, look at the room, and why, before the checks: much of what looks like a deep crisis is a scared nervous system in a room that keeps setting it off, so fixing the room can end it",
+   "follows": "\"Then\" carries on from the paragraph before, where the dangers of the next five minutes are dealt with; the reason, which used to come after the checks, now comes with the instruction"
+  },
+  {
+   "s": "Is the light too bright?",
+   "his": true
+  },
+  {
+   "s": "Is the music horrible?",
+   "his": true
+  },
+  {
+   "s": "Are five concerned people talking at once?",
+   "his": true
+  },
+  {
+   "s": "Is somebody touching the person when touch is unwelcome?",
+   "his": true
+  },
+  {
+   "s": "Are they too hot, too cold, desperate for the bathroom, or trapped beside somebody they don't trust?",
+   "his": true
+  }
+ ],
+ "checked": [],
+ "placement": "where his paragraph was, right after the first-five-minutes dangers paragraph: the dangers first, then the room; his one-line paragraph after it (\"A huge amount ...\") is now this sentence's reason, word for word",
+ "questions": {
+  "Q1": "PASS: the reader now knows why to look at the room before the list of things to check",
+  "Q2": "PASS: the instruction (look at the room) comes with what it is for (the room may be what keeps the fear going)",
+  "Q3": "PASS: the checks name exact things (bright light, horrible music, five people talking, unwanted touch, heat, cold, the bathroom, someone untrusted)",
+  "Q4": "PASS: \"an annoying room\" acts on the frightened nervous system it keeps going",
+  "Q5": "PASS: \"because\" turns on the claim that the room can be the problem; the questions follow as the ways to check it",
+  "Q6": "PASS: dangers, then the room and why, then what to look for: the order a helper works in (his MOVE lesson: the reason sat after the checks)",
+  "Q7": "PASS: every check is something a helper can see and change in the first minutes",
+  "Q8": "N/A: no groups or tiers",
+  "Q9": "PASS: nothing compressed; his words kept, one sentence joined with \"because\""
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first; a study after the question it answers)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

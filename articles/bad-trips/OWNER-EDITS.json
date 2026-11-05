@@ -184,7 +184,7 @@
    "what": "CBD-YOURS: his three CBD paragraphs, as he wrote them (typo \"a rats\" fixed), with the study links on the words that name them",
    "joel": "22:14: \"i broke it up, fixed the first part ...\" (his version in the answers file); \"now it's fully human high conf\"",
    "must_contain_exact": [
-    "consider topical DMSO with a known-genuine CBD preparation as adjuncts (a lot of CBD is fake or very dilute).",
+    "consider topical DMSO with a known-genuine CBD preparation (a lot of CBD is fake or very dilute).",
     "Seizures come in all different types, and we have no study on whether CBD could be a rescue remedy for a seizure",
     "I'd treat it as a plausible experimental adjunct remedy rather than something to wait on while a seizure continues."
    ],
@@ -192,7 +192,7 @@
     "focal seizures fell by about half to three quarters over nearly three years",
     "In a [2025 study]"
    ],
-   "note": "its topical paragraph was replaced by his round-6 version (r06-cbd-trial-his-version), so \"And topical CBD hasn't been well-studied.\" is no longer required"
+   "note": "its topical paragraph was replaced by his round-6 version (r06-cbd-trial-his-version), so \"And topical CBD hasn't been well-studied.\" is no longer required; round 7's AFTER-MOVE, which he approved (2026-11-05 17:08 UTC), put \"During the seizure, alongside any rescue medicine,\" before his first sentence and took \"as adjuncts\" out of it, so that is what is required now"
   },
   {
    "id": "r05-pfa-his-version",
@@ -242,6 +242,68 @@
    "must_not_contain": [
     "Movement is allowed. Unsafe movement is not."
    ]
+  },
+  {
+   "id": "r07-abrace",
+   "status": "applied",
+   "what": "ABRACE: \"a patients' association\" for \"a company\", \"in more than 30 tests\" for \"in 30 tests\"",
+   "joel": "17:08: approved; 17:09: \"you're right it's a non-profit that's important\"",
+   "must_contain_exact": [
+    "by a non-profit patients' association called ABRACE",
+    "that in more than 30 tests they did with children having seizures"
+   ],
+   "must_not_contain": [
+    "by a company called ABRACE"
+   ]
+  },
+  {
+   "id": "r07-authors",
+   "status": "applied",
+   "what": "AUTHORS: the gel trial's authors as the paper has them, and the conclusion said",
+   "joel": "17:09: approved",
+   "must_contain_exact": [
+    "or that adults with focal epilepsy just don't respond as well as people with the syndromes oral CBD is approved for.",
+    "so topical CBD might do better for those than it did in that trial."
+   ],
+   "must_not_contain": [
+    "or it works better for generalized rather than focal seizures"
+   ]
+  },
+  {
+   "id": "r07-after-move",
+   "status": "applied",
+   "what": "AFTER-MOVE: \"During the seizure, alongside any rescue medicine,\" and the focal sentence out",
+   "joel": "17:08: approved",
+   "must_contain_exact": [
+    "During the seizure, alongside any rescue medicine, I would use topical magnesium chloride"
+   ],
+   "must_not_contain": [
+    "For focal seizures outside those syndromes, the evidence is mixed, but still long-term."
+   ]
+  },
+  {
+   "id": "r07-forums",
+   "status": "applied",
+   "what": "FORUMS: my sentences after his forums opener as the card has them",
+   "joel": "17:08: approved",
+   "must_contain_exact": [
+    "But a few people on the same forums said THC vapes and concentrates brought their seizures on.",
+    "had more of them after high-THC smoke."
+   ],
+   "must_not_contain": [
+    "So the THC may be what makes it go either way.",
+    "injected CBD cut them about in half"
+   ]
+  },
+  {
+   "id": "t10-nonprofit",
+   "status": "applied",
+   "what": "ABRACE called \"a non-profit patients' association\", on his word",
+   "joel": "17:09: \"you're right it's a non-profit that's important\"",
+   "must_contain_exact": [
+    "by a non-profit patients' association called ABRACE"
+   ],
+   "must_not_contain": []
   }
  ]
 }

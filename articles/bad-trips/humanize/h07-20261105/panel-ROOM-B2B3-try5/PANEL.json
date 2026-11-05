@@ -1,0 +1,62 @@
+{
+ "readers": [
+  "codex",
+  "haiku",
+  "sonnet"
+ ],
+ "sentences": [
+  "Ask them \"music or quiet?\"",
+  "If a song seems to be making things worse, change it, and keep any music low anyway.",
+  "This is a bad time to defend the playlist.",
+  "When you talk to them, slow down and use fewer words.",
+  "Please don't explain the universe at somebody who is already frightened by it.",
+  "Offer them water without pushing it on them, and if they drink, have them take it in sips, since a lot of water fast is dangerous on MDMA."
+ ],
+ "flagged": {
+  "1": [],
+  "2": [
+   "haiku",
+   "sonnet"
+  ],
+  "3": [
+   "haiku",
+   "sonnet"
+  ],
+  "4": [
+   "haiku",
+   "sonnet"
+  ],
+  "5": [
+   "codex",
+   "haiku"
+  ],
+  "6": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ]
+ },
+ "agreed": [
+  2,
+  3,
+  4,
+  5,
+  6
+ ],
+ "whole": {
+  "codex": [
+   "The alternation between practical instructions and polished, wry asides can feel engineered to sound conversational and caring. These are weak stylistic signals, though: neither they nor the human-sounding features below establish authorship."
+  ],
+  "haiku": [
+   "The rhythm is very even: short imperatives, each sentence ending on a crisp clause, and the two punchy lines land in the same place, so the paragraph has a polished, evenly paced cadence. The voice stays generic and instructional, with nothing tied to a particular person, scene or experience."
+  ],
+  "sonnet": [
+   "Every sentence is a short, imperative, roughly equal-length instruction, so the paragraph moves as an even run of tips with no digression, example or hesitation. The rhythm is steady and the voice stays uniformly calm and helpful, closing on a justified safety caveat, which is how a polished advice list is usually built."
+  ]
+ },
+ "human_clean": [
+  "music or quiet?",
+  "music or quiet?",
+  "Ask them "
+ ]
+}

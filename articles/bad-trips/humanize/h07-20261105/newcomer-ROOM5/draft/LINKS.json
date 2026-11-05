@@ -1,0 +1,106 @@
+[
+ {
+  "sentence": 1,
+  "quote": "Then look at the room.",
+  "gap": "What am I looking for in the room, and why does looking at it come next, before anything else is done?",
+  "id": "L1",
+  "status": "drop",
+  "note": "the next sentences say what to look for and his reason why"
+ },
+ {
+  "sentence": 2,
+  "quote": "keep one or two with them and send the rest to another room.",
+  "gap": "Why one or two, and why send the rest away? What does having fewer people there do for the person?",
+  "id": "L2",
+  "status": "drop",
+  "note": "the next section (Get One Human Anchor) is about the one or two who stay; here the point is fewer people talking"
+ },
+ {
+  "sentence": 3,
+  "quote": "a frightened nervous system stuck in an annoying room",
+  "gap": "How does a room make a nervous system frightened, and what makes a room \"annoying\" in the sense that matters here?",
+  "id": "L3",
+  "status": "drop",
+  "note": "his reason; the sentences around it name what makes the room annoying"
+ },
+ {
+  "sentence": 3,
+  "quote": "what looks like profound psychedelic crisis",
+  "gap": "Looks like to whom, and what is a \"psychedelic crisis\" as opposed to the crisis the earlier part was about?",
+  "id": "L4",
+  "status": "drop",
+  "note": "his reason; the sentences around it name the room's part (the big light, five people talking, touch, someone untrusted, heat, cold, the bathroom)"
+ },
+ {
+  "sentence": 4,
+  "quote": "Move them if they're trapped beside somebody they don't trust",
+  "gap": "What does \"trapped\" mean in this case, why does sitting near someone they don't trust matter, and where should they be moved to?",
+  "id": "L5",
+  "status": "drop",
+  "note": "his words, under the same reason: someone they don't trust keeps a frightened nervous system frightened"
+ },
+ {
+  "sentence": 5,
+  "quote": "Don't let anyone else touch them when they don't want it, either.",
+  "gap": "How do I tell when they don't want touch, and why does touch matter at this point? What is \"either\" added to?",
+  "id": "L6",
+  "status": "drop",
+  "note": "his \"Ask before touching\"; unwanted touch is one of his room checks, under the same reason"
+ },
+ {
+  "sentence": 6,
+  "quote": "Find out if they're too hot or too cold.",
+  "gap": "Why does temperature matter here, and what do I do once I know the answer?",
+  "id": "L7",
+  "status": "drop",
+  "note": "his room checks, under the same reason: the body's discomforts are part of what keeps the fear going"
+ },
+ {
+  "sentence": 8,
+  "quote": "Ask them 'music or quiet?'",
+  "gap": "Why ask this, and what do I do differently depending on which one they pick?",
+  "id": "L8",
+  "status": "drop",
+  "note": "his question; the next sentence says what to do with the music"
+ },
+ {
+  "sentence": 9,
+  "quote": "keep any music low anyway",
+  "gap": "\"Anyway\" goes against what? Why keep the music low even when they have chosen music, and how do I tell that a song is making things \"worse\"?",
+  "id": "L9",
+  "status": "drop",
+  "note": "low whatever they choose; a helper judges \"worse\" from the person"
+ },
+ {
+  "sentence": 10,
+  "quote": "This is a bad time to defend the playlist.",
+  "gap": "Whose playlist is it, who would be defending it, and why is defending it a problem now? The reason the sentence gives is missing.",
+  "id": "L10",
+  "status": "drop",
+  "note": "his words: arguing about the music with someone frightened, at a time when changing it costs nothing"
+ },
+ {
+  "sentence": 12,
+  "quote": "Please don't explain the universe at somebody who is already frightened by it.",
+  "gap": "Is \"the universe\" meant literally or as the big revelation from the earlier part? What does \"by it\" point to, and what does explaining do to a person who is frightened?",
+  "id": "L11",
+  "status": "drop",
+  "note": "his words: \"it\" is the universe, which already frightens them"
+ },
+ {
+  "sentence": 13,
+  "quote": "since a lot of water fast is dangerous on MDMA.",
+  "gap": "What is \"water fast\", what is MDMA, and what goes wrong when someone drinks a lot of water quickly while on it?",
+  "id": "L12",
+  "status": "drop",
+  "note": "the guide is about MDMA and psychedelic trips; its MDMA section, earlier, names the sodium danger (hyponatremia after a single dose)"
+ },
+ {
+  "sentence": 13,
+  "quote": "Offer them water without pushing it on them",
+  "gap": "The earlier part said to keep them from taking more of any substance. Why is water offered here, and is it an exception to that rule?",
+  "id": "L13",
+  "status": "drop",
+  "note": "plain to a helper: water is not a substance in the dangers paragraph's sense; the next clause is about how much"
+ }
+]

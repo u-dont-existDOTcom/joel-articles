@@ -1,6 +1,6 @@
 # Bad Trips guide: current state
 
-Updated: 2026-11-05 (turn 11: his round-6 answers exported 15:14 UTC, which reached two sessions, and his message of 15:15 UTC). Registered 2026-11-03 at Joel's message of 15:45 UTC ("start working on humanizing my
+Updated: 2026-11-05 (turn 12: his round-7 answers and message of 17:09 UTC, with a Gemini write-up on ABRACE's YouTube channel). Registered 2026-11-03 at Joel's message of 15:45 UTC ("start working on humanizing my
 badtrips guide at badtrips.u-dont-exist.com"; `experiments/t01-answers/JOEL-MESSAGE-20261103-1545.md`).
 
 ## Goal
@@ -180,33 +180,40 @@ dose, unit, timing and warning exactly as it went in, and his post updated with 
   ABRACE's two facts, the gel trial's authors and what it means for drug seizures, the paragraph after his move ("During
   the seizure, alongside any rescue medicine", the focal sentence cut), his forums paragraph (my sentences cut down to
   what the reader needs, after a tell panel).
+- 2026-11-05 (turn 12, his round-7 answers exported 17:09 UTC, saved as `review/r07/ANSWERS-R07-20261105-1709.json`, all
+  four approved, and his message: "you're right it's a non-profit that's important", a Gemini write-up on ABRACE's YouTube
+  channel to take "the important points from (not trying to add clutter)", and "add all the rest of it to askrigor
+  atlas"): round 7 in (`review/r07/apply_r07.py`; 12,287 to 12,298 words), and "by a non-profit patients' association
+  called ABRACE" in his cannabis paragraph (Human, High). From the write-up nothing else went in: it is about children
+  taking ABRACE's oils by mouth for months, its first-aid video says what Active Seizure already says, and the nasal
+  spray is already in. The rest went to AskRigor (`experiments/t10-answers/ASKRIGOR-CHECK-20261105.md`): no CBD or
+  seizure card existed; nine claims checked (clobazam holds; the trials' 30 to 50% leaves out placebo; diarrhoea
+  understated; no trial supports any CBD:THC ratio); findings card ARF-0304 and the research map pending its review.
+  The humanize pass: Psychological First Aid's room paragraphs (B238 to B241, "Then look at the room" to the playlist)
+  read AI as they are, and in five tries each (four of mine, the last two after a tell panel, and one by Codex from the
+  panel's notes), every one AI, 100% (`humanize/h07-20261105/RESULTS.md`, 13 of 13 predictions right). Round 8's page asks
+  for his version (Bad Trips Guide, Round 8, https://claude.ai/artifact/FnvfZWzTyK2jktLGc88Vgr; the card as text in
+  `review/r08/REVIEW-R08.md`; browser test 62 of 62).
 
 ## Current checkpoint
 
-- **In progress:** Turn 11. His round-6 answers reached two sessions: this lane's chat (15:15 UTC, with "make sure you
-  merge lessons with main branch so everyone is sharing always") and the neuro de-armoring chat (15:20 UTC). Both applied
-  them. The other session's work reached main first (pull request 304): its checks in `humanize/h06-checks-20261105/`,
-  its round-7 page as a file (now `review/r07/v1/`), its apply script (now `review/r06/from-claude-bad-trips-20261103/`)
-  and lesson E362. This session's merge of main put the two together. The guide holds his round-6 words as he wrote
-  them: the other session had also put its fixes (Y-B, Y-C), its fourth forums try and "[this vid]" for his bare link
-  into the guide, and those are now proposals on round 7's version 2, not in the guide. Round 7, version 2 (Bad Trips
-  Guide, Round 7, https://claude.ai/artifact/41gorxz7ZJ1MV8QL1E63vs; cards as text in `review/r07/REVIEW-R07.md`) has
-  every proposal from both sessions, one card a paragraph, each Human, High: ABRACE, AUTHORS (Y-B's correction, with
-  Lennox-Gastaut and the conclusion said), AFTER-MOVE (Y-C's cut and the opening after his move), FORUMS (Human, High on
-  my third try, where the other session's four read AI).
-- **Next step (updated on every push, so another account can pick up here):** His round-7 answers in with an
-  `apply_r07.py` like round 6's (the page's export saved as `review/r07/ANSWERS-R07-*.json`; his versions as he wrote
-  them; `OWNER-EDITS.json`'s round-6 entries noted where an approved card changes his words). The ABRACE sources the
-  other session couldn't open are read (the Câmara transcript and the video, 2026-11-05: the ABRACE card). Then the next
-  paragraph of Psychological First Aid (P5, "Then look at the room ..."), one paragraph at a time: its making-sense
-  receipt (`tools/humanization/sense_receipt.py`), two fresh reads, a prediction, then the check in his Pangram account
-  (the desktop app's browser pane works, signed in). No whole-guide check until no window already seen reads AI or Low
-  (E354). If his answers arrive in two chats again, one session takes them and the other stops at its mailbox check.
-- **Waiting on Joel:** round 7's four cards (version 2).
+- **In progress:** Turn 12 done. Round 7 and "non-profit" are in the guide; the Gemini write-up's rest is in AskRigor
+  (pending its review); the room paragraphs (B238 to B241) read AI in every version, his included, so round 8's one card
+  asks for his version (Bad Trips Guide, Round 8, https://claude.ai/artifact/FnvfZWzTyK2jktLGc88Vgr).
+- **Next step (updated on every push, so another account can pick up here):** His round-8 answer in with an
+  `apply_r08.py` like round 7's (the page's export saved as `review/r08/ANSWERS-R08-*.json`; his version as he wrote it,
+  in place of B238 to B241), checked in his Pangram account with a prediction first. Then the next paragraph of
+  Psychological First Aid ("Give them ordinary reality:" and its quote), one paragraph at a time: its making-sense
+  receipt (`tools/humanization/sense_receipt.py`), a fresh read, a prediction, then the check in his Pangram account (the
+  desktop app's browser pane works, signed in). When a stretch reads AI twice, the tell panel; after two drafts fail
+  after the panel, Codex's draft; then his version on the next page. No whole-guide check until no window already seen
+  reads AI or Low (E354). If his answers arrive in two chats again, one session takes them and the other stops at its
+  mailbox check.
+- **Waiting on Joel:** round 8's card (his version of the room paragraphs).
 
 ## Remaining
 
-Round 7's four cards; the rest of the guide one paragraph at a time; the whole-guide Pangram check; an overcompletion read
+Round 8's card; the rest of the guide one paragraph at a time; the whole-guide Pangram check; an overcompletion read
 (gate E328); the word-for-sense read (gate E331); his post updated, with the title's version and date (gate E323).
 
 ## Blockers / unresolved

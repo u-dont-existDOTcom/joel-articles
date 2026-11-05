@@ -1,0 +1,62 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "text_sha256": "0fd17ce8e3064a5eef3261046cc6b93ca8da692d6fd26066cc87537fe6748ae0",
+ "text": "Then look at the room. If the big light is on and five concerned people are talking at once, no wonder they're scared, because a huge amount of what looks like profound psychedelic crisis is a frightened nervous system stuck in an annoying room. Put a lamp on instead, keep one or two people with them and send the rest out. Don't let anyone touch them unless they want it, and that goes for you too. If they're trapped beside somebody they don't trust, move them. After that it's the dull stuff, whether they're too hot or too cold, or desperate for the bathroom.",
+ "section": "Psychological First Aid: The First Five Minutes",
+ "reader": "someone looking after a person in a frightening psychedelic or MDMA state, in the first few minutes, once the immediate dangers (keys, stove, roads, more of the substance) are dealt with",
+ "sentences": [
+  {
+   "s": "Then look at the room.",
+   "his": true
+  },
+  {
+   "s": "If the big light is on and five concerned people are talking at once, no wonder they're scared, because a huge amount of what looks like profound psychedelic crisis is a frightened nervous system stuck in an annoying room.",
+   "payoff": "the helper sees the room as the person does, a big light and five worried people talking at once, and learns his reason why that keeps them scared",
+   "follows": "it answers \"Then look at the room\" with the two things a helper would notice first, and his reason for why they matter"
+  },
+  {
+   "s": "Put a lamp on instead, keep one or two people with them and send the rest out.",
+   "payoff": "the helper learns the fixes for those two things: a lamp for the big light, and one or two people kept with them, the rest sent out",
+   "follows": "the fixes for the two things the sentence before named"
+  },
+  {
+   "s": "Don't let anyone touch them unless they want it, and that goes for you too.",
+   "payoff": "the helper learns that nobody touches the person unless the person wants it, the helper included",
+   "follows": "after the people in the room, what they do: touching"
+  },
+  {
+   "s": "If they're trapped beside somebody they don't trust, move them.",
+   "payoff": "the helper learns to move the person away from someone they don't trust",
+   "follows": "the last of the people in the room"
+  },
+  {
+   "s": "After that it's the dull stuff, whether they're too hot or too cold, or desperate for the bathroom.",
+   "payoff": "the helper learns the plain body checks to make, in his words: too hot, too cold, desperate for the bathroom",
+   "follows": "after the room and the people, the person's own body; \"After that\" puts it in order"
+  }
+ ],
+ "checked": [],
+ "placement": "where his room paragraph was, right after the first-five-minutes dangers paragraph; his reason paragraph and his fixes paragraph's lights, people and touch go into it, so each check sits beside its fix",
+ "questions": {
+  "Q1": "PASS: \"Then look at the room\" first, then what a helper sees there and why it matters",
+  "Q2": "PASS: each instruction is something the helper does (put on, keep, send out, don't let, move); his reason says what the room fixes are for",
+  "Q3": "PASS: exact things: the big light, a lamp, five concerned people, one or two, unwanted touch, someone untrusted, too hot, too cold, the bathroom",
+  "Q4": "PASS: \"that goes for you too\" acts on not touching them unless they want it; \"them\" is the person throughout",
+  "Q5": "PASS: \"because\" gives his reason for \"no wonder they're scared\"; \"instead\" ties the lamp to the big light; \"After that\" orders the body checks",
+  "Q6": "PASS: what the helper sees, why, the fixes, the people, then the body",
+  "Q7": "PASS: each is something a helper does in the first minutes",
+  "Q8": "N/A: no groups or tiers",
+  "Q9": "PASS: try 4 is built from what the helper sees (the second writer's brief: one concrete case first), not a list of fixes; the touch rule is split from the move; the body checks come last as the dull stuff"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first; a study after the question it answers)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

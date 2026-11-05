@@ -1,0 +1,82 @@
+[
+ {
+  "sentence": 1,
+  "quote": "Then look at the room.",
+  "gap": "Why does the room matter here? The reason is only given at S7, after the list of checks, so at this point the reader does not know what the room is supposed to do to the person.",
+  "id": "L1",
+  "answer": "because a huge amount of what looks like profound psychedelic crisis",
+  "raised": "Then look at the room."
+ },
+ {
+  "sentence": 4,
+  "quote": "Are five concerned people talking at once?",
+  "gap": "Is \"five\" a threshold to watch for, or just an example of too many people? And what makes concerned people a problem is not said.",
+  "id": "L2",
+  "status": "drop",
+  "note": "his words: an example of too many people; the draft says to cut them to one or two"
+ },
+ {
+  "sentence": 6,
+  "quote": "trapped beside somebody they don't trust",
+  "gap": "Who is the \"somebody\": the helper, or a stranger in the room?",
+  "id": "L3",
+  "status": "drop",
+  "note": "his words: whoever it is, in the room"
+ },
+ {
+  "sentence": 7,
+  "quote": "what gets called profound psychedelic crisis",
+  "gap": "Who does the calling? And how does a frightened nervous system come to be taken for something profound? The step from fear to the label is not given.",
+  "id": "L4",
+  "status": "drop",
+  "note": "the draft says \"what looks like\", so nobody has to be doing the calling"
+ },
+ {
+  "sentence": 10,
+  "quote": "Clear out the extra people.",
+  "gap": "Which people count as extra: the concerned ones named in S4, or everyone except the person helping?",
+  "id": "L5",
+  "status": "drop",
+  "note": "the draft says \"all but one or two\""
+ },
+ {
+  "sentence": 11,
+  "quote": "Offer water without forcing it.",
+  "gap": "What is the water for? The reason for offering it is not stated.",
+  "id": "L6",
+  "status": "drop",
+  "note": "his words; the draft says how to give it"
+ },
+ {
+  "sentence": 12,
+  "quote": "Sip rather than chug.",
+  "gap": "What is sipping supposed to prevent or achieve? The purpose is not stated.",
+  "id": "L7",
+  "answer": "since a lot of water fast is dangerous on MDMA",
+  "raised": "have them take it in sips"
+ },
+ {
+  "sentence": 15,
+  "quote": "explain the universe",
+  "gap": "Is this figurative? Does it mean arguing with the person about what the experience revealed?",
+  "id": "L8",
+  "status": "drop",
+  "note": "his words: figurative, as the reader guessed"
+ },
+ {
+  "sentence": 17,
+  "quote": "If a track starts pulling the experience somewhere unwanted",
+  "gap": "How does a track pull an experience somewhere, and unwanted by whom: the person, or the helper?",
+  "id": "L9",
+  "status": "drop",
+  "note": "his words: unwanted by the person, whose experience it is"
+ },
+ {
+  "sentence": 18,
+  "quote": "This is a bad time to defend the playlist.",
+  "gap": "Why is defending it a bad time? The step from S17 (change the track) to S18 is not given: the reason, that arguing adds pressure, is not stated.",
+  "id": "L10",
+  "status": "drop",
+  "note": "his words: the step is plain enough to his readers (arguing about music with someone frightened)"
+ }
+]

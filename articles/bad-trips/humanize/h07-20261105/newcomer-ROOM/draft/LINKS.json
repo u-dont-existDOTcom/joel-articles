@@ -1,0 +1,74 @@
+[
+ {
+  "sentence": 1,
+  "quote": "Then look at the room.",
+  "gap": "Why look at the room, and what am I supposed to be checking for when I do?",
+  "id": "L1",
+  "status": "drop",
+  "note": "the next sentences say what to look for and his reason why"
+ },
+ {
+  "sentence": 2,
+  "quote": "what looks like profound psychedelic crisis",
+  "gap": "How does a frightened nervous system stuck in a room turn into something that looks like a profound crisis?",
+  "id": "L2",
+  "status": "drop",
+  "note": "his reason; the sentences around it name the room's part (the big light, five people talking, touch, someone untrusted, heat, cold, the bathroom)"
+ },
+ {
+  "sentence": 3,
+  "quote": "Put a lamp on instead, keep one or two people with them and send the rest out.",
+  "gap": "Why is a lamp better than the big light, and why one or two people rather than the group?",
+  "id": "L3",
+  "status": "drop",
+  "note": "his reason says why: the room keeps the fear going, and the big light and the crowd are the room"
+ },
+ {
+  "sentence": 4,
+  "quote": "Don't let anyone touch them unless they want it",
+  "gap": "Why would being touched be a problem for someone in this state?",
+  "id": "L4",
+  "status": "drop",
+  "note": "his \"Ask before touching\"; unwanted touch is one of his room checks, under the same reason"
+ },
+ {
+  "sentence": 6,
+  "quote": "whether they're too hot or too cold, or desperate for the bathroom.",
+  "gap": "Why do these bodily needs matter enough to come right after the room?",
+  "id": "L5",
+  "status": "drop",
+  "note": "his room checks, under the same reason: the body's discomforts are part of what keeps the fear going"
+ },
+ {
+  "sentence": 9,
+  "quote": "This is a bad time to defend the playlist.",
+  "gap": "Which playlist, and who would be defending it against what?",
+  "id": "L6",
+  "status": "drop",
+  "note": "his words: arguing about the music with someone frightened, at a time when changing it costs nothing"
+ },
+ {
+  "sentence": 10,
+  "quote": "please don't explain the universe at somebody who is already frightened by it.",
+  "gap": "Why would explaining make the fear worse rather than help?",
+  "id": "L7",
+  "status": "drop",
+  "note": "his words: \"it\" is the universe, which already frightens them"
+ },
+ {
+  "sentence": 11,
+  "quote": "since a lot of water fast is dangerous on MDMA.",
+  "gap": "MDMA has not been named or explained before this line; what is it?",
+  "id": "L8",
+  "status": "drop",
+  "note": "the guide is about MDMA and psychedelic trips; its MDMA section, earlier, names the sodium danger (hyponatremia after a single dose)"
+ },
+ {
+  "sentence": 11,
+  "quote": "a lot of water fast is dangerous on MDMA",
+  "gap": "Why is drinking water quickly dangerous on this drug, and how much is \"a lot\"?",
+  "id": "L9",
+  "status": "drop",
+  "note": "the guide is about MDMA and psychedelic trips; its MDMA section, earlier, names the sodium danger (hyponatremia after a single dose)"
+ }
+]

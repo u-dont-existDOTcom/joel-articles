@@ -1,0 +1,63 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "text_sha256": "b6ce0fee01320ac6f0b0660bce1d20ecb7de1e9de5e5dc55a0712a2b494166e1",
+ "text": "Then look at the room, because a huge amount of what looks like profound psychedelic crisis is a frightened nervous system stuck in an annoying room. Switch off the big light and use a lamp. If five concerned people are talking at once, send all but one or two of them to another room. If somebody's touching them and they don't want it, ask that person to stop, and ask before you touch them yourself. Then check the basics, like whether they're cold or overheated, or need the bathroom. And if they're trapped beside somebody they don't trust, move them.",
+ "section": "Psychological First Aid: The First Five Minutes",
+ "reader": "someone looking after a person in a frightening psychedelic or MDMA state, in the first few minutes, once the immediate dangers (keys, stove, roads, more of the substance) are dealt with",
+ "sentences": [
+  {
+   "s": "Then look at the room, because a huge amount of what looks like profound psychedelic crisis is a frightened nervous system stuck in an annoying room.",
+   "payoff": "the helper learns what to do next, look at the room, and why: much of what looks like a deep crisis is a scared nervous system in a room that keeps setting it off, so fixing the room can end it",
+   "follows": "\"Then\" carries on from the paragraph before, where the dangers of the next five minutes are dealt with; his reason comes with the instruction"
+  },
+  {
+   "s": "Switch off the big light and use a lamp.",
+   "payoff": "the helper learns the first fix as a thing to do with what is in the room: the overhead light off, a lamp on",
+   "follows": "the first thing to look at in the room he named, the light"
+  },
+  {
+   "s": "If five concerned people are talking at once, send all but one or two of them to another room.",
+   "payoff": "the helper learns what to do about a crowd of worried people talking at once, and where to send them",
+   "follows": "the next thing in the room, the people"
+  },
+  {
+   "s": "If somebody's touching them and they don't want it, ask that person to stop, and ask before you touch them yourself.",
+   "payoff": "the helper learns what to do about unwanted touch, from others and from themselves",
+   "follows": "his check on unwanted touch and his \"Ask before touching\" together"
+  },
+  {
+   "s": "Then check the basics, like whether they're cold or overheated, or need the bathroom.",
+   "payoff": "the helper learns the plain bodily checks to make: cold or overheated, the bathroom",
+   "follows": "after the room, the person's body"
+  },
+  {
+   "s": "And if they're trapped beside somebody they don't trust, move them.",
+   "payoff": "the helper learns to move the person away from someone they don't trust",
+   "follows": "the last of his checks, on its own so it isn't one more item in a list"
+  }
+ ],
+ "checked": [],
+ "placement": "where his room paragraph was, right after the first-five-minutes dangers paragraph; his one-line reason paragraph and his fixes paragraph's lights, people and touch go into it, so each check sits beside its fix",
+ "questions": {
+  "Q2": "PASS: each instruction sits with what it is for, and says what the helper does: dim the lights because they are too bright, clear people out because five are talking at once, ask someone to stop touching them",
+  "Q3": "PASS: exact things: the lights, five concerned people cut to one or two, touch, heat, cold, the bathroom, someone untrusted; \"what looks like\" says it is an appearance, so nobody has to be doing the calling (a fresh reader asked who calls it a crisis)",
+  "Q8": "N/A: no groups or tiers",
+  "Q9": "PASS: try 2 trades try 1's packed lists for one act a sentence with the things in the room named (a lamp, another room), and no list of three",
+  "Q1": "PASS: the reason for looking at the room comes with the instruction, before the checks",
+  "Q4": "PASS: \"that person\" is whoever is touching them (a fresh reader read \"ask them to stop\" as the person being touched); \"move them\" is the person, away from the one they don't trust",
+  "Q5": "PASS: \"because\" turns on the room being the problem; the checks follow as its parts, each with its fix",
+  "Q6": "PASS: dangers, then the room and why, then each thing in it with its fix: the order a helper works in",
+  "Q7": "PASS: every check and fix is something a helper can see and do in the first minutes"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first; a study after the question it answers)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}
