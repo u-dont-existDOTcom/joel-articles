@@ -1,0 +1,4 @@
+S1 | "if you have an active colon or liver cancer" | Why these two? Is it that they're the fast-multiplying kind, or that the glutamine ends up there? The next sentence seems to explain the liver, but not why the colon is on the list, or whether going up to 10-30g is fine with other cancers.
+S2 | "A dose that big is more than your gut cells can use" | Then why was I just told to raise it to 10-30g for stress or IBD? What is the rest for: my immune cells?
+S2 | "the rest rides the portal vein from your gut" | How does the glutamine my gut cells can't use get into a vein? Do the cells pass it on, or does it go through the gaps? So far the only way into my blood I've read about is leaking through the lining.
+S2 | "so the liver gets it first, while it's still concentrated" | So what? Is this why liver cancer is on the list, because a cancer there would get the most to feed on, or is a big, concentrated dose bad for the liver itself?

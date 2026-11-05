@@ -1,0 +1,7 @@
+[
+  {
+    "id": "G004",
+    "verdict": "FAIL",
+    "issue": "'a tumor in your liver gets to it first' moves 'reaches your liver' from organ to tumor; wrong LINK: liver tumors are fed mainly by hepatic artery, not portal vein. Checked: https://en.wikipedia.org/wiki/Hepatic_artery_embolization ('tumor cells get nearly all their nutrients from the hepatic artery'); Archer & Gray, Br J Surg 1989, rat study, https://academic.oup.com/bjs/article/76/6/545/6171354. Other LINK 'a lot of it passes through your gut cells into your blood' is true: large enteral load, splanchnic extraction 53%, plasma glutamine about doubled (https://pubmed.ncbi.nlm.nih.gov/7485479/). Rest holds: same cancers, the 10-30g ruled out, 'stay off' as strong as 'don't', portal vein kept."
+  }
+]

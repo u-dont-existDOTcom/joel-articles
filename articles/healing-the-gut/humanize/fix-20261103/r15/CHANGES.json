@@ -1,0 +1,282 @@
+[
+ {
+  "start": "L-Glutamine (watch",
+  "old": "L-Glutamine ([watch Dr. Rhonda vid](https://m.youtube.com/watch?v=5DVUEKrekYw&ra=m)) is the main fuel for your enterocytes, and for your immune cells when they're activated. It doesn't have to go through the complicated digestive steps other nutrients do. Inside the mitochondria, it gets turned straight into alpha-ketoglutarate, or α-KG. The α-KG goes into the citric acid cycle, which is how the mitochondria make their energy. So that's why consuming pure glutamine gives energy to those cells faster than eating food. They then use their extra energy to repair the gut lining by pulling the tight junctions together, and that keeps LPS from getting through. Glutamine also provides nitrogen to help build new cells.",
+  "new": "L-Glutamine ([watch Dr. Rhonda vid](https://m.youtube.com/watch?v=5DVUEKrekYw&ra=m)) is the main fuel for your enterocytes, and for your immune cells when they're activated. It doesn't have to go through the complicated digestive steps other nutrients do. Inside the mitochondria, it gets converted into alpha-ketoglutarate, or α-KG, which then goes into the citric acid cycle, which is how the mitochondria make their energy. So that's why consuming pure glutamine gives energy to those cells faster than eating food, on top of what they get from their meals. They then use their extra energy to repair the gut lining by pulling the tight junctions together, and that keeps LPS from getting through. Glutamine also provides nitrogen to help build new cells.",
+  "kind": "his",
+  "why": "F9-1, his own version (revise): \"converted into\" for \"turned straight into\", and the two sentences joined; with F9-2's clause, approved",
+  "block": 27
+ },
+ {
+  "start": "Take 5g a day as a baseline.",
+  "old": "Take 5g a day as a baseline. The point of that baseline is to counter the breakdown of the gut lining that high-intensity or high-volume training causes, like CrossFit or intense cardio. If your immune system is dealing with an acute exposure, if your whole system is under a lot of stress, or if you have active IBD (Crohn's or colitis), raise it gradually to 10-30g a day.",
+  "new": "Take 5g a day as a baseline, to keep your enterocytes fed. Take it away from meals, so it doesn't have to compete with the amino acids in your food to get absorbed. If you train hard or long, like CrossFit or intense cardio, your gut lining takes damage. While you train, your body sends blood away from your gut to your working muscles, so your enterocytes get less oxygen and fuel. Glutamine taken two hours before training helps with that. In a study of men running for an hour in the heat, their gut lining leaked less, even at the lowest dose tested, about 15g for a 70kg man. If your immune system is dealing with an acute exposure to toxins or pathogens, or your whole system is under a lot of stress, raise it to 10-30g a day, adding 1g a day in case you're sensitive to it. Up to 14g a day is known to be safe for the long run, but the studies of higher doses were too short to say, so come back down once it's over. If you have an active inflammatory bowel disease (IBD), like Crohn's or colitis, don't count on it. In the two small trials in active Crohn's, it didn't help.",
+  "kind": "card",
+  "why": "F9-3 approved, with \"incorporate your research to make this more accurate and useful\"; F9-5 his answers: away from meals, an acute exposure to toxins or pathogens, raise it by a gram a day. The research changes are card F10-1",
+  "block": 28
+ },
+ {
+  "start": "CAUTION: cancer cells that multiply",
+  "old": "CAUTION: cancer cells that multiply really fast can grab glutamine too, to fuel their growth. So if you have an active colon or liver cancer, don't raise the dose that high. The liver is on that list because the blood from your gut goes straight there, through the portal vein, so a big dose of glutamine reaches your liver before anywhere else.",
+  "new": "CAUTION: a lot of cancers feed on glutamine too, to fuel their growth. So if you have an active cancer, check with your oncologist before you take the 5g, and especially before you go up to the 10-30g. Your enterocytes take in a lot of the glutamine you swallow as soon as it reaches them, but not all of it, and the rest gets into your blood, where a cancer can get to it. They can only take in so much at a time, so the bigger the dose, the more of it gets into your blood.",
+  "kind": "payoff",
+  "why": "F9-4 approved; its instruction moved up to follow the warning, the issue he always fixes (payoff too late)",
+  "block": 29
+ },
+ {
+  "start": "Previously, I made some posts",
+  "old": "on the AMD article on DMSO for gut health.",
+  "new": "on A Midwestern Doctor's article on the solvent DMSO for gut health.",
+  "kind": "term",
+  "why": "AMD and DMSO, said where they first appear",
+  "block": 2
+ },
+ {
+  "start": "Keep in mind that gut health",
+  "old": "can cement the stress coming from those other vectors.",
+  "new": "can cement the stress coming from those other vectors. And by stress I mean every kind, physical or mental, from an injury to toxins and pathogens.",
+  "kind": "term",
+  "why": "his F9-5 answer: \"stress refers to everything ... we can explain that once at first where we mention stress\"",
+  "block": 3
+ },
+ {
+  "start": "This is likely caused by diverticulosis",
+  "old": "herniated pockets to form",
+  "new": "herniated pockets (called diverticula) to form",
+  "kind": "term",
+  "why": "diverticula, named where the pockets first appear",
+  "block": 10
+ },
+ {
+  "start": "This is likely caused by diverticulosis",
+  "old": "Butyrate is the fuel for the colon cells.",
+  "new": "Butyrate, a fatty acid your gut bacteria make, is the fuel for the colon cells.",
+  "kind": "term",
+  "why": "butyrate, at its first use",
+  "block": 10
+ },
+ {
+  "start": "This is likely caused by diverticulosis",
+  "old": "I would also suggest diosmin for",
+  "new": "I would also suggest diosmin, a compound from citrus fruits, for",
+  "kind": "term",
+  "why": "diosmin",
+  "block": 10
+ },
+ {
+  "start": "However, while we don't know if Pooyan",
+  "old": "some bread with A1 dairy.",
+  "new": "some bread with A1 dairy, the regular cow's milk that has the A1 type of casein protein.",
+  "kind": "term",
+  "why": "A1 dairy",
+  "block": 11
+ },
+ {
+  "start": "CAUTION: If you have severe diverticulosis",
+  "old": "Make sure you get cleared by a gastroenterologist first.",
+  "new": "Make sure you get cleared first by a gastroenterologist, a doctor who specializes in the gut.",
+  "kind": "term",
+  "why": "gastroenterologist, at its first use",
+  "block": 12
+ },
+ {
+  "start": "Poor diet now (Phase 2)",
+  "old": "(especially visceral fat)",
+  "new": "(especially the visceral fat around your organs)",
+  "kind": "term",
+  "why": "visceral fat",
+  "block": 13
+ },
+ {
+  "start": "Parasites, H. pylori, mold, metals",
+  "old": "Parasites, H. pylori, mold, metals",
+  "new": "Parasites, the stomach bacteria H. pylori, mold, metals",
+  "kind": "term",
+  "why": "H. pylori, at its first use",
+  "block": 14
+ },
+ {
+  "start": "Parasites, H. pylori, mold, metals",
+  "old": "it's easily treated with berberine.",
+  "new": "it's easily treated with berberine, an extract from plants like barberry.",
+  "kind": "term",
+  "why": "berberine, at its first use",
+  "block": 14
+ },
+ {
+  "start": "Plant foods (Phases 2 and 5)",
+  "old": "they cannot handle fiber, oxalates, and phytates in plants.",
+  "new": "they cannot handle the fiber in plants, or the oxalates and phytates, compounds in many plants that bind minerals.",
+  "kind": "term",
+  "why": "oxalates and phytates",
+  "block": 16
+ },
+ {
+  "start": "Leaky gut (Phase 5)",
+  "old": "such as Crohn's Disease or IBS,",
+  "new": "such as Crohn's Disease or irritable bowel syndrome (IBS),",
+  "kind": "term",
+  "why": "IBS, at its first use",
+  "block": 18
+ },
+ {
+  "start": "Leaky gut (Phase 5)",
+  "old": "It's associated with increased zonulin levels clinically. Zonulin is the molecule released to signal your intestinal tight junctions to open.",
+  "new": "It's associated clinically with increased levels of zonulin, the molecule released to open your intestinal tight junctions, the seals between the cells of your gut lining.",
+  "kind": "term",
+  "why": "zonulin and tight junctions, each explained at its first use: his two sentences joined, so zonulin is explained where it is named, and what it does (open them) comes before what tight junctions are",
+  "block": 18
+ },
+ {
+  "start": "Liposomal first-milking colostrum",
+  "old": "Liposomal first-milking colostrum (esp.",
+  "new": "Liposomal first-milking colostrum, the first milk a cow makes after giving birth, wrapped in tiny fat bubbles that help you absorb it (esp.",
+  "kind": "term",
+  "why": "colostrum and liposomal, at their first use",
+  "block": 19
+ },
+ {
+  "start": "Liposomal first-milking colostrum",
+  "old": "with bifidobacterium, or",
+  "new": "with bifidobacterium, a common probiotic, or",
+  "kind": "term",
+  "why": "bifidobacterium",
+  "block": 19
+ },
+ {
+  "start": "Liposomal first-milking colostrum",
+  "old": "to mop up mycotoxins in the gut.",
+  "new": "to mop up mycotoxins, the toxins molds make, in the gut.",
+  "kind": "term",
+  "why": "mycotoxins, at their first use",
+  "block": 19
+ },
+ {
+  "start": "A good BPC-157 supplement,",
+  "old": "A [good BPC-157 supplement,](http://barrier.co) like this one from Barrier, can also help.",
+  "new": "BPC-157 is a lab-made short protein based on one in stomach juice, and a [good BPC-157 supplement,](http://barrier.co) like this one from Barrier, can also help.",
+  "kind": "term",
+  "why": "BPC-157, at its first use",
+  "block": 22
+ },
+ {
+  "start": "Beta-glucans, in yeast extract.",
+  "old": "Beta-glucans, in yeast extract.",
+  "new": "Beta-glucans, a kind of fiber found in yeast extract.",
+  "kind": "term",
+  "why": "beta-glucans",
+  "block": 23
+ },
+ {
+  "start": "Resistant starch to feed",
+  "old": ") to feed the good bacteria in your gut.",
+  "new": ") to feed the good bacteria in your gut, since your body can't digest it.",
+  "kind": "term",
+  "why": "resistant starch: his point first, then why it reaches the bacteria",
+  "block": 24
+ },
+ {
+  "start": "Ozonated zeolite (or",
+  "old": "(http://zeolitelabs.com/proof)): I find",
+  "new": "(http://zeolitelabs.com/proof)), a volcanic mineral full of tiny pores: I find",
+  "kind": "term",
+  "why": "zeolite",
+  "block": 25
+ },
+ {
+  "start": "The colonocytes lining your large intestine are fueled",
+  "old": "The colonocytes lining your large intestine are fueled by short-chain fatty acids (SCFAs) like butyrate, while your small intestine runs on glutamine.",
+  "new": "Your colonocytes are fueled by short-chain fatty acids (SCFAs) like butyrate.",
+  "kind": "repeat",
+  "why": "colonocytes were introduced in the fuels paragraph, and the glutamine point is said twice above it",
+  "block": 30
+ },
+ {
+  "start": "IBS (Phase 4)",
+  "old": "A [functional medicine](http://ifm.org) gastroenterologist might help.",
+  "new": "A gastroenterologist who practices [functional medicine](http://ifm.org), which looks for the root causes of illness, might help.",
+  "kind": "term",
+  "why": "functional medicine",
+  "block": 32
+ },
+ {
+  "start": "NOTE: this gut gem",
+  "old": "(apart from my H2O2 swap in Phase 3)",
+  "new": "(apart from my swap to H2O2, hydrogen peroxide, in Phase 3)",
+  "kind": "term",
+  "why": "H2O2, at its first use",
+  "block": 36
+ },
+ {
+  "start": "Now let's have a look at your bile function",
+  "old": "or phosphatidylcholine, before",
+  "new": "or phosphatidylcholine, a fatty nutrient found in egg yolks and soy, before",
+  "kind": "term",
+  "why": "phosphatidylcholine",
+  "block": 42
+ },
+ {
+  "start": "This is Dr. Michael Ruscio",
+  "old": "This is Dr. Michael Ruscio (Healthy Gut, Healthy You) and Dr. Mark Pimentel (The Microbiome Connection): calm the inflammation down and starve the overgrowths, no harsh chemicals.",
+  "new": "Once the mechanics work, calm the inflammation down and starve the overgrowths, without any harsh chemicals. This one's from Dr. Michael Ruscio (Healthy Gut, Healthy You) and Dr. Mark Pimentel (The Microbiome Connection).",
+  "kind": "window",
+  "why": "his opening read AI: the point first, then the sources, as Phases 1, 3 and 5 open (card)",
+  "block": 45
+ },
+ {
+  "start": "Diet-wise, go Paleo-Low FODMAP",
+  "old": "Either way you stop feeding the bacteria in your small intestine.",
+  "new": "Either way you stop feeding the bacteria in your small intestine, since both cut out the carbs they ferment most easily.",
+  "kind": "term",
+  "why": "FODMAP, by what both diets do, joined to his \"Either way\"",
+  "block": 46
+ },
+ {
+  "start": "If diet didn't clear your symptoms",
+  "old": "you likely have an active overgrowth (SIBO/SIFO).",
+  "new": "you likely have an active overgrowth of bacteria or fungi in your small intestine (SIBO or SIFO).",
+  "kind": "term",
+  "why": "SIFO",
+  "block": 50
+ },
+ {
+  "start": "H2O2 actually works better",
+  "old": "according to me and orthomolecular drs.",
+  "new": "according to me and orthomolecular drs, who treat illness with high doses of nutrients.",
+  "kind": "term",
+  "why": "orthomolecular",
+  "block": 52
+ },
+ {
+  "start": "So check your organs (Brown).",
+  "old": "Is it Exocrine Pancreatic Insufficiency?",
+  "new": "Is it Exocrine Pancreatic Insufficiency, where your pancreas doesn't make enough digestive enzymes?",
+  "kind": "term",
+  "why": "exocrine pancreatic insufficiency",
+  "block": 59
+ },
+ {
+  "start": "My notes: see \"Leaky gut\" above for colostrum",
+  "old": "BPC-157, ozonated zeolite and the fuels, and",
+  "new": "BPC-157 and ozonated zeolite, and",
+  "kind": "repeat",
+  "why": "the fuels are pointed to in step 4, just above",
+  "block": 67
+ },
+ {
+  "start": "You'll also find \"gut cleanse\" stacks",
+  "old": "berberine for H. pylori, the stomach bacteria that's usually behind heartburn you only get on an empty stomach: take",
+  "new": "berberine for H. pylori: take",
+  "kind": "repeat",
+  "why": "H. pylori is introduced, and its heartburn sign given, under Parasites",
+  "block": 80
+ },
+ {
+  "start": "Some severe symptoms warrant",
+  "old": "not red like from lower GI)",
+  "new": "not red like from the lower digestive tract)",
+  "kind": "term",
+  "why": "GI, said in plain words like the upper tract before it",
+  "block": 82
+ }
+]

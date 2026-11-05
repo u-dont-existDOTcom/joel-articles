@@ -1,0 +1,60 @@
+[
+ {
+  "sentence": 1,
+  "quote": "cancer cells that multiply really fast",
+  "gap": "Is that every cancer, or only some fast-growing kinds? If only some, does the warning still count for a slow one?",
+  "id": "L1",
+  "status": "drop",
+  "note": "his card 1, approved: the caution now covers any active cancer (\"a lot of cancers\"), so whether it's a fast kind no longer decides it"
+ },
+ {
+  "sentence": 2,
+  "quote": "So if you have an active colon or liver cancer",
+  "gap": "Why only these two? Wouldn't a fast-growing cancer anywhere else in my body grab the extra glutamine too?",
+  "id": "L2",
+  "status": "drop",
+  "note": "his card 1, approved: the colon-and-liver list is gone; the caution covers any active cancer"
+ },
+ {
+  "sentence": 2,
+  "quote": "active",
+  "gap": "What counts as active: only a cancer I have right now, or also one that was treated or is in remission?",
+  "id": "L3",
+  "status": "drop",
+  "note": "the original's word, kept; what counts as active is the oncologist's call, which the caution now sends the reader to"
+ },
+ {
+  "sentence": 2,
+  "quote": "colon",
+  "gap": "The liver gets a reason next, but why the colon? Above, glutamine fed the small intestine's cells and the colonocytes seemed to run on butyrate, so does swallowed glutamine even reach the colon, and why isn't small-intestine cancer on the list?",
+  "id": "L4",
+  "status": "drop",
+  "note": "his card 1, approved: the colon-and-liver list is gone"
+ },
+ {
+  "sentence": 2,
+  "quote": "don't raise the dose that high",
+  "gap": "Does \"that high\" mean the 10-30g? Then is the 5g baseline fine with one of these cancers, and why would a smaller amount be safe if the cancer cells grab glutamine too?",
+  "id": "L5",
+  "answer": "before you take the 5g, and especially before you go up to the 10-30g",
+  "raised": "So if you have an active cancer",
+  "note": "his cards 1 and 2: the 5g is in the check too"
+ },
+ {
+  "sentence": 3,
+  "quote": "a big dose of glutamine reaches your liver",
+  "gap": "How does glutamine get into the blood at all, if the gut cells take it in and burn it? Is that why it has to be a big dose, because they use up a small one?",
+  "id": "L6",
+  "answer": "but not all of it, and the rest gets into your blood",
+  "raised": "a lot of cancers feed on glutamine too",
+  "note": "Hankard 1995: the gut and liver take up 74% of a small dose and 53% of a large one on the first pass"
+ },
+ {
+  "sentence": 3,
+  "quote": "before anywhere else",
+  "gap": "So what if it gets to the liver first? Does the liver end up with more of it than the rest of my body?",
+  "id": "L7",
+  "status": "drop",
+  "note": "his card 1, approved: the portal-vein sentence is gone"
+ }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "id": "G101",
+    "verdict": "PASS",
+    "issue": "Makes the five listed changes and nothing else: any active cancer; 'don't raise the dose that high' becomes an oncologist check before the 10-30g (change 2), widened to any glutamine, even the 5g (change 4); portal-vein sentence cut. Change 5 checked true: Souba 1993, Ann Surg 218(6):715-28, abstract: 'many tumors are avid glutamine consumers in vivo and in vitro' (https://pubmed.ncbi.nlm.nih.gov/8257221/)."
+  },
+  {
+    "id": "G102",
+    "verdict": "PASS",
+    "issue": "Character diff: the only change is the listed ', on top of what they get from their meals', which gives the next sentence's 'their extra energy' its basis, as card 3 says. Every other sentence is unchanged."
+  }
+]

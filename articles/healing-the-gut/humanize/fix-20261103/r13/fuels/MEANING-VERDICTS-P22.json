@@ -1,0 +1,7 @@
+[
+ {
+  "id": "G002",
+  "verdict": "PASS",
+  "issue": "LINK: \"A dose that big is more than your gut cells can use\": true. Gut and liver together remove about 64% of enteral glutamine on first pass, so at least a third gets past the gut cells (Am J Physiol Endocrinol Metab 2000;278:E593, https://scilit.com/publications/47bc17c5bb4d65011a0faec41392af30), and oral 0.3 g/kg/day (about 21g for a 70kg adult) raised plasma glutamine 20% (https://pubmed.ncbi.nlm.nih.gov/11985937/). It is the step from the article's 'gut cells take it in first' to the liver getting any. LINK: \"while it's still concentrated\": true; during enteral feeding, glutamine in the gut's venous blood rose above arterial levels (Plauth et al., Gut 2000;46:849, https://pmc.ncbi.nlm.nih.gov/articles/PMC1756453); it says why 'first' matters. Kept: active colon or liver cancer only; 'that high' made explicit as 'the 10-30g'; 'don't'; portal vein straight from gut to liver; 'before anywhere else' as 'first'. 'The liver is on that list because' is now carried by sentence order rather than stated, and still reads as the reason."
+ }
+]

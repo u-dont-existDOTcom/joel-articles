@@ -1,0 +1,54 @@
+[
+ {
+  "id": "R8-P1",
+  "original": "I don't think there's one supplement stack that heals everyone's gut. Whatever you take, the order matters. Get your digestion working mechanically first, then reset your diet and your gut motility, and only go after bugs and parasites with antimicrobial or anti-parasite protocols if you still have symptoms after that.",
+  "rewrite": "A stack is a set of supplements you take together, and none of them replaces the phases above. I don't think there's one stack that heals everyone's gut, because guts go wrong for different reasons, and no kit can release a stuck vagus nerve or get your bile flowing. So whatever you take, keep to the order of the phases: get your digestion working mechanically first (Phase 1), then reset your diet and your meal spacing (Phase 2), and only go after bugs and parasites (Phase 3) if you still have symptoms after that. A stack is for the rebuilding in Phase 5, once you're clear of infection and it's time to feed the good bacteria again.",
+  "changed_points": [
+   "Adds what a stack is and that no stack replaces the protocol's phases (a link the original leaves implied: the section follows the six phases).",
+   "Says why no one stack heals everyone: guts go wrong for different reasons, and no kit can release a stuck vagus nerve or get bile flowing (both are Phase 1's fixes).",
+   "'the order matters' is named as the phases' order, with their numbers; 'gut motility' becomes 'meal spacing' (Phase 2's way of resetting it, the 4-5 hours between meals for the MMC); 'with antimicrobial or anti-parasite protocols' becomes '(Phase 3)'.",
+   "Adds where a stack fits: the rebuilding in Phase 5, once you're clear of infection and it's time to feed the good bacteria again (Phase 5 re-seeds and feeds; Phase 2 had starved the overgrowth), so the feeding in the next paragraph doesn't read as contradicting Phase 2."
+  ]
+ },
+ {
+  "id": "R8-KITS",
+  "original": "Gemini suggested these kits to me, but so far they're the best ones I've seen, tho I haven't used them myself, so check the reviews. Designs for Health GI Revive is one of the more complete gut-lining repair formulas. You still need the rest of a gut protocol with it. There's also Dr. Ruscio's Leaky Gut Support Kit, which makes sense if leaky gut is your main problem. Microbiome Labs Total Gut Restoration is the best general stack of these, because you get mucosal support along with the probiotic and prebiotic.",
+  "rewrite": "Gemini suggested three kits to me, but so far they're the best ones I've seen, tho I haven't used them myself, so check the reviews. Microbiome Labs Total Gut Restoration covers all three categories, with a probiotic, a prebiotic and a product for the gut lining in one kit, so it's the best general one. Dr. Ruscio's Leaky Gut Support Kit has a probiotic and two lining products, one of them glutamine, but no prebiotic, so it's more for when leaky gut is your main problem. And Designs for Health GI Revive is only the third category, a powder of gut-lining nutrients and herbs, so you'd still need a probiotic and a prebiotic with it.",
+  "changed_points": [
+   "'these kits' (none named yet) becomes 'three kits', and the best general one comes first.",
+   "Says which of the paragraph before's three categories each kit covers, from the makers' own pages: Total Gut Restoration is a probiotic, a prebiotic and a mucosal (lining) product; Ruscio's kit is a probiotic, a lining formula and L-glutamine, no prebiotic; GI Revive is lining nutrients and herbs only, no probiotic or prebiotic.",
+   "'one of the more complete gut-lining repair formulas' is dropped for GI Revive: it covers only the third category, which is the point a reader needs.",
+   "'You still need the rest of a gut protocol with it' becomes 'you'd still need a probiotic and a prebiotic with it' (what it leaves out, in the section's own categories; the phases are said in the first paragraph)."
+  ]
+ },
+ {
+  "id": "R8-P80",
+  "original": "I wouldn't start everyone off on the general \"gut cleanse\" stacks either, the ones built around oregano oil, wormwood, black walnut, berberine or other antimicrobial herbs. Those are for later (Phase 3), once you have more reason to suspect overgrowth, parasites, H. pylori or something else specific. (My own advice is different for H. pylori, where berberine works well: see Parasites, above.)",
+  "rewrite": "You'll also find \"gut cleanse\" stacks, built around oregano oil, wormwood, black walnut, berberine or other antimicrobial herbs. They kill bugs, like the herbal antibiotics in Phase 3, so they're only for when changing your diet hasn't cleared your symptoms. And even then I'd mostly skip them, because H2O2 works better without the side effects. The exception is berberine for H. pylori, the stomach bacteria that's usually behind heartburn you only get on an empty stomach: take it on its own, not in a cleanse stack (see Parasites, above).",
+  "changed_points": [
+   "Follows his own Phase 3 (\"AVOID most herbal antibiotics\"; H2O2 \"actually works better than the herbal antibiotics\" and \"worked a lot better without side effects\"): the cleanse stacks are like Phase 3's herbal antibiotics, only for when changing your diet hasn't cleared your symptoms (Phase 3's own trigger), and even then he'd mostly skip them. The approved wording sent them to Phase 3 as if Phase 3 recommends them.",
+   "'once you have more reason to suspect overgrowth, parasites, H. pylori or something else specific' becomes Phase 3's own trigger, 'when changing your diet hasn't cleared your symptoms'.",
+   "H. pylori is explained from his Parasites cause ('heartburn when your stomach is empty only, that's usually H. Pylori, and it's easily treated with berberine').",
+   "Berberine is to be taken on its own, not in a cleanse stack: it is the one herbal antibiotic he recommends, the others in those stacks are what he'd skip."
+  ]
+ },
+ {
+  "id": "R8-P81",
+  "original": "Start with low doses, especially of prebiotics, resistant starch, butyrate-support products and probiotics. And if you have severe pain, GI bleeding, fever, dehydration, rapid weight loss, an active IBD flare, cancer, immune suppression, a pregnancy, or another complex medical condition, don't stack supplements on your own, work with a qualified clinician instead.",
+  "rewrite": "Whichever kit you get, start each part at a low dose and build up as your gut gets used to it. That goes most for the prebiotic (resistant starch is one too), since your gut bacteria make gas when they ferment it, and for the probiotic, which can bloat you or upset your stomach at first as well.\n\nBleeding from your gut or fast weight loss can mean something more serious that supplements won't fix, so see a doctor before you start. So can bad pain or a fever, and so can getting dehydrated. If you're pregnant or your immune system is weak, work out what's safe with your doctor instead of putting a stack together yourself, since berberine isn't safe in pregnancy, and probiotics are live bacteria that a weak immune system can't always keep in check. That goes for an IBD flare too, and for cancer (see the glutamine caution above) or another serious illness.",
+  "changed_points": [
+   "Start low gets its reason per part (prebiotics: gut bacteria make gas when they ferment them; probiotics can bloat or upset the stomach at first) and 'build up as your gut gets used to it'; 'butyrate-support products' are covered by 'each part' of the kit, and resistant starch is named as a prebiotic.",
+   "The conditions are split by what they call for: bleeding from the gut, fast weight loss, bad pain, a fever and dehydration can mean something supplements won't fix, so see a doctor before starting; pregnancy, a weak immune system, an IBD flare, cancer or another serious illness change what's safe, so work it out with a doctor instead of putting a stack together yourself.",
+   "Adds the reasons for three of them, each from a source: probiotics are live bacteria that can be risky with a weak immune system (NCCIH); berberine isn't safe in pregnancy (NCCAM's goldenseal page: avoid in pregnancy, berberine can cause or worsen jaundice in newborns); glutamine's cancer caution earlier in the article.",
+   "'another complex medical condition' becomes 'another serious illness'; 'a qualified clinician' becomes 'your doctor'."
+  ]
+ },
+ {
+  "id": "R8-CAUTION",
+  "original": "CAUTION: cancer cells that multiply really fast can grab glutamine too, to fuel their growth. So if you have an active colon or liver cancer, don't raise the dose that high. The liver is on that list because it's where the glutamine goes first, through the portal vein.",
+  "rewrite": "CAUTION: cancer cells that multiply really fast can grab glutamine too, to fuel their growth. So if you have an active colon or liver cancer, don't raise the dose that high. The liver is on that list because the blood from your gut goes straight there, through the portal vein, so a big dose of glutamine reaches your liver before anywhere else.",
+  "changed_points": [
+   "States why the portal vein matters: the blood from the gut goes straight to the liver, so a big dose of glutamine reaches the liver before anywhere else (the original said only that the liver is where glutamine goes first)."
+  ]
+ }
+]

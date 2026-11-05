@@ -1,0 +1,26 @@
+[
+ {
+  "sentence": 4,
+  "quote": "oncologist",
+  "gap": "What is an oncologist? Is it a cancer doctor, and is that who I'd ask even if my own doctor prescribed the glutamine?",
+  "id": "L1",
+  "status": "drop",
+  "note": "the cancer doctor; the people this caution is for, with an active cancer, have one, and it's the word of the wording he approved on card 1 (his own article says \"get cleared by a gastroenterologist\" the same way). Three readers asked; on the card"
+ },
+ {
+  "sentence": 4,
+  "quote": "active cancer",
+  "gap": "What counts as active? Does it include cancer I had in the past, or only cancer being treated right now?",
+  "id": "L2",
+  "status": "drop",
+  "note": "the original's word, kept; what counts as active is the oncologist's call, which the caution sends the reader to"
+ },
+ {
+  "sentence": 4,
+  "quote": "check with your oncologist before you take the 5g",
+  "gap": "What would the oncologist be checking, and what might they tell me: that I should skip glutamine, or take less?",
+  "id": "L3",
+  "status": "drop",
+  "note": "what the oncologist decides (whether glutamine is safe with your cancer, and how much) is the point of sending the reader there; card 1's wording, approved"
+ }
+]

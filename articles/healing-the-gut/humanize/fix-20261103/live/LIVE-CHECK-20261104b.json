@@ -1,0 +1,18 @@
+{
+ "check": "PASS",
+ "asked": "Joel's batch-8 answers, 2026-11-04 21:01 UTC: all 22 approved; my reply of 20:51 UTC had said they'd go in after a web-app check of each changed paragraph, with a second update of his post and no email (his \"don't email anyone\" of 20:27 UTC)",
+ "post": {
+  "id": 176569317,
+  "url": "https://ibogaqueen.substack.com/p/healing-the-gut-naturally",
+  "audience": "only_paid",
+  "post_date": "2025-10-25T15:51:26.358Z",
+  "updated_at": "2026-11-04T21:35:29.786Z",
+  "wordcount_substack": 3614
+ },
+ "before": "The editor's text blocks equal r11's, what was put in at 20:44 UTC (UPDATE-PLAN-2.json's base, 95 of 95): he hadn't changed the post since. On load Substack had put an empty paragraph above the opening picture (55 top-level nodes for r11's 54); update2.js keeps it.",
+ "what_went_in": "r12 (r12/r12.html, SHA-256 73dac80a0b56cf73f75d7878c956c2db49f243fc7af3e8c9c6eb1b23b80073bb): r11 with his 22 approved batch-8 changes, checked in the web app (r12/README.md).",
+ "how": "UPDATE-PLAN-2.json (SHA-256 1cf3274b20d607fa4e139d2e5cb8e517724645873da37fa1e31912d2ef38a658) and r12.html fetched in the tab from commit 57e3306d97e96777dc4745e004e613fe9cb25de9 and checked by SHA-256; update2.js (gate E332) replaced only the 12 top-level nodes whose text changed (12 steps), every other node kept as the same object, the six native blocks carried as the same nodes, the 34 links in order, the result's 95 blocks equal to the plan's; dispatch.js applied it. Two earlier runs refused before anything changed (the leading empty paragraph; then changes inside lists unseen), each fixed and pushed. The draft saved (21:34:37 UTC), its draft_body read back equal to the plan. Continue, then 'Update now' with every setting as it was ('Send via email and the Substack app' unchecked, nothing scheduled).",
+ "after": "The published post, read through Substack's API in the signed-in tab: 95 blocks, every one equal to the plan's (body_html SHA-256 4f3ffbf65e2c2578531a50b515bf97174a02d049fff4bb032b7cfbca365e784e, 36,973 characters), 'Phase 1 of the recipe below' in it, audience only_paid, updated_at 2026-11-04T21:35:29Z; the draft API: should_send_email false, email_sent_at null.",
+ "date_in_title_or_subtitle": "none, as before (E323 had nothing to change)",
+ "not_done": "nothing shared from the share page Substack opened after the update"
+}

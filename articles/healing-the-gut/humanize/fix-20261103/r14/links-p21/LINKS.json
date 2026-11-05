@@ -1,0 +1,85 @@
+[
+ {
+  "sentence": 1,
+  "quote": "Take 5g a day",
+  "gap": "Take it how: is pure glutamine a powder or a pill I buy, and how do I measure out 5g? And do I take it with meals or apart from them, if the point is that it gives the cells energy faster than food?",
+  "id": "L1",
+  "status": "drop",
+  "note": "how to take it (powder or pill, with meals or apart) isn't in his text; this reader and the P20 draft's reader both asked: on his card"
+ },
+ {
+  "sentence": 2,
+  "quote": "The point of that baseline",
+  "gap": "If the 5g is there to counter damage from hard training, is it for me at all if I don't train like that? What does it do for a leaky gut, which is what this section is about?",
+  "id": "L2",
+  "answer": "to keep your enterocytes fed",
+  "raised": "Take 5g a day as a baseline",
+  "note": "the baseline's purpose for every reader, from the paragraph before (glutamine is the main fuel for your enterocytes); training becomes its second job: his card 4"
+ },
+ {
+  "sentence": 2,
+  "quote": "the breakdown of the gut lining that high-intensity or high-volume training causes",
+  "gap": "How does exercise break down the gut lining? Is it the same loosening of the tight junctions as above? I thought exercise was good for the body, and nothing so far said it harms the gut.",
+  "id": "L3",
+  "answer": "While you train, your body sends blood away from your gut to your working muscles",
+  "raised": "training causes, like CrossFit or intense cardio",
+  "note": "van Wijck 2012; the 2025 systematic review (PMC12175863): blood goes to the working muscles, away from the gut"
+ },
+ {
+  "sentence": 2,
+  "quote": "high-volume training",
+  "gap": "What does \"volume\" mean for training: long hours, many sessions a week, lots of repetitions?",
+  "id": "L4",
+  "answer": "hard or long training",
+  "raised": "hard or long training",
+  "note": "plain words for high-intensity or high-volume"
+ },
+ {
+  "sentence": 2,
+  "quote": "like CrossFit or intense cardio",
+  "gap": "What is CrossFit? And where is the line: does a daily run, a gym class or a long bike ride count, or only extreme workouts?",
+  "id": "L5",
+  "status": "drop",
+  "note": "his examples, kept; \"hard or long\" now says which kind of training, so a walk or a gym class isn't what's meant"
+ },
+ {
+  "sentence": 3,
+  "quote": "an acute exposure",
+  "gap": "Exposure to what: a germ, a poison, something in the air or in my food? Does \"acute\" mean severe, or sudden and short? And is the extra glutamine then for my immune cells or for my gut lining?",
+  "id": "L6",
+  "status": "drop",
+  "note": "his dose sentence, unchanged: it read Human Medium, then High, in the pair checks (#145, #146), outside the Low window; E350, the window's sentences only"
+ },
+ {
+  "sentence": 3,
+  "quote": "your whole system is under a lot of stress",
+  "gap": "Which stress: worry and pressure, or physical strain on the whole body like an illness, an injury or surgery? And what does stress do to the gut lining, or to my glutamine, that a bigger dose makes up for?",
+  "id": "L7",
+  "status": "drop",
+  "note": "his dose sentence, unchanged: it read Human Medium, then High, in the pair checks (#145, #146), outside the Low window; E350, the window's sentences only"
+ },
+ {
+  "sentence": 3,
+  "quote": "active IBD (Crohn's or colitis)",
+  "gap": "What do IBD, Crohn's and colitis mean, and what makes them \"active\"? Which part of the gut do they damage: the small intestine, whose cells glutamine feeds, or the large one?",
+  "id": "L8",
+  "status": "drop",
+  "note": "his dose sentence, unchanged: it read Human Medium, then High, in the pair checks (#145, #146), outside the Low window; E350, the window's sentences only"
+ },
+ {
+  "sentence": 3,
+  "quote": "raise it gradually",
+  "gap": "How gradually: by how much, over how many days? And why not straight up: what happens if I jump from 5g to 30g?",
+  "id": "L9",
+  "status": "drop",
+  "note": "his dose sentence, unchanged: it read Human Medium, then High, in the pair checks (#145, #146), outside the Low window; E350, the window's sentences only"
+ },
+ {
+  "sentence": 3,
+  "quote": "to 10-30g a day",
+  "gap": "How do I pick a number between 10 and 30: does each of the three cases get its own amount? And for how long, before I go back to 5g?",
+  "id": "L10",
+  "status": "drop",
+  "note": "his dose sentence, unchanged: it read Human Medium, then High, in the pair checks (#145, #146), outside the Low window; E350, the window's sentences only"
+ }
+]

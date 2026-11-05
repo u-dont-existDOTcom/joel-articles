@@ -1,0 +1,19 @@
+{
+ "turn": "2026-11-04 13:59",
+ "how": "make_payload.py from r07.html (r06's builder with r07's source); the same temporary draft as r06, its body cleared with real keystrokes (click, ctrl+a, Delete) after the title was checked, then pasted with r06/substack/paste_payload_lane.js in the desktop app's built-in browser, where his Substack is signed in",
+ "prediction": "gut-article-whole#105 in pangram-ledger.jsonl, frozen before the paste: AI at 0.35",
+ "A": {
+  "title": "Healing the Gut, draft A (temp, delete after)",
+  "editor": "https://ibogaqueen.substack.com/publish/post/223467456",
+  "payload_url": "https://raw.githubusercontent.com/u-dont-existDOTcom/joel-articles/1e9d1e45de88b21a020be2a9cd4a994084111d11/articles/healing-the-gut/humanize/fix-20261103/r07/substack/PAYLOAD-A.html",
+  "payload_sha256": "06171f495251e9e7a4c0ed8bc5b5ba61a2ebc6df79240c838a228a1f49a780c0",
+  "editor_words": 3387,
+  "words_match": "true against the payload's words counted as the editor shows them (88f4736a...); the first PAYLOAD.json had split words at every link's edge ('strategy .', 3,425 words), so make_payload.py now counts them per block",
+  "draft_updated_at": "2026-11-04T14:16:34.351Z",
+  "secret_link_cache_key": "gut-r07-a-1",
+  "rendered_check": "74 lines, 20,225 characters, SHA-256 84a87ddb6fbccfb1a4200270453c9d80d8e68f696e18bba14d2d991a3ed9bb18: CHECKED-TEXT-A.txt exactly (tools/humanization/substack_rendered_check.js, in the built-in browser and again in the Claude in Chrome browser)"
+ },
+ "pangram": "The Claude in Chrome browser (the one connected, 'Browser 1', Linux; not his Brave, gate E353) has the Pangram extension: its label next to the author's name read 'Human'. Its 'Click to view full analysis' opens the extension's side panel, which the session can't read, so the result page has to come from Joel. The secret link was also opened in his own Brave from his laptop's shell at about 14:25 UTC ('Opening in existing browser session').",
+ "result": "came later: Joel's link of 18:26 UTC (https://www.pangram.com/feed/9c94634b-1069-4b5c-8ae6-1d976354d52a), sent as r10's, is this check: its text is CHECKED-TEXT-A.txt exactly (SHA-256 84a87ddb...) and it was made at 14:18 UTC. Mostly Human Written, 93.1% human, 3,450 words: Human High 12, Human Medium 10, Human Low 4, AI Low 2, AI Medium 2, AI High 2 (RESULT-A.json, WINDOWS.md). Every AI window is in the stacks section, which r08 to r10 changed. Its ledger prediction (#105) had been voided as unscored at about 16:45 UTC, before the page came.",
+ "secret_links": "not recorded: anyone with one can read the draft"
+}

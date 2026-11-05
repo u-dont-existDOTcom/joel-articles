@@ -1,0 +1,56 @@
+[
+ {
+  "id": "G112",
+  "original": "CAUTION: cancer cells that multiply really fast can grab glutamine too, to fuel their growth. So if you have an active colon or liver cancer, don't raise the dose that high. The liver is on that list because the blood from your gut goes straight there, through the portal vein, so a big dose of glutamine reaches your liver before anywhere else.",
+  "rewrite": "CAUTION: a lot of cancers feed on glutamine too. Your enterocytes take in a lot of it as soon as it reaches them, but not all of it, and the rest gets into your blood. They can only take in so much at a time, and the bigger the dose, the more of it gets into your blood. So if you have an active cancer, check with your oncologist before you take the 5g, and especially before you go up to the 10-30g.",
+  "changed_points": [
+   {
+    "change": "the caution covers any active cancer, not only colon or liver cancer",
+    "reason": "his card 1, approved (2026-11-05): swallowed glutamine mostly doesn't reach the colon, and a tumor in the liver is fed mainly by the hepatic artery, not the portal vein"
+   },
+   {
+    "change": "the reader is told to check with their oncologist, before taking the 5g and especially before going up to the 10-30g",
+    "reason": "his cards 1 and 2, approved: the original only ruled out the 10-30g; card 2 folds whether the 5g is fine into card 1's check"
+   },
+   {
+    "change": "the portal-vein sentence goes",
+    "reason": "his card 1, approved: its reason didn't hold for a tumor in the liver"
+   },
+   {
+    "change": "\"cancer cells that multiply really fast can grab glutamine too, to fuel their growth\" becomes \"a lot of cancers feed on glutamine too\"",
+    "reason": "the reason for the wider caution: many tumors use glutamine avidly (Souba 1993, https://pubmed.ncbi.nlm.nih.gov/8257221/); \"to fuel their growth\" goes as the tell panel's agreed filler (the purpose is plain from \"feed on\"). Check that \"feed on\" keeps the original's point"
+   },
+   {
+    "change": "adds \"Your enterocytes take in a lot of it as soon as it reaches them, but not all of it, and the rest gets into your blood\"",
+    "reason": "the caution's own link, which its portal-vein sentence carried for the liver alone: fresh readers asked how swallowed glutamine reaches a cancer elsewhere, when the paragraph before has the enterocytes taking it in as soon as it reaches them. Sources: the gut and liver take up about 74% of a small swallowed dose on its first pass and 53% of a large one (Hankard 1995, https://pubmed.ncbi.nlm.nih.gov/7485479/); oral doses raise blood glutamine, more with bigger doses (Ziegler 1990, https://scilit.com/publications/3818c7c307b06a89e57d20b459c23ead). Check that this is true"
+   },
+   {
+    "change": "adds the reason for \"especially\" as its own sentence before the instruction: \"They can only take in so much at a time, and the bigger the dose, the more of it gets into your blood\"",
+    "reason": "two fresh readers asked why the higher dose is worse and what limits the uptake; sources: Hankard 1995 (the gut and liver take up 74% of a small dose on the first pass, 53% of a large one: a smaller share of a bigger dose); Ziegler 1990 (a dose-related rise in blood glutamine). Check that this is true"
+   }
+  ]
+ },
+ {
+  "id": "G113",
+  "original": "Take 5g a day as a baseline. The point of that baseline is to counter the breakdown of the gut lining that high-intensity or high-volume training causes, like CrossFit or intense cardio. If your immune system is dealing with an acute exposure, if your whole system is under a lot of stress, or if you have active IBD (Crohn's or colitis), raise it gradually to 10-30g a day.",
+  "rewrite": "Take 5g a day as a baseline, to keep your enterocytes fed. The 5g also counters the breakdown of the gut lining that hard or long training causes, like CrossFit or intense cardio. While you train, your body sends blood away from your gut to your working muscles, so your enterocytes get less oxygen and fuel. But the glutamine you swallow still gets to them, straight from inside your gut. If your immune system is dealing with an acute exposure, if your whole system is under a lot of stress, or if you have active IBD (Crohn's or colitis), raise it gradually to 10-30g a day.",
+  "changed_points": [
+   {
+    "change": "adds the baseline's purpose for every reader: \"to keep your enterocytes fed\"",
+    "reason": "a LINK from the paragraph before (glutamine is the main fuel for your enterocytes): two fresh readers asked what the baseline is for, and whether it's for them at all if they don't train"
+   },
+   {
+    "change": "\"The point of that baseline is to counter the breakdown of the gut lining that high-intensity or high-volume training causes\" becomes \"The 5g also counters the breakdown of the gut lining that hard or long training causes\": countering training's damage becomes the baseline's second job, not its whole point, so the 5g is everyone's baseline",
+    "reason": "his card 4, approved (\"go ahead\", 2026-11-05): fresh readers asked whether the baseline is for them at all if they don't train; the last sentence's \"raise it gradually\" already treats the 5g as everyone's starting point. This reading goes to him on the card as my choice, with the other one (5g only for people who train hard). Check that the rewrite still says the 5g counters what hard training does to the lining"
+   },
+   {
+    "change": "\"high-intensity or high-volume training\" becomes \"hard or long training\"",
+    "reason": "plain words for the same two kinds (a newcomer asked what \"volume\" means); check it doesn't narrow or widen them"
+   },
+   {
+    "change": "adds how training breaks the lining down, and how the 5g gets round it: \"While you train, your body sends blood away from your gut to your working muscles, so your enterocytes get less oxygen and fuel. But the glutamine you swallow still gets to them, straight from inside your gut.\"",
+    "reason": "a LINK the newcomer reads asked for (\"How does exercise break down the gut lining? I thought exercise was good for the body\"; \"the blood carries them?\"): strenuous exercise redistributes blood to the working muscles and skin, which significantly reduces blood flow to the gut, leading to hypoperfusion and loss of epithelial integrity (van Wijck 2012, abstract: https://pubmed.ncbi.nlm.nih.gov/22517770/); high-intensity or prolonged exercise diverts blood from the gut to the muscles, and the ischemia raises intestinal permeability, while moderate exercise like walking and yoga helps the barrier (systematic review, https://pmc.ncbi.nlm.nih.gov/articles/PMC12175863/). \"Starving\" ties it to the section's first paragraph (energy starvation: without energy, the barrier loosens). Check that this is true and not overstated The last sentence is the paragraph before's own point (\"your enterocytes can take it in as soon as it reaches them\"): two readers asked how swallowed glutamine could make up for what the blood no longer brings. Check it doesn't claim the glutamine replaces the oxygen"
+   }
+  ]
+ }
+]

@@ -175,6 +175,65 @@ class Ledger(unittest.TestCase):
         self.result('h1', 'Human')
         self.assertEqual(self.predict('h2', lineage='H', scope='stretch', diagnosis='its heading changed'), 0)
 
+    def test_an_article_check_waits_for_the_windows_a_section_check_showed(self):
+        """Joel, 2026-11-04 14:41 UTC: "no the whole article doesn't decide, we need to first fix any windows we can see
+        before we check the article" (the gut lane checked the article after its stacks section read AI alone, E354)."""
+        sec = 'I don\'t think there\'s one stack for everyone. Start with low doses of prebiotics and probiotics, then build up.'
+        self.assertEqual(self.predict(sec, lineage='S', scope='section', call='AI', key='sec'), 0)
+        res = self.dir / 'res.json'
+        res.write_text(json.dumps({'sec': {'sha256': L.sha256(sec), 'words': 19, 'prediction_short': 'AI',
+                                           'fraction_human': 0.05, 'version': '4.1',
+                                           'link': 'https://www.pangram.com/history/s1', 'windows': [
+                                               {'label': 'Human Written', 'confidence': 'High', 'words': 7,
+                                                'text': "I don't think there's one stack for everyone."},
+                                               {'label': 'AI-Generated', 'confidence': 'Medium', 'words': 12,
+                                                'text': ' Start with low doses of prebiotics and probiotics, then build up.'}]}}),
+                       encoding='utf-8')
+        self.assertEqual(L.main(['results', self.ledger, str(res)]), 0)
+        article = 'Intro words here.\n' + sec.replace("'", '’') + '\nMore words.'
+        sub = "pangram 4.1, Pangram's check of the Substack draft (free)"
+        base = ['predict', self.ledger, '--his', 'a test text of Joel\'s', '--lineage', 'A', '--scope', 'article', '--call',
+                'Human', '--chance', '0.6',
+                '--tells', 'the stacks paragraph', '--detector', sub, '--decides', 'whether the article is done']
+        # the AI window is still in the article (curly quotes and all): refused
+        self.assertEqual(L.main(base + ['--text', self.text(article)]), 2)
+        # an article check without its text can't be compared, so it is refused too
+        with self.assertRaises(SystemExit):
+            L.main(base + ['--sha', L.sha256(article)])
+        # fixed: the window's words are gone, so it may go
+        fixed = article.replace('Start with low doses of prebiotics and probiotics, then build up.',
+                                'Go slow with prebiotics at first; they make most people gassy.')
+        self.assertEqual(L.main(base + ['--text', self.text(fixed)]), 0)
+        # or named, with why it stays
+        self.assertEqual(L.main(base[:5] + ['B'] + base[6:] + ['--text', self.text(article + ' x'),
+                                                                 '--windows-ok', 'his words; sent to him as a help request']), 0)
+        # a later check that reads the same words Human (Medium or High) clears the window
+        para = 'Start with low doses of prebiotics and probiotics, then build up.'
+        self.assertEqual(self.predict(para, lineage='P', key='para'), 0)
+        res.write_text(json.dumps({'para': {'sha256': L.sha256(para), 'words': 12, 'prediction_short': 'Human',
+                                            'fraction_human': 1.0, 'version': '4.1', 'link': 'https://www.pangram.com/history/p1',
+                                            'windows': [{'label': 'Human Written', 'confidence': 'High', 'words': 12,
+                                                         'text': para}]}}), encoding='utf-8')
+        self.assertEqual(L.main(['results', self.ledger, str(res)]), 0)
+        self.assertEqual(L.open_windows(L.read(self.ledger), article), [])
+
+    def test_web_app_results_keep_their_ai_windows_for_the_article_rule(self):
+        """The web app reader's flagged windows were dropped (2026-11-04), so E354 couldn't see a web-app check's AI
+        windows, and its links came out with a double slash."""
+        sec = 'Start any kit at a low dose and build up as your gut gets used to it. Everything else here is fine.'
+        self.assertEqual(self.predict(sec, lineage='S', scope='section', call='AI', key='w1'), 0)
+        res = self.dir / 'res.json'
+        res.write_text(json.dumps({'w1': ['AI Detected', 0.2, 20, 'AI-Generated, Low, 15; Human, High, 5', '16:10:41', '/abc',
+                                          ['AI-Generated (15 words): Start any kit at a low dose and build up as your gut gets used to it.']]}),
+                       encoding='utf-8')
+        self.assertEqual(L.main(['results', self.ledger, str(res)]), 0)
+        r = L.find(L.read(self.ledger), key='w1')['result']
+        self.assertEqual(r['link'], 'https://www.pangram.com/history/abc')
+        self.assertEqual(r['windows'][0]['text'], 'Start any kit at a low dose and build up as your gut gets used to it.')
+        self.assertEqual(r['verdict'], 'Mixed')
+        seen = L.open_windows(L.read(self.ledger), 'Intro.\n' + sec)
+        self.assertEqual([(l, c) for l, _, c, _ in seen], [('S', 'Low')])
+
     def test_two_unexplained_misses_stop_the_lineage(self):
         self.predict('v1')
         self.result('v1', 'AI')
@@ -369,6 +428,55 @@ class SenseGate(unittest.TestCase):
         self.read_ai(t1)
         t2, r2 = self.files('If they want to leave, have someone go with them. Letting them move around is fine.')
         self.assertEqual(self.predict(t2, r2, ('--diagnosis', 'the leaving line made practical, moved')), 0)
+
+
+class FirstFix(SenseGate):
+    """Gate E368 (Joel, 2026-11-05 18:43 UTC, on the fuels stretch he fixed by joining sentences, putting back "converted
+    into" and moving the payoffs up: "why did you not check the same issue i always fix?"): a text of mine that reworks a
+    sentence which read below High goes to Pangram only with --first-fix saying what his usual fix did there first."""
+
+    OLD = ('Inside the mitochondria, it gets turned straight into alpha-ketoglutarate, or α-KG. The α-KG goes into the '
+           'citric acid cycle, which is how the mitochondria make their energy.')
+    NEW = ('Inside the mitochondria, it gets converted into alpha-ketoglutarate, or α-KG, which then goes into the citric '
+           'acid cycle, which is how the mitochondria make their energy.')
+    FIX = ('payoff: the energy point now lands in the same sentence as the conversion; join: the α-KG sentence joined to '
+           'the one before; plain: "turned straight into" back to "converted into"')
+
+    def window(self, label, conf, text):
+        res = self.dir / 'res.json'
+        res.write_text(json.dumps({'old': {'headline': 'Mostly Human Written', 'fraction_ai': 0.2, 'words': 40,
+                                           'windows': [{'label': label, 'confidence': conf, 'words': 30, 'text': text}],
+                                           'link': 'https://www.pangram.com/history/old'}}), encoding='utf-8')
+        L.main(['predict', self.ledger, '--his', 'his post', '--lineage', 'OLD', '--scope', 'paragraph', '--text',
+                self.files(text)[0], '--call', 'Human', '--chance', '0.6', '--human-tells', 'his voice', '--key', 'old'])
+        self.assertEqual(L.main(['results', self.ledger, str(res)]), 0)
+
+    def test_a_rework_of_a_window_below_high_says_what_his_fix_did_first(self):
+        self.window('AI-Generated', 'Medium', self.OLD)
+        t, r = self.files(self.NEW)
+        self.assertEqual(self.predict(t, r), 2)
+        self.assertEqual(self.predict(t, r, ('--first-fix', 'payoff: moved up')), 2)   # join and plain unsaid
+        self.assertEqual(self.predict(t, r, ('--first-fix', self.FIX)), 0)
+        self.assertEqual(L.read(self.ledger)[-1]['first_fix'], self.FIX)
+
+    def test_human_at_medium_is_below_high_too(self):
+        self.window('Human', 'Medium', self.OLD)
+        t, r = self.files(self.NEW)
+        self.assertEqual(self.predict(t, r), 2)
+
+    def test_a_window_read_human_high_or_text_left_alone_needs_nothing(self):
+        self.window('Human', 'High', self.OLD)
+        t, r = self.files(self.NEW)
+        self.assertEqual(self.predict(t, r), 0)
+
+    def test_unchanged_sentences_and_his_own_fix_need_nothing(self):
+        self.window('AI-Generated', 'Low', self.OLD)
+        t, r = self.files(self.OLD + ' Glutamine also provides nitrogen to help build new cells.')
+        self.assertEqual(self.predict(t, r), 0)
+        t2, _ = self.files(self.NEW)
+        self.assertEqual(L.main(['predict', self.ledger, '--lineage', 'H', '--scope', 'paragraph', '--text', t2,
+                                 '--call', 'Human', '--chance', '0.7', '--human-tells', 'his joins',
+                                 '--his', 'his F9-1 version']), 0)
 
 
 

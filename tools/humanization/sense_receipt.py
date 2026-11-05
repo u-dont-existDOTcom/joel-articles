@@ -45,6 +45,10 @@ The fields:
              order"; "we should move the non-cannabis para above all the cannabis info ... isn't that obvious?")
   questions  Q1 to Q9, docs/MAKING-SENSE.md's questions: "PASS: the evidence in the text" or "N/A: why it can't apply";
              "FAIL" blocks.
+  late_ok    optional {term: why}: a term a sentence of mine explains after the text has already used it, and why it
+             can't be explained where it is first used. Without it such a sentence fails (gate E369: Joel, 2026-11-05,
+             "make sure every term is introduced once at first"; "Colostrum is the first milk a cow makes ..." after
+             "Liposomal first-milking colostrum" read AI, Medium).
 """
 import argparse
 import hashlib
@@ -55,12 +59,15 @@ import sys
 
 SCHEMA = 'SENSE_RECEIPT_V1'
 QUESTIONS = {
-    'Q1': 'Why am I reading this sentence, and do I know it before I have to work through it? (the point first; a study '
-          'after the question it answers)',
+    'Q1': 'Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each '
+          'sentence and each paragraph; a study after the question it answers; a term explained where it is first used, '
+          'never in a sentence after it)',
     'Q2': 'What is each instruction for, said in the reader\'s terms, and is it something the helper does ("have someone '
           'go with them"), not a rule stated as a fact ("someone goes with them")?',
     'Q3': 'Which thing exactly? (pools of water, not water; any substance, not anything)',
-    'Q4': 'What does each word act on, or mean here? (adjunct remedy; known-genuine)',
+    'Q4': 'What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate '
+          'wouldn\'t know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) '
+          'left alone?',
     'Q5': 'Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)',
     'Q6': 'Is this the order the reader is thinking in, and does each idea sit next to what it continues?',
     'Q7': 'Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?',
@@ -68,6 +75,28 @@ QUESTIONS = {
     'Q9': 'Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)',
 }
 NO_PAYOFF = re.compile(r'^\s*(none|nothing|no payoff|n/?a|-+|\?|tbd|todo)\b', re.I)
+# A sentence that says what a term is: "Colostrum is the first milk ...", "liposomal means ...", "SCFAs are a ..."
+DEFINES = re.compile(r'^(?:the |a |an )?([A-Za-z][\w\-]*(?:[ \-][\w\-]+){0,3}?)\s+(?:is|are)\s+(?:a|an|the|what)\s'
+                     r'|^(?:the |a |an )?([A-Za-z][\w\-]*(?:[ \-][\w\-]+){0,3}?)\s+(?:means|stands for|refers to)\b', re.I)
+NOT_TERMS = {'this', 'that', 'it', 'these', 'those', 'there', 'here', 'which', 'what', 'each', 'one', 'he', 'she',
+             'they', 'we', 'you', 'i', 'the point', 'the problem', 'the reason', 'the exception', 'the rest', 'the idea'}
+
+
+def late_definitions(text, receipt):
+    """Gate E369 (Joel, 2026-11-05 18:43 UTC: "make sure every term is introduced once at first, like enterocytes my
+    readers won't know what those are"): sentences of mine that say what a term is after the text has already used the
+    term. Returns [(term, the defining sentence)], less any term the receipt's late_ok excuses with a reason."""
+    ok = {k.lower() for k, v in (receipt.get('late_ok') or {}).items() if len((v or '').strip()) >= 20}
+    out, before = [], []
+    for x in receipt.get('sentences', []):
+        s = x.get('s', '')
+        m = DEFINES.match(s)
+        term = (m.group(1) or m.group(2)).strip() if m else ''
+        if term and not x.get('his') and term.lower() not in NOT_TERMS and len(term) > 2 and term.lower() not in ok:
+            if any(re.search(r'(?<![\w-])%s(?![\w-])' % re.escape(term), b, re.I) for b in before):
+                out.append((term, s))
+        before.append(s)
+    return out
 
 
 def sha256(text):
@@ -156,6 +185,10 @@ def check(text, receipt):
                      % (c.get('point') or '?')[:50])
         if c.get('fate') not in (None, '', 'kept', 'changed', 'cut'):
             p.append('checked: fate must be "kept", "changed" or "cut"')
+    for term, s in late_definitions(text, receipt):
+        p.append('"%s" is explained in "%s", after the text has already used it: explain it where it is first used, in '
+                 'that sentence, and keep the point of the sentence first (gate E369; Joel, 2026-11-05: "make sure every '
+                 'term is introduced once at first"); or say in late_ok why it can\'t be' % (term, s[:70]))
     if mine and len((receipt.get('placement') or '').strip()) < 20:
         p.append('placement: say where the paragraph sits and why there, and what its first "also", "this" or "as for" '
                  'points to')

@@ -117,9 +117,67 @@ def is_miss(p):
     return bool(p['result']) and p['result'].get('right') is False
 
 
-def refusals(recs, rec):
-    """Why the budget rule (docs/PANGRAM-PRODUCTION-BUDGET-20261020.md) forbids this submission; empty means it may go."""
+def _norm(s):
+    s = (s or '').translate(str.maketrans({'‘': "'", '’': "'", '“': '"', '”': '"', ' ': ' '}))
+    return ' '.join(s.split())
+
+
+def open_windows(recs, text, min_words=5):
+    """E354 (Joel, 2026-11-04 14:41 UTC: "no the whole article doesn't decide, we need to first fix any windows we can see
+    before we check the article"): the windows the latest check of each lineage showed reading AI, or Human at Low
+    confidence, whose words are still in TEXT. Windows shorter than MIN_WORDS ("Dr.", "For H.") match anywhere, so they
+    are left to their longer neighbours. Returns (lineage, label, confidence, window text) for each."""
+    body, out = _norm(text), []
+    done = [p for p in state(recs).values() if p['result'] and not p['void']]
+    # in the order the checks were predicted (a correction line, appended later, belongs to its own prediction's place)
+    order = {r.get('id'): n for n, r in enumerate(recs) if r.get('type') == 'prediction'}
+    done.sort(key=lambda p: order.get(p.get('id'), 0))
+    last = {}
+    for p in done:
+        last[p['lineage']] = p
+
+    def bad(w):
+        return str(w.get('label') or '').startswith('AI') or str(w.get('confidence') or '') == 'Low'
+
+    def cleared(words, after):
+        # a later check that read these words inside windows that are all Human at Medium or High
+        for p in done[after:]:
+            ws = [w for w in p['result'].get('windows') or [] if isinstance(w, dict) and w.get('text')]
+            full, spans = '', []
+            for w in ws:
+                t = _norm(w['text'])
+                start = len(full) + (1 if full else 0)
+                full = (full + ' ' + t) if full else t
+                spans.append((start, len(full), w))
+            i = full.find(words)
+            if i >= 0 and not any(bad(w) for s, e, w in spans if s < i + len(words) and e > i):
+                return True
+        return False
+
+    for lineage, p in last.items():
+        at = done.index(p) + 1
+        for w in p['result'].get('windows') or []:
+            if not isinstance(w, dict) or not w.get('text') or not bad(w):
+                continue
+            words = _norm(w['text'])
+            if len(words.split()) >= min_words and words in body and not cleared(words, at):
+                out.append((lineage, str(w.get('label') or ''), str(w.get('confidence') or ''), words))
+    return out
+
+
+def refusals(recs, rec, text=None):
+    """Why the budget rule (docs/PANGRAM-PRODUCTION-BUDGET-20261020.md) forbids this submission; empty means it may go.
+    TEXT is the submission's text, when predict has it."""
     out = []
+    # E354: an article check comes after every window the smaller checks showed is fixed, or named with why it stays
+    if rec.get('scope') == 'article' and text is not None and not (rec.get('windows_ok') or '').strip():
+        seen = open_windows(recs, text)
+        if seen:
+            out.append('%d window(s) an earlier check showed reading AI or Low are still in this article; fix them first, '
+                       'or give --windows-ok saying for each why it stays (E354; Joel, 2026-11-04 14:41 UTC: "we need to first '
+                       'fix any windows we can see before we check the article"):\n    ' % len(seen)
+                       + '\n    '.join('%s: %s %s: "%s"' % (l, lab, c, t[:90] + ('...' if len(t) > 90 else ''))
+                                       for l, lab, c, t in seen))
     if rec['call'] not in CALLS:
         out.append('the call must be Human or AI, not %r' % rec['call'])
     if rec.get('chance') is not None and not 0 <= rec['chance'] <= 1:
@@ -544,6 +602,67 @@ def sense_gate(a, text, sha, line):
     return why
 
 
+FIRST_FIX_PARTS = ('payoff', 'join', 'plain')
+
+
+def fixed_windows(recs, text, min_words=6):
+    """Gate E368: the sentences TEXT reworks that sat in a window reading below High in an earlier check (AI at any
+    confidence, or Human at Low or Medium; windows under MIN_WORDS, the splits at "Dr." or "For H.", are left out): a
+    window sentence TEXT no longer has word for word but has a close version of (the same sentence reworked, ratio 0.6 or
+    more). Returns [(prediction id, label, confidence, the old sentence, its new version)]."""
+    import difflib
+    sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
+    import sense_receipt
+    new = [(s, _norm(s)) for s in sense_receipt.sentences(text)]
+    have = {n for s, n in new}
+    out, seen = [], set()
+    for r in recs:
+        if r.get('type') != 'result':
+            continue
+        for w in r.get('windows') or []:
+            if not isinstance(w, dict) or len((w.get('text') or '').split()) < min_words:
+                continue
+            label, conf = str(w.get('label') or ''), str(w.get('confidence') or '')
+            if not (label.startswith('AI') or conf in ('Low', 'Medium')):
+                continue
+            for s in sense_receipt.sentences(w['text']):
+                old = _norm(s)
+                if old in have or old in seen or len(old.split()) < 4:
+                    continue
+                best, score = None, 0.0
+                for t, n in new:
+                    m = difflib.SequenceMatcher(None, old, n)
+                    if m.real_quick_ratio() >= 0.6 and m.quick_ratio() >= 0.6 and m.ratio() > score:
+                        best, score = t, m.ratio()
+                if best is not None and score >= 0.6:
+                    seen.add(old)
+                    out.append((r.get('prediction'), label, conf, s, best))
+    return out
+
+
+def first_fix_gate(a, recs, text):
+    """Gate E368: a text of mine that reworks a sentence which read below High goes to Pangram only with --first-fix saying
+    what Joel's usual fix did there first: where each payoff now lands (moved up, or why it already leads), which short
+    sentences were joined, and which odd paraphrase went back to its plain word. Joel's own text (--his) needs none."""
+    if a.his or text is None:
+        return []
+    hits = fixed_windows(recs, text)
+    if not hits:
+        return []
+    said = (a.first_fix or '').lower()
+    missing = [k for k in FIRST_FIX_PARTS if not re.search(r'\b%s\w*\s*:\s*\S.{6,}' % k, said)]
+    if not missing:
+        return []
+    shown = '; '.join('"%s" (%s %s, %s)' % (old[:70], label, conf, pid) for pid, label, conf, old, new in hits[:3])
+    return ['this text reworks sentences that read below High before: %s%s. His usual fix comes first, before any '
+            'rewrite: say with --first-fix "payoff: where each changed sentence\'s point now lands (moved up so it '
+            'leads, or why it already does; a term defined where it is first used, not in a sentence after); join: '
+            'which short sentences became one, or why none should; plain: which odd paraphrase went back to the plain '
+            'word, or none" (missing: %s). Gate E368; Joel, 2026-11-05, on the fuels stretch he fixed by joining '
+            'sentences, putting back "converted into" and moving the payoffs up: "why did you not check the same issue '
+            'i always fix?"' % (shown, ' and %d more' % (len(hits) - 3) if len(hits) > 3 else '', ', '.join(missing))]
+
+
 def cmd_predict(a):
     recs = read(a.ledger)
     text = None
@@ -557,7 +676,7 @@ def cmd_predict(a):
     if not sha:
         raise SystemExit('give --text FILE (preferred) or --sha')
     line = lineage_view(state(recs), a.lineage)
-    gate = sense_gate(a, text, sha, line)
+    gate = sense_gate(a, text, sha, line) + first_fix_gate(a, recs, text)
     if gate:
         print('REFUSED: ' + '\n  '.join(gate), file=sys.stderr)
         return 2
@@ -566,9 +685,12 @@ def cmd_predict(a):
            'human_tells': a.human_tells or [], 'diagnosis': a.diagnosis, 'decides': a.decides, 'key': a.key, 'batch': a.batch,
            'detector': a.detector, 'shading_expected': a.shading_expected, 'emulate_share': a.emulate_share,
            'after_fix': a.after_fix, 'paid_ok': a.paid_ok, 'narrowed': a.narrowed, 'panel': a.panel,
-           'try': len(line) + 1, 'his': a.his, 'receipt': a.receipt, 'big_change': a.big_change,
+           'windows_ok': a.windows_ok, 'try': len(line) + 1, 'his': a.his, 'receipt': a.receipt,
+           'big_change': a.big_change, 'first_fix': a.first_fix,
            'text': text.rstrip('\n') if text is not None and len(text) < 20000 else None}
-    why = refusals(recs, rec)
+    if a.scope == 'article' and text is None:
+        raise SystemExit('an article check needs --text: its windows are compared with what the earlier checks showed (E354)')
+    why = refusals(recs, rec, text)
     if why:
         print('REFUSED: ' + '\n  '.join(why), file=sys.stderr)
         return 2
@@ -605,17 +727,41 @@ def cmd_result(a):
     return 0
 
 
+def compact_windows(s, flagged):
+    """The web app reader's windows, "label, confidence, words; ...", as dicts, each AI window with its text from the
+    flagged list ("AI-Generated (17 words): text", in the same order). Until 2026-11-04 the flagged texts were dropped,
+    so E354's article rule (open_windows) couldn't see a web-app check's AI windows."""
+    texts = []
+    for f in flagged:
+        head, _, body = str(f).partition(': ')
+        texts.append(body)
+    out, k = [], 0
+    for w in [w for w in s.split('; ') if w]:
+        parts = [x.strip() for x in w.rsplit(', ', 2)]
+        if len(parts) != 3:
+            out.append(w)
+            continue
+        label, conf, words = parts
+        d = {'label': label, 'confidence': conf, 'words': int(words) if words.isdigit() else words}
+        if label.startswith('AI') and k < len(texts):
+            d['text'] = texts[k]
+            k += 1
+        out.append(d)
+    return out
+
+
 def cmd_results(a):
     recs = read(a.ledger)
     res = json.loads(pathlib.Path(a.results).read_text(encoding='utf-8'))
     n = 0
     for key, r in res.items():
         if isinstance(r, list):  # compact form [headline, ai, words, windows, utc, link tail, flagged]
-            r = {'headline': r[0], 'likelihood': r[1], 'words': r[2], 'windows': r[3], 'utc': r[4], 'link': r[5]}
+            r = {'headline': r[0], 'likelihood': r[1], 'words': r[2], 'windows': r[3], 'utc': r[4], 'link': r[5],
+                 'flagged': r[6] if len(r) > 6 else []}
         if isinstance(r.get('windows'), str):
             # the compact form's windows are one string, "label, confidence, words; ..." (2026-11-01: read as a string,
             # its characters were taken for windows, and every result came out Mixed)
-            r['windows'] = [w for w in r['windows'].split('; ') if w]
+            r['windows'] = compact_windows(r['windows'], r.get('flagged') or [])
         p = find(recs, key=key, open_only=not a.correct)
         if not p:
             continue
@@ -624,7 +770,7 @@ def cmd_results(a):
         verdict = verdict_of(r.get('headline'), r.get('windows'), r.get('fraction_ai'))
         link = r.get('link') or ''
         if link and not link.startswith('http'):
-            link = 'https://www.pangram.com/history/' + link
+            link = 'https://www.pangram.com/history/' + link.lstrip('/')   # the compact form's tail is "/uuid"
         rec = result_rec(p, verdict, link, {'headline': r.get('headline'), 'ai_fraction': r.get('fraction_ai'),
                                             'likelihood': r.get('avg_ai_likelihood', r.get('likelihood')),
                                             'words_read': r.get('words'), 'windows': r.get('windows'),
@@ -748,11 +894,15 @@ def main(argv=None):
                    'whose agreed tells this try fixes (tell_panel.py; E346)')
     p.add_argument('--after-fix', help='a section past its two tries: what the fix changed (his answer 28a, one more check '
                    'of the whole section after each fix)')
+    p.add_argument('--windows-ok', help='an article check while windows an earlier check showed reading AI or Low are still '
+                   'in it: why each stays (E354; Joel, 2026-11-04: fix the windows we can see before checking the article)')
     p.add_argument('--receipt', help='the text\'s making-sense receipt (tools/humanization/sense_receipt.py), required for '
                    'a text of mine (gate E365)')
     p.add_argument('--his', help='the text is Joel\'s own words: whose, and from where (no receipt of mine needed)')
     p.add_argument('--big-change', help='a retry that changes more than 40%% of the words of the try before it: why every '
                    'small fix is spent (gate E361)')
+    p.add_argument('--first-fix', help='a text of mine that reworks sentences which read below High before: "payoff: ...; '
+                   'join: ...; plain: ...", what his usual fix did there first (gate E368)')
     p.set_defaults(fn=cmd_predict)
     p = sub.add_parser('result')
     p.add_argument('ledger')

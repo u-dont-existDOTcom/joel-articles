@@ -1,0 +1,78 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "text_sha256": "fba48c78022985df1c4e0096865854150be16da5db288b5d6b08747589e52c1b",
+ "text": "CAUTION: a lot of cancers feed on glutamine too, to fuel their growth. So if you have an active cancer, check with your oncologist before you take the 5g, and especially before you go up to the 10-30g. Your enterocytes take in a lot of the glutamine you swallow as soon as it reaches them, but not all of it, and the rest gets into your blood, where a cancer can get to it. They can only take in so much at a time, so the bigger the dose, the more of it gets into your blood.",
+ "section": "Some Causes of poor gut health",
+ "reader": "Someone with a leaky gut deciding whether and how to take glutamine (how much, when, and at what risk, cancer included), and where butyrate fits.",
+ "sentences": [
+  {
+   "s": "CAUTION: a lot of cancers feed on glutamine too, to fuel their growth.",
+   "payoff": "The reader with cancer knows the danger at once: cancers use glutamine too (his cards 1 and 2).",
+   "follows": "The caution follows the dose paragraph it qualifies."
+  },
+  {
+   "s": "So if you have an active cancer, check with your oncologist before you take the 5g, and especially before you go up to the 10-30g.",
+   "payoff": "The reader with an active cancer knows what to do right after the danger, before the reasons (the issue he always fixes: the payoff first).",
+   "follows": "The instruction follows from the danger just stated."
+  },
+  {
+   "s": "Your enterocytes take in a lot of the glutamine you swallow as soon as it reaches them, but not all of it, and the rest gets into your blood, where a cancer can get to it.",
+   "payoff": "The reader understands how swallowed glutamine reaches a cancer elsewhere: not all of it stays in the gut.",
+   "follows": "It answers the question the instruction raises: how can what I swallow reach my cancer?"
+  },
+  {
+   "s": "They can only take in so much at a time, so the bigger the dose, the more of it gets into your blood.",
+   "payoff": "The reader knows why the 10-30g is worse than the 5g: more of a big dose gets into the blood (Hankard 1995).",
+   "follows": "It explains the 'especially' of the instruction, after the route."
+  }
+ ],
+ "checked": [
+  {
+   "point": "glutamine before a run cut the gut's leak, even at the lowest dose",
+   "found": "Pugh 2017: 0.25, 0.5 and 0.9 g per kg of fat-free mass two hours before a 60-minute run at 30 C all lowered the permeability marker; 0.9 g/kg is 54g for a 70kg man at 15% fat, so 0.25 is about 15g (https://pmc.ncbi.nlm.nih.gov/articles/PMC5694515/)",
+   "still_needed": "yes: it gives the training reader a dose that was tested",
+   "fate": "changed"
+  },
+  {
+   "point": "up to 14g a day is safe long term",
+   "found": "Shao and Hathcock 2008: observed safe level 14 g/day; higher intakes tested without harm but not enough data for long-term safety (https://www.nutraingredients.com/Article/2008/04/18/crn-authors-risk-assessment-for-key-amino-acids/)",
+   "still_needed": "yes: the 10-30g is above it",
+   "fate": "kept"
+  },
+  {
+   "point": "take amino acids away from meals",
+   "found": "amino acids share transporters and can compete; there is too little human research to know at what dose, so labels say to take them without food (https://www.consumerlab.com/answers/must-i-take-amino-acid-supplements-on-an-empty-stomach/how_to_take_amino_acid)",
+   "still_needed": "yes: his answer, with its reason",
+   "fate": "kept"
+  },
+  {
+   "point": "glutamine for active Crohn's",
+   "found": "Cochrane 2016: two small trials found no benefit; insufficient evidence (https://www.cochrane.org/CD007348)",
+   "still_needed": "yes: the original raised the dose for active IBD",
+   "fate": "changed"
+  }
+ ],
+ "placement": "The fuels under leaky gut, in order: what starvation is, glutamine, its dose, the caution on the dose, then the colon's fuel; the caution's first \"So\" points to the warning before it.",
+ "questions": {
+  "Q1": "PASS: each term note comes right where the term first appears, or in the next sentence, and the sentence's own point still comes first; the caution's instruction now follows its warning",
+  "Q2": "PASS: every instruction says what it is for in the reader's terms (take it away from meals so food doesn't compete; check with your oncologist before the 5g)",
+  "Q3": "PASS: each term note names the exact thing (the A1 type of casein protein; the seals between the cells of your gut lining; the first milk a cow makes after giving birth)",
+  "Q4": "PASS: each new \"it\", \"that\" and \"this\" has its object in the sentence before",
+  "Q5": "PASS: each \"so\", \"but\" and \"because\" has the claim it turns on said before it",
+  "Q6": "PASS: the notes sit where a reader first needs them; nothing moved except the caution's instruction, up to where a reader with cancer needs it",
+  "Q7": "PASS: each note helps this reader act on the sentence it explains",
+  "Q8": "PASS: no item moved between groups",
+  "Q9": "PASS: the long notes are their own short sentences (stress, colostrum, BPC-157), one step each"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first; a study after the question it answers)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

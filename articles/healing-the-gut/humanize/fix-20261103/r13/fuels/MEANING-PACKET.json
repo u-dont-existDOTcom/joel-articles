@@ -1,0 +1,17 @@
+[
+ {
+  "id": "G001",
+  "original": "L-Glutamine (watch Dr. Rhonda vid) is the main fuel for your enterocytes, and for your immune cells when they're activated. It doesn't have to go through the complicated digestive steps other nutrients do. Inside the mitochondria, it gets turned straight into alpha-ketoglutarate, or α-KG. The α-KG goes into the citric acid cycle, which is how the mitochondria make their energy. So that's why consuming pure glutamine gives energy to those cells faster than eating food. They then use their extra energy to repair the gut lining by pulling the tight junctions together, and that keeps LPS from getting through. Glutamine also provides nitrogen to help build new cells.",
+  "rewrite": "L-Glutamine (watch Dr. Rhonda vid) is the main fuel for your enterocytes, and for your immune cells when they're activated. Most food has to be digested before your cells can use it, and for protein that means being broken down into amino acids. But glutamine already is an amino acid, so your enterocytes can take it in as soon as it reaches them. Their mitochondria (the part of a cell that makes its energy) turn it into alpha-ketoglutarate (a-KG). And a-KG is one of the acids in the citric acid cycle itself, the loop mitochondria make that energy with. So that's why consuming pure glutamine gives energy to those cells faster than eating food. They then use their extra energy to repair the gut lining by pulling the tight junctions together, and that keeps LPS from getting through. Glutamine also provides nitrogen to help build new cells.",
+  "changed_points": [
+   {
+    "change": "\"it gets turned straight into alpha-ketoglutarate\" became \"turn it into alpha-ketoglutarate\": \"straight\" goes",
+    "reason": "glutamine becomes glutamate first and then alpha-ketoglutarate, two steps (glutaminase, then transamination or glutamate dehydrogenase), so \"straight\" overstated it; the speed claim rests on skipping digestion, which the rewrite now explains"
+   },
+   {
+    "change": "\"α-KG\" is written \"a-KG\"",
+    "reason": "his own spelling of it (his card of 2026-11-04 11:32 UTC: \"as it converts to a-KG\"); same thing"
+   }
+  ]
+ }
+]

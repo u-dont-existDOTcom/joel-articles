@@ -1,0 +1,44 @@
+[
+ {
+  "sentence": 1,
+  "quote": "Take 5g a day as a baseline.",
+  "gap": "Baseline for what, and what is it a starting point from: is 5g the minimum, and what is it supposed to do for me?",
+  "id": "L1"
+ },
+ {
+  "sentence": 2,
+  "quote": "That's enough even if you train hard or a lot",
+  "gap": "Why would training hard make me think I need more glutamine? Nothing so far has linked exercise to the gut, so what is \"enough\" being measured against?",
+  "id": "L2"
+ },
+ {
+  "sentence": 3,
+  "quote": "That kind of training breaks down the gut lining, because it pulls blood away from your gut to your muscles.",
+  "gap": "How does less blood flow to the gut break down its lining? And if training damages the lining, why is 5g still enough (what is this \"because\" answering)?",
+  "id": "L3"
+ },
+ {
+  "sentence": 4,
+  "quote": "acute exposure",
+  "gap": "Exposure to what (germs, food, toxins), and what does \"acute\" mean here?",
+  "id": "L4"
+ },
+ {
+  "sentence": 4,
+  "quote": "if your whole system is under a lot of stress",
+  "gap": "Which kind of stress (emotional, physical, illness), and why would it call for more glutamine?",
+  "id": "L5"
+ },
+ {
+  "sentence": 4,
+  "quote": "active IBD (Crohn's or colitis)",
+  "gap": "What is IBD, and what does \"active\" mean (as opposed to what)?",
+  "id": "L6"
+ },
+ {
+  "sentence": 4,
+  "quote": "raise it gradually to 10-30g a day",
+  "gap": "Why gradually: what goes wrong if I raise it fast? And why would these situations need so much more than 5g?",
+  "id": "L7"
+ }
+]

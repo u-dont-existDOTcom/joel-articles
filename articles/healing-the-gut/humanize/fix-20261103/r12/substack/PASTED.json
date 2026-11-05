@@ -1,0 +1,20 @@
+{
+ "turn": "2026-11-04 22:35",
+ "why": "the live post (r12, straight marks) read Mostly Human 93% in his extension (../live-check/); r10, curled, read 100% Human. This draft has the live post's words with every mark curled, so the two checks differ in the marks alone",
+ "how": "make_payload.py from r12.html (r10's builder with r12's source); a new temporary draft made in the desktop app's built-in browser, where his Substack is signed in, its title typed, then pasted with paste_payload_lane.js from the payload at bfdcdf1f",
+ "prediction": "gut-article-whole#143 in pangram-ledger.jsonl, frozen before the paste: AI at 0.40, --windows-ok saying every window of #142 stays on purpose",
+ "A": {
+  "title": "Healing the Gut, draft A (temp, delete after)",
+  "editor": "https://ibogaqueen.substack.com/publish/post/223548535",
+  "payload_url": "https://raw.githubusercontent.com/u-dont-existDOTcom/joel-articles/bfdcdf1ff6c18e6bda02ffbb2509cdb443e38e9a/articles/healing-the-gut/humanize/fix-20261103/r12/substack/PAYLOAD-A.html",
+  "payload_sha256": "61d7ab785215d81ff7bdce16de3002e231676edfaa7a53e4667374a50b33ebcb",
+  "editor_words": 3568,
+  "words_match": true,
+  "draft_updated_at": "2026-11-04T22:53:53.389Z",
+  "secret_link_cache_key": "gut-r12c-a-1",
+  "rendered_check": "75 lines, 21,144 characters, SHA-256 bd15a725a12506f19d0965b695800729463c70cdee1cbf4fdf589b999db86258: EXPECTED-TEXT-A.txt exactly, in the built-in browser; 116 curled marks in the page and no straight one. EXPECTED-TEXT-A.txt with its marks straightened is the live check's CHECKED-TEXT.txt exactly",
+  "opened": "only in the built-in browser, for the rendered check; the link goes to Joel in chat, to click himself (E353)"
+ },
+ "secret_links": "not recorded: anyone with one can read the draft",
+ "result": "waiting for his result page"
+}

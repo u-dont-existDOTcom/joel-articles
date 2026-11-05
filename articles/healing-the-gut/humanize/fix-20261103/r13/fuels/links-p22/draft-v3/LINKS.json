@@ -1,0 +1,42 @@
+[
+ {
+  "sentence": 1,
+  "quote": "cancer cells that multiply really fast",
+  "gap": "Is that every cancer, or only some kinds? If only some, does the caution still cover a colon or liver cancer that grows slowly?",
+  "id": "L1",
+  "status": "drop",
+  "note": "the original's own scope (which cancers, what \"active\" means, why the colon): not a link the original holds; to him on a card with the research (links-p22 L2/L4)"
+ },
+ {
+  "sentence": 1,
+  "quote": "active",
+  "gap": "What makes a cancer \"active\"? If mine was treated or is in remission, does the caution still apply to me?",
+  "id": "L2",
+  "status": "drop",
+  "note": "the original's own scope (which cancers, what \"active\" means, why the colon): not a link the original holds; to him on a card with the research (links-p22 L2/L4)"
+ },
+ {
+  "sentence": 1,
+  "quote": "colon or liver cancer",
+  "gap": "Why the colon? The next sentence explains the liver, but the part above made glutamine the fuel of the small intestine's cells, so how does a cancer in the colon (is that the large intestine?) get it, and why would the bigger dose matter for it more than the 5g?",
+  "id": "L3",
+  "status": "drop",
+  "note": "the original's own scope (which cancers, what \"active\" means, why the colon): not a link the original holds; to him on a card with the research (links-p22 L2/L4)"
+ },
+ {
+  "sentence": 2,
+  "quote": "a lot of it passes through your gut cells into the portal vein",
+  "gap": "Why does it pass through instead of being used? The part above had the gut cells taking glutamine in as their fuel: can they only use so much, so that with the 5g baseline little of it gets past them?",
+  "id": "L4",
+  "status": "drop",
+  "note": "the reader worked it out from the words (\"can they only use so much\"), which is the link; saying how much of a 5g dose gets past would add dose figures the original doesn't hold, and v2's \"more than your gut cells can use\" made the 10-30g sound wasted (draft-v2 read)"
+ },
+ {
+  "sentence": 2,
+  "quote": "while it's still concentrated",
+  "gap": "Concentrated until when: does it thin out once it's past the liver? And if a cancer anywhere else only gets it later and thinner, is the 10-30g fine for someone with a cancer somewhere else?",
+  "id": "L5",
+  "status": "drop",
+  "note": "\"first, while it's still concentrated\" is the liver's reason; whether 10-30g is fine with a cancer elsewhere is beyond the original (it only warns about colon and liver): to him on a card"
+ }
+]

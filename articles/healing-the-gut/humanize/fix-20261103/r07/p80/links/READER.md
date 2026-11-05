@@ -1,0 +1,4 @@
+S1 | "I wouldn't start everyone off on the general "gut cleanse" stacks either" | "Either" means there's something else you wouldn't start everyone on, but the paragraph before recommended three kits. What is the other thing? And why are cleanse stacks coming up now: are they the other kind of ready-made stack I'd find when I go shopping?
+S2 | "once you have more reason to suspect overgrowth, parasites, H. pylori or something else specific" | More reason than what, and what would that reason be: symptoms still there after the diet reset, a test, something else? How would I know which one of these I have?
+S2 | "H. pylori" | What is H. pylori?
+S3 | "My own advice is different for H. pylori, where berberine works well" | Different from what? Berberine was in the list you just said not to start with. So for H. pylori, do I take it early, before Phase 3, or do I take it on its own instead of a cleanse stack, still in Phase 3?

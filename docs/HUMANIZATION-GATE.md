@@ -32,7 +32,7 @@ These came from community sections 1 and 2 and apply to every rewrite of his wor
 - **Wording can flex when the meaning stays (Joel, 2026-10-01).** The preservation units are meaning, not wording.
 - **A question about a passage shows the passage (Joel, 2026-10-01).** Twice he had to go and find what a question was about: "you didn't give me the context, let me go check" and "you didn't give me the block to look at". Quote the passage in the question, or put the question on the side-by-side page beside it. Joel, 2026-11-03, on a card that cut a paragraph because "the paragraph before says each part": "you didn't show me the para before to look": a card that cuts a passage because another says it quotes that other passage too. This holds while a section is still in progress, and it holds for paragraph numbers: a reply that names "P9 to P13" sends the page that shows them, marked as work in progress (Joel, 2026-10-09 03:33: "i have no idea what p9 to p13 are because you didn't include the in-turn context file that you used to?"). I had held section 9's page back because step 9 says to show prose only once every gate passes; a question is the exception. Say what a proposal would do to the paragraph in plain words: "anchor each point in a section 1 community" read to him as moving the points to other sections.
 - **Don't ask what the rules already decide.** "Can the wording flex if the meaning stays?" got "that's already in the humanization guidelines, right?" Check the gate first, and ask only about the case it leaves open.
-- **Keep his exact characters (Joel, 2026-10-02), with one standard swap since 2026-11-03 (E337 (gut)).** His own paragraphs go in with the characters he typed: his straight apostrophes and quotes, his dashes, his spacing. The exception is E337 (gut)'s swap, now standard in every article: curly quote marks become straight, and each em dash, and each en dash with a space beside it, becomes his two hyphens, "--", with no spaces (`tools/humanization/typography_swap.py`; E353 (Inner Child), 2026-11-04; until then the swap made a spaced en dash). His section 3 P9 read 100% Human with his straight apostrophes ("who've", "they're") and 100% AI with the same words curled; my normalizing them was the only difference. His P7 passed both ways, so it isn't every paragraph, but nothing is gained by changing them. The ledger checks this with `must_contain_exact` (`tools/humanization/check_owner_edits.py`), which leaves quotes and apostrophes as they are. A Substack draft or post can't keep the straight marks: its editor curls every one on paste, and after an opening bracket it curls a double one the wrong way, so the Inner Child guide's first round-9 paste (2026-11-04) showed "(”You hated that coat”)" and two more of the typos Joel had fixed. So a payload for Substack carries its marks already curled, each the right way (`articles/inner-child-therapy/experiments/t119-substack/make_payloads.py`, `curl()`), and the swap's straight marks hold in the Markdown and the API checks; the dashes go into Substack as they are.
+- **Keep his exact characters (Joel, 2026-10-02), with one standard swap since 2026-11-03 (E337 (gut)).** His own paragraphs go in with the characters he typed: his straight apostrophes and quotes, his dashes, his spacing. The exception is E337 (gut)'s swap, now standard in every article: curly quote marks become straight, and each em dash, and each en dash with a space beside it, becomes his two hyphens, "--", with no spaces (`tools/humanization/typography_swap.py`; E353 (Inner Child), 2026-11-04; until then the swap made a spaced en dash). His section 3 P9 read 100% Human with his straight apostrophes ("who've", "they're") and 100% AI with the same words curled; my normalizing them was the only difference. His P7 passed both ways, so it isn't every paragraph, but nothing is gained by changing them. The ledger checks this with `must_contain_exact` (`tools/humanization/check_owner_edits.py`), which leaves quotes and apostrophes as they are. A paste into a Substack draft or post can't keep the straight marks: its editor curls every one on paste (an update through the editor's schema keeps them as given, so it carries the checked text's marks: E362 (gut)), and after an opening bracket it curls a double one the wrong way, so the Inner Child guide's first round-9 paste (2026-11-04) showed "(”You hated that coat”)" and two more of the typos Joel had fixed. So a payload for Substack carries its marks already curled, each the right way (`articles/inner-child-therapy/experiments/t119-substack/make_payloads.py`, `curl()`), and the swap's straight marks hold in the Markdown and the API checks; the dashes go into Substack as they are.
 - **A rewrite keeps the article's stance, checked against the whole article (Joel, 2026-10-02 00:52).** "Emulate changed 'without pretending that people arrive emotionally finished' into 'where people don't come in pre-healed' which is nearly the opposite of what i want. I DO want people to come in largely pre-healed, which is why I talk about that in the article. ... Did the reviewers not look at the article?" They hadn't, in the way that mattered: the blind trace compared each paragraph only with its own published version (it marked the change as a shift, and I let it through); the cold read saw only the section; the grounding reviewer had the whole article and missed it; and the stance ledger in step 1 had been skipped. So step 1's ledger is written before drafting, and every candidate gets the whole-article stance check before any Pangram call (step 4).
 - **"I want" as an opener for his opinion (Joel, 2026-10-02).** "'I want' is generally banned as a way to introduce my opinion, as it sounds very AI. But in this article it does work because we are talking about a community that I want." That is AGENTS.md's significance-staging rule and its exception (his own wish is the subject). In his own rewrite of that paragraph he still chose "I dream of".
 - **A quip that carries a point keeps the point (Joel, 2026-10-01).** Not every quip needs saving: an empty one can just go. Joel, 18:19: "we don't need to always save quips, but this quip was really meaningful and important, not like something stupid like 'it still matters on Tuesday'". The 1972 line said that forming a village had stopped sounding like a hippie leftover and started sounding like a backup plan. Said plainly as "sounded like a backup plan", it lost the first half. The trace had marked the drop, and I called it allowed. Joel put it back: "Suddenly, forming a village sounded like a good backup plan, not just a hippie utopian whim." So before cutting a quip, say what it claims; if the article needs that claim, the plain version carries all of it, both sides of a contrast included.
@@ -2321,6 +2321,101 @@ His message and his batch-1 page's answers, word for word: `articles/healing-the
   said, and why something comes where it does when it comes before the reader would want it, with his three fixes as
   examples. Before a draft goes to Pangram or to him, read it once more yourself as he did: does each sentence follow from
   the one before, and does each come when the reader wants it? This is E347's order, sentence by sentence.
+- **E353. The browser Claude in Chrome drives is not his Brave unless he says it is.** Joel, 2026-11-04 13:59 UTC, after
+  the whole-article check of r06: "i don't see anything opened in my brave ... you opened it in your own cloud browser",
+  with the result page he had found. I had opened the secret link through Claude in Chrome because the rules said his
+  extension was in Brave and to use Claude in Chrome "when it's connected"; the one browser connected (listed as "Browser
+  1", Linux) has the Pangram extension and his Pangram sign-in, but he can't see it, and its "Click to view full analysis"
+  opens the extension's side panel, which Claude in Chrome can't read (nor a page holding the extension's frame: it then
+  refuses every action on that tab). So:
+  - never call that browser his, or say he can see what it opens; it can give the label next to the author's name, which
+    is worth recording, but the full analysis comes from him;
+  - give him the secret link in the message, to click himself, and ask him for the result page
+    (`https://www.pangram.com/feed/<uuid>`), which any headless browser can then read without a sign-in. Don't open tabs
+    in his browser: Joel, 2026-11-04 20:08 UTC, after I had opened two on the same draft from his laptop's shell and he
+    sent the older one's page (r07's check, when r10's was wanted): "for future just give me the links to click because
+    what happens is you open tabs then i'm not here then someone else opens tabs etc and it gets lost. only takes me a
+    second";
+  - read the page's text before recording it: its SHA-256 has to be the checked text's (`substack_check_text.py`), and its
+    time has to come after the paste. A feed page keeps the text it first checked: r06's page still held r06's text after
+    r07 was pasted, and the page he sent at 18:26 UTC held r07's text (made at 14:18 UTC), so a recheck's result is a new
+    page, never an old link. When a recheck goes in the same draft, say in the message which link is the new one; a second
+    temporary draft with its own address (draft B) makes it unmistakable.
+- **E354. The whole article doesn't decide: every window a smaller check showed is fixed before the article is checked.**
+  Joel, 2026-11-04 14:41 UTC: "no the whole article doesn't decide, we need to first fix any windows we can see before we
+  check the article". The stacks section, with its two paragraphs redone, read AI by itself through the API (5% human; 12
+  of its 13 windows AI, his own paragraphs' included), and I went on to the whole-article check anyway, writing to him
+  that the section alone was "a harsher test than the article, and the whole-article recheck decides". A window that
+  reads AI or Low in a smaller check is what the article can't be trusted to hide: the next segmentation, or the next
+  Pangram version, can show it again. So `pangram_ledger.py predict --scope article` now compares the article's text with
+  every lineage's latest check: a window that read AI, or Human at Low confidence, whose words (five or more) are still in
+  the article and that no later check read Human at Medium or High, refuses the article check until it is fixed or
+  `--windows-ok` says why it stays. An article check now needs `--text`.
+  The same afternoon the rule turned out blind to web-app checks: `results` dropped the web app reader's flagged windows,
+  so their AI windows had no text to match. They're kept now (`compact_windows`), with each history link's double slash
+  gone. A web-app check's Human Low windows still come without text, so those are named by hand.
+- **E355. Read the draft itself, fresh, after every change: a word changed for a newcomer can break the sentence around it.**
+  Joel, 2026-11-04 16:00 UTC, on my kits paragraph: "your version, r08, makes no sense by the 6th word. Where is the "but"
+  coming from? You can't say that. read it. it only follows from "these" kits not "three kits" ... i literally changed
+  just "three" to "these" in this version and it went from mixed to 99% human". The newcomer read had asked "which kits,
+  since none have been named yet?", and I answered it by changing his "these" to "three": the meaning check passed it
+  (the meaning was the same) and nothing read the new sentence, whose "but" now answered nothing. On the start-low
+  paragraph he did the same kind of fix: "first i had to clarify your referents" ("since that's what your bacteria make
+  when they ferment it" became "since gas is what your bacteria make when they ferment the fiber or resistant starch"),
+  which took it from Possibly human to High; and on the kits, "gut lining" for my "lining". The tool already said to read
+  the draft again with a fresh reader; it wasn't enforced, and I skipped it. Now `hidden_links.py check` exits 1 until
+  the draft's current words have had their own fresh read (`make DRAFT DIR/draft`, a new reader, `collect DIR/draft`) and
+  each thing that reader can't follow is fixed, which means a new draft and another read, or dropped with a note saying
+  why the words are right. The brief now also asks what each "this", "that", "it", "these" or "those" points to, with his
+  three fixes as examples.
+  - The same answers: his three-category paragraph read AI only in a check with my kits after it; with the paragraph
+    before it, it read Human Written, 100% ("this isn't the problem"). When his words read AI only beside mine, mine are
+    the suspect: check his with what comes before, or alone, before suggesting he change them.
+- **E356. Do whatever makes it read well; here that was one small edit to each sentence that read AI in its section.**
+  Joel, 2026-11-04 16:41 UTC: "i fixed the whole section with a few minimal edits". The gut stacks section read AI
+  Detected, 18% AI, with its four AI windows in two paragraphs that read Human Written, 100% by themselves. His fix read
+  Human Written, 100% (600 words) and touched only those four sentences:
+  - a referent that points at everything just named: "Start any of these supplements or stacks" for "Start any kit" (my
+    "any of those repair kits" was narrower than the reader's question);
+  - a claim said as the common experience it is: "It's quite common for the prebiotic part especially to give you gas";
+  - a comma before "since";
+  - the stock line named for what it is: "the standard disclaimer applies: work out what to take with your doctor".
+  When I first wrote this lesson I added "never move paragraphs to fix a window". Joel, 18:26 UTC: "don't make a rule not
+  to move paragraphs, no, i didn't need to move them in this case to make it make sense. you do whatever you need to do
+  get it to read well." So the fix is whatever the reader needs: a move when the order is wrong for the reader, a word when
+  a referent or a claim is off. Here it was the words. The move I tried (#114) was made to shift windows, not for a reader,
+  and it read worse. His lead-in also gave way to one line ("A good stack should cover these 3 categories:"), once the
+  paragraph before it said what a stack is for (`articles/healing-the-gut/experiments/t10-answers/`).
+  (E353 to E356 follow pull request 290's E352, the neuro de-armoring lane's; the Inner Child lane's E353 in pull request
+  298, written at the same time, is cited as "E353 (Inner Child)", and the neuro de-armoring lane's E356 in pull request 296
+  as "E356 (neuro)", so cite these as "E353 (gut)" to "E356 (gut)". The next lesson in any lane is E357.)
+- **E362 (gut). What goes into the live post is the text that was checked, every character of it, quote marks included.**
+  2026-11-04, the gut article. r10's whole-article check read Human Written, 100% on a temporary draft, where the paste
+  had curled every quote mark and apostrophe. The two updates of his live post (r11, then r12) went in through the editor's
+  schema (`articles/healing-the-gut/humanize/fix-20261103/live/update.js`, `update2.js`), which keeps every character as
+  given, so all 116 marks went live straight, where his post had always shown them curled. His extension then read the live
+  post Mostly Human, 93% (`r12/live-check/`), with AI windows on words that hadn't changed since r10, his own "Does anyone
+  count their plants?" among them. The line above that says a Substack post "can't keep the straight marks" holds for a
+  paste, not for an update through the schema. So:
+  - An update gives each text node the characters the check read: marks curled the way the paste curls them
+    (`curl()`), dashes as they are, unless Joel decides otherwise for the post.
+  - After an update, compare the live post's text with the checked text character by character, not only block by block
+    with the marks made straight, and say what differs.
+  - Whether the straight marks or batch 8's words turned those windows is being tested: the same words with the marks
+    curled, in a temporary draft (`r12/substack/`, prediction #143). Its result goes here.
+- **E363 (gut). Cards go to him on the marking page the turn they're written, in the article, never held in a Markdown
+  list for a page to come.** 2026-11-05, the gut article. The turn before, I wrote four cards (the caution's reasons,
+  5g with an active cancer, two logic gaps in his P20, P21's Low sentences) into `r13/fuels/CARDS-DRAFT.md` and said the
+  page would come with draft A's result, so he answered them from a list. Joel, 15:18 UTC: "why did you not give me the
+  cards as the html file in context as the repo requires?" The rule was there (`AGENTS.md`, the marking page; E265, E280
+  to E282). I held the page to put two decisions on one, which no rule allows. How I could have seen it: a card is
+  ready for him the moment it's written; whatever comes later gets its own page or a second version of this one. So a turn
+  that leaves him a decision publishes its page (`tools/humanization/suggestion_review.py`) and links it, with the cards'
+  Markdown view beside it, in that turn's message (`docs/FIXING-AN-ARTICLE.md`, section 7).
+  (E357 to E359 are the neuro de-armoring lane's, in its section below, and E360 and E361 the bad trips lane's, written
+  at the same time as E362 (gut); cite these two as "E362 (gut)" and "E363 (gut)": other lanes have their own E362 to E367 (bad trips: E362 and
+  E365 to E367; neuro de-armoring: E363 and E364). E368 and E369 are this lane's again, after the bad trips lane's round
+  6, part two.)
 
 (The Inner Child lane's turn-116 lessons, written at the same time, are E337 and E338 (Inner Child), near the top. This section's E337 and E338 keep their numbers too, because this lane's records cite them: cite them as "E337 (gut)" and "E338 (gut)". The Inner Child lane's turn-117 lessons, written after them, are E340 and E341, near the top, and this section's E342, E345, E347 to E349 and E351 came after those; the neuro de-armoring lane's E343, E344 and E346, written at the same time, are in its section after this one, with its E350 in its pull request 290. The next lesson in either lane is E352.)
 
@@ -2592,7 +2687,41 @@ UTC). E362 above is the first's; these are the second's, and how the two were pu
 
 (The neuro de-armoring lane's E359 is just before the round 5 section; the bad trips lane's E360 to E362 and E365 to
 E367 are just above; E363 and E364 are the neuro de-armoring lane's, in its pull request 305. The next lesson in any
-lane is E368.)
+lane was E368 here; it is in the next section.)
+
+## What the gut article's batch-9 answers taught (2026-11-05, Joel's message of 18:43 UTC)
+
+- **E368. On any window below High, his usual fix comes first: where the point lands, the join, the plain word.** His
+  answer to card F9-1, my rewrite of the fuels stretch's AI windows: he took the stretch as it read in his post and fixed
+  it himself. "i basically just joined sentences to make it read more flowy and natural"; "it was also important to
+  replace 'turn staight into' to 'converted into'. i felt the first way you statted it sounded like ai trying to bypass
+  pangram with a paraphrase that looked strangely out of place"; "on the last span it was obviously the same issue as
+  always, payoffs coming too late for the reader. fixed that so it reads easily and now it's all high conf human ... why
+  did you not check the same issue i always fix?" The cause: my fix started from what a newcomer couldn't follow (E355)
+  and added the missing links, which made the stretch longer and the points later; nothing made me look first at where
+  each point lands, and the receipt (E365) asked for each sentence's payoff, not for where it comes. The same turn showed
+  it again in my own term notes: "Colostrum is the first milk a cow makes after giving birth, and liposomal means ..."
+  as a sentence after the item read AI-Generated Medium, and "BPC-157 is a lab-made short protein ..." after its item
+  Human Low; explained inside the sentence that first names each, both read Human, High alone and in their stretch
+  (`articles/healing-the-gut/humanize/fix-20261103/r15/`, #157, #167, #168, #170). Phase 2 read AI Detected 65% with the
+  point after two doctors and their books; the point first, as the other phases open, read Human, High (#162, #169).
+  What changed: `docs/MAKING-SENSE.md` question 1 asks where the point lands, of each sentence and each paragraph;
+  `docs/FIXING-AN-ARTICLE.md` item 17 puts his three fixes before any rewrite; and `pangram_ledger.py predict` refuses a
+  text of mine that reworks a sentence which read below High in any earlier check until `--first-fix "payoff: ...; join:
+  ...; plain: ..."` says what each did there (Joel's own text, `--his`, needs none).
+- **E369. Every term a reader wouldn't know is explained once, where it is first used; ask only when unsure.** Joel,
+  the same message: "make sure every term is introduced once at first, like enterocytes my readers won't know what those
+  are. we don't need to introduce more common stuff like a vitamin name of course"; "you don't need to ask me when making
+  those obvious changes like introducing the term at first rather than later, only if you're not sure if you need to
+  introduce a term because not sure if a reader would know it, assume they have some basic knowledge of like a high
+  school graduate that's about all". The reader is a high-school graduate: enterocytes, zonulin, BPC-157 and FODMAPs get
+  explained; a vitamin doesn't. The explanation goes in the sentence that first uses the term (an appositive, "called
+  X", or a "which" clause, never a bare "(X)": E342), with the sentence's own point kept first (E368). These changes go
+  in without a card and are listed for him; a term I can't explain without guessing goes to him as a question (his
+  "HRP"). `sense_receipt.py check` refuses a sentence of mine that explains a term after the text has already used it,
+  unless the receipt's `late_ok` says why it can't be explained there.
+
+(E368 and E369 are the gut lane's. The next lesson in any lane is E370.)
 
 
 ## What turn 100's API checks showed (the Inner Child lane, 2026-10-23)

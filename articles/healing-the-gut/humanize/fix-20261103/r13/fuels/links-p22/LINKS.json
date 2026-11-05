@@ -1,0 +1,59 @@
+[
+ {
+  "sentence": 1,
+  "quote": "cancer cells that multiply really fast",
+  "gap": "Is that every cancer, or only some fast-growing kinds? If only some, does the warning still count for a slow one?",
+  "id": "L1",
+  "status": "drop",
+  "note": "the original's own words kept (S1's \"multiply really fast\", \"active\"); what counts is a medical question for him, not a link this window holds: on the card"
+ },
+ {
+  "sentence": 2,
+  "quote": "So if you have an active colon or liver cancer",
+  "gap": "Why only these two? Wouldn't a fast-growing cancer anywhere else in my body grab the extra glutamine too?",
+  "id": "L2",
+  "status": "drop",
+  "note": "the liver's reason is the next sentence; the original gives none for the colon. Research: swallowed glutamine is mostly taken up by the small intestine, not the colon (Amino Acids 2017, human splanchnic study), while many colorectal cancers depend heavily on glutamine (Cancers 2024, KRAS). Not a link the original holds: to him on a card"
+ },
+ {
+  "sentence": 2,
+  "quote": "active",
+  "gap": "What counts as active: only a cancer I have right now, or also one that was treated or is in remission?",
+  "id": "L3",
+  "status": "drop",
+  "note": "the original's own words kept (S1's \"multiply really fast\", \"active\"); what counts is a medical question for him, not a link this window holds: on the card"
+ },
+ {
+  "sentence": 2,
+  "quote": "colon",
+  "gap": "The liver gets a reason next, but why the colon? Above, glutamine fed the small intestine's cells and the colonocytes seemed to run on butyrate, so does swallowed glutamine even reach the colon, and why isn't small-intestine cancer on the list?",
+  "id": "L4",
+  "status": "drop",
+  "note": "the liver's reason is the next sentence; the original gives none for the colon. Research: swallowed glutamine is mostly taken up by the small intestine, not the colon (Amino Acids 2017, human splanchnic study), while many colorectal cancers depend heavily on glutamine (Cancers 2024, KRAS). Not a link the original holds: to him on a card"
+ },
+ {
+  "sentence": 2,
+  "quote": "don't raise the dose that high",
+  "gap": "Does \"that high\" mean the 10-30g? Then is the 5g baseline fine with one of these cancers, and why would a smaller amount be safe if the cancer cells grab glutamine too?",
+  "id": "L5",
+  "answer": "stay off the 10-30g",
+  "raised": "stay off the 10-30g",
+  "note": "the 10-30g answers \"that high\"; whether the 5g baseline is fine with an active cancer the original doesn't say: to him on a card"
+ },
+ {
+  "sentence": 3,
+  "quote": "a big dose of glutamine reaches your liver",
+  "gap": "How does glutamine get into the blood at all, if the gut cells take it in and burn it? Is that why it has to be a big dose, because they use up a small one?",
+  "id": "L6",
+  "answer": "With a dose that big, a lot of it passes through your gut cells into your blood",
+  "raised": "With a dose that big"
+ },
+ {
+  "sentence": 3,
+  "quote": "before anywhere else",
+  "gap": "So what if it gets to the liver first? Does the liver end up with more of it than the rest of my body?",
+  "id": "L7",
+  "answer": "a tumor in your liver gets it at full strength, since the blood from your gut goes to your liver before anywhere else",
+  "raised": "a tumor in your liver gets it at full strength"
+ }
+]

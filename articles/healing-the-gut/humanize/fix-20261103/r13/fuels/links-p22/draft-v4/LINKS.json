@@ -1,0 +1,42 @@
+[
+ {
+  "sentence": 1,
+  "quote": "cancer cells that multiply really fast",
+  "gap": "Is that all cancer cells, or only some kinds? Does the caution depend on whether my cancer is a fast kind?",
+  "id": "L1",
+  "status": "drop",
+  "note": "the original's own scope (which cancers, why the colon, whether 5g is fine): to him on a card"
+ },
+ {
+  "sentence": 1,
+  "quote": "an active colon or liver cancer",
+  "gap": "Why the colon? S2 explains how a big dose reaches the liver, through the blood, but the part above has your small intestine's cells taking glutamine in as soon as it reaches them: how does it get to a tumor in your colon?",
+  "id": "L2",
+  "status": "drop",
+  "note": "the original's own scope (which cancers, why the colon, whether 5g is fine): to him on a card"
+ },
+ {
+  "sentence": 1,
+  "quote": "stay off the 10-30g",
+  "gap": "Does that mean the 5g baseline is still fine with one of these cancers, or should I skip glutamine altogether?",
+  "id": "L3",
+  "status": "drop",
+  "note": "the original's own scope (which cancers, why the colon, whether 5g is fine): to him on a card"
+ },
+ {
+  "sentence": 2,
+  "quote": "a lot of it passes through your gut cells into your blood",
+  "gap": "The part above had your gut cells taking glutamine in as their fuel. Why does a big dose go on through them into your blood: can they only use so much at a time?",
+  "id": "L4",
+  "status": "drop",
+  "note": "the reader worked it out (\"can they only use so much\"), which is the link; more would add dose figures the original doesn't hold"
+ },
+ {
+  "sentence": 2,
+  "quote": "a tumor in your liver gets to it first",
+  "gap": "Why does getting it first matter, if the blood then goes on from your liver to the rest of your body? Does the liver use most of it up, so a cancer anywhere else gets little? Otherwise why only colon and liver?",
+  "id": "L5",
+  "status": "drop",
+  "note": "fixed in DRAFT-P22-v5.txt (a new draft, read again in links-p22/draft): \"gets it at full strength\" says why first matters, which v3's \"while it's still concentrated\" said and v4 had lost"
+ }
+]

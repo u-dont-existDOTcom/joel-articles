@@ -1,0 +1,606 @@
+{
+ "summary": {
+  "readers_missing": [],
+  "totals": {
+   "1": {
+    "parsed": 7,
+    "total_line": 7
+   },
+   "2": {
+    "parsed": 15,
+    "total_line": 15
+   }
+  },
+  "findings": 22,
+  "by_severity": {
+   "1": 16,
+   "2": 6
+  },
+  "by_kind": {
+   "unclear": 13,
+   "lost": 5,
+   "vaguer": 3,
+   "garbled": 1
+  },
+  "same_as_original": [],
+  "owner_words": [],
+  "not_found": [],
+  "paragraphs": 74,
+  "paragraphs_hit": {
+   "1": 21,
+   "2": 5,
+   "3": 0
+  }
+ },
+ "findings": [
+  {
+   "id": "F1.1",
+   "part": 1,
+   "now": "Severe stress/adrenal fatigue/poor sleep (Phase 1): This can cause a lack of mucus to line the stomach, which in turn causes burning, difficulty absorbing nutrients, and so forth.",
+   "published": "Severe stress/adrenal fatigue/poor sleep : This can cause a lack of mucus to line the stomach, which in turn causes burning, difficulty absorbing nutrients, and so forth.",
+   "kind": "unclear",
+   "severity": 1,
+   "why": "This is the first time \"Phase\" comes up, and nothing before it says the article has numbered phases further down, so a reader hits \"(Phase 1)\" (and every later phase label) without knowing what it refers to.",
+   "now_found": 1.0,
+   "now_blocks": [
+    5
+   ],
+   "where": [
+    "Some Causes of poor gut health, P1"
+   ],
+   "block_hashes": [
+    "82320580647d9ebd"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    5
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": null
+  },
+  {
+   "id": "F1.2",
+   "part": 1,
+   "now": "This woman healed her gut with 3 fun movements: Actually, yoga specifically, and especially Iyengar yoga, which is the most technically anatomical scientific yoga, would be more useful than general exercise:",
+   "published": "This woman healed her gut with 3 fun movements: Double click to interact with video Actually, yoga specifically, and especially Iyengar yoga , which is the most technically anatomical scientific yoga, would be more useful than general exercise: Double click to interact with video",
+   "kind": "unclear",
+   "severity": 1,
+   "why": "In the text as given, both colons lead to nothing, because the videos that followed them in the published post aren't shown, so unless the embeds sit right after these lines, each sentence is left hanging as its own bullet.",
+   "now_found": 1.0,
+   "now_blocks": [
+    7,
+    8
+   ],
+   "where": [
+    "Some Causes of poor gut health, P3",
+    "Some Causes of poor gut health, list item"
+   ],
+   "block_hashes": [
+    "e41c7666ca43c6c0",
+    "0cb141a325601589"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    5
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": null
+  },
+  {
+   "id": "F1.3",
+   "part": 1,
+   "now": "Years of accumulated shit in your guts (closest: Phase 4): This part isn't in the gut healing books I read, but even if you fix all of what's going into you now, if you're already full and clogged with all of what went in before, that's gonna be little help.",
+   "published": "Years of accumulated shit in your guts : This part isn’t in the gut healing books I read , but even if you fix all of what’s going into you now, if you’re already full and clogged with all of what went in before, that’s gonna be little help.",
+   "kind": "unclear",
+   "severity": 1,
+   "why": "\"closest:\" is a cryptic shorthand, and a reader has to guess that it means no phase covers this directly and Phase 4 is the nearest.",
+   "now_found": 1.0,
+   "now_blocks": [
+    9
+   ],
+   "where": [
+    "Some Causes of poor gut health, list item"
+   ],
+   "block_hashes": [
+    "a3e7ddec675c32e3"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    5
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": null
+  },
+  {
+   "id": "F1.4",
+   "part": 1,
+   "now": "Your gut barrier needs a lot of energy, to keep its tight junctions intact. If the cells lining your small intestine (called enterocytes) or the colonocytes lining your large intestine don't do that, the barrier loosens up.",
+   "published": "Your gut barrier requires massive amounts of immediate, localized energy to maintain tight junction integrity. If your enterocytes (small intestine) or colonocytes (large intestine) lack their preferred mitochondrial fuels, the barrier structurally collapses, allowing lipopolysaccharides (LPS) and endotoxins to leak into systemic circulation.",
+   "kind": "unclear",
+   "severity": 2,
+   "why": "\"don't do that\" most naturally points back to \"keep its tight junctions intact,\" which turns the sentence into a circle (if the junctions aren't kept intact, the barrier loosens), and it loses the published condition that the cells are short of their preferred fuels.",
+   "now_found": 1.0,
+   "now_blocks": [
+    26
+   ],
+   "where": [
+    "Some Causes of poor gut health, P19"
+   ],
+   "block_hashes": [
+    "e1e562658f884b87"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    5
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": null
+  },
+  {
+   "id": "F1.5",
+   "part": 1,
+   "now": "Besides feeding the colonocytes, SCFAs lock down the barrier in your lower gut, preventing the dangerous escape of substances from gut to blood, which then turns down inflammatory signals that would be needed otherwise to contain the damage.",
+   "published": "Getting these via raw resistant starch fermentation or your home-brewed SIBO yogurt fuels colonocytes, locks down the lower gut barrier, and systematically suppresses inflammatory signals.",
+   "kind": "unclear",
+   "severity": 1,
+   "why": "The trailing \"which then turns down inflammatory signals that would be needed otherwise\" is hard to attach and has awkward word order, so a reader has to reread it to see that less leakage means less inflammation is needed.",
+   "now_found": 1.0,
+   "now_blocks": [
+    30
+   ],
+   "where": [
+    "Some Causes of poor gut health, P23"
+   ],
+   "block_hashes": [
+    "b0504c259d055dde"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    5
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": null
+  },
+  {
+   "id": "F1.6",
+   "part": 1,
+   "now": "Some people will tell you to take malic and citric acid (which make green apples and tart cherries sour) as an extra quick energy source for your enterocytes.",
+   "published": "TCA Cycle Intermediates (Malic & Citric Acid): Organic acids like malate and citrate feed directly into the exact same mitochondrial energy pathways as glutamine. Consuming clean, sour profiles—such as organic malic acid, tart cherries, or green apples—provides rapid, alternative fuel to gut epithelial cells, accelerating mucosal healing from a different biochemical angle.",
+   "kind": "lost",
+   "severity": 2,
+   "why": "The published text recommended sour acids outright as an alternative fuel that speeds up healing of the gut lining, but NOW passes the advice on as what \"some people\" say, drops the healing claim and moves the reason for eating something sour to iron absorption, so the point has changed (flag it unless this change was approved).",
+   "now_found": 1.0,
+   "now_blocks": [
+    31
+   ],
+   "where": [
+    "Some Causes of poor gut health, P24"
+   ],
+   "block_hashes": [
+    "195f3dbca27fb11f"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    5
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": null
+  },
+  {
+   "id": "F1.7",
+   "part": 1,
+   "now": "And they do supply quick energy, because they are made and used by that mitochondrial energy cycle, also called the TCA or Krebs cycle. But glutamine is still the main thing they need, because it helps build new cells in addition to giving the needed energy.",
+   "published": "Organic acids like malate and citrate feed directly into the exact same mitochondrial energy pathways as glutamine.",
+   "kind": "unclear",
+   "severity": 2,
+   "why": "\"they\" means the acids twice and then the enterocytes in \"the main thing they need,\" and \"that mitochondrial energy cycle\" points back two bullets to a cycle that was called \"the citric acid cycle\" there, so a reader has to stop and work out who needs what.",
+   "now_found": 1.0,
+   "now_blocks": [
+    31
+   ],
+   "where": [
+    "Some Causes of poor gut health, P24"
+   ],
+   "block_hashes": [
+    "195f3dbca27fb11f"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    5
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": null
+  },
+  {
+   "id": "F2.1",
+   "part": 2,
+   "now": "So the phases below are only what the Gem will tell you, from the nine books.",
+   "published": "none",
+   "kind": "unclear",
+   "severity": 1,
+   "why": "Phase 3 then carries Joel's own H2O2 swap and Pooyan story in the phase itself (its note even says \"the H2O2 swap above is mine, not the books'\"), so the promise that the phases are only the nine books contradicts what the reader finds.",
+   "now_found": 1.0,
+   "now_blocks": [
+    36
+   ],
+   "where": [
+    "Concise Recipe for Gut Healing:, P2"
+   ],
+   "block_hashes": [
+    "4376134ea73f78d7"
+   ],
+   "pub_found": null,
+   "pub_blocks": [],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": null
+  },
+  {
+   "id": "F2.2",
+   "part": 2,
+   "now": "Before you throw supplements or antimicrobials at your gut, the system mechanics that are foundational to gut function have to work.",
+   "published": "The Logic: Before you add “fuel” (supplements) or “fire” (antimicrobials), you must ensure the engine is mechanically sound.",
+   "kind": "unclear",
+   "severity": 1,
+   "why": "\"the system mechanics\" doesn't say which system or what mechanics, so the reader has to wait for the next paragraphs to learn it means nerve tone and bile flow, and \"have to work\" loses the plain instruction to check them first.",
+   "now_found": 1.0,
+   "now_blocks": [
+    40
+   ],
+   "where": [
+    "Phase 1: The Pre-Flight Safety Check, P1"
+   ],
+   "block_hashes": [
+    "65e2af93d80f05ac"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    12
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": null
+  },
+  {
+   "id": "F2.3",
+   "part": 2,
+   "now": "Do your stools float (like it's hard to flush), or look like clay?",
+   "published": "Do stools float or look clay-colored?",
+   "kind": "vaguer",
+   "severity": 1,
+   "why": "\"clay-colored\" is a specific sign (pale stools), while \"look like clay\" could mean texture or colour.",
+   "now_found": 1.0,
+   "now_blocks": [
+    42
+   ],
+   "where": [
+    "Phase 1: The Pre-Flight Safety Check, P3"
+   ],
+   "block_hashes": [
+    "ae3027d2fa2f17aa"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    12
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": null
+  },
+  {
+   "id": "F2.4",
+   "part": 2,
+   "now": "- My notes: see Poor diet now and Plant foods, above.",
+   "published": "none",
+   "kind": "unclear",
+   "severity": 1,
+   "why": "\"see Poor diet now\" reads as \"see poor diet, now\", so the reader has to reread to work out that \"Poor diet now\" is a section name.",
+   "now_found": 1.0,
+   "now_blocks": [
+    48
+   ],
+   "where": [
+    "Phase 2: The Reset, P4"
+   ],
+   "block_hashes": [
+    "685fe3f0f71de378"
+   ],
+   "pub_found": null,
+   "pub_blocks": [],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": null
+  },
+  {
+   "id": "F2.5",
+   "part": 2,
+   "now": "5. And if the herbs failed, the overgrowth is too severe or the gut lining is too damaged for solids, so it's time for Ruscio's \"Nuclear\" Option, the Elemental Diet.",
+   "published": "The Logic: If herbs failed, the overgrowth is too severe or the gut lining is too damaged for solids.",
+   "kind": "unclear",
+   "severity": 2,
+   "why": "Step 1 of the same list just told the reader to avoid herbal antibiotics and use H2O2 instead, so \"if the herbs failed\" points at something they weren't told to take; the meaning is \"if the kill phase failed\".",
+   "now_found": 1.0,
+   "now_blocks": [
+    55
+   ],
+   "where": [
+    "Phase 3: The Purge, P6"
+   ],
+   "block_hashes": [
+    "86c753e5fc139734"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    18
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": null
+  },
+  {
+   "id": "F2.6",
+   "part": 2,
+   "now": "The problem is likely organ failure, or environmental toxicity or brain plasticity (those two are Phase 6, below).",
+   "published": "The Logic: If the “Nuclear Option” failed, the problem is not the microbiome. It is likely organ failure, environmental toxicity, or brain plasticity.",
+   "kind": "unclear",
+   "severity": 1,
+   "why": "It sends the reader to Phase 6, past Phase 5 (which is for once you're clear of infection), after being told not to skip phases, and Phase 6 says it's for people sensitive to everything or who relapse, not for a failed Nuclear Option, so it's unclear when to go there.",
+   "now_found": 1.0,
+   "now_blocks": [
+    58
+   ],
+   "where": [
+    "Phase 4: The Investigation, P1"
+   ],
+   "block_hashes": [
+    "65a644ab68ab4591"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    20
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": null
+  },
+  {
+   "id": "F2.7",
+   "part": 2,
+   "now": "- My notes: two things the books don't cover, old impaction and colon hydrotherapy (Years of accumulated shit, above) and psychedelics for IBS (IBS, above).",
+   "published": "none",
+   "kind": "unclear",
+   "severity": 1,
+   "why": "\"two things\" is followed by what reads as three items joined by \"and\", and \"old impaction\" isn't explained, so the reader has to reread to group them.",
+   "now_found": 1.0,
+   "now_blocks": [
+    60
+   ],
+   "where": [
+    "Phase 4: The Investigation, P3"
+   ],
+   "block_hashes": [
+    "ac6dcd9ab98fd631"
+   ],
+   "pub_found": null,
+   "pub_blocks": [],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": null
+  },
+  {
+   "id": "F2.8",
+   "part": 2,
+   "now": "4. And fuel the mitochondria: see the fuels under Leaky gut, above (glutamine and butyrate).",
+   "published": "Fuel the Mitochondria: Deploy L-Glutamine (5–30g based on inflammatory load), butyrate-producing substrates (resistant starch), and TCA cycle intermediates (malic acid/citrate) to provide immediate cellular energy to enterocytes, cementing tight junction integrity and permanently halting LPS translocation.",
+   "kind": "lost",
+   "severity": 2,
+   "why": "The step drops the glutamine dose range, resistant starch, the TCA cycle intermediates (malic acid/citrate) and the reason (energy for the gut-lining cells to seal tight junctions), so \"fuel the mitochondria\" no longer says whose mitochondria or why, and the parenthetical names only two of the three fuels.",
+   "now_found": 1.0,
+   "now_blocks": [
+    66
+   ],
+   "where": [
+    "Phase 5: Restoration & Maintenance (Let's Play Gardener!), P5"
+   ],
+   "block_hashes": [
+    "d3968fd8a5c3ef91"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    22
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": null
+  },
+  {
+   "id": "F2.9",
+   "part": 2,
+   "now": "Then a stack can help with the rebuilding in Phase 5, once you're clear of infection and it's time to feed the good bacteria again.",
+   "published": "That said, some people want a ready-made starting point rather than buying every ingredient separately.",
+   "kind": "lost",
+   "severity": 1,
+   "why": "The published reason for using a stack at all (a ready-made option instead of buying each ingredient separately) is gone, so the section no longer says why you'd pick a kit.",
+   "now_found": 1.0,
+   "now_blocks": [
+    74
+   ],
+   "where": [
+    "Optional Ready-Made Gut Stacks, P1"
+   ],
+   "block_hashes": [
+    "c010af0bb9930418"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    25
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": null
+  },
+  {
+   "id": "F2.10",
+   "part": 2,
+   "now": "2. Then keep the probiotics well-fed with a good prebiotic, and take butyrate itself or something that helps short-chain fatty acid production, especially the main one, butyrate.",
+   "published": "Prebiotic / butyrate support: something that helps short-chain fatty acid production, especially butyrate",
+   "kind": "unclear",
+   "severity": 1,
+   "why": "Butyrate is named twice in one clause (\"butyrate itself or ... especially the main one, butyrate\"), so the reader has to reread to see that the second is about production and what \"the main one\" is.",
+   "now_found": 1.0,
+   "now_blocks": [
+    77
+   ],
+   "where": [
+    "Optional Ready-Made Gut Stacks, P3"
+   ],
+   "block_hashes": [
+    "c74f5ac97248b842"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    26
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": null
+  },
+  {
+   "id": "F2.11",
+   "part": 2,
+   "now": "3. Other nutrients will help support barrier repair, such as glutamine, zinc carnosine, colostrum, mucosal-support herbs, or similar compounds.",
+   "published": "Barrier repair: nutrients that support the gut lining, such as glutamine, zinc carnosine, colostrum, mucosal-support herbs, or similar compounds",
+   "kind": "vaguer",
+   "severity": 1,
+   "why": "It drops \"the gut lining\", so \"barrier\" is left unexplained and doesn't link to the \"gut lining\" products named in the next paragraph.",
+   "now_found": 1.0,
+   "now_blocks": [
+    78
+   ],
+   "where": [
+    "Optional Ready-Made Gut Stacks, P4"
+   ],
+   "block_hashes": [
+    "30d6e30e3647d690"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    26
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": null
+  },
+  {
+   "id": "F2.12",
+   "part": 2,
+   "now": "Finally, Designs for Health GI Revive is only gut-lining nutrients and herbs, so you'd still need a probiotic and a prebiotic with it.",
+   "published": "For a single gut-lining repair formula, Designs for Health GI Revive is one of the more complete products, but it should be understood as a repair product, not a complete gut protocol by itself.",
+   "kind": "lost",
+   "severity": 1,
+   "why": "It drops that GI Revive is one of the more complete single gut-lining formulas, so it now reads only as a limitation and not as a recommendation.",
+   "now_found": 1.0,
+   "now_blocks": [
+    79
+   ],
+   "where": [
+    "Optional Ready-Made Gut Stacks, P5"
+   ],
+   "block_hashes": [
+    "2d0cc01165a52526"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    27
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": null
+  },
+  {
+   "id": "F2.13",
+   "part": 2,
+   "now": "They kill bugs, like the herbal antibiotics in Phase 3, so they're only for when changing your diet hasn't cleared your symptoms.",
+   "published": "Those belong later in the decision tree, when there is a stronger reason to suspect overgrowth, parasites, H. pylori, or another specific problem.",
+   "kind": "vaguer",
+   "severity": 1,
+   "why": "The condition changes from having a stronger reason to suspect a specific problem (overgrowth, parasites, H. pylori) to symptoms simply persisting after a diet change.",
+   "now_found": 1.0,
+   "now_blocks": [
+    80
+   ],
+   "where": [
+    "Optional Ready-Made Gut Stacks, P6"
+   ],
+   "block_hashes": [
+    "ec3a46519a6ae6a7"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    28
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": null
+  },
+  {
+   "id": "F2.14",
+   "part": 2,
+   "now": "Other serious signs to note: If you're losing weight fast, or if you have severe pain, a fever or dehydration.",
+   "published": "People with severe pain, GI bleeding, fever, dehydration, rapid weight loss, active IBD flares, cancer, immune suppression, pregnancy, or complex medical conditions should work with a qualified clinician instead of self-stacking supplements.",
+   "kind": "garbled",
+   "severity": 1,
+   "why": "After the colon, an \"If ...\" clause stands as the whole sentence with no main clause.",
+   "now_found": 1.0,
+   "now_blocks": [
+    82
+   ],
+   "where": [
+    "Optional Ready-Made Gut Stacks, P8"
+   ],
+   "block_hashes": [
+    "d1eda12562782b52"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    29
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": null
+  },
+  {
+   "id": "F2.15",
+   "part": 2,
+   "now": "And if you're pregnant, some herbs and supplements, like berberine, aren't safe. If your immune system is weak, some probiotics could be risky, since they're live bacteria that need to be kept in check to prevent overgrowth.",
+   "published": "People with severe pain, GI bleeding, fever, dehydration, rapid weight loss, active IBD flares, cancer, immune suppression, pregnancy, or complex medical conditions should work with a qualified clinician instead of self-stacking supplements.",
+   "kind": "lost",
+   "severity": 2,
+   "why": "Published told pregnant and immune-suppressed people to work with a clinician instead of self-stacking, but NOW only warns that some products are risky, so the instruction to see a doctor is lost for these two groups (NOW states it only for symptoms and for IBD, cancer or serious illness).",
+   "now_found": 1.0,
+   "now_blocks": [
+    82
+   ],
+   "where": [
+    "Optional Ready-Made Gut Stacks, P8"
+   ],
+   "block_hashes": [
+    "d1eda12562782b52"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    29
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": null
+  }
+ ]
+}

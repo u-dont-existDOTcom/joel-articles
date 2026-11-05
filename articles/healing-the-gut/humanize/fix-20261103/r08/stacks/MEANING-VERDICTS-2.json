@@ -1,0 +1,12 @@
+[
+ {
+  "id": "R8b-P1",
+  "verdict": "PASS",
+  "issue": "LINK: '(a set of supplements you take together)'. The three listed changes are made accurately; 'with antimicrobial or anti-parasite protocols' is implied by 'go after bugs and parasites'."
+ },
+ {
+  "id": "R8b-P81",
+  "verdict": "FAIL",
+  "issue": "'cancer' and 'another complex medical condition' narrowed to 'being treated for cancer or another serious illness': untreated cancer or illness no longer covered. 'being treated for' is unlisted."
+ }
+]

@@ -1,0 +1,810 @@
+{
+ "format": "joel-suggestion-review-v1",
+ "review_id": "healing-the-gut-b8-prepublish-20261104",
+ "title": "Gut Article, After Publishing",
+ "intro": [
+  "It's in your post (https://ibogaqueen.substack.com/p/healing-the-gut-naturally) since 20:44 UTC, no email sent: r10, which read Human Written 100% as a whole article, with one slip of mine fixed first (Phase 3's \"if the herbs failed\" is now \"if all that failed\", since you tell people to skip most herbs; Phase 3 reads Human 100% with it). Settings untouched.",
+  "Before it went in, three fresh reads: a word-for-sense read (it found all 3 errors I planted, so what it didn't flag counts), a clarity read, and a read beside your published post. These are what they found in your own words, which were already in the post, and in wording of mine you approved. Each is the smallest fix I could find.",
+  "Your answers go in as you write them. Then each changed paragraph gets a web-app check, and your post gets a second update, again without email."
+ ],
+ "git_file": "articles/healing-the-gut/humanize/fix-20261103/r11/b8/REVIEW-PAGE.html",
+ "article": {
+  "file": "articles/healing-the-gut/humanize/fix-20261103/r11/r11.md",
+  "sha256": "3569e2108f62f74f390af023783926cff373afebf6933466ce3baf0a13653885"
+ },
+ "built": "2026-11-04",
+ "links": {
+  "guide": "https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/gut-r07-20261104/articles/healing-the-gut/humanize/fix-20261103/r11/r11.md",
+  "review": "https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/gut-r07-20261104/articles/healing-the-gut/humanize/fix-20261103/r11/b8/REVIEW-CARDS.md"
+ },
+ "types": {
+  "typo": {
+   "label": "A slip",
+   "about": "A wrong or missing word"
+  },
+  "reread": {
+   "label": "A reader stumbles",
+   "about": "The smallest change a reader would get first time"
+  },
+  "point": {
+   "label": "My approved wording",
+   "about": "A logic slip in it"
+  }
+ },
+ "suggestions": [
+  {
+   "id": "F8-1",
+   "type": "typo",
+   "title": "Three slips in the diverticulosis paragraph",
+   "advice": "approve",
+   "spans": [
+    {
+     "block": 10,
+     "start": 215,
+     "end": 255
+    },
+    {
+     "block": 10,
+     "start": 324,
+     "end": 347
+    }
+   ],
+   "edits": [
+    {
+     "block": 10,
+     "before": "This is likely caused by diverticulosis, a disease that causes herniated pockets to form in the intestines which aren't supported by smooth muscle. There's no known cure for this disease, except possibly glutamine, based one one incompleted clinical trial, which found 2 of 9 women had incredible reductions in diverticula. Glutamine an amino acid that's the fuel for small intestinal cells, so this makes some sense. 10% of people get side effects from it (including constipation). Butyrate is the fuel for the colon cells. I would also suggest diosmin for improving blood vessel integrity.",
+     "after": "This is likely caused by diverticulosis, a disease that causes herniated pockets to form in the intestines which aren't supported by smooth muscle. There's no known cure for this disease, except possibly glutamine, based on one incomplete clinical trial, which found 2 of 9 women had incredible reductions in diverticula. Glutamine is an amino acid that's the fuel for small intestinal cells, so this makes some sense. 10% of people get side effects from it (including constipation). Butyrate is the fuel for the colon cells. I would also suggest diosmin for improving blood vessel integrity."
+    }
+   ],
+   "reads": [
+    {
+     "text": "This is likely caused by diverticulosis, a disease that causes herniated pockets to form in the intestines which aren't supported by smooth muscle. There's no known cure for this disease, except possibly glutamine, based on one incomplete clinical trial, which found 2 of 9 women had incredible reductions in diverticula. Glutamine is an amino acid that's the fuel for small intestinal cells, so this makes some sense. 10% of people get side effects from it (including constipation). Butyrate is the fuel for the colon cells. I would also suggest diosmin for improving blood vessel integrity.",
+     "kind": "p"
+    }
+   ],
+   "reads_label": "As it would read",
+   "what": "\"based on one incomplete clinical trial\" for \"based one one incompleted clinical trial\"; \"Glutamine is an amino acid\" for \"Glutamine an amino acid\"",
+   "why": "The word-for-sense read found all three (\"one one\", \"incompleted\", the missing \"is\"), and the non-word check found \"incompleted\".",
+   "stays": "Everything else in the paragraph.",
+   "whose": "Your published words (live before today too).",
+   "deciding": "Only whether to fix it.",
+   "advice_note": "Approve, Reject, or Revise with your own words."
+  },
+  {
+   "id": "F8-2",
+   "type": "typo",
+   "title": "\"with regard to\"",
+   "advice": "approve",
+   "spans": [
+    {
+     "block": 16,
+     "start": 307,
+     "end": 327
+    }
+   ],
+   "edits": [
+    {
+     "block": 16,
+     "before": "Plant foods (Phases 2 and 5): The carnivore diet is trending, as many people (especially with leaky gut or lack of oxalate-processing bacteria) are noticing they cannot handle fiber, oxalates, and phytates in plants. It's certainly a diet worth trying, but it can lead to deficiencies over time, especially with regard vitamins C, E, fiber, magnesium, potassium, calcium, iodine and other trace minerals, and bacteria needed to process plant foods (which already are likely missing in people who need this diet), thus making the carnivore diet sort of hard to get off.",
+     "after": "Plant foods (Phases 2 and 5): The carnivore diet is trending, as many people (especially with leaky gut or lack of oxalate-processing bacteria) are noticing they cannot handle fiber, oxalates, and phytates in plants. It's certainly a diet worth trying, but it can lead to deficiencies over time, especially with regard to vitamins C, E, fiber, magnesium, potassium, calcium, iodine and other trace minerals, and bacteria needed to process plant foods (which already are likely missing in people who need this diet), thus making the carnivore diet sort of hard to get off."
+    }
+   ],
+   "reads": [
+    {
+     "text": "Plant foods (Phases 2 and 5): The carnivore diet is trending, as many people (especially with leaky gut or lack of oxalate-processing bacteria) are noticing they cannot handle fiber, oxalates, and phytates in plants. It's certainly a diet worth trying, but it can lead to deficiencies over time, especially with regard to vitamins C, E, fiber, magnesium, potassium, calcium, iodine and other trace minerals, and bacteria needed to process plant foods (which already are likely missing in people who need this diet), thus making the carnivore diet sort of hard to get off.",
+     "kind": "p"
+    }
+   ],
+   "reads_label": "As it would read",
+   "what": "\"with regard to vitamins\" for \"with regard vitamins\"",
+   "why": "A missing \"to\".",
+   "stays": "The rest.",
+   "whose": "Your published words (live before today too).",
+   "deciding": "Only whether to fix it.",
+   "advice_note": "Approve, Reject, or Revise with your own words."
+  },
+  {
+   "id": "F8-3",
+   "type": "typo",
+   "title": "\"junctions\"",
+   "advice": "approve",
+   "spans": [
+    {
+     "block": 18,
+     "start": 378,
+     "end": 387
+    }
+   ],
+   "edits": [
+    {
+     "block": 18,
+     "before": "Leaky gut (Phase 5): a widespread inflammatory condition often intersecting with other categories of illness such as Crohn's Disease or IBS, plant food intolerance, and what many alternative health practitioners consider as a root cause of most diseases. It's associated with increased zonulin levels clinically. Zonulin is the molecule released to signal your intestinal tight jungtions to open. Too much opening time leads to allowing stuff to leak out into your blood stream which then burdens your immune system and detoxification systems. Game-changing treatments:",
+     "after": "Leaky gut (Phase 5): a widespread inflammatory condition often intersecting with other categories of illness such as Crohn's Disease or IBS, plant food intolerance, and what many alternative health practitioners consider as a root cause of most diseases. It's associated with increased zonulin levels clinically. Zonulin is the molecule released to signal your intestinal tight junctions to open. Too much opening time leads to allowing stuff to leak out into your blood stream which then burdens your immune system and detoxification systems. Game-changing treatments:"
+    }
+   ],
+   "reads": [
+    {
+     "text": "Leaky gut (Phase 5): a widespread inflammatory condition often intersecting with other categories of illness such as Crohn's Disease or IBS, plant food intolerance, and what many alternative health practitioners consider as a root cause of most diseases. It's associated with increased zonulin levels clinically. Zonulin is the molecule released to signal your intestinal tight junctions to open. Too much opening time leads to allowing stuff to leak out into your blood stream which then burdens your immune system and detoxification systems. Game-changing treatments:",
+     "kind": "p"
+    }
+   ],
+   "reads_label": "As it would read",
+   "what": "\"junctions\" for \"jungtions\"",
+   "why": "A typo the non-word check and the reader both found.",
+   "stays": "The rest.",
+   "whose": "Your published words (live before today too).",
+   "deciding": "Only whether to fix it.",
+   "advice_note": "Approve, Reject, or Revise with your own words."
+  },
+  {
+   "id": "F8-4",
+   "type": "typo",
+   "title": "\"H. pylori\" with a small p",
+   "advice": "approve",
+   "spans": [
+    {
+     "block": 14,
+     "start": 519,
+     "end": 545
+    },
+    {
+     "block": 14,
+     "start": 601,
+     "end": 625
+    }
+   ],
+   "edits": [
+    {
+     "block": 14,
+     "before": "Parasites, H. pylori, mold, metals (Phases 3 and 6): We are often addicted to junk food due to a vicious cycle in which the junk feeds parasitic organisms and bad bacteria, yeast, etc, which then send signals to our brain to consume more junk. Thus, we have to target the problem from various angles--cleansing out pathogens, repopulating good bacteria, addressing vitamin (especially thiamine), mineral, and enzyme deficiencies, and changing what we eat. I wrote about my detox protocol (which includes the gut) here. For H. Pylori specifically: if you get heartburn when your stomach is empty only, that's usually H. Pylori, and it's easily treated with berberine.",
+     "after": "Parasites, H. pylori, mold, metals (Phases 3 and 6): We are often addicted to junk food due to a vicious cycle in which the junk feeds parasitic organisms and bad bacteria, yeast, etc, which then send signals to our brain to consume more junk. Thus, we have to target the problem from various angles--cleansing out pathogens, repopulating good bacteria, addressing vitamin (especially thiamine), mineral, and enzyme deficiencies, and changing what we eat. I wrote about my detox protocol (which includes the gut) here. For H. pylori specifically: if you get heartburn when your stomach is empty only, that's usually H. pylori, and it's easily treated with berberine."
+    }
+   ],
+   "reads": [
+    {
+     "text": "Parasites, H. pylori, mold, metals (Phases 3 and 6): We are often addicted to junk food due to a vicious cycle in which the junk feeds parasitic organisms and bad bacteria, yeast, etc, which then send signals to our brain to consume more junk. Thus, we have to target the problem from various angles--cleansing out pathogens, repopulating good bacteria, addressing vitamin (especially thiamine), mineral, and enzyme deficiencies, and changing what we eat. I wrote about my detox protocol (which includes the gut) here. For H. pylori specifically: if you get heartburn when your stomach is empty only, that's usually H. pylori, and it's easily treated with berberine.",
+     "kind": "p"
+    }
+   ],
+   "reads_label": "As it would read",
+   "what": "\"For H. pylori specifically\" for \"For H. Pylori specifically\"; \"that's usually H. pylori\" for \"that's usually H. Pylori\"",
+   "why": "The species name takes a small p, as the heading of this same item and the rest of the article write it.",
+   "stays": "The rest.",
+   "whose": "Your published words (live before today too).",
+   "deciding": "Only whether to fix it.",
+   "advice_note": "Approve, Reject, or Revise with your own words."
+  },
+  {
+   "id": "F8-5",
+   "type": "typo",
+   "title": "\"EndSickness.org\" as everywhere else",
+   "advice": "approve",
+   "spans": [
+    {
+     "block": 19,
+     "start": 124,
+     "end": 155
+    }
+   ],
+   "edits": [
+    {
+     "block": 19,
+     "before": "Liposomal first-milking colostrum (esp. fermented per Matt Nedin's protocol with bifidobacterium, or SIBO yogurt bacteria). Matt from Endsickness.org finds that this helps especially to mop up mycotoxins in the gut. Activated charcoal can also be helpful, altho don't take that with things you want to actually absorb.",
+     "after": "Liposomal first-milking colostrum (esp. fermented per Matt Nedin's protocol with bifidobacterium, or SIBO yogurt bacteria). Matt from EndSickness.org finds that this helps especially to mop up mycotoxins in the gut. Activated charcoal can also be helpful, altho don't take that with things you want to actually absorb."
+    }
+   ],
+   "reads": [
+    {
+     "text": "Liposomal first-milking colostrum (esp. fermented per Matt Nedin's protocol with bifidobacterium, or SIBO yogurt bacteria). Matt from EndSickness.org finds that this helps especially to mop up mycotoxins in the gut. Activated charcoal can also be helpful, altho don't take that with things you want to actually absorb.",
+     "kind": "p"
+    }
+   ],
+   "reads_label": "As it would read",
+   "what": "\"Matt from EndSickness.org finds\" for \"Matt from Endsickness.org finds\"",
+   "why": "Every other mention writes it EndSickness.org.",
+   "stays": "The link and the rest.",
+   "whose": "Your published words (live before today too).",
+   "deciding": "Only whether to fix it.",
+   "advice_note": "Approve, Reject, or Revise with your own words."
+  },
+  {
+   "id": "F8-6",
+   "type": "typo",
+   "title": "What H2O2 and berberine don't clear",
+   "advice": "approve",
+   "spans": [
+    {
+     "block": 52,
+     "start": 328,
+     "end": 372
+    }
+   ],
+   "edits": [
+    {
+     "block": 52,
+     "before": "H2O2 actually works better than the herbal antibiotics according to me and orthomolecular drs. My BFF Pooyan tried candibactin actually and it nearly killed him. The H2O2 worked a lot better without side effects. There is one herbal antibiotic that works really well tho for H. pylori: Berberine. If you have an acute infection with something that those don't help quickly, consider escalating to secnidazole treatment for rapid cure, and paromomycin post-treatment for relapse prevention, with medical supervision.",
+     "after": "H2O2 actually works better than the herbal antibiotics according to me and orthomolecular drs. My BFF Pooyan tried candibactin actually and it nearly killed him. The H2O2 worked a lot better without side effects. There is one herbal antibiotic that works really well tho for H. pylori: Berberine. If you have an acute infection with something that H2O2 and berberine don't clear quickly, consider escalating to secnidazole treatment for rapid cure, and paromomycin post-treatment for relapse prevention, with medical supervision."
+    }
+   ],
+   "reads": [
+    {
+     "text": "H2O2 actually works better than the herbal antibiotics according to me and orthomolecular drs. My BFF Pooyan tried candibactin actually and it nearly killed him. The H2O2 worked a lot better without side effects. There is one herbal antibiotic that works really well tho for H. pylori: Berberine. If you have an acute infection with something that H2O2 and berberine don't clear quickly, consider escalating to secnidazole treatment for rapid cure, and paromomycin post-treatment for relapse prevention, with medical supervision.",
+     "kind": "p"
+    }
+   ],
+   "reads_label": "As it would read",
+   "what": "\"with something that H2O2 and berberine don't clear quickly\" for \"with something that those don't help quickly\"",
+   "why": "Two readers: \"help\" takes the infection as its object, so it says they don't help the infection; and \"those\" comes right after berberine alone, so a reader looks back to work out it means H2O2 and berberine.",
+   "stays": "Escalating to secnidazole, then paromomycin, with medical supervision.",
+   "whose": "Your published words (live before today too).",
+   "deciding": "Only whether to fix it.",
+   "advice_note": "Approve, Reject, or Revise with your own words."
+  },
+  {
+   "id": "F8-7",
+   "type": "typo",
+   "title": "\"BIND the toxins\"",
+   "advice": "approve",
+   "spans": [
+    {
+     "block": 53,
+     "start": 0,
+     "end": 18
+    }
+   ],
+   "edits": [
+    {
+     "block": 53,
+     "before": "BIND to the toxins, especially the metals and parasite die-off toxins, using Zholy3O.",
+     "after": "BIND the toxins, especially the metals and parasite die-off toxins, using Zholy3O."
+    }
+   ],
+   "reads": [
+    {
+     "text": "BIND the toxins, especially the metals and parasite die-off toxins, using Zholy3O.",
+     "kind": "p"
+    }
+   ],
+   "reads_label": "As it would read",
+   "what": "\"BIND the toxins\" for \"BIND to the toxins\"",
+   "why": "As an instruction it tells the reader to bind to the toxins; it's the binder (Zholy3O) that binds them.",
+   "stays": "The capitals and the rest.",
+   "whose": "Your published words (live before today too).",
+   "deciding": "Only whether to fix it.",
+   "advice_note": "Approve, Reject, or Revise with your own words."
+  },
+  {
+   "id": "F8-8",
+   "type": "reread",
+   "title": "What the gut \"cements\"",
+   "advice": "approve",
+   "spans": [
+    {
+     "block": 3,
+     "start": 463,
+     "end": 494
+    }
+   ],
+   "edits": [
+    {
+     "block": 3,
+     "before": "Keep in mind that gut health is intimately linked to mental health, as the gut is considered our \"second brain.\" Some people think their guts are working fine, but they notice other health problems, including mental health, and don't realize that all disease begins in the gut, to quote Hippocrates, the founder of Western Medicine. Of course, that's obviously not true, because stress can come from other vectors, but the gut is central to the feedback loop and can cement other stress vectors.",
+     "after": "Keep in mind that gut health is intimately linked to mental health, as the gut is considered our \"second brain.\" Some people think their guts are working fine, but they notice other health problems, including mental health, and don't realize that all disease begins in the gut, to quote Hippocrates, the founder of Western Medicine. Of course, that's obviously not true, because stress can come from other vectors, but the gut is central to the feedback loop and can cement the stress coming from those other vectors."
+    }
+   ],
+   "reads": [
+    {
+     "text": "Keep in mind that gut health is intimately linked to mental health, as the gut is considered our \"second brain.\" Some people think their guts are working fine, but they notice other health problems, including mental health, and don't realize that all disease begins in the gut, to quote Hippocrates, the founder of Western Medicine. Of course, that's obviously not true, because stress can come from other vectors, but the gut is central to the feedback loop and can cement the stress coming from those other vectors.",
+     "kind": "p"
+    }
+   ],
+   "reads_label": "As it would read",
+   "what": "\"can cement the stress coming from those other vectors\" for \"can cement other stress vectors\"",
+   "why": "A clarity reader (most would reread): the gut can't cement the vectors themselves; it locks in the stress that started elsewhere. This is the reader's smallest change.",
+   "stays": "Your \"vectors\" and the Hippocrates point.",
+   "whose": "Your published words (live before today too).",
+   "deciding": "Whether it says what you meant.",
+   "advice_note": "Approve, Reject, or Revise with your own words."
+  },
+  {
+   "id": "F8-9",
+   "type": "reread",
+   "title": "Where zinc carnosine stays",
+   "advice": "approve",
+   "spans": [
+    {
+     "block": 21,
+     "start": 33,
+     "end": 68
+    }
+   ],
+   "edits": [
+    {
+     "block": 21,
+     "before": "Zinc carnosine, the form of zinc which stays in your intestinal gaps.",
+     "after": "Zinc carnosine, the form of zinc which sticks to your intestinal lining."
+    }
+   ],
+   "reads": [
+    {
+     "text": "Zinc carnosine, the form of zinc which sticks to your intestinal lining.",
+     "kind": "p"
+    }
+   ],
+   "reads_label": "As it would read",
+   "what": "\"which sticks to your intestinal lining\" for \"which stays in your intestinal gaps\"",
+   "why": "The word-for-sense reader: zinc doesn't stay \"in gaps\"; zinc carnosine is the form that sticks to the gut lining and works there instead of being absorbed right away. If you meant it seals the gaps, Revise.",
+   "stays": "That it's the form of zinc for the gut.",
+   "whose": "Your published words (live before today too).",
+   "deciding": "Whether it says what you meant.",
+   "advice_note": "Approve, Reject, or Revise with your own words."
+  },
+  {
+   "id": "F8-10",
+   "type": "reread",
+   "title": "What Hale's urine test is for",
+   "advice": "approve",
+   "spans": [
+    {
+     "block": 33,
+     "start": 301,
+     "end": 358
+    }
+   ],
+   "edits": [
+    {
+     "block": 33,
+     "before": "Low stomach acid, enzymes, and thick bile (Phase 1): which in turn are often due to poor diet, stress, infections. T.C. Hale has a lot of videos on healing digestion issues, which in his experience as a health coach, are often due to these root causes. He's a bit controversial on some points such as his urine pH testing for anabolic/catabolic state freezes, but he does have some good suggestions he explains in his book.",
+     "after": "Low stomach acid, enzymes, and thick bile (Phase 1): which in turn are often due to poor diet, stress, infections. T.C. Hale has a lot of videos on healing digestion issues, which in his experience as a health coach, are often due to these root causes. He's a bit controversial on some points such as his urine pH testing for whether your body is frozen in a building-up or a breaking-down state (anabolic or catabolic), but he does have some good suggestions he explains in his book."
+    }
+   ],
+   "reads": [
+    {
+     "text": "Low stomach acid, enzymes, and thick bile (Phase 1): which in turn are often due to poor diet, stress, infections. T.C. Hale has a lot of videos on healing digestion issues, which in his experience as a health coach, are often due to these root causes. He's a bit controversial on some points such as his urine pH testing for whether your body is frozen in a building-up or a breaking-down state (anabolic or catabolic), but he does have some good suggestions he explains in his book.",
+     "kind": "p"
+    }
+   ],
+   "reads_label": "As it would read",
+   "what": "\"his urine pH testing for whether your body is frozen in a building-up or a breaking-down state (anabolic or catabolic)\" for \"his urine pH testing for anabolic/catabolic state freezes\"",
+   "why": "A clarity reader (most would reread): \"anabolic/catabolic state freezes\" is never explained, so a reader can't tell what the test looks for. This is the reader's wording; Revise if Hale means something else.",
+   "stays": "That he's controversial on it and has good suggestions.",
+   "whose": "Your published words (live before today too).",
+   "deciding": "Whether it says what you meant.",
+   "advice_note": "Approve, Reject, or Revise with your own words."
+  },
+  {
+   "id": "F8-11",
+   "type": "reread",
+   "title": "The cells that don't get the energy",
+   "advice": "approve",
+   "spans": [
+    {
+     "block": 26,
+     "start": 347,
+     "end": 384
+    }
+   ],
+   "edits": [
+    {
+     "block": 26,
+     "before": "Mitochondrial and cellular energy starvation is what you get when there's not enough of the fuels each type of cell in your gut prefers (glutamine and butyrate). Your gut barrier needs a lot of energy, to keep its tight junctions intact. If the cells lining your small intestine (called enterocytes) or the colonocytes lining your large intestine don't do that, the barrier loosens up. Then lipopolysaccharides (LPS, which come from the walls of bacteria) and other endotoxins leak through those (not-so-tight)-junction gaps into your bloodstream.",
+     "after": "Mitochondrial and cellular energy starvation is what you get when there's not enough of the fuels each type of cell in your gut prefers (glutamine and butyrate). Your gut barrier needs a lot of energy, to keep its tight junctions intact. If the cells lining your small intestine (called enterocytes) or the colonocytes lining your large intestine don't get that energy, the barrier loosens up. Then lipopolysaccharides (LPS, which come from the walls of bacteria) and other endotoxins leak through those (not-so-tight)-junction gaps into your bloodstream."
+    }
+   ],
+   "reads": [
+    {
+     "text": "Mitochondrial and cellular energy starvation is what you get when there's not enough of the fuels each type of cell in your gut prefers (glutamine and butyrate). Your gut barrier needs a lot of energy, to keep its tight junctions intact. If the cells lining your small intestine (called enterocytes) or the colonocytes lining your large intestine don't get that energy, the barrier loosens up. Then lipopolysaccharides (LPS, which come from the walls of bacteria) and other endotoxins leak through those (not-so-tight)-junction gaps into your bloodstream.",
+     "kind": "p"
+    }
+   ],
+   "reads_label": "As it would read",
+   "what": "\"don't get that energy, the barrier loosens up\" for \"don't do that, the barrier loosens up\"",
+   "why": "Two readers: \"don't do that\" points back to keeping the tight junctions intact, which makes it a circle (if the junctions aren't kept intact, the barrier loosens). What you mean is that the cells are short of that energy.",
+   "stays": "Everything else, the LPS sentence included.",
+   "whose": "Your own version, from your answers.",
+   "deciding": "Whether it says what you meant.",
+   "advice_note": "Approve, Reject, or Revise with your own words."
+  },
+  {
+   "id": "F8-12",
+   "type": "reread",
+   "title": "What SCFAs do for the barrier",
+   "advice": "approve",
+   "spans": [
+    {
+     "block": 30,
+     "start": 366,
+     "end": 526
+    }
+   ],
+   "edits": [
+    {
+     "block": 30,
+     "before": "The colonocytes lining your large intestine are fueled by short-chain fatty acids (SCFAs) like butyrate, while your small intestine runs on glutamine. Your gut bacteria make SCFAs when they ferment raw resistant starch, and you get SCFAs directly from your home-brewed SIBO yogurt too. Besides feeding the colonocytes, SCFAs lock down the barrier in your lower gut, preventing the dangerous escape of substances from gut to blood, which then turns down inflammatory signals that would be needed otherwise to contain the damage.",
+     "after": "The colonocytes lining your large intestine are fueled by short-chain fatty acids (SCFAs) like butyrate, while your small intestine runs on glutamine. Your gut bacteria make SCFAs when they ferment raw resistant starch, and you get SCFAs directly from your home-brewed SIBO yogurt too. Besides feeding the colonocytes, SCFAs lock down the barrier in your lower gut, so dangerous substances can't escape from gut to blood, and your body can turn down the inflammatory signals it would otherwise need to contain the damage."
+    }
+   ],
+   "reads": [
+    {
+     "text": "The colonocytes lining your large intestine are fueled by short-chain fatty acids (SCFAs) like butyrate, while your small intestine runs on glutamine. Your gut bacteria make SCFAs when they ferment raw resistant starch, and you get SCFAs directly from your home-brewed SIBO yogurt too. Besides feeding the colonocytes, SCFAs lock down the barrier in your lower gut, so dangerous substances can't escape from gut to blood, and your body can turn down the inflammatory signals it would otherwise need to contain the damage.",
+     "kind": "p"
+    }
+   ],
+   "reads_label": "As it would read",
+   "what": "\"so dangerous substances can't escape from gut to blood, and your body can turn down the inflammatory signals it would otherwise need to contain the damage\" for \"preventing the dangerous escape of substances from gut to blood, which then turns down inflammatory signals that would be needed otherwise to contain the damage\"",
+   "why": "Two readers: the \"which\" at the end has no clear subject, so a reader has to work out that less leaking means less need for inflammation. This is the clarity reader's wording.",
+   "stays": "The first two sentences.",
+   "whose": "Your own version, from your answers.",
+   "deciding": "Whether it says what you meant.",
+   "advice_note": "Approve, Reject, or Revise with your own words."
+  },
+  {
+   "id": "F8-13",
+   "type": "reread",
+   "title": "Who needs glutamine",
+   "advice": "approve",
+   "spans": [
+    {
+     "block": 31,
+     "start": 295,
+     "end": 342
+    }
+   ],
+   "edits": [
+    {
+     "block": 31,
+     "before": "Some people will tell you to take malic and citric acid (which make green apples and tart cherries sour) as an extra quick energy source for your enterocytes. And they do supply quick energy, because they are made and used by that mitochondrial energy cycle, also called the TCA or Krebs cycle. But glutamine is still the main thing they need, because it helps build new cells in addition to giving the needed energy. Those acids do help you absorb iron, even two or three times better according to one study where people ate rice with 1g pure malic acid or citric acid mixed in (Gillooly et al., 1983). That's probably because the acids help keep the iron dissolved so the gut can take it up. So something sour with an iron-rich meal is worth having anyway.",
+     "after": "Some people will tell you to take malic and citric acid (which make green apples and tart cherries sour) as an extra quick energy source for your enterocytes. And they do supply quick energy, because they are made and used by that mitochondrial energy cycle, also called the TCA or Krebs cycle. But glutamine is still the main thing your enterocytes need, because it helps build new cells in addition to giving the needed energy. Those acids do help you absorb iron, even two or three times better according to one study where people ate rice with 1g pure malic acid or citric acid mixed in (Gillooly et al., 1983). That's probably because the acids help keep the iron dissolved so the gut can take it up. So something sour with an iron-rich meal is worth having anyway."
+    }
+   ],
+   "reads": [
+    {
+     "text": "Some people will tell you to take malic and citric acid (which make green apples and tart cherries sour) as an extra quick energy source for your enterocytes. And they do supply quick energy, because they are made and used by that mitochondrial energy cycle, also called the TCA or Krebs cycle. But glutamine is still the main thing your enterocytes need, because it helps build new cells in addition to giving the needed energy. Those acids do help you absorb iron, even two or three times better according to one study where people ate rice with 1g pure malic acid or citric acid mixed in (Gillooly et al., 1983). That's probably because the acids help keep the iron dissolved so the gut can take it up. So something sour with an iron-rich meal is worth having anyway.",
+     "kind": "p"
+    }
+   ],
+   "reads_label": "As it would read",
+   "what": "\"But glutamine is still the main thing your enterocytes need\" for \"But glutamine is still the main thing they need\"",
+   "why": "Two readers: \"they\" means the acids in the sentence before, so \"the main thing they need\" reads for a moment as the acids needing glutamine.",
+   "stays": "The rest of the paragraph.",
+   "whose": "Your own version, from your answers.",
+   "deciding": "Whether it says what you meant.",
+   "advice_note": "Approve, Reject, or Revise with your own words."
+  },
+  {
+   "id": "F8-14",
+   "type": "reread",
+   "title": "What a herx reaction is",
+   "advice": "approve",
+   "spans": [
+    {
+     "block": 42,
+     "start": 274,
+     "end": 319
+    }
+   ],
+   "edits": [
+    {
+     "block": 42,
+     "before": "Now let's have a look at your bile function. Do you burp extra (not just like one little burp) after fatty meals? Do your stools float (like it's hard to flush), or look like clay? Then your bile is stagnant (not flowing well), and Hale says if you take antimicrobials now, you'll get a herx reaction you can't detoxify. So thin the bile first with Beet Flow (an extract of beet greens) or phosphatidylcholine, before starting on any pathogen killing protocol.",
+     "after": "Now let's have a look at your bile function. Do you burp extra (not just like one little burp) after fatty meals? Do your stools float (like it's hard to flush), or look like clay? Then your bile is stagnant (not flowing well), and Hale says if you take antimicrobials now, you'll get a herx reaction: the dying microbes release toxins you can't detoxify. So thin the bile first with Beet Flow (an extract of beet greens) or phosphatidylcholine, before starting on any pathogen killing protocol."
+    }
+   ],
+   "reads": [
+    {
+     "text": "Now let's have a look at your bile function. Do you burp extra (not just like one little burp) after fatty meals? Do your stools float (like it's hard to flush), or look like clay? Then your bile is stagnant (not flowing well), and Hale says if you take antimicrobials now, you'll get a herx reaction: the dying microbes release toxins you can't detoxify. So thin the bile first with Beet Flow (an extract of beet greens) or phosphatidylcholine, before starting on any pathogen killing protocol.",
+     "kind": "p"
+    }
+   ],
+   "reads_label": "As it would read",
+   "what": "\"you'll get a herx reaction: the dying microbes release toxins you can't detoxify\" for \"you'll get a herx reaction you can't detoxify\"",
+   "why": "A clarity reader (most would reread): \"herx\" isn't explained anywhere, so a reader can't tell why it would need detoxifying. Explaining it at its first mention is your rule.",
+   "stays": "Your bile questions and Beet Flow.",
+   "whose": "Your own version, from your answers.",
+   "deciding": "Whether it says what you meant.",
+   "advice_note": "Approve, Reject, or Revise with your own words."
+  },
+  {
+   "id": "F8-15",
+   "type": "reread",
+   "title": "Butyrate named twice",
+   "advice": "approve",
+   "spans": [
+    {
+     "block": 77,
+     "start": 57,
+     "end": 175
+    }
+   ],
+   "edits": [
+    {
+     "block": 77,
+     "before": "Then keep the probiotics well-fed with a good prebiotic, and take butyrate itself or something that helps short-chain fatty acid production, especially the main one, butyrate.",
+     "after": "Then keep the probiotics well-fed with a good prebiotic, and take something that helps short-chain fatty acid production, especially the main one, butyrate, or take butyrate itself."
+    }
+   ],
+   "reads": [
+    {
+     "text": "Then keep the probiotics well-fed with a good prebiotic, and take something that helps short-chain fatty acid production, especially the main one, butyrate, or take butyrate itself.",
+     "kind": "p"
+    }
+   ],
+   "reads_label": "As it would read",
+   "what": "\"and take something that helps short-chain fatty acid production, especially the main one, butyrate, or take butyrate itself.\" for \"and take butyrate itself or something that helps short-chain fatty acid production, especially the main one, butyrate.\"",
+   "why": "Two readers: with butyrate first, \"especially the main one, butyrate\" reads like a repeat. This is the clarity reader's order, every word yours. Your section read Human 100% as it is, so a change here gets a section check before it goes in.",
+   "stays": "Every word, in a new order.",
+   "whose": "Your own version, from your answers.",
+   "deciding": "Whether it says what you meant.",
+   "advice_note": "Approve, Reject, or Revise with your own words."
+  },
+  {
+   "id": "F8-16",
+   "type": "reread",
+   "title": "The serious signs, as a list",
+   "advice": "approve",
+   "spans": [
+    {
+     "block": 82,
+     "start": 261,
+     "end": 371
+    }
+   ],
+   "edits": [
+    {
+     "block": 82,
+     "before": "Some severe symptoms warrant seeing a doctor rather than considering this DIY approach at the moment. Take it seriously if you notice blood in your stool (if it's blood from upper digestive tract, it could be smelly, black & tarry, not red like from lower GI). Other serious signs to note: If you're losing weight fast, or if you have severe pain, a fever or dehydration. And if you're pregnant, some herbs and supplements, like berberine, aren't safe. If your immune system is weak, some probiotics could be risky, since they're live bacteria that need to be kept in check to prevent overgrowth. If you have an IBD flare, cancer or another serious illness, the standard disclaimer applies: work out what to take with your doctor instead of putting a stack together yourself.",
+     "after": "Some severe symptoms warrant seeing a doctor rather than considering this DIY approach at the moment. Take it seriously if you notice blood in your stool (if it's blood from upper digestive tract, it could be smelly, black & tarry, not red like from lower GI). Other serious signs to note: losing weight fast, severe pain, a fever or dehydration. And if you're pregnant, some herbs and supplements, like berberine, aren't safe. If your immune system is weak, some probiotics could be risky, since they're live bacteria that need to be kept in check to prevent overgrowth. If you have an IBD flare, cancer or another serious illness, the standard disclaimer applies: work out what to take with your doctor instead of putting a stack together yourself."
+    }
+   ],
+   "reads": [
+    {
+     "text": "Some severe symptoms warrant seeing a doctor rather than considering this DIY approach at the moment. Take it seriously if you notice blood in your stool (if it's blood from upper digestive tract, it could be smelly, black & tarry, not red like from lower GI). Other serious signs to note: losing weight fast, severe pain, a fever or dehydration. And if you're pregnant, some herbs and supplements, like berberine, aren't safe. If your immune system is weak, some probiotics could be risky, since they're live bacteria that need to be kept in check to prevent overgrowth. If you have an IBD flare, cancer or another serious illness, the standard disclaimer applies: work out what to take with your doctor instead of putting a stack together yourself.",
+     "kind": "p"
+    }
+   ],
+   "reads_label": "As it would read",
+   "what": "\"Other serious signs to note: losing weight fast, severe pain, a fever or dehydration.\" for \"Other serious signs to note: If you're losing weight fast, or if you have severe pain, a fever or dehydration.\"",
+   "why": "A compare reader: after the colon, the \"If ...\" has no main clause. Reject if you like it as speech.",
+   "stays": "Every sign.",
+   "whose": "Your own version, from your answers.",
+   "deciding": "Whether it says what you meant.",
+   "advice_note": "Approve, Reject, or Revise with your own words."
+  },
+  {
+   "id": "F8-17",
+   "type": "point",
+   "title": "The phases aren't only the Gem's",
+   "advice": "approve",
+   "spans": [
+    {
+     "block": 36,
+     "start": 200,
+     "end": 277
+    }
+   ],
+   "edits": [
+    {
+     "block": 36,
+     "before": "NOTE: this gut gem does not include some of my research in this article, which is newer, especially from folks like Matt from EndSickness.org who doesn't have a comprehensive text for Gemini to read. So the phases below are only what the Gem will tell you, from the nine books. Where my notes in the causes above change or add to a phase, I point back to them under \"My notes\" in that phase.",
+     "after": "NOTE: this gut gem does not include some of my research in this article, which is newer, especially from folks like Matt from EndSickness.org who doesn't have a comprehensive text for Gemini to read. So the phases below are what the Gem will tell you, from the nine books (apart from my H2O2 swap in Phase 3). Where my notes in the causes above change or add to a phase, I point back to them under \"My notes\" in that phase."
+    }
+   ],
+   "reads": [
+    {
+     "text": "NOTE: this gut gem does not include some of my research in this article, which is newer, especially from folks like Matt from EndSickness.org who doesn't have a comprehensive text for Gemini to read. So the phases below are what the Gem will tell you, from the nine books (apart from my H2O2 swap in Phase 3). Where my notes in the causes above change or add to a phase, I point back to them under \"My notes\" in that phase.",
+     "kind": "p"
+    }
+   ],
+   "reads_label": "As it would read",
+   "what": "\"So the phases below are what the Gem will tell you, from the nine books (apart from my H2O2 swap in Phase 3).\" for \"So the phases below are only what the Gem will tell you, from the nine books.\"",
+   "why": "Two readers: Phase 3 has your H2O2 swap in its body, and its note says \"the H2O2 swap above is mine, not the books'\", so \"only\" isn't quite true.",
+   "stays": "The pointer to \"My notes\".",
+   "whose": "My wording, which you approved.",
+   "deciding": "Whether it says what you meant.",
+   "advice_note": "Approve, Reject, or Revise with your own words."
+  },
+  {
+   "id": "F8-18",
+   "type": "point",
+   "title": "\"Don't skip ahead\"",
+   "advice": "approve",
+   "spans": [
+    {
+     "block": 38,
+     "start": 45,
+     "end": 66
+    }
+   ],
+   "edits": [
+    {
+     "block": 38,
+     "before": "This protocol is meant to be done in phases. Don't skip any, since you only move on to the next phase if the one you're on doesn't clear up your symptoms.",
+     "after": "This protocol is meant to be done in phases. Don't skip ahead, since you only move on to the next phase if the one you're on doesn't clear up your symptoms."
+    }
+   ],
+   "reads": [
+    {
+     "text": "This protocol is meant to be done in phases. Don't skip ahead, since you only move on to the next phase if the one you're on doesn't clear up your symptoms.",
+     "kind": "p"
+    }
+   ],
+   "reads_label": "As it would read",
+   "what": "\"Don't skip ahead, since\" for \"Don't skip any, since\"",
+   "why": "Two readers: \"Don't skip any\" sounds like \"do every phase\", but the reason says you stop once a phase works (and Phase 4 is only for when Phase 3 failed).",
+   "stays": "The rest.",
+   "whose": "My wording, which you approved.",
+   "deciding": "Whether it says what you meant.",
+   "advice_note": "Approve, Reject, or Revise with your own words."
+  },
+  {
+   "id": "F8-19",
+   "type": "point",
+   "title": "What \"the problem\" is in Phase 4",
+   "advice": "approve",
+   "spans": [
+    {
+     "block": 58,
+     "start": 180,
+     "end": 240
+    }
+   ],
+   "edits": [
+    {
+     "block": 58,
+     "before": "Benjamin Brown (Digestive Health Solution) is the only source for this phase. If even the \"Nuclear Option\" failed, you can cross the microbiome off the list. The problem is likely organ failure, or environmental toxicity or brain plasticity (those two are Phase 6, below).",
+     "after": "Benjamin Brown (Digestive Health Solution) is the only source for this phase. If even the \"Nuclear Option\" failed, you can cross the microbiome off the list. The problem is likely an organ that isn't working right, or environmental toxicity or your brain's false danger signals (those two are Phase 6, below)."
+    }
+   ],
+   "reads": [
+    {
+     "text": "Benjamin Brown (Digestive Health Solution) is the only source for this phase. If even the \"Nuclear Option\" failed, you can cross the microbiome off the list. The problem is likely an organ that isn't working right, or environmental toxicity or your brain's false danger signals (those two are Phase 6, below).",
+     "kind": "p"
+    }
+   ],
+   "reads_label": "As it would read",
+   "what": "\"an organ that isn't working right, or environmental toxicity or your brain's false danger signals\" for \"organ failure, or environmental toxicity or brain plasticity\"",
+   "why": "Three readers: \"organ failure\" names a life-threatening shutdown, but the examples (pancreatic insufficiency, bile acid diarrhea) are an organ not working well; and \"brain plasticity\" is the brain's healthy ability to change, what the retraining uses, not the problem. \"False danger signals\" is Phase 6's own phrase.",
+   "stays": "Crossing the microbiome off the list, and the pointer to Phase 6.",
+   "whose": "My wording, which you approved.",
+   "deciding": "Whether it says what you meant.",
+   "advice_note": "Approve, Reject, or Revise with your own words."
+  },
+  {
+   "id": "F8-20",
+   "type": "point",
+   "title": "Say what the phase tags are, the first time",
+   "advice": "approve",
+   "spans": [
+    {
+     "block": 5,
+     "start": 41,
+     "end": 51
+    }
+   ],
+   "edits": [
+    {
+     "block": 5,
+     "before": "Severe stress/adrenal fatigue/poor sleep (Phase 1): This can cause a lack of mucus to line the stomach, which in turn causes burning, difficulty absorbing nutrients, and so forth. And every other gut issue can also be partly related to this. My mindset page and loveyhuasca protocol can help a lot with this, as well as my deep sleep tips.",
+     "after": "Severe stress/adrenal fatigue/poor sleep (Phase 1 of the recipe below): This can cause a lack of mucus to line the stomach, which in turn causes burning, difficulty absorbing nutrients, and so forth. And every other gut issue can also be partly related to this. My mindset page and loveyhuasca protocol can help a lot with this, as well as my deep sleep tips."
+    }
+   ],
+   "reads": [
+    {
+     "text": "Severe stress/adrenal fatigue/poor sleep (Phase 1 of the recipe below): This can cause a lack of mucus to line the stomach, which in turn causes burning, difficulty absorbing nutrients, and so forth. And every other gut issue can also be partly related to this. My mindset page and loveyhuasca protocol can help a lot with this, as well as my deep sleep tips.",
+     "kind": "p"
+    }
+   ],
+   "reads_label": "As it would read",
+   "what": "\"(Phase 1 of the recipe below):\" for \"(Phase 1):\"",
+   "why": "Two readers: nothing before this says the article has phases, so \"(Phase 1)\" makes a reader ask \"Phase 1 of what?\". Explaining at first mention is your rule; the later tags stay short.",
+   "stays": "Every other tag.",
+   "whose": "My wording, which you approved.",
+   "deciding": "Whether it says what you meant.",
+   "advice_note": "Approve, Reject, or Revise with your own words."
+  },
+  {
+   "id": "F8-21",
+   "type": "point",
+   "title": "\"closest: Phase 4\"",
+   "advice": "approve",
+   "spans": [
+    {
+     "block": 9,
+     "start": 39,
+     "end": 57
+    }
+   ],
+   "edits": [
+    {
+     "block": 9,
+     "before": "Years of accumulated shit in your guts (closest: Phase 4): This part isn't in the gut healing books I read, but even if you fix all of what's going into you now, if you're already full and clogged with all of what went in before, that's gonna be little help. My friend Pooyan got incredibly healthier and happier after getting enough colon hydrotherapy to flush that stuff out, combined with then also doing intense stretches like hanging from one arm, until finally, the most crusted up shit exploded in him which was very painful for a day.",
+     "after": "Years of accumulated shit in your guts (not in the phases, but Phase 4 comes closest): This part isn't in the gut healing books I read, but even if you fix all of what's going into you now, if you're already full and clogged with all of what went in before, that's gonna be little help. My friend Pooyan got incredibly healthier and happier after getting enough colon hydrotherapy to flush that stuff out, combined with then also doing intense stretches like hanging from one arm, until finally, the most crusted up shit exploded in him which was very painful for a day."
+    }
+   ],
+   "reads": [
+    {
+     "text": "Years of accumulated shit in your guts (not in the phases, but Phase 4 comes closest): This part isn't in the gut healing books I read, but even if you fix all of what's going into you now, if you're already full and clogged with all of what went in before, that's gonna be little help. My friend Pooyan got incredibly healthier and happier after getting enough colon hydrotherapy to flush that stuff out, combined with then also doing intense stretches like hanging from one arm, until finally, the most crusted up shit exploded in him which was very painful for a day.",
+     "kind": "p"
+    }
+   ],
+   "reads_label": "As it would read",
+   "what": "\"(not in the phases, but Phase 4 comes closest)\" for \"(closest: Phase 4)\"",
+   "why": "A compare reader: \"closest:\" is shorthand a reader has to guess at. Your next sentence says it isn't in the books.",
+   "stays": "The rest.",
+   "whose": "My wording, which you approved.",
+   "deciding": "Whether it says what you meant.",
+   "advice_note": "Approve, Reject, or Revise with your own words."
+  },
+  {
+   "id": "F8-22",
+   "type": "point",
+   "title": "Section names in \"My notes\", in quote marks",
+   "advice": "approve",
+   "spans": [
+    {
+     "block": 43,
+     "start": 31,
+     "end": 54
+    },
+    {
+     "block": 43,
+     "start": 86,
+     "end": 107
+    },
+    {
+     "block": 48,
+     "start": 10,
+     "end": 50
+    },
+    {
+     "block": 67,
+     "start": 10,
+     "end": 29
+    },
+    {
+     "block": 67,
+     "start": 102,
+     "end": 132
+    }
+   ],
+   "edits": [
+    {
+     "block": 43,
+     "before": "My notes: for stress and sleep see Severe stress above, and for stomach acid and bile see Low stomach acid.",
+     "after": "My notes: for stress and sleep see \"Severe stress\" above, and for stomach acid and bile see \"Low stomach acid\"."
+    },
+    {
+     "block": 48,
+     "before": "My notes: see Poor diet now and Plant foods, above.",
+     "after": "My notes: see \"Poor diet now\" and \"Plant foods\", above."
+    },
+    {
+     "block": 67,
+     "before": "My notes: see Leaky gut above for colostrum, zinc carnosine, BPC-157, ozonated zeolite and the fuels, and Sitting above for movement and yoga.",
+     "after": "My notes: see \"Leaky gut\" above for colostrum, zinc carnosine, BPC-157, ozonated zeolite and the fuels, and \"Sitting\" above for movement and yoga."
+    }
+   ],
+   "reads": [
+    {
+     "text": "My notes: for stress and sleep see \"Severe stress\" above, and for stomach acid and bile see \"Low stomach acid\".",
+     "kind": "p"
+    },
+    {
+     "text": "My notes: see \"Poor diet now\" and \"Plant foods\", above.",
+     "kind": "p"
+    },
+    {
+     "text": "My notes: see \"Leaky gut\" above for colostrum, zinc carnosine, BPC-157, ozonated zeolite and the fuels, and \"Sitting\" above for movement and yoga.",
+     "kind": "p"
+    }
+   ],
+   "reads_label": "As it would read",
+   "what": "\"see \"Severe stress\" above\" for \"see Severe stress above\"; \"see \"Low stomach acid\".\" for \"see Low stomach acid.\"; \"see \"Poor diet now\" and \"Plant foods\", above\" for \"see Poor diet now and Plant foods, above\"; \"see \"Leaky gut\" above\" for \"see Leaky gut above\"; \"and \"Sitting\" above for movement\" for \"and Sitting above for movement\"",
+   "why": "Two readers stumbled on these: \"see Poor diet now\" reads as \"see poor diet, now\", and \"Sitting above for movement\" reads as the activity. Quote marks make them names. The other \"My notes\" lines read fine without them.",
+   "stays": "Every pointer.",
+   "whose": "Mine (Phases 1 and 2, approved) and yours (Phase 5).",
+   "deciding": "Whether it says what you meant.",
+   "advice_note": "Approve, Reject, or Revise with your own words."
+  }
+ ]
+}

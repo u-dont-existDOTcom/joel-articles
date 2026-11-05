@@ -1,0 +1,40 @@
+[
+ {
+  "id": "G101",
+  "original": "CAUTION: cancer cells that multiply really fast can grab glutamine too, to fuel their growth. So if you have an active colon or liver cancer, don't raise the dose that high. The liver is on that list because the blood from your gut goes straight there, through the portal vein, so a big dose of glutamine reaches your liver before anywhere else.",
+  "rewrite": "CAUTION: a lot of cancers feed on glutamine too, so if you have an active cancer, check with your oncologist before you take any, even the 5g, and especially before you go up to the 10-30g.",
+  "changed_points": [
+   {
+    "change": "the caution covers any active cancer, not only colon or liver cancer",
+    "reason": "his card 1, approved: swallowed glutamine mostly does not reach the colon, and a tumor in the liver is fed mainly by the hepatic artery, not the portal vein"
+   },
+   {
+    "change": "the reader is told to check with their oncologist before going up to the 10-30g",
+    "reason": "his card 1, approved"
+   },
+   {
+    "change": "the portal-vein sentence goes",
+    "reason": "his card 1, approved: its reason did not hold for a tumor in the liver"
+   },
+   {
+    "change": "the check covers taking any glutamine, even the 5g baseline",
+    "reason": "his card 2, approved: whether the 5g is fine with an active cancer, folded into card 1's wording"
+   },
+   {
+    "change": "\"cancer cells that multiply really fast can grab glutamine too, to fuel their growth\" becomes \"a lot of cancers feed on glutamine too\"",
+    "reason": "the reason for the wider caution: many tumors use glutamine avidly (Souba 1993), not only fast-dividing ones; check that this is true"
+   }
+  ]
+ },
+ {
+  "id": "G102",
+  "original": "L-Glutamine (watch Dr. Rhonda vid) is the main fuel for your enterocytes, and for your immune cells when they're activated. Most food has to be digested before your cells can use it, and for protein that means being broken down into amino acids. But glutamine already is an amino acid, so your enterocytes can take it in as soon as it reaches them. Their mitochondria (the part of a cell that makes its energy) turn it into alpha-ketoglutarate (a-KG). And a-KG is one of the acids in the citric acid cycle itself, the loop mitochondria make that energy with. So that's why consuming pure glutamine gives energy to those cells faster than eating food. They then use their extra energy to repair the gut lining by pulling the tight junctions together, and that keeps LPS from getting through. Glutamine also provides nitrogen to help build new cells.",
+  "rewrite": "L-Glutamine (watch Dr. Rhonda vid) is the main fuel for your enterocytes, and for your immune cells when they're activated. Most food has to be digested before your cells can use it, and for protein that means being broken down into amino acids. But glutamine already is an amino acid, so your enterocytes can take it in as soon as it reaches them. Their mitochondria (the part of a cell that makes its energy) turn it into alpha-ketoglutarate (a-KG). And a-KG is one of the acids in the citric acid cycle itself, the loop mitochondria make that energy with. So that's why consuming pure glutamine gives energy to those cells faster than eating food, on top of what they get from their meals. They then use their extra energy to repair the gut lining by pulling the tight junctions together, and that keeps LPS from getting through. Glutamine also provides nitrogen to help build new cells.",
+  "changed_points": [
+   {
+    "change": "\", on top of what they get from their meals\" added to \"So that's why consuming pure glutamine gives energy to those cells faster than eating food\"",
+    "reason": "his card 3, approved: the paragraph before says the cells' trouble is not getting enough energy, and the next sentence says \"their extra energy\", which \"faster\" alone did not give"
+   }
+  ]
+ }
+]

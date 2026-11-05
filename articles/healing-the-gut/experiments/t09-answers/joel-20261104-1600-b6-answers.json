@@ -1,0 +1,156 @@
+{
+ "format": "joel-suggestion-review-answers-v1",
+ "review_id": "healing-the-gut-b6-stacks-20261104",
+ "title": "Gut Stacks, Before the Article Check",
+ "git_file": "articles/healing-the-gut/humanize/fix-20261103/r08/b6/REVIEW-PAGE.html",
+ "article": {
+  "file": "articles/healing-the-gut/humanize/fix-20261103/r07/r07.md",
+  "sha256": "ab56f709df51873e134a24de29c35070c5421802034fe1eeec30368abec2055e"
+ },
+ "built": "2026-11-04",
+ "generator": "suggestion_review.py 1.5 (2026-11-02)",
+ "exported_at": "2026-11-04T16:00:12.647Z",
+ "counts": {
+  "approved": 3,
+  "rejected": 1,
+  "revise": 2,
+  "pending": 0
+ },
+ "items": [
+  {
+   "id": "F6-1",
+   "type": "point",
+   "title": "The stacks section opens with what a stack is for",
+   "where": "Optional Ready-Made Gut Stacks, P1",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "I don't think there's one supplement stack (a set of supplements you take together) that heals everyone's gut, and no stack can do the phases above for you. So do those first, in order, and only go after bugs and parasites if your symptoms are still there after you've changed your diet. Then a stack can help with the rebuilding in Phase 5, once you're clear of infection and it's time to feed the good bacteria again.",
+   "before": "I don't think there's one supplement stack that heals everyone's gut. Whatever you take, the order matters. Get your digestion working mechanically first, then reset your diet and your gut motility, and only go after bugs and parasites with antimicrobial or anti-parasite protocols if you still have symptoms after that.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-04T15:28:27.002Z"
+    }
+   ],
+   "updated": "2026-11-04T15:28:27.002Z"
+  },
+  {
+   "id": "F6-2",
+   "type": "voice",
+   "title": "Your three categories: my suggestion, your call",
+   "where": "Optional Ready-Made Gut Stacks, P2",
+   "advice": "edit",
+   "status": "rejected",
+   "your_version": "",
+   "comment": "this isn't the problem. look: https://www.pangram.com/history/f24f66fe-78b9-4edc-91c7-a7ee15934ea4?ucc=4rq5Ko7gBiW&utm_source=pangram_share&utm_medium=copy_link",
+   "my_version": "That said, some people want a ready-made stack rather than buying every ingredient for it separately. So, if I were to recommend a general \"repair and rebuild\" approach, it would be a stack that covers three categories:",
+   "before": "That said, some people want a ready-made stack rather than buying every ingredient for it separately. So, if I were to recommend a general \"repair and rebuild\" approach, it would be a stack that covers three categories:",
+   "history": [
+    {
+     "from": "pending",
+     "to": "revise",
+     "at": "2026-11-04T15:30:02.205Z"
+    },
+    {
+     "from": "revise",
+     "to": "rejected",
+     "at": "2026-11-04T15:34:05.466Z"
+    },
+    {
+     "from": "rejected",
+     "to": "revise",
+     "at": "2026-11-04T15:42:20.476Z"
+    },
+    {
+     "from": "revise",
+     "to": "rejected",
+     "at": "2026-11-04T15:42:28.580Z"
+    }
+   ],
+   "updated": "2026-11-04T15:42:30.831Z"
+  },
+  {
+   "id": "F6-3",
+   "type": "help",
+   "title": "The kits: which category each covers",
+   "where": "Optional Ready-Made Gut Stacks, P5",
+   "advice": "edit",
+   "status": "revise",
+   "your_version": "Gemini suggested these kits to me, but so far they're the best ones I've seen, tho I haven't used them myself, so check the reviews. Microbiome Labs Total Gut Restoration covers all three categories, with a probiotic, a prebiotic and a product for the gut lining in one kit, so it's the best general one. Dr. Ruscio's Leaky Gut Support Kit has a probiotic and two gut lining products, one of them glutamine, but no prebiotic, so it's more for when leaky gut is your main problem. Finally, Designs for Health GI Revive is only gut-lining nutrients and herbs, so you'd still need a probiotic and a prebiotic with it.",
+   "comment": "it tested human as is: https://www.pangram.com/history/365caa04-7e58-4640-997b-1c51efda47bd?ucc=4rq5Ko7gBiW&utm_source=pangram_share&utm_medium=copy_link\n\nyour version, r08, makes no sense by the 6th word. Where is the \"but\" coming from? You can't say that. read it. it only follows from \"these\" kits not \"three kits\" ... i literally changed just \"three\" to \"these in this version and it went from mixed to 99% human: https://www.pangram.com/history/6d91a5de-7cb7-49ce-8ad7-22d9b8d92c10?ucc=4rq5Ko7gBiW&utm_source=pangram_share&utm_medium=copy_link\n\nthen i clarified you meant \"gut\" lining not some other lining, and it got more high confident human: https://www.pangram.com/history/fd9d11bc-991c-4bbd-9b1e-2c1450287622?ucc=4rq5Ko7gBiW&utm_source=pangram_share&utm_medium=copy_link\n\nand here is the final high conf version https://www.pangram.com/history/94ee6658-ab57-46c4-8cdd-dae9941acc22?ucc=4rq5Ko7gBiW&utm_source=pangram_share&utm_medium=copy_link",
+   "my_version": "Gemini suggested these kits to me, but so far they're the best ones I've seen, tho I haven't used them myself, so check the reviews. Designs for Health GI Revive is one of the more complete gut-lining repair formulas. You still need the rest of a gut protocol with it. There's also Dr. Ruscio's Leaky Gut Support Kit, which makes sense if leaky gut is your main problem. Microbiome Labs Total Gut Restoration is the best general stack of these, because you get mucosal support along with the probiotic and prebiotic.",
+   "before": "Gemini suggested these kits to me, but so far they're the best ones I've seen, tho I haven't used them myself, so check the reviews. Designs for Health GI Revive is one of the more complete gut-lining repair formulas. You still need the rest of a gut protocol with it. There's also Dr. Ruscio's Leaky Gut Support Kit, which makes sense if leaky gut is your main problem. Microbiome Labs Total Gut Restoration is the best general stack of these, because you get mucosal support along with the probiotic and prebiotic.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "revise",
+     "at": "2026-11-04T15:42:50.804Z"
+    }
+   ],
+   "updated": "2026-11-04T15:42:58.025Z"
+  },
+  {
+   "id": "F6-4",
+   "type": "point",
+   "title": "The cleanse stacks, following your Phase 3",
+   "where": "Optional Ready-Made Gut Stacks, P6",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "You'll also find \"gut cleanse\" stacks, built around oregano oil, wormwood, black walnut, berberine or other antimicrobial herbs. They kill bugs, like the herbal antibiotics in Phase 3, so they're only for when changing your diet hasn't cleared your symptoms. And even then I'd mostly skip them, because H2O2 works better without the side effects. The exception is berberine for H. pylori, the stomach bacteria that's usually behind heartburn you only get on an empty stomach: take it on its own, not in a cleanse stack (see Parasites, above).",
+   "before": "You'll also find \"gut cleanse\" stacks, built around oregano oil, wormwood, black walnut, berberine or other antimicrobial herbs, but I wouldn't start everyone off on those. They kill bugs, and that's Phase 3, for when changing your diet hasn't cleared your symptoms and you have more reason to suspect overgrowth, parasites, H. pylori or something else specific. For H. pylori, though, my own advice is to use berberine, which works well for it (see Parasites, above).",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-04T15:43:14.220Z"
+    }
+   ],
+   "updated": "2026-11-04T15:43:14.220Z"
+  },
+  {
+   "id": "F6-5",
+   "type": "help",
+   "title": "Start low, and when to see a doctor",
+   "where": "Optional Ready-Made Gut Stacks, P7",
+   "advice": "edit",
+   "status": "revise",
+   "your_version": "Start any kit at a low dose and build up as your gut gets used to it. The prebiotic part especially can give you gas at first, since gas is what your bacteria make when they ferment the fiber or resistant starch, and a new probiotic can bloat you or upset your stomach for a while.\n\nSome severe symptoms warrant seeing a doctor rather than considering this DIY approach at the moment. Take it seriously if you notice blood in your stool (if it's blood from upper digestive tract, it could be smelly, black & tarry, not red like from lower GI). Other serious signs to note: If you're losing weight fast, or if you have severe pain, a fever or dehydration. And if you're pregnant, some herbs and supplements, like berberine, aren't safe. If your immune system is weak, some probiotics could be risky since they're live bacteria that need to be kept in check to prevent overgrowth. If you have an IBD flare, cancer or another serious illness, work out what to take with your doctor instead of putting a stack together yourself.",
+   "comment": "first i had to clarify your referents in the first part to get it from less confidence (https://www.pangram.com/history/ff58d174-3e6c-432a-aedd-e59783527808?ucc=4rq5Ko7gBiW&utm_source=pangram_share&utm_medium=copy_link)\n\nto high conf hum: https://www.pangram.com/history/26ea2958-75b4-4204-a871-d53783ccf42d?ucc=4rq5Ko7gBiW&utm_source=pangram_share&utm_medium=copy_link\n\n2nd part was ai: https://www.pangram.com/history/c5d802b9-5c37-485a-adb3-19b15e44bcc5?ucc=4rq5Ko7gBiW&utm_source=pangram_share&utm_medium=copy_link\n\nthere was a lot wrong with that 2nd para and it also wasn't as informative as it should have been, i fixed it all in one shot and it passed: https://www.pangram.com/history/b795a02c-49c8-45c7-9289-7d56d7533cd0?ucc=4rq5Ko7gBiW&utm_source=pangram_share&utm_medium=copy_link\n\nthen putting them together it showed a low conf part: https://www.pangram.com/history/4855e9c9-e65f-4ae9-8b53-dd0e8bfb992b?ucc=4rq5Ko7gBiW&utm_source=pangram_share&utm_medium=copy_link\n\nindeed i re-read it and it didn't read as well as it could. so i fixed the order and now it's reading good and passes fully: https://www.pangram.com/history/6b3c14e0-d672-43be-9717-81af23861d75?ucc=4rq5Ko7gBiW&utm_source=pangram_share&utm_medium=copy_link",
+   "my_version": "Start with low doses, especially of prebiotics, resistant starch, butyrate-support products and probiotics, because at full doses they can all give you gas, bloating or an upset stomach at first, then build up as your gut gets used to them. And if you have severe pain, bleeding from your gut, fever, dehydration, rapid weight loss, an active IBD flare, cancer, immune suppression, a pregnancy, or another complex medical condition, the first few can be signs of something that needs a doctor, and the rest can change what's safe for you to take, so work with a qualified clinician instead of stacking supplements on your own.",
+   "before": "Start with low doses, especially of prebiotics, resistant starch, butyrate-support products and probiotics, because at full doses they can all give you gas, bloating or an upset stomach at first, then build up as your gut gets used to them. And if you have severe pain, bleeding from your gut, fever, dehydration, rapid weight loss, an active IBD flare, cancer, immune suppression, a pregnancy, or another complex medical condition, the first few can be signs of something that needs a doctor, and the rest can change what's safe for you to take, so work with a qualified clinician instead of stacking supplements on your own.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "revise",
+     "at": "2026-11-04T15:44:04.949Z"
+    }
+   ],
+   "updated": "2026-11-04T15:59:02.122Z"
+  },
+  {
+   "id": "F6-6",
+   "type": "point",
+   "title": "Glutamine's caution: why the liver",
+   "where": "Some Causes of poor gut health, P22",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "CAUTION: cancer cells that multiply really fast can grab glutamine too, to fuel their growth. So if you have an active colon or liver cancer, don't raise the dose that high. The liver is on that list because the blood from your gut goes straight there, through the portal vein, so a big dose of glutamine reaches your liver before anywhere else.",
+   "before": "CAUTION: cancer cells that multiply really fast can grab glutamine too, to fuel their growth. So if you have an active colon or liver cancer, don't raise the dose that high. The liver is on that list because it's where the glutamine goes first, through the portal vein.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-04T15:27:22.114Z"
+    }
+   ],
+   "updated": "2026-11-04T15:27:22.114Z"
+  }
+ ]
+}

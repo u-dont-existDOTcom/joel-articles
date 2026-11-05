@@ -1,0 +1,12 @@
+[
+ {
+  "id": "R7-P80",
+  "verdict": "PASS",
+  "issue": "LINK \"They kill bugs\" (what \"antimicrobial\" means, true). LINK \"that's Phase 3, for when changing your diet hasn't cleared your symptoms\" (the article's own Phase 3 condition). LINK \"my own advice is to use berberine\" spells out the \"different\" advice the original points to under Parasites. Every herb, Phase 3, \"everyone\" and the suspicion list (overgrowth, parasites, H. pylori, something specific) are kept. Dropping \"general\" and swapping \"either\" for \"also\" are wording."
+ },
+ {
+  "id": "R7-P81",
+  "verdict": "FAIL",
+  "issue": "The added link \"since they feed or add gut bacteria\" covers all four, but butyrate-support products (butyrate salts, tributyrin) supply butyrate rather than feeding or adding bacteria, so it is wrong for that item. Limit it to the ones it fits. Other links pass: LINK \"then build up as your gut gets used to them\"; LINK \"the first few can be signs of something that needs a doctor, and the rest can change what's safe\". All conditions and \"instead\" are kept."
+ }
+]

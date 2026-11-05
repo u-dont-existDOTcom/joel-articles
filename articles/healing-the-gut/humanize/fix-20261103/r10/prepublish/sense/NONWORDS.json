@@ -1,0 +1,933 @@
+[
+ {
+  "word": "amd",
+  "blocks": [
+   2
+  ],
+  "where": [
+   "the opening, P3"
+  ],
+  "suggest": [
+   "ad",
+   "add",
+   "adm",
+   "aid",
+   "ald"
+  ]
+ },
+ {
+  "word": "antimicrobials",
+  "blocks": [
+   40,
+   42
+  ],
+  "where": [
+   "Phase 1: The Pre-Flight Safety Check, P1",
+   "Phase 1: The Pre-Flight Safety Check, P3"
+  ],
+  "suggest": [
+   "antimicrobial"
+  ]
+ },
+ {
+  "word": "bacteriocins",
+  "blocks": [
+   63
+  ],
+  "where": [
+   "Phase 5: Restoration & Maintenance (Let's Play Gardener!), P2"
+  ],
+  "suggest": []
+ },
+ {
+  "word": "bff",
+  "blocks": [
+   52
+  ],
+  "where": [
+   "Phase 3: The Purge, P3"
+  ],
+  "suggest": [
+   "biff",
+   "buff",
+   "eff",
+   "off"
+  ]
+ },
+ {
+  "word": "bifidobacterium",
+  "blocks": [
+   19
+  ],
+  "where": [
+   "Some Causes of poor gut health, list item"
+  ],
+  "suggest": []
+ },
+ {
+  "word": "bodyweight",
+  "blocks": [
+   6
+  ],
+  "where": [
+   "Some Causes of poor gut health, P2"
+  ],
+  "suggest": []
+ },
+ {
+  "word": "boulardii",
+  "blocks": [
+   54
+  ],
+  "where": [
+   "Phase 3: The Purge, P5"
+  ],
+  "suggest": []
+ },
+ {
+  "word": "bpc",
+  "blocks": [
+   22,
+   67
+  ],
+  "where": [
+   "Some Causes of poor gut health, P15",
+   "Phase 5: Restoration & Maintenance (Let's Play Gardener!), P6"
+  ],
+  "suggest": [
+   "bic"
+  ]
+ },
+ {
+  "word": "bulsiewicz",
+  "blocks": [
+   64
+  ],
+  "where": [
+   "Phase 5: Restoration & Maintenance (Let's Play Gardener!), P3"
+  ],
+  "suggest": []
+ },
+ {
+  "word": "candibactin",
+  "blocks": [
+   52
+  ],
+  "where": [
+   "Phase 3: The Purge, P3"
+  ],
+  "suggest": []
+ },
+ {
+  "word": "cardio",
+  "blocks": [
+   28
+  ],
+  "where": [
+   "Some Causes of poor gut health, P21"
+  ],
+  "suggest": [
+   "cardie",
+   "cardin"
+  ]
+ },
+ {
+  "word": "carnosine",
+  "blocks": [
+   21,
+   67,
+   78
+  ],
+  "where": [
+   "Some Causes of poor gut health, P14",
+   "Phase 5: Restoration & Maintenance (Let's Play Gardener!), P6",
+   "Optional Ready-Made Gut Stacks, P4"
+  ],
+  "suggest": [
+   "carnotite",
+   "caroline"
+  ]
+ },
+ {
+  "word": "cholestyramine",
+  "blocks": [
+   70
+  ],
+  "where": [
+   "Phase 6: Refractory Cases, P2"
+  ],
+  "suggest": []
+ },
+ {
+  "word": "colonocytes",
+  "blocks": [
+   26,
+   30
+  ],
+  "where": [
+   "Some Causes of poor gut health, P19",
+   "Some Causes of poor gut health, P23"
+  ],
+  "suggest": []
+ },
+ {
+  "word": "crohn's",
+  "blocks": [
+   28
+  ],
+  "where": [
+   "Some Causes of poor gut health, P21"
+  ],
+  "suggest": [
+   "croon's",
+   "crown's"
+  ]
+ },
+ {
+  "word": "diff",
+  "blocks": [
+   54
+  ],
+  "where": [
+   "Phase 3: The Purge, P5"
+  ],
+  "suggest": [
+   "biff",
+   "daff",
+   "doff",
+   "duff",
+   "jiff"
+  ]
+ },
+ {
+  "word": "diosmin",
+  "blocks": [
+   10
+  ],
+  "where": [
+   "Some Causes of poor gut health, P4"
+  ],
+  "suggest": [
+   "dioxin"
+  ]
+ },
+ {
+  "word": "diy",
+  "blocks": [
+   82
+  ],
+  "where": [
+   "Optional Ready-Made Gut Stacks, P8"
+  ],
+  "suggest": [
+   "day",
+   "dey",
+   "di",
+   "dib",
+   "did"
+  ]
+ },
+ {
+  "word": "dmso",
+  "blocks": [
+   2
+  ],
+  "where": [
+   "the opening, P3"
+  ],
+  "suggest": [
+   "also",
+   "ambo",
+   "ammo",
+   "amos",
+   "d's"
+  ]
+ },
+ {
+  "word": "dnrs",
+  "blocks": [
+   71
+  ],
+  "where": [
+   "Phase 6: Refractory Cases, P3"
+  ],
+  "suggest": [
+   "adars",
+   "airs",
+   "anas",
+   "anis",
+   "ans"
+  ]
+ },
+ {
+  "word": "drs",
+  "blocks": [
+   52
+  ],
+  "where": [
+   "Phase 3: The Purge, P3"
+  ],
+  "suggest": [
+   "d's",
+   "dis",
+   "dos",
+   "dr",
+   "dry"
+  ]
+ },
+ {
+  "word": "endotoxins",
+  "blocks": [
+   26
+  ],
+  "where": [
+   "Some Causes of poor gut health, P19"
+  ],
+  "suggest": [
+   "endotoxin"
+  ]
+ },
+ {
+  "word": "enterocytes",
+  "blocks": [
+   26,
+   27,
+   31
+  ],
+  "where": [
+   "Some Causes of poor gut health, P19",
+   "Some Causes of poor gut health, P20",
+   "Some Causes of poor gut health, P24"
+  ],
+  "suggest": []
+ },
+ {
+  "word": "esp",
+  "blocks": [
+   19
+  ],
+  "where": [
+   "Some Causes of poor gut health, list item"
+  ],
+  "suggest": [
+   "asp",
+   "emp",
+   "ep",
+   "es",
+   "esd"
+  ]
+ },
+ {
+  "word": "etc",
+  "blocks": [
+   14
+  ],
+  "where": [
+   "Some Causes of poor gut health, P8"
+  ],
+  "suggest": [
+   "et",
+   "eta",
+   "etch",
+   "eth",
+   "exc"
+  ]
+ },
+ {
+  "word": "fodmap",
+  "blocks": [
+   46
+  ],
+  "where": [
+   "Phase 2: The Reset, P2"
+  ],
+  "suggest": [
+   "foeman",
+   "formal",
+   "format",
+   "hodman"
+  ]
+ },
+ {
+  "word": "gasseri",
+  "blocks": [
+   63
+  ],
+  "where": [
+   "Phase 5: Restoration & Maintenance (Let's Play Gardener!), P2"
+  ],
+  "suggest": [
+   "gasser"
+  ]
+ },
+ {
+  "word": "gillooly",
+  "blocks": [
+   31
+  ],
+  "where": [
+   "Some Causes of poor gut health, P24"
+  ],
+  "suggest": []
+ },
+ {
+  "word": "glucans",
+  "blocks": [
+   23
+  ],
+  "where": [
+   "Some Causes of poor gut health, P16"
+  ],
+  "suggest": [
+   "glans",
+   "gleans",
+   "glucagons",
+   "gluons",
+   "guans"
+  ]
+ },
+ {
+  "word": "herx",
+  "blocks": [
+   42
+  ],
+  "where": [
+   "Phase 1: The Pre-Flight Safety Check, P3"
+  ],
+  "suggest": [
+   "her",
+   "hera",
+   "herb",
+   "herd",
+   "here"
+  ]
+ },
+ {
+  "word": "hrp",
+  "blocks": [
+   17
+  ],
+  "where": [
+   "Some Causes of poor gut health, P11"
+  ],
+  "suggest": [
+   "arp",
+   "hap",
+   "harp",
+   "hep",
+   "hip"
+  ]
+ },
+ {
+  "word": "ibd",
+  "blocks": [
+   28,
+   82
+  ],
+  "where": [
+   "Some Causes of poor gut health, P21",
+   "Optional Ready-Made Gut Stacks, P8"
+  ],
+  "suggest": [
+   "bid",
+   "i'd",
+   "ibm",
+   "ibo",
+   "id"
+  ]
+ },
+ {
+  "word": "ibs",
+  "blocks": [
+   18,
+   32,
+   60
+  ],
+  "where": [
+   "Some Causes of poor gut health, P12",
+   "Some Causes of poor gut health, P25",
+   "Phase 4: The Investigation, P3"
+  ],
+  "suggest": [
+   "abs",
+   "bibs",
+   "bis",
+   "dibs",
+   "fibs"
+  ]
+ },
+ {
+  "word": "incompleted",
+  "blocks": [
+   10
+  ],
+  "where": [
+   "Some Causes of poor gut health, P4"
+  ],
+  "suggest": [
+   "incomplete",
+   "uncompleted"
+  ]
+ },
+ {
+  "word": "jungtions",
+  "blocks": [
+   18
+  ],
+  "where": [
+   "Some Causes of poor gut health, P12"
+  ],
+  "suggest": [
+   "junctions"
+  ]
+ },
+ {
+  "word": "ketoglutarate",
+  "blocks": [
+   27
+  ],
+  "where": [
+   "Some Causes of poor gut health, P20"
+  ],
+  "suggest": []
+ },
+ {
+  "word": "lipopolysaccharides",
+  "blocks": [
+   26
+  ],
+  "where": [
+   "Some Causes of poor gut health, P19"
+  ],
+  "suggest": []
+ },
+ {
+  "word": "liposomal",
+  "blocks": [
+   19
+  ],
+  "where": [
+   "Some Causes of poor gut health, list item"
+  ],
+  "suggest": [
+   "ribosomal"
+  ]
+ },
+ {
+  "word": "lmk",
+  "blocks": [
+   35
+  ],
+  "where": [
+   "Concise Recipe for Gut Healing:, P1"
+  ],
+  "suggest": [
+   "lek",
+   "lm",
+   "mk"
+  ]
+ },
+ {
+  "word": "loveyhuasca",
+  "blocks": [
+   5
+  ],
+  "where": [
+   "Some Causes of poor gut health, P1"
+  ],
+  "suggest": []
+ },
+ {
+  "word": "lps",
+  "blocks": [
+   26,
+   27
+  ],
+  "where": [
+   "Some Causes of poor gut health, P19",
+   "Some Causes of poor gut health, P20"
+  ],
+  "suggest": [
+   "alps",
+   "l's",
+   "laps",
+   "les",
+   "lips"
+  ]
+ },
+ {
+  "word": "malic",
+  "blocks": [
+   31
+  ],
+  "where": [
+   "Some Causes of poor gut health, P24"
+  ],
+  "suggest": [
+   "magic",
+   "mali",
+   "malice",
+   "manic",
+   "melic"
+  ]
+ },
+ {
+  "word": "microbiome",
+  "blocks": [
+   58,
+   79
+  ],
+  "where": [
+   "Phase 4: The Investigation, P1",
+   "Optional Ready-Made Gut Stacks, P5"
+  ],
+  "suggest": [
+   "microsome",
+   "microtome"
+  ]
+ },
+ {
+  "word": "mmc",
+  "blocks": [
+   47,
+   65
+  ],
+  "where": [
+   "Phase 2: The Reset, P3",
+   "Phase 5: Restoration & Maintenance (Let's Play Gardener!), P4"
+  ],
+  "suggest": [
+   "mac",
+   "mic",
+   "mme"
+  ]
+ },
+ {
+  "word": "mucosal",
+  "blocks": [
+   78
+  ],
+  "where": [
+   "Optional Ready-Made Gut Stacks, P4"
+  ],
+  "suggest": [
+   "mucosa",
+   "mucosas"
+  ]
+ },
+ {
+  "word": "mycotoxins",
+  "blocks": [
+   19,
+   70,
+   72
+  ],
+  "where": [
+   "Some Causes of poor gut health, list item",
+   "Phase 6: Refractory Cases, P2",
+   "Phase 6: Refractory Cases, P4"
+  ],
+  "suggest": []
+ },
+ {
+  "word": "org",
+  "blocks": [
+   0,
+   19,
+   36
+  ],
+  "where": [
+   "the opening, P1",
+   "Some Causes of poor gut health, list item",
+   "Concise Recipe for Gut Healing:, P2"
+  ],
+  "suggest": [
+   "arg",
+   "borg",
+   "erg",
+   "or",
+   "ora"
+  ]
+ },
+ {
+  "word": "orthomolecular",
+  "blocks": [
+   52
+  ],
+  "where": [
+   "Phase 3: The Purge, P3"
+  ],
+  "suggest": []
+ },
+ {
+  "word": "overgrowths",
+  "blocks": [
+   45
+  ],
+  "where": [
+   "Phase 2: The Reset, P1"
+  ],
+  "suggest": [
+   "overgrowth",
+   "overgrowth's"
+  ]
+ },
+ {
+  "word": "ozonated",
+  "blocks": [
+   25,
+   67
+  ],
+  "where": [
+   "Some Causes of poor gut health, P18",
+   "Phase 5: Restoration & Maintenance (Let's Play Gardener!), P6"
+  ],
+  "suggest": [
+   "donated",
+   "pronated",
+   "zonate"
+  ]
+ },
+ {
+  "word": "paromomycin",
+  "blocks": [
+   52
+  ],
+  "where": [
+   "Phase 3: The Purge, P3"
+  ],
+  "suggest": []
+ },
+ {
+  "word": "phosphatidylcholine",
+  "blocks": [
+   42
+  ],
+  "where": [
+   "Phase 1: The Pre-Flight Safety Check, P3"
+  ],
+  "suggest": []
+ },
+ {
+  "word": "phytates",
+  "blocks": [
+   16
+  ],
+  "where": [
+   "Some Causes of poor gut health, P10"
+  ],
+  "suggest": []
+ },
+ {
+  "word": "pimentel",
+  "blocks": [
+   46,
+   47
+  ],
+  "where": [
+   "Phase 2: The Reset, P2",
+   "Phase 2: The Reset, P3"
+  ],
+  "suggest": [
+   "pigmented",
+   "pimento",
+   "pimentos"
+  ]
+ },
+ {
+  "word": "prebiotic",
+  "blocks": [
+   77,
+   79,
+   81
+  ],
+  "where": [
+   "Optional Ready-Made Gut Stacks, P3",
+   "Optional Ready-Made Gut Stacks, P5",
+   "Optional Ready-Made Gut Stacks, P7"
+  ],
+  "suggest": [
+   "periotic"
+  ]
+ },
+ {
+  "word": "probiotic",
+  "blocks": [
+   76,
+   79,
+   81
+  ],
+  "where": [
+   "Optional Ready-Made Gut Stacks, list item",
+   "Optional Ready-Made Gut Stacks, P5",
+   "Optional Ready-Made Gut Stacks, P7"
+  ],
+  "suggest": [
+   "robotic"
+  ]
+ },
+ {
+  "word": "probiotics",
+  "blocks": [
+   77,
+   82
+  ],
+  "where": [
+   "Optional Ready-Made Gut Stacks, P3",
+   "Optional Ready-Made Gut Stacks, P8"
+  ],
+  "suggest": [
+   "robotics"
+  ]
+ },
+ {
+  "word": "reuteri",
+  "blocks": [
+   63
+  ],
+  "where": [
+   "Phase 5: Restoration & Maintenance (Let's Play Gardener!), P2"
+  ],
+  "suggest": [
+   "reuters"
+  ]
+ },
+ {
+  "word": "ruscio",
+  "blocks": [
+   46
+  ],
+  "where": [
+   "Phase 2: The Reset, P2"
+  ],
+  "suggest": [
+   "cusco",
+   "lucio",
+   "muscid",
+   "nuncio",
+   "riccio"
+  ]
+ },
+ {
+  "word": "ruscio's",
+  "blocks": [
+   79
+  ],
+  "where": [
+   "Optional Ready-Made Gut Stacks, P5"
+  ],
+  "suggest": [
+   "lucio's",
+   "luscious",
+   "nuncio's",
+   "russia's",
+   "russo's"
+  ]
+ },
+ {
+  "word": "scfas",
+  "blocks": [
+   30
+  ],
+  "where": [
+   "Some Causes of poor gut health, P23"
+  ],
+  "suggest": [
+   "sofas"
+  ]
+ },
+ {
+  "word": "secnidazole",
+  "blocks": [
+   52
+  ],
+  "where": [
+   "Phase 3: The Purge, P3"
+  ],
+  "suggest": []
+ },
+ {
+  "word": "sibo",
+  "blocks": [
+   15,
+   19,
+   30,
+   50,
+   56,
+   63
+  ],
+  "where": [
+   "Some Causes of poor gut health, P9",
+   "Some Causes of poor gut health, list item",
+   "Some Causes of poor gut health, P23"
+  ],
+  "suggest": [
+   "ibo",
+   "kibo",
+   "sib",
+   "sibs",
+   "silo"
+  ]
+ },
+ {
+  "word": "sifo",
+  "blocks": [
+   50
+  ],
+  "where": [
+   "Phase 3: The Purge, P1"
+  ],
+  "suggest": [
+   "sift",
+   "silo"
+  ]
+ },
+ {
+  "word": "tca",
+  "blocks": [
+   31
+  ],
+  "where": [
+   "Some Causes of poor gut health, P24"
+  ],
+  "suggest": [
+   "ca",
+   "rca",
+   "ta",
+   "tc",
+   "tea"
+  ]
+ },
+ {
+  "word": "vid",
+  "blocks": [
+   27
+  ],
+  "where": [
+   "Some Causes of poor gut health, P20"
+  ],
+  "suggest": [
+   "aid",
+   "avid",
+   "bid",
+   "cid",
+   "did"
+  ]
+ },
+ {
+  "word": "zonulin",
+  "blocks": [
+   18,
+   25
+  ],
+  "where": [
+   "Some Causes of poor gut health, P12",
+   "Some Causes of poor gut health, P18"
+  ],
+  "suggest": [
+   "botulin",
+   "inulin",
+   "moulin"
+  ]
+ }
+]

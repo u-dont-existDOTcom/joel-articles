@@ -1,0 +1,34 @@
+[
+ {
+  "sentence": 1,
+  "quote": "I wouldn't start everyone off on the general \"gut cleanse\" stacks either",
+  "gap": "\"Either\" means there's something else you wouldn't start everyone on, but the paragraph before recommended three kits. What is the other thing? And why are cleanse stacks coming up now: are they the other kind of ready-made stack I'd find when I go shopping?",
+  "id": "L1",
+  "answer": "You'll also find \"gut cleanse\" stacks",
+  "raised": "You'll also find \"gut cleanse\" stacks"
+ },
+ {
+  "sentence": 2,
+  "quote": "once you have more reason to suspect overgrowth, parasites, H. pylori or something else specific",
+  "gap": "More reason than what, and what would that reason be: symptoms still there after the diet reset, a test, something else? How would I know which one of these I have?",
+  "id": "L2",
+  "answer": "for when changing your diet hasn't cleared your symptoms",
+  "raised": "for when changing your diet hasn't cleared your symptoms"
+ },
+ {
+  "sentence": 2,
+  "quote": "H. pylori",
+  "gap": "What is H. pylori?",
+  "id": "L3",
+  "status": "drop",
+  "note": "The Parasites cause, earlier in the article, is where H. pylori comes in (its empty-stomach heartburn, treated with berberine); a gloss here would explain it twice (E349)."
+ },
+ {
+  "sentence": 3,
+  "quote": "My own advice is different for H. pylori, where berberine works well",
+  "gap": "Different from what? Berberine was in the list you just said not to start with. So for H. pylori, do I take it early, before Phase 3, or do I take it on its own instead of a cleanse stack, still in Phase 3?",
+  "id": "L4",
+  "answer": "For H. pylori, though, my own advice is to use berberine",
+  "raised": "For H. pylori, though"
+ }
+]

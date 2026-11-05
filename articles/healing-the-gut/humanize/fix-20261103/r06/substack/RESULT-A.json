@@ -1,0 +1,362 @@
+{
+ "feed_uuid": "9d23530f-1f29-4f73-a288-f50652a37939",
+ "link": "https://www.pangram.com/feed/9d23530f-1f29-4f73-a288-f50652a37939",
+ "created_at": "2026-11-04T07:55:03.390549-05:00",
+ "domain": "substack",
+ "content_type": "long_post",
+ "prediction_short": "Human",
+ "headline": "Mostly Human Written",
+ "version": "4.1",
+ "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+ "readout_policy_id": null,
+ "fraction_ai": 0.02509409375488758,
+ "fraction_human": 0.9749059081077576,
+ "fraction_breakdown": {
+  "ai": {
+   "low-confidence": 0.00015945822815410793,
+   "high-confidence": 0.024934634566307068,
+   "medium-confidence": 0
+  },
+  "human": {
+   "low-confidence": 1.1750155515244387e-08,
+   "high-confidence": 0.9749059081077576,
+   "medium-confidence": 0
+  },
+  "ai-assisted": {
+   "lightly": 1.9089352351541701e-19,
+   "moderately": 0
+  }
+ },
+ "document_confidence": {
+  "level": "High",
+  "boundary": null
+ },
+ "num_ai_segments": 4,
+ "num_human_segments": 27,
+ "word_count": 3380,
+ "task_id": "601154fe-da28-4dd3-a5da-b2c42d6cf409",
+ "windows": [
+  {
+   "label": "Human",
+   "confidence": "High",
+   "ai_likelihood": 7.913629953075301e-22,
+   "word_count": 1565,
+   "start_index": 0,
+   "end_index": 9612,
+   "is_humanized": false,
+   "calibrated_confidence": 0.9986433036140399
+  },
+  {
+   "label": "Human",
+   "confidence": "High",
+   "ai_likelihood": 7.913629953075301e-22,
+   "word_count": 648,
+   "start_index": 9612,
+   "end_index": 13258,
+   "is_humanized": false,
+   "calibrated_confidence": 0.9986433036140399
+  },
+  {
+   "label": "Human",
+   "confidence": "Medium",
+   "ai_likelihood": 6.320331064069151e-11,
+   "word_count": 3,
+   "start_index": 13258,
+   "end_index": 13270,
+   "is_humanized": false,
+   "calibrated_confidence": 0.9511600701891206
+  },
+  {
+   "label": "Human",
+   "confidence": "High",
+   "ai_likelihood": 6.640616545487547e-17,
+   "word_count": 24,
+   "start_index": 13270,
+   "end_index": 13438,
+   "is_humanized": false,
+   "calibrated_confidence": 0.9905750221103292
+  },
+  {
+   "label": "Human",
+   "confidence": "Medium",
+   "ai_likelihood": 9.578812049104712e-11,
+   "word_count": 23,
+   "start_index": 13438,
+   "end_index": 13583,
+   "is_humanized": false,
+   "calibrated_confidence": 0.9664053421694155
+  },
+  {
+   "label": "Human",
+   "confidence": "Low",
+   "ai_likelihood": 1.0122369609177895e-08,
+   "word_count": 3,
+   "start_index": 13583,
+   "end_index": 13600,
+   "is_humanized": false,
+   "calibrated_confidence": 0.8721036307243204
+  },
+  {
+   "label": "Human",
+   "confidence": "High",
+   "ai_likelihood": 1.9178511306335436e-18,
+   "word_count": 47,
+   "start_index": 13600,
+   "end_index": 13864,
+   "is_humanized": false,
+   "calibrated_confidence": 0.9935673207837713
+  },
+  {
+   "label": "Human",
+   "confidence": "Medium",
+   "ai_likelihood": 7.15505840611242e-15,
+   "word_count": 5,
+   "start_index": 13864,
+   "end_index": 13885,
+   "is_humanized": false,
+   "calibrated_confidence": 0.9867167280997569
+  },
+  {
+   "label": "Human",
+   "confidence": "High",
+   "ai_likelihood": 9.620468736854088e-26,
+   "word_count": 6,
+   "start_index": 13885,
+   "end_index": 13919,
+   "is_humanized": false,
+   "calibrated_confidence": 0.99582728680807
+  },
+  {
+   "label": "Human",
+   "confidence": "Medium",
+   "ai_likelihood": 5.048516265411182e-15,
+   "word_count": 2,
+   "start_index": 13919,
+   "end_index": 13935,
+   "is_humanized": false,
+   "calibrated_confidence": 0.9867167280997569
+  },
+  {
+   "label": "Human",
+   "confidence": "High",
+   "ai_likelihood": 5.771454814664849e-21,
+   "word_count": 148,
+   "start_index": 13935,
+   "end_index": 14883,
+   "is_humanized": false,
+   "calibrated_confidence": 0.9980876680622226
+  },
+  {
+   "label": "Human",
+   "confidence": "Medium",
+   "ai_likelihood": 1.050075723260397e-14,
+   "word_count": 5,
+   "start_index": 14883,
+   "end_index": 14912,
+   "is_humanized": false,
+   "calibrated_confidence": 0.9867167280997569
+  },
+  {
+   "label": "Human",
+   "confidence": "High",
+   "ai_likelihood": 1.0521776682753608e-18,
+   "word_count": 202,
+   "start_index": 14912,
+   "end_index": 16090,
+   "is_humanized": false,
+   "calibrated_confidence": 0.9974842475024168
+  },
+  {
+   "label": "Human",
+   "confidence": "Medium",
+   "ai_likelihood": 4.2538909894584975e-11,
+   "word_count": 1,
+   "start_index": 16090,
+   "end_index": 16094,
+   "is_humanized": false,
+   "calibrated_confidence": 0.9524484477161538
+  },
+  {
+   "label": "Human",
+   "confidence": "High",
+   "ai_likelihood": 2.2756215312647162e-24,
+   "word_count": 28,
+   "start_index": 16094,
+   "end_index": 16255,
+   "is_humanized": false,
+   "calibrated_confidence": 0.9963357009921832
+  },
+  {
+   "label": "Human",
+   "confidence": "Medium",
+   "ai_likelihood": 1.808815467199687e-12,
+   "word_count": 3,
+   "start_index": 16255,
+   "end_index": 16270,
+   "is_humanized": false,
+   "calibrated_confidence": 0.9729837107667858
+  },
+  {
+   "label": "Human",
+   "confidence": "High",
+   "ai_likelihood": 1.3577220092745808e-22,
+   "word_count": 17,
+   "start_index": 16270,
+   "end_index": 16374,
+   "is_humanized": false,
+   "calibrated_confidence": 0.9949029180446867
+  },
+  {
+   "label": "Human",
+   "confidence": "Medium",
+   "ai_likelihood": 2.073482783583082e-14,
+   "word_count": 6,
+   "start_index": 16374,
+   "end_index": 16410,
+   "is_humanized": false,
+   "calibrated_confidence": 0.9856644562842577
+  },
+  {
+   "label": "Human",
+   "confidence": "High",
+   "ai_likelihood": 1.5326497663774263e-18,
+   "word_count": 211,
+   "start_index": 16410,
+   "end_index": 17667,
+   "is_humanized": false,
+   "calibrated_confidence": 0.9976507966887507
+  },
+  {
+   "label": "Human",
+   "confidence": "Medium",
+   "ai_likelihood": 4.545621171136993e-11,
+   "word_count": 40,
+   "start_index": 17667,
+   "end_index": 17918,
+   "is_humanized": false,
+   "calibrated_confidence": 0.9578548880506023
+  },
+  {
+   "label": "Human",
+   "confidence": "Low",
+   "ai_likelihood": 0.031023824587464333,
+   "word_count": 17,
+   "start_index": 17918,
+   "end_index": 18020,
+   "is_humanized": false,
+   "calibrated_confidence": 0.5309585690261428
+  },
+  {
+   "label": "Human",
+   "confidence": "Medium",
+   "ai_likelihood": 9.511827957220387e-12,
+   "word_count": 33,
+   "start_index": 18020,
+   "end_index": 18221,
+   "is_humanized": false,
+   "calibrated_confidence": 0.9625564139830184
+  },
+  {
+   "label": "Human",
+   "confidence": "High",
+   "ai_likelihood": 2.231000220006065e-21,
+   "word_count": 90,
+   "start_index": 18221,
+   "end_index": 18756,
+   "is_humanized": false,
+   "calibrated_confidence": 0.9970543222597086
+  },
+  {
+   "label": "Human",
+   "confidence": "Medium",
+   "ai_likelihood": 6.079163214489647e-12,
+   "word_count": 15,
+   "start_index": 18756,
+   "end_index": 18824,
+   "is_humanized": false,
+   "calibrated_confidence": 0.9706888823930624
+  },
+  {
+   "label": "Human",
+   "confidence": "High",
+   "ai_likelihood": 7.734428240585202e-18,
+   "word_count": 39,
+   "start_index": 18824,
+   "end_index": 19055,
+   "is_humanized": false,
+   "calibrated_confidence": 0.9951462701735936
+  },
+  {
+   "label": "Human",
+   "confidence": "Low",
+   "ai_likelihood": 2.7656726615532534e-06,
+   "word_count": 27,
+   "start_index": 19055,
+   "end_index": 19228,
+   "is_humanized": false,
+   "calibrated_confidence": 0.7271657596705399
+  },
+  {
+   "label": "AI-Generated",
+   "confidence": "Medium",
+   "ai_likelihood": 1,
+   "word_count": 16,
+   "start_index": 19228,
+   "end_index": 19322,
+   "is_humanized": false,
+   "calibrated_confidence": 0.9867167280997569
+  },
+  {
+   "label": "AI-Generated",
+   "confidence": "Low",
+   "ai_likelihood": 0.9999933242797852,
+   "word_count": 5,
+   "start_index": 19322,
+   "end_index": 19357,
+   "is_humanized": true,
+   "calibrated_confidence": 0.7134522992450241
+  },
+  {
+   "label": "Human",
+   "confidence": "Low",
+   "ai_likelihood": 7.483320950996131e-05,
+   "word_count": 15,
+   "start_index": 19357,
+   "end_index": 19451,
+   "is_humanized": false,
+   "calibrated_confidence": 0.7113042360498084
+  },
+  {
+   "label": "AI-Generated",
+   "confidence": "Medium",
+   "ai_likelihood": 1,
+   "word_count": 14,
+   "start_index": 19451,
+   "end_index": 19559,
+   "is_humanized": true,
+   "calibrated_confidence": 0.9228471876555501
+  },
+  {
+   "label": "AI-Generated",
+   "confidence": "High",
+   "ai_likelihood": 1,
+   "word_count": 40,
+   "start_index": 19559,
+   "end_index": 19818,
+   "is_humanized": true,
+   "calibrated_confidence": 0.9990737340412404
+  },
+  {
+   "label": "Human",
+   "confidence": "Medium",
+   "ai_likelihood": 9.91494098771166e-16,
+   "word_count": 12,
+   "start_index": 19818,
+   "end_index": 19892,
+   "is_humanized": false,
+   "calibrated_confidence": 0.9887529685889679
+  }
+ ],
+ "text": "This article is one core component of my detox strategy. I also recommend checking out the leaky gut fix guide from EndSickness.org.\nAnd before we get into any of the physical treatments, consider the emotional:\nPreviously, I made some posts about dealing with diarrhea and constipation, as well as commenting on the AMD article on DMSO for gut health. But in this article, I will consolidate the most important texts on this topic so that you can directly consult with Gemini (on Flash Extended mode) to extract the top knowledge in the field. On the other hand, I also have some tips which are not found in books or AI.\nKeep in mind that gut health is intimately linked to mental health, as the gut is considered our “second brain.” Some people think their guts are working fine, but they notice other health problems, including mental health, and don’t realize that all disease begins in the gut, to quote Hippocrates, the founder of Western Medicine. Of course, that’s obviously not true, because stress can come from other vectors, but the gut is central to the feedback loop and can cement other stress vectors.\nSevere stress/adrenal fatigue/poor sleep (Phase 1): This can cause a lack of mucus to line the stomach, which in turn causes burning, difficulty absorbing nutrients, and so forth. And every other gut issue can also be partly related to this. My mindset page and loveyhuasca protocol can help a lot with this, as well as my deep sleep tips.\nSitting, or lack of exercise and stretching (Phase 5): humans were not designed to be sedentary. Our biology slows down and cramps up when we are. Walk, do yoga, do shaking qi-gong, do bodyweight strength training.\nThis woman healed her gut with 3 fun movements:\nActually, yoga specifically, and especially Iyengar yoga, which is the most technically anatomical scientific yoga, would be more useful than general exercise:\nYears of accumulated shit in your guts (closest: Phase 4): This part isn’t in the gut healing books I read, but even if you fix all of what’s going into you now, if you’re already full and clogged with all of what went in before, that’s gonna be little help. My friend Pooyan got incredibly healthier and happier after getting enough colon hydrotherapy to flush that stuff out, combined with then also doing intense stretches like hanging from one arm, until finally, the most crusted up shit exploded in him which was very painful for a day.\nThis is likely caused by diverticulosis, a disease that causes herniated pockets to form in the intestines which aren’t supported by smooth muscle. There’s no known cure for this disease, except possibly glutamine, based one one incompleted clinical trial, which found 2 of 9 women had incredible reductions in diverticula. Glutamine an amino acid that’s the fuel for small intestinal cells, so this makes some sense. 10% of people get side effects from it (including constipation). Butyrate is the fuel for the colon cells. I would also suggest diosmin for improving blood vessel integrity.\nHowever, while we don’t know if Pooyan has diverticulosis, what we now do know is that his peak health disappeared 3 days later after eating some bread with A1 dairy.\nCAUTION: If you have severe diverticulosis, especially diverticulitis (once the fecal impaction causes intestinal infection & inflammation), you might be at high risk for intestinal wall rupture, and even rejected by the more reputable colonic irrigation clinics. Make sure you get cleared by a gastroenterologist first.\nPoor diet now (Phase 2): industrial and processed foods, especially oils, are often empty calories full of countless toxins and oxidation byproducts. Toxins are sequestered in fat cells to prevent them from damaging organs, but this toxic fat (especially visceral fat) becomes a chronic health issue even as it protects us from immediately dying from the sequestered toxins.\nParasites, H. pylori, mold, metals (Phases 3 and 6): We are often addicted to junk food due to a vicious cycle in which the junk feeds parasitic organisms and bad bacteria, yeast, etc, which then send signals to our brain to consume more junk. Thus, we have to target the problem from various angles – cleansing out pathogens, repopulating good bacteria, addressing vitamin (especially thiamine), mineral, and enzyme deficiencies, and changing what we eat. I wrote about my detox protocol (which includes the gut) here.\nFor H. Pylori specifically: if you get heartburn when your stomach is empty only, that’s usually H. Pylori, and it’s easily treated with berberine.\nSIBO (Phases 3 and 5): Small intestinal bacterial overgrowth is a huge issue underlying a wide range of illnesses. One of the most effective cures for many people is SIBO Yogurt. I also sell these SIBO yogurt bacteria (along with other helpful herbal juices and minerals) in liquid form for vegans.\nPlant foods (Phases 2 and 5): The carnivore diet is trending, as many people (especially with leaky gut or lack of oxalate-processing bacteria) are noticing they cannot handle fiber, oxalates, and phytates in plants. It’s certainly a diet worth trying, but it can lead to deficiencies over time, especially with regard vitamins C, E, fiber, magnesium, potassium, calcium, iodine and other trace minerals, and bacteria needed to process plant foods (which already are likely missing in people who need this diet), thus making the carnivore diet sort of hard to get off.\nFor the most research-backed recommendations you can check this HRP deep research report. Glutamine seems worth checking into, but plant intolerance is a symptom of a variety of underlying diseases that all have different treatments.\nLeaky gut (Phase 5): a widespread inflammatory condition often intersecting with other categories of illness such as Crohn’s Disease or IBS, plant food intolerance, and what many alternative health practitioners consider as a root cause of most diseases. It’s associated with increased zonulin levels clinically. Zonulin is the molecule released to signal your intestinal tight jungtions to open. Too much opening time leads to allowing stuff to leak out into your blood stream which then burdens your immune system and detoxification systems. Game-changing treatments:\nLiposomal first-milking colostrum (esp. fermented per Matt Nedin’s protocol with bifidobacterium, or SIBO yogurt bacteria). Matt from Endsickness.org finds that this helps especially to mop up mycotoxins in the gut. Activated charcoal can also be helpful, altho don’t take that with things you want to actually absorb.\nFermented veggie juices of turmeric, red cabbage, celery, beet greens (not just beet root).\nZinc carnosine, the form of zinc which stays in your intestinal gaps.\nA good BPC-157 supplement, like this one from Barrier, can also help. Note: I think Barrier’s product looks smart, and their product may be really ideal, but there are some red flags in their marketing since they say it’s made from plants, which is false.\nBeta-glucans, in yeast extract.\nResistant starch to feed the good bacteria in your gut.\nOzonated zeolite (or ZeoCharge): I find regular zeolite to be ineffective, because the pores on it are clogged up, so it can’t adsorb excess zonulin, metals, and other toxins.\nMitochondrial and cellular energy starvation is what you get when there’s not enough of the fuels each type of cell in your gut prefers (glutamine and butyrate). Your gut barrier needs a lot of energy, to keep its tight junctions intact. If the cells lining your small intestine (called enterocytes) or the colonocytes lining your large intestine don’t do that, the barrier loosens up. Then lipopolysaccharides (LPS, which come from the walls of bacteria) and other endotoxins leak through those (not-so-tight)-junction gaps into your bloodstream.\nL-Glutamine (watch Dr. Rhonda vid) is the main fuel for your enterocytes, and for your immune cells when they’re activated. It doesn’t have to go through the complicated digestive steps other nutrients do. Inside the mitochondria, it gets turned straight into alpha-ketoglutarate, or α-KG. The α-KG goes into the citric acid cycle, which is how the mitochondria make their energy. So that’s why consuming pure glutamine gives energy to those cells faster than eating food. They then use their extra energy to repair the gut lining by pulling the tight junctions together, and that keeps LPS from getting through. Glutamine also provides nitrogen to help build new cells.\nTake 5g a day as a baseline. The point of that baseline is to counter the breakdown of the gut lining that high-intensity or high-volume training causes, like CrossFit or intense cardio. If your immune system is dealing with an acute exposure, if your whole system is under a lot of stress, or if you have active IBD (Crohn’s or colitis), raise it gradually to 10-30g a day.\nCAUTION: cancer cells that multiply really fast can grab glutamine too, to fuel their growth. So if you have an active colon or liver cancer, don’t raise the dose that high. The liver is on that list because it’s where the glutamine goes first, through the portal vein.\nThe colonocytes lining your large intestine are fueled by short-chain fatty acids (SCFAs) like butyrate, while your small intestine runs on glutamine. Your gut bacteria make SCFAs when they ferment raw resistant starch, and you get SCFAs directly from your home-brewed SIBO yogurt too. Besides feeding the colonocytes, SCFAs lock down the barrier in your lower gut, preventing the dangerous escape of substances from gut to blood, which then turns down inflammatory signals that would be needed otherwise to contain the damage.\nSome people will tell you to take malic and citric acid (which make green apples and tart cherries sour) as an extra quick energy source for your enterocytes. And they do supply quick energy, because they are made and used by that mitochondrial energy cycle, also called the TCA or Krebs cycle. But glutamine is still the main thing they need, because it helps build new cells in addition to giving the needed energy. Those acids do help you absorb iron, even two or three times better according to one study where people ate rice with 1g pure malic acid or citric acid mixed in (Gillooly et al., 1983). That’s probably because the acids help keep the iron dissolved so the gut can take it up. So something sour with an iron-rich meal is worth having anyway.\nIBS (Phase 4): While there are many causes and types of irritable bowel syndrome, psychedelics are one promising new avenue of treatment. However, it’s always best to find the root cause of the problem, which requires investigation. A functional medicine gastroenterologist might help.\nLow stomach acid, enzymes, and thick bile (Phase 1): which in turn are often due to poor diet, stress, infections. T.C. Hale has a lot of videos on healing digestion issues, which in his experience as a health coach, are often due to these root causes. He’s a bit controversial on some points such as his urine pH testing for anabolic/catabolic state freezes, but he does have some good suggestions he explains in his book.\nI have consolidated the top 9 most effective gut healing books into a customized smart Gemini Pro Gut Health Gem. You can ask any questions in that Gem to consult the following 9 experts at once and get far better advice than you’d get from any one of them! If you have any other books you think would be better, lmk in comments!\nNOTE: this gut gem does not include some of my research in this article, which is newer, especially from folks like Matt from EndSickness.org who doesn’t have a comprehensive text for Gemini to read. So the phases below are only what the Gem will tell you, from the nine books. Where my notes in the causes above change or add to a phase, I point back to them under “My notes” in that phase.\nThis protocol is meant to be done in phases. Don’t skip any, since you only move on to the next phase if the one you’re on doesn’t clear up your symptoms.\nBefore you throw supplements or antimicrobials at your gut, the system mechanics that are foundational to gut function have to work. This part is from T.C. Hale (Kick Your Fat in the Nuts) and Stanley Rosenberg (Accessing the Healing Power of the Vagus Nerve).\nAre your pupils dilated all the time? Are you missing your gag reflex? Then according to Hale, you’re stuck in fight or flight mode (which in medical lingo is called “sympathetic dominance”), and digestion is offline. Rosenberg’s fix is his Basic Exercise (eye movements) or the Salamander technique (which looks like some kind of yoga, see a video demo here). Both of those help to mechanically release the vagus nerve so your body can switch into rest and digest mode.\nNow let’s have a look at your bile function. Do you burp extra (not just like one little burp) after fatty meals? Do your stools float (like it’s hard to flush), or look like clay? Then your bile is stagnant (not flowing well), and Hale says if you take antimicrobials now, you’ll get a herx reaction you can’t detoxify. So thin the bile first with Beet Flow (an extract of beet greens) or phosphatidylcholine, before starting on any pathogen killing protocol.\nMy notes: for stress and sleep see Severe stress above, and for stomach acid and bile see Low stomach acid.\nThis is Dr. Michael Ruscio (Healthy Gut, Healthy You) and Dr. Mark Pimentel (The Microbiome Connection): calm the inflammation down and starve the overgrowths, no harsh chemicals.\nDiet-wise, go Paleo-Low FODMAP (Ruscio) or Low Fermentation Eating (Pimentel). Either way you stop feeding the bacteria in your small intestine.\nAnd no snacking! Pimentel wants meals 4-5 hours apart, strictly, so the Migrating Motor Complex (MMC) gets to sweep your gut clean in between.\nMy notes: see Poor diet now and Plant foods, above.\nIf diet didn’t clear your symptoms, you likely have an active overgrowth (SIBO/SIFO). This one is from Dr. William Davis (Super Gut) and Dr. Michael Ruscio.\nAVOID most herbal antibiotics, even though Davis recommends specific herbal combinations like Candibactin AR/BR or FC Cidal/Dysbiocide for 4 weeks.\nH2O2 actually works better than the herbal antibiotics according to me and orthomolecular drs. My BFF Pooyan tried candibactin actually and it nearly killed him. The H2O2 worked a lot better without side effects. There is one herbal antibiotic that works really well tho for H. pylori: Berberine. If you have an acute infection with something that those don’t help quickly, consider escalating to secnidazole treatment for rapid cure, and paromomycin post-treatment for relapse prevention, with medical supervision.\nBIND to the toxins, especially the metals and parasite die-off toxins, using Zholy3O.\nAt the same time, take Ruscio’s Triple Probiotic Support, a blend of Lacto/Bifido, S. boulardii, and Soil-Based organisms. That’s to maintain diversity and prevent opportunistic infections (like C. diff) during the kill phase.\nAnd if the herbs failed, the overgrowth is too severe or the gut lining is too damaged for solids, so it’s time for Ruscio’s “Nuclear” Option, the Elemental Diet. That’s a 2-3 week liquid-only diet (predigested nutrients), which starves the bacteria completely while still nourishing you.\nMy notes: the H2O2 swap above is mine, not the books’. For berberine and H. pylori see Parasites, and for SIBO yogurt see SIBO, above.\nBenjamin Brown (Digestive Health Solution) is the only source for this phase. If even the “Nuclear Option” failed, you can cross the microbiome off the list. The problem is likely organ failure, or environmental toxicity or brain plasticity (those two are Phase 6, below).\nSo check your organs (Brown). Is it Exocrine Pancreatic Insufficiency? You’d test for that with Stool Elastase, and treat it with high-dose enzymes. Or is it Bile Acid Diarrhea? That test is SeHCAT, and the treatment is bile binders.\nMy notes: two things the books don’t cover, old impaction and colon hydrotherapy (Years of accumulated shit, above) and psychedelics for IBS (IBS, above).\nOnce you’re clear of infection, you have to rebuild a diverse ecosystem to prevent relapse. Dr. William Davis is back for that, along with Dr. Will Bulsiewicz (Fiber Fueled).\nStart by re-seeding with Davis’s high-dose “SIBO Yogurt”, fermented for 36 hours. It contains L. reuteri, to heal the lining and boost oxytocin, and L. gasseri, to produce bacteriocins that kill SIBO.\nThen feed the new healthy bacteria. Bulsiewicz says to slowly titrate plant diversity back into your diet, aiming for 30+ different plants per week. Does anyone count their plants?\nContinue Pimentel’s strict meal spacing from Phase 2 (4+ hours), forever, to keep the MMC cleaning wave active.\nAnd fuel the mitochondria: see the fuels under Leaky gut, above (glutamine and butyrate).\nMy notes: see Leaky gut above for colostrum, zinc carnosine, BPC-157, ozonated zeolite and the fuels, and Sitting above for movement and yoga.\nThe last phase is from Neil Nathan (Toxic) and Annie Hopper (Wired for Healing). It’s for people who are “sensitive to everything,” or who relapse right away even though they’ve stuck to the protocol perfectly.\nCheck your environment (Nathan). Could it be mold/mycotoxins, or Lyme? Get assessed for those, and if it comes back positive, use specific binders (Cholestyramine, Charcoal, Clay).\nThen check the brain. If you react to everything, Hopper says the issue is Limbic System Impairment, and you’d use “Brain Retraining” (DNRS) to stop the brain from firing false “danger” signals to the gut.\nMy notes: Matt’s note on mopping up mycotoxins with fermented colostrum is under Leaky gut, above.\nI don’t think there’s one supplement stack that heals everyone’s gut. Whatever you take, the order matters. Get your digestion working mechanically first, then reset your diet and your gut motility, and only go after bugs and parasites with antimicrobial or anti-parasite protocols if you still have symptoms after that.\nThat said, some people want a ready-made stack rather than buying every ingredient for it separately. So, if I were to recommend a general “repair and rebuild” approach, it would be a stack that covers three categories:\nFirst, support the Microbiome with a well-tolerated probiotic or probiotic system.\nThen keep the probiotics well-fed with a good prebiotic, and take butyrate itself or something that helps short-chain fatty acid production, especially the main one, butyrate.\nOther nutrients will help support barrier repair, such as glutamine, zinc carnosine, colostrum, mucosal-support herbs, or similar compounds.\nGemini suggested these kits to me, but so far they’re the best ones I’ve seen, tho I haven’t used them myself, so check the reviews. Designs for Health GI Revive is one of the more complete gut-lining repair formulas. You still need the rest of a gut protocol with it. There’s also Dr. Ruscio’s Leaky Gut Support Kit, which makes sense if leaky gut is your main problem. Microbiome Labs Total Gut Restoration is the best general stack of these, because you get mucosal support along with the probiotic and prebiotic.\nI wouldn’t start everyone off on the general “gut cleanse” stacks either, the ones built around oregano oil, wormwood, black walnut, berberine or other antimicrobial herbs. Those are for later (Phase 3), once you have more reason to suspect overgrowth, parasites, H. pylori or something else specific. (My own advice is different for H. pylori, where berberine works well: see Parasites, above.)\nStart with low doses, especially of prebiotics, resistant starch, butyrate-support products and probiotics. And if you have severe pain, GI bleeding, fever, dehydration, rapid weight loss, an active IBD flare, cancer, immune suppression, a pregnancy, or another complex medical condition, don’t stack supplements on your own, work with a qualified clinician instead.\nHere they are, in a Google Doc: Gut Health Architect custom instructions.",
+ "text_sha256": "2ef2fe9f47ae4d32ea203f28d83201da9c083e838d021d9bc08618809d2d6bc8"
+}

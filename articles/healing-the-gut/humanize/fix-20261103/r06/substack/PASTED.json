@@ -11,6 +11,7 @@
   "rendered_check": "74 lines, the rebuild's 74 (substack_check_text.py: CHECKED-TEXT-A.txt); every line the same but one, where Substack shows his double space in 'sort of  hard to get off' (Plant foods) as one space; no wrong-way quote marks",
   "chars_checked": 19892
  },
- "pangram": "The secret link was opened in his Brave through Claude in Chrome; his Pangram extension labeled the post 'Human', and 'Click to view full analysis' was clicked. The full analysis opens in a tab outside the session's tab group, so its result page (pangram.com/feed/...) has to come from him. The label is not the result: the feed page's windows are.",
- "secret_links": "not recorded: anyone with one can read the draft"
+ "pangram": "The secret link was opened through Claude in Chrome, in a browser with a Pangram extension that labeled the post 'Human'; Joel, 2026-11-04 13:59 UTC: \"i don't see anything opened in my brave ... you opened it in your own cloud browser\", so that browser was not his Brave. 'Click to view full analysis' opened the result outside the session's tab group, and he sent its page: https://www.pangram.com/feed/9d23530f-1f29-4f73-a288-f50652a37939. It was read with a headless browser on his laptop (the page needs no sign-in) by tools/humanization/pangram_feed_read.js: RESULT-A.json, its text's SHA-256 the rendered check's.",
+ "secret_links": "not recorded: anyone with one can read the draft",
+ "prediction": "none: no prediction was frozen before this check, which the rules ask for before every check (docs/FIXING-AN-ARTICLE.md section 6, step 1); the recheck gets one first"
 }
