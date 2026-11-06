@@ -1,0 +1,249 @@
+{
+  "schema": "JOEL_OWNER_DELIVERY_GATE_V1",
+  "status": "READY_FOR_CHECK",
+  "candidate_sha256": "71dcc4e680ec277d57db07b6e7c399ceaad5204d00505e5e190b432c58b5ddfd",
+  "context_sha256": "1bc222ff5f78e4601d912ea6b9a821efc21c690e950df93393a8fea3e902aa30",
+  "source_sha256": "d970550b257b1aedc0f342ad7cc117b90b31585b1eb011685e4fb312b54defce",
+  "inventory_sha256": "512ba9966b464de682eba7afb959025fa516e0baad489aedd5cca6d81c31d7b5",
+  "writer": {
+    "name": "ChatGPT primary editor",
+    "context_id": "/root"
+  },
+  "lint": {
+    "verdict_at_init": "REVIEW",
+    "linter_sha256": "7c46478a4d8541a86c3674775519a79e27f164f300dee2dad82924ef76cdf87a",
+    "stdout_sha256": "b8ff4742d10d1ee72adec573e331d258d6b8c2a40c85456bff26c190550ab3e8",
+    "findings": [
+      {
+        "label": "B4/E15 list or packed sentence",
+        "examples": [
+          "Even once, whether or not it brings up old stuff, get safe first, which is not a small thing at all, I know."
+        ],
+        "disposition": "JUSTIFIED_KEEP",
+        "reason": "The sentence contains one imperative, “get safe first.” “Even once” and “whether or not it brings up old stuff” qualify that imperative; the “which” clause acknowledges the cost of doing it. The commas and sentence length do not yield a list of separate instructions. Its winding cadence is the source cadence and reads like a spoken aside."
+      },
+      {
+        "label": "D9 follows the source order",
+        "examples": [
+          "1/1 paragraphs follow the source's points in its order (agreement 1.00); fine if each part notices something; check T13 and T09 in the tell ledger"
+        ],
+        "disposition": "JUSTIFIED_KEEP",
+        "reason": "The one-paragraph source order is appropriately retained: condition, instruction, acknowledgement of difficulty. The final “not a small thing at all, I know” notices a complication in acting on the advice. T09 and T13 are not established by a 1/1 order match."
+      },
+      {
+        "label": "O45 a safety line (Joel 2026-10-23: \"all the extra extra ridiculous safety language which gets repeated everywhere\"; \"let's never make those mistakes again pls\"; E250 (Inner Child)): it stays only if it changes what the reader does right here, isn't a sometimes-true point said as a rule, and the article doesn't already say it",
+        "examples": [
+          "Even once, whether or not it brings up old stuff, get safe first, which is not a small thing at all, I know."
+        ],
+        "disposition": "JUSTIFIED_KEEP",
+        "reason": "The heading supplies the narrow condition of actual harm or threat, and “Even once” includes a first incident. Before the following advice about wording and conflict responses, “get safe first” changes the immediate priority. The earlier “protect yourself first” concerns danger from disclosure, while “get anyone in danger safe before worrying about the rest” concerns disclosure/confidentiality when someone may be dangerous. Those passages do not already supply this first-incident and past-experience qualification for conflict. The candidate retains source material rather than adding a general disclaimer. It gives a sequence under its stated condition; it does not prescribe a further universal action such as leaving or reporting. Acceptance here does not endorse claims elsewhere in the guide."
+      }
+    ]
+  },
+  "tell_ledger": [
+    {
+      "id": "T01",
+      "status": "ABSENT",
+      "evidence": "The only first person is the source’s “I know,” attached to the difficulty of getting safe. It acknowledges that the imperative can be hard; it does not offer Joel’s preference as authority.",
+      "resolution": ""
+    },
+    {
+      "id": "T02",
+      "status": "ABSENT",
+      "evidence": "There is one main imperative, “get safe first.” “Even once” and “whether or not it brings up old stuff” qualify that same action; this is not a sequence of lesson-sized commands.",
+      "resolution": ""
+    },
+    {
+      "id": "T03",
+      "status": "ABSENT",
+      "evidence": "The heading states actual hurt or threat before the paragraph discusses safety. In context it opens “Speaking Up and Handling Conflict,” so the priority has a visible reason at its point of use.",
+      "resolution": ""
+    },
+    {
+      "id": "T04",
+      "status": "ABSENT",
+      "evidence": "The candidate contains no scene or sequence of concrete beats that could disguise a source checklist.",
+      "resolution": ""
+    },
+    {
+      "id": "T05",
+      "status": "ABSENT",
+      "evidence": "No object, scene prop, or convenient invented detail appears. “Someone” identifies the actor needed by the condition.",
+      "resolution": ""
+    },
+    {
+      "id": "T06",
+      "status": "ABSENT",
+      "evidence": "“Old stuff” is broad source language, but here its job is to identify an irrelevant-to-priority cause of the reader’s reaction. The clause does not pretend to supply a concrete personal scene or substitute generic healing language for one.",
+      "resolution": ""
+    },
+    {
+      "id": "T07",
+      "status": "ABSENT",
+      "evidence": "“Even once” directly answers whether repeated harm is required; “I know” is the source’s acknowledgement that getting safe is difficult. Neither is inserted filler to disguise a transition between engineered beats.",
+      "resolution": ""
+    },
+    {
+      "id": "T08",
+      "status": "ABSENT",
+      "evidence": "No concrete image appears and no later sentence explains an image’s meaning. The “which” clause adds difficulty, rather than translating a prior scene.",
+      "resolution": ""
+    },
+    {
+      "id": "T09",
+      "status": "ABSENT",
+      "evidence": "A single sentence offers no chain of equally weighted teaching units. The extended “which is not a small thing at all, I know” lingers on the difficulty of the one instruction.",
+      "resolution": ""
+    },
+    {
+      "id": "T10",
+      "status": "ABSENT",
+      "evidence": "No permission formula occurs. “Whether or not it brings up old stuff” removes one possible reason to postpone the specific action named in the heading’s condition.",
+      "resolution": ""
+    },
+    {
+      "id": "T11",
+      "status": "ABSENT",
+      "evidence": "The heading identifies a concrete condition—someone has hurt or threatened the reader—and the paragraph responds to it. It does not announce a document transition in interchangeable bridge language.",
+      "resolution": ""
+    },
+    {
+      "id": "T12",
+      "status": "ABSENT",
+      "evidence": "“Whether or not” is the necessary two-way distinction inherited from “old stuff or not”; either way the safety priority is the same. There is no decorative symmetry or closed taxonomy.",
+      "resolution": ""
+    },
+    {
+      "id": "T13",
+      "status": "ABSENT",
+      "evidence": "The source-retained “which is not a small thing at all, I know” notices the burden imposed by “get safe first.” The sentence is therefore more than a bare outline slot containing a safety command.",
+      "resolution": ""
+    },
+    {
+      "id": "T14",
+      "status": "ABSENT",
+      "evidence": "The candidate preserves its own source order. Its visible placement at the start of conflict advice gives actual harm priority before advice about words and responses; nothing in the literal candidate indicates detector-motivated rearrangement.",
+      "resolution": ""
+    },
+    {
+      "id": "T15",
+      "status": "ABSENT",
+      "evidence": "“They’ve” becomes “Someone Has” to make the moved heading self-contained. “Old stuff or not” becomes “whether or not it brings up old stuff” to spell out the relation while retaining the author’s phrase; there is no search for rare replacement vocabulary.",
+      "resolution": ""
+    },
+    {
+      "id": "T16",
+      "status": "ABSENT",
+      "evidence": "“Not a small thing” does not form a not-X/but-Y reveal. It qualifies how difficult the preceding instruction may be.",
+      "resolution": ""
+    },
+    {
+      "id": "T17",
+      "status": "ABSENT",
+      "evidence": "“Get safe first” is an action attached to the explicitly named hurt-or-threat condition. The candidate does not turn this into an aphoristic thesis about life or healing.",
+      "resolution": ""
+    },
+    {
+      "id": "T18",
+      "status": "ABSENT",
+      "evidence": "There is no premise followed by a separate sentence that flips it. The paragraph consists of a single qualified instruction.",
+      "resolution": ""
+    },
+    {
+      "id": "T19",
+      "status": "ABSENT",
+      "evidence": "The heading labels the actual situation and the only body sentence gives its instruction. No sentence merely says that a lesson or list is coming next.",
+      "resolution": ""
+    },
+    {
+      "id": "T20",
+      "status": "ABSENT",
+      "evidence": "The ending “I know” is an unpolished, source-retained acknowledgement of difficulty, without a clever reversal or quote-card closer.",
+      "resolution": ""
+    },
+    {
+      "id": "T21",
+      "status": "PRESENT",
+      "evidence": "One sentence contains the threshold “Even once,” the past-trigger qualification, “get safe first,” and an acknowledgement that this is difficult. Those are several compact functions, and the mechanical packed-sentence concern is real.",
+      "resolution": "JUSTIFIED_KEEP",
+      "reason": "Accepted as a source-retained construction for this minimal referent repair: the source has the same four functions in the same sentence, with exactly the same imperative and final acknowledgement. They qualify one action under one harm condition, rather than compressing several independent recommendations. Splitting or replacing them would go beyond the requested minimal repair without resolving a comprehension problem."
+    },
+    {
+      "id": "T22",
+      "status": "ABSENT",
+      "evidence": "Although the sentence gives advice and acknowledges difficulty, it has a definite local stance: one actual hurt or threat is sufficient, and a connection to older experiences does not remove the safety priority. It is not validation without a position.",
+      "resolution": ""
+    },
+    {
+      "id": "T23",
+      "status": "ABSENT",
+      "evidence": "No purported personal scenery or universalized sensory detail appears.",
+      "resolution": ""
+    },
+    {
+      "id": "T24",
+      "status": "ABSENT",
+      "evidence": "There is no suspense opener or self-answered question. The condition and action are stated directly.",
+      "resolution": ""
+    },
+    {
+      "id": "T25",
+      "status": "ABSENT",
+      "evidence": "The candidate contains no colon.",
+      "resolution": ""
+    },
+    {
+      "id": "T26",
+      "status": "ABSENT",
+      "evidence": "The context has earlier safety advice about risks from disclosure and about telling people of a current danger. Here the same general priority applies at a different decision point: the reader has been hurt or threatened and is about to read conflict-response advice. Its repetition has a local function, and the candidate does not add a second safety sentence.",
+      "resolution": ""
+    },
+    {
+      "id": "T27",
+      "status": "ABSENT",
+      "evidence": "None of the listed tic words or phrases occurs in the candidate. “Old stuff” is inherited wording, not one of the specified tic phrases.",
+      "resolution": ""
+    },
+    {
+      "id": "T28",
+      "status": "ABSENT",
+      "evidence": "The paragraph ends by admitting the difficulty of getting safe, not with a promise of recovery, uplift, or a lesson summary. The section then proceeds to conflict advice.",
+      "resolution": ""
+    },
+    {
+      "id": "T29",
+      "status": "ABSENT",
+      "evidence": "There is only one body sentence, so no last sentence restates a point already made one sentence earlier. The closing relative clause introduces difficulty rather than repeating the action.",
+      "resolution": ""
+    },
+    {
+      "id": "C01",
+      "status": "ABSENT",
+      "evidence": "The candidate does not name the inner child at all and does not use “the kid.”",
+      "resolution": ""
+    },
+    {
+      "id": "C02",
+      "status": "ABSENT",
+      "evidence": "“Someone” supplies the previously dangling actor in the heading. “It” in “it brings up old stuff” refers to the just-named hurt or threat; “which” refers to getting safe. All referents are available when read.",
+      "resolution": ""
+    },
+    {
+      "id": "C03",
+      "status": "ABSENT",
+      "evidence": "“I know” is present verbatim in source.txt. The repair adds no claim about Joel’s biography, practices, or feelings.",
+      "resolution": ""
+    },
+    {
+      "id": "C04",
+      "status": "ABSENT",
+      "evidence": "There is no named person, study, product, or external factual attribution in the candidate.",
+      "resolution": ""
+    }
+  ],
+  "review_files": {
+    "preservation": "preservation.json",
+    "cold_read_1": "cold_read_1.json",
+    "cold_read_2": "cold_read_2.json"
+  }
+}

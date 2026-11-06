@@ -1,0 +1,33 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "cold_read_2",
+  "candidate_sha256": "209268bc2c71455ca25591e90d1caa433de8cd4b4a41377b9de4b4fe5e89032a",
+  "source_sha256": "e463edae30775d82f886121449ea3fb0045582dc6f8d681624feed8761fb2b8b",
+  "context_sha256": "1bc222ff5f78e4601d912ea6b9a821efc21c690e950df93393a8fea3e902aa30",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "ChatGPT fresh cold reader",
+    "context_id": "/root/odt_cold_two",
+    "origin": "Separate fresh collaboration context with source, candidate and natural context"
+  },
+  "evidence": "I independently read the exact changed opening sentence against its source and the complete surrounding paragraph, with the preceding Hearthwork discussion visible. The source’s “your support person were a lover” could attach the just-described peer to the romantic role. “Your support came from a lover” instead names a possible source of support without identifying the peer as that lover. The change preserves the tentative “Maybe you’d rather,” the desire for support associated with romance, and “as well,” while adding no advice, fact, or autobiographical claim. The opening still leads naturally into “Lots of people open a dating app in the middle of the night,” and the rest of the paragraph is unchanged. I assessed all 33 inventory IDs on this sentence and found no inventory operation present; individual literal evidence is in cold_two_inventory.json. Both actual mechanical REVIEW labels were examined: single-sentence source order is appropriate, and the two retained second-person forms do not establish heavy cumulative coaching at this 12-word scope. No detector calls or unrelated factual review were performed.",
+  "resolved_lint_labels": [
+    "D9 follows the source order",
+    "E36/E41 heavy second person"
+  ],
+  "resolved_tell_ids": [],
+  "lint_assessment": [
+    {
+      "label": "D9 follows the source order",
+      "disposition": "ACCEPTED",
+      "reason": "The source and candidate are each one sentence considering a wish for romantic support. Preserving that order is appropriate for a referent repair. T09 and T13 do not describe an isolated sentence naming this local preference; the context develops it with the dating-app example rather than another abstract outline point."
+    },
+    {
+      "label": "E36/E41 heavy second person",
+      "disposition": "ACCEPTED",
+      "reason": "The 12-word sentence retains the source’s two reader references, “you’d” and “your.” The reported 16.7 per 100 words is inflated by this tiny scope and does not show cumulative coaching or invented universal scenery. Direct address is necessary to preserve the source’s tentative statement about the reader’s possible preference."
+    }
+  ],
+  "inventory_assessment_file": "/workspace/scratch/4845c4a6c885/odt_work/dating_gate/cold_two_inventory.json"
+}
