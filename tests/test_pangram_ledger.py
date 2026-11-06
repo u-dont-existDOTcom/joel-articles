@@ -359,6 +359,8 @@ class SenseGate(unittest.TestCase):
                 x['payoff'] = 'tells the helper what to do next'
                 x['follows'] = 'continues the step before'
             r['placement'] = 'after the first-aid paragraph, which it continues'
+            r['opens']['why_reading'] = 'the helper learns what to do in the first minute of the seizure'
+            r['same_point'] = 'none: read the Active Seizure section from its heading to the next for these steps'
             r['questions'] = {q: 'PASS: said in the sentence itself' for q in self.S.QUESTIONS}
         rp = self.dir / ('r%d.json' % self.n)
         rp.write_text(json.dumps(r), encoding='utf-8')

@@ -23,6 +23,8 @@ def filled(text=TEXT, his='', whose='his own: a test line he wrote into the guid
             x['payoff'] = 'they know not to count on the gel during a seizure'
             x['follows'] = 'continues the CBD paragraph before it'
     r['placement'] = 'after the cannabis paragraphs, because it carries on from CBD taken other ways'
+    r['opens']['why_reading'] = 'they learn up front that the gel is not something to count on for them'
+    r['same_point'] = 'none: read the Active Seizure section from its heading to the next for topical CBD'
     r['questions'] = {q: 'PASS: checked against this text' for q in R.QUESTIONS}
     return r
 
@@ -132,3 +134,38 @@ class Check(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
+
+
+class Paragraph(unittest.TestCase):
+    """Gates E374 and E376 (Joel, 2026-11-06 19:40 UTC, on my dynorphin tries: "it was not giving the payoff quick
+    enough. i was as usual wondering why am i reading this?"; "delete the "hardening" para since i had to incorporate
+    that into this one, otherwise it was out of order and a bit redundant")."""
+
+    def test_make_writes_the_first_sentence_and_both_fields(self):
+        r = R.make(TEXT, 'Active Seizure', READER)
+        self.assertEqual(r['opens'], {'first_sentence': 'As for topical CBD, it hasn\'t been well-studied.',
+                                      'why_reading': ''})
+        self.assertEqual(r['same_point'], '')
+
+    def test_the_paragraph_must_say_why_its_first_sentence_is_read(self):
+        r = filled()
+        r['opens']['why_reading'] = 'none'
+        self.assertTrue(any(p.startswith('opens:') for p in R.check(TEXT, r)))
+        r = filled()
+        r['opens']['first_sentence'] = 'Some other opening.'
+        self.assertTrue(any('first_sentence' in p for p in R.check(TEXT, r)))
+
+    def test_the_same_point_elsewhere_must_be_answered(self):
+        r = filled()
+        r['same_point'] = ''
+        self.assertTrue(any(p.startswith('same_point:') for p in R.check(TEXT, r)))
+        r['same_point'] = 'none, there is nothing like it anywhere else here'
+        self.assertTrue(any(p.startswith('same_point:') for p in R.check(TEXT, r)))
+
+    def test_an_older_receipt_without_the_fields_is_checked_as_before(self):
+        r = filled()
+        del r['opens'], r['same_point']
+        r['made'] = '2026-11-05'
+        self.assertEqual(R.check(TEXT, r), [])
+        r['made'] = '2026-11-07'
+        self.assertTrue(any(p.startswith('opens:') for p in R.check(TEXT, r)))
