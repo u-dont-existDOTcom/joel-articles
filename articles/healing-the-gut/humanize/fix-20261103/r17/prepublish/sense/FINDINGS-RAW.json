@@ -1,0 +1,22 @@
+[
+ {
+  "block": 79,
+  "text": "Gemini suggested these kits to me, but so far they're the best ones I've seen",
+  "kind": "broken",
+  "what": "\"but\" sets up a contrast that isn't there; the sentence reads as if \"and\" was meant.",
+  "fix": "Gemini suggested these kits to me, and so far they're the best ones I've seen",
+  "confidence": "likely",
+  "readers": [
+   1
+  ],
+  "reports": [
+   {
+    "reader": 1,
+    "kind": "broken",
+    "what": "\"but\" sets up a contrast that isn't there; the sentence reads as if \"and\" was meant.",
+    "fix": "Gemini suggested these kits to me, and so far they're the best ones I've seen",
+    "confidence": "likely"
+   }
+  ]
+ }
+]

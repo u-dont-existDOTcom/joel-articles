@@ -25,10 +25,12 @@ Pangram's web app on his account, through the Claude desktop app's browser pane;
 | the Human first half with the practice part (`TEST-first-practice.txt`) | 234 | AI Generated, 100% | six AI windows | [result](https://www.pangram.com/history/ff2a6888-cd9c-49c3-9152-ec0cc6b5bb45) |
 | the Human first half with the last paragraph (`TEST-first-next.txt`) | 211 | AI Generated, 100% | AI High 211 | [result](https://www.pangram.com/history/0502aeef-e24d-4ac6-9af8-dd31a131ac9e) |
 
-Not yet checked (predicted, #88 and #89; the desktop app went offline before the click): the section as the guide has it
-after both cuts (`PFA-SECTION-t17b.txt`) and the section with the second half reworked (`PFA-SECTION-try3.txt`: the
-script's five lines in two sentences, the practice case said to the helper in one paragraph with its reason and the
-guide's own condition for food; receipt, newcomer reads in `newcomer-second/`, linter clear but for one B1).
+Checked after the desktop app came back (#88, #89):
+
+| text | words | result | windows | link |
+|---|---|---|---|---|
+| the section as the guide has it after both cuts (`PFA-SECTION-t17b.txt`) | 294 | AI Generated, 100% | eight AI windows | [result](https://www.pangram.com/history/dd66404c-67eb-4243-8934-db1672f963b7) |
+| try 3: the script's five lines in two sentences, the practice case said to the helper in one paragraph with its reason and the guide's own condition for food (`PFA-SECTION-try3.txt`; receipt, newcomer reads in `newcomer-second/`) | 291 | AI Generated, 100% | AI High 95, Medium 34, Low 18, High 144 | [result](https://www.pangram.com/history/58d85e07-f1ff-4f34-a6b7-e0b5433c8c89) |
 
 What it shows.
 - His dangers paragraph reads Human alone and with the heading, as on 2026-11-05. Any room paragraph after it, in all
@@ -41,5 +43,8 @@ What it shows.
 - The section's last paragraph (B246), a pointer to the next two sections plus sleep and meaning that No Rash Actions,
   When the Trip Feels Amazing and Give the Session a Beginning and an End say in full, turned the Human first half AI in
   one window by itself (0502aeef); cut the same way (`apply_t17b.py`).
-- The reminder (Mixed, 77%) and the practice part (AI) each turn the first half AI. They're the section's to keep, so they
-  are the next fix: try 3 of the section is written and waits for the check.
+- The reminder (Mixed, 77%) and the practice part (AI) each turn the first half AI. Try 3's rewording of both read AI in one
+  window with the fixes line. By bad-trips-2026-11-06a the next step is to look them up across the guide before another
+  wording: the reminder's points are all said again in Get One Human Anchor's scripts ("This is a wave", "We don't have to
+  solve your whole life right now", "remind me where I am") and the Grounding Menu's Time and Human lists, and the practice
+  part's in Why Bad Trips Tend to Happen ("stop the practice") and the aftercare section ("sleep, food, water, warmth").
