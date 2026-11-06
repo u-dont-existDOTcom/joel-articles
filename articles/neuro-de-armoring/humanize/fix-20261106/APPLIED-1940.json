@@ -1,0 +1,19 @@
+{
+ "message": "Joel, 2026-11-06 19:40 UTC",
+ "his_check": "https://www.pangram.com/history/3d7bf59d-c958-4f82-a268-d33089bfbda1",
+ "his_check_reads": "Human Written, 100% human, one window, High confidence, 125 words",
+ "article_sha256_before": "3221e9623534425f6516dc5858d96545fb85def1e93cad55fe9ac3dbdd653536",
+ "article_sha256_after": "334cf8c3baa92cf0d04158d56fb6798e438d6aa741f7a99281c54bae0b3fbf03",
+ "replaced": {
+  "block": 46,
+  "old": "The Problem: To protect itself from the Glutamate storm, the brain eventually releases Dynorphin, a chemical blanket that suppresses dopamine. This creates the \"Void\"--a state of apathy, grayness, and an inability to feel pleasure.",
+  "new": "The Problem: If you're feeling apathetic, gray, no desire for anything, you might be in a neurochemical \"Void\" state caused by Dynorphin & DeltaFosB. That's because the brain releases dynorphin to suppress dopamine in order to protect from trauma's Glutamate Storm.  And as we know, dopamine is the neurotransmitter for motivation (by showing us what is important to pay attention to). \nEven though dynorphin clears relatively quickly, allowing us the motivation to learn, DeltaFosB keeps cementing our neural connections, preventing that learning from really \"clicking\" as durable insights. And because we're still reacting in the same maladaptive ways (same fears, etc), our psychology then asks for more DeltaFosB to keep the armor in place, in a vicious cycle. ([Vialou, et al, 2010](https://pubmed.ncbi.nlm.nih.gov/20473292/)).",
+  "whose": "his own: he wrote it"
+ },
+ "deleted": {
+  "block": 49,
+  "old": "The Hardening: Chronic cycles lead to the accumulation of DeltaFosB, a protein switch that alters gene expression and holds the circuitry in place for weeks after the cycles stop ([Nestler, 2008](https://pmc.ncbi.nlm.nih.gov/articles/PMC2607320)). So the psychological trauma is reinforced biologically, which then reinforces the biology in a permanent loop until we make conscious efforts to break it from one or both ends.",
+  "why": "his words: 'now you can also delete the \"hardening\" para since i had to incorporate that into this one, otherwise it was out of order and a bit redundant'"
+ },
+ "whitespace": "the space he had at the end of his first line, before his line break, is dropped (git diff --check refuses trailing whitespace; it renders the same, and his words are unchanged)"
+}

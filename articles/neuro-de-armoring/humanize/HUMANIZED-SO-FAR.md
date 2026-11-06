@@ -90,13 +90,12 @@ Important conflict: do not use agmatine as a same-session companion to D-Serine/
 
 #### C. The "Hardened" Circuit: Dynorphin & DeltaFosB
 
-The Problem: To protect itself from the Glutamate storm, the brain eventually releases Dynorphin, a chemical blanket that suppresses dopamine. This creates the "Void"--a state of apathy, grayness, and an inability to feel pleasure.
+The Problem: If you're feeling apathetic, gray, no desire for anything, you might be in a neurochemical "Void" state caused by Dynorphin & DeltaFosB. That's because the brain releases dynorphin to suppress dopamine in order to protect from trauma's Glutamate Storm.  And as we know, dopamine is the neurotransmitter for motivation (by showing us what is important to pay attention to).
+Even though dynorphin clears relatively quickly, allowing us the motivation to learn, DeltaFosB keeps cementing our neural connections, preventing that learning from really "clicking" as durable insights. And because we're still reacting in the same maladaptive ways (same fears, etc), our psychology then asks for more DeltaFosB to keep the armor in place, in a vicious cycle. ([Vialou, et al, 2010](https://pubmed.ncbi.nlm.nih.gov/20473292/)).
 
 Why Standard Meds Failed You If you have tried SSRIs (antidepressants) and failed, you are not crazy. Ipser & Stein [2012 study ](https://academic.oup.com/ijnp/article/15/6/825/761323?login=false)showed that Prozac had zero effect on male combat veterans with calcified PTSD. And the side effects are well-known, including anhedonia, zombification, and sexual dysfunction.
 
 Why don't these drugs work on calcified PTSD? Because standard serotonin drugs treat the "software" (mood), but they cannot penetrate the "hardware" (the structural changes in the amygdala caused by severe trauma). This protocol uses Ketones and HDAC Inhibitors to remodel the physical structure of the brain that resists standard medication.
-
-The Hardening: Chronic cycles lead to the accumulation of DeltaFosB, a protein switch that alters gene expression and holds the circuitry in place for weeks after the cycles stop ([Nestler, 2008](https://pmc.ncbi.nlm.nih.gov/articles/PMC2607320)). So the psychological trauma is reinforced biologically, which then reinforces the biology in a permanent loop until we make conscious efforts to break it from one or both ends.
 
 Double click to interact with video
 

@@ -165,3 +165,34 @@ are the links in that script, not yet read back by the lane.
 - One fix of mine on his Y-93 (card Y-93b on Cards (5)): his "this MedlinePlus case report" named the case report as
   MedlinePlus's; it is on PubMed Central (Patel and Marzella 2017), so it reads "this case report", and the MedlinePlus page
   is linked on "Serotonin syndrome".
+
+
+## His version fourteen: the dynorphin paragraph, with DeltaFosB folded in (6 November, gates E374 to E376)
+
+His message of 2026-11-06 19:40 UTC, after card DFB-2b (`../../fix-20261106/cards/REVIEW-X1106A.md`), where my two tries
+added two sentences to the end of the model's paragraph and both read AI, High
+([try 1](https://www.pangram.com/history/6e5452c4-3a59-480a-ae28-b9370928c6f5),
+[try 2](https://www.pangram.com/history/3bd08080-1b34-43f9-be56-fbb5171d08de)). His read Human Written, one window, High
+([his check](https://www.pangram.com/history/3d7bf59d-c958-4f82-a268-d33089bfbda1)). It is in the article word for word,
+and the section's "The Hardening" paragraph is deleted (`../../fix-20261106/apply_problem_1940.py`,
+`../../fix-20261106/APPLIED-1940.json`).
+
+| the paragraph before | his version | what changed |
+|---|---|---|
+| The Problem: To protect itself from the Glutamate storm, the brain eventually releases Dynorphin, a chemical blanket that suppresses dopamine. | The Problem: If you're feeling apathetic, gray, no desire for anything, you might be in a neurochemical "Void" state caused by Dynorphin & DeltaFosB. | It opens on what the reader feels, so they know from the first line whether this is about them. The Void and its signs, which came second, come first. |
+| (the mechanism, as a picture) "a chemical blanket that suppresses dopamine" | That's because the brain releases dynorphin to suppress dopamine in order to protect from trauma's Glutamate Storm.  And as we know, dopamine is the neurotransmitter for motivation (by showing us what is important to pay attention to). | The cause comes after the state it explains, and dopamine is said by what it does for the reader, which is why suppressing it is "no desire for anything". |
+| my try: "DeltaFosB is the slower one underneath, holding the circuit where the cycles left it. They don't lift together, so the gray can pass before the hardening does" | Even though dynorphin clears relatively quickly, allowing us the motivation to learn, DeltaFosB keeps cementing our neural connections, preventing that learning from really "clicking" as durable insights. | DeltaFosB is said by what it does to the reader (what they learn doesn't stick), and the two are told in the order they happen, not set side by side. |
+| "The Hardening" paragraph, three paragraphs later: "Chronic cycles lead to the accumulation of DeltaFosB, a protein switch ... So the psychological trauma is reinforced biologically, which then reinforces the biology in a permanent loop ..." | And because we're still reacting in the same maladaptive ways (same fears, etc), our psychology then asks for more DeltaFosB to keep the armor in place, in a vicious cycle. ([Vialou, et al, 2010](https://pubmed.ncbi.nlm.nih.gov/20473292/)). | The loop is said in the reader's terms (the same fears, the same reactions), merged here in its place in the sequence; the other paragraph goes ("otherwise it was out of order and a bit redundant"). |
+
+**Rules from this one** (my drafts, from now on):
+- The paragraph opens on the reader's own case, whoever wrote its first sentence; a payoff for each sentence I add
+  doesn't make up for an opening that tells them nothing (E374; the receipt's `opens`).
+- A mechanism is said by what it does in the reader's experience, not by a picture of where it sits (E375).
+- A process is told in the order it happens to the reader.
+- Before adding a point, read the section for it; say it once, in its place (E376; the receipt's `same_point`).
+
+Two points in it that the lane's research bears on, for him to decide (question 11 on the questions page): the claim
+that dynorphin "clears relatively quickly" has no source in the article yet, and Vialou 2010 is about DeltaFosB built up
+under stress and resilience, while the closest support for "preventing that learning from really clicking" is a mouse
+study of impaired fear extinction that went with DeltaFosB build-up in the amygdala and hippocampus
+([Zhong, et al, 2023](https://pubmed.ncbi.nlm.nih.gov/37003493/)), an association, not a cause.

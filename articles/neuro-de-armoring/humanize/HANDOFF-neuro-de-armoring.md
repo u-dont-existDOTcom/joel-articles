@@ -18,6 +18,12 @@ From an account with Desktop Commander connected to the laptop: "Continue my neu
 
 ## START HERE
 
+- **2026-11-06, his message of 19:40 UTC: his dynorphin paragraph in word for word, "The Hardening" deleted at his
+  word; AskRigor's terms accepted (version from its public source, since its text result gives none); the bug report he
+  asked for waits for his yes to the general rewrite, after AskRigor's privacy check refused the first; lessons E374 to
+  E377 to main, with `sense_receipt.py` now asking `opens` and `same_point`.** HUMANIZED-SO-FAR.md as
+  `fix-20261106/APPLIED-1940.json` says (334cf8c3). Questions 9 and 10 answered by his paragraph; 11 open. See the Next
+  step.
 - **2026-11-06, his answers of 16:35 UTC on the separate lane's DeltaFosB cards: his three versions in (including the
   loop sentence, which is the point I had missed); his schema idea checked and it holds, as blocked updating rather
   than cementing (question 10); the dynorphin paragraph to him after two AI tries.** HUMANIZED-SO-FAR.md as
@@ -114,7 +120,21 @@ All of the article is his published post. His queue's rule: "Paragraphs that alr
 stay exactly as they are." Everything else is rewritten in his register and reaches him as cards, each tested first. The
 Scott passages, the introduction and the D-serine paragraph in Part 4 sound most like him.
 
-## Next step (2026-11-06, after his answers of 16:35 UTC on the DeltaFosB cards)
+## Next step (2026-11-06, after his message of 19:40 UTC)
+
+1. If he says yes to the AskRigor report (`fix-20261106/ASKRIGOR-BUG-REPORT.md`), send it with
+   `submit_lesson_candidate` exactly as that page shows it (consent_scope "once"); nothing else goes with it.
+2. Question 11: his answer decides whether Zhong 2023 is cited after Vialou in his paragraph; check his paragraph's
+   reading after any change.
+3. With AskRigor active: register the plain answer first (inspect asks for it), then check "dynorphin clears relatively
+   quickly" (stress-induced dynorphin and kappa-opioid signaling: how long it lasts against DeltaFosB's weeks). Bring it
+   to him only if the evidence says otherwise.
+4. Then section C on: the SSRI paragraphs his paragraph now leads into, each try with a receipt whose `opens` says what
+   its first sentence tells the reader and whose `same_point` names where else the section says it (E374, E376).
+5. Under E373, the 4 November "stretches to edit" (stop signs, interactions) were answered with his versions twelve and
+   thirteen; no stretch of model text goes back to him as his to write.
+
+## Earlier next step (2026-11-06, after his answers of 16:35 UTC on the DeltaFosB cards)
 
 Waiting on him: the one card on Neuro De-Armoring Cards, 6 November (`fix-20261106/cards/REVIEW-X1106A.md`, the
 dynorphin paragraph, his to write); questions 9 and 10 on the questions page; AskRigor's changed free contributor
