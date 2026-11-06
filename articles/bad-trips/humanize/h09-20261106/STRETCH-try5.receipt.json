@@ -1,0 +1,109 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-06",
+ "text_sha256": "9b800d106185d3d65a51401d69c6d2cc8c504559c7318f2bdad49b3d6e8cf9ca",
+ "text": "Once they're safe, look around the room, because a lot of the panic can come from a room that's getting on their nerves. Switch off the overhead light if it's too bright, and leave a lamp on. If five worried friends are all asking whether they're okay, that's five people they feel they have to answer, so send most of them to the kitchen. One calm person they trust is plenty, and if that's you, talk slowly and don't say much. Somebody might be touching them when they don't want it, or they're stuck next to someone they don't trust, and whoever it is needs to back off. Before you touch them yourself, ask if they'd like a hand on the shoulder. And check whether they need a blanket or a fan, or are desperate for the bathroom.\n\nIf they're thirsty, give them water to sip slowly, since gulping it when they're queasy can make them throw up. Ask \"Would you like music or is quiet best?\" A song can also turn scary halfway through, and then you change it.",
+ "section": "Psychological First Aid: The First Five Minutes",
+ "reader": "someone sitting with a person on a bad psychedelic trip, who has just put the car keys and the stove out of the way and now faces a frightened person in a room full of light, noise and worried people",
+ "sentences": [
+  {
+   "s": "Once they're safe, look around the room, because a lot of the panic can come from a room that's getting on their nerves.",
+   "payoff": "they know to look at the room once the dangers are handled, and why: a lot of the panic can come from a room that's getting on their nerves",
+   "follows": "the paragraph before dealt with the next five minutes' dangers ('Once they're safe' points back to it)"
+  },
+  {
+   "s": "Switch off the overhead light if it's too bright, and leave a lamp on.",
+   "payoff": "they fix a light that's too bright without leaving a scared person in the dark: overhead light off, a lamp on",
+   "follows": "the first thing to look at in the room, with its fix beside it"
+  },
+  {
+   "s": "If five worried friends are all asking whether they're okay, that's five people they feel they have to answer, so send most of them to the kitchen.",
+   "payoff": "they see why a crowd of worried friends is a problem (each question is one more thing to answer) and send most of them out",
+   "follows": "the next thing in the room after the light: the people in it"
+  },
+  {
+   "s": "One calm person they trust is plenty, and if that's you, talk slowly and don't say much.",
+   "payoff": "they know who stays (one calm person they trust) and, if it's them, to talk slowly and say little, since every word is one more thing to answer",
+   "follows": "the sentence before sends most people out; this says who stays and how that person talks"
+  },
+  {
+   "s": "Somebody might be touching them when they don't want it, or they're stuck next to someone they don't trust, and whoever it is needs to back off.",
+   "payoff": "they look for touch the person doesn't want and for someone beside them they don't trust, and have that person back off",
+   "follows": "still the people in the room: what they are doing to the person"
+  },
+  {
+   "s": "Before you touch them yourself, ask if they'd like a hand on the shoulder.",
+   "payoff": "they offer touch the right way, by asking about a hand on the shoulder first",
+   "follows": "after unwanted touch, the touch the reader may want to give"
+  },
+  {
+   "s": "And check whether they need a blanket or a fan, or are desperate for the bathroom.",
+   "payoff": "they check the person's own body too, and know the fixes: a blanket, a fan, the bathroom (no open window, after the balconies)",
+   "follows": "after the room and the people, the person's own body"
+  },
+  {
+   "s": "If they're thirsty, give them water to sip slowly, since gulping it when they're queasy can make them throw up.",
+   "payoff": "they give water in a way that stays down, and know why: gulping on a queasy stomach can make them throw up",
+   "follows": "after the body's other needs, thirst"
+  },
+  {
+   "s": "Ask \"Would you like music or is quiet best?\"",
+   "payoff": "they let the person choose music or quiet",
+   "follows": "the room's sound, the last thing in it, left as the person's choice"
+  },
+  {
+   "s": "A song can also turn scary halfway through, and then you change it.",
+   "payoff": "they know to change a song that turns scary, even one that started fine",
+   "follows": "what to do once music is on"
+  }
+ ],
+ "checked": [
+  {
+   "point": "that's five people they feel they have to answer",
+   "found": "the original: \"stop the chatter, clear out extra people\"; the guide's later section: \"A committee of frantic people rarely improves anyone's nervous system\"",
+   "still_needed": "yes: it is why the friends go, which the fresh read asked",
+   "fate": "kept"
+  },
+  {
+   "point": "One calm person they trust is plenty",
+   "found": "the guide's later section: \"Use one calm human anchor as the lead\", with one more calm adult only when safety needs it",
+   "still_needed": "yes: it says who stays when the friends go",
+   "fate": "kept"
+  },
+  {
+   "point": "gulping it when they're queasy can make them throw up",
+   "found": "the guide's nausea sections (\"nausea caused by an excessive psychedelic dose acting on serotonin receptors in the gut\") and its medical step \"Small sips ... Don't force fluids\"",
+   "still_needed": "yes: it is why small sips",
+   "fate": "kept"
+  },
+  {
+   "point": "a blanket or a fan",
+   "found": "the original: \"adjust the temperature\"; the guide's body section: \"The body may need quiet, water, cooling, warmth, rest, or a calmer room\"",
+   "still_needed": "yes: what to do when they're too cold or too hot; a fan, not an open window, since the paragraph before keeps them away from balconies",
+   "fate": "kept"
+  }
+ ],
+ "placement": "after the five-minute dangers paragraph and before \"Give them ordinary reality\": the room comes once they're safe and before you talk them through where they are; \"Once they're safe\" points back to the dangers paragraph",
+ "questions": {
+  "Q1": "PASS: the paragraph opens on the act and its reason (look around the room, because a lot of the panic can come from it); each fix sits in the sentence that names what it fixes",
+  "Q2": "PASS: every act is the helper's: switch off the overhead light and leave a lamp on, send most friends out, talk slowly, have whoever it is back off, ask about a hand on the shoulder, check blanket, fan and bathroom, give water to sip, ask about music, change a scary song",
+  "Q3": "PASS: which light (the overhead one, with a lamp left on), which people (most of the worried friends; one calm person they trust stays), which touch (a hand on the shoulder), which song (one that turns scary)",
+  "Q4": "PASS: no terms a reader wouldn't know",
+  "Q5": "PASS: each so turns on what's said before it: the room being the problem, five people to answer",
+  "Q6": "PASS: the room in the order you'd see it (light, people, touch), then their body, then water, then sound",
+  "Q7": "PASS: every fact is about the person in front of them in this room tonight",
+  "Q8": "PASS: each fix is in the sentence with what it fixes; body needs together; water and music apart, in the second paragraph",
+  "Q9": "PASS: nothing compressed: each act is one step, with the small words that carry why"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone?",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

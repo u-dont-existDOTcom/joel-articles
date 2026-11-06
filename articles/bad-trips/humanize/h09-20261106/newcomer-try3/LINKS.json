@@ -1,0 +1,42 @@
+[
+ {
+  "sentence": 1,
+  "quote": "what looks like a deep psychedelic crisis is a scared person in a room that's getting on their nerves",
+  "gap": "How can an annoying room make someone look like they're in a deep crisis: does the drug make them far more sensitive to their surroundings than usual?",
+  "id": "L1",
+  "answer": "All of that hits harder on a psychedelic",
+  "raised": "a scared person in a room that's getting on their nerves"
+ },
+ {
+  "sentence": 6,
+  "quote": "They're feeling overwhelmed",
+  "gap": "How do I know they are: is the writer telling me everyone on a bad trip is overwhelmed, or is this something the checks above were supposed to show me?",
+  "id": "L2",
+  "status": "drop",
+  "note": "the draft no longer says it: it gives each fix its own reason (all of that hits harder on a psychedelic; your voice and your hands count as part of the room), so there is nothing to diagnose first"
+ },
+ {
+  "sentence": 6,
+  "quote": "clear out the extra people around them",
+  "gap": "Extra beyond whom: who should stay with them, and how many?",
+  "id": "L3",
+  "answer": "leaving one calm person they trust to do the talking",
+  "raised": "clear out the extra people around them"
+ },
+ {
+  "sentence": 7,
+  "quote": "suggest they sip it rather than chug",
+  "gap": "Why sip and not chug: what goes wrong if they gulp it?",
+  "id": "L4",
+  "answer": "gulping it can make them throw up",
+  "raised": "give them water to sip slowly"
+ },
+ {
+  "sentence": 11,
+  "quote": "If a track starts pulling the experience somewhere unwanted",
+  "gap": "How can a song pull someone's trip somewhere, and how would I tell from the outside that it's happening? And who decides it's unwanted, them or me?",
+  "id": "L5",
+  "answer": "if a song starts scaring them more, change it or turn it off",
+  "raised": "if a song starts scaring them more"
+ }
+]

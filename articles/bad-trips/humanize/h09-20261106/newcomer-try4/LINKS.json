@@ -1,0 +1,42 @@
+[
+ {
+  "sentence": 1,
+  "quote": "what looks like a deep psychedelic crisis is a scared person in a room that's getting on their nerves",
+  "gap": "How can an annoying room make someone look like they're in a deep crisis: does the drug make them far more sensitive to their surroundings than usual?",
+  "id": "L1",
+  "status": "drop",
+  "note": "explained earlier in the guide, in the body section before Psychological First Aid: \"The body feels awful and the altered mind writes cosmic horror to explain it. Nausea, heat, exhaustion, dehydration, overstimulation, and sleep loss all become spiritual content very quickly.\""
+ },
+ {
+  "sentence": 6,
+  "quote": "They're feeling overwhelmed",
+  "gap": "How do I know they are: is the writer telling me everyone on a bad trip is overwhelmed, or is this something the checks above were supposed to show me?",
+  "id": "L2",
+  "status": "drop",
+  "note": "the draft no longer says it: each fix sits beside what it fixes, so there is nothing to diagnose first"
+ },
+ {
+  "sentence": 6,
+  "quote": "clear out the extra people around them",
+  "gap": "Extra beyond whom: who should stay with them, and how many?",
+  "id": "L3",
+  "answer": "One calm person they trust is plenty",
+  "raised": "send most of them to the kitchen"
+ },
+ {
+  "sentence": 7,
+  "quote": "suggest they sip it rather than chug",
+  "gap": "Why sip and not chug: what goes wrong if they gulp it?",
+  "id": "L4",
+  "answer": "gulping it when they're queasy can make them throw up",
+  "raised": "give them water to sip slowly"
+ },
+ {
+  "sentence": 11,
+  "quote": "If a track starts pulling the experience somewhere unwanted",
+  "gap": "How can a song pull someone's trip somewhere, and how would I tell from the outside that it's happening? And who decides it's unwanted, them or me?",
+  "id": "L5",
+  "answer": "A song can also turn scary halfway through, and then you change it.",
+  "raised": "A song can also turn scary halfway through"
+ }
+]

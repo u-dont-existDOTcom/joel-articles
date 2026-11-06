@@ -1,0 +1,75 @@
+{
+ "readers": [
+  "codex",
+  "haiku",
+  "sonnet"
+ ],
+ "sentences": [
+  "A lot of what looks like a deep psychedelic crisis is a scared person in a room that's getting on their nerves, so look around the room next.",
+  "Switch off the overhead light if it's too bright.",
+  "If five worried friends are all asking whether they're okay, send most of them to the kitchen.",
+  "One calm person they trust is plenty, and if that's you, talk slowly and don't say much.",
+  "Somebody might be touching them when they don't want it, or they're stuck next to someone they don't trust, and whoever it is needs to back off.",
+  "Before you touch them yourself, ask if they'd like a hand on the shoulder.",
+  "And check whether they're too hot or too cold, or desperate for the bathroom.",
+  "If they're thirsty, give them water to sip slowly, since lots of people feel sick when they're tripping and gulping it can make them throw up.",
+  "If the music's horrible to them, ask \"Would you like music or is quiet best?\"",
+  "A song can also turn scary halfway through, and then you change it."
+ ],
+ "flagged": {
+  "1": [
+   "haiku",
+   "sonnet"
+  ],
+  "2": [],
+  "3": [],
+  "4": [
+   "haiku",
+   "sonnet"
+  ],
+  "5": [
+   "haiku",
+   "sonnet"
+  ],
+  "6": [],
+  "7": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ],
+  "8": [
+   "codex",
+   "haiku"
+  ],
+  "9": [],
+  "10": [
+   "haiku",
+   "sonnet"
+  ]
+ },
+ "agreed": [
+  1,
+  4,
+  5,
+  7,
+  8,
+  10
+ ],
+ "whole": {
+  "codex": [
+   "The progression through lighting, company, touch, temperature, water and music feels methodically comprehensive, which could suggest AI-assisted construction. Those are weak signals, though: the paragraph has no wording that reliably establishes AI involvement."
+  ],
+  "haiku": [
+   "The paragraph runs on a repeated conditional scaffold (\"if that's you,\" \"if they're thirsty,\" \"if the music's horrible\") with each instruction closed by a neat tidy clause, which reads like advice written to a template. The rhythm is even and the voice is generic and reassuring from the opening thesis to the final line, though the kitchen and music details break that smoothness."
+  ],
+  "sonnet": [
+   "The paragraph moves as a checklist of environmental factors (light, people, touch, temperature, water, music), each given about the same weight and length, so the rhythm is even and the sentences are uniformly clear. The voice is a confident, generic helper with no particular experience or incident behind it."
+  ]
+ },
+ "human_clean": [
+  "send most of them to the kitchen",
+  "send most of them to the kitchen",
+  "send most of them to the kitchen",
+  "If five worried friends are all asking whether they're okay"
+ ]
+}

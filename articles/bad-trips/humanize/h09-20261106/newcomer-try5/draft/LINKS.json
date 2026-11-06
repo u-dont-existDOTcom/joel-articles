@@ -1,0 +1,58 @@
+[
+ {
+  "sentence": 1,
+  "quote": "a lot of the panic can come from a room that's getting on their nerves",
+  "gap": "How can a room cause so much of the panic? Being irritated by a room and panicking seem very different to me: does the drug make light, noise and people hit them much harder than usual?",
+  "id": "L1",
+  "status": "drop",
+  "note": "explained earlier in the guide, in the body section before Psychological First Aid: \"The body feels awful and the altered mind writes cosmic horror to explain it. Nausea, heat, exhaustion, dehydration, overstimulation, and sleep loss all become spiritual content very quickly.\""
+ },
+ {
+  "sentence": 2,
+  "quote": "and leave a lamp on",
+  "gap": "Why keep a lamp on rather than make it dark, if the light is what's bothering them? Is the dark frightening for them, or do they need to see me and the room?",
+  "id": "L2",
+  "status": "drop",
+  "note": "an earlier read of this draft asked whether a dark room was all right for someone scared; the lamp answers that, and seeing them is the same need, so the act stays"
+ },
+ {
+  "sentence": 4,
+  "quote": "talk slowly and don't say much",
+  "gap": "Why slowly, and why so little? Can they not follow fast or long talk right now, or can more words scare them? I'd have thought reassuring them was the point, so should I mostly stay quiet?",
+  "id": "L3",
+  "status": "drop",
+  "note": "the sentence before gives the reason: each question is one more thing they feel they have to answer, so less talk is the same fix; the reassurance itself is the next part of the guide (\"Give them ordinary reality\", with its script)"
+ },
+ {
+  "sentence": 7,
+  "quote": "check whether they need a blanket or a fan, or are desperate for the bathroom",
+  "gap": "Why do I have to check: wouldn't they just tell me? Can the drug make them cold or hot when the room feels fine to me, or keep them from noticing, or saying, that they need the bathroom?",
+  "id": "L4",
+  "status": "drop",
+  "note": "explained earlier in the guide, in the body section before Psychological First Aid: \"The body feels awful and the altered mind writes cosmic horror to explain it. Nausea, heat, exhaustion, dehydration, overstimulation, and sleep loss all become spiritual content very quickly.\" They may not notice what's wrong, which is why the reader checks."
+ },
+ {
+  "sentence": 8,
+  "quote": "since gulping it when they're queasy can make them throw up",
+  "gap": "The sentence starts with them being thirsty, not queasy: should I expect them to feel sick? Do these drugs often make people queasy?",
+  "id": "L5",
+  "status": "drop",
+  "note": "explained earlier in the guide: the body section (\"Nausea, heat, exhaustion ...\") and the section on nausea from a psychedelic dose (\"Nausea Smoothers When the Person Wants to Preserve the Trip\"), both before this one"
+ },
+ {
+  "sentence": 10,
+  "quote": "A song can also turn scary",
+  "gap": "\"Also\" as well as what? Is the unsaid point that music can help them, or that other things around them can turn scary too?",
+  "id": "L6",
+  "status": "drop",
+  "note": "\"also\" adds a song turning scary to the other things in the room that get on their nerves, after the question about music or quiet; the sentence says what to do"
+ },
+ {
+  "sentence": 10,
+  "quote": "turn scary halfway through",
+  "gap": "How does a song turn scary partway through when it sounds the same to me: is it the words, a change in the music, or how they hear it on the drug? And how would I notice it has?",
+  "id": "L7",
+  "status": "drop",
+  "note": "what the reader does is the same either way: change the song when it scares them (they'll see it on the person); how the altered mind turns things frightening is in the guide's body section, before this one"
+ }
+]

@@ -1,0 +1,103 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-06",
+ "text_sha256": "d817082280255bf910fc05d49a535e715bf4d2aacd9a47e8ba2d818a9908b47e",
+ "text": "A lot of what looks like a deep psychedelic crisis is a scared person in a room that's getting on their nerves, so look around the room next. Maybe the light's too bright or the music's horrible to them. Are five concerned people talking at once? Somebody might be touching them when they don't want it, or they're stuck beside someone they don't trust. And check whether they're too hot or too cold, or desperate for the bathroom.\n\nAll of that hits harder on a psychedelic, so dim the lights, and clear out the extra people around them, leaving one calm person they trust to do the talking. If that's you, your voice and your hands count as part of the room too, so talk slowly and keep it short, and before you touch them at all, ask if they'd like a hand on the shoulder. If they're thirsty, give them water to sip slowly, since lots of people feel sick when they're tripping and gulping it can make them throw up.\n\nAsk \"Would you like music or is quiet best?\" If they want music, let them pick it, and if a song starts scaring them more, change it or turn it off.",
+ "section": "Psychological First Aid: The First Five Minutes",
+ "reader": "someone sitting with a person on a bad psychedelic trip, who has just put the car keys and the stove out of the way and now faces a frightened person in a room full of light, noise and worried people",
+ "sentences": [
+  {
+   "s": "A lot of what looks like a deep psychedelic crisis is a scared person in a room that's getting on their nerves, so look around the room next.",
+   "payoff": "they know why to look at the room at all: much of what looks like a crisis is a scared, irritated person, so the room may be what's wrong",
+   "follows": "the paragraph before dealt with the next five minutes' dangers; once those are handled, the room comes next"
+  },
+  {
+   "s": "Maybe the light's too bright or the music's horrible to them.",
+   "payoff": "they know the first things to look for, the light and any music, judged by how it is for the person, not for them",
+   "follows": "the first examples of what to look around the room for"
+  },
+  {
+   "s": "Are five concerned people talking at once?",
+   "payoff": "they see a crowd of worried people talking as part of the problem, not as help",
+   "follows": "the next thing in the room after light and sound: the people in it"
+  },
+  {
+   "s": "Somebody might be touching them when they don't want it, or they're stuck beside someone they don't trust.",
+   "payoff": "they look for touch the person doesn't want and for someone beside them they don't trust, both things they can change",
+   "follows": "still the people in the room: what they are doing to the person"
+  },
+  {
+   "s": "And check whether they're too hot or too cold, or desperate for the bathroom.",
+   "payoff": "they check the person's own body too: heat, cold and a full bladder get to them like the room does",
+   "follows": "after the room and the people, the person's own body"
+  },
+  {
+   "s": "All of that hits harder on a psychedelic, so dim the lights, and clear out the extra people around them, leaving one calm person they trust to do the talking.",
+   "payoff": "they know why the room matters so much (it all hits harder on a psychedelic) and what to do: dim the lights, send the extra people out, and leave one calm person they trust to talk",
+   "follows": "the fixes for what the paragraph before found, opening on why they help"
+  },
+  {
+   "s": "If that's you, your voice and your hands count as part of the room too, so talk slowly and keep it short, and before you touch them at all, ask if they'd like a hand on the shoulder.",
+   "payoff": "if the reader is the one left talking, they keep their own talking and touch from adding to it, and offer a hand on the shoulder only if it's wanted",
+   "follows": "the sentence before leaves one person talking; this is how that person talks and touches"
+  },
+  {
+   "s": "If they're thirsty, give them water to sip slowly, since lots of people feel sick when they're tripping and gulping it can make them throw up.",
+   "payoff": "they give water in a way that stays down, and know why: a lot of tripping people feel sick, and gulping can make them throw up",
+   "follows": "after the room, the people and the talking, the person's comfort: thirst, named first so the reader knows what the sentence is about"
+  },
+  {
+   "s": "Ask \"Would you like music or is quiet best?\"",
+   "payoff": "they let the person choose music or quiet instead of guessing for them",
+   "follows": "the music the first paragraph named, left to last because it's the person's choice"
+  },
+  {
+   "s": "If they want music, let them pick it, and if a song starts scaring them more, change it or turn it off.",
+   "payoff": "they leave the choice of music to the person, and know when to change a song or stop it: when it scares them more",
+   "follows": "what to do once they've answered the music question"
+  }
+ ],
+ "checked": [
+  {
+   "point": "All of that hits harder on a psychedelic",
+   "found": "the guide's body section, before this one: \"The body feels awful and the altered mind writes cosmic horror to explain it. Nausea, heat, exhaustion, dehydration, overstimulation, and sleep loss all become spiritual content very quickly\"; the original of this paragraph: \"a nervous system begging for a less irritating room\"",
+   "still_needed": "yes: it is why fixing the room helps, which all three fresh readers asked",
+   "fate": "kept"
+  },
+  {
+   "point": "leaving one calm person they trust to do the talking",
+   "found": "the guide's later section: \"Use one calm human anchor as the lead\", with one more calm adult only when safety needs it",
+   "still_needed": "yes: it says who stays when the extra people go",
+   "fate": "kept"
+  },
+  {
+   "point": "lots of people feel sick when they're tripping and gulping it can make them throw up",
+   "found": "the guide's nausea sections (\"nausea caused by an excessive psychedelic dose acting on serotonin receptors in the gut\") and its medical step \"Small sips ... Don't force fluids\"",
+   "still_needed": "yes: it is why small sips",
+   "fate": "kept"
+  }
+ ],
+ "placement": "after the five-minute dangers paragraph and before \"Give them ordinary reality\": the room comes once they're safe and before you talk them through where they are; its \"next\" points back to the dangers paragraph, and \"All of that\" to the first paragraph's list",
+ "questions": {
+  "Q1": "PASS: each paragraph opens on its reason (the crisis is often the room; it all hits harder on a psychedelic; the music is their choice), and each instruction sentence opens with why or when (\"If that's you\", \"Lots of people feel sick ... so\")",
+  "Q2": "PASS: every act is the helper's and says what it is for: dim, clear out, leave one person to talk, talk slowly, ask about a hand on the shoulder, give water to sip slowly, ask about music, let them pick it, change or stop a song",
+  "Q3": "PASS: which people (the extra ones, leaving one calm person they trust), which touch (a hand on the shoulder), which song (one that scares them more), which water (small sips when thirsty)",
+  "Q4": "PASS: no terms a reader wouldn't know; \"the room\" is the room they're in",
+  "Q5": "PASS: each so turns on what's said before it: the room being the problem, it all hitting harder, the talker's voice and hands being part of the room, the sick stomach",
+  "Q6": "PASS: what to look for, then why and what to fix, then how the one left talks and touches, then water (named first, with why after), then the music choice and what to do with it",
+  "Q7": "PASS: every fact is about the person in front of them in this room tonight",
+  "Q8": "PASS: room things together, then their body; the talker's voice and touch together; water alone; music apart",
+  "Q9": "PASS: nothing compressed: the stacked tips are joined with their reasons, and each act is one step"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone?",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

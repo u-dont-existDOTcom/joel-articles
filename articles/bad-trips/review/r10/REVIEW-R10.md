@@ -1,5 +1,7 @@
 # Bad Trips Guide, Round 10: every card
 
+> **Withdrawn, 2026-11-06 19:00 UTC.** Its card asked Joel for his version of the room stretch, calling its sentences his. They were the guide's AI text he had humanized, and the fixing is mine (his message of 17:30 UTC; gate E373). The published page now says so (`WITHDRAWN-R10.html`); the stretch's fixes and checks are in `../../humanize/h09-20261106/RESULTS.md`.
+
 The page's cards as text, in the order of the guide. Built 2026-11-06 from [the guide as it stands](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261105/articles/bad-trips/GUIDE-SO-FAR.md), after round 9. To answer, use the page; or write your answer under a card's name in a message to me.
 
 Round 10 (2026-11-06). Your round-9 approval is in: the room's first part is one paragraph now, with your annoying-room line said plainly at its start.

@@ -1524,6 +1524,8 @@ editing", "23. i need that editor interface we developed remember that?".
   advice "edit": the stretch highlighted, what Pangram read, why it's there, my advice, and Keep it as it is / Edit it,
   where Edit opens the paragraph for his own version; his answers come back with the rest of the page's. So a question
   about whether to change some text, or how, is a set of such cards on the page, with the options as the card's advice.
+  (Since E373, 2026-11-06: a stretch to edit is only for what he wrote himself, or asked to edit himself. A model's
+  text that reads AI, his humanized versions of it included, is mine to fix, and the fix goes on an approve card.)
 - **E283. Emulate's re-runs of Medium and Low windows reach High more often than I said.** Of batch 481's 24 fixes, 19
   read High in place; my chances of High (0.35 to 0.5) scored a Brier of 0.288 against a coin's 0.25
   (`articles/inner-signal/humanize/fix-20261026/b481/recheck/read/SPOTS.md`). The five that didn't each sat in a short
@@ -1853,7 +1855,8 @@ His message, word for word: `articles/inner-signal/humanize/fix-20261101/joel-20
   read's findings on them were marked as his. Now only the lines of a version that aren't the card's own text word for
   word are his (`compare_read.py` `his_lines`; `tests/test_compare_read.py`
   `test_a_card_copied_back_into_his_version_is_not_his`). A paragraph he rewrote is still his whole, whatever words it
-  kept.
+  kept. (Since E373, 2026-11-06: in an article a model drafted, a paragraph he rewrote from the model's text is his
+  edit, not his words: what he decided in it stays, and the wording is mine to fix when it reads AI.)
 - **E312. Which fixes touch his words is decided by paragraph, and checked with collect's flags.** In the second full
   read (1 November), my own check of which fixes changed his words went sentence by sentence, and a sentence of his
   version that was also in the card's text didn't count as his. Two fixes changed paragraphs he rewrote on 30 October,
@@ -2742,6 +2745,8 @@ half, the room's questions and his annoying-room line, he left to me: "a real ea
   standing order covers quips, the first try says such a line plainly or cuts it, and the card says which and why, so
   he can put it back. His general rule, keep his distinctive phrasings and ask before replacing one, still holds for a
   line no reader takes for a quip.
+  (Corrected by E373, 2026-11-06: those lines were the published post's AI lines, which he had kept, not lines he
+  wrote; in an article a model drafted, only what he wrote himself is his.)
 - **E371. The payoff that opens a paragraph of instructions is the reader's reason in plain words, and each instruction
   names its exact act.** His two minimal pairs: "Dim the lights. Clear out the extra people. ..." read AI, and with "They're
   feeling overwhelmed, so" before it, joined ("so dim the lights, and clear out the extra people around them"), Human
@@ -2757,8 +2762,37 @@ half, the room's questions and his annoying-room line, he left to me: "a real ea
   he wrote them, so the questions and the annoying-room line looked settled. Each paragraph of such a card now gets its
   own reading (verdict and link), and the card says plainly that all of them are his to change. Written guidance only:
   no tool checks a card for it yet.
+  (Superseded by E373, 2026-11-06: a card no longer asks him for his version of a model's text. The fix is mine,
+  on an approve card he can Revise.)
 
-(E370 to E372 are the bad trips lane's. The next lesson in any lane is E373.)
+(E370 to E372 are the bad trips lane's. The next lesson in any lane was E373; it is in the next section.)
+
+## What his message of 2026-11-06 17:30 UTC taught (the bad trips guide)
+
+Round 10's one card, STRETCH-YOURS (`articles/bad-trips/review/r10/`), asked him for his version of the room stretch of
+Psychological First Aid, because "four of the sentences they agree on are yours". They were the guide's AI text, which
+he had humanized in round 8 (`articles/bad-trips/humanize/h08-20261106/`). His answer, word for word: "don't say 'those
+are your words so you need to fix it' -- your job is to do the fixing, that's the whole point here. and 'my words' for
+an AI article, are not my words, unless those were human before we started humanizing (i.e if i wrote that myself
+inside an ai article) otherwise it's AI words that i humanized... and you already know that they were ai words i
+humanized so that's funny"; "fix this rule durably in the repo, your job is clear i think already".
+
+- **E373. Where the words came from decides whose they are, not who touched them last, and the fixing is mine.** In an
+  article a model drafted, his words are only what he wrote himself, human before the humanizing started: a section or
+  a line he wrote into it. The model's text stays the model's text after he humanizes it: his versions on cards, the
+  lines he kept, the published post. What he decided in them stays, and is recorded as his decision (`OWNER-EDITS.json`,
+  and `KEEP-AS-IS.json` when he says something stays as it is): a cut, a fact, a meaning he made clear (the hand on the
+  shoulder), a reason put first. The wording is mine to fix when it reads AI or doesn't make sense, without asking him
+  first, and the fix goes to him tested, on an approve card he can Revise. No card hands the model's text back to him as
+  his words, or asks for his version as the fix. This corrects E282, E311, E370 and E372 (a note at each), and
+  `AGENTS.md`'s stretch to edit for "a stretch that reads under High with no fix yet". Enforced from 2026-11-06:
+  `suggestion_review.py` refuses a stretch to edit without `"whose": "his own: ..."` (what he wrote himself) or `"he
+  asked: ..."` (his request to edit it himself), and refuses card or introduction text that calls the text "your words",
+  "your sentences" or "yours to change" unless the card says it is his own; `pangram_ledger.py predict` takes `--his`
+  only as "his own: what and where", and `--unchanged` for text checked as the article has it or as he sent it;
+  `sense_receipt.py make --his` needs `--whose "his own: ..."`.
+
+(E373 is the bad trips lane's. The next lesson in any lane is E374.)
 
 
 ## What turn 100's API checks showed (the Inner Child lane, 2026-10-23)

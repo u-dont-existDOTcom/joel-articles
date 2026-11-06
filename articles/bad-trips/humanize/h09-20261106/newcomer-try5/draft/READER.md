@@ -1,0 +1,7 @@
+S1 | "a lot of the panic can come from a room that's getting on their nerves" | How can a room cause so much of the panic? Being irritated by a room and panicking seem very different to me: does the drug make light, noise and people hit them much harder than usual?
+S2 | "and leave a lamp on" | Why keep a lamp on rather than make it dark, if the light is what's bothering them? Is the dark frightening for them, or do they need to see me and the room?
+S4 | "talk slowly and don't say much" | Why slowly, and why so little? Can they not follow fast or long talk right now, or can more words scare them? I'd have thought reassuring them was the point, so should I mostly stay quiet?
+S7 | "check whether they need a blanket or a fan, or are desperate for the bathroom" | Why do I have to check: wouldn't they just tell me? Can the drug make them cold or hot when the room feels fine to me, or keep them from noticing, or saying, that they need the bathroom?
+S8 | "since gulping it when they're queasy can make them throw up" | The sentence starts with them being thirsty, not queasy: should I expect them to feel sick? Do these drugs often make people queasy?
+S10 | "A song can also turn scary" | "Also" as well as what? Is the unsaid point that music can help them, or that other things around them can turn scary too?
+S10 | "turn scary halfway through" | How does a song turn scary partway through when it sounds the same to me: is it the words, a change in the music, or how they hear it on the drug? And how would I notice it has?

@@ -1,6 +1,6 @@
 # Bad Trips guide: current state
 
-Updated: 2026-11-06 (turn 14: his round-9 approval exported 16:38 UTC).
+Updated: 2026-11-06 (turn 15: his message of 17:30 UTC).
 badtrips guide at badtrips.u-dont-exist.com"; `experiments/t01-answers/JOEL-MESSAGE-20261103-1545.md`).
 
 ## Goal
@@ -212,24 +212,17 @@ dose, unit, timing and warning exactly as it went in, and his post updated with 
   its diagnose-then-fix build and on four of his sentences, none of mine (`humanize/h08-20261106/panel-STRETCH/PANEL.md`).
   Round 10's page: one card asking for his version of the stretch, each paragraph's reading on it (Bad Trips Guide, Round
   10, https://claude.ai/artifact/FUuDsfqAQgCwDgade5KwaY; `review/r10/REVIEW-R10.md`; browser test 62 of 62).
+- 2026-11-06 (turn 15, his message of 17:30 UTC, saved as `experiments/t15-answers/JOEL-MESSAGE-20261106-1730.md`): round 10's card called the room stretch's sentences his and asked for his version; they were the guide's AI text he had humanized, and fixing it is my job. The rule, gate E373: in an article a model drafted, his words are only what he wrote himself before the humanizing; the model's text stays mine to fix after he humanizes it, his decisions in it kept (`OWNER-EDITS.json`'s r08-room-his and r09-room-first now check his decisions, not the wording). Enforced: `suggestion_review.py` refuses a stretch to edit without "whose" (his own, or he asked) and card text calling the model's text his; `pangram_ledger.py predict --his` takes only "his own: ...", with `--unchanged` for text as it stands; `sense_receipt.py make --his` needs `--whose`. Round 10 withdrawn (its page now says so). The stretch, fixed by me: eight versions, each with its receipt and fresh newcomer reads, two tell panels, the linter clear from try 7: all read AI, 100%; the whole section in place reads AI in one 453-word window, his dangers paragraph included (`humanize/h09-20261106/RESULTS.md`).
 
 ## Current checkpoint
 
-- **In progress:** Turn 14 done. Round 9 is in; the room stretch (B238, B240, B241) reads AI in place, each part Human
-  alone, and the panel's agreed sentences are his, so round 10's card asks for his version (Bad Trips Guide, Round 10,
-  https://claude.ai/artifact/FUuDsfqAQgCwDgade5KwaY).
-- **Next step (updated on every push, so another account can pick up here):** His round-10 answer in with an
-  `apply_r10.py` like round 8's (the export saved as `review/r10/ANSWERS-R10-*.json`): his version in place of B238, B240
-  and B241, and checked in place in his Pangram account (the desktop app's browser pane; it signs out every few hours, so
-  ask him to sign in when the history answers 401). If he keeps them, the stretch waits for the whole-guide check. Then the
-  next paragraph of Psychological First Aid ("Give them ordinary reality:" and its quote), one paragraph at a time, with
-  his usual fix first (E368, E371) and his quips said plainly (E370). No whole-guide check until no window already seen
-  reads AI or Low (E354).
-- **Waiting on Joel:** round 10's card (the room stretch).
+- **In progress:** Turn 15 done. The rule against handing AI text back to him is durable (gate E373). The room stretch still reads AI in every version of mine, and the Psychological First Aid section reads AI in place, his dangers paragraph included.
+- **Next step (updated on every push, so another account can pick up here):** the Psychological First Aid section as a whole, in his Pangram account (the desktop app's browser pane; ask him to sign in when the history answers 401): it reads AI as one window at 453 words, so the fix is aimed at the section, not a stretch checked alone (one of its two section tries is left; `humanize/h09-20261106/RESULTS.md` has what every version showed). The fixing is mine (E373): no card asks him for his version of AI text. A cut of the tips the guide gives elsewhere (water and sips in the medical step and the body section; one calm person and speaking slowly in Get One Human Anchor) would be his call, since he kept them in round 8: it goes to him tested, on an approve card, only if it is what reads Human. No whole-guide check until no window already seen reads AI or Low (E354).
+- **Waiting on Joel:** nothing (round 10 is withdrawn).
 
 ## Remaining
 
-Round 10's card (the room stretch); the rest of the guide one paragraph at a time; the whole-guide Pangram check; an overcompletion read
+The Psychological First Aid section (the room stretch reads AI in every version, and the section in place); the rest of the guide one paragraph at a time; the whole-guide Pangram check; an overcompletion read
 (gate E328); the word-for-sense read (gate E331); his post updated, with the title's version and date (gate E323).
 
 ## Blockers / unresolved

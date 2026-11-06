@@ -29,7 +29,7 @@ class Ledger(unittest.TestCase):
 
     def predict(self, body, lineage='P1', scope='paragraph', call='Human', diagnosis=None, tells=('a list of three',), key=None,
                 narrowed=None, panel=None):
-        argv = ['predict', self.ledger, '--his', 'a test text of Joel\'s', '--lineage', lineage, '--scope', scope, '--text', self.text(body), '--call', call,
+        argv = ['predict', self.ledger, '--his', 'his own: a test text of Joel\'s', '--lineage', lineage, '--scope', scope, '--text', self.text(body), '--call', call,
                 '--chance', '0.6' if call == 'Human' else '0.4'] + (['--key', key] if key else []) + \
             (['--narrowed', narrowed] if narrowed else []) + (['--panel', panel] if panel else [])
         for t in tells:
@@ -64,7 +64,7 @@ class Ledger(unittest.TestCase):
 
     def test_the_chance_is_of_a_human_result(self):
         """An AI call at 0.9 recorded the confidence in the call; the ledger's chance is of a 100% Human result (2026-10-22)."""
-        argv = lambda ch: ['predict', self.ledger, '--his', 'a test text of Joel\'s', '--lineage', 'C', '--scope', 'paragraph', '--text', self.text('c' + ch),
+        argv = lambda ch: ['predict', self.ledger, '--his', 'his own: a test text of Joel\'s', '--lineage', 'C', '--scope', 'paragraph', '--text', self.text('c' + ch),
                            '--call', 'AI', '--chance', ch, '--tells', 'a tidy closer']
         self.assertEqual(L.main(argv('0.9')), 2)
         self.assertEqual(L.read(self.ledger), [])
@@ -111,7 +111,7 @@ class Ledger(unittest.TestCase):
     def test_a_half_does_not_go_through_the_paid_api(self):
         """Joel, 2026-11-02 20:38 UTC: "that should be done the free way to not waste my pangram credits" (E218, E325)."""
         half = ' '.join(['word'] * 1500)
-        argv = ['predict', self.ledger, '--his', 'a test text of Joel\'s', '--lineage', 'W2', '--scope', 'stretch', '--text', self.text(half), '--call', 'AI',
+        argv = ['predict', self.ledger, '--his', 'his own: a test text of Joel\'s', '--lineage', 'W2', '--scope', 'stretch', '--text', self.text(half), '--call', 'AI',
                 '--chance', '0.4', '--tells', 'x', '--detector', "pangram 4.1, the API (Joel's key, run on his laptop; E218)"]
         self.assertEqual(L.main(argv), 2)
         sub = list(argv); sub[-1] = "pangram 4.1, Pangram's check of the Substack draft (free)"
@@ -122,7 +122,7 @@ class Ledger(unittest.TestCase):
         prediction written first. Past its two tries a section takes a check only with --after-fix, and never of a text it
         has already sent."""
         def fixed(body, after_fix=None):
-            argv = ['predict', self.ledger, '--his', 'a test text of Joel\'s', '--lineage', 'S9', '--scope', 'section', '--text', self.text(body), '--call', 'Human',
+            argv = ['predict', self.ledger, '--his', 'his own: a test text of Joel\'s', '--lineage', 'S9', '--scope', 'section', '--text', self.text(body), '--call', 'Human',
                     '--chance', '0.6', '--tells', 'a closer', '--diagnosis', 'the closer cut']
             return L.main(argv + (['--after-fix', after_fix] if after_fix else []))
         self.assertEqual(self.predict('a1', lineage='S9', scope='section', call='AI'), 0)
@@ -134,14 +134,14 @@ class Ledger(unittest.TestCase):
         self.assertEqual(fixed('a3', 'the closer of P2 cut'), 0)
         self.result('a3', 'Human')
         self.assertEqual(fixed('a3', 'the same text again'), 2)
-        self.assertEqual(L.main(['predict', self.ledger, '--his', 'a test text of Joel\'s', '--lineage', 'P9', '--scope', 'paragraph', '--text', self.text('p'),
+        self.assertEqual(L.main(['predict', self.ledger, '--his', 'his own: a test text of Joel\'s', '--lineage', 'P9', '--scope', 'paragraph', '--text', self.text('p'),
                                  '--call', 'Human', '--chance', '0.6', '--tells', 'x', '--after-fix', 'not a section']), 0)
 
     def test_a_substack_article_check_goes_past_two_when_it_decides_something(self):
         """Joel, 2026-10-21 17:56 UTC, question 7 b: Substack checks of a whole article may go past two, each predicted
         first and run only when its result decides something. A pangram.com article check keeps the cap of two."""
         def sub(body, decides=None, diagnosis='the fixes since the last check'):
-            argv = ['predict', self.ledger, '--his', 'a test text of Joel\'s', '--lineage', 'W', '--scope', 'article', '--text', self.text(body), '--call', 'AI',
+            argv = ['predict', self.ledger, '--his', 'his own: a test text of Joel\'s', '--lineage', 'W', '--scope', 'article', '--text', self.text(body), '--call', 'AI',
                     '--chance', '0.1', '--tells', 'as-published sections', '--diagnosis', diagnosis,
                     '--detector', "pangram 4.1, Pangram's check of the Substack draft (free)"]
             return L.main(argv + (['--decides', decides] if decides else []))
@@ -167,7 +167,7 @@ class Ledger(unittest.TestCase):
         self.assertEqual(self.predict('s1', lineage='S', scope='stretch', call='AI'), 0)
         self.result('s1', 'AI')
         self.assertEqual(self.predict('s2', lineage='S', scope='stretch', call='AI', diagnosis='re-said'), 2)
-        self.assertEqual(L.main(['predict', self.ledger, '--his', 'a test text of Joel\'s', '--lineage', 'S', '--scope', 'stretch', '--text', self.text('s2'),
+        self.assertEqual(L.main(['predict', self.ledger, '--his', 'his own: a test text of Joel\'s', '--lineage', 'S', '--scope', 'stretch', '--text', self.text('s2'),
                                  '--call', 'AI', '--chance', '0.4', '--tells', 'a list', '--diagnosis', 're-said',
                                  '--narrowed', 'P016, P017 and P085 by themselves']), 0)
         # a paragraph's retry needs only its diagnosis, and a stretch that read Human may be tried again
@@ -192,7 +192,7 @@ class Ledger(unittest.TestCase):
         self.assertEqual(L.main(['results', self.ledger, str(res)]), 0)
         article = 'Intro words here.\n' + sec.replace("'", '’') + '\nMore words.'
         sub = "pangram 4.1, Pangram's check of the Substack draft (free)"
-        base = ['predict', self.ledger, '--his', 'a test text of Joel\'s', '--lineage', 'A', '--scope', 'article', '--call',
+        base = ['predict', self.ledger, '--his', 'his own: a test text of Joel\'s', '--lineage', 'A', '--scope', 'article', '--call',
                 'Human', '--chance', '0.6',
                 '--tells', 'the stacks paragraph', '--detector', sub, '--decides', 'whether the article is done']
         # the AI window is still in the article (curly quotes and all): refused
@@ -406,7 +406,16 @@ class SenseGate(unittest.TestCase):
 
     def test_his_own_text_needs_no_receipt(self):
         t, _ = self.files('Anything that could let someone hurt themselves takes priority.')
-        self.assertEqual(self.predict(t, extra=('--his', 'his round-6 version')), 0)
+        self.assertEqual(self.predict(t, extra=('--his', 'his own: the line he wrote into the guide, 2026-11-04')), 0)
+
+    def test_his_version_of_a_models_text_is_not_his_own(self):
+        """Gate E373, Joel 2026-11-06 17:30 UTC: "'my words' for an AI article, are not my words, unless those were human
+        before we started humanizing ... otherwise it's AI words that i humanized"."""
+        t, _ = self.files('If they are thirsty, offer water, and suggest they sip it rather than chug.')
+        self.assertEqual(self.predict(t, extra=('--his', 'his round-8 version')), 2)
+        self.assertEqual(self.predict(t, extra=('--unchanged', 'his round-8 version as he sent it on ROOM-YOURS')), 0)
+        recs = [json.loads(x) for x in open(self.ledger, encoding='utf-8')]
+        self.assertEqual(recs[-1]['unchanged'], 'his round-8 version as he sent it on ROOM-YOURS')
 
     def test_a_retry_takes_small_steps(self):
         """His movement fix: two words and a move. My tries rewrote nearly every word (gate E361)."""
@@ -447,7 +456,7 @@ class FirstFix(SenseGate):
         res.write_text(json.dumps({'old': {'headline': 'Mostly Human Written', 'fraction_ai': 0.2, 'words': 40,
                                            'windows': [{'label': label, 'confidence': conf, 'words': 30, 'text': text}],
                                            'link': 'https://www.pangram.com/history/old'}}), encoding='utf-8')
-        L.main(['predict', self.ledger, '--his', 'his post', '--lineage', 'OLD', '--scope', 'paragraph', '--text',
+        L.main(['predict', self.ledger, '--unchanged', 'his post as published', '--lineage', 'OLD', '--scope', 'paragraph', '--text',
                 self.files(text)[0], '--call', 'Human', '--chance', '0.6', '--human-tells', 'his voice', '--key', 'old'])
         self.assertEqual(L.main(['results', self.ledger, str(res)]), 0)
 
@@ -476,7 +485,7 @@ class FirstFix(SenseGate):
         t2, _ = self.files(self.NEW)
         self.assertEqual(L.main(['predict', self.ledger, '--lineage', 'H', '--scope', 'paragraph', '--text', t2,
                                  '--call', 'Human', '--chance', '0.7', '--human-tells', 'his joins',
-                                 '--his', 'his F9-1 version']), 0)
+                                 '--unchanged', 'his F9-1 version as he sent it']), 0)
 
 
 
