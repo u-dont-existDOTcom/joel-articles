@@ -1,0 +1,67 @@
+[
+ {
+  "sentence": 1,
+  "quote": "The triage app gives you the order to do things in",
+  "gap": "Which triage app? I haven't been told about one, and I don't know what it is or where I find it.",
+  "id": "L1",
+  "status": "drop",
+  "note": "the guide links the triage app where it is named here, and its first line is the app's link ('Quick Triage Web-App Version HERE'); the plain text the reader saw has no links, and the section's picture, under this line, is the app's screen"
+ },
+ {
+  "sentence": 2,
+  "quote": "turn the stove off",
+  "gap": "Why the stove: is it about burns, a fire, or them wandering off while it's on?",
+  "id": "L2",
+  "status": "drop",
+  "note": "his dangers paragraph, unchanged in this try (his round-5 and round-6 versions, read Human alone); a stove left on burns or starts a fire while they're not tracking it, plain enough for this reader"
+ },
+ {
+  "sentence": 3,
+  "quote": "but keep them from taking more of any substance",
+  "gap": "Why \"but\"? Pacing is fine, so what is more substance up against, and why would taking more matter, and does \"any substance\" include water or food?",
+  "id": "L3",
+  "status": "drop",
+  "note": "his dangers paragraph, unchanged in this try (his round-5 and round-6 versions, read Human alone); more of a substance deepens the state they're struggling with; 'any substance' is drugs or alcohol, and water and food are said later in the section ('Once they can eat safely')"
+ },
+ {
+  "sentence": 4,
+  "quote": "If they want to go confront somebody, that can wait.",
+  "gap": "Why can it wait: what goes wrong if they confront someone now, and what does \"that\" mean, the wish or the confrontation?",
+  "id": "L4",
+  "status": "drop",
+  "note": "his dangers paragraph, unchanged in this try (his round-5 and round-6 versions, read Human alone); No Rash Actions: Visions Are Not Commands, later in the guide, says why big moves wait until sober"
+ },
+ {
+  "sentence": 5,
+  "quote": "And if they want to leave, have someone go with them.",
+  "gap": "Leave where, and what is the escort for: to stop them getting hurt, or to bring them back?",
+  "id": "L5",
+  "status": "drop",
+  "note": "his dangers paragraph, unchanged in this try (his round-5 and round-6 versions, read Human alone); the escort keeps them safe outside, the dangers this paragraph has just named (roads, water)"
+ },
+ {
+  "sentence": 6,
+  "quote": "keep the person away from crowds and strangers",
+  "gap": "Why are crowds and strangers a danger to them, or from them?",
+  "id": "L6",
+  "status": "drop",
+  "note": "his dangers paragraph, unchanged in this try (his round-5 and round-6 versions, read Human alone); crowds and strangers are more to take in and more to react to; the room part says the same of extra people"
+ },
+ {
+  "sentence": 7,
+  "quote": "take the phone",
+  "gap": "Why take it: what harm does a posted revelation or a message to an ex do? And for how long do I keep it?",
+  "id": "L7",
+  "status": "drop",
+  "note": "his dangers paragraph, unchanged in this try (his round-5 and round-6 versions, read Human alone); No Rash Actions says why: a post or a message sent while tripping can't be taken back"
+ },
+ {
+  "sentence": 13,
+  "quote": "They're feeling overwhelmed, so dim the lights, and clear out the extra people around them.",
+  "gap": "The \"so\" follows from \"overwhelmed\", but the lines before only said the light or people might be the problem. Do I dim the lights whether or not they're bright? And which people are \"extra\", and what about the heat, the bathroom, the touching and the wary person, which this sentence skips?",
+  "id": "L8",
+  "answer": "if a bunch of worried people are all talking at them, send most of them out",
+  "raised": "Turn the big light off and put a lamp on",
+  "note": "the draft gives each fix its condition and says the rest as acts: the light, the worried people talking at them, anyone they're wary of, heat, cold and the bathroom; touch is the Don't list's 'Don't force ... touch'"
+ }
+]

@@ -322,7 +322,7 @@
   },
   {
    "id": "r09-room-first",
-   "status": "applied",
+   "status": "superseded",
    "what": "round 9, ROOM-FIRST approved: the room's first part as one paragraph, the annoying-room line said plainly first (B238), the annoying-room paragraph (B239) out. My text, so mine to fix later (gate E373); the decisions stay",
    "joel": "2026-11-06 16:38 export: approved, no comment (his round-8 \"an exercise for you to fix now\")",
    "must_not_contain": [
@@ -331,7 +331,8 @@
    ],
    "must_contain": [
     "getting on their nerves, so look around the room"
-   ]
+   ],
+   "superseded_by": "t17-room-cut"
   },
   {
    "id": "t16-room-cuts",
@@ -365,9 +366,40 @@
     "let meaning wait until the nervous system has somewhere to stand",
     "Give them ordinary reality:"
    ],
+   "note": "its order check (the practice paragraph before the next-steps one) ended when the next-steps paragraph (B246) was cut as a repeat (t17-pfa-next-cut)"
+  },
+  {
+   "id": "t17-room-cut",
+   "status": "applied",
+   "what": "the room paragraph (B238) cut, its points said in their own places (Why Bad Trips Tend to Happen, the fixes line, the Do and Don't lists, Get One Human Anchor, Touch, Consent, and Compassion); what only it said moved to the Do list (B282): \"Need the bathroom?\" and moving anyone they're wary of (experiments/t17-room-cut/apply_t17.py)",
+   "joel": "2026-11-06 19:43 UTC: \"i'd say make the cuts regardless of pangram if it makes the guide read better, that was what we were supposed to do already prior\"",
+   "must_not_contain": [
+    "A lot of what looks like a deep psychedelic crisis",
+    "Are five concerned people talking at once?",
+    "A huge amount of what gets called profound psychedelic crisis is a frightened nervous system stuck in an annoying room.",
+    "Then look at the room. Is the light too bright?"
+   ],
+   "must_contain_exact": [
+    "\"Closer or farther away?\" \"Water?\" (in small sips) \"Need the bathroom?\"",
+    "Keep the room quiet, private, warm, and physically safe, and move anyone they're wary of somewhere else."
+   ],
    "order": [
-    "food and warmth help their body settle",
-    "Then help them pick one safe thing"
+    "or message an ex, take the phone.",
+    "They're feeling overwhelmed, so dim the lights"
+   ]
+  },
+  {
+   "id": "t17-pfa-next-cut",
+   "status": "applied",
+   "what": "Psychological First Aid's last paragraph (B246) cut: its pointer is the next two sections' own headings, and protecting sleep and leaving the meaning until after sleep are said in No Rash Actions, When the Trip Feels Amazing and Give the Session a Beginning and an End (experiments/t17-room-cut/apply_t17b.py)",
+   "joel": "2026-11-06 19:43 UTC: \"i'd say make the cuts regardless of pangram if it makes the guide read better, that was what we were supposed to do already prior\"",
+   "must_not_contain": [
+    "Then help them pick one safe thing to try with their body",
+    "which the next two sections are about"
+   ],
+   "must_contain_exact": [
+    "Write it down. Protect sleep. Revisit it sober with one grounded person.",
+    "Sleep comes before mission."
    ]
   }
  ]

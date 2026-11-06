@@ -313,22 +313,22 @@ The boundary mix over all lanes:
 
 | lane | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| bad trips guide | 52 | 44 (85%) | 77% | 23% | 38% | 0.164 (base 0.178, 52) |
-| **all lanes** | 52 | 44 (85%) | 77% | 23% | 38% | 0.164 (base 0.178, 52) |
+| bad trips guide | 67 | 56 (84%) | 76% | 24% | 34% | 0.162 (base 0.182, 67) |
+| **all lanes** | 67 | 56 (84%) | 76% | 24% | 34% | 0.162 (base 0.182, 67) |
 
 The latest 100 calls of each lane:
 
 | lane | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| bad trips guide | 52 | 44 (85%) | 77% | 23% | 38% | 0.164 (base 0.178, 52) |
+| bad trips guide | 67 | 56 (84%) | 76% | 24% | 34% | 0.162 (base 0.182, 67) |
 
 The boundary mix over all lanes:
 
 | scope or kind | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| paragraph | 30 | 27 (90%) | 63% | 37% | 47% | 0.160 (base 0.232, 30) |
-| section | 11 | 8 (73%) | 91% | 9% | 36% | 0.162 (base 0.083, 11) |
-| pair | 11 | 9 (82%) | 100% | 0% | 18% | 0.177 (base 0.000, 11) |
+| paragraph | 32 | 28 (88%) | 59% | 41% | 47% | 0.160 (base 0.241, 32) |
+| pair | 20 | 16 (80%) | 90% | 10% | 20% | 0.181 (base 0.090, 20) |
+| section | 15 | 12 (80%) | 93% | 7% | 27% | 0.143 (base 0.062, 15) |
 
 ## pangram 4.1, the web app: Joel's account, run by the lane in the desktop app's browser pane (E356)
 
@@ -373,23 +373,23 @@ The boundary mix over all lanes:
 
 | lane | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| healing the gut article | 51 | 43 (84%) | 16% | 84% | 96% | 0.156 (base 0.132, 51) |
-| **all lanes** | 51 | 43 (84%) | 16% | 84% | 96% | 0.156 (base 0.132, 51) |
+| healing the gut article | 60 | 50 (83%) | 17% | 83% | 97% | 0.155 (base 0.139, 60) |
+| **all lanes** | 60 | 50 (83%) | 17% | 83% | 97% | 0.155 (base 0.139, 60) |
 
 The latest 100 calls of each lane:
 
 | lane | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| healing the gut article | 51 | 43 (84%) | 16% | 84% | 96% | 0.156 (base 0.132, 51) |
+| healing the gut article | 60 | 50 (83%) | 17% | 83% | 97% | 0.155 (base 0.139, 60) |
 
 The boundary mix over all lanes:
 
 | scope or kind | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
 | section | 25 | 21 (84%) | 16% | 84% | 92% | 0.147 (base 0.134, 25) |
-| stretch | 14 | 12 (86%) | 14% | 86% | 100% | 0.168 (base 0.122, 14) |
+| stretch | 22 | 18 (82%) | 18% | 82% | 100% | 0.161 (base 0.149, 22) |
 | pair | 9 | 7 (78%) | 22% | 78% | 100% | 0.174 (base 0.173, 9) |
-| paragraph | 3 | 3 (100%) | 0% | 100% | 100% | 0.128 (base 0.000, 3) |
+| paragraph | 4 | 4 (100%) | 0% | 100% | 100% | 0.126 (base 0.000, 4) |
 
 ## pangram 4.1, his Pangram extension on the live post (free, Joel's account)
 
@@ -417,9 +417,9 @@ The boundary mix over all lanes:
 | not explained yet | 46 | bad trips guide, community article, healing the gut article, hypnosis guide, inner child guide |
 | too pessimistic about a cut | 12 | inner child guide |
 | a tell I did not name | 11 | inner child guide |
+| context | 10 | bad trips guide, healing the gut article |
 | a Low window came back | 8 | inner child guide |
 | a paragraph alone is harsher than the article | 8 | inner child guide, nibbana article |
-| context | 7 | healing the gut article |
 | balanced closer kept | 4 | healing the gut article, hypnosis guide |
 | model-over-pessimism | 4 | healing the gut article |
 | context: red in the whole guide, Human in the pair | 3 | healing the gut article, hypnosis guide |
@@ -440,6 +440,7 @@ The boundary mix over all lanes:
 | one-sentence-stuck | 2 | healing the gut article |
 | one step a sentence not applied | 2 | healing the gut article |
 | tells | 2 | healing the gut article |
+| my rewrite of words that already read High | 2 | healing the gut article |
 | the unchanged neighbour | 1 | community article |
 | a window the test made | 1 | community article |
 | parallel list kept; light green turned red | 1 | hypnosis guide |

@@ -8,7 +8,7 @@ Built by `tools/humanization/pangram_ledger.py build` from `articles/bad-trips/h
 |---|---|---|---|---|---|---|
 | Pangram 4.1 extension (free, live post; Joel's check of 2026-10-18, the same text as his 2026-11-03 paste by SHA-256) | 1 | 1 (100%) | 100% | 0% | 0% | 0.000 (base 0.000, 1) |
 | Pangram web app (his account, Pangram Professional) | 3 | 3 (100%) | 100% | 0% | 0% | 0.092 (base 0.000, 3) |
-| Pangram web app (his account, Pangram Professional), through the Claude desktop app's browser pane | 52 | 44 (85%) | 77% | 23% | 38% | 0.164 (base 0.178, 52) |
+| Pangram web app (his account, Pangram Professional), through the Claude desktop app's browser pane | 67 | 56 (84%) | 76% | 24% | 34% | 0.162 (base 0.182, 67) |
 | pangram 4.1, the web app: Joel's account, run by the lane in the desktop app's browser pane (E356) | 8 | 6 (75%) | 50% | 50% | 75% | 0.170 (base 0.250, 8) |
 
 ## Pangram 4.1 extension (free, live post; Joel's check of 2026-10-18, the same text as his 2026-11-03 paste by SHA-256)
@@ -56,25 +56,26 @@ Calibration:
 
 | window | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| the latest 50 | 50 | 42 (84%) | 78% | 22% | 38% | 0.166 (base 0.172, 50) |
-| the latest 100 | 52 | 44 (85%) | 77% | 23% | 38% | 0.164 (base 0.178, 52) |
-| all | 52 | 44 (85%) | 77% | 23% | 38% | 0.164 (base 0.178, 52) |
+| the latest 50 | 50 | 41 (82%) | 80% | 20% | 30% | 0.162 (base 0.160, 50) |
+| the latest 100 | 67 | 56 (84%) | 76% | 24% | 34% | 0.162 (base 0.182, 67) |
+| all | 67 | 56 (84%) | 76% | 24% | 34% | 0.162 (base 0.182, 67) |
 
 The boundary mix (what was checked; accuracy differs a lot between a paragraph and a section):
 
 | scope or kind | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| section | 11 | 8 (73%) | 91% | 9% | 36% | 0.162 (base 0.083, 11) |
-| paragraph | 30 | 27 (90%) | 63% | 37% | 47% | 0.160 (base 0.232, 30) |
-| pair | 11 | 9 (82%) | 100% | 0% | 18% | 0.177 (base 0.000, 11) |
+| section | 15 | 12 (80%) | 93% | 7% | 27% | 0.143 (base 0.062, 15) |
+| paragraph | 32 | 28 (88%) | 59% | 41% | 47% | 0.160 (base 0.241, 32) |
+| pair | 20 | 16 (80%) | 90% | 10% | 20% | 0.181 (base 0.090, 20) |
 
 Calibration:
 
 | my chance of a 100% Human result | calls | mean chance | read Human |
 |---|---|---|---|
-| 0.2 to 0.4 | 15 | 0.32 | 0% |
-| 0.4 to 0.6 | 28 | 0.47 | 14% |
-| 0.6 to 0.8 | 10 | 0.68 | 80% |
+| 0.0 to 0.2 | 1 | 0.15 | 0% |
+| 0.2 to 0.4 | 19 | 0.31 | 0% |
+| 0.4 to 0.6 | 37 | 0.47 | 19% |
+| 0.6 to 0.8 | 11 | 0.68 | 82% |
 | 0.8 to 1.0 | 1 | 0.80 | 100% |
 
 ## pangram 4.1, the web app: Joel's account, run by the lane in the desktop app's browser pane (E356)
@@ -98,11 +99,12 @@ Calibration:
 | 0.4 to 0.6 | 6 | 0.49 | 33% |
 | 0.6 to 0.8 | 3 | 0.67 | 100% |
 
-## Misses since the ledger (10)
+## Misses since the ledger (13)
 
 | cause | misses |
 |---|---|
 | in place | 3 |
+| context | 3 |
 | shape echo | 1 |
 | parallel frames kept | 1 |
 | a flaw of sense left in the ending | 1 |
@@ -125,6 +127,9 @@ The latest:
 | [bt-room-stretch-1](https://www.pangram.com/history/34d92f15-18c7-4849-9972-983239961bf9) | bad-trips PFA room stretch in place: my first part with his second (B238 to B241), 1 | Human | AI or mixed | in place |
 | [bt-room-stretch-2](https://www.pangram.com/history/3d9ca55e-df3a-4ea4-8866-2d6071ba1b10) | bad-trips PFA room stretch in place: my first part with his second (B238 to B241), 2 | Human | AI or mixed | in place |
 | [bt-room-stretch-4](https://www.pangram.com/history/6808a624-26bf-48d8-a5d9-96252b6c95e9) | bad-trips PFA room stretch in place: my first part with his second (B238 to B241), 4 | Human | AI or mixed | in place |
+| [bt-dangers-heading](https://www.pangram.com/history/2745e050-1573-4da8-9c6a-ba510f0a80e6) | bad-trips PFA dangers paragraph with the section heading, 1 | AI | Human | context |
+| [bt-test-acts](https://www.pangram.com/history/5a123a1a-623a-40ad-85ba-d4c6c869fe68) | bad-trips PFA dangers with the room's acts only, 1 | Human | AI or mixed | context |
+| [bt-test-fixes](https://www.pangram.com/history/904c30a7-fe86-4630-8209-e1c049471074) | bad-trips PFA dangers with the fixes line only, 1 | AI | Human | context |
 
 ## Lineages still open (tries used of the cap)
 
@@ -145,7 +150,16 @@ The latest:
 | bad-trips PFA room stretch as the guide has it after round 8 (his four paragraphs) | section | 1 of 2 | AI |
 | bad-trips PFA room stretch, first paragraph alone (try 5's) | paragraph | 1 of 6 | AI |
 | bad-trips PFA room stretch without the stock tips (a test: what the guide says elsewhere cut) | pair | 1 of 6 | AI |
-| bad-trips PFA first five minutes, the section as the guide has it after round 9 | section | 3 of 2 | AI |
+| bad-trips PFA first five minutes, the section as the guide has it after round 9 | section | 5 of 2 | pending |
 | bad-trips PFA section fix 1, first half (intro, dangers, room) | pair | 1 of 6 | AI |
 | bad-trips PFA section fix 1, second half (the scripts and what comes next) | pair | 1 of 6 | AI |
+| bad-trips PFA first half, the room said once | pair | 2 of 6 | AI |
+| bad-trips PFA first half, the room said once, without the intro | pair | 2 of 6 | AI |
+| bad-trips PFA dangers with the room's first sentence only | pair | 1 of 6 | AI |
+| bad-trips PFA dangers with the room's acts only | pair | 1 of 6 | AI |
+| bad-trips PFA first half, room paragraph cut, its own points after the fixes line | pair | 1 of 6 | AI |
+| bad-trips PFA first half with the reminder | section | 1 of 2 | Mixed |
+| bad-trips PFA first half with the practice part | section | 1 of 2 | AI |
+| bad-trips PFA first half with the next-steps paragraph | section | 1 of 2 | AI |
+| bad-trips PFA section, second half reworked after the cuts | section | 1 of 2 | pending |
 
