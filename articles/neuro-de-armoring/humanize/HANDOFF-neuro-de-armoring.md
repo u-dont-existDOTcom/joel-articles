@@ -18,6 +18,9 @@ From an account with Desktop Commander connected to the laptop: "Continue my neu
 
 ## START HERE
 
+- **2026-11-06, his message of 20:17 UTC: the AskRigor report sent (ARL-0057); Nestler 2008 back in his paragraph's
+  citation with Zhong 2023 (his 11a), Human, High; lesson E380, enforced in `fidelity_keys.py`.** No questions open.
+  Next: step 3 of the Next step below (dynorphin's timing with AskRigor), then section C on.
 - **2026-11-06, his message of 19:40 UTC: his dynorphin paragraph in word for word, "The Hardening" deleted at his
   word; AskRigor's terms accepted (version from its public source, since its text result gives none); the bug report he
   asked for waits for his yes to the general rewrite, after AskRigor's privacy check refused the first; lessons E374 to
@@ -122,10 +125,8 @@ Scott passages, the introduction and the D-serine paragraph in Part 4 sound most
 
 ## Next step (2026-11-06, after his message of 19:40 UTC)
 
-1. If he says yes to the AskRigor report (`fix-20261106/ASKRIGOR-BUG-REPORT.md`), send it with
-   `submit_lesson_candidate` exactly as that page shows it (consent_scope "once"); nothing else goes with it.
-2. Question 11: his answer decides whether Zhong 2023 is cited after Vialou in his paragraph; check his paragraph's
-   reading after any change.
+1. Done 20:17: the AskRigor report sent (ARL-0057).
+2. Done 20:17: Zhong 2023 and Nestler 2008 cited with Vialou; Human, High.
 3. With AskRigor active: register the plain answer first (inspect asks for it), then check "dynorphin clears relatively
    quickly" (stress-induced dynorphin and kappa-opioid signaling: how long it lasts against DeltaFosB's weeks). Bring it
    to him only if the evidence says otherwise.

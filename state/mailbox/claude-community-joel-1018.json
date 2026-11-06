@@ -522,6 +522,45 @@
     }
    ],
    "recorded_utc": "2026-11-06T19:44Z"
+  },
+  {
+   "turn": "2026-11-06T20:17Z",
+   "lines_of_work": [
+    "neuro de-armoring"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "same three items, all in the ledger; UDA main b0a1b3d, AGENTS.md and LESSON-INDEX unchanged"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "314 and 315 (this lane's) merged by Joel; main 2e757fa3, merged here; 309 and 308 still open, no new comments"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no edits by others to this lane's handoff note or questions page"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "GitHub notices only: 314 and 315 merged, 315's check green; the 20:51 check-in on 315 cancelled"
+    }
+   ],
+   "items": [
+    {
+     "item": "Joel's message of 2026-11-06 20:17 UTC: send the AskRigor bug report ('altho i already told it what happened')",
+     "outcome": "sent as the page showed it"
+    },
+    {
+     "item": "same message: Nestler 2008 'i didn't even see Nestler ... if it is put it back', and a general rule: don't assume a citation was removed on purpose, ask if unsure; 11 yes",
+     "outcome": "Nestler back with Zhong 2023 after Vialou; lesson E378, enforced in the fidelity check"
+    }
+   ],
+   "recorded_utc": "2026-11-06T20:18Z"
   }
  ]
 }

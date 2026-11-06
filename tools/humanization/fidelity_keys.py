@@ -43,6 +43,15 @@ studies support), KEYS.json's "owner_changes" records what that card took out an
 card, "numbers_lost", "numbers_new", "terms_lost": [...], "keys_lost": {a warning's id: [its keys the card took out]}}):
 the check reads those as his and still fails on anything else. The script that puts his answers in writes each entry from
 the check's own difference before and after that card, so nothing goes in that the card didn't change.
+
+A citation his change took out (gate E378). Joel, 2026-11-06 20:17 UTC, after I had recorded Nestler 2008 as cut by his
+paragraph: "i didn't even see Nestler, so if i took thatout, don't assume that was on purpose. if it's not needed fine,
+if it is put it back. that should be a rule in general don't assume a citation was removed on purpose unless it makes
+sense that it owuld be, ask the user if unsure". So an owner_changes entry that loses a year (a citation's year, most
+often) says, in "citations_lost", what each was and why it is out ({"cite": "Nestler 2008", "why": ...}), and the why
+starts "he said:" (his words naming the cut), "on his card:" (a card he approved proposed it) or "the claim is gone:"
+(nothing left in the article rests on it). Without one the check fails: put the citation back where something still
+rests on it, or ask him.
 """
 import argparse
 import collections
@@ -58,6 +67,8 @@ DASHES = str.maketrans({'–': '-', '—': '-', '‑': '-', '’': "'", '‘': "
 UNIT = (r"(?:mg/kg|mg/day|g/day|mg/100g|mcg|µg|mg|ml|mL|g|kg|BPM|bpm|%|seconds?|minutes?|Minutes?|min|hours?|days?|"
         r"nights?|weeks?|Weeks?|months?|years?|times|cups?|sprays?|spray|filet|fillet|a\.m\.|point|th)")
 NUM = r"\d+(?:[.,]\d+)*"
+YEAR = re.compile(r"(?:19|20)\d\d")
+CITE_WHY = re.compile(r"^\s*(he said|on his card|the claim is gone)\s*:\s*\S.{10,}", re.I | re.S)
 # a number, with "~", "≈", "<" or ">" before it, a range or ratio after it ("300-600", "1/24th", "D2/D3" is a term), and
 # its unit; "Weeks 1-2" and "Week 8+" keep their word in front
 NUMBER = re.compile(r"(?:\b(?:Weeks?|Day|Days|Step|Part|Scenario)\s+)?(?:[~≈<>]\s*)?(?<![\w.])" + NUM +
@@ -235,13 +246,19 @@ def check(keys, draft):
                 u['keys'] = [k for k in u['keys'] if k in named or any(CUES.search(x) for x in k)]
     lost_warnings = pk.check({'units': units}, draft_paras)
     # what his approved cards changed (keys['owner_changes']): his, neither lost nor new
-    changes = []
+    changes, unexplained = [], []
     for c in keys.get('owner_changes', []):
         if not str(c.get('by', '')).strip():
             raise ValueError('owner_changes entry without the answers file and card that approved it: %r' % (c,))
         for n in c.get('numbers_lost', []):
             if n in lost_numbers:
                 lost_numbers.remove(n)
+        # gate E378: a year his change took out is a citation until said otherwise, and is never assumed cut on purpose
+        said = [x for x in (c.get('citations_lost') or [])
+                if CITE_WHY.match(str(x.get('why', ''))) and str(x.get('cite', '')).strip()]
+        for n in c.get('numbers_lost', []):
+            if YEAR.fullmatch(str(n)) and not any(str(n) in str(x.get('cite', '')) for x in said):
+                unexplained.append({'by': c.get('by'), 'year': n})
         for n in c.get('numbers_new', []):
             if n in new_numbers:
                 new_numbers.remove(n)
@@ -278,7 +295,8 @@ def check(keys, draft):
             open_.append(o)
     return {'numbers_lost': lost_numbers, 'numbers_new': new_numbers, 'terms_lost': lost_terms,
             'warnings_lost': lost_warnings, 'open_with_owner': open_, 'owner_changes': changes,
-            'pass': not (lost_numbers or new_numbers or lost_terms or lost_warnings)}
+            'citations_unexplained': unexplained,
+            'pass': not (lost_numbers or new_numbers or lost_terms or lost_warnings or unexplained)}
 
 
 def main(argv=None):
@@ -307,6 +325,10 @@ def main(argv=None):
             print('warning lost: %s | missing %s' % (u['what'][:160], u['missing']))
         for o in r['open_with_owner']:
             print('open with him: %s (%s)' % (o.get('term') or o.get('unit'), o['question']))
+        for x in r['citations_unexplained']:
+            print('citation year %s taken out by %s with no reason: put the citation back where something still rests '
+                  'on it, or ask him; otherwise say in that entry\'s citations_lost what it was and "he said: ...", '
+                  '"on his card: ..." or "the claim is gone: ..." (gate E378)' % (x['year'], x['by']))
         print('verdict:', ('PASS' if r['pass'] else 'FAIL') + (' (%d open with him)' % len(r['open_with_owner'])
                                                               if r['open_with_owner'] else ''))
     return 0 if r['pass'] else 1

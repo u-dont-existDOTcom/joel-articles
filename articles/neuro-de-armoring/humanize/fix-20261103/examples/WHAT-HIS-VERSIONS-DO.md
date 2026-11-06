@@ -191,8 +191,9 @@ and the section's "The Hardening" paragraph is deleted (`../../fix-20261106/appl
 - A process is told in the order it happens to the reader.
 - Before adding a point, read the section for it; say it once, in its place (E376; the receipt's `same_point`).
 
-Two points in it that the lane's research bears on, for him to decide (question 11 on the questions page): the claim
-that dynorphin "clears relatively quickly" has no source in the article yet, and Vialou 2010 is about DeltaFosB built up
-under stress and resilience, while the closest support for "preventing that learning from really clicking" is a mouse
-study of impaired fear extinction that went with DeltaFosB build-up in the amygdala and hippocampus
-([Zhong, et al, 2023](https://pubmed.ncbi.nlm.nih.gov/37003493/)), an association, not a cause.
+Its sources, after his message of 20:17 UTC: his answer to question 11 ("11yes add that") put Zhong 2023 after Vialou,
+for "preventing that learning from really clicking" (a mouse study of fear that wouldn't unlearn, with DeltaFosB built
+up in the amygdala and hippocampus, an association); and Nestler 2008, which the deleted Hardening paragraph had held and
+he hadn't meant to cut ("i didn't even see Nestler"), is back as the source for "keeps cementing" (gate E380). With all
+three it read [Human Written, one window High](https://www.pangram.com/history/e5934635-2d01-47cc-8f90-68e4b32c15e8).
+"dynorphin clears relatively quickly" still has no source; the lane checks it next.

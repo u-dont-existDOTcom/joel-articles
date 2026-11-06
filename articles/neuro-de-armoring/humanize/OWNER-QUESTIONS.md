@@ -1,9 +1,8 @@
 # Neuro de-armoring: what I need from Joel
 
-Last updated 2026-11-06, after your message of 19:40 UTC (your dynorphin paragraph).
-**Open questions: 1** (11, a source for your paragraph). **For you to do**: say yes to the AskRigor bug report as
-rewritten, and switch your Pangram extension to your other account (below). Nothing to merge: pull request 314
-went into main with the lessons.
+Last updated 2026-11-06, after your message of 20:17 UTC (the bug report, Nestler, 11).
+**Open questions: none.** **For you to do**: switch your Pangram extension to your other account (below). Nothing to merge:
+this turn's pull request goes into main with its lesson.
 Colours: 🟣 a question for you; 🟠 something for you to do; 🔵 next or in progress; 🟢 done or decided.
 
 The master copy of this page is [this file in Git](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/OWNER-QUESTIONS.md), so a session in either of your accounts
@@ -11,30 +10,31 @@ can read and update it. Every file it points to is a link.
 
 ## Open questions
 
-- 🟣 **11. A second source for "clicking"?** Your paragraph's Vialou 2010 is about DeltaFosB that builds up under
-  stress and helps resilience, which fits the armor, but it isn't about learning. The closest support for "preventing
-  that learning from really "clicking" as durable insights" is a mouse study where chronic stress (worse after early
-  anesthesia) left the mice unable to unlearn a fear, and that went with DeltaFosB built up in the amygdala and the
-  hippocampus ([Zhong, et al, 2023](https://pubmed.ncbi.nlm.nih.gov/37003493/)). It shows the two together, not that
-  one causes the other.
-  a) **Add it after Vialou**: "([Vialou, et al, 2010](https://pubmed.ncbi.nlm.nih.gov/20473292/); [Zhong, et al,
-  2023](https://pubmed.ncbi.nlm.nih.gov/37003493/))" (my recommendation: the clicking claim then has a source of its
-  own). I'd check your paragraph's reading after.
-  b) **Leave it as it is.**
-  A correction to what I told you last turn: the 2022 dentate gyrus paper ([Lamothe-Molina, et al](https://pmc.ncbi.nlm.nih.gov/articles/PMC9606265/))
-  is about healthy learning, where DeltaFosB keeps cells that just learned from firing again so new details go to new
-  cells. I had made it sound like a block on learning; it isn't evidence for that. And "dynorphin clears relatively
-  quickly" has no source yet; I'll look for one with AskRigor and bring it back only if what I find says otherwise.
+- 🟢 **11, answered ("11yes add that")**: Zhong 2023 is cited after Vialou in your paragraph, with Nestler 2008 back
+  beside them (below).
 - 🟢 **9 and 10, answered by your paragraph**: DeltaFosB stays the armor, and what it does is keep the learning from
   clicking, with the loop as what keeps it going. Nothing else in the article changes for them.
 
 ## For you to do
 
-- 🟠 **Say yes to the AskRigor bug report**, or change it: [the report as rewritten](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261106/ASKRIGOR-BUG-REPORT.md).
-  AskRigor's privacy check refused the first version and asks for your yes to the general one before it goes.
 - 🟠 Switch the Pangram extension in Brave to your other account, and tell me. Its badge read "Daily limit reached" on
   the whole article's temporary draft ("Neuro de-armoring, draft A (temp, delete after)"). I'll open the preview again and
   read the result myself.
+
+## Your message of 2026-11-06 20:17 UTC (the bug report, Nestler, 11), and what I did
+
+Word for word: [your message](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261106/joel-20261106-2017-message.txt).
+
+- 🟢 **The bug report is sent**, as [the page](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261106/ASKRIGOR-BUG-REPORT.md)
+  showed it: AskRigor saved it for review as ARL-0057.
+- 🟢 **Nestler 2008 is back.** It was needed: it's the paragraph's only source for DeltaFosB being a stable protein that
+  keeps gene expression changed long after the cycles stop, your "keeps cementing". Your paragraph's citation now reads
+  "(Nestler, 2008; Vialou, et al, 2010; Zhong, et al, 2023)", each linked. Checked by itself:
+  [Human Written, one window, High](https://www.pangram.com/history/e5934635-2d01-47cc-8f90-68e4b32c15e8), as I predicted.
+- 🟢 **Your rule is in** (lesson E380, [the gate](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/docs/HUMANIZATION-GATE.md), and the shared AGENTS.md): a citation
+  missing from your version stays out only when you said so, a card you approved proposed it, or nothing left rests on
+  it; otherwise it goes back, or I ask. The dose and warning check now fails a recorded change that loses a citation's
+  year without one of those reasons. It caught one older case, DFB-1's Vialou 2010, which is back in your paragraph anyway.
 
 ## Your message of 2026-11-06 19:40 UTC (your dynorphin paragraph, AskRigor's terms), and what I did
 
