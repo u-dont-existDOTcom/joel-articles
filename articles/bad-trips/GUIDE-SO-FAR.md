@@ -347,8 +347,6 @@ This post collects my own experience and thinking, but I would be remiss not to 
 
 ## Psychological First Aid: The First Five Minutes
 
-The [triage app](https://ibogaqueen.com/1625-2/) gives you the order to do things in, and this section is about doing them in a way that takes pressure off the person.
-
 ![](https://substack-post-media.s3.amazonaws.com/public/images/944bef30-ca59-415b-a2e8-809a29ac2ba6_1122x1402.png)
 
 Anything that could let someone hurt themselves in the next five minutes takes priority, so get the car keys out of reach and turn the stove off, and move them away from roads and balconies, or pools of water for that matter. Letting them move around is fine, and pacing can help, but keep them from taking more of any substance. If they want to go confront somebody, that can wait. And if they want to leave, have someone go with them. Put any weapons away and keep the person away from crowds and strangers. If they want to post their big revelation about the universe, or message an ex, take the phone.
@@ -357,7 +355,7 @@ They're feeling overwhelmed, so dim the lights, and clear out the extra people a
 
 Then remind them where they are and what's happening, since a trip can make them lose track of it:
 
-> You're in *[place]*. It's *[date/time]*. You took *[substance, if known]*, and its effects will peak and then change. It's intense right now, and it'll pass. We can sort out the rest of your life tomorrow.
+> You're in *[place]*. It's *[date/time]*. You took *[substance, if known]*, and its effects will peak and then change.
 
 If the state came from a practice, like meditation or fasting, the person can say:
 

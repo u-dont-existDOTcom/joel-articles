@@ -313,22 +313,22 @@ The boundary mix over all lanes:
 
 | lane | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| bad trips guide | 69 | 58 (84%) | 77% | 23% | 33% | 0.159 (base 0.178, 69) |
-| **all lanes** | 69 | 58 (84%) | 77% | 23% | 33% | 0.159 (base 0.178, 69) |
+| bad trips guide | 77 | 66 (86%) | 75% | 25% | 34% | 0.160 (base 0.186, 77) |
+| **all lanes** | 77 | 66 (86%) | 75% | 25% | 34% | 0.160 (base 0.186, 77) |
 
 The latest 100 calls of each lane:
 
 | lane | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| bad trips guide | 69 | 58 (84%) | 77% | 23% | 33% | 0.159 (base 0.178, 69) |
+| bad trips guide | 77 | 66 (86%) | 75% | 25% | 34% | 0.160 (base 0.186, 77) |
 
 The boundary mix over all lanes:
 
 | scope or kind | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
 | paragraph | 32 | 28 (88%) | 59% | 41% | 47% | 0.160 (base 0.241, 32) |
-| pair | 20 | 16 (80%) | 90% | 10% | 20% | 0.181 (base 0.090, 20) |
-| section | 17 | 14 (82%) | 94% | 6% | 24% | 0.133 (base 0.055, 17) |
+| pair | 23 | 19 (83%) | 83% | 17% | 26% | 0.184 (base 0.144, 23) |
+| section | 22 | 19 (86%) | 91% | 9% | 23% | 0.136 (base 0.083, 22) |
 
 ## pangram 4.1, the web app: Joel's account, run by the lane in the desktop app's browser pane (E356)
 
@@ -409,6 +409,25 @@ The boundary mix over all lanes:
 | scope or kind | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
 | article | 1 | 0 (0%) | 100% | 0% | 100% | 0.250 (base 0.000, 1) |
+
+## pangram 4.1, his Pangram extension on a temporary Substack draft's secret link (free, Joel's account)
+
+| lane | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
+|---|---|---|---|---|---|---|
+| healing the gut article | 1 | 1 (100%) | 0% | 100% | 100% | 0.202 (base 0.000, 1) |
+| **all lanes** | 1 | 1 (100%) | 0% | 100% | 100% | 0.202 (base 0.000, 1) |
+
+The latest 100 calls of each lane:
+
+| lane | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
+|---|---|---|---|---|---|---|
+| healing the gut article | 1 | 1 (100%) | 0% | 100% | 100% | 0.202 (base 0.000, 1) |
+
+The boundary mix over all lanes:
+
+| scope or kind | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
+|---|---|---|---|---|---|---|
+| article | 1 | 1 (100%) | 0% | 100% | 100% | 0.202 (base 0.000, 1) |
 
 ## What the misses say (since the ledger)
 

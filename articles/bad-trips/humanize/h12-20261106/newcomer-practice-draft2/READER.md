@@ -1,0 +1,5 @@
+S1 | "brought this on" | What does "this" point to: the bad trip, a frightening state, or something else? And how can meditation or fasting bring on something that is like a drug trip?
+S1 | "If a practice like meditation or fasting brought this on" | Why is a practice being mentioned here at all? The section was about trips from a substance, so is this a different situation, and how do I tell which one I'm in?
+S1 | "since doing more of it only makes this stronger" | How does more meditation or fasting make the state stronger, and what does "stronger" mean here: more intense, longer, or harder to get out of? And what does "it" mean: the practice?
+S2 | "With no drug wearing off" | Which situation is this: the practice case from the sentence before, or any case with no drug? And why does a drug wearing off normally tell us how long it lasts?
+S2 | "nobody can say how long it'll last" | What does "it" point to: the state, the episode, or the effects of the practice? And why am I being told this now: what should I do or say to the person because of it?

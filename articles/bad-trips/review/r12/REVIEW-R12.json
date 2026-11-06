@@ -1,0 +1,97 @@
+{
+ "format": "joel-suggestion-review-v1",
+ "review_id": "bad-trips-r12",
+ "title": "Bad Trips Guide, Round 12",
+ "intro": [
+  "Round 12 (2026-11-06). Psychological First Aid now says each thing once. Under your 19:43 rule (\"make the cuts regardless of pangram if it makes the guide read better\") four repeats are cut. The room paragraph is gone: Why Bad Trips Tend to Happen says the room can be the problem, the Do and Don't lists cover light and music, Get One Human Anchor the crowd, Touch, Consent, and Compassion the touch. The two things only it said, the bathroom and someone they're wary of, are now in the Do list. The last paragraph is gone too: it pointed to the next two sections, and No Rash Actions and When the Trip Feels Amazing say the sleep and meaning parts in full. The reminder's last two sentences are gone, because the sitter's script in Get One Human Anchor says them in your post's words (\"This is a wave. We don't have to solve your whole life right now.\"). And the intro line is gone: the triage app is the guide's first line and its picture is under the heading, and taking pressure off the person is For the Person Helping.",
+  "One card: the practice case, which rewrites lines you approved in round 11. With it the whole section reads Mostly Human Written, every window Human."
+ ],
+ "git_file": "articles/bad-trips/review/r12/REVIEW-R12.html",
+ "article": {
+  "file": "articles/bad-trips/review/r12/PAGE-R12.md",
+  "sha256": "7ba85b1445bf7556555d2ab1573743e498977e5d54d9fe2e31f24d31746e7410"
+ },
+ "built": "2026-11-06",
+ "links": {
+  "guide": "https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261105/articles/bad-trips/GUIDE-SO-FAR.md",
+  "guide_label": "the guide as it stands",
+  "check": "https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261105/articles/bad-trips/humanize/h12-20261106/RESULTS.md",
+  "review": "https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261105/articles/bad-trips/review/r12/REVIEW-R12.md"
+ },
+ "types": {
+  "plain": {
+   "label": "Said plainly",
+   "about": "AI lines said plainly, each with its reason, the way he fixes his own windows"
+  },
+  "structure": {
+   "label": "Structure",
+   "about": "how the quick version and the long version split the guide, and where a part goes"
+  },
+  "repeat": {
+   "label": "Said twice",
+   "about": "a point the guide already makes elsewhere: one copy goes, the other stays"
+  },
+  "safety": {
+   "label": "Safety in one place",
+   "about": "a caution or call-for-help line said in several places, or one that changes nothing a reader does"
+  },
+  "question": {
+   "label": "Your call",
+   "about": "something only you can decide or know"
+  }
+ },
+ "suggestions": [
+  {
+   "id": "PFA-PRACTICE",
+   "type": "repeat",
+   "advice": "approve",
+   "title": "The practice case, said once",
+   "reading": "With the practice part as the guide has it, the rest of the section reads AI too: the section's first half and these three paragraphs, [AI, 100%](https://www.pangram.com/history/ff2a6888-cd9c-49c3-9152-ec0cc6b5bb45).",
+   "tested": "The whole section with this change: [Mostly Human Written](https://www.pangram.com/history/ecd2cd08-c8e7-4924-bd15-3155a3cbeb2a), every window Human (High, Medium, High, Medium, Low, Medium, Low). The same without its second sentence read [Human Written](https://www.pangram.com/history/2b5c21b4-dc7b-4505-b3b6-bda2e6981027), but that loses the one thing only this part says.",
+   "what": "The lead-in, the script and the food line become two sentences: have them stop the practice, and why; and that with no drug wearing off it could be over soon or take a while.",
+   "why": "The script's \"I'm in an intense state\" is the opener of the person's script in Get One Human Anchor (\"I'm in an intense psychedelic or altered state\"), \"my only job is to stay safe\" is the guide's rule everywhere (No Rash Actions, Alone at 3 a.m.), and eating and warmth are in the Grounding Menu's Ordinary world and the aftercare's first 24 hours (\"sleep, food, water, warmth\"). What only this part said stays: stop the practice, because more of it makes the state stronger, and a practice state keeps no drug's schedule. Fresh readers also asked who says the script, and why the food line comes after the clock.",
+   "stays": "Stopping the practice, the reason, meditation and fasting as the examples, and that it keeps no schedule; the reminder before it and everything above.",
+   "deciding": "Approve puts the two sentences in for the three paragraphs; Revise lets you change them first.",
+   "advice_note": "Approve: it says the practice case once, and the section reads Human with it.",
+   "found_by": "the say-it-once look across the guide (gate bad-trips-2026-11-06a), then Pangram beside the Human first half",
+   "receipt": [
+    "articles/bad-trips/humanize/h12-20261106/RECEIPT-PRACTICE-V3.json",
+    "articles/bad-trips/humanize/h12-20261106/TEST-practice-V3.receipt.json"
+   ],
+   "edits": [
+    {
+     "block": 201,
+     "before": "If the state came from a practice, like meditation or fasting, the person can say:",
+     "after": "If a practice like meditation or fasting brought this on, have them stop it now, since doing more of it only makes this stronger. There's no drug wearing off here, so it could be over soon or take a while."
+    },
+    {
+     "block": 202,
+     "before": "I'm in an intense state, so I'm stopping the practice now, and my only job is to stay safe.",
+     "after": ""
+    },
+    {
+     "block": 203,
+     "before": "A state from a practice has no drug wearing off on a schedule, so there's no telling how long it will last. Once they can eat safely, food and warmth help their body settle.",
+     "after": ""
+    }
+   ],
+   "spans": [
+    {
+     "block": 201,
+     "start": 0,
+     "end": 82
+    },
+    {
+     "block": 202,
+     "start": 0,
+     "end": 91
+    },
+    {
+     "block": 203,
+     "start": 0,
+     "end": 173
+    }
+   ]
+  }
+ ]
+}
