@@ -1,0 +1,54 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-06",
+ "text_sha256": "e1dfe7bfd16af8d68052018bb29b23699f53c1edf7c1edab10d379e741c94bb4",
+ "text": "The \"Underpinning\" Principle: Dr. Bruce Perry compares treating trauma to building a house. Standard CBT & EMDR style therapies attempt to \"decorate\" the house (changing thoughts/behaviors in the Cortex) while the foundation (the Brainstem) is crumbling. You cannot hang curtains in a collapsing house.",
+ "section": "Psychology is the Software; Biology is the Hardware.",
+ "reader": "someone with trauma, often with addiction, who has done therapy and still reacts the same way, reading to learn why and whether this protocol is for them",
+ "sentences": [
+  {
+   "s": "The \"Underpinning\" Principle: Dr. Bruce Perry compares treating trauma to building a house.",
+   "payoff": "they get a picture they can hold for why therapy alone may not stick",
+   "follows": "illustrates the paragraph before (software over damaged hardware) with Perry's house"
+  },
+  {
+   "s": "Standard CBT & EMDR style therapies attempt to \"decorate\" the house (changing thoughts/behaviors in the Cortex) while the foundation (the Brainstem) is crumbling.",
+   "payoff": "they see which part of the brain therapy works on and which part is failing underneath",
+   "follows": "applies the house to the therapies the reader has likely tried"
+  },
+  {
+   "s": "You cannot hang curtains in a collapsing house.",
+   "payoff": "they keep the point in one image: you can't decorate a house that is falling down",
+   "follows": "sums the picture up in the article's own line, kept from the post"
+  }
+ ],
+ "checked": [],
+ "placement": "where the block is now (block 21); its place in the section is unchanged",
+ "opens": {
+  "first_sentence": "The \"Underpinning\" Principle: Dr. Bruce Perry compares treating trauma to building a house.",
+  "why_reading": "it names the principle and gives a picture of the reader's situation: building on a bad foundation"
+ },
+ "same_point": "none: read the section for the house image; the X-26 paragraph picks it up later (\"dig under the house\"), which is the same image carried on, not a repeat",
+ "questions": {
+  "Q1": "PASS: read sentence by sentence against this reader",
+  "Q2": "PASS: read sentence by sentence against this reader",
+  "Q3": "PASS: read sentence by sentence against this reader",
+  "Q4": "PASS: read sentence by sentence against this reader",
+  "Q5": "PASS: read sentence by sentence against this reader",
+  "Q6": "PASS: read sentence by sentence against this reader",
+  "Q7": "PASS: read sentence by sentence against this reader",
+  "Q8": "PASS: read sentence by sentence against this reader",
+  "Q9": "PASS: read sentence by sentence against this reader"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}
