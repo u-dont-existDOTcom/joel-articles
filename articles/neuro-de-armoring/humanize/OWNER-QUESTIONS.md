@@ -2,7 +2,8 @@
 
 Last updated 2026-11-06, after your message of 19:40 UTC (your dynorphin paragraph).
 **Open questions: 1** (11, a source for your paragraph). **For you to do**: say yes to the AskRigor bug report as
-rewritten, switch your Pangram extension to your other account, and merge the pull request (below).
+rewritten, and switch your Pangram extension to your other account (below). Nothing to merge: pull request 314
+went into main with the lessons.
 Colours: 🟣 a question for you; 🟠 something for you to do; 🔵 next or in progress; 🟢 done or decided.
 
 The master copy of this page is [this file in Git](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/OWNER-QUESTIONS.md), so a session in either of your accounts
@@ -34,7 +35,6 @@ can read and update it. Every file it points to is a link.
 - 🟠 Switch the Pangram extension in Brave to your other account, and tell me. Its badge read "Daily limit reached" on
   the whole article's temporary draft ("Neuro de-armoring, draft A (temp, delete after)"). I'll open the preview again and
   read the result myself.
-- 🟠 Merge the pull request for this turn when you've looked.
 
 ## Your message of 2026-11-06 19:40 UTC (your dynorphin paragraph, AskRigor's terms), and what I did
 
@@ -46,7 +46,7 @@ Word for word: [your message](https://github.com/u-dont-existDOTcom/joel-article
   one window, High. The dose and warning check still passes; it records Nestler 2008 out and Vialou 2010 back.
 - 🟢 **AskRigor's terms accepted** for you; AskRigor reads your account as active in free contributor mode. The terms
   are in the bug report page above, word for word.
-- 🟢 **The lessons are in main** (E374 to E377, [the gate](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/docs/HUMANIZATION-GATE.md), and [what your versions do](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261103/examples/WHAT-HIS-VERSIONS-DO.md)):
+- 🟢 **The lessons are in main** (pull request [314](https://github.com/u-dont-existDOTcom/joel-articles/pull/314), merged with this turn's article changes; E374 to E377, [the gate](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/docs/HUMANIZATION-GATE.md), and [what your versions do](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261103/examples/WHAT-HIS-VERSIONS-DO.md)):
   a paragraph opens on the reader's own case, whoever wrote its first sentence; a mechanism is said by what it does to
   the reader; one point in one place; and a yes I need from you is asked as a question with the full terms. The first
   and third are now checked: no try of mine reaches Pangram or a card without saying what its first sentence tells the
