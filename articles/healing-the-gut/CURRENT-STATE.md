@@ -40,27 +40,29 @@ Joel, 2026-11-03 16:15 UTC (`experiments/t01-answers/joel-20261103-1615-messages
   `docs/lessons/`, named, not numbered (gate gut-2026-11-06d), so 308 no longer touches the gate's lesson sections.
 - 2026-11-06 21:23 UTC: he merged pull request 308, so the lane auto-merge workflow and `docs/lessons/` are on main;
   the lane goes on from main's tip on `claude/gut-r17-20261106`, whose pull request merges itself once its checks pass.
+- 2026-11-06 21:26 UTC: his extension read draft B [Human Written](https://www.pangram.com/feed/bb64a934-cf2c-47b3-ae93-af2a363a0644)
+  (`humanize/fix-20261103/r17/draft-b-check/`, #183 right): no AI window, document confidence High, 0.004% AI; 9
+  windows High, 8 Medium, 4 Low (three Low in Phase 5's first items; `humanize/LATER-WINDOWS.md`). The
+  pre-publication reads passed (`r17/prepublish/FINDINGS.md`: 3 of 3 planted errors found, nothing to change before
+  the update). The update is ready: `r17/live-update/r17.html` and `live/UPDATE-PLAN-3.json`.
 
 ## Current checkpoint
 
-2026-11-06, after his message of 21:06 UTC: r17 (`humanize/fix-20261103/r17/r17.md`) is the article with every
-answer in. Temporary draft B holds it (`r17/substack/PASTED.json`: 3,992 words matched; its secret link rendered
-EXPECTED-TEXT-B.txt exactly), and the whole-article prediction is frozen as #183 (Human at 0.55) on that text. The
-link went to him in chat on 2026-11-06 at 20:57 UTC. Pull request 308 is merged (21:23 UTC).
-Pangram's web app is signed out in the built-in browser, so #181 and #182 (the A/B checks of the old words) wait.
+2026-11-06, after his message of 21:26 UTC: r17 is the article with every answer in, and it read Human Written as a
+whole (draft B). The third update of his post is built and waits for his OK (no email): `r17/live-update/README.md`.
+Phase 5's three Low sentences are the next fix; their checks need Pangram signed in again in the built-in browser.
 
 ## Remaining
 
-1. His extension's check of draft B's secret link (#183).
-2. Then his post updated with his OK and no email, carrying draft B's characters, marks included (E362 (gut)).
-3. #181 and #182 once Pangram is signed in again in the built-in browser (whether #180 read AI because of my list or
-   the cut); old results kept without their window text get it from Pangram's history (`humanize/LATER-WINDOWS.md`).
-4. Drafts A and B are his to delete once their results are recorded; draft A no longer decides anything.
+1. His OK to update the post with r17 (no email), then the update and the character-by-character comparison (E362 (gut)).
+2. Phase 5's three Low sentences fixed, tested in their stretch, on an approve card; Phase 4's Medium tried
+   (`humanize/LATER-WINDOWS.md`); two clarity fixes from the compare read (`r17/prepublish/FINDINGS.md`).
+3. #181 and #182 once Pangram is signed in again.
+4. Drafts A and B are his to delete; neither decides anything now.
 
 ## Blockers / unresolved
 
-- Waiting on Joel: his extension on draft B's link, and Pangram's sign-in in the built-in browser (its "Verify you
-  are human" box is his to answer).
+- Waiting on Joel: his OK for the update, and Pangram's sign-in in the built-in browser.
 
 ## Evidence / artifacts
 
@@ -68,5 +70,4 @@ Pangram's web app is signed out in the built-in browser, so #181 and #182 (the A
 
 ## Next safe action
 
-Record his extension's result for draft B (#183); fix what it shows (Low always, Medium tried, bugs left), then ask
-his OK to update the post, no email.
+On his OK, run the update as `r17/live-update/README.md` says, with no email; then fix Phase 5's Low sentences.
