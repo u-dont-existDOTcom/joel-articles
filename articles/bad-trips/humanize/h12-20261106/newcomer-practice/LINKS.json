@@ -1,0 +1,66 @@
+[
+ {
+  "sentence": 1,
+  "quote": "If the state came from a practice",
+  "gap": "Which state? The part before was about a drug trip, so what \"state\" is meant, and why does a practice suddenly come into it?",
+  "id": "L1",
+  "answer": "If a practice like meditation or fasting brought this on",
+  "raised": "If a practice like meditation or fasting brought this on"
+ },
+ {
+  "sentence": 1,
+  "quote": "the person can say: I'm in an intense state, so I'm stopping the practice now",
+  "gap": "Say it to whom, and what is saying it for? How does stopping the practice change anything for someone already in that state?",
+  "id": "L2",
+  "answer": "since doing more of it only makes this stronger",
+  "raised": "have them stop it now"
+ },
+ {
+  "sentence": 1,
+  "quote": "my only job is to stay safe",
+  "gap": "Why is staying safe the only job, and safe from what, in this case?",
+  "id": "L3",
+  "status": "drop",
+  "note": "the draft cuts the line: safety first is the guide's rule throughout (No Rash Actions: Visions Are Not Commands, 'No big actions until morning')"
+ },
+ {
+  "sentence": 2,
+  "quote": "A state from a practice has no drug wearing off on a schedule",
+  "gap": "What does a drug wearing off on a schedule have to do with it? I can't see why a drug trip has a schedule and a practice doesn't.",
+  "id": "L4",
+  "status": "drop",
+  "note": "the reminder just before says a drug's effects peak and then change; the draft's 'With no drug wearing off' is that clock's absence"
+ },
+ {
+  "sentence": 2,
+  "quote": "so there's no telling how long it will last",
+  "gap": "What does \"so\" follow from? And why does it matter to me that the length is unknown: does it change what I do?",
+  "id": "L5",
+  "status": "drop",
+  "note": "what the helper takes from it: no end to promise them; the draft keeps the sentence as it is"
+ },
+ {
+  "sentence": 3,
+  "quote": "Once they can eat safely",
+  "gap": "Safely in what way (choking, nausea, something else), and who decides when they can?",
+  "id": "L6",
+  "status": "drop",
+  "note": "the draft cuts the food line: eating when they can is the Grounding Menu's Ordinary world, and food and warmth the aftercare's first 24 hours"
+ },
+ {
+  "sentence": 3,
+  "quote": "food and warmth help their body settle",
+  "gap": "Settle how? What are food and warmth doing to the body, and what does that have to do with an intense state from a practice?",
+  "id": "L7",
+  "status": "drop",
+  "note": "the draft cuts the food line: eating when they can is the Grounding Menu's Ordinary world, and food and warmth the aftercare's first 24 hours"
+ },
+ {
+  "sentence": 3,
+  "quote": "Once they can eat safely, food and warmth help their body settle.",
+  "gap": "Why is this here, right after the point about not knowing how long it lasts? Is it a step to take, and does \"they\" mean the person from S1?",
+  "id": "L8",
+  "status": "drop",
+  "note": "the draft cuts the food line: eating when they can is the Grounding Menu's Ordinary world, and food and warmth the aftercare's first 24 hours"
+ }
+]

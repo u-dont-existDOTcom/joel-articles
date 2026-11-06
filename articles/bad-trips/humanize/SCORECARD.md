@@ -8,7 +8,7 @@ Built by `tools/humanization/pangram_ledger.py build` from `articles/bad-trips/h
 |---|---|---|---|---|---|---|
 | Pangram 4.1 extension (free, live post; Joel's check of 2026-10-18, the same text as his 2026-11-03 paste by SHA-256) | 1 | 1 (100%) | 100% | 0% | 0% | 0.000 (base 0.000, 1) |
 | Pangram web app (his account, Pangram Professional) | 3 | 3 (100%) | 100% | 0% | 0% | 0.092 (base 0.000, 3) |
-| Pangram web app (his account, Pangram Professional), through the Claude desktop app's browser pane | 69 | 58 (84%) | 77% | 23% | 33% | 0.159 (base 0.178, 69) |
+| Pangram web app (his account, Pangram Professional), through the Claude desktop app's browser pane | 77 | 66 (86%) | 75% | 25% | 34% | 0.160 (base 0.186, 77) |
 | pangram 4.1, the web app: Joel's account, run by the lane in the desktop app's browser pane (E356) | 8 | 6 (75%) | 50% | 50% | 75% | 0.170 (base 0.250, 8) |
 
 ## Pangram 4.1 extension (free, live post; Joel's check of 2026-10-18, the same text as his 2026-11-03 paste by SHA-256)
@@ -56,25 +56,25 @@ Calibration:
 
 | window | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| the latest 50 | 50 | 41 (82%) | 84% | 16% | 26% | 0.160 (base 0.134, 50) |
-| the latest 100 | 69 | 58 (84%) | 77% | 23% | 33% | 0.159 (base 0.178, 69) |
-| all | 69 | 58 (84%) | 77% | 23% | 33% | 0.159 (base 0.178, 69) |
+| the latest 50 | 50 | 42 (84%) | 84% | 16% | 24% | 0.163 (base 0.134, 50) |
+| the latest 100 | 77 | 66 (86%) | 75% | 25% | 34% | 0.160 (base 0.186, 77) |
+| all | 77 | 66 (86%) | 75% | 25% | 34% | 0.160 (base 0.186, 77) |
 
 The boundary mix (what was checked; accuracy differs a lot between a paragraph and a section):
 
 | scope or kind | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| section | 17 | 14 (82%) | 94% | 6% | 24% | 0.133 (base 0.055, 17) |
+| section | 22 | 19 (86%) | 91% | 9% | 23% | 0.136 (base 0.083, 22) |
 | paragraph | 32 | 28 (88%) | 59% | 41% | 47% | 0.160 (base 0.241, 32) |
-| pair | 20 | 16 (80%) | 90% | 10% | 20% | 0.181 (base 0.090, 20) |
+| pair | 23 | 19 (83%) | 83% | 17% | 26% | 0.184 (base 0.144, 23) |
 
 Calibration:
 
 | my chance of a 100% Human result | calls | mean chance | read Human |
 |---|---|---|---|
 | 0.0 to 0.2 | 2 | 0.15 | 0% |
-| 0.2 to 0.4 | 20 | 0.31 | 0% |
-| 0.4 to 0.6 | 37 | 0.47 | 19% |
+| 0.2 to 0.4 | 22 | 0.31 | 0% |
+| 0.4 to 0.6 | 43 | 0.47 | 23% |
 | 0.6 to 0.8 | 11 | 0.68 | 82% |
 | 0.8 to 1.0 | 1 | 0.80 | 100% |
 
@@ -158,8 +158,10 @@ The latest:
 | bad-trips PFA dangers with the room's first sentence only | pair | 1 of 6 | AI |
 | bad-trips PFA dangers with the room's acts only | pair | 1 of 6 | AI |
 | bad-trips PFA first half, room paragraph cut, its own points after the fixes line | pair | 1 of 6 | AI |
-| bad-trips PFA first half with the reminder | section | 1 of 2 | Mixed |
-| bad-trips PFA first half with the practice part | section | 1 of 2 | AI |
+| bad-trips PFA first half with the reminder | section | 2 of 2 | Mixed |
+| bad-trips PFA first half with the practice part | section | 2 of 2 | Mixed |
 | bad-trips PFA first half with the next-steps paragraph | section | 1 of 2 | AI |
 | bad-trips PFA section, second half reworked after the cuts | section | 1 of 2 | AI |
+| bad-trips PFA section, the second half said once | section | 2 of 2 | Mixed |
+| bad-trips PFA practice lines beside the Human section | pair | 1 of 6 | Mixed |
 

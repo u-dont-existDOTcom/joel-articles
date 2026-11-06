@@ -356,7 +356,6 @@
    "what": "round 11, PFA-PLAIN and PFA-MOVE approved: Psychological First Aid's AI lines said plainly (the intro, the room's two 'X does not Y' phrases, both scripts and their lead-ins, the practice paragraph, the last paragraph) and the practice paragraph moved next to its script (review/r11/apply_r11.py)",
    "joel": "2026-11-06 20:51 export: both approved, no comment",
    "must_contain_exact": [
-    "gives you the order to do things in, and this section is about doing them in a way that takes pressure off the person.",
     "I'm in an intense state, so I'm stopping the practice now, and my only job is to stay safe.",
     "Once they can eat safely, food and warmth help their body settle."
    ],
@@ -366,7 +365,7 @@
     "let meaning wait until the nervous system has somewhere to stand",
     "Give them ordinary reality:"
    ],
-   "note": "its order check (the practice paragraph before the next-steps one) ended when the next-steps paragraph (B246) was cut as a repeat (t17-pfa-next-cut)"
+   "note": "its order check (the practice paragraph before the next-steps one) ended when the next-steps paragraph (B246) was cut as a repeat (t17-pfa-next-cut); its intro line (B234) was cut as a signpost whose points the guide says elsewhere (t18-intro-cut)"
   },
   {
    "id": "t17-room-cut",
@@ -400,6 +399,31 @@
    "must_contain_exact": [
     "Write it down. Protect sleep. Revisit it sober with one grounded person.",
     "Sleep comes before mission."
+   ]
+  },
+  {
+   "id": "t18-reminder-once",
+   "status": "applied",
+   "what": "the first five minutes' reminder (B243) keeps where they are, the time, what they took and that its effects will peak and then change; its last two sentences, said again in Get One Human Anchor's sitter script in the post's words (\"This is a wave. We don't have to solve your whole life right now.\"), go (experiments/t18-answers/apply_t18.py)",
+   "joel": "2026-11-06 19:43 UTC: \"i'd say make the cuts regardless of pangram if it makes the guide read better, that was what we were supposed to do already prior\"",
+   "must_not_contain": [
+    "We can sort out the rest of your life tomorrow."
+   ],
+   "must_contain_exact": [
+    "and its effects will peak and then change.",
+    "This is a wave. We don't have to solve your whole life right now."
+   ]
+  },
+  {
+   "id": "t18-intro-cut",
+   "status": "applied",
+   "what": "Psychological First Aid's intro line (B234) cut: the triage app is the guide's first line and is named again where it's needed, and taking pressure off the person is For the Person Helping (experiments/t18-answers/apply_t18b.py)",
+   "joel": "2026-11-06 19:43 UTC: \"i'd say make the cuts regardless of pangram if it makes the guide read better, that was what we were supposed to do already prior\"",
+   "must_not_contain": [
+    "this section is about doing them in a way that takes pressure off the person"
+   ],
+   "must_contain_exact": [
+    "Quick Triage Web-App Version HERE"
    ]
   }
  ]
