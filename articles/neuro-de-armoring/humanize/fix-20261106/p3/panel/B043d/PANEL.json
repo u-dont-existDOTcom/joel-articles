@@ -1,0 +1,39 @@
+{
+ "readers": [
+  "haiku",
+  "sonnet"
+ ],
+ "sentences": [
+  "The Governor (Agmatine): Is your Glutamate Storm the hot, itchy, reactive, pain-y, rumination-heavy kind?",
+  "Then agmatine is the optional \"voltage governor\" I'd look at.",
+  "That's because it may help when the problem isn't just excess glutamate in the synapse but NMDA/GluN2B over-reactivity, so think of it as a brake for that state, something to use while you're in it rather than a daily foundation nutrient."
+ ],
+ "flagged": {
+  "1": [
+   "haiku",
+   "sonnet"
+  ],
+  "2": [
+   "haiku",
+   "sonnet"
+  ],
+  "3": [
+   "haiku",
+   "sonnet"
+  ]
+ },
+ "agreed": [
+  1,
+  2,
+  3
+ ],
+ "whole": {
+  "haiku": [
+   "The paragraph builds from a hook to a list to a qualification to a summary image, and each stage arrives in the order a template would give it. The rhythm is even and the caveats are evenly weighted, which makes the whole read generated."
+  ],
+  "sonnet": [
+   "The paragraph follows a clear template: a labelled header, a question to the reader, a recommendation, a mechanism, then a usage rule. Every sentence has one neat job, and the rhythm is tidy and instructional, with little that is unexpected or untidy."
+  ]
+ },
+ "human_clean": []
+}

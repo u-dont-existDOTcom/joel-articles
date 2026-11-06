@@ -736,6 +736,41 @@
     }
    ],
    "recorded_utc": "2026-11-06T23:02Z"
+  },
+  {
+   "turn": "2026-11-06T23:50Z",
+   "lines_of_work": [
+    "neuro de-armoring"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "six items, all in the ledger; UDA main b6185f7 unchanged"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "332 and 333 merged by the lane auto-merge; main d64bc438 (bad trips 336) merged here; no open pull requests of this lane"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no edits by others"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "333's merge notices only"
+    }
+   ],
+   "items": [
+    {
+     "item": "Joel's message of 2026-11-06 23:50 UTC: Pangram's colours misled him (Low shown as Medium, Medium as High); not sure all-High is worth it, Low is not OK, a large High section is good; his block 20 all High (payoff order in the first sentence, 4 for four); his block 25 in seven steps (active voice, the addiction part made clear, so for causality, a comma, the first sentence cut); 'learn lessons'",
+     "outcome": "his two versions in; lessons to main; the rest tried his way"
+    }
+   ],
+   "recorded_utc": "2026-11-06T23:51Z"
   }
  ]
 }

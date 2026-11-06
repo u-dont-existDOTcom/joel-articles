@@ -1,0 +1,39 @@
+{
+ "readers": [
+  "haiku",
+  "sonnet"
+ ],
+ "sentences": [
+  "The Signal Dial (GluD Receptors): NMDA isn't the only control, though.",
+  "Johns Hopkins researchers have recently discovered that the brain also uses GluD receptors as a kind of master volume knob, so if NMDA is the spark, GluD sets the baseline \"hum\" of the synapse.",
+  "And in an armored state, that dial often gets jammed, either on \"High\" (Cerebellar Ataxia/Hyper-vigilance) or on \"Low\" (Apathy/Schizotypy)."
+ ],
+ "flagged": {
+  "1": [
+   "haiku",
+   "sonnet"
+  ],
+  "2": [
+   "haiku",
+   "sonnet"
+  ],
+  "3": [
+   "haiku",
+   "sonnet"
+  ]
+ },
+ "agreed": [
+  1,
+  2,
+  3
+ ],
+ "whole": {
+  "haiku": [
+   "The paragraph runs claim, metaphor, then a balanced pair of outcomes, and each step lands neatly on the next. That tidy progression, with no hedge or stray detail, reads as built rather than written from experience."
+  ],
+  "sonnet": [
+   "It is built as a labelled glossary entry: a bold-style header with the term in parentheses, then a metaphor, then a symmetrical high/low failure statement. The rhythm is even and explanatory, with each sentence delivering one neat takeaway and no hesitation, digression or rough edge."
+  ]
+ },
+ "human_clean": []
+}
