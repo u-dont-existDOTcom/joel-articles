@@ -300,31 +300,25 @@
     {
      "place": "uda-lane",
      "status": "read",
-     "found": "no new items for this lane: root AGENTS.md unchanged (3146ac4a)"
+     "found": "root AGENTS.md (sha 3146ac4a), unchanged"
     },
     {
      "place": "repo",
      "status": "read",
-     "found": "since 22:25: 329 and 330 (this lane) merged; no open pull request of this lane's; no new issues or comments"
-    },
-    {
-     "place": "notes",
-     "status": "read",
-     "found": "no edits by others to this lane's handoff note or current state since 330"
-    },
-    {
-     "place": "runtime",
-     "status": "read",
-     "found": "the session's own scheduled resume fired at 23:10 UTC; five notices read at 23:06 (329, 330 merged)"
+     "found": "articles/bad-trips CURRENT-STATE.md next step"
     }
    ],
    "items": [
     {
-     "item": "the session's scheduled resume (23:10 UTC), after turn 18",
-     "outcome": "Stillness or Movement?, one agreed sentence at a time; no round-12 answer yet"
+     "item": "Get One Human Anchor repeats",
+     "outcome": "three cut (t19, t19b, t19c)"
+    },
+    {
+     "item": "anchor narrowing",
+     "outcome": "P1 Human with one sentence; P2 40%; scripts AI in every wording"
     }
    ],
-   "recorded_utc": "2026-11-06T23:10Z"
+   "recorded_utc": "2026-11-06T23:49Z"
   }
  ]
 }

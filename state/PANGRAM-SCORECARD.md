@@ -313,22 +313,22 @@ The boundary mix over all lanes:
 
 | lane | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| bad trips guide | 102 | 91 (89%) | 80% | 20% | 26% | 0.158 (base 0.158, 102) |
-| **all lanes** | 102 | 91 (89%) | 80% | 20% | 26% | 0.158 (base 0.158, 102) |
+| bad trips guide | 134 | 122 (91%) | 84% | 16% | 20% | 0.143 (base 0.132, 134) |
+| **all lanes** | 134 | 122 (91%) | 84% | 16% | 20% | 0.143 (base 0.132, 134) |
 
 The latest 100 calls of each lane:
 
 | lane | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| bad trips guide | 100 | 89 (89%) | 81% | 19% | 26% | 0.160 (base 0.154, 100) |
+| bad trips guide | 100 | 91 (91%) | 90% | 10% | 13% | 0.141 (base 0.090, 100) |
 
 The boundary mix over all lanes:
 
 | scope or kind | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
+| paragraph | 61 | 56 (92%) | 77% | 23% | 25% | 0.132 (base 0.177, 61) |
 | pair | 47 | 43 (91%) | 89% | 11% | 15% | 0.171 (base 0.095, 47) |
-| paragraph | 32 | 28 (88%) | 59% | 41% | 47% | 0.160 (base 0.241, 32) |
-| section | 23 | 20 (87%) | 91% | 9% | 22% | 0.131 (base 0.079, 23) |
+| section | 26 | 23 (88%) | 92% | 8% | 19% | 0.117 (base 0.071, 26) |
 
 ## pangram 4.1, the web app: Joel's account, run by the lane in the desktop app's browser pane (E356)
 
@@ -514,6 +514,7 @@ The boundary mix over all lanes:
 | rewording without a sense fix | 1 | bad trips guide |
 | a quip kept | 1 | bad trips guide |
 | one sentence changed | 1 | bad trips guide |
+| the panel's one unanimous tell was the mirrored pair ('Many bad trips get worse because' / 'Others get worse because'); one sentence said as talk ('Other times it's the opposite:') broke it, and the four -ing list I expected to keep it AI did not | 1 | bad trips guide |
 | summary-voice-around-owner-lines | 1 | healing the gut article |
 | owner-voice-carries-neighbours | 1 | healing the gut article |
 | opener-and-attribution-asides | 1 | healing the gut article |

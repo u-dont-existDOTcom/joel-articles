@@ -8,7 +8,7 @@ Built by `tools/humanization/pangram_ledger.py build` from `articles/bad-trips/h
 |---|---|---|---|---|---|---|
 | Pangram 4.1 extension (free, live post; Joel's check of 2026-10-18, the same text as his 2026-11-03 paste by SHA-256) | 1 | 1 (100%) | 100% | 0% | 0% | 0.000 (base 0.000, 1) |
 | Pangram web app (his account, Pangram Professional) | 3 | 3 (100%) | 100% | 0% | 0% | 0.092 (base 0.000, 3) |
-| Pangram web app (his account, Pangram Professional), through the Claude desktop app's browser pane | 102 | 91 (89%) | 80% | 20% | 26% | 0.158 (base 0.158, 102) |
+| Pangram web app (his account, Pangram Professional), through the Claude desktop app's browser pane | 134 | 122 (91%) | 84% | 16% | 20% | 0.143 (base 0.132, 134) |
 | pangram 4.1, the web app: Joel's account, run by the lane in the desktop app's browser pane (E356) | 8 | 6 (75%) | 50% | 50% | 75% | 0.170 (base 0.250, 8) |
 
 ## Pangram 4.1 extension (free, live post; Joel's check of 2026-10-18, the same text as his 2026-11-03 paste by SHA-256)
@@ -56,25 +56,25 @@ Calibration:
 
 | window | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| the latest 50 | 50 | 47 (94%) | 84% | 16% | 14% | 0.153 (base 0.134, 50) |
-| the latest 100 | 100 | 89 (89%) | 81% | 19% | 26% | 0.160 (base 0.154, 100) |
-| all | 102 | 91 (89%) | 80% | 20% | 26% | 0.158 (base 0.158, 102) |
+| the latest 50 | 50 | 49 (98%) | 96% | 4% | 2% | 0.119 (base 0.038, 50) |
+| the latest 100 | 100 | 91 (91%) | 90% | 10% | 13% | 0.141 (base 0.090, 100) |
+| all | 134 | 122 (91%) | 84% | 16% | 20% | 0.143 (base 0.132, 134) |
 
 The boundary mix (what was checked; accuracy differs a lot between a paragraph and a section):
 
 | scope or kind | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| section | 23 | 20 (87%) | 91% | 9% | 22% | 0.131 (base 0.079, 23) |
-| paragraph | 32 | 28 (88%) | 59% | 41% | 47% | 0.160 (base 0.241, 32) |
+| section | 26 | 23 (88%) | 92% | 8% | 19% | 0.117 (base 0.071, 26) |
+| paragraph | 61 | 56 (92%) | 77% | 23% | 25% | 0.132 (base 0.177, 61) |
 | pair | 47 | 43 (91%) | 89% | 11% | 15% | 0.171 (base 0.095, 47) |
 
 Calibration:
 
 | my chance of a 100% Human result | calls | mean chance | read Human |
 |---|---|---|---|
-| 0.0 to 0.2 | 3 | 0.15 | 0% |
-| 0.2 to 0.4 | 26 | 0.31 | 0% |
-| 0.4 to 0.6 | 63 | 0.45 | 17% |
+| 0.0 to 0.2 | 6 | 0.12 | 0% |
+| 0.2 to 0.4 | 54 | 0.29 | 2% |
+| 0.4 to 0.6 | 64 | 0.45 | 17% |
 | 0.6 to 0.8 | 11 | 0.68 | 82% |
 | 0.8 to 1.0 | 1 | 0.80 | 100% |
 
@@ -99,7 +99,7 @@ Calibration:
 | 0.4 to 0.6 | 6 | 0.49 | 33% |
 | 0.6 to 0.8 | 3 | 0.67 | 100% |
 
-## Misses since the ledger (13)
+## Misses since the ledger (14)
 
 | cause | misses |
 |---|---|
@@ -112,6 +112,7 @@ Calibration:
 | not explained yet | 1 |
 | a quip kept | 1 |
 | one sentence changed | 1 |
+| the panel's one unanimous tell was the mirrored pair ('Many bad trips get worse because' / 'Others get worse because'); one sentence said as talk ('Other times it's the opposite:') broke it, and the four -ing list I expected to keep it AI did not | 1 |
 
 The latest:
 
@@ -130,6 +131,7 @@ The latest:
 | [bt-dangers-heading](https://www.pangram.com/history/2745e050-1573-4da8-9c6a-ba510f0a80e6) | bad-trips PFA dangers paragraph with the section heading, 1 | AI | Human | context |
 | [bt-test-acts](https://www.pangram.com/history/5a123a1a-623a-40ad-85ba-d4c6c869fe68) | bad-trips PFA dangers with the room's acts only, 1 | Human | AI or mixed | context |
 | [bt-test-fixes](https://www.pangram.com/history/904c30a7-fe86-4630-8209-e1c049471074) | bad-trips PFA dangers with the fixes line only, 1 | AI | Human | context |
+| [bt-anchor-v1](https://www.pangram.com/history/88fa84a3-9569-4e9b-84af-51c80a0efdd7) | bad-trips Get One Human Anchor P1 after the Human section, 2 | AI | Human | the panel's one unanimous tell was the mirrored pair ('Many bad trips get worse because' / 'Others get worse because'); one sentence said as talk ('Other times it's the opposite:') broke it, and the four -ing list I expected to keep it AI did not |
 
 ## Lineages still open (tries used of the cap)
 
@@ -169,4 +171,25 @@ The latest:
 | bad-trips Stillness or Movement paragraph 3 after the Human section | pair | 6 of 6 | Mixed |
 | bad-trips Stillness or Movement paragraph 4 after the Human section | pair | 6 of 6 | Mixed |
 | bad-trips Get One Human Anchor, the section as the guide has it | section | 1 of 2 | AI |
+| bad-trips Get One Human Anchor after the committee cut | section | 2 of 2 | AI |
+| bad-trips Get One Human Anchor P2 after the Human section | paragraph | 2 of 6 | AI |
+| bad-trips Get One Human Anchor script 1 after the Human section | paragraph | 1 of 6 | AI |
+| bad-trips Get One Human Anchor script 2 after the Human section | paragraph | 2 of 6 | Mixed |
+| bad-trips Get One Human Anchor P1 after the Human section, first sentence changed | paragraph | 1 of 6 | Mixed |
+| bad-trips Get One Human Anchor P2 after the Human section and P1, first sentence changed | paragraph | 1 of 6 | AI |
+| bad-trips Get One Human Anchor P2 after the Human section and P1, second sentence changed | paragraph | 1 of 6 | AI |
+| bad-trips Get One Human Anchor P2 after the Human section and P1, third sentence changed | paragraph | 1 of 6 | AI |
+| bad-trips Get One Human Anchor script 2 after the Human section and P1, last sentence changed | paragraph | 1 of 6 | AI |
+| bad-trips Get One Human Anchor script 1 after the Human section and P1, last sentence split | paragraph | 1 of 6 | AI |
+| bad-trips Get One Human Anchor P2 after the Human section and P1, said again whole | paragraph | 2 of 6 | Mixed |
+| bad-trips Get One Human Anchor P2 after the Human section and P1, backup first | paragraph | 1 of 6 | AI |
+| bad-trips Get One Human Anchor script 1 after the Human section and P1, said again whole | paragraph | 3 of 6 | Mixed |
+| bad-trips Get One Human Anchor script 2 after the Human section and P1, said again whole | paragraph | 3 of 6 | AI |
+| bad-trips Get One Human Anchor P2 after the Human section and P1, W1 with its reasons chained | paragraph | 1 of 6 | Mixed |
+| bad-trips Get One Human Anchor P2 after the Human section and P1, W1 with an aside | paragraph | 2 of 6 | Mixed |
+| bad-trips Get One Human Anchor P2 after the Human section and P1, X3 with the reasons as events | paragraph | 1 of 6 | Mixed |
+| bad-trips Get One Human Anchor P2 after the Human section and P1, X3 with its first sentence as a pick | paragraph | 1 of 6 | Mixed |
+| bad-trips Get One Human Anchor P2 after the Human section and P1, X3 with what works better | paragraph | 1 of 6 | Mixed |
+| bad-trips Get One Human Anchor P2 after the Human section and P1, X3's first two sentences joined | paragraph | 1 of 6 | Mixed |
+| bad-trips Get One Human Anchor after the Human section, the card's section | section | 1 of 2 | AI |
 
