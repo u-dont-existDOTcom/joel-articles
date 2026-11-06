@@ -8,7 +8,7 @@ Built by `tools/humanization/pangram_ledger.py build` from `articles/bad-trips/h
 |---|---|---|---|---|---|---|
 | Pangram 4.1 extension (free, live post; Joel's check of 2026-10-18, the same text as his 2026-11-03 paste by SHA-256) | 1 | 1 (100%) | 100% | 0% | 0% | 0.000 (base 0.000, 1) |
 | Pangram web app (his account, Pangram Professional) | 3 | 3 (100%) | 100% | 0% | 0% | 0.092 (base 0.000, 3) |
-| Pangram web app (his account, Pangram Professional), through the Claude desktop app's browser pane | 101 | 90 (89%) | 80% | 20% | 27% | 0.160 (base 0.159, 101) |
+| Pangram web app (his account, Pangram Professional), through the Claude desktop app's browser pane | 102 | 91 (89%) | 80% | 20% | 26% | 0.158 (base 0.158, 102) |
 | pangram 4.1, the web app: Joel's account, run by the lane in the desktop app's browser pane (E356) | 8 | 6 (75%) | 50% | 50% | 75% | 0.170 (base 0.250, 8) |
 
 ## Pangram 4.1 extension (free, live post; Joel's check of 2026-10-18, the same text as his 2026-11-03 paste by SHA-256)
@@ -56,15 +56,15 @@ Calibration:
 
 | window | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| the latest 50 | 50 | 47 (94%) | 84% | 16% | 14% | 0.156 (base 0.134, 50) |
-| the latest 100 | 100 | 89 (89%) | 81% | 19% | 26% | 0.161 (base 0.154, 100) |
-| all | 101 | 90 (89%) | 80% | 20% | 27% | 0.160 (base 0.159, 101) |
+| the latest 50 | 50 | 47 (94%) | 84% | 16% | 14% | 0.153 (base 0.134, 50) |
+| the latest 100 | 100 | 89 (89%) | 81% | 19% | 26% | 0.160 (base 0.154, 100) |
+| all | 102 | 91 (89%) | 80% | 20% | 26% | 0.158 (base 0.158, 102) |
 
 The boundary mix (what was checked; accuracy differs a lot between a paragraph and a section):
 
 | scope or kind | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| section | 22 | 19 (86%) | 91% | 9% | 23% | 0.136 (base 0.083, 22) |
+| section | 23 | 20 (87%) | 91% | 9% | 22% | 0.131 (base 0.079, 23) |
 | paragraph | 32 | 28 (88%) | 59% | 41% | 47% | 0.160 (base 0.241, 32) |
 | pair | 47 | 43 (91%) | 89% | 11% | 15% | 0.171 (base 0.095, 47) |
 
@@ -72,7 +72,7 @@ Calibration:
 
 | my chance of a 100% Human result | calls | mean chance | read Human |
 |---|---|---|---|
-| 0.0 to 0.2 | 2 | 0.15 | 0% |
+| 0.0 to 0.2 | 3 | 0.15 | 0% |
 | 0.2 to 0.4 | 26 | 0.31 | 0% |
 | 0.4 to 0.6 | 63 | 0.45 | 17% |
 | 0.6 to 0.8 | 11 | 0.68 | 82% |
@@ -168,4 +168,5 @@ The latest:
 | bad-trips Stillness or Movement paragraph 2 after the Human section | pair | 5 of 6 | AI |
 | bad-trips Stillness or Movement paragraph 3 after the Human section | pair | 6 of 6 | Mixed |
 | bad-trips Stillness or Movement paragraph 4 after the Human section | pair | 6 of 6 | Mixed |
+| bad-trips Get One Human Anchor, the section as the guide has it | section | 1 of 2 | AI |
 
