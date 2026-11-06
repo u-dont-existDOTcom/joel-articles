@@ -414,7 +414,7 @@ The boundary mix over all lanes:
 
 | cause | misses | lanes |
 |---|---|---|
-| not explained yet | 50 | bad trips guide, community article, healing the gut article, hypnosis guide, inner child guide |
+| not explained yet | 46 | bad trips guide, community article, healing the gut article, hypnosis guide, inner child guide |
 | too pessimistic about a cut | 12 | inner child guide |
 | a tell I did not name | 11 | inner child guide |
 | a Low window came back | 8 | inner child guide |
@@ -436,6 +436,7 @@ The boundary mix over all lanes:
 | a second cut of the same kind | 2 | inner child guide |
 | a repeat made adjacent by a move | 2 | inner child guide |
 | his paragraph reads AI alone under 4.1 | 2 | inner child guide |
+| in place | 2 | bad trips guide |
 | one-sentence-stuck | 2 | healing the gut article |
 | one step a sentence not applied | 2 | healing the gut article |
 | tells | 2 | healing the gut article |
@@ -491,6 +492,8 @@ The boundary mix over all lanes:
 | parallel frames kept | 1 | bad trips guide |
 | a flaw of sense left in the ending | 1 | bad trips guide |
 | rewording without a sense fix | 1 | bad trips guide |
+| a quip kept | 1 | bad trips guide |
+| one sentence changed | 1 | bad trips guide |
 | summary-voice-around-owner-lines | 1 | healing the gut article |
 | owner-voice-carries-neighbours | 1 | healing the gut article |
 | opener-and-attribution-asides | 1 | healing the gut article |

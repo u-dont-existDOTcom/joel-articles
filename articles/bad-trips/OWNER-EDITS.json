@@ -320,6 +320,20 @@
     "Please don't explain the universe at somebody who is already frightened by it.",
     "Ask before touching."
    ]
+  },
+  {
+   "id": "r09-room-first",
+   "status": "applied",
+   "what": "round 9, ROOM-FIRST approved: the room's first part as one paragraph, his annoying-room line said plainly first (B238), his annoying-room paragraph (B239) out",
+   "joel": "2026-11-06 16:38 export: approved, no comment (his round-8 \"an exercise for you to fix now\")",
+   "must_contain_exact": [
+    "A lot of what looks like a deep psychedelic crisis is a scared person in a room that's getting on their nerves, so look around the room next.",
+    "And check whether they're too hot or too cold, or desperate for the bathroom."
+   ],
+   "must_not_contain": [
+    "A huge amount of what gets called profound psychedelic crisis is a frightened nervous system stuck in an annoying room.",
+    "Then look at the room. Is the light too bright?"
+   ]
   }
  ]
 }

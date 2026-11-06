@@ -102,11 +102,14 @@ Calibration:
 
 | cause | misses |
 |---|---|
-| not explained yet | 5 |
+| in place | 2 |
 | shape echo | 1 |
 | parallel frames kept | 1 |
 | a flaw of sense left in the ending | 1 |
 | rewording without a sense fix | 1 |
+| not explained yet | 1 |
+| a quip kept | 1 |
+| one sentence changed | 1 |
 
 The latest:
 
@@ -117,10 +120,10 @@ The latest:
 | [bt-r06-forums-2](https://www.pangram.com/history/fd1df50a-5f61-44ee-ad14-ab61bda0542c) | bad-trips Active Seizure N-FORUMS (what forums and the rat study say), 2 | Human | AI or mixed | a flaw of sense left in the ending |
 | [bt-r06-forums-3](https://www.pangram.com/history/d3ff8463-b3c1-40f3-8852-d81cedc403ed) | bad-trips Active Seizure N-FORUMS (what forums and the rat study say), 3 | Human | AI or mixed | rewording without a sense fix |
 | [bt-r07-4](https://www.pangram.com/history/b8fbfcbc-c2d9-48b7-a1f8-0510320bb0a1) | bad-trips round 7 N-CANNA-2 (his forums and studies paragraph), 2 | Human | AI or mixed | **not explained yet** |
-| [bt-room1-fix-1](https://www.pangram.com/history/8e79642a-8589-4524-a59d-e8b88cf6ff1b) | bad-trips PFA room, first part: the room's questions and the annoying room (B238, B239), 1 | Human | AI or mixed | **not explained yet** |
-| [bt-room1-fix-3](https://www.pangram.com/history/b2a7067f-443e-4caa-91c2-34a748bb9cc6) | bad-trips PFA room, first part: the room's questions and the annoying room (B238, B239), 3 | Human | AI or mixed | **not explained yet** |
-| [bt-room-stretch-1](https://www.pangram.com/history/34d92f15-18c7-4849-9972-983239961bf9) | bad-trips PFA room stretch in place: my first part with his second (B238 to B241), 1 | Human | AI or mixed | **not explained yet** |
-| [bt-room-stretch-2](https://www.pangram.com/history/3d9ca55e-df3a-4ea4-8866-2d6071ba1b10) | bad-trips PFA room stretch in place: my first part with his second (B238 to B241), 2 | Human | AI or mixed | **not explained yet** |
+| [bt-room1-fix-1](https://www.pangram.com/history/8e79642a-8589-4524-a59d-e8b88cf6ff1b) | bad-trips PFA room, first part: the room's questions and the annoying room (B238, B239), 1 | Human | AI or mixed | a quip kept |
+| [bt-room1-fix-3](https://www.pangram.com/history/b2a7067f-443e-4caa-91c2-34a748bb9cc6) | bad-trips PFA room, first part: the room's questions and the annoying room (B238, B239), 3 | Human | AI or mixed | one sentence changed |
+| [bt-room-stretch-1](https://www.pangram.com/history/34d92f15-18c7-4849-9972-983239961bf9) | bad-trips PFA room stretch in place: my first part with his second (B238 to B241), 1 | Human | AI or mixed | in place |
+| [bt-room-stretch-2](https://www.pangram.com/history/3d9ca55e-df3a-4ea4-8866-2d6071ba1b10) | bad-trips PFA room stretch in place: my first part with his second (B238 to B241), 2 | Human | AI or mixed | in place |
 
 ## Lineages still open (tries used of the cap)
 
