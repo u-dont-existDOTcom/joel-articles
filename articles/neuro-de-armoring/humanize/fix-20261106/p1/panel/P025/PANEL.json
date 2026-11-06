@@ -1,0 +1,41 @@
+{
+ "readers": [
+  "haiku",
+  "sonnet"
+ ],
+ "sentences": [
+  "If you feel stuck playing a part that isn't really you, that's probably your \"Role-Self,\" and as we grow up it gets hardened by Dopamine and DeltaFosB until it's like a prison.",
+  "Your addiction is often just the fuel it takes to keep that Role-Self running.",
+  "So this protocol is about dissolving the chemical glue that holds the false persona together, so your \"True-Self\" (the person you were before the trauma) can finally come back out."
+ ],
+ "flagged": {
+  "1": [
+   "haiku",
+   "sonnet"
+  ],
+  "2": [
+   "haiku",
+   "sonnet"
+  ],
+  "3": [
+   "haiku",
+   "sonnet"
+  ]
+ },
+ "agreed": [
+  1,
+  2,
+  3
+ ],
+ "whole": {
+  "haiku": [
+   "The paragraph follows a clean diagnosis, mechanism, promise arc, with each sentence setting up the next and every term defined as it appears. The rhythm is even and the voice is that of an explainer summarizing a model, not a writer working through a specific case."
+  ],
+  "sonnet": [
+   "Three sentences that each follow a clean beat: diagnosis, reframe, promise. The rhythm is even, the metaphors (prison, fuel, glue) are layered one after another, and the tone stays uniformly comforting and confident."
+  ]
+ },
+ "human_clean": [
+  "isn't really you"
+ ]
+}

@@ -666,6 +666,41 @@
     }
    ],
    "recorded_utc": "2026-11-06T21:37Z"
+  },
+  {
+   "turn": "2026-11-06T22:23Z",
+   "lines_of_work": [
+    "neuro de-armoring"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "six items, all in the ledger; UDA main unchanged since 21:36"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "324, 325, 326 merged by the lane auto-merge; no open pull requests of this lane; 309 open (the separate DeltaFosB lane's)"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no edits by others"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "326's merge notice only"
+    }
+   ],
+   "items": [
+    {
+     "item": "Joel's message of 2026-11-06 22:23 UTC: 'ok do you need me to do anything?'",
+     "outcome": "no; the work goes on: the tell panel on the four paragraphs that read AI twice, third tries, then section B"
+    }
+   ],
+   "recorded_utc": "2026-11-06T22:23Z"
   }
  ]
 }
