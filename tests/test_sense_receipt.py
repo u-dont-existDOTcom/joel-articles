@@ -199,4 +199,3 @@ class Link(unittest.TestCase):
         r = filled(text)
         r['sentences'][1]['link'] = 'One reason to think about, is that'
         self.assertEqual(R.check(text, r), [])
-
