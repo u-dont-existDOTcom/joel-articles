@@ -1,5 +1,19 @@
 # Status: neuro de-armoring humanization (newest on top)
 
+## 2026-11-06, his message of 20:17 UTC: the AskRigor report sent; Nestler 2008 back with Zhong 2023; lesson E380
+
+His message, word for word: `fix-20261106/joel-20261106-2017-message.txt`. Mailbox "2026-11-06T20:17Z": 314 and 315
+merged by him; main 2e757fa3 merged; 316 (bad trips) new, and it and 308 both claim E378.
+- **AskRigor**: the report sent exactly as `fix-20261106/ASKRIGOR-BUG-REPORT.md` showed it; saved for review as ARL-0057.
+- **Nestler 2008 back** ("i didn't even see Nestler ... if it is put it back"): needed, as the paragraph's only source
+  for DeltaFosB lasting (its abstract: a highly stable protein, gene expression changed long after use stops). With his
+  11a, the citation reads "(Nestler, 2008; Vialou, et al, 2010; Zhong, et al, 2023)" (`fix-20261106/checks-2017/`).
+  Predicted Human at 0.80 with a receipt; read [Human Written, one window High, 131 words](https://www.pangram.com/history/e5934635-2d01-47cc-8f90-68e4b32c15e8).
+  Fidelity PASS; owner_changes: 2008 no longer lost, 2023 new.
+- **E380** (numbered past 308's and 316's E378 and E379): a citation missing from his version is not assumed cut on
+  purpose. `fidelity_keys.py` fails an owner_changes entry losing a year without `citations_lost` reasons ("he said:",
+  "on his card:", "the claim is gone:"); it caught DFB-1's Vialou 2010, now explained. Tests added.
+
 ## 2026-11-06, his message of 19:40 UTC: his dynorphin paragraph in, "The Hardening" deleted, AskRigor accepted, lessons E374 to E377 to main
 
 His message, word for word: `fix-20261106/joel-20261106-1940-message.txt`. **The mailbox first** ("2026-11-06T19:40Z"):

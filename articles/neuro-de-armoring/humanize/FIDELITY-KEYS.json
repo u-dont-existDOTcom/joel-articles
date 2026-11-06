@@ -2376,16 +2376,28 @@
    ],
    "numbers_new": [
     "2008"
+   ],
+   "citations_lost": [
+    {
+     "cite": "Vialou, et al, 2010, on the Hardening sentence",
+     "why": "on his card: DFB-1 proposed Nestler 2008 in place of Vialou 2010 for this sentence and his version kept Nestler; his comment disagreed with the card's reading of Vialou, and Vialou 2010 is back in his paragraph of 2026-11-06 19:40 UTC, so nothing is lost now"
+    }
    ]
   },
   {
    "by": "fix-20261106/APPLIED-1940.json (his own paragraph and his deletion, message of 2026-11-06 19:40 UTC)",
-   "why": "his 'The Problem' paragraph now carries the DeltaFosB point with Vialou et al. 2010 as its source, and he deleted 'The Hardening' paragraph, which held the Nestler 2008 citation, because his paragraph covers it",
-   "numbers_lost": [
-    "2008"
-   ],
+   "why": "his 'The Problem' paragraph carries the DeltaFosB point with Vialou et al. 2010, and he deleted 'The Hardening' paragraph, which held the Nestler 2008 citation; Nestler 2008 came back the next turn (fix-20261106/checks-2017/APPLIED-2017.json), because he hadn't seen it and it is needed",
+   "numbers_lost": [],
    "numbers_new": [
     "2010"
+   ]
+  },
+  {
+   "by": "fix-20261106/checks-2017/APPLIED-2017.json (his message of 2026-11-06 20:17 UTC: '11yes add that', and Nestler back)",
+   "why": "Zhong et al. 2023 added after Vialou at his answer to question 11; Nestler 2008 back in the same citation, since he hadn't removed it on purpose and it is the paragraph's source for 'cementing'",
+   "numbers_lost": [],
+   "numbers_new": [
+    "2023"
    ]
   }
  ],

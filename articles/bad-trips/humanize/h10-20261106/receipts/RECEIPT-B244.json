@@ -1,0 +1,39 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-06",
+ "text_sha256": "9c7a403a994b58bf69cbe3cb5d90a78914ed564c433e366b4dec919a8910b140",
+ "text": "If the state came from a practice, like meditation or fasting, the person can say:",
+ "section": "Psychological First Aid: The First Five Minutes",
+ "reader": "someone sitting with a person on a bad psychedelic trip, or tripping themselves, who needs to know what to do in the first five minutes: dangers first, then the room, then what to say",
+ "sentences": [
+  {
+   "s": "If the state came from a practice, like meditation or fasting, the person can say:",
+   "payoff": "they know the next script is for a state that came from a practice, and that the person says it",
+   "follows": "after the script for a substance, the one for a practice"
+  }
+ ],
+ "checked": [],
+ "placement": "the Psychological First Aid section of the Shadow Work part, before Stillness or Movement? and Get One Human Anchor, which its last paragraph points to",
+ "questions": {
+  "Q1": "PASS: each paragraph opens on its point: the section's job, the first priority, the room's role, the reason for the fixes, what the script is for, what a practice state does, what comes next",
+  "Q2": "PASS: every act is the helper's or the person's own, with its purpose",
+  "Q3": "PASS: which things exactly: keys, stove, roads, balconies, pools; the light and the crowd; a practice like meditation or fasting",
+  "Q4": "PASS: no terms a reader wouldn't know; the triage app is linked where it is named",
+  "Q5": "PASS: each so turns on what's said before it",
+  "Q6": "PASS: dangers, room, what to say, the practice case with its own care, then what comes next",
+  "Q7": "PASS: every fact is about the person in front of them now",
+  "Q8": "PASS: the practice case's script and care sit together; the pointer to the next sections closes the section",
+  "Q9": "PASS: nothing compressed: the scripts are short lines meant to be said, the rest one step a sentence"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone?",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

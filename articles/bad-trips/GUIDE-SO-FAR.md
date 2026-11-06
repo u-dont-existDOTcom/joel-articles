@@ -355,9 +355,7 @@ Anything that could let someone hurt themselves in the next five minutes takes p
 
 A lot of what looks like a deep psychedelic crisis is a scared person in a room that's getting on their nerves, so look around the room next. Maybe the light's too bright or the music's horrible. Are five concerned people talking at once? Somebody might be touching them when they don't want it, or they're stuck beside someone they don't trust. And check whether they're too hot or too cold, or desperate for the bathroom.
 
-They're feeling overwhelmed, so dim the lights, and clear out the extra people around them. If they're thirsty, offer water, and suggest they sip it rather than chug. Ask if they'd like a hand on the shoulder. Speak slowly and use fewer words.
-
-Ask "Would you like music or is quiet best?" If a track starts pulling the experience somewhere unwanted, go ahead and change it.
+They're feeling overwhelmed, so dim the lights, and clear out the extra people around them.
 
 Give them ordinary reality:
 
@@ -441,7 +439,7 @@ Don't drag somebody out of real grief. Don't trap them inside a loop that is gri
 
 ### Do
 
-- Ask simple questions: "Would less light help?" "Music or quiet?" "Closer or farther away?" "Water?"
+- Ask simple questions: "Would less light help?" "Music or quiet?" "Closer or farther away?" "Water?" (in small sips)
 - Reflect without arguing: "That sounds terrifying." "I'm with you." "Let's breathe together."
 - Offer choices instead of commands.
 - Keep the room quiet, private, warm, and physically safe.
