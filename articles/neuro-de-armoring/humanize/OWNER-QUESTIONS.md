@@ -1,8 +1,8 @@
 # Neuro de-armoring: what I need from Joel
 
-Last updated 2026-11-06, after your message of 20:17 UTC (the bug report, Nestler, 11).
-**Open questions: none.** **For you to do**: switch your Pangram extension to your other account (below). Nothing to merge:
-this turn's pull request goes into main with its lesson.
+Last updated 2026-11-06, after your message of 21:22 UTC (the whole article's result).
+**Open questions: none.** **For you to do**: nothing now. Pull request 318 (the whole check and its lesson) goes into
+main by itself, since it changes the shared rules.
 Colours: 🟣 a question for you; 🟠 something for you to do; 🔵 next or in progress; 🟢 done or decided.
 
 The master copy of this page is [this file in Git](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/OWNER-QUESTIONS.md), so a session in either of your accounts
@@ -17,9 +17,31 @@ can read and update it. Every file it points to is a link.
 
 ## For you to do
 
-- 🟠 Switch the Pangram extension in Brave to your other account, and tell me. Its badge read "Daily limit reached" on
-  the whole article's temporary draft ("Neuro de-armoring, draft A (temp, delete after)"). I'll open the preview again and
-  read the result myself.
+- Nothing now. The temporary draft "Neuro de-armoring, draft A (temp, delete after)" stays for the next whole-article
+  check, which reuses it; I'll name it for deleting after the last one.
+
+## Your message of 2026-11-06 21:22 UTC (the whole article's result), and what I did
+
+Word for word: [your message](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261106/joel-20261106-2122-message.txt).
+
+- 🟢 **The result, paragraph by paragraph**: [every paragraph's reading](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261106/whole/RESULT.md).
+  [AI Detected, 56% AI](https://www.pangram.com/feed/f481f824-5b0b-462f-96e4-237f0b2c057d) (the baseline of 2 November
+  was 83.3% AI). Of 156 paragraphs, 24 read Human, High throughout, 14 Human with a Medium window, 8 Human with a Low
+  window, and 110 have an AI window. Your introduction, your dynorphin paragraph and most of the 5-HTP and uridine
+  stretches read Human, High in context.
+- 🟢 **You were right on both counts** (lesson neuro-2026-11-06a, [here](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/docs/lessons/2026-11-06-2122-neuro.md)): my 4 November ask didn't say what the check was for, and the shared
+  rules already said the result opens in a pane I can't read, so the link goes to you. My own handoff had planned
+  otherwise. From now on every ask says what it's for and what I'll do with what you send.
+- 🔵 **Next**: the paragraphs that read AI or Low in context, Low windows first, a section at a time from Part 1, each
+  checked by itself with its prediction first, and the Human ones left alone.
+
+## Your message of 2026-11-06 20:49 UTC (the other Pangram account), and what I did
+
+- 🟢 **Why the other account**: the free extension check of the whole article hit "Daily limit reached" on your first
+  account on 4 November; the web app would charge credits by the word for its 6,249 words.
+- 🟢 **The temporary draft now holds the article as it stands** (your dynorphin paragraph, the cards since 4 November):
+  pasted, saved, every word matched, and the preview's text checked.
+- 🟠 **The check itself** waits on your Brave (above).
 
 ## Your message of 2026-11-06 20:17 UTC (the bug report, Nestler, 11), and what I did
 

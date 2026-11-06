@@ -1,0 +1,18 @@
+{
+ "at": "2026-11-06T20:53:28Z",
+ "commit": "177b469ed86e70a8784372e266ee847c508b7cbf",
+ "why": "Joel, 2026-11-06 20:49 UTC: \"ok i logged into the other pangram\". The whole article as it stands (HUMANIZED-SO-FAR.md d18316ea), checked free by his extension; prediction ND1106-whole#122.",
+ "how": "the same draft as 4 November (223532178), in the desktop app's built-in browser where his Substack is signed in: title checked, body cleared with real keystrokes (ctrl+a, Delete) and checked empty, the payload fetched from raw.githubusercontent.com at the commit and its SHA-256 checked, pasted by this folder's paste_payload_lane.js; saved, unpublished, read back through the drafts API (6,249 words); the secret link made (tools/humanization/substack_secret_link.js, cache key nd-whole-20261106-2053) and its rendered text checked (tools/humanization/substack_rendered_check.js).",
+ "A": {
+  "title": "Neuro de-armoring, draft A (temp, delete after)",
+  "editor": "https://ibogaqueen.substack.com/publish/post/223532178",
+  "payload_sha256": "9b15fbb4df8fc63aafb5a451777a00ff44774aa5bf4cf7265ade9f15bcd647b6",
+  "editor_words": 6249,
+  "words_match": true,
+  "api_words": 6249,
+  "rendered_check": "156 lines, 39,309 characters, SHA-256 51a3f492...; the rebuild (substack_check_text.py, 9e11961f...) has 157 lines: the one difference is his line break in the dynorphin paragraph, which Substack renders as a space. With that line joined the two are the same text."
+ },
+ "pangram": "not run yet: Claude in Chrome was not connected at 20:55 UTC (twice: 'Browser extension is not connected'), and the built-in browser has no Pangram extension. The secret link went to him in chat to open in his Brave, as AGENTS.md's temporary-draft rule describes (E277).",
+ "secret_links": "not recorded: anyone with one can read the draft",
+ "delete": "named for deletion on the questions page once the result is recorded (E204)"
+}

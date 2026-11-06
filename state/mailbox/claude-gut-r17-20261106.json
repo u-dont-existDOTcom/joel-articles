@@ -1,0 +1,46 @@
+{
+ "about": "Each turn's mailbox check (tools/humanization/lane_mailbox.py; AGENTS.md, \"Suggested fixes from other projects\"). Newest last.",
+ "places": {
+  "uda-lane": "this repository's lane in universal-dev-architecture (suggested-fixes/joel-articles/), against docs/suggested-fixes-ledger.md",
+  "repo": "new issues and pull requests here, and new comments and reviews on any of them, replies on our own included",
+  "notes": "edits others made to the lane's handoff notes and owner questions pages since its last turn",
+  "runtime": "the messages the session's runtime queued for it"
+ },
+ "checks": [
+  {
+   "turn": "2026-11-06T21:23Z",
+   "lines_of_work": [
+    "gut article"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "no new items since 21:06 (UDA main c25062c)"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "308 merged by him at 21:23 UTC (2164bf6a): the lane auto-merge workflow and docs/lessons/ are on main; the lane's open pull requests: none until this checkpoint's, which the workflow should merge once Content integrity passes"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no edits by anyone else to articles/healing-the-gut"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "the merge notification for 308; the CI-completed event for a5736ebc (success)"
+    }
+   ],
+   "items": [
+    {
+     "item": "308 merged",
+     "outcome": "the checkpoint updated on a new branch from main (claude/gut-r17-20261106); its pull request is the auto-merge workflow's first run for this lane"
+    }
+   ],
+   "recorded_utc": "2026-11-06T21:24Z"
+  }
+ ]
+}
