@@ -1,0 +1,63 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-06",
+ "text_sha256": "9b6001bb0a982660fafa49d13bb47119b40e429e495340104560c142bfe85537",
+ "text": "Resistant starch to feed the good bacteria in your gut: your body can't digest it, so it all goes to them.",
+ "section": "the causes",
+ "reader": "Someone with poor gut health whose plants bother them or who suspects leaky gut, choosing which treatments to try and wanting to know what each one is.",
+ "sentences": [
+  {
+   "s": "Resistant starch to feed the good bacteria in your gut: your body can't digest it, so it all goes to them.",
+   "payoff": "the reader knows what resistant starch is for, and why it reaches the bacteria",
+   "follows": "next treatment"
+  }
+ ],
+ "checked": [
+  {
+   "point": "berberine is not for pregnancy or breastfeeding: it can cause or worsen jaundice in newborns",
+   "found": "NCCIH, In the News: Berberine: people who are pregnant or breastfeeding should not use berberine; it can cause or worsen jaundice in newborn infants (https://www.nccih.nih.gov/health/in-the-news-berberine)",
+   "still_needed": "yes: \"some herbs and supplements, like berberine\" didn't say what to do",
+   "fate": "kept"
+  },
+  {
+   "point": "resistant starch escapes digestion and is fermented by the gut's bacteria",
+   "found": "https://www.frontiersin.org/articles/10.3389/fnut.2024.1369950/full",
+   "still_needed": "yes",
+   "fate": "kept"
+  },
+  {
+   "point": "a yeast beta-glucan helps the gut lining hold together under stress",
+   "found": "Ganda Mall et al. 2018: yeast-derived beta-1,3/1,6-glucan reduced mast-cell-induced hyperpermeability in ileal tissue from people with Crohn's and controls (https://pmc.ncbi.nlm.nih.gov/articles/PMC6166688)",
+   "still_needed": "yes: the item had no reason to take it",
+   "fate": "kept"
+  }
+ ],
+ "placement": "The leaky gut list in its order; only the resistant starch item's why changed, after its point.",
+ "opens": {
+  "first_sentence": "Resistant starch to feed the good bacteria in your gut: your body can't digest it, so it all goes to them.",
+  "why_reading": "The reader learns what resistant starch does for them before anything else."
+ },
+ "same_point": "none: read the causes from \"Plant foods\" to \"Severe stress\": glutamine is pointed to here and explained once under the fuels; zeolite and BPC-157 come back only as Phase 5 pointers",
+ "questions": {
+  "Q1": "PASS: the fixed sentences give their point first: resistant starch's job, then why; each organ case opens on what the reader would have; the pregnancy line names what to do, then why",
+  "Q2": "PASS: the instructions name the act (test for that with Stool Elastase; skip berberine; ask your doctor)",
+  "Q3": "PASS: each test, treatment and supplement is named exactly",
+  "Q4": "PASS: Exocrine Pancreatic Insufficiency is explained where it is named; SeHCAT and stool elastase are named as the tests; jaundice is a word a high-school graduate knows",
+  "Q5": "PASS: \"so it all goes to them\" turns on \"can't digest it\"; \"If\" opens each organ case",
+  "Q6": "PASS: nothing moved between paragraphs",
+  "Q7": "PASS: each change is what the reader needs to act",
+  "Q8": "PASS: no item moved between groups",
+  "Q9": "PASS: each question-and-answer pair is one sentence now, one step each; nothing compressed"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

@@ -1,0 +1,45 @@
+{
+ "review_id": "healing-the-gut-b12-r17-20261106",
+ "counts": {
+  "approved": 3,
+  "rejected": 0,
+  "revise": 0,
+  "pending": 0
+ },
+ "fates": [
+  {
+   "id": "F12-1",
+   "title": "Beta-glucans and resistant starch say what they are for",
+   "status": "approved",
+   "at": "2026-11-06T21:05:14.123Z",
+   "blocks": [
+    23,
+    24
+   ],
+   "in_r17": true,
+   "fate": "in r17 as approved, word for word; in draft B"
+  },
+  {
+   "id": "F12-2",
+   "title": "Phase 4 opens each organ case on what you'd have",
+   "status": "approved",
+   "at": "2026-11-06T21:05:35.618Z",
+   "blocks": [
+    59
+   ],
+   "in_r17": true,
+   "fate": "in r17 as approved, word for word; in draft B"
+  },
+  {
+   "id": "F12-3",
+   "title": "If you're pregnant: skip berberine, and why",
+   "status": "approved",
+   "at": "2026-11-06T21:06:04.521Z",
+   "blocks": [
+    82
+   ],
+   "in_r17": true,
+   "fate": "in r17 as approved, word for word; in draft B"
+  }
+ ]
+}
