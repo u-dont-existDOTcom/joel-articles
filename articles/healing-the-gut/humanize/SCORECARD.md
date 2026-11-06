@@ -9,7 +9,7 @@ Built by `tools/humanization/pangram_ledger.py build` from `articles/healing-the
 | pangram API 4.1 | 97 | 71 (73%) | 55% | 45% | 47% | 0.173 (base 0.248, 97) |
 | Pangram 4.1 (web app) | 10 | 5 (50%) | 70% | 30% | 80% | 0.224 (base 0.210, 10) |
 | pangram 4.1, Pangram's check of the Substack draft (free, Joel's account) | 1 | 1 (100%) | 0% | 100% | 100% | 0.202 (base 0.000, 1) |
-| pangram 4.1, the web app (Joel's account, GUI credits) | 51 | 43 (84%) | 16% | 84% | 96% | 0.156 (base 0.132, 51) |
+| pangram 4.1, the web app (Joel's account, GUI credits) | 54 | 46 (85%) | 15% | 85% | 96% | 0.153 (base 0.126, 54) |
 | pangram 4.1, his Pangram extension on the live post (free, Joel's account) | 1 | 0 (0%) | 100% | 0% | 100% | 0.250 (base 0.000, 1) |
 
 ## pangram API 4.1
@@ -84,9 +84,9 @@ Calibration:
 
 | window | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| the latest 50 | 50 | 42 (84%) | 16% | 84% | 96% | 0.158 (base 0.134, 50) |
-| the latest 100 | 51 | 43 (84%) | 16% | 84% | 96% | 0.156 (base 0.132, 51) |
-| all | 51 | 43 (84%) | 16% | 84% | 96% | 0.156 (base 0.132, 51) |
+| the latest 50 | 50 | 42 (84%) | 16% | 84% | 96% | 0.160 (base 0.134, 50) |
+| the latest 100 | 54 | 46 (85%) | 15% | 85% | 96% | 0.153 (base 0.126, 54) |
+| all | 54 | 46 (85%) | 15% | 85% | 96% | 0.153 (base 0.126, 54) |
 
 The boundary mix (what was checked; accuracy differs a lot between a paragraph and a section):
 
@@ -94,8 +94,8 @@ The boundary mix (what was checked; accuracy differs a lot between a paragraph a
 |---|---|---|---|---|---|---|
 | section | 25 | 21 (84%) | 16% | 84% | 92% | 0.147 (base 0.134, 25) |
 | pair | 9 | 7 (78%) | 22% | 78% | 100% | 0.174 (base 0.173, 9) |
-| stretch | 14 | 12 (86%) | 14% | 86% | 100% | 0.168 (base 0.122, 14) |
-| paragraph | 3 | 3 (100%) | 0% | 100% | 100% | 0.128 (base 0.000, 3) |
+| stretch | 16 | 14 (88%) | 12% | 88% | 100% | 0.157 (base 0.109, 16) |
+| paragraph | 4 | 4 (100%) | 0% | 100% | 100% | 0.126 (base 0.000, 4) |
 
 Calibration:
 
@@ -103,7 +103,7 @@ Calibration:
 |---|---|---|---|
 | 0.2 to 0.4 | 2 | 0.28 | 50% |
 | 0.4 to 0.6 | 21 | 0.57 | 76% |
-| 0.6 to 0.8 | 36 | 0.67 | 92% |
+| 0.6 to 0.8 | 39 | 0.67 | 92% |
 | 0.8 to 1.0 | 4 | 0.80 | 100% |
 
 ## pangram 4.1, his Pangram extension on the live post (free, Joel's account)

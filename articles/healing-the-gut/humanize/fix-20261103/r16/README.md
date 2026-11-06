@@ -20,18 +20,20 @@ F10-1 to F10-3 (the dose, the caution, Phase 2's opening) stay as r15 has them.
 ## Checks
 
 Receipts pass for the three changed stretches (`checks/make_r16.py`): the intro (blocks 1-3), the HRP line with the
-carnivore paragraph before it (16-17), and the Gem section with the note under it (35-36). Predictions are frozen:
-r16-A #172 (Human, 0.75), r16-HRP #173 (Human, 0.65), r16-F #174 (Human, 0.70).
+carnivore paragraph before it (16-17), and the Gem section with the note under it (35-36). Pangram had signed Joel out
+in the desktop app's browser on 2026-11-05 and asked for its "Verify you are human" box, which a session never ticks; he
+signed in again, and on 2026-11-06 all three read Human Written, AI 0%, one window, High, as predicted:
 
-The web-app checks didn't run. During this turn (23:00 to 23:17 UTC), Pangram had signed Joel's account out in the desktop app's browser and
-asked for its "Verify you are human" box, which a session never ticks. They run once he signs in again; the texts are
-`checks/CHECK-r16-*.txt`.
+| check | prediction | result |
+|---|---|---|
+| r16-A, the intro | Human 0.75 (#172) | [Human Written, AI 0%](https://www.pangram.com/history/2077f5db-085d-48a2-b73f-a7dce2115a6f), 194 words |
+| r16-HRP, the report line | Human 0.65 (#173) | [Human Written, AI 0%](https://www.pangram.com/history/95f70229-9a97-47c1-a81d-3c633b6d67a9), 162 words |
+| r16-F, the Gem section | Human 0.70 (#174) | [Human Written, AI 0%](https://www.pangram.com/history/d50d3502-5ccc-4877-9352-4ebc27774896), 170 words |
 
 ## Batch 11
 
-`b11/build_review.py` writes the two cards (F11-1 the report, F11-2 the Gemini mode). Its check refuses a card for a
-stretch Pangram read without the card's own check ("you didn't check if your changes passed.. they didn't. don't waste
-my time"), so the page goes out with the checks.
+The marking page: https://claude.ai/artifact/RfYKiY9RvDAJBYazEaGLeD (`b11/`, review id
+`healing-the-gut-b11-r16-20261105`): F11-1 the report and where to re-check it, F11-2 the Gemini mode.
 
 ## How to write for Pangram, for every lane
 

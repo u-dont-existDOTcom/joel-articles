@@ -4,7 +4,7 @@
 Gate E363 (gut): the page goes out the turn its cards are written. Gate E364: a new page with a new review id.
 
 Each card's new words have their making-sense receipt (gate E365), cut from ../checks/RECEIPT-r16-*.json. The web-app
-checks were predicted (#172 to #174) and wait for Pangram's sign-in in the desktop app's browser."""
+checks (#172 to #174) ran in his account on 2026-11-06 once he had signed in again (../checks/RESULTS-r16.json)."""
 import hashlib
 import json
 import pathlib

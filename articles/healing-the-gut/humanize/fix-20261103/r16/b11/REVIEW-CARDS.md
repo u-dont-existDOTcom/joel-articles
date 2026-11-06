@@ -16,7 +16,7 @@ Once these are in, the next step is the whole article checked once (a temporary 
 
 **Pangram read:** Your post, through your extension: [Mostly Human 93%](https://www.pangram.com/feed/e3a65841-a626-4b34-aad7-62b9dfa48ada).
 
-**Pangram on the suggestion:** Not checked yet: Pangram signed you out in the desktop app's browser before the check ran (my message). The prediction is frozen (#173); the check runs once you're signed in, and this card is updated.
+**Pangram on the suggestion:** With the carnivore paragraph before it: [Human Written, AI 0%](https://www.pangram.com/history/95f70229-9a97-47c1-a81d-3c633b6d67a9), one window, High (#173).
 
 **What stays:** Your sentence's start, the link, and your glutamine sentence after it.
 
@@ -36,7 +36,7 @@ Once these are in, the next step is the whole article checked once (a temporary 
 
 **Pangram read:** Your post, through your extension: [Mostly Human 93%](https://www.pangram.com/feed/e3a65841-a626-4b34-aad7-62b9dfa48ada).
 
-**Pangram on the suggestion:** Not checked yet: Pangram signed you out in the desktop app's browser before the check ran (my message). The prediction is frozen (#172); the check runs once you're signed in, and this card is updated. Not checked yet: Pangram signed you out in the desktop app's browser before the check ran (my message). The prediction is frozen (#174); the check runs once you're signed in, and this card is updated.
+**Pangram on the suggestion:** The intro with the paragraphs around it: [Human Written, AI 0%](https://www.pangram.com/history/2077f5db-085d-48a2-b73f-a7dce2115a6f), one window, High (#172). The Gem section with the note under it: [Human Written, AI 0%](https://www.pangram.com/history/d50d3502-5ccc-4877-9352-4ebc27774896), one window, High (#174).
 
 **What stays:** Both paragraphs as they were, apart from the mode.
 

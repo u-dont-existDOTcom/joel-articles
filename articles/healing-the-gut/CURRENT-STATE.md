@@ -23,30 +23,30 @@ Joel, 2026-11-03 16:15 UTC (`experiments/t01-answers/joel-20261103-1615-messages
 - 2026-11-03 20:08 UTC: batch-1 marking page published (https://claude.ai/artifact/L2vQW2Z6GsNiPaDTYCZnLq, cards in `b1-protocol/REVIEW-CARDS.md`), with Phase 1 asking for his help and the nickname question.
 - 2026-11-05 15:18 UTC: his four fuels cards answered (`experiments/t13-answers/`); the fuels stretch worded and checked (`humanize/fix-20261103/r14/`): the whole stretch [Human Written, 100%](https://www.pangram.com/history/01015713-1d9b-4b32-9bd0-1f1258a1cfee) (#154); batch-9 page https://claude.ai/artifact/EyKenia9ksMXj8pH6ZMCkE. Cards go on the page the turn they are written (E363 (gut)).
 - 2026-11-05 18:43 UTC: his batch-9 answers as r15 (`humanize/fix-20261103/r15/`): 28 term notes, three repeats cut, all twelve changed stretches Human (#155 to #171); gates E368 and E369; batch-10 page https://claude.ai/artifact/NfPt7HckprSDhtuCm84P5E; merged by Joel as #293.
+- 2026-11-05 23:00 UTC: his batch-10 answers as r16 (`humanize/fix-20261103/r16/`); how to write for Pangram put in `AGENTS.md` and `SKILL.md` for every lane (pull request 308).
 
 ## Current checkpoint
 
-2026-11-05, Joel's message of 23:00 UTC (`experiments/t15-answers/`): batch 10's F10-1 to F10-3 approved (the dose, the
-caution, Phase 2's opening, kept as r15 has them), F10-4 and F10-5 answered, and "make sure that's in the repo for all
-lanes" about how to write for Pangram.
-- r16 (`humanize/fix-20261103/r16/`): his HRP answer (an older version of AskRigor; re-check it with askrigor.com) and his
-  Gemini answer (free works; the highest thinking level) worded. Receipts pass; predictions #172 to #174 frozen.
-- The web-app checks wait for his sign-in: Pangram signed him out in the desktop app's browser and asked for its "Verify
-  you are human" box, which a session never ticks. The batch-11 page (`r16/b11/`, two cards) goes out with them.
-- How to write for Pangram is now in `AGENTS.md`'s workflow and `SKILL.md`'s "Writing for Pangram: his fixes come
-  first", in pull request 308. This session's permission check refuses a merge into main without review, so he merges.
+2026-11-06, Joel's message of 16:37 UTC: "pr has conflicts, i logged into pangram".
+- Main (#310, the bad trips lane's E370 to E372) merged into pull request 308; the gate's conflict resolved with his
+  "all lanes" note kept before main's numbering note. E371 (the reader's reason first, each act named exactly) added
+  to `SKILL.md`'s "Writing for Pangram" section with its two checks, so every lane gets it with E368 and E369.
+- r16's three changed stretches read Human Written, AI 0%, one window, High, as predicted (#172 to #174).
+- The batch-11 page: https://claude.ai/artifact/RfYKiY9RvDAJBYazEaGLeD (F11-1 the report and AskRigor, F11-2 the
+  Gemini mode).
+- How to write for Pangram is in `AGENTS.md`'s workflow and `SKILL.md`, in pull request 308. This session's permission
+  check refuses a merge into main without review, so he merges.
 
 ## Remaining
 
-1. Once he's signed in: run #172 to #174 (`r16/checks/CHECK-r16-*.txt`), record them, then build and publish the
-   batch-11 page (`r16/b11/build_review.py`, then `suggestion_review.py page`).
-2. His answers on batch 11; then the whole article checked once (a temporary Substack draft, free, never published),
-   then his post updated with his OK and no email.
-3. Draft A (`r12/substack/`, #143) still waits for his extension's result; he deletes it once it is recorded.
+1. His answers on batch 11; then the whole article (r16 with them) checked once in a temporary Substack draft, free and
+   never published, through his extension; then his post updated with his OK and no email.
+2. Draft A (`r12/substack/`, #143) still waits for his extension's result; he deletes it once it is recorded. If the
+   whole-article draft of r16 reads Human, the update carries that draft's characters, marks included (E362 (gut)), and draft A's question no longer decides anything.
 
 ## Blockers / unresolved
 
-- Waiting on Joel: his Pangram sign-in in the desktop app's browser, his merge of pull request 308, and draft A's result.
+- Waiting on Joel: his answers on the batch-11 page, his merge of pull request 308, and draft A's result.
 
 ## Evidence / artifacts
 
@@ -54,4 +54,4 @@ lanes" about how to write for Pangram.
 
 ## Next safe action
 
-When he has signed in to Pangram in the desktop app's browser, run the three r16 checks, record them, and publish the batch-11 page.
+When his batch-11 answers come, apply them to r16 as r17, check any changed paragraph with its neighbor, then make the temporary draft of the whole article for his extension.
