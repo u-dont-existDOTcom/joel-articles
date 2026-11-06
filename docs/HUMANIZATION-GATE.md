@@ -2878,8 +2878,8 @@ was what we were supposed to do already prior".
 
 ## What his message of 2026-11-06 20:17 UTC taught (the neuro de-armoring lane)
 
-(E378 is the bad trips lane's, just above (pull request 316). The gut lane's open pull request 308 uses E378 and E379
-too; this lesson is E380, so 308 needs only to renumber its E378 to E379 and its E379 to E381.)
+(E378 is the bad trips lane's, just above (pull request 316). The gut lane's E379 is in `docs/lessons/`, where every
+lesson after E380 goes, one file per message (`docs/lessons/README.md`).)
 
 - **E380. A citation missing from his version is not assumed cut on purpose: put it back where something still rests
   on it, and ask him when unsure.** His paragraph of 19:40 UTC replaced the dynorphin paragraph and, at his word,
@@ -2899,7 +2899,7 @@ too; this lesson is E380, so 308 needs only to renumber its E378 to E379 and its
   It is E378's other side: a sentence he left standing is not a decision to keep it, and a citation he left out is not
   a decision to cut it.
 
-(E380 is the neuro de-armoring lane's. The next lesson in any lane is E381, after E379, which 308 can take.)
+(E380 is the neuro de-armoring lane's, and the last numbered lesson; later ones are in `docs/lessons/`.)
 
 
 ## What turn 100's API checks showed (the Inner Child lane, 2026-10-23)

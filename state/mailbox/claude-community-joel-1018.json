@@ -561,6 +561,76 @@
     }
    ],
    "recorded_utc": "2026-11-06T20:18Z"
+  },
+  {
+   "turn": "2026-11-06T20:49Z",
+   "lines_of_work": [
+    "neuro de-armoring"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "same three items, all in the ledger; UDA main c25062c adds patterns/short-lived-pull-requests.md (#470): merge when gates pass, the lane fixes its own conflicts, every open PR gets an outcome each turn, keep off shared lines; read and applied (this lane has no open PRs: 314, 315, 317 merged)"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "main 9c31f3ca (317 merged), merged here; 308 still open (gut lane), no comments on this lane's PRs"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no edits by others to this lane's handoff note or questions page"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "317's merge notice only"
+    }
+   ],
+   "items": [
+    {
+     "item": "Joel's message of 2026-11-06 20:49 UTC: 'ok i logged into the other pangram altho didn't understand why you need the other one?'",
+     "outcome": "answered (the extension's daily limit on the whole-article check); the draft updated to the article as it stands and the whole-article check run in his Brave"
+    }
+   ],
+   "recorded_utc": "2026-11-06T20:50Z"
+  },
+  {
+   "turn": "2026-11-06T21:22Z",
+   "lines_of_work": [
+    "neuro de-armoring"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "same three items, all in the ledger; UDA main d8289fd (#471, other lanes' items merged as one), AGENTS.md and LESSON-INDEX unchanged since 20:49"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "main fff2008b (319, bad trips) merged here; this lane's 318 open, green and clean, waiting on this check's result; 308 open"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no edits by others to this lane's handoff note or questions page"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "318's check notices only"
+    }
+   ],
+   "items": [
+    {
+     "item": "Joel's message of 2026-11-06 21:22 UTC: the whole-article result (feed f481f824), 'you weren't clear about that pangram issue before', and 'you can't run these yourself because pangram opens on a pane'",
+     "outcome": "result read and recorded, windows listed by section; lesson on saying why with every ask, and the handoff's 'the lane opens it in his Brave' corrected to AGENTS.md's rule (the link goes to him)"
+    }
+   ],
+   "recorded_utc": "2026-11-06T21:22Z"
   }
  ]
 }

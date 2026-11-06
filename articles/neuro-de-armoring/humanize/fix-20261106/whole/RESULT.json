@@ -1,0 +1,3002 @@
+{
+ "feed": "https://www.pangram.com/feed/f481f824-5b0b-462f-96e4-237f0b2c057d",
+ "text_sha256": "51a3f49274a4fdc9584b25ec1f1ee608c3bb0b2fffa126714ef8aa676a08afa0",
+ "paragraphs": [
+  {
+   "n": 1,
+   "section": "Introduction",
+   "start": "When people tell me they have trauma, I generally recommend they follow my inner",
+   "words": 104,
+   "worst": "Human, High",
+   "windows": [
+    {
+     "label": "Human",
+     "confidence": "High",
+     "words": 216,
+     "text": "When people tell me they have trauma, I generally recommend they follow my inner child the"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "section": "Introduction",
+   "start": "This protocol is partly theoretical and partly based on experience reports. Ther",
+   "words": 57,
+   "worst": "Human, High",
+   "windows": [
+    {
+     "label": "Human",
+     "confidence": "High",
+     "words": 216,
+     "text": "This protocol is partly theoretical and partly based on experience reports. There’s no pee"
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "section": "A Complete Guide to Bio-De-Armoring",
+   "start": "⚠ CRITICAL MEDICAL DISCLAIMER:DMSO Safety: You should use 99.9% Pharmaceutical G",
+   "words": 47,
+   "worst": "Human, High",
+   "windows": [
+    {
+     "label": "Human",
+     "confidence": "High",
+     "words": 216,
+     "text": "⚠ CRITICAL MEDICAL DISCLAIMER:DMSO Safety: You should use 99.9% Pharmaceutical Grade DMSO,"
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "section": "A Complete Guide to Bio-De-Armoring",
+   "start": "Electrolytes: Consult a doctor if you have kidney disease or heart conditions.",
+   "words": 12,
+   "worst": "Human, Medium",
+   "windows": [
+    {
+     "label": "Human",
+     "confidence": "Medium",
+     "words": 43,
+     "text": "Electrolytes: Consult a doctor if you have kidney disease or heart conditions."
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "section": "A Complete Guide to Bio-De-Armoring",
+   "start": "Ethnobotanicals:Iboga and Psilocybin are illegal in many jurisdictions and carry",
+   "words": 31,
+   "worst": "Human, Medium",
+   "windows": [
+    {
+     "label": "Human",
+     "confidence": "Medium",
+     "words": 43,
+     "text": "Ethnobotanicals:Iboga and Psilocybin are illegal in many jurisdictions and carry risks. Ne"
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "section": "A Complete Guide to Bio-De-Armoring",
+   "start": "Behavioral Warning (The Isolation Trap): While this protocol demands starving th",
+   "words": 63,
+   "worst": "AI",
+   "windows": [
+    {
+     "label": "AI",
+     "confidence": "High",
+     "words": 49,
+     "text": "Behavioral Warning (The Isolation Trap): While this protocol demands starving the brain of"
+    },
+    {
+     "label": "AI",
+     "confidence": "Low",
+     "words": 27,
+     "text": " You need the “Oxytocinergic Anchoring” of healthy social relationships, because humans ar"
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "section": "A Complete Guide to Bio-De-Armoring",
+   "start": "The Rule: Seek “Boring Love” (parallel play, reading next to someone, safe touch",
+   "words": 28,
+   "worst": "AI",
+   "windows": [
+    {
+     "label": "AI",
+     "confidence": "Low",
+     "words": 27,
+     "text": "The Rule: Seek “Boring Love” (parallel play, reading next to someone, safe touch)."
+    },
+    {
+     "label": "Human",
+     "confidence": "Low",
+     "words": 16,
+     "text": " Avoid “Exciting Love” (romance, high-stakes drama), as this spikes Phasic Dopamine and re"
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "section": "A Complete Guide to Bio-De-Armoring",
+   "start": "Cognitive Warning: As you de-armor, you will feel naked and exposed. You will as",
+   "words": 29,
+   "worst": "AI",
+   "windows": [
+    {
+     "label": "Human",
+     "confidence": "Medium",
+     "words": 12,
+     "text": "Cognitive Warning: As you de-armor, you will feel naked and exposed."
+    },
+    {
+     "label": "Human",
+     "confidence": "Low",
+     "words": 8,
+     "text": " You will assume everyone can see your anxiety."
+    },
+    {
+     "label": "Human",
+     "confidence": "Low",
+     "words": 1,
+     "text": " Dr."
+    },
+    {
+     "label": "AI",
+     "confidence": "High",
+     "words": 110,
+     "text": " Nicholas Epley, Mindwise, calls this the “Illusion of Transparency.”"
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "section": "A Complete Guide to Bio-De-Armoring",
+   "start": "The armored brain projects its own internal threat level onto neutral faces. You",
+   "words": 58,
+   "worst": "AI",
+   "windows": [
+    {
+     "label": "AI",
+     "confidence": "High",
+     "words": 110,
+     "text": "The armored brain projects its own internal threat level onto neutral faces. You will thin"
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "section": "A Complete Guide to Bio-De-Armoring",
+   "start": "Agmatine Warning (The Voltage Governor): Agmatine is not a basic nutrient like m",
+   "words": 37,
+   "worst": "AI",
+   "windows": [
+    {
+     "label": "AI",
+     "confidence": "High",
+     "words": 110,
+     "text": "Agmatine Warning (The Voltage Governor): Agmatine is not a basic nutrient like magnesium o"
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "section": "A Complete Guide to Bio-De-Armoring",
+   "start": "Precautions/Side Effects: Do not use concurrently with opioids and/or kratom (wi",
+   "words": 70,
+   "worst": "Human, High",
+   "windows": [
+    {
+     "label": "Human",
+     "confidence": "High",
+     "words": 75,
+     "text": "Precautions/Side Effects: Do not use concurrently with opioids and/or kratom (will reduce "
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "section": "A Complete Guide to Bio-De-Armoring",
+   "start": "Stop immediately if it causes flatness, anhedonia, emotional blunting, new depre",
+   "words": 59,
+   "worst": "AI",
+   "windows": [
+    {
+     "label": "AI",
+     "confidence": "High",
+     "words": 269,
+     "text": "Stop immediately if it causes flatness, anhedonia, emotional blunting, new depression, agi"
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "section": "A Complete Guide to Bio-De-Armoring",
+   "start": "Uridine & 5-HTP Warning for Psychedelic Users: These are not “trip enhancers.” T",
+   "words": 97,
+   "worst": "AI",
+   "windows": [
+    {
+     "label": "AI",
+     "confidence": "High",
+     "words": 269,
+     "text": "Uridine & 5-HTP Warning for Psychedelic Users: These are not “trip enhancers.” They are re"
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "section": "A Complete Guide to Bio-De-Armoring",
+   "start": "Rule: do not take 5-HTP on the same day as psychedelics, and do not use it anywh",
+   "words": 79,
+   "worst": "AI",
+   "windows": [
+    {
+     "label": "AI",
+     "confidence": "High",
+     "words": 269,
+     "text": "Rule: do not take 5-HTP on the same day as psychedelics, and do not use it anywhere near a"
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "section": "Psychology is the Software; Biology is the Hardware.",
+   "start": "Standard therapy attempts to rewrite the “code” (thoughts/behaviors) while the “",
+   "words": 44,
+   "worst": "AI",
+   "windows": [
+    {
+     "label": "AI",
+     "confidence": "High",
+     "words": 269,
+     "text": "Standard therapy attempts to rewrite the “code” (thoughts/behaviors) while the “motherboar"
+    },
+    {
+     "label": "AI",
+     "confidence": "Medium",
+     "words": 22,
+     "text": " The science behind this protocol focuses on four specific neuro-biological mechanisms tha"
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "section": "Psychology is the Software; Biology is the Hardware.",
+   "start": "The “Underpinning” Principle Dr. Bruce Perry compares treating trauma to buildin",
+   "words": 44,
+   "worst": "Human, Low",
+   "windows": [
+    {
+     "label": "Human",
+     "confidence": "Low",
+     "words": 4,
+     "text": "The “Underpinning” Principle Dr."
+    },
+    {
+     "label": "Human",
+     "confidence": "Low",
+     "words": 9,
+     "text": " Bruce Perry compares treating trauma to building a house."
+    },
+    {
+     "label": "Human",
+     "confidence": "Medium",
+     "words": 23,
+     "text": " Standard CBT & EMDR style therapies attempt to “decorate” the house (changing thoughts/be"
+    },
+    {
+     "label": "Human",
+     "confidence": "Low",
+     "words": 8,
+     "text": " You cannot hang curtains in a collapsing house."
+    }
+   ]
+  },
+  {
+   "n": 17,
+   "section": "Psychology is the Software; Biology is the Hardware.",
+   "start": "The Modern “Role-Self” vs. The Ancient “True-Self”",
+   "words": 7,
+   "worst": "Human, Medium",
+   "windows": [
+    {
+     "label": "Human",
+     "confidence": "Medium",
+     "words": 16,
+     "text": "The Modern “Role-Self” vs. The Ancient “True-Self”"
+    }
+   ]
+  },
+  {
+   "n": 18,
+   "section": "Psychology is the Software; Biology is the Hardware.",
+   "start": "Why does the brain build this armor? Psychologist Lindsay Gibson explains that A",
+   "words": 111,
+   "worst": "Human, Medium",
+   "windows": [
+    {
+     "label": "Human",
+     "confidence": "Medium",
+     "words": 16,
+     "text": "Why does the brain build this armor?"
+    },
+    {
+     "label": "Human",
+     "confidence": "High",
+     "words": 75,
+     "text": " Psychologist Lindsay Gibson explains that Adult children of emotionally immature parents "
+    },
+    {
+     "label": "Human",
+     "confidence": "Medium",
+     "words": 2,
+     "text": " As Dr."
+    },
+    {
+     "label": "Human",
+     "confidence": "High",
+     "words": 32,
+     "text": " Bruce Perry explains, our brains evolved in hunter-gatherer bands with a ratio of 4 devel"
+    }
+   ]
+  },
+  {
+   "n": 19,
+   "section": "Psychology is the Software; Biology is the Hardware.",
+   "start": "We are operating on less than 1/24th of the relational density our biology requi",
+   "words": 57,
+   "worst": "Human, Medium",
+   "windows": [
+    {
+     "label": "Human",
+     "confidence": "Medium",
+     "words": 21,
+     "text": "We are operating on less than 1/24th of the relational density our biology requires. The “"
+    },
+    {
+     "label": "Human",
+     "confidence": "High",
+     "words": 39,
+     "text": " Once you have de-armored, you cannot simply return to a lonely life. You must aggressivel"
+    }
+   ]
+  },
+  {
+   "n": 20,
+   "section": "Psychology is the Software; Biology is the Hardware.",
+   "start": "As we grow up, our “Role-Self” becomes calcified by Dopamine and DeltaFosB. It b",
+   "words": 51,
+   "worst": "AI",
+   "windows": [
+    {
+     "label": "Human",
+     "confidence": "Medium",
+     "words": 13,
+     "text": "As we grow up, our “Role-Self” becomes calcified by Dopamine and DeltaFosB."
+    },
+    {
+     "label": "AI",
+     "confidence": "Low",
+     "words": 4,
+     "text": " It becomes a prison."
+    },
+    {
+     "label": "AI",
+     "confidence": "Medium",
+     "words": 14,
+     "text": " Your addiction is often just the fuel required to keep the “Role-Self” running."
+    },
+    {
+     "label": "AI",
+     "confidence": "High",
+     "words": 26,
+     "text": " This protocol dissolves the chemical glue holding that false persona together, allowing y"
+    }
+   ]
+  },
+  {
+   "n": 21,
+   "section": "Psychology is the Software; Biology is the Hardware.",
+   "start": "Neurological De-Armoring is about fixing the underpinnings, not redecorating. It",
+   "words": 58,
+   "worst": "AI",
+   "windows": [
+    {
+     "label": "AI",
+     "confidence": "Medium",
+     "words": 10,
+     "text": "Neurological De-Armoring is about fixing the underpinnings, not redecorating."
+    },
+    {
+     "label": "Human",
+     "confidence": "Low",
+     "words": 50,
+     "text": " It’s a protocol that serves as a metabolic solvent, via HDAC inhibition, that softens the"
+    }
+   ]
+  },
+  {
+   "n": 22,
+   "section": "Psychology is the Software; Biology is the Hardware.",
+   "start": "The Anti-Breakthrough (Micro-Dosing) As Dr. Perry explains, we need to temporari",
+   "words": 54,
+   "worst": "AI",
+   "windows": [
+    {
+     "label": "AI",
+     "confidence": "Low",
+     "words": 7,
+     "text": "The Anti-Breakthrough (Micro-Dosing) As Dr."
+    },
+    {
+     "label": "AI",
+     "confidence": "High",
+     "words": 34,
+     "text": " Perry explains, we need to temporarily abandon the therapy ideal of the “hour-long breakt"
+    },
+    {
+     "label": "AI",
+     "confidence": "Low",
+     "words": 1,
+     "text": " Dr."
+    },
+    {
+     "label": "AI",
+     "confidence": "High",
+     "words": 47,
+     "text": " Perry’s data indicates the “therapeutic window” for a dysregulated brain is often only se"
+    }
+   ]
+  },
+  {
+   "n": 23,
+   "section": "Psychology is the Software; Biology is the Hardware.",
+   "start": "Your goal is Micro-Dosing Safety: 30 seconds of regulated breathing, twenty time",
+   "words": 33,
+   "worst": "AI",
+   "windows": [
+    {
+     "label": "AI",
+     "confidence": "High",
+     "words": 47,
+     "text": "Your goal is Micro-Dosing Safety: 30 seconds of regulated breathing, twenty times a day. W"
+    },
+    {
+     "label": "AI",
+     "confidence": "Medium",
+     "words": 3,
+     "text": " Frequency beats intensity."
+    }
+   ]
+  },
+  {
+   "n": 24,
+   "section": "Part 1: THE SCIENCE (Why We Do This)",
+   "start": "Before applying the tools, you must understand the specific “Hardware Failures” ",
+   "words": 19,
+   "worst": "AI",
+   "windows": [
+    {
+     "label": "AI",
+     "confidence": "High",
+     "words": 38,
+     "text": "Before applying the tools, you must understand the specific “Hardware Failures” that occur"
+    }
+   ]
+  },
+  {
+   "n": 25,
+   "section": "A. The Metabolic Red Line",
+   "start": "We often assume we can “think” our way out of a trigger, but data proves that an",
+   "words": 61,
+   "worst": "AI",
+   "windows": [
+    {
+     "label": "AI",
+     "confidence": "High",
+     "words": 38,
+     "text": "We often assume we can “think” our way out of a trigger, but data proves that anatomy over"
+    },
+    {
+     "label": "AI",
+     "confidence": "Medium",
+     "words": 1,
+     "text": " Dr."
+    },
+    {
+     "label": "AI",
+     "confidence": "High",
+     "words": 105,
+     "text": " Perry identifies a “Metabolic Red Line” for the traumatized brain: when the resting heart"
+    }
+   ]
+  },
+  {
+   "n": 26,
+   "section": "A. The Metabolic Red Line",
+   "start": "In this state, functional IQ drops substantially. More importantly, this state f",
+   "words": 49,
+   "worst": "AI",
+   "windows": [
+    {
+     "label": "AI",
+     "confidence": "High",
+     "words": 105,
+     "text": "In this state, functional IQ drops substantially. More importantly, this state floods the "
+    }
+   ]
+  },
+  {
+   "n": 27,
+   "section": "B. The “Overheating” CPU: Glutamate Excitotoxicity",
+   "start": "The Problem: Glutamate is the brain’s primary excitatory neurotransmitter. In st",
+   "words": 26,
+   "worst": "AI",
+   "windows": [
+    {
+     "label": "AI",
+     "confidence": "High",
+     "words": 105,
+     "text": "The Problem: Glutamate is the brain’s primary excitatory neurotransmitter."
+    },
+    {
+     "label": "AI",
+     "confidence": "Medium",
+     "words": 18,
+     "text": " In states of stress, the brain floods with Glutamate. This is the “voltage spike”--the en"
+    }
+   ]
+  },
+  {
+   "n": 28,
+   "section": "B. The “Overheating” CPU: Glutamate Excitotoxicity",
+   "start": "The Metabolic Red Line: We often assume we can ‘think’ our way out of trauma, bu",
+   "words": 113,
+   "worst": "AI",
+   "windows": [
+    {
+     "label": "AI",
+     "confidence": "Low",
+     "words": 26,
+     "text": "The Metabolic Red Line: We often assume we can ‘think’ our way out of trauma, but Dr. Bruc"
+    },
+    {
+     "label": "AI",
+     "confidence": "Low",
+     "words": 19,
+     "text": " When trauma survivors become highly dysregulated, prefrontal cortical functioning often d"
+    },
+    {
+     "label": "AI",
+     "confidence": "High",
+     "words": 38,
+     "text": " In this state, learning and memory processes may favor reinforcement of existing fear net"
+    },
+    {
+     "label": "Human",
+     "confidence": "High",
+     "words": 52,
+     "text": " You can often tell when you’re dysregulated by noticing if your heart is beating faster o"
+    }
+   ]
+  },
+  {
+   "n": 29,
+   "section": "B. The “Overheating” CPU: Glutamate Excitotoxicity",
+   "start": "The Mechanism: Excess Glutamate over-activates NMDA receptors, acting like a key",
+   "words": 33,
+   "worst": "Human, Low",
+   "windows": [
+    {
+     "label": "Human",
+     "confidence": "High",
+     "words": 52,
+     "text": "The Mechanism: Excess Glutamate over-activates NMDA receptors, acting like a key stuck in "
+    },
+    {
+     "label": "Human",
+     "confidence": "Medium",
+     "words": 8,
+     "text": " This causes “excitotoxicity”--literally vibrating cells to death."
+    },
+    {
+     "label": "Human",
+     "confidence": "Low",
+     "words": 37,
+     "text": " Subjectively, this feels like anxiety, rage, or an “itchy brain.”"
+    }
+   ]
+  },
+  {
+   "n": 30,
+   "section": "B. The “Overheating” CPU: Glutamate Excitotoxicity",
+   "start": "The Signal Dial (GluD Receptors): Beyond the “voltage spike” of NMDA, Johns Hopk",
+   "words": 58,
+   "worst": "AI",
+   "windows": [
+    {
+     "label": "Human",
+     "confidence": "Low",
+     "words": 37,
+     "text": "The Signal Dial (GluD Receptors): Beyond the “voltage spike” of NMDA, Johns Hopkins resear"
+    },
+    {
+     "label": "AI",
+     "confidence": "Low",
+     "words": 34,
+     "text": " While NMDA is the spark, GluD manages the baseline “hum” of the synapse. In an armored st"
+    }
+   ]
+  },
+  {
+   "n": 31,
+   "section": "B. The “Overheating” CPU: Glutamate Excitotoxicity",
+   "start": "D-serine may support therapeutic memory updating through NMDA-dependent learning",
+   "words": 105,
+   "worst": "AI",
+   "windows": [
+    {
+     "label": "AI",
+     "confidence": "High",
+     "words": 22,
+     "text": "D-serine may support therapeutic memory updating through NMDA-dependent learning mechanism"
+    },
+    {
+     "label": "AI",
+     "confidence": "Low",
+     "words": 8,
+     "text": " The specific drug form studied is D-cycloserine."
+    },
+    {
+     "label": "AI",
+     "confidence": "High",
+     "words": 82,
+     "text": " which has evidence as an exposure-therapy augmenter because it can facilitate NMDA-depend"
+    }
+   ]
+  },
+  {
+   "n": 32,
+   "section": "B. The “Overheating” CPU: Glutamate Excitotoxicity",
+   "start": "The Fix (“Lock, Stock, and Barrel”):The Vacuum (NAC): Clears the flood by exchan",
+   "words": 16,
+   "worst": "Human, High",
+   "windows": [
+    {
+     "label": "Human",
+     "confidence": "High",
+     "words": 82,
+     "text": "The Fix (“Lock, Stock, and Barrel”):The Vacuum (NAC): Clears the flood by exchanging gluta"
+    }
+   ]
+  },
+  {
+   "n": 33,
+   "section": "B. The “Overheating” CPU: Glutamate Excitotoxicity",
+   "start": "The Lock (Zinc/Magnesium): Physically blocks the receptor channel to stop the vo",
+   "words": 12,
+   "worst": "Human, High",
+   "windows": [
+    {
+     "label": "Human",
+     "confidence": "High",
+     "words": 82,
+     "text": "The Lock (Zinc/Magnesium): Physically blocks the receptor channel to stop the voltage."
+    }
+   ]
+  },
+  {
+   "n": 34,
+   "section": "B. The “Overheating” CPU: Glutamate Excitotoxicity",
+   "start": "The Repair (Leucine/L-Serine): L-Serine acts as a precursor to D-Serine to recal",
+   "words": 59,
+   "worst": "AI",
+   "windows": [
+    {
+     "label": "Human",
+     "confidence": "High",
+     "words": 82,
+     "text": "The Repair (Leucine/L-Serine): L-Serine acts as a precursor to D-Serine to recalibrate the"
+    },
+    {
+     "label": "AI",
+     "confidence": "Low",
+     "words": 56,
+     "text": " Leucine facilitates structural repair while simultaneously tuning synaptic gain to reduce"
+    }
+   ]
+  },
+  {
+   "n": 35,
+   "section": "B. The “Overheating” CPU: Glutamate Excitotoxicity",
+   "start": "The Governor (Agmatine): Agmatine is the optional “voltage governor.” It may hel",
+   "words": 48,
+   "worst": "AI",
+   "windows": [
+    {
+     "label": "AI",
+     "confidence": "Low",
+     "words": 56,
+     "text": "The Governor (Agmatine): Agmatine is the optional “voltage governor.” It may help when the"
+    },
+    {
+     "label": "AI",
+     "confidence": "Medium",
+     "words": 13,
+     "text": " It is not a daily foundation nutrient. It is a state-dependent brake."
+    }
+   ]
+  },
+  {
+   "n": 36,
+   "section": "B. The “Overheating” CPU: Glutamate Excitotoxicity",
+   "start": "Important conflict: do not use agmatine as a same-session companion to D-Serine/",
+   "words": 48,
+   "worst": "AI",
+   "windows": [
+    {
+     "label": "AI",
+     "confidence": "High",
+     "words": 40,
+     "text": "Important conflict: do not use agmatine as a same-session companion to D-Serine/DCS-style "
+    },
+    {
+     "label": "AI",
+     "confidence": "Medium",
+     "words": 16,
+     "text": " Use agmatine for storm control, not immediately before a session where the goal is delibe"
+    }
+   ]
+  },
+  {
+   "n": 37,
+   "section": "C. The “Hardened” Circuit: Dynorphin & DeltaFosB",
+   "start": "The Problem: If you’re feeling apathetic, gray, no desire for anything, you migh",
+   "words": 128,
+   "worst": "Human, High",
+   "windows": [
+    {
+     "label": "Human",
+     "confidence": "High",
+     "words": 178,
+     "text": "The Problem: If you’re feeling apathetic, gray, no desire for anything, you might be in a "
+    }
+   ]
+  },
+  {
+   "n": 38,
+   "section": "C. The “Hardened” Circuit: Dynorphin & DeltaFosB",
+   "start": "Why Standard Meds Failed You If you have tried SSRIs (antidepressants) and faile",
+   "words": 47,
+   "worst": "Human, High",
+   "windows": [
+    {
+     "label": "Human",
+     "confidence": "High",
+     "words": 178,
+     "text": "Why Standard Meds Failed You If you have tried SSRIs (antidepressants) and failed, you are"
+    }
+   ]
+  },
+  {
+   "n": 39,
+   "section": "C. The “Hardened” Circuit: Dynorphin & DeltaFosB",
+   "start": "Why don’t these drugs work on calcified PTSD? Because standard serotonin drugs t",
+   "words": 51,
+   "worst": "AI",
+   "windows": [
+    {
+     "label": "Human",
+     "confidence": "Low",
+     "words": 9,
+     "text": "Why don’t these drugs work on calcified PTSD?"
+    },
+    {
+     "label": "AI",
+     "confidence": "High",
+     "words": 103,
+     "text": " Because standard serotonin drugs treat the “software” (mood), but they cannot penetrate t"
+    }
+   ]
+  },
+  {
+   "n": 40,
+   "section": "C. The “Hardened” Circuit: Dynorphin & DeltaFosB",
+   "start": "Double click to interact with video",
+   "words": 6,
+   "worst": "AI",
+   "windows": [
+    {
+     "label": "AI",
+     "confidence": "High",
+     "words": 103,
+     "text": "Double click to interact with video"
+    }
+   ]
+  },
+  {
+   "n": 41,
+   "section": "C. The “Hardened” Circuit: Dynorphin & DeltaFosB",
+   "start": "The Fix (The Unlock): You cannot “wait” for this to pass. We use “System Reforma",
+   "words": 28,
+   "worst": "AI",
+   "windows": [
+    {
+     "label": "AI",
+     "confidence": "High",
+     "words": 103,
+     "text": "The Fix (The Unlock): You cannot “wait” for this to pass. We use “System Reformats” (Shroo"
+    }
+   ]
+  },
+  {
+   "n": 42,
+   "section": "D. The “Lagging” System: Toxicity & Hypometabolism (The Fog)",
+   "start": "The Problem: “Brain Fog” is often a fuel crisis. Trauma causes cerebral insulin ",
+   "words": 28,
+   "worst": "AI",
+   "windows": [
+    {
+     "label": "AI",
+     "confidence": "High",
+     "words": 103,
+     "text": "The Problem: “Brain Fog” is often a fuel crisis. Trauma causes cerebral insulin resistance"
+    },
+    {
+     "label": "AI",
+     "confidence": "Medium",
+     "words": 4,
+     "text": " The engine is flooded."
+    }
+   ]
+  },
+  {
+   "n": 43,
+   "section": "D. The “Lagging” System: Toxicity & Hypometabolism (The Fog)",
+   "start": "The Fix: If the brain cannot burn sugar, we switch fuels. We use PQQ to boost AT",
+   "words": 53,
+   "worst": "AI",
+   "windows": [
+    {
+     "label": "AI",
+     "confidence": "High",
+     "words": 11,
+     "text": "The Fix: If the brain cannot burn sugar, we switch fuels."
+    },
+    {
+     "label": "AI",
+     "confidence": "Medium",
+     "words": 19,
+     "text": " We use PQQ to boost ATP, and Ketones, which bypass the broken glucose pathways and enter "
+    },
+    {
+     "label": "AI",
+     "confidence": "Low",
+     "words": 7,
+     "text": " This turns the lights back on immediately."
+    },
+    {
+     "label": "Human",
+     "confidence": "Medium",
+     "words": 16,
+     "text": " We alternate hot and cold showers to boost p131 and heat shock proteins and reduce inflam"
+    }
+   ]
+  },
+  {
+   "n": 44,
+   "section": "E. The “Save Button”: Memory Reconsolidation",
+   "start": "The Problem: Every time you have a flashback, your brain attempts to “save” the ",
+   "words": 22,
+   "worst": "AI",
+   "windows": [
+    {
+     "label": "AI",
+     "confidence": "Low",
+     "words": 22,
+     "text": "The Problem: Every time you have a flashback, your brain attempts to “save” the memory aga"
+    }
+   ]
+  },
+  {
+   "n": 45,
+   "section": "E. The “Save Button”: Memory Reconsolidation",
+   "start": "The Fix (“The Jammer”): Memories require visual processing power to be restored.",
+   "words": 48,
+   "worst": "AI",
+   "windows": [
+    {
+     "label": "AI",
+     "confidence": "High",
+     "words": 203,
+     "text": "The Fix (“The Jammer”): Memories require visual processing power to be restored. If you oc"
+    }
+   ]
+  },
+  {
+   "n": 46,
+   "section": "E. The “Save Button”: Memory Reconsolidation",
+   "start": "Instead of Tetris (which requires app/phone), you can use the “Color-Path Connec",
+   "words": 40,
+   "worst": "AI",
+   "windows": [
+    {
+     "label": "AI",
+     "confidence": "High",
+     "words": 203,
+     "text": "Instead of Tetris (which requires app/phone), you can use the “Color-Path Connect” method."
+    }
+   ]
+  },
+  {
+   "n": 47,
+   "section": "E. The “Save Button”: Memory Reconsolidation",
+   "start": "How to play:Pick a color (e.g., Blue).",
+   "words": 7,
+   "worst": "AI",
+   "windows": [
+    {
+     "label": "AI",
+     "confidence": "High",
+     "words": 203,
+     "text": "How to play:Pick a color (e.g., Blue)."
+    }
+   ]
+  },
+  {
+   "n": 48,
+   "section": "E. The “Save Button”: Memory Reconsolidation",
+   "start": "Trace a Path: Find every blue object in the room and mentally draw a line connec",
+   "words": 21,
+   "worst": "AI",
+   "windows": [
+    {
+     "label": "AI",
+     "confidence": "High",
+     "words": 203,
+     "text": "Trace a Path: Find every blue object in the room and mentally draw a line connecting them "
+    }
+   ]
+  },
+  {
+   "n": 49,
+   "section": "E. The “Save Button”: Memory Reconsolidation",
+   "start": "Add Complexity: Now, mentally “rotate” those objects in your mind or imagine the",
+   "words": 27,
+   "worst": "AI",
+   "windows": [
+    {
+     "label": "AI",
+     "confidence": "High",
+     "words": 203,
+     "text": "Add Complexity: Now, mentally “rotate” those objects in your mind or imagine them changing"
+    }
+   ]
+  },
+  {
+   "n": 50,
+   "section": "E. The “Save Button”: Memory Reconsolidation",
+   "start": "The Goal: You must do this for 10–20 minutes immediately after a trigger to “jam",
+   "words": 18,
+   "worst": "AI",
+   "windows": [
+    {
+     "label": "AI",
+     "confidence": "High",
+     "words": 203,
+     "text": "The Goal: You must do this for 10–20 minutes immediately after a trigger to “jam” the memo"
+    }
+   ]
+  },
+  {
+   "n": 51,
+   "section": "E. The “Save Button”: Memory Reconsolidation",
+   "start": "+1",
+   "words": 1,
+   "worst": "AI",
+   "windows": [
+    {
+     "label": "AI",
+     "confidence": "High",
+     "words": 203,
+     "text": "+1"
+    }
+   ]
+  },
+  {
+   "n": 52,
+   "section": "Part 2: Reducing Anxiety & Depression",
+   "start": "Lower the Cortisol Floor (Phosphatidylserine)",
+   "words": 5,
+   "worst": "AI",
+   "windows": [
+    {
+     "label": "AI",
+     "confidence": "High",
+     "words": 203,
+     "text": "Lower the Cortisol Floor (Phosphatidylserine)"
+    }
+   ]
+  },
+  {
+   "n": 53,
+   "section": "Part 2: Reducing Anxiety & Depression",
+   "start": "Before ketones, before D-Serine, address cortisol directly--because cortisol is ",
+   "words": 48,
+   "worst": "AI",
+   "windows": [
+    {
+     "label": "AI",
+     "confidence": "High",
+     "words": 203,
+     "text": "Before ketones, before D-Serine, address cortisol directly--because cortisol is what sensi"
+    },
+    {
+     "label": "AI",
+     "confidence": "Low",
+     "words": 24,
+     "text": " The single most useful nutrient I’ve found for this is Phosphatidylserine (PS), a phospho"
+    }
+   ]
+  },
+  {
+   "n": 54,
+   "section": "Part 2: Reducing Anxiety & Depression",
+   "start": "Who it’s for: People running high or reactive cortisol--the “wired and tired,” c",
+   "words": 86,
+   "worst": "AI",
+   "windows": [
+    {
+     "label": "AI",
+     "confidence": "High",
+     "words": 22,
+     "text": "Who it’s for: People running high or reactive cortisol--the “wired and tired,” can’t-downs"
+    },
+    {
+     "label": "AI",
+     "confidence": "Medium",
+     "words": 1,
+     "text": " type."
+    },
+    {
+     "label": "AI",
+     "confidence": "High",
+     "words": 73,
+     "text": " This includes many people with slow COMT (the Val158Met variant that clears catecholamine"
+    }
+   ]
+  },
+  {
+   "n": 55,
+   "section": "Part 2: Reducing Anxiety & Depression",
+   "start": "Dose: about 400 mg/day, taken earlier in the day. In the stress studies, which u",
+   "words": 36,
+   "worst": "AI",
+   "windows": [
+    {
+     "label": "AI",
+     "confidence": "Medium",
+     "words": 10,
+     "text": "Dose: about 400 mg/day, taken earlier in the day."
+    },
+    {
+     "label": "AI",
+     "confidence": "High",
+     "words": 98,
+     "text": " In the stress studies, which used a PS complex, 400 mg blunted the cortisol response, whi"
+    }
+   ]
+  },
+  {
+   "n": 56,
+   "section": "Part 2: Reducing Anxiety & Depression",
+   "start": "Food instead of capsules: One of the few supplements you can actually eat your w",
+   "words": 46,
+   "worst": "AI",
+   "windows": [
+    {
+     "label": "AI",
+     "confidence": "High",
+     "words": 98,
+     "text": "Food instead of capsules: One of the few supplements you can actually eat your way to. Atl"
+    }
+   ]
+  },
+  {
+   "n": 57,
+   "section": "Part 2: Reducing Anxiety & Depression",
+   "start": "⚠ The catch, again: PS is only for genuinely high cortisol--and there are two wa",
+   "words": 55,
+   "worst": "AI",
+   "windows": [
+    {
+     "label": "AI",
+     "confidence": "High",
+     "words": 98,
+     "text": "⚠ The catch, again: PS is only for genuinely high cortisol--and there are two ways to find"
+    },
+    {
+     "label": "AI",
+     "confidence": "Medium",
+     "words": 5,
+     "text": " PS works by blunting cortisol."
+    },
+    {
+     "label": "AI",
+     "confidence": "High",
+     "words": 275,
+     "text": " If yours isn’t actually elevated, lowering it pushes you down the other side of the curve"
+    }
+   ]
+  },
+  {
+   "n": 58,
+   "section": "Part 2: Reducing Anxiety & Depression",
+   "start": "Flat / numb / no drive--you’ve over-suppressed. Classic too-little-cortisol.",
+   "words": 9,
+   "worst": "AI",
+   "windows": [
+    {
+     "label": "AI",
+     "confidence": "High",
+     "words": 275,
+     "text": "Flat / numb / no drive--you’ve over-suppressed. Classic too-little-cortisol."
+    }
+   ]
+  },
+  {
+   "n": 59,
+   "section": "Part 2: Reducing Anxiety & Depression",
+   "start": "More wired, not less--racing thoughts, 3 a.m. waking, irritability, vivid or str",
+   "words": 40,
+   "worst": "AI",
+   "windows": [
+    {
+     "label": "AI",
+     "confidence": "High",
+     "words": 275,
+     "text": "More wired, not less--racing thoughts, 3 a.m. waking, irritability, vivid or stressful dre"
+    }
+   ]
+  },
+  {
+   "n": 60,
+   "section": "Part 2: Reducing Anxiety & Depression",
+   "start": "Either one means PS is the wrong tool for you right now. Don’t raise the dose to",
+   "words": 38,
+   "worst": "AI",
+   "windows": [
+    {
+     "label": "AI",
+     "confidence": "High",
+     "words": 275,
+     "text": "Either one means PS is the wrong tool for you right now. Don’t raise the dose to push thro"
+    }
+   ]
+  },
+  {
+   "n": 61,
+   "section": "Part 2: Reducing Anxiety & Depression",
+   "start": "The rule of thumb if you can’t test: Wired, tired, can’t switch off, 3 a.m. waki",
+   "words": 42,
+   "worst": "AI",
+   "windows": [
+    {
+     "label": "AI",
+     "confidence": "High",
+     "words": 275,
+     "text": "The rule of thumb if you can’t test: Wired, tired, can’t switch off, 3 a.m. waking → proba"
+    }
+   ]
+  },
+  {
+   "n": 62,
+   "section": "Agmatine vs PS vs Phosphatidylcholine",
+   "start": "Do not confuse these three tools:",
+   "words": 6,
+   "worst": "AI",
+   "windows": [
+    {
+     "label": "AI",
+     "confidence": "High",
+     "words": 275,
+     "text": "Do not confuse these three tools:"
+    }
+   ]
+  },
+  {
+   "n": 63,
+   "section": "Agmatine vs PS vs Phosphatidylcholine",
+   "start": "Phosphatidylserine (PS) is the cortisol-floor tool. Use it only for the high-cor",
+   "words": 16,
+   "worst": "AI",
+   "windows": [
+    {
+     "label": "AI",
+     "confidence": "High",
+     "words": 275,
+     "text": "Phosphatidylserine (PS) is the cortisol-floor tool. Use it only for the high-cortisol “wir"
+    }
+   ]
+  },
+  {
+   "n": 64,
+   "section": "Agmatine vs PS vs Phosphatidylcholine",
+   "start": "Phosphatidylcholine (PC) is a membrane/choline nutrient. It may support general ",
+   "words": 24,
+   "worst": "AI",
+   "windows": [
+    {
+     "label": "AI",
+     "confidence": "High",
+     "words": 275,
+     "text": "Phosphatidylcholine (PC) is a membrane/choline nutrient. It may support general cell-membr"
+    }
+   ]
+  },
+  {
+   "n": 65,
+   "section": "Agmatine vs PS vs Phosphatidylcholine",
+   "start": "Agmatine is different from both. It is an optional glutamate/NO/imidazoline “vol",
+   "words": 49,
+   "worst": "AI",
+   "windows": [
+    {
+     "label": "AI",
+     "confidence": "High",
+     "words": 275,
+     "text": "Agmatine is different from both. It is an optional glutamate/NO/imidazoline “voltage gover"
+    }
+   ]
+  },
+  {
+   "n": 66,
+   "section": "Dopamine Receptor Burnout / DAWS Pattern: Uridine Monophosphate",
+   "start": "Who this is for: Uridine isn’t for everyone with depression. It could be helpful",
+   "words": 146,
+   "worst": "Human, Low",
+   "windows": [
+    {
+     "label": "Human",
+     "confidence": "Low",
+     "words": 11,
+     "text": "Who this is for: Uridine isn’t for everyone with depression."
+    },
+    {
+     "label": "Human",
+     "confidence": "High",
+     "words": 325,
+     "text": " It could be helpful, though, for folks that show a “burned-out dopamine receptor” pattern"
+    }
+   ]
+  },
+  {
+   "n": 67,
+   "section": "Dopamine Receptor Burnout / DAWS Pattern: Uridine Monophosphate",
+   "start": "The tool: Uridine monophosphate (UMP). There’s no study showing that “UMP cures ",
+   "words": 147,
+   "worst": "Human, High",
+   "windows": [
+    {
+     "label": "Human",
+     "confidence": "High",
+     "words": 325,
+     "text": "The tool: Uridine monophosphate (UMP). There’s no study showing that “UMP cures DAWS”, onl"
+    }
+   ]
+  },
+  {
+   "n": 68,
+   "section": "Dopamine Receptor Burnout / DAWS Pattern: Uridine Monophosphate",
+   "start": "Scott added a standard dose of UMP, and within a day his ketamine/LSD cravings f",
+   "words": 93,
+   "worst": "AI",
+   "windows": [
+    {
+     "label": "Human",
+     "confidence": "High",
+     "words": 325,
+     "text": "Scott added a standard dose of UMP, and within a day his ketamine/LSD cravings fell hard. "
+    },
+    {
+     "label": "Human",
+     "confidence": "Medium",
+     "words": 7,
+     "text": " His psychedelic tolerance seemed to drop too."
+    },
+    {
+     "label": "AI",
+     "confidence": "Low",
+     "words": 47,
+     "text": " You can’t prove from this whether UMP rebuilt his D3 receptors overnight, but it does sug"
+    },
+    {
+     "label": "Human",
+     "confidence": "High",
+     "words": 112,
+     "text": " Scott was having vivid dreams again too, with real childhood memories surfacing."
+    }
+   ]
+  },
+  {
+   "n": 69,
+   "section": "Dopamine Receptor Burnout / DAWS Pattern: Uridine Monophosphate",
+   "start": "Do a trial with 150-300mg Uridine, in the morning with food. It shouldn’t take m",
+   "words": 92,
+   "worst": "Human, High",
+   "windows": [
+    {
+     "label": "Human",
+     "confidence": "High",
+     "words": 112,
+     "text": "Do a trial with 150-300mg Uridine, in the morning with food. It shouldn’t take more than 3"
+    }
+   ]
+  },
+  {
+   "n": 70,
+   "section": "Dopamine Receptor Burnout / DAWS Pattern: Uridine Monophosphate",
+   "start": "Side effects / stop signs: In practice, the most common problem is the “choline ",
+   "words": 77,
+   "worst": "Human, Medium",
+   "windows": [
+    {
+     "label": "Human",
+     "confidence": "Medium",
+     "words": 22,
+     "text": "Side effects / stop signs: In practice, the most common problem is the “choline headache”,"
+    },
+    {
+     "label": "Human",
+     "confidence": "High",
+     "words": 560,
+     "text": " That isn’t shown in the studies I’ve seen, but the likely reason is that UMP speeds up ne"
+    }
+   ]
+  },
+  {
+   "n": 71,
+   "section": "Dopamine Receptor Burnout / DAWS Pattern: Uridine Monophosphate",
+   "start": "Vivid dreams and increased sensitivity to psychedelics are the hoped-for benefit",
+   "words": 38,
+   "worst": "Human, High",
+   "windows": [
+    {
+     "label": "Human",
+     "confidence": "High",
+     "words": 560,
+     "text": "Vivid dreams and increased sensitivity to psychedelics are the hoped-for benefits of UMP. "
+    }
+   ]
+  },
+  {
+   "n": 72,
+   "section": "Serotonin Bottleneck Pattern: 5-HTP + Low-Dose P5P",
+   "start": "Who this is for: 5-HTP is not for every depressed person either. It could help, ",
+   "words": 165,
+   "worst": "Human, High",
+   "windows": [
+    {
+     "label": "Human",
+     "confidence": "High",
+     "words": 560,
+     "text": "Who this is for: 5-HTP is not for every depressed person either. It could help, though, wi"
+    }
+   ]
+  },
+  {
+   "n": 73,
+   "section": "Serotonin Bottleneck Pattern: 5-HTP + Low-Dose P5P",
+   "start": "Scott took 100 mg 5-HTP sublingually at night, with 10–20 mg P5P sublingually in",
+   "words": 53,
+   "worst": "Human, High",
+   "windows": [
+    {
+     "label": "Human",
+     "confidence": "High",
+     "words": 560,
+     "text": "Scott took 100 mg 5-HTP sublingually at night, with 10–20 mg P5P sublingually in the morni"
+    }
+   ]
+  },
+  {
+   "n": 74,
+   "section": "Serotonin Bottleneck Pattern: 5-HTP + Low-Dose P5P",
+   "start": "If you’re sensitive, start lower and do the trial with just 50mg 5-HTP at night ",
+   "words": 134,
+   "worst": "Human, High",
+   "windows": [
+    {
+     "label": "Human",
+     "confidence": "High",
+     "words": 560,
+     "text": "If you’re sensitive, start lower and do the trial with just 50mg 5-HTP at night for 2–3 ni"
+    }
+   ]
+  },
+  {
+   "n": 75,
+   "section": "Serotonin Bottleneck Pattern: 5-HTP + Low-Dose P5P",
+   "start": "Side effects / stop signs: The most dangerous symptoms to watch out for are diag",
+   "words": 84,
+   "worst": "Human, High",
+   "windows": [
+    {
+     "label": "Human",
+     "confidence": "High",
+     "words": 560,
+     "text": "Side effects / stop signs: The most dangerous symptoms to watch out for are diagnostic of "
+    }
+   ]
+  },
+  {
+   "n": 76,
+   "section": "Serotonin Bottleneck Pattern: 5-HTP + Low-Dose P5P",
+   "start": "Serotonin syndrome usually comes from mixing 5-HTP casually with anything else t",
+   "words": 104,
+   "worst": "AI",
+   "windows": [
+    {
+     "label": "Human",
+     "confidence": "Medium",
+     "words": 19,
+     "text": "Serotonin syndrome usually comes from mixing 5-HTP casually with anything else that raises"
+    },
+    {
+     "label": "Human",
+     "confidence": "High",
+     "words": 62,
+     "text": " Reviews keep warning about the risk with 5-HTP, like this case report, where a young guy "
+    },
+    {
+     "label": "Human",
+     "confidence": "Low",
+     "words": 3,
+     "text": " Luckily he recovered."
+    },
+    {
+     "label": "AI",
+     "confidence": "Low",
+     "words": 27,
+     "text": " If you’re doing psychedelics, avoid 5-HTP on your psychedelic days, and be especially str"
+    }
+   ]
+  },
+  {
+   "n": 77,
+   "section": "Fixing ATP Signaling if Cortisol Isn’t High",
+   "start": "If your cortisol is normal or low, low ATP signaling in the brain might be what’",
+   "words": 109,
+   "worst": "AI",
+   "windows": [
+    {
+     "label": "Human",
+     "confidence": "Low",
+     "words": 22,
+     "text": "If your cortisol is normal or low, low ATP signaling in the brain might be what’s behind y"
+    },
+    {
+     "label": "Human",
+     "confidence": "High",
+     "words": 80,
+     "text": " Recent neuroscience (Tian-Ming Gao, et al, 2025) has shown in male mice that anxiety and "
+    },
+    {
+     "label": "AI",
+     "confidence": "Low",
+     "words": 13,
+     "text": " That’s only three people, but it’s part of much broader research."
+    }
+   ]
+  },
+  {
+   "n": 78,
+   "section": "Fixing ATP Signaling if Cortisol Isn’t High",
+   "start": "You must pick one of two ketone strategies, because the salts in one bring their",
+   "words": 54,
+   "worst": "AI",
+   "windows": [
+    {
+     "label": "AI",
+     "confidence": "High",
+     "words": 146,
+     "text": "You must pick one of two ketone strategies, because the salts in one bring their own sodiu"
+    }
+   ]
+  },
+  {
+   "n": 79,
+   "section": "Fixing ATP Signaling if Cortisol Isn’t High",
+   "start": "For the long run there’s Strategy B, the “Resilience Mode”, a keto diet with car",
+   "words": 84,
+   "worst": "AI",
+   "windows": [
+    {
+     "label": "AI",
+     "confidence": "High",
+     "words": 146,
+     "text": "For the long run there’s Strategy B, the “Resilience Mode”, a keto diet with carbs under 2"
+    }
+   ]
+  },
+  {
+   "n": 80,
+   "section": "Part 3: THE SHIELD (Flu-Proofing & Voltage Control)",
+   "start": "Goal: Stabilize voltage to prevent the “Biological Crash” (Headaches/Panic).",
+   "words": 9,
+   "worst": "AI",
+   "windows": [
+    {
+     "label": "AI",
+     "confidence": "Low",
+     "words": 23,
+     "text": "Goal: Stabilize voltage to prevent the “Biological Crash” (Headaches/Panic)."
+    }
+   ]
+  },
+  {
+   "n": 81,
+   "section": "1. Electrolytes (Choose Your Path)",
+   "start": "If on Quick Fix, Strategy A (BHB Salts / Standard Diet):Sodium: Standard intake.",
+   "words": 23,
+   "worst": "AI",
+   "windows": [
+    {
+     "label": "AI",
+     "confidence": "Low",
+     "words": 23,
+     "text": "If on Quick Fix, Strategy A (BHB Salts / Standard Diet):Sodium: Standard intake."
+    },
+    {
+     "label": "AI",
+     "confidence": "Medium",
+     "words": 10,
+     "text": " DO NOT load extra salt (Risk of High Blood Pressure)."
+    }
+   ]
+  },
+  {
+   "n": 82,
+   "section": "1. Electrolytes (Choose Your Path)",
+   "start": "Potassium:",
+   "words": 1,
+   "worst": "AI",
+   "windows": [
+    {
+     "label": "AI",
+     "confidence": "High",
+     "words": 10,
+     "text": "Potassium:"
+    }
+   ]
+  },
+  {
+   "n": 83,
+   "section": "1. Electrolytes (Choose Your Path)",
+   "start": "Goal: Install the “Brake Pads” for your nervous system.",
+   "words": 9,
+   "worst": "AI",
+   "windows": [
+    {
+     "label": "AI",
+     "confidence": "High",
+     "words": 10,
+     "text": "Goal: Install the “Brake Pads” for your nervous system."
+    }
+   ]
+  },
+  {
+   "n": 84,
+   "section": "1. Electrolytes (Choose Your Path)",
+   "start": "Mechanism: Potassium Channels (KCNQ).",
+   "words": 4,
+   "worst": "AI",
+   "windows": [
+    {
+     "label": "AI",
+     "confidence": "Medium",
+     "words": 4,
+     "text": "Mechanism: Potassium Channels (KCNQ)."
+    }
+   ]
+  },
+  {
+   "n": 85,
+   "section": "1. Electrolytes (Choose Your Path)",
+   "start": "The Science: Your neurons have “brakes” called KCNQ channels that stop them from",
+   "words": 45,
+   "worst": "AI",
+   "windows": [
+    {
+     "label": "AI",
+     "confidence": "High",
+     "words": 219,
+     "text": "The Science: Your neurons have “brakes” called KCNQ channels that stop them from firing un"
+    }
+   ]
+  },
+  {
+   "n": 86,
+   "section": "1. Electrolytes (Choose Your Path)",
+   "start": "The Target: Aim for 4,700 mg of Potassium daily.",
+   "words": 9,
+   "worst": "AI",
+   "windows": [
+    {
+     "label": "AI",
+     "confidence": "High",
+     "words": 219,
+     "text": "The Target: Aim for 4,700 mg of Potassium daily."
+    }
+   ]
+  },
+  {
+   "n": 87,
+   "section": "1. Electrolytes (Choose Your Path)",
+   "start": "The Source: Food Only. (Supplements are limited to 99mg, and bigger doses need a",
+   "words": 16,
+   "worst": "AI",
+   "windows": [
+    {
+     "label": "AI",
+     "confidence": "High",
+     "words": 219,
+     "text": "The Source: Food Only. (Supplements are limited to 99mg, and bigger doses need a doctor’s "
+    }
+   ]
+  },
+  {
+   "n": 88,
+   "section": "1. Electrolytes (Choose Your Path)",
+   "start": "The Menu (The “Shield” Foods):",
+   "words": 5,
+   "worst": "AI",
+   "windows": [
+    {
+     "label": "AI",
+     "confidence": "High",
+     "words": 219,
+     "text": "The Menu (The “Shield” Foods):"
+    }
+   ]
+  },
+  {
+   "n": 89,
+   "section": "1. Electrolytes (Choose Your Path)",
+   "start": "Potato (Baked with skin): ~925 mg (The King of Potassium).",
+   "words": 10,
+   "worst": "AI",
+   "windows": [
+    {
+     "label": "AI",
+     "confidence": "High",
+     "words": 219,
+     "text": "Potato (Baked with skin): ~925 mg (The King of Potassium)."
+    }
+   ]
+  },
+  {
+   "n": 90,
+   "section": "1. Electrolytes (Choose Your Path)",
+   "start": "Beet Greens (Cooked): ~1,300 mg per cup.",
+   "words": 7,
+   "worst": "AI",
+   "windows": [
+    {
+     "label": "AI",
+     "confidence": "High",
+     "words": 219,
+     "text": "Beet Greens (Cooked): ~1,300 mg per cup."
+    }
+   ]
+  },
+  {
+   "n": 91,
+   "section": "1. Electrolytes (Choose Your Path)",
+   "start": "Salmon: ~1,000 mg per filet.",
+   "words": 5,
+   "worst": "AI",
+   "windows": [
+    {
+     "label": "AI",
+     "confidence": "High",
+     "words": 219,
+     "text": "Salmon: ~1,000 mg per filet."
+    }
+   ]
+  },
+  {
+   "n": 92,
+   "section": "1. Electrolytes (Choose Your Path)",
+   "start": "Avocado: ~700-900 mg.",
+   "words": 3,
+   "worst": "AI",
+   "windows": [
+    {
+     "label": "AI",
+     "confidence": "High",
+     "words": 219,
+     "text": "Avocado: ~700-900 mg."
+    }
+   ]
+  },
+  {
+   "n": 93,
+   "section": "1. Electrolytes (Choose Your Path)",
+   "start": "Coconut Water: ~600 mg per cup.",
+   "words": 6,
+   "worst": "AI",
+   "windows": [
+    {
+     "label": "AI",
+     "confidence": "High",
+     "words": 219,
+     "text": "Coconut Water: ~600 mg per cup."
+    }
+   ]
+  },
+  {
+   "n": 94,
+   "section": "1. Electrolytes (Choose Your Path)",
+   "start": "The Strategy: Eat 2 large potatoes and 2 cups of greens every single day. This s",
+   "words": 29,
+   "worst": "AI",
+   "windows": [
+    {
+     "label": "AI",
+     "confidence": "High",
+     "words": 219,
+     "text": "The Strategy: Eat 2 large potatoes and 2 cups of greens every single day. This saturates y"
+    }
+   ]
+  },
+  {
+   "n": 95,
+   "section": "1. Electrolytes (Choose Your Path)",
+   "start": "If on Deep Fix, Strategy B (Keto Diet): See my Keto Adaptation Guide for electro",
+   "words": 15,
+   "worst": "AI",
+   "windows": [
+    {
+     "label": "AI",
+     "confidence": "High",
+     "words": 219,
+     "text": "If on Deep Fix, Strategy B (Keto Diet): See my Keto Adaptation Guide for electrolytes."
+    }
+   ]
+  },
+  {
+   "n": 96,
+   "section": "2. The Glutamate Shield (Anxiety):",
+   "start": "Sulforaphane from 1 cup of broccoli sprouts (which also contain the myrosinase n",
+   "words": 13,
+   "worst": "AI",
+   "windows": [
+    {
+     "label": "AI",
+     "confidence": "High",
+     "words": 219,
+     "text": "Sulforaphane from 1 cup of broccoli sprouts (which also contain the myrosinase needed)."
+    }
+   ]
+  },
+  {
+   "n": 97,
+   "section": "2. The Glutamate Shield (Anxiety):",
+   "start": "Function: It acts as a “Guardian of the Proteasome,” preventing the premature de",
+   "words": 43,
+   "worst": "AI",
+   "windows": [
+    {
+     "label": "AI",
+     "confidence": "High",
+     "words": 219,
+     "text": "Function: It acts as a “Guardian of the Proteasome,” preventing the premature degradation "
+    }
+   ]
+  },
+  {
+   "n": 98,
+   "section": "2. The Glutamate Shield (Anxiety):",
+   "start": "NAC: 1.8g – 2.4g (divided doses). Mops up glutamate.",
+   "words": 9,
+   "worst": "AI",
+   "windows": [
+    {
+     "label": "AI",
+     "confidence": "High",
+     "words": 219,
+     "text": "NAC: 1.8g – 2.4g (divided doses)."
+    },
+    {
+     "label": "AI",
+     "confidence": "Medium",
+     "words": 3,
+     "text": " Mops up glutamate."
+    }
+   ]
+  },
+  {
+   "n": 99,
+   "section": "2. The Glutamate Shield (Anxiety):",
+   "start": "Agmatine Sulfate (Optional Trial): Start with 250–500 mg in the morning or early",
+   "words": 41,
+   "worst": "AI",
+   "windows": [
+    {
+     "label": "AI",
+     "confidence": "High",
+     "words": 255,
+     "text": "Agmatine Sulfate (Optional Trial): Start with 250–500 mg in the morning or early afternoon"
+    }
+   ]
+  },
+  {
+   "n": 100,
+   "section": "2. The Glutamate Shield (Anxiety):",
+   "start": "Best fit: Glutamate Storm + rumination/compulsion + inflammatory or neuropathic ",
+   "words": 13,
+   "worst": "AI",
+   "windows": [
+    {
+     "label": "AI",
+     "confidence": "High",
+     "words": 255,
+     "text": "Best fit: Glutamate Storm + rumination/compulsion + inflammatory or neuropathic “pain-y” b"
+    }
+   ]
+  },
+  {
+   "n": 101,
+   "section": "2. The Glutamate Shield (Anxiety):",
+   "start": "Poor fit: already numb, low-drive, depressed, dissociated, low blood pressure, s",
+   "words": 16,
+   "worst": "AI",
+   "windows": [
+    {
+     "label": "AI",
+     "confidence": "High",
+     "words": 255,
+     "text": "Poor fit: already numb, low-drive, depressed, dissociated, low blood pressure, sedated, or"
+    }
+   ]
+  },
+  {
+   "n": 102,
+   "section": "2. The Glutamate Shield (Anxiety):",
+   "start": "Cycle rule: use it as a 7–14 day anxiety-phase experiment, not a forever baselin",
+   "words": 30,
+   "worst": "AI",
+   "windows": [
+    {
+     "label": "AI",
+     "confidence": "High",
+     "words": 255,
+     "text": "Cycle rule: use it as a 7–14 day anxiety-phase experiment, not a forever baseline. Stop if"
+    }
+   ]
+  },
+  {
+   "n": 103,
+   "section": "2. The Glutamate Shield (Anxiety):",
+   "start": "Timing rule: avoid agmatine on D-Serine/DCS-style reconsolidation days, or keep ",
+   "words": 19,
+   "worst": "AI",
+   "windows": [
+    {
+     "label": "AI",
+     "confidence": "High",
+     "words": 255,
+     "text": "Timing rule: avoid agmatine on D-Serine/DCS-style reconsolidation days, or keep it at leas"
+    }
+   ]
+  },
+  {
+   "n": 104,
+   "section": "2. The Glutamate Shield (Anxiety):",
+   "start": "Magnesium Glycinate: 400mg (Night). The “Plug” for the anxiety channel.",
+   "words": 10,
+   "worst": "AI",
+   "windows": [
+    {
+     "label": "AI",
+     "confidence": "High",
+     "words": 255,
+     "text": "Magnesium Glycinate: 400mg (Night). The “Plug” for the anxiety channel."
+    }
+   ]
+  },
+  {
+   "n": 105,
+   "section": "2. The Glutamate Shield (Anxiety):",
+   "start": "The Dynorphin Bridge (Apathy / DAWS-pattern Void):Cordyceps mushrooms: A gentle ",
+   "words": 26,
+   "worst": "AI",
+   "windows": [
+    {
+     "label": "AI",
+     "confidence": "High",
+     "words": 255,
+     "text": "The Dynorphin Bridge (Apathy / DAWS-pattern Void):Cordyceps mushrooms: A gentle vitality t"
+    }
+   ]
+  },
+  {
+   "n": 106,
+   "section": "2. The Glutamate Shield (Anxiety):",
+   "start": "Uridine Monophosphate: The more targeted option when the Void looks like dopamin",
+   "words": 47,
+   "worst": "AI",
+   "windows": [
+    {
+     "label": "AI",
+     "confidence": "High",
+     "words": 255,
+     "text": "Uridine Monophosphate: The more targeted option when the Void looks like dopamine-receptor"
+    }
+   ]
+  },
+  {
+   "n": 107,
+   "section": "2. The Glutamate Shield (Anxiety):",
+   "start": "5-HTP: Not a dopamine tool. Use only when the parallel problem looks like low se",
+   "words": 35,
+   "worst": "AI",
+   "windows": [
+    {
+     "label": "AI",
+     "confidence": "High",
+     "words": 255,
+     "text": "5-HTP: Not a dopamine tool. Use only when the parallel problem looks like low serotonin / "
+    }
+   ]
+  },
+  {
+   "n": 108,
+   "section": "3. The “Nuclear Option” (Ethnobotanical)",
+   "start": "The Stack: Microdose Iboga Nasal Spray (Bypasses digestion, quicker effect). Rea",
+   "words": 48,
+   "worst": "Human, Low",
+   "windows": [
+    {
+     "label": "Human",
+     "confidence": "Low",
+     "words": 10,
+     "text": "The Stack: Microdose Iboga Nasal Spray (Bypasses digestion, quicker effect)."
+    },
+    {
+     "label": "Human",
+     "confidence": "High",
+     "words": 39,
+     "text": " Read my iboga microdosing guide to keep safe. While shrooms are often better for a functi"
+    }
+   ]
+  },
+  {
+   "n": 109,
+   "section": "3. The “Nuclear Option” (Ethnobotanical)",
+   "start": "Female Iboga: For “Numbness/Fog” (Anima).",
+   "words": 5,
+   "worst": "Human, Medium",
+   "windows": [
+    {
+     "label": "Human",
+     "confidence": "Medium",
+     "words": 6,
+     "text": "Female Iboga: For “Numbness/Fog” (Anima)."
+    }
+   ]
+  },
+  {
+   "n": 110,
+   "section": "3. The “Nuclear Option” (Ethnobotanical)",
+   "start": "Male Iboga: For “Helplessness/Relapse” (Animus).",
+   "words": 5,
+   "worst": "Human, High",
+   "windows": [
+    {
+     "label": "Human",
+     "confidence": "High",
+     "words": 6,
+     "text": "Male Iboga: For “Helplessness/Relapse” (Animus)."
+    }
+   ]
+  },
+  {
+   "n": 111,
+   "section": "3. The “Nuclear Option” (Ethnobotanical)",
+   "start": "Shrooms: Hillbilly or Mazatapec strains are some of the best (0.1g - 0.2g).",
+   "words": 13,
+   "worst": "Human, Medium",
+   "windows": [
+    {
+     "label": "Human",
+     "confidence": "Medium",
+     "words": 14,
+     "text": "Shrooms: Hillbilly or Mazatapec strains are some of the best (0.1g - 0.2g)."
+    }
+   ]
+  },
+  {
+   "n": 112,
+   "section": "Part 4: THE JAMMER (Acute Symptom Management)",
+   "start": "Instructions: When the symptom wave hits, identify the Type and apply the Fix.",
+   "words": 13,
+   "worst": "AI",
+   "windows": [
+    {
+     "label": "AI",
+     "confidence": "Medium",
+     "words": 38,
+     "text": "Instructions: When the symptom wave hits, identify the Type and apply the Fix."
+    }
+   ]
+  },
+  {
+   "n": 113,
+   "section": "Scenario A: The “Glutamate Storm”",
+   "start": "Symptoms: Anxiety, Rage, “Itchy” Brain, Racing Thoughts, Flashbacks.",
+   "words": 8,
+   "worst": "AI",
+   "windows": [
+    {
+     "label": "AI",
+     "confidence": "Medium",
+     "words": 38,
+     "text": "Symptoms: Anxiety, Rage, “Itchy” Brain, Racing Thoughts, Flashbacks."
+    }
+   ]
+  },
+  {
+   "n": 114,
+   "section": "Scenario A: The “Glutamate Storm”",
+   "start": "Mechanism: The brain is firing too hot. You need to cool the system and jam the ",
+   "words": 17,
+   "worst": "AI",
+   "windows": [
+    {
+     "label": "AI",
+     "confidence": "Medium",
+     "words": 38,
+     "text": "Mechanism: The brain is firing too hot. You need to cool the system and jam the reconsolid"
+    }
+   ]
+  },
+  {
+   "n": 115,
+   "section": "Scenario A: The “Glutamate Storm”",
+   "start": "The Perry-Sequence (Rhythmic First, Visual Second)",
+   "words": 6,
+   "worst": "AI",
+   "windows": [
+    {
+     "label": "AI",
+     "confidence": "High",
+     "words": 50,
+     "text": "The Perry-Sequence (Rhythmic First, Visual Second)"
+    }
+   ]
+  },
+  {
+   "n": 116,
+   "section": "Scenario A: The “Glutamate Storm”",
+   "start": "Anatomy overrides intellect. If your heart rate is elevated or heart-rate-variab",
+   "words": 19,
+   "worst": "AI",
+   "windows": [
+    {
+     "label": "AI",
+     "confidence": "High",
+     "words": 50,
+     "text": "Anatomy overrides intellect. If your heart rate is elevated or heart-rate-variability (HRV"
+    }
+   ]
+  },
+  {
+   "n": 117,
+   "section": "Scenario A: The “Glutamate Storm”",
+   "start": "Step 1: Rhythmic Regulation (Brainstem): Perform 5 minutes of rhythmic, repetiti",
+   "words": 21,
+   "worst": "AI",
+   "windows": [
+    {
+     "label": "AI",
+     "confidence": "High",
+     "words": 50,
+     "text": "Step 1: Rhythmic Regulation (Brainstem): Perform 5 minutes of rhythmic, repetitive sensory"
+    }
+   ]
+  },
+  {
+   "n": 118,
+   "section": "Scenario A: The “Glutamate Storm”",
+   "start": "Step 2: Check Your Baseline: Once your heart rate is within normal range, you ce",
+   "words": 43,
+   "worst": "AI",
+   "windows": [
+    {
+     "label": "AI",
+     "confidence": "Medium",
+     "words": 18,
+     "text": "Step 2: Check Your Baseline: Once your heart rate is within normal range, you cerebral cor"
+    },
+    {
+     "label": "AI",
+     "confidence": "High",
+     "words": 55,
+     "text": " Phosphatidylserine (PS, see Part 2) is a daily baseline agent that lowers how often and h"
+    }
+   ]
+  },
+  {
+   "n": 119,
+   "section": "Scenario A: The “Glutamate Storm”",
+   "start": "Step 3: Apply the Jammer: Now use Tetris or the “Color-Path Connect” game to ove",
+   "words": 18,
+   "worst": "AI",
+   "windows": [
+    {
+     "label": "AI",
+     "confidence": "High",
+     "words": 55,
+     "text": "Step 3: Apply the Jammer: Now use Tetris or the “Color-Path Connect” game to overwrite the"
+    }
+   ]
+  },
+  {
+   "n": 120,
+   "section": "Scenario A: The “Glutamate Storm”",
+   "start": "Advanced tactic: The D-Serine Memory Re-consolidator. While L-Serine provides th",
+   "words": 50,
+   "worst": "AI",
+   "windows": [
+    {
+     "label": "AI",
+     "confidence": "High",
+     "words": 55,
+     "text": "Advanced tactic: The D-Serine Memory Re-consolidator."
+    },
+    {
+     "label": "Human",
+     "confidence": "Medium",
+     "words": 49,
+     "text": " While L-Serine provides the building blocks for myelin, taking D-Serine (700mg–1400mg) on"
+    }
+   ]
+  },
+  {
+   "n": 121,
+   "section": "Scenario A: The “Glutamate Storm”",
+   "start": "D-serine has shown efficacy in studies where it was used to augment exposure the",
+   "words": 108,
+   "worst": "Human, High",
+   "windows": [
+    {
+     "label": "Human",
+     "confidence": "High",
+     "words": 113,
+     "text": "D-serine has shown efficacy in studies where it was used to augment exposure therapy for t"
+    }
+   ]
+  },
+  {
+   "n": 122,
+   "section": "Scenario A: The “Glutamate Storm”",
+   "start": "Use L-Serine for daily maintenance and background hardware support.",
+   "words": 9,
+   "worst": "Human, Medium",
+   "windows": [
+    {
+     "label": "Human",
+     "confidence": "Medium",
+     "words": 27,
+     "text": "Use L-Serine for daily maintenance and background hardware support."
+    }
+   ]
+  },
+  {
+   "n": 123,
+   "section": "Scenario A: The “Glutamate Storm”",
+   "start": "Use D-Serine for acute sessions where you need to “force” memory reconsolidation",
+   "words": 42,
+   "worst": "Human, Medium",
+   "windows": [
+    {
+     "label": "Human",
+     "confidence": "Medium",
+     "words": 27,
+     "text": "Use D-Serine for acute sessions where you need to “force” memory reconsolidation. Best pri"
+    },
+    {
+     "label": "Human",
+     "confidence": "High",
+     "words": 75,
+     "text": " You should take it 45 minutes or so after taking PQQ & Ketones so that your brain is fuel"
+    }
+   ]
+  },
+  {
+   "n": 124,
+   "section": "Scenario A: The “Glutamate Storm”",
+   "start": "Warning: High doses of D-Serine damaged the kidneys in rat studies, so it carrie",
+   "words": 35,
+   "worst": "Human, High",
+   "windows": [
+    {
+     "label": "Human",
+     "confidence": "High",
+     "words": 75,
+     "text": "Warning: High doses of D-Serine damaged the kidneys in rat studies, so it carries a kidney"
+    }
+   ]
+  },
+  {
+   "n": 125,
+   "section": "Scenario B: The “Fog”",
+   "start": "Symptoms: Confusion, Disassociation, Low Energy, “Lagging.”",
+   "words": 6,
+   "worst": "Human, High",
+   "windows": [
+    {
+     "label": "Human",
+     "confidence": "High",
+     "words": 75,
+     "text": "Symptoms: Confusion, Disassociation, Low Energy, “Lagging.”"
+    }
+   ]
+  },
+  {
+   "n": 126,
+   "section": "Scenario B: The “Fog”",
+   "start": "Mechanism: Hypometabolism (Low Fuel) or Toxicity (Static).",
+   "words": 7,
+   "worst": "Human, High",
+   "windows": [
+    {
+     "label": "Human",
+     "confidence": "High",
+     "words": 75,
+     "text": "Mechanism: Hypometabolism (Low Fuel) or Toxicity (Static)."
+    }
+   ]
+  },
+  {
+   "n": 127,
+   "section": "Scenario C: The “Void”",
+   "start": "Symptoms: Numbness, Boredom, “I want to Relapse.”",
+   "words": 7,
+   "worst": "Human, Low",
+   "windows": [
+    {
+     "label": "Human",
+     "confidence": "Low",
+     "words": 13,
+     "text": "Symptoms: Numbness, Boredom, “I want to Relapse.”"
+    }
+   ]
+  },
+  {
+   "n": 128,
+   "section": "Scenario C: The “Void”",
+   "start": "Mechanism: The Dynorphin block is active. You feel “dead.” You need to force a s",
+   "words": 34,
+   "worst": "AI",
+   "windows": [
+    {
+     "label": "Human",
+     "confidence": "Low",
+     "words": 13,
+     "text": "Mechanism: The Dynorphin block is active."
+    },
+    {
+     "label": "AI",
+     "confidence": "Low",
+     "words": 9,
+     "text": " You feel “dead.” You need to force a spark."
+    },
+    {
+     "label": "AI",
+     "confidence": "High",
+     "words": 68,
+     "text": " We will utilize the science of hot and cold showers as a vascular pump, and plant medicin"
+    }
+   ]
+  },
+  {
+   "n": 129,
+   "section": "Scenario C: The “Void”",
+   "start": "First-Line Void Add-Ons: If the Void has a DAWS / D2-D3 burnout flavor, trial UM",
+   "words": 47,
+   "worst": "AI",
+   "windows": [
+    {
+     "label": "AI",
+     "confidence": "High",
+     "words": 68,
+     "text": "First-Line Void Add-Ons: If the Void has a DAWS / D2-D3 burnout flavor, trial UMP before c"
+    }
+   ]
+  },
+  {
+   "n": 130,
+   "section": "Scenario C: The “Void”",
+   "start": "Hot (3 Minutes): As hot as you can safely handle. This relaxes muscles and induc",
+   "words": 26,
+   "worst": "Human, Low",
+   "windows": [
+    {
+     "label": "Human",
+     "confidence": "Low",
+     "words": 27,
+     "text": "Hot (3 Minutes): As hot as you can safely handle. This relaxes muscles and induces mild hy"
+    }
+   ]
+  },
+  {
+   "n": 131,
+   "section": "Scenario C: The “Void”",
+   "start": "The Metabolic Red Line: If your resting heart rate is elevated or HRV reduced, d",
+   "words": 47,
+   "worst": "AI",
+   "windows": [
+    {
+     "label": "AI",
+     "confidence": "Medium",
+     "words": 20,
+     "text": "The Metabolic Red Line: If your resting heart rate is elevated or HRV reduced, do NOT use "
+    },
+    {
+     "label": "AI",
+     "confidence": "High",
+     "words": 16,
+     "text": " Heat mimics exercise and will raise your heart rate further, which can re-enforce your “a"
+    },
+    {
+     "label": "AI",
+     "confidence": "Low",
+     "words": 41,
+     "text": " Stick to lukewarm-to-cold until your baseline heart rate is below 90 BPM."
+    }
+   ]
+  },
+  {
+   "n": 132,
+   "section": "Scenario C: The “Void”",
+   "start": "Cold (1 Minute): Turn it to max cold. This provides the acute stress spike neede",
+   "words": 22,
+   "worst": "AI",
+   "windows": [
+    {
+     "label": "AI",
+     "confidence": "Low",
+     "words": 41,
+     "text": "Cold (1 Minute): Turn it to max cold. This provides the acute stress spike needed to activ"
+    }
+   ]
+  },
+  {
+   "n": 133,
+   "section": "Scenario C: The “Void”",
+   "start": "Repeat: Do this 3 times. Always end on cold.",
+   "words": 9,
+   "worst": "AI",
+   "windows": [
+    {
+     "label": "AI",
+     "confidence": "Low",
+     "words": 41,
+     "text": "Repeat: Do this 3 times."
+    },
+    {
+     "label": "AI",
+     "confidence": "Low",
+     "words": 4,
+     "text": " Always end on cold."
+    }
+   ]
+  },
+  {
+   "n": 134,
+   "section": "Scenario C: The “Void”",
+   "start": "Fun with fungi: If the showers aren’t enough, you can microdose Hillbilly or Maz",
+   "words": 30,
+   "worst": "Human, Low",
+   "windows": [
+    {
+     "label": "Human",
+     "confidence": "Low",
+     "words": 33,
+     "text": "Fun with fungi: If the showers aren’t enough, you can microdose Hillbilly or Mazatapec (ba"
+    }
+   ]
+  },
+  {
+   "n": 135,
+   "section": "Scenario C: The “Void”",
+   "start": "Activate the “Inner Father”: If you are lacking discipline, try a male iboga nas",
+   "words": 46,
+   "worst": "Human, Medium",
+   "windows": [
+    {
+     "label": "Human",
+     "confidence": "Medium",
+     "words": 17,
+     "text": "Activate the “Inner Father”: If you are lacking discipline, try a male iboga nasal spray m"
+    },
+    {
+     "label": "Human",
+     "confidence": "High",
+     "words": 26,
+     "text": "1 spray (equal to about 150mg of bark) in the morning, as it lasts 12 hours. Make sure to "
+    },
+    {
+     "label": "Human",
+     "confidence": "Medium",
+     "words": 34,
+     "text": " Full iboga guide here."
+    }
+   ]
+  },
+  {
+   "n": 136,
+   "section": "Part 5: THE TIMELINE (The 8-Week Path)",
+   "start": "Weeks 1–2: The Glutamate Storm (Anxiety Phase)Protocol:Self-care: Hot & cold sho",
+   "words": 25,
+   "worst": "Human, Medium",
+   "windows": [
+    {
+     "label": "Human",
+     "confidence": "Medium",
+     "words": 34,
+     "text": "Weeks 1–2: The Glutamate Storm (Anxiety Phase)Protocol:Self-care: Hot & cold showers, alte"
+    }
+   ]
+  },
+  {
+   "n": 137,
+   "section": "Part 5: THE TIMELINE (The 8-Week Path)",
+   "start": "Supplement daily:",
+   "words": 2,
+   "worst": "AI",
+   "windows": [
+    {
+     "label": "AI",
+     "confidence": "Low",
+     "words": 33,
+     "text": "Supplement daily:"
+    }
+   ]
+  },
+  {
+   "n": 138,
+   "section": "Part 5: THE TIMELINE (The 8-Week Path)",
+   "start": "Phosphatidylserine about 400 mg earlier in the day only if you fit the high-cort",
+   "words": 30,
+   "worst": "AI",
+   "windows": [
+    {
+     "label": "AI",
+     "confidence": "Low",
+     "words": 33,
+     "text": "Phosphatidylserine about 400 mg earlier in the day only if you fit the high-cortisol profi"
+    }
+   ]
+  },
+  {
+   "n": 139,
+   "section": "Part 5: THE TIMELINE (The 8-Week Path)",
+   "start": "Optional add-on: Agmatine Sulfate 250–500 mg AM, increasing to 500 mg twice dail",
+   "words": 56,
+   "worst": "AI",
+   "windows": [
+    {
+     "label": "AI",
+     "confidence": "High",
+     "words": 95,
+     "text": "Optional add-on: Agmatine Sulfate 250–500 mg AM, increasing to 500 mg twice daily only if "
+    }
+   ]
+  },
+  {
+   "n": 140,
+   "section": "Part 5: THE TIMELINE (The 8-Week Path)",
+   "start": "If PS leaves you flat OR more wired, you’re not a high-cortisol responder--drop ",
+   "words": 28,
+   "worst": "AI",
+   "windows": [
+    {
+     "label": "AI",
+     "confidence": "High",
+     "words": 95,
+     "text": "If PS leaves you flat OR more wired, you’re not a high-cortisol responder--drop it. If agm"
+    }
+   ]
+  },
+  {
+   "n": 141,
+   "section": "Part 5: THE TIMELINE (The 8-Week Path)",
+   "start": "Fuel: Start with BHB Salts (Strategy A) to manage initial fog.",
+   "words": 11,
+   "worst": "AI",
+   "windows": [
+    {
+     "label": "AI",
+     "confidence": "Medium",
+     "words": 31,
+     "text": "Fuel: Start with BHB Salts (Strategy A) to manage initial fog."
+    }
+   ]
+  },
+  {
+   "n": 142,
+   "section": "Part 5: THE TIMELINE (The 8-Week Path)",
+   "start": "Rescue: “The Fire” + Chantress Seba or other music + The Repair Stack (Zn/Leu/Se",
+   "words": 20,
+   "worst": "AI",
+   "windows": [
+    {
+     "label": "AI",
+     "confidence": "Medium",
+     "words": 31,
+     "text": "Rescue: “The Fire” + Chantress Seba or other music + The Repair Stack (Zn/Leu/Ser) + Tetri"
+    }
+   ]
+  },
+  {
+   "n": 143,
+   "section": "Part 5: THE TIMELINE (The 8-Week Path)",
+   "start": "Weeks 3–5: The Dynorphin Void (Depression Phase)State: The anxiety stops, but th",
+   "words": 15,
+   "worst": "AI",
+   "windows": [
+    {
+     "label": "AI",
+     "confidence": "High",
+     "words": 18,
+     "text": "Weeks 3–5: The Dynorphin Void (Depression Phase)State: The anxiety stops, but the world tu"
+    }
+   ]
+  },
+  {
+   "n": 144,
+   "section": "Part 5: THE TIMELINE (The 8-Week Path)",
+   "start": "Protocol:Taper off Phosphatidylserine here. This phase is low-drive and gray by ",
+   "words": 59,
+   "worst": "AI",
+   "windows": [
+    {
+     "label": "AI",
+     "confidence": "Medium",
+     "words": 5,
+     "text": "Protocol:Taper off Phosphatidylserine here."
+    },
+    {
+     "label": "AI",
+     "confidence": "High",
+     "words": 221,
+     "text": " This phase is low-drive and gray by design--you do not want to keep blunting cortisol in "
+    }
+   ]
+  },
+  {
+   "n": 145,
+   "section": "Part 5: THE TIMELINE (The 8-Week Path)",
+   "start": "Also stop agmatine here unless it is unmistakably helping acute glutamate storms",
+   "words": 32,
+   "worst": "AI",
+   "windows": [
+    {
+     "label": "AI",
+     "confidence": "High",
+     "words": 221,
+     "text": "Also stop agmatine here unless it is unmistakably helping acute glutamate storms without w"
+    }
+   ]
+  },
+  {
+   "n": 146,
+   "section": "Part 5: THE TIMELINE (The 8-Week Path)",
+   "start": "UMP trial if the Void looks like DAWS: 150–300 mg UMP in the morning with food f",
+   "words": 61,
+   "worst": "AI",
+   "windows": [
+    {
+     "label": "AI",
+     "confidence": "High",
+     "words": 221,
+     "text": "UMP trial if the Void looks like DAWS: 150–300 mg UMP in the morning with food for 3–7 day"
+    }
+   ]
+  },
+  {
+   "n": 147,
+   "section": "Part 5: THE TIMELINE (The 8-Week Path)",
+   "start": "5-HTP trial if the bottleneck looks serotonergic: 50–100 mg at night for 2–3 nig",
+   "words": 50,
+   "worst": "AI",
+   "windows": [
+    {
+     "label": "AI",
+     "confidence": "High",
+     "words": 221,
+     "text": "5-HTP trial if the bottleneck looks serotonergic: 50–100 mg at night for 2–3 nights, with "
+    }
+   ]
+  },
+  {
+   "n": 148,
+   "section": "Part 5: THE TIMELINE (The 8-Week Path)",
+   "start": "Hot & cold showers, alternating, ending on cold). No hot showers if heart rate e",
+   "words": 37,
+   "worst": "Human, Medium",
+   "windows": [
+    {
+     "label": "Human",
+     "confidence": "Medium",
+     "words": 7,
+     "text": "Hot & cold showers, alternating, ending on cold)."
+    },
+    {
+     "label": "Human",
+     "confidence": "High",
+     "words": 85,
+     "text": " No hot showers if heart rate elevated or heart-rate-variability reduced. Reduce or stop p"
+    }
+   ]
+  },
+  {
+   "n": 149,
+   "section": "Part 5: THE TIMELINE (The 8-Week Path)",
+   "start": "Transition: Consider moving to Strategy B (Keto Diet) for long-term repair (Auto",
+   "words": 19,
+   "worst": "Human, High",
+   "windows": [
+    {
+     "label": "Human",
+     "confidence": "High",
+     "words": 85,
+     "text": "Transition: Consider moving to Strategy B (Keto Diet) for long-term repair (Autophagy) now"
+    }
+   ]
+  },
+  {
+   "n": 150,
+   "section": "Part 5: THE TIMELINE (The 8-Week Path)",
+   "start": "Rescue:",
+   "words": 1,
+   "worst": "Human, High",
+   "windows": [
+    {
+     "label": "Human",
+     "confidence": "High",
+     "words": 85,
+     "text": "Rescue:"
+    }
+   ]
+  },
+  {
+   "n": 151,
+   "section": "Part 5: THE TIMELINE (The 8-Week Path)",
+   "start": "If Foggy: Inhale DMSO + Drink BHB.",
+   "words": 7,
+   "worst": "Human, High",
+   "windows": [
+    {
+     "label": "Human",
+     "confidence": "High",
+     "words": 85,
+     "text": "If Foggy: Inhale DMSO + Drink BHB."
+    }
+   ]
+  },
+  {
+   "n": 152,
+   "section": "Part 5: THE TIMELINE (The 8-Week Path)",
+   "start": "If Numb: Micro-dose Male Iboga and/or Hillybilly/Mazatapec shrooms.",
+   "words": 8,
+   "worst": "Human, High",
+   "windows": [
+    {
+     "label": "Human",
+     "confidence": "High",
+     "words": 85,
+     "text": "If Numb: Micro-dose Male Iboga and/or Hillybilly/Mazatapec shrooms."
+    }
+   ]
+  },
+  {
+   "n": 153,
+   "section": "Part 5: THE TIMELINE (The 8-Week Path)",
+   "start": "Week 8+: The BaselineState: DeltaFosB degraded, if the animal timelines carry ov",
+   "words": 15,
+   "worst": "Human, Medium",
+   "windows": [
+    {
+     "label": "Human",
+     "confidence": "High",
+     "words": 85,
+     "text": "Week 8+: The BaselineState: DeltaFosB degraded, if the animal timelines carry over."
+    },
+    {
+     "label": "Human",
+     "confidence": "Medium",
+     "words": 7,
+     "text": " Hardware reset complete."
+    }
+   ]
+  },
+  {
+   "n": 154,
+   "section": "Part 5: THE TIMELINE (The 8-Week Path)",
+   "start": "Maintenance: Cycle off NAC. Maintain metabolic flexibility (Low Carb/Seasonally ",
+   "words": 10,
+   "worst": "Human, Low",
+   "windows": [
+    {
+     "label": "Human",
+     "confidence": "Medium",
+     "words": 7,
+     "text": "Maintenance: Cycle off NAC."
+    },
+    {
+     "label": "Human",
+     "confidence": "Low",
+     "words": 7,
+     "text": " Maintain metabolic flexibility (Low Carb/Seasonally Keto)."
+    }
+   ]
+  },
+  {
+   "n": 155,
+   "section": "The Aftermath: The Relational Vacuum",
+   "start": "As the armor decays, you will experience a frightening but beautiful side effect",
+   "words": 45,
+   "worst": "AI",
+   "windows": [
+    {
+     "label": "AI",
+     "confidence": "Medium",
+     "words": 14,
+     "text": "As the armor decays, you will experience a frightening but beautiful side effect: Interoce"
+    },
+    {
+     "label": "AI",
+     "confidence": "High",
+     "words": 32,
+     "text": " Van der Kolk describes this as the ability to “feel” your own body again. For years, you "
+    }
+   ]
+  },
+  {
+   "n": 156,
+   "section": "The Aftermath: The Relational Vacuum",
+   "start": "As the dopamine armor fades, you will feel your heart beat. You will feel your g",
+   "words": 50,
+   "worst": "AI",
+   "windows": [
+    {
+     "label": "AI",
+     "confidence": "Medium",
+     "words": 25,
+     "text": "As the dopamine armor fades, you will feel your heart beat. You will feel your gut churn. "
+    },
+    {
+     "label": "AI",
+     "confidence": "High",
+     "words": 7,
+     "text": " Do not mistake this sensitivity for anxiety."
+    },
+    {
+     "label": "AI",
+     "confidence": "Medium",
+     "words": 16,
+     "text": " It is not a symptom of sickness; it is the symptom of coming back to life."
+    },
+    {
+     "label": "AI",
+     "confidence": "Low",
+     "words": 2,
+     "text": " Welcome it."
+    }
+   ]
+  }
+ ],
+ "sections": [
+  {
+   "section": "Introduction",
+   "paragraphs": 2,
+   "AI": 0,
+   "Human, Low": 0,
+   "Human, Medium": 0,
+   "Human, High": 2
+  },
+  {
+   "section": "A Complete Guide to Bio-De-Armoring",
+   "paragraphs": 12,
+   "AI": 8,
+   "Human, Low": 0,
+   "Human, Medium": 2,
+   "Human, High": 2
+  },
+  {
+   "section": "Psychology is the Software; Biology is the Hardware.",
+   "paragraphs": 9,
+   "AI": 5,
+   "Human, Low": 1,
+   "Human, Medium": 3,
+   "Human, High": 0
+  },
+  {
+   "section": "Part 1: THE SCIENCE (Why We Do This)",
+   "paragraphs": 1,
+   "AI": 1,
+   "Human, Low": 0,
+   "Human, Medium": 0,
+   "Human, High": 0
+  },
+  {
+   "section": "A. The Metabolic Red Line",
+   "paragraphs": 2,
+   "AI": 2,
+   "Human, Low": 0,
+   "Human, Medium": 0,
+   "Human, High": 0
+  },
+  {
+   "section": "B. The “Overheating” CPU: Glutamate Excitotoxicity",
+   "paragraphs": 10,
+   "AI": 7,
+   "Human, Low": 1,
+   "Human, Medium": 0,
+   "Human, High": 2
+  },
+  {
+   "section": "C. The “Hardened” Circuit: Dynorphin & DeltaFosB",
+   "paragraphs": 5,
+   "AI": 3,
+   "Human, Low": 0,
+   "Human, Medium": 0,
+   "Human, High": 2
+  },
+  {
+   "section": "D. The “Lagging” System: Toxicity & Hypometabolism (The Fog)",
+   "paragraphs": 2,
+   "AI": 2,
+   "Human, Low": 0,
+   "Human, Medium": 0,
+   "Human, High": 0
+  },
+  {
+   "section": "E. The “Save Button”: Memory Reconsolidation",
+   "paragraphs": 8,
+   "AI": 8,
+   "Human, Low": 0,
+   "Human, Medium": 0,
+   "Human, High": 0
+  },
+  {
+   "section": "Part 2: Reducing Anxiety & Depression",
+   "paragraphs": 10,
+   "AI": 10,
+   "Human, Low": 0,
+   "Human, Medium": 0,
+   "Human, High": 0
+  },
+  {
+   "section": "Agmatine vs PS vs Phosphatidylcholine",
+   "paragraphs": 4,
+   "AI": 4,
+   "Human, Low": 0,
+   "Human, Medium": 0,
+   "Human, High": 0
+  },
+  {
+   "section": "Dopamine Receptor Burnout / DAWS Pattern: Uridine Monophosphate",
+   "paragraphs": 6,
+   "AI": 1,
+   "Human, Low": 1,
+   "Human, Medium": 1,
+   "Human, High": 3
+  },
+  {
+   "section": "Serotonin Bottleneck Pattern: 5-HTP + Low-Dose P5P",
+   "paragraphs": 5,
+   "AI": 1,
+   "Human, Low": 0,
+   "Human, Medium": 0,
+   "Human, High": 4
+  },
+  {
+   "section": "Fixing ATP Signaling if Cortisol Isn’t High",
+   "paragraphs": 3,
+   "AI": 3,
+   "Human, Low": 0,
+   "Human, Medium": 0,
+   "Human, High": 0
+  },
+  {
+   "section": "Part 3: THE SHIELD (Flu-Proofing & Voltage Control)",
+   "paragraphs": 1,
+   "AI": 1,
+   "Human, Low": 0,
+   "Human, Medium": 0,
+   "Human, High": 0
+  },
+  {
+   "section": "1. Electrolytes (Choose Your Path)",
+   "paragraphs": 15,
+   "AI": 15,
+   "Human, Low": 0,
+   "Human, Medium": 0,
+   "Human, High": 0
+  },
+  {
+   "section": "2. The Glutamate Shield (Anxiety):",
+   "paragraphs": 12,
+   "AI": 12,
+   "Human, Low": 0,
+   "Human, Medium": 0,
+   "Human, High": 0
+  },
+  {
+   "section": "3. The “Nuclear Option” (Ethnobotanical)",
+   "paragraphs": 4,
+   "AI": 0,
+   "Human, Low": 1,
+   "Human, Medium": 2,
+   "Human, High": 1
+  },
+  {
+   "section": "Part 4: THE JAMMER (Acute Symptom Management)",
+   "paragraphs": 1,
+   "AI": 1,
+   "Human, Low": 0,
+   "Human, Medium": 0,
+   "Human, High": 0
+  },
+  {
+   "section": "Scenario A: The “Glutamate Storm”",
+   "paragraphs": 12,
+   "AI": 8,
+   "Human, Low": 0,
+   "Human, Medium": 2,
+   "Human, High": 2
+  },
+  {
+   "section": "Scenario B: The “Fog”",
+   "paragraphs": 2,
+   "AI": 0,
+   "Human, Low": 0,
+   "Human, Medium": 0,
+   "Human, High": 2
+  },
+  {
+   "section": "Scenario C: The “Void”",
+   "paragraphs": 9,
+   "AI": 5,
+   "Human, Low": 3,
+   "Human, Medium": 1,
+   "Human, High": 0
+  },
+  {
+   "section": "Part 5: THE TIMELINE (The 8-Week Path)",
+   "paragraphs": 19,
+   "AI": 11,
+   "Human, Low": 1,
+   "Human, Medium": 3,
+   "Human, High": 4
+  },
+  {
+   "section": "The Aftermath: The Relational Vacuum",
+   "paragraphs": 2,
+   "AI": 2,
+   "Human, Low": 0,
+   "Human, Medium": 0,
+   "Human, High": 0
+  }
+ ]
+}
