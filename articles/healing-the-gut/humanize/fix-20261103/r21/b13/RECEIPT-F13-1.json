@@ -1,0 +1,102 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-06",
+ "text_sha256": "39defeee770333606bbcbf58c00a979014b6e823450667e5c3ee30bac7d745a3",
+ "text": "Take 5g a day as a baseline, to keep your enterocytes fed. Take it away from meals, so it doesn't have to compete with the amino acids in your food to get absorbed. If you train hard or long, like CrossFit or intense cardio, your gut lining takes damage. While you train, your body sends blood away from your gut to your working muscles, so your enterocytes get less oxygen and fuel. Glutamine taken two hours before training helps with that. In a study of men running for an hour in the heat, their gut lining leaked less, even at the lowest dose tested, about 15g for a 70kg man. If your immune system is dealing with an acute exposure to toxins or pathogens, or your whole system is under a lot of stress, raise it to 10-30g a day, adding 1g a day in case you're sensitive to it. Up to 14g a day is known to be safe for the long run, but the studies of higher doses were too short to say, so come back down once the exposure or the stress is over. If you have an active inflammatory bowel disease (IBD), like Crohn's or colitis, don't count on glutamine. In the two small trials in active Crohn's, it didn't help.",
+ "section": "Some Causes of poor gut health",
+ "reader": "Someone with a leaky or worn-down gut lining, deciding whether to take glutamine, how much, and when not to.",
+ "sentences": [
+  {
+   "s": "Take 5g a day as a baseline, to keep your enterocytes fed.",
+   "payoff": "The reader knows the everyday dose and what it's for, whether or not they train (his card 4, approved).",
+   "follows": "It gives the dose right after the paragraph on how glutamine feeds the enterocytes."
+  },
+  {
+   "s": "Take it away from meals, so it doesn't have to compete with the amino acids in your food to get absorbed.",
+   "payoff": "The reader knows when to take it, and why: the amino acids in food compete with it (his F9-5 answer).",
+   "follows": "How to take the dose follows the dose."
+  },
+  {
+   "s": "If you train hard or long, like CrossFit or intense cardio, your gut lining takes damage.",
+   "payoff": "A reader who trains hard learns their training damages the gut lining, so the 5g isn't the whole story for them.",
+   "follows": "Training comes next as the case that needs more than the baseline."
+  },
+  {
+   "s": "While you train, your body sends blood away from your gut to your working muscles, so your enterocytes get less oxygen and fuel.",
+   "payoff": "The reader understands how exercise damages the gut, though exercise is good for them elsewhere in the post: blood leaves the gut for the muscles.",
+   "follows": "It answers how the training in the sentence before does the damage."
+  },
+  {
+   "s": "Glutamine taken two hours before training helps with that.",
+   "payoff": "A reader who trains learns what to do about it: take it two hours before.",
+   "follows": "The fix follows the damage just explained."
+  },
+  {
+   "s": "In a study of men running for an hour in the heat, their gut lining leaked less, even at the lowest dose tested, about 15g for a 70kg man.",
+   "payoff": "The reader knows the dose and timing that helped, about 15g, not 5g, and the evidence behind it (Pugh 2017).",
+   "follows": "The study supports the advice in the sentence before, right after it."
+  },
+  {
+   "s": "If your immune system is dealing with an acute exposure to toxins or pathogens, or your whole system is under a lot of stress, raise it to 10-30g a day, adding 1g a day in case you're sensitive to it.",
+   "payoff": "The reader knows the other cases that call for more, what an exposure is (toxins or pathogens), and how to raise it: a gram a day, in case of sensitivity (his F9-5 answers).",
+   "follows": "After training, the other cases that need more than the baseline, as in his sentence."
+  },
+  {
+   "s": "Up to 14g a day is known to be safe for the long run, but the studies of higher doses were too short to say, so come back down once the exposure or the stress is over.",
+   "payoff": "the reader knows how long the high dose is safe, and to come back down once the exposure or the stress is over",
+   "follows": "the limit on the high dose"
+  },
+  {
+   "s": "If you have an active inflammatory bowel disease (IBD), like Crohn's or colitis, don't count on glutamine.",
+   "payoff": "the reader with active Crohn's or colitis knows not to count on glutamine",
+   "follows": "the case where it doesn't help"
+  },
+  {
+   "s": "In the two small trials in active Crohn's, it didn't help.",
+   "payoff": "The reader knows why: the trials found no benefit (Cochrane 2016).",
+   "follows": "The evidence follows the advice it supports."
+  }
+ ],
+ "checked": [
+  {
+   "point": "bile acid diarrhoea: bile acids not absorbed reach the colon and cause diarrhoea; SeHCAT measures it",
+   "found": "NICE DG44 topic description: when bile acids are not absorbed properly, they travel to the colon, and excess bile there causes diarrhoea; SeHCAT is a capsule that measures how well the body absorbs bile acids (https://nice.org.uk/guidance/dg44/documents/topic-description)",
+   "still_needed": "yes: the reader was given the name and no meaning",
+   "fate": "kept"
+  },
+  {
+   "point": "bacteriocins are substances bacteria make that kill other bacteria",
+   "found": "the word as the article already uses it (\"bacteriocins that kill SIBO\"); \"natural antibiotics\" says it in plain words, no new claim",
+   "still_needed": "yes: the term was unexplained",
+   "fate": "kept"
+  }
+ ],
+ "placement": "The glutamine paragraph and its dose under the fuels, as before.",
+ "opens": {
+  "first_sentence": "Take 5g a day as a baseline, to keep your enterocytes fed.",
+  "why_reading": "The reader knows how much glutamine to take as a baseline before anything else."
+ },
+ "same_point": "none: read the fuels under Leaky gut from \"Mitochondrial\" to the butyrate paragraph: glutamine's mechanism and its dose are each said once; Phase 5 points back here",
+ "questions": {
+  "Q1": "PASS: each changed sentence gives its point first: the yogurt step then what its bacteria do; feeding the bacteria then how; the second organ case then its test and treatment; the dose limit then when to come down",
+  "Q2": "PASS: each instruction is the reader's act: re-seed, feed with plants, add plants back slowly, come back down",
+  "Q3": "PASS: the bacteria, the test and the treatment are named exactly; \"30 or more kinds a week\" keeps the number",
+  "Q4": "PASS: bacteriocins and Bile Acid Diarrhea are explained where they are first used; SIBO and the MMC were explained earlier; \"it\" in the dose lines is now \"the exposure or the stress\" and \"glutamine\"",
+  "Q5": "PASS: the colons join each step to what it does; \"instead\" turns the second organ case against the first",
+  "Q6": "PASS: nothing moved; the steps keep their order",
+  "Q7": "PASS: each change tells the reader what to do or what a term means for them",
+  "Q8": "PASS: no item moved between groups",
+  "Q9": "PASS: one step per sentence; the small words carry the relations (its, then, instead, once)"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

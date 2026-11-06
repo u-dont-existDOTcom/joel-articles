@@ -56,7 +56,7 @@ Phase 5's three Low sentences (its first two steps): try 1 (`r19/`) read worse i
 (`r20/`) read the same as its control in the cut of Phases 3 to 6 (#188, 28.3% AI, against #187, 27.8%), and that cut
 reads the steps AI even unchanged, so no cut can judge them (lesson gut-2026-11-06f). Try 3 (`r21/`) glosses each term
 the way his own fix of Phase 1 did. Tries 2 and 3 go to the whole article as drafts C (#189) and D (#190), each with the
-two clarity fixes (Human, High in their stretch, #185), for his extension. Phase 4's Medium (Bile Acid Diarrhea) had its
+two clarity fixes (Human, High in their stretch, #185), for his extension; both drafts render the expected text exactly, and their secret links went to him in chat (`humanize/fix-20261103/r21/substack/PASTED.json`). Phase 4's Medium (Bile Acid Diarrhea) had its
 one try (worse, #184) and is on `humanize/LATER-WINDOWS.md`.
 
 ## Remaining
@@ -64,7 +64,7 @@ one try (worse, #184) and is on `humanize/LATER-WINDOWS.md`.
 1. His extension on drafts C and D (secret links in chat, not in Git): the try that reads Phase 5's steps High goes on
    an approve card (batch 14) and into the article; if neither does, try 4 with a new diagnosis, or the later list with
    the evidence.
-2. Batch 13: the two clarity fixes on approve cards (tested, #185).
+2. Batch 13, the two clarity fixes on one approve card (tested, #185): his answers. Page https://claude.ai/artifact/BFCXEQFqnobrLUhEJwXPrf, cards in `humanize/fix-20261103/r21/b13/REVIEW-CARDS.md`.
 3. Once the fixes are done and answered: the update source rebuilt from the final version (as `r17/live-update/` was),
    his OK once (no email), the update, and the character-by-character comparison (E362 (gut)).
 4. Drafts A to D are his to delete once their results are recorded.

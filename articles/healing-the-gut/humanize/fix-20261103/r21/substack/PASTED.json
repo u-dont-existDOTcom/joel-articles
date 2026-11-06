@@ -1,0 +1,37 @@
+{
+ "turn": "2026-11-06 21:26",
+ "why": "Phase 5's first two steps read Human, Low in the whole article (draft B, #183), and no cut can judge a fix to them (#165, #187; gut-2026-11-06f), so tries 2 and 3 go to the whole article side by side, each in a temporary draft of its own, for his extension",
+ "how": "make_payloads.py from r12.html (the live post's editor HTML) with r20's and r21's words; two new temporary drafts made in the desktop app's built-in browser, where his Substack is signed in, each titled, then pasted from the payload at commit 854b006b with the lane's paste helper (r12/substack/paste_payload_lane.js, its title list set to drafts C and D)",
+ "predictions": {
+  "C": "gut-article-r20#189 in pangram-ledger.jsonl, frozen before the paste: Human at 0.55, on EXPECTED-TEXT-C.txt",
+  "D": "gut-article-r21#190, frozen before the paste: Human at 0.55, on EXPECTED-TEXT-D.txt"
+ },
+ "C": {
+  "title": "Healing the Gut, draft C (temp, delete after)",
+  "editor": "https://ibogaqueen.substack.com/publish/post/223837874",
+  "payload_url": "https://raw.githubusercontent.com/u-dont-existDOTcom/joel-articles/854b006bbbb87453737b7a4b0feaf4a156f91306/articles/healing-the-gut/humanize/fix-20261103/r21/substack/PAYLOAD-C.html",
+  "payload_sha256": "9fae5eda7dc81b778dcdae996c32526c3080fadee0a7fa4df85d40d52f783e57",
+  "editor_words": 4009,
+  "editor_words_sha256": "7961e93c15dcfc889a127266c77e6c641063ff43e08de39e6ffdafadd0e35b5c",
+  "words_match": "true: the editor's words have PAYLOADS.json's SHA-256 (the helper said false only because the value I gave it was mistyped)",
+  "draft_updated_at": "2026-11-06T23:06:16.382Z",
+  "secret_link_cache_key": "gut-r20-c-1",
+  "rendered_check": "75 lines, 23,483 characters, SHA-256 08516b197bc606421ed7355cf9c4d16495ee744543d6ece034ccb17dfd1b2b96: EXPECTED-TEXT-C.txt exactly, in the built-in browser; 127 curled marks in the page and no straight one",
+  "opened": "only in the built-in browser, for the rendered check; the link went to Joel in chat, to click himself (E353)"
+ },
+ "D": {
+  "title": "Healing the Gut, draft D (temp, delete after)",
+  "editor": "https://ibogaqueen.substack.com/publish/post/223838032",
+  "payload_url": "https://raw.githubusercontent.com/u-dont-existDOTcom/joel-articles/854b006bbbb87453737b7a4b0feaf4a156f91306/articles/healing-the-gut/humanize/fix-20261103/r21/substack/PAYLOAD-D.html",
+  "payload_sha256": "96606d1ebf2b29920717ef69b6dee9b56d6e24accb092c02ea697bf3bb3076f3",
+  "editor_words": 4041,
+  "editor_words_sha256": "a60fc3d5180d56bb6d570f9b8257d8fff4b32e3e2b5a9e896ccfb2690e1eea44",
+  "words_match": true,
+  "draft_updated_at": "2026-11-06T23:07:33.029Z",
+  "secret_link_cache_key": "gut-r21-d-1",
+  "rendered_check": "75 lines, 23,663 characters, SHA-256 10026dd8c9611cfcb5c1f0a8210dd35ae0576232b1fa6d5ad5e2ea8da652ddd8: EXPECTED-TEXT-D.txt exactly, in the built-in browser; 129 curled marks in the page and no straight one",
+  "opened": "only in the built-in browser, for the rendered check; the link went to Joel in chat, to click himself (E353)"
+ },
+ "secret_links": "not recorded: anyone with one can read the draft; sent to Joel in chat at about 23:09 UTC",
+ "result": "waiting for his extension's result pages"
+}

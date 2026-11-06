@@ -1,0 +1,71 @@
+{
+ "format": "joel-suggestion-review-v1",
+ "review_id": "healing-the-gut-b13-r21-20261106",
+ "title": "Gut Article, Two Clarity Fixes (Batch 13)",
+ "intro": [
+  "The read before publishing found two places in the glutamine dose paragraph where a reader couldn't tell what \"it\" meant. Both are fixed on the card below, and the paragraph still reads Human, High.",
+  "Phase 5's first two steps, the last sentences that read Low, get their card once your extension has read drafts C and D."
+ ],
+ "git_file": "articles/healing-the-gut/humanize/fix-20261103/r21/b13/REVIEW-PAGE.html",
+ "article": {
+  "file": "articles/healing-the-gut/humanize/fix-20261103/r17/r17.md",
+  "sha256": "a7dc0af0971ec21c5c7016dd87f9c18279752475e184d4656eda296d3051d579"
+ },
+ "built": "2026-11-06",
+ "links": {
+  "guide": "https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/healing-the-gut/humanize/fix-20261103/r21/r21.md",
+  "review": "https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/healing-the-gut/humanize/fix-20261103/r21/b13/REVIEW-CARDS.md"
+ },
+ "types": {
+  "mine": {
+   "label": "My fix",
+   "about": "A sentence a reader couldn't follow, fixed"
+  }
+ },
+ "suggestions": [
+  {
+   "id": "F13-1",
+   "type": "mine",
+   "title": "Two \"it\"s in the glutamine dose paragraph say what they mean",
+   "advice": "approve",
+   "spans": [
+    {
+     "block": 28,
+     "start": 910,
+     "end": 924
+    },
+    {
+     "block": 28,
+     "start": 1007,
+     "end": 1024
+    }
+   ],
+   "edits": [
+    {
+     "block": 28,
+     "before": "Take 5g a day as a baseline, to keep your enterocytes fed. Take it away from meals, so it doesn't have to compete with the amino acids in your food to get absorbed. If you train hard or long, like CrossFit or intense cardio, your gut lining takes damage. While you train, your body sends blood away from your gut to your working muscles, so your enterocytes get less oxygen and fuel. Glutamine taken two hours before training helps with that. In a study of men running for an hour in the heat, their gut lining leaked less, even at the lowest dose tested, about 15g for a 70kg man. If your immune system is dealing with an acute exposure to toxins or pathogens, or your whole system is under a lot of stress, raise it to 10-30g a day, adding 1g a day in case you're sensitive to it. Up to 14g a day is known to be safe for the long run, but the studies of higher doses were too short to say, so come back down once it's over. If you have an active inflammatory bowel disease (IBD), like Crohn's or colitis, don't count on it. In the two small trials in active Crohn's, it didn't help.",
+     "after": "Take 5g a day as a baseline, to keep your enterocytes fed. Take it away from meals, so it doesn't have to compete with the amino acids in your food to get absorbed. If you train hard or long, like CrossFit or intense cardio, your gut lining takes damage. While you train, your body sends blood away from your gut to your working muscles, so your enterocytes get less oxygen and fuel. Glutamine taken two hours before training helps with that. In a study of men running for an hour in the heat, their gut lining leaked less, even at the lowest dose tested, about 15g for a 70kg man. If your immune system is dealing with an acute exposure to toxins or pathogens, or your whole system is under a lot of stress, raise it to 10-30g a day, adding 1g a day in case you're sensitive to it. Up to 14g a day is known to be safe for the long run, but the studies of higher doses were too short to say, so come back down once the exposure or the stress is over. If you have an active inflammatory bowel disease (IBD), like Crohn's or colitis, don't count on glutamine. In the two small trials in active Crohn's, it didn't help."
+    }
+   ],
+   "reads": [
+    {
+     "text": "Take 5g a day as a baseline, to keep your enterocytes fed. Take it away from meals, so it doesn't have to compete with the amino acids in your food to get absorbed. If you train hard or long, like CrossFit or intense cardio, your gut lining takes damage. While you train, your body sends blood away from your gut to your working muscles, so your enterocytes get less oxygen and fuel. Glutamine taken two hours before training helps with that. In a study of men running for an hour in the heat, their gut lining leaked less, even at the lowest dose tested, about 15g for a 70kg man. If your immune system is dealing with an acute exposure to toxins or pathogens, or your whole system is under a lot of stress, raise it to 10-30g a day, adding 1g a day in case you're sensitive to it. Up to 14g a day is known to be safe for the long run, but the studies of higher doses were too short to say, so come back down once the exposure or the stress is over. If you have an active inflammatory bowel disease (IBD), like Crohn's or colitis, don't count on glutamine. In the two small trials in active Crohn's, it didn't help.",
+     "kind": "p"
+    }
+   ],
+   "reads_label": "As it would read",
+   "what": "Each \"it\" named",
+   "why": "A fresh reader, reading the article beside your published version, couldn't tell what two \"it\"s meant. \"So come back down once it's over\": the exposure, the stress, or the training the paragraph mentioned earlier? It's the exposure or the stress, so it now says that. \"Like Crohn's or colitis, don't count on it\": the higher dose, or glutamine at all? The trials it cites gave glutamine itself and it didn't help, so it now says \"don't count on glutamine\".",
+   "stays": "Every dose, the training note, the safety limit and the Crohn's trials, word for word.",
+   "whose": "My fix of a sentence a reader couldn't follow.",
+   "deciding": "Whether it says what you meant.",
+   "advice_note": "Approve, Reject, or Revise.",
+   "reading": "Pangram already read this paragraph Human, High in the whole article ([draft B](https://www.pangram.com/feed/bb64a934-cf2c-47b3-ae93-af2a363a0644), one 1,110-word window); this is a clarity fix.",
+   "tested": "The glutamine paragraph and its dose paragraph with both fixes: [Human Written](https://www.pangram.com/history/b6fbb475-af67-4e35-aed4-b45ded49271c), High (#185).",
+   "receipt": [
+    "articles/healing-the-gut/humanize/fix-20261103/r21/b13/RECEIPT-F13-1.json"
+   ],
+   "found_by": "the pre-publication compare read (a fresh reader, sentence by sentence beside your published text)"
+  }
+ ]
+}
