@@ -4,6 +4,8 @@ to fix that right?").
 
   python3 tools/humanization/lane_push.py "Commit subject" --mailbox "2026-11-01 22:27" [--article inner-child-therapy]
                                            [--add PATH ...] [--pr "Pull request title" --pr-body FILE] [--unread-ok "why"]
+  python3 tools/humanization/lane_push.py --lesson-id gut     the next free lesson name for the lane today, such as
+                                                              gut-2026-11-06e (docs/lessons/README.md)
 
 1. registers the article's artifacts (scripts/register_article_artifacts.py --write), stages the article folder,
    articles/INDEX.json and any --add paths, and commits with the subject, adding the trailer lines in
@@ -403,9 +405,71 @@ def shared_changes():
     return shared(run(['git', 'diff', '--name-only', 'origin/main...HEAD'], check=False).stdout.split())
 
 
-def merge_gate(a, pending):
+ROBOT = '.github/workflows/lane-automerge.yml'
+GATE_DOC = 'docs/HUMANIZATION-GATE.md'
+
+
+def new_duplicate_lessons(branch_text, main_text):
+    """Lesson numbers that the branch's gate uses twice and main's doesn't: two lanes took the same next number in the
+    same hour (2026-11-06: the neuro lane's E374 and the gut lane's, which became E378, and then E379 when the bad trips
+    lane gave out E378 first). Older shared numbers, already cited with their lane, stay as they are."""
+    def dups(text):
+        nums = re.findall(r'^- \*\*E(\d+)\. ', text or '', re.M)
+        return {n for n in nums if nums.count(n) > 1}, nums
+    mine, nums = dups(branch_text)
+    old, _ = dups(main_text)
+    return sorted(mine - old, key=int), max(map(int, nums)) + 1 if nums else None
+
+
+LESSONS_DIR = 'docs/lessons'
+
+
+def lesson_texts(ref=None):
+    """The gate and every lesson file (gut-2026-11-06d: from 2026-11-06 a lane's lessons from one message of Joel's go
+    in a file of their own, docs/lessons/<date>-<HHMM>-<lane>.md), as one text: from the working tree, or at REF."""
+    if ref is None:
+        files = [REPO / GATE_DOC] + sorted((REPO / LESSONS_DIR).glob('*.md'))
+        return '\n'.join(f.read_text(encoding='utf-8') for f in files if f.exists())
+    names = run(['git', 'ls-tree', '--name-only', ref, LESSONS_DIR + '/'], check=False).stdout.split()
+    return '\n'.join(run(['git', 'show', '%s:%s' % (ref, n)], check=False).stdout
+                     for n in [GATE_DOC] + sorted(x for x in names if x.endswith('.md')))
+
+
+def next_lesson_id(lane, date, text):
+    """The next free name for a lesson of LANE written on DATE (YYYY-MM-DD): <lane>-<date><letter>, a to z, after the
+    names TEXT already has (gut-2026-11-06d). Named lessons can't collide between lanes, so none is renumbered."""
+    stem = '%s-%s' % (lane, date)
+    used = set(re.findall(r'\*\*%s([a-z])\. ' % re.escape(stem), text or ''))
+    for c in 'abcdefghijklmnopqrstuvwxyz':
+        if c not in used:
+            return stem + c
+    sys.exit('%s has 26 lessons already: start the next with %s-<a later date>' % (stem, lane))
+
+
+def lesson_numbers_gate():
+    """Refuse a push whose gate or lesson files give a new lesson a number main already gave another (gate E379)."""
+    new, nxt = new_duplicate_lessons(lesson_texts(), lesson_texts('origin/main'))
+    if new:
+        sys.exit('refused: two lessons are numbered %s. Main gave the number out first: name yours instead, in a file of '
+                 'its own (%s/README.md; `lane_push.py --lesson-id <lane>`), in every file that cites it (gates E379 and '
+                 'gut-2026-11-06d).' % (', '.join('E' + n for n in new), LESSONS_DIR))
+
+
+def robot_on_main():
+    """Whether main has the lane auto-merge workflow (gate E379), which merges a lane's pull request once its checks
+    pass and it has no conflicts."""
+    return run(['git', 'cat-file', '-e', 'origin/main:' + ROBOT], check=False).returncode == 0
+
+
+def merge_gate(a, pending, robot=None):
     """Refuse a push of shared changes that says neither --merge nor --no-merge (Joel, 2026-11-05: "make sure you merge
-    lessons with main branch so everyone is sharing always")."""
+    lessons with main branch so everyone is sharing always"), unless main has the lane auto-merge workflow, which merges
+    the pull request itself once its checks pass (gate E379; Joel, 2026-11-06: every lane's pull request merges
+    itself)."""
+    if robot is None:
+        robot = robot_on_main()
+    if pending and not (a.merge or a.no_merge) and robot:
+        return
     if pending and not (a.merge or a.no_merge):
         sys.exit('refused: this branch changes shared rules or tools (%s), and lessons go to main the turn they are made '
                  '(Joel, 2026-11-05 15:15 UTC: "make sure you merge lessons with main branch so everyone is sharing '
@@ -447,6 +511,15 @@ def merge_now(wait=600):
 
 
 def main(argv=None):
+    argv = sys.argv[1:] if argv is None else argv
+    if argv[:1] == ['--lesson-id']:
+        # the next free lesson name for a lane, today (UTC), from the working tree and main (gut-2026-11-06d)
+        if len(argv) != 2:
+            sys.exit('usage: lane_push.py --lesson-id <lane>')
+        run(['git', 'fetch', '-q', 'origin', '+refs/heads/main:refs/remotes/origin/main'], check=False, timeout=180)
+        today = time.strftime('%Y-%m-%d', time.gmtime())
+        print(next_lesson_id(argv[1], today, lesson_texts() + '\n' + lesson_texts('origin/main')))
+        return 0
     ap = parser()
     a = ap.parse_args(argv)
     if a.pr and not a.pr_body:
@@ -465,6 +538,7 @@ def main(argv=None):
             print(line)
     pending = sorted(set(shared_changes()) | set(shared(a.add)))
     merge_gate(a, pending)
+    lesson_numbers_gate()
     note = compare_gate(a.article, a.unread_ok)
     if pending and a.no_merge:
         note = ((note + '\n\n') if note else '') + 'Shared changes not merged into main this turn: ' + a.no_merge
@@ -485,9 +559,29 @@ def main(argv=None):
     print(mergeable())
     if a.merge:
         print(merge_now())
+    elif a.no_merge and robot_on_main():
+        print(hold(a.no_merge))
+    elif robot_on_main():
+        print('the lane auto-merge workflow merges this pull request once its checks pass and it has no conflicts (E379)')
     elif pending:
         print('shared changes NOT merged into main: %s' % a.no_merge)
     return 0
+
+
+def hold(why):
+    """--no-merge with the lane auto-merge workflow on main: label the pull request "hold", so the workflow leaves it
+    for Joel (gate E379), and say why on it."""
+    branch = run(['git', 'rev-parse', '--abbrev-ref', 'HEAD']).stdout.strip()
+    owner, repo = owner_repo()
+    num = run(['gh', 'api', 'repos/%s/%s/pulls?state=open&head=%s:%s' % (owner, repo, owner, branch),
+               '--jq', '.[0].number // empty'], check=False).stdout.strip()
+    if not num:
+        return 'NOT HELD: no open pull request for %s' % branch
+    r = run(['gh', 'api', '-X', 'POST', 'repos/%s/%s/issues/%s/labels' % (owner, repo, num), '-f', 'labels[]=hold'],
+            check=False)
+    if r.returncode:
+        return 'NOT HELD: GitHub refused the "hold" label on pull request %s: %s' % (num, (r.stderr or r.stdout).strip()[-300:])
+    return 'pull request %s labelled "hold", so the lane auto-merge workflow leaves it: %s' % (num, why)
 
 
 if __name__ == '__main__':

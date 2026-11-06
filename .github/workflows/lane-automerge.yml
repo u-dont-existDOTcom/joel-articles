@@ -1,0 +1,67 @@
+name: Lane auto-merge
+
+# Gate E379. Joel, 2026-11-06 19:48 UTC, on the gut lane's pull request 308 conflicting again: "how can we durably
+# prevent this from happening when i have multiple lanes working on the same thing, is that not possible?" The cause:
+# the other lanes merged their own pull requests a minute after opening them, while the gut lane's session may not
+# merge, so its pull requests waited hours for his click and main moved under them. His choice the same day: every
+# lane's pull request merges itself once its checks pass and it has no conflicts.
+#
+# What it merges: an open, non-draft pull request into main from a claude/ branch of this repository (never a fork),
+# opened by the repository's owner (the lanes push as him), whose Content integrity run passed on the commit the pull
+# request still has, and that GitHub finds mergeable. A "hold" label stops it (lane_push.py --no-merge adds one).
+# It reads no code from the pull request: only the GitHub API.
+
+on:
+  workflow_run:
+    workflows: ["Content integrity"]
+    types: [completed]
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: lane-automerge
+  cancel-in-progress: false
+
+jobs:
+  merge:
+    if: >-
+      github.event.workflow_run.conclusion == 'success' &&
+      github.event.workflow_run.event == 'pull_request' &&
+      startsWith(github.event.workflow_run.head_branch, 'claude/') &&
+      github.event.workflow_run.head_repository.full_name == github.repository
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Merge the lane's pull request
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO: ${{ github.repository }}
+          OWNER: ${{ github.repository_owner }}
+          HEAD_SHA: ${{ github.event.workflow_run.head_sha }}
+          HEAD_BRANCH: ${{ github.event.workflow_run.head_branch }}
+        run: |
+          set -euo pipefail
+          pr=$(gh api "repos/$REPO/pulls?state=open&base=main&head=$OWNER:$HEAD_BRANCH" --jq '.[0].number // empty')
+          if [ -z "$pr" ]; then echo "no open pull request from $HEAD_BRANCH into main"; exit 0; fi
+          info='{}'
+          for i in $(seq 1 12); do
+            info=$(gh api "repos/$REPO/pulls/$pr")
+            [ "$(echo "$info" | jq -r '.mergeable')" != "null" ] && break
+            sleep 5
+          done
+          head=$(echo "$info" | jq -r '.head.sha')
+          author=$(echo "$info" | jq -r '.user.login')
+          draft=$(echo "$info" | jq -r '.draft')
+          mergeable=$(echo "$info" | jq -r '.mergeable')
+          hold=$(echo "$info" | jq -r '[.labels[].name] | index("hold") != null')
+          echo "pull request #$pr: head $head, author $author, draft $draft, mergeable $mergeable, hold $hold"
+          if [ "$head" != "$HEAD_SHA" ]; then echo "the branch has a newer commit; that commit's own run decides"; exit 0; fi
+          if [ "$author" != "$OWNER" ] || [ "$draft" = "true" ] || [ "$hold" = "true" ]; then echo "not merging"; exit 0; fi
+          if [ "$mergeable" != "true" ]; then
+            echo "::warning::pull request #$pr has conflicts with main: its lane merges main in and pushes again"
+            exit 0
+          fi
+          gh api -X PUT "repos/$REPO/pulls/$pr/merge" -f merge_method=merge -f sha="$HEAD_SHA" \
+            -f commit_title="Merge pull request #$pr from $OWNER/$HEAD_BRANCH (lane auto-merge)" --jq '.message'

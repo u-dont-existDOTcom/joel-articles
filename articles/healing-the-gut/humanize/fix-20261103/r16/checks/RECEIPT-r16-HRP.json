@@ -1,0 +1,64 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "text_sha256": "743319bf565d5a4bb3c9134f43d533415b1bfe3c7d57d4b8fcd8f1e2e2dff01f",
+ "text": "Plant foods (Phases 2 and 5): The carnivore diet is trending, as many people (especially with leaky gut or lack of oxalate-processing bacteria) are noticing they cannot handle the fiber in plants, or the oxalates and phytates, compounds in many plants that bind minerals. It's certainly a diet worth trying, but it can lead to deficiencies over time, especially with regard to vitamins C, E, fiber, magnesium, potassium, calcium, iodine and other trace minerals, and bacteria needed to process plant foods (which already are likely missing in people who need this diet), thus making the carnivore diet sort of hard to get off.\n\nFor the most research-backed recommendations you can check this deep research report from an older version of AskRigor, my research tool, and re-check it with askrigor.com for an up-to-date verification. Glutamine seems worth checking into, but plant intolerance is a symptom of a variety of underlying diseases that all have different treatments.",
+ "section": "Some Causes of poor gut health",
+ "reader": "Someone with poor gut health who finds plants bother them, weighing the carnivore diet, who wants to know what the research supports and has never heard of AskRigor.",
+ "sentences": [
+  {
+   "s": "Plant foods (Phases 2 and 5): The carnivore diet is trending, as many people (especially with leaky gut or lack of oxalate-processing bacteria) are noticing they cannot handle the fiber in plants, or the oxalates and phytates, compounds in many plants that bind minerals.",
+   "payoff": "The reader learns what oxalates and phytates are (plant compounds that bind minerals) when deciding if they're why plants bother them.",
+   "follows": "It opens the next cause in the list, after SIBO."
+  },
+  {
+   "s": "It's certainly a diet worth trying, but it can lead to deficiencies over time, especially with regard to vitamins C, E, fiber, magnesium, potassium, calcium, iodine and other trace minerals, and bacteria needed to process plant foods (which already are likely missing in people who need this diet), thus making the carnivore diet sort of hard to get off.",
+   "his": true
+  },
+  {
+   "s": "For the most research-backed recommendations you can check this deep research report from an older version of AskRigor, my research tool, and re-check it with askrigor.com for an up-to-date verification.",
+   "payoff": "The reader knows where the research-backed recommendations are, what made them (AskRigor, his research tool, in an older version), and how to get them up to date (re-check them with askrigor.com).",
+   "follows": "It follows the carnivore paragraph, which says the diet is hard to get off, with where to look for what the research supports."
+  },
+  {
+   "s": "Glutamine seems worth checking into, but plant intolerance is a symptom of a variety of underlying diseases that all have different treatments.",
+   "his": true
+  }
+ ],
+ "checked": [
+  {
+   "point": "the report came from an older version of AskRigor; readers can re-check it with askrigor.com",
+   "found": "his answer F10-4, 2026-11-05 22:58 UTC (\"yes it was an old version of askrigor basically, we can tell them to re-check it with askrigor.com for an up-to-date verification\")",
+   "still_needed": "yes: \"HRP\" told readers nothing",
+   "fate": "kept"
+  },
+  {
+   "point": "the Gem works on free Gemini; the highest thinking level gives the best answers",
+   "found": "his answer F10-5, 2026-11-05 22:56 UTC (\"i just tested it with free gemini and it worked ... i'd just tell people to use the highest thinking level they can for best answers as usual\")",
+   "still_needed": "yes: the two modes named before disagreed",
+   "fate": "kept"
+  }
+ ],
+ "placement": "The line after the carnivore paragraph, where he points to the research, as before; the report now named by what made it.",
+ "questions": {
+  "Q1": "PASS: each new sentence leads with its point (where the recommendations are; that the Gem works on free Gemini) and explains AskRigor in the sentence that first names it",
+  "Q2": "PASS: the instructions say what they get the reader (re-check it for an up-to-date verification; the highest thinking level for the best answers)",
+  "Q3": "PASS: the report, the tool and the setting are each named exactly (an older version of AskRigor; askrigor.com; the highest thinking level)",
+  "Q4": "PASS: AskRigor is explained where first named (\"my research tool\"); \"thinking level\" is the setting's name in Gemini, his word; no other new term",
+  "Q5": "PASS: the \"but\" in the Gem sentence turns on \"it works\": free is enough, the highest level is better",
+  "Q6": "PASS: nothing moved between paragraphs; the Gem advice sits after what the Gem is for",
+  "Q7": "PASS: each change is what this reader needs to use the report or the Gem",
+  "Q8": "N/A: no list items changed",
+  "Q9": "PASS: his answer's \"re-check it with askrigor.com for an up-to-date verification\" joined to the sentence it follows, one step; nothing compressed"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone?",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

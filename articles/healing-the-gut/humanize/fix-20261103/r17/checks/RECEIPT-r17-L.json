@@ -1,0 +1,132 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-06",
+ "text_sha256": "78dcbc9070238e3e466d9d53f910a4c3739d1a43a53ea9dfb50f0fc46ce7dc6d",
+ "text": "Gemini suggested these kits to me, but so far they're the best ones I've seen, tho I haven't used them myself, so check the reviews. Microbiome Labs Total Gut Restoration covers all three categories, with a probiotic, a prebiotic and a product for the gut lining in one kit, so it's the best general one. Dr. Ruscio's Leaky Gut Support Kit has a probiotic and two gut lining products, one of them glutamine, but no prebiotic, so it's more for when leaky gut is your main problem. Finally, Designs for Health GI Revive is only gut-lining nutrients and herbs, so you'd still need a probiotic and a prebiotic with it.\n\nYou'll also find \"gut cleanse\" stacks, built around oregano oil, wormwood, black walnut, berberine or other antimicrobial herbs. They kill bugs, like the herbal antibiotics in Phase 3, so they're only for when changing your diet hasn't cleared your symptoms. And even then I'd mostly skip them, because H2O2 works better without the side effects. The exception is berberine for H. pylori: take it on its own, not in a cleanse stack (see Parasites, above).\n\nStart any of these supplements or stacks at a low dose and build up slowly as your gut gets used to it. It's quite common for the prebiotic part especially to give you gas at first, since gas is what your bacteria make when they ferment the fiber or resistant starch, and a new probiotic can bloat you or upset your stomach for a while.\n\nSome severe symptoms warrant seeing a doctor rather than considering this DIY approach at the moment. Take it seriously if you notice blood in your stool (if it's blood from upper digestive tract, it could be smelly, black & tarry, not red like from the lower digestive tract). Other serious signs to note: losing weight fast, severe pain, a fever or dehydration. And if you're pregnant or breastfeeding, skip berberine, which can give a newborn jaundice, and ask your doctor about any other herb or supplement first. If your immune system is weak, some probiotics could be risky, since they're live bacteria that need to be kept in check to prevent overgrowth. If you have an IBD flare, cancer or another serious illness, the standard disclaimer applies: work out what to take with your doctor instead of putting a stack together yourself.",
+ "section": "the stacks",
+ "reader": "Someone about to buy a gut kit or cleanse stack, who needs to know which one, how to start, and when to see a doctor instead.",
+ "sentences": [
+  {
+   "s": "Gemini suggested these kits to me, but so far they're the best ones I've seen, tho I haven't used them myself, so check the reviews.",
+   "payoff": "the reader knows where the kits came from and how far to trust them",
+   "follows": "opens the kits"
+  },
+  {
+   "s": "Microbiome Labs Total Gut Restoration covers all three categories, with a probiotic, a prebiotic and a product for the gut lining in one kit, so it's the best general one.",
+   "payoff": "the reader knows the best general kit and why",
+   "follows": "first kit"
+  },
+  {
+   "s": "Dr. Ruscio's Leaky Gut Support Kit has a probiotic and two gut lining products, one of them glutamine, but no prebiotic, so it's more for when leaky gut is your main problem.",
+   "payoff": "the reader knows the kit for leaky gut and what it lacks",
+   "follows": "second kit"
+  },
+  {
+   "s": "Finally, Designs for Health GI Revive is only gut-lining nutrients and herbs, so you'd still need a probiotic and a prebiotic with it.",
+   "payoff": "the reader knows the third kit and what it would need added",
+   "follows": "third kit"
+  },
+  {
+   "s": "You'll also find \"gut cleanse\" stacks, built around oregano oil, wormwood, black walnut, berberine or other antimicrobial herbs.",
+   "payoff": "the reader learns what a gut cleanse stack is",
+   "follows": "after the kits, the other kind of stack"
+  },
+  {
+   "s": "They kill bugs, like the herbal antibiotics in Phase 3, so they're only for when changing your diet hasn't cleared your symptoms.",
+   "payoff": "the reader learns when a cleanse stack is for, and when not",
+   "follows": "what the stack does"
+  },
+  {
+   "s": "And even then I'd mostly skip them, because H2O2 works better without the side effects.",
+   "payoff": "the reader learns why to mostly skip them",
+   "follows": "his view after when they apply"
+  },
+  {
+   "s": "The exception is berberine for H. pylori: take it on its own, not in a cleanse stack (see Parasites, above).",
+   "payoff": "the reader knows the one exception and how to take it",
+   "follows": "the exception to skipping"
+  },
+  {
+   "s": "Start any of these supplements or stacks at a low dose and build up slowly as your gut gets used to it.",
+   "payoff": "the reader knows to start low and go slowly",
+   "follows": "how to start any of these"
+  },
+  {
+   "s": "It's quite common for the prebiotic part especially to give you gas at first, since gas is what your bacteria make when they ferment the fiber or resistant starch, and a new probiotic can bloat you or upset your stomach for a while.",
+   "payoff": "the reader learns what side effects to expect at first, and why",
+   "follows": "why to go slowly"
+  },
+  {
+   "s": "Some severe symptoms warrant seeing a doctor rather than considering this DIY approach at the moment.",
+   "payoff": "the reader knows some symptoms mean a doctor first",
+   "follows": "opens the warnings"
+  },
+  {
+   "s": "Take it seriously if you notice blood in your stool (if it's blood from upper digestive tract, it could be smelly, black & tarry, not red like from the lower digestive tract).",
+   "payoff": "the reader knows how to tell the two kinds of blood in their stool apart",
+   "follows": "the first warning sign"
+  },
+  {
+   "s": "Other serious signs to note: losing weight fast, severe pain, a fever or dehydration.",
+   "payoff": "the reader knows the other signs that need a doctor",
+   "follows": "more warning signs"
+  },
+  {
+   "s": "And if you're pregnant or breastfeeding, skip berberine, which can give a newborn jaundice, and ask your doctor about any other herb or supplement first.",
+   "payoff": "the reader knows to skip berberine if pregnant or breastfeeding, why, and to ask about the rest",
+   "follows": "the next group the warnings cover"
+  },
+  {
+   "s": "If your immune system is weak, some probiotics could be risky, since they're live bacteria that need to be kept in check to prevent overgrowth.",
+   "payoff": "the reader knows weak immunity makes probiotics risky, and why",
+   "follows": "the next group"
+  },
+  {
+   "s": "If you have an IBD flare, cancer or another serious illness, the standard disclaimer applies: work out what to take with your doctor instead of putting a stack together yourself.",
+   "payoff": "the reader knows serious illness means working out the plan with a doctor",
+   "follows": "closes the warnings"
+  }
+ ],
+ "checked": [
+  {
+   "point": "berberine is not for pregnancy or breastfeeding: it can cause or worsen jaundice in newborns",
+   "found": "NCCIH, In the News: Berberine: people who are pregnant or breastfeeding should not use berberine; it can cause or worsen jaundice in newborn infants (https://www.nccih.nih.gov/health/in-the-news-berberine)",
+   "still_needed": "yes: \"some herbs and supplements, like berberine\" didn't say what to do",
+   "fate": "kept"
+  },
+  {
+   "point": "resistant starch escapes digestion and is fermented by the gut's bacteria",
+   "found": "https://www.frontiersin.org/articles/10.3389/fnut.2024.1369950/full",
+   "still_needed": "yes",
+   "fate": "kept"
+  }
+ ],
+ "placement": "The warnings in their order; the pregnancy line now names what to do and why.",
+ "opens": {
+  "first_sentence": "Gemini suggested these kits to me, but so far they're the best ones I've seen, tho I haven't used them myself, so check the reviews.",
+  "why_reading": "It tells the reader these kits are suggestions to check, before they spend money on one."
+ },
+ "same_point": "none: read the stacks section from its heading to the end: berberine is named for H. pylori and for pregnancy, two different points",
+ "questions": {
+  "Q1": "PASS: the fixed sentences give their point first: resistant starch's job, then why; each organ case opens on what the reader would have; the pregnancy line names what to do, then why",
+  "Q2": "PASS: the instructions name the act (test for that with Stool Elastase; skip berberine; ask your doctor)",
+  "Q3": "PASS: each test, treatment and supplement is named exactly",
+  "Q4": "PASS: Exocrine Pancreatic Insufficiency is explained where it is named; SeHCAT and stool elastase are named as the tests; jaundice is a word a high-school graduate knows",
+  "Q5": "PASS: \"so it all goes to them\" turns on \"can't digest it\"; \"If\" opens each organ case",
+  "Q6": "PASS: nothing moved between paragraphs",
+  "Q7": "PASS: each change is what the reader needs to act",
+  "Q8": "PASS: no item moved between groups",
+  "Q9": "PASS: each question-and-answer pair is one sentence now, one step each; nothing compressed"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

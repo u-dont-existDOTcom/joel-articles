@@ -1,0 +1,81 @@
+{
+ "format": "joel-suggestion-review-answers-v1",
+ "review_id": "healing-the-gut-b12-r17-20261106",
+ "title": "Gut Article, The Windows Left Below High (Batch 12)",
+ "git_file": "articles/healing-the-gut/humanize/fix-20261103/r17/b12/REVIEW-PAGE.html",
+ "article": {
+  "file": "articles/healing-the-gut/humanize/fix-20261103/r12/r12.md",
+  "sha256": "05f038f7370ca372efec6c103072d2043d9dc622ec858870d97d0bc340baa8b7"
+ },
+ "built": "2026-11-06",
+ "generator": "suggestion_review.py 1.8 (2026-11-06)",
+ "exported_at": "2026-11-06T21:06:11.242Z",
+ "counts": {
+  "approved": 3,
+  "rejected": 0,
+  "revise": 0,
+  "pending": 0
+ },
+ "items": [
+  {
+   "id": "F12-1",
+   "type": "mine",
+   "title": "Beta-glucans and resistant starch say what they are for",
+   "where": "Some Causes of poor gut health, P16",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "Beta-glucans, a kind of fiber found in yeast extract, to help your gut lining hold together under stress.\n\nResistant starch to feed the good bacteria in your gut: your body can't digest it, so it all goes to them.",
+   "before": "Beta-glucans, in yeast extract.\n\nResistant starch to feed the good bacteria in your gut.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-06T21:05:14.123Z"
+    }
+   ],
+   "updated": "2026-11-06T21:05:14.123Z"
+  },
+  {
+   "id": "F12-2",
+   "type": "mine",
+   "title": "Phase 4 opens each organ case on what you'd have",
+   "where": "Phase 4: The Investigation, P2",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "So check your organs (Brown). If your pancreas doesn't make enough digestive enzymes, called Exocrine Pancreatic Insufficiency, you'd test for that with Stool Elastase, and treat it with high-dose enzymes. If it's Bile Acid Diarrhea, the test is SeHCAT, and the treatment is bile binders.",
+   "before": "So check your organs (Brown). Is it Exocrine Pancreatic Insufficiency? You'd test for that with Stool Elastase, and treat it with high-dose enzymes. Or is it Bile Acid Diarrhea? That test is SeHCAT, and the treatment is bile binders.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-06T21:05:35.618Z"
+    }
+   ],
+   "updated": "2026-11-06T21:05:35.618Z"
+  },
+  {
+   "id": "F12-3",
+   "type": "mine",
+   "title": "If you're pregnant: skip berberine, and why",
+   "where": "Optional Ready-Made Gut Stacks, P8",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "Some severe symptoms warrant seeing a doctor rather than considering this DIY approach at the moment. Take it seriously if you notice blood in your stool (if it's blood from upper digestive tract, it could be smelly, black & tarry, not red like from the lower digestive tract). Other serious signs to note: losing weight fast, severe pain, a fever or dehydration. And if you're pregnant or breastfeeding, skip berberine, which can give a newborn jaundice, and ask your doctor about any other herb or supplement first. If your immune system is weak, some probiotics could be risky, since they're live bacteria that need to be kept in check to prevent overgrowth. If you have an IBD flare, cancer or another serious illness, the standard disclaimer applies: work out what to take with your doctor instead of putting a stack together yourself.",
+   "before": "Some severe symptoms warrant seeing a doctor rather than considering this DIY approach at the moment. Take it seriously if you notice blood in your stool (if it's blood from upper digestive tract, it could be smelly, black & tarry, not red like from lower GI). Other serious signs to note: losing weight fast, severe pain, a fever or dehydration. And if you're pregnant, some herbs and supplements, like berberine, aren't safe. If your immune system is weak, some probiotics could be risky, since they're live bacteria that need to be kept in check to prevent overgrowth. If you have an IBD flare, cancer or another serious illness, the standard disclaimer applies: work out what to take with your doctor instead of putting a stack together yourself.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-06T21:06:04.521Z"
+    }
+   ],
+   "updated": "2026-11-06T21:06:04.521Z"
+  }
+ ]
+}

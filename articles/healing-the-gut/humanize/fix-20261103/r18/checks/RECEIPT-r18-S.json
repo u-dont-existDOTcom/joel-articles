@@ -1,0 +1,112 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-06",
+ "text_sha256": "8e158666319b62c90974be70cbee55dd0ae7ba0de8555d34f3615b2b616bbec1",
+ "text": "Optional Ready-Made Gut Stacks\n\nI don't think there's one supplement stack (a set of supplements you take together) that heals everyone's gut, and no stack can do the phases above for you. So do those first, in order, and only go after bugs and parasites if your symptoms are still there after you've changed your diet. Then a stack can help with the rebuilding in Phase 5, once you're clear of infection and it's time to feed the good bacteria again.\n\nLook for a stack that covers these 3 categories:\n\nFirst, your gut needs its good bacteria back, so take a probiotic that's easy on your stomach.\n\nThen keep them fed with a prebiotic, the kind of fiber they eat, and take something that helps them make short-chain fatty acids, especially the main one, butyrate, or take butyrate itself.\n\nLast, something to help your gut lining heal, like glutamine, zinc carnosine, colostrum, or herbs that soothe it.\n\nGemini suggested these kits to me, but so far they're the best ones I've seen, tho I haven't used them myself, so check the reviews. Microbiome Labs Total Gut Restoration covers all three categories, with a probiotic, a prebiotic and a product for the gut lining in one kit, so it's the best general one. Dr. Ruscio's Leaky Gut Support Kit has a probiotic and two gut lining products, one of them glutamine, but no prebiotic, so it's more for when leaky gut is your main problem. Finally, Designs for Health GI Revive is only gut-lining nutrients and herbs, so you'd still need a probiotic and a prebiotic with it.",
+ "section": "Optional Ready-Made Gut Stacks",
+ "reader": "Someone thinking of buying a gut stack, who needs to know when one helps, what it should have, and which kit has it.",
+ "sentences": [
+  {
+   "s": "Optional Ready-Made Gut Stacks",
+   "payoff": "the reader knows this section is about ready-made stacks, and that they are optional",
+   "follows": "opens the stacks"
+  },
+  {
+   "s": "I don't think there's one supplement stack (a set of supplements you take together) that heals everyone's gut, and no stack can do the phases above for you.",
+   "payoff": "the reader learns what a stack is, and what no stack can do for them",
+   "follows": "after the heading, what a stack can't do"
+  },
+  {
+   "s": "So do those first, in order, and only go after bugs and parasites if your symptoms are still there after you've changed your diet.",
+   "payoff": "the reader knows to do the phases first, in order, and when to go after bugs and parasites",
+   "follows": "what follows from \"no stack can do the phases\""
+  },
+  {
+   "s": "Then a stack can help with the rebuilding in Phase 5, once you're clear of infection and it's time to feed the good bacteria again.",
+   "payoff": "the reader knows when a stack does help: rebuilding, in Phase 5",
+   "follows": "where a stack fits in the phases"
+  },
+  {
+   "s": "Look for a stack that covers these 3 categories:",
+   "payoff": "the reader knows what to look for in a stack, and that the list says what",
+   "follows": "once a stack helps, which one"
+  },
+  {
+   "s": "First, your gut needs its good bacteria back, so take a probiotic that's easy on your stomach.",
+   "payoff": "the reader knows the first category, a probiotic easy on the stomach, and why: to bring back good bacteria",
+   "follows": "first category"
+  },
+  {
+   "s": "Then keep them fed with a prebiotic, the kind of fiber they eat, and take something that helps them make short-chain fatty acids, especially the main one, butyrate, or take butyrate itself.",
+   "payoff": "the reader knows the second category, what a prebiotic is, and the butyrate choice",
+   "follows": "second category: feeding the bacteria the first brought back"
+  },
+  {
+   "s": "Last, something to help your gut lining heal, like glutamine, zinc carnosine, colostrum, or herbs that soothe it.",
+   "payoff": "the reader knows the third category, what it is for, and what to take for it",
+   "follows": "last category"
+  },
+  {
+   "s": "Gemini suggested these kits to me, but so far they're the best ones I've seen, tho I haven't used them myself, so check the reviews.",
+   "payoff": "the reader knows where the kits came from and how far to trust them",
+   "follows": "after what a stack should cover, kits that do"
+  },
+  {
+   "s": "Microbiome Labs Total Gut Restoration covers all three categories, with a probiotic, a prebiotic and a product for the gut lining in one kit, so it's the best general one.",
+   "payoff": "the reader knows the best general kit and why",
+   "follows": "first kit"
+  },
+  {
+   "s": "Dr. Ruscio's Leaky Gut Support Kit has a probiotic and two gut lining products, one of them glutamine, but no prebiotic, so it's more for when leaky gut is your main problem.",
+   "payoff": "the reader knows the kit for leaky gut and what it lacks",
+   "follows": "second kit"
+  },
+  {
+   "s": "Finally, Designs for Health GI Revive is only gut-lining nutrients and herbs, so you'd still need a probiotic and a prebiotic with it.",
+   "payoff": "the reader knows the third kit and what it would need added",
+   "follows": "third kit"
+  }
+ ],
+ "checked": [
+  {
+   "point": "a prebiotic is what the gut's bacteria feed on, mostly fermentable fibers",
+   "found": "ISAPP consensus (Gibson et al. 2017): a prebiotic is \"a substrate that is selectively utilized by host microorganisms conferring a health benefit\", https://pubmed.ncbi.nlm.nih.gov/28611480/; the best-documented ones are fermentable carbohydrates in the gut, https://isappscience.org/for-scientists/resources/prebiotics/",
+   "still_needed": "yes: the term was used here unexplained",
+   "fate": "kept"
+  },
+  {
+   "point": "mucosal-support herbs soothe the gut lining",
+   "found": "demulcent herbs (slippery elm, marshmallow root, licorice) soothe and protect irritated or inflamed tissue (Hoffman, Medical Herbalism, quoted at https://publications.achs.edu/herb201-demulcent-herbs-and-gastritis/1)",
+   "still_needed": "yes: \"mucosal-support\" told the reader nothing",
+   "fate": "changed"
+  }
+ ],
+ "placement": "The stacks after the phases, as before; the list follows the intro's \"a stack can help with the rebuilding\", and the kits follow the list.",
+ "opens": {
+  "first_sentence": "Optional Ready-Made Gut Stacks",
+  "why_reading": "The heading says the stacks are optional; the first sentence tells the reader, before they buy one, that no stack heals everyone or does the phases for them."
+ },
+ "same_point": "none: read the stacks from their heading to the end: the three categories are listed once, and the kits paragraph says which kit has which; \"the good bacteria\" comes back from the intro as the first category's reason",
+ "questions": {
+  "Q1": "PASS: Phase 1's first sentence names the act (check your nervous system and your bile), then why; the list opens on the act (look for); each item opens on what it is for; \"prebiotic\" is explained in the sentence that first uses it",
+  "Q2": "PASS: each instruction is the reader's act, with its reason: check, look for, take a probiotic, keep them fed with a prebiotic",
+  "Q3": "PASS: each supplement is named as before (glutamine, zinc carnosine, colostrum, butyrate); \"herbs that soothe it\" says which herbs, the plain words for \"mucosal-support herbs\"",
+  "Q4": "PASS: \"prebiotic\" is explained where first used (the kind of fiber they eat); short-chain fatty acids and butyrate were explained earlier, under the fuels; \"probiotic\" is a word a high-school graduate knows",
+  "Q5": "PASS: \"so take\" turns item 1's reason into its act; \"Then keep them fed\" feeds the bacteria item 1 brought back; \"the mechanics they need to work\" is why the reader checks first",
+  "Q6": "PASS: nothing moved between paragraphs; the categories keep their order",
+  "Q7": "PASS: each change is what the reader needs to choose and act",
+  "Q8": "PASS: no item moved between groups",
+  "Q9": "PASS: one step per item; the small words carry the relations (so, then, to help)"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

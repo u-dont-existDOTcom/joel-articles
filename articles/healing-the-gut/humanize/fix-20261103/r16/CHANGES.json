@@ -1,0 +1,32 @@
+[
+ {
+  "old": "so that you can directly consult with Gemini (on Flash Extended mode) to extract",
+  "new": "so that you can directly consult with Gemini to extract",
+  "kind": "answer",
+  "why": "F10-5: the mode is named once, in the Gem section, as his answer gives it"
+ },
+ {
+  "old": "you can check this [HRP deep research report](",
+  "new": "you can check this [deep research report](",
+  "kind": "answer",
+  "why": "F10-4: \"HRP\" out"
+ },
+ {
+  "old": "owner_user_id=user-g2rbxGmNt0TNQzl5Kw5jDvko). Glutamine",
+  "new": "owner_user_id=user-g2rbxGmNt0TNQzl5Kw5jDvko) from an older version of AskRigor, my research tool, and re-check it with askrigor.com for an up-to-date verification. Glutamine",
+  "kind": "answer",
+  "why": "F10-4: where the report came from, AskRigor explained where it is first named (E369), and his \"re-check it with askrigor.com for an up-to-date verification\", joined to the sentence it follows (E368)"
+ },
+ {
+  "old": "into a customized smart Gemini Pro [Gut Health Gem]",
+  "new": "into a customized smart Gemini [Gut Health Gem]",
+  "kind": "answer",
+  "why": "F10-5: it works on free Gemini, so not \"Pro\""
+ },
+ {
+  "old": "get far better advice than you'd get from any one of them! If you have",
+  "new": "get far better advice than you'd get from any one of them! I tested it on free Gemini and it works, but use the highest thinking level you can for the best answers. If you have",
+  "kind": "answer",
+  "why": "F10-5: his test and his advice, after what the Gem is for and before the ask for books"
+ }
+]

@@ -1,0 +1,197 @@
+{
+ "about": "Each turn's mailbox check (tools/humanization/lane_mailbox.py; AGENTS.md, \"Suggested fixes from other projects\"). Newest last.",
+ "places": {
+  "uda-lane": "this repository's lane in universal-dev-architecture (suggested-fixes/joel-articles/), against docs/suggested-fixes-ledger.md",
+  "repo": "new issues and pull requests here, and new comments and reviews on any of them, replies on our own included",
+  "notes": "edits others made to the lane's handoff notes and owner questions pages since its last turn",
+  "runtime": "the messages the session's runtime queued for it"
+ },
+ "checks": [
+  {
+   "turn": "2026-11-05T23:00Z",
+   "lines_of_work": [
+    "gut article",
+    "the Pangram writing lessons for every lane"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "no new items (2026-09-30-claim-checks-for-reviews.md and 2026-10-31-mailbox-every-turn.md, both in the ledger); UDA main still c5c9951, its root AGENTS.md fetched this turn"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "since 19:30 UTC: Joel merged this lane's pull request 293 at 22:56 UTC and the bad trips lane's 307 at 22:53 UTC (this branch starts from main's tip, d8297c1c); open: 278 (Inner Child) and older chat pull requests; no new issue or review comments (gh api REST)"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no edits by anyone else to articles/healing-the-gut since 293"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "no queued notifications"
+    }
+   ],
+   "items": [
+    {
+     "item": "Joel's message of 23:00 UTC: batch-10 answers (F10-1 to F10-3 approved, F10-4 and F10-5 answered), and 'make sure that's in the repo for all lanes'",
+     "outcome": "F10-1 to F10-3 kept as r15 has them; F10-4 and F10-5 worded as r16 and checked, on the batch-11 page; the way to write for Pangram put where every lane starts (AGENTS.md, SKILL.md) and merged to main"
+    }
+   ],
+   "recorded_utc": "2026-11-05T23:03Z"
+  },
+  {
+   "turn": "2026-11-06T16:37Z",
+   "lines_of_work": [
+    "gut article",
+    "the Pangram writing lessons for every lane"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "no new items; UDA main still c5c9951, its root AGENTS.md fetched this turn"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "since 23:00 UTC yesterday: main gained 310 (bad trips turn 13, E370 to E372; merged into this branch, the gate's numbering note kept as main has it); open: 308 (this lane, conflicted until this merge), 309 (neuro de-armoring), 278 and older chat pull requests; no new issue or review comments (gh api REST)"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no edits by anyone else to articles/healing-the-gut since 308"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "no queued notifications; my own check-in fired at 00:10 UTC and found nothing new"
+    }
+   ],
+   "items": [
+    {
+     "item": "Joel's message of 16:37 UTC: 'pr has conflicts, i logged into pangram'",
+     "outcome": "main merged into 308 and the gate conflict resolved; E371 from 310 added to SKILL.md's Pangram section with its checks; the three r16 checks run in his account, recorded, and the batch-11 page published"
+    }
+   ],
+   "recorded_utc": "2026-11-06T16:40Z"
+  },
+  {
+   "turn": "2026-11-06T19:48Z",
+   "lines_of_work": [
+    "gut article",
+    "lane pull requests and conflicts"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "no new items; UDA main still c5c9951, its root AGENTS.md fetched this turn"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "since 16:37 UTC: main gained 311 and 313 (bad trips turns 14 and 15, E373) and 312 (community; neuro de-armoring files); 313 reworded AGENTS.md's marking-page paragraph next to this branch's Pangram paragraph, the conflict he saw; open: 308 (this lane), 309 (neuro), 278 and older chat pull requests; no new issue or review comments (gh api REST)"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no edits by anyone else to articles/healing-the-gut since 308"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "no queued notifications"
+    }
+   ],
+   "items": [
+    {
+     "item": "Joel's message of 19:48 UTC: batch-11 answers (both approved), 'pr still has conflicts', and how to stop conflicts durably with several lanes",
+     "outcome": "main merged into 308 and the conflict resolved; r16 is the article with every answer in; the cause and the fix answered, with a merge robot for lane pull requests proposed for his OK"
+    }
+   ],
+   "recorded_utc": "2026-11-06T19:54Z"
+  },
+  {
+   "turn": "2026-11-06T20:13Z",
+   "lines_of_work": [
+    "gut article"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "no new items; UDA main still c5c9951, its root AGENTS.md fetched this turn"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "main moved after 20:15 UTC to 9c31f3ca (#315, #316 bad trips, #317 neuro), which gave out E378 and E380; merged into this branch, and the gut lane's lessons renumbered E379 and E381 to E383; 308 open, waiting for his merge; no new issue or review comments (gh api REST)"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no edits by anyone else to articles/healing-the-gut since 308"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "two CI-completed events for 308, both already checked"
+    }
+   ],
+   "items": [
+    {
+     "item": "Joel's message of 20:13 UTC: Low windows get fixed, Medium ones tried or put on a later list, Pangram's bugs left; and why I said I'd fix the windows and then stopped",
+     "outcome": "answered (E382); the Low and the Mediums fixed and tested as r17 (#175 to #178), batch-12 page out; the bugs and two things to learn from on LATER-WINDOWS.md (E381); the three old Low windows E354 named had read High in later checks, my rewrites of them read worse and were taken back (r18, #179, #180, E383); the whole-article prediction frozen (#183) and draft B made for his extension"
+    },
+    {
+     "item": "main's #316 and #317 gave out E378 and E380 while 308 used them",
+     "outcome": "renumbered here: the auto-merge lesson is E379, this turn's lessons E381 to E383; lane_push.py's lesson-number check passes"
+    }
+   ],
+   "recorded_utc": "2026-11-06T20:50Z"
+  },
+  {
+   "turn": "2026-11-06T21:06Z",
+   "lines_of_work": [
+    "gut article"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "new item 2026-11-06-open-pull-request-outcomes.md (owner request): adopted for this lane (its open pull requests listed with an outcome each turn) and its shared-lines part adapted for every lane (lessons one file per message in docs/lessons/, named, not numbered), recorded in docs/suggested-fixes-ledger.md; 2026-11-05-safety-layer-cuts.md is addressed to the neuro lane, and nothing in this lane re-routes cut content; UDA main now c25062c (#470, short-lived pull requests), its root AGENTS.md fetched this turn"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "main moved at 20:59 UTC (#319, bad trips round 11), merged here without conflict; this lane's open pull requests: 308 only, open since 2026-11-05, up to date and free of conflicts, Content integrity passing; outcome: waits for his merge (this session may not merge into main without review); 318 and 309 are other lanes', the older drafts theirs too; no new issue or review comments (gh api REST)"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no edits by anyone else to articles/healing-the-gut since 308"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "one CI-completed event for 308 (a07f6327, success); 905fe16f's Content integrity passed too"
+    }
+   ],
+   "items": [
+    {
+     "item": "Joel's message of 21:06 UTC: batch-12 answers (all three approved), 'nice good lessons for the repo', 'pr has conflicts'",
+     "outcome": "answers recorded (experiments/t17-answers, FATES-b12.json: each card in r17 word for word); 308 had conflicted from 20:18 to 20:52 UTC (two lanes' lessons in the same place in the gate) and the 20:52 push had resolved it; brought up to date with main again; lessons now go one file per message, named, not numbered (gate gut-2026-11-06d), and this lane's E381 to E383 became gut-2026-11-06a to c"
+    },
+    {
+     "item": "UDA suggested fix 2026-11-06-open-pull-request-outcomes.md",
+     "outcome": "adopted and adapted (see uda-lane above); ledger row added"
+    }
+   ],
+   "recorded_utc": "2026-11-06T21:16Z"
+  }
+ ]
+}
