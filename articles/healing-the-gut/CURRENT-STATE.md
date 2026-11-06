@@ -37,10 +37,10 @@ Joel, 2026-11-03 16:15 UTC (`experiments/t01-answers/joel-20261103-1615-messages
 ## Current checkpoint
 
 2026-11-06, after his message of 20:13 UTC: r17 (`humanize/fix-20261103/r17/r17.md`) is the article with batch 12's four
-fixes in, waiting for his answers on the batch-12 page. The whole of r17 is a paste payload for temporary draft B
-(`r17/substack/`), and the whole-article prediction is frozen as #183 (Human at 0.55), on the text his extension reads
-(`r17/substack/EXPECTED-TEXT-B.txt`). Pangram's web app signed out in the built-in browser before the two A/B checks of
-the old words ran (#181, #182, frozen).
+fixes in, waiting for his answers on the batch-12 page. The whole of r17 is in temporary draft B
+(`r17/substack/PASTED.json`: 3,992 words matched; its secret link, in the paid view, rendered EXPECTED-TEXT-B.txt
+exactly), and the whole-article prediction is frozen as #183 (Human at 0.55) on that text. The link went to him in chat.
+Pangram's web app signed out in the built-in browser before the two A/B checks of the old words ran (#181, #182, frozen).
 
 ## Remaining
 

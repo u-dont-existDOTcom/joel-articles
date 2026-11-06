@@ -115779,7 +115779,7 @@
         },
         "current_state": {
           "path": "articles/healing-the-gut/CURRENT-STATE.md",
-          "sha256": "e36e315df5c601928c0631aed350e8b6515695a0c2472d2144a40143c6980a5c"
+          "sha256": "f9f4d19edf681d2cbe0a2f962afaec3a733d8e5b4395b68606ac51ff401831ec"
         }
       },
       "review": {
@@ -121259,6 +121259,11 @@
         {
           "path": "articles/healing-the-gut/humanize/fix-20261103/r18/r18.md",
           "sha256": "d6030c6f7ec760e1380c13820334fe2c4354f6288f5e6224614f06f6d5f3ebc5",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/healing-the-gut/humanize/fix-20261103/r17/substack/PASTED.json",
+          "sha256": "15f6a1e33a66eaff34fcea1eda10af50524c7f8398c1299444f3395b880d725f",
           "role": "humanization_working_record"
         }
       ]
