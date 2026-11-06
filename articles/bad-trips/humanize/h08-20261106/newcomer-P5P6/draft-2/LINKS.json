@@ -1,0 +1,26 @@
+[
+ {
+  "sentence": 1,
+  "quote": "is a frightened nervous system stuck in an annoying room, so look at the room next",
+  "gap": "Why does a frightened nervous system lead to the room? The \"so\" seems to need a step between them, namely that the room is something you can change, and that step isn't said.",
+  "id": "L1",
+  "status": "fixed",
+  "note": "the step said: \"The room can be fixed, so look at it next\"; the next draft has its own read"
+ },
+ {
+  "sentence": 3,
+  "quote": "Are five concerned people talking at once?",
+  "gap": "Why five? Is five a limit I should count against, or is it just one example of too many people?",
+  "id": "L2",
+  "status": "drop",
+  "note": "his example of a crowd; his next paragraph clears out the extra people"
+ },
+ {
+  "sentence": 4,
+  "quote": "Maybe somebody's touching them when they don't want it, or they're trapped beside somebody they don't trust.",
+  "gap": "Who is \"somebody\" here: the people around them, or me as the helper? If it's me, the advice to step back from touching them would change.",
+  "id": "L3",
+  "status": "drop",
+  "note": "anyone, the helper included; his next paragraph has the helper ask before a hand on the shoulder"
+ }
+]

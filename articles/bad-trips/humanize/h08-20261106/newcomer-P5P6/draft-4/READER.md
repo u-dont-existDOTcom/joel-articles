@@ -1,0 +1,4 @@
+S1 | "so look around the room next" | Why is the room the next thing to check, and what makes a room that gets on someone's nerves the cause of a crisis that looks deep? The step between the two is not given.
+S3 | "Are five concerned people talking at once?" | Is five a real number to watch for, or just an example of too many people? If it is a limit, why five?
+S4 | "they're stuck beside someone they don't trust" | How does sitting beside someone you don't trust, or being touched when you don't want it, become the fear the first sentence describes? The step between them is missing.
+S5 | "And check whether they're too hot or too cold, or desperate for the bathroom." | The list has been about the room, and this line moves to the body without a marker. Why do body needs belong here, and why do they point to a scared person rather than just an uncomfortable one?

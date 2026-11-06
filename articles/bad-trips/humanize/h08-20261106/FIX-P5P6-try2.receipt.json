@@ -1,0 +1,57 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "text_sha256": "a700044065ec140c6ddf5cdc768f319e8c2e8608b9cf8d91af0eddfbe424d9e1",
+ "text": "A lot of what looks like a deep psychedelic crisis is a scared person in a room that's getting on their nerves, so look around the room next. Maybe the light's too bright or the music's horrible. Are five concerned people talking at once? Somebody might be touching them when they don't want it, or they're stuck beside someone they don't trust. And check whether they're too hot or too cold, or desperate for the bathroom.",
+ "section": "Psychological First Aid: The First Five Minutes",
+ "reader": "someone looking after a person in a frightening psychedelic or MDMA state, in the first few minutes, once the immediate dangers (keys, stove, roads, more of the substance) are dealt with",
+ "sentences": [
+  {
+   "s": "A lot of what looks like a deep psychedelic crisis is a scared person in a room that's getting on their nerves, so look around the room next.",
+   "payoff": "the helper learns, first and in plain words, why to look around the room: a lot of what looks like a deep psychedelic crisis is a scared person in a room that bothers them",
+   "follows": "it follows the dangers paragraph (\"next\") and opens the room part with its point, his annoying-room line said plainly (gate E370)"
+  },
+  {
+   "s": "Maybe the light's too bright or the music's horrible.",
+   "payoff": "the helper checks the light and the music",
+   "follows": "the first things in the room a helper would notice"
+  },
+  {
+   "s": "Are five concerned people talking at once?",
+   "his": true
+  },
+  {
+   "s": "Somebody might be touching them when they don't want it, or they're stuck beside someone they don't trust.",
+   "payoff": "the helper checks for unwanted touch and for someone the person doesn't trust beside them",
+   "follows": "the people in the room, what they're doing and who they are"
+  },
+  {
+   "s": "And check whether they're too hot or too cold, or desperate for the bathroom.",
+   "payoff": "the helper checks the person's body: too hot, too cold, desperate for the bathroom",
+   "follows": "after the room and its people, the person's own body; the next paragraph (his) says what to do"
+  }
+ ],
+ "checked": [],
+ "placement": "his room paragraph and his annoying-room paragraph, as one paragraph in their place, after the dangers paragraph and before his new fixes paragraph",
+ "questions": {
+  "Q1": "PASS: the point first, in plain words, with what it means to do (\"so look around the room next\"), then the checks",
+  "Q2": "PASS: each check is something the helper looks at or asks about; \"check whether\" makes the last one the helper's act; the next paragraph (his) says what to do",
+  "Q3": "PASS: exact things: the light, the music, five concerned people, unwanted touch, someone untrusted, too hot, too cold, the bathroom",
+  "Q4": "PASS: \"them\" and \"they\" are the person throughout; \"it\" in \"don't want it\" is the touching",
+  "Q5": "PASS: \"so\" turns the reason into looking around; \"Maybe\", \"might\" and \"And check\" carry the checks along",
+  "Q6": "PASS: the reason, the room's light and sound, its people, then the body: the order a helper looks in, his order",
+  "Q7": "PASS: each is something a helper checks in the first minutes",
+  "Q8": "N/A: no groups or tiers",
+  "Q9": "PASS: his usual fix first (gate E368) and his quip order (gate E370): the point first, his annoying-room line said plainly (\"a scared person in a room that's getting on their nerves\"), joined to the step, five questions into one question and three statements, \"when touch is unwelcome\" said plainly"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first; a study after the question it answers)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

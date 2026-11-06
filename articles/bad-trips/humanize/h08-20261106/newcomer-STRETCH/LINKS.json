@@ -1,0 +1,43 @@
+[
+ {
+  "sentence": 1,
+  "quote": "so look at the room next",
+  "gap": "Why does a frightened nervous system mean I should look at the room? What is the step between the nervous system and the room?",
+  "id": "L1",
+  "status": "answer",
+  "answer": "a room that's getting on their nerves",
+  "raised": "look around the room next"
+ },
+ {
+  "sentence": 1,
+  "quote": "a frightened nervous system",
+  "gap": "How does a nervous system get frightened, and is this literal or a way of describing how the person feels?",
+  "id": "L2",
+  "status": "drop",
+  "note": "said plainly in the second try: \"a scared person\""
+ },
+ {
+  "sentence": 3,
+  "quote": "five concerned people talking at once",
+  "gap": "Is five a number that matters, or just an example, and why is people talking at once a problem?",
+  "id": "L3",
+  "status": "drop",
+  "note": "cut in the stretch: his next paragraph clears out the extra people"
+ },
+ {
+  "sentence": 4,
+  "quote": "they're trapped beside somebody they don't trust",
+  "gap": "Who is the somebody: one of the people in the room, and does that mean I should be one of the people sent out?",
+  "id": "L4",
+  "status": "drop",
+  "note": "anyone in the room; who stays with them is the next section (Get One Human Anchor)"
+ },
+ {
+  "sentence": 4,
+  "quote": "somebody's touching them when they don't want it",
+  "gap": "Why does touch come up here, right after the paragraph that offers a hand on the shoulder?",
+  "id": "L5",
+  "status": "drop",
+  "note": "the hand on the shoulder comes after it, in his next paragraph; this is somebody else's unwanted touch"
+ }
+]

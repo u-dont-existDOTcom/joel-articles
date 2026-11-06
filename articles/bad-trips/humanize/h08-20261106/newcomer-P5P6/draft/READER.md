@@ -1,0 +1,5 @@
+S1 | "A lot of what looks like a deep psychedelic crisis is a scared person in a room that's getting on their nerves, so look around the room next." | What does "deep psychedelic crisis" mean here, as against the kind of trouble the paragraph above describes?
+S1 | "A lot of what looks like a deep psychedelic crisis is a scared person in a room that's getting on their nerves, so look around the room next." | How would I tell that the room is the trouble and not the drug, and what should I be looking for when I look around?
+S3 | "Are five concerned people talking at once?" | Why five: is it a real count, or just an example of too many people, and what is the problem with them talking at once?
+S4 | "Somebody might be touching them when they don't want it, or they're stuck beside someone they don't trust." | Whose "they": the person in the crisis, or the "somebody" who is touching them, and what am I supposed to do once I notice it?
+S5 | "Being too hot or too cold, or desperate for the bathroom, can get to them as well, so sort those out." | What does "get to them" mean here (upset them, or reach them), and what does "sort those out" ask me to do?

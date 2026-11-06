@@ -76,6 +76,41 @@
     }
    ],
    "recorded_utc": "2026-11-05T17:11Z"
+  },
+  {
+   "turn": "2026-11-06T00:27Z",
+   "lines_of_work": [
+    "bad trips guide"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "no new items for this lane (docs/suggested-fixes-ledger.md unchanged)"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "pull request 307 merged 22:53 UTC; 293 merged (the gut lane's E368, E369); 308 (the gut lane's how-to-write-for-Pangram notes) and 309 open; no new issues"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no edits by others to this lane's handoff note or current state since 307"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "three GitHub notices on 307 (subscribed, checks green, merged), read 22:57 UTC"
+    }
+   ],
+   "items": [
+    {
+     "item": "Joel's round-8 answer (exported 00:27 UTC: his version of the room stretch's second part, five of his Pangram checks, and 'the first part also ai ... an exercise for you to fix now ... a real easy fix')",
+     "outcome": "this turn: his version in, his checks read and recorded, the first part fixed his usual way (point first, join, plain word) and checked in his account, the lessons into the shared rules"
+    }
+   ],
+   "recorded_utc": "2026-11-06T00:32Z"
   }
  ]
 }
