@@ -1,5 +1,12 @@
 # Status: neuro de-armoring humanization (newest on top)
 
+## 2026-11-06, his "keep going" of 21:36 UTC: round P1 (Part 1's first stretch)
+
+`fix-20261106/p1/RESULTS.md`. Nine paragraphs rewritten with receipts (`opens`, `same_point`) and predicted; checked
+alone or, under 50 words, with a neighbour. Part 1's opening and A's two paragraphs read Human Written as a stretch and
+are in the article (`apply_p1.py`, 003069ef; fidelity PASS). Blocks 20, 21, 25, 26, 27 and 28 read AI in two tries
+each; the tell panel comes next for them (E346). Opening on the reader's case did not by itself read Human.
+
 ## 2026-11-06, his message of 21:22 UTC: the whole article's result; lesson neuro-2026-11-06a
 
 His message, word for word: `fix-20261106/joel-20261106-2122-message.txt`. The draft (223532178) had the article as it
