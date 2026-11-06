@@ -1,8 +1,8 @@
 # Neuro de-armoring: what I need from Joel
 
-Last updated 2026-11-06, after your message of 20:17 UTC (the bug report, Nestler, 11).
-**Open questions: none.** **For you to do**: open the whole article's preview link (in our chat of 20:49 UTC) in Brave
-and send me the extension's result (below).
+Last updated 2026-11-06, after your message of 21:22 UTC (the whole article's result).
+**Open questions: none.** **For you to do**: nothing now. Pull request 318 (the whole check and its lesson) goes into
+main by itself, since it changes the shared rules.
 Colours: 🟣 a question for you; 🟠 something for you to do; 🔵 next or in progress; 🟢 done or decided.
 
 The master copy of this page is [this file in Git](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/OWNER-QUESTIONS.md), so a session in either of your accounts
@@ -17,9 +17,23 @@ can read and update it. Every file it points to is a link.
 
 ## For you to do
 
-- 🟠 Open the whole article's secret preview link (in my reply to your message of 20:49 UTC; not written here, since
-  anyone with it can read the draft) in Brave, let the Pangram extension scan it, and send me its "full analysis" link
-  or a screenshot of the badge. Claude in Chrome wasn't connected, so I couldn't open it in your Brave myself.
+- Nothing now. The temporary draft "Neuro de-armoring, draft A (temp, delete after)" stays for the next whole-article
+  check, which reuses it; I'll name it for deleting after the last one.
+
+## Your message of 2026-11-06 21:22 UTC (the whole article's result), and what I did
+
+Word for word: [your message](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261106/joel-20261106-2122-message.txt).
+
+- 🟢 **The result, paragraph by paragraph**: [every paragraph's reading](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261106/whole/RESULT.md).
+  [AI Detected, 56% AI](https://www.pangram.com/feed/f481f824-5b0b-462f-96e4-237f0b2c057d) (the baseline of 2 November
+  was 83.3% AI). Of 156 paragraphs, 24 read Human, High throughout, 14 Human with a Medium window, 8 Human with a Low
+  window, and 110 have an AI window. Your introduction, your dynorphin paragraph and most of the 5-HTP and uridine
+  stretches read Human, High in context.
+- 🟢 **You were right on both counts** (lesson E382): my 4 November ask didn't say what the check was for, and the shared
+  rules already said the result opens in a pane I can't read, so the link goes to you. My own handoff had planned
+  otherwise. From now on every ask says what it's for and what I'll do with what you send.
+- 🔵 **Next**: the paragraphs that read AI or Low in context, Low windows first, a section at a time from Part 1, each
+  checked by itself with its prediction first, and the Human ones left alone.
 
 ## Your message of 2026-11-06 20:49 UTC (the other Pangram account), and what I did
 

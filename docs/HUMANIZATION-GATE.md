@@ -2894,6 +2894,25 @@ too; this lesson is E380, so 308 needs only to renumber its E378 to E379 and its
 
 (E380 is the neuro de-armoring lane's. The next lesson in any lane is E381, after E379, which 308 can take.)
 
+## What his message of 2026-11-06 21:22 UTC taught (the neuro de-armoring lane)
+
+(E381 is left for the gut lane's open pull request 308, as the note above says; this is E382.)
+
+- **E382. An ask says what it is for, and a step from the handoff note is checked against the shared rules before it
+  is planned.** On 4 November the lane asked him to "Switch the Pangram extension in Brave to your other account, and
+  tell me", with the badge's "Daily limit reached" but not what the check was for, and its handoff planned to "open it
+  in his Brave through Claude in Chrome and read the label" itself. His words, with the result: "ok you weren't clear
+  about that pangram issue before for some reason", and "you can't run these yourself because pangram opens on a pane".
+  The shared rule already said so (`docs/PANGRAM-PRODUCTION-BUDGET-20261020.md`, step 3 and the paragraph after it: the
+  extension's full analysis opens in a side panel the session can't read, and the link goes to him to click, with the
+  result page asked for); my handoff note carried a step that contradicted it, and I followed the note (E356's miss, in
+  another form). So: every ask on the questions page or in a reply says in the same line what it is for and what I'll do
+  with what he sends ("the free whole-article check, which shows which paragraphs still read AI in context; send me the
+  "full analysis" link"); and a step the handoff note plans is read against the shared rules before it goes in the plan.
+  E377 is the case of a yes; this is every ask. The result itself: `articles/neuro-de-armoring/humanize/fix-20261106/whole/RESULT.md`.
+
+(E382 is the neuro de-armoring lane's. The next lesson in any lane is E383.)
+
 
 ## What turn 100's API checks showed (the Inner Child lane, 2026-10-23)
 

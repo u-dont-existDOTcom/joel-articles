@@ -1,5 +1,21 @@
 # Status: neuro de-armoring humanization (newest on top)
 
+## 2026-11-06, his message of 21:22 UTC: the whole article's result; lesson E382
+
+His message, word for word: `fix-20261106/joel-20261106-2122-message.txt`. The draft (223532178) had the article as it
+stands (d18316ea) pasted at 20:53 UTC (`fix-20261106/substack/PASTED.json`); he ran the extension (Claude in Chrome was
+not connected, and the extension's result opens in a pane the session can't read).
+- **The result** ([feed f481f824](https://www.pangram.com/feed/f481f824-5b0b-462f-96e4-237f0b2c057d)): AI Detected,
+  56% AI, 4.1, 6,454 words, 77 AI windows and 56 Human; the text it read hashes to the rendered check's 51a3f492. Read
+  with `pangram_feed_read.js` (compact), saved as `fix-20261106/whole/WINDOWS.txt`, mapped onto paragraphs by
+  `fix-20261106/whole/map_windows.py` (`RESULT.json`, `RESULT.md`): of 156 paragraphs, 24 Human High throughout, 14
+  Human with a Medium window, 8 with a Low one, 110 with an AI window. Prediction ND1106-whole#122 (AI) right.
+- Two lines in the payload are Substack editor strings, not his text: "Double click to interact with video" (section C,
+  where the video sits) and "+1" (section E). The next payload should leave them out (they stay in the article as the
+  places the video and the poll sit).
+- **E382**: every ask says what it's for; a handoff step is read against the shared rules before it's planned (the
+  4 November handoff planned to open the extension check in his Brave, against the budget doc's step 3).
+
 ## 2026-11-06, his message of 20:17 UTC: the AskRigor report sent; Nestler 2008 back with Zhong 2023; lesson E380
 
 His message, word for word: `fix-20261106/joel-20261106-2017-message.txt`. Mailbox "2026-11-06T20:17Z": 314 and 315

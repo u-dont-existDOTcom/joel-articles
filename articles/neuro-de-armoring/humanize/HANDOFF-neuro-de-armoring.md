@@ -18,6 +18,10 @@ From an account with Desktop Commander connected to the laptop: "Continue my neu
 
 ## START HERE
 
+- **2026-11-06, his message of 21:22 UTC: the whole article's result read and mapped (AI Detected, 56% AI; 24 of 156
+  paragraphs Human, High throughout; `fix-20261106/whole/RESULT.md`); lesson E382.** The temporary draft 223532178 is
+  kept for the next whole check. A whole check's link goes to him with what it's for; he sends the feed link (the
+  extension's result opens in a pane the session can't read). See the Next step.
 - **2026-11-06, his message of 20:17 UTC: the AskRigor report sent (ARL-0057); Nestler 2008 back in his paragraph's
   citation with Zhong 2023 (his 11a), Human, High; lesson E380, enforced in `fidelity_keys.py`.** No questions open.
   Next: step 3 of the Next step below (dynorphin's timing with AskRigor), then section C on.
@@ -123,7 +127,19 @@ All of the article is his published post. His queue's rule: "Paragraphs that alr
 stay exactly as they are." Everything else is rewritten in his register and reaches him as cards, each tested first. The
 Scott passages, the introduction and the D-serine paragraph in Part 4 sound most like him.
 
-## Next step (2026-11-06, after his message of 19:40 UTC)
+## Next step (2026-11-06, after his message of 21:22 UTC)
+
+1. Section by section from Part 1 (`fix-20261106/whole/RESULT.md` lists every paragraph that isn't Human, High): the
+   Low windows first (paragraphs 16, 29, 66, 108, 127, 130, 134, 154), then the AI ones; leave the Human, High ones
+   alone. Each try: the receipt (with `opens` and `same_point`), the prediction, the web-app check by itself, then its
+   section together once its paragraphs are done.
+2. "dynorphin clears relatively quickly": check it with AskRigor (register the plain answer first); bring it to him only
+   if the evidence says otherwise.
+3. The next whole check: rebuild the payload with `fix-20261106/substack/make_payload.py` minus the two editor strings
+   ("Double click to interact with video", "+1"), paste into draft 223532178, make the secret link, and send him the
+   link saying what it's for (E382).
+
+## Earlier next step (2026-11-06, after his message of 19:40 UTC)
 
 1. Done 20:17: the AskRigor report sent (ARL-0057).
 2. Done 20:17: Zhong 2023 and Nestler 2008 cited with Vialou; Human, High.
