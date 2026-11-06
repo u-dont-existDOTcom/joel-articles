@@ -348,6 +348,27 @@
     "Speak slowly and use fewer words.",
     "Would you like music or is quiet best?"
    ]
+  },
+  {
+   "id": "r11-pfa-plain",
+   "status": "applied",
+   "what": "round 11, PFA-PLAIN and PFA-MOVE approved: Psychological First Aid's AI lines said plainly (the intro, the room's two 'X does not Y' phrases, both scripts and their lead-ins, the practice paragraph, the last paragraph) and the practice paragraph moved next to its script (review/r11/apply_r11.py)",
+   "joel": "2026-11-06 20:51 export: both approved, no comment",
+   "must_contain_exact": [
+    "gives you the order to do things in, and this section is about doing them in a way that takes pressure off the person.",
+    "I'm in an intense state, so I'm stopping the practice now, and my only job is to stay safe.",
+    "Once they can eat safely, food and warmth help their body settle."
+   ],
+   "must_not_contain": [
+    "An open portal does not obligate you",
+    "My job is ordinary safety.",
+    "let meaning wait until the nervous system has somewhere to stand",
+    "Give them ordinary reality:"
+   ],
+   "order": [
+    "food and warmth help their body settle",
+    "Then help them pick one safe thing"
+   ]
   }
  ]
 }

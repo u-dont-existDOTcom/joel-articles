@@ -109,6 +109,23 @@ class FidelityKeys(unittest.TestCase):
         with self.assertRaises(ValueError):
             fk.check(dict(self.keys, owner_changes=[dict(change, by='')]), draft)
 
+    def test_a_recorded_dont_leaves_its_unit(self):
+        """2026-11-06 (bad trips, round 11): his approved card changed "they don't trust" to "they're wary of" and kept
+        "bathroom"; the change recorded as "don't" has to take the unit's "do not" out, or the unit's last key is matched
+        to another paragraph and reported lost."""
+        master = 'Intro.\n\nAre they hot, desperate for the bathroom, or beside somebody they don\'t trust?\n\nDon\'t panic.\n'
+        keys = fk.extract(master)
+        unit = [u for u in keys['units'] if 'bathroom' in u['what']]
+        if not unit:
+            self.skipTest('the extractor made no unit of the bathroom line')
+        uid = unit[0]['id']
+        draft = master.replace("beside somebody they don't trust", "beside someone they're wary of")
+        keys = dict(keys, units=[dict(u, keys=[["don't"], ['bathroom']]) if u['id'] == uid else u for u in keys['units']])
+        change = {'by': 'ANSWERS.json, card PFA-PLAIN', 'keys_lost': {uid: [["don't"]]}}
+        r = fk.check(dict(keys, owner_changes=[change]), draft)
+        self.assertEqual([u for u in r['warnings_lost'] if u['id'] == uid], [], r)
+        self.assertFalse(fk.check(dict(keys, owner_changes=[change]), draft.replace('the bathroom', 'a break'))['pass'])
+
     def test_what_his_version_left_out_is_held_open_not_passed_or_lost(self):
         his = MASTER.replace('5-HTP, agmatine or', 'agmatine or')
         self.assertIn('5-HTP', fk.check(self.keys, his)['terms_lost'])
