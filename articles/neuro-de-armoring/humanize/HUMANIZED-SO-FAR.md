@@ -58,13 +58,13 @@ Your goal is Micro-Dosing Safety: 30 seconds of regulated breathing, twenty time
 
 ### Part 1: THE SCIENCE (Why We Do This)
 
-Before applying the tools, you must understand the specific "Hardware Failures" that occur during trauma, withdrawal, or chronic stress.
+Before applying the tools, you must understand what actually goes wrong in the brain during trauma, withdrawal or chronic stress, the "Hardware Failures" the tools are for.
 
 #### A. The Metabolic Red Line
 
-We often assume we can "think" our way out of a trigger, but data proves that anatomy overrides intellect. Dr. Perry identifies a "Metabolic Red Line" for the traumatized brain: when the resting heart rate is elevated or heart-rate-variability reduced (a state of "Fear"), the brain physically shunts blood flow away from the Cortex (Logic/Reason) and down to the Brainstem (Survival).
+If you've tried to talk yourself out of a trigger and couldn't, that's because anatomy overrides intellect. Dr. Perry describes a "Metabolic Red Line" for the traumatized brain: once your resting heart rate goes up or your heart-rate variability drops (a state of "Fear"), blood flow shifts away from the Cortex, which does logic and reasoning, and down to the Brainstem, which runs survival.
 
-In this state, functional IQ drops substantially. More importantly, this state floods the Nucleus Accumbens with the catecholamines that transcribe new DeltaFosB proteins (the "armor"). The Takeaway: If you attempt to process trauma while living above this red line, you are not de-armoring; you are actively re-enforcing the armor.
+So if you try to process trauma while you're above this red line, you're adding to the armor instead of taking it off. In that state your functional IQ drops a lot, and the Nucleus Accumbens gets flooded with the catecholamines that transcribe new DeltaFosB proteins, the "armor" itself.
 
 #### B. The "Overheating" CPU: Glutamate Excitotoxicity
 

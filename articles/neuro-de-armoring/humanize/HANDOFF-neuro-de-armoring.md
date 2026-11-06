@@ -18,6 +18,10 @@ From an account with Desktop Commander connected to the laptop: "Continue my neu
 
 ## START HERE
 
+- **2026-11-06, round P1 after his "keep going": Part 1's opening and section A in (Human in their stretch); six
+  paragraphs of "Psychology is the Software" read AI twice each (`fix-20261106/p1/RESULTS.md`).** HUMANIZED-SO-FAR.md
+  003069ef. Next: the tell panel on blocks 20, 25, 26, 27 (`tools/humanization/tell_panel.py`), a third try from its
+  agreed tells, then section B, from the whole check's list (Low windows first).
 - **2026-11-06, his message of 21:22 UTC: the whole article's result read and mapped (AI Detected, 56% AI; 24 of 156
   paragraphs Human, High throughout; `fix-20261106/whole/RESULT.md`); lesson neuro-2026-11-06a.** The temporary draft 223532178 is
   kept for the next whole check. A whole check's link goes to him with what it's for; he sends the feed link (the

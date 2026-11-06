@@ -20,6 +20,13 @@ can read and update it. Every file it points to is a link.
 - Nothing now. The temporary draft "Neuro de-armoring, draft A (temp, delete after)" stays for the next whole-article
   check, which reuses it; I'll name it for deleting after the last one.
 
+## Your message of 2026-11-06 21:36 UTC ("keep going"), and what I did
+
+- 🟢 **Part 1's opening and section A are in**: rewritten, they read [Human Written](https://www.pangram.com/history/b1594a9f-6c90-4dcd-b117-68c50f21df5e)
+  as a stretch, where the whole check had them AI.
+- 🔵 **Six paragraphs of "Psychology is the Software"** read AI in two tries each ([every result](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261106/p1/RESULTS.md)).
+  Next for them: fresh readers list the tells, then a third try. Then section B on.
+
 ## Your message of 2026-11-06 21:22 UTC (the whole article's result), and what I did
 
 Word for word: [your message](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261106/joel-20261106-2122-message.txt).
