@@ -1,0 +1,42 @@
+{
+ "about": "Each turn's mailbox check (tools/humanization/lane_mailbox.py; AGENTS.md, \"Suggested fixes from other projects\"). Newest last.",
+ "places": {
+  "uda-lane": "this repository's lane in universal-dev-architecture (suggested-fixes/joel-articles/), against docs/suggested-fixes-ledger.md",
+  "repo": "new issues and pull requests here, and new comments and reviews on any of them, replies on our own included",
+  "notes": "edits others made to the lane's handoff notes and owner questions pages since its last turn",
+  "runtime": "the messages the session's runtime queued for it"
+ },
+ "checks": [
+  {
+   "turn": "2026-11-05T23:02Z",
+   "lines_of_work": [
+    "the DeltaFosB pass: cards page published, links fixed"
+   ],
+   "places": [
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "pull request 309 opened and green-pending; no new comments"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "questions page and handoff updated with the artifact link; repo_links check PASS"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "no queued messages"
+    },
+    {
+     "place": "uda-lane",
+     "status": "unreachable",
+     "failed": "add_repo refused by the classifier; gh api not enabled for universal-dev-architecture",
+     "retry": "next turn"
+    }
+   ],
+   "items": [],
+   "recorded_utc": "2026-11-05T23:20Z"
+  }
+ ]
+}

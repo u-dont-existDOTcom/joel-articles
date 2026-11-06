@@ -1,0 +1,53 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "text_sha256": "51f5f6a9e56a713381bceefefc63d95a807709028af4069ec9a3733f47316b63",
+ "text": "The Problem: To protect itself from the Glutamate storm, the brain eventually releases Dynorphin, a chemical blanket that suppresses dopamine. This creates the \"Void\"--a state of apathy, grayness, and an inability to feel pleasure. The two aren't one mechanism, though: DeltaFosB accumulates inside the dynorphin neurons themselves, and what it does there is turn dynorphin down, not up ([Zachariou, et al, 2006](https://pubmed.ncbi.nlm.nih.gov/16415864/)).",
+ "section": "Part 1 C: The \"Hardened\" Circuit",
+ "reader": "someone in the gray, pleasureless Void phase, trying to understand what is suppressing their dopamine and what will lift it",
+ "sentences": [
+  {
+   "s": "The Problem: To protect itself from the Glutamate storm, the brain eventually releases Dynorphin, a chemical blanket that suppresses dopamine.",
+   "his": true
+  },
+  {
+   "s": "This creates the \"Void\"--a state of apathy, grayness, and an inability to feel pleasure.",
+   "his": true
+  },
+  {
+   "s": "The two aren't one mechanism, though: DeltaFosB accumulates inside the dynorphin neurons themselves, and what it does there is turn dynorphin down, not up ([Zachariou, et al, 2006](https://pubmed.ncbi.nlm.nih.gov/16415864/)).",
+   "payoff": "It stops the reader concluding that dynorphin and DeltaFosB are one blanket to lift, which would make them expect the Void and the hardening to move together. They pull against each other, so the Void lifting is not evidence the hardening has gone, and that is what they will be judging in weeks 3 to 5.",
+   "follows": "It turns on the pairing the heading above made and this paragraph assumes: having read dynorphin and DeltaFosB as a joint mechanism, the reader needs the relation corrected here, where both are in view."
+  }
+ ],
+ "checked": [
+  {
+   "point": "Dynorphin and DeltaFosB harden the circuit together",
+   "found": "DeltaFosB in the nucleus accumbens produces its opiate-addiction phenotype partly by repressing dynorphin expression, and the standard model expresses it in the dynorphin-positive neurons themselves (https://pubmed.ncbi.nlm.nih.gov/16415864/).",
+   "still_needed": "yes: both are in the Void story and both belong in the section; what needed correcting is the direction between them",
+   "fate": "kept"
+  }
+ ],
+ "placement": "End of the first paragraph of section C, where dynorphin is introduced and the heading has just named both. Putting it here rather than beside the hardening sentence keeps the correction next to the pairing that causes the confusion.",
+ "questions": {
+  "Q1": "PASS: the point (\"the two aren't one mechanism\") opens the sentence; the mechanism follows it.",
+  "Q2": "N/A: no instruction.",
+  "Q3": "PASS: \"the dynorphin neurons\" are the dynorphin-positive accumbens neurons of the cited work, not neurons generally.",
+  "Q4": "PASS: dynorphin and DeltaFosB are both already introduced above; \"turn dynorphin down\" says what DeltaFosB acts on, in plain words rather than \"represses expression\".",
+  "Q5": "PASS: \"though\" turns on the paragraph before it, which had them working the same way.",
+  "Q6": "PASS: dynorphin, then what DeltaFosB does to it. The reader meets the two in that order.",
+  "Q7": "PASS: this reader is in the Void and is reading the section to know what will lift it; being wrong about which of the two is doing what would mislead them about what to expect.",
+  "Q8": "PASS: it sits in the dynorphin paragraph, which is where both are in view.",
+  "Q9": "PASS: two clauses, one relation each -- where it is, and what it does there."
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone?",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

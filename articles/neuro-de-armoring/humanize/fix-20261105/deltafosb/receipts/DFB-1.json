@@ -1,0 +1,51 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "text_sha256": "e2f94dd37cd1d0c74993fa595618ede1934fd4d1c3f97ffcfb8d6b6ea7c6b6a3",
+ "text": "The Hardening: Chronic cycles lead to the accumulation of DeltaFosB, a protein switch that alters gene expression and holds the circuitry in place for weeks after the cycles stop ([Nestler, 2008](https://pmc.ncbi.nlm.nih.gov/articles/PMC2607320)).",
+ "section": "Part 1 C: The \"Hardened\" Circuit",
+ "reader": "someone who has read that trauma hardens the brain and wants to know what the hardening physically is, and whether this protocol can undo it",
+ "sentences": [
+  {
+   "s": "The Hardening: Chronic cycles lead to the accumulation of DeltaFosB, a protein switch that alters gene expression and holds the circuitry in place for weeks after the cycles stop ([Nestler, 2008](https://pmc.ncbi.nlm.nih.gov/articles/PMC2607320)).",
+   "payoff": "It names the physical hardening the reader came to this section for -- a protein that builds up with repeated cycles and keeps the circuitry in place -- and tells them how long it lasts once the cycles stop, which is what decides whether waiting it out is an option. \"Weeks\" is the number they can act on.",
+   "follows": "It is the mechanism behind the section's heading and the paragraph before it, which told them standard serotonin drugs cannot reach the hardware: this is the hardware."
+  }
+ ],
+ "checked": [
+  {
+   "point": "Vialou, et al, 2010 shows DeltaFosB cementing trauma circuitry",
+   "found": "The opposite, close to it: in that paper the mice most resilient to ten days of social defeat had the most DeltaFosB in the nucleus accumbens, raising it there was necessary and sufficient for resilience, fluoxetine needed it to work, and depressed people at autopsy had about half as much as controls (https://pubmed.ncbi.nlm.nih.gov/20473292/).",
+   "still_needed": "yes: the accumulation claim the sentence makes is supported from the addiction side, where DeltaFosB builds up with chronic exposure and persists for weeks (https://pmc.ncbi.nlm.nih.gov/articles/PMC2607320). What fails is this citation and the word \"permanently\", not the point.",
+   "fate": "changed"
+  },
+  {
+   "point": "DeltaFosB alters gene expression permanently",
+   "found": "Half-life up to about 8 days in living animals; the protein persists at least several weeks after the stimulus stops, 28 days in the longest measurement (https://pmc.ncbi.nlm.nih.gov/articles/PMC8879420).",
+   "still_needed": "no: nothing supports permanence, the article's own Week 8+ line contradicts it, and the word was there only to make the hardening feel final -- so it goes rather than being softened",
+   "fate": "cut"
+  }
+ ],
+ "placement": "Last paragraph of section C, after the dynorphin problem and the two paragraphs on why SSRIs failed, and immediately before The Fix. That order is the reader's: what the hardening is, why ordinary drugs do not touch it, then what does. The sentence keeps its place; only its claim and citation change.",
+ "questions": {
+  "Q1": "PASS: the point (\"accumulation of DeltaFosB\") comes before the mechanism, and the citation comes last, after the claim it supports.",
+  "Q2": "N/A: no instruction in this sentence.",
+  "Q3": "PASS: \"the circuitry\" is the trauma circuitry section C has been describing, not circuitry in general; \"chronic cycles\" are the glutamate-then-dynorphin cycles of B and C.",
+  "Q4": "PASS: DeltaFosB was introduced in the heading of this section and in section A; \"protein switch\" is his own gloss on it and stays. No new term is added.",
+  "Q5": "PASS: \"and holds the circuitry in place for weeks after the cycles stop\" turns on the accumulation named before it -- the build-up is why it lasts.",
+  "Q6": "PASS: hardening, then duration. The reader asks what it is before asking how long it lasts.",
+  "Q7": "PASS: \"weeks after the cycles stop\" is the fact this reader needs, because it is what makes the protocol a timeline rather than a cure.",
+  "Q8": "PASS: it belongs with the hardening group in C, not with the fix that follows.",
+  "Q9": "PASS: one step -- build-up, then persistence."
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone?",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}
