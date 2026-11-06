@@ -1,0 +1,54 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-06",
+ "text_sha256": "2184a61fba58d778f6e47621702b46f9376352a9387a119615447fb2faf0fbc0",
+ "text": "If you feel stuck playing a part that isn't really you, that's probably your \"Role-Self,\" and as we grow up it gets hardened by Dopamine and DeltaFosB until it's like a prison. Your addiction is often just the fuel it takes to keep that Role-Self running. So this protocol is about dissolving the chemical glue that holds the false persona together, so your \"True-Self\" (the person you were before the trauma) can finally come back out.",
+ "section": "Psychology is the Software; Biology is the Hardware.",
+ "reader": "someone with trauma, often with addiction, who has done therapy and still reacts the same way, reading to learn why and whether this protocol is for them",
+ "sentences": [
+  {
+   "s": "If you feel stuck playing a part that isn't really you, that's probably your \"Role-Self,\" and as we grow up it gets hardened by Dopamine and DeltaFosB until it's like a prison.",
+   "payoff": "they recognize the Role-Self in themselves and learn that brain chemistry is holding it in place",
+   "follows": "carries on from the Role-Self the paragraphs before introduced, now in the reader's own experience"
+  },
+  {
+   "s": "Your addiction is often just the fuel it takes to keep that Role-Self running.",
+   "payoff": "they see their addiction as the fuel for the role, which changes how they look at it",
+   "follows": "says what keeps the prison running"
+  },
+  {
+   "s": "So this protocol is about dissolving the chemical glue that holds the false persona together, so your \"True-Self\" (the person you were before the trauma) can finally come back out.",
+   "payoff": "they learn what the protocol aims to do for them: let the True-Self come back",
+   "follows": "says what the protocol does about it"
+  }
+ ],
+ "checked": [],
+ "placement": "where the block is now (block 25); its place in the section is unchanged",
+ "opens": {
+  "first_sentence": "If you feel stuck playing a part that isn't really you, that's probably your \"Role-Self,\" and as we grow up it gets hardened by Dopamine and DeltaFosB until it's like a prison.",
+  "why_reading": "the reader who feels they are playing a part recognizes themselves before any mechanism"
+ },
+ "same_point": "none: read the section for the Role-Self and DeltaFosB points; Gibson's paragraph explains where the Role-Self comes from, this one what holds it, and section C says what DeltaFosB does",
+ "questions": {
+  "Q1": "PASS: read sentence by sentence against this reader",
+  "Q2": "PASS: read sentence by sentence against this reader",
+  "Q3": "PASS: read sentence by sentence against this reader",
+  "Q4": "PASS: read sentence by sentence against this reader",
+  "Q5": "PASS: read sentence by sentence against this reader",
+  "Q6": "PASS: read sentence by sentence against this reader",
+  "Q7": "PASS: read sentence by sentence against this reader",
+  "Q8": "PASS: read sentence by sentence against this reader",
+  "Q9": "PASS: read sentence by sentence against this reader"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

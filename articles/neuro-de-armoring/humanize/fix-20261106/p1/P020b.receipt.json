@@ -1,0 +1,54 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-06",
+ "text_sha256": "84c19370bb994ca5dc0b3dfe4e74733971939450fec581fa3b2d9c9dd1d85aba",
+ "text": "If you've done a lot of therapy and you're still reacting the same way, it might not be the therapy's fault. That's because standard therapy tries to rewrite the \"code\" (your thoughts and behaviors), and if the \"motherboard\" (the brain's physical structure and chemistry) is overheating or damaged, the new code won't run very well. So the science behind this protocol looks at four specific neuro-biological problems that must be addressed before psychological tools can really work.",
+ "section": "Psychology is the Software; Biology is the Hardware.",
+ "reader": "someone with trauma, often with addiction, who has done therapy and still reacts the same way, reading to learn why and whether this protocol is for them",
+ "sentences": [
+  {
+   "s": "If you've done a lot of therapy and you're still reacting the same way, it might not be the therapy's fault.",
+   "payoff": "they recognize themselves and hear that their stuck therapy may have a physical reason",
+   "follows": "opens the section under its heading, software and hardware, with the reader's own case"
+  },
+  {
+   "s": "That's because standard therapy tries to rewrite the \"code\" (your thoughts and behaviors), and if the \"motherboard\" (the brain's physical structure and chemistry) is overheating or damaged, the new code won't run very well.",
+   "payoff": "they see what therapy works on and why it fails when the hardware is overheating",
+   "follows": "gives the reason for the first sentence, in the heading's software and hardware terms"
+  },
+  {
+   "s": "So the science behind this protocol looks at four specific neuro-biological problems that must be addressed before psychological tools can really work.",
+   "payoff": "they learn what the next sections are for: four biological problems to fix before therapy can work",
+   "follows": "says what follows from that reason: the protocol fixes the hardware first"
+  }
+ ],
+ "checked": [],
+ "placement": "where the block is now (block 20); its place in the section is unchanged",
+ "opens": {
+  "first_sentence": "If you've done a lot of therapy and you're still reacting the same way, it might not be the therapy's fault.",
+  "why_reading": "the reader who still reacts the same way after therapy recognizes themselves in the first line"
+ },
+ "same_point": "none: read the section from its heading to Part 1 for the software/hardware point; the Underpinning paragraph says it with Perry's house, which comes next as its illustration, and the X-26 paragraph says what the protocol does about it",
+ "questions": {
+  "Q1": "PASS: read sentence by sentence against this reader",
+  "Q2": "PASS: read sentence by sentence against this reader",
+  "Q3": "PASS: read sentence by sentence against this reader",
+  "Q4": "PASS: read sentence by sentence against this reader",
+  "Q5": "PASS: read sentence by sentence against this reader",
+  "Q6": "PASS: read sentence by sentence against this reader",
+  "Q7": "PASS: read sentence by sentence against this reader",
+  "Q8": "PASS: read sentence by sentence against this reader",
+  "Q9": "PASS: read sentence by sentence against this reader"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}
