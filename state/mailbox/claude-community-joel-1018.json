@@ -409,6 +409,80 @@
     }
    ],
    "recorded_utc": "2026-11-05T18:00Z"
+  },
+  {
+   "turn": "2026-11-05T18:52Z",
+   "lines_of_work": [
+    "neuro de-armoring"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "no new items (the same two, both in the ledger); UDA AGENTS.md c5c9951, read this turn"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "305 merged at 18:03 UTC (the notices); open: 293 (gut lane), older ones unchanged; no new issues, no new comments since 17:55 UTC"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no edits by others to this lane's handoff or questions page"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "two GitHub notices on 305 (checks passed, merged), read at 18:22 UTC"
+    }
+   ],
+   "items": [
+    {
+     "item": "Joel's message of 2026-11-05 18:52 UTC: I misread his DeltaFosB armor (armor = resilience in a sense); research the article's advice with AskRigor, no article changes authorized; debug why the safety filter stopped my replies",
+     "outcome": "this turn: the AskRigor research report and the filter diagnosis; no article edits"
+    }
+   ],
+   "recorded_utc": "2026-11-05T18:58Z"
+  },
+  {
+   "turn": "2026-11-06T16:36Z",
+   "lines_of_work": [
+    "neuro de-armoring"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "no new items in suggested-fixes/joel-articles (the same two, both in the ledger); UDA main now b0a1b3d with patterns/safety-layer-cuts.md (#469), from my own 2026-11-05 analysis of the cuts; read and applied this turn"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "main e4d5f9dd (bad trips 310 merged); 309 open = the separate DeltaFosB lane's branch, which has no main merged into it and changes shared files (docs/HUMANIZATION-GATE.md, tools/); 308 gut lane open"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no edits by others to this lane's handoff or questions page"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "no new GitHub notices; two of my own outputs were cut by the safety layer this turn before any article content was written"
+    }
+   ],
+   "items": [
+    {
+     "item": "Joel's message of 2026-11-06 16:36 UTC: his answers to the separate lane's DeltaFosB cards (DFB-1 revise with his loop sentence, DFB-2 revise asking the dynorphin point be made to make sense, DFB-3 and DFB-4 approved), and why that lane made cards instead of handing back",
+     "outcome": "this turn: his four answers applied or carried to a new card; the schema/fear-memory question he raised on 2026-11-05 researched, which the other lane did not cover"
+    },
+    {
+     "item": "UDA patterns/safety-layer-cuts.md (#469), merged from this lane's own analysis",
+     "outcome": "adopted: this turn writes placed edits by block ID, keeps article passages out of replies, and records the cuts instead of retrying them"
+    }
+   ],
+   "recorded_utc": "2026-11-06T16:39Z"
   }
  ]
 }

@@ -1,0 +1,31 @@
+{
+ "review_id": "neuro-de-armoring-cards-20261105-x1105d",
+ "answered_utc": "2026-11-06T16:35Z",
+ "applied": [
+  {
+   "card": "DFB-1",
+   "status": "revise",
+   "block_starts": "The Hardening: Chronic cycles lead to the accumulation of DeltaFosB",
+   "whose_words": "his",
+   "after": "The Hardening: Chronic cycles lead to the accumulation of DeltaFosB, a protein switch that alters gene expression and holds the circuitry in place for weeks after the cycles stop (Nestler, 2008). So the psychological trauma is reinforced biologically, which then reinforces the biology in a permanent loop until we make conscious efforts to break it from one or both ends."
+  },
+  {
+   "card": "DFB-3",
+   "status": "approved",
+   "block_starts": "In this state, functional IQ drops substantially",
+   "whose_words": "his",
+   "after": "In this state, functional IQ drops substantially. More importantly, this state floods the Nucleus Accumbens with the catecholamines that transcribe new DeltaFosB proteins (the \"armor\"). The Takeaway: If you attempt to process trauma while living above this red line, you are not de-armoring; you are actively re-enforcing the armor."
+  },
+  {
+   "card": "DFB-4",
+   "status": "approved",
+   "block_starts": "Week 8+: The BaselineState",
+   "whose_words": "his",
+   "after": "Week 8+: The BaselineState: DeltaFosB degraded, if the animal timelines carry over. Hardware reset complete."
+  }
+ ],
+ "untouched": {
+  "DFB-2": "he sent block 46 back to its original wording; its point goes to a new card"
+ },
+ "article_sha256_after": "3221e9623534425f6516dc5858d96545fb85def1e93cad55fe9ac3dbdd653536"
+}
