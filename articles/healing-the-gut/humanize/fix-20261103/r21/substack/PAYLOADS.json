@@ -1,0 +1,40 @@
+{
+ "C": {
+  "draft": "C",
+  "source": "r12.html with r20's words",
+  "source_sha256": "16d3cc71dc2f12a9d736b0f4d64a25e63c8c6978713bee37decfec27cd15c883",
+  "title": "Healing the Gut, draft C (temp, delete after)",
+  "words": 4009,
+  "payload_sha256": "9fae5eda7dc81b778dcdae996c32526c3080fadee0a7fa4df85d40d52f783e57",
+  "words_sha256": "7961e93c15dcfc889a127266c77e6c641063ff43e08de39e6ffdafadd0e35b5c",
+  "checked_chars": 23483,
+  "checked_sha256": "08516b197bc606421ed7355cf9c4d16495ee744543d6ece034ccb17dfd1b2b96",
+  "straight_marks_left": 0,
+  "paragraphs_changed": 34,
+  "tags_dropped_or_moved": [],
+  "lines_changed_from_B": [
+   28,
+   56,
+   57
+  ]
+ },
+ "D": {
+  "draft": "D",
+  "source": "r12.html with r21's words",
+  "source_sha256": "0427fd9bddc3ee2779cf57008a9afef21204bc64aef297f45a22514f59eaa558",
+  "title": "Healing the Gut, draft D (temp, delete after)",
+  "words": 4041,
+  "payload_sha256": "96606d1ebf2b29920717ef69b6dee9b56d6e24accb092c02ea697bf3bb3076f3",
+  "words_sha256": "a60fc3d5180d56bb6d570f9b8257d8fff4b32e3e2b5a9e896ccfb2690e1eea44",
+  "checked_chars": 23663,
+  "checked_sha256": "10026dd8c9611cfcb5c1f0a8210dd35ae0576232b1fa6d5ad5e2ea8da652ddd8",
+  "straight_marks_left": 0,
+  "paragraphs_changed": 34,
+  "tags_dropped_or_moved": [],
+  "lines_changed_from_B": [
+   28,
+   56,
+   57
+  ]
+ }
+}

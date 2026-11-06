@@ -9,8 +9,9 @@ Built by `tools/humanization/pangram_ledger.py build` from `articles/healing-the
 | pangram API 4.1 | 97 | 71 (73%) | 55% | 45% | 47% | 0.173 (base 0.248, 97) |
 | Pangram 4.1 (web app) | 10 | 5 (50%) | 70% | 30% | 80% | 0.224 (base 0.210, 10) |
 | pangram 4.1, Pangram's check of the Substack draft (free, Joel's account) | 1 | 1 (100%) | 0% | 100% | 100% | 0.202 (base 0.000, 1) |
-| pangram 4.1, the web app (Joel's account, GUI credits) | 60 | 50 (83%) | 17% | 83% | 97% | 0.155 (base 0.139, 60) |
+| pangram 4.1, the web app (Joel's account, GUI credits) | 67 | 56 (84%) | 21% | 79% | 93% | 0.153 (base 0.165, 67) |
 | pangram 4.1, his Pangram extension on the live post (free, Joel's account) | 1 | 0 (0%) | 100% | 0% | 100% | 0.250 (base 0.000, 1) |
+| pangram 4.1, his Pangram extension on a temporary Substack draft's secret link (free, Joel's account) | 1 | 1 (100%) | 0% | 100% | 100% | 0.202 (base 0.000, 1) |
 
 ## pangram API 4.1
 
@@ -84,27 +85,27 @@ Calibration:
 
 | window | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| the latest 50 | 50 | 41 (82%) | 18% | 82% | 96% | 0.162 (base 0.148, 50) |
-| the latest 100 | 60 | 50 (83%) | 17% | 83% | 97% | 0.155 (base 0.139, 60) |
-| all | 60 | 50 (83%) | 17% | 83% | 97% | 0.155 (base 0.139, 60) |
+| the latest 50 | 50 | 42 (84%) | 24% | 76% | 92% | 0.154 (base 0.182, 50) |
+| the latest 100 | 67 | 56 (84%) | 21% | 79% | 93% | 0.153 (base 0.165, 67) |
+| all | 67 | 56 (84%) | 21% | 79% | 93% | 0.153 (base 0.165, 67) |
 
 The boundary mix (what was checked; accuracy differs a lot between a paragraph and a section):
 
 | scope or kind | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| section | 25 | 21 (84%) | 16% | 84% | 92% | 0.147 (base 0.134, 25) |
+| section | 27 | 23 (85%) | 15% | 85% | 93% | 0.140 (base 0.126, 27) |
 | pair | 9 | 7 (78%) | 22% | 78% | 100% | 0.174 (base 0.173, 9) |
-| stretch | 22 | 18 (82%) | 18% | 82% | 100% | 0.161 (base 0.149, 22) |
+| stretch | 27 | 22 (81%) | 30% | 70% | 89% | 0.164 (base 0.209, 27) |
 | paragraph | 4 | 4 (100%) | 0% | 100% | 100% | 0.126 (base 0.000, 4) |
 
 Calibration:
 
 | my chance of a 100% Human result | calls | mean chance | read Human |
 |---|---|---|---|
-| 0.2 to 0.4 | 2 | 0.28 | 50% |
-| 0.4 to 0.6 | 23 | 0.57 | 70% |
-| 0.6 to 0.8 | 44 | 0.67 | 91% |
-| 0.8 to 1.0 | 4 | 0.80 | 100% |
+| 0.2 to 0.4 | 3 | 0.30 | 33% |
+| 0.4 to 0.6 | 26 | 0.56 | 62% |
+| 0.6 to 0.8 | 47 | 0.68 | 89% |
+| 0.8 to 1.0 | 5 | 0.80 | 100% |
 
 ## pangram 4.1, his Pangram extension on the live post (free, Joel's account)
 
@@ -126,7 +127,27 @@ Calibration:
 |---|---|---|---|
 | 0.4 to 0.6 | 1 | 0.50 | 0% |
 
-## Misses since the ledger (42)
+## pangram 4.1, his Pangram extension on a temporary Substack draft's secret link (free, Joel's account)
+
+| window | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
+|---|---|---|---|---|---|---|
+| the latest 50 | 1 | 1 (100%) | 0% | 100% | 100% | 0.202 (base 0.000, 1) |
+| the latest 100 | 1 | 1 (100%) | 0% | 100% | 100% | 0.202 (base 0.000, 1) |
+| all | 1 | 1 (100%) | 0% | 100% | 100% | 0.202 (base 0.000, 1) |
+
+The boundary mix (what was checked; accuracy differs a lot between a paragraph and a section):
+
+| scope or kind | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
+|---|---|---|---|---|---|---|
+| article | 1 | 1 (100%) | 0% | 100% | 100% | 0.202 (base 0.000, 1) |
+
+Calibration:
+
+| my chance of a 100% Human result | calls | mean chance | read Human |
+|---|---|---|---|
+| 0.4 to 0.6 | 1 | 0.55 | 100% |
+
+## Misses since the ledger (43)
 
 | cause | misses |
 |---|---|
@@ -154,12 +175,12 @@ Calibration:
 | context: red in the whole guide, Human in the pair | 1 |
 | term explained after its first use, and a note splitting a sentence before its point (gates E368, E369) | 1 |
 | the point after the names, and a note splitting his sentence (gate E368) | 1 |
+| the cut, and my fixes made it worse | 1 |
 
 The latest:
 
 | check | lineage, try | said | read | cause |
 |---|---|---|---|---|
-| [r08-kits-with-categories](https://www.pangram.com/history/38b2da46-e72e-429a-8568-076737a8976f) | b2-ST2-p3, 5 | Human | AI or mixed | explainer structure |
 | [r08-p81](https://www.pangram.com/history/4a617063-c5be-4d4a-8cb2-afc19152d7a2) | b2-ST2-p5, 2 | Human | AI or mixed | explainer structure |
 | [r09-stacks-section](https://www.pangram.com/history/3217da78-355a-4536-a491-004ef95ca3cd) | r07-stacks-section, 2 | Human | AI or mixed | context |
 | [r09b-stacks-section-moved](https://www.pangram.com/history/05f663cd-bc40-4317-b7fb-1e280ed4a6bd) | r07-stacks-section, 3 | Human | AI or mixed | context |
@@ -174,6 +195,7 @@ The latest:
 | [r15-H](https://www.pangram.com/history/de89477f-ceb5-4762-b6d7-87601979e4d7) | r15-H, 1 | Human | AI or mixed | the point after the names, and a note splitting his sentence (gate E368) |
 | [r18-P](https://www.pangram.com/history/dcfc1cd4-912e-4a21-865a-2e297f278f35) | r18-P, 1 | Human | AI or mixed | my rewrite of words that already read High |
 | [r18-S](https://www.pangram.com/history/579da364-48c8-490e-bd68-3cf167311fdd) | r18-S, 1 | Human | AI or mixed | my rewrite of words that already read High |
+| [r19-P45](https://www.pangram.com/history/00f07f88-96d7-48c8-accf-24249c02731c) | r19-P45, 1 | Human | AI or mixed | the cut, and my fixes made it worse |
 
 ## Lineages still open (tries used of the cap)
 
@@ -209,7 +231,10 @@ The latest:
 | r11c-g13 | section | 1 of 2 | Mixed |
 | r18-P | stretch | 1 of 2 | Mixed |
 | r18-S | stretch | 1 of 2 | AI |
-| r17-phase1 | section | 1 of 2 | pending |
-| r17-stacks | section | 1 of 2 | pending |
-| gut-article-r17 | article | 1 of unlimited (Substack) | pending |
+| r19-P45 | stretch | 1 of 2 | Mixed |
+| r17-P45 | stretch | 1 of 2 | Mixed |
+| r17-P36 | stretch | 1 of 2 | Mixed |
+| r20-P36 | stretch | 1 of 2 | Mixed |
+| gut-article-r20 | article | 1 of unlimited (Substack) | pending |
+| gut-article-r21 | article | 1 of unlimited (Substack) | pending |
 
