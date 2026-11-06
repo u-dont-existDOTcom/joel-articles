@@ -38,13 +38,15 @@ Joel, 2026-11-03 16:15 UTC (`experiments/t01-answers/joel-20261103-1615-messages
   "pr has conflicts": 308 had conflicted after two lanes merged lessons into the same place in the gate (20:18 and
   20:27 UTC) until the 20:52 push; brought up to date with main again. Lessons now go one file per message in
   `docs/lessons/`, named, not numbered (gate gut-2026-11-06d), so 308 no longer touches the gate's lesson sections.
+- 2026-11-06 21:23 UTC: he merged pull request 308, so the lane auto-merge workflow and `docs/lessons/` are on main;
+  the lane goes on from main's tip on `claude/gut-r17-20261106`, whose pull request merges itself once its checks pass.
 
 ## Current checkpoint
 
 2026-11-06, after his message of 21:06 UTC: r17 (`humanize/fix-20261103/r17/r17.md`) is the article with every
 answer in. Temporary draft B holds it (`r17/substack/PASTED.json`: 3,992 words matched; its secret link rendered
 EXPECTED-TEXT-B.txt exactly), and the whole-article prediction is frozen as #183 (Human at 0.55) on that text. The
-link went to him in chat on 2026-11-06 at 20:57 UTC. Pull request 308 is up to date with main and free of conflicts.
+link went to him in chat on 2026-11-06 at 20:57 UTC. Pull request 308 is merged (21:23 UTC).
 Pangram's web app is signed out in the built-in browser, so #181 and #182 (the A/B checks of the old words) wait.
 
 ## Remaining
@@ -57,9 +59,8 @@ Pangram's web app is signed out in the built-in browser, so #181 and #182 (the A
 
 ## Blockers / unresolved
 
-- Waiting on Joel: his extension on draft B's link, his merge of pull request 308 (this session's permission check
-  refuses a merge into main without review; after it the lanes' pull requests merge themselves), and Pangram's
-  sign-in in the built-in browser (its "Verify you are human" box is his to answer).
+- Waiting on Joel: his extension on draft B's link, and Pangram's sign-in in the built-in browser (its "Verify you
+  are human" box is his to answer).
 
 ## Evidence / artifacts
 
