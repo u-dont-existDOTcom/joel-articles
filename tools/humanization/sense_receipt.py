@@ -63,6 +63,15 @@ The fields:
              the order the reader needs it, and the other place goes (gate E376; Joel, the same message: "delete the
              "hardening" para since i had to incorporate that into this one, otherwise it was out of order and a bit
              redundant"). Both fields are in every receipt make writes from 2026-11-06 19:40 UTC.
+  link       on every sentence of mine after the first: the words in that sentence that tie it to the one before or to
+             the reader's case ("One reason to think about, is that", "So to address that", "because"), quoted from the
+             sentence; or "none: why it needs none" (a list item, a new step the reader expects). The code checks only
+             that the quoted words are in the sentence. Gate neuro-2026-11-06b; Joel, 2026-11-06 23:01 UTC, on my third
+             try of the section's first paragraph, whose receipt had each sentence's `follows` right while the sentences
+             themselves said nothing of it: "as usual, it was not giving the payoff at the start, i told you this a
+             million times"; his version turned "Standard therapy is trying to rewrite" into "One reason to think about,
+             is that standard therapy is trying to rewrite" and "This protocol goes after" into "So to address that,
+             I've designed this protocol to go after". In every receipt make writes from 2026-11-06 23:01 UTC.
 """
 import argparse
 import hashlib
@@ -168,8 +177,9 @@ def make(text, section='', reader='', his_text='', whose=''):
         'text': text,
         'section': section,
         'reader': reader,
-        'sentences': [dict({'s': s}, **({'his': True} if his and s in his else {'payoff': '', 'follows': ''}))
-                      for s in sentences(text)],
+        'sentences': [dict({'s': s}, **({'his': True} if his and s in his else
+                                        dict({'payoff': '', 'follows': ''}, **({'link': ''} if n else {}))))
+                      for n, s in enumerate(sentences(text))],
         'checked': [],
         'placement': '',
         'opens': {'first_sentence': (sentences(text) or [''])[0], 'why_reading': ''},
@@ -213,6 +223,17 @@ def check(text, receipt):
                      'nothing, it goes (Joel, 2026-11-05: "there\'s NO PAYOFF")' % s)
         if len((x.get('follows') or '').strip()) < 8:
             p.append('follows missing for "%s": why does it come after the sentence before?' % s)
+        if 'link' in x:
+            link = (x.get('link') or '').strip()
+            full = x.get('s', '')
+            if link.lower().startswith('none:'):
+                if len(link) < 25:
+                    p.append('link for "%s": say why the sentence needs no words that tie it to the one before' % s)
+            elif len(link) < 2 or link.lower() not in full.lower():
+                p.append('link for "%s": quote the words in this sentence that tie it to the one before or to the '
+                         'reader\'s case ("One reason to think about, is that", "So to address that"); if there are '
+                         'none, the sentence needs them, or "none: why" (gate neuro-2026-11-06b; Joel: "it was not '
+                         'giving the payoff at the start")' % s)
     for c in receipt.get('checked', []):
         for k in ('point', 'found', 'still_needed', 'fate'):
             if not (c.get(k) or '').strip():

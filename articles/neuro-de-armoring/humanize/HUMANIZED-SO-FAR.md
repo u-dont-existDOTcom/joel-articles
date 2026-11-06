@@ -38,7 +38,7 @@ Rule: do not take 5-HTP on the same day as psychedelics, and do not use it anywh
 
 ## Psychology is the Software; Biology is the Hardware.
 
-Standard therapy attempts to rewrite the "code" (thoughts/behaviors) while the "motherboard" (the brain's physical structure and chemical environment) is often overheating or damaged. The science behind this protocol focuses on four specific neuro-biological mechanisms that must be addressed *before* psychological tools can be effective.
+Have you done years of CBT or EMDR and yet you still freeze up or blow up at the same old triggers? One reason to think about, is that standard therapy is trying to rewrite the "code" (your thoughts and behaviors), while the "motherboard" (the brain's physical structure and chemistry) is often overheating or damaged, and code doesn't run well on a motherboard like that. So to address that, I've designed this protocol to go after four specific neuro-biological problems before you go working on the psychology (well, alongside).
 
 The "Underpinning" Principle Dr. Bruce Perry compares treating trauma to building a house. Standard CBT & EMDR style therapies attempt to "decorate" the house (changing thoughts/behaviors in the Cortex) while the foundation (the Brainstem) is crumbling. You cannot hang curtains in a collapsing house.
 

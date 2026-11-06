@@ -197,3 +197,17 @@ up in the amygdala and hippocampus, an association); and Nestler 2008, which the
 he hadn't meant to cut ("i didn't even see Nestler"), is back as the source for "keeps cementing" (gate E380). With all
 three it read [Human Written, one window High](https://www.pangram.com/history/e5934635-2d01-47cc-8f90-68e4b32c15e8).
 "dynorphin clears relatively quickly" still has no source; the lane checks it next.
+
+
+## His version fifteen: the first paragraph of "Psychology is the Software" (6 November, 23:01 UTC)
+
+After three tries of mine read AI (`../../fix-20261106/p1/RESULTS.md`, `RESULTS-r2.md`), he started from my third and
+checked his: [first form](https://www.pangram.com/history/05b61b8e-e084-4c58-85f2-7959df0c3bdc), then
+[his final](https://www.pangram.com/history/0240baf7-ed34-4897-8f3d-db1eab13274b), both Human Written. In the article
+(`../../fix-20261106/p3/apply_his_p020.py`). Lesson neuro-2026-11-06b (`docs/lessons/2026-11-06-2301-neuro.md`).
+
+| my third try | his version | what changed |
+|---|---|---|
+| Maybe you've done years of CBT or EMDR and you still freeze up or blow up at the same old triggers. | Have you done years of CBT or EMDR and yet you still freeze up or blow up at the same old triggers? | A question asks the reader in first. |
+| Standard therapy is trying to rewrite the "code" (...), while the "motherboard" (...) is often overheating or damaged, and code doesn't run well on a motherboard like that. | One reason to think about, is that standard therapy is trying to rewrite the "code" (...) | The sentence says it's an answer to the reader's question. |
+| This protocol goes after four specific neuro-biological problems that must be addressed before psychological tools can do much. | So to address that, I've designed this protocol to go after four specific neuro-biological problems before you go working on the psychology (well, alongside). | The link said ("So to address that"), the author present ("I've designed"), the abstraction put in the reader's hands, and his own correction. |

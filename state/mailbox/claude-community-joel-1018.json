@@ -701,6 +701,41 @@
     }
    ],
    "recorded_utc": "2026-11-06T22:23Z"
+  },
+  {
+   "turn": "2026-11-06T23:01Z",
+   "lines_of_work": [
+    "neuro de-armoring"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "six items, all in the ledger; UDA main b6185f7 unchanged since 22:23"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "327 and 328 merged by the lane auto-merge; main 810f753d (bad trips 329, its lesson 2026-11-06-2225) merged here; no open pull requests of this lane"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no edits by others"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "328's merge notices only; the desktop app's file tools are connected but not its shell, so Codex can't run from here"
+    }
+   ],
+   "items": [
+    {
+     "item": "Joel's message of 2026-11-06 23:01 UTC: his version of block 20 (Human, all High in his reading), 'it was not giving the payoff at the start', 'i decompressed and personalized last sentence', 'changed a maybe into a question', 'see if you can learn something and try now'",
+     "outcome": "his version in; the lesson (the link to the reader's case said in the text, the author present, decompressed, a question) to main with a receipt check; the other paragraphs tried again his way"
+    }
+   ],
+   "recorded_utc": "2026-11-06T23:02Z"
   }
  ]
 }

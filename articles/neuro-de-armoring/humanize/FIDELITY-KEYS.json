@@ -2399,6 +2399,22 @@
    "numbers_new": [
     "2023"
    ]
+  },
+  {
+   "by": "fix-20261106/p3/APPLIED-HIS-P020.json (his version of block 20, message of 2026-11-06 23:01 UTC)",
+   "why": "his version says the four problems are gone after \"before you go working on the psychology (well, alongside)\" in place of \"must be addressed before psychological tools can be effective\"; W018 is a sentence the check reads as a warning only for its \"must\", not a safety warning",
+   "numbers_lost": [],
+   "numbers_new": [],
+   "keys_lost": {
+    "W018": [
+     [
+      "must"
+     ],
+     [
+      "addressed"
+     ]
+    ]
+   }
   }
  ],
  "warning_words": {
