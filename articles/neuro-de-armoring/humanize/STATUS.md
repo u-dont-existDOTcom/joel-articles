@@ -1,5 +1,11 @@
 # Status: neuro de-armoring humanization (newest on top)
 
+## 2026-11-06, after his message of 22:23 UTC: the tell panel, third tries, section B; the method has stalled
+
+`fix-20261106/p1/RESULTS-r2.md`. All eight checks read AI (block 42 Mixed, its first sentence Human Low). Of 17 checks
+today, only Part 1's opening with A read Human. The panel's next step is a writer of another family (Codex), which runs
+from his laptop's shell; not connected this session. Nothing new in the article.
+
 ## 2026-11-06, his "keep going" of 21:36 UTC: round P1 (Part 1's first stretch)
 
 `fix-20261106/p1/RESULTS.md`. Nine paragraphs rewritten with receipts (`opens`, `same_point`) and predicted; checked
