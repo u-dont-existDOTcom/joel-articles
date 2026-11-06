@@ -1,5 +1,12 @@
 # Status: neuro de-armoring humanization (newest on top)
 
+## 2026-11-06, his message of 23:01 UTC: his version of block 20 in; lesson neuro-2026-11-06b; round 3 all AI
+
+His version of the first paragraph of "Psychology is the Software" is in (`fix-20261106/p3/apply_his_p020.py`; fidelity
+records W018's "must ... addressed" as his). Lesson `docs/lessons/2026-11-06-2301-neuro.md`, enforced by the receipt's
+`link` (tests pass; PR 332 merged). Round 3, his moves made by me: seven checks, all AI except the Repair's first
+sentence (Human, High) (`fix-20261106/p3/RESULTS.md`).
+
 ## 2026-11-06, after his message of 22:23 UTC: the tell panel, third tries, section B; the method has stalled
 
 `fix-20261106/p1/RESULTS-r2.md`. All eight checks read AI (block 42 Mixed, its first sentence Human Low). Of 17 checks
