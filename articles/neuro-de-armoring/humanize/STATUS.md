@@ -1,5 +1,28 @@
 # Status: neuro de-armoring humanization (newest on top)
 
+## 2026-11-06, his message of 19:40 UTC: his dynorphin paragraph in, "The Hardening" deleted, AskRigor accepted, lessons E374 to E377 to main
+
+His message, word for word: `fix-20261106/joel-20261106-1940-message.txt`. **The mailbox first** ("2026-11-06T19:40Z"):
+main f1f68026 (bad trips 313, E373), merged; 309 now article files only; 308 changes AGENTS.md, SKILL.md and the gate.
+- **His paragraph in, byte for byte** (`fix-20261106/apply_problem_1940.py`, `APPLIED-1940.json`) in place of "The
+  Problem: To protect itself ...", and "The Hardening" deleted at his word. His check, read from his history:
+  [Human Written, 100% human, one window High, 125 words](https://www.pangram.com/history/3d7bf59d-c958-4f82-a268-d33089bfbda1)
+  (it checked the paragraph with a space where the article has his line break). Fidelity PASS; owner_changes records
+  Nestler 2008 out and Vialou 2010 back.
+- **AskRigor**: the status call's text gave neither the terms nor their version (both only in its structured result,
+  which this app doesn't show), so the version came from AskRigor's public source (`free-contributor-v5-2026-11-05`);
+  accepted, and AskRigor reads the account as active. The bug report he asked for was refused by AskRigor's privacy
+  check as first written; the general rewrite waits for his yes (`fix-20261106/ASKRIGOR-BUG-REPORT.md`). Not resent.
+- **Lessons** (gate E374 to E377, `docs/MAKING-SENSE.md` questions 1, 4 and 6, `WHAT-HIS-VERSIONS-DO.md` version
+  fourteen): his paragraph opens on the reader's state, says each mechanism by what it does to the reader, tells it in
+  the order it happens, and holds the Hardening point in its place. Why mine missed: my receipt marked the model's
+  opening as his, untouched (the E373 error), and asked a payoff only of my added sentences. Enforced:
+  `sense_receipt.py` now writes and checks `opens` and `same_point` (tests added; 598 pass).
+- **A correction**: last turn's account of the 2022 dentate gyrus paper made it sound like a block on learning; it is
+  about healthy learning (`SCHEMA-CHECK.md` notes it). The closer source for his "clicking" is Zhong 2023, an
+  association; question 11 asks whether to cite it. FACTS.md's DeltaFosB row now notes my misreading.
+- **Q9 and Q10** answered by his paragraph: DeltaFosB stays the armor, and the learning that doesn't click is its effect.
+
 ## 2026-11-06, his answers of 16:35 UTC on the DeltaFosB cards: his three versions in; the schema idea checked and it holds; the dynorphin paragraph to him after two AI tries
 
 His answers, word for word: `fix-20261106/ANSWERS-X1105D-20261106-1635.json`. They answer the cards the **separate**

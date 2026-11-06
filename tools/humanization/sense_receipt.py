@@ -49,6 +49,20 @@ The fields:
              can't be explained where it is first used. Without it such a sentence fails (gate E369: Joel, 2026-11-05,
              "make sure every term is introduced once at first"; "Colostrum is the first milk a cow makes ..." after
              "Liposomal first-milking colostrum" read AI, Medium).
+  opens      {"first_sentence": the text's first sentence (make writes it), "why_reading": what that first sentence
+             tells this reader about their own case, so they know why they are reading on: the state they would
+             recognize in themselves, or what they get from the paragraph}. Asked of the paragraph, whoever wrote its
+             first sentence: a payoff for each sentence I add doesn't say whether the paragraph opens on one (gate E374;
+             Joel, 2026-11-06 19:40 UTC, on my dynorphin tries, which kept the model's mechanism-first opening and
+             added the payoff at the end: "it was not giving the payoff quick enough. i was as usual wondering why am i
+             reading this?"; his version opens "If you're feeling apathetic, gray, no desire for anything, you might be
+             in a neurochemical "Void" state").
+  same_point which paragraphs of the section (heading to next heading) already make a point this paragraph makes, and
+             what happens to each: "merged here; block N, the Hardening paragraph, is deleted" or "none: read the
+             section from its heading to the next for <the points>". A point said in two places is merged into one, in
+             the order the reader needs it, and the other place goes (gate E376; Joel, the same message: "delete the
+             "hardening" para since i had to incorporate that into this one, otherwise it was out of order and a bit
+             redundant"). Both fields are in every receipt make writes from 2026-11-06 19:40 UTC.
 """
 import argparse
 import hashlib
@@ -62,6 +76,9 @@ SCHEMA = 'SENSE_RECEIPT_V1'
 # started humanizing (i.e if i wrote that myself inside an ai article) otherwise it's AI words that i humanized"): from this
 # day a sentence is marked his only for what he wrote himself, and the receipt says so ("his_whose": "his own: ...")
 PROVENANCE_FROM = '2026-11-06'
+# Gates E374 and E376: from this day every receipt answers "opens" and "same_point" (receipts that already carry either
+# key are checked for both from the moment make began writing them, 2026-11-06 19:40 UTC).
+PARAGRAPH_FROM = '2026-11-07'
 HIS_OWN = re.compile(r'^\s*his own\s*:\s*\S.{8,}', re.I | re.S)
 NOT_HIS = ('--his is only for what Joel wrote himself, before any humanizing: give --whose "his own: what and where". His '
            'version of a model\'s text, and the published text of an article a model drafted, are AI words he humanized: '
@@ -75,7 +92,10 @@ QUESTIONS = {
     'Q3': 'Which thing exactly? (pools of water, not water; any substance, not anything)',
     'Q4': 'What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate '
           'wouldn\'t know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) '
-          'left alone?',
+          'left alone? Is each mechanism explained by what it does in the reader\'s experience (dopamine "for '
+          'motivation (by showing us what is important to pay attention to)"; DeltaFosB "preventing that learning from '
+          'really clicking"), not by where it sits or what it looks like ("a chemical blanket", "the slower one '
+          'underneath")? (E375)',
     'Q5': 'Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)',
     'Q6': 'Is this the order the reader is thinking in, and does each idea sit next to what it continues?',
     'Q7': 'Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?',
@@ -152,6 +172,8 @@ def make(text, section='', reader='', his_text='', whose=''):
                       for s in sentences(text)],
         'checked': [],
         'placement': '',
+        'opens': {'first_sentence': (sentences(text) or [''])[0], 'why_reading': ''},
+        'same_point': '',
         'questions': {q: '' for q in QUESTIONS},
         'question_text': QUESTIONS,
     }, **({'his_whose': whose} if his else {}))
@@ -208,6 +230,26 @@ def check(text, receipt):
     if mine and len((receipt.get('placement') or '').strip()) < 20:
         p.append('placement: say where the paragraph sits and why there, and what its first "also", "this" or "as for" '
                  'points to')
+    # Gates E374 and E376: every receipt make writes from 2026-11-06 19:40 UTC carries "opens" and "same_point"; one
+    # written before has neither key and is checked as before.
+    if mine and ('opens' in receipt or 'same_point' in receipt or (receipt.get('made') or '') >= PARAGRAPH_FROM):
+        opens = receipt.get('opens') or {}
+        first = (want or [''])[0]
+        if (opens.get('first_sentence') or '') != first:
+            p.append('opens: first_sentence must be the text\'s first sentence ("%s"); make writes it' % first[:60])
+        why = (opens.get('why_reading') or '').strip()
+        if len(why) < 30 or NO_PAYOFF.match(why):
+            p.append('opens: say what the first sentence tells this reader about their own case, so they know why they '
+                     'are reading on (the state they would recognize, or what they get here). If it tells them '
+                     'nothing yet, the paragraph opens on that instead, whoever wrote the sentence (gate E374; Joel, '
+                     '2026-11-06: "i was as usual wondering why am i reading this?")')
+        same = (receipt.get('same_point') or '').strip()
+        if len(same) < 30 or re.match(r'^\s*(nothing|n/?a|-+|\?|tbd|todo)\b', same, re.I) or (
+                re.match(r'^\s*none\b', same, re.I) and not re.search(r'\bread\b', same, re.I)):
+            p.append('same_point: name the section\'s paragraphs that already make a point this one makes and what '
+                     'happens to each ("merged here; block N is deleted"), or "none: read the section from its heading '
+                     'to the next for <the points>" (gate E376; Joel, 2026-11-06: "otherwise it was out of order and a '
+                     'bit redundant")')
     qs = receipt.get('questions') or {}
     for q in QUESTIONS:
         a = (qs.get(q) or '').strip()

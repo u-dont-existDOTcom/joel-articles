@@ -3,7 +3,7 @@
 **ACTIVE (Joel, 2026-11-04 22:14 UTC, gate E360):** "do we need to devise some kind of making sense protocol rather than
 attacking this problem case by case perhaps?" This is it: one read, for every paragraph I draft or rewrite in any of his
 articles, before its first Pangram try and again after every change. It collects what his own fixes have taught, lesson
-by lesson (E87, E342, E345, E347, E351, E355, E357, E359, E360, E362, E365, E366, E368, E369), so a new case is met by the same questions
+by lesson (E87, E342, E345, E347, E351, E355, E357, E359, E360, E362, E365, E366, E368, E369, E374 to E376), so a new case is met by the same questions
 instead of a new rule. His words on why it comes first: "you don't need any lived experience, you just need it to MAKE SENSE". When a
 paragraph makes sense the way his versions do, the AI reading has mostly gone with it; when it doesn't, no rewording
 holds ("it's almost like pangram knows how stupid it sounds somehow").
@@ -43,6 +43,12 @@ the situation its heading names.
    - Mine: "If you're already agitated, manic, on serotonergic meds, or using ..., you shouldn't be casually
      experimenting with it." His: "I'd avoid casually experimenting with 5-HTP if you're agitated or manic, as it could
      sometimes push that further." (E357)
+   - The paragraph's first sentence is read too, whoever wrote it (E374). My dynorphin tries kept the model's opening,
+     "To protect itself from the Glutamate storm, the brain eventually releases Dynorphin, a chemical blanket that
+     suppresses dopamine.", and added the payoff at the end ("so don't read a better week as the armor coming off");
+     both read AI, High. His opens on the reader's own state: "If you're feeling apathetic, gray, no desire for
+     anything, you might be in a neurochemical "Void" state caused by Dynorphin & DeltaFosB." (Human, High; "i was as
+     usual wondering why am i reading this?"). The receipt's `opens` asks it.
 2. **What is this instruction for?** Say the purpose, in the reader's terms, when it isn't plain (E360).
    - Mine: "Put away the car keys." His: "get the car keys out of reach" ("why put car keys away, because it's messy to
      have them in the wrong spot? we want them OUT OF REACH").
@@ -72,6 +78,13 @@ the situation its heading names.
      to introduce more common stuff like a vitamin name"; E369). Those changes are made without asking him; ask only
      when you can't tell whether such a reader knows the term, or can't explain it without guessing (his "HRP").
      `sense_receipt.py check` refuses a sentence of mine that explains a term after the text has used it.
+   - A mechanism is explained by what it does in the reader's experience, not by where it sits or what it looks like
+     (E375). Mine: "a chemical blanket that suppresses dopamine", "DeltaFosB is the slower one underneath, holding the
+     circuit where the cycles left it", "They don't lift together". His: "dopamine is the neurotransmitter for
+     motivation (by showing us what is important to pay attention to)", so suppressing it is the "no desire" the reader
+     feels; "DeltaFosB keeps cementing our neural connections, preventing that learning from really "clicking" as
+     durable insights"; and the loop in the reader's own terms, "because we're still reacting in the same maladaptive
+     ways (same fears, etc), our psychology then asks for more DeltaFosB" ("it also wasn't explaining things well").
 5. **Why does this follow from the sentence before?** A "but", "so", "though" or "because" has the claim it turns on;
    two facts side by side have their link said; "this", "that" and "it" point at something the reader can name (E345,
    E351, E355, E357).
@@ -93,6 +106,11 @@ the situation its heading names.
      inbetween canna paras isn't that obvious?"). When a paragraph moves, read again what its first "also", "this" or "as for" now points to: after the warning
      stage moved above it, the next paragraph's "I would also use ... as adjuncts" added to the warning-stage list
      (round 7's AFTER-MOVE card).
+   - One point is said in one place (E376). I added what DeltaFosB does to the dynorphin paragraph while "The
+     Hardening" paragraph said it again three paragraphs later, after the SSRI paragraphs. He folded it into his
+     paragraph, in the order it happens (dynorphin clears, learning doesn't click, the old reactions call for more
+     DeltaFosB), and deleted the other: "otherwise it was out of order and a bit redundant". Before adding a point, read
+     the section from its heading to the next for it; the receipt's `same_point` asks it.
 7. **Does this fact help this reader now?** A section's research is chosen for the situation the section is about, and
    a finding that doesn't serve that reader goes, however true (E360).
    - "think about the usefulness of the THREE YEAR STUDY when we are talking to people having seizures RIGHT NOW, so

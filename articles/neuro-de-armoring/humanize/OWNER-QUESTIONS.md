@@ -1,9 +1,8 @@
 # Neuro de-armoring: what I need from Joel
 
-Last updated 2026-11-06, after your answers of 16:35 UTC on the DeltaFosB cards.
-**Open questions: 2** (9 and 10, both about what the article argues, not about wording). **For you to do**: answer the
-dynorphin card, accept AskRigor's new notice, switch your Pangram extension to your other account, edit two stretches,
-and merge the pull request (below).
+Last updated 2026-11-06, after your message of 19:40 UTC (your dynorphin paragraph).
+**Open questions: 1** (11, a source for your paragraph). **For you to do**: say yes to the AskRigor bug report as
+rewritten, switch your Pangram extension to your other account, and merge the pull request (below).
 Colours: 🟣 a question for you; 🟠 something for you to do; 🔵 next or in progress; 🟢 done or decided.
 
 The master copy of this page is [this file in Git](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/OWNER-QUESTIONS.md), so a session in either of your accounts
@@ -11,32 +10,48 @@ can read and update it. Every file it points to is a link.
 
 ## Open questions
 
-- 🟣 **9. Is DeltaFosB the article's armor at all?** Raised by the separate DeltaFosB lane, whose pass is
-  [here](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/neuro-deltafosb-20261105/articles/neuro-de-armoring/humanize/fix-20261105/deltafosb/DELTAFOSB-CHECK.md)
-  (its pull request is 309, not merged). Three ways to go: keep the frame and re-source it from the addiction
-  literature; narrow DeltaFosB to the addiction arm of the story; or follow the stress literature and flip the role.
-  Question 10 is a fourth way that came up after it, and I'd read them together.
-- 🟣 **10. Should the armor's mechanism become blocked updating rather than cementing?** From your schema point of
-  2026-11-05, checked this turn ([the pass, with its sources](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261106/SCHEMA-CHECK.md)).
-  Your idea holds up, with the mechanism running the other way round from "cementing": DeltaFosB piles up in the cells
-  that just fired and stops them switching on the gene they need to take part in new learning, and in one study that
-  pile-up in the amygdala and dentate gyrus went with mice that could not extinguish fear -- a threat belief that would
-  not update. That keeps your loop and puts "permanent" where you put it, on the loop. It is a bigger claim than the
-  article makes now and it rests on two rodent papers, one of them associational, so it is yours to decide. Nothing is
-  changed either way.
+- 🟣 **11. A second source for "clicking"?** Your paragraph's Vialou 2010 is about DeltaFosB that builds up under
+  stress and helps resilience, which fits the armor, but it isn't about learning. The closest support for "preventing
+  that learning from really "clicking" as durable insights" is a mouse study where chronic stress (worse after early
+  anesthesia) left the mice unable to unlearn a fear, and that went with DeltaFosB built up in the amygdala and the
+  hippocampus ([Zhong, et al, 2023](https://pubmed.ncbi.nlm.nih.gov/37003493/)). It shows the two together, not that
+  one causes the other.
+  a) **Add it after Vialou**: "([Vialou, et al, 2010](https://pubmed.ncbi.nlm.nih.gov/20473292/); [Zhong, et al,
+  2023](https://pubmed.ncbi.nlm.nih.gov/37003493/))" (my recommendation: the clicking claim then has a source of its
+  own). I'd check your paragraph's reading after.
+  b) **Leave it as it is.**
+  A correction to what I told you last turn: the 2022 dentate gyrus paper ([Lamothe-Molina, et al](https://pmc.ncbi.nlm.nih.gov/articles/PMC9606265/))
+  is about healthy learning, where DeltaFosB keeps cells that just learned from firing again so new details go to new
+  cells. I had made it sound like a block on learning; it isn't evidence for that. And "dynorphin clears relatively
+  quickly" has no source yet; I'll look for one with AskRigor and bring it back only if what I find says otherwise.
+- 🟢 **9 and 10, answered by your paragraph**: DeltaFosB stays the armor, and what it does is keep the learning from
+  clicking, with the loop as what keeps it going. Nothing else in the article changes for them.
 
 ## For you to do
 
-- 🟠 Answer the one card on [Neuro De-Armoring Cards, 6 November](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261106/cards/REVIEW-X1106A.md):
-  DFB-2 again, done the way you asked.
-- 🟠 Accept AskRigor's free contributor notice, which changed. Its research tools refuse to run until you do, so this
-  turn's pass used PubMed and Europe PMC directly instead. I can't accept it for you.
+- 🟠 **Say yes to the AskRigor bug report**, or change it: [the report as rewritten](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261106/ASKRIGOR-BUG-REPORT.md).
+  AskRigor's privacy check refused the first version and asks for your yes to the general one before it goes.
 - 🟠 Switch the Pangram extension in Brave to your other account, and tell me. Its badge read "Daily limit reached" on
   the whole article's temporary draft ("Neuro de-armoring, draft A (temp, delete after)"). I'll open the preview again and
   read the result myself.
-- 🟠 Edit two stretches on [Neuro De-Armoring Cards, 4 November (4)](https://claude.ai/artifact/G7HN5K4HMTUEZPnbTaPmpk)
-  ([every card as text](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261104/cards/REVIEW-X1104E.md)): the 5-HTP stop signs, and the Low window in the interactions paragraph.
 - 🟠 Merge the pull request for this turn when you've looked.
+
+## Your message of 2026-11-06 19:40 UTC (your dynorphin paragraph, AskRigor's terms), and what I did
+
+Word for word: [your message](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261106/joel-20261106-1940-message.txt).
+
+- 🟢 **Your paragraph is in, word for word**, in place of "The Problem: To protect itself from the Glutamate storm ...",
+  and "The Hardening" paragraph is gone ([what changed](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261106/APPLIED-1940.json)).
+  Your check reads [Human Written, 100% human](https://www.pangram.com/history/3d7bf59d-c958-4f82-a268-d33089bfbda1),
+  one window, High. The dose and warning check still passes; it records Nestler 2008 out and Vialou 2010 back.
+- 🟢 **AskRigor's terms accepted** for you; AskRigor reads your account as active in free contributor mode. The terms
+  are in the bug report page above, word for word.
+- 🟢 **The lessons are in main** (E374 to E377, [the gate](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/docs/HUMANIZATION-GATE.md), and [what your versions do](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261103/examples/WHAT-HIS-VERSIONS-DO.md)):
+  a paragraph opens on the reader's own case, whoever wrote its first sentence; a mechanism is said by what it does to
+  the reader; one point in one place; and a yes I need from you is asked as a question with the full terms. The first
+  and third are now checked: no try of mine reaches Pangram or a card without saying what its first sentence tells the
+  reader and where else the section makes the same point.
+- 🔵 **Next**: the rest of section C and D the same way, starting with the SSRI paragraphs your paragraph now leads into.
 
 ## Your message of 2026-11-04 20:19 UTC ("so then are we done can we publish it?"), and what I did
 
