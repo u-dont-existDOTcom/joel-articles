@@ -1,0 +1,32 @@
+[
+ {
+  "old": "Before you throw supplements or antimicrobials at your gut, the system mechanics that are foundational to gut function have to work.",
+  "new": "Before you throw supplements or antimicrobials at your gut, check your nervous system and your bile, the mechanics they need to work.",
+  "kind": "window",
+  "why": "AI Low with its heading (r12-g07, #125): the act first, named (check your nervous system and your bile, the two checks the phase makes), then why; \"the mechanics\" kept, since Phase 2 opens \"Once the mechanics work\""
+ },
+ {
+  "old": "A good stack should cover these 3 categories:",
+  "new": "Look for a stack that covers these 3 categories:",
+  "kind": "window",
+  "why": "AI Low with item 1 (r12-g13, #131; r11c-g13, #136): the reader's act first"
+ },
+ {
+  "old": "1. First, support the Microbiome with a well-tolerated probiotic or probiotic system.",
+  "new": "1. First, your gut needs its good bacteria back, so take a probiotic that's easy on your stomach.",
+  "kind": "window",
+  "why": "AI Low (#131, #136): the reader's reason, then the act (E371); \"easy on your stomach\", the plain word for \"well-tolerated\""
+ },
+ {
+  "old": "2. Then keep the probiotics well-fed with a good prebiotic, and take something that helps short-chain fatty acid production, especially the main one, butyrate, or take butyrate itself.",
+  "new": "2. Then keep them fed with a prebiotic, the kind of fiber they eat, and take something that helps them make short-chain fatty acids, especially the main one, butyrate, or take butyrate itself.",
+  "kind": "term",
+  "why": "E369: \"prebiotic\" is first used here and was never explained; \"helps them make\", the plain verb for \"helps ... production\"; the item read AI Low with items 1 and 3 in #136, in an older wording"
+ },
+ {
+  "old": "3. Other nutrients will help support barrier repair, such as glutamine, zinc carnosine, colostrum, mucosal-support herbs, or similar compounds.",
+  "new": "3. Last, something to help your gut lining heal, like glutamine, zinc carnosine, colostrum, or herbs that soothe it.",
+  "kind": "window",
+  "why": "AI Low on its own (r11c-g13, #136): what it is for first (to help your gut lining heal), then the examples word for word; \"herbs that soothe it\", the plain words for \"mucosal-support herbs\"; \"or similar compounds\" said nothing"
+ }
+]

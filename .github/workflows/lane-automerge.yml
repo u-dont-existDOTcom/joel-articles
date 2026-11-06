@@ -1,6 +1,6 @@
 name: Lane auto-merge
 
-# Gate E378. Joel, 2026-11-06 19:48 UTC, on the gut lane's pull request 308 conflicting again: "how can we durably
+# Gate E379. Joel, 2026-11-06 19:48 UTC, on the gut lane's pull request 308 conflicting again: "how can we durably
 # prevent this from happening when i have multiple lanes working on the same thing, is that not possible?" The cause:
 # the other lanes merged their own pull requests a minute after opening them, while the gut lane's session may not
 # merge, so its pull requests waited hours for his click and main moved under them. His choice the same day: every

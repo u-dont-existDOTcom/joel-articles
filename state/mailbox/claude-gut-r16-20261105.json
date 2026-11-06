@@ -114,6 +114,45 @@
     }
    ],
    "recorded_utc": "2026-11-06T19:54Z"
+  },
+  {
+   "turn": "2026-11-06T20:13Z",
+   "lines_of_work": [
+    "gut article"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "no new items; UDA main still c5c9951, its root AGENTS.md fetched this turn"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "main moved after 20:15 UTC to 9c31f3ca (#315, #316 bad trips, #317 neuro), which gave out E378 and E380; merged into this branch, and the gut lane's lessons renumbered E379 and E381 to E383; 308 open, waiting for his merge; no new issue or review comments (gh api REST)"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no edits by anyone else to articles/healing-the-gut since 308"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "two CI-completed events for 308, both already checked"
+    }
+   ],
+   "items": [
+    {
+     "item": "Joel's message of 20:13 UTC: Low windows get fixed, Medium ones tried or put on a later list, Pangram's bugs left; and why I said I'd fix the windows and then stopped",
+     "outcome": "answered (E382); the Low and the Mediums fixed and tested as r17 (#175 to #178), batch-12 page out; the bugs and two things to learn from on LATER-WINDOWS.md (E381); the three old Low windows E354 named had read High in later checks, my rewrites of them read worse and were taken back (r18, #179, #180, E383); the whole-article prediction frozen (#183) and draft B made for his extension"
+    },
+    {
+     "item": "main's #316 and #317 gave out E378 and E380 while 308 used them",
+     "outcome": "renumbered here: the auto-merge lesson is E379, this turn's lessons E381 to E383; lane_push.py's lesson-number check passes"
+    }
+   ],
+   "recorded_utc": "2026-11-06T20:50Z"
   }
  ]
 }

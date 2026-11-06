@@ -234,6 +234,35 @@ class Ledger(unittest.TestCase):
         seen = L.open_windows(L.read(self.ledger), 'Intro.\n' + sec)
         self.assertEqual([(l, c) for l, _, c, _ in seen], [('S', 'Low')])
 
+    def test_a_later_check_kept_without_window_text_is_named_and_its_text_clears_the_window(self):
+        """Gate E383 (the gut lane, 2026-11-06): E354 named three AI Low windows that later checks (#137, #139) had read
+        Human, High, because the ledger kept only those results' labels; I rewrote words that already read High, and
+        both rewrites read worse. The refusal now names the later checks kept without window text, and a correction
+        line with their text clears the window."""
+        sec = 'Start any kit at a low dose and build up as your gut gets used to it. Everything else here is fine.'
+        self.assertEqual(self.predict(sec, lineage='S', scope='section', call='AI', key='w1'), 0)
+        res = self.dir / 'res.json'
+        res.write_text(json.dumps({'w1': ['AI Detected', 0.2, 20, 'AI-Generated, Low, 15; Human, High, 5', '16:10:41', '/abc',
+                                          ['AI-Generated (15 words): Start any kit at a low dose and build up as your gut gets used to it.']]}),
+                       encoding='utf-8')
+        self.assertEqual(L.main(['results', self.ledger, str(res)]), 0)
+        whole = 'Intro.\n' + sec + '\nMore.'
+        self.assertEqual(self.predict(whole, lineage='W', scope='section', key='w2'), 0)
+        res.write_text(json.dumps({'w2': ['Human Written', 0.0, 22, 'Human, High, 22', '16:20:00', '/def', []]}),
+                       encoding='utf-8')
+        self.assertEqual(L.main(['results', self.ledger, str(res)]), 0)
+        recs = L.read(self.ledger)
+        self.assertEqual(len(L.open_windows(recs, whole)), 1)
+        later = L.textless_after(recs, {'S'})
+        self.assertEqual(later, [L.find(recs, key='w2')['id']])
+        r = dict(L.state(recs)[later[0]]['result'])
+        r['windows'] = [{'label': 'Human', 'confidence': 'High', 'words': 22, 'text': whole}]
+        r['corrected'] = 'the same result, with its window text from Pangram\'s history'
+        L.append(self.ledger, r)
+        recs = L.read(self.ledger)
+        self.assertEqual(L.open_windows(recs, whole), [])
+        self.assertEqual(L.textless_after(recs, {'S'}), [])
+
     def test_two_unexplained_misses_stop_the_lineage(self):
         self.predict('v1')
         self.result('v1', 'AI')

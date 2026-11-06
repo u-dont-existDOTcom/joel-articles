@@ -25,29 +25,37 @@ Joel, 2026-11-03 16:15 UTC (`experiments/t01-answers/joel-20261103-1615-messages
 - 2026-11-05 18:43 UTC: his batch-9 answers as r15 (`humanize/fix-20261103/r15/`): 28 term notes, three repeats cut, all twelve changed stretches Human (#155 to #171); gates E368 and E369; batch-10 page https://claude.ai/artifact/NfPt7HckprSDhtuCm84P5E; merged by Joel as #293.
 - 2026-11-05 23:00 UTC: his batch-10 answers as r16 (`humanize/fix-20261103/r16/`); how to write for Pangram put in `AGENTS.md` and `SKILL.md` for every lane (pull request 308).
 - 2026-11-06 16:37 UTC: r16 checked in his account (#172 to #174, all Human, High); batch-11 page https://claude.ai/artifact/RfYKiY9RvDAJBYazEaGLeD.
+- 2026-11-06 19:48 UTC: his batch-11 answers in (r16 is the article with every answer); lane pull requests merge
+  themselves once the workflow is on main (gate E379, his choice).
+- 2026-11-06 20:13 UTC: the windows left below High fixed as r17 (`humanize/fix-20261103/r17/`): the resistant starch
+  item (Low), the beta-glucans item, Phase 4's organ checks and the pregnancy line (Medium), each stretch Human, High
+  (#176 to #178); batch-12 page https://claude.ai/artifact/1QDJftScnaAjnqGS5b8xyM. The abbreviation splits and two
+  things to learn from are on `humanize/LATER-WINDOWS.md` (E381). The three old AI Low windows E354 still named had
+  read Human, High in later checks (#137, #139) whose window text the ledger lacked; my rewrites of them read worse
+  (`r18/`, #179, #180) and were taken back (E383).
 
 ## Current checkpoint
 
-2026-11-06, Joel's message of 19:48 UTC (`experiments/t16-answers/`): batch 11's F11-1 and F11-2 approved, so r16
-(`humanize/fix-20261103/r16/r16.md`) is the article with every answer in. "pr still has conflicts": main (#311 to #313)
-merged into pull request 308; AGENTS.md's conflict (this branch's Pangram paragraph beside the marking-page paragraph
-#313 reworded for E373) resolved with both kept.
+2026-11-06, after his message of 20:13 UTC: r17 (`humanize/fix-20261103/r17/r17.md`) is the article with batch 12's four
+fixes in, waiting for his answers on the batch-12 page. The whole of r17 is a paste payload for temporary draft B
+(`r17/substack/`), and the whole-article prediction is frozen as #183 (Human at 0.55), on the text his extension reads
+(`r17/substack/EXPECTED-TEXT-B.txt`). Pangram's web app signed out in the built-in browser before the two A/B checks of
+the old words ran (#181, #182, frozen).
 
 ## Remaining
 
-1. The whole of r16 checked once in a temporary Substack draft (free, never published) through his extension. First
-   the windows earlier checks left below High in r16 (E354): the resistant starch item (Human Low in #170), the
-   beta-glucans item, Phase 4's two sentences and the pregnancy sentence (Human Medium). Under E373 these are the
-   model's words he kept, so they are mine to fix, tested, on an approve card.
-2. Then his post updated with his OK and no email.
-3. Draft A (`r12/substack/`, #143) waits for his extension's result; he deletes it once recorded. If r16's draft reads
-   Human, the update carries that draft's characters, marks included (E362 (gut)), and draft A no longer decides
-   anything.
+1. His extension's check of draft B's secret link (#183), and his answers on the batch-12 page.
+2. Then his post updated with his OK and no email, carrying draft B's characters, marks included (E362 (gut)); any
+   card he rejects or revises first goes back into r17 and its stretch is checked again.
+3. #181 and #182 once Pangram is signed in again in the built-in browser (whether #180 read AI because of my list or the
+   cut); old results kept without their window text get it from Pangram's history (`humanize/LATER-WINDOWS.md`).
+4. Drafts A and B are his to delete once their results are recorded.
 
 ## Blockers / unresolved
 
-- Waiting on Joel: his merge of pull request 308 (this session's permission check refuses a merge into main without
-  review), and draft A's result.
+- Waiting on Joel: his extension on draft B's link, the batch-12 page, his merge of pull request 308 (this session's
+  permission check refuses a merge into main without review; after it the lane's pull requests merge themselves), and
+  Pangram's sign-in in the built-in browser (its "Verify you are human" box is his to answer).
 
 ## Evidence / artifacts
 
@@ -55,4 +63,5 @@ merged into pull request 308; AGENTS.md's conflict (this branch's Pangram paragr
 
 ## Next safe action
 
-Fix the windows below High that r16 still has, tested, on an approve card; then make the temporary draft of the whole article for his extension.
+Record his extension's result for draft B (#183) and his batch-12 answers; fix what either shows (Low always, Medium
+tried, bugs left), then ask his OK to update the post, no email.

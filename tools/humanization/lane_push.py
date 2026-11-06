@@ -409,8 +409,8 @@ GATE_DOC = 'docs/HUMANIZATION-GATE.md'
 
 def new_duplicate_lessons(branch_text, main_text):
     """Lesson numbers that the branch's gate uses twice and main's doesn't: two lanes took the same next number in the
-    same hour (2026-11-06: the neuro lane's E374 and the gut lane's, which became E378). Older shared numbers, already
-    cited with their lane, stay as they are."""
+    same hour (2026-11-06: the neuro lane's E374 and the gut lane's, which became E378, and then E379 when the bad trips
+    lane gave out E378 first). Older shared numbers, already cited with their lane, stay as they are."""
     def dups(text):
         nums = re.findall(r'^- \*\*E(\d+)\. ', text or '', re.M)
         return {n for n in nums if nums.count(n) > 1}, nums
@@ -420,18 +420,18 @@ def new_duplicate_lessons(branch_text, main_text):
 
 
 def lesson_numbers_gate():
-    """Refuse a push whose gate gives a new lesson a number main already gave another (gate E378)."""
+    """Refuse a push whose gate gives a new lesson a number main already gave another (gate E379)."""
     path = REPO / GATE_DOC
     main_text = run(['git', 'show', 'origin/main:' + GATE_DOC], check=False).stdout
     new, nxt = new_duplicate_lessons(path.read_text(encoding='utf-8') if path.exists() else '', main_text)
     if new:
         sys.exit('refused: %s has two lessons numbered %s. Main gave the number out first, so yours takes the next free '
-                 'one, E%s and on, in every file that cites it (gate E378).' % (GATE_DOC, ', '.join('E' + n for n in new),
+                 'one, E%s and on, in every file that cites it (gate E379).' % (GATE_DOC, ', '.join('E' + n for n in new),
                                                                               nxt))
 
 
 def robot_on_main():
-    """Whether main has the lane auto-merge workflow (gate E378), which merges a lane's pull request once its checks
+    """Whether main has the lane auto-merge workflow (gate E379), which merges a lane's pull request once its checks
     pass and it has no conflicts."""
     return run(['git', 'cat-file', '-e', 'origin/main:' + ROBOT], check=False).returncode == 0
 
@@ -439,7 +439,7 @@ def robot_on_main():
 def merge_gate(a, pending, robot=None):
     """Refuse a push of shared changes that says neither --merge nor --no-merge (Joel, 2026-11-05: "make sure you merge
     lessons with main branch so everyone is sharing always"), unless main has the lane auto-merge workflow, which merges
-    the pull request itself once its checks pass (gate E378; Joel, 2026-11-06: every lane's pull request merges
+    the pull request itself once its checks pass (gate E379; Joel, 2026-11-06: every lane's pull request merges
     itself)."""
     if robot is None:
         robot = robot_on_main()
@@ -528,7 +528,7 @@ def main(argv=None):
     elif a.no_merge and robot_on_main():
         print(hold(a.no_merge))
     elif robot_on_main():
-        print('the lane auto-merge workflow merges this pull request once its checks pass and it has no conflicts (E378)')
+        print('the lane auto-merge workflow merges this pull request once its checks pass and it has no conflicts (E379)')
     elif pending:
         print('shared changes NOT merged into main: %s' % a.no_merge)
     return 0
@@ -536,7 +536,7 @@ def main(argv=None):
 
 def hold(why):
     """--no-merge with the lane auto-merge workflow on main: label the pull request "hold", so the workflow leaves it
-    for Joel (gate E378), and say why on it."""
+    for Joel (gate E379), and say why on it."""
     branch = run(['git', 'rev-parse', '--abbrev-ref', 'HEAD']).stdout.strip()
     owner, repo = owner_repo()
     num = run(['gh', 'api', 'repos/%s/%s/pulls?state=open&head=%s:%s' % (owner, repo, owner, branch),

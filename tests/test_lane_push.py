@@ -199,14 +199,15 @@ class MergeLessons(unittest.TestCase):
             P.merge_gate(self.args('--merge', '--no-merge', 'why'), ['docs/x.md'], robot=False)
 
     def test_with_the_auto_merge_workflow_on_main_shared_changes_need_neither(self):
-        """Gate E378 (Joel, 2026-11-06: every lane's pull request merges itself once its checks pass)."""
+        """Gate E379 (Joel, 2026-11-06: every lane's pull request merges itself once its checks pass)."""
         P.merge_gate(self.args(), ['docs/MAKING-SENSE.md'], robot=True)
         with self.assertRaises(SystemExit):
             P.merge_gate(self.args(), ['docs/MAKING-SENSE.md'], robot=False)
 
     def test_a_lesson_number_main_already_gave_out_refuses(self):
-        """Gate E378: on 2026-11-06 the neuro lane's pull request 314 numbered its lessons E374 to E377 while the gut
-        lane's branch had its own E374; the gut lane's became E378."""
+        """Gate E379: on 2026-11-06 the neuro lane's pull request 314 numbered its lessons E374 to E377 while the gut
+        lane's branch had its own E374; the gut lane's became E378, and then E379 when the bad trips lane's 316 gave
+        out E378 first."""
         main = '- **E373. Old.** text\n- **E374. Neuro.** text\n'
         branch = main + '- **E374. Gut.** text\n'
         self.assertEqual(P.new_duplicate_lessons(branch, main), (['374'], 375))

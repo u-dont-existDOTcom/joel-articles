@@ -165,6 +165,24 @@ def open_windows(recs, text, min_words=5):
     return out
 
 
+def textless_after(recs, lineages):
+    """Gate E383: the checks done after the latest check of any of LINEAGES whose results keep a window without its text
+    (results recorded before every window's text was kept). One of them may have read an open window's words Human at
+    Medium or High; with its windows' text added from Pangram's history as a correction line, E354 sees it."""
+    done = [p for p in state(recs).values() if p['result'] and not p['void']]
+    order = {r.get('id'): n for n, r in enumerate(recs) if r.get('type') == 'prediction'}
+    done.sort(key=lambda p: order.get(p.get('id'), 0))
+    last = {}
+    for n, p in enumerate(done):
+        if p['lineage'] in set(lineages):
+            last[p['lineage']] = n
+    if not last:
+        return []
+    first = min(last.values())
+    return [p['id'] for p in done[first + 1:]
+            if any(not (isinstance(w, dict) and w.get('text')) for w in (p['result'].get('windows') or []))]
+
+
 def refusals(recs, rec, text=None):
     """Why the budget rule (docs/PANGRAM-PRODUCTION-BUDGET-20261020.md) forbids this submission; empty means it may go.
     TEXT is the submission's text, when predict has it."""
@@ -178,6 +196,12 @@ def refusals(recs, rec, text=None):
                        'fix any windows we can see before we check the article"):\n    ' % len(seen)
                        + '\n    '.join('%s: %s %s: "%s"' % (l, lab, c, t[:90] + ('...' if len(t) > 90 else ''))
                                        for l, lab, c, t in seen))
+            later = textless_after(recs, {l for l, lab, c, t in seen})
+            if later:
+                out.append('before rewriting any of them, look for a later check of the same words (gate E383): %d later '
+                           'check(s) keep windows without their text (%s%s); one that read the words Human at Medium or '
+                           'High clears them once its windows\' text, from Pangram\'s history, is added as a correction '
+                           'line' % (len(later), ', '.join(later[:8]), ', ...' if len(later) > 8 else ''))
     if rec['call'] not in CALLS:
         out.append('the call must be Human or AI, not %r' % rec['call'])
     if rec.get('chance') is not None and not 0 <= rec['chance'] <= 1:
