@@ -29,7 +29,7 @@ Word for word: [your message](https://github.com/u-dont-existDOTcom/joel-article
   was 83.3% AI). Of 156 paragraphs, 24 read Human, High throughout, 14 Human with a Medium window, 8 Human with a Low
   window, and 110 have an AI window. Your introduction, your dynorphin paragraph and most of the 5-HTP and uridine
   stretches read Human, High in context.
-- 🟢 **You were right on both counts** (lesson E382): my 4 November ask didn't say what the check was for, and the shared
+- 🟢 **You were right on both counts** (lesson neuro-2026-11-06a, [here](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/docs/lessons/2026-11-06-2122-neuro.md)): my 4 November ask didn't say what the check was for, and the shared
   rules already said the result opens in a pane I can't read, so the link goes to you. My own handoff had planned
   otherwise. From now on every ask says what it's for and what I'll do with what you send.
 - 🔵 **Next**: the paragraphs that read AI or Low in context, Low windows first, a section at a time from Part 1, each

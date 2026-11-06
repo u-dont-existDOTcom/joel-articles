@@ -1,6 +1,6 @@
 # Status: neuro de-armoring humanization (newest on top)
 
-## 2026-11-06, his message of 21:22 UTC: the whole article's result; lesson E382
+## 2026-11-06, his message of 21:22 UTC: the whole article's result; lesson neuro-2026-11-06a
 
 His message, word for word: `fix-20261106/joel-20261106-2122-message.txt`. The draft (223532178) had the article as it
 stands (d18316ea) pasted at 20:53 UTC (`fix-20261106/substack/PASTED.json`); he ran the extension (Claude in Chrome was
@@ -13,7 +13,7 @@ not connected, and the extension's result opens in a pane the session can't read
 - Two lines in the payload are Substack editor strings, not his text: "Double click to interact with video" (section C,
   where the video sits) and "+1" (section E). The next payload should leave them out (they stay in the article as the
   places the video and the poll sit).
-- **E382**: every ask says what it's for; a handoff step is read against the shared rules before it's planned (the
+- **neuro-2026-11-06a**: every ask says what it's for; a handoff step is read against the shared rules before it's planned (the
   4 November handoff planned to open the extension check in his Brave, against the budget doc's step 3).
 
 ## 2026-11-06, his message of 20:17 UTC: the AskRigor report sent; Nestler 2008 back with Zhong 2023; lesson E380

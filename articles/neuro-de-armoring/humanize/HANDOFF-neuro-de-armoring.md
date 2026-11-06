@@ -19,7 +19,7 @@ From an account with Desktop Commander connected to the laptop: "Continue my neu
 ## START HERE
 
 - **2026-11-06, his message of 21:22 UTC: the whole article's result read and mapped (AI Detected, 56% AI; 24 of 156
-  paragraphs Human, High throughout; `fix-20261106/whole/RESULT.md`); lesson E382.** The temporary draft 223532178 is
+  paragraphs Human, High throughout; `fix-20261106/whole/RESULT.md`); lesson neuro-2026-11-06a.** The temporary draft 223532178 is
   kept for the next whole check. A whole check's link goes to him with what it's for; he sends the feed link (the
   extension's result opens in a pane the session can't read). See the Next step.
 - **2026-11-06, his message of 20:17 UTC: the AskRigor report sent (ARL-0057); Nestler 2008 back in his paragraph's
@@ -137,7 +137,7 @@ Scott passages, the introduction and the D-serine paragraph in Part 4 sound most
    if the evidence says otherwise.
 3. The next whole check: rebuild the payload with `fix-20261106/substack/make_payload.py` minus the two editor strings
    ("Double click to interact with video", "+1"), paste into draft 223532178, make the secret link, and send him the
-   link saying what it's for (E382).
+   link saying what it's for (neuro-2026-11-06a).
 
 ## Earlier next step (2026-11-06, after his message of 19:40 UTC)
 
