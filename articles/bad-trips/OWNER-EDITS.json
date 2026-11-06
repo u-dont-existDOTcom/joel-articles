@@ -308,7 +308,7 @@
   {
    "id": "r08-room-his",
    "status": "applied",
-   "what": "round 8, ROOM-YOURS: his decisions in his version of the fixes and music paragraphs (B240, B241): the quips cut, the reason first, they sip, the touch offered is a hand on the shoulder and asked first, music asked about rather than the sound lowered first. The wording was the guide's AI text he humanized, so it is mine to fix (gate E373, his 2026-11-06 17:30 message); these decisions stay",
+   "what": "round 8, ROOM-YOURS: his decisions in his version of the fixes and music paragraphs (B240, B241): the quips cut, the reason first, music asked about rather than the sound lowered first. The wording was the guide's AI text he humanized, so it is mine to fix (gate E373). On his 19:43 decision (t16-room-cuts) the water, the hand on the shoulder, speaking slowly and the music paragraph went, said in their own places",
    "joel": "2026-11-06 00:27 export: his version, checked by him (Human, 26e9138d); \"first i cut the wry ai quips, uncompressed, varied the rhythm a little, and clarified\"; \"now i made it have a payoff at the start and that flipped human\"; 17:30 UTC: \"'my words' for an AI article, are not my words, unless those were human before we started humanizing\"",
    "must_not_contain": [
     "This is a bad time to defend the playlist.",
@@ -317,9 +317,7 @@
     "Lower the sound."
    ],
    "must_contain": [
-    "hand on the shoulder",
-    "sip",
-    "quiet"
+    "They're feeling overwhelmed, so dim the lights"
    ]
   },
   {
@@ -333,6 +331,22 @@
    ],
    "must_contain": [
     "getting on their nerves, so look around the room"
+   ]
+  },
+  {
+   "id": "t16-room-cuts",
+   "status": "applied",
+   "what": "the room stretch says each thing once (experiments/t16-answers/apply_t16.py): B240 keeps its reason and two acts; water, the hand on the shoulder and speaking slowly go (the Do list, Touch, Consent, and Compassion, Get One Human Anchor); the music paragraph B241 goes (the Grounding Menu's Music, the Do and Don't lists); the sips move to the Do list's \"Water?\"",
+   "joel": "2026-11-06 19:43 UTC: \"i'd say make the cuts regardless of pangram if it makes the guide read better, that was what we were supposed to do already prior\"",
+   "must_contain_exact": [
+    "They're feeling overwhelmed, so dim the lights, and clear out the extra people around them.",
+    "\"Closer or farther away?\" \"Water?\" (in small sips)"
+   ],
+   "must_not_contain": [
+    "suggest they sip it rather than chug",
+    "Ask if they'd like a hand on the shoulder.",
+    "Speak slowly and use fewer words.",
+    "Would you like music or is quiet best?"
    ]
   }
  ]
