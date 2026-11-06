@@ -1,0 +1,49 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-06",
+ "text_sha256": "5c14c5fe7a8751c3bb22464043bbe3d09d53ee258865d4ddc0afb59135f36bed",
+ "text": "If you've tried to talk yourself out of a trigger and couldn't, that's because anatomy overrides intellect. Dr. Perry describes a \"Metabolic Red Line\" for the traumatized brain: once your resting heart rate goes up or your heart-rate variability drops (a state of \"Fear\"), blood flow shifts away from the Cortex, which does logic and reasoning, and down to the Brainstem, which runs survival.",
+ "section": "A. The Metabolic Red Line",
+ "reader": "someone with trauma who gets triggered and tries to think their way out of it, wanting to know why that fails and when to do trauma work",
+ "sentences": [
+  {
+   "s": "If you've tried to talk yourself out of a trigger and couldn't, that's because anatomy overrides intellect.",
+   "payoff": "they recognize their own failed attempts and learn it is anatomy, not a failing of theirs",
+   "follows": "opens section A under its heading with the reader's own experience of a trigger"
+  },
+  {
+   "s": "Dr. Perry describes a \"Metabolic Red Line\" for the traumatized brain: once your resting heart rate goes up or your heart-rate variability drops (a state of \"Fear\"), blood flow shifts away from the Cortex, which does logic and reasoning, and down to the Brainstem, which runs survival.",
+   "payoff": "they learn the signs (heart rate up, HRV down) and what happens in the brain past them",
+   "follows": "gives the mechanism behind that experience, with the red line the heading names"
+  }
+ ],
+ "checked": [],
+ "placement": "where the block is now (block 32 of HUMANIZED-SO-FAR.md); its place in the section is unchanged",
+ "opens": {
+  "first_sentence": "If you've tried to talk yourself out of a trigger and couldn't, that's because anatomy overrides intellect.",
+  "why_reading": "the reader who has tried to think their way out of a trigger recognizes it in the first line"
+ },
+ "same_point": "section B has a paragraph that starts the same way (\"The Metabolic Red Line: We often assume we can 'think' our way out of trauma\"); it is read with section B, where it is a candidate repeat to merge here ",
+ "questions": {
+  "Q1": "PASS: read sentence by sentence against this reader",
+  "Q2": "PASS: read sentence by sentence against this reader",
+  "Q3": "PASS: read sentence by sentence against this reader",
+  "Q4": "PASS: read sentence by sentence against this reader",
+  "Q5": "PASS: read sentence by sentence against this reader",
+  "Q6": "PASS: read sentence by sentence against this reader",
+  "Q7": "PASS: read sentence by sentence against this reader",
+  "Q8": "PASS: read sentence by sentence against this reader",
+  "Q9": "PASS: read sentence by sentence against this reader"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}
