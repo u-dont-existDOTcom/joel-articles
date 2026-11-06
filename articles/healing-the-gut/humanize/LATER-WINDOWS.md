@@ -2,11 +2,11 @@
 
 Joel, 2026-11-06 20:13 UTC: "if it's "low" we should fix it, medium you could try to fix but if it's too difficult we
 can put that as a later todo when we want to learn more, and some things are not worth fixing, pangram has some bugs,
-like "Why?" often reads as medium, etc." (gate E381).
+like "Why?" often reads as medium, etc." (gate gut-2026-11-06a).
 
 Every Low window in the gut article that reads as the text's own is fixed (batch 12, r17). The three old AI Low windows
 gate E354 still named (Phase 1's heading with its first sentence, and the stacks list) had already read Human, High in
-later checks of their sections, whose window text the ledger hadn't kept (E383). What's below is left on purpose.
+later checks of their sections, whose window text the ledger hadn't kept (gut-2026-11-06c). What's below is left on purpose.
 
 ## Pangram's bugs, not worth fixing
 
@@ -48,5 +48,5 @@ the text before it reads AI:
   [#177](https://www.pangram.com/history/8ff3fe60-b777-4eb0-b49a-01db1fbe7d6a)). Whether a text's last window is read
   harder would take a pair of checks: the same paragraph at the end of a cut and inside one.
 - Old results kept without their windows' text: the ledger's older web-app results kept only the AI windows' text, so
-  gate E354 can't see which old windows they cleared (`pangram_ledger.py` now names them in its refusal, E383). Adding
+  gate E354 can't see which old windows they cleared (`pangram_ledger.py` now names them in its refusal, gut-2026-11-06c). Adding
   their text from Pangram's history, as #137 and #139 now have, needs the web app signed in.

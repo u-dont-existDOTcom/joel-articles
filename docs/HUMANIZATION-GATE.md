@@ -4,6 +4,8 @@
 
 **Pangram 4.1 owner addition (2026-10-20):** Inspect sentence-level GUI shading at each already-budgeted measurement. Favor dark-green (definitely Human) sentences where a faithful substantive repair makes that possible; treat light-green (probably Human) as susceptible to turning red in a larger natural context, not as a conclusive defect. The current normative rule and no-extra-call ceilings are in `docs/PANGRAM-PRODUCTION-BUDGET-20261020.md` → "Pangram 4.1 GUI — sentence shading and context-stability target". Never test a concatenation of disconnected article snippets as if it were one section, and never trade owner voice for a color.
 
+**New lessons go in files of their own (2026-11-06):** a lane writes the lessons of one message of Joel's in `docs/lessons/<date>-<HHMM>-<lane>.md`, each named `<lane>-<date><letter>` (gut-2026-11-06d), not numbered, so no two lanes' pull requests edit the same lines (`docs/lessons/README.md`). Read that folder with this file. E1 to E380 keep their numbers; E379 is in `docs/lessons/2026-11-06-1948-gut.md`.
+
 **Every Pangram call goes through the ledger (2026-10-20):** predict with `tools/humanization/pangram_ledger.py predict` before the call (it refuses what the budget rule forbids), record the result with `result`, explain each miss with `explain`, and rebuild the scorecards with `build --universal state/PANGRAM-SCORECARD.md` after every session with checks. Each lane's own page is the `SCORECARD.md` beside its ledger; the lanes are in `tools/humanization/pangram_lanes.json`. See "What the universal scorecard showed" below for what it found on its first build.
 
 How to read it:
@@ -2898,71 +2900,6 @@ too; this lesson is E380, so 308 needs only to renumber its E378 to E379 and its
   a decision to cut it.
 
 (E380 is the neuro de-armoring lane's. The next lesson in any lane is E381, after E379, which 308 can take.)
-
-## What the gut lane's conflicts taught (2026-11-06, Joel's message of 19:48 UTC)
-
-His message, when pull request 308 conflicted with main for the second time in a day: "pr still has conflicts, how can
-we durably prevent this from happening when i have multiple lanes working on the same thing, is that not possible? it
-seems hard to believe huge teams work together on projects on gh. i'm one person and still it's too hard."
-
-- **E379. A lane's pull request merges itself once its checks pass; none waits for a click.** The other lanes merged
-  their own pull requests about a minute after opening them (`lane_push.py --merge`, E367: #306, #307, #310, #311 and
-  #313). The gut lane's session may not merge into main without review, so its pull requests waited for his click: #293
-  for 33 hours, #308 for more than 20. Main moved under them each time another lane merged, and three times a lane had
-  changed the lines next to the gut lane's: `pangram_ledger.py` and the gate's numbering note (#305, #306), the
-  numbering note again (#310), and `AGENTS.md`'s marking-page paragraph (#313).
-  Big teams keep pull requests short-lived and merge them as soon as the checks pass, often through a merge queue
-  (https://www.flagsmith.com/blog/trunk-based-development); GitHub's merge queue needs an organization's repository
-  (https://github.blog/changelog/2023-07-12-pull-request-merge-queue-is-now-generally-available/), and this one is his
-  own account's. Asked the same day, he chose: every lane's pull request merges itself. So
-  `.github/workflows/lane-automerge.yml` merges a pull request into main from a `claude/` branch of this repository,
-  opened by him (the lanes push as him), once Content integrity passes on the commit it still has and GitHub finds it
-  mergeable; a "hold" label stops it. `lane_push.py` stops asking for `--merge` once the workflow is on main, and its
-  `--no-merge "why"` labels the pull request "hold". A pull request with conflicts still needs its lane: merge main in
-  and push again (E339). The same hour showed the other half: this lesson was E374 until the neuro lane's #314 gave
-  out E374 to E377 first, and E378 until the bad trips lane's #316 gave that out too. So `lane_push.py` now refuses a push whose gate has a new lesson number main already gave
-  another, and names the next free one.
-
-(E379 is the gut lane's. The next lesson in any lane is E381, after the neuro lane's E380.)
-
-## What his message of 2026-11-06 20:13 UTC taught (the gut lane)
-
-His message, after my answer on the conflicts ended with "Next: merge #308 once. Then I fix those windows, make the
-temporary draft of r16 for your extension": "yeah if it's "low" we should fix it, medium you could try to fix but if
-it's too difficult we can put that as a later todo when we want to learn more, and some things are not worth fixing,
-pangram has some bugs, like "Why?" often reads as medium, etc. but my question is why you said you would work on that
-and then you just stopped".
-
-- **E381. A Low window is fixed; a Medium one is tried, and if it won't come, it goes on the later list; Pangram's bugs
-  are left.** This refines E278 ("below High is work; Low first"). Low: fix it, tested. Medium: try the usual fixes
-  (E368); if they don't bring it to High, write it on the article's later list (`humanize/LATER-WINDOWS.md` in the gut
-  lane) with its check, as something to learn from, and go on. Pangram's bugs aren't worth a try: a short question like
-  "Why?" reading Medium (his example), and the 1- to 5-word pieces it splits off at an abbreviation's period ("Dr.",
-  "For H.", "C. diff", "L. reuteri"). The gut article's batch 12 did it this way: the Low (the resistant starch item) and
-  the Mediums that read as the text's own (the beta-glucans item, Phase 4's organ checks, the pregnancy line) were fixed
-  and each stretch read Human, High (#176 to #178); the abbreviation splits went on the later list.
-- **E382. A turn ends only on what waits on him.** I ended that turn with the windows under "Next", after "merge #308
-  once", as if the fixes needed the merge. They didn't: nothing in them waited on him, and UDA's root already says an
-  open task with a safe next action is done now. Before ending a turn, read its "Next": whatever doesn't wait on him (his
-  answers, his merge, his sign-in, his extension's check) gets done first, and the handoff's "Next" names only what
-  waits on him, and on what.
-- **E383. Before rewriting a window an old check showed, look for a later check of the same words: one that read them
-  Human at Medium or High clears it.** Gate E354 refused the gut article's whole-article check over three AI Low windows
-  from group cuts of 2026-11-04 (#125, #131, #136): Phase 1's heading with its first sentence, and the stacks list.
-  Later checks had read those exact words Human, High: Phase 1 with its heading (#139, [one 244-word
-  window](https://www.pangram.com/history/e2b76d46-7dda-4141-b156-6aef920b7306)) and the whole stacks section (#137, [the
-  list inside a 215-word window](https://www.pangram.com/history/3513e03a-c513-4ab7-992b-ff9ead34a379)). The ledger had
-  kept only those two results' labels, so the gate couldn't see it, and I rewrote words that already read High. Both
-  rewrites read worse in the same cuts: my Phase 1 sentence, which ended on an appositive summing up its list ("the
-  mechanics they need to work"), read AI Medium ([#179](https://www.pangram.com/history/dcfc1cd4-912e-4a21-865a-2e297f278f35)),
-  and my list, three items built the same way ("..., so take ...", "Then ...", "Last, ..."), read AI High at 99.99% with
-  the intro and kits around it ([#180](https://www.pangram.com/history/579da364-48c8-490e-bd68-3cf167311fdd)). The old
-  words stay. The two old results got their windows' text from Pangram's history as correction lines, and the gate then
-  saw the windows cleared. So when E354 names a window, look first for later checks of its section, in the ledger and in
-  Pangram's history; when one read the words Human at Medium or High, add its windows' text as a correction line. Record
-  every result with each window's text, Human ones too. `pangram_ledger.py` says so in E354's refusal.
-
-(E381 to E383 are the gut lane's. The next lesson in any lane is E384.)
 
 
 ## What turn 100's API checks showed (the Inner Child lane, 2026-10-23)

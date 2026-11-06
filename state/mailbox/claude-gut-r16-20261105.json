@@ -153,6 +153,45 @@
     }
    ],
    "recorded_utc": "2026-11-06T20:50Z"
+  },
+  {
+   "turn": "2026-11-06T21:06Z",
+   "lines_of_work": [
+    "gut article"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "new item 2026-11-06-open-pull-request-outcomes.md (owner request): adopted for this lane (its open pull requests listed with an outcome each turn) and its shared-lines part adapted for every lane (lessons one file per message in docs/lessons/, named, not numbered), recorded in docs/suggested-fixes-ledger.md; 2026-11-05-safety-layer-cuts.md is addressed to the neuro lane, and nothing in this lane re-routes cut content; UDA main now c25062c (#470, short-lived pull requests), its root AGENTS.md fetched this turn"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "main moved at 20:59 UTC (#319, bad trips round 11), merged here without conflict; this lane's open pull requests: 308 only, open since 2026-11-05, up to date and free of conflicts, Content integrity passing; outcome: waits for his merge (this session may not merge into main without review); 318 and 309 are other lanes', the older drafts theirs too; no new issue or review comments (gh api REST)"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no edits by anyone else to articles/healing-the-gut since 308"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "one CI-completed event for 308 (a07f6327, success); 905fe16f's Content integrity passed too"
+    }
+   ],
+   "items": [
+    {
+     "item": "Joel's message of 21:06 UTC: batch-12 answers (all three approved), 'nice good lessons for the repo', 'pr has conflicts'",
+     "outcome": "answers recorded (experiments/t17-answers, FATES-b12.json: each card in r17 word for word); 308 had conflicted from 20:18 to 20:52 UTC (two lanes' lessons in the same place in the gate) and the 20:52 push had resolved it; brought up to date with main again; lessons now go one file per message, named, not numbered (gate gut-2026-11-06d), and this lane's E381 to E383 became gut-2026-11-06a to c"
+    },
+    {
+     "item": "UDA suggested fix 2026-11-06-open-pull-request-outcomes.md",
+     "outcome": "adopted and adapted (see uda-lane above); ledger row added"
+    }
+   ],
+   "recorded_utc": "2026-11-06T21:16Z"
   }
  ]
 }

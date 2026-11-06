@@ -5,6 +5,7 @@ import sys
 import os
 import subprocess
 import unittest
+import tempfile
 from unittest import mock
 
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parents[1] / 'tools' / 'humanization'))
@@ -213,6 +214,29 @@ class MergeLessons(unittest.TestCase):
         self.assertEqual(P.new_duplicate_lessons(branch, main), (['374'], 375))
         shared_before = '- **E362. Gut.** a\n- **E362. Bad trips.** b\n'
         self.assertEqual(P.new_duplicate_lessons(shared_before + '- **E363. New.** c\n', shared_before)[0], [])
+
+    def test_lessons_are_named_per_lane_and_day_so_two_lanes_never_collide(self):
+        """Gate gut-2026-11-06d: a lane's lessons go in a file of their own, named <lane>-<date><letter>; the next name
+        counts only that lane's names of that day, so two lanes writing the same hour can't pick the same one."""
+        text = ('- **gut-2026-11-06a. One.** x\n- **gut-2026-11-06b. Two.** y\n'
+                '- **neuro-2026-11-06a. Theirs.** z\n- **gut-2026-11-05a. Yesterday.** w\n')
+        self.assertEqual(P.next_lesson_id('gut', '2026-11-06', text), 'gut-2026-11-06c')
+        self.assertEqual(P.next_lesson_id('neuro', '2026-11-06', text), 'neuro-2026-11-06b')
+        self.assertEqual(P.next_lesson_id('bad-trips', '2026-11-06', text), 'bad-trips-2026-11-06a')
+        self.assertEqual(P.next_lesson_id('gut', '2026-11-07', text), 'gut-2026-11-07a')
+
+    def test_the_number_check_reads_the_lesson_files_too(self):
+        """A numbered lesson moved into docs/lessons/ (E379) is still counted against main's numbers."""
+        with tempfile.TemporaryDirectory() as d:
+            root = pathlib.Path(d)
+            (root / 'docs' / 'lessons').mkdir(parents=True)
+            (root / 'docs' / 'HUMANIZATION-GATE.md').write_text('- **E380. Neuro.** a\n', encoding='utf-8')
+            (root / 'docs' / 'lessons' / '2026-11-06-1948-gut.md').write_text('- **E379. Gut.** b\n', encoding='utf-8')
+            with mock.patch.object(P, 'REPO', root):
+                text = P.lesson_texts()
+        self.assertIn('**E379. Gut.**', text)
+        self.assertIn('**E380. Neuro.**', text)
+        self.assertEqual(P.new_duplicate_lessons(text + '- **E380. Mine.** c\n', '- **E380. Neuro.** a\n'), (['380'], 381))
 
     def test_no_merge_with_the_workflow_labels_the_pull_request_hold(self):
         calls = []

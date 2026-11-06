@@ -30,32 +30,36 @@ Joel, 2026-11-03 16:15 UTC (`experiments/t01-answers/joel-20261103-1615-messages
 - 2026-11-06 20:13 UTC: the windows left below High fixed as r17 (`humanize/fix-20261103/r17/`): the resistant starch
   item (Low), the beta-glucans item, Phase 4's organ checks and the pregnancy line (Medium), each stretch Human, High
   (#176 to #178); batch-12 page https://claude.ai/artifact/1QDJftScnaAjnqGS5b8xyM. The abbreviation splits and two
-  things to learn from are on `humanize/LATER-WINDOWS.md` (E381). The three old AI Low windows E354 still named had
+  things to learn from are on `humanize/LATER-WINDOWS.md` (gut-2026-11-06a). The three old AI Low windows E354 still named had
   read Human, High in later checks (#137, #139) whose window text the ledger lacked; my rewrites of them read worse
-  (`r18/`, #179, #180) and were taken back (E383).
+  (`r18/`, #179, #180) and were taken back (gut-2026-11-06c).
+- 2026-11-06 21:06 UTC: his batch-12 answers (`experiments/t17-answers/`): all three cards approved, each in r17 word
+  for word (`record_b12.py`, `FATES-b12.json`), so r17 is the article with every answer in, and draft B carries it.
+  "pr has conflicts": 308 had conflicted after two lanes merged lessons into the same place in the gate (20:18 and
+  20:27 UTC) until the 20:52 push; brought up to date with main again. Lessons now go one file per message in
+  `docs/lessons/`, named, not numbered (gate gut-2026-11-06d), so 308 no longer touches the gate's lesson sections.
 
 ## Current checkpoint
 
-2026-11-06, after his message of 20:13 UTC: r17 (`humanize/fix-20261103/r17/r17.md`) is the article with batch 12's four
-fixes in, waiting for his answers on the batch-12 page. The whole of r17 is in temporary draft B
-(`r17/substack/PASTED.json`: 3,992 words matched; its secret link, in the paid view, rendered EXPECTED-TEXT-B.txt
-exactly), and the whole-article prediction is frozen as #183 (Human at 0.55) on that text. The link went to him in chat.
-Pangram's web app signed out in the built-in browser before the two A/B checks of the old words ran (#181, #182, frozen).
+2026-11-06, after his message of 21:06 UTC: r17 (`humanize/fix-20261103/r17/r17.md`) is the article with every
+answer in. Temporary draft B holds it (`r17/substack/PASTED.json`: 3,992 words matched; its secret link rendered
+EXPECTED-TEXT-B.txt exactly), and the whole-article prediction is frozen as #183 (Human at 0.55) on that text. The
+link went to him in chat on 2026-11-06 at 20:57 UTC. Pull request 308 is up to date with main and free of conflicts.
+Pangram's web app is signed out in the built-in browser, so #181 and #182 (the A/B checks of the old words) wait.
 
 ## Remaining
 
-1. His extension's check of draft B's secret link (#183), and his answers on the batch-12 page.
-2. Then his post updated with his OK and no email, carrying draft B's characters, marks included (E362 (gut)); any
-   card he rejects or revises first goes back into r17 and its stretch is checked again.
-3. #181 and #182 once Pangram is signed in again in the built-in browser (whether #180 read AI because of my list or the
-   cut); old results kept without their window text get it from Pangram's history (`humanize/LATER-WINDOWS.md`).
-4. Drafts A and B are his to delete once their results are recorded.
+1. His extension's check of draft B's secret link (#183).
+2. Then his post updated with his OK and no email, carrying draft B's characters, marks included (E362 (gut)).
+3. #181 and #182 once Pangram is signed in again in the built-in browser (whether #180 read AI because of my list or
+   the cut); old results kept without their window text get it from Pangram's history (`humanize/LATER-WINDOWS.md`).
+4. Drafts A and B are his to delete once their results are recorded; draft A no longer decides anything.
 
 ## Blockers / unresolved
 
-- Waiting on Joel: his extension on draft B's link, the batch-12 page, his merge of pull request 308 (this session's
-  permission check refuses a merge into main without review; after it the lane's pull requests merge themselves), and
-  Pangram's sign-in in the built-in browser (its "Verify you are human" box is his to answer).
+- Waiting on Joel: his extension on draft B's link, his merge of pull request 308 (this session's permission check
+  refuses a merge into main without review; after it the lanes' pull requests merge themselves), and Pangram's
+  sign-in in the built-in browser (its "Verify you are human" box is his to answer).
 
 ## Evidence / artifacts
 
@@ -63,5 +67,5 @@ Pangram's web app signed out in the built-in browser before the two A/B checks o
 
 ## Next safe action
 
-Record his extension's result for draft B (#183) and his batch-12 answers; fix what either shows (Low always, Medium
-tried, bugs left), then ask his OK to update the post, no email.
+Record his extension's result for draft B (#183); fix what it shows (Low always, Medium tried, bugs left), then ask
+his OK to update the post, no email.

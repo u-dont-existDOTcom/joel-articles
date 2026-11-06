@@ -235,7 +235,7 @@ class Ledger(unittest.TestCase):
         self.assertEqual([(l, c) for l, _, c, _ in seen], [('S', 'Low')])
 
     def test_a_later_check_kept_without_window_text_is_named_and_its_text_clears_the_window(self):
-        """Gate E383 (the gut lane, 2026-11-06): E354 named three AI Low windows that later checks (#137, #139) had read
+        """Gate gut-2026-11-06c (the gut lane, 2026-11-06): E354 named three AI Low windows that later checks (#137, #139) had read
         Human, High, because the ledger kept only those results' labels; I rewrote words that already read High, and
         both rewrites read worse. The refusal now names the later checks kept without window text, and a correction
         line with their text clears the window."""

@@ -3,7 +3,7 @@
 Joel's message of 2026-11-06 20:13 UTC: "yeah if it's "low" we should fix it, medium you could try to fix but if it's too
 difficult we can put that as a later todo when we want to learn more, and some things are not worth fixing, pangram has
 some bugs, like "Why?" often reads as medium, etc. but my question is why you said you would work on that and then you
-just stopped" (gates E381 and E382).
+just stopped" (gates gut-2026-11-06a and b).
 
 - `r17.md` is r16 (every answer of batches 9 to 11 in) with four window fixes, made by `build_r17.py` (`CHANGES.json`):
   the resistant starch item (Human Low in #170), the beta-glucans item, Phase 4's organ checks and the pregnancy line
@@ -23,4 +23,4 @@ just stopped" (gates E381 and E382).
   from it (no headings), which the whole-article prediction #183 is frozen on.
 
 The three old windows gate E354 still named before the whole-article check had already read Human, High in later
-checks; my rewrites of them, `../r18/`, read worse and were taken back (E383).
+checks; my rewrites of them, `../r18/`, read worse and were taken back (gut-2026-11-06c).

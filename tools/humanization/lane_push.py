@@ -4,6 +4,8 @@ to fix that right?").
 
   python3 tools/humanization/lane_push.py "Commit subject" --mailbox "2026-11-01 22:27" [--article inner-child-therapy]
                                            [--add PATH ...] [--pr "Pull request title" --pr-body FILE] [--unread-ok "why"]
+  python3 tools/humanization/lane_push.py --lesson-id gut     the next free lesson name for the lane today, such as
+                                                              gut-2026-11-06e (docs/lessons/README.md)
 
 1. registers the article's artifacts (scripts/register_article_artifacts.py --write), stages the article folder,
    articles/INDEX.json and any --add paths, and commits with the subject, adding the trailer lines in
@@ -419,15 +421,38 @@ def new_duplicate_lessons(branch_text, main_text):
     return sorted(mine - old, key=int), max(map(int, nums)) + 1 if nums else None
 
 
+LESSONS_DIR = 'docs/lessons'
+
+
+def lesson_texts(ref=None):
+    """The gate and every lesson file (gut-2026-11-06d: from 2026-11-06 a lane's lessons from one message of Joel's go
+    in a file of their own, docs/lessons/<date>-<HHMM>-<lane>.md), as one text: from the working tree, or at REF."""
+    if ref is None:
+        files = [REPO / GATE_DOC] + sorted((REPO / LESSONS_DIR).glob('*.md'))
+        return '\n'.join(f.read_text(encoding='utf-8') for f in files if f.exists())
+    names = run(['git', 'ls-tree', '--name-only', ref, LESSONS_DIR + '/'], check=False).stdout.split()
+    return '\n'.join(run(['git', 'show', '%s:%s' % (ref, n)], check=False).stdout
+                     for n in [GATE_DOC] + sorted(x for x in names if x.endswith('.md')))
+
+
+def next_lesson_id(lane, date, text):
+    """The next free name for a lesson of LANE written on DATE (YYYY-MM-DD): <lane>-<date><letter>, a to z, after the
+    names TEXT already has (gut-2026-11-06d). Named lessons can't collide between lanes, so none is renumbered."""
+    stem = '%s-%s' % (lane, date)
+    used = set(re.findall(r'\*\*%s([a-z])\. ' % re.escape(stem), text or ''))
+    for c in 'abcdefghijklmnopqrstuvwxyz':
+        if c not in used:
+            return stem + c
+    sys.exit('%s has 26 lessons already: start the next with %s-<a later date>' % (stem, lane))
+
+
 def lesson_numbers_gate():
-    """Refuse a push whose gate gives a new lesson a number main already gave another (gate E379)."""
-    path = REPO / GATE_DOC
-    main_text = run(['git', 'show', 'origin/main:' + GATE_DOC], check=False).stdout
-    new, nxt = new_duplicate_lessons(path.read_text(encoding='utf-8') if path.exists() else '', main_text)
+    """Refuse a push whose gate or lesson files give a new lesson a number main already gave another (gate E379)."""
+    new, nxt = new_duplicate_lessons(lesson_texts(), lesson_texts('origin/main'))
     if new:
-        sys.exit('refused: %s has two lessons numbered %s. Main gave the number out first, so yours takes the next free '
-                 'one, E%s and on, in every file that cites it (gate E379).' % (GATE_DOC, ', '.join('E' + n for n in new),
-                                                                              nxt))
+        sys.exit('refused: two lessons are numbered %s. Main gave the number out first: name yours instead, in a file of '
+                 'its own (%s/README.md; `lane_push.py --lesson-id <lane>`), in every file that cites it (gates E379 and '
+                 'gut-2026-11-06d).' % (', '.join('E' + n for n in new), LESSONS_DIR))
 
 
 def robot_on_main():
@@ -486,6 +511,15 @@ def merge_now(wait=600):
 
 
 def main(argv=None):
+    argv = sys.argv[1:] if argv is None else argv
+    if argv[:1] == ['--lesson-id']:
+        # the next free lesson name for a lane, today (UTC), from the working tree and main (gut-2026-11-06d)
+        if len(argv) != 2:
+            sys.exit('usage: lane_push.py --lesson-id <lane>')
+        run(['git', 'fetch', '-q', 'origin', '+refs/heads/main:refs/remotes/origin/main'], check=False, timeout=180)
+        today = time.strftime('%Y-%m-%d', time.gmtime())
+        print(next_lesson_id(argv[1], today, lesson_texts() + '\n' + lesson_texts('origin/main')))
+        return 0
     ap = parser()
     a = ap.parse_args(argv)
     if a.pr and not a.pr_body:

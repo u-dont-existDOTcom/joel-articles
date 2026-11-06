@@ -1,6 +1,6 @@
 {
  "turn": "2026-11-06 20:13",
- "why": "the whole of r17 checked once by his extension before his post is updated (E354 refused it until the old windows were cleared: #137 and #139 had read them Human, High; E383)",
+ "why": "the whole of r17 checked once by his extension before his post is updated (E354 refused it until the old windows were cleared: #137 and #139 had read them Human, High; gut-2026-11-06c)",
  "how": "make_payload.py from r12.html (the live post's editor HTML) with r17's words; a new temporary draft made in the desktop app's built-in browser, where his Substack is signed in, its title typed, then pasted with ../../r12/substack/paste_payload_lane.js from the payload at a07f6327",
  "prediction": "gut-article-r17#183 in pangram-ledger.jsonl, frozen before the paste: Human at 0.55, on EXPECTED-TEXT-B.txt, the text his extension reads",
  "B": {
