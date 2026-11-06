@@ -1,0 +1,87 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-06",
+ "text_sha256": "ccd51023683d964bd220e1653b6d6ca0b8df9039450b96a7a6998e17bdae1bdf",
+ "text": "Benjamin Brown (Digestive Health Solution) is the only source for this phase. If even the \"Nuclear Option\" failed, you can cross the microbiome off the list. The problem is likely an organ that isn't working right, or environmental toxicity or your brain's false danger signals (those two are Phase 6, below).\n\nSo check your organs (Brown). If your pancreas doesn't make enough digestive enzymes, called Exocrine Pancreatic Insufficiency, you'd test for that with Stool Elastase, and treat it with high-dose enzymes. If it's Bile Acid Diarrhea, the test is SeHCAT, and the treatment is bile binders.\n\nMy notes: two things the books don't cover, old impaction and colon hydrotherapy (Years of accumulated shit, above) and psychedelics for IBS (IBS, above).",
+ "section": "Phase 4",
+ "reader": "Someone whose symptoms survived the diets and the purge, deciding what to check next.",
+ "sentences": [
+  {
+   "s": "Benjamin Brown (Digestive Health Solution) is the only source for this phase.",
+   "payoff": "the reader knows whose phase this is",
+   "follows": "opens Phase 4"
+  },
+  {
+   "s": "If even the \"Nuclear Option\" failed, you can cross the microbiome off the list.",
+   "payoff": "the reader learns when this phase applies: after even the Elemental Diet failed",
+   "follows": "when to be here"
+  },
+  {
+   "s": "The problem is likely an organ that isn't working right, or environmental toxicity or your brain's false danger signals (those two are Phase 6, below).",
+   "payoff": "the reader knows the three causes left, and where two of them are covered",
+   "follows": "what is left once the gut is cleared"
+  },
+  {
+   "s": "So check your organs (Brown).",
+   "payoff": "the reader knows the next step is checking their organs",
+   "follows": "the first of the causes left"
+  },
+  {
+   "s": "If your pancreas doesn't make enough digestive enzymes, called Exocrine Pancreatic Insufficiency, you'd test for that with Stool Elastase, and treat it with high-dose enzymes.",
+   "payoff": "the reader recognizes the first case, low digestive enzymes, and knows its test and treatment",
+   "follows": "the first organ to check"
+  },
+  {
+   "s": "If it's Bile Acid Diarrhea, the test is SeHCAT, and the treatment is bile binders.",
+   "payoff": "the reader knows the second case's test and treatment",
+   "follows": "the second organ case"
+  },
+  {
+   "s": "My notes: two things the books don't cover, old impaction and colon hydrotherapy (Years of accumulated shit, above) and psychedelics for IBS (IBS, above).",
+   "payoff": "the reader knows what else is covered above, impaction and psychedelics",
+   "follows": "closes the phase with his pointers"
+  }
+ ],
+ "checked": [
+  {
+   "point": "berberine is not for pregnancy or breastfeeding: it can cause or worsen jaundice in newborns",
+   "found": "NCCIH, In the News: Berberine: people who are pregnant or breastfeeding should not use berberine; it can cause or worsen jaundice in newborn infants (https://www.nccih.nih.gov/health/in-the-news-berberine)",
+   "still_needed": "yes: \"some herbs and supplements, like berberine\" didn't say what to do",
+   "fate": "kept"
+  },
+  {
+   "point": "resistant starch escapes digestion and is fermented by the gut's bacteria",
+   "found": "https://www.frontiersin.org/articles/10.3389/fnut.2024.1369950/full",
+   "still_needed": "yes",
+   "fate": "kept"
+  }
+ ],
+ "placement": "Phase 4 in its order; the two organ cases each open on what the reader would have.",
+ "opens": {
+  "first_sentence": "Benjamin Brown (Digestive Health Solution) is the only source for this phase.",
+  "why_reading": "It tells the reader whose phase this is; the next sentence says it is for them if even the Elemental Diet failed, which is the case they would recognize."
+ },
+ "same_point": "none: read Phase 4 from its heading to Phase 5: the organs are named once; impaction and psychedelics are pointers to the causes above",
+ "questions": {
+  "Q1": "PASS: the fixed sentences give their point first: resistant starch's job, then why; each organ case opens on what the reader would have; the pregnancy line names what to do, then why",
+  "Q2": "PASS: the instructions name the act (test for that with Stool Elastase; skip berberine; ask your doctor)",
+  "Q3": "PASS: each test, treatment and supplement is named exactly",
+  "Q4": "PASS: Exocrine Pancreatic Insufficiency is explained where it is named; SeHCAT and stool elastase are named as the tests; jaundice is a word a high-school graduate knows",
+  "Q5": "PASS: \"so it all goes to them\" turns on \"can't digest it\"; \"If\" opens each organ case",
+  "Q6": "PASS: nothing moved between paragraphs",
+  "Q7": "PASS: each change is what the reader needs to act",
+  "Q8": "PASS: no item moved between groups",
+  "Q9": "PASS: each question-and-answer pair is one sentence now, one step each; nothing compressed"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

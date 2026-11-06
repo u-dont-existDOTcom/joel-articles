@@ -1,0 +1,26 @@
+[
+ {
+  "old": ") to feed the good bacteria in your gut, since your body can't digest it.",
+  "new": ") to feed the good bacteria in your gut: your body can't digest it, so it all goes to them.",
+  "kind": "window",
+  "why": "Low (#170): the point first as before, and the why as a plain clause joined with a colon instead of \"since\""
+ },
+ {
+  "old": "So check your organs (Brown). Is it Exocrine Pancreatic Insufficiency, where your pancreas doesn't make enough digestive enzymes? You'd test for that with Stool Elastase, and treat it with high-dose enzymes. Or is it Bile Acid Diarrhea? That test is SeHCAT, and the treatment is bile binders.",
+  "new": "So check your organs (Brown). If your pancreas doesn't make enough digestive enzymes, called Exocrine Pancreatic Insufficiency, you'd test for that with Stool Elastase, and treat it with high-dose enzymes. If it's Bile Acid Diarrhea, the test is SeHCAT, and the treatment is bile binders.",
+  "kind": "window",
+  "why": "Medium (#164): each case opens on what the reader would have, and the question-and-answer pairs are joined into one sentence each (E368, E371, E374 (neuro)); the tests and treatments word for word"
+ },
+ {
+  "old": "And if you're pregnant, some herbs and supplements, like berberine, aren't safe.",
+  "new": "And if you're pregnant or breastfeeding, skip berberine, which can give a newborn jaundice, and ask your doctor about any other herb or supplement first.",
+  "kind": "window",
+  "why": "Medium (#166): the acts named exactly, with the reason (E371); NCCIH: people who are pregnant or breastfeeding should not use berberine, which can cause or worsen jaundice in newborns, https://www.nccih.nih.gov/health/in-the-news-berberine"
+ },
+ {
+  "old": "Beta-glucans, a kind of fiber found in yeast extract.",
+  "new": "Beta-glucans, a kind of fiber found in yeast extract, to help your gut lining hold together under stress.",
+  "kind": "window",
+  "why": "Medium with the resistant starch item (#175): the item said what beta-glucans are but not what they are for, the reader's reason (E371); in gut tissue taken from people, a yeast beta-glucan kept the lining from leaking when it was stressed, https://pmc.ncbi.nlm.nih.gov/articles/PMC6166688"
+ }
+]

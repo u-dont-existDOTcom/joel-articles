@@ -1,0 +1,159 @@
+{
+ "format": "joel-suggestion-review-v1",
+ "review_id": "healing-the-gut-b12-r17-20261106",
+ "title": "Gut Article, The Windows Left Below High (Batch 12)",
+ "intro": [
+  "Every window the stretch checks left at Low or Medium, fixed and tested: each card's stretch now reads Human, High. What's left below High is Pangram splitting text at \"Dr.\" and other abbreviations, which isn't worth fixing; it's on the later list (LATER-WINDOWS.md).",
+  "Once these are in, the whole article goes in a temporary draft for your extension."
+ ],
+ "git_file": "articles/healing-the-gut/humanize/fix-20261103/r17/b12/REVIEW-PAGE.html",
+ "article": {
+  "file": "articles/healing-the-gut/humanize/fix-20261103/r12/r12.md",
+  "sha256": "05f038f7370ca372efec6c103072d2043d9dc622ec858870d97d0bc340baa8b7"
+ },
+ "built": "2026-11-06",
+ "links": {
+  "guide": "https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/gut-r16-20261105/articles/healing-the-gut/humanize/fix-20261103/r17/r17.md",
+  "review": "https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/gut-r16-20261105/articles/healing-the-gut/humanize/fix-20261103/r17/b12/REVIEW-CARDS.md"
+ },
+ "types": {
+  "mine": {
+   "label": "My fix",
+   "about": "A window below High in your post, fixed the way you fix them"
+  }
+ },
+ "suggestions": [
+  {
+   "id": "F12-1",
+   "type": "mine",
+   "title": "Beta-glucans and resistant starch say what they are for",
+   "advice": "approve",
+   "spans": [
+    {
+     "block": 23,
+     "start": 0,
+     "end": 31
+    },
+    {
+     "block": 24,
+     "start": 0,
+     "end": 55
+    }
+   ],
+   "edits": [
+    {
+     "block": 23,
+     "before": "Beta-glucans, in yeast extract.",
+     "after": "Beta-glucans, a kind of fiber found in yeast extract, to help your gut lining hold together under stress."
+    },
+    {
+     "block": 24,
+     "before": "Resistant starch to feed the good bacteria in your gut.",
+     "after": "Resistant starch to feed the good bacteria in your gut: your body can't digest it, so it all goes to them."
+    }
+   ],
+   "reads": [
+    {
+     "text": "Beta-glucans, a kind of fiber found in yeast extract, to help your gut lining hold together under stress.",
+     "kind": "p"
+    },
+    {
+     "text": "Resistant starch to feed the good bacteria in your gut: your body can't digest it, so it all goes to them.",
+     "kind": "p"
+    }
+   ],
+   "reads_label": "As it would read",
+   "what": "What each item is for, said in the item",
+   "why": "The resistant starch item read Human Low on its own in the leaky gut list. With its reason as a plain clause, \"your body can't digest it, so it all goes to them\", the Low was gone, but the two short items still read Medium together. Beta-glucans was the one item in the list that never said why you'd take it. Now it does: in gut tissue taken from people, a yeast beta-glucan kept the lining from leaking when it was stressed (https://pmc.ncbi.nlm.nih.gov/articles/PMC6166688). With both, the whole list reads Human, High.",
+   "stays": "Both items, your link to your note on resistant starch, and the list around them.",
+   "whose": "My fix of a window that read below High.",
+   "deciding": "Whether it says what you meant.",
+   "advice_note": "Approve, Reject, or Revise.",
+   "reading": "The leaky gut list as r16 has it: [Human Written, the resistant starch item Low](https://www.pangram.com/history/47069558-4b1d-4701-a3f6-c712041f1866); with only the resistant starch fix: [Human Written, the two items Medium](https://www.pangram.com/history/8c06b157-bd34-48c0-ba02-9b5c3d7b4b7c).",
+   "tested": "The whole list with both fixes: [Human Written, AI 0%](https://www.pangram.com/history/a87802e1-d404-4a91-b2d5-ec9caebeb2e4), one window, High, 502 words (#178).",
+   "receipt": [
+    "articles/healing-the-gut/humanize/fix-20261103/r17/b12/RECEIPT-F12-1a.json",
+    "articles/healing-the-gut/humanize/fix-20261103/r17/b12/RECEIPT-F12-1b.json"
+   ],
+   "found_by": "the web app, stretch by stretch"
+  },
+  {
+   "id": "F12-2",
+   "type": "mine",
+   "title": "Phase 4 opens each organ case on what you'd have",
+   "advice": "approve",
+   "spans": [
+    {
+     "block": 59,
+     "start": 0,
+     "end": 233
+    }
+   ],
+   "edits": [
+    {
+     "block": 59,
+     "before": "So check your organs (Brown). Is it Exocrine Pancreatic Insufficiency? You'd test for that with Stool Elastase, and treat it with high-dose enzymes. Or is it Bile Acid Diarrhea? That test is SeHCAT, and the treatment is bile binders.",
+     "after": "So check your organs (Brown). If your pancreas doesn't make enough digestive enzymes, called Exocrine Pancreatic Insufficiency, you'd test for that with Stool Elastase, and treat it with high-dose enzymes. If it's Bile Acid Diarrhea, the test is SeHCAT, and the treatment is bile binders."
+    }
+   ],
+   "reads": [
+    {
+     "text": "So check your organs (Brown). If your pancreas doesn't make enough digestive enzymes, called Exocrine Pancreatic Insufficiency, you'd test for that with Stool Elastase, and treat it with high-dose enzymes. If it's Bile Acid Diarrhea, the test is SeHCAT, and the treatment is bile binders.",
+     "kind": "p"
+    }
+   ],
+   "reads_label": "As it would read",
+   "what": "Each organ case as one sentence that opens on the reader's case",
+   "why": "The two organ checks read Medium as questions answered in the next sentence (\"Is it ...? You'd test for that ... Or is it ...? That test is ...\"). Now each case opens on what the reader would have, with its name after, and each question and its answer are one sentence. The tests and treatments are word for word.",
+   "stays": "\"So check your organs (Brown).\", Stool Elastase, high-dose enzymes, SeHCAT, bile binders.",
+   "whose": "My fix of a window that read below High.",
+   "deciding": "Whether it says what you meant.",
+   "advice_note": "Approve, Reject, or Revise.",
+   "reading": "Phase 4 as r16 has it: [Human Written, these sentences Medium](https://www.pangram.com/history/d22546ab-78b1-438d-8da3-19b18cf50712).",
+   "tested": "Phase 4 with the fix: [Human Written, AI 0%](https://www.pangram.com/history/83c128b0-42d2-4883-8aa1-efa9f8494306), one window, High, 127 words (#176).",
+   "receipt": [
+    "articles/healing-the-gut/humanize/fix-20261103/r17/b12/RECEIPT-F12-2.json"
+   ],
+   "found_by": "the web app, stretch by stretch"
+  },
+  {
+   "id": "F12-3",
+   "type": "mine",
+   "title": "If you're pregnant: skip berberine, and why",
+   "advice": "approve",
+   "spans": [
+    {
+     "block": 82,
+     "start": 0,
+     "end": 750
+    }
+   ],
+   "edits": [
+    {
+     "block": 82,
+     "before": "Some severe symptoms warrant seeing a doctor rather than considering this DIY approach at the moment. Take it seriously if you notice blood in your stool (if it's blood from upper digestive tract, it could be smelly, black & tarry, not red like from lower GI). Other serious signs to note: losing weight fast, severe pain, a fever or dehydration. And if you're pregnant, some herbs and supplements, like berberine, aren't safe. If your immune system is weak, some probiotics could be risky, since they're live bacteria that need to be kept in check to prevent overgrowth. If you have an IBD flare, cancer or another serious illness, the standard disclaimer applies: work out what to take with your doctor instead of putting a stack together yourself.",
+     "after": "Some severe symptoms warrant seeing a doctor rather than considering this DIY approach at the moment. Take it seriously if you notice blood in your stool (if it's blood from upper digestive tract, it could be smelly, black & tarry, not red like from the lower digestive tract). Other serious signs to note: losing weight fast, severe pain, a fever or dehydration. And if you're pregnant or breastfeeding, skip berberine, which can give a newborn jaundice, and ask your doctor about any other herb or supplement first. If your immune system is weak, some probiotics could be risky, since they're live bacteria that need to be kept in check to prevent overgrowth. If you have an IBD flare, cancer or another serious illness, the standard disclaimer applies: work out what to take with your doctor instead of putting a stack together yourself."
+    }
+   ],
+   "reads": [
+    {
+     "text": "Some severe symptoms warrant seeing a doctor rather than considering this DIY approach at the moment. Take it seriously if you notice blood in your stool (if it's blood from upper digestive tract, it could be smelly, black & tarry, not red like from the lower digestive tract). Other serious signs to note: losing weight fast, severe pain, a fever or dehydration. And if you're pregnant or breastfeeding, skip berberine, which can give a newborn jaundice, and ask your doctor about any other herb or supplement first. If your immune system is weak, some probiotics could be risky, since they're live bacteria that need to be kept in check to prevent overgrowth. If you have an IBD flare, cancer or another serious illness, the standard disclaimer applies: work out what to take with your doctor instead of putting a stack together yourself.",
+     "kind": "p"
+    }
+   ],
+   "reads_label": "As it would read",
+   "what": "The pregnancy line names the act and the reason",
+   "why": "\"And if you're pregnant, some herbs and supplements, like berberine, aren't safe.\" read Medium: a warning that doesn't say what to do. Now it says what to do and why: skip berberine, which can give a newborn jaundice, and ask your doctor about the rest. NCCIH says people who are pregnant or breastfeeding should not use berberine (https://www.nccih.nih.gov/health/in-the-news-berberine), so breastfeeding is in it too.",
+   "stays": "The rest of the warnings paragraph, word for word.",
+   "whose": "My fix of a window that read below High.",
+   "deciding": "Whether it says what you meant.",
+   "advice_note": "Approve, Reject, or Revise.",
+   "reading": "The stacks as r16 has them: [Human Written, the pregnancy line Medium](https://www.pangram.com/history/a75a3ea5-13d9-420c-937a-8178a5f455ce).",
+   "tested": "The stacks with the fix: [Human Written, AI 0%](https://www.pangram.com/history/8ff3fe60-b777-4eb0-b49a-01db1fbe7d6a), every window High but a one-word split at \"Dr.\", 407 words (#177).",
+   "receipt": [
+    "articles/healing-the-gut/humanize/fix-20261103/r17/b12/RECEIPT-F12-3.json"
+   ],
+   "found_by": "the web app, stretch by stretch"
+  }
+ ]
+}

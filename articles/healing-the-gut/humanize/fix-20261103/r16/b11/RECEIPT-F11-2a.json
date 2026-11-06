@@ -1,0 +1,60 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "text_sha256": "3999eb7f393dc13148d76d3a5aa5ea1a0d7b3c4f5142c71a1fce4829291bb0e4",
+ "text": "Previously, I made some posts about dealing with diarrhea and constipation, as well as commenting on A Midwestern Doctor's article on the solvent DMSO for gut health. But in this article, I will consolidate the most important texts on this topic so that you can directly consult with Gemini to extract the top knowledge in the field. On the other hand, I also have some tips which are not found in books or AI.",
+ "section": "the intro",
+ "reader": "Someone with poor gut health opening the article, deciding whether to read on and how they'll use it.",
+ "sentences": [
+  {
+   "s": "Previously, I made some posts about dealing with diarrhea and constipation, as well as commenting on A Midwestern Doctor's article on the solvent DMSO for gut health.",
+   "payoff": "The reader knows who AMD is (A Midwestern Doctor, a doctor writing on Substack) and that DMSO is a solvent, so the link they may open isn't a riddle.",
+   "follows": "It follows the line inviting the emotional side, as the second thing before the physical treatments: what he's written before."
+  },
+  {
+   "s": "But in this article, I will consolidate the most important texts on this topic so that you can directly consult with Gemini to extract the top knowledge in the field.",
+   "payoff": "The reader knows what this article gives them (the books, made into something Gemini can answer from), with the Gemini mode left to the Gem section where they open the Gem.",
+   "follows": "It follows his old posts on diarrhea, constipation and DMSO with what this one does instead."
+  },
+  {
+   "s": "On the other hand, I also have some tips which are not found in books or AI.",
+   "his": true
+  }
+ ],
+ "checked": [
+  {
+   "point": "the report came from an older version of AskRigor; readers can re-check it with askrigor.com",
+   "found": "his answer F10-4, 2026-11-05 22:58 UTC (\"yes it was an old version of askrigor basically, we can tell them to re-check it with askrigor.com for an up-to-date verification\")",
+   "still_needed": "yes: \"HRP\" told readers nothing",
+   "fate": "kept"
+  },
+  {
+   "point": "the Gem works on free Gemini; the highest thinking level gives the best answers",
+   "found": "his answer F10-5, 2026-11-05 22:56 UTC (\"i just tested it with free gemini and it worked ... i'd just tell people to use the highest thinking level they can for best answers as usual\")",
+   "still_needed": "yes: the two modes named before disagreed",
+   "fate": "kept"
+  }
+ ],
+ "placement": "The intro, his order; only the mode in brackets left out, to be named once in the Gem section.",
+ "questions": {
+  "Q1": "PASS: each new sentence leads with its point (where the recommendations are; that the Gem works on free Gemini) and explains AskRigor in the sentence that first names it",
+  "Q2": "PASS: the instructions say what they get the reader (re-check it for an up-to-date verification; the highest thinking level for the best answers)",
+  "Q3": "PASS: the report, the tool and the setting are each named exactly (an older version of AskRigor; askrigor.com; the highest thinking level)",
+  "Q4": "PASS: AskRigor is explained where first named (\"my research tool\"); \"thinking level\" is the setting's name in Gemini, his word; no other new term",
+  "Q5": "PASS: the \"but\" in the Gem sentence turns on \"it works\": free is enough, the highest level is better",
+  "Q6": "PASS: nothing moved between paragraphs; the Gem advice sits after what the Gem is for",
+  "Q7": "PASS: each change is what this reader needs to use the report or the Gem",
+  "Q8": "N/A: no list items changed",
+  "Q9": "PASS: his answer's \"re-check it with askrigor.com for an up-to-date verification\" joined to the sentence it follows, one step; nothing compressed"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone?",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

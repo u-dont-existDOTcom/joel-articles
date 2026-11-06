@@ -4,6 +4,8 @@
 
 **Pangram 4.1 owner addition (2026-10-20):** Inspect sentence-level GUI shading at each already-budgeted measurement. Favor dark-green (definitely Human) sentences where a faithful substantive repair makes that possible; treat light-green (probably Human) as susceptible to turning red in a larger natural context, not as a conclusive defect. The current normative rule and no-extra-call ceilings are in `docs/PANGRAM-PRODUCTION-BUDGET-20261020.md` → "Pangram 4.1 GUI — sentence shading and context-stability target". Never test a concatenation of disconnected article snippets as if it were one section, and never trade owner voice for a color.
 
+**New lessons go in files of their own (2026-11-06):** a lane writes the lessons of one message of Joel's in `docs/lessons/<date>-<HHMM>-<lane>.md`, each named `<lane>-<date><letter>` (gut-2026-11-06d), not numbered, so no two lanes' pull requests edit the same lines (`docs/lessons/README.md`). Read that folder with this file. E1 to E380 keep their numbers; E379 is in `docs/lessons/2026-11-06-1948-gut.md`.
+
 **Every Pangram call goes through the ledger (2026-10-20):** predict with `tools/humanization/pangram_ledger.py predict` before the call (it refuses what the budget rule forbids), record the result with `result`, explain each miss with `explain`, and rebuild the scorecards with `build --universal state/PANGRAM-SCORECARD.md` after every session with checks. Each lane's own page is the `SCORECARD.md` beside its ledger; the lanes are in `tools/humanization/pangram_lanes.json`. See "What the universal scorecard showed" below for what it found on its first build.
 
 How to read it:
@@ -2723,6 +2725,11 @@ lane was E368 here; it is in the next section.)
   in without a card and are listed for him; a term I can't explain without guessing goes to him as a question (his
   "HRP"). `sense_receipt.py check` refuses a sentence of mine that explains a term after the text has already used it,
   unless the receipt's `late_ok` says why it can't be explained there.
+
+Joel, 2026-11-05 23:00 UTC, after approving the batch-10 cards written this way: "awesome i'm glad you're
+understanding how to write for pangram finally, make sure that's in the repo for all lanes". So E368 and E369 are also
+where every lane starts: `AGENTS.md`'s workflow, and `SKILL.md`'s "Writing for Pangram: his fixes come first", with
+the before-and-after checks.
 
 (E368 and E369 are the gut lane's. The next lesson in any lane was E370 here; it is in the next section.)
 

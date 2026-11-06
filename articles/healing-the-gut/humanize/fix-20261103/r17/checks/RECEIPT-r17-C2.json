@@ -1,0 +1,148 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-06",
+ "text_sha256": "4f00935dd05675249ad17f00ba8d309510c23ec49c50e78efb76231cbab4a1f5",
+ "text": "Plant foods (Phases 2 and 5): The carnivore diet is trending, as many people (especially with leaky gut or lack of oxalate-processing bacteria) are noticing they cannot handle the fiber in plants, or the oxalates and phytates, compounds in many plants that bind minerals. It's certainly a diet worth trying, but it can lead to deficiencies over time, especially with regard to vitamins C, E, fiber, magnesium, potassium, calcium, iodine and other trace minerals, and bacteria needed to process plant foods (which already are likely missing in people who need this diet), thus making the carnivore diet sort of hard to get off.\n\nFor the most research-backed recommendations you can check this deep research report from an older version of AskRigor, my research tool, and re-check it with askrigor.com for an up-to-date verification. Glutamine seems worth checking into, but plant intolerance is a symptom of a variety of underlying diseases that all have different treatments.\n\nLeaky gut (Phase 5): a widespread inflammatory condition often intersecting with other categories of illness such as Crohn's Disease or irritable bowel syndrome (IBS), plant food intolerance, and what many alternative health practitioners consider as a root cause of most diseases. It's associated clinically with increased levels of zonulin, the molecule released to open your intestinal tight junctions, the seals between the cells of your gut lining. Too much opening time leads to allowing stuff to leak out into your blood stream which then burdens your immune system and detoxification systems. Game-changing treatments:\n\nLiposomal first-milking colostrum, the first milk a cow makes after giving birth, wrapped in tiny fat bubbles that help you absorb it (esp. fermented per Matt Nedin's protocol with bifidobacterium, a common probiotic, or SIBO yogurt bacteria). Matt from EndSickness.org finds that this helps especially to mop up mycotoxins, the toxins molds make, in the gut. Activated charcoal can also be helpful, altho don't take that with things you want to actually absorb.\n\nFermented veggie juices of turmeric, red cabbage, celery, beet greens (not just beet root).\n\nZinc carnosine, the form of zinc which sticks to your intestinal lining.\n\nBPC-157 is a lab-made short protein based on one in stomach juice, and a good BPC-157 supplement, like this one from Barrier, can also help. Note: I think Barrier's product looks smart, and their product may be really ideal, but there are some red flags in their marketing since they say it's made from plants, which is false.\n\nBeta-glucans, a kind of fiber found in yeast extract, to help your gut lining hold together under stress.\n\nResistant starch to feed the good bacteria in your gut: your body can't digest it, so it all goes to them.\n\nOzonated zeolite (or ZeoCharge), a volcanic mineral full of tiny pores: I find regular zeolite to be ineffective, because the pores on it are clogged up, so it can't adsorb excess zonulin, metals, and other toxins.",
+ "section": "the causes",
+ "reader": "Someone with poor gut health whose plants bother them or who suspects leaky gut, choosing which treatments to try and wanting to know what each one is.",
+ "sentences": [
+  {
+   "s": "Plant foods (Phases 2 and 5): The carnivore diet is trending, as many people (especially with leaky gut or lack of oxalate-processing bacteria) are noticing they cannot handle the fiber in plants, or the oxalates and phytates, compounds in many plants that bind minerals.",
+   "payoff": "the reader learns why so many drop plants, and what oxalates and phytates are",
+   "follows": "opens the plant-food cause"
+  },
+  {
+   "s": "It's certainly a diet worth trying, but it can lead to deficiencies over time, especially with regard to vitamins C, E, fiber, magnesium, potassium, calcium, iodine and other trace minerals, and bacteria needed to process plant foods (which already are likely missing in people who need this diet), thus making the carnivore diet sort of hard to get off.",
+   "payoff": "the reader learns the carnivore diet's cost: what it leaves out, and why it is hard to leave",
+   "follows": "the other side of the diet just introduced"
+  },
+  {
+   "s": "For the most research-backed recommendations you can check this deep research report from an older version of AskRigor, my research tool, and re-check it with askrigor.com for an up-to-date verification.",
+   "payoff": "the reader knows where the research-backed advice is, what made it, and how to bring it up to date",
+   "follows": "after the diet's cost, where to look for what the research supports"
+  },
+  {
+   "s": "Glutamine seems worth checking into, but plant intolerance is a symptom of a variety of underlying diseases that all have different treatments.",
+   "payoff": "the reader knows glutamine is worth a look, and that plant intolerance has many causes to tell apart",
+   "follows": "what that research points to"
+  },
+  {
+   "s": "Leaky gut (Phase 5): a widespread inflammatory condition often intersecting with other categories of illness such as Crohn's Disease or irritable bowel syndrome (IBS), plant food intolerance, and what many alternative health practitioners consider as a root cause of most diseases.",
+   "payoff": "the reader learns what leaky gut is and what it overlaps with, IBS spelled out",
+   "follows": "opens the next cause"
+  },
+  {
+   "s": "It's associated clinically with increased levels of zonulin, the molecule released to open your intestinal tight junctions, the seals between the cells of your gut lining.",
+   "payoff": "the reader learns how leaky gut shows up and what zonulin and tight junctions are",
+   "follows": "how the condition is seen"
+  },
+  {
+   "s": "Too much opening time leads to allowing stuff to leak out into your blood stream which then burdens your immune system and detoxification systems.",
+   "payoff": "the reader learns why an open barrier matters: what leaks and what it costs the body",
+   "follows": "what the opening does"
+  },
+  {
+   "s": "Game-changing treatments:",
+   "payoff": "the reader knows a list of treatments follows",
+   "follows": "after the problem, what helps"
+  },
+  {
+   "s": "Liposomal first-milking colostrum, the first milk a cow makes after giving birth, wrapped in tiny fat bubbles that help you absorb it (esp. fermented per Matt Nedin's protocol with bifidobacterium, a common probiotic, or SIBO yogurt bacteria).",
+   "payoff": "the reader knows what colostrum is, how it is wrapped, and how Matt ferments it",
+   "follows": "first treatment"
+  },
+  {
+   "s": "Matt from EndSickness.org finds that this helps especially to mop up mycotoxins, the toxins molds make, in the gut.",
+   "payoff": "the reader learns what colostrum does for them: it mops up mold toxins in the gut",
+   "follows": "what it is good for"
+  },
+  {
+   "s": "Activated charcoal can also be helpful, altho don't take that with things you want to actually absorb.",
+   "payoff": "the reader learns charcoal helps too, and when not to take it",
+   "follows": "a second binder after colostrum"
+  },
+  {
+   "s": "Fermented veggie juices of turmeric, red cabbage, celery, beet greens (not just beet root).",
+   "payoff": "the reader knows which juices, and to use the beet greens",
+   "follows": "next treatment"
+  },
+  {
+   "s": "Zinc carnosine, the form of zinc which sticks to your intestinal lining.",
+   "payoff": "the reader knows which zinc to buy and why that one",
+   "follows": "next treatment"
+  },
+  {
+   "s": "BPC-157 is a lab-made short protein based on one in stomach juice, and a good BPC-157 supplement, like this one from Barrier, can also help.",
+   "payoff": "the reader knows what BPC-157 is and where to get a good one",
+   "follows": "next treatment"
+  },
+  {
+   "s": "Note: I think Barrier's product looks smart, and their product may be really ideal, but there are some red flags in their marketing since they say it's made from plants, which is false.",
+   "payoff": "the reader learns the catch with Barrier's marketing before buying",
+   "follows": "about the product just named"
+  },
+  {
+   "s": "Beta-glucans, a kind of fiber found in yeast extract, to help your gut lining hold together under stress.",
+   "payoff": "the reader knows what beta-glucans are and what they are for: helping the gut lining hold together under stress",
+   "follows": "next treatment"
+  },
+  {
+   "s": "Resistant starch to feed the good bacteria in your gut: your body can't digest it, so it all goes to them.",
+   "payoff": "the reader knows what resistant starch is for, and why it reaches the bacteria",
+   "follows": "next treatment"
+  },
+  {
+   "s": "Ozonated zeolite (or ZeoCharge), a volcanic mineral full of tiny pores: I find regular zeolite to be ineffective, because the pores on it are clogged up, so it can't adsorb excess zonulin, metals, and other toxins.",
+   "payoff": "the reader knows zeolite is a porous mineral and why the ozonated kind is the one to use",
+   "follows": "last treatment"
+  }
+ ],
+ "checked": [
+  {
+   "point": "berberine is not for pregnancy or breastfeeding: it can cause or worsen jaundice in newborns",
+   "found": "NCCIH, In the News: Berberine: people who are pregnant or breastfeeding should not use berberine; it can cause or worsen jaundice in newborn infants (https://www.nccih.nih.gov/health/in-the-news-berberine)",
+   "still_needed": "yes: \"some herbs and supplements, like berberine\" didn't say what to do",
+   "fate": "kept"
+  },
+  {
+   "point": "resistant starch escapes digestion and is fermented by the gut's bacteria",
+   "found": "https://www.frontiersin.org/articles/10.3389/fnut.2024.1369950/full",
+   "still_needed": "yes",
+   "fate": "kept"
+  },
+  {
+   "point": "a yeast beta-glucan helps the gut lining hold together under stress",
+   "found": "Ganda Mall et al. 2018: yeast-derived beta-1,3/1,6-glucan reduced mast-cell-induced hyperpermeability in ileal tissue from people with Crohn's and controls (https://pmc.ncbi.nlm.nih.gov/articles/PMC6166688)",
+   "still_needed": "yes: the item had no reason to take it",
+   "fate": "kept"
+  }
+ ],
+ "placement": "The leaky gut list in its order; only the resistant starch item's why changed, after its point.",
+ "opens": {
+  "first_sentence": "Plant foods (Phases 2 and 5): The carnivore diet is trending, as many people (especially with leaky gut or lack of oxalate-processing bacteria) are noticing they cannot handle the fiber in plants, or the oxalates and phytates, compounds in many plants that bind minerals.",
+  "why_reading": "If plants bother them, this says they are not alone and why: the first line names their own case."
+ },
+ "same_point": "none: read the causes from \"Plant foods\" to \"Severe stress\": glutamine is pointed to here and explained once under the fuels; zeolite and BPC-157 come back only as Phase 5 pointers",
+ "questions": {
+  "Q1": "PASS: the fixed sentences give their point first: resistant starch's job, then why; each organ case opens on what the reader would have; the pregnancy line names what to do, then why",
+  "Q2": "PASS: the instructions name the act (test for that with Stool Elastase; skip berberine; ask your doctor)",
+  "Q3": "PASS: each test, treatment and supplement is named exactly",
+  "Q4": "PASS: Exocrine Pancreatic Insufficiency is explained where it is named; SeHCAT and stool elastase are named as the tests; jaundice is a word a high-school graduate knows",
+  "Q5": "PASS: \"so it all goes to them\" turns on \"can't digest it\"; \"If\" opens each organ case",
+  "Q6": "PASS: nothing moved between paragraphs",
+  "Q7": "PASS: each change is what the reader needs to act",
+  "Q8": "PASS: no item moved between groups",
+  "Q9": "PASS: each question-and-answer pair is one sentence now, one step each; nothing compressed"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

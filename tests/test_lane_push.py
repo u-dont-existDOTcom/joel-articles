@@ -5,6 +5,7 @@ import sys
 import os
 import subprocess
 import unittest
+import tempfile
 from unittest import mock
 
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parents[1] / 'tools' / 'humanization'))
@@ -182,20 +183,72 @@ class MergeLessons(unittest.TestCase):
 
     def test_shared_changes_without_merge_or_reason_refuse(self):
         with self.assertRaises(SystemExit) as e:
-            P.merge_gate(self.args(), ['docs/MAKING-SENSE.md'])
+            P.merge_gate(self.args(), ['docs/MAKING-SENSE.md'], robot=False)
         self.assertIn('--merge', str(e.exception))
         self.assertIn('docs/MAKING-SENSE.md', str(e.exception))
 
     def test_merge_or_a_reason_lets_it_through(self):
-        P.merge_gate(self.args('--merge'), ['docs/MAKING-SENSE.md'])
-        P.merge_gate(self.args('--no-merge', 'its tests fail until the gut lane merges'), ['docs/MAKING-SENSE.md'])
+        P.merge_gate(self.args('--merge'), ['docs/MAKING-SENSE.md'], robot=False)
+        P.merge_gate(self.args('--no-merge', 'its tests fail until the gut lane merges'), ['docs/MAKING-SENSE.md'],
+                     robot=False)
 
     def test_article_work_alone_needs_neither(self):
-        P.merge_gate(self.args(), [])
+        P.merge_gate(self.args(), [], robot=False)
 
     def test_merge_and_no_merge_together_refuse(self):
         with self.assertRaises(SystemExit):
-            P.merge_gate(self.args('--merge', '--no-merge', 'why'), ['docs/x.md'])
+            P.merge_gate(self.args('--merge', '--no-merge', 'why'), ['docs/x.md'], robot=False)
+
+    def test_with_the_auto_merge_workflow_on_main_shared_changes_need_neither(self):
+        """Gate E379 (Joel, 2026-11-06: every lane's pull request merges itself once its checks pass)."""
+        P.merge_gate(self.args(), ['docs/MAKING-SENSE.md'], robot=True)
+        with self.assertRaises(SystemExit):
+            P.merge_gate(self.args(), ['docs/MAKING-SENSE.md'], robot=False)
+
+    def test_a_lesson_number_main_already_gave_out_refuses(self):
+        """Gate E379: on 2026-11-06 the neuro lane's pull request 314 numbered its lessons E374 to E377 while the gut
+        lane's branch had its own E374; the gut lane's became E378, and then E379 when the bad trips lane's 316 gave
+        out E378 first."""
+        main = '- **E373. Old.** text\n- **E374. Neuro.** text\n'
+        branch = main + '- **E374. Gut.** text\n'
+        self.assertEqual(P.new_duplicate_lessons(branch, main), (['374'], 375))
+        shared_before = '- **E362. Gut.** a\n- **E362. Bad trips.** b\n'
+        self.assertEqual(P.new_duplicate_lessons(shared_before + '- **E363. New.** c\n', shared_before)[0], [])
+
+    def test_lessons_are_named_per_lane_and_day_so_two_lanes_never_collide(self):
+        """Gate gut-2026-11-06d: a lane's lessons go in a file of their own, named <lane>-<date><letter>; the next name
+        counts only that lane's names of that day, so two lanes writing the same hour can't pick the same one."""
+        text = ('- **gut-2026-11-06a. One.** x\n- **gut-2026-11-06b. Two.** y\n'
+                '- **neuro-2026-11-06a. Theirs.** z\n- **gut-2026-11-05a. Yesterday.** w\n')
+        self.assertEqual(P.next_lesson_id('gut', '2026-11-06', text), 'gut-2026-11-06c')
+        self.assertEqual(P.next_lesson_id('neuro', '2026-11-06', text), 'neuro-2026-11-06b')
+        self.assertEqual(P.next_lesson_id('bad-trips', '2026-11-06', text), 'bad-trips-2026-11-06a')
+        self.assertEqual(P.next_lesson_id('gut', '2026-11-07', text), 'gut-2026-11-07a')
+
+    def test_the_number_check_reads_the_lesson_files_too(self):
+        """A numbered lesson moved into docs/lessons/ (E379) is still counted against main's numbers."""
+        with tempfile.TemporaryDirectory() as d:
+            root = pathlib.Path(d)
+            (root / 'docs' / 'lessons').mkdir(parents=True)
+            (root / 'docs' / 'HUMANIZATION-GATE.md').write_text('- **E380. Neuro.** a\n', encoding='utf-8')
+            (root / 'docs' / 'lessons' / '2026-11-06-1948-gut.md').write_text('- **E379. Gut.** b\n', encoding='utf-8')
+            with mock.patch.object(P, 'REPO', root):
+                text = P.lesson_texts()
+        self.assertIn('**E379. Gut.**', text)
+        self.assertIn('**E380. Neuro.**', text)
+        self.assertEqual(P.new_duplicate_lessons(text + '- **E380. Mine.** c\n', '- **E380. Neuro.** a\n'), (['380'], 381))
+
+    def test_no_merge_with_the_workflow_labels_the_pull_request_hold(self):
+        calls = []
+
+        def run(cmd, **kw):
+            calls.append(cmd)
+            out = {'rev-parse': 'claude/gut-r16\n'}.get(cmd[1], '308\n' if 'pulls?state=open' in ' '.join(cmd) else '')
+            return mock.Mock(returncode=0, stdout=out, stderr='')
+        with mock.patch.object(P, 'run', run), mock.patch.object(P, 'owner_repo', lambda: ('o', 'r')):
+            msg = P.hold('his answers are still out')
+        self.assertIn('labelled "hold"', msg)
+        self.assertTrue(any('issues/308/labels' in ' '.join(c) and 'labels[]=hold' in c for c in calls))
 
     def fake(self, checks, merged=True, pull='301'):
         calls = []
