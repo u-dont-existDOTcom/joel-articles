@@ -107744,7 +107744,7 @@
         },
         {
           "path": "articles/neuro-de-armoring/humanize/OWNER-QUESTIONS.md",
-          "sha256": "57ccd61ca941a3345acc5e6df71e32f15e0fe937a8bbdc18cb401080ca257f08",
+          "sha256": "e39d79e2dfd1030bb8551286f104b318e2ba3e076e16e503fbdc9bb5563861f3",
           "role": "humanization_working_record"
         },
         {
@@ -111650,6 +111650,11 @@
         {
           "path": "articles/neuro-de-armoring/humanize/fix-20261106/substack/paste_payload_lane.js",
           "sha256": "d52e971987f9499db3f874259a8f7ceac90760788725f2d921b048550ef166e0",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/neuro-de-armoring/humanize/fix-20261106/substack/PASTED.json",
+          "sha256": "f0a6c0b8adadd4b3b3de49139d8fa8b853e689d42ea214c69ff8995c1285cf5c",
           "role": "humanization_working_record"
         }
       ]

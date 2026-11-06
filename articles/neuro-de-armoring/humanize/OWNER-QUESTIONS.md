@@ -1,8 +1,8 @@
 # Neuro de-armoring: what I need from Joel
 
 Last updated 2026-11-06, after your message of 20:17 UTC (the bug report, Nestler, 11).
-**Open questions: none.** **For you to do**: switch your Pangram extension to your other account (below). Nothing to merge:
-this turn's pull request goes into main with its lesson.
+**Open questions: none.** **For you to do**: open the whole article's preview link (in our chat of 20:49 UTC) in Brave
+and send me the extension's result (below).
 Colours: 🟣 a question for you; 🟠 something for you to do; 🔵 next or in progress; 🟢 done or decided.
 
 The master copy of this page is [this file in Git](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/OWNER-QUESTIONS.md), so a session in either of your accounts
@@ -17,9 +17,17 @@ can read and update it. Every file it points to is a link.
 
 ## For you to do
 
-- 🟠 Switch the Pangram extension in Brave to your other account, and tell me. Its badge read "Daily limit reached" on
-  the whole article's temporary draft ("Neuro de-armoring, draft A (temp, delete after)"). I'll open the preview again and
-  read the result myself.
+- 🟠 Open the whole article's secret preview link (in my reply to your message of 20:49 UTC; not written here, since
+  anyone with it can read the draft) in Brave, let the Pangram extension scan it, and send me its "full analysis" link
+  or a screenshot of the badge. Claude in Chrome wasn't connected, so I couldn't open it in your Brave myself.
+
+## Your message of 2026-11-06 20:49 UTC (the other Pangram account), and what I did
+
+- 🟢 **Why the other account**: the free extension check of the whole article hit "Daily limit reached" on your first
+  account on 4 November; the web app would charge credits by the word for its 6,249 words.
+- 🟢 **The temporary draft now holds the article as it stands** (your dynorphin paragraph, the cards since 4 November):
+  pasted, saved, every word matched, and the preview's text checked.
+- 🟠 **The check itself** waits on your Brave (above).
 
 ## Your message of 2026-11-06 20:17 UTC (the bug report, Nestler, 11), and what I did
 
