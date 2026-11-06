@@ -18,6 +18,9 @@ From an account with Desktop Commander connected to the laptop: "Continue my neu
 
 ## START HERE
 
+- **2026-11-06, after his message of 23:50 UTC: his blocks 20 and 25 in; block 42 in (Human High); 26, 27-28, 38,
+  43, 44 still AI (`fix-20261106/p4/RESULTS.md`).** Blocks 26 and 27-28 have one try left each; 38, 43, 44 have three.
+  He'd like, some time, a look across many results at why windows read High rather than Medium.
 - **2026-11-06, after his message of 23:01 UTC: his block 20 in; round 3 (his moves, by me) all AI
   (`fix-20261106/p3/RESULTS.md`).** HUMANIZED-SO-FAR.md has his block 20 and round P1's A section. Next: the tell
   panel on block 42's try (`fix-20261106/p3/B042e.txt`, ready, with its receipt), then a causally different approach for

@@ -82,7 +82,7 @@ The Fix ("Lock, Stock, and Barrel"):The Vacuum (NAC): Clears the flood by exchan
 
 The Lock (Zinc/Magnesium): Physically blocks the receptor channel to stop the voltage.
 
-The Repair (Leucine/L-Serine): L-Serine acts as a precursor to D-Serine to recalibrate the GluD 'Volume Dial' to enhance therapeutic sessions that end with low fear/high mastery (although conversion to D-serine is inefficient, which is why some people use D-serine itself which has higher risk/benefit). Leucine facilitates structural repair while simultaneously tuning synaptic gain to reduce the 'itchy brain' sensation
+The Repair (Leucine/L-Serine): L-Serine is what the brain makes D-Serine from, so it can help recalibrate the GluD "Volume Dial" and make therapy sessions that end with low fear and a sense of mastery stick better. The conversion isn't very efficient though, so some people take D-serine itself instead (more risk, but also more benefit). And we use Leucine for structural repair, since it also tunes synaptic gain, which eases the "itchy brain" feeling.
 
 The Governor (Agmatine): Agmatine is the optional "voltage governor." It may help when the problem is not just excess glutamate in the synapse, but NMDA/GluN2B over-reactivity--the hot, itchy, reactive, pain-y, rumination-heavy version of the Glutamate Storm. It is not a daily foundation nutrient. It is a state-dependent brake.
 
