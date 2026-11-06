@@ -1,0 +1,36 @@
+{
+ "format": "joel-suggestion-review-answers-v1",
+ "review_id": "healing-the-gut-b11-r16-20261105",
+ "title": "Gut Article, Your Batch-10 Answers (Batch 11)",
+ "git_file": "articles/healing-the-gut/humanize/fix-20261103/r16/b11/REVIEW-PAGE.html",
+ "article": {
+  "file": "articles/healing-the-gut/humanize/fix-20261103/r12/r12.md",
+  "sha256": "05f038f7370ca372efec6c103072d2043d9dc622ec858870d97d0bc340baa8b7"
+ },
+ "built": "2026-11-05",
+ "generator": "suggestion_review.py 1.7 (2026-11-05)",
+ "exported_at": "2026-11-06T19:48:29.145Z",
+ "counts": {
+  "approved": 2,
+  "rejected": 0,
+  "revise": 0,
+  "pending": 0
+ },
+ "items": [
+  {
+   "id": "F11-1",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "updated": "2026-11-06T19:48:25.713Z"
+  },
+  {
+   "id": "F11-2",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "updated": "2026-11-06T19:48:07.657Z"
+  }
+ ],
+ "note": "Pasted into chat; this copy keeps each item's id, status, comment and time, which is all its fate needs. The cards' texts are in r16/b11/REVIEW.json."
+}

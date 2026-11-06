@@ -120760,6 +120760,16 @@
           "path": "articles/healing-the-gut/humanize/fix-20261103/r16/checks/RESULTS-r16.json",
           "sha256": "e21057fb7700f7fb9a742dd652f7e560393cee3ed028a96e91bf8934257bd830",
           "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/healing-the-gut/experiments/t16-answers/REVIEW-ANSWERS-b11.json",
+          "sha256": "87557de905e1609d0b4a659a9edcaea3addfd2832c41b323f64bba1efd51cb44",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/healing-the-gut/experiments/t16-answers/joel-20261106-1948-message.txt",
+          "sha256": "a777f038e2b4d0cb888ad827ea957d6644d395912f685d3e83a782350b3ba70a",
+          "role": "humanization_working_record"
         }
       ]
     }

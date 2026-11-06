@@ -24,29 +24,30 @@ Joel, 2026-11-03 16:15 UTC (`experiments/t01-answers/joel-20261103-1615-messages
 - 2026-11-05 15:18 UTC: his four fuels cards answered (`experiments/t13-answers/`); the fuels stretch worded and checked (`humanize/fix-20261103/r14/`): the whole stretch [Human Written, 100%](https://www.pangram.com/history/01015713-1d9b-4b32-9bd0-1f1258a1cfee) (#154); batch-9 page https://claude.ai/artifact/EyKenia9ksMXj8pH6ZMCkE. Cards go on the page the turn they are written (E363 (gut)).
 - 2026-11-05 18:43 UTC: his batch-9 answers as r15 (`humanize/fix-20261103/r15/`): 28 term notes, three repeats cut, all twelve changed stretches Human (#155 to #171); gates E368 and E369; batch-10 page https://claude.ai/artifact/NfPt7HckprSDhtuCm84P5E; merged by Joel as #293.
 - 2026-11-05 23:00 UTC: his batch-10 answers as r16 (`humanize/fix-20261103/r16/`); how to write for Pangram put in `AGENTS.md` and `SKILL.md` for every lane (pull request 308).
+- 2026-11-06 16:37 UTC: r16 checked in his account (#172 to #174, all Human, High); batch-11 page https://claude.ai/artifact/RfYKiY9RvDAJBYazEaGLeD.
 
 ## Current checkpoint
 
-2026-11-06, Joel's message of 16:37 UTC: "pr has conflicts, i logged into pangram".
-- Main (#310, the bad trips lane's E370 to E372) merged into pull request 308; the gate's conflict resolved with his
-  "all lanes" note kept before main's numbering note. E371 (the reader's reason first, each act named exactly) added
-  to `SKILL.md`'s "Writing for Pangram" section with its two checks, so every lane gets it with E368 and E369.
-- r16's three changed stretches read Human Written, AI 0%, one window, High, as predicted (#172 to #174).
-- The batch-11 page: https://claude.ai/artifact/RfYKiY9RvDAJBYazEaGLeD (F11-1 the report and AskRigor, F11-2 the
-  Gemini mode).
-- How to write for Pangram is in `AGENTS.md`'s workflow and `SKILL.md`, in pull request 308. This session's permission
-  check refuses a merge into main without review, so he merges.
+2026-11-06, Joel's message of 19:48 UTC (`experiments/t16-answers/`): batch 11's F11-1 and F11-2 approved, so r16
+(`humanize/fix-20261103/r16/r16.md`) is the article with every answer in. "pr still has conflicts": main (#311 to #313)
+merged into pull request 308; AGENTS.md's conflict (this branch's Pangram paragraph beside the marking-page paragraph
+#313 reworded for E373) resolved with both kept.
 
 ## Remaining
 
-1. His answers on batch 11; then the whole article (r16 with them) checked once in a temporary Substack draft, free and
-   never published, through his extension; then his post updated with his OK and no email.
-2. Draft A (`r12/substack/`, #143) still waits for his extension's result; he deletes it once it is recorded. If the
-   whole-article draft of r16 reads Human, the update carries that draft's characters, marks included (E362 (gut)), and draft A's question no longer decides anything.
+1. The whole of r16 checked once in a temporary Substack draft (free, never published) through his extension. First
+   the windows earlier checks left below High in r16 (E354): the resistant starch item (Human Low in #170), the
+   beta-glucans item, Phase 4's two sentences and the pregnancy sentence (Human Medium). Under E373 these are the
+   model's words he kept, so they are mine to fix, tested, on an approve card.
+2. Then his post updated with his OK and no email.
+3. Draft A (`r12/substack/`, #143) waits for his extension's result; he deletes it once recorded. If r16's draft reads
+   Human, the update carries that draft's characters, marks included (E362 (gut)), and draft A no longer decides
+   anything.
 
 ## Blockers / unresolved
 
-- Waiting on Joel: his answers on the batch-11 page, his merge of pull request 308, and draft A's result.
+- Waiting on Joel: his merge of pull request 308 (this session's permission check refuses a merge into main without
+  review), and draft A's result.
 
 ## Evidence / artifacts
 
@@ -54,4 +55,4 @@ Joel, 2026-11-03 16:15 UTC (`experiments/t01-answers/joel-20261103-1615-messages
 
 ## Next safe action
 
-When his batch-11 answers come, apply them to r16 as r17, check any changed paragraph with its neighbor, then make the temporary draft of the whole article for his extension.
+Fix the windows below High that r16 still has, tested, on an approve card; then make the temporary draft of the whole article for his extension.
