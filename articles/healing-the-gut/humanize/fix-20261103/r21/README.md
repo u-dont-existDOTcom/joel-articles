@@ -49,3 +49,12 @@ route), each beside draft B:
 `substack/make_payloads.py` builds both payloads the way draft B's was built (r12.html, the live post's editor HTML,
 with the new words; marks curled) and the text his extension reads (`substack/EXPECTED-TEXT-C.txt` and `-D.txt`). They
 differ from draft B's text on three lines only: the glutamine dose paragraph and Phase 5's two steps.
+
+## If neither draft reads the steps High
+
+The neuro lane's lesson of 23:01 UTC (neuro-2026-11-06b: the payoff is in the words, each sentence saying how it
+answers the reader's case or the sentence before) points at what try 3 still lacks in its second step: "Bulsiewicz says
+to bring more and more kinds of plants back ..." doesn't say in its own words that this is how to feed the bacteria the
+sentence before names. Try 2 says it ("so bring plants back"); try 3 glosses the terms. A fourth try would keep try 3's
+glosses and put the tie in the words ("To feed them, Bulsiewicz says ..."), with its receipt's `link` for each
+sentence. It waits for drafts C and D, which say which of the two moves Pangram rewards here.
