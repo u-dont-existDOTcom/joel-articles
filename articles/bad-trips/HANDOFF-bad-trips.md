@@ -15,6 +15,12 @@ https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/bad-trips
 
 ## START HERE
 
+- **2026-11-06, turn 14 (his round-9 approval of 16:38 UTC).** Round 9 is in: the room's first part is my fix, his
+  annoying-room line said plainly. The room stretch reads AI in place (each part Human alone); the tell panel agrees on its
+  diagnose-then-fix build and on four of his sentences, so round 10's page asks for his version (Bad Trips Guide, Round 10,
+  https://claude.ai/artifact/FUuDsfqAQgCwDgade5KwaY). **First:** his round-10 answer in and checked in place; **then** the
+  next paragraph (CURRENT-STATE.md's next step).
+
 - **2026-11-06, turn 13 (his round-8 answer exported 00:27 UTC).** His version of the room stretch's second part is in:
   he cut the quips, put the payoff first ("They're feeling overwhelmed, so ...") and said each act exactly ("Ask if they'd
   like a hand on the shoulder"), and his checks show each step (`humanize/h08-20261106/HIS-CHECKS-READ-20261106.json`).

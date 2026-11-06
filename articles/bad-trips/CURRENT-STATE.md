@@ -1,6 +1,6 @@
 # Bad Trips guide: current state
 
-Updated: 2026-11-06 (turn 13: his round-8 answer exported 00:27 UTC, with five checks of his and "an exercise for you to fix now").
+Updated: 2026-11-06 (turn 14: his round-9 approval exported 16:38 UTC).
 badtrips guide at badtrips.u-dont-exist.com"; `experiments/t01-answers/JOEL-MESSAGE-20261103-1545.md`).
 
 ## Goal
@@ -205,25 +205,31 @@ dose, unit, timing and warning exactly as it went in, and his post updated with 
   itself is next (`humanize/h08-20261106/RESULTS.md`). Round 9's page: one card, the first part (Bad Trips Guide, Round 9,
   https://claude.ai/artifact/KrdxXmj483tg4kEhAk8waB; `review/r09/REVIEW-R09.md`; browser test 56 of 56, the test now
   handles a page of one card to approve).
+- 2026-11-06 (turn 14, his round-9 answer exported 16:38 UTC, saved as `review/r09/ANSWERS-R09-20261106-1638.json`:
+  ROOM-FIRST approved, no comment): round 9 in (`review/r09/apply_r09.py`; B238 is my fix of the first part, B239 out;
+  12,299 to 12,308 words; the fidelity keys record "stuck beside" for his "trapped beside", `humanize/h01/FIDELITY-KEYS-R09.json`).
+  The room stretch in place (B238, B240, B241) is the text that read AI, High at 34d92f15; the tell panel on it agrees on
+  its diagnose-then-fix build and on four of his sentences, none of mine (`humanize/h08-20261106/panel-STRETCH/PANEL.md`).
+  Round 10's page: one card asking for his version of the stretch, each paragraph's reading on it (Bad Trips Guide, Round
+  10, https://claude.ai/artifact/FUuDsfqAQgCwDgade5KwaY; `review/r10/REVIEW-R10.md`; browser test 62 of 62).
 
 ## Current checkpoint
 
-- **In progress:** Turn 13 done. His round-8 version of the second part is in the guide; the first part waits for his
-  answer to round 9's card (Bad Trips Guide, Round 9, https://claude.ai/artifact/KrdxXmj483tg4kEhAk8waB). The room stretch
-  (B238 to B241) reads AI, High, in place with either first part, though each part reads Human alone.
-- **Next step (updated on every push, so another account can pick up here):** His round-9 answer in with an
-  `apply_r09.py` like round 8's (the export saved as `review/r09/ANSWERS-R09-*.json`). Then the room stretch in place: it
-  has read AI twice in place (34d92f15, 3d9ca55e), so the tell panel on the stretch first (`tools/humanization/tell_panel.py`,
-  Codex on his laptop, Sonnet, Haiku), then his usual fix (gate E368, E371) on what they agree on, a fresh read, a
-  prediction and the check in his Pangram account (the desktop app's browser pane; it signs out every few hours, so ask
-  him to sign in when the history answers 401). Then the next paragraph of Psychological First Aid ("Give them ordinary
-  reality:" and its quote), one paragraph at a time. No whole-guide check until no window already seen reads AI or Low
-  (E354).
-- **Waiting on Joel:** round 9's card (the room's first part).
+- **In progress:** Turn 14 done. Round 9 is in; the room stretch (B238, B240, B241) reads AI in place, each part Human
+  alone, and the panel's agreed sentences are his, so round 10's card asks for his version (Bad Trips Guide, Round 10,
+  https://claude.ai/artifact/FUuDsfqAQgCwDgade5KwaY).
+- **Next step (updated on every push, so another account can pick up here):** His round-10 answer in with an
+  `apply_r10.py` like round 8's (the export saved as `review/r10/ANSWERS-R10-*.json`): his version in place of B238, B240
+  and B241, and checked in place in his Pangram account (the desktop app's browser pane; it signs out every few hours, so
+  ask him to sign in when the history answers 401). If he keeps them, the stretch waits for the whole-guide check. Then the
+  next paragraph of Psychological First Aid ("Give them ordinary reality:" and its quote), one paragraph at a time, with
+  his usual fix first (E368, E371) and his quips said plainly (E370). No whole-guide check until no window already seen
+  reads AI or Low (E354).
+- **Waiting on Joel:** round 10's card (the room stretch).
 
 ## Remaining
 
-Round 9's card; the room stretch in place; the rest of the guide one paragraph at a time; the whole-guide Pangram check; an overcompletion read
+Round 10's card (the room stretch); the rest of the guide one paragraph at a time; the whole-guide Pangram check; an overcompletion read
 (gate E328); the word-for-sense read (gate E331); his post updated, with the title's version and date (gate E323).
 
 ## Blockers / unresolved

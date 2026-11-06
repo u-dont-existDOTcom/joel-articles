@@ -353,9 +353,7 @@ The [triage app](https://ibogaqueen.com/1625-2/) gives the order. This section i
 
 Anything that could let someone hurt themselves in the next five minutes takes priority, so get the car keys out of reach and turn the stove off, and move them away from roads and balconies, or pools of water for that matter. Letting them move around is fine, and pacing can help, but keep them from taking more of any substance. If they want to go confront somebody, that can wait. And if they want to leave, have someone go with them. Put any weapons away and keep the person away from crowds and strangers. If they want to post their big revelation about the universe, or message an ex, take the phone.
 
-Then look at the room. Is the light too bright? Is the music horrible? Are five concerned people talking at once? Is somebody touching the person when touch is unwelcome? Are they too hot, too cold, desperate for the bathroom, or trapped beside somebody they don't trust?
-
-A huge amount of what gets called profound psychedelic crisis is a frightened nervous system stuck in an annoying room.
+A lot of what looks like a deep psychedelic crisis is a scared person in a room that's getting on their nerves, so look around the room next. Maybe the light's too bright or the music's horrible. Are five concerned people talking at once? Somebody might be touching them when they don't want it, or they're stuck beside someone they don't trust. And check whether they're too hot or too cold, or desperate for the bathroom.
 
 They're feeling overwhelmed, so dim the lights, and clear out the extra people around them. If they're thirsty, offer water, and suggest they sip it rather than chug. Ask if they'd like a hand on the shoulder. Speak slowly and use fewer words.
 
