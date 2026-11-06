@@ -2377,6 +2377,16 @@
    "numbers_new": [
     "2008"
    ]
+  },
+  {
+   "by": "fix-20261106/APPLIED-1940.json (his own paragraph and his deletion, message of 2026-11-06 19:40 UTC)",
+   "why": "his 'The Problem' paragraph now carries the DeltaFosB point with Vialou et al. 2010 as its source, and he deleted 'The Hardening' paragraph, which held the Nestler 2008 citation, because his paragraph covers it",
+   "numbers_lost": [
+    "2008"
+   ],
+   "numbers_new": [
+    "2010"
+   ]
   }
  ],
  "warning_words": {

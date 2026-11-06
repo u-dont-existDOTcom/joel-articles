@@ -25,6 +25,12 @@ lifetime.
 
 ## The mechanism: DeltaFosB blocks the cell from registering anything new
 
+(Corrected 2026-11-06, the turn after his message of 19:40 UTC: this heading says more than the paper does. The paper
+is about healthy spatial learning, where the cells that fired on day one still matter for recall days later; the
+"wrong place" reading below is my extrapolation, not something it tested. For his "preventing that learning from
+really clicking", the stress and fear extinction study in the next section is the closer source, and it is an
+association.)
+
 In the dentate gyrus, DeltaFosB builds up in exactly the granule cells that just fired, and what it does there is stop
 those cells from switching cFos on again. cFos is the gene a cell needs to turn on to take part in new learning. So the
 cells that encoded yesterday are taken out of the running today, and today's experience lands on different cells. The

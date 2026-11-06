@@ -2794,6 +2794,60 @@ humanized so that's funny"; "fix this rule durably in the repo, your job is clea
 
 (E373 is the bad trips lane's. The next lesson in any lane is E374.)
 
+## What his dynorphin paragraph taught (the neuro de-armoring lane, his message of 2026-11-06 19:40 UTC)
+
+The card was DFB-2b on Neuro De-Armoring Cards, 6 November: the section "C. The "Hardened" Circuit: Dynorphin &
+DeltaFosB" names two things and its first paragraph said what only one of them does. My two tries kept the paragraph's
+opening, "To protect itself from the Glutamate storm, the brain eventually releases Dynorphin, a chemical blanket that
+suppresses dopamine. This creates the "Void"...", and added two sentences at its end ("That is the state you are in now;
+DeltaFosB is the slower one underneath, holding the circuit where the cycles left it. They don't lift together, ...").
+Both read AI, High, one window ([try 1](https://www.pangram.com/history/6e5452c4-3a59-480a-ae28-b9370928c6f5), [try
+2](https://www.pangram.com/history/3bd08080-1b34-43f9-be56-fbb5171d08de)). He wrote his own, which read Human Written,
+one window, High ([his check](https://www.pangram.com/history/3d7bf59d-c958-4f82-a268-d33089bfbda1)), and deleted the
+section's "The Hardening" paragraph. His words: "what i noticed about your AI para was it was not giving the payoff
+quick enough. i was as usual wondering why am i reading this? it also wasn't explaining things well. i think i fixed
+that"; "now you can also delete the "hardening" para since i had to incorporate that into this one, otherwise it was out
+of order and a bit redundant. learn some lessons pls". His paragraph and what it does are in
+`articles/neuro-de-armoring/humanize/fix-20261103/examples/WHAT-HIS-VERSIONS-DO.md`.
+
+- **E374. A paragraph opens on the reader's own case, and the receipt asks it of the paragraph, whoever wrote its first
+  sentence.** His opens "If you're feeling apathetic, gray, no desire for anything, you might be in a neurochemical
+  "Void" state caused by Dynorphin & DeltaFosB.": the reader knows from the first line whether this is about them. Mine
+  opened on what the brain does to protect itself, and the payoff ("so don't read a better week as the armor coming
+  off") came in the last sentence. The signal was already there: E351, E357, E368 and `docs/MAKING-SENSE.md` question 1
+  ("ask it of each sentence and each paragraph"). Why nothing acted: the receipt (E365) asks a payoff of each sentence I
+  write, and my added sentences had real ones; the model's opening went in as "his own first two sentences", untouched,
+  so nothing asked what the paragraph's first sentence tells the reader (E373 now says those sentences were never his).
+  What changed: `sense_receipt.py make` writes `opens` (the first sentence, and what it tells this reader about their
+  own case) and `check` refuses a receipt without it, so `pangram_ledger.py predict` and `suggestion_review.py` refuse
+  too. And when I add to a paragraph, the whole paragraph is the draft: an opening that tells the reader nothing about
+  their case is mine to fix, not a frame to add to.
+- **E375. A mechanism is explained by what it does in the reader's experience, not by where it sits or what it looks
+  like.** "it also wasn't explaining things well." Mine: "a chemical blanket that suppresses dopamine", "the slower one
+  underneath, holding the circuit where the cycles left it", "They don't lift together". His: "dopamine is the
+  neurotransmitter for motivation (by showing us what is important to pay attention to)", which is why suppressing it is
+  the "no desire for anything" of the first line; "DeltaFosB keeps cementing our neural connections, preventing that
+  learning from really "clicking" as durable insights"; and the loop in the reader's terms, "because we're still
+  reacting in the same maladaptive ways (same fears, etc), our psychology then asks for more DeltaFosB to keep the armor
+  in place". He also tells it in the order it happens to the reader (dynorphin clears, learning comes back but doesn't
+  click, the old reactions call for more DeltaFosB), where mine set the two side by side and said how they relate. The
+  card's own wording had the same miss ("the two aren't one mechanism", which he had called no useful info). Where it
+  is now: `docs/MAKING-SENSE.md` question 4, which the receipt's Q4 asks.
+- **E376. One point is said in one place: before adding a point, read the section for it, and merge in the reader's
+  order.** I added what DeltaFosB does to the first paragraph while "The Hardening" paragraph, three paragraphs on and
+  after two about SSRIs, said it again. He folded it into his paragraph and the other went. The rules had it for dedup
+  passes (E241's neighbors, the dedup rules in `AGENTS.md`), not for a sentence I add. What changed: the receipt's
+  `same_point` names the section's paragraphs that already make a point the paragraph makes, and what happens to each
+  ("merged here; block N is deleted"), or says the section was read for it; `check` refuses it blank.
+- **E377. When something needs his yes, the ask is a direct question with what he is agreeing to shown in full.** His
+  words, on AskRigor's changed terms, which I had reported as a vague "needs acceptance" without the terms: "you
+  should say "Do you accept the terms so I can use AskRigor? Here are the terms:" doesn't that make sense?" AskRigor's
+  status call puts the terms only where this app doesn't show them, so I couldn't; that fix is AskRigor's, and its bug
+  report went to him with this lesson. The rule here holds for any yes I need from him (terms, a setting, an account step): the
+  question, then the full text or the exact change, in one message.
+
+(E374 to E377 are the neuro de-armoring lane's. The next lesson in any lane is E378.)
+
 
 ## What turn 100's API checks showed (the Inner Child lane, 2026-10-23)
 
