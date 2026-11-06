@@ -313,22 +313,22 @@ The boundary mix over all lanes:
 
 | lane | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| bad trips guide | 41 | 34 (83%) | 71% | 29% | 46% | 0.167 (base 0.207, 41) |
-| **all lanes** | 41 | 34 (83%) | 71% | 29% | 46% | 0.167 (base 0.207, 41) |
+| bad trips guide | 48 | 40 (83%) | 75% | 25% | 42% | 0.168 (base 0.188, 48) |
+| **all lanes** | 48 | 40 (83%) | 75% | 25% | 42% | 0.168 (base 0.188, 48) |
 
 The latest 100 calls of each lane:
 
 | lane | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| bad trips guide | 41 | 34 (83%) | 71% | 29% | 46% | 0.167 (base 0.207, 41) |
+| bad trips guide | 48 | 40 (83%) | 75% | 25% | 42% | 0.168 (base 0.188, 48) |
 
 The boundary mix over all lanes:
 
 | scope or kind | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| paragraph | 29 | 26 (90%) | 62% | 38% | 48% | 0.160 (base 0.235, 29) |
-| pair | 8 | 6 (75%) | 100% | 0% | 25% | 0.182 (base 0.000, 8) |
-| section | 4 | 2 (50%) | 75% | 25% | 75% | 0.185 (base 0.188, 4) |
+| paragraph | 30 | 27 (90%) | 63% | 37% | 47% | 0.160 (base 0.232, 30) |
+| section | 9 | 6 (67%) | 89% | 11% | 44% | 0.180 (base 0.099, 9) |
+| pair | 9 | 7 (78%) | 100% | 0% | 22% | 0.184 (base 0.000, 9) |
 
 ## pangram 4.1, the web app: Joel's account, run by the lane in the desktop app's browser pane (E356)
 
@@ -414,7 +414,7 @@ The boundary mix over all lanes:
 
 | cause | misses | lanes |
 |---|---|---|
-| not explained yet | 50 | bad trips guide, community article, healing the gut article, hypnosis guide, inner child guide |
+| not explained yet | 46 | bad trips guide, community article, healing the gut article, hypnosis guide, inner child guide |
 | too pessimistic about a cut | 12 | inner child guide |
 | a tell I did not name | 11 | inner child guide |
 | a Low window came back | 8 | inner child guide |
@@ -426,6 +426,7 @@ The boundary mix over all lanes:
 | an added move read AI | 3 | inner child guide |
 | the section read differently from the paragraph alone | 3 | inner child guide |
 | too pessimistic about a rewrite | 3 | inner child guide |
+| in place | 3 | bad trips guide |
 | explainer structure | 3 | healing the gut article |
 | pessimism | 2 | community article, nibbana article |
 | parallel list kept | 2 | hypnosis guide |
@@ -491,6 +492,8 @@ The boundary mix over all lanes:
 | parallel frames kept | 1 | bad trips guide |
 | a flaw of sense left in the ending | 1 | bad trips guide |
 | rewording without a sense fix | 1 | bad trips guide |
+| a quip kept | 1 | bad trips guide |
+| one sentence changed | 1 | bad trips guide |
 | summary-voice-around-owner-lines | 1 | healing the gut article |
 | owner-voice-carries-neighbours | 1 | healing the gut article |
 | opener-and-attribution-asides | 1 | healing the gut article |

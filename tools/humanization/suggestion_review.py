@@ -52,14 +52,19 @@ REVIEW.json (the lane's build script writes it; see find_quote, block_text and c
       "receipt" (needed, from reviews built 2026-11-05, on a card that adds or changes words): the repo-relative path of
                  the new paragraph's making-sense receipt (tools/humanization/sense_receipt.py), or a list of them, one
                  per new paragraph; check() refuses a card without one that passes (gate E365),
-      "owner_text" (optional): the new words are Joel's own (whose and where), so no receipt of mine is needed},
+      "owner_text" (optional): the new words are Joel's own (whose and where), so no receipt of mine is needed; his
+                 version of a model's text goes in as he sent it, but stays the model's text, the worker's to fix later
+                 (gate E373)},
      {"id", "type", "title", "advice": "ask", "question", "why", "stays" (optional, what holds until he answers),
       "advice_note", "spans"}   a question: no change, an answer box, counted apart from the decisions,
      {"id", "type", "title", "advice": "edit", "why", "reading" (optional: what Pangram read there), "advice_note",
-      "keep_label" (optional), "spans", "card_after" (optional)}   a stretch for him to see and, if he wants, rewrite
-      himself (2026-10-27, his "give me the editor interface so i can see and edit what needs editing"): no change of
-      mine, his buttons Keep it as it is / Edit it / Not decided yet, and Edit opens "Your version" filled with the
-      paragraphs as they are now; counted with the decisions]}
+      "keep_label" (optional), "spans", "card_after" (optional), "whose" (needed on pages built from 2026-11-06: "his
+      own: what he wrote himself, and where" or "he asked: his request to edit it himself")}   a stretch for him to see
+      and, if he wants, rewrite himself (2026-10-27, his "give me the editor interface so i can see and edit what needs
+      editing"): no change of mine, his buttons Keep it as it is / Edit it / Not decided yet, and Edit opens "Your
+      version" filled with the paragraphs as they are now; counted with the decisions. Only for his own words (gate E373,
+      2026-11-06: a model's text that reads AI, his humanized versions included, is the worker's to fix, on an approve
+      card); any card may say "whose": "his own: ..." when it is about what he wrote himself]}
 Each type may give its colours ("color", "bg", "color_dark", "bg_dark"); a type the template has no colours for gets
 them from TYPE_PALETTE, so its highlights and cards are never colourless (2026-10-27: batch 481's page had four types the
 template didn't know, and none of its 34 highlights showed in the article).
@@ -89,11 +94,17 @@ from html_links import join_split_links  # noqa: E402  (a pasted post card's lin
 TEMPLATE = HERE / 'suggestion_review_template.html'
 FORM_CSS = ROOT / 'project-sources' / 'review-form-controls.css'
 FORMAT = 'joel-suggestion-review-v1'
-GENERATOR = 'suggestion_review.py 1.7 (2026-11-05)'
+GENERATOR = 'suggestion_review.py 1.8 (2026-11-06)'
 ID_OK = re.compile(r'^[A-Za-z0-9][A-Za-z0-9.\-]{0,80}$')
 # a Pangram result's page (2026-11-02, Joel on the hypnosis guide's cards: "why are you not giving me the pangram link so
 # i can see? always give me the links", and "you didn't check if your changes passed.. they didn't. don't waste my time")
 RECEIPT_FROM = '2026-11-05'   # reviews built from this day: a card that adds or changes words needs its making-sense receipt
+# Gate E373 (Joel, 2026-11-06 17:30 UTC: "don't say 'those are your words so you need to fix it' -- your job is to do the
+# fixing"): from this day a stretch to edit says whose words it holds, and no card calls a model's text his words
+PROVENANCE_FROM = '2026-11-06'
+WHOSE_OK = re.compile(r'^\s*(his own|he asked)\s*:\s*\S.{8,}', re.I | re.S)
+YOURS_WORDS = re.compile(r"\byour (?:own )?(?:words|sentences?|lines?|phrasings?|wording)\b|\byours to (?:change|fix|edit|"
+                         r"rewrite)\b|\bare yours\b", re.I)
 PANGRAM_LINK = re.compile(r'https?://(?:www\.)?pangram\.com/(?:history|feed)/[0-9a-f][0-9a-f-]{7,}')
 # a link's address may hold one pair of brackets, as Wikipedia's do (2026-11-04, the word-for-sense read: "[Anthony de Mello]
 # (https://en.wikipedia.org/wiki/Anthony_de_Mello_(Jesuit_priest))" came out as "Anthony de Mello) is", and both readers of
@@ -320,6 +331,45 @@ def receipt_problems(review, s):
     return probs
 
 
+def provenance_problems(review):
+    """Gate E373 (Joel, 2026-11-06 17:30 UTC: "'my words' for an AI article, are not my words, unless those were human
+    before we started humanizing (i.e if i wrote that myself inside an ai article) otherwise it's AI words that i
+    humanized"; "your job is to do the fixing, that's the whole point here"). On pages built from PROVENANCE_FROM, a stretch
+    to edit (it hands the rewriting to him) says "whose": "his own: what he wrote himself, and where" or "he asked: his
+    request to edit it himself"; and no card, type or introduction calls the text his words ("your words", "your
+    sentences", "yours to change") unless the card says "whose" so. A model's text that reads AI, his humanized versions of
+    it included, is the worker's to fix, on an approve card he can Revise."""
+    built = review.get('built') or ''
+    if not re.match(r'\d{4}-\d{2}-\d{2}', built) or built[:10] < PROVENANCE_FROM:
+        return []
+    probs = []
+    why = ('a model\'s text that reads AI, his humanized versions of it included, is yours to fix: put the tested fix on an '
+           'approve card he can Revise (gate E373; Joel, 2026-11-06 17:30 UTC: "your job is to do the fixing, that\'s the '
+           'whole point here")')
+    own = [s for s in review['suggestions'] if WHOSE_OK.match(s.get('whose') or '')]
+    for s in review['suggestions']:
+        sid = s.get('id', '?')
+        if s.get('advice') == 'edit' and s not in own:
+            probs.append('%s: a stretch to edit asks him to rewrite it, so it is only for what he wrote himself or asked to '
+                         'edit himself: say "whose": "his own: what and where" or "he asked: his words and when"; %s'
+                         % (sid, why))
+        if s in own:
+            continue
+        for k in ('title', 'what', 'why', 'stays', 'deciding', 'advice_note', 'question', 'reading', 'tested'):
+            m = YOURS_WORDS.search(s.get(k) or '')
+            if m:
+                probs.append('%s: its %s calls the text his ("%s"): in an article a model drafted, only what he wrote himself '
+                             'is his words (say "whose": "his own: ..." if it is); %s' % (sid, k, m.group(0), why))
+    texts = list(review.get('intro') or []) + ['%s %s' % (v.get('label', ''), v.get('about', ''))
+                                               for v in (review.get('types') or {}).values()]
+    for x in texts:
+        m = YOURS_WORDS.search(x or '')
+        if m and not own:
+            probs.append('the page\'s introduction or a type calls the text his ("%s"): only what he wrote himself is his '
+                         'words; %s' % (m.group(0), why))
+    return probs
+
+
 def check(review, bl):
     """Problems with REVIEW against the article's blocks: [message]."""
     probs, ids = [], set()
@@ -409,6 +459,7 @@ def check(review, bl):
         texts = [b['text'] for b in bl]
         for s in review['suggestions']:
             probs.extend(keep_as_is.card_problems(s, texts, led))
+    probs += provenance_problems(review)
     return probs
 
 

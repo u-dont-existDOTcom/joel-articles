@@ -308,17 +308,31 @@
   {
    "id": "r08-room-his",
    "status": "applied",
-   "what": "round 8, ROOM-YOURS: his version of the fixes and music paragraphs (B240, B241); the room's questions and the annoying room (B238, B239) as they were",
-   "joel": "2026-11-06 00:27 export: his version, checked by him (Human, 26e9138d); \"first i cut the wry ai quips, uncompressed, varied the rhythm a little, and clarified\"; \"now i made it have a payoff at the start and that flipped human\"",
-   "must_contain_exact": [
-    "They're feeling overwhelmed, so dim the lights, and clear out the extra people around them. If they're thirsty, offer water, and suggest they sip it rather than chug.",
-    "Ask if they'd like a hand on the shoulder. Speak slowly and use fewer words.",
-    "Ask \"Would you like music or is quiet best?\" If a track starts pulling the experience somewhere unwanted, go ahead and change it."
-   ],
+   "what": "round 8, ROOM-YOURS: his decisions in his version of the fixes and music paragraphs (B240, B241): the quips cut, the reason first, they sip, the touch offered is a hand on the shoulder and asked first, music asked about rather than the sound lowered first. The wording was the guide's AI text he humanized, so it is mine to fix (gate E373, his 2026-11-06 17:30 message); these decisions stay",
+   "joel": "2026-11-06 00:27 export: his version, checked by him (Human, 26e9138d); \"first i cut the wry ai quips, uncompressed, varied the rhythm a little, and clarified\"; \"now i made it have a payoff at the start and that flipped human\"; 17:30 UTC: \"'my words' for an AI article, are not my words, unless those were human before we started humanizing\"",
    "must_not_contain": [
     "This is a bad time to defend the playlist.",
     "Please don't explain the universe at somebody who is already frightened by it.",
-    "Ask before touching."
+    "Ask before touching.",
+    "Lower the sound."
+   ],
+   "must_contain": [
+    "hand on the shoulder",
+    "sip",
+    "quiet"
+   ]
+  },
+  {
+   "id": "r09-room-first",
+   "status": "applied",
+   "what": "round 9, ROOM-FIRST approved: the room's first part as one paragraph, the annoying-room line said plainly first (B238), the annoying-room paragraph (B239) out. My text, so mine to fix later (gate E373); the decisions stay",
+   "joel": "2026-11-06 16:38 export: approved, no comment (his round-8 \"an exercise for you to fix now\")",
+   "must_not_contain": [
+    "A huge amount of what gets called profound psychedelic crisis is a frightened nervous system stuck in an annoying room.",
+    "Then look at the room. Is the light too bright?"
+   ],
+   "must_contain": [
+    "getting on their nerves, so look around the room"
    ]
   }
  ]

@@ -570,17 +570,17 @@ BIG_CHANGE = 0.4
 def sense_gate(a, text, sha, line):
     """Refusals for a text of mine before it goes to Pangram (gates E365, enforcing E362, and E361): its making-sense receipt
     (sense_receipt.py) must pass for this exact text, and a retry may change at most 40%% of the words of the try before it
-    in the lineage (moves are free) unless --big-change says why the small fixes are spent. Joel's own text (--his) needs
-    neither."""
-    if a.his:
+    in the lineage (moves are free) unless --big-change says why the small fixes are spent. Joel's own text (--his) and a
+    text checked as it stands (--unchanged) need neither."""
+    if a.his or a.unchanged:
         return []
     why = []
     sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
     import sense_receipt
     if not a.receipt:
         why.append('a text of mine goes to Pangram only with its making-sense receipt (--receipt RECEIPT.json, made and '
-                   'checked with tools/humanization/sense_receipt.py), or --his "whose words" for Joel\'s own text (gate '
-                   'E365; Joel, 2026-11-05: "fix the way you work because i\'m not telling you the same stuff over and '
+                   'checked with tools/humanization/sense_receipt.py), or --his "his own: what and where" for what Joel wrote '
+                   'himself, or --unchanged "what and where" for a text checked as it stands (gate E365; Joel, 2026-11-05: "fix the way you work because i\'m not telling you the same stuff over and '
                    'over")')
     else:
         receipt = json.loads(pathlib.Path(a.receipt).read_text(encoding='utf-8'))
@@ -643,8 +643,9 @@ def fixed_windows(recs, text, min_words=6):
 def first_fix_gate(a, recs, text):
     """Gate E368: a text of mine that reworks a sentence which read below High goes to Pangram only with --first-fix saying
     what Joel's usual fix did there first: where each payoff now lands (moved up, or why it already leads), which short
-    sentences were joined, and which odd paraphrase went back to its plain word. Joel's own text (--his) needs none."""
-    if a.his or text is None:
+    sentences were joined, and which odd paraphrase went back to its plain word. Joel's own text (--his) and a text checked
+    as it stands (--unchanged) need none."""
+    if a.his or a.unchanged or text is None:
         return []
     hits = fixed_windows(recs, text)
     if not hits:
@@ -663,6 +664,30 @@ def first_fix_gate(a, recs, text):
             'i always fix?"' % (shown, ' and %d more' % (len(hits) - 3) if len(hits) > 3 else '', ', '.join(missing))]
 
 
+HIS_OWN = re.compile(r'^\s*his own\s*:\s*\S.{8,}', re.I | re.S)
+
+
+def provenance_gate(a):
+    """Gate E373 (Joel, 2026-11-06 17:30 UTC: "'my words' for an AI article, are not my words, unless those were human
+    before we started humanizing (i.e if i wrote that myself inside an ai article) otherwise it's AI words that i
+    humanized"): --his is for what Joel wrote himself, "his own: what and where". His version of a model's text, and the
+    published text of an article a model drafted, are checked as they stand with --unchanged; a change of mine to either
+    needs its receipt."""
+    why = []
+    if a.his and not HIS_OWN.match(a.his):
+        why.append('--his is only for what Joel wrote himself, before any humanizing: say "his own: what and where". His '
+                   'version of a model\'s text, and an article\'s published text where a model drafted it, are AI words he '
+                   'humanized, not his words (gate E373; Joel, 2026-11-06 17:30 UTC: "\'my words\' for an AI article, are '
+                   'not my words, unless those were human before we started humanizing"): check them as they stand with '
+                   '--unchanged "what and where", and a change of mine with its receipt')
+    if a.his and a.unchanged:
+        why.append('give --his or --unchanged, not both')
+    if a.unchanged and len(a.unchanged.strip()) < 10:
+        why.append('--unchanged: say what the text is and where it stands (the article as it has it now, or his version as '
+                   'he sent it on a card)')
+    return why
+
+
 def cmd_predict(a):
     recs = read(a.ledger)
     text = None
@@ -676,7 +701,7 @@ def cmd_predict(a):
     if not sha:
         raise SystemExit('give --text FILE (preferred) or --sha')
     line = lineage_view(state(recs), a.lineage)
-    gate = sense_gate(a, text, sha, line) + first_fix_gate(a, recs, text)
+    gate = provenance_gate(a) + sense_gate(a, text, sha, line) + first_fix_gate(a, recs, text)
     if gate:
         print('REFUSED: ' + '\n  '.join(gate), file=sys.stderr)
         return 2
@@ -685,7 +710,7 @@ def cmd_predict(a):
            'human_tells': a.human_tells or [], 'diagnosis': a.diagnosis, 'decides': a.decides, 'key': a.key, 'batch': a.batch,
            'detector': a.detector, 'shading_expected': a.shading_expected, 'emulate_share': a.emulate_share,
            'after_fix': a.after_fix, 'paid_ok': a.paid_ok, 'narrowed': a.narrowed, 'panel': a.panel,
-           'windows_ok': a.windows_ok, 'try': len(line) + 1, 'his': a.his, 'receipt': a.receipt,
+           'windows_ok': a.windows_ok, 'try': len(line) + 1, 'his': a.his, 'unchanged': a.unchanged, 'receipt': a.receipt,
            'big_change': a.big_change, 'first_fix': a.first_fix,
            'text': text.rstrip('\n') if text is not None and len(text) < 20000 else None}
     if a.scope == 'article' and text is None:
@@ -898,7 +923,12 @@ def main(argv=None):
                    'in it: why each stays (E354; Joel, 2026-11-04: fix the windows we can see before checking the article)')
     p.add_argument('--receipt', help='the text\'s making-sense receipt (tools/humanization/sense_receipt.py), required for '
                    'a text of mine (gate E365)')
-    p.add_argument('--his', help='the text is Joel\'s own words: whose, and from where (no receipt of mine needed)')
+    p.add_argument('--his', help='what Joel wrote himself, before any humanizing: "his own: what and where" (no receipt '
+                   'of mine needed). Not his version of a model\'s text, nor the published text of an article a model '
+                   'drafted: those are AI words he humanized (gate E373); use --unchanged')
+    p.add_argument('--unchanged', help='a text checked exactly as it stands, with no change of mine: the article as it has '
+                   'it now, or his version as he sent it on a card ("what and where"; no receipt, and a later change of '
+                   'mine to it needs one)')
     p.add_argument('--big-change', help='a retry that changes more than 40%% of the words of the try before it: why every '
                    'small fix is spent (gate E361)')
     p.add_argument('--first-fix', help='a text of mine that reworks sentences which read below High before: "payoff: ...; '

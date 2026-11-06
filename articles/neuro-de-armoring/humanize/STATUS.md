@@ -1,5 +1,34 @@
 # Status: neuro de-armoring humanization (newest on top)
 
+## 2026-11-06, his answers of 16:35 UTC on the DeltaFosB cards: his three versions in; the schema idea checked and it holds; the dynorphin paragraph to him after two AI tries
+
+His answers, word for word: `fix-20261106/ANSWERS-X1105D-20261106-1635.json`. They answer the cards the **separate**
+DeltaFosB lane built (pull request 309, `claude/neuro-deltafosb-20261105`), which he pasted back here: "idk why it made
+cards instead of handing off to you". **The mailbox first** ("2026-11-06T16:36Z"): main e4d5f9dd, merged; 309 and 308
+open; UDA main b0a1b3d, whose new `patterns/safety-layer-cuts.md` came from this lane's own analysis of the cuts.
+- **His three versions in** (`fix-20261106/apply_dfb.py`): DFB-1 with the Nestler 2008 citation, "for weeks after the
+  cycles stop", and his loop sentence, which is the point I had missed -- the protein lasts weeks, the loop is what is
+  permanent ("you didn't understand my point, and you already explained that you didn't understand it in the old lane").
+  DFB-3 ("the catecholamines that transcribe"), DFB-4 ("if the animal timelines carry over"). The 2010-to-2008 year
+  change is his, recorded in `FIDELITY-KEYS.json` owner_changes; fidelity PASS.
+- **His schema idea, checked** (`fix-20261106/SCHEMA-CHECK.md`): it holds up better than my "weeks, not permanent"
+  allowed, with the mechanism the other way round from cementing. In the dentate gyrus DeltaFosB piles up in the cells
+  that just fired and stops them switching cFos on again, which is the gene a cell needs to join new learning
+  ([Nature Communications 2022](https://pmc.ncbi.nlm.nih.gov/articles/PMC9606265/)); in one study that pile-up in the
+  basolateral amygdala and dentate gyrus went with mice that could not extinguish fear
+  ([PMID 37003493](https://pubmed.ncbi.nlm.nih.gov/37003493/), associational). So the loop needs no permanent protein.
+  Against it: the sign still depends on where it lands, and suppressing it made epileptic mice worse
+  ([Frontiers 2023](https://pmc.ncbi.nlm.nih.gov/articles/PMC10810990/)). Question 10, his to decide; nothing changed.
+- **DFB-2 to him** (`fix-20261106/cards/REVIEW-X1106A.md`): he sent it back ("'the two aren't one mechanism' doesn't
+  give useful info ... what do we need to know?"). Two tries read [AI, 100%, one window High](https://www.pangram.com/history/6e5452c4-3a59-480a-ae28-b9370928c6f5)
+  and [again](https://www.pangram.com/history/3bd08080-1b34-43f9-be56-fbb5171d08de), so it goes as a stretch to edit
+  (E291, E333). Try 1 was predicted and scored a MISS; try 2's check ran before its prediction, so it is unscored, and
+  the ledger refused the prediction afterwards -- my process error, recorded here rather than worked around.
+- **AskRigor not used**: its free contributor notice changed and its research tools refuse until he accepts it. This
+  pass used PubMed and Europe PMC directly.
+- **Two outputs cut** by the safety layer before any article content was written. Per UDA
+  `patterns/safety-layer-cuts.md` (which came from this lane): nothing was retried or re-routed.
+
 ## 2026-11-05, his answers of 15:55 UTC on Cards, 5 November: ATP-2 in (Human, High); the two ketone-strategy paragraphs to him after three tries each; E363, E364
 
 His answers, word for word: `fix-20261104/cards/ANSWERS-20261105-1555.json`; his message: "idk why the bad trips guide

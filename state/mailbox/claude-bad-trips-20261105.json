@@ -111,6 +111,76 @@
     }
    ],
    "recorded_utc": "2026-11-06T00:32Z"
+  },
+  {
+   "turn": "2026-11-06T16:38Z",
+   "lines_of_work": [
+    "bad trips guide"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "no new items for this lane"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "pull request 310 merged 16:27 UTC; open: 309, 308, 278, 244, 200, 199, 198, 197, 109; no new issues"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no edits by others to this lane's handoff note or current state since 310"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "four notices read at 16:28 UTC: the stray placeholder reminder (fired 00:38) and three on 310 (subscribed, checks green, merged)"
+    }
+   ],
+   "items": [
+    {
+     "item": "Joel's round-9 answer (exported 16:38 UTC): ROOM-FIRST approved, no comment",
+     "outcome": "this turn: round 9 in; then the room stretch in place, from the tell panel"
+    }
+   ],
+   "recorded_utc": "2026-11-06T16:39Z"
+  },
+  {
+   "turn": "2026-11-06T17:30Z",
+   "lines_of_work": [
+    "bad trips guide"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "no new items for this lane (root AGENTS.md unchanged at b0a1b3d)"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "since 16:39: 311 (this lane's turn 14) merged 16:46, 312 (neuro de-armoring) merged 17:33; 308 (gut lane) got two commits at 16:41, a gate note on E368 and E369, no lesson numbers taken; no new issues or comments"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no edits by others to this lane's handoff note or current state since 311"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "no queued notices at 17:3x UTC"
+    }
+   ],
+   "items": [
+    {
+     "item": "Joel, 17:30 UTC: don't hand AI text back to him as his words; only what he wrote himself before humanizing is his; fixing is my job; make the rule durable",
+     "outcome": "this turn: the rule (E373) in the gate, the fixing page and the review tool; then I fix the room stretch myself and check it in his account; round 10's card withdrawn"
+    }
+   ],
+   "recorded_utc": "2026-11-06T17:34Z"
   }
  ]
 }

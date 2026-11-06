@@ -1,0 +1,108 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-06",
+ "text_sha256": "81e400f7dfb5c533c9938cd8816a926cea70f08323aaf95310d7c2455270c1b0",
+ "text": "A lot of what looks like a deep psychedelic crisis is a scared person in a room that's getting on their nerves, so look around the room next. Switch the overhead light off and leave a lamp on. If five worried friends are all asking whether they're okay, that's five people they feel they have to answer, so send most of them to the kitchen and let one calm person they trust stay. That person should talk slowly and say very little. Maybe somebody keeps touching them and they hate it, or they're stuck next to someone they're wary of. Whoever it is needs to back off. Before touching them, ask if they'd like a hand on the shoulder. And check whether they're too hot or too cold, or desperate for the bathroom.\n\nAsk \"Would you like music or is quiet best?\" Songs can turn scary halfway through, so change any that do. Gulping water on a queasy stomach can make them throw up, so if they're thirsty, give them small sips.",
+ "section": "Psychological First Aid: The First Five Minutes",
+ "reader": "someone sitting with a person on a bad psychedelic trip, who has just put the car keys and the stove out of the way and now faces a frightened person in a room full of light, noise and worried people",
+ "sentences": [
+  {
+   "s": "A lot of what looks like a deep psychedelic crisis is a scared person in a room that's getting on their nerves, so look around the room next.",
+   "payoff": "they know why to look at the room at all: much of what looks like a crisis is a scared, irritated person, so the room may be what's wrong",
+   "follows": "the paragraph before dealt with the next five minutes' dangers; once those are handled, the room comes next"
+  },
+  {
+   "s": "Switch the overhead light off and leave a lamp on.",
+   "payoff": "they take the harshest light out of the room without leaving a scared person in the dark",
+   "follows": "the first thing they'll see when they look around: the light"
+  },
+  {
+   "s": "If five worried friends are all asking whether they're okay, that's five people they feel they have to answer, so send most of them to the kitchen and let one calm person they trust stay.",
+   "payoff": "they see why a crowd of worried friends is a problem (each question is one more thing to answer), send most of them out, and know who stays",
+   "follows": "after the light, the people in the room"
+  },
+  {
+   "s": "That person should talk slowly and say very little.",
+   "payoff": "the one who stays keeps their own talking from adding to the load",
+   "follows": "the sentence before leaves one person with them; this is how that person talks"
+  },
+  {
+   "s": "Maybe somebody keeps touching them and they hate it, or they're stuck next to someone they're wary of.",
+   "payoff": "they look for touch the person hates and for someone beside them they're wary of",
+   "follows": "still the people in the room: what they are doing to the person"
+  },
+  {
+   "s": "Whoever it is needs to back off.",
+   "payoff": "they know what to do about it: that person moves away",
+   "follows": "the fix for the sentence before"
+  },
+  {
+   "s": "Before touching them, ask if they'd like a hand on the shoulder.",
+   "payoff": "they offer touch the right way, by asking about a hand on the shoulder first",
+   "follows": "after unwanted touch, the touch the reader may want to give"
+  },
+  {
+   "s": "And check whether they're too hot or too cold, or desperate for the bathroom.",
+   "payoff": "they check the person's own body too: heat, cold and a full bladder get to them like the room does",
+   "follows": "after the room and the people, the person's own body"
+  },
+  {
+   "s": "Ask \"Would you like music or is quiet best?\"",
+   "payoff": "they let the person choose music or quiet",
+   "follows": "the room's sound, left as the person's choice, in its own paragraph with the other things they take in"
+  },
+  {
+   "s": "Songs can turn scary halfway through, so change any that do.",
+   "payoff": "they know to change a song that turns scary, even one that started fine",
+   "follows": "what to do once music is on"
+  },
+  {
+   "s": "Gulping water on a queasy stomach can make them throw up, so if they're thirsty, give them small sips.",
+   "payoff": "they give water in a way that stays down, and know why",
+   "follows": "after sound, the other thing they take in: water"
+  }
+ ],
+ "checked": [
+  {
+   "point": "that's five people they feel they have to answer",
+   "found": "the original: \"stop the chatter, clear out extra people\"; the guide's later section: \"A committee of frantic people rarely improves anyone's nervous system\"",
+   "still_needed": "yes: it is why the friends go, which a fresh read asked",
+   "fate": "kept"
+  },
+  {
+   "point": "let one calm person they trust stay",
+   "found": "the guide's later section: \"Use one calm human anchor as the lead\"",
+   "still_needed": "yes: it says who stays when the friends go",
+   "fate": "kept"
+  },
+  {
+   "point": "Gulping water on a queasy stomach can make them throw up",
+   "found": "the guide's nausea sections (\"nausea caused by an excessive psychedelic dose acting on serotonin receptors in the gut\") and its medical step \"Small sips ... Don't force fluids\"",
+   "still_needed": "yes: it is why small sips",
+   "fate": "kept"
+  }
+ ],
+ "placement": "after the five-minute dangers paragraph and before \"Give them ordinary reality\": the room comes once they're safe and before you talk them through where they are; its \"next\" points back to the dangers paragraph",
+ "questions": {
+  "Q1": "PASS: the paragraph opens on its reason (the crisis is often the room); the friends' and the water's reasons come before their acts",
+  "Q2": "PASS: every act is the helper's: switch the overhead light off and leave a lamp on, send most friends out and let one calm person stay, talk slowly, have whoever it is back off, ask about a hand on the shoulder, check heat, cold and the bathroom, ask about music, change a scary song, give small sips",
+  "Q3": "PASS: which light (the overhead one, a lamp left on), which people (most of the worried friends; one calm person they trust stays), which touch (a hand on the shoulder), which songs (ones that turn scary)",
+  "Q4": "PASS: no terms a reader wouldn't know",
+  "Q5": "PASS: each so turns on what's said before it: the room being the problem, five people to answer, songs turning scary, a queasy stomach",
+  "Q6": "PASS: the room in the order you'd see it (light, people, touch), then their body; then what they take in (sound, water)",
+  "Q7": "PASS: every fact is about the person in front of them in this room tonight",
+  "Q8": "PASS: each fix is beside what it fixes; sound and water, what they take in, together in the second paragraph",
+  "Q9": "PASS: nothing compressed: one act a sentence where acts differ, with the small words that carry why"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone?",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

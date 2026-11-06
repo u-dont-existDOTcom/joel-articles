@@ -1,0 +1,3 @@
+S6 | "All of that hits harder on a psychedelic" | How does the drug make these things hit harder: what is it doing to them that makes a bright light, people talking, or being cold or needing the bathroom worse than it would be sober?
+S8 | "Lots of people feel sick when they're tripping" | Why does feeling sick come in here, right after how to talk to them and touch them: is it one more thing that's making them more scared, like the room, or a separate problem to deal with?
+S9 | "Would you like music" | If they say they'd like music, what should I put on: anything, songs they know, something calm?

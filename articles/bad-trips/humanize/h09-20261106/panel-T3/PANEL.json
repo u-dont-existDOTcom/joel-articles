@@ -1,0 +1,80 @@
+{
+ "readers": [
+  "codex",
+  "haiku",
+  "sonnet"
+ ],
+ "sentences": [
+  "A lot of what looks like a deep psychedelic crisis is a scared person in a room that's getting on their nerves, so look around the room next.",
+  "Maybe the light's too bright or the music's horrible to them.",
+  "Are five concerned people talking at once?",
+  "Somebody might be touching them when they don't want it, or they're stuck beside someone they don't trust.",
+  "And check whether they're too hot or too cold, or desperate for the bathroom.",
+  "All of that hits harder on a psychedelic, so dim the lights, and clear out the extra people around them, leaving one calm person they trust to do the talking.",
+  "If that's you, your voice and your hands count as part of the room too, so talk slowly and keep it short, and before you touch them at all, ask if they'd like a hand on the shoulder.",
+  "If they're thirsty, give them water to sip slowly, since lots of people feel sick when they're tripping and gulping it can make them throw up.",
+  "Ask \"Would you like music or is quiet best?\"",
+  "If they want music, let them pick it, and if a song starts scaring them more, change it or turn it off."
+ ],
+ "flagged": {
+  "1": [
+   "haiku"
+  ],
+  "2": [
+   "sonnet"
+  ],
+  "3": [
+   "haiku",
+   "sonnet"
+  ],
+  "4": [
+   "sonnet"
+  ],
+  "5": [
+   "sonnet"
+  ],
+  "6": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ],
+  "7": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ],
+  "8": [],
+  "9": [
+   "haiku"
+  ],
+  "10": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ]
+ },
+ "agreed": [
+  3,
+  6,
+  7,
+  10
+ ],
+ "whole": {
+  "codex": [
+   "The progression from environmental problems to practical adjustments to individual preferences feels carefully organized, with nearly every observation receiving a corresponding instruction. That polish could suggest AI assistance, but none of these features reliably establishes authorship."
+  ],
+  "haiku": [
+   "The paragraph is built on clean, evenly weighted sentences that each land on a neat close, and the voice stays generic and instructional, with a tidy progression from room, to people, to touch, to water, to music. Nothing in it is a specific memory or a stumble, so the smoothness and balance read machine-made as a whole."
+  ],
+  "sonnet": [
+   "The paragraph is built very evenly: a thesis, a list of possible causes, then a matching list of fixes, with every sentence of similar length and a smooth connective (\"so\", \"and\", \"next\") carrying the reader along. Nothing is left loose or unresolved, and the voice stays uniformly helpful and instructional, which reads as polished."
+  ]
+ },
+ "human_clean": [
+  "gulping it can make them throw up",
+  "gulping it can make them throw up",
+  "lots of people feel sick when they're tripping",
+  "lots of",
+  "tripping"
+ ]
+}

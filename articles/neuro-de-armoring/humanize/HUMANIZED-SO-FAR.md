@@ -64,7 +64,7 @@ Before applying the tools, you must understand the specific "Hardware Failures" 
 
 We often assume we can "think" our way out of a trigger, but data proves that anatomy overrides intellect. Dr. Perry identifies a "Metabolic Red Line" for the traumatized brain: when the resting heart rate is elevated or heart-rate-variability reduced (a state of "Fear"), the brain physically shunts blood flow away from the Cortex (Logic/Reason) and down to the Brainstem (Survival).
 
-In this state, functional IQ drops substantially. More importantly, this state floods the Nucleus Accumbens with the exact cocktail of catecholamines that *transcribes* new DeltaFosB proteins (the "armor"). The Takeaway: If you attempt to process trauma while living above this red line, you are not de-armoring; you are actively re-enforcing the armor.
+In this state, functional IQ drops substantially. More importantly, this state floods the Nucleus Accumbens with the catecholamines that transcribe new DeltaFosB proteins (the "armor"). The Takeaway: If you attempt to process trauma while living above this red line, you are not de-armoring; you are actively re-enforcing the armor.
 
 #### B. The "Overheating" CPU: Glutamate Excitotoxicity
 
@@ -96,7 +96,7 @@ Why Standard Meds Failed You If you have tried SSRIs (antidepressants) and faile
 
 Why don't these drugs work on calcified PTSD? Because standard serotonin drugs treat the "software" (mood), but they cannot penetrate the "hardware" (the structural changes in the amygdala caused by severe trauma). This protocol uses Ketones and HDAC Inhibitors to remodel the physical structure of the brain that resists standard medication.
 
-The Hardening: Chronic cycles lead to the accumulation of DeltaFosB, a protein switch that permanently alters gene expression to cement the trauma circuitry ([Vialou, et al, 2010](https://pubmed.ncbi.nlm.nih.gov/20473292/)).
+The Hardening: Chronic cycles lead to the accumulation of DeltaFosB, a protein switch that alters gene expression and holds the circuitry in place for weeks after the cycles stop ([Nestler, 2008](https://pmc.ncbi.nlm.nih.gov/articles/PMC2607320)). So the psychological trauma is reinforced biologically, which then reinforces the biology in a permanent loop until we make conscious efforts to break it from one or both ends.
 
 Double click to interact with video
 
@@ -364,7 +364,7 @@ Rescue:
 
 *If Numb:* Micro-dose Male Iboga and/or Hillybilly/Mazatapec shrooms.
 
-Week 8+: The BaselineState: DeltaFosB degraded. Hardware reset complete.
+Week 8+: The BaselineState: DeltaFosB degraded, if the animal timelines carry over. Hardware reset complete.
 
 Maintenance: Cycle off NAC. Maintain metabolic flexibility (Low Carb/Seasonally Keto).
 
