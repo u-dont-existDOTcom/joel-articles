@@ -1,0 +1,58 @@
+[
+ {
+  "sentence": 3,
+  "quote": "its effects will peak and then change",
+  "gap": "Change into what? Does \"peak\" just mean the strongest point, and why am I telling them this?",
+  "id": "L1",
+  "answer": "and the effects will peak and then ease off",
+  "raised": "You took [substance, if known]"
+ },
+ {
+  "sentence": 5,
+  "quote": "We can sort out the rest of your life tomorrow.",
+  "gap": "What is this sentence for: to stop them from making decisions or worrying about their problems tonight? I could guess wrong.",
+  "id": "L2",
+  "status": "drop",
+  "note": "the reader's own reading is right: big decisions wait until tomorrow, which No Rash Actions: Visions Are Not Commands says in full"
+ },
+ {
+  "sentence": 6,
+  "quote": "If the state came from a practice",
+  "gap": "What \"state\" is this? Earlier sentences talked about a drug's effects, and \"state\" hasn't been introduced.",
+  "id": "L3",
+  "answer": "If a practice like meditation or fasting brought this on",
+  "raised": "If a practice like meditation or fasting brought this on"
+ },
+ {
+  "sentence": 6,
+  "quote": "I'm in an intense state, so I'm stopping the practice now, and my only job is to stay safe.",
+  "gap": "Why does stopping the practice help? Is the person saying this to themselves or to the sitter? What do they do after saying it?",
+  "id": "L4",
+  "answer": "have them stop now, since doing more of it only makes this stronger",
+  "raised": "have them stop now"
+ },
+ {
+  "sentence": 7,
+  "quote": "A state from a practice has no drug wearing off on a schedule, so there's no telling how long it will last.",
+  "gap": "What does \"so\" turn on: a drug's schedule being what makes it predictable? And why am I told this? It seems to contradict \"it'll pass\" in S4, and I can't act on it.",
+  "id": "L5",
+  "answer": "So look after their body in the meantime",
+  "raised": "Nobody can say how long it'll last"
+ },
+ {
+  "sentence": 8,
+  "quote": "Once they can eat safely",
+  "gap": "Safely in what way: choking, vomiting, being too confused to swallow? And what should I do before that point?",
+  "id": "L6",
+  "answer": "once they're alert and not throwing up",
+  "raised": "once they're alert and not throwing up"
+ },
+ {
+  "sentence": 8,
+  "quote": "food and warmth help their body settle",
+  "gap": "What does \"settle\" mean here, and how do food and warmth do it? Why does it matter during a bad trip?",
+  "id": "L7",
+  "answer": "food and warmth help it calm down, especially after fasting",
+  "raised": "food and warmth help it calm down"
+ }
+]

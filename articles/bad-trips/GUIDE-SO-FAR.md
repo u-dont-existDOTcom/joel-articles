@@ -365,8 +365,6 @@ If the state came from a practice, like meditation or fasting, the person can sa
 
 A state from a practice has no drug wearing off on a schedule, so there's no telling how long it will last. Once they can eat safely, food and warmth help their body settle.
 
-Then help them pick one safe thing to try with their body and one calm person to stay with them, which the next two sections are about. Protect their sleep too, especially if they're euphoric or grandiose, and leave what it all meant until they've slept.
-
 ### Stillness or Movement?
 
 Test them rather than turning them into rival religions. Try one for two minutes and ask: *Does this make me safer and clearer, or more activated and impulsive?*

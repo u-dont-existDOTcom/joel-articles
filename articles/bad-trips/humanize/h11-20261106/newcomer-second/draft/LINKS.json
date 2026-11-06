@@ -1,0 +1,106 @@
+[
+ {
+  "sentence": 2,
+  "quote": "You took [substance, if known]",
+  "gap": "Why am I telling them what they took: what does knowing the name do for a person in distress, and what do I say if I don't know?",
+  "id": "L1",
+  "status": "drop",
+  "note": "the script names what they took when it's known ('if known' is in the placeholder); it's why 'the effects will peak and then ease off' is true for them"
+ },
+ {
+  "sentence": 2,
+  "quote": "the effects will peak and then ease off",
+  "gap": "Peak means what here: the worst point of the trip? And how would hearing this help them?",
+  "id": "L2",
+  "status": "drop",
+  "note": "plain for this reader: the strongest point, then less; hearing it tells them this ends"
+ },
+ {
+  "sentence": 3,
+  "quote": "It's intense right now",
+  "gap": "What does \"It\" point to: the trip, the feeling, the situation?",
+  "id": "L3",
+  "status": "drop",
+  "note": "what they're feeling right now, the script's subject; plain"
+ },
+ {
+  "sentence": 3,
+  "quote": "we can sort out the rest of your life tomorrow",
+  "gap": "Which part of their life is meant, and why bring it up here: is it because they may be fretting about big decisions during the trip?",
+  "id": "L4",
+  "status": "drop",
+  "note": "the reader's own reading is right: big decisions wait until tomorrow (No Rash Actions: Visions Are Not Commands)"
+ },
+ {
+  "sentence": 4,
+  "quote": "brought this on",
+  "gap": "What does \"this\" point to: the whole bad trip, or some separate state? And how can meditation or fasting cause a trip-like state at all?",
+  "id": "L5",
+  "status": "drop",
+  "note": "the state the section is about; the guide's opening and Why Bad Trips Tend to Happen name practices like these among the causes"
+ },
+ {
+  "sentence": 4,
+  "quote": "have them stop now",
+  "gap": "Stop what exactly: the practice mid-session, the fasting (eating again)? What is the instruction for?",
+  "id": "L6",
+  "status": "drop",
+  "note": "the practice the sentence names, meditation or fasting; eating again is the next sentence"
+ },
+ {
+  "sentence": 4,
+  "quote": "doing more of it only makes this stronger",
+  "gap": "What is \"this\" here, and how does doing more of the practice make it stronger?",
+  "id": "L7",
+  "status": "drop",
+  "note": "the state they're in; the reason is the sentence's own ('more of it only makes this stronger')"
+ },
+ {
+  "sentence": 5,
+  "quote": "Nobody can say how long it'll last",
+  "gap": "What does \"it\" point to, and why am I told this right after being told to say it'll pass and ease off? Is it something I say to them or something for me to know?",
+  "id": "L8",
+  "status": "drop",
+  "note": "the helper's paragraph, not the script: in the guide the script is a quote block; it says why the practice case needs its own care"
+ },
+ {
+  "sentence": 5,
+  "quote": "with no drug wearing off on a schedule",
+  "gap": "What is this clause answering, and how does it fit the case in S4 where no drug was involved?",
+  "id": "L9",
+  "status": "drop",
+  "note": "it is the practice case's: no drug, so no schedule to count on"
+ },
+ {
+  "sentence": 6,
+  "quote": "So look after their body in the meantime",
+  "gap": "What does \"So\" follow from: not knowing how long it lasts? And \"meantime\" means until what?",
+  "id": "L10",
+  "status": "drop",
+  "note": "'So' follows from not knowing how long it lasts; 'in the meantime' is while it lasts"
+ },
+ {
+  "sentence": 6,
+  "quote": "once they're alert and not throwing up",
+  "gap": "Why that condition: what goes wrong if they eat while not alert or while vomiting, and what does \"alert\" mean here?",
+  "id": "L11",
+  "status": "drop",
+  "note": "the guide's own condition for food and fluids (its medical part: 'only when fully alert and not vomiting'), so they don't choke"
+ },
+ {
+  "sentence": 6,
+  "quote": "help it calm down",
+  "gap": "What is \"it\": the trip, their body, their mood? And how do food and warmth do that?",
+  "id": "L12",
+  "status": "drop",
+  "note": "their body, named just before the colon"
+ },
+ {
+  "sentence": 6,
+  "quote": "especially after fasting",
+  "gap": "Why does fasting make food matter more, and does this link back to the fasting in S4?",
+  "id": "L13",
+  "status": "drop",
+  "note": "yes, the fasting of the sentence before: a fasted body needs food"
+ }
+]
