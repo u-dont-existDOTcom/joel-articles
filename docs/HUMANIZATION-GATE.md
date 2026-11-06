@@ -2871,8 +2871,8 @@ was what we were supposed to do already prior".
 
 ## What his message of 2026-11-06 20:17 UTC taught (the neuro de-armoring lane)
 
-(E378 is taken twice already, in the open pull requests 308 and 316, both of which name E379 as next. This lesson is
-E380, so neither of them has to renumber.)
+(E378 is the bad trips lane's, just above (pull request 316). The gut lane's open pull request 308 uses E378 and E379
+too; this lesson is E380, so 308 needs only to renumber its E378 to E379 and its E379 to E381.)
 
 - **E380. A citation missing from his version is not assumed cut on purpose: put it back where something still rests
   on it, and ask him when unsure.** His paragraph of 19:40 UTC replaced the dynorphin paragraph and, at his word,
@@ -2889,8 +2889,10 @@ E380, so neither of them has to renumber.)
   or the question goes to him. Enforced: `fidelity_keys.py check` fails an owner_changes entry that loses a year (a
   citation's, most often) unless its `citations_lost` says what each was and why it is out, starting "he said:", "on
   his card:" or "the claim is gone:". The one older entry it caught (card DFB-1, Vialou 2010) now says its reason.
+  It is E378's other side: a sentence he left standing is not a decision to keep it, and a citation he left out is not
+  a decision to cut it.
 
-(E380 is the neuro de-armoring lane's. The next lesson in any lane is E381; E378 and E379 are 308's and 316's.)
+(E380 is the neuro de-armoring lane's. The next lesson in any lane is E381, after E379, which 308 can take.)
 
 
 ## What turn 100's API checks showed (the Inner Child lane, 2026-10-23)
