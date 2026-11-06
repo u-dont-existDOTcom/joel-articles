@@ -18,6 +18,11 @@ From an account with Desktop Commander connected to the laptop: "Continue my neu
 
 ## START HERE
 
+- **2026-11-06, after his message of 23:01 UTC: his block 20 in; round 3 (his moves, by me) all AI
+  (`fix-20261106/p3/RESULTS.md`).** HUMANIZED-SO-FAR.md has his block 20 and round P1's A section. Next: the tell
+  panel on block 42's try (`fix-20261106/p3/B042e.txt`, ready, with its receipt), then a causally different approach for
+  the rest: smaller edits that keep the post's own wording where it read better and change only the places that need a
+  link or a plain word, the way his version changed only a few places of my draft.
 - **2026-11-06, round 2 (after 22:23 UTC): third tries after the tell panel and section B's first tries all read AI
   (`fix-20261106/p1/RESULTS-r2.md`).** Next, by the panel's rule: Codex as the other-family writer
   (`tools/humanization/tell_panel.py rewrite-prompt`, with his own lines as voice examples), once the desktop app's
