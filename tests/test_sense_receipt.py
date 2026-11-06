@@ -22,6 +22,8 @@ def filled(text=TEXT, his='', whose='his own: a test line he wrote into the guid
         if not x.get('his'):
             x['payoff'] = 'they know not to count on the gel during a seizure'
             x['follows'] = 'continues the CBD paragraph before it'
+            if 'link' in x:
+                x['link'] = 'none: each sentence is a new fact the reader expects after the first'
     r['placement'] = 'after the cannabis paragraphs, because it carries on from CBD taken other ways'
     r['opens']['why_reading'] = 'they learn up front that the gel is not something to count on for them'
     r['same_point'] = 'none: read the Active Seizure section from its heading to the next for topical CBD'
@@ -169,3 +171,31 @@ class Paragraph(unittest.TestCase):
         self.assertEqual(R.check(TEXT, r), [])
         r['made'] = '2026-11-07'
         self.assertTrue(any(p.startswith('opens:') for p in R.check(TEXT, r)))
+
+
+class Link(unittest.TestCase):
+    """Gate neuro-2026-11-06b (Joel, 2026-11-06 23:01 UTC: "it was not giving the payoff at the start, i told you this a
+    million times"; his "One reason to think about, is that ..." and "So to address that, I've designed ...")."""
+    TEXT = ('Have you done years of CBT and still freeze up at the same triggers? Standard therapy rewrites the code while '
+            'the motherboard is damaged.')
+
+    def receipt(self, link):
+        r = filled(self.TEXT)
+        r['sentences'][1]['link'] = link
+        return r
+
+    def test_make_asks_for_a_link_after_the_first_sentence(self):
+        r = R.make(self.TEXT, 'S', READER)
+        self.assertNotIn('link', r['sentences'][0])
+        self.assertEqual(r['sentences'][1]['link'], '')
+
+    def test_the_link_must_be_words_in_the_sentence(self):
+        self.assertTrue(any(p.startswith('link for') for p in R.check(self.TEXT, self.receipt('One reason to think about'))))
+        self.assertTrue(any(p.startswith('link for') for p in R.check(self.TEXT, self.receipt(''))))
+        self.assertTrue(any(p.startswith('link for') for p in R.check(self.TEXT, self.receipt('none: no'))))
+
+    def test_his_kind_of_link_passes(self):
+        text = self.TEXT.replace('Standard therapy rewrites', 'One reason to think about, is that standard therapy rewrites')
+        r = filled(text)
+        r['sentences'][1]['link'] = 'One reason to think about, is that'
+        self.assertEqual(R.check(text, r), [])

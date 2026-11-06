@@ -387,6 +387,8 @@ class SenseGate(unittest.TestCase):
             for x in r['sentences']:
                 x['payoff'] = 'tells the helper what to do next'
                 x['follows'] = 'continues the step before'
+                if 'link' in x:
+                    x['link'] = 'none: each step is the next one the helper expects'
             r['placement'] = 'after the first-aid paragraph, which it continues'
             r['opens']['why_reading'] = 'the helper learns what to do in the first minute of the seizure'
             r['same_point'] = 'none: read the Active Seizure section from its heading to the next for these steps'

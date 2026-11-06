@@ -1,0 +1,68 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-06",
+ "text_sha256": "8cba2a7fe98f1f8e780097e732de67e74da3e0c2545b453c5bf63db901f6a635",
+ "text": "The Anti-Breakthrough (Micro-Dosing): Have long therapy sessions ever left you wrecked for days? That's because, as Dr. Perry found, the \"therapeutic window\" for a dysregulated brain is often only seconds long, and a sensitized, armored nervous system just can't take in sixty minutes of trauma processing. So for now, the \"hour-long breakthrough\" has to wait.\n\nInstead, the goal is Micro-Dosing Safety: 30 seconds of regulated breathing, twenty times a day. Think of it more as physical therapy for a broken nervous system than as running a marathon, where how often you do it matters more than how hard you push.",
+ "section": "Psychology is the Software; Biology is the Hardware.",
+ "reader": "someone with trauma, often with addiction, who has done therapy and still reacts the same way, reading to learn why and whether this protocol is for them",
+ "sentences": [
+  {
+   "s": "The Anti-Breakthrough (Micro-Dosing): Have long therapy sessions ever left you wrecked for days?",
+   "payoff": "they ask themselves whether sessions have wrecked them",
+   "follows": "moves from the protocol to the therapy part"
+  },
+  {
+   "s": "That's because, as Dr. Perry found, the \"therapeutic window\" for a dysregulated brain is often only seconds long, and a sensitized, armored nervous system just can't take in sixty minutes of trauma processing.",
+   "payoff": "they learn why: a window of seconds",
+   "follows": "answers the question",
+   "link": "That's because"
+  },
+  {
+   "s": "So for now, the \"hour-long breakthrough\" has to wait.",
+   "payoff": "they learn what to drop for now",
+   "follows": "says what follows",
+   "link": "So for now"
+  },
+  {
+   "s": "Instead, the goal is Micro-Dosing Safety: 30 seconds of regulated breathing, twenty times a day.",
+   "payoff": "they get the practice itself",
+   "follows": "says what to do instead of the hour",
+   "link": "Instead"
+  },
+  {
+   "s": "Think of it more as physical therapy for a broken nervous system than as running a marathon, where how often you do it matters more than how hard you push.",
+   "payoff": "they learn to judge it by how often",
+   "follows": "tells them how to hold the practice",
+   "link": "Think of it"
+  }
+ ],
+ "checked": [],
+ "placement": "where the block is now (block 27); its place in its section is unchanged; where the block is now (block 28); its place in its section is unchanged",
+ "opens": {
+  "first_sentence": "The Anti-Breakthrough (Micro-Dosing): Have long therapy sessions ever left you wrecked for days?",
+  "why_reading": "a question that asks the reader about their own sessions"
+ },
+ "same_point": "none: read the section from its heading to Part 1 for the dose point; the next paragraph gives the practice | none: read the section from its heading to Part 1 for the practice; it is said here only",
+ "questions": {
+  "Q1": "PASS: read sentence by sentence against this reader",
+  "Q2": "PASS: read sentence by sentence against this reader",
+  "Q3": "PASS: read sentence by sentence against this reader",
+  "Q4": "PASS: read sentence by sentence against this reader",
+  "Q5": "PASS: read sentence by sentence against this reader",
+  "Q6": "PASS: read sentence by sentence against this reader",
+  "Q7": "PASS: read sentence by sentence against this reader",
+  "Q8": "PASS: read sentence by sentence against this reader",
+  "Q9": "PASS: read sentence by sentence against this reader"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

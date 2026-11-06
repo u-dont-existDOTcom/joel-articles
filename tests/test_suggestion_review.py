@@ -347,6 +347,8 @@ class ReceiptTests(unittest.TestCase):
         r = sense_receipt.make(text, 'Active Seizure', 'someone with a person having a seizure from MDMA, which is generalized')
         for x in r['sentences']:
             x['payoff'], x['follows'] = 'tells the helper what to do', 'the next step after the one before'
+            if 'link' in x:
+                x['link'] = 'none: each step is the next one the helper expects'
         r['placement'] = 'first in the section, which it opens'
         r['opens']['why_reading'] = 'the helper learns the first thing to do while the seizure is on'
         r['same_point'] = 'none: read the Active Seizure section from its heading to the next for timing and the side'
