@@ -1,0 +1,162 @@
+[
+ {
+  "sentence": 1,
+  "quote": "The triage app gives the order.",
+  "gap": "What triage app? Nothing before this mentions one: what is it, and where do I find it? What does \"triage\" mean? And the order of what: which problems to handle first?",
+  "id": "L1",
+  "status": "drop",
+  "note": "the guide names and links the triage app in its very first line (\"Quick Triage Web-App Version HERE\"), and the section links it where it names it"
+ },
+ {
+  "sentence": 4,
+  "quote": "pacing can help",
+  "gap": "Help with what, calming them down? How does walking back and forth do that?",
+  "id": "L2",
+  "status": "drop",
+  "note": "his dangers paragraph, unchanged here; it read Human alone in round 5, and its acts are what matter in the first five minutes; why each danger matters is the guide's urgent-help list before this section (\"Get urgent help when somebody may harm themselves or another person ...\")"
+ },
+ {
+  "sentence": 4,
+  "quote": "keep them from taking more of any substance",
+  "gap": "Which substances: more of the same drug, a different one, alcohol? Does a medicine, or a joint someone offers to calm them down, count too?",
+  "id": "L3",
+  "status": "drop",
+  "note": "his dangers paragraph, unchanged here; it read Human alone in round 5, and its acts are what matter in the first five minutes; why each danger matters is the guide's urgent-help list before this section (\"Get urgent help when somebody may harm themselves or another person ...\")"
+ },
+ {
+  "sentence": 7,
+  "quote": "keep the person away from crowds and strangers",
+  "gap": "Why strangers: is the danger to the person, or to the strangers? Or is it that a crowd would overwhelm them?",
+  "id": "L4",
+  "status": "drop",
+  "note": "his dangers paragraph, unchanged here; it read Human alone in round 5, and its acts are what matter in the first five minutes; why each danger matters is the guide's urgent-help list before this section (\"Get urgent help when somebody may harm themselves or another person ...\")"
+ },
+ {
+  "sentence": 14,
+  "quote": "They're feeling overwhelmed, so dim the lights",
+  "gap": "Is that always so, or only when I found those problems in the room? And the fixes cover only the light and the people: do I also fix the music, the touching, the heat or cold, the bathroom I just checked?",
+  "id": "L5",
+  "status": "drop",
+  "note": "the paragraph before lists what to look for, and these are the fixes for what the reader finds there that need doing now; the obvious ones (turn the music off, stop the touching) need no line, and the rest are in the guide's own sections further on (the Do list, Touch, Consent, and Compassion)"
+ },
+ {
+  "sentence": 14,
+  "quote": "clear out the extra people around them",
+  "gap": "Extra beyond whom? Who should stay: just me, or someone they trust?",
+  "id": "L6",
+  "status": "drop",
+  "note": "the section's last paragraph points to the next two sections, and Get One Human Anchor says who stays (\"Use one calm human anchor as the lead\")"
+ },
+ {
+  "sentence": 15,
+  "quote": "Give them ordinary reality",
+  "gap": "Why tell them what they surely know: where they are, the date, what they took? Do people on a bad trip lose track of these, and how does hearing them help?",
+  "id": "L7",
+  "answer": "since a trip can make them lose track of it",
+  "raised": "remind them where they are and what's happening"
+ },
+ {
+  "sentence": 18,
+  "quote": "rise, peak, and change",
+  "gap": "Change into what: do the effects wear off, or turn into something else?",
+  "id": "L8",
+  "status": "drop",
+  "note": "\"change\" is the original's word and what the person needs to hear, that this won't stay as it is; the draft's next line says it will pass"
+ },
+ {
+  "sentence": 21,
+  "quote": "When the state came from meditation, breathwork, fasting, kundalini-style practice, extreme stretching, ritual, or a retreat",
+  "gap": "What \"state\"? Until now this was about someone on a drug. How can meditation, fasting, stretching, a ritual or a retreat put someone in a crisis like this? I thought meditation calmed people down.",
+  "id": "L9",
+  "status": "drop",
+  "note": "the draft no longer names breathwork: its examples are meditation and fasting"
+ },
+ {
+  "sentence": 21,
+  "quote": "breathwork",
+  "gap": "What is breathwork: ordinary deep breathing, or something stronger? Deep breathing sounds calming, so which kind is meant?",
+  "id": "L10",
+  "status": "drop",
+  "note": "the draft no longer names breathwork: its examples are meditation and fasting"
+ },
+ {
+  "sentence": 21,
+  "quote": "kundalini-style practice",
+  "gap": "What is kundalini, and what does a \"kundalini-style\" practice involve?",
+  "id": "L11",
+  "status": "drop",
+  "note": "the draft no longer names kundalini: its examples are meditation and fasting"
+ },
+ {
+  "sentence": 21,
+  "quote": "say: I am in an intense state.",
+  "gap": "Who says this, and to whom? The lines before were for me to say to them; these are in \"I\". Does the person in the state say them to themselves, or do I get them to? And do they replace the earlier lines or come after them?",
+  "id": "L12",
+  "answer": "the person can say",
+  "raised": "If the state came from a practice"
+ },
+ {
+  "sentence": 24,
+  "quote": "From there, choose",
+  "gap": "From where: after the meditation lines only, or after everything above, for a drug trip too? And who chooses, me or the person in the state?",
+  "id": "L13",
+  "answer": "Then help them pick",
+  "raised": "Then help them pick"
+ },
+ {
+  "sentence": 24,
+  "quote": "one safe body experiment",
+  "gap": "What is a \"body experiment\"? The next sections are promised, but right now an \"experiment\" on the body of someone in a crisis sounds risky: what sort of thing is it, even roughly?",
+  "id": "L14",
+  "answer": "one safe thing to try with their body",
+  "raised": "Then help them pick"
+ },
+ {
+  "sentence": 26,
+  "quote": "Protect sleep",
+  "gap": "Protect it how: make sure they get to sleep tonight, or keep anyone from waking them? And why is sleep here, in the first five minutes, after the section already sent me on to the next ones?",
+  "id": "L15",
+  "status": "drop",
+  "note": "why sleep matters most when someone is euphoric or grandiose is the guide's section When the Trip Feels Amazing: Euphoric Certainty; here it is the one line that keeps sleep in the first night's plan"
+ },
+ {
+  "sentence": 26,
+  "quote": "especially when the person is euphoric or grandiose",
+  "gap": "Why especially then? A happy person seems like the one to worry about least: what does losing sleep risk for them?",
+  "id": "L16",
+  "status": "drop",
+  "note": "why sleep matters most when someone is euphoric or grandiose is the guide's section When the Trip Feels Amazing: Euphoric Certainty; here it is the one line that keeps sleep in the first night's plan"
+ },
+ {
+  "sentence": 26,
+  "quote": "let meaning wait until the nervous system has somewhere to stand",
+  "gap": "The meaning of what: the trip, the revelation? What does it mean for the nervous system to \"have somewhere to stand\", and how would I know when it does? What goes wrong if meaning doesn't wait?",
+  "id": "L17",
+  "answer": "leave what it all meant until they've slept",
+  "raised": "leave what it all meant"
+ },
+ {
+  "sentence": 27,
+  "quote": "a less predictable clock than a substance",
+  "gap": "Nothing here told me a substance's clock: how long does a drug's effect usually last, that a non-drug state would be less predictable?",
+  "id": "L18",
+  "answer": "no drug wearing off on a schedule, so there's no telling how long it will last",
+  "raised": "A state from a practice"
+ },
+ {
+  "sentence": 28,
+  "quote": "eat something ordinary when safe",
+  "gap": "When is eating not safe? What counts as \"ordinary\" food, and how does eating help?",
+  "id": "L19",
+  "answer": "Once they can eat safely, food and warmth help their body settle.",
+  "raised": "Once they can eat safely"
+ },
+ {
+  "sentence": 29,
+  "quote": "An open portal does not obligate you to keep pushing through it.",
+  "gap": "What is the \"open portal\": the state itself? A doorway to what? And what is \"pushing through it\": carrying on with the practice? Why would anyone feel they have to?",
+  "id": "L20",
+  "status": "drop",
+  "note": "the draft cuts the portal line: one of the quips his standing order covers (\"so many ai quips, we gotta remove or humanize those\")"
+ }
+]
