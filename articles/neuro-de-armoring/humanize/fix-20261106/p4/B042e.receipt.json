@@ -1,0 +1,56 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-06",
+ "text_sha256": "70fa3e13c1e32afb500dd7bb89043b4eff8e0cdf31c757ce90060dc2e5de6965",
+ "text": "The Repair (Leucine/L-Serine): L-Serine is what the brain makes D-Serine from, so it can help recalibrate the GluD \"Volume Dial\" and make therapy sessions that end with low fear and a sense of mastery stick better. The conversion isn't very efficient though, so some people take D-serine itself instead (more risk, but also more benefit). And we use Leucine for structural repair, since it also tunes synaptic gain, which eases the \"itchy brain\" feeling.",
+ "section": "B. The \"Overheating\" CPU: Glutamate Excitotoxicity",
+ "reader": "someone with trauma or in withdrawal who is anxious, wired, ruminating or raging, wanting to know what is going on in the brain and which of the protocol's tools does what",
+ "sentences": [
+  {
+   "s": "The Repair (Leucine/L-Serine): L-Serine is what the brain makes D-Serine from, so it can help recalibrate the GluD \"Volume Dial\" and make therapy sessions that end with low fear and a sense of mastery stick better.",
+   "payoff": "they learn what L-Serine does for their sessions",
+   "follows": "names the third tool after the Vacuum and the Lock"
+  },
+  {
+   "s": "The conversion isn't very efficient though, so some people take D-serine itself instead (more risk, but also more benefit).",
+   "payoff": "they learn its limit and why some take D-serine",
+   "follows": "gives the limit of the first part",
+   "link": "though, so"
+  },
+  {
+   "s": "And we use Leucine for structural repair, since it also tunes synaptic gain, which eases the \"itchy brain\" feeling.",
+   "payoff": "they learn what leucine does for them",
+   "follows": "turns to the other half of the Repair",
+   "link": "And we use Leucine"
+  }
+ ],
+ "checked": [],
+ "placement": "where the block is now (block 42); its place in its section is unchanged",
+ "opens": {
+  "first_sentence": "The Repair (Leucine/L-Serine): L-Serine is what the brain makes D-Serine from, so it can help recalibrate the GluD \"Volume Dial\" and make therapy sessions that end with low fear and a sense of mastery stick better.",
+  "why_reading": "it says what the Repair does for the reader's sessions; its first sentence read Human, High"
+ },
+ "same_point": "none: read section B from its heading to C for the point; it is said here only",
+ "questions": {
+  "Q1": "PASS: read sentence by sentence against this reader",
+  "Q2": "PASS: read sentence by sentence against this reader",
+  "Q3": "PASS: read sentence by sentence against this reader",
+  "Q4": "PASS: read sentence by sentence against this reader",
+  "Q5": "PASS: read sentence by sentence against this reader",
+  "Q6": "PASS: read sentence by sentence against this reader",
+  "Q7": "PASS: read sentence by sentence against this reader",
+  "Q8": "PASS: read sentence by sentence against this reader",
+  "Q9": "PASS: read sentence by sentence against this reader"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

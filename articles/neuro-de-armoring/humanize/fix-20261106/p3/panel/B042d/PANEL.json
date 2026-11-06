@@ -1,0 +1,42 @@
+{
+ "readers": [
+  "haiku",
+  "sonnet"
+ ],
+ "sentences": [
+  "The Repair (Leucine/L-Serine): L-Serine is what the brain makes D-Serine from, so it can help recalibrate the GluD \"Volume Dial\" and make therapy sessions that end with low fear and a sense of mastery stick better.",
+  "The catch is that the conversion is inefficient, which is why some people take D-serine itself instead (higher risk, but also higher benefit).",
+  "And Leucine is there for structural repair, while it also tunes synaptic gain, which is what eases the \"itchy brain\" feeling."
+ ],
+ "flagged": {
+  "1": [
+   "haiku",
+   "sonnet"
+  ],
+  "2": [
+   "haiku",
+   "sonnet"
+  ],
+  "3": [
+   "haiku",
+   "sonnet"
+  ]
+ },
+ "agreed": [
+  1,
+  2,
+  3
+ ],
+ "whole": {
+  "haiku": [
+   "Each sentence adds one clean point and connects to the next with a smooth link, so the paragraph moves in even, well-paced steps. The consistent balance of trade-offs and double functions makes it read as composed to a template."
+  ],
+  "sonnet": [
+   "The paragraph is built as a three-part supplement entry (a labelled header, the first compound, a caveat, then the second compound), with each sentence carrying exactly one tidy function. Its rhythm is even and explanatory, with connectives like \"so\", \"which is why\" and \"while\" doing steady, uniform linking."
+  ]
+ },
+ "human_clean": [
+  "itchy brain",
+  "itchy brain"
+ ]
+}
