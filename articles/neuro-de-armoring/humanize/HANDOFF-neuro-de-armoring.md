@@ -18,6 +18,13 @@ From an account with Desktop Commander connected to the laptop: "Continue my neu
 
 ## START HERE
 
+- **2026-11-06, his answers of 16:35 UTC on the separate lane's DeltaFosB cards: his three versions in (including the
+  loop sentence, which is the point I had missed); his schema idea checked and it holds, as blocked updating rather
+  than cementing (question 10); the dynorphin paragraph to him after two AI tries.** HUMANIZED-SO-FAR.md as
+  `fix-20261106/APPLIED-DFB.json` says. Two of this session's outputs were cut by the safety layer before any article
+  content was written, so UDA's `patterns/safety-layer-cuts.md` applies: placed edits by block id, article passages out
+  of replies, cuts recorded rather than retried. AskRigor could not be used (its free contributor notice changed and
+  needs him). See the Next step.
 - **2026-11-05, his answers of 15:55 UTC: ATP-2 in (Human, High); the two ketone-strategy paragraphs to him on Cards, 5
   November (2) after three AI tries each; lessons E363 (another lane's answers: lessons only) and E364.** HUMANIZED-SO-FAR.md
   as `fix-20261105/APPLIED-X1105.json` says. See the Next step.
@@ -107,7 +114,24 @@ All of the article is his published post. His queue's rule: "Paragraphs that alr
 stay exactly as they are." Everything else is rewritten in his register and reaches him as cards, each tested first. The
 Scott passages, the introduction and the D-serine paragraph in Part 4 sound most like him.
 
-## Next step (2026-11-05, after his answers of 15:55 UTC)
+## Next step (2026-11-06, after his answers of 16:35 UTC on the DeltaFosB cards)
+
+Waiting on him: the one card on Neuro De-Armoring Cards, 6 November (`fix-20261106/cards/REVIEW-X1106A.md`, the
+dynorphin paragraph, his to write); questions 9 and 10 on the questions page; AskRigor's changed free contributor
+notice, which its research tools need him to accept; Neuro De-Armoring Cards, 5 November (2)
+(`fix-20261104/cards/REVIEW-X1105B.md`, the two ketone paragraphs); the extension's account switch for the whole check;
+and this turn's pull request.
+
+Next:
+1. His answer to question 10 decides whether the armor's mechanism in the article becomes blocked updating rather than
+   cementing (`fix-20261106/SCHEMA-CHECK.md`). Question 9 is the separate lane's, in its pull request 309, and they are
+   answered together.
+2. Pull request 309 (the separate DeltaFosB lane, `claude/neuro-deltafosb-20261105`) has no main merged into it and
+   changes shared files (`docs/HUMANIZATION-GATE.md`, `tools/`). Its `fix-20261105/deltafosb/` pass is the source
+   record for the four DeltaFosB cards and should reach main; reconcile it before this lane touches those files again.
+3. Then the older next step below, from 1.
+
+## Earlier next step (2026-11-05, after his answers of 15:55 UTC)
 
 Waiting on him: Neuro De-Armoring Cards, 5 November (2) (`fix-20261104/cards/REVIEW-X1105B.md`, the two ketone
 paragraphs), the extension's account switch for the whole check, and this turn's pull request.
@@ -386,7 +410,8 @@ Next:
    (`make_baseline.py` shows the form; lineages ND1102-NN), then read the results with
    `articles/inner-signal/humanize/fix-20261102/recheck/record_r1102.py --dir ... --ledger-file articles/neuro-de-armoring/humanize/pangram-ledger.jsonl`.
 3. **Cards for him**: a cards page per round (`suggestion_review.py`), every card showing the fidelity check's PASS and both
-   Pangram links; a questions page (`OWNER-QUESTIONS.md`, rendered with `render_questions.py` and the page title
+   Pangram links; a questions page (`OWNER-QUESTIONS.md`, rendered by the questions-page script in `tools/humanization` and the page title
    "Neuro De-Armoring Questions") when the first question comes.
 4. **Then his post**: his approved changes through the post's editor, the same way as the hypnosis guide
-   (`articles/inner-signal/humanize/fix-20261102/live/`; never the editor's paste), and the read-back from the public post.
+   (that lane's live-edit scripts under its `fix-20261102` folder; never the editor's paste), and the read-back from the
+   public post.

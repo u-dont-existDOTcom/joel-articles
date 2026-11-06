@@ -1,0 +1,101 @@
+{
+ "format": "joel-suggestion-review-answers-v1",
+ "review_id": "neuro-de-armoring-cards-20261105-x1105d",
+ "title": "Neuro De-Armoring Cards, 5 November (3): the DeltaFosB pass",
+ "git_file": "articles/neuro-de-armoring/humanize/fix-20261105/deltafosb/cards/REVIEW-X1105D.html",
+ "article": {
+  "file": "articles/neuro-de-armoring/humanize/HUMANIZED-SO-FAR.md",
+  "sha256": "ae8acc3a744e936f3ebc4379212dd902ce7473e54f9e7c788f98b5c2ec942403"
+ },
+ "built": "2026-11-05T23:15:58Z",
+ "generator": "suggestion_review.py 1.7 (2026-11-05)",
+ "exported_at": "2026-11-06T16:35:16.127Z",
+ "counts": {
+  "approved": 2,
+  "rejected": 0,
+  "revise": 2,
+  "pending": 0
+ },
+ "items": [
+  {
+   "id": "DFB-1",
+   "type": "source",
+   "title": "\"a protein switch that permanently alters gene expression ... (Vialou, et al, 2010)\"",
+   "where": "C. The \"Hardened\" Circuit: Dynorphin & DeltaFosB, P4",
+   "advice": "approve",
+   "status": "revise",
+   "your_version": "The Hardening: Chronic cycles lead to the accumulation of DeltaFosB, a protein switch that alters gene expression and holds the circuitry in place for weeks after the cycles stop ([Nestler, 2008](https://pmc.ncbi.nlm.nih.gov/articles/PMC2607320)). So the psychological trauma is reinforced biologically, which then reinforces the biology in a permanent loop until we make conscious efforts to break it from one or both ends. ",
+   "comment": "you didn't understand my point, and you already explained that you didn't understand it in the old lane, and now this new lane forgot what the old lane knew, so i'm pasting all this back into the old lane hopefully that will make sense idk",
+   "my_version": "The Hardening: Chronic cycles lead to the accumulation of DeltaFosB, a protein switch that alters gene expression and holds the circuitry in place for weeks after the cycles stop ([Nestler, 2008](https://pmc.ncbi.nlm.nih.gov/articles/PMC2607320)).",
+   "before": "The Hardening: Chronic cycles lead to the accumulation of DeltaFosB, a protein switch that permanently alters gene expression to cement the trauma circuitry (Vialou, et al, 2010).",
+   "history": [
+    {
+     "from": "pending",
+     "to": "revise",
+     "at": "2026-11-06T16:33:42.461Z"
+    }
+   ],
+   "updated": "2026-11-06T16:34:58.441Z"
+  },
+  {
+   "id": "DFB-2",
+   "type": "add",
+   "title": "Dynorphin and DeltaFosB read as partners here, and they aren't",
+   "where": "C. The \"Hardened\" Circuit: Dynorphin & DeltaFosB, P1",
+   "advice": "approve",
+   "status": "revise",
+   "your_version": "The Problem: To protect itself from the Glutamate storm, the brain eventually releases Dynorphin, a chemical blanket that suppresses dopamine. This creates the \"Void\"--a state of apathy, grayness, and an inability to feel pleasure. ",
+   "comment": "you've added something here but now it's not really clear what is doing what for the reader. \"the two aren't one mechanism\" doesn't give useful info, are you able to understand that? what do we need to know? make it all make sense",
+   "my_version": "The Problem: To protect itself from the Glutamate storm, the brain eventually releases Dynorphin, a chemical blanket that suppresses dopamine. This creates the \"Void\"--a state of apathy, grayness, and an inability to feel pleasure. The two aren't one mechanism, though: DeltaFosB accumulates inside the dynorphin neurons themselves, and what it does there is turn dynorphin down, not up ([Zachariou, et al, 2006](https://pubmed.ncbi.nlm.nih.gov/16415864/)).",
+   "before": "The Problem: To protect itself from the Glutamate storm, the brain eventually releases Dynorphin, a chemical blanket that suppresses dopamine. This creates the \"Void\"--a state of apathy, grayness, and an inability to feel pleasure.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "revise",
+     "at": "2026-11-06T16:33:15.669Z"
+    }
+   ],
+   "updated": "2026-11-06T16:33:18.431Z"
+  },
+  {
+   "id": "DFB-3",
+   "type": "source",
+   "title": "\"the exact cocktail of catecholamines that transcribes new DeltaFosB proteins\"",
+   "where": "A. The Metabolic Red Line, P2",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "In this state, functional IQ drops substantially. More importantly, this state floods the Nucleus Accumbens with the catecholamines that transcribe new DeltaFosB proteins (the \"armor\"). The Takeaway: If you attempt to process trauma while living above this red line, you are not de-armoring; you are actively re-enforcing the armor.",
+   "before": "In this state, functional IQ drops substantially. More importantly, this state floods the Nucleus Accumbens with the exact cocktail of catecholamines that transcribes new DeltaFosB proteins (the \"armor\"). The Takeaway: If you attempt to process trauma while living above this red line, you are not de-armoring; you are actively re-enforcing the armor.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-06T16:31:06.499Z"
+    }
+   ],
+   "updated": "2026-11-06T16:31:06.499Z"
+  },
+  {
+   "id": "DFB-4",
+   "type": "source",
+   "title": "\"Week 8+: The BaselineState: DeltaFosB degraded.\"",
+   "where": "Part 5: THE TIMELINE (The 8-Week Path), P18",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "Week 8+: The BaselineState: DeltaFosB degraded, if the animal timelines carry over. Hardware reset complete.",
+   "before": "Week 8+: The BaselineState: DeltaFosB degraded. Hardware reset complete.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-06T16:35:12.591Z"
+    }
+   ],
+   "updated": "2026-11-06T16:35:12.591Z"
+  }
+ ]
+}

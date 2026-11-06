@@ -1,8 +1,9 @@
 # Neuro de-armoring: what I need from Joel
 
-Last updated 2026-11-04, after your message of 20:19 UTC ("so then are we done can we publish it?").
-**Open questions: 0.** **For you to do**: switch your Pangram extension to your other account, edit two stretches, and
-merge the pull request (below).
+Last updated 2026-11-06, after your answers of 16:35 UTC on the DeltaFosB cards.
+**Open questions: 2** (9 and 10, both about what the article argues, not about wording). **For you to do**: answer the
+dynorphin card, accept AskRigor's new notice, switch your Pangram extension to your other account, edit two stretches,
+and merge the pull request (below).
 Colours: 🟣 a question for you; 🟠 something for you to do; 🔵 next or in progress; 🟢 done or decided.
 
 The master copy of this page is [this file in Git](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/OWNER-QUESTIONS.md), so a session in either of your accounts
@@ -10,10 +11,26 @@ can read and update it. Every file it points to is a link.
 
 ## Open questions
 
-None.
+- 🟣 **9. Is DeltaFosB the article's armor at all?** Raised by the separate DeltaFosB lane, whose pass is
+  [here](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/neuro-deltafosb-20261105/articles/neuro-de-armoring/humanize/fix-20261105/deltafosb/DELTAFOSB-CHECK.md)
+  (its pull request is 309, not merged). Three ways to go: keep the frame and re-source it from the addiction
+  literature; narrow DeltaFosB to the addiction arm of the story; or follow the stress literature and flip the role.
+  Question 10 is a fourth way that came up after it, and I'd read them together.
+- 🟣 **10. Should the armor's mechanism become blocked updating rather than cementing?** From your schema point of
+  2026-11-05, checked this turn ([the pass, with its sources](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261106/SCHEMA-CHECK.md)).
+  Your idea holds up, with the mechanism running the other way round from "cementing": DeltaFosB piles up in the cells
+  that just fired and stops them switching on the gene they need to take part in new learning, and in one study that
+  pile-up in the amygdala and dentate gyrus went with mice that could not extinguish fear -- a threat belief that would
+  not update. That keeps your loop and puts "permanent" where you put it, on the loop. It is a bigger claim than the
+  article makes now and it rests on two rodent papers, one of them associational, so it is yours to decide. Nothing is
+  changed either way.
 
 ## For you to do
 
+- 🟠 Answer the one card on [Neuro De-Armoring Cards, 6 November](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261106/cards/REVIEW-X1106A.md):
+  DFB-2 again, done the way you asked.
+- 🟠 Accept AskRigor's free contributor notice, which changed. Its research tools refuse to run until you do, so this
+  turn's pass used PubMed and Europe PMC directly instead. I can't accept it for you.
 - 🟠 Switch the Pangram extension in Brave to your other account, and tell me. Its badge read "Daily limit reached" on
   the whole article's temporary draft ("Neuro de-armoring, draft A (temp, delete after)"). I'll open the preview again and
   read the result myself.

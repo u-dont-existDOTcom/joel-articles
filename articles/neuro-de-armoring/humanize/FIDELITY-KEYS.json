@@ -2367,6 +2367,16 @@
      ]
     ]
    }
+  },
+  {
+   "by": "fix-20261106/ANSWERS-X1105D-20261106-1635.json, card DFB-1 (his own version, 2026-11-06)",
+   "why": "his version replaces the Vialou 2010 citation, which said the opposite of the sentence, with Nestler 2008; the year moves with it",
+   "numbers_lost": [
+    "2010"
+   ],
+   "numbers_new": [
+    "2008"
+   ]
   }
  ],
  "warning_words": {

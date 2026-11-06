@@ -1,0 +1,23 @@
+# Neuro De-Armoring Cards, 6 November: the dynorphin paragraph: the card
+
+One card, and it is yours to write rather than mine to propose.
+Your other three DeltaFosB answers are already in the article as you wrote them, including the loop sentence. That one was the point I had missed, and it is the right form of it: the protein lasts weeks, the loop is what is permanent.
+Separately, I checked your schema idea. It holds up better than my "weeks, not permanent" allowed, and the mechanism runs the other way round from cementing: DeltaFosB piles up in the cells that just fired and stops them switching on the gene they need to learn anything new, and in one study that pile-up in the amygdala and dentate gyrus went with mice that could not extinguish fear. That is question 10 on the questions page rather than a card, because it changes what the article argues. [The pass is here](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261106/SCHEMA-CHECK.md).
+No compound, dose, unit, timing or warning is touched by any of this.
+
+## DFB-2b: The section names two things in its heading and only says what one of them does (Yours to write)
+
+*C. The "Hardened" Circuit: Dynorphin & DeltaFosB, P1*
+
+> The Problem: To protect itself from the Glutamate storm, the brain eventually releases Dynorphin, a chemical blanket that suppresses dopamine. This creates the "Void"--a state of apathy, grayness, and an inability to feel pleasure.
+
+**What changes:** Nothing, unless you write it. Your paragraph stays exactly as it is.
+
+**Why:** You were right that "the two aren't one mechanism" told the reader nothing -- it was a fact about the literature, not about them. What they need is which of the two is doing the gray they are in, and what it means when the gray lifts, because the obvious reading is that the gray lifting means the armor is off, and that is where someone stops early. I tried twice to add that in two sentences. Both read [AI Detected, 100% AI, one window at High](https://www.pangram.com/history/6e5452c4-3a59-480a-ae28-b9370928c6f5) and [again at High](https://www.pangram.com/history/3bd08080-1b34-43f9-be56-fbb5171d08de). The first tried to explain the article's own structure to the reader ("that is the state you are in now ... which is why the timeline gives them separate phases"); the second dropped the structure talk and ended on a concrete instruction, and read the same. So the shape is mine, not the vocabulary, and a third try from me isn't the thing to spend your page on.
+
+**What stays:** The whole paragraph, word for word -- dynorphin as the chemical blanket, the Void and its three signs. Nothing is cut, and nothing changes if you keep it as it is.
+
+**You're deciding:** Whether the reader is told here that dynorphin is the state and DeltaFosB is the slower setting under it, or whether that belongs later where the phases are, or not at all.
+
+**My ask:** If you do write it, the two things worth landing are that dynorphin is what makes the gray, and that the two don't clear together, so a better week isn't the armor coming off. One thing to keep off the page: in the opiate work DeltaFosB in the accumbens represses dynorphin rather than driving it ([Zachariou, et al, 2006](https://pubmed.ncbi.nlm.nih.gov/16415864/)), so they can't be written as one mechanism -- but that is opiate work, not trauma work, so the reverse isn't a claim to make either.
+
