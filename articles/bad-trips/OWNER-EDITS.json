@@ -425,6 +425,45 @@
    "must_contain_exact": [
     "Quick Triage Web-App Version HERE"
    ]
+  },
+  {
+   "id": "t19-anchor-committee-cut",
+   "status": "applied",
+   "what": "Get One Human Anchor's \"committee\" line cut: it says again the section's first paragraph (too many people crowding in make it worse); the paragraph ends on \"That is backup.\" (experiments/t19-anchor/apply_t19.py)",
+   "joel": "2026-11-06 19:43 UTC: \"i'd say make the cuts regardless of pangram if it makes the guide read better, that was what we were supposed to do already prior\"",
+   "must_not_contain": [
+    "A committee of frantic people rarely improves anyone's nervous system."
+   ],
+   "must_contain_exact": [
+    "bring in **one additional calm adult or crisis professional**. That is backup."
+   ]
+  },
+  {
+   "id": "t19-recruit-once",
+   "status": "applied",
+   "what": "The violence part's \"When you are the only helper and safety is slipping, recruit one additional calm adult or crisis professional.\" cut: Get One Human Anchor says it, violence among its cases; the paragraph opens on when to call crisis or emergency services (experiments/t19-anchor/apply_t19b.py)",
+   "joel": "2026-11-06 19:43 UTC: \"i'd say make the cuts regardless of pangram if it makes the guide read better, that was what we were supposed to do already prior\"",
+   "must_not_contain": [
+    "When you are the only helper and safety is slipping, recruit one additional calm adult or crisis professional."
+   ],
+   "must_contain_exact": [
+    "bring in **one additional calm adult or crisis professional**",
+    "Call crisis or emergency services for a specific target"
+   ]
+  },
+  {
+   "id": "t19-3am-movement-once",
+   "status": "applied",
+   "what": "Alone at 3 a.m.'s movement paragraph keeps only what Stillness or Movement? doesn't say: pacing, towels and a cup, and sitting or lying under a blanket when moving makes it worse are cut there; teeth, stretching, a calm shower, wall push-ups and \"Then protect sleep.\" stay (experiments/t19-anchor/apply_t19c.py)",
+   "joel": "2026-11-06 19:43 UTC: \"i'd say make the cuts regardless of pangram if it makes the guide read better, that was what we were supposed to do already prior\"",
+   "must_not_contain": [
+    "When movement makes you more frantic, sit with both feet against the floor or lie under a blanket.",
+    "pace the same hallway, fold towels, wash a cup"
+   ],
+   "must_contain_exact": [
+    "keep it contained and boring: brush your teeth, stretch gently, take a calm shower, or do a few slow wall push-ups. Then protect sleep.",
+    "When pacing begins to resemble escape, sit against a wall or lie under a blanket. The goal is to let the nervous system discharge without creating a new danger."
+   ]
   }
  ]
 }

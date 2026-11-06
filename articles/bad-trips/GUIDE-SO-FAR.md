@@ -377,7 +377,7 @@ A useful order is **room → body → human → time → meaning**. Most people 
 
 Many bad trips get worse because somebody is alone with a frightened or over-certain mind. Others get worse because too many people crowd in and start advising, arguing, spiritualizing, or panicking.
 
-Use **one calm human anchor as the lead**. When safety, fatigue, logistics, violence, or self-harm risk exceeds what one person can hold, bring in **one additional calm adult or crisis professional**. That is backup. A committee of frantic people rarely improves anyone's nervous system.
+Use **one calm human anchor as the lead**. When safety, fatigue, logistics, violence, or self-harm risk exceeds what one person can hold, bring in **one additional calm adult or crisis professional**. That is backup.
 
 ![](https://substack-post-media.s3.amazonaws.com/public/images/2b8889eb-85e8-466f-99af-f71e48caeb61_1122x1402.png)
 
@@ -419,7 +419,7 @@ The [triage app](https://ibogaqueen.com/1625-2/) has the stripped-down 3 a.m. pl
 
 Send the human-anchor script. When nobody is available, use Fireside during its coverage hours, TripSit for drug-related peer support, or Find A Helpline and a local crisis service for fear, despair, self-harm, or inability to stay safe.
 
-When the body still needs movement, keep it contained and boring: pace the same hallway, fold towels, wash a cup, brush your teeth, stretch gently, take a calm shower, or do a few slow wall push-ups. When movement makes you more frantic, sit with both feet against the floor or lie under a blanket. Then protect sleep.
+When the body still needs movement, keep it contained and boring: brush your teeth, stretch gently, take a calm shower, or do a few slow wall push-ups. Then protect sleep.
 
 ## For the Person Helping: Calm Anchor, Not Guru
 
@@ -461,7 +461,7 @@ Redirect within the person's value-world toward peace and protection, increase c
 
 When talk of harm continues, shift from philosophy to safety. Create distance from potential targets and keep your own exit. Don't block, crowd, threaten, mock, or physically wrestle away a weapon. Quietly remove means only when that can be done without confrontation or turning yourself into the target.
 
-When you are the only helper and safety is slipping, recruit one additional calm adult or crisis professional. Call crisis or emergency services for a specific target, available means, movement toward action, escalating agitation, a weapon, violence underway, or a situation you can't contain.
+Call crisis or emergency services for a specific target, available means, movement toward action, escalating agitation, a weapon, violence underway, or a situation you can't contain.
 
 Be brief and specific with emergency services: "Someone is in an altered-state or mental-health crisis, has threatened to harm others, may have access to [means if known], and needs a medical or mental-health crisis response with de-escalation support. Please send crisis-trained responders or EMS if available."
 

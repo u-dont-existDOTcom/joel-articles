@@ -1,0 +1,105 @@
+{
+ "readers": [
+  "codex",
+  "haiku",
+  "sonnet"
+ ],
+ "sentences": [
+  "Get One Human Anchor\n\nMany bad trips get worse because somebody is alone with a frightened or over-certain mind.",
+  "Others get worse because too many people crowd in and start advising, arguing, spiritualizing, or panicking.",
+  "Use one calm human anchor as the lead.",
+  "When safety, fatigue, logistics, violence, or self-harm risk exceeds what one person can hold, bring in one additional calm adult or crisis professional.",
+  "That is backup.",
+  "Script for the person in the altered state:\n\nI'm in an intense psychedelic or altered state and I need grounding.",
+  "I don't need you to solve my life.",
+  "Please stay with me, speak slowly, remind me where I am, and help me not make any big decisions until tomorrow.",
+  "Script for the sitter or friend:\n\nI'm here.",
+  "You're not alone.",
+  "This is a wave.",
+  "We don't have to solve your whole life right now.",
+  "Let's make your body safe, keep things simple, and stay together."
+ ],
+ "flagged": {
+  "1": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ],
+  "2": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ],
+  "3": [
+   "haiku",
+   "sonnet"
+  ],
+  "4": [
+   "codex",
+   "sonnet"
+  ],
+  "5": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ],
+  "6": [],
+  "7": [
+   "haiku",
+   "sonnet"
+  ],
+  "8": [
+   "sonnet"
+  ],
+  "9": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ],
+  "10": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ],
+  "11": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ],
+  "12": [
+   "haiku",
+   "sonnet"
+  ],
+  "13": [
+   "codex",
+   "haiku"
+  ]
+ },
+ "agreed": [
+  1,
+  2,
+  3,
+  4,
+  5,
+  7,
+  9,
+  10,
+  11,
+  12,
+  13
+ ],
+ "whole": {
+  "codex": [
+   "The passage moves through a very orderly sequence: contrasting problems, a central rule, an exception, and two coordinated scripts. Its consistently soothing, carefully balanced voice can read AI-polished, though these features cannot establish authorship."
+  ],
+  "haiku": [
+   "The paragraph is built in even triads and balanced pairs, with each sentence landing on a neat closing beat, so its rhythm feels evenly metered rather than uneven. Both scripts are polished to the same finish, which reads more like a generated brief than a voice speaking to one person."
+  ],
+  "sonnet": [
+   "The paragraph is built as a heading, a two-sided problem statement, a rule, and two scripts, with every sentence short and even and no digression, hesitation or personal detail. The voice is a uniform, authoritative help-sheet with no first-person experience or concrete scene behind it."
+  ]
+ },
+ "human_clean": [
+  "Script for the sitter or friend:"
+ ]
+}
