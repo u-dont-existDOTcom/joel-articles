@@ -1,0 +1,39 @@
+{
+ "readers": [
+  "haiku",
+  "sonnet"
+ ],
+ "sentences": [
+  "If you've done a lot of therapy and you're still reacting the same way, it might not be the therapy's fault.",
+  "That's because standard therapy tries to rewrite the \"code\" (your thoughts and behaviors), and if the \"motherboard\" (the brain's physical structure and chemistry) is overheating or damaged, the new code won't run very well.",
+  "So the science behind this protocol looks at four specific neuro-biological problems that must be addressed before psychological tools can really work."
+ ],
+ "flagged": {
+  "1": [
+   "haiku",
+   "sonnet"
+  ],
+  "2": [
+   "haiku",
+   "sonnet"
+  ],
+  "3": [
+   "haiku",
+   "sonnet"
+  ]
+ },
+ "agreed": [
+  1,
+  2,
+  3
+ ],
+ "whole": {
+  "haiku": [
+   "The paragraph is built as a neat three-beat explainer (premise, analogy, preview of the structure), and every sentence is balanced and fully explained, with no detail that only one person would know. Its voice stays even and didactic from start to finish."
+  ],
+  "sonnet": [
+   "Three sentences with an even rhythm, each doing one job in order: hook, analogy, roadmap. The voice is smooth and generic, with no specific detail, odd phrasing or personal stake."
+  ]
+ },
+ "human_clean": []
+}

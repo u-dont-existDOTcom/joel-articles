@@ -18,6 +18,11 @@ From an account with Desktop Commander connected to the laptop: "Continue my neu
 
 ## START HERE
 
+- **2026-11-06, round 2 (after 22:23 UTC): third tries after the tell panel and section B's first tries all read AI
+  (`fix-20261106/p1/RESULTS-r2.md`).** Next, by the panel's rule: Codex as the other-family writer
+  (`tools/humanization/tell_panel.py rewrite-prompt`, with his own lines as voice examples), once the desktop app's
+  shell is connected; or a causally different approach the method-switch rule names. Block 36 (a second "Metabolic Red
+  Line" paragraph in B) is a dedup card; block 37's "vibrating cells to death" is FACTS F-3.
 - **2026-11-06, round P1 after his "keep going": Part 1's opening and section A in (Human in their stretch); six
   paragraphs of "Psychology is the Software" read AI twice each (`fix-20261106/p1/RESULTS.md`).** HUMANIZED-SO-FAR.md
   003069ef. Next: the tell panel on blocks 20, 25, 26, 27 (`tools/humanization/tell_panel.py`), a third try from its
