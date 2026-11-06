@@ -215,6 +215,29 @@ class PasteSafeTests(unittest.TestCase):
         nospan = dict(ed, id='ED-3', spans=[])
         self.assertTrue(any('needs its spans' in p for p in R.check(dict(rv, suggestions=[nospan]), self.bl)))
 
+    def test_a_stretch_to_edit_is_for_his_own_words_only(self):
+        # gate E373, Joel 2026-11-06 17:30 UTC: "don't say 'those are your words so you need to fix it' -- your job is to do
+        # the fixing", and "'my words' for an AI article, are not my words, unless those were human before we started
+        # humanizing": round 10's one card asked him for his version of the guide's AI text, which he had humanized, as his
+        ed = {'id': 'ED-1', 'type': 'caveat', 'title': 'A stretch', 'advice': 'edit', 'why': 'It read AI.',
+              'advice_note': 'Keep it.', 'spans': [{'block': 7, 'start': 0, 'end': 8}], 'edits': [], 'inserts': [], 'moves': []}
+        rv = dict(review([ed]), built='2026-11-06')
+        self.assertTrue(any('only for what he wrote himself' in p for p in R.check(rv, self.bl)))
+        for whose in ('his own: the paragraph he wrote into section 3 (2026-10-20)', 'he asked: "let me edit that one" (2026-11-06)'):
+            self.assertEqual(R.check(dict(rv, suggestions=[dict(ed, whose=whose)]), self.bl), [])
+        self.assertTrue(R.check(dict(rv, suggestions=[dict(ed, whose='his round-8 version')]), self.bl))
+        # the words that handed it back: a card, a type or an introduction that calls the model's text his
+        ask = {'id': 'Q1', 'type': 'caveat', 'title': 'A line', 'advice': 'ask', 'question': 'Keep it?',
+               'why': 'Four of the sentences they agree on are yours.', 'spans': [{'block': 7, 'start': 0, 'end': 8}],
+               'edits': [], 'inserts': [], 'moves': []}
+        self.assertTrue(any('calls the text his' in p for p in R.check(dict(rv, suggestions=[ask]), self.bl)))
+        self.assertEqual(R.check(dict(rv, suggestions=[dict(ask, whose='his own: his line in the intro, 2026-10-20')]), self.bl), [])
+        plain = dict(ask, why='It read AI.')
+        self.assertEqual(R.check(dict(rv, suggestions=[plain]), self.bl), [])
+        self.assertTrue(R.check(dict(rv, suggestions=[plain], intro=['Your words read AI here.']), self.bl))
+        # pages built before the rule are left as they were
+        self.assertEqual(R.check(dict(rv, built='2026-11-05', suggestions=[ed]), self.bl), [])
+
     def test_a_pangram_card_carries_its_links(self):
         # 2026-11-02, Joel on the hypnosis guide's cards: "why are you not giving me the pangram link so i can see? always
         # give me the links", and "you didn't check if your changes passed.. they didn't. don't waste my time": a card

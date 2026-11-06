@@ -1,0 +1,5 @@
+S1 | "A lot of what looks like a deep psychedelic crisis is a scared person in a room that's getting on their nerves" | How does a room getting on someone's nerves end up looking like a deep crisis: does the drug make small annoyances feel much bigger than they would sober?
+S2 | "Switch the overhead light off and leave a lamp on." | What is this for: is bright light what bothers them, and if so, why leave a lamp on instead of making the room dark?
+S8 | "check whether they're too hot or too cold, or desperate for the bathroom" | Why do I have to check: wouldn't they tell me, or can someone who is tripping not notice these things, or not say them?
+S10 | "Songs can turn scary halfway through, so change any that do" | How does a song turn scary: is it something in the song itself, or the way the drug makes them hear it? And if it sounds fine to me, how do I tell it has turned scary for them?
+S11 | "Gulping water on a queasy stomach" | Why would their stomach be queasy: do these drugs make people feel sick?

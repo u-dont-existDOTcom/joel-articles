@@ -58,6 +58,14 @@ import re
 import sys
 
 SCHEMA = 'SENSE_RECEIPT_V1'
+# Gate E373 (Joel, 2026-11-06 17:30 UTC: "'my words' for an AI article, are not my words, unless those were human before we
+# started humanizing (i.e if i wrote that myself inside an ai article) otherwise it's AI words that i humanized"): from this
+# day a sentence is marked his only for what he wrote himself, and the receipt says so ("his_whose": "his own: ...")
+PROVENANCE_FROM = '2026-11-06'
+HIS_OWN = re.compile(r'^\s*his own\s*:\s*\S.{8,}', re.I | re.S)
+NOT_HIS = ('--his is only for what Joel wrote himself, before any humanizing: give --whose "his own: what and where". His '
+           'version of a model\'s text, and the published text of an article a model drafted, are AI words he humanized: '
+           'their sentences need a payoff and a follows like mine (gate E373)')
 QUESTIONS = {
     'Q1': 'Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each '
           'sentence and each paragraph; a study after the question it answers; a term explained where it is first used, '
@@ -128,10 +136,14 @@ def sentences(text):
     return [x for x in out if x]
 
 
-def make(text, section='', reader='', his_text=''):
+def make(text, section='', reader='', his_text='', whose=''):
     his = his_text or ''
-    return {
+    if his and not HIS_OWN.match(whose or ''):
+        raise ValueError(NOT_HIS)
+    import datetime
+    return dict({
         'schema': SCHEMA,
+        'made': datetime.datetime.now(datetime.timezone.utc).strftime('%Y-%m-%d'),
         'text_sha256': sha256(text),
         'text': text,
         'section': section,
@@ -142,7 +154,7 @@ def make(text, section='', reader='', his_text=''):
         'placement': '',
         'questions': {q: '' for q in QUESTIONS},
         'question_text': QUESTIONS,
-    }
+    }, **({'his_whose': whose} if his else {}))
 
 
 def check(text, receipt):
@@ -163,6 +175,10 @@ def check(text, receipt):
         p.append('sentences: the receipt must list the text\'s sentences in order (make writes them)%s%s' % (
             '; missing: ' + ' | '.join(m[:60] for m in missing[:3]) if missing else '',
             '; not in the text: ' + ' | '.join(e[:60] for e in extra[:3]) if extra else ''))
+    if any(x.get('his') for x in receipt.get('sentences', [])) and (receipt.get('made') or '') >= PROVENANCE_FROM \
+            and not HIS_OWN.match(receipt.get('his_whose') or ''):
+        p.append('sentences are marked his, but the receipt doesn\'t say they are what he wrote himself ("his_whose": '
+                 '"his own: what and where"). ' + NOT_HIS)
     mine = 0
     for x in receipt.get('sentences', []):
         if x.get('his'):
@@ -215,7 +231,9 @@ def main(argv=None):
     m.add_argument('text')
     m.add_argument('--section', default='')
     m.add_argument('--reader', default='')
-    m.add_argument('--his', help='a file of Joel\'s own text: its sentences in TEXT are marked his')
+    m.add_argument('--his', help='a file of what Joel wrote himself, before any humanizing: its sentences in TEXT are '
+                   'marked his (needs --whose; gate E373)')
+    m.add_argument('--whose', help='with --his: "his own: what he wrote, and where"')
     m.add_argument('--out', required=True)
     c = sub.add_parser('check')
     c.add_argument('text')
@@ -224,8 +242,12 @@ def main(argv=None):
     if a.cmd == 'make':
         text = pathlib.Path(a.text).read_text(encoding='utf-8').rstrip('\n')
         his = pathlib.Path(a.his).read_text(encoding='utf-8') if a.his else ''
-        pathlib.Path(a.out).write_text(json.dumps(make(text, a.section, a.reader, his), ensure_ascii=False, indent=1)
-                                       + '\n', encoding='utf-8')
+        try:
+            r = make(text, a.section, a.reader, his, a.whose or '')
+        except ValueError as e:
+            print('REFUSED: %s' % e, file=sys.stderr)
+            return 2
+        pathlib.Path(a.out).write_text(json.dumps(r, ensure_ascii=False, indent=1) + '\n', encoding='utf-8')
         print('receipt to fill: %s (%d sentences)' % (a.out, len(sentences(text))))
         return 0
     probs = check_files(a.text, a.receipt)

@@ -16,8 +16,8 @@ TEXT = ('As for topical CBD, it hasn\'t been well-studied. There was a short 12-
 READER = 'someone with a person having a seizure from MDMA or a psychedelic overdose, which is generalized'
 
 
-def filled(text=TEXT, his=''):
-    r = R.make(text, 'Active Seizure', READER, his)
+def filled(text=TEXT, his='', whose='his own: a test line he wrote into the guide'):
+    r = R.make(text, 'Active Seizure', READER, his, whose if his else '')
     for x in r['sentences']:
         if not x.get('his'):
             x['payoff'] = 'they know not to count on the gel during a seizure'
@@ -78,6 +78,29 @@ class Check(unittest.TestCase):
         r = filled(his=his)
         self.assertTrue(r['sentences'][0].get('his'))
         self.assertEqual(R.check(TEXT, r), [])
+
+    def test_only_what_he_wrote_himself_is_marked_his(self):
+        """Gate E373, Joel 2026-11-06 17:30 UTC: "'my words' for an AI article, are not my words, unless those were human
+        before we started humanizing ... otherwise it's AI words that i humanized". The room stretch's receipt had marked
+        his round-8 version of the guide's AI text his, so its sentences skipped the payoff and follows."""
+        his = 'As for topical CBD, it hasn\'t been well-studied.'
+        with self.assertRaises(ValueError):
+            R.make(TEXT, 'Active Seizure', READER, his, 'his round-8 version')
+        r = filled(his=his)
+        r['his_whose'] = 'his round-8 version'
+        self.assertTrue(any('marked his' in p and 'E373' in p for p in R.check(TEXT, r)))
+        r['made'] = '2026-11-05'   # a receipt made before the rule is read as it was
+        self.assertEqual(R.check(TEXT, r), [])
+        import io, contextlib, tempfile, os
+        with tempfile.TemporaryDirectory() as d:
+            tp, hp = os.path.join(d, 't.txt'), os.path.join(d, 'h.txt')
+            pathlib.Path(tp).write_text(TEXT, encoding='utf-8')
+            pathlib.Path(hp).write_text(his, encoding='utf-8')
+            with contextlib.redirect_stderr(io.StringIO()):
+                self.assertEqual(R.main(['make', tp, '--his', hp, '--out', os.path.join(d, 'r.json')]), 2)
+            with contextlib.redirect_stdout(io.StringIO()):
+                self.assertEqual(R.main(['make', tp, '--his', hp, '--whose', 'his own: his line of 2026-11-04, t04 answers',
+                                         '--out', os.path.join(d, 'r.json')]), 0)
 
     def test_a_term_is_explained_where_it_is_first_used(self):
         """Gate E369 (Joel, 2026-11-05 18:43 UTC: "make sure every term is introduced once at first, like enterocytes my

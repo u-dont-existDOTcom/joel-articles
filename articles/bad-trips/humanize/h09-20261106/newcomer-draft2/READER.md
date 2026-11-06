@@ -1,0 +1,4 @@
+S1 | "A lot of what looks like a deep psychedelic crisis is a scared person in a room that's getting on their nerves" | How can an annoying room make someone look like they're in a deep crisis? Does tripping make light, noise, people and touch hit them much harder than usual?
+S6 | "until it's you, or one calm person they trust, doing the talking" | Which one should it be, me or the person they trust? If they don't know or trust me, should I step back and let that person do the talking?
+S8 | "so if they're thirsty, offer water and suggest small sips" | What does an upset stomach have to do with small sips: would drinking a lot at once make them throw up?
+S10 | "If a song starts scaring them more, change it" | Change it to what: another song, and what kind would calm them, or switch to quiet?
