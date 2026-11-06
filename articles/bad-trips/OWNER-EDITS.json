@@ -464,6 +464,20 @@
     "keep it contained and boring: brush your teeth, stretch gently, take a calm shower, or do a few slow wall push-ups. Then protect sleep.",
     "When pacing begins to resemble escape, sit against a wall or lie under a blanket. The goal is to let the nervous system discharge without creating a new danger."
    ]
+  },
+  {
+   "id": "t19-contact-repeats",
+   "status": "applied",
+   "what": "Who to Contact, and When's \"Psychedelic peer support does not replace emergency, medical, psychiatric, or suicide-crisis care.\" cut (the call-for-help part, When Peer Support Isn't Enough, says it), and Alone at 3 a.m.'s list of services again (\"When nobody is available, use Fireside ...\") cut (the section just above names them) (experiments/t19-anchor/apply_t19d.py)",
+   "joel": "2026-11-06 19:43 UTC: \"i'd say make the cuts regardless of pangram if it makes the guide read better, that was what we were supposed to do already prior\"; 2026-11-03 15:45 UTC: \"too much safety language spread everywhere rather than in one spot\"",
+   "must_not_contain": [
+    "Psychedelic peer support does not replace emergency, medical, psychiatric, or suicide-crisis care.",
+    "When nobody is available, use Fireside during its coverage hours"
+   ],
+   "must_contain_exact": [
+    "Save the relevant links and local numbers *before* you need them. Hours and services change, and not every option works in every country.",
+    "Send the human-anchor script."
+   ]
   }
  ]
 }

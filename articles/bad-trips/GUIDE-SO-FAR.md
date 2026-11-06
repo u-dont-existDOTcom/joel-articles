@@ -391,7 +391,7 @@ Use **one calm human anchor as the lead**. When safety, fatigue, logistics, viol
 
 ### Who to Contact, and When
 
-Save the relevant links and local numbers *before* you need them. Hours and services change, and not every option works in every country. Psychedelic peer support does not replace emergency, medical, psychiatric, or suicide-crisis care.
+Save the relevant links and local numbers *before* you need them. Hours and services change, and not every option works in every country.
 
 **During or soon after a psychedelic experience**
 
@@ -417,7 +417,7 @@ Save the relevant links and local numbers *before* you need them. Hours and serv
 
 The [triage app](https://ibogaqueen.com/1625-2/) has the stripped-down 3 a.m. plan. Once the lamp is on, the keys are away, and **"No big actions until morning"** is visible, use the phone only to reach a calm person or support service.
 
-Send the human-anchor script. When nobody is available, use Fireside during its coverage hours, TripSit for drug-related peer support, or Find A Helpline and a local crisis service for fear, despair, self-harm, or inability to stay safe.
+Send the human-anchor script.
 
 When the body still needs movement, keep it contained and boring: brush your teeth, stretch gently, take a calm shower, or do a few slow wall push-ups. Then protect sleep.
 
