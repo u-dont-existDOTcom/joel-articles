@@ -347,27 +347,27 @@ This post collects my own experience and thinking, but I would be remiss not to 
 
 ## Psychological First Aid: The First Five Minutes
 
-The [triage app](https://ibogaqueen.com/1625-2/) gives the order. This section is about carrying it out without becoming one more source of pressure.
+The [triage app](https://ibogaqueen.com/1625-2/) gives you the order to do things in, and this section is about doing them in a way that takes pressure off the person.
 
 ![](https://substack-post-media.s3.amazonaws.com/public/images/944bef30-ca59-415b-a2e8-809a29ac2ba6_1122x1402.png)
 
 Anything that could let someone hurt themselves in the next five minutes takes priority, so get the car keys out of reach and turn the stove off, and move them away from roads and balconies, or pools of water for that matter. Letting them move around is fine, and pacing can help, but keep them from taking more of any substance. If they want to go confront somebody, that can wait. And if they want to leave, have someone go with them. Put any weapons away and keep the person away from crowds and strangers. If they want to post their big revelation about the universe, or message an ex, take the phone.
 
-A lot of what looks like a deep psychedelic crisis is a scared person in a room that's getting on their nerves, so look around the room next. Maybe the light's too bright or the music's horrible. Are five concerned people talking at once? Somebody might be touching them when they don't want it, or they're stuck beside someone they don't trust. And check whether they're too hot or too cold, or desperate for the bathroom.
+A lot of what looks like a deep psychedelic crisis is a scared person in a room that's getting on their nerves, so look around the room next. Maybe the light's too bright or the music's horrible. Are five concerned people talking at once? Somebody might be touching them and they hate it, or they're stuck beside someone they're wary of. And check whether they're too hot or too cold, or desperate for the bathroom.
 
 They're feeling overwhelmed, so dim the lights, and clear out the extra people around them.
 
-Give them ordinary reality:
+Then remind them where they are and what's happening, since a trip can make them lose track of it:
 
-> You're in *[place]*. It's *[date/time]*. You took *[substance, if known]*. These effects rise, peak, and change. This is intense, but it will change. We don't need to solve your life tonight.
+> You're in *[place]*. It's *[date/time]*. You took *[substance, if known]*, and its effects will peak and then change. It's intense right now, and it'll pass. We can sort out the rest of your life tomorrow.
 
-When the state came from meditation, breathwork, fasting, *kundalini*-style practice, extreme stretching, ritual, or a retreat, say:
+If the state came from a practice, like meditation or fasting, the person can say:
 
-> I am in an intense state. I am stopping the practice now. My job is ordinary safety.
+> I'm in an intense state, so I'm stopping the practice now, and my only job is to stay safe.
 
-From there, choose one safe body experiment and one calm human. The next two sections explain those choices. Protect sleep, especially when the person is euphoric or grandiose, and let meaning wait until the nervous system has somewhere to stand.
+A state from a practice has no drug wearing off on a schedule, so there's no telling how long it will last. Once they can eat safely, food and warmth help their body settle.
 
-A non-drug altered state may have a less predictable clock than a substance. The practical move remains simple: stop the practice, eat something ordinary when safe, let the body settle, keep warm, and sleep. An open portal does not obligate you to keep pushing through it.
+Then help them pick one safe thing to try with their body and one calm person to stay with them, which the next two sections are about. Protect their sleep too, especially if they're euphoric or grandiose, and leave what it all meant until they've slept.
 
 ### Stillness or Movement?
 

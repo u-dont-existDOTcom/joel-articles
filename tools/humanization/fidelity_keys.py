@@ -226,8 +226,11 @@ def check(keys, draft):
     meaning = (keys.get('warning_words') or {}).get('rule') == 'meaning'
     term_set = {pk.normalize(t) for t in keys['terms']}
 
+    # a recorded change's "don't" is the unit's "do not" (above): before 2026-11-06 a card's "don't" never left its unit,
+    # so a unit with one key left matched any paragraph with "don't" and reported the key that was still there missing
+    # (the bad trips lane, round 11: "bathroom", kept in the room paragraph, "lost")
     def same(k):
-        return tuple(sorted(pk.normalize(glue(dash(norm(x)))) for x in k))
+        return tuple(sorted(pk.normalize(glue(dash(norm('do not' if pk.normalize(x) == "don't" else x)))) for x in k))
     # the keys his approved cards took out (keys['owner_changes'] below) leave their units before the paragraph match, so a
     # unit with few keys left can't be matched to the wrong paragraph
     taken = collections.defaultdict(set)
