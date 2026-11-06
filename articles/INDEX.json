@@ -112411,7 +112411,7 @@
         },
         {
           "path": "articles/bad-trips/humanize/pangram-ledger.jsonl",
-          "sha256": "9ddd541df50ea2afc45fac8041b601eecba3866c5530f3ebd6ccbfaea1bbf8b2",
+          "sha256": "9e2bc9b846aa3feab9586b330b85898790f055e77270171a84a007cb5de5faae",
           "role": "humanization_working_record"
         },
         {
@@ -113246,7 +113246,7 @@
         },
         {
           "path": "articles/bad-trips/humanize/SCORECARD.md",
-          "sha256": "1c7bafc6096e9e558df8db439ba3859313e736264340476fc5d464dfd2a5aa33",
+          "sha256": "b7d67a40fd01d23a82a921b25b01d100e208adba14d2ee6417385a078389b542",
           "role": "humanization_working_record"
         },
         {
@@ -117497,6 +117497,21 @@
         {
           "path": "articles/bad-trips/humanize/h13-20261106/TEST-base-S3c.txt",
           "sha256": "32186c80e6f3764bb2361068bd42111f945af5e16e37c7765d34e133d8560563",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/bad-trips/humanize/h14-20261106/ANCHOR-as-guide.txt",
+          "sha256": "8aa3ce1deae8ddc85d160e4692345665fc6df798880727b776711f4924b9596c",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/bad-trips/humanize/h14-20261106/RESULTS-1.json",
+          "sha256": "95250aca3eeb5b941961969857805bd38115ba22dffb4b2e73f435e04b895f6f",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/bad-trips/humanize/h14-20261106/RESULTS.md",
+          "sha256": "bb12259b7e12f1334b6794418eebbe87e55c6d78bbccf12da76bf818a3cae695",
           "role": "humanization_working_record"
         }
       ]
