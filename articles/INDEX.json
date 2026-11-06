@@ -107734,7 +107734,7 @@
         },
         {
           "path": "articles/neuro-de-armoring/humanize/HANDOFF-neuro-de-armoring.md",
-          "sha256": "bcb5df58172e42d51dcbf0b183e06bdf6123c83743ad7eca93e61b4e226e3e64",
+          "sha256": "b7c14b56a8850bb8f97ea26112e860389750adc7960b5d8dc60c95981ed91b61",
           "role": "humanization_working_record"
         },
         {
@@ -107749,7 +107749,7 @@
         },
         {
           "path": "articles/neuro-de-armoring/humanize/STATUS.md",
-          "sha256": "e3ee9b64a81ecc2e177844823ddbab1906470b1f3719555bb803facb38ffe9aa",
+          "sha256": "9cd7d0ec7e06bd3581e1403ecec32062be3f981b499e891f06f7d070c681b2b5",
           "role": "humanization_working_record"
         },
         {
@@ -107839,7 +107839,7 @@
         },
         {
           "path": "articles/neuro-de-armoring/humanize/pangram-ledger.jsonl",
-          "sha256": "4d4ca15cd15bd89b3d24fbfb6166263a173201d07d84bb4d06b31244c5cd2bf4",
+          "sha256": "7c5e5c57e6bea925d994eaf788d4085c424846e81142dc310bc80ce11c77cf07",
           "role": "humanization_working_record"
         },
         {
@@ -112150,6 +112150,11 @@
         {
           "path": "articles/neuro-de-armoring/humanize/fix-20261106/p1/panel/P027/sonnet.md",
           "sha256": "5fb4160c48bce767a3d24114ae4bc9d023ee3cd2e2a7c79eb4c6a090f3cdb0cd",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/neuro-de-armoring/humanize/fix-20261106/p1/RESULTS-r2.md",
+          "sha256": "7c0b236cab144f7d27a96daa89aca6426daf003428e92602ef6e2e8995cd0b64",
           "role": "humanization_working_record"
         }
       ]
