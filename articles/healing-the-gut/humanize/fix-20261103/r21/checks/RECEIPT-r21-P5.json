@@ -1,0 +1,108 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-06",
+ "text_sha256": "436440f5639105433844a055750da90e8da0d26d3c94a93a4be705eec82d258b",
+ "text": "Once you're clear of infection, you have to rebuild a diverse ecosystem to prevent relapse. Dr. William Davis is back for that, along with Dr. Will Bulsiewicz (Fiber Fueled).\n\nStart by re-seeding with Davis's high-dose \"SIBO Yogurt\", fermented for 36 hours (store yogurt is fermented for 6 to 12, so this one ends up with hundreds of times more bacteria). It contains L. reuteri, to heal the lining and boost oxytocin (the \"love hormone\"), and L. gasseri, to produce bacteriocins (natural antibiotics) that kill SIBO.\n\nThen feed the new healthy bacteria. Bulsiewicz says to bring more and more kinds of plants back into your diet, slowly (go too fast and you can get gassy and bloated while your gut bacteria adapt), until you're eating 30+ different plants per week. Does anyone count their plants?\n\nContinue Pimentel's strict meal spacing from Phase 2 (4+ hours), forever, to keep the MMC cleaning wave active.\n\nAnd fuel the mitochondria: see the fuels under Leaky gut, above (glutamine and butyrate).\n\nMy notes: see \"Leaky gut\" above for colostrum, zinc carnosine, BPC-157 and ozonated zeolite, and \"Sitting\" above for movement and yoga.",
+ "section": "Phase 5: Restoration & Maintenance (Let's Play Gardener!)",
+ "reader": "Someone whose overgrowth is finally cleared, deciding how to rebuild their gut bacteria so it doesn't come back: what to eat first, how to feed the new bacteria, and what to keep doing.",
+ "sentences": [
+  {
+   "s": "Once you're clear of infection, you have to rebuild a diverse ecosystem to prevent relapse.",
+   "payoff": "the reader knows when this phase starts and what it is for: rebuilding, so it doesn't come back",
+   "follows": "opens Phase 5, after Phase 4's pointers"
+  },
+  {
+   "s": "Dr. William Davis is back for that, along with Dr. Will Bulsiewicz (Fiber Fueled).",
+   "payoff": "the reader knows whose advice this phase is",
+   "follows": "after what the phase is for, whose it is"
+  },
+  {
+   "s": "Start by re-seeding with Davis's high-dose \"SIBO Yogurt\", fermented for 36 hours (store yogurt is fermented for 6 to 12, so this one ends up with hundreds of times more bacteria).",
+   "payoff": "the reader knows the first step, which yogurt, and what makes it high-dose: 36 hours of fermenting against a store yogurt's 6 to 12, for hundreds of times the bacteria",
+   "follows": "the first step of the rebuilding"
+  },
+  {
+   "s": "It contains L. reuteri, to heal the lining and boost oxytocin (the \"love hormone\"), and L. gasseri, to produce bacteriocins (natural antibiotics) that kill SIBO.",
+   "payoff": "the reader knows what the yogurt's two bacteria do for them, and what oxytocin and bacteriocins are",
+   "follows": "what the yogurt just named does"
+  },
+  {
+   "s": "Then feed the new healthy bacteria.",
+   "payoff": "the reader knows the second step: once the bacteria are back, feed them",
+   "follows": "after putting them back, feeding them"
+  },
+  {
+   "s": "Bulsiewicz says to bring more and more kinds of plants back into your diet, slowly (go too fast and you can get gassy and bloated while your gut bacteria adapt), until you're eating 30+ different plants per week.",
+   "payoff": "the reader knows how to feed them: more and more kinds of plants, slowly, so the gut bacteria can adapt without gas and bloating, up to 30+ a week",
+   "follows": "how to do the step just named"
+  },
+  {
+   "s": "Does anyone count their plants?",
+   "his": true
+  },
+  {
+   "s": "Continue Pimentel's strict meal spacing from Phase 2 (4+ hours), forever, to keep the MMC cleaning wave active.",
+   "payoff": "the reader knows to keep the meal spacing for good, and why",
+   "follows": "the next step, a habit from Phase 2"
+  },
+  {
+   "s": "And fuel the mitochondria: see the fuels under Leaky gut, above (glutamine and butyrate).",
+   "payoff": "the reader knows the last step and where its fuels are explained",
+   "follows": "the last step"
+  },
+  {
+   "s": "My notes: see \"Leaky gut\" above for colostrum, zinc carnosine, BPC-157 and ozonated zeolite, and \"Sitting\" above for movement and yoga.",
+   "payoff": "The reader is pointed to the treatments not already pointed to by step 4, without the fuels twice.",
+   "follows": "It ends the phase with the pointers back, as in every phase."
+  }
+ ],
+ "checked": [
+  {
+   "point": "store yogurt is fermented for 6 to 12 hours, and 36 hours gives hundreds of times more bacteria",
+   "found": "Davis, Defiant Health Radio, \"Will eating yogurt change your life?\": \"So in a factory they ferment or process the yogurt for about 6 to 12 hours\", and his 36 hours gives \"hundreds of times greater numbers of microbes than you get in conventional yogurt\" (https://defianthealthradio.buzzsprout.com/1795054/episodes/16962045-will-eating-yogurt-change-your-life)",
+   "still_needed": "yes: it says what makes the yogurt high-dose, which the step names and doesn't explain",
+   "fate": "kept"
+  },
+  {
+   "point": "adding plants too fast can bring gas and bloating while the gut bacteria adapt",
+   "found": "Bulsiewicz, Plant Based News, 27 April 2025: a switch to a high-fiber diet can bring gas and bloating because the microbiome is adapted to the old food, \"It's going to take time for your gut microbes to adapt\" (https://plantbasednews.org/lifestyle/health/gut-doctor-survival-guide-bloating-plant-based-diet/)",
+   "still_needed": "yes: it is why the step says slowly",
+   "fate": "kept"
+  },
+  {
+   "point": "oxytocin is called the \"love hormone\"",
+   "found": "its common name in plain writing about it",
+   "still_needed": "yes: the step names oxytocin and a reader may not know it",
+   "fate": "kept"
+  }
+ ],
+ "placement": "Phase 5, after Phase 4's pointers and before Phase 6; its first sentence picks up Phase 3 (\"clear of infection\"), and \"Davis is back\" points to Phase 3, where Davis is first named.",
+ "opens": {
+  "first_sentence": "Once you're clear of infection, you have to rebuild a diverse ecosystem to prevent relapse.",
+  "why_reading": "It tells the reader this phase is for once they are clear of infection, the state they would recognize, and what it is for: rebuilding so it doesn't come back."
+ },
+ "same_point": "none: read Phase 5 from its heading to Phase 6: each step is said once; the yogurt's 36 hours, its two bacteria and the 30 plants are said only here (SIBO, above, links to the yogurt without the recipe); the fuels are a pointer to Leaky gut; the meal spacing points back to Phase 2",
+ "questions": {
+  "Q1": "PASS: each step opens on its act (start by re-seeding; then feed the new healthy bacteria), and each term is explained in the sentence that first uses it: high-dose by the 36 hours against a store yogurt's 6 to 12, oxytocin as the \"love hormone\", bacteriocins as natural antibiotics",
+  "Q2": "PASS: each instruction is the reader's act: re-seed with the yogurt; bring plants back slowly, up to 30+ a week",
+  "Q3": "PASS: the yogurt, its fermenting time, its two bacteria and the number of plants are named exactly",
+  "Q4": "PASS: oxytocin, bacteriocins and high-dose are explained where first used; SIBO and the MMC were explained earlier (SIBO, Phase 2); each mechanism is said by what it does for the reader (heal the lining, kill SIBO, adapt without gas and bloating)",
+  "Q5": "PASS: \"so this one ends up with\" turns the fermenting time into the dose; \"then\" puts feeding after re-seeding; \"go too fast and\" gives the reason for \"slowly\"; \"until\" sets the goal",
+  "Q6": "PASS: nothing moved; the steps keep their order, and his aside still follows the number it jokes about",
+  "Q7": "PASS: each gloss answers what this reader would ask before doing the step: why 36 hours, what the bacteria do, why slowly",
+  "Q8": "PASS: no item moved between groups",
+  "Q9": "PASS: one step per sentence pair; the small words carry the relations (so, then, until); \"6 to 12\" takes its \"hours\" from the \"36 hours\" just before it"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ },
+ "his_whose": "his own: \"Does anyone count their plants?\", the aside he added to his own version of Phase 5 (2026-11-03), not a rewrite of the model's text"
+}

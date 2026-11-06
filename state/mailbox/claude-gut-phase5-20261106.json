@@ -1,0 +1,46 @@
+{
+ "about": "Each turn's mailbox check (tools/humanization/lane_mailbox.py; AGENTS.md, \"Suggested fixes from other projects\"). Newest last.",
+ "places": {
+  "uda-lane": "this repository's lane in universal-dev-architecture (suggested-fixes/joel-articles/), against docs/suggested-fixes-ledger.md",
+  "repo": "new issues and pull requests here, and new comments and reviews on any of them, replies on our own included",
+  "notes": "edits others made to the lane's handoff notes and owner questions pages since its last turn",
+  "runtime": "the messages the session's runtime queued for it"
+ },
+ "checks": [
+  {
+   "turn": "2026-11-06T21:26Z",
+   "lines_of_work": [
+    "gut article"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "UDA main now b6185f7 (#472, an AskRigor lane item); root AGENTS.md and LESSON-INDEX unchanged since c25062c; this lane's folder unchanged: 2026-10-18-schema-therapist-fit-and-reparenting-guide.md and 2026-10-22-book-audit-and-guide-receipts.md are for the Inner Child and reparenting guides (their lanes), the rest already in docs/suggested-fixes-ledger.md"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "main at 810f753d; since 21:30 UTC: #322 (this lane's draft B checkpoint) merged by the auto-merge workflow, and #321, #323-#329 from the bad trips, neuro and community lanes; no new issues, comments or reviews; main's new shared files are two bad trips lessons (bad-trips-2026-11-06a, look a paragraph's points up across the article before another wording; b, a report is no reason to end the turn), both read and applied"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no edits by anyone else to articles/healing-the-gut"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "Joel's answers in the turn (21:26): don't ask about incremental publishing, keep working on the fixes; Pangram web app signed in"
+    }
+   ],
+   "items": [
+    {
+     "item": "Joel's answers of the 21:26 turn: no question about incremental publishing, keep fixing",
+     "outcome": "lesson gut-2026-11-06e; Phase 5's three Low sentences: try 2 read no better than its control in the Phases 3-6 cut (#188 against #187), and the cut reads them AI even unchanged, so the whole article judges them: drafts C (try 2) and D (try 3) for his extension"
+    }
+   ],
+   "recorded_utc": "2026-11-06T22:54Z"
+  }
+ ]
+}

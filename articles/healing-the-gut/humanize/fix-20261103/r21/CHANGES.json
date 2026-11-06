@@ -1,0 +1,28 @@
+[
+ {
+  "old": "so come back down once it's over.",
+  "new": "so come back down once the exposure or the stress is over.",
+  "kind": "clarity",
+  "why": "the compare read (F1.2): \"it\" could be the exposure, the stress or the training; r19-D read Human, High (#185)"
+ },
+ {
+  "old": "like Crohn's or colitis, don't count on it.",
+  "new": "like Crohn's or colitis, don't count on glutamine.",
+  "kind": "clarity",
+  "why": "the compare read (F1.4): \"it\" could be the higher dose or glutamine itself; r19-D read Human, High (#185)"
+ },
+ {
+  "old": "1. Start by re-seeding with Davis's high-dose \"SIBO Yogurt\", fermented for 36 hours. It contains L. reuteri, to heal the lining and boost oxytocin, and L. gasseri, to produce bacteriocins that kill SIBO.",
+  "new": "1. Start by re-seeding with Davis's high-dose \"SIBO Yogurt\", fermented for 36 hours (store yogurt is fermented for 6 to 12, so this one ends up with hundreds of times more bacteria). It contains L. reuteri, to heal the lining and boost oxytocin (the \"love hormone\"), and L. gasseri, to produce bacteriocins (natural antibiotics) that kill SIBO.",
+  "kind": "window",
+  "why": "Low in the whole article (#183): the frame and words kept, and a plain gloss where the reader would ask, as his own fix of Phase 1 does: what makes the yogurt high-dose, what oxytocin and bacteriocins are (E369)",
+  "source": "https://defianthealthradio.buzzsprout.com/1795054/episodes/16962045-will-eating-yogurt-change-your-life (\"So in a factory they ferment or process the yogurt for about 6 to 12 hours\"; 36 hours lets the microbes double many more times, \"hundreds of times greater numbers of microbes than you get in conventional yogurt\")"
+ },
+ {
+  "old": "2. Then feed the new healthy bacteria. Bulsiewicz says to slowly titrate plant diversity back into your diet, aiming for 30+ different plants per week.",
+  "new": "2. Then feed the new healthy bacteria. Bulsiewicz says to bring more and more kinds of plants back into your diet, slowly (go too fast and you can get gassy and bloated while your gut bacteria adapt), until you're eating 30+ different plants per week.",
+  "kind": "window",
+  "why": "Low in the whole article (#183): \"bring more and more kinds of plants back into your diet, slowly\" for \"slowly titrate plant diversity back\", with why slowly in a plain parenthesis; \"until you're eating 30+\" keeps his number right before his \"Does anyone count their plants?\", which stays as he wrote it",
+  "source": "https://plantbasednews.org/lifestyle/health/gut-doctor-survival-guide-bloating-plant-based-diet/ (Plant Based News, 27 April 2025: switching to a high-fiber diet can bring gas and bloating because the gut microbiome has to adapt; \"It's going to take time for your gut microbes to adapt\")"
+ }
+]

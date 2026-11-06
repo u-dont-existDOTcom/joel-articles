@@ -1,0 +1,32 @@
+[
+ {
+  "old": "1. Start by re-seeding with Davis's high-dose \"SIBO Yogurt\", fermented for 36 hours. It contains L. reuteri, to heal the lining and boost oxytocin, and L. gasseri, to produce bacteriocins that kill SIBO.",
+  "new": "1. Start by re-seeding your gut with Davis's high-dose \"SIBO Yogurt\", fermented for 36 hours: its L. reuteri heals the lining and boosts oxytocin, and its L. gasseri makes bacteriocins, natural antibiotics that kill SIBO.",
+  "kind": "window",
+  "why": "Low twice in the whole article (#183): the step and what its bacteria do joined into one sentence; \"bacteriocins\" explained where it is first used (E369); the purposes as plain verbs, \"heals\", \"makes\", not \"to heal\", \"to produce\""
+ },
+ {
+  "old": "2. Then feed the new healthy bacteria. Bulsiewicz says to slowly titrate plant diversity back into your diet, aiming for 30+ different plants per week.",
+  "new": "2. Then feed the new bacteria with plants: Bulsiewicz says to add different plants back into your diet slowly, aiming for 30 or more kinds a week.",
+  "kind": "window",
+  "why": "Low in the whole article (#183): the step and whose advice it is joined, the point first (feed them with plants); \"add different plants back slowly\" for \"slowly titrate plant diversity back\"; his \"Does anyone count their plants?\" stays as he wrote it"
+ },
+ {
+  "old": "If it's Bile Acid Diarrhea, the test is SeHCAT, and the treatment is bile binders.",
+  "new": "If it's Bile Acid Diarrhea instead, where your gut doesn't take its bile back up and it spills into your colon, a SeHCAT scan will show it, and bile binders treat it.",
+  "kind": "window",
+  "why": "Medium in the whole article (#183), High in its stretch (#176): Bile Acid Diarrhea explained where it is named (E369), the test and treatment as what they do for the reader; NICE: when bile acids are not absorbed properly they travel to the colon, and excess bile there causes diarrhoea; SeHCAT is a capsule traced with a gamma camera (https://nice.org.uk/guidance/dg44/documents/topic-description)"
+ },
+ {
+  "old": "so come back down once it's over.",
+  "new": "so come back down once the exposure or the stress is over.",
+  "kind": "clarity",
+  "why": "the compare read (F1.2): \"it\" could be the exposure, the stress or the training"
+ },
+ {
+  "old": "like Crohn's or colitis, don't count on it.",
+  "new": "like Crohn's or colitis, don't count on glutamine.",
+  "kind": "clarity",
+  "why": "the compare read (F1.4): \"it\" could be the higher dose or glutamine itself"
+ }
+]
