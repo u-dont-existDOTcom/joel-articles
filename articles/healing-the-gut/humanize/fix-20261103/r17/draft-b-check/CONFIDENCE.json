@@ -1,0 +1,213 @@
+{
+ "RESULT.json": {
+  "link": "https://www.pangram.com/feed/bb64a934-cf2c-47b3-ae93-af2a363a0644",
+  "headline": "Human Written",
+  "counts": [
+   "Human High 9",
+   "Human Medium 8",
+   "Human Low 4"
+  ],
+  "rows": [
+   {
+    "window": 2,
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": 0.9867,
+    "words": 5,
+    "uncertainty_highlighted": false,
+    "where": "Phase 2: The Reset, P1",
+    "text": "This one’s from Dr.",
+    "sentences": [
+     {
+      "text": "This one’s from Dr.",
+      "whose": "approved wording"
+     }
+    ]
+   },
+   {
+    "window": 4,
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": 0.9738,
+    "words": 3,
+    "uncertainty_highlighted": false,
+    "where": "Phase 2: The Reset, P3",
+    "text": "And no snacking!",
+    "sentences": [
+     {
+      "text": "And no snacking!",
+      "whose": "approved wording"
+     }
+    ]
+   },
+   {
+    "window": 6,
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": 0.9893,
+    "words": 16,
+    "uncertainty_highlighted": false,
+    "where": "Phase 4: The Investigation, P2",
+    "text": "If it’s Bile Acid Diarrhea, the test is SeHCAT, and the treatment is bile binders.",
+    "sentences": [
+     {
+      "text": "If it’s Bile Acid Diarrhea, the test is SeHCAT, and the treatment is bile binders.",
+      "whose": "approved wording"
+     }
+    ]
+   },
+   {
+    "window": 8,
+    "label": "Human",
+    "confidence": "Low",
+    "calibrated": 0.899,
+    "words": 1,
+    "uncertainty_highlighted": true,
+    "where": "Some Causes of poor gut health, P20",
+    "text": "Dr.",
+    "sentences": [
+     {
+      "text": "Dr.",
+      "whose": "approved wording"
+     }
+    ]
+   },
+   {
+    "window": 9,
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": 0.9863,
+    "words": 13,
+    "uncertainty_highlighted": false,
+    "where": "Phase 5: Restoration & Maintenance (Let's Play Gardener!), P1",
+    "text": "William Davis is back for that, along with Dr. Will Bulsiewicz (Fiber Fueled).",
+    "sentences": [
+     {
+      "text": "William Davis is back for that, along with Dr.",
+      "whose": "approved wording"
+     },
+     {
+      "text": "Will Bulsiewicz (Fiber Fueled).",
+      "whose": "approved wording"
+     }
+    ]
+   },
+   {
+    "window": 10,
+    "label": "Human",
+    "confidence": "Low",
+    "calibrated": 0.793,
+    "words": 15,
+    "uncertainty_highlighted": true,
+    "where": "Phase 5: Restoration & Maintenance (Let's Play Gardener!), P2",
+    "text": "Start by re-seeding with Davis’s high-dose “SIBO Yogurt”, fermented for 36 hours.",
+    "sentences": [
+     {
+      "text": "Start by re-seeding with Davis’s high-dose “SIBO Yogurt”, fermented for 36 hours.",
+      "whose": "approved wording"
+     }
+    ]
+   },
+   {
+    "window": 11,
+    "label": "Human",
+    "confidence": "Low",
+    "calibrated": 0.5753,
+    "words": 26,
+    "uncertainty_highlighted": true,
+    "where": "Phase 5: Restoration & Maintenance (Let's Play Gardener!), P2",
+    "text": "It contains L. reuteri, to heal the lining and boost oxytocin, and L. gasseri, to produce bacteriocins that kill SIBO.\nThen feed the new healthy bacteria.",
+    "sentences": [
+     {
+      "text": "It contains L. reuteri, to heal the lining and boost oxytocin, and L. gasseri, to produce bacteriocins that kill SIBO.",
+      "whose": "approved wording"
+     },
+     {
+      "text": "Then feed the new healthy bacteria.",
+      "whose": "approved wording"
+     }
+    ]
+   },
+   {
+    "window": 12,
+    "label": "Human",
+    "confidence": "Low",
+    "calibrated": 0.627,
+    "words": 18,
+    "uncertainty_highlighted": true,
+    "where": "Phase 5: Restoration & Maintenance (Let's Play Gardener!), P3",
+    "text": "Bulsiewicz says to slowly titrate plant diversity back into your diet, aiming for 30+ different plants per week.",
+    "sentences": [
+     {
+      "text": "Bulsiewicz says to slowly titrate plant diversity back into your diet, aiming for 30+ different plants per week.",
+      "whose": "approved wording"
+     }
+    ]
+   },
+   {
+    "window": 13,
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": 0.9026,
+    "words": 5,
+    "uncertainty_highlighted": false,
+    "where": "Phase 5: Restoration & Maintenance (Let's Play Gardener!), P3",
+    "text": "Does anyone count their plants?",
+    "sentences": [
+     {
+      "text": "Does anyone count their plants?",
+      "whose": "approved wording"
+     }
+    ]
+   },
+   {
+    "window": 15,
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": 0.9821,
+    "words": 4,
+    "uncertainty_highlighted": false,
+    "where": "Phase 6: Refractory Cases, P2",
+    "text": "Check your environment (Nathan).",
+    "sentences": [
+     {
+      "text": "Check your environment (Nathan).",
+      "whose": "approved wording"
+     }
+    ]
+   },
+   {
+    "window": 17,
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": 0.9763,
+    "words": 4,
+    "uncertainty_highlighted": false,
+    "where": "Phase 6: Refractory Cases, P3",
+    "text": "Then check the brain.",
+    "sentences": [
+     {
+      "text": "Then check the brain.",
+      "whose": "approved wording"
+     }
+    ]
+   },
+   {
+    "window": 19,
+    "label": "Human",
+    "confidence": "Medium",
+    "calibrated": 0.9512,
+    "words": 1,
+    "uncertainty_highlighted": false,
+    "where": "Some Causes of poor gut health, P20",
+    "text": "Dr.",
+    "sentences": [
+     {
+      "text": "Dr.",
+      "whose": "approved wording"
+     }
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,9 @@
+{"part": 1,
+ "read": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84],
+ "findings": [
+  {"block": 10, "text": "no known cure for this disease, accept possibly glutamine", "kind": "wrong-word", "what": "\"accept\" is used where \"except\" is meant.", "fix": "no known cure for this disease, except possibly glutamine", "confidence": "sure"},
+  {"block": 51, "text": "Davis recommends pacific herbal combinations", "kind": "wrong-word", "what": "\"pacific\" (peaceful/ocean) where \"specific\" is meant.", "fix": "Davis recommends specific herbal combinations", "confidence": "sure"},
+  {"block": 64, "text": "Than feed the new healthy bacteria.", "kind": "slip", "what": "\"Than\" for \"Then\".", "fix": "Then feed the new healthy bacteria.", "confidence": "sure"},
+  {"block": 79, "text": "Gemini suggested these kits to me, but so far they're the best ones I've seen", "kind": "broken", "what": "\"but\" sets up a contrast that isn't there; the sentence reads as if \"and\" was meant.", "fix": "Gemini suggested these kits to me, and so far they're the best ones I've seen", "confidence": "likely"}
+ ],
+ "notes": "Left alone as probable deliberate names or coinages: \"loveyhuasca protocol\" (block 5) and the product \"Zholy3O\" (block 53); worth a quick owner check that Zholy3O is the intended product name, since block 25 recommends ozonated zeolite/ZeoCharge."}

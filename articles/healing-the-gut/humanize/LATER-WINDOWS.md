@@ -8,6 +8,21 @@ Every Low window in the gut article that reads as the text's own is fixed (batch
 gate E354 still named (Phase 1's heading with its first sentence, and the stacks list) had already read Human, High in
 later checks of their sections, whose window text the ledger hadn't kept (gut-2026-11-06c). What's below is left on purpose.
 
+## The whole article, draft B (2026-11-06)
+
+His extension read draft B [Human Written](https://www.pangram.com/feed/bb64a934-cf2c-47b3-ae93-af2a363a0644):
+no AI window, 9 Human High, 8 Medium, 4 Low (`fix-20261103/r17/draft-b-check/CONFIDENCE.md`).
+
+- **To fix (Low):** Phase 5's first paragraphs: "Start by re-seeding with Davis's high-dose “SIBO Yogurt”,
+  fermented for 36 hours." (Low, 15 words), "It contains L. reuteri ... kill SIBO. / Then feed the new healthy
+  bacteria." (Low, 26) and "Bulsiewicz says to slowly titrate plant diversity back into your diet, aiming for 30+
+  different plants per week." (Low, 18). They read AI in the live post (#142), so they have come up, but not to High.
+- **To try (Medium):** Phase 4's "If it's Bile Acid Diarrhea, the test is SeHCAT, and the treatment is bile
+  binders." (16 words), High in its own stretch (#176).
+- **Pangram's bugs, left:** the splits at "Dr." ("This one's from Dr.", "Dr." twice, "William Davis is back for
+  that, along with Dr. Will Bulsiewicz (Fiber Fueled)."), and short lines on their own: "And no snacking!", his
+  "Does anyone count their plants?", "Check your environment (Nathan)." and "Then check the brain."
+
 ## Pangram's bugs, not worth fixing
 
 Pangram splits the text at an abbreviation's period and reads the 1- to 6-word piece Medium on its own, or AI Low when
