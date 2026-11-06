@@ -1,0 +1,89 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-06",
+ "text_sha256": "a43101f9e2aeb90e8563e7fdd9160d72962f51e69a994af8fe3a4c1730797bb2",
+ "text": "Psychological First Aid: The First Five Minutes\n\nAnything that could let someone hurt themselves in the next five minutes takes priority, so get the car keys out of reach and turn the stove off, and move them away from roads and balconies, or pools of water for that matter. Letting them move around is fine, and pacing can help, but keep them from taking more of any substance. If they want to go confront somebody, that can wait. And if they want to leave, have someone go with them. Put any weapons away and keep the person away from crowds and strangers. If they want to post their big revelation about the universe, or message an ex, take the phone.\n\nNext, look around the room. Turn the big light off and put a lamp on, and if a bunch of worried people are all talking at them, send most of them out. Move them away from anybody they're wary of, and check the simple stuff too, like whether they're too hot or too cold, or desperate for the bathroom.",
+ "section": "Psychological First Aid: The First Five Minutes",
+ "reader": "someone sitting with a person on a bad psychedelic trip, or tripping themselves, who needs to know what to do in the first five minutes: dangers first, then the room",
+ "sentences": [
+  {
+   "s": "Psychological First Aid: The First Five Minutes",
+   "payoff": "they know what this section covers: the first five minutes of looking after someone",
+   "follows": "the section's heading, after the Shadow Work part's welcome"
+  },
+  {
+   "s": "Anything that could let someone hurt themselves in the next five minutes takes priority, so get the car keys out of reach and turn the stove off, and move them away from roads and balconies, or pools of water for that matter.",
+   "payoff": "they secure whatever could let the person hurt themselves first: keys, stove, roads, balconies, pools",
+   "follows": "the first thing to do in the first five minutes, straight after the heading"
+  },
+  {
+   "s": "Letting them move around is fine, and pacing can help, but keep them from taking more of any substance.",
+   "payoff": "they let the person move and pace, but stop them taking more of anything",
+   "follows": "still the dangers: movement is fine, more of a substance is not"
+  },
+  {
+   "s": "If they want to go confront somebody, that can wait.",
+   "payoff": "they know a confrontation can wait",
+   "follows": "what the person may want to do that isn't safe now"
+  },
+  {
+   "s": "And if they want to leave, have someone go with them.",
+   "payoff": "they send someone along if the person wants to leave",
+   "follows": "the next thing the person may want to do"
+  },
+  {
+   "s": "Put any weapons away and keep the person away from crowds and strangers.",
+   "payoff": "they put weapons away and keep the person from crowds and strangers",
+   "follows": "more dangers the reader removes"
+  },
+  {
+   "s": "If they want to post their big revelation about the universe, or message an ex, take the phone.",
+   "payoff": "they take the phone before a revelation gets posted or an ex gets messaged",
+   "follows": "the last of the things the person may want to do"
+  },
+  {
+   "s": "Next, look around the room.",
+   "payoff": "they look at the room next",
+   "follows": "the dangers are handled, so the room comes next ('Next')"
+  },
+  {
+   "s": "Turn the big light off and put a lamp on, and if a bunch of worried people are all talking at them, send most of them out.",
+   "payoff": "they make the light softer and get most of the worried people talking at them out of the room",
+   "follows": "the two things in a room that most often get on a scared person's nerves: the light and the people"
+  },
+  {
+   "s": "Move them away from anybody they're wary of, and check the simple stuff too, like whether they're too hot or too cold, or desperate for the bathroom.",
+   "payoff": "they move the person away from anyone they're wary of, and check heat, cold and the bathroom",
+   "follows": "the rest of the room: who's near them, then their own body ('simple stuff': the cause can be that plain)"
+  }
+ ],
+ "checked": [],
+ "placement": "the first half of the Psychological First Aid section of the Shadow Work part: the dangers and the room, before the script that reminds them where they are (a narrowing test, not a draft for the guide)",
+ "opens": {
+  "first_sentence": "Psychological First Aid: The First Five Minutes",
+  "why_reading": "the heading tells someone looking after a person in a bad state that this is what to do now, in the first five minutes, which is their case; the first paragraph opens on the first thing to do"
+ },
+ "same_point": "the room's two paragraphs made one point, what in the room to fix: merged here, the fixes paragraph (B240) is deleted and its two fixes are said as acts after the reason; none else: read the section from its heading to Stillness or Movement? for the dangers, the room, the reminder of where they are, the practice script and care, and the pointer to the next sections (its 'one calm person' is the Get One Human Anchor pointer, not the room's worried people)",
+ "questions": {
+  "Q1": "PASS: each paragraph opens on its point: the first priority, then why to look at the room",
+  "Q2": "PASS: every act is the helper's own, with its purpose: the dangers removed, a softer light and most of the worried people out because the room is getting on their nerves, the person moved away from anyone they're wary of, their body checked",
+  "Q3": "PASS: which things exactly: keys, stove, roads, balconies, pools, weapons, the phone; the big light and a lamp, the worried people talking at them, anyone they're wary of, heat, cold, the bathroom",
+  "Q4": "PASS: no terms a reader wouldn't know",
+  "Q5": "PASS: each turn has what it turns on: the room comes next because it's often the cause; 'if' a crowd is talking at them, send most out; 'too' adds the body to the room",
+  "Q6": "PASS: dangers, then the room: why to look, the light and the people, who's near them, then the person's own body",
+  "Q7": "PASS: every fact is about the person in front of them now",
+  "Q8": "PASS: the room's fixes sit together after its reason; the person's body is checked with the room, as before",
+  "Q9": "PASS: nothing compressed: a pair of acts a sentence, with the small words that carry the reason ('because', 'if', 'too', 'like')"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

@@ -353,8 +353,6 @@ The [triage app](https://ibogaqueen.com/1625-2/) gives you the order to do thing
 
 Anything that could let someone hurt themselves in the next five minutes takes priority, so get the car keys out of reach and turn the stove off, and move them away from roads and balconies, or pools of water for that matter. Letting them move around is fine, and pacing can help, but keep them from taking more of any substance. If they want to go confront somebody, that can wait. And if they want to leave, have someone go with them. Put any weapons away and keep the person away from crowds and strangers. If they want to post their big revelation about the universe, or message an ex, take the phone.
 
-A lot of what looks like a deep psychedelic crisis is a scared person in a room that's getting on their nerves, so look around the room next. Maybe the light's too bright or the music's horrible. Are five concerned people talking at once? Somebody might be touching them and they hate it, or they're stuck beside someone they're wary of. And check whether they're too hot or too cold, or desperate for the bathroom.
-
 They're feeling overwhelmed, so dim the lights, and clear out the extra people around them.
 
 Then remind them where they are and what's happening, since a trip can make them lose track of it:
@@ -439,10 +437,10 @@ Don't drag somebody out of real grief. Don't trap them inside a loop that is gri
 
 ### Do
 
-- Ask simple questions: "Would less light help?" "Music or quiet?" "Closer or farther away?" "Water?" (in small sips)
+- Ask simple questions: "Would less light help?" "Music or quiet?" "Closer or farther away?" "Water?" (in small sips) "Need the bathroom?"
 - Reflect without arguing: "That sounds terrifying." "I'm with you." "Let's breathe together."
 - Offer choices instead of commands.
-- Keep the room quiet, private, warm, and physically safe.
+- Keep the room quiet, private, warm, and physically safe, and move anyone they're wary of somewhere else.
 - Call for help early when safety is slipping.
 - Translate metaphysics into shared safety values: "This feels sacred and huge. Sacred power protects life tonight."
 - Set behavioral boundaries without humiliation: "I won't help anybody hurt themselves or another person. We are keeping every body safe."

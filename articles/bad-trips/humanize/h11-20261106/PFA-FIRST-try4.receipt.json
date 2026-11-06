@@ -1,0 +1,89 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-06",
+ "text_sha256": "dcf47cd5162c0b530c61b54ef7301e3e6ee180d47c51186253117ac9f1748ef8",
+ "text": "Psychological First Aid: The First Five Minutes\n\nThe triage app gives you the order to do things in, and this section is about doing them in a way that takes pressure off the person.\n\nAnything that could let someone hurt themselves in the next five minutes takes priority, so get the car keys out of reach and turn the stove off, and move them away from roads and balconies, or pools of water for that matter. Letting them move around is fine, and pacing can help, but keep them from taking more of any substance. If they want to go confront somebody, that can wait. And if they want to leave, have someone go with them. Put any weapons away and keep the person away from crowds and strangers. If they want to post their big revelation about the universe, or message an ex, take the phone.\n\nThey're feeling overwhelmed, so dim the lights, and clear out the extra people around them. If they're stuck beside someone they're wary of, move them, and check whether they're too hot or too cold, or desperate for the bathroom.",
+ "section": "Psychological First Aid: The First Five Minutes",
+ "reader": "someone sitting with a person on a bad psychedelic trip, or tripping themselves, who needs to know what to do in the first five minutes: dangers first, then the room",
+ "sentences": [
+  {
+   "s": "Psychological First Aid: The First Five Minutes",
+   "payoff": "they know what this section covers: the first five minutes of looking after someone",
+   "follows": "the section's heading, after the Shadow Work part's welcome"
+  },
+  {
+   "s": "The triage app gives you the order to do things in, and this section is about doing them in a way that takes pressure off the person.",
+   "payoff": "they know the triage app sets the order and this section is how to carry it out while taking pressure off the person",
+   "follows": "the heading names the first five minutes; this says what the section does in them"
+  },
+  {
+   "s": "Anything that could let someone hurt themselves in the next five minutes takes priority, so get the car keys out of reach and turn the stove off, and move them away from roads and balconies, or pools of water for that matter.",
+   "payoff": "they secure whatever could let the person hurt themselves first: keys, stove, roads, balconies, pools",
+   "follows": "the first thing to do in the order"
+  },
+  {
+   "s": "Letting them move around is fine, and pacing can help, but keep them from taking more of any substance.",
+   "payoff": "they let the person move and pace, but stop them taking more of anything",
+   "follows": "still the dangers: movement is fine, more of a substance is not"
+  },
+  {
+   "s": "If they want to go confront somebody, that can wait.",
+   "payoff": "they know a confrontation can wait",
+   "follows": "what the person may want to do that isn't safe now"
+  },
+  {
+   "s": "And if they want to leave, have someone go with them.",
+   "payoff": "they send someone along if the person wants to leave",
+   "follows": "the next thing the person may want to do"
+  },
+  {
+   "s": "Put any weapons away and keep the person away from crowds and strangers.",
+   "payoff": "they put weapons away and keep the person from crowds and strangers",
+   "follows": "more dangers the reader removes"
+  },
+  {
+   "s": "If they want to post their big revelation about the universe, or message an ex, take the phone.",
+   "payoff": "they take the phone before a revelation gets posted or an ex gets messaged",
+   "follows": "the last of the things the person may want to do"
+  },
+  {
+   "s": "They're feeling overwhelmed, so dim the lights, and clear out the extra people around them.",
+   "payoff": "they dim the lights and clear out the extra people, and know why: the person is overwhelmed",
+   "follows": "after the dangers, the room: its two fixes first, with the reason (they're overwhelmed)"
+  },
+  {
+   "s": "If they're stuck beside someone they're wary of, move them, and check whether they're too hot or too cold, or desperate for the bathroom.",
+   "payoff": "they move the person away from anyone they're wary of, and check heat, cold and the bathroom",
+   "follows": "after the light and the people, the rest of the room: who's beside them, then their own body"
+  }
+ ],
+ "checked": [],
+ "placement": "the first half of the Psychological First Aid section of the Shadow Work part: the dangers and the room, before the script that reminds them where they are",
+ "opens": {
+  "first_sentence": "Psychological First Aid: The First Five Minutes",
+  "why_reading": "the heading tells someone looking after a person in a bad state that this is what to do now, in the first five minutes, which is their case; the next line says the triage app sets the order and this section is how to do it without adding pressure"
+ },
+ "same_point": "the room paragraph (B238) is cut: its reason, that the room is often the cause, is said in Why Bad Trips Tend to Happen ('an unsafe setting', 'admit that the room is bad'), its light and music in the Do list's questions and the Don't list, its crowd in Get One Human Anchor, its touch in the Don't list and Touch, Consent, and Compassion; what only it said (someone they're wary of, heat, cold, the bathroom) is merged here after the fixes line; none else: read the section from its heading to Stillness or Movement?",
+ "questions": {
+  "Q1": "PASS: each paragraph opens on its point: the section's job, the first priority, then the room's fixes with their reason",
+  "Q2": "PASS: every act is the helper's own, with its purpose: the dangers removed, the lights dimmed and the extra people out because they're overwhelmed, the person moved away from anyone they're wary of, their body checked",
+  "Q3": "PASS: which things exactly: keys, stove, roads, balconies, pools, weapons, the phone; the lights, the extra people, anyone they're wary of, heat, cold, the bathroom",
+  "Q4": "PASS: no terms a reader wouldn't know; the triage app is linked where it is named",
+  "Q5": "PASS: each turn has what it turns on: they're overwhelmed, so dim and clear; if they're beside someone they're wary of, move them",
+  "Q6": "PASS: dangers, then the room: the light and the people, who's beside them, then the person's own body",
+  "Q7": "PASS: every fact is about the person in front of them now",
+  "Q8": "PASS: the room's fixes sit together after its reason; the person's body is checked with the room, as before",
+  "Q9": "PASS: nothing compressed: an act or a pair of acts a sentence, with the small words that carry the reason ('so', 'as well', 'just')"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}
