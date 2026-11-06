@@ -1,0 +1,39 @@
+{
+ "readers": [
+  "haiku",
+  "sonnet"
+ ],
+ "sentences": [
+  "So Neurological De-Armoring is about fixing the underpinnings first, rather than redecorating.",
+  "The protocol works like a metabolic solvent, by supplementing Ketones (BHB), which block HDAC (an enzyme that keeps genes switched off), along with Glutamate modulation, to soften the \"concrete\" in the brainstem.",
+  "That lets us dig under the house and pour a new foundation, so we can eventually update the psychological software upstairs."
+ ],
+ "flagged": {
+  "1": [
+   "haiku",
+   "sonnet"
+  ],
+  "2": [
+   "haiku",
+   "sonnet"
+  ],
+  "3": [
+   "haiku",
+   "sonnet"
+  ]
+ },
+ "agreed": [
+  1,
+  2,
+  3
+ ],
+ "whole": {
+  "haiku": [
+   "The paragraph stacks several metaphors (solvent, concrete, house, foundation, software, upstairs) into a few lines and moves through them in a parallel, evenly weighted sequence. The voice is an explainer's and every sentence carries the same load, so it reads machine-made as a whole."
+  ],
+  "sonnet": [
+   "Each sentence is a smooth, well-formed package: thesis, mechanism, payoff. The mixed metaphors (solvent, concrete, house, software) are consistent in polish and never lose composure, and nothing in the voice is idiosyncratic."
+  ]
+ },
+ "human_clean": []
+}
