@@ -403,9 +403,48 @@ def shared_changes():
     return shared(run(['git', 'diff', '--name-only', 'origin/main...HEAD'], check=False).stdout.split())
 
 
-def merge_gate(a, pending):
+ROBOT = '.github/workflows/lane-automerge.yml'
+GATE_DOC = 'docs/HUMANIZATION-GATE.md'
+
+
+def new_duplicate_lessons(branch_text, main_text):
+    """Lesson numbers that the branch's gate uses twice and main's doesn't: two lanes took the same next number in the
+    same hour (2026-11-06: the neuro lane's E374 and the gut lane's, which became E378). Older shared numbers, already
+    cited with their lane, stay as they are."""
+    def dups(text):
+        nums = re.findall(r'^- \*\*E(\d+)\. ', text or '', re.M)
+        return {n for n in nums if nums.count(n) > 1}, nums
+    mine, nums = dups(branch_text)
+    old, _ = dups(main_text)
+    return sorted(mine - old, key=int), max(map(int, nums)) + 1 if nums else None
+
+
+def lesson_numbers_gate():
+    """Refuse a push whose gate gives a new lesson a number main already gave another (gate E378)."""
+    path = REPO / GATE_DOC
+    main_text = run(['git', 'show', 'origin/main:' + GATE_DOC], check=False).stdout
+    new, nxt = new_duplicate_lessons(path.read_text(encoding='utf-8') if path.exists() else '', main_text)
+    if new:
+        sys.exit('refused: %s has two lessons numbered %s. Main gave the number out first, so yours takes the next free '
+                 'one, E%s and on, in every file that cites it (gate E378).' % (GATE_DOC, ', '.join('E' + n for n in new),
+                                                                              nxt))
+
+
+def robot_on_main():
+    """Whether main has the lane auto-merge workflow (gate E378), which merges a lane's pull request once its checks
+    pass and it has no conflicts."""
+    return run(['git', 'cat-file', '-e', 'origin/main:' + ROBOT], check=False).returncode == 0
+
+
+def merge_gate(a, pending, robot=None):
     """Refuse a push of shared changes that says neither --merge nor --no-merge (Joel, 2026-11-05: "make sure you merge
-    lessons with main branch so everyone is sharing always")."""
+    lessons with main branch so everyone is sharing always"), unless main has the lane auto-merge workflow, which merges
+    the pull request itself once its checks pass (gate E378; Joel, 2026-11-06: every lane's pull request merges
+    itself)."""
+    if robot is None:
+        robot = robot_on_main()
+    if pending and not (a.merge or a.no_merge) and robot:
+        return
     if pending and not (a.merge or a.no_merge):
         sys.exit('refused: this branch changes shared rules or tools (%s), and lessons go to main the turn they are made '
                  '(Joel, 2026-11-05 15:15 UTC: "make sure you merge lessons with main branch so everyone is sharing '
@@ -465,6 +504,7 @@ def main(argv=None):
             print(line)
     pending = sorted(set(shared_changes()) | set(shared(a.add)))
     merge_gate(a, pending)
+    lesson_numbers_gate()
     note = compare_gate(a.article, a.unread_ok)
     if pending and a.no_merge:
         note = ((note + '\n\n') if note else '') + 'Shared changes not merged into main this turn: ' + a.no_merge
@@ -485,9 +525,29 @@ def main(argv=None):
     print(mergeable())
     if a.merge:
         print(merge_now())
+    elif a.no_merge and robot_on_main():
+        print(hold(a.no_merge))
+    elif robot_on_main():
+        print('the lane auto-merge workflow merges this pull request once its checks pass and it has no conflicts (E378)')
     elif pending:
         print('shared changes NOT merged into main: %s' % a.no_merge)
     return 0
+
+
+def hold(why):
+    """--no-merge with the lane auto-merge workflow on main: label the pull request "hold", so the workflow leaves it
+    for Joel (gate E378), and say why on it."""
+    branch = run(['git', 'rev-parse', '--abbrev-ref', 'HEAD']).stdout.strip()
+    owner, repo = owner_repo()
+    num = run(['gh', 'api', 'repos/%s/%s/pulls?state=open&head=%s:%s' % (owner, repo, owner, branch),
+               '--jq', '.[0].number // empty'], check=False).stdout.strip()
+    if not num:
+        return 'NOT HELD: no open pull request for %s' % branch
+    r = run(['gh', 'api', '-X', 'POST', 'repos/%s/%s/issues/%s/labels' % (owner, repo, num), '-f', 'labels[]=hold'],
+            check=False)
+    if r.returncode:
+        return 'NOT HELD: GitHub refused the "hold" label on pull request %s: %s' % (num, (r.stderr or r.stdout).strip()[-300:])
+    return 'pull request %s labelled "hold", so the lane auto-merge workflow leaves it: %s' % (num, why)
 
 
 if __name__ == '__main__':

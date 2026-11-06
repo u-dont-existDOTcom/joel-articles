@@ -2853,6 +2853,32 @@ of order and a bit redundant. learn some lessons pls". His paragraph and what it
 
 (E374 to E377 are the neuro de-armoring lane's. The next lesson in any lane is E378.)
 
+## What the gut lane's conflicts taught (2026-11-06, Joel's message of 19:48 UTC)
+
+His message, when pull request 308 conflicted with main for the second time in a day: "pr still has conflicts, how can
+we durably prevent this from happening when i have multiple lanes working on the same thing, is that not possible? it
+seems hard to believe huge teams work together on projects on gh. i'm one person and still it's too hard."
+
+- **E378. A lane's pull request merges itself once its checks pass; none waits for a click.** The other lanes merged
+  their own pull requests about a minute after opening them (`lane_push.py --merge`, E367: #306, #307, #310, #311 and
+  #313). The gut lane's session may not merge into main without review, so its pull requests waited for his click: #293
+  for 33 hours, #308 for more than 20. Main moved under them each time another lane merged, and three times a lane had
+  changed the lines next to the gut lane's: `pangram_ledger.py` and the gate's numbering note (#305, #306), the
+  numbering note again (#310), and `AGENTS.md`'s marking-page paragraph (#313).
+  Big teams keep pull requests short-lived and merge them as soon as the checks pass, often through a merge queue
+  (https://www.flagsmith.com/blog/trunk-based-development); GitHub's merge queue needs an organization's repository
+  (https://github.blog/changelog/2023-07-12-pull-request-merge-queue-is-now-generally-available/), and this one is his
+  own account's. Asked the same day, he chose: every lane's pull request merges itself. So
+  `.github/workflows/lane-automerge.yml` merges a pull request into main from a `claude/` branch of this repository,
+  opened by him (the lanes push as him), once Content integrity passes on the commit it still has and GitHub finds it
+  mergeable; a "hold" label stops it. `lane_push.py` stops asking for `--merge` once the workflow is on main, and its
+  `--no-merge "why"` labels the pull request "hold". A pull request with conflicts still needs its lane: merge main in
+  and push again (E339). The same hour showed the other half: this lesson was E374 until the neuro lane's #314 gave
+  out E374 to E377 first. So `lane_push.py` now refuses a push whose gate has a new lesson number main already gave
+  another, and names the next free one.
+
+(E378 is the gut lane's. The next lesson in any lane is E379.)
+
 
 ## What turn 100's API checks showed (the Inner Child lane, 2026-10-23)
 

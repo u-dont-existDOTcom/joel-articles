@@ -182,20 +182,48 @@ class MergeLessons(unittest.TestCase):
 
     def test_shared_changes_without_merge_or_reason_refuse(self):
         with self.assertRaises(SystemExit) as e:
-            P.merge_gate(self.args(), ['docs/MAKING-SENSE.md'])
+            P.merge_gate(self.args(), ['docs/MAKING-SENSE.md'], robot=False)
         self.assertIn('--merge', str(e.exception))
         self.assertIn('docs/MAKING-SENSE.md', str(e.exception))
 
     def test_merge_or_a_reason_lets_it_through(self):
-        P.merge_gate(self.args('--merge'), ['docs/MAKING-SENSE.md'])
-        P.merge_gate(self.args('--no-merge', 'its tests fail until the gut lane merges'), ['docs/MAKING-SENSE.md'])
+        P.merge_gate(self.args('--merge'), ['docs/MAKING-SENSE.md'], robot=False)
+        P.merge_gate(self.args('--no-merge', 'its tests fail until the gut lane merges'), ['docs/MAKING-SENSE.md'],
+                     robot=False)
 
     def test_article_work_alone_needs_neither(self):
-        P.merge_gate(self.args(), [])
+        P.merge_gate(self.args(), [], robot=False)
 
     def test_merge_and_no_merge_together_refuse(self):
         with self.assertRaises(SystemExit):
-            P.merge_gate(self.args('--merge', '--no-merge', 'why'), ['docs/x.md'])
+            P.merge_gate(self.args('--merge', '--no-merge', 'why'), ['docs/x.md'], robot=False)
+
+    def test_with_the_auto_merge_workflow_on_main_shared_changes_need_neither(self):
+        """Gate E378 (Joel, 2026-11-06: every lane's pull request merges itself once its checks pass)."""
+        P.merge_gate(self.args(), ['docs/MAKING-SENSE.md'], robot=True)
+        with self.assertRaises(SystemExit):
+            P.merge_gate(self.args(), ['docs/MAKING-SENSE.md'], robot=False)
+
+    def test_a_lesson_number_main_already_gave_out_refuses(self):
+        """Gate E378: on 2026-11-06 the neuro lane's pull request 314 numbered its lessons E374 to E377 while the gut
+        lane's branch had its own E374; the gut lane's became E378."""
+        main = '- **E373. Old.** text\n- **E374. Neuro.** text\n'
+        branch = main + '- **E374. Gut.** text\n'
+        self.assertEqual(P.new_duplicate_lessons(branch, main), (['374'], 375))
+        shared_before = '- **E362. Gut.** a\n- **E362. Bad trips.** b\n'
+        self.assertEqual(P.new_duplicate_lessons(shared_before + '- **E363. New.** c\n', shared_before)[0], [])
+
+    def test_no_merge_with_the_workflow_labels_the_pull_request_hold(self):
+        calls = []
+
+        def run(cmd, **kw):
+            calls.append(cmd)
+            out = {'rev-parse': 'claude/gut-r16\n'}.get(cmd[1], '308\n' if 'pulls?state=open' in ' '.join(cmd) else '')
+            return mock.Mock(returncode=0, stdout=out, stderr='')
+        with mock.patch.object(P, 'run', run), mock.patch.object(P, 'owner_repo', lambda: ('o', 'r')):
+            msg = P.hold('his answers are still out')
+        self.assertIn('labelled "hold"', msg)
+        self.assertTrue(any('issues/308/labels' in ' '.join(c) and 'labels[]=hold' in c for c in calls))
 
     def fake(self, checks, merged=True, pull='301'):
         calls = []
