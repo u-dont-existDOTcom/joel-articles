@@ -2794,27 +2794,6 @@ humanized so that's funny"; "fix this rule durably in the repo, your job is clea
 
 (E373 is the bad trips lane's. The next lesson in any lane was E374; it is in the next section.)
 
-## What his message of 2026-11-06 19:43 UTC taught (the bad trips guide)
-
-After turn 15 I stopped with the room stretch reading AI in eight versions, and left him a cut: the tips the stretch
-repeated from their own sections further on (water, the hand on the shoulder, speaking slowly, the music paragraph). I had
-tested it (without them the stretch still read AI) and took the tips he had kept in his round-8 version for his decision
-to keep them. His answer, word for word (`articles/bad-trips/experiments/t16-answers/`): "ok so why did you stop, did you
-figure out if those cuts would help? i'd say make the cuts regardless of pangram if it makes the guide read better, that
-was what we were supposed to do already prior".
-
-- **E374. A cut the article's own goal calls for is made, Pangram or not, and a stuck check is not a reason to stop.** This
-  guide's first goal is saying each thing once. So a passage that repeats what the guide says more fully in its own place
-  loses the repeat when that makes the guide read better, without waiting for a Pangram reason or a card, and the one
-  detail only the repeat said moves to the fuller place (here the sips moved to the Do list's "Water?";
-  `articles/bad-trips/experiments/t16-answers/apply_t16.py`). His decisions (E373) are what he chose: a cut he made, a
-  meaning he made clear, what he says stays as it is (`KEEP-AS-IS.json`). A sentence he left standing while he fixed its
-  wording is not a decision to keep it. And a lineage at its try cap, or a section that still reads AI, ends nothing:
-  `pangram_ledger.py` now says to stop and ask only for a decision that is his, and to go on with a fix that is mine or
-  that the article's goals already call for (`--after-fix`, or narrowing to paragraphs).
-
-(E374 is the bad trips lane's. The next lesson in any lane is E375.)
-
 ## What his dynorphin paragraph taught (the neuro de-armoring lane, his message of 2026-11-06 19:40 UTC)
 
 The card was DFB-2b on Neuro De-Armoring Cards, 6 November: the section "C. The "Hardened" Circuit: Dynorphin &
@@ -2867,7 +2846,28 @@ of order and a bit redundant. learn some lessons pls". His paragraph and what it
   report went to him with this lesson. The rule here holds for any yes I need from him (terms, a setting, an account step): the
   question, then the full text or the exact change, in one message.
 
-(E374 to E377 are the neuro de-armoring lane's. The next lesson in any lane is E378.)
+(E374 to E377 are the neuro de-armoring lane's. The next lesson in any lane was E378; it is in the next section.)
+
+## What his message of 2026-11-06 19:43 UTC taught (the bad trips guide)
+
+After turn 15 I stopped with the room stretch reading AI in eight versions, and left him a cut: the tips the stretch
+repeated from their own sections further on (water, the hand on the shoulder, speaking slowly, the music paragraph). I had
+tested it (without them the stretch still read AI) and took the tips he had kept in his round-8 version for his decision
+to keep them. His answer, word for word (`articles/bad-trips/experiments/t16-answers/`): "ok so why did you stop, did you
+figure out if those cuts would help? i'd say make the cuts regardless of pangram if it makes the guide read better, that
+was what we were supposed to do already prior".
+
+- **E378. A cut the article's own goal calls for is made, Pangram or not, and a stuck check is not a reason to stop.** This
+  guide's first goal is saying each thing once. So a passage that repeats what the guide says more fully in its own place
+  loses the repeat when that makes the guide read better, without waiting for a Pangram reason or a card, and the one
+  detail only the repeat said moves to the fuller place (here the sips moved to the Do list's "Water?";
+  `articles/bad-trips/experiments/t16-answers/apply_t16.py`). His decisions (E373) are what he chose: a cut he made, a
+  meaning he made clear, what he says stays as it is (`KEEP-AS-IS.json`). A sentence he left standing while he fixed its
+  wording is not a decision to keep it. And a lineage at its try cap, or a section that still reads AI, ends nothing:
+  `pangram_ledger.py` now says to stop and ask only for a decision that is his, and to go on with a fix that is mine or
+  that the article's goals already call for (`--after-fix`, or narrowing to paragraphs).
+
+(E378 is the bad trips lane's. The next lesson in any lane is E379.)
 
 
 ## What turn 100's API checks showed (the Inner Child lane, 2026-10-23)

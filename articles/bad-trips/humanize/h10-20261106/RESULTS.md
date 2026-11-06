@@ -1,7 +1,7 @@
 # Checks of 2026-11-06 (turn 16): his cuts in, and the Psychological First Aid section fixed by me
 
 His message, 19:43 UTC (`../../experiments/t16-answers/JOEL-MESSAGE-20261106-1943.md`): "make the cuts regardless of pangram
-if it makes the guide read better". The cuts went in by `../../experiments/t16-answers/apply_t16.py` (gate E374). Then I
+if it makes the guide read better". The cuts went in by `../../experiments/t16-answers/apply_t16.py` (gate E378). Then I
 fixed the section's remaining AI lines his usual way (the point first, joined, plain words, quips said plainly or cut):
 `PFA-SECTION-try1.txt`, with its receipt, the per-paragraph receipts in `receipts/`, two fresh newcomer reads of the
 section (`newcomer/`, the draft reads kept as `newcomer-draft1` and `newcomer/draft`) and the linter (no failures).

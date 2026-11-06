@@ -256,7 +256,7 @@ def blocks(recs, lineage, scope, detector=None, after_fix=None):
     if cap is not None and len(line) >= cap and not (scope == 'section' and (after_fix or '').strip()):
         out.append('lineage %s has used its %d tries for a %s: stop and ask Joel only for a decision that is his (a new '
                    'owner decision is needed); a fix that is yours, or that the article\'s own goals already call for '
-                   '(a repeat cut, gate E374), goes on: for a section with a fix in it, give --after-fix (his answer 28a), '
+                   '(a repeat cut, gate E378), goes on: for a section with a fix in it, give --after-fix (his answer 28a), '
                    'or narrow it to its paragraphs (E343)' % (lineage, cap, scope))
     done = [p for p in line if p['result']]
     if len(done) >= 2 and all(is_miss(p) and not p['explain'] for p in done[-2:]):
