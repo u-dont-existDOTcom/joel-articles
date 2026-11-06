@@ -1,0 +1,61 @@
+{
+ "format": "joel-suggestion-review-answers-v1",
+ "review_id": "bad-trips-r11",
+ "title": "Bad Trips Guide, Round 11",
+ "git_file": "articles/bad-trips/review/r11/REVIEW-R11.html",
+ "article": {
+  "file": "articles/bad-trips/review/r11/PAGE-R11.md",
+  "sha256": "e2f05added7cc9a21730d043c1efcf496a393b4ce7721bad43fb447c3b5c68e4"
+ },
+ "built": "2026-11-06",
+ "generator": "suggestion_review.py 1.8 (2026-11-06)",
+ "exported_at": "2026-11-06T20:51:38.227Z",
+ "counts": {
+  "approved": 2,
+  "rejected": 0,
+  "revise": 0,
+  "pending": 0
+ },
+ "items": [
+  {
+   "id": "PFA-PLAIN",
+   "type": "plain",
+   "title": "Psychological First Aid: its AI lines said plainly",
+   "where": "Psychological First Aid: The First Five Minutes, P1",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "The triage app gives you the order to do things in, and this section is about doing them in a way that takes pressure off the person.\n\nA lot of what looks like a deep psychedelic crisis is a scared person in a room that's getting on their nerves, so look around the room next. Maybe the light's too bright or the music's horrible. Are five concerned people talking at once? Somebody might be touching them and they hate it, or they're stuck beside someone they're wary of. And check whether they're too hot or too cold, or desperate for the bathroom.\n\nThen remind them where they are and what's happening, since a trip can make them lose track of it:\n\nYou're in [place]. It's [date/time]. You took [substance, if known], and its effects will peak and then change. It's intense right now, and it'll pass. We can sort out the rest of your life tomorrow.\n\nIf the state came from a practice, like meditation or fasting, the person can say:\n\nI'm in an intense state, so I'm stopping the practice now, and my only job is to stay safe.\n\nThen help them pick one safe thing to try with their body and one calm person to stay with them, which the next two sections are about. Protect their sleep too, especially if they're euphoric or grandiose, and leave what it all meant until they've slept.\n\nA state from a practice has no drug wearing off on a schedule, so there's no telling how long it will last. Once they can eat safely, food and warmth help their body settle.",
+   "before": "The triage app gives the order. This section is about carrying it out without becoming one more source of pressure.\n\nA lot of what looks like a deep psychedelic crisis is a scared person in a room that's getting on their nerves, so look around the room next. Maybe the light's too bright or the music's horrible. Are five concerned people talking at once? Somebody might be touching them when they don't want it, or they're stuck beside someone they don't trust. And check whether they're too hot or too cold, or desperate for the bathroom.\n\nGive them ordinary reality:\n\nYou're in [place]. It's [date/time]. You took [substance, if known]. These effects rise, peak, and change. This is intense, but it will change. We don't need to solve your life tonight.\n\nWhen the state came from meditation, breathwork, fasting, kundalini-style practice, extreme stretching, ritual, or a retreat, say:\n\nI am in an intense state. I am stopping the practice now. My job is ordinary safety.\n\nFrom there, choose one safe body experiment and one calm human. The next two sections explain those choices. Protect sleep, especially when the person is euphoric or grandiose, and let meaning wait until the nervous system has somewhere to stand.\n\nA non-drug altered state may have a less predictable clock than a substance. The practical move remains simple: stop the practice, eat something ordinary when safe, let the body settle, keep warm, and sleep. An open portal does not obligate you to keep pushing through it.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-06T20:51:20.140Z"
+    }
+   ],
+   "updated": "2026-11-06T20:51:20.140Z"
+  },
+  {
+   "id": "PFA-MOVE",
+   "type": "structure",
+   "title": "The practice paragraph moves next to its script",
+   "where": "Psychological First Aid: The First Five Minutes, P11",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "(move \"A non-drug altered state may have a less …\" to just before \"From there, choose one safe body experiment and …\")",
+   "before": "",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-06T20:51:31.187Z"
+    }
+   ],
+   "updated": "2026-11-06T20:51:31.187Z"
+  }
+ ]
+}
