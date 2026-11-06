@@ -357,9 +357,9 @@ Then look at the room. Is the light too bright? Is the music horrible? Are five 
 
 A huge amount of what gets called profound psychedelic crisis is a frightened nervous system stuck in an annoying room.
 
-Dim the lights. Lower the sound. Clear out the extra people. Offer water without forcing it. Sip rather than chug. Ask before touching. Speak slowly and use fewer words. Please don't explain the universe at somebody who is already frightened by it.
+They're feeling overwhelmed, so dim the lights, and clear out the extra people around them. If they're thirsty, offer water, and suggest they sip it rather than chug. Ask if they'd like a hand on the shoulder. Speak slowly and use fewer words.
 
-Ask "music or quiet?" If a track starts pulling the experience somewhere unwanted, change it. This is a bad time to defend the playlist.
+Ask "Would you like music or is quiet best?" If a track starts pulling the experience somewhere unwanted, go ahead and change it.
 
 Give them ordinary reality:
 

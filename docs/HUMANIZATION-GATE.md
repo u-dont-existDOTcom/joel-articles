@@ -2721,7 +2721,44 @@ lane was E368 here; it is in the next section.)
   "HRP"). `sense_receipt.py check` refuses a sentence of mine that explains a term after the text has already used it,
   unless the receipt's `late_ok` says why it can't be explained there.
 
-(E368 and E369 are the gut lane's. The next lesson in any lane is E370.)
+(E368 and E369 are the gut lane's. The next lesson in any lane was E370 here; it is in the next section.)
+
+## What the bad trips guide's round 8 taught (2026-11-06, his answer exported 00:27 UTC)
+
+His answer to ROOM-YOURS, the card that asked for his version of the room stretch of Psychological First Aid after
+five tries of mine read AI, 100% (`articles/bad-trips/humanize/h07-20261105/RESULTS.md`). He rewrote its second half,
+the fixes and the music, and checked each step in his account (`articles/bad-trips/humanize/h08-20261106/HIS-CHECKS-READ-20261106.json`):
+"first i cut the wry ai quips, uncompressed, varied the rhythm a little, and clarified (who was sipping? lower the sound
+before asking if they want music?), but that didn't fix it all yet"; "now i made it have a payoff at the start and that
+flipped human"; then a minimal pair, "fixed that one, it was unclear (why ask to touch, for what, for you?)". The first
+half, the room's questions and his annoying-room line, he left to me: "a real easy fix".
+
+- **E370. In an article where he has asked for its AI quips to go, a line of his that readers take for a quip is one of
+  them.** His order for this guide, 2026-11-03 18:59 UTC: "so many ai quips, we gotta remove or humanize those"
+  (`articles/bad-trips/OWNER-EDITS.json`, `ai-quips`, waiting since round 2). Through five tries I kept "This is a bad
+  time to defend the playlist" and "Please don't explain the universe at somebody who is already frightened by it" as
+  he wrote them, because they were his distinctive lines, though the three panel readers called them quips every time;
+  every try read AI. He cut both and his version read Human (b8ea86d0 to 26e9138d, with the payoff below). So: where his
+  standing order covers quips, the first try says such a line plainly or cuts it, and the card says which and why, so
+  he can put it back. His general rule, keep his distinctive phrasings and ask before replacing one, still holds for a
+  line no reader takes for a quip.
+- **E371. The payoff that opens a paragraph of instructions is the reader's reason in plain words, and each instruction
+  names its exact act.** His two minimal pairs: "Dim the lights. Clear out the extra people. ..." read AI, and with "They're
+  feeling overwhelmed, so" before it, joined ("so dim the lights, and clear out the extra people around them"), Human
+  (b8ea86d0, 26e9138d); "Ask before touching." read AI Medium in its own window, and "Ask if they'd like a hand on the
+  shoulder." read Human, High (56966df2, a58f9e1b). My tries had put a reason first too, but the reason was his
+  annoying-room line, a quip (E370), and an instruction like "Ask before touching" left the reader asking for what, and
+  whose touch. This is E368, the gut lane's "his usual fix first", for instructions: say what the person is going through
+  as the reason, then each act exactly. `pangram_ledger.py predict --first-fix` holds me to the order of the fixes; whether
+  the reason is plain and each act exact is the receipt's Q2 and Q3 (`sense_receipt.py`), not yet checked by any tool.
+- **E372. A card that asks for his version says what each of its paragraphs read, and that every one of them is his to
+  change.** He asked: "but why did you only have me editing the 2nd part when i clicked edit? the first part also ai".
+  The card's box held all four paragraphs, but its text listed what to keep as the fixes and said I had kept his lines as
+  he wrote them, so the questions and the annoying-room line looked settled. Each paragraph of such a card now gets its
+  own reading (verdict and link), and the card says plainly that all of them are his to change. Written guidance only:
+  no tool checks a card for it yet.
+
+(E370 to E372 are the bad trips lane's. The next lesson in any lane is E373.)
 
 
 ## What turn 100's API checks showed (the Inner Child lane, 2026-10-23)

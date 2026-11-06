@@ -99,7 +99,13 @@ def run(page_path, report_path=None):
             edit_only = len(ids) < 2
             if edit_only:
                 eds0 = [s['id'] for s in data['suggestions'] if s['advice'] == 'edit']
-                ok('%s: a page of stretches to edit (%d), no suggestions to approve' % (scheme, len(eds0)), len(eds0) >= 1, eds0)
+                if not eds0 and len(ids) == 1:
+                    # a page of one suggestion to approve and nothing else (the bad trips guide's round 9, 2026-11-06: his
+                    # exercise, one card) runs the same checks on that card, its Revise standing in for Edit
+                    ok('%s: a page of one suggestion to approve, no stretches to edit' % scheme, True)
+                    eds0 = ids[:]
+                else:
+                    ok('%s: a page of stretches to edit (%d), no suggestions to approve' % (scheme, len(eds0)), len(eds0) >= 1, eds0)
                 ids = eds0[:1] * 2
             c1, c2 = ('#c-' + i.replace('.', '\\.') for i in ids[:2])
             c3 = '#c-' + ids[2].replace('.', '\\.') if three else c2
