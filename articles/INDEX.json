@@ -107729,27 +107729,27 @@
         },
         {
           "path": "articles/neuro-de-armoring/humanize/FIDELITY-KEYS.json",
-          "sha256": "27be41d95b33709ccb9e55245ad7daffb45fd70a217ec14d516297e78d1029b0",
+          "sha256": "ee4e3e77170d1042008813a036b9045c98d61e57139e4dc5e56a6e5781f7f41d",
           "role": "humanization_working_record"
         },
         {
           "path": "articles/neuro-de-armoring/humanize/HANDOFF-neuro-de-armoring.md",
-          "sha256": "08034d3647de4c1b7ed15ebab210a683b320f24280b0bd2af37c2514f5f8bc81",
+          "sha256": "65eb18227496e72a87f4f89f64fc632893260f31a78318816a08232e97ccd4aa",
           "role": "humanization_working_record"
         },
         {
           "path": "articles/neuro-de-armoring/humanize/HUMANIZED-SO-FAR.md",
-          "sha256": "334cf8c3baa92cf0d04158d56fb6798e438d6aa741f7a99281c54bae0b3fbf03",
+          "sha256": "d18316ea945d9943d3f42f7618c3ec7309562c8f0779007d60e99024e6cc6df5",
           "role": "humanization_working_record"
         },
         {
           "path": "articles/neuro-de-armoring/humanize/OWNER-QUESTIONS.md",
-          "sha256": "cb8769227a736c05bab965473c5fb409ebfede570731acb501965a3b09649555",
+          "sha256": "57ccd61ca941a3345acc5e6df71e32f15e0fe937a8bbdc18cb401080ca257f08",
           "role": "humanization_working_record"
         },
         {
           "path": "articles/neuro-de-armoring/humanize/STATUS.md",
-          "sha256": "9ba27c564b88521d1a1e224ae6c77e23eb7ea4f6365e06812e55c679234c24f2",
+          "sha256": "9da800225a295f2d7877b99970d5a5f4c1a3116ddcad58a18580f071a742d24c",
           "role": "humanization_working_record"
         },
         {
@@ -107839,7 +107839,7 @@
         },
         {
           "path": "articles/neuro-de-armoring/humanize/pangram-ledger.jsonl",
-          "sha256": "f8d25cefc3f7f4a471f406df97ec45b2210547a6b18d3c10e1b7d9c2aac3bb44",
+          "sha256": "8eaf0c260d0129d6fa24e33c47b6d3f6f455b3f05b5f9a3d6c9ee3c2e883472a",
           "role": "humanization_working_record"
         },
         {
@@ -108404,7 +108404,7 @@
         },
         {
           "path": "articles/neuro-de-armoring/humanize/fix-20261103/examples/WHAT-HIS-VERSIONS-DO.md",
-          "sha256": "e4bb8f3bd9d3da86614a1edae6fc60019eef3313e9e9085954e1a1b889147427",
+          "sha256": "18fbbb45019a2bdbce16e80b8c86d24aca134e7dc80383deb66fcde602102506",
           "role": "humanization_working_record"
         },
         {
@@ -111594,7 +111594,7 @@
         },
         {
           "path": "articles/neuro-de-armoring/humanize/fix-20261106/ASKRIGOR-BUG-REPORT.md",
-          "sha256": "7ab86b19e157917da5908e9e74f6bf9258ae6373611e84d485ba63b93a298690",
+          "sha256": "52a9476af82a30e94a1427f84cf5eeb13a4d1964a98889cb9ce8524277723425",
           "role": "humanization_working_record"
         },
         {
@@ -111605,6 +111605,26 @@
         {
           "path": "articles/neuro-de-armoring/humanize/fix-20261106/joel-20261106-1940-message.txt",
           "sha256": "ad478bd3f0de2f66b7b36ab2666f62c3ba428c7e190ebfbc9f7adaae3d7a038e",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/neuro-de-armoring/humanize/fix-20261106/checks-2017/APPLIED-2017.json",
+          "sha256": "7be6867a763ad9d63b39d4a2defd7d05be29f9696b037b031f2bf080c9e24f8e",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/neuro-de-armoring/humanize/fix-20261106/checks-2017/PROBLEM-cites.receipt.json",
+          "sha256": "cdee979054802f7d87d7c6f5224289f663e70478306b0e4421fb4e85d51de3c1",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/neuro-de-armoring/humanize/fix-20261106/checks-2017/PROBLEM-cites.txt",
+          "sha256": "398c8f3dffa05481bc2cf81c4ba19a733f100550b1e28f9d5b425c0a6e7718b5",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/neuro-de-armoring/humanize/fix-20261106/joel-20261106-2017-message.txt",
+          "sha256": "0f402083ee850192e863817831e6c9d7860f26f6c2afc8596a8e30095fe0e2b4",
           "role": "humanization_working_record"
         }
       ]

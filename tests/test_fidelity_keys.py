@@ -156,3 +156,37 @@ class FidelityKeys(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
+
+
+class CitationsLost(unittest.TestCase):
+    """Gate E378. Joel, 2026-11-06 20:17 UTC: "i didn't even see Nestler, so if i took thatout, don't assume that was on
+    purpose ... don't assume a citation was removed on purpose unless it makes sense that it owuld be, ask the user if
+    unsure"."""
+    MASTER = ('DeltaFosB holds the circuit in place for weeks ([Nestler, 2008](https://example.org/n)). It builds up under '
+              'stress ([Vialou, et al, 2010](https://example.org/v)).\n')
+
+    def setUp(self):
+        self.keys = fk.extract(self.MASTER)
+        self.his = self.MASTER.replace(' ([Nestler, 2008](https://example.org/n))', '')
+        r = fk.check(self.keys, self.his)
+        self.assertIn('2008', r['numbers_lost'])
+        self.change = {'by': 'his paragraph', 'numbers_lost': r['numbers_lost'], 'numbers_new': r['numbers_new']}
+
+    def test_a_citation_year_his_change_took_out_needs_its_reason(self):
+        r = fk.check(dict(self.keys, owner_changes=[self.change]), self.his)
+        self.assertFalse(r['pass'])
+        self.assertEqual(r['citations_unexplained'], [{'by': 'his paragraph', 'year': '2008'}])
+
+    def test_a_vague_reason_is_not_one(self):
+        c = dict(self.change, citations_lost=[{'cite': 'Nestler 2008', 'why': 'his rewrite dropped it'}])
+        self.assertFalse(fk.check(dict(self.keys, owner_changes=[c]), self.his)['pass'])
+
+    def test_his_words_his_card_or_a_claim_that_is_gone_pass(self):
+        for why in ('he said: "cut the Nestler cite, it\'s the wrong paper"',
+                    'on his card: X-1 proposed the cut and he approved it',
+                    'the claim is gone: nothing in the article says it lasts weeks any more'):
+            c = dict(self.change, citations_lost=[{'cite': 'Nestler 2008', 'why': why}])
+            self.assertTrue(fk.check(dict(self.keys, owner_changes=[c]), self.his)['pass'], why)
+
+    def test_the_citation_put_back_passes_with_no_entry(self):
+        self.assertTrue(fk.check(self.keys, self.MASTER)['pass'])

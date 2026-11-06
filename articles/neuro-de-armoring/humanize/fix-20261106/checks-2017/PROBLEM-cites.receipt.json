@@ -1,0 +1,82 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-06",
+ "text_sha256": "65c31a56dcee2bc6393b2eb12da048a545394f659c0ee453e41e0bcc6b62596a",
+ "text": "The Problem: If you're feeling apathetic, gray, no desire for anything, you might be in a neurochemical \"Void\" state caused by Dynorphin & DeltaFosB. That's because the brain releases dynorphin to suppress dopamine in order to protect from trauma's Glutamate Storm.  And as we know, dopamine is the neurotransmitter for motivation (by showing us what is important to pay attention to). Even though dynorphin clears relatively quickly, allowing us the motivation to learn, DeltaFosB keeps cementing our neural connections, preventing that learning from really \"clicking\" as durable insights. And because we're still reacting in the same maladaptive ways (same fears, etc), our psychology then asks for more DeltaFosB to keep the armor in place, in a vicious cycle. (Nestler, 2008; Vialou, et al, 2010; Zhong, et al, 2023).",
+ "section": "C. The \"Hardened\" Circuit: Dynorphin & DeltaFosB",
+ "reader": "someone with trauma who feels apathetic and gray, with no desire for anything, wondering why and whether it lasts",
+ "sentences": [
+  {
+   "s": "The Problem: If you're feeling apathetic, gray, no desire for anything, you might be in a neurochemical \"Void\" state caused by Dynorphin & DeltaFosB.",
+   "payoff": "they recognize their own state and learn it has a name and a chemical cause",
+   "follows": "opens the section under its heading, which names dynorphin and DeltaFosB"
+  },
+  {
+   "s": "That's because the brain releases dynorphin to suppress dopamine in order to protect from trauma's Glutamate Storm.",
+   "payoff": "they learn the gray is a protective response, not a personal failing",
+   "follows": "gives the cause of the state the first sentence named"
+  },
+  {
+   "s": "And as we know, dopamine is the neurotransmitter for motivation (by showing us what is important to pay attention to).",
+   "payoff": "they see why less dopamine means no desire: it is what shows us what matters",
+   "follows": "says what dopamine does, so the suppression in the sentence before explains the 'no desire'"
+  },
+  {
+   "s": "Even though dynorphin clears relatively quickly, allowing us the motivation to learn, DeltaFosB keeps cementing our neural connections, preventing that learning from really \"clicking\" as durable insights.",
+   "payoff": "they learn that motivation can come back while the learning still doesn't stick, so a better week isn't the end of it",
+   "follows": "continues in time order: dynorphin lifts, then what DeltaFosB still does"
+  },
+  {
+   "s": "And because we're still reacting in the same maladaptive ways (same fears, etc), our psychology then asks for more DeltaFosB to keep the armor in place, in a vicious cycle.",
+   "payoff": "they see that their own repeated reactions keep the armor in place, which is what the protocol works on",
+   "follows": "gives the reason the state from the sentence before keeps going"
+  },
+  {
+   "s": "(Nestler, 2008; Vialou, et al, 2010; Zhong, et al, 2023).",
+   "payoff": "they can check each claim: lasting gene changes (Nestler), stress and resilience (Vialou), fear that won't unlearn (Zhong)",
+   "follows": "the sources for the four sentences before it"
+  }
+ ],
+ "checked": [
+  {
+   "point": "Nestler 2008 for DeltaFosB lasting",
+   "found": "abstract: a highly stable protein that keeps drug-induced gene expression changed long after use stops",
+   "still_needed": "yes: the paragraph's only source for 'keeps cementing'",
+   "fate": "kept"
+  },
+  {
+   "point": "Zhong 2023 for learning not clicking",
+   "found": "chronic stress impaired fear extinction in mice, associated with DeltaFosB accumulation in amygdala and dentate gyrus",
+   "still_needed": "yes: the closest source for 'preventing that learning from really clicking'",
+   "fate": "kept"
+  }
+ ],
+ "placement": "first paragraph of section C, under its heading; the SSRI paragraphs that follow pick up why standard meds fail on this state",
+ "opens": {
+  "first_sentence": "The Problem: If you're feeling apathetic, gray, no desire for anything, you might be in a neurochemical \"Void\" state caused by Dynorphin & DeltaFosB.",
+  "why_reading": "it names the reader's own state (apathetic, gray, no desire) before any mechanism, so they know at once whether this is about them"
+ },
+ "same_point": "merged here: block 49, The Hardening, was deleted at his word on 2026-11-06 19:40; read the section from its heading to D for the DeltaFosB and dynorphin points, none repeated",
+ "questions": {
+  "Q1": "PASS: his paragraph as he wrote it; only the citation list is mine, at his word",
+  "Q2": "PASS: his paragraph as he wrote it; only the citation list is mine, at his word",
+  "Q3": "PASS: his paragraph as he wrote it; only the citation list is mine, at his word",
+  "Q4": "PASS: his paragraph as he wrote it; only the citation list is mine, at his word",
+  "Q5": "PASS: his paragraph as he wrote it; only the citation list is mine, at his word",
+  "Q6": "PASS: his paragraph as he wrote it; only the citation list is mine, at his word",
+  "Q7": "PASS: his paragraph as he wrote it; only the citation list is mine, at his word",
+  "Q8": "PASS: his paragraph as he wrote it; only the citation list is mine, at his word",
+  "Q9": "PASS: his paragraph as he wrote it; only the citation list is mine, at his word"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

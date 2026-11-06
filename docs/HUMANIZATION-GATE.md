@@ -2869,6 +2869,31 @@ was what we were supposed to do already prior".
 
 (E378 is the bad trips lane's. The next lesson in any lane is E379.)
 
+## What his message of 2026-11-06 20:17 UTC taught (the neuro de-armoring lane)
+
+(E378 is the bad trips lane's, just above (pull request 316). The gut lane's open pull request 308 uses E378 and E379
+too; this lesson is E380, so 308 needs only to renumber its E378 to E379 and its E379 to E381.)
+
+- **E380. A citation missing from his version is not assumed cut on purpose: put it back where something still rests
+  on it, and ask him when unsure.** His paragraph of 19:40 UTC replaced the dynorphin paragraph and, at his word,
+  "The Hardening" paragraph, which held the article's Nestler 2008 citation. I recorded the citation as cut by him
+  (`FIDELITY-KEYS.json` owner_changes, "numbers_lost": ["2008"]) without asking whether he meant to cut it. His words:
+  "as for Nestler, i didn't even see Nestler, so if i took thatout, don't assume that was on purpose. if it's not needed
+  fine, if it is put it back. that should be a rule in general don't assume a citation was removed on purpose unless it
+  makes sense that it owuld be, ask the user if unsure". It was needed: it is the paragraph's only source for DeltaFosB
+  being a stable protein that keeps gene expression changed long after the cycles stop, his "keeps cementing", and it is
+  back in his paragraph's citation with Zhong 2023 (his answer to question 11), which reads Human Written, one window
+  High ([check](https://www.pangram.com/history/e5934635-2d01-47cc-8f90-68e4b32c15e8)). The rule, for any version of
+  his, a card he approved or an edit he asked for: a citation his text no longer has stays out only when he said so, a
+  card he approved proposed it, or nothing left in the article rests on it; otherwise it goes back where its claim is,
+  or the question goes to him. Enforced: `fidelity_keys.py check` fails an owner_changes entry that loses a year (a
+  citation's, most often) unless its `citations_lost` says what each was and why it is out, starting "he said:", "on
+  his card:" or "the claim is gone:". The one older entry it caught (card DFB-1, Vialou 2010) now says its reason.
+  It is E378's other side: a sentence he left standing is not a decision to keep it, and a citation he left out is not
+  a decision to cut it.
+
+(E380 is the neuro de-armoring lane's. The next lesson in any lane is E381, after E379, which 308 can take.)
+
 
 ## What turn 100's API checks showed (the Inner Child lane, 2026-10-23)
 

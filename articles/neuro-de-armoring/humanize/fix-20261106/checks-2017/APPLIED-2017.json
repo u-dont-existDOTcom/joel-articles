@@ -1,0 +1,11 @@
+{
+ "message": "Joel, 2026-11-06 20:17 UTC",
+ "article_sha256_before": "334cf8c3baa92cf0d04158d56fb6798e438d6aa741f7a99281c54bae0b3fbf03",
+ "article_sha256_after": "d18316ea945d9943d3f42f7618c3ec7309562c8f0779007d60e99024e6cc6df5",
+ "old": "in a vicious cycle. ([Vialou, et al, 2010](https://pubmed.ncbi.nlm.nih.gov/20473292/)).",
+ "new": "in a vicious cycle. ([Nestler, 2008](https://pmc.ncbi.nlm.nih.gov/articles/PMC2607320); [Vialou, et al, 2010](https://pubmed.ncbi.nlm.nih.gov/20473292/); [Zhong, et al, 2023](https://pubmed.ncbi.nlm.nih.gov/37003493/)).",
+ "why": {
+  "Nestler 2008": "his words: 'i didn't even see Nestler, so if i took thatout, don't assume that was on purpose. if it's not needed fine, if it is put it back'. It is needed: it is the paragraph's only source for DeltaFosB being a highly stable protein that keeps gene expression changed long after the cycles stop (its abstract), which is his 'keeps cementing'.",
+  "Zhong 2023": "his answer to question 11: '11yes add that' (option a: after Vialou)"
+ }
+}

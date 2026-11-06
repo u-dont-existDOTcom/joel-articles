@@ -4,11 +4,12 @@ Joel asked for this report on 2026-11-06 at 19:40 UTC ("submit a bugreport to as
 vague words about me not accepting, you should say "Do you accept the terms so I can use AskRigor? Here are the
 terms:""). It goes to AskRigor's own lesson queue with `submit_lesson_candidate`.
 
-**Status: not sent yet.** The first version was refused by AskRigor's privacy check ("found personal or identifying
-details"), which then asks for a rewrite in general terms, shown to you, and your yes before it is sent again. Below is
-the rewrite: no file paths, no version strings, no account details. Reply "send the AskRigor report" and it goes.
+**Status: sent** on 2026-11-06 at about 20:19 UTC, after his yes ("yes you can send the bug report altho i already told
+it what happened"), exactly as below. AskRigor's answer: "Lesson saved for review as ARL-0057." The first version, sent
+earlier that evening, had been refused by AskRigor's privacy check ("found personal or identifying details"), which asked for this
+rewrite in general terms and his yes.
 
-## The report, as it would be sent
+## The report, as sent
 
 - **Category:** usability
 - **General lesson:** When an account must accept the free contributor notice (a new account, or the notice changed),
