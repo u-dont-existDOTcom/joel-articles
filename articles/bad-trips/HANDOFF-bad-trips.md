@@ -15,6 +15,14 @@ https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/bad-trips
 
 ## START HERE
 
+- **2026-11-06, turn 13 (his round-8 answer exported 00:27 UTC).** His version of the room stretch's second part is in:
+  he cut the quips, put the payoff first ("They're feeling overwhelmed, so ...") and said each act exactly ("Ask if they'd
+  like a hand on the shoulder"), and his checks show each step (`humanize/h08-20261106/HIS-CHECKS-READ-20261106.json`).
+  Lessons E370 to E372 in the shared gate. The first part he left to me: said plainly, it reads Human alone; in place the
+  stretch reads AI with either first part. Round 9's page has the one card (Bad Trips Guide, Round 9,
+  https://claude.ai/artifact/KrdxXmj483tg4kEhAk8waB). **First:** his round-9 answer in; **then** the stretch in place,
+  from the tell panel (CURRENT-STATE.md's next step).
+
 - **2026-11-05, turn 12 (his round-7 answers and message of 17:09 UTC, with a Gemini write-up on ABRACE's YouTube
   channel).** All four round-7 cards approved and in, and "non-profit" (his "you're right it's a non-profit that's
   important"; Human, High). From the write-up only that went in, by his no-clutter rule: the rest is about children

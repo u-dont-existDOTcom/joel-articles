@@ -1,0 +1,68 @@
+{
+ "read_utc": "2026-11-06T00:3xZ",
+ "how": "web.pangram.com/api/history/<uuid>/ from his signed-in account in the Claude desktop app's browser pane; texts, windows and SHA-256 as Pangram holds them",
+ "detector": "Pangram web app (his account, Pangram Professional)",
+ "his_comment": "experiments/t13-answers/JOEL-COMMENT-R08-20261106.md",
+ "checks": [
+  {
+   "uuid": "b8ea86d0-bb4f-4b12-a89e-d5e236f2fd0b",
+   "at_utc": "2026-11-06T00:13:25Z",
+   "what": "his first rewrite of P7 and P8: the quips cut, uncompressed, who sips said, the music asked as a question",
+   "verdict": "AI Generated",
+   "ai": 1.0,
+   "words": 56,
+   "windows": "AI-Generated, Medium, 3 (\"Dim the lights.\"); AI-Generated, High, 42; AI-Generated, Medium, 11",
+   "sha256": "683d1e466d355166285bd05205bee4bf5099a78470c99fe862d7ad1e5b79987c",
+   "link": "https://www.pangram.com/history/b8ea86d0-bb4f-4b12-a89e-d5e236f2fd0b",
+   "text": "Dim the lights. Clear out the extra people. Offer water if they're thirsty, and suggest they sip it rather than chug. Ask if they'd like a hand on the shoulder. Speak slowly and use fewer words. \n\nAsk \"Would you like music or quiet?\" If a track starts pulling the experience somewhere unwanted, change it."
+  },
+  {
+   "uuid": "26e9138d-9b91-44e0-bb5c-7a21a7e4dddc",
+   "at_utc": "2026-11-06T00:18:17Z",
+   "what": "the same with the payoff at the start (\"They're feeling overwhelmed, so dim the lights, and clear out the extra people around them.\") and its joins: his version in the export",
+   "verdict": "Human Written",
+   "ai": 0.0,
+   "words": 69,
+   "windows": "Human, Medium, 16; Human, High, 39; Human, Medium, 14",
+   "sha256": "b13ed91b71a2dbe4a454dc4eb4a00f9f7d22fccc1369e93f3996c16922ed5fe5",
+   "link": "https://www.pangram.com/history/26e9138d-9b91-44e0-bb5c-7a21a7e4dddc",
+   "text": "They're feeling overwhelmed, so dim the lights, and clear out the extra people around them.  If they're thirsty, offer water, and suggest they sip it rather than chug. Ask if they'd like a hand on the shoulder. Speak slowly and use fewer words. \n\nAsk \"Would you like music or is quiet best?\" If a track starts pulling the experience somewhere unwanted, go ahead and change it."
+  },
+  {
+   "uuid": "a58f9e1b-84a8-4dcb-839b-4eb025987756",
+   "at_utc": "2026-11-06T00:22:44Z",
+   "what": "his minimal pair, Human side: some joins undone, the touch line as \"Ask if they'd like a hand on the shoulder.\"",
+   "verdict": "Human Written",
+   "ai": 0.0,
+   "words": 62,
+   "windows": "Human, Medium, 27; Human, High, 10; Human, Medium, 25",
+   "sha256": "22f7c81a00222dd97db2072614f703d419c8818ae2e4ac14f98a88f032d113ef",
+   "link": "https://www.pangram.com/history/a58f9e1b-84a8-4dcb-839b-4eb025987756",
+   "text": "They're feeling overwhelmed, so dim the lights. Clear out the extra people. If they're thirsty, offer water, and suggest they sip rather than chug it. Ask if they'd like a hand on the shoulder. \n\nAsk \"music or quiet?\" If they want music, but a track starts pulling the experience somewhere unwanted, change it. Speak slowly and use fewer words."
+  },
+  {
+   "uuid": "56966df2-d865-4d11-9d6b-cc462568730f",
+   "at_utc": "2026-11-06T00:23:30Z",
+   "what": "his minimal pair, AI side: the same with \"Ask before touching.\" (and \"but if a track\")",
+   "verdict": "AI Generated",
+   "ai": 1.0,
+   "words": 56,
+   "windows": "AI-Generated, Medium, 13; AI-Generated, High, 14; AI-Generated, Medium, 3 (\"Ask before touching.\"); AI-Generated, High, 20; AI-Generated, Low, 6",
+   "sha256": "4bb7878e5f45979567cbb4efb5bc51213c4361c251a9df672d4dcf94c7b5116e",
+   "link": "https://www.pangram.com/history/56966df2-d865-4d11-9d6b-cc462568730f",
+   "text": "They're feeling overwhelmed, so dim the lights. Clear out the extra people. If they're thirsty, offer water, and suggest they sip rather than chug it. Ask before touching.\n\nAsk \"music or quiet?\" If they want music, but if a track starts pulling the experience somewhere unwanted, change it. Speak slowly and use fewer words."
+  },
+  {
+   "uuid": "6fe58138-deba-4e92-a9ca-f11e83774d7a",
+   "at_utc": "2026-11-06T00:25:34Z",
+   "what": "P5 and P6 as they are (the room's questions and the annoying room)",
+   "verdict": "AI Generated",
+   "ai": 1.0,
+   "words": 68,
+   "windows": "AI-Generated, Medium, 5 (\"Then look at the room.\"); AI-Generated, High, 63",
+   "sha256": "11e997454a1514ae35f7e7b9fe3de21bb8cf9c3ddb9e10bb6c2bcb220ca0765b",
+   "link": "https://www.pangram.com/history/6fe58138-deba-4e92-a9ca-f11e83774d7a",
+   "text": "Then look at the room. Is the light too bright? Is the music horrible? Are five concerned people talking at once? Is somebody touching the person when touch is unwelcome? Are they too hot, too cold, desperate for the bathroom, or trapped beside somebody they don't trust?\nA huge amount of what gets called profound psychedelic crisis is a frightened nervous system stuck in an annoying room.\n"
+  }
+ ]
+}

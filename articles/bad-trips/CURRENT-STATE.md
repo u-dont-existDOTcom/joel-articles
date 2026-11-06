@@ -1,6 +1,6 @@
 # Bad Trips guide: current state
 
-Updated: 2026-11-05 (turn 12: his round-7 answers and message of 17:09 UTC, with a Gemini write-up on ABRACE's YouTube channel). Registered 2026-11-03 at Joel's message of 15:45 UTC ("start working on humanizing my
+Updated: 2026-11-06 (turn 13: his round-8 answer exported 00:27 UTC, with five checks of his and "an exercise for you to fix now").
 badtrips guide at badtrips.u-dont-exist.com"; `experiments/t01-answers/JOEL-MESSAGE-20261103-1545.md`).
 
 ## Goal
@@ -194,26 +194,36 @@ dose, unit, timing and warning exactly as it went in, and his post updated with 
   panel's notes), every one AI, 100% (`humanize/h07-20261105/RESULTS.md`, 13 of 13 predictions right). Round 8's page asks
   for his version (Bad Trips Guide, Round 8, https://claude.ai/artifact/FnvfZWzTyK2jktLGc88Vgr; the card as text in
   `review/r08/REVIEW-R08.md`; browser test 62 of 62).
+- 2026-11-06 (turn 13, his round-8 answer exported 00:27 UTC, saved as `review/r08/ANSWERS-R08-20261106-0027.json`, and
+  his comment, `experiments/t13-answers/JOEL-COMMENT-R08-20261106.md`): his version of the room stretch's second part in
+  (`review/r08/apply_r08.py`; the fixes and the music, B240 and B241, the text of his check that read Human, 26e9138d).
+  His five checks read from his history (`humanize/h08-20261106/HIS-CHECKS-READ-20261106.json`): the quips cut, the
+  payoff at the start and the exact act each flipped a part to Human. Lessons E370 to E372 in the shared gate (his quips
+  go where he asked for that; the reason first, plainly, and each act exact; a card for his version gives each paragraph's
+  reading). His exercise, the first part (B238, B239): my fix reads Human, 0% alone (07e19481), with his line said plainly;
+  in place before his second part the stretch reads AI, High, and so does his own stretch (54b7312f), so the stretch
+  itself is next (`humanize/h08-20261106/RESULTS.md`). Round 9's page: one card, the first part (Bad Trips Guide, Round 9,
+  https://claude.ai/artifact/KrdxXmj483tg4kEhAk8waB; `review/r09/REVIEW-R09.md`; browser test 56 of 56, the test now
+  handles a page of one card to approve).
 
 ## Current checkpoint
 
-- **In progress:** Turn 12 done. Round 7 and "non-profit" are in the guide; the Gemini write-up's rest is in AskRigor
-  (pending its review); the room paragraphs (B238 to B241) read AI in every version, his included, so round 8's one card
-  asks for his version (Bad Trips Guide, Round 8, https://claude.ai/artifact/FnvfZWzTyK2jktLGc88Vgr).
-- **Next step (updated on every push, so another account can pick up here):** His round-8 answer in with an
-  `apply_r08.py` like round 7's (the page's export saved as `review/r08/ANSWERS-R08-*.json`; his version as he wrote it,
-  in place of B238 to B241), checked in his Pangram account with a prediction first. Then the next paragraph of
-  Psychological First Aid ("Give them ordinary reality:" and its quote), one paragraph at a time: its making-sense
-  receipt (`tools/humanization/sense_receipt.py`), a fresh read, a prediction, then the check in his Pangram account (the
-  desktop app's browser pane works, signed in). When a stretch reads AI twice, the tell panel; after two drafts fail
-  after the panel, Codex's draft; then his version on the next page. No whole-guide check until no window already seen
-  reads AI or Low (E354). If his answers arrive in two chats again, one session takes them and the other stops at its
-  mailbox check.
-- **Waiting on Joel:** round 8's card (his version of the room paragraphs).
+- **In progress:** Turn 13 done. His round-8 version of the second part is in the guide; the first part waits for his
+  answer to round 9's card (Bad Trips Guide, Round 9, https://claude.ai/artifact/KrdxXmj483tg4kEhAk8waB). The room stretch
+  (B238 to B241) reads AI, High, in place with either first part, though each part reads Human alone.
+- **Next step (updated on every push, so another account can pick up here):** His round-9 answer in with an
+  `apply_r09.py` like round 8's (the export saved as `review/r09/ANSWERS-R09-*.json`). Then the room stretch in place: it
+  has read AI twice in place (34d92f15, 3d9ca55e), so the tell panel on the stretch first (`tools/humanization/tell_panel.py`,
+  Codex on his laptop, Sonnet, Haiku), then his usual fix (gate E368, E371) on what they agree on, a fresh read, a
+  prediction and the check in his Pangram account (the desktop app's browser pane; it signs out every few hours, so ask
+  him to sign in when the history answers 401). Then the next paragraph of Psychological First Aid ("Give them ordinary
+  reality:" and its quote), one paragraph at a time. No whole-guide check until no window already seen reads AI or Low
+  (E354).
+- **Waiting on Joel:** round 9's card (the room's first part).
 
 ## Remaining
 
-Round 8's card; the rest of the guide one paragraph at a time; the whole-guide Pangram check; an overcompletion read
+Round 9's card; the room stretch in place; the rest of the guide one paragraph at a time; the whole-guide Pangram check; an overcompletion read
 (gate E328); the word-for-sense read (gate E331); his post updated, with the title's version and date (gate E323).
 
 ## Blockers / unresolved

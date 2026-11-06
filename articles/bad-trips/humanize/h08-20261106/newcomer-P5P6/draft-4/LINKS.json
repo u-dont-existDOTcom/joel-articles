@@ -1,0 +1,34 @@
+[
+ {
+  "sentence": 1,
+  "quote": "so look around the room next",
+  "gap": "Why is the room the next thing to check, and what makes a room that gets on someone's nerves the cause of a crisis that looks deep? The step between the two is not given.",
+  "id": "L1",
+  "status": "drop",
+  "note": "that is his point, said plainly: what looks deep is often the room getting to a scared person; the checks after it name the room's parts"
+ },
+ {
+  "sentence": 3,
+  "quote": "Are five concerned people talking at once?",
+  "gap": "Is five a real number to watch for, or just an example of too many people? If it is a limit, why five?",
+  "id": "L2",
+  "status": "drop",
+  "note": "his example of a crowd; his next paragraph clears out the extra people"
+ },
+ {
+  "sentence": 4,
+  "quote": "they're stuck beside someone they don't trust",
+  "gap": "How does sitting beside someone you don't trust, or being touched when you don't want it, become the fear the first sentence describes? The step between them is missing.",
+  "id": "L3",
+  "status": "drop",
+  "note": "the people around them are part of what's getting on their nerves, as the first sentence says"
+ },
+ {
+  "sentence": 5,
+  "quote": "And check whether they're too hot or too cold, or desperate for the bathroom.",
+  "gap": "The list has been about the room, and this line moves to the body without a marker. Why do body needs belong here, and why do they point to a scared person rather than just an uncomfortable one?",
+  "id": "L4",
+  "status": "drop",
+  "note": "what's getting on their nerves includes their body: a helper can see why cold or a full bladder adds to fear; his next paragraph goes on to the fixes"
+ }
+]

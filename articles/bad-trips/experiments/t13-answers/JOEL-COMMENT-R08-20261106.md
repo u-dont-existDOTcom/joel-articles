@@ -1,0 +1,25 @@
+Joel's comment on card ROOM-YOURS (round 8), exported 2026-11-06 00:27 UTC, word for word:
+
+first i cut the wry ai quips, uncompressed, varied the rhythm a little, and clarified (who was sipping? lower the sound before asking if they want music?), but that didn't fix it all yet: https://www.pangram.com/history/b8ea86d0-bb4f-4b12-a89e-d5e236f2fd0b?ucc=4rq5Ko7gBiW&utm_source=pangram_share&utm_medium=copy_link
+
+now i made it have a payoff at the start and that flipped human: https://www.pangram.com/history/26e9138d-9b91-44e0-bb5c-7a21a7e4dddc?ucc=4rq5Ko7gBiW&utm_source=pangram_share&utm_medium=copy_link
+
+i then undid some changes so you can see another minimal pair. here it's ai still (guess why): https://www.pangram.com/history/56966df2-d865-4d11-9d6b-cc462568730f?ucc=4rq5Ko7gBiW&utm_source=pangram_share&utm_medium=copy_link
+
+fixed that one, it was unclear (why ask to touch, for what, for you?): https://www.pangram.com/history/a58f9e1b-84a8-4dcb-839b-4eb025987756?ucc=4rq5Ko7gBiW&utm_source=pangram_share&utm_medium=copy_link
+
+---
+
+but why did you only have me editing the 2nd part when i clicked edit? the first part also ai: https://www.pangram.com/history/6fe58138-deba-4e92-a9ca-f11e83774d7a?ucc=4rq5Ko7gBiW&utm_source=pangram_share&utm_medium=copy_link
+
+ok i'm leaving that as an exercise for you to fix now. make sure you look at all the repo notes for humanizing... this is a real easy fix.
+
+His version (your_version), word for word:
+
+Then look at the room. Is the light too bright? Is the music horrible? Are five concerned people talking at once? Is somebody touching the person when touch is unwelcome? Are they too hot, too cold, desperate for the bathroom, or trapped beside somebody they don't trust?
+
+A huge amount of what gets called profound psychedelic crisis is a frightened nervous system stuck in an annoying room.
+
+They're feeling overwhelmed, so dim the lights, and clear out the extra people around them.  If they're thirsty, offer water, and suggest they sip it rather than chug. Ask if they'd like a hand on the shoulder. Speak slowly and use fewer words. 
+
+Ask "Would you like music or is quiet best?" If a track starts pulling the experience somewhere unwanted, go ahead and change it.

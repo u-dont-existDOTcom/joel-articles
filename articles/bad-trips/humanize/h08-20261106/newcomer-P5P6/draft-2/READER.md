@@ -1,0 +1,3 @@
+S1 | "is a frightened nervous system stuck in an annoying room, so look at the room next" | Why does a frightened nervous system lead to the room? The "so" seems to need a step between them, namely that the room is something you can change, and that step isn't said.
+S3 | "Are five concerned people talking at once?" | Why five? Is five a limit I should count against, or is it just one example of too many people?
+S4 | "Maybe somebody's touching them when they don't want it, or they're trapped beside somebody they don't trust." | Who is "somebody" here: the people around them, or me as the helper? If it's me, the advice to step back from touching them would change.
