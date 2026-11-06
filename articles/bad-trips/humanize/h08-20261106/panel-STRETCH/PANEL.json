@@ -1,0 +1,77 @@
+{
+ "readers": [
+  "codex",
+  "haiku",
+  "sonnet"
+ ],
+ "sentences": [
+  "A lot of what looks like a deep psychedelic crisis is a scared person in a room that's getting on their nerves, so look around the room next.",
+  "Maybe the light's too bright or the music's horrible.",
+  "Are five concerned people talking at once?",
+  "Somebody might be touching them when they don't want it, or they're stuck beside someone they don't trust.",
+  "And check whether they're too hot or too cold, or desperate for the bathroom.",
+  "They're feeling overwhelmed, so dim the lights, and clear out the extra people around them.",
+  "If they're thirsty, offer water, and suggest they sip it rather than chug.",
+  "Ask if they'd like a hand on the shoulder.",
+  "Speak slowly and use fewer words.",
+  "Ask \"Would you like music or is quiet best?\"",
+  "If a track starts pulling the experience somewhere unwanted, go ahead and change it."
+ ],
+ "flagged": {
+  "1": [
+   "haiku"
+  ],
+  "2": [
+   "sonnet"
+  ],
+  "3": [
+   "sonnet"
+  ],
+  "4": [
+   "sonnet"
+  ],
+  "5": [
+   "sonnet"
+  ],
+  "6": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ],
+  "7": [
+   "sonnet"
+  ],
+  "8": [
+   "haiku",
+   "sonnet"
+  ],
+  "9": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ],
+  "10": [],
+  "11": [
+   "haiku",
+   "sonnet"
+  ]
+ },
+ "agreed": [
+  6,
+  8,
+  9,
+  11
+ ],
+ "whole": {
+  "codex": [
+   "The orderly progression from identifying problems to making adjustments to offering a conversational script could suggest AI polishing. Neither that structure nor the wording provides strong evidence of AI authorship; the voice is consistently colloquial and specific."
+  ],
+  "haiku": [
+   "The paragraph runs in short, even imperatives with the same polite service register from start to finish, and it closes on a soft, generic instruction, which reads like a checklist written to a template."
+  ],
+  "sonnet": [
+   "The paragraph is built as a symmetrical diagnose-then-fix checklist, with short, evenly weighted sentences and nearly every sentence a self-contained tip, so the rhythm is steady and list-like and there is little digression or personal voice after the opening line."
+  ]
+ },
+ "human_clean": []
+}

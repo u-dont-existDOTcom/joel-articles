@@ -31,3 +31,12 @@ What it shows.
   reason and an act (try 3) took the whole paragraph to AI, so try 2 stays.
 - In place, the stretch reads AI, High, in one window, with either first part: mine (two versions) and his own. Each part
   reads Human alone. So the next work is the stretch itself, from the tell panel (two AI reads in place).
+
+## After round 9 (turn 14, his approval of 16:38 UTC)
+
+The stretch as the guide has it now is the one checked at 34d92f15 (AI, High). The tell panel on it (`panel-STRETCH/PANEL.md`;
+Codex on his laptop, Sonnet, Haiku): all three name its build, a list of problems, then the remedies in the same order,
+then a sample line, each sentence a short tip; two or three agree on four sentences, all his (S6 "They're feeling
+overwhelmed, so ...", S8 the hand on the shoulder, S9 "Speak slowly and use fewer words.", S11 "somewhere unwanted"); none
+agree on mine. The four misses are explained in the ledger (#56: a quip kept; #58: one sentence changed; #59, #60: in
+place). The stretch goes to him as round 10's card, with each paragraph's reading (gate E372).
