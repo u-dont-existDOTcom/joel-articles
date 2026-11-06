@@ -1,0 +1,94 @@
+{
+ "readers": [
+  "codex",
+  "haiku",
+  "sonnet"
+ ],
+ "sentences": [
+  "Test them rather than turning them into rival religions.",
+  "Try one for two minutes and ask: Does this make me safer and clearer, or more activated and impulsive?",
+  "When lying down feels like imprisonment, pace slowly in a contained space.",
+  "When pacing begins to resemble escape, sit against a wall or lie under a blanket.",
+  "The goal is to let the nervous system discharge without creating a new danger.",
+  "Parallel processing can help when lying still turns into immobile introspection.",
+  "Let one part of attention stay with the body, fear, grief, or memory while another part completes a simple, safe task with a visible endpoint: sort ten objects, draw, fold five towels, or wash one cup.",
+  "Finishing something small helps confirm that time is moving and ordinary reality is still here.",
+  "Stop if the task increases agitation, speed, or risk.",
+  "A useful order is room → body → human → time → meaning.",
+  "Most people begin with meaning because the experience feels cosmic.",
+  "When the nervous system is on fire, love becomes practical first."
+ ],
+ "flagged": {
+  "1": [
+   "haiku",
+   "sonnet"
+  ],
+  "2": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ],
+  "3": [
+   "codex",
+   "sonnet"
+  ],
+  "4": [
+   "codex",
+   "sonnet"
+  ],
+  "5": [
+   "haiku",
+   "sonnet"
+  ],
+  "6": [
+   "sonnet"
+  ],
+  "7": [
+   "sonnet"
+  ],
+  "8": [
+   "haiku",
+   "sonnet"
+  ],
+  "9": [
+   "codex",
+   "sonnet"
+  ],
+  "10": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ],
+  "11": [
+   "sonnet"
+  ],
+  "12": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ]
+ },
+ "agreed": [
+  1,
+  2,
+  3,
+  4,
+  5,
+  8,
+  9,
+  10,
+  12
+ ],
+ "whole": {
+  "codex": [
+   "The paragraph moves through unusually orderly stages: balanced alternatives, practical examples, reassurance, a mnemonic, and an aphoristic closing. That carefully managed construction suggests possible AI polishing, but none of these features establishes authorship."
+  ],
+  "haiku": [
+   "The paragraph runs on tidy, evenly weighted sentences, with a list of three in several places and a closing line that resolves neatly, so the rhythm feels built to a formula more than felt from inside an experience."
+  ],
+  "sonnet": [
+   "Every paragraph is the same size and follows the same shape: a plain instruction, then a tidy rationale or safety caveat, with several three-item lists and mirrored clauses. The voice is evenly calm and instructional, with no hesitation, no first person and no stray specifics, and the last line is a polished aphorism."
+  ]
+ },
+ "human_clean": []
+}
