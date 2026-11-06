@@ -1,0 +1,140 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-06",
+ "text_sha256": "93f4ac2b163fa9ebfef8eab77b7ba5bf52c637ca2230ad92a5e5dea2136a2401",
+ "text": "Psychological First Aid: The First Five Minutes\n\nAnything that could let someone hurt themselves in the next five minutes takes priority, so get the car keys out of reach and turn the stove off, and move them away from roads and balconies, or pools of water for that matter. Letting them move around is fine, and pacing can help, but keep them from taking more of any substance. If they want to go confront somebody, that can wait. And if they want to leave, have someone go with them. Put any weapons away and keep the person away from crowds and strangers. If they want to post their big revelation about the universe, or message an ex, take the phone.\n\nThey're feeling overwhelmed, so dim the lights, and clear out the extra people around them.\n\nThen remind them where they are and what's happening, since a trip can make them lose track of it:\n\nYou're in [place]. It's [date/time]. You took [substance, if known], and its effects will peak and then change.\n\nStillness or Movement?\n\nIs lying still turning into them getting stuck in their own head? Then try parallel processing, which means letting part of their attention stay with the fear or the memory while the rest of them does a simple, safe task they can finish, like sorting ten objects or washing one cup. The point of finishing something small is that it shows them time is still moving. But if the task increases agitation, speed, or risk, stop.",
+ "section": "Psychological First Aid: The First Five Minutes, and Stillness or Movement?",
+ "reader": "someone sitting with a person on a bad psychedelic trip, or tripping themselves, who needs to know what to do in the first five minutes, and then whether to let them move or keep still",
+ "sentences": [
+  {
+   "s": "Psychological First Aid: The First Five Minutes",
+   "payoff": "they know what this section covers: the first five minutes of looking after someone",
+   "follows": "the section's heading, after the Shadow Work part's welcome"
+  },
+  {
+   "s": "Anything that could let someone hurt themselves in the next five minutes takes priority, so get the car keys out of reach and turn the stove off, and move them away from roads and balconies, or pools of water for that matter.",
+   "payoff": "they secure whatever could let the person hurt themselves first: keys, stove, roads, balconies, pools",
+   "follows": "the first thing to do in the first five minutes, straight after the heading",
+   "link": "in the next five minutes"
+  },
+  {
+   "s": "Letting them move around is fine, and pacing can help, but keep them from taking more of any substance.",
+   "payoff": "they let the person move and pace, but stop them taking more of anything",
+   "follows": "still the dangers: movement is fine, more of a substance is not",
+   "link": "none: the next item in the same list of dangers, which the paragraph opened on"
+  },
+  {
+   "s": "If they want to go confront somebody, that can wait.",
+   "payoff": "they know a confrontation can wait",
+   "follows": "what the person may want to do that isn't safe now",
+   "link": "If they want to"
+  },
+  {
+   "s": "And if they want to leave, have someone go with them.",
+   "payoff": "they send someone along if the person wants to leave",
+   "follows": "the next thing the person may want to do",
+   "link": "And if"
+  },
+  {
+   "s": "Put any weapons away and keep the person away from crowds and strangers.",
+   "payoff": "they put weapons away and keep the person from crowds and strangers",
+   "follows": "more dangers the reader removes",
+   "link": "none: another item in the list of dangers the paragraph opened on"
+  },
+  {
+   "s": "If they want to post their big revelation about the universe, or message an ex, take the phone.",
+   "payoff": "they take the phone before a revelation gets posted or an ex gets messaged",
+   "follows": "the last of the things the person may want to do",
+   "link": "If they want to"
+  },
+  {
+   "s": "They're feeling overwhelmed, so dim the lights, and clear out the extra people around them.",
+   "payoff": "they dim the lights and clear out the extra people, and know why: the person is overwhelmed",
+   "follows": "after the dangers, the room: its two fixes, with the reason (they're overwhelmed)",
+   "link": "They're feeling overwhelmed, so"
+  },
+  {
+   "s": "Then remind them where they are and what's happening, since a trip can make them lose track of it:",
+   "payoff": "they know the script that follows is for reminding the person where they are and what's happening, and why: a trip can make them lose track",
+   "follows": "after the room, what to say",
+   "link": "Then"
+  },
+  {
+   "s": "You're in [place].",
+   "payoff": "the person hears where they are",
+   "follows": "the script's first fact",
+   "link": "none: the script's first line, which the colon before it introduces"
+  },
+  {
+   "s": "It's [date/time].",
+   "payoff": "the person hears when it is",
+   "follows": "the second fact",
+   "link": "none: the script's next fact, said to the person"
+  },
+  {
+   "s": "You took [substance, if known], and its effects will peak and then change.",
+   "payoff": "the person hears what they took and that its effects will peak and then change",
+   "follows": "the third fact, with what follows from it",
+   "link": "none: the script's last fact, said to the person"
+  },
+  {
+   "s": "Stillness or Movement?",
+   "payoff": "they know the next choice: keep still or move",
+   "follows": "the subsection's heading, after the first five minutes",
+   "link": "none: a heading, the next part's question"
+  },
+  {
+   "s": "Is lying still turning into them getting stuck in their own head?",
+   "payoff": "they recognize the case: lying still turning into getting stuck",
+   "follows": "another way stillness goes wrong, asked as their question",
+   "link": "none: the paragraph's first sentence, after the heading"
+  },
+  {
+   "s": "Then try parallel processing, which means letting part of their attention stay with the fear or the memory while the rest of them does a simple, safe task they can finish, like sorting ten objects or washing one cup.",
+   "payoff": "they know the technique and what it means: a small task to finish while part of them stays with the feeling",
+   "follows": "the answer to the question before",
+   "link": "Then try"
+  },
+  {
+   "s": "The point of finishing something small is that it shows them time is still moving.",
+   "payoff": "they know why the task needs an end",
+   "follows": "why the task has to be finishable",
+   "link": "The point of finishing something small is that"
+  },
+  {
+   "s": "But if the task increases agitation, speed, or risk, stop.",
+   "payoff": "they know when to stop the task",
+   "follows": "its limit",
+   "link": "But if the task"
+  }
+ ],
+ "checked": [],
+ "placement": "Psychological First Aid to the reminder, then Stillness or Movement?'s heading and one of its paragraphs (a narrowing test)",
+ "opens": {
+  "first_sentence": "Psychological First Aid: The First Five Minutes",
+  "why_reading": "the heading tells someone looking after a person in a bad state that this is what to do now, in the first five minutes, which is their case; the first paragraph opens on the first thing to do"
+ },
+ "same_point": "none: read the section from its heading to Get One Human Anchor; the movement paragraph's repeat of Alone at 3 a.m. goes to him on a card",
+ "questions": {
+  "Q1": "PASS: each paragraph opens on its point: the first priority, the room's fixes with their reason, what the reminder is for, the practice case's act",
+  "Q2": "PASS: every act is the helper's own, with its purpose: the dangers removed, the lights dimmed and the extra people out because they're overwhelmed, the reminder because a trip can make them lose track, the practice stopped because staying safe is the only job",
+  "Q3": "PASS: which things exactly: keys, stove, roads, balconies, pools, weapons, the phone; the lights, the extra people; place, date and time, the substance; a practice like meditation or fasting",
+  "Q4": "PASS: no terms a reader wouldn't know",
+  "Q5": "PASS: each turn has what it turns on: since a trip makes them lose track; since more of the practice makes it stronger; with no drug wearing off, no telling how long",
+  "Q6": "PASS: dangers, room, what to say, then the other way into the state with its own care",
+  "Q7": "PASS: every fact is about the person in front of them now",
+  "Q8": "PASS: the practice case's act and why it differs sit together",
+  "Q9": "PASS: nothing compressed: the script's facts one a sentence, as said aloud; the practice case one step a sentence"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

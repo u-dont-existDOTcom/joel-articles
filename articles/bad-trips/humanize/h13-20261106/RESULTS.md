@@ -17,6 +17,7 @@ Pangram's web app on his account, through the Claude desktop app's browser pane;
 | one sentence cut from the guide's words (the quip) | [47%](https://www.pangram.com/history/215ff122-447b-4705-8a4e-e0381bf272ec) | | | [67%](https://www.pangram.com/history/098188e9-0b24-4e4e-ae84-e42248efb685) |
 | one agreed sentence changed in the guide's words (`S1b`, `S3a`, `S4a`) | **[34%](https://www.pangram.com/history/eace0675-6959-4acc-ac95-b5d74e100480)**: the question only; one AI window, Low | | [50%](https://www.pangram.com/history/5a349240-1882-44cb-b43e-ec4f22ad813d) | [66%](https://www.pangram.com/history/9d9d512c-9ff7-4e1c-aeba-2deb78a2a14b) |
 | the next sentence (`S1c`, `S2a`, `S3b`) | [79%](https://www.pangram.com/history/f2fb1d04-38fd-442d-b232-dfa430dab39c) (both sentences changed) | [44%](https://www.pangram.com/history/dd52a523-ce76-45c4-8122-735ddb2a64ae) | [52%](https://www.pangram.com/history/cc139fe1-f9f6-43e1-ae5c-583fb492071d) | |
+| his link moves from today's neuro lesson (neuro-2026-11-06b: the reader's question, "I'd", "The reason ... is that"; `L2` to `L4`) | (lineage used) | [AI, 100%](https://www.pangram.com/history/4764e3bb-685f-445d-89d0-6d9a8b882129) | [74%](https://www.pangram.com/history/a3bd7688-b124-4f95-8c62-5b887f5c7b70) | [69%](https://www.pangram.com/history/01f29d7b-78eb-45fa-a634-75019a273c2e) |
 
 The heading alone after the Human section reads [Human Written](https://www.pangram.com/history/d1067f38-f8cd-4648-bfa3-e3b23e84cd23).
 
@@ -25,6 +26,8 @@ What it shows.
 - One agreed sentence at a time is the only change that has helped: paragraph 1 with only its question said as what to do
   ("Try one for two minutes, and if it's making them more wound up and impulsive, try the other.") went from 58% to 34%,
   its last window AI Low; changing its first sentence too undid it. Paragraph 1's lineage has used its six tries.
+- His link moves, done my way, read worse too. Every paragraph's lineage has now used its six tries but paragraph 2's
+  (five). Nothing I write in this subsection has read better than the guide's own words except paragraph 1's question.
 - My rewrites read worse than the guide's own words: they lost what the panel read as human ("When lying down feels like
   imprisonment", "fold five towels", "wash one cup", "rival religions") along with the tells. The next try keeps those
   and changes one agreed sentence at a time (E361), and the movement paragraph's repeat of Alone at 3 a.m. goes to him

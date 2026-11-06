@@ -313,20 +313,20 @@ The boundary mix over all lanes:
 
 | lane | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| bad trips guide | 98 | 87 (89%) | 80% | 20% | 28% | 0.159 (base 0.162, 98) |
-| **all lanes** | 98 | 87 (89%) | 80% | 20% | 28% | 0.159 (base 0.162, 98) |
+| bad trips guide | 101 | 90 (89%) | 80% | 20% | 27% | 0.160 (base 0.159, 101) |
+| **all lanes** | 101 | 90 (89%) | 80% | 20% | 27% | 0.160 (base 0.159, 101) |
 
 The latest 100 calls of each lane:
 
 | lane | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| bad trips guide | 98 | 87 (89%) | 80% | 20% | 28% | 0.159 (base 0.162, 98) |
+| bad trips guide | 100 | 89 (89%) | 81% | 19% | 26% | 0.161 (base 0.154, 100) |
 
 The boundary mix over all lanes:
 
 | scope or kind | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| pair | 44 | 40 (91%) | 89% | 11% | 16% | 0.169 (base 0.101, 44) |
+| pair | 47 | 43 (91%) | 89% | 11% | 15% | 0.171 (base 0.095, 47) |
 | paragraph | 32 | 28 (88%) | 59% | 41% | 47% | 0.160 (base 0.241, 32) |
 | section | 22 | 19 (86%) | 91% | 9% | 23% | 0.136 (base 0.083, 22) |
 
@@ -373,21 +373,21 @@ The boundary mix over all lanes:
 
 | lane | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| healing the gut article | 60 | 50 (83%) | 17% | 83% | 97% | 0.155 (base 0.139, 60) |
-| **all lanes** | 60 | 50 (83%) | 17% | 83% | 97% | 0.155 (base 0.139, 60) |
+| healing the gut article | 67 | 56 (84%) | 21% | 79% | 93% | 0.153 (base 0.165, 67) |
+| **all lanes** | 67 | 56 (84%) | 21% | 79% | 93% | 0.153 (base 0.165, 67) |
 
 The latest 100 calls of each lane:
 
 | lane | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| healing the gut article | 60 | 50 (83%) | 17% | 83% | 97% | 0.155 (base 0.139, 60) |
+| healing the gut article | 67 | 56 (84%) | 21% | 79% | 93% | 0.153 (base 0.165, 67) |
 
 The boundary mix over all lanes:
 
 | scope or kind | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| section | 25 | 21 (84%) | 16% | 84% | 92% | 0.147 (base 0.134, 25) |
-| stretch | 22 | 18 (82%) | 18% | 82% | 100% | 0.161 (base 0.149, 22) |
+| section | 27 | 23 (85%) | 15% | 85% | 93% | 0.140 (base 0.126, 27) |
+| stretch | 27 | 22 (81%) | 30% | 70% | 89% | 0.164 (base 0.209, 27) |
 | pair | 9 | 7 (78%) | 22% | 78% | 100% | 0.174 (base 0.173, 9) |
 | paragraph | 4 | 4 (100%) | 0% | 100% | 100% | 0.126 (base 0.000, 4) |
 
@@ -528,6 +528,7 @@ The boundary mix over all lanes:
 | my new claims in an explainer's frame | 1 | healing the gut article |
 | term explained after its first use, and a note splitting a sentence before its point (gates E368, E369) | 1 | healing the gut article |
 | the point after the names, and a note splitting his sentence (gate E368) | 1 | healing the gut article |
+| the cut, and my fixes made it worse | 1 | healing the gut article |
 
 A cause that repeats becomes a check that runs before Pangram (a linter rule, a gate step or a predictor feature); a miss nobody can explain goes to Joel with the passage.
 
