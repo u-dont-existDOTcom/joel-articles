@@ -48,21 +48,30 @@ Joel, 2026-11-03 16:15 UTC (`experiments/t01-answers/joel-20261103-1615-messages
 
 ## Current checkpoint
 
-2026-11-06, after his message of 21:26 UTC: r17 is the article with every answer in, and it read Human Written as a
-whole (draft B). The third update of his post is built and waits for his OK (no email): `r17/live-update/README.md`.
-Phase 5's three Low sentences are the next fix; their checks need Pangram signed in again in the built-in browser.
+2026-11-06, after his answers in the 21:26 UTC turn ("i will tell you if i want an incremental publish, otherwise keep
+working on the fixes"; gut-2026-11-06e): no question about updating his post until the fixes are done. Pangram is signed
+in again in the built-in browser; #181 and #182 read Human (`humanize/fix-20261103/r18/checks/RESULTS-ab.json`).
+
+Phase 5's three Low sentences (its first two steps): try 1 (`r19/`) read worse in its cut (#184 against #186); try 2
+(`r20/`) read the same as its control in the cut of Phases 3 to 6 (#188, 28.3% AI, against #187, 27.8%), and that cut
+reads the steps AI even unchanged, so no cut can judge them (lesson gut-2026-11-06f). Try 3 (`r21/`) glosses each term
+the way his own fix of Phase 1 did. Tries 2 and 3 go to the whole article as drafts C (#189) and D (#190), each with the
+two clarity fixes (Human, High in their stretch, #185), for his extension. Phase 4's Medium (Bile Acid Diarrhea) had its
+one try (worse, #184) and is on `humanize/LATER-WINDOWS.md`.
 
 ## Remaining
 
-1. His OK to update the post with r17 (no email), then the update and the character-by-character comparison (E362 (gut)).
-2. Phase 5's three Low sentences fixed, tested in their stretch, on an approve card; Phase 4's Medium tried
-   (`humanize/LATER-WINDOWS.md`); two clarity fixes from the compare read (`r17/prepublish/FINDINGS.md`).
-3. #181 and #182 once Pangram is signed in again.
-4. Drafts A and B are his to delete; neither decides anything now.
+1. His extension on drafts C and D (secret links in chat, not in Git): the try that reads Phase 5's steps High goes on
+   an approve card (batch 14) and into the article; if neither does, try 4 with a new diagnosis, or the later list with
+   the evidence.
+2. Batch 13: the two clarity fixes on approve cards (tested, #185).
+3. Once the fixes are done and answered: the update source rebuilt from the final version (as `r17/live-update/` was),
+   his OK once (no email), the update, and the character-by-character comparison (E362 (gut)).
+4. Drafts A to D are his to delete once their results are recorded.
 
 ## Blockers / unresolved
 
-- Waiting on Joel: his OK for the update, and Pangram's sign-in in the built-in browser.
+- Waiting on Joel: his extension on drafts C and D; his answers on batch 13; later, his OK for the update.
 
 ## Evidence / artifacts
 
@@ -70,4 +79,4 @@ Phase 5's three Low sentences are the next fix; their checks need Pangram signed
 
 ## Next safe action
 
-On his OK, run the update as `r17/live-update/README.md` says, with no email; then fix Phase 5's Low sentences.
+Record drafts C and D from his extension's result pages (as `r17/draft-b-check/` was), then the Phase 5 card; the update comes once the fixes are done (gut-2026-11-06e).
