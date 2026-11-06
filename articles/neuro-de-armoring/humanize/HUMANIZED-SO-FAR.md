@@ -38,7 +38,7 @@ Rule: do not take 5-HTP on the same day as psychedelics, and do not use it anywh
 
 ## Psychology is the Software; Biology is the Hardware.
 
-Have you done years of CBT or EMDR and yet you still freeze up or blow up at the same old triggers? One reason to think about, is that standard therapy is trying to rewrite the "code" (your thoughts and behaviors), while the "motherboard" (the brain's physical structure and chemistry) is often overheating or damaged, and code doesn't run well on a motherboard like that. So to address that, I've designed this protocol to go after four specific neuro-biological problems before you go working on the psychology (well, alongside).
+Have you done years of CBT or EMDR and yet you still get triggered and freeze or blow up? One reason to think about, is that standard therapy is trying to rewrite the "code" (your thoughts and behaviors), while the "motherboard" (the brain's physical structure and chemistry) is often overheating or damaged, and code doesn't run well on a motherboard like that. So to address that, I've designed this protocol to go after 4 specific neuro-biological problems before you go working on the psychology (well, alongside).
 
 The "Underpinning" Principle Dr. Bruce Perry compares treating trauma to building a house. Standard CBT & EMDR style therapies attempt to "decorate" the house (changing thoughts/behaviors in the Cortex) while the foundation (the Brainstem) is crumbling. You cannot hang curtains in a collapsing house.
 
@@ -48,7 +48,7 @@ Why does the brain build this armor? Psychologist Lindsay Gibson explains that [
 
 We are operating on less than 1/24th of the relational density our biology requires. The "Void" you feel is real. Once you have de-armored, you cannot simply return to a lonely life. You must aggressively engineer a "High-Density" social environment (A Tribe), or the brain will eventually reach for the armor again just to survive the cold.
 
-As we grow up, our "Role-Self" becomes calcified by Dopamine and DeltaFosB. It becomes a prison. Your addiction is often just the fuel required to keep the "Role-Self" running. This protocol dissolves the chemical glue holding that false persona together, allowing your "True-Self"--the person you were before the trauma--to finally re-emerge.
+We grew up building a "role-self" to please and manage the people around us. And the role-self psychology gets locked in physiologically by Dopamine and DeltaFosB, which also underlie addictions, so it's a vicious cycle as both create the other. That's why I built this protocol, to go after the chemistry holding the false persona in place, so the person you were before the trauma (your "True-Self") can come back out.
 
 Neurological De-Armoring is about fixing the underpinnings, not redecorating. It's a protocol that serves as a metabolic solvent, via HDAC inhibition, that softens the "concrete" in the brainstem by using Glutamate modulation and supplementing Ketones (BHB) to allow us to dig under the house, and pour a new foundation, so we can eventually update the psychological software upstairs.
 

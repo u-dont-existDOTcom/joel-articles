@@ -1,0 +1,42 @@
+{
+ "readers": [
+  "haiku",
+  "sonnet"
+ ],
+ "sentences": [
+  "Important conflict: don't take agmatine in the same session as D-Serine/DCS-style exposure or EMDR work.",
+  "The reason is that agmatine partly brakes NMDA activity, and NMDA-dependent learning and memory updating is exactly what those tools are there to support.",
+  "So use agmatine for storm control, but not right before a session where the goal is deliberate reconsolidation."
+ ],
+ "flagged": {
+  "1": [
+   "haiku",
+   "sonnet"
+  ],
+  "2": [
+   "haiku",
+   "sonnet"
+  ],
+  "3": [
+   "haiku",
+   "sonnet"
+  ]
+ },
+ "agreed": [
+  1,
+  2,
+  3
+ ],
+ "whole": {
+  "haiku": [
+   "The paragraph follows a fixed sequence of warning, reason, restatement and instruction, and each part arrives on schedule. The clean, symmetrical closing sentence makes the whole read like a polished summary."
+  ],
+  "sonnet": [
+   "It is built as a three-beat warning: the rule, the reason, then a restated rule. The rhythm is even and instructional, with each sentence flowing logically into the next and nothing digressive or rough."
+  ]
+ },
+ "human_clean": [
+  "don't take agmatine in the same session",
+  "don't take agmatine in the same session as"
+ ]
+}
