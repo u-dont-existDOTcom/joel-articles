@@ -1,0 +1,119 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-06",
+ "text_sha256": "b96d64146de983c46fcbf38f1e3d0a3c20049b7b8d2bcdcfc2f33b4ec96f2689",
+ "text": "Then remind them where they are and what's happening, since a trip can make them lose track of it:\n\nYou're in [place]. It's [date/time]. You took [substance, if known], and its effects will peak and then change. It's intense right now, and it'll pass. We can sort out the rest of your life tomorrow.\n\nIf the state came from a practice, like meditation or fasting, the person can say:\n\nI'm in an intense state, so I'm stopping the practice now, and my only job is to stay safe.\n\nA state from a practice has no drug wearing off on a schedule, so there's no telling how long it will last. Once they can eat safely, food and warmth help their body settle.\n\nThen help them pick one safe thing to try with their body and one calm person to stay with them, which the next two sections are about. Protect their sleep too, especially if they're euphoric or grandiose, and leave what it all meant until they've slept.",
+ "section": "Psychological First Aid: The First Five Minutes",
+ "reader": "someone sitting with a person on a bad psychedelic trip, or tripping themselves, who needs to know what to do in the first five minutes: dangers first, then the room, then what to say",
+ "sentences": [
+  {
+   "s": "Then remind them where they are and what's happening, since a trip can make them lose track of it:",
+   "payoff": "they know the script that follows is for reminding the person where they are and what's happening, and why: a trip can make them lose track",
+   "follows": "after the room is fixed, the reader talks to them"
+  },
+  {
+   "s": "You're in [place].",
+   "payoff": "the person hears where they are",
+   "follows": "the first line of the script: place"
+  },
+  {
+   "s": "It's [date/time].",
+   "payoff": "the person hears when it is",
+   "follows": "the script's next line: time"
+  },
+  {
+   "s": "You took [substance, if known], and its effects will peak and then change.",
+   "payoff": "the person hears what they took and that its effects peak and then change",
+   "follows": "the script's next line: the substance and its course"
+  },
+  {
+   "s": "It's intense right now, and it'll pass.",
+   "payoff": "the person hears that the intensity will pass",
+   "follows": "the script's next line: the feeling now"
+  },
+  {
+   "s": "We can sort out the rest of your life tomorrow.",
+   "payoff": "the person hears that life questions can wait for tomorrow",
+   "follows": "the script's last line: what can wait"
+  },
+  {
+   "s": "If the state came from a practice, like meditation or fasting, the person can say:",
+   "payoff": "they know the next script is for a state that came from a practice, and that the person says it",
+   "follows": "after the script for a substance, the one for a practice"
+  },
+  {
+   "s": "I'm in an intense state, so I'm stopping the practice now, and my only job is to stay safe.",
+   "payoff": "the person says they're stopping the practice and that staying safe is their only job",
+   "follows": "the script the line before introduces"
+  },
+  {
+   "s": "A state from a practice has no drug wearing off on a schedule, so there's no telling how long it will last.",
+   "payoff": "they know a practice state has no set course, so they don't wait for it to end",
+   "follows": "what's different about a practice state, right after its script"
+  },
+  {
+   "s": "Once they can eat safely, food and warmth help their body settle.",
+   "payoff": "they give food and warmth once the person can eat safely, to help their body settle",
+   "follows": "what to do about that state"
+  },
+  {
+   "s": "Then help them pick one safe thing to try with their body and one calm person to stay with them, which the next two sections are about.",
+   "payoff": "they know the next two sections help them pick one safe thing for the body and one calm person to stay",
+   "follows": "after the scripts, what comes next in the guide"
+  },
+  {
+   "s": "Protect their sleep too, especially if they're euphoric or grandiose, and leave what it all meant until they've slept.",
+   "payoff": "they protect the person's sleep, especially when euphoric or grandiose, and put meaning-making off until after sleep",
+   "follows": "the last thing for the first five minutes, before the next sections"
+  }
+ ],
+ "checked": [
+  {
+   "point": "its effects will peak and then change",
+   "found": "the original script: \"These effects rise, peak, and change\"",
+   "still_needed": "yes: it tells the person the state has a course",
+   "fate": "changed"
+  },
+  {
+   "point": "A state from a practice has no drug wearing off on a schedule, so there's no telling how long it will last",
+   "found": "the original: \"A non-drug altered state may have a less predictable clock than a substance\"",
+   "still_needed": "yes: why the practice state needs its own care",
+   "fate": "changed"
+  },
+  {
+   "point": "leave what it all meant until they've slept",
+   "found": "the original: \"let meaning wait until the nervous system has somewhere to stand\"",
+   "still_needed": "yes: it keeps meaning-making out of the first night",
+   "fate": "changed"
+  },
+  {
+   "point": "Once they can eat safely, food and warmth help their body settle",
+   "found": "the original: \"stop the practice, eat something ordinary when safe, let the body settle, keep warm, and sleep\"",
+   "still_needed": "yes: what to do for a practice state",
+   "fate": "changed"
+  }
+ ],
+ "placement": "the Psychological First Aid section of the Shadow Work part, before Stillness or Movement? and Get One Human Anchor, which its last paragraph points to",
+ "questions": {
+  "Q1": "PASS: each paragraph opens on its point: the section's job, the first priority, the room's role, the reason for the fixes, what the script is for, what a practice state does, what comes next",
+  "Q2": "PASS: every act is the helper's or the person's own, with its purpose",
+  "Q3": "PASS: which things exactly: keys, stove, roads, balconies, pools; the light and the crowd; a practice like meditation or fasting",
+  "Q4": "PASS: no terms a reader wouldn't know; the triage app is linked where it is named",
+  "Q5": "PASS: each so turns on what's said before it",
+  "Q6": "PASS: dangers, room, what to say, the practice case with its own care, then what comes next",
+  "Q7": "PASS: every fact is about the person in front of them now",
+  "Q8": "PASS: the practice case's script and care sit together; the pointer to the next sections closes the section",
+  "Q9": "PASS: nothing compressed: the scripts are short lines meant to be said, the rest one step a sentence"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone?",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

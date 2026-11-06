@@ -1,0 +1,162 @@
+[
+ {
+  "sentence": 1,
+  "quote": "The triage app gives you the order to do things in",
+  "gap": "What triage app? Nothing before this mentions one: where is it, and what does it put in order?",
+  "id": "L1",
+  "status": "drop",
+  "note": "the guide names and links the triage app in its very first line (\"Quick Triage Web-App Version HERE\"), and the section links it where it names it"
+ },
+ {
+  "sentence": 1,
+  "quote": "takes pressure off the person",
+  "gap": "Pressure from what: the trip itself, the people around them, or a feeling that they have to do something right now?",
+  "id": "L2",
+  "status": "drop",
+  "note": "the section goes on to name it: the room getting on their nerves, the crowd talking at once, touch they hate"
+ },
+ {
+  "sentence": 2,
+  "quote": "takes priority",
+  "gap": "Priority over what? You just said the app gives the order and this section is only about how to do things: is this the app's first step, or something to do before the app?",
+  "id": "L3",
+  "status": "drop",
+  "note": "the next words say it: anything that could let someone hurt themselves comes first, before the room and the scripts that follow"
+ },
+ {
+  "sentence": 3,
+  "quote": "pacing can help",
+  "gap": "Help with what, and how: does walking up and down calm them down, burn off nervous energy, or something else?",
+  "id": "L4",
+  "status": "drop",
+  "note": "in his dangers paragraph, unchanged here (it read Human alone in round 5); why each danger matters is in the guide's urgent-help list before this section (\"Get urgent help when somebody may harm themselves or another person ...\"), and the paragraph's acts are what the first five minutes need"
+ },
+ {
+  "sentence": 3,
+  "quote": "keep them from taking more of any substance",
+  "gap": "Any substance: alcohol, a joint, a pill meant to calm them down, even water? Which ones do you mean?",
+  "id": "L5",
+  "status": "drop",
+  "note": "in his dangers paragraph, unchanged here (it read Human alone in round 5); why each danger matters is in the guide's urgent-help list before this section (\"Get urgent help when somebody may harm themselves or another person ...\"), and the paragraph's acts are what the first five minutes need"
+ },
+ {
+  "sentence": 4,
+  "quote": "If they want to go confront somebody, that can wait",
+  "gap": "Why must it wait: is the danger to them, to the person they'd confront, or to the relationship? The list is about them hurting themselves, so I can't tell.",
+  "id": "L6",
+  "status": "drop",
+  "note": "in his dangers paragraph, unchanged here (it read Human alone in round 5); why each danger matters is in the guide's urgent-help list before this section (\"Get urgent help when somebody may harm themselves or another person ...\"), and the paragraph's acts are what the first five minutes need"
+ },
+ {
+  "sentence": 6,
+  "quote": "Put any weapons away",
+  "gap": "What counts as a weapon in an ordinary home: only guns, or kitchen knives and anything sharp too?",
+  "id": "L7",
+  "status": "drop",
+  "note": "in his dangers paragraph, unchanged here (it read Human alone in round 5); why each danger matters is in the guide's urgent-help list before this section (\"Get urgent help when somebody may harm themselves or another person ...\"), and the paragraph's acts are what the first five minutes need"
+ },
+ {
+  "sentence": 6,
+  "quote": "keep the person away from crowds and strangers",
+  "gap": "How are crowds and strangers a danger: do they overwhelm the person, might a stranger hurt them or call the police, or might they scare or hurt a stranger?",
+  "id": "L8",
+  "status": "drop",
+  "note": "in his dangers paragraph, unchanged here (it read Human alone in round 5); why each danger matters is in the guide's urgent-help list before this section (\"Get urgent help when somebody may harm themselves or another person ...\"), and the paragraph's acts are what the first five minutes need"
+ },
+ {
+  "sentence": 13,
+  "quote": "They're feeling overwhelmed, so dim the lights",
+  "gap": "Is that always so, or only when I've found that the light or the crowd is the problem? If the room seems fine, do I still dim the lights?",
+  "id": "L9",
+  "status": "drop",
+  "note": "the paragraph before is the check, and these are the fixes for what it finds; the obvious ones need no line"
+ },
+ {
+  "sentence": 13,
+  "quote": "the extra people around them",
+  "gap": "Extra beyond whom: me? One person they trust? Who's supposed to stay?",
+  "id": "L10",
+  "status": "drop",
+  "note": "the section's last paragraph points to the next two sections, and Get One Human Anchor says who stays (\"Use one calm human anchor as the lead\")"
+ },
+ {
+  "sentence": 16,
+  "quote": "its effects will peak and then change",
+  "gap": "Change into what: wear off, or turn into something different? Why \"change\" here, when the next line says it'll pass?",
+  "id": "L11",
+  "status": "drop",
+  "note": "\"change\" is the original's word: the person hears that this won't stay as it is, and the next line that it will pass"
+ },
+ {
+  "sentence": 19,
+  "quote": "If the state came from a practice",
+  "gap": "What state? Until now this has been about a drug trip: can meditation or fasting put someone into the same kind of crisis? Nothing before this says so.",
+  "id": "L12",
+  "status": "drop",
+  "note": "the line says it: a state can come from a practice like meditation or fasting; the guide's Cheetah House resource and its later sections on meditation say more"
+ },
+ {
+  "sentence": 19,
+  "quote": "the person can say",
+  "gap": "Who says this, and to whom? The lines before were mine to say to them, but this one is in their own voice: is it for someone going through it alone?",
+  "id": "L13",
+  "status": "drop",
+  "note": "\"the person can say\": the person in the state says it, to themselves or with the helper; the scripts before were the helper's"
+ },
+ {
+  "sentence": 20,
+  "quote": "so there's no telling how long it will last",
+  "gap": "What do I do with that? Does it mean I shouldn't tell them \"it'll pass\", or does it change something else I do?",
+  "id": "L14",
+  "status": "drop",
+  "note": "the next sentence says what to do with it: food and warmth once they can eat safely"
+ },
+ {
+  "sentence": 21,
+  "quote": "Once they can eat safely",
+  "gap": "What makes eating unsafe until then: nausea, being too out of it to swallow, coming off a fast? And is \"they\" the person who was fasting, or anyone on a trip?",
+  "id": "L15",
+  "status": "drop",
+  "note": "the guide's earlier body section says why eating can be unsafe (nausea, being too out of it), and the triage list before it; the original says only \"when safe\""
+ },
+ {
+  "sentence": 21,
+  "quote": "food and warmth help their body settle",
+  "gap": "Settle from what? What's unsettled in their body, and how do food and warmth calm it?",
+  "id": "L16",
+  "status": "drop",
+  "note": "the guide's earlier body section: \"The body feels awful and the altered mind writes cosmic horror to explain it\"; food and warmth are the original's own remedy here"
+ },
+ {
+  "sentence": 22,
+  "quote": "one safe thing to try with their body",
+  "gap": "What kind of thing: walking, breathing, lying still? And what is it meant to do for them?",
+  "id": "L17",
+  "status": "drop",
+  "note": "the line points to the next two sections, which are about exactly these choices (Stillness or Movement?, Get One Human Anchor)"
+ },
+ {
+  "sentence": 22,
+  "quote": "one calm person to stay with them",
+  "gap": "Isn't that me? Why is it their pick, and what happens if they don't pick me?",
+  "id": "L18",
+  "status": "drop",
+  "note": "the line points to the next two sections, which are about exactly these choices (Stillness or Movement?, Get One Human Anchor)"
+ },
+ {
+  "sentence": 23,
+  "quote": "Protect their sleep too",
+  "gap": "Protect it from what, and how? This part is about the first five minutes: is this something to do now, or later tonight?",
+  "id": "L19",
+  "status": "drop",
+  "note": "why sleep matters most for someone euphoric or grandiose is the guide's section When the Trip Feels Amazing: Euphoric Certainty; here it is the line that keeps sleep in the first night's plan"
+ },
+ {
+  "sentence": 23,
+  "quote": "especially if they're euphoric or grandiose",
+  "gap": "Why does sleep matter more when they feel happy or grand? I thought this was a bad trip: what goes wrong if a euphoric person doesn't sleep?",
+  "id": "L20",
+  "status": "drop",
+  "note": "why sleep matters most for someone euphoric or grandiose is the guide's section When the Trip Feels Amazing: Euphoric Certainty; here it is the line that keeps sleep in the first night's plan"
+ }
+]

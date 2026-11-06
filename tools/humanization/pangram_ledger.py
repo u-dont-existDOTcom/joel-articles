@@ -254,8 +254,10 @@ def blocks(recs, lineage, scope, detector=None, after_fix=None):
                    % (pending[0]['try'], lineage, pending[0].get('key') or pending[0]['sha256'][:12]))
     cap = cap_for(scope, detector if detector is not None else (line[-1].get('detector') if line else None))
     if cap is not None and len(line) >= cap and not (scope == 'section' and (after_fix or '').strip()):
-        out.append('lineage %s has used its %d tries for a %s: stop and ask Joel (a new owner decision is needed), or, '
-                   'for a section with a fix in it, give --after-fix (his answer 28a)' % (lineage, cap, scope))
+        out.append('lineage %s has used its %d tries for a %s: stop and ask Joel only for a decision that is his (a new '
+                   'owner decision is needed); a fix that is yours, or that the article\'s own goals already call for '
+                   '(a repeat cut, gate E374), goes on: for a section with a fix in it, give --after-fix (his answer 28a), '
+                   'or narrow it to its paragraphs (E343)' % (lineage, cap, scope))
     done = [p for p in line if p['result']]
     if len(done) >= 2 and all(is_miss(p) and not p['explain'] for p in done[-2:]):
         out.append('the last two predictions of lineage %s missed and neither is explained: stop and ask Joel ("I can\'t find '
