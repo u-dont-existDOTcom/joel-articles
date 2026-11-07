@@ -26,7 +26,7 @@
         },
         "current_state": {
           "path": "articles/romance/CURRENT-STATE.md",
-          "sha256": "0491e52a7cf619df00d77dd9f28e5819fec049e175f64122ce3b347f1b29bd0d"
+          "sha256": "fe418d7af492111d0f0a7baef59c1989613a260d7552b9e04e27bf1241bb3fdb"
         }
       },
       "review": {
@@ -60,7 +60,7 @@
         },
         {
           "path": "articles/romance/humanize/fix-20261107/README.md",
-          "sha256": "1eb76a7614bc04f4c45f87462267480be7afea41287d141a77f62a8a4d931dd2",
+          "sha256": "bcd4499dea8cfdea6b5fde1d369eda39e9ea8dc79025e76de1e9ad86ac7849fd",
           "role": "humanization_working_record"
         },
         {
@@ -245,12 +245,12 @@
         },
         {
           "path": "articles/romance/humanize/pangram-ledger.jsonl",
-          "sha256": "17cce66d060c0d5802e6fae565b9fefa335afd654cb80116ca70a3436c26727e",
+          "sha256": "e8fc92578eae439b315fe25b6f771650bae882de101cfbee19f8c36657be1bd0",
           "role": "humanization_working_record"
         },
         {
           "path": "articles/romance/humanize/SCORECARD.md",
-          "sha256": "a0ddcadd07e5e3f5b508ec90dee6703d54fced09e98f2b1b0d869337aaba5faa",
+          "sha256": "7a4186d10b2148f36b7f9c33fef2aaab50076c010f3dc0c867d82f18e8243480",
           "role": "humanization_working_record"
         },
         {
@@ -1211,6 +1211,96 @@
         {
           "path": "articles/romance/humanize/fix-20261107/r12/checks/texts.py",
           "sha256": "92428c52ee856ec1bd02fa108c05fa724b0558caac12b9edb0e3609f703e081e",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r13/checks/CHECK-r13-clar.txt",
+          "sha256": "b3d1eb1132a22acb51daa256dc1d1ffc74a6120663dd16ef07f73230f350518c",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r13/checks/CHECK-r13-dam.txt",
+          "sha256": "f4bb37cdcbfd32c7cddefaf6d080b92d3920ad67dfe2065e9dd6bece3b345d6d",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r13/checks/CHECK-r13-disc.txt",
+          "sha256": "9cd7e3ed3ff28da43028bf62c618655f47eee44fdaef85d4320f6b533fed6d4d",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r13/checks/CHECK-r13-ptsd.txt",
+          "sha256": "b6ce34482b218be2bd7f42dbebc50070109557694b797e7a4744fc7df2224716",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r13/checks/CHECK-r13-s22.txt",
+          "sha256": "c607bd3aaab656f69e69e688649f14dcbb59a84f68bed8d85062f659c86ed10e",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r13/checks/CHECK-r13-sit34.txt",
+          "sha256": "b20d01ed3936ea3d03ca8ed0925f57b2a349be60b1a326d51a018a8f97a2b07c",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r13/checks/CHECK-r13-slow.txt",
+          "sha256": "aa10f2d0552ed0550704d3a18ab840126af0db85a3b7a946fd94852417cbe50b",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r13/checks/RECEIPT-r13-clar.json",
+          "sha256": "9b87f32de2f580dacfba3d13af4b1a4ec4be1aa9008949bf8e9a413462acea04",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r13/checks/RECEIPT-r13-dam.json",
+          "sha256": "9d8e957f0adc828000140ee41b69adc486d40540b28ba338d7d407eeae882861",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r13/checks/RECEIPT-r13-disc.json",
+          "sha256": "b06c38cb851b6b2f90271a6453b606490a448e72da7f159214db304e099921c9",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r13/checks/RECEIPT-r13-ptsd.json",
+          "sha256": "970bd72bde684632920dccd745e024182c8ed111545874f7a1d3f3d5a1fdb77c",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r13/checks/RECEIPT-r13-s22.json",
+          "sha256": "43d91a155464b62f88e0e04d31b1163d64f337c64d17af228553c6c07123fc97",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r13/checks/RECEIPT-r13-sit34.json",
+          "sha256": "630cee11114ed98d1c1373d8aac19ab73bb7773d256e8173fad7ee60438fa479",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r13/checks/RECEIPT-r13-slow.json",
+          "sha256": "5d0ae48a251d2e1ecc10410d0876c5b7dddabf5d3215f53a999438bd36f1bbd4",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r13/checks/RESULTS-r13.json",
+          "sha256": "298cc3a366b8e7ace2745c3ef937c33696f465595540dcd2a435473c77028542",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r13/checks/make_receipts.py",
+          "sha256": "3dc1e368a52131467ebcc8d7dddffb0d08c6524552b56b4ade30b20fa0e50fae",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r13/checks/predict_r13.py",
+          "sha256": "5ded8dd648f2614a4ba82df784a1b9bb2c3f7464f52cdce78f32505c0c759cca",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r13/checks/texts.py",
+          "sha256": "9560a99a5598bdc3bc98bdb5480a00d0e7674828a3d997798371a64cd1f5922d",
           "role": "humanization_working_record"
         }
       ]

@@ -1,0 +1,117 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-07",
+ "text_sha256": "b3d1eb1132a22acb51daa256dc1d1ffc74a6120663dd16ef07f73230f350518c",
+ "text": "For me, the window of objectivity starts closing abruptly once it seems like sex will definitely be happening soon and I’m flowing with that timeline. I begin idealizing her more, and after sex I may suddenly feel unable to leave because maybe she’s pregnant, etc.\n\nMaybe I’m not representative of the modern degen dating scene. If you’re quite numb and used to casual sex, perhaps the window closes later, or even never. But for me, this is the pattern, and it seems like it would be healthy in a healthy, natural, small society.\n\nThe attachment theory part comes from my own experience and from reading I’ve done. Sex turns on bonding chemistry—oxytocin, dopamine, vasopressin—that usually biases us toward attachment.\n\nPeople call oxytocin the “love hormone,” as if getting more attached should make you feel closer and safer. If closeness was safe when you were little, maybe it does feel a bit like coming home, but if it came with neglect, abuse, or if people disappeared on you, you can get more attached and more freaked out at the same time. You might get anxious or suspicious. You might feel worthless or fight or flight mode may kick in.\n\nThere are several main types of brain chemistries that people have, and they determine part of what attracts us, according to Helen Fisher’s research:",
+ "section": "The window of clarity, and how it closes",
+ "reader": "Someone close to having sex with a new person, deciding what to find out before the bond clouds their view.",
+ "sentences": [
+  {
+   "s": "For me, the window of objectivity starts closing abruptly once it seems like sex will definitely be happening soon and I’m flowing with that timeline.",
+   "payoff": "the reader learns for him the window of objectivity closes once sex seems sure soon",
+   "follows": "opens the section"
+  },
+  {
+   "s": "I begin idealizing her more, and after sex I may suddenly feel unable to leave because maybe she’s pregnant, etc.",
+   "payoff": "the reader learns he idealizes her more and after sex may feel unable to leave",
+   "follows": "what happens to him then",
+   "link": "I begin idealizing her more"
+  },
+  {
+   "s": "Maybe I’m not representative of the modern degen dating scene.",
+   "payoff": "the reader learns he may not be representative of modern casual dating",
+   "follows": "who this may not fit",
+   "link": "Maybe I’m not representative"
+  },
+  {
+   "s": "If you’re quite numb and used to casual sex, perhaps the window closes later, or even never.",
+   "payoff": "the reader learns if you are numb to casual sex, the window may close later or never",
+   "follows": "how it may differ for others",
+   "link": "If you’re quite numb"
+  },
+  {
+   "s": "But for me, this is the pattern, and it seems like it would be healthy in a healthy, natural, small society.",
+   "payoff": "the reader learns for him this is the pattern, healthy in a healthy small society",
+   "follows": "his pattern all the same",
+   "link": "But for me, this is the pattern"
+  },
+  {
+   "s": "The attachment theory part comes from my own experience and from reading I’ve done.",
+   "payoff": "the reader learns the attachment part comes from his experience and his reading",
+   "follows": "where this comes from",
+   "link": "The attachment theory part"
+  },
+  {
+   "s": "Sex turns on bonding chemistry—oxytocin, dopamine, vasopressin—that usually biases us toward attachment.",
+   "payoff": "the reader learns sex turns on bonding chemistry that biases us toward attachment",
+   "follows": "what the reading says",
+   "link": "Sex turns on bonding chemistry"
+  },
+  {
+   "s": "People call oxytocin the “love hormone,” as if getting more attached should make you feel closer and safer.",
+   "payoff": "the reader learns oxytocin is called the love hormone, as if attachment should feel safe",
+   "follows": "what the reading says next",
+   "link": "People call oxytocin"
+  },
+  {
+   "s": "If closeness was safe when you were little, maybe it does feel a bit like coming home, but if it came with neglect, abuse, or if people disappeared on you, you can get more attached and more freaked out at the same time.",
+   "payoff": "the reader learns if childhood closeness was safe it may feel like home, if not you can get more attached and more freaked out at once",
+   "follows": "the two cases",
+   "link": "If closeness was safe"
+  },
+  {
+   "s": "You might get anxious or suspicious.",
+   "payoff": "the reader learns you might get anxious or suspicious",
+   "follows": "what that can look like",
+   "link": "You might get anxious"
+  },
+  {
+   "s": "You might feel worthless or fight or flight mode may kick in.",
+   "payoff": "the reader learns you might feel worthless or go into fight or flight",
+   "follows": "what else can happen",
+   "link": "You might feel worthless"
+  },
+  {
+   "s": "There are several main types of brain chemistries that people have, and they determine part of what attracts us, according to Helen Fisher’s research:",
+   "payoff": "the reader learns Helen Fisher’s research names types of brain chemistry that shape attraction",
+   "follows": "the second piece of the reading",
+   "link": "There are several main types"
+  }
+ ],
+ "checked": [
+  {
+   "point": "the Low windows’ points",
+   "found": "the live post (../../live-check/LOW-WINDOWS.json)",
+   "still_needed": "yes: the section needs them",
+   "fate": "changed"
+  }
+ ],
+ "placement": "The whole section, in its place in the live post, its heading left out.",
+ "opens": {
+  "first_sentence": "For me, the window of objectivity starts closing abruptly once it seems like sex will definitely be happening soon and I’m flowing with that timeline.",
+  "why_reading": "It tells the reader when the window of objectivity closes for him, which may be soon for them."
+ },
+ "same_point": "none: read the section from its heading to the next for these points; each is made once, here",
+ "questions": {
+  "Q1": "PASS: each changed sentence gives its point first, in plain words",
+  "Q2": "N/A: these sections tell and ask; the advice in them is unchanged",
+  "Q3": "PASS: the people, places, numbers and things are named as in the live post",
+  "Q4": "PASS: no new term",
+  "Q5": "PASS: each sentence’s tie is in its words (the links field), or the link says why it needs none",
+  "Q6": "PASS: the order is the live post’s, but for the moves named in texts.py (176’s wants said with its point, 438’s point first)",
+  "Q7": "PASS: each change keeps what the section tells the reader about their own case",
+  "Q8": "PASS: no item moved between groups",
+  "Q9": "PASS: one step per sentence in the changed paragraphs"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}
