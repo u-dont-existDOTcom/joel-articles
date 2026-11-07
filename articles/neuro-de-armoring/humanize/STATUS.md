@@ -1,5 +1,11 @@
 # Status: neuro de-armoring humanization (newest on top)
 
+## 2026-11-06, his message of 23:50 UTC: his blocks 20 and 25 in; lessons c to f; round 4
+
+His two versions in (block 25 without a stray "If", checked Human High). Lessons `docs/lessons/2026-11-06-2350-neuro.md`
+and AGENTS.md's done-rule (no Low, most High) in main (PR 338). Round 4 (`fix-20261106/p4/RESULTS.md`): block 42 Human
+High and in; 26 Mixed; 27-28, 38, 43, 44 AI.
+
 ## 2026-11-06, his message of 23:01 UTC: his version of block 20 in; lesson neuro-2026-11-06b; round 3 all AI
 
 His version of the first paragraph of "Psychology is the Software" is in (`fix-20261106/p3/apply_his_p020.py`; fidelity
