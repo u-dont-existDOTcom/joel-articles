@@ -6,15 +6,15 @@ Built by `tools/humanization/pangram_ledger.py build` from `articles/romance/hum
 
 | version | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| pangram 4.1, the web app (Joel's account, GUI credits) | 98 | 63 (64%) | 43% | 57% | 83% | 0.228 (base 0.245, 98) |
+| pangram 4.1, the web app (Joel's account, GUI credits) | 104 | 69 (66%) | 40% | 60% | 84% | 0.228 (base 0.241, 104) |
 
 ## pangram 4.1, the web app (Joel's account, GUI credits)
 
 | window | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| the latest 50 | 50 | 33 (66%) | 30% | 70% | 88% | 0.235 (base 0.210, 50) |
-| the latest 100 | 98 | 63 (64%) | 43% | 57% | 83% | 0.228 (base 0.245, 98) |
-| all | 98 | 63 (64%) | 43% | 57% | 83% | 0.228 (base 0.245, 98) |
+| the latest 50 | 50 | 36 (72%) | 24% | 76% | 92% | 0.231 (base 0.182, 50) |
+| the latest 100 | 100 | 66 (66%) | 41% | 59% | 83% | 0.229 (base 0.242, 100) |
+| all | 104 | 69 (66%) | 40% | 60% | 84% | 0.228 (base 0.241, 104) |
 
 The boundary mix (what was checked; accuracy differs a lot between a paragraph and a section):
 
@@ -23,15 +23,15 @@ The boundary mix (what was checked; accuracy differs a lot between a paragraph a
 | pair | 45 | 28 (62%) | 56% | 44% | 82% | 0.230 (base 0.247, 45) |
 | paragraph | 17 | 13 (76%) | 12% | 88% | 76% | 0.217 (base 0.104, 17) |
 | stretch | 2 | 2 (100%) | 50% | 50% | 50% | 0.145 (base 0.250, 2) |
-| section | 34 | 20 (59%) | 41% | 59% | 88% | 0.234 (base 0.242, 34) |
+| section | 40 | 26 (65%) | 35% | 65% | 90% | 0.233 (base 0.227, 40) |
 
 Calibration:
 
 | my chance of a 100% Human result | calls | mean chance | read Human |
 |---|---|---|---|
 | 0.2 to 0.4 | 3 | 0.30 | 33% |
-| 0.4 to 0.6 | 88 | 0.52 | 56% |
-| 0.6 to 0.8 | 22 | 0.62 | 86% |
+| 0.4 to 0.6 | 94 | 0.52 | 59% |
+| 0.6 to 0.8 | 23 | 0.62 | 87% |
 
 ## Misses since the ledger (35)
 
@@ -107,7 +107,6 @@ The latest:
 | romance-tail | stretch | 1 of 2 | Mixed |
 | romance-sec-bypass | section | 1 of 2 | Mixed |
 | romance-s22-p438 | paragraph | 1 of 6 | AI |
-| romance-low-sit | section | 2 of 2 | Mixed |
 | romance-low-jeal | section | 2 of 2 | Mixed |
 | romance-low-ideal | section | 1 of 2 | Mixed |
 | romance-low-ideal-p147 | pair | 1 of 6 | Mixed |
