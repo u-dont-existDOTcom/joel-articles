@@ -531,7 +531,7 @@ An intense altered state can make everything feel final, cosmic, and urgent, and
 
 **Put yourself on a 24–72 hour action lock.**
 
-Until you have slept and eaten, don't drive, travel, break up, quit your job, confess everything, confront anybody, accuse anybody, send the message, post the revelation, give away possessions, make a grand purchase, call your ex, call your parents to explain the universe, or decide that you are permanently enlightened or permanently damaged.
+Until you have slept and eaten, maybe don't drive, travel, break up, make up, quit your job, confess everything, confront or accuse that list of people you've been meaning to... Think twice before sending whatever ridiculous message you're planning on to Judge Amos, posting that revelation you'll forget tomorrow, giving away your BMW, buying a new BMW. After you decide that you are permanently enlightened or permanently damaged, and you explained the whole universe to your parents in 42 seconds, you can still change your mind the next day.
 
 **Write it down, get some sleep, and go back over it sober with one grounded person.**
 
@@ -831,13 +831,6 @@ During a trip, don't identify with every shadow thought, suppress it, confess it
 Don't make huge decisions or diagnose yourself from an intense night. You don't need to assume every vision was literal, nor that anything you realized is actually true (or false). Ask your body what it needs from you now. I'm betting it will tell you: Give me sleep, natural food, pure water, a nice nature walk. It helps to integrate the experience via journaling your feelings, and talking with someone grounded (not the 20 chaotic people who are still coming down). To prevent your mind from giving spirituality a negative connotation, engage in some sober prayer or gentle meditation.
 
 ![](https://substack-post-media.s3.amazonaws.com/public/images/287aef23-c49e-4977-a360-504aa2b632e4_1122x1402.png)
-
-### Minimum Viable Integration
-
-1. **First 24 hours:** sleep, food, water, warmth, ordinary contact, and no big moves.
-2. **Next few days:** write the facts – substance, dose when known, setting, events, triggers, what helped, and what made things worse.
-3. **Then:** consider what the experience may have meant emotionally, spiritually, relationally, or practically.
-4. **Last:** make small behavioral changes that reduce suffering and increase love.
 
 ### What Kind of Aftermath Is This?
 

@@ -117,6 +117,23 @@ class AskTests(unittest.TestCase):
         own = dict(asked, whose='his own: his paragraph in the 2026-10-03 post')
         self.assertEqual(R.sense_problems(rv([own])), [])
 
+    def test_a_stretch_on_a_list_covers_every_item(self):
+        # gate bad-trips-2026-11-07k: round 23's steps card covered the first of four numbered steps
+        md = '### Steps\n\n1. **First:** sleep.\n\n2. **Then:** write it down.\n\n3. **Last:** small changes.\n\nAfter.\n'
+        bl = R.blocks(md)
+        self.assertEqual([b['kind'] for b in bl], ['h3', 'oli', 'oli', 'oli', 'p'])
+        sp = lambda i: {'block': i, 'start': 0, 'end': len(bl[i]['text'])}
+        rv = lambda cards, built='2026-11-07': {'built': built, 'suggestions': cards}
+        card = {'id': 'T-2', 'type': 'teach', 'advice': 'edit', 'spans': [sp(1)]}
+        p = R.list_problems(rv([card]), bl)
+        self.assertEqual(len(p), 1)
+        self.assertIn('covers 1 of the 3 items', p[0])
+        self.assertEqual(R.list_problems(rv([dict(card, spans=[sp(1), sp(2), sp(3)])]), bl), [])
+        self.assertEqual(R.list_problems(rv([dict(card, list_part='only the second step names a dose')]), bl), [])
+        self.assertEqual(R.list_problems(rv([dict(card, advice='approve')]), bl), [])   # an edit card's job
+        self.assertEqual(R.list_problems(rv([card], built='2026-11-06'), bl), [])
+        self.assertEqual(R.list_problems(rv([dict(card, spans=[sp(4)])]), bl), [])   # not a list
+
     def test_the_card_shows_why_im_asking(self):
         md = '# A heading\n\nThis is the first paragraph. It says a thing.\n'
         bl = R.blocks(md)

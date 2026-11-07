@@ -57,4 +57,8 @@ card(id='TEACH-STEPS', type='teach', advice='edit', whose=ASKED, keep_label='ski
           'loop breaker, and Who to Contact\'s directories.'),
      advice_note=('Edit it: keep it a list or make it prose, whichever you\'d write, and keep every step. I\'ll carry what you '
                   'do to the lists above, test each, and put the ones that read Human straight in.'),
-     spans=[whole(P('B423'))])
+     # Published with spans=[whole(P('B423'))], which covered only the list's first item: the page he answered at 22:38 UTC
+     # highlighted one line ("i don't understand how you work, you want me to correct only that one line?"). P now refuses a
+     # list's first item by default; this is what the card should have spanned. The published REVIEW-R23 files are kept as he
+     # saw them, so this script is not re-run for round 23.
+     spans=[whole(i) for i in PALL('B423')])

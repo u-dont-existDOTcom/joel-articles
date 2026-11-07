@@ -21,9 +21,22 @@ BL = SR.blocks(MD)
 MAP = json.loads((HERE / 'PAGE-R23-map.json').read_text(encoding='utf-8'))['map']
 
 
-def P(bid, k=0):
-    """The page index of the k-th page block of B id BID (a list B id has one page block per item)."""
+def P(bid, k=None):
+    """The page index of B id BID's page block. A list B id has one page block per item, so for one of those, name the
+    item (k) or use PALL. Round 23's card on Minimum Viable Integration spanned only its first item because this took the
+    first by default (Joel, 2026-11-07 22:38 UTC: "i don't understand how you work, you want me to correct only that one
+    line? ... why?")."""
+    if k is None:
+        if len(MAP[bid]) > 1:
+            raise SystemExit('%s is a list of %d page blocks: name the item, P(%r, k), or take them all, PALL(%r)'
+                             % (bid, len(MAP[bid]), bid, bid))
+        k = 0
     return MAP[bid][k]
+
+
+def PALL(bid):
+    """Every page block of B id BID, in order (each item of a list)."""
+    return list(MAP[bid])
 
 
 def T(i):
