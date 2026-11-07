@@ -27,6 +27,11 @@ with his OK and no email.
   app with its making-sense receipt. Human in its own check: S1 the casual-sex turn (#1), S3 the support paragraph's
   summary cut (#3), S4 the provider question (#4), S5 Bee's shoes (#5), S9 the bed line (#10, its line Low), S12 the
   patient paragraphs (#13), S13 teacher and student (#14).
+- 2026-11-07 (13:39 UTC pickup): tell panels on S2, S7, S10, S11, S17 and S21 (`humanize/fix-20261107/r03/panel-s2/`,
+  `r04/panel-*`, `r05/panel-*`); second and later tries at S2, S6 to S11, and first tries at S14 to S21 (`r03/`, `r04/`,
+  `r05/`). Human in their own checks, no Low: S6 bundling (#30), S8 idealization (#18), S11 her as Mom (#37), S14
+  polarity inside the safety (#21), S15 proving I'm the man (#31), S16 the fantasy lines (#23), S18 the backup system
+  (#25), S19 the confidants' side of the story (#32), S20 the agreement questions (#27).
 
 ### Before 2026-11-07 (the registered master, as recorded then)
 
@@ -132,30 +137,41 @@ Use exact r23r2 on `main` as the sole current Romance working authority. The nex
 
 ## Current checkpoint
 
-2026-11-07, Joel's 13:13 UTC turn. Seven spots read Human in their own checks. Still AI: S2 the monastic paragraph (two
-tries, #2 and #6), S6 bundling (#7), S7 the friends-or-exes question (#8), S8 idealization (#9), S10 alone time (#11), S11
-her as mom (#12). The misses changed more than the hits did: my set pieces (a quip, a contrast frame, a list in an
-if-clause) read AI, while the fixes that kept his words and changed the one sentence read Human.
+2026-11-07, the 13:39 UTC pickup of Joel's 13:13 UTC ask. 15 of the 21 spots read Human in their own checks with no
+Low window: S1, S3, S4, S5, S6, S8, S11, S12, S13, S14, S15, S16, S18, S19, S20. Human with a Low window: S7, the
+shut-down questions (#39), and S9, the bed line (#10; its next try #40 read worse). Still AI: S2 the monastic paragraph
+(five tries; the last, #38, 27% AI, with only the perks and West sentences AI Low), S10 alone time (four tries, none
+Human: my rebuilds read worse than his own words), S17 Kim Anami and S21 the extra promise (three tries each; in these
+two-paragraph checks his own sentences read AI too, Human in the live post).
+
+What worked: changing only the sentence in the window and keeping his words around it (S8, S11, S15, S16, S18, S19,
+S20). What didn't: rebuilding a sentence along a tell panel's list (S10, S21), the same finding as the neuro lane's
+lesson neuro-2026-11-07e.
+
+His extension read only the first 99,999 characters of the live post (`live-check/META.json`): the post is 116,586, so
+its last part, from "It’s not always possible in that moment to change a defensive posture" on, has never been checked.
 
 ## Remaining
 
-1. S2: the tell panel (two AI readings, E346), then a third try.
-2. S6, S7, S8, S10, S11: second tries that keep his words and change only the window sentence, checked in a longer stretch
-   of the section as well as alone.
-3. S14 to S21 (polarity inside safety, proving I'm the man, the fantasy lines, Kim Anami, the backup system, friends'
-   partial story, the agreement questions, the extra promise), then the Human Low windows.
-4. A whole-article check of the fixed version (a temporary draft for his extension), then his post updated with his OK,
-   no email.
+1. S17 and S21: check each inside its whole section, as the live post has it, with the best try in it (the short checks
+   read his own sentences AI).
+2. S10, and S2 if its last try fails: on the marking page for Joel with my tested tries, as the paragraphs he could teach
+   most from (gate bad-trips-2026-11-07c).
+3. The Low windows: S7's shut-down questions, S9's bed line, then the live post's 911 words of Human Low.
+4. The unchecked last part of the post: its own check.
+5. A whole-article check of the fixed version (a temporary draft for his extension, in two parts if it is over 100,000
+   characters), then his post updated with his OK, no email.
 
 ## Blockers / unresolved
 
-- None blocking.
+- None blocking. Kim Anami's linked page could not be read from here (the fetch waited for an approval nobody
+  answered), so her claims are kept as the live post words them.
 
 ## Evidence / artifacts
 
-- `humanize/fix-20261107/live-check/META.json`, `AI-WINDOWS.json`; `humanize/fix-20261107/r01/checks/`, `r02/checks/`
-  (texts, receipts, results); `humanize/pangram-ledger.jsonl`; `humanize/SCORECARD.md`.
+- `humanize/fix-20261107/live-check/META.json`, `AI-WINDOWS.json`; `humanize/fix-20261107/r01/` to `r05/` (check texts,
+  receipts, predictions, results, tell panels); `humanize/pangram-ledger.jsonl`; `humanize/SCORECARD.md`.
 
 ## Next safe action
 
-Run the tell panel on S2, then the second tries at S6, S7, S8, S10 and S11, then S14 to S21.
+Check S17 and S21 inside their sections; put S10 (and S2 if needed) on the marking page; then the Low windows.

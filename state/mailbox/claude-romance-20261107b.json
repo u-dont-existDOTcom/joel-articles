@@ -1,0 +1,46 @@
+{
+ "about": "Each turn's mailbox check (tools/humanization/lane_mailbox.py; AGENTS.md, \"Suggested fixes from other projects\"). Newest last.",
+ "places": {
+  "uda-lane": "this repository's lane in universal-dev-architecture (suggested-fixes/joel-articles/), against docs/suggested-fixes-ledger.md",
+  "repo": "new issues and pull requests here, and new comments and reviews on any of them, replies on our own included",
+  "notes": "edits others made to the lane's handoff notes and owner questions pages since its last turn",
+  "runtime": "the messages the session's runtime queued for it"
+ },
+ "checks": [
+  {
+   "turn": "2026-11-07T13:39Z",
+   "lines_of_work": [
+    "romance article"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "UDA main b6185f7, unchanged; root AGENTS.md read live this turn"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "main after #372 (ours) merged; no new issues, comments or reviews; no new shared lesson since neuro-2026-11-07c and d"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no edits by anyone else to articles/romance"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "my scheduled pickup of 13:39 UTC (continue Joel's 13:13 ask); three PR notifications, #372 merged"
+    }
+   ],
+   "items": [
+    {
+     "item": "scheduled pickup of 13:39 UTC",
+     "outcome": "S2's tell panel; second tries at S6, S7, S8, S10, S11; first tries at S14 to S21"
+    }
+   ],
+   "recorded_utc": "2026-11-07T13:40Z"
+  }
+ ]
+}

@@ -1,0 +1,93 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-07",
+ "text_sha256": "63e75c22c363cd372c075d88837408de5d2f900bfe5650e88aa74f2c453f0579",
+ "text": "Forced celibacy doesn’t abolish anyone’s sexuality. For most people it eventually sends it somewhere weird. Why wouldn’t it?\n\nSome people become monks for practical reasons too. In a poor country, it’s free food, a roof and respect, and nobody expects you to hold down a job or raise a family. And even where the food doesn’t matter, like in the West, a guy who was a nobody as a layman gets to be Venerable Somebody, and people bow to him.\n\nOf course, he may sincerely want liberation, too. People can want several things at once.",
+ "section": "Celibacy and monastics",
+ "reader": "Someone weighing celibacy or monastic life, deciding whether the people who choose it are only after liberation.",
+ "sentences": [
+  {
+   "s": "Forced celibacy doesn’t abolish anyone’s sexuality.",
+   "payoff": "the reader learns forced celibacy doesn’t end sexuality",
+   "follows": "opens the point"
+  },
+  {
+   "s": "For most people it eventually sends it somewhere weird.",
+   "payoff": "the reader learns where it usually goes: somewhere weird",
+   "follows": "what happens to it",
+   "link": "it eventually sends it"
+  },
+  {
+   "s": "Why wouldn’t it?",
+   "payoff": "the reader learns the point pressed as a question",
+   "follows": "the point pressed",
+   "link": "Why wouldn’t it?"
+  },
+  {
+   "s": "Some people become monks for practical reasons too.",
+   "payoff": "the reader learns some people become monks for practical reasons",
+   "follows": "another reason people choose robes",
+   "link": "practical reasons too"
+  },
+  {
+   "s": "In a poor country, it’s free food, a roof and respect, and nobody expects you to hold down a job or raise a family.",
+   "payoff": "the reader learns what that means in a poor country: food, a roof, respect, and no job or family to support",
+   "follows": "the reasons, first case",
+   "link": "In a poor country"
+  },
+  {
+   "s": "And even where the food doesn’t matter, like in the West, a guy who was a nobody as a layman gets to be Venerable Somebody, and people bow to him.",
+   "payoff": "the reader learns even where food doesn’t matter, as in the West, a nobody gets to be Venerable Somebody and is bowed to",
+   "follows": "the reasons where the first one falls away",
+   "link": "And even where the food doesn’t matter"
+  },
+  {
+   "s": "Of course, he may sincerely want liberation, too.",
+   "payoff": "the reader learns he may still sincerely want liberation",
+   "follows": "what this says about him",
+   "link": "Of course"
+  },
+  {
+   "s": "People can want several things at once.",
+   "payoff": "the reader learns people want several things at once",
+   "follows": "why both can be true",
+   "link": "none: his sentence, unchanged, in the order the live post has it"
+  }
+ ],
+ "checked": [
+  {
+   "point": "the AI window’s point",
+   "found": "the live post (../../live-check/AI-WINDOWS.json)",
+   "still_needed": "yes: the paragraph needs it",
+   "fate": "changed"
+  }
+ ],
+ "placement": "The paragraph in its place in the live post, with the paragraph or paragraphs before it.",
+ "opens": {
+  "first_sentence": "Forced celibacy doesn’t abolish anyone’s sexuality.",
+  "why_reading": "It tells the reader forced celibacy doesn’t end sexuality, the claim the paragraph tests."
+ },
+ "same_point": "none: read the section from its heading to the next for this paragraph’s point; it is made once, here",
+ "questions": {
+  "Q1": "PASS: each changed sentence gives its point first, in plain words",
+  "Q2": "N/A: these paragraphs tell and ask; the advice in them is unchanged",
+  "Q3": "PASS: the people, places, numbers and things are named as in the live post",
+  "Q4": "PASS: no new term",
+  "Q5": "PASS: each sentence’s tie is in its words (the links field), or the link says why it needs none",
+  "Q6": "PASS: nothing moved",
+  "Q7": "PASS: each change keeps what the paragraph tells the reader about their own case",
+  "Q8": "PASS: no item moved between groups",
+  "Q9": "PASS: one step per sentence; the small words carry the relations (but, so, since, because, otherwise)"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

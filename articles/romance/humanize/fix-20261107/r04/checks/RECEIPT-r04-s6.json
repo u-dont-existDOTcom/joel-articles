@@ -1,0 +1,87 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-07",
+ "text_sha256": "0213cfc10b3dced91a3fb5cc44aaa06473a285bc71aef3eec5b8bf752786d167",
+ "text": "Modern life barely has an intermediate stage between being interested in somebody and getting sexually entangled. One old example is bundling, a mostly extinct practice now especially associated with the Amish, even though it existed much more widely. Courting couples could spend the night together in bed, usually clothed, with the idea that they could talk and be close without having sex, which sounds a lot like the missing middle I’m talking about.\n\nWell, it didn’t exactly solve the problem. In late-eighteenth-century New England, where lots of couples bundled, 30–40 percent of brides were already pregnant on their wedding day, so it wasn’t a very reliable way to keep courtship nonsexual. I’m not trying to bring bundling back. I just think we need some stage that everybody recognizes, where two people can explore tenderness and attraction without immediately sliding toward sex, moving in together, and a life bond.",
+ "section": "Slowing down (the missing middle)",
+ "reader": "Someone who wants a stage between interest and sex, deciding how to slow things down.",
+ "sentences": [
+  {
+   "s": "Modern life barely has an intermediate stage between being interested in somebody and getting sexually entangled.",
+   "payoff": "the reader learns modern life has no stage between interest and sex",
+   "follows": "opens the point"
+  },
+  {
+   "s": "One old example is bundling, a mostly extinct practice now especially associated with the Amish, even though it existed much more widely.",
+   "payoff": "the reader learns bundling was one old version of that stage",
+   "follows": "an example from history",
+   "link": "One old example is bundling"
+  },
+  {
+   "s": "Courting couples could spend the night together in bed, usually clothed, with the idea that they could talk and be close without having sex, which sounds a lot like the missing middle I’m talking about.",
+   "payoff": "the reader learns what bundling was, a night in bed, clothed, talking, and that it is the missing middle Joel means",
+   "follows": "what the example looked like and why it matters",
+   "link": "Courting couples"
+  },
+  {
+   "s": "Well, it didn’t exactly solve the problem.",
+   "payoff": "the reader learns bundling didn’t solve the problem",
+   "follows": "the example’s limit",
+   "link": "Well, it didn’t exactly solve the problem"
+  },
+  {
+   "s": "In late-eighteenth-century New England, where lots of couples bundled, 30–40 percent of brides were already pregnant on their wedding day, so it wasn’t a very reliable way to keep courtship nonsexual.",
+   "payoff": "the reader learns the evidence, 30–40 percent of brides pregnant where couples bundled, so it didn’t keep courtship nonsexual",
+   "follows": "why it didn’t work",
+   "link": "where lots of couples bundled"
+  },
+  {
+   "s": "I’m not trying to bring bundling back.",
+   "payoff": "the reader learns Joel isn’t asking to bring bundling back",
+   "follows": "his conclusion, first half",
+   "link": "bring bundling back"
+  },
+  {
+   "s": "I just think we need some stage that everybody recognizes, where two people can explore tenderness and attraction without immediately sliding toward sex, moving in together, and a life bond.",
+   "payoff": "the reader learns what we do need: a stage everyone recognizes, before sex, moving in, and a life bond",
+   "follows": "his conclusion",
+   "link": "I just think"
+  }
+ ],
+ "checked": [
+  {
+   "point": "30–40 percent of New England brides were pregnant at marriage in the late 18th century, when bundling was common",
+   "found": "JSTOR Daily, \"Bundling: An Old Tradition on New Ground\", citing Richard Godbeer: \"some 30–40 percent of brides in New England were pregnant when they walked down the aisle\" (https://daily.jstor.org/bundling-an-old-tradition-on-new-ground); Smith and Hindus put the peak just under 30 percent around 1790",
+   "still_needed": "yes: it is why bundling didn’t solve the problem",
+   "fate": "kept"
+  }
+ ],
+ "placement": "The paragraph in its place in the live post, with the paragraph or paragraphs before it.",
+ "opens": {
+  "first_sentence": "Modern life barely has an intermediate stage between being interested in somebody and getting sexually entangled.",
+  "why_reading": "It names the gap the reader lives in: nothing between interest and sex."
+ },
+ "same_point": "none: read the section from its heading to the next for this paragraph’s point; it is made once, here",
+ "questions": {
+  "Q1": "PASS: each changed sentence gives its point first, in plain words",
+  "Q2": "N/A: these paragraphs tell and ask; the advice in them is unchanged",
+  "Q3": "PASS: the people, places, numbers and things are named as in the live post",
+  "Q4": "PASS: no new term",
+  "Q5": "PASS: each sentence’s tie is in its words (the links field), or the link says why it needs none",
+  "Q6": "PASS: nothing moved",
+  "Q7": "PASS: each change keeps what the paragraph tells the reader about their own case",
+  "Q8": "PASS: no item moved between groups",
+  "Q9": "PASS: one step per sentence; the small words carry the relations (but, so, since, because, otherwise)"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

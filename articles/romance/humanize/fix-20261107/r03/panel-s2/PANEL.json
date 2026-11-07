@@ -1,0 +1,69 @@
+{
+ "readers": [
+  "haiku",
+  "sonnet"
+ ],
+ "sentences": [
+  "Forced celibacy doesn’t abolish anyone’s sexuality.",
+  "For most people it eventually sends it somewhere weird.",
+  "Why wouldn’t it?",
+  "The robes come with perks too.",
+  "A monk in a poor country gets free food, a place to live, status, and a way out of ordinary responsibilities.",
+  "In the West it’s mostly about status.",
+  "A guy nobody respected much as a layman shaves his head, becomes Venerable Somebody, and suddenly people are bowing to him.",
+  "He can still sincerely want liberation.",
+  "He can also enjoy the bowing."
+ ],
+ "flagged": {
+  "1": [],
+  "2": [
+   "sonnet"
+  ],
+  "3": [
+   "haiku",
+   "sonnet"
+  ],
+  "4": [
+   "sonnet"
+  ],
+  "5": [
+   "haiku",
+   "sonnet"
+  ],
+  "6": [],
+  "7": [],
+  "8": [
+   "haiku",
+   "sonnet"
+  ],
+  "9": [
+   "haiku",
+   "sonnet"
+  ]
+ },
+ "agreed": [
+  3,
+  5,
+  8,
+  9
+ ],
+ "whole": {
+  "haiku": [
+   "The paragraph is built on a neat template (thesis, supporting list, twist, symmetrical close), which is the kind of structure a model produces readily. The voice cuts against that template, because the uneven sentence lengths and irreverent asides read as one person with an opinion, so it is more plausibly human-written with a polished closer than machine-made throughout."
+  ],
+  "sonnet": [
+   "The rhythm is very regular: short declarative sentences, then a longer example, then a two-beat punchline, and each paragraph is built to land a quotable line. The voice is plausible and fairly confident, but the build (claim, rhetorical question, list, example, balanced closer) is more polished and symmetrical than most casual human writing."
+  ]
+ },
+ "human_clean": [
+  "a guy nobody respected much as a layman",
+  "Venerable Somebody",
+  "abolish",
+  "Forced celibacy doesn't abolish anyone's sexuality.",
+  "A guy nobody respected much as a layman shaves his head, becomes Venerable Somebody, and suddenly people are bowing to him.",
+  "A guy",
+  "Venerable Somebody",
+  "In the West it's mostly about status.",
+  "Forced celibacy doesn't abolish anyone's sexuality."
+ ]
+}

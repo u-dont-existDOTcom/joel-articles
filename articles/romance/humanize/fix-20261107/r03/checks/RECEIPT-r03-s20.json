@@ -1,0 +1,93 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-07",
+ "text_sha256": "5115a6e88b77daa65f8eeaa423d724f14c371c9652e2dd563e24ba55ea10829b",
+ "text": "Then the questions change for me. If the romance changes, which parts are still supposed to remain? Are we promising actions, or low-key pretending to promise permanent feelings? Which needs are we still going to meet outside the relationship?\n\nAnd the biggie: what happens if one of us falls in love with someone else? What counts as betrayal, and what’s just a sign we need a serious talk? If our lives change, can we honestly sit down and rethink the agreement? If we split up, what do we still owe each other, and what do we owe our kids, if we have any?",
+ "section": "Romance with humility",
+ "reader": "Someone planning a life with a partner, deciding what to agree on in advance.",
+ "sentences": [
+  {
+   "s": "Then the questions change for me.",
+   "payoff": "the reader learns the questions change",
+   "follows": "opens the questions"
+  },
+  {
+   "s": "If the romance changes, which parts are still supposed to remain?",
+   "payoff": "the reader learns what stays if the romance changes",
+   "follows": "the first question",
+   "link": "none: his sentence, unchanged, in the order the live post has it"
+  },
+  {
+   "s": "Are we promising actions, or low-key pretending to promise permanent feelings?",
+   "payoff": "the reader learns are we promising actions or feelings",
+   "follows": "the next question",
+   "link": "none: his sentence, unchanged, in the order the live post has it"
+  },
+  {
+   "s": "Which needs are we still going to meet outside the relationship?",
+   "payoff": "the reader learns which needs we meet outside",
+   "follows": "the next question",
+   "link": "none: his sentence, unchanged, in the order the live post has it"
+  },
+  {
+   "s": "And the biggie: what happens if one of us falls in love with someone else?",
+   "payoff": "the reader learns the biggest: falling in love with someone else",
+   "follows": "the biggest question",
+   "link": "And the biggie"
+  },
+  {
+   "s": "What counts as betrayal, and what’s just a sign we need a serious talk?",
+   "payoff": "the reader learns what counts as betrayal and what calls for a serious talk",
+   "follows": "the next question",
+   "link": "none: the next question of the same list, in the same form"
+  },
+  {
+   "s": "If our lives change, can we honestly sit down and rethink the agreement?",
+   "payoff": "the reader learns whether we can rethink the agreement honestly if life changes",
+   "follows": "the next question",
+   "link": "none: the next question of the same list, in the same form"
+  },
+  {
+   "s": "If we split up, what do we still owe each other, and what do we owe our kids, if we have any?",
+   "payoff": "the reader learns what we owe each other and our kids if we split",
+   "follows": "the last question",
+   "link": "none: the next question of the same list, in the same form"
+  }
+ ],
+ "checked": [
+  {
+   "point": "the AI window’s point",
+   "found": "the live post (../../live-check/AI-WINDOWS.json)",
+   "still_needed": "yes: the paragraph needs it",
+   "fate": "changed"
+  }
+ ],
+ "placement": "The paragraph in its place in the live post, with the paragraph or paragraphs before it.",
+ "opens": {
+  "first_sentence": "Then the questions change for me.",
+  "why_reading": "It tells the reader the questions change once they choose a romance with humility."
+ },
+ "same_point": "none: read the section from its heading to the next for this paragraph’s point; it is made once, here",
+ "questions": {
+  "Q1": "PASS: each changed sentence gives its point first, in plain words",
+  "Q2": "N/A: these paragraphs tell and ask; the advice in them is unchanged",
+  "Q3": "PASS: the people, places, numbers and things are named as in the live post",
+  "Q4": "PASS: no new term",
+  "Q5": "PASS: each sentence’s tie is in its words (the links field), or the link says why it needs none",
+  "Q6": "PASS: nothing moved",
+  "Q7": "PASS: each change keeps what the paragraph tells the reader about their own case",
+  "Q8": "PASS: no item moved between groups",
+  "Q9": "PASS: one step per sentence; the small words carry the relations (but, so, since, because, otherwise)"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}
