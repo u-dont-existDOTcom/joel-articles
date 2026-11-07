@@ -31,3 +31,8 @@ his order room → body → human → time → meaning (KEEP-AS-IS K7). None is 
 - "Write it down. Protect sleep. Revisit it sober with one grounded person." as one sentence ("Write it down, get some sleep, and go back over it sober with one grounded person."): **[Human Written](https://www.pangram.com/history/795e7185-2001-4eb5-ae47-9e7c0deb0dd9)**; only its last sentence changed: [100%](https://www.pangram.com/history/72c11a90-eb11-4ee5-ab6f-9e501f8c1f34).
 - The lock said as "Put yourself on a 24–72 hour action lock." (keeping the name When the Trip Feels Amazing refers back to): [76%](https://www.pangram.com/history/0c651fc6-530f-4429-9918-0e98a3e817ac).
 Both are round 16's cards.
+
+## The other paragraphs as one flowing sentence (01:38 UTC)
+
+The fix that turned the three imperatives Human read worse on the rest: the first paragraph [58%](https://www.pangram.com/history/95c4b2c1-dcf4-4abe-85c4-14a6f5b6ffb9) (38% as the guide has it), the
+experience-content paragraph [50%](https://www.pangram.com/history/53210881-5b05-42c9-aeb0-bc2f4465de0b) (41%), "No revelation" [69%](https://www.pangram.com/history/6d73a374-fe1a-4b13-ac66-327e43b6b15b) (43%). Those three stay as the guide has them (the later list).

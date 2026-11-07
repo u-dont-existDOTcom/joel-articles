@@ -22,6 +22,9 @@ HEAD = {'payoff': 'they know this part is about not acting on the trip',
         'follows': "the next section's heading, after the reminder of where they are (a narrowing test)",
         'link': "none: a new section's heading; it opens the rule against acting on visions"}
 NEW = {
+    "An intense altered state can make everything feel final, cosmic and urgent, but feeling urgent doesn't make acting safe.": ('they know urgency is no reason to act', "the section's first point, under its heading", 'none: the section\'s first sentence after its heading, its point'),
+    "Treat trip content first as experience-content, rather than fact-content, because \"I saw it\" doesn't create a duty to act, and \"it felt cosmic\" doesn't make obedience wise.": ('they know to treat what they saw as experience, not orders', 'after the steps, how to think about the content', 'trip content'),
+    "No revelation makes murder, assault, coercion, sexual boundary-crossing, reckless driving, or self-harm safe tonight, so anything that would violate someone's consent or harm anyone goes in the notebook until you can look at it sober.": ('they know no vision makes harm safe, and that such urges go in the notebook', 'the last point, the hard limit', 'No revelation'),
     "Put yourself on a 24\u201372 hour action lock.": ('they know to hold off acting for 24 to 72 hours', "the section's rule, under its heading", 'action lock'),
     "Write it down, get some sleep, and go back over it sober with one grounded person.": ('they know what to do with the urge: write it, sleep, and look again sober with someone grounded', "the paragraph's steps, after the lock", 'Write it down'),
     "Write it down.": ('they know to write the urge down', "the first step, after the lock", 'Write it down'),

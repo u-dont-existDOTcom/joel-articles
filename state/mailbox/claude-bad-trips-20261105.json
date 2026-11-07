@@ -641,6 +641,41 @@
     }
    ],
    "recorded_utc": "2026-11-07T01:30Z"
+  },
+  {
+   "turn": "2026-11-07T01:37Z",
+   "lines_of_work": [
+    "bad trips guide"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "root AGENTS.md (sha 3146ac4a), unchanged"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "articles/bad-trips CURRENT-STATE.md next step"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no edits by others since 01:26 (git log on main)"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "1 queued: this resume (scheduled at 01:32)"
+    }
+   ],
+   "items": [
+    {
+     "item": "No Rash Actions' other paragraphs",
+     "outcome": "flowing tries worse; they stay"
+    }
+   ],
+   "recorded_utc": "2026-11-07T01:39Z"
   }
  ]
 }
