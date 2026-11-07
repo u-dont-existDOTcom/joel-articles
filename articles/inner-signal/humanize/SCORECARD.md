@@ -7,11 +7,12 @@ Built by `tools/humanization/pangram_ledger.py build` from `articles/inner-signa
 | version | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
 | Pangram 4.0 (before the ledger) | 944 | 803 (85%) | 22% | 78% | 89% | 0.120 (base 0.174, 944) |
-| pangram 4.1, Pangram's check of the Substack draft (free, Joel's account) | 38 | 32 (84%) | 84% | 16% | 5% | 0.119 (base 0.133, 38) |
+| pangram 4.1, Pangram's check of the Substack draft (free, Joel's account) | 46 | 38 (83%) | 78% | 22% | 9% | 0.126 (base 0.170, 46) |
 | pangram 4.1, web app | 14 | 8 (57%) | 43% | 57% | 86% | 0.201 (base 0.245, 14) |
-| pangram 4.1, the API (Joel's key, run on his laptop; E218) | 52 | 34 (65%) | 33% | 67% | 87% | 0.193 (base 0.220, 52) |
+| pangram 4.1, the API (Joel's key, run on his laptop; E218) | 68 | 42 (62%) | 40% | 60% | 87% | 0.208 (base 0.239, 68) |
 | pangram API (model pangram-4, expect 4.1), Joel's key, run on the laptop | 7 | 6 (86%) | 14% | 86% | 100% | 0.185 (base 0.122, 7) |
 | Pangram 4.1 (web app) | 124 | 103 (83%) | 24% | 76% | 78% | 0.183 (base 0.183, 124) |
+| pangram 4.1, the API (Joel's key, run on his laptop; E218, E325) | 11 | 8 (73%) | 18% | 82% | 91% | 0.217 (base 0.149, 11) |
 
 ## Pangram 4.0 (before the ledger)
 
@@ -43,24 +44,25 @@ Calibration:
 
 | window | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| the latest 50 | 38 | 32 (84%) | 84% | 16% | 5% | 0.119 (base 0.133, 38) |
-| the latest 100 | 38 | 32 (84%) | 84% | 16% | 5% | 0.119 (base 0.133, 38) |
-| all | 38 | 32 (84%) | 84% | 16% | 5% | 0.119 (base 0.133, 38) |
+| the latest 50 | 46 | 38 (83%) | 78% | 22% | 9% | 0.126 (base 0.170, 46) |
+| the latest 100 | 46 | 38 (83%) | 78% | 22% | 9% | 0.126 (base 0.170, 46) |
+| all | 46 | 38 (83%) | 78% | 22% | 9% | 0.126 (base 0.170, 46) |
 
 The boundary mix (what was checked; accuracy differs a lot between a paragraph and a section):
 
 | scope or kind | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| article | 26 | 22 (85%) | 88% | 12% | 4% | 0.101 (base 0.102, 26) |
+| article | 34 | 28 (82%) | 79% | 21% | 9% | 0.115 (base 0.163, 34) |
 | stretch | 12 | 10 (83%) | 75% | 25% | 8% | 0.155 (base 0.188, 12) |
 
 Calibration:
 
 | my chance of a 100% Human result | calls | mean chance | read Human |
 |---|---|---|---|
-| 0.0 to 0.2 | 24 | 0.04 | 8% |
-| 0.2 to 0.4 | 9 | 0.31 | 22% |
-| 0.4 to 0.6 | 5 | 0.47 | 40% |
+| 0.0 to 0.2 | 27 | 0.05 | 7% |
+| 0.2 to 0.4 | 11 | 0.31 | 36% |
+| 0.4 to 0.6 | 6 | 0.46 | 33% |
+| 0.6 to 0.8 | 2 | 0.70 | 100% |
 
 ## pangram 4.1, web app
 
@@ -89,9 +91,9 @@ Calibration:
 
 | window | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| the latest 50 | 50 | 33 (66%) | 32% | 68% | 90% | 0.190 (base 0.218, 50) |
-| the latest 100 | 52 | 34 (65%) | 33% | 67% | 87% | 0.193 (base 0.220, 52) |
-| all | 52 | 34 (65%) | 33% | 67% | 87% | 0.193 (base 0.220, 52) |
+| the latest 50 | 50 | 32 (64%) | 36% | 64% | 92% | 0.203 (base 0.230, 50) |
+| the latest 100 | 68 | 42 (62%) | 40% | 60% | 87% | 0.208 (base 0.239, 68) |
+| all | 68 | 42 (62%) | 40% | 60% | 87% | 0.208 (base 0.239, 68) |
 
 The boundary mix (what was checked; accuracy differs a lot between a paragraph and a section):
 
@@ -99,8 +101,8 @@ The boundary mix (what was checked; accuracy differs a lot between a paragraph a
 |---|---|---|---|---|---|---|
 | pair | 23 | 15 (65%) | 39% | 61% | 78% | 0.187 (base 0.238, 23) |
 | paragraph | 5 | 3 (60%) | 40% | 60% | 100% | 0.188 (base 0.240, 5) |
-| stretch | 6 | 3 (50%) | 50% | 50% | 100% | 0.255 (base 0.250, 6) |
-| section | 18 | 13 (72%) | 17% | 83% | 89% | 0.180 (base 0.139, 18) |
+| stretch | 10 | 5 (50%) | 70% | 30% | 80% | 0.250 (base 0.210, 10) |
+| section | 30 | 19 (63%) | 30% | 70% | 93% | 0.213 (base 0.210, 30) |
 
 Calibration:
 
@@ -108,8 +110,8 @@ Calibration:
 |---|---|---|---|
 | 0.0 to 0.2 | 1 | 0.15 | 0% |
 | 0.2 to 0.4 | 2 | 0.28 | 50% |
-| 0.4 to 0.6 | 28 | 0.54 | 61% |
-| 0.6 to 0.8 | 19 | 0.65 | 79% |
+| 0.4 to 0.6 | 37 | 0.54 | 51% |
+| 0.6 to 0.8 | 30 | 0.65 | 70% |
 | 0.8 to 1.0 | 12 | 0.85 | 92% |
 
 ## pangram API (model pangram-4, expect 4.1), Joel's key, run on the laptop
@@ -158,7 +160,28 @@ Calibration:
 | 0.4 to 0.6 | 91 | 0.55 | 73% |
 | 0.6 to 0.8 | 91 | 0.64 | 89% |
 
-## Misses since the ledger (52)
+## pangram 4.1, the API (Joel's key, run on his laptop; E218, E325)
+
+| window | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
+|---|---|---|---|---|---|---|
+| the latest 50 | 11 | 8 (73%) | 18% | 82% | 91% | 0.217 (base 0.149, 11) |
+| the latest 100 | 11 | 8 (73%) | 18% | 82% | 91% | 0.217 (base 0.149, 11) |
+| all | 11 | 8 (73%) | 18% | 82% | 91% | 0.217 (base 0.149, 11) |
+
+The boundary mix (what was checked; accuracy differs a lot between a paragraph and a section):
+
+| scope or kind | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
+|---|---|---|---|---|---|---|
+| stretch | 11 | 8 (73%) | 18% | 82% | 91% | 0.217 (base 0.149, 11) |
+
+Calibration:
+
+| my chance of a 100% Human result | calls | mean chance | read Human |
+|---|---|---|---|
+| 0.4 to 0.6 | 10 | 0.55 | 80% |
+| 0.6 to 0.8 | 5 | 0.62 | 80% |
+
+## Misses since the ledger (65)
 
 | cause | misses |
 |---|---|
@@ -167,6 +190,8 @@ Calibration:
 | parallel list kept | 2 |
 | context: red in the whole guide, Human in the pair | 2 |
 | six versions, same reading: the method is spent | 2 |
+| the fix made its stretch worse | 2 |
+| pessimism about cuts | 2 |
 | parallel list kept; light green turned red | 1 |
 | fix underrated | 1 |
 | tells overweighted | 1 |
@@ -191,33 +216,40 @@ Calibration:
 | the questions said as a run of instructions in our voice ('Then find out ... check whether ... And ask ...') | 1 |
 | the three echoes as three steps still read as a list, and the plainer climb read AI (Medium) beside them | 1 |
 | the Meta Model's list of questions, unchanged, read AI (Low and Medium) in this stretch; in the section it read Human (Low and Medium) | 1 |
+| ten short windows read AI in the whole half that read Human in their sections or pairs (E319): the guards questions, the sober induction's directions, two maxims | 1 |
+| two windows of his forgiveness text read AI in the whole half; by itself it read Human (High) for him | 1 |
+| my rewrites F-11 and F-16 read AI (High) themselves: the minds said as a run of short declaratives, one per sentence ('Your inner child still wants... The guards are bracing... Meanwhile your body remembers... Intuition speaks up...'), and the asides folded into 'because ... I also borrow ... since ..., since ...'; the original read Human by itself | 1 |
+| cutting F-218 left the heading running straight into 'Indirect suggestions can bypass the subject's skeptical guard.', which read Human (Low); the section with the sentence read Human by itself | 1 |
+| my F-251 ('Just don't get poetic ... as plain as a fire exit sign.') read AI (Low): a joke-shaped closer is still a closer | 1 |
+| my F-253 read AI (High and three Low): the anchor options split into short sentences ('Pick one thing to anchor yourself with. It could be ... The two-hand practice from above is another good one.') are the same instructions in a tidier row; F-255 and F-265 were not flagged | 1 |
+| my F-527 ('pin it back down ... which is how you keep the first one honest') read AI (Medium) and F-528's workshop leader example Human (Low): an explaining clause in place of the closer is still a closer, and the example sat in front of six questions | 1 |
+| his own inner child guide's line (C-626, 'No warmth today? Then rest your hands there and notice what you find, no faking required.') read AI (High) here, after 'Make sure you're actually talking to your inner child, not just repeating a script.' (AI Low); his line is not offered as a card | 1 |
+| pessimism about a run of questions | 1 |
 
 The latest:
 
 | check | lineage, try | said | read | cause |
 |---|---|---|---|---|
-| [s1101-95](https://www.pangram.com/history/8be96f9e-57b6-41f4-86ec-808c276c90f8) | HG1101-95, 1 | AI | Human | **not explained yet** |
-| [s1101-96](https://www.pangram.com/history/78cb97fc-9eb9-44a6-9de3-2988a428ebd1) | HG1101-96, 1 | AI | Human | **not explained yet** |
-| [s1101-99](https://www.pangram.com/history/2122b7a5-8950-4926-9037-81d41cfbf928) | HG1101-99, 1 | Human | AI or mixed | **not explained yet** |
-| [r1101-59](https://www.pangram.com/history//34180952-89c5-44bb-8abe-521269bff5e2) | HG1101-59, 2 | Human | AI or mixed | a rewrite of the words, not the shape |
-| [r1101-93](https://www.pangram.com/history//814667a4-d788-4dd1-a0d9-f941a0cf8ea5) | HG1101-93, 2 | Human | AI or mixed | an opening generalization kept |
-| [r1102-15](https://www.pangram.com/history/1050793a-1f08-47d0-aac9-098afd0e5408) | HG1101-15, 2 | Human | AI or mixed | a line restored untested from his inner child guide, without the example that follows it there |
-| [r1102-27](https://www.pangram.com/history/03338373-12c4-41ab-bbda-694159cd0d2e) | HG1101-27, 2 | Human | AI or mixed | his opening read Human (Low) beside the lettered steps; Mostly Human Written at 5.8% with no AI window |
-| [r1102-40](https://www.pangram.com/history/93ac0152-0715-4cde-b8ff-d6544781099d) | HG1101-40, 2 | Human | AI or mixed | the approved script reads AI in the section; my prediction took his own check of a longer passage as the base |
-| [r1102-69](https://www.pangram.com/history/b6b3ac4c-810e-4d4f-a2db-15d7bd4125fe) | HG1101-69, 2 | AI | Human | pessimism: his Patterns 3 to 7 (Human High by themselves) carried a long section |
-| [r1102-99](https://www.pangram.com/history/980437b6-2192-4223-afef-d79c3b68486b) | HG1101-99, 2 | AI | Human | pessimism about the list numbers |
-| [r1102b-B0](https://www.pangram.com/history/1087d1e2-6e20-41b5-8b2e-81d64be3b2cf) | HG1102-W282, 1 | Human | AI or mixed | the script reads AI (Low) after his rewrite; his check of this passage had other words |
-| [r1102b-B3](https://www.pangram.com/history/c6990553-fb90-4cc5-ae42-42fd1e0caa26) | HG1102-40-S, 1 | Human | AI or mixed | my fix put a new list of three in place of the old one ('Maybe your fingers..., or your breath..., or your attention...') |
-| [r1102b-D2](https://www.pangram.com/history/a68f6b1e-1ea6-4c31-b9a7-33ba058c8e2b) | HG1102-69-P10, 1 | Human | AI or mixed | the questions said as a run of instructions in our voice ('Then find out ... check whether ... And ask ...') |
 | [r1102b-B4](https://www.pangram.com/history/ecf802cd-e675-4bf6-9845-87870cddf8b4) | HG1102-40-S, 2 | Human | AI or mixed | the three echoes as three steps still read as a list, and the plainer climb read AI (Medium) beside them |
 | [r1102b-D1](https://www.pangram.com/history/cebaccad-d951-4faf-8f36-282f80d44271) | HG1102-69-P10, 2 | Human | AI or mixed | the Meta Model's list of questions, unchanged, read AI (Low and Medium) in this stretch; in the section it read Human (Low and Medium) |
+| [w1102-A](https://www.pangram.com/history/25bc4954-3ece-40f7-98c5-75fd5444f6e1) | HG1102-whole-A, 1 | Human | AI or mixed | ten short windows read AI in the whole half that read Human in their sections or pairs (E319): the guards questions, the sober induction's directions, two maxims |
+| [w1102-B](https://www.pangram.com/history/aa3f74c7-cc59-40dd-b6e9-fcc0d3cc2b06) | HG1102-whole-B, 1 | Human | AI or mixed | two windows of his forgiveness text read AI in the whole half; by itself it read Human (High) for him |
+| [w1102f-02](https://www.pangram.com/history/1c316dee-a9c1-42ba-95f4-c21a9cb17a1f) | HG1101-02, 2 | Human | AI or mixed | my rewrites F-11 and F-16 read AI (High) themselves: the minds said as a run of short declaratives, one per sentence ('Your inner child still wants... The guards are bracing... Meanwhile your body remembers... Intuition speaks up...'), and the asides folded into 'because ... I also borrow ... since ..., since ...'; the original read Human by itself |
+| [w1102f-34](https://www.pangram.com/history/c044499e-e6f9-42ae-8b5a-f72a4685e909) | HG1101-34, 2 | Human | AI or mixed | cutting F-218 left the heading running straight into 'Indirect suggestions can bypass the subject's skeptical guard.', which read Human (Low); the section with the sentence read Human by itself |
+| [w1102f-37](https://www.pangram.com/history/aa3c227e-ade5-4849-85ac-6582a9bc9615) | HG1101-37, 3 | Human | AI or mixed | my F-251 ('Just don't get poetic ... as plain as a fire exit sign.') read AI (Low): a joke-shaped closer is still a closer |
+| [w1102f-38](https://www.pangram.com/history/49a602cf-c016-4f19-8772-1b61674314e4) | HG1101-38, 2 | Human | AI or mixed | my F-253 read AI (High and three Low): the anchor options split into short sentences ('Pick one thing to anchor yourself with. It could be ... The two-hand practice from above is another good one.') are the same instructions in a tidier row; F-255 and F-265 were not flagged |
+| [w1102f-69](https://www.pangram.com/history/b16be294-97b8-4548-8682-271599de0ecf) | HG1101-69, 3 | Human | AI or mixed | my F-527 ('pin it back down ... which is how you keep the first one honest') read AI (Medium) and F-528's workshop leader example Human (Low): an explaining clause in place of the closer is still a closer, and the example sat in front of six questions |
+| [w1102f-79](https://www.pangram.com/history/f44db6b6-054d-4f22-abf0-516e236708e6) | HG1101-79, 2 | Human | AI or mixed | his own inner child guide's line (C-626, 'No warmth today? Then rest your hands there and notice what you find, no faking required.') read AI (High) here, after 'Make sure you're actually talking to your inner child, not just repeating a script.' (AI Low); his line is not offered as a card |
+| [f1102-527](https://www.pangram.com/history/2da7176a-9885-4040-828e-88015a3a0ed7) | HG-f1102-527, 1 | AI | Human | pessimism about a run of questions |
+| [f1102b-119](https://www.pangram.com/history/9a2c0524-9c4f-437b-ab2a-a1cfed0e3b47) | HG-f1102-119, 2 | Human | AI or mixed | the fix made its stretch worse |
+| [f1102b-762](https://www.pangram.com/history/26f67e2c-984e-4a54-a3ff-138d1ef4e6f7) | HG-f1102-762, 2 | Human | AI or mixed | the fix made its stretch worse |
+| [HG-whole-1103](https://www.pangram.com/feed/4796254d-deaa-43f1-8bc9-25979960da03) | HG-whole, 18 | AI | Human | pessimism about cuts |
+| [HG-rest-B-1103](https://www.pangram.com/feed/75baa67a-da78-4f74-b814-819444865b9c) | HG-rest-B, 16 | AI | Human | pessimism about cuts |
 
 ## Lineages still open (tries used of the cap)
 
 | lineage | scope | tries | last read |
 |---|---|---|---|
-| HG-whole | article | 15 of unlimited (Substack) | Mixed |
-| HG-rest-B | article | 13 of unlimited (Substack) | Mixed |
 | HG15-p9 | paragraph | 2 of 6 | Mixed |
 | HG15 | section | 1 of 2 | Mixed |
 | HG35 | section | 1 of 2 | Mixed |
@@ -231,13 +263,19 @@ The latest:
 | HG32-c2 | stretch | 1 of unlimited (Substack) | Mixed |
 | HG16-B209 | pair | 3 of 6 | Mixed |
 | HG-parent-script-P1 | paragraph | 1 of 6 | Mixed |
+| HG1101-02 | section | 2 of 2 | Mixed |
 | HG1101-15 | section | 2 of 2 | Mixed |
 | HG1101-17 | section | 2 of 2 | AI |
 | HG1101-27 | section | 2 of 2 | Mixed |
+| HG1101-34 | section | 2 of 2 | Mixed |
+| HG1101-37 | section | 3 of 2 | Mixed |
+| HG1101-38 | section | 2 of 2 | Mixed |
 | HG1101-40 | section | 2 of 2 | Mixed |
 | HG1101-44 | section | 2 of 2 | Mixed |
 | HG1101-53 | section | 2 of 2 | AI |
 | HG1101-59 | section | 2 of 2 | Mixed |
+| HG1101-69 | section | 3 of 2 | Mixed |
+| HG1101-79 | section | 2 of 2 | Mixed |
 | HG1101-93 | section | 2 of 2 | Mixed |
 | HG1101-17-P23 | pair | 1 of 6 | Mixed |
 | HG1101-44-P5 | paragraph | 1 of 6 | AI |
@@ -247,4 +285,8 @@ The latest:
 | HG1101-59-P1 | paragraph | 1 of 6 | AI |
 | HG1102-40-S | pair | 2 of 6 | Mixed |
 | HG1102-69-P10 | stretch | 2 of 2 | Mixed |
+| HG1102-whole-A | stretch | 2 of 2 | Mixed |
+| HG1102-whole-B | stretch | 2 of 2 | Mixed |
+| HG-f1102-119 | stretch | 2 of 2 | Mixed |
+| HG-f1102-762 | stretch | 2 of 2 | Mixed |
 

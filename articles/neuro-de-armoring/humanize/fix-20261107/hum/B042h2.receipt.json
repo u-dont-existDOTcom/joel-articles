@@ -1,0 +1,63 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-07",
+ "text_sha256": "665901e67fd5ac90c69427aa114052b1e9353840d17db8020f6cb52db8d60078",
+ "text": "The Repair (L-Serine): Your brain makes D-Serine out of L-Serine (Wolosker, et al, 1999). So taking L-Serine feeds the spot D-serine switches on, and maybe the GluD channels too, so a session that ends with the fear down and a sense of mastery has a better chance of sticking. The conversion isn't very efficient though, so some people take D-serine itself instead (more risk, but also more benefit).",
+ "section": "B. The \"Overheating\" CPU: Glutamate Excitotoxicity",
+ "reader": "someone with trauma or in withdrawal who is anxious, wired, ruminating or raging, wanting to know what is going on in their brain and which of the protocol's tools does what",
+ "sentences": [
+  {
+   "s": "The Repair (L-Serine): Your brain makes D-Serine out of L-Serine (Wolosker, et al, 1999).",
+   "payoff": "they learn where D-Serine comes from, which is why L-Serine is in the protocol",
+   "follows": "it follows the Lock in the Fix list"
+  },
+  {
+   "s": "So taking L-Serine feeds the spot D-serine switches on, and maybe the GluD channels too, so a session that ends with the fear down and a sense of mastery has a better chance of sticking.",
+   "payoff": "they learn what taking L-Serine does for their next therapy session",
+   "follows": "it says what that conversion is good for",
+   "link": "So taking L-Serine"
+  },
+  {
+   "s": "The conversion isn't very efficient though, so some people take D-serine itself instead (more risk, but also more benefit).",
+   "payoff": "they learn that the conversion is weak, so some take D-serine itself, with more risk",
+   "follows": "it qualifies the sentence before",
+   "link": "The conversion"
+  }
+ ],
+ "checked": [
+  {
+   "point": "L-Serine recalibrates the GluD \"Volume Dial\", and leucine tunes synaptic gain",
+   "found": "L-serine is made into D-serine (Wolosker 1999); there is no volume dial (Wang 2025); nothing supports leucine here, and he cut it",
+   "still_needed": "yes for L-serine; no for leucine",
+   "fate": "changed"
+  }
+ ],
+ "placement": "where the block is now (block 42 of section B); its place in the section is unchanged",
+ "opens": {
+  "first_sentence": "The Repair (L-Serine): Your brain makes D-Serine out of L-Serine (Wolosker, et al, 1999).",
+  "why_reading": "it tells the reader where D-Serine comes from, which is why L-Serine is in the protocol at all"
+ },
+ "same_point": "none: read the Fix list from its heading to section C for what each tool does; the Repair appears once",
+ "questions": {
+  "Q2": "N/A: no instruction in this paragraph; it explains a mechanism",
+  "Q3": "PASS: each thing is named exactly (NMDA receptors, calcium, the amygdala, GluD channels, cystine, zinc)",
+  "Q5": "PASS: each \"so\", \"and\" and \"since\" turns on the clause before it",
+  "Q7": "PASS: each fact is about the chemistry the reader is about to change with the protocol",
+  "Q8": "N/A: no group or list inside this paragraph",
+  "Q9": "PASS: one step a clause, with the small words that carry the relation kept",
+  "Q1": "PASS: each sentence opens on its point (where D-Serine comes from, what taking it does, the limit)",
+  "Q4": "PASS: the NMDA spot and GluD channels carried from the paragraphs before",
+  "Q6": "PASS: where it comes from, what it does, its limit"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}
