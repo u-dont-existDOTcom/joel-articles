@@ -313,20 +313,20 @@ The boundary mix over all lanes:
 
 | lane | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| bad trips guide | 183 | 169 (92%) | 87% | 13% | 15% | 0.130 (base 0.110, 183) |
-| **all lanes** | 183 | 169 (92%) | 87% | 13% | 15% | 0.130 (base 0.110, 183) |
+| bad trips guide | 190 | 176 (93%) | 88% | 12% | 14% | 0.127 (base 0.106, 190) |
+| **all lanes** | 190 | 176 (93%) | 88% | 12% | 14% | 0.127 (base 0.106, 190) |
 
 The latest 100 calls of each lane:
 
 | lane | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| bad trips guide | 100 | 97 (97%) | 96% | 4% | 1% | 0.107 (base 0.038, 100) |
+| bad trips guide | 100 | 97 (97%) | 96% | 4% | 1% | 0.100 (base 0.038, 100) |
 
 The boundary mix over all lanes:
 
 | scope or kind | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| paragraph | 99 | 92 (93%) | 84% | 16% | 15% | 0.122 (base 0.135, 99) |
+| paragraph | 106 | 99 (93%) | 85% | 15% | 14% | 0.118 (base 0.128, 106) |
 | pair | 47 | 43 (91%) | 89% | 11% | 15% | 0.171 (base 0.095, 47) |
 | section | 37 | 34 (92%) | 95% | 5% | 14% | 0.099 (base 0.051, 37) |
 

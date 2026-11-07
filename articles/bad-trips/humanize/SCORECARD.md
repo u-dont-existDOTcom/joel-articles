@@ -8,7 +8,7 @@ Built by `tools/humanization/pangram_ledger.py build` from `articles/bad-trips/h
 |---|---|---|---|---|---|---|
 | Pangram 4.1 extension (free, live post; Joel's check of 2026-10-18, the same text as his 2026-11-03 paste by SHA-256) | 1 | 1 (100%) | 100% | 0% | 0% | 0.000 (base 0.000, 1) |
 | Pangram web app (his account, Pangram Professional) | 3 | 3 (100%) | 100% | 0% | 0% | 0.092 (base 0.000, 3) |
-| Pangram web app (his account, Pangram Professional), through the Claude desktop app's browser pane | 183 | 169 (92%) | 87% | 13% | 15% | 0.130 (base 0.110, 183) |
+| Pangram web app (his account, Pangram Professional), through the Claude desktop app's browser pane | 190 | 176 (93%) | 88% | 12% | 14% | 0.127 (base 0.106, 190) |
 | pangram 4.1, the web app: Joel's account, run by the lane in the desktop app's browser pane (E356) | 8 | 6 (75%) | 50% | 50% | 75% | 0.170 (base 0.250, 8) |
 
 ## Pangram 4.1 extension (free, live post; Joel's check of 2026-10-18, the same text as his 2026-11-03 paste by SHA-256)
@@ -56,16 +56,16 @@ Calibration:
 
 | window | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| the latest 50 | 50 | 48 (96%) | 96% | 4% | 0% | 0.095 (base 0.038, 50) |
-| the latest 100 | 100 | 97 (97%) | 96% | 4% | 1% | 0.107 (base 0.038, 100) |
-| all | 183 | 169 (92%) | 87% | 13% | 15% | 0.130 (base 0.110, 183) |
+| the latest 50 | 50 | 48 (96%) | 96% | 4% | 0% | 0.093 (base 0.038, 50) |
+| the latest 100 | 100 | 97 (97%) | 96% | 4% | 1% | 0.100 (base 0.038, 100) |
+| all | 190 | 176 (93%) | 88% | 12% | 14% | 0.127 (base 0.106, 190) |
 
 The boundary mix (what was checked; accuracy differs a lot between a paragraph and a section):
 
 | scope or kind | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
 | section | 37 | 34 (92%) | 95% | 5% | 14% | 0.099 (base 0.051, 37) |
-| paragraph | 99 | 92 (93%) | 84% | 16% | 15% | 0.122 (base 0.135, 99) |
+| paragraph | 106 | 99 (93%) | 85% | 15% | 14% | 0.118 (base 0.128, 106) |
 | pair | 47 | 43 (91%) | 89% | 11% | 15% | 0.171 (base 0.095, 47) |
 
 Calibration:
@@ -73,7 +73,7 @@ Calibration:
 | my chance of a 100% Human result | calls | mean chance | read Human |
 |---|---|---|---|
 | 0.0 to 0.2 | 11 | 0.14 | 0% |
-| 0.2 to 0.4 | 97 | 0.29 | 3% |
+| 0.2 to 0.4 | 104 | 0.29 | 3% |
 | 0.4 to 0.6 | 65 | 0.45 | 17% |
 | 0.6 to 0.8 | 11 | 0.68 | 82% |
 | 0.8 to 1.0 | 1 | 0.80 | 100% |
@@ -229,4 +229,10 @@ The latest:
 | bad-trips For the Person Helping after the Human section, HB-lines' other-lines label | paragraph | 1 of 6 | Mixed |
 | bad-trips No Rash Actions as the guide has it | section | 1 of 2 | AI |
 | bad-trips No Rash Actions after the Human section | section | 1 of 2 | Mixed |
+| bad-trips No Rash Actions after the Human section, N1 | paragraph | 1 of 6 | Mixed |
+| bad-trips No Rash Actions after the Human section, N2 | paragraph | 2 of 6 | Mixed |
+| bad-trips No Rash Actions after the Human section, N3 | paragraph | 1 of 6 | Mixed |
+| bad-trips No Rash Actions after the Human section, N4 | paragraph | 1 of 6 | Mixed |
+| bad-trips No Rash Actions after the Human section, N5 | paragraph | 1 of 6 | Mixed |
+| bad-trips No Rash Actions after the Human section, N2's list | paragraph | 1 of 6 | AI |
 
