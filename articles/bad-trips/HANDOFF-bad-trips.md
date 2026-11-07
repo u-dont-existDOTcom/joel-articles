@@ -15,6 +15,7 @@ https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/bad-trips
 
 ## START HERE
 
+- **2026-11-07, the session's own resume (01:48 UTC).** When the Trip Feels Amazing checked (AI; 64% after the Human section; paragraphs 51% to 69%). **First:** his round-12, round-15 and round-16 answers in; meanwhile CURRENT-STATE.md's next step.
 - **2026-11-07, the session's own resume (01:37 UTC).** No Rash Actions' other paragraphs read worse reworded; they stay. **First:** his round-12, round-15 and round-16 answers in; meanwhile CURRENT-STATE.md's next step (the Don't list card, then When the Trip Feels Amazing).
 - **2026-11-07, the session's own resume (01:26 UTC).** Round 16's two cards are up (Bad Trips Guide, Round 16, https://claude.ai/artifact/87kndi4Pbkqz5ufwtZpXC5): No Rash Actions' write-it-down line (reads Human) and its lock line. **First:** his round-12, round-15 and round-16 answers in; meanwhile CURRENT-STATE.md's next step.
 - **2026-11-07, the session's own resume (01:14 UTC).** No Rash Actions narrowed: its action lock and list read AI; the lock said as talk takes it to 73%, round 16's first card. **First:** his round-12 and round-15 answers in; meanwhile CURRENT-STATE.md's next step.
