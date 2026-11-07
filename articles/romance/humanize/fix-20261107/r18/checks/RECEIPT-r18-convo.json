@@ -1,0 +1,165 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-07",
+ "text_sha256": "549478f5f82147c7abe50556cd882c55886e23882ec4bef8df7b8761b75edc38",
+ "text": "Card games and social gatherings don’t tell you everything, but I wouldn’t ask someone out of the blue, “What did you do wrong in your past relationships?” That would be a pretty weird date.\n\nAt the right time, though, in the right way (especially if they bring it up tangentially), I would ask about their past relationships, especially the recent ones. If every story ends with everything being the other person’s fault, I’d ask, “Okay, so what lessons did you find for yourself?”\n\n“I have baggage” tells me almost nothing. What are you having trouble with now? What might make it hard for you to function well in a relationship?\n\nI’d want both of us to be honest about how effective we actually are at handling our own issues. What addictions or impulsive behaviors can’t we reliably control? How dependable are we? What are we probably going to ask forgiveness for more than once? That tells me more than either of us announcing that we’re healed.\n\nThe most recent conflicts are the best place to look. Were you able to regulate at all during the conflict? What did you do to the other person? How did you repair afterward? What did you learn? Has your judgment gotten better, or do you keep falling for the same stuff? What would your friends or exes say?\n\nAnd if you tell me you shut down, okay, what does that mean: did you stop talking to your partner for days, and did they feel abandoned?",
+ "section": "The conversation about flaws",
+ "reader": "Someone dating, wondering how to ask a new partner about their past relationships and flaws.",
+ "sentences": [
+  {
+   "s": "Card games and social gatherings don’t tell you everything, but I wouldn’t ask someone out of the blue, “What did you do wrong in your past relationships?”",
+   "payoff": "the reader learns he wouldn’t ask about past mistakes out of the blue",
+   "follows": "opens the section"
+  },
+  {
+   "s": "That would be a pretty weird date.",
+   "payoff": "the reader learns that would make a weird date",
+   "follows": "why he wouldn’t",
+   "link": "That would be a pretty weird date"
+  },
+  {
+   "s": "At the right time, though, in the right way (especially if they bring it up tangentially), I would ask about their past relationships, especially the recent ones.",
+   "payoff": "the reader learns at the right time he would ask about their recent relationships",
+   "follows": "when he would ask",
+   "link": "At the right time, though"
+  },
+  {
+   "s": "If every story ends with everything being the other person’s fault, I’d ask, “Okay, so what lessons did you find for yourself?”",
+   "payoff": "the reader learns if every story blames the other person, he asks what they learned",
+   "follows": "what he listens for",
+   "link": "If every story ends"
+  },
+  {
+   "s": "“I have baggage” tells me almost nothing.",
+   "payoff": "the reader learns \"I have baggage\" says almost nothing",
+   "follows": "a vague answer he hears",
+   "link": "tells me almost nothing"
+  },
+  {
+   "s": "What are you having trouble with now?",
+   "payoff": "the reader learns he asks what they struggle with now",
+   "follows": "what he asks instead",
+   "link": "What are you having trouble with now"
+  },
+  {
+   "s": "What might make it hard for you to function well in a relationship?",
+   "payoff": "the reader learns he asks what makes relationships hard for them",
+   "follows": "his next question",
+   "link": "none: the next question in his list, after the one before"
+  },
+  {
+   "s": "I’d want both of us to be honest about how effective we actually are at handling our own issues.",
+   "payoff": "the reader learns both should be honest about how well they handle their issues",
+   "follows": "what he wants of both",
+   "link": "I’d want both of us to be honest"
+  },
+  {
+   "s": "What addictions or impulsive behaviors can’t we reliably control?",
+   "payoff": "the reader learns which addictions or impulses they can’t control",
+   "follows": "a question for both",
+   "link": "none: the first question of what both should be honest about"
+  },
+  {
+   "s": "How dependable are we?",
+   "payoff": "the reader learns how dependable they are",
+   "follows": "another question for both",
+   "link": "none: the next question in his list, after the one before"
+  },
+  {
+   "s": "What are we probably going to ask forgiveness for more than once?",
+   "payoff": "the reader learns what they will need forgiving for more than once",
+   "follows": "another question for both",
+   "link": "none: the next question in his list, after the one before"
+  },
+  {
+   "s": "That tells me more than either of us announcing that we’re healed.",
+   "payoff": "the reader learns that says more than claiming to be healed",
+   "follows": "why he asks it",
+   "link": "That tells me more"
+  },
+  {
+   "s": "The most recent conflicts are the best place to look.",
+   "payoff": "the reader learns recent conflicts are the place to look",
+   "follows": "opens the questions",
+   "link": "The most recent conflicts"
+  },
+  {
+   "s": "Were you able to regulate at all during the conflict?",
+   "payoff": "the reader learns first question: could you regulate",
+   "follows": "the questions begin",
+   "link": "during the conflict"
+  },
+  {
+   "s": "What did you do to the other person?",
+   "payoff": "the reader learns what you did to the other person",
+   "follows": "the next question",
+   "link": "none: the next question of the same list, in the same form"
+  },
+  {
+   "s": "How did you repair afterward?",
+   "payoff": "the reader learns how you repaired",
+   "follows": "the next question",
+   "link": "none: the next question of the same list, in the same form"
+  },
+  {
+   "s": "What did you learn?",
+   "payoff": "the reader learns what you learned",
+   "follows": "the next question",
+   "link": "none: the next question of the same list, in the same form"
+  },
+  {
+   "s": "Has your judgment gotten better, or do you keep falling for the same stuff?",
+   "payoff": "the reader learns whether your judgment improved",
+   "follows": "the next question",
+   "link": "none: the next question of the same list, in the same form"
+  },
+  {
+   "s": "What would your friends or exes say?",
+   "payoff": "the reader learns what your friends or exes would say",
+   "follows": "the last question, from people who saw it",
+   "link": "none: the next question of the same list, in the same form"
+  },
+  {
+   "s": "And if you tell me you shut down, okay, what does that mean: did you stop talking to your partner for days, and did they feel abandoned?",
+   "payoff": "the reader learns if someone says they shut down, he asks what that meant in practice",
+   "follows": "a vague answer he would probe",
+   "link": "And if you tell me you shut down"
+  }
+ ],
+ "checked": [
+  {
+   "point": "the Low windows’ points",
+   "found": "the live post (../../live-check/LOW-WINDOWS.json), the last part’s check (#47, ../../r07/checks/RESULTS-r07.json) and the spots’ checks (S7 #34, S9 #10, S21 #46, S20 in #103)",
+   "still_needed": "yes: the section needs them",
+   "fate": "changed"
+  }
+ ],
+ "placement": "The whole section, in its place in the live post, its heading left out.",
+ "opens": {
+  "first_sentence": "Card games and social gatherings don’t tell you everything, but I wouldn’t ask someone out of the blue, “What did you do wrong in your past relationships?”",
+  "why_reading": "It tells the reader what to ask about past relationships, and when."
+ },
+ "same_point": "none: read the section from its heading to the next for these points; each is made once, here",
+ "questions": {
+  "Q1": "PASS: each changed sentence gives its point first, in plain words",
+  "Q2": "N/A: these sections tell and ask; the advice in them is unchanged",
+  "Q3": "PASS: the people, places, numbers and things are named as in the live post",
+  "Q4": "PASS: no new term; \"inner adult\" and \"the spirit of the relationship\" are used as the live post uses them",
+  "Q5": "PASS: each sentence’s tie is in its words (the links field), or the link says why it needs none",
+  "Q6": "PASS: the order is the live post’s; the joins named in texts.py keep it",
+  "Q7": "PASS: each change keeps what the section tells the reader about their own case",
+  "Q8": "PASS: no item moved between groups",
+  "Q9": "PASS: one step per sentence in the changed paragraphs"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

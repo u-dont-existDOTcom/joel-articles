@@ -1,0 +1,92 @@
+{
+ "r19-nitty201": {
+  "headline": "AI Detected",
+  "fraction_ai": 0.26388177275657654,
+  "words": 78,
+  "windows": [
+   {
+    "label": "Human",
+    "confidence": "High",
+    "words": 37,
+    "text": "Dealing with somebody else’s emotional insecurities can also be exhausting. It’s easy to feel free when I don’t have to do that, especially since I’m a bit of an introvert and 10% autistic."
+   },
+   {
+    "label": "Human",
+    "confidence": "Low",
+    "words": 41,
+    "text": "All that works wonderfully until I’m in a romantic relationship and suddenly I’m expected to mind-read, check in constantly, notice every emotional shift (and what a silence means), and never use all that expert “management” to manipulate anyone."
+   }
+  ],
+  "link": "https://www.pangram.com/history/42a42ec6-34ff-4549-b51f-af0bd77b77df",
+  "utc": "2026-11-07T17:19Z"
+ },
+ "r19-nitty201b": {
+  "headline": "Human Written",
+  "fraction_ai": 1.2355917933816647e-32,
+  "words": 70,
+  "windows": [
+   {
+    "label": "Human",
+    "confidence": "High",
+    "words": 70,
+    "text": "Dealing with somebody else’s emotional insecurities can also be exhausting. It’s easy to feel free when I don’t have to do that, especially since I’m a bit of an introvert and 10% autistic. All that works wonderfully until I’m in a romantic relationship and suddenly I’m expected to mind-read, silences included, and check in constantly, without manipulating based on all that expert “management.”"
+   }
+  ],
+  "link": "https://www.pangram.com/history/d4809ecd-0b65-4d76-b86d-59449193a1ec",
+  "utc": "2026-11-07T17:21Z"
+ },
+ "r19-nitty": {
+  "headline": "Human Written",
+  "fraction_ai": 3.766607914457154e-09,
+  "words": 140,
+  "windows": [
+   {
+    "label": "Human",
+    "confidence": "Medium",
+    "words": 8,
+    "text": "Living alone is easy in so many ways."
+   },
+   {
+    "label": "Human",
+    "confidence": "High",
+    "words": 99,
+    "text": "I can make my bed whenever I want. When I have a girlfriend, making the bed in the morning can become one of the ways I show her I love her. If I don’t do it well, somehow it may become a bad omen that I don’t care about her, which is a lot of emotional weight for a bed.\nDealing with somebody else’s emotional insecurities can also be exhausting. It’s easy to feel free when I don’t have to do that, especially since I’m a bit of an introvert and 10% autistic."
+   },
+   {
+    "label": "Human",
+    "confidence": "Low",
+    "words": 33,
+    "text": "All that works wonderfully until I’m in a romantic relationship and suddenly I’m expected to mind-read, silences included, and check in constantly, without manipulating based on all that expert “management.”"
+   }
+  ],
+  "link": "https://www.pangram.com/history/a21945ec-e22b-45a3-be08-465dbfc7462c",
+  "utc": "2026-11-07T17:22Z"
+ },
+ "r19-nitty2": {
+  "headline": "Human Written",
+  "fraction_ai": 1.8376991040014445e-09,
+  "words": 140,
+  "windows": [
+   {
+    "label": "Human",
+    "confidence": "Medium",
+    "words": 8,
+    "text": "Living alone is easy in so many ways."
+   },
+   {
+    "label": "Human",
+    "confidence": "High",
+    "words": 99,
+    "text": "I can make my bed whenever I want. When I have a girlfriend, making the bed in the morning can become one of the ways I show her I love her. If I don’t do it well, somehow it may become a bad omen that I don’t care about her, which is a lot of emotional weight for a bed.\nDealing with somebody else’s emotional insecurities can also be exhausting. It’s easy to feel free when I don’t have to do that, especially since I’m a bit of an introvert and 10% autistic."
+   },
+   {
+    "label": "Human",
+    "confidence": "Low",
+    "words": 33,
+    "text": "All that works wonderfully until I’m in a romantic relationship and suddenly I’m expected to mind-read, silences included, and check in constantly (no manipulating with all that expert “management,” though)."
+   }
+  ],
+  "link": "https://www.pangram.com/history/af33508f-ab6d-4214-9aee-a13aeef73d30",
+  "utc": "2026-11-07T17:23Z"
+ }
+}

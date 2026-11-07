@@ -6,34 +6,34 @@ Built by `tools/humanization/pangram_ledger.py build` from `articles/romance/hum
 
 | version | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| pangram 4.1, the web app (Joel's account, GUI credits) | 104 | 69 (66%) | 40% | 60% | 84% | 0.228 (base 0.241, 104) |
+| pangram 4.1, the web app (Joel's account, GUI credits) | 113 | 76 (67%) | 39% | 61% | 85% | 0.228 (base 0.238, 113) |
 
 ## pangram 4.1, the web app (Joel's account, GUI credits)
 
 | window | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| the latest 50 | 50 | 36 (72%) | 24% | 76% | 92% | 0.231 (base 0.182, 50) |
-| the latest 100 | 100 | 66 (66%) | 41% | 59% | 83% | 0.229 (base 0.242, 100) |
-| all | 104 | 69 (66%) | 40% | 60% | 84% | 0.228 (base 0.241, 104) |
+| the latest 50 | 50 | 38 (76%) | 22% | 78% | 98% | 0.229 (base 0.172, 50) |
+| the latest 100 | 100 | 70 (70%) | 37% | 63% | 83% | 0.228 (base 0.233, 100) |
+| all | 113 | 76 (67%) | 39% | 61% | 85% | 0.228 (base 0.238, 113) |
 
 The boundary mix (what was checked; accuracy differs a lot between a paragraph and a section):
 
 | scope or kind | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
 | pair | 45 | 28 (62%) | 56% | 44% | 82% | 0.230 (base 0.247, 45) |
-| paragraph | 17 | 13 (76%) | 12% | 88% | 76% | 0.217 (base 0.104, 17) |
+| paragraph | 19 | 14 (74%) | 16% | 84% | 79% | 0.223 (base 0.133, 19) |
 | stretch | 2 | 2 (100%) | 50% | 50% | 50% | 0.145 (base 0.250, 2) |
-| section | 40 | 26 (65%) | 35% | 65% | 90% | 0.233 (base 0.227, 40) |
+| section | 47 | 32 (68%) | 32% | 68% | 91% | 0.231 (base 0.217, 47) |
 
 Calibration:
 
 | my chance of a 100% Human result | calls | mean chance | read Human |
 |---|---|---|---|
 | 0.2 to 0.4 | 3 | 0.30 | 33% |
-| 0.4 to 0.6 | 94 | 0.52 | 59% |
-| 0.6 to 0.8 | 23 | 0.62 | 87% |
+| 0.4 to 0.6 | 103 | 0.52 | 60% |
+| 0.6 to 0.8 | 25 | 0.62 | 88% |
 
-## Misses since the ledger (35)
+## Misses since the ledger (37)
 
 | cause | misses |
 |---|---|
@@ -72,13 +72,13 @@ Calibration:
 | the term explained as a balanced flip read AI | 1 |
 | his argument paragraphs read AI in their section, though High by themselves | 1 |
 | my changes to his gender claims read AI, and so did his own | 1 |
+| 201's closing sentence, unchanged from the live post, read AI Low (40 words) in this short section by itself: a four-item list of what he is expected to do, with a "without ...ing" tail; my change, the bed line said inside its example, read in the High window with the rest | 1 |
+| the closing sentence still read as a list of what he is expected to do (Human Low, 41 words, up from AI Low in #108): giving the four items different shapes and making the tail the last item didn't take away the list | 1 |
 
 The latest:
 
 | check | lineage, try | said | read | cause |
 |---|---|---|---|---|
-| [r10-s22a](https://www.pangram.com/history/ead32a56-1843-4b68-a719-32a2e9883f21) | romance-s22-p437, 1 | AI | Human | the triad said with and between its parts and really, the way he talks |
-| [r10-s22c](https://www.pangram.com/history/23efa093-652e-4eba-b470-11ec7271ffc2) | romance-s22-p439, 1 | AI | Human | the pair of don'ts said as one instruction, helpers without a because |
 | [r11-sit](https://www.pangram.com/history/17571efe-d46a-4d00-8f65-f652735cd2c4) | romance-low-sit, 1 | Human | AI or mixed | an aphorism pair joined with but, and a staged line said flat, read AI |
 | [r11-clar](https://www.pangram.com/history/5be9455c-ecdf-47b5-9029-fbd366a7e165) | romance-low-clar, 1 | Human | AI or mixed | the point moved up left a bare pair of if-sentences |
 | [r12-s22](https://www.pangram.com/history/5b774f10-ccab-4399-9df1-c6786e26457f) | romance-s22, 2 | AI | Human | 438 in the shape of his own advice: no AI window left |
@@ -92,6 +92,8 @@ The latest:
 | [r16-ideal147](https://www.pangram.com/history/d702b4c7-6d17-468b-8845-d52f3c80865d) | romance-low-ideal-p147, 1 | Human | AI or mixed | the term explained as a balanced flip read AI |
 | [r16-jeal](https://www.pangram.com/history/184babff-d20a-4383-8e5d-c125b55aa48b) | romance-low-jeal, 2 | Human | AI or mixed | his argument paragraphs read AI in their section, though High by themselves |
 | [r16-romance](https://www.pangram.com/history/a150beb8-264c-46c3-9dee-f050b5a0d065) | romance-low-romance, 1 | Human | AI or mixed | my changes to his gender claims read AI, and so did his own |
+| [r18-nitty](https://www.pangram.com/history/04b5c93f-aba2-474f-88ed-b02ba1352338) | romance-low-nitty, 1 | Human | AI or mixed | 201's closing sentence, unchanged from the live post, read AI Low (40 words) in this short section by itself: a four-item list of what he is expected to do, with a "without ...ing" tail; my change, the bed line said inside its example, read in the High window with the rest |
+| [r19-nitty201](https://www.pangram.com/history/42a42ec6-34ff-4549-b51f-af0bd77b77df) | romance-low-nitty-p201, 1 | Human | AI or mixed | the closing sentence still read as a list of what he is expected to do (Human Low, 41 words, up from AI Low in #108): giving the four items different shapes and making the tail the last item didn't take away the list |
 
 ## Lineages still open (tries used of the cap)
 
@@ -103,7 +105,6 @@ The latest:
 | romance-s17 | pair | 3 of 6 | AI |
 | romance-s21 | pair | 4 of 6 | Mixed |
 | romance-sec-spiritual-sex | section | 1 of 2 | Mixed |
-| romance-sec-vows | section | 1 of 2 | Mixed |
 | romance-tail | stretch | 1 of 2 | Mixed |
 | romance-sec-bypass | section | 1 of 2 | Mixed |
 | romance-s22-p438 | paragraph | 1 of 6 | AI |

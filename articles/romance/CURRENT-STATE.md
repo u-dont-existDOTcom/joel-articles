@@ -70,6 +70,14 @@ with his OK and no email.
   with S13 in) and "Gaslighting in the dark" (#105) read one Human High window each, and "Why all of this sounds
   artificial" (#104) read Human with no Low. "What are you actually choosing together?" (#103, with S20 in) read Human
   with three Low windows, all in S20's questions, which had read High as a pair by themselves (#27).
+- 2026-11-07 (17:07 UTC pickup, `r18/`, `r19/`, every try linted first): "What are you actually choosing together?"
+  read Human with no Low on its second try (#106: S20's opener joined to its first question with a colon, the either/or
+  question left a little unbalanced, the rethink question joined to the split-up one). "The conversation about flaws"
+  (#107, with S7 in), "Which marriage vows are honest?" (#110, S21's closing said first, in the verse sentence: the
+  verses "make the wedding vow itself look even more suspicious (to me, anyway)") and "What I gained from loss" (#109,
+  one High window) read Human with no Low. "From flow to nitty gritty" (S9's line said inside the bed paragraph) read 33%
+  AI on 201's closing list (#108); 201 by itself read Human Low with the list re-shaped (#111) and Human High with it cut
+  to two items (#112); in the section that sentence still reads Human Low (#113, and #114 after one more fix).
 
 ### Before 2026-11-07 (the registered master, as recorded then)
 
@@ -115,18 +123,21 @@ Joel's 2026-08-24 direct correction makes the exact r23r2 Two Pillars local real
 
 #### Current checkpoint
 
-2026-11-07, the 16:41 UTC pickup. 17 of the 22 spots read Human with no Low window (S1, S3, S4, S5, S6, S8, S10, S11, S12,
-S13, S14, S15, S16, S18, S19, S20, and S22 in its section, #69). S7 and S9 have a Low line, S21 reads AI only on its closing
-sentence (#46), and S2 and S17 wait on the marking page for Joel's versions.
+2026-11-07, the 17:07 UTC pickup. 20 of the 22 spots read Human with no Low window (S1, S3 to S16, S18 to S22; S7 in
+its section, #107, S9 in its section's High window, #113, S20 in its section, #106, S21 in its section, #110, S22 in its
+section, #69). S2 and S17 wait on the marking page for Joel's versions.
 
-Eighteen sections with open Low windows in the live post now read Human with no Low window in their own check: "My
-flaws" (#61), "Peeking thru the window" (#67), "Things get tricky fast" (#68), "Holding up a leaky dam" (#70), "The
-window of clarity" (#71), "Anti-PTSD Can Be Just As Dangerous As PTSD" (#73), "Muses & Directors" (#81), "The Queen of
-Orgasms" (#82), "Labels Are Descriptive, Not Prescriptive" (#84), "Disconnect to connect" (#88), "Slow & steady" (#96),
-"It always goes deeper" (#97), "Fantasy" (#99), "Situationships" (#100, after its fix), "Some babies grow up faster"
-(#101), "Different levels in different domains can be complementary" (#102), "Why all of this sounds artificial" (#104)
-and "Gaslighting in the dark" (#105); so does "After leaving", with S22 in it (#69). "What are you actually choosing
-together?" reads Human with three Low windows, on S20's questions (#103); it has one try left.
+Twenty-two sections that had Low windows or spots in the live post now read Human with no Low window in their own
+check: "My flaws" (#61), "Peeking thru the window" (#67), "Things get tricky fast" (#68), "Holding up a leaky dam"
+(#70), "The window of clarity" (#71), "Anti-PTSD Can Be Just As Dangerous As PTSD" (#73), "Muses & Directors" (#81),
+"The Queen of Orgasms" (#82), "Labels Are Descriptive, Not Prescriptive" (#84), "Disconnect to connect" (#88), "Slow &
+steady" (#96), "It always goes deeper" (#97), "Fantasy" (#99), "Situationships" (#100), "Some babies grow up faster"
+(#101), "Different levels in different domains can be complementary" (#102), "Why all of this sounds artificial"
+(#104), "Gaslighting in the dark" (#105), "What are you actually choosing together?" (#106), "The conversation about
+flaws" (#107), "What I gained from loss" (#109) and "Which marriage vows are honest?" (#110); so does "After leaving",
+with S22 in it (#69). "From flow to nitty gritty" reads Human with one Low window, on 201's closing sentence, which
+reads High by itself (#112); its tries are spent (#108, #113, #114), so that window is named for the whole-article
+check. So is "Two Pillars Don't Hold The Roof Up" 332, the paragraph the owner lock keeps as the live post has it.
 
 Still AI: "Jealousy on trial" (367 to 369, #94), "Romance Shouldn't Be Adjudicated" (285 to 287, #98) and "Beware
 idealization" (148, #93). All three are his general claims about men, women, monogamy and idealization, said evenly.
@@ -135,22 +146,19 @@ pattern of S2's card on the marking page, so his answer there is the likeliest w
 
 What these checks showed: a section checked by itself reads harsher than the whole post did, and his general claims
 read AI there whatever the joins. His short sentences joined to what they belong with, a paragraph's point said first,
-a claim left a little unbalanced ("without (most of) the responsibility"), and a repeat cut read High. A run of short
-questions reads one window per question inside its section, even where the pair read High by itself.
+a claim left a little unbalanced ("without (most of) the responsibility"), a repeat cut, and a list cut to the items
+it needs read High (a list only re-shaped read Low, #111, #112). A run of short questions reads one window per
+question inside its section, even where the pair read High by itself; joined into fewer questions, they read High.
 
 ## Remaining
 
 1. S2 and S17: Joel's versions on the marking page; then carry what he did to the lines each card names, and to the
    stretches that share S2's pattern ("Jealousy on trial" 367 to 369, "Romance Shouldn't Be Adjudicated" 285 to 287,
    "Beware idealization" 148).
-2. "What are you actually choosing together?": its second try, with S20's three Low questions fixed (the short opener
-   joined to the first question with a colon, the either/or question left a little unbalanced, the rethink question
-   joined to the split-up one).
-3. The rest of the post's last part: "What I gained from loss" (443's short line, Low in #47); S7's and S9's Low lines;
-   S21's section. "Two Pillars Don't Hold The Roof Up" keeps its one Low window (332), on the paragraph the owner lock
-   keeps as the live post has it.
-4. A whole-article check of the fixed version (a temporary draft for his extension, in two parts, since his extension
-   reads only the first 100,000 characters), then his post updated with his OK, no email.
+2. A whole-article check of the fixed version: the live post with every section's best tested text in place (`r01/`
+   to `r19/`), as a temporary Substack draft in two parts, each with its secret preview link for his extension (it reads
+   only the first 100,000 characters). The windows named for it: "From flow to nitty gritty" 201's closing sentence and
+   "Two Pillars" 332. Then his post updated with his OK, no email.
 
 ## Blockers / unresolved
 
@@ -217,9 +225,10 @@ and a claim left a little unbalanced ("without (most of) the responsibility") re
 ## Evidence / artifacts
 
 - `humanize/fix-20261107/live-check/META.json`, `AI-WINDOWS.json`, `LOW-WINDOWS.json`; `humanize/fix-20261107/r01/` to
-  `r17/` (check texts, receipts, predictions, results, tell panels); `review/teach-20261107/` (the marking page for S2 and
+  `r19/` (check texts, receipts, predictions, results, tell panels); `review/teach-20261107/` (the marking page for S2 and
   S17: `build_t1.py`, `REVIEW-T1.md`, `ARTIFACT.md`); `humanize/pangram-ledger.jsonl`; `humanize/SCORECARD.md`.
 
 ## Next safe action
 
-Read Joel's answers on the marking page when he gives them; meanwhile Remaining 2 and 3.
+Assemble the fixed version and make the two-part temporary draft with its secret preview links for his extension
+(Remaining 2); read Joel's answers on the marking page when he gives them.
