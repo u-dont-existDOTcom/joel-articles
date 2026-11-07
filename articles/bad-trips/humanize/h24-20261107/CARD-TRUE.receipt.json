@@ -1,0 +1,56 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-07",
+ "text_sha256": "9a6e90ee8782f514551544f88325e833dcc16cbb37aab80eedd6849d651efcb9",
+ "text": "The experience may matter deeply. It could be true psychologically, or symbolically, or literally, or only partly true, or false in the form it first took. You don't have to decide tonight.",
+ "section": "Abuse Memories, Recovered Memories, and Certainty, after Don't confront tonight",
+ "reader": "someone who saw or remembered abuse on a trip, or is sitting with someone who did",
+ "sentences": [
+  {
+   "s": "The experience may matter deeply.",
+   "payoff": "they know it may matter a lot",
+   "follows": "the paragraph's point, after Don't confront tonight"
+  },
+  {
+   "s": "It could be true psychologically, or symbolically, or literally, or only partly true, or false in the form it first took.",
+   "payoff": "they know the ways it may or may not be true",
+   "follows": "how it may matter",
+   "link": "It"
+  },
+  {
+   "s": "You don't have to decide tonight.",
+   "payoff": "they know they need not decide tonight",
+   "follows": "what follows for tonight",
+   "link": "tonight"
+  }
+ ],
+ "checked": [],
+ "placement": "Abuse Memories, after Don't confront tonight",
+ "opens": {
+  "first_sentence": "The experience may matter deeply.",
+  "why_reading": "the part before says not to confront tonight; this says why it can wait: it may matter, in a way not yet known"
+ },
+ "same_point": "none: read the section from its heading to the next for what comes up, not confronting tonight and true in which way",
+ "questions": {
+  "Q1": "PASS: the paragraph opens on its point",
+  "Q2": "PASS: no instruction but the last: no need to decide tonight",
+  "Q3": "PASS: which ways: psychologically, symbolically, literally, partly, false in its first form",
+  "Q4": "PASS: no terms a reader would not know",
+  "Q5": "PASS: it may matter, it may be true in several ways, so no deciding tonight",
+  "Q6": "PASS: point, ways, what follows",
+  "Q7": "PASS: about what they saw or remembered",
+  "Q8": "PASS: one point",
+  "Q9": "PASS: nothing compressed: the ways said with their small words"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

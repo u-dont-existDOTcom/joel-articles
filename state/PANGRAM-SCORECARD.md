@@ -313,21 +313,21 @@ The boundary mix over all lanes:
 
 | lane | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| bad trips guide | 283 | 259 (92%) | 87% | 13% | 12% | 0.125 (base 0.111, 283) |
-| **all lanes** | 283 | 259 (92%) | 87% | 13% | 12% | 0.125 (base 0.111, 283) |
+| bad trips guide | 295 | 271 (92%) | 87% | 13% | 12% | 0.123 (base 0.110, 295) |
+| **all lanes** | 295 | 271 (92%) | 87% | 13% | 12% | 0.123 (base 0.110, 295) |
 
 The latest 100 calls of each lane:
 
 | lane | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| bad trips guide | 100 | 90 (90%) | 87% | 13% | 7% | 0.116 (base 0.113, 100) |
+| bad trips guide | 100 | 91 (91%) | 87% | 13% | 8% | 0.112 (base 0.113, 100) |
 
 The boundary mix over all lanes:
 
 | scope or kind | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| paragraph | 172 | 155 (90%) | 84% | 16% | 12% | 0.128 (base 0.132, 172) |
-| section | 64 | 61 (95%) | 94% | 6% | 11% | 0.084 (base 0.059, 64) |
+| paragraph | 181 | 164 (91%) | 85% | 15% | 11% | 0.125 (base 0.127, 181) |
+| section | 67 | 64 (96%) | 93% | 7% | 12% | 0.083 (base 0.069, 67) |
 | pair | 47 | 43 (91%) | 89% | 11% | 15% | 0.171 (base 0.095, 47) |
 
 ## pangram 4.1, the web app: Joel's account, run by the lane in the desktop app's browser pane (E356)

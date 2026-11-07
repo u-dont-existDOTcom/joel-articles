@@ -1,0 +1,76 @@
+{
+ "format": "joel-suggestion-review-v1",
+ "review_id": "bad-trips-r20",
+ "title": "Bad Trips Guide, Round 20",
+ "intro": [
+  "Round 20 (2026-11-07). One card for Abuse Memories, the last gain of the first pass through the whole guide. Rounds 12, 15, 16, 17, 18 and 19 are still open on their own pages."
+ ],
+ "git_file": "articles/bad-trips/review/r20/REVIEW-R20.html",
+ "article": {
+  "file": "articles/bad-trips/review/r20/PAGE-R20.md",
+  "sha256": "776ad74ae46ec9da7255eba019f8957118e09bbe9c325fb3ae513403e498c29f"
+ },
+ "built": "2026-11-07",
+ "links": {
+  "guide": "https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261105/articles/bad-trips/GUIDE-SO-FAR.md",
+  "guide_label": "the guide as it stands",
+  "check": "https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261105/articles/bad-trips/humanize/h24-20261107/RESULTS.md",
+  "review": "https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261105/articles/bad-trips/review/r20/REVIEW-R20.md"
+ },
+ "types": {
+  "plain": {
+   "label": "Said plainly",
+   "about": "AI lines said plainly, each with its reason, the way he fixes his own windows"
+  },
+  "structure": {
+   "label": "Structure",
+   "about": "how the quick version and the long version split the guide, and where a part goes"
+  },
+  "repeat": {
+   "label": "Said twice",
+   "about": "a point the guide already makes elsewhere: one copy goes, the other stays"
+  },
+  "safety": {
+   "label": "Safety in one place",
+   "about": "a caution or call-for-help line said in several places, or one that changes nothing a reader does"
+  },
+  "question": {
+   "label": "Your call",
+   "about": "something only you can decide or know"
+  }
+ },
+ "suggestions": [
+  {
+   "id": "ABUSE-TRUE",
+   "type": "plain",
+   "advice": "approve",
+   "title": "True in which way, said as talk",
+   "reading": "After the Human first half of Psychological First Aid, Abuse Memories' last paragraph reads [38%](https://www.pangram.com/history/6cc98b14-969e-4383-963c-b74e68eb3a1f), its \"It may be psychologically true, symbolically true, literally true, partly true, or false in the form it first appeared.\" AI High.",
+   "tested": "With this change: [18%](https://www.pangram.com/history/9701ce68-7f42-484c-a964-69f4ef16cf8b). The AI High window is gone; AI Low is left on the paragraph.",
+   "what": "\"It may be psychologically true, symbolically true, literally true, partly true, or false in the form it first appeared.\" becomes \"It could be true psychologically, or symbolically, or literally, or only partly true, or false in the form it first took.\"",
+   "why": "The same five possibilities in the same order, said with their small words instead of five matching \"true\"s.",
+   "stays": "\"The experience may matter deeply.\" and \"You don't have to decide tonight.\" word for word.",
+   "deciding": "Approve puts the new line in; Revise lets you change it first.",
+   "advice_note": "Approve: the same point, and the paragraph reads less AI with it.",
+   "found_by": "Pangram after the Human first half, one part of Abuse Memories at a time",
+   "receipt": [
+    "articles/bad-trips/humanize/h24-20261107/CARD-TRUE.receipt.json",
+    "articles/bad-trips/humanize/h24-20261107/TEST-base-A3b.receipt.json"
+   ],
+   "edits": [
+    {
+     "block": 415,
+     "before": "The experience may matter deeply. It may be psychologically true, symbolically true, literally true, partly true, or false in the form it first appeared. You don't have to decide tonight.",
+     "after": "The experience may matter deeply. It could be true psychologically, or symbolically, or literally, or only partly true, or false in the form it first took. You don't have to decide tonight."
+    }
+   ],
+   "spans": [
+    {
+     "block": 415,
+     "start": 34,
+     "end": 153
+    }
+   ]
+  }
+ ]
+}
