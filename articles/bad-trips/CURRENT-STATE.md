@@ -1,6 +1,6 @@
 # Bad Trips guide: current state
 
-Updated: 2026-11-07 (the session's own resume of 00:11 UTC).
+Updated: 2026-11-07 (the session's own resume of 00:27 UTC, with his round-14 answer of 00:28 UTC).
 badtrips guide at badtrips.u-dont-exist.com"; `experiments/t01-answers/JOEL-MESSAGE-20261103-1545.md`).
 
 ## Goal
@@ -223,10 +223,12 @@ dose, unit, timing and warning exactly as it went in, and his post updated with 
 
 - 2026-11-07 (the session's own resume at 00:11 UTC): Who to Contact, and When, part by part after the Human section (`humanize/h17-20261107/RESULTS.md`): the opening paragraph 63%, Human Written with its second sentence said plainly (3328665a); the lists 29%, 44%, 26% and Human; the whole section 60% to 47% with the change. Round 14's card, that one sentence (Bad Trips Guide, Round 14, https://claude.ai/artifact/3mZnazapnp3wfGJwjFrLHR; `review/r14/REVIEW-R14.md`; browser test 56 passed). For the Person Helping's opening, paragraph by paragraph after the Human section: three AI, 100%, one 60%; one-sentence changes read AI (`humanize/h16-20261107/RESULTS.md`).
 
+- 2026-11-07 (the session's own resume at 00:27 UTC; his round-14 answer of 00:28): round 14 approved and in (`review/r14/apply_r14.py`). Who to Contact's lists after the changed opening: the first list 65%, 45% with the TripSit line said as talk (453eec39); the directories 49%, worse with either sentence changed. For the Person Helping's opening through the tell panel (`humanize/h17-20261107/panel-HELPER/PANEL.md`); its "real grief" paragraph is a repeat, but the fidelity keys hold its two warnings, so its cut is round 15's card, not an E378 cut (the guide keeps it).
+
 ## Current checkpoint
 
 - **In progress:** Turn 18. Psychological First Aid reads Human to the reminder; round 12's card (the practice case) is out. Stillness or Movement? turns the section AI in every form tried so far.
-- **Next step (updated on every push, so another account can pick up here):** his round-12 and round-14 answers in when they come (an `apply_r12.py` and an `apply_r14.py` from the exports). Meanwhile, without stopping at a report (bad-trips-2026-11-06b): Who to Contact's first list and directories after the Human base with the opening changed, the words around their facts one sentence at a time (every name, number, hour and "U.S.-only" kept exactly); For the Person Helping's opening through the tell panel, then one agreed sentence at a time (its plain one-sentence changes read AI, `humanize/h16-20261107/RESULTS.md`), then its lists and harm part. The later list (no wording found yet): Get One Human Anchor's two scripts (six wordings each), Alone at 3 a.m. (as the guide has it is best, 50%), Stillness or Movement? (`humanize/h13-20261106/RESULTS.md`), Psychological First Aid's two Human Low windows. His Pangram account is in the desktop app's browser pane (ask him to sign in when the history answers 401, and to open the app if it can't be reached). No whole-guide check until no window already seen reads AI or Low (E354).
+- **Next step (updated on every push, so another account can pick up here):** his round-12 answer in when it comes (an `apply_r12.py` from the export; rounds 13 and 14 are in). Round 15's cards, once tested together: the TripSit line said as talk (`humanize/h17-20261107/DV1.txt`; the first list 65% to 45%), and the "real grief" paragraph cut as a repeat (`experiments/t19-anchor/card_t19e_grief_cut.py`; it loses two fidelity-key warnings, so his call); test the helper opening without it and the panel's agreed sentences (the Zendo summary; the useful phrase's first lines) one at a time first, on the Human base. Then the Do and Don't lists and the harm part. The later list (no wording found yet): Get One Human Anchor's two scripts, Alone at 3 a.m. (50% as the guide has it), Stillness or Movement?, Psychological First Aid's two Human Low windows, Who to Contact's directories. His Pangram account is in the desktop app's browser pane (ask him to sign in when the history answers 401, and to open the app if it can't be reached). No whole-guide check until no window already seen reads AI or Low (E354).
 - **Waiting on Joel:** round 12's card.
 
 ## Remaining

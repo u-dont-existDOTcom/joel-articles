@@ -1,0 +1,100 @@
+{
+ "readers": [
+  "codex",
+  "haiku",
+  "sonnet"
+ ],
+ "sentences": [
+  "For the Person Helping: Calm Anchor, Not Guru\n\nA good sitter is not there to win a philosophy debate, perform a rescue fantasy, impose an interpretation, or demonstrate spiritual advancement.",
+  "Zendo-style harm reduction can be summarized as creating a safe space, sitting rather than guiding, talking through rather than down, and remembering that difficult does not automatically mean bad.",
+  "Crying, grieving, remembering, or touching a genuine wound calls for loving awareness.",
+  "Interrogation, analysis every thirty seconds, and \"bro, you're purging ancestral karma\" while somebody white-knuckles the carpet are generally less helpful.",
+  "Stay present.",
+  "A useful phrase is: This feeling is allowed to move through.",
+  "I don't have to become it.",
+  "I can love the part of me that feels it.",
+  "Or simply: Can I send love to the one who's suffering?",
+  "Don't drag somebody out of real grief.",
+  "Don't trap them inside a loop that is grinding them down either.",
+  "Love isn't stubbornness."
+ ],
+ "flagged": {
+  "1": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ],
+  "2": [
+   "haiku",
+   "sonnet"
+  ],
+  "3": [
+   "sonnet"
+  ],
+  "4": [],
+  "5": [
+   "sonnet"
+  ],
+  "6": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ],
+  "7": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ],
+  "8": [
+   "codex"
+  ],
+  "9": [],
+  "10": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ],
+  "11": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ],
+  "12": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ]
+ },
+ "agreed": [
+  1,
+  2,
+  6,
+  7,
+  10,
+  11,
+  12
+ ],
+ "whole": {
+  "codex": [
+   "The paragraph feels carefully packaged: a punchy heading, principles, a comic example, usable affirmations, and a balanced closing maxim. That orderly construction could suggest AI polishing, but none of these features establishes authorship."
+  ],
+  "haiku": [
+   "The paragraph runs on even, tidy beats, with a triad or contrast pair in nearly every sentence and a neat aphoristic close, and its voice is smooth, generic and moralizing, offering stock therapeutic phrases rather than a particular experience."
+  ],
+  "sonnet": [
+   "The paragraph is built from short, evenly weighted, parallel units (lists of three or four, paired negations, a one-line aphorism at the end), so the rhythm is regular and every beat resolves neatly. The voice is mostly an impersonal instructional register with few particulars, apart from one vivid image."
+  ]
+ },
+ "human_clean": [
+  "bro, you're purging ancestral karma",
+  "white-knuckles the carpet",
+  "analysis every thirty seconds",
+  "bro, you're purging ancestral karma",
+  "white-knuckles the carpet",
+  "bro, you're purging ancestral karma",
+  "somebody white-knuckles the carpet",
+  "Interrogation, analysis every thirty seconds",
+  "every thirty seconds",
+  "Can I send love to the one who's suffering?"
+ ]
+}

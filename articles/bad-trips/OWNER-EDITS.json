@@ -475,7 +475,7 @@
     "When nobody is available, use Fireside during its coverage hours"
    ],
    "must_contain_exact": [
-    "Save the relevant links and local numbers *before* you need them. Hours and services change, and not every option works in every country.",
+    "Save the relevant links and local numbers *before* you need them. Their hours and services change, and some only work in one country.",
     "Send the human-anchor script."
    ]
   },
@@ -502,6 +502,18 @@
    "must_not_contain": [
     "That is backup.",
     "Use **one calm human anchor as the lead**."
+   ]
+  },
+  {
+   "id": "r14-contact-plain",
+   "status": "applied",
+   "what": "Who to Contact, and When's opening: \"Hours and services change, and not every option works in every country.\" said as \"Their hours and services change, and some only work in one country.\" (round 14, card CONTACT-PLAIN; review/r14/apply_r14.py)",
+   "joel": "2026-11-07 00:28 UTC: round 14's export, CONTACT-PLAIN approved (review/r14/ANSWERS-R14-20261107-0028.json)",
+   "must_contain_exact": [
+    "Their hours and services change, and some only work in one country."
+   ],
+   "must_not_contain": [
+    "not every option works in every country"
    ]
   }
  ]

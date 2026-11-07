@@ -415,6 +415,49 @@
     }
    ],
    "recorded_utc": "2026-11-07T00:20Z"
+  },
+  {
+   "turn": "2026-11-07T00:27Z",
+   "lines_of_work": [
+    "bad trips guide"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "root AGENTS.md (sha 3146ac4a), unchanged"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "articles/bad-trips CURRENT-STATE.md next step"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no edits by others since 00:11 (git log on main)"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "1 queued: this resume; his round-14 export arrived mid-turn"
+    }
+   ],
+   "items": [
+    {
+     "item": "round 14",
+     "outcome": "approved; in (apply_r14.py)"
+    },
+    {
+     "item": "Who to Contact lists",
+     "outcome": "TripSit line 65% to 45%; directories no better"
+    },
+    {
+     "item": "helper opening",
+     "outcome": "panel run; grief paragraph's cut is a card (fidelity keys)"
+    }
+   ],
+   "recorded_utc": "2026-11-07T00:33Z"
   }
  ]
 }

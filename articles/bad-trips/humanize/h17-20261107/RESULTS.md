@@ -16,3 +16,24 @@ The whole section with the opening changed: after the Human section [47%](https:
 What it shows. The opening's second sentence was the strongest pull; said plainly, the opening reads Human, and it goes
 to him on round 14's card. Together the first list and the directories still read AI; their facts (who each serves, the
 number, the hours) are the fidelity keys' numbers and terms, so the next tries change only the words around them.
+
+## After round 14 (the opening said plainly, approved 00:28 UTC)
+
+Each list after the Human section and the changed opening (`BASE3-human-PFA-contactopening.txt`):
+
+| list | the guide's words | one line changed |
+|---|---|---|
+| the first list (Fireside, TripSit) | [65%](https://www.pangram.com/history/cd42656f-b28f-40af-87e9-70acb8df1bf6) | **[45%](https://www.pangram.com/history/453eec39-0c0e-4e62-ac20-b4eb1aa94def)** with the TripSit line said as talk ("a harm-reduction chat you open in your browser, for people using drugs and for whoever's looking after them"); [67%](https://www.pangram.com/history/9b81a50c-69b1-48c1-bb94-a623596a4943) with the Fireside line reordered |
+| the directories | [49%](https://www.pangram.com/history/0e79f081-8940-4161-a08d-d82312cca3f4) | [70%](https://www.pangram.com/history/4830e143-7176-4efc-a27a-d34b28966456) and [78%](https://www.pangram.com/history/a8f7c35d-a01e-492e-ba54-5718be8d7e7b) (either sentence) |
+
+## For the Person Helping's opening: tell panel and a repeat
+
+The panel (`panel-HELPER/PANEL.md`: Codex on his laptop, Sonnet, Haiku) agreed on the heading's "Calm Anchor, Not Guru"
+with the four-item "not there to" list, the Zendo summary, the useful phrase's first two lines, and all three sentences of
+the "real grief" paragraph (B84); all three called "bro, you're purging ancestral karma", "white-knuckles the carpet" and
+"every thirty seconds" human.
+
+B84 is a repeat: "Don't drag somebody out of real grief." is the paragraph two above ("... calls for loving awareness."),
+"Don't trap them inside a loop ..." is The Fear/Panic Loop section's job, and the last line is a quip. But the fidelity
+keys hold its two warnings (drag/grief, trap/grinding), so the cut is his call: it goes on round 15's card
+(`../../experiments/t19-anchor/card_t19e_grief_cut.py`), not in under E378. The guide keeps B84 until he decides.
