@@ -8,7 +8,7 @@ Built by `tools/humanization/pangram_ledger.py build` from `articles/bad-trips/h
 |---|---|---|---|---|---|---|
 | Pangram 4.1 extension (free, live post; Joel's check of 2026-10-18, the same text as his 2026-11-03 paste by SHA-256) | 1 | 1 (100%) | 100% | 0% | 0% | 0.000 (base 0.000, 1) |
 | Pangram web app (his account, Pangram Professional) | 3 | 3 (100%) | 100% | 0% | 0% | 0.092 (base 0.000, 3) |
-| Pangram web app (his account, Pangram Professional), through the Claude desktop app's browser pane | 141 | 129 (91%) | 85% | 15% | 19% | 0.139 (base 0.127, 141) |
+| Pangram web app (his account, Pangram Professional), through the Claude desktop app's browser pane | 144 | 132 (92%) | 85% | 15% | 19% | 0.137 (base 0.125, 144) |
 | pangram 4.1, the web app: Joel's account, run by the lane in the desktop app's browser pane (E356) | 8 | 6 (75%) | 50% | 50% | 75% | 0.170 (base 0.250, 8) |
 
 ## Pangram 4.1 extension (free, live post; Joel's check of 2026-10-18, the same text as his 2026-11-03 paste by SHA-256)
@@ -56,15 +56,15 @@ Calibration:
 
 | window | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| the latest 50 | 50 | 49 (98%) | 96% | 4% | 2% | 0.106 (base 0.038, 50) |
-| the latest 100 | 100 | 95 (95%) | 91% | 9% | 8% | 0.127 (base 0.082, 100) |
-| all | 141 | 129 (91%) | 85% | 15% | 19% | 0.139 (base 0.127, 141) |
+| the latest 50 | 50 | 49 (98%) | 98% | 2% | 0% | 0.097 (base 0.020, 50) |
+| the latest 100 | 100 | 96 (96%) | 91% | 9% | 7% | 0.122 (base 0.082, 100) |
+| all | 144 | 132 (92%) | 85% | 15% | 19% | 0.137 (base 0.125, 144) |
 
 The boundary mix (what was checked; accuracy differs a lot between a paragraph and a section):
 
 | scope or kind | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| section | 30 | 27 (90%) | 93% | 7% | 17% | 0.109 (base 0.062, 30) |
+| section | 33 | 30 (91%) | 94% | 6% | 15% | 0.102 (base 0.057, 33) |
 | paragraph | 64 | 59 (92%) | 78% | 22% | 23% | 0.129 (base 0.171, 64) |
 | pair | 47 | 43 (91%) | 89% | 11% | 15% | 0.171 (base 0.095, 47) |
 
@@ -72,8 +72,8 @@ Calibration:
 
 | my chance of a 100% Human result | calls | mean chance | read Human |
 |---|---|---|---|
-| 0.0 to 0.2 | 8 | 0.13 | 0% |
-| 0.2 to 0.4 | 59 | 0.29 | 2% |
+| 0.0 to 0.2 | 9 | 0.13 | 0% |
+| 0.2 to 0.4 | 61 | 0.29 | 2% |
 | 0.4 to 0.6 | 64 | 0.45 | 17% |
 | 0.6 to 0.8 | 11 | 0.68 | 82% |
 | 0.8 to 1.0 | 1 | 0.80 | 100% |
@@ -199,4 +199,7 @@ The latest:
 | bad-trips Alone at 3 a.m. after the Human section, the lamp sentence changed | paragraph | 1 of 6 | Mixed |
 | bad-trips Alone at 3 a.m. after the Human section, the triage line changed | paragraph | 1 of 6 | Mixed |
 | bad-trips Alone at 3 a.m. after the Human section, the sleep line joined | paragraph | 1 of 6 | Mixed |
+| bad-trips For the Person Helping, its opening, as the guide has it | section | 1 of 2 | AI |
+| bad-trips For the Person Helping, its Do and Don't lists, as the guide has them | section | 1 of 2 | AI |
+| bad-trips When the Content Turns Toward Harm, as the guide has it | section | 1 of 2 | AI |
 

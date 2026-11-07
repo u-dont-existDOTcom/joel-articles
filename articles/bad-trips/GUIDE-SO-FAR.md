@@ -375,9 +375,9 @@ A useful order is **room → body → human → time → meaning**. Most people 
 
 ## Get One Human Anchor
 
-Many bad trips get worse because somebody is alone with a frightened or over-certain mind. Others get worse because too many people crowd in and start advising, arguing, spiritualizing, or panicking.
+Many bad trips get worse because somebody is alone with a frightened or over-certain mind. Other times it's the opposite: too many people crowd in and start advising, arguing, spiritualizing, or panicking.
 
-Use **one calm human anchor as the lead**. When safety, fatigue, logistics, violence, or self-harm risk exceeds what one person can hold, bring in **one additional calm adult or crisis professional**. That is backup.
+So **one calm person should be the anchor** and take the lead. One person can only handle so much, though. When fatigue or logistics get to be too much, or keeping them safe does, or there's a risk of violence or self-harm, bring in **one more calm adult or a crisis professional** to back them up.
 
 ![](https://substack-post-media.s3.amazonaws.com/public/images/2b8889eb-85e8-466f-99af-f71e48caeb61_1122x1402.png)
 
