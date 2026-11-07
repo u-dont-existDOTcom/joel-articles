@@ -29,6 +29,9 @@ no AI window, 9 Human High, 8 Medium, 4 Low (`fix-20261103/r17/draft-b-check/CON
   is, the paragraph read [Human Written, 0% AI](https://www.pangram.com/history/a45f149e-419f-4a39-be1a-4fd02dd738cb)
   (#206) and the protocol section did too (#207). Card F14-1; the tries are in `fix-20261103/r24/` to `r30/`
   (`r30/README.md`).
+- **Draft E, r30 (2026-11-07):** his extension read it [Human Written](https://www.pangram.com/feed/1c41fbd9-580a-4036-b526-95a96cb70c46)
+  with every window Human: 7 High over 4,025 of its 4,040 words, and 5 Medium of 1 to 5 words, all splits listed below
+  (#208). No Low is left.
 - **Pangram's bugs, left:** the splits at "Dr." ("This one's from Dr.", "Dr." twice, "William Davis is back for
   that, along with Dr. Will Bulsiewicz (Fiber Fueled)."), and short lines on their own: "And no snacking!", his
   "Does anyone count their plants?", "Check your environment (Nathan)." and "Then check the brain."

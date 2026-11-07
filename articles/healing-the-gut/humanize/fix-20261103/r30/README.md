@@ -48,3 +48,10 @@ High or Medium. The ledger names no window still open in r30, so the whole artic
   paragraph (two lines become one) and Phase 5's opener and steps. Prediction #208, frozen before the paste.
   `PASTED.json`: the draft made and pasted (words match), and its rendered text checked against `EXPECTED-TEXT-E.txt`
   exactly; the secret link went to Joel in chat, not into Git.
+
+## Draft E's result
+
+His extension read draft E [Human Written](https://www.pangram.com/feed/1c41fbd9-580a-4036-b526-95a96cb70c46)
+(#208): every window Human, 7 High over 4,025 of its 4,040 words, 5 Medium of 1 to 5 words (the splits at "Dr." and
+"And no snacking!"), no Low (`draft-e-check/`). He approved all five batch-14 cards; the version for his post is
+`../r31/`.

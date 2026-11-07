@@ -1,0 +1,56 @@
+{
+ "review_id": "healing-the-gut-b14-r30-20261107",
+ "counts": {
+  "approved": 5,
+  "rejected": 0,
+  "revise": 0,
+  "pending": 0
+ },
+ "fates": [
+  {
+   "id": "F14-1",
+   "title": "Phase 4: the organ check joins the paragraph that gives its reason, and the bile case says what it is",
+   "status": "approved",
+   "at": "2026-11-07T01:08:50.739Z",
+   "comment": "",
+   "in_r30": true,
+   "fate": "in r30 as approved, word for word"
+  },
+  {
+   "id": "F14-2",
+   "title": "Phase 5 opens on the reader's own question",
+   "status": "approved",
+   "at": "2026-11-07T01:09:30.364Z",
+   "comment": "didn't need to ask me for this",
+   "in_r30": true,
+   "fate": "in r30 as approved, word for word"
+  },
+  {
+   "id": "F14-3",
+   "title": "Phase 5, step 1: the yogurt, with you and Davis doing things",
+   "status": "approved",
+   "at": "2026-11-07T01:10:15.483Z",
+   "comment": "didn't need to ask me for this, altho oxytocin is a bonding hormone not the love hormone exactly",
+   "in_r30": true,
+   "fate": "in r30 as approved, word for word; the oxytocin gloss corrected in r31 after his comment"
+  },
+  {
+   "id": "F14-4",
+   "title": "Phase 5, step 2: feeding the bacteria with plants, slowly",
+   "status": "approved",
+   "at": "2026-11-07T01:10:52.962Z",
+   "comment": "didn't need to ask this",
+   "in_r30": true,
+   "fate": "in r30 as approved, word for word"
+  },
+  {
+   "id": "F14-5",
+   "title": "Phase 5, step 3: keep spacing meals, with its reason left in Phase 2",
+   "status": "approved",
+   "at": "2026-11-07T01:11:21.465Z",
+   "comment": "didn't need to ask",
+   "in_r30": true,
+   "fate": "in r30 as approved, word for word"
+  }
+ ]
+}

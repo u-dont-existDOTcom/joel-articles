@@ -1,0 +1,46 @@
+{
+ "about": "Each turn's mailbox check (tools/humanization/lane_mailbox.py; AGENTS.md, \"Suggested fixes from other projects\"). Newest last.",
+ "places": {
+  "uda-lane": "this repository's lane in universal-dev-architecture (suggested-fixes/joel-articles/), against docs/suggested-fixes-ledger.md",
+  "repo": "new issues and pull requests here, and new comments and reviews on any of them, replies on our own included",
+  "notes": "edits others made to the lane's handoff notes and owner questions pages since its last turn",
+  "runtime": "the messages the session's runtime queued for it"
+ },
+ "checks": [
+  {
+   "turn": "2026-11-07T01:11Z",
+   "lines_of_work": [
+    "gut article"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "UDA main b6185f7, unchanged since the last check; root AGENTS.md read live this turn from origin/main; this lane's folder unchanged"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "main at eab13899; since 00:55 UTC: #345-#351 from the bad trips, neuro and gut lanes, all merged; no new issues, comments or reviews; main's new shared changes: lessons neuro-2026-11-07a and b (science settled before humanizing; a formal sentence opening is a tell) and docs/ROADMAP.md, read; a applies here (the oxytocin gloss)"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no edits by anyone else to articles/healing-the-gut"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "Joel's message of 01:11 UTC (batch 14 answers: all five approved, four with \"didn't need to ask\", and oxytocin is a bonding hormone; draft E's result link); six PR notifications, #346 and #348 merged"
+    }
+   ],
+   "items": [
+    {
+     "item": "Joel's message of 01:11 UTC",
+     "outcome": "batch 14 recorded; draft E's result read and recorded (#208); his \"didn't need to ask\" as a lane lesson; the oxytocin gloss corrected and checked"
+    }
+   ],
+   "recorded_utc": "2026-11-07T01:13Z"
+  }
+ ]
+}
