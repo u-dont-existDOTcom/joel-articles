@@ -806,6 +806,41 @@
     }
    ],
    "recorded_utc": "2026-11-07T01:01Z"
+  },
+  {
+   "turn": "2026-11-07T11:58Z",
+   "lines_of_work": [
+    "neuro de-armoring"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "six items, all in the ledger; UDA main b6185f7, its AGENTS.md last changed c25062c (2026-11-06), read this turn"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "this lane's 351 merged 01:10; main merged here (1bb8ddd1); open: the separate DeltaFosB lane's 309 and older lanes' pull requests, none new, no new issues"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no edits by others to this lane's handoff note or questions page since 01:10"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "merge notices for 349 and 351 only"
+    }
+   ],
+   "items": [
+    {
+     "item": "Joel's message of 2026-11-07 11:58 UTC: 'send askrigor a bug report when you figure out why it's not working for you, then continue working'; and: drafts written without trying to sound human read AI, so don't spend Pangram checks on them, make it a rule",
+     "outcome": "bug report: find the cause of AskRigor's protocol loading failing in this client, then send it with submit_lesson_candidate (his yes is in the message); the rule into the budget doc and a lesson; then the card page for blocks 37 and 38 and the science pass"
+    }
+   ],
+   "recorded_utc": "2026-11-07T11:59Z"
   }
  ]
 }

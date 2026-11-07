@@ -107734,7 +107734,7 @@
         },
         {
           "path": "articles/neuro-de-armoring/humanize/HANDOFF-neuro-de-armoring.md",
-          "sha256": "9a05422e33cb0f2a684c4906d21687c646d4e932625a94e97e4fc4cbe6a7d086",
+          "sha256": "a9c6f3b03b7232881da63076e916e2f882fbe1c2e31bf75c74718bcc6f665723",
           "role": "humanization_working_record"
         },
         {
@@ -112590,6 +112590,11 @@
         {
           "path": "articles/neuro-de-armoring/humanize/fix-20261107/sci/SCIENCE-B37-B38.md",
           "sha256": "c486e81d0ec8bf58aaa433d4570a61ee8c33d985473346984d8ae6592279184e",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/neuro-de-armoring/humanize/fix-20261107/askrigor/ASKRIGOR-BUG-REPORT-2.md",
+          "sha256": "3bb3d39e8d494e359184d18e628acfe7681dfddd7f999a4721f4e890922de422",
           "role": "humanization_working_record"
         }
       ]

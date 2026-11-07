@@ -18,6 +18,12 @@ From an account with Desktop Commander connected to the laptop: "Continue my neu
 
 ## START HERE
 
+- **2026-11-07, his message of 11:58 UTC: AskRigor bug report sent (ARL-0059,
+  `fix-20261107/askrigor/ASKRIGOR-BUG-REPORT-2.md`); no Pangram check of a draft of mine that hasn't had a humanizing
+  pass (lesson neuro-2026-11-07c, enforced by `pangram_ledger.py predict --humanized`).** AskRigor's protocol and
+  records don't reach the AI in this app (lesson d): read its protocols from its public repository at the running
+  SHA-256, abstracts from Europe PMC. Next is unchanged: the card page for blocks 37 and 38, then FACTS.md section by
+  section.
 - **2026-11-07, his message of 01:00 UTC: the science comes first (lesson neuro-2026-11-07a).** Next: (1) a card page
   for blocks 37 and 38 with the changed claims (`fix-20261107/sci/SCIENCE-B37-B38.md`, drafts B037s and B038s; his block
   38 versions are in his message file), for him to approve before any more humanizing of them; (2) go through

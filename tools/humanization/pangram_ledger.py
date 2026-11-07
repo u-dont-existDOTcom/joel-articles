@@ -711,6 +711,28 @@ def first_fix_gate(a, recs, text):
             'i always fix?"' % (shown, ' and %d more' % (len(hits) - 3) if len(hits) > 3 else '', ', '.join(missing))]
 
 
+HUMANIZED = re.compile(r'^\s*(?!(?:none|no|not|nothing|n/?a)\b)\S.{19,}', re.I | re.S)
+
+
+def humanized_gate(a, text):
+    """Gate neuro-2026-11-07c (Joel, 2026-11-07 11:58 UTC: "I'm sure whatever you wrote reads AI, it always does, you don't
+    even need to check it to know that it will, unless you actually tried to make it sound human first, make sure that's a
+    rule to avoid wasting check times"): a text of mine goes to Pangram only after a pass meant to make it read human,
+    which --humanized names. A draft written for its content alone (a science correction, a first draft) is assumed to
+    read AI and is not checked. Joel's own text (--his) and a text checked as it stands (--unchanged) need none."""
+    if a.his or a.unchanged or text is None:
+        return []
+    if a.humanized and HUMANIZED.match(a.humanized):
+        return []
+    return ['this text of mine has not been through a pass meant to make it read human: say with --humanized what that '
+            'pass did to this text (where each payoff now leads, which short sentences were joined, which plain words came '
+            'back, which terms are explained where they are first used, any of his moves from SKILL.md). A draft written '
+            'for its content alone, such as a science correction, reads AI, so checking it spends a check to learn nothing: '
+            'humanize it first (gate neuro-2026-11-07c; Joel, 2026-11-07 11:58 UTC: "I\'m sure whatever you wrote reads AI, '
+            'it always does, you don\'t even need to check it to know that it will, unless you actually tried to make it '
+            'sound human first")']
+
+
 HIS_OWN = re.compile(r'^\s*his own\s*:\s*\S.{8,}', re.I | re.S)
 
 
@@ -748,7 +770,7 @@ def cmd_predict(a):
     if not sha:
         raise SystemExit('give --text FILE (preferred) or --sha')
     line = lineage_view(state(recs), a.lineage)
-    gate = provenance_gate(a) + sense_gate(a, text, sha, line) + first_fix_gate(a, recs, text)
+    gate = provenance_gate(a) + humanized_gate(a, text) + sense_gate(a, text, sha, line) + first_fix_gate(a, recs, text)
     if gate:
         print('REFUSED: ' + '\n  '.join(gate), file=sys.stderr)
         return 2
@@ -758,7 +780,7 @@ def cmd_predict(a):
            'detector': a.detector, 'shading_expected': a.shading_expected, 'emulate_share': a.emulate_share,
            'after_fix': a.after_fix, 'paid_ok': a.paid_ok, 'narrowed': a.narrowed, 'panel': a.panel,
            'windows_ok': a.windows_ok, 'try': len(line) + 1, 'his': a.his, 'unchanged': a.unchanged, 'receipt': a.receipt,
-           'big_change': a.big_change, 'first_fix': a.first_fix,
+           'big_change': a.big_change, 'first_fix': a.first_fix, 'humanized': a.humanized,
            'text': text.rstrip('\n') if text is not None and len(text) < 20000 else None}
     if a.scope == 'article' and text is None:
         raise SystemExit('an article check needs --text: its windows are compared with what the earlier checks showed (E354)')
@@ -980,6 +1002,8 @@ def main(argv=None):
                    'small fix is spent (gate E361)')
     p.add_argument('--first-fix', help='a text of mine that reworks sentences which read below High before: "payoff: ...; '
                    'join: ...; plain: ...", what his usual fix did there first (gate E368)')
+    p.add_argument('--humanized', help='a text of mine: what the pass meant to make it read human did to it; a draft '
+                   'written for its content alone is not checked (gate neuro-2026-11-07c)')
     p.set_defaults(fn=cmd_predict)
     p = sub.add_parser('result')
     p.add_argument('ledger')

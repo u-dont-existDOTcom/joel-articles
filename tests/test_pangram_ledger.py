@@ -452,10 +452,30 @@ class SenseGate(unittest.TestCase):
         rp.write_text(json.dumps(r), encoding='utf-8')
         return str(t), str(rp)
 
-    def predict(self, text, receipt=None, extra=()):
+    HUMANIZED = ('--humanized', 'payoffs moved to lead each sentence, two short sentences joined')
+
+    def predict(self, text, receipt=None, extra=(), humanized=True):
+        own = not any(x in ('--his', '--unchanged') for x in extra)
         argv = ['predict', self.ledger, '--lineage', 'G', '--scope', 'paragraph', '--text', text, '--call', 'AI',
-                '--chance', '0.4', '--tells', 'a list'] + (['--receipt', receipt] if receipt else []) + list(extra)
+                '--chance', '0.4', '--tells', 'a list'] + (['--receipt', receipt] if receipt else []) + list(extra) + \
+            (list(self.HUMANIZED) if humanized and own else [])
         return L.main(argv)
+
+    def test_a_draft_not_written_to_read_human_is_not_checked(self):
+        """Gate neuro-2026-11-07c: a science correction drafted for its content alone reads AI; it goes to Pangram
+        only after a pass meant to make it read human, which --humanized names."""
+        t, r = self.files('Time the seizure. Keep them on their side.')
+        self.assertEqual(self.predict(t, r, humanized=False), 2)
+        self.assertEqual(self.predict(t, r, ('--humanized', 'none: a science correction'), humanized=False), 2)
+        self.assertEqual(self.predict(t, r, ('--humanized', 'short'), humanized=False), 2)
+        self.assertEqual(L.read(self.ledger), [])
+        self.assertEqual(self.predict(t, r), 0)
+        self.assertEqual(L.read(self.ledger)[-1]['humanized'], self.HUMANIZED[1])
+
+    def test_his_text_and_a_text_as_it_stands_need_no_humanizing_pass(self):
+        t, _ = self.files('Time the seizure. Keep them on their side.')
+        self.assertEqual(self.predict(t, extra=('--his', 'his own: the line he wrote into the guide, 2026-11-04'),
+                                      humanized=False), 0)
 
     def read_ai(self, t):
         L.main(['result', self.ledger, '--sha', L.sha256(pathlib.Path(t).read_text(encoding='utf-8').rstrip('\n')), '--verdict', 'AI',
