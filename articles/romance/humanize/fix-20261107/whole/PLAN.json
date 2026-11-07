@@ -2143,6 +2143,85 @@
    ]
   },
   {
+   "id": "romance-sec-bypass#117",
+   "name": "Spirituality to bypass intimacy (his S2)",
+   "key": "r21-bypass",
+   "file": "articles/romance/humanize/fix-20261107/r21/checks/CHECK-r21-bypass.txt",
+   "paras": [
+    "I’ve used spirituality as a replacement for intimacy a lot because intimacy was simply unavailable. As a boy and young man, I was so deprived of female touch that it was driving me insane. Meditation sometimes helped me cope better with the deprivation, but it wasn’t a cure. I remember once as I was entering into an ayahuasca ego death, I said, “Actually, I really just want a girlfriend.” Right then, the crazy trip abruptly ended, and a voice said, “Ok then go find one.” Nobody believes this story when I tell it.",
+    "I don’t believe most people can be truly happy celibate. People generally aren’t so serious about spiritual liberation that giving up sex and partnership for life makes sense. The Buddha didn’t advise everyone to become monastics.",
+    "If becoming a monastic genuinely makes you happier and more peaceful, stay. It might work for some very advanced people, or if your sexual desire is already low, or you’re old, etc.",
+    "But how do you know what you’re not aware of? Inner-child reparenting and self-hypnosis can help a lot with that, because often the inner child is being ignored while the adult is feeling some kind of liberation.",
+    "And if you’re so happy and free, what happens when you’re alone in a room with a super beautiful girl and she wants you? Or vice versa for women. Do you feel like you’re losing some control? Are you afraid?",
+    "Bhante Gunaratana, a famous Buddhist teacher, tells a story like this in his autobiography. A super beautiful girl at a retreat he was teaching snuck into his room and waited for him in bed, naked. He went nuts and started screaming at her “Get out!” at the top of his lungs. Obviously he was still repressing something, and she was adept at unintentionally uncovering it.",
+    "Robes do nothing. I was mildly molested in public by the abbot of one of Thailand’s largest Buddhist retreat centers. In Thailand, parents have very good reasons not to leave children alone with monks. Tibet is worse.",
+    "Forced celibacy doesn’t magically abolish anyone’s sexuality. For most people, it eventually just makes them more perverted, since they have no legitimate way to express it.",
+    "Some people become monks for practical reasons too. In a poor country, they're given free food, free shelter and massive unearned respect, without any expectation that they have to hold down a job or raise a family. And even where the free food doesn’t matter as much, like in some wealthy area of the West, a guy who was a nobody as a layman gets to be Venerable Nobody, and people bow to him as he preaches how they can also become Nobody some day.",
+    "Of course, Mr. Nobody may sincerely want liberation, too. People can want several things at once."
+   ],
+   "hashes": [
+    "6486b04af7c2",
+    "72e1bf11f36f",
+    "5c6d33b66306",
+    "a6836c47dac7",
+    "c23f1e67d5c5",
+    "f60d42cf424c",
+    "e73c4c9939ad",
+    "f5fcabcb9883",
+    "b5c0c7c43752",
+    "bb91b1bfe067"
+   ],
+   "anchors": [
+    [
+     0,
+     47
+    ],
+    [
+     1,
+     48
+    ],
+    [
+     2,
+     49
+    ],
+    [
+     3,
+     50
+    ],
+    [
+     4,
+     51
+    ],
+    [
+     5,
+     52
+    ],
+    [
+     6,
+     53
+    ]
+   ],
+   "range": [
+    53,
+    62
+   ],
+   "ops": [
+    {
+     "op": "replace",
+     "live": [
+      60,
+      61,
+      62
+     ],
+     "new": [
+      "Forced celibacy doesn’t magically abolish anyone’s sexuality. For most people, it eventually just makes them more perverted, since they have no legitimate way to express it.",
+      "Some people become monks for practical reasons too. In a poor country, they're given free food, free shelter and massive unearned respect, without any expectation that they have to hold down a job or raise a family. And even where the free food doesn’t matter as much, like in some wealthy area of the West, a guy who was a nobody as a layman gets to be Venerable Nobody, and people bow to him as he preaches how they can also become Nobody some day.",
+      "Of course, Mr. Nobody may sincerely want liberation, too. People can want several things at once."
+     ]
+    }
+   ]
+  },
+  {
    "id": "romance-s3#3",
    "name": "S3",
    "key": "r01-s3",
@@ -2520,36 +2599,79 @@
    ]
   },
   {
-   "id": "romance-s8#18",
-   "name": "S8",
-   "key": "r03-s8",
-   "file": "articles/romance/humanize/fix-20261107/r03/checks/CHECK-r03-s8.txt",
+   "id": "romance-low-ideal#132",
+   "name": "Beware idealization (S8, 147, 148)",
+   "key": "r24-ideal",
+   "file": "articles/romance/humanize/fix-20261107/r24/checks/CHECK-r24-ideal.txt",
    "paras": [
+    "Idealization can be pathological, but it can also come very close to real deep love and appreciation. That’s why it’s so easy to get confused.",
+    "So far in my life the main experiences of this have been with Bee and Key. They’re also the two women I’ve actually been in love with, which is probably not a coincidence. Both of them saw me as their knight in shining armor, and that brought out this divine-feminine beauty in them that made me into a real love slave. I’m not Superman out here trying to “save a hoe.” There’s just a natural director/muse dynamic that sometimes plays out in an exaggerated way.",
     "It shouldn’t have to happen that way, though. It’s a bad shortcut to the divine archetypes.",
-    "Legitimately seeing someone as amazing doesn’t depend on what the seeing gives you. You’re already lost in the sauce once you start identifying with the way you see them, like she’s perfect, this is destiny, I’m the one who finally found her."
+    "Legitimately seeing someone as amazing doesn’t depend on what the seeing gives you. You’re already lost in the sauce once you start identifying with the way you see them, like she’s perfect, this is destiny, I’m the one who finally found her.",
+    "The degree of idealization also predicts the degree of demonization for me. I don’t mean it as a clinical diagnosis, but I do use it almost like one in my own life. If a woman says, “You’re such a great guy. Of course you have flaws like anyone, but I love you,” that sounds healthy. If she says, “You’re perfect, I can’t find any flaw,” I’m already running.",
+    "When the BPD splitting happens, she can go from worshipping me to hating me, first in private and then in front of everybody. Suddenly she can find plenty of flaws, and all of them become evidence I was faking it all along. Sometimes she ends up accusing me of thinking I’m perfect, when she’s the one who used to say I was.",
+    "I’ve learned to get nervous when somebody knows too much about me too soon. We’re twin flames. She knows my motives. I’m Lord Krishna. Okay, maybe I really am way better than the other guys she’s found. But if she hasn’t found anything about me that bothers her yet, she hasn’t found all of me.",
+    "For example, I still love women I’ve loved before. Sometimes I talk about them because I’m thinking about them. I’m not trying to make her jealous. If she can’t handle that I still love them, she isn’t ready for me.",
+    "If she says, “Can you talk less about your exes?” Sure. Maybe I do talk about them too much sometimes, but they still matter to me. If I’m supposed to listen to everything on her mind, I don’t want to have to pretend they aren’t on mine."
    ],
    "hashes": [
+    "82103883dec5",
+    "8a36994c2411",
     "1529a5814e40",
-    "5c9dbe989729"
+    "5c9dbe989729",
+    "db46e53c60b7",
+    "a8f4852bb5c2",
+    "7abc57167675",
+    "d3a65ebefba7",
+    "36a4cd528a5c"
    ],
    "anchors": [
     [
      0,
+     121
+    ],
+    [
+     1,
+     122
+    ],
+    [
+     2,
      123
+    ],
+    [
+     6,
+     127
+    ],
+    [
+     7,
+     128
     ]
    ],
    "range": [
-    145,
-    146
+    143,
+    151
    ],
    "ops": [
     {
      "op": "replace",
      "live": [
-      146
+      146,
+      147,
+      148
      ],
      "new": [
-      "Legitimately seeing someone as amazing doesn’t depend on what the seeing gives you. You’re already lost in the sauce once you start identifying with the way you see them, like she’s perfect, this is destiny, I’m the one who finally found her."
+      "Legitimately seeing someone as amazing doesn’t depend on what the seeing gives you. You’re already lost in the sauce once you start identifying with the way you see them, like she’s perfect, this is destiny, I’m the one who finally found her.",
+      "The degree of idealization also predicts the degree of demonization for me. I don’t mean it as a clinical diagnosis, but I do use it almost like one in my own life. If a woman says, “You’re such a great guy. Of course you have flaws like anyone, but I love you,” that sounds healthy. If she says, “You’re perfect, I can’t find any flaw,” I’m already running.",
+      "When the BPD splitting happens, she can go from worshipping me to hating me, first in private and then in front of everybody. Suddenly she can find plenty of flaws, and all of them become evidence I was faking it all along. Sometimes she ends up accusing me of thinking I’m perfect, when she’s the one who used to say I was."
+     ]
+    },
+    {
+     "op": "replace",
+     "live": [
+      151
+     ],
+     "new": [
+      "If she says, “Can you talk less about your exes?” Sure. Maybe I do talk about them too much sometimes, but they still matter to me. If I’m supposed to listen to everything on her mind, I don’t want to have to pretend they aren’t on mine."
      ]
     }
    ]
@@ -3248,27 +3370,57 @@
    ]
   },
   {
-   "id": "romance-s15#31",
-   "name": "S15",
-   "key": "r04-s15",
-   "file": "articles/romance/humanize/fix-20261107/r04/checks/CHECK-r04-s15.txt",
+   "id": "romance-low-romance#122",
+   "name": "Romance (S15, 285 to 287)",
+   "key": "r22-romance",
+   "file": "articles/romance/humanize/fix-20261107/r22/checks/CHECK-r22-romance.txt",
    "paras": [
     "If I have to prove that I’m the man, being the man has already become an act, and I have to defend it every time I hesitate, cry, need help, or get something wrong.",
-    "I don’t actually walk around thinking I’m some super-masculine guy. I cry, I need help, I get things wrong. Bee once called me her “wife.” I don’t recommend that as a polarity exercise, by the way."
+    "I don’t actually walk around thinking I’m some super-masculine guy. I cry, I need help, I get things wrong. Bee once called me her “wife.” I don’t recommend that as a polarity exercise, by the way.",
+    "When a woman appreciates that masculine side of me, it tends to come out by itself.",
+    "The same is true for a woman. She shouldn’t have to play the damsel every minute, pretending she can’t open a jar, just to prove she’s feminine. Her surrender means a lot more when she could take charge but just doesn’t feel like it right then. When a strong woman surrenders, she is choosing to, which is sexy.",
+    "Women can get pulled in two directions here. She may worry that I don’t find her beautiful enough, or that she’s too much of a handful. Maybe she thinks she cries too easily and needs too much, and that I’d like her better if she were more logical. Then she can swing the other way and act like she needs nobody. Letting a man take care of her starts to feel like weakness, and so does letting him lead.",
+    "Toft says that after fifty years he still tells his wife she’s beautiful, including finding new kinds of beauty as she ages. Anami talks a lot about women learning to receive. Letting a man help her, or lead for a while, leaves a strong woman just as strong. So does lying back while he pleases her. And a man she takes care of stays a grown man. Sometimes it’s as simple as a woman who drives just fine asking me to drive, because she likes how it feels when I do. She’s choosing the ride. Or I might ask, “Honey, how do you see this intuitively?” because I want her to use her power. She might have me think through the practical side with her, since that’s the part she wants from me.",
+    "That’s called invitational: Would you rather go to a party where you were invited or a war you got drafted into?",
+    "When a woman doesn’t know how to gently invite a man to lead, she may manufacture a crisis until the man is forced to take charge to get the same outward result.",
+    "Unfortunately, I’ve seen a lot of the latter."
    ],
    "hashes": [
     "0f4d802ec870",
-    "22c0c186d537"
+    "22c0c186d537",
+    "198d7d8a28b2",
+    "c51435d5e59b",
+    "013a2da2f960",
+    "3b360cef92c0",
+    "d63a2d134725",
+    "2407c513689a",
+    "f8c71eb2a390"
    ],
    "anchors": [
     [
      1,
      244
+    ],
+    [
+     2,
+     245
+    ],
+    [
+     6,
+     249
+    ],
+    [
+     7,
+     250
+    ],
+    [
+     8,
+     251
     ]
    ],
    "range": [
     282,
-    283
+    290
    ],
    "ops": [
     {
@@ -3278,6 +3430,19 @@
      ],
      "new": [
       "If I have to prove that I’m the man, being the man has already become an act, and I have to defend it every time I hesitate, cry, need help, or get something wrong."
+     ]
+    },
+    {
+     "op": "replace",
+     "live": [
+      285,
+      286,
+      287
+     ],
+     "new": [
+      "The same is true for a woman. She shouldn’t have to play the damsel every minute, pretending she can’t open a jar, just to prove she’s feminine. Her surrender means a lot more when she could take charge but just doesn’t feel like it right then. When a strong woman surrenders, she is choosing to, which is sexy.",
+      "Women can get pulled in two directions here. She may worry that I don’t find her beautiful enough, or that she’s too much of a handful. Maybe she thinks she cries too easily and needs too much, and that I’d like her better if she were more logical. Then she can swing the other way and act like she needs nobody. Letting a man take care of her starts to feel like weakness, and so does letting him lead.",
+      "Toft says that after fifty years he still tells his wife she’s beautiful, including finding new kinds of beauty as she ages. Anami talks a lot about women learning to receive. Letting a man help her, or lead for a while, leaves a strong woman just as strong. So does lying back while he pleases her. And a man she takes care of stays a grown man. Sometimes it’s as simple as a woman who drives just fine asking me to drive, because she likes how it feels when I do. She’s choosing the ride. Or I might ask, “Honey, how do you see this intuitively?” because I want her to use her power. She might have me think through the practical side with her, since that’s the part she wants from me."
      ]
     }
    ]
@@ -3383,17 +3548,25 @@
    ]
   },
   {
-   "id": "romance-sec-spiritual-sex-p304#115",
-   "name": "Can making love be a spiritual practice? (304 to 309)",
-   "key": "r20-spir304",
-   "file": "articles/romance/humanize/fix-20261107/r20/checks/CHECK-r20-spir304.txt",
+   "id": "romance-sec-spiritual-sex#118",
+   "name": "Can making love be a spiritual practice? (r20 and his S17)",
+   "key": "r21-spir",
+   "file": "articles/romance/humanize/fix-20261107/r21/checks/CHECK-r21-spir.txt",
    "paras": [
     "I’m Buddhist, and the early Buddhist texts have nothing on tantric sex as a path to awakening, but plenty of the people they show getting seriously awakened were lay people.",
     "In DN 16, the Buddha talks about people who had died in the town of Nādikā and mentions 510 lay stream-enterers, 96 once-returners, and more than fifty lay non-returners, the first three of the four stages of awakening.",
     "SN 55.24 has an almost comic complaint: when the Buddha declared Sarakāni a stream-enterer, other Sakyans grumbled, in effect, “Who isn’t a stream-enterer these days?”",
     "And when the married couple Nakulapitā and Nakulamātā asked the Buddha how they could remain together in future lives, AN 4.55 gave this advice:",
     "“When both husband and wife are faithful and generous, restraintful, living righteously, speaking pleasant words to each other—they come together in the future, sharing the same desires and living in bliss.”",
-    "Marriage, sex, and household life are not automatically on the opposite side from serious spiritual development."
+    "Marriage, sex, and household life aren't automatically in conflict with serious spiritual development.",
+    "Kim Anami goes even further: she says sexual energy itself, when used properly, can heal you and wake you up spiritually along with your beloved.",
+    "She’s also collected a ton of stories from students who say the effects spilled out of the bedroom into the rest of their life, with better health, more rewarding careers, checks rolling in, and creativity flowing out like nobody's business. Her jade-egg practice is a preliminary training for the cervical O, as it strengthens the pelvic-floor while also engaging your attention to the sensations down there. No partner required for the jade egg phase.",
+    "Brad and Pam Keene are the example couple I really liked as an example of how her method works. Pam explained that her Kundalini process completed while they were making love and opened her into a lasting universal-consciousness awakening. She later helped Brad awaken too, so the marriage itself became part of the path.",
+    "In the previous section, I mentioned the divine feminine and divine masculine energies that you can channel to keep eroticism alive. But there’s really something more special about the in-love paradise that Twin Flames (TFs) experience than a simple Divine Masculine + Divine Feminine formula. Maybe a better way to put it, as my friend Cody says, is Yin/Yang, which still has the masculine/feminine in it, but allows for a more broad type of complementary symbiosis since, each contains the seed of the other.",
+    "My ex-girlfriend, Malia, (who is currently hosting me in Sênêgal) found her twin flame (I think) in January, 2026. They only talked for a month, but since she started talking to him, they both have been able to feel the other one’s emotions at any time, from any distance, without having to communicate. To the point where if one feels really bad, so does the other. If one is very happy, so is the other, like quantum entangled photons or something. I’ve also had telepathy with some folks, especially my first wife, Bee, but it was never quite to such an extreme as what Malia has with Mouhamed. Meanwhile his family forbade him from being with her, so he dumped her. Not sure why, maybe because she’s 8 years older than him (although she looks quite young). They both try to pretend like they will be able to get over each other, but I doubt it. Meanwhile, Malia’s trying to marry ChatGPT, but she should have picked Grok, I guess. 😅",
+    "Note: I am really afraid how many people are falling in love with their AI “girlfriend” or “boyfriend.” But oh well, I guess those folks aren’t ready for a real relationship.. maybe if they would read this guide…",
+    "Back to the topic. There are a ton of people who don’t want to believe in twin flame theory because they haven’t found someone they could call their twin flame. That’s fine, and I am not trying to rock their boat. They might be the people who suggest that you should marry your best friend (or “soul mate” in the TF lingo). Then there are the folks who are deep in the TF theory, believing there is literally one person on Earth who is made for you. I’m also not trying to rock their boat. But I do want to tell my story.",
+    "I used to fall into the former camp, then into the latter camp, and now that I’ve experienced two twin flame relationships, I’ve jumped into a new camp I never knew existed."
    ],
    "hashes": [
     "147e143cc784",
@@ -3401,7 +3574,15 @@
     "f24ebe430c84",
     "6baf7b480280",
     "4d117e9a8923",
-    "b98e1bb934df"
+    "943a1f793447",
+    "04eb340904b4",
+    "b3fff11386a3",
+    "f57ae0bd8265",
+    "ffd8acb08394",
+    "2ac6ab99f367",
+    "3c62d7c0ce41",
+    "bda885538958",
+    "afaedbcd33f0"
    ],
    "anchors": [
     [
@@ -3413,13 +3594,29 @@
      266
     ],
     [
-     5,
-     267
+     9,
+     271
+    ],
+    [
+     10,
+     272
+    ],
+    [
+     11,
+     273
+    ],
+    [
+     12,
+     274
+    ],
+    [
+     13,
+     275
     ]
    ],
    "range": [
     304,
-    309
+    317
    ],
    "ops": [
     {
@@ -3434,40 +3631,20 @@
       "In DN 16, the Buddha talks about people who had died in the town of Nādikā and mentions 510 lay stream-enterers, 96 once-returners, and more than fifty lay non-returners, the first three of the four stages of awakening.",
       "SN 55.24 has an almost comic complaint: when the Buddha declared Sarakāni a stream-enterer, other Sakyans grumbled, in effect, “Who isn’t a stream-enterer these days?”"
      ]
-    }
-   ]
-  },
-  {
-   "id": "romance-sec-spiritual-sex-p312#116",
-   "name": "Can making love be a spiritual practice? (312)",
-   "key": "r20-spir312",
-   "file": "articles/romance/humanize/fix-20261107/r20/checks/CHECK-r20-spir312.txt",
-   "paras": [
-    "The example I really like is Brad and Pam Keene, whose marriage itself became part of the path. Pam says her Kundalini process completed while they were making love and opened into a lasting universal-consciousness awakening, and she later helped Brad awaken too.",
-    "In the previous section, I mentioned the divine feminine and divine masculine energies that you can channel to keep eroticism alive. But there’s really something more special about the in-love paradise that Twin Flames (TFs) experience than a simple Divine Masculine + Divine Feminine formula. Maybe a better way to put it, as my friend Cody says, is Yin/Yang, which still has the masculine/feminine in it, but allows for a more broad type of complementary symbiosis since, each contains the seed of the other."
-   ],
-   "hashes": [
-    "3b319a3aebbd",
-    "ffd8acb08394"
-   ],
-   "anchors": [
-    [
-     1,
-     271
-    ]
-   ],
-   "range": [
-    312,
-    313
-   ],
-   "ops": [
+    },
     {
      "op": "replace",
      "live": [
+      309,
+      310,
+      311,
       312
      ],
      "new": [
-      "The example I really like is Brad and Pam Keene, whose marriage itself became part of the path. Pam says her Kundalini process completed while they were making love and opened into a lasting universal-consciousness awakening, and she later helped Brad awaken too."
+      "Marriage, sex, and household life aren't automatically in conflict with serious spiritual development.",
+      "Kim Anami goes even further: she says sexual energy itself, when used properly, can heal you and wake you up spiritually along with your beloved.",
+      "She’s also collected a ton of stories from students who say the effects spilled out of the bedroom into the rest of their life, with better health, more rewarding careers, checks rolling in, and creativity flowing out like nobody's business. Her jade-egg practice is a preliminary training for the cervical O, as it strengthens the pelvic-floor while also engaging your attention to the sensations down there. No partner required for the jade egg phase.",
+      "Brad and Pam Keene are the example couple I really liked as an example of how her method works. Pam explained that her Kundalini process completed while they were making love and opened her into a lasting universal-consciousness awakening. She later helped Brad awaken too, so the marriage itself became part of the path."
      ]
     }
    ]
@@ -3996,6 +4173,21 @@
   {
    "op": "replace",
    "live": [
+    60,
+    61,
+    62
+   ],
+   "new": [
+    "Forced celibacy doesn’t magically abolish anyone’s sexuality. For most people, it eventually just makes them more perverted, since they have no legitimate way to express it.",
+    "Some people become monks for practical reasons too. In a poor country, they're given free food, free shelter and massive unearned respect, without any expectation that they have to hold down a job or raise a family. And even where the free food doesn’t matter as much, like in some wealthy area of the West, a guy who was a nobody as a layman gets to be Venerable Nobody, and people bow to him as he preaches how they can also become Nobody some day.",
+    "Of course, Mr. Nobody may sincerely want liberation, too. People can want several things at once."
+   ],
+   "check": "romance-sec-bypass#117",
+   "name": "Spirituality to bypass intimacy (his S2)"
+  },
+  {
+   "op": "replace",
+   "live": [
     65
    ],
    "new": [
@@ -4095,13 +4287,28 @@
   {
    "op": "replace",
    "live": [
-    146
+    146,
+    147,
+    148
    ],
    "new": [
-    "Legitimately seeing someone as amazing doesn’t depend on what the seeing gives you. You’re already lost in the sauce once you start identifying with the way you see them, like she’s perfect, this is destiny, I’m the one who finally found her."
+    "Legitimately seeing someone as amazing doesn’t depend on what the seeing gives you. You’re already lost in the sauce once you start identifying with the way you see them, like she’s perfect, this is destiny, I’m the one who finally found her.",
+    "The degree of idealization also predicts the degree of demonization for me. I don’t mean it as a clinical diagnosis, but I do use it almost like one in my own life. If a woman says, “You’re such a great guy. Of course you have flaws like anyone, but I love you,” that sounds healthy. If she says, “You’re perfect, I can’t find any flaw,” I’m already running.",
+    "When the BPD splitting happens, she can go from worshipping me to hating me, first in private and then in front of everybody. Suddenly she can find plenty of flaws, and all of them become evidence I was faking it all along. Sometimes she ends up accusing me of thinking I’m perfect, when she’s the one who used to say I was."
    ],
-   "check": "romance-s8#18",
-   "name": "S8"
+   "check": "romance-low-ideal#132",
+   "name": "Beware idealization (S8, 147, 148)"
+  },
+  {
+   "op": "replace",
+   "live": [
+    151
+   ],
+   "new": [
+    "If she says, “Can you talk less about your exes?” Sure. Maybe I do talk about them too much sometimes, but they still matter to me. If I’m supposed to listen to everything on her mind, I don’t want to have to pretend they aren’t on mine."
+   ],
+   "check": "romance-low-ideal#132",
+   "name": "Beware idealization (S8, 147, 148)"
   },
   {
    "op": "replace",
@@ -4284,8 +4491,23 @@
    "new": [
     "If I have to prove that I’m the man, being the man has already become an act, and I have to defend it every time I hesitate, cry, need help, or get something wrong."
    ],
-   "check": "romance-s15#31",
-   "name": "S15"
+   "check": "romance-low-romance#122",
+   "name": "Romance (S15, 285 to 287)"
+  },
+  {
+   "op": "replace",
+   "live": [
+    285,
+    286,
+    287
+   ],
+   "new": [
+    "The same is true for a woman. She shouldn’t have to play the damsel every minute, pretending she can’t open a jar, just to prove she’s feminine. Her surrender means a lot more when she could take charge but just doesn’t feel like it right then. When a strong woman surrenders, she is choosing to, which is sexy.",
+    "Women can get pulled in two directions here. She may worry that I don’t find her beautiful enough, or that she’s too much of a handful. Maybe she thinks she cries too easily and needs too much, and that I’d like her better if she were more logical. Then she can swing the other way and act like she needs nobody. Letting a man take care of her starts to feel like weakness, and so does letting him lead.",
+    "Toft says that after fifty years he still tells his wife she’s beautiful, including finding new kinds of beauty as she ages. Anami talks a lot about women learning to receive. Letting a man help her, or lead for a while, leaves a strong woman just as strong. So does lying back while he pleases her. And a man she takes care of stays a grown man. Sometimes it’s as simple as a woman who drives just fine asking me to drive, because she likes how it feels when I do. She’s choosing the ride. Or I might ask, “Honey, how do you see this intuitively?” because I want her to use her power. She might have me think through the practical side with her, since that’s the part she wants from me."
+   ],
+   "check": "romance-low-romance#122",
+   "name": "Romance (S15, 285 to 287)"
   },
   {
    "op": "replace",
@@ -4327,19 +4549,25 @@
     "In DN 16, the Buddha talks about people who had died in the town of Nādikā and mentions 510 lay stream-enterers, 96 once-returners, and more than fifty lay non-returners, the first three of the four stages of awakening.",
     "SN 55.24 has an almost comic complaint: when the Buddha declared Sarakāni a stream-enterer, other Sakyans grumbled, in effect, “Who isn’t a stream-enterer these days?”"
    ],
-   "check": "romance-sec-spiritual-sex-p304#115",
-   "name": "Can making love be a spiritual practice? (304 to 309)"
+   "check": "romance-sec-spiritual-sex#118",
+   "name": "Can making love be a spiritual practice? (r20 and his S17)"
   },
   {
    "op": "replace",
    "live": [
+    309,
+    310,
+    311,
     312
    ],
    "new": [
-    "The example I really like is Brad and Pam Keene, whose marriage itself became part of the path. Pam says her Kundalini process completed while they were making love and opened into a lasting universal-consciousness awakening, and she later helped Brad awaken too."
+    "Marriage, sex, and household life aren't automatically in conflict with serious spiritual development.",
+    "Kim Anami goes even further: she says sexual energy itself, when used properly, can heal you and wake you up spiritually along with your beloved.",
+    "She’s also collected a ton of stories from students who say the effects spilled out of the bedroom into the rest of their life, with better health, more rewarding careers, checks rolling in, and creativity flowing out like nobody's business. Her jade-egg practice is a preliminary training for the cervical O, as it strengthens the pelvic-floor while also engaging your attention to the sensations down there. No partner required for the jade egg phase.",
+    "Brad and Pam Keene are the example couple I really liked as an example of how her method works. Pam explained that her Kundalini process completed while they were making love and opened her into a lasting universal-consciousness awakening. She later helped Brad awaken too, so the marriage itself became part of the path."
    ],
-   "check": "romance-sec-spiritual-sex-p312#116",
-   "name": "Can making love be a spiritual practice? (312)"
+   "check": "romance-sec-spiritual-sex#118",
+   "name": "Can making love be a spiritual practice? (r20 and his S17)"
   },
   {
    "op": "replace",
@@ -4469,6 +4697,9 @@
   36,
   38,
   39,
+  60,
+  61,
+  62,
   65,
   70,
   72,
@@ -4486,6 +4717,9 @@
   140,
   141,
   146,
+  147,
+  148,
+  151,
   157,
   175,
   176,
@@ -4509,6 +4743,9 @@
   260,
   262,
   282,
+  285,
+  286,
+  287,
   294,
   295,
   296,
@@ -4517,6 +4754,9 @@
   304,
   305,
   306,
+  309,
+  310,
+  311,
   312,
   331,
   335,
@@ -4535,13 +4775,9 @@
   443
  ],
  "keep": {
-  "148": "Beware idealization 148 (S2 pattern)",
-  "285": "Romance 285 (S2 pattern)",
-  "286": "Romance 286 (S2 pattern)",
-  "287": "Romance 287 (S2 pattern)",
   "332": "Two Pillars 332 (owner lock)",
-  "367": "Jealousy 367 (S2 pattern)",
-  "368": "Jealousy 368 (S2 pattern)",
-  "369": "Jealousy 369 (S2 pattern)"
+  "367": "Jealousy 367 (his marking page, REVIEW-T2)",
+  "368": "Jealousy 368 (his marking page, REVIEW-T2)",
+  "369": "Jealousy 369 (his marking page, REVIEW-T2)"
  }
 }

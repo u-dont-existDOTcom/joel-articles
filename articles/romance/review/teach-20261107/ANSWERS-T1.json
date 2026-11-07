@@ -1,0 +1,61 @@
+{
+ "format": "joel-suggestion-review-answers-v1",
+ "review_id": "romance-teach-t1",
+ "title": "Romance Advice I Wish My Parents Taught Me: two paragraphs to teach me from",
+ "git_file": "articles/romance/review/teach-20261107/REVIEW-T1.html",
+ "article": {
+  "file": "articles/romance/review/teach-20261107/PAGE-T1.md",
+  "sha256": "5605c5ec513a90214df175dc4f2652c0cfee5e2f76e7c050e97c3e8148771481"
+ },
+ "built": "2026-11-07",
+ "generator": "suggestion_review.py 1.9 (2026-11-07)",
+ "exported_at": "2026-11-07T22:56:30.915Z",
+ "counts": {
+  "approved": 0,
+  "rejected": 0,
+  "revise": 2,
+  "pending": 0
+ },
+ "items": [
+  {
+   "id": "TEACH-MONASTIC-PERKS",
+   "type": "teach",
+   "title": "The practical reasons to become a monk: a general claim, two cases with a list, a balanced close",
+   "where": "Spirituality to bypass intimacy, P9",
+   "advice": "edit",
+   "status": "revise",
+   "your_version": "Forced celibacy doesn’t magically abolish anyone’s sexuality. For most people, it eventually just makes them more perverted, since they have no legitimate way to express it. \nSome people become monks for practical reasons too. In a poor country, they're given free food, free shelter and massive unearned respect, without any expectation that they have to hold down a job or raise a family. And even where the free food doesn’t matter as much, like in some wealthy area of the West, a guy who was a nobody as a layman gets to be Venerable Nobody, and people bow to him as he preaches how they can also become Nobody some day.\nOf course, Mr. Nobody may sincerely want liberation, too. People can want several things at once.",
+   "comment": "all high conf human https://www.pangram.com/history/f562bf37-6d5a-464a-bac9-2fc34bb2d3fa?ucc=AyfvimuzkWB&utm_source=pangram_share&utm_medium=copy_link",
+   "my_version": "There are practical reasons to become a monastic too. In a poor country it can mean free food, a place to live, status, and escape from ordinary responsibilities. In the West, the free food may matter less, but a person who received no particular respect as a layman can become Venerable Somebody and suddenly people bow to him.\n\nOf course, he may sincerely want liberation, too. People can want several things at once.",
+   "before": "There are practical reasons to become a monastic too. In a poor country it can mean free food, a place to live, status, and escape from ordinary responsibilities. In the West, the free food may matter less, but a person who received no particular respect as a layman can become Venerable Somebody and suddenly people bow to him.\n\nOf course, he may sincerely want liberation, too. People can want several things at once.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "revise",
+     "at": "2026-11-07T22:44:22.648Z"
+    }
+   ],
+   "updated": "2026-11-07T22:44:34.013Z"
+  },
+  {
+   "id": "TEACH-KIM-ANAMI",
+   "type": "teach",
+   "title": "Kim Anami's view: someone else's teaching summed up, with a list",
+   "where": "Can making love be a spiritual practice?, P7",
+   "advice": "edit",
+   "status": "revise",
+   "your_version": "Marriage, sex, and household life aren't automatically in conflict with serious spiritual development.\nKim Anami goes even further: she says sexual energy itself, when used properly, can heal you and wake you up spiritually along with your beloved.\nShe’s also collected a ton of stories from students who say the effects spilled out of the bedroom into the rest of their life, with better health, more rewarding careers, checks rolling in, and creativity flowing out like nobody's business. Her jade-egg practice is a preliminary training for the cervical O, as it strengthens the pelvic-floor while also engaging you're attention to the sensations down there. No partner required for the jade egg phase. \nBrad and Pam Keene are the example couple I really liked as an example of how her method works. Pam explained that her Kundalini process completed while they were making love and opened her into a lasting universal-consciousness awakening. She later helped Brad awaken too, so the marriage itself became part of the path.",
+   "comment": "so all by itself this is totally ai: https://www.pangram.com/history/a05a404d-4f22-4e7a-956d-69b2768fc22b?ucc=AyfvimuzkWB&utm_source=pangram_share&utm_medium=copy_link\n\nfixed it, all high conf human: https://www.pangram.com/history/0e2f8a68-6fe9-4804-9bff-114705fa542b?ucc=AyfvimuzkWB&utm_source=pangram_share&utm_medium=copy_link",
+   "my_version": "Kim Anami goes further and treats sexual energy itself as a path into healing, creativity, worldly action, and spiritual awakening.\n\nShe has also collected a ton of stories from students who say the effects spill out of sex into health, work, money, creativity, the rest of life. Her jade-egg practice is a preliminary training for the cervical O: pelvic-floor strength, attention, and arousal without needing a partner.",
+   "before": "Kim Anami goes further and treats sexual energy itself as a path into healing, creativity, worldly action, and spiritual awakening.\n\nShe has also collected a ton of stories from students who say the effects spill out of sex into health, work, money, creativity, the rest of life. Her jade-egg practice is a preliminary training for the cervical O: pelvic-floor strength, attention, and arousal without needing a partner.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "revise",
+     "at": "2026-11-07T22:46:31.918Z"
+    }
+   ],
+   "updated": "2026-11-07T22:56:26.240Z"
+  }
+ ]
+}

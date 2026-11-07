@@ -1,0 +1,61 @@
+{
+ "readers": [
+  "haiku",
+  "sonnet"
+ ],
+ "sentences": [
+  "The degree of idealization also predicts the degree of demonization for me.",
+  "I don’t mean it as a clinical diagnosis, but I do use it almost like one in my own life.",
+  "If a woman says, “You’re such a great guy.",
+  "Of course you have flaws like anyone, but I love you,” that sounds healthy.",
+  "If she says, “You’re perfect, I can’t find any flaw,” I’m already running.",
+  "When the BPD splitting happens, she can go from worshipping me to hating me, first in private and then in front of everybody.",
+  "Suddenly she can find plenty of flaws, and all of them become evidence I was faking it all along.",
+  "Sometimes she ends up accusing me of thinking I’m perfect, when she’s the one who used to say I was."
+ ],
+ "flagged": {
+  "1": [
+   "haiku",
+   "sonnet"
+  ],
+  "2": [
+   "sonnet"
+  ],
+  "3": [
+   "sonnet"
+  ],
+  "4": [
+   "sonnet"
+  ],
+  "5": [
+   "sonnet"
+  ],
+  "6": [
+   "sonnet"
+  ],
+  "7": [
+   "haiku",
+   "sonnet"
+  ],
+  "8": [
+   "haiku",
+   "sonnet"
+  ]
+ },
+ "agreed": [
+  1,
+  7,
+  8
+ ],
+ "whole": {
+  "haiku": [
+   "The rhythm mostly varies and stays conversational, with short sentences and a first-person voice that stays inside the experience, so the machine-like signal is weak. The one habit that reads arranged is the paragraph's tendency to close on a tidy reversal."
+  ],
+  "sonnet": [
+   "The paragraph is built as a thesis, then an illustration, then an ironic reversal, with every sentence resolving into a neat balanced point and no loose or messy edges. The rhythm is even and the generalized \"she\" is an archetype, not a particular person, though the first-person stance keeps it from being fully generic."
+  ]
+ },
+ "human_clean": [
+  "when the BPD splitting happens"
+ ]
+}

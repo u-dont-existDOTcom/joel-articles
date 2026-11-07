@@ -1,6 +1,6 @@
 # The fixed version: every changed paragraph
 
-The live post ("Romance Advice I Wish My Parents Taught Me", updated Aug 27, 2026) with each section's and spot's best tested text in place (`assemble.py`, `build.py`). Paragraph numbers are the post page's paragraph list (`LIVE-INDEX.txt`). S2 and S17 (on the marking page), the three stretches that share S2's pattern and "Two Pillars" 332 (owner lock) are as the live post has them. 42 changes, 70 live paragraphs.
+The live post ("Romance Advice I Wish My Parents Taught Me", updated Aug 27, 2026) with each section's and spot's best tested text in place (`assemble.py`, `build.py`). Paragraph numbers are the post page's paragraph list (`LIVE-INDEX.txt`). S2 and S17 (on the marking page), the three stretches that share S2's pattern and "Two Pillars" 332 (owner lock) are as the live post has them. 45 changes, 82 live paragraphs.
 
 ## 1. S1 (live 28)
 
@@ -54,7 +54,23 @@ Read by romance-low-labels#84: [result](https://www.pangram.com/history/c825d7cc
 > Here’s the funny thing many people don’t understand: labels don’t create commitment, but they can still expose whether two people think they’re in the same relationship, which matters a lot.
 > True commitment grows out of relational depth, not a label: if we spend hours telling each other our deepest longings, fears, and problems, I’ll naturally be ready to help when you need me. I don’t need to promise that on paper. If someone says “I love you, I feel you, I’m here for you,” yet they hardly ever talk to you about what matters, that’s a red flag.
 
-## 5. S3 (live 65)
+## 5. Spirituality to bypass intimacy (his S2) (live 60, 61, 62)
+
+Read by romance-sec-bypass#117: [result](https://www.pangram.com/history/8e351ac3-9991-4c6a-a94d-5446e7329aba).
+
+**Live:**
+
+> Forced celibacy doesn’t abolish anyone’s sexuality. For most people it eventually sends it somewhere weird. Why wouldn’t it?
+> There are practical reasons to become a monastic too. In a poor country it can mean free food, a place to live, status, and escape from ordinary responsibilities. In the West, the free food may matter less, but a person who received no particular respect as a layman can become Venerable Somebody and suddenly people bow to him.
+> Of course, he may sincerely want liberation, too. People can want several things at once.
+
+**New:**
+
+> Forced celibacy doesn’t magically abolish anyone’s sexuality. For most people, it eventually just makes them more perverted, since they have no legitimate way to express it.
+> Some people become monks for practical reasons too. In a poor country, they're given free food, free shelter and massive unearned respect, without any expectation that they have to hold down a job or raise a family. And even where the free food doesn’t matter as much, like in some wealthy area of the West, a guy who was a nobody as a layman gets to be Venerable Nobody, and people bow to him as he preaches how they can also become Nobody some day.
+> Of course, Mr. Nobody may sincerely want liberation, too. People can want several things at once.
+
+## 6. S3 (live 65)
 
 Read by romance-s3#3: [result](https://www.pangram.com/history/701382eb-aa2c-4de1-9bb2-00cbb672b203).
 
@@ -66,7 +82,7 @@ Read by romance-s3#3: [result](https://www.pangram.com/history/701382eb-aa2c-4de
 
 > It’s reasonable for a woman to want support, since after all, she has to provide for her potential children, but it muddies the waters for me. I’m not stupid; I understand that she might really love me while still wanting money, stability, children, a visa, a home, etc. Men aren’t a different species, although sometimes I think I might be. A man can really love a woman for who she is while also seeing her as a source of sex, children, social legitimacy, or help running the house.
 
-## 6. It always goes deeper (live 70)
+## 7. It always goes deeper (live 70)
 
 Read by romance-low-deeper#97: [result](https://www.pangram.com/history/f0ee02fc-0f44-4170-bd89-4cc90aecf76d).
 
@@ -78,7 +94,7 @@ Read by romance-low-deeper#97: [result](https://www.pangram.com/history/f0ee02fc
 
 > I don’t need the answer to be that what I provide has nothing to do with it. Maybe she likes that I’m competent, protective, useful, and can make things happen. I definitely like her beauty and her sexuality. I just want what we have to grow bigger than whatever first made us want each other. Because as Bee always said, “You’re either going up, or going down.”
 
-## 7. It always goes deeper (live 72, 73)
+## 8. It always goes deeper (live 72, 73)
 
 Read by romance-low-deeper#97: [result](https://www.pangram.com/history/f0ee02fc-0f44-4170-bd89-4cc90aecf76d).
 
@@ -92,7 +108,7 @@ Read by romance-low-deeper#97: [result](https://www.pangram.com/history/f0ee02fc
 > I got a smaller and much less romantic test later. Bee gave me some shoes to try that didn’t fit. I wore them for a day, and somehow my knee ended up messed up for about a month. She did nurse me, but a bit reluctantly. She also kept suggesting it was partly in my head, or not really that bad. I get why, since neither of us could believe one day in the wrong shoes could do that, but it still felt dismissive, like part of her just wanted my knee to be fine.
 > Before me, Bee had also stayed with a boyfriend who was totally broke and crazy and supported him for a while. Later she blamed herself for staying through that, and I agree. Helping carry somebody through a temporary incapacity, like my knee, is different from becoming the permanent support system for a man who won’t take responsibility. Some women are fixer types, which can create the opposite pattern.
 
-## 8. The window of clarity (live 107, 108)
+## 9. The window of clarity (live 107, 108)
 
 Read by romance-low-clar#71: [result](https://www.pangram.com/history/36eeb55c-c514-4108-a1db-a1845c5b2a51).
 
@@ -106,7 +122,7 @@ Read by romance-low-clar#71: [result](https://www.pangram.com/history/36eeb55c-c
 > The attachment theory part comes from my own experience and from reading I’ve done. Sex turns on bonding chemistry—oxytocin, dopamine, vasopressin—that usually biases us toward attachment.
 > People call oxytocin the “love hormone,” as if getting more attached should make you feel closer and safer. If closeness was safe when you were little, maybe it does feel a bit like coming home, but if it came with neglect, abuse, or if people disappeared on you, you can get more attached and more freaked out at the same time. You might get anxious or suspicious. You might feel worthless or fight or flight mode may kick in.
 
-## 9. Peeking thru the window (live 116)
+## 10. Peeking thru the window (live 116)
 
 Read by romance-low-peek#67: [result](https://www.pangram.com/history/9ce25ef1-62e8-43b5-a413-44fa60da6c1b).
 
@@ -118,7 +134,7 @@ Read by romance-low-peek#67: [result](https://www.pangram.com/history/9ce25ef1-6
 
 > A card game can create its own little high too. If we spend two hours telling each other things nobody else knows, we may feel incredibly understood and close, but that may mean the game worked without telling us whether the relationship will.
 
-## 10. The conversation about flaws (live 126, 127, 128)
+## 11. The conversation about flaws (live 126, 127, 128)
 
 Read by romance-low-convo#107: [result](https://www.pangram.com/history/604fea38-50fe-4d76-b994-152e3c0a33c0).
 
@@ -133,7 +149,7 @@ Read by romance-low-convo#107: [result](https://www.pangram.com/history/604fea38
 > The most recent conflicts are the best place to look. Were you able to regulate at all during the conflict? What did you do to the other person? How did you repair afterward? What did you learn? Has your judgment gotten better, or do you keep falling for the same stuff? What would your friends or exes say?
 > And if you tell me you shut down, okay, what does that mean: did you stop talking to your partner for days, and did they feel abandoned?
 
-## 11. My flaws (live 130)
+## 12. My flaws (live 130)
 
 Read by romance-low-flaws#61: [result](https://www.pangram.com/history/8e9ffa15-00ae-4466-8685-50914dd6a8b9).
 
@@ -145,7 +161,7 @@ Read by romance-low-flaws#61: [result](https://www.pangram.com/history/8e9ffa15-
 
 > My own list isn’t especially flattering: I’m impulsive, and I idealize too much, although I don’t demonize. I’m very open and not very private. I care more about honesty than the standard romantic ideal. I still love my exes. After being deeply in love, I have overly high expectations, so I’m hard to please with a basic relationship.
 
-## 12. Things get tricky fast (live 139, 140, 141)
+## 13. Things get tricky fast (live 139, 140, 141)
 
 Read by romance-low-tricky#68: [result](https://www.pangram.com/history/dd569cb2-3b4c-4f43-bebe-d9043481e166).
 
@@ -161,19 +177,35 @@ Read by romance-low-tricky#68: [result](https://www.pangram.com/history/dd569cb2
 > Sometimes withdrawing isn’t wrong: telling your friend, “Can you believe what my girlfriend is doing to me?” can be a privacy violation. It’s just important to realize what is happening.
 > It doesn’t help if she tells her friends her side while I tell mine mine, so we need people who actually know both of us over time, well enough that the relationship isn’t the only reality in the room. I’ll come back to that.
 
-## 13. S8 (live 146)
+## 14. Beware idealization (S8, 147, 148) (live 146, 147, 148)
 
-Read by romance-s8#18: [result](https://www.pangram.com/history/7a213543-d344-445e-9f97-f478162dfb3f).
+Read by romance-low-ideal#132: [result](https://www.pangram.com/history/48db01c8-ff82-44b4-aae4-6119f12172d7).
 
 **Live:**
 
 > Legitimately seeing someone as amazing doesn’t depend on what the seeing gives you. Once you start identifying with the way you see them—she’s perfect, this is destiny, I’m the one who finally found her—you’re already lost in the sauce.
+> The degree of idealization also predicts the degree of demonization for me. I don’t mean this as a clinical diagnosis, but I use it almost diagnostically in my own life. If a woman says, “You’re such a great guy. Of course you have flaws like anyone, but I love you,” that sounds healthy. If she says, “You’re perfect. I can’t find any flaw,” I’m already running.
+> When the BPD splitting happens, private hatred can replace worship. Then come public accusations, rewriting the whole past and treating every flaw as proof that the person was fake all along. Sometimes the woman who thought I was perfect later accuses me of thinking I’m perfect.
 
 **New:**
 
 > Legitimately seeing someone as amazing doesn’t depend on what the seeing gives you. You’re already lost in the sauce once you start identifying with the way you see them, like she’s perfect, this is destiny, I’m the one who finally found her.
+> The degree of idealization also predicts the degree of demonization for me. I don’t mean it as a clinical diagnosis, but I do use it almost like one in my own life. If a woman says, “You’re such a great guy. Of course you have flaws like anyone, but I love you,” that sounds healthy. If she says, “You’re perfect, I can’t find any flaw,” I’m already running.
+> When the BPD splitting happens, she can go from worshipping me to hating me, first in private and then in front of everybody. Suddenly she can find plenty of flaws, and all of them become evidence I was faking it all along. Sometimes she ends up accusing me of thinking I’m perfect, when she’s the one who used to say I was.
 
-## 14. Anti-PTSD (live 157)
+## 15. Beware idealization (S8, 147, 148) (live 151)
+
+Read by romance-low-ideal#132: [result](https://www.pangram.com/history/48db01c8-ff82-44b4-aae4-6119f12172d7).
+
+**Live:**
+
+> If she says, “Can you talk less about your exes?” Sure. Maybe I do talk about them too much sometimes. But they still matter to me. If I’m supposed to listen to everything on her mind, I don’t want to have to pretend that isn’t on mine.
+
+**New:**
+
+> If she says, “Can you talk less about your exes?” Sure. Maybe I do talk about them too much sometimes, but they still matter to me. If I’m supposed to listen to everything on her mind, I don’t want to have to pretend they aren’t on mine.
+
+## 16. Anti-PTSD (live 157)
 
 Read by romance-low-ptsd#73: [result](https://www.pangram.com/history/30375f3d-e879-410d-bf8b-cc790ab4ef67).
 
@@ -185,7 +217,7 @@ Read by romance-low-ptsd#73: [result](https://www.pangram.com/history/30375f3d-e
 
 > That dynamic alone isn’t necessarily the main problem: a lot of women have seen me that way. The question is whether they can hold it lightly, playfully, and curiously, or whether it turns into something all-enveloping, and they start taking everything they feel about their dad out on me as if I’m him. With Bee, the main issues were the BPD and that her aunts had badly witchcrafted her as a child. She would tell you the same.
 
-## 15. S6 (live 102, 103)
+## 17. S6 (live 102, 103)
 
 Read by romance-s6#30: [result](https://www.pangram.com/history/f0e18831-0899-43ef-a814-6d986f0e33d8).
 
@@ -199,7 +231,7 @@ Read by romance-s6#30: [result](https://www.pangram.com/history/f0e18831-0899-43
 > Modern life barely has an intermediate stage between being interested in somebody and getting sexually entangled. One old example is bundling, a mostly extinct practice now especially associated with the Amish, even though it existed much more widely. Courting couples could spend the night together in bed, usually clothed, with the idea that they could talk and be close without having sex, which sounds a lot like the missing middle I’m talking about.
 > Well, it didn’t exactly solve the problem. In late-eighteenth-century New England, where lots of couples bundled, 30–40 percent of brides were already pregnant on their wedding day, so it wasn’t a very reliable way to keep courtship nonsexual. I’m not trying to bring bundling back. I just think we need some stage that everybody recognizes, where two people can explore tenderness and attraction without immediately sliding toward sex, moving in together, and a life bond.
 
-## 16. Holding up a leaky dam (live 175, 176)
+## 18. Holding up a leaky dam (live 175, 176)
 
 Read by romance-low-dam#70: [result](https://www.pangram.com/history/243bdd90-6375-4104-b7e3-c9d3035dba16).
 
@@ -213,7 +245,7 @@ Read by romance-low-dam#70: [result](https://www.pangram.com/history/243bdd90-63
 > Once I’m attached, “I’m taking a chance on her” starts turning into “she’s the right person” after we’ve been together for a while. Based on what? Sometimes I actually learned something, and sometimes nothing changed except that now I’m attached, so the new certainty is just harder for me to question.
 > If I have sex with somebody quickly, that’s a reason not to move in quickly too, and to keep seeing friends, have some kind of community around the relationship, and pick actual dates to ask how it’s going. Moving in together right away is basically getting into a common-law marriage without discussing it, and it’s too easy for me to assume the relationship is going well just because we’re already entangled.
 
-## 17. Slow & steady (live 180, 181, 182)
+## 19. Slow & steady (live 180, 181, 182)
 
 Read by romance-low-slow#96: [result](https://www.pangram.com/history/c71291d2-3fc7-444b-a538-44647109f8b8).
 
@@ -229,7 +261,7 @@ Read by romance-low-slow#96: [result](https://www.pangram.com/history/c71291d2-3
 > You can know somebody for twenty years and then discover on the first night that the polarity isn’t there. Touch or smell can feel wrong, or your desire levels or kinks don’t fit. Maybe one person is sexually shut down, or the bodies just don’t connect.
 > Some of those things might get better if both partners are committed to helping each other through it, but sometimes bad sexual fit still feels like, “Let’s just be friends!”
 
-## 18. From flow to nitty gritty (live 199, 200, 201)
+## 20. From flow to nitty gritty (live 199, 200, 201)
 
 Read by romance-low-nitty#113: [result](https://www.pangram.com/history/a21945ec-e22b-45a3-be08-465dbfc7462c).
 
@@ -244,7 +276,7 @@ Read by romance-low-nitty#113: [result](https://www.pangram.com/history/a21945ec
 > Living alone is easy in so many ways. I can make my bed whenever I want. When I have a girlfriend, making the bed in the morning can become one of the ways I show her I love her. If I don’t do it well, somehow it may become a bad omen that I don’t care about her, which is a lot of emotional weight for a bed.
 > Dealing with somebody else’s emotional insecurities can also be exhausting. It’s easy to feel free when I don’t have to do that, especially since I’m a bit of an introvert and 10% autistic. All that works wonderfully until I’m in a romantic relationship and suddenly I’m expected to mind-read, silences included, and check in constantly, without manipulating based on all that expert “management.”
 
-## 19. Don’t make your partner your whole world (live 215)
+## 21. Don’t make your partner your whole world (live 215)
 
 Read by romance-sec-whole-world#44: [result](https://www.pangram.com/history/1a6ad01b-2191-4783-9d48-ad82d43642ac).
 
@@ -256,7 +288,7 @@ Read by romance-sec-whole-world#44: [result](https://www.pangram.com/history/1a6
 
 > When I’m already overwhelmed and suddenly announce, “I need time for myself!” it can easily sound like I need time away from her. So I’d rather make alone time normal from early on.
 
-## 20. Disconnect to connect (live 220, 221)
+## 22. Disconnect to connect (live 220, 221)
 
 Read by romance-low-disc#88: [result](https://www.pangram.com/history/12310f43-76a1-4737-92e9-0d5f919cf4a2).
 
@@ -270,7 +302,7 @@ Read by romance-low-disc#88: [result](https://www.pangram.com/history/12310f43-7
 > I recommend peer counseling outside the couple: if my partner is the only person I bring all my pain to, she also ends up carrying whatever I do when I still don’t understand it.
 > I also have to deal with what happens in my body: my mind may understand that my partner is going through something difficult and that I don’t have to be dragged down with her, but my body still feels dragged down, fragile, and sensitive. My breathing gets shallow, and it becomes extremely hard to feel okay while she is in pain.
 
-## 21. Disconnect to connect (live 223, 224)
+## 23. Disconnect to connect (live 223, 224)
 
 Read by romance-low-disc#88: [result](https://www.pangram.com/history/12310f43-76a1-4737-92e9-0d5f919cf4a2).
 
@@ -284,7 +316,7 @@ Read by romance-low-disc#88: [result](https://www.pangram.com/history/12310f43-7
 > Crying also contains a type of automatic erratic breathwork. Breathwork is one of the easiest ways I know to calm down. Reduced breathing or the Buteyko method is especially useful to me when my partner is getting me upset and flustered with drama. Sometimes she’s deliberately trying to do that, and other times it’s hard to tell. I explain more of the body-based options in my Somatic Modalities guide.
 > Meditation is also helpful, but for most people, I would still put inner-child reparenting, peer counseling, and body-based work first or make them primary meditation targets. Many people say they cannot meditate or have not gotten to that stage yet, and meditation without grounding in those approaches can easily be a road into spiritual bypassing.
 
-## 22. Some babies grow up faster (live 234)
+## 24. Some babies grow up faster (live 234)
 
 Read by romance-low-babies#101: [result](https://www.pangram.com/history/f937412b-9a45-4420-8c20-cc0f66e8e8b6).
 
@@ -296,7 +328,7 @@ Read by romance-low-babies#101: [result](https://www.pangram.com/history/f937412
 
 > It can run the other way too. If she has to calm me down every time I’m upset, and on top of that organize my life and keep me functional, then I’ve made her Mom.
 
-## 23. Some babies grow up faster (live 238)
+## 25. Some babies grow up faster (live 238)
 
 Read by romance-low-babies#101: [result](https://www.pangram.com/history/f937412b-9a45-4420-8c20-cc0f66e8e8b6).
 
@@ -308,7 +340,7 @@ Read by romance-low-babies#101: [result](https://www.pangram.com/history/f937412
 
 > I usually had some idea, so of course I answered, but enough moments become a pattern.
 
-## 24. Some babies grow up faster (live 240, 241)
+## 26. Some babies grow up faster (live 240, 241)
 
 Read by romance-low-babies#101: [result](https://www.pangram.com/history/f937412b-9a45-4420-8c20-cc0f66e8e8b6).
 
@@ -322,7 +354,7 @@ Read by romance-low-babies#101: [result](https://www.pangram.com/history/f937412
 > I also have to admit, I can become condescending when somebody stops taking responsibility for their behavior. I find that intolerable. If someone tells me, “I feel like your patient,” we both have to look at what we’re doing.
 > I know what happens on my side. Helping feels good, and so does being needed. A lot of the time I really did have the answer or the perspective they needed, so of course they kept asking me. I also had to look at whether they were trying to take care of themselves without me.
 
-## 25. Different levels in different domains (live 249, 250)
+## 27. Different levels in different domains (live 249, 250)
 
 Read by romance-low-levels#102: [result](https://www.pangram.com/history/235afa57-4a31-46c0-8cc8-5a574583b62c).
 
@@ -336,7 +368,7 @@ Read by romance-low-levels#102: [result](https://www.pangram.com/history/235afa5
 > When it works, we take turns, me teaching one day and learning the next, and that’s healthy.
 > It’s time to bring in other support once a partner has become the default caregiver and that’s taken for granted, or the romance could collapse under the burden. Maybe the romance actually does need less intensity, maybe it becomes friendship, or maybe it ends. Asking the question out loud is usually where it starts, though I can’t answer it for others (and couldn’t always answer it for myself).
 
-## 26. S14 (live 260)
+## 28. S14 (live 260)
 
 Read by romance-s14#21: [result](https://www.pangram.com/history/00a0bde5-3141-4d18-8f21-d16a267e39a8).
 
@@ -348,7 +380,7 @@ Read by romance-s14#21: [result](https://www.pangram.com/history/00a0bde5-3141-4
 
 > So can a couple keep the polarity alive inside the safety?
 
-## 27. Muses & Directors (live 262)
+## 29. Muses & Directors (live 262)
 
 Read by romance-low-muses#81: [result](https://www.pangram.com/history/1b274e26-0435-4cbc-91dc-ef55eb6da89e).
 
@@ -360,9 +392,9 @@ Read by romance-low-muses#81: [result](https://www.pangram.com/history/1b274e26-
 
 > In ordinary life, I sometimes think of the woman as the engine and myself as the steering wheel, and I get motivation from her. She is the life force. She brings inspiration, beauty, intuition, creativity, and this feeling that life is worth doing.
 
-## 28. S15 (live 282)
+## 30. Romance (S15, 285 to 287) (live 282)
 
-Read by romance-s15#31: [result](https://www.pangram.com/history/83c78aca-1373-4393-bcb5-be84859f60d7).
+Read by romance-low-romance#122: [result](https://www.pangram.com/history/424302cf-8613-4fb6-ab3d-88d7af7c13e1).
 
 **Live:**
 
@@ -372,7 +404,23 @@ Read by romance-s15#31: [result](https://www.pangram.com/history/83c78aca-1373-4
 
 > If I have to prove that I’m the man, being the man has already become an act, and I have to defend it every time I hesitate, cry, need help, or get something wrong.
 
-## 29. Fantasy (live 294, 295, 296, 297)
+## 31. Romance (S15, 285 to 287) (live 285, 286, 287)
+
+Read by romance-low-romance#122: [result](https://www.pangram.com/history/424302cf-8613-4fb6-ab3d-88d7af7c13e1).
+
+**Live:**
+
+> The same is true for a woman. She should not have to perform softness, helplessness, or cuteness every minute to prove she is feminine. Surrender means so much more when she could take control but prefers not to at that moment. When a strong woman surrenders, she is choosing to, which is sexy.
+> Women can get pulled in two directions here. She may worry that I don’t find her beautiful enough, or that she’s too emotional, too difficult, not logical enough, or too needy. Then she can over-correct into needing nobody and make receiving care or letting a man lead feel like weakness.
+> Toft says that after fifty years he still tells his wife she’s beautiful, including finding new kinds of beauty as she ages. Anami talks a lot about women learning to receive. Letting a man help, lead, or give her pleasure doesn’t make a strong woman helpless. A man receiving care doesn’t make him a child either. Sometimes that’s as ordinary as a woman who knows perfectly well how to drive asking me to drive because she likes how it feels when I do; she’s choosing the experience. I might ask, “Honey, how do you see this intuitively?” because I actually want her use her power, and she might ask me to help think through the practical side because she wants that from me.
+
+**New:**
+
+> The same is true for a woman. She shouldn’t have to play the damsel every minute, pretending she can’t open a jar, just to prove she’s feminine. Her surrender means a lot more when she could take charge but just doesn’t feel like it right then. When a strong woman surrenders, she is choosing to, which is sexy.
+> Women can get pulled in two directions here. She may worry that I don’t find her beautiful enough, or that she’s too much of a handful. Maybe she thinks she cries too easily and needs too much, and that I’d like her better if she were more logical. Then she can swing the other way and act like she needs nobody. Letting a man take care of her starts to feel like weakness, and so does letting him lead.
+> Toft says that after fifty years he still tells his wife she’s beautiful, including finding new kinds of beauty as she ages. Anami talks a lot about women learning to receive. Letting a man help her, or lead for a while, leaves a strong woman just as strong. So does lying back while he pleases her. And a man she takes care of stays a grown man. Sometimes it’s as simple as a woman who drives just fine asking me to drive, because she likes how it feels when I do. She’s choosing the ride. Or I might ask, “Honey, how do you see this intuitively?” because I want her to use her power. She might have me think through the practical side with her, since that’s the part she wants from me.
+
+## 32. Fantasy (live 294, 295, 296, 297)
 
 Read by romance-low-fantasy#99: [result](https://www.pangram.com/history/449e0914-3852-40f4-84c4-f5c8e80373ac).
 
@@ -390,7 +438,7 @@ Read by romance-low-fantasy#99: [result](https://www.pangram.com/history/449e091
 > A couple can keep a fantasy in their heads, or they can agree to act some part of it out.
 > Fantasy should also add to arousal, not be the only way to get there, because I want to be able to enjoy the actual woman and the actual experience too.
 
-## 30. The Queen of Orgasms (live 302)
+## 33. The Queen of Orgasms (live 302)
 
 Read by romance-low-queen#82: [result](https://www.pangram.com/history/edb426f1-f583-4d85-a802-a7cb6f6ddf78).
 
@@ -402,9 +450,9 @@ Read by romance-low-queen#82: [result](https://www.pangram.com/history/edb426f1-
 
 > Although the peanut gallery critics and lazy fact-checkers often cry fiction on this topic, it actually has been documented in studies, and that laboratory evidence shows it’s a real and distinct thing in the body. Kim Anami, Diana Richardson, and other popular educators and promoters of cervical orgasms further claim that these can provide days of afterglow, as well as spiritual and physical healings.
 
-## 31. Can making love be a spiritual practice? (304 to 309) (live 304, 305, 306)
+## 34. Can making love be a spiritual practice? (r20 and his S17) (live 304, 305, 306)
 
-Read by romance-sec-spiritual-sex-p304#115: [result](https://www.pangram.com/history/a1f96d47-b3e3-4a8d-99f8-fafd7536d992).
+Read by romance-sec-spiritual-sex#118: [result](https://www.pangram.com/history/fd752a4b-7dae-45bc-bd9d-5dac45d949c7).
 
 **Live:**
 
@@ -418,19 +466,25 @@ Read by romance-sec-spiritual-sex-p304#115: [result](https://www.pangram.com/his
 > In DN 16, the Buddha talks about people who had died in the town of Nādikā and mentions 510 lay stream-enterers, 96 once-returners, and more than fifty lay non-returners, the first three of the four stages of awakening.
 > SN 55.24 has an almost comic complaint: when the Buddha declared Sarakāni a stream-enterer, other Sakyans grumbled, in effect, “Who isn’t a stream-enterer these days?”
 
-## 32. Can making love be a spiritual practice? (312) (live 312)
+## 35. Can making love be a spiritual practice? (r20 and his S17) (live 309, 310, 311, 312)
 
-Read by romance-sec-spiritual-sex-p312#116: [result](https://www.pangram.com/history/5c4d5bcf-2daa-4489-9271-1bd717cf1b7a).
+Read by romance-sec-spiritual-sex#118: [result](https://www.pangram.com/history/fd752a4b-7dae-45bc-bd9d-5dac45d949c7).
 
 **Live:**
 
+> Marriage, sex, and household life are not automatically on the opposite side from serious spiritual development.
+> Kim Anami goes further and treats sexual energy itself as a path into healing, creativity, worldly action, and spiritual awakening.
+> She has also collected a ton of stories from students who say the effects spill out of sex into health, work, money, creativity, the rest of life. Her jade-egg practice is a preliminary training for the cervical O: pelvic-floor strength, attention, and arousal without needing a partner.
 > Brad and Pam Keene are the example I really like. Pam says her Kundalini process completed while they were making love and opened into a lasting universal-consciousness awakening. She later helped Brad awaken too, so the marriage itself became part of the path.
 
 **New:**
 
-> The example I really like is Brad and Pam Keene, whose marriage itself became part of the path. Pam says her Kundalini process completed while they were making love and opened into a lasting universal-consciousness awakening, and she later helped Brad awaken too.
+> Marriage, sex, and household life aren't automatically in conflict with serious spiritual development.
+> Kim Anami goes even further: she says sexual energy itself, when used properly, can heal you and wake you up spiritually along with your beloved.
+> She’s also collected a ton of stories from students who say the effects spilled out of the bedroom into the rest of their life, with better health, more rewarding careers, checks rolling in, and creativity flowing out like nobody's business. Her jade-egg practice is a preliminary training for the cervical O, as it strengthens the pelvic-floor while also engaging your attention to the sensations down there. No partner required for the jade egg phase.
+> Brad and Pam Keene are the example couple I really liked as an example of how her method works. Pam explained that her Kundalini process completed while they were making love and opened her into a lasting universal-consciousness awakening. She later helped Brad awaken too, so the marriage itself became part of the path.
 
-## 33. S18 (live 331)
+## 36. S18 (live 331)
 
 Read by romance-s18#25: [result](https://www.pangram.com/history/dce64725-6d16-4004-8a1a-478aaa058ce5).
 
@@ -442,7 +496,7 @@ Read by romance-s18#25: [result](https://www.pangram.com/history/dce64725-6d16-4
 
 > Let me show you how this looked for me. I’ve noticed in my own relationships that whenever a serious issue arises, both of us tend to turn to our separate circles of friends for support. Then I resent the one-sided story she’s telling, she resents the one-sided story I’m telling. Some of the friends may even be exes who want us to break up, and eventually neither of us wants to talk to the other’s friends anymore. That’s a pretty terrible time to be trying to run the rest of life with two people. If one person goes down, the other becomes the whole backup system for housing, money, children, health, and emotional crises. Who even has time for the relationship itself at that point?
 
-## 34. S19 (live 335)
+## 37. S19 (live 335)
 
 Read by romance-s19#32: [result](https://www.pangram.com/history/8366290e-627c-4961-8f56-c39b7d86017a).
 
@@ -454,7 +508,7 @@ Read by romance-s19#32: [result](https://www.pangram.com/history/8366290e-627c-4
 
 > If you do have separate confidants, you need enough emotional maturity to remember they will automatically be biased toward you. They’re only hearing your side, usually while you’re upset, and they may just be trying to protect you, so take what they say with a grain of salt.
 
-## 35. What are you actually choosing together? (live 342)
+## 38. What are you actually choosing together? (live 342)
 
 Read by romance-low-choosing#106: [result](https://www.pangram.com/history/267ec5e8-77b4-461d-8d80-7ca30642c474).
 
@@ -466,7 +520,7 @@ Read by romance-low-choosing#106: [result](https://www.pangram.com/history/267ec
 
 > “We’re together” ... what does that mean exactly? I can hear a whole future in those two words—sex, exclusivity, living together, money, children, caregiving. She might mean, “We really like each other; let’s see what happens.” I actually like letting a relationship flow with some parts left unnamed, but the problem is when we’re using the same words for two different futures.
 
-## 36. What are you actually choosing together? (live 344, 345, 346)
+## 39. What are you actually choosing together? (live 344, 345, 346)
 
 Read by romance-low-choosing#106: [result](https://www.pangram.com/history/267ec5e8-77b4-461d-8d80-7ca30642c474).
 
@@ -482,7 +536,7 @@ Read by romance-low-choosing#106: [result](https://www.pangram.com/history/267ec
 > Then the questions change for me: if the romance changes, which parts are still supposed to remain? Are we promising actions (or low-key pretending to promise permanent feelings)? Which needs are we still going to meet outside the relationship?
 > And the biggie: what happens if one of us falls in love with someone else? What counts as betrayal, and what’s just a sign we need a serious talk? If our lives change, can we honestly sit down and rethink the agreement, and if we split up, what do we still owe each other (and our kids, if we have any)?
 
-## 37. Which marriage vows are honest? (live 351)
+## 40. Which marriage vows are honest? (live 351)
 
 Read by romance-sec-vows#110: [result](https://www.pangram.com/history/5b6a00ff-d4b0-4a8e-8080-3e53cd1eec75).
 
@@ -494,7 +548,7 @@ Read by romance-sec-vows#110: [result](https://www.pangram.com/history/5b6a00ff-
 
 > Matthew 5:33–37 and James 5:12 make the wedding vow itself look even more suspicious (to me, anyway): let your “Yes” be “Yes” and your “No” be “No,” and anything beyond that comes from evil.
 
-## 38. Why all of this sounds artificial (live 410)
+## 41. Why all of this sounds artificial (live 410)
 
 Read by romance-low-artificial#104: [result](https://www.pangram.com/history/187f16fd-33af-4b28-893a-33560958795e).
 
@@ -506,7 +560,7 @@ Read by romance-low-artificial#104: [result](https://www.pangram.com/history/187
 
 > Some things were less mysterious: they were acting as if the trust problem wasn’t there because they still wanted the relationship. Attractions to other people sometimes went unsaid too, and sometimes got imagined from nowhere. Some people keep a relationship like this going for a long time, just sweeping everything under the rug.
 
-## 39. Gaslighting in the dark (live 433)
+## 42. Gaslighting in the dark (live 433)
 
 Read by romance-low-gaslight#105: [result](https://www.pangram.com/history/498e5daa-29e0-4a87-861b-5fac8ee956f7).
 
@@ -518,7 +572,7 @@ Read by romance-low-gaslight#105: [result](https://www.pangram.com/history/498e5
 
 > Many say it’s best to save face and work things out privately, but I’d disagree. If you don’t have friends who can help with the conflict, then you’re really stuck (and you might wanna find some new friends). But do it honestly, with the goal of helping the conflict, not just getting approval for your own interpretation. Both people should get a chance to speak, and good friends should hear both sides before validating either.
 
-## 40. Gaslighting in the dark (live 435)
+## 43. Gaslighting in the dark (live 435)
 
 Read by romance-low-gaslight#105: [result](https://www.pangram.com/history/498e5daa-29e0-4a87-861b-5fac8ee956f7).
 
@@ -530,7 +584,7 @@ Read by romance-low-gaslight#105: [result](https://www.pangram.com/history/498e5
 
 > If you’ve been there for someone, don’t abandon them in a crisis unless it’s unsafe for you to stay or they’re creating the crisis to keep you, or they aren’t willing to help themself. You may need to arrange other care, but that’s no reason to pretend the romance still has a future.
 
-## 41. After leaving (S22) (live 437, 438, 439, 440)
+## 44. After leaving (S22) (live 437, 438, 439, 440)
 
 Read by romance-s22#69: [result](https://www.pangram.com/history/836e7b4d-23bb-4945-8c5c-7b156e2faa6c).
 
@@ -548,7 +602,7 @@ Read by romance-s22#69: [result](https://www.pangram.com/history/836e7b4d-23bb-4
 > Sometimes the easiest story is that they were fake all along, because it explains everything. Grab it only if it really is the simplest explanation of what happened. People who aren’t heavily invested in seeing your innocence can help you tell, and a therapist, pastor, or even a stranger may see the evidence more clearly than a lifelong friend. Even the curiosity itself can be therapeutic for you.
 > Spiritual practice during an ending is critical, but don’t use it to get around the feelings. Pray for your ex’s wellbeing. Remember what was real and good, and don’t use your pain as permission to hate them. Avoid the New Age belief that everyone is simply a mirror of you. No, that isn’t true. We partly mirror one another, but each person was formed by plenty that had nothing to do with you. No matter how enlightened the Buddha was, his cousin Devadatta still kept trying to kill him: looking honestly at your part doesn’t erase theirs. Sometimes it helps to ask, “What would Mr. Rogers do?” (if you’re old enough to remember that show).
 
-## 42. What I gained from loss (live 443)
+## 45. What I gained from loss (live 443)
 
 Read by romance-low-loss#109: [result](https://www.pangram.com/history/6300d010-72d8-43e3-826e-ce2e31686160).
 
