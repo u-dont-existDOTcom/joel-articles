@@ -18,6 +18,16 @@ From an account with Desktop Commander connected to the laptop: "Continue my neu
 
 ## START HERE
 
+- **2026-11-07, his answers of 13:10 UTC: five of the seven section B cards are in the article** (leucine cut;
+  `fix-20261107/sci/x1107a/apply_x1107a.py`, APPLIED-X1107A.json, fidelity PASS). SB-38 and SB-40 he marked revise and
+  SB-37 he approved with a question, so their new versions are on a second page
+  (`fix-20261107/sci/x1107b/`, https://claude.ai/artifact/5ctHecxpD6XTz4gGdjrCmK): SB-37b (the feeling comes from the
+  circuit, the amygdala), SB-38b (no "Low" row, the High guess with its mechanism, Allen et al. 2023 on stuck-open
+  GluD channels), SB-40b (the Vacuum becomes the Brake). **Next**: his answers to those three, then humanize every
+  approved paragraph of section B (none has had a humanizing pass, so none has been checked: lesson
+  neuro-2026-11-07c), then the next section's science. Note: pages built from today need `ask_because` on each approve
+  card (gate bad-trips-2026-11-07a, which caught this page).
+
 - **2026-11-07, his message of 11:58 UTC: AskRigor bug report sent (ARL-0059,
   `fix-20261107/askrigor/ASKRIGOR-BUG-REPORT-2.md`); no Pangram check of a draft of mine that hasn't had a humanizing
   pass (lesson neuro-2026-11-07c, enforced by `pangram_ledger.py predict --humanized`).** AskRigor's protocol and

@@ -2423,6 +2423,37 @@
    "numbers_new": [
     "4"
    ]
+  },
+  {
+   "by": "fix-20261107/sci/x1107a/ANSWERS-X1107A-20261107-1310.json, cards SB-37, SB-39, SB-41, SB-42 and SB-148 (approved 2026-11-07 13:03 to 13:10 UTC)",
+   "why": "section B's science pass: the corrected claims he approved. SB-42 cuts leucine on his word (\"chatgpt says the evidence is mixed, but forum evidence goes against the use of leucine, so cut it\"); SB-41 says what magnesium and zinc each do, so \"stop the voltage\" becomes \"so less of the voltage gets through\"; the new numbers are the years and counts of the citations the cards add",
+   "numbers_lost": [],
+   "numbers_new": [
+    "1,000",
+    "1999",
+    "1999",
+    "2001",
+    "2011",
+    "2013",
+    "2017",
+    "2018",
+    "21"
+   ],
+   "terms_lost": [
+    "leucine"
+   ],
+   "keys_lost": {
+    "W021": [
+     [
+      "stop"
+     ]
+    ],
+    "W022": [
+     [
+      "leucine"
+     ]
+    ]
+   }
   }
  ],
  "warning_words": {

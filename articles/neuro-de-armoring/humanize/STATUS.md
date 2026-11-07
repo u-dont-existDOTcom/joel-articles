@@ -1,5 +1,21 @@
 # Status: neuro de-armoring humanization (newest on top)
 
+## 2026-11-07, his answers of 13:10 UTC: five section B cards in, three rewritten
+
+- In the article: SB-37, SB-39, SB-41, SB-42 (leucine cut, his word), SB-148. `fidelity_keys.py` PASS after recording
+  his cut (terms_lost leucine, W021 "stop", W022 "leucine") and the citations' years as numbers_new.
+- Rewritten on page 2 (`fix-20261107/sci/x1107b/REVIEW-X1107B`, artifact 5ctHecxpD6XTz4gGdjrCmK, receipts pass,
+  smoke test 400 and 1,200 px clean): SB-37b (the feeling follows the circuit the rise reaches, the amygdala:
+  Wilson 2015, Boyle 2013), SB-38b (what is measured in people is a channel stuck open -- the ataxia mutation and a
+  schizophrenia-risk GluD1 variant, Allen et al. 2023 -- so the High guess gets a mechanism and the Low row goes),
+  SB-40b (the Vacuum becomes the Brake).
+- Open, pre-existing: `pangram_links_check.py` fails on `OWNER-QUESTIONS.md` for an older entry (an AI result named
+  with a results file and no Pangram link). It fails on main too, so it is not this turn's; the next pass over that
+  page adds the link.
+- Shared rule from the bad-trips lane, read this turn: an approve card needs `ask_because` saying "meaning:",
+  "downside:" or "his own:" (gate bad-trips-2026-11-07a, his 12:08 UTC "you're asking me to approve things that are
+  clearly good"). The check refused page 2 until each card said why it was being asked.
+
 ## 2026-11-07, his message of 11:58 UTC: AskRigor bug report sent; no checks of unhumanized drafts; section B's science
 
 - AskRigor lesson ARL-0059 (`fix-20261107/askrigor/ASKRIGOR-BUG-REPORT-2.md`): its protocol text, records and full-text

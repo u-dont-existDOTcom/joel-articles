@@ -1,0 +1,54 @@
+{
+ "review_id": "neuro-de-armoring-cards-20261107-x1107a",
+ "answered_utc": "2026-11-07T13:10:29.385Z",
+ "applied": [
+  {
+   "card": "SB-37",
+   "key": "B37",
+   "block_starts": "The Mechanism: Excess",
+   "whose_words": "mine, he approved",
+   "after": "The Mechanism: Excess Glutamate over-activates NMDA receptors, the doors on brain cells that glutamate unlocks, acting like a key stuck in the \"On\" position, so too much calcium pours into the cells. In extreme cases, like a stroke or a brain injury, that calcium overload kills them, which is what \"excitotoxicity\" means (Sattler & Tymianski, 2001). The anxiety, rage or \"itchy brain\" you feel in a glutamate storm is more likely the over-excitement itself than a sign your neurons are dying."
+  },
+  {
+   "card": "SB-39",
+   "key": "B39",
+   "block_starts": "D-serine may support",
+   "whose_words": "mine, he approved",
+   "after": "D-serine may help therapy update old memories, because it switches on a spot on the NMDA receptor that this kind of learning needs (Wolosker, et al, 1999), and it may also open the GluD channels. The drug that's actually been tested with exposure therapy (facing the feared thing in small, safe doses) is a different one, D-cycloserine (DCS), which works on that same spot, and across 21 trials with over 1,000 patients it gave exposure therapy a small boost (Mataix-Cols, et al, 2017). It does not erase fear directly; it appears to strengthen whatever learning occurs during or after the exposure session. This is why session quality matters: if the exposure produces corrective learning and ends with reduced fear or mastery, DCS (and possibly D-serine also) may help consolidate that new memory; if the exposure is overwhelming or ends badly, it may consolidate the wrong association (Smits, et al, 2013)."
+  },
+  {
+   "card": "SB-41",
+   "key": "B41",
+   "block_starts": "The Lock (Zinc",
+   "whose_words": "mine, he approved",
+   "after": "The Lock (Zinc/Magnesium): Magnesium physically plugs the NMDA receptor's channel while the cell is at rest (Jalali-Yazdi, et al, 2018), and zinc mostly makes the channel open less often, with a weaker plug of its own (Amico-Ruvio, et al, 2011), so less of the voltage gets through."
+  },
+  {
+   "card": "SB-42",
+   "key": "B42",
+   "block_starts": "The Repair (Leucine",
+   "whose_words": "mine, he approved",
+   "after": "The Repair (L-Serine): L-Serine is what the brain makes D-Serine from (Wolosker, et al, 1999), so it can feed the spot on the NMDA receptor (and maybe the GluD channels) that D-serine switches on, and help therapy sessions that end with low fear and a sense of mastery stick better. The conversion isn't very efficient though, so some people take D-serine itself instead (more risk, but also more benefit)."
+  },
+  {
+   "card": "SB-148",
+   "key": "B148",
+   "block_starts": "Use D-Serine for acute",
+   "whose_words": "mine, he approved",
+   "after": "Use D-Serine for acute sessions where you need to \"force\" memory reconsolidation. Best price from LifeLab. You should take it 45 minutes or so after taking PQQ & Ketones so that your brain is fueled when the D-serine starts working."
+  }
+ ],
+ "held": [
+  {
+   "card": "SB-38",
+   "status": "revise",
+   "comment": "when you are editing the guide, you don't want to keep the old junk in there and argue with the guide itself, we want a public-facing document which makes sense and is not confusing. \n\nif you are stating that something is a hypothesis then you have to explain how the hypothesis does or doesn't make sense, otherwise it's useless. and if apathy and schizotypy have never been tested, why are those in there, is there a reason other than gemini wrote something about them?"
+  },
+  {
+   "card": "SB-40",
+   "status": "revise",
+   "comment": "why would you say it's a vacuum then say it's not a vacuum? arguing with yourself again here. make the whole guide coherent and useful."
+  }
+ ],
+ "article_sha256_after": "f2ea95affdc3fc40e15701f68f590dd149e875738c2246a993154c719506992f"
+}
