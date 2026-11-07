@@ -1,0 +1,46 @@
+{
+ "about": "Each turn's mailbox check (tools/humanization/lane_mailbox.py; AGENTS.md, \"Suggested fixes from other projects\"). Newest last.",
+ "places": {
+  "uda-lane": "this repository's lane in universal-dev-architecture (suggested-fixes/joel-articles/), against docs/suggested-fixes-ledger.md",
+  "repo": "new issues and pull requests here, and new comments and reviews on any of them, replies on our own included",
+  "notes": "edits others made to the lane's handoff notes and owner questions pages since its last turn",
+  "runtime": "the messages the session's runtime queued for it"
+ },
+ "checks": [
+  {
+   "turn": "2026-11-07T14:49Z",
+   "lines_of_work": [
+    "romance article"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "UDA main b6185f7, unchanged since 13:39; root AGENTS.md as read then"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "#376 (ours) merged; #375 (bad trips) merged, its lesson bad-trips-2026-11-07d/e read last pickup; no new issues or comments"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no edits by anyone else to articles/romance"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "my scheduled pickup of 14:49 UTC; three PR notifications, #376 merged"
+    }
+   ],
+   "items": [
+    {
+     "item": "scheduled pickup of 14:49 UTC",
+     "outcome": "S22 first tries in After leaving; the marking page for S2 and S17; the open Low windows"
+    }
+   ],
+   "recorded_utc": "2026-11-07T14:50Z"
+  }
+ ]
+}

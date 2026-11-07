@@ -6,15 +6,15 @@ Built by `tools/humanization/pangram_ledger.py build` from `articles/romance/hum
 
 | version | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| pangram 4.1, the web app (Joel's account, GUI credits) | 49 | 31 (63%) | 57% | 43% | 76% | 0.220 (base 0.245, 49) |
+| pangram 4.1, the web app (Joel's account, GUI credits) | 51 | 31 (61%) | 59% | 41% | 76% | 0.224 (base 0.242, 51) |
 
 ## pangram 4.1, the web app (Joel's account, GUI credits)
 
 | window | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| the latest 50 | 49 | 31 (63%) | 57% | 43% | 76% | 0.220 (base 0.245, 49) |
-| the latest 100 | 49 | 31 (63%) | 57% | 43% | 76% | 0.220 (base 0.245, 49) |
-| all | 49 | 31 (63%) | 57% | 43% | 76% | 0.220 (base 0.245, 49) |
+| the latest 50 | 50 | 30 (60%) | 60% | 40% | 76% | 0.226 (base 0.240, 50) |
+| the latest 100 | 51 | 31 (61%) | 59% | 41% | 76% | 0.224 (base 0.242, 51) |
+| all | 51 | 31 (61%) | 59% | 41% | 76% | 0.224 (base 0.242, 51) |
 
 The boundary mix (what was checked; accuracy differs a lot between a paragraph and a section):
 
@@ -23,17 +23,17 @@ The boundary mix (what was checked; accuracy differs a lot between a paragraph a
 | pair | 40 | 24 (60%) | 60% | 40% | 80% | 0.229 (base 0.240, 40) |
 | paragraph | 3 | 3 (100%) | 0% | 100% | 100% | 0.124 (base 0.000, 3) |
 | stretch | 2 | 2 (100%) | 50% | 50% | 50% | 0.145 (base 0.250, 2) |
-| section | 4 | 2 (50%) | 75% | 25% | 25% | 0.234 (base 0.188, 4) |
+| section | 6 | 2 (33%) | 83% | 17% | 50% | 0.268 (base 0.139, 6) |
 
 Calibration:
 
 | my chance of a 100% Human result | calls | mean chance | read Human |
 |---|---|---|---|
 | 0.2 to 0.4 | 2 | 0.28 | 0% |
-| 0.4 to 0.6 | 44 | 0.51 | 41% |
-| 0.6 to 0.8 | 10 | 0.62 | 90% |
+| 0.4 to 0.6 | 45 | 0.51 | 40% |
+| 0.6 to 0.8 | 11 | 0.63 | 82% |
 
-## Misses since the ledger (18)
+## Misses since the ledger (20)
 
 | cause | misses |
 |---|---|
@@ -55,13 +55,13 @@ Calibration:
 | the short check reads his own verses AI too | 1 |
 | the pair checks were too short to judge it | 1 |
 | his own two closing sentences, joined, read AI High | 1 |
+| the lesson's moves carried one sentence, not the paragraphs | 1 |
+| a list joined to its reason with because-otherwise reads AI | 1 |
 
 The latest:
 
 | check | lineage, try | said | read | cause |
 |---|---|---|---|---|
-| [r02-s7](https://www.pangram.com/history/b214bd97-7c58-43f3-a521-4182f7b09433) | romance-s7, 1 | Human | AI or mixed | a generic reason clause kept |
-| [r02-s8](https://www.pangram.com/history/c764c228-211b-4a27-bacd-f4165453876d) | romance-s8, 1 | Human | AI or mixed | a dashed three-part aside kept |
 | [r02-s10](https://www.pangram.com/history/a6a557ab-5ea6-42b9-b3c1-6fe8d337f4db) | romance-s10, 1 | Human | AI or mixed | a contrast frame swapped for another |
 | [r02-s11](https://www.pangram.com/history/84f5d138-9e2b-413c-8f68-00c170c3e702) | romance-s11, 1 | Human | AI or mixed | a three-item list in an if-clause |
 | [r03-s7](https://www.pangram.com/history/3d834650-6176-4c1d-8335-2120f9396a73) | romance-s7, 2 | Human | AI or mixed | a general reason still tacked on, and a lead-in that stages the questions |
@@ -75,6 +75,8 @@ The latest:
 | [r05-s21](https://www.pangram.com/history/1a346e61-fe80-4de3-acce-f6500fd1d2a7) | romance-s21, 3 | Human | AI or mixed | the short check reads his own verses AI too |
 | [r06-secB](https://www.pangram.com/history/1a6ad01b-2191-4783-9d48-ad82d43642ac) | romance-sec-whole-world, 1 | AI | Human | the pair checks were too short to judge it |
 | [r06-secD](https://www.pangram.com/history/76595855-5f60-40c7-bb11-8f79671182b0) | romance-sec-vows, 1 | Human | AI or mixed | his own two closing sentences, joined, read AI High |
+| [r08-s22](https://www.pangram.com/history/3db3f31c-8a87-4199-96ab-00252e5cf2d3) | romance-s22, 1 | Human | AI or mixed | the lesson's moves carried one sentence, not the paragraphs |
+| [r09-dam](https://www.pangram.com/history/6e961014-b2c3-4ac1-a1f9-fc14ed151a24) | romance-low-dam, 1 | Human | AI or mixed | a list joined to its reason with because-otherwise reads AI |
 
 ## Lineages still open (tries used of the cap)
 
@@ -89,4 +91,6 @@ The latest:
 | romance-sec-vows | section | 1 of 2 | Mixed |
 | romance-tail | stretch | 1 of 2 | Mixed |
 | romance-sec-bypass | section | 1 of 2 | Mixed |
+| romance-s22 | section | 1 of 2 | Mixed |
+| romance-low-dam | section | 1 of 2 | Mixed |
 

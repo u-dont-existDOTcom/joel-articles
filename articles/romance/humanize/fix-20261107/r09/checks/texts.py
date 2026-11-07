@@ -1,0 +1,7 @@
+"""r09's check texts in the romance article (2026-11-07): the first of the live post's Human Low windows
+(../../live-check/LOW-WINDOWS.json), five of them in one section, "Holding up a leaky dam" (paragraphs 175 to 178,
+heading left out), checked whole. The two paragraphs with Low windows join their short sentences and give the
+reason with "because otherwise"; the last two are the live post's."""
+TEXTS = {
+ "r09-dam": "Once I’m attached, “I’m taking a chance on her” starts turning into “she’s the right person” after we’ve been together for a while. Based on what? Sometimes I actually learned something, and sometimes nothing changed except that now I’m attached, so the new certainty is just harder for me to question.\n\nIf I have sex with somebody quickly, that’s a reason not to move in quickly too. Moving in together right away is basically getting into a common-law marriage without discussing it. So I want us to keep seeing friends, have some kind of community around the relationship, and pick actual dates to ask how it’s going, because otherwise it’s too easy for me to assume the relationship is going well just because we’re already entangled.\n\nI can know I want her much faster than I can know whether I want to raise children with her, live in community with her, or build a life with her.\n\nAt some point one of you will ask, “Why am I special to you? Why are you with me and not somebody else?” If the answer is basically, “We had sex and got hitched?” I don’t know, that’s a damn shame."
+}
