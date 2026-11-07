@@ -1,0 +1,6 @@
+{
+ "bt-move-n1": ["Human Written", 0, 225, "Human, High, 136; Human, Medium, 41; Human, Low, 48", "14:29:33", "/3ea94994-be09-45e3-9c99-926931046f4f", ["the paragraph's window Human Low (48 words, with its heading); before 38% AI"]],
+ "bt-move-n4": ["AI Detected", 0.22, 235, "AI-Generated, Medium, 49; Human, Medium, 19; Human, High, 52; Human, Medium, 57; Human, Low, 18; Human, Medium, 24; Human, Low, 16", "14:29:44", "/948da7dc-8bfa-4d84-8687-a65a88e3d167", ["the AI window is the base's first (49 words); the paragraph's own windows Human Low, Medium, Low; before 41% and 50%"]],
+ "bt-move-w3": ["Human Written", 0, 223, "Human, High, 160; Human, Medium, 4; Human, High, 59", "14:29:54", "/4109c05e-41c5-4a84-9563-ec1046250a1d", ["the paragraph's window Human High (59 words)"]],
+ "bt-move-s3": ["AI Detected", 0.35, 275, "AI-Generated, Medium, 49; Human, Low, 19; Human, Medium, 34; Human, High, 18; Human, Medium, 16; Human, Low, 92; AI-Generated, Low, 11; AI-Generated, Low, 36", "14:30:05", "/5f70db5e-f4c0-4b59-bcff-ae0b4987a671", ["the changed lines in a Human Low window (92 words); the Send love list AI Low (11, 36); before 83%"]]
+}

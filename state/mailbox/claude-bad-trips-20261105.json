@@ -1031,6 +1031,45 @@
     }
    ],
    "recorded_utc": "2026-11-07T12:35Z"
+  },
+  {
+   "turn": "2026-11-07T14:13Z",
+   "lines_of_work": [
+    "bad trips guide"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "the same six items; the three not in docs/suggested-fixes-ledger.md are the Inner Child and neuro de-armoring lanes'; UDA root AGENTS.md re-fetched, sha 3146ac4a, unchanged"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "pull requests 371 to 374 closed since 12:40 UTC, all the neuro and romance lanes'; no new comments or reviews"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no edits by others to this lane's handoff note, questions page or state since 12:40"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "the session's own check-in of 12:41 (fired 14:13); nothing else queued"
+    }
+   ],
+   "items": [
+    {
+     "item": "round 22's saved decisions: TEACH-NOT-BROKEN revised with his two Pangram links",
+     "outcome": "his version in with two typos fixed (Human High); his move carried, six paragraphs in; lesson bad-trips-2026-11-07d and e"
+    },
+    {
+     "item": "round 22's TEACH-AFTERMATH",
+     "outcome": "not answered yet; one more check-in set"
+    }
+   ],
+   "recorded_utc": "2026-11-07T14:32Z"
   }
  ]
 }
