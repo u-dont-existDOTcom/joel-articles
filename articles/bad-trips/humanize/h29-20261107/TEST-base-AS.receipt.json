@@ -1,0 +1,152 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-07",
+ "text_sha256": "00d02f94c645d444f1348ab2e4420387ae04c894a5d8043ab05aebdf0563df89",
+ "text": "Psychological First Aid: The First Five Minutes\n\nAnything that could let someone hurt themselves in the next five minutes takes priority, so get the car keys out of reach and turn the stove off, and move them away from roads and balconies, or pools of water for that matter. Letting them move around is fine, and pacing can help, but keep them from taking more of any substance. If they want to go confront somebody, that can wait. And if they want to leave, have someone go with them. Put any weapons away and keep the person away from crowds and strangers. If they want to post their big revelation about the universe, or message an ex, take the phone.\n\nThey're feeling overwhelmed, so dim the lights, and clear out the extra people around them.\n\nThen remind them where they are and what's happening, since a trip can make them lose track of it:\n\nYou're in [place]. It's [date/time]. You took [substance, if known], and its effects will peak and then change.\n\nAfter the Storm\n\nDon't make huge decisions or diagnose yourself from an intense night. You don't need to assume every vision was literal, nor that anything you realized is actually true (or false). Ask your body what it needs from you now. I'm betting it will tell you: Give me sleep, natural food, pure water, a nice nature walk. It helps to integrate the experience via journaling your feelings, and talking with someone grounded (not the 20 chaotic people who are still coming down). To prevent your mind from giving spirituality a negative connotation, engage in some sober prayer or gentle meditation.",
+ "section": "Psychological First Aid: The First Five Minutes, and After the Storm",
+ "reader": "someone sitting with a person on a bad psychedelic trip, or tripping themselves, who needs to know what to do in the first five minutes, and how to see what is happening",
+ "sentences": [
+  {
+   "s": "Psychological First Aid: The First Five Minutes",
+   "payoff": "they know what this section covers: the first five minutes of looking after someone",
+   "follows": "the section's heading, after the Shadow Work part's welcome"
+  },
+  {
+   "s": "Anything that could let someone hurt themselves in the next five minutes takes priority, so get the car keys out of reach and turn the stove off, and move them away from roads and balconies, or pools of water for that matter.",
+   "payoff": "they secure whatever could let the person hurt themselves first: keys, stove, roads, balconies, pools",
+   "follows": "the first thing to do in the first five minutes, straight after the heading",
+   "link": "in the next five minutes"
+  },
+  {
+   "s": "Letting them move around is fine, and pacing can help, but keep them from taking more of any substance.",
+   "payoff": "they let the person move and pace, but stop them taking more of anything",
+   "follows": "still the dangers: movement is fine, more of a substance is not",
+   "link": "none: the next item in the same list of dangers, which the paragraph opened on"
+  },
+  {
+   "s": "If they want to go confront somebody, that can wait.",
+   "payoff": "they know a confrontation can wait",
+   "follows": "what the person may want to do that isn't safe now",
+   "link": "If they want to"
+  },
+  {
+   "s": "And if they want to leave, have someone go with them.",
+   "payoff": "they send someone along if the person wants to leave",
+   "follows": "the next thing the person may want to do",
+   "link": "And if"
+  },
+  {
+   "s": "Put any weapons away and keep the person away from crowds and strangers.",
+   "payoff": "they put weapons away and keep the person from crowds and strangers",
+   "follows": "more dangers the reader removes",
+   "link": "none: another item in the list of dangers the paragraph opened on"
+  },
+  {
+   "s": "If they want to post their big revelation about the universe, or message an ex, take the phone.",
+   "payoff": "they take the phone before a revelation gets posted or an ex gets messaged",
+   "follows": "the last of the things the person may want to do",
+   "link": "If they want to"
+  },
+  {
+   "s": "They're feeling overwhelmed, so dim the lights, and clear out the extra people around them.",
+   "payoff": "they dim the lights and clear out the extra people, and know why: the person is overwhelmed",
+   "follows": "after the dangers, the room: its two fixes, with the reason (they're overwhelmed)",
+   "link": "They're feeling overwhelmed, so"
+  },
+  {
+   "s": "Then remind them where they are and what's happening, since a trip can make them lose track of it:",
+   "payoff": "they know the script that follows is for reminding the person where they are and what's happening, and why: a trip can make them lose track",
+   "follows": "after the room, what to say",
+   "link": "Then"
+  },
+  {
+   "s": "You're in [place].",
+   "payoff": "the person hears where they are",
+   "follows": "the script's first fact",
+   "link": "none: the script's first line, which the colon before it introduces"
+  },
+  {
+   "s": "It's [date/time].",
+   "payoff": "the person hears when it is",
+   "follows": "the second fact",
+   "link": "none: the script's next fact, said to the person"
+  },
+  {
+   "s": "You took [substance, if known], and its effects will peak and then change.",
+   "payoff": "the person hears what they took and that its effects will peak and then change",
+   "follows": "the third fact, with what follows from it",
+   "link": "none: the script's last fact, said to the person"
+  },
+  {
+   "s": "After the Storm",
+   "payoff": "they know this part is about the days after a hard trip",
+   "follows": "the next section's heading, after the reminder of where they are (a narrowing test)",
+   "link": "none: a new section's heading; it opens the aftermath"
+  },
+  {
+   "s": "Don't make huge decisions or diagnose yourself from an intense night.",
+   "payoff": "they know the first thing not to do after a hard night: decide big things or diagnose themselves",
+   "follows": "the section's point, under its heading",
+   "link": "none: the section's first sentence, its point, after its heading"
+  },
+  {
+   "s": "You don't need to assume every vision was literal, nor that anything you realized is actually true (or false).",
+   "payoff": "they know they can leave the visions and realizations undecided",
+   "follows": "what else not to settle yet",
+   "link": "nor that"
+  },
+  {
+   "s": "Ask your body what it needs from you now.",
+   "payoff": "they know what to do instead: ask the body what it needs",
+   "follows": "what to do instead of deciding",
+   "link": "now"
+  },
+  {
+   "s": "I'm betting it will tell you: Give me sleep, natural food, pure water, a nice nature walk.",
+   "payoff": "they know what the body will likely ask for: sleep, food, water, a walk",
+   "follows": "the answer to that question",
+   "link": "it will tell you"
+  },
+  {
+   "s": "It helps to integrate the experience via journaling your feelings, and talking with someone grounded (not the 20 chaotic people who are still coming down).",
+   "payoff": "they know what helps integrate it: journaling, and someone grounded",
+   "follows": "what helps after the basics",
+   "link": "It helps"
+  },
+  {
+   "s": "To prevent your mind from giving spirituality a negative connotation, engage in some sober prayer or gentle meditation.",
+   "payoff": "they know why sober prayer or gentle meditation: so spirituality does not turn bad in the mind",
+   "follows": "the last thing that helps, with its reason",
+   "link": "To prevent"
+  }
+ ],
+ "checked": [],
+ "placement": "Psychological First Aid to the reminder, then After the Storm's heading and its part, with Joel's move carried to it (round 22's lesson)",
+ "opens": {
+  "first_sentence": "Psychological First Aid: The First Five Minutes",
+  "why_reading": "the heading tells someone looking after a person in a bad state that this is what to do now, in the first five minutes, which is their case; the first paragraph opens on the first thing to do"
+ },
+ "same_point": "none: read the section from its heading to the next; its overlaps are in humanize/h29-20261107/RESULTS.md",
+ "questions": {
+  "Q1": "PASS: each paragraph opens on its point: the first priority, the room fixes with their reason, what the reminder is for, then the new section's point under its heading",
+  "Q2": "PASS: every act in the Human section is the helper's own, with its purpose; the new part says what is happening or what to do, in the reader's terms",
+  "Q3": "PASS: which things exactly: keys, stove, roads, balconies, pools, weapons, the phone; the lights, the extra people; place, date and time, the substance; the named feelings, views and acts",
+  "Q4": "PASS: no terms a reader would not know; the guide's own terms are said in plain words around them",
+  "Q5": "PASS: each turn has what it turns on: since a trip makes them lose track; it might feel like this, but more likely that",
+  "Q6": "PASS: dangers, room, what to say, then the next section's point",
+  "Q7": "PASS: every fact is about the person in front of them, or how to see what is happening to them",
+  "Q8": "PASS: the new part is its section's one point, under its heading",
+  "Q9": "PASS: nothing compressed: the reminder's facts one a sentence, as said aloud; the new part's relations said ('might feel', 'but more likely', 'and we call that', 'because')"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

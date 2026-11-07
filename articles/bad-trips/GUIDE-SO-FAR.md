@@ -556,7 +556,7 @@ The revelation will still exist after breakfast. If it is true, it survives slee
 
 Some people call shadow work a bad trip, especially when they had no intention of doing shadow work that day. Other bad trips seem unrelated to shadow work, although any negative experience can lead into it. Samsara offers no shortage of difficult experiences to process. It still makes sense to reduce present-moment trauma so we can address what was already there.
 
-When too much hits you at once, your nervous system can become flooded, nothing makes sense, and we call it a bad trip. It might feel in the moment like you're damaged for good, or that you're being punished for being spiritually impure. But more likely factors include the dose of what drug(s) you took and how your body handles them. Old painful memories could have been triggered, or you may have gone in with a fearful mindset, or the setting or people around you could have fed into it. Be kind about it, to yourself or to whoever's going through it, because blaming anyone only makes it heavier.
+When too much hits you at once, your nervous system can become flooded, nothing makes sense, and we call it a bad trip. It might feel in the moment like you're damaged for good, or that you're being punished for being spiritually impure. But more likely factors include the dose of what drug(s) you took and how your body handles them. Old painful memories could have been triggered, or you may have gone in with a fearful mindset, or the setting or people around you could have fed into it. Be kind to yourself or to whoever's going through it, because blaming anyone only makes it heavier.
 
 ## Spiritual ≠ "Getting Your Ass Kicked"
 
@@ -828,7 +828,7 @@ During a trip, don't identify with every shadow thought, suppress it, confess it
 
 ## After the Storm
 
-Don't rush to turn a hard experience into content. Sleep. Eat simple food. Drink water. Walk. Journal. Pray and meditate gently. Talk with one grounded person, rather than twenty chaotic people. Don't make huge decisions, diagnose yourself from one intense night, or assume every vision was literal and every fear was false. Let the system settle.
+Don't make huge decisions or diagnose yourself from an intense night. You don't need to assume every vision was literal, nor that anything you realized is actually true (or false). Ask your body what it needs from you now. I'm betting it will tell you: Give me sleep, natural food, pure water, a nice nature walk. It helps to integrate the experience via journaling your feelings, and talking with someone grounded (not the 20 chaotic people who are still coming down). To prevent your mind from giving spirituality a negative connotation, engage in some sober prayer or gentle meditation.
 
 ![](https://substack-post-media.s3.amazonaws.com/public/images/287aef23-c49e-4977-a360-504aa2b632e4_1122x1402.png)
 

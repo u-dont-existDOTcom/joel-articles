@@ -1070,6 +1070,45 @@
     }
    ],
    "recorded_utc": "2026-11-07T14:32Z"
+  },
+  {
+   "turn": "2026-11-07T15:38Z",
+   "lines_of_work": [
+    "bad trips guide"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "the same six items, the three unlisted ones the Inner Child and neuro de-armoring lanes'; UDA root AGENTS.md re-fetched, sha 3146ac4a, unchanged"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "pull requests 376 to 378 closed since 14:36 UTC, all the romance lane's; no new comments or reviews"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no edits by others to this lane's handoff note, questions page or state since 14:36"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "his round-22 export (the chat attachment); the fresh reader's hand-back; nothing else queued"
+    }
+   ],
+   "items": [
+    {
+     "item": "his round-22 export: both teaching cards answered with his versions",
+     "outcome": "both in with typos fixed; lessons bad-trips-2026-11-07f to i; the linter's O46 widened (W123); the teaching-stretch sense check; round 23 out"
+    },
+    {
+     "item": "the check-in set for 18:37 on round 22's second card",
+     "outcome": "answered before it fired; cancelled, and a check on round 23 set for 18:29"
+    }
+   ],
+   "recorded_utc": "2026-11-07T15:59Z"
   }
  ]
 }
