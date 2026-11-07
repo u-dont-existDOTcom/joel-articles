@@ -355,17 +355,17 @@
    "status": "applied",
    "what": "round 11, PFA-PLAIN and PFA-MOVE approved: Psychological First Aid's AI lines said plainly (the intro, the room's two 'X does not Y' phrases, both scripts and their lead-ins, the practice paragraph, the last paragraph) and the practice paragraph moved next to its script (review/r11/apply_r11.py)",
    "joel": "2026-11-06 20:51 export: both approved, no comment",
-   "must_contain_exact": [
-    "I'm in an intense state, so I'm stopping the practice now, and my only job is to stay safe.",
-    "Once they can eat safely, food and warmth help their body settle."
-   ],
+   "must_contain_exact": [],
    "must_not_contain": [
     "An open portal does not obligate you",
     "My job is ordinary safety.",
     "let meaning wait until the nervous system has somewhere to stand",
     "Give them ordinary reality:"
    ],
-   "note": "its order check (the practice paragraph before the next-steps one) ended when the next-steps paragraph (B246) was cut as a repeat (t17-pfa-next-cut); its intro line (B234) was cut as a signpost whose points the guide says elsewhere (t18-intro-cut)"
+   "note": "its order check (the practice paragraph before the next-steps one) ended when the next-steps paragraph (B246) was cut as a repeat (t17-pfa-next-cut); its intro line (B234) was cut as a signpost whose points the guide says elsewhere (t18-intro-cut)",
+   "superseded": [
+    "2026-11-07: the practice script and its food-and-warmth line went with round 12's PFA-PRACTICE (approved; entry r12-pfa-practice)"
+   ]
   },
   {
    "id": "t17-room-cut",
@@ -397,8 +397,11 @@
     "which the next two sections are about"
    ],
    "must_contain_exact": [
-    "Write it down. Protect sleep. Revisit it sober with one grounded person.",
+    "**Write it down, get some sleep, and go back over it sober with one grounded person.**",
     "Sleep comes before mission."
+   ],
+   "superseded": [
+    "2026-11-07: No Rash Actions' write-it-down line reworded by round 16's NRA-WRITE (approved; entry r16-nra-write)"
    ]
   },
   {
@@ -539,6 +542,180 @@
    "must_contain_exact": [
     "For planned altered-state work, think through the beginning, middle, and end before starting.",
     "**Rest and timing:** don't begin already depleted."
+   ]
+  },
+  {
+   "id": "r12-pfa-practice",
+   "status": "applied",
+   "what": "r12 card PFA-PRACTICE approved, put in by review/apply-20261107/apply_rounds.py (answers: articles/bad-trips/review/r12/ANSWERS-R12-20261107-db.json)",
+   "joel": "2026-11-07 12:08 UTC: \"in this case i approved every single suggestion you had from all those rounds\"",
+   "must_not_contain": [
+    "the person can say:"
+   ],
+   "must_contain_exact": [
+    "If a practice like meditation or fasting brought this on, have them stop it now, since doing more of it only makes this stronger."
+   ]
+  },
+  {
+   "id": "r15-contact-tripsit",
+   "status": "applied",
+   "what": "r15 card CONTACT-TRIPSIT approved, put in by review/apply-20261107/apply_rounds.py (answers: articles/bad-trips/review/r15/ANSWERS-R15-20261107-db.json)",
+   "joel": "2026-11-07 12:08 UTC: \"in this case i approved every single suggestion you had from all those rounds\"",
+   "must_not_contain": [
+    "browser-based harm-reduction chat"
+   ],
+   "must_contain_exact": [
+    "a harm-reduction chat you open in your browser, for people using drugs and for whoever's looking after them."
+   ]
+  },
+  {
+   "id": "r15-helper-phrase",
+   "status": "applied",
+   "what": "r15 card HELPER-PHRASE approved, put in by review/apply-20261107/apply_rounds.py (answers: articles/bad-trips/review/r15/ANSWERS-R15-20261107-db.json)",
+   "joel": "2026-11-07 12:08 UTC: \"in this case i approved every single suggestion you had from all those rounds\"",
+   "must_not_contain": [
+    "A useful phrase is:"
+   ],
+   "must_contain_exact": [
+    "If it helps, you can say to yourself:"
+   ]
+  },
+  {
+   "id": "r15-helper-grief-cut",
+   "status": "applied",
+   "what": "r15 card HELPER-GRIEF-CUT approved, put in by review/apply-20261107/apply_rounds.py (answers: articles/bad-trips/review/r15/ANSWERS-R15-20261107-db.json)",
+   "joel": "2026-11-07 12:08 UTC: \"in this case i approved every single suggestion you had from all those rounds\"",
+   "must_not_contain": [
+    "Don't drag somebody out of real grief."
+   ]
+  },
+  {
+   "id": "r16-nra-lock",
+   "status": "applied",
+   "what": "r16 card NRA-LOCK approved, put in by review/apply-20261107/apply_rounds.py (answers: articles/bad-trips/review/r16/ANSWERS-R16-20261107-db.json)",
+   "joel": "2026-11-07 12:08 UTC: \"in this case i approved every single suggestion you had from all those rounds\"",
+   "must_not_contain": [
+    "Use a 24–72 hour action lock."
+   ],
+   "must_contain_exact": [
+    "**Put yourself on a 24–72 hour action lock.**"
+   ]
+  },
+  {
+   "id": "r16-nra-write",
+   "status": "applied",
+   "what": "r16 card NRA-WRITE approved, put in by review/apply-20261107/apply_rounds.py (answers: articles/bad-trips/review/r16/ANSWERS-R16-20261107-db.json)",
+   "joel": "2026-11-07 12:08 UTC: \"in this case i approved every single suggestion you had from all those rounds\"",
+   "must_not_contain": [
+    "Protect sleep."
+   ],
+   "must_contain_exact": [
+    "**Write it down, get some sleep, and go back over it sober with one grounded person.**"
+   ]
+  },
+  {
+   "id": "r17-other-pair",
+   "status": "applied",
+   "what": "r17 card OTHER-PAIR approved, put in by review/apply-20261107/apply_rounds.py (answers: articles/bad-trips/review/r17/ANSWERS-R17-20261107-db.json)",
+   "joel": "2026-11-07 12:08 UTC: \"in this case i approved every single suggestion you had from all those rounds\"",
+   "must_not_contain": [
+    "aren't philosophical errors."
+   ],
+   "must_contain_exact": [
+    "they're just young parts of you that are still waiting for love and protection and permission"
+   ]
+  },
+  {
+   "id": "r18-why-lesson",
+   "status": "applied",
+   "what": "r18 card WHY-LESSON approved, put in by review/apply-20261107/apply_rounds.py (answers: articles/bad-trips/review/r18/ANSWERS-R18-20261107-db.json)",
+   "joel": "2026-11-07 12:08 UTC: \"in this case i approved every single suggestion you had from all those rounds\"",
+   "must_not_contain": [
+    "Sometimes the lesson is to lower the dose, stop the practice, sleep, eat"
+   ],
+   "must_contain_exact": [
+    "Sometimes the lesson is just to lower the dose or stop the practice"
+   ]
+  },
+  {
+   "id": "r18-session-force-once",
+   "status": "applied",
+   "what": "r18 card SESSION-FORCE-ONCE approved, put in by review/apply-20261107/apply_rounds.py (answers: articles/bad-trips/review/r18/ANSWERS-R18-20261107-db.json)",
+   "joel": "2026-11-07 12:08 UTC: \"in this case i approved every single suggestion you had from all those rounds\"",
+   "must_not_contain": [
+    "They do not force music, touch"
+   ],
+   "must_contain_exact": [
+    "interpretation, confession, or insight."
+   ]
+  },
+  {
+   "id": "r19-sorrow-missing",
+   "status": "applied",
+   "what": "r19 card SORROW-MISSING approved, put in by review/apply-20261107/apply_rounds.py (answers: articles/bad-trips/review/r19/ANSWERS-R19-20261107-1206.json)",
+   "joel": "2026-11-07 12:08 UTC: \"in this case i approved every single suggestion you had from all those rounds\"",
+   "must_not_contain": [
+    "Missing is contraction:"
+   ],
+   "must_contain_exact": [
+    "Missing someone is a contraction."
+   ]
+  },
+  {
+   "id": "r19-hand-signal",
+   "status": "applied",
+   "what": "r19 card HAND-SIGNAL approved, put in by review/apply-20261107/apply_rounds.py (answers: articles/bad-trips/review/r19/ANSWERS-R19-20261107-1206.json)",
+   "joel": "2026-11-07 12:08 UTC: \"in this case i approved every single suggestion you had from all those rounds\"",
+   "must_not_contain": [
+    "The point is not to manufacture loving thoughts."
+   ],
+   "must_contain_exact": [
+    "There's no need to manufacture loving thoughts, you're just giving the body one simple signal: love is here."
+   ]
+  },
+  {
+   "id": "r19-demon-train",
+   "status": "applied",
+   "what": "r19 card DEMON-TRAIN approved, put in by review/apply-20261107/apply_rounds.py (answers: articles/bad-trips/review/r19/ANSWERS-R19-20261107-1206.json)",
+   "joel": "2026-11-07 12:08 UTC: \"in this case i approved every single suggestion you had from all those rounds\"",
+   "must_not_contain": [
+    "Train before the emergency:"
+   ],
+   "must_contain_exact": [
+    "So train before you need it, sending love to a frightening image"
+   ]
+  },
+  {
+   "id": "r19-demon-safety-once",
+   "status": "applied",
+   "what": "r19 card DEMON-SAFETY-ONCE approved, put in by review/apply-20261107/apply_rounds.py (answers: articles/bad-trips/review/r19/ANSWERS-R19-20261107-1206.json)",
+   "joel": "2026-11-07 12:08 UTC: \"in this case i approved every single suggestion you had from all those rounds\"",
+   "must_not_contain": [
+    "Even a completely real-feeling entity does not make decisions for your body."
+   ]
+  },
+  {
+   "id": "r20-abuse-true",
+   "status": "applied",
+   "what": "r20 card ABUSE-TRUE approved, put in by review/apply-20261107/apply_rounds.py (answers: articles/bad-trips/review/r20/ANSWERS-R20-20261107-db.json)",
+   "joel": "2026-11-07 12:08 UTC: \"in this case i approved every single suggestion you had from all those rounds\"",
+   "must_not_contain": [
+    "psychologically true, symbolically true"
+   ],
+   "must_contain_exact": [
+    "It could be true psychologically, or symbolically, or literally"
+   ]
+  },
+  {
+   "id": "r21-amz-danger-once",
+   "status": "applied",
+   "what": "r21 card AMZ-DANGER-ONCE approved, put in by review/apply-20261107/apply_rounds.py (answers: articles/bad-trips/review/r21/ANSWERS-R21-20261107-db.json)",
+   "joel": "2026-11-07 12:08 UTC: \"in this case i approved every single suggestion you had from all those rounds\"",
+   "must_not_contain": [
+    "The danger may be action rather than panic"
+   ],
+   "must_contain_exact": [
+    "give away possessions, make a grand purchase, call your ex"
    ]
   }
  ]

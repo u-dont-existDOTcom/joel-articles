@@ -24,6 +24,8 @@ are project-sources/review-form-controls.css, inlined (the 2026-10-23 white-on-w
 REVIEW.json (the lane's build script writes it; see find_quote, block_text and cut_text for its helpers):
   {"format": "joel-suggestion-review-v1", "review_id", "title", "intro": [paragraphs], "git_file": the page's file,
    "article": {"file": repo-relative Markdown, "sha256"}, "built", "links": {"guide", "review"} (GitHub pages to name),
+   "fine_grained" (optional): his words and when, where an author asked to approve each change himself; its cards then
+   need no "ask_because",
    "types": {key: {"label", "about"}},
    "suggestions": [{
       "id": "CV-2.4" (stable; letters, digits, - . only), "type": a key of types, "title": a few words,
@@ -54,7 +56,13 @@ REVIEW.json (the lane's build script writes it; see find_quote, block_text and c
                  per new paragraph; check() refuses a card without one that passes (gate E365),
       "owner_text" (optional): the new words are Joel's own (whose and where), so no receipt of mine is needed; his
                  version of a model's text goes in as he sent it, but stays the model's text, the worker's to fix later
-                 (gate E373)},
+                 (gate E373),
+      "ask_because" (needed, from reviews built 2026-11-07, on an approve or leave card): why the change needs his
+                 decision at all: "meaning: what it might change in what the text says", "downside: what is lost or
+                 risked" or "his own: what he wrote himself and where"; shown on the card as "Why I'm asking". A tested
+                 fix that keeps the meaning and has no downside goes into the article without a card (gate
+                 bad-trips-2026-11-07a); check() refuses a card without one and names his record on the article for the
+                 card's type (approval_record.py)},
      {"id", "type", "title", "advice": "ask", "question", "why", "stays" (optional, what holds until he answers),
       "advice_note", "spans"}   a question: no change, an answer box, counted apart from the decisions,
      {"id", "type", "title", "advice": "edit", "why", "reading" (optional: what Pangram read there), "advice_note",
@@ -94,7 +102,7 @@ from html_links import join_split_links  # noqa: E402  (a pasted post card's lin
 TEMPLATE = HERE / 'suggestion_review_template.html'
 FORM_CSS = ROOT / 'project-sources' / 'review-form-controls.css'
 FORMAT = 'joel-suggestion-review-v1'
-GENERATOR = 'suggestion_review.py 1.8 (2026-11-06)'
+GENERATOR = 'suggestion_review.py 1.9 (2026-11-07)'
 ID_OK = re.compile(r'^[A-Za-z0-9][A-Za-z0-9.\-]{0,80}$')
 # a Pangram result's page (2026-11-02, Joel on the hypnosis guide's cards: "why are you not giving me the pangram link so
 # i can see? always give me the links", and "you didn't check if your changes passed.. they didn't. don't waste my time")
@@ -103,6 +111,12 @@ RECEIPT_FROM = '2026-11-05'   # reviews built from this day: a card that adds or
 # fixing"): from this day a stretch to edit says whose words it holds, and no card calls a model's text his words
 PROVENANCE_FROM = '2026-11-06'
 WHOSE_OK = re.compile(r'^\s*(his own|he asked)\s*:\s*\S.{8,}', re.I | re.S)
+# Gate bad-trips-2026-11-07a (Joel, 2026-11-07 12:08 UTC, after approving every card of ten rounds: "you're asking me to
+# approve things that are clearly good / you should be learning what you actually need to ask my opinion on, like if meaning
+# might have changed or there's a downside to consider"): from this day an approve or leave card says why it goes to him
+ASK_FROM = '2026-11-07'
+ASK_OK = re.compile(r'^\s*(meaning|downside|his own)\s*:\s*\S.{9,}', re.I | re.S)
+FINE_OK = re.compile(r'^\s*\S.{14,}', re.S)
 YOURS_WORDS = re.compile(r"\byour (?:own )?(?:words|sentences?|lines?|phrasings?|wording)\b|\byours to (?:change|fix|edit|"
                          r"rewrite)\b|\bare yours\b", re.I)
 PANGRAM_LINK = re.compile(r'https?://(?:www\.)?pangram\.com/(?:history|feed)/[0-9a-f][0-9a-f-]{7,}')
@@ -370,6 +384,46 @@ def provenance_problems(review):
     return probs
 
 
+def article_record(review):
+    """His record on the review's article, type by type (approval_record.py), or {} when the article isn't under articles/."""
+    parts = pathlib.PurePosixPath((review.get('article') or {}).get('file') or '').parts
+    if len(parts) < 3 or parts[0] != 'articles':
+        return {}
+    import approval_record
+    return approval_record.record(ROOT, parts[1]).get(parts[1], {})
+
+
+def ask_problems(review, rec=None):
+    """Gate bad-trips-2026-11-07a (Joel, 2026-11-07 12:08 UTC: "you're asking me to approve things that are clearly good /
+    you should be learning what you actually need to ask my opinion on, like if meaning might have changed or there's a
+    downside to consider, make that a repo rule unless the author asks for this kind of fine-grained approval approach").
+    On pages built from ASK_FROM, an approve or leave card says in "ask_because" why it needs his decision: "meaning: ...",
+    "downside: ..." or "his own: ...". A tested fix that keeps the meaning and has no downside goes into the article without
+    a card, named in the turn's report with its Pangram links (gut-2026-11-07b). A page whose "fine_grained" gives his words
+    and when he asked to approve each change needs no reasons. The problem names his record on the article for the card's
+    type, so the worker sees what he approves every time (approval_record.py)."""
+    built = review.get('built') or ''
+    if not re.match(r'\d{4}-\d{2}-\d{2}', built) or built[:10] < ASK_FROM or FINE_OK.match(review.get('fine_grained') or ''):
+        return []
+    probs = []
+    for s in review['suggestions']:
+        if s.get('advice') not in ('approve', 'leave') or ASK_OK.match(s.get('ask_because') or ''):
+            continue
+        if rec is None:
+            rec = article_record(review)
+        e = rec.get(s.get('type'))
+        seen = ''
+        if e:
+            import approval_record
+            seen = ' His record on this article: %s.' % approval_record.type_line(s.get('type'), e)
+        probs.append('%s: why does this go to him? Say "ask_because": "meaning: what it might change in what the text says", '
+                     '"downside: what is lost or risked" or "his own: what he wrote himself and where". A tested fix that '
+                     'keeps the meaning and has no downside goes into the article without a card, named in the turn\'s '
+                     'report with its Pangram links (gate bad-trips-2026-11-07a; Joel, 2026-11-07 12:08 UTC: "you\'re asking '
+                     'me to approve things that are clearly good").%s' % (s.get('id', '?'), seen))
+    return probs
+
+
 def check(review, bl):
     """Problems with REVIEW against the article's blocks: [message]."""
     probs, ids = [], set()
@@ -460,6 +514,7 @@ def check(review, bl):
         for s in review['suggestions']:
             probs.extend(keep_as_is.card_problems(s, texts, led))
     probs += provenance_problems(review)
+    probs += ask_problems(review)
     return probs
 
 
@@ -744,7 +799,10 @@ def card_html(s, bl, types):
         approve += ' anyway'
     rows = ([('What changes', s['what'])] + ([('Pangram read', s['reading'])] if s.get('reading') else [])
             + ([('Pangram on the suggestion', s['tested'])] if s.get('tested') else [])
-            + [('Why', s['why']), ('What stays', s['stays']), ('You\'re deciding', s['deciding'])])
+            + [('Why', s['why']), ('What stays', s['stays'])]
+            + ([('Why I\'m asking', s['ask_because'].strip()[:1].upper() + s['ask_because'].strip()[1:])]
+               if (s.get('ask_because') or '').strip() else [])
+            + [('You\'re deciding', s['deciding'])])
     info = ''.join('<div class="row"><span class="lab">%s</span> <span>%s</span></div>' % (esc(k), linked(v)) for k, v in rows)
     if s.get('warning'):
         info += '<div class="row warn"><span class="lab">Note</span> <span>%s</span></div>' % linked(s['warning'])
@@ -925,6 +983,16 @@ def main(argv=None):
     probs = check(review, bl)
     for x in probs:
         print('PROBLEM', x)
+    rec = article_record(review)
+    lines = []
+    if rec:
+        import approval_record
+        lines = approval_record.summary(rec, {s.get('type') for s in review['suggestions']})
+    if lines:
+        print('his record on this article for the types on this page (approval_record.py; ask only where meaning might '
+              'change or there is a downside):')
+        for x in lines:
+            print('  ' + x)
     if a.cmd == 'check':
         print('%d suggestions, %d problems' % (len(review['suggestions']), len(probs)))
         return 1 if probs else 0

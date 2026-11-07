@@ -1,0 +1,21 @@
+{
+ "format": "joel-suggestion-review-answers-v1 (read from the published page's saved decisions)",
+ "review_id": "bad-trips-r12",
+ "source": "the artifact store of slug 02450cb9-544a-4c27-ba86-8c10e6f48e1d, collection decisions, read 2026-11-07 with db_list; written by the owner (the page's rules let only the owner write)",
+ "his_message": "2026-11-07 12:08 UTC: \"in this case i approved every single suggestion you had from all those rounds\"",
+ "items": [
+  {
+   "id": "PFA-PRACTICE",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-07T12:00:13.170Z"
+    }
+   ]
+  }
+ ]
+}

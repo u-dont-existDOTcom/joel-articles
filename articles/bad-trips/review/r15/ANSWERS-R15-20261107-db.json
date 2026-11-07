@@ -1,0 +1,47 @@
+{
+ "format": "joel-suggestion-review-answers-v1 (read from the published page's saved decisions)",
+ "review_id": "bad-trips-r15",
+ "source": "the artifact store of slug a57fb136-6099-43af-81fb-9206910f81b1, collection decisions, read 2026-11-07 with db_list; written by the owner (the page's rules let only the owner write)",
+ "his_message": "2026-11-07 12:08 UTC: \"in this case i approved every single suggestion you had from all those rounds\"",
+ "items": [
+  {
+   "id": "CONTACT-TRIPSIT",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-07T12:00:28.947Z"
+    }
+   ]
+  },
+  {
+   "id": "HELPER-PHRASE",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-07T12:00:36.507Z"
+    }
+   ]
+  },
+  {
+   "id": "HELPER-GRIEF-CUT",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-07T12:00:41.164Z"
+    }
+   ]
+  }
+ ]
+}

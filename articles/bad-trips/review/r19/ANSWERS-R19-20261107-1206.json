@@ -1,0 +1,101 @@
+{
+ "format": "joel-suggestion-review-answers-v1",
+ "review_id": "bad-trips-r19",
+ "title": "Bad Trips Guide, Round 19",
+ "git_file": "articles/bad-trips/review/r19/REVIEW-R19.html",
+ "article": {
+  "file": "articles/bad-trips/review/r19/PAGE-R19.md",
+  "sha256": "776ad74ae46ec9da7255eba019f8957118e09bbe9c325fb3ae513403e498c29f"
+ },
+ "built": "2026-11-07",
+ "generator": "suggestion_review.py 1.8 (2026-11-06)",
+ "exported_at": "2026-11-07T12:06:33.222Z",
+ "counts": {
+  "approved": 4,
+  "rejected": 0,
+  "revise": 0,
+  "pending": 0
+ },
+ "items": [
+  {
+   "id": "SORROW-MISSING",
+   "type": "plain",
+   "title": "What missing is, said as its point and then its parts",
+   "where": "Dealing With Sorrow: Missing Versus Sending Love, P4",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "Missing someone is a contraction. There's hunger and ache in it, it keeps circling back to you, and there's the painful fantasy that loving them means needing them to come back. Sending love is different. Sending love is pleasure in itself, even when the person is gone. Love can bless without grabbing.",
+   "before": "Missing is contraction: hunger, ache, self-reference, and the painful fantasy that love means needing the person to return. Sending love is different. Sending love is pleasure in itself, even when the person is gone. Love can bless without grabbing.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-07T12:05:57.413Z"
+    }
+   ],
+   "updated": "2026-11-07T12:05:57.413Z"
+  },
+  {
+   "id": "HAND-SIGNAL",
+   "type": "plain",
+   "title": "The hand on the heart: a signal, said in one breath",
+   "where": "Hand on Heart and Gratitude 🫶🏿, P1",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "A hand on the heart can change the direction of a trip, especially when the problem is emotional contraction, grief, fear, or loneliness. There's no need to manufacture loving thoughts, you're just giving the body one simple signal: love is here.",
+   "before": "A hand on the heart can change the direction of a trip, especially when the problem is emotional contraction, grief, fear, or loneliness. The point is not to manufacture loving thoughts. Give the body one simple signal: love is here.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-07T12:06:05.149Z"
+    }
+   ],
+   "updated": "2026-11-07T12:06:05.149Z"
+  },
+  {
+   "id": "DEMON-TRAIN",
+   "type": "plain",
+   "title": "Train before you need it: the list said in pairs",
+   "where": "Demons, Jinn, Entities, and Shadow Forces, P6",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "Love is a better move, although it is difficult advice. Almost nobody can authentically love what terrifies them while they are terrified. So train before you need it, sending love to a frightening image, to someone you hate (without approving of what they did), to your shame and your body, to sickness and aging and fear and death, and to the inner child. Practice being the space rather than the storm.",
+   "before": "Love is a better move, although it is difficult advice. Almost nobody can authentically love what terrifies them while they are terrified. Train before the emergency: send love to a frightening image, a hated person without approving what they did, your shame, your body, sickness, aging, fear, death, and the inner child. Practice being the space rather than the storm.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-07T12:06:24.310Z"
+    }
+   ],
+   "updated": "2026-11-07T12:06:24.310Z"
+  },
+  {
+   "id": "DEMON-SAFETY-ONCE",
+   "type": "safety",
+   "title": "The entity safety rule, already in No Rash Actions",
+   "where": "Demons, Jinn, Entities, and Shadow Forces, P8",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "(cut: Safety rule)\n\n(cut: Even a completely real-feeling entity does not make decisions for …)",
+   "before": "Safety rule\n\nEven a completely real-feeling entity does not make decisions for your body. No entity may tell you to hurt yourself or another person, drive, jump, flee, accuse somebody, cross a sexual boundary, or make a life decision tonight.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-07T12:06:30.166Z"
+    }
+   ],
+   "updated": "2026-11-07T12:06:30.166Z"
+  }
+ ]
+}
