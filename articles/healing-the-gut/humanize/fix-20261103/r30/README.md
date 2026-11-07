@@ -46,3 +46,5 @@ High or Medium. The ledger names no window still open in r30, so the whole artic
   one-item step list under Phase 4's first paragraph removed, since the step is in that paragraph now.
   `EXPECTED-TEXT-E.txt` is what his extension reads; it differs from draft B's on the glutamine dose paragraph, Phase 4's
   paragraph (two lines become one) and Phase 5's opener and steps. Prediction #208, frozen before the paste.
+  `PASTED.json`: the draft made and pasted (words match), and its rendered text checked against `EXPECTED-TEXT-E.txt`
+  exactly; the secret link went to Joel in chat, not into Git.
