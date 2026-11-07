@@ -1,0 +1,46 @@
+{
+ "readers": [
+  "haiku",
+  "sonnet"
+ ],
+ "sentences": [
+  "Kim Anami goes even further: she says sexual energy itself can heal you and wake you up spiritually.",
+  "She’s also collected a ton of stories from students who say the effects spilled out of the bedroom into their health, work, money, creativity, the rest of their lives.",
+  "Her jade-egg practice is a preliminary training for the cervical O: pelvic-floor strength, attention, and arousal without needing a partner."
+ ],
+ "flagged": {
+  "1": [
+   "haiku",
+   "sonnet"
+  ],
+  "2": [
+   "haiku",
+   "sonnet"
+  ],
+  "3": [
+   "haiku",
+   "sonnet"
+  ]
+ },
+ "agreed": [
+  1,
+  2,
+  3
+ ],
+ "whole": {
+  "haiku": [
+   "The paragraph runs on two evenly built beats, each a claim followed by a balanced gloss, in a neutral summarizing voice with no scene, no first person, and no hedging, which is the even, explainer-like evenness a model tends to produce. The evidence is thin, though: a paragraph this short cannot establish authorship, and the uneven specifics below cut against a pure generation."
+  ],
+  "sonnet": [
+   "The paragraph is two even, mid-length sentence units, each a claim followed by an explanatory gloss. The voice is a neutral summarizer reporting what someone else says (\"she says,\" \"students who say\") and never commits to a view of its own. There is no concrete scene, name, number or quirk. Both sentences close on a tidy list or catch-all, which gives the rhythm a smoothed, summary-like feel."
+  ]
+ },
+ "human_clean": [
+  "a ton of stories",
+  "the cervical O",
+  "a ton of stories",
+  "the cervical O",
+  "She's also collected",
+  "also"
+ ]
+}

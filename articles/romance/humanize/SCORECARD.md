@@ -6,31 +6,32 @@ Built by `tools/humanization/pangram_ledger.py build` from `articles/romance/hum
 
 | version | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| pangram 4.1, the web app (Joel's account, GUI credits) | 14 | 7 (50%) | 50% | 50% | 100% | 0.228 (base 0.250, 14) |
+| pangram 4.1, the web app (Joel's account, GUI credits) | 43 | 27 (63%) | 53% | 47% | 84% | 0.223 (base 0.249, 43) |
 
 ## pangram 4.1, the web app (Joel's account, GUI credits)
 
 | window | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| the latest 50 | 14 | 7 (50%) | 50% | 50% | 100% | 0.228 (base 0.250, 14) |
-| the latest 100 | 14 | 7 (50%) | 50% | 50% | 100% | 0.228 (base 0.250, 14) |
-| all | 14 | 7 (50%) | 50% | 50% | 100% | 0.228 (base 0.250, 14) |
+| the latest 50 | 43 | 27 (63%) | 53% | 47% | 84% | 0.223 (base 0.249, 43) |
+| the latest 100 | 43 | 27 (63%) | 53% | 47% | 84% | 0.223 (base 0.249, 43) |
+| all | 43 | 27 (63%) | 53% | 47% | 84% | 0.223 (base 0.249, 43) |
 
 The boundary mix (what was checked; accuracy differs a lot between a paragraph and a section):
 
 | scope or kind | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| pair | 12 | 5 (42%) | 58% | 42% | 100% | 0.245 (base 0.243, 12) |
-| paragraph | 2 | 2 (100%) | 0% | 100% | 100% | 0.125 (base 0.000, 2) |
+| pair | 39 | 23 (59%) | 59% | 41% | 82% | 0.230 (base 0.242, 39) |
+| paragraph | 3 | 3 (100%) | 0% | 100% | 100% | 0.124 (base 0.000, 3) |
+| stretch | 1 | 1 (100%) | 0% | 100% | 100% | 0.250 (base 0.000, 1) |
 
 Calibration:
 
 | my chance of a 100% Human result | calls | mean chance | read Human |
 |---|---|---|---|
-| 0.4 to 0.6 | 13 | 0.55 | 46% |
-| 0.6 to 0.8 | 4 | 0.62 | 100% |
+| 0.4 to 0.6 | 40 | 0.52 | 42% |
+| 0.6 to 0.8 | 10 | 0.62 | 90% |
 
-## Misses since the ledger (7)
+## Misses since the ledger (16)
 
 | cause | misses |
 |---|---|
@@ -41,27 +42,43 @@ Calibration:
 | a dashed three-part aside kept | 1 |
 | a contrast frame swapped for another | 1 |
 | a three-item list in an if-clause | 1 |
+| a general reason still tacked on, and a lead-in that stages the questions | 1 |
+| split into a bare point and an Otherwise run-on | 1 |
+| a stock because-frame, and a cut that broke his callback | 1 |
+| a question leading to a tidy conclusion, with the vow link still unsaid | 1 |
+| an explained link that reads as a tidy summary | 1 |
+| the panel's fixes kept general advice in a first-person frame | 1 |
+| an aside added to a summing-up line | 1 |
+| his words in a new order still read as general advice | 1 |
+| the short check reads his own verses AI too | 1 |
 
 The latest:
 
 | check | lineage, try | said | read | cause |
 |---|---|---|---|---|
-| [r01-s2](https://www.pangram.com/history/c2ef4f06-da74-439e-b714-d971e5a776f6) | romance-s2, 1 | Human | AI or mixed | mirrored pair and a list kept |
 | [r02-s2](https://www.pangram.com/history/375a2b8a-ce7e-4cd3-b8af-0b18633fec65) | romance-s2, 2 | Human | AI or mixed | the check had no human context and the perks rewrite kept a list |
 | [r02-s6](https://www.pangram.com/history/02957992-e302-47f5-b83b-62f94a8b85de) | romance-s6, 1 | Human | AI or mixed | a polished argument in my second paragraph |
 | [r02-s7](https://www.pangram.com/history/b214bd97-7c58-43f3-a521-4182f7b09433) | romance-s7, 1 | Human | AI or mixed | a generic reason clause kept |
 | [r02-s8](https://www.pangram.com/history/c764c228-211b-4a27-bacd-f4165453876d) | romance-s8, 1 | Human | AI or mixed | a dashed three-part aside kept |
 | [r02-s10](https://www.pangram.com/history/a6a557ab-5ea6-42b9-b3c1-6fe8d337f4db) | romance-s10, 1 | Human | AI or mixed | a contrast frame swapped for another |
 | [r02-s11](https://www.pangram.com/history/84f5d138-9e2b-413c-8f68-00c170c3e702) | romance-s11, 1 | Human | AI or mixed | a three-item list in an if-clause |
+| [r03-s7](https://www.pangram.com/history/3d834650-6176-4c1d-8335-2120f9396a73) | romance-s7, 2 | Human | AI or mixed | a general reason still tacked on, and a lead-in that stages the questions |
+| [r03-s10](https://www.pangram.com/history/33b3a11b-cf85-45b0-9ced-eae1f40802a6) | romance-s10, 2 | Human | AI or mixed | split into a bare point and an Otherwise run-on |
+| [r03-s15](https://www.pangram.com/history/4d84986b-1c55-4cbe-b422-8b7531e3f8d4) | romance-s15, 1 | Human | AI or mixed | a stock because-frame, and a cut that broke his callback |
+| [r03-s21](https://www.pangram.com/history/7e5d0094-0f22-447a-bca2-defd47cb3131) | romance-s21, 1 | Human | AI or mixed | a question leading to a tidy conclusion, with the vow link still unsaid |
+| [r04-s21](https://www.pangram.com/history/f71abb17-8e0f-49e8-8994-511b346467c1) | romance-s21, 2 | Human | AI or mixed | an explained link that reads as a tidy summary |
+| [r04-s10](https://www.pangram.com/history/2fd8d48d-ee13-4d4f-be23-a363b2b548f4) | romance-s10, 3 | Human | AI or mixed | the panel's fixes kept general advice in a first-person frame |
+| [r05-s9](https://www.pangram.com/history/8fca6b73-6ea6-428f-be00-b26f9d14e698) | romance-s9, 2 | Human | AI or mixed | an aside added to a summing-up line |
+| [r05-s10](https://www.pangram.com/history/4b0f3653-382c-4562-a675-db6b9de90536) | romance-s10, 4 | Human | AI or mixed | his words in a new order still read as general advice |
+| [r05-s21](https://www.pangram.com/history/1a346e61-fe80-4de3-acce-f6500fd1d2a7) | romance-s21, 3 | Human | AI or mixed | the short check reads his own verses AI too |
 
 ## Lineages still open (tries used of the cap)
 
 | lineage | scope | tries | last read |
 |---|---|---|---|
-| romance-s2 | pair | 2 of 6 | AI |
-| romance-s6 | pair | 1 of 6 | Mixed |
-| romance-s7 | pair | 1 of 6 | Mixed |
-| romance-s8 | pair | 1 of 6 | Mixed |
-| romance-s10 | pair | 1 of 6 | Mixed |
-| romance-s11 | pair | 1 of 6 | Mixed |
+| romance-s2 | pair | 5 of 6 | Mixed |
+| romance-s9 | pair | 2 of 6 | Mixed |
+| romance-s10 | pair | 4 of 6 | Mixed |
+| romance-s17 | pair | 3 of 6 | AI |
+| romance-s21 | pair | 3 of 6 | Mixed |
 
