@@ -1,0 +1,108 @@
+{
+ "format": "joel-suggestion-review-v1",
+ "review_id": "bad-trips-r16",
+ "title": "Bad Trips Guide, Round 16",
+ "intro": [
+  "Round 16 (2026-11-07). Two cards for No Rash Actions, each one line. Rounds 12 and 15 are still open on their own pages."
+ ],
+ "git_file": "articles/bad-trips/review/r16/REVIEW-R16.html",
+ "article": {
+  "file": "articles/bad-trips/review/r16/PAGE-R16.md",
+  "sha256": "3b83a10703f6da23c43aa402c03492111588c5b67bb0610f7b2a139ae035a8fd"
+ },
+ "built": "2026-11-07",
+ "links": {
+  "guide": "https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261105/articles/bad-trips/GUIDE-SO-FAR.md",
+  "guide_label": "the guide as it stands",
+  "check": "https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261105/articles/bad-trips/humanize/h19-20261107/RESULTS.md",
+  "review": "https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261105/articles/bad-trips/review/r16/REVIEW-R16.md"
+ },
+ "types": {
+  "plain": {
+   "label": "Said plainly",
+   "about": "AI lines said plainly, each with its reason, the way he fixes his own windows"
+  },
+  "structure": {
+   "label": "Structure",
+   "about": "how the quick version and the long version split the guide, and where a part goes"
+  },
+  "repeat": {
+   "label": "Said twice",
+   "about": "a point the guide already makes elsewhere: one copy goes, the other stays"
+  },
+  "safety": {
+   "label": "Safety in one place",
+   "about": "a caution or call-for-help line said in several places, or one that changes nothing a reader does"
+  },
+  "question": {
+   "label": "Your call",
+   "about": "something only you can decide or know"
+  }
+ },
+ "suggestions": [
+  {
+   "id": "NRA-WRITE",
+   "type": "plain",
+   "advice": "approve",
+   "title": "Write it down, sleep, look again: one sentence instead of three",
+   "reading": "After the Human first half of Psychological First Aid, \"Write it down. Protect sleep. Revisit it sober with one grounded person.\" reads [59%](https://www.pangram.com/history/47f6a611-74f9-442e-ac5c-662ce2bfa8f8).",
+   "tested": "With this change: [Human Written](https://www.pangram.com/history/795e7185-2001-4eb5-ae47-9e7c0deb0dd9), every window Human. Changing only the last sentence read [100%](https://www.pangram.com/history/72c11a90-eb11-4ee5-ab6f-9e501f8c1f34): it was the clipped three-beat rhythm.",
+   "what": "\"Write it down. Protect sleep. Revisit it sober with one grounded person.\" becomes \"Write it down, get some sleep, and go back over it sober with one grounded person.\" It stays bold.",
+   "why": "The same three steps in the same order, said as one sentence the way you'd say it.",
+   "stays": "Writing it down, sleep, sober, one grounded person.",
+   "deciding": "Approve puts the new line in; Revise lets you change it first.",
+   "advice_note": "Approve: the same steps, and it reads Human.",
+   "found_by": "Pangram after the Human first half, one paragraph of No Rash Actions at a time",
+   "receipt": [
+    "articles/bad-trips/humanize/h19-20261107/CARD-WRITE.receipt.json",
+    "articles/bad-trips/humanize/h19-20261107/TEST-base-N3a.receipt.json"
+   ],
+   "edits": [
+    {
+     "block": 310,
+     "before": "Write it down. Protect sleep. Revisit it sober with one grounded person.",
+     "after": "Write it down, get some sleep, and go back over it sober with one grounded person."
+    }
+   ],
+   "spans": [
+    {
+     "block": 310,
+     "start": 0,
+     "end": 72
+    }
+   ]
+  },
+  {
+   "id": "NRA-LOCK",
+   "type": "plain",
+   "advice": "approve",
+   "title": "The action lock said as something you do",
+   "reading": "After the Human first half, the lock with its list of don'ts reads [AI, 100%](https://www.pangram.com/history/173cdc51-97bf-4765-ba5a-87b141a65ca8).",
+   "tested": "With this change: [76%](https://www.pangram.com/history/0c651fc6-530f-4429-9918-0e98a3e817ac), the first half Human again. \"Give it 24–72 hours before you act on anything.\" read about the same ([73%](https://www.pangram.com/history/424017ee-a823-4d47-bff5-fa5903d0f8c0)) but drops the name \"action lock\", which When the Trip Feels Amazing refers back to. The list of don'ts said as chained sentences read [100%](https://www.pangram.com/history/5b3f9722-7d9b-4386-b4e7-a8c633fa0e3c), so the list stays.",
+   "what": "\"Use a 24–72 hour action lock.\" becomes \"Put yourself on a 24–72 hour action lock.\" It stays bold.",
+   "why": "The same rule and the same 24–72 hours, said as something the reader does rather than a tool to use.",
+   "stays": "\"24–72\", the name \"action lock\", and the list of don'ts word for word.",
+   "deciding": "Approve puts the new line in; Revise lets you change it first.",
+   "advice_note": "Approve: the same rule, and the paragraph reads less AI with it.",
+   "found_by": "Pangram after the Human first half, one paragraph of No Rash Actions at a time",
+   "receipt": [
+    "articles/bad-trips/humanize/h19-20261107/CARD-LOCK.receipt.json",
+    "articles/bad-trips/humanize/h19-20261107/TEST-base-N2c.receipt.json"
+   ],
+   "edits": [
+    {
+     "block": 308,
+     "before": "Use a 24–72 hour action lock.",
+     "after": "Put yourself on a 24–72 hour action lock."
+    }
+   ],
+   "spans": [
+    {
+     "block": 308,
+     "start": 0,
+     "end": 29
+    }
+   ]
+  }
+ ]
+}

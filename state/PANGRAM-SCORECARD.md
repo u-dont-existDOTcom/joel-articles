@@ -313,20 +313,20 @@ The boundary mix over all lanes:
 
 | lane | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| bad trips guide | 190 | 176 (93%) | 88% | 12% | 14% | 0.127 (base 0.106, 190) |
-| **all lanes** | 190 | 176 (93%) | 88% | 12% | 14% | 0.127 (base 0.106, 190) |
+| bad trips guide | 193 | 178 (92%) | 88% | 12% | 14% | 0.128 (base 0.109, 193) |
+| **all lanes** | 193 | 178 (92%) | 88% | 12% | 14% | 0.128 (base 0.109, 193) |
 
 The latest 100 calls of each lane:
 
 | lane | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| bad trips guide | 100 | 97 (97%) | 96% | 4% | 1% | 0.100 (base 0.038, 100) |
+| bad trips guide | 100 | 96 (96%) | 96% | 4% | 0% | 0.100 (base 0.038, 100) |
 
 The boundary mix over all lanes:
 
 | scope or kind | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| paragraph | 106 | 99 (93%) | 85% | 15% | 14% | 0.118 (base 0.128, 106) |
+| paragraph | 109 | 101 (93%) | 84% | 16% | 14% | 0.120 (base 0.132, 109) |
 | pair | 47 | 43 (91%) | 89% | 11% | 15% | 0.171 (base 0.095, 47) |
 | section | 37 | 34 (92%) | 95% | 5% | 14% | 0.099 (base 0.051, 37) |
 
@@ -373,21 +373,21 @@ The boundary mix over all lanes:
 
 | lane | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| healing the gut article | 79 | 61 (77%) | 25% | 75% | 90% | 0.170 (base 0.189, 79) |
-| **all lanes** | 79 | 61 (77%) | 25% | 75% | 90% | 0.170 (base 0.189, 79) |
+| healing the gut article | 80 | 62 (78%) | 25% | 75% | 90% | 0.168 (base 0.188, 80) |
+| **all lanes** | 80 | 62 (78%) | 25% | 75% | 90% | 0.168 (base 0.188, 80) |
 
 The latest 100 calls of each lane:
 
 | lane | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| healing the gut article | 79 | 61 (77%) | 25% | 75% | 90% | 0.170 (base 0.189, 79) |
+| healing the gut article | 80 | 62 (78%) | 25% | 75% | 90% | 0.168 (base 0.188, 80) |
 
 The boundary mix over all lanes:
 
 | scope or kind | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
 | stretch | 31 | 24 (77%) | 29% | 71% | 81% | 0.175 (base 0.206, 31) |
-| section | 29 | 25 (86%) | 14% | 86% | 93% | 0.141 (base 0.119, 29) |
+| section | 30 | 26 (87%) | 13% | 87% | 93% | 0.138 (base 0.116, 30) |
 | paragraph | 10 | 5 (50%) | 50% | 50% | 100% | 0.233 (base 0.250, 10) |
 | pair | 9 | 7 (78%) | 22% | 78% | 100% | 0.174 (base 0.173, 9) |
 
@@ -414,20 +414,20 @@ The boundary mix over all lanes:
 
 | lane | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| healing the gut article | 2 | 1 (50%) | 50% | 50% | 100% | 0.253 (base 0.250, 2) |
-| **all lanes** | 2 | 1 (50%) | 50% | 50% | 100% | 0.253 (base 0.250, 2) |
+| healing the gut article | 3 | 2 (67%) | 33% | 67% | 100% | 0.209 (base 0.222, 3) |
+| **all lanes** | 3 | 2 (67%) | 33% | 67% | 100% | 0.209 (base 0.222, 3) |
 
 The latest 100 calls of each lane:
 
 | lane | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| healing the gut article | 2 | 1 (50%) | 50% | 50% | 100% | 0.253 (base 0.250, 2) |
+| healing the gut article | 3 | 2 (67%) | 33% | 67% | 100% | 0.209 (base 0.222, 3) |
 
 The boundary mix over all lanes:
 
 | scope or kind | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| article | 2 | 1 (50%) | 50% | 50% | 100% | 0.253 (base 0.250, 2) |
+| article | 3 | 2 (67%) | 33% | 67% | 100% | 0.209 (base 0.222, 3) |
 
 ## What the misses say (since the ledger)
 
@@ -519,6 +519,7 @@ The boundary mix over all lanes:
 | the panel's one unanimous tell was the mirrored pair ('Many bad trips get worse because' / 'Others get worse because'); one sentence said as talk ('Other times it's the opposite:') broke it, and the four -ing list I expected to keep it AI did not | 1 | bad trips guide |
 | the integration list's items say who runs what and for whom in plain, specific terms (five free sessions, a monthly group, meditation-related difficulties); none of the list tells I expected (name-colon-description) mattered here | 1 | bad trips guide |
 | the opening's second sentence was the driver: 'Hours and services change, and not every option works in every country.' said as 'Their hours and services change, and some only work in one country.' turned every window Human, the first sentence left as it was | 1 | bad trips guide |
+| the clipped three-imperative rhythm was the driver: said as one flowing sentence it read Human, while changing only the last sentence (keeping two clipped ones) read 100% | 1 | bad trips guide |
 | summary-voice-around-owner-lines | 1 | healing the gut article |
 | owner-voice-carries-neighbours | 1 | healing the gut article |
 | opener-and-attribution-asides | 1 | healing the gut article |
