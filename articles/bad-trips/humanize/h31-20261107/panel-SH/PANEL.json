@@ -1,0 +1,59 @@
+{
+ "readers": [
+  "codex",
+  "haiku",
+  "sonnet"
+ ],
+ "sentences": [
+  "During a trip, don't identify with every shadow thought, suppress it, confess it to everybody, or convert it into a permanent diagnosis.",
+  "Notice: \"A thought is here.",
+  "A feeling is here.",
+  "It is intense, but it is not the whole of me.\"",
+  "Then return to room, body, human, time, and love."
+ ],
+ "flagged": {
+  "1": [
+   "haiku",
+   "sonnet"
+  ],
+  "2": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ],
+  "3": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ],
+  "4": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ],
+  "5": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ]
+ },
+ "agreed": [
+  1,
+  2,
+  3,
+  4,
+  5
+ ],
+ "whole": {
+  "codex": [
+   "The paragraph follows a tidy three-stage arc: prohibitions, a reassuring inner script, and a lyrical closing. That composure can suggest AI polishing, although these features cannot establish authorship."
+  ],
+  "haiku": [
+   "The paragraph is built from short, evenly weighted sentences, each one a finished unit, with no concrete scene, specific detail, or hesitation, so the overall effect is a polished generic instruction more than a distinct voice. The rhythm and balance are where the machine-like finish shows, though a careful human editor could have written it."
+  ],
+  "sonnet": [
+   "The paragraph is built as a symmetrical handout: a list of four things not to do, then a scripted line to say, then a list of five things to return to. The rhythm is even and short-clause throughout, the voice is generic second-person instruction with no named person, moment or particular detail, and it closes on a neat, reassuring beat."
+  ]
+ },
+ "human_clean": []
+}

@@ -1,0 +1,58 @@
+{
+ "readers": [
+  "codex",
+  "haiku",
+  "sonnet"
+ ],
+ "sentences": [
+  "Don't try to win an argument with visions, entities, memories, or cosmic conclusions.",
+  "Don't validate harmful conclusions.",
+  "Reflect the feeling and redirect toward safety, non-harm, sleep, and ordinary reality.",
+  "Don't tell somebody they are crazy, broken, weak, punished, or failing the medicine.",
+  "Don't force eye contact, touch, music, prayer, chanting, interpretation, confession, or insight."
+ ],
+ "flagged": {
+  "1": [
+   "haiku",
+   "sonnet"
+  ],
+  "2": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ],
+  "3": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ],
+  "4": [
+   "haiku",
+   "sonnet"
+  ],
+  "5": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ]
+ },
+ "agreed": [
+  1,
+  2,
+  3,
+  4,
+  5
+ ],
+ "whole": {
+  "codex": [
+   "The repeated “Don't” openings and accumulating lists create a uniform, instructional cadence that could suggest AI polishing. Those features also occur in human-written guidance, so they cannot establish authorship."
+  ],
+  "haiku": [
+   "All three opening lines begin with \"Don't\" and each one resolves into a list, so the rhythm is even enough to read as a rule set built to a template. The voice stays impersonal, with no \"I,\" no case, and no particular person, which is how a polished model answer usually sounds."
+  ],
+  "sonnet": [
+   "Every sentence is a bare imperative built the same way, mostly \"Don't\" plus a list of four to eight items, with no example, no person and no explanation. The even, clipped, checklist rhythm and the impersonal voice make it read like generated guidance."
+  ]
+ },
+ "human_clean": []
+}
