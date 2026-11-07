@@ -1,0 +1,33 @@
+{
+ "format": "joel-suggestion-review-answers-v1 (read from the published page's saved decisions)",
+ "review_id": "bad-trips-r22",
+ "source": "the artifact store of slug cffc3ddd-61d1-4c2e-b37f-8d3574a01989, collection decisions, read 2026-11-07 14:14 UTC with db_list; written by the owner (the page's rules let only the owner write)",
+ "his_message": "none: he answered on the page; his comment carries his two Pangram links",
+ "items": [
+  {
+   "id": "TEACH-NOT-BROKEN",
+   "status": "revise",
+   "your_version": "",
+   "comment": "here is the first version that passed: https://www.pangram.com/history/68752b7e-7d77-4416-9092-30a9c92bce4f?ucc=AyfvimuzkWB&utm_source=pangram_share&utm_medium=copy_link\n\nand here is the version with all the changes i made prior that didn't pass still: \n\nhttps://www.pangram.com/history/14fa25d1-7964-4e8e-bff9-13af7e1b1fd8?ucc=AyfvimuzkWB&utm_source=pangram_share&utm_medium=copy_link",
+   "his_versions": {
+    "68752b7e (Human Written; windows Human High 93, Human Medium 20)": "When too much hits you at once, your nervous system can become flooded, nothing makes sense, and we call it a bad trip. I might feel in the moment like  you're damaged for good, no that you're being punished for being spiritually impure. But more likely factors include the dose of what drug(s) you took and how your body handles them. Old painful memories could have been triggered, or you may have gone in with a fearful mindset, or the setting or people around you could have fed into it. Be kind about it, to yourself or to whoever's going through it, because blaming anyone only makes it heavier.",
+    "14fa25d1 (AI Generated, 99.99%)": "When too much hits you at once, your nervous system can become flooded, nothing makes sense, and we call it a bad trip. It's not that you're damaged for good, nor that you're being punished for being spiritually impure. More likely factors include the dose of what drug(s) you took and how your body handles them. Old painful memories could have been triggered, or you may have gone in with a fearful mindset, or the setting or people around you could have fed into it. Be kind about it, to yourself or to whoever's going through it, because blaming anyone only makes it heavier."
+   },
+   "history": [
+    {
+     "from": "pending",
+     "to": "revise",
+     "at": "2026-11-07T13:51:09.709Z"
+    }
+   ],
+   "updated": "2026-11-07T14:02:05.750Z"
+  },
+  {
+   "id": "TEACH-AFTERMATH",
+   "status": "pending",
+   "your_version": "",
+   "comment": "",
+   "history": []
+  }
+ ]
+}

@@ -8,7 +8,7 @@ Built by `tools/humanization/pangram_ledger.py build` from `articles/bad-trips/h
 |---|---|---|---|---|---|---|
 | Pangram 4.1 extension (free, live post; Joel's check of 2026-10-18, the same text as his 2026-11-03 paste by SHA-256) | 1 | 1 (100%) | 100% | 0% | 0% | 0.000 (base 0.000, 1) |
 | Pangram web app (his account, Pangram Professional) | 3 | 3 (100%) | 100% | 0% | 0% | 0.092 (base 0.000, 3) |
-| Pangram web app (his account, Pangram Professional), through the Claude desktop app's browser pane | 303 | 279 (92%) | 88% | 12% | 12% | 0.121 (base 0.107, 303) |
+| Pangram web app (his account, Pangram Professional), through the Claude desktop app's browser pane | 317 | 290 (91%) | 86% | 14% | 13% | 0.125 (base 0.117, 317) |
 | pangram 4.1, the web app: Joel's account, run by the lane in the desktop app's browser pane (E356) | 8 | 6 (75%) | 50% | 50% | 75% | 0.170 (base 0.250, 8) |
 
 ## Pangram 4.1 extension (free, live post; Joel's check of 2026-10-18, the same text as his 2026-11-03 paste by SHA-256)
@@ -56,16 +56,16 @@ Calibration:
 
 | window | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| the latest 50 | 50 | 45 (90%) | 88% | 12% | 6% | 0.111 (base 0.106, 50) |
-| the latest 100 | 100 | 91 (91%) | 87% | 13% | 8% | 0.111 (base 0.113, 100) |
-| all | 303 | 279 (92%) | 88% | 12% | 12% | 0.121 (base 0.107, 303) |
+| the latest 50 | 50 | 44 (88%) | 82% | 18% | 14% | 0.128 (base 0.148, 50) |
+| the latest 100 | 100 | 89 (89%) | 83% | 17% | 12% | 0.124 (base 0.141, 100) |
+| all | 317 | 290 (91%) | 86% | 14% | 13% | 0.125 (base 0.117, 317) |
 
 The boundary mix (what was checked; accuracy differs a lot between a paragraph and a section):
 
 | scope or kind | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
 | section | 68 | 65 (96%) | 93% | 7% | 12% | 0.083 (base 0.068, 68) |
-| paragraph | 188 | 171 (91%) | 86% | 14% | 11% | 0.123 (base 0.123, 188) |
+| paragraph | 202 | 182 (90%) | 84% | 16% | 12% | 0.128 (base 0.137, 202) |
 | pair | 47 | 43 (91%) | 89% | 11% | 15% | 0.171 (base 0.095, 47) |
 
 Calibration:
@@ -74,9 +74,9 @@ Calibration:
 |---|---|---|---|
 | 0.0 to 0.2 | 26 | 0.13 | 0% |
 | 0.2 to 0.4 | 185 | 0.28 | 5% |
-| 0.4 to 0.6 | 81 | 0.45 | 22% |
-| 0.6 to 0.8 | 14 | 0.67 | 86% |
-| 0.8 to 1.0 | 1 | 0.80 | 100% |
+| 0.4 to 0.6 | 93 | 0.46 | 24% |
+| 0.6 to 0.8 | 16 | 0.67 | 88% |
+| 0.8 to 1.0 | 2 | 0.80 | 100% |
 
 ## pangram 4.1, the web app: Joel's account, run by the lane in the desktop app's browser pane (E356)
 
@@ -99,17 +99,17 @@ Calibration:
 | 0.4 to 0.6 | 6 | 0.49 | 33% |
 | 0.6 to 0.8 | 3 | 0.67 | 100% |
 
-## Misses since the ledger (26)
+## Misses since the ledger (29)
 
 | cause | misses |
 |---|---|
 | context | 10 |
 | in place | 5 |
+| not explained yet | 4 |
 | shape echo | 1 |
 | parallel frames kept | 1 |
 | a flaw of sense left in the ending | 1 |
 | rewording without a sense fix | 1 |
-| not explained yet | 1 |
 | a quip kept | 1 |
 | one sentence changed | 1 |
 | the panel's one unanimous tell was the mirrored pair ('Many bad trips get worse because' / 'Others get worse because'); one sentence said as talk ('Other times it's the opposite:') broke it, and the four -ing list I expected to keep it AI did not | 1 |
@@ -121,9 +121,6 @@ The latest:
 
 | check | lineage, try | said | read | cause |
 |---|---|---|---|---|
-| [bt-test-acts](https://www.pangram.com/history/5a123a1a-623a-40ad-85ba-d4c6c869fe68) | bad-trips PFA dangers with the room's acts only, 1 | Human | AI or mixed | context |
-| [bt-test-fixes](https://www.pangram.com/history/904c30a7-fe86-4630-8209-e1c049471074) | bad-trips PFA dangers with the fixes line only, 1 | AI | Human | context |
-| [bt-anchor-v1](https://www.pangram.com/history/88fa84a3-9569-4e9b-84af-51c80a0efdd7) | bad-trips Get One Human Anchor P1 after the Human section, 2 | AI | Human | the panel's one unanimous tell was the mirrored pair ('Many bad trips get worse because' / 'Others get worse because'); one sentence said as talk ('Other times it's the opposite:') broke it, and the four -ing list I expected to keep it AI did not |
 | [bt-contact-K5-after](https://www.pangram.com/history/07ee0dd7-de31-4f93-8630-16521ad77701) | bad-trips Who to Contact, and When after the Human section, K5-after, 1 | AI | Human | the integration list's items say who runs what and for whom in plain, specific terms (five free sessions, a monthly group, meditation-related difficulties); none of the list tells I expected (name-colon-description) mattered here |
 | [bt-contact-kv2](https://www.pangram.com/history/3328665a-ddf4-4fbc-998c-58a8906ada02) | bad-trips Who to Contact, and When after the Human section, the opening's second sentence, 1 | AI | Human | the opening's second sentence was the driver: 'Hours and services change, and not every option works in every country.' said as 'Their hours and services change, and some only work in one country.' turned every window Human, the first sentence left as it was |
 | [bt-nra-n3a](https://www.pangram.com/history/795e7185-2001-4eb5-ae47-9e7c0deb0dd9) | bad-trips No Rash Actions after the Human section, N3, 2 | AI | Human | the clipped three-imperative rhythm was the driver: said as one flowing sentence it read Human, while changing only the last sentence (keeping two clipped ones) read 100% |
@@ -136,6 +133,9 @@ The latest:
 | [bt-shadow-T2](https://www.pangram.com/history/a233b8ad-1f49-44ce-8f5e-4aa8aa31f8f6) | bad-trips Dealing With Shadow Thoughts after the Human section, T2, 1 | AI | Human | context |
 | [bt-shadow-T3](https://www.pangram.com/history/eb76a9bd-703c-4bbb-83a2-56f74a4f1fa6) | bad-trips Dealing With Shadow Thoughts after the Human section, T3, 1 | AI | Human | context |
 | [bt-shadow-T4](https://www.pangram.com/history/be052baf-f780-4fb6-91b4-c8feb7c82454) | bad-trips Dealing With Shadow Thoughts after the Human section, T4, 1 | Human | AI or mixed | in place |
+| [bt-move-uh](https://www.pangram.com/history/5a5cb640-eaf7-4e4b-bfa3-cca79a368820) | bad-trips Demons' unhookable, his round-22 move, 1 | AI | Human | **not explained yet** |
+| [bt-move-fr](https://www.pangram.com/history/1a9cd0ed-e486-4f6d-9b03-e809ed193e85) | bad-trips After the Storm's fruit of insight, his round-22 move, 1 | AI | Human | **not explained yet** |
+| [bt-move-n4](https://www.pangram.com/history/948da7dc-8bfa-4d84-8687-a65a88e3d167) | bad-trips No Rash Actions, the experience-content paragraph, his round-22 move, 1 | Human | AI or mixed | **not explained yet** |
 
 ## Lineages still open (tries used of the cap)
 
@@ -300,4 +300,12 @@ The latest:
 | bad-trips No Rash Actions after the Human section, N2 with a grand purchase | paragraph | 1 of 6 | AI |
 | bad-trips (Re)defining "Bad Trip" after the Human section, teaching try T | paragraph | 1 of 6 | Mixed |
 | bad-trips After the Storm after the Human section, teaching try T | paragraph | 1 of 6 | AI |
+| bad-trips Spiritual ≠, the bypassing and practice pair, his round-22 move | paragraph | 1 of 6 | Mixed |
+| bad-trips The Fear/Panic Loop, his round-22 move | paragraph | 1 of 6 | AI |
+| bad-trips Demons' hooks, his round-22 move | paragraph | 1 of 6 | Mixed |
+| bad-trips For the Person Helping's opening, his round-22 move | paragraph | 1 of 6 | AI |
+| bad-trips Hand on Heart's touch part, his round-22 move | paragraph | 1 of 6 | Mixed |
+| bad-trips When the Trip Feels Amazing's bliss line, his round-22 move | paragraph | 1 of 6 | Mixed |
+| bad-trips No Rash Actions, the experience-content paragraph, his round-22 move | paragraph | 1 of 6 | Mixed |
+| bad-trips Dealing With Sorrow, the deepest utility, his round-22 move | paragraph | 1 of 6 | Mixed |
 

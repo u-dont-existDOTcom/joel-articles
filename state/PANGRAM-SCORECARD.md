@@ -321,20 +321,20 @@ The boundary mix over all lanes:
 
 | lane | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| bad trips guide | 303 | 279 (92%) | 88% | 12% | 12% | 0.121 (base 0.107, 303) |
-| **all lanes** | 303 | 279 (92%) | 88% | 12% | 12% | 0.121 (base 0.107, 303) |
+| bad trips guide | 317 | 290 (91%) | 86% | 14% | 13% | 0.125 (base 0.117, 317) |
+| **all lanes** | 317 | 290 (91%) | 86% | 14% | 13% | 0.125 (base 0.117, 317) |
 
 The latest 100 calls of each lane:
 
 | lane | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| bad trips guide | 100 | 91 (91%) | 87% | 13% | 8% | 0.111 (base 0.113, 100) |
+| bad trips guide | 100 | 89 (89%) | 83% | 17% | 12% | 0.124 (base 0.141, 100) |
 
 The boundary mix over all lanes:
 
 | scope or kind | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| paragraph | 188 | 171 (91%) | 86% | 14% | 11% | 0.123 (base 0.123, 188) |
+| paragraph | 202 | 182 (90%) | 84% | 16% | 12% | 0.128 (base 0.137, 202) |
 | section | 68 | 65 (96%) | 93% | 7% | 12% | 0.083 (base 0.068, 68) |
 | pair | 47 | 43 (91%) | 89% | 11% | 15% | 0.171 (base 0.095, 47) |
 
@@ -384,24 +384,24 @@ The boundary mix over all lanes:
 | lane | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
 | healing the gut article | 81 | 63 (78%) | 25% | 75% | 90% | 0.167 (base 0.186, 81) |
-| romance article | 14 | 7 (50%) | 50% | 50% | 100% | 0.228 (base 0.250, 14) |
-| **all lanes** | 95 | 70 (74%) | 28% | 72% | 92% | 0.176 (base 0.203, 95) |
+| romance article | 43 | 27 (63%) | 53% | 47% | 84% | 0.223 (base 0.249, 43) |
+| **all lanes** | 124 | 90 (73%) | 35% | 65% | 88% | 0.186 (base 0.227, 124) |
 
 The latest 100 calls of each lane:
 
 | lane | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
 | healing the gut article | 81 | 63 (78%) | 25% | 75% | 90% | 0.167 (base 0.186, 81) |
-| romance article | 14 | 7 (50%) | 50% | 50% | 100% | 0.228 (base 0.250, 14) |
+| romance article | 43 | 27 (63%) | 53% | 47% | 84% | 0.223 (base 0.249, 43) |
 
 The boundary mix over all lanes:
 
 | scope or kind | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| stretch | 32 | 25 (78%) | 28% | 72% | 81% | 0.171 (base 0.202, 32) |
+| pair | 48 | 30 (62%) | 52% | 48% | 85% | 0.219 (base 0.250, 48) |
+| stretch | 33 | 26 (79%) | 27% | 73% | 82% | 0.173 (base 0.198, 33) |
 | section | 30 | 26 (87%) | 13% | 87% | 93% | 0.138 (base 0.116, 30) |
-| pair | 21 | 12 (57%) | 43% | 57% | 100% | 0.215 (base 0.245, 21) |
-| paragraph | 12 | 7 (58%) | 42% | 58% | 100% | 0.215 (base 0.243, 12) |
+| paragraph | 13 | 8 (62%) | 38% | 62% | 100% | 0.208 (base 0.237, 13) |
 
 ## pangram 4.1, his Pangram extension on the live post (free, Joel's account)
 
@@ -563,7 +563,7 @@ The boundary mix over all lanes:
 
 | cause | misses | lanes |
 |---|---|---|
-| not explained yet | 60 | bad trips guide, community article, healing the gut article, hypnosis guide, inner child guide, neuro de-armoring article |
+| not explained yet | 63 | bad trips guide, community article, healing the gut article, hypnosis guide, inner child guide, neuro de-armoring article |
 | context | 17 | bad trips guide, healing the gut article |
 | too pessimistic about a cut | 12 | inner child guide |
 | a tell I did not name | 11 | inner child guide |
@@ -674,6 +674,15 @@ The boundary mix over all lanes:
 | a dashed three-part aside kept | 1 | romance article |
 | a contrast frame swapped for another | 1 | romance article |
 | a three-item list in an if-clause | 1 | romance article |
+| a general reason still tacked on, and a lead-in that stages the questions | 1 | romance article |
+| split into a bare point and an Otherwise run-on | 1 | romance article |
+| a stock because-frame, and a cut that broke his callback | 1 | romance article |
+| a question leading to a tidy conclusion, with the vow link still unsaid | 1 | romance article |
+| an explained link that reads as a tidy summary | 1 | romance article |
+| the panel's fixes kept general advice in a first-person frame | 1 | romance article |
+| an aside added to a summing-up line | 1 | romance article |
+| his words in a new order still read as general advice | 1 | romance article |
+| the short check reads his own verses AI too | 1 | romance article |
 | the panel's fixes worked better than I expected | 1 | neuro de-armoring article |
 | my changes to try 5's Medium and Low sentences read AI | 1 | neuro de-armoring article |
 | another family's writer changed the build | 1 | neuro de-armoring article |

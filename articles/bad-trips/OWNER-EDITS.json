@@ -628,13 +628,13 @@
   {
    "id": "r18-why-lesson",
    "status": "applied",
-   "what": "r18 card WHY-LESSON approved, put in by review/apply-20261107/apply_rounds.py (answers: articles/bad-trips/review/r18/ANSWERS-R18-20261107-db.json)",
+   "what": "r18 card WHY-LESSON approved, put in by review/apply-20261107/apply_rounds.py (answers: articles/bad-trips/review/r18/ANSWERS-R18-20261107-db.json); its first sentence later said with his round-22 move (h28-why-lesson-line), so the kept words start at \"the lesson\"",
    "joel": "2026-11-07 12:08 UTC: \"in this case i approved every single suggestion you had from all those rounds\"",
    "must_not_contain": [
     "Sometimes the lesson is to lower the dose, stop the practice, sleep, eat"
    ],
    "must_contain_exact": [
-    "Sometimes the lesson is just to lower the dose or stop the practice"
+    "the lesson is just to lower the dose or stop the practice"
    ]
   },
   {
@@ -716,6 +716,94 @@
    ],
    "must_contain_exact": [
     "give away possessions, make a grand purchase, call your ex"
+   ]
+  },
+  {
+   "id": "r22-teach-not-broken",
+   "status": "applied",
+   "what": "(Re)defining \"Bad Trip\", the not-broken paragraph: his own version from round 22's card TEACH-NOT-BROKEN (his Pangram history 68752b7e, the one that passed), with two typos fixed (\"I might feel\" to \"It might feel\", \"no that\" to \"or that\") and a double space; read Human, its window High, after the Human base (16f4706a); put in by humanize/h28-20261107/apply_h28.py (answers: review/r22/ANSWERS-R22-20261107-db.json)",
+   "joel": "2026-11-07 13:51 to 14:02 UTC, on round 22's card: \"here is the first version that passed: https://www.pangram.com/history/68752b7e-7d77-4416-9092-30a9c92bce4f\"",
+   "must_not_contain": [
+    "A bad trip does not prove that you are broken",
+    "I might feel in the moment"
+   ],
+   "must_contain_exact": [
+    "When too much hits you at once, your nervous system can become flooded, nothing makes sense, and we call it a bad trip.",
+    "It might feel in the moment like you're damaged for good, or that you're being punished for being spiritually impure.",
+    "Be kind about it, to yourself or to whoever's going through it, because blaming anyone only makes it heavier."
+   ]
+  },
+  {
+   "id": "h28-unhookable",
+   "status": "applied",
+   "what": "Demons, Jinn, Entities, and Shadow Forces, \"unhookable\": his round-22 move carried (\"This is not passivity. It is becoming unhookable.\" said as how it looks); read Human (High and Medium) after the Human base (5a5cb640); no card, the meaning kept (gate bad-trips-2026-11-07a); humanize/h28-20261107/apply_h28.py",
+   "joel": "2026-11-07 12:08 UTC: \"you're asking me to approve things that are clearly good\"",
+   "must_not_contain": [
+    "This is not passivity."
+   ],
+   "must_contain_exact": [
+    "It might look passive, but this is how you become unhookable."
+   ]
+  },
+  {
+   "id": "h28-fruit-of-insight",
+   "status": "applied",
+   "what": "What Kind of Aftermath Is This?, the fruit of insight: his round-22 move carried (\"isn't how cosmic the story sounds. It's whether\" said as how it feels, then \"But\"); read Human, its window High, after the Human base (1a9cd0ed); no card, the meaning kept (gate bad-trips-2026-11-07a); humanize/h28-20261107/apply_h28.py",
+   "joel": "2026-11-07 12:08 UTC: \"you're asking me to approve things that are clearly good\"",
+   "must_not_contain": [
+    "The fruit of insight isn't how cosmic the story sounds."
+   ],
+   "must_contain_exact": [
+    "It can feel like the more cosmic the story sounds, the bigger the insight."
+   ]
+  },
+  {
+   "id": "h28-urgency-line",
+   "status": "applied",
+   "what": "No Rash Actions: Visions Are Not Commands, the urgency line: his round-22 move carried (\"Urgency does not make action safe.\" said as how the urgency feels, then \"But more likely\"; read Human, its window Low, after the Human base (3ea94994; 38% before)); no card, the meaning kept (gate bad-trips-2026-11-07a); humanize/h28-20261107/apply_h28b.py",
+   "joel": "2026-11-07 12:08 UTC: \"you're asking me to approve things that are clearly good\"",
+   "must_not_contain": [
+    "Urgency does not make action safe."
+   ],
+   "must_contain_exact": [
+    "it might feel like you have to act right now. But more likely the urgency is just part of the state"
+   ]
+  },
+  {
+   "id": "h28-experience-content",
+   "status": "applied",
+   "what": "No Rash Actions: Visions Are Not Commands, the experience-content paragraph: his round-22 move carried (its two denials said as what they might feel like, then \"But more likely\"; its own windows Human Low, Medium and Low after the Human base (948da7dc; 41% and 50% before)); no card, the meaning kept (gate bad-trips-2026-11-07a); humanize/h28-20261107/apply_h28b.py",
+   "joel": "2026-11-07 12:08 UTC: \"you're asking me to approve things that are clearly good\"",
+   "must_not_contain": [
+    "\"I saw it\" does not create a duty to act."
+   ],
+   "must_contain_exact": [
+    "Because you saw it, it might feel like you have to act on it"
+   ]
+  },
+  {
+   "id": "h28-why-lesson-line",
+   "status": "applied",
+   "what": "Why Bad Trips Tend to Happen, the lesson line: his round-22 move carried (\"Every hard experience is not a profound lesson.\" said as how it feels, then \"But sometimes\"; read Human, its window High, after the Human base (4109c05e)); no card, the meaning kept (gate bad-trips-2026-11-07a); humanize/h28-20261107/apply_h28b.py",
+   "joel": "2026-11-07 12:08 UTC: \"you're asking me to approve things that are clearly good\"",
+   "must_not_contain": [
+    "Every hard experience is not a profound lesson."
+   ],
+   "must_contain_exact": [
+    "Every hard experience can feel like a profound lesson. But sometimes the lesson is just"
+   ]
+  },
+  {
+   "id": "h28-deepest-utility",
+   "status": "applied",
+   "what": "Dealing With Sorrow, the deepest utility: his round-22 move carried (\"That is nice, but it is not the deepest utility.\" said as how it feels; the next line starts with \"But\"; the two lines read Human Low after the Human base (5f70db5e; 83% before, with the Send love list, which still reads AI Low)); no card, the meaning kept (gate bad-trips-2026-11-07a); humanize/h28-20261107/apply_h28b.py",
+   "joel": "2026-11-07 12:08 UTC: \"you're asking me to approve things that are clearly good\"",
+   "must_not_contain": [
+    "it is not the deepest utility"
+   ],
+   "must_contain_exact": [
+    "That can feel like the whole point, and it's nice.",
+    "But the deepest utility is sending love to the places where love is missing."
    ]
   }
  ]

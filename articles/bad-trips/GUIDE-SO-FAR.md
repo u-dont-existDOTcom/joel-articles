@@ -527,7 +527,7 @@ Choose one or two options rather than all of them. Twelve simultaneous technique
 
 ## No Rash Actions: Visions Are Not Commands
 
-An intense altered state can make everything feel final, cosmic, and urgent. Urgency does not make action safe.
+An intense altered state can make everything feel final, cosmic, and urgent, and it might feel like you have to act right now. But more likely the urgency is just part of the state, and acting on it isn't safe.
 
 **Put yourself on a 24–72 hour action lock.**
 
@@ -535,7 +535,7 @@ Until you have slept and eaten, don't drive, travel, break up, quit your job, co
 
 **Write it down, get some sleep, and go back over it sober with one grounded person.**
 
-Treat trip content first as **experience-content**, rather than fact-content. "I saw it" does not create a duty to act. "It felt cosmic" does not make obedience wise.
+Treat trip content first as **experience-content**, rather than fact-content. Because you saw it, it might feel like you have to act on it, and because it felt cosmic, obeying it might seem wise. But more likely you had an experience, and it can wait for you to be sober.
 
 **No revelation makes murder, assault, coercion, sexual boundary-crossing, reckless driving, or self-harm safe tonight.** Anything requiring violated consent or harm belongs in the notebook until sober review.
 
@@ -556,7 +556,7 @@ The revelation will still exist after breakfast. If it is true, it survives slee
 
 Some people call shadow work a bad trip, especially when they had no intention of doing shadow work that day. Other bad trips seem unrelated to shadow work, although any negative experience can lead into it. Samsara offers no shortage of difficult experiences to process. It still makes sense to reduce present-moment trauma so we can address what was already there.
 
-A bad trip does not prove that you are broken, punished, unspiritual, impure, or permanently damaged. It means the nervous system, meaning-making system, body, environment, memories, dose, or relationships became overwhelmed. The response is care rather than blame.
+When too much hits you at once, your nervous system can become flooded, nothing makes sense, and we call it a bad trip. It might feel in the moment like you're damaged for good, or that you're being punished for being spiritually impure. But more likely factors include the dose of what drug(s) you took and how your body handles them. Old painful memories could have been triggered, or you may have gone in with a fearful mindset, or the setting or people around you could have fed into it. Be kind about it, to yourself or to whoever's going through it, because blaming anyone only makes it heavier.
 
 ## Spiritual ≠ "Getting Your Ass Kicked"
 
@@ -612,7 +612,7 @@ That frame can be useful. It cannot be the only frame.
 
 A bad trip or destabilizing state may also come from dose, drug interactions, sleep deprivation, cannabis, hunger, dehydration, an unsafe setting, sexual or social pressure, **unresolved trauma**, panic loops, medical symptoms, psychosis-like symptoms, fasting, intense breathwork, meditation overload, retreat pressure, or simply too much too fast.
 
-Every hard experience is not a profound lesson. Sometimes the lesson is just to lower the dose or stop the practice, get some sleep and something to eat, pick safer people, and admit that the room is bad.
+Every hard experience can feel like a profound lesson. But sometimes the lesson is just to lower the dose or stop the practice, get some sleep and something to eat, pick safer people, and admit that the room is bad.
 
 Cognitive distortions from Cognitive Behavioral Therapy (CBT) can create or prolong the crisis:
 
@@ -666,9 +666,9 @@ Missing someone is a contraction. There's hunger and ache in it, it keeps circli
 
 The difference is enormous.
 
-The mistake people often make in love states is simply enjoying the love – or sending heart emojis to everybody. That is nice, but it is not the deepest utility.
+The mistake people often make in love states is simply enjoying the love – or sending heart emojis to everybody. That can feel like the whole point, and it's nice.
 
-The deepest utility is sending love to the places where love is missing.
+But the deepest utility is sending love to the places where love is missing.
 
 - Send love to the person you miss without demanding their return.
 - Send love to the part of you still waiting for them.
@@ -707,7 +707,7 @@ The common mistake is fighting the terrifying thing with the energy it already c
 
 Love is a better move, although it is difficult advice. Almost nobody can authentically love what terrifies them while they are terrified. So train before you need it, sending love to a frightening image, to someone you hate (without approving of what they did), to your shame and your body, to sickness and aging and fear and death, and to the inner child. Practice being the space rather than the storm.
 
-This is not passivity. It is becoming unhookable. A demon can fight hatred, feed on fear, argue with pride, and seduce grandiosity. Love gives it nothing to grab.
+It might look passive, but this is how you become unhookable. A demon can fight your hatred, feed on your fear, argue with your pride or seduce your grandiosity, but there's nothing in love for it to grab.
 
 When somebody is medically, physically, or psychologically too overwhelmed to reach love, stabilize first. Don't teach nondual demonology to somebody who needs the lights down and a doctor.
 
@@ -859,7 +859,7 @@ Don't take more psychedelics, cannabis, ketamine, intense breathwork, fast, push
 
 Then ask what actually happened. What was medical or environmental? What was emotional? What was old trauma? What was fantasy? What was useful? What changed behavior? What needs therapy, an apology, rest, or plain practical action?
 
-The fruit of insight isn't how cosmic the story sounds. It's whether suffering goes down and love gets more available.
+It can feel like the more cosmic the story sounds, the bigger the insight. But the fruit of an insight is whether suffering goes down and love gets more available.
 
 ---
 
