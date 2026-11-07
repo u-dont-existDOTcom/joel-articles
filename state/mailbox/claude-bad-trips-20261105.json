@@ -836,6 +836,45 @@
     }
    ],
    "recorded_utc": "2026-11-07T02:56Z"
+  },
+  {
+   "turn": "2026-11-07T03:00Z",
+   "lines_of_work": [
+    "bad trips guide"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "root AGENTS.md (sha 3146ac4a), unchanged"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "articles/bad-trips CURRENT-STATE.md next step"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no edits by others since 02:57 (git log on main)"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "3 queued: GitHub notices on the merged pull request (subscribed, checks done, merged); nothing to do"
+    }
+   ],
+   "items": [
+    {
+     "item": "Abuse Memories",
+     "outcome": "one gain held for round 20"
+    },
+    {
+     "item": "Dealing With Shadow Thoughts",
+     "outcome": "Human but its last paragraph (later list)"
+    }
+   ],
+   "recorded_utc": "2026-11-07T03:06Z"
   }
  ]
 }
