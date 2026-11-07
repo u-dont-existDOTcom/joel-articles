@@ -1,0 +1,51 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-07",
+ "text_sha256": "fc96413ad291a4f5d20ec88ed63fd56cd7174c1224ea59210e87e1ed4e91fecb",
+ "text": "The Lock (Zinc/Magnesium): Magnesium physically plugs the NMDA receptor's channel while the cell is at rest (Jalali-Yazdi, et al, 2018), and zinc mostly makes the channel open less often, with a weaker plug of its own (Amico-Ruvio, et al, 2011), so less of the voltage gets through.",
+ "section": "B. The \"Overheating\" CPU: Glutamate Excitotoxicity",
+ "reader": "someone with trauma armor who is about to take NAC, zinc, magnesium, L-serine or D-serine to calm a glutamate storm and to make therapy sessions stick, and wants to know what each one actually does",
+ "sentences": [
+  {
+   "s": "The Lock (Zinc/Magnesium): Magnesium physically plugs the NMDA receptor's channel while the cell is at rest (Jalali-Yazdi, et al, 2018), and zinc mostly makes the channel open less often, with a weaker plug of its own (Amico-Ruvio, et al, 2011), so less of the voltage gets through.",
+   "payoff": "the reader learns magnesium plugs the channel at rest and zinc makes it open less, so less voltage gets through",
+   "follows": "it follows NAC in the Fix list"
+  }
+ ],
+ "checked": [
+  {
+   "point": "zinc and magnesium \"physically block the receptor channel\"",
+   "found": "magnesium blocks the pore in a voltage-dependent way (Jalali-Yazdi 2018); zinc mainly inhibits allosterically at GluN2A, with a weaker pore block (Amico-Ruvio 2011)",
+   "still_needed": "yes",
+   "fate": "changed"
+  }
+ ],
+ "placement": "second of the Fix's items, after NAC, before the Repair",
+ "opens": {
+  "first_sentence": "The Lock (Zinc/Magnesium): Magnesium physically plugs the NMDA receptor's channel while the cell is at rest (Jalali-Yazdi, et al, 2018), and zinc mostly makes the channel open less often, with a weaker plug of its own (Amico-Ruvio, et al, 2011), so less of the voltage gets through.",
+  "why_reading": "it tells the reader what magnesium and zinc each do at the receptor they are trying to calm"
+ },
+ "same_point": "none: read section B from its heading to section C for the glutamate mechanism, GluD, D-serine and DCS, and the fixes; each point here is made once in the section",
+ "questions": {
+  "Q2": "N/A: no instruction in this paragraph; it explains a mechanism",
+  "Q3": "PASS: each thing is named exactly (NMDA receptors, calcium, GluD receptors, D-serine, GABA)",
+  "Q5": "PASS: each \"so\", \"and\" and \"because\" turns on the clause before it",
+  "Q7": "PASS: each fact is about the chemistry the reader is about to change with the protocol",
+  "Q8": "N/A: no group or list in this paragraph",
+  "Q9": "PASS: one step a clause, the small words that carry the relation kept (\"so\", \"which\", \"rather than\")",
+  "Q1": "PASS: the sentence opens on magnesium, the first of the two",
+  "Q4": "PASS: NMDA receptor explained earlier in the section; channel explained in the GluD paragraph",
+  "Q6": "PASS: magnesium first because it is the plug, then zinc, which mostly does less"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

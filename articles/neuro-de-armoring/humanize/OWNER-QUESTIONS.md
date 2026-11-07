@@ -1,8 +1,9 @@
 # Neuro de-armoring: what I need from Joel
 
-Last updated 2026-11-06, after your message of 21:22 UTC (the whole article's result).
-**Open questions: none.** **For you to do**: nothing now. Pull request 318 (the whole check and its lesson) goes into
-main by itself, since it changes the shared rules.
+Last updated 2026-11-07, after your message of 11:58 UTC (the AskRigor bug report, and no checks of unhumanized drafts).
+**Open questions: none.** **For you to do**: answer the seven science cards for section B,
+[Neuro De-Armoring Cards, 7 November](https://claude.ai/artifact/5LG5d8ZaPZjaRvQ6W52Tjb)
+([the same cards in Git](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261107/sci/x1107a/REVIEW-X1107A.md)).
 Colours: 🟣 a question for you; 🟠 something for you to do; 🔵 next or in progress; 🟢 done or decided.
 
 The master copy of this page is [this file in Git](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/OWNER-QUESTIONS.md), so a session in either of your accounts
@@ -17,8 +18,23 @@ can read and update it. Every file it points to is a link.
 
 ## For you to do
 
-- Nothing now. The temporary draft "Neuro de-armoring, draft A (temp, delete after)" stays for the next whole-article
+- 🟠 **The seven science cards for section B** (the Overheating CPU), each a claim corrected against its sources:
+  [Neuro De-Armoring Cards, 7 November](https://claude.ai/artifact/5LG5d8ZaPZjaRvQ6W52Tjb)
+  ([in Git](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261107/sci/x1107a/REVIEW-X1107A.md); [the table of claims and sources](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261107/sci/x1107a/SCIENCE-SECTION-B.md)).
+  Approve, Reject or Revise each one; Export gives me your answers. The one that's really yours: SB-42 cuts leucine,
+  whose reason doesn't hold up. Once the claims are settled I humanize each paragraph and only then check it.
+- Earlier: nothing. The temporary draft "Neuro de-armoring, draft A (temp, delete after)" stays for the next whole-article
   check, which reuses it; I'll name it for deleting after the last one.
+
+## Your message of 2026-11-07 11:58 UTC (AskRigor, and no checks of unhumanized drafts), and what I did
+
+- 🟢 **The AskRigor bug report is sent** (lesson ARL-0059): [the report and why](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261107/askrigor/ASKRIGOR-BUG-REPORT-2.md).
+  AskRigor puts the protocol text, the records and the papers only in a part of its answer this app doesn't show me, so
+  I get "loaded" with nothing loaded. Meanwhile I read its protocols from its public repository (the same versions,
+  checked by their fingerprints) and the abstracts from the papers themselves.
+- 🟢 **Your rule is in**: a draft of mine that hasn't had a humanizing pass doesn't go to Pangram; the ledger now
+  refuses one (lesson neuro-2026-11-07c, in [the lessons file](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/docs/lessons/2026-11-07-1158-neuro.md)).
+- 🟠 **Section B's science**: the seven cards above.
 
 ## Your message of 2026-11-07 01:00 UTC (block 38, and the science first), and what I did
 
@@ -26,7 +42,7 @@ can read and update it. Every file it points to is a link.
   ChatGPT's check holds against the papers. "Vibrating cells to death" is wrong (it's calcium overload); the feelings
   aren't excitotoxicity; the 2025 Johns Hopkins paper found GluD2 is a channel opened by D-serine and GABA, not a
   volume knob, and nothing ties it to armor states. Your block 38 waits for the science.
-- 🔵 **Next**: a card page for those two paragraphs, then the 5 November facts list section by section, then humanizing.
+- 🟢 **Done 11:58 onwards**: the card page covers those two paragraphs and the rest of section B.
 
 ## Your message of 2026-11-06 21:36 UTC ("keep going"), and what I did
 
@@ -68,7 +84,7 @@ Word for word: [your message](https://github.com/u-dont-existDOTcom/joel-article
   keeps gene expression changed long after the cycles stop, your "keeps cementing". Your paragraph's citation now reads
   "(Nestler, 2008; Vialou, et al, 2010; Zhong, et al, 2023)", each linked. Checked by itself:
   [Human Written, one window, High](https://www.pangram.com/history/e5934635-2d01-47cc-8f90-68e4b32c15e8), as I predicted.
-- 🟢 **Your rule is in** (lesson E380, [the gate](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/docs/HUMANIZATION-GATE.md), and the shared AGENTS.md): a citation
+- 🟢 **Your rule is in** (lesson E380, [the gate](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/docs/HUMANIZATION-GATE.md), and the shared [AGENTS.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/AGENTS.md)): a citation
   missing from your version stays out only when you said so, a card you approved proposed it, or nothing left rests on
   it; otherwise it goes back, or I ask. The dose and warning check now fails a recorded change that loses a citation's
   year without one of those reasons. It caught one older case, DFB-1's Vialou 2010, which is back in your paragraph anyway.

@@ -1,0 +1,69 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-07",
+ "text_sha256": "32d1650eb8866d1ea811b42317b580f86f443dfd1ffc1270211d194c3fd58fbf",
+ "text": "The Mechanism: Excess Glutamate over-activates NMDA receptors, the doors on brain cells that glutamate unlocks, acting like a key stuck in the \"On\" position, so too much calcium pours into the cells. In extreme cases, like a stroke or a brain injury, that calcium overload kills them, which is what \"excitotoxicity\" means (Sattler & Tymianski, 2001). The anxiety, rage or \"itchy brain\" you feel in a glutamate storm is more likely the over-excitement itself than a sign your neurons are dying.",
+ "section": "B. The \"Overheating\" CPU: Glutamate Excitotoxicity",
+ "reader": "someone with trauma armor who is about to take NAC, zinc, magnesium, L-serine or D-serine to calm a glutamate storm and to make therapy sessions stick, and wants to know what each one actually does",
+ "sentences": [
+  {
+   "s": "The Mechanism: Excess Glutamate over-activates NMDA receptors, the doors on brain cells that glutamate unlocks, acting like a key stuck in the \"On\" position, so too much calcium pours into the cells.",
+   "payoff": "the reader learns what over-activation does: calcium pours into the cells, and NMDA receptors are explained as the doors glutamate unlocks",
+   "follows": "it opens the paragraph after the Problem paragraph names the glutamate flood"
+  },
+  {
+   "s": "In extreme cases, like a stroke or a brain injury, that calcium overload kills them, which is what \"excitotoxicity\" means (Sattler & Tymianski, 2001).",
+   "payoff": "the reader learns that cells die only in extreme cases, a stroke or a brain injury, and what \"excitotoxicity\" means",
+   "follows": "it says what that calcium does when it is extreme",
+   "link": "that calcium overload"
+  },
+  {
+   "s": "The anxiety, rage or \"itchy brain\" you feel in a glutamate storm is more likely the over-excitement itself than a sign your neurons are dying.",
+   "payoff": "the reader stops reading their anxiety or rage as neurons dying, and reads it as over-excitement",
+   "follows": "it turns the extreme case back to the reader's own glutamate storm",
+   "link": "you feel in a glutamate storm"
+  }
+ ],
+ "checked": [
+  {
+   "point": "excitotoxicity is \"literally vibrating cells to death\"",
+   "found": "cells die of calcium overload, in CNS ischemia, trauma and neurodegeneration (Sattler & Tymianski 2001)",
+   "still_needed": "yes: it says what a glutamate flood does",
+   "fate": "changed"
+  },
+  {
+   "point": "excitotoxicity \"feels like anxiety, rage, or an itchy brain\"",
+   "found": "no source ties the feelings to cell death",
+   "still_needed": "yes: the reader feels these",
+   "fate": "changed"
+  }
+ ],
+ "placement": "third paragraph of section B, after the Problem (glutamate floods the brain under stress) and the Red Line; it says what that flood does at the receptor, before the GluD paragraph",
+ "opens": {
+  "first_sentence": "The Mechanism: Excess Glutamate over-activates NMDA receptors, the doors on brain cells that glutamate unlocks, acting like a key stuck in the \"On\" position, so too much calcium pours into the cells.",
+  "why_reading": "it tells the reader what a glutamate flood does to their brain cells: the key stuck \"On\" and the calcium pouring in, which is the state the section is about"
+ },
+ "same_point": "none: read section B from its heading to section C for the glutamate mechanism, GluD, D-serine and DCS, and the fixes; each point here is made once in the section",
+ "questions": {
+  "Q2": "N/A: no instruction in this paragraph; it explains a mechanism",
+  "Q3": "PASS: each thing is named exactly (NMDA receptors, calcium, GluD receptors, D-serine, GABA)",
+  "Q5": "PASS: each \"so\", \"and\" and \"because\" turns on the clause before it",
+  "Q7": "PASS: each fact is about the chemistry the reader is about to change with the protocol",
+  "Q8": "N/A: no group or list in this paragraph",
+  "Q9": "PASS: one step a clause, the small words that carry the relation kept (\"so\", \"which\", \"rather than\")",
+  "Q1": "PASS: each sentence opens on its subject (glutamate, extreme cases, the feeling) and NMDA is explained where it is first used here",
+  "Q4": "PASS: NMDA receptors explained as the doors glutamate unlocks; excitotoxicity explained in the sentence that names it; calcium is common",
+  "Q6": "PASS: what happens, when it kills, what it feels like"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}
