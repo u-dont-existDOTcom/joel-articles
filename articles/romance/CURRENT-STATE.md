@@ -93,6 +93,19 @@ with his OK and no email.
   the stream-enterers are listed, 306's short opener joined with a colon), and so did 312 with 313 (#116: 312's point
   said first). The fixed version now has 42 changes to 70 paragraphs; the compare read of the new ones found nothing,
   and their word-for-sense read found its two planted errors and nothing else.
+- 2026-11-07 (22:57 UTC pickup, `humanize/fix-20261107/r21/` to `r26/`): his marking-page answers saved
+  (`review/teach-20261107/ANSWERS-T1.json`); his S2 and S17 go in as he wrote them, with only "you're attention" made
+  "your attention". With them, "Spirituality to bypass intimacy" read one Human High window (#117, 484 words) and "Can
+  making love be a spiritual practice?" read one Human High window (#118, 772 words). His lessons are
+  `docs/lessons/2026-11-07-2257-romance.md` (romance-2026-11-07a to d). Carried to the S2-pattern stretches: Romance
+  285 to 287 read Human, High and Medium, alone (#120) and in its section (#122, no Low); Idealization 147 and 148 read
+  Human after a tell panel (#123), and the section reads Mostly Human with no AI window, five Low windows left (#132).
+  Jealousy 367 to 369: each new paragraph reads Human alone (#124, #127, #128) and the three read AI together (#119,
+  #131) and in the section (#133 26%, #134 31.7% after the links a fresh sense read asked for); they went to him on a
+  second marking page (`review/teach-20261107/REVIEW-T2.md`, `ARTIFACT.md`). The fixed version now has 45 changes to 82
+  paragraphs (`whole/`); my compare read of the new ones (147, 148, 151, 285 to 287) found one softened point, 148's
+  "rewriting the whole past", now carried by "faking it all along", and 285's "cuteness", now carried by "play the
+  damsel"; the word-for-sense read of the new paragraphs waits for the jealousy answer, with the whole-article check.
 
 ### Before 2026-11-07 (the registered master, as recorded then)
 
@@ -206,37 +219,27 @@ Use exact r23r2 on `main` as the sole current Romance working authority. The nex
 
 ## Current checkpoint
 
-2026-11-07, the 16:24 UTC pickup. 17 of the 22 spots read Human with no Low window (S1, S3, S4, S5, S6, S8, S10, S11, S12,
-S13, S14, S15, S16, S18, S19, S20, and S22 in its section, #69). S7 and S9 have a Low line, S21 reads AI only on its closing
-sentence (#46), and S2 and S17 wait on the marking page for Joel's versions.
+2026-11-07, the 22:57 UTC pickup. Every spot and section his extension or a section check read AI now reads Human in its
+section, except "Jealousy on trial" 367 to 369, which wait for his version on the second marking page. S2 and S17 are
+his versions (#117, #118, one Human High window each). "Romance Shouldn't Be Adjudicated" reads Human with no Low (#122).
+"Beware idealization" reads Mostly Human with no AI window and five Low windows (#132): S8's 145 opener, 147's
+disclaimer, 148's first two sentences and 151's two sentences.
 
-Thirteen sections with open Low windows in the live post now read Human with no Low window in their own check: "My
-flaws" (#61), "Peeking thru the window" (#67), "Things get tricky fast" (#68), "Holding up a leaky dam" (#70), "The
-window of clarity" (#71), "Anti-PTSD Can Be Just As Dangerous As PTSD" (#73), "Muses & Directors" (#81), "The Queen of
-Orgasms" (#82), "Labels Are Descriptive, Not Prescriptive" (#84), "Disconnect to connect" (#88), "Slow & steady" (#96),
-"It always goes deeper" (#97) and "Fantasy" (#99); so does "After leaving", with S22 in it (#69). "Situationships"
-paragraph 34 reads Human with no Low by itself (#95); its section has had its two tries (#59, #86).
-
-Still AI: "Jealousy on trial" (367 to 369, #94), "Romance Shouldn't Be Adjudicated" (285 to 287, #98) and "Beware
-idealization" (148, #93). All three are his general claims about men, women, monogamy and idealization, said evenly.
-Each reads High by itself and AI in its section, his live wording included, and my joins don't move them. That is the
-pattern of S2's card on the marking page, so his answer there is the likeliest way to learn how he'd say these.
-
-What these checks showed: a section checked by itself reads harsher than the whole post did, and his general claims
-read AI there whatever the joins. His short sentences joined to what they belong with, a paragraph's point said first,
-and a claim left a little unbalanced ("without (most of) the responsibility") read High.
+What his versions taught (romance-2026-11-07a to d): lists of abstract nouns become particular things said different
+ways; someone's teaching is said as what they say; a rhetorical question becomes its reason; plain words and his
+register. They fixed Romance and Idealization. On Jealousy they fixed each paragraph alone and not the three together,
+and neither did idioms, scenes, people doing things, or the links a sense read asked for.
 
 ## Remaining
 
-1. S2 and S17: Joel's versions on the marking page; then carry what he did to the lines each card names, and to the
-   stretches that share S2's pattern ("Jealousy on trial" 367 to 369, "Romance Shouldn't Be Adjudicated" 285 to 287,
-   "Beware idealization" 148).
-2. "Situationships": one more check of the section after the fix (28a), with paragraph 34 as it read in #95.
-3. The sections with a fixed spot and open Low windows ("Some babies grow up faster", "Different levels in different
-   domains", "De-ontologizing Twin Flames"), each with the spot's best try in place; the 8 Low windows of the post's last
-   part (#47); S7's and S9's Low lines; S21's section.
-4. A whole-article check of the fixed version (a temporary draft for his extension, in two parts, since his extension
-   reads only the first 100,000 characters), then his post updated with his OK, no email.
+1. Jealousy 367 to 369: his version on the second marking page (REVIEW-T2); then its section check.
+2. "Beware idealization": its five Low windows (#132), after the fix.
+3. "Situationships": one more check of the section after the fix (28a), with paragraph 34 as it read in #95.
+4. The sections with a fixed spot and open Low windows ("Some babies grow up faster", "Different levels in different
+   domains", "De-ontologizing Twin Flames"); the 8 Low windows of the post's last part (#47); S7's and S9's Low lines;
+   S21's section.
+5. The word-for-sense read of the fixed version's new paragraphs, then a whole-article check (the two temporary drafts
+   re-pasted from `whole/REPLACEMENTS.json`, for his extension), then his post updated with his OK, no email.
 
 ## Blockers / unresolved
 
@@ -246,10 +249,11 @@ and a claim left a little unbalanced ("without (most of) the responsibility") re
 ## Evidence / artifacts
 
 - `humanize/fix-20261107/live-check/META.json`, `AI-WINDOWS.json`, `LOW-WINDOWS.json`; `humanize/fix-20261107/r01/` to
-  `r19/` (check texts, receipts, predictions, results, tell panels); `review/teach-20261107/` (the marking page for S2 and
-  S17: `build_t1.py`, `REVIEW-T1.md`, `ARTIFACT.md`); `humanize/pangram-ledger.jsonl`; `humanize/SCORECARD.md`.
+  `r26/` (check texts, receipts, predictions, results, tell panels); `humanize/fix-20261107/whole/` (the fixed version);
+  `review/teach-20261107/` (the marking pages: `build_t1.py`, `REVIEW-T1.md`, his `ANSWERS-T1.json`, `build_t2.py`,
+  `REVIEW-T2.md`, `SENSE-T2.md`, `ARTIFACT.md`); `humanize/pangram-ledger.jsonl`; `humanize/SCORECARD.md`.
 
 ## Next safe action
 
-Nothing more can be done without Joel: read his answers on the marking page for S2 and S17 when he gives them, then
-Remaining 1 and 2.
+Remaining 2 (the idealization Low windows) can go on without him; Remaining 1 waits for his answer on REVIEW-T2. Read his
+answers when he gives them, put his version in, check the jealousy section, then Remaining 5.

@@ -1,0 +1,61 @@
+{
+ "readers": [
+  "haiku",
+  "sonnet"
+ ],
+ "sentences": [
+  "The degree of idealization also predicts the degree of demonization for me.",
+  "I don’t mean this as a clinical diagnosis, but I use it almost diagnostically in my own life.",
+  "If a woman says, “You’re such a great guy.",
+  "Of course you have flaws like anyone, but I love you,” that sounds healthy.",
+  "If she says, “You’re perfect, I can’t find any flaw,” I’m already running.",
+  "When the BPD splitting happens, that worship can turn into hatred, first in private and then in front of everybody.",
+  "She rewrites our whole history until every flaw of mine looks like evidence I was faking it the whole time.",
+  "Sometimes the woman who thought I was perfect later accuses me of thinking I’m perfect."
+ ],
+ "flagged": {
+  "1": [
+   "haiku"
+  ],
+  "2": [
+   "haiku",
+   "sonnet"
+  ],
+  "3": [],
+  "4": [],
+  "5": [],
+  "6": [
+   "haiku",
+   "sonnet"
+  ],
+  "7": [
+   "haiku",
+   "sonnet"
+  ],
+  "8": [
+   "haiku",
+   "sonnet"
+  ]
+ },
+ "agreed": [
+  2,
+  6,
+  7,
+  8
+ ],
+ "whole": {
+  "haiku": [
+   "The paragraph is short, in first person, and moves in two beats, but its neat symmetry and closing reversal give it a constructed, polished shape more than a loose, spoken one."
+  ],
+  "sonnet": [
+   "The paragraph has a tidy shape: it states a principle, gives a healthy/unhealthy quote pair, explains the mechanism, then ends on an ironic reversal. Sentence lengths are even and polished, and the voice explains a pattern without any specific scene, name, or detail. Two short paragraphs each close on a neat beat."
+  ]
+ },
+ "human_clean": [
+  "I’m already running.",
+  "Of course you have flaws like anyone, but I love you,",
+  "I’m already running.",
+  "You’re such a great guy. Of course you have flaws like anyone, but I love you,",
+  "You’re perfect, I can’t find any flaw,"
+ ]
+}

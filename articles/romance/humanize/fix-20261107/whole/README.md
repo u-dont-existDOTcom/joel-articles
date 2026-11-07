@@ -1,14 +1,15 @@
 # The fixed version of the romance post, for its whole-article check (2026-11-07)
 
 The live post ("Romance Advice I Wish My Parents Taught Me", updated Aug 27, 2026) with every section's and spot's best
-tested text in place: 40 changes, 66 live paragraphs (`CHANGE-MAP.md`). S2 and S17 (on the marking page), the three
-stretches that share S2's pattern ("Beware idealization" 148, "Romance Shouldn't Be Adjudicated" 285 to 287, "Jealousy
-on trial" 367 to 369) and "Two Pillars" 332 (owner lock) are as the live post has them.
+tested text in place: 45 changes, 82 live paragraphs (`CHANGE-MAP.md`). His S2 and S17 are in, through the section checks that
+read Human with them (#117, #118), and so are "Romance Shouldn't Be Adjudicated" (#122) and "Beware idealization" (#132).
+"Jealousy on trial" 367 to 369 (on his second marking page) and "Two Pillars" 332 (owner lock) are as the live post has
+them.
 
 - `LIVE-INDEX.txt`: the post page's paragraph list (p, li, h2 to h4, in order; the h1 headings aren't in it), each with
   its tag and the first 12 hex characters of the SHA-256 of its text, whitespace collapsed. A list item shows twice in
   that list (its li and the p inside it).
-- `LIVE-CHANGED.json`: the live words of the 66 changed paragraphs, copied from the page and checked against those
+- `LIVE-CHANGED.json`: the live words of the 82 changed paragraphs, copied from the page and checked against those
   fingerprints.
 - `assemble.py`: aligns each check text with its live run by the fingerprints; `PLAN.json` holds each check's run and
   operations. `build.py` writes `CHANGE-MAP.json`, `CHANGE-MAP.md`, `REPLACEMENTS.json` (live paragraph to its new
