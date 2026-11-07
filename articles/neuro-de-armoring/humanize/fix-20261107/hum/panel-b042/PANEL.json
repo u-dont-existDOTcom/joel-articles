@@ -1,0 +1,33 @@
+{
+ "readers": [
+  "haiku",
+  "sonnet"
+ ],
+ "sentences": [
+  "The Repair (L-Serine): Your brain makes D-Serine out of L-Serine (Wolosker, et al, 1999), so taking L-Serine feeds the NMDA spot, and maybe the GluD channels too, that D-serine switches on, which is what helps a session that ends with low fear and some mastery stick.",
+  "The conversion isn't very efficient though, so some people take D-serine itself instead (more risk, but also more benefit)."
+ ],
+ "flagged": {
+  "1": [
+   "haiku",
+   "sonnet"
+  ],
+  "2": [
+   "haiku",
+   "sonnet"
+  ]
+ },
+ "agreed": [
+  1,
+  2
+ ],
+ "whole": {
+  "haiku": [
+   "The paragraph reads as a smooth, evenly balanced explainer, with two long, well-joined sentences that each end on a neat payoff and no concrete voice, scene or first-person stake, so the overall rhythm and construction feel machine-made."
+  ],
+  "sonnet": [
+   "Two sentences, each doing a tidy job (mechanism, then caveat with workaround), with a smooth explanatory rhythm and no digression or personal angle. It reads like a competent summary built to inform, not a voice."
+  ]
+ },
+ "human_clean": []
+}

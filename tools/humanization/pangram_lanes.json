@@ -61,6 +61,12 @@
    "article": "romance",
    "ledger": "articles/romance/humanize/pangram-ledger.jsonl",
    "legacy": []
+  },
+  {
+   "lane": "neuro de-armoring article",
+   "article": "neuro-de-armoring",
+   "ledger": "articles/neuro-de-armoring/humanize/pangram-ledger.jsonl",
+   "legacy": []
   }
  ]
 }

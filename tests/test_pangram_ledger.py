@@ -597,5 +597,21 @@ class FirstFix(SenseGate):
 
 
 
+class LanesCoverEveryLedger(unittest.TestCase):
+    """Gate neuro-2026-11-07g: every lane's ledger is listed in tools/humanization/pangram_lanes.json, so no lane's
+    checks go uncounted. The neuro de-armoring lane had 153 rows on no scorecard for four days, because nothing
+    listed the lanes but that file and nothing checked it."""
+
+    def test_every_ledger_in_the_repository_is_a_lane(self):
+        root = pathlib.Path(__file__).resolve().parents[1]
+        lanes = json.loads((root / 'tools/humanization/pangram_lanes.json').read_text(encoding='utf-8'))
+        listed = {l['ledger'] for l in lanes['lanes']}
+        for led in sorted(root.glob('articles/*/humanize/pangram-ledger.jsonl')):
+            rel = led.relative_to(root).as_posix()
+            self.assertIn(rel, listed,
+                          '%s is not a lane in tools/humanization/pangram_lanes.json, so its checks are on no '
+                          'scorecard (gate neuro-2026-11-07g)' % rel)
+
+
 if __name__ == '__main__':
     unittest.main()

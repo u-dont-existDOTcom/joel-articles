@@ -1,0 +1,69 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-07",
+ "text_sha256": "4f765f2ce59d8d026cf6248d8a99a0c0479faaf08c3a7049ce211a757b20e475",
+ "text": "The Mechanism: When glutamate floods in, it jams open the NMDA receptors, the doors glutamate opens on a brain cell, like a key stuck in the \"On\" position, and calcium pours in through them. Calcium that high kills the cell only in extremes, a stroke or a brain injury, and that killing is what \"excitotoxicity\" means (Sattler & Tymianski, 2001), so a storm doesn't mean your neurons are dying. What you feel comes from where the glutamate lands, and under stress it rises in the amygdala, the part that flags threats (Wilson, 2015), so an amygdala firing too hard hands you threat: anxiety, rage, the \"itchy brain\", and never joy. Block the NMDA receptors there and anxious behaviour drops in animals (Boyle, 2013).",
+ "section": "B. The \"Overheating\" CPU: Glutamate Excitotoxicity",
+ "reader": "someone with trauma or in withdrawal who is anxious, wired, ruminating or raging, wanting to know what is going on in their brain and which of the protocol's tools does what",
+ "sentences": [
+  {
+   "s": "The Mechanism: When glutamate floods in, it jams open the NMDA receptors, the doors glutamate opens on a brain cell, like a key stuck in the \"On\" position, and calcium pours in through them.",
+   "payoff": "they learn what a glutamate flood does at the receptor, with NMDA receptors named in plain words",
+   "follows": "it opens the paragraph after the Problem names the flood"
+  },
+  {
+   "s": "Calcium that high kills the cell only in extremes, a stroke or a brain injury, and that killing is what \"excitotoxicity\" means (Sattler & Tymianski, 2001), so a storm doesn't mean your neurons are dying.",
+   "payoff": "they learn that cells die only in extremes, so their own storm isn't brain damage",
+   "follows": "it says what that calcium does when it goes far enough",
+   "link": "Calcium that high"
+  },
+  {
+   "s": "What you feel comes from where the glutamate lands, and under stress it rises in the amygdala, the part that flags threats (Wilson, 2015), so an amygdala firing too hard hands you threat: anxiety, rage, the \"itchy brain\", and never joy.",
+   "payoff": "they learn why the storm feels like threat and not like excitement: the circuit it lands in",
+   "follows": "it answers what the reader actually feels, after what the cells do",
+   "link": "What you feel comes from where the glutamate lands"
+  },
+  {
+   "s": "Block the NMDA receptors there and anxious behaviour drops in animals (Boyle, 2013).",
+   "payoff": "they learn that the claim has a test behind it",
+   "follows": "it gives the evidence for the sentence before",
+   "link": "the NMDA receptors there"
+  }
+ ],
+ "checked": [
+  {
+   "point": "excitotoxicity is \"literally vibrating cells to death\", and the feeling is the over-excitement itself",
+   "found": "the cell dies of calcium overload in extremes (Sattler & Tymianski 2001); the feeling follows the circuit, and stress raises glutamate in the amygdala (Wilson 2015), where NMDA blockers lower anxious behaviour (Boyle 2013)",
+   "still_needed": "yes: it is what the reader feels",
+   "fate": "changed"
+  }
+ ],
+ "placement": "where the block is now (block 37 of section B); its place in the section is unchanged",
+ "opens": {
+  "first_sentence": "The Mechanism: When glutamate floods in, it jams open the NMDA receptors, the doors glutamate opens on a brain cell, like a key stuck in the \"On\" position, and calcium pours in through them.",
+  "why_reading": "it tells the reader what a glutamate flood does inside their brain cells, which is the state the section is about"
+ },
+ "same_point": "none: read section B from its heading to section C for the glutamate mechanism, GluD, D-serine and the fixes; each point here is made once in the section",
+ "questions": {
+  "Q2": "N/A: no instruction in this paragraph; it explains a mechanism",
+  "Q3": "PASS: each thing is named exactly (NMDA receptors, calcium, the amygdala, GluD channels, cystine, zinc)",
+  "Q5": "PASS: each \"so\", \"and\" and \"since\" turns on the clause before it",
+  "Q7": "PASS: each fact is about the chemistry the reader is about to change with the protocol",
+  "Q8": "N/A: no group or list inside this paragraph",
+  "Q9": "PASS: one step a clause, with the small words that carry the relation kept",
+  "Q1": "PASS: each sentence opens on its own subject (the flood, calcium that high, what you feel, the test)",
+  "Q4": "PASS: NMDA receptors as the doors glutamate opens, the amygdala as the part that flags threats, excitotoxicity in the sentence that names it",
+  "Q6": "PASS: what happens, when it kills, what it feels like and why, the evidence"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}
