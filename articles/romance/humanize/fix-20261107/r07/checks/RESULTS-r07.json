@@ -1,0 +1,272 @@
+{
+ "r07-s21": {
+  "headline": "AI Detected",
+  "fraction_ai": 0.6812816262245178,
+  "words": 99,
+  "link": "https://www.pangram.com/history/e3f4d319-401d-4188-adbd-37a458b986ce",
+  "windows": [
+   {
+    "label": "Human",
+    "confidence": "Medium",
+    "words": 12,
+    "text": "We also find something like my warning in the New & Old Testaments."
+   },
+   {
+    "label": "Human",
+    "confidence": "Low",
+    "words": 22,
+    "text": "Ecclesiastes 5:4–6 says it is better not to make a vow than to make one and fail to keep it."
+   },
+   {
+    "label": "AI-Generated",
+    "confidence": "Medium",
+    "words": 24,
+    "text": "If you tell the priest you didn’t mean what you promised, the passage warns that God will be angry and destroy your work."
+   },
+   {
+    "label": "AI-Generated",
+    "confidence": "High",
+    "words": 41,
+    "text": "Matthew 5:33–37 and James 5:12 are stranger still beside wedding vows: let your “Yes” be “Yes” and your “No” be “No,” and anything beyond that comes from evil, which makes the extra promise itself look suspicious to me."
+   }
+  ],
+  "utc": "2026-11-07 14:37:29 UTC"
+ },
+ "r06-tail": {
+  "headline": "Mostly Human Written",
+  "fraction_ai": 0.04773472994565964,
+  "words": 2968,
+  "link": "https://www.pangram.com/history/4c19ec43-7972-4c74-baca-de57c2eb18d6",
+  "windows": [
+   {
+    "label": "Human",
+    "confidence": "High",
+    "words": 58,
+    "text": "(Human High, 58 words of his text: “It’s not always possible in that moment to change ” … “eeling, or play some song you both like.”)"
+   },
+   {
+    "label": "Human",
+    "confidence": "Medium",
+    "words": 7,
+    "text": "By now this probably sounds terribly artificial."
+   },
+   {
+    "label": "Human",
+    "confidence": "High",
+    "words": 45,
+    "text": "(Human High, 45 words of his text: “Is anyone actually going to do scheduled check-ins” … “is available to do some of the soothing?”)"
+   },
+   {
+    "label": "Human",
+    "confidence": "Medium",
+    "words": 6,
+    "text": "Well, yeah. It is painfully artificial."
+   },
+   {
+    "label": "Human",
+    "confidence": "High",
+    "words": 67,
+    "text": "(Human High, 67 words of his text: “In a healthy communal society, the couple would ha” … “ing head first into head over shoulders.”)"
+   },
+   {
+    "label": "Human",
+    "confidence": "Medium",
+    "words": 26,
+    "text": "But if you’re already married with children, advice about slowing down arrives a little late.\nI wish I had a special method for fixing that."
+   },
+   {
+    "label": "Human",
+    "confidence": "High",
+    "words": 120,
+    "text": "(Human High, 120 words of his text: “Mostly I learned the obvious thing the hard way: o” … “second later, said she hadn’t opened it.”)"
+   },
+   {
+    "label": "Human",
+    "confidence": "Medium",
+    "words": 33,
+    "text": "That drove me crazy. Why would she lie like that? She was lying, but “she lied” only named the momentary behavior. There was no strategy behind it, and she was usually quite honest."
+   },
+   {
+    "label": "Human",
+    "confidence": "High",
+    "words": 24,
+    "text": "Looking back, I could have understood the lie in the context of some kind of mental illness instead of treating it like strategic dishonesty."
+   },
+   {
+    "label": "Human",
+    "confidence": "Low",
+    "words": 5,
+    "text": "Some things were less mysterious."
+   },
+   {
+    "label": "Human",
+    "confidence": "High",
+    "words": 163,
+    "text": "(Human High, 163 words of his text: “They were acting as if the trust problem wasn’t th” … “ngs are at, the trust is out the window.”)"
+   },
+   {
+    "label": "Human",
+    "confidence": "Medium",
+    "words": 1,
+    "text": "Ouch."
+   },
+   {
+    "label": "Human",
+    "confidence": "High",
+    "words": 1017,
+    "text": "(Human High, 1017 words of his text: “I know that one from experience with my first 2 wi” … “ you might wanna find some new friends).”)"
+   },
+   {
+    "label": "Human",
+    "confidence": "Medium",
+    "words": 19,
+    "text": "But do it honestly, with the goal of helping the conflict, not just getting approval for your own interpretation."
+   },
+   {
+    "label": "Human",
+    "confidence": "Low",
+    "words": 17,
+    "text": "Both people should have a chance to speak, and good friends shouldn’t automatically validate either side."
+   },
+   {
+    "label": "Human",
+    "confidence": "Medium",
+    "words": 109,
+    "text": "I can believe a friend’s experience and still tell them that my ability to know what is really going on is extremely limited. If someone says, “I don’t have all the evidence,” I trust their thinking more. Living in community would help because your friends would not only hear two stories afterward. Sometimes they would actually see how the two of you treat each other when you argue.\nIf you’ve been there for someone, don’t abandon them in a crisis unless it’s unsafe for you to stay or they’re creating the crisis to keep you, or they aren’t willing to help themself."
+   },
+   {
+    "label": "Human",
+    "confidence": "Low",
+    "words": 7,
+    "text": "You may need to arrange other care."
+   },
+   {
+    "label": "Human",
+    "confidence": "Low",
+    "words": 14,
+    "text": "That doesn’t mean you have to pretend the romance still has a future."
+   },
+   {
+    "label": "Human",
+    "confidence": "High",
+    "words": 11,
+    "text": "Often times the breakup is hard, but the aftermath is worse."
+   },
+   {
+    "label": "Human",
+    "confidence": "Medium",
+    "words": 21,
+    "text": "Public demonization should be avoided, but I don’t think that means hiding the truth about the relationship to save face."
+   },
+   {
+    "label": "AI-Generated",
+    "confidence": "Low",
+    "words": 9,
+    "text": "Sometimes the truth is abuse, coercion, or serious deception."
+   },
+   {
+    "label": "AI-Generated",
+    "confidence": "Medium",
+    "words": 19,
+    "text": "How much you say, to whom, and how publicly depends on what happened and why you’re telling people."
+   },
+   {
+    "label": "AI-Generated",
+    "confidence": "High",
+    "words": 14,
+    "text": "A breakup can expose things you genuinely couldn’t see while you were bonded."
+   },
+   {
+    "label": "AI-Generated",
+    "confidence": "Low",
+    "words": 42,
+    "text": "Look at what you contributed, but also try to understand whatever was true in your ex’s perspective, including the conflicts they were carrying inside themselves, rather than one-dimensionalizing them.\nSometimes the easiest story is that they were fake all along."
+   },
+   {
+    "label": "AI-Generated",
+    "confidence": "High",
+    "words": 26,
+    "text": "Don’t grab that story just because it makes everything easier to explain, and don’t reject it if it really is the most parsimonious explanation."
+   },
+   {
+    "label": "AI-Generated",
+    "confidence": "Medium",
+    "words": 11,
+    "text": "Ask people who aren’t heavily invested in seeing your innocence."
+   },
+   {
+    "label": "AI-Generated",
+    "confidence": "Low",
+    "words": 17,
+    "text": "A therapist, pastor, or even a stranger may see the evidence more clearly than a lifelong friend."
+   },
+   {
+    "label": "Human",
+    "confidence": "Low",
+    "words": 26,
+    "text": "Even the curiosity itself can be therapeutic for you.\nSpiritual practice during an ending is critical, but don’t use it to get around the feelings."
+   },
+   {
+    "label": "Human",
+    "confidence": "Medium",
+    "words": 41,
+    "text": "Pray for your ex’s wellbeing. Remember what was real and good, and don’t use your pain as permission to hate them. Avoid the New Age belief that everyone is simply a mirror of you. No, that isn’t true."
+   },
+   {
+    "label": "Human",
+    "confidence": "Low",
+    "words": 19,
+    "text": "We partly mirror one another, but each person was formed by plenty that had nothing to do with you."
+   },
+   {
+    "label": "Human",
+    "confidence": "High",
+    "words": 16,
+    "text": "No matter how enlightened the Buddha was, his cousin Devadatta still kept trying to kill him."
+   },
+   {
+    "label": "Human",
+    "confidence": "Low",
+    "words": 9,
+    "text": "Looking honestly at your part doesn’t erase theirs."
+   },
+   {
+    "label": "Human",
+    "confidence": "Medium",
+    "words": 8,
+    "text": "Sometimes it helps to ask, “What would Mr."
+   },
+   {
+    "label": "Human",
+    "confidence": "High",
+    "words": 26,
+    "text": "Rogers do?” (if you’re old enough to remember that show).\nI also learned that public demonization doesn’t always have to be the last chapter."
+   },
+   {
+    "label": "Human",
+    "confidence": "Medium",
+    "words": 26,
+    "text": "If you avoid contact forever, they might never apologize and learn honesty. But it can help to keep distance for a while until cooler heads prevail."
+   },
+   {
+    "label": "Human",
+    "confidence": "High",
+    "words": 66,
+    "text": "(Human High, 66 words of his text: “It can be tempting to let them back into your life” … “elationships was beneficial or destined.”)"
+   },
+   {
+    "label": "Human",
+    "confidence": "Low",
+    "words": 8,
+    "text": "Loss taught me things love alone never would."
+   },
+   {
+    "label": "Human",
+    "confidence": "High",
+    "words": 815,
+    "text": "(Human High, 815 words of his text: “And to paraphrase Rumi, “You must keep breaking yo” … “ur hearts regardless of whether it ends.”)"
+   }
+  ],
+  "utc": "2026-11-07 14:37:39 UTC"
+ }
+}
