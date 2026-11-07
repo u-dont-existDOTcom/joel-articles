@@ -1,0 +1,18 @@
+{
+ "check": "PASS",
+ "asked": "Joel, 2026-11-07 12:10 UTC: \"link askrigor to askrigor.com and then post the article pls thanks\"; his standing rule for this post since 2026-11-04 20:27 UTC: \"don't email anyone\"",
+ "post": {
+  "id": 176569317,
+  "url": "https://ibogaqueen.substack.com/p/healing-the-gut-naturally",
+  "audience": "only_paid",
+  "post_date": "2025-10-25T15:51:26.358Z",
+  "updated_at": "2026-11-07T12:16:35.631Z",
+  "wordcount_substack": 4162
+ },
+ "before": "The editor's text blocks equal r12's, what the second update put in on 2026-11-04 (UPDATE-PLAN-4.json's base, 95 of 95): he hadn't changed the post since. The third update (r17) was never put in. Substack's empty paragraph above the opening picture was there again (55 top-level nodes); update2.js keeps it.",
+ "what_went_in": "r33 (r33/live-update/r33.html, SHA-256 e0ee6db16b6fc02979c1e1cdb6bf49b71e1f91e55abe9c67618a66a5e4b75f66): r12 with every answer since in (batches 9 to 14), oxytocin's gloss corrected, Pooyan's news, and AskRigor linked to askrigor.com twice. Its text read Human in the whole article (draft E, #208, every window Human, no Low) apart from two changes checked in place (#209, #210).",
+ "how": "UPDATE-PLAN-4.json (SHA-256 f87e6ec4996501e4702d142f2a7761f3c3a386719d04e68e448925b322637f2f) and r33.html fetched in the post's editor tab, in the desktop app's built-in browser, from commit 730b7a1a94ebb6f1867f8fd638c7739e0026e0f3 and checked by SHA-256; update2.js (gate E332) replaced only the 25 top-level nodes whose text changed (25 steps), every other node kept as the same object, the six native blocks carried as the same nodes, the 36 links in order (the two new ones to askrigor.com among them), the result's 95 blocks equal to the plan's; dispatch.js applied it. The draft saved (12:15:43 UTC), its draft_body read back equal to the plan, 95 blocks. Continue, then 'Update now' with every setting as it was: audience Paid subscribers only, comments Paid subscribers only, 'Send via email and the Substack app' unchecked (checked by the script before the click), nothing scheduled.",
+ "after": "The published post, read through Substack's API in the signed-in tab: its 86 text blocks equal to the plan's (body_html SHA-256 80c550af487fbc200887a4ef63d587d5f1a2fa9dadac99b6b5ae440542ea48e4, 39,946 characters), two links to askrigor.com, audience only_paid, updated_at 2026-11-07T12:16:35Z, post_date unchanged; the draft API: should_send_email false, email_sent_at null. The post's page, rendered in the built-in browser: 75 lines, 24,039 characters, SHA-256 dcc147ee34d862312a7291fee020881c13f629629e9260733f17ec80c13ed060, equal to r33/live-update/EXPECTED-TEXT-r33.txt character for character (E362 (gut)); 127 curled marks and no straight one.",
+ "date_in_title_or_subtitle": "none, as before (E323 had nothing to change)",
+ "not_done": "nothing shared from the share page Substack opened after the update"
+}

@@ -9,3 +9,5 @@ Joel, 20:27 UTC: "publish it (don't email anyone)". His post [Healing the Gut Na
 - **His date rule (E323):** the post has no date or version in its title or subtitle, so there was nothing to change.
 
 **The next update** comes after his batch-8 answers (`../r11/b8/`). Rebuild the plan with `make_plan.py NEW.html`, with `base` taken from r11 (not the master), and check the editor against r11's blocks before anything changes (E332). Run a web-app check on each changed paragraph first.
+
+**The update of 7 November** (Joel, 12:10 UTC: "post the article"): r33 went in at 12:16 UTC the same way, with `UPDATE-PLAN-4.json` (base r12, which the editor still held) and no email; the live text equals the checked text character for character. Every step and check: `LIVE-CHECK-20261107.json`.
