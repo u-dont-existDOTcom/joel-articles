@@ -1,0 +1,50 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-07",
+ "text_sha256": "65575e91fc036d94d234a2fbe79668750ed201b85ab5431cac9ba1b4ea345926",
+ "text": "A hand on the heart can change the direction of a trip, especially when the problem is emotional contraction, grief, fear, or loneliness. There's no need to manufacture loving thoughts, you're just giving the body one simple signal: love is here.",
+ "section": "Hand on Heart and Gratitude, its first paragraph",
+ "reader": "someone on a hard trip, or sitting with one, looking for something simple to do",
+ "sentences": [
+  {
+   "s": "A hand on the heart can change the direction of a trip, especially when the problem is emotional contraction, grief, fear, or loneliness.",
+   "payoff": "they know a hand on the heart can turn a trip, and when",
+   "follows": "the section's point, under its heading"
+  },
+  {
+   "s": "There's no need to manufacture loving thoughts, you're just giving the body one simple signal: love is here.",
+   "payoff": "they know it is a signal to the body, not forced thoughts",
+   "follows": "what the hand is for",
+   "link": "loving thoughts"
+  }
+ ],
+ "checked": [],
+ "placement": "Hand on Heart and Gratitude, its first paragraph",
+ "opens": {
+  "first_sentence": "A hand on the heart can change the direction of a trip, especially when the problem is emotional contraction, grief, fear, or loneliness.",
+  "why_reading": "the heading names the hand on the heart; this says when it helps and what it does"
+ },
+ "same_point": "none: read the section from its heading to the next for the hand on the heart, the inner child and all beings, gratitude and touch",
+ "questions": {
+  "Q1": "PASS: the paragraph opens on its point",
+  "Q2": "PASS: the reader's own acts, each with what it is for",
+  "Q3": "PASS: which problems: contraction, grief, fear, loneliness; which signal: love is here",
+  "Q4": "PASS: no terms a reader would not know",
+  "Q5": "PASS: what it can do, then what it is not and what it is",
+  "Q6": "PASS: point, then how",
+  "Q7": "PASS: about the trip in front of them",
+  "Q8": "PASS: one point",
+  "Q9": "PASS: nothing compressed"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

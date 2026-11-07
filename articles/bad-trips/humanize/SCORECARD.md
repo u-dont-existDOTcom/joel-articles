@@ -8,7 +8,7 @@ Built by `tools/humanization/pangram_ledger.py build` from `articles/bad-trips/h
 |---|---|---|---|---|---|---|
 | Pangram 4.1 extension (free, live post; Joel's check of 2026-10-18, the same text as his 2026-11-03 paste by SHA-256) | 1 | 1 (100%) | 100% | 0% | 0% | 0.000 (base 0.000, 1) |
 | Pangram web app (his account, Pangram Professional) | 3 | 3 (100%) | 100% | 0% | 0% | 0.092 (base 0.000, 3) |
-| Pangram web app (his account, Pangram Professional), through the Claude desktop app's browser pane | 237 | 218 (92%) | 87% | 13% | 13% | 0.126 (base 0.111, 237) |
+| Pangram web app (his account, Pangram Professional), through the Claude desktop app's browser pane | 267 | 246 (92%) | 87% | 13% | 12% | 0.124 (base 0.111, 267) |
 | pangram 4.1, the web app: Joel's account, run by the lane in the desktop app's browser pane (E356) | 8 | 6 (75%) | 50% | 50% | 75% | 0.170 (base 0.250, 8) |
 
 ## Pangram 4.1 extension (free, live post; Joel's check of 2026-10-18, the same text as his 2026-11-03 paste by SHA-256)
@@ -56,26 +56,26 @@ Calibration:
 
 | window | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| the latest 50 | 50 | 45 (90%) | 86% | 14% | 8% | 0.116 (base 0.120, 50) |
-| the latest 100 | 100 | 93 (93%) | 91% | 9% | 4% | 0.105 (base 0.082, 100) |
-| all | 237 | 218 (92%) | 87% | 13% | 13% | 0.126 (base 0.111, 237) |
+| the latest 50 | 50 | 45 (90%) | 84% | 16% | 10% | 0.121 (base 0.134, 50) |
+| the latest 100 | 100 | 93 (93%) | 89% | 11% | 6% | 0.106 (base 0.098, 100) |
+| all | 267 | 246 (92%) | 87% | 13% | 12% | 0.124 (base 0.111, 267) |
 
 The boundary mix (what was checked; accuracy differs a lot between a paragraph and a section):
 
 | scope or kind | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| section | 52 | 49 (94%) | 92% | 8% | 13% | 0.089 (base 0.071, 52) |
-| paragraph | 138 | 126 (91%) | 85% | 15% | 12% | 0.124 (base 0.129, 138) |
+| section | 60 | 57 (95%) | 93% | 7% | 12% | 0.085 (base 0.062, 60) |
+| paragraph | 160 | 146 (91%) | 84% | 16% | 12% | 0.125 (base 0.132, 160) |
 | pair | 47 | 43 (91%) | 89% | 11% | 15% | 0.171 (base 0.095, 47) |
 
 Calibration:
 
 | my chance of a 100% Human result | calls | mean chance | read Human |
 |---|---|---|---|
-| 0.0 to 0.2 | 19 | 0.13 | 0% |
-| 0.2 to 0.4 | 136 | 0.29 | 5% |
-| 0.4 to 0.6 | 71 | 0.45 | 18% |
-| 0.6 to 0.8 | 12 | 0.68 | 83% |
+| 0.0 to 0.2 | 22 | 0.14 | 0% |
+| 0.2 to 0.4 | 157 | 0.29 | 5% |
+| 0.4 to 0.6 | 77 | 0.45 | 21% |
+| 0.6 to 0.8 | 13 | 0.68 | 85% |
 | 0.8 to 1.0 | 1 | 0.80 | 100% |
 
 ## pangram 4.1, the web app: Joel's account, run by the lane in the desktop app's browser pane (E356)
@@ -99,11 +99,11 @@ Calibration:
 | 0.4 to 0.6 | 6 | 0.49 | 33% |
 | 0.6 to 0.8 | 3 | 0.67 | 100% |
 
-## Misses since the ledger (21)
+## Misses since the ledger (23)
 
 | cause | misses |
 |---|---|
-| context | 6 |
+| context | 8 |
 | in place | 4 |
 | shape echo | 1 |
 | parallel frames kept | 1 |
@@ -121,8 +121,6 @@ The latest:
 
 | check | lineage, try | said | read | cause |
 |---|---|---|---|---|
-| [bt-room1-fix-3](https://www.pangram.com/history/b2a7067f-443e-4caa-91c2-34a748bb9cc6) | bad-trips PFA room, first part: the room's questions and the annoying room (B238, B239), 3 | Human | AI or mixed | one sentence changed |
-| [bt-room-stretch-1](https://www.pangram.com/history/34d92f15-18c7-4849-9972-983239961bf9) | bad-trips PFA room stretch in place: my first part with his second (B238 to B241), 1 | Human | AI or mixed | in place |
 | [bt-room-stretch-2](https://www.pangram.com/history/3d9ca55e-df3a-4ea4-8866-2d6071ba1b10) | bad-trips PFA room stretch in place: my first part with his second (B238 to B241), 2 | Human | AI or mixed | in place |
 | [bt-room-stretch-4](https://www.pangram.com/history/6808a624-26bf-48d8-a5d9-96252b6c95e9) | bad-trips PFA room stretch in place: my first part with his second (B238 to B241), 4 | Human | AI or mixed | in place |
 | [bt-dangers-heading](https://www.pangram.com/history/2745e050-1573-4da8-9c6a-ba510f0a80e6) | bad-trips PFA dangers paragraph with the section heading, 1 | AI | Human | context |
@@ -136,6 +134,8 @@ The latest:
 | [bt-other-o5b](https://www.pangram.com/history/3a876120-b490-4361-a0b4-ff0d60d7c791) | bad-trips The Other Bypass after the Human section, O5, 2 | Human | AI or mixed | in place |
 | [bt-why-W1](https://www.pangram.com/history/922960db-ae8a-426d-8b07-7edc0eb9e1ea) | bad-trips Why Bad Trips Tend to Happen after the Human section, W1, 1 | AI | Human | context |
 | [bt-give-G2](https://www.pangram.com/history/635b3f13-4c07-43fc-88e6-3e3ef31ac41c) | bad-trips Give the Session a Beginning and an End after the Human section, G2, 1 | AI | Human | context |
+| [bt-hand-H3](https://www.pangram.com/history/0bfd3530-3a34-45e8-b745-4790f043e06c) | bad-trips Hand on Heart after the Human section, H3, 1 | AI | Human | context |
+| [bt-demon-DF](https://www.pangram.com/history/c8a28685-11ef-431e-8b64-68eb96089247) | bad-trips Demons, Jinn, Entities after the Human section, DF, 1 | AI | Human | context |
 
 ## Lineages still open (tries used of the cap)
 
@@ -260,4 +260,23 @@ The latest:
 | bad-trips Give the Session a Beginning and an End as the guide has it | section | 1 of 2 | AI |
 | bad-trips Give the Session a Beginning and an End after the Human section | section | 1 of 2 | Mixed |
 | bad-trips Give the Session a Beginning and an End after the Human section, G1 | paragraph | 2 of 6 | Mixed |
+| bad-trips The Fear/Panic Loop as the guide has it | section | 1 of 2 | AI |
+| bad-trips The Fear/Panic Loop after the Human section | section | 1 of 2 | Mixed |
+| bad-trips The Fear/Panic Loop after the Human section, F1 | paragraph | 2 of 6 | AI |
+| bad-trips The Fear/Panic Loop after the Human section, F2 | paragraph | 1 of 6 | Mixed |
+| bad-trips Dealing With Sorrow as the guide has it | section | 1 of 2 | Mixed |
+| bad-trips Dealing With Sorrow after the Human section | section | 1 of 2 | Mixed |
+| bad-trips Dealing With Sorrow after the Human section, S2 | paragraph | 2 of 6 | Mixed |
+| bad-trips Dealing With Sorrow after the Human section, S3 | paragraph | 2 of 6 | AI |
+| bad-trips Hand on Heart as the guide has it | section | 1 of 2 | AI |
+| bad-trips Hand on Heart after the Human section | section | 1 of 2 | Mixed |
+| bad-trips Hand on Heart after the Human section, H1 | paragraph | 2 of 6 | Mixed |
+| bad-trips Hand on Heart after the Human section, H2 | paragraph | 1 of 6 | Mixed |
+| bad-trips Hand on Heart after the Human section, HT | paragraph | 1 of 6 | Mixed |
+| bad-trips Demons, Jinn, Entities as the guide has it | section | 1 of 2 | AI |
+| bad-trips Demons, Jinn, Entities after the Human section | section | 1 of 2 | Mixed |
+| bad-trips Demons, Jinn, Entities after the Human section, DB | paragraph | 2 of 6 | Mixed |
+| bad-trips Demons, Jinn, Entities after the Human section, DC | paragraph | 2 of 6 | Mixed |
+| bad-trips Demons, Jinn, Entities after the Human section, DD | paragraph | 2 of 6 | Mixed |
+| bad-trips Demons, Jinn, Entities after the Human section, DE | paragraph | 1 of 6 | AI |
 
