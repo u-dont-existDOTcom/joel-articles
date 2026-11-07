@@ -1,0 +1,225 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-07",
+ "text_sha256": "ef8b2c02cefb2a866efcf6e19dccb872fc26bb9eac26759c34f590e6e271690c",
+ "text": "Before the wisdom window closes, the main thing is to find out whether you are actually compatible. Do you have the same goals and values, especially around children, religion, politics, health, love, and romance? Where do you want to live? Do you both want to find a community? What kind of relationship do you want with technology and money?\n\nAsk deep questions. Conversation-card games may seem silly, but they can help people get past superficial talk and see if they’re compatible.\n\nBut asking, “How do you handle jealousy?” can get me a beautiful answer that tells me almost nothing. I’d rather ask what she thinks she would do in an actual situation. If all she can give me is a general answer, I assume she probably doesn’t know yet.\n\nA card game can create its own little high too. If we spend two hours telling each other things nobody else knows, we may feel incredibly understood and close, but that may mean the game worked without telling us whether the relationship will.\n\nYou can also bring the person to a party and see how they act, bring them around your family or friends, or take them to activities you enjoy and see if they really enjoy them too. Try doing what you would normally do in your day alone, but with them, and see how it feels. Is it weird? Are they wondering why you do this stuff? Do they look bored, like they’d rather just hit you up later than be with you while you’re doing ordinary stuff? Can you guys be normal together and not just romantic or dating?\n\nSee their negative side first too. If there is no negative side, that’s a red flag for fakery. Ask whether the spiritual story they tell about themselves survives an inconvenient PMS afternoon. How recent is the healing story—two months or two years? Jealousy, abandonment, possessiveness, and the “I’m so much better than I used to be” story may not be understood until there is stress and entanglement. By then, of course, you’re stressed and entangled. 😆\n\nSometimes the only thing I have is a little “wait” feeling. It doesn’t prove anything. But if I’m about to ignore a question because I really want this to work, that’s enough reason for me to ask the question before I keep going.\n\nIf they’re nasty to their friends, family, or other people, assume they will eventually be nasty to you. We mostly seem to get attracted to the inner-child part because we’re coming from our inner child and we want to have fun. But you also need to find out whether there is a healthy adult there before you’re too bonded to want the answer.",
+ "section": "Peeking thru the window",
+ "reader": "Someone dating a new person, deciding how to find out whether they are compatible before the bond clouds it.",
+ "sentences": [
+  {
+   "s": "Before the wisdom window closes, the main thing is to find out whether you are actually compatible.",
+   "payoff": "the reader learns before the window closes, find out whether you are compatible",
+   "follows": "opens the section"
+  },
+  {
+   "s": "Do you have the same goals and values, especially around children, religion, politics, health, love, and romance?",
+   "payoff": "the reader learns do you share goals and values on children, religion, politics, health, love and romance?",
+   "follows": "the first question",
+   "link": "Do you have the same goals"
+  },
+  {
+   "s": "Where do you want to live?",
+   "payoff": "the reader learns where do you want to live?",
+   "follows": "the next question",
+   "link": "Where do you want to live"
+  },
+  {
+   "s": "Do you both want to find a community?",
+   "payoff": "the reader learns do you both want a community?",
+   "follows": "the next question",
+   "link": "Do you both want to find a community"
+  },
+  {
+   "s": "What kind of relationship do you want with technology and money?",
+   "payoff": "the reader learns what relationship do you want with technology and money?",
+   "follows": "the next question",
+   "link": "What kind of relationship"
+  },
+  {
+   "s": "Ask deep questions.",
+   "payoff": "the reader learns ask deep questions",
+   "follows": "how to find out",
+   "link": "Ask deep questions"
+  },
+  {
+   "s": "Conversation-card games may seem silly, but they can help people get past superficial talk and see if they’re compatible.",
+   "payoff": "the reader learns card games may seem silly but get you past small talk",
+   "follows": "a way to ask them",
+   "link": "Conversation-card games"
+  },
+  {
+   "s": "But asking, “How do you handle jealousy?” can get me a beautiful answer that tells me almost nothing.",
+   "payoff": "the reader learns asking how she handles jealousy gets a beautiful, empty answer",
+   "follows": "where questions fail",
+   "link": "But asking"
+  },
+  {
+   "s": "I’d rather ask what she thinks she would do in an actual situation.",
+   "payoff": "the reader learns he would rather ask what she would do in a real situation",
+   "follows": "what he asks instead",
+   "link": "I’d rather ask"
+  },
+  {
+   "s": "If all she can give me is a general answer, I assume she probably doesn’t know yet.",
+   "payoff": "the reader learns a general answer tells him she doesn’t know yet",
+   "follows": "how he reads the answer",
+   "link": "If all she can give me"
+  },
+  {
+   "s": "A card game can create its own little high too.",
+   "payoff": "the reader learns a card game makes its own little high",
+   "follows": "a risk in the games",
+   "link": "A card game can create"
+  },
+  {
+   "s": "If we spend two hours telling each other things nobody else knows, we may feel incredibly understood and close, but that may mean the game worked without telling us whether the relationship will.",
+   "payoff": "the reader learns two hours of secrets can feel close, but it shows only the game worked, not the relationship",
+   "follows": "what the high means",
+   "link": "If we spend two hours"
+  },
+  {
+   "s": "You can also bring the person to a party and see how they act, bring them around your family or friends, or take them to activities you enjoy and see if they really enjoy them too.",
+   "payoff": "the reader learns take them to a party, your family or friends, and your activities, and watch",
+   "follows": "another way to find out",
+   "link": "You can also bring the person"
+  },
+  {
+   "s": "Try doing what you would normally do in your day alone, but with them, and see how it feels.",
+   "payoff": "the reader learns do your usual day with them and see how it feels",
+   "follows": "one more way",
+   "link": "Try doing what you would normally do"
+  },
+  {
+   "s": "Is it weird?",
+   "payoff": "the reader learns is it weird?",
+   "follows": "the first thing to notice",
+   "link": "Is it weird?"
+  },
+  {
+   "s": "Are they wondering why you do this stuff?",
+   "payoff": "the reader learns do they wonder why you do this?",
+   "follows": "the next thing to notice",
+   "link": "Are they wondering"
+  },
+  {
+   "s": "Do they look bored, like they’d rather just hit you up later than be with you while you’re doing ordinary stuff?",
+   "payoff": "the reader learns do they look bored, wanting to see you later instead?",
+   "follows": "the next thing to notice",
+   "link": "Do they look bored"
+  },
+  {
+   "s": "Can you guys be normal together and not just romantic or dating?",
+   "payoff": "the reader learns can you be normal together, not just romantic?",
+   "follows": "the last thing to notice",
+   "link": "Can you guys be normal"
+  },
+  {
+   "s": "See their negative side first too.",
+   "payoff": "the reader learns see their negative side first too",
+   "follows": "what else to see early",
+   "link": "See their negative side first too"
+  },
+  {
+   "s": "If there is no negative side, that’s a red flag for fakery.",
+   "payoff": "the reader learns no negative side is a red flag for fakery",
+   "follows": "why it matters",
+   "link": "If there is no negative side"
+  },
+  {
+   "s": "Ask whether the spiritual story they tell about themselves survives an inconvenient PMS afternoon.",
+   "payoff": "the reader learns test whether their spiritual story survives a bad afternoon",
+   "follows": "a test for it",
+   "link": "Ask whether the spiritual story"
+  },
+  {
+   "s": "How recent is the healing story—two months or two years?",
+   "payoff": "the reader learns how recent is their healing story?",
+   "follows": "a question for it",
+   "link": "How recent is the healing story"
+  },
+  {
+   "s": "Jealousy, abandonment, possessiveness, and the “I’m so much better than I used to be” story may not be understood until there is stress and entanglement.",
+   "payoff": "the reader learns jealousy, abandonment, possessiveness and the better-than-before story show only under stress",
+   "follows": "when the negative side shows",
+   "link": "Jealousy, abandonment, possessiveness"
+  },
+  {
+   "s": "By then, of course, you’re stressed and entangled. 😆",
+   "payoff": "the reader learns by then you are stressed and entangled",
+   "follows": "the catch in that",
+   "link": "By then, of course"
+  },
+  {
+   "s": "Sometimes the only thing I have is a little “wait” feeling.",
+   "payoff": "the reader learns sometimes all he has is a little \"wait\" feeling",
+   "follows": "his own signal",
+   "link": "Sometimes the only thing I have"
+  },
+  {
+   "s": "It doesn’t prove anything.",
+   "payoff": "the reader learns the feeling proves nothing",
+   "follows": "what it is worth",
+   "link": "It doesn’t prove anything"
+  },
+  {
+   "s": "But if I’m about to ignore a question because I really want this to work, that’s enough reason for me to ask the question before I keep going.",
+   "payoff": "the reader learns if he is about to skip a question because he wants it to work, he asks it",
+   "follows": "what he does with it",
+   "link": "But if I’m about to ignore a question"
+  },
+  {
+   "s": "If they’re nasty to their friends, family, or other people, assume they will eventually be nasty to you.",
+   "payoff": "the reader learns if they are nasty to others, they will be to you",
+   "follows": "a warning sign",
+   "link": "If they’re nasty to their friends"
+  },
+  {
+   "s": "We mostly seem to get attracted to the inner-child part because we’re coming from our inner child and we want to have fun.",
+   "payoff": "the reader learns we are drawn to the inner child because ours wants fun",
+   "follows": "why we miss it",
+   "link": "We mostly seem to get attracted"
+  },
+  {
+   "s": "But you also need to find out whether there is a healthy adult there before you’re too bonded to want the answer.",
+   "payoff": "the reader learns find out whether a healthy adult is there before you are too bonded",
+   "follows": "what to find out",
+   "link": "But you also need to find out"
+  }
+ ],
+ "checked": [
+  {
+   "point": "the Low windows’ points",
+   "found": "the live post (../../live-check/LOW-WINDOWS.json)",
+   "still_needed": "yes: the section needs them",
+   "fate": "changed"
+  }
+ ],
+ "placement": "The whole section, in its place in the live post, its heading left out.",
+ "opens": {
+  "first_sentence": "Before the wisdom window closes, the main thing is to find out whether you are actually compatible.",
+  "why_reading": "It tells the reader the main thing to find out before the window closes."
+ },
+ "same_point": "none: read the section from its heading to the next for these points; each is made once, here",
+ "questions": {
+  "Q1": "PASS: each changed sentence gives its point first, in plain words",
+  "Q2": "N/A: these sections tell and ask; the advice in them is unchanged",
+  "Q3": "PASS: the people, places, numbers and things are named as in the live post",
+  "Q4": "PASS: no new term",
+  "Q5": "PASS: each sentence’s tie is in its words (the links field), or the link says why it needs none",
+  "Q6": "PASS: the order is the live post’s; the joins named in texts.py keep it",
+  "Q7": "PASS: each change keeps what the section tells the reader about their own case",
+  "Q8": "PASS: no item moved between groups",
+  "Q9": "PASS: one step per sentence in the changed paragraphs"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

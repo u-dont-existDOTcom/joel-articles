@@ -1,0 +1,12 @@
+"""r10's check texts in the romance article (2026-11-07): the paragraphs of two sections checked by themselves, the
+narrowing the section gate asks for after a section read Mixed (E343). "Holding up a leaky dam" (#51): paragraph 175 with
+its Sometimes join, which read Human Medium there, and paragraph 176 with his reason moved ahead of his list, his words.
+"After leaving" (S22, #50): its three paragraphs, keeping the verbs that read Human Medium and leaving out what read AI
+(the denial said as a feeling, a reason fastened with because-otherwise)."""
+TEXTS = {
+ "r10-dam175": "Once I’m attached, “I’m taking a chance on her” starts turning into “she’s the right person” after we’ve been together for a while. Based on what? Sometimes I actually learned something, and sometimes nothing changed except that now I’m attached, so the new certainty is just harder for me to question.",
+ "r10-dam176": "If I have sex with somebody quickly, that’s a reason not to move in quickly too. Moving in together right away is basically getting into a common-law marriage without discussing it. It’s too easy for me to assume the relationship is going well just because we’re already entangled. So I want us to keep seeing friends, have some kind of community around the relationship, and pick actual dates to ask how it’s going.",
+ "r10-s22a": "Often times the breakup is hard, but the aftermath is worse. Public demonization should be avoided, but I don’t think that means hiding the truth about the relationship to save face. Sometimes the truth is that you were abused, coerced, or seriously deceived. So how much you say, and to who, and how publicly, really depends on what happened and why you’re telling people.",
+ "r10-s22b": "Once you’re out, things you genuinely couldn’t see while you were bonded can start to show. Look at what you contributed, but also try to understand whatever was true in your ex’s perspective, including the conflicts they were carrying inside themselves, so they don’t turn into a cartoon villain in your head.",
+ "r10-s22c": "Sometimes the easiest story is that they were fake all along, because it explains everything. Grab it only if it really is the simplest explanation of what happened. People who aren’t invested in seeing your innocence can help you tell, and a therapist, pastor, or even a stranger may see the evidence more clearly than a lifelong friend. Even the curiosity itself can be therapeutic for you."
+}
