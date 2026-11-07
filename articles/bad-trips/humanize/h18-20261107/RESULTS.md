@@ -21,3 +21,9 @@ holds fidelity keys, so none is an E378 cut:
   Beginning and an End's "They do not force music, touch, interpretation, confession, prayer, or insight." (W105).
 Which copy stays is a card. Next: one sentence at a time on the "I am God" paragraph and the script lines (closest to Human),
 then the Don't list's card.
+
+## The "I am God" paragraph, one sentence changed
+
+Its last sentence said plainly ("Take it as a warning sign, and steer them back toward not hurting anyone."): [70%](https://www.pangram.com/history/ddb6b1ff-c25e-4134-8965-90a1f37bc3a0);
+its second as an instruction ("But don't nod along either, ..."): [63%](https://www.pangram.com/history/3c963add-d09a-480e-88fb-977ec6e048f0). Both read worse than the guide's own
+words (47%), which stay; the paragraph goes on the later list.
