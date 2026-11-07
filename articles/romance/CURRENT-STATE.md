@@ -36,6 +36,11 @@ with his OK and no email.
   S10 alone time read Human (High) in its section (#44), so it is done. The post's last 2,871 words, which his extension
   never read, checked as they stand (#47): Mostly Human, 4.8% AI, with a new spot, S22, and 8 Human Low windows. The live
   post's 54 Human Low windows saved (`live-check/LOW-WINDOWS.json`): 19 already rechecked by a fix, 35 (673 words) open.
+- 2026-11-07 (14:49 UTC pickup): S22's first try inside "After leaving" (#50, `humanize/fix-20261107/r08/`): one
+  sentence fixed, the rest still AI. The marking page for S2 and S17 published
+  ([the page](https://claude.ai/artifact/CMRNDtBm4bBRB3741geGoY), its cards in `review/teach-20261107/REVIEW-T1.md`).
+  The first Low-window section, "Holding up a leaky dam" (#51, `r09/`): its short sentences joined read Human Medium, but
+  the want list joined to its reason read AI Medium.
 
 ### Before 2026-11-07 (the registered master, as recorded then)
 
@@ -141,26 +146,24 @@ Use exact r23r2 on `main` as the sole current Romance working authority. The nex
 
 ## Current checkpoint
 
-2026-11-07, the 14:27 UTC pickup. 16 of the 21 spots read Human in their own checks or their sections with no Low window:
-S1, S3, S4, S5, S6, S8, S10, S11, S12, S13, S14, S15, S16, S18, S19, S20. Human with a Low line: S7, S9. Still AI: S2 the
-monastic perks (AI Medium on its poor-country sentence inside its section too, #48), S17 Kim Anami (inside its section,
-#45, her two sentences AI and three of his own sentences around them AI Low), S21 the extra promise (inside its section
-every window Human except its closing sentence, AI High, #46), and the new S22 in the post's last part (#47): seven AI
-windows in "After leaving", from "Sometimes the truth is abuse, coercion, or serious deception." to "A therapist, pastor,
-or even a stranger may see the evidence more clearly than a lifelong friend."
+2026-11-07, the 14:49 UTC pickup. 16 of the 21 spots read Human with no Low window (S1, S3, S4, S5, S6, S8, S10, S11, S12,
+S13, S14, S15, S16, S18, S19, S20); S7 and S9 have a Low line. S2 and S17 are on the marking page for Joel, waiting for his
+versions. S21 reads AI only on its closing sentence inside its section (#46). S22, in "After leaving", read 41% AI on its
+first try (#50): its noun list said with verbs read Human Medium; the triad, the seeing sentences, the denial said as a
+feeling, and the advice joined to its reason all read AI. In "Holding up a leaky dam" (#51), joining the short Sometimes
+sentences fixed three Low windows (Human Medium), and joining the want list to its reason made it AI Medium.
 
-What the sections showed: the two-paragraph checks misjudge both ways. S10 read AI in four pair checks and Human High in
-its section; S17's and S21's pair checks read his own sentences AI, which the sections read Human.
+What these checks keep showing: a reason fastened to a list or a comparison ("because otherwise", "Otherwise I end up")
+reads AI (S10, #19 and #35; the dam section, #51), and the two-paragraph checks misjudge both ways, so sections are the
+unit to check.
 
 ## Remaining
 
-1. S2 and S17 on the marking page for Joel with my tested tries, as the paragraphs he could teach most from (gate
-   bad-trips-2026-11-07c). The page shows their two sections, not the whole post: the live post isn't in the repository
-   whole, and its 116,586 characters can't be carried over from the browser here.
-2. S22: first tries, checked inside "After leaving".
-3. S21: its section's last try (the gate asks for the section's paragraphs to be narrowed first; #49 did that), or the
-   marking page with S2 and S17.
-4. The open Human Low windows (`live-check/LOW-WINDOWS.json`), then S7's and S9's Low lines.
+1. S2 and S17: Joel's versions on the marking page; then carry what he did to the lines each card names.
+2. S22: the section gate asks for its paragraphs checked by themselves before the section's second try.
+3. S21: its section's last try, after narrowing (#49 did that).
+4. "Holding up a leaky dam": its second try, keeping the Sometimes join and his want list as he wrote it; then the other
+   open Low windows (`live-check/LOW-WINDOWS.json`), section by section, and S7's and S9's Low lines.
 5. A whole-article check of the fixed version (a temporary draft for his extension, in two parts, since his extension
    reads only the first 100,000 characters), then his post updated with his OK, no email.
 
@@ -172,9 +175,10 @@ its section; S17's and S21's pair checks read his own sentences AI, which the se
 ## Evidence / artifacts
 
 - `humanize/fix-20261107/live-check/META.json`, `AI-WINDOWS.json`, `LOW-WINDOWS.json`; `humanize/fix-20261107/r01/` to
-  `r07/` (check texts, receipts, predictions, results, tell panels); `humanize/pangram-ledger.jsonl`;
-  `humanize/SCORECARD.md`.
+  `r09/` (check texts, receipts, predictions, results, tell panels); `review/teach-20261107/` (the marking page for S2 and
+  S17: `build_t1.py`, `REVIEW-T1.md`, `ARTIFACT.md`); `humanize/pangram-ledger.jsonl`; `humanize/SCORECARD.md`.
 
 ## Next safe action
 
-Build the marking page for S2 and S17 from their sections, then S22's first tries, then the open Low windows.
+Read Joel's answers on the marking page when he gives them; meanwhile the dam section's second try, S22's paragraphs by
+themselves, and the next Low-window sections.

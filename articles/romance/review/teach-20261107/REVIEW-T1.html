@@ -1,0 +1,698 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="claude:viewport-fit-sides" content="cover">
+<title>Romance Advice I Wish My Parents Taught Me: two paragraphs to teach me from</title>
+<style>
+:root{
+  --bg:#f6f4ef;--paper:#fffdfa;--ink:#1e2227;--muted:#5d646d;--line:#dcd5c8;--soft:#efebe3;--head:#fffdfaee;
+  --link:#0b5cad;--focus:#2458a6;
+  --t-reread:#1d4ed8;--t-reread-bg:#dbe7fe;
+  --t-structure:#6d28d9;--t-structure-bg:#ece6fd;
+  --t-caveat:#c2410c;--t-caveat-bg:#ffe8d5;
+  --t-repeat:#a16207;--t-repeat-bg:#fdf0c4;
+  --t-innerchild:#15803d;--t-innerchild-bg:#d9f5e2;
+  --t-typo:#be123c;--t-typo-bg:#ffe1e7;
+  --t-cut:#a21caf;--t-cut-bg:#fae8ff;
+  --t-ask:#0f766e;--t-ask-bg:#d5f5ef;
+  --ok:#15803d;--ok-bg:#dcf5e3;--no:#475569;--no-bg:#e3e8ef;--rev:#6d28d9;--rev-bg:#ece6fd;--pend:#b42318;--pend-bg:#fde4e1;
+  --del-bg:#fbd9d5;--del-ink:#7a1d12;--ins-bg:#d4f2dc;--ins-ink:#0f4d24;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#141619;--paper:#1c1f23;--ink:#e7e4de;--muted:#a2a8b1;--line:#363a42;--soft:#24282d;--head:#1c1f23ee;
+  --link:#7fb2ff;--focus:#8ab4ff;
+  --t-reread:#7aa7ff;--t-reread-bg:#1e3157;
+  --t-structure:#b79cff;--t-structure-bg:#33295a;
+  --t-caveat:#ffa66b;--t-caveat-bg:#4d2c17;
+  --t-repeat:#f0c45a;--t-repeat-bg:#45391a;
+  --t-innerchild:#6fdc95;--t-innerchild-bg:#173d27;
+  --t-typo:#ff8aa3;--t-typo-bg:#4f1d2a;
+  --t-cut:#f0abfc;--t-cut-bg:#4a1d4f;
+  --t-ask:#5eead4;--t-ask-bg:#123f3b;
+  --ok:#6fdc95;--ok-bg:#173d27;--no:#b6c0cf;--no-bg:#2c333d;--rev:#b79cff;--rev-bg:#33295a;--pend:#ff8f84;--pend-bg:#4a1f1c;
+  --del-bg:#4f2421;--del-ink:#ffc9c2;--ins-bg:#173d27;--ins-ink:#c4f5d3;
+  color-scheme:dark;
+}}
+:root[data-theme="dark"]{
+  --bg:#141619;--paper:#1c1f23;--ink:#e7e4de;--muted:#a2a8b1;--line:#363a42;--soft:#24282d;--head:#1c1f23ee;
+  --link:#7fb2ff;--focus:#8ab4ff;
+  --t-reread:#7aa7ff;--t-reread-bg:#1e3157;
+  --t-structure:#b79cff;--t-structure-bg:#33295a;
+  --t-caveat:#ffa66b;--t-caveat-bg:#4d2c17;
+  --t-repeat:#f0c45a;--t-repeat-bg:#45391a;
+  --t-innerchild:#6fdc95;--t-innerchild-bg:#173d27;
+  --t-typo:#ff8aa3;--t-typo-bg:#4f1d2a;
+  --t-cut:#f0abfc;--t-cut-bg:#4a1d4f;
+  --t-ask:#5eead4;--t-ask-bg:#123f3b;
+  --ok:#6fdc95;--ok-bg:#173d27;--no:#b6c0cf;--no-bg:#2c333d;--rev:#b79cff;--rev-bg:#33295a;--pend:#ff8f84;--pend-bg:#4a1f1c;
+  --del-bg:#4f2421;--del-ink:#ffc9c2;--ins-bg:#173d27;--ins-ink:#c4f5d3;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+html{scroll-padding-top:120px}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;-webkit-text-size-adjust:100%}
+a{color:var(--link)}
+button{font:inherit;color:inherit;cursor:pointer}
+.t-reread{--c:var(--t-reread);--cb:var(--t-reread-bg)}
+.t-structure{--c:var(--t-structure);--cb:var(--t-structure-bg)}
+.t-caveat{--c:var(--t-caveat);--cb:var(--t-caveat-bg)}
+.t-repeat{--c:var(--t-repeat);--cb:var(--t-repeat-bg)}
+.t-innerchild{--c:var(--t-innerchild);--cb:var(--t-innerchild-bg)}
+.t-typo{--c:var(--t-typo);--cb:var(--t-typo-bg)}
+.t-cut{--c:var(--t-cut);--cb:var(--t-cut-bg)}
+.t-ask{--c:var(--t-ask);--cb:var(--t-ask-bg)}
+.gut{padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--paper)}
+header.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:var(--head);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+.bar{max-width:78rem;margin:0 auto;display:flex;flex-wrap:wrap;gap:6px 10px;align-items:center;padding-top:8px;padding-bottom:8px}
+.bar .name{font-weight:750;font-size:.98rem;margin-right:auto}
+.prog{font-size:.84rem;color:var(--muted)}
+.prog b{color:var(--ink)}
+.meter{height:4px;background:var(--soft);border-radius:4px;overflow:hidden;flex-basis:100%}
+.meter i{display:block;height:100%;width:0;background:var(--ok);transition:width .2s}
+.btn{border:1px solid var(--line);background:var(--paper);border-radius:8px;padding:6px 11px;min-height:36px;font-size:.88rem}
+.btn:hover{border-color:var(--muted)}
+.btn.main{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.tools{max-width:78rem;margin:0 auto;padding-top:4px;padding-bottom:10px;display:grid;gap:10px}
+.tools[hidden]{display:none}
+.tools .grp{display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+.tools .grp>.lab{font-size:.78rem;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.04em;margin-right:4px}
+.chip{border:1px solid var(--c,var(--line));background:var(--cb,var(--paper));color:var(--ink);border-radius:999px;padding:3px 10px;font-size:.8rem;min-height:30px}
+.chip[aria-pressed="false"]{background:transparent;opacity:.55;text-decoration:line-through}
+.chip .n{font-weight:700}
+.tools select,.tools input[type=search]{border:1px solid var(--line);border-radius:8px;padding:6px 8px;min-height:36px;max-width:100%}
+.tools input[type=search]{width:16rem}
+.check{display:flex;gap:6px;align-items:center;font-size:.88rem}
+.panel{max-width:78rem;margin:0 auto;padding-top:10px;padding-bottom:14px;border-top:1px dashed var(--line)}
+.panel[hidden]{display:none}
+.panel .row{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:6px 0}
+.panel textarea{width:100%;min-height:7rem;border:1px solid var(--line);border-radius:8px;padding:8px;font:13px/1.4 ui-monospace,SFMono-Regular,Menlo,monospace}
+.status{font-size:.86rem;color:var(--muted);min-height:1.2em}
+.intro{max-width:46rem;margin:18px auto 6px;font-size:.95rem}
+.intro .box{background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:12px 16px}
+.intro p{margin:.5em 0}
+.intro .src{font-size:.82rem;color:var(--muted)}
+.legend{display:flex;flex-wrap:wrap;gap:6px;margin:8px 0 2px}
+.store-note{font-size:.82rem;color:var(--muted)}
+main.article{max-width:46rem;margin:0 auto 40vh;font:1.06rem/1.7 Georgia,"Iowan Old Style","Palatino Linotype",serif}
+main.article h2,main.article h3,main.article h4,main.article h5,main.article h6{font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;line-height:1.25;margin:2.1em 0 .5em}
+main.article h2{font-size:1.45rem}main.article h3{font-size:1.2rem}main.article h4{font-size:1.06rem}main.article h5{font-size:.98rem}main.article h6{font-size:.92rem}
+main.article p,main.article blockquote,.blk.li{margin:.85em 0}
+main.article blockquote{border-left:3px solid var(--line);padding-left:1rem;color:var(--muted)}
+.blk.li{display:flex;gap:.55em;padding-left:.4em}
+.blk.li .mk{flex:0 0 auto;font-weight:700}
+/* 2026-11-02: never copied with the text (Joel's checks of paragraphs copied from these pages read "P1Here is a list"; taking the labels out alone turned AI Detected into Human Written, gate E326) */
+.pn{font:600 .66em system-ui,sans-serif;color:var(--muted);margin-right:.45em;vertical-align:.12em;-webkit-user-select:none;user-select:none}
+.blk.li .pn{order:-1}
+.native-blk{font:600 .85rem system-ui,sans-serif;color:var(--muted);background:var(--soft);border:1px dashed var(--line);border-radius:8px;padding:8px 12px;margin:1em 0}
+mark.hl{background:var(--cb);color:inherit;border-bottom:2px solid var(--c);border-radius:2px;padding:0 .04em;cursor:pointer;-webkit-box-decoration-break:clone;box-decoration-break:clone}
+mark.hl.multi{background-image:repeating-linear-gradient(135deg,transparent 0 6px,rgba(127,127,127,.18) 6px 8px)}
+mark.hl.leave{background:transparent;border-bottom:2px dotted var(--muted)}
+mark.hl.done{background:transparent;border-bottom-style:solid;opacity:.8}
+body:not(.show-leave) mark.hl.leave{border-bottom:none;cursor:text}
+.moving{border-left:4px solid var(--c);padding-left:10px;margin:.6em 0}
+.moving.leave{border-left-color:var(--line)}
+.moving-k{font:700 .72rem system-ui,sans-serif;color:var(--c);text-transform:uppercase;letter-spacing:.05em}
+.marker{font:600 .9rem system-ui,sans-serif;border:2px dashed var(--c);background:var(--cb);border-radius:8px;padding:6px 10px;margin:1.1em 0 .4em}
+.marker.leave{border-color:var(--line);background:transparent;color:var(--muted)}
+.marker .mk-k{font-size:.74rem;text-transform:uppercase;letter-spacing:.04em;color:var(--c)}
+.marker .mk-h{font-size:1rem}
+body:not(.show-leave) .marker.leave,body:not(.show-leave) .card.leave{display:none}
+body:not(.show-leave) .moving.leave{border-left:none;padding-left:0}
+body:not(.show-leave) .moving.leave .moving-k{display:none}
+.card{font:15px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;background:var(--paper);border:1px solid var(--line);border-left:5px solid var(--c);border-radius:10px;padding:10px 12px;margin:.5em 0 1.5em}
+.card.leave{border-left-color:var(--line);background:var(--soft)}
+.card[hidden]{display:none}
+.card.flash{animation:flash 1.4s ease}
+@keyframes flash{0%,100%{box-shadow:none}25%{box-shadow:0 0 0 4px var(--c)}}
+.card-top{display:flex;flex-wrap:wrap;gap:6px 8px;align-items:center}
+.cid{font:600 .78rem ui-monospace,SFMono-Regular,Menlo,monospace;color:var(--muted)}
+.ctitle{font-weight:700;margin-right:auto}
+.pill{font-size:.78rem;font-weight:700;border-radius:999px;padding:2px 9px;background:var(--pend-bg);color:var(--pend);border:1px solid var(--pend)}
+.card[data-status="approved"] .pill{background:var(--ok-bg);color:var(--ok);border-color:var(--ok)}
+.card[data-status="rejected"] .pill{background:var(--no-bg);color:var(--no);border-color:var(--no)}
+.card[data-status="revise"] .pill{background:var(--rev-bg);color:var(--rev);border-color:var(--rev)}
+.card.leave[data-status="pending"] .pill{background:transparent;color:var(--muted);border-color:var(--line)}
+.card[data-status="approved"]{border-color:var(--ok);border-left-color:var(--c)}
+.card[data-status="revise"]{border-color:var(--rev);border-left-color:var(--c)}
+.link-btn{border:none;background:none;color:var(--link);padding:2px 4px;font-size:.84rem;text-decoration:underline;min-height:28px}
+.changes{margin:8px 0 6px}
+.chg{margin:6px 0}
+.chg-k{font-size:.74rem;font-weight:700;text-transform:uppercase;letter-spacing:.04em;color:var(--muted);margin:4px 0 2px}
+.dif,.mv-src{font:1rem/1.62 Georgia,"Iowan Old Style","Palatino Linotype",serif;background:var(--soft);border-radius:8px;padding:8px 11px;white-space:pre-wrap;overflow-wrap:anywhere}
+.ctx{font:.95rem/1.5 Georgia,serif;color:var(--muted);padding:2px 11px}
+.mv-arrow{font-weight:700;color:var(--c);padding:0 11px}
+.ins-h{font:700 1.05rem system-ui,sans-serif;margin:4px 0;padding:6px 11px;background:var(--soft);border-radius:8px}
+del{background:var(--del-bg);color:var(--del-ink);text-decoration:line-through;text-decoration-thickness:1.5px}
+ins{background:var(--ins-bg);color:var(--ins-ink);text-decoration:none;border-bottom:1px solid currentColor}
+ins.br{font:700 .78rem system-ui,sans-serif;padding:0 4px;border-radius:4px}
+ins.br::before{content:"¶ new paragraph"}
+.reads{font:1rem/1.62 Georgia,"Iowan Old Style","Palatino Linotype",serif;background:var(--soft);border-radius:8px;padding:2px 11px;overflow-wrap:anywhere}
+.reads .rd{margin:.6em 0}
+.reads .rd-h{font:700 1.02rem/1.3 system-ui,-apple-system,"Segoe UI",sans-serif;margin:1em 0 .35em}
+.reads .rd-h2{font-size:1.15rem}.reads .rd-h3{font-size:1.08rem}
+.reads .rd-hm{font-weight:400;color:var(--muted);font-size:.8em}
+.reads .rd-note{font:.8rem/1.4 system-ui,sans-serif;color:var(--muted);margin:-.35em 0 .7em}
+.card[data-status="answered"] .pill{background:var(--ok-bg);color:var(--ok);border-color:var(--ok)}
+.also .link-btn{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.8rem}
+.info .row{margin:3px 0}
+.info .lab,.yours-wrap .lab,.note-wrap .lab{font-size:.74rem;font-weight:700;text-transform:uppercase;letter-spacing:.04em;color:var(--muted);margin-right:4px}
+.info .warn span:last-child{color:var(--pend)}
+.decide{display:flex;flex-wrap:wrap;gap:6px;margin:10px 0 6px}
+.dec{border:1.5px solid var(--line);background:var(--paper);border-radius:8px;padding:6px 11px;min-height:38px;font-size:.88rem;font-weight:600}
+.dec.approve{border-color:var(--ok);color:var(--ok)}
+.dec.reject{border-color:var(--no);color:var(--no)}
+.dec.revise{border-color:var(--rev);color:var(--rev)}
+.dec.undo{border-color:var(--pend);color:var(--pend)}
+.card[data-status="approved"] .dec.approve{background:var(--ok);color:var(--paper)}
+.card[data-status="rejected"] .dec.reject{background:var(--no);color:var(--paper)}
+.card[data-status="revise"] .dec.revise{background:var(--rev);color:var(--paper)}
+.card[data-status="pending"] .dec.undo{background:var(--pend-bg)}
+.yours-wrap,.note-wrap{display:block;margin:6px 0}
+.yours-wrap[hidden]{display:none}
+.card textarea{display:block;width:100%;border:1px solid var(--line);border-radius:8px;padding:7px 9px;font:15px/1.45 system-ui,sans-serif;resize:vertical;margin-top:3px}
+.card textarea.yours{font:1rem/1.55 Georgia,serif;min-height:6.5rem}
+.saved-line{font-size:.78rem;color:var(--muted);min-height:1.1em}
+body.reading .card{display:none}
+.endnote{max-width:46rem;margin:0 auto;font-size:.9rem;color:var(--muted)}
+@media (max-width:640px){
+  .bar .name{display:none}
+  .bar{gap:5px 6px;padding-top:6px;padding-bottom:6px}
+  .prog{flex-basis:100%;font-size:.8rem}
+  .bar .btn{padding:4px 9px;min-height:34px;font-size:.82rem}
+  .tools input[type=search]{width:100%}
+  main.article{font-size:1.02rem}
+  .card{padding:9px 10px}
+  .dec{flex:1 1 auto}
+}
+@media print{header.top,.card .decide,.card textarea{display:none}}
+/* review-form-controls-v1: paired colors for light review forms. */
+input:not([type="checkbox"]):not([type="radio"]):not([type="range"]):not([type="button"]):not([type="submit"]):not([type="reset"]):not([type="hidden"]),textarea,select,option,optgroup,[contenteditable="true"]{color-scheme:only light!important;color:#1f2937!important;-webkit-text-fill-color:#1f2937!important;background-color:#ffffff!important;caret-color:#1f2937!important}
+input::placeholder,textarea::placeholder{color:#526174!important;-webkit-text-fill-color:#526174!important;opacity:1}
+select option:checked{color:#ffffff!important;-webkit-text-fill-color:#ffffff!important;background-color:#244e72!important}
+input:focus-visible,textarea:focus-visible,select:focus-visible,button:focus-visible,[contenteditable="true"]:focus-visible{outline:3px solid #2458a6;outline-offset:2px}
+@media(forced-colors:active){input,textarea,select,option,optgroup,[contenteditable="true"]{forced-color-adjust:auto;color:CanvasText!important;-webkit-text-fill-color:CanvasText!important;background-color:Canvas!important;caret-color:CanvasText!important}input::placeholder,textarea::placeholder{color:GrayText!important;-webkit-text-fill-color:GrayText!important}select option:checked{color:HighlightText!important;-webkit-text-fill-color:HighlightText!important;background-color:Highlight!important}}
+
+</style>
+<style>
+.t-teach{--c:#0e7490;--cb:#d3f1f8}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .t-teach{--c:#67e8f9;--cb:#123a44}}
+:root[data-theme="dark"] .t-teach{--c:#67e8f9;--cb:#123a44}
+</style>
+</head>
+<body class="">
+<header class="top">
+  <div class="bar gut">
+    <span class="name">Romance Advice I Wish My Parents Taught Me: two paragraphs to teach me from</span>
+    <span class="prog" id="prog" aria-live="polite"></span>
+    <button type="button" class="btn" id="prevBtn" title="The card before this one">↑ Previous</button>
+    <button type="button" class="btn main" id="nextBtn" title="The next suggestion you haven't decided">Next undecided ↓</button>
+    <button type="button" class="btn" id="toolsBtn" aria-expanded="false" aria-controls="tools">Filters</button>
+    <button type="button" class="btn" id="saveBtn" aria-expanded="false" aria-controls="savePanel">Save / send</button>
+    <div class="meter" aria-hidden="true"><i id="meter"></i></div>
+  </div>
+  <div class="tools gut" id="tools" hidden>
+    <div class="grp"><span class="lab">Show</span><button type="button" class="chip t-teach" data-filter-type="teach" aria-pressed="true" title="a paragraph that reads AI in every wording I tried, whose shape other stuck lines share: how you would say it teaches me how to say them">Teach me <span class="n" data-count-type="teach"></span></button></div>
+    <div class="grp"><span class="lab">Status</span>
+      <select id="statusFilter" aria-label="Show suggestions by status">
+        <option value="all">All</option><option value="pending">Not decided yet</option><option value="approved">Approved</option>
+        <option value="rejected">Rejected</option><option value="revise">Revise</option><option value="noted">With a comment</option>
+      </select>
+      <label class="check"><input type="checkbox" id="showLeave"> The ones a reader flagged and I'd leave (<span id="leaveCount"></span>)</label>
+    </div>
+    <div class="grp"><span class="lab">Find</span><input type="search" id="search" placeholder="Words in a suggestion or its paragraph" aria-label="Search">
+      <select id="sectionJump" aria-label="Go to a section"><option value="">Go to a section…</option></select>
+      <label class="check"><input type="checkbox" id="readingMode"> Read the guide without the cards</label>
+    </div>
+  </div>
+  <div class="panel gut" id="savePanel" hidden>
+    <div class="store-note" id="storeNote">Your answers save in this browser as you click.</div>
+    <div class="row"><button type="button" class="btn main" id="copyJson">Copy my answers (JSON)</button><button type="button" class="btn" id="saveJson">Save them as a file</button></div>
+    <div class="row"><label class="btn" for="importFile">Load answers from a file</label><input type="file" id="importFile" accept=".json,application/json" hidden>
+      <button type="button" class="btn" id="pasteToggle">Paste answers instead</button></div>
+    <div id="pasteBox" hidden><textarea id="pasteArea" placeholder="Paste a JSON answers file here"></textarea><div class="row"><button type="button" class="btn" id="pasteLoad">Load the pasted answers</button></div></div>
+    <textarea id="copyArea" hidden readonly aria-label="Your answers as JSON"></textarea>
+    <div class="status" id="saveStatus" aria-live="polite"></div>
+  </div>
+</header>
+<div class="intro gut"><div class="box">
+<p>These are the two paragraphs of the romance post I think you could teach me the most from. Every wording I've tried of each is still flagged, even inside its own section, and each card names other lines with the same shape. Each card has my tries with what Pangram read. Press Edit it and write the paragraph the way you'd say it. I'll carry what you did to the others and check them.</p><p>The page shows only the two sections these paragraphs sit in, as your live post has them. 16 of the post's 21 AI spots already read Human with small fixes, which go into the post without cards; my message lists them.</p>
+<div class="legend" aria-hidden="true"><button type="button" class="chip t-teach" data-filter-type="teach" aria-pressed="true" title="a paragraph that reads AI in every wording I tried, whose shape other stuck lines share: how you would say it teaches me how to say them">Teach me <span class="n" data-count-type="teach"></span></button></div>
+<p class="src">This page is a view of what's in Git: <a href="https://ibogaqueen.substack.com/p/romance-advice-i-wish-my-parents" target="_blank" rel="noopener noreferrer">your live post</a> (version 5605c5ec) and <a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/romance-20261107d/articles/romance/review/teach-20261107/REVIEW-T1.md" target="_blank" rel="noopener noreferrer">the list of suggestions</a>, built 2026-11-07. Your answers go into Git as well, once you tell me you're done.</p>
+</div></div>
+<main class="article gut" id="article">
+<h2 class="blk" id="b0" data-b="0">Romance Advice I Wish My Parents Taught Me: two sections</h2>
+<h4 class="blk" id="b1" data-b="1">Spirituality to bypass intimacy</h4>
+<p class="blk" id="b2" data-b="2"><span class="pn">P1</span>I’ve used spirituality as a replacement for intimacy a lot because intimacy was simply unavailable. As a boy and young man, I was so deprived of female touch that it was driving me insane. Meditation sometimes helped me cope better with the deprivation, but it wasn’t a cure. I remember once as I was entering into an ayahuasca ego death, I said, “Actually, I really just want a girlfriend.” Right then, the crazy trip abruptly ended, and a voice said, “Ok then go find one.” Nobody believes this story when I tell it.</p>
+<p class="blk" id="b3" data-b="3"><span class="pn">P2</span>I don’t believe most people can be truly happy celibate. People generally aren’t so serious about spiritual liberation that giving up sex and partnership for life makes sense. The Buddha didn’t advise everyone to become monastics.</p>
+<p class="blk" id="b4" data-b="4"><span class="pn">P3</span>If becoming a monastic genuinely makes you happier and more peaceful, stay. It might work for some very advanced people, or if your sexual desire is already low, or you’re old, etc.</p>
+<p class="blk" id="b5" data-b="5"><span class="pn">P4</span>But how do you know what you’re not aware of? Inner-child reparenting and self-hypnosis can help a lot with that, because often the inner child is being ignored while the adult is feeling some kind of liberation.</p>
+<p class="blk" id="b6" data-b="6"><span class="pn">P5</span>And if you’re so happy and free, what happens when you’re alone in a room with a super beautiful girl and she wants you? Or vice versa for women. Do you feel like you’re losing some control? Are you afraid?</p>
+<p class="blk" id="b7" data-b="7"><span class="pn">P6</span>Bhante Gunaratana, a famous Buddhist teacher, tells a story like this in his autobiography. A super beautiful girl at a retreat he was teaching snuck into his room and waited for him in bed, naked. He went nuts and started screaming at her “Get out!” at the top of his lungs. Obviously he was still repressing something, and she was adept at unintentionally uncovering it.</p>
+<p class="blk" id="b8" data-b="8"><span class="pn">P7</span>Robes do nothing. I was mildly molested in public by the abbot of one of Thailand’s largest Buddhist retreat centers. In Thailand, parents have very good reasons not to leave children alone with monks. Tibet is worse.</p>
+<p class="blk" id="b9" data-b="9"><span class="pn">P8</span>Forced celibacy doesn’t abolish anyone’s sexuality. For most people it eventually sends it somewhere weird. Why wouldn’t it?</p>
+<p class="blk" id="b10" data-b="10"><span class="pn">P9</span><mark class="hl t-teach" data-s="TEACH-MONASTIC-PERKS">There are practical reasons to become a monastic too. In a poor country it can mean free food, a place to live, status, and escape from ordinary responsibilities. In the West, the free food may matter less, but a person who received no particular respect as a layman can become Venerable Somebody and suddenly people bow to him.</mark></p>
+<section class="card edit t-teach" id="c-TEACH-MONASTIC-PERKS" data-id="TEACH-MONASTIC-PERKS" data-type="teach" data-advice="edit" data-block="10">
+<div class="card-top"><button type="button" class="chip t-teach" data-filter-type="teach" title="a paragraph that reads AI in every wording I tried, whose shape other stuck lines share: how you would say it teaches me how to say them">Teach me</button><span class="cid">TEACH-MONASTIC-PERKS</span><span class="ctitle">The practical reasons to become a monk: a general claim, two cases with a list, a balanced close</span><span class="pill" aria-live="polite">Not decided yet</span><button type="button" class="link-btn fold" aria-expanded="true">Fold</button></div>
+<div class="card-body">
+<div class="changes"><div class="chg"><div class="chg-k">As it is now</div><div class="dif side now">There are practical reasons to become a monastic too. In a poor country it can mean free food, a place to live, status, and escape from ordinary responsibilities. In the West, the free food may matter less, but a person who received no particular respect as a layman can become Venerable Somebody and suddenly people bow to him.</div><div class="dif side now">Of course, he may sincerely want liberation, too. People can want several things at once.</div></div></div>
+<div class="info"><div class="row"><span class="lab">Pangram read</span> <span>In your live post (<a href="https://www.pangram.com/feed/9e40aa8f-317c-4490-893d-9e99c839de88" target="_blank" rel="noopener noreferrer">your extension&#x27;s check</a>): AI Low on &quot;There are practical reasons to become a monastic too.&quot;, AI High on the poor-country and West sentences, and AI Low on each closing sentence.</span></div><div class="row"><span class="lab">Pangram on the suggestion</span> <span>1. &quot;Some people become monks for practical reasons too. In a poor country, the robes come with free food, a place to live, status, and a way out of ordinary responsibilities. Even in the West, where the free food matters less, a guy who never got much respect as a layman becomes Venerable Somebody, and suddenly people bow to him. Of course, he can sincerely want liberation and still enjoy the bowing.&quot; <a href="https://www.pangram.com/history/c2ef4f06-da74-439e-b714-d971e5a776f6" target="_blank" rel="noopener noreferrer">66% AI</a>.<br><br>2. &quot;Some people become monks for practical reasons too. In a poor country, the robes get you free room and board and status, and nobody expects you to earn a living or raise a family anymore. In the West the free food probably isn&#x27;t the draw, but a guy nobody respected much as a layman can shave his head, become Venerable Somebody, and suddenly people are bowing to him. Of course, he may sincerely want liberation too. Most of us have more than one reason for the big choices we make.&quot; <a href="https://www.pangram.com/history/887feba1-bd01-4c9c-af80-376078a997a6" target="_blank" rel="noopener noreferrer">71% AI</a>.<br><br>3. My best: &quot;Some people become monks for practical reasons too. In a poor country, it&#x27;s free food, a roof and respect, and nobody expects you to hold down a job or raise a family. And even where the food doesn&#x27;t matter, like in the West, a guy who was a nobody as a layman gets to be Venerable Somebody, and people bow to him. Of course, he may sincerely want liberation, too. People can want several things at once.&quot; <a href="https://www.pangram.com/history/090fc1ae-7aca-49e3-ba70-f9e0a9857ea2" target="_blank" rel="noopener noreferrer">27% AI</a> with the paragraph before it, and inside the whole section <a href="https://www.pangram.com/history/08aaaf98-6798-4b88-b334-de5c014dc274" target="_blank" rel="noopener noreferrer">14% AI</a>: AI Medium on the poor-country sentence, AI Low on the rest. A tell panel (two other models reading for AI tells) agreed on the list of perks and the balanced closing pair.</span></div><div class="row"><span class="lab">Why it&#x27;s here</span> <span>Five wordings of mine read AI, and in the section around it the best one still does. Its shape is a general claim, two contrasted cases, a list in one of them, and a balanced close. Some of the post&#x27;s Low lines have the same shape: &quot;If closeness was safe when you were little, maybe it does feel a bit like coming home. But if it came with neglect, abuse, or if people disappeared on you, ...&quot;, &quot;Helping carry somebody through temporary incapacity is different from becoming the permanent support system for a man who won&#x27;t take responsibility.&quot;, and &quot;She should not have to perform softness, helplessness, or cuteness every minute to prove she is feminine.&quot;</span></div><div class="row advice"><span class="lab">My advice</span> <span>Edit it: write it the way you&#x27;d say it. What it says has to stay: some people become monks for practical reasons; in a poor country that means free food, a place to live, status and a way out of ordinary responsibilities; in the West the free food matters less, but a nobody becomes Venerable Somebody and people bow to him; and he may still sincerely want liberation, since people want several things at once. I&#x27;ll carry what you do to the lines above, test each, and put the ones that read Human straight in.</span></div></div>
+<div class="decide" role="group" aria-label="Decision on TEACH-MONASTIC-PERKS"><button type="button" class="dec reject" data-dec="rejected">Skip this one</button><button type="button" class="dec revise" data-dec="revise">Edit it</button><button type="button" class="dec undo" data-dec="pending">Not decided yet</button></div>
+<label class="yours-wrap" hidden><span class="lab">Your version</span><textarea class="yours" rows="5" placeholder="Your wording"></textarea></label>
+<label class="note-wrap"><span class="lab">Your comment</span><textarea class="note" rows="2" placeholder="A note (optional)"></textarea></label>
+<div class="saved-line"></div>
+</div></section>
+<p class="blk" id="b11" data-b="11"><span class="pn">P10</span><mark class="hl t-teach" data-s="TEACH-MONASTIC-PERKS">Of course, he may sincerely want liberation, too. People can want several things at once.</mark></p>
+<h3 class="blk" id="b12" data-b="12">Can making love be a spiritual practice?</h3>
+<p class="blk" id="b13" data-b="13"><span class="pn">P1</span>I’m Buddhist, and the early Buddhist texts don’t teach tantric sex as a path to awakening. But they also don’t show serious awakening as something reserved for monastics.</p>
+<p class="blk" id="b14" data-b="14"><span class="pn">P2</span>In DN 16, the Buddha talks about people who had died in the town of Nādikā and mentions 510 lay stream-enterers, 96 once-returners, and more than fifty lay non-returners. Those are the first three of the four stages of awakening.</p>
+<p class="blk" id="b15" data-b="15"><span class="pn">P3</span>SN 55.24 has an almost comic complaint. When the Buddha declared Sarakāni a stream-enterer, other Sakyans grumbled, in effect, “Who isn’t a stream-enterer these days?”</p>
+<p class="blk" id="b16" data-b="16"><span class="pn">P4</span>And when the married couple Nakulapitā and Nakulamātā asked the Buddha how they could remain together in future lives, AN 4.55 gave this advice:</p>
+<p class="blk" id="b17" data-b="17"><span class="pn">P5</span>“When both husband and wife are faithful and generous, restraintful, living righteously, speaking pleasant words to each other—they come together in the future, sharing the same desires and living in bliss.”</p>
+<p class="blk" id="b18" data-b="18"><span class="pn">P6</span>Marriage, sex, and household life are not automatically on the opposite side from serious spiritual development.</p>
+<p class="blk" id="b19" data-b="19"><span class="pn">P7</span><mark class="hl t-teach" data-s="TEACH-KIM-ANAMI">Kim Anami goes further and treats sexual energy itself as a path into healing, creativity, worldly action, and spiritual awakening.</mark></p>
+<section class="card edit t-teach" id="c-TEACH-KIM-ANAMI" data-id="TEACH-KIM-ANAMI" data-type="teach" data-advice="edit" data-block="19">
+<div class="card-top"><button type="button" class="chip t-teach" data-filter-type="teach" title="a paragraph that reads AI in every wording I tried, whose shape other stuck lines share: how you would say it teaches me how to say them">Teach me</button><span class="cid">TEACH-KIM-ANAMI</span><span class="ctitle">Kim Anami&#x27;s view: someone else&#x27;s teaching summed up, with a list</span><span class="pill" aria-live="polite">Not decided yet</span><button type="button" class="link-btn fold" aria-expanded="true">Fold</button></div>
+<div class="card-body">
+<div class="changes"><div class="chg"><div class="chg-k">As it is now</div><div class="dif side now">Kim Anami goes further and treats sexual energy itself as a path into healing, creativity, worldly action, and spiritual awakening.</div><div class="dif side now">She has also collected a ton of stories from students who say the effects spill out of sex into health, work, money, creativity, the rest of life. Her jade-egg practice is a preliminary training for the cervical O: pelvic-floor strength, attention, and arousal without needing a partner.</div></div></div>
+<div class="info"><div class="row"><span class="lab">Pangram read</span> <span>In your live post (<a href="https://www.pangram.com/feed/9e40aa8f-317c-4490-893d-9e99c839de88" target="_blank" rel="noopener noreferrer">your extension&#x27;s check</a>): AI Medium on &quot;Kim Anami goes further and treats sexual energy itself as a path into healing, creativity, worldly action, and spiritual awakening.&quot; and AI Low on the students&#x27; sentence. The jade-egg sentence read Human there.</span></div><div class="row"><span class="lab">Pangram on the suggestion</span> <span>1. &quot;Kim Anami goes further and treats sexual energy itself as a path to healing and spiritual awakening. She&#x27;s also collected a ton of stories from students who say the effects didn&#x27;t stay in the bedroom and spilled over into their health, work, money, creativity, and everything else.&quot; <a href="https://www.pangram.com/history/08dcbe93-bdb4-4fd2-af40-7eaa4add60ca" target="_blank" rel="noopener noreferrer">100% AI</a>.<br><br>2. &quot;Kim Anami goes even further: she says sexual energy itself can heal you and wake you up spiritually. She&#x27;s also collected a ton of stories from students who say the effects spilled out of the bedroom into their health, work, money, creativity, the rest of their lives.&quot; <a href="https://www.pangram.com/history/930cbd06-1aaf-4af2-9f32-c1cf8d480561" target="_blank" rel="noopener noreferrer">100% AI</a> with the jade-egg sentence, and inside the whole section <a href="https://www.pangram.com/history/5e02bd99-6014-48ff-be5d-b8e1694c6803" target="_blank" rel="noopener noreferrer">15% AI</a>: both of her sentences AI, and three of the post&#x27;s sentences around them AI Low.<br><br>3. &quot;Kim Anami takes this a lot further than the suttas do: for her, sexual energy itself can heal you and wake you up spiritually. She&#x27;s also collected a ton of stories from students who say it changed their health, their work, their creativity, even their money.&quot; <a href="https://www.pangram.com/history/c89a704a-4c33-40e5-8a5b-e5beda918196" target="_blank" rel="noopener noreferrer">100% AI</a>. This try fixed what a tell panel agreed on: &quot;goes even further&quot;, the paired benefits, the list&#x27;s catch-all.</span></div><div class="row"><span class="lab">Why it&#x27;s here</span> <span>Three wordings of mine read AI at 100%, and inside its section the best one (<a href="https://www.pangram.com/history/5e02bd99-6014-48ff-be5d-b8e1694c6803" target="_blank" rel="noopener noreferrer">15% AI</a>) pulls the post&#x27;s sentences around it to AI Low. Its shape is a teacher&#x27;s view summed up in a sentence, with a list. The post reports other teachers the same way: Toft and Perel read Human after small fixes, but &quot;That laboratory evidence establishes the biological validity and uniqueness of the phenomenon.&quot; still reads Human Low. Her linked page also needed an approval to open from here, so I couldn&#x27;t check her claims against it.</span></div><div class="row advice"><span class="lab">My advice</span> <span>Edit it: write it the way you&#x27;d say it. What it says has to stay: Kim Anami goes further than the suttas and treats sexual energy itself as a path into healing, creativity, worldly action and spiritual awakening; she has collected a ton of stories from students who say the effects spill out of sex into health, work, money and creativity; her jade-egg practice is training for the cervical O. I&#x27;ll carry what you do to the lines above, test each, and put the ones that read Human straight in.</span></div></div>
+<div class="decide" role="group" aria-label="Decision on TEACH-KIM-ANAMI"><button type="button" class="dec reject" data-dec="rejected">Skip this one</button><button type="button" class="dec revise" data-dec="revise">Edit it</button><button type="button" class="dec undo" data-dec="pending">Not decided yet</button></div>
+<label class="yours-wrap" hidden><span class="lab">Your version</span><textarea class="yours" rows="5" placeholder="Your wording"></textarea></label>
+<label class="note-wrap"><span class="lab">Your comment</span><textarea class="note" rows="2" placeholder="A note (optional)"></textarea></label>
+<div class="saved-line"></div>
+</div></section>
+<p class="blk" id="b20" data-b="20"><span class="pn">P8</span><mark class="hl t-teach" data-s="TEACH-KIM-ANAMI">She has also collected a ton of stories from students who say the effects spill out of sex into health, work, money, creativity, the rest of life. Her jade-egg practice is a preliminary training for the cervical O: pelvic-floor strength, attention, and arousal without needing a partner.</mark></p>
+<p class="blk" id="b21" data-b="21"><span class="pn">P9</span>Brad and Pam Keene are the example I really like. Pam says her Kundalini process completed while they were making love and opened into a lasting universal-consciousness awakening. She later helped Brad awaken too, so the marriage itself became part of the path.</p>
+<p class="blk" id="b22" data-b="22"><span class="pn">P10</span>In the previous section, I mentioned the divine feminine and divine masculine energies that you can channel to keep eroticism alive. But there’s really something more special about the in-love paradise that Twin Flames (TFs) experience than a simple Divine Masculine + Divine Feminine formula. Maybe a better way to put it, as my friend Cody says, is Yin/Yang, which still has the masculine/feminine in it, but allows for a more broad type of complementary symbiosis since, each contains the seed of the other.</p>
+<p class="blk" id="b23" data-b="23"><span class="pn">P11</span>My ex-girlfriend, Malia, (who is currently hosting me in Sênêgal) found her twin flame (I think) in January, 2026. They only talked for a month, but since she started talking to him, they both have been able to feel the other one’s emotions at any time, from any distance, without having to communicate. To the point where if one feels really bad, so does the other. If one is very happy, so is the other, like quantum entangled photons or something. I’ve also had telepathy with some folks, especially my first wife, Bee, but it was never quite to such an extreme as what Malia has with Mouhamed. Meanwhile his family forbade him from being with her, so he dumped her. Not sure why, maybe because she’s 8 years older than him (although she looks quite young). They both try to pretend like they will be able to get over each other, but I doubt it. Meanwhile, Malia’s trying to marry ChatGPT, but she should have picked Grok, I guess. 😅</p>
+<p class="blk" id="b24" data-b="24"><span class="pn">P12</span>Note: I am really afraid how many people are falling in love with their AI “girlfriend” or “boyfriend.” But oh well, I guess those folks aren’t ready for a real relationship.. maybe if they would read this guide…</p>
+<p class="blk" id="b25" data-b="25"><span class="pn">P13</span>Back to the topic. There are a ton of people who don’t want to believe in twin flame theory because they haven’t found someone they could call their twin flame. That’s fine, and I am not trying to rock their boat. They might be the people who suggest that you should marry your best friend (or “soul mate” in the TF lingo). Then there are the folks who are deep in the TF theory, believing there is literally one person on Earth who is made for you. I’m also not trying to rock their boat. But I do want to tell my story.</p>
+<p class="blk" id="b26" data-b="26"><span class="pn">P14</span>I used to fall into the former camp, then into the latter camp, and now that I’ve experienced two twin flame relationships, I’ve jumped into a new camp I never knew existed.</p>
+</main>
+<p class="endnote gut">The end of the guide. When you're done, tell me in the chat; your answers are already saved here, and "Save / send" gives you a copy to paste or keep.</p>
+<script id="review-data" type="application/json">{"format": "joel-suggestion-review-v1", "review_id": "romance-teach-t1", "title": "Romance Advice I Wish My Parents Taught Me: two paragraphs to teach me from", "git_file": "articles/romance/review/teach-20261107/REVIEW-T1.html", "article": {"file": "articles/romance/review/teach-20261107/PAGE-T1.md", "sha256": "5605c5ec513a90214df175dc4f2652c0cfee5e2f76e7c050e97c3e8148771481"}, "built": "2026-11-07", "generator": "suggestion_review.py 1.9 (2026-11-07)", "types": {"teach": {"label": "Teach me", "about": "a paragraph that reads AI in every wording I tried, whose shape other stuck lines share: how you would say it teaches me how to say them"}}, "suggestions": [{"id": "TEACH-MONASTIC-PERKS", "type": "teach", "title": "The practical reasons to become a monk: a general claim, two cases with a list, a balanced close", "advice": "edit", "what": null, "deciding": null, "decided": null, "question": null, "where": "Spirituality to bypass intimacy, P9", "proposed": "There are practical reasons to become a monastic too. In a poor country it can mean free food, a place to live, status, and escape from ordinary responsibilities. In the West, the free food may matter less, but a person who received no particular respect as a layman can become Venerable Somebody and suddenly people bow to him.\n\nOf course, he may sincerely want liberation, too. People can want several things at once.", "before": "There are practical reasons to become a monastic too. In a poor country it can mean free food, a place to live, status, and escape from ordinary responsibilities. In the West, the free food may matter less, but a person who received no particular respect as a layman can become Venerable Somebody and suddenly people bow to him.\n\nOf course, he may sincerely want liberation, too. People can want several things at once."}, {"id": "TEACH-KIM-ANAMI", "type": "teach", "title": "Kim Anami's view: someone else's teaching summed up, with a list", "advice": "edit", "what": null, "deciding": null, "decided": null, "question": null, "where": "Can making love be a spiritual practice?, P7", "proposed": "Kim Anami goes further and treats sexual energy itself as a path into healing, creativity, worldly action, and spiritual awakening.\n\nShe has also collected a ton of stories from students who say the effects spill out of sex into health, work, money, creativity, the rest of life. Her jade-egg practice is a preliminary training for the cervical O: pelvic-floor strength, attention, and arousal without needing a partner.", "before": "Kim Anami goes further and treats sexual energy itself as a path into healing, creativity, worldly action, and spiritual awakening.\n\nShe has also collected a ton of stories from students who say the effects spill out of sex into health, work, money, creativity, the rest of life. Her jade-egg practice is a preliminary training for the cervical O: pelvic-floor strength, attention, and arousal without needing a partner."}], "sections": [{"b": 0, "level": 1, "text": "Romance Advice I Wish My Parents Taught Me: two sections"}, {"b": 1, "level": 3, "text": "Spirituality to bypass intimacy"}, {"b": 12, "level": 2, "text": "Can making love be a spiritual practice?"}]}</script>
+<script>
+(() => {
+  'use strict';
+  const DATA = JSON.parse(document.getElementById('review-data').textContent);
+  const SUG = {};
+  DATA.suggestions.forEach(s => { SUG[s.id] = s; });
+  const ORDER = DATA.suggestions.map(s => s.id);
+  const STATUSES = ['pending', 'approved', 'rejected', 'revise'];
+  const STORE_KEY = 'joel-suggestion-review-v1:' + DATA.review_id + ':' + DATA.article.sha256.slice(0, 12);
+  const $ = (q, r) => (r || document).querySelector(q);
+  const $$ = (q, r) => Array.from((r || document).querySelectorAll(q));
+  const now = () => new Date().toISOString();
+  const cards = {};
+  $$('.card[data-id]').forEach(c => { cards[c.dataset.id] = c; });
+  const marksById = {};
+  $$('mark.hl[data-s]').forEach(m => m.dataset.s.split(' ').forEach(id => { (marksById[id] = marksById[id] || []).push(m); }));
+
+  // ---------------------------------------------------------------- state
+  let state = {};
+  function blank() { return { status: 'pending', comment: '', text: '', history: [], updated: '' }; }
+  function clean(x) {
+    const st = blank();
+    if (!x || typeof x !== 'object') return st;
+    st.status = STATUSES.includes(x.status) ? x.status : 'pending';
+    st.comment = typeof x.comment === 'string' ? x.comment : '';
+    st.text = typeof x.text === 'string' ? x.text : '';
+    st.history = Array.isArray(x.history) ? x.history.filter(h => h && typeof h === 'object').slice(-50) : [];
+    st.updated = typeof x.updated === 'string' ? x.updated : '';
+    return st;
+  }
+  function initial(id) {
+    const st = blank();
+    const d = SUG[id] && SUG[id].decided;
+    if (d) {
+      st.status = STATUSES.includes(d.status) ? d.status : 'pending';
+      st.text = d.text || '';
+      st.comment = d.comment || '';
+      st.history = [{ from: 'pending', to: st.status, at: d.at || '', by: d.by || '' }];
+    }
+    return st;
+  }
+  function get(id) { if (!state[id]) state[id] = initial(id); return state[id]; }
+  try {
+    const raw = localStorage.getItem(STORE_KEY);
+    if (raw) {
+      const o = JSON.parse(raw);
+      if (o && o.items) Object.keys(o.items).forEach(id => { if (SUG[id]) state[id] = clean(o.items[id]); });
+    }
+  } catch (e) { /* storage blocked: the page still works, answers live in memory */ }
+  let localOk = true;
+  function persistLocal() {
+    try { localStorage.setItem(STORE_KEY, JSON.stringify({ saved: now(), items: state })); localOk = true; }
+    catch (e) { localOk = false; }
+  }
+
+  // ---------------------------------------------------------------- the store (db), when this view has one
+  let db = null, storeState = 'none';
+  const dirty = {}, busy = {}, timers = {}, retried = {};
+  function setStoreNote() {
+    const el = $('#storeNote');
+    if (storeState === 'db') el.textContent = 'Your answers save as you click, to this page (on every device you open it from with this account) and in this browser. Tell me in the chat when you\'re done and I\'ll read them from here; "Copy my answers" gives you a copy to paste anywhere.';
+    else el.textContent = localOk ? 'Your answers save in this browser as you click. To move them to another browser or account, or to send them to me, use "Copy my answers" or "Save them as a file".' : 'This browser won\'t keep answers for this page, so copy or save them before you close it.';
+  }
+  function queueWrite(id, delay) {
+    if (!db) return;
+    dirty[id] = true;
+    clearTimeout(timers[id]);
+    timers[id] = setTimeout(() => flush(id), delay || 0);
+  }
+  async function flush(id) {
+    if (!db || busy[id] || !dirty[id]) return;
+    busy[id] = true;
+    try {
+      while (dirty[id] && db) {
+        dirty[id] = false;
+        const body = JSON.parse(JSON.stringify(get(id)));
+        await db.doc('decisions/' + id).set(body);
+      }
+      savedLine(id, 'Saved');
+    } catch (e) {
+      const code = e && e.code;
+      if (code === 'unavailable' && !retried[id]) {
+        retried[id] = true; dirty[id] = true;
+        setTimeout(() => { busy[id] = false; flush(id); }, 1200 + Math.random() * 1500);
+        return;
+      }
+      if (code === 'resource_exhausted') { dirty[id] = true; setTimeout(() => { busy[id] = false; flush(id); }, 4000); return; }
+      db = null; storeState = 'none'; setStoreNote();
+      savedLine(id, 'Saved in this browser only');
+    } finally { if (busy[id] === true) busy[id] = false; }
+  }
+  function mergeRemote(id, raw) {
+    const remote = clean(raw);
+    const local = get(id);
+    if ((remote.updated || '') > (local.updated || '')) {
+      state[id] = remote; persistLocal(); renderCard(id, true);
+    } else if ((local.updated || '') > (remote.updated || '')) {
+      queueWrite(id, 0);
+    }
+  }
+  async function initDb() {
+    let api = null;
+    try { if (window.claude && typeof window.claude.use === 'function') api = await window.claude.use('db'); } catch (e) { api = null; }
+    if (!api) { setStoreNote(); return; }
+    db = api; storeState = 'db'; setStoreNote();
+    let first = true;
+    try {
+      db.collection('decisions').onSnapshot(snap => {
+        const seen = new Set();
+        snap.docs.forEach(d => { seen.add(d.id); if (SUG[d.id]) mergeRemote(d.id, d.data()); });
+        if (first) {
+          first = false;
+          Object.keys(state).forEach(id => { if (!seen.has(id) && state[id].updated) queueWrite(id, 0); });
+        }
+        progress();
+      }, () => { db = null; storeState = 'none'; setStoreNote(); });
+    } catch (e) { db = null; storeState = 'none'; setStoreNote(); }
+  }
+
+  // ---------------------------------------------------------------- downloads, when this view has them
+  let dl = null;
+  (async () => { try { if (window.claude && typeof window.claude.use === 'function') dl = await window.claude.use('downloads'); } catch (e) { dl = null; } })();
+
+  // ---------------------------------------------------------------- rendering
+  const PILL = { pending: 'Not approved yet', approved: 'Approved', rejected: 'Rejected: keep as is', revise: 'Revise' };
+  // a stretch for him to see and rewrite if he wants (advice "edit", 2026-10-27): its own words for the same states
+  const EDIT_PILL = { pending: 'Not decided yet', approved: 'Approved', rejected: 'Keep as it is', revise: 'Your version' };
+  function savedLine(id, msg) { const c = cards[id]; if (c) { const el = $('.saved-line', c); if (el) el.textContent = msg; } }
+  function isAsk(id) { return SUG[id] && SUG[id].advice === 'ask'; }
+  function askPill(id) {
+    const c = cards[id]; if (!c) return;
+    const done = !!(get(id).comment || '').trim();
+    c.dataset.status = done ? 'answered' : 'pending';
+    $('.pill', c).textContent = done ? 'Answered' : 'Not answered yet';
+    c.classList.toggle('decided', done);
+    (marksById[id] || []).forEach(m => m.classList.toggle('done', done));
+  }
+  function renderCard(id, fromRemote) {
+    const c = cards[id]; if (!c) return;
+    const st = get(id);
+    if (isAsk(id)) {
+      const nt = $('.note', c);
+      if (!(fromRemote && document.activeElement === nt)) nt.value = st.comment || '';
+      askPill(id);
+      return;
+    }
+    c.dataset.status = st.status;
+    $('.pill', c).textContent = (c.dataset.advice === 'leave' && st.status === 'pending') ? 'I\'d leave it'
+      : (c.dataset.advice === 'edit' ? EDIT_PILL : PILL)[st.status];
+    $$('.dec', c).forEach(b => b.setAttribute('aria-pressed', String(b.dataset.dec === st.status)));
+    const yw = $('.yours-wrap', c), yt = $('.yours', c), nt = $('.note', c);
+    yw.hidden = !(st.status === 'revise' || st.text);
+    if (!(fromRemote && document.activeElement === yt)) yt.value = st.text || '';
+    if (!(fromRemote && document.activeElement === nt)) nt.value = st.comment || '';
+    const done = st.status !== 'pending';
+    (marksById[id] || []).forEach(m => {
+      const all = m.dataset.s.split(' ').every(x => get(x).status !== 'pending');
+      m.classList.toggle('done', all);
+    });
+    c.classList.toggle('decided', done);
+  }
+  function renderAll() { ORDER.forEach(id => renderCard(id)); progress(); }
+  function progress() {
+    let n = 0, dec = 0, ap = 0, rj = 0, rv = 0, quiet = 0, quietSeen = 0, asks = 0, answered = 0, eds = 0, edDone = 0, kept = 0, edited = 0;
+    ORDER.forEach(id => {
+      const st = get(id);
+      if (isAsk(id)) { asks++; if ((st.comment || '').trim()) answered++; return; }
+      if (SUG[id].advice === 'leave') { quiet++; if (st.status !== 'pending' || st.comment) quietSeen++; return; }
+      if (SUG[id].advice === 'edit') {   // a stretch to edit: kept or his version, counted apart from the suggestions
+        eds++; if (st.status !== 'pending') edDone++;
+        if (st.status === 'rejected') kept++; else if (st.status === 'revise') edited++;
+        return;
+      }
+      n++;
+      if (st.status !== 'pending') dec++;
+      if (st.status === 'approved') ap++; else if (st.status === 'rejected') rj++; else if (st.status === 'revise') rv++;
+    });
+    $('#prog').innerHTML = (n ? '<b>' + dec + '</b> of ' + n + ' decided · ' + ap + ' approved · ' + rj + ' rejected · ' + rv + ' to revise' : '')
+      + (eds ? (n ? ' · ' : '') + '<b>' + edDone + '</b> of ' + eds + ' stretches looked at · ' + kept + ' kept · ' + edited + ' edited' : '')
+      + (asks ? ' · ' + answered + ' of ' + asks + ' questions answered' : '');
+    $('#meter').style.width = ((n + eds + asks) ? Math.round(100 * (dec + edDone + answered) / (n + eds + asks)) : 0) + '%';
+    $('#leaveCount').textContent = quiet + (quietSeen ? ', ' + quietSeen + ' looked at' : '');
+    const counts = {};
+    ORDER.forEach(id => { const s = SUG[id]; if (s.advice === 'leave') return; counts[s.type] = (counts[s.type] || 0) + 1; });
+    $$('[data-count-type]').forEach(el => { el.textContent = counts[el.dataset.countType] || 0; });
+  }
+
+  // ---------------------------------------------------------------- decisions and notes
+  function decide(id, to) {
+    const st = get(id);
+    const from = st.status;
+    if (from === to) return;
+    st.history.push({ from: from, to: to, at: now() });
+    st.status = to; st.updated = now();
+    if (to === 'revise' && !st.text) st.text = SUG[id].proposed || '';
+    persistLocal(); renderCard(id); progress(); queueWrite(id, 0);
+    savedLine(id, db ? 'Saving…' : (localOk ? 'Saved in this browser' : 'Not saved: copy your answers before closing'));
+    if (to === 'revise') { const yt = $('.yours', cards[id]); if (yt) { yt.focus(); } }
+  }
+  ORDER.forEach(id => {
+    const c = cards[id]; if (!c) return;
+    $$('.dec', c).forEach(b => b.addEventListener('click', () => decide(id, b.dataset.dec)));
+    const typed = (field, el) => {
+      const st = get(id);
+      st[field] = el.value; st.updated = now();
+      persistLocal(); queueWrite(id, 900);
+      savedLine(id, db ? 'Saving…' : (localOk ? 'Saved in this browser' : 'Not saved: copy your answers before closing'));
+      if (isAsk(id)) askPill(id);
+      progress();
+    };
+    const yt = $('.yours', c), nt = $('.note', c);
+    yt.addEventListener('input', () => typed('text', yt));
+    nt.addEventListener('input', () => typed('comment', nt));
+    [yt, nt].forEach(el => el.addEventListener('blur', () => { if (dirty[id]) { clearTimeout(timers[id]); flush(id); } }));
+    const fold = $('.fold', c), body = $('.card-body', c);
+    fold.addEventListener('click', () => {
+      body.hidden = !body.hidden;
+      fold.textContent = body.hidden ? 'Open' : 'Fold';
+      fold.setAttribute('aria-expanded', String(!body.hidden));
+    });
+  });
+
+  // ---------------------------------------------------------------- moving around
+  // The cards in the order they stand on the page, not the order of REVIEW.json: Next and Previous move down and up the
+  // page. (Joel, 2026-11-03 19:12 UTC, on the gut article's r01 page: "your next button is skipping questions fix that".
+  // The list came from ORDER, the suggestions' file order, which put the three question cards last although one sat near
+  // the top of the article and the others between decision cards, so Next passed over them.)
+  function visibleCards() { return $$('.card[data-id]').filter(c => cards[c.dataset.id] === c && !c.hidden && c.offsetParent !== null); }
+  function openCard(c) { const body = $('.card-body', c); if (body.hidden) { body.hidden = false; const f = $('.fold', c); f.textContent = 'Fold'; f.setAttribute('aria-expanded', 'true'); } }
+  function flash(c) { c.classList.remove('flash'); void c.offsetWidth; c.classList.add('flash'); }
+  function goTo(c) { openCard(c); c.scrollIntoView({ behavior: 'smooth', block: 'start' }); flash(c); }
+  function undecided(c) { const id = c.dataset.id; return isAsk(id) ? !(get(id).comment || '').trim() : get(id).status === 'pending'; }
+  function step(dir) {
+    if (document.body.classList.contains('reading')) { document.body.classList.remove('reading'); $('#readingMode').checked = false; }
+    const topLine = 130;   // just under the sticky bar: a card scrolled to with goTo() stands at scroll-padding-top (120px)
+    if (dir > 0) {
+      const list = visibleCards().filter(undecided);
+      if (!list.length) { $('#prog').insertAdjacentText('beforeend', ' · nothing undecided in view'); return; }
+      const next = list.find(c => c.getBoundingClientRect().top > topLine + 4) || list[0];
+      goTo(next);
+      return;
+    }
+    // Previous: the card before the one you're on, decided or not, and never a jump to the bottom. (Joel, 2026-10-30, after
+    // going through the cards in order: "your "pevious" button brouught me to the bottom of the page": it went to the last
+    // undecided card above, and with every card above decided it wrapped round to the last one on the page.)
+    const all = visibleCards();
+    const above = all.filter(c => c.getBoundingClientRect().top < topLine + 4);
+    if (!above.length) { $('#prog').insertAdjacentText('beforeend', ' · this is the first card'); return; }
+    const cur = above[above.length - 1];
+    // inside a long card (its top well above the bar): back to its start first; at its start: the card before it
+    const target = cur.getBoundingClientRect().top < topLine - 60 ? cur : above[above.length - 2];
+    if (!target) { $('#prog').insertAdjacentText('beforeend', ' · this is the first card'); return; }
+    goTo(target);
+  }
+  $('#nextBtn').addEventListener('click', () => step(1));
+  $('#prevBtn').addEventListener('click', () => step(-1));
+  document.addEventListener('click', e => {
+    const m = e.target.closest('mark.hl[data-s]');
+    if (m && !e.target.closest('a')) {
+      const id = m.dataset.s.split(' ')[0];
+      const c = cards[id];
+      if (c && SUG[id].advice === 'leave' && !document.body.classList.contains('show-leave')) return;
+      if (c) {
+        if (document.body.classList.contains('reading')) { document.body.classList.remove('reading'); $('#readingMode').checked = false; }
+        if (c.hidden) { c.hidden = false; }
+        goTo(c);
+      }
+      return;
+    }
+    const g = e.target.closest('[data-go]');
+    if (g) {
+      const t = document.getElementById(g.dataset.go);
+      if (t) { if (t.classList.contains('card')) goTo(t); else { t.scrollIntoView({ behavior: 'smooth', block: 'center' }); flash(t); } }
+    }
+  });
+
+  // ---------------------------------------------------------------- filters
+  const hiddenTypes = new Set();
+  function applyFilters() {
+    const status = $('#statusFilter').value;
+    const q = $('#search').value.trim().toLowerCase();
+    ORDER.forEach(id => {
+      const c = cards[id]; if (!c) return;
+      const st = get(id);
+      let show = !hiddenTypes.has(SUG[id].type);
+      if (show && status !== 'all') show = status === 'noted' ? !!(st.comment || st.text) : st.status === status;
+      if (show && q) {
+        const b = document.getElementById('b' + c.dataset.block);
+        const hay = (c.textContent + ' ' + (b ? b.textContent : '') + ' ' + st.comment + ' ' + st.text).toLowerCase();
+        show = hay.includes(q);
+      }
+      c.hidden = !show;
+    });
+    Object.keys(DATA.types).forEach(t => document.body.classList.toggle('hide-t-' + t, hiddenTypes.has(t)));
+  }
+  $$('[data-filter-type]').forEach(b => b.addEventListener('click', e => {
+    const t = b.dataset.filterType;
+    if (b.closest('.card')) { e.stopPropagation(); }
+    if (hiddenTypes.has(t)) hiddenTypes.delete(t); else hiddenTypes.add(t);
+    $$('.tools [data-filter-type="' + t + '"]').forEach(x => x.setAttribute('aria-pressed', String(!hiddenTypes.has(t))));
+    applyFilters();
+  }));
+  $('#statusFilter').addEventListener('change', applyFilters);
+  let searchTimer = null;
+  $('#search').addEventListener('input', () => { clearTimeout(searchTimer); searchTimer = setTimeout(applyFilters, 200); });
+  $('#showLeave').addEventListener('change', e => { document.body.classList.toggle('show-leave', e.target.checked); });
+  $('#readingMode').addEventListener('change', e => { document.body.classList.toggle('reading', e.target.checked); });
+  const sel = $('#sectionJump');
+  DATA.sections.forEach(s => {
+    const o = document.createElement('option');
+    o.value = 'b' + s.b; o.textContent = (s.level >= 3 ? '   ' : '') + s.text;
+    sel.appendChild(o);
+  });
+  sel.addEventListener('change', () => { const t = document.getElementById(sel.value); if (t) t.scrollIntoView({ behavior: 'smooth', block: 'start' }); sel.value = ''; });
+  function togglePanel(btn, panel) {
+    const open = panel.hidden;
+    panel.hidden = !open; btn.setAttribute('aria-expanded', String(open));
+  }
+  $('#toolsBtn').addEventListener('click', () => togglePanel($('#toolsBtn'), $('#tools')));
+  $('#saveBtn').addEventListener('click', () => togglePanel($('#saveBtn'), $('#savePanel')));
+
+  // ---------------------------------------------------------------- export and import
+  function answers() {
+    const counts = { approved: 0, rejected: 0, revise: 0, pending: 0 };
+    const items = ORDER.map(id => {
+      const s = SUG[id], st = get(id);
+      counts[st.status]++;
+      return { id: id, type: s.type, title: s.title, where: s.where, advice: s.advice, status: isAsk(id) ? ((st.comment || '').trim() ? 'answered' : 'pending') : st.status,
+        question: s.question || undefined,
+        your_version: st.text, comment: st.comment, my_version: s.proposed, before: s.before,
+        history: st.history, updated: st.updated };
+    });
+    return { format: 'joel-suggestion-review-answers-v1', review_id: DATA.review_id, title: DATA.title, git_file: DATA.git_file,
+      article: DATA.article, built: DATA.built, generator: DATA.generator, exported_at: now(), counts: counts, items: items };
+  }
+  function status(msg) { $('#saveStatus').textContent = msg; }
+  function showCopyArea(text) {
+    const ta = $('#copyArea'); ta.hidden = false; ta.value = text; ta.focus(); ta.select();
+  }
+  $('#copyJson').addEventListener('click', () => {
+    const text = JSON.stringify(answers(), null, 1);
+    let done = false;
+    try {
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(text).then(() => { done = true; status('Copied. Paste it into the chat, or into this page on another account with "Paste answers instead".'); $('#copyArea').hidden = true; },
+          () => { showCopyArea(text); status('This view blocked copying: the answers are selected below, so copy them with your keyboard or the menu.'); });
+        return;
+      }
+    } catch (e) { /* fall through */ }
+    if (!done) { showCopyArea(text); status('The answers are selected below: copy them with your keyboard or the menu.'); }
+  });
+  $('#saveJson').addEventListener('click', async () => {
+    const text = JSON.stringify(answers(), null, 1);
+    const name = (DATA.review_id || 'review') + '-answers-' + now().slice(0, 16).replace(/[:T]/g, '-') + '.json';
+    if (dl) {
+      try { const r = await dl.save({ filename: name, data: text }); status(r && r.status === 'delivered' ? 'Sent.' : 'Saved as ' + name + '.'); return; }
+      catch (e) {
+        if (e && e.code === 'declined') { status('Not saved.'); return; }
+        if (e && e.code === 'rate_limited') { status('A save is already waiting for you to confirm.'); return; }
+      }
+    }
+    try {
+      const url = URL.createObjectURL(new Blob([text], { type: 'application/json' }));
+      const a = document.createElement('a'); a.href = url; a.download = name; a.style.display = 'none';
+      document.body.appendChild(a); a.click(); a.remove();
+      setTimeout(() => URL.revokeObjectURL(url), 60000);
+      status('Saving ' + name + '. If nothing downloads, use "Copy my answers" instead.');
+    } catch (e) { showCopyArea(text); status('Saving files is blocked here: the answers are selected below to copy.'); }
+  });
+  function load(text) {
+    let o;
+    try { o = JSON.parse(text); } catch (e) { status('That isn\'t a JSON answers file.'); return; }
+    if (!o || o.format !== 'joel-suggestion-review-answers-v1' || !Array.isArray(o.items)) { status('That isn\'t an answers file from this page.'); return; }
+    if (o.review_id !== DATA.review_id) { status('Those answers are for a different review (' + o.review_id + '), so nothing was loaded.'); return; }
+    if (!o.article || o.article.sha256 !== DATA.article.sha256) { status('Those answers are for a different version of the guide, so nothing was loaded: send them to me and I\'ll carry them over.'); return; }
+    let n = 0; const unknown = [];
+    o.items.forEach(it => {
+      if (!it || !SUG[it.id]) { if (it && it.id) unknown.push(it.id); return; }
+      const st = get(it.id);
+      const to = STATUSES.includes(it.status) ? it.status : 'pending';
+      if (to === 'pending' && !it.comment && !it.your_version && st.status === 'pending' && !st.comment && !st.text) return;
+      if (to !== st.status) st.history.push({ from: st.status, to: to, at: now(), by: 'loaded from a file' });
+      st.status = to; st.comment = typeof it.comment === 'string' ? it.comment : '';
+      st.text = typeof it.your_version === 'string' ? it.your_version : '';
+      st.updated = now(); n++;
+      queueWrite(it.id, 0);
+    });
+    persistLocal(); renderAll(); applyFilters();
+    status('Loaded ' + n + ' answer' + (n === 1 ? '' : 's') + (unknown.length ? '; ' + unknown.length + ' not on this page (' + unknown.slice(0, 5).join(', ') + ')' : '') + '.');
+  }
+  $('#importFile').addEventListener('change', e => {
+    const f = e.target.files && e.target.files[0]; if (!f) return;
+    const r = new FileReader(); r.onload = () => { load(String(r.result)); e.target.value = ''; }; r.readAsText(f);
+  });
+  $('#pasteToggle').addEventListener('click', () => { const b = $('#pasteBox'); b.hidden = !b.hidden; if (!b.hidden) $('#pasteArea').focus(); });
+  $('#pasteLoad').addEventListener('click', () => load($('#pasteArea').value));
+
+  window.__review = { answers: answers, load: load, state: () => state };
+  renderAll(); applyFilters(); setStoreNote(); initDb();
+})();
+</script>
+</body>
+</html>
