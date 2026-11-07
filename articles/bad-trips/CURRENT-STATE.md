@@ -1,6 +1,6 @@
 # Bad Trips guide: current state
 
-Updated: 2026-11-07 (the session's own resume of 01:26 UTC).
+Updated: 2026-11-07 (the session's own resume of 01:37 UTC).
 badtrips guide at badtrips.u-dont-exist.com"; `experiments/t01-answers/JOEL-MESSAGE-20261103-1545.md`).
 
 ## Goal
@@ -235,10 +235,12 @@ dose, unit, timing and warning exactly as it went in, and his post updated with 
 
 - 2026-11-07 (the session's own resume at 01:26 UTC): round 16's two cards (Bad Trips Guide, Round 16, https://claude.ai/artifact/87kndi4Pbkqz5ufwtZpXC5; `review/r16/REVIEW-R16.md`; browser test 78 passed): No Rash Actions' three imperatives as one sentence (59% to Human Written) and the lock said as "Put yourself on a 24–72 hour action lock." (100% to 76%, the name kept for When the Trip Feels Amazing's reference). Both keep their bold when applied.
 
+- 2026-11-07 (the session's own resume at 01:37 UTC): No Rash Actions' other three paragraphs as one flowing sentence each read worse (58%, 50%, 69% against 38%, 41%, 43%); they stay (later list).
+
 ## Current checkpoint
 
 - **In progress:** Turn 18. Psychological First Aid reads Human to the reminder; round 12's card (the practice case) is out. Stillness or Movement? turns the section AI in every form tried so far.
-- **Next step (updated on every push, so another account can pick up here):** his round-12, round-15 and round-16 answers in when they come (`apply_r12.py`, `apply_r15.py`, `apply_r16.py` from the exports; round 15's HELPER-GRIEF-CUT, if approved, records its fidelity-key losses in a FIDELITY-KEYS-R15.json owner_changes entry; round 16's lines keep their bold). Meanwhile, without stopping at a report (bad-trips-2026-11-06b): No Rash Actions' other paragraphs one sentence at a time (the first 38%, experience-content 41%, "No revelation" 43%), the Don't list's repeats as a card (`humanize/h18-20261107/RESULTS.md`), then When the Trip Feels Amazing. The later list (no wording found yet): Get One Human Anchor's two scripts, Alone at 3 a.m. (50%), Stillness or Movement?, Psychological First Aid's two Human Low windows, Who to Contact's directories, the helper opening's "not there to" list and Zendo summary, the harm part's "I am God" paragraph and script lines, No Rash Actions' list of don'ts. His Pangram account is in the desktop app's browser pane (ask him to sign in when the history answers 401, and to open the app if it can't be reached). No whole-guide check until no window already seen reads AI or Low (E354).
+- **Next step (updated on every push, so another account can pick up here):** his round-12, round-15 and round-16 answers in when they come (`apply_r12.py`, `apply_r15.py`, `apply_r16.py` from the exports; round 15's HELPER-GRIEF-CUT, if approved, records its fidelity-key losses in a FIDELITY-KEYS-R15.json owner_changes entry; round 16's lines keep their bold). Meanwhile, without stopping at a report (bad-trips-2026-11-06b): the Don't list's repeats as a card (`humanize/h18-20261107/RESULTS.md`), then When the Trip Feels Amazing. The later list (no wording found yet): Get One Human Anchor's two scripts, Alone at 3 a.m. (50%), Stillness or Movement?, Psychological First Aid's two Human Low windows, Who to Contact's directories, the helper opening's "not there to" list and Zendo summary, the harm part's "I am God" paragraph and script lines, No Rash Actions' list of don'ts and its other three paragraphs (38% to 43%). His Pangram account is in the desktop app's browser pane (ask him to sign in when the history answers 401, and to open the app if it can't be reached). No whole-guide check until no window already seen reads AI or Low (E354).
 - **Waiting on Joel:** round 12's card.
 
 ## Remaining
