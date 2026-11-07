@@ -68,21 +68,27 @@ Joel, 2026-11-03 16:15 UTC (`experiments/t01-answers/joel-20261103-1615-messages
   fixes are done. The update source (`r31/live-update/r31.html`) and plan (`humanize/fix-20261103/live/UPDATE-PLAN-4.json`)
   are built.
 
+- 2026-11-07, answering my question about updating his post: "Oh, one change", Pooyan's news (all better, and what
+  worked was Bombax ceiba flower; Acacea too). Added as r32 (`humanize/fix-20261103/r32/`), a fourth sub-item of
+  "Years of accumulated shit in your guts", mostly his words; the item read [Human Written, one High window](https://www.pangram.com/history/99c2dd24-0dcf-4898-8321-28ccf6380474)
+  (#210). The update source and plan are rebuilt from r32.
+
 ## Current checkpoint
 
-2026-11-07, in the 01:11 UTC turn. The fixes are done and answered: r31 is the article with every answer in, and the
-whole article (draft E, r30, one gloss different) read Human with no window below Medium. His post still has r12 (the
-second update). The update to r31 is ready and waits for his OK, with no email.
+2026-11-07, in the 01:11 UTC turn. The fixes are done and answered; r32 (r31 with Pooyan's news, which he sent as one
+change before the update) is the version for his post. His post still has r12 (the second update). The update to r32
+is ready and waits for his yes to the item's wording, with no email.
 
 ## Remaining
 
-1. His OK for the update; then the update as `humanize/fix-20261103/r31/README.md` says, and the character-by-character
-   comparison of the live post with `r31/live-update/EXPECTED-TEXT-r31.txt` (E362 (gut)).
+1. His yes; then the update as `humanize/fix-20261103/r31/README.md` says, with `r32/live-update/r32.html` and
+   `humanize/fix-20261103/live/UPDATE-PLAN-4.json`, and the character-by-character comparison of the live post with
+   `r32/live-update/EXPECTED-TEXT-r32.txt` (E362 (gut)); his extension on the live post as the last check.
 2. Drafts A to E are his to delete.
 
 ## Blockers / unresolved
 
-- Waiting on Joel: his OK for the update (no email).
+- Waiting on Joel: his yes to the update with Pooyan's item as worded (no email).
 
 ## Evidence / artifacts
 
@@ -90,4 +96,4 @@ second update). The update to r31 is ready and waits for his OK, with no email.
 
 ## Next safe action
 
-With his OK, update the post to r31 (no email) and compare the live text with the checked text.
+With his yes, update the post to r32 (no email) and compare the live text with the checked text.
