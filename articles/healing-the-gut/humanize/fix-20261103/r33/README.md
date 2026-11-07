@@ -14,3 +14,7 @@ It goes in as the second update did (`../live/README.md`, `../live/LIVE-CHECK-20
 post's editor with the plan and r33.html from a pushed commit, `dispatch.js`, then Continue and "Update now" with "Send
 via email" unchecked. Then the live post's text is compared with `live-update/EXPECTED-TEXT-r33.txt` character by
 character (E362 (gut)).
+
+## Posted
+
+r33 went into his post at 12:16 UTC on 7 November, with no email (`../live/LIVE-CHECK-20261107.json`). The post's page reads exactly as `live-update/EXPECTED-TEXT-r33.txt`, character for character.

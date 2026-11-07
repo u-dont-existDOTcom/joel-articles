@@ -73,22 +73,25 @@ Joel, 2026-11-03 16:15 UTC (`experiments/t01-answers/joel-20261103-1615-messages
   "Years of accumulated shit in your guts", mostly his words; the item read [Human Written, one High window](https://www.pangram.com/history/99c2dd24-0dcf-4898-8321-28ccf6380474)
   (#210). The update source and plan are rebuilt from r32.
 
+- 2026-11-07 12:16 UTC: "link askrigor to askrigor.com and then post the article": r33 (AskRigor linked twice, words
+  unchanged) went into his post with no email (`humanize/fix-20261103/live/LIVE-CHECK-20261107.json`): the editor still
+  held r12, 25 top-level nodes replaced, native blocks kept, `email_sent_at` null; the live page equals the checked text
+  character for character (E362 (gut)).
+
 ## Current checkpoint
 
-2026-11-07, in the 01:11 UTC turn. The fixes are done and answered; r32 (r31 with Pooyan's news, which he sent as one
-change before the update) is the version for his post. His post still has r12 (the second update). The update to r32
-is ready and waits for his yes to the item's wording, with no email.
+2026-11-07 12:16 UTC: his post has r33, the article with every answer in, no email sent. The fixes are done: the whole
+article read Human with no window below Medium (draft E, #208), and the two later changes read Human, High in place
+(#209, #210).
 
 ## Remaining
 
-1. His yes; then the update as `humanize/fix-20261103/r31/README.md` says, with `r32/live-update/r32.html` and
-   `humanize/fix-20261103/live/UPDATE-PLAN-4.json`, and the character-by-character comparison of the live post with
-   `r32/live-update/EXPECTED-TEXT-r32.txt` (E362 (gut)); his extension on the live post as the last check.
+1. Optional: his extension on the live post itself, as the last check of what readers see.
 2. Drafts A to E are his to delete.
 
 ## Blockers / unresolved
 
-- Waiting on Joel: his yes to the update with Pooyan's item as worded (no email).
+- None.
 
 ## Evidence / artifacts
 
@@ -96,4 +99,4 @@ is ready and waits for his yes to the item's wording, with no email.
 
 ## Next safe action
 
-With his yes, update the post to r32 (no email) and compare the live text with the checked text.
+Nothing is open for this article. If his extension reads the live post, record it as `r30/draft-e-check/` was.
