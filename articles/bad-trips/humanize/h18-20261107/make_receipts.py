@@ -22,6 +22,18 @@ HEAD = {'payoff': 'they know this part is for when the person talks about harmin
         'follows': "a heading in the helper's section, after the reminder of where they are (a narrowing test)",
         'link': "none: a new subsection's heading; it opens the case of talk turning to harm"}
 NEW = {
+    "If they keep going, you can try something like this, without making it a fight:": ('they know the words below are for when it goes on, said without a fight', 'after what to do, the words to use', 'If they keep going'),
+    "Non-combative philosophical grounding:": ('they know the words below ground the person without a fight', 'after what to do, the words to use', 'grounding'),
+    "I hear how vast and certain this feels.": ('the person hears their feeling named', "the script's first line, after its lead-in", 'I hear'),
+    "Many traditions say God is in everyone.": ('the person hears a view inside their own frame', "the script's next line", 'God'),
+    "That makes every body sacred, not disposable.": ('the person hears what follows from it: every body is sacred', "the script's next line", 'That'),
+    "Peace is the godly move tonight.": ('the person hears what to do with it tonight: peace', "the script's next line", 'godly'),
+    "No proof is needed.": ('the person hears nothing needs testing', "the script's next line", 'proof'),
+    "We protect life and sleep first.": ('the person hears what comes first: life and sleep', "the script's last line", 'We protect'),
+    'Other useful lines: "Maybe you are touching something divine.': ('they have shorter lines too', 'after the script, other lines', 'Other useful lines'),
+    'Or, shorter: "Maybe you are touching something divine.': ('they have shorter lines too', 'after the script, other lines', 'Or, shorter'),
+    'Divine doesn\'t need a violent test."': ('the line goes on: the divine needs no violent test', "the same line's end", 'Divine'),
+    '"Tonight the commandment is no harm, no proof, no mission, sleep first."': ('they have one more line: no harm, no proof, no mission, sleep first', 'the last line', 'Tonight'),
     'When somebody says, "I am God, so I can kill," leading with "No you\'re not" or "That\'s delusional" can turn the encounter into a status fight.': (
         'they know not to open by contradicting a grandiose threat', "the subsection's first point, under its heading", 'I am God'),
     "Nodding along as though harm is spiritually neutral is also unacceptable.": (

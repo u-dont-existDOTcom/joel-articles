@@ -27,3 +27,8 @@ then the Don't list's card.
 Its last sentence said plainly ("Take it as a warning sign, and steer them back toward not hurting anyone."): [70%](https://www.pangram.com/history/ddb6b1ff-c25e-4134-8965-90a1f37bc3a0);
 its second as an instruction ("But don't nod along either, ..."): [63%](https://www.pangram.com/history/3c963add-d09a-480e-88fb-977ec6e048f0). Both read worse than the guide's own
 words (47%), which stay; the paragraph goes on the later list.
+
+## The grounding script's labels
+
+"Non-combative philosophical grounding:" said as a spoken lead-in: [69%](https://www.pangram.com/history/6887bf87-2e1f-4331-8fa5-e098c9806efd); "Other useful lines:" as "Or, shorter:": [52%](https://www.pangram.com/history/d560abcd-4d73-4f72-9258-527099330c92), as the guide's
+words. The script lines stay as the guide has them and go on the later list with Get One Human Anchor's scripts.
