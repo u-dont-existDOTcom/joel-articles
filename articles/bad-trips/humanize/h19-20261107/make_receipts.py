@@ -22,6 +22,11 @@ HEAD = {'payoff': 'they know this part is about not acting on the trip',
         'follows': "the next section's heading, after the reminder of where they are (a narrowing test)",
         'link': "none: a new section's heading; it opens the rule against acting on visions"}
 NEW = {
+    "Put yourself on a 24\u201372 hour action lock.": ('they know to hold off acting for 24 to 72 hours', "the section's rule, under its heading", 'action lock'),
+    "Write it down, get some sleep, and go back over it sober with one grounded person.": ('they know what to do with the urge: write it, sleep, and look again sober with someone grounded', "the paragraph's steps, after the lock", 'Write it down'),
+    "Write it down.": ('they know to write the urge down', "the first step, after the lock", 'Write it down'),
+    "Protect sleep.": ('they know to sleep before acting', 'the next step', 'sleep'),
+    "Then go back over it once you're sober, with one grounded person.": ('they know to look at it again sober, with someone grounded', 'the last step', 'Then'),
     "Use a 24\u201372 hour action lock.": ('they know to hold off acting for 24 to 72 hours', "the section's rule, under its heading", 'action lock'),
     "Give it 24\u201372 hours before you act on anything.": ('they know to hold off acting for 24 to 72 hours', "the section's rule, under its heading", '24\u201372 hours'),
     "Until you have slept and eaten, don't drive, travel, break up, quit your job, confess everything, confront anybody, accuse anybody, send the message, post the revelation, give away possessions, call your ex, call your parents to explain the universe, or decide that you are permanently enlightened or permanently damaged.": (
