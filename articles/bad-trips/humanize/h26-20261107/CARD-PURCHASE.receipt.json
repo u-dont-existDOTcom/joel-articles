@@ -1,0 +1,44 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-07",
+ "text_sha256": "a5dc604ff0657acbf80b0c64b1bf3f4d5a6809c540adea523afcc11c153a764c",
+ "text": "Until you have slept and eaten, don't drive, travel, break up, quit your job, confess everything, confront anybody, accuse anybody, send the message, post the revelation, give away possessions, make a grand purchase, call your ex, call your parents to explain the universe, or decide that you are permanently enlightened or permanently damaged.",
+ "section": "No Rash Actions: Visions Are Not Commands, after the action lock",
+ "reader": "someone on a bad trip, or sitting with one, tempted to act on what the trip showed them",
+ "sentences": [
+  {
+   "s": "Until you have slept and eaten, don't drive, travel, break up, quit your job, confess everything, confront anybody, accuse anybody, send the message, post the revelation, give away possessions, make a grand purchase, call your ex, call your parents to explain the universe, or decide that you are permanently enlightened or permanently damaged.",
+   "payoff": "they know what not to do until they have slept and eaten",
+   "follows": "the lock spelled out, after the rule"
+  }
+ ],
+ "checked": [],
+ "placement": "No Rash Actions, after the action lock",
+ "opens": {
+  "first_sentence": "Until you have slept and eaten, don't drive, travel, break up, quit your job, confess everything, confront anybody, accuse anybody, send the message, post the revelation, give away possessions, make a grand purchase, call your ex, call your parents to explain the universe, or decide that you are permanently enlightened or permanently damaged.",
+  "why_reading": "the line before sets the lock; this says what it locks"
+ },
+ "same_point": "none: read the section from its heading to the next for the lock, its list, writing it down, experience-content and no revelation making harm safe; the euphoria section's danger list is the card's cut",
+ "questions": {
+  "Q1": "PASS: the paragraph is its point",
+  "Q2": "PASS: the reader's own acts, each named",
+  "Q3": "PASS: which things exactly, each named",
+  "Q4": "PASS: no terms a reader would not know",
+  "Q5": "PASS: until slept and eaten, so none of these",
+  "Q6": "PASS: a list in the order the guide has it",
+  "Q7": "PASS: about the urge in front of them",
+  "Q8": "PASS: one point",
+  "Q9": "PASS: nothing compressed"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}
