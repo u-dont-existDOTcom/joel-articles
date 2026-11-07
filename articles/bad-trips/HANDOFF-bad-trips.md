@@ -15,6 +15,7 @@ https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/bad-trips
 
 ## START HERE
 
+- **2026-11-07, the session's own resume (01:04 UTC).** The harm part's script lines read no better with their labels changed; No Rash Actions checked (AI; 64% after the Human section). **First:** his round-12 and round-15 answers in; meanwhile CURRENT-STATE.md's next step.
 - **2026-11-07, the session's own resume (00:51 UTC).** For the Person Helping's lists and harm part checked part by part (47% to 100%; `humanize/h18-20261107/RESULTS.md`); the Don't list's repeats hold fidelity keys, so they go on a card. **First:** his round-12 and round-15 answers in; meanwhile CURRENT-STATE.md's next step.
 - **2026-11-07, the session's own resume (00:40 UTC).** Round 15's three cards are up (Bad Trips Guide, Round 15, https://claude.ai/artifact/MSKNpp9YBQCXwUuo9KjLye): the TripSit line, the stay-present lead-in, and the grief paragraph's cut (his call). **First:** his round-12 and round-15 answers in; meanwhile CURRENT-STATE.md's next step.
 - **2026-11-07, the session's own resume (00:27 UTC).** Round 14 approved and in. Who to Contact's first list goes 65% to 45% with its TripSit line said as talk; For the Person Helping's "real grief" paragraph is a repeat whose cut loses two fidelity-key warnings, so both go on round 15's cards. **First:** his round-12 answer in; meanwhile CURRENT-STATE.md's next step.

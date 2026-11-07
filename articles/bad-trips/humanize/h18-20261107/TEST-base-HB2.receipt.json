@@ -1,0 +1,176 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-07",
+ "text_sha256": "0aaa8e3fa71d2f2a3c66dea62fe918b3324e6d17ad1f447b6f9d18346d54f8ce",
+ "text": "Psychological First Aid: The First Five Minutes\n\nAnything that could let someone hurt themselves in the next five minutes takes priority, so get the car keys out of reach and turn the stove off, and move them away from roads and balconies, or pools of water for that matter. Letting them move around is fine, and pacing can help, but keep them from taking more of any substance. If they want to go confront somebody, that can wait. And if they want to leave, have someone go with them. Put any weapons away and keep the person away from crowds and strangers. If they want to post their big revelation about the universe, or message an ex, take the phone.\n\nThey're feeling overwhelmed, so dim the lights, and clear out the extra people around them.\n\nThen remind them where they are and what's happening, since a trip can make them lose track of it:\n\nYou're in [place]. It's [date/time]. You took [substance, if known], and its effects will peak and then change.\n\nWhen the Content Turns Toward Harm\n\nNon-combative philosophical grounding:\n\nI hear how vast and certain this feels. Many traditions say God is in everyone. That makes every body sacred, not disposable. Peace is the godly move tonight. No proof is needed. We protect life and sleep first.\n\nOr, shorter: \"Maybe you are touching something divine. Divine doesn't need a violent test.\" \"Tonight the commandment is no harm, no proof, no mission, sleep first.\"",
+ "section": "Psychological First Aid: The First Five Minutes, and When the Content Turns Toward Harm",
+ "reader": "someone sitting with a person on a bad psychedelic trip, or tripping themselves, who needs to know what to do in the first five minutes, and what to do when talk turns to harm",
+ "sentences": [
+  {
+   "s": "Psychological First Aid: The First Five Minutes",
+   "payoff": "they know what this section covers: the first five minutes of looking after someone",
+   "follows": "the section's heading, after the Shadow Work part's welcome"
+  },
+  {
+   "s": "Anything that could let someone hurt themselves in the next five minutes takes priority, so get the car keys out of reach and turn the stove off, and move them away from roads and balconies, or pools of water for that matter.",
+   "payoff": "they secure whatever could let the person hurt themselves first: keys, stove, roads, balconies, pools",
+   "follows": "the first thing to do in the first five minutes, straight after the heading",
+   "link": "in the next five minutes"
+  },
+  {
+   "s": "Letting them move around is fine, and pacing can help, but keep them from taking more of any substance.",
+   "payoff": "they let the person move and pace, but stop them taking more of anything",
+   "follows": "still the dangers: movement is fine, more of a substance is not",
+   "link": "none: the next item in the same list of dangers, which the paragraph opened on"
+  },
+  {
+   "s": "If they want to go confront somebody, that can wait.",
+   "payoff": "they know a confrontation can wait",
+   "follows": "what the person may want to do that isn't safe now",
+   "link": "If they want to"
+  },
+  {
+   "s": "And if they want to leave, have someone go with them.",
+   "payoff": "they send someone along if the person wants to leave",
+   "follows": "the next thing the person may want to do",
+   "link": "And if"
+  },
+  {
+   "s": "Put any weapons away and keep the person away from crowds and strangers.",
+   "payoff": "they put weapons away and keep the person from crowds and strangers",
+   "follows": "more dangers the reader removes",
+   "link": "none: another item in the list of dangers the paragraph opened on"
+  },
+  {
+   "s": "If they want to post their big revelation about the universe, or message an ex, take the phone.",
+   "payoff": "they take the phone before a revelation gets posted or an ex gets messaged",
+   "follows": "the last of the things the person may want to do",
+   "link": "If they want to"
+  },
+  {
+   "s": "They're feeling overwhelmed, so dim the lights, and clear out the extra people around them.",
+   "payoff": "they dim the lights and clear out the extra people, and know why: the person is overwhelmed",
+   "follows": "after the dangers, the room: its two fixes, with the reason (they're overwhelmed)",
+   "link": "They're feeling overwhelmed, so"
+  },
+  {
+   "s": "Then remind them where they are and what's happening, since a trip can make them lose track of it:",
+   "payoff": "they know the script that follows is for reminding the person where they are and what's happening, and why: a trip can make them lose track",
+   "follows": "after the room, what to say",
+   "link": "Then"
+  },
+  {
+   "s": "You're in [place].",
+   "payoff": "the person hears where they are",
+   "follows": "the script's first fact",
+   "link": "none: the script's first line, which the colon before it introduces"
+  },
+  {
+   "s": "It's [date/time].",
+   "payoff": "the person hears when it is",
+   "follows": "the second fact",
+   "link": "none: the script's next fact, said to the person"
+  },
+  {
+   "s": "You took [substance, if known], and its effects will peak and then change.",
+   "payoff": "the person hears what they took and that its effects will peak and then change",
+   "follows": "the third fact, with what follows from it",
+   "link": "none: the script's last fact, said to the person"
+  },
+  {
+   "s": "When the Content Turns Toward Harm",
+   "payoff": "they know this part is for when the person talks about harming someone",
+   "follows": "a heading in the helper's section, after the reminder of where they are (a narrowing test)",
+   "link": "none: a new subsection's heading; it opens the case of talk turning to harm"
+  },
+  {
+   "s": "Non-combative philosophical grounding:",
+   "payoff": "they know the words below ground the person without a fight",
+   "follows": "after what to do, the words to use",
+   "link": "grounding"
+  },
+  {
+   "s": "I hear how vast and certain this feels.",
+   "payoff": "the person hears their feeling named",
+   "follows": "the script's first line, after its lead-in",
+   "link": "I hear"
+  },
+  {
+   "s": "Many traditions say God is in everyone.",
+   "payoff": "the person hears a view inside their own frame",
+   "follows": "the script's next line",
+   "link": "God"
+  },
+  {
+   "s": "That makes every body sacred, not disposable.",
+   "payoff": "the person hears what follows from it: every body is sacred",
+   "follows": "the script's next line",
+   "link": "That"
+  },
+  {
+   "s": "Peace is the godly move tonight.",
+   "payoff": "the person hears what to do with it tonight: peace",
+   "follows": "the script's next line",
+   "link": "godly"
+  },
+  {
+   "s": "No proof is needed.",
+   "payoff": "the person hears nothing needs testing",
+   "follows": "the script's next line",
+   "link": "proof"
+  },
+  {
+   "s": "We protect life and sleep first.",
+   "payoff": "the person hears what comes first: life and sleep",
+   "follows": "the script's last line",
+   "link": "We protect"
+  },
+  {
+   "s": "Or, shorter: \"Maybe you are touching something divine.",
+   "payoff": "they have shorter lines too",
+   "follows": "after the script, other lines",
+   "link": "Or, shorter"
+  },
+  {
+   "s": "Divine doesn't need a violent test.\"",
+   "payoff": "the line goes on: the divine needs no violent test",
+   "follows": "the same line's end",
+   "link": "Divine"
+  },
+  {
+   "s": "\"Tonight the commandment is no harm, no proof, no mission, sleep first.\"",
+   "payoff": "they have one more line: no harm, no proof, no mission, sleep first",
+   "follows": "the last line",
+   "link": "Tonight"
+  }
+ ],
+ "checked": [],
+ "placement": "Psychological First Aid to the reminder, then When the Content Turns Toward Harm's heading and one paragraph with one sentence changed (a narrowing test)",
+ "opens": {
+  "first_sentence": "Psychological First Aid: The First Five Minutes",
+  "why_reading": "the heading tells someone looking after a person in a bad state that this is what to do now, in the first five minutes, which is their case; the first paragraph opens on the first thing to do"
+ },
+ "same_point": "none: read the subsection from its heading to the next for the two wrong ways, the safety signal, the grounding lines and the escalation; the Don't list's partial repeats are in humanize/h18-20261107/RESULTS.md",
+ "questions": {
+  "Q1": "PASS: each paragraph opens on its point: the first priority, the room fixes with their reason, what the reminder is for, then the anchor part's point",
+  "Q2": "PASS: every act is the helper's own, with its purpose: the dangers removed, the lights dimmed and the extra people out because they're overwhelmed, the reminder because a trip can make them lose track; one calm person as the lead, a second as backup when it's more than one can hold",
+  "Q3": "PASS: which things exactly: keys, stove, roads, balconies, pools, weapons, the phone; the lights, the extra people; place, date and time, the substance; who leads and who backs up, and when",
+  "Q4": "PASS: no terms a reader would not know; \"anchor\" is the heading's word, said in the sentence as the calm person who leads",
+  "Q5": "PASS: each turn has what it turns on: since a trip makes them lose track; the opposite of alone is too many people; backup when one person cannot hold it",
+  "Q6": "PASS: dangers, room, what to say, then who should be with them",
+  "Q7": "PASS: every fact is about the person in front of them now",
+  "Q8": "PASS: the anchor part is one point, under its heading",
+  "Q9": "PASS: nothing compressed: the reminder's facts one a sentence, as said aloud; the anchor part one step a sentence"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}
