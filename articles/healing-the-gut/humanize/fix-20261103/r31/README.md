@@ -1,4 +1,6 @@
-# r31: the version for his post's update (2026-11-07)
+# r31: oxytocin's gloss corrected (2026-11-07)
+
+Superseded for the update by `../r32/`: when I asked whether to update his post, he sent one more change first (Pooyan's news). r32 is r31 with it, and `../live/UPDATE-PLAN-4.json` is now built from r32.html.
 
 His extension read draft E, the whole of r30, [Human Written](https://www.pangram.com/feed/1c41fbd9-580a-4036-b526-95a96cb70c46)
 (`../r30/draft-e-check/`, #208 right): every window Human, document confidence High; 7 High windows cover 4,025 of its

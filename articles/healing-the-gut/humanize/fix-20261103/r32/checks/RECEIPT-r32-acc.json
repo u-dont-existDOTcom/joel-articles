@@ -1,0 +1,153 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-07",
+ "text_sha256": "8e1694a8662b01a82c4bc3bbde97d2e743e08b8ec99d38a42af9d7401d2f2927",
+ "text": "Years of accumulated shit in your guts (not in the phases, but Phase 4 comes closest): This part isn't in the gut healing books I read, but even if you fix all of what's going into you now, if you're already full and clogged with all of what went in before, that's gonna be little help. My friend Pooyan got incredibly healthier and happier after getting enough colon hydrotherapy to flush that stuff out, combined with then also doing intense stretches like hanging from one arm, until finally, the most crusted up shit exploded in him which was very painful for a day.\n\nThis is likely caused by diverticulosis, a disease that causes herniated pockets (called diverticula) to form in the intestines which aren't supported by smooth muscle. There's no known cure for this disease, except possibly glutamine, based on one incomplete clinical trial, which found 2 of 9 women had incredible reductions in diverticula. Glutamine is an amino acid that's the fuel for small intestinal cells, so this makes some sense. 10% of people get side effects from it (including constipation). Butyrate, a fatty acid your gut bacteria make, is the fuel for the colon cells. I would also suggest diosmin, a compound from citrus fruits, for improving blood vessel integrity.\n\nHowever, while we don't know if Pooyan has diverticulosis, what we now do know is that his peak health disappeared 3 days later after eating some bread with A1 dairy, the regular cow's milk that has the A1 type of casein protein.\n\nUpdate: Pooyan is actually all better now from his gut issues that nobody could fix. Apparently he didn't need the insane treatments he was doing on himself. What worked was some Bombax ceiba flower, from the red silk-cotton tree, that I sent him. It's sold on Amazon, cheap. AskRigor, my research tool, is what told me about it when I was doing ethnobotanical research. My other friend, Acacea, is also benefitting from this flower.\n\nCAUTION: If you have severe diverticulosis, especially diverticulitis (once the fecal impaction causes intestinal infection & inflammation), you might be at high risk for intestinal wall rupture, and even rejected by the more reputable colonic irrigation clinics. Make sure you get cleared first by a gastroenterologist, a doctor who specializes in the gut.",
+ "section": "Some Causes of poor gut health",
+ "reader": "Someone with gut trouble reading Joel's list of causes, deciding whether old impaction could be theirs and what his friend's story says about it.",
+ "sentences": [
+  {
+   "s": "Years of accumulated shit in your guts (not in the phases, but Phase 4 comes closest): This part isn't in the gut healing books I read, but even if you fix all of what's going into you now, if you're already full and clogged with all of what went in before, that's gonna be little help.",
+   "payoff": "the reader learns the cause, that the books leave it out, and why it matters even if they eat well now",
+   "follows": "the next cause in the list"
+  },
+  {
+   "s": "My friend Pooyan got incredibly healthier and happier after getting enough colon hydrotherapy to flush that stuff out, combined with then also doing intense stretches like hanging from one arm, until finally, the most crusted up shit exploded in him which was very painful for a day.",
+   "payoff": "the reader sees the cause in a friend's case: flushing the old impaction made him healthier and happier",
+   "follows": "an example of the cause just named",
+   "link": "to flush that stuff out"
+  },
+  {
+   "s": "This is likely caused by diverticulosis, a disease that causes herniated pockets (called diverticula) to form in the intestines which aren't supported by smooth muscle.",
+   "payoff": "the reader learns what may cause the impaction, diverticulosis, and what it is",
+   "follows": "why the stuff gets stuck",
+   "link": "This is likely caused by"
+  },
+  {
+   "s": "There's no known cure for this disease, except possibly glutamine, based on one incomplete clinical trial, which found 2 of 9 women had incredible reductions in diverticula.",
+   "payoff": "the reader learns there is no known cure, only a possible one, glutamine, from one trial",
+   "follows": "what can be done about diverticulosis",
+   "link": "this disease"
+  },
+  {
+   "s": "Glutamine is an amino acid that's the fuel for small intestinal cells, so this makes some sense.",
+   "payoff": "the reader learns why glutamine could help",
+   "follows": "why the trial result makes sense",
+   "link": "so this makes some sense"
+  },
+  {
+   "s": "10% of people get side effects from it (including constipation).",
+   "payoff": "the reader knows glutamine's side effects",
+   "follows": "the cost of trying it",
+   "link": "from it"
+  },
+  {
+   "s": "Butyrate, a fatty acid your gut bacteria make, is the fuel for the colon cells.",
+   "payoff": "the reader learns the colon cells' fuel, butyrate",
+   "follows": "the colon's counterpart to glutamine",
+   "link": "the fuel for the colon cells"
+  },
+  {
+   "s": "I would also suggest diosmin, a compound from citrus fruits, for improving blood vessel integrity.",
+   "payoff": "the reader gets one more thing to try, diosmin, and what it does",
+   "follows": "Joel's own addition after the fuels",
+   "link": "also"
+  },
+  {
+   "s": "However, while we don't know if Pooyan has diverticulosis, what we now do know is that his peak health disappeared 3 days later after eating some bread with A1 dairy, the regular cow's milk that has the A1 type of casein protein.",
+   "payoff": "the reader learns what Pooyan's relapse showed: A1 dairy took his peak health away",
+   "follows": "back to Pooyan after the diverticulosis aside",
+   "link": "However, while we don't know if Pooyan has diverticulosis"
+  },
+  {
+   "s": "Update: Pooyan is actually all better now from his gut issues that nobody could fix.",
+   "payoff": "the reader learns how Pooyan's story ends: he is well now, after gut issues nobody could fix",
+   "follows": "the latest news after his relapse on A1 dairy",
+   "link": "Update: Pooyan"
+  },
+  {
+   "s": "Apparently he didn't need the insane treatments he was doing on himself.",
+   "his": true
+  },
+  {
+   "s": "What worked was some Bombax ceiba flower, from the red silk-cotton tree, that I sent him.",
+   "payoff": "the reader learns what did help him, and what Bombax ceiba is",
+   "follows": "after the treatments he didn't need, the one that worked",
+   "link": "What worked was"
+  },
+  {
+   "s": "It's sold on Amazon, cheap.",
+   "payoff": "the reader knows where to get it and that it is cheap",
+   "follows": "where to find the flower",
+   "link": "It's"
+  },
+  {
+   "s": "AskRigor, my research tool, is what told me about it when I was doing ethnobotanical research.",
+   "payoff": "the reader knows how Joel found the flower and what AskRigor is",
+   "follows": "where the idea came from",
+   "link": "told me about it"
+  },
+  {
+   "s": "My other friend, Acacea, is also benefitting from this flower.",
+   "his": true
+  },
+  {
+   "s": "CAUTION: If you have severe diverticulosis, especially diverticulitis (once the fecal impaction causes intestinal infection & inflammation), you might be at high risk for intestinal wall rupture, and even rejected by the more reputable colonic irrigation clinics.",
+   "payoff": "the reader with severe diverticulosis knows colonic irrigation could rupture their intestine, and that clinics may turn them away",
+   "follows": "the danger of the treatment the item described",
+   "link": "If you have severe diverticulosis"
+  },
+  {
+   "s": "Make sure you get cleared first by a gastroenterologist, a doctor who specializes in the gut.",
+   "payoff": "the reader knows to see a gastroenterologist first, and what one is",
+   "follows": "what to do about that danger",
+   "link": "cleared first"
+  }
+ ],
+ "checked": [
+  {
+   "point": "Bombax ceiba is the red silk-cotton tree",
+   "found": "Flora of Qatar, \"Bombax ceiba\": common names \"Kapok, red cotton tree, red silk-cotton\" (https://www.floraofqatar.com/bombax_ceiba.htm)",
+   "still_needed": "yes: a reader won't know the Latin name",
+   "fate": "kept"
+  },
+  {
+   "point": "Pooyan is well now; the flower worked, not the treatments; it is cheap on Amazon; AskRigor found it; Acacea is benefitting too",
+   "found": "Joel's message of 2026-11-07, his own report of his friends' cases",
+   "still_needed": "yes: it is the news he asked to add",
+   "fate": "kept"
+  }
+ ],
+ "placement": "The causes list's item on old impaction with its sub-items, in the article's order.",
+ "opens": {
+  "first_sentence": "Years of accumulated shit in your guts (not in the phases, but Phase 4 comes closest): This part isn't in the gut healing books I read, but even if you fix all of what's going into you now, if you're already full and clogged with all of what went in before, that's gonna be little help.",
+  "why_reading": "It names the cause, says it isn't in the books, and tells the reader why it matters even if they eat well now."
+ },
+ "same_point": "none: read the causes section from its heading to the next for Pooyan's story and the old impaction: each told once, here; Phase 3 mentions him only for candibactin",
+ "questions": {
+  "Q1": "PASS: the new sub-item opens on its point (\"Update: Pooyan is actually all better now\"), then says what he didn't need and what worked",
+  "Q2": "N/A: the new sub-item reports a friend's recovery and gives no instruction; the CAUTION after it is unchanged",
+  "Q3": "PASS: the flower is named exactly (Bombax ceiba, from the red silk-cotton tree), with where it is sold and what found it (AskRigor)",
+  "Q4": "PASS: Bombax ceiba and AskRigor are explained where first used; glutamine is his old order, in late_ok",
+  "Q5": "PASS: each new sentence's tie is in its words (the links field), or it is his own sentence",
+  "Q6": "PASS: the new sub-item follows the relapse it updates and comes before the CAUTION; nothing else moved",
+  "Q7": "PASS: it tells the reader what helped Pooyan and where to find it; the CAUTION still says to get cleared first",
+  "Q8": "PASS: no item moved between groups",
+  "Q9": "PASS: one point per sentence; the small words carry the relations (Apparently, What worked was, also)"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ },
+ "his_whose": "his own: two sentences of his message of 2026-11-07, word for word (\"Apparently he didn't need the insane treatments he was doing on himself.\" and \"My other friend, Acacea, is also benefitting from this flower.\"), in the item he asked for about Pooyan",
+ "late_ok": {
+  "Glutamine": "his own text, unchanged by this update: the trial sentence names glutamine as the possible cure and the next one says what it is; the new sub-item is what this check is for"
+ }
+}
