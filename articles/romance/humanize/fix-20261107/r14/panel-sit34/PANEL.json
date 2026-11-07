@@ -1,0 +1,49 @@
+{
+ "readers": [
+  "haiku",
+  "sonnet"
+ ],
+ "sentences": [
+  "It can go either way, but often the man wants to keep it undefined while the woman wants commitment, partly because she’s the one risking pregnancy.",
+  "Whoever keeps it undefined gets the fun without the responsibility.",
+  "Refusing to name the relationship doesn’t make the responsibility disappear.",
+  "What they don’t escape is the existential void created by another superficial fix.",
+  "Doomscrolling entertains you too."
+ ],
+ "flagged": {
+  "1": [
+   "haiku",
+   "sonnet"
+  ],
+  "2": [
+   "haiku",
+   "sonnet"
+  ],
+  "3": [
+   "haiku",
+   "sonnet"
+  ],
+  "4": [
+   "haiku",
+   "sonnet"
+  ],
+  "5": [
+   "haiku"
+  ]
+ },
+ "agreed": [
+  1,
+  2,
+  3,
+  4
+ ],
+ "whole": {
+  "haiku": [
+   "The five sentences run at nearly the same length and each closes on a neat, quotable beat, so the rhythm is uniform and the escalation is flat, with no digression or example to break the pattern. The voice is detached and advisory, with abstract nouns standing in for people, which reads as generic-capable prose rather than a specific writer's voice."
+  ],
+  "sonnet": [
+   "The paragraph is built as a chain of short, evenly weighted declaratives that each state a general principle (setup, gain, denial, consequence), with no concrete person, scene or detail. Its closing flourish adds a punchy one-liner after an abstract line, a pattern of summarize-then-quip that feels templated."
+  ]
+ },
+ "human_clean": []
+}

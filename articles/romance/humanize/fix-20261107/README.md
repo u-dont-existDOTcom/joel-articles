@@ -3,13 +3,13 @@
 - `live-check/`: his extension's result on the live post (`META.json`, `AI-WINDOWS.json`: the 41 AI windows, 21 spots, by
   code-point offset into the text it read; `LOW-WINDOWS.json`: its 54 Human Low windows, with the fix that has rechecked
   each where there is one).
-- `r01/` to `r13/`: check texts (`checks/texts.py`), making-sense receipts (`make_receipts.py`), predictions
+- `r01/` to `r15/`: check texts (`checks/texts.py`), making-sense receipts (`make_receipts.py`), predictions
   (`predict_rNN.py`, from r03) and results (`RESULTS-*.json`), one key per check (`r01-s1` is spot S1's first try; a
   letter after the number, as in `r03-s2b`, tells apart two tries at one spot). Predictions and results are in
   `../pangram-ledger.jsonl`. `r03/checks/CHECK-r03-s2c.txt` was written but never checked: try 3 read first, and try 4
   went another way.
 - `r03/panel-s2/`, `r04/panel-s7/`, `r04/panel-s10/`, `r04/panel-s11/`, `r05/panel-s17/`, `r05/panel-s21/`: the tell
-  panels (two fresh readers each, `tools/humanization/tell_panel.py`) run after a spot read AI twice (E346).
+  panels (two fresh readers each, `tools/humanization/tell_panel.py`) run after a spot read AI twice (E346); `r14/panel-sit34/` too.
 - `r06/`: four sections checked whole with the best tries in them, and the post's last part (`CHECK-r06-tail.txt`, the
   2,871 words his extension never read), as it stands. `r07/`: S21's pair check, the narrowing the section gate asks for.
   `r08/`: S22's first try inside "After leaving". `r09/`: the first Low-window section, "Holding up a leaky dam".
@@ -22,6 +22,12 @@
   of "Situationships" as the live post has it, and the first tries at "Anti-PTSD Can Be Just As Dangerous As PTSD",
   "Slow & steady may win the race" and "Disconnect to connect". Its `make_receipts.py` takes the rows of the sentences
   it shares with r11 and r12 from their receipt makers.
+- `r14/`: the tell panel on "Situationships" paragraph 34 (`r14/panel-sit34/`) and its next try, the narrowing of
+  "Slow & steady" and "Disconnect to connect", and the first tries at "Muses & Directors", "The Queen of Orgasms",
+  "Jealousy on trial" and "Labels Are Descriptive, Not Prescriptive". `r15/`: the second tries at "Situationships",
+  "Slow & steady" and "Disconnect to connect", the narrowing of "Jealousy on trial", and the first tries at "It always
+  goes deeper" and "Beware idealization in either direction" with S4, S5 and S8 in. Results files abridge long Human
+  High windows, marked "(through)"; their full words are the check texts.
 - The marking page for S2 and S17 is in `../../review/teach-20261107/`.
 
 The spots are numbered S1 to S21 in the order they appear in the post, and S22 is the one the post's last part turned up (#47) (`../../CURRENT-STATE.md` lists which are done).
