@@ -8,7 +8,7 @@ Built by `tools/humanization/pangram_ledger.py build` from `articles/bad-trips/h
 |---|---|---|---|---|---|---|
 | Pangram 4.1 extension (free, live post; Joel's check of 2026-10-18, the same text as his 2026-11-03 paste by SHA-256) | 1 | 1 (100%) | 100% | 0% | 0% | 0.000 (base 0.000, 1) |
 | Pangram web app (his account, Pangram Professional) | 3 | 3 (100%) | 100% | 0% | 0% | 0.092 (base 0.000, 3) |
-| Pangram web app (his account, Pangram Professional), through the Claude desktop app's browser pane | 267 | 246 (92%) | 87% | 13% | 12% | 0.124 (base 0.111, 267) |
+| Pangram web app (his account, Pangram Professional), through the Claude desktop app's browser pane | 283 | 259 (92%) | 87% | 13% | 12% | 0.125 (base 0.111, 283) |
 | pangram 4.1, the web app: Joel's account, run by the lane in the desktop app's browser pane (E356) | 8 | 6 (75%) | 50% | 50% | 75% | 0.170 (base 0.250, 8) |
 
 ## Pangram 4.1 extension (free, live post; Joel's check of 2026-10-18, the same text as his 2026-11-03 paste by SHA-256)
@@ -56,25 +56,25 @@ Calibration:
 
 | window | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| the latest 50 | 50 | 45 (90%) | 84% | 16% | 10% | 0.121 (base 0.134, 50) |
-| the latest 100 | 100 | 93 (93%) | 89% | 11% | 6% | 0.106 (base 0.098, 100) |
-| all | 267 | 246 (92%) | 87% | 13% | 12% | 0.124 (base 0.111, 267) |
+| the latest 50 | 50 | 44 (88%) | 86% | 14% | 6% | 0.121 (base 0.120, 50) |
+| the latest 100 | 100 | 90 (90%) | 87% | 13% | 7% | 0.116 (base 0.113, 100) |
+| all | 283 | 259 (92%) | 87% | 13% | 12% | 0.125 (base 0.111, 283) |
 
 The boundary mix (what was checked; accuracy differs a lot between a paragraph and a section):
 
 | scope or kind | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| section | 60 | 57 (95%) | 93% | 7% | 12% | 0.085 (base 0.062, 60) |
-| paragraph | 160 | 146 (91%) | 84% | 16% | 12% | 0.125 (base 0.132, 160) |
+| section | 64 | 61 (95%) | 94% | 6% | 11% | 0.084 (base 0.059, 64) |
+| paragraph | 172 | 155 (90%) | 84% | 16% | 12% | 0.128 (base 0.132, 172) |
 | pair | 47 | 43 (91%) | 89% | 11% | 15% | 0.171 (base 0.095, 47) |
 
 Calibration:
 
 | my chance of a 100% Human result | calls | mean chance | read Human |
 |---|---|---|---|
-| 0.0 to 0.2 | 22 | 0.14 | 0% |
-| 0.2 to 0.4 | 157 | 0.29 | 5% |
-| 0.4 to 0.6 | 77 | 0.45 | 21% |
+| 0.0 to 0.2 | 23 | 0.13 | 0% |
+| 0.2 to 0.4 | 169 | 0.29 | 5% |
+| 0.4 to 0.6 | 80 | 0.45 | 21% |
 | 0.6 to 0.8 | 13 | 0.68 | 85% |
 | 0.8 to 1.0 | 1 | 0.80 | 100% |
 
@@ -99,12 +99,12 @@ Calibration:
 | 0.4 to 0.6 | 6 | 0.49 | 33% |
 | 0.6 to 0.8 | 3 | 0.67 | 100% |
 
-## Misses since the ledger (23)
+## Misses since the ledger (26)
 
 | cause | misses |
 |---|---|
-| context | 8 |
-| in place | 4 |
+| context | 10 |
+| in place | 5 |
 | shape echo | 1 |
 | parallel frames kept | 1 |
 | a flaw of sense left in the ending | 1 |
@@ -121,9 +121,6 @@ The latest:
 
 | check | lineage, try | said | read | cause |
 |---|---|---|---|---|
-| [bt-room-stretch-2](https://www.pangram.com/history/3d9ca55e-df3a-4ea4-8866-2d6071ba1b10) | bad-trips PFA room stretch in place: my first part with his second (B238 to B241), 2 | Human | AI or mixed | in place |
-| [bt-room-stretch-4](https://www.pangram.com/history/6808a624-26bf-48d8-a5d9-96252b6c95e9) | bad-trips PFA room stretch in place: my first part with his second (B238 to B241), 4 | Human | AI or mixed | in place |
-| [bt-dangers-heading](https://www.pangram.com/history/2745e050-1573-4da8-9c6a-ba510f0a80e6) | bad-trips PFA dangers paragraph with the section heading, 1 | AI | Human | context |
 | [bt-test-acts](https://www.pangram.com/history/5a123a1a-623a-40ad-85ba-d4c6c869fe68) | bad-trips PFA dangers with the room's acts only, 1 | Human | AI or mixed | context |
 | [bt-test-fixes](https://www.pangram.com/history/904c30a7-fe86-4630-8209-e1c049471074) | bad-trips PFA dangers with the fixes line only, 1 | AI | Human | context |
 | [bt-anchor-v1](https://www.pangram.com/history/88fa84a3-9569-4e9b-84af-51c80a0efdd7) | bad-trips Get One Human Anchor P1 after the Human section, 2 | AI | Human | the panel's one unanimous tell was the mirrored pair ('Many bad trips get worse because' / 'Others get worse because'); one sentence said as talk ('Other times it's the opposite:') broke it, and the four -ing list I expected to keep it AI did not |
@@ -136,6 +133,9 @@ The latest:
 | [bt-give-G2](https://www.pangram.com/history/635b3f13-4c07-43fc-88e6-3e3ef31ac41c) | bad-trips Give the Session a Beginning and an End after the Human section, G2, 1 | AI | Human | context |
 | [bt-hand-H3](https://www.pangram.com/history/0bfd3530-3a34-45e8-b745-4790f043e06c) | bad-trips Hand on Heart after the Human section, H3, 1 | AI | Human | context |
 | [bt-demon-DF](https://www.pangram.com/history/c8a28685-11ef-431e-8b64-68eb96089247) | bad-trips Demons, Jinn, Entities after the Human section, DF, 1 | AI | Human | context |
+| [bt-shadow-T2](https://www.pangram.com/history/a233b8ad-1f49-44ce-8f5e-4aa8aa31f8f6) | bad-trips Dealing With Shadow Thoughts after the Human section, T2, 1 | AI | Human | context |
+| [bt-shadow-T3](https://www.pangram.com/history/eb76a9bd-703c-4bbb-83a2-56f74a4f1fa6) | bad-trips Dealing With Shadow Thoughts after the Human section, T3, 1 | AI | Human | context |
+| [bt-shadow-T4](https://www.pangram.com/history/be052baf-f780-4fb6-91b4-c8feb7c82454) | bad-trips Dealing With Shadow Thoughts after the Human section, T4, 1 | Human | AI or mixed | in place |
 
 ## Lineages still open (tries used of the cap)
 
@@ -279,4 +279,14 @@ The latest:
 | bad-trips Demons, Jinn, Entities after the Human section, DC | paragraph | 2 of 6 | Mixed |
 | bad-trips Demons, Jinn, Entities after the Human section, DD | paragraph | 2 of 6 | Mixed |
 | bad-trips Demons, Jinn, Entities after the Human section, DE | paragraph | 1 of 6 | AI |
+| bad-trips Abuse Memories as the guide has it | section | 1 of 2 | AI |
+| bad-trips Abuse Memories after the Human section | section | 1 of 2 | Mixed |
+| bad-trips Abuse Memories after the Human section, A1 | paragraph | 2 of 6 | Mixed |
+| bad-trips Abuse Memories after the Human section, A2 | paragraph | 2 of 6 | AI |
+| bad-trips Abuse Memories after the Human section, A3 | paragraph | 2 of 6 | Mixed |
+| bad-trips Dealing With Shadow Thoughts as the guide has it, the prose | section | 1 of 2 | Mixed |
+| bad-trips Dealing With Shadow Thoughts after the Human section, the prose | section | 1 of 2 | Mixed |
+| bad-trips Dealing With Shadow Thoughts after the Human section, T1 | paragraph | 1 of 6 | Mixed |
+| bad-trips Dealing With Shadow Thoughts after the Human section, T4 | paragraph | 1 of 6 | Mixed |
+| bad-trips Dealing With Shadow Thoughts after the Human section, T5 | paragraph | 2 of 6 | Mixed |
 
