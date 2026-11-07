@@ -1,0 +1,48 @@
+{
+ "readers": [
+  "codex",
+  "haiku",
+  "sonnet"
+ ],
+ "sentences": [
+  "Don't take more psychedelics, cannabis, ketamine, intense breathwork, fast, push kundalini, deprive yourself of sleep, meditate or stretch to extremes, or schedule \"another ceremony to fix it\" while destabilized.",
+  "Stabilize through sleep, food, routine, sober support, ordinary body, and ordinary world.",
+  "Deep practice can wait until the floor is back."
+ ],
+ "flagged": {
+  "1": [
+   "haiku",
+   "sonnet"
+  ],
+  "2": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ],
+  "3": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ]
+ },
+ "agreed": [
+  1,
+  2,
+  3
+ ],
+ "whole": {
+  "codex": [
+   "The paragraph moves through a tidy sequence: prohibition, stabilizing checklist, reassuring maxim. That polished coaching rhythm can read machine-made, although none of these features establishes authorship."
+  ],
+  "haiku": [
+   "The paragraph has two even beats, a long list of prohibitions and a list of remedies, closed by a short aphorism, and that regular shape reads as built to a pattern. Its voice is generic imperative advice with little situated detail beyond the list items, so much of it could come from a polished summary rather than a particular experience."
+  ],
+  "sonnet": [
+   "It is built as three tidy beats (a prohibition list, a prescription list, a one-line closer), each a similar short imperative with no first-person voice, no example and no concrete detail. The rhythm is even and the tone uniformly calm and instructional, which reads like polished advice copy."
+  ]
+ },
+ "human_clean": [
+  "another ceremony to fix it",
+  "another ceremony to fix it"
+ ]
+}

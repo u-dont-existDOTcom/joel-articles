@@ -321,20 +321,20 @@ The boundary mix over all lanes:
 
 | lane | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| bad trips guide | 335 | 304 (91%) | 87% | 13% | 14% | 0.130 (base 0.116, 335) |
-| **all lanes** | 335 | 304 (91%) | 87% | 13% | 14% | 0.130 (base 0.116, 335) |
+| bad trips guide | 348 | 316 (91%) | 87% | 13% | 14% | 0.132 (base 0.113, 348) |
+| **all lanes** | 348 | 316 (91%) | 87% | 13% | 14% | 0.132 (base 0.113, 348) |
 
 The latest 100 calls of each lane:
 
 | lane | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| bad trips guide | 100 | 87 (87%) | 84% | 16% | 15% | 0.141 (base 0.134, 100) |
+| bad trips guide | 100 | 87 (87%) | 86% | 14% | 15% | 0.151 (base 0.120, 100) |
 
 The boundary mix over all lanes:
 
 | scope or kind | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| paragraph | 220 | 196 (89%) | 84% | 16% | 14% | 0.135 (base 0.134, 220) |
+| paragraph | 233 | 208 (89%) | 85% | 15% | 14% | 0.138 (base 0.128, 233) |
 | section | 68 | 65 (96%) | 93% | 7% | 12% | 0.083 (base 0.068, 68) |
 | pair | 47 | 43 (91%) | 89% | 11% | 15% | 0.171 (base 0.095, 47) |
 
@@ -563,7 +563,7 @@ The boundary mix over all lanes:
 
 | cause | misses | lanes |
 |---|---|---|
-| not explained yet | 67 | bad trips guide, community article, healing the gut article, hypnosis guide, inner child guide, neuro de-armoring article |
+| not explained yet | 68 | bad trips guide, community article, healing the gut article, hypnosis guide, inner child guide, neuro de-armoring article |
 | context | 17 | bad trips guide, healing the gut article |
 | too pessimistic about a cut | 12 | inner child guide |
 | a tell I did not name | 11 | inner child guide |
