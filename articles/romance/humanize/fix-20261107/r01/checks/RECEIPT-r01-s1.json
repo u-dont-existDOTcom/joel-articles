@@ -1,0 +1,129 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-07",
+ "text_sha256": "d042ae8d033baf48b95d37f3c5e7af0873693a9b56a8de3161b89efdda0812b1",
+ "text": "“I don’t know whether I want something serious with you. I’m not pretending I do. I’d still like to have sex.”\n\nThat’s honest about what you want tonight. But tonight can make a baby. If this girl gets pregnant, she’s gonna call you. Then what? You block her? Agree to child support? Try to convince her to abort if she thinks abortion is killing her child? Or vice versa. My first girlfriend, a diehard Baptist, aborted and told me a year later, because she “didn’t want to trap” me. This is what penetrative sex can do. No contraception is perfect.",
+ "section": "Casual sex (Sex is never just sex)",
+ "reader": "Someone thinking about casual sex, deciding what they owe if it goes further than they planned.",
+ "sentences": [
+  {
+   "s": "“I don’t know whether I want something serious with you.",
+   "payoff": "the reader hears the honest casual-sex line",
+   "follows": "opens the example"
+  },
+  {
+   "s": "I’m not pretending I do.",
+   "payoff": "the speaker admits they are not pretending",
+   "follows": "the line goes on",
+   "link": "I’m not pretending"
+  },
+  {
+   "s": "I’d still like to have sex.”",
+   "payoff": "the speaker says what they still want",
+   "follows": "the line ends",
+   "link": "still"
+  },
+  {
+   "s": "That’s honest about what you want tonight.",
+   "payoff": "the reader learns the line is honest about tonight",
+   "follows": "what the line covers",
+   "link": "That’s honest"
+  },
+  {
+   "s": "But tonight can make a baby.",
+   "payoff": "the reader learns what the line leaves out: tonight can make a baby",
+   "follows": "what the line doesn’t cover",
+   "link": "But tonight"
+  },
+  {
+   "s": "If this girl gets pregnant, she’s gonna call you.",
+   "payoff": "the reader sees the phone call that comes with a pregnancy",
+   "follows": "the baby made concrete",
+   "link": "If this girl gets pregnant"
+  },
+  {
+   "s": "Then what?",
+   "payoff": "the reader is asked what they would do",
+   "follows": "after the call",
+   "link": "Then what?"
+  },
+  {
+   "s": "You block her?",
+   "payoff": "the first option: blocking her",
+   "follows": "one answer to \"then what\"",
+   "link": "none: an option answering the question before"
+  },
+  {
+   "s": "Agree to child support?",
+   "payoff": "the second option: child support",
+   "follows": "the next answer",
+   "link": "none: the next option, in the same form"
+  },
+  {
+   "s": "Try to convince her to abort if she thinks abortion is killing her child?",
+   "payoff": "the third option: pushing an abortion she sees as killing her child",
+   "follows": "the next answer",
+   "link": "none: the next option, in the same form"
+  },
+  {
+   "s": "Or vice versa.",
+   "payoff": "the same choices can fall on the man",
+   "follows": "the options turned around",
+   "link": "vice versa"
+  },
+  {
+   "s": "My first girlfriend, a diehard Baptist, aborted and told me a year later, because she “didn’t want to trap” me.",
+   "payoff": "the reader hears Joel’s own case: an abortion he learned of a year later",
+   "follows": "a real case of the options",
+   "link": "My first girlfriend"
+  },
+  {
+   "s": "This is what penetrative sex can do.",
+   "payoff": "the reader is told this is what sex can do",
+   "follows": "what the case shows",
+   "link": "This is what"
+  },
+  {
+   "s": "No contraception is perfect.",
+   "payoff": "the reader knows no contraception removes the risk",
+   "follows": "why it applies to everyone",
+   "link": "No contraception"
+  }
+ ],
+ "checked": [
+  {
+   "point": "the line is honest about tonight but tonight can make a baby",
+   "found": "the live post: \"That may be candid about what you expect now. It doesn’t settle what either of you will owe ... Sex can make a child.\" (AI High on the middle sentence)",
+   "still_needed": "yes: it is the turn to the pregnancy questions",
+   "fate": "changed"
+  }
+ ],
+ "placement": "The paragraph in its place in the live post, with the line or paragraph before it.",
+ "opens": {
+  "first_sentence": "“I don’t know whether I want something serious with you.",
+  "why_reading": "It is the line people actually say before casual sex, so the reader recognizes it as theirs."
+ },
+ "same_point": "none: read the section from its heading to the next for this paragraph’s point; it is made once, here",
+ "questions": {
+  "Q1": "PASS: each changed sentence gives its point first, in plain words",
+  "Q2": "N/A: these paragraphs tell and ask; the only advice is in the unchanged words",
+  "Q3": "PASS: the people, places and things are named as in the live post",
+  "Q4": "PASS: no new term; Venerable Somebody is his phrase, explained by the bowing",
+  "Q5": "PASS: each sentence’s tie is in its words (the links field), or the link says why it needs none",
+  "Q6": "PASS: nothing moved",
+  "Q7": "PASS: each change keeps what the paragraph tells the reader about their own case",
+  "Q8": "PASS: no item moved between groups",
+  "Q9": "PASS: one step per sentence; the small words carry the relations (but, even, of course, since, though)"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

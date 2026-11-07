@@ -1,0 +1,87 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-07",
+ "text_sha256": "48b45d4b4aa399b93ff223f7a28da8c11e5996abd336d805c08c5e777b6e8228",
+ "text": "Forced celibacy doesn’t abolish anyone’s sexuality. For most people it eventually sends it somewhere weird. Why wouldn’t it?\n\nSome people become monks for practical reasons too. In a poor country, the robes come with free food, a place to live, status, and a way out of ordinary responsibilities. Even in the West, where the free food matters less, a guy who never got much respect as a layman becomes Venerable Somebody, and suddenly people bow to him.\n\nOf course, he can sincerely want liberation and still enjoy the bowing.",
+ "section": "Celibacy and monastics",
+ "reader": "Someone weighing celibacy or monastic life, deciding whether it would really free them.",
+ "sentences": [
+  {
+   "s": "Forced celibacy doesn’t abolish anyone’s sexuality.",
+   "payoff": "the reader learns forced celibacy doesn’t end sexuality",
+   "follows": "opens the point"
+  },
+  {
+   "s": "For most people it eventually sends it somewhere weird.",
+   "payoff": "the reader learns where it usually goes: somewhere weird",
+   "follows": "what happens to it",
+   "link": "it eventually sends it"
+  },
+  {
+   "s": "Why wouldn’t it?",
+   "payoff": "the reader is asked why it wouldn’t",
+   "follows": "the point pressed",
+   "link": "Why wouldn’t it?"
+  },
+  {
+   "s": "Some people become monks for practical reasons too.",
+   "payoff": "the reader learns people also become monks for practical reasons",
+   "follows": "another reason people choose robes",
+   "link": "for practical reasons too"
+  },
+  {
+   "s": "In a poor country, the robes come with free food, a place to live, status, and a way out of ordinary responsibilities.",
+   "payoff": "the reader learns what the robes bring in a poor country",
+   "follows": "the practical reasons, first case",
+   "link": "the robes come with"
+  },
+  {
+   "s": "Even in the West, where the free food matters less, a guy who never got much respect as a layman becomes Venerable Somebody, and suddenly people bow to him.",
+   "payoff": "the reader learns what they bring in the West: respect and people bowing",
+   "follows": "the practical reasons, second case",
+   "link": "Even in the West"
+  },
+  {
+   "s": "Of course, he can sincerely want liberation and still enjoy the bowing.",
+   "payoff": "the reader learns the practical and the sincere can go together",
+   "follows": "what this says about the monk",
+   "link": "Of course, he can sincerely want liberation and still enjoy the bowing"
+  }
+ ],
+ "checked": [
+  {
+   "point": "practical reasons to become a monastic",
+   "found": "the live post, the same facts (AI High and Low)",
+   "still_needed": "yes: it is the second reason after sexuality",
+   "fate": "changed"
+  }
+ ],
+ "placement": "The paragraph in its place in the live post, with the line or paragraph before it.",
+ "opens": {
+  "first_sentence": "Forced celibacy doesn’t abolish anyone’s sexuality.",
+  "why_reading": "It tells the reader forced celibacy doesn’t end sexuality, the claim the paragraph tests."
+ },
+ "same_point": "none: read the section from its heading to the next for this paragraph’s point; it is made once, here",
+ "questions": {
+  "Q1": "PASS: each changed sentence gives its point first, in plain words",
+  "Q2": "N/A: these paragraphs tell and ask; the only advice is in the unchanged words",
+  "Q3": "PASS: the people, places and things are named as in the live post",
+  "Q4": "PASS: no new term; Venerable Somebody is his phrase, explained by the bowing",
+  "Q5": "PASS: each sentence’s tie is in its words (the links field), or the link says why it needs none",
+  "Q6": "PASS: nothing moved",
+  "Q7": "PASS: each change keeps what the paragraph tells the reader about their own case",
+  "Q8": "PASS: no item moved between groups",
+  "Q9": "PASS: one step per sentence; the small words carry the relations (but, even, of course, since, though)"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

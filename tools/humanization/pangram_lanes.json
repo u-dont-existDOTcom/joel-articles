@@ -55,6 +55,12 @@
    "article": "healing-the-gut",
    "ledger": "articles/healing-the-gut/humanize/pangram-ledger.jsonl",
    "legacy": []
+  },
+  {
+   "lane": "romance article",
+   "article": "romance",
+   "ledger": "articles/romance/humanize/pangram-ledger.jsonl",
+   "legacy": []
   }
  ]
 }

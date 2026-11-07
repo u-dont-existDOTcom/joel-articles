@@ -1,0 +1,87 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-07",
+ "text_sha256": "c95efa22ed243d4821c107bc1784ba5044aa0a70e1b367841a062c28c686bd4e",
+ "text": "I got a smaller and much less romantic test later. Bee gave me some shoes to try that didn’t fit. I wore them for a day, and somehow my knee ended up messed up for about a month. She did nurse me, but a bit reluctantly. She also kept suggesting it was partly in my head, or not really that bad. I get why, since neither of us could believe one day in the wrong shoes could do that. It still felt dismissive, though, like part of her just wanted my knee to be fine.",
+ "section": "Loved when you stop being useful",
+ "reader": "Someone wondering whether a partner would stay when they stop being useful.",
+ "sentences": [
+  {
+   "s": "I got a smaller and much less romantic test later.",
+   "payoff": "the reader learns a smaller test came later",
+   "follows": "opens the story"
+  },
+  {
+   "s": "Bee gave me some shoes to try that didn’t fit.",
+   "payoff": "the reader learns what happened: shoes that didn’t fit",
+   "follows": "the test begins",
+   "link": "Bee gave me some shoes"
+  },
+  {
+   "s": "I wore them for a day, and somehow my knee ended up messed up for about a month.",
+   "payoff": "the reader learns the result: a month with a bad knee",
+   "follows": "what the shoes did",
+   "link": "I wore them"
+  },
+  {
+   "s": "She did nurse me, but a bit reluctantly.",
+   "payoff": "the reader learns how Bee cared for him: reluctantly",
+   "follows": "her response",
+   "link": "She did nurse me"
+  },
+  {
+   "s": "She also kept suggesting it was partly in my head, or not really that bad.",
+   "payoff": "the reader learns she kept doubting the injury",
+   "follows": "more of her response",
+   "link": "She also kept suggesting"
+  },
+  {
+   "s": "I get why, since neither of us could believe one day in the wrong shoes could do that.",
+   "payoff": "the reader learns Joel understood the doubt",
+   "follows": "his reading of it",
+   "link": "I get why"
+  },
+  {
+   "s": "It still felt dismissive, though, like part of her just wanted my knee to be fine.",
+   "payoff": "the reader learns how it still felt, and what she may have wished",
+   "follows": "what the test showed him",
+   "link": "It still felt dismissive, though"
+  }
+ ],
+ "checked": [
+  {
+   "point": "he understood her doubt, and it still felt dismissive",
+   "found": "the live post (AI Medium)",
+   "still_needed": "yes: it is how the test ended for him",
+   "fate": "changed"
+  }
+ ],
+ "placement": "The paragraph in its place in the live post, with the line or paragraph before it.",
+ "opens": {
+  "first_sentence": "I got a smaller and much less romantic test later.",
+  "why_reading": "It promises a smaller test of the same question, which is the reader’s question too."
+ },
+ "same_point": "none: read the section from its heading to the next for this paragraph’s point; it is made once, here",
+ "questions": {
+  "Q1": "PASS: each changed sentence gives its point first, in plain words",
+  "Q2": "N/A: these paragraphs tell and ask; the only advice is in the unchanged words",
+  "Q3": "PASS: the people, places and things are named as in the live post",
+  "Q4": "PASS: no new term; Venerable Somebody is his phrase, explained by the bowing",
+  "Q5": "PASS: each sentence’s tie is in its words (the links field), or the link says why it needs none",
+  "Q6": "PASS: nothing moved",
+  "Q7": "PASS: each change keeps what the paragraph tells the reader about their own case",
+  "Q8": "PASS: no item moved between groups",
+  "Q9": "PASS: one step per sentence; the small words carry the relations (but, even, of course, since, though)"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}
