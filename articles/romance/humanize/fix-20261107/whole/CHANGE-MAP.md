@@ -1,6 +1,6 @@
 # The fixed version: every changed paragraph
 
-The live post ("Romance Advice I Wish My Parents Taught Me", updated Aug 27, 2026) with each section's and spot's best tested text in place (`assemble.py`, `build.py`). Paragraph numbers are the post page's paragraph list (`LIVE-INDEX.txt`). S2 and S17 (on the marking page), the three stretches that share S2's pattern and "Two Pillars" 332 (owner lock) are as the live post has them. 40 changes, 66 live paragraphs.
+The live post ("Romance Advice I Wish My Parents Taught Me", updated Aug 27, 2026) with each section's and spot's best tested text in place (`assemble.py`, `build.py`). Paragraph numbers are the post page's paragraph list (`LIVE-INDEX.txt`). S2 and S17 (on the marking page), the three stretches that share S2's pattern and "Two Pillars" 332 (owner lock) are as the live post has them. 42 changes, 70 live paragraphs.
 
 ## 1. S1 (live 28)
 
@@ -402,7 +402,35 @@ Read by romance-low-queen#82: [result](https://www.pangram.com/history/edb426f1-
 
 > Although the peanut gallery critics and lazy fact-checkers often cry fiction on this topic, it actually has been documented in studies, and that laboratory evidence shows it’s a real and distinct thing in the body. Kim Anami, Diana Richardson, and other popular educators and promoters of cervical orgasms further claim that these can provide days of afterglow, as well as spiritual and physical healings.
 
-## 31. S18 (live 331)
+## 31. Can making love be a spiritual practice? (304 to 309) (live 304, 305, 306)
+
+Read by romance-sec-spiritual-sex-p304#115: [result](https://www.pangram.com/history/a1f96d47-b3e3-4a8d-99f8-fafd7536d992).
+
+**Live:**
+
+> I’m Buddhist, and the early Buddhist texts don’t teach tantric sex as a path to awakening. But they also don’t show serious awakening as something reserved for monastics.
+> In DN 16, the Buddha talks about people who had died in the town of Nādikā and mentions 510 lay stream-enterers, 96 once-returners, and more than fifty lay non-returners. Those are the first three of the four stages of awakening.
+> SN 55.24 has an almost comic complaint. When the Buddha declared Sarakāni a stream-enterer, other Sakyans grumbled, in effect, “Who isn’t a stream-enterer these days?”
+
+**New:**
+
+> I’m Buddhist, and the early Buddhist texts have nothing on tantric sex as a path to awakening, but plenty of the people they show getting seriously awakened were lay people.
+> In DN 16, the Buddha talks about people who had died in the town of Nādikā and mentions 510 lay stream-enterers, 96 once-returners, and more than fifty lay non-returners, the first three of the four stages of awakening.
+> SN 55.24 has an almost comic complaint: when the Buddha declared Sarakāni a stream-enterer, other Sakyans grumbled, in effect, “Who isn’t a stream-enterer these days?”
+
+## 32. Can making love be a spiritual practice? (312) (live 312)
+
+Read by romance-sec-spiritual-sex-p312#116: [result](https://www.pangram.com/history/5c4d5bcf-2daa-4489-9271-1bd717cf1b7a).
+
+**Live:**
+
+> Brad and Pam Keene are the example I really like. Pam says her Kundalini process completed while they were making love and opened into a lasting universal-consciousness awakening. She later helped Brad awaken too, so the marriage itself became part of the path.
+
+**New:**
+
+> The example I really like is Brad and Pam Keene, whose marriage itself became part of the path. Pam says her Kundalini process completed while they were making love and opened into a lasting universal-consciousness awakening, and she later helped Brad awaken too.
+
+## 33. S18 (live 331)
 
 Read by romance-s18#25: [result](https://www.pangram.com/history/dce64725-6d16-4004-8a1a-478aaa058ce5).
 
@@ -414,7 +442,7 @@ Read by romance-s18#25: [result](https://www.pangram.com/history/dce64725-6d16-4
 
 > Let me show you how this looked for me. I’ve noticed in my own relationships that whenever a serious issue arises, both of us tend to turn to our separate circles of friends for support. Then I resent the one-sided story she’s telling, she resents the one-sided story I’m telling. Some of the friends may even be exes who want us to break up, and eventually neither of us wants to talk to the other’s friends anymore. That’s a pretty terrible time to be trying to run the rest of life with two people. If one person goes down, the other becomes the whole backup system for housing, money, children, health, and emotional crises. Who even has time for the relationship itself at that point?
 
-## 32. S19 (live 335)
+## 34. S19 (live 335)
 
 Read by romance-s19#32: [result](https://www.pangram.com/history/8366290e-627c-4961-8f56-c39b7d86017a).
 
@@ -426,7 +454,7 @@ Read by romance-s19#32: [result](https://www.pangram.com/history/8366290e-627c-4
 
 > If you do have separate confidants, you need enough emotional maturity to remember they will automatically be biased toward you. They’re only hearing your side, usually while you’re upset, and they may just be trying to protect you, so take what they say with a grain of salt.
 
-## 33. What are you actually choosing together? (live 342)
+## 35. What are you actually choosing together? (live 342)
 
 Read by romance-low-choosing#106: [result](https://www.pangram.com/history/267ec5e8-77b4-461d-8d80-7ca30642c474).
 
@@ -438,7 +466,7 @@ Read by romance-low-choosing#106: [result](https://www.pangram.com/history/267ec
 
 > “We’re together” ... what does that mean exactly? I can hear a whole future in those two words—sex, exclusivity, living together, money, children, caregiving. She might mean, “We really like each other; let’s see what happens.” I actually like letting a relationship flow with some parts left unnamed, but the problem is when we’re using the same words for two different futures.
 
-## 34. What are you actually choosing together? (live 344, 345, 346)
+## 36. What are you actually choosing together? (live 344, 345, 346)
 
 Read by romance-low-choosing#106: [result](https://www.pangram.com/history/267ec5e8-77b4-461d-8d80-7ca30642c474).
 
@@ -454,7 +482,7 @@ Read by romance-low-choosing#106: [result](https://www.pangram.com/history/267ec
 > Then the questions change for me: if the romance changes, which parts are still supposed to remain? Are we promising actions (or low-key pretending to promise permanent feelings)? Which needs are we still going to meet outside the relationship?
 > And the biggie: what happens if one of us falls in love with someone else? What counts as betrayal, and what’s just a sign we need a serious talk? If our lives change, can we honestly sit down and rethink the agreement, and if we split up, what do we still owe each other (and our kids, if we have any)?
 
-## 35. Which marriage vows are honest? (live 351)
+## 37. Which marriage vows are honest? (live 351)
 
 Read by romance-sec-vows#110: [result](https://www.pangram.com/history/5b6a00ff-d4b0-4a8e-8080-3e53cd1eec75).
 
@@ -466,7 +494,7 @@ Read by romance-sec-vows#110: [result](https://www.pangram.com/history/5b6a00ff-
 
 > Matthew 5:33–37 and James 5:12 make the wedding vow itself look even more suspicious (to me, anyway): let your “Yes” be “Yes” and your “No” be “No,” and anything beyond that comes from evil.
 
-## 36. Why all of this sounds artificial (live 410)
+## 38. Why all of this sounds artificial (live 410)
 
 Read by romance-low-artificial#104: [result](https://www.pangram.com/history/187f16fd-33af-4b28-893a-33560958795e).
 
@@ -478,7 +506,7 @@ Read by romance-low-artificial#104: [result](https://www.pangram.com/history/187
 
 > Some things were less mysterious: they were acting as if the trust problem wasn’t there because they still wanted the relationship. Attractions to other people sometimes went unsaid too, and sometimes got imagined from nowhere. Some people keep a relationship like this going for a long time, just sweeping everything under the rug.
 
-## 37. Gaslighting in the dark (live 433)
+## 39. Gaslighting in the dark (live 433)
 
 Read by romance-low-gaslight#105: [result](https://www.pangram.com/history/498e5daa-29e0-4a87-861b-5fac8ee956f7).
 
@@ -490,7 +518,7 @@ Read by romance-low-gaslight#105: [result](https://www.pangram.com/history/498e5
 
 > Many say it’s best to save face and work things out privately, but I’d disagree. If you don’t have friends who can help with the conflict, then you’re really stuck (and you might wanna find some new friends). But do it honestly, with the goal of helping the conflict, not just getting approval for your own interpretation. Both people should get a chance to speak, and good friends should hear both sides before validating either.
 
-## 38. Gaslighting in the dark (live 435)
+## 40. Gaslighting in the dark (live 435)
 
 Read by romance-low-gaslight#105: [result](https://www.pangram.com/history/498e5daa-29e0-4a87-861b-5fac8ee956f7).
 
@@ -502,7 +530,7 @@ Read by romance-low-gaslight#105: [result](https://www.pangram.com/history/498e5
 
 > If you’ve been there for someone, don’t abandon them in a crisis unless it’s unsafe for you to stay or they’re creating the crisis to keep you, or they aren’t willing to help themself. You may need to arrange other care, but that’s no reason to pretend the romance still has a future.
 
-## 39. After leaving (S22) (live 437, 438, 439, 440)
+## 41. After leaving (S22) (live 437, 438, 439, 440)
 
 Read by romance-s22#69: [result](https://www.pangram.com/history/836e7b4d-23bb-4945-8c5c-7b156e2faa6c).
 
@@ -520,7 +548,7 @@ Read by romance-s22#69: [result](https://www.pangram.com/history/836e7b4d-23bb-4
 > Sometimes the easiest story is that they were fake all along, because it explains everything. Grab it only if it really is the simplest explanation of what happened. People who aren’t heavily invested in seeing your innocence can help you tell, and a therapist, pastor, or even a stranger may see the evidence more clearly than a lifelong friend. Even the curiosity itself can be therapeutic for you.
 > Spiritual practice during an ending is critical, but don’t use it to get around the feelings. Pray for your ex’s wellbeing. Remember what was real and good, and don’t use your pain as permission to hate them. Avoid the New Age belief that everyone is simply a mirror of you. No, that isn’t true. We partly mirror one another, but each person was formed by plenty that had nothing to do with you. No matter how enlightened the Buddha was, his cousin Devadatta still kept trying to kill him: looking honestly at your part doesn’t erase theirs. Sometimes it helps to ask, “What would Mr. Rogers do?” (if you’re old enough to remember that show).
 
-## 40. What I gained from loss (live 443)
+## 42. What I gained from loss (live 443)
 
 Read by romance-low-loss#109: [result](https://www.pangram.com/history/6300d010-72d8-43e3-826e-ce2e31686160).
 

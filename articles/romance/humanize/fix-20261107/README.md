@@ -3,7 +3,7 @@
 - `live-check/`: his extension's result on the live post (`META.json`, `AI-WINDOWS.json`: the 41 AI windows, 21 spots, by
   code-point offset into the text it read; `LOW-WINDOWS.json`: its 54 Human Low windows, with the fix that has rechecked
   each where there is one).
-- `r01/` to `r19/`: check texts (`checks/texts.py`), making-sense receipts (`make_receipts.py`), predictions
+- `r01/` to `r20/`: check texts (`checks/texts.py`), making-sense receipts (`make_receipts.py`), predictions
   (`predict_rNN.py`, from r03) and results (`RESULTS-*.json`), one key per check (`r01-s1` is spot S1's first try; a
   letter after the number, as in `r03-s2b`, tells apart two tries at one spot). Predictions and results are in
   `../pangram-ledger.jsonl`. `r03/checks/CHECK-r03-s2c.txt` was written but never checked: try 3 read first, and try 4
@@ -41,6 +41,8 @@
   gained from loss".
 - `r19/`: "From flow to nitty gritty" narrowed to 201 (its list re-shaped, then cut to two items), the section's last
   try, and one check after the fix.
+- `r20/`: "Can making love be a spiritual practice?" narrowed: 304 to 309 and 312 (with 313), S17's paragraphs left out.
+- `whole/`: the fixed version for the whole-article check, its reads, and its two temporary drafts' records.
 - The marking page for S2 and S17 is in `../../review/teach-20261107/`.
 
 The spots are numbered S1 to S21 in the order they appear in the post, and S22 is the one the post's last part turned up (#47) (`../../CURRENT-STATE.md` lists which are done).

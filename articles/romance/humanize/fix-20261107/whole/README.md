@@ -29,3 +29,5 @@ on trial" 367 to 369) and "Two Pillars" 332 (owner lock) are as the live post ha
   The whole-article check waits until every window a smaller check read AI reads Human in a later smaller check (gate
   gut-2026-11-07a); then the drafts get the text pasted again.
 - `EMBEDS.md`: the live post's pictures, videos and embeds, from the post itself.
+- `compare-r20/` and `sense-r20/`: the same two reads for the changes `r20/` added (304 to 306, 312): no compare finding;
+  both planted errors found and nothing else.

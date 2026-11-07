@@ -162,19 +162,31 @@ Fantasy should also add to arousal rather than become the only possible route to
 
 Although the peanut gallery critics and lazy fact-checkers often cry fiction on this topic, it actually has been documented in studies. That laboratory evidence establishes the biological validity and uniqueness of the phenomenon. Kim Anami, Diana Richardson, and other popular educators and promoters of cervical orgasms further claim that these can provide days of afterglow, as well as spiritual and physical healings.
 
-## 31. S18 (live 331)
+## 31. Can making love be a spiritual practice? (304 to 309) (live 304, 305, 306)
+
+I’m Buddhist, and the early Buddhist texts don’t teach tantric sex as a path to awakening. But they also don’t show serious awakening as something reserved for monastics.
+
+In DN 16, the Buddha talks about people who had died in the town of Nādikā and mentions 510 lay stream-enterers, 96 once-returners, and more than fifty lay non-returners. Those are the first three of the four stages of awakening.
+
+SN 55.24 has an almost comic complaint. When the Buddha declared Sarakāni a stream-enterer, other Sakyans grumbled, in effect, “Who isn’t a stream-enterer these days?”
+
+## 32. Can making love be a spiritual practice? (312) (live 312)
+
+Brad and Pam Keene are the example I really like. Pam says her Kundalini process completed while they were making love and opened into a lasting universal-consciousness awakening. She later helped Brad awaken too, so the marriage itself became part of the path.
+
+## 33. S18 (live 331)
 
 Let me show you how this looked for me. I’ve noticed in my own relationships that whenever a serious issue arises, both of us tend to turn to our separate circles of friends for support. Then I resent the one-sided story she’s telling, she resents the one-sided story I’m telling. Some of the friends may even be exes who want us to break up, and eventually neither of us wants to talk to the other’s friends anymore. That’s a pretty terrible time to be trying to run the rest of life with two people. Housing, money, children, health, emotional crises—if one person goes down, the other becomes the whole backup system. Who even has time for the relationship itself at that point?
 
-## 32. S19 (live 335)
+## 34. S19 (live 335)
 
 If you do have separate confidants, you need enough emotional maturity to remember they will automatically be biased toward you. Take what they say with a grain of salt. They are hearing a partial story, usually while you’re upset, and they may be trying to protect you rather than understand the relationship fairly.
 
-## 33. What are you actually choosing together? (live 342)
+## 35. What are you actually choosing together? (live 342)
 
 “We’re together” ... what does that mean exactly? I can hear a whole future in those two words—sex, exclusivity, living together, money, children, caregiving. She might mean, “We really like each other; let’s see what happens.” I actually like letting a relationship flow without naming every part. The problem is when we’re using the same words for two different futures.
 
-## 34. What are you actually choosing together? (live 344, 345, 346)
+## 36. What are you actually choosing together? (live 344, 345, 346)
 
 Another honest option is a romance with humility, even if romance and humility seem to clash. Two people really are in love and want to build something together. They can choose exclusivity, shack up, have children, and plan a life without pretending they can guarantee what either heart will feel ten years later.
 
@@ -182,23 +194,23 @@ Then the questions change for me. If the romance changes, which parts are still 
 
 And the biggie: what happens if one of us falls in love with someone else? What counts as betrayal, and what just means we need a serious conversation? If our lives change, can we revisit the agreement honestly? If we separate, what do we still owe each other, and what do we owe any children involved?
 
-## 35. Which marriage vows are honest? (live 351)
+## 37. Which marriage vows are honest? (live 351)
 
 Matthew 5:33–37 and James 5:12 are stranger still beside wedding vows: let your “Yes” be “Yes” and your “No” be “No,” and anything beyond that comes from evil. To me, the extra promise itself starts to look suspicious. If your yes is trustworthy, why does it need another layer?
 
-## 36. Why all of this sounds artificial (live 410)
+## 38. Why all of this sounds artificial (live 410)
 
 Some things were less mysterious. They were acting as if the trust problem wasn’t there because they still wanted the relationship. Attractions to other people sometimes went unsaid too, and sometimes got imagined from nowhere. Some people keep a relationship like this going for a long time, just sweeping everything under the rug.
 
-## 37. Gaslighting in the dark (live 433)
+## 39. Gaslighting in the dark (live 433)
 
 Many say it’s best to save face and work things out privately, but I’d disagree. If you don’t have friends who can help with the conflict, then you’re really stuck (and you might wanna find some new friends). But do it honestly, with the goal of helping the conflict, not just getting approval for your own interpretation. Both people should have a chance to speak, and good friends shouldn’t automatically validate either side.
 
-## 38. Gaslighting in the dark (live 435)
+## 40. Gaslighting in the dark (live 435)
 
 If you’ve been there for someone, don’t abandon them in a crisis unless it’s unsafe for you to stay or they’re creating the crisis to keep you, or they aren’t willing to help themself. You may need to arrange other care. That doesn’t mean you have to pretend the romance still has a future.
 
-## 39. After leaving (S22) (live 437, 438, 439, 440)
+## 41. After leaving (S22) (live 437, 438, 439, 440)
 
 Often times the breakup is hard, but the aftermath is worse. Public demonization should be avoided, but I don’t think that means hiding the truth about the relationship to save face. Sometimes the truth is abuse, coercion, or serious deception. How much you say, to whom, and how publicly depends on what happened and why you’re telling people.
 
@@ -208,6 +220,6 @@ Sometimes the easiest story is that they were fake all along. Don’t grab that 
 
 Spiritual practice during an ending is critical, but don’t use it to get around the feelings. Pray for your ex’s wellbeing. Remember what was real and good, and don’t use your pain as permission to hate them. Avoid the New Age belief that everyone is simply a mirror of you. No, that isn’t true. We partly mirror one another, but each person was formed by plenty that had nothing to do with you. No matter how enlightened the Buddha was, his cousin Devadatta still kept trying to kill him. Looking honestly at your part doesn’t erase theirs. Sometimes it helps to ask, “What would Mr. Rogers do?” (if you’re old enough to remember that show).
 
-## 40. What I gained from loss (live 443)
+## 42. What I gained from loss (live 443)
 
 At this point, I can say I’m better off because of what happened with Bee, Key, and H., without pretending every part of those relationships was beneficial or destined. Loss taught me things love alone never would. And to paraphrase Rumi, “You must keep breaking your heart until it stays open.” (The real quote: “The reed must be torn from its bed, cut, hollowed out, and pierced with holes (wounded) before it can channel the breath of the musician into music.”)

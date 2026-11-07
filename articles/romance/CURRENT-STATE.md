@@ -87,6 +87,12 @@ with his OK and no email.
   the built text. They aren't sent for the check yet: the ledger's gate (gut-2026-11-07a) holds a whole-article check
   until every window a smaller check read AI reads Human in a later smaller check, and S2, S17, the three S2-pattern
   stretches and three more windows in "Can making love be a spiritual practice?" (#45) still read AI there.
+- 2026-11-07 (18:08 UTC pickup, `humanize/fix-20261107/r20/`): "Can making love be a spiritual practice?" narrowed
+  (gate gut-2026-11-07a), S17's paragraphs (310, 311) left as the live post has them: 304 to 309 read one Human High
+  window (#115: 304's two denials said as one sentence with what the texts do show, 305's stages of awakening named where
+  the stream-enterers are listed, 306's short opener joined with a colon), and so did 312 with 313 (#116: 312's point
+  said first). The fixed version now has 42 changes to 70 paragraphs; the compare read of the new ones found nothing,
+  and their word-for-sense read found its two planted errors and nothing else.
 
 ### Before 2026-11-07 (the registered master, as recorded then)
 
@@ -148,11 +154,10 @@ with S22 in it (#69). "From flow to nitty gritty" reads Human with one Low windo
 reads High by itself (#112); its tries are spent (#108, #113, #114), so that window is named for the whole-article
 check. So is "Two Pillars Don't Hold The Roof Up" 332, the paragraph the owner lock keeps as the live post has it.
 
-"Can making love be a spiritual practice?" read 14.8% AI with S17's best try in it (#45). Besides S17's own lines (its
-card on the marking page), three of its AI windows are model text no card covers: "I'm Buddhist, and the early Buddhist
-texts don't teach tantric sex as a path to awakening." with "But they also don't show serious awakening as something
-reserved for monastics." (AI Low), and "Brad and Pam Keene are the example I really like." (AI Low); two Human Low
-windows sit beside them. "Spirituality to bypass intimacy" (#48) reads AI only on S2's own lines.
+"Can making love be a spiritual practice?" read 14.8% AI with S17's best try in it (#45). Its AI and Low windows outside
+S17's own lines (its card on the marking page) now read Human High in their own checks (#115, #116). "Spirituality to
+bypass intimacy" (#48) reads AI only on S2's own lines. So every window a smaller check read AI that is still in the
+fixed version is S2's, S17's or one of the three stretches that share S2's pattern: all wait on Joel's answers.
 
 Still AI: "Jealousy on trial" (367 to 369, #94), "Romance Shouldn't Be Adjudicated" (285 to 287, #98) and "Beware
 idealization" (148, #93). All three are his general claims about men, women, monogamy and idealization, said evenly.
@@ -169,14 +174,12 @@ question inside its section, even where the pair read High by itself; joined int
 
 1. S2 and S17: Joel's versions on the marking page; then carry what he did to the lines each card names, and to the
    stretches that share S2's pattern ("Jealousy on trial" 367 to 369, "Romance Shouldn't Be Adjudicated" 285 to 287,
-   "Beware idealization" 148).
-2. "Can making love be a spiritual practice?" (#45): its AI windows outside S17's card (the Buddhist-texts pair and the
-   Keene line) and the Low windows beside them, each paragraph fixed and checked by itself (gate gut-2026-11-07a: an AI
-   window a smaller check showed is cleared only by a later smaller check that reads it Human).
-3. The whole-article check, once 1 and 2 read Human in their checks: paste the fixed version again into the two
-   temporary drafts (`whole/DRAFTS.json`; `whole/build_draft.js` with a new commit), make each secret link, check its
-   rendered text, and give Joel the two links to open and run his extension on. The windows named for that check: "From
-   flow to nitty gritty" 201's closing sentence and "Two Pillars" 332. Then his post updated with his OK, no email.
+   "Beware idealization" 148), each checked in its section until it reads Human.
+2. The whole-article check, once 1 reads Human: rebuild the fixed version with those changes (`whole/assemble.py`,
+   `whole/build.py`), read the new paragraphs for sense, paste it again into the two temporary drafts
+   (`whole/DRAFTS.json`; `whole/build_draft.js` at the new commit), make each secret link, check its rendered text, and
+   give Joel the two links to open and run his extension on. The windows named for that check: "From flow to nitty
+   gritty" 201's closing sentence and "Two Pillars" 332. Then his post updated with his OK, no email.
 
 ## Blockers / unresolved
 
@@ -248,5 +251,5 @@ and a claim left a little unbalanced ("without (most of) the responsibility") re
 
 ## Next safe action
 
-Remaining 2 (the Buddhist-texts pair and the Keene line of "Can making love be a spiritual practice?", checked
-paragraph by paragraph); read Joel's answers on the marking page when he gives them.
+Nothing more can be done without Joel: read his answers on the marking page for S2 and S17 when he gives them, then
+Remaining 1 and 2.

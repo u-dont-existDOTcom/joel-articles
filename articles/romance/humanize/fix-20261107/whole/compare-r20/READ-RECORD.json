@@ -1,0 +1,12 @@
+{
+ "format": "compare-read-record-v1",
+ "article": "articles/romance/humanize/fix-20261107/whole/REWRITE-CHANGED-r20.md",
+ "coverage": [
+  "114bb4beb15b9a83",
+  "5563b0a04b8793c5",
+  "57c8db3bdc3ca05e",
+  "f5a96a406d6599b4"
+ ],
+ "findings": [],
+ "dispositions": {}
+}
