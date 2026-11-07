@@ -64,6 +64,12 @@ with his OK and no email.
   Low. "Situationships" paragraph 34 read Human with no Low by itself (#95: his fun line left a little unbalanced,
   "without (most of) the responsibility", bad-trips-2026-11-07g). "Jealousy on trial" read 28% AI on its last try
   (#94), "Romance Shouldn't Be Adjudicated" 37% AI on its first (#98), and 147 with 148 37% AI (#93).
+- 2026-11-07 (16:41 UTC pickup, `r17/`, every try linted first): "Situationships" read Human with no Low after its
+  fix (#100, his answer 28a: paragraph 34 as #95 read, and 36's closing line said once, in its opener). "Some babies
+  grow up faster" (#101, with S11 and S12 in), "Different levels in different domains can be complementary" (#102,
+  with S13 in) and "Gaslighting in the dark" (#105) read one Human High window each, and "Why all of this sounds
+  artificial" (#104) read Human with no Low. "What are you actually choosing together?" (#103, with S20 in) read Human
+  with three Low windows, all in S20's questions, which had read High as a pair by themselves (#27).
 
 ### Before 2026-11-07 (the registered master, as recorded then)
 
@@ -109,42 +115,44 @@ Joel's 2026-08-24 direct correction makes the exact r23r2 Two Pillars local real
 
 #### Current checkpoint
 
-Exact r23r2 identities:
+2026-11-07, the 16:41 UTC pickup. 17 of the 22 spots read Human with no Low window (S1, S3, S4, S5, S6, S8, S10, S11, S12,
+S13, S14, S15, S16, S18, S19, S20, and S22 in its section, #69). S7 and S9 have a Low line, S21 reads AI only on its closing
+sentence (#46), and S2 and S17 wait on the marking page for Joel's versions.
 
-- master: SHA-256 `f1c2b9a3f0f3d9e123c3870ca5d741af8ed99bbf6f138e68b845de04b1a12a2c`; **20,364** Markdown whitespace words;
-- Part 1: SHA-256 `620972febec1957403d261c4426c8fbba58763df2c0b78eb87a79da368f1f50b`; **10,296** words; byte-identical to r23 Part 1;
-- Part 2: SHA-256 `fbbcf64af313488b2ad8bb8969422f5bc85895eca908e41e9f796b2c0724e4eb`; **9,917** words;
-- Two Pillars natural boundary: SHA-256 `1bd239b9b56926b2a2dabc5a2f106ca58f50bcccd993b950e924fc481c27736e`; **734** words;
-- exact owner-final Two Pillars span: SHA-256 `cd8de93fda39fcdf13c4b1f6ba2f9250c11c40f8c8298f281055e37bafed6291`.
+Eighteen sections with open Low windows in the live post now read Human with no Low window in their own check: "My
+flaws" (#61), "Peeking thru the window" (#67), "Things get tricky fast" (#68), "Holding up a leaky dam" (#70), "The
+window of clarity" (#71), "Anti-PTSD Can Be Just As Dangerous As PTSD" (#73), "Muses & Directors" (#81), "The Queen of
+Orgasms" (#82), "Labels Are Descriptive, Not Prescriptive" (#84), "Disconnect to connect" (#88), "Slow & steady" (#96),
+"It always goes deeper" (#97), "Fantasy" (#99), "Situationships" (#100, after its fix), "Some babies grow up faster"
+(#101), "Different levels in different domains can be complementary" (#102), "Why all of this sounds artificial" (#104)
+and "Gaslighting in the dark" (#105); so does "After leaving", with S22 in it (#69). "What are you actually choosing
+together?" reads Human with three Low windows, on S20's questions (#103); it has one try left.
 
-Detector evidence:
+Still AI: "Jealousy on trial" (367 to 369, #94), "Romance Shouldn't Be Adjudicated" (285 to 287, #98) and "Beware
+idealization" (148, #93). All three are his general claims about men, women, monogamy and idealization, said evenly.
+Each reads High by itself and AI in its section, his live wording included, and my joins don't move them. That is the
+pattern of S2's card on the marking page, so his answer there is the likeliest way to learn how he'd say these.
 
-- current Part 1 retains exact Pangram 4.0 Human `1.0` evidence because its bytes did not change from r23;
-- superseded r23 Part 2 measured Human `0.9965084195`, AI `0.0034915956`, AI-assisted `0.0` and localized one transition residual;
-- Joel reports the r23r1 ordering tested AI / low confidence;
-- Joel reports the exact r23r2 local realization tested Human / low confidence and accepts it as `good enough`;
-- no new Pangram call was run for r23r2, and no full Part-2 or whole-article score is claimed.
+What these checks showed: a section checked by itself reads harsher than the whole post did, and his general claims
+read AI there whatever the joins. His short sentences joined to what they belong with, a paragraph's point said first,
+a claim left a little unbalanced ("without (most of) the responsibility"), and a repeat cut read High. A run of short
+questions reads one window per question inside its section, even where the pair read High by itself.
 
-Article-wide state:
+## Remaining
 
-- preservation: **PASS**, unexplained substantive deltas `0`;
-- architecture/dependencies: **PASS**;
-- citation review: `pending`;
-- whole-article editorial review: `pending`;
-- article status: `working`, not `owner_final` or `published`;
-- publication exports: none registered.
+1. S2 and S17: Joel's versions on the marking page; then carry what he did to the lines each card names, and to the
+   stretches that share S2's pattern ("Jealousy on trial" 367 to 369, "Romance Shouldn't Be Adjudicated" 285 to 287,
+   "Beware idealization" 148).
+2. "What are you actually choosing together?": its second try, with S20's three Low questions fixed (the short opener
+   joined to the first question with a colon, the either/or question left a little unbalanced, the rethink question
+   joined to the split-up one).
+3. The rest of the post's last part: "What I gained from loss" (443's short line, Low in #47); S7's and S9's Low lines;
+   S21's section. "Two Pillars Don't Hold The Roof Up" keeps its one Low window (332), on the paragraph the owner lock
+   keeps as the live post has it.
+4. A whole-article check of the fixed version (a temporary draft for his extension, in two parts, since his extension
+   reads only the first 100,000 characters), then his post updated with his OK, no email.
 
-#### Remaining
-
-- Keep citation review and a future fresh whole-article editorial pass explicit; do not infer either from the bounded r23r2 correction.
-- Do not run another Pangram Part-2 call solely to increase detector confidence; Joel accepted the exact local result.
-- Do not normalize, re-punctuate, or reflow the exact owner-final Two Pillars lock.
-- Do not publish/export without a separate explicit owner action and registered publication provenance.
-- Copyright/license posture remains a separate owner decision.
-
-No competing Romance master remains unresolved. Exact r23r2 on `main` is the current registered working authority.
-
-#### Blockers / unresolved
+## Blockers / unresolved
 
 - Publication remains blocked on the owner decisions recorded in `review/FINAL-CORRECTIONS-20260824.md`, including factual and citation corrections that require owner-approved prose.
 - Copyright and license posture remain separate owner decisions.
@@ -209,7 +217,7 @@ and a claim left a little unbalanced ("without (most of) the responsibility") re
 ## Evidence / artifacts
 
 - `humanize/fix-20261107/live-check/META.json`, `AI-WINDOWS.json`, `LOW-WINDOWS.json`; `humanize/fix-20261107/r01/` to
-  `r16/` (check texts, receipts, predictions, results, tell panels); `review/teach-20261107/` (the marking page for S2 and
+  `r17/` (check texts, receipts, predictions, results, tell panels); `review/teach-20261107/` (the marking page for S2 and
   S17: `build_t1.py`, `REVIEW-T1.md`, `ARTIFACT.md`); `humanize/pangram-ledger.jsonl`; `humanize/SCORECARD.md`.
 
 ## Next safe action
