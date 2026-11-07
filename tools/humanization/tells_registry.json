@@ -2963,6 +2963,18 @@
    ],
    "rule": "O46",
    "example": "Don't make huge decisions or diagnose yourself from one intense night. Sleep first, and talk it over with somebody steady."
+  },
+  {
+   "id": "J69",
+   "tell": "a compressed list: one long sentence whose items are category words (\"give away possessions, make a grand purchase\"), where his own fix keeps a short list of plain verbs and turns the rest into particular things a reader can picture, said in sentences built differently (\"Think twice before ... giving away your BMW, buying a new BMW\")",
+   "kind": "judgment",
+   "sources": [
+    {
+     "file": "articles/bad-trips/experiments/t25-answers/joel-20261107-2238-r23-comments.txt",
+     "quote": "seems like you didn't even try to make it less like a massive robotic compressed list"
+    }
+   ],
+   "reason": "The linter's list flag (W68, B4) finds a long list but not what its items are: it flags his Human, High version too. Whether each item is something a reader can picture, and whether the sentences around it are built differently, is a reader's call."
   }
  ]
 }

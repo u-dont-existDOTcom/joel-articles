@@ -83,8 +83,9 @@ class RegistryShape(unittest.TestCase):
         # answers of 2026-11-04 18:09 UTC (E357); W116 (O46 "one ordinary") and W117 (X1 "X does not Y") from his bad trips
         # guide answers of 2026-11-03 18:59 UTC; W122 (O68, a study opened bare) from his bad trips guide answers of 2026-11-04
         # 22:14 UTC (E360); W123 (O46 again, "one" before any word and a noun: "one intense night") from his bad trips guide
-        # answers of 2026-11-07 15:38 UTC
-        self.assertEqual(len(ids), 191)
+        # answers of 2026-11-07 15:38 UTC; J69 (a compressed list of category words) from his bad trips guide's round-23
+        # answer of 2026-11-07 22:38 UTC
+        self.assertEqual(len(ids), 192)
         self.assertEqual(len(set(ids)), len(ids))
         self.assertEqual(sum(t['kind'] == 'mechanical' for t in TELLS), 123)
         for t in TELLS:

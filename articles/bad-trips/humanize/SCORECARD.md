@@ -8,7 +8,7 @@ Built by `tools/humanization/pangram_ledger.py build` from `articles/bad-trips/h
 |---|---|---|---|---|---|---|
 | Pangram 4.1 extension (free, live post; Joel's check of 2026-10-18, the same text as his 2026-11-03 paste by SHA-256) | 1 | 1 (100%) | 100% | 0% | 0% | 0.000 (base 0.000, 1) |
 | Pangram web app (his account, Pangram Professional) | 3 | 3 (100%) | 100% | 0% | 0% | 0.092 (base 0.000, 3) |
-| Pangram web app (his account, Pangram Professional), through the Claude desktop app's browser pane | 329 | 299 (91%) | 86% | 14% | 14% | 0.127 (base 0.118, 329) |
+| Pangram web app (his account, Pangram Professional), through the Claude desktop app's browser pane | 335 | 304 (91%) | 87% | 13% | 14% | 0.130 (base 0.116, 335) |
 | pangram 4.1, the web app: Joel's account, run by the lane in the desktop app's browser pane (E356) | 8 | 6 (75%) | 50% | 50% | 75% | 0.170 (base 0.250, 8) |
 
 ## Pangram 4.1 extension (free, live post; Joel's check of 2026-10-18, the same text as his 2026-11-03 paste by SHA-256)
@@ -56,16 +56,16 @@ Calibration:
 
 | window | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| the latest 50 | 50 | 44 (88%) | 82% | 18% | 22% | 0.137 (base 0.148, 50) |
-| the latest 100 | 100 | 88 (88%) | 84% | 16% | 14% | 0.128 (base 0.134, 100) |
-| all | 329 | 299 (91%) | 86% | 14% | 14% | 0.127 (base 0.118, 329) |
+| the latest 50 | 50 | 43 (86%) | 82% | 18% | 24% | 0.161 (base 0.148, 50) |
+| the latest 100 | 100 | 87 (87%) | 84% | 16% | 15% | 0.141 (base 0.134, 100) |
+| all | 335 | 304 (91%) | 87% | 13% | 14% | 0.130 (base 0.116, 335) |
 
 The boundary mix (what was checked; accuracy differs a lot between a paragraph and a section):
 
 | scope or kind | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
 | section | 68 | 65 (96%) | 93% | 7% | 12% | 0.083 (base 0.068, 68) |
-| paragraph | 214 | 191 (89%) | 84% | 16% | 14% | 0.131 (base 0.137, 214) |
+| paragraph | 220 | 196 (89%) | 84% | 16% | 14% | 0.135 (base 0.134, 220) |
 | pair | 47 | 43 (91%) | 89% | 11% | 15% | 0.171 (base 0.095, 47) |
 
 Calibration:
@@ -74,9 +74,9 @@ Calibration:
 |---|---|---|---|
 | 0.0 to 0.2 | 26 | 0.13 | 0% |
 | 0.2 to 0.4 | 185 | 0.28 | 5% |
-| 0.4 to 0.6 | 103 | 0.46 | 21% |
+| 0.4 to 0.6 | 108 | 0.46 | 20% |
 | 0.6 to 0.8 | 16 | 0.67 | 88% |
-| 0.8 to 1.0 | 4 | 0.80 | 100% |
+| 0.8 to 1.0 | 5 | 0.80 | 80% |
 
 ## pangram 4.1, the web app: Joel's account, run by the lane in the desktop app's browser pane (E356)
 
@@ -99,12 +99,12 @@ Calibration:
 | 0.4 to 0.6 | 6 | 0.49 | 33% |
 | 0.6 to 0.8 | 3 | 0.67 | 100% |
 
-## Misses since the ledger (32)
+## Misses since the ledger (33)
 
 | cause | misses |
 |---|---|
 | context | 10 |
-| not explained yet | 7 |
+| not explained yet | 8 |
 | in place | 5 |
 | shape echo | 1 |
 | parallel frames kept | 1 |
@@ -121,7 +121,6 @@ The latest:
 
 | check | lineage, try | said | read | cause |
 |---|---|---|---|---|
-| [bt-spirit-S1](https://www.pangram.com/history/8fb742b0-5da4-40fd-9f7b-47177f721dec) | bad-trips Spiritual is not Getting Your Ass Kicked after the Human section, S1, 1 | AI | Human | context |
 | [bt-other-o5b](https://www.pangram.com/history/3a876120-b490-4361-a0b4-ff0d60d7c791) | bad-trips The Other Bypass after the Human section, O5, 2 | Human | AI or mixed | in place |
 | [bt-why-W1](https://www.pangram.com/history/922960db-ae8a-426d-8b07-7edc0eb9e1ea) | bad-trips Why Bad Trips Tend to Happen after the Human section, W1, 1 | AI | Human | context |
 | [bt-give-G2](https://www.pangram.com/history/635b3f13-4c07-43fc-88e6-3e3ef31ac41c) | bad-trips Give the Session a Beginning and an End after the Human section, G2, 1 | AI | Human | context |
@@ -136,6 +135,7 @@ The latest:
 | [bt-as-af](https://www.pangram.com/history/df5355b3-dc90-43fd-9f91-c61a1e443e09) | bad-trips After the Storm, no another ceremony, his After the Storm moves, 1 | Human | AI or mixed | **not explained yet** |
 | [bt-as-ab](https://www.pangram.com/history/f9886de7-b770-4419-be77-7eca2fab4116) | bad-trips Abuse Memories, don't confront tonight, his After the Storm moves, 1 | Human | AI or mixed | **not explained yet** |
 | [bt-as-al](https://www.pangram.com/history/7cf63d5d-ba6c-47da-bd7b-3b61dec81eab) | bad-trips Alone at 3 a.m., the movement paragraph, his After the Storm moves, 1 | Human | AI or mixed | **not explained yet** |
+| [bt-his-dt](https://www.pangram.com/history/f14f541b-8df3-4ad3-927a-ab79bce78b57) | bad-trips No Rash Actions, the don't list, his version (round 23), 1 | Human | AI or mixed | **not explained yet** |
 
 ## Lineages still open (tries used of the cap)
 
@@ -308,11 +308,13 @@ The latest:
 | bad-trips When the Trip Feels Amazing's bliss line, his round-22 move | paragraph | 1 of 6 | Mixed |
 | bad-trips No Rash Actions, the experience-content paragraph, his round-22 move | paragraph | 1 of 6 | Mixed |
 | bad-trips Dealing With Sorrow, the deepest utility, his round-22 move | paragraph | 1 of 6 | Mixed |
-| bad-trips After the Storm, no another ceremony, his After the Storm moves | paragraph | 2 of 6 | pending |
-| bad-trips Dealing With Shadow Thoughts, during a trip, his After the Storm moves | paragraph | 1 of 6 | AI |
+| bad-trips After the Storm, no another ceremony, his After the Storm moves | paragraph | 2 of 6 | Mixed |
+| bad-trips Dealing With Shadow Thoughts, during a trip, his After the Storm moves | paragraph | 2 of 6 | AI |
 | bad-trips No Rash Actions, the don't list, his After the Storm moves | paragraph | 1 of 6 | AI |
-| bad-trips Abuse Memories, don't confront tonight, his After the Storm moves | paragraph | 1 of 6 | Mixed |
-| bad-trips Alone at 3 a.m., the movement paragraph, his After the Storm moves | paragraph | 2 of 6 | pending |
+| bad-trips Abuse Memories, don't confront tonight, his After the Storm moves | paragraph | 2 of 6 | Mixed |
+| bad-trips Alone at 3 a.m., the movement paragraph, his After the Storm moves | paragraph | 2 of 6 | Mixed |
 | bad-trips Stillness or Movement?, the two cases, his After the Storm moves | paragraph | 1 of 6 | Mixed |
 | bad-trips Minimum Viable Integration, his After the Storm moves | paragraph | 1 of 6 | Mixed |
+| bad-trips No Rash Actions, the don't list, his version (round 23) | paragraph | 1 of 6 | Mixed |
+| bad-trips After the Storm, the questions with the facts merged in (MVI cut as a repeat) | paragraph | 1 of 6 | Mixed |
 

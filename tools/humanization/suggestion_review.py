@@ -60,6 +60,8 @@ REVIEW.json (the lane's build script writes it; see find_quote, block_text and c
       "sense" (needed, from reviews built 2026-11-07, on a stretch to edit he asked to rewrite on a model's text): what a
                  fresh reader found reading it for sense (unclear words, claims that don't hold up, repeats) and how the
                  card's tries handle each; shown as "What a fresh reader found" (gate bad-trips-2026-11-07i),
+      "list_part" (optional, on a stretch to edit): why the card covers only some items of a list; without it, a stretch
+                 to edit that covers one item of a list covers them all (gate bad-trips-2026-11-07k),
       "ask_because" (needed, from reviews built 2026-11-07, on an approve or leave card): why the change needs his
                  decision at all: "meaning: what it might change in what the text says", "downside: what is lost or
                  risked" or "his own: what he wrote himself and where"; shown on the card as "Why I'm asking". A tested
@@ -105,7 +107,7 @@ from html_links import join_split_links  # noqa: E402  (a pasted post card's lin
 TEMPLATE = HERE / 'suggestion_review_template.html'
 FORM_CSS = ROOT / 'project-sources' / 'review-form-controls.css'
 FORMAT = 'joel-suggestion-review-v1'
-GENERATOR = 'suggestion_review.py 1.9 (2026-11-07)'
+GENERATOR = 'suggestion_review.py 1.10 (2026-11-07)'
 ID_OK = re.compile(r'^[A-Za-z0-9][A-Za-z0-9.\-]{0,80}$')
 # a Pangram result's page (2026-11-02, Joel on the hypnosis guide's cards: "why are you not giving me the pangram link so
 # i can see? always give me the links", and "you didn't check if your changes passed.. they didn't. don't waste my time")
@@ -123,6 +125,7 @@ ASK_FROM = '2026-11-07'
 # a stretch he is asked to rewrite on a model's text says what a fresh reader found when reading it for sense
 SENSE_FROM = '2026-11-07'
 SENSE_OK = re.compile(r'^\s*\S.{19,}', re.S)
+LIST_FROM = '2026-11-07'   # reviews built from this day: a stretch to edit on a list covers every item (bad-trips-2026-11-07k)
 ASK_OK = re.compile(r'^\s*(meaning|downside|his own)\s*:\s*\S.{9,}', re.I | re.S)
 FINE_OK = re.compile(r'^\s*\S.{14,}', re.S)
 YOURS_WORDS = re.compile(r"\byour (?:own )?(?:words|sentences?|lines?|phrasings?|wording)\b|\byours to (?:change|fix|edit|"
@@ -449,6 +452,35 @@ def sense_problems(review):
             and not SENSE_OK.match(s.get('sense') or '')]
 
 
+def list_problems(review, bl):
+    """Gate bad-trips-2026-11-07k. On pages built from LIST_FROM, a stretch to edit whose spans touch an item of a list
+    (a run of bullet or numbered blocks) covers every item of that list, unless "list_part" says why it covers only some.
+    Each list item is its own page block, so a card built from the first block of a list asked him to rewrite one line of
+    four (Joel, 2026-11-07 22:38 UTC, on the steps card: "i don't understand how you work, you want me to correct only
+    that one line? ... why?")."""
+    built = review.get('built') or ''
+    if not re.match(r'\d{4}-\d{2}-\d{2}', built) or built[:10] < LIST_FROM:
+        return []
+    probs, n = [], len(bl)
+    for s in review['suggestions']:
+        if s.get('advice') != 'edit' or len((s.get('list_part') or '').strip()) >= 10:
+            continue
+        have = {sp.get('block') for sp in s.get('spans', [])}
+        for i in sorted(j for j in have if isinstance(j, int) and 0 <= j < n and bl[j]['kind'] in ('li', 'oli')):
+            a = z = i
+            while a > 0 and bl[a - 1]['kind'] == bl[i]['kind']:
+                a -= 1
+            while z + 1 < n and bl[z + 1]['kind'] == bl[i]['kind']:
+                z += 1
+            missing = [j for j in range(a, z + 1) if j not in have]
+            if missing:
+                probs.append('%s: this stretch to edit covers %d of the %d items of the list at %s; cover them all, or say '
+                             'in "list_part" why only these (gate bad-trips-2026-11-07k; Joel, 2026-11-07 22:38 UTC: "you '
+                             'want me to correct only that one line? ... why?")'
+                             % (s.get('id', '?'), z - a + 1 - len(missing), z - a + 1, where(bl, a)))
+                break
+    return probs
+
 def check(review, bl):
     """Problems with REVIEW against the article's blocks: [message]."""
     probs, ids = [], set()
@@ -541,6 +573,7 @@ def check(review, bl):
     probs += provenance_problems(review)
     probs += ask_problems(review)
     probs += sense_problems(review)
+    probs += list_problems(review, bl)
     return probs
 
 
