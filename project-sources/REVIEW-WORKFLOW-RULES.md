@@ -207,3 +207,11 @@ For substantial whole-article review, separate the developmental reviewer from t
 A rejected operation may still reveal a real problem. Preserve the diagnosis while discarding the wrong solution. Before implementation, test every accepted recommendation against the operational article-purpose statement. Implement through the smallest authorized move, trim, pointer, hierarchy repair, or connective sentence. Then inspect the complete article independently before detector testing.
 
 When a claim is firm but the evidence is badly timed, classify the change as `Point and move`; do not rewrite conviction into uncertainty. When recurrence supports section autonomy for skimmers, retain the smallest local orientation and point to the full proof.
+
+## Owner feedback includes research comparisons (2026-10-25 correction)
+
+When the purpose is to obtain Joel's judgments on multiple prose alternatives, the deliverable is a commentable review even if the text is experimental, diagnostic, provisional or not an article master. Those labels are not exceptions. Use the existing `interactive_review.py` and `review_interface_template.html`, not a hand-built static report as the primary feedback surface. A static report may be a companion only.
+
+Before delivery, run `python3 tools/humanization/review_delivery_check.py <exact-delivered.html> --expected-items <n>` and the existing browser interaction test. The structural guard rejects read-only HTML, metadata-only facades, missing per-cell comments, missing exports and missing readable-control protection; it does not itself prove browser behavior. Preserve already supplied notes/decisions, but do not turn a local owner correction into approval of the whole candidate.
+
+This repairs the October 25 six-candidate research page: the user was asked to judge each alternative but received no comment controls. The earlier static page is a negative regression fixture in the research record; the corrected page uses the shared v4 interface and exact-source JSON import.
