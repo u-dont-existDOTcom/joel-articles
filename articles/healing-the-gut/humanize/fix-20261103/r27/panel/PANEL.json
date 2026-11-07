@@ -1,0 +1,59 @@
+{
+ "readers": [
+  "haiku",
+  "sonnet"
+ ],
+ "sentences": [
+  "So check your organs (Brown).",
+  "Do your stools look oily or greasy?",
+  "Then it's often your pancreas not making enough digestive enzymes, which doctors call Exocrine Pancreatic Insufficiency.",
+  "A Stool Elastase test will tell you, and if that's it, you take high-dose enzymes with every meal.",
+  "If it's diarrhea that keeps coming back instead, Brown says the issue can be Bile Acid Diarrhea, where too much of your bile reaches your colon.",
+  "He has you tested for that with SeHCAT, and bile binders soak up the extra bile."
+ ],
+ "flagged": {
+  "1": [
+   "sonnet"
+  ],
+  "2": [
+   "haiku",
+   "sonnet"
+  ],
+  "3": [
+   "haiku",
+   "sonnet"
+  ],
+  "4": [
+   "haiku",
+   "sonnet"
+  ],
+  "5": [
+   "haiku",
+   "sonnet"
+  ],
+  "6": [
+   "haiku",
+   "sonnet"
+  ]
+ },
+ "agreed": [
+  2,
+  3,
+  4,
+  5,
+  6
+ ],
+ "whole": {
+  "haiku": [
+   "The paragraph runs five sentences of similar length, each following the same condition, test, and treatment pattern, which gives it an even, templated build that reads more like a generated summary than an argument. The wording itself is plain and unstrained, so the machine feel sits mostly in the structure."
+  ],
+  "sonnet": [
+   "The paragraph is built as two parallel diagnostic branches (symptom, condition, test, treatment), each in nearly the same sentence pattern, with a compressed and even rhythm. The voice is a neutral summarizer relaying someone else's claims rather than a person with a stake in them, and no sentence carries a personal detail or surprise."
+  ]
+ },
+ "human_clean": [
+  "If it's diarrhea that keeps coming back instead",
+  "instead",
+  "If it's diarrhea that keeps coming back instead"
+ ]
+}

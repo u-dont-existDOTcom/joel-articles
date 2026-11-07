@@ -204,9 +204,9 @@ class Ledger(unittest.TestCase):
         fixed = article.replace('Start with low doses of prebiotics and probiotics, then build up.',
                                 'Go slow with prebiotics at first; they make most people gassy.')
         self.assertEqual(L.main(base + ['--text', self.text(fixed)]), 0)
-        # or named, with why it stays
+        # an AI window can't be named away with --windows-ok (gate gut-2026-11-07a): refused
         self.assertEqual(L.main(base[:5] + ['B'] + base[6:] + ['--text', self.text(article + ' x'),
-                                                                 '--windows-ok', 'his words; sent to him as a help request']), 0)
+                                                                 '--windows-ok', 'his words; sent to him as a help request']), 2)
         # a later check that reads the same words Human (Medium or High) clears the window
         para = 'Start with low doses of prebiotics and probiotics, then build up.'
         self.assertEqual(self.predict(para, lineage='P', key='para'), 0)
@@ -216,6 +216,61 @@ class Ledger(unittest.TestCase):
                                                          'text': para}]}}), encoding='utf-8')
         self.assertEqual(L.main(['results', self.ledger, str(res)]), 0)
         self.assertEqual(L.open_windows(L.read(self.ledger), article), [])
+
+    def test_a_section_that_read_ai_is_fixed_before_the_article_and_the_article_does_not_clear_it(self):
+        """Gate gut-2026-11-07a (Joel, 2026-11-06 23:59 UTC: "make sure you're fixing any paras or sections that test ai
+        before you ask for whole articel checks"): the gut lane checked the whole article twice with --windows-ok saying a
+        cut's AI windows read Human in the whole article. An AI window a smaller check showed now blocks the article check
+        whatever --windows-ok says; a whole-article check reading the same words Human doesn't clear it, a later section
+        check does; a Low window can still be named with why it stays."""
+        sec = 'Start by re-seeding with the yogurt. Then feed the new bacteria with plants, thirty kinds a week.'
+        self.assertEqual(self.predict(sec, lineage='S', scope='section', call='AI', key='sec'), 0)
+        res = self.dir / 'res.json'
+        res.write_text(json.dumps({'sec': {'sha256': L.sha256(sec), 'words': 17, 'prediction_short': 'AI',
+                                           'fraction_human': 0.4, 'version': '4.1', 'link': 'https://www.pangram.com/history/s1',
+                                           'windows': [
+                                               {'label': 'Human Written', 'confidence': 'Low', 'words': 6,
+                                                'text': 'Start by re-seeding with the yogurt.'},
+                                               {'label': 'AI-Generated', 'confidence': 'High', 'words': 11,
+                                                'text': 'Then feed the new bacteria with plants, thirty kinds a week.'}]}}),
+                       encoding='utf-8')
+        self.assertEqual(L.main(['results', self.ledger, str(res)]), 0)
+        article = 'Intro words here.\n' + sec + '\nMore words.'
+        sub = "pangram 4.1, his Pangram extension on a temporary Substack draft (free)"
+        base = ['predict', self.ledger, '--unchanged', 'the article as it stands', '--scope', 'article', '--call', 'Human',
+                '--chance', '0.6', '--tells', 'the steps', '--detector', sub, '--decides', 'whether the article is done',
+                '--windows-ok', 'the cut read them AI, the whole article reads them Human']
+        self.assertEqual(L.main(base + ['--lineage', 'A', '--text', self.text(article)]), 2)
+        # a whole-article check that reads the words Human doesn't fix the section that read them AI
+        art = 'Intro words here.\n' + sec + '\nOther words.'
+        self.assertEqual(L.main(['predict', self.ledger, '--unchanged', 'the article as it stands', '--scope', 'article',
+                                 '--call', 'Human', '--chance', '0.6', '--detector', sub, '--decides', 'a test',
+                                 '--lineage', 'B', '--key', 'art', '--text', self.text(art), '--windows-ok', 'a test',
+                                 '--paid-ok', 'a test']), 2)
+        recs = L.read(self.ledger)
+        p = {'type': 'prediction', 'id': 'B#90', 'key': 'art', 'lineage': 'B', 'scope': 'article', 'call': 'Human',
+             'sha256': L.sha256(art), 'at': '2026-11-07T00:00:00Z'}
+        L.append(self.ledger, p)
+        res.write_text(json.dumps({'art': {'sha256': L.sha256(art), 'words': 21, 'prediction_short': 'Human',
+                                           'fraction_human': 1.0, 'version': '4.1', 'link': 'https://www.pangram.com/feed/a1',
+                                           'windows': [{'label': 'Human Written', 'confidence': 'High', 'words': 21,
+                                                        'text': art}]}}), encoding='utf-8')
+        self.assertEqual(L.main(['results', self.ledger, str(res)]), 0)
+        self.assertEqual([(l, lab) for l, lab, c, t in L.open_windows(L.read(self.ledger), article)
+                          if lab.startswith('AI')], [('S', 'AI-Generated')])
+        # a later section check that reads them Human clears the AI window; the Low one may then be named
+        self.assertEqual(self.predict(sec, lineage='S2', scope='section', key='sec2', diagnosis='fixed'), 0)
+        res.write_text(json.dumps({'sec2': {'sha256': L.sha256(sec), 'words': 17, 'prediction_short': 'Human',
+                                            'fraction_human': 1.0, 'version': '4.1', 'link': 'https://www.pangram.com/history/s2',
+                                            'windows': [{'label': 'Human Written', 'confidence': 'Low', 'words': 6,
+                                                         'text': 'Start by re-seeding with the yogurt.'},
+                                                        {'label': 'Human Written', 'confidence': 'High', 'words': 11,
+                                                         'text': 'Then feed the new bacteria with plants, thirty kinds a week.'}]}}),
+                       encoding='utf-8')
+        self.assertEqual(L.main(['results', self.ledger, str(res)]), 0)
+        seen = L.open_windows(L.read(self.ledger), article)
+        self.assertTrue(seen and all(c == 'Low' and not lab.startswith('AI') for l, lab, c, t in seen), seen)
+        self.assertEqual(L.main(base + ['--lineage', 'C', '--text', self.text(article + ' y')]), 0)
 
     def test_web_app_results_keep_their_ai_windows_for_the_article_rule(self):
         """The web app reader's flagged windows were dropped (2026-11-04), so E354 couldn't see a web-app check's AI

@@ -1,0 +1,139 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-07",
+ "text_sha256": "9dd65164043ede26e2733c6043c58296ff22f2715c37db1e98b0bdfafa11e11b",
+ "text": "Benjamin Brown (Digestive Health Solution) is the only source for this phase. If even the \"Nuclear Option\" failed, you can cross the microbiome off the list. The problem is likely an organ that isn't working right, or environmental toxicity or your brain's false danger signals (those two are Phase 6, below).\n\nSo check your organs (Brown). If your pancreas doesn't make enough digestive enzymes, called Exocrine Pancreatic Insufficiency, you'd test for that with Stool Elastase, and treat it with high-dose enzymes. If it's Bile Acid Diarrhea, the test is SeHCAT, and the treatment is bile binders.\n\nMy notes: two things the books don't cover, old impaction and colon hydrotherapy (Years of accumulated shit, above) and psychedelics for IBS (IBS, above).\n\nOnce you're clear of infection, you have to rebuild a diverse ecosystem to prevent relapse. Dr. William Davis is back for that, along with Dr. Will Bulsiewicz (Fiber Fueled).\n\nStart by re-seeding with Davis's high-dose \"SIBO Yogurt\", fermented for 36 hours (store yogurt is fermented for 6 to 12, so this one ends up with hundreds of times more bacteria). It contains L. reuteri, to heal the lining and boost oxytocin (the \"love hormone\"), and L. gasseri, to produce bacteriocins (natural antibiotics) that kill SIBO.\n\nThen feed the new healthy bacteria. Bulsiewicz says to bring more and more kinds of plants back into your diet, slowly (go too fast and you can get gassy and bloated while your gut bacteria adapt), until you're eating 30+ different plants per week. Does anyone count their plants?\n\nContinue Pimentel's strict meal spacing from Phase 2 (4+ hours), forever, to keep the MMC cleaning wave active.\n\nAnd fuel the mitochondria: see the fuels under Leaky gut, above (glutamine and butyrate).\n\nMy notes: see \"Leaky gut\" above for colostrum, zinc carnosine, BPC-157 and ozonated zeolite, and \"Sitting\" above for movement and yoga.",
+ "section": "Phase 4: The Investigation",
+ "reader": "Someone whose symptoms survived the diets, the purge and the Elemental Diet, deciding what to check next and how to rebuild once the infection is gone.",
+ "sentences": [
+  {
+   "s": "Benjamin Brown (Digestive Health Solution) is the only source for this phase.",
+   "payoff": "the reader knows whose phase this is",
+   "follows": "opens Phase 4"
+  },
+  {
+   "s": "If even the \"Nuclear Option\" failed, you can cross the microbiome off the list.",
+   "payoff": "the reader learns when this phase applies: after even the Elemental Diet failed",
+   "follows": "when to be here",
+   "link": "If even the \"Nuclear Option\" failed"
+  },
+  {
+   "s": "The problem is likely an organ that isn't working right, or environmental toxicity or your brain's false danger signals (those two are Phase 6, below).",
+   "payoff": "the reader knows the three causes left, and where two of them are covered",
+   "follows": "what is left once the gut is cleared",
+   "link": "The problem is likely"
+  },
+  {
+   "s": "So check your organs (Brown).",
+   "payoff": "the reader knows the next step is checking their organs",
+   "follows": "the first of the causes left",
+   "link": "So check"
+  },
+  {
+   "s": "If your pancreas doesn't make enough digestive enzymes, called Exocrine Pancreatic Insufficiency, you'd test for that with Stool Elastase, and treat it with high-dose enzymes.",
+   "payoff": "the reader recognizes the first case, low digestive enzymes, and knows its test and treatment",
+   "follows": "the first organ to check",
+   "link": "If your pancreas"
+  },
+  {
+   "s": "If it's Bile Acid Diarrhea, the test is SeHCAT, and the treatment is bile binders.",
+   "payoff": "the reader knows the second case's test and treatment",
+   "follows": "the second organ case",
+   "link": "If it's"
+  },
+  {
+   "s": "My notes: two things the books don't cover, old impaction and colon hydrotherapy (Years of accumulated shit, above) and psychedelics for IBS (IBS, above).",
+   "payoff": "the reader knows what else is covered above, impaction and psychedelics",
+   "follows": "closes the phase with his pointers",
+   "link": "the books don't cover"
+  },
+  {
+   "s": "Once you're clear of infection, you have to rebuild a diverse ecosystem to prevent relapse.",
+   "payoff": "the reader knows when this phase starts and what it is for: rebuilding, so it doesn't come back",
+   "follows": "opens Phase 5, after Phase 4's pointers",
+   "link": "Once you're clear of infection"
+  },
+  {
+   "s": "Dr. William Davis is back for that, along with Dr. Will Bulsiewicz (Fiber Fueled).",
+   "payoff": "the reader knows whose advice this phase is",
+   "follows": "after what the phase is for, whose it is",
+   "link": "is back for that"
+  },
+  {
+   "s": "Start by re-seeding with Davis's high-dose \"SIBO Yogurt\", fermented for 36 hours (store yogurt is fermented for 6 to 12, so this one ends up with hundreds of times more bacteria).",
+   "payoff": "the reader knows the first step, which yogurt, and what makes it high-dose: 36 hours of fermenting against a store yogurt's 6 to 12, for hundreds of times the bacteria",
+   "follows": "the first step of the rebuilding",
+   "link": "Start by"
+  },
+  {
+   "s": "It contains L. reuteri, to heal the lining and boost oxytocin (the \"love hormone\"), and L. gasseri, to produce bacteriocins (natural antibiotics) that kill SIBO.",
+   "payoff": "the reader knows what the yogurt's two bacteria do for them, and what oxytocin and bacteriocins are",
+   "follows": "what the yogurt just named does",
+   "link": "It contains"
+  },
+  {
+   "s": "Then feed the new healthy bacteria.",
+   "payoff": "the reader knows the second step: once the bacteria are back, feed them",
+   "follows": "after putting them back, feeding them",
+   "link": "Then feed"
+  },
+  {
+   "s": "Bulsiewicz says to bring more and more kinds of plants back into your diet, slowly (go too fast and you can get gassy and bloated while your gut bacteria adapt), until you're eating 30+ different plants per week.",
+   "payoff": "the reader knows how to feed them: more and more kinds of plants, slowly, so the gut bacteria can adapt without gas and bloating, up to 30+ a week",
+   "follows": "how to do the step just named",
+   "link": "none: the how of the step just named, with the tie left out of the words (the weakness neuro-2026-11-06b names; try 4 says it)"
+  },
+  {
+   "s": "Does anyone count their plants?",
+   "his": true
+  },
+  {
+   "s": "Continue Pimentel's strict meal spacing from Phase 2 (4+ hours), forever, to keep the MMC cleaning wave active.",
+   "payoff": "the reader knows to keep the meal spacing for good, and why",
+   "follows": "the next step, a habit from Phase 2",
+   "link": "from Phase 2"
+  },
+  {
+   "s": "And fuel the mitochondria: see the fuels under Leaky gut, above (glutamine and butyrate).",
+   "payoff": "the reader knows the last step and where its fuels are explained",
+   "follows": "the last step",
+   "link": "And fuel"
+  },
+  {
+   "s": "My notes: see \"Leaky gut\" above for colostrum, zinc carnosine, BPC-157 and ozonated zeolite, and \"Sitting\" above for movement and yoga.",
+   "payoff": "The reader is pointed to the treatments not already pointed to by step 4, without the fuels twice.",
+   "follows": "It ends the phase with the pointers back, as in every phase.",
+   "link": "none: his notes close each phase with pointers, under their label"
+  }
+ ],
+ "checked": [],
+ "placement": "The phases in the article's order, without their headings, as his extension reads them.",
+ "opens": {
+  "first_sentence": "Benjamin Brown (Digestive Health Solution) is the only source for this phase.",
+  "why_reading": "It tells the reader whose phase this is and that it is for them if even the Elemental Diet failed, the case they would recognize."
+ },
+ "same_point": "none: read Phases 3 to 6 from their headings to the stacks: each phase's steps are said once; step 3 of Phase 5 points to Phase 2 for the meal spacing's reason instead of saying it again; berberine and the yogurt are pointers to Parasites and SIBO; the fuels point to Leaky gut",
+ "questions": {
+  "Q1": "PASS: each term is explained where first used (high-dose by the 36 hours, oxytocin, bacteriocins); each step opens on its act",
+  "Q2": "PASS: each instruction is the reader's act: test and treat, re-seed, feed with plants, keep spacing meals",
+  "Q3": "PASS: the organs, tests, treatments, yogurt, bacteria and number of plants are named exactly",
+  "Q4": "PASS: Bile Acid Diarrhea, oxytocin and bacteriocins are explained where first used; Exocrine Pancreatic Insufficiency, SIBO and the MMC earlier; each by what it does for the reader",
+  "Q5": "PASS: the links field quotes each sentence's tie; the plants sentence has none in its words, said so in its link (what try 4 changes)",
+  "Q6": "PASS: nothing moved; each phase keeps its order, and his aside still follows the number it jokes about",
+  "Q7": "PASS: each change tells the reader what to do in their case, and why where they would ask",
+  "Q8": "PASS: no item moved between groups",
+  "Q9": "PASS: one step per sentence; the small words carry the relations (and if, then, so, as in)"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ },
+ "his_whose": "his own: \"Does anyone count their plants?\", the aside he added to his own version of Phase 5 (2026-11-03), not a rewrite of the model's text"
+}

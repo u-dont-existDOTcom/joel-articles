@@ -1,0 +1,94 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-07",
+ "text_sha256": "e9fa0e5ed9db2f383e9536cd7a42c3440991017be7e959ff817a02a5c8eedad1",
+ "text": "So check your organs (Brown). Do your stools look oily or greasy? Then it's often your pancreas not making enough digestive enzymes, which doctors call Exocrine Pancreatic Insufficiency. A Stool Elastase test will tell you, and if that's it, you take high-dose enzymes with every meal. If it's diarrhea that keeps coming back instead, Brown says the issue can be Bile Acid Diarrhea, where too much of your bile reaches your colon. He has you tested for that with SeHCAT, and bile binders soak up the extra bile.",
+ "section": "Phase 4: The Investigation",
+ "reader": "Someone whose symptoms survived the diets, the purge and the Elemental Diet, deciding which organ to check and how.",
+ "sentences": [
+  {
+   "s": "So check your organs (Brown).",
+   "payoff": "the reader knows the next step is checking their organs",
+   "follows": "the first of the causes left"
+  },
+  {
+   "s": "Do your stools look oily or greasy?",
+   "payoff": "the reader can tell from their own stools whether the pancreas is worth checking",
+   "follows": "the check's first question, about their own case",
+   "link": "none: the check's first question, asked about the reader's own case"
+  },
+  {
+   "s": "Then it's often your pancreas not making enough digestive enzymes, which doctors call Exocrine Pancreatic Insufficiency.",
+   "payoff": "the reader knows what oily stools often mean, and the name doctors give it",
+   "follows": "what the answer to the question means",
+   "link": "Then"
+  },
+  {
+   "s": "A Stool Elastase test will tell you, and if that's it, you take high-dose enzymes with every meal.",
+   "payoff": "the reader knows the test that tells, and to take high-dose enzymes with every meal if it's positive",
+   "follows": "how to find out, and what to do",
+   "link": "will tell you, and if that's it"
+  },
+  {
+   "s": "If it's diarrhea that keeps coming back instead, Brown says the issue can be Bile Acid Diarrhea, where too much of your bile reaches your colon.",
+   "payoff": "the reader with recurring diarrhea knows Brown's other organ case and what happens in it",
+   "follows": "the second case, after the pancreas",
+   "link": "instead"
+  },
+  {
+   "s": "He has you tested for that with SeHCAT, and bile binders soak up the extra bile.",
+   "payoff": "the reader knows the test for it and what the binders do",
+   "follows": "how to find out, and what helps",
+   "link": "He has you tested for that"
+  }
+ ],
+ "checked": [
+  {
+   "point": "Bile Acid Diarrhea is bile spilling into the colon and giving you diarrhea",
+   "found": "NICE DG44: bile acids that aren't absorbed properly travel to the colon, and excess bile there causes diarrhoea (https://nice.org.uk/guidance/dg44/documents/topic-description)",
+   "still_needed": "yes: it says what the second organ case is",
+   "fate": "kept"
+  },
+  {
+   "point": "Davis picked the yogurt's bacteria for what they do, and bacteriocins are natural antibiotics that kill SIBO",
+   "found": "Davis, Defiant Health Radio, \"Here's a microbe you should know about: Bacillus subtilis\": the original SIBO yogurt specified L. reuteri, L. gasseri and B. coagulans, chosen to colonize the small intestine and make bacteriocins, \"natural peptide antibiotics effective in killing the species of SIBO\" (https://www.buzzsprout.com/1795054/episodes/17783323-here-s-a-microbe-you-should-know-about-bacillus-subtilis)",
+   "still_needed": "yes: it is what the yogurt is for",
+   "fate": "kept"
+  },
+  {
+   "point": "step 3's reason, the MMC sweeping the gut clean, is said in Phase 2",
+   "found": "Phase 2: \"Pimentel wants meals 4-5 hours apart, strictly, so the Migrating Motor Complex (MMC) gets to sweep your gut clean in between\"",
+   "still_needed": "no: Phase 2 says it; step 3 keeps \"forever\" and points there",
+   "fate": "cut"
+  }
+ ],
+ "placement": "The protocol's phases in the article's order, without their headings, as his extension reads them.",
+ "opens": {
+  "first_sentence": "So check your organs (Brown).",
+  "why_reading": "It tells the reader the next step is checking their organs, and the question after it asks about their own stools."
+ },
+ "same_point": "none: read the protocol from its first line to the stacks: each phase's steps are said once; Phase 5's meal spacing points to Phase 2 for its reason; berberine and the yogurt point to Parasites and SIBO; the fuels point to Leaky gut; his notes point back to the causes",
+ "questions": {
+  "Q1": "PASS: each changed sentence gives its point first: the check, then which organ first and its case; each term (Exocrine Pancreatic Insufficiency, Bile Acid Diarrhea, oxytocin, bacteriocins) explained where first used",
+  "Q2": "PASS: each instruction is the reader's act: check, test and treat, re-seed, feed with plants, keep spacing meals",
+  "Q3": "PASS: the organs, tests, treatments, yogurt, bacteria and number of plants are named exactly",
+  "Q4": "PASS: each term is explained where first used, by what it does for the reader",
+  "Q5": "PASS: each sentence's tie is in its words (the links field), or the link says why it needs none",
+  "Q6": "PASS: nothing moved; each phase keeps its order, and his aside still follows the number it jokes about",
+  "Q7": "PASS: each change tells the reader what to do in their case, and why where they would ask",
+  "Q8": "PASS: no item moved between groups",
+  "Q9": "PASS: one step per sentence; the small words carry the relations (starting with, and if, then, as in)"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ },
+ "his_whose": "his own: \"Does anyone count their plants?\", the aside he added to his own version of Phase 5 (2026-11-03), not a rewrite of the model's text"
+}

@@ -1,0 +1,41 @@
+{
+ "format": "joel-suggestion-review-answers-v1",
+ "review_id": "healing-the-gut-b13-r21-20261106",
+ "title": "Gut Article, Two Clarity Fixes (Batch 13)",
+ "git_file": "articles/healing-the-gut/humanize/fix-20261103/r21/b13/REVIEW-PAGE.html",
+ "article": {
+  "file": "articles/healing-the-gut/humanize/fix-20261103/r17/r17.md",
+  "sha256": "a7dc0af0971ec21c5c7016dd87f9c18279752475e184d4656eda296d3051d579"
+ },
+ "built": "2026-11-06",
+ "generator": "suggestion_review.py 1.8 (2026-11-06)",
+ "exported_at": "2026-11-06T23:52:53.309Z",
+ "counts": {
+  "approved": 1,
+  "rejected": 0,
+  "revise": 0,
+  "pending": 0
+ },
+ "items": [
+  {
+   "id": "F13-1",
+   "type": "mine",
+   "title": "Two \"it\"s in the glutamine dose paragraph say what they mean",
+   "where": "Some Causes of poor gut health, P21",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "Take 5g a day as a baseline, to keep your enterocytes fed. Take it away from meals, so it doesn't have to compete with the amino acids in your food to get absorbed. If you train hard or long, like CrossFit or intense cardio, your gut lining takes damage. While you train, your body sends blood away from your gut to your working muscles, so your enterocytes get less oxygen and fuel. Glutamine taken two hours before training helps with that. In a study of men running for an hour in the heat, their gut lining leaked less, even at the lowest dose tested, about 15g for a 70kg man. If your immune system is dealing with an acute exposure to toxins or pathogens, or your whole system is under a lot of stress, raise it to 10-30g a day, adding 1g a day in case you're sensitive to it. Up to 14g a day is known to be safe for the long run, but the studies of higher doses were too short to say, so come back down once the exposure or the stress is over. If you have an active inflammatory bowel disease (IBD), like Crohn's or colitis, don't count on glutamine. In the two small trials in active Crohn's, it didn't help.",
+   "before": "Take 5g a day as a baseline, to keep your enterocytes fed. Take it away from meals, so it doesn't have to compete with the amino acids in your food to get absorbed. If you train hard or long, like CrossFit or intense cardio, your gut lining takes damage. While you train, your body sends blood away from your gut to your working muscles, so your enterocytes get less oxygen and fuel. Glutamine taken two hours before training helps with that. In a study of men running for an hour in the heat, their gut lining leaked less, even at the lowest dose tested, about 15g for a 70kg man. If your immune system is dealing with an acute exposure to toxins or pathogens, or your whole system is under a lot of stress, raise it to 10-30g a day, adding 1g a day in case you're sensitive to it. Up to 14g a day is known to be safe for the long run, but the studies of higher doses were too short to say, so come back down once it's over. If you have an active inflammatory bowel disease (IBD), like Crohn's or colitis, don't count on it. In the two small trials in active Crohn's, it didn't help.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-06T23:52:49.917Z"
+    }
+   ],
+   "updated": "2026-11-06T23:52:49.917Z"
+  }
+ ]
+}

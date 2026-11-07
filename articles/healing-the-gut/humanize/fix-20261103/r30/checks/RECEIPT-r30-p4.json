@@ -1,0 +1,100 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-07",
+ "text_sha256": "059caf855b8f361088406e138f402a62ddf27462ccd59d3810e3fade9b6dc4f2",
+ "text": "Benjamin Brown (Digestive Health Solution) is the only source for this phase. If even the \"Nuclear Option\" failed, you can cross the microbiome off the list. The problem is likely an organ that isn't working right, or environmental toxicity or your brain's false danger signals (those two are Phase 6, below). So check your organs, starting with your pancreas: if it doesn't make enough digestive enzymes, called Exocrine Pancreatic Insufficiency, you'd test for that with Stool Elastase, and treat it with high-dose enzymes. Or is it your bile? If too much of it reaches your colon, you get diarrhea, called Bile Acid Diarrhea. Get a SeHCAT test for it, and if it comes back positive, take bile binders.",
+ "section": "Phase 4: The Investigation",
+ "reader": "Someone whose symptoms survived the diets, the purge and the Elemental Diet, deciding what is left to check and how.",
+ "sentences": [
+  {
+   "s": "Benjamin Brown (Digestive Health Solution) is the only source for this phase.",
+   "payoff": "the reader knows whose phase this is",
+   "follows": "opens Phase 4"
+  },
+  {
+   "s": "If even the \"Nuclear Option\" failed, you can cross the microbiome off the list.",
+   "payoff": "the reader learns when this phase applies: after even the Elemental Diet failed",
+   "follows": "when to be here",
+   "link": "If even the \"Nuclear Option\" failed"
+  },
+  {
+   "s": "The problem is likely an organ that isn't working right, or environmental toxicity or your brain's false danger signals (those two are Phase 6, below).",
+   "payoff": "the reader knows the three causes left, and where two of them are covered",
+   "follows": "what is left once the gut is cleared",
+   "link": "The problem is likely"
+  },
+  {
+   "s": "So check your organs, starting with your pancreas: if it doesn't make enough digestive enzymes, called Exocrine Pancreatic Insufficiency, you'd test for that with Stool Elastase, and treat it with high-dose enzymes.",
+   "payoff": "the reader knows to check their organs, starting with the pancreas, and how they would test for and treat Exocrine Pancreatic Insufficiency",
+   "follows": "after \"the problem is likely an organ\", which organ first",
+   "link": "So check your organs, starting with"
+  },
+  {
+   "s": "Or is it your bile?",
+   "payoff": "the reader is asked whether bile is their problem, the second organ to check",
+   "follows": "the second organ to check, after the pancreas",
+   "link": "Or is it"
+  },
+  {
+   "s": "If too much of it reaches your colon, you get diarrhea, called Bile Acid Diarrhea.",
+   "payoff": "the reader knows what happens when too much bile reaches the colon, and the name for it, Bile Acid Diarrhea",
+   "follows": "what the question is asking about",
+   "link": "If too much of it"
+  },
+  {
+   "s": "Get a SeHCAT test for it, and if it comes back positive, take bile binders.",
+   "payoff": "the reader knows the test to get, and to take bile binders if it comes back positive",
+   "follows": "how to find out, and what to do",
+   "link": "for it, and if it comes back positive"
+  }
+ ],
+ "checked": [
+  {
+   "point": "Bile Acid Diarrhea is too much bile reaching the colon, which gives you diarrhea",
+   "found": "NICE DG44: bile acids that aren't absorbed properly travel to the colon, and excess bile there causes diarrhoea (https://nice.org.uk/guidance/dg44/documents/topic-description)",
+   "still_needed": "yes: it says what the second organ case is",
+   "fate": "kept"
+  },
+  {
+   "point": "Davis picked the yogurt's bacteria for what they do, and bacteriocins are natural antibiotics that kill SIBO",
+   "found": "Davis, Defiant Health Radio, \"Here's a microbe you should know about: Bacillus subtilis\": the original SIBO yogurt specified L. reuteri, L. gasseri and B. coagulans, chosen to colonize the small intestine and make bacteriocins, \"natural peptide antibiotics effective in killing the species of SIBO\" (https://www.buzzsprout.com/1795054/episodes/17783323-here-s-a-microbe-you-should-know-about-bacillus-subtilis)",
+   "still_needed": "yes: it is what the yogurt is for",
+   "fate": "kept"
+  },
+  {
+   "point": "step 3's reason, the MMC sweeping the gut clean, is said in Phase 2",
+   "found": "Phase 2: \"Pimentel wants meals 4-5 hours apart, strictly, so the Migrating Motor Complex (MMC) gets to sweep your gut clean in between\"",
+   "still_needed": "no: Phase 2 says it; step 3 keeps \"forever\" and points there",
+   "fate": "cut"
+  }
+ ],
+ "placement": "The protocol's phases in the article's order, without their headings, as his extension reads them.",
+ "opens": {
+  "first_sentence": "Benjamin Brown (Digestive Health Solution) is the only source for this phase.",
+  "why_reading": "It tells the reader whose phase this is, and the next sentence says it is for them if even the Elemental Diet failed, the case they would recognize."
+ },
+ "same_point": "none: read the protocol from its first line to the stacks: each phase's steps are said once; Phase 5's meal spacing points to Phase 2 for its reason; berberine and the yogurt point to Parasites and SIBO; the fuels point to Leaky gut; his notes point back to the causes",
+ "questions": {
+  "Q1": "PASS: each changed sentence gives its point first: the check, then which organ first and its case; each term (Exocrine Pancreatic Insufficiency, Bile Acid Diarrhea, oxytocin, bacteriocins) explained where first used",
+  "Q2": "PASS: each instruction is the reader's act: check, test and treat, re-seed, feed with plants, keep spacing meals",
+  "Q3": "PASS: the organs, tests, treatments, yogurt, bacteria and number of plants are named exactly",
+  "Q4": "PASS: each term is explained where first used, by what it does for the reader",
+  "Q5": "PASS: each sentence's tie is in its words (the links field), or the link says why it needs none",
+  "Q6": "PASS: nothing moved; each phase keeps its order, and his aside still follows the number it jokes about",
+  "Q7": "PASS: each change tells the reader what to do in their case, and why where they would ask",
+  "Q8": "PASS: no item moved between groups",
+  "Q9": "PASS: one step per sentence; the small words carry the relations (starting with, or, if, and if, then, as in)"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ },
+ "his_whose": "his own: \"Does anyone count their plants?\", the aside he added to his own version of Phase 5 (2026-11-03), not a rewrite of the model's text"
+}
