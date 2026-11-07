@@ -8,7 +8,7 @@ Built by `tools/humanization/pangram_ledger.py build` from `articles/bad-trips/h
 |---|---|---|---|---|---|---|
 | Pangram 4.1 extension (free, live post; Joel's check of 2026-10-18, the same text as his 2026-11-03 paste by SHA-256) | 1 | 1 (100%) | 100% | 0% | 0% | 0.000 (base 0.000, 1) |
 | Pangram web app (his account, Pangram Professional) | 3 | 3 (100%) | 100% | 0% | 0% | 0.092 (base 0.000, 3) |
-| Pangram web app (his account, Pangram Professional), through the Claude desktop app's browser pane | 283 | 259 (92%) | 87% | 13% | 12% | 0.125 (base 0.111, 283) |
+| Pangram web app (his account, Pangram Professional), through the Claude desktop app's browser pane | 295 | 271 (92%) | 87% | 13% | 12% | 0.123 (base 0.110, 295) |
 | pangram 4.1, the web app: Joel's account, run by the lane in the desktop app's browser pane (E356) | 8 | 6 (75%) | 50% | 50% | 75% | 0.170 (base 0.250, 8) |
 
 ## Pangram 4.1 extension (free, live post; Joel's check of 2026-10-18, the same text as his 2026-11-03 paste by SHA-256)
@@ -56,26 +56,26 @@ Calibration:
 
 | window | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| the latest 50 | 50 | 44 (88%) | 86% | 14% | 6% | 0.121 (base 0.120, 50) |
-| the latest 100 | 100 | 90 (90%) | 87% | 13% | 7% | 0.116 (base 0.113, 100) |
-| all | 283 | 259 (92%) | 87% | 13% | 12% | 0.125 (base 0.111, 283) |
+| the latest 50 | 50 | 45 (90%) | 88% | 12% | 6% | 0.116 (base 0.106, 50) |
+| the latest 100 | 100 | 91 (91%) | 87% | 13% | 8% | 0.112 (base 0.113, 100) |
+| all | 295 | 271 (92%) | 87% | 13% | 12% | 0.123 (base 0.110, 295) |
 
 The boundary mix (what was checked; accuracy differs a lot between a paragraph and a section):
 
 | scope or kind | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| section | 64 | 61 (95%) | 94% | 6% | 11% | 0.084 (base 0.059, 64) |
-| paragraph | 172 | 155 (90%) | 84% | 16% | 12% | 0.128 (base 0.132, 172) |
+| section | 67 | 64 (96%) | 93% | 7% | 12% | 0.083 (base 0.069, 67) |
+| paragraph | 181 | 164 (91%) | 85% | 15% | 11% | 0.125 (base 0.127, 181) |
 | pair | 47 | 43 (91%) | 89% | 11% | 15% | 0.171 (base 0.095, 47) |
 
 Calibration:
 
 | my chance of a 100% Human result | calls | mean chance | read Human |
 |---|---|---|---|
-| 0.0 to 0.2 | 23 | 0.13 | 0% |
-| 0.2 to 0.4 | 169 | 0.29 | 5% |
-| 0.4 to 0.6 | 80 | 0.45 | 21% |
-| 0.6 to 0.8 | 13 | 0.68 | 85% |
+| 0.0 to 0.2 | 25 | 0.13 | 0% |
+| 0.2 to 0.4 | 178 | 0.28 | 5% |
+| 0.4 to 0.6 | 81 | 0.45 | 22% |
+| 0.6 to 0.8 | 14 | 0.67 | 86% |
 | 0.8 to 1.0 | 1 | 0.80 | 100% |
 
 ## pangram 4.1, the web app: Joel's account, run by the lane in the desktop app's browser pane (E356)
@@ -289,4 +289,12 @@ The latest:
 | bad-trips Dealing With Shadow Thoughts after the Human section, T1 | paragraph | 1 of 6 | Mixed |
 | bad-trips Dealing With Shadow Thoughts after the Human section, T4 | paragraph | 1 of 6 | Mixed |
 | bad-trips Dealing With Shadow Thoughts after the Human section, T5 | paragraph | 2 of 6 | Mixed |
+| bad-trips After the Storm as the guide has it | section | 1 of 2 | AI |
+| bad-trips After the Storm after the Human section | section | 1 of 2 | Mixed |
+| bad-trips After the Storm after the Human section, P1 | paragraph | 2 of 6 | AI |
+| bad-trips After the Storm after the Human section, P2 | paragraph | 1 of 6 | Mixed |
+| bad-trips After the Storm after the Human section, P3 | paragraph | 1 of 6 | Mixed |
+| bad-trips After the Storm after the Human section, P4 | paragraph | 2 of 6 | Mixed |
+| bad-trips After the Storm after the Human section, P5 | paragraph | 2 of 6 | Mixed |
+| bad-trips After the Storm after the Human section, P6 | paragraph | 1 of 6 | Mixed |
 
