@@ -18,6 +18,11 @@ From an account with Desktop Commander connected to the laptop: "Continue my neu
 
 ## START HERE
 
+- **2026-11-07, his message of 01:00 UTC: the science comes first (lesson neuro-2026-11-07a).** Next: (1) a card page
+  for blocks 37 and 38 with the changed claims (`fix-20261107/sci/SCIENCE-B37-B38.md`, drafts B037s and B038s; his block
+  38 versions are in his message file), for him to approve before any more humanizing of them; (2) go through
+  `fix-20261105/facts/FACTS.md` section by section, settle every open flag on cards (PubMed through AskRigor's search
+  works here; its protocol text and structured results don't show in this client), and only then humanize each section.
 - **2026-11-06, after his message of 23:50 UTC: his blocks 20 and 25 in; block 42 in (Human High); 26, 27-28, 38,
   43, 44 still AI (`fix-20261106/p4/RESULTS.md`).** Blocks 26 and 27-28 have one try left each; 38, 43, 44 have three.
   He'd like, some time, a look across many results at why windows read High rather than Medium.
