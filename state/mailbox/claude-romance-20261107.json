@@ -1,0 +1,46 @@
+{
+ "about": "Each turn's mailbox check (tools/humanization/lane_mailbox.py; AGENTS.md, \"Suggested fixes from other projects\"). Newest last.",
+ "places": {
+  "uda-lane": "this repository's lane in universal-dev-architecture (suggested-fixes/joel-articles/), against docs/suggested-fixes-ledger.md",
+  "repo": "new issues and pull requests here, and new comments and reviews on any of them, replies on our own included",
+  "notes": "edits others made to the lane's handoff notes and owner questions pages since its last turn",
+  "runtime": "the messages the session's runtime queued for it"
+ },
+ "checks": [
+  {
+   "turn": "2026-11-07T13:13Z",
+   "lines_of_work": [
+    "romance article"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "UDA main b6185f7, unchanged; root AGENTS.md read live this turn from origin/main"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "main at 3da8c58a when the turn began; since 12:32 UTC: bad trips and neuro lane pull requests, merged; no new issues, comments or reviews; no new shared lesson since neuro-2026-11-07c and d"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no edits by anyone else to articles/romance since 2026-09-14"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "Joel's message of 13:13 UTC: start fixing the romance article, with his extension's result on the live post"
+    }
+   ],
+   "items": [
+    {
+     "item": "Joel's message of 13:13 UTC",
+     "outcome": "the live post's result recorded (21 AI spots); 13 spots tried, 7 Human in their own checks (#1, #3, #4, #5, #10, #13, #14), 6 still AI; the rest next"
+    }
+   ],
+   "recorded_utc": "2026-11-07T13:31Z"
+  }
+ ]
+}

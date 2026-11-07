@@ -1,12 +1,40 @@
 # Romance current state
 
-Updated: 2026-08-24
+Updated: 2026-11-07
 
 ## Goal
 
-Maintain the exact owner-authorized Romance working master as registered GitHub authority, preserving its argument, owner-final language, memories, native-object placement, source provenance, architecture, and detector evidence while keeping citation, publication, and whole-article owner-final status explicit and separate.
+Joel, 2026-11-07 13:13 UTC: "start working on fixing the romance article, pangram 4.1 found some ai spans". The live post
+reads Human in Pangram 4.1, with no AI window and no Low, its argument, memories and locks kept; then his post is updated,
+with his OK and no email.
 
 ## Authority / baseline
+
+- The live post as his extension read it on 2026-11-05: [Romance Advice I Wish My Parents Taught Me](https://ibogaqueen.substack.com/p/romance-advice-i-wish-my-parents)
+  ("Updated Aug 27, 2026"), [Mostly Human Written](https://www.pangram.com/feed/9e40aa8f-317c-4490-893d-9e99c839de88),
+  4.2% AI, document confidence Medium: 741 words in AI windows over 21 spots (170 High, 169 Medium, 402 Low) and 911 words
+  Human Low (`humanize/fix-20261107/live-check/`).
+- `master.md` (2026-08-24) is not the live post: 125 of the live post's 355 lines differ (his update of 27 August among
+  them). The live text was not copied into the repository whole; each paragraph being fixed is in its check text.
+- `OWNER-LOCKS.json` still applies (protected functions). Its Two Pillars lock text differs from the live post's version
+  of that paragraph ("without much outside support"), so the live post is his later word there; nothing is changed in it.
+
+## Completed
+
+- 2026-11-07: the live post's result recorded; the romance lane added to `tools/humanization/pangram_lanes.json` with its
+  ledger `humanize/pangram-ledger.jsonl`.
+- 2026-11-07: first tries at 13 of the 21 spots (`humanize/fix-20261107/r01/`, `r02/`), each paragraph checked in the web
+  app with its making-sense receipt. Human in its own check: S1 the casual-sex turn (#1), S3 the support paragraph's
+  summary cut (#3), S4 the provider question (#4), S5 Bee's shoes (#5), S9 the bed line (#10, its line Low), S12 the
+  patient paragraphs (#13), S13 teacher and student (#14).
+
+### Before 2026-11-07 (the registered master, as recorded then)
+
+#### Goal
+
+Maintain the exact owner-authorized Romance working master as registered GitHub authority, preserving its argument, owner-final language, memories, native-object placement, source provenance, architecture, and detector evidence while keeping citation, publication, and whole-article owner-final status explicit and separate.
+
+#### Authority / baseline
 
 - Article id: `romance`
 - Article status: **working**
@@ -21,7 +49,7 @@ Maintain the exact owner-authorized Romance working master as registered GitHub 
 
 Joel's 2026-08-24 direct correction makes the exact r23r2 Two Pillars local realization owner-final, including its double space after `rare.` and capitalized `If`. Joel reports the exact local realization tested Human / low confidence and explicitly accepts that result as `good enough`. This is sufficient bounded detector acceptance for working-master promotion; it does not mark the whole article owner-final or published.
 
-## Completed
+#### Completed
 
 - Preserved the earlier registered master, exact r22 known-green rollback, exact r23 GUI candidate, rejected r23r1 proposal, and unused R23R1-R03 fallback as durable provenance.
 - Reproduced exact r23 source identities before materialization:
@@ -42,7 +70,7 @@ Joel's 2026-08-24 direct correction makes the exact r23r2 Two Pillars local real
 - Hosted exact-byte/hash readback PASS.
 - PR #46 merged successfully into `main` at `1abe38d2d3cd85e35ce1fbeb46217cb5cf89ff59`.
 
-## Current checkpoint
+#### Current checkpoint
 
 Exact r23r2 identities:
 
@@ -69,7 +97,7 @@ Article-wide state:
 - article status: `working`, not `owner_final` or `published`;
 - publication exports: none registered.
 
-## Remaining
+#### Remaining
 
 - Keep citation review and a future fresh whole-article editorial pass explicit; do not infer either from the bounded r23r2 correction.
 - Do not run another Pangram Part-2 call solely to increase detector confidence; Joel accepted the exact local result.
@@ -79,12 +107,12 @@ Article-wide state:
 
 No competing Romance master remains unresolved. Exact r23r2 on `main` is the current registered working authority.
 
-## Blockers / unresolved
+#### Blockers / unresolved
 
 - Publication remains blocked on the owner decisions recorded in `review/FINAL-CORRECTIONS-20260824.md`, including factual and citation corrections that require owner-approved prose.
 - Copyright and license posture remain separate owner decisions.
 
-## Evidence / artifacts
+#### Evidence / artifacts
 
 - Canonical working master: `articles/romance/master.md`
 - Owner locks / protected functions: `articles/romance/OWNER-LOCKS.json`
@@ -98,6 +126,36 @@ No competing Romance master remains unresolved. Exact r23r2 on `main` is the cur
 - r23r2 preservation receipt: `work/romance-r22-reconciliation-20260823/R23R2-PRESERVATION-RECEIPT-20260824.md`
 - r23r2 materialized master/halves/receipt: `work/romance-r22-reconciliation-20260823/materialized-r23r2-owner-final/`
 
-## Next safe action
+#### Next safe action
 
 Use exact r23r2 on `main` as the sole current Romance working authority. The next substantive publication-preparation work is a fresh whole-article editorial pass and citation review when requested. Do not equate the r23r2 merge with publication, licensing, completed citation review, whole-article owner-final acceptance, or a whole-article detector pass.
+
+## Current checkpoint
+
+2026-11-07, Joel's 13:13 UTC turn. Seven spots read Human in their own checks. Still AI: S2 the monastic paragraph (two
+tries, #2 and #6), S6 bundling (#7), S7 the friends-or-exes question (#8), S8 idealization (#9), S10 alone time (#11), S11
+her as mom (#12). The misses changed more than the hits did: my set pieces (a quip, a contrast frame, a list in an
+if-clause) read AI, while the fixes that kept his words and changed the one sentence read Human.
+
+## Remaining
+
+1. S2: the tell panel (two AI readings, E346), then a third try.
+2. S6, S7, S8, S10, S11: second tries that keep his words and change only the window sentence, checked in a longer stretch
+   of the section as well as alone.
+3. S14 to S21 (polarity inside safety, proving I'm the man, the fantasy lines, Kim Anami, the backup system, friends'
+   partial story, the agreement questions, the extra promise), then the Human Low windows.
+4. A whole-article check of the fixed version (a temporary draft for his extension), then his post updated with his OK,
+   no email.
+
+## Blockers / unresolved
+
+- None blocking.
+
+## Evidence / artifacts
+
+- `humanize/fix-20261107/live-check/META.json`, `AI-WINDOWS.json`; `humanize/fix-20261107/r01/checks/`, `r02/checks/`
+  (texts, receipts, results); `humanize/pangram-ledger.jsonl`; `humanize/SCORECARD.md`.
+
+## Next safe action
+
+Run the tell panel on S2, then the second tries at S6, S7, S8, S10 and S11, then S14 to S21.

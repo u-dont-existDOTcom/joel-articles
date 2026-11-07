@@ -1,0 +1,87 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-07",
+ "text_sha256": "b8a87335844ca34b60c68d89a7f57b377a526e3f3d77eb56a2d3c7b9d9412b32",
+ "text": "I also have to admit, I can become condescending when somebody stops taking responsibility for their behavior. I find that intolerable. If someone tells me, “I feel like your patient,” we both have to look at what we’re doing.\n\nI know what happens on my side. Helping feels good, and so does being needed. A lot of the time I really did have the answer or the perspective they needed, so of course they kept asking me. I also had to look at whether they were trying to take care of themselves without me.",
+ "section": "Roles in a relationship",
+ "reader": "Someone in a relationship who keeps fixing their partner, deciding whose responsibility is whose.",
+ "sentences": [
+  {
+   "s": "I also have to admit, I can become condescending when somebody stops taking responsibility for their behavior.",
+   "payoff": "the reader learns Joel can become condescending",
+   "follows": "opens the point"
+  },
+  {
+   "s": "I find that intolerable.",
+   "payoff": "the reader learns he finds it intolerable",
+   "follows": "how he feels about it",
+   "link": "I find that intolerable"
+  },
+  {
+   "s": "If someone tells me, “I feel like your patient,” we both have to look at what we’re doing.",
+   "payoff": "the reader learns \"I feel like your patient\" means both should look at what they’re doing",
+   "follows": "what to do when it happens",
+   "link": "If someone tells me"
+  },
+  {
+   "s": "I know what happens on my side.",
+   "payoff": "the reader learns he knows his side",
+   "follows": "his part in it",
+   "link": "on my side"
+  },
+  {
+   "s": "Helping feels good, and so does being needed.",
+   "payoff": "the reader learns helping and being needed feel good",
+   "follows": "what his side is",
+   "link": "Helping feels good"
+  },
+  {
+   "s": "A lot of the time I really did have the answer or the perspective they needed, so of course they kept asking me.",
+   "payoff": "the reader learns he often had the answer, so they kept asking",
+   "follows": "why it kept happening",
+   "link": "so of course they kept asking me"
+  },
+  {
+   "s": "I also had to look at whether they were trying to take care of themselves without me.",
+   "payoff": "the reader learns he had to check whether they were caring for themselves",
+   "follows": "what he had to look at",
+   "link": "without me"
+  }
+ ],
+ "checked": [
+  {
+   "point": "the AI window’s point",
+   "found": "the live post (../../live-check/AI-WINDOWS.json)",
+   "still_needed": "yes: the paragraph needs it",
+   "fate": "changed"
+  }
+ ],
+ "placement": "The paragraph in its place in the live post, with the paragraph before it.",
+ "opens": {
+  "first_sentence": "I also have to admit, I can become condescending when somebody stops taking responsibility for their behavior.",
+  "why_reading": "It admits Joel’s own failing, which the reader may share."
+ },
+ "same_point": "none: read the section from its heading to the next for this paragraph’s point; it is made once, here",
+ "questions": {
+  "Q1": "PASS: each changed sentence gives its point first, in plain words",
+  "Q2": "N/A: these paragraphs tell and ask; the advice in them is unchanged",
+  "Q3": "PASS: the people, places, numbers and things are named as in the live post",
+  "Q4": "PASS: no new term",
+  "Q5": "PASS: each sentence’s tie is in its words (the links field), or the link says why it needs none",
+  "Q6": "PASS: nothing moved",
+  "Q7": "PASS: each change keeps what the paragraph tells the reader about their own case",
+  "Q8": "PASS: no item moved between groups",
+  "Q9": "PASS: one step per sentence; the small words carry the relations (but, so, since, though, as long as)"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

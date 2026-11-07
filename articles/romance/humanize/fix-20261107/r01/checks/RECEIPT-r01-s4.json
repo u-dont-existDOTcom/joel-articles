@@ -1,0 +1,93 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-07",
+ "text_sha256": "c9538d0fc513f9dfe343987ab8ffd78810227705360a6d23287f4720c6143700",
+ "text": "And the question is more than just a practical one. It’s philosophical. Men have this (often subconscious) insecurity inside the provider role: how much does she love me, and how much does she love what I can do for her?\n\nI don’t need the answer to be that what I provide has nothing to do with it. Maybe she likes that I’m competent, protective, useful, and can make things happen. I definitely like her beauty and her sexuality. I just want what we have to grow bigger than whatever first made us want each other. Because as Bee always said, “You’re either going up, or going down.”",
+ "section": "Being wanted for what you provide",
+ "reader": "Someone wondering whether they are loved for themselves or for what they bring.",
+ "sentences": [
+  {
+   "s": "And the question is more than just a practical one.",
+   "payoff": "the reader learns the question is more than practical",
+   "follows": "opens the point"
+  },
+  {
+   "s": "It’s philosophical.",
+   "payoff": "the reader learns it is philosophical",
+   "follows": "what kind of question",
+   "link": "It’s philosophical"
+  },
+  {
+   "s": "Men have this (often subconscious) insecurity inside the provider role: how much does she love me, and how much does she love what I can do for her?",
+   "payoff": "the reader hears the provider’s insecurity in his own words",
+   "follows": "what the question is",
+   "link": "insecurity inside the provider role"
+  },
+  {
+   "s": "I don’t need the answer to be that what I provide has nothing to do with it.",
+   "payoff": "the reader learns Joel doesn’t need provision to be irrelevant",
+   "follows": "his answer to the question",
+   "link": "the answer"
+  },
+  {
+   "s": "Maybe she likes that I’m competent, protective, useful, and can make things happen.",
+   "payoff": "the reader learns what she may like about him",
+   "follows": "what provision adds to attraction",
+   "link": "Maybe she likes"
+  },
+  {
+   "s": "I definitely like her beauty and her sexuality.",
+   "payoff": "the reader learns what he likes about her",
+   "follows": "the same from his side",
+   "link": "I definitely like"
+  },
+  {
+   "s": "I just want what we have to grow bigger than whatever first made us want each other.",
+   "payoff": "the reader learns what he wants: the bond to outgrow the first attraction",
+   "follows": "what matters beyond it",
+   "link": "I just want what we have to grow bigger"
+  },
+  {
+   "s": "Because as Bee always said, “You’re either going up, or going down.”",
+   "payoff": "the reader hears Bee’s line on why: going up or down",
+   "follows": "why it has to grow",
+   "link": "Because"
+  }
+ ],
+ "checked": [
+  {
+   "point": "provision may be part of attraction; he wants the bond to outgrow it",
+   "found": "the live post (AI Low on both sentences)",
+   "still_needed": "yes: it answers the provider question",
+   "fate": "changed"
+  }
+ ],
+ "placement": "The paragraph in its place in the live post, with the line or paragraph before it.",
+ "opens": {
+  "first_sentence": "And the question is more than just a practical one.",
+  "why_reading": "It tells the reader the question goes deeper than the practical one they just read about."
+ },
+ "same_point": "none: read the section from its heading to the next for this paragraph’s point; it is made once, here",
+ "questions": {
+  "Q1": "PASS: each changed sentence gives its point first, in plain words",
+  "Q2": "N/A: these paragraphs tell and ask; the only advice is in the unchanged words",
+  "Q3": "PASS: the people, places and things are named as in the live post",
+  "Q4": "PASS: no new term; Venerable Somebody is his phrase, explained by the bowing",
+  "Q5": "PASS: each sentence’s tie is in its words (the links field), or the link says why it needs none",
+  "Q6": "PASS: nothing moved",
+  "Q7": "PASS: each change keeps what the paragraph tells the reader about their own case",
+  "Q8": "PASS: no item moved between groups",
+  "Q9": "PASS: one step per sentence; the small words carry the relations (but, even, of course, since, though)"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

@@ -1,0 +1,63 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-07",
+ "text_sha256": "8a370fbb2e59405d477da4cce214b2cd5fb19eb62b8c778904ab2308a4ab0cba",
+ "text": "I could teach these women about loving and reparenting their inner child, Buddhism, meditation, and other things I understood better. They could pull me into life more, show me where I was missing people, and sometimes be the skeptic when I was seeing the best in someone and missing their hidden motives.\n\nWhen it works, we take turns, me teaching one day and learning the next, and that’s healthy.",
+ "section": "Roles in a relationship",
+ "reader": "Someone in a relationship of teacher and student, deciding whether it is still healthy.",
+ "sentences": [
+  {
+   "s": "I could teach these women about loving and reparenting their inner child, Buddhism, meditation, and other things I understood better.",
+   "payoff": "the reader learns what Joel could teach these women",
+   "follows": "opens the point"
+  },
+  {
+   "s": "They could pull me into life more, show me where I was missing people, and sometimes be the skeptic when I was seeing the best in someone and missing their hidden motives.",
+   "payoff": "the reader learns what they could teach him",
+   "follows": "the other side",
+   "link": "They could pull me into life more"
+  },
+  {
+   "s": "When it works, we take turns, me teaching one day and learning the next, and that’s healthy.",
+   "payoff": "the reader learns taking turns is healthy",
+   "follows": "what that adds up to",
+   "link": "we take turns"
+  }
+ ],
+ "checked": [
+  {
+   "point": "the AI window’s point",
+   "found": "the live post (../../live-check/AI-WINDOWS.json)",
+   "still_needed": "yes: the paragraph needs it",
+   "fate": "changed"
+  }
+ ],
+ "placement": "The paragraph in its place in the live post, with the paragraph before it.",
+ "opens": {
+  "first_sentence": "I could teach these women about loving and reparenting their inner child, Buddhism, meditation, and other things I understood better.",
+  "why_reading": "It tells the reader what Joel could teach, the side they may recognize."
+ },
+ "same_point": "none: read the section from its heading to the next for this paragraph’s point; it is made once, here",
+ "questions": {
+  "Q1": "PASS: each changed sentence gives its point first, in plain words",
+  "Q2": "N/A: these paragraphs tell and ask; the advice in them is unchanged",
+  "Q3": "PASS: the people, places, numbers and things are named as in the live post",
+  "Q4": "PASS: no new term",
+  "Q5": "PASS: each sentence’s tie is in its words (the links field), or the link says why it needs none",
+  "Q6": "PASS: nothing moved",
+  "Q7": "PASS: each change keeps what the paragraph tells the reader about their own case",
+  "Q8": "PASS: no item moved between groups",
+  "Q9": "PASS: one step per sentence; the small words carry the relations (but, so, since, though, as long as)"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

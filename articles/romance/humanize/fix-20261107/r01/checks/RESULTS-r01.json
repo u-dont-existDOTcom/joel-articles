@@ -1,0 +1,149 @@
+{
+ "r01-s1": {
+  "headline": "Human Written",
+  "fraction_ai": 2.6775535456359523e-13,
+  "words": 106,
+  "link": "https://www.pangram.com/history/99626be5-941d-4da0-a4c7-948249d7f4c6",
+  "windows": [
+   {
+    "label": "Human",
+    "confidence": "High",
+    "words": 32,
+    "text": "“I don’t know whether I want something serious with you. I’m not pretending I do. I’d still like to have sex.”\nThat’s honest about what you want tonight."
+   },
+   {
+    "label": "Human",
+    "confidence": "Medium",
+    "words": 6,
+    "text": "But tonight can make a baby."
+   },
+   {
+    "label": "Human",
+    "confidence": "High",
+    "words": 10,
+    "text": "If this girl gets pregnant, she’s gonna call you."
+   },
+   {
+    "label": "Human",
+    "confidence": "Medium",
+    "words": 9,
+    "text": "Then what? You block her? Agree to child support?"
+   },
+   {
+    "label": "Human",
+    "confidence": "High",
+    "words": 14,
+    "text": "Try to convince her to abort if she thinks abortion is killing her child?"
+   },
+   {
+    "label": "Human",
+    "confidence": "Medium",
+    "words": 3,
+    "text": "Or vice versa."
+   },
+   {
+    "label": "Human",
+    "confidence": "High",
+    "words": 28,
+    "text": "My first girlfriend, a diehard Baptist, aborted and told me a year later, because she “didn’t want to trap” me. This is what penetrative sex can do."
+   },
+   {
+    "label": "Human",
+    "confidence": "Medium",
+    "words": 4,
+    "text": "No contraception is perfect."
+   }
+  ],
+  "utc": "2026-11-07 13:22:55 UTC"
+ },
+ "r01-s2": {
+  "headline": "AI Detected",
+  "fraction_ai": 0.6642119884490967,
+  "words": 92,
+  "link": "https://www.pangram.com/history/c2ef4f06-da74-439e-b714-d971e5a776f6",
+  "windows": [
+   {
+    "label": "Human",
+    "confidence": "Low",
+    "words": 29,
+    "text": "Forced celibacy doesn’t abolish anyone’s sexuality. For most people it eventually sends it somewhere weird. Why wouldn’t it?\nSome people become monks for practical reasons too."
+   },
+   {
+    "label": "AI-Generated",
+    "confidence": "High",
+    "words": 51,
+    "text": "In a poor country, the robes come with free food, a place to live, status, and a way out of ordinary responsibilities. Even in the West, where the free food matters less, a guy who never got much respect as a layman becomes Venerable Somebody, and suddenly people bow to him."
+   },
+   {
+    "label": "AI-Generated",
+    "confidence": "Medium",
+    "words": 12,
+    "text": "Of course, he can sincerely want liberation and still enjoy the bowing."
+   }
+  ],
+  "utc": "2026-11-07 13:23:04 UTC"
+ },
+ "r01-s3": {
+  "headline": "Human Written",
+  "fraction_ai": 3.178582211892656e-36,
+  "words": 91,
+  "link": "https://www.pangram.com/history/701382eb-aa2c-4de1-9bb2-00cbb672b203",
+  "windows": [
+   {
+    "label": "Human",
+    "confidence": "High",
+    "words": 91,
+    "text": "It’s reasonable for a woman to want support, since after all, she has to provide for her potential children, but it muddies the waters for me. I’m not stupid; I understand that she might really love me while still wanting money, stability, children, a visa, a home, etc. Men aren’t a different species, although sometimes I think I might be. A man can really love a woman for who she is while also seeing her as a source of sex, children, social legitimacy, or help running the house."
+   }
+  ],
+  "utc": "2026-11-07 13:23:12 UTC"
+ },
+ "r01-s4": {
+  "headline": "Human Written",
+  "fraction_ai": 1.476964587925816e-20,
+  "words": 111,
+  "link": "https://www.pangram.com/history/7994ff19-7b8d-4d3e-b41c-09470a534807",
+  "windows": [
+   {
+    "label": "Human",
+    "confidence": "High",
+    "words": 111,
+    "text": "And the question is more than just a practical one. It’s philosophical. Men have this (often subconscious) insecurity inside the provider role: how much does she love me, and how much does she love what I can do for her?\nI don’t need the answer to be that what I provide has nothing to do with it. Maybe she likes that I’m competent, protective, useful, and can make things happen. I definitely like her beauty and her sexuality. I just want what we have to grow bigger than whatever first made us want each other. Because as Bee always said, “You’re either going up, or going down.”"
+   }
+  ],
+  "utc": "2026-11-07 13:23:21 UTC"
+ },
+ "r01-s5": {
+  "headline": "Human Written",
+  "fraction_ai": 6.1474774923353515e-12,
+  "words": 96,
+  "link": "https://www.pangram.com/history/ce02b555-9174-4b38-99a2-2ba1f8256a64",
+  "windows": [
+   {
+    "label": "Human",
+    "confidence": "High",
+    "words": 39,
+    "text": "I got a smaller and much less romantic test later. Bee gave me some shoes to try that didn’t fit. I wore them for a day, and somehow my knee ended up messed up for about a month."
+   },
+   {
+    "label": "Human",
+    "confidence": "Medium",
+    "words": 8,
+    "text": "She did nurse me, but a bit reluctantly."
+   },
+   {
+    "label": "Human",
+    "confidence": "High",
+    "words": 15,
+    "text": "She also kept suggesting it was partly in my head, or not really that bad."
+   },
+   {
+    "label": "Human",
+    "confidence": "Medium",
+    "words": 34,
+    "text": "I get why, since neither of us could believe one day in the wrong shoes could do that. It still felt dismissive, though, like part of her just wanted my knee to be fine."
+   }
+  ],
+  "utc": "2026-11-07 13:23:30 UTC"
+ }
+}
