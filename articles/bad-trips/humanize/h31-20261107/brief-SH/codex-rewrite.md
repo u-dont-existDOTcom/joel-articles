@@ -1,0 +1,1 @@
+Don't diagnose yourself for life over a shadow thought during a trip. Notice it: "A thought is here. A feeling is here. It is intense, but it is not the whole of me." Don't suppress it either, or identify with every shadow thought. And don't confess it to everybody. Then come back to the room and your body, to love and a person. Check the time.

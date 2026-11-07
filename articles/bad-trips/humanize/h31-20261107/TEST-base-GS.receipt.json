@@ -1,0 +1,188 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-07",
+ "text_sha256": "53da1cc3a65d09a3e603ae58dcdd77057f1042573f902a152ff24ed2c9400b73",
+ "text": "Psychological First Aid: The First Five Minutes\n\nAnything that could let someone hurt themselves in the next five minutes takes priority, so get the car keys out of reach and turn the stove off, and move them away from roads and balconies, or pools of water for that matter. Letting them move around is fine, and pacing can help, but keep them from taking more of any substance. If they want to go confront somebody, that can wait. And if they want to leave, have someone go with them. Put any weapons away and keep the person away from crowds and strangers. If they want to post their big revelation about the universe, or message an ex, take the phone.\n\nThey're feeling overwhelmed, so dim the lights, and clear out the extra people around them.\n\nThen remind them where they are and what's happening, since a trip can make them lose track of it:\n\nYou're in [place]. It's [date/time]. You took [substance, if known], and its effects will peak and then change.\n\nGive the Session a Beginning and an End\n\nIf you're planning a session, think through how it will start and end, and what happens in between, before you take anything. Rest and timing come first: don't begin already depleted, and ideally start earlier in the day, so there's time afterward for food, some normal company and sleep. Know what you're taking and roughly how much, and look up what it mixes badly with and any medical concerns. Set up the room, and decide ahead of time what would make you call for outside help. Go in curious about what might come up, without a wish list of revelations, buried memories, good cries or spiritual breakthroughs. During it, the sitter (the sober person with you) keeps you safe and offers you choices. As it winds down, give it some closure. Stop adding stimulation, and check where you are and what day it is. Eat and drink when it's safe, then jot down the basic facts and let your body know the session is over. Keep the rest of the day free, and the next morning too if possible, because sleep and food come before turning any of it into a new life plan.\n\nUse this sequence for planned sessions. Once somebody is already in trouble, return to the triage app instead of trying to improve the ceremony plan.",
+ "section": "Psychological First Aid: The First Five Minutes, and Give the Session a Beginning and an End",
+ "reader": "someone sitting with a person on a bad psychedelic trip, or tripping themselves, who needs to know what to do in the first five minutes, and how to see what is happening",
+ "sentences": [
+  {
+   "s": "Psychological First Aid: The First Five Minutes",
+   "payoff": "they know what this section covers: the first five minutes of looking after someone",
+   "follows": "the section's heading, after the Shadow Work part's welcome"
+  },
+  {
+   "s": "Anything that could let someone hurt themselves in the next five minutes takes priority, so get the car keys out of reach and turn the stove off, and move them away from roads and balconies, or pools of water for that matter.",
+   "payoff": "they secure whatever could let the person hurt themselves first: keys, stove, roads, balconies, pools",
+   "follows": "the first thing to do in the first five minutes, straight after the heading",
+   "link": "in the next five minutes"
+  },
+  {
+   "s": "Letting them move around is fine, and pacing can help, but keep them from taking more of any substance.",
+   "payoff": "they let the person move and pace, but stop them taking more of anything",
+   "follows": "still the dangers: movement is fine, more of a substance is not",
+   "link": "none: the next item in the same list of dangers, which the paragraph opened on"
+  },
+  {
+   "s": "If they want to go confront somebody, that can wait.",
+   "payoff": "they know a confrontation can wait",
+   "follows": "what the person may want to do that isn't safe now",
+   "link": "If they want to"
+  },
+  {
+   "s": "And if they want to leave, have someone go with them.",
+   "payoff": "they send someone along if the person wants to leave",
+   "follows": "the next thing the person may want to do",
+   "link": "And if"
+  },
+  {
+   "s": "Put any weapons away and keep the person away from crowds and strangers.",
+   "payoff": "they put weapons away and keep the person from crowds and strangers",
+   "follows": "more dangers the reader removes",
+   "link": "none: another item in the list of dangers the paragraph opened on"
+  },
+  {
+   "s": "If they want to post their big revelation about the universe, or message an ex, take the phone.",
+   "payoff": "they take the phone before a revelation gets posted or an ex gets messaged",
+   "follows": "the last of the things the person may want to do",
+   "link": "If they want to"
+  },
+  {
+   "s": "They're feeling overwhelmed, so dim the lights, and clear out the extra people around them.",
+   "payoff": "they dim the lights and clear out the extra people, and know why: the person is overwhelmed",
+   "follows": "after the dangers, the room: its two fixes, with the reason (they're overwhelmed)",
+   "link": "They're feeling overwhelmed, so"
+  },
+  {
+   "s": "Then remind them where they are and what's happening, since a trip can make them lose track of it:",
+   "payoff": "they know the script that follows is for reminding the person where they are and what's happening, and why: a trip can make them lose track",
+   "follows": "after the room, what to say",
+   "link": "Then"
+  },
+  {
+   "s": "You're in [place].",
+   "payoff": "the person hears where they are",
+   "follows": "the script's first fact",
+   "link": "none: the script's first line, which the colon before it introduces"
+  },
+  {
+   "s": "It's [date/time].",
+   "payoff": "the person hears when it is",
+   "follows": "the second fact",
+   "link": "none: the script's next fact, said to the person"
+  },
+  {
+   "s": "You took [substance, if known], and its effects will peak and then change.",
+   "payoff": "the person hears what they took and that its effects will peak and then change",
+   "follows": "the third fact, with what follows from it",
+   "link": "none: the script's last fact, said to the person"
+  },
+  {
+   "s": "Give the Session a Beginning and an End",
+   "payoff": "they know this part is about planning a session from start to end",
+   "follows": "the next section's heading, after the reminder of where they are (a narrowing test)",
+   "link": "none: a new section's heading; it opens planning a session"
+  },
+  {
+   "s": "If you're planning a session, think through how it will start and end, and what happens in between, before you take anything.",
+   "payoff": "they know the section's point: plan the start, the middle and the end first",
+   "follows": "the section's point, under its heading",
+   "link": "none: the section's first sentence, its point, after its heading"
+  },
+  {
+   "s": "Rest and timing come first: don't begin already depleted, and ideally start earlier in the day, so there's time afterward for food, some normal company and sleep.",
+   "payoff": "they know the first part of the start: rest, and an early start, and why",
+   "follows": "the first thing to plan",
+   "link": "Rest and timing come first"
+  },
+  {
+   "s": "Know what you're taking and roughly how much, and look up what it mixes badly with and any medical concerns.",
+   "payoff": "they know the safety homework: the substance, the dose, combinations, medical concerns",
+   "follows": "the next thing to plan",
+   "link": "none: the next thing to plan before starting"
+  },
+  {
+   "s": "Set up the room, and decide ahead of time what would make you call for outside help.",
+   "payoff": "they know to prepare the room and the threshold for help",
+   "follows": "more of the start",
+   "link": "ahead of time"
+  },
+  {
+   "s": "Go in curious about what might come up, without a wish list of revelations, buried memories, good cries or spiritual breakthroughs.",
+   "payoff": "they know the attitude to start with: curious, not demanding a result",
+   "follows": "the last part of the start",
+   "link": "Go in curious"
+  },
+  {
+   "s": "During it, the sitter (the sober person with you) keeps you safe and offers you choices.",
+   "payoff": "they know what the sitter does in the middle",
+   "follows": "the middle of the session",
+   "link": "During it"
+  },
+  {
+   "s": "As it winds down, give it some closure.",
+   "payoff": "they know the end needs closure",
+   "follows": "the end of the session",
+   "link": "As it winds down"
+  },
+  {
+   "s": "Stop adding stimulation, and check where you are and what day it is.",
+   "payoff": "they know the first closure steps",
+   "follows": "what closure means",
+   "link": "none: the first of the closure steps the sentence before named"
+  },
+  {
+   "s": "Eat and drink when it's safe, then jot down the basic facts and let your body know the session is over.",
+   "payoff": "they know the last closure steps",
+   "follows": "more of closure",
+   "link": "then"
+  },
+  {
+   "s": "Keep the rest of the day free, and the next morning too if possible, because sleep and food come before turning any of it into a new life plan.",
+   "payoff": "they know the time after: keep it free, and why",
+   "follows": "after the session",
+   "link": "the rest of the day"
+  },
+  {
+   "s": "Use this sequence for planned sessions.",
+   "payoff": "they know when to use this: planned sessions",
+   "follows": "what the paragraph before is for",
+   "link": "this sequence"
+  },
+  {
+   "s": "Once somebody is already in trouble, return to the triage app instead of trying to improve the ceremony plan.",
+   "payoff": "they know what to do once someone is in trouble: the triage app",
+   "follows": "when the plan no longer applies",
+   "link": "Once somebody"
+  }
+ ],
+ "checked": [],
+ "placement": "Psychological First Aid to the reminder, then Give the Session a Beginning and an End's heading and its part, with his list fix carried to it (round 23's lesson)",
+ "opens": {
+  "first_sentence": "Psychological First Aid: The First Five Minutes",
+  "why_reading": "the heading tells someone looking after a person in a bad state that this is what to do now, in the first five minutes, which is their case; the first paragraph opens on the first thing to do"
+ },
+ "same_point": "none: read the section from its heading to the next; its overlaps are in humanize/h31-20261107/RESULTS.md",
+ "questions": {
+  "Q1": "PASS: each new paragraph opens on its point: the first don't (no arguing with visions); write down the facts once slept; what CBT's distortions are and what they do; plan the start and the end before taking anything",
+  "Q2": "PASS: every act is the reader's own or the helper's, with its purpose; the distortions are what the reader's own mind does",
+  "Q3": "PASS: which things exactly: the being in the corner, a memory that came back, eye contact, touch, music, prayer, chanting; what you took and how much, the cannabis, the crowded room, grief, prophecy at 3 a.m., a better sitter, a bottle of water; each distortion's own words; the substance and dose, what it mixes badly with, the room, food, company and sleep",
+  "Q4": "PASS: the fresh reader's unclear terms (sense/SENSE-READ.md) answered in their sentences: the sitter is the sober person with you, cognitive distortions are the ways a frightened mind twists what it sees, low-directivity support is keeping you safe and offering choices, and 'return to the room and date' is checking where you are and what day it is; 'failing the medicine' stays, as the label a ceremony might put on a tripper",
+  "Q5": "PASS: each turn has what it turns on: 'But' for the limit on not arguing, 'then' for the steps, 'and maybe' for the last kind of thing found, 'because' for keeping the day free",
+  "Q6": "PASS: in the reader's order: the don'ts, then what to say instead; write, then sort, then what follows; the distortions one by one; before, during, the end, after",
+  "Q7": "PASS: every fact is about the person in front of them, or their own session",
+  "Q8": "PASS: each new part is its section's one point, under its heading",
+  "Q9": "PASS: nothing compressed: each list taken apart into sentences, an item or a pair each, with the small words that carry the relations ('but', 'then', 'and maybe', 'because')"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

@@ -1,0 +1,182 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-07",
+ "text_sha256": "b4a9dc74561d41565d55402cfc9988fb63e820d6dcc160d5c2244fc502693467",
+ "text": "Psychological First Aid: The First Five Minutes\n\nAnything that could let someone hurt themselves in the next five minutes takes priority, so get the car keys out of reach and turn the stove off, and move them away from roads and balconies, or pools of water for that matter. Letting them move around is fine, and pacing can help, but keep them from taking more of any substance. If they want to go confront somebody, that can wait. And if they want to leave, have someone go with them. Put any weapons away and keep the person away from crowds and strangers. If they want to post their big revelation about the universe, or message an ex, take the phone.\n\nThey're feeling overwhelmed, so dim the lights, and clear out the extra people around them.\n\nThen remind them where they are and what's happening, since a trip can make them lose track of it:\n\nYou're in [place]. It's [date/time]. You took [substance, if known], and its effects will peak and then change.\n\nFor the Person Helping: Calm Anchor, Not Guru\n\nDon't\n\nDon't try to win an argument with visions. Maybe they're sure the being in the corner is real, or that they finally know what the universe is for, and a memory that just came back can feel just as certain. That argument can wait until tomorrow, or forever. But don't validate harmful conclusions either. Reflect the feeling (\"that sounds terrifying\"), then bring them back to tonight's plan: nobody gets hurt, and the night ends with sleep. Don't call them crazy, broken, weak, punished or failing the medicine. And don't force anything on them. Eye contact and touch are their call, and so is your music. Prayer or chanting waits until they ask, and your interpretation of what it all means can wait longer still. A confession or an insight has to come from them, if it comes at all.",
+ "section": "Psychological First Aid: The First Five Minutes, and For the Person Helping: Calm Anchor, Not Guru",
+ "reader": "someone sitting with a person on a bad psychedelic trip, or tripping themselves, who needs to know what to do in the first five minutes, and how to see what is happening",
+ "sentences": [
+  {
+   "s": "Psychological First Aid: The First Five Minutes",
+   "payoff": "they know what this section covers: the first five minutes of looking after someone",
+   "follows": "the section's heading, after the Shadow Work part's welcome"
+  },
+  {
+   "s": "Anything that could let someone hurt themselves in the next five minutes takes priority, so get the car keys out of reach and turn the stove off, and move them away from roads and balconies, or pools of water for that matter.",
+   "payoff": "they secure whatever could let the person hurt themselves first: keys, stove, roads, balconies, pools",
+   "follows": "the first thing to do in the first five minutes, straight after the heading",
+   "link": "in the next five minutes"
+  },
+  {
+   "s": "Letting them move around is fine, and pacing can help, but keep them from taking more of any substance.",
+   "payoff": "they let the person move and pace, but stop them taking more of anything",
+   "follows": "still the dangers: movement is fine, more of a substance is not",
+   "link": "none: the next item in the same list of dangers, which the paragraph opened on"
+  },
+  {
+   "s": "If they want to go confront somebody, that can wait.",
+   "payoff": "they know a confrontation can wait",
+   "follows": "what the person may want to do that isn't safe now",
+   "link": "If they want to"
+  },
+  {
+   "s": "And if they want to leave, have someone go with them.",
+   "payoff": "they send someone along if the person wants to leave",
+   "follows": "the next thing the person may want to do",
+   "link": "And if"
+  },
+  {
+   "s": "Put any weapons away and keep the person away from crowds and strangers.",
+   "payoff": "they put weapons away and keep the person from crowds and strangers",
+   "follows": "more dangers the reader removes",
+   "link": "none: another item in the list of dangers the paragraph opened on"
+  },
+  {
+   "s": "If they want to post their big revelation about the universe, or message an ex, take the phone.",
+   "payoff": "they take the phone before a revelation gets posted or an ex gets messaged",
+   "follows": "the last of the things the person may want to do",
+   "link": "If they want to"
+  },
+  {
+   "s": "They're feeling overwhelmed, so dim the lights, and clear out the extra people around them.",
+   "payoff": "they dim the lights and clear out the extra people, and know why: the person is overwhelmed",
+   "follows": "after the dangers, the room: its two fixes, with the reason (they're overwhelmed)",
+   "link": "They're feeling overwhelmed, so"
+  },
+  {
+   "s": "Then remind them where they are and what's happening, since a trip can make them lose track of it:",
+   "payoff": "they know the script that follows is for reminding the person where they are and what's happening, and why: a trip can make them lose track",
+   "follows": "after the room, what to say",
+   "link": "Then"
+  },
+  {
+   "s": "You're in [place].",
+   "payoff": "the person hears where they are",
+   "follows": "the script's first fact",
+   "link": "none: the script's first line, which the colon before it introduces"
+  },
+  {
+   "s": "It's [date/time].",
+   "payoff": "the person hears when it is",
+   "follows": "the second fact",
+   "link": "none: the script's next fact, said to the person"
+  },
+  {
+   "s": "You took [substance, if known], and its effects will peak and then change.",
+   "payoff": "the person hears what they took and that its effects will peak and then change",
+   "follows": "the third fact, with what follows from it",
+   "link": "none: the script's last fact, said to the person"
+  },
+  {
+   "s": "For the Person Helping: Calm Anchor, Not Guru",
+   "payoff": "they know this part is for the person helping, and that the job is to be a calm anchor",
+   "follows": "the next section's heading, after the reminder of where they are",
+   "link": "none: a new section's heading; it opens the helper's part"
+  },
+  {
+   "s": "Don't",
+   "payoff": "they know this part lists what a helper shouldn't do",
+   "follows": "the Do list's partner, under the section's heading",
+   "link": "none: a subheading names its part, after the section's opening and its Do list"
+  },
+  {
+   "s": "Don't try to win an argument with visions.",
+   "payoff": "they know the first don't: arguing with what the tripper sees",
+   "follows": "the part's point, under its subheading",
+   "link": "none: the part's first sentence, its point, after its subheading"
+  },
+  {
+   "s": "Maybe they're sure the being in the corner is real, or that they finally know what the universe is for, and a memory that just came back can feel just as certain.",
+   "payoff": "they can picture what the visions are: a being, the universe's meaning, a returned memory",
+   "follows": "what the visions might be",
+   "link": "Maybe they're sure"
+  },
+  {
+   "s": "That argument can wait until tomorrow, or forever.",
+   "payoff": "they know the argument isn't for tonight",
+   "follows": "what to do with the argument instead",
+   "link": "That argument"
+  },
+  {
+   "s": "But don't validate harmful conclusions either.",
+   "payoff": "they know the limit: agreeing with harm is out too",
+   "follows": "the other side of not arguing",
+   "link": "But"
+  },
+  {
+   "s": "Reflect the feeling (\"that sounds terrifying\"), then bring them back to tonight's plan: nobody gets hurt, and the night ends with sleep.",
+   "payoff": "they know what to say instead, with an example, and where to steer: no harm, then sleep",
+   "follows": "what to do between arguing and agreeing",
+   "link": "Reflect the feeling"
+  },
+  {
+   "s": "Don't call them crazy, broken, weak, punished or failing the medicine.",
+   "payoff": "they know which labels to keep out of the room",
+   "follows": "the next don't",
+   "link": "none: the next don't on the list"
+  },
+  {
+   "s": "And don't force anything on them.",
+   "payoff": "they know the last don't: forcing anything",
+   "follows": "the last don't",
+   "link": "And"
+  },
+  {
+   "s": "Eye contact and touch are their call, and so is your music.",
+   "payoff": "they can picture what not to force: eye contact, touch, music",
+   "follows": "what forcing might look like",
+   "link": "their call"
+  },
+  {
+   "s": "Prayer or chanting waits until they ask, and your interpretation of what it all means can wait longer still.",
+   "payoff": "they know prayer, chanting and their own interpretation wait for the tripper",
+   "follows": "more of what not to force",
+   "link": "waits until they ask"
+  },
+  {
+   "s": "A confession or an insight has to come from them, if it comes at all.",
+   "payoff": "they know confession and insight come from the tripper or not at all",
+   "follows": "the last of what not to force",
+   "link": "come from them"
+  }
+ ],
+ "checked": [],
+ "placement": "Psychological First Aid to the reminder, then For the Person Helping: Calm Anchor, Not Guru's heading and its part, with his list fix carried to it (round 23's lesson)",
+ "opens": {
+  "first_sentence": "Psychological First Aid: The First Five Minutes",
+  "why_reading": "the heading tells someone looking after a person in a bad state that this is what to do now, in the first five minutes, which is their case; the first paragraph opens on the first thing to do"
+ },
+ "same_point": "none: read the section from its heading to the next; its overlaps are in humanize/h31-20261107/RESULTS.md",
+ "questions": {
+  "Q1": "PASS: each new paragraph opens on its point: the first don't (no arguing with visions); write down the facts once slept; what CBT's distortions are and what they do; plan the start and the end before taking anything",
+  "Q2": "PASS: every act is the reader's own or the helper's, with its purpose; the distortions are what the reader's own mind does",
+  "Q3": "PASS: which things exactly: the being in the corner, a memory that came back, eye contact, touch, music, prayer, chanting; what you took and how much, the cannabis, the crowded room, grief, prophecy at 3 a.m., a better sitter, a bottle of water; each distortion's own words; the substance and dose, what it mixes badly with, the room, food, company and sleep",
+  "Q4": "PASS: the fresh reader's unclear terms (sense/SENSE-READ.md) answered in their sentences: the sitter is the sober person with you, cognitive distortions are the ways a frightened mind twists what it sees, low-directivity support is keeping you safe and offering choices, and 'return to the room and date' is checking where you are and what day it is; 'failing the medicine' stays, as the label a ceremony might put on a tripper",
+  "Q5": "PASS: each turn has what it turns on: 'But' for the limit on not arguing, 'then' for the steps, 'and maybe' for the last kind of thing found, 'because' for keeping the day free",
+  "Q6": "PASS: in the reader's order: the don'ts, then what to say instead; write, then sort, then what follows; the distortions one by one; before, during, the end, after",
+  "Q7": "PASS: every fact is about the person in front of them, or their own session",
+  "Q8": "PASS: each new part is its section's one point, under its heading",
+  "Q9": "PASS: nothing compressed: each list taken apart into sentences, an item or a pair each, with the small words that carry the relations ('but', 'then', 'and maybe', 'because')"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}
