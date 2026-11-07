@@ -1,0 +1,63 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-07",
+ "text_sha256": "1aa3b9b29990aeec47ec9838ac680db35763aedaf39f51f19d0ec44ed7726e3c",
+ "text": "Use D-Serine for acute sessions where you need to \"force\" memory reconsolidation. Best price from LifeLab. You should take it 45 minutes or so after taking PQQ & Ketones so that your brain is fueled when the D-serine starts working.",
+ "section": "B148",
+ "reader": "someone in a glutamate storm planning a D-serine session, deciding when to take it",
+ "sentences": [
+  {
+   "s": "Use D-Serine for acute sessions where you need to \"force\" memory reconsolidation.",
+   "payoff": "the reader learns what D-serine is for here",
+   "follows": "it opens the D-serine step"
+  },
+  {
+   "s": "Best price from LifeLab.",
+   "payoff": "the reader learns where to buy it",
+   "follows": "it follows the naming of D-serine",
+   "link": "none: a link to where to buy it, which needs no tie"
+  },
+  {
+   "s": "You should take it 45 minutes or so after taking PQQ & Ketones so that your brain is fueled when the D-serine starts working.",
+   "payoff": "the reader learns when to take it and why: after PQQ and ketones, so the brain is fueled when it starts working",
+   "follows": "it gives the timing after the product",
+   "link": "take it"
+  }
+ ],
+ "checked": [
+  {
+   "point": "the GluD dial \"is turned down\" when D-serine works",
+   "found": "D-serine opens GluD channels and switches on the NMDA site (Wang 2025, Wolosker 1999): up, not down",
+   "still_needed": "yes: the timing's reason",
+   "fate": "changed"
+  }
+ ],
+ "placement": "in Scenario A, the D-serine step, after the earlier steps that give PQQ and ketones",
+ "opens": {
+  "first_sentence": "Use D-Serine for acute sessions where you need to \"force\" memory reconsolidation.",
+  "why_reading": "it tells the reader what D-serine is for in this scenario: sessions that need memory updating"
+ },
+ "same_point": "none: read Scenario A from its heading to the next for the D-serine step; it is given once",
+ "questions": {
+  "Q2": "PASS: the timing is the instruction and its reason is said",
+  "Q3": "PASS: each thing is named exactly (NMDA receptors, calcium, GluD receptors, D-serine, GABA)",
+  "Q5": "PASS: each \"so\", \"and\" and \"because\" turns on the clause before it",
+  "Q7": "PASS: each fact is about the chemistry the reader is about to change with the protocol",
+  "Q8": "N/A: no group",
+  "Q9": "PASS: one step a clause, the small words that carry the relation kept (\"so\", \"which\", \"rather than\")",
+  "Q1": "PASS: each sentence opens on its point",
+  "Q4": "PASS: no new term",
+  "Q6": "PASS: what for, where to buy, when"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

@@ -1,0 +1,75 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-07",
+ "text_sha256": "db3d526306962f92adc683d92afc76e44f96344a723f4ae7a9b89bd4c54427c6",
+ "text": "D-serine may help therapy update old memories, because it switches on a spot on the NMDA receptor that this kind of learning needs (Wolosker, et al, 1999), and it may also open the GluD channels. The drug that's actually been tested with exposure therapy (facing the feared thing in small, safe doses) is a different one, D-cycloserine (DCS), which works on that same spot, and across 21 trials with over 1,000 patients it gave exposure therapy a small boost (Mataix-Cols, et al, 2017). It does not erase fear directly; it appears to strengthen whatever learning occurs during or after the exposure session. This is why session quality matters: if the exposure produces corrective learning and ends with reduced fear or mastery, DCS (and possibly D-serine also) may help consolidate that new memory; if the exposure is overwhelming or ends badly, it may consolidate the wrong association (Smits, et al, 2013).",
+ "section": "B. The \"Overheating\" CPU: Glutamate Excitotoxicity",
+ "reader": "someone with trauma armor who is about to take NAC, zinc, magnesium, L-serine or D-serine to calm a glutamate storm and to make therapy sessions stick, and wants to know what each one actually does",
+ "sentences": [
+  {
+   "s": "D-serine may help therapy update old memories, because it switches on a spot on the NMDA receptor that this kind of learning needs (Wolosker, et al, 1999), and it may also open the GluD channels.",
+   "payoff": "the reader learns why D-serine is here: it switches on a spot on the NMDA receptor that memory updating needs, and may open GluD",
+   "follows": "it picks up D-serine from the GluD paragraph before it"
+  },
+  {
+   "s": "The drug that's actually been tested with exposure therapy (facing the feared thing in small, safe doses) is a different one, D-cycloserine (DCS), which works on that same spot, and across 21 trials with over 1,000 patients it gave exposure therapy a small boost (Mataix-Cols, et al, 2017).",
+   "payoff": "the reader learns that the tested drug is a different one, DCS, and how much it helped: a small boost in 21 trials",
+   "follows": "it says what has actually been tested for what the sentence before proposes",
+   "link": "a different one"
+  },
+  {
+   "s": "It does not erase fear directly; it appears to strengthen whatever learning occurs during or after the exposure session.",
+   "payoff": "the reader learns DCS strengthens whatever learning happens, not fear erasure",
+   "follows": "it says how the boost works",
+   "link": "It does not erase fear directly"
+  },
+  {
+   "s": "This is why session quality matters: if the exposure produces corrective learning and ends with reduced fear or mastery, DCS (and possibly D-serine also) may help consolidate that new memory; if the exposure is overwhelming or ends badly, it may consolidate the wrong association (Smits, et al, 2013).",
+   "payoff": "the reader learns to end a session on low fear, because a bad session can be consolidated too",
+   "follows": "it draws the consequence of strengthening whatever learning happens",
+   "link": "This is why session quality matters"
+  }
+ ],
+ "checked": [
+  {
+   "point": "\"The specific drug form studied is D-cycloserine\"",
+   "found": "DCS is a different drug acting at the same NMDA site (Smits 2013); D-serine is made from L-serine (Wolosker 1999)",
+   "still_needed": "yes: it is the evidence for the session rule",
+   "fate": "changed"
+  },
+  {
+   "point": "DCS \"has evidence as an exposure-therapy augmenter\"",
+   "found": "21 trials, 1,047 participants: a small effect (Mataix-Cols 2017); larger after successful sessions (Smits 2013)",
+   "still_needed": "yes",
+   "fate": "changed"
+  }
+ ],
+ "placement": "fifth paragraph of section B, after the GluD paragraph, whose D-serine and GluD channels it picks up; before the Fix, where L-serine and D-serine come back",
+ "opens": {
+  "first_sentence": "D-serine may help therapy update old memories, because it switches on a spot on the NMDA receptor that this kind of learning needs (Wolosker, et al, 1999), and it may also open the GluD channels.",
+  "why_reading": "it tells the reader why D-serine is in the protocol: it may help therapy update old memories"
+ },
+ "same_point": "none: read section B from its heading to section C for the glutamate mechanism, GluD, D-serine and DCS, and the fixes; each point here is made once in the section",
+ "questions": {
+  "Q2": "N/A: no instruction in this paragraph; it explains a mechanism",
+  "Q3": "PASS: each thing is named exactly (NMDA receptors, calcium, GluD receptors, D-serine, GABA)",
+  "Q5": "PASS: each \"so\", \"and\" and \"because\" turns on the clause before it",
+  "Q7": "PASS: each fact is about the chemistry the reader is about to change with the protocol",
+  "Q8": "N/A: no group or list in this paragraph",
+  "Q9": "PASS: one step a clause, the small words that carry the relation kept (\"so\", \"which\", \"rather than\")",
+  "Q1": "PASS: each sentence opens on its point (D-serine may help, the tested drug, it does not erase, this is why)",
+  "Q4": "PASS: exposure therapy explained where first used; NMDA explained earlier in the section; consolidate is plain enough in context",
+  "Q6": "PASS: proposal, evidence, how it works, what to do"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

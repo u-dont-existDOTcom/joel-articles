@@ -1,5 +1,19 @@
 # Status: neuro de-armoring humanization (newest on top)
 
+## 2026-11-07, his message of 11:58 UTC: AskRigor bug report sent; no checks of unhumanized drafts; section B's science
+
+- AskRigor lesson ARL-0059 (`fix-20261107/askrigor/ASKRIGOR-BUG-REPORT-2.md`): its protocol text, records and full-text
+  pages are only in `structuredContent`, which this app doesn't pass to the model (`apps/research-mcp/src/tool-result.ts`).
+  The public `protocols/*.xml` match the running SHA-256 (Universal 20.5.46 `e313306b…`, HRP 20.6.40 `afd3d881…`).
+- Lesson neuro-2026-11-07c enforced: `pangram_ledger.py predict` refuses a text of mine without `--humanized`
+  (pull request 366, merged). No Pangram check this turn.
+- Section B's science pass (`fix-20261107/sci/x1107a/`): the table SCIENCE-SECTION-B.md (every link opened today),
+  receipts for the eight changed paragraphs (all pass), and the page REVIEW-X1107A (seven cards, SB-37 to SB-148),
+  published as https://claude.ai/artifact/5LG5d8ZaPZjaRvQ6W52Tjb with db, user and downloads; smoke test at 400 and
+  1,200 px: seven cards, no sideways scroll, no script errors. New finding: Itoh et al. 2024 (PNAS) dispute the GluD
+  channel result, now in SB-38. FACTS.md's own card page (X1105C) was never made: its other findings go on the next
+  sections' pages.
+
 ## 2026-11-07, his message of 01:00 UTC: science before humanizing; blocks 37 and 38 checked
 
 His block 38 in three checks (the last Human: Medium on its label sentence, High after) is recorded, not applied: its

@@ -22,8 +22,15 @@ From an account with Desktop Commander connected to the laptop: "Continue my neu
   `fix-20261107/askrigor/ASKRIGOR-BUG-REPORT-2.md`); no Pangram check of a draft of mine that hasn't had a humanizing
   pass (lesson neuro-2026-11-07c, enforced by `pangram_ledger.py predict --humanized`).** AskRigor's protocol and
   records don't reach the AI in this app (lesson d): read its protocols from its public repository at the running
-  SHA-256, abstracts from Europe PMC. Next is unchanged: the card page for blocks 37 and 38, then FACTS.md section by
-  section.
+  SHA-256, abstracts from Europe PMC. **Section B's science page is out**: seven cards, SB-37 to SB-148
+  (`fix-20261107/sci/x1107a/`, table SCIENCE-SECTION-B.md, page https://claude.ai/artifact/5LG5d8ZaPZjaRvQ6W52Tjb,
+  published from this account with db, user and downloads). Next: apply his answers (texts.py has each paragraph's
+  Markdown; block 38's link to scitechdaily is replaced by the citations, record it in FIDELITY-KEYS owner_changes with
+  citations_lost "the claim is gone: ..."), humanize each approved paragraph (no check before a humanizing pass,
+  lesson c), then the next section's science. **Found this turn:** FACTS.md (5 November) says its findings became cards
+  on REVIEW-X1105C.md, but that page was never made: F-1 (lean protein into sugar, his own flag of 5 November), F-4,
+  F-5 and F-8 to F-11 still stand in the article and go on the science pages section by section (F-3, F-6, F-7 are in
+  this page; F-2 is settled).
 - **2026-11-07, his message of 01:00 UTC: the science comes first (lesson neuro-2026-11-07a).** Next: (1) a card page
   for blocks 37 and 38 with the changed claims (`fix-20261107/sci/SCIENCE-B37-B38.md`, drafts B037s and B038s; his block
   38 versions are in his message file), for him to approve before any more humanizing of them; (2) go through
