@@ -20,6 +20,14 @@ can read and update it. Every file it points to is a link.
 - Nothing now. The temporary draft "Neuro de-armoring, draft A (temp, delete after)" stays for the next whole-article
   check, which reuses it; I'll name it for deleting after the last one.
 
+## Your message of 2026-11-07 01:00 UTC (block 38, and the science first), and what I did
+
+- 🟢 **You're right: the science first.** [What the sources say about blocks 37 and 38](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261107/sci/SCIENCE-B37-B38.md).
+  ChatGPT's check holds against the papers. "Vibrating cells to death" is wrong (it's calcium overload); the feelings
+  aren't excitotoxicity; the 2025 Johns Hopkins paper found GluD2 is a channel opened by D-serine and GABA, not a
+  volume knob, and nothing ties it to armor states. Your block 38 waits for the science.
+- 🔵 **Next**: a card page for those two paragraphs, then the 5 November facts list section by section, then humanizing.
+
 ## Your message of 2026-11-06 21:36 UTC ("keep going"), and what I did
 
 - 🟢 **Part 1's opening and section A are in**: rewritten, they read [Human Written](https://www.pangram.com/history/b1594a9f-6c90-4dcd-b117-68c50f21df5e)

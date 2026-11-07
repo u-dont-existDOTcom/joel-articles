@@ -107734,7 +107734,7 @@
         },
         {
           "path": "articles/neuro-de-armoring/humanize/HANDOFF-neuro-de-armoring.md",
-          "sha256": "339e97f793c30491a732bae41f143cf0a9095d5433fb0febb90588c30c07f7c8",
+          "sha256": "9a05422e33cb0f2a684c4906d21687c646d4e932625a94e97e4fc4cbe6a7d086",
           "role": "humanization_working_record"
         },
         {
@@ -107744,12 +107744,12 @@
         },
         {
           "path": "articles/neuro-de-armoring/humanize/OWNER-QUESTIONS.md",
-          "sha256": "6b371eac38f081c79dbb14221716d1f587687ada944d7685e94ae078cc75305e",
+          "sha256": "55dcdde3ec81152a1d51f296c0e0cd47545e10ceeaffed566b48e5f482cba45b",
           "role": "humanization_working_record"
         },
         {
           "path": "articles/neuro-de-armoring/humanize/STATUS.md",
-          "sha256": "b9e62f7b5bd52a46aacd0d1375c048c7243054645148d2c3ea2b6378d204ca7b",
+          "sha256": "cac82c736c7b69e36e5ccdf78b24f9ed881dae5527fa6bcd7dc1508e646253d4",
           "role": "humanization_working_record"
         },
         {
@@ -107839,7 +107839,7 @@
         },
         {
           "path": "articles/neuro-de-armoring/humanize/pangram-ledger.jsonl",
-          "sha256": "7b037352c1ff049e1014bfd8c1f34121db528bcf36fd6d8a9863e65d88bf103a",
+          "sha256": "34d8152689271d57e49bec28066bdae6dbcb07f78d5832cf35c3ed3d2c04005a",
           "role": "humanization_working_record"
         },
         {
@@ -112585,6 +112585,11 @@
         {
           "path": "articles/neuro-de-armoring/humanize/fix-20261107/sci/joel-20261107-0100-message.txt",
           "sha256": "54b76e80ef4960673687bc4c75c085260c30adb698b4951de2da400eb2e3cb3a",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/neuro-de-armoring/humanize/fix-20261107/sci/SCIENCE-B37-B38.md",
+          "sha256": "c486e81d0ec8bf58aaa433d4570a61ee8c33d985473346984d8ae6592279184e",
           "role": "humanization_working_record"
         }
       ]

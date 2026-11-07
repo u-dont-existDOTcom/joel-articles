@@ -1,5 +1,13 @@
 # Status: neuro de-armoring humanization (newest on top)
 
+## 2026-11-07, his message of 01:00 UTC: science before humanizing; blocks 37 and 38 checked
+
+His block 38 in three checks (the last Human: Medium on its label sentence, High after) is recorded, not applied: its
+claims don't hold as written. `fix-20261107/sci/SCIENCE-B37-B38.md`: excitotoxicity is calcium overload (not vibration)
+and isn't what anxiety feels like; Wang 2025 (Nature) found GluD2 is a channel opened by D-serine and GABA, with an
+ataxia mutation leaking, and nothing about armor states. Corrected drafts read AI (37 High, 38 Low). Lessons
+neuro-2026-11-07a (science first) and b (one conversational word; formal articles on `docs/ROADMAP.md`).
+
 ## 2026-11-06, his message of 23:50 UTC: his blocks 20 and 25 in; lessons c to f; round 4
 
 His two versions in (block 25 without a stray "If", checked Human High). Lessons `docs/lessons/2026-11-06-2350-neuro.md`
