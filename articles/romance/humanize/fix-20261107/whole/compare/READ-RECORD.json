@@ -1,0 +1,172 @@
+{
+ "format": "compare-read-record-v1",
+ "article": "articles/romance/humanize/fix-20261107/whole/REWRITE-CHANGED.md",
+ "coverage": [
+  "012a645cb2efd31d",
+  "01d28baf2e369050",
+  "05e6ac4f6a7690d6",
+  "0619ba0685759656",
+  "08fcf4d1999245b1",
+  "0d78ce13e68fe298",
+  "11dd71209bd67693",
+  "146f7fa6cbd3ad96",
+  "1819cf755c79539a",
+  "18df29b3d3be8d64",
+  "1ee55a814eeacc2d",
+  "23531c0cb80d5ed3",
+  "24652ee3ca8c8352",
+  "283128fe87be2e7f",
+  "2d5251c851bab74b",
+  "2eb5741a84039810",
+  "31fc359cfd72fdc7",
+  "3ea8660d4687f92b",
+  "42beb27f70eb08b7",
+  "42eca3947826fd1b",
+  "4366b460ed3f3776",
+  "44239f2eccfc7e91",
+  "4699a81a1c92f99a",
+  "4c08f74159f248e1",
+  "54222c0004c6e5a6",
+  "554973312ee73169",
+  "61616261443ddcbd",
+  "66c61b493aab8da0",
+  "66cedaafdfc494bb",
+  "69ba0d1ca7be9fd2",
+  "7b7eb930e59618ed",
+  "7de03a26e643f8c3",
+  "88508f89e21400ab",
+  "8a1296899e6a506b",
+  "8b16c72d4fad67b5",
+  "8db3e8378a57f290",
+  "948e57c5d0fad804",
+  "9d710097e6f05c1e",
+  "9d9c899b8fe37de6",
+  "a0768c4da2ddc7ca",
+  "a90cf5533c2a94f9",
+  "aa49e1eb5ea385cb",
+  "b6db995d9c51db06",
+  "b7a2602a0751bd2d",
+  "be4f7ef98126ceba",
+  "c3332f0b814005da",
+  "c4f96e465013894a",
+  "c828f8ae5eb0ff48",
+  "d014657acb0d0095",
+  "d04633ac32361316",
+  "d1c566be9a86aae8",
+  "d759cd8828e972b6",
+  "daf5d9fc51ae33e9",
+  "db847aad727b30c0",
+  "de0a1f69405d53db",
+  "e3b9e423c61eea6f",
+  "e48b9c920ff0ab89",
+  "ecc922a953b51aeb",
+  "eedab6a815c3710e",
+  "f692ee970871c585",
+  "f7c88ee379144bae",
+  "fa526a459cabf6a4",
+  "fc4cd416914c0c20",
+  "fda5d88db9e7b08c"
+ ],
+ "findings": [
+  {
+   "id": "F1.1",
+   "severity": 1,
+   "kind": "unclear",
+   "block_hashes": [
+    "a0768c4da2ddc7ca"
+   ],
+   "now": "I had something sort of like that with H., although ours was much deeper than what people normally mean by situationship, and painfully uneven.",
+   "same_as_original": false
+  },
+  {
+   "id": "F1.2",
+   "severity": 1,
+   "kind": "lost",
+   "block_hashes": [
+    "d04633ac32361316"
+   ],
+   "now": "What would your friends or exes say?",
+   "same_as_original": false
+  },
+  {
+   "id": "F1.3",
+   "severity": 1,
+   "kind": "lost",
+   "block_hashes": [
+    "948e57c5d0fad804"
+   ],
+   "now": "If I have sex with somebody quickly, that’s a reason not to move in quickly too, and to keep seeing friends, have some kind of community around the relationship, and pick actual dates to ask how it’s going. Moving in together right away is basically getting into a common-law marriage without discuss",
+   "same_as_original": false
+  },
+  {
+   "id": "F1.4",
+   "severity": 1,
+   "kind": "lost",
+   "block_hashes": [
+    "d1c566be9a86aae8"
+   ],
+   "now": "I recommend peer counseling outside the couple: if my partner is the only person I bring all my pain to, she also ends up carrying whatever I do when I still don’t understand it.",
+   "same_as_original": true
+  },
+  {
+   "id": "F1.5",
+   "severity": 1,
+   "kind": "lost",
+   "block_hashes": [
+    "8db3e8378a57f290"
+   ],
+   "now": "They’re only hearing your side, usually while you’re upset, and they may just be trying to protect you, so take what they say with a grain of salt.",
+   "same_as_original": false
+  },
+  {
+   "id": "F1.6",
+   "severity": 1,
+   "kind": "lost",
+   "block_hashes": [
+    "554973312ee73169"
+   ],
+   "now": "Matthew 5:33–37 and James 5:12 make the wedding vow itself look even more suspicious (to me, anyway): let your “Yes” be “Yes” and your “No” be “No,” and anything beyond that comes from evil.",
+   "same_as_original": false
+  },
+  {
+   "id": "F1.7",
+   "severity": 1,
+   "kind": "lost",
+   "block_hashes": [
+    "11dd71209bd67693"
+   ],
+   "now": "Grab it only if it really is the simplest explanation of what happened.",
+   "same_as_original": false
+  }
+ ],
+ "dispositions": {
+  "F1.1": [
+   "kept",
+   "a one-beat snag; the clause is his and read High in its section (#100); a severity-1 finding"
+  ],
+  "F1.2": [
+   "kept",
+   "the section asks for honest self-assessment throughout, so the question's purpose is plain; S7 read Human with no Low in its section with the question form (#107); worth his look at the live update"
+  ],
+  "F1.3": [
+   "kept",
+   "entanglement making it easy to assume is the same idea; the section read Human with no Low (#70)"
+  ],
+  "F1.4": [
+   "kept",
+   "the colon gives the reason in the same sentence; the section read Human with no Low (#88)"
+  ],
+  "F1.5": [
+   "kept",
+   "\"just trying to protect you\" keeps most of the contrast; the pair read Human (#32)"
+  ],
+  "F1.6": [
+   "kept",
+   "the quoted verse carries the reason; the section read Human with no Low (#110), after five AI readings of the question form"
+  ],
+  "F1.7": [
+   "kept",
+   "\"only if\" is read both ways in speech; the section read Human with no Low (#69)"
+  ]
+ }
+}

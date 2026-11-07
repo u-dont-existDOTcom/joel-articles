@@ -78,6 +78,11 @@ with his OK and no email.
   one High window) read Human with no Low. "From flow to nitty gritty" (S9's line said inside the bed paragraph) read 33%
   AI on 201's closing list (#108); 201 by itself read Human Low with the list re-shaped (#111) and Human High with it cut
   to two items (#112); in the section that sentence still reads Human Low (#113, and #114 after one more fix).
+- 2026-11-07 (17:34 UTC pickup, `humanize/fix-20261107/whole/`): the fixed version assembled for the whole-article
+  check: the live post with every section's and spot's best tested text in place, 40 changes to 66 paragraphs, each
+  aligned with the live post by fingerprints (`whole/CHANGE-MAP.md`). The compare read of every changed paragraph beside
+  the live one found 7 small snags, each kept with its reason; the word-for-sense read found its three planted errors and
+  nothing else.
 
 ### Before 2026-11-07 (the registered master, as recorded then)
 

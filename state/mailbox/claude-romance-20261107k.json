@@ -1,0 +1,46 @@
+{
+ "about": "Each turn's mailbox check (tools/humanization/lane_mailbox.py; AGENTS.md, \"Suggested fixes from other projects\"). Newest last.",
+ "places": {
+  "uda-lane": "this repository's lane in universal-dev-architecture (suggested-fixes/joel-articles/), against docs/suggested-fixes-ledger.md",
+  "repo": "new issues and pull requests here, and new comments and reviews on any of them, replies on our own included",
+  "notes": "edits others made to the lane's handoff notes and owner questions pages since its last turn",
+  "runtime": "the messages the session's runtime queued for it"
+ },
+ "checks": [
+  {
+   "turn": "2026-11-07T17:34Z",
+   "lines_of_work": [
+    "romance article"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "UDA main b6185f7, unchanged; its joel-articles lane holds the two items the ledger already lists"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "#384 (ours) merged at 17:28; no other new issues, pull requests or comments since 17:20"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no edits by anyone else to articles/romance; the marking page's store has no answers yet (decisions: empty, read 17:35)"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "my scheduled pickup of 17:34 UTC; #384 subscription, checks and merge notices"
+    }
+   ],
+   "items": [
+    {
+     "item": "scheduled pickup of 17:34 UTC",
+     "outcome": "the fixed version assembled for the whole-article check, its two-part temporary draft and secret preview links"
+    }
+   ],
+   "recorded_utc": "2026-11-07T17:35Z"
+  }
+ ]
+}
