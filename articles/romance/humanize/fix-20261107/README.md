@@ -3,7 +3,7 @@
 - `live-check/`: his extension's result on the live post (`META.json`, `AI-WINDOWS.json`: the 41 AI windows, 21 spots, by
   code-point offset into the text it read; `LOW-WINDOWS.json`: its 54 Human Low windows, with the fix that has rechecked
   each where there is one).
-- `r01/` to `r12/`: check texts (`checks/texts.py`), making-sense receipts (`make_receipts.py`), predictions
+- `r01/` to `r13/`: check texts (`checks/texts.py`), making-sense receipts (`make_receipts.py`), predictions
   (`predict_rNN.py`, from r03) and results (`RESULTS-*.json`), one key per check (`r01-s1` is spot S1's first try; a
   letter after the number, as in `r03-s2b`, tells apart two tries at one spot). Predictions and results are in
   `../pangram-ledger.jsonl`. `r03/checks/CHECK-r03-s2c.txt` was written but never checked: try 3 read first, and try 4
@@ -18,6 +18,10 @@
   at least), and the first tries at "Situationships", "The window of clarity" and "My flaws". `r12/`: S22's section
   a second time, the dam after a fix (his answer 28a), the narrowing of "Situationships" and "The window of clarity",
   and the first tries at "Peeking thru the window" and "Things get tricky fast".
+- `r13/`: S22's section and the dam after one more fix each (28a), "The window of clarity" a second time, paragraph 34
+  of "Situationships" as the live post has it, and the first tries at "Anti-PTSD Can Be Just As Dangerous As PTSD",
+  "Slow & steady may win the race" and "Disconnect to connect". Its `make_receipts.py` takes the rows of the sentences
+  it shares with r11 and r12 from their receipt makers.
 - The marking page for S2 and S17 is in `../../review/teach-20261107/`.
 
 The spots are numbered S1 to S21 in the order they appear in the post, and S22 is the one the post's last part turned up (#47) (`../../CURRENT-STATE.md` lists which are done).

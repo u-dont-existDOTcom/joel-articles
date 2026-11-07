@@ -1,0 +1,46 @@
+{
+ "about": "Each turn's mailbox check (tools/humanization/lane_mailbox.py; AGENTS.md, \"Suggested fixes from other projects\"). Newest last.",
+ "places": {
+  "uda-lane": "this repository's lane in universal-dev-architecture (suggested-fixes/joel-articles/), against docs/suggested-fixes-ledger.md",
+  "repo": "new issues and pull requests here, and new comments and reviews on any of them, replies on our own included",
+  "notes": "edits others made to the lane's handoff notes and owner questions pages since its last turn",
+  "runtime": "the messages the session's runtime queued for it"
+ },
+ "checks": [
+  {
+   "turn": "2026-11-07T15:09Z",
+   "lines_of_work": [
+    "romance article"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "UDA main b6185f7, unchanged; root AGENTS.md as read at 13:39; its joel-articles lane holds the two items the ledger already lists"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "#378 (ours) merged at 15:39; no other new issues, pull requests or comments since 15:00"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no edits by anyone else to articles/romance; the marking page's store has no answers yet (decisions: empty, read 15:30)"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "my scheduled pickup of 15:09 UTC; no new messages"
+    }
+   ],
+   "items": [
+    {
+     "item": "scheduled pickup of 15:09 UTC (second push, new branch after #378 merged)",
+     "outcome": "r13: S22, the dam and the window of clarity read Human with no Low; Anti-PTSD too; Situationships' paragraph 34, Slow & steady and Disconnect to connect still to fix"
+    }
+   ],
+   "recorded_utc": "2026-11-07T15:47Z"
+  }
+ ]
+}

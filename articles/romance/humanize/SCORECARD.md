@@ -6,34 +6,34 @@ Built by `tools/humanization/pangram_ledger.py build` from `articles/romance/hum
 
 | version | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| pangram 4.1, the web app (Joel's account, GUI credits) | 67 | 41 (61%) | 51% | 49% | 76% | 0.227 (base 0.250, 67) |
+| pangram 4.1, the web app (Joel's account, GUI credits) | 74 | 45 (61%) | 49% | 51% | 77% | 0.227 (base 0.250, 74) |
 
 ## pangram 4.1, the web app (Joel's account, GUI credits)
 
 | window | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| the latest 50 | 50 | 32 (64%) | 50% | 50% | 70% | 0.227 (base 0.250, 50) |
-| the latest 100 | 67 | 41 (61%) | 51% | 49% | 76% | 0.227 (base 0.250, 67) |
-| all | 67 | 41 (61%) | 51% | 49% | 76% | 0.227 (base 0.250, 67) |
+| the latest 50 | 50 | 31 (62%) | 46% | 54% | 72% | 0.227 (base 0.248, 50) |
+| the latest 100 | 74 | 45 (61%) | 49% | 51% | 77% | 0.227 (base 0.250, 74) |
+| all | 74 | 45 (61%) | 49% | 51% | 77% | 0.227 (base 0.250, 74) |
 
 The boundary mix (what was checked; accuracy differs a lot between a paragraph and a section):
 
 | scope or kind | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
 | pair | 40 | 24 (60%) | 60% | 40% | 80% | 0.229 (base 0.240, 40) |
-| paragraph | 11 | 8 (73%) | 18% | 82% | 73% | 0.210 (base 0.149, 11) |
+| paragraph | 12 | 8 (67%) | 17% | 83% | 67% | 0.222 (base 0.139, 12) |
 | stretch | 2 | 2 (100%) | 50% | 50% | 50% | 0.145 (base 0.250, 2) |
-| section | 14 | 7 (50%) | 50% | 50% | 71% | 0.246 (base 0.250, 14) |
+| section | 20 | 11 (55%) | 45% | 55% | 80% | 0.233 (base 0.247, 20) |
 
 Calibration:
 
 | my chance of a 100% Human result | calls | mean chance | read Human |
 |---|---|---|---|
 | 0.2 to 0.4 | 3 | 0.30 | 33% |
-| 0.4 to 0.6 | 59 | 0.51 | 47% |
-| 0.6 to 0.8 | 15 | 0.63 | 87% |
+| 0.4 to 0.6 | 65 | 0.52 | 49% |
+| 0.6 to 0.8 | 19 | 0.63 | 84% |
 
-## Misses since the ledger (26)
+## Misses since the ledger (29)
 
 | cause | misses |
 |---|---|
@@ -63,14 +63,14 @@ Calibration:
 | the point moved up left a bare pair of if-sentences | 1 |
 | 438 in the shape of his own advice: no AI window left | 1 |
 | his claims said to the reader still read as general claims | 1 |
+| his opening joined read Medium; his three claims still Low | 1 |
+| the join moved the Low window onto his five-part list | 1 |
+| the section by itself reads Low where the whole post read Human | 1 |
 
 The latest:
 
 | check | lineage, try | said | read | cause |
 |---|---|---|---|---|
-| [r04-s21](https://www.pangram.com/history/f71abb17-8e0f-49e8-8994-511b346467c1) | romance-s21, 2 | Human | AI or mixed | an explained link that reads as a tidy summary |
-| [r04-s10](https://www.pangram.com/history/2fd8d48d-ee13-4d4f-be23-a363b2b548f4) | romance-s10, 3 | Human | AI or mixed | the panel's fixes kept general advice in a first-person frame |
-| [r05-s9](https://www.pangram.com/history/8fca6b73-6ea6-428f-be00-b26f9d14e698) | romance-s9, 2 | Human | AI or mixed | an aside added to a summing-up line |
 | [r05-s10](https://www.pangram.com/history/4b0f3653-382c-4562-a675-db6b9de90536) | romance-s10, 4 | Human | AI or mixed | his words in a new order still read as general advice |
 | [r05-s21](https://www.pangram.com/history/1a346e61-fe80-4de3-acce-f6500fd1d2a7) | romance-s21, 3 | Human | AI or mixed | the short check reads his own verses AI too |
 | [r06-secB](https://www.pangram.com/history/1a6ad01b-2191-4783-9d48-ad82d43642ac) | romance-sec-whole-world, 1 | AI | Human | the pair checks were too short to judge it |
@@ -83,6 +83,9 @@ The latest:
 | [r11-clar](https://www.pangram.com/history/5be9455c-ecdf-47b5-9029-fbd366a7e165) | romance-low-clar, 1 | Human | AI or mixed | the point moved up left a bare pair of if-sentences |
 | [r12-s22](https://www.pangram.com/history/5b774f10-ccab-4399-9df1-c6786e26457f) | romance-s22, 2 | AI | Human | 438 in the shape of his own advice: no AI window left |
 | [r12-sit34](https://www.pangram.com/history/64bc0365-4a4d-4b26-be2a-e67cd570e349) | romance-low-sit-p34, 1 | Human | AI or mixed | his claims said to the reader still read as general claims |
+| [r13-sit34](https://www.pangram.com/history/9aff51d6-f991-4478-8992-900611eb5e97) | romance-low-sit-p34, 2 | AI | Human | his opening joined read Medium; his three claims still Low |
+| [r13-slow](https://www.pangram.com/history/db9d87a7-249e-44f8-a1e3-2facc9bc1b6c) | romance-low-slow, 1 | Human | AI or mixed | the join moved the Low window onto his five-part list |
+| [r13-disc](https://www.pangram.com/history/3b1a8ec3-9c1c-4834-8a23-3fe5787d139d) | romance-low-disc, 1 | Human | AI or mixed | the section by itself reads Low where the whole post read Human |
 
 ## Lineages still open (tries used of the cap)
 
@@ -99,6 +102,6 @@ The latest:
 | romance-sec-bypass | section | 1 of 2 | Mixed |
 | romance-s22-p438 | paragraph | 1 of 6 | AI |
 | romance-low-sit | section | 1 of 2 | Mixed |
-| romance-low-clar | section | 1 of 2 | Mixed |
-| romance-low-sit-p34 | paragraph | 1 of 6 | Mixed |
+| romance-low-slow | section | 1 of 2 | Mixed |
+| romance-low-disc | section | 1 of 2 | Mixed |
 
