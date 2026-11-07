@@ -1,0 +1,68 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-07",
+ "text_sha256": "d20d165c66fdc56da3efc289715caa11595f8b709ad91b5040a740f06971018d",
+ "text": "Missing someone is a contraction. There's hunger and ache in it, it keeps circling back to you, and there's the painful fantasy that loving them means needing them to come back. Sending love is different. Sending love is pleasure in itself, even when the person is gone. Love can bless without grabbing.",
+ "section": "Dealing With Sorrow: Missing Versus Sending Love, after Bee",
+ "reader": "someone grieving a person or a loss, during or after a trip",
+ "sentences": [
+  {
+   "s": "Missing someone is a contraction.",
+   "payoff": "they know missing someone contracts you",
+   "follows": "the paragraph's point, after his months with loveyhuasca"
+  },
+  {
+   "s": "There's hunger and ache in it, it keeps circling back to you, and there's the painful fantasy that loving them means needing them to come back.",
+   "payoff": "they know what the contraction is made of",
+   "follows": "what the contraction is",
+   "link": "it"
+  },
+  {
+   "s": "Sending love is different.",
+   "payoff": "they know sending love is the other way",
+   "follows": "the contrast",
+   "link": "Sending love"
+  },
+  {
+   "s": "Sending love is pleasure in itself, even when the person is gone.",
+   "payoff": "they know sending love feels good even with the person gone",
+   "follows": "how it differs",
+   "link": "Sending love"
+  },
+  {
+   "s": "Love can bless without grabbing.",
+   "payoff": "they know love can give without holding on",
+   "follows": "what that means",
+   "link": "Love"
+  }
+ ],
+ "checked": [],
+ "placement": "Dealing With Sorrow, after his months of daily loveyhuasca after Bee left",
+ "opens": {
+  "first_sentence": "Missing someone is a contraction.",
+  "why_reading": "the paragraph before says it took him months to understand; this says what he understood"
+ },
+ "same_point": "none: read the section from its heading to the next for missing against sending love, the mistake and where to send it",
+ "questions": {
+  "Q1": "PASS: the paragraph opens on its point",
+  "Q2": "PASS: no instruction; it says what missing is and what sending love is",
+  "Q3": "PASS: which things: hunger, ache, circling back to you, the fantasy of needing them back",
+  "Q4": "PASS: no terms a reader would not know",
+  "Q5": "PASS: missing, then the different way, then what it means",
+  "Q6": "PASS: contraction, then its parts, then the contrast",
+  "Q7": "PASS: about the reader's own grief",
+  "Q8": "PASS: one point",
+  "Q9": "PASS: nothing compressed: the colon list said as its point and its parts"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

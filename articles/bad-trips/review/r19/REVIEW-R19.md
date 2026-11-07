@@ -1,0 +1,122 @@
+# Bad Trips Guide, Round 19: every card
+
+The page's cards as text, in the order of the guide. Built 2026-11-07 from [the guide as it stands](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261105/articles/bad-trips/GUIDE-SO-FAR.md), after the repeats cut from Psychological First Aid. To answer, use the page; or write your answer under a card's name in a message to me.
+
+Round 19 (2026-11-07). Four cards: Dealing With Sorrow, Hand on Heart and Demons. Rounds 12, 15, 16, 17 and 18 are still open on their own pages.
+
+## SORROW-MISSING: What missing is, said as its point and then its parts (Said plainly)
+
+*Dealing With Sorrow: Missing Versus Sending Love, P4*
+
+**What Pangram read:** After the Human first half of Psychological First Aid, the paragraph from "Missing is contraction: hunger, ache, self-reference, and the painful fantasy that love means needing the person to return." to "The difference is enormous." reads [47%](https://www.pangram.com/history/d9c97d81-0969-44b3-995c-bfcc836e9c8d), its first sentence AI High.
+
+**Pangram on the suggestion:** With this change: [21%](https://www.pangram.com/history/1b525a1e-07b3-42ae-9129-1d287c0eed8b). Every window of the paragraph reads Human; what still reads AI is the Human first half's opening sentence.
+
+**What changes:** "Missing is contraction: hunger, ache, self-reference, and the painful fantasy that love means needing the person to return." becomes "Missing someone is a contraction. There's hunger and ache in it, it keeps circling back to you, and there's the painful fantasy that loving them means needing them to come back."
+
+**Now** (the words it changes in bold):
+
+> **Missing is contraction: hunger, ache, self-reference, and the painful fantasy that love means needing the person to return.** Sending love is different. Sending love is pleasure in itself, even when the person is gone. Love can bless without grabbing.
+
+**How it would read:**
+
+> Missing someone is a contraction. There's hunger and ache in it, it keeps circling back to you, and there's the painful fantasy that loving them means needing them to come back. Sending love is different. Sending love is pleasure in itself, even when the person is gone. Love can bless without grabbing.
+
+**Why:** The same four things, said as the point first and then what it's made of. "Self-reference" becomes "it keeps circling back to you". Your "Missing is contraction" becomes "Missing someone is a contraction"; if you'd rather keep your phrase, Revise.
+
+**What stays:** "Sending love is different.", "Love can bless without grabbing." and "The difference is enormous." word for word.
+
+**For you to weigh:** Approve puts the new line in; Revise lets you change it first.
+
+**My advice:** Approve: the same point, and the paragraph reads Human with it.
+
+*Found by: Pangram after the Human first half, one part of Dealing With Sorrow at a time.*
+
+## HAND-SIGNAL: The hand on the heart: a signal, said in one breath (Said plainly)
+
+*Hand on Heart and Gratitude 🫶🏿, P1*
+
+**What Pangram read:** After the Human first half, the opening paragraph of Hand on Heart and Gratitude reads [44%](https://www.pangram.com/history/46f93e63-6a3b-4113-a972-721cfdff1d35).
+
+**Pangram on the suggestion:** With this change: [22%](https://www.pangram.com/history/098d0d20-13aa-4ad5-bf5e-bc4cb6a2f255). Every window of the paragraph reads Human; what still reads AI is the Human first half's opening sentence.
+
+**What changes:** "The point is not to manufacture loving thoughts. Give the body one simple signal: love is here." becomes "There's no need to manufacture loving thoughts, you're just giving the body one simple signal: love is here."
+
+**Now** (the words it changes in bold):
+
+> A hand on the heart can change the direction of a trip, especially when the problem is emotional contraction, grief, fear, or loneliness. **The point is not to manufacture loving thoughts. Give the body one simple signal: love is here.**
+
+**How it would read:**
+
+> A hand on the heart can change the direction of a trip, especially when the problem is emotional contraction, grief, fear, or loneliness. There's no need to manufacture loving thoughts, you're just giving the body one simple signal: love is here.
+
+**Why:** The same point, no forced loving thoughts and one simple signal, said in one sentence instead of a "not this. Do that." pair.
+
+**What stays:** The first sentence and "love is here" word for word.
+
+**For you to weigh:** Approve puts the new line in; Revise lets you change it first.
+
+**My advice:** Approve: the same point, and the paragraph reads Human with it.
+
+*Found by: Pangram after the Human first half, one part of Hand on Heart at a time.*
+
+## DEMON-TRAIN: Train before you need it: the list said in pairs (Said plainly)
+
+*Demons, Jinn, Entities, and Shadow Forces, P6*
+
+**What Pangram read:** After the Human first half, the demons section's "Love is a better move" paragraph reads [37%](https://www.pangram.com/history/3326e141-9b6d-41a3-b447-fca507f1ec46), AI only on "Train before the emergency: ..."
+
+**Pangram on the suggestion:** With this change: [19%](https://www.pangram.com/history/b722b1c6-0655-41c5-90f0-44ca00eac656). Every window of the paragraph reads Human.
+
+**What changes:** "Train before the emergency: send love to a frightening image, a hated person without approving what they did, your shame, your body, sickness, aging, fear, death, and the inner child." becomes "So train before you need it, sending love to a frightening image, to someone you hate (without approving of what they did), to your shame and your body, to sickness and aging and fear and death, and to the inner child."
+
+**Now** (the words it changes in bold):
+
+> Love is a better move, although it is difficult advice. Almost nobody can authentically love what terrifies them while they are terrified. **Train before the emergency: send love to a frightening image, a hated person without approving what they did, your shame, your body, sickness, aging, fear, death, and the inner child.** Practice being the space rather than the storm.
+
+**How it would read:**
+
+> Love is a better move, although it is difficult advice. Almost nobody can authentically love what terrifies them while they are terrified. So train before you need it, sending love to a frightening image, to someone you hate (without approving of what they did), to your shame and your body, to sickness and aging and fear and death, and to the inner child. Practice being the space rather than the storm.
+
+**Why:** The same nine things to send love to, in the same order, said in pairs with their small words instead of a colon and a run.
+
+**What stays:** "Love is a better move ...", "Almost nobody can authentically love ...", and "Practice being the space rather than the storm."
+
+**For you to weigh:** Approve puts the new line in; Revise lets you change it first.
+
+**My advice:** Approve: the same practice, and the paragraph reads Human with it.
+
+*Found by: Pangram after the Human first half, one part of Demons, Jinn, Entities at a time.*
+
+## DEMON-SAFETY-ONCE: The entity safety rule, already in No Rash Actions (Safety in one place)
+
+*Demons, Jinn, Entities, and Shadow Forces, P8*
+
+**What Pangram read:** After the Human first half, the "Safety rule" and its two sentences read [AI, 100%](https://www.pangram.com/history/d0780839-89bc-4170-8d81-03560c37af1a).
+
+**Pangram on the suggestion:** Not a wording change: the card takes out a repeat. The section then ends on stabilize first, which reads [Human Written](https://www.pangram.com/history/c8a28685-11ef-431e-8b64-68eb96089247) after the Human first half.
+
+**What changes:** The "Safety rule" label and "Even a completely real-feeling entity does not make decisions for your body. No entity may tell you to hurt yourself or another person, drive, jump, flee, accuse somebody, cross a sexual boundary, or make a life decision tonight." go.
+
+**Now** (the words it changes in bold):
+
+> **Safety rule**
+
+**How it would read:** this paragraph goes.
+
+**Now** (the words it changes in bold):
+
+> **Even a completely real-feeling entity does not make decisions for your body. No entity may tell you to hurt yourself or another person, drive, jump, flee, accuse somebody, cross a sexual boundary, or make a life decision tonight.**
+
+**How it would read:** this paragraph goes.
+
+**Why:** No Rash Actions: Visions Are Not Commands already says this for anything a trip shows you, entities included. Its don'ts cover driving, accusing and life decisions, and it says "No revelation makes murder, assault, coercion, sexual boundary-crossing, reckless driving, or self-harm safe tonight." Jumping falls under self-harm there, and leaving is in Psychological First Aid ("if they want to leave, have someone go with them"). Reject if you want the rule repeated right where a frightened reader meets an entity.
+
+**What stays:** No Rash Actions whole, and the demons section's last paragraph (stabilize first).
+
+**For you to weigh:** Approve cuts the label and its two sentences; Reject keeps them.
+
+**My advice:** Approve: the rule lives where the guide sets out what not to act on.
+
+*Found by: the say-it-once look across the guide.*
+
