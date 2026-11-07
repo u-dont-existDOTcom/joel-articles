@@ -59,6 +59,11 @@ with his OK and no email.
   (#85), and the section read 15% AI on its last try (#86). "Slow & steady" (#87) and "It always goes deeper" (#91,
   with S4 and S5 in) read Human with Low windows; "Jealousy on trial" read 16% AI (#83), then its two pairs read High
   by themselves (#89, #90); "Beware idealization in either direction" (#92, with S8 in) read 9.6% AI.
+- 2026-11-07 (16:24 UTC pickup, `r16/`, every try linted first): "Slow & steady" (#96, after one more fix), "It
+  always goes deeper" (#97, one High window, with S4 and S5 in) and "Fantasy" (#99, with S16 in) read Human with no
+  Low. "Situationships" paragraph 34 read Human with no Low by itself (#95: his fun line left a little unbalanced,
+  "without (most of) the responsibility", bad-trips-2026-11-07g). "Jealousy on trial" read 28% AI on its last try
+  (#94), "Romance Shouldn't Be Adjudicated" 37% AI on its first (#98), and 147 with 148 37% AI (#93).
 
 ### Before 2026-11-07 (the registered master, as recorded then)
 
@@ -164,38 +169,35 @@ Use exact r23r2 on `main` as the sole current Romance working authority. The nex
 
 ## Current checkpoint
 
-2026-11-07, the 15:57 UTC pickup. 17 of the 22 spots read Human with no Low window (S1, S3, S4, S5, S6, S8, S10, S11, S12,
+2026-11-07, the 16:24 UTC pickup. 17 of the 22 spots read Human with no Low window (S1, S3, S4, S5, S6, S8, S10, S11, S12,
 S13, S14, S15, S16, S18, S19, S20, and S22 in its section, #69). S7 and S9 have a Low line, S21 reads AI only on its closing
 sentence (#46), and S2 and S17 wait on the marking page for Joel's versions.
 
-Ten sections with open Low windows in the live post now read Human with no Low window in their own check: "My flaws"
-(#61), "Peeking thru the window" (#67), "Things get tricky fast" (#68), "Holding up a leaky dam" (#70), "The window of
-clarity" (#71), "Anti-PTSD Can Be Just As Dangerous As PTSD" (#73), "Muses & Directors" (#81), "The Queen of Orgasms"
-(#82), "Labels Are Descriptive, Not Prescriptive" (#84) and "Disconnect to connect" (#88); so does "After leaving", with
-S22 in it (#69).
+Thirteen sections with open Low windows in the live post now read Human with no Low window in their own check: "My
+flaws" (#61), "Peeking thru the window" (#67), "Things get tricky fast" (#68), "Holding up a leaky dam" (#70), "The
+window of clarity" (#71), "Anti-PTSD Can Be Just As Dangerous As PTSD" (#73), "Muses & Directors" (#81), "The Queen of
+Orgasms" (#82), "Labels Are Descriptive, Not Prescriptive" (#84), "Disconnect to connect" (#88), "Slow & steady" (#96),
+"It always goes deeper" (#97) and "Fantasy" (#99); so does "After leaving", with S22 in it (#69). "Situationships"
+paragraph 34 reads Human with no Low by itself (#95); its section has had its two tries (#59, #86).
 
-Still open: "Situationships" (paragraph 34 has read below High five times and AI in its section, #86); "Jealousy on
-trial" (its second try, after its pairs read High, #89, #90); "Beware idealization in either direction" (9.6% AI, #92:
-my join of 148 and his "I can't find any flaw" read AI Low); "Slow & steady" (one Low window, #87); "It always goes
-deeper" (two Low windows, one on S5's closing sentences, #91).
+Still AI: "Jealousy on trial" (367 to 369, #94), "Romance Shouldn't Be Adjudicated" (285 to 287, #98) and "Beware
+idealization" (148, #93). All three are his general claims about men, women, monogamy and idealization, said evenly.
+Each reads High by itself and AI in its section, his live wording included, and my joins don't move them. That is the
+pattern of S2's card on the marking page, so his answer there is the likeliest way to learn how he'd say these.
 
-What these checks showed: a section checked by itself reads harsher than the whole post did. It shows Low and AI
-windows on his unchanged sentences that the extension read at Medium or High (#59, #75, #83, #86, #92), while the same
-paragraphs read High by themselves (#77 to #80). Under gate gut-2026-11-07a an AI window a section check shows is still
-work until a later paragraph or section check reads it Human, so those come first; a Low one can be named for the
-whole-article check. His short sentences joined to what they belong with, and a paragraph's point said first, keep
-reading High; general claims joined into one balanced sentence keep reading AI.
+What these checks showed: a section checked by itself reads harsher than the whole post did, and his general claims
+read AI there whatever the joins. His short sentences joined to what they belong with, a paragraph's point said first,
+and a claim left a little unbalanced ("without (most of) the responsibility") read High.
 
 ## Remaining
 
-1. S2 and S17: Joel's versions on the marking page; then carry what he did to the lines each card names.
-2. The AI windows section checks showed (gate gut-2026-11-07a): "Beware idealization" (148 back to his two sentences,
-   147 with 148 by themselves), "Situationships" paragraph 34 (a version that reads Human in a check after #86, or the
-   marking page), "Jealousy on trial" (its second try).
-3. The Low windows: "Slow & steady" (after one more fix, 28a), "It always goes deeper" (S5's closing sentences and 73),
-   then the sections with open Low windows and a fixed spot in them ("Some babies grow up faster", "Different levels in
-   different domains", "Romance Shouldn't Be Adjudicated", "Fantasy", "De-ontologizing Twin Flames"), each with the
-   spot's best try in place; the 8 Low windows of the post's last part (#47); S7's and S9's Low lines; S21's section.
+1. S2 and S17: Joel's versions on the marking page; then carry what he did to the lines each card names, and to the
+   stretches that share S2's pattern ("Jealousy on trial" 367 to 369, "Romance Shouldn't Be Adjudicated" 285 to 287,
+   "Beware idealization" 148).
+2. "Situationships": one more check of the section after the fix (28a), with paragraph 34 as it read in #95.
+3. The sections with a fixed spot and open Low windows ("Some babies grow up faster", "Different levels in different
+   domains", "De-ontologizing Twin Flames"), each with the spot's best try in place; the 8 Low windows of the post's last
+   part (#47); S7's and S9's Low lines; S21's section.
 4. A whole-article check of the fixed version (a temporary draft for his extension, in two parts, since his extension
    reads only the first 100,000 characters), then his post updated with his OK, no email.
 
@@ -207,9 +209,9 @@ reading High; general claims joined into one balanced sentence keep reading AI.
 ## Evidence / artifacts
 
 - `humanize/fix-20261107/live-check/META.json`, `AI-WINDOWS.json`, `LOW-WINDOWS.json`; `humanize/fix-20261107/r01/` to
-  `r15/` (check texts, receipts, predictions, results, tell panels); `review/teach-20261107/` (the marking page for S2 and
+  `r16/` (check texts, receipts, predictions, results, tell panels); `review/teach-20261107/` (the marking page for S2 and
   S17: `build_t1.py`, `REVIEW-T1.md`, `ARTIFACT.md`); `humanize/pangram-ledger.jsonl`; `humanize/SCORECARD.md`.
 
 ## Next safe action
 
-Read Joel's answers on the marking page when he gives them; meanwhile Remaining 2, then 3.
+Read Joel's answers on the marking page when he gives them; meanwhile Remaining 2 and 3.
