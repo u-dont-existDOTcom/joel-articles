@@ -1,0 +1,63 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-07",
+ "text_sha256": "223ebb57a5d10b72f972dd4a2a0575af767a1e9276de729803e81e398a7ac3c3",
+ "text": "The Signal Dial (GluD Receptors): So if NMDA is the spark, is there anything else turning the signal up or down? Well, Johns Hopkins researchers recently found that GluD receptors, which were mainly known for helping build synapses, are channels in their own right, opened by D-serine (one of the tools below) and GABA rather than by glutamate. A mutation that causes cerebellar ataxia leaves that channel leaking, stuck partly on, and it's only a hypothesis so far, one nobody has tested, that an armored state could jam it too, on \"High\" as hyper-vigilance or on \"Low\" as apathy or schizotypy.",
+ "section": "B. The \"Overheating\" CPU: Glutamate Excitotoxicity",
+ "reader": "someone with trauma or in withdrawal who is anxious, wired, ruminating or raging, wanting to know what is going on in the brain and which of the protocol's tools does what",
+ "sentences": [
+  {
+   "s": "The Signal Dial (GluD Receptors): So if NMDA is the spark, is there anything else turning the signal up or down?",
+   "payoff": "they wonder what else sets the level besides NMDA",
+   "follows": "follows the NMDA key"
+  },
+  {
+   "s": "Well, Johns Hopkins researchers recently found that GluD receptors, which were mainly known for helping build synapses, are channels in their own right, opened by D-serine (one of the tools below) and GABA rather than by glutamate.",
+   "payoff": "they learn what the 2025 discovery actually showed, and its link to D-serine",
+   "follows": "answers the question",
+   "link": "Well, Johns Hopkins researchers recently found"
+  },
+  {
+   "s": "A mutation that causes cerebellar ataxia leaves that channel leaking, stuck partly on, and it's only a hypothesis so far, one nobody has tested, that an armored state could jam it too, on \"High\" as hyper-vigilance or on \"Low\" as apathy or schizotypy.",
+   "payoff": "they learn the one proven case of the channel stuck on, and that the armor link is a hypothesis",
+   "follows": "says what is known and what is guessed",
+   "link": "A mutation that causes cerebellar ataxia"
+  }
+ ],
+ "checked": [
+  {
+   "point": "GluD as a master volume knob jammed High/Low in an armored state",
+   "found": "Wang et al. 2025 (Nature): purified human GluD2 is a ligand-gated channel opened by D-serine and GABA; a cerebellar ataxia mutation causes leak currents; no study of stress or armor states",
+   "still_needed": "yes: the D-serine link ties it to the tools, the armor link kept as his hypothesis",
+   "fate": "changed"
+  }
+ ],
+ "placement": "where the block is now in section B; its place is unchanged",
+ "opens": {
+  "first_sentence": "The Signal Dial (GluD Receptors): So if NMDA is the spark, is there anything else turning the signal up or down?",
+  "why_reading": "a question that asks what else sets the level, his opening"
+ },
+ "same_point": "none: read section B from its heading to C for the point; it is said here only",
+ "questions": {
+  "Q1": "PASS: read sentence by sentence against this reader",
+  "Q2": "PASS: read sentence by sentence against this reader",
+  "Q3": "PASS: read sentence by sentence against this reader",
+  "Q4": "PASS: read sentence by sentence against this reader",
+  "Q5": "PASS: read sentence by sentence against this reader",
+  "Q6": "PASS: read sentence by sentence against this reader",
+  "Q7": "PASS: read sentence by sentence against this reader",
+  "Q8": "PASS: read sentence by sentence against this reader",
+  "Q9": "PASS: read sentence by sentence against this reader"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}
