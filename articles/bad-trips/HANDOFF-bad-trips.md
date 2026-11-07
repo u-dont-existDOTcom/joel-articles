@@ -15,6 +15,7 @@ https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/bad-trips
 
 ## START HERE
 
+- **2026-11-07, the session's own resume (03:24 UTC, delivered 03:25, continued to 03:29).** The later list's one-try parts tried once more (no gain). Everything that doesn't need his answers is done for this pass. **First:** his round-12 and 15 to 21 answers in (SESSION-FORCE-ONCE, HELPER-GRIEF-CUT and AMZ-DANGER-ONCE need fidelity owner_changes entries if approved; round 16's lines keep their bold).
 - **2026-11-07, GitHub notices at 03:18 UTC (continued to 03:23).** The danger lists' card published: round 21 (Bad Trips Guide, Round 21, https://claude.ai/artifact/39RMiW1JzaYTKSpwzwCLGS). **First:** his round-12 and 15 to 21 answers in (AMZ-DANGER-ONCE needs a W099 owner_changes entry if approved); meanwhile the later list's one-try paragraphs.
 - **2026-11-07, the session's own resume (03:04 UTC, delivered 03:09, continued to 03:16).** After the Storm and the Appendix checked: the first pass through the whole guide is done. Round 20 published (one card; Bad Trips Guide, Round 20, https://claude.ai/artifact/VjnhkppXLZLS8Kn6CavQe2). **First:** his round-12 and 15 to 20 answers in; meanwhile the danger lists' card, then the later list's paragraphs with one try.
 - **2026-11-07, GitHub notices at 03:00 UTC (continued to 03:07).** Abuse Memories and Shadow Thoughts checked; one gain (ABUSE-TRUE) held for round 20. **First:** his round-12 to 19 answers in; meanwhile CURRENT-STATE.md's next step (After the Storm, the Appendix, then round 20).

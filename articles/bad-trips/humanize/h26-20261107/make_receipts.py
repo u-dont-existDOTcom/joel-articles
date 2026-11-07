@@ -19,6 +19,9 @@ BASE = json.loads((HERE.parent / 'h13-20261106/TEST-base-L1.receipt.json').read_
 OLD = {s['s']: s for s in BASE['sentences']}
 AFTER = "the next section's heading, after the reminder of where they are (a narrowing test)"
 HEADS = {
+    'Hand on Heart and Gratitude 🫶🏿': {'payoff': 'they know this part is about a hand on the heart, gratitude and touch', 'follows': AFTER, 'link': "none: a new section's heading; it opens the hand on the heart"},
+    'The Fear/Panic Loop': {'payoff': 'they know this part is about the fear loop and how to break it', 'follows': AFTER, 'link': "none: a new section's heading; it opens the fear/panic loop"},
+    'After the Storm': {'payoff': 'they know this part is about the days after a hard trip', 'follows': AFTER, 'link': "none: a new section's heading; it opens the aftermath"},
     'No Rash Actions: Visions Are Not Commands': {'payoff': 'they know this part is about not acting on what the trip shows', 'follows': AFTER,
                                                   'link': "none: a new section's heading; it opens not acting on visions"},
     'When the Trip Feels Amazing: Euphoric Certainty': {'payoff': 'they know this part is for when the trip feels amazing and certain', 'follows': AFTER,
@@ -45,6 +48,35 @@ NEW = {
     "Have I slept?": ('they know the first question: have I slept', 'the first question', 'none: the first of the two questions the line before opens'),
     "2.": ('they know the second question comes', 'the number of the second question', 'none: the number of the second of the two questions'),
     "Has this happened before, and how did it end?": ('they know the second question', 'the second question', 'none: the second of the two questions, after the first'),
+    'Touch, Consent, and Compassion': ('they know a part on touch follows', "the part's heading, after the section's", 'none: a part heading; it opens touch and consent'),
+    'Self-touch is different from somebody else touching you.': ('they know touching yourself differs from being touched', "the part's point, after its heading", "none: the part's first sentence, its point, after its heading"),
+    "Compassion doesn't mean you get to grab someone, or hug them, hold them down, stroke them or crowd in on them.": ('they know what compassion does not allow', 'what not to do', 'Compassion'),
+    'Ask first: "Would touch help, or would you rather have space?"': ('they know to ask first, and how', 'what to do instead', 'Ask first'),
+    'Good support may be silent presence from six feet away.': ('they know support can be quiet and at a distance', 'another way to help', 'Good support'),
+    'When the person says stop, freezes, pulls away, or seems unsure, stop.': ('they know when to stop', 'the stop rule', 'stop'),
+    "Touch must remain nonsexual, consensual, and unrelated to the helper's needs.": ('they know what touch must stay', 'the limits of touch', 'Touch'),
+    'Loop breaker:': ('they know the steps that break the loop follow', 'the lead into the steps', 'none: introduces the steps that break the loop, after the heading'),
+    'Name it: "This is fear trying to solve fear."': ('they know the first step: name it', 'the first step', 'none: the first step of the list the line before opens'),
+    "Stop debating: while you're peaking, it's no time for metaphysics, diagnosis or life decisions.": ('they know the second step: stop debating while peaking', 'the next step', 'Stop debating'),
+    'Move down the ladder: room → body → human → time.': ('they know the third step: move down the ladder', 'the next step', 'none: the third step of the same list, after the second'),
+    'Repeat: "This is a wave.': ('they know the fourth step: repeat this', 'the last step', 'none: the fourth step of the same list, after the third'),
+    'I don\'t have to solve it while peaking."': ('they know the rest of what to repeat', 'the rest of the last step', 'it'),
+    'Minimum Viable Integration': ('they know a part on the least integration follows', "the part's heading, after the section's", 'none: a part heading; it opens minimum integration'),
+    'First 24 hours: sleep, food, water, warmth, ordinary contact, and no big moves.': ('they know what the first day needs', 'the first step', 'none: the first step of the part, after its heading'),
+    'Next few days: write the facts – substance, dose when known, setting, events, triggers, what helped, and what made things worse.': ('they know what to write in the next days', 'the next step', 'none: the next step of the same list, after the first day'),
+    'Then: think about what it might have meant for your feelings, your spiritual life and your relationships, or just in practical terms.': ('they know to think about what it meant', 'the next step', 'it'),
+    'Last: make small behavioral changes that reduce suffering and increase love.': ('they know the last step: small changes', 'the last step', 'none: the last step of the same list, after the third'),
+    'What Kind of Aftermath Is This?': ('they know a part on kinds of aftermath follows', "the part's heading, after the section's", 'none: a part heading; it opens the kinds of aftermath'),
+    'When symptoms linger, name the pattern rather than collapsing everything into "I\'m broken," because different patterns need different support.': ('they know to name the pattern, and why', "the part's point, after its heading", "none: the part's first sentence, its point, after its heading"),
+    'Anxiety and fear: grounding, routine, reduced stimulation, CBT-style reality testing, and therapy when it persists.': ('they know one pattern and the support it needs', 'an item of the list of patterns', "none: an item of the list of patterns the part's point opens"),
+    'Sleep disturbance and nightmares: sleep hygiene, no more substances, and professional help when severe or prolonged.': ('they know one pattern and the support it needs', 'an item of the list of patterns', "none: an item of the list of patterns the part's point opens"),
+    'Derealization and depersonalization: ordinary-world grounding, exercise, nature, outside attention, less rumination, peer or family support, and therapy when needed.': ('they know one pattern and the support it needs', 'an item of the list of patterns', "none: an item of the list of patterns the part's point opens"),
+    'Visual distortions or HPPD-like symptoms: reduce stress and substance use; seek professional support when symptoms interfere with life.': ('they know one pattern and the support it needs', 'an item of the list of patterns', "none: an item of the list of patterns the part's point opens"),
+    'Social disconnection and shame: one or two safe humans, peer support, and no social-media crowdsourcing while raw.': ('they know one pattern and the support it needs', 'an item of the list of patterns', "none: an item of the list of patterns the part's point opens"),
+    'Existential shock: write it down, slow down, and return to practical love before building a metaphysical system.': ('they know one pattern and the support it needs', 'an item of the list of patterns', "none: an item of the list of patterns the part's point opens"),
+    'Trauma material: trauma-informed therapy or integration support, without immediate confrontation while destabilized.': ('they know one pattern and the support it needs', 'an item of the list of patterns', "none: an item of the list of patterns the part's point opens"),
+    'Paranoia or psychosis-like beliefs: professional support quickly, especially when beliefs drive unsafe action.': ('they know one pattern and the support it needs', 'an item of the list of patterns', "none: an item of the list of patterns the part's point opens"),
+    'Somatic hyperarousal: gentle movement, breathing, grounding, and medical care for severe, unusual, or worrying symptoms.': ('they know one pattern and the support it needs', 'an item of the list of patterns', "none: an item of the list of patterns the part's point opens"),
 }
 Q = {
     'Q1': "PASS: each paragraph opens on its point: the first priority, the room fixes with their reason, what the reminder is for, then the new section's point under its heading",
@@ -81,7 +113,7 @@ for name in sys.argv[1:]:
                       "(a narrowing test)" % head)
     r['opens']['why_reading'] = BASE['opens']['why_reading']
     r['same_point'] = ("none: read the section from its heading to the next for %s; its overlaps are in "
-                       "humanize/h26-20261107/RESULTS.md" % {'No Rash Actions: Visions Are Not Commands': 'the lock, its list, writing it down, experience-content and no revelation making harm safe', 'When the Trip Feels Amazing: Euphoric Certainty': 'the lock in bliss, the two questions and the revelation after breakfast'}[head])
+                       "humanize/h26-20261107/RESULTS.md" % {'Hand on Heart and Gratitude 🫶🏿': 'the hand on the heart, gratitude and touch', 'The Fear/Panic Loop': 'the loop and its breaker', 'After the Storm': 'not rushing, minimum integration, the kinds of aftermath, no another ceremony, the questions and the fruit of insight', 'No Rash Actions: Visions Are Not Commands': 'the lock, its list, writing it down, experience-content and no revelation making harm safe', 'When the Trip Feels Amazing: Euphoric Certainty': 'the lock in bliss, the two questions and the revelation after breakfast'}[head])
     r['questions'] = Q
     out.write_text(json.dumps(r, ensure_ascii=False, indent=1) + '\n')
     c = subprocess.run([sys.executable, str(SR), 'check', str(text), str(out)], capture_output=True, text=True)
