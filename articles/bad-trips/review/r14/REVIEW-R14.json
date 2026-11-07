@@ -1,0 +1,76 @@
+{
+ "format": "joel-suggestion-review-v1",
+ "review_id": "bad-trips-r14",
+ "title": "Bad Trips Guide, Round 14",
+ "intro": [
+  "Round 14 (2026-11-07). Round 13 is in. Who to Contact, and When, checked part by part after the Human first half of Psychological First Aid: its opening paragraph was the strongest pull toward AI, and its integration list reads Human as it is. One card, one sentence. The first list and the directories still read AI together; I'm working on the words around their facts next, and For the Person Helping after that. Round 12's card is still open on its own page."
+ ],
+ "git_file": "articles/bad-trips/review/r14/REVIEW-R14.html",
+ "article": {
+  "file": "articles/bad-trips/review/r14/PAGE-R14.md",
+  "sha256": "66fd746c0789768b0502654dd71c20cc995f2c58557b7e1661c99513f8f872b1"
+ },
+ "built": "2026-11-07",
+ "links": {
+  "guide": "https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261105/articles/bad-trips/GUIDE-SO-FAR.md",
+  "guide_label": "the guide as it stands",
+  "check": "https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261105/articles/bad-trips/humanize/h17-20261107/RESULTS.md",
+  "review": "https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261105/articles/bad-trips/review/r14/REVIEW-R14.md"
+ },
+ "types": {
+  "plain": {
+   "label": "Said plainly",
+   "about": "AI lines said plainly, each with its reason, the way he fixes his own windows"
+  },
+  "structure": {
+   "label": "Structure",
+   "about": "how the quick version and the long version split the guide, and where a part goes"
+  },
+  "repeat": {
+   "label": "Said twice",
+   "about": "a point the guide already makes elsewhere: one copy goes, the other stays"
+  },
+  "safety": {
+   "label": "Safety in one place",
+   "about": "a caution or call-for-help line said in several places, or one that changes nothing a reader does"
+  },
+  "question": {
+   "label": "Your call",
+   "about": "something only you can decide or know"
+  }
+ },
+ "suggestions": [
+  {
+   "id": "CONTACT-PLAIN",
+   "type": "plain",
+   "advice": "approve",
+   "title": "The contact list's opening, its second sentence said plainly",
+   "reading": "After the Human first half, the opening as the guide has it reads [63%](https://www.pangram.com/history/e4a25f65-49ee-4e2a-b1f5-7f93fa965ca4), its two sentences AI Medium and High.",
+   "tested": "With this change: [Human Written](https://www.pangram.com/history/3328665a-ddf4-4fbc-998c-58a8906ada02), every window Human. Changing the first sentence instead read [68%](https://www.pangram.com/history/2dffa905-8bfa-43f8-9558-581e8014b770). The whole section after the Human first half goes from 60% to [47%](https://www.pangram.com/history/affe4087-5803-44e5-966c-abfecdb4b424) with it; the lists are the rest.",
+   "what": "\"Hours and services change, and not every option works in every country.\" becomes \"Their hours and services change, and some only work in one country.\"",
+   "why": "\"Not every option works in every country\" is a stock hedge; saying which ones (some only work in one country) is plainer and still true of the list: Fireside and 988 are U.S.-only, and Crisis Text Line names its partner lines.",
+   "stays": "The first sentence (save the links and numbers before you need them) and every list below it.",
+   "deciding": "Approve puts the new sentence in; Revise lets you change it first.",
+   "advice_note": "Approve: one sentence, the same caveat, and the opening reads Human with it.",
+   "found_by": "Pangram after the Human first half, one part of the section at a time",
+   "receipt": [
+    "articles/bad-trips/humanize/h17-20261107/CARD-B262.receipt.json",
+    "articles/bad-trips/humanize/h17-20261107/TEST-base-KV2.receipt.json"
+   ],
+   "edits": [
+    {
+     "block": 218,
+     "before": "Save the relevant links and local numbers before you need them. Hours and services change, and not every option works in every country.",
+     "after": "Save the relevant links and local numbers before you need them. Their hours and services change, and some only work in one country."
+    }
+   ],
+   "spans": [
+    {
+     "block": 218,
+     "start": 64,
+     "end": 135
+    }
+   ]
+  }
+ ]
+}
