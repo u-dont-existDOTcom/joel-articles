@@ -1,0 +1,139 @@
+{
+ "format": "joel-suggestion-review-v1",
+ "review_id": "bad-trips-r15",
+ "title": "Bad Trips Guide, Round 15",
+ "intro": [
+  "Round 15 (2026-11-07). Round 14 is in. Three cards: one line in Who to Contact's first list, one lead-in in For the Person Helping, and the \"real grief\" paragraph cut as a repeat. That cut is yours to decide rather than mine, because the safety check tracks two of its warnings (dragging someone out of grief, trapping them in a loop). Round 12's card is still open on its own page."
+ ],
+ "git_file": "articles/bad-trips/review/r15/REVIEW-R15.html",
+ "article": {
+  "file": "articles/bad-trips/review/r15/PAGE-R15.md",
+  "sha256": "3b83a10703f6da23c43aa402c03492111588c5b67bb0610f7b2a139ae035a8fd"
+ },
+ "built": "2026-11-07",
+ "links": {
+  "guide": "https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261105/articles/bad-trips/GUIDE-SO-FAR.md",
+  "guide_label": "the guide as it stands",
+  "check": "https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261105/articles/bad-trips/humanize/h17-20261107/RESULTS.md",
+  "review": "https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261105/articles/bad-trips/review/r15/REVIEW-R15.md"
+ },
+ "types": {
+  "plain": {
+   "label": "Said plainly",
+   "about": "AI lines said plainly, each with its reason, the way he fixes his own windows"
+  },
+  "structure": {
+   "label": "Structure",
+   "about": "how the quick version and the long version split the guide, and where a part goes"
+  },
+  "repeat": {
+   "label": "Said twice",
+   "about": "a point the guide already makes elsewhere: one copy goes, the other stays"
+  },
+  "safety": {
+   "label": "Safety in one place",
+   "about": "a caution or call-for-help line said in several places, or one that changes nothing a reader does"
+  },
+  "question": {
+   "label": "Your call",
+   "about": "something only you can decide or know"
+  }
+ },
+ "suggestions": [
+  {
+   "id": "CONTACT-TRIPSIT",
+   "type": "plain",
+   "advice": "approve",
+   "title": "The TripSit line said as talk",
+   "reading": "After the Human first half of Psychological First Aid and the contact list's opening (round 14), the first list as the guide has it reads [65%](https://www.pangram.com/history/cd42656f-b28f-40af-87e9-70acb8df1bf6).",
+   "tested": "With this change: [45%](https://www.pangram.com/history/453eec39-0c0e-4e62-ac20-b4eb1aa94def), the TripSit line's windows Human. The Fireside line said differently instead read [67%](https://www.pangram.com/history/9b81a50c-69b1-48c1-bb94-a623596a4943).",
+   "what": "\"browser-based harm-reduction chat for people using drugs and the people supporting them\" becomes \"a harm-reduction chat you open in your browser, for people using drugs and for whoever's looking after them\".",
+   "why": "The same facts (harm reduction, in the browser, for users and the people with them), said the way you'd tell someone.",
+   "stays": "The name and its link, and the Fireside line above it (its number, hours and \"U.S.-only\" exactly).",
+   "deciding": "Approve puts the new line in; Revise lets you change it first.",
+   "advice_note": "Approve: the same facts, and the list reads better with it.",
+   "found_by": "Pangram after the Human first half and the contact opening, one line at a time",
+   "receipt": [
+    "articles/bad-trips/humanize/h17-20261107/CARD-TRIPSIT.receipt.json",
+    "articles/bad-trips/humanize/h17-20261107/TEST-base-DV1.receipt.json"
+   ],
+   "edits": [
+    {
+     "block": 221,
+     "before": "TripSit live chat: browser-based harm-reduction chat for people using drugs and the people supporting them.",
+     "after": "TripSit live chat: a harm-reduction chat you open in your browser, for people using drugs and for whoever's looking after them."
+    }
+   ],
+   "spans": [
+    {
+     "block": 221,
+     "start": 19,
+     "end": 106
+    }
+   ]
+  },
+  {
+   "id": "HELPER-PHRASE",
+   "type": "plain",
+   "advice": "approve",
+   "title": "The stay-present phrase, its lead-in said to the sitter",
+   "reading": "After the Human first half, the paragraph as the guide has it reads [60%](https://www.pangram.com/history/94e4bf77-43c1-445b-b9f2-cf75d80fb451).",
+   "tested": "With this change: [45%](https://www.pangram.com/history/2410f074-0033-4869-8dac-a1949eb371d3), the phrase's lines Human. The phrase itself is unchanged.",
+   "what": "\"A useful phrase is:\" becomes \"If it helps, you can say to yourself:\".",
+   "why": "The readers flagged \"A useful phrase is:\" as advice-article scaffolding. Saying who says the phrase (the sitter, to themselves) is plainer and makes clear it's for steadying the helper.",
+   "stays": "\"Stay present.\", both phrases word for word, and their italics.",
+   "deciding": "Approve puts the new lead-in in; Revise lets you change it first.",
+   "advice_note": "Approve: the same phrase, and the paragraph reads better with it.",
+   "found_by": "Pangram after the Human first half, then the tell panel (Codex, Sonnet, Haiku)",
+   "receipt": [
+    "articles/bad-trips/humanize/h16-20261107/CARD-PHRASE.receipt.json",
+    "articles/bad-trips/humanize/h16-20261107/TEST-base-R3-phrase.receipt.json"
+   ],
+   "edits": [
+    {
+     "block": 238,
+     "before": "Stay present. A useful phrase is: This feeling is allowed to move through. I don't have to become it. I can love the part of me that feels it. Or simply: Can I send love to the one who's suffering?",
+     "after": "Stay present. If it helps, you can say to yourself: This feeling is allowed to move through. I don't have to become it. I can love the part of me that feels it. Or simply: Can I send love to the one who's suffering?"
+    }
+   ],
+   "spans": [
+    {
+     "block": 238,
+     "start": 14,
+     "end": 33
+    }
+   ]
+  },
+  {
+   "id": "HELPER-GRIEF-CUT",
+   "type": "repeat",
+   "advice": "approve",
+   "title": "The \"real grief\" paragraph, said already",
+   "reading": "After the Human first half, the paragraph by itself reads [AI, 100%](https://www.pangram.com/history/763fcc5d-16e6-42d3-be3f-47f0dd2b9a04), and all three readers flagged all three of its sentences. Rewording it read AI too (the quip cut, [100%](https://www.pangram.com/history/e31e6cea-2eb3-4f5a-9e7c-3dad46058085); the two don'ts joined, [83%](https://www.pangram.com/history/959f47f9-1338-4ccd-bede-0ce54ce78326)).",
+   "tested": "The opening without it, after the Human first half: [79%](https://www.pangram.com/history/0fe50afc-728a-4281-ab3b-5d3df305842c). The opening's other paragraphs still read AI; this card takes out the part that only repeats.",
+   "what": "\"Don't drag somebody out of real grief. Don't trap them inside a loop that is grinding them down either. Love isn't stubbornness.\" goes.",
+   "why": "\"Don't drag somebody out of real grief\" is the paragraph two above (\"Crying, grieving, remembering, or touching a genuine wound calls for loving awareness.\"). Not leaving them stuck in a grinding loop is what The Fear/Panic Loop section is for. The last line is a quip. It's your call rather than mine because the safety check tracks two of its warnings, dragging someone out of grief and trapping them in a loop; with the cut they live in those two places.",
+   "stays": "The grief paragraph above it, \"Stay present.\" and its phrase, and The Fear/Panic Loop section.",
+   "deciding": "Approve cuts the paragraph; Reject keeps it.",
+   "advice_note": "Approve: both points are already made where a reader needs them.",
+   "found_by": "the say-it-once look across the guide, stopped by the fidelity check (it holds two warnings)",
+   "receipt": [
+    "articles/bad-trips/humanize/h16-20261107/TEST-base-R1-nogrief.receipt.json"
+   ],
+   "edits": [
+    {
+     "block": 239,
+     "before": "Don't drag somebody out of real grief. Don't trap them inside a loop that is grinding them down either. Love isn't stubbornness.",
+     "after": ""
+    }
+   ],
+   "spans": [
+    {
+     "block": 239,
+     "start": 0,
+     "end": 128
+    }
+   ]
+  }
+ ]
+}

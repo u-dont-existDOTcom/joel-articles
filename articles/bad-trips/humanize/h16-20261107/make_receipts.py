@@ -22,6 +22,20 @@ HEAD = {'payoff': 'they know this part is for the person helping, and that the j
         'follows': "the next section's heading, after the reminder of where they are",
         'link': "none: a new section's heading; it opens the helper's part"}
 NEW = {
+    "A good sitter is not there to win a philosophy debate, perform a rescue fantasy, impose an interpretation, or demonstrate spiritual advancement.": (
+        "they know what the sitter's job isn't", "the section's first point, under its heading", 'A good sitter'),
+    "Zendo-style harm reduction puts it simply: make a safe space, and sit with them rather than guide them.": (
+        "they know the first two things the sitter's job is, in Zendo's terms", "after what the job isn't, what it is", 'Zendo-style'),
+    "Talk them through it, not down from it, and remember that difficult doesn't automatically mean bad.": (
+        'they know the other two: talk them through, and difficult is not bad', 'the rest of the same list', 'Talk them through it'),
+    "Stay present.": ('they know to stay with the person', "the paragraph's point, first", 'none: the paragraph\'s first sentence, its point, after the paragraph on grief'),
+    "If it helps, you can say to yourself: This feeling is allowed to move through.": (
+        'they have a phrase to steady themselves with', 'how to stay present', 'If it helps'),
+    "I don't have to become it.": ('the phrase goes on: they needn\'t become the feeling', "the phrase's next line", 'it'),
+    "I can love the part of me that feels it.": ('the phrase ends: they can love the part that feels it', "the phrase's last line", 'the part of me that feels it'),
+    "Or simply: Can I send love to the one who's suffering?": ('they have a shorter phrase too', 'the other phrase, after the first', 'Or simply'),
+    "A useful phrase is: This feeling is allowed to move through.": ('they have a phrase to steady themselves with', 'how to stay present', 'A useful phrase'),
+    "Crying, grieving, remembering, or touching a genuine wound calls for loving awareness.": ('they know what to give someone in grief or pain', "the paragraph's point, first", 'none: a new paragraph on grief, after the sitter\'s job in Zendo\'s terms'),
     "As the sitter, you're not there to win a philosophy debate or play the rescuer, and you're not there to hand them your interpretation or show how spiritually advanced you are.": (
         "they know what the sitter's job isn't", "the section's first point, under its heading", 'As the sitter'),
     "Zendo-style harm reduction can be summarized as creating a safe space, sitting rather than guiding, talking through rather than down, and remembering that difficult does not automatically mean bad.": (

@@ -24,3 +24,9 @@ part on the Human base, one paragraph at a time.
 | "Don't drag somebody out of real grief ..." (B84) | [AI, 100%](https://www.pangram.com/history/763fcc5d-16e6-42d3-be3f-47f0dd2b9a04) | [AI, 100%](https://www.pangram.com/history/e31e6cea-2eb3-4f5a-9e7c-3dad46058085) with the quip cut; [83%](https://www.pangram.com/history/959f47f9-1338-4ccd-bede-0ce54ce78326) with its two don'ts joined |
 
 Next: the tell panel on the opening, then one agreed sentence at a time; the Do and Don't lists and the harm part after.
+
+## Round 15's tries (00:41 UTC)
+
+- The opening without the "real grief" paragraph: [79%](https://www.pangram.com/history/0fe50afc-728a-4281-ab3b-5d3df305842c) (round 15's card, his call: the fidelity keys hold its two warnings).
+- The Zendo summary split into two plain sentences: [AI, 100%](https://www.pangram.com/history/49b81a23-0642-4e7d-a3e2-d54f2c6ad9a3).
+- "A useful phrase is:" said as "If it helps, you can say to yourself:": [45%](https://www.pangram.com/history/2410f074-0033-4869-8dac-a1949eb371d3) (60% before); round 15's card.
