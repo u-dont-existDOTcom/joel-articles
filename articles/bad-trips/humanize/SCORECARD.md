@@ -8,7 +8,7 @@ Built by `tools/humanization/pangram_ledger.py build` from `articles/bad-trips/h
 |---|---|---|---|---|---|---|
 | Pangram 4.1 extension (free, live post; Joel's check of 2026-10-18, the same text as his 2026-11-03 paste by SHA-256) | 1 | 1 (100%) | 100% | 0% | 0% | 0.000 (base 0.000, 1) |
 | Pangram web app (his account, Pangram Professional) | 3 | 3 (100%) | 100% | 0% | 0% | 0.092 (base 0.000, 3) |
-| Pangram web app (his account, Pangram Professional), through the Claude desktop app's browser pane | 297 | 273 (92%) | 88% | 12% | 12% | 0.122 (base 0.109, 297) |
+| Pangram web app (his account, Pangram Professional), through the Claude desktop app's browser pane | 301 | 277 (92%) | 88% | 12% | 12% | 0.122 (base 0.108, 301) |
 | pangram 4.1, the web app: Joel's account, run by the lane in the desktop app's browser pane (E356) | 8 | 6 (75%) | 50% | 50% | 75% | 0.170 (base 0.250, 8) |
 
 ## Pangram 4.1 extension (free, live post; Joel's check of 2026-10-18, the same text as his 2026-11-03 paste by SHA-256)
@@ -56,16 +56,16 @@ Calibration:
 
 | window | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| the latest 50 | 50 | 45 (90%) | 88% | 12% | 6% | 0.115 (base 0.106, 50) |
-| the latest 100 | 100 | 91 (91%) | 87% | 13% | 8% | 0.111 (base 0.113, 100) |
-| all | 297 | 273 (92%) | 88% | 12% | 12% | 0.122 (base 0.109, 297) |
+| the latest 50 | 50 | 45 (90%) | 88% | 12% | 6% | 0.114 (base 0.106, 50) |
+| the latest 100 | 100 | 91 (91%) | 87% | 13% | 8% | 0.112 (base 0.113, 100) |
+| all | 301 | 277 (92%) | 88% | 12% | 12% | 0.122 (base 0.108, 301) |
 
 The boundary mix (what was checked; accuracy differs a lot between a paragraph and a section):
 
 | scope or kind | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
 | section | 68 | 65 (96%) | 93% | 7% | 12% | 0.083 (base 0.068, 68) |
-| paragraph | 182 | 165 (91%) | 85% | 15% | 11% | 0.124 (base 0.126, 182) |
+| paragraph | 186 | 169 (91%) | 85% | 15% | 11% | 0.123 (base 0.124, 186) |
 | pair | 47 | 43 (91%) | 89% | 11% | 15% | 0.171 (base 0.095, 47) |
 
 Calibration:
@@ -73,7 +73,7 @@ Calibration:
 | my chance of a 100% Human result | calls | mean chance | read Human |
 |---|---|---|---|
 | 0.0 to 0.2 | 26 | 0.13 | 0% |
-| 0.2 to 0.4 | 179 | 0.28 | 5% |
+| 0.2 to 0.4 | 183 | 0.28 | 5% |
 | 0.4 to 0.6 | 81 | 0.45 | 22% |
 | 0.6 to 0.8 | 14 | 0.67 | 86% |
 | 0.8 to 1.0 | 1 | 0.80 | 100% |
@@ -263,7 +263,7 @@ The latest:
 | bad-trips The Fear/Panic Loop as the guide has it | section | 1 of 2 | AI |
 | bad-trips The Fear/Panic Loop after the Human section | section | 1 of 2 | Mixed |
 | bad-trips The Fear/Panic Loop after the Human section, F1 | paragraph | 2 of 6 | AI |
-| bad-trips The Fear/Panic Loop after the Human section, F2 | paragraph | 1 of 6 | Mixed |
+| bad-trips The Fear/Panic Loop after the Human section, F2 | paragraph | 2 of 6 | Mixed |
 | bad-trips Dealing With Sorrow as the guide has it | section | 1 of 2 | Mixed |
 | bad-trips Dealing With Sorrow after the Human section | section | 1 of 2 | Mixed |
 | bad-trips Dealing With Sorrow after the Human section, S2 | paragraph | 2 of 6 | Mixed |
@@ -272,7 +272,7 @@ The latest:
 | bad-trips Hand on Heart after the Human section | section | 1 of 2 | Mixed |
 | bad-trips Hand on Heart after the Human section, H1 | paragraph | 2 of 6 | Mixed |
 | bad-trips Hand on Heart after the Human section, H2 | paragraph | 1 of 6 | Mixed |
-| bad-trips Hand on Heart after the Human section, HT | paragraph | 1 of 6 | Mixed |
+| bad-trips Hand on Heart after the Human section, HT | paragraph | 2 of 6 | Mixed |
 | bad-trips Demons, Jinn, Entities as the guide has it | section | 1 of 2 | AI |
 | bad-trips Demons, Jinn, Entities after the Human section | section | 1 of 2 | Mixed |
 | bad-trips Demons, Jinn, Entities after the Human section, DB | paragraph | 2 of 6 | Mixed |
@@ -292,8 +292,8 @@ The latest:
 | bad-trips After the Storm as the guide has it | section | 1 of 2 | AI |
 | bad-trips After the Storm after the Human section | section | 1 of 2 | Mixed |
 | bad-trips After the Storm after the Human section, P1 | paragraph | 2 of 6 | AI |
-| bad-trips After the Storm after the Human section, P2 | paragraph | 1 of 6 | Mixed |
-| bad-trips After the Storm after the Human section, P3 | paragraph | 1 of 6 | Mixed |
+| bad-trips After the Storm after the Human section, P2 | paragraph | 2 of 6 | Mixed |
+| bad-trips After the Storm after the Human section, P3 | paragraph | 2 of 6 | Mixed |
 | bad-trips After the Storm after the Human section, P4 | paragraph | 2 of 6 | Mixed |
 | bad-trips After the Storm after the Human section, P5 | paragraph | 2 of 6 | Mixed |
 | bad-trips After the Storm after the Human section, P6 | paragraph | 1 of 6 | Mixed |

@@ -953,6 +953,45 @@
     }
    ],
    "recorded_utc": "2026-11-07T03:23Z"
+  },
+  {
+   "turn": "2026-11-07T03:25Z",
+   "lines_of_work": [
+    "bad trips guide"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "root AGENTS.md (sha 3146ac4a), unchanged"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "articles/bad-trips CURRENT-STATE.md next step"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no edits by others since 03:23 (git log on main)"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "3 queued: this resume (fired 03:24) and GitHub notices on the merged pull request; nothing to do on it"
+    }
+   ],
+   "items": [
+    {
+     "item": "the later list",
+     "outcome": "one more sentence each, no gain"
+    },
+    {
+     "item": "the helper's don'ts",
+     "outcome": "each adds something, no card"
+    }
+   ],
+   "recorded_utc": "2026-11-07T03:28Z"
   }
  ]
 }
