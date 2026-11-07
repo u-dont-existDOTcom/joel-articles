@@ -26,7 +26,7 @@
         },
         "current_state": {
           "path": "articles/romance/CURRENT-STATE.md",
-          "sha256": "c6ddee30d835c209e5648bf1d9242d45a9ba3a41f28cc664d34fbca9255de40f"
+          "sha256": "0868387335722d511c3f2a46c3eaffdfd4f59c3958a88a7a6ab801194061cebc"
         }
       },
       "review": {
@@ -1880,7 +1880,7 @@
         },
         {
           "path": "articles/romance/humanize/fix-20261107/whole/README.md",
-          "sha256": "e4261f9663e5d9c1c74164df5e0f2f47b8128404b9b5857ffd8c260b988f6f3d",
+          "sha256": "92516a5e9660349988dd73bdea603b0cbb18d39ea506b77fbafc7cdec6cc6a57",
           "role": "humanization_working_record"
         },
         {
@@ -1905,7 +1905,7 @@
         },
         {
           "path": "articles/romance/humanize/fix-20261107/whole/build_draft.js",
-          "sha256": "acd686355c3b38b2c7e6542e1b261515efa85886416ff9ce6c0aa070aa764758",
+          "sha256": "c585c7d7d6007b9d8014e50c13878f8fcd7db4c57b8a0234bd0b4863457a3c79",
           "role": "humanization_working_record"
         },
         {
@@ -1986,6 +1986,16 @@
         {
           "path": "articles/romance/humanize/fix-20261107/whole/sense/reads/READ-1.json",
           "sha256": "811ad0053b4af459241044c03083a6fdaa2ac01bbd57c90749d32ef8108dcdd1",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/whole/DRAFTS.json",
+          "sha256": "3f3c4a8dff12aa1f8173e7f92291b426fcd32d205ba51440e93cf18f22e88d2b",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/whole/EMBEDS.md",
+          "sha256": "10ea722d60c44f17e587a9ea958b479bc2ae8fc7a411ee81e30f0ef95032c9fa",
           "role": "humanization_working_record"
         }
       ]

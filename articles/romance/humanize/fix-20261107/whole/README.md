@@ -24,3 +24,8 @@ on trial" 367 to 369) and "Two Pillars" 332 (owner lock) are as the live post ha
   embeds and buttons are left out of the drafts: Pangram's check reads paragraphs and list items only. A changed
   paragraph's inline formatting (links, bold) isn't carried into the draft; the live update will merge the new words into
   the editor HTML (`tools/humanization/substack_merge.py`).
+- `DRAFTS.json`: the two temporary drafts made with it (draft A to "Primal attraction", draft B from there), each one's
+  checked text's SHA-256, and the rendered check of each secret link (both matched). The links themselves stay out of Git.
+  The whole-article check waits until every window a smaller check read AI reads Human in a later smaller check (gate
+  gut-2026-11-07a); then the drafts get the text pasted again.
+- `EMBEDS.md`: the live post's pictures, videos and embeds, from the post itself.
