@@ -1,0 +1,99 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-07",
+ "text_sha256": "59ff3c4882bcec93173e3ad75be5d1cf1b09f1e4f076718ccad4ff68b427475f",
+ "text": "The degree of idealization also predicts the degree of demonization for me. I don’t mean this as a clinical diagnosis, but I use it almost diagnostically in my own life. If a woman says, “You’re such a great guy. Of course you have flaws like anyone, but I love you,” that sounds healthy. If she says, “You’re perfect. I can’t find any flaw,” I’m already running.\n\nWhen the BPD splitting happens, and someone flips from seeing you as all good to seeing you as all bad, private hatred can replace worship. Then come public accusations, rewriting the whole past and treating every flaw as proof that the person was fake all along. Sometimes the woman who thought I was perfect later accuses me of thinking I’m perfect.",
+ "section": "Beware idealization in either direction",
+ "reader": "Someone being adored early in a relationship, deciding whether that is love or a warning sign.",
+ "sentences": [
+  {
+   "s": "The degree of idealization also predicts the degree of demonization for me.",
+   "payoff": "the reader learns idealization predicts demonization for him",
+   "follows": "opens the paragraph"
+  },
+  {
+   "s": "I don’t mean this as a clinical diagnosis, but I use it almost diagnostically in my own life.",
+   "payoff": "the reader learns he uses it almost as a diagnosis in his life",
+   "follows": "how he uses it",
+   "link": "I don’t mean this as a clinical diagnosis"
+  },
+  {
+   "s": "If a woman says, “You’re such a great guy.",
+   "payoff": "the reader learns \"you’re a great guy\" sounds healthy",
+   "follows": "the healthy version",
+   "link": "If a woman says"
+  },
+  {
+   "s": "Of course you have flaws like anyone, but I love you,” that sounds healthy.",
+   "payoff": "the reader learns flaws and love together sound healthy",
+   "follows": "the rest of it",
+   "link": "Of course you have flaws"
+  },
+  {
+   "s": "If she says, “You’re perfect.",
+   "payoff": "the reader learns \"you’re perfect\" worries him",
+   "follows": "the worrying version",
+   "link": "If she says"
+  },
+  {
+   "s": "I can’t find any flaw,” I’m already running.",
+   "payoff": "the reader learns \"no flaw\" makes him run",
+   "follows": "his reaction",
+   "link": "I can’t find any flaw"
+  },
+  {
+   "s": "When the BPD splitting happens, and someone flips from seeing you as all good to seeing you as all bad, private hatred can replace worship.",
+   "payoff": "the reader learns in splitting someone flips from all good to all bad, and hatred replaces worship",
+   "follows": "what happens then",
+   "link": "When the BPD splitting happens"
+  },
+  {
+   "s": "Then come public accusations, rewriting the whole past and treating every flaw as proof that the person was fake all along.",
+   "payoff": "the reader learns then come public accusations and a rewritten past",
+   "follows": "what comes after",
+   "link": "Then come public accusations"
+  },
+  {
+   "s": "Sometimes the woman who thought I was perfect later accuses me of thinking I’m perfect.",
+   "payoff": "the reader learns the one who thought him perfect later says he thinks he’s perfect",
+   "follows": "the irony",
+   "link": "Sometimes the woman who thought"
+  }
+ ],
+ "checked": [
+  {
+   "point": "the Low windows’ points",
+   "found": "the live post (../../live-check/LOW-WINDOWS.json)",
+   "still_needed": "yes: the section needs them",
+   "fate": "changed"
+  }
+ ],
+ "placement": "The paragraph (with the one it leans on) in its place in the live post, for the section gate (E343).",
+ "opens": {
+  "first_sentence": "The degree of idealization also predicts the degree of demonization for me.",
+  "why_reading": "It tells the reader idealization predicts demonization."
+ },
+ "same_point": "none: read the section from its heading to the next for these points; each is made once, here",
+ "questions": {
+  "Q1": "PASS: each changed sentence gives its point first, in plain words",
+  "Q2": "N/A: these sections tell and ask; the advice in them is unchanged",
+  "Q3": "PASS: the people, places, numbers and things are named as in the live post",
+  "Q4": "PASS: \"splitting\" is explained where it is first used; no other new term",
+  "Q5": "PASS: each sentence’s tie is in its words (the links field), or the link says why it needs none",
+  "Q6": "PASS: the order is the live post’s; the joins named in texts.py keep it",
+  "Q7": "PASS: each change keeps what the section tells the reader about their own case",
+  "Q8": "PASS: no item moved between groups",
+  "Q9": "PASS: one step per sentence in the changed paragraphs"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

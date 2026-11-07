@@ -3,7 +3,7 @@
 - `live-check/`: his extension's result on the live post (`META.json`, `AI-WINDOWS.json`: the 41 AI windows, 21 spots, by
   code-point offset into the text it read; `LOW-WINDOWS.json`: its 54 Human Low windows, with the fix that has rechecked
   each where there is one).
-- `r01/` to `r15/`: check texts (`checks/texts.py`), making-sense receipts (`make_receipts.py`), predictions
+- `r01/` to `r16/`: check texts (`checks/texts.py`), making-sense receipts (`make_receipts.py`), predictions
   (`predict_rNN.py`, from r03) and results (`RESULTS-*.json`), one key per check (`r01-s1` is spot S1's first try; a
   letter after the number, as in `r03-s2b`, tells apart two tries at one spot). Predictions and results are in
   `../pangram-ledger.jsonl`. `r03/checks/CHECK-r03-s2c.txt` was written but never checked: try 3 read first, and try 4
@@ -28,6 +28,10 @@
   "Slow & steady" and "Disconnect to connect", the narrowing of "Jealousy on trial", and the first tries at "It always
   goes deeper" and "Beware idealization in either direction" with S4, S5 and S8 in. Results files abridge long Human
   High windows, marked "(through)"; their full words are the check texts.
+- `r16/`: every try linted first (`tools/humanization/tells_lint.py`, gate bad-trips-2026-11-07h). Paragraph 34 of
+  "Situationships" with its fun line left a little unbalanced, "Beware idealization" 147 with 148, the second tries at
+  "Jealousy on trial" and "It always goes deeper", "Slow & steady" after a fix, and the first tries at "Romance
+  Shouldn't Be Adjudicated" and "Fantasy" with S15 and S16 in.
 - The marking page for S2 and S17 is in `../../review/teach-20261107/`.
 
 The spots are numbered S1 to S21 in the order they appear in the post, and S22 is the one the post's last part turned up (#47) (`../../CURRENT-STATE.md` lists which are done).
