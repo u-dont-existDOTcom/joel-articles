@@ -127383,7 +127383,7 @@
         },
         {
           "path": "articles/healing-the-gut/humanize/fix-20261103/live/UPDATE-PLAN-4.json",
-          "sha256": "2f701cf60d868352f34f3b1abc72573527e4af585b82a44367c6b33bc03d6ee5",
+          "sha256": "f87e6ec4996501e4702d142f2a7761f3c3a386719d04e68e448925b322637f2f",
           "role": "humanization_working_record"
         },
         {
@@ -127524,6 +127524,36 @@
         {
           "path": "articles/healing-the-gut/humanize/fix-20261103/r32/r32.md",
           "sha256": "f855b43380718047f324e19be35359e5dd084f96fc69729a5663450fc29c0051",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/healing-the-gut/humanize/fix-20261103/r33/README.md",
+          "sha256": "d352bf3c5d5069f233f03f70a365587b8e0045a4764cead98fab29c64163663a",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/healing-the-gut/humanize/fix-20261103/r33/build_r33.py",
+          "sha256": "c36ccc7607c489a1c173a5de661f265a09ba85d50d7b510fb02e4059feacf400",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/healing-the-gut/humanize/fix-20261103/r33/live-update/EXPECTED-TEXT-r33.txt",
+          "sha256": "dcc147ee34d862312a7291fee020881c13f629629e9260733f17ec80c13ed060",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/healing-the-gut/humanize/fix-20261103/r33/live-update/make_r33_html.py",
+          "sha256": "81d4ea36a86f89e2b726e4253322ee8b4a5d52983411e9652c57ed20ab58e884",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/healing-the-gut/humanize/fix-20261103/r33/live-update/r33.html",
+          "sha256": "e0ee6db16b6fc02979c1e1cdb6bf49b71e1f91e55abe9c67618a66a5e4b75f66",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/healing-the-gut/humanize/fix-20261103/r33/r33.md",
+          "sha256": "ec6dfc65dc08ff0b1b41f4e454e8e140c5ae75f59c126e2001094b5ba7f09906",
           "role": "humanization_working_record"
         }
       ]
