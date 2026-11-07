@@ -1,0 +1,117 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-07",
+ "text_sha256": "29a4e9283ca0fa6aa1bd063025e1213119c3982f9b3c389043e2b71a1569e689",
+ "text": "Once I’m attached, “I’m taking a chance on her” starts turning into “she’s the right person” after we’ve been together for a while. Based on what? Sometimes I actually learned something, and sometimes nothing changed except that now I’m attached, so the new certainty is just harder for me to question.\n\nIf I have sex with somebody quickly, that’s a reason not to move in quickly too. Moving in together right away is basically getting into a common-law marriage without discussing it. It’s too easy for me to assume the relationship is going well just because we’re already entangled. So I want us to keep seeing friends, have some kind of community around the relationship, and pick actual dates to ask how it’s going.\n\nI can know I want her much faster than I can know whether I want to raise children with her, live in community with her, or build a life with her.\n\nAt some point one of you will ask, “Why am I special to you? Why are you with me and not somebody else?” If the answer is basically, “We had sex and got hitched?” I don’t know, that’s a damn shame.",
+ "section": "Holding up a leaky dam",
+ "reader": "Someone a few weeks into a relationship, deciding whether their growing certainty about the person is earned.",
+ "sentences": [
+  {
+   "s": "Once I’m attached, “I’m taking a chance on her” starts turning into “she’s the right person” after we’ve been together for a while.",
+   "payoff": "the reader learns once attached, a chance becomes \"she’s the right person\"",
+   "follows": "opens the section"
+  },
+  {
+   "s": "Based on what?",
+   "payoff": "the reader learns he asks what that certainty rests on",
+   "follows": "the challenge to it",
+   "link": "Based on what?"
+  },
+  {
+   "s": "Sometimes I actually learned something, and sometimes nothing changed except that now I’m attached, so the new certainty is just harder for me to question.",
+   "payoff": "the reader learns sometimes he learned something, sometimes only got attached, which makes it hard to question",
+   "follows": "the two answers",
+   "link": "Sometimes I actually learned something"
+  },
+  {
+   "s": "If I have sex with somebody quickly, that’s a reason not to move in quickly too.",
+   "payoff": "the reader learns quick sex is a reason not to move in quickly too",
+   "follows": "what follows for him from that",
+   "link": "If I have sex with somebody quickly"
+  },
+  {
+   "s": "Moving in together right away is basically getting into a common-law marriage without discussing it.",
+   "payoff": "the reader learns moving in right away is a common-law marriage without discussing it",
+   "follows": "why moving in waits",
+   "link": "Moving in together right away"
+  },
+  {
+   "s": "It’s too easy for me to assume the relationship is going well just because we’re already entangled.",
+   "payoff": "the reader learns being entangled can pass for the relationship going well",
+   "follows": "the risk in it",
+   "link": "It’s too easy"
+  },
+  {
+   "s": "So I want us to keep seeing friends, have some kind of community around the relationship, and pick actual dates to ask how it’s going.",
+   "payoff": "the reader learns so keep friends, a community, and dates to check how it’s going",
+   "follows": "what he wants because of that",
+   "link": "So I want us"
+  },
+  {
+   "s": "I can know I want her much faster than I can know whether I want to raise children with her, live in community with her, or build a life with her.",
+   "payoff": "the reader learns he can know he wants her long before knowing about children, community or a life together",
+   "follows": "why the slower questions need time",
+   "link": "I can know I want her much faster"
+  },
+  {
+   "s": "At some point one of you will ask, “Why am I special to you?",
+   "payoff": "the reader learns one of you will ask why they are special",
+   "follows": "the question that will come",
+   "link": "At some point one of you will ask"
+  },
+  {
+   "s": "Why are you with me and not somebody else?”",
+   "payoff": "the reader learns why you and not somebody else",
+   "follows": "the same question again",
+   "link": "Why are you with me"
+  },
+  {
+   "s": "If the answer is basically, “We had sex and got hitched?”",
+   "payoff": "the reader learns the answer may be only sex and getting hitched",
+   "follows": "the answer he fears",
+   "link": "If the answer is basically"
+  },
+  {
+   "s": "I don’t know, that’s a damn shame.",
+   "payoff": "the reader learns that answer is a damn shame",
+   "follows": "his verdict on that answer",
+   "link": "that’s a damn shame"
+  }
+ ],
+ "checked": [
+  {
+   "point": "the Low windows’ points",
+   "found": "the live post (../../live-check/LOW-WINDOWS.json)",
+   "still_needed": "yes: the section needs them",
+   "fate": "changed"
+  }
+ ],
+ "placement": "The whole section, in its place in the live post, its heading left out.",
+ "opens": {
+  "first_sentence": "Once I’m attached, “I’m taking a chance on her” starts turning into “she’s the right person” after we’ve been together for a while.",
+  "why_reading": "It tells the reader attachment turns a chance into certainty, which they may be feeling now."
+ },
+ "same_point": "none: read the section from its heading to the next for these points; each is made once, here",
+ "questions": {
+  "Q1": "PASS: each changed sentence gives its point first, in plain words",
+  "Q2": "N/A: these sections tell and ask; the advice in them is unchanged",
+  "Q3": "PASS: the people, places, numbers and things are named as in the live post",
+  "Q4": "PASS: no new term",
+  "Q5": "PASS: each sentence’s tie is in its words (the links field), or the link says why it needs none",
+  "Q6": "PASS: the order is the live post’s, with the moves named in texts.py (176’s reason before its list; the oxytocin paragraph’s point in its first sentence)",
+  "Q7": "PASS: each change keeps what the section tells the reader about their own case",
+  "Q8": "PASS: no item moved between groups",
+  "Q9": "PASS: one step per sentence in the changed paragraphs"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

@@ -41,6 +41,12 @@ with his OK and no email.
   ([the page](https://claude.ai/artifact/CMRNDtBm4bBRB3741geGoY), its cards in `review/teach-20261107/REVIEW-T1.md`).
   The first Low-window section, "Holding up a leaky dam" (#51, `r09/`): its short sentences joined read Human Medium, but
   the want list joined to its reason read AI Medium.
+- 2026-11-07 (15:09 UTC pickup, `humanize/fix-20261107/r10/` to `r12/`): S22's paragraphs checked by themselves
+  (#54 to #56), then its section a second time (#62): Human, no AI window left (41% AI in #50), two Human Low windows.
+  "Holding up a leaky dam" (#57, #63): Human, one Low window left, on the want list. Three more sections with open
+  Low windows read Human with no Low: "My flaws" (#61), "Peeking thru the window" (#67) and "Things get tricky fast"
+  (#68). "The window of clarity" (#60, 15% AI) and "Situationships" (#59, 31% AI) narrowed to their paragraphs:
+  paragraph 33 (#64) and the oxytocin paragraph (#66) read Human High by themselves, paragraph 34 Human Low (#65).
 
 ### Before 2026-11-07 (the registered master, as recorded then)
 
@@ -146,24 +152,31 @@ Use exact r23r2 on `main` as the sole current Romance working authority. The nex
 
 ## Current checkpoint
 
-2026-11-07, the 14:49 UTC pickup. 16 of the 21 spots read Human with no Low window (S1, S3, S4, S5, S6, S8, S10, S11, S12,
-S13, S14, S15, S16, S18, S19, S20); S7 and S9 have a Low line. S2 and S17 are on the marking page for Joel, waiting for his
-versions. S21 reads AI only on its closing sentence inside its section (#46). S22, in "After leaving", read 41% AI on its
-first try (#50): its noun list said with verbs read Human Medium; the triad, the seeing sentences, the denial said as a
-feeling, and the advice joined to its reason all read AI. In "Holding up a leaky dam" (#51), joining the short Sometimes
-sentences fixed three Low windows (Human Medium), and joining the want list to its reason made it AI Medium.
+2026-11-07, the 15:09 UTC pickup. 16 of the 22 spots read Human with no Low window (S1, S3, S4, S5, S6, S8, S10, S11, S12,
+S13, S14, S15, S16, S18, S19, S20). S22 reads Human inside "After leaving" (#62), with two Low windows: my last sentence of
+its middle paragraph, and his own "Looking honestly at your part doesn’t erase theirs." S7 and S9 have a Low line, S21
+reads AI only on its closing sentence (#46), and S2 and S17 wait on the marking page for Joel's versions.
 
-What these checks keep showing: a reason fastened to a list or a comparison ("because otherwise", "Otherwise I end up")
-reads AI (S10, #19 and #35; the dam section, #51), and the two-paragraph checks misjudge both ways, so sections are the
-unit to check.
+Of the live post's 35 open Low windows, 9 now read Human at Medium or High inside their sections ("My flaws", "Peeking
+thru the window", "Things get tricky fast", the dam's paragraph 175, the attachment-reading sentence), and 2 more by
+themselves (paragraph 33, the oxytocin paragraph), each waiting for its section's second try. Still Low: the dam's want
+list (#63), paragraph 34 of "Situationships" (#65) and its closing line about H.
+
+What these checks showed: his short sentences joined into the one before or after them read High (the dam's Sometimes
+sentences, his flaws list opened with a colon, the card-game high, the tricky section's three joins); his general claims
+joined into one balanced sentence read AI ("gets the fun without the responsibility, but ...", #59); and moving a
+paragraph's point up so that two if-sentences stand bare made them AI (#60). The web app takes 50 words at least.
 
 ## Remaining
 
 1. S2 and S17: Joel's versions on the marking page; then carry what he did to the lines each card names.
-2. S22: the section gate asks for its paragraphs checked by themselves before the section's second try.
-3. S21: its section's last try, after narrowing (#49 did that).
-4. "Holding up a leaky dam": its second try, keeping the Sometimes join and his want list as he wrote it; then the other
-   open Low windows (`live-check/LOW-WINDOWS.json`), section by section, and S7's and S9's Low lines.
+2. S22: one fix for each of its two Low windows, then the section again (it has had its two tries: his answer 28a).
+3. "Holding up a leaky dam": the want list (#63), then the section again (28a). "The window of clarity": its second try
+   with the oxytocin paragraph as it read High (#66). "Situationships": paragraph 34 (the tell panel if it reads below
+   High again), then its second try.
+4. The other sections with open Low windows (`humanize/fix-20261107/live-check/LOW-WINDOWS.json`, the ones with no
+   "touched"), section by section; the 8 Low windows of the post's last part (#47); S7's and S9's Low lines; S21's
+   section, last try.
 5. A whole-article check of the fixed version (a temporary draft for his extension, in two parts, since his extension
    reads only the first 100,000 characters), then his post updated with his OK, no email.
 
@@ -175,10 +188,11 @@ unit to check.
 ## Evidence / artifacts
 
 - `humanize/fix-20261107/live-check/META.json`, `AI-WINDOWS.json`, `LOW-WINDOWS.json`; `humanize/fix-20261107/r01/` to
-  `r09/` (check texts, receipts, predictions, results, tell panels); `review/teach-20261107/` (the marking page for S2 and
+  `r12/` (check texts, receipts, predictions, results, tell panels); `review/teach-20261107/` (the marking page for S2 and
   S17: `build_t1.py`, `REVIEW-T1.md`, `ARTIFACT.md`); `humanize/pangram-ledger.jsonl`; `humanize/SCORECARD.md`.
 
 ## Next safe action
 
-Read Joel's answers on the marking page when he gives them; meanwhile the dam section's second try, S22's paragraphs by
-themselves, and the next Low-window sections.
+Read Joel's answers on the marking page when he gives them; meanwhile the fixes in Remaining 2 and 3, then the next
+sections with open Low windows ("It always goes deeper", "Beware idealization in either direction", "Anti-PTSD Can Be
+Just As Dangerous As PTSD", "Slow & steady may win the race").

@@ -1,0 +1,171 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-07",
+ "text_sha256": "b393a00b4a08a8a48dd43db70faba2ccf936248dcb31f5da3831099589b01041",
+ "text": "My own list isn’t especially flattering: I’m impulsive, and I idealize too much, although I don’t demonize. I’m very open and not very private. I care more about honesty than the standard romantic ideal. I still love my exes. After being deeply in love, I have overly high expectations, so I’m hard to please with a basic relationship.\n\nI’m also extremely unique and have deeply held convictions many people won’t agree with. I’m anti-vax, anti-money, anti-civilization, etc. And I’m not yet living the way I want to live (astrology predicts I will by 2030 😃).\n\nA woman should know that before she starts fitting me into the life or fantasy she already planned.\n\nKey was an inner-child therapist and Reiki healer. Both Key and Bee were extremely curious and open-minded, which I loved about them. They were open to spiritual experiences, very connected to childlike wonder, and were always seeing what they needed to work on. They both meditated a lot.\n\nI saw all that and thought anyone with that much spiritual depth and curiosity must already be far along on the path.\n\nThat was my mistake. Their meditations may have helped them a lot. I still had no idea how either woman would act when a relationship got ugly. If somebody starts with enough trauma, huge progress can still leave a lot unresolved.\n\nMy own blind spot is that I have trouble understanding where people are at mentally and emotionally. A partner may agree with everything I say and then tell me later, “Didn’t you understand I was FAWNING?”\n\nNo, I really didn’t. If you’re fawning, tell me when you can, because I can’t know what’s happening in your head just because it feels obvious to you.",
+ "section": "My flaws",
+ "reader": "Someone getting to know a new partner, deciding what to tell them about their own flaws and what to ask.",
+ "sentences": [
+  {
+   "s": "My own list isn’t especially flattering: I’m impulsive, and I idealize too much, although I don’t demonize.",
+   "payoff": "the reader learns his list is not flattering: impulsive, idealizing but not demonizing",
+   "follows": "opens the section"
+  },
+  {
+   "s": "I’m very open and not very private.",
+   "payoff": "the reader learns he is very open and not private",
+   "follows": "the next flaw",
+   "link": "I’m very open"
+  },
+  {
+   "s": "I care more about honesty than the standard romantic ideal.",
+   "payoff": "the reader learns he cares more about honesty than the romantic ideal",
+   "follows": "the next flaw",
+   "link": "I care more about honesty"
+  },
+  {
+   "s": "I still love my exes.",
+   "payoff": "the reader learns he still loves his exes",
+   "follows": "the next flaw",
+   "link": "I still love my exes"
+  },
+  {
+   "s": "After being deeply in love, I have overly high expectations, so I’m hard to please with a basic relationship.",
+   "payoff": "the reader learns after deep love his expectations are high, so a basic relationship won’t please him",
+   "follows": "the last flaw",
+   "link": "After being deeply in love"
+  },
+  {
+   "s": "I’m also extremely unique and have deeply held convictions many people won’t agree with.",
+   "payoff": "the reader learns he is unique, with convictions many won’t share",
+   "follows": "what else she should know",
+   "link": "I’m also extremely unique"
+  },
+  {
+   "s": "I’m anti-vax, anti-money, anti-civilization, etc. And I’m not yet living the way I want to live (astrology predicts I will by 2030 😃).",
+   "payoff": "the reader learns he is anti-vax, anti-money, anti-civilization, and not yet living as he wants",
+   "follows": "which convictions",
+   "link": "I’m anti-vax"
+  },
+  {
+   "s": "A woman should know that before she starts fitting me into the life or fantasy she already planned.",
+   "payoff": "the reader learns a woman should know that before fitting him into her plans",
+   "follows": "why he says it",
+   "link": "A woman should know that"
+  },
+  {
+   "s": "Key was an inner-child therapist and Reiki healer.",
+   "payoff": "the reader learns Key was an inner-child therapist and Reiki healer",
+   "follows": "his exes as an example",
+   "link": "Key was an inner-child therapist"
+  },
+  {
+   "s": "Both Key and Bee were extremely curious and open-minded, which I loved about them.",
+   "payoff": "the reader learns Key and Bee were curious and open-minded, which he loved",
+   "follows": "what he loved in them",
+   "link": "Both Key and Bee"
+  },
+  {
+   "s": "They were open to spiritual experiences, very connected to childlike wonder, and were always seeing what they needed to work on.",
+   "payoff": "the reader learns they were open to spiritual experience and childlike wonder and worked on themselves",
+   "follows": "more of what he saw",
+   "link": "They were open to spiritual"
+  },
+  {
+   "s": "They both meditated a lot.",
+   "payoff": "the reader learns they both meditated a lot",
+   "follows": "one more thing he saw",
+   "link": "They both meditated a lot"
+  },
+  {
+   "s": "I saw all that and thought anyone with that much spiritual depth and curiosity must already be far along on the path.",
+   "payoff": "the reader learns he assumed such depth meant they were far along the path",
+   "follows": "what he concluded",
+   "link": "I saw all that"
+  },
+  {
+   "s": "That was my mistake.",
+   "payoff": "the reader learns that was his mistake",
+   "follows": "his verdict on it",
+   "link": "That was my mistake"
+  },
+  {
+   "s": "Their meditations may have helped them a lot.",
+   "payoff": "the reader learns their meditations may have helped them",
+   "follows": "what was true in it",
+   "link": "Their meditations may have helped"
+  },
+  {
+   "s": "I still had no idea how either woman would act when a relationship got ugly.",
+   "payoff": "the reader learns he still didn’t know how they would act when it got ugly",
+   "follows": "what it didn’t tell him",
+   "link": "I still had no idea"
+  },
+  {
+   "s": "If somebody starts with enough trauma, huge progress can still leave a lot unresolved.",
+   "payoff": "the reader learns with enough trauma, huge progress can leave much unresolved",
+   "follows": "why it didn’t",
+   "link": "If somebody starts with enough trauma"
+  },
+  {
+   "s": "My own blind spot is that I have trouble understanding where people are at mentally and emotionally.",
+   "payoff": "the reader learns his blind spot is reading where people are emotionally",
+   "follows": "his own blind spot",
+   "link": "My own blind spot"
+  },
+  {
+   "s": "A partner may agree with everything I say and then tell me later, “Didn’t you understand I was FAWNING?”",
+   "payoff": "the reader learns a partner may agree, then later say she was fawning",
+   "follows": "how it shows",
+   "link": "A partner may agree"
+  },
+  {
+   "s": "No, I really didn’t.",
+   "payoff": "the reader learns no, he really didn’t understand",
+   "follows": "his answer to her",
+   "link": "No, I really didn’t"
+  },
+  {
+   "s": "If you’re fawning, tell me when you can, because I can’t know what’s happening in your head just because it feels obvious to you.",
+   "payoff": "the reader learns if you are fawning, tell him, since he can’t read your mind",
+   "follows": "what he asks of the reader",
+   "link": "If you’re fawning"
+  }
+ ],
+ "checked": [
+  {
+   "point": "the Low windows’ points",
+   "found": "the live post (../../live-check/LOW-WINDOWS.json)",
+   "still_needed": "yes: the section needs them",
+   "fate": "changed"
+  }
+ ],
+ "placement": "The whole section, in its place in the live post, its heading left out.",
+ "opens": {
+  "first_sentence": "My own list isn’t especially flattering: I’m impulsive, and I idealize too much, although I don’t demonize.",
+  "why_reading": "It tells the reader his own flaws, the kind of list they may need to give."
+ },
+ "same_point": "none: read the section from its heading to the next for these points; each is made once, here",
+ "questions": {
+  "Q1": "PASS: each changed sentence gives its point first, in plain words",
+  "Q2": "N/A: these sections tell and ask; the advice in them is unchanged",
+  "Q3": "PASS: the people, places, numbers and things are named as in the live post",
+  "Q4": "PASS: no new term",
+  "Q5": "PASS: each sentence’s tie is in its words (the links field), or the link says why it needs none",
+  "Q6": "PASS: the order is the live post’s, with the moves named in texts.py (176’s reason before its list; the oxytocin paragraph’s point in its first sentence)",
+  "Q7": "PASS: each change keeps what the section tells the reader about their own case",
+  "Q8": "PASS: no item moved between groups",
+  "Q9": "PASS: one step per sentence in the changed paragraphs"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}
