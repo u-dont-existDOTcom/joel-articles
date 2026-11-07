@@ -636,7 +636,7 @@ Cognitive distortions from Cognitive Behavioral Therapy (CBT) can create or prol
 
 ![](https://substack-post-media.s3.amazonaws.com/public/images/5ae3cffc-d155-41ef-b1af-c547efa8f52f_1122x1402.png)
 
-For planned altered-state work, think through the beginning, middle, and end before starting. A lot of prevention is boring: being rested, starting before everyone is exhausted, leaving time afterward, having food ready, and knowing how the session ends.
+For planned altered-state work, think through the beginning, middle, and end before starting.
 
 When you have a choice:
 

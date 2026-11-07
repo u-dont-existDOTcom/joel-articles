@@ -313,21 +313,21 @@ The boundary mix over all lanes:
 
 | lane | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| bad trips guide | 222 | 205 (92%) | 88% | 12% | 14% | 0.127 (base 0.107, 222) |
-| **all lanes** | 222 | 205 (92%) | 88% | 12% | 14% | 0.127 (base 0.107, 222) |
+| bad trips guide | 237 | 218 (92%) | 87% | 13% | 13% | 0.126 (base 0.111, 237) |
+| **all lanes** | 237 | 218 (92%) | 87% | 13% | 13% | 0.126 (base 0.111, 237) |
 
 The latest 100 calls of each lane:
 
 | lane | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| bad trips guide | 100 | 95 (95%) | 94% | 6% | 3% | 0.100 (base 0.056, 100) |
+| bad trips guide | 100 | 93 (93%) | 91% | 9% | 4% | 0.105 (base 0.082, 100) |
 
 The boundary mix over all lanes:
 
 | scope or kind | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| paragraph | 128 | 118 (92%) | 85% | 15% | 13% | 0.122 (base 0.126, 128) |
-| section | 47 | 44 (94%) | 94% | 6% | 13% | 0.095 (base 0.060, 47) |
+| paragraph | 138 | 126 (91%) | 85% | 15% | 12% | 0.124 (base 0.129, 138) |
+| section | 52 | 49 (94%) | 92% | 8% | 13% | 0.089 (base 0.071, 52) |
 | pair | 47 | 43 (91%) | 89% | 11% | 15% | 0.171 (base 0.095, 47) |
 
 ## pangram 4.1, the web app: Joel's account, run by the lane in the desktop app's browser pane (E356)
@@ -434,9 +434,9 @@ The boundary mix over all lanes:
 | cause | misses | lanes |
 |---|---|---|
 | not explained yet | 46 | bad trips guide, community article, healing the gut article, hypnosis guide, inner child guide |
+| context | 13 | bad trips guide, healing the gut article |
 | too pessimistic about a cut | 12 | inner child guide |
 | a tell I did not name | 11 | inner child guide |
-| context | 11 | bad trips guide, healing the gut article |
 | a Low window came back | 8 | inner child guide |
 | a paragraph alone is harsher than the article | 8 | inner child guide, nibbana article |
 | model-over-pessimism | 6 | healing the gut article |

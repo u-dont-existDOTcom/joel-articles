@@ -1,0 +1,119 @@
+{
+ "format": "joel-suggestion-review-v1",
+ "review_id": "bad-trips-r18",
+ "title": "Bad Trips Guide, Round 18",
+ "intro": [
+  "Round 18 (2026-11-07). Two cards: Why Bad Trips Tend to Happen and Give the Session a Beginning and an End. Rounds 12, 15, 16 and 17 are still open on their own pages."
+ ],
+ "git_file": "articles/bad-trips/review/r18/REVIEW-R18.html",
+ "article": {
+  "file": "articles/bad-trips/review/r18/PAGE-R18.md",
+  "sha256": "776ad74ae46ec9da7255eba019f8957118e09bbe9c325fb3ae513403e498c29f"
+ },
+ "built": "2026-11-07",
+ "links": {
+  "guide": "https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261105/articles/bad-trips/GUIDE-SO-FAR.md",
+  "guide_label": "the guide as it stands",
+  "check": "https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261105/articles/bad-trips/humanize/h22-20261107/RESULTS.md",
+  "review": "https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261105/articles/bad-trips/review/r18/REVIEW-R18.md"
+ },
+ "types": {
+  "plain": {
+   "label": "Said plainly",
+   "about": "AI lines said plainly, each with its reason, the way he fixes his own windows"
+  },
+  "structure": {
+   "label": "Structure",
+   "about": "how the quick version and the long version split the guide, and where a part goes"
+  },
+  "repeat": {
+   "label": "Said twice",
+   "about": "a point the guide already makes elsewhere: one copy goes, the other stays"
+  },
+  "safety": {
+   "label": "Safety in one place",
+   "about": "a caution or call-for-help line said in several places, or one that changes nothing a reader does"
+  },
+  "question": {
+   "label": "Your call",
+   "about": "something only you can decide or know"
+  }
+ },
+ "suggestions": [
+  {
+   "id": "WHY-LESSON",
+   "type": "plain",
+   "advice": "approve",
+   "title": "The plain lessons said the way you'd say them",
+   "reading": "After the Human first half of Psychological First Aid, \"Every hard experience is not a profound lesson. Sometimes the lesson is to lower the dose, stop the practice, sleep, eat, choose safer people, and admit that the room is bad.\" reads [72%](https://www.pangram.com/history/a27de647-4b62-44b0-85c3-c9fd47f7d44f).",
+   "tested": "With this change: [41%](https://www.pangram.com/history/a114b017-50de-4589-920c-fcc6cc917fff). The paragraph's own window reads Human; what still reads AI is the Human first half's opening and reminder next to it.",
+   "what": "\"Sometimes the lesson is to lower the dose, stop the practice, sleep, eat, choose safer people, and admit that the room is bad.\" becomes \"Sometimes the lesson is just to lower the dose or stop the practice, get some sleep and something to eat, pick safer people, and admit that the room is bad.\"",
+   "why": "The same six plain lessons in the same order, said in pairs the way you'd say them instead of a run of six.",
+   "stays": "\"lower the dose\", \"stop the practice\", \"admit that the room is bad\", and the first sentence word for word.",
+   "deciding": "Approve puts the new line in; Revise lets you change it first.",
+   "advice_note": "Approve: the same lessons, and the paragraph reads Human with it.",
+   "found_by": "Pangram after the Human first half, one part of Why Bad Trips Tend to Happen at a time",
+   "receipt": [
+    "articles/bad-trips/humanize/h22-20261107/CARD-LESSON.receipt.json",
+    "articles/bad-trips/humanize/h22-20261107/TEST-base-W3b.receipt.json"
+   ],
+   "edits": [
+    {
+     "block": 351,
+     "before": "Every hard experience is not a profound lesson. Sometimes the lesson is to lower the dose, stop the practice, sleep, eat, choose safer people, and admit that the room is bad.",
+     "after": "Every hard experience is not a profound lesson. Sometimes the lesson is just to lower the dose or stop the practice, get some sleep and something to eat, pick safer people, and admit that the room is bad."
+    }
+   ],
+   "spans": [
+    {
+     "block": 351,
+     "start": 48,
+     "end": 174
+    }
+   ]
+  },
+  {
+   "id": "SESSION-FORCE-ONCE",
+   "type": "repeat",
+   "advice": "approve",
+   "title": "What the sitter doesn't force, said once",
+   "reading": "After the Human first half, Give the Session a Beginning and an End's list reads [67%](https://www.pangram.com/history/03337b38-0f20-4ae5-9bfe-4105c06fb86b).",
+   "tested": "Without the repeated line: [66%](https://www.pangram.com/history/a0dd01b9-90e1-4b0e-87f8-f635943614b3). The list reads AI either way; this card takes out the part that only repeats.",
+   "what": "In the list's Low-directivity support item, \"They do not force music, touch, interpretation, confession, prayer, or insight.\" goes, and \"confession\" joins For the Person Helping's line: \"Don't force eye contact, touch, music, prayer, chanting, interpretation, confession, or insight.\"",
+   "why": "For the Person Helping already says it, with more in its list (eye contact, chanting). Confession was the one thing the list here had that it didn't, so it moves there. It's your call rather than mine because the safety check tracks this line's \"do not\"; with the cut, the point lives in For the Person Helping's \"Don't force ...\".",
+   "stays": "\"the sitter protects safety and offers choices\" in the list, and For the Person Helping's line with confession added.",
+   "deciding": "Approve makes both changes; Reject keeps both lines as they are.",
+   "advice_note": "Approve: the point stays where a helper reads it first, and nothing in it is lost.",
+   "found_by": "the say-it-once look across the guide, stopped by the fidelity check (the line holds a \"do not\")",
+   "receipt": [
+    "articles/bad-trips/humanize/h22-20261107/CARD-SUPPORT.receipt.json",
+    "articles/bad-trips/humanize/h22-20261107/CARD-FORCE.receipt.json",
+    "articles/bad-trips/humanize/h22-20261107/TEST-base-G1x.receipt.json"
+   ],
+   "edits": [
+    {
+     "block": 367,
+     "before": "Low-directivity support: the sitter protects safety and offers choices. They do not force music, touch, interpretation, confession, prayer, or insight.",
+     "after": "Low-directivity support: the sitter protects safety and offers choices."
+    },
+    {
+     "block": 251,
+     "before": "Don't force eye contact, touch, music, prayer, chanting, interpretation, or insight.",
+     "after": "Don't force eye contact, touch, music, prayer, chanting, interpretation, confession, or insight."
+    }
+   ],
+   "spans": [
+    {
+     "block": 367,
+     "start": 72,
+     "end": 151
+    },
+    {
+     "block": 251,
+     "start": 57,
+     "end": 84
+    }
+   ]
+  }
+ ]
+}
