@@ -1,0 +1,50 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "cold_read_1",
+  "candidate_sha256": "71dcc4e680ec277d57db07b6e7c399ceaad5204d00505e5e190b432c58b5ddfd",
+  "source_sha256": "d970550b257b1aedc0f342ad7cc117b90b31585b1eb011685e4fb312b54defce",
+  "context_sha256": "1bc222ff5f78e4601d912ea6b9a821efc21c690e950df93393a8fea3e902aa30",
+  "reviewer": {
+    "name": "ChatGPT fresh cold reader",
+    "context_id": "/root/odt_cold_one",
+    "origin": "Separate fresh collaboration context with source, candidate and natural context"
+  },
+  "verdict": "PASS",
+  "unresolved": [],
+  "evidence": "I reviewed only the heading and one paragraph in candidate.txt, with source.txt for preservation and context.txt for placement and recurrence. “If Someone Has Actually Hurt or Threatened You” removes the detached actor in “If they've actually hurt or threatened you” at the beginning of the regrouped conflict section. “Whether or not it brings up old stuff” supplies a complete grammatical relationship where “old stuff or not” had depended on context. The expansion is a little longer but still conversational. It preserves the source thought that harm or threat warrants getting safe whether or not earlier experience is involved. “Even once” and “get safe first, which is not a small thing at all, I know” remain verbatim. The retained ending notices the difficulty of the instruction and sounds like the source author addressing a reader. I found no reason to replace it, add an example, or rewrite beyond the requested referent repair. I rechecked the frozen context after the dating opener changed to “your support came from a lover”; that change does not alter this candidate's referents or local function. All 33 inventory IDs were assessed individually in cold_one_inventory.json. Their ABSENT dispositions concern the defined operations in this literal candidate, not the whole guide.\n\nB4/E15 list or packed sentence: The sentence contains one imperative, “get safe first.” “Even once” and “whether or not it brings up old stuff” qualify that imperative; the “which” clause acknowledges the cost of doing it. The commas and sentence length do not yield a list of separate instructions. Its winding cadence is the source cadence and reads like a spoken aside.\n\nD9 follows the source order: The one-paragraph source order is appropriately retained: condition, instruction, acknowledgement of difficulty. The final “not a small thing at all, I know” notices a complication in acting on the advice. T09 and T13 are not established by a 1/1 order match.\n\nO45 a safety line (Joel 2026-10-23: \"all the extra extra ridiculous safety language which gets repeated everywhere\"; \"let's never make those mistakes again pls\"; E250 (Inner Child)): it stays only if it changes what the reader does right here, isn't a sometimes-true point said as a rule, and the article doesn't already say it: The heading supplies the narrow condition of actual harm or threat, and “Even once” includes a first incident. Before the following advice about wording and conflict responses, “get safe first” changes the immediate priority. The earlier “protect yourself first” concerns danger from disclosure, while “get anyone in danger safe before worrying about the rest” concerns disclosure/confidentiality when someone may be dangerous. Those passages do not already supply this first-incident and past-experience qualification for conflict. The candidate retains source material rather than adding a general disclaimer. It gives a sequence under its stated condition; it does not prescribe a further universal action such as leaving or reporting. Acceptance here does not endorse claims elsewhere in the guide.\n\nT21 conservative concern — JUSTIFIED_KEEP: I considered the owner gate's conservative T21 PRESENT classification explicitly. The sentence contains four identifiable functions: “Even once” sets a threshold, “whether or not it brings up old stuff” qualifies the relation to prior experience, “get safe first” supplies the imperative, and “which is not a small thing at all, I know” acknowledges its difficulty. Counting those as several functions in one sentence is a reasonable conservative way to flag the concern. My independent inventory used the narrower literal definition of coordinated argumentative jobs and remains ABSENT: the qualifiers attach to the same imperative. Either reading supports the same editorial disposition, JUSTIFIED_KEEP. The source already contains this construction and all four functions in “Even once, old stuff or not, get safe first, which is not a small thing at all, I know.” The candidate only makes the past-experience reference explicit after relocation. The acknowledgement remains relevant to the very action being recommended, and the sentence has no newly introduced checklist item or separate argument. Splitting it, dropping a qualification, or replacing the author's winding acknowledgement would be an unnecessary stylistic rewrite under the authorized minimal referent-repair scope. I therefore accept retaining the exact sentence even under the conservative PRESENT classification; this resolves the concern without claiming the sentence lacks multiple functions.",
+  "resolved_lint_labels": [
+    "B4/E15 list or packed sentence",
+    "D9 follows the source order",
+    "O45 a safety line (Joel 2026-10-23: \"all the extra extra ridiculous safety language which gets repeated everywhere\"; \"let's never make those mistakes again pls\"; E250 (Inner Child)): it stays only if it changes what the reader does right here, isn't a sometimes-true point said as a rule, and the article doesn't already say it"
+  ],
+  "resolved_tell_ids": [
+    "T21"
+  ],
+  "scope": "Literal candidate only; source/context fidelity and naturalness. No detector or factual audit of unchanged context.",
+  "lint_assessment": [
+    {
+      "label": "B4/E15 list or packed sentence",
+      "disposition": "ACCEPTED",
+      "reason": "The sentence contains one imperative, “get safe first.” “Even once” and “whether or not it brings up old stuff” qualify that imperative; the “which” clause acknowledges the cost of doing it. The commas and sentence length do not yield a list of separate instructions. Its winding cadence is the source cadence and reads like a spoken aside."
+    },
+    {
+      "label": "D9 follows the source order",
+      "disposition": "ACCEPTED",
+      "reason": "The one-paragraph source order is appropriately retained: condition, instruction, acknowledgement of difficulty. The final “not a small thing at all, I know” notices a complication in acting on the advice. T09 and T13 are not established by a 1/1 order match."
+    },
+    {
+      "label": "O45 a safety line (Joel 2026-10-23: \"all the extra extra ridiculous safety language which gets repeated everywhere\"; \"let's never make those mistakes again pls\"; E250 (Inner Child)): it stays only if it changes what the reader does right here, isn't a sometimes-true point said as a rule, and the article doesn't already say it",
+      "disposition": "ACCEPTED",
+      "reason": "The heading supplies the narrow condition of actual harm or threat, and “Even once” includes a first incident. Before the following advice about wording and conflict responses, “get safe first” changes the immediate priority. The earlier “protect yourself first” concerns danger from disclosure, while “get anyone in danger safe before worrying about the rest” concerns disclosure/confidentiality when someone may be dangerous. Those passages do not already supply this first-incident and past-experience qualification for conflict. The candidate retains source material rather than adding a general disclaimer. It gives a sequence under its stated condition; it does not prescribe a further universal action such as leaving or reporting. Acceptance here does not endorse claims elsewhere in the guide."
+    }
+  ],
+  "tell_resolution_assessment": [
+    {
+      "id": "T21",
+      "reviewed_gate_status": "PRESENT",
+      "disposition": "JUSTIFIED_KEEP",
+      "independent_inventory_status": "ABSENT",
+      "evidence": "I considered the owner gate's conservative T21 PRESENT classification explicitly. The sentence contains four identifiable functions: “Even once” sets a threshold, “whether or not it brings up old stuff” qualifies the relation to prior experience, “get safe first” supplies the imperative, and “which is not a small thing at all, I know” acknowledges its difficulty. Counting those as several functions in one sentence is a reasonable conservative way to flag the concern. My independent inventory used the narrower literal definition of coordinated argumentative jobs and remains ABSENT: the qualifiers attach to the same imperative. Either reading supports the same editorial disposition, JUSTIFIED_KEEP. The source already contains this construction and all four functions in “Even once, old stuff or not, get safe first, which is not a small thing at all, I know.” The candidate only makes the past-experience reference explicit after relocation. The acknowledgement remains relevant to the very action being recommended, and the sentence has no newly introduced checklist item or separate argument. Splitting it, dropping a qualification, or replacing the author's winding acknowledgement would be an unnecessary stylistic rewrite under the authorized minimal referent-repair scope. I therefore accept retaining the exact sentence even under the conservative PRESENT classification; this resolves the concern without claiming the sentence lacks multiple functions."
+    }
+  ]
+}

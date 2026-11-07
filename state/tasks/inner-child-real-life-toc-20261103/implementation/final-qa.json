@@ -1,0 +1,31 @@
+{
+  "file": "Bringing_Reparenting_Into_Real_Life.odt",
+  "sha256": "c93f3b9577b55adc4f29b12b09ab61834ad072eed517cf62c9831a6ddf86ccee",
+  "size_bytes": 33131,
+  "pages": 11,
+  "toc_entries": 30,
+  "toc_links_verified": 30,
+  "toc_page_numbers_verified": 30,
+  "outline_levels": {
+    "1": 1,
+    "2": 6,
+    "3": 20,
+    "4": 4
+  },
+  "embedded_emoji_font": true,
+  "embedded_font_only_render_counts": {
+    "🤪": 1,
+    "🙈": 3,
+    "😌": 1,
+    "😅": 1
+  },
+  "page_layout_review": "All 11 pages visually inspected. Initial missing emoji glyphs fixed with embedded OFL font subset; affected final pages reinspected. No clipping, overlap, blank pages, or stranded headings remain.",
+  "review_files": [
+    "layout-review-pages-06-11.md",
+    "preservation-review.md"
+  ],
+  "exact_candidate_admissions": [
+    "gate_r2/proof.json",
+    "dating_gate/proof.json"
+  ]
+}

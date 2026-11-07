@@ -1,0 +1,77 @@
+{
+  "schema": "FINAL_ODT_PRESERVATION_V1",
+  "verdict": "PASS",
+  "unresolved": [],
+  "file": "/workspace/scratch/4845c4a6c885/deliverables/Bringing_Reparenting_Into_Real_Life.odt",
+  "file_sha256": "c93f3b9577b55adc4f29b12b09ab61834ad072eed517cf62c9831a6ddf86ccee",
+  "file_bytes": 33131,
+  "reviewed_assembly": "/workspace/scratch/4845c4a6c885/odt_work/revised.md",
+  "reviewed_assembly_sha256": "1bc222ff5f78e4601d912ea6b9a821efc21c690e950df93393a8fea3e902aa30",
+  "original_source_sha256": "81c0e31546deefc2ae17b5aa0e5159143618a7d5e94770cb07c6cd36e20520b1",
+  "comparison_method": "Compared every ordered heading, paragraph and list node extracted from content.xml against revised.md after rendering its inline emphasis and existing hyperlink label. Excluded the native table of contents, blank layout paragraph and annotation metadata from the body comparison. Expanded ODF space, tab and line-break elements explicitly.",
+  "ordered_nodes": {
+    "expected": 99,
+    "actual": 99,
+    "headings": 31,
+    "body_or_list_blocks": 68,
+    "order_matches": true,
+    "content_matches_except_listed_whitespace": true
+  },
+  "heading_levels": {
+    "1": 1,
+    "2": 6,
+    "3": 20,
+    "4": 4
+  },
+  "accepted_presentation_differences": [
+    {
+      "source_block": "P066",
+      "ordered_node_zero_based_index": 91,
+      "changes": [
+        "Two spaces after “over.” became one.",
+        "Two spaces between “onto” and “like” became one."
+      ],
+      "assessment": "Incidental whitespace normalization only; every word and punctuation mark is retained."
+    }
+  ],
+  "annotation": {
+    "count": 1,
+    "exact_source_note_match": true,
+    "anchored_in": "Can They Change? capacity paragraph",
+    "note_file_sha256": "409a879b69352c8309b3b7851cae2e495d5295df8ecb35a8eb7c3bbe0d745b82"
+  },
+  "external_hyperlinks": [
+    {
+      "url": "https://ibogaqueen.substack.com/p/i-ate-loveyhuasca-every-day-for-90",
+      "text": "N of 1 case study that proves this works, also"
+    }
+  ],
+  "lists": {
+    "count": 2,
+    "item_counts": [
+      4,
+      5
+    ],
+    "exact_text_and_order_match": true
+  },
+  "emoji_counts": {
+    "🤪": 1,
+    "🙈": 3,
+    "😌": 1,
+    "😅": 1
+  },
+  "emoji_total": 6,
+  "emoji_counts_match_reviewed_text": true,
+  "table_of_contents": {
+    "native": true,
+    "entries": 30,
+    "internal_links": 30,
+    "duplicate_separate_contents_paragraph": false
+  },
+  "footer_page_number_field_count": 1,
+  "embedded_font_files": [
+    "Fonts/NotoEmojiSubset.ttf",
+    "Fonts/OFL.txt"
+  ],
+  "findings": "No body content, heading text, punctuation, emoji, list item, link or editorial-note text was lost. The final ODT contains the corrected dating reference and threat wording from the frozen reviewed context. The only text-level differences are the two specified incidental spaces. This verification did not alter the final ODT or run a further admission review."
+}

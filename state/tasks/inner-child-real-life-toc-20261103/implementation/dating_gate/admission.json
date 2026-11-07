@@ -1,0 +1,240 @@
+{
+  "schema": "JOEL_OWNER_DELIVERY_GATE_V1",
+  "status": "READY_FOR_CHECK",
+  "candidate_sha256": "209268bc2c71455ca25591e90d1caa433de8cd4b4a41377b9de4b4fe5e89032a",
+  "context_sha256": "1bc222ff5f78e4601d912ea6b9a821efc21c690e950df93393a8fea3e902aa30",
+  "source_sha256": "e463edae30775d82f886121449ea3fb0045582dc6f8d681624feed8761fb2b8b",
+  "inventory_sha256": "512ba9966b464de682eba7afb959025fa516e0baad489aedd5cca6d81c31d7b5",
+  "writer": {
+    "name": "ChatGPT primary editor",
+    "context_id": "/root"
+  },
+  "lint": {
+    "verdict_at_init": "REVIEW",
+    "linter_sha256": "7c46478a4d8541a86c3674775519a79e27f164f300dee2dad82924ef76cdf87a",
+    "stdout_sha256": "ebd0420450b52c1411ed8ca1cddf4bd29362d29d1435add6358f23b831c5ae40",
+    "findings": [
+      {
+        "label": "D9 follows the source order",
+        "examples": [
+          "1/1 paragraphs follow the source's points in its order (agreement 1.00); fine if each part notices something; check T13 and T09 in the tell ledger"
+        ],
+        "disposition": "JUSTIFIED_KEEP",
+        "reason": "There is one source sentence and one candidate sentence, with a single preference and no internal sequence available to reorder. Preserving that order is appropriate to a minimal referent repair. The live observation is the possibility that support is wanted from a lover as well as peers or community; the adjacent dating-app sentence develops it. T09 and T13 are not established by a one-sentence 1/1 order match."
+      },
+      {
+        "label": "E36/E41 heavy second person",
+        "examples": [
+          "16.7 \"you\" per 100 of my words"
+        ],
+        "disposition": "JUSTIFIED_KEEP",
+        "reason": "The candidate contains “you’d” and “your,” both retained from source. In one short sentence these produce a high normalized frequency, but they serve normal grammatical roles: who might prefer something and whose support is being discussed. No generic-specific scene, imperative, repeated reassurance, or extended coaching cadence is present. Replacing the second person would change the author's address without solving a literal problem."
+      }
+    ]
+  },
+  "tell_ledger": [
+    {
+      "id": "T01",
+      "status": "ABSENT",
+      "evidence": "“Maybe you’d rather” considers the reader’s possible wish; there is no first-person authority or claim about Joel.",
+      "resolution": ""
+    },
+    {
+      "id": "T02",
+      "status": "ABSENT",
+      "evidence": "The single sentence considers one preference—support from a lover. It contains no sequence of imperatives, conditions, lessons, or compressed questions.",
+      "resolution": ""
+    },
+    {
+      "id": "T03",
+      "status": "ABSENT",
+      "evidence": "Support from other people is already the live subject in the Hearthwork discussion. “A lover” specifies another possible relationship under the visible heading Dating While You Heal, and the next sentence makes the dating-app motivation explicit.",
+      "resolution": ""
+    },
+    {
+      "id": "T04",
+      "status": "ABSENT",
+      "evidence": "No scene or sequence of scene beats occurs in the candidate.",
+      "resolution": ""
+    },
+    {
+      "id": "T05",
+      "status": "ABSENT",
+      "evidence": "“A lover” is the relationship under discussion, not an invented teaching prop. There are no objects or convenient narrative details.",
+      "resolution": ""
+    },
+    {
+      "id": "T06",
+      "status": "ABSENT",
+      "evidence": "“Support” names the immediately preceding concrete discussion of what other people can provide, including warmth and listening. The candidate changes the possible provider; it does not pretend to replace a lived scene with generic healing language.",
+      "resolution": ""
+    },
+    {
+      "id": "T07",
+      "status": "ABSENT",
+      "evidence": "“Maybe” preserves uncertainty about whether this particular wish applies to the reader. “As well” preserves the source’s addition of romance to support; neither is inserted hesitation to camouflage engineered beats.",
+      "resolution": ""
+    },
+    {
+      "id": "T08",
+      "status": "ABSENT",
+      "evidence": "The candidate supplies no concrete image, and it has no subsequent explanatory sentence.",
+      "resolution": ""
+    },
+    {
+      "id": "T09",
+      "status": "ABSENT",
+      "evidence": "There is one short sentence about a possible wish, not a run of equally optimized sentences or fragments. No cumulative uniform efficiency is observable in this candidate.",
+      "resolution": ""
+    },
+    {
+      "id": "T10",
+      "status": "ABSENT",
+      "evidence": "“Maybe you’d rather” is a tentative hypothesis about preference, not a formula giving permission to heal, date, or defer action.",
+      "resolution": ""
+    },
+    {
+      "id": "T11",
+      "status": "ABSENT",
+      "evidence": "The sentence names a particular desire—receiving support from a lover—which explains why dating enters a discussion of support. That is a relation generated by the preceding material, not an interchangeable announcement of a new document section.",
+      "resolution": ""
+    },
+    {
+      "id": "T12",
+      "status": "ABSENT",
+      "evidence": "Only one possible wish is offered. “As well” leaves other support in view; there is no matched A/B construction or closed classification.",
+      "resolution": ""
+    },
+    {
+      "id": "T13",
+      "status": "ABSENT",
+      "evidence": "This candidate is one opening sentence rather than a multi-step section whose organization could substitute for noticing. Its actual observation is that a reader considering peer support may want romantic support too; the immediately following dating-app example develops that wish.",
+      "resolution": ""
+    },
+    {
+      "id": "T14",
+      "status": "ABSENT",
+      "evidence": "The candidate retains the source’s single-sentence progression from tentative preference to support to lover. Its changed nouns and verb repair a referent at the current location rather than rearranging ideas.",
+      "resolution": ""
+    },
+    {
+      "id": "T15",
+      "status": "ABSENT",
+      "evidence": "Changing “support person were a lover” to “support came from a lover” removes a particular-person reference after the Hearthwork-peer discussion. The surrounding “Maybe you’d rather that your” and “a lover, as well” remain intact; this is not rare-word substitution.",
+      "resolution": ""
+    },
+    {
+      "id": "T16",
+      "status": "ABSENT",
+      "evidence": "There is no negative construction, correction by contrast, or not-X/is-Y reveal.",
+      "resolution": ""
+    },
+    {
+      "id": "T17",
+      "status": "ABSENT",
+      "evidence": "“Maybe” and “you’d rather” express a possible individual preference. The sentence offers no completed general principle about romance or healing.",
+      "resolution": ""
+    },
+    {
+      "id": "T18",
+      "status": "ABSENT",
+      "evidence": "The sentence contains no premise followed by a short knock-down sentence.",
+      "resolution": ""
+    },
+    {
+      "id": "T19",
+      "status": "ABSENT",
+      "evidence": "The wording states the reader’s possible wish rather than saying that dating will now be discussed. No list or next-step announcement appears.",
+      "resolution": ""
+    },
+    {
+      "id": "T20",
+      "status": "ABSENT",
+      "evidence": "The ordinary source-retained phrase “a lover, as well” has no clever reversal, polished slogan, or punchline.",
+      "resolution": ""
+    },
+    {
+      "id": "T21",
+      "status": "ABSENT",
+      "evidence": "One proposition occupies the sentence: the reader may prefer support from a lover too. “Maybe” qualifies certainty and “as well” qualifies the addition; no multiple argumentative jobs are packed into coordinated clauses.",
+      "resolution": ""
+    },
+    {
+      "id": "T22",
+      "status": "ABSENT",
+      "evidence": "There is no instruction or reassurance. “Maybe you’d rather” floats a specific wish and is not a series of anticipatory coaching phrases.",
+      "resolution": ""
+    },
+    {
+      "id": "T23",
+      "status": "ABSENT",
+      "evidence": "No sensory detail or purported personal scenery appears. “A lover” describes a relationship category rather than invented specificity.",
+      "resolution": ""
+    },
+    {
+      "id": "T24",
+      "status": "ABSENT",
+      "evidence": "No question, suspense opener, or promised revelation appears.",
+      "resolution": ""
+    },
+    {
+      "id": "T25",
+      "status": "ABSENT",
+      "evidence": "The candidate contains no colon.",
+      "resolution": ""
+    },
+    {
+      "id": "T26",
+      "status": "ABSENT",
+      "evidence": "The candidate repeats no distinctive phrase within itself. “Support” deliberately continues the subject of the preceding peer-support discussion so the new source of support is intelligible.",
+      "resolution": ""
+    },
+    {
+      "id": "T27",
+      "status": "ABSENT",
+      "evidence": "None of the inventory’s specified tic words or phrases occurs in the sentence.",
+      "resolution": ""
+    },
+    {
+      "id": "T28",
+      "status": "ABSENT",
+      "evidence": "This is an opening sentence followed by the dating-app example, not a closing lesson, reassurance, or promise of recovery.",
+      "resolution": ""
+    },
+    {
+      "id": "T29",
+      "status": "ABSENT",
+      "evidence": "There is no earlier sentence inside the candidate for a final sentence to summarize. The source’s opening wish is being clarified, not completed with a new moral.",
+      "resolution": ""
+    },
+    {
+      "id": "C01",
+      "status": "ABSENT",
+      "evidence": "The candidate does not name the inner child and does not use “the kid.”",
+      "resolution": ""
+    },
+    {
+      "id": "C02",
+      "status": "ABSENT",
+      "evidence": "“You’d” and “your” address the reader. “A lover” introduces a possible provider without suggesting that the previously described Hearthwork peer is the lover. “As well” refers back to receiving support from other people in the surrounding discussion.",
+      "resolution": ""
+    },
+    {
+      "id": "C03",
+      "status": "ABSENT",
+      "evidence": "No first-person autobiographical fact appears. The edit does not add an experience or feeling attributed to Joel.",
+      "resolution": ""
+    },
+    {
+      "id": "C04",
+      "status": "ABSENT",
+      "evidence": "There is no named entity, study, product, or external factual claim in the candidate.",
+      "resolution": ""
+    }
+  ],
+  "review_files": {
+    "preservation": "preservation.json",
+    "cold_read_1": "cold_read_1.json",
+    "cold_read_2": "cold_read_2.json"
+  }
+}
