@@ -1,0 +1,122 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-07",
+ "text_sha256": "9803dd5febc11f8a88749ca663d6039dc91669c79abe93ea43dcd93047598fad",
+ "text": "Cleared the infection? Then it's time to rebuild a diverse ecosystem in your gut, so the overgrowth doesn't come back. Dr. William Davis is back for that, along with Dr. Will Bulsiewicz (Fiber Fueled).\n\nStart by re-seeding your gut with Davis's high-dose \"SIBO Yogurt\", which you ferment at home for 36 hours. He picked its bacteria for what they do: L. reuteri heals your gut lining and boosts oxytocin (a bonding hormone), and L. gasseri makes bacteriocins, natural antibiotics that kill SIBO.\n\nThen feed the new healthy bacteria with plants, slowly, the way Bulsiewicz says: add a few new kinds at a time, until you eat 30+ different plants a week. Does anyone count their plants?\n\nKeep spacing your meals 4+ hours apart, as in Phase 2, forever.\n\nAnd fuel the mitochondria: see the fuels under Leaky gut, above (glutamine and butyrate).\n\nMy notes: see \"Leaky gut\" above for colostrum, zinc carnosine, BPC-157 and ozonated zeolite, and \"Sitting\" above for movement and yoga.",
+ "section": "Phase 5: Restoration & Maintenance",
+ "reader": "Someone whose infection is cleared, deciding how to rebuild their gut so the overgrowth doesn't come back.",
+ "sentences": [
+  {
+   "s": "Cleared the infection?",
+   "payoff": "the reader knows this phase is for them once the infection is cleared",
+   "follows": "opens Phase 5, after Phase 4's notes; picks up Phase 3's purge"
+  },
+  {
+   "s": "Then it's time to rebuild a diverse ecosystem in your gut, so the overgrowth doesn't come back.",
+   "payoff": "the reader knows what this phase is for: rebuilding their gut's bacteria so the overgrowth doesn't come back",
+   "follows": "after the question that names their case, what to do about it",
+   "link": "Then it's time"
+  },
+  {
+   "s": "Dr. William Davis is back for that, along with Dr. Will Bulsiewicz (Fiber Fueled).",
+   "payoff": "the reader knows whose advice this phase is",
+   "follows": "after what the phase is for, whose it is",
+   "link": "is back for that"
+  },
+  {
+   "s": "Start by re-seeding your gut with Davis's high-dose \"SIBO Yogurt\", which you ferment at home for 36 hours.",
+   "payoff": "the reader knows the first step, which yogurt, and that they make it at home over 36 hours",
+   "follows": "the first step of the rebuilding",
+   "link": "Start by"
+  },
+  {
+   "s": "He picked its bacteria for what they do: L. reuteri heals your gut lining and boosts oxytocin (a bonding hormone), and L. gasseri makes bacteriocins, natural antibiotics that kill SIBO.",
+   "payoff": "the reader knows what the yogurt's two bacteria do for them, and what oxytocin and bacteriocins are",
+   "follows": "what the yogurt just named does",
+   "link": "He picked its bacteria"
+  },
+  {
+   "s": "Then feed the new healthy bacteria with plants, slowly, the way Bulsiewicz says: add a few new kinds at a time, until you eat 30+ different plants a week.",
+   "payoff": "the reader knows the second step: feed the new bacteria with plants, a few new kinds at a time, up to 30+ a week",
+   "follows": "after putting the bacteria back, feeding them",
+   "link": "Then feed the new healthy bacteria"
+  },
+  {
+   "s": "Does anyone count their plants?",
+   "his": true
+  },
+  {
+   "s": "Keep spacing your meals 4+ hours apart, as in Phase 2, forever.",
+   "payoff": "the reader knows to keep Phase 2's meal spacing for good",
+   "follows": "the next step, a habit from Phase 2",
+   "link": "as in Phase 2"
+  },
+  {
+   "s": "And fuel the mitochondria: see the fuels under Leaky gut, above (glutamine and butyrate).",
+   "payoff": "the reader knows the last step and where its fuels are explained",
+   "follows": "the last step",
+   "link": "And fuel"
+  },
+  {
+   "s": "My notes: see \"Leaky gut\" above for colostrum, zinc carnosine, BPC-157 and ozonated zeolite, and \"Sitting\" above for movement and yoga.",
+   "payoff": "The reader is pointed to the treatments not already pointed to by step 4, without the fuels twice.",
+   "follows": "It ends the phase with the pointers back, as in every phase.",
+   "link": "none: his notes close each phase with pointers, under their label"
+  }
+ ],
+ "checked": [
+  {
+   "point": "oxytocin is a bonding hormone",
+   "found": "Cleveland Clinic, \"Oxytocin\": its roles include trust, romantic attachment and parent-infant bonding, and the \"love hormone\" nickname comes from them (https://my.clevelandclinic.org/health/articles/22618-oxytocin); Joel, 2026-11-07: \"oxytocin is a bonding hormone not the love hormone exactly\"",
+   "still_needed": "yes: it says what oxytocin is where the step names it",
+   "fate": "changed"
+  },
+  {
+   "point": "Bile Acid Diarrhea is too much bile reaching the colon, which gives you diarrhea",
+   "found": "NICE DG44: bile acids that aren't absorbed properly travel to the colon, and excess bile there causes diarrhoea (https://nice.org.uk/guidance/dg44/documents/topic-description)",
+   "still_needed": "yes: it says what the second organ case is",
+   "fate": "kept"
+  },
+  {
+   "point": "Davis picked the yogurt's bacteria for what they do, and bacteriocins are natural antibiotics that kill SIBO",
+   "found": "Davis, Defiant Health Radio, \"Here's a microbe you should know about: Bacillus subtilis\": the original SIBO yogurt specified L. reuteri, L. gasseri and B. coagulans, chosen to colonize the small intestine and make bacteriocins, \"natural peptide antibiotics effective in killing the species of SIBO\" (https://www.buzzsprout.com/1795054/episodes/17783323-here-s-a-microbe-you-should-know-about-bacillus-subtilis)",
+   "still_needed": "yes: it is what the yogurt is for",
+   "fate": "kept"
+  },
+  {
+   "point": "step 3's reason, the MMC sweeping the gut clean, is said in Phase 2",
+   "found": "Phase 2: \"Pimentel wants meals 4-5 hours apart, strictly, so the Migrating Motor Complex (MMC) gets to sweep your gut clean in between\"",
+   "still_needed": "no: Phase 2 says it; step 3 keeps \"forever\" and points there",
+   "fate": "cut"
+  }
+ ],
+ "placement": "The protocol's phases in the article's order, without their headings, as his extension reads them.",
+ "opens": {
+  "first_sentence": "Cleared the infection?",
+  "why_reading": "It asks the reader whether their infection is cleared, the case they would recognize, and says this phase is for them if it is."
+ },
+ "same_point": "none: read the protocol from its first line to the stacks: each phase's steps are said once; Phase 5's meal spacing points to Phase 2 for its reason; berberine and the yogurt point to Parasites and SIBO; the fuels point to Leaky gut; his notes point back to the causes",
+ "questions": {
+  "Q1": "PASS: each changed sentence gives its point first: the check, then which organ first and its case; each term (Exocrine Pancreatic Insufficiency, Bile Acid Diarrhea, oxytocin, bacteriocins) explained where first used",
+  "Q2": "PASS: each instruction is the reader's act: check, test and treat, re-seed, feed with plants, keep spacing meals",
+  "Q3": "PASS: the organs, tests, treatments, yogurt, bacteria and number of plants are named exactly",
+  "Q4": "PASS: each term is explained where first used, by what it does for the reader",
+  "Q5": "PASS: each sentence's tie is in its words (the links field), or the link says why it needs none",
+  "Q6": "PASS: nothing moved; each phase keeps its order, and his aside still follows the number it jokes about",
+  "Q7": "PASS: each change tells the reader what to do in their case, and why where they would ask",
+  "Q8": "PASS: no item moved between groups",
+  "Q9": "PASS: one step per sentence; the small words carry the relations (starting with, or, if, and if, then, as in)"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ },
+ "his_whose": "his own: \"Does anyone count their plants?\", the aside he added to his own version of Phase 5 (2026-11-03), not a rewrite of the model's text"
+}

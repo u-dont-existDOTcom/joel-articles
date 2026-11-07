@@ -59,25 +59,30 @@ Joel, 2026-11-03 16:15 UTC (`experiments/t01-answers/joel-20261103-1615-messages
   all High or Medium (#207). Batch-14 page https://claude.ai/artifact/9R79aHKAXZGaPQjbLNsvh7 (five approve cards,
   `humanize/fix-20261103/r30/b14/REVIEW-CARDS.md`); draft E (r30) for his extension, prediction #208.
 
+- 2026-11-07 01:11 UTC: his batch-14 answers, all five approved (`experiments/t20-answers/`); on four "didn't need to
+  ask" (gut-2026-11-07b: a tested fix that keeps what the text says goes in without a card; `AGENTS.md` and
+  `docs/FIXING-AN-ARTICLE.md` updated), and "oxytocin is a bonding hormone not the love hormone exactly"
+  (gut-2026-11-07c), corrected as r31 (`humanize/fix-20261103/r31/`; Phase 5 [Human Written](https://www.pangram.com/history/4fc92a24-abe2-4111-97c4-513e0b39b973), #209).
+  His extension read draft E (r30) [Human Written](https://www.pangram.com/feed/1c41fbd9-580a-4036-b526-95a96cb70c46),
+  every window Human, 7 High over 4,025 of 4,040 words, 5 Medium of 1 to 5 words (the "Dr." splits), no Low (#208): the
+  fixes are done. The update source (`r31/live-update/r31.html`) and plan (`humanize/fix-20261103/live/UPDATE-PLAN-4.json`)
+  are built.
+
 ## Current checkpoint
 
-2026-11-07, in the 23:59 UTC turn. r30 is r22 with batch 14's five fixes; the ledger names no window still open in it.
-Draft E, a temporary Substack draft of r30 built as drafts C and D were (`humanize/fix-20261103/r30/substack/`), is for
-his extension; its secret link goes to him in chat, never into Git. Tries 2 and 3 of Phase 5's steps (drafts C and D)
-are replaced by batch 14's versions, so draft D's reading isn't needed.
+2026-11-07, in the 01:11 UTC turn. The fixes are done and answered: r31 is the article with every answer in, and the
+whole article (draft E, r30, one gloss different) read Human with no window below Medium. His post still has r12 (the
+second update). The update to r31 is ready and waits for his OK, with no email.
 
 ## Remaining
 
-1. His batch-14 answers (page https://claude.ai/artifact/9R79aHKAXZGaPQjbLNsvh7).
-2. His extension on draft E: record it as `r17/draft-b-check/` was. A Low or AI window gets fixed in its paragraph or
-   section first (gut-2026-11-07a).
-3. Once the fixes are done and answered: the update source rebuilt from the final version (as `r17/live-update/` was),
-   his OK once (no email), the update, and the character-by-character comparison (E362 (gut)).
-4. Drafts A to E are his to delete once their results are recorded.
+1. His OK for the update; then the update as `humanize/fix-20261103/r31/README.md` says, and the character-by-character
+   comparison of the live post with `r31/live-update/EXPECTED-TEXT-r31.txt` (E362 (gut)).
+2. Drafts A to E are his to delete.
 
 ## Blockers / unresolved
 
-- Waiting on Joel: his answers on batch 14; his extension on draft E; later, his OK for the update.
+- Waiting on Joel: his OK for the update (no email).
 
 ## Evidence / artifacts
 
@@ -85,5 +90,4 @@ are replaced by batch 14's versions, so draft D's reading isn't needed.
 
 ## Next safe action
 
-Record draft E from his extension's result page and apply his batch-14 answers; the update comes once the fixes are done
-and answered (gut-2026-11-06e).
+With his OK, update the post to r31 (no email) and compare the live text with the checked text.
