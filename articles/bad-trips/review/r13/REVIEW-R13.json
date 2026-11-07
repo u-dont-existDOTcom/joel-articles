@@ -1,0 +1,109 @@
+{
+ "format": "joel-suggestion-review-v1",
+ "review_id": "bad-trips-r13",
+ "title": "Bad Trips Guide, Round 13",
+ "intro": [
+  "Round 13 (2026-11-06). Get One Human Anchor and the sections after it now say each thing once. Under your 19:43 rule (\"make the cuts regardless of pangram if it makes the guide read better\") five repeats are cut. The committee line is gone, since the section's first sentences say too many people make it worse. The violence part's second \"recruit one additional calm adult or crisis professional\" is gone, since Get One Human Anchor says it with violence among its cases. Alone at 3 a.m. no longer repeats Stillness or Movement? (pacing, towels and a cup, sitting or lying under a blanket) or the list of services just above it; it keeps its own ways to move and \"Then protect sleep.\" And Who to Contact, and When no longer says peer support doesn't replace crisis care, which the call-for-help part says.",
+  "Two cards, for Get One Human Anchor's two paragraphs. Its two scripts read AI in every wording I tried, six each, and keep the whole section AI with or without these cards, so they stay as the guide has them for now and go on the later list (the fixing is mine). Round 12's card is still open on its own page."
+ ],
+ "git_file": "articles/bad-trips/review/r13/REVIEW-R13.html",
+ "article": {
+  "file": "articles/bad-trips/review/r13/PAGE-R13.md",
+  "sha256": "855a38163cfc32b24c3fffaf77b3bba2a0ff0e17ea06a5666342d8c02875b584"
+ },
+ "built": "2026-11-06",
+ "links": {
+  "guide": "https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261105/articles/bad-trips/GUIDE-SO-FAR.md",
+  "guide_label": "the guide as it stands",
+  "check": "https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261105/articles/bad-trips/humanize/h14-20261106/RESULTS.md",
+  "review": "https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261105/articles/bad-trips/review/r13/REVIEW-R13.md"
+ },
+ "types": {
+  "plain": {
+   "label": "Said plainly",
+   "about": "AI lines said plainly, each with its reason, the way he fixes his own windows"
+  },
+  "structure": {
+   "label": "Structure",
+   "about": "how the quick version and the long version split the guide, and where a part goes"
+  },
+  "repeat": {
+   "label": "Said twice",
+   "about": "a point the guide already makes elsewhere: one copy goes, the other stays"
+  },
+  "safety": {
+   "label": "Safety in one place",
+   "about": "a caution or call-for-help line said in several places, or one that changes nothing a reader does"
+  },
+  "question": {
+   "label": "Your call",
+   "about": "something only you can decide or know"
+  }
+ },
+ "suggestions": [
+  {
+   "id": "ANCHOR-OPPOSITE",
+   "type": "plain",
+   "advice": "approve",
+   "title": "The first paragraph, its second sentence said as talk",
+   "reading": "After the Human first half of Psychological First Aid, the paragraph as the guide has it reads [AI, 100%](https://www.pangram.com/history/1f88d659-f008-48ec-b942-b94461b68ff7), and turns the first half AI with it.",
+   "tested": "With this change: [Mostly Human Written, 2% AI](https://www.pangram.com/history/88fa84a3-9569-4e9b-84af-51c80a0efdd7), every window Human. Changing the first sentence instead read [19%](https://www.pangram.com/history/817db2c8-d125-4c34-88f5-e79e2e0a2324).",
+   "what": "\"Others get worse because\" becomes \"Other times it's the opposite:\"; the rest of the sentence stays.",
+   "why": "All three readers of the tell panel (Codex, Sonnet, Haiku) picked the same thing: the two sentences open the same way (\"Many bad trips get worse because\", \"Others get worse because\"), a mirrored pair. Saying the second as someone would breaks it and keeps every word they called human (\"over-certain\", \"spiritualizing\").",
+   "stays": "The first sentence, the four behaviors, and the paragraph's place under the heading.",
+   "deciding": "Approve puts the new sentence in; Revise lets you change it first.",
+   "advice_note": "Approve: one sentence, the same meaning, and the paragraph reads Human with it.",
+   "found_by": "Pangram after the Human first half, one paragraph at a time, then the tell panel",
+   "receipt": [
+    "articles/bad-trips/humanize/h14-20261106/CARD-P1.receipt.json",
+    "articles/bad-trips/humanize/h14-20261106/TEST-base-V1-P1-s2.receipt.json"
+   ],
+   "edits": [
+    {
+     "block": 210,
+     "before": "Many bad trips get worse because somebody is alone with a frightened or over-certain mind. Others get worse because too many people crowd in and start advising, arguing, spiritualizing, or panicking.",
+     "after": "Many bad trips get worse because somebody is alone with a frightened or over-certain mind. Other times it's the opposite: too many people crowd in and start advising, arguing, spiritualizing, or panicking."
+    }
+   ],
+   "spans": [
+    {
+     "block": 210,
+     "start": 91,
+     "end": 115
+    }
+   ]
+  },
+  {
+   "id": "ANCHOR-BACKUP",
+   "type": "plain",
+   "advice": "approve",
+   "title": "The second paragraph, with its limit said as an aside",
+   "reading": "After the Human first half and the first paragraph (changed), the paragraph as the guide has it reads [AI, 100%](https://www.pangram.com/history/9e494278-4014-467f-b6b0-7759ad833fcc), and so did every one-sentence change to it (folding \"That is backup.\" in, or any one of its three sentences said differently).",
+   "tested": "With this change: [40% AI](https://www.pangram.com/history/308d1862-b705-47d8-91d7-fe67a22c725c), the first half Human again, three windows AI Low to Medium. Four other ways of saying it read 67% to 81%; the risks kept as a list read 100%. The whole section still reads [AI, 100%](https://www.pangram.com/history/4ebe8d04-b233-4318-a65f-396a5ecb8208) with both cards, because of the scripts.",
+   "what": "Three sentences become: one calm person as the anchor who leads; one person can only handle so much; when fatigue, logistics, keeping them safe or a risk of violence or self-harm get to be too much, one more calm adult or a crisis professional backs them up. The bold stays on the two people it names.",
+   "why": "The five-noun list (\"safety, fatigue, logistics, violence, or self-harm risk\") stayed in every try that read 100%; said as the things that wear one person down, with the limit as an aside, it reads better. \"That is backup.\" (all three readers) becomes \"to back them up\". Fatigue, logistics and the risk stay, as the fidelity keys hold them.",
+   "stays": "One lead; one more calm adult or a crisis professional, and only when it is too much for one; fatigue, logistics, safety, violence and self-harm as the cases.",
+   "deciding": "Approve puts the three sentences in; Revise lets you change them first.",
+   "advice_note": "Approve: the same rule and cases, and 40% instead of 100%.",
+   "found_by": "Pangram after the Human first half and the first paragraph, one change at a time (14 tries)",
+   "receipt": [
+    "articles/bad-trips/humanize/h14-20261106/CARD-P2.receipt.json",
+    "articles/bad-trips/humanize/h14-20261106/TEST-base-X3-P2.receipt.json"
+   ],
+   "edits": [
+    {
+     "block": 211,
+     "before": "Use one calm human anchor as the lead. When safety, fatigue, logistics, violence, or self-harm risk exceeds what one person can hold, bring in one additional calm adult or crisis professional. That is backup.",
+     "after": "So one calm person should be the anchor and take the lead. One person can only handle so much, though. When fatigue or logistics get to be too much, or keeping them safe does, or there's a risk of violence or self-harm, bring in one more calm adult or a crisis professional to back them up."
+    }
+   ],
+   "spans": [
+    {
+     "block": 211,
+     "start": 0,
+     "end": 208
+    }
+   ]
+  }
+ ]
+}
