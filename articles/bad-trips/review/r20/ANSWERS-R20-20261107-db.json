@@ -1,0 +1,21 @@
+{
+ "format": "joel-suggestion-review-answers-v1 (read from the published page's saved decisions)",
+ "review_id": "bad-trips-r20",
+ "source": "the artifact store of slug e8b9493d-c232-440c-8e4e-413b436dd997, collection decisions, read 2026-11-07 with db_list; written by the owner (the page's rules let only the owner write)",
+ "his_message": "2026-11-07 12:08 UTC: \"in this case i approved every single suggestion you had from all those rounds\"",
+ "items": [
+  {
+   "id": "ABUSE-TRUE",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-07T12:06:42.934Z"
+    }
+   ]
+  }
+ ]
+}

@@ -357,11 +357,7 @@ Then remind them where they are and what's happening, since a trip can make them
 
 > You're in *[place]*. It's *[date/time]*. You took *[substance, if known]*, and its effects will peak and then change.
 
-If the state came from a practice, like meditation or fasting, the person can say:
-
-> I'm in an intense state, so I'm stopping the practice now, and my only job is to stay safe.
-
-A state from a practice has no drug wearing off on a schedule, so there's no telling how long it will last. Once they can eat safely, food and warmth help their body settle.
+If a practice like meditation or fasting brought this on, have them stop it now, since doing more of it only makes this stronger. There's no drug wearing off here, so it could be over soon or take a while.
 
 ### Stillness or Movement?
 
@@ -396,7 +392,7 @@ Save the relevant links and local numbers *before* you need them. Their hours an
 **During or soon after a psychedelic experience**
 
 - [Fireside Project](https://firesideproject.org/support-line): U.S.-only according to its current FAQ; phone or text psychedelic peer support at **623-473-7433**, daily from **11 a.m. to 11 p.m. Pacific Time**.
-- [TripSit live chat](https://tripsit.me/webchat): browser-based harm-reduction chat for people using drugs and the people supporting them.
+- [TripSit live chat](https://tripsit.me/webchat): a harm-reduction chat you open in your browser, for people using drugs and for whoever's looking after them.
 
 **Global crisis and emotional-support directories**
 
@@ -427,9 +423,7 @@ A good sitter is not there to win a philosophy debate, perform a rescue fantasy,
 
 Crying, grieving, remembering, or touching a genuine wound calls for loving awareness. Interrogation, analysis every thirty seconds, and "bro, you're purging ancestral karma" while somebody white-knuckles the carpet are generally less helpful.
 
-Stay present. A useful phrase is: *This feeling is allowed to move through. I don't have to become it. I can love the part of me that feels it.* Or simply: *Can I send love to the one who's suffering?*
-
-Don't drag somebody out of real grief. Don't trap them inside a loop that is grinding them down either. Love isn't stubbornness.
+Stay present. If it helps, you can say to yourself: *This feeling is allowed to move through. I don't have to become it. I can love the part of me that feels it.* Or simply: *Can I send love to the one who's suffering?*
 
 ### Do
 
@@ -445,7 +439,7 @@ Don't drag somebody out of real grief. Don't trap them inside a loop that is gri
 
 - Don't try to win an argument with visions, entities, memories, or cosmic conclusions. Don't validate harmful conclusions. Reflect the feeling and redirect toward safety, non-harm, sleep, and ordinary reality.
 - Don't tell somebody they are crazy, broken, weak, punished, or failing the medicine.
-- Don't force eye contact, touch, music, prayer, chanting, interpretation, or insight.
+- Don't force eye contact, touch, music, prayer, chanting, interpretation, confession, or insight.
 
 ### When the Content Turns Toward Harm
 
@@ -535,11 +529,11 @@ Choose one or two options rather than all of them. Twelve simultaneous technique
 
 An intense altered state can make everything feel final, cosmic, and urgent. Urgency does not make action safe.
 
-**Use a 24–72 hour action lock.**
+**Put yourself on a 24–72 hour action lock.**
 
-Until you have slept and eaten, don't drive, travel, break up, quit your job, confess everything, confront anybody, accuse anybody, send the message, post the revelation, give away possessions, call your ex, call your parents to explain the universe, or decide that you are permanently enlightened or permanently damaged.
+Until you have slept and eaten, don't drive, travel, break up, quit your job, confess everything, confront anybody, accuse anybody, send the message, post the revelation, give away possessions, make a grand purchase, call your ex, call your parents to explain the universe, or decide that you are permanently enlightened or permanently damaged.
 
-**Write it down. Protect sleep. Revisit it sober with one grounded person.**
+**Write it down, get some sleep, and go back over it sober with one grounded person.**
 
 Treat trip content first as **experience-content**, rather than fact-content. "I saw it" does not create a duty to act. "It felt cosmic" does not make obedience wise.
 
@@ -550,8 +544,6 @@ Treat trip content first as **experience-content**, rather than fact-content. "I
 ## When the Trip Feels Amazing: Euphoric Certainty
 
 The action lock matters especially when the state feels blissful: *I am God. I am chosen. Everybody must hear this tonight. I finally understand everything.* Bliss is not proof of safety, and it often makes grounding less welcome.
-
-The danger may be action rather than panic: the 3 a.m. broadcast, confession, drive, grand purchase, sexual boundary-crossing, public prophecy, violent test of a theory, or "I never need sleep again" plan.
 
 **Two questions while glowing:**
 
@@ -588,7 +580,7 @@ Modern people carry so much trauma – and some people did even in Buddha's time
 
 When shadow work is bypassed in meditation and therapy, it may appear in ordinary life without explaining itself. I encountered a lot of it in my first two marriages, to my bewilderment. I wish everybody could keep shadow work inside the safer rooms of meditation, therapy, journaling, prayer, and honest conversation.
 
-Shadow work to me is neither BDSM nor "feeding your demons." It means bringing loving awareness to the parts of the mind built in fear, pain, humiliation, rejection, and survival. [Inner-child reparenting ](http://innerchild.u-dont-exist.com)is central. Most negative mind-states aren't philosophical errors. They are young parts still waiting for love, protection, permission, and an explanation nobody gave them.
+Shadow work to me is neither BDSM nor "feeding your demons." It means bringing loving awareness to the parts of the mind built in fear, pain, humiliation, rejection, and survival. [Inner-child reparenting ](http://innerchild.u-dont-exist.com)is central. Most negative mind-states aren't some error in your philosophy, they're just young parts of you that are still waiting for love and protection and permission, and for the explanation nobody ever gave them.
 
 Begin with my [Inner Child Therapy guide](http://innerchild.u-dont-exist.com) and app, and my [Self-Hypnosis guide](http://hypnoisis.u-dont-exist.com) and app.
 
@@ -620,7 +612,7 @@ That frame can be useful. It cannot be the only frame.
 
 A bad trip or destabilizing state may also come from dose, drug interactions, sleep deprivation, cannabis, hunger, dehydration, an unsafe setting, sexual or social pressure, **unresolved trauma**, panic loops, medical symptoms, psychosis-like symptoms, fasting, intense breathwork, meditation overload, retreat pressure, or simply too much too fast.
 
-Every hard experience is not a profound lesson. Sometimes the lesson is to lower the dose, stop the practice, sleep, eat, choose safer people, and admit that the room is bad.
+Every hard experience is not a profound lesson. Sometimes the lesson is just to lower the dose or stop the practice, get some sleep and something to eat, pick safer people, and admit that the room is bad.
 
 Cognitive distortions from Cognitive Behavioral Therapy (CBT) can create or prolong the crisis:
 
@@ -643,7 +635,7 @@ When you have a choice:
 - **Rest and timing:** don't begin already depleted. When possible, begin earlier in the day so there is still time for the experience, food, ordinary contact, and sleep afterward.
 - **Physical safety:** know the substance and approximate dose, review combinations and medical concerns, prepare the room, and decide in advance what requires outside help.
 - **Intention without a script:** know what you are open to exploring without demanding a particular revelation, memory, emotional arc, or spiritual result.
-- **Low-directivity support:** the sitter protects safety and offers choices. They do not force music, touch, interpretation, confession, prayer, or insight.
+- **Low-directivity support:** the sitter protects safety and offers choices.
 - **Closure:** stop adding stimulation, return to the room and date, eat and hydrate when safe, write down the basic facts, and let the body understand that the session has ended.
 - **Integration time:** leave the rest of the day and, when possible, the next morning free. Sleep and food come before turning the experience into a new life plan.
 
@@ -670,7 +662,7 @@ I once found a pamphlet helpful on sorrow, although it was too "ultimate" and Ad
 
 This sounds almost embarrassingly obvious, but it took me months of daily loveyhuasca after my ex-wife Bee left to understand it.
 
-Missing is contraction: hunger, ache, self-reference, and the painful fantasy that love means needing the person to return. Sending love is different. Sending love is pleasure in itself, even when the person is gone. Love can bless without grabbing.
+Missing someone is a contraction. There's hunger and ache in it, it keeps circling back to you, and there's the painful fantasy that loving them means needing them to come back. Sending love is different. Sending love is pleasure in itself, even when the person is gone. Love can bless without grabbing.
 
 The difference is enormous.
 
@@ -685,7 +677,7 @@ The deepest utility is sending love to the places where love is missing.
 
 ## Hand on Heart and Gratitude 🫶🏿
 
-A hand on the heart can change the direction of a trip, especially when the problem is emotional contraction, grief, fear, or loneliness. The point is not to manufacture loving thoughts. Give the body one simple signal: love is here.
+A hand on the heart can change the direction of a trip, especially when the problem is emotional contraction, grief, fear, or loneliness. There's no need to manufacture loving thoughts, you're just giving the body one simple signal: love is here.
 
 Put one hand on the heart and the other on the solar plexus just below it, sending love to the inner child. Sometimes that shifts the whole field. Once love reaches the inner child, send it toward all beings suffering now. Recognizing that you are not the only one suffering can open awareness in a liberating way, with real heart magic.
 
@@ -713,13 +705,9 @@ Hatred, fear, shame, pride, and rage make hooks. Love removes hooks.
 
 The common mistake is fighting the terrifying thing with the energy it already consumes. Panic fights panic, hatred fights hatred, pride fights pride, and suddenly a small war is running inside consciousness.
 
-Love is a better move, although it is difficult advice. Almost nobody can authentically love what terrifies them while they are terrified. Train before the emergency: send love to a frightening image, a hated person without approving what they did, your shame, your body, sickness, aging, fear, death, and the inner child. Practice being the space rather than the storm.
+Love is a better move, although it is difficult advice. Almost nobody can authentically love what terrifies them while they are terrified. So train before you need it, sending love to a frightening image, to someone you hate (without approving of what they did), to your shame and your body, to sickness and aging and fear and death, and to the inner child. Practice being the space rather than the storm.
 
 This is not passivity. It is becoming unhookable. A demon can fight hatred, feed on fear, argue with pride, and seduce grandiosity. Love gives it nothing to grab.
-
-**Safety rule**
-
-Even a completely real-feeling entity does not make decisions for your body. No entity may tell you to hurt yourself or another person, drive, jump, flee, accuse somebody, cross a sexual boundary, or make a life decision tonight.
 
 When somebody is medically, physically, or psychologically too overwhelmed to reach love, stabilize first. Don't teach nondual demonology to somebody who needs the lights down and a doctor.
 
@@ -731,7 +719,7 @@ Psychedelics can bring up true trauma, symbolic material, distorted fragments, f
 
 When you see or remember abuse, betrayal, murder, past lives, hidden crimes, or cosmic plots, write it down and get safe. Don't confront anybody while intoxicated or destabilized. Return to it after sleep with a trauma-informed therapist, integration specialist, or grounded person you trust.
 
-The experience may matter deeply. It may be psychologically true, symbolically true, literally true, partly true, or false in the form it first appeared. You don't have to decide tonight.
+The experience may matter deeply. It could be true psychologically, or symbolically, or literally, or only partly true, or false in the form it first took. You don't have to decide tonight.
 
 ## Dealing With Shadow Thoughts
 

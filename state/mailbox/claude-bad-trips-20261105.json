@@ -992,6 +992,45 @@
     }
    ],
    "recorded_utc": "2026-11-07T03:28Z"
+  },
+  {
+   "turn": "2026-11-07T12:08Z",
+   "lines_of_work": [
+    "bad trips guide"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "six items; three not in docs/suggested-fixes-ledger.md, none for this lane: 2026-10-18 schema therapist and 2026-10-22 book audit (the Inner Child lane's), 2026-11-05 safety-layer cuts (the neuro de-armoring lane's); UDA root AGENTS.md re-fetched, sha 3146ac4a, unchanged"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "pull requests 364 to 369 closed since 03:28 UTC (364 this lane's, merged; 365 to 369 the gut and neuro lanes'); no new comments or reviews"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no edits by others to this lane's handoff note, questions page or state since 03:28 (git log on main)"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "none queued"
+    }
+   ],
+   "items": [
+    {
+     "item": "his message of 12:08 UTC: rounds 12 to 21 all approved, and two rules",
+     "outcome": "all 18 cards in; the rules are the repo's (bad-trips-2026-11-07a to c: suggestion_review.py's ask_because check, approval_record.py, the teaching paragraphs); round 22 out"
+    },
+    {
+     "item": "the UDA lane's three unlisted items",
+     "outcome": "addressed to the Inner Child and neuro de-armoring lanes; left for them"
+    }
+   ],
+   "recorded_utc": "2026-11-07T12:35Z"
   }
  ]
 }
