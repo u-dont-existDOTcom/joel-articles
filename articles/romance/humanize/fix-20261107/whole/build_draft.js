@@ -28,12 +28,16 @@
   const norm = s => s.replace(/\s+/g, ' ').trim();
   const hex = async s => Array.from(new Uint8Array(await crypto.subtle.digest('SHA-256', new TextEncoder().encode(s))))
     .map(b => b.toString(16).padStart(2, '0')).join('');
+  // the page's paragraph list has the Share button at the top but not the Subscribe button at the end, and its text has a
+  // line break where the editor has <br>
   const els = Array.from(body.querySelectorAll('p, li, h2, h3, h4'));
+  while (els.length > index.length && els[els.length - 1].classList.contains('button-wrapper')) els.pop();
+  const seen = e => { const c = e.cloneNode(true); c.querySelectorAll('br').forEach(br => br.replaceWith('\n')); return c.textContent; };
   if (els.length !== index.length) return 'refused: the post has ' + els.length + ' paragraphs, the index ' + index.length;
   const bad = [];
   for (let i = 0; i < els.length; i++) {
     if (els[i].tagName !== index[i][1]) bad.push(i + ' tag');
-    else if ((await hex(norm(els[i].textContent))).slice(0, 12) !== index[i][2]) bad.push(i);
+    else if ((await hex(norm(seen(els[i])))).slice(0, 12) !== index[i][2]) bad.push(i);
   }
   if (bad.length) return 'refused: ' + bad.length + ' paragraphs differ from the index: ' + bad.slice(0, 12).join(', ');
   // put in the new paragraphs (keys are paragraph numbers; a list item's own <p> takes its li's text)
