@@ -1,0 +1,46 @@
+{
+ "about": "Each turn's mailbox check (tools/humanization/lane_mailbox.py; AGENTS.md, \"Suggested fixes from other projects\"). Newest last.",
+ "places": {
+  "uda-lane": "this repository's lane in universal-dev-architecture (suggested-fixes/joel-articles/), against docs/suggested-fixes-ledger.md",
+  "repo": "new issues and pull requests here, and new comments and reviews on any of them, replies on our own included",
+  "notes": "edits others made to the lane's handoff notes and owner questions pages since its last turn",
+  "runtime": "the messages the session's runtime queued for it"
+ },
+ "checks": [
+  {
+   "turn": "2026-11-07T14:27Z",
+   "lines_of_work": [
+    "romance article"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "UDA main b6185f7, unchanged since 13:39; root AGENTS.md as read then"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "#374 (ours) merged; #373 (neuro) merged, its lesson neuro-2026-11-07e/f read: a panel's list applied in full can still read AI, the paragraph that read Human kept his sentence; no new issues or comments"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no edits by anyone else to articles/romance"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "my scheduled pickup of 14:27 UTC; three PR notifications, #374 merged"
+    }
+   ],
+   "items": [
+    {
+     "item": "scheduled pickup of 14:27 UTC",
+     "outcome": "S17 and S21 in their sections; S2's last try or the marking page with S10; the live feed's Low windows; the unchecked last part of the post"
+    }
+   ],
+   "recorded_utc": "2026-11-07T14:28Z"
+  }
+ ]
+}

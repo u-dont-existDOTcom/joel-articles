@@ -32,6 +32,10 @@ with his OK and no email.
   `r05/`). Human in their own checks, no Low: S6 bundling (#30), S8 idealization (#18), S11 her as Mom (#37), S14
   polarity inside the safety (#21), S15 proving I'm the man (#31), S16 the fantasy lines (#23), S18 the backup system
   (#25), S19 the confidants' side of the story (#32), S20 the agreement questions (#27).
+- 2026-11-07 (14:27 UTC pickup): four sections checked whole with the best tries in them (`humanize/fix-20261107/r06/`):
+  S10 alone time read Human (High) in its section (#44), so it is done. The post's last 2,871 words, which his extension
+  never read, checked as they stand (#47): Mostly Human, 4.8% AI, with a new spot, S22, and 8 Human Low windows. The live
+  post's 54 Human Low windows saved (`live-check/LOW-WINDOWS.json`): 19 already rechecked by a fix, 35 (673 words) open.
 
 ### Before 2026-11-07 (the registered master, as recorded then)
 
@@ -137,30 +141,28 @@ Use exact r23r2 on `main` as the sole current Romance working authority. The nex
 
 ## Current checkpoint
 
-2026-11-07, the 13:39 UTC pickup of Joel's 13:13 UTC ask. 15 of the 21 spots read Human in their own checks with no
-Low window: S1, S3, S4, S5, S6, S8, S11, S12, S13, S14, S15, S16, S18, S19, S20. Human with a Low window: S7, the
-shut-down questions (#39), and S9, the bed line (#10; its next try #40 read worse). Still AI: S2 the monastic paragraph
-(five tries; the last, #38, 27% AI, with only the perks and West sentences AI Low), S10 alone time (four tries, none
-Human: my rebuilds read worse than his own words), S17 Kim Anami and S21 the extra promise (three tries each; in these
-two-paragraph checks his own sentences read AI too, Human in the live post).
+2026-11-07, the 14:27 UTC pickup. 16 of the 21 spots read Human in their own checks or their sections with no Low window:
+S1, S3, S4, S5, S6, S8, S10, S11, S12, S13, S14, S15, S16, S18, S19, S20. Human with a Low line: S7, S9. Still AI: S2 the
+monastic perks (AI Medium on its poor-country sentence inside its section too, #48), S17 Kim Anami (inside its section,
+#45, her two sentences AI and three of his own sentences around them AI Low), S21 the extra promise (inside its section
+every window Human except its closing sentence, AI High, #46), and the new S22 in the post's last part (#47): seven AI
+windows in "After leaving", from "Sometimes the truth is abuse, coercion, or serious deception." to "A therapist, pastor,
+or even a stranger may see the evidence more clearly than a lifelong friend."
 
-What worked: changing only the sentence in the window and keeping his words around it (S8, S11, S15, S16, S18, S19,
-S20). What didn't: rebuilding a sentence along a tell panel's list (S10, S21), the same finding as the neuro lane's
-lesson neuro-2026-11-07e.
-
-His extension read only the first 99,999 characters of the live post (`live-check/META.json`): the post is 116,586, so
-its last part, from "It’s not always possible in that moment to change a defensive posture" on, has never been checked.
+What the sections showed: the two-paragraph checks misjudge both ways. S10 read AI in four pair checks and Human High in
+its section; S17's and S21's pair checks read his own sentences AI, which the sections read Human.
 
 ## Remaining
 
-1. S17 and S21: check each inside its whole section, as the live post has it, with the best try in it (the short checks
-   read his own sentences AI).
-2. S10, and S2 if its last try fails: on the marking page for Joel with my tested tries, as the paragraphs he could teach
-   most from (gate bad-trips-2026-11-07c).
-3. The Low windows: S7's shut-down questions, S9's bed line, then the live post's 911 words of Human Low.
-4. The unchecked last part of the post: its own check.
-5. A whole-article check of the fixed version (a temporary draft for his extension, in two parts if it is over 100,000
-   characters), then his post updated with his OK, no email.
+1. S2 and S17 on the marking page for Joel with my tested tries, as the paragraphs he could teach most from (gate
+   bad-trips-2026-11-07c). The page shows their two sections, not the whole post: the live post isn't in the repository
+   whole, and its 116,586 characters can't be carried over from the browser here.
+2. S22: first tries, checked inside "After leaving".
+3. S21: its section's last try (the gate asks for the section's paragraphs to be narrowed first; #49 did that), or the
+   marking page with S2 and S17.
+4. The open Human Low windows (`live-check/LOW-WINDOWS.json`), then S7's and S9's Low lines.
+5. A whole-article check of the fixed version (a temporary draft for his extension, in two parts, since his extension
+   reads only the first 100,000 characters), then his post updated with his OK, no email.
 
 ## Blockers / unresolved
 
@@ -169,9 +171,10 @@ its last part, from "It’s not always possible in that moment to change a defen
 
 ## Evidence / artifacts
 
-- `humanize/fix-20261107/live-check/META.json`, `AI-WINDOWS.json`; `humanize/fix-20261107/r01/` to `r05/` (check texts,
-  receipts, predictions, results, tell panels); `humanize/pangram-ledger.jsonl`; `humanize/SCORECARD.md`.
+- `humanize/fix-20261107/live-check/META.json`, `AI-WINDOWS.json`, `LOW-WINDOWS.json`; `humanize/fix-20261107/r01/` to
+  `r07/` (check texts, receipts, predictions, results, tell panels); `humanize/pangram-ledger.jsonl`;
+  `humanize/SCORECARD.md`.
 
 ## Next safe action
 
-Check S17 and S21 inside their sections; put S10 (and S2 if needed) on the marking page; then the Low windows.
+Build the marking page for S2 and S17 from their sections, then S22's first tries, then the open Low windows.

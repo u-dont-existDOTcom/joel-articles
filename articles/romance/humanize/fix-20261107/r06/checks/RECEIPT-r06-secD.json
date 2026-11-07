@@ -1,0 +1,123 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-07",
+ "text_sha256": "f3c5a4cb3368d381678492eeedcee97cf2f928df1c00a43465c802bef2150227",
+ "text": "Conventional marriage vows are dishonest, and most people know it. You can’t promise how you’ll feel in the future. You can promise actions if you really believe you’re capable of delivering them. So for example, you could promise to tell the truth, to keep showing up, to support the children, or whatever else you genuinely believe you can do.\n\nWe also find something like my warning in the New & Old Testaments. Ecclesiastes 5:4–6 says it is better not to make a vow than to make one and fail to keep it. If you tell the priest you didn’t mean what you promised, the passage warns that God will be angry and destroy your work.\n\nMatthew 5:33–37 and James 5:12 are stranger still beside wedding vows: let your “Yes” be “Yes” and your “No” be “No,” and anything beyond that comes from evil. To me, the extra promise itself starts to look suspicious: if your yes is trustworthy, why does it need another layer?\n\nWhere did the idea of promising to have romantic interest in your partner come from, anyway? It turns out it never existed in any culture I’m aware of until the 19th century, when people in England began citing romance as their reason for marriage. That trend has continued evolving like a snowball until today. But what our ancestors knew was not wrong: You can sign a contract about what you’ll do, but feelings aren’t contractual.",
+ "section": "Which marriage vows are honest?",
+ "reader": "Someone about to make wedding vows, deciding what they can honestly promise.",
+ "sentences": [
+  {
+   "s": "Conventional marriage vows are dishonest, and most people know it.",
+   "payoff": "the reader learns conventional vows are dishonest, and most people know it",
+   "follows": "opens the section"
+  },
+  {
+   "s": "You can’t promise how you’ll feel in the future.",
+   "payoff": "the reader learns you can’t promise future feelings",
+   "follows": "why they are dishonest",
+   "link": "You can’t promise"
+  },
+  {
+   "s": "You can promise actions if you really believe you’re capable of delivering them.",
+   "payoff": "the reader learns you can promise actions you can deliver",
+   "follows": "what you can promise",
+   "link": "You can promise actions"
+  },
+  {
+   "s": "So for example, you could promise to tell the truth, to keep showing up, to support the children, or whatever else you genuinely believe you can do.",
+   "payoff": "the reader learns examples: the truth, showing up, the children",
+   "follows": "examples of it",
+   "link": "So for example"
+  },
+  {
+   "s": "We also find something like my warning in the New & Old Testaments.",
+   "payoff": "the reader learns the Bible has a warning like his",
+   "follows": "support from the Bible",
+   "link": "We also find"
+  },
+  {
+   "s": "Ecclesiastes 5:4–6 says it is better not to make a vow than to make one and fail to keep it.",
+   "payoff": "the reader learns Ecclesiastes: better no vow than a broken one",
+   "follows": "the first verse",
+   "link": "Ecclesiastes"
+  },
+  {
+   "s": "If you tell the priest you didn’t mean what you promised, the passage warns that God will be angry and destroy your work.",
+   "payoff": "the reader learns the passage warns of God’s anger",
+   "follows": "what the verse says follows",
+   "link": "the passage warns"
+  },
+  {
+   "s": "Matthew 5:33–37 and James 5:12 are stranger still beside wedding vows: let your “Yes” be “Yes” and your “No” be “No,” and anything beyond that comes from evil.",
+   "payoff": "the reader learns Matthew and James: let your yes be yes, anything more is from evil",
+   "follows": "the second verses",
+   "link": "Matthew"
+  },
+  {
+   "s": "To me, the extra promise itself starts to look suspicious: if your yes is trustworthy, why does it need another layer?",
+   "payoff": "the reader learns so the extra promise looks suspicious: a trustworthy yes needs no other layer",
+   "follows": "what the verses mean for vows",
+   "link": "the extra promise"
+  },
+  {
+   "s": "Where did the idea of promising to have romantic interest in your partner come from, anyway?",
+   "payoff": "the reader learns where promising romantic interest came from",
+   "follows": "the next question",
+   "link": "Where did the idea"
+  },
+  {
+   "s": "It turns out it never existed in any culture I’m aware of until the 19th century, when people in England began citing romance as their reason for marriage.",
+   "payoff": "the reader learns it began in 19th-century England",
+   "follows": "the answer",
+   "link": "It turns out"
+  },
+  {
+   "s": "That trend has continued evolving like a snowball until today.",
+   "payoff": "the reader learns the trend snowballed until today",
+   "follows": "what followed",
+   "link": "That trend"
+  },
+  {
+   "s": "But what our ancestors knew was not wrong: You can sign a contract about what you’ll do, but feelings aren’t contractual.",
+   "payoff": "the reader learns you can contract actions, not feelings",
+   "follows": "what the ancestors knew",
+   "link": "But what our ancestors knew"
+  }
+ ],
+ "checked": [
+  {
+   "point": "the AI window’s point",
+   "found": "the live post (../../live-check/AI-WINDOWS.json)",
+   "still_needed": "yes: the section needs it",
+   "fate": "changed"
+  }
+ ],
+ "placement": "The whole section in its place in the live post, from its heading to the next.",
+ "opens": {
+  "first_sentence": "Conventional marriage vows are dishonest, and most people know it.",
+  "why_reading": "It tells the reader conventional vows are dishonest, which they may half know."
+ },
+ "same_point": "none: read the section from its heading to the next for these points; each is made once, here",
+ "questions": {
+  "Q1": "PASS: each changed sentence gives its point first, in plain words",
+  "Q2": "N/A: these sections tell and ask; the advice in them is unchanged",
+  "Q3": "PASS: the people, places, numbers and things are named as in the live post",
+  "Q4": "PASS: no new term",
+  "Q5": "PASS: each sentence’s tie is in its words (the links field), or the link says why it needs none",
+  "Q6": "PASS: the order is the live post’s, with the reorders r03 to r05 recorded for the changed paragraphs",
+  "Q7": "PASS: each change keeps what the section tells the reader about their own case",
+  "Q8": "PASS: no item moved between groups",
+  "Q9": "PASS: one step per sentence in the changed paragraphs"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}
