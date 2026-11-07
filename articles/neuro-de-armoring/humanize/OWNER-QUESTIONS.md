@@ -1,9 +1,9 @@
 # Neuro de-armoring: what I need from Joel
 
-Last updated 2026-11-07, after your answers to the section B cards (13:10 UTC).
-**Open questions: none.** **For you to do**: answer the three cards on
-[Neuro De-Armoring Cards, 7 November (2)](https://claude.ai/artifact/5ctHecxpD6XTz4gGdjrCmK)
-([the same cards in Git](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261107/sci/x1107b/REVIEW-X1107B.md)).
+Last updated 2026-11-07, after your three answers (13:49 UTC) and section B's humanizing pass.
+**Open questions: none.** **For you to do**: if you want to, fix either of the two paragraphs on
+[Neuro De-Armoring Cards, 7 November (3)](https://claude.ai/artifact/RGUmoY9oVUxWQ6Q6hKK1AR)
+([the same cards in Git](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261107/hum/teach/REVIEW-X1107C.md)); every wording I tried for them read AI.
 Colours: 🟣 a question for you; 🟠 something for you to do; 🔵 next or in progress; 🟢 done or decided.
 
 The master copy of this page is [this file in Git](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/OWNER-QUESTIONS.md), so a session in either of your accounts
@@ -18,11 +18,31 @@ can read and update it. Every file it points to is a link.
 
 ## For you to do
 
-- 🟠 **Three cards**, your own answers followed up: [Neuro De-Armoring Cards, 7 November (2)](https://claude.ai/artifact/5ctHecxpD6XTz4gGdjrCmK)
-  ([in Git](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261107/sci/x1107b/REVIEW-X1107B.md)). SB-37b answers your question about what the storm feels
-  like; SB-38b drops "Low", apathy and schizotypy and gives the High guess its mechanism; SB-40b renames the Vacuum
-  the Brake.
-- 🟢 **Done**: your five approved cards are in the article, leucine included (cut).
+- 🟠 **Two paragraphs, if you want them** (block 37, the Mechanism, and block 38, the Signal Dial):
+  [Neuro De-Armoring Cards, 7 November (3)](https://claude.ai/artifact/RGUmoY9oVUxWQ6Q6hKK1AR)
+  ([in Git](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261107/hum/teach/REVIEW-X1107C.md)). Every wording I tried read AI at 100%, after both tell
+  panels ([block 37](https://www.pangram.com/history/4026db4c-d192-4673-8adc-c56d711b8087), [block 38](https://www.pangram.com/history/fa44a654-ae02-432f-b2aa-6dd033ca41f6)), so
+  these are the two I'd learn the most from. Keep it as it is, or Edit it and write your own. Block 38 is
+  the one you already fixed once, so your two versions beside each other would show me what I lost when the claims
+  changed.
+- 🟢 **Done since your answers**: all ten approved claims are in the article, and block 42's humanized version is in
+  too ([Human, High](https://www.pangram.com/history/67dd2887-06b0-4c66-8ff2-dbf0bf389e24)).
+
+## Your answers of 2026-11-07 13:49 UTC (the three rewritten cards), and what I did
+
+- 🟢 **All three in**: the Mechanism's feeling sentence, the Signal Dial with the Low row gone, and the Brake. Fidelity
+  PASS.
+- 🔵 **Then the humanizing pass on section B, and it went badly**: four of five read AI at 100% after tell panels on
+  the two that had failed before, [the Mechanism](https://www.pangram.com/history/4026db4c-d192-4673-8adc-c56d711b8087),
+  [the Signal Dial](https://www.pangram.com/history/fa44a654-ae02-432f-b2aa-6dd033ca41f6), [D-serine and DCS](https://www.pangram.com/history/60a9335d-05f1-4227-a6e4-9956415a2a71)
+  and [the Brake with the Lock](https://www.pangram.com/history/4312584e-a4de-471b-aaba-5459ffaa4cd9) ([every result and link](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261107/hum/RESULTS.md)). The one that read Human is
+  the one I barely touched: block 42, which kept your own sentence from 6 November and only split my stacked clause.
+  That's in the article.
+- 🟠 **So blocks 37 and 38 go to you** (the page above), and blocks 39, 40 and 41 wait for what your fix shows instead
+  of another wording of mine.
+- 🟢 **Your scorecard now has this lane in it**: it was missing from the list, so none of its 153 checks were counted
+  ([the scorecard](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/state/PANGRAM-SCORECARD.md),
+  [this lane's](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/SCORECARD.md)).
 
 ## Your answers of 2026-11-07 13:10 UTC (the seven section B cards), and what I did
 
@@ -181,7 +201,8 @@ humanization lab rules? why not? every other lane is doing gui checks".
   with only its last sentence AI (Low). The other four read 100% AI
   ([results](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261104/checks/x1104k/RESULTS.md)).
 - 🟢 **The next tries**: one-sentence fixes of the two weak windows both moved the other windows and read worse
-  ([results](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261104/checks/x1104l/RESULTS.md)).
+  ([one](https://www.pangram.com/history/4079bcd3-65eb-43f8-97bb-ec8436fc5f19),
+  [the other](https://www.pangram.com/history/e0a823e1-b205-4120-971a-bd4ad47a7d16), [all the results](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261104/checks/x1104l/RESULTS.md)).
   For the four 100% AI paragraphs, the readers' notes and then Codex's rewrites, which read AI too; Codex's psychedelic
   caution came closest, at 39.4% AI
   ([results](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261104/checks/x1104m/RESULTS.md)).

@@ -1,0 +1,67 @@
+{
+ "format": "joel-suggestion-review-v1",
+ "review_id": "neuro-de-armoring-cards-20261107-x1107c",
+ "title": "Neuro De-Armoring Cards, 7 November (3): two paragraphs to teach me on",
+ "intro": [
+  "Section B's science is settled and in the article, all seven claims plus your three rewrites. The humanizing pass after it went badly: four of five read AI at 100% after both tell panels, [the Mechanism](https://www.pangram.com/history/4026db4c-d192-4673-8adc-c56d711b8087), [the Signal Dial](https://www.pangram.com/history/fa44a654-ae02-432f-b2aa-6dd033ca41f6), [D-serine and DCS](https://www.pangram.com/history/60a9335d-05f1-4227-a6e4-9956415a2a71) and [the Brake with the Lock](https://www.pangram.com/history/4312584e-a4de-471b-aaba-5459ffaa4cd9) ([every result and link](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261107/hum/RESULTS.md)).",
+  "The one that read Human is the one I barely touched: block 42 kept your own sentence from 6 November word for word and only split my stacked clause in two ([Human, High](https://www.pangram.com/history/67dd2887-06b0-4c66-8ff2-dbf0bf389e24)). It is in the article.",
+  "So these two are yours if you want them, the two I'd learn the most from. Blocks 39, 40 and 41 are still mine and I'll do them the way your fix here shows, rather than trying another wording of my own.",
+  "No claim changes on this page: the science in both paragraphs is what you approved today."
+ ],
+ "git_file": "articles/neuro-de-armoring/humanize/fix-20261107/hum/teach/REVIEW-X1107C.html",
+ "article": {
+  "file": "articles/neuro-de-armoring/humanize/HUMANIZED-SO-FAR.md",
+  "sha256": "87205f54fd04ab610a420308c65d4f3fec267001e219f305a1f83298d3f311f9"
+ },
+ "built": "2026-11-07T14:02:01Z",
+ "links": {
+  "guide": "https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/HUMANIZED-SO-FAR.md",
+  "review": "https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261107/hum/teach/REVIEW-X1107C.md"
+ },
+ "types": {
+  "teach": {
+   "label": "Yours to fix, so I can learn the move",
+   "about": "Every wording I tried for this paragraph read AI, after its tell panel. The card has my best tries with what each read. Keep it as it is, or open it and write your own version."
+  }
+ },
+ "suggestions": [
+  {
+   "id": "T-37",
+   "type": "teach",
+   "title": "The Mechanism: the science is right, the wording is still mine",
+   "advice": "edit",
+   "whose": "he asked: \"ok fixing block 38 for you\" (2026-11-07 01:00 UTC), and \"i'll fix the first one for you ... see if you can learn something and try now\" (2026-11-06 23:01 UTC)",
+   "keep_label": "keep it as it is",
+   "spans": [
+    {
+     "block": 37,
+     "start": 0,
+     "end": 712
+    }
+   ],
+   "reading": "the paragraph as it stands is my wording of the claims you approved; my humanized version of it read [AI Generated, 100% AI, three windows (Medium 34, High 76, Medium 13)](https://www.pangram.com/history/4026db4c-d192-4673-8adc-c56d711b8087)",
+   "why": "This is the paragraph where you asked what the over-excitement was. The answer went in: the feeling follows the circuit the rise reaches, the amygdala, which is why it comes out as threat and not as joy. Then I rewrote it your way, payoff first in each sentence, terms glossed in place, the short sentences joined, and it read [AI at 100% in three windows](https://www.pangram.com/history/4026db4c-d192-4673-8adc-c56d711b8087). My version is in the card below this line.  What I can't get is the voice of a mechanism paragraph: every sentence of mine lands as a finished step with its citation, and both panel readers said the same thing about the rhythm.",
+   "advice_note": "If you fix this one, the move I'd carry to blocks 39, 40 and 41, which read AI too ([39](https://www.pangram.com/history/60a9335d-05f1-4227-a6e4-9956415a2a71), [40 and 41](https://www.pangram.com/history/4312584e-a4de-471b-aaba-5459ffaa4cd9)), is whatever you do to break that step-by-step rhythm. Here is my try, to edit or to ignore:\n\nThe Mechanism: When glutamate floods in, it jams open the NMDA receptors, the doors glutamate opens on a brain cell, like a key stuck in the \"On\" position, and calcium pours in through them. Calcium that high kills the cell only in extremes, a stroke or a brain injury, and that killing is what \"excitotoxicity\" means (Sattler & Tymianski, 2001), so a storm doesn't mean your neurons are dying. What you feel comes from where the glutamate lands, and under stress it rises in the amygdala, the part that flags threats (Wilson, 2015), so an amygdala firing too hard hands you threat: anxiety, rage, the \"itchy brain\", and never joy. Block the NMDA receptors there and anxious behaviour drops in animals (Boyle, 2013).",
+   "found_by": "Section B's humanizing pass, 7 November ([every result and link](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261107/hum/RESULTS.md))"
+  },
+  {
+   "id": "T-38",
+   "type": "teach",
+   "title": "The Signal Dial: your version read Human, mine with the corrected science reads AI",
+   "advice": "edit",
+   "whose": "he asked: \"ok fixing block 38 for you\" (2026-11-07 01:00 UTC), and \"i'll fix the first one for you ... see if you can learn something and try now\" (2026-11-06 23:01 UTC)",
+   "keep_label": "keep it as it is",
+   "spans": [
+    {
+     "block": 38,
+     "start": 0,
+     "end": 1017
+    }
+   ],
+   "reading": "the paragraph as it stands is the corrected science you approved (SB-38b); my humanized version of it read [AI Generated, 100% AI, one window at High](https://www.pangram.com/history/fa44a654-ae02-432f-b2aa-6dd033ca41f6), and the science draft before it read [AI, Low](https://www.pangram.com/history/4c0e1a5b-51fe-4d93-854e-451a187daff3). Your own version of the old wording read [Human, High after the label sentence](https://www.pangram.com/history/f2a4727d-a109-46d4-a907-40efa6350e96)",
+   "why": "This is the clearest comparison we have. On 7 November you turned this paragraph Human with three moves on the old science: \"well\" for \"according to\", uncompressing the last sentence, and the question as the opener. I kept all three, carried the corrected claims in (GluD is a channel, the leak is what shows up in people, the armor part is a guess with a mechanism), ran the tell panel, cut everything the two readers agreed on, and it still read AI at High across the whole paragraph. So what carries your voice in this paragraph isn't those three moves on their own, and I can't see what it is.",
+   "advice_note": "This is the one I'd most like you to fix, because it is the same paragraph you already fixed once, so your two versions side by side would show me what I lost when the claims changed. Mine is below, and the claims in it are the ones you approved, so keep those and change the words:\n\nThe Signal Dial (GluD Receptors): So if NMDA is the spark, what sets the level? Well, Johns Hopkins researchers recently found that GluD receptors, until now just the things that help build synapses, are channels themselves, and what opens them is D-serine (one of the tools below) and GABA, the chemical that quiets a cell down, not glutamate (Wang, et al, 2025). In people, what turns up is a leak. The mutation behind one inherited ataxia leaves the channel stuck open, and a gene variant that raises the risk of schizophrenia does too (Allen, et al, 2023), so the synapse never gets quiet. My guess is that an armored state jams it the same way, stuck part-way on, so you never come down to a baseline, which from the inside is hyper-vigilance. Nobody has tested that in trauma, so it stays a guess, though the lab already has a drug that shuts these leaking channels.",
+   "found_by": "Section B's humanizing pass, 7 November ([every result and link](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261107/hum/RESULTS.md))"
+  }
+ ]
+}

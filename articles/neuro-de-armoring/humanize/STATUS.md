@@ -1,5 +1,19 @@
 # Status: neuro de-armoring humanization (newest on top)
 
+## 2026-11-07, his answers of 13:49 UTC: section B's science all in; its humanizing pass read AI four times of five
+
+- Applied: SB-37b, SB-38b, SB-40b (fidelity PASS, `fix-20261107/sci/x1107b/APPLIED-X1107B.json`).
+- Humanizing pass (`fix-20261107/hum/`): receipts pass for all six paragraphs; tell panels for 38 and 42 (both readers
+  flagged every sentence); predictions first, then one web-app batch at 13:58 UTC. B037h AI (Medium 34, High 76,
+  Medium 13), B038h2 AI High, B039h AI (Low 38, High 107), PAIR-040-041 AI High, **B042h2 Human High** and applied.
+  Four misses recorded against their predictions; the scorecard now counts this lane (it was missing from
+  `pangram_lanes.json`, so 153 rows were uncounted).
+- What the one Human result shows: it kept his own second sentence word for word and only split my stacked clause.
+  Every paragraph I wrote end to end read AI.
+- So blocks 37 and 38 went to him as the two to teach on (gate bad-trips-2026-11-07c),
+  `fix-20261107/hum/teach/REVIEW-X1107C`, artifact RGUmoY9oVUxWQ6Q6hKK1AR, smoke test 400 and 1,200 px clean, links
+  check PASS. Blocks 39, 40 and 41 wait for his move rather than another wording of mine.
+
 ## 2026-11-07, his answers of 13:10 UTC: five section B cards in, three rewritten
 
 - In the article: SB-37, SB-39, SB-41, SB-42 (leucine cut, his word), SB-148. `fidelity_keys.py` PASS after recording

@@ -2454,6 +2454,21 @@
      ]
     ]
    }
+  },
+  {
+   "by": "fix-20261107/sci/x1107b/ANSWERS-X1107B-20261107-1349.json, cards SB-37b, SB-38b and SB-40b (all approved 2026-11-07 13:48 UTC)",
+   "why": "the three rewritten claims: what the storm feels like (the circuit it reaches), the GluD finding with the armor part as a hypothesis and the \"Low\" row gone, and \"The Vacuum (NAC)\" renamed \"The Brake (NAC)\". The new numbers are the years of the citations these add, and the \"3\" of mGluR2/3",
+   "numbers_lost": [],
+   "numbers_new": [
+    "2005",
+    "2013",
+    "2015",
+    "2023",
+    "2025",
+    "3"
+   ],
+   "terms_lost": [],
+   "keys_lost": {}
   }
  ],
  "warning_words": {

@@ -18,6 +18,14 @@ From an account with Desktop Commander connected to the laptop: "Continue my neu
 
 ## START HERE
 
+- **2026-11-07, after his three answers (13:49 UTC): section B's science is fully in, and its humanizing pass failed
+  four of five** (`fix-20261107/hum/RESULTS.md`; B037h, B038h2, B039h and PAIR-040-041 all AI at 100%%, B042h2 Human
+  High and applied). Both tell panels had already run (panel-b038, panel-b042). **Next**: blocks 37 and 38 are with
+  him on `fix-20261107/hum/teach/REVIEW-X1107C` (artifact RGUmoY9oVUxWQ6Q6hKK1AR), as the two to teach on (gate
+  bad-trips-2026-11-07c); when his versions come back, carry the move to blocks 39, 40 and 41 (budget: B039 1 of 6,
+  PAIR-040-041 1 of 6, B037 2 of 6, B038 5 of 6) and then to section C onwards. The lane is now in
+  `tools/humanization/pangram_lanes.json`, so its scorecard is built with the others.
+
 - **2026-11-07, his answers of 13:10 UTC: five of the seven section B cards are in the article** (leucine cut;
   `fix-20261107/sci/x1107a/apply_x1107a.py`, APPLIED-X1107A.json, fidelity PASS). SB-38 and SB-40 he marked revise and
   SB-37 he approved with a question, so their new versions are on a second page
