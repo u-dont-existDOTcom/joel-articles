@@ -16,3 +16,8 @@ Each paragraph after the Human section and the heading:
 Say it once: the danger list overlaps No Rash Actions' list of don'ts (confession, drive, the broadcast) and its "No revelation"
 line (sexual boundary-crossing, a violent test); both lists hold fidelity keys (W097, W099), so which copy stays is a card.
 Next: one sentence at a time on the clipped lines ("Bliss is not proof of safety ...", "If it is true, it survives sleep.").
+
+## One sentence at a time (01:58 UTC)
+
+"Bliss is not proof of safety ..." said as talk: [70%](https://www.pangram.com/history/5d8e5da1-703c-4e16-aae8-01e6cfb70ac7) (62% as the guide has it); the revelation paragraph's clipped middle
+joined to its first sentence: [80%](https://www.pangram.com/history/5992c787-1bf5-4e8f-a6f0-503c8bb64b40) (59%). Both worse; the section stays as the guide has it (the later list).
