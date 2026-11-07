@@ -1,0 +1,140 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-07",
+ "text_sha256": "e314925448931169e428686febcbb9be9ea2ed54e56fe40945cce3a1258e6af9",
+ "text": "Who to Contact, and When\n\nSave the relevant links and local numbers before you need them. Their hours and services change, and some only work in one country.\n\nDuring or soon after a psychedelic experience\n\nFireside Project: U.S.-only according to its current FAQ; phone or text psychedelic peer support at 623-473-7433, daily from 11 a.m. to 11 p.m. Pacific Time.\nTripSit live chat: browser-based harm-reduction chat for people using drugs and the people supporting them.\n\nGlobal crisis and emotional-support directories\n\nFind A Helpline: a global directory of free helplines, many offering phone, text, online chat, or WhatsApp. It is not psychedelic-specific, but it can put a human on the other end quickly.\n\nU.S. crisis chat and text\n\n988 Suicide & Crisis Lifeline: U.S. call, text, and chat for suicidal or mental-health crises.\nCrisis Text Line: U.S. text, chat, and WhatsApp support, with partner text lines listed for Canada, the UK, and Ireland.\n\nIntegration and post-experience support\n\nICEERS Support Center: up to five free online integration sessions for challenging experiences.\nCPEP online peer group: a free confidential monthly group for post-psychedelic difficulties.\nCheetah House: resources, consultations, and support groups for meditation-related difficulties, including chat-based peer support.",
+ "section": "Who to Contact, and When",
+ "reader": "someone sitting with a person on a bad psychedelic trip, or tripping themselves, who needs to know whom to contact",
+ "sentences": [
+  {
+   "s": "Who to Contact, and When",
+   "payoff": "they know this part says whom to call, and when",
+   "follows": "the section's heading, after Get One Human Anchor's scripts"
+  },
+  {
+   "s": "Save the relevant links and local numbers before you need them.",
+   "payoff": "they know to save the links and numbers ahead of time",
+   "follows": "the section's first point, under its heading",
+   "link": "before you need them"
+  },
+  {
+   "s": "Their hours and services change, and some only work in one country.",
+   "payoff": "they know to check the hours and whether a service works where they are",
+   "follows": "the caveat for the list that follows",
+   "link": "Their hours"
+  },
+  {
+   "s": "During or soon after a psychedelic experience",
+   "payoff": "they know the first list is for during or just after a trip",
+   "follows": "a list heading, after the opening paragraph",
+   "link": "During or soon after"
+  },
+  {
+   "s": "Fireside Project: U.S.-only according to its current FAQ; phone or text psychedelic peer support at 623-473-7433, daily from 11 a.m. to 11 p.m.",
+   "payoff": "they know who Fireside serves, how to reach it, and its hours",
+   "follows": "the first item under its heading",
+   "link": "Fireside Project"
+  },
+  {
+   "s": "Pacific Time.",
+   "payoff": "they know the hours are Pacific Time",
+   "follows": "the end of the hours, split off at \"p.m.\"",
+   "link": "none: the end of the same item, split by the sentence counter at \"p.m.\""
+  },
+  {
+   "s": "TripSit live chat: browser-based harm-reduction chat for people using drugs and the people supporting them.",
+   "payoff": "they know what TripSit offers and for whom",
+   "follows": "the next item in the same list",
+   "link": "TripSit"
+  },
+  {
+   "s": "Global crisis and emotional-support directories",
+   "payoff": "they know the next list is directories of crisis lines",
+   "follows": "a list heading, after the opening paragraph",
+   "link": "directories"
+  },
+  {
+   "s": "Find A Helpline: a global directory of free helplines, many offering phone, text, online chat, or WhatsApp.",
+   "payoff": "they know what Find A Helpline is and how its helplines can be reached",
+   "follows": "the list item, under its heading",
+   "link": "Find A Helpline"
+  },
+  {
+   "s": "It is not psychedelic-specific, but it can put a human on the other end quickly.",
+   "payoff": "they know the helplines are general and fast to reach",
+   "follows": "what the helplines are for, after what they are",
+   "link": "It is not psychedelic-specific"
+  },
+  {
+   "s": "U.S. crisis chat and text",
+   "payoff": "they know the next list is U.S. crisis lines",
+   "follows": "a list heading, after the directories",
+   "link": "U.S. crisis"
+  },
+  {
+   "s": "988 Suicide & Crisis Lifeline: U.S. call, text, and chat for suicidal or mental-health crises.",
+   "payoff": "they know what 988 is for and how to reach it",
+   "follows": "the first item under its heading",
+   "link": "988"
+  },
+  {
+   "s": "Crisis Text Line: U.S. text, chat, and WhatsApp support, with partner text lines listed for Canada, the UK, and Ireland.",
+   "payoff": "they know what Crisis Text Line offers, and where else it has partners",
+   "follows": "the next item in the same list",
+   "link": "Crisis Text Line"
+  },
+  {
+   "s": "Integration and post-experience support",
+   "payoff": "they know the last list is for after the experience",
+   "follows": "a list heading, after the crisis lines",
+   "link": "post-experience"
+  },
+  {
+   "s": "ICEERS Support Center: up to five free online integration sessions for challenging experiences.",
+   "payoff": "they know what ICEERS offers",
+   "follows": "the first item under its heading",
+   "link": "ICEERS"
+  },
+  {
+   "s": "CPEP online peer group: a free confidential monthly group for post-psychedelic difficulties.",
+   "payoff": "they know what the CPEP group is",
+   "follows": "the next item in the same list",
+   "link": "CPEP"
+  },
+  {
+   "s": "Cheetah House: resources, consultations, and support groups for meditation-related difficulties, including chat-based peer support.",
+   "payoff": "they know what Cheetah House offers, for meditation-related difficulties",
+   "follows": "the last item in the list",
+   "link": "Cheetah House"
+  }
+ ],
+ "checked": [],
+ "placement": "Who to Contact, and When as it would stand with round 14's card",
+ "opens": {
+  "first_sentence": "Who to Contact, and When",
+  "why_reading": "the heading tells someone looking after a person, or alone, that this is whom to call and when; the first sentence says to save the numbers before they're needed"
+ },
+ "same_point": "none: read the section from its heading to the next for saving the numbers, the caveat and the lists; its peer-support line, a repeat of the call-for-help part, is cut (experiments/t19-anchor/apply_t19d.py)",
+ "questions": {
+  "Q1": "PASS: each paragraph opens on its point: the first priority, the room fixes with their reason, what the reminder is for, then the anchor part's point",
+  "Q2": "PASS: every act is the helper's own, with its purpose: the dangers removed, the lights dimmed and the extra people out because they're overwhelmed, the reminder because a trip can make them lose track; one calm person as the lead, a second as backup when it's more than one can hold",
+  "Q3": "PASS: which things exactly: keys, stove, roads, balconies, pools, weapons, the phone; the lights, the extra people; place, date and time, the substance; who leads and who backs up, and when",
+  "Q4": "PASS: no terms a reader would not know; \"anchor\" is the heading's word, said in the sentence as the calm person who leads",
+  "Q5": "PASS: each turn has what it turns on: since a trip makes them lose track; the opposite of alone is too many people; backup when one person cannot hold it",
+  "Q6": "PASS: dangers, room, what to say, then who should be with them",
+  "Q7": "PASS: every fact is about the person in front of them now",
+  "Q8": "PASS: the anchor part is one point, under its heading",
+  "Q9": "PASS: nothing compressed: the reminder's facts one a sentence, as said aloud; the anchor part one step a sentence"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

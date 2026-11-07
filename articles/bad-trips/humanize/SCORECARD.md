@@ -8,7 +8,7 @@ Built by `tools/humanization/pangram_ledger.py build` from `articles/bad-trips/h
 |---|---|---|---|---|---|---|
 | Pangram 4.1 extension (free, live post; Joel's check of 2026-10-18, the same text as his 2026-11-03 paste by SHA-256) | 1 | 1 (100%) | 100% | 0% | 0% | 0.000 (base 0.000, 1) |
 | Pangram web app (his account, Pangram Professional) | 3 | 3 (100%) | 100% | 0% | 0% | 0.092 (base 0.000, 3) |
-| Pangram web app (his account, Pangram Professional), through the Claude desktop app's browser pane | 144 | 132 (92%) | 85% | 15% | 19% | 0.137 (base 0.125, 144) |
+| Pangram web app (his account, Pangram Professional), through the Claude desktop app's browser pane | 162 | 148 (91%) | 86% | 14% | 17% | 0.136 (base 0.122, 162) |
 | pangram 4.1, the web app: Joel's account, run by the lane in the desktop app's browser pane (E356) | 8 | 6 (75%) | 50% | 50% | 75% | 0.170 (base 0.250, 8) |
 
 ## Pangram 4.1 extension (free, live post; Joel's check of 2026-10-18, the same text as his 2026-11-03 paste by SHA-256)
@@ -56,16 +56,16 @@ Calibration:
 
 | window | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| the latest 50 | 50 | 49 (98%) | 98% | 2% | 0% | 0.097 (base 0.020, 50) |
-| the latest 100 | 100 | 96 (96%) | 91% | 9% | 7% | 0.122 (base 0.082, 100) |
-| all | 144 | 132 (92%) | 85% | 15% | 19% | 0.137 (base 0.125, 144) |
+| the latest 50 | 50 | 48 (96%) | 96% | 4% | 0% | 0.093 (base 0.038, 50) |
+| the latest 100 | 100 | 97 (97%) | 93% | 7% | 4% | 0.118 (base 0.065, 100) |
+| all | 162 | 148 (91%) | 86% | 14% | 17% | 0.136 (base 0.122, 162) |
 
 The boundary mix (what was checked; accuracy differs a lot between a paragraph and a section):
 
 | scope or kind | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| section | 33 | 30 (91%) | 94% | 6% | 15% | 0.102 (base 0.057, 33) |
-| paragraph | 64 | 59 (92%) | 78% | 22% | 23% | 0.129 (base 0.171, 64) |
+| section | 35 | 32 (91%) | 94% | 6% | 14% | 0.102 (base 0.054, 35) |
+| paragraph | 80 | 73 (91%) | 80% | 20% | 19% | 0.131 (base 0.160, 80) |
 | pair | 47 | 43 (91%) | 89% | 11% | 15% | 0.171 (base 0.095, 47) |
 
 Calibration:
@@ -73,8 +73,8 @@ Calibration:
 | my chance of a 100% Human result | calls | mean chance | read Human |
 |---|---|---|---|
 | 0.0 to 0.2 | 9 | 0.13 | 0% |
-| 0.2 to 0.4 | 61 | 0.29 | 2% |
-| 0.4 to 0.6 | 64 | 0.45 | 17% |
+| 0.2 to 0.4 | 78 | 0.29 | 4% |
+| 0.4 to 0.6 | 65 | 0.45 | 17% |
 | 0.6 to 0.8 | 11 | 0.68 | 82% |
 | 0.8 to 1.0 | 1 | 0.80 | 100% |
 
@@ -99,7 +99,7 @@ Calibration:
 | 0.4 to 0.6 | 6 | 0.49 | 33% |
 | 0.6 to 0.8 | 3 | 0.67 | 100% |
 
-## Misses since the ledger (14)
+## Misses since the ledger (16)
 
 | cause | misses |
 |---|---|
@@ -113,12 +113,13 @@ Calibration:
 | a quip kept | 1 |
 | one sentence changed | 1 |
 | the panel's one unanimous tell was the mirrored pair ('Many bad trips get worse because' / 'Others get worse because'); one sentence said as talk ('Other times it's the opposite:') broke it, and the four -ing list I expected to keep it AI did not | 1 |
+| the integration list's items say who runs what and for whom in plain, specific terms (five free sessions, a monthly group, meditation-related difficulties); none of the list tells I expected (name-colon-description) mattered here | 1 |
+| the opening's second sentence was the driver: 'Hours and services change, and not every option works in every country.' said as 'Their hours and services change, and some only work in one country.' turned every window Human, the first sentence left as it was | 1 |
 
 The latest:
 
 | check | lineage, try | said | read | cause |
 |---|---|---|---|---|
-| [bt-pfa-P3P4-D3](https://www.pangram.com/history/0993c7c4-386c-4a5b-821b-f15f3beb738d) | bad-trips PFA P4 his way (h04), 1 | Human | AI or mixed | shape echo |
 | [bt-pfa-P3P4-D4](https://www.pangram.com/history/f1b3e3bb-30f2-4399-8398-82bd3998b413) | bad-trips PFA P4 his way (h04), 2 | Human | AI or mixed | parallel frames kept |
 | [bt-r06-forums-2](https://www.pangram.com/history/fd1df50a-5f61-44ee-ad14-ab61bda0542c) | bad-trips Active Seizure N-FORUMS (what forums and the rat study say), 2 | Human | AI or mixed | a flaw of sense left in the ending |
 | [bt-r06-forums-3](https://www.pangram.com/history/d3ff8463-b3c1-40f3-8852-d81cedc403ed) | bad-trips Active Seizure N-FORUMS (what forums and the rat study say), 3 | Human | AI or mixed | rewording without a sense fix |
@@ -132,6 +133,8 @@ The latest:
 | [bt-test-acts](https://www.pangram.com/history/5a123a1a-623a-40ad-85ba-d4c6c869fe68) | bad-trips PFA dangers with the room's acts only, 1 | Human | AI or mixed | context |
 | [bt-test-fixes](https://www.pangram.com/history/904c30a7-fe86-4630-8209-e1c049471074) | bad-trips PFA dangers with the fixes line only, 1 | AI | Human | context |
 | [bt-anchor-v1](https://www.pangram.com/history/88fa84a3-9569-4e9b-84af-51c80a0efdd7) | bad-trips Get One Human Anchor P1 after the Human section, 2 | AI | Human | the panel's one unanimous tell was the mirrored pair ('Many bad trips get worse because' / 'Others get worse because'); one sentence said as talk ('Other times it's the opposite:') broke it, and the four -ing list I expected to keep it AI did not |
+| [bt-contact-K5-after](https://www.pangram.com/history/07ee0dd7-de31-4f93-8630-16521ad77701) | bad-trips Who to Contact, and When after the Human section, K5-after, 1 | AI | Human | the integration list's items say who runs what and for whom in plain, specific terms (five free sessions, a monthly group, meditation-related difficulties); none of the list tells I expected (name-colon-description) mattered here |
+| [bt-contact-kv2](https://www.pangram.com/history/3328665a-ddf4-4fbc-998c-58a8906ada02) | bad-trips Who to Contact, and When after the Human section, the opening's second sentence, 1 | AI | Human | the opening's second sentence was the driver: 'Hours and services change, and not every option works in every country.' said as 'Their hours and services change, and some only work in one country.' turned every window Human, the first sentence left as it was |
 
 ## Lineages still open (tries used of the cap)
 
@@ -192,8 +195,8 @@ The latest:
 | bad-trips Get One Human Anchor P2 after the Human section and P1, X3 with what works better | paragraph | 1 of 6 | Mixed |
 | bad-trips Get One Human Anchor P2 after the Human section and P1, X3's first two sentences joined | paragraph | 1 of 6 | Mixed |
 | bad-trips Get One Human Anchor after the Human section, the card's section | section | 1 of 2 | AI |
-| bad-trips Who to Contact, and When as the guide has it | section | 1 of 2 | AI |
-| bad-trips Who to Contact, and When after the Human section | section | 1 of 2 | Mixed |
+| bad-trips Who to Contact, and When as the guide has it | section | 2 of 2 | AI |
+| bad-trips Who to Contact, and When after the Human section | section | 2 of 2 | Mixed |
 | bad-trips Alone at 3 a.m. as the guide has it | section | 1 of 2 | AI |
 | bad-trips Alone at 3 a.m. after the Human section | section | 1 of 2 | Mixed |
 | bad-trips Alone at 3 a.m. after the Human section, the lamp sentence changed | paragraph | 1 of 6 | Mixed |
@@ -202,4 +205,13 @@ The latest:
 | bad-trips For the Person Helping, its opening, as the guide has it | section | 1 of 2 | AI |
 | bad-trips For the Person Helping, its Do and Don't lists, as the guide has them | section | 1 of 2 | AI |
 | bad-trips When the Content Turns Toward Harm, as the guide has it | section | 1 of 2 | AI |
+| bad-trips Who to Contact, and When after the Human section, K1-intro | paragraph | 2 of 6 | Mixed |
+| bad-trips Who to Contact, and When after the Human section, K2-during | paragraph | 1 of 6 | Mixed |
+| bad-trips Who to Contact, and When after the Human section, K3-global | paragraph | 2 of 6 | Mixed |
+| bad-trips Who to Contact, and When after the Human section, K4-us | paragraph | 1 of 6 | Mixed |
+| bad-trips For the Person Helping after the Human section, Pa-B280 | paragraph | 2 of 6 | AI |
+| bad-trips For the Person Helping after the Human section, Pb-B82 | paragraph | 2 of 6 | AI |
+| bad-trips For the Person Helping after the Human section, Pc-B83 | paragraph | 1 of 6 | Mixed |
+| bad-trips For the Person Helping after the Human section, Pd-B84 | paragraph | 2 of 6 | AI |
+| bad-trips For the Person Helping after the Human section, Pd-B84, the two don'ts joined | paragraph | 1 of 6 | Mixed |
 

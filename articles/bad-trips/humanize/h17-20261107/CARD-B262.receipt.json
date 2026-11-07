@@ -1,0 +1,50 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-07",
+ "text_sha256": "4a3e6fb9e10c189c4e14e10040bd19d4ad514aeda4c0d9a9b40ff5a92c43aa99",
+ "text": "Save the relevant links and local numbers before you need them. Their hours and services change, and some only work in one country.",
+ "section": "Who to Contact, and When, opening paragraph",
+ "reader": "someone sitting with a person on a bad psychedelic trip, or tripping themselves, who needs to know whom to contact",
+ "sentences": [
+  {
+   "s": "Save the relevant links and local numbers before you need them.",
+   "payoff": "they know to save the links and numbers ahead of time",
+   "follows": "the section's first point, under its heading 'Who to Contact, and When'"
+  },
+  {
+   "s": "Their hours and services change, and some only work in one country.",
+   "payoff": "they know to check the hours and whether a service works where they are",
+   "follows": "the caveat for the list that follows",
+   "link": "Their hours"
+  }
+ ],
+ "checked": [],
+ "placement": "Who to Contact, and When, under its heading, before its lists",
+ "opens": {
+  "first_sentence": "Save the relevant links and local numbers before you need them.",
+  "why_reading": "the heading says whom to contact and when; the first sentence says to save the numbers before they're needed"
+ },
+ "same_point": "none: read the section from its heading to the next for saving the numbers, the caveat and the lists; its peer-support line, a repeat of the call-for-help part, is cut",
+ "questions": {
+  "Q1": "PASS: the paragraph opens on its point",
+  "Q2": "PASS: the instruction is the reader's own act, saving the links and numbers, with its purpose: to have them before they're needed",
+  "Q3": "PASS: which things: the links and local numbers; their hours, services and countries",
+  "Q4": "PASS: no terms a reader would not know",
+  "Q5": "PASS: no turn",
+  "Q6": "PASS: the act, then the caveat",
+  "Q7": "PASS: about the lists below",
+  "Q8": "PASS: one point",
+  "Q9": "PASS: nothing compressed"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

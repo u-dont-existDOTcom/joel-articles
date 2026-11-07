@@ -313,22 +313,22 @@ The boundary mix over all lanes:
 
 | lane | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| bad trips guide | 144 | 132 (92%) | 85% | 15% | 19% | 0.137 (base 0.125, 144) |
-| **all lanes** | 144 | 132 (92%) | 85% | 15% | 19% | 0.137 (base 0.125, 144) |
+| bad trips guide | 162 | 148 (91%) | 86% | 14% | 17% | 0.136 (base 0.122, 162) |
+| **all lanes** | 162 | 148 (91%) | 86% | 14% | 17% | 0.136 (base 0.122, 162) |
 
 The latest 100 calls of each lane:
 
 | lane | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| bad trips guide | 100 | 96 (96%) | 91% | 9% | 7% | 0.122 (base 0.082, 100) |
+| bad trips guide | 100 | 97 (97%) | 93% | 7% | 4% | 0.118 (base 0.065, 100) |
 
 The boundary mix over all lanes:
 
 | scope or kind | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| paragraph | 64 | 59 (92%) | 78% | 22% | 23% | 0.129 (base 0.171, 64) |
+| paragraph | 80 | 73 (91%) | 80% | 20% | 19% | 0.131 (base 0.160, 80) |
 | pair | 47 | 43 (91%) | 89% | 11% | 15% | 0.171 (base 0.095, 47) |
-| section | 33 | 30 (91%) | 94% | 6% | 15% | 0.102 (base 0.057, 33) |
+| section | 35 | 32 (91%) | 94% | 6% | 14% | 0.102 (base 0.054, 35) |
 
 ## pangram 4.1, the web app: Joel's account, run by the lane in the desktop app's browser pane (E356)
 
@@ -515,6 +515,8 @@ The boundary mix over all lanes:
 | a quip kept | 1 | bad trips guide |
 | one sentence changed | 1 | bad trips guide |
 | the panel's one unanimous tell was the mirrored pair ('Many bad trips get worse because' / 'Others get worse because'); one sentence said as talk ('Other times it's the opposite:') broke it, and the four -ing list I expected to keep it AI did not | 1 | bad trips guide |
+| the integration list's items say who runs what and for whom in plain, specific terms (five free sessions, a monthly group, meditation-related difficulties); none of the list tells I expected (name-colon-description) mattered here | 1 | bad trips guide |
+| the opening's second sentence was the driver: 'Hours and services change, and not every option works in every country.' said as 'Their hours and services change, and some only work in one country.' turned every window Human, the first sentence left as it was | 1 | bad trips guide |
 | summary-voice-around-owner-lines | 1 | healing the gut article |
 | owner-voice-carries-neighbours | 1 | healing the gut article |
 | opener-and-attribution-asides | 1 | healing the gut article |
