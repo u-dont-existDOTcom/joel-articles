@@ -1,0 +1,46 @@
+{
+ "about": "Each turn's mailbox check (tools/humanization/lane_mailbox.py; AGENTS.md, \"Suggested fixes from other projects\"). Newest last.",
+ "places": {
+  "uda-lane": "this repository's lane in universal-dev-architecture (suggested-fixes/joel-articles/), against docs/suggested-fixes-ledger.md",
+  "repo": "new issues and pull requests here, and new comments and reviews on any of them, replies on our own included",
+  "notes": "edits others made to the lane's handoff notes and owner questions pages since its last turn",
+  "runtime": "the messages the session's runtime queued for it"
+ },
+ "checks": [
+  {
+   "turn": "2026-11-06T23:59Z",
+   "lines_of_work": [
+    "gut article"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "UDA main b6185f7 (#472, an AskRigor lane item), unchanged since the last check; root AGENTS.md and LESSON-INDEX unchanged since c25062c, read live this turn; this lane's folder unchanged (the two older items are for the Inner Child and reparenting guides' lanes)"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "main at b0a0d29c; since 23:16 UTC: #335-#342 from the bad trips and neuro lanes, merged by the auto-merge workflow; no new issues, comments or reviews; main's new shared changes: AGENTS.md's \"what counts as done\" (neuro-2026-11-06c: no Low window, most of the text High) and the neuro lesson neuro-2026-11-06c to f, read and applied (people acting, context first, digits)"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no edits by anyone else to articles/healing-the-gut"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "Joel's message of 23:59 UTC (batch 13 answers, draft C's result link sent as both C and D, and the rule on fixing what tests AI before article checks); four PR notifications, all merged"
+    }
+   ],
+   "items": [
+    {
+     "item": "Joel's message of 23:59 UTC",
+     "outcome": "batch 13 recorded (F13-1 approved, r22); draft C recorded (#189, Mostly Human, try 2's steps AI: a miss, explained); his rule as gate gut-2026-11-07a, enforced in pangram_ledger.py, and lesson f corrected; the stretches that tested AI fixed until Human (#191, #194, #195), Phase 4's organ paragraph by itself still being fixed; draft D's link asked for"
+    }
+   ],
+   "recorded_utc": "2026-11-07T00:32Z"
+  }
+ ]
+}

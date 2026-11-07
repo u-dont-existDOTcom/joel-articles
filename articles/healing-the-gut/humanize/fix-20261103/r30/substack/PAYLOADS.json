@@ -1,0 +1,53 @@
+{
+ "E": {
+  "draft": "E",
+  "source": "r12.html with r30's words, Phase 4's one-item step list joined to its paragraph",
+  "source_sha256": "980895533d25058b5900bfff5238a4d4b003312b8129f5a4e0d2dd8a7a4ab0f9",
+  "title": "Healing the Gut, draft E (temp, delete after)",
+  "words": 4039,
+  "payload_sha256": "5c333dc0a954cfcf53975578713b8095889e7e8aa9bbaf4e78d1f48cc53e70fb",
+  "words_sha256": "58fc1ecbfd925a0ff55a2c8962c5026f46d7e090fc720d8212a99d5e687a6dd8",
+  "checked_chars": 23606,
+  "checked_lines": 74,
+  "checked_sha256": "3d370fb72207a426a65ff8e7214ea71e5c3228dd1a4de15dba5d24f7272ea674",
+  "straight_marks_left": 0,
+  "paragraphs_changed": 36,
+  "lists_removed": 1,
+  "tags_dropped_or_moved": [],
+  "lines_changed_from_B": [
+   {
+    "B": [
+     28,
+     29
+    ],
+    "E": [
+     28,
+     29
+    ],
+    "kind": "replace"
+   },
+   {
+    "B": [
+     52,
+     54
+    ],
+    "E": [
+     52,
+     53
+    ],
+    "kind": "replace"
+   },
+   {
+    "B": [
+     55,
+     59
+    ],
+    "E": [
+     54,
+     58
+    ],
+    "kind": "replace"
+   }
+  ]
+ }
+}

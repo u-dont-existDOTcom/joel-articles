@@ -126,7 +126,12 @@ def open_windows(recs, text, min_words=5):
     """E354 (Joel, 2026-11-04 14:41 UTC: "no the whole article doesn't decide, we need to first fix any windows we can see
     before we check the article"): the windows the latest check of each lineage showed reading AI, or Human at Low
     confidence, whose words are still in TEXT. Windows shorter than MIN_WORDS ("Dr.", "For H.") match anywhere, so they
-    are left to their longer neighbours. Returns (lineage, label, confidence, window text) for each."""
+    are left to their longer neighbours. Returns (lineage, label, confidence, window text) for each.
+
+    Gate gut-2026-11-07a (Joel, 2026-11-06 23:59 UTC: "make sure you're fixing any paras or sections that test ai before
+    you ask for whole articel checks"): a window a paragraph, section or stretch check read is cleared only by a later
+    check of that kind; a whole-article check that reads the same words Human doesn't fix the smaller check that read
+    them AI."""
     body, out = _norm(text), []
     done = [p for p in state(recs).values() if p['result'] and not p['void']]
     # in the order the checks were predicted (a correction line, appended later, belongs to its own prediction's place)
@@ -139,9 +144,12 @@ def open_windows(recs, text, min_words=5):
     def bad(w):
         return str(w.get('label') or '').startswith('AI') or str(w.get('confidence') or '') == 'Low'
 
-    def cleared(words, after):
-        # a later check that read these words inside windows that are all Human at Medium or High
+    def cleared(words, after, source):
+        # a later check that read these words inside windows that are all Human at Medium or High; a smaller check's
+        # window is cleared only by a later smaller check, never by a whole-article one (gate gut-2026-11-07a)
         for p in done[after:]:
+            if source.get('scope') != 'article' and p.get('scope') == 'article':
+                continue
             ws = [w for w in p['result'].get('windows') or [] if isinstance(w, dict) and w.get('text')]
             full, spans = '', []
             for w in ws:
@@ -160,7 +168,7 @@ def open_windows(recs, text, min_words=5):
             if not isinstance(w, dict) or not w.get('text') or not bad(w):
                 continue
             words = _norm(w['text'])
-            if len(words.split()) >= min_words and words in body and not cleared(words, at):
+            if len(words.split()) >= min_words and words in body and not cleared(words, at, p):
                 out.append((lineage, str(w.get('label') or ''), str(w.get('confidence') or ''), words))
     return out
 
@@ -189,6 +197,17 @@ def refusals(recs, rec, text=None):
     TEXT is the submission's text, when predict has it."""
     out = []
     # E354: an article check comes after every window the smaller checks showed is fixed, or named with why it stays
+    if rec.get('scope') == 'article' and text is not None:
+        # gate gut-2026-11-07a: an AI window a smaller check showed has to be fixed, and read Human in a later smaller
+        # check, before the article goes to Pangram; --windows-ok can say why a Low window stays, never an AI one
+        ai = [w for w in open_windows(recs, text) if w[1].startswith('AI')]
+        if ai:
+            out.append('%d window(s) a paragraph, section or stretch check read AI are still in this article: fix each one '
+                       'until a check of its paragraph or section reads it Human, then check the article (gate '
+                       'gut-2026-11-07a; Joel, 2026-11-06 23:59 UTC: "make sure you\'re fixing any paras or sections that '
+                       'test ai before you ask for whole articel checks"); --windows-ok doesn\'t cover an AI window:\n    '
+                       % len(ai) + '\n    '.join('%s: %s %s: "%s"' % (l, lab, c, t[:90] + ('...' if len(t) > 90 else ''))
+                                                for l, lab, c, t in ai))
     if rec.get('scope') == 'article' and text is not None and not (rec.get('windows_ok') or '').strip():
         seen = open_windows(recs, text)
         if seen:

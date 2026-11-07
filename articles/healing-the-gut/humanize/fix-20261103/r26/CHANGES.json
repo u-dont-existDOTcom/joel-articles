@@ -1,0 +1,9 @@
+[
+ {
+  "old": "So check your organs (Brown), starting with your pancreas: if it doesn't make enough digestive enzymes, called Exocrine Pancreatic Insufficiency, you'd test for that with Stool Elastase, and treat it with high-dose enzymes.",
+  "new": "So check your organs (Brown). Do your stools look oily or greasy? Then your pancreas may not be making enough digestive enzymes, called Exocrine Pancreatic Insufficiency, and you'd test for that with Stool Elastase and treat it with high-dose enzymes.",
+  "kind": "window",
+  "why": "the organ paragraph alone read AI High twice (#196, #199), the first case the same in both and AI Low in both cuts of Phases 3 to 6 (#187, #192): it now opens on a sign the reader can notice, as his Phase 1 does, then what it may mean, its name, the test and the treatment",
+  "source": "https://www.healthline.com/health/exocrine-pancreatic-insufficiency/signs-and-symptoms (fatty, pale, bulky stools, steatorrhea, a common symptom of severe EPI)"
+ }
+]

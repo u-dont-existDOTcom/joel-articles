@@ -46,32 +46,38 @@ Joel, 2026-11-03 16:15 UTC (`experiments/t01-answers/joel-20261103-1615-messages
   pre-publication reads passed (`r17/prepublish/FINDINGS.md`: 3 of 3 planted errors found, nothing to change before
   the update). The update is ready: `r17/live-update/r17.html` and `live/UPDATE-PLAN-3.json`.
 
+- 2026-11-06 23:59 UTC: his batch-13 answer (F13-1 approved, `experiments/t19-answers/`), so r22 (r17 with F13-1) is
+  the article with every answer in. His extension read draft C [Mostly Human Written](https://www.pangram.com/feed/154d7a1d-7062-492b-96c1-ed381d39eb0b)
+  with try 2's Phase 5 steps AI (#189, `humanize/fix-20261103/r21/draft-c-check/`). His rule: "make sure you're fixing
+  any paras or sections that test ai before you ask for whole articel checks" (gate gut-2026-11-07a,
+  `docs/lessons/2026-11-06-2359-gut.md`, enforced in `pangram_ledger.py`: an article check is refused while a smaller
+  check's AI window is still in the text, and only a later smaller check clears one).
+- 2026-11-07 00:44 UTC: every paragraph or section that tested AI now tests Human (`humanize/fix-20261103/r23/` to
+  `r30/`): Phase 5's opener and three steps (#191, #194); Phase 4's organ step, joined to the paragraph its "So" points
+  to, with the bile case asked first (the paragraph by itself [Human Written, 0%](https://www.pangram.com/history/a45f149e-419f-4a39-be1a-4fd02dd738cb),
+  #206, on its sixth try); the protocol section [Human Written, 0%](https://www.pangram.com/history/3ff02029-f214-43d0-a5f9-84ba75f13c07),
+  all High or Medium (#207). Batch-14 page https://claude.ai/artifact/9R79aHKAXZGaPQjbLNsvh7 (five approve cards,
+  `humanize/fix-20261103/r30/b14/REVIEW-CARDS.md`); draft E (r30) for his extension, prediction #208.
+
 ## Current checkpoint
 
-2026-11-06, after his answers in the 21:26 UTC turn ("i will tell you if i want an incremental publish, otherwise keep
-working on the fixes"; gut-2026-11-06e): no question about updating his post until the fixes are done. Pangram is signed
-in again in the built-in browser; #181 and #182 read Human (`humanize/fix-20261103/r18/checks/RESULTS-ab.json`).
-
-Phase 5's three Low sentences (its first two steps): try 1 (`r19/`) read worse in its cut (#184 against #186); try 2
-(`r20/`) read the same as its control in the cut of Phases 3 to 6 (#188, 28.3% AI, against #187, 27.8%), and that cut
-reads the steps AI even unchanged, so no cut can judge them (lesson gut-2026-11-06f). Try 3 (`r21/`) glosses each term
-the way his own fix of Phase 1 did. Tries 2 and 3 go to the whole article as drafts C (#189) and D (#190), each with the
-two clarity fixes (Human, High in their stretch, #185), for his extension; both drafts render the expected text exactly, and their secret links went to him in chat (`humanize/fix-20261103/r21/substack/PASTED.json`). Phase 4's Medium (Bile Acid Diarrhea) had its
-one try (worse, #184) and is on `humanize/LATER-WINDOWS.md`.
+2026-11-07, in the 23:59 UTC turn. r30 is r22 with batch 14's five fixes; the ledger names no window still open in it.
+Draft E, a temporary Substack draft of r30 built as drafts C and D were (`humanize/fix-20261103/r30/substack/`), is for
+his extension; its secret link goes to him in chat, never into Git. Tries 2 and 3 of Phase 5's steps (drafts C and D)
+are replaced by batch 14's versions, so draft D's reading isn't needed.
 
 ## Remaining
 
-1. His extension on drafts C and D (secret links in chat, not in Git): the try that reads Phase 5's steps High goes on
-   an approve card (batch 14) and into the article; if neither does, try 4 with a new diagnosis, or the later list with
-   the evidence.
-2. Batch 13, the two clarity fixes on one approve card (tested, #185): his answers. Page https://claude.ai/artifact/BFCXEQFqnobrLUhEJwXPrf, cards in `humanize/fix-20261103/r21/b13/REVIEW-CARDS.md`.
+1. His batch-14 answers (page https://claude.ai/artifact/9R79aHKAXZGaPQjbLNsvh7).
+2. His extension on draft E: record it as `r17/draft-b-check/` was. A Low or AI window gets fixed in its paragraph or
+   section first (gut-2026-11-07a).
 3. Once the fixes are done and answered: the update source rebuilt from the final version (as `r17/live-update/` was),
    his OK once (no email), the update, and the character-by-character comparison (E362 (gut)).
-4. Drafts A to D are his to delete once their results are recorded.
+4. Drafts A to E are his to delete once their results are recorded.
 
 ## Blockers / unresolved
 
-- Waiting on Joel: his extension on drafts C and D; his answers on batch 13; later, his OK for the update.
+- Waiting on Joel: his answers on batch 14; his extension on draft E; later, his OK for the update.
 
 ## Evidence / artifacts
 
@@ -79,4 +85,5 @@ one try (worse, #184) and is on `humanize/LATER-WINDOWS.md`.
 
 ## Next safe action
 
-Record drafts C and D from his extension's result pages (as `r17/draft-b-check/` was), then the Phase 5 card; the update comes once the fixes are done (gut-2026-11-06e).
+Record draft E from his extension's result page and apply his batch-14 answers; the update comes once the fixes are done
+and answered (gut-2026-11-06e).

@@ -1,0 +1,8 @@
+[
+ {
+  "old": "(those two are Phase 6, below).\\n\\n  1. So check your organs (Brown). Do your stools look oily or greasy?",
+  "new": "(those two are Phase 6, below). So check your organs. Do your stools look oily or greasy?",
+  "kind": "structure",
+  "why": "the organ step by itself read AI in three wordings (#196, #199, #203) and High with the paragraph before it (#194, #195): its reason is that paragraph's last sentence, which its \"So\" points to, and the numbered list had only this item; it joins that paragraph, and \"(Brown)\" goes since the paragraph names Brown as the phase's only source"
+ }
+]

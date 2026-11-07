@@ -1,0 +1,9 @@
+[
+ {
+  "old": "So check your organs (Brown). Do your stools look oily or greasy? Then your pancreas may not be making enough digestive enzymes, called Exocrine Pancreatic Insufficiency, and you'd test for that with Stool Elastase and treat it with high-dose enzymes. If too much of your bile is reaching your colon and giving you diarrhea (Bile Acid Diarrhea), Brown has you tested with SeHCAT and put on bile binders.",
+  "new": "So check your organs (Brown). Do your stools look oily or greasy? Then it's often your pancreas not making enough digestive enzymes, which doctors call Exocrine Pancreatic Insufficiency. A Stool Elastase test will tell you, and if that's it, you take high-dose enzymes with every meal. If it's diarrhea that keeps coming back instead, Brown says the issue can be Bile Acid Diarrhea, where too much of your bile reaches your colon. He has you tested for that with SeHCAT, and bile binders soak up the extra bile.",
+  "kind": "window",
+  "why": "the paragraph alone read AI High twice (#196, #199); the tell panel agreed on both cases and the build (a two-case menu, a stock test-and-treat frame, the same gloss twice, a generic hedge): each case now has its own shape, people name the conditions, the test and treatment carry a usable detail",
+  "source": "https://www.healthline.com/health/exocrine-pancreatic-insufficiency/treatment-options (enzyme capsules at the beginning of every meal or snack); https://nice.org.uk/guidance/dg44/documents/topic-description (bile acids not absorbed reach the colon and cause diarrhoea)"
+ }
+]

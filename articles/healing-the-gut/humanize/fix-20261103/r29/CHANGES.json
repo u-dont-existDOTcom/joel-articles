@@ -1,0 +1,8 @@
+[
+ {
+  "old": "(those two are Phase 6, below).\\n\\n  1. So check your organs (Brown), starting with your pancreas:",
+  "new": "(those two are Phase 6, below). So check your organs, starting with your pancreas:",
+  "kind": "structure",
+  "why": "the step by itself read AI (#196, #199, #203); joined to the paragraph whose last sentence gives its reason, in the wording that read High after that paragraph (#194, #195); \"(Brown)\" dropped since the paragraph names Brown as the phase's only source"
+ }
+]

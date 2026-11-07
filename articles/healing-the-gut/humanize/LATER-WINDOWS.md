@@ -8,27 +8,27 @@ Every Low window in the gut article that reads as the text's own is fixed (batch
 gate E354 still named (Phase 1's heading with its first sentence, and the stacks list) had already read Human, High in
 later checks of their sections, whose window text the ledger hadn't kept (gut-2026-11-06c). What's below is left on purpose.
 
-## The whole article, draft B (2026-11-06)
+## The whole article, draft B (2026-11-06), and since
 
 His extension read draft B [Human Written](https://www.pangram.com/feed/bb64a934-cf2c-47b3-ae93-af2a363a0644):
 no AI window, 9 Human High, 8 Medium, 4 Low (`fix-20261103/r17/draft-b-check/CONFIDENCE.md`).
 
-- **To fix (Low):** Phase 5's first paragraphs: "Start by re-seeding with Davis's high-dose “SIBO Yogurt”,
-  fermented for 36 hours." (Low, 15 words), "It contains L. reuteri ... kill SIBO. / Then feed the new healthy
-  bacteria." (Low, 26) and "Bulsiewicz says to slowly titrate plant diversity back into your diet, aiming for 30+
-  different plants per week." (Low, 18). They read AI in the live post (#142), so they have come up, but not to High.
-  Tries so far: 1 (`fix-20261103/r19/`, joined each step to what it does) read worse in the cut of Phases 4 and 5
-  ([#184](https://www.pangram.com/history/00f07f88-96d7-48c8-accf-24249c02731c), 59% AI, against its control
-  [#186](https://www.pangram.com/history/d8911a47-187f-4603-9bf2-3133571457fa), 30%); 2 (`fix-20261103/r20/`, the
-  reader's situation first) read as its control did in the cut of Phases 3 to 6
-  ([#188](https://www.pangram.com/history/072c7249-a3db-44f6-bd44-a2be6bca3a35), 28.3%, against
-  [#187](https://www.pangram.com/history/fd9ef004-3ba4-4386-bf49-fdb31df764ea), 27.8%). Both cuts read the steps AI
-  unchanged, so they can't judge a fix (gut-2026-11-06f): tries 2 and 3 (`fix-20261103/r21/`, each term glossed as his
-  Phase 1 fix does) go to the whole article as drafts C (#189) and D (#190).
-- **To try (Medium):** Phase 4's "If it's Bile Acid Diarrhea, the test is SeHCAT, and the treatment is bile
-  binders." (16 words), High in its own stretch (#176). Its one try (`fix-20261103/r19/`: what Bile Acid Diarrhea is,
-  joined to its test and treatment) read AI High in the cut of Phases 4 and 5, where the control read it AI Low (#184,
-  #186), so it stays as it is, a later todo (gut-2026-11-06a), until there's a diagnosis worth another try.
+- **Fixed (Low), batch 14:** Phase 5's first two steps, the three Low windows above. Tries 1 to 3 (`fix-20261103/r19/`
+  to `r21/`) read no better; draft C read try 2 AI ([#189](https://www.pangram.com/feed/154d7a1d-7062-492b-96c1-ed381d39eb0b)).
+  Under Joel's rule of 2026-11-06 23:59 UTC (gut-2026-11-07a: fix each paragraph or section that tests AI before any
+  whole-article check), Phase 5's opener and all three steps were rewritten (`fix-20261103/r23/`, people acting, each
+  term glossed where it comes up, step 3's reason left to Phase 2) and read Human in the cut of Phases 4 and 5
+  ([#191](https://www.pangram.com/history/8dc695e5-8976-40c8-a4f4-f88bd96ef5e9),
+  [#194](https://www.pangram.com/history/78f5136f-90f6-46ad-9202-afa90825dd52)) and in the protocol section
+  ([#207](https://www.pangram.com/history/3ff02029-f214-43d0-a5f9-84ba75f13c07), 0% AI, all High or Medium). Cards
+  F14-2 to F14-5.
+- **Fixed (Medium), batch 14:** Phase 4's "If it's Bile Acid Diarrhea, the test is SeHCAT, and the treatment is bile
+  binders." The step it sits in read AI by itself in every wording (#196, #199, #203) while its sections read Human: alone,
+  the step has no reason in it. Joined to the paragraph its "So" points to, in r24's wording, only its second case still read
+  AI, where it copied the first case's pattern word for word (#205); asked as a question to the reader, the way Phase 6's mold check
+  is, the paragraph read [Human Written, 0% AI](https://www.pangram.com/history/a45f149e-419f-4a39-be1a-4fd02dd738cb)
+  (#206) and the protocol section did too (#207). Card F14-1; the tries are in `fix-20261103/r24/` to `r30/`
+  (`r30/README.md`).
 - **Pangram's bugs, left:** the splits at "Dr." ("This one's from Dr.", "Dr." twice, "William Davis is back for
   that, along with Dr. Will Bulsiewicz (Fiber Fueled)."), and short lines on their own: "And no snacking!", his
   "Does anyone count their plants?", "Check your environment (Nathan)." and "Then check the brain."

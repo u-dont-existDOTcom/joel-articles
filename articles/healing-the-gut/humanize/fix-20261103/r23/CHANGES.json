@@ -1,0 +1,34 @@
+[
+ {
+  "old": "If it's Bile Acid Diarrhea, the test is SeHCAT, and the treatment is bile binders.",
+  "new": "And if bile is spilling into your colon and giving you diarrhea, called Bile Acid Diarrhea, you'd test for that with SeHCAT, and treat it with bile binders.",
+  "kind": "window",
+  "why": "Low in the cut of Phases 4 and 5 (#186) and in draft C (#189), AI Low in the cut of Phases 3 to 6 (#187): the term explained where it is named, as the first organ case explains Exocrine Pancreatic Insufficiency, and you doing the test and the treatment where the test and the treatment were the subjects (neuro-2026-11-06e); \"And if\" ties it to the case before",
+  "source": "https://nice.org.uk/guidance/dg44/documents/topic-description (bile acids that aren't absorbed travel to the colon, and excess bile there causes diarrhoea)"
+ },
+ {
+  "old": "Once you're clear of infection, you have to rebuild a diverse ecosystem to prevent relapse.",
+  "new": "Cleared the infection? Then it's time to rebuild a diverse ecosystem in your gut, so the overgrowth doesn't come back.",
+  "kind": "window",
+  "why": "AI Low in the cut of Phases 3 to 6 (#187), Low in that of Phases 4 and 5 (#186): the reader's case as a question that asks them in first (neuro-2026-11-06b), \"so the overgrowth doesn't come back\" for \"to prevent relapse\""
+ },
+ {
+  "old": "1. Start by re-seeding with Davis's high-dose \"SIBO Yogurt\", fermented for 36 hours. It contains L. reuteri, to heal the lining and boost oxytocin, and L. gasseri, to produce bacteriocins that kill SIBO.",
+  "new": "1. Start by re-seeding your gut with Davis's high-dose \"SIBO Yogurt\", which you ferment at home for 36 hours. He picked its bacteria for what they do: L. reuteri heals your gut lining and boosts oxytocin (the \"love hormone\"), and L. gasseri makes bacteriocins, natural antibiotics that kill SIBO.",
+  "kind": "window",
+  "why": "AI in both cuts (#186, #187), Low in draft B (#183): you and Davis act where the yogurt was the subject with purpose clauses (neuro-2026-11-06e); oxytocin and bacteriocins explained where first used (E369)",
+  "source": "Davis chose the strains himself: \"So I chose three in my original recipe for what I called SIBO yogurt\", among them L. reuteri and L. gasseri (Defiant Health Radio, https://www.buzzsprout.com/1795054/episodes/17783323-here-s-a-microbe-you-should-know-about-bacillus-subtilis)"
+ },
+ {
+  "old": "2. Then feed the new healthy bacteria. Bulsiewicz says to slowly titrate plant diversity back into your diet, aiming for 30+ different plants per week.",
+  "new": "2. Then feed the new healthy bacteria with plants, slowly, the way Bulsiewicz says: add a few new kinds at a time, until you eat 30+ different plants a week.",
+  "kind": "window",
+  "why": "AI in both cuts (#186, #187), Low in draft B (#183): the short sentence joined to how (E368), \"the way Bulsiewicz says\" ties the how to the act, and \"add a few new kinds at a time\" for \"slowly titrate plant diversity back\"; his \"Does anyone count their plants?\" stays right after the number"
+ },
+ {
+  "old": "3. Continue Pimentel's strict meal spacing from Phase 2 (4+ hours), forever, to keep the MMC cleaning wave active.",
+  "new": "3. Keep spacing your meals 4+ hours apart, as in Phase 2, forever.",
+  "kind": "repeat",
+  "why": "AI High in both cuts (#186, #187): its reason, the MMC sweeping your gut clean between meals, is Phase 2's (\"so the Migrating Motor Complex (MMC) gets to sweep your gut clean in between\"), with Pimentel; what only this step says is to keep it up forever, so it keeps that and points to Phase 2 (bad-trips-2026-11-06a)"
+ }
+]

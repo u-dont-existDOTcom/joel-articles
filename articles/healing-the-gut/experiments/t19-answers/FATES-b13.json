@@ -1,0 +1,22 @@
+{
+ "review_id": "healing-the-gut-b13-r21-20261106",
+ "counts": {
+  "approved": 1,
+  "rejected": 0,
+  "revise": 0,
+  "pending": 0
+ },
+ "fates": [
+  {
+   "id": "F13-1",
+   "title": "Two \"it\"s in the glutamine dose paragraph say what they mean",
+   "status": "approved",
+   "at": "2026-11-06T23:52:49.917Z",
+   "blocks": [
+    28
+   ],
+   "in_r22": true,
+   "fate": "in r22 as approved, word for word"
+  }
+ ]
+}
