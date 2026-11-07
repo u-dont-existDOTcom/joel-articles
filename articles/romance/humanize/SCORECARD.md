@@ -6,23 +6,23 @@ Built by `tools/humanization/pangram_ledger.py build` from `articles/romance/hum
 
 | version | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| pangram 4.1, the web app (Joel's account, GUI credits) | 113 | 76 (67%) | 39% | 61% | 85% | 0.228 (base 0.238, 113) |
+| pangram 4.1, the web app (Joel's account, GUI credits) | 115 | 78 (68%) | 38% | 62% | 85% | 0.227 (base 0.236, 115) |
 
 ## pangram 4.1, the web app (Joel's account, GUI credits)
 
 | window | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| the latest 50 | 50 | 38 (76%) | 22% | 78% | 98% | 0.229 (base 0.172, 50) |
-| the latest 100 | 100 | 70 (70%) | 37% | 63% | 83% | 0.228 (base 0.233, 100) |
-| all | 113 | 76 (67%) | 39% | 61% | 85% | 0.228 (base 0.238, 113) |
+| the latest 50 | 50 | 39 (78%) | 20% | 80% | 98% | 0.227 (base 0.160, 50) |
+| the latest 100 | 100 | 70 (70%) | 36% | 64% | 84% | 0.228 (base 0.230, 100) |
+| all | 115 | 78 (68%) | 38% | 62% | 85% | 0.227 (base 0.236, 115) |
 
 The boundary mix (what was checked; accuracy differs a lot between a paragraph and a section):
 
 | scope or kind | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| pair | 45 | 28 (62%) | 56% | 44% | 82% | 0.230 (base 0.247, 45) |
+| pair | 46 | 29 (63%) | 54% | 46% | 83% | 0.229 (base 0.248, 46) |
 | paragraph | 19 | 14 (74%) | 16% | 84% | 79% | 0.223 (base 0.133, 19) |
-| stretch | 2 | 2 (100%) | 50% | 50% | 50% | 0.145 (base 0.250, 2) |
+| stretch | 3 | 3 (100%) | 33% | 67% | 67% | 0.164 (base 0.222, 3) |
 | section | 47 | 32 (68%) | 32% | 68% | 91% | 0.231 (base 0.217, 47) |
 
 Calibration:
@@ -30,8 +30,8 @@ Calibration:
 | my chance of a 100% Human result | calls | mean chance | read Human |
 |---|---|---|---|
 | 0.2 to 0.4 | 3 | 0.30 | 33% |
-| 0.4 to 0.6 | 103 | 0.52 | 60% |
-| 0.6 to 0.8 | 25 | 0.62 | 88% |
+| 0.4 to 0.6 | 105 | 0.52 | 61% |
+| 0.6 to 0.8 | 26 | 0.62 | 88% |
 
 ## Misses since the ledger (37)
 

@@ -1,0 +1,23 @@
+{
+ "rewrite": "articles/romance/humanize/fix-20261107/whole/REWRITE-CHANGED-r20.md",
+ "original": "articles/romance/humanize/fix-20261107/whole/ORIGINAL-CHANGED-r20.md",
+ "parts": [
+  {
+   "part": 1,
+   "rewrite_words": 136,
+   "original_words": 136,
+   "first": "Changed paragraphs (r20): the fixed version",
+   "last": "32. Can making love be a spiritual practice? (312) (live 312)",
+   "rewrite_blocks": [
+    0,
+    6
+   ],
+   "coverage": [
+    "f5a96a406d6599b4",
+    "57c8db3bdc3ca05e",
+    "114bb4beb15b9a83",
+    "5563b0a04b8793c5"
+   ]
+  }
+ ]
+}

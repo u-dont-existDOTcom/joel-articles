@@ -3383,6 +3383,96 @@
    ]
   },
   {
+   "id": "romance-sec-spiritual-sex-p304#115",
+   "name": "Can making love be a spiritual practice? (304 to 309)",
+   "key": "r20-spir304",
+   "file": "articles/romance/humanize/fix-20261107/r20/checks/CHECK-r20-spir304.txt",
+   "paras": [
+    "I’m Buddhist, and the early Buddhist texts have nothing on tantric sex as a path to awakening, but plenty of the people they show getting seriously awakened were lay people.",
+    "In DN 16, the Buddha talks about people who had died in the town of Nādikā and mentions 510 lay stream-enterers, 96 once-returners, and more than fifty lay non-returners, the first three of the four stages of awakening.",
+    "SN 55.24 has an almost comic complaint: when the Buddha declared Sarakāni a stream-enterer, other Sakyans grumbled, in effect, “Who isn’t a stream-enterer these days?”",
+    "And when the married couple Nakulapitā and Nakulamātā asked the Buddha how they could remain together in future lives, AN 4.55 gave this advice:",
+    "“When both husband and wife are faithful and generous, restraintful, living righteously, speaking pleasant words to each other—they come together in the future, sharing the same desires and living in bliss.”",
+    "Marriage, sex, and household life are not automatically on the opposite side from serious spiritual development."
+   ],
+   "hashes": [
+    "147e143cc784",
+    "b3cf062d37d6",
+    "f24ebe430c84",
+    "6baf7b480280",
+    "4d117e9a8923",
+    "b98e1bb934df"
+   ],
+   "anchors": [
+    [
+     3,
+     265
+    ],
+    [
+     4,
+     266
+    ],
+    [
+     5,
+     267
+    ]
+   ],
+   "range": [
+    304,
+    309
+   ],
+   "ops": [
+    {
+     "op": "replace",
+     "live": [
+      304,
+      305,
+      306
+     ],
+     "new": [
+      "I’m Buddhist, and the early Buddhist texts have nothing on tantric sex as a path to awakening, but plenty of the people they show getting seriously awakened were lay people.",
+      "In DN 16, the Buddha talks about people who had died in the town of Nādikā and mentions 510 lay stream-enterers, 96 once-returners, and more than fifty lay non-returners, the first three of the four stages of awakening.",
+      "SN 55.24 has an almost comic complaint: when the Buddha declared Sarakāni a stream-enterer, other Sakyans grumbled, in effect, “Who isn’t a stream-enterer these days?”"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "romance-sec-spiritual-sex-p312#116",
+   "name": "Can making love be a spiritual practice? (312)",
+   "key": "r20-spir312",
+   "file": "articles/romance/humanize/fix-20261107/r20/checks/CHECK-r20-spir312.txt",
+   "paras": [
+    "The example I really like is Brad and Pam Keene, whose marriage itself became part of the path. Pam says her Kundalini process completed while they were making love and opened into a lasting universal-consciousness awakening, and she later helped Brad awaken too.",
+    "In the previous section, I mentioned the divine feminine and divine masculine energies that you can channel to keep eroticism alive. But there’s really something more special about the in-love paradise that Twin Flames (TFs) experience than a simple Divine Masculine + Divine Feminine formula. Maybe a better way to put it, as my friend Cody says, is Yin/Yang, which still has the masculine/feminine in it, but allows for a more broad type of complementary symbiosis since, each contains the seed of the other."
+   ],
+   "hashes": [
+    "3b319a3aebbd",
+    "ffd8acb08394"
+   ],
+   "anchors": [
+    [
+     1,
+     271
+    ]
+   ],
+   "range": [
+    312,
+    313
+   ],
+   "ops": [
+    {
+     "op": "replace",
+     "live": [
+      312
+     ],
+     "new": [
+      "The example I really like is Brad and Pam Keene, whose marriage itself became part of the path. Pam says her Kundalini process completed while they were making love and opened into a lasting universal-consciousness awakening, and she later helped Brad awaken too."
+     ]
+    }
+   ]
+  },
+  {
    "id": "romance-s18#25",
    "name": "S18",
    "key": "r03-s18",
@@ -4228,6 +4318,32 @@
   {
    "op": "replace",
    "live": [
+    304,
+    305,
+    306
+   ],
+   "new": [
+    "I’m Buddhist, and the early Buddhist texts have nothing on tantric sex as a path to awakening, but plenty of the people they show getting seriously awakened were lay people.",
+    "In DN 16, the Buddha talks about people who had died in the town of Nādikā and mentions 510 lay stream-enterers, 96 once-returners, and more than fifty lay non-returners, the first three of the four stages of awakening.",
+    "SN 55.24 has an almost comic complaint: when the Buddha declared Sarakāni a stream-enterer, other Sakyans grumbled, in effect, “Who isn’t a stream-enterer these days?”"
+   ],
+   "check": "romance-sec-spiritual-sex-p304#115",
+   "name": "Can making love be a spiritual practice? (304 to 309)"
+  },
+  {
+   "op": "replace",
+   "live": [
+    312
+   ],
+   "new": [
+    "The example I really like is Brad and Pam Keene, whose marriage itself became part of the path. Pam says her Kundalini process completed while they were making love and opened into a lasting universal-consciousness awakening, and she later helped Brad awaken too."
+   ],
+   "check": "romance-sec-spiritual-sex-p312#116",
+   "name": "Can making love be a spiritual practice? (312)"
+  },
+  {
+   "op": "replace",
+   "live": [
     331
    ],
    "new": [
@@ -4398,6 +4514,10 @@
   296,
   297,
   302,
+  304,
+  305,
+  306,
+  312,
   331,
   335,
   342,

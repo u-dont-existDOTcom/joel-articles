@@ -1,0 +1,75 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-07",
+ "text_sha256": "4d3c2c1110fb358629c19b2d7af0aff0358b549893b26bd7fc146bd5c15b9dda",
+ "text": "The example I really like is Brad and Pam Keene, whose marriage itself became part of the path. Pam says her Kundalini process completed while they were making love and opened into a lasting universal-consciousness awakening, and she later helped Brad awaken too.\n\nIn the previous section, I mentioned the divine feminine and divine masculine energies that you can channel to keep eroticism alive. But there’s really something more special about the in-love paradise that Twin Flames (TFs) experience than a simple Divine Masculine + Divine Feminine formula. Maybe a better way to put it, as my friend Cody says, is Yin/Yang, which still has the masculine/feminine in it, but allows for a more broad type of complementary symbiosis since, each contains the seed of the other.",
+ "section": "Can making love be a spiritual practice?",
+ "reader": "Someone wondering whether a marriage can itself be a spiritual path.",
+ "sentences": [
+  {
+   "s": "The example I really like is Brad and Pam Keene, whose marriage itself became part of the path.",
+   "payoff": "the reader learns the Keenes’ marriage became part of their path",
+   "follows": "opens the paragraph"
+  },
+  {
+   "s": "Pam says her Kundalini process completed while they were making love and opened into a lasting universal-consciousness awakening, and she later helped Brad awaken too.",
+   "payoff": "the reader learns Pam awakened while making love and later helped Brad awaken",
+   "follows": "what happened to them",
+   "link": "Pam says"
+  },
+  {
+   "s": "In the previous section, I mentioned the divine feminine and divine masculine energies that you can channel to keep eroticism alive.",
+   "payoff": "the reader learns he mentioned the divine feminine and masculine before",
+   "follows": "a turn to Twin Flames",
+   "link": "In the previous section"
+  },
+  {
+   "s": "But there’s really something more special about the in-love paradise that Twin Flames (TFs) experience than a simple Divine Masculine + Divine Feminine formula.",
+   "payoff": "the reader learns Twin Flames feel more special than a masculine-feminine formula",
+   "follows": "what is more",
+   "link": "But there’s really something"
+  },
+  {
+   "s": "Maybe a better way to put it, as my friend Cody says, is Yin/Yang, which still has the masculine/feminine in it, but allows for a more broad type of complementary symbiosis since, each contains the seed of the other.",
+   "payoff": "the reader learns yin and yang may put it better, each holding the seed of the other",
+   "follows": "a better way to say it",
+   "link": "Maybe a better way to put it"
+  }
+ ],
+ "checked": [
+  {
+   "point": "the AI and Low windows’ points",
+   "found": "the section check with S17 in it (#45, ../../r06/checks/RESULTS-r06.json or the ledger)",
+   "still_needed": "yes: the section needs them",
+   "fate": "changed"
+  }
+ ],
+ "placement": "Paragraph 312 with 313 after it (312 alone is under the web app’s 50 words), for the section gate.",
+ "opens": {
+  "first_sentence": "The example I really like is Brad and Pam Keene, whose marriage itself became part of the path.",
+  "why_reading": "It tells the reader of a couple whose marriage became part of their path."
+ },
+ "same_point": "none: read the section from its heading to the next for these points; each is made once, here",
+ "questions": {
+  "Q1": "PASS: each changed sentence gives its point first, in plain words",
+  "Q2": "N/A: these paragraphs tell; they give no advice",
+  "Q3": "PASS: the texts, people and numbers are named as in the live post",
+  "Q4": "PASS: the stages of awakening are named where the stream-enterers first appear (E369)",
+  "Q5": "PASS: each sentence’s tie is in its words (the links field), or it opens its paragraph",
+  "Q6": "PASS: the order is the live post’s",
+  "Q7": "PASS: each change keeps what the paragraph tells the reader",
+  "Q8": "PASS: no item moved between groups",
+  "Q9": "PASS: one step per sentence"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}
