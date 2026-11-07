@@ -1,9 +1,9 @@
 # Neuro de-armoring: what I need from Joel
 
-Last updated 2026-11-07, after your message of 11:58 UTC (the AskRigor bug report, and no checks of unhumanized drafts).
-**Open questions: none.** **For you to do**: answer the seven science cards for section B,
-[Neuro De-Armoring Cards, 7 November](https://claude.ai/artifact/5LG5d8ZaPZjaRvQ6W52Tjb)
-([the same cards in Git](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261107/sci/x1107a/REVIEW-X1107A.md)).
+Last updated 2026-11-07, after your answers to the section B cards (13:10 UTC).
+**Open questions: none.** **For you to do**: answer the three cards on
+[Neuro De-Armoring Cards, 7 November (2)](https://claude.ai/artifact/5ctHecxpD6XTz4gGdjrCmK)
+([the same cards in Git](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261107/sci/x1107b/REVIEW-X1107B.md)).
 Colours: 🟣 a question for you; 🟠 something for you to do; 🔵 next or in progress; 🟢 done or decided.
 
 The master copy of this page is [this file in Git](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/OWNER-QUESTIONS.md), so a session in either of your accounts
@@ -18,13 +18,28 @@ can read and update it. Every file it points to is a link.
 
 ## For you to do
 
-- 🟠 **The seven science cards for section B** (the Overheating CPU), each a claim corrected against its sources:
-  [Neuro De-Armoring Cards, 7 November](https://claude.ai/artifact/5LG5d8ZaPZjaRvQ6W52Tjb)
-  ([in Git](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261107/sci/x1107a/REVIEW-X1107A.md); [the table of claims and sources](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261107/sci/x1107a/SCIENCE-SECTION-B.md)).
-  Approve, Reject or Revise each one; Export gives me your answers. The one that's really yours: SB-42 cuts leucine,
-  whose reason doesn't hold up. Once the claims are settled I humanize each paragraph and only then check it.
-- Earlier: nothing. The temporary draft "Neuro de-armoring, draft A (temp, delete after)" stays for the next whole-article
-  check, which reuses it; I'll name it for deleting after the last one.
+- 🟠 **Three cards**, your own answers followed up: [Neuro De-Armoring Cards, 7 November (2)](https://claude.ai/artifact/5ctHecxpD6XTz4gGdjrCmK)
+  ([in Git](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261107/sci/x1107b/REVIEW-X1107B.md)). SB-37b answers your question about what the storm feels
+  like; SB-38b drops "Low", apathy and schizotypy and gives the High guess its mechanism; SB-40b renames the Vacuum
+  the Brake.
+- 🟢 **Done**: your five approved cards are in the article, leucine included (cut).
+
+## Your answers of 2026-11-07 13:10 UTC (the seven section B cards), and what I did
+
+- 🟢 **The five you approved are in**: SB-37 (calcium overload), SB-39 (D-cycloserine is a different drug, small
+  effect), SB-41 (magnesium plugs, zinc makes it open less), SB-42 (L-serine's reason fixed, **leucine cut** on your
+  word), SB-148 (D-serine turns things up). Fidelity check PASS, with leucine recorded as your cut.
+- 🟢 **SB-37, your question** ("over-excitement of the neurons or psychological over-excitement? ... i can be overly
+  joyful without being rageful"): you're right that it explained nothing. The answer the research gives is the
+  circuit, not the amount: under stress the glutamate rise reaches the amygdala, which flags threats, and blocking
+  NMDA receptors there lowers anxious behaviour in animals. That's SB-37b.
+- 🟢 **SB-38, your two questions.** Apathy and schizotypy were in there for no reason beyond Gemini: nothing in the
+  research puts a GluD setting on "Low". What *is* measured in people is a channel stuck open and leaking, in the
+  ataxia mutation and in a GluD1 variant that raises schizophrenia risk, so "jammed on High" has a mechanism under it
+  (a floor the signal can't drop below) and is testable. That's SB-38b, and the dispute between labs is in the card,
+  not in the guide.
+- 🟢 **SB-40, agreed**: naming it the Vacuum and then saying it isn't one was me arguing with the guide in front of
+  the reader. SB-40b calls it the Brake.
 
 ## Your message of 2026-11-07 11:58 UTC (AskRigor, and no checks of unhumanized drafts), and what I did
 

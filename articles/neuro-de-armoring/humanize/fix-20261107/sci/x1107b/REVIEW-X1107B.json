@@ -1,0 +1,134 @@
+{
+ "format": "joel-suggestion-review-v1",
+ "review_id": "neuro-de-armoring-cards-20261107-x1107b",
+ "title": "Neuro De-Armoring Cards, 7 November (2): your three answers",
+ "intro": [
+  "Your five approved cards are in the article. These are the three that needed another version: SB-38 and SB-40, which you marked revise, and SB-37's last sentence, which didn't answer your question.",
+  "Still not humanized and still not checked in Pangram: once the claims are settled I humanize each one and check it then.",
+  "No compound, dose, unit, timing or warning changes on this page. Leucine is out of the article, as you said."
+ ],
+ "git_file": "articles/neuro-de-armoring/humanize/fix-20261107/sci/x1107b/REVIEW-X1107B.html",
+ "article": {
+  "file": "articles/neuro-de-armoring/humanize/HUMANIZED-SO-FAR.md",
+  "sha256": "f2ea95affdc3fc40e15701f68f590dd149e875738c2246a993154c719506992f"
+ },
+ "built": "2026-11-07T13:18:51Z",
+ "links": {
+  "guide": "https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/HUMANIZED-SO-FAR.md",
+  "review": "https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261107/sci/x1107b/REVIEW-X1107B.md"
+ },
+ "types": {
+  "science": {
+   "label": "A claim corrected",
+   "about": "What the article says here doesn't match its sources, or says as fact what is a guess. The card has the paragraph as it would read, with the source for each claim."
+  },
+  "coherence": {
+   "label": "The guide contradicting itself",
+   "about": "A place where the guide names a thing one way and then says it isn't that, which a reader has to work through for nothing."
+  }
+ },
+ "suggestions": [
+  {
+   "id": "SB-37b",
+   "type": "science",
+   "title": "What the storm feels like, and why it isn't joy",
+   "advice": "approve",
+   "spans": [
+    {
+     "block": 37,
+     "start": 0,
+     "end": 493
+    }
+   ],
+   "edits": [
+    {
+     "block": 37,
+     "before": "The Mechanism: Excess Glutamate over-activates NMDA receptors, the doors on brain cells that glutamate unlocks, acting like a key stuck in the \"On\" position, so too much calcium pours into the cells. In extreme cases, like a stroke or a brain injury, that calcium overload kills them, which is what \"excitotoxicity\" means (Sattler & Tymianski, 2001). The anxiety, rage or \"itchy brain\" you feel in a glutamate storm is more likely the over-excitement itself than a sign your neurons are dying.",
+     "after": "The Mechanism: Excess Glutamate over-activates NMDA receptors, the doors on brain cells that glutamate unlocks, acting like a key stuck in the \"On\" position, so too much calcium pours into the cells. In extreme cases, like a stroke or a brain injury, that calcium overload kills them, which is what \"excitotoxicity\" means (Sattler & Tymianski, 2001). What you feel from a glutamate storm depends on which circuit is firing too hard, and under stress the rise reaches the amygdala, the part of the brain that flags threats (Wilson, 2015), so the feeling it produces is threat: anxiety, rage, the \"itchy brain\", not pleasure. Block the NMDA receptors there and anxious behaviour goes down in animals (Boyle, 2013)."
+    }
+   ],
+   "what": "The last sentence is replaced. Instead of \"the over-excitement itself\" it says which circuit the storm reaches, the amygdala, the part that flags threats, which is why the feeling comes out as threat and not as pleasure; and it gives the animal evidence. The rest of the paragraph is as you approved it.",
+   "why": "You're right that \"over-excitement\" explains nothing: joy is excitement too. What the research gives is the circuit, not the amount. Under stress the glutamate rise reaches the amygdala ([Wilson, 2015](https://pmc.ncbi.nlm.nih.gov/articles/PMC4721288)), whose job is flagging threats, and blocking NMDA receptors there lowers anxious behaviour in animals ([Boyle, 2013](https://pmc.ncbi.nlm.nih.gov/articles/PMC3670432)). So the feeling follows which circuit is firing too hard, which is answerable rather than circular.",
+   "stays": "The first two sentences exactly as you approved them, with the calcium correction and the \"key stuck in the On position\".",
+   "deciding": "Whether the paragraph explains the feeling by the circuit, and whether that reads clearly to you.",
+   "advice_note": "Approve.",
+   "ask_because": "meaning: it changes what the article says the storm is, from an amount of excitement to the circuit the rise reaches, and adds the animal evidence for it",
+   "found_by": "Your answers of 13:10 UTC, and section B's science pass ([the table](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261107/sci/x1107a/SCIENCE-SECTION-B.md))",
+   "receipt": [
+    "articles/neuro-de-armoring/humanize/fix-20261107/sci/x1107b/B37b.receipt.json"
+   ]
+  },
+  {
+   "id": "SB-38b",
+   "type": "science",
+   "title": "GluD: one direction in the research, the guess with its reason, apathy and schizotypy out",
+   "advice": "approve",
+   "spans": [
+    {
+     "block": 38,
+     "start": 0,
+     "end": 384
+    }
+   ],
+   "edits": [
+    {
+     "block": 38,
+     "before": "The Signal Dial (GluD Receptors): Beyond the \"voltage spike\" of NMDA, Johns Hopkins researchers have recently discovered the brain uses GluD receptors as a master volume knob. While NMDA is the spark, GluD manages the baseline \"hum\" of the synapse. In an armored state, this dial is often jammed in the \"High\" position (Cerebellar Ataxia/Hyper-vigilance) or \"Low\" (Apathy/Schizotypy).",
+     "after": "The Signal Dial (GluD Receptors): So if NMDA is the spark, is anything else turning the signal up or down? Well according to a recent finding by Johns Hopkins researchers, GluD receptors, until now known for helping build synapses, are channels in their own right, and what opens them is D-serine (one of the tools below) and GABA, the brain's calming chemical, rather than glutamate (Wang, et al, 2025). What has been measured in people so far all points one way: the channel sticks open and leaks, so the synapse never gets quiet. That is what the mutation behind one inherited ataxia does, and a gene variant that raises the risk of schizophrenia does the same (Allen, et al, 2023). So my guess for the armored state is that it jams the dial the same way, stuck part-way on, which is what hyper-vigilance would be at the level of one synapse: a floor the signal can't drop below. Nobody has tested that in trauma yet, and it can be tested, because a drug that shuts these leaking channels already works in the lab."
+    }
+   ],
+   "what": "No arguing with the sources in the text. It states the finding, then the one pattern measured in people (the channel sticks open and leaks), the two cases that show it, your armor guess with the reason it makes sense, and that it is untested and testable. \"Low\", apathy and schizotypy come out.",
+   "why": "Your two questions, answered. **Why apathy and schizotypy were in there:** no reason beyond Gemini. Nothing in the research puts a GluD setting on \"Low\" and those states; the news story mentions GluDs looking less active in schizophrenia, but the measured variant goes the other way, so a \"Low\" row in your dial has nothing behind it. **How the hypothesis makes sense:** what has actually been put under the microscope in people is a channel stuck open, leaking current with no signal coming in. That is the ataxia mutation, and a GluD1 variant carried by people at raised risk of schizophrenia does the same ([Allen, et al, 2023](https://pmc.ncbi.nlm.nih.gov/articles/PMC10840383/)). A channel that leaks gives the synapse a floor it can never drop below, which is exactly what hyper-vigilance is as an experience, so \"jammed on High\" has a mechanism under it rather than a name. And it is testable: the same paper found a drug that shuts those leaking channels in the lab. I left the dispute out of the text: one lab's tests found no direct opening ([Itoh, et al, 2024](https://pmc.ncbi.nlm.nih.gov/articles/PMC11295041)), which is why the Nature paper matters, but a reader doesn't need me arguing with it.",
+   "stays": "Your opening question, your \"Well according to\", the label, and High as hyper-vigilance.",
+   "deciding": "Whether the Low side goes. If you want apathy kept, it would be as your own clinical observation, not as something the GluD research says.",
+   "advice_note": "Approve. The version you fixed on 7 November read Human ([that check](https://www.pangram.com/history/f2a4727d-a109-46d4-a907-40efa6350e96)), so I humanize this one keeping those moves and check it then.",
+   "ask_because": "meaning: it drops the \"Low\" row of your dial and says the armor part is a guess; downside: apathy and schizotypy leave the article, and you may want them on your own clinical grounds",
+   "found_by": "Your answers of 13:10 UTC, and section B's science pass ([the table](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261107/sci/x1107a/SCIENCE-SECTION-B.md))",
+   "receipt": [
+    "articles/neuro-de-armoring/humanize/fix-20261107/sci/x1107b/B38b.receipt.json"
+   ]
+  },
+  {
+   "id": "SB-40b",
+   "type": "coherence",
+   "title": "Call it the Brake, since that's what it does",
+   "advice": "approve",
+   "spans": [
+    {
+     "block": 40,
+     "start": 0,
+     "end": 107
+    },
+    {
+     "block": 119,
+     "start": 0,
+     "end": 52
+    }
+   ],
+   "edits": [
+    {
+     "block": 40,
+     "before": "The Fix (\"Lock, Stock, and Barrel\"):The Vacuum (NAC): Clears the flood by exchanging glutamate for cystine.",
+     "after": "The Fix (\"Lock, Stock, and Barrel\"):The Brake (NAC): NAC gives the brain's support cells cystine (an amino acid), which they swap for glutamate, and in rat studies that glutamate outside the synapse trips a brake (the mGluR2/3 receptors) that cuts how much glutamate gets fired into the synapse (Moran, et al, 2005)."
+    },
+    {
+     "block": 119,
+     "before": "NAC: 1.8g – 2.4g (divided doses). Mops up glutamate.",
+     "after": "NAC: 1.8g – 2.4g (divided doses). Turns down glutamate release."
+    }
+   ],
+   "what": "The label changes from \"The Vacuum (NAC)\" to \"The Brake (NAC)\", and the line just says how the brake works, with nothing about vacuums. The NAC dose line's note becomes \"Turns down glutamate release\"; the dose stays as it is.",
+   "why": "You're right, that was me arguing with the guide in front of the reader. The mechanism is a brake: the swap NAC drives puts more glutamate outside the synapse, and that trips mGluR2/3, which cuts how much is fired into it ([Moran, et al, 2005](https://pmc.ncbi.nlm.nih.gov/articles/PMC1413952)). So the label should say brake and the sentence should just explain it.",
+   "stays": "The \"Lock, Stock, and Barrel\" heading and the dose, 1.8g – 2.4g (divided doses).",
+   "deciding": "Whether the Vacuum label goes. If you want it kept I will make the sentence fit it instead.",
+   "advice_note": "Approve.",
+   "ask_because": "downside: the Vacuum label goes, so the Fix list loses one of its names and anyone who read the post before sees a different word",
+   "found_by": "Your answers of 13:10 UTC, and section B's science pass ([the table](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261107/sci/x1107a/SCIENCE-SECTION-B.md))",
+   "receipt": [
+    "articles/neuro-de-armoring/humanize/fix-20261107/sci/x1107b/B40b.receipt.json",
+    "articles/neuro-de-armoring/humanize/fix-20261107/sci/x1107b/B119b.receipt.json"
+   ],
+   "approve_label": "use this and rename it the Brake"
+  }
+ ]
+}
