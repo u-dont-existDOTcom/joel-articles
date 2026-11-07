@@ -1,0 +1,61 @@
+{
+ "format": "joel-suggestion-review-answers-v1",
+ "review_id": "bad-trips-r13",
+ "title": "Bad Trips Guide, Round 13",
+ "git_file": "articles/bad-trips/review/r13/REVIEW-R13.html",
+ "article": {
+  "file": "articles/bad-trips/review/r13/PAGE-R13.md",
+  "sha256": "855a38163cfc32b24c3fffaf77b3bba2a0ff0e17ea06a5666342d8c02875b584"
+ },
+ "built": "2026-11-06",
+ "generator": "suggestion_review.py 1.8 (2026-11-06)",
+ "exported_at": "2026-11-07T00:01:29.544Z",
+ "counts": {
+  "approved": 2,
+  "rejected": 0,
+  "revise": 0,
+  "pending": 0
+ },
+ "items": [
+  {
+   "id": "ANCHOR-OPPOSITE",
+   "type": "plain",
+   "title": "The first paragraph, its second sentence said as talk",
+   "where": "Get One Human Anchor, P1",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "Many bad trips get worse because somebody is alone with a frightened or over-certain mind. Other times it's the opposite: too many people crowd in and start advising, arguing, spiritualizing, or panicking.",
+   "before": "Many bad trips get worse because somebody is alone with a frightened or over-certain mind. Others get worse because too many people crowd in and start advising, arguing, spiritualizing, or panicking.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-07T00:00:16.984Z"
+    }
+   ],
+   "updated": "2026-11-07T00:00:16.984Z"
+  },
+  {
+   "id": "ANCHOR-BACKUP",
+   "type": "plain",
+   "title": "The second paragraph, with its limit said as an aside",
+   "where": "Get One Human Anchor, P2",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "So one calm person should be the anchor and take the lead. One person can only handle so much, though. When fatigue or logistics get to be too much, or keeping them safe does, or there's a risk of violence or self-harm, bring in one more calm adult or a crisis professional to back them up.",
+   "before": "Use one calm human anchor as the lead. When safety, fatigue, logistics, violence, or self-harm risk exceeds what one person can hold, bring in one additional calm adult or crisis professional. That is backup.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-07T00:01:13.840Z"
+    }
+   ],
+   "updated": "2026-11-07T00:01:13.840Z"
+  }
+ ]
+}

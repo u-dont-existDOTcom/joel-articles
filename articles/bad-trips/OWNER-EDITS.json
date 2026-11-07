@@ -429,13 +429,13 @@
   {
    "id": "t19-anchor-committee-cut",
    "status": "applied",
-   "what": "Get One Human Anchor's \"committee\" line cut: it says again the section's first paragraph (too many people crowding in make it worse); the paragraph ends on \"That is backup.\" (experiments/t19-anchor/apply_t19.py)",
+   "what": "Get One Human Anchor's \"committee\" line cut: it says again the section's first paragraph (too many people crowding in make it worse); the paragraph ends on \"That is backup.\" (experiments/t19-anchor/apply_t19.py) (round 13's ANCHOR-BACKUP then said the paragraph again, approved 2026-11-07 00:01 UTC)",
    "joel": "2026-11-06 19:43 UTC: \"i'd say make the cuts regardless of pangram if it makes the guide read better, that was what we were supposed to do already prior\"",
    "must_not_contain": [
     "A committee of frantic people rarely improves anyone's nervous system."
    ],
    "must_contain_exact": [
-    "bring in **one additional calm adult or crisis professional**. That is backup."
+    "bring in **one more calm adult or a crisis professional** to back them up."
    ]
   },
   {
@@ -447,7 +447,7 @@
     "When you are the only helper and safety is slipping, recruit one additional calm adult or crisis professional."
    ],
    "must_contain_exact": [
-    "bring in **one additional calm adult or crisis professional**",
+    "bring in **one more calm adult or a crisis professional** to back them up.",
     "Call crisis or emergency services for a specific target"
    ]
   },
@@ -477,6 +477,31 @@
    "must_contain_exact": [
     "Save the relevant links and local numbers *before* you need them. Hours and services change, and not every option works in every country.",
     "Send the human-anchor script."
+   ]
+  },
+  {
+   "id": "r13-anchor-opposite",
+   "status": "applied",
+   "what": "Get One Human Anchor's first paragraph: \"Others get worse because\" said as \"Other times it's the opposite:\" (round 13, card ANCHOR-OPPOSITE; review/r13/apply_r13.py)",
+   "joel": "2026-11-07 00:01 UTC: round 13's export, ANCHOR-OPPOSITE approved (review/r13/ANSWERS-R13-20261107-0001.json)",
+   "must_contain_exact": [
+    "Other times it's the opposite: too many people crowd in and start advising, arguing, spiritualizing, or panicking."
+   ],
+   "must_not_contain": [
+    "Others get worse because too many people crowd in"
+   ]
+  },
+  {
+   "id": "r13-anchor-backup",
+   "status": "applied",
+   "what": "Get One Human Anchor's second paragraph said with its limit as an aside, the bold kept on the two people it names (round 13, card ANCHOR-BACKUP; review/r13/apply_r13.py)",
+   "joel": "2026-11-07 00:01 UTC: round 13's export, ANCHOR-BACKUP approved (review/r13/ANSWERS-R13-20261107-0001.json)",
+   "must_contain_exact": [
+    "So **one calm person should be the anchor** and take the lead. One person can only handle so much, though."
+   ],
+   "must_not_contain": [
+    "That is backup.",
+    "Use **one calm human anchor as the lead**."
    ]
   }
  ]
