@@ -8,7 +8,7 @@ Built by `tools/humanization/pangram_ledger.py build` from `articles/bad-trips/h
 |---|---|---|---|---|---|---|
 | Pangram 4.1 extension (free, live post; Joel's check of 2026-10-18, the same text as his 2026-11-03 paste by SHA-256) | 1 | 1 (100%) | 100% | 0% | 0% | 0.000 (base 0.000, 1) |
 | Pangram web app (his account, Pangram Professional) | 3 | 3 (100%) | 100% | 0% | 0% | 0.092 (base 0.000, 3) |
-| Pangram web app (his account, Pangram Professional), through the Claude desktop app's browser pane | 171 | 157 (92%) | 87% | 13% | 16% | 0.134 (base 0.116, 171) |
+| Pangram web app (his account, Pangram Professional), through the Claude desktop app's browser pane | 177 | 163 (92%) | 87% | 13% | 15% | 0.131 (base 0.113, 177) |
 | pangram 4.1, the web app: Joel's account, run by the lane in the desktop app's browser pane (E356) | 8 | 6 (75%) | 50% | 50% | 75% | 0.170 (base 0.250, 8) |
 
 ## Pangram 4.1 extension (free, live post; Joel's check of 2026-10-18, the same text as his 2026-11-03 paste by SHA-256)
@@ -56,16 +56,16 @@ Calibration:
 
 | window | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| the latest 50 | 50 | 48 (96%) | 96% | 4% | 0% | 0.097 (base 0.038, 50) |
-| the latest 100 | 100 | 97 (97%) | 93% | 7% | 4% | 0.116 (base 0.065, 100) |
-| all | 171 | 157 (92%) | 87% | 13% | 16% | 0.134 (base 0.116, 171) |
+| the latest 50 | 50 | 48 (96%) | 96% | 4% | 0% | 0.094 (base 0.038, 50) |
+| the latest 100 | 100 | 97 (97%) | 96% | 4% | 1% | 0.109 (base 0.038, 100) |
+| all | 177 | 163 (92%) | 87% | 13% | 15% | 0.131 (base 0.113, 177) |
 
 The boundary mix (what was checked; accuracy differs a lot between a paragraph and a section):
 
 | scope or kind | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
 | section | 35 | 32 (91%) | 94% | 6% | 14% | 0.102 (base 0.054, 35) |
-| paragraph | 89 | 82 (92%) | 82% | 18% | 17% | 0.127 (base 0.147, 89) |
+| paragraph | 95 | 88 (93%) | 83% | 17% | 16% | 0.122 (base 0.140, 95) |
 | pair | 47 | 43 (91%) | 89% | 11% | 15% | 0.171 (base 0.095, 47) |
 
 Calibration:
@@ -73,7 +73,7 @@ Calibration:
 | my chance of a 100% Human result | calls | mean chance | read Human |
 |---|---|---|---|
 | 0.0 to 0.2 | 10 | 0.14 | 0% |
-| 0.2 to 0.4 | 86 | 0.29 | 3% |
+| 0.2 to 0.4 | 92 | 0.29 | 3% |
 | 0.4 to 0.6 | 65 | 0.45 | 17% |
 | 0.6 to 0.8 | 11 | 0.68 | 82% |
 | 0.8 to 1.0 | 1 | 0.80 | 100% |
@@ -219,4 +219,10 @@ The latest:
 | bad-trips Who to Contact, and When after the Human section and its opening, the first list's Fireside line | paragraph | 1 of 6 | Mixed |
 | bad-trips Who to Contact, and When after the Human section and its opening, the directories' second sentence | paragraph | 1 of 6 | Mixed |
 | bad-trips For the Person Helping after the Human section, the opening without the grief paragraph | paragraph | 1 of 6 | Mixed |
+| bad-trips For the Person Helping after the Human section, L1-do | paragraph | 1 of 6 | Mixed |
+| bad-trips For the Person Helping after the Human section, L2-dont | paragraph | 1 of 6 | AI |
+| bad-trips For the Person Helping after the Human section, HA-god | paragraph | 1 of 6 | Mixed |
+| bad-trips For the Person Helping after the Human section, HB-lines | paragraph | 1 of 6 | Mixed |
+| bad-trips For the Person Helping after the Human section, HC-safety | paragraph | 1 of 6 | Mixed |
+| bad-trips For the Person Helping after the Human section, HD-call | paragraph | 1 of 6 | Mixed |
 
