@@ -1,0 +1,61 @@
+{
+ "readers": [
+  "codex",
+  "haiku",
+  "sonnet"
+ ],
+ "sentences": [
+  "Cognitive distortions from Cognitive Behavioral Therapy (CBT) can create or prolong the crisis:\n\n- Catastrophizing: \"This will never end.\"",
+  "- Emotional reasoning: \"It feels true, so it must be true.\"",
+  "- Mind reading: \"Everyone can see I am broken.\"",
+  "- Fortune-telling: \"My life is ruined now.\"",
+  "- All-or-nothing thinking: \"Either I am enlightened or I am doomed.\"",
+  "- Personalization: \"This cosmic horror is specifically my fault.\"",
+  "- Spiritual bypassing: \"Because everything is love, I don't need boundaries, doctors, sleep, or consequences.\""
+ ],
+ "flagged": {
+  "1": [
+   "haiku",
+   "sonnet"
+  ],
+  "2": [
+   "sonnet"
+  ],
+  "3": [
+   "sonnet"
+  ],
+  "4": [
+   "sonnet"
+  ],
+  "5": [
+   "codex",
+   "haiku"
+  ],
+  "6": [
+   "codex",
+   "sonnet"
+  ],
+  "7": [
+   "codex",
+   "sonnet"
+  ]
+ },
+ "agreed": [
+  1,
+  5,
+  6,
+  7
+ ],
+ "whole": {
+  "codex": [
+   "The repeated label-and-quotation format, similar sentence lengths, and neatly matched examples give it the rhythm of a generated teaching list. Those features can suggest AI polishing, but they also occur in human writing and cannot establish authorship."
+  ],
+  "haiku": [
+   "The paragraph is a textbook lead-in followed by a list of seven evenly built items, with similar lengths and no variation in how each one opens, so the rhythm is very even. Only the closing items break that evenness, which makes the whole read as a polished list with a few human edges rather than a single unified voice."
+  ],
+  "sonnet": [
+   "The paragraph is a one-sentence lead-in followed by an exhaustive, evenly weighted list. The voice is neutral and explanatory, with no first-person stake, anecdote or uneven emphasis. The whole thing reads as a completed checklist with no digressions."
+  ]
+ },
+ "human_clean": []
+}

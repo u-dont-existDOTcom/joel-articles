@@ -8,7 +8,7 @@ Built by `tools/humanization/pangram_ledger.py build` from `articles/bad-trips/h
 |---|---|---|---|---|---|---|
 | Pangram 4.1 extension (free, live post; Joel's check of 2026-10-18, the same text as his 2026-11-03 paste by SHA-256) | 1 | 1 (100%) | 100% | 0% | 0% | 0.000 (base 0.000, 1) |
 | Pangram web app (his account, Pangram Professional) | 3 | 3 (100%) | 100% | 0% | 0% | 0.092 (base 0.000, 3) |
-| Pangram web app (his account, Pangram Professional), through the Claude desktop app's browser pane | 222 | 205 (92%) | 88% | 12% | 14% | 0.127 (base 0.107, 222) |
+| Pangram web app (his account, Pangram Professional), through the Claude desktop app's browser pane | 237 | 218 (92%) | 87% | 13% | 13% | 0.126 (base 0.111, 237) |
 | pangram 4.1, the web app: Joel's account, run by the lane in the desktop app's browser pane (E356) | 8 | 6 (75%) | 50% | 50% | 75% | 0.170 (base 0.250, 8) |
 
 ## Pangram 4.1 extension (free, live post; Joel's check of 2026-10-18, the same text as his 2026-11-03 paste by SHA-256)
@@ -56,26 +56,26 @@ Calibration:
 
 | window | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| the latest 50 | 50 | 47 (94%) | 92% | 8% | 6% | 0.102 (base 0.074, 50) |
-| the latest 100 | 100 | 95 (95%) | 94% | 6% | 3% | 0.100 (base 0.056, 100) |
-| all | 222 | 205 (92%) | 88% | 12% | 14% | 0.127 (base 0.107, 222) |
+| the latest 50 | 50 | 45 (90%) | 86% | 14% | 8% | 0.116 (base 0.120, 50) |
+| the latest 100 | 100 | 93 (93%) | 91% | 9% | 4% | 0.105 (base 0.082, 100) |
+| all | 237 | 218 (92%) | 87% | 13% | 13% | 0.126 (base 0.111, 237) |
 
 The boundary mix (what was checked; accuracy differs a lot between a paragraph and a section):
 
 | scope or kind | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| section | 47 | 44 (94%) | 94% | 6% | 13% | 0.095 (base 0.060, 47) |
-| paragraph | 128 | 118 (92%) | 85% | 15% | 13% | 0.122 (base 0.126, 128) |
+| section | 52 | 49 (94%) | 92% | 8% | 13% | 0.089 (base 0.071, 52) |
+| paragraph | 138 | 126 (91%) | 85% | 15% | 12% | 0.124 (base 0.129, 138) |
 | pair | 47 | 43 (91%) | 89% | 11% | 15% | 0.171 (base 0.095, 47) |
 
 Calibration:
 
 | my chance of a 100% Human result | calls | mean chance | read Human |
 |---|---|---|---|
-| 0.0 to 0.2 | 14 | 0.14 | 0% |
-| 0.2 to 0.4 | 127 | 0.29 | 4% |
+| 0.0 to 0.2 | 19 | 0.13 | 0% |
+| 0.2 to 0.4 | 136 | 0.29 | 5% |
 | 0.4 to 0.6 | 71 | 0.45 | 18% |
-| 0.6 to 0.8 | 11 | 0.68 | 82% |
+| 0.6 to 0.8 | 12 | 0.68 | 83% |
 | 0.8 to 1.0 | 1 | 0.80 | 100% |
 
 ## pangram 4.1, the web app: Joel's account, run by the lane in the desktop app's browser pane (E356)
@@ -99,12 +99,12 @@ Calibration:
 | 0.4 to 0.6 | 6 | 0.49 | 33% |
 | 0.6 to 0.8 | 3 | 0.67 | 100% |
 
-## Misses since the ledger (19)
+## Misses since the ledger (21)
 
 | cause | misses |
 |---|---|
+| context | 6 |
 | in place | 4 |
-| context | 4 |
 | shape echo | 1 |
 | parallel frames kept | 1 |
 | a flaw of sense left in the ending | 1 |
@@ -121,8 +121,6 @@ The latest:
 
 | check | lineage, try | said | read | cause |
 |---|---|---|---|---|
-| [bt-r07-4](https://www.pangram.com/history/b8fbfcbc-c2d9-48b7-a1f8-0510320bb0a1) | bad-trips round 7 N-CANNA-2 (his forums and studies paragraph), 2 | Human | AI or mixed | **not explained yet** |
-| [bt-room1-fix-1](https://www.pangram.com/history/8e79642a-8589-4524-a59d-e8b88cf6ff1b) | bad-trips PFA room, first part: the room's questions and the annoying room (B238, B239), 1 | Human | AI or mixed | a quip kept |
 | [bt-room1-fix-3](https://www.pangram.com/history/b2a7067f-443e-4caa-91c2-34a748bb9cc6) | bad-trips PFA room, first part: the room's questions and the annoying room (B238, B239), 3 | Human | AI or mixed | one sentence changed |
 | [bt-room-stretch-1](https://www.pangram.com/history/34d92f15-18c7-4849-9972-983239961bf9) | bad-trips PFA room stretch in place: my first part with his second (B238 to B241), 1 | Human | AI or mixed | in place |
 | [bt-room-stretch-2](https://www.pangram.com/history/3d9ca55e-df3a-4ea4-8866-2d6071ba1b10) | bad-trips PFA room stretch in place: my first part with his second (B238 to B241), 2 | Human | AI or mixed | in place |
@@ -136,6 +134,8 @@ The latest:
 | [bt-nra-n3a](https://www.pangram.com/history/795e7185-2001-4eb5-ae47-9e7c0deb0dd9) | bad-trips No Rash Actions after the Human section, N3, 2 | AI | Human | the clipped three-imperative rhythm was the driver: said as one flowing sentence it read Human, while changing only the last sentence (keeping two clipped ones) read 100% |
 | [bt-spirit-S1](https://www.pangram.com/history/8fb742b0-5da4-40fd-9f7b-47177f721dec) | bad-trips Spiritual is not Getting Your Ass Kicked after the Human section, S1, 1 | AI | Human | context |
 | [bt-other-o5b](https://www.pangram.com/history/3a876120-b490-4361-a0b4-ff0d60d7c791) | bad-trips The Other Bypass after the Human section, O5, 2 | Human | AI or mixed | in place |
+| [bt-why-W1](https://www.pangram.com/history/922960db-ae8a-426d-8b07-7edc0eb9e1ea) | bad-trips Why Bad Trips Tend to Happen after the Human section, W1, 1 | AI | Human | context |
+| [bt-give-G2](https://www.pangram.com/history/635b3f13-4c07-43fc-88e6-3e3ef31ac41c) | bad-trips Give the Session a Beginning and an End after the Human section, G2, 1 | AI | Human | context |
 
 ## Lineages still open (tries used of the cap)
 
@@ -252,4 +252,12 @@ The latest:
 | bad-trips The Other Bypass as the guide has it | section | 1 of 2 | Mixed |
 | bad-trips The Other Bypass after the Human section, O5 | paragraph | 2 of 6 | Mixed |
 | bad-trips The Other Bypass after the Human section, as the guide now has it | section | 1 of 2 | Mixed |
+| bad-trips Why Bad Trips Tend to Happen as the guide has it | section | 1 of 2 | AI |
+| bad-trips Why Bad Trips Tend to Happen after the Human section | section | 1 of 2 | Mixed |
+| bad-trips Why Bad Trips Tend to Happen after the Human section, W2 | paragraph | 1 of 6 | Mixed |
+| bad-trips Why Bad Trips Tend to Happen after the Human section, W3 | paragraph | 2 of 6 | Mixed |
+| bad-trips Why Bad Trips Tend to Happen after the Human section, W4 | paragraph | 3 of 6 | Mixed |
+| bad-trips Give the Session a Beginning and an End as the guide has it | section | 1 of 2 | AI |
+| bad-trips Give the Session a Beginning and an End after the Human section | section | 1 of 2 | Mixed |
+| bad-trips Give the Session a Beginning and an End after the Human section, G1 | paragraph | 2 of 6 | Mixed |
 

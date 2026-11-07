@@ -527,6 +527,19 @@
    "must_contain_exact": [
     "When shadow work is bypassed in meditation and therapy, it may appear in ordinary life without explaining itself."
    ]
+  },
+  {
+   "id": "t22-prevention-once",
+   "status": "applied",
+   "what": "Give the Session a Beginning and an End: \"A lot of prevention is boring: being rested, starting before everyone is exhausted, leaving time afterward, having food ready, and knowing how the session ends.\" cut: it lists ahead of time what the section's list then says item by item (experiments/t22-session/apply_t22.py)",
+   "joel": "2026-11-06 19:43 UTC: \"i'd say make the cuts regardless of pangram if it makes the guide read better, that was what we were supposed to do already prior\"",
+   "must_not_contain": [
+    "A lot of prevention is boring:"
+   ],
+   "must_contain_exact": [
+    "For planned altered-state work, think through the beginning, middle, and end before starting.",
+    "**Rest and timing:** don't begin already depleted."
+   ]
   }
  ]
 }
