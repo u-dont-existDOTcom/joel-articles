@@ -391,7 +391,7 @@ So **one calm person should be the anchor** and take the lead. One person can on
 
 ### Who to Contact, and When
 
-Save the relevant links and local numbers *before* you need them. Hours and services change, and not every option works in every country.
+Save the relevant links and local numbers *before* you need them. Their hours and services change, and some only work in one country.
 
 **During or soon after a psychedelic experience**
 

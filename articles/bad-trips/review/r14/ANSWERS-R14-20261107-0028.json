@@ -1,0 +1,41 @@
+{
+ "format": "joel-suggestion-review-answers-v1",
+ "review_id": "bad-trips-r14",
+ "title": "Bad Trips Guide, Round 14",
+ "git_file": "articles/bad-trips/review/r14/REVIEW-R14.html",
+ "article": {
+  "file": "articles/bad-trips/review/r14/PAGE-R14.md",
+  "sha256": "66fd746c0789768b0502654dd71c20cc995f2c58557b7e1661c99513f8f872b1"
+ },
+ "built": "2026-11-07",
+ "generator": "suggestion_review.py 1.8 (2026-11-06)",
+ "exported_at": "2026-11-07T00:28:06.583Z",
+ "counts": {
+  "approved": 1,
+  "rejected": 0,
+  "revise": 0,
+  "pending": 0
+ },
+ "items": [
+  {
+   "id": "CONTACT-PLAIN",
+   "type": "plain",
+   "title": "The contact list's opening, its second sentence said plainly",
+   "where": "Who to Contact, and When, P1",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "Save the relevant links and local numbers before you need them. Their hours and services change, and some only work in one country.",
+   "before": "Save the relevant links and local numbers before you need them. Hours and services change, and not every option works in every country.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-07T00:27:34.718Z"
+    }
+   ],
+   "updated": "2026-11-07T00:27:34.719Z"
+  }
+ ]
+}

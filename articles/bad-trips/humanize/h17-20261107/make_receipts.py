@@ -22,6 +22,12 @@ HEAD = {'payoff': 'they know this part says whom to call, and when',
         'follows': "the next section's heading, after the reminder of where they are",
         'link': "none: a new section's heading; it opens the list of people and services to contact"}
 NEW = {
+    "Save the relevant links and local numbers before you need them.": ('they know to save the links and numbers ahead of time', "the section's first point, under its heading", 'before you need them'),
+    "TripSit live chat: a harm-reduction chat you open in your browser, for people using drugs and for whoever's looking after them.": ('they know what TripSit offers and for whom', 'the next item in the same list', 'TripSit'),
+    "Fireside Project: psychedelic peer support by phone or text at 623-473-7433, every day from 11 a.m. to 11 p.m.": ('they know what Fireside offers, how to reach it, and its hours', 'the first item under its heading', 'Fireside Project'),
+    "Pacific Time; its FAQ says it's U.S.-only for now.": ('they know the hours are Pacific Time and that Fireside is U.S.-only', 'the end of the same item, split off at "p.m."', 'none: the end of the same item, split by the sentence counter at "p.m."'),
+    "Find A Helpline: a worldwide list of free helplines, and many of them take calls, texts, online chat or WhatsApp.": ('they know what Find A Helpline is and how its helplines can be reached', 'the list item, under its heading', 'Find A Helpline'),
+    "Any kind of crisis counts, and it can put a human on the other end quickly.": ('they know the helplines are for any crisis and fast to reach', 'what the helplines are for, after what they are', 'Any kind of crisis'),
     "Fireside Project: U.S.-only according to its current FAQ; phone or text psychedelic peer support at 623-473-7433, daily from 11 a.m. to 11 p.m.": ('they know who Fireside serves, how to reach it, and its hours', 'the first item under its heading', 'Fireside Project'),
     "Pacific Time.": ('they know the hours are Pacific Time', 'the end of the hours, split off at "p.m."', 'none: the end of the same item, split by the sentence counter at "p.m."'),
     "During or soon after a psychedelic experience": ('they know the first list is for during or just after a trip', 'a list heading, after the opening paragraph', 'During or soon after'),
