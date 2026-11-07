@@ -1,0 +1,46 @@
+{
+ "readers": [
+  "codex",
+  "haiku",
+  "sonnet"
+ ],
+ "sentences": [
+  "A bad trip does not prove that you are broken, punished, unspiritual, impure, or permanently damaged.",
+  "It means the nervous system, meaning-making system, body, environment, memories, dose, or relationships became overwhelmed.",
+  "The response is care rather than blame."
+ ],
+ "flagged": {
+  "1": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ],
+  "2": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ],
+  "3": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ]
+ },
+ "agreed": [
+  1,
+  2,
+  3
+ ],
+ "whole": {
+  "codex": [
+   "The paragraph follows a tidy reassurance–explanation–takeaway structure, with two long inventories followed by a short moral conclusion. That controlled construction suggests possible AI polishing, though wording alone cannot establish authorship."
+  ],
+  "haiku": [
+   "The three sentences carry nearly equal weight, the two long ones are built as lists, and the last is a balanced reversal. The voice is detached and general, with no first person, no concrete scene and no sign of a specific experience, so the paragraph reads as a summary of a principle."
+  ],
+  "sonnet": [
+   "The paragraph has three beats of the same shape: a long negated list, a long causal list, then a short aphoristic verdict. The pattern is tidy and symmetrical. The voice is a neutral, soothing explainer, with no first person, no specific person or moment, and no friction."
+  ]
+ },
+ "human_clean": []
+}

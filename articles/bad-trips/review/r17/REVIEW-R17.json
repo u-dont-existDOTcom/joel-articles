@@ -1,0 +1,76 @@
+{
+ "format": "joel-suggestion-review-v1",
+ "review_id": "bad-trips-r17",
+ "title": "Bad Trips Guide, Round 17",
+ "intro": [
+  "Round 17 (2026-11-07). One card for The Other Bypass, one sentence. Rounds 12, 15 and 16 are still open on their own pages."
+ ],
+ "git_file": "articles/bad-trips/review/r17/REVIEW-R17.html",
+ "article": {
+  "file": "articles/bad-trips/review/r17/PAGE-R17.md",
+  "sha256": "c0100cae32cb5a61e7ad6d8e0b1f6e83cdcc4edeff59b7c430c58ffc19f6d68f"
+ },
+ "built": "2026-11-07",
+ "links": {
+  "guide": "https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261105/articles/bad-trips/GUIDE-SO-FAR.md",
+  "guide_label": "the guide as it stands",
+  "check": "https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261105/articles/bad-trips/humanize/h21-20261107/RESULTS.md",
+  "review": "https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261105/articles/bad-trips/review/r17/REVIEW-R17.md"
+ },
+ "types": {
+  "plain": {
+   "label": "Said plainly",
+   "about": "AI lines said plainly, each with its reason, the way he fixes his own windows"
+  },
+  "structure": {
+   "label": "Structure",
+   "about": "how the quick version and the long version split the guide, and where a part goes"
+  },
+  "repeat": {
+   "label": "Said twice",
+   "about": "a point the guide already makes elsewhere: one copy goes, the other stays"
+  },
+  "safety": {
+   "label": "Safety in one place",
+   "about": "a caution or call-for-help line said in several places, or one that changes nothing a reader does"
+  },
+  "question": {
+   "label": "Your call",
+   "about": "something only you can decide or know"
+  }
+ },
+ "suggestions": [
+  {
+   "id": "OTHER-PAIR",
+   "type": "plain",
+   "advice": "approve",
+   "title": "The young-parts line said in one breath",
+   "reading": "After the Human first half of Psychological First Aid, The Other Bypass (its last paragraph already cut, since the same section says it about your marriages) reads [Mostly Human, 8%](https://www.pangram.com/history/01da05e9-2597-4fce-953d-3a74d91cc162): AI only on \"Most negative mind-states aren't philosophical errors. They are young parts ...\"",
+   "tested": "With this change: [Human Written](https://www.pangram.com/history/a9f2e50e-cbe8-4802-be66-90025c935622), every window Human.",
+   "what": "\"Most negative mind-states aren't philosophical errors. They are young parts still waiting for love, protection, permission, and an explanation nobody gave them.\" becomes \"Most negative mind-states aren't some error in your philosophy, they're just young parts of you that are still waiting for love and protection and permission, and for the explanation nobody ever gave them.\"",
+   "why": "The same point and the same four things they wait for, said in one breath instead of a \"not this. That.\" pair.",
+   "stays": "Love, protection, permission, and the explanation nobody gave them; the rest of the paragraph word for word.",
+   "deciding": "Approve puts the new line in; Revise lets you change it first.",
+   "advice_note": "Approve: the same point, and the section reads Human with it.",
+   "found_by": "Pangram after the Human first half, The Other Bypass, then its shadow-work paragraph alone",
+   "receipt": [
+    "articles/bad-trips/humanize/h21-20261107/CARD-PAIR.receipt.json",
+    "articles/bad-trips/humanize/h21-20261107/TEST-base-OTHERfix.receipt.json"
+   ],
+   "edits": [
+    {
+     "block": 335,
+     "before": "Shadow work to me is neither BDSM nor \"feeding your demons.\" It means bringing loving awareness to the parts of the mind built in fear, pain, humiliation, rejection, and survival. Inner-child reparenting is central. Most negative mind-states aren't philosophical errors. They are young parts still waiting for love, protection, permission, and an explanation nobody gave them.",
+     "after": "Shadow work to me is neither BDSM nor \"feeding your demons.\" It means bringing loving awareness to the parts of the mind built in fear, pain, humiliation, rejection, and survival. Inner-child reparenting is central. Most negative mind-states aren't some error in your philosophy, they're just young parts of you that are still waiting for love and protection and permission, and for the explanation nobody ever gave them."
+    }
+   ],
+   "spans": [
+    {
+     "block": 335,
+     "start": 216,
+     "end": 376
+    }
+   ]
+  }
+ ]
+}

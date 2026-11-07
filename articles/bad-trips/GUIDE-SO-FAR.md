@@ -592,8 +592,6 @@ Shadow work to me is neither BDSM nor "feeding your demons." It means bringing l
 
 Begin with my [Inner Child Therapy guide](http://innerchild.u-dont-exist.com) and app, and my [Self-Hypnosis guide](http://hypnoisis.u-dont-exist.com) and app.
 
-Skip this inner work, and the trauma doesn't vanish. It leaks into marriages, friendships, sex, money, spiritual communities, and the way reality itself is interpreted. Sometimes the curriculum arrives through heartbreak, divorce, betrayal, illness, or the morning you realize the enlightened persona was mostly a nice outfit.
-
 ## Hang up the phone, get off the Healing Treadmill
 
 ![](https://substack-post-media.s3.amazonaws.com/public/images/ccdad771-dde3-4618-ba38-830eb35b4e59_1254x1254.png)

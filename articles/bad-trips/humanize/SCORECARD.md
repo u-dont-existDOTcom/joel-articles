@@ -8,7 +8,7 @@ Built by `tools/humanization/pangram_ledger.py build` from `articles/bad-trips/h
 |---|---|---|---|---|---|---|
 | Pangram 4.1 extension (free, live post; Joel's check of 2026-10-18, the same text as his 2026-11-03 paste by SHA-256) | 1 | 1 (100%) | 100% | 0% | 0% | 0.000 (base 0.000, 1) |
 | Pangram web app (his account, Pangram Professional) | 3 | 3 (100%) | 100% | 0% | 0% | 0.092 (base 0.000, 3) |
-| Pangram web app (his account, Pangram Professional), through the Claude desktop app's browser pane | 204 | 189 (93%) | 88% | 12% | 13% | 0.126 (base 0.104, 204) |
+| Pangram web app (his account, Pangram Professional), through the Claude desktop app's browser pane | 222 | 205 (92%) | 88% | 12% | 14% | 0.127 (base 0.107, 222) |
 | pangram 4.1, the web app: Joel's account, run by the lane in the desktop app's browser pane (E356) | 8 | 6 (75%) | 50% | 50% | 75% | 0.170 (base 0.250, 8) |
 
 ## Pangram 4.1 extension (free, live post; Joel's check of 2026-10-18, the same text as his 2026-11-03 paste by SHA-256)
@@ -56,25 +56,25 @@ Calibration:
 
 | window | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| the latest 50 | 50 | 48 (96%) | 96% | 4% | 0% | 0.097 (base 0.038, 50) |
-| the latest 100 | 100 | 96 (96%) | 96% | 4% | 0% | 0.095 (base 0.038, 100) |
-| all | 204 | 189 (93%) | 88% | 12% | 13% | 0.126 (base 0.104, 204) |
+| the latest 50 | 50 | 47 (94%) | 92% | 8% | 6% | 0.102 (base 0.074, 50) |
+| the latest 100 | 100 | 95 (95%) | 94% | 6% | 3% | 0.100 (base 0.056, 100) |
+| all | 222 | 205 (92%) | 88% | 12% | 14% | 0.127 (base 0.107, 222) |
 
 The boundary mix (what was checked; accuracy differs a lot between a paragraph and a section):
 
 | scope or kind | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| section | 39 | 36 (92%) | 95% | 5% | 13% | 0.095 (base 0.049, 39) |
-| paragraph | 118 | 110 (93%) | 86% | 14% | 13% | 0.119 (base 0.123, 118) |
+| section | 47 | 44 (94%) | 94% | 6% | 13% | 0.095 (base 0.060, 47) |
+| paragraph | 128 | 118 (92%) | 85% | 15% | 13% | 0.122 (base 0.126, 128) |
 | pair | 47 | 43 (91%) | 89% | 11% | 15% | 0.171 (base 0.095, 47) |
 
 Calibration:
 
 | my chance of a 100% Human result | calls | mean chance | read Human |
 |---|---|---|---|
-| 0.0 to 0.2 | 12 | 0.14 | 0% |
-| 0.2 to 0.4 | 116 | 0.29 | 3% |
-| 0.4 to 0.6 | 66 | 0.45 | 17% |
+| 0.0 to 0.2 | 14 | 0.14 | 0% |
+| 0.2 to 0.4 | 127 | 0.29 | 4% |
+| 0.4 to 0.6 | 71 | 0.45 | 18% |
 | 0.6 to 0.8 | 11 | 0.68 | 82% |
 | 0.8 to 1.0 | 1 | 0.80 | 100% |
 
@@ -99,12 +99,12 @@ Calibration:
 | 0.4 to 0.6 | 6 | 0.49 | 33% |
 | 0.6 to 0.8 | 3 | 0.67 | 100% |
 
-## Misses since the ledger (17)
+## Misses since the ledger (19)
 
 | cause | misses |
 |---|---|
-| in place | 3 |
-| context | 3 |
+| in place | 4 |
+| context | 4 |
 | shape echo | 1 |
 | parallel frames kept | 1 |
 | a flaw of sense left in the ending | 1 |
@@ -121,8 +121,6 @@ The latest:
 
 | check | lineage, try | said | read | cause |
 |---|---|---|---|---|
-| [bt-r06-forums-2](https://www.pangram.com/history/fd1df50a-5f61-44ee-ad14-ab61bda0542c) | bad-trips Active Seizure N-FORUMS (what forums and the rat study say), 2 | Human | AI or mixed | a flaw of sense left in the ending |
-| [bt-r06-forums-3](https://www.pangram.com/history/d3ff8463-b3c1-40f3-8852-d81cedc403ed) | bad-trips Active Seizure N-FORUMS (what forums and the rat study say), 3 | Human | AI or mixed | rewording without a sense fix |
 | [bt-r07-4](https://www.pangram.com/history/b8fbfcbc-c2d9-48b7-a1f8-0510320bb0a1) | bad-trips round 7 N-CANNA-2 (his forums and studies paragraph), 2 | Human | AI or mixed | **not explained yet** |
 | [bt-room1-fix-1](https://www.pangram.com/history/8e79642a-8589-4524-a59d-e8b88cf6ff1b) | bad-trips PFA room, first part: the room's questions and the annoying room (B238, B239), 1 | Human | AI or mixed | a quip kept |
 | [bt-room1-fix-3](https://www.pangram.com/history/b2a7067f-443e-4caa-91c2-34a748bb9cc6) | bad-trips PFA room, first part: the room's questions and the annoying room (B238, B239), 3 | Human | AI or mixed | one sentence changed |
@@ -136,6 +134,8 @@ The latest:
 | [bt-contact-K5-after](https://www.pangram.com/history/07ee0dd7-de31-4f93-8630-16521ad77701) | bad-trips Who to Contact, and When after the Human section, K5-after, 1 | AI | Human | the integration list's items say who runs what and for whom in plain, specific terms (five free sessions, a monthly group, meditation-related difficulties); none of the list tells I expected (name-colon-description) mattered here |
 | [bt-contact-kv2](https://www.pangram.com/history/3328665a-ddf4-4fbc-998c-58a8906ada02) | bad-trips Who to Contact, and When after the Human section, the opening's second sentence, 1 | AI | Human | the opening's second sentence was the driver: 'Hours and services change, and not every option works in every country.' said as 'Their hours and services change, and some only work in one country.' turned every window Human, the first sentence left as it was |
 | [bt-nra-n3a](https://www.pangram.com/history/795e7185-2001-4eb5-ae47-9e7c0deb0dd9) | bad-trips No Rash Actions after the Human section, N3, 2 | AI | Human | the clipped three-imperative rhythm was the driver: said as one flowing sentence it read Human, while changing only the last sentence (keeping two clipped ones) read 100% |
+| [bt-spirit-S1](https://www.pangram.com/history/8fb742b0-5da4-40fd-9f7b-47177f721dec) | bad-trips Spiritual is not Getting Your Ass Kicked after the Human section, S1, 1 | AI | Human | context |
+| [bt-other-o5b](https://www.pangram.com/history/3a876120-b490-4361-a0b4-ff0d60d7c791) | bad-trips The Other Bypass after the Human section, O5, 2 | Human | AI or mixed | in place |
 
 ## Lineages still open (tries used of the cap)
 
@@ -243,4 +243,13 @@ The latest:
 | bad-trips When the Trip Feels Amazing after the Human section, A2 | paragraph | 1 of 6 | Mixed |
 | bad-trips When the Trip Feels Amazing after the Human section, A3 | paragraph | 1 of 6 | Mixed |
 | bad-trips When the Trip Feels Amazing after the Human section, A4 | paragraph | 2 of 6 | Mixed |
+| bad-trips (Re)defining "Bad Trip" as the guide has it | section | 1 of 2 | AI |
+| bad-trips (Re)defining "Bad Trip" after the Human section | section | 1 of 2 | Mixed |
+| bad-trips (Re)defining "Bad Trip" after the Human section, R2 | paragraph | 3 of 6 | AI |
+| bad-trips Spiritual is not Getting Your Ass Kicked as the guide has it | section | 1 of 2 | AI |
+| bad-trips Spiritual is not Getting Your Ass Kicked after the Human section | section | 1 of 2 | Mixed |
+| bad-trips Spiritual is not Getting Your Ass Kicked after the Human section, S2 | paragraph | 3 of 6 | AI |
+| bad-trips The Other Bypass as the guide has it | section | 1 of 2 | Mixed |
+| bad-trips The Other Bypass after the Human section, O5 | paragraph | 2 of 6 | Mixed |
+| bad-trips The Other Bypass after the Human section, as the guide now has it | section | 1 of 2 | Mixed |
 

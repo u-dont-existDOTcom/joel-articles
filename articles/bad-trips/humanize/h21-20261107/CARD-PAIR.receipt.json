@@ -1,0 +1,62 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-07",
+ "text_sha256": "8408a81fdc71da2a216b304180232ccf6b7dca7dc2b52fd736a826b83ea7fb9e",
+ "text": "Shadow work to me is neither BDSM nor \"feeding your demons.\" It means bringing loving awareness to the parts of the mind built in fear, pain, humiliation, rejection, and survival. Inner-child reparenting is central. Most negative mind-states aren't some error in your philosophy, they're just young parts of you that are still waiting for love and protection and permission, and for the explanation nobody ever gave them.",
+ "section": "The Other Bypass: Feeling Good Forever, after his first two marriages",
+ "reader": "someone who meditates or uses psychedelics to feel good, wondering whether shadow work matters",
+ "sentences": [
+  {
+   "s": "Shadow work to me is neither BDSM nor \"feeding your demons.\"",
+   "payoff": "they know what shadow work is not, for him",
+   "follows": "the paragraph's opening, after his wish that it stayed in safer rooms"
+  },
+  {
+   "s": "It means bringing loving awareness to the parts of the mind built in fear, pain, humiliation, rejection, and survival.",
+   "payoff": "they know what shadow work is: loving awareness for the parts built in fear and pain",
+   "follows": "after what it is not, what it is",
+   "link": "It means"
+  },
+  {
+   "s": "Inner-child reparenting is central.",
+   "payoff": "they know inner-child reparenting is the heart of it",
+   "follows": "the central practice of that work",
+   "link": "none: names the central practice of the shadow work just defined, inner-child reparenting"
+  },
+  {
+   "s": "Most negative mind-states aren't some error in your philosophy, they're just young parts of you that are still waiting for love and protection and permission, and for the explanation nobody ever gave them.",
+   "payoff": "they know what negative mind-states are: young parts waiting for love",
+   "follows": "why inner-child work is central",
+   "link": "young parts"
+  }
+ ],
+ "checked": [],
+ "placement": "The Other Bypass, after his first two marriages and his wish that shadow work stayed in safer rooms",
+ "opens": {
+  "first_sentence": "Shadow work to me is neither BDSM nor \"feeding your demons.\"",
+  "why_reading": "the paragraph before wishes shadow work stayed in safer rooms; this says what he means by shadow work"
+ },
+ "same_point": "none: read the section from its heading to the next for feeling good, shadow work first, his marriages, what shadow work is and where to begin",
+ "questions": {
+  "Q1": "PASS: the paragraph opens on what shadow work is, for him",
+  "Q2": "PASS: no instruction; it says what the work is and why it matters",
+  "Q3": "PASS: which parts: those built in fear, pain, humiliation, rejection and survival; which waiting: love, protection, permission, an explanation",
+  "Q4": "PASS: shadow work and inner-child reparenting are the guide's terms, said in plain words here",
+  "Q5": "PASS: what it is not, then what it is, then its heart, then why",
+  "Q6": "PASS: definition, practice, reason",
+  "Q7": "PASS: about the reader's own negative mind-states",
+  "Q8": "PASS: one point, what shadow work is",
+  "Q9": "PASS: nothing compressed"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}
