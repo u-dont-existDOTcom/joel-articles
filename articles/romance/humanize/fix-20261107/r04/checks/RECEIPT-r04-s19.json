@@ -1,0 +1,69 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-07",
+ "text_sha256": "69c950603081459a0ee4f310a394e49618a56c2b381d1a364e0076048fff4bab",
+ "text": "Having the same confidant creates the opposite problem: now you may not have a release valve when you want privacy from your partner. There isn’t one perfect arrangement.\n\nIf you do have separate confidants, you need enough emotional maturity to remember they will automatically be biased toward you. They’re only hearing your side, usually while you’re upset, and they may just be trying to protect you, so take what they say with a grain of salt.",
+ "section": "Friends and community",
+ "reader": "Someone with a confidant outside the relationship, deciding how much to trust their advice.",
+ "sentences": [
+  {
+   "s": "Having the same confidant creates the opposite problem: now you may not have a release valve when you want privacy from your partner.",
+   "payoff": "the reader learns a shared confidant leaves no release valve",
+   "follows": "opens the point"
+  },
+  {
+   "s": "There isn’t one perfect arrangement.",
+   "payoff": "the reader learns no arrangement is perfect",
+   "follows": "what that adds up to",
+   "link": "none: his sentence, unchanged, in the order the live post has it"
+  },
+  {
+   "s": "If you do have separate confidants, you need enough emotional maturity to remember they will automatically be biased toward you.",
+   "payoff": "the reader learns separate confidants are biased toward you",
+   "follows": "the separate case",
+   "link": "separate confidants"
+  },
+  {
+   "s": "They’re only hearing your side, usually while you’re upset, and they may just be trying to protect you, so take what they say with a grain of salt.",
+   "payoff": "the reader learns they hear only your side, while you’re upset, and want to protect you, so take them with a grain of salt",
+   "follows": "what the bias means and what to do",
+   "link": "They’re only hearing your side"
+  }
+ ],
+ "checked": [
+  {
+   "point": "confidants may protect you rather than understand the relationship fairly",
+   "found": "the paragraph’s first sentence already says they will be biased toward you",
+   "still_needed": "yes: that they want to protect you stays; \"rather than understand the relationship fairly\" repeats the bias and goes (E378)",
+   "fate": "changed"
+  }
+ ],
+ "placement": "The paragraph in its place in the live post, with the paragraph or paragraphs before it.",
+ "opens": {
+  "first_sentence": "Having the same confidant creates the opposite problem: now you may not have a release valve when you want privacy from your partner.",
+  "why_reading": "It tells the reader the same confidant has its own problem."
+ },
+ "same_point": "none: read the section from its heading to the next for this paragraph’s point; it is made once, here",
+ "questions": {
+  "Q1": "PASS: each changed sentence gives its point first, in plain words",
+  "Q2": "N/A: these paragraphs tell and ask; the advice in them is unchanged",
+  "Q3": "PASS: the people, places, numbers and things are named as in the live post",
+  "Q4": "PASS: no new term",
+  "Q5": "PASS: each sentence’s tie is in its words (the links field), or the link says why it needs none",
+  "Q6": "PASS: the reasons come before the advice they lead to (his own move: the context first)",
+  "Q7": "PASS: each change keeps what the paragraph tells the reader about their own case",
+  "Q8": "PASS: no item moved between groups",
+  "Q9": "PASS: one step per sentence; the small words carry the relations (but, so, since, because, otherwise)"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

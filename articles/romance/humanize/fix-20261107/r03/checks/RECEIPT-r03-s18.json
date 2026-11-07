@@ -1,0 +1,87 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-07",
+ "text_sha256": "e1ffed03738ece5fe3706d1d0d5fe1e6ae42902f6df78adcf0b512bad2251a45",
+ "text": "Let me show you how this looked for me. I’ve noticed in my own relationships that whenever a serious issue arises, both of us tend to turn to our separate circles of friends for support. Then I resent the one-sided story she’s telling, she resents the one-sided story I’m telling. Some of the friends may even be exes who want us to break up, and eventually neither of us wants to talk to the other’s friends anymore. That’s a pretty terrible time to be trying to run the rest of life with two people. If one person goes down, the other becomes the whole backup system for housing, money, children, health, and emotional crises. Who even has time for the relationship itself at that point?",
+ "section": "Friends and community",
+ "reader": "Someone in a couple whose friends take sides, deciding where support should come from.",
+ "sentences": [
+  {
+   "s": "Let me show you how this looked for me.",
+   "payoff": "the reader learns Joel shows his own case",
+   "follows": "opens the point"
+  },
+  {
+   "s": "I’ve noticed in my own relationships that whenever a serious issue arises, both of us tend to turn to our separate circles of friends for support.",
+   "payoff": "the reader learns in a crisis each turns to separate friends",
+   "follows": "what happened",
+   "link": "none: his sentence, unchanged, in the order the live post has it"
+  },
+  {
+   "s": "Then I resent the one-sided story she’s telling, she resents the one-sided story I’m telling.",
+   "payoff": "the reader learns each resents the other’s one-sided story",
+   "follows": "what that led to",
+   "link": "none: his sentence, unchanged, in the order the live post has it"
+  },
+  {
+   "s": "Some of the friends may even be exes who want us to break up, and eventually neither of us wants to talk to the other’s friends anymore.",
+   "payoff": "the reader learns some friends are exes, and they stop talking to each other’s friends",
+   "follows": "how it got worse",
+   "link": "none: his sentence, unchanged, in the order the live post has it"
+  },
+  {
+   "s": "That’s a pretty terrible time to be trying to run the rest of life with two people.",
+   "payoff": "the reader learns that is a terrible time to run a life with two people",
+   "follows": "what it costs",
+   "link": "none: his sentence, unchanged, in the order the live post has it"
+  },
+  {
+   "s": "If one person goes down, the other becomes the whole backup system for housing, money, children, health, and emotional crises.",
+   "payoff": "the reader learns if one goes down, the other backs up housing, money, children, health and crises",
+   "follows": "why two is too few",
+   "link": "If one person goes down"
+  },
+  {
+   "s": "Who even has time for the relationship itself at that point?",
+   "payoff": "the reader learns no time is left for the relationship",
+   "follows": "what is lost",
+   "link": "none: his sentence, unchanged, in the order the live post has it"
+  }
+ ],
+ "checked": [
+  {
+   "point": "the AI window’s point",
+   "found": "the live post (../../live-check/AI-WINDOWS.json)",
+   "still_needed": "yes: the paragraph needs it",
+   "fate": "changed"
+  }
+ ],
+ "placement": "The paragraph in its place in the live post, with the paragraph or paragraphs before it.",
+ "opens": {
+  "first_sentence": "Let me show you how this looked for me.",
+  "why_reading": "It tells the reader Joel will show his own case, so they can compare it to theirs."
+ },
+ "same_point": "none: read the section from its heading to the next for this paragraph’s point; it is made once, here",
+ "questions": {
+  "Q1": "PASS: each changed sentence gives its point first, in plain words",
+  "Q2": "N/A: these paragraphs tell and ask; the advice in them is unchanged",
+  "Q3": "PASS: the people, places, numbers and things are named as in the live post",
+  "Q4": "PASS: no new term",
+  "Q5": "PASS: each sentence’s tie is in its words (the links field), or the link says why it needs none",
+  "Q6": "PASS: the backup system comes before the list it backs up, so the point comes first",
+  "Q7": "PASS: each change keeps what the paragraph tells the reader about their own case",
+  "Q8": "PASS: no item moved between groups",
+  "Q9": "PASS: one step per sentence; the small words carry the relations (but, so, since, because, otherwise)"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

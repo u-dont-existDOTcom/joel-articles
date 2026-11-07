@@ -1,0 +1,51 @@
+{
+ "readers": [
+  "haiku",
+  "sonnet"
+ ],
+ "sentences": [
+  "The problem is when the role takes over the relationship.",
+  "She can be my little girl sometimes without becoming my child.",
+  "She still has to remain responsible for her life and keep reparenting herself.",
+  "It can run the other way too.",
+  "I make her Mom when I expect her to regulate me, soothe every wound, organize my life, and keep me functional."
+ ],
+ "flagged": {
+  "1": [
+   "haiku",
+   "sonnet"
+  ],
+  "2": [
+   "haiku",
+   "sonnet"
+  ],
+  "3": [
+   "haiku",
+   "sonnet"
+  ],
+  "4": [
+   "haiku",
+   "sonnet"
+  ],
+  "5": [
+   "haiku",
+   "sonnet"
+  ]
+ },
+ "agreed": [
+  1,
+  2,
+  3,
+  4,
+  5
+ ],
+ "whole": {
+  "haiku": [
+   "The two paragraphs mirror each other closely, with the second opening as a deliberate counterpart to the first and both closing on a neat clause or list, and the sentence lengths stay evenly matched. That balance reads as built rather than spoken, though the first-person voice and concrete domestic detail keep the machine signal mostly in the architecture and the stock phrasings rather than in the diction as a whole. These are style features only and do not establish authorship."
+  ],
+  "sonnet": [
+   "The paragraph is built as two mirror-image halves (role takes over one way, then \"the other way too\"), each a short claim followed by a list or rule, and that symmetry is more systematic than lived. Every sentence is a general statement with no scene, detail, or specific incident, so the voice sounds like advice being organized rather than someone remembering."
+  ]
+ },
+ "human_clean": []
+}

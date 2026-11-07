@@ -1,0 +1,59 @@
+{
+ "readers": [
+  "haiku",
+  "sonnet"
+ ],
+ "sentences": [
+  "Toft also points out that a man can get feminine energy from nature, music, poetry, art, flowers, food, and other parts of life.",
+  "I like that idea.",
+  "A girlfriend shouldn’t have to be my only source of beauty, softness, sensuality, and inspiration.",
+  "I’d rather make alone time normal from the start.",
+  "Otherwise I end up waiting until I’m already overwhelmed and suddenly announcing, “I need time for myself!”",
+  "and by then it can easily sound like I need time away from her."
+ ],
+ "flagged": {
+  "1": [
+   "haiku",
+   "sonnet"
+  ],
+  "2": [
+   "sonnet"
+  ],
+  "3": [
+   "haiku",
+   "sonnet"
+  ],
+  "4": [
+   "haiku",
+   "sonnet"
+  ],
+  "5": [],
+  "6": [
+   "haiku",
+   "sonnet"
+  ]
+ },
+ "agreed": [
+  1,
+  3,
+  4,
+  6
+ ],
+ "whole": {
+  "haiku": [
+   "Apart from those spots, the paragraph reads like a person thinking out loud, with short plain sentences and a specific, self-implicating story. The machine-like quality sits in the smoothness of the list and the closing lines, not in the voice or the construction, which is uneven and personal. These signals are weak and could come from a human who edited for polish, so they do not establish AI authorship."
+  ],
+  "sonnet": [
+   "The paragraph is two small blocks of similar length, each running summary of an idea, then mild approval or reaction, then a tidy resolved point, with an even rhythm and no rough edges. The voice is smooth, agreeable and generic, like relationship-advice prose, with little that is specific or surprising."
+  ]
+ },
+ "human_clean": [
+  "I need time for myself!",
+  "Toft also points out",
+  "also",
+  "I need time for myself!",
+  "Toft",
+  "Otherwise I end up waiting until I'm already overwhelmed and suddenly announcing",
+  "end up"
+ ]
+}
