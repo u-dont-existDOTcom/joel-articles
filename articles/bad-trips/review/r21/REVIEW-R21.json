@@ -1,0 +1,86 @@
+{
+ "format": "joel-suggestion-review-v1",
+ "review_id": "bad-trips-r21",
+ "title": "Bad Trips Guide, Round 21",
+ "intro": [
+  "Round 21 (2026-11-07). One card: the euphoria section's danger list, said already in No Rash Actions right above it. Rounds 12 and 15 to 20 are still open on their own pages."
+ ],
+ "git_file": "articles/bad-trips/review/r21/REVIEW-R21.html",
+ "article": {
+  "file": "articles/bad-trips/review/r21/PAGE-R21.md",
+  "sha256": "776ad74ae46ec9da7255eba019f8957118e09bbe9c325fb3ae513403e498c29f"
+ },
+ "built": "2026-11-07",
+ "links": {
+  "guide": "https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261105/articles/bad-trips/GUIDE-SO-FAR.md",
+  "guide_label": "the guide as it stands",
+  "check": "https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261105/articles/bad-trips/humanize/h26-20261107/RESULTS.md",
+  "review": "https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261105/articles/bad-trips/review/r21/REVIEW-R21.md"
+ },
+ "types": {
+  "plain": {
+   "label": "Said plainly",
+   "about": "AI lines said plainly, each with its reason, the way he fixes his own windows"
+  },
+  "structure": {
+   "label": "Structure",
+   "about": "how the quick version and the long version split the guide, and where a part goes"
+  },
+  "repeat": {
+   "label": "Said twice",
+   "about": "a point the guide already makes elsewhere: one copy goes, the other stays"
+  },
+  "safety": {
+   "label": "Safety in one place",
+   "about": "a caution or call-for-help line said in several places, or one that changes nothing a reader does"
+  },
+  "question": {
+   "label": "Your call",
+   "about": "something only you can decide or know"
+  }
+ },
+ "suggestions": [
+  {
+   "id": "AMZ-DANGER-ONCE",
+   "type": "repeat",
+   "advice": "approve",
+   "title": "The euphoria danger list, said already in No Rash Actions",
+   "reading": "After the Human first half of Psychological First Aid, When the Trip Feels Amazing reads [64%](https://www.pangram.com/history/2a4c4ead-ab91-4b56-8d68-547a3f2f64de), and its danger list by itself [51%](https://www.pangram.com/history/0a74e60d-e2df-4e94-a98b-de112484f1a6).",
+   "tested": "Without the list: [59%](https://www.pangram.com/history/3918fb96-95eb-44a0-b0ec-b63e8d9b4a24); the section's other parts still read AI. With \"make a grand purchase\" added, No Rash Actions' list reads [100%](https://www.pangram.com/history/9ebe7736-c21e-4f4d-8e5e-67387e046e30), as it did without it.",
+   "what": "\"The danger may be action rather than panic: the 3 a.m. broadcast, confession, drive, grand purchase, sexual boundary-crossing, public prophecy, violent test of a theory, or \"I never need sleep again\" plan.\" goes, and \"make a grand purchase\" joins No Rash Actions' list after \"give away possessions\".",
+   "why": "No Rash Actions, the section just above, already covers it. Its list has the message and the posted revelation (the 3 a.m. broadcast and the public prophecy), confessing everything and driving, and its \"No revelation makes murder, assault, coercion, sexual boundary-crossing, reckless driving, or self-harm safe tonight.\" covers the boundary-crossing and the violent test. The \"never need sleep\" plan is the first of the two questions right after (\"Have I slept? Sleep comes before mission.\"). The grand purchase was the only thing not said there, so it moves. It's your call rather than mine because the safety check tracks this list's words (\"3 a.m.\", \"broadcast\", \"prophecy\", \"never\").",
+   "stays": "\"The action lock matters especially when the state feels blissful ...\", the two questions, the revelation after breakfast, and No Rash Actions whole.",
+   "deciding": "Approve makes both changes; Reject keeps both lists as they are.",
+   "advice_note": "Approve: the danger is said once, right above, and nothing in it is lost.",
+   "found_by": "the say-it-once look across the guide, stopped by the fidelity check (the list holds W099's words)",
+   "receipt": [
+    "articles/bad-trips/humanize/h26-20261107/CARD-PURCHASE.receipt.json",
+    "articles/bad-trips/humanize/h26-20261107/TEST-base-AMZx.receipt.json"
+   ],
+   "edits": [
+    {
+     "block": 316,
+     "before": "The danger may be action rather than panic: the 3 a.m. broadcast, confession, drive, grand purchase, sexual boundary-crossing, public prophecy, violent test of a theory, or \"I never need sleep again\" plan.",
+     "after": ""
+    },
+    {
+     "block": 309,
+     "before": "Until you have slept and eaten, don't drive, travel, break up, quit your job, confess everything, confront anybody, accuse anybody, send the message, post the revelation, give away possessions, call your ex, call your parents to explain the universe, or decide that you are permanently enlightened or permanently damaged.",
+     "after": "Until you have slept and eaten, don't drive, travel, break up, quit your job, confess everything, confront anybody, accuse anybody, send the message, post the revelation, give away possessions, make a grand purchase, call your ex, call your parents to explain the universe, or decide that you are permanently enlightened or permanently damaged."
+    }
+   ],
+   "spans": [
+    {
+     "block": 316,
+     "start": 0,
+     "end": 205
+    },
+    {
+     "block": 309,
+     "start": 171,
+     "end": 206
+    }
+   ]
+  }
+ ]
+}

@@ -918,6 +918,41 @@
     }
    ],
    "recorded_utc": "2026-11-07T03:15Z"
+  },
+  {
+   "turn": "2026-11-07T03:18Z",
+   "lines_of_work": [
+    "bad trips guide"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "root AGENTS.md (sha 3146ac4a), unchanged"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "articles/bad-trips CURRENT-STATE.md next step"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no edits by others since 03:16 (git log on main)"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "3 queued: GitHub notices on the merged pull request (subscribed, checks done, merged); nothing to do"
+    }
+   ],
+   "items": [
+    {
+     "item": "the danger lists",
+     "outcome": "a card (round 21)"
+    }
+   ],
+   "recorded_utc": "2026-11-07T03:23Z"
   }
  ]
 }
