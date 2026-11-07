@@ -1,0 +1,21 @@
+{
+ "turn": "2026-11-06 23:59",
+ "why": "Every paragraph or section that tested AI by itself now tests Human (gate gut-2026-11-07a: #206, #207) and the ledger names no window still open in r30, so the whole article goes to his extension as a temporary Substack draft",
+ "how": "make_payload_e.py from r12.html (the live post's editor HTML) with r30's words; a new temporary draft made in the desktop app's built-in browser, where his Substack is signed in, titled, then pasted from the payload at commit d2abf91c with the lane's paste helper (r12/substack/paste_payload_lane.js, its title list set to draft E)",
+ "prediction": "gut-article-r30#208 in pangram-ledger.jsonl, frozen before the paste: Human at 0.65, on EXPECTED-TEXT-E.txt",
+ "E": {
+  "title": "Healing the Gut, draft E (temp, delete after)",
+  "editor": "https://ibogaqueen.substack.com/publish/post/223846373",
+  "payload_url": "https://raw.githubusercontent.com/u-dont-existDOTcom/joel-articles/d2abf91c87330bf837e6dfc82a28d1c4ce726412/articles/healing-the-gut/humanize/fix-20261103/r30/substack/PAYLOAD-E.html",
+  "payload_sha256": "5c333dc0a954cfcf53975578713b8095889e7e8aa9bbaf4e78d1f48cc53e70fb",
+  "editor_words": 4039,
+  "editor_words_sha256": "58fc1ecbfd925a0ff55a2c8962c5026f46d7e090fc720d8212a99d5e687a6dd8",
+  "words_match": true,
+  "draft_updated_at": "2026-11-07T00:59:14.939Z",
+  "secret_link_cache_key": "gut-r30-e-1",
+  "rendered_check": "74 lines, 23,606 characters, SHA-256 3d370fb72207a426a65ff8e7214ea71e5c3228dd1a4de15dba5d24f7272ea674: EXPECTED-TEXT-E.txt exactly, in the built-in browser; 127 curled marks in the page and no straight one",
+  "opened": "only in the built-in browser, for the rendered check; the link goes to Joel in chat, to click himself (E353)"
+ },
+ "secret_link": "not recorded: anyone with it can read the draft; sent to Joel in chat",
+ "result": "waiting for his extension's result page"
+}

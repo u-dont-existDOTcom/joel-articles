@@ -125548,7 +125548,7 @@
         },
         {
           "path": "articles/healing-the-gut/humanize/fix-20261103/r30/README.md",
-          "sha256": "210d402d4f22f759ca804a765ab29c4dccb49b515c4ecce109ddcb0c8f830002",
+          "sha256": "e164ea4880467632a0956c94b4de9f596794ddecd885d7bd573b7f4fcdc761ec",
           "role": "humanization_working_record"
         },
         {
@@ -125669,6 +125669,11 @@
         {
           "path": "articles/healing-the-gut/humanize/fix-20261103/r30/substack/make_payload_e.py",
           "sha256": "25a9a079463d00975774204201b022e5772efe28bce9702b4a0093542406f3ed",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/healing-the-gut/humanize/fix-20261103/r30/substack/PASTED.json",
+          "sha256": "67b5801c12a9716fcf2406411273075df4514535f9a44edf649469f0c4f79c4d",
           "role": "humanization_working_record"
         }
       ]
