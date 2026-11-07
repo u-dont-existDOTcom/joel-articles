@@ -1,0 +1,50 @@
+{
+ "readers": [
+  "codex",
+  "haiku",
+  "sonnet"
+ ],
+ "sentences": [
+  "This is one side of the difference between spiritual bypassing and spiritual practice:\n\nBypassing reaches for an ultimate view – \"we are all One,\" \"I don't exist,\" \"this is all karma,\" \"everything is Love\" – while ignoring the person shaking in the corner.",
+  "Practice says love is here, so we make the room safer, call for help when needed, stop pretending, and hold the experience without becoming it.",
+  "That is tripsitting, shadow work, and the path becoming practical."
+ ],
+ "flagged": {
+  "1": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ],
+  "2": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ],
+  "3": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ]
+ },
+ "agreed": [
+  1,
+  2,
+  3
+ ],
+ "whole": {
+  "codex": [
+   "The paragraph moves neatly from framing to contrast to practical examples to an elevated closing, with an evenly assured, therapeutic voice. That construction can feel machine-polished, but it cannot establish authorship."
+  ],
+  "haiku": [
+   "The paragraph has an even, balanced cadence, with two long sentences of similar shape bracketed by a short setup and a clipped closer, and each beat ends on a neat phrase. Its voice is abstract and generalized, built on capitalized nouns and few particulars, around a symmetric contrast that a summarizing tag resolves."
+  ],
+  "sonnet": [
+   "Every line is a short, self-contained paragraph, and each is built as a setup, a contrast, and a summary, so the rhythm is even and the paragraph feels assembled from parallel units. The voice is general and explanatory, and it ends on a neat takeaway line rather than anything unresolved."
+  ]
+ },
+ "human_clean": [
+  "the person shaking in the corner",
+  "the person shaking in the corner",
+  "the person shaking in the corner"
+ ]
+}

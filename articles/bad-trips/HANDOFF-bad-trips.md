@@ -15,7 +15,7 @@ https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/bad-trips
 
 ## START HERE
 
-- **2026-11-07, the session's own resume (01:57 UTC).** When the Trip Feels Amazing read worse reworded; it stays. **First:** his round-12, round-15 and round-16 answers in; meanwhile CURRENT-STATE.md's next step ((Re)defining "Bad Trip").
+- **2026-11-07, the session's own resume (01:57 UTC, continued to 02:22).** When the Trip Feels Amazing stays; (Re)defining "Bad Trip" and Spiritual ≠ checked (two paragraphs on the later list after the panel); The Other Bypass's last paragraph cut (said once) and round 17 published (one card; Bad Trips Guide, Round 17, https://claude.ai/artifact/CvMSkHaspNRPiaiwhZHeLj). **First:** his round-12, 15, 16 and 17 answers in; meanwhile CURRENT-STATE.md's next step (Hang up the phone, then Why Bad Trips Tend to Happen).
 - **2026-11-07, the session's own resume (01:48 UTC).** When the Trip Feels Amazing checked (AI; 64% after the Human section; paragraphs 51% to 69%). **First:** his round-12, round-15 and round-16 answers in; meanwhile CURRENT-STATE.md's next step.
 - **2026-11-07, the session's own resume (01:37 UTC).** No Rash Actions' other paragraphs read worse reworded; they stay. **First:** his round-12, round-15 and round-16 answers in; meanwhile CURRENT-STATE.md's next step (the Don't list card, then When the Trip Feels Amazing).
 - **2026-11-07, the session's own resume (01:26 UTC).** Round 16's two cards are up (Bad Trips Guide, Round 16, https://claude.ai/artifact/87kndi4Pbkqz5ufwtZpXC5): No Rash Actions' write-it-down line (reads Human) and its lock line. **First:** his round-12, round-15 and round-16 answers in; meanwhile CURRENT-STATE.md's next step.

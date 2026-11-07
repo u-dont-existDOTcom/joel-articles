@@ -1,6 +1,6 @@
 # Bad Trips guide: current state
 
-Updated: 2026-11-07 (the session's own resume of 01:57 UTC).
+Updated: 2026-11-07 (the session's own resume of 01:57 UTC, continued to 02:22).
 badtrips guide at badtrips.u-dont-exist.com"; `experiments/t01-answers/JOEL-MESSAGE-20261103-1545.md`).
 
 ## Goal
@@ -241,10 +241,12 @@ dose, unit, timing and warning exactly as it went in, and his post updated with 
 
 - 2026-11-07 (the session's own resume at 01:57 UTC): When the Trip Feels Amazing's two clipped lines reworded read worse (70%, 80%); the section stays (later list).
 
+- 2026-11-07 (01:57 resume, continued): (Re)defining "Bad Trip" and Spiritual ≠ "Getting Your Ass Kicked" checked (100% alone; their first paragraphs Human after the Human section, the not-broken paragraph and the bypassing/practice pair AI in every wording, panel included: later list). The Other Bypass: its last paragraph cut as said once (B342); with the young-parts pair said in one breath it reads Human: round 17's card (Bad Trips Guide, Round 17, https://claude.ai/artifact/CvMSkHaspNRPiaiwhZHeLj; `review/r17/REVIEW-R17.md`; browser test 56 passed). `humanize/h21-20261107/RESULTS.md`.
+
 ## Current checkpoint
 
 - **In progress:** Turn 18. Psychological First Aid reads Human to the reminder; round 12's card (the practice case) is out. Stillness or Movement? turns the section AI in every form tried so far.
-- **Next step (updated on every push, so another account can pick up here):** his round-12, round-15 and round-16 answers in when they come (`apply_r12.py`, `apply_r15.py`, `apply_r16.py` from the exports; round 15's HELPER-GRIEF-CUT, if approved, records its fidelity-key losses in a FIDELITY-KEYS-R15.json owner_changes entry; round 16's lines keep their bold). Meanwhile, without stopping at a report (bad-trips-2026-11-06b): (Re)defining "Bad Trip" (its reading as the guide has it, the say-it-once look, then each paragraph after the Human base); the Don't list's repeats and the two danger lists as cards. The later list (no wording found yet): Get One Human Anchor's two scripts, Alone at 3 a.m. (50%), Stillness or Movement?, Psychological First Aid's two Human Low windows, Who to Contact's directories, the helper opening's "not there to" list and Zendo summary, the harm part's "I am God" paragraph and script lines, No Rash Actions' list of don'ts and its other three paragraphs (38% to 43%), When the Trip Feels Amazing (51% to 69%). His Pangram account is in the desktop app's browser pane (ask him to sign in when the history answers 401, and to open the app if it can't be reached). No whole-guide check until no window already seen reads AI or Low (E354).
+- **Next step (updated on every push, so another account can pick up here):** his round-12, round-15 and round-16 answers in when they come (`apply_r12.py`, `apply_r15.py`, `apply_r16.py` from the exports; round 15's HELPER-GRIEF-CUT, if approved, records its fidelity-key losses in a FIDELITY-KEYS-R15.json owner_changes entry; round 16's lines keep their bold). Meanwhile, without stopping at a report (bad-trips-2026-11-06b): Hang up the phone (Human High in the published post's check: read it as the guide has it), then Why Bad Trips Tend to Happen and on (each section as the guide has it, the say-it-once look, then each paragraph after the Human base); the Don't list's repeats and the two danger lists as cards. The later list (no wording found yet): Get One Human Anchor's two scripts, Alone at 3 a.m. (50%), Stillness or Movement?, Psychological First Aid's two Human Low windows, Who to Contact's directories, the helper opening's "not there to" list and Zendo summary, the harm part's "I am God" paragraph and script lines, No Rash Actions' list of don'ts and its other three paragraphs (38% to 43%), When the Trip Feels Amazing (51% to 69%), (Re)defining "Bad Trip"'s not-broken paragraph (47%), Spiritual ≠'s bypassing and practice pair (71%). His Pangram account is in the desktop app's browser pane (ask him to sign in when the history answers 401, and to open the app if it can't be reached). No whole-guide check until no window already seen reads AI or Low (E354).
 - **Waiting on Joel:** round 12's card.
 
 ## Remaining

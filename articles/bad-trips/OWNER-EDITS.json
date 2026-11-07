@@ -515,6 +515,18 @@
    "must_not_contain": [
     "not every option works in every country"
    ]
+  },
+  {
+   "id": "t21-leak-once",
+   "status": "applied",
+   "what": "The Other Bypass's last paragraph (\"Skip this inner work, and the trauma doesn't vanish ...\") cut: the same section's \"When shadow work is bypassed in meditation and therapy, it may appear in ordinary life without explaining itself.\" says it, his first two marriages his case; the section ends on where to begin (experiments/t21-other-bypass/apply_t21.py)",
+   "joel": "2026-11-06 19:43 UTC: \"i'd say make the cuts regardless of pangram if it makes the guide read better, that was what we were supposed to do already prior\"",
+   "must_not_contain": [
+    "Skip this inner work, and the trauma doesn't vanish."
+   ],
+   "must_contain_exact": [
+    "When shadow work is bypassed in meditation and therapy, it may appear in ordinary life without explaining itself."
+   ]
   }
  ]
 }
