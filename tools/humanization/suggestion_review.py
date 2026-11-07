@@ -57,6 +57,9 @@ REVIEW.json (the lane's build script writes it; see find_quote, block_text and c
       "owner_text" (optional): the new words are Joel's own (whose and where), so no receipt of mine is needed; his
                  version of a model's text goes in as he sent it, but stays the model's text, the worker's to fix later
                  (gate E373),
+      "sense" (needed, from reviews built 2026-11-07, on a stretch to edit he asked to rewrite on a model's text): what a
+                 fresh reader found reading it for sense (unclear words, claims that don't hold up, repeats) and how the
+                 card's tries handle each; shown as "What a fresh reader found" (gate bad-trips-2026-11-07i),
       "ask_because" (needed, from reviews built 2026-11-07, on an approve or leave card): why the change needs his
                  decision at all: "meaning: what it might change in what the text says", "downside: what is lost or
                  risked" or "his own: what he wrote himself and where"; shown on the card as "Why I'm asking". A tested
@@ -115,6 +118,11 @@ WHOSE_OK = re.compile(r'^\s*(his own|he asked)\s*:\s*\S.{8,}', re.I | re.S)
 # approve things that are clearly good / you should be learning what you actually need to ask my opinion on, like if meaning
 # might have changed or there's a downside to consider"): from this day an approve or leave card says why it goes to him
 ASK_FROM = '2026-11-07'
+# Gate bad-trips-2026-11-07i (Joel, 2026-11-07 15:38 UTC, on a teaching card whose paragraph said "turn a hard experience
+# into content" and "assume ... every fear was false": "uh, what does "content" mean? you didn't notice that immediately?"):
+# a stretch he is asked to rewrite on a model's text says what a fresh reader found when reading it for sense
+SENSE_FROM = '2026-11-07'
+SENSE_OK = re.compile(r'^\s*\S.{19,}', re.S)
 ASK_OK = re.compile(r'^\s*(meaning|downside|his own)\s*:\s*\S.{9,}', re.I | re.S)
 FINE_OK = re.compile(r'^\s*\S.{14,}', re.S)
 YOURS_WORDS = re.compile(r"\byour (?:own )?(?:words|sentences?|lines?|phrasings?|wording)\b|\byours to (?:change|fix|edit|"
@@ -424,6 +432,23 @@ def ask_problems(review, rec=None):
     return probs
 
 
+def sense_problems(review):
+    """Gate bad-trips-2026-11-07i. On pages built from SENSE_FROM, a stretch to edit that he asked to rewrite ("whose":
+    "he asked: ...", a model's text, not his own) says in "sense" what a fresh reader found when reading it for sense: each
+    unclear word, each claim that doesn't hold up, each thing said twice, and how the tries on the card handle them, or that
+    the read found none. His own text is exempt: it is his to word."""
+    built = review.get('built') or ''
+    if not re.match(r'\d{4}-\d{2}-\d{2}', built) or built[:10] < SENSE_FROM:
+        return []
+    return ['%s: a stretch he is asked to rewrite says in "sense" what a fresh reader found reading it for sense (unclear '
+            'words, claims that don\'t hold up, repeats) and how the tries handle each, or that it found none (gate '
+            'bad-trips-2026-11-07i; Joel, 2026-11-07 15:38 UTC: "uh, what does \"content\" mean? you didn\'t notice that '
+            'immediately?")' % s.get('id', '?')
+            for s in review['suggestions']
+            if s.get('advice') == 'edit' and re.match(r'^\s*he asked\s*:', s.get('whose') or '', re.I)
+            and not SENSE_OK.match(s.get('sense') or '')]
+
+
 def check(review, bl):
     """Problems with REVIEW against the article's blocks: [message]."""
     probs, ids = [], set()
@@ -515,6 +540,7 @@ def check(review, bl):
             probs.extend(keep_as_is.card_problems(s, texts, led))
     probs += provenance_problems(review)
     probs += ask_problems(review)
+    probs += sense_problems(review)
     return probs
 
 
@@ -769,7 +795,8 @@ def edit_html(s, bl, types):
     blocks_ = sorted({sp['block'] for sp in s['spans']})
     now = ''.join('<div class="dif side now">%s</div>' % esc(bl[i]['text']) for i in blocks_)
     rows = (([('Pangram read', s['reading'])] if s.get('reading') else [])
-            + ([('Pangram on the suggestion', s['tested'])] if s.get('tested') else []) + [('Why it\'s here', s['why'])])
+            + ([('Pangram on the suggestion', s['tested'])] if s.get('tested') else [])
+            + ([('What a fresh reader found', s['sense'])] if (s.get('sense') or '').strip() else []) + [('Why it\'s here', s['why'])])
     info = ''.join('<div class="row"><span class="lab">%s</span> <span>%s</span></div>' % (esc(k), linked(v)) for k, v in rows)
     info += '<div class="row advice"><span class="lab">My advice</span> <span>%s</span></div>' % linked(s['advice_note'])
     keep = s.get('keep_label') or 'keep it as it is'

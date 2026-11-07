@@ -1131,6 +1131,16 @@ def main():
                            n, re.I):
                 flag('REVIEW', 'O46 "one" where "a" or "an" would do (Joel 2026-10-30: "AI overuses "one" where humans often say "an" or "a""): '
                      'keep "one" only when the count is the point', s)
+            # O46 again (Joel, 2026-11-07 15:38 UTC, on the bad trips guide's "one intense night", after "an intense night" moved
+            # that window from AI High to AI Medium: "i told you "one" is high freq ai"): "one" before any word and a noun is a
+            # REVIEW, not only before the describing words above ("one intense night", "one grounded person"). It stays when the
+            # count is the point ("one hand on the heart and the other on the belly", "one or two things").
+            elif re.search(r"(?<!\bat )(?<!\bno )(?<!\bonly )(?<!\bjust )(?<!\bthe )(?<!\bthis )(?<!\bthat )(?<!\bevery )(?<!\bany )"
+                           r"\bone (?!of\b|or\b|another\b|more\b|by\b|at\b|to\b|day\b|way\b|time\b|side\b|hand\b|thing\b|who\b|that\b)"
+                           r"[a-z]+ (?!of\b|or\b|and\b|on\b|in\b|at\b|to\b|for\b|with\b|from\b|by\b|the\b|a\b|an\b|is\b|was\b|that\b|"
+                           r"who\b|which\b|can\b|will\b|would\b|should\b|could\b|may\b|might\b)[a-z]{3,}", n, re.I):
+                flag('REVIEW', 'O46 "one" where "a" or "an" would do (Joel 2026-11-07: "i told you "one" is high freq ai"; "one intense '
+                     'night" to "an intense night" took that window from AI High to Medium): "a" or "an", unless the count is the point', s)
             # X1 (Joel, 2026-11-03 18:59 UTC, on the bad trips guide's "“I saw it” does not create a duty to act. “It felt cosmic” does not
             # make obedience wise.": "let's make sure "X does not Y" is changed in general that's super ai, humans don't use that so much").
             # A statement that a thing does not, is not or cannot do something (not an instruction, not about a person) is a candidate a

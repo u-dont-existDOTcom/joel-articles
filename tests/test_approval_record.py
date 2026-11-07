@@ -106,6 +106,17 @@ class AskTests(unittest.TestCase):
         self.assertIn('7 approved, 0 revised, 0 rejected', p[0])
         self.assertIn('all 7 approved', p[0])
 
+    def test_a_stretch_he_rewrites_says_what_a_fresh_reader_found(self):
+        asked = {'id': 'T-1', 'type': 'teach', 'advice': 'edit', 'whose': 'he asked: Joel, 2026-11-07: "give me the top paragraphs"'}
+        rv = lambda cards, built='2026-11-07': {'built': built, 'suggestions': cards}
+        self.assertTrue(R.sense_problems(rv([dict(asked)])))
+        self.assertTrue(R.sense_problems(rv([dict(asked, sense='fine')])))
+        found = 'a fresh reader asked what "content" means here; my tries say "a post about it" instead'
+        self.assertEqual(R.sense_problems(rv([dict(asked, sense=found)])), [])
+        self.assertEqual(R.sense_problems(rv([dict(asked)], built='2026-11-06')), [])
+        own = dict(asked, whose='his own: his paragraph in the 2026-10-03 post')
+        self.assertEqual(R.sense_problems(rv([own])), [])
+
     def test_the_card_shows_why_im_asking(self):
         md = '# A heading\n\nThis is the first paragraph. It says a thing.\n'
         bl = R.blocks(md)

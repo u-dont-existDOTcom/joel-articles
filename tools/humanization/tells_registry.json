@@ -2950,6 +2950,19 @@
    ],
    "rule": "O68",
    "example": "In a 12-week trial, a CBD skin gel reached the blood at levels like oral CBD's but did no better than placebo."
+  },
+  {
+   "id": "W123",
+   "tell": "\"one\" before any word and a noun (\"one intense night\", \"one grounded person\"), not only before the describing words O46 listed",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "articles/bad-trips/experiments/t24-answers/joel-20261107-1538-r22-comments.txt",
+     "quote": "changed \"one\" to \"an\" and that part went from high conf ai to med conf ai (i told you \"one\" is high freq ai)"
+    }
+   ],
+   "rule": "O46",
+   "example": "Don't make huge decisions or diagnose yourself from one intense night. Sleep first, and talk it over with somebody steady."
   }
  ]
 }
