@@ -15,3 +15,27 @@ through PubMed on 2026-11-08.
 
 Without the reversed claims, the potassium subsection gives no reason for its target. That is the subsection's larger
 argument, so SC-106 asks him what he has seen potassium do in practice (lessons neuro-2026-11-08h and i).
+
+## SC-106 revised (x1108d, 2026-11-08, after his answer of 15:45 UTC)
+
+His answer on SC-106 was "revise", with GPT's critique of the card in the box ("look at what gpt is saying: Claude is
+correct about the basic electrophysiology of low extracellular potassium, but its proposed correction is still
+oversimplified"). Each of GPT's points, checked through PubMed the same day:
+
+| GPT's point | what the source shows | holds? |
+|---|---|---|
+| Kuwabara 2002 measured one patient's nerves in severe hypokalemia (2.1), axons hyperpolarized, back to normal at 4.5 | One patient with acquired hypokalemic paralysis; median, ulnar and tibial nerve axons, measured during the attack (serum potassium 2.1 mEq/L) and 20 hours later (4.5) ([Kuwabara et al. 2002](https://pubmed.ncbi.nlm.nih.gov/12210395/), doi 10.1002/mus.10169) | yes: peripheral nerves, one case, a level stress doesn't bring |
+| Gorji 2001: in hippocampal neurons, lowering potassium from 4 to 2 mM gave hyperpolarization, then depolarization and epileptiform discharges | Guinea-pig hippocampal slices: a transient hyperpolarization, then repolarization and depolarization, with epileptiform field potentials ([Gorji et al. 2001](https://pubmed.ncbi.nlm.nih.gov/11454323/), doi 10.1016/s0006-8993(01)02622-1) | yes, in guinea-pig brain slices |
+| The blood-brain barrier keeps the brain's extracellular potassium at about 2.5 to 3 mM whatever the blood does | The blood-brain barrier keeps the brain's interstitial potassium within tight limits, with its transporters adjusting to chronic changes in plasma potassium ([Hladky and Barrand 2016](https://pubmed.ncbi.nlm.nih.gov/27799072/), doi 10.1186/s12987-016-0040-3); in dogs, cisternal CSF potassium stayed the same while plasma potassium changed significantly ([Javaheri and Kazemi 1981](https://pubmed.ncbi.nlm.nih.gov/7302394/), doi 10.1016/0034-5687(81)90056-6); rabbit CSF holds at 2.8 to 2.9 ([Bradbury and Stulcová 1970](https://pubmed.ncbi.nlm.nih.gov/5500733/), doi 10.1113/jphysiol.1970.sp009128) | yes; the point the first card missed |
+| Reduced KCNQ function raises excitability and predisposes to seizures | A KCNQ2 mutation in benign familial neonatal convulsions; the mutant channel gave no current ([Biervert et al. 1998](https://pubmed.ncbi.nlm.nih.gov/9430594/), doi 10.1126/science.279.5349.403) | yes |
+| Brown 1983: adrenaline lowered blood potassium by about 0.82 mmol/L in six volunteers, a shift into cells, not a deficiency | Six normal volunteers: epinephrine at 15 to 30 times its resting level lowered plasma potassium by 0.82 ± 0.19 meq/L through beta-2 receptors ([Brown et al. 1983](https://pubmed.ncbi.nlm.nih.gov/6314140/), doi 10.1056/NEJM198312083092303) | yes |
+| Eating potassium-rich foods restores the KCNQ brakes during stress: unproven | With the brain's potassium held steady, neither the blood's drop nor diet sets the brakes. The one trial found on potassium-rich diets and mood compared two high-potassium diets, and the lower-salt one improved mood more ([Torres et al. 2008](https://pubmed.ncbi.nlm.nih.gov/18466657/), doi 10.1017/S0007114508959201) | yes |
+| Keep the foods as nutrition; the fixed amount needn't be for everyone, especially with impaired kidney function | More potassium lowered systolic pressure by 3.49 mm Hg across 22 trials, an effect seen with high blood pressure and not without; higher intake went with 24% less stroke; benefit "to most people without impaired renal handling of potassium" ([Aburto et al. 2013](https://pubmed.ncbi.nlm.nih.gov/23558164/), doi 10.1136/bmj.f1378). His article's kidney caution is at the top ("Electrolytes: Consult a doctor if you have kidney disease or heart conditions.") | yes; the amount and where the caution sits are his, for the coherence read |
+
+What GPT's own text does that SC-106b doesn't: it keeps the lab details (the first quieting, the bursts in slices), which
+the reader can't act on, and says the foods "support normal nerve function", which no source here shows for eating more.
+What the first card got wrong (lesson neuro-2026-11-08j): it stated one patient's peripheral nerves as what nerve cells
+do, assumed the potassium around the brain's neurons follows the blood's, and so swapped one simple story for its
+opposite. SC-106b (`build_x1108d.py`, page x1108d) cuts blocks 104 and 105, gives block 106 the reason that holds
+(blood pressure, with Strategy A's salts bringing sodium) and cuts block 115's second sentence; the fresh reader's
+needed read cut the sentence saying potassium won't calm the nerves (`needed/sp106b/READ.md`).

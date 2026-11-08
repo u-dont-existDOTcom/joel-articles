@@ -417,7 +417,7 @@ When the body still needs movement, keep it contained and boring: brush your tee
 
 ## For the Person Helping: Calm Anchor, Not Guru
 
-A good sitter is not there to win a philosophy debate, perform a rescue fantasy, impose an interpretation, or demonstrate spiritual advancement. Zendo-style harm reduction can be summarized as creating a safe space, sitting rather than guiding, talking through rather than down, and remembering that difficult does not automatically mean bad.
+A good sitter is not there to win a philosophy debate, perform a rescue fantasy, impose an interpretation, or demonstrate spiritual advancement. The Zendo Project, a harm-reduction group that offers peer support at festivals and other events to people having a hard time in an altered state, sums up its approach in four principles: creating a safe space, sitting with the person rather than guiding them, talking them through it rather than down from it, and remembering that difficult isn't necessarily bad.
 
 Crying, grieving, remembering, or touching a genuine wound calls for loving awareness. Interrogation, analysis every thirty seconds, and "bro, you're purging ancestral karma" while somebody white-knuckles the carpet are generally less helpful.
 
@@ -427,7 +427,6 @@ Stay present. If it helps, you can say to yourself: *This feeling is allowed to 
 
 - Ask simple questions: "Would less light help?" "Music or quiet?" "Closer or farther away?" "Water?" (in small sips) "Need the bathroom?"
 - Reflect without arguing: "That sounds terrifying." "I'm with you." "Let's breathe together."
-- Offer choices instead of commands.
 - Keep the room quiet, private, warm, and physically safe, and move anyone they're wary of somewhere else.
 - Call for help early when safety is slipping.
 - Translate metaphysics into shared safety values: "This feels sacred and huge. Sacred power protects life tonight."
@@ -847,7 +846,7 @@ When symptoms linger, name the pattern rather than collapsing everything into "I
 
 **No "another ceremony will fix this" reflex.**
 
-Don't take more psychedelics, cannabis, ketamine, intense breathwork, fast, push kundalini, deprive yourself of sleep, meditate or stretch to extremes, or schedule "another ceremony to fix it" while destabilized. Stabilize through sleep, food, routine, sober support, ordinary body, and ordinary world. Deep practice can wait until the floor is back.
+Don't take more psychedelics, cannabis, ketamine, intense breathwork, fast, push kundalini, deprive yourself of sleep, meditate or stretch to extremes, or schedule "another ceremony to fix it" while destabilized. Deep practice can wait until the floor is back.
 
 Then ask what actually happened. What was medical or environmental? What was emotional? What was old trauma? What was fantasy? What was useful? What changed behavior? What needs therapy, an apology, rest, or plain practical action?
 

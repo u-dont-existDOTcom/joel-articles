@@ -1,0 +1,105 @@
+{
+ "format": "joel-suggestion-review-v1",
+ "review_id": "bad-trips-r26",
+ "title": "Bad Trips Guide, Round 26",
+ "intro": [
+  "Round 26 (2026-11-08). What carries your round-24 versions, measured one thing at a time ([the results](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261105/articles/bad-trips/humanize/h33-20261108/RESULTS.md)). Your Give the Session without the Kenya story, the sitter joke and the redosing aside still reads Human, High ([its check](https://www.pangram.com/history/22506017-45a9-43c3-bcd2-ccb3c5732ed7)). Your anchor line and don'ts without the demon line still read Human, the don'ts at Medium ([its check](https://www.pangram.com/history/2a2e7aa4-5375-460b-8412-4480c5b5c3a5); the text starts with the first five minutes: that's the base each part is checked after, not a merge), so the demon line's break is what lifts them to High. My words in your frame read AI in all three tries on What Kind of Aftermath Is This?, the last written from a fresh reader's comparison of your Give the Session with my try ([its check](https://www.pangram.com/history/0ec38b6c-3395-42a6-b2ff-438096efe532), the paragraphs alone). So I stopped trying them and did what you asked first: say each thing once.",
+  "Two fresh readers read the stretches round 24 named against the whole guide ([What Kind of Aftermath Is This?](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261105/articles/bad-trips/humanize/h34-20261108/REPEATS-AFTERMATH.md), [the others](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261105/articles/bad-trips/humanize/h34-20261108/REPEATS-NAMED.md)). Most of what they found adds something no other line says (a remedy, a threshold, a script line), so it stays. Two lines only repeated what's said nearby and lose nothing, so they're gone: \"Stabilize through sleep, food, routine, sober support, ordinary body, and ordinary world.\" (your After the Storm lines say it) and the Do list's \"Offer choices instead of commands.\" (its own questions and your don'ts say it; [the rest of the reads](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261105/articles/bad-trips/humanize/h35-20261108/RESULTS.md)). And \"Zendo-style\" is explained where the guide first names it: \"The Zendo Project, a harm-reduction group that offers peer support at festivals and other events to people having a hard time in an altered state, sums up its approach in four principles: ...\"",
+  "Two cards, each a cut with a small downside."
+ ],
+ "git_file": "articles/bad-trips/review/r26/REVIEW-R26.html",
+ "article": {
+  "file": "articles/bad-trips/review/r26/PAGE-R26.md",
+  "sha256": "3f0edb8df55e0f6864f0a3d0fe23ec971bfa8367af08918a64ca350cb82c6bef"
+ },
+ "built": "2026-11-08",
+ "links": {
+  "guide": "https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261105/articles/bad-trips/GUIDE-SO-FAR.md",
+  "guide_label": "the guide as it stands",
+  "check": "https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261105/articles/bad-trips/humanize/h34-20261108/RESULTS.md",
+  "review": "https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261105/articles/bad-trips/review/r26/REVIEW-R26.md"
+ },
+ "types": {
+  "plain": {
+   "label": "Said plainly",
+   "about": "AI lines said plainly, each with its reason, the way he fixes his own windows"
+  },
+  "structure": {
+   "label": "Structure",
+   "about": "how the quick version and the long version split the guide, and where a part goes"
+  },
+  "repeat": {
+   "label": "Said twice",
+   "about": "a point the guide already makes elsewhere: one copy goes, the other stays"
+  },
+  "safety": {
+   "label": "Safety in one place",
+   "about": "a caution or call-for-help line said in several places, or one that changes nothing a reader does"
+  },
+  "question": {
+   "label": "Your call",
+   "about": "something only you can decide or know"
+  },
+  "teach": {
+   "label": "Teach me",
+   "about": "a paragraph that reads AI in every wording I tried, whose shape many stuck paragraphs share: how you would say it teaches me how to say them (you asked for these on 2026-11-07)"
+  }
+ },
+ "suggestions": [
+  {
+   "id": "HELPER-OPEN-CUT",
+   "type": "repeat",
+   "advice": "approve",
+   "title": "\"A good sitter is not there to ...\" said once",
+   "what": "The first sentence goes, so the section opens on the Zendo Project's four principles.",
+   "why": "Your anchor line and don'ts under Don't now say three of its four points: \"win a philosophy debate\" is your \"don't try to win an argument with their visions ...\", \"impose an interpretation\" is your \"While many interpretations are possible ...\" and \"Don't force ... an insight on them\", and \"demonstrate spiritual advancement\" is your \"not the witch doctor guru who knows magic spells\".",
+   "stays": "The Zendo sentence after it, and your anchor line and don'ts.",
+   "deciding": "Approve cuts the sentence; Reject keeps it as the section's first line.",
+   "advice_note": "Approve: it's the opening your new Don't section repeats.",
+   "ask_because": "downside: its fourth point, \"perform a rescue fantasy\" (the helper casting themselves as the hero who saves the person), is said nowhere else in the guide",
+   "found_by": "a fresh reader's read of what this paragraph's reader needs, after your round-24 versions went in",
+   "edits": [
+    {
+     "block": 233,
+     "before": "A good sitter is not there to win a philosophy debate, perform a rescue fantasy, impose an interpretation, or demonstrate spiritual advancement. The Zendo Project, a harm-reduction group that offers peer support at festivals and other events to people having a hard time in an altered state, sums up its approach in four principles: creating a safe space, sitting with the person rather than guiding them, talking them through it rather than down from it, and remembering that difficult isn't necessarily bad.",
+     "after": "The Zendo Project, a harm-reduction group that offers peer support at festivals and other events to people having a hard time in an altered state, sums up its approach in four principles: creating a safe space, sitting with the person rather than guiding them, talking them through it rather than down from it, and remembering that difficult isn't necessarily bad."
+    }
+   ],
+   "spans": [
+    {
+     "block": 233,
+     "start": 0,
+     "end": 144
+    }
+   ],
+   "receipt": "articles/bad-trips/humanize/h34-20261108/HELPER-OPEN-AFTER.receipt.json"
+  },
+  {
+   "id": "AFT-TRAUMA-ONCE",
+   "type": "repeat",
+   "advice": "approve",
+   "title": "What Kind of Aftermath Is This?: the trauma line said once",
+   "what": "The \"Trauma material\" line goes from the list.",
+   "why": "Abuse Memories, Recovered Memories, and Certainty says all of it: \"Return to it after sleep with a trauma-informed therapist, integration specialist, or grounded person you trust.\" and \"Don't confront anybody while intoxicated or destabilized.\" When to bring in help is in \"Bring in mental-health support when:\" (\"The trauma material is bigger than the room can hold.\").",
+   "stays": "The list's other eight lines, and Abuse Memories as it is.",
+   "deciding": "Approve cuts the line; Reject keeps it in the list.",
+   "advice_note": "Approve: the fresh reader found nothing in it that Abuse Memories doesn't say.",
+   "ask_because": "downside: the list of kinds of aftermath no longer names trauma, so a reader with old trauma coming up afterward finds it under Abuse Memories instead",
+   "found_by": "a fresh reader's repeats read of the section against the whole guide (linked in the introduction)",
+   "edits": [
+    {
+     "block": 437,
+     "before": "Trauma material: trauma-informed therapy or integration support, without immediate confrontation while destabilized.",
+     "after": ""
+    }
+   ],
+   "spans": [
+    {
+     "block": 437,
+     "start": 0,
+     "end": 116
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,56 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-08",
+ "text_sha256": "cfff37b0b060b12cb0011a67d8d6e68a411e1ebbbf48f29e161d41947862903a",
+ "text": "The Strategy: Eat 2 large potatoes and 2 cups of greens every single day.",
+ "section": "1. Electrolytes (Choose Your Path)",
+ "reader": "someone with trauma or in withdrawal who is anxious, wired, numb or foggy, following the protocol's diet and electrolyte steps and wanting to know why each one is there",
+ "sentences": [
+  {
+   "s": "The Strategy: Eat 2 large potatoes and 2 cups of greens every single day.",
+   "his": true
+  }
+ ],
+ "checked": [
+  {
+   "point": "eating potassium saturates your cells and lowers your resting voltage, so you are harder to trigger",
+   "found": "the brain keeps the potassium around its neurons within tight limits whatever the blood does (Hladky and Barrand 2016), and where more potassium does reach excitable cells it moves them toward firing (Campese and Adenuga 2016)",
+   "still_needed": "no: the claim doesn't hold, so the sentence is cut",
+   "fate": "cut"
+  }
+ ],
+ "placement": "where the block is now (block 115); its place in the section is unchanged",
+ "opens": {
+  "first_sentence": "The Strategy: Eat 2 large potatoes and 2 cups of greens every single day.",
+  "why_reading": "they learn which foods reach the target"
+ },
+ "same_point": "none: read the section from its heading to the next for the same point; it appears once",
+ "needed": {
+  "reader": "none of mine: the text left is his own sentence, unchanged",
+  "unneeded": [],
+  "kept": {}
+ },
+ "questions": {
+  "Q1": "PASS: each sentence opens on its point",
+  "Q2": "N/A: no instruction here, or the one instruction says what it is for",
+  "Q3": "PASS: each thing is named exactly",
+  "Q4": "PASS: each unfamiliar term is said in plain words where it is first used",
+  "Q5": "PASS: each \"and\", \"so\" and \"but\" turns on the clause before it",
+  "Q6": "PASS: the claim, then what the evidence shows, then its limit",
+  "Q7": "PASS: each fact is about the reader's own symptom or the tool they are deciding on",
+  "Q8": "N/A: no group or list inside this paragraph",
+  "Q9": "PASS: one step a clause, with the small words that carry the relation kept"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ },
+ "his_whose": "his own: block 115's first sentence, as his post has it"
+}
