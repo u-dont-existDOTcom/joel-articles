@@ -17,5 +17,15 @@ elsewhere, each in the place the reader uses it:
 | When the Trip Feels Amazing's "Have I slept? Sleep comes before mission." | the harm part's script ("no mission, sleep first") | it is the blissful person's own question; the script is the helper's line to someone talking of harm |
 | Spiritual ≠'s practice line and The Other Bypass's pointer to his Inner Child and Self-Hypnosis guides | the helper's self-talk, the Do list, Inner Signal App to the Rescue! | each turns the section's argument into what to do, or points to his guides where reparenting comes up |
 
-So nothing in these sections is cut. Not read again since round 24: the medical part (When to Bring In Outside Help to Some
-Remedies Require More Caution), Psychological First Aid with Stillness or Movement?, the Do list, and the Appendix.
+So nothing in these sections is cut.
+
+Then the same read for the Shadow Work opening, Psychological First Aid, Stillness or Movement? and the helper's opening
+and Do list (`REPEATS-FIRST-FIVE.md`). Every point is said elsewhere in four items: his "If they want to go confront
+somebody, that can wait." and "They're feeling overwhelmed, so dim the lights, ..." (his first five minutes, Human: they
+stay, and the copies elsewhere are each where their own reader acts), Stillness or Movement?'s "When the nervous system
+is on fire, love becomes practical first." (the reason for the order before it: it stays), and the Do list's "Offer
+choices instead of commands.", which the list's own first line does with its questions and his don'ts and Give the
+Session say: cut (`dedup_cut.py`; no key, kept line or owner edit lost). The Do list's "Call for help early when safety
+is slipping." stays where the helper acts on it (`OWNER-LOCKS.json`). Fidelity R24 PASS, keep-as-is 0 problems, owner
+edits 63 pass; 12,387 to 12,381 words. Not read again since round 24: the medical part (When to Bring In Outside Help to
+Some Remedies Require More Caution) and the Appendix.

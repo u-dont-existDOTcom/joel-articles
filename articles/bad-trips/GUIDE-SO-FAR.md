@@ -427,7 +427,6 @@ Stay present. If it helps, you can say to yourself: *This feeling is allowed to 
 
 - Ask simple questions: "Would less light help?" "Music or quiet?" "Closer or farther away?" "Water?" (in small sips) "Need the bathroom?"
 - Reflect without arguing: "That sounds terrifying." "I'm with you." "Let's breathe together."
-- Offer choices instead of commands.
 - Keep the room quiet, private, warm, and physically safe, and move anyone they're wary of somewhere else.
 - Call for help early when safety is slipping.
 - Translate metaphysics into shared safety values: "This feels sacred and huge. Sacred power protects life tonight."
