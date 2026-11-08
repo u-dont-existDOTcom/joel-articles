@@ -1,29 +1,22 @@
 # Bad Trips guide: questions for Joel
 
-Updated 2026-11-08 (turn 26, his round-24 answers of 15:01 UTC in; round 26 out with the session's resume of 15:52 UTC). Status: **open** = waiting on you, **next** = I do it once you
+Updated 2026-11-08 (turn 26, his round-24 answers of 15:01 UTC in; round 26 out with the session's resume of 15:52 UTC and answered at 16:48 UTC; round 25 answered at 16:55 UTC). Status: **open** = waiting on you, **next** = I do it once you
 answer, **done** = answered.
 Answer under an item's number in a message.
 
 ## Open
 
-1. **open — Round 25: one card.** Why Bad Trips Tend to Happen is now said once under your (Re)defining "Bad Trip", and
-   its line "Every hard experience can feel like a profound lesson. But sometimes the lesson is just to lower the dose or
-   stop the practice ..." repeats what the first five minutes, your Give the Session and your (Re)defining say. It holds
-   a warning the fidelity check protects, so its cut is your call. On round 25's page (Bad Trips Guide, Round 25,
-   https://claude.ai/artifact/3dKpHXmFwMSLYxDE2i9yiL; the card as text:
-   [REVIEW-R25.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261105/articles/bad-trips/review/r25/REVIEW-R25.md)).
-
-2. **open — Round 26: two cards, each a cut that says a point once.** For the Person Helping's first line ("A good sitter
-   is not there to win a philosophy debate, perform a rescue fantasy, ...") repeats your new anchor line and don'ts but
-   for "perform a rescue fantasy"; and What Kind of Aftermath Is This?'s "Trauma material" line repeats Abuse Memories.
-   On round 26's page (Bad Trips Guide, Round 26, https://claude.ai/artifact/HFHzRb4EuRmMu6J3EmZFn1; the cards as text:
-   [REVIEW-R26.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261105/articles/bad-trips/review/r26/REVIEW-R26.md)).
+Nothing open right now.
 
 ## Your tasks
 
 None right now.
 
 ## Decisions on record
+
+His round-25 answer of 2026-11-08 16:55 UTC, on [round 25's card](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261105/articles/bad-trips/review/r25/REVIEW-R25.md): WHY-LESSON-CUT approved with no comment and in (`review/r25/apply_r25.py`): the lesson line that came over with Why Bad Trips Tend to Happen's merge is cut, warning W102 an owner change (`humanize/h01/FIDELITY-KEYS-R25.json`).
+
+His round-26 answers of 2026-11-08 16:48 UTC, on [round 26's cards](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261105/articles/bad-trips/review/r26/REVIEW-R26.md): both approved with no comment and in the guide (`review/r26/apply_r26.py`): For the Person Helping's first sentence cut, so the section opens on the Zendo Project's four principles, and the aftermath list's trauma line cut, as Abuse Memories says it.
 
 His round-24 answers of 2026-11-08 15:01 UTC, on [round 24's cards](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261105/articles/bad-trips/review/r24/REVIEW-R24.md):
 both teaching cards revised with his own versions, all four in as he sent them ("themself" fixed): the reminder, the

@@ -27,5 +27,15 @@ is on fire, love becomes practical first." (the reason for the order before it: 
 choices instead of commands.", which the list's own first line does with its questions and his don'ts and Give the
 Session say: cut (`dedup_cut.py`; no key, kept line or owner edit lost). The Do list's "Call for help early when safety
 is slipping." stays where the helper acts on it (`OWNER-LOCKS.json`). Fidelity R24 PASS, keep-as-is 0 problems, owner
-edits 63 pass; 12,387 to 12,381 words. Not read again since round 24: the medical part (When to Bring In Outside Help to
-Some Remedies Require More Caution) and the Appendix.
+edits 63 pass; 12,387 to 12,381 words. And last the medical part and the Appendix (`REPEATS-MEDICAL.md`): of about 320 items, about 75 make a point another
+line makes, and 16 say nothing another line doesn't. Twelve of those are the call-for-help thresholds: the lists at the
+top ("Call medics while acting for:", "Bring in mental-health support when:") and the same threshold again in the
+section where the reader acts on it (Active Seizure's "Call medics for a convulsive seizure lasting about five
+minutes ...", the aftermath list's "professional help when severe or prolonged"). That is the guide's design since round
+1: the lists are the one place he asked for, and each threshold also stays where the reader acts on it
+(`OWNER-LOCKS.json`). The other four route the reader (the brain-damage order's "If this is MDMA, move to magnesium
+chloride ...", the Appendix's "use the triage app first") or give a remedy's caution in its own profile (DMSO's seizure
+evidence, beach morning glory's missing MDMA data). Nothing cut.
+
+So the repeats pass that started with round 24's stretches is done for the whole guide: two lines and one sentence cut,
+and round 26's two cards, which he approved at 16:48 UTC.
