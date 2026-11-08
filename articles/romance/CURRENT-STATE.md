@@ -119,13 +119,23 @@ with his OK and no email.
   version (46 changes, 88 paragraphs) has no window a smaller check read AI or Low; drafts A and B were re-pasted and
   their secret links rendered the built text exactly (`whole/DRAFTS.json`). The whole-article check went to him.
 
+- 2026-11-08 (his message of 16:47 UTC): his yes to 366's fix ("they can put it to work.", #137) is in. His
+  whole-article check read both halves Human Written (A [0.17% AI](https://www.pangram.com/feed/87029c8c-313d-436c-b885-e76466096da6),
+  B [~0%](https://www.pangram.com/feed/5b03d47c-4290-42e5-8693-688418a08a68), document confidence High), with one AI Low
+  and seven Low windows (`humanize/fix-20261107/r27/checks/RESULTS-whole-r27.json`). Six of the seven sections they sat
+  in now read Human with no Low (`humanize/fix-20261107/r28/`, #144 to #148, #150) and are in the fixed version; "Slow &
+  steady" 181 read AI in both my tries (#149, #151) and went to him on the third marking page
+  ([the page](https://claude.ai/artifact/CjEzvMG4wFZDxmqrvwjaGC), `review/teach-20261107/REVIEW-T3.md`), with a question
+  on the college friend his new 369 retells from Labels. Push access granted; pull request 401 holds both turns' work
+  (labelled "hold": this session's auto mode refused a self-merge into main).
+
 ## Next step
 
-His Pangram extension on the two drafts' secret links (the whole-article check), then: read both results back from his
-Pangram history by SHA-256, write the two article predictions (`r27/README.md`) and results, and fix any window that
-reads AI or Low. Open for him: 366's "And even better than simply suppressing it, I agree with Esther Perel" (the fix
-adding "they can put it to work." read as well, #137; his words stay until he says yes). Then his post is updated
-with his OK (no email), with 366's link to Esther Perel's post carried into the editor and the "Updated" date set.
+His answers on the third marking page (181 and the college friend). With them: 181 into the fixed version, checked in its
+section; the drafts re-pasted with every change since r27 (#137, #144 to #148, #150, his answers) and their secret links
+made, for one more whole-article check by him. Then his post is updated with his OK (no email), 366's link to Esther
+Perel's post carried into the editor and the "Updated" date set. Waits on him: the merge of pull request 401, and the
+third page's answers.
 
 ### Before 2026-11-07 (the registered master, as recorded then)
 

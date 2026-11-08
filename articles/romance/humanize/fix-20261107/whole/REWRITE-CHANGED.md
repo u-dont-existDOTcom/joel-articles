@@ -16,7 +16,7 @@ I had something sort of like that with H., although ours was much deeper than wh
 
 ## 4. Labels (live 38, 39)
 
-Here’s the funny thing many people don’t understand: labels don’t create commitment, but they can still expose whether two people think they’re in the same relationship, which matters a lot.
+Here’s the funny thing about labels: you can call someone your boyfriend or girlfriend for years and still have one foot out the door, but the word at least shows pretty fast whether you both think you’re in the same relationship.
 
 True commitment grows out of relational depth, not a label: if we spend hours telling each other our deepest longings, fears, and problems, I’ll naturally be ready to help when you need me. I don’t need to promise that on paper. If someone says “I love you, I feel you, I’m here for you,” yet they hardly ever talk to you about what matters, that’s a red flag.
 
@@ -38,7 +38,7 @@ I don’t need the answer to be that what I provide has nothing to do with it. M
 
 ## 8. It always goes deeper (live 72, 73)
 
-I got a smaller and much less romantic test later. Bee gave me some shoes to try that didn’t fit. I wore them for a day, and somehow my knee ended up messed up for about a month. She did nurse me, but a bit reluctantly. She also kept suggesting it was partly in my head, or not really that bad. I get why, since neither of us could believe one day in the wrong shoes could do that, but it still felt dismissive, like part of her just wanted my knee to be fine.
+I got a smaller and much less romantic test later. Bee gave me some shoes to try that didn’t fit. I wore them for a day, and somehow my knee ended up messed up for about a month. She did nurse me, but a bit reluctantly. She also kept suggesting it was partly in my head, or not really that bad. I get it, neither of us could believe one day in the wrong shoes could do that, but it still felt like she was brushing me off because she wanted my knee to be fine.
 
 Before me, Bee had also stayed with a boyfriend who was totally broke and crazy and supported him for a while. Later she blamed herself for staying through that, and I agree. Helping carry somebody through a temporary incapacity, like my knee, is different from becoming the permanent support system for a man who won’t take responsibility. Some women are fixer types, which can create the opposite pattern.
 
@@ -86,17 +86,17 @@ If she says, “Can you talk less about your exes?” I’m happy to, since mayb
 
 ## 16. Anti-PTSD (live 157)
 
-That dynamic alone isn’t necessarily the main problem: a lot of women have seen me that way. The question is whether they can hold it lightly, playfully, and curiously, or whether it turns into something all-enveloping, and they start taking everything they feel about their dad out on me as if I’m him. With Bee, the main issues were the BPD and that her aunts had badly witchcrafted her as a child. She would tell you the same.
+A lot of women have seen me that way, and honestly that part can be fine. The question is whether they can hold it lightly, playfully, and curiously, or whether it turns into something all-enveloping, and they start taking everything they feel about their dad out on me as if I’m him. With Bee, the main issues were the BPD and that her aunts had badly witchcrafted her as a child. She would tell you the same.
 
 ## 17. S6 (live 102, 103)
 
 Modern life barely has an intermediate stage between being interested in somebody and getting sexually entangled. One old example is bundling, a mostly extinct practice now especially associated with the Amish, even though it existed much more widely. Courting couples could spend the night together in bed, usually clothed, with the idea that they could talk and be close without having sex, which sounds a lot like the missing middle I’m talking about.
 
-Well, it didn’t exactly solve the problem. In late-eighteenth-century New England, where lots of couples bundled, 30–40 percent of brides were already pregnant on their wedding day, so it wasn’t a very reliable way to keep courtship nonsexual. I’m not trying to bring bundling back. I just think we need some stage that everybody recognizes, where two people can explore tenderness and attraction without immediately sliding toward sex, moving in together, and a life bond.
+Well, it didn’t exactly solve the problem: in late-1700s New England, where lots of couples bundled, 30–40 percent of brides were already pregnant on their wedding day. I’m not trying to bring bundling back. I just think we need some stage that everybody recognizes, where two people can explore tenderness and attraction without immediately sliding toward sex, moving in together, and a life bond.
 
 ## 18. Holding up a leaky dam (live 175, 176)
 
-Once I’m attached, “I’m taking a chance on her” starts turning into “she’s the right person” after we’ve been together for a while. Based on what? Sometimes I actually learned something, and sometimes nothing changed except that now I’m attached, so the new certainty is just harder for me to question.
+Once I’m attached, “I’m taking a chance on her” starts turning into “she’s the right person” after we’ve been together for a while. Based on what? Sometimes I actually learned something about her, but other times all that changed is I’m attached now, and that just makes me less likely to question it.
 
 If I have sex with somebody quickly, that’s a reason not to move in quickly too, and to keep seeing friends, have some kind of community around the relationship, and pick actual dates to ask how it’s going. Moving in together right away is basically getting into a common-law marriage without discussing it, and it’s too easy for me to assume the relationship is going well just because we’re already entangled.
 
@@ -202,11 +202,13 @@ She’s also collected a ton of stories from students who say the effects spille
 
 Brad and Pam Keene are the couple I really liked as an example of how her method works. Pam explained that her Kundalini process completed while they were making love and opened her into a lasting universal-consciousness awakening. She later helped Brad awaken too, so the marriage itself became part of the path.
 
-## 36. S18 (live 331)
+## 36. S18 and S19 with 330 to 336 (live 331)
 
-Let me show you how this looked for me. I’ve noticed in my own relationships that whenever a serious issue arises, both of us tend to turn to our separate circles of friends for support. Then I resent the one-sided story she’s telling, she resents the one-sided story I’m telling. Some of the friends may even be exes who want us to break up, and eventually neither of us wants to talk to the other’s friends anymore. That’s a pretty terrible time to be trying to run the rest of life with two people. If one person goes down, the other becomes the whole backup system for housing, money, children, health, and emotional crises. Who even has time for the relationship itself at that point?
+Here’s how this looks for me: whenever something serious comes up in my relationships, we each run to our own friends for support. Then I resent the one-sided story she’s telling, she resents the one-sided story I’m telling. Some of the friends may even be exes who want us to break up, and eventually neither of us wants to talk to the other’s friends anymore. That’s a pretty terrible time to be trying to run the rest of life with two people. If one person goes down, the other becomes the whole backup system for housing, money, children, health, and emotional crises. Who even has time for the relationship itself at that point?
 
-## 37. S19 (live 335)
+## 37. S18 and S19 with 330 to 336 (live 334, 335)
+
+Having the same confidant creates the opposite problem: now you may not have a release valve when you want privacy from your partner, so neither way is perfect.
 
 If you do have separate confidants, you need enough emotional maturity to remember they will automatically be biased toward you. They’re only hearing your side, usually while you’re upset, and they may just be trying to protect you, so take what they say with a grain of salt.
 

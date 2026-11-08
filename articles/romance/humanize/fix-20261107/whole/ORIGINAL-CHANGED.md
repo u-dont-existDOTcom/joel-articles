@@ -206,11 +206,13 @@ She has also collected a ton of stories from students who say the effects spill 
 
 Brad and Pam Keene are the example I really like. Pam says her Kundalini process completed while they were making love and opened into a lasting universal-consciousness awakening. She later helped Brad awaken too, so the marriage itself became part of the path.
 
-## 36. S18 (live 331)
+## 36. S18 and S19 with 330 to 336 (live 331)
 
 Let me show you how this looked for me. I’ve noticed in my own relationships that whenever a serious issue arises, both of us tend to turn to our separate circles of friends for support. Then I resent the one-sided story she’s telling, she resents the one-sided story I’m telling. Some of the friends may even be exes who want us to break up, and eventually neither of us wants to talk to the other’s friends anymore. That’s a pretty terrible time to be trying to run the rest of life with two people. Housing, money, children, health, emotional crises—if one person goes down, the other becomes the whole backup system. Who even has time for the relationship itself at that point?
 
-## 37. S19 (live 335)
+## 37. S18 and S19 with 330 to 336 (live 334, 335)
+
+Having the same confidant creates the opposite problem: now you may not have a release valve when you want privacy from your partner. There isn’t one perfect arrangement.
 
 If you do have separate confidants, you need enough emotional maturity to remember they will automatically be biased toward you. Take what they say with a grain of salt. They are hearing a partial story, usually while you’re upset, and they may be trying to protect you rather than understand the relationship fairly.
 

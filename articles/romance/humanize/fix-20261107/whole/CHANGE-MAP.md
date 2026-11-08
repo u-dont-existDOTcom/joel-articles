@@ -1,6 +1,6 @@
 # The fixed version: every changed paragraph
 
-The live post ("Romance Advice I Wish My Parents Taught Me", updated Aug 27, 2026) with each section's and spot's best tested text in place (`assemble.py`, `build.py`). Paragraph numbers are the post page's paragraph list (`LIVE-INDEX.txt`). S2 and S17 (on the marking page), the three stretches that share S2's pattern and "Two Pillars" 332 (owner lock) are as the live post has them. 46 changes, 88 live paragraphs.
+The live post ("Romance Advice I Wish My Parents Taught Me", updated Aug 27, 2026) with each section's and spot's best tested text in place (`assemble.py`, `build.py`). Paragraph numbers are the post page's paragraph list (`LIVE-INDEX.txt`). S2 and S17 (on the marking page), the three stretches that share S2's pattern and "Two Pillars" 332 (owner lock) are as the live post has them. 46 changes, 89 live paragraphs.
 
 ## 1. S1 (live 28)
 
@@ -42,7 +42,7 @@ Read by romance-low-sit#100: [result](https://www.pangram.com/history/f3ca48e1-6
 
 ## 4. Labels (live 38, 39)
 
-Read by romance-low-labels#84: [result](https://www.pangram.com/history/c825d7cc-e2be-4a34-a974-f6c3f34a4ad5).
+Read by romance-low-labels#144: [result](https://www.pangram.com/history/ea7c7aeb-b319-445f-bada-226e7578a95a).
 
 **Live:**
 
@@ -51,7 +51,7 @@ Read by romance-low-labels#84: [result](https://www.pangram.com/history/c825d7cc
 
 **New:**
 
-> Here’s the funny thing many people don’t understand: labels don’t create commitment, but they can still expose whether two people think they’re in the same relationship, which matters a lot.
+> Here’s the funny thing about labels: you can call someone your boyfriend or girlfriend for years and still have one foot out the door, but the word at least shows pretty fast whether you both think you’re in the same relationship.
 > True commitment grows out of relational depth, not a label: if we spend hours telling each other our deepest longings, fears, and problems, I’ll naturally be ready to help when you need me. I don’t need to promise that on paper. If someone says “I love you, I feel you, I’m here for you,” yet they hardly ever talk to you about what matters, that’s a red flag.
 
 ## 5. Spirituality to bypass intimacy (his S2) (live 60, 61, 62)
@@ -84,7 +84,7 @@ Read by romance-s3#3: [result](https://www.pangram.com/history/701382eb-aa2c-4de
 
 ## 7. It always goes deeper (live 70)
 
-Read by romance-low-deeper#97: [result](https://www.pangram.com/history/f0ee02fc-0f44-4170-bd89-4cc90aecf76d).
+Read by romance-low-deeper#145: [result](https://www.pangram.com/history/7a41304d-d71b-4229-bb5b-6fd33a7ba833).
 
 **Live:**
 
@@ -96,7 +96,7 @@ Read by romance-low-deeper#97: [result](https://www.pangram.com/history/f0ee02fc
 
 ## 8. It always goes deeper (live 72, 73)
 
-Read by romance-low-deeper#97: [result](https://www.pangram.com/history/f0ee02fc-0f44-4170-bd89-4cc90aecf76d).
+Read by romance-low-deeper#145: [result](https://www.pangram.com/history/7a41304d-d71b-4229-bb5b-6fd33a7ba833).
 
 **Live:**
 
@@ -105,7 +105,7 @@ Read by romance-low-deeper#97: [result](https://www.pangram.com/history/f0ee02fc
 
 **New:**
 
-> I got a smaller and much less romantic test later. Bee gave me some shoes to try that didn’t fit. I wore them for a day, and somehow my knee ended up messed up for about a month. She did nurse me, but a bit reluctantly. She also kept suggesting it was partly in my head, or not really that bad. I get why, since neither of us could believe one day in the wrong shoes could do that, but it still felt dismissive, like part of her just wanted my knee to be fine.
+> I got a smaller and much less romantic test later. Bee gave me some shoes to try that didn’t fit. I wore them for a day, and somehow my knee ended up messed up for about a month. She did nurse me, but a bit reluctantly. She also kept suggesting it was partly in my head, or not really that bad. I get it, neither of us could believe one day in the wrong shoes could do that, but it still felt like she was brushing me off because she wanted my knee to be fine.
 > Before me, Bee had also stayed with a boyfriend who was totally broke and crazy and supported him for a while. Later she blamed herself for staying through that, and I agree. Helping carry somebody through a temporary incapacity, like my knee, is different from becoming the permanent support system for a man who won’t take responsibility. Some women are fixer types, which can create the opposite pattern.
 
 ## 9. The window of clarity (live 107, 108)
@@ -209,7 +209,7 @@ Read by romance-low-ideal#143: [result](https://www.pangram.com/history/1ef0b91c
 
 ## 16. Anti-PTSD (live 157)
 
-Read by romance-low-ptsd#73: [result](https://www.pangram.com/history/30375f3d-e879-410d-bf8b-cc790ab4ef67).
+Read by romance-low-ptsd#147: [result](https://www.pangram.com/history/c311d29f-08d7-45db-8835-c41da56fb9db).
 
 **Live:**
 
@@ -217,11 +217,11 @@ Read by romance-low-ptsd#73: [result](https://www.pangram.com/history/30375f3d-e
 
 **New:**
 
-> That dynamic alone isn’t necessarily the main problem: a lot of women have seen me that way. The question is whether they can hold it lightly, playfully, and curiously, or whether it turns into something all-enveloping, and they start taking everything they feel about their dad out on me as if I’m him. With Bee, the main issues were the BPD and that her aunts had badly witchcrafted her as a child. She would tell you the same.
+> A lot of women have seen me that way, and honestly that part can be fine. The question is whether they can hold it lightly, playfully, and curiously, or whether it turns into something all-enveloping, and they start taking everything they feel about their dad out on me as if I’m him. With Bee, the main issues were the BPD and that her aunts had badly witchcrafted her as a child. She would tell you the same.
 
 ## 17. S6 (live 102, 103)
 
-Read by romance-s6#30: [result](https://www.pangram.com/history/f0e18831-0899-43ef-a814-6d986f0e33d8).
+Read by romance-s6#146: [result](https://www.pangram.com/history/85a85315-7581-424f-a505-287ec35515ba).
 
 **Live:**
 
@@ -231,11 +231,11 @@ Read by romance-s6#30: [result](https://www.pangram.com/history/f0e18831-0899-43
 **New:**
 
 > Modern life barely has an intermediate stage between being interested in somebody and getting sexually entangled. One old example is bundling, a mostly extinct practice now especially associated with the Amish, even though it existed much more widely. Courting couples could spend the night together in bed, usually clothed, with the idea that they could talk and be close without having sex, which sounds a lot like the missing middle I’m talking about.
-> Well, it didn’t exactly solve the problem. In late-eighteenth-century New England, where lots of couples bundled, 30–40 percent of brides were already pregnant on their wedding day, so it wasn’t a very reliable way to keep courtship nonsexual. I’m not trying to bring bundling back. I just think we need some stage that everybody recognizes, where two people can explore tenderness and attraction without immediately sliding toward sex, moving in together, and a life bond.
+> Well, it didn’t exactly solve the problem: in late-1700s New England, where lots of couples bundled, 30–40 percent of brides were already pregnant on their wedding day. I’m not trying to bring bundling back. I just think we need some stage that everybody recognizes, where two people can explore tenderness and attraction without immediately sliding toward sex, moving in together, and a life bond.
 
 ## 18. Holding up a leaky dam (live 175, 176)
 
-Read by romance-low-dam#70: [result](https://www.pangram.com/history/243bdd90-6375-4104-b7e3-c9d3035dba16).
+Read by romance-low-dam#148: [result](https://www.pangram.com/history/600b344d-da2d-4b16-9776-dff00def702d).
 
 **Live:**
 
@@ -244,7 +244,7 @@ Read by romance-low-dam#70: [result](https://www.pangram.com/history/243bdd90-63
 
 **New:**
 
-> Once I’m attached, “I’m taking a chance on her” starts turning into “she’s the right person” after we’ve been together for a while. Based on what? Sometimes I actually learned something, and sometimes nothing changed except that now I’m attached, so the new certainty is just harder for me to question.
+> Once I’m attached, “I’m taking a chance on her” starts turning into “she’s the right person” after we’ve been together for a while. Based on what? Sometimes I actually learned something about her, but other times all that changed is I’m attached now, and that just makes me less likely to question it.
 > If I have sex with somebody quickly, that’s a reason not to move in quickly too, and to keep seeing friends, have some kind of community around the relationship, and pick actual dates to ask how it’s going. Moving in together right away is basically getting into a common-law marriage without discussing it, and it’s too easy for me to assume the relationship is going well just because we’re already entangled.
 
 ## 19. Slow & steady (live 180, 181, 182)
@@ -486,9 +486,9 @@ Read by romance-sec-spiritual-sex#136: [result](https://www.pangram.com/history/
 > She’s also collected a ton of stories from students who say the effects spilled out of the bedroom into the rest of their life, with better health, more rewarding careers, checks rolling in, and creativity flowing out like nobody's business. Her jade-egg practice is a preliminary training for the cervical O, as it strengthens the pelvic floor while also engaging your attention to the sensations down there. No partner required for the jade egg phase.
 > Brad and Pam Keene are the couple I really liked as an example of how her method works. Pam explained that her Kundalini process completed while they were making love and opened her into a lasting universal-consciousness awakening. She later helped Brad awaken too, so the marriage itself became part of the path.
 
-## 36. S18 (live 331)
+## 36. S18 and S19 with 330 to 336 (live 331)
 
-Read by romance-s18#25: [result](https://www.pangram.com/history/dce64725-6d16-4004-8a1a-478aaa058ce5).
+Read by romance-pillars-330-336#150: [result](https://www.pangram.com/history/56fc62b2-dd18-4b8a-bad7-7c769a85f449).
 
 **Live:**
 
@@ -496,18 +496,20 @@ Read by romance-s18#25: [result](https://www.pangram.com/history/dce64725-6d16-4
 
 **New:**
 
-> Let me show you how this looked for me. I’ve noticed in my own relationships that whenever a serious issue arises, both of us tend to turn to our separate circles of friends for support. Then I resent the one-sided story she’s telling, she resents the one-sided story I’m telling. Some of the friends may even be exes who want us to break up, and eventually neither of us wants to talk to the other’s friends anymore. That’s a pretty terrible time to be trying to run the rest of life with two people. If one person goes down, the other becomes the whole backup system for housing, money, children, health, and emotional crises. Who even has time for the relationship itself at that point?
+> Here’s how this looks for me: whenever something serious comes up in my relationships, we each run to our own friends for support. Then I resent the one-sided story she’s telling, she resents the one-sided story I’m telling. Some of the friends may even be exes who want us to break up, and eventually neither of us wants to talk to the other’s friends anymore. That’s a pretty terrible time to be trying to run the rest of life with two people. If one person goes down, the other becomes the whole backup system for housing, money, children, health, and emotional crises. Who even has time for the relationship itself at that point?
 
-## 37. S19 (live 335)
+## 37. S18 and S19 with 330 to 336 (live 334, 335)
 
-Read by romance-s19#32: [result](https://www.pangram.com/history/8366290e-627c-4961-8f56-c39b7d86017a).
+Read by romance-pillars-330-336#150: [result](https://www.pangram.com/history/56fc62b2-dd18-4b8a-bad7-7c769a85f449).
 
 **Live:**
 
+> Having the same confidant creates the opposite problem: now you may not have a release valve when you want privacy from your partner. There isn’t one perfect arrangement.
 > If you do have separate confidants, you need enough emotional maturity to remember they will automatically be biased toward you. Take what they say with a grain of salt. They are hearing a partial story, usually while you’re upset, and they may be trying to protect you rather than understand the relationship fairly.
 
 **New:**
 
+> Having the same confidant creates the opposite problem: now you may not have a release valve when you want privacy from your partner, so neither way is perfect.
 > If you do have separate confidants, you need enough emotional maturity to remember they will automatically be biased toward you. They’re only hearing your side, usually while you’re upset, and they may just be trying to protect you, so take what they say with a grain of salt.
 
 ## 38. What are you actually choosing together? (live 342)
