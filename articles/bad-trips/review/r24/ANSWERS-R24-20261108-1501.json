@@ -1,0 +1,61 @@
+{
+ "format": "joel-suggestion-review-answers-v1",
+ "review_id": "bad-trips-r24",
+ "title": "Bad Trips Guide, Round 24",
+ "git_file": "articles/bad-trips/review/r24/REVIEW-R24.html",
+ "article": {
+  "file": "articles/bad-trips/review/r24/PAGE-R24.md",
+  "sha256": "a6b2c982f3be48ccb9026b5f60f55e8b40e23dd06b9674f1ee0395512b92a3d0"
+ },
+ "built": "2026-11-07",
+ "generator": "suggestion_review.py 1.10 (2026-11-07)",
+ "exported_at": "2026-11-08T15:01:46.102Z",
+ "counts": {
+  "approved": 0,
+  "rejected": 0,
+  "revise": 2,
+  "pending": 0
+ },
+ "items": [
+  {
+   "id": "TEACH-FIRM",
+   "type": "teach",
+   "title": "For the Person Helping: don'ts that have to stay firm",
+   "where": "Don't, P1",
+   "advice": "edit",
+   "status": "revise",
+   "your_version": "Psychological First Aid: The First Five Minutes\n\nAnything that could let someone hurt themselves in the next five minutes takes priority, so get the car keys out of reach and turn the stove off, and move them away from roads and balconies, or pools of water for that matter. Letting them move around is fine, and pacing can help, but keep them from taking more of any substance. If they want to go confront somebody, that can wait. And if they want to leave, have someone go with them. Put any weapons away and keep the person away from crowds and strangers. If they want to post their big revelation about the universe, or message an ex, take the phone.\n\nThey're feeling overwhelmed, so dim the lights, and clear out the extra people around them.\n\nSometimes it can be helpful to remind them where they are and what's happening, since a trip can make them lose track of the fact that they took a substance which has temporary effects.\n\nAs the person helping, you want to play the role of the calm, caring anchor to the safe present moment, not the witch doctor guru who knows magic spells.\n\nSo don't try to win an argument with their visions, the entities they spoke to, the memories that surfaced, or whatever cosmic conclusions they reached ten minutes ago... But don't let silence validate anything harmful either, like a plan that ends with somebody getting hurt. If they're being attacked by a demon, let your care help them connect to love, which cancels fear. Hopefully they've been practicing that prior. Don't encourage them to believe they are crazy, impure, weak or broken. While many interpretations are possible, a therapeutic one would not be that they're being punished or failing the medicine. Don't force eye contact, touch, music, prayer, chanting, a confession or an insight on them. After they've slept, they may wish to talk more about their experience.",
+   "comment": "here's my first attempt, nearly all high conf hum with some med conf: https://www.pangram.com/history/6f85cc29-5846-47cd-ae4e-64ef321cb3da?ucc=AyfvimuzkWB&utm_source=pangram_share&utm_medium=copy_link\n\nfixed it, now all high conf: https://www.pangram.com/history/82851dc3-bbf7-48c7-a771-974182a45f22?ucc=AyfvimuzkWB&utm_source=pangram_share&utm_medium=copy_link\n\nbut this looks like it's also duplicating stuff in redefining bad trip section... so let's change that to this which is a little bit less redundant (idk if you have better suggestions):\n\n(Re)defining \"Bad Trip\"\n\nA bad trip is one of those terms thrown around very loosely in the psychedelic space. It can refer to various things which may be intertwined.\n\nWhen too much hits you at once, your nervous system can become flooded, and nothing makes sense, even as the brain still tries to derive meanings that might create unhelpful feedback loops. Underlying those interpretations are factors like the dose of what drug(s) you took and how your body handles them. Old painful memories could have been triggered, or you may have gone in with a fearful or unloving mindset, or the setting or people around you could have fed into it. Be kind to yourself or to whoever's going through it, because blaming anyone only makes it heavier.\n\nSome say there's no such thing as a bad trip, because it's all a doorway to shadow work. But if you had no intention of doing shadow work, that explanation might have come too late. Other bad trips seem unrelated to shadow work, although any negative experience can lead into it. Samsara offers no shortage of difficult experiences to process. It still makes sense to reduce present-moment trauma so we can address what was already there.",
+   "my_version": "Don't try to win an argument with visions, entities, memories, or cosmic conclusions. Don't validate harmful conclusions. Reflect the feeling and redirect toward safety, non-harm, sleep, and ordinary reality.\n\nDon't tell somebody they are crazy, broken, weak, punished, or failing the medicine.\n\nDon't force eye contact, touch, music, prayer, chanting, interpretation, confession, or insight.",
+   "before": "Don't try to win an argument with visions, entities, memories, or cosmic conclusions. Don't validate harmful conclusions. Reflect the feeling and redirect toward safety, non-harm, sleep, and ordinary reality.\n\nDon't tell somebody they are crazy, broken, weak, punished, or failing the medicine.\n\nDon't force eye contact, touch, music, prayer, chanting, interpretation, confession, or insight.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "revise",
+     "at": "2026-11-08T13:25:09.081Z"
+    }
+   ],
+   "updated": "2026-11-08T14:44:21.002Z"
+  },
+  {
+   "id": "TEACH-LABELS",
+   "type": "teach",
+   "title": "Give the Session a Beginning and an End: a list of labelled bullets",
+   "where": "Give the Session a Beginning and an End, P2",
+   "advice": "edit",
+   "status": "revise",
+   "your_version": "Give the Session a Beginning and an End\nIf you're planning a session, think through how it will start and end, and what happens in between, before you take anything. Rest and timing come first: don't begin already depleted, and ideally start earlier in the day, so there's time afterward for food, some normal company and most importantly, sleep. \n\nSet up the space you'll be in, and decide ahead of time what would make you call for outside help. Go in curious about what might come up, along with gentle intentions, not harboring demands for revelations, buried memories, good cries or spiritual breakthroughs. Sometimes people find that when they prepare to purify themself and open up to love, they don't even end up needing the experience itself. The work is already done. \n\nOne woman I met in Kenya was going to take shrooms to fix her tobacco and marijuana addictions. Before she took the shrooms, she simply realized she was addicted to those substances because she was trying to escape anxiety. So instead, she let the anxiety come, and accepted the feeling until it left. Her addictions vanished, no shroom trip required.\n\nIf you're taking a psychoactive drug, though, know what you're taking and roughly how much, and look up what it mixes badly with and any medical concerns. If you've taken this amount before, that's a good starting place to understand how it could affect you this time, although people's sensitivities can vary from one session to the next, sometimes quite dramatically. If you've never taken this dose or done this type of meditation this intensely before, make sure you're not jumping into the deep end all at once. \n\nDuring the experience, the sitter (the sober person with you, not literally someone sitting on your face!) keeps you safe and offers you choices if relevant. \n\nAs the experience winds down, give it some closure. Stop adding stimulation (I really don't like the MDMA protocols that include redosing, as it amplifies the neurotoxicity concerns). Check where you are and what day it is. Eat and drink a bit to replenish your electrolytes.\n\nJot down anything you want to remember before you forget, and let your body know the session is over with some gentle massage. Keep the rest of the day free, and the next morning too if possible, since your brain is still in a vulnerable, flexible, \"plastic\" state, and the goal is not to cement in worse new patterns than what you had before!",
+   "comment": "first of all, there's still way too much duplication here. why bad trips tend to happen the section above this, is duplicating a few other sections, including redefining a bad trip and first 5 minutes\n\nit looks like you were trying to work on that in this link altho you didn't explain that you had merged sections exactly: https://www.pangram.com/history/ada42227-f30e-44fb-b953-30624d9b169a\n\nbut since i already edited the first half of that, you'd incorporate what i put there\n... \n\nhere's my version, human high conf:\nhttps://www.pangram.com/history/0469ebb9-2f6c-452e-9c3e-25010416da14?ucc=4rq5Ko7gBiW&utm_source=pangram_share&utm_medium=copy_link\n\n---\n\nalso let's make sure this guide is not assuming people are taking a drug, since it's not called the bad drug trips guide. ",
+   "my_version": "For planned altered-state work, think through the beginning, middle, and end before starting.\n\nWhen you have a choice:\n\nRest and timing: don't begin already depleted. When possible, begin earlier in the day so there is still time for the experience, food, ordinary contact, and sleep afterward.\n\nPhysical safety: know the substance and approximate dose, review combinations and medical concerns, prepare the room, and decide in advance what requires outside help.\n\nIntention without a script: know what you are open to exploring without demanding a particular revelation, memory, emotional arc, or spiritual result.\n\nLow-directivity support: the sitter protects safety and offers choices.\n\nClosure: stop adding stimulation, return to the room and date, eat and hydrate when safe, write down the basic facts, and let the body understand that the session has ended.\n\nIntegration time: leave the rest of the day and, when possible, the next morning free. Sleep and food come before turning the experience into a new life plan.",
+   "before": "For planned altered-state work, think through the beginning, middle, and end before starting.\n\nWhen you have a choice:\n\nRest and timing: don't begin already depleted. When possible, begin earlier in the day so there is still time for the experience, food, ordinary contact, and sleep afterward.\n\nPhysical safety: know the substance and approximate dose, review combinations and medical concerns, prepare the room, and decide in advance what requires outside help.\n\nIntention without a script: know what you are open to exploring without demanding a particular revelation, memory, emotional arc, or spiritual result.\n\nLow-directivity support: the sitter protects safety and offers choices.\n\nClosure: stop adding stimulation, return to the room and date, eat and hydrate when safe, write down the basic facts, and let the body understand that the session has ended.\n\nIntegration time: leave the rest of the day and, when possible, the next morning free. Sleep and food come before turning the experience into a new life plan.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "revise",
+     "at": "2026-11-08T14:42:01.337Z"
+    }
+   ],
+   "updated": "2026-11-08T15:01:39.818Z"
+  }
+ ]
+}
