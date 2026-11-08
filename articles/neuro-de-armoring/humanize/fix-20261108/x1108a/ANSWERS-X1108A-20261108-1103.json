@@ -1,0 +1,81 @@
+{
+ "format": "joel-suggestion-review-answers-v1",
+ "review_id": "neuro-de-armoring-cards-20261108-x1108a",
+ "title": "Neuro De-Armoring Cards, 8 November: two science points in your new versions, and the Repair",
+ "git_file": "articles/neuro-de-armoring/humanize/fix-20261108/x1108a/REVIEW-X1108A.html",
+ "article": {
+  "file": "articles/neuro-de-armoring/humanize/HUMANIZED-SO-FAR.md",
+  "sha256": "11da46aa18b63af61c258320b60272caf0e8c5a29c1f5728655c857978470193"
+ },
+ "built": "2026-11-08T01:17:44Z",
+ "generator": "suggestion_review.py 1.10 (2026-11-07)",
+ "exported_at": "2026-11-08T11:03:10.365Z",
+ "counts": {
+  "approved": 3,
+  "rejected": 0,
+  "revise": 0,
+  "pending": 0
+ },
+ "items": [
+  {
+   "id": "SC-37",
+   "type": "science",
+   "title": "Calcium injures; it isn't what swells the cell",
+   "where": "B. The \"Overheating\" CPU: Glutamate Excitotoxicity, P3",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "not according to the research i did with gpt, stress itself was shown to cause injury/dysfunction to neurons (you seem to use weird/old definitions, GPT says neurotoxicity doesn't mean killing neurons, that's an old def). if you were right, we'd need to remove that claim, but you're not. bonifacino and others show this. i'm curious why you would have left the research there that you thought was wrong tho",
+   "my_version": "The Mechanism: When glutamate floods into the neuron, it jams open the NMDA \"doors\" (receptors), which allows calcium to flood in. Calcium at such high levels caused by stress can injure the neurons. Possibly as a protective mechanism, those neurons have been observed (in rats) to pull back their complex interactions with other neurons for up to two weeks after a stressful event (Bonifacino, et al, 2023). It's theorized that chronic stress on neurons also makes them more vulnerable to other toxic insults (Conrad, 2008), which is kind of common sense. What does all that feel like? Although popular neuroscience doesn't communicate this well, neurotransmitters affect different brain regions differently. Under chronic stress, glutamate rises in the part of the amygdala that flags threats (Wilson, 2015), producing anxiety, rage, all that good stuff. Block the NMDA receptors there, and anxious behaviour drops in animals (Boyle, 2013).",
+   "before": "The Mechanism: When glutamate floods into the neuron, it jams open the NMDA \"doors\" (receptors), which allows calcium to flood in. Calcium at such high levels caused by stress can swell and injure the neurons. Possibly as a protective mechanism, those neurons have been observed (in rats) to pull back their complex interactions with other neurons for up to two weeks after a stressful event (Bonifacino, et al, 2023). It's theorized that chronic stress on neurons also makes them more vulnerable to other toxic insults (Conrad, 2008), which is kind of common sense. What does all that feel like? Although popular neuroscience doesn't communicate this well, neurotransmitters affect different brain regions differently. Under chronic stress, glutamate rises in the part of the amygdala that flags threats (Wilson, 2015), producing anxiety, rage, all that good stuff. Block the NMDA receptors there, and anxious behaviour drops in animals (Boyle, 2013).",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-08T10:55:15.645Z"
+    }
+   ],
+   "updated": "2026-11-08T11:02:32.454Z"
+  },
+  {
+   "id": "SC-38",
+   "type": "science",
+   "title": "NMDA is the main calcium door; AMPA is the spark",
+   "where": "B. The \"Overheating\" CPU: Glutamate Excitotoxicity, P4",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "The Secondary Signal Dial (GluD Receptors): While NMDA receptors are the main door calcium comes in through when glutamate fires, another door was recently discovered in the GluD receptors. What opens them is D-serine (one of the tools below) and GABA, the neurotransmitter that usually quiets down communication, not glutamate (Wang, et al, 2025).",
+   "before": "The Secondary Signal Dial (GluD Receptors): While NMDA receptor opening is the main spark that starts up neuronal excitation, another calcium door was recently discovered in the GluD receptors. What opens them is D-serine (one of the tools below) and GABA, the neurotransmitter that usually quiets down communication, not glutamate (Wang, et al, 2025).",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-08T10:57:18.551Z"
+    }
+   ],
+   "updated": "2026-11-08T10:57:18.551Z"
+  },
+  {
+   "id": "SC-42",
+   "type": "clarity",
+   "title": "The Repair: L-serine works by making D-serine",
+   "where": "B. The \"Overheating\" CPU: Glutamate Excitotoxicity, P8",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "The Repair (L-Serine): Your brain makes D-Serine out of L-Serine (Wolosker, et al, 1999). So taking L-Serine gives you more D-serine for that spot on the NMDA receptor, which means a session that ends with the fear down and a sense of mastery has a better chance of sticking. The conversion isn't very efficient though, so some people take D-serine itself instead (more risk, but also more benefit).",
+   "before": "The Repair (L-Serine): Your brain makes D-Serine out of L-Serine (Wolosker, et al, 1999). So taking L-Serine feeds the spot D-serine switches on, and maybe the GluD channels too, so a session that ends with the fear down and a sense of mastery has a better chance of sticking. The conversion isn't very efficient though, so some people take D-serine itself instead (more risk, but also more benefit).",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-08T11:03:05.964Z"
+    }
+   ],
+   "updated": "2026-11-08T11:03:05.964Z"
+  }
+ ]
+}

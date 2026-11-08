@@ -2493,6 +2493,21 @@
      "why": "he said: \"i removed most of it and just put the basic facts\" (block 38, his card T-38); the ataxia and schizophrenia cases it backed are gone"
     }
    ]
+  },
+  {
+   "by": "fix-20261108/x1108a/ANSWERS-X1108A-20261108-1103.json, card SC-42 (approved 2026-11-08)",
+   "why": "he approved the Repair without the GluD clause: \"maybe the GluD channels too\" was a hedge the reader can't use to decide on L-serine (the needed read); block 38 still says D-serine opens GluD",
+   "numbers_lost": [],
+   "numbers_new": [],
+   "terms_lost": [],
+   "keys_lost": {
+    "W022": [
+     [
+      "GluD"
+     ]
+    ]
+   },
+   "citations_lost": []
   }
  ],
  "warning_words": {

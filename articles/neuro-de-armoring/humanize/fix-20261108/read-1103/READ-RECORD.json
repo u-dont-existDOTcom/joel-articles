@@ -1,0 +1,28 @@
+{
+ "format": "compare-read-record-v1",
+ "article": "HUMANIZED-SO-FAR.md after his approvals of 2026-11-08 11:03 UTC: P37, P38, P42, read beside his post (READER.md)",
+ "coverage": [
+  "12468c73af4f407f",
+  "4cfb088e128e4794",
+  "752af2e010f0f2dd"
+ ],
+ "findings": [
+  {
+   "id": "F1",
+   "severity": 1,
+   "kind": "vaguer",
+   "block_hashes": [
+    "12468c73af4f407f"
+   ],
+   "now": "another door was recently discovered in the GluD receptors",
+   "same_as_original": false
+  }
+ ],
+ "dispositions": {
+  "F1": [
+   "kept",
+   "what opens it is the point, and the next sentence says it",
+   1
+  ]
+ }
+}
