@@ -1,0 +1,46 @@
+[
+ {
+  "key": "his47",
+  "name": "his version of the SSRI paragraph (card SC-47), links put back",
+  "lineage": "neuro-de-armoring/B047-his",
+  "scope": "paragraph",
+  "words": 69,
+  "call": "AI",
+  "chance": 0.4,
+  "why": "my card's sentences with his one change (\"yet the VA still recommends\", \"they help some people\" out); my sentences in this register have read AI before",
+  "sha256": "a9d34b02937a99655c16cb4e255216e44b6b09165b097049beccb4e43c8ed486"
+ },
+ {
+  "key": "his48",
+  "name": "his version of why the drugs fail (card SC-48), typos and links fixed",
+  "lineage": "neuro-de-armoring/B048-his",
+  "scope": "paragraph",
+  "words": 97,
+  "call": "Human",
+  "chance": 0.5,
+  "why": "his new opening (not a mood disorder, the Bengay picture) then my two sentences on BHB and HDACs from the card",
+  "sha256": "f51f9d1d30ddfdfb553b5e3262ea285a3ebc23456526b8df5c7e9f3419ab3949"
+ },
+ {
+  "key": "his50",
+  "name": "his version of the Fix (The Unlock) (card SC-50), links put back",
+  "lineage": "neuro-de-armoring/B050-his",
+  "scope": "paragraph",
+  "words": 92,
+  "call": "Human",
+  "chance": 0.5,
+  "why": "my card's citations with his additions (therapy and the supplements, the addiction link)",
+  "sha256": "27b52e8a2fa70749a0dc88b4951381c0e2ea58439f80f39792829f352a1d5931"
+ },
+ {
+  "key": "his51",
+  "name": "his new paragraph on strains, parasites and toxins (card SC-50), typo and links fixed",
+  "lineage": "neuro-de-armoring/B051-his",
+  "scope": "paragraph",
+  "words": 231,
+  "call": "Human",
+  "chance": 0.85,
+  "why": "all his: his experience, an anecdote of his own, his guides named",
+  "sha256": "46fc86478b298a51db405db6697fe7df93c1a05c1b1d31dd7ea958011bf516ee"
+ }
+]

@@ -981,6 +981,51 @@
     }
    ],
    "recorded_utc": "2026-11-08T11:04Z"
+  },
+  {
+   "turn": "2026-11-08T15:08Z",
+   "lines_of_work": [
+    "neuro de-armoring",
+    "hypnosis guide",
+    "community article"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "AGENTS.md (blob 5160080) now has 'Say each thing once'; LESSON-INDEX (1e77c97) adds 89 safety-layer cuts and 90 short-lived pull requests; three items not in the ledger: 2026-10-18 schema therapist fit, 2026-10-22 book audit (both for the Inner Child guide), 2026-11-05 safety-layer cuts (this lane)"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "main at 718224105 (pull request 393, this lane's, auto-merged); open: 309 (this lane's DeltaFosB checks, separate lane), 278, 244, 200, 199, 198, 197, 109 (other lanes' or older chats'); no new issue or review comments on this lane's"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "his answers on Neuro De-Armoring Cards, 8 November (2) (x1108b): SC-24, 52, 53, 56, 57 approved; SC-47, 48, 50 revised with his versions and comments"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "no queued notifications"
+    }
+   ],
+   "items": [
+    {
+     "item": "2026-11-05-safety-layer-cuts.md",
+     "outcome": "adopted: the handoff already points to patterns/safety-layer-cuts.md with the first fix only (placed edits by block id, passages out of replies, cuts recorded); nothing to replace; recorded in the ledger"
+    },
+    {
+     "item": "2026-10-18-schema-therapist-fit-and-reparenting-guide.md",
+     "outcome": "deferred to the Inner Child lane, which owns that guide: recorded in the ledger for its next mailbox check"
+    },
+    {
+     "item": "2026-10-22-book-audit-and-guide-receipts.md",
+     "outcome": "deferred to the Inner Child lane, which owns that guide: recorded in the ledger for its next mailbox check"
+    }
+   ],
+   "recorded_utc": "2026-11-08T15:12Z"
   }
  ]
 }
