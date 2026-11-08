@@ -2599,31 +2599,31 @@
    ]
   },
   {
-   "id": "romance-low-ideal#132",
-   "name": "Beware idealization (S8, 147, 148)",
-   "key": "r24-ideal",
-   "file": "articles/romance/humanize/fix-20261107/r24/checks/CHECK-r24-ideal.txt",
+   "id": "romance-low-ideal#143",
+   "name": "Beware idealization (S8, 145 to 151)",
+   "key": "r27-ideal-c",
+   "file": "articles/romance/humanize/fix-20261107/r27/checks/CHECK-r27-ideal-c.txt",
    "paras": [
     "Idealization can be pathological, but it can also come very close to real deep love and appreciation. That’s why it’s so easy to get confused.",
     "So far in my life the main experiences of this have been with Bee and Key. They’re also the two women I’ve actually been in love with, which is probably not a coincidence. Both of them saw me as their knight in shining armor, and that brought out this divine-feminine beauty in them that made me into a real love slave. I’m not Superman out here trying to “save a hoe.” There’s just a natural director/muse dynamic that sometimes plays out in an exaggerated way.",
-    "It shouldn’t have to happen that way, though. It’s a bad shortcut to the divine archetypes.",
+    "She shouldn’t need a knight in shining armor to bring that beauty out, though, because it’s a bad shortcut to the divine archetypes.",
     "Legitimately seeing someone as amazing doesn’t depend on what the seeing gives you. You’re already lost in the sauce once you start identifying with the way you see them, like she’s perfect, this is destiny, I’m the one who finally found her.",
-    "The degree of idealization also predicts the degree of demonization for me. I don’t mean it as a clinical diagnosis, but I do use it almost like one in my own life. If a woman says, “You’re such a great guy. Of course you have flaws like anyone, but I love you,” that sounds healthy. If she says, “You’re perfect, I can’t find any flaw,” I’m already running.",
-    "When the BPD splitting happens, she can go from worshipping me to hating me, first in private and then in front of everybody. Suddenly she can find plenty of flaws, and all of them become evidence I was faking it all along. Sometimes she ends up accusing me of thinking I’m perfect, when she’s the one who used to say I was.",
+    "The degree of idealization also predicts the degree of demonization for me, so much that I use it almost like a clinical diagnosis in my own life. If a woman says, “You’re such a great guy. Of course you have flaws like anyone, but I love you,” that sounds healthy. If she says, “You’re perfect, I can’t find any flaw,” I’m already running.",
+    "When the BPD splitting kicks in, she goes from “you’re perfect” to “you’re a fraud,” first in private and then in front of everybody. Suddenly she can see every flaw I have, and decides I was faking it all along. Sometimes she ends up accusing me of thinking I’m perfect, when she’s the one who used to say I was.",
     "I’ve learned to get nervous when somebody knows too much about me too soon. We’re twin flames. She knows my motives. I’m Lord Krishna. Okay, maybe I really am way better than the other guys she’s found. But if she hasn’t found anything about me that bothers her yet, she hasn’t found all of me.",
     "For example, I still love women I’ve loved before. Sometimes I talk about them because I’m thinking about them. I’m not trying to make her jealous. If she can’t handle that I still love them, she isn’t ready for me.",
-    "If she says, “Can you talk less about your exes?” Sure. Maybe I do talk about them too much sometimes, but they still matter to me. If I’m supposed to listen to everything on her mind, I don’t want to have to pretend they aren’t on mine."
+    "If she says, “Can you talk less about your exes?” I’m happy to, since maybe I do talk about them too much sometimes. But I still care about them, and I’m not gonna act like they never cross my mind, not when I’m listening to everything on hers."
    ],
    "hashes": [
     "82103883dec5",
     "8a36994c2411",
-    "1529a5814e40",
+    "86735b0b4e0e",
     "5c9dbe989729",
-    "db46e53c60b7",
-    "a8f4852bb5c2",
+    "82828ba0937e",
+    "f5e594700b9b",
     "7abc57167675",
     "d3a65ebefba7",
-    "36a4cd528a5c"
+    "b78bf3e74bb9"
    ],
    "anchors": [
     [
@@ -2633,10 +2633,6 @@
     [
      1,
      122
-    ],
-    [
-     2,
-     123
     ],
     [
      6,
@@ -2655,14 +2651,16 @@
     {
      "op": "replace",
      "live": [
+      145,
       146,
       147,
       148
      ],
      "new": [
+      "She shouldn’t need a knight in shining armor to bring that beauty out, though, because it’s a bad shortcut to the divine archetypes.",
       "Legitimately seeing someone as amazing doesn’t depend on what the seeing gives you. You’re already lost in the sauce once you start identifying with the way you see them, like she’s perfect, this is destiny, I’m the one who finally found her.",
-      "The degree of idealization also predicts the degree of demonization for me. I don’t mean it as a clinical diagnosis, but I do use it almost like one in my own life. If a woman says, “You’re such a great guy. Of course you have flaws like anyone, but I love you,” that sounds healthy. If she says, “You’re perfect, I can’t find any flaw,” I’m already running.",
-      "When the BPD splitting happens, she can go from worshipping me to hating me, first in private and then in front of everybody. Suddenly she can find plenty of flaws, and all of them become evidence I was faking it all along. Sometimes she ends up accusing me of thinking I’m perfect, when she’s the one who used to say I was."
+      "The degree of idealization also predicts the degree of demonization for me, so much that I use it almost like a clinical diagnosis in my own life. If a woman says, “You’re such a great guy. Of course you have flaws like anyone, but I love you,” that sounds healthy. If she says, “You’re perfect, I can’t find any flaw,” I’m already running.",
+      "When the BPD splitting kicks in, she goes from “you’re perfect” to “you’re a fraud,” first in private and then in front of everybody. Suddenly she can see every flaw I have, and decides I was faking it all along. Sometimes she ends up accusing me of thinking I’m perfect, when she’s the one who used to say I was."
      ]
     },
     {
@@ -2671,7 +2669,7 @@
       151
      ],
      "new": [
-      "If she says, “Can you talk less about your exes?” Sure. Maybe I do talk about them too much sometimes, but they still matter to me. If I’m supposed to listen to everything on her mind, I don’t want to have to pretend they aren’t on mine."
+      "If she says, “Can you talk less about your exes?” I’m happy to, since maybe I do talk about them too much sometimes. But I still care about them, and I’m not gonna act like they never cross my mind, not when I’m listening to everything on hers."
      ]
     }
    ]
@@ -3548,10 +3546,10 @@
    ]
   },
   {
-   "id": "romance-sec-spiritual-sex#118",
+   "id": "romance-sec-spiritual-sex#136",
    "name": "Can making love be a spiritual practice? (r20 and his S17)",
-   "key": "r21-spir",
-   "file": "articles/romance/humanize/fix-20261107/r21/checks/CHECK-r21-spir.txt",
+   "key": "r27-spir",
+   "file": "articles/romance/humanize/fix-20261107/r27/checks/CHECK-r27-spir.txt",
    "paras": [
     "I’m Buddhist, and the early Buddhist texts have nothing on tantric sex as a path to awakening, but plenty of the people they show getting seriously awakened were lay people.",
     "In DN 16, the Buddha talks about people who had died in the town of Nādikā and mentions 510 lay stream-enterers, 96 once-returners, and more than fifty lay non-returners, the first three of the four stages of awakening.",
@@ -3560,8 +3558,8 @@
     "“When both husband and wife are faithful and generous, restraintful, living righteously, speaking pleasant words to each other—they come together in the future, sharing the same desires and living in bliss.”",
     "Marriage, sex, and household life aren't automatically in conflict with serious spiritual development.",
     "Kim Anami goes even further: she says sexual energy itself, when used properly, can heal you and wake you up spiritually along with your beloved.",
-    "She’s also collected a ton of stories from students who say the effects spilled out of the bedroom into the rest of their life, with better health, more rewarding careers, checks rolling in, and creativity flowing out like nobody's business. Her jade-egg practice is a preliminary training for the cervical O, as it strengthens the pelvic-floor while also engaging your attention to the sensations down there. No partner required for the jade egg phase.",
-    "Brad and Pam Keene are the example couple I really liked as an example of how her method works. Pam explained that her Kundalini process completed while they were making love and opened her into a lasting universal-consciousness awakening. She later helped Brad awaken too, so the marriage itself became part of the path.",
+    "She’s also collected a ton of stories from students who say the effects spilled out of the bedroom into the rest of their life, with better health, more rewarding careers, checks rolling in, and creativity flowing out like nobody's business. Her jade-egg practice is a preliminary training for the cervical O, as it strengthens the pelvic floor while also engaging your attention to the sensations down there. No partner required for the jade egg phase.",
+    "Brad and Pam Keene are the couple I really liked as an example of how her method works. Pam explained that her Kundalini process completed while they were making love and opened her into a lasting universal-consciousness awakening. She later helped Brad awaken too, so the marriage itself became part of the path.",
     "In the previous section, I mentioned the divine feminine and divine masculine energies that you can channel to keep eroticism alive. But there’s really something more special about the in-love paradise that Twin Flames (TFs) experience than a simple Divine Masculine + Divine Feminine formula. Maybe a better way to put it, as my friend Cody says, is Yin/Yang, which still has the masculine/feminine in it, but allows for a more broad type of complementary symbiosis since, each contains the seed of the other.",
     "My ex-girlfriend, Malia, (who is currently hosting me in Sênêgal) found her twin flame (I think) in January, 2026. They only talked for a month, but since she started talking to him, they both have been able to feel the other one’s emotions at any time, from any distance, without having to communicate. To the point where if one feels really bad, so does the other. If one is very happy, so is the other, like quantum entangled photons or something. I’ve also had telepathy with some folks, especially my first wife, Bee, but it was never quite to such an extreme as what Malia has with Mouhamed. Meanwhile his family forbade him from being with her, so he dumped her. Not sure why, maybe because she’s 8 years older than him (although she looks quite young). They both try to pretend like they will be able to get over each other, but I doubt it. Meanwhile, Malia’s trying to marry ChatGPT, but she should have picked Grok, I guess. 😅",
     "Note: I am really afraid how many people are falling in love with their AI “girlfriend” or “boyfriend.” But oh well, I guess those folks aren’t ready for a real relationship.. maybe if they would read this guide…",
@@ -3576,8 +3574,8 @@
     "4d117e9a8923",
     "943a1f793447",
     "04eb340904b4",
-    "b3fff11386a3",
-    "f57ae0bd8265",
+    "9da4fe716cd6",
+    "af48eddc6d60",
     "ffd8acb08394",
     "2ac6ab99f367",
     "3c62d7c0ce41",
@@ -3643,8 +3641,8 @@
      "new": [
       "Marriage, sex, and household life aren't automatically in conflict with serious spiritual development.",
       "Kim Anami goes even further: she says sexual energy itself, when used properly, can heal you and wake you up spiritually along with your beloved.",
-      "She’s also collected a ton of stories from students who say the effects spilled out of the bedroom into the rest of their life, with better health, more rewarding careers, checks rolling in, and creativity flowing out like nobody's business. Her jade-egg practice is a preliminary training for the cervical O, as it strengthens the pelvic-floor while also engaging your attention to the sensations down there. No partner required for the jade egg phase.",
-      "Brad and Pam Keene are the example couple I really liked as an example of how her method works. Pam explained that her Kundalini process completed while they were making love and opened her into a lasting universal-consciousness awakening. She later helped Brad awaken too, so the marriage itself became part of the path."
+      "She’s also collected a ton of stories from students who say the effects spilled out of the bedroom into the rest of their life, with better health, more rewarding careers, checks rolling in, and creativity flowing out like nobody's business. Her jade-egg practice is a preliminary training for the cervical O, as it strengthens the pelvic floor while also engaging your attention to the sensations down there. No partner required for the jade egg phase.",
+      "Brad and Pam Keene are the couple I really liked as an example of how her method works. Pam explained that her Kundalini process completed while they were making love and opened her into a lasting universal-consciousness awakening. She later helped Brad awaken too, so the marriage itself became part of the path."
      ]
     }
    ]
@@ -3821,6 +3819,105 @@
      ],
      "new": [
       "Matthew 5:33–37 and James 5:12 make the wedding vow itself look even more suspicious (to me, anyway): let your “Yes” be “Yes” and your “No” be “No,” and anything beyond that comes from evil."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "romance-low-jeal#135",
+   "name": "Jealousy on trial (his T2 answer)",
+   "key": "r27-jeal",
+   "file": "articles/romance/humanize/fix-20261107/r27/checks/CHECK-r27-jeal.txt",
+   "paras": [
+    "These days, even the brief inkling of attraction to another person becomes almost a sure sign that sexual infidelity is next. That’s why I felt I had no choice but to address the issue head on when B. wanted to marry me. I told her, “I can’t fully commit to you if I’m still attracted to other women, so before I do, let’s see if I can fix that.”",
+    "I meditated for a while and surprised my own self to find something like a switch in my mind. It felt like evolutionary programming around whether I had found my life mate and true love. I asked myself, “Is she the one?”",
+    "The inner Magic 8 Ball came back YES, and I flipped off the mate-finding switch.",
+    "It worked about 99% of the time. I was no longer interested in other women, aside from one extremely beautiful girl who grabbed my attention once.",
+    "That amazed me, although B. never quite believed the switch was real. She even started hallucinating that I was looking at or talking to other women when I wasn’t. So her jealousy was not simply tracking what I was doing in the present. More likely it was insecure attachment from childhood trying to justify its continued existence.",
+    "Jealousy is always insecurity, but sometimes that insecurity can be an important indicator that the relationship actually is not secure, rather than just a remembered script from childhood. Although, either way, it can become a self-fulfilling prophecy.",
+    "Instead of stewing in jealousy and throwing out microaggressions now and then, speak your heart without hiding the insecurity behind anger, as in the above video I found on IG. In a monogamous relationship, you might say:",
+    "“I notice you pay attention to this other girl more than me, and it makes me feel unloved and insecure. Can we talk about it? Do you really want to explore things with her? If so that’s fine, but don’t make the decision lightly, because it’s irreversible.”",
+    "Maybe he really is neglecting you or wanting to be with someone else. Maybe the “attention” was one glance and your baseline insecurity inflated it into a threat that it wasn’t. That part should not be projected onto your partner. Every couple has to work out for themselves what actually feels healthy.",
+    "I do believe two people can choose sexual exclusivity honestly. They can admit that attraction to other people exists and decide not to act on it each day. And even better than simply suppressing it, I agree with Esther Perel, who writes that this sexual energy felt outside the relationship can be used and redirected into the relationship to make it more alive.",
+    "Imagine if you and your partner both saw those outside attractions as beneficial energy sources rather than a threat to your relationship. It sure would beat beating around the bush because of fear and jealousy. You can start playing around with opening up about the minor, momentary attractions, rather than wait in hiding until a serious crush is dramatically confessed.",
+    "Lots of couples promise forever to each other and nobody else. Look around at how many actually live that way. On the other hand, in a polyamorous relationship, the boundaries might be more negotiable, but then somebody has to sit down and negotiate them, down to who gets to stay the night. That can end up sometimes creating more drama than it's worth.",
+    "Polyamory can also be a way of escaping deeper intimacy, like my one poly college friend who boasted about having 4 girlfriends, but admitted to me that he felt deeply unhappy. Or it can be a way of escaping guilt, like when someone keeps cheating until they finally \"come out of the closet\" as poly, as if that solves their prior dishonesty. But they are right to finally come clean and hopefully avoid that dishonesty in future.",
+    "I learned most of this by screwing it up. Some of it I just thought through, and I'm still not sure about all of it."
+   ],
+   "hashes": [
+    "dc9a9d04be2f",
+    "f4bb7296a394",
+    "ca31b365d12a",
+    "4ddc476bd1d8",
+    "2ea39c60db4a",
+    "61959cc9f5c7",
+    "1d1712c4f6f7",
+    "ae05a93fb64e",
+    "b0ba5075ad80",
+    "03712725909c",
+    "9b35a820102e",
+    "41c7002bd744",
+    "ed475593d3ea",
+    "321eda0daabd"
+   ],
+   "anchors": [
+    [
+     0,
+     310
+    ],
+    [
+     1,
+     311
+    ],
+    [
+     2,
+     312
+    ],
+    [
+     3,
+     313
+    ],
+    [
+     4,
+     314
+    ],
+    [
+     5,
+     315
+    ],
+    [
+     6,
+     316
+    ],
+    [
+     7,
+     317
+    ],
+    [
+     8,
+     318
+    ]
+   ],
+   "range": [
+    357,
+    370
+   ],
+   "ops": [
+    {
+     "op": "replace",
+     "live": [
+      366,
+      367,
+      368,
+      369,
+      370
+     ],
+     "new": [
+      "I do believe two people can choose sexual exclusivity honestly. They can admit that attraction to other people exists and decide not to act on it each day. And even better than simply suppressing it, I agree with Esther Perel, who writes that this sexual energy felt outside the relationship can be used and redirected into the relationship to make it more alive.",
+      "Imagine if you and your partner both saw those outside attractions as beneficial energy sources rather than a threat to your relationship. It sure would beat beating around the bush because of fear and jealousy. You can start playing around with opening up about the minor, momentary attractions, rather than wait in hiding until a serious crush is dramatically confessed.",
+      "Lots of couples promise forever to each other and nobody else. Look around at how many actually live that way. On the other hand, in a polyamorous relationship, the boundaries might be more negotiable, but then somebody has to sit down and negotiate them, down to who gets to stay the night. That can end up sometimes creating more drama than it's worth.",
+      "Polyamory can also be a way of escaping deeper intimacy, like my one poly college friend who boasted about having 4 girlfriends, but admitted to me that he felt deeply unhappy. Or it can be a way of escaping guilt, like when someone keeps cheating until they finally \"come out of the closet\" as poly, as if that solves their prior dishonesty. But they are right to finally come clean and hopefully avoid that dishonesty in future.",
+      "I learned most of this by screwing it up. Some of it I just thought through, and I'm still not sure about all of it."
      ]
     }
    ]
@@ -4287,17 +4384,19 @@
   {
    "op": "replace",
    "live": [
+    145,
     146,
     147,
     148
    ],
    "new": [
+    "She shouldn’t need a knight in shining armor to bring that beauty out, though, because it’s a bad shortcut to the divine archetypes.",
     "Legitimately seeing someone as amazing doesn’t depend on what the seeing gives you. You’re already lost in the sauce once you start identifying with the way you see them, like she’s perfect, this is destiny, I’m the one who finally found her.",
-    "The degree of idealization also predicts the degree of demonization for me. I don’t mean it as a clinical diagnosis, but I do use it almost like one in my own life. If a woman says, “You’re such a great guy. Of course you have flaws like anyone, but I love you,” that sounds healthy. If she says, “You’re perfect, I can’t find any flaw,” I’m already running.",
-    "When the BPD splitting happens, she can go from worshipping me to hating me, first in private and then in front of everybody. Suddenly she can find plenty of flaws, and all of them become evidence I was faking it all along. Sometimes she ends up accusing me of thinking I’m perfect, when she’s the one who used to say I was."
+    "The degree of idealization also predicts the degree of demonization for me, so much that I use it almost like a clinical diagnosis in my own life. If a woman says, “You’re such a great guy. Of course you have flaws like anyone, but I love you,” that sounds healthy. If she says, “You’re perfect, I can’t find any flaw,” I’m already running.",
+    "When the BPD splitting kicks in, she goes from “you’re perfect” to “you’re a fraud,” first in private and then in front of everybody. Suddenly she can see every flaw I have, and decides I was faking it all along. Sometimes she ends up accusing me of thinking I’m perfect, when she’s the one who used to say I was."
    ],
-   "check": "romance-low-ideal#132",
-   "name": "Beware idealization (S8, 147, 148)"
+   "check": "romance-low-ideal#143",
+   "name": "Beware idealization (S8, 145 to 151)"
   },
   {
    "op": "replace",
@@ -4305,10 +4404,10 @@
     151
    ],
    "new": [
-    "If she says, “Can you talk less about your exes?” Sure. Maybe I do talk about them too much sometimes, but they still matter to me. If I’m supposed to listen to everything on her mind, I don’t want to have to pretend they aren’t on mine."
+    "If she says, “Can you talk less about your exes?” I’m happy to, since maybe I do talk about them too much sometimes. But I still care about them, and I’m not gonna act like they never cross my mind, not when I’m listening to everything on hers."
    ],
-   "check": "romance-low-ideal#132",
-   "name": "Beware idealization (S8, 147, 148)"
+   "check": "romance-low-ideal#143",
+   "name": "Beware idealization (S8, 145 to 151)"
   },
   {
    "op": "replace",
@@ -4549,7 +4648,7 @@
     "In DN 16, the Buddha talks about people who had died in the town of Nādikā and mentions 510 lay stream-enterers, 96 once-returners, and more than fifty lay non-returners, the first three of the four stages of awakening.",
     "SN 55.24 has an almost comic complaint: when the Buddha declared Sarakāni a stream-enterer, other Sakyans grumbled, in effect, “Who isn’t a stream-enterer these days?”"
    ],
-   "check": "romance-sec-spiritual-sex#118",
+   "check": "romance-sec-spiritual-sex#136",
    "name": "Can making love be a spiritual practice? (r20 and his S17)"
   },
   {
@@ -4563,10 +4662,10 @@
    "new": [
     "Marriage, sex, and household life aren't automatically in conflict with serious spiritual development.",
     "Kim Anami goes even further: she says sexual energy itself, when used properly, can heal you and wake you up spiritually along with your beloved.",
-    "She’s also collected a ton of stories from students who say the effects spilled out of the bedroom into the rest of their life, with better health, more rewarding careers, checks rolling in, and creativity flowing out like nobody's business. Her jade-egg practice is a preliminary training for the cervical O, as it strengthens the pelvic-floor while also engaging your attention to the sensations down there. No partner required for the jade egg phase.",
-    "Brad and Pam Keene are the example couple I really liked as an example of how her method works. Pam explained that her Kundalini process completed while they were making love and opened her into a lasting universal-consciousness awakening. She later helped Brad awaken too, so the marriage itself became part of the path."
+    "She’s also collected a ton of stories from students who say the effects spilled out of the bedroom into the rest of their life, with better health, more rewarding careers, checks rolling in, and creativity flowing out like nobody's business. Her jade-egg practice is a preliminary training for the cervical O, as it strengthens the pelvic floor while also engaging your attention to the sensations down there. No partner required for the jade egg phase.",
+    "Brad and Pam Keene are the couple I really liked as an example of how her method works. Pam explained that her Kundalini process completed while they were making love and opened her into a lasting universal-consciousness awakening. She later helped Brad awaken too, so the marriage itself became part of the path."
    ],
-   "check": "romance-sec-spiritual-sex#118",
+   "check": "romance-sec-spiritual-sex#136",
    "name": "Can making love be a spiritual practice? (r20 and his S17)"
   },
   {
@@ -4627,6 +4726,25 @@
    ],
    "check": "romance-sec-vows#110",
    "name": "Which marriage vows are honest?"
+  },
+  {
+   "op": "replace",
+   "live": [
+    366,
+    367,
+    368,
+    369,
+    370
+   ],
+   "new": [
+    "I do believe two people can choose sexual exclusivity honestly. They can admit that attraction to other people exists and decide not to act on it each day. And even better than simply suppressing it, I agree with Esther Perel, who writes that this sexual energy felt outside the relationship can be used and redirected into the relationship to make it more alive.",
+    "Imagine if you and your partner both saw those outside attractions as beneficial energy sources rather than a threat to your relationship. It sure would beat beating around the bush because of fear and jealousy. You can start playing around with opening up about the minor, momentary attractions, rather than wait in hiding until a serious crush is dramatically confessed.",
+    "Lots of couples promise forever to each other and nobody else. Look around at how many actually live that way. On the other hand, in a polyamorous relationship, the boundaries might be more negotiable, but then somebody has to sit down and negotiate them, down to who gets to stay the night. That can end up sometimes creating more drama than it's worth.",
+    "Polyamory can also be a way of escaping deeper intimacy, like my one poly college friend who boasted about having 4 girlfriends, but admitted to me that he felt deeply unhappy. Or it can be a way of escaping guilt, like when someone keeps cheating until they finally \"come out of the closet\" as poly, as if that solves their prior dishonesty. But they are right to finally come clean and hopefully avoid that dishonesty in future.",
+    "I learned most of this by screwing it up. Some of it I just thought through, and I'm still not sure about all of it."
+   ],
+   "check": "romance-low-jeal#135",
+   "name": "Jealousy on trial (his T2 answer)"
   },
   {
    "op": "replace",
@@ -4716,6 +4834,7 @@
   139,
   140,
   141,
+  145,
   146,
   147,
   148,
@@ -4765,6 +4884,11 @@
   345,
   346,
   351,
+  366,
+  367,
+  368,
+  369,
+  370,
   410,
   433,
   435,
@@ -4775,9 +4899,6 @@
   443
  ],
  "keep": {
-  "332": "Two Pillars 332 (owner lock)",
-  "367": "Jealousy 367 (his marking page, REVIEW-T2)",
-  "368": "Jealousy 368 (his marking page, REVIEW-T2)",
-  "369": "Jealousy 369 (his marking page, REVIEW-T2)"
+  "332": "Two Pillars 332 (owner lock)"
  }
 }

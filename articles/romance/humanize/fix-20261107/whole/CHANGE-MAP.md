@@ -1,6 +1,6 @@
 # The fixed version: every changed paragraph
 
-The live post ("Romance Advice I Wish My Parents Taught Me", updated Aug 27, 2026) with each section's and spot's best tested text in place (`assemble.py`, `build.py`). Paragraph numbers are the post page's paragraph list (`LIVE-INDEX.txt`). S2 and S17 (on the marking page), the three stretches that share S2's pattern and "Two Pillars" 332 (owner lock) are as the live post has them. 45 changes, 82 live paragraphs.
+The live post ("Romance Advice I Wish My Parents Taught Me", updated Aug 27, 2026) with each section's and spot's best tested text in place (`assemble.py`, `build.py`). Paragraph numbers are the post page's paragraph list (`LIVE-INDEX.txt`). S2 and S17 (on the marking page), the three stretches that share S2's pattern and "Two Pillars" 332 (owner lock) are as the live post has them. 46 changes, 88 live paragraphs.
 
 ## 1. S1 (live 28)
 
@@ -177,25 +177,27 @@ Read by romance-low-tricky#68: [result](https://www.pangram.com/history/dd569cb2
 > Sometimes withdrawing isn’t wrong: telling your friend, “Can you believe what my girlfriend is doing to me?” can be a privacy violation. It’s just important to realize what is happening.
 > It doesn’t help if she tells her friends her side while I tell mine mine, so we need people who actually know both of us over time, well enough that the relationship isn’t the only reality in the room. I’ll come back to that.
 
-## 14. Beware idealization (S8, 147, 148) (live 146, 147, 148)
+## 14. Beware idealization (S8, 145 to 151) (live 145, 146, 147, 148)
 
-Read by romance-low-ideal#132: [result](https://www.pangram.com/history/48db01c8-ff82-44b4-aae4-6119f12172d7).
+Read by romance-low-ideal#143: [result](https://www.pangram.com/history/1ef0b91c-6a89-4c35-b4b9-c46f1f54276d).
 
 **Live:**
 
+> It shouldn’t have to happen that way, though. It’s a bad shortcut to the divine archetypes.
 > Legitimately seeing someone as amazing doesn’t depend on what the seeing gives you. Once you start identifying with the way you see them—she’s perfect, this is destiny, I’m the one who finally found her—you’re already lost in the sauce.
 > The degree of idealization also predicts the degree of demonization for me. I don’t mean this as a clinical diagnosis, but I use it almost diagnostically in my own life. If a woman says, “You’re such a great guy. Of course you have flaws like anyone, but I love you,” that sounds healthy. If she says, “You’re perfect. I can’t find any flaw,” I’m already running.
 > When the BPD splitting happens, private hatred can replace worship. Then come public accusations, rewriting the whole past and treating every flaw as proof that the person was fake all along. Sometimes the woman who thought I was perfect later accuses me of thinking I’m perfect.
 
 **New:**
 
+> She shouldn’t need a knight in shining armor to bring that beauty out, though, because it’s a bad shortcut to the divine archetypes.
 > Legitimately seeing someone as amazing doesn’t depend on what the seeing gives you. You’re already lost in the sauce once you start identifying with the way you see them, like she’s perfect, this is destiny, I’m the one who finally found her.
-> The degree of idealization also predicts the degree of demonization for me. I don’t mean it as a clinical diagnosis, but I do use it almost like one in my own life. If a woman says, “You’re such a great guy. Of course you have flaws like anyone, but I love you,” that sounds healthy. If she says, “You’re perfect, I can’t find any flaw,” I’m already running.
-> When the BPD splitting happens, she can go from worshipping me to hating me, first in private and then in front of everybody. Suddenly she can find plenty of flaws, and all of them become evidence I was faking it all along. Sometimes she ends up accusing me of thinking I’m perfect, when she’s the one who used to say I was.
+> The degree of idealization also predicts the degree of demonization for me, so much that I use it almost like a clinical diagnosis in my own life. If a woman says, “You’re such a great guy. Of course you have flaws like anyone, but I love you,” that sounds healthy. If she says, “You’re perfect, I can’t find any flaw,” I’m already running.
+> When the BPD splitting kicks in, she goes from “you’re perfect” to “you’re a fraud,” first in private and then in front of everybody. Suddenly she can see every flaw I have, and decides I was faking it all along. Sometimes she ends up accusing me of thinking I’m perfect, when she’s the one who used to say I was.
 
-## 15. Beware idealization (S8, 147, 148) (live 151)
+## 15. Beware idealization (S8, 145 to 151) (live 151)
 
-Read by romance-low-ideal#132: [result](https://www.pangram.com/history/48db01c8-ff82-44b4-aae4-6119f12172d7).
+Read by romance-low-ideal#143: [result](https://www.pangram.com/history/1ef0b91c-6a89-4c35-b4b9-c46f1f54276d).
 
 **Live:**
 
@@ -203,7 +205,7 @@ Read by romance-low-ideal#132: [result](https://www.pangram.com/history/48db01c8
 
 **New:**
 
-> If she says, “Can you talk less about your exes?” Sure. Maybe I do talk about them too much sometimes, but they still matter to me. If I’m supposed to listen to everything on her mind, I don’t want to have to pretend they aren’t on mine.
+> If she says, “Can you talk less about your exes?” I’m happy to, since maybe I do talk about them too much sometimes. But I still care about them, and I’m not gonna act like they never cross my mind, not when I’m listening to everything on hers.
 
 ## 16. Anti-PTSD (live 157)
 
@@ -452,7 +454,7 @@ Read by romance-low-queen#82: [result](https://www.pangram.com/history/edb426f1-
 
 ## 34. Can making love be a spiritual practice? (r20 and his S17) (live 304, 305, 306)
 
-Read by romance-sec-spiritual-sex#118: [result](https://www.pangram.com/history/fd752a4b-7dae-45bc-bd9d-5dac45d949c7).
+Read by romance-sec-spiritual-sex#136: [result](https://www.pangram.com/history/2c67fdaa-6753-4d00-8f49-0f66f7d286d5).
 
 **Live:**
 
@@ -468,7 +470,7 @@ Read by romance-sec-spiritual-sex#118: [result](https://www.pangram.com/history/
 
 ## 35. Can making love be a spiritual practice? (r20 and his S17) (live 309, 310, 311, 312)
 
-Read by romance-sec-spiritual-sex#118: [result](https://www.pangram.com/history/fd752a4b-7dae-45bc-bd9d-5dac45d949c7).
+Read by romance-sec-spiritual-sex#136: [result](https://www.pangram.com/history/2c67fdaa-6753-4d00-8f49-0f66f7d286d5).
 
 **Live:**
 
@@ -481,8 +483,8 @@ Read by romance-sec-spiritual-sex#118: [result](https://www.pangram.com/history/
 
 > Marriage, sex, and household life aren't automatically in conflict with serious spiritual development.
 > Kim Anami goes even further: she says sexual energy itself, when used properly, can heal you and wake you up spiritually along with your beloved.
-> She’s also collected a ton of stories from students who say the effects spilled out of the bedroom into the rest of their life, with better health, more rewarding careers, checks rolling in, and creativity flowing out like nobody's business. Her jade-egg practice is a preliminary training for the cervical O, as it strengthens the pelvic-floor while also engaging your attention to the sensations down there. No partner required for the jade egg phase.
-> Brad and Pam Keene are the example couple I really liked as an example of how her method works. Pam explained that her Kundalini process completed while they were making love and opened her into a lasting universal-consciousness awakening. She later helped Brad awaken too, so the marriage itself became part of the path.
+> She’s also collected a ton of stories from students who say the effects spilled out of the bedroom into the rest of their life, with better health, more rewarding careers, checks rolling in, and creativity flowing out like nobody's business. Her jade-egg practice is a preliminary training for the cervical O, as it strengthens the pelvic floor while also engaging your attention to the sensations down there. No partner required for the jade egg phase.
+> Brad and Pam Keene are the couple I really liked as an example of how her method works. Pam explained that her Kundalini process completed while they were making love and opened her into a lasting universal-consciousness awakening. She later helped Brad awaken too, so the marriage itself became part of the path.
 
 ## 36. S18 (live 331)
 
@@ -548,7 +550,27 @@ Read by romance-sec-vows#110: [result](https://www.pangram.com/history/5b6a00ff-
 
 > Matthew 5:33–37 and James 5:12 make the wedding vow itself look even more suspicious (to me, anyway): let your “Yes” be “Yes” and your “No” be “No,” and anything beyond that comes from evil.
 
-## 41. Why all of this sounds artificial (live 410)
+## 41. Jealousy on trial (his T2 answer) (live 366, 367, 368, 369, 370)
+
+Read by romance-low-jeal#135: [result](https://www.pangram.com/history/d00216d9-49ef-4351-bfd1-df2165ff14da).
+
+**Live:**
+
+> I do believe two people can choose sexual exclusivity honestly. They can admit that attraction to other people exists and decide not to act on it each day.
+> I would rather make every attraction possible to mention casually, including the low-stakes ones. If only the serious attractions are supposed to be disclosed, each disclosure becomes such a major event that people are less likely to say anything at all.
+> A foundational, permanent, exclusive romantic partnership is promised far more often than it is actually lived. In a polyamorous relationship the boundaries might be more negotiable, but that actually means negotiating is required.
+> That’s not to say that polyamory is automatically better, because it can be dishonest too. These days, I believe it is often a way to cope with an inability to connect deeply with one person, or a way to admit a lack of self-control without necessarily doing the self-development that would make the arrangement ethical. If you can’t do monogamy, saying so is still more honest than pretending you can. Sometimes the pretending does more damage than an outside connection would have.
+> I learned most of this by screwing it up. Some of it I just thought through, and I’m still not sure about all of it.
+
+**New:**
+
+> I do believe two people can choose sexual exclusivity honestly. They can admit that attraction to other people exists and decide not to act on it each day. And even better than simply suppressing it, I agree with Esther Perel, who writes that this sexual energy felt outside the relationship can be used and redirected into the relationship to make it more alive.
+> Imagine if you and your partner both saw those outside attractions as beneficial energy sources rather than a threat to your relationship. It sure would beat beating around the bush because of fear and jealousy. You can start playing around with opening up about the minor, momentary attractions, rather than wait in hiding until a serious crush is dramatically confessed.
+> Lots of couples promise forever to each other and nobody else. Look around at how many actually live that way. On the other hand, in a polyamorous relationship, the boundaries might be more negotiable, but then somebody has to sit down and negotiate them, down to who gets to stay the night. That can end up sometimes creating more drama than it's worth.
+> Polyamory can also be a way of escaping deeper intimacy, like my one poly college friend who boasted about having 4 girlfriends, but admitted to me that he felt deeply unhappy. Or it can be a way of escaping guilt, like when someone keeps cheating until they finally "come out of the closet" as poly, as if that solves their prior dishonesty. But they are right to finally come clean and hopefully avoid that dishonesty in future.
+> I learned most of this by screwing it up. Some of it I just thought through, and I'm still not sure about all of it.
+
+## 42. Why all of this sounds artificial (live 410)
 
 Read by romance-low-artificial#104: [result](https://www.pangram.com/history/187f16fd-33af-4b28-893a-33560958795e).
 
@@ -560,7 +582,7 @@ Read by romance-low-artificial#104: [result](https://www.pangram.com/history/187
 
 > Some things were less mysterious: they were acting as if the trust problem wasn’t there because they still wanted the relationship. Attractions to other people sometimes went unsaid too, and sometimes got imagined from nowhere. Some people keep a relationship like this going for a long time, just sweeping everything under the rug.
 
-## 42. Gaslighting in the dark (live 433)
+## 43. Gaslighting in the dark (live 433)
 
 Read by romance-low-gaslight#105: [result](https://www.pangram.com/history/498e5daa-29e0-4a87-861b-5fac8ee956f7).
 
@@ -572,7 +594,7 @@ Read by romance-low-gaslight#105: [result](https://www.pangram.com/history/498e5
 
 > Many say it’s best to save face and work things out privately, but I’d disagree. If you don’t have friends who can help with the conflict, then you’re really stuck (and you might wanna find some new friends). But do it honestly, with the goal of helping the conflict, not just getting approval for your own interpretation. Both people should get a chance to speak, and good friends should hear both sides before validating either.
 
-## 43. Gaslighting in the dark (live 435)
+## 44. Gaslighting in the dark (live 435)
 
 Read by romance-low-gaslight#105: [result](https://www.pangram.com/history/498e5daa-29e0-4a87-861b-5fac8ee956f7).
 
@@ -584,7 +606,7 @@ Read by romance-low-gaslight#105: [result](https://www.pangram.com/history/498e5
 
 > If you’ve been there for someone, don’t abandon them in a crisis unless it’s unsafe for you to stay or they’re creating the crisis to keep you, or they aren’t willing to help themself. You may need to arrange other care, but that’s no reason to pretend the romance still has a future.
 
-## 44. After leaving (S22) (live 437, 438, 439, 440)
+## 45. After leaving (S22) (live 437, 438, 439, 440)
 
 Read by romance-s22#69: [result](https://www.pangram.com/history/836e7b4d-23bb-4945-8c5c-7b156e2faa6c).
 
@@ -602,7 +624,7 @@ Read by romance-s22#69: [result](https://www.pangram.com/history/836e7b4d-23bb-4
 > Sometimes the easiest story is that they were fake all along, because it explains everything. Grab it only if it really is the simplest explanation of what happened. People who aren’t heavily invested in seeing your innocence can help you tell, and a therapist, pastor, or even a stranger may see the evidence more clearly than a lifelong friend. Even the curiosity itself can be therapeutic for you.
 > Spiritual practice during an ending is critical, but don’t use it to get around the feelings. Pray for your ex’s wellbeing. Remember what was real and good, and don’t use your pain as permission to hate them. Avoid the New Age belief that everyone is simply a mirror of you. No, that isn’t true. We partly mirror one another, but each person was formed by plenty that had nothing to do with you. No matter how enlightened the Buddha was, his cousin Devadatta still kept trying to kill him: looking honestly at your part doesn’t erase theirs. Sometimes it helps to ask, “What would Mr. Rogers do?” (if you’re old enough to remember that show).
 
-## 45. What I gained from loss (live 443)
+## 46. What I gained from loss (live 443)
 
 Read by romance-low-loss#109: [result](https://www.pangram.com/history/6300d010-72d8-43e3-826e-ce2e31686160).
 

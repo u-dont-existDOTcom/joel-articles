@@ -18,17 +18,18 @@ HERE = pathlib.Path(__file__).resolve().parent
 ROOT = HERE.parents[4]
 LEDGER = ROOT / 'articles' / 'romance' / 'humanize' / 'pangram-ledger.jsonl'
 
-# The best tested text of each section and spot, in the post's order (CURRENT-STATE.md, the 23:40 checkpoint). His S2
-# and S17 are in the sections that read Human, High with them (#117, #118); Romance and Idealization are in their section
-# checks (#122, #132), which take the places of S15's and S8's spot checks. Jealousy 367 to 369 (on his second marking
-# page, REVIEW-T2) and "Two Pillars" 332 (owner lock) stay as the live post has them.
+# The best tested text of each section and spot, in the post's order (CURRENT-STATE.md, the 2026-11-08 checkpoint). His S2
+# and S17 are in the sections that read Human, High with them (#117; #136, with his doubled "example" taken out);
+# Romance and Idealization are in their section checks (#122, #132), which take the places of S15's and S8's spot
+# checks. Jealousy 366 to 370 is his T2 answer, in the section check that read it Human with no Low (#135). "Two
+# Pillars" 332 (owner lock) stays as the live post has it.
 CHECKS = [
     ('romance-s1#1', 'S1'), ('romance-low-sit#100', 'Situationships'), ('romance-low-labels#84', 'Labels'),
     ('romance-sec-bypass#117', 'Spirituality to bypass intimacy (his S2)'),
     ('romance-s3#3', 'S3'), ('romance-low-deeper#97', 'It always goes deeper'), ('romance-low-clar#71', 'The window of clarity'),
     ('romance-low-peek#67', 'Peeking thru the window'), ('romance-low-convo#107', 'The conversation about flaws'),
     ('romance-low-flaws#61', 'My flaws'), ('romance-low-tricky#68', 'Things get tricky fast'),
-    ('romance-low-ideal#132', 'Beware idealization (S8, 147, 148)'),
+    ('romance-low-ideal#143', 'Beware idealization (S8, 145 to 151)'),
     ('romance-low-ptsd#73', 'Anti-PTSD'), ('romance-s6#30', 'S6'), ('romance-low-dam#70', 'Holding up a leaky dam'),
     ('romance-low-slow#96', 'Slow & steady'), ('romance-low-nitty#113', 'From flow to nitty gritty'),
     ('romance-sec-whole-world#44', 'Don’t make your partner your whole world'),
@@ -36,15 +37,15 @@ CHECKS = [
     ('romance-low-levels#102', 'Different levels in different domains'), ('romance-s14#21', 'S14'),
     ('romance-low-muses#81', 'Muses & Directors'), ('romance-low-romance#122', 'Romance (S15, 285 to 287)'), ('romance-low-fantasy#99', 'Fantasy'),
     ('romance-low-queen#82', 'The Queen of Orgasms'),
-    ('romance-sec-spiritual-sex#118', 'Can making love be a spiritual practice? (r20 and his S17)'),
+    ('romance-sec-spiritual-sex#136', 'Can making love be a spiritual practice? (r20 and his S17)'),
     ('romance-s18#25', 'S18'), ('romance-s19#32', 'S19'),
     ('romance-low-choosing#106', 'What are you actually choosing together?'),
-    ('romance-sec-vows#110', 'Which marriage vows are honest?'), ('romance-low-artificial#104', 'Why all of this sounds artificial'),
+    ('romance-sec-vows#110', 'Which marriage vows are honest?'),
+    ('romance-low-jeal#135', 'Jealousy on trial (his T2 answer)'), ('romance-low-artificial#104', 'Why all of this sounds artificial'),
     ('romance-low-gaslight#105', 'Gaslighting in the dark'), ('romance-s22#69', 'After leaving (S22)'),
     ('romance-low-loss#109', 'What I gained from loss'),
 ]
-KEEP = {332: 'Two Pillars 332 (owner lock)', 367: 'Jealousy 367 (his marking page, REVIEW-T2)',
-        368: 'Jealousy 368 (his marking page, REVIEW-T2)', 369: 'Jealousy 369 (his marking page, REVIEW-T2)'}
+KEEP = {332: 'Two Pillars 332 (owner lock)'}
 
 
 def norm(s):
@@ -101,14 +102,14 @@ RANGES = {
     'romance-s1#1': (27, 28), 'romance-low-sit#100': (33, 36), 'romance-low-labels#84': (38, 46), 'romance-s3#3': (65, 65),
     'romance-low-deeper#97': (69, 74), 'romance-low-clar#71': (105, 111), 'romance-low-peek#67': (113, 120),
     'romance-low-convo#107': (122, 128), 'romance-low-flaws#61': (130, 137), 'romance-low-tricky#68': (139, 141),
-    'romance-low-ideal#132': (143, 151), 'romance-sec-bypass#117': (53, 62), 'romance-low-ptsd#73': (153, 162), 'romance-s6#30': (102, 103),
+    'romance-low-ideal#143': (143, 151), 'romance-sec-bypass#117': (53, 62), 'romance-low-ptsd#73': (153, 162), 'romance-s6#30': (102, 103),
     'romance-low-dam#70': (175, 178), 'romance-low-slow#96': (180, 184), 'romance-low-nitty#113': (199, 201),
     'romance-sec-whole-world#44': (209, 216), 'romance-low-disc#88': (218, 224), 'romance-low-babies#101': (231, 241),
     'romance-low-levels#102': (243, 250), 'romance-s14#21': (258, 260), 'romance-low-muses#81': (262, 275),
     'romance-low-romance#122': (282, 290), 'romance-low-fantasy#99': (292, 297), 'romance-low-queen#82': (299, 302),
-    'romance-sec-spiritual-sex#118': (304, 317),
+    'romance-sec-spiritual-sex#136': (304, 317),
     'romance-s18#25': (331, 331), 'romance-s19#32': (334, 335), 'romance-low-choosing#106': (341, 347),
-    'romance-sec-vows#110': (349, 352), 'romance-low-artificial#104': (404, 413), 'romance-low-gaslight#105': (431, 435),
+    'romance-sec-vows#110': (349, 352), 'romance-low-jeal#135': (357, 370), 'romance-low-artificial#104': (404, 413), 'romance-low-gaslight#105': (431, 435),
     'romance-s22#69': (437, 441), 'romance-low-loss#109': (443, 456),
 }
 ops_all, taken = [], {}

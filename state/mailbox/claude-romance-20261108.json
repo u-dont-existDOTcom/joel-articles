@@ -1,0 +1,46 @@
+{
+ "about": "Each turn's mailbox check (tools/humanization/lane_mailbox.py; AGENTS.md, \"Suggested fixes from other projects\"). Newest last.",
+ "places": {
+  "uda-lane": "this repository's lane in universal-dev-architecture (suggested-fixes/joel-articles/), against docs/suggested-fixes-ledger.md",
+  "repo": "new issues and pull requests here, and new comments and reviews on any of them, replies on our own included",
+  "notes": "edits others made to the lane's handoff notes and owner questions pages since its last turn",
+  "runtime": "the messages the session's runtime queued for it"
+ },
+ "checks": [
+  {
+   "turn": "2026-11-08T15:07Z",
+   "lines_of_work": [
+    "romance article"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "UDA main b6185f7, unchanged since the last romance check (2026-11-07 18:08); its joel-articles lane as that check found it"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "main at 718224105 (#393 merged 11:23); no new romance issues or pull requests; the bad trips lane's branch already holds his round 24 answers (ANSWERS-R24-20261108-1501.json), so they were left to it"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no edits by anyone else to articles/romance since 2026-11-07 23:39"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "his message of 15:07 UTC with the T2 answers and the S17 correction"
+    }
+   ],
+   "items": [
+    {
+     "item": "his T2 answer and the doubled 'example'",
+     "outcome": "his jealousy version in (#135), S17 fixed (#136), Idealization's Low windows fixed (#143), drafts A and B re-pasted and their secret links made"
+    }
+   ],
+   "recorded_utc": "2026-11-08T15:57Z"
+  }
+ ]
+}

@@ -1,0 +1,24 @@
+{
+ "rewrite": "articles/romance/humanize/fix-20261107/whole/REWRITE-CHANGED-r27ideal.md",
+ "original": "articles/romance/humanize/fix-20261107/whole/ORIGINAL-CHANGED-r27ideal.md",
+ "parts": [
+  {
+   "part": 1,
+   "rewrite_words": 236,
+   "original_words": 214,
+   "first": "Beware idealization in either direction: the fixed version's paragraphs",
+   "last": "live 151",
+   "rewrite_blocks": [
+    0,
+    7
+   ],
+   "coverage": [
+    "30f34803cc83f957",
+    "c828f8ae5eb0ff48",
+    "51b589fb4e83ca31",
+    "5402b8f65e32530e",
+    "6846c38963c464e9"
+   ]
+  }
+ ]
+}
