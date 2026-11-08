@@ -1,7 +1,8 @@
 # Neuro de-armoring: what I need from Joel
 
 Last updated 2026-11-08, after your answers of 11:03 UTC.
-**Open questions: none.** **For you to do: nothing right now**; the next card page is section C's science.
+**Open questions: none.** **For you to do**: eight cards on
+[Neuro De-Armoring Cards, 8 November (2)](https://claude.ai/artifact/2JnJqQ6qFKy58V665J36U9) ([the same cards in Git](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/sci-cde/REVIEW-X1108B.md)), the science of sections C to E.
 
 Colours: 🟣 a question for you; 🟠 something for you to do; 🔵 next or in progress; 🟢 done or decided.
 
@@ -17,7 +18,11 @@ can read and update it. Every file it points to is a link.
 
 ## For you to do
 
-Nothing right now.
+- 🟠 **The science of sections C to E** ([the page](https://claude.ai/artifact/2JnJqQ6qFKy58V665J36U9), [in Git](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/sci-cde/REVIEW-X1108B.md)): eight cards. The Prozac claim (one small
+  trial, mixed since), why SSRIs fail some people (nobody knows; the ketone reason is from mice), DeltaFosB fading
+  slowly and what iboga and psilocybin were shown to do, brain fog in PTSD scans, ketones and PQQ as far as shown (the
+  shower sentence out), the Jammer promising fewer flashbacks rather than a permanently reduced sting, Color-Path
+  Connect labelled untested, and Perry's one-sixteenth.
 
 ## Your answers of 2026-11-08 11:03 UTC (the three cards), and what I did
 
