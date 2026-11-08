@@ -51,12 +51,12 @@
     {
      "place": "uda-lane",
      "status": "read",
-     "found": "UDA main 841f579: LESSON-INDEX adds owner-says-when-to-check (92) and widens the terminal-handoff rule to a new chat's first turn (87); its joel-articles lane's items are all in the ledger"
+     "found": "UDA main 841f579, as read at this turn's start"
     },
     {
      "place": "repo",
      "status": "read",
-     "found": "main merged here; no new romance issues, pull requests or comments"
+     "found": "main merged again before pushing (other lanes' merges only)"
     },
     {
      "place": "notes",
@@ -66,20 +66,20 @@
     {
      "place": "runtime",
      "status": "read",
-     "found": "his message of 16:47 UTC: the two whole-article results, yes to 366's fix, push access allowed"
+     "found": "his message of 16:47 UTC"
     }
    ],
    "items": [
     {
      "item": "his whole-article results",
-     "outcome": "recorded (RESULTS-whole-r27.json); the AI Low and Low windows fixed next by section checks"
+     "outcome": "seven of eight weak windows fixed (r28); Slow & steady 181 and the college friend on the third marking page"
     },
     {
      "item": "push access",
-     "outcome": "attached with push for joel-articles; this turn's and last turn's commits pushed"
+     "outcome": "attached; branch pushed, pull request 401 open with label hold (self-merge refused by this session's auto mode)"
     }
    ],
-   "recorded_utc": "2026-11-08T16:49Z"
+   "recorded_utc": "2026-11-08T17:03Z"
   }
  ]
 }
