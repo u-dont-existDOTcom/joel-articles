@@ -1,8 +1,8 @@
 # Neuro de-armoring: what I need from Joel
 
-Last updated 2026-11-08, after your answers of 11:03 UTC.
-**Open questions: none.** **For you to do**: eight cards on
-[Neuro De-Armoring Cards, 8 November (2)](https://claude.ai/artifact/2JnJqQ6qFKy58V665J36U9) ([the same cards in Git](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/sci-cde/REVIEW-X1108B.md)), the science of sections C to E.
+Last updated 2026-11-08, after your answers of 15:08 UTC.
+**Open questions: 0.** **For you to do**: two cards on
+[Neuro De-Armoring Cards, 8 November (3)](https://claude.ai/artifact/P31WvsRPFbnFdJGtZEFrYH) ([the same cards in Git](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/sci-p23/REVIEW-X1108C.md)), the science of Parts 2 and 3.
 
 Colours: 🟣 a question for you; 🟠 something for you to do; 🔵 next or in progress; 🟢 done or decided.
 
@@ -18,11 +18,23 @@ can read and update it. Every file it points to is a link.
 
 ## For you to do
 
-- 🟠 **The science of sections C to E** ([the page](https://claude.ai/artifact/2JnJqQ6qFKy58V665J36U9), [in Git](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/sci-cde/REVIEW-X1108B.md)): eight cards. The Prozac claim (one small
-  trial, mixed since), why SSRIs fail some people (nobody knows; the ketone reason is from mice), DeltaFosB fading
-  slowly and what iboga and psilocybin were shown to do, brain fog in PTSD scans, ketones and PQQ as far as shown (the
-  shower sentence out), the Jammer promising fewer flashbacks rather than a permanently reduced sting, Color-Path
-  Connect labelled untested, and Perry's one-sixteenth.
+- 🟠 **The science of Parts 2 and 3** ([the page](https://claude.ai/artifact/P31WvsRPFbnFdJGtZEFrYH), [in Git](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/sci-p23/REVIEW-X1108C.md)): two cards. Protein on the keto plan (little of
+  it becomes sugar; the limit is how much protein you can take), and potassium, where the brakes story turns out to be
+  backwards: low potassium makes nerves harder to fire. That card asks what you've seen potassium do in practice.
+
+## Your answers of 2026-11-08 15:08 UTC (the science of sections C to E), and what I did
+
+- 🟢 **All eight are in**: your five approvals, and your versions of the SSRI paragraph, why the drugs fail, and the
+  Unlock with your new paragraph. In your versions I fixed only typos ("these drugs work on", "That's a bit like",
+  "leg. This", "principal"), put back the citation links your paste dropped, and wrote your three new links the way
+  your other guide links are ([what changed](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/sci-cde/APPLIED-X1108B.json)).
+- 🟢 **Your four paragraphs each read Human Written by themselves**
+  ([the checks](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/sci-cde/b1508/RESULTS.md)):
+  the SSRI paragraph and your new paragraph one window High each; why the drugs fail High, with its last sentence (mine)
+  Low; the Unlock Medium, High, Medium.
+- 🟢 **Your three comments are lessons** ([the file](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/docs/lessons/2026-11-08-1508-neuro.md)): no benefit the sources don't show, and a
+  recommendation isn't evidence; where the article's argument answers its question, the answer stays; and a card that
+  cuts a claim to what the studies show asks what you know from practice.
 
 ## Your answers of 2026-11-08 11:03 UTC (the three cards), and what I did
 

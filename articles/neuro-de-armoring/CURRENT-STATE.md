@@ -22,7 +22,7 @@ Every paragraph and every section reads Human in Pangram, with the meaning kept 
 
 ## Current checkpoint
 
-`humanize/HUMANIZED-SO-FAR.md` (301782b9, after the 5-HTP interactions paragraph went in on 2026-11-04 at about 20:55 UTC; fb1168c8 before it, after his six versions of 18:09 UTC, the merge of the 5-HTP tool paragraph and the dash swap) is his post with the standard typographic swap and four paragraphs of his in: his three versions of 3 November and his "Who this is for" of 4 November, which reads Human (High) by itself. The uridine and 5-HTP sections read Human Written paragraph by paragraph (his versions, 2026-11-04, and the interactions paragraph, mine) except the 5-HTP stop signs, which went to him as a card after five versions read AI. 7 of the article's 160 paragraphs read Human by themselves. The whole article's free check waits in a temporary Substack draft for his extension's other account (its daily limit was reached). The article's warnings are checked against the research (`humanize/fix-20261104/warnings/WARNINGS-CHECK.md`); the cuts go to him as cards after question 4. Nothing has been changed in his post yet.
+`humanize/HUMANIZED-SO-FAR.md` (8be97d8f, after his answers of 2026-11-08 15:08 UTC on the science of sections C to E: five approvals and his three versions, `humanize/fix-20261108/sci-cde/APPLIED-X1108B.json`) is his post with the standard typographic swap, his versions and the science corrections he approved, section by section through E. The science of Parts 2 and 3 is on his cards (`humanize/fix-20261108/sci-p23/`, flags F-1 and F-11); after it, the protocol is read as a whole against the settled science, then the rest is humanized (lesson neuro-2026-11-08f). Nothing has been changed in his post yet.
 
 ## Remaining
 
@@ -30,7 +30,7 @@ The AI windows of every section, rewritten and checked; his cards; his post upda
 
 ## Blockers / unresolved
 
-Questions 3 and 4 (`humanize/OWNER-QUESTIONS.md`) and two cards on Neuro De-Armoring Cards, 4 November. The rest goes on a paragraph at a time meanwhile.
+Two cards on Neuro De-Armoring Cards, 8 November (3) (`humanize/fix-20261108/sci-p23/REVIEW-X1108C.md`); no open questions (`humanize/OWNER-QUESTIONS.md`). The coherence read goes on meanwhile where it doesn't depend on them.
 
 ## Evidence / artifacts
 

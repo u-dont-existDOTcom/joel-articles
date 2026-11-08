@@ -18,6 +18,22 @@ From an account with Desktop Commander connected to the laptop: "Continue my neu
 
 ## START HERE
 
+- **2026-11-08, after his answers of 15:08 UTC (the C-to-E science cards, sent from this account): all eight in, his
+  three versions Human; the science of Parts 2 and 3 is out on two cards.** HUMANIZED-SO-FAR.md is 8be97d8f
+  (`fix-20261108/sci-cde/apply_x1108b.py`, APPLIED-X1108B.json; FIDELITY owner_changes for x1108b: "1/24th" and Ipser &
+  Stein 2012 out, the PI31 link with the shower sentence). His four paragraphs read Human Written by themselves (batch
+  b1508, `fix-20261108/sci-cde/b1508/RESULTS.md`); my sentence ending block 48 ("Whether ketosis does that in people
+  hasn't been tested.") reads Human (Low): mine to fix in the humanizing pass (E373). Lessons neuro-2026-11-08g to i
+  (`docs/lessons/2026-11-08-1508-neuro.md`): no benefit the sources don't show, and a guideline isn't evidence; the
+  article's answer stays where its argument holds; a card that cuts a claim to the studies asks what he knows from
+  practice. **Next**: his answers on Neuro De-Armoring Cards, 8 November (3) (`fix-20261108/sci-p23/`, artifact
+  P31WvsRPFbnFdJGtZEFrYH, published from the account that also published the questions page 8cWv5mbXY8y53RL1nhvzky):
+  SC-97 (block 97, protein) and SC-106 (blocks 106 and 115, potassium; it asks what he has seen potassium do). On
+  approval put `sci-p23/<key>.md` in (texts_p23.py's start strings find the blocks; build_x1108c.py writes the .md
+  files). Then the coherence read of the whole protocol (lesson neuro-2026-11-08f): blocks 104, 105 and the potassium
+  target with his SC-106 answer, the shower routine of Part 3 (F-10), doses and timings across sections, warnings beside
+  their tools; changes on cards. Then the needed read and the humanizing of the rest, block 48's Low window among them.
+
 - **2026-11-08, after his answers of 11:03 UTC: SC-37, SC-38, SC-42 in; SC-37 rechecked (`fix-20261108/x1108a/RECHECK-SC37.md`).
   Order from here (lesson neuro-2026-11-08f): (1) the science, section by section from C (FACTS.md flags F-1, F-4, F-5,
   F-8 to F-11 where they fall), each on his cards; (2) the coherence read of the whole protocol against the settled

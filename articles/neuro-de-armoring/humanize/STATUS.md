@@ -1,5 +1,43 @@
 # Status: neuro de-armoring humanization (newest on top)
 
+## 2026-11-08, his answers of 15:08 UTC (the C-to-E science cards, x1108b, exported 11:59 UTC, sent from this account): all eight in; his three versions Human; lessons g to i; the science of Parts 2 and 3 on two cards
+
+His message and answers, word for word: `fix-20261108/joel-20261108-1508-message.txt` ("continuing from my other acct",
+with the handoff's address) and `fix-20261108/sci-cde/ANSWERS-X1108B-20261108-1508.json`. **The mailbox first**
+("2026-11-08 15:08"): main merged (718224105, pull request 393 of this lane, auto-merged); the UDA lane's three items
+not in the ledger got outcomes (`docs/suggested-fixes-ledger.md`: safety-layer cuts adopted, already followed here; the
+two Inner Child guide items deferred to that lane); UDA's AGENTS.md now says "Say each thing once", and its index adds
+89 (safety-layer cuts) and 90 (short-lived pull requests). No runtime notifications.
+
+- **Applied** (`fix-20261108/sci-cde/apply_x1108b.py`, APPLIED-X1108B.json): SC-24, SC-52, SC-53, SC-56 and SC-57 as
+  approved (texts_cde.py, checked equal to the cards he approved); his versions of SC-47, SC-48 and SC-50 read from his
+  answers file (not retyped), with the typos fixed ("these drugs work on", "That's a bit like", "leg. This",
+  "principal"), the citation links his paste dropped put back, his three new links written as his other guide links are,
+  and the trailing space gone. SC-50's version adds a paragraph of his, now block 51. FIDELITY-KEYS owner_changes entry
+  for x1108b ("1/24th" and 2012 out; the years of the new citations; citations_lost: Ipser & Stein 2012 and the PI31
+  link, each "on his card"). Fidelity PASS. HUMANIZED-SO-FAR.md 2e73a3b4 to 8be97d8f.
+- **His four paragraphs checked** (batch b1508, predictions first with `--his`; the web app in his Brave through Claude
+  in Chrome, after the app's browser pane showed "Verify you are human" and was signed out; `fix-20261108/sci-cde/b1508/RESULTS.md`):
+  block 47 Human Written, High 72; block 48 Human Written, High 90 and Low 10 (my last sentence, kept by him; the
+  ledger records it Mixed by its rule on a 0.014% AI fraction); block 50 Human Written, Medium 19, High 50, Medium 26;
+  block 51 (his new paragraph) Human Written, High 235. Two misses in my favour (47, 48), two right.
+- **Lessons** (`docs/lessons/2026-11-08-1508-neuro.md`): neuro-2026-11-08g (no benefit the sources don't show; a
+  guideline's recommendation is reported as what it recommends), neuro-2026-11-08h (the article's answer stays where its
+  argument holds; "nobody knows" only where the evidence says the question is open), neuro-2026-11-08i (a card that cuts
+  a claim to what the studies show says what that leaves the reader to act on and asks what he knows from practice).
+- **The science of Parts 2 and 3** (`fix-20261108/sci-p23/`: texts_p23.py, SCIENCE-P23.md, build_x1108c.py, receipts,
+  needed reads): SC-97 (block 97: lean protein doesn't keep you out of ketosis by turning into sugar, Fromentin 2013; the
+  limit is how much protein the body can take, Bilsborough & Mann 2006) and SC-106 (blocks 106 and 115: low potassium
+  makes nerves harder to fire, Kuwabara 2002, and more potassium moves them toward firing, Campese & Adenuga 2016;
+  adrenaline does lower blood potassium, Brown 1983; the card asks what he has seen potassium do). Sources opened through
+  PubMed. Fresh readers' needed reads (Haiku): SP97's keto-flu sentence is his and kept; SP106's "keep it from firing"
+  made clear as the reader asked. Published as Neuro De-Armoring Cards, 8 November (3)
+  (https://claude.ai/artifact/P31WvsRPFbnFdJGtZEFrYH, capabilities db and downloads; REVIEW-X1108C.md). Smoke test at 400
+  and 1,200 px: two cards, no sideways scroll, no errors. Questions page republished (8cWv5mbXY8y53RL1nhvzky, version 13).
+- **Predictions**: 4 (neuro-de-armoring/B047-his#178 to B051-his#181): two right, two misses in my favour.
+- **Delegations** (model, piece, check, outcome): two Haiku agents, the needed reads of SP97 and SP106 (BRIEF.txt only),
+  their notes weighed by me and recorded in each receipt: done.
+
 ## 2026-11-08, his answers of 11:03 UTC: SC-37, SC-38, SC-42 approved and in; SC-37 rechecked; the protocol coherence read planned
 
 - Applied (`fix-20261108/x1108a/apply_x1108a.py`, APPLIED-X1108A.json): T37b (no "swell"), T38b (NMDA the calcium door,
