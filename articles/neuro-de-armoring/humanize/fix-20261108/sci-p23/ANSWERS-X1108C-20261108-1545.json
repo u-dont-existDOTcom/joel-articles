@@ -1,0 +1,66 @@
+{
+ "format": "joel-suggestion-review-answers-v1",
+ "review_id": "neuro-de-armoring-cards-20261108-x1108c",
+ "title": "Neuro De-Armoring Cards, 8 November (3): the science of Parts 2 and 3",
+ "git_file": "articles/neuro-de-armoring/humanize/fix-20261108/sci-p23/REVIEW-X1108C.html",
+ "article": {
+  "file": "articles/neuro-de-armoring/humanize/HUMANIZED-SO-FAR.md",
+  "sha256": "8be97d8fbdc4010bd25f6a3645d6a01fb9eb4f62308a5844c4492afdda403048"
+ },
+ "built": "2026-11-08T15:35:48Z",
+ "generator": "suggestion_review.py 1.10 (2026-11-07)",
+ "exported_at": "2026-11-08T15:45:15.104Z",
+ "counts": {
+  "approved": 1,
+  "rejected": 0,
+  "revise": 1,
+  "pending": 0
+ },
+ "items": [
+  {
+   "id": "SC-97",
+   "type": "science",
+   "title": "Protein and ketosis: little of it becomes sugar; the limit is how much you can take",
+   "where": "Fixing ATP Signaling if Cortisol Isn't High, P4",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "For the long run there's Strategy B, the \"Resilience Mode\", a keto diet with carbs under 20g/day so your liver makes the ketones itself. That only works if fat becomes your fuel, so eat fat until you're full. Don't fill up on lean protein like chicken breast instead, since your body can only take so much protein: past about a third of your calories it can make you sick (Bilsborough & Mann, 2006), so the rest of your energy has to come from fat. Switching over often brings on the keto flu, and to avoid it, refer to my Keto Adaptation Guide.",
+   "before": "For the long run there's Strategy B, the \"Resilience Mode\", a keto diet with carbs under 20g/day so your liver makes the ketones itself. That only works if fat becomes your fuel, so eat fat until you're full. Don't fill up on lean protein like chicken breast instead, because your body turns the extra protein into sugar through gluconeogenesis, and that keeps you out of ketosis. Switching over often brings on the keto flu, and to avoid it, refer to my Keto Adaptation Guide.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-08T15:39:09.112Z"
+    }
+   ],
+   "updated": "2026-11-08T15:39:09.112Z"
+  },
+  {
+   "id": "SC-106",
+   "type": "science",
+   "title": "Potassium and the KCNQ brakes: low potassium makes nerves harder to fire, not easier",
+   "where": "1. Electrolytes (Choose Your Path), P5",
+   "advice": "approve",
+   "status": "revise",
+   "your_version": "look at what gpt is saying: Claude is correct about the basic electrophysiology of low extracellular potassium, but its proposed correction is still oversimplified. Your intuition about potassium being essential for keeping neurons stable is also correct. The apparent contradiction comes from confusing potassium concentration with potassium-channel function.\n\n### What the experiments show\n\nA particularly relevant 2002 study by Kuwabara and colleagues measured nerve excitability in a human patient during severe hypokalemia (blood potassium 2.1 mmol/L).\n\nThe researchers found that:\n\n- The axons became hyperpolarized, meaning their resting voltage became more negative.\n- A stronger electrical stimulus was needed to activate them.\n- These abnormalities reversed when potassium normalized.\n\nSo Claude's central claim that lower extracellular potassium can make nerve cells harder to excite is supported by direct human measurements.&#x20;\n\n[image](https://www.google.com/s2/favicons?domain=https://pubmed.ncbi.nlm.nih.gov\\&sz=32)\n\npubmed.ncbi.nlm.nih.gov\n\n\n\nHowever, that study examined peripheral motor axons during severe hypokalemia. It did not establish that psychological stress quiets brain neurons through the same mechanism.\n\n### Why your objection is justified\n\nA 2001 experiment by Gorji and colleagues investigated hippocampal neurons, rather than peripheral motor nerves.\n\nThey lowered extracellular potassium from 4 to 2 mmol/L and observed:\n\n1. Initial neuronal hyperpolarization, as Claude predicts.\n2. Subsequent repolarization and depolarization.\n3. Spontaneous epileptiform electrical discharges, demonstrating that the network became abnormally active despite the initial hyperpolarization.\n\nThis is a direct counterexample to the simplistic claim that low extracellular potassium always makes neurons quieter.&#x20;\n\n[image](https://www.google.com/s2/favicons?domain=https://pubmed.ncbi.nlm.nih.gov\\&sz=32)\n\npubmed.ncbi.nlm.nih.gov\n\n\n\nThere is also a more fundamental problem with the article's proposed mechanism: blood potassium and brain extracellular potassium are regulated separately.\n\nThe blood–brain barrier maintains brain extracellular potassium at approximately 2.5–3 mmol/L despite fluctuations in blood potassium. Consequently, a temporary adrenaline-driven drop in blood potassium does not establish that potassium around brain neurons falls correspondingly.&#x20;\n\n[image](https://www.google.com/s2/favicons?domain=https://pmc.ncbi.nlm.nih.gov\\&sz=32)\n\npmc.ncbi.nlm.nih.gov+1\n\n\n\nAnd importantly, reduced KCNQ channel function can itself increase neuronal excitability and predispose to seizures. That is well established, but it is a different mechanism from lowering extracellular potassium concentration.&#x20;\n\n[image](https://www.google.com/s2/favicons?domain=https://www.ncbi.nlm.nih.gov\\&sz=32)\n\nncbi.nlm.nih.gov\n\n\n\n### What Claude got right and wrong\n\n| Claim                                                                        | Verdict     |\n| ---------------------------------------------------------------------------- | ----------- |\n| KCNQ channels help prevent repetitive firing                                 | Correct     |\n| Adrenaline can lower blood potassium                                         | Correct     |\n| Low extracellular potassium initially hyperpolarizes many neurons            | Correct     |\n| Low potassium always makes neurons quieter                                   | Incorrect   |\n| Stress-related blood potassium changes directly control brain KCNQ activity  | Unsupported |\n| Eating potassium-rich foods restores KCNQ brakes during psychological stress | Unproven    |\n\nThe Brown et al. (1983) study cited in the screenshot is legitimate: experimentally administered adrenaline lowered blood potassium by about 0.82 mmol/L in six volunteers. But this reflected redistribution of potassium into cells, not necessarily a deficiency that needed dietary replacement.&#x20;\n\n[image](https://www.google.com/s2/favicons?domain=https://pubmed.ncbi.nlm.nih.gov\\&sz=32)\n\npubmed.ncbi.nlm.nih.gov\n\n\n\n### What I would put in your article\n\n**The Science:** Your neurons have electrical brakes called **KCNQ potassium channels**. They help prevent excessive repetitive firing by allowing potassium to flow out of neurons. Disrupting these channels can make neurons hyperexcitable.\n\nPotassium balance matters, but the relationship is complicated. Low extracellular potassium initially makes many neurons harder to activate, yet experiments also show that sufficiently low potassium can produce abnormal electrical bursts in hippocampal networks. Furthermore, the brain regulates its potassium concentration separately from the blood.\n\n**The Strategy:** Eat a varied diet containing potassium-rich foods, such as potatoes, beans, and leafy greens, to support normal nerve function. This supports general electrolyte balance, although it has not been shown to restore KCNQ activity or reverse stress-related neural hyperexcitability.\n\nI would preserve your potassium-rich food recommendation as a nutritional strategy, but remove the claim that stress-induced low blood potassium directly disables KCNQ channels. The fixed daily quantity of potatoes and greens also need not be prescribed universally, particularly for people with impaired kidney function.\n\nBottom line: Your objection identifies a real weakness in Claude's reasoning. Its hyperpolarization claim is correct, but its broader interpretation overlooks experimental evidence that low extracellular potassium can also destabilize neuronal networks. Neither Claude nor Gemini has established the proposed dietary potassium → KCNQ → reduced hypervigilance pathway.",
+   "comment": "",
+   "my_version": "The Science: Your neurons have \"brakes\" called KCNQ channels, which keep a neuron from firing over and over by letting potassium out of it. Stress does lower the potassium in your blood, since adrenaline pushes it into your cells (Brown, et al, 1983), but with less potassium outside them, nerve cells rest farther from firing, not closer (Kuwabara, et al, 2002).\n\nThe Strategy: Eat 2 large potatoes and 2 cups of greens every single day.",
+   "before": "The Science: Your neurons have \"brakes\" called KCNQ channels that stop them from firing uncontrollably. These brakes run on Potassium ions. If you are low on potassium (common in high stress), your brakes fail. You can push the pedal (breathe), but the car won't stop.\n\nThe Strategy: Eat 2 large potatoes and 2 cups of greens every single day. This saturates your cells, lowering your \"resting voltage\" so you become physically harder to trigger.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "rejected",
+     "at": "2026-11-08T15:44:54.352Z"
+    },
+    {
+     "from": "rejected",
+     "to": "revise",
+     "at": "2026-11-08T15:44:58.465Z"
+    }
+   ],
+   "updated": "2026-11-08T15:45:08.314Z"
+  }
+ ]
+}

@@ -1,8 +1,8 @@
 # Neuro de-armoring: what I need from Joel
 
-Last updated 2026-11-08, after your answers of 15:08 UTC.
-**Open questions: 0.** **For you to do**: two cards on
-[Neuro De-Armoring Cards, 8 November (3)](https://claude.ai/artifact/P31WvsRPFbnFdJGtZEFrYH) ([the same cards in Git](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/sci-p23/REVIEW-X1108C.md)), the science of Parts 2 and 3.
+Last updated 2026-11-08, after your answers of 15:45 UTC.
+**Open questions: 0.** **For you to do**: one card on
+[Neuro De-Armoring Cards, 8 November (4)](https://claude.ai/artifact/9nENpt9AEJCB43a9Wy5jqn) ([the same card in Git](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/sci-p23/REVIEW-X1108D.md)), potassium after GPT's critique.
 
 Colours: 🟣 a question for you; 🟠 something for you to do; 🔵 next or in progress; 🟢 done or decided.
 
@@ -18,9 +18,15 @@ can read and update it. Every file it points to is a link.
 
 ## For you to do
 
-- 🟠 **The science of Parts 2 and 3** ([the page](https://claude.ai/artifact/P31WvsRPFbnFdJGtZEFrYH), [in Git](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/sci-p23/REVIEW-X1108C.md)): two cards. Protein on the keto plan (little of
-  it becomes sugar; the limit is how much protein you can take), and potassium, where the brakes story turns out to be
-  backwards: low potassium makes nerves harder to fire. That card asks what you've seen potassium do in practice.
+- 🟠 **Potassium, after GPT's critique** ([the page](https://claude.ai/artifact/9nENpt9AEJCB43a9Wy5jqn), [in Git](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/sci-p23/REVIEW-X1108D.md)): one card. GPT's facts hold, and the one that settles it is that your brain keeps its own potassium steady, so neither stress nor diet works the brakes. What holds for eating potassium is high blood pressure, and the card puts that in the paragraph.
+
+## Your answers of 2026-11-08 15:45 UTC (protein and potassium), and what I did
+
+- 🟢 **Protein (SC-97) is in**, as you approved it.
+- 🟢 **Each of GPT's points checked against its source**
+  ([the check](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/sci-p23/SCIENCE-P23.md)): they hold. My card
+  had stated one patient's arm and leg nerves as what all nerve cells do, and missed that the brain holds its own
+  potassium; that's a lesson now ([the file](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/docs/lessons/2026-11-08-1545-neuro.md)).
 
 ## Your answers of 2026-11-08 15:08 UTC (the science of sections C to E), and what I did
 

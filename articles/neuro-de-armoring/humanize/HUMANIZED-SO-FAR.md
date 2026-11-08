@@ -193,7 +193,7 @@ You must pick one of two ketone strategies, because the salts in one bring their
 
 [image 3](https://substackcdn.com/image/fetch/$s_!8q8r!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fddfc5f6a-2896-48cf-a63e-f42157ac505e_641x420.png)
 
-For the long run there's Strategy B, the "Resilience Mode", a keto diet with carbs under 20g/day so your liver makes the ketones itself. That only works if fat becomes your fuel, so eat fat until you're full. Don't fill up on lean protein like chicken breast instead, because your body turns the extra protein into sugar through gluconeogenesis, and that keeps you out of ketosis. Switching over often brings on the keto flu, and to avoid it, refer to my [Keto Adaptation Guide](http://ketoflu.u-dont-exist.com/).
+For the long run there's Strategy B, the "Resilience Mode", a keto diet with carbs under 20g/day so your liver makes the ketones itself. That only works if fat becomes your fuel, so eat fat until you're full. Don't fill up on lean protein like chicken breast instead, since your body can only take so much protein: past about a third of your calories it can make you sick ([Bilsborough & Mann, 2006](https://pubmed.ncbi.nlm.nih.gov/16779921/)), so the rest of your energy has to come from fat. Switching over often brings on the keto flu, and to avoid it, refer to my [Keto Adaptation Guide](http://ketoflu.u-dont-exist.com/).
 
 [image 4](https://substackcdn.com/image/fetch/$s_!Gd-0!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3f50e963-b7ee-4211-8c03-1748bbef3507_631x378.png)
 

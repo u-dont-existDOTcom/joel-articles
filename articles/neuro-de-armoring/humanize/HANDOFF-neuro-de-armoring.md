@@ -18,6 +18,25 @@ From an account with Desktop Commander connected to the laptop: "Continue my neu
 
 ## START HERE
 
+- **2026-11-08, after his answers of 15:45 UTC (x1108c): SC-97 (protein) in; SC-106 came back to revise with GPT's
+  critique, every point checked, and SC-106b is out.** HUMANIZED-SO-FAR.md is 8de00b80 (`fix-20261108/sci-p23/apply_x1108c.py`,
+  APPLIED-X1108C.json; FIDELITY owner_changes for SC-97: 2006 new, W051 without "gluconeogenesis"). GPT's facts hold
+  (`sci-p23/SCIENCE-P23.md`, "SC-106 revised"); what settles it is that the brain holds its own potassium (Hladky &
+  Barrand 2016), so neither stress nor diet works the KCNQ brakes; what holds for eating potassium is high blood
+  pressure (Aburto 2013). Lesson neuro-2026-11-08j (`docs/lessons/2026-11-08-1545-neuro.md`): a finding is stated for
+  the tissue, species, level and condition it was measured in; a correction never swaps one simple story for its
+  opposite. **Next**: his answer on Neuro De-Armoring Cards, 8 November (4) (artifact 9nENpt9AEJCB43a9Wy5jqn, published
+  from the account that also published the questions page 8cWv5mbXY8y53RL1nhvzky; `sci-p23/REVIEW-X1108D.md`): SC-106b
+  cuts blocks 104 and 105, gives block 106 the blood-pressure reason, and cuts block 115's second sentence. On approval
+  put `sci-p23/SP106B.md` and `SP115D.md` in and cut the two label blocks (texts_x1108d.py's start strings find them),
+  with a FIDELITY owner_changes entry (2013 new; the labels' keys, if any) and my comparative read. If he drops the
+  potassium step, blocks 103 to 115 go, recorded the same way. Then the coherence read of the whole protocol (lesson
+  neuro-2026-11-08f), from `fix-20261108/coherence/EXTRACT.md` (every dose, timing and warning with its line, and 17
+  places the text disagrees with itself, extracted, not judged; judge each against the settled science): Part 3's goal line (block 100: "Stabilize voltage ... (Headaches/Panic)", which potassium no longer
+  serves), the kidney caution beside the potassium step (it's at the top now), the shower routine of Part 3 (F-10),
+  doses and timings across sections, warnings beside their tools; changes on cards. Then the needed read and the
+  humanizing of the rest, block 48's Low window among them.
+
 - **2026-11-08, after his answers of 15:08 UTC (the C-to-E science cards, sent from this account): all eight in, his
   three versions Human; the science of Parts 2 and 3 is out on two cards.** HUMANIZED-SO-FAR.md is 8be97d8f
   (`fix-20261108/sci-cde/apply_x1108b.py`, APPLIED-X1108B.json; FIDELITY owner_changes for x1108b: "1/24th" and Ipser &

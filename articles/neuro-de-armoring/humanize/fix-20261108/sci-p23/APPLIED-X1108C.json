@@ -1,0 +1,20 @@
+{
+ "about": "his answers on x1108c (2026-11-08 15:45 UTC): SC-97 approved; SC-106 revise, with GPT's critique",
+ "answers": "ANSWERS-X1108C-20261108-1545.json",
+ "before_sha256": "8be97d8fbdc4010bd25f6a3645d6a01fb9eb4f62308a5844c4492afdda403048",
+ "after_sha256": "8de00b80f581bfd64ccc17331bf39d69773f56b54eedabf00f73418ab78b892f",
+ "cards": {
+  "SC-97": {
+   "status": "approved",
+   "line": 196,
+   "old": "For the long run there's Strategy B, the \"Resilience Mode\", a keto diet with carbs under 20g/day so your liver makes the ketones itself. That only works if fat becomes your fuel, so eat fat until you're full. Don't fill up on lean protein like chicken breast instead, because your body turns the extra protein into sugar through gluconeogenesis, and that keeps you out of ketosis. Switching over often brings on the keto flu, and to avoid it, refer to my [Keto Adaptation Guide](http://ketoflu.u-dont-exist.com/).",
+   "new": "For the long run there's Strategy B, the \"Resilience Mode\", a keto diet with carbs under 20g/day so your liver makes the ketones itself. That only works if fat becomes your fuel, so eat fat until you're full. Don't fill up on lean protein like chicken breast instead, since your body can only take so much protein: past about a third of your calories it can make you sick ([Bilsborough & Mann, 2006](https://pubmed.ncbi.nlm.nih.gov/16779921/)), so the rest of your energy has to come from fat. Switching over often brings on the keto flu, and to avoid it, refer to my [Keto Adaptation Guide](http://ketoflu.u-dont-exist.com/)."
+  },
+  "SC-106": {
+   "status": "revise",
+   "applied": false,
+   "why": "his box holds GPT's critique of the card, not text for the article; its points checked against their sources and what holds put on SC-106b (x1108d)",
+   "his_box_sha256": "1a810dbf54d65f5078d55661af363fe213d2a39e118539c41e1764b8efa0b9a7"
+  }
+ }
+}
