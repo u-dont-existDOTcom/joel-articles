@@ -228,7 +228,7 @@ Matthew 5:33–37 and James 5:12 make the wedding vow itself look even more susp
 
 ## 41. Jealousy on trial (his T2 answer) (live 366, 367, 368, 369, 370)
 
-I do believe two people can choose sexual exclusivity honestly. They can admit that attraction to other people exists and decide not to act on it each day. And even better than simply suppressing it, I agree with Esther Perel, who writes that this sexual energy felt outside the relationship can be used and redirected into the relationship to make it more alive.
+I do believe two people can choose sexual exclusivity honestly. They can admit that attraction to other people exists and decide not to act on it each day. And even better than simply suppressing it, they can put it to work. I agree with Esther Perel, who writes that this sexual energy felt outside the relationship can be used and redirected into the relationship to make it more alive.
 
 Imagine if you and your partner both saw those outside attractions as beneficial energy sources rather than a threat to your relationship. It sure would beat beating around the bush because of fear and jealousy. You can start playing around with opening up about the minor, momentary attractions, rather than wait in hiding until a serious crush is dramatically confessed.
 

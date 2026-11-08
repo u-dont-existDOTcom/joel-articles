@@ -552,7 +552,7 @@ Read by romance-sec-vows#110: [result](https://www.pangram.com/history/5b6a00ff-
 
 ## 41. Jealousy on trial (his T2 answer) (live 366, 367, 368, 369, 370)
 
-Read by romance-low-jeal#135: [result](https://www.pangram.com/history/d00216d9-49ef-4351-bfd1-df2165ff14da).
+Read by romance-low-jeal#137: [result](https://www.pangram.com/history/367c7b3d-e9c8-4206-bb32-7e167b3e7039).
 
 **Live:**
 
@@ -564,7 +564,7 @@ Read by romance-low-jeal#135: [result](https://www.pangram.com/history/d00216d9-
 
 **New:**
 
-> I do believe two people can choose sexual exclusivity honestly. They can admit that attraction to other people exists and decide not to act on it each day. And even better than simply suppressing it, I agree with Esther Perel, who writes that this sexual energy felt outside the relationship can be used and redirected into the relationship to make it more alive.
+> I do believe two people can choose sexual exclusivity honestly. They can admit that attraction to other people exists and decide not to act on it each day. And even better than simply suppressing it, they can put it to work. I agree with Esther Perel, who writes that this sexual energy felt outside the relationship can be used and redirected into the relationship to make it more alive.
 > Imagine if you and your partner both saw those outside attractions as beneficial energy sources rather than a threat to your relationship. It sure would beat beating around the bush because of fear and jealousy. You can start playing around with opening up about the minor, momentary attractions, rather than wait in hiding until a serious crush is dramatically confessed.
 > Lots of couples promise forever to each other and nobody else. Look around at how many actually live that way. On the other hand, in a polyamorous relationship, the boundaries might be more negotiable, but then somebody has to sit down and negotiate them, down to who gets to stay the night. That can end up sometimes creating more drama than it's worth.
 > Polyamory can also be a way of escaping deeper intimacy, like my one poly college friend who boasted about having 4 girlfriends, but admitted to me that he felt deeply unhappy. Or it can be a way of escaping guilt, like when someone keeps cheating until they finally "come out of the closet" as poly, as if that solves their prior dishonesty. But they are right to finally come clean and hopefully avoid that dishonesty in future.

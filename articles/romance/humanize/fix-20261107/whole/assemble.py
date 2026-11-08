@@ -41,7 +41,7 @@ CHECKS = [
     ('romance-s18#25', 'S18'), ('romance-s19#32', 'S19'),
     ('romance-low-choosing#106', 'What are you actually choosing together?'),
     ('romance-sec-vows#110', 'Which marriage vows are honest?'),
-    ('romance-low-jeal#135', 'Jealousy on trial (his T2 answer)'), ('romance-low-artificial#104', 'Why all of this sounds artificial'),
+    ('romance-low-jeal#137', 'Jealousy on trial (his T2 answer)'), ('romance-low-artificial#104', 'Why all of this sounds artificial'),
     ('romance-low-gaslight#105', 'Gaslighting in the dark'), ('romance-s22#69', 'After leaving (S22)'),
     ('romance-low-loss#109', 'What I gained from loss'),
 ]
@@ -109,7 +109,7 @@ RANGES = {
     'romance-low-romance#122': (282, 290), 'romance-low-fantasy#99': (292, 297), 'romance-low-queen#82': (299, 302),
     'romance-sec-spiritual-sex#136': (304, 317),
     'romance-s18#25': (331, 331), 'romance-s19#32': (334, 335), 'romance-low-choosing#106': (341, 347),
-    'romance-sec-vows#110': (349, 352), 'romance-low-jeal#135': (357, 370), 'romance-low-artificial#104': (404, 413), 'romance-low-gaslight#105': (431, 435),
+    'romance-sec-vows#110': (349, 352), 'romance-low-jeal#137': (357, 370), 'romance-low-artificial#104': (404, 413), 'romance-low-gaslight#105': (431, 435),
     'romance-s22#69': (437, 441), 'romance-low-loss#109': (443, 456),
 }
 ops_all, taken = [], {}
