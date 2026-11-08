@@ -911,6 +911,41 @@
     }
    ],
    "recorded_utc": "2026-11-07T13:50Z"
+  },
+  {
+   "turn": "2026-11-08T00:49Z",
+   "lines_of_work": [
+    "neuro de-armoring"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "six items, all in the ledger; UDA main b6185f7, AGENTS.md and LESSON-INDEX unchanged"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "373 merged; main merged here (2bbec225, romance 390, bad trips 389): new lessons bad-trips-2026-11-07d to k and romance-2026-11-07a to d, read; no open pull request of this lane; no new issues"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no edits by others to this lane's handoff note or questions page"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "373's merge notices only"
+    }
+   ],
+   "items": [
+    {
+     "item": "His answers to the two teaching paragraphs (2026-11-08 00:49 UTC, ANSWERS-X1107C-20261108-0049.json): T-37 his version, all High (his Pangram checks 02f568ff and b1bd7488); T-38 cut to the basic facts, 'did you even read what you had there? it was making no sense ... it seems like you're doing anything possible to preserve prose even if it doesn't help the reader. fix that durably.'",
+     "outcome": "apply both after their science check; the durable fix: a sentence stays only if the reader needs it for the paragraph's job, enforced where I decide what to keep; carry his move (cut to what the reader needs) to blocks 39 to 41"
+    }
+   ],
+   "recorded_utc": "2026-11-08T00:51Z"
   }
  ]
 }

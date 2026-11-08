@@ -1,0 +1,56 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-08",
+ "text_sha256": "dbeb8952ce84368fca3c577d51f6e21a170b64c7bd7baeabdca07aa731841e62",
+ "text": "The Fix (\"Lock, Stock, and Barrel\"): The Brake (NAC): NAC gives the brain's support cells cystine (an amino acid), which they trade for glutamate, and in rats that glutamate sitting outside the synapse turns on a brake that cuts how much glutamate gets released into it (Moran, et al, 2005).",
+ "section": "B. The \"Overheating\" CPU: Glutamate Excitotoxicity",
+ "reader": "someone with trauma or in withdrawal who is anxious, wired or raging, deciding which of the protocol's tools to take and how to run their therapy sessions",
+ "sentences": [
+  {
+   "s": "The Fix (\"Lock, Stock, and Barrel\"): The Brake (NAC): NAC gives the brain's support cells cystine (an amino acid), which they trade for glutamate, and in rats that glutamate sitting outside the synapse turns on a brake that cuts how much glutamate gets released into it (Moran, et al, 2005).",
+   "payoff": "they learn what NAC does for them: it turns down how much glutamate gets released",
+   "follows": "it continues the paragraph before, or the sentence before, in the order the reader needs"
+  }
+ ],
+ "checked": [
+  {
+   "point": "NAC \"clears the flood by exchanging glutamate for cystine\" (the Vacuum)",
+   "found": "the swap raises glutamate outside the synapse, which trips mGluR2/3 and cuts release into it (Moran 2005, rats)",
+   "still_needed": "yes: they take NAC knowing it turns release down rather than mopping up",
+   "fate": "changed"
+  }
+ ],
+ "placement": "where the block is now in section B; its place is unchanged",
+ "opens": {
+  "first_sentence": "The Fix (\"Lock, Stock, and Barrel\"): The Brake (NAC): NAC gives the brain's support cells cystine (an amino acid), which they trade for glutamate, and in rats that glutamate sitting outside the synapse turns on a brake that cuts how much glutamate gets released into it (Moran, et al, 2005).",
+  "why_reading": "it tells the reader what NAC does for them before they take its dose"
+ },
+ "same_point": "none: read the Fix list from its heading to section C for what each tool does; NAC is in it once",
+ "needed": {
+  "reader": "a fresh reader (Haiku) given tools/humanization/needed_read_brief.md and only this paragraph, its heading and what it is for: needed/b040/READ.md",
+  "unneeded": [],
+  "kept": {}
+ },
+ "questions": {
+  "Q1": "PASS: each sentence opens on its point",
+  "Q2": "N/A: no instruction except the session advice, whose reason is in the same sentence",
+  "Q3": "PASS: each thing is named exactly",
+  "Q4": "PASS: exposure therapy and cystine explained where first used; NMDA from the paragraphs before",
+  "Q5": "PASS: each \"so\", \"but\" and \"since\" turns on the clause before",
+  "Q6": "PASS: in the order the reader needs",
+  "Q7": "PASS: each fact is about a tool the reader takes",
+  "Q8": "N/A: no group inside the paragraph",
+  "Q9": "PASS: the small words that carry the relation kept"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

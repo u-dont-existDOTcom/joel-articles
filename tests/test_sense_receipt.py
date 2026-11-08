@@ -27,6 +27,7 @@ def filled(text=TEXT, his='', whose='his own: a test line he wrote into the guid
     r['placement'] = 'after the cannabis paragraphs, because it carries on from CBD taken other ways'
     r['opens']['why_reading'] = 'they learn up front that the gel is not something to count on for them'
     r['same_point'] = 'none: read the Active Seizure section from its heading to the next for topical CBD'
+    r['needed'] = {'reader': 'a fresh reader given needed_read_brief.md', 'unneeded': [], 'kept': {}}
     r['questions'] = {q: 'PASS: checked against this text' for q in R.QUESTIONS}
     return r
 
@@ -132,6 +133,48 @@ class Check(unittest.TestCase):
             rp = pathlib.Path(d, 'r.json')
             rp.write_text(json.dumps(filled()), encoding='utf-8')
             self.assertEqual(R.check_files(t, rp), [])
+
+
+class Needed(unittest.TestCase):
+    """Gate neuro-2026-11-08a: a fresh reader's needed read, and a sentence it lists is cut or kept for a reader's use."""
+    T = 'D-serine opens the GluD channels. A mutation behind one ataxia leaves them leaking.'
+
+    def receipt(self, **kw):
+        r = R.make(self.T, 'B. Section', 'someone deciding whether to take D-serine')
+        for i, x in enumerate(r['sentences']):
+            x['payoff'] = 'they learn what the tool does at the receptor, which is why it is here'
+            x['follows'] = 'it follows the heading, or the sentence before it, on the same receptor'
+            if 'link' in x:
+                x['link'] = 'none: it opens on its own subject, the same receptor named again'
+        r['placement'] = 'the GluD paragraph, after the NMDA one, before the D-serine one'
+        r['opens']['why_reading'] = 'it tells the reader what D-serine does, the tool they are about to take'
+        r['same_point'] = 'none: read the section from its heading to the next for the receptor points'
+        r['questions'] = {q: 'PASS: the evidence is in the text, sentence by sentence' for q in R.QUESTIONS}
+        r['needed'] = dict({'reader': 'a fresh reader with needed_read_brief.md', 'unneeded': [], 'kept': {}},
+                           **kw.get('needed', {}))
+        r['checked'] = kw.get('checked', [])
+        return r
+
+    def probs(self, r):
+        return [x for x in R.check(self.T, r) if x.startswith('needed') or x.startswith('checked')]
+
+    def test_a_listed_sentence_left_in_fails_until_cut_or_kept_for_a_use(self):
+        u = 'A mutation behind one ataxia leaves them leaking.'
+        self.assertTrue(self.probs(self.receipt(needed={'unneeded': [u]})))
+        self.assertTrue(self.probs(self.receipt(needed={'unneeded': [u], 'kept': {u: 'it is sourced and true'}})))
+        self.assertFalse(self.probs(self.receipt(needed={'unneeded': [u], 'kept': {
+            u: 'they know the leak is what goes wrong, so they stop if their own balance worsens'}})))
+
+    def test_no_needed_read_fails(self):
+        r = self.receipt()
+        r['needed']['reader'] = ''
+        self.assertTrue(self.probs(r))
+
+    def test_still_needed_says_what_the_reader_does_not_why_the_claim_holds(self):
+        c = {'point': 'the leak', 'found': 'Allen 2023', 'fate': 'changed'}
+        self.assertTrue(self.probs(self.receipt(checked=[dict(c, still_needed='yes: the guess has a mechanism')])))
+        self.assertFalse(self.probs(self.receipt(checked=[dict(c, still_needed='yes: they take D-serine knowing what '
+                                                                            'it opens')])))
 
 
 if __name__ == '__main__':

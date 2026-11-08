@@ -1,0 +1,82 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-08",
+ "text_sha256": "c8e48603285c255ca7dfbb64079a6f24b7db1e7cffe3c05ed41e90b72b7a3da5",
+ "text": "D-serine may help therapy update old memories, since it switches on a spot on the NMDA receptor that this kind of learning needs (Wolosker, et al, 1999). But the drug that's actually been tested alongside exposure therapy (facing the feared thing in small, safe doses) is a different one, D-cycloserine (DCS), which works on that same spot, and across 21 trials with over 1,000 patients it gave the therapy a small boost (Mataix-Cols, et al, 2017). So what does it actually do? It doesn't erase fear, it strengthens whatever you learn in the session, good or bad. End the session with the fear down and some sense of mastery, and DCS (and maybe D-serine) helps that stick; end it overwhelmed, and it can lock in the fear instead (Smits, et al, 2013).",
+ "section": "B. The \"Overheating\" CPU: Glutamate Excitotoxicity",
+ "reader": "someone with trauma or in withdrawal who is anxious, wired or raging, deciding which of the protocol's tools to take and how to run their therapy sessions",
+ "sentences": [
+  {
+   "s": "D-serine may help therapy update old memories, since it switches on a spot on the NMDA receptor that this kind of learning needs (Wolosker, et al, 1999).",
+   "payoff": "they learn why D-serine is in the protocol: it may help therapy update old memories",
+   "follows": "it continues the paragraph before, or the sentence before, in the order the reader needs"
+  },
+  {
+   "s": "But the drug that's actually been tested alongside exposure therapy (facing the feared thing in small, safe doses) is a different one, D-cycloserine (DCS), which works on that same spot, and across 21 trials with over 1,000 patients it gave the therapy a small boost (Mataix-Cols, et al, 2017).",
+   "payoff": "they learn that the tested drug is a different one, and how much it helped",
+   "follows": "it continues the paragraph before, or the sentence before, in the order the reader needs",
+   "link": "But the drug"
+  },
+  {
+   "s": "So what does it actually do?",
+   "payoff": "they learn the question they now have, what the drug does in a session",
+   "follows": "it continues the paragraph before, or the sentence before, in the order the reader needs",
+   "link": "So what does it actually do?"
+  },
+  {
+   "s": "It doesn't erase fear, it strengthens whatever you learn in the session, good or bad.",
+   "payoff": "they learn that it strengthens whatever they learn, good or bad",
+   "follows": "it continues the paragraph before, or the sentence before, in the order the reader needs",
+   "link": "It doesn't erase fear"
+  },
+  {
+   "s": "End the session with the fear down and some sense of mastery, and DCS (and maybe D-serine) helps that stick; end it overwhelmed, and it can lock in the fear instead (Smits, et al, 2013).",
+   "payoff": "they learn how to end a session, and what happens if they don't",
+   "follows": "it continues the paragraph before, or the sentence before, in the order the reader needs",
+   "link": "End the session"
+  }
+ ],
+ "checked": [
+  {
+   "point": "\"The specific drug form studied is D-cycloserine\", with evidence as an augmenter",
+   "found": "DCS is a different drug at the same NMDA spot (Smits 2013); 21 trials, 1,047 patients, a small effect (Mataix-Cols 2017); it helped after sessions that ended with low fear",
+   "still_needed": "yes: they end their own sessions with the fear down, which is what the evidence says matters",
+   "fate": "changed"
+  }
+ ],
+ "placement": "where the block is now in section B; its place is unchanged",
+ "opens": {
+  "first_sentence": "D-serine may help therapy update old memories, since it switches on a spot on the NMDA receptor that this kind of learning needs (Wolosker, et al, 1999).",
+  "why_reading": "it tells the reader why D-serine is in the protocol: it may help therapy update old memories"
+ },
+ "same_point": "none: read section B from its heading to section C for the mechanism, GluD, D-serine and DCS, and the fixes; each point here is made once in the section",
+ "needed": {
+  "reader": "a fresh reader (Haiku) given tools/humanization/needed_read_brief.md and only this paragraph, its heading and what it is for: needed/b039/READ.md",
+  "unneeded": [
+   "and it may also open the GluD channels."
+  ],
+  "kept": {}
+ },
+ "questions": {
+  "Q1": "PASS: each sentence opens on its point",
+  "Q2": "N/A: no instruction except the session advice, whose reason is in the same sentence",
+  "Q3": "PASS: each thing is named exactly",
+  "Q4": "PASS: exposure therapy and cystine explained where first used; NMDA from the paragraphs before",
+  "Q5": "PASS: each \"so\", \"but\" and \"since\" turns on the clause before",
+  "Q6": "PASS: in the order the reader needs",
+  "Q7": "PASS: each fact is about a tool the reader takes",
+  "Q8": "N/A: no group inside the paragraph",
+  "Q9": "PASS: the small words that carry the relation kept"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

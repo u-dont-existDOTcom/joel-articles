@@ -1,0 +1,30 @@
+You are reading one paragraph of an article for the person it is written for. Here is what the paragraph is for:
+
+WHAT IT IS FOR: the reader decides whether to take D-serine around therapy sessions, and how to end those sessions
+
+HEADING: B. The "Overheating" CPU: Glutamate Excitotoxicity
+
+PARAGRAPH:
+S1: D-serine may help therapy update old memories, because it switches on a spot on the NMDA receptor that this kind of learning needs (Wolosker, et al, 1999), and it may also open the GluD channels.
+S2: The drug that's actually been tested with exposure therapy (facing the feared thing in small, safe doses) is a different one, D-cycloserine (DCS), which works on that same spot, and across 21 trials with over 1,000 patients it gave exposure therapy a small boost (Mataix-Cols, et al, 2017).
+S3: It does not erase fear directly; it appears to strengthen whatever learning occurs during or after the exposure session.
+S4: This is why session quality matters: if the exposure produces corrective learning and ends with reduced fear or mastery, DCS (and possibly D-serine also) may help consolidate that new memory; if the exposure is overwhelming or ends badly, it may consolidate the wrong association (Smits, et al, 2013).
+
+For each sentence, answer in one line: what does the reader need this sentence for, given what the paragraph is for?
+Then list the sentences the reader doesn't need.
+
+A sentence the reader doesn't need is one they could lose and still do what the paragraph is for, with nothing
+missing. These are not reasons to keep a sentence: it is true; it has a source; it is interesting; it is a careful
+hypothesis or a testable guess; it explains a disease or a case the reader doesn't have; it qualifies another claim the
+reader didn't need either; it was already in the text. Read also for sense: a sentence whose words don't make sense
+together, or that mixes pictures (a dial, a door, a floor and a leak for one thing), goes on the list too, with why.
+
+Answer in this shape:
+
+NEEDS:
+S1: [what the reader needs it for, or "nothing"]
+S2: ...
+
+UNNEEDED:
+- S2: [the sentence, copied exactly] — [why the reader can lose it]
+- (or "none")

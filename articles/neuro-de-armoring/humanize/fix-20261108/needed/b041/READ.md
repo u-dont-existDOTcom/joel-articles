@@ -1,0 +1,5 @@
+NEEDS:
+S1: The reader needs what zinc and magnesium do to the NMDA channel: magnesium plugs the channel while the cell is at rest, and zinc makes the channel open less often, so less of the signal gets through. The sentence is the paragraph's only sentence, so its content stays, but the wording has the problems listed below.
+
+UNNEEDED:
+- S1: The Lock (Zinc/Magnesium): Magnesium physically plugs the NMDA receptor's channel while the cell is at rest (Jalali-Yazdi, et al, 2018), and zinc mostly makes the channel open less often, with a weaker plug of its own (Amico-Ruvio, et al, 2011), so less of the voltage gets through. — Not droppable as a whole, but it has parts the reader can lose and one sense error: the two source names in parentheses are not needed for the reader's decision about a dose; "with a weaker plug of its own" is a secondary point that the paragraph's job does not depend on; "so less of the voltage gets through" is the wrong thing to say, because a channel lets ions (the current) through, not voltage, so that clause makes no sense as written.
