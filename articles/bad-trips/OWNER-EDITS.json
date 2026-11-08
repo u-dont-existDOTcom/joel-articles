@@ -637,7 +637,7 @@
   },
   {
    "id": "r18-why-lesson",
-   "status": "applied",
+   "status": "superseded",
    "what": "r18 card WHY-LESSON approved, put in by review/apply-20261107/apply_rounds.py (answers: articles/bad-trips/review/r18/ANSWERS-R18-20261107-db.json); its first sentence later said with his round-22 move (h28-why-lesson-line), so the kept words start at \"the lesson\"",
    "joel": "2026-11-07 12:08 UTC: \"in this case i approved every single suggestion you had from all those rounds\"",
    "must_not_contain": [
@@ -645,7 +645,8 @@
    ],
    "must_contain_exact": [
     "the lesson is just to lower the dose or stop the practice"
-   ]
+   ],
+   "superseded_by": "r25-lesson-once: his round-25 approval of 2026-11-08 16:55 UTC cut the line as said elsewhere"
   },
   {
    "id": "r18-session-force-once",
@@ -801,7 +802,7 @@
   },
   {
    "id": "h28-why-lesson-line",
-   "status": "applied",
+   "status": "superseded",
    "what": "Why Bad Trips Tend to Happen, the lesson line: his round-22 move carried (\"Every hard experience is not a profound lesson.\" said as how it feels, then \"But sometimes\"; read Human, its window High, after the Human base (4109c05e)); no card, the meaning kept (gate bad-trips-2026-11-07a); humanize/h28-20261107/apply_h28b.py",
    "joel": "2026-11-07 12:08 UTC: \"you're asking me to approve things that are clearly good\"",
    "must_not_contain": [
@@ -809,7 +810,8 @@
    ],
    "must_contain_exact": [
     "Every hard experience can feel like a profound lesson. But sometimes the lesson is just"
-   ]
+   ],
+   "superseded_by": "r25-lesson-once: his round-25 approval of 2026-11-08 16:55 UTC cut the line as said elsewhere"
   },
   {
    "id": "h28-deepest-utility",
@@ -922,6 +924,15 @@
    "must_not_contain": [
     "A good sitter is not there to win a philosophy debate",
     "Trauma material:** trauma-informed therapy or integration support"
+   ]
+  },
+  {
+   "id": "r25-lesson-once",
+   "status": "applied",
+   "what": "round 25's cut (review/r25/apply_r25.py): the lesson line that came over with Why Bad Trips Tend to Happen's merge, \"Every hard experience can feel like a profound lesson. But sometimes the lesson is just to ...\", said elsewhere; warning W102 an owner change in humanize/h01/FIDELITY-KEYS-R25.json",
+   "joel": "2026-11-08 16:55 UTC, round 25 (review/r25/ANSWERS-R25-20261108-1655.json): approved, no comment",
+   "must_not_contain": [
+    "Every hard experience can feel like a profound lesson"
    ]
   }
  ]

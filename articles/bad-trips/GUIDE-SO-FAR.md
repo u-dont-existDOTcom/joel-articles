@@ -563,8 +563,6 @@ Sometimes focusing on what we want makes the blockage visible:
 
 A bad trip or destabilizing state may also come from drug interactions, sleep deprivation, cannabis, hunger, dehydration, sexual or social pressure, medical symptoms, psychosis-like symptoms, fasting, intense breathwork, meditation overload, or retreat pressure.
 
-Every hard experience can feel like a profound lesson. But sometimes the lesson is just to lower the dose or stop the practice, get some sleep and something to eat, pick safer people, and admit that the room is bad.
-
 Cognitive distortions from Cognitive Behavioral Therapy (CBT) can create or prolong the crisis:
 
 - **Catastrophizing:** "This will never end."
