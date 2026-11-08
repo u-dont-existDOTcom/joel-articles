@@ -263,7 +263,7 @@ Zeolite usually feels subtle to sober people. Aged ozonated-charcoal water does 
 
 I have even watched the water calm a crying baby through touch alone. No ozone gas was present; this was contact with the water after ozonation had ended and the residual ozone had dissipated. I include that because it suggested the relaxing effect was not only adult expectation or psychedelic context.
 
-Earlier in my experiments, **I made the mistake of directly smelling ozone gas** during a psychedelic state. It intensified the experience and became mentally alarming. DMSO didn't help that situation, while aged ozonated-charcoal water helped rapidly. I don't recommend inhaling ozone.
+Earlier in my experiments, **I made the mistake of directly smelling ozone gas** during a psychedelic state. It intensified the experience and became mentally alarming. DMSO didn't help that situation, while aged ozonated-charcoal water helped rapidly. I don't recommend inhaling ozone. The mistake showed me that DMSO and aged ozonated-charcoal water address different kinds of overload.
 
 Without an ozone-water purifier--which can cost around $20 on Amazon--boiling water with charcoal gives some of the benefit. Touching or holding shungite can also feel similar to holding cleaned zeolite. Shungite pendants are sold on Amazon. Shungite should not be drunk unless it has been properly washed of heavy metals.
 
@@ -581,6 +581,8 @@ Bypassing reaches for an ultimate view--"we are all One," "I don't exist," "this
 
 Practice says love is here, so we make the room safer, call for help when needed, stop pretending, and hold the experience without becoming it.
 
+That is tripsitting, shadow work, and the path becoming practical.
+
 ## The Other Bypass: Feeling Good Forever
 
 A well-rounded trip should offer practical lessons and contact with suffering as well as freedom from suffering, lest we become "so spiritually high that we are no earthly good." "Life is full of suffering" is Buddha's First Noble Truth. Ignoring that side of life becomes dissociation or spiritual bypassing in the opposite direction, followed eventually by statements like "Everything is Love, including violence."
@@ -699,7 +701,7 @@ The common mistake is fighting the terrifying thing with the energy it already c
 
 Love is a better move, although it is difficult advice. Almost nobody can authentically love what terrifies them while they are terrified. So train before you need it, sending love to a frightening image, to someone you hate (without approving of what they did), to your shame and your body, to sickness and aging and fear and death, and to the inner child. Practice being the space rather than the storm.
 
-It might look passive, but this is how you become unhookable.
+It might look passive, but this is how you become unhookable. A demon can fight your hatred, feed on your fear, argue with your pride or seduce your grandiosity, but there's nothing in love for it to grab.
 
 When somebody is medically, physically, or psychologically too overwhelmed to reach love, stabilize first. Don't teach nondual demonology to somebody who needs the lights down and a doctor.
 
