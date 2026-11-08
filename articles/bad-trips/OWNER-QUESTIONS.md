@@ -1,12 +1,12 @@
 # Bad Trips guide: questions for Joel
 
-Updated 2026-11-08 (turn 26, his round-24 answers of 15:01 UTC in; round 26 out with the session's resume of 15:52 UTC and answered at 16:48 UTC; round 25 answered at 16:55 UTC). Status: **open** = waiting on you, **next** = I do it once you
+Updated 2026-11-08 (turn 26, his round-24 answers of 15:01 UTC in; round 26 out with the session's resume of 15:52 UTC and answered at 16:48 UTC; round 25 answered at 16:55 UTC; round 27 out at 17:52 UTC). Status: **open** = waiting on you, **next** = I do it once you
 answer, **done** = answered.
 Answer under an item's number in a message.
 
 ## Open
 
-Nothing open right now.
+1. **open — Round 27: your beliefs, four cards.** Two put sentences of your post back where they bear (why the body comes first; "Grounding is love becoming practical."), and two teaching cards are the stretches that would teach me the most and lack your method most where it's used (The Fear/Panic Loop; What Kind of Aftermath Is This?), each with a fresh sense read and my tries. On round 27's page (Bad Trips Guide, Round 27, https://claude.ai/artifact/69kipTsshviuZ3zPcaaDFp; the cards as text: [REVIEW-R27.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261105/articles/bad-trips/review/r27/REVIEW-R27.md)).
 
 ## Your tasks
 
