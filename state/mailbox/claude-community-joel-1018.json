@@ -1026,6 +1026,43 @@
     }
    ],
    "recorded_utc": "2026-11-08T15:12Z"
+  },
+  {
+   "turn": "2026-11-08T15:45Z",
+   "lines_of_work": [
+    "neuro de-armoring",
+    "hypnosis guide",
+    "community article"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "AGENTS.md (blob 5160080) and LESSON-INDEX (1e77c97) unchanged since 15:08; main b6185f7; its six items all in the ledger"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "main at 08721808c (pull request 394, this lane's, auto-merged); no new issues, pull requests or review comments on this lane's"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "his answers on Neuro De-Armoring Cards, 8 November (3) (x1108c): SC-97 approved; SC-106 revise, with GPT's critique of the card in place of a version"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "no queued notifications"
+    }
+   ],
+   "items": [
+    {
+     "item": "his SC-106 answer (GPT's critique)",
+     "outcome": "check each of GPT's points against its sources before using any; put what holds in a new version of SC-106 for him; record what the card got wrong as a lesson"
+    }
+   ],
+   "recorded_utc": "2026-11-08T15:47Z"
   }
  ]
 }

@@ -1,5 +1,51 @@
 # Status: neuro de-armoring humanization (newest on top)
 
+## 2026-11-08, his answers of 15:45 UTC (x1108c): SC-97 in; SC-106 back with GPT's critique, each point checked, and SC-106b out; lesson j
+
+His message and answers, word for word: `fix-20261108/joel-20261108-1545-message.txt` and
+`fix-20261108/sci-p23/ANSWERS-X1108C-20261108-1545.json`. **The mailbox first** ("2026-11-08 15:45"): main merged
+(08721808c, pull request 394 of this lane, auto-merged); UDA's AGENTS.md unchanged since 15:08; no new suggested-fix
+items, issues or comments; no runtime notifications.
+
+- **Applied** (`fix-20261108/sci-p23/apply_x1108c.py`, APPLIED-X1108C.json): SC-97 as approved (SP97.md, checked equal to
+  the card he approved). SC-106 wasn't applied: his box holds GPT's critique of the card, not text for the article.
+  FIDELITY-KEYS owner_changes entry for SC-97 (2006 new; W051 loses "gluconeogenesis", the reason the card replaced).
+  Fidelity PASS. My comparative read of block 97 recorded (`sci-p23/read_x1108c.py`); compare gate PASS.
+  HUMANIZED-SO-FAR.md 8be97d8f to 8de00b80.
+- **GPT's points checked through PubMed** (`sci-p23/SCIENCE-P23.md`, "SC-106 revised"): every fact holds (Kuwabara 2002
+  is one patient's peripheral nerves at a blood potassium of 2.1; Gorji 2001, guinea-pig hippocampal slices, 4 to 2 mM:
+  a brief hyperpolarization, then bursts; Biervert 1998, KCNQ2 loss and newborn seizures; Brown 1983, six volunteers,
+  0.82 meq/L, a shift into cells). The one that settles it: the brain holds its interstitial potassium within tight
+  limits whatever the blood does (Hladky & Barrand 2016; Javaheri & Kazemi 1981 in dogs; Bradbury & Stulcová 1970 in
+  rabbits). What holds for eating potassium: high blood pressure comes down, 3.49 mm Hg systolic across 22 trials, seen
+  with hypertension and not without, and 24% less stroke with higher intake (Aburto 2013); the one trial found on
+  potassium-rich diets and mood compared two high-potassium diets (Torres 2008). Every new link opened in the app's
+  browser pane (PubMed, status 200, titles matching).
+- **SC-106b** (`sci-p23/texts_x1108d.py`, `build_x1108d.py`): blocks 104 and 105 (the brakes story's labels) cut; block 106
+  "The Science: Eating more potassium brings high blood pressure down (Aburto, et al, 2013), which matters on Strategy A,
+  since its salts bring their own sodium."; block 115's second sentence cut, as on SC-106. A fresh reader's needed read
+  (Haiku, `needed/sp106b/`) found the sentence saying potassium won't calm the nerves unneeded once the brakes story is
+  gone: cut, and said on the card instead. Its note on Part 3's goal line ("Stabilize voltage to prevent the
+  "Biological Crash" (Headaches/Panic)") goes to the coherence read. Published as Neuro De-Armoring Cards, 8 November (4)
+  (https://claude.ai/artifact/9nENpt9AEJCB43a9Wy5jqn, capabilities db and downloads; REVIEW-X1108D.md). Smoke test at 400
+  and 1,200 px: one card, no sideways scroll, no errors. Questions page republished (8cWv5mbXY8y53RL1nhvzky, version 14).
+- **Lesson** (`docs/lessons/2026-11-08-1545-neuro.md`): neuro-2026-11-08j, a finding is stated for the tissue, species,
+  level and condition it was measured in, and a blood level isn't the level where the claim needs it; a correction
+  never swaps one simple story for its opposite. FACTS.md F-11 carries a correction note.
+- **Predictions**: none (no Pangram check this turn: the card's text is science for his decision; the humanizing comes
+  after the coherence read).
+- **The coherence read started** (`fix-20261108/coherence/EXTRACT.md`): every dose, timing and warning across the
+  protocol with its line (101 dose rows, 71 warnings), and 17 places where the text disagrees with itself, among them
+  the Weeks 3 to 5 stack against "one change at a time" (lines 170, 182, 318 against 354 to 366), no UMP or 5-HTP on
+  psychedelic days against daily microdosing (37, 186 against 328, 358), "pick one" ketone strategy against a
+  timeline using both (192 against 344, 360, 364), the shroom dose (270 against 328), which iboga for numbness (266
+  against 358, 366) and the mackerel fillet's 960 mg of PS above the doses that didn't work (140 against 138). Not
+  judged yet: next turn, against the settled science, changes on cards.
+- **Delegations** (model, piece, check, outcome): one Haiku agent, the needed read of SP106B (BRIEF.txt only), its
+  unneeded sentence cut and its heading note carried to the coherence read: done. One Sonnet agent, the coherence
+  read's extraction (the article only, one file written); check: its own script matched every quote to its line, and
+  I matched eight lines by hand (140, 192, 266, 270, 328, 344, 358, 364): done.
+
 ## 2026-11-08, his answers of 15:08 UTC (the C-to-E science cards, x1108b, exported 11:59 UTC, sent from this account): all eight in; his three versions Human; lessons g to i; the science of Parts 2 and 3 on two cards
 
 His message and answers, word for word: `fix-20261108/joel-20261108-1508-message.txt` ("continuing from my other acct",

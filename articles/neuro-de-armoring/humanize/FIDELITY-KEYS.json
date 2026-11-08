@@ -2540,6 +2540,23 @@
      "why": "on his card: SC-53 took the shower sentence out; PI31 was raised by gene therapy in mice, and nothing tests showers (F-10)"
     }
    ]
+  },
+  {
+   "by": "fix-20261108/sci-p23/ANSWERS-X1108C-20261108-1545.json, card SC-97 (approved 2026-11-08 15:39 UTC)",
+   "why": "the science of Parts 2 and 3 (fix-20261108/sci-p23/SCIENCE-P23.md, flag F-1): very little of the protein you eat becomes glucose (Fromentin et al. 2013), and what limits protein is how much nitrogen the liver can clear, past about 35% of energy (Bilsborough & Mann 2006), so the instruction not to fill up on lean protein stays, with that reason in place of gluconeogenesis. The new number is the year of the citation the card adds",
+   "numbers_lost": [],
+   "numbers_new": [
+    "2006"
+   ],
+   "terms_lost": [],
+   "keys_lost": {
+    "W051": [
+     [
+      "gluconeogenesis"
+     ]
+    ]
+   },
+   "citations_lost": []
   }
  ],
  "warning_words": {
