@@ -18,6 +18,18 @@ From an account with Desktop Commander connected to the laptop: "Continue my neu
 
 ## START HERE
 
+- **2026-11-08, after his message of 17:09 UTC (GPT's answers on SC-106b's reasons): both checked; SC-106c replaces
+  SC-106b on the same page.** HUMANIZED-SO-FAR.md is still 8de00b80. GPT agrees with the card on nerve function (a role
+  in the body, not a benefit of eating more: NIH 2022) and is right that the card read too much into Torres 2008, which I
+  had read only in summary (lesson neuro-2026-11-08k, `docs/lessons/2026-11-08-1709-neuro.md`). **Next**: his answer on
+  Neuro De-Armoring Cards, 8 November (5) (artifact 9nENpt9AEJCB43a9Wy5jqn, version 2, the same page that showed (4);
+  `sci-p23/REVIEW-X1108E.md`, review id x1108e): SC-106c cuts blocks 104 and 105, gives block 106 the blood-pressure
+  reason and the kidney and drug caution, and cuts block 115's second sentence. On approval put `sci-p23/SP106C.md` and
+  `SP115E.md` in and cut the two label blocks (texts_x1108e.py's start strings find them), with a FIDELITY
+  owner_changes entry (2013 and 2022 new; KCNQ and the labels' keys, if listed) and my comparative read. If he drops the
+  potassium step, blocks 103 to 115 go, recorded the same way. Then the coherence read from
+  `fix-20261108/coherence/EXTRACT.md`, as the entry below says (the kidney caution beside the step is now on the card).
+
 - **2026-11-08, after his answers of 15:45 UTC (x1108c): SC-97 (protein) in; SC-106 came back to revise with GPT's
   critique, every point checked, and SC-106b is out.** HUMANIZED-SO-FAR.md is 8de00b80 (`fix-20261108/sci-p23/apply_x1108c.py`,
   APPLIED-X1108C.json; FIDELITY owner_changes for SC-97: 2006 new, W051 without "gluconeogenesis"). GPT's facts hold
