@@ -100,13 +100,11 @@ Once I’m attached, “I’m taking a chance on her” starts turning into “s
 
 If I have sex with somebody quickly, that’s a reason not to move in quickly too, and to keep seeing friends, have some kind of community around the relationship, and pick actual dates to ask how it’s going. Moving in together right away is basically getting into a common-law marriage without discussing it, and it’s too easy for me to assume the relationship is going well just because we’re already entangled.
 
-## 19. Slow & steady (live 180, 181, 182)
+## 19. Slow & steady (live 180, 181, 182, 183, 184)
 
-Going slowly can show you how somebody’s moods move over time, how they treat you, and how they treat other people, but it still can’t tell you how good the sex will be or how either of you will act afterward.
+Going slowly can show you how somebody’s moods wibble and wobble over time, how they treat you and other people, but it can’t tell you how good the sex will be or how either of you will act afterward. You can know somebody for 20 years and then discover on the first night that the polarity isn’t there. Touch or smell can feel wrong, or your desire levels or kinks don’t match up.
 
-You can know somebody for twenty years and then discover on the first night that the polarity isn’t there. Touch or smell can feel wrong, or your desire levels or kinks don’t fit. Maybe one person is sexually shut down, or the bodies just don’t connect.
-
-Some of those things might get better if both partners are committed to helping each other through it, but sometimes bad sexual fit still feels like, “Let’s just be friends!”
+Some of those things might get better if both partners are committed to helping each other through it, but sometimes bad sexual fit still feels like, “Let’s just be friends!” Saying, “The sex isn’t working for me,” might sound like, “I only love you if the sex is good.” But that vague love word again needs clarifying. Universal love is the basis of any good relationship of any kind. It doesn’t make someone special the way romance does. Romantic love generally needs good sex too, or else we’re basically just friends who care deeply about each other.
 
 ## 20. From flow to nitty gritty (live 199, 200, 201)
 
@@ -236,7 +234,7 @@ Imagine if you and your partner both saw those outside attractions as beneficial
 
 Lots of couples promise forever to each other and nobody else. Look around at how many actually live that way. On the other hand, in a polyamorous relationship, the boundaries might be more negotiable, but then somebody has to sit down and negotiate them, down to who gets to stay the night. That can end up sometimes creating more drama than it's worth.
 
-Polyamory can also be a way of escaping deeper intimacy, like my one poly college friend who boasted about having 4 girlfriends, but admitted to me that he felt deeply unhappy. Or it can be a way of escaping guilt, like when someone keeps cheating until they finally "come out of the closet" as poly, as if that solves their prior dishonesty. But they are right to finally come clean and hopefully avoid that dishonesty in future.
+Polyamory can also be a way of escaping deeper intimacy, like the college friend with four girlfriends I mentioned earlier. Or it can be a way of escaping guilt, like when someone keeps cheating until they finally "come out of the closet" as poly, as if that solves their prior dishonesty. But they are right to finally come clean and hopefully avoid that dishonesty in future.
 
 I learned most of this by screwing it up. Some of it I just thought through, and I'm still not sure about all of it.
 

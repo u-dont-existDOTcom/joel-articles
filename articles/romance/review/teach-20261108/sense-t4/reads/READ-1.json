@@ -1,0 +1,17 @@
+{"part": 1,
+ "read": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47],
+ "findings": [
+  {"block": 3,
+   "text": "my dad’s advise was a bigger question",
+   "kind": "slip",
+   "what": "\"advise\" is the verb; the noun \"advice\" is meant.",
+   "fix": "my dad’s advice was a bigger question",
+   "confidence": "sure"},
+  {"block": 44,
+   "text": "resolves into the same oily pattern",
+   "kind": "wrong-word",
+   "what": "\"oily\" does not describe a repeating pattern; a word like \"old\" or \"familiar\" is meant (the same old pattern).",
+   "fix": "resolves into the same old pattern",
+   "confidence": "likely"}
+ ],
+ "notes": "Block 38 opens abruptly (\"That was my mistake\") but that is likely due to the section's earlier text not being in this part; not reported."}

@@ -102,13 +102,17 @@ Once I’m attached, “I’m taking a chance on her” starts turning into “s
 
 If I have sex with somebody quickly, that’s a reason not to move in quickly too. Moving in together right away is basically getting into a common-law marriage without discussing it. I want us to keep seeing friends, have some kind of community around the relationship, and pick actual dates to ask how it’s going. Otherwise it’s too easy for me to assume the relationship is going well because we’re already entangled.
 
-## 19. Slow & steady (live 180, 181, 182)
+## 19. Slow & steady (live 180, 181, 182, 183, 184)
 
 Going slowly can show you how somebody’s moods move over time, how they treat you, and how they treat other people. It still can’t tell you how good the sex will be or how either of you will act afterward.
 
 You can know somebody for twenty years and then discover on the first night that the polarity isn’t there, touch or smell feels wrong, your desire levels or kinks don’t fit, one person is sexually shut down, or the bodies just don’t connect.
 
 Some of those things might get better if both partners are committed to helping each other through it. Sometimes bad sexual fit still feels like, “Let’s just be friends!”
+
+Saying, “The sex isn’t working for me,” may sound like, “I only love you if the sex is good.” But universal love doesn’t make someone special. It isn’t romance. It’s the basis of any good relationship of any kind.
+
+I can still love her and not want to be in a romantic relationship with her. Romantic love generally needs good sex too, or we’re friends who care deeply about each other.
 
 ## 20. From flow to nitty gritty (live 199, 200, 201)
 

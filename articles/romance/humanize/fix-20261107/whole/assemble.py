@@ -31,7 +31,7 @@ CHECKS = [
     ('romance-low-flaws#61', 'My flaws'), ('romance-low-tricky#68', 'Things get tricky fast'),
     ('romance-low-ideal#143', 'Beware idealization (S8, 145 to 151)'),
     ('romance-low-ptsd#147', 'Anti-PTSD'), ('romance-s6#146', 'S6'), ('romance-low-dam#148', 'Holding up a leaky dam'),
-    ('romance-low-slow#96', 'Slow & steady'), ('romance-low-nitty#113', 'From flow to nitty gritty'),
+    ('romance-low-slow#153', 'Slow & steady'), ('romance-low-nitty#113', 'From flow to nitty gritty'),
     ('romance-sec-whole-world#44', 'Don’t make your partner your whole world'),
     ('romance-low-disc#88', 'Disconnect to connect'), ('romance-low-babies#101', 'Some babies grow up faster'),
     ('romance-low-levels#102', 'Different levels in different domains'), ('romance-s14#21', 'S14'),
@@ -41,7 +41,7 @@ CHECKS = [
     ('romance-pillars-330-336#150', 'S18 and S19 with 330 to 336'),
     ('romance-low-choosing#106', 'What are you actually choosing together?'),
     ('romance-sec-vows#110', 'Which marriage vows are honest?'),
-    ('romance-low-jeal#137', 'Jealousy on trial (his T2 answer)'), ('romance-low-artificial#104', 'Why all of this sounds artificial'),
+    ('romance-low-jeal#152', 'Jealousy on trial (his T2 answer)'), ('romance-low-artificial#104', 'Why all of this sounds artificial'),
     ('romance-low-gaslight#105', 'Gaslighting in the dark'), ('romance-s22#69', 'After leaving (S22)'),
     ('romance-low-loss#109', 'What I gained from loss'),
 ]
@@ -103,13 +103,13 @@ RANGES = {
     'romance-low-deeper#145': (69, 74), 'romance-low-clar#71': (105, 111), 'romance-low-peek#67': (113, 120),
     'romance-low-convo#107': (122, 128), 'romance-low-flaws#61': (130, 137), 'romance-low-tricky#68': (139, 141),
     'romance-low-ideal#143': (143, 151), 'romance-sec-bypass#117': (53, 62), 'romance-low-ptsd#147': (153, 162), 'romance-s6#146': (102, 103),
-    'romance-low-dam#148': (175, 178), 'romance-low-slow#96': (180, 184), 'romance-low-nitty#113': (199, 201),
+    'romance-low-dam#148': (175, 178), 'romance-low-slow#153': (180, 184), 'romance-low-nitty#113': (199, 201),
     'romance-sec-whole-world#44': (209, 216), 'romance-low-disc#88': (218, 224), 'romance-low-babies#101': (231, 241),
     'romance-low-levels#102': (243, 250), 'romance-s14#21': (258, 260), 'romance-low-muses#81': (262, 275),
     'romance-low-romance#122': (282, 290), 'romance-low-fantasy#99': (292, 297), 'romance-low-queen#82': (299, 302),
     'romance-sec-spiritual-sex#136': (304, 317),
     'romance-pillars-330-336#150': (330, 336), 'romance-low-choosing#106': (341, 347),
-    'romance-sec-vows#110': (349, 352), 'romance-low-jeal#137': (357, 370), 'romance-low-artificial#104': (404, 413), 'romance-low-gaslight#105': (431, 435),
+    'romance-sec-vows#110': (349, 352), 'romance-low-jeal#152': (357, 370), 'romance-low-artificial#104': (404, 413), 'romance-low-gaslight#105': (431, 435),
     'romance-s22#69': (437, 441), 'romance-low-loss#109': (443, 456),
 }
 ops_all, taken = [], {}

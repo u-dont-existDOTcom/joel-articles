@@ -1,0 +1,24 @@
+[
+ {
+  "part": 1,
+  "blocks": [
+   0,
+   47
+  ],
+  "words": 1918,
+  "part_file": "articles/romance/review/teach-20261108/sense-t4/parts/PART-1.md",
+  "read_file": "articles/romance/review/teach-20261108/sense-t4/reads/READ-1.json",
+  "task": "Read articles/romance/review/teach-20261108/sense-t4/BRIEF.md, then articles/romance/review/teach-20261108/sense-t4/parts/PART-1.md, and write articles/romance/review/teach-20261108/sense-t4/reads/READ-1.json as the brief says."
+ },
+ {
+  "part": 2,
+  "blocks": [
+   48,
+   95
+  ],
+  "words": 1944,
+  "part_file": "articles/romance/review/teach-20261108/sense-t4/parts/PART-2.md",
+  "read_file": "articles/romance/review/teach-20261108/sense-t4/reads/READ-2.json",
+  "task": "Read articles/romance/review/teach-20261108/sense-t4/BRIEF.md, then articles/romance/review/teach-20261108/sense-t4/parts/PART-2.md, and write articles/romance/review/teach-20261108/sense-t4/reads/READ-2.json as the brief says."
+ }
+]

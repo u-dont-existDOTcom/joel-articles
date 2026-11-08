@@ -129,13 +129,19 @@ with his OK and no email.
   on the college friend his new 369 retells from Labels. Push access granted; pull request 401 holds both turns' work
   (labelled "hold": this session's auto mode refused a self-merge into main).
 
+- 2026-11-08 (his message of 17:20 UTC, `humanize/fix-20261107/r29/`): his third page's answers in: "Slow & steady"
+  as he rewrote it ([one Human High window](https://www.pangram.com/history/e05bf34d-fbdd-454a-a6c3-c7abde583a56), #153),
+  and 369 pointing back to the college friend Labels tells (#152, Human, High and one Medium). Lesson romance-2026-11-08d.
+  On his ask to see every Medium window, the fourth marking page ([the page](https://claude.ai/artifact/AXKm7ijCpHzVwQ4mQUYi5Q),
+  `review/teach-20261108/REVIEW-T4.md`): 62 paragraphs, 70 windows, each with the tells I see and a fresh sense read's
+  finding (`review/teach-20261108/sense-t4/`: "traditonal" in 173, "natural" twice in 338).
+
 ## Next step
 
-His answers on the third marking page (181 and the college friend). With them: 181 into the fixed version, checked in its
-section; the drafts re-pasted with every change since r27 (#137, #144 to #148, #150, his answers) and their secret links
-made, for one more whole-article check by him. Then his post is updated with his OK (no email), 366's link to Esther
-Perel's post carried into the editor and the "Updated" date set. Waits on him: the merge of pull request 401, and the
-third page's answers.
+His answers on the Medium page. With them: each of his versions into the fixed version and checked in its section (the
+"traditonal" typo fixed either way); then the drafts re-pasted with every change since r27 and their secret links made,
+for his last whole-article check. Then his post is updated with his OK (no email), 366's link to Esther Perel's post
+carried into the editor and the "Updated" date set. Waits on him: the merge of pull request 401, and the Medium page.
 
 ### Before 2026-11-07 (the registered master, as recorded then)
 

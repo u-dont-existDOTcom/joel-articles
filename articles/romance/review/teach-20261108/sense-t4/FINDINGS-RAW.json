@@ -1,0 +1,102 @@
+[
+ {
+  "block": 51,
+  "text": "It’s a traditonal Indonesian contraceptive herb",
+  "kind": "slip",
+  "what": "Typo: \"traditonal\" for \"traditional\".",
+  "fix": "It’s a traditional Indonesian contraceptive herb",
+  "confidence": "sure",
+  "readers": [
+   2
+  ],
+  "reports": [
+   {
+    "reader": 2,
+    "kind": "slip",
+    "what": "Typo: \"traditonal\" for \"traditional\".",
+    "fix": "It’s a traditional Indonesian contraceptive herb",
+    "confidence": "sure"
+   }
+  ]
+ },
+ {
+  "block": 51,
+  "text": "health benefits (including libido and for HIV)",
+  "kind": "broken",
+  "what": "Faulty parallel: \"including libido and for HIV\" mixes a noun with a prepositional phrase.",
+  "fix": "health benefits (including for libido and for HIV)",
+  "confidence": "likely",
+  "readers": [
+   2
+  ],
+  "reports": [
+   {
+    "reader": 2,
+    "kind": "broken",
+    "what": "Faulty parallel: \"including libido and for HIV\" mixes a noun with a prepositional phrase.",
+    "fix": "health benefits (including for libido and for HIV)",
+    "confidence": "likely"
+   }
+  ]
+ },
+ {
+  "block": 77,
+  "text": "On the other hand, If both people are falling apart",
+  "kind": "slip",
+  "what": "Capital \"If\" in the middle of a sentence.",
+  "fix": "On the other hand, if both people are falling apart",
+  "confidence": "sure",
+  "readers": [
+   2
+  ],
+  "reports": [
+   {
+    "reader": 2,
+    "kind": "slip",
+    "what": "Capital \"If\" in the middle of a sentence.",
+    "fix": "On the other hand, if both people are falling apart",
+    "confidence": "sure"
+   }
+  ]
+ },
+ {
+  "block": 78,
+  "text": "continued to naturally deepen while our outside relationships often felt more shallow, so it was natural for the dependency",
+  "kind": "broken",
+  "what": "\"naturally\" and \"natural\" do the same job twice in one sentence.",
+  "fix": "continued to deepen while our outside relationships often felt more shallow, so it was natural for the dependency",
+  "confidence": "likely",
+  "readers": [
+   2
+  ],
+  "reports": [
+   {
+    "reader": 2,
+    "kind": "broken",
+    "what": "\"naturally\" and \"natural\" do the same job twice in one sentence.",
+    "fix": "continued to deepen while our outside relationships often felt more shallow, so it was natural for the dependency",
+    "confidence": "likely"
+   }
+  ]
+ },
+ {
+  "block": 95,
+  "text": "I also learned that public demonization doesn’t always have to be the last chapter.",
+  "kind": "wrong-word",
+  "what": "The following sentences are about cutting contact and reconciling, not about public demonization; the subject likely should be the relationship or the breakup.",
+  "fix": "I also learned that a breakup doesn’t always have to be the last chapter.",
+  "confidence": "likely",
+  "readers": [
+   2
+  ],
+  "reports": [
+   {
+    "reader": 2,
+    "kind": "wrong-word",
+    "what": "The following sentences are about cutting contact and reconciling, not about public demonization; the subject likely should be the relationship or the breakup.",
+    "fix": "I also learned that a breakup doesn’t always have to be the last chapter.",
+    "confidence": "likely"
+   }
+  ]
+ }
+]
