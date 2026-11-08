@@ -1,5 +1,36 @@
 # Status: neuro de-armoring humanization (newest on top)
 
+## 2026-11-08, his message of 17:09 UTC: GPT's answers on SC-106b's reasons checked; SC-106c replaces it on the same page; lesson k
+
+His message, word for word: `fix-20261108/joel-20261108-1709-message.txt` (GPT's answers to two of his questions: whether
+eating more potassium supports nerve function, and my reading of Torres 2008, whose PDF he gave GPT). **The mailbox
+first** ("2026-11-08 17:09"): UDA's AGENTS.md now 7ef0bfc ("Last lines, every turn": the resume line, then one GH
+handoff line last, as this lane does) and LESSON-INDEX ba787e0 (entries 86 to 92); main bdb4f32d6, merged (a fast
+forward; this lane's 397 auto-merged); 309, the separate DeltaFosB lane's pull request, still open and unchanged; no new
+issues or comments; no runtime notifications.
+
+- **Checked** (`fix-20261108/sci-p23/SCIENCE-P23.md`, "SC-106b checked again"): the NIH fact sheet (WebFetch; the app's
+  browser pane met a "Just a moment" check there and was left alone): potassium's gradient "is required for proper nerve
+  transmission", and "Hypokalemia is rarely caused by low dietary potassium intake alone"; ACE inhibitors and ARBs can
+  lead to hyperkalemia. Torres 2008 in full (Cambridge Core, the app's browser pane): urinary potassium +34.0 and +35.4
+  mmol/d on both test diets; the low-sodium one lifted mood a little more; the DASH-type diet's own change wasn't
+  significant (P = 0.102); more urinary potassium went with less fatigue; magnesium offered as another explanation.
+  Arnold 2017 (PubMed): in stage 3 and 4 kidney disease, restricting potassium slowed neuropathy over 24 months. GPT is
+  right on Torres; on nerve function it agrees with the card.
+- **SC-106c** (`sci-p23/texts_x1108e.py`, `build_x1108e.py`): SC-106b's change plus a caution in block 106, "If you
+  have kidney disease or take a blood pressure drug that holds on to potassium, like an ACE inhibitor or an ARB, ask your
+  doctor first, since potassium can build up in your blood (NIH, 2022).", with its reasons corrected. A fresh reader's
+  needed read (Haiku, `needed/sp106c/`): both sentences needed. Published to the same page as x1108d, which it replaces
+  (https://claude.ai/artifact/9nENpt9AEJCB43a9Wy5jqn, version 2; REVIEW-X1108E.md; a new review id, so nothing marked on
+  SC-106b carries over). Smoke test at 400 and 1,200 px: one card, no sideways scroll, no errors. Questions page
+  republished. Every new link opened (PubMed in the pane; NIH through WebFetch; Cambridge Core in the pane).
+- **Lesson** (`docs/lessons/2026-11-08-1709-neuro.md`): neuro-2026-11-08k, a study cited for or against a claim is read
+  in full first and reported for what it found on both sides; a comparison that holds a factor equal says nothing about
+  that factor. The article is unchanged this turn (8de00b80).
+- **Predictions**: none (no Pangram check).
+- **Delegations** (model, piece, check, outcome): one Haiku agent, the needed read of SP106C (BRIEF.txt only): both
+  sentences needed, citations kept as the article's style: done.
+
 ## 2026-11-08, his answers of 15:45 UTC (x1108c): SC-97 in; SC-106 back with GPT's critique, each point checked, and SC-106b out; lesson j
 
 His message and answers, word for word: `fix-20261108/joel-20261108-1545-message.txt` and

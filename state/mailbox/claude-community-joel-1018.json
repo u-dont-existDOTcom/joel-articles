@@ -1063,6 +1063,43 @@
     }
    ],
    "recorded_utc": "2026-11-08T15:47Z"
+  },
+  {
+   "turn": "2026-11-08T17:09Z",
+   "lines_of_work": [
+    "neuro de-armoring",
+    "hypnosis guide",
+    "community article"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "AGENTS.md now blob 7ef0bfc (adds 'Last lines, every turn': the resume line, then one GH handoff line last, which this lane already does) and LESSON-INDEX ba787e0 (new entries 86 to 92, among them 92: don't check whether he has answered; record once what waits on him); UDA main 841f579; the lane's six suggested-fix items, all in the ledger"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "main at bdb4f32d6 (bad trips 398 to 404 merged); this lane's 397 auto-merged; open: 401 (romance), 309 (the separate DeltaFosB lane, unchanged since 2026-11-06, still to reconcile per the handoff), and the older chat branches; no new issues or review comments"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "his message of 17:09 UTC: GPT's two answers to him, one on my 'no source shows eating more potassium supports nerve function' and one on my reading of Torres 2008 (he attached the paper to GPT)"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "no queued notifications"
+    }
+   ],
+   "items": [
+    {
+     "item": "his message: GPT on SC-106b's why (nerve function; Torres 2008)",
+     "outcome": "check each point against its source (NIH fact sheet, Torres 2008 full text, Arnold 2017), correct the card where it overreached, record the lesson"
+    }
+   ],
+   "recorded_utc": "2026-11-08T17:15Z"
   }
  ]
 }

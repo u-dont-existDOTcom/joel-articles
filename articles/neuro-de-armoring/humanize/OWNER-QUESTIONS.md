@@ -1,8 +1,8 @@
 # Neuro de-armoring: what I need from Joel
 
-Last updated 2026-11-08, after your answers of 15:45 UTC.
+Last updated 2026-11-08, after your message of 17:09 UTC.
 **Open questions: 0.** **For you to do**: one card on
-[Neuro De-Armoring Cards, 8 November (4)](https://claude.ai/artifact/9nENpt9AEJCB43a9Wy5jqn) ([the same card in Git](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/sci-p23/REVIEW-X1108D.md)), potassium after GPT's critique.
+[Neuro De-Armoring Cards, 8 November (5)](https://claude.ai/artifact/9nENpt9AEJCB43a9Wy5jqn) ([the same card in Git](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/sci-p23/REVIEW-X1108E.md)), potassium corrected again; it replaces (4) on the same page.
 
 Colours: 🟣 a question for you; 🟠 something for you to do; 🔵 next or in progress; 🟢 done or decided.
 
@@ -18,7 +18,15 @@ can read and update it. Every file it points to is a link.
 
 ## For you to do
 
-- 🟠 **Potassium, after GPT's critique** ([the page](https://claude.ai/artifact/9nENpt9AEJCB43a9Wy5jqn), [in Git](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/sci-p23/REVIEW-X1108D.md)): one card. GPT's facts hold, and the one that settles it is that your brain keeps its own potassium steady, so neither stress nor diet works the brakes. What holds for eating potassium is high blood pressure, and the card puts that in the paragraph.
+- 🟠 **Potassium, corrected again** ([the page](https://claude.ai/artifact/9nENpt9AEJCB43a9Wy5jqn), [in Git](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/sci-p23/REVIEW-X1108E.md)): one card, SC-106c, in place of SC-106b. The same change, plus a caution beside the step for kidney disease and blood pressure drugs that hold on to potassium, and its reasons now say what the mood trial found.
+
+## Your message of 2026-11-08 17:09 UTC (your questions to GPT), and what I did
+
+- 🟢 **Both of GPT's answers checked against the sources**
+  ([the check](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/sci-p23/SCIENCE-P23.md)). On nerve function GPT
+  agrees with the card: your nerves need potassium, but eating too little rarely lowers it in the blood. On the mood
+  trial you were right: I had read only its summary, and the card pointed at salt where the study leaves
+  potassium's part open. That's a lesson now ([the file](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/docs/lessons/2026-11-08-1709-neuro.md)).
 
 ## Your answers of 2026-11-08 15:45 UTC (protein and potassium), and what I did
 
