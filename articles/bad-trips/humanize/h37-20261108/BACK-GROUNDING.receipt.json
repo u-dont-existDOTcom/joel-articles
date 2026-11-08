@@ -1,0 +1,67 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-08",
+ "text_sha256": "318a4fe4d307379e4419a858be5b618224888d7d24f7e8291a3c5c6c81d57cfa",
+ "text": "Grounding is love becoming practical. Choose one or two options rather than all of them. Twelve simultaneous techniques can become another form of panic.",
+ "section": "Grounding Menu: Choose One or Two Things",
+ "reader": "someone overwhelmed in an altered state, or helping one, about to pick from the grounding menu",
+ "sentences": [
+  {
+   "s": "Grounding is love becoming practical.",
+   "payoff": "they take each grounding step as love made practical, toward themselves or the person, not as a technique to get through (his belief, lesson bad-trips-2026-11-08e)",
+   "follows": "it opens the menu under its heading and says what grounding is in this guide"
+  },
+  {
+   "s": "Choose one or two options rather than all of them.",
+   "payoff": "they pick one or two options from the menu below",
+   "follows": "how to use the menu the first sentence names",
+   "link": "Choose one or two options"
+  },
+  {
+   "s": "Twelve simultaneous techniques can become another form of panic.",
+   "payoff": "an overwhelmed reader sees why piling on techniques backfires, so they stop at one or two",
+   "follows": "the reason for the second sentence's limit",
+   "link": "Twelve simultaneous techniques"
+  }
+ ],
+ "checked": [],
+ "placement": "the Grounding Menu's first paragraph, under its heading, before the menu (his post of 2026-11-03 had these three sentences there)",
+ "opens": {
+  "first_sentence": "Grounding is love becoming practical.",
+  "why_reading": "it tells the reader what the menu is for before they choose from it"
+ },
+ "same_point": "\"When the nervous system is on fire, love becomes practical first.\" (Stillness or Movement?) makes love practical in the first five minutes; this says the same of grounding at the menu, where the reader acts on it; none merged",
+ "needed": {
+  "reader": "a fresh Haiku agent given tools/humanization/needed_read_brief.md with the paragraph, its heading and what it is for (beliefs/NEEDED-READ.md beside this receipt)",
+  "unneeded": [
+   "Grounding is love becoming practical.",
+   "Twelve simultaneous techniques can become another form of panic."
+  ],
+  "kept": {
+   "Grounding is love becoming practical.": "they take each step they pick as an act of love toward themselves or the person, which is the guide's method; his belief, put back under his rule of 2026-11-08 17:24 UTC (lesson bad-trips-2026-11-08e)",
+   "Twelve simultaneous techniques can become another form of panic.": "they stop at one or two techniques instead of trying them all at once while overwhelmed"
+  }
+ },
+ "questions": {
+  "Q1": "PASS: what grounding is, then how to use the menu, then why",
+  "Q2": "PASS: the instruction (\"Choose one or two\") has its reason after it",
+  "Q3": "PASS: \"one or two options\", \"twelve simultaneous techniques\"",
+  "Q4": "PASS: \"grounding\" is the menu's subject, used from the first five minutes on",
+  "Q5": "PASS: the limit follows from what grounding is for; the panic sentence gives the reason",
+  "Q6": "PASS: what it is, what to do, why",
+  "Q7": "PASS: the reader is about to choose from the menu",
+  "Q8": "PASS: each sentence does one job",
+  "Q9": "PASS: three sentences, each whole"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

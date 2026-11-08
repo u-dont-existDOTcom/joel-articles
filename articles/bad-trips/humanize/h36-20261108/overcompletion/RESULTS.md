@@ -9,7 +9,7 @@ thing cut). They found 39 candidates, 8 of them clear to them (`PART-1.json` to 
 ran each through the fidelity keys (R25), the keep-as-is ledger and the owner edits (`CHECKED.json`), and each was then
 read by hand against its block and its neighbours.
 
-Nine went in (`cut_overcompletion.py`): each says again only what the sentence, heading or item before it says, and
+Nine went in (`cut_overcompletion.py`), and three of them came back out the next turn (B197's "The mistake showed me ...", B337's "That is tripsitting, shadow work, and the path becoming practical." and B401's "A demon can fight your hatred, ...": each carried a reason or belief of his, which the reader's "already said" missed; `../../h37-20261108/restore_my_cuts.py`, lesson bad-trips-2026-11-08e). The nine: each says again only what the sentence, heading or item before it says, and
 loses no point, key, kept line or owner edit. 12,306 to 12,173 words. Fidelity R25 PASS, keep-as-is 0 problems, owner
 edits 63 pass. The rest stay, each for the reason in the table. No card this time: the one cut with a downside that a
 card could have asked about (No Rash Actions' "experience-content" lines) failed its needed read, and the other ("The
