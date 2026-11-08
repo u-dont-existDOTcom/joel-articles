@@ -63,6 +63,17 @@ The fields:
              the order the reader needs it, and the other place goes (gate E376; Joel, the same message: "delete the
              "hardening" para since i had to incorporate that into this one, otherwise it was out of order and a bit
              redundant"). Both fields are in every receipt make writes from 2026-11-06 19:40 UTC.
+  needed     {"reader": who read it (a fresh reader: a new agent that saw only the paragraph, its heading and
+             what the paragraph is for, given tools/humanization/needed_read_brief.md), "unneeded": [each sentence that
+             reader said the reader of this paragraph doesn't need for what it is for], "kept": {sentence: "they ...: what
+             the reader does with it, so it stays"}}. A sentence the read lists goes, unless "kept" names what the reader
+             does with it for the paragraph's job; that it is true, sourced, testable, a hypothesis with a mechanism, or
+             already in the text is not a reason (gate neuro-2026-11-08a; Joel, 2026-11-08 00:49 UTC, cutting my GluD
+             paragraph to two sentences: "did you even read what you had there? it was making no sense. i removed most of
+             it and just put the basic facts. it seems like you're doing anything possible to preserve prose even if it
+             doesn't help the reader. fix that durably."). Every point in "checked" marked "yes" says the same:
+             "yes: they ..." for what the reader does with it, not why the claim holds. In every receipt make writes from
+             2026-11-08.
   link       on every sentence of mine after the first: the words in that sentence that tie it to the one before or to
              the reader's case ("One reason to think about, is that", "So to address that", "because"), quoted from the
              sentence; or "none: why it needs none" (a list item, a new step the reader expects). The code checks only
@@ -88,6 +99,10 @@ PROVENANCE_FROM = '2026-11-06'
 # Gates E374 and E376: from this day every receipt answers "opens" and "same_point" (receipts that already carry either
 # key are checked for both from the moment make began writing them, 2026-11-06 19:40 UTC).
 PARAGRAPH_FROM = '2026-11-07'
+# Gate neuro-2026-11-08a: from this day a receipt for a text of mine carries a fresh reader's "needed" read, and a
+# sentence that read says the reader doesn't need is cut unless "kept" says what the reader does with it.
+NEEDED_FROM = '2026-11-08'
+READER_USE = re.compile(r'^\s*(yes\s*:\s*)?they\b\s+\S.{20,}', re.I | re.S)
 HIS_OWN = re.compile(r'^\s*his own\s*:\s*\S.{8,}', re.I | re.S)
 NOT_HIS = ('--his is only for what Joel wrote himself, before any humanizing: give --whose "his own: what and where". His '
            'version of a model\'s text, and the published text of an article a model drafted, are AI words he humanized: '
@@ -184,6 +199,7 @@ def make(text, section='', reader='', his_text='', whose=''):
         'placement': '',
         'opens': {'first_sentence': (sentences(text) or [''])[0], 'why_reading': ''},
         'same_point': '',
+        'needed': {'reader': '', 'unneeded': [], 'kept': {}},
         'questions': {q: '' for q in QUESTIONS},
         'question_text': QUESTIONS,
     }, **({'his_whose': whose} if his else {}))
@@ -271,6 +287,8 @@ def check(text, receipt):
                      'happens to each ("merged here; block N is deleted"), or "none: read the section from its heading '
                      'to the next for <the points>" (gate E376; Joel, 2026-11-06: "otherwise it was out of order and a '
                      'bit redundant")')
+    if mine and ('needed' in receipt or (receipt.get('made') or '') >= NEEDED_FROM):
+        p += needed_problems(text, receipt)
     qs = receipt.get('questions') or {}
     for q in QUESTIONS:
         a = (qs.get(q) or '').strip()
@@ -278,6 +296,37 @@ def check(text, receipt):
             p.append('%s fails: %s' % (q, a[:120]))
         elif not (a.upper().startswith('PASS') and len(a) > 10) and not (a.upper().startswith('N/A') and len(a) > 10):
             p.append('%s: answer "PASS: the evidence" or "N/A: why", for: %s' % (q, QUESTIONS[q]))
+    return p
+
+
+def needed_problems(text, receipt):
+    """Gate neuro-2026-11-08a: the fresh reader's "needed" read is there, every sentence it lists is gone or kept for a
+    use the reader has, and every checked point marked "yes" says what the reader does with it."""
+    p = []
+    why = ('a sentence stays because the reader needs it for what the paragraph is for, not because it is true, sourced, '
+           'testable or already there (gate neuro-2026-11-08a; Joel, 2026-11-08: "it seems like you\'re doing anything '
+           'possible to preserve prose even if it doesn\'t help the reader. fix that durably.")')
+    n = receipt.get('needed') or {}
+    if len((n.get('reader') or '').strip()) < 10:
+        p.append('needed: say who read the paragraph for what its reader needs (a fresh reader given '
+                 'tools/humanization/needed_read_brief.md and only the paragraph), and list in "unneeded" each sentence '
+                 'they said the reader doesn\'t need, or [] if none; %s' % why)
+    have = sentences(text)
+    kept = n.get('kept') or {}
+    for u in n.get('unneeded') or []:
+        u = (u or '').strip()
+        if not u:
+            continue
+        if any(u in x or x in u for x in have):
+            k = (kept.get(u) or '').strip()
+            if not READER_USE.match(k):
+                p.append('needed: "%s" is a sentence the fresh reader said this reader doesn\'t need; cut it, or say in '
+                         '"kept" what the reader does with it ("they ..."); %s' % (u[:70], why))
+    for c in receipt.get('checked', []):
+        a = (c.get('still_needed') or '').strip()
+        if a.lower().startswith('yes') and not READER_USE.match(a):
+            p.append('checked: "%s" says it is still needed; say what the reader does with it ("yes: they ..."), '
+                     'not why the claim holds; %s' % ((c.get('point') or '?')[:50], why))
     return p
 
 

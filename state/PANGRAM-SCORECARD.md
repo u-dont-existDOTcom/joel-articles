@@ -86,8 +86,8 @@ The boundary mix over all lanes:
 | community article | 13 | 10 (77%) | 15% | 85% | 92% | 0.169 (base 0.130, 13) |
 | hypnosis guide | 124 | 103 (83%) | 24% | 76% | 78% | 0.183 (base 0.183, 124) |
 | healing the gut article | 10 | 5 (50%) | 70% | 30% | 80% | 0.224 (base 0.210, 10) |
-| neuro de-armoring article | 5 | 1 (20%) | 80% | 20% | 100% | 0.282 (base 0.160, 5) |
-| **all lanes** | 152 | 119 (78%) | 28% | 72% | 80% | 0.188 (base 0.203, 152) |
+| neuro de-armoring article | 11 | 5 (45%) | 55% | 45% | 100% | 0.208 (base 0.248, 11) |
+| **all lanes** | 158 | 123 (78%) | 28% | 72% | 81% | 0.186 (base 0.204, 158) |
 
 The latest 100 calls of each lane:
 
@@ -96,15 +96,15 @@ The latest 100 calls of each lane:
 | community article | 13 | 10 (77%) | 15% | 85% | 92% | 0.169 (base 0.130, 13) |
 | hypnosis guide | 100 | 83 (83%) | 26% | 74% | 75% | 0.183 (base 0.192, 100) |
 | healing the gut article | 10 | 5 (50%) | 70% | 30% | 80% | 0.224 (base 0.210, 10) |
-| neuro de-armoring article | 5 | 1 (20%) | 80% | 20% | 100% | 0.282 (base 0.160, 5) |
+| neuro de-armoring article | 11 | 5 (45%) | 55% | 45% | 100% | 0.208 (base 0.248, 11) |
 
 The boundary mix over all lanes:
 
 | scope or kind | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
 | section | 130 | 104 (80%) | 22% | 78% | 82% | 0.185 (base 0.173, 130) |
-| paragraph | 16 | 12 (75%) | 50% | 50% | 75% | 0.205 (base 0.250, 16) |
-| pair | 6 | 3 (50%) | 100% | 0% | 50% | 0.215 (base 0.000, 6) |
+| paragraph | 21 | 16 (76%) | 43% | 57% | 81% | 0.186 (base 0.245, 21) |
+| pair | 7 | 3 (43%) | 100% | 0% | 57% | 0.220 (base 0.000, 7) |
 
 ## pangram 4.1, the API (Joel's key, run on his laptop; E218)
 
@@ -384,24 +384,24 @@ The boundary mix over all lanes:
 | lane | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
 | healing the gut article | 81 | 63 (78%) | 25% | 75% | 90% | 0.167 (base 0.186, 81) |
-| romance article | 115 | 78 (68%) | 38% | 62% | 85% | 0.227 (base 0.236, 115) |
-| **all lanes** | 196 | 141 (72%) | 33% | 67% | 87% | 0.202 (base 0.220, 196) |
+| romance article | 133 | 87 (65%) | 41% | 59% | 86% | 0.230 (base 0.241, 133) |
+| **all lanes** | 214 | 150 (70%) | 35% | 65% | 88% | 0.206 (base 0.226, 214) |
 
 The latest 100 calls of each lane:
 
 | lane | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
 | healing the gut article | 81 | 63 (78%) | 25% | 75% | 90% | 0.167 (base 0.186, 81) |
-| romance article | 100 | 70 (70%) | 36% | 64% | 84% | 0.228 (base 0.230, 100) |
+| romance article | 100 | 66 (66%) | 38% | 62% | 86% | 0.233 (base 0.236, 100) |
 
 The boundary mix over all lanes:
 
 | scope or kind | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| section | 77 | 58 (75%) | 25% | 75% | 92% | 0.195 (base 0.186, 77) |
-| pair | 55 | 36 (65%) | 49% | 51% | 85% | 0.220 (base 0.250, 55) |
-| stretch | 35 | 28 (80%) | 29% | 71% | 80% | 0.171 (base 0.204, 35) |
-| paragraph | 29 | 19 (66%) | 28% | 72% | 86% | 0.227 (base 0.200, 29) |
+| section | 84 | 62 (74%) | 27% | 73% | 92% | 0.195 (base 0.199, 84) |
+| pair | 59 | 38 (64%) | 49% | 51% | 86% | 0.224 (base 0.250, 59) |
+| stretch | 38 | 29 (76%) | 32% | 68% | 82% | 0.178 (base 0.216, 38) |
+| paragraph | 33 | 21 (64%) | 30% | 70% | 88% | 0.232 (base 0.211, 33) |
 
 ## pangram 4.1, his Pangram extension on the live post (free, Joel's account)
 
@@ -563,7 +563,7 @@ The boundary mix over all lanes:
 
 | cause | misses | lanes |
 |---|---|---|
-| not explained yet | 68 | bad trips guide, community article, healing the gut article, hypnosis guide, inner child guide, neuro de-armoring article |
+| not explained yet | 70 | bad trips guide, community article, healing the gut article, hypnosis guide, inner child guide, neuro de-armoring article |
 | context | 17 | bad trips guide, healing the gut article |
 | too pessimistic about a cut | 12 | inner child guide |
 | a tell I did not name | 11 | inner child guide |
@@ -592,6 +592,7 @@ The boundary mix over all lanes:
 | tells | 2 | healing the gut article |
 | my rewrite of words that already read High | 2 | healing the gut article |
 | parallel cases in one mould | 2 | healing the gut article |
+| essay-shaped evaluation | 2 | romance article |
 | the unchanged neighbour | 1 | community article |
 | a window the test made | 1 | community article |
 | parallel list kept; light green turned red | 1 | hypnosis guide |
@@ -704,6 +705,13 @@ The boundary mix over all lanes:
 | my changes to his gender claims read AI, and so did his own | 1 | romance article |
 | 201's closing sentence, unchanged from the live post, read AI Low (40 words) in this short section by itself: a four-item list of what he is expected to do, with a "without ...ing" tail; my change, the bed line said inside its example, read in the High window with the rest | 1 | romance article |
 | the closing sentence still read as a list of what he is expected to do (Human Low, 41 words, up from AI Low in #108): giving the four items different shapes and making the tail the last item didn't take away the list | 1 | romance article |
+| idiom stacking | 1 | romance article |
+| generic narrative | 1 | romance article |
+| overlong join | 1 | romance article |
+| untouched neighbour | 1 | romance article |
+| context pattern (S2) | 1 | romance article |
+| Low windows only | 1 | romance article |
+| method spent | 1 | romance article |
 | the panel's fixes worked better than I expected | 1 | neuro de-armoring article |
 | my changes to try 5's Medium and Low sentences read AI | 1 | neuro de-armoring article |
 | another family's writer changed the build | 1 | neuro de-armoring article |

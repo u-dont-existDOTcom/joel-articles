@@ -15,7 +15,7 @@ Built by `tools/humanization/pangram_ledger.py build` from `articles/neuro-de-ar
 | web app, his account | 1 | 0 (0%) | 100% | 0% | 100% | 0.250 (base 0.000, 1) |
 | web app, his account, run by the lane in the desktop app's browser pane (E356) | 38 | 34 (89%) | 87% | 13% | 8% | 0.183 (base 0.114, 38) |
 | pangram-4.1-substack | 1 | 1 (100%) | 100% | 0% | 0% | 0.000 (base 0.000, 1) |
-| Pangram 4.1 (web app) | 5 | 1 (20%) | 80% | 20% | 100% | 0.282 (base 0.160, 5) |
+| Pangram 4.1 (web app) | 11 | 5 (45%) | 55% | 45% | 100% | 0.208 (base 0.248, 11) |
 
 ## pangram 4.1, the API (Joel's key, run on his laptop; E218)
 
@@ -218,28 +218,30 @@ Calibration:
 
 | window | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| the latest 50 | 5 | 1 (20%) | 80% | 20% | 100% | 0.282 (base 0.160, 5) |
-| the latest 100 | 5 | 1 (20%) | 80% | 20% | 100% | 0.282 (base 0.160, 5) |
-| all | 5 | 1 (20%) | 80% | 20% | 100% | 0.282 (base 0.160, 5) |
+| the latest 50 | 11 | 5 (45%) | 55% | 45% | 100% | 0.208 (base 0.248, 11) |
+| the latest 100 | 11 | 5 (45%) | 55% | 45% | 100% | 0.208 (base 0.248, 11) |
+| all | 11 | 5 (45%) | 55% | 45% | 100% | 0.208 (base 0.248, 11) |
 
 The boundary mix (what was checked; accuracy differs a lot between a paragraph and a section):
 
 | scope or kind | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| paragraph | 4 | 1 (25%) | 75% | 25% | 100% | 0.276 (base 0.188, 4) |
-| pair | 1 | 0 (0%) | 100% | 0% | 100% | 0.303 (base 0.000, 1) |
+| paragraph | 9 | 5 (56%) | 44% | 56% | 100% | 0.193 (base 0.247, 9) |
+| pair | 2 | 0 (0%) | 100% | 0% | 100% | 0.276 (base 0.000, 2) |
 
 Calibration:
 
 | my chance of a 100% Human result | calls | mean chance | read Human |
 |---|---|---|---|
-| 0.4 to 0.6 | 5 | 0.53 | 20% |
+| 0.4 to 0.6 | 9 | 0.54 | 33% |
+| 0.6 to 0.8 | 2 | 0.60 | 100% |
+| 0.8 to 1.0 | 2 | 0.82 | 100% |
 
-## Misses since the ledger (17)
+## Misses since the ledger (19)
 
 | cause | misses |
 |---|---|
-| not explained yet | 14 |
+| not explained yet | 16 |
 | the panel's fixes worked better than I expected | 1 |
 | my changes to try 5's Medium and Low sentences read AI | 1 |
 | another family's writer changed the build | 1 |
@@ -248,8 +250,6 @@ The latest:
 
 | check | lineage, try | said | read | cause |
 |---|---|---|---|---|
-| [b083](https://www.pangram.com/history/bdc81685-fdd0-420e-b74f-1a196b1ec606) | ND1104-B083, 6 | AI | Human | another family's writer changed the build |
-| [b088](https://www.pangram.com/history/8d2d4cf1-13da-4c6c-83ae-eddb774ef930) | ND1104-B088, 2 | AI | Human | **not explained yet** |
 | [b088](https://www.pangram.com/history/4079bcd3-65eb-43f8-97bb-ec8436fc5f19) | ND1104-B088, 3 | Human | AI or mixed | **not explained yet** |
 | [b088m](https://www.pangram.com/history/f645d894-6c91-41b3-841d-26ec0d79b093) | ND1104-B088m, 1 | AI | Human | **not explained yet** |
 | [b093](https://www.pangram.com/history/2be95f74-b2cf-45ec-a669-1807880af623) | ND1104-B093, 4 | AI | Human | **not explained yet** |
@@ -263,6 +263,8 @@ The latest:
 | [PAIR-040-041](https://www.pangram.com/history/4312584e-a4de-471b-aaba-5459ffaa4cd9) | neuro-de-armoring/PAIR-040-041, 1 | Human | AI or mixed | **not explained yet** |
 | [B037h](https://www.pangram.com/history/4026db4c-d192-4673-8adc-c56d711b8087) | neuro-de-armoring/B037, 2 | Human | AI or mixed | **not explained yet** |
 | [B038h2](https://www.pangram.com/history/fa44a654-ae02-432f-b2aa-6dd033ca41f6) | neuro-de-armoring/B038, 5 | Human | AI or mixed | **not explained yet** |
+| [B039n](https://www.pangram.com/history/7768cb2f-aa9a-4ab2-b99e-7e14ac8379f9) | neuro-de-armoring/B039, 2 | Human | AI or mixed | **not explained yet** |
+| [PAIR-040-041n](https://www.pangram.com/history/ca20c43c-e69b-4360-a7e9-fb4941bbb23f) | neuro-de-armoring/PAIR-040-041, 2 | Human | AI or mixed | **not explained yet** |
 
 ## Lineages still open (tries used of the cap)
 
@@ -336,6 +338,6 @@ The latest:
 | neuro-de-armoring/B043 | paragraph | 3 of 6 | AI |
 | neuro-de-armoring/B044 | paragraph | 3 of 6 | AI |
 | neuro-de-armoring/B037 | paragraph | 2 of 6 | AI |
-| neuro-de-armoring/B039 | paragraph | 1 of 6 | AI |
-| neuro-de-armoring/PAIR-040-041 | pair | 1 of 6 | AI |
+| neuro-de-armoring/B039 | paragraph | 2 of 6 | Mixed |
+| neuro-de-armoring/PAIR-040-041 | pair | 2 of 6 | AI |
 

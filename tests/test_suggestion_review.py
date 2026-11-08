@@ -352,6 +352,7 @@ class ReceiptTests(unittest.TestCase):
         r['placement'] = 'first in the section, which it opens'
         r['opens']['why_reading'] = 'the helper learns the first thing to do while the seizure is on'
         r['same_point'] = 'none: read the Active Seizure section from its heading to the next for timing and the side'
+        r['needed'] = {'reader': 'a fresh reader given needed_read_brief.md', 'unneeded': [], 'kept': {}}
         r['questions'] = {q: 'PASS: said plainly' for q in sense_receipt.QUESTIONS}
         with tempfile.NamedTemporaryFile('w', suffix='.json', dir=str(R.ROOT), delete=False) as f:
             json.dump(r, f)

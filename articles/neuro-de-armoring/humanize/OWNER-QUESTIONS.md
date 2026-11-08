@@ -1,9 +1,9 @@
 # Neuro de-armoring: what I need from Joel
 
-Last updated 2026-11-07, after your three answers (13:49 UTC) and section B's humanizing pass.
-**Open questions: none.** **For you to do**: if you want to, fix either of the two paragraphs on
-[Neuro De-Armoring Cards, 7 November (3)](https://claude.ai/artifact/RGUmoY9oVUxWQ6Q6hKK1AR)
-([the same cards in Git](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261107/hum/teach/REVIEW-X1107C.md)); every wording I tried for them read AI.
+Last updated 2026-11-08, after your versions of blocks 37 and 38 (00:49 UTC).
+**Open questions: none.** **For you to do**: two cards on
+[Neuro De-Armoring Cards, 8 November](https://claude.ai/artifact/WKR3sLVAEMvR3RJTY7GAps)
+([the same cards in Git](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/x1108a/REVIEW-X1108A.md)), a science fix in each of your two new paragraphs.
 Colours: 🟣 a question for you; 🟠 something for you to do; 🔵 next or in progress; 🟢 done or decided.
 
 The master copy of this page is [this file in Git](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/OWNER-QUESTIONS.md), so a session in either of your accounts
@@ -18,15 +18,26 @@ can read and update it. Every file it points to is a link.
 
 ## For you to do
 
-- 🟠 **Two paragraphs, if you want them** (block 37, the Mechanism, and block 38, the Signal Dial):
-  [Neuro De-Armoring Cards, 7 November (3)](https://claude.ai/artifact/RGUmoY9oVUxWQ6Q6hKK1AR)
-  ([in Git](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261107/hum/teach/REVIEW-X1107C.md)). Every wording I tried read AI at 100%, after both tell
-  panels ([block 37](https://www.pangram.com/history/4026db4c-d192-4673-8adc-c56d711b8087), [block 38](https://www.pangram.com/history/fa44a654-ae02-432f-b2aa-6dd033ca41f6)), so
-  these are the two I'd learn the most from. Keep it as it is, or Edit it and write your own. Block 38 is
-  the one you already fixed once, so your two versions beside each other would show me what I lost when the claims
-  changed.
-- 🟢 **Done since your answers**: all ten approved claims are in the article, and block 42's humanized version is in
-  too ([Human, High](https://www.pangram.com/history/67dd2887-06b0-4c66-8ff2-dbf0bf389e24)).
+- 🟠 **Two science fixes in your own words** ([the page](https://claude.ai/artifact/WKR3sLVAEMvR3RJTY7GAps), [in Git](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/x1108a/REVIEW-X1108A.md)): in the Mechanism, "swell and"
+  comes out (the swelling in glutamate poisoning comes from sodium and chloride, in a dish at toxic doses; calcium
+  does the slower damage); in the Signal Dial, your first clause makes NMDA the main calcium door rather than the
+  spark (AMPA starts the excitation), and GluD "another door" rather than a calcium door. Both still read Human at
+  High with the fix ([the Mechanism](https://www.pangram.com/history/755ca0fd-b05f-4092-95b2-6e9da5daa36f), [the Signal Dial](https://www.pangram.com/history/e3845c44-7bf0-4e7d-93a8-706b596c9c4b)).
+
+## Your answers of 2026-11-08 00:49 UTC (your versions of blocks 37 and 38), and what I did
+
+- 🟢 **Both of your versions are in** and read Human: [the Mechanism, High 137 and Medium 13](https://www.pangram.com/history/3630663f-3104-4ce7-86f7-462cbb26601d),
+  [the Signal Dial, High](https://www.pangram.com/history/e798ace7-cc92-45ff-973e-ceaf1f5ed2c4). Fixed without asking: "which s", two broken
+  links, the citation links your paste dropped (Wilson, Boyle, Wang), and Conrad's year (2008, not 2009).
+- 🟢 **"Doing anything possible to preserve prose", fixed durably**: before any rewording, a fresh reader now says
+  which sentences the reader doesn't need for what the paragraph is for, and the check refuses a draft of mine that
+  keeps one without saying what the reader does with it. The repository's preservation rule now says it protects
+  what you wrote, never a model's sentence.
+- 🔵 **First use, on blocks 39, 40 and 41**: the GluD clause, a receptor name, an extra plug and three pictures in
+  one clause came out, and "so less of the voltage gets through", which made no sense, now says calcium. They are in
+  the article; the "Lock, Stock, and Barrel" label went too, since only "Lock" named anything. They still read AI
+  ([block 39](https://www.pangram.com/history/7768cb2f-aa9a-4ab2-b99e-7e14ac8379f9), [blocks 40 and 41](https://www.pangram.com/history/ca20c43c-e69b-4360-a7e9-fb4941bbb23f);
+  [every result](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/RESULTS-0108.md)), as the versions they replaced did.
 
 ## Your answers of 2026-11-07 13:49 UTC (the three rewritten cards), and what I did
 

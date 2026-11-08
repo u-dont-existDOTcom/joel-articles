@@ -1,0 +1,86 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-08",
+ "text_sha256": "9224f4bec320a101a012f9a5f52216fd93dd75a3a6417db4339e63a0995c1087",
+ "text": "The Mechanism: When glutamate floods into the neuron, it jams open the NMDA \"doors\" (receptors), which allows calcium to flood in. Calcium at such high levels caused by stress can injure the neurons. Possibly as a protective mechanism, those neurons have been observed (in rats) to pull back their complex interactions with other neurons for up to two weeks after a stressful event (Bonifacino, et al, 2023). It's theorized that chronic stress on neurons also makes them more vulnerable to other toxic insults (Conrad, 2008), which is kind of common sense. What does all that feel like? Although popular neuroscience doesn't communicate this well, neurotransmitters affect different brain regions differently. Under chronic stress, glutamate rises in the part of the amygdala that flags threats (Wilson, 2015), producing anxiety, rage, all that good stuff. Block the NMDA receptors there, and anxious behaviour drops in animals (Boyle, 2013).",
+ "section": "B. The \"Overheating\" CPU: Glutamate Excitotoxicity",
+ "reader": "someone with trauma or in withdrawal who is anxious, wired or raging, deciding which of the protocol's tools to take and how to run their therapy sessions",
+ "sentences": [
+  {
+   "s": "The Mechanism: When glutamate floods into the neuron, it jams open the NMDA \"doors\" (receptors), which allows calcium to flood in.",
+   "his": true
+  },
+  {
+   "s": "Calcium at such high levels caused by stress can injure the neurons.",
+   "payoff": "they learn that stress-level calcium can injure the neurons, without the swelling his sources don't show",
+   "follows": "it is the sentence of his it replaces, in the same place",
+   "link": "none: it is his sentence with one claim corrected, at the same place"
+  },
+  {
+   "s": "Possibly as a protective mechanism, those neurons have been observed (in rats) to pull back their complex interactions with other neurons for up to two weeks after a stressful event (Bonifacino, et al, 2023).",
+   "his": true
+  },
+  {
+   "s": "It's theorized that chronic stress on neurons also makes them more vulnerable to other toxic insults (Conrad, 2008), which is kind of common sense.",
+   "his": true
+  },
+  {
+   "s": "What does all that feel like?",
+   "his": true
+  },
+  {
+   "s": "Although popular neuroscience doesn't communicate this well, neurotransmitters affect different brain regions differently.",
+   "his": true
+  },
+  {
+   "s": "Under chronic stress, glutamate rises in the part of the amygdala that flags threats (Wilson, 2015), producing anxiety, rage, all that good stuff.",
+   "his": true
+  },
+  {
+   "s": "Block the NMDA receptors there, and anxious behaviour drops in animals (Boyle, 2013).",
+   "his": true
+  }
+ ],
+ "checked": [
+  {
+   "point": "calcium at such high levels caused by stress \"can swell and injure the neurons\"",
+   "found": "the swelling in glutamate toxicity is early and comes from sodium, chloride and water; calcium drives the slower damage (Choi 1987; Goldberg and Choi 1993, both in cultured neurons at toxic doses); nothing shows swelling at stress levels",
+   "still_needed": "yes: they learn the calcium can injure the cells, which the next sentence builds on",
+   "fate": "changed"
+  }
+ ],
+ "placement": "his paragraph, where he put it in section B",
+ "opens": {
+  "first_sentence": "The Mechanism: When glutamate floods into the neuron, it jams open the NMDA \"doors\" (receptors), which allows calcium to flood in.",
+  "why_reading": "his opening sentence, which tells the reader what glutamate does in their brain"
+ },
+ "same_point": "none: read section B from its heading to section C for the mechanism, GluD, D-serine and DCS, and the fixes; each point here is made once in the section",
+ "needed": {
+  "reader": "none run: his own paragraph, which he cut to what the reader needs himself",
+  "unneeded": [],
+  "kept": {}
+ },
+ "questions": {
+  "Q1": "PASS: each sentence opens on its point",
+  "Q2": "N/A: no instruction except the session advice, whose reason is in the same sentence",
+  "Q3": "PASS: each thing is named exactly",
+  "Q4": "PASS: exposure therapy and cystine explained where first used; NMDA from the paragraphs before",
+  "Q5": "PASS: each \"so\", \"but\" and \"since\" turns on the clause before",
+  "Q6": "PASS: in the order the reader needs",
+  "Q7": "PASS: each fact is about a tool the reader takes",
+  "Q8": "N/A: no group inside the paragraph",
+  "Q9": "PASS: the small words that carry the relation kept"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ },
+ "his_whose": "his own: his version of this paragraph, 2026-11-08 00:49 UTC (ANSWERS-X1107C)"
+}

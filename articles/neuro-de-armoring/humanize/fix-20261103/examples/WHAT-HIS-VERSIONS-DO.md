@@ -211,3 +211,23 @@ checked his: [first form](https://www.pangram.com/history/05b61b8e-e084-4c58-85f
 | Maybe you've done years of CBT or EMDR and you still freeze up or blow up at the same old triggers. | Have you done years of CBT or EMDR and yet you still freeze up or blow up at the same old triggers? | A question asks the reader in first. |
 | Standard therapy is trying to rewrite the "code" (...), while the "motherboard" (...) is often overheating or damaged, and code doesn't run well on a motherboard like that. | One reason to think about, is that standard therapy is trying to rewrite the "code" (...) | The sentence says it's an answer to the reader's question. |
 | This protocol goes after four specific neuro-biological problems that must be addressed before psychological tools can do much. | So to address that, I've designed this protocol to go after four specific neuro-biological problems before you go working on the psychology (well, alongside). | The link said ("So to address that"), the author present ("I've designed"), the abstraction put in the reader's hands, and his own correction. |
+
+
+## His versions sixteen and seventeen: the Mechanism and the Secondary Signal Dial (8 November, 00:49 UTC)
+
+Both had read AI in every wording of mine, after tell panels (`../../fix-20261107/hum/RESULTS.md`). His versions read
+Human: [the Mechanism, High 137 and Medium 13](https://www.pangram.com/history/3630663f-3104-4ce7-86f7-462cbb26601d)
+(his own last check, before my typo and link fixes, was [one window, High](https://www.pangram.com/history/b1bd7488-ed0c-42f7-be0c-3bd6fd46bcc8)),
+[the Signal Dial, High](https://www.pangram.com/history/e798ace7-cc92-45ff-973e-ceaf1f5ed2c4). In the article
+(`../../fix-20261108/apply_his_x1107c.py`). Lessons neuro-2026-11-08a, b and c (`docs/lessons/2026-11-08-0049-neuro.md`).
+
+| mine | his | what changed |
+|---|---|---|
+| block 38: six sentences (a question, the finding, the leak measured in people, its two cases, the armor guess with its mechanism, that it is untested) | two sentences: GluD is another door, and what opens it is D-serine (one of the tools) and GABA, not glutamate | Everything the reader can't use for the protocol is gone; what's left is the one fact the paragraph is there for. "it was making no sense ... you're doing anything possible to preserve prose even if it doesn't help the reader." |
+| block 37: the definition of excitotoxicity and when cells die | what stress-level calcium does: neurons pull back their connections for up to two weeks, in rats | The effect at the level the reader lives, with its source, instead of the stroke-level case. |
+| "What you feel from a glutamate storm is ..." | "What does all that feel like?" | A question as the turn. |
+| (none) | "which is kind of common sense"; "producing anxiety, rage, all that good stuff"; "Although popular neuroscience doesn't communicate this well" | Asides in his own voice, and his view of the field. |
+
+**Rules from this one**: before any rewording, a fresh reader says which sentences the reader doesn't need for what the
+paragraph is for, and those go (gate neuro-2026-11-08a, `sense_receipt.py`'s `needed`); his new claims get the same
+science check as the old ones, and a fix to his words goes to him on a card (neuro-2026-11-08c: card page x1108a).

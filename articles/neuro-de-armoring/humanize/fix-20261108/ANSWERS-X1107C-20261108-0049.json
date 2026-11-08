@@ -1,0 +1,61 @@
+{
+ "format": "joel-suggestion-review-answers-v1",
+ "review_id": "neuro-de-armoring-cards-20261107-x1107c",
+ "title": "Neuro De-Armoring Cards, 7 November (3): two paragraphs to teach me on",
+ "git_file": "articles/neuro-de-armoring/humanize/fix-20261107/hum/teach/REVIEW-X1107C.html",
+ "article": {
+  "file": "articles/neuro-de-armoring/humanize/HUMANIZED-SO-FAR.md",
+  "sha256": "87205f54fd04ab610a420308c65d4f3fec267001e219f305a1f83298d3f311f9"
+ },
+ "built": "2026-11-07T14:02:01Z",
+ "generator": "suggestion_review.py 1.9 (2026-11-07)",
+ "exported_at": "2026-11-08T00:49:01.861Z",
+ "counts": {
+  "approved": 0,
+  "rejected": 0,
+  "revise": 2,
+  "pending": 0
+ },
+ "items": [
+  {
+   "id": "T-37",
+   "type": "teach",
+   "title": "The Mechanism: the science is right, the wording is still mine",
+   "where": "B. The \"Overheating\" CPU: Glutamate Excitotoxicity, P3",
+   "advice": "edit",
+   "status": "revise",
+   "your_version": "The Mechanism: Excess Glutamate over-activates NMDA receptors, the doors on brain cells that glutamate unlocks, acting like a key stuck in the \"On\" position, so too much calcium pours into the cells. In extreme cases, like a stroke or a brain injury, that calcium overload kills them, which is what \"excitotoxicity\" means (Sattler & Tymianski, 2001). What you feel from a glutamate storm depends on which circuit is firing too hard, and under stress the rise reaches the amygdala, the part of the brain that flags threats (Wilson, 2015), so the feeling it produces is threat: anxiety, rage, the \"itchy brain\", not pleasure. Block the NMDA receptors there and anxious behaviour goes down in animals (Boyle, 2013).",
+   "comment": "fixed the science and made it clearer, now it passes but your last part is human medium conf: https://www.pangram.com/history/02f568ff-f981-43a1-91f0-377ffee4dc36?ucc=AyfvimuzkWB&utm_source=pangram_share&utm_medium=copy_link\n\nclarified more and now all high conf: https://www.pangram.com/history/b1bd7488-ed0c-42f7-be0c-3bd6fd46bcc8?ucc=AyfvimuzkWB&utm_source=pangram_share&utm_medium=copy_link",
+   "my_version": "The Mechanism: Excess Glutamate over-activates NMDA receptors, the doors on brain cells that glutamate unlocks, acting like a key stuck in the \"On\" position, so too much calcium pours into the cells. In extreme cases, like a stroke or a brain injury, that calcium overload kills them, which is what \"excitotoxicity\" means (Sattler & Tymianski, 2001). What you feel from a glutamate storm depends on which circuit is firing too hard, and under stress the rise reaches the amygdala, the part of the brain that flags threats (Wilson, 2015), so the feeling it produces is threat: anxiety, rage, the \"itchy brain\", not pleasure. Block the NMDA receptors there and anxious behaviour goes down in animals (Boyle, 2013).",
+   "before": "The Mechanism: Excess Glutamate over-activates NMDA receptors, the doors on brain cells that glutamate unlocks, acting like a key stuck in the \"On\" position, so too much calcium pours into the cells. In extreme cases, like a stroke or a brain injury, that calcium overload kills them, which is what \"excitotoxicity\" means (Sattler & Tymianski, 2001). What you feel from a glutamate storm depends on which circuit is firing too hard, and under stress the rise reaches the amygdala, the part of the brain that flags threats (Wilson, 2015), so the feeling it produces is threat: anxiety, rage, the \"itchy brain\", not pleasure. Block the NMDA receptors there and anxious behaviour goes down in animals (Boyle, 2013).",
+   "history": [
+    {
+     "from": "pending",
+     "to": "revise",
+     "at": "2026-11-08T00:20:59.750Z"
+    }
+   ],
+   "updated": "2026-11-08T00:23:45.154Z"
+  },
+  {
+   "id": "T-38",
+   "type": "teach",
+   "title": "The Signal Dial: your version read Human, mine with the corrected science reads AI",
+   "where": "B. The \"Overheating\" CPU: Glutamate Excitotoxicity, P4",
+   "advice": "edit",
+   "status": "revise",
+   "your_version": "The Secondary Signal Dial (GluD Receptors): While NMDA receptor opening is the main spark that starts up neuronal excitation, another calcium door was recently discovered in the GluD receptors. What opens them is D-serine (one of the tools below) and GABA, the neurotransmitter that usually quiets down communication, not glutamate (Wang, et al, 2025). ",
+   "comment": "did you even read what you had there? it was making no sense. i removed most of it and just put the basic facts. it seems like you're doing anything possible to preserve prose even if it doesn't help the reader. fix that durably. ",
+   "my_version": "The Signal Dial (GluD Receptors): So if NMDA is the spark, is anything else turning the signal up or down? Well according to a recent finding by Johns Hopkins researchers, GluD receptors, until now known for helping build synapses, are channels in their own right, and what opens them is D-serine (one of the tools below) and GABA, the brain's calming chemical, rather than glutamate (Wang, et al, 2025). What has been measured in people so far all points one way: the channel sticks open and leaks, so the synapse never gets quiet. That is what the mutation behind one inherited ataxia does, and a gene variant that raises the risk of schizophrenia does the same (Allen, et al, 2023). So my guess for the armored state is that it jams the dial the same way, stuck part-way on, which is what hyper-vigilance would be at the level of one synapse: a floor the signal can't drop below. Nobody has tested that in trauma yet, and it can be tested, because a drug that shuts these leaking channels already works in the lab.",
+   "before": "The Signal Dial (GluD Receptors): So if NMDA is the spark, is anything else turning the signal up or down? Well according to a recent finding by Johns Hopkins researchers, GluD receptors, until now known for helping build synapses, are channels in their own right, and what opens them is D-serine (one of the tools below) and GABA, the brain's calming chemical, rather than glutamate (Wang, et al, 2025). What has been measured in people so far all points one way: the channel sticks open and leaks, so the synapse never gets quiet. That is what the mutation behind one inherited ataxia does, and a gene variant that raises the risk of schizophrenia does the same (Allen, et al, 2023). So my guess for the armored state is that it jams the dial the same way, stuck part-way on, which is what hyper-vigilance would be at the level of one synapse: a floor the signal can't drop below. Nobody has tested that in trauma yet, and it can be tested, because a drug that shuts these leaking channels already works in the lab.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "revise",
+     "at": "2026-11-08T00:23:55.861Z"
+    }
+   ],
+   "updated": "2026-11-08T00:48:57.991Z"
+  }
+ ]
+}

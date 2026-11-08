@@ -1,0 +1,26 @@
+{
+ "answers": "ANSWERS-X1107C-20261108-0049.json",
+ "answered_utc": "2026-11-08T00:49:01.861Z",
+ "block37": {
+  "from": "his Pangram check b1bd7488 (Human Written, Human High 167)",
+  "his_checked_text_sha256": "29c8ca0dcc856826340a75547d708d8c1231f6c58522140efd3e7200866ce21c",
+  "fixed": [
+   "\"which s\" to \"which is\"",
+   "two Markdown links repaired",
+   "Wilson and Boyle links put back",
+   "Conrad 2009 to 2008 (publication year)"
+  ],
+  "before": "The Mechanism: Excess Glutamate over-activates NMDA receptors, the doors on brain cells that glutamate unlocks, acting like a key stuck in the \"On\" position, so too much calcium pours into the cells. In extreme cases, like a stroke or a brain injury, that calcium overload kills them, which is what \"excitotoxicity\" means (Sattler & Tymianski, 2001). What you feel from a glutamate storm depends on which circuit is firing too hard, and under stress the rise reaches the amygdala, the part of the brain that flags threats (Wilson, 2015), so the feeling it produces is threat: anxiety, rage, the \"itchy brain\", not pleasure. Block the NMDA receptors there and anxious behaviour goes down in animals (Boyle, 2013).",
+  "after": "The Mechanism: When glutamate floods into the neuron, it jams open the NMDA \"doors\" (receptors), which allows calcium to flood in. Calcium at such high levels caused by stress can swell and injure the neurons. Possibly as a protective mechanism, those neurons have been observed (in rats) to pull back their complex interactions with other neurons for up to two weeks after a stressful event (Bonifacino, et al, 2023). It's theorized that chronic stress on neurons also makes them more vulnerable to other toxic insults (Conrad, 2008), which is kind of common sense. What does all that feel like? Although popular neuroscience doesn't communicate this well, neurotransmitters affect different brain regions differently. Under chronic stress, glutamate rises in the part of the amygdala that flags threats (Wilson, 2015), producing anxiety, rage, all that good stuff. Block the NMDA receptors there, and anxious behaviour drops in animals (Boyle, 2013)."
+ },
+ "block38": {
+  "from": "his card T-38",
+  "fixed": [
+   "the Wang link put back",
+   "trailing space"
+  ],
+  "before": "The Signal Dial (GluD Receptors): So if NMDA is the spark, is anything else turning the signal up or down? Well according to a recent finding by Johns Hopkins researchers, GluD receptors, until now known for helping build synapses, are channels in their own right, and what opens them is D-serine (one of the tools below) and GABA, the brain's calming chemical, rather than glutamate (Wang, et al, 2025). What has been measured in people so far all points one way: the channel sticks open and leaks, so the synapse never gets quiet. That is what the mutation behind one inherited ataxia does, and a gene variant that raises the risk of schizophrenia does the same (Allen, et al, 2023). So my guess for the armored state is that it jams the dial the same way, stuck part-way on, which is what hyper-vigilance would be at the level of one synapse: a floor the signal can't drop below. Nobody has tested that in trauma yet, and it can be tested, because a drug that shuts these leaking channels already works in the lab.",
+  "after": "The Secondary Signal Dial (GluD Receptors): While NMDA receptor opening is the main spark that starts up neuronal excitation, another calcium door was recently discovered in the GluD receptors. What opens them is D-serine (one of the tools below) and GABA, the neurotransmitter that usually quiets down communication, not glutamate (Wang, et al, 2025)."
+ },
+ "article_sha256_after": "449ce456df58edde0601ac0a402f0581d04a85f0e69e30f63d02e03c1cbb9faa"
+}

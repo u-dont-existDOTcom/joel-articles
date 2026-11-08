@@ -2469,6 +2469,30 @@
    ],
    "terms_lost": [],
    "keys_lost": {}
+  },
+  {
+   "by": "fix-20261108/ANSWERS-X1107C-20261108-0049.json, his versions of blocks 37 and 38 (2026-11-08 00:49 UTC): block 37 from his Pangram check b1bd7488, block 38 from his card",
+   "why": "he rewrote block 37 (\"fixed the science and made it clearer\") with what stress-level calcium does, and cut block 38 to the basic facts (\"i removed most of it and just put the basic facts\"). The new years are his citations Bonifacino 2023 and Conrad 2008",
+   "numbers_lost": [
+    "2001",
+    "2023"
+   ],
+   "numbers_new": [
+    "2008",
+    "2023"
+   ],
+   "terms_lost": [],
+   "keys_lost": {},
+   "citations_lost": [
+    {
+     "cite": "Sattler & Tymianski, 2001",
+     "why": "the claim is gone: his version of block 37 drops the stroke-level cell death that 'excitotoxicity' named and says what stress-level calcium does instead, with Bonifacino 2023 and Conrad 2008"
+    },
+    {
+     "cite": "Allen, et al, 2023",
+     "why": "he said: \"i removed most of it and just put the basic facts\" (block 38, his card T-38); the ataxia and schizophrenia cases it backed are gone"
+    }
+   ]
   }
  ],
  "warning_words": {
