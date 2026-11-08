@@ -1,0 +1,165 @@
+# Part 1 of 5 (blocks B0 to B137)
+
+## YOUR PART
+
+[B0] [**Quick Triage Web-App Version HERE**](https://ibogaqueen.com/1625-2/)
+
+[B1] ---
+
+[B2] (a picture)
+
+[B65] # Inner Signal App to the Rescue!
+
+[B66] I developed the [**Inner Signal app**](http://innersignalselfhypnosis.com/integrate) from my [Inner Child Reparenting](http://innerchild.u-dont-exist.com/) and [Self-Hypnosis](http://hypnosis.u-dont-exist.com/) guides, along with my [sleep guide](http://sleep.u-dont-exist.com/), [meditation guidance](http://mindset.u-dont-exist.com/), and this bad-trips guide. It can gently guide you through reparenting in trance--or without trance when you're already altered--choose meditations that fit what's actually happening, and help you through difficult altered states. If you prefer the old-fashioned method of reading and applying things yourself, read on.
+
+[B67] ---
+
+[B91] # When to Bring In Outside Help
+
+[B92] (a picture)
+
+[B93] ## Call medics while acting for:
+
+[B94] - Trouble breathing, blue or gray lips, or respiratory depression
+- A convulsive seizure lasting about five minutes, repeated seizures without normal recovery, or a first or substantially different seizure
+- Collapse, inability to wake normally, or rapidly worsening consciousness
+- Dangerous overheating, severe rigidity, or clonus with fever
+- Sudden one-sided weakness, loss of speech, inability to walk normally, or loss of control of bodily functions
+- A report that the brain feels damaged when the person cannot complete a basic neurological check or is rapidly worsening
+- Severe, worsening, radiating, or exertional chest pain--or chest pain with breathlessness, sweating, faintness, neurological changes, or collapse
+- Serious injury, uncontrolled bleeding, or a possible head or spinal injury
+- Repeated vomiting, severe dehydration, blood, or severe abdominal pain
+- Violence, self-harm, or a situation the sitter cannot physically contain
+- Concerning symptoms after an MAOI plus a serotonergic substance
+
+[B95] The remedies below can begin while help is being arranged. Calling medics does not require waiting passively, and using a fast field remedy does not require giving up a time-sensitive medical option.
+
+[B96] ## Bring in mental-health support when:
+
+[B97] - Psychosis-like symptoms outlast the acute state.
+- Sleep won't return.
+- Mania or suicidal thinking appears.
+- Panic won't settle.
+- The person can't function afterward.
+- The trauma material is bigger than the room can hold.
+
+[N-SF-1] ## When Peer Support Isn't Enough
+
+[B276] Get urgent help when somebody may harm themselves or another person, cannot be kept physically safe, is moving toward roads, water, or heights, has command voices or fixed terrifying beliefs driving action, becomes violent, is severely confused and unreachable, has dangerous physical symptoms, has lost enough sleep that judgment is collapsing, or exceeds what the sitter can safely contain.
+
+[B278] Use local emergency services for immediate danger or a medical emergency. In the United States, 988 can provide mental-health crisis guidance, de-escalation, and connection to local resources when no immediate physical emergency exists. Call 911 for immediate danger, a crime in progress, medical emergency, weapon, violence underway, or a situation you cannot safely contain. Outside the United States, identify the local emergency number and crisis line before you ever need them.
+
+[B98] ---
+
+[B99] # Acute Medical and Neurological Rescue
+
+[B100] An emergency means act now. It does not always mean that an ambulance is the first or only useful action. Some severe but physically stable altered states may respond faster to field rescue than to hours in an emergency room.
+
+[B76] When the person is breathing normally, not dangerously hot, not seizing, has no neurological-injury concern, remains conscious enough to cooperate, and can be kept physically safe, calming and stabilizing the trip may be enough.
+
+[B77] The emergency room is not magic, and for a physiologically stable psychedelic or practice-induced crisis it may be a poor environment. A scared, psychotic-feeling person often receives a benzodiazepine; those drugs don't reliably address psychosis and can cause paradoxical agitation or fear in some people. Antipsychotics may work better for psychosis, but they carry their own risks and interactions, often administered by someone who doesn't know what was taken, if anything.
+
+[B101] (a picture)
+
+[B102] ## If Someone Says "My Brain Feels Damaged": DMSO + Humic Acid First
+
+[B103] Do not dismiss that report because the person is high or cannot explain it in clinical language. It may be anxiety or excessive psychedelic intensity. It may also be acute neurological dysfunction, and the person experiencing it may be the least able to describe it neatly. [DMSO](http://dmso.u-dont-exist.com/) is my first immediate remedy while I ask what the symptoms actually are. I usually know within about a minute whether it is helping. Smelling [humic acid ](http://humicacid.u-dont-exist.com)or tasting a tiny bit can also help a lot, in my experience, but I'm still collecting data from others.
+
+[B104] While using DMSO, check wakefulness, breathing, temperature, speech, facial symmetry, both arms, balance, walking, bodily control, seizure activity, severe headache, repeated vomiting, chest pain, and vision. These checks include several recognized [stroke warning signs](https://www.stroke.org/en/about-stroke/stroke-symptoms). A person who cannot answer or cooperate has not passed the screen; their neurological status is still unknown. If the screen is reassuring but the brain-damage feeling remains, continue the DMSO-first route and reassess promptly.
+
+[B105] I believe DMSO works better for stroke and most acute brain damage than anything else readily available to ordinary people. That judgment is stronger than the clinical evidence, but the evidence is not empty: a [preliminary human ischemic-stroke trial](https://pubmed.ncbi.nlm.nih.gov/11783757/) reported possible neurological benefit; a [small human series](https://pubmed.ncbi.nlm.nih.gov/6462399/) used DMSO for intracranial hypertension; and [animal stroke research](https://pubmed.ncbi.nlm.nih.gov/15744247/) found substantial infarct reduction even when treatment began after ischemia. DMSO also suppresses [NMDA- and AMPA-mediated excitotoxicity](https://pubmed.ncbi.nlm.nih.gov/11421595/).
+
+[B106] For objective stroke-like signs, I would use DMSO immediately **while someone calls medics**. DMSO cannot identify whether the problem is a clot, a hemorrhage, low oxygen, an electrolyte crisis, or something else. The larger adjacent risk is losing a treatment window or missing a bleed because the symptoms improved enough to feel reassuring. If someone is worried about a bleed, I'd probably skip DMSO, but it depends on how severe their issue is. It's not a powerful blood thinner like heparin, unless maybe injected; it's basically a dietary blood thinner. I've never had any issues with bleeding too much from consuming DMSO, and never heard of it either, but if bleeding is already a medical issue I'd want to think about that more.
+
+[B144] 1. **DMSO immediately. Smell humic acid first; if that doesn't help, take a 5mg lick of it. Smell the Metta NMT sniffer** (described in [loveyhuasca guide](http://loveyhuasca.info)).
+2. **Ask what the symptoms actually are while the DMSO is being used.** Do not manufacture reassurance from missing information.
+3. **If this is a psychedelic, use *Ipomoea pes-caprae* to stop the trip.** At this point safety matters more than preserving the experience.
+4. **If this is MDMA, move to magnesium chloride and the broader electrolyte branch instead.**
+5. **Bring in medical help in parallel** for objective neurological signs, dangerous heat, prolonged or repeated seizure, breathing trouble, severe chest pain, collapse, or when basic stability cannot be established.
+
+[B108] ## Active Seizure
+
+[B109] Time the seizure. Protect the person from injury, clear dangerous objects, loosen tight clothing, and place them on their side when practical. Don't restrain them and don't put anything in their mouth while they are convulsing or not fully conscious.
+
+[B110] If an appropriate rapid seizure-rescue benzodiazepine is available, use it by its intended route. Benzodiazepines are the [established first-line drug class for status epilepticus](https://pmc.ncbi.nlm.nih.gov/articles/PMC9477921/). An ordinary pill is not the same thing as a nasal, buccal, rectal, intramuscular, or intravenous rescue preparation, and respiratory depressants in the mix change the risk.
+
+[N-WARN] Some people get a warning before a seizure takes hold, which is called an aura. That's when the things people report can still stop it, depending on what sets their seizures off. If it's flashing or flickering light, cover one eye with a hand and turn away from the light, because closing the eyes doesn't block enough of it. Some people stop a seizure at the warning stage with a strong smell like jasmine, and some train themselves to link one smell with feeling calm and then sniff it when a seizure threatens. When overstimulation is what sets it off, a cool, quiet, dark and comfortable space can help. I'd also try sniffing humic/fulvic acid powder, although that's just a hunch based on the effects I notice so far.
+
+[B111] During the seizure, alongside any rescue medicine, I would use topical magnesium chloride and consider topical DMSO with a known-genuine CBD preparation (a lot of CBD is fake or very dilute). Seizures come in all different types, and we have no study on whether CBD could be a rescue remedy for a seizure ([just anecdotes](https://www.youtube.com/watch?v=RCxGSrUsB0Q)), even though we do have studies showing long-term effectiveness to prevent them: Purified oral CBD is [approved](https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/210365s024s029s030lbl.pdf) for the seizures of Lennox-Gastaut syndrome, Dravet syndrome and tuberous sclerosis complex.
+
+[N-CANNA-1] As for CBD/cannabis, people do smoke or vape it at the start of an aura, while they're still awake enough to do it on purpose. There are also people who find THC and/or CBD works as a nasal spray or sublingually, and there's even a medical THC nasal spray marketed for seizure interruption in Brazil by a non-profit patients' association called ABRACE. They [testified in Congress](https://escriba.camara.leg.br/escriba-servicosweb/html/58445) that in more than 30 tests they did with children having seizures, the nasal spray ended those seizures within 30 seconds. You can see it being used on a child in this vid: https://www.youtube.com/watch?v=bgVi5o_2v_w
+
+[N-CANNA-2] I also read on forums some swear it stops the seizure from going any further, and there was [one woman whose EEG](https://pubmed.ncbi.nlm.nih.gov/27763968/) showed fewer seizure discharges on the days she smoked. But a few people on the same forums said THC vapes and concentrates brought their seizures on. And [rats bred to have seizures](https://pubmed.ncbi.nlm.nih.gov/33370468/) had more of them after high-THC smoke.
+
+[N-CBD-2] As for topical CBD, it hasn't been well-studied. There was a short [12-week trial](https://pubmed.ncbi.nlm.nih.gov/35802375/) done, where they used a CBD skin gel, and although absorption was good, it didn't work any better than placebo to prevent seizures. The study authors suggested the dosing may have been too low, or that adults with focal epilepsy just don't respond as well as people with the syndromes oral CBD is approved for. The seizures in Dravet and Lennox-Gastaut syndrome are mostly generalized. Generalized are the type people usually have with MDMA & psychedelic overdoses, so topical CBD might do better for those than it did in that trial.
+
+[N-CBD-3] As for DMSO, it did reduce seizure activity in [rats with temporal-lobe epilepsy](https://pubmed.ncbi.nlm.nih.gov/23643984/), and we know it has several neuroprotective mechanisms, but it produced the opposite effect at some doses in an [absence-epilepsy model](https://pubmed.ncbi.nlm.nih.gov/21320528/). I'd treat it as a plausible experimental adjunct remedy rather than something to wait on while a seizure continues.
+
+[B112] Call medics for a convulsive seizure lasting about five minutes, repeated seizures without normal recovery, trouble breathing, dangerous heat, serious injury, a first seizure, or a seizure substantially different from the person's known pattern.
+
+[B113] ## MDMA: Jaw Tension Is the Magnesium Alarm
+
+[B114] With MDMA, I treat meaningful jaw tension as the earliest warning that the body needs more magnesium. This comes from repeated field experience rather than a direct clinical trial. Everyone I know who has taken enough magnesium chloride to make the jaw tension fully release has avoided the other complications I have seen when people let that tension continue.
+
+[B115] A token dose may not be enough. On multiple occasions, I have dissolved **Dead Sea magnesium chloride hexahydrate flakes** in water and taken approximately **one gram per minute orally for around twenty minutes** before my jaw fully released. I have tolerated around twenty grams without diarrhea; for me, diarrhea has appeared only above roughly forty grams. Magnesium chloride is also [generally less likely to cause diarrhea than several other replacement salts](https://pmc.ncbi.nlm.nih.gov/articles/PMC10509448/), including forms deliberately used as laxatives.
+
+[B117] Interestingly, magnesium taken before the MDMA peak also makes the peak less euphoric for me. That suggests it may both meet a rapidly increasing magnesium need and directly moderate part of MDMA's excitatory effect. For harm reduction, slightly less euphoria is a reasonable price for a relaxed jaw and what appears in my experience to be a much lower risk of the state escalating.
+
+[B118] My second wife had severe convulsions after an MDMA overdose. At the hospital, her potassium was found to be critically low--described to me as essentially zero--and IV potassium was the only treatment they gave her. That experience is why I treat serious MDMA toxicity as a broader electrolyte emergency, even though magnesium is the first and most useful early intervention when jaw tension appears.
+
+[B119] Jaw tension should also mean no more MDMA, less exertion and heat, and closer monitoring. Worsening headache, confusion, vomiting, weakness, palpitations, collapse, or seizure raises concern about sodium, potassium, temperature, hydration, kidneys, and broader toxicity. MDMA is documented to cause [acute kidney injury through several pathways](https://pubmed.ncbi.nlm.nih.gov/27917269/), and controlled research confirms that [hyponatremia can occur after a single dose](https://pubmed.ncbi.nlm.nih.gov/39546312/).
+
+[B120] **People with impaired kidneys do need to be more cautious with large, rapid magnesium doses because they may not clear magnesium normally. But they should be far more worried about the MDMA.** MDMA can cause overheating, rhabdomyolysis, dangerous electrolyte shifts, and acute kidney injury. Kidney impairment is a strong reason not to take MDMA--not a reason to sit there with worsening jaw tension after taking it. I would not tell somebody with serious kidney impairment to copy my one-gram-per-minute approach blindly; I would tell them to treat the situation as higher-risk and get help sooner.
+
+[B121] ## Chest Pain and Injury
+
+[B122] DMSO is also my first remedy for many injuries and some chest pain. After I overused erythritol, I developed angina that lasted for days. I took DMSO, the pain disappeared within about a minute, and it never returned.
+
+[B123] The cardiovascular science is preclinical but relevant. In rats, DMSO pretreatment reduced myocardial infarct size by about three quarters and sharply reduced cardiac injury markers. Other work found inhibition of tissue factor, platelet activation, and arterial thrombus formation. [Myocardial-ischemia study](https://pubmed.ncbi.nlm.nih.gov/19904216/); [tissue-factor and thrombosis study](https://pubmed.ncbi.nlm.nih.gov/17000906/); [human platelet study](https://pubmed.ncbi.nlm.nih.gov/20035720/).
+
+[B124] Mild, familiar, non-progressive discomfort in a fully alert person is different from new, severe, persistent, worsening, radiating, or exertional pain--or pain with breathlessness, sweating, faintness, neurological changes, or collapse. In the second branch, I would use DMSO while arranging medical evaluation. If you're not sure which branch it is, treat it as the second. DMSO can also block pain signals, so pain relief alone does not prove that the underlying problem has ended.
+
+[B125] ## Recent Oral Toxic Ingestion
+
+[B126] "Overdose" is too vague to choose a remedy. Ask what was swallowed, how much, when, and what the body is actually doing: respiratory depression, stimulant toxicity, serotonin toxicity, seizure, dangerous overheating, cardiovascular symptoms, severe agitation, objective neurological dysfunction, vomiting, diarrhea, or something else.
+
+[B127] Activated charcoal may help after some recent oral ingestions when the substance binds to it and the person is fully alert enough to swallow safely. It does not bind every toxin, can adsorb necessary medication, and creates aspiration risk in somebody who is vomiting, sedated, seizing, or unable to protect the airway. [Clinical review](https://pmc.ncbi.nlm.nih.gov/articles/PMC6620762/).
+
+[B128] Poison control may be useful when the substance, combination, delayed risk, or value of charcoal is unclear. I do not treat it as a mandatory ritual; usefulness varies by country and by whoever answers. It is decision support, not first aid.
+
+[B129] ## Suspected Serotonin Syndrome (SS)
+
+[B130] Serotonin syndrome overlaps with several symptoms above, but the rescue measures in the other branches do not necessarily treat it. It can follow serotonergic medication changes, combinations, or excessive exposure. Ayahuasca and other MAOI brews, MDMA, DXM, many antidepressants, tramadol, linezolid, other MAOIs, and some opioids can contribute, especially in combinations.
+
+[B131] ### Recognizing serotonin toxicity
+
+[B132] Clinicians often use the Hunter criteria. One or more of the following patterns makes serotonin toxicity more likely:
+
+[B133] - **Spontaneous clonus:** involuntary rhythmic muscle contractions and relaxations occurring without stimulation.
+- **Inducible clonus plus agitation or sweating.**
+- **Ocular clonus plus agitation or sweating:** rapid rhythmic involuntary eye movements.
+- **Tremor plus hyperreflexia:** shaking together with abnormally brisk reflexes.
+- **Hypertonia plus fever:** rigidity with temperature above 38°C (100.4°F), together with ocular or inducible clonus.
+
+[B134] This is a recognition aid rather than a command to wait for every criterion before acting. Dangerous heat, rigidity, clonus, confusion, or rapid worsening deserves medical help.
+
+[B135] ### Do this immediately when serotonin toxicity is reasonably suspected:
+
+[B136] 1. **Stop all suspected serotonergic substances.** No more SSRI, SNRI, MAOI, tramadol, MDMA, DXM cough syrup, 5-HTP, St John's wort, SAM-e, linezolid, stimulant redoses, or harmala/ayahuasca-type MAOI exposure.
+2. **If the person is fully alert and able to swallow, I would give cyproheptadine early.** It antagonizes serotonin receptors. Case reports describe rapid improvement, including complete resolution within two hours in a small series, while a recent systematic review found the evidence for major outcomes inconclusive. [Case series](https://pubmed.ncbi.nlm.nih.gov/9696181/); [systematic review](https://pubmed.ncbi.nlm.nih.gov/39791184/). I would not wait to see whether it works before cooling, stopping serotonergic substances, and arranging help for moderate or severe signs.
+3. **Call emergency help and arrange transport for moderate or severe signs.** Don't drive yourself. Poison control may help when the combination is unclear, but it is not the treatment.
+4. **Cool the person without delaying transport.** Move to a cool room, remove excess clothing, use a fan and cool damp cloths, and place ice packs wrapped in cloth at the neck, armpits, or groin when the person is hot. Don't put a confused, seizing, or very weak person in a bath. Fever reducers do not solve heat generated by extreme muscle activity.
+5. **Keep stimulation low and prevent exertion.** No pacing to "burn it off," exercise, crowds, or arguments. Akathisia can create a strong urge to move, but muscle activity can worsen heat and rhabdomyolysis risk.
+6. **Hydrate only when fully alert and not vomiting.** Small sips of an appropriate oral rehydration drink are reasonable. Don't force fluids, food, pills, or charcoal when someone is confused, vomiting, sleepy, or at seizure risk.
+7. **Gather the evidence for the ER.** Bring pill bottles and packages. Write down exact substances, dose, timing, last dose, recent increases, supplements, recreational drugs, temperature, pulse, and blood pressure when available.
+8. Hospitals may use benzodiazepines, external cooling, IV fluids, monitoring, and intensive supportive care. Niacin is unsafe for serotonin syndrome. DMSO is also not part of this branch. I would consider oral magnesium chloride when the person is fully alert, especially with MDMA-related jaw tension or muscle activity.
+
+[B137] ---
+
+## Context after (don't report on these)
+
+[B138] # My Acute Rescue Hierarchy
+
+[B139] This hierarchy is for acute situations, including emergencies--not merely uncomfortable trips.
+
+[N-AN-Q1] In general it's good to try all these things in very low, increasing doses before they are needed in crisis.
