@@ -1253,6 +1253,41 @@
     }
    ],
    "recorded_utc": "2026-11-08T16:57Z"
+  },
+  {
+   "turn": "2026-11-08T17:22Z",
+   "lines_of_work": [
+    "bad trips guide"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "UDA root at 841f579, unchanged"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "pull request 404 (ours) merged at 17:08 UTC; no new issues, comments or reviews on this lane"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no edits by others to this lane's handoff note, questions page or state since this account's push of 17:08"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "his message of 17:22 UTC: humanize after the article makes sense; best tries and what would teach the most, and he'll do that"
+    }
+   ],
+   "items": [
+    {
+     "item": "his message of 17:22 UTC",
+     "outcome": "his rule into the shared rules (lesson bad-trips-2026-11-08d); the teaching stretches' sense read first, then my best tries, then round 27"
+    }
+   ],
+   "recorded_utc": "2026-11-08T17:23Z"
   }
  ]
 }
