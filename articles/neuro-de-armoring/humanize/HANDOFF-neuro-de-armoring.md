@@ -24,9 +24,11 @@ From an account with Desktop Commander connected to the laptop: "Continue my neu
   (`tools/humanization/needed_read_brief.md`; run it as a subagent with BRIEF.txt and TEXT.txt, as in
   `fix-20261108/needed/b039`). **Next**: his answers on `fix-20261108/x1108a/` (artifact WKR3sLVAEMvR3RJTY7GAps; on
   approval put T37b and T38b in with links, from `drafts_0108.py`'s T37_FIXED and T38_FIXED applied to the article's
-  Markdown); then section C onwards: science first (FACTS.md flags F-1, F-4, F-5, F-8 to F-11), then the needed read,
-  then his moves (a question as the turn, effects at the level the reader lives, his asides kept). Budget: B037-his 2 of
-  6, B038-his 2 of 6, B039 2 of 6, PAIR-040-041 2 of 6. Still open: the block 36 dedup card.
+  Markdown, and B042r from `fix-20261108/B042r.md` with an owner_changes entry for W022's "GluD"); then section C onwards: science first (FACTS.md flags F-1, F-4, F-5, F-8 to F-11), then the needed read,
+  then his moves (a question as the turn, effects at the level the reader lives, his asides kept). Every rewritten
+  paragraph also needs the comparison read beside his post before the push (`compare_read.py gate`; this turn's is
+  `fix-20261108/read-0108/`). Budget: B037-his 2 of
+  6, B038-his 2 of 6, B039 2 of 6, PAIR-040-041 2 of 6, B042 5 of 6. Still open: the block 36 dedup card.
 
 - **2026-11-07, after his three answers (13:49 UTC): section B's science is fully in, and its humanizing pass failed
   four of five** (`fix-20261107/hum/RESULTS.md`; B037h, B038h2, B039h and PAIR-040-041 all AI at 100%%, B042h2 Human

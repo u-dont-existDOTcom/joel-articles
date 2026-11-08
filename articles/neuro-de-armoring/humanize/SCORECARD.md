@@ -15,7 +15,7 @@ Built by `tools/humanization/pangram_ledger.py build` from `articles/neuro-de-ar
 | web app, his account | 1 | 0 (0%) | 100% | 0% | 100% | 0.250 (base 0.000, 1) |
 | web app, his account, run by the lane in the desktop app's browser pane (E356) | 38 | 34 (89%) | 87% | 13% | 8% | 0.183 (base 0.114, 38) |
 | pangram-4.1-substack | 1 | 1 (100%) | 100% | 0% | 0% | 0.000 (base 0.000, 1) |
-| Pangram 4.1 (web app) | 11 | 5 (45%) | 55% | 45% | 100% | 0.208 (base 0.248, 11) |
+| Pangram 4.1 (web app) | 12 | 6 (50%) | 50% | 50% | 100% | 0.204 (base 0.250, 12) |
 
 ## pangram 4.1, the API (Joel's key, run on his laptop; E218)
 
@@ -218,23 +218,23 @@ Calibration:
 
 | window | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| the latest 50 | 11 | 5 (45%) | 55% | 45% | 100% | 0.208 (base 0.248, 11) |
-| the latest 100 | 11 | 5 (45%) | 55% | 45% | 100% | 0.208 (base 0.248, 11) |
-| all | 11 | 5 (45%) | 55% | 45% | 100% | 0.208 (base 0.248, 11) |
+| the latest 50 | 12 | 6 (50%) | 50% | 50% | 100% | 0.204 (base 0.250, 12) |
+| the latest 100 | 12 | 6 (50%) | 50% | 50% | 100% | 0.204 (base 0.250, 12) |
+| all | 12 | 6 (50%) | 50% | 50% | 100% | 0.204 (base 0.250, 12) |
 
 The boundary mix (what was checked; accuracy differs a lot between a paragraph and a section):
 
 | scope or kind | calls | right | always AI would be | always Human would be | I said Human | Brier (base-rate Brier, calls with a chance) |
 |---|---|---|---|---|---|---|
-| paragraph | 9 | 5 (56%) | 44% | 56% | 100% | 0.193 (base 0.247, 9) |
+| paragraph | 10 | 6 (60%) | 40% | 60% | 100% | 0.190 (base 0.240, 10) |
 | pair | 2 | 0 (0%) | 100% | 0% | 100% | 0.276 (base 0.000, 2) |
 
 Calibration:
 
 | my chance of a 100% Human result | calls | mean chance | read Human |
 |---|---|---|---|
-| 0.4 to 0.6 | 9 | 0.54 | 33% |
-| 0.6 to 0.8 | 2 | 0.60 | 100% |
+| 0.4 to 0.6 | 10 | 0.55 | 40% |
+| 0.6 to 0.8 | 3 | 0.60 | 100% |
 | 0.8 to 1.0 | 2 | 0.82 | 100% |
 
 ## Misses since the ledger (19)

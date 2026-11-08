@@ -1,0 +1,124 @@
+{
+ "format": "compare-read-record-v1",
+ "article": "HUMANIZED-SO-FAR.md on 2026-11-08 at 01:13 UTC: the fourteen paragraphs compare_read.py gate listed as unread, read beside his post by the lead session (READER.md)",
+ "coverage": [
+  "1f6825b9f5edb231",
+  "2bc3958d5a9c30b4",
+  "39e17f7cb14e3a19",
+  "4676adc173912ed2",
+  "5ef7e62c36d8ca3a",
+  "60e11c03b4df327f",
+  "6d2d3de70e559d5b",
+  "8302ebf3d5df2c8d",
+  "8f9b87ba3fd13981",
+  "9c450892a348b019",
+  "b00153549d09ccff",
+  "b8b35cd43829f1d6",
+  "e1b878a3ad2af1d7",
+  "ed8cb5863564adb8"
+ ],
+ "findings": [
+  {
+   "id": "F1",
+   "severity": 2,
+   "kind": "unclear",
+   "block_hashes": [
+    "e1b878a3ad2af1d7"
+   ],
+   "now": "So taking L-Serine feeds the spot D-serine switches on, and maybe the GluD channels too",
+   "same_as_original": false
+  },
+  {
+   "id": "F2",
+   "severity": 1,
+   "kind": "unclear",
+   "block_hashes": [
+    "5ef7e62c36d8ca3a"
+   ],
+   "now": "so it's a vicious cycle as both create the other",
+   "same_as_original": false
+  },
+  {
+   "id": "F3",
+   "severity": 1,
+   "kind": "unclear",
+   "block_hashes": [
+    "b00153549d09ccff"
+   ],
+   "now": "turns on a brake that cuts how much glutamate gets released into it",
+   "same_as_original": false
+  },
+  {
+   "id": "F4",
+   "severity": 1,
+   "kind": "lost",
+   "block_hashes": [
+    "9c450892a348b019"
+   ],
+   "now": "(the GluD clause, cut)",
+   "same_as_original": false
+  },
+  {
+   "id": "F5",
+   "severity": 1,
+   "kind": "lost",
+   "block_hashes": [
+    "b00153549d09ccff"
+   ],
+   "now": "(the label \"Lock, Stock, and Barrel\", cut)",
+   "same_as_original": false
+  },
+  {
+   "id": "F6",
+   "severity": 1,
+   "kind": "lost",
+   "block_hashes": [
+    "2bc3958d5a9c30b4"
+   ],
+   "now": "(his \"itchy brain\", cut in his own version)",
+   "same_as_original": false
+  },
+  {
+   "id": "F7",
+   "severity": 1,
+   "kind": "vaguer",
+   "block_hashes": [
+    "1f6825b9f5edb231"
+   ],
+   "now": "DeltaFosB degraded, if the animal timelines carry over",
+   "same_as_original": false
+  }
+ ],
+ "dispositions": {
+  "F1": [
+   "his",
+   "a fix waiting on his marking page: card SC-42 (B042r, Human High); it cuts a GluD clause the fidelity keys hold"
+  ],
+  "F2": [
+   "his",
+   "his own words (his version of 6 November, 23:50 UTC)"
+  ],
+  "F3": [
+   "kept",
+   "the synapse is named in the same clause; a small snag",
+   1
+  ],
+  "F4": [
+   "done",
+   "cut on purpose: the needed read (gate neuro-2026-11-08a)"
+  ],
+  "F5": [
+   "done",
+   "only \"Lock\" named a tool; \"Stock\" and \"Barrel\" named nothing"
+  ],
+  "F6": [
+   "his",
+   "his own version cut it"
+  ],
+  "F7": [
+   "kept",
+   "section C gives the animal studies; a small snag",
+   1
+  ]
+ }
+}

@@ -3,7 +3,8 @@
 Last updated 2026-11-08, after your versions of blocks 37 and 38 (00:49 UTC).
 **Open questions: none.** **For you to do**: two cards on
 [Neuro De-Armoring Cards, 8 November](https://claude.ai/artifact/WKR3sLVAEMvR3RJTY7GAps)
-([the same cards in Git](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/x1108a/REVIEW-X1108A.md)), a science fix in each of your two new paragraphs.
+([the same cards in Git](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/x1108a/REVIEW-X1108A.md)): a science fix in each of your two new paragraphs, and one
+sentence of mine in the Repair.
 Colours: 🟣 a question for you; 🟠 something for you to do; 🔵 next or in progress; 🟢 done or decided.
 
 The master copy of this page is [this file in Git](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/OWNER-QUESTIONS.md), so a session in either of your accounts
@@ -23,6 +24,10 @@ can read and update it. Every file it points to is a link.
   does the slower damage); in the Signal Dial, your first clause makes NMDA the main calcium door rather than the
   spark (AMPA starts the excitation), and GluD "another door" rather than a calcium door. Both still read Human at
   High with the fix ([the Mechanism](https://www.pangram.com/history/755ca0fd-b05f-4092-95b2-6e9da5daa36f), [the Signal Dial](https://www.pangram.com/history/e3845c44-7bf0-4e7d-93a8-706b596c9c4b)).
+- 🟠 **The Repair** (card SC-42): my "L-Serine feeds the spot D-serine switches on" didn't say what it meant; it now
+  says L-serine gives you more D-serine for that spot, and the GluD hedge comes out. It reads
+  [Human, High](https://www.pangram.com/history/a0a233fc-7174-4827-bd46-077a3bf3845b). It's on a card only because the GluD word is one the
+  guide's fidelity check holds.
 
 ## Your answers of 2026-11-08 00:49 UTC (your versions of blocks 37 and 38), and what I did
 

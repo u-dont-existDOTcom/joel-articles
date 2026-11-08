@@ -41,13 +41,19 @@ HIS37 = P + '3630663f-3104-4ce7-86f7-462cbb26601d'
 HIS38 = P + 'e798ace7-cc92-45ff-973e-ceaf1f5ed2c4'
 T37B = P + '755ca0fd-b05f-4092-95b2-6e9da5daa36f'
 T38B = P + 'e3845c44-7bf0-4e7d-93a8-706b596c9c4b'
+B042H2 = P + '67dd2887-06b0-4c66-8ff2-dbf0bf389e24'
+B042R = P + 'a0a233fc-7174-4827-bd46-077a3bf3845b'
 CHOI = 'https://pmc.ncbi.nlm.nih.gov/articles/PMC6568907'
 GOLDBERG = 'https://pmc.ncbi.nlm.nih.gov/articles/PMC6576549'
+WOLOSKER = 'https://pmc.ncbi.nlm.nih.gov/articles/PMC23961'
 HANSEN = 'https://pmc.ncbi.nlm.nih.gov/articles/PMC6080888'
 SCHMID = 'https://pmc.ncbi.nlm.nih.gov/articles/PMC2700928'
 WANG = 'https://pmc.ncbi.nlm.nih.gov/articles/PMC12520249/'
 
 TYPES = {
+    'clarity': {'label': 'A sentence that doesn\'t say what it means',
+                'about': 'A sentence of mine that a reader couldn\'t follow, made clear. The card has the paragraph as it '
+                         'would read and what it read in Pangram.'},
     'science': {'label': 'A claim corrected',
                 'about': 'Something in your new wording doesn\'t match what the sources show. The card has your '
                          'paragraph with only that part changed, and what it read in Pangram.'},
@@ -89,15 +95,16 @@ def block(prefix):
     return hits[0]
 
 
-def card(sid, title, key, prefix, what, why, stays, deciding, note, ask_because, approve_label):
+def card(sid, title, key, prefix, what, why, stays, deciding, note, ask_because, approve_label, typ='science',
+         found_by='The science check on your new wording, 8 November'):
     i = block(prefix)
     after = (FIX / ('%s.txt' % key)).read_text(encoding='utf-8').strip()
-    return {'id': sid, 'type': 'science', 'title': title, 'advice': 'approve',
+    return {'id': sid, 'type': typ, 'title': title, 'advice': 'approve',
             'spans': [{'block': i, 'start': 0, 'end': len(sr.block_text(BL, i))}],
             'edits': [{'block': i, 'before': sr.block_text(BL, i), 'after': after}],
             'what': what, 'why': why, 'stays': stays, 'deciding': deciding, 'advice_note': note,
             'ask_because': ask_because, 'approve_label': approve_label,
-            'found_by': 'The science check on your new wording, 8 November',
+            'found_by': found_by,
             'receipt': [FIXREL + '%s.receipt.json' % key]}
 
 
@@ -138,16 +145,36 @@ def main():
              'Approve.',
              'his own: these are your words, and the clause changes what it says NMDA and GluD do',
              'use the corrected clause'),
+        card('SC-42', 'The Repair: L-serine works by making D-serine', 'B042r', 'The Repair (L-Serine)',
+             'The middle sentence changes: "So taking L-Serine feeds the spot D-serine switches on, and maybe the GluD '
+             'channels too, so ..." becomes "So taking L-Serine gives you more D-serine for that spot on the NMDA '
+             'receptor, which means ...". Your last sentence stays word for word.',
+             'Reading the section beside your post, the middle sentence didn\'t say what it meant: L-serine doesn\'t do '
+             'anything at the spot, it becomes the D-serine that does ([Wolosker, et al, 1999](%s)), and "feeds the spot '
+             '... switches on" mixes two pictures so a reader can\'t tell what is fed. A fresh reader asked only what '
+             'someone deciding on L-serine needs also listed "and maybe the GluD channels too" as a hedge they can\'t '
+             'use, the same clause your cut of the Signal Dial and mine of block 39 took out. It was '
+             '[Human, High](%s) before; it reads [Human, High](%s) now.' % (WOLOSKER, B042H2, B042R),
+             'Your last sentence (the conversion is weak, so some take D-serine itself, more risk and more benefit), '
+             'the source, and the claim that a session ending with the fear down sticks better.',
+             'Whether the GluD clause goes from the Repair.',
+             'Approve.',
+             'meaning: the Repair stops saying L-serine may reach the GluD channels, and the guide\'s fidelity check '
+             'holds the word GluD in this paragraph, so it needs your yes',
+             'use it without the GluD clause', typ='clarity',
+             found_by='The comparison read of section B beside your post, 8 November'),
     ]
     review = {
         'format': 'joel-suggestion-review-v1',
         'review_id': 'neuro-de-armoring-cards-20261108-x1108a',
-        'title': 'Neuro De-Armoring Cards, 8 November: two science points in your new versions',
+        'title': 'Neuro De-Armoring Cards, 8 November: two science points in your new versions, and the Repair',
         'intro': [
             'Your versions of the Mechanism and the Signal Dial are in the article, and both read Human: '
             '[the Mechanism, High 137 and Medium 13](%s), [the Signal Dial, High](%s).' % (HIS37, HIS38),
             'Two of their claims don\'t match the sources, so each fix is on a card. Both fixed versions still read '
             'Human at High: [the Mechanism](%s), [the Signal Dial](%s).' % (T37B, T38B),
+            'And one of mine: the Repair\'s middle sentence didn\'t say what it meant, and the fix takes out a GluD '
+            'clause the guide\'s fidelity check holds, so it needs your yes ([Human, High](%s)).' % B042R,
             'No compound, dose, unit, timing or warning changes on this page.',
         ],
         'git_file': GIT_FILE,

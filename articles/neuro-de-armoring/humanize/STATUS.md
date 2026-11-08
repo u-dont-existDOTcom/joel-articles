@@ -16,6 +16,10 @@
   NMDA as "the main spark" (Hansen 2018: AMPA starts it, NMDA is the calcium door), GluD as a calcium door (Schmid 2009:
   low calcium permeability). His paragraphs with only those words changed: T37b Human High 148, T38b Human High 55.
   Cards SC-37 and SC-38, `fix-20261108/x1108a/`, artifact WKR3sLVAEMvR3RJTY7GAps (db, user, downloads).
+- Comparison gate: it failed (fourteen unread paragraphs; fifteen on main, so earlier pushes went without it). Read
+  beside his post (`fix-20261108/read-0108/`): block 42's "feeds the spot D-serine switches on" (severity 2) fixed as
+  B042r, Human High 75; its GluD cut loses fidelity key W022's "GluD", so it is card SC-42 and the article keeps B042h2
+  until he answers. Gate PASS.
 - Results and links: `fix-20261108/RESULTS-0108.md`.
 
 ## 2026-11-07, his answers of 13:49 UTC: section B's science all in; its humanizing pass read AI four times of five
