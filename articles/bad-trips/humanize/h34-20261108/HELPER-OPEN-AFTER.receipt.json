@@ -1,0 +1,49 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-08",
+ "text_sha256": "5f3f5f3591e52a2843d1cf064d8dc502bec1626059c76d3959de84aa54892988",
+ "text": "The Zendo Project, a harm-reduction group that offers peer support at festivals and other events to people having a hard time in an altered state, sums up its approach in four principles: creating a safe space, sitting with the person rather than guiding them, talking them through it rather than down from it, and remembering that difficult isn't necessarily bad.",
+ "section": "For the Person Helping: Calm Anchor, Not Guru",
+ "reader": "someone about to sit with a person in a bad trip, from a drug or a practice, reading what their role is before the Do and Don't lists",
+ "sentences": [
+  {
+   "s": "The Zendo Project, a harm-reduction group that offers peer support at festivals and other events to people having a hard time in an altered state, sums up its approach in four principles: creating a safe space, sitting with the person rather than guiding them, talking them through it rather than down from it, and remembering that difficult isn't necessarily bad.",
+   "payoff": "they get the four principles a helper works by (a safe space, staying with the person rather than steering, helping them through rather than talking them down, and that a hard trip isn't necessarily a bad one), which the Do and Don't lists after it put into practice",
+   "follows": "it opens the section under its heading, \"Calm Anchor, Not Guru\": the principles are what such an anchor does"
+  }
+ ],
+ "checked": [],
+ "placement": "For the Person Helping, the first paragraph, right under the heading, once round 26's HELPER-OPEN-CUT takes its first line out; before \"Crying, grieving, remembering, ...\" and the Do and Don't lists",
+ "opens": {
+  "first_sentence": "The Zendo Project, a harm-reduction group that offers peer support at festivals and other events to people having a hard time in an altered state, sums up its approach in four principles: creating a safe space, sitting with the person rather than guiding them, talking them through it rather than down from it, and remembering that difficult isn't necessarily bad.",
+  "why_reading": "it tells the helper, from people who do this at festivals, what their job is before the lists say how"
+ },
+ "same_point": "none: read the section from its heading to the next for the same point; his anchor line under Don't says the helper's role as a picture (\"the calm, caring anchor ... not the witch doctor guru\"), and the Do list's \"Offer choices instead of commands\" is one way to sit rather than guide, but neither gives the four principles",
+ "needed": {
+  "reader": "a fresh Haiku agent given tools/humanization/needed_read_brief.md with the sentence, its heading and what it is for (NEEDED-READ.md beside this receipt); it read the first explained form, and its unclear words are what zendo_fix.py then said plainly",
+  "unneeded": [],
+  "kept": {}
+ },
+ "questions": {
+  "Q1": "PASS: the sentence opens on who says it (the Zendo Project, explained where it is first used) and then the four principles",
+  "Q2": "PASS: each principle is something the helper does, said with who it is done to (\"sitting with the person\", \"talking them through it\")",
+  "Q3": "PASS: \"at festivals and other events\", \"people having a hard time in an altered state\": exactly whom the project helps",
+  "Q4": "PASS: \"Zendo\" is explained in the sentence that names it; \"harm reduction\" is first used, in context, in the MDMA section; the two principles the needed read found unclear are said plainly",
+  "Q5": "PASS: one sentence; the principles follow the colon that announces them",
+  "Q6": "PASS: who, then what they do, then the lists that put it into practice",
+  "Q7": "PASS: the helper is in the same situation the project works in, someone having a hard time in an altered state",
+  "Q8": "PASS: the four are the project's own four principles",
+  "Q9": "PASS: each principle is said whole, with its object (\"rather than down from it\")"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

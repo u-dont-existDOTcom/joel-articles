@@ -1,6 +1,6 @@
 # Bad Trips guide: questions for Joel
 
-Updated 2026-11-08 (turn 26, his round-24 answers of 15:01 UTC in). Status: **open** = waiting on you, **next** = I do it once you
+Updated 2026-11-08 (turn 26, his round-24 answers of 15:01 UTC in; round 26 out with the session's resume of 15:52 UTC). Status: **open** = waiting on you, **next** = I do it once you
 answer, **done** = answered.
 Answer under an item's number in a message.
 
@@ -12,6 +12,12 @@ Answer under an item's number in a message.
    a warning the fidelity check protects, so its cut is your call. On round 25's page (Bad Trips Guide, Round 25,
    https://claude.ai/artifact/3dKpHXmFwMSLYxDE2i9yiL; the card as text:
    [REVIEW-R25.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261105/articles/bad-trips/review/r25/REVIEW-R25.md)).
+
+2. **open — Round 26: two cards, each a cut that says a point once.** For the Person Helping's first line ("A good sitter
+   is not there to win a philosophy debate, perform a rescue fantasy, ...") repeats your new anchor line and don'ts but
+   for "perform a rescue fantasy"; and What Kind of Aftermath Is This?'s "Trauma material" line repeats Abuse Memories.
+   On round 26's page (Bad Trips Guide, Round 26, https://claude.ai/artifact/HFHzRb4EuRmMu6J3EmZFn1; the cards as text:
+   [REVIEW-R26.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261105/articles/bad-trips/review/r26/REVIEW-R26.md)).
 
 ## Your tasks
 

@@ -1,0 +1,1126 @@
+<title>Bad Trips Guide, Round 26</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<style>
+:root{
+  --bg:#f6f4ef;--paper:#fffdfa;--ink:#1e2227;--muted:#5d646d;--line:#dcd5c8;--soft:#efebe3;--head:#fffdfaee;
+  --link:#0b5cad;--focus:#2458a6;
+  --t-reread:#1d4ed8;--t-reread-bg:#dbe7fe;
+  --t-structure:#6d28d9;--t-structure-bg:#ece6fd;
+  --t-caveat:#c2410c;--t-caveat-bg:#ffe8d5;
+  --t-repeat:#a16207;--t-repeat-bg:#fdf0c4;
+  --t-innerchild:#15803d;--t-innerchild-bg:#d9f5e2;
+  --t-typo:#be123c;--t-typo-bg:#ffe1e7;
+  --t-cut:#a21caf;--t-cut-bg:#fae8ff;
+  --t-ask:#0f766e;--t-ask-bg:#d5f5ef;
+  --ok:#15803d;--ok-bg:#dcf5e3;--no:#475569;--no-bg:#e3e8ef;--rev:#6d28d9;--rev-bg:#ece6fd;--pend:#b42318;--pend-bg:#fde4e1;
+  --del-bg:#fbd9d5;--del-ink:#7a1d12;--ins-bg:#d4f2dc;--ins-ink:#0f4d24;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#141619;--paper:#1c1f23;--ink:#e7e4de;--muted:#a2a8b1;--line:#363a42;--soft:#24282d;--head:#1c1f23ee;
+  --link:#7fb2ff;--focus:#8ab4ff;
+  --t-reread:#7aa7ff;--t-reread-bg:#1e3157;
+  --t-structure:#b79cff;--t-structure-bg:#33295a;
+  --t-caveat:#ffa66b;--t-caveat-bg:#4d2c17;
+  --t-repeat:#f0c45a;--t-repeat-bg:#45391a;
+  --t-innerchild:#6fdc95;--t-innerchild-bg:#173d27;
+  --t-typo:#ff8aa3;--t-typo-bg:#4f1d2a;
+  --t-cut:#f0abfc;--t-cut-bg:#4a1d4f;
+  --t-ask:#5eead4;--t-ask-bg:#123f3b;
+  --ok:#6fdc95;--ok-bg:#173d27;--no:#b6c0cf;--no-bg:#2c333d;--rev:#b79cff;--rev-bg:#33295a;--pend:#ff8f84;--pend-bg:#4a1f1c;
+  --del-bg:#4f2421;--del-ink:#ffc9c2;--ins-bg:#173d27;--ins-ink:#c4f5d3;
+  color-scheme:dark;
+}}
+:root[data-theme="dark"]{
+  --bg:#141619;--paper:#1c1f23;--ink:#e7e4de;--muted:#a2a8b1;--line:#363a42;--soft:#24282d;--head:#1c1f23ee;
+  --link:#7fb2ff;--focus:#8ab4ff;
+  --t-reread:#7aa7ff;--t-reread-bg:#1e3157;
+  --t-structure:#b79cff;--t-structure-bg:#33295a;
+  --t-caveat:#ffa66b;--t-caveat-bg:#4d2c17;
+  --t-repeat:#f0c45a;--t-repeat-bg:#45391a;
+  --t-innerchild:#6fdc95;--t-innerchild-bg:#173d27;
+  --t-typo:#ff8aa3;--t-typo-bg:#4f1d2a;
+  --t-cut:#f0abfc;--t-cut-bg:#4a1d4f;
+  --t-ask:#5eead4;--t-ask-bg:#123f3b;
+  --ok:#6fdc95;--ok-bg:#173d27;--no:#b6c0cf;--no-bg:#2c333d;--rev:#b79cff;--rev-bg:#33295a;--pend:#ff8f84;--pend-bg:#4a1f1c;
+  --del-bg:#4f2421;--del-ink:#ffc9c2;--ins-bg:#173d27;--ins-ink:#c4f5d3;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+html{scroll-padding-top:120px}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;-webkit-text-size-adjust:100%}
+a{color:var(--link)}
+button{font:inherit;color:inherit;cursor:pointer}
+.t-reread{--c:var(--t-reread);--cb:var(--t-reread-bg)}
+.t-structure{--c:var(--t-structure);--cb:var(--t-structure-bg)}
+.t-caveat{--c:var(--t-caveat);--cb:var(--t-caveat-bg)}
+.t-repeat{--c:var(--t-repeat);--cb:var(--t-repeat-bg)}
+.t-innerchild{--c:var(--t-innerchild);--cb:var(--t-innerchild-bg)}
+.t-typo{--c:var(--t-typo);--cb:var(--t-typo-bg)}
+.t-cut{--c:var(--t-cut);--cb:var(--t-cut-bg)}
+.t-ask{--c:var(--t-ask);--cb:var(--t-ask-bg)}
+.gut{padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--paper)}
+header.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:var(--head);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+.bar{max-width:78rem;margin:0 auto;display:flex;flex-wrap:wrap;gap:6px 10px;align-items:center;padding-top:8px;padding-bottom:8px}
+.bar .name{font-weight:750;font-size:.98rem;margin-right:auto}
+.prog{font-size:.84rem;color:var(--muted)}
+.prog b{color:var(--ink)}
+.meter{height:4px;background:var(--soft);border-radius:4px;overflow:hidden;flex-basis:100%}
+.meter i{display:block;height:100%;width:0;background:var(--ok);transition:width .2s}
+.btn{border:1px solid var(--line);background:var(--paper);border-radius:8px;padding:6px 11px;min-height:36px;font-size:.88rem}
+.btn:hover{border-color:var(--muted)}
+.btn.main{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.tools{max-width:78rem;margin:0 auto;padding-top:4px;padding-bottom:10px;display:grid;gap:10px}
+.tools[hidden]{display:none}
+.tools .grp{display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+.tools .grp>.lab{font-size:.78rem;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.04em;margin-right:4px}
+.chip{border:1px solid var(--c,var(--line));background:var(--cb,var(--paper));color:var(--ink);border-radius:999px;padding:3px 10px;font-size:.8rem;min-height:30px}
+.chip[aria-pressed="false"]{background:transparent;opacity:.55;text-decoration:line-through}
+.chip .n{font-weight:700}
+.tools select,.tools input[type=search]{border:1px solid var(--line);border-radius:8px;padding:6px 8px;min-height:36px;max-width:100%}
+.tools input[type=search]{width:16rem}
+.check{display:flex;gap:6px;align-items:center;font-size:.88rem}
+.panel{max-width:78rem;margin:0 auto;padding-top:10px;padding-bottom:14px;border-top:1px dashed var(--line)}
+.panel[hidden]{display:none}
+.panel .row{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:6px 0}
+.panel textarea{width:100%;min-height:7rem;border:1px solid var(--line);border-radius:8px;padding:8px;font:13px/1.4 ui-monospace,SFMono-Regular,Menlo,monospace}
+.status{font-size:.86rem;color:var(--muted);min-height:1.2em}
+.intro{max-width:46rem;margin:18px auto 6px;font-size:.95rem}
+.intro .box{background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:12px 16px}
+.intro p{margin:.5em 0}
+.intro .src{font-size:.82rem;color:var(--muted)}
+.legend{display:flex;flex-wrap:wrap;gap:6px;margin:8px 0 2px}
+.store-note{font-size:.82rem;color:var(--muted)}
+main.article{max-width:46rem;margin:0 auto 40vh;font:1.06rem/1.7 Georgia,"Iowan Old Style","Palatino Linotype",serif}
+main.article h2,main.article h3,main.article h4,main.article h5,main.article h6{font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;line-height:1.25;margin:2.1em 0 .5em}
+main.article h2{font-size:1.45rem}main.article h3{font-size:1.2rem}main.article h4{font-size:1.06rem}main.article h5{font-size:.98rem}main.article h6{font-size:.92rem}
+main.article p,main.article blockquote,.blk.li{margin:.85em 0}
+main.article blockquote{border-left:3px solid var(--line);padding-left:1rem;color:var(--muted)}
+.blk.li{display:flex;gap:.55em;padding-left:.4em}
+.blk.li .mk{flex:0 0 auto;font-weight:700}
+/* 2026-11-02: never copied with the text (Joel's checks of paragraphs copied from these pages read "P1Here is a list"; taking the labels out alone turned AI Detected into Human Written, gate E326) */
+.pn{font:600 .66em system-ui,sans-serif;color:var(--muted);margin-right:.45em;vertical-align:.12em;-webkit-user-select:none;user-select:none}
+.blk.li .pn{order:-1}
+.native-blk{font:600 .85rem system-ui,sans-serif;color:var(--muted);background:var(--soft);border:1px dashed var(--line);border-radius:8px;padding:8px 12px;margin:1em 0}
+mark.hl{background:var(--cb);color:inherit;border-bottom:2px solid var(--c);border-radius:2px;padding:0 .04em;cursor:pointer;-webkit-box-decoration-break:clone;box-decoration-break:clone}
+mark.hl.multi{background-image:repeating-linear-gradient(135deg,transparent 0 6px,rgba(127,127,127,.18) 6px 8px)}
+mark.hl.leave{background:transparent;border-bottom:2px dotted var(--muted)}
+mark.hl.done{background:transparent;border-bottom-style:solid;opacity:.8}
+body:not(.show-leave) mark.hl.leave{border-bottom:none;cursor:text}
+.moving{border-left:4px solid var(--c);padding-left:10px;margin:.6em 0}
+.moving.leave{border-left-color:var(--line)}
+.moving-k{font:700 .72rem system-ui,sans-serif;color:var(--c);text-transform:uppercase;letter-spacing:.05em}
+.marker{font:600 .9rem system-ui,sans-serif;border:2px dashed var(--c);background:var(--cb);border-radius:8px;padding:6px 10px;margin:1.1em 0 .4em}
+.marker.leave{border-color:var(--line);background:transparent;color:var(--muted)}
+.marker .mk-k{font-size:.74rem;text-transform:uppercase;letter-spacing:.04em;color:var(--c)}
+.marker .mk-h{font-size:1rem}
+body:not(.show-leave) .marker.leave,body:not(.show-leave) .card.leave{display:none}
+body:not(.show-leave) .moving.leave{border-left:none;padding-left:0}
+body:not(.show-leave) .moving.leave .moving-k{display:none}
+.card{font:15px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;background:var(--paper);border:1px solid var(--line);border-left:5px solid var(--c);border-radius:10px;padding:10px 12px;margin:.5em 0 1.5em}
+.card.leave{border-left-color:var(--line);background:var(--soft)}
+.card[hidden]{display:none}
+.card.flash{animation:flash 1.4s ease}
+@keyframes flash{0%,100%{box-shadow:none}25%{box-shadow:0 0 0 4px var(--c)}}
+.card-top{display:flex;flex-wrap:wrap;gap:6px 8px;align-items:center}
+.cid{font:600 .78rem ui-monospace,SFMono-Regular,Menlo,monospace;color:var(--muted)}
+.ctitle{font-weight:700;margin-right:auto}
+.pill{font-size:.78rem;font-weight:700;border-radius:999px;padding:2px 9px;background:var(--pend-bg);color:var(--pend);border:1px solid var(--pend)}
+.card[data-status="approved"] .pill{background:var(--ok-bg);color:var(--ok);border-color:var(--ok)}
+.card[data-status="rejected"] .pill{background:var(--no-bg);color:var(--no);border-color:var(--no)}
+.card[data-status="revise"] .pill{background:var(--rev-bg);color:var(--rev);border-color:var(--rev)}
+.card.leave[data-status="pending"] .pill{background:transparent;color:var(--muted);border-color:var(--line)}
+.card[data-status="approved"]{border-color:var(--ok);border-left-color:var(--c)}
+.card[data-status="revise"]{border-color:var(--rev);border-left-color:var(--c)}
+.link-btn{border:none;background:none;color:var(--link);padding:2px 4px;font-size:.84rem;text-decoration:underline;min-height:28px}
+.changes{margin:8px 0 6px}
+.chg{margin:6px 0}
+.chg-k{font-size:.74rem;font-weight:700;text-transform:uppercase;letter-spacing:.04em;color:var(--muted);margin:4px 0 2px}
+.dif,.mv-src{font:1rem/1.62 Georgia,"Iowan Old Style","Palatino Linotype",serif;background:var(--soft);border-radius:8px;padding:8px 11px;white-space:pre-wrap;overflow-wrap:anywhere}
+.ctx{font:.95rem/1.5 Georgia,serif;color:var(--muted);padding:2px 11px}
+.mv-arrow{font-weight:700;color:var(--c);padding:0 11px}
+.ins-h{font:700 1.05rem system-ui,sans-serif;margin:4px 0;padding:6px 11px;background:var(--soft);border-radius:8px}
+del{background:var(--del-bg);color:var(--del-ink);text-decoration:line-through;text-decoration-thickness:1.5px}
+ins{background:var(--ins-bg);color:var(--ins-ink);text-decoration:none;border-bottom:1px solid currentColor}
+ins.br{font:700 .78rem system-ui,sans-serif;padding:0 4px;border-radius:4px}
+ins.br::before{content:"¶ new paragraph"}
+.reads{font:1rem/1.62 Georgia,"Iowan Old Style","Palatino Linotype",serif;background:var(--soft);border-radius:8px;padding:2px 11px;overflow-wrap:anywhere}
+.reads .rd{margin:.6em 0}
+.reads .rd-h{font:700 1.02rem/1.3 system-ui,-apple-system,"Segoe UI",sans-serif;margin:1em 0 .35em}
+.reads .rd-h2{font-size:1.15rem}.reads .rd-h3{font-size:1.08rem}
+.reads .rd-hm{font-weight:400;color:var(--muted);font-size:.8em}
+.reads .rd-note{font:.8rem/1.4 system-ui,sans-serif;color:var(--muted);margin:-.35em 0 .7em}
+.card[data-status="answered"] .pill{background:var(--ok-bg);color:var(--ok);border-color:var(--ok)}
+.also .link-btn{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.8rem}
+.info .row{margin:3px 0}
+.info .lab,.yours-wrap .lab,.note-wrap .lab{font-size:.74rem;font-weight:700;text-transform:uppercase;letter-spacing:.04em;color:var(--muted);margin-right:4px}
+.info .warn span:last-child{color:var(--pend)}
+.decide{display:flex;flex-wrap:wrap;gap:6px;margin:10px 0 6px}
+.dec{border:1.5px solid var(--line);background:var(--paper);border-radius:8px;padding:6px 11px;min-height:38px;font-size:.88rem;font-weight:600}
+.dec.approve{border-color:var(--ok);color:var(--ok)}
+.dec.reject{border-color:var(--no);color:var(--no)}
+.dec.revise{border-color:var(--rev);color:var(--rev)}
+.dec.undo{border-color:var(--pend);color:var(--pend)}
+.card[data-status="approved"] .dec.approve{background:var(--ok);color:var(--paper)}
+.card[data-status="rejected"] .dec.reject{background:var(--no);color:var(--paper)}
+.card[data-status="revise"] .dec.revise{background:var(--rev);color:var(--paper)}
+.card[data-status="pending"] .dec.undo{background:var(--pend-bg)}
+.yours-wrap,.note-wrap{display:block;margin:6px 0}
+.yours-wrap[hidden]{display:none}
+.card textarea{display:block;width:100%;border:1px solid var(--line);border-radius:8px;padding:7px 9px;font:15px/1.45 system-ui,sans-serif;resize:vertical;margin-top:3px}
+.card textarea.yours{font:1rem/1.55 Georgia,serif;min-height:6.5rem}
+.saved-line{font-size:.78rem;color:var(--muted);min-height:1.1em}
+body.reading .card{display:none}
+.endnote{max-width:46rem;margin:0 auto;font-size:.9rem;color:var(--muted)}
+@media (max-width:640px){
+  .bar .name{display:none}
+  .bar{gap:5px 6px;padding-top:6px;padding-bottom:6px}
+  .prog{flex-basis:100%;font-size:.8rem}
+  .bar .btn{padding:4px 9px;min-height:34px;font-size:.82rem}
+  .tools input[type=search]{width:100%}
+  main.article{font-size:1.02rem}
+  .card{padding:9px 10px}
+  .dec{flex:1 1 auto}
+}
+@media print{header.top,.card .decide,.card textarea{display:none}}
+/* review-form-controls-v1: paired colors for light review forms. */
+input:not([type="checkbox"]):not([type="radio"]):not([type="range"]):not([type="button"]):not([type="submit"]):not([type="reset"]):not([type="hidden"]),textarea,select,option,optgroup,[contenteditable="true"]{color-scheme:only light!important;color:#1f2937!important;-webkit-text-fill-color:#1f2937!important;background-color:#ffffff!important;caret-color:#1f2937!important}
+input::placeholder,textarea::placeholder{color:#526174!important;-webkit-text-fill-color:#526174!important;opacity:1}
+select option:checked{color:#ffffff!important;-webkit-text-fill-color:#ffffff!important;background-color:#244e72!important}
+input:focus-visible,textarea:focus-visible,select:focus-visible,button:focus-visible,[contenteditable="true"]:focus-visible{outline:3px solid #2458a6;outline-offset:2px}
+@media(forced-colors:active){input,textarea,select,option,optgroup,[contenteditable="true"]{forced-color-adjust:auto;color:CanvasText!important;-webkit-text-fill-color:CanvasText!important;background-color:Canvas!important;caret-color:CanvasText!important}input::placeholder,textarea::placeholder{color:GrayText!important;-webkit-text-fill-color:GrayText!important}select option:checked{color:HighlightText!important;-webkit-text-fill-color:HighlightText!important;background-color:Highlight!important}}
+
+</style><style>
+.t-plain{--c:#0e7490;--cb:#d3f1f8}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .t-plain{--c:#67e8f9;--cb:#123a44}}
+:root[data-theme="dark"] .t-plain{--c:#67e8f9;--cb:#123a44}
+.t-safety{--c:#b45309;--cb:#fdebc8}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .t-safety{--c:#fbbf24;--cb:#45330f}}
+:root[data-theme="dark"] .t-safety{--c:#fbbf24;--cb:#45330f}
+.t-question{--c:#4338ca;--cb:#e1e4fd}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .t-question{--c:#a5b4fc;--cb:#262a56}}
+:root[data-theme="dark"] .t-question{--c:#a5b4fc;--cb:#262a56}
+.t-teach{--c:#be185d;--cb:#fce1ee}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .t-teach{--c:#f9a8d4;--cb:#4c1d33}}
+:root[data-theme="dark"] .t-teach{--c:#f9a8d4;--cb:#4c1d33}
+</style>
+<header class="top">
+  <div class="bar gut">
+    <span class="name">Bad Trips Guide, Round 26</span>
+    <span class="prog" id="prog" aria-live="polite"></span>
+    <button type="button" class="btn" id="prevBtn" title="The card before this one">↑ Previous</button>
+    <button type="button" class="btn main" id="nextBtn" title="The next suggestion you haven't decided">Next undecided ↓</button>
+    <button type="button" class="btn" id="toolsBtn" aria-expanded="false" aria-controls="tools">Filters</button>
+    <button type="button" class="btn" id="saveBtn" aria-expanded="false" aria-controls="savePanel">Save / send</button>
+    <div class="meter" aria-hidden="true"><i id="meter"></i></div>
+  </div>
+  <div class="tools gut" id="tools" hidden>
+    <div class="grp"><span class="lab">Show</span><button type="button" class="chip t-plain" data-filter-type="plain" aria-pressed="true" title="AI lines said plainly, each with its reason, the way he fixes his own windows">Said plainly <span class="n" data-count-type="plain"></span></button><button type="button" class="chip t-structure" data-filter-type="structure" aria-pressed="true" title="how the quick version and the long version split the guide, and where a part goes">Structure <span class="n" data-count-type="structure"></span></button><button type="button" class="chip t-repeat" data-filter-type="repeat" aria-pressed="true" title="a point the guide already makes elsewhere: one copy goes, the other stays">Said twice <span class="n" data-count-type="repeat"></span></button><button type="button" class="chip t-safety" data-filter-type="safety" aria-pressed="true" title="a caution or call-for-help line said in several places, or one that changes nothing a reader does">Safety in one place <span class="n" data-count-type="safety"></span></button><button type="button" class="chip t-question" data-filter-type="question" aria-pressed="true" title="something only you can decide or know">Your call <span class="n" data-count-type="question"></span></button><button type="button" class="chip t-teach" data-filter-type="teach" aria-pressed="true" title="a paragraph that reads AI in every wording I tried, whose shape many stuck paragraphs share: how you would say it teaches me how to say them (you asked for these on 2026-11-07)">Teach me <span class="n" data-count-type="teach"></span></button></div>
+    <div class="grp"><span class="lab">Status</span>
+      <select id="statusFilter" aria-label="Show suggestions by status">
+        <option value="all">All</option><option value="pending">Not decided yet</option><option value="approved">Approved</option>
+        <option value="rejected">Rejected</option><option value="revise">Revise</option><option value="noted">With a comment</option>
+      </select>
+      <label class="check"><input type="checkbox" id="showLeave"> The ones a reader flagged and I'd leave (<span id="leaveCount"></span>)</label>
+    </div>
+    <div class="grp"><span class="lab">Find</span><input type="search" id="search" placeholder="Words in a suggestion or its paragraph" aria-label="Search">
+      <select id="sectionJump" aria-label="Go to a section"><option value="">Go to a section…</option></select>
+      <label class="check"><input type="checkbox" id="readingMode"> Read the guide without the cards</label>
+    </div>
+  </div>
+  <div class="panel gut" id="savePanel" hidden>
+    <div class="store-note" id="storeNote">Your answers save in this browser as you click.</div>
+    <div class="row"><button type="button" class="btn main" id="copyJson">Copy my answers (JSON)</button><button type="button" class="btn" id="saveJson">Save them as a file</button></div>
+    <div class="row"><label class="btn" for="importFile">Load answers from a file</label><input type="file" id="importFile" accept=".json,application/json" hidden>
+      <button type="button" class="btn" id="pasteToggle">Paste answers instead</button></div>
+    <div id="pasteBox" hidden><textarea id="pasteArea" placeholder="Paste a JSON answers file here"></textarea><div class="row"><button type="button" class="btn" id="pasteLoad">Load the pasted answers</button></div></div>
+    <textarea id="copyArea" hidden readonly aria-label="Your answers as JSON"></textarea>
+    <div class="status" id="saveStatus" aria-live="polite"></div>
+  </div>
+</header>
+<div class="intro gut"><div class="box">
+<p>Round 26 (2026-11-08). What carries your round-24 versions, measured one thing at a time ([the results](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261105/articles/bad-trips/humanize/h33-20261108/RESULTS.md)). Your Give the Session without the Kenya story, the sitter joke and the redosing aside still reads Human, High ([its check](https://www.pangram.com/history/22506017-45a9-43c3-bcd2-ccb3c5732ed7)). Your anchor line and don'ts without the demon line still read Human, the don'ts at Medium ([its check](https://www.pangram.com/history/2a2e7aa4-5375-460b-8412-4480c5b5c3a5); the text starts with the first five minutes: that's the base each part is checked after, not a merge), so the demon line's break is what lifts them to High. My words in your frame read AI in all three tries on What Kind of Aftermath Is This?, the last written from a fresh reader's comparison of your Give the Session with my try ([its check](https://www.pangram.com/history/0ec38b6c-3395-42a6-b2ff-438096efe532), the paragraphs alone). So I stopped trying them and did what you asked first: say each thing once.</p><p>Two fresh readers read the stretches round 24 named against the whole guide ([What Kind of Aftermath Is This?](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261105/articles/bad-trips/humanize/h34-20261108/REPEATS-AFTERMATH.md), [the others](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261105/articles/bad-trips/humanize/h34-20261108/REPEATS-NAMED.md)). Most of what they found adds something no other line says (a remedy, a threshold, a script line), so it stays. One sentence only repeated your After the Storm lines and loses nothing, so it's gone: "Stabilize through sleep, food, routine, sober support, ordinary body, and ordinary world." And "Zendo-style" is explained where the guide first names it: "The Zendo Project, a harm-reduction group that offers peer support at festivals and other events to people having a hard time in an altered state, sums up its approach in four principles: ..."</p><p>Two cards, each a cut with a small downside.</p>
+<div class="legend" aria-hidden="true"><button type="button" class="chip t-plain" data-filter-type="plain" aria-pressed="true" title="AI lines said plainly, each with its reason, the way he fixes his own windows">Said plainly <span class="n" data-count-type="plain"></span></button><button type="button" class="chip t-structure" data-filter-type="structure" aria-pressed="true" title="how the quick version and the long version split the guide, and where a part goes">Structure <span class="n" data-count-type="structure"></span></button><button type="button" class="chip t-repeat" data-filter-type="repeat" aria-pressed="true" title="a point the guide already makes elsewhere: one copy goes, the other stays">Said twice <span class="n" data-count-type="repeat"></span></button><button type="button" class="chip t-safety" data-filter-type="safety" aria-pressed="true" title="a caution or call-for-help line said in several places, or one that changes nothing a reader does">Safety in one place <span class="n" data-count-type="safety"></span></button><button type="button" class="chip t-question" data-filter-type="question" aria-pressed="true" title="something only you can decide or know">Your call <span class="n" data-count-type="question"></span></button><button type="button" class="chip t-teach" data-filter-type="teach" aria-pressed="true" title="a paragraph that reads AI in every wording I tried, whose shape many stuck paragraphs share: how you would say it teaches me how to say them (you asked for these on 2026-11-07)">Teach me <span class="n" data-count-type="teach"></span></button></div>
+<p class="src">This page is a view of what's in Git: <a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261105/articles/bad-trips/GUIDE-SO-FAR.md" target="_blank" rel="noopener noreferrer">the guide as it stands</a> (version b8e4e227) and <a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261105/articles/bad-trips/review/r26/REVIEW-R26.md" target="_blank" rel="noopener noreferrer">the list of suggestions</a>, built 2026-11-08. Your answers go into Git as well, once you tell me you're done.</p>
+</div></div>
+<main class="article gut" id="article">
+<p class="blk" id="b0" data-b="0"><span class="pn">P1</span><a href="https://ibogaqueen.com/1625-2/" target="_blank" rel="noopener noreferrer">Quick Triage Web-App Version HERE</a></p>
+<p class="blk" id="b1" data-b="1"><span class="pn">P2</span>---</p>
+<div class="blk native-blk" id="b2" data-b="2"><span class="native">[image 1]</span> <a href="https://substack-post-media.s3.amazonaws.com/public/images/3dde0b96-2031-4962-92b7-c5e7a143e1f7_1122x1402.png" target="_blank" rel="noopener noreferrer">open</a></div>
+<h2 class="blk" id="b3" data-b="3">Inner Signal App to the Rescue!</h2>
+<p class="blk" id="b4" data-b="4"><span class="pn">P1</span>I developed the <a href="http://innersignalselfhypnosis.com/integrate" target="_blank" rel="noopener noreferrer">Inner Signal app</a> from my <a href="http://innerchild.u-dont-exist.com/" target="_blank" rel="noopener noreferrer">Inner Child Reparenting</a> and <a href="http://hypnosis.u-dont-exist.com/" target="_blank" rel="noopener noreferrer">Self-Hypnosis</a> guides, along with my <a href="http://sleep.u-dont-exist.com/" target="_blank" rel="noopener noreferrer">sleep guide</a>, <a href="http://mindset.u-dont-exist.com/" target="_blank" rel="noopener noreferrer">meditation guidance</a>, and this bad-trips guide. It can gently guide you through reparenting in trance--or without trance when you&#x27;re already altered--choose meditations that fit what&#x27;s actually happening, and help you through difficult altered states. If you prefer the old-fashioned method of reading and applying things yourself, read on.</p>
+<p class="blk" id="b5" data-b="5"><span class="pn">P2</span>---</p>
+<h2 class="blk" id="b6" data-b="6">When to Bring In Outside Help</h2>
+<div class="blk native-blk" id="b7" data-b="7"><span class="native">[image 2]</span> <a href="https://substack-post-media.s3.amazonaws.com/public/images/fcb02067-8041-4f0d-aaa5-8ccf8cd48531_1122x1402.png" target="_blank" rel="noopener noreferrer">open</a></div>
+<h3 class="blk" id="b8" data-b="8">Call medics while acting for:</h3>
+<div class="blk li" id="b9" data-b="9"><span class="mk">•</span><span class="lt">Trouble breathing, blue or gray lips, or respiratory depression</span></div>
+<div class="blk li" id="b10" data-b="10"><span class="pn">P1</span><span class="mk">•</span><span class="lt">A convulsive seizure lasting about five minutes, repeated seizures without normal recovery, or a first or substantially different seizure</span></div>
+<div class="blk li" id="b11" data-b="11"><span class="pn">P2</span><span class="mk">•</span><span class="lt">Collapse, inability to wake normally, or rapidly worsening consciousness</span></div>
+<div class="blk li" id="b12" data-b="12"><span class="pn">P3</span><span class="mk">•</span><span class="lt">Dangerous overheating, severe rigidity, or clonus with fever</span></div>
+<div class="blk li" id="b13" data-b="13"><span class="pn">P4</span><span class="mk">•</span><span class="lt">Sudden one-sided weakness, loss of speech, inability to walk normally, or loss of control of bodily functions</span></div>
+<div class="blk li" id="b14" data-b="14"><span class="pn">P5</span><span class="mk">•</span><span class="lt">A report that the brain feels damaged when the person cannot complete a basic neurological check or is rapidly worsening</span></div>
+<div class="blk li" id="b15" data-b="15"><span class="pn">P6</span><span class="mk">•</span><span class="lt">Severe, worsening, radiating, or exertional chest pain--or chest pain with breathlessness, sweating, faintness, neurological changes, or collapse</span></div>
+<div class="blk li" id="b16" data-b="16"><span class="pn">P7</span><span class="mk">•</span><span class="lt">Serious injury, uncontrolled bleeding, or a possible head or spinal injury</span></div>
+<div class="blk li" id="b17" data-b="17"><span class="pn">P8</span><span class="mk">•</span><span class="lt">Repeated vomiting, severe dehydration, blood, or severe abdominal pain</span></div>
+<div class="blk li" id="b18" data-b="18"><span class="pn">P9</span><span class="mk">•</span><span class="lt">Violence, self-harm, or a situation the sitter cannot physically contain</span></div>
+<div class="blk li" id="b19" data-b="19"><span class="pn">P10</span><span class="mk">•</span><span class="lt">Concerning symptoms after an MAOI plus a serotonergic substance</span></div>
+<p class="blk" id="b20" data-b="20"><span class="pn">P11</span>The remedies below can begin while help is being arranged. Calling medics does not require waiting passively, and using a fast field remedy does not require giving up a time-sensitive medical option.</p>
+<h3 class="blk" id="b21" data-b="21">Bring in mental-health support when:</h3>
+<div class="blk li" id="b22" data-b="22"><span class="mk">•</span><span class="lt">Psychosis-like symptoms outlast the acute state.</span></div>
+<div class="blk li" id="b23" data-b="23"><span class="pn">P1</span><span class="mk">•</span><span class="lt">Sleep won&#x27;t return.</span></div>
+<div class="blk li" id="b24" data-b="24"><span class="pn">P2</span><span class="mk">•</span><span class="lt">Mania or suicidal thinking appears.</span></div>
+<div class="blk li" id="b25" data-b="25"><span class="pn">P3</span><span class="mk">•</span><span class="lt">Panic won&#x27;t settle.</span></div>
+<div class="blk li" id="b26" data-b="26"><span class="pn">P4</span><span class="mk">•</span><span class="lt">The person can&#x27;t function afterward.</span></div>
+<div class="blk li" id="b27" data-b="27"><span class="pn">P5</span><span class="mk">•</span><span class="lt">The trauma material is bigger than the room can hold.</span></div>
+<h3 class="blk" id="b28" data-b="28">When Peer Support Isn&#x27;t Enough</h3>
+<p class="blk" id="b29" data-b="29"><span class="pn">P1</span>Get urgent help when somebody may harm themselves or another person, cannot be kept physically safe, is moving toward roads, water, or heights, has command voices or fixed terrifying beliefs driving action, becomes violent, is severely confused and unreachable, has dangerous physical symptoms, has lost enough sleep that judgment is collapsing, or exceeds what the sitter can safely contain.</p>
+<p class="blk" id="b30" data-b="30"><span class="pn">P2</span>Use local emergency services for immediate danger or a medical emergency. In the United States, 988 can provide mental-health crisis guidance, de-escalation, and connection to local resources when no immediate physical emergency exists. Call 911 for immediate danger, a crime in progress, medical emergency, weapon, violence underway, or a situation you cannot safely contain. Outside the United States, identify the local emergency number and crisis line before you ever need them.</p>
+<p class="blk" id="b31" data-b="31"><span class="pn">P3</span>---</p>
+<h2 class="blk" id="b32" data-b="32">Acute Medical and Neurological Rescue</h2>
+<p class="blk" id="b33" data-b="33"><span class="pn">P1</span>An emergency means act now. It does not always mean that an ambulance is the first or only useful action. Some severe but physically stable altered states may respond faster to field rescue than to hours in an emergency room.</p>
+<p class="blk" id="b34" data-b="34"><span class="pn">P2</span>When the person is breathing normally, not dangerously hot, not seizing, has no neurological-injury concern, remains conscious enough to cooperate, and can be kept physically safe, calming and stabilizing the trip may be enough.</p>
+<p class="blk" id="b35" data-b="35"><span class="pn">P3</span>The emergency room is not magic, and for a physiologically stable psychedelic or practice-induced crisis it may be a poor environment. A scared, psychotic-feeling person often receives a benzodiazepine; those drugs don&#x27;t reliably address psychosis and can cause paradoxical agitation or fear in some people. Antipsychotics may work better for psychosis, but they carry their own risks and interactions, often administered by someone who doesn&#x27;t know what was taken, if anything.</p>
+<div class="blk native-blk" id="b36" data-b="36"><span class="native">[image 3]</span> <a href="https://substack-post-media.s3.amazonaws.com/public/images/d463e09a-821b-4254-aa6b-0b1d770c3b80_1122x1402.png" target="_blank" rel="noopener noreferrer">open</a></div>
+<h3 class="blk" id="b37" data-b="37">If Someone Says &quot;My Brain Feels Damaged&quot;: DMSO + Humic Acid First</h3>
+<p class="blk" id="b38" data-b="38"><span class="pn">P1</span>Do not dismiss that report because the person is high or cannot explain it in clinical language. It may be anxiety or excessive psychedelic intensity. It may also be acute neurological dysfunction, and the person experiencing it may be the least able to describe it neatly. <a href="http://dmso.u-dont-exist.com/" target="_blank" rel="noopener noreferrer">DMSO</a> is my first immediate remedy while I ask what the symptoms actually are. I usually know within about a minute whether it is helping. Smelling <a href="http://humicacid.u-dont-exist.com" target="_blank" rel="noopener noreferrer">humic acid </a>or tasting a tiny bit can also help a lot, in my experience, but I&#x27;m still collecting data from others.</p>
+<p class="blk" id="b39" data-b="39"><span class="pn">P2</span>While using DMSO, check wakefulness, breathing, temperature, speech, facial symmetry, both arms, balance, walking, bodily control, seizure activity, severe headache, repeated vomiting, chest pain, and vision. These checks include several recognized <a href="https://www.stroke.org/en/about-stroke/stroke-symptoms" target="_blank" rel="noopener noreferrer">stroke warning signs</a>. A person who cannot answer or cooperate has not passed the screen; their neurological status is still unknown. If the screen is reassuring but the brain-damage feeling remains, continue the DMSO-first route and reassess promptly.</p>
+<p class="blk" id="b40" data-b="40"><span class="pn">P3</span>I believe DMSO works better for stroke and most acute brain damage than anything else readily available to ordinary people. That judgment is stronger than the clinical evidence, but the evidence is not empty: a <a href="https://pubmed.ncbi.nlm.nih.gov/11783757/" target="_blank" rel="noopener noreferrer">preliminary human ischemic-stroke trial</a> reported possible neurological benefit; a <a href="https://pubmed.ncbi.nlm.nih.gov/6462399/" target="_blank" rel="noopener noreferrer">small human series</a> used DMSO for intracranial hypertension; and <a href="https://pubmed.ncbi.nlm.nih.gov/15744247/" target="_blank" rel="noopener noreferrer">animal stroke research</a> found substantial infarct reduction even when treatment began after ischemia. DMSO also suppresses <a href="https://pubmed.ncbi.nlm.nih.gov/11421595/" target="_blank" rel="noopener noreferrer">NMDA- and AMPA-mediated excitotoxicity</a>.</p>
+<p class="blk" id="b41" data-b="41"><span class="pn">P4</span>For objective stroke-like signs, I would use DMSO immediately while someone calls medics. DMSO cannot identify whether the problem is a clot, a hemorrhage, low oxygen, an electrolyte crisis, or something else. The larger adjacent risk is losing a treatment window or missing a bleed because the symptoms improved enough to feel reassuring. If someone is worried about a bleed, I&#x27;d probably skip DMSO, but it depends on how severe their issue is. It&#x27;s not a powerful blood thinner like heparin, unless maybe injected; it&#x27;s basically a dietary blood thinner. I&#x27;ve never had any issues with bleeding too much from consuming DMSO, and never heard of it either, but if bleeding is already a medical issue I&#x27;d want to think about that more.</p>
+<div class="blk li" id="b42" data-b="42"><span class="pn">P5</span><span class="mk">1.</span><span class="lt">DMSO immediately. Smell humic acid first; if that doesn&#x27;t help, take a 5mg lick of it. Smell the Metta NMT sniffer (described in <a href="http://loveyhuasca.info" target="_blank" rel="noopener noreferrer">loveyhuasca guide</a>).</span></div>
+<div class="blk li" id="b43" data-b="43"><span class="pn">P6</span><span class="mk">2.</span><span class="lt">Ask what the symptoms actually are while the DMSO is being used. Do not manufacture reassurance from missing information.</span></div>
+<div class="blk li" id="b44" data-b="44"><span class="pn">P7</span><span class="mk">3.</span><span class="lt">If this is a psychedelic, use <em>Ipomoea pes-caprae</em> to stop the trip. At this point safety matters more than preserving the experience.</span></div>
+<div class="blk li" id="b45" data-b="45"><span class="pn">P8</span><span class="mk">4.</span><span class="lt">If this is MDMA, move to magnesium chloride and the broader electrolyte branch instead.</span></div>
+<div class="blk li" id="b46" data-b="46"><span class="pn">P9</span><span class="mk">5.</span><span class="lt">Bring in medical help in parallel for objective neurological signs, dangerous heat, prolonged or repeated seizure, breathing trouble, severe chest pain, collapse, or when basic stability cannot be established.</span></div>
+<h3 class="blk" id="b47" data-b="47">Active Seizure</h3>
+<p class="blk" id="b48" data-b="48"><span class="pn">P1</span>Time the seizure. Protect the person from injury, clear dangerous objects, loosen tight clothing, and place them on their side when practical. Don&#x27;t restrain them and don&#x27;t put anything in their mouth while they are convulsing or not fully conscious.</p>
+<p class="blk" id="b49" data-b="49"><span class="pn">P2</span>If an appropriate rapid seizure-rescue benzodiazepine is available, use it by its intended route. Benzodiazepines are the <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC9477921/" target="_blank" rel="noopener noreferrer">established first-line drug class for status epilepticus</a>. An ordinary pill is not the same thing as a nasal, buccal, rectal, intramuscular, or intravenous rescue preparation, and respiratory depressants in the mix change the risk.</p>
+<p class="blk" id="b50" data-b="50"><span class="pn">P3</span>Some people get a warning before a seizure takes hold, which is called an aura. That&#x27;s when the things people report can still stop it, depending on what sets their seizures off. If it&#x27;s flashing or flickering light, cover one eye with a hand and turn away from the light, because closing the eyes doesn&#x27;t block enough of it. Some people stop a seizure at the warning stage with a strong smell like jasmine, and some train themselves to link one smell with feeling calm and then sniff it when a seizure threatens. When overstimulation is what sets it off, a cool, quiet, dark and comfortable space can help. I&#x27;d also try sniffing humic/fulvic acid powder, although that&#x27;s just a hunch based on the effects I notice so far.</p>
+<p class="blk" id="b51" data-b="51"><span class="pn">P4</span>During the seizure, alongside any rescue medicine, I would use topical magnesium chloride and consider topical DMSO with a known-genuine CBD preparation (a lot of CBD is fake or very dilute). Seizures come in all different types, and we have no study on whether CBD could be a rescue remedy for a seizure (<a href="https://www.youtube.com/watch?v=RCxGSrUsB0Q" target="_blank" rel="noopener noreferrer">just anecdotes</a>), even though we do have studies showing long-term effectiveness to prevent them: Purified oral CBD is <a href="https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/210365s024s029s030lbl.pdf" target="_blank" rel="noopener noreferrer">approved</a> for the seizures of Lennox-Gastaut syndrome, Dravet syndrome and tuberous sclerosis complex.</p>
+<p class="blk" id="b52" data-b="52"><span class="pn">P5</span>As for CBD/cannabis, people do smoke or vape it at the start of an aura, while they&#x27;re still awake enough to do it on purpose. There are also people who find THC and/or CBD works as a nasal spray or sublingually, and there&#x27;s even a medical THC nasal spray marketed for seizure interruption in Brazil by a non-profit patients&#x27; association called ABRACE. They <a href="https://escriba.camara.leg.br/escriba-servicosweb/html/58445" target="_blank" rel="noopener noreferrer">testified in Congress</a> that in more than 30 tests they did with children having seizures, the nasal spray ended those seizures within 30 seconds. You can see it being used on a child in this vid: https://www.youtube.com/watch?v=bgVi5o_2v_w</p>
+<p class="blk" id="b53" data-b="53"><span class="pn">P6</span>I also read on forums some swear it stops the seizure from going any further, and there was <a href="https://pubmed.ncbi.nlm.nih.gov/27763968/" target="_blank" rel="noopener noreferrer">one woman whose EEG</a> showed fewer seizure discharges on the days she smoked. But a few people on the same forums said THC vapes and concentrates brought their seizures on. And <a href="https://pubmed.ncbi.nlm.nih.gov/33370468/" target="_blank" rel="noopener noreferrer">rats bred to have seizures</a> had more of them after high-THC smoke.</p>
+<p class="blk" id="b54" data-b="54"><span class="pn">P7</span>As for topical CBD, it hasn&#x27;t been well-studied. There was a short <a href="https://pubmed.ncbi.nlm.nih.gov/35802375/" target="_blank" rel="noopener noreferrer">12-week trial</a> done, where they used a CBD skin gel, and although absorption was good, it didn&#x27;t work any better than placebo to prevent seizures. The study authors suggested the dosing may have been too low, or that adults with focal epilepsy just don&#x27;t respond as well as people with the syndromes oral CBD is approved for. The seizures in Dravet and Lennox-Gastaut syndrome are mostly generalized. Generalized are the type people usually have with MDMA &amp; psychedelic overdoses, so topical CBD might do better for those than it did in that trial.</p>
+<p class="blk" id="b55" data-b="55"><span class="pn">P8</span>As for DMSO, it did reduce seizure activity in <a href="https://pubmed.ncbi.nlm.nih.gov/23643984/" target="_blank" rel="noopener noreferrer">rats with temporal-lobe epilepsy</a>, and we know it has several neuroprotective mechanisms, but it produced the opposite effect at some doses in an <a href="https://pubmed.ncbi.nlm.nih.gov/21320528/" target="_blank" rel="noopener noreferrer">absence-epilepsy model</a>. I&#x27;d treat it as a plausible experimental adjunct remedy rather than something to wait on while a seizure continues.</p>
+<p class="blk" id="b56" data-b="56"><span class="pn">P9</span>Call medics for a convulsive seizure lasting about five minutes, repeated seizures without normal recovery, trouble breathing, dangerous heat, serious injury, a first seizure, or a seizure substantially different from the person&#x27;s known pattern.</p>
+<h3 class="blk" id="b57" data-b="57">MDMA: Jaw Tension Is the Magnesium Alarm</h3>
+<p class="blk" id="b58" data-b="58"><span class="pn">P1</span>With MDMA, I treat meaningful jaw tension as the earliest warning that the body needs more magnesium. This comes from repeated field experience rather than a direct clinical trial. Everyone I know who has taken enough magnesium chloride to make the jaw tension fully release has avoided the other complications I have seen when people let that tension continue.</p>
+<p class="blk" id="b59" data-b="59"><span class="pn">P2</span>A token dose may not be enough. On multiple occasions, I have dissolved Dead Sea magnesium chloride hexahydrate flakes in water and taken approximately one gram per minute orally for around twenty minutes before my jaw fully released. I have tolerated around twenty grams without diarrhea; for me, diarrhea has appeared only above roughly forty grams. Magnesium chloride is also <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10509448/" target="_blank" rel="noopener noreferrer">generally less likely to cause diarrhea than several other replacement salts</a>, including forms deliberately used as laxatives.</p>
+<p class="blk" id="b60" data-b="60"><span class="pn">P3</span>Interestingly, magnesium taken before the MDMA peak also makes the peak less euphoric for me. That suggests it may both meet a rapidly increasing magnesium need and directly moderate part of MDMA&#x27;s excitatory effect. For harm reduction, slightly less euphoria is a reasonable price for a relaxed jaw and what appears in my experience to be a much lower risk of the state escalating.</p>
+<p class="blk" id="b61" data-b="61"><span class="pn">P4</span>My second wife had severe convulsions after an MDMA overdose. At the hospital, her potassium was found to be critically low--described to me as essentially zero--and IV potassium was the only treatment they gave her. That experience is why I treat serious MDMA toxicity as a broader electrolyte emergency, even though magnesium is the first and most useful early intervention when jaw tension appears.</p>
+<p class="blk" id="b62" data-b="62"><span class="pn">P5</span>Jaw tension should also mean no more MDMA, less exertion and heat, and closer monitoring. Worsening headache, confusion, vomiting, weakness, palpitations, collapse, or seizure raises concern about sodium, potassium, temperature, hydration, kidneys, and broader toxicity. MDMA is documented to cause <a href="https://pubmed.ncbi.nlm.nih.gov/27917269/" target="_blank" rel="noopener noreferrer">acute kidney injury through several pathways</a>, and controlled research confirms that <a href="https://pubmed.ncbi.nlm.nih.gov/39546312/" target="_blank" rel="noopener noreferrer">hyponatremia can occur after a single dose</a>.</p>
+<p class="blk" id="b63" data-b="63"><span class="pn">P6</span>People with impaired kidneys do need to be more cautious with large, rapid magnesium doses because they may not clear magnesium normally. But they should be far more worried about the MDMA. MDMA can cause overheating, rhabdomyolysis, dangerous electrolyte shifts, and acute kidney injury. Kidney impairment is a strong reason not to take MDMA--not a reason to sit there with worsening jaw tension after taking it. I would not tell somebody with serious kidney impairment to copy my one-gram-per-minute approach blindly; I would tell them to treat the situation as higher-risk and get help sooner.</p>
+<h3 class="blk" id="b64" data-b="64">Chest Pain and Injury</h3>
+<p class="blk" id="b65" data-b="65"><span class="pn">P1</span>DMSO is also my first remedy for many injuries and some chest pain. After I overused erythritol, I developed angina that lasted for days. I took DMSO, the pain disappeared within about a minute, and it never returned.</p>
+<p class="blk" id="b66" data-b="66"><span class="pn">P2</span>The cardiovascular science is preclinical but relevant. In rats, DMSO pretreatment reduced myocardial infarct size by about three quarters and sharply reduced cardiac injury markers. Other work found inhibition of tissue factor, platelet activation, and arterial thrombus formation. <a href="https://pubmed.ncbi.nlm.nih.gov/19904216/" target="_blank" rel="noopener noreferrer">Myocardial-ischemia study</a>; <a href="https://pubmed.ncbi.nlm.nih.gov/17000906/" target="_blank" rel="noopener noreferrer">tissue-factor and thrombosis study</a>; <a href="https://pubmed.ncbi.nlm.nih.gov/20035720/" target="_blank" rel="noopener noreferrer">human platelet study</a>.</p>
+<p class="blk" id="b67" data-b="67"><span class="pn">P3</span>Mild, familiar, non-progressive discomfort in a fully alert person is different from new, severe, persistent, worsening, radiating, or exertional pain--or pain with breathlessness, sweating, faintness, neurological changes, or collapse. In the second branch, I would use DMSO while arranging medical evaluation. If you&#x27;re not sure which branch it is, treat it as the second. DMSO can also block pain signals, so pain relief alone does not prove that the underlying problem has ended.</p>
+<h3 class="blk" id="b68" data-b="68">Recent Oral Toxic Ingestion</h3>
+<p class="blk" id="b69" data-b="69"><span class="pn">P1</span>&quot;Overdose&quot; is too vague to choose a remedy. Ask what was swallowed, how much, when, and what the body is actually doing: respiratory depression, stimulant toxicity, serotonin toxicity, seizure, dangerous overheating, cardiovascular symptoms, severe agitation, objective neurological dysfunction, vomiting, diarrhea, or something else.</p>
+<p class="blk" id="b70" data-b="70"><span class="pn">P2</span>Activated charcoal may help after some recent oral ingestions when the substance binds to it and the person is fully alert enough to swallow safely. It does not bind every toxin, can adsorb necessary medication, and creates aspiration risk in somebody who is vomiting, sedated, seizing, or unable to protect the airway. <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC6620762/" target="_blank" rel="noopener noreferrer">Clinical review</a>.</p>
+<p class="blk" id="b71" data-b="71"><span class="pn">P3</span>Poison control may be useful when the substance, combination, delayed risk, or value of charcoal is unclear. I do not treat it as a mandatory ritual; usefulness varies by country and by whoever answers. It is decision support, not first aid.</p>
+<h3 class="blk" id="b72" data-b="72">Suspected Serotonin Syndrome (SS)</h3>
+<p class="blk" id="b73" data-b="73"><span class="pn">P1</span>Serotonin syndrome overlaps with several symptoms above, but the rescue measures in the other branches do not necessarily treat it. It can follow serotonergic medication changes, combinations, or excessive exposure. Ayahuasca and other MAOI brews, MDMA, DXM, many antidepressants, tramadol, linezolid, other MAOIs, and some opioids can contribute, especially in combinations.</p>
+<h4 class="blk" id="b74" data-b="74">Recognizing serotonin toxicity</h4>
+<p class="blk" id="b75" data-b="75"><span class="pn">P1</span>Clinicians often use the Hunter criteria. One or more of the following patterns makes serotonin toxicity more likely:</p>
+<div class="blk li" id="b76" data-b="76"><span class="mk">•</span><span class="lt">Spontaneous clonus: involuntary rhythmic muscle contractions and relaxations occurring without stimulation.</span></div>
+<div class="blk li" id="b77" data-b="77"><span class="pn">P2</span><span class="mk">•</span><span class="lt">Inducible clonus plus agitation or sweating.</span></div>
+<div class="blk li" id="b78" data-b="78"><span class="pn">P3</span><span class="mk">•</span><span class="lt">Ocular clonus plus agitation or sweating: rapid rhythmic involuntary eye movements.</span></div>
+<div class="blk li" id="b79" data-b="79"><span class="pn">P4</span><span class="mk">•</span><span class="lt">Tremor plus hyperreflexia: shaking together with abnormally brisk reflexes.</span></div>
+<div class="blk li" id="b80" data-b="80"><span class="pn">P5</span><span class="mk">•</span><span class="lt">Hypertonia plus fever: rigidity with temperature above 38°C (100.4°F), together with ocular or inducible clonus.</span></div>
+<p class="blk" id="b81" data-b="81"><span class="pn">P6</span>This is a recognition aid rather than a command to wait for every criterion before acting. Dangerous heat, rigidity, clonus, confusion, or rapid worsening deserves medical help.</p>
+<h4 class="blk" id="b82" data-b="82">Do this immediately when serotonin toxicity is reasonably suspected:</h4>
+<div class="blk li" id="b83" data-b="83"><span class="mk">1.</span><span class="lt">Stop all suspected serotonergic substances. No more SSRI, SNRI, MAOI, tramadol, MDMA, DXM cough syrup, 5-HTP, St John&#x27;s wort, SAM-e, linezolid, stimulant redoses, or harmala/ayahuasca-type MAOI exposure.</span></div>
+<div class="blk li" id="b84" data-b="84"><span class="pn">P1</span><span class="mk">2.</span><span class="lt">If the person is fully alert and able to swallow, I would give cyproheptadine early. It antagonizes serotonin receptors. Case reports describe rapid improvement, including complete resolution within two hours in a small series, while a recent systematic review found the evidence for major outcomes inconclusive. <a href="https://pubmed.ncbi.nlm.nih.gov/9696181/" target="_blank" rel="noopener noreferrer">Case series</a>; <a href="https://pubmed.ncbi.nlm.nih.gov/39791184/" target="_blank" rel="noopener noreferrer">systematic review</a>. I would not wait to see whether it works before cooling, stopping serotonergic substances, and arranging help for moderate or severe signs.</span></div>
+<div class="blk li" id="b85" data-b="85"><span class="pn">P2</span><span class="mk">3.</span><span class="lt">Call emergency help and arrange transport for moderate or severe signs. Don&#x27;t drive yourself. Poison control may help when the combination is unclear, but it is not the treatment.</span></div>
+<div class="blk li" id="b86" data-b="86"><span class="pn">P3</span><span class="mk">4.</span><span class="lt">Cool the person without delaying transport. Move to a cool room, remove excess clothing, use a fan and cool damp cloths, and place ice packs wrapped in cloth at the neck, armpits, or groin when the person is hot. Don&#x27;t put a confused, seizing, or very weak person in a bath. Fever reducers do not solve heat generated by extreme muscle activity.</span></div>
+<div class="blk li" id="b87" data-b="87"><span class="pn">P4</span><span class="mk">5.</span><span class="lt">Keep stimulation low and prevent exertion. No pacing to &quot;burn it off,&quot; exercise, crowds, or arguments. Akathisia can create a strong urge to move, but muscle activity can worsen heat and rhabdomyolysis risk.</span></div>
+<div class="blk li" id="b88" data-b="88"><span class="pn">P5</span><span class="mk">6.</span><span class="lt">Hydrate only when fully alert and not vomiting. Small sips of an appropriate oral rehydration drink are reasonable. Don&#x27;t force fluids, food, pills, or charcoal when someone is confused, vomiting, sleepy, or at seizure risk.</span></div>
+<div class="blk li" id="b89" data-b="89"><span class="pn">P6</span><span class="mk">7.</span><span class="lt">Gather the evidence for the ER. Bring pill bottles and packages. Write down exact substances, dose, timing, last dose, recent increases, supplements, recreational drugs, temperature, pulse, and blood pressure when available.</span></div>
+<div class="blk li" id="b90" data-b="90"><span class="pn">P7</span><span class="mk">8.</span><span class="lt">Hospitals may use benzodiazepines, external cooling, IV fluids, monitoring, and intensive supportive care. Niacin is unsafe for serotonin syndrome. DMSO is also not part of this branch. I would consider oral magnesium chloride when the person is fully alert, especially with MDMA-related jaw tension or muscle activity.</span></div>
+<p class="blk" id="b91" data-b="91"><span class="pn">P8</span>---</p>
+<h2 class="blk" id="b92" data-b="92">My Acute Rescue Hierarchy</h2>
+<p class="blk" id="b93" data-b="93"><span class="pn">P1</span>This hierarchy is for acute situations, including emergencies--not merely uncomfortable trips.</p>
+<p class="blk" id="b94" data-b="94"><span class="pn">P2</span>In general it&#x27;s good to try all these things in very low, increasing doses before they are needed in crisis.</p>
+<p class="blk" id="b95" data-b="95"><span class="pn">P3</span>Sometimes the mind isn&#x27;t in a metaphysical crisis. The body feels awful and the altered mind writes cosmic horror to explain it. Nausea, heat, exhaustion, dehydration, overstimulation, and sleep loss all become spiritual content very quickly.</p>
+<p class="blk" id="b96" data-b="96"><span class="pn">P4</span>A horrible thought isn&#x27;t automatically a revelation. The body may need quiet, water, cooling, warmth, rest, or a calmer room. The body is part of the spiritual field.</p>
+<p class="blk" id="b97" data-b="97"><span class="pn">P5</span>A trip with diarrhea, nausea, toxic heaviness, a dirty body-feeling, loss of bodily control, jaw tension, neurological disorganization, or the sense that the mind is going crazy because the gut or brain is going crazy belongs in a different branch from a mainly emotional crisis. A gut-driven mental hell is often mistaken as shadow work.</p>
+<p class="blk" id="b98" data-b="98"><span class="pn">P6</span>---</p>
+<h3 class="blk" id="b99" data-b="99">How I label the evidence</h3>
+<div class="blk li" id="b100" data-b="100"><span class="pn">P1</span><span class="mk">•</span><span class="lt">Established acute treatment: standard seizure first aid, rapid rescue benzodiazepines, cooling dangerous hyperthermia, and treating documented electrolyte abnormalities.</span></div>
+<div class="blk li" id="b101" data-b="101"><span class="pn">P2</span><span class="mk">•</span><span class="lt">Limited human evidence: interventions with clinical reports or small trials but no strong modern outcome evidence.</span></div>
+<div class="blk li" id="b102" data-b="102"><span class="pn">P3</span><span class="mk">•</span><span class="lt">Mechanism or preclinical evidence: biologically plausible effects shown mainly in cells or animals.</span></div>
+<div class="blk li" id="b103" data-b="103"><span class="pn">P4</span><span class="mk">•</span><span class="lt">Personal field signal: what I have repeatedly observed in myself or other people. Repetition and a clear immediate endpoint make an anecdote more useful, but they do not turn it into a population rate.</span></div>
+<h4 class="blk" id="b104" data-b="104">Gut-Toxin and Parasite-Die-Off Tools</h4>
+<p class="blk" id="b105" data-b="105"><span class="pn">P1</span>These are the first things I would use, even preventively on the come-up, because I want to address possible toxins before assigning the distress to something more mysterious.</p>
+<h5 class="blk" id="b106" data-b="106">Zeolite and Ferment in <a href="http://zholy3o.u-dont-exist.com/" target="_blank" rel="noopener noreferrer">ZHoly3O</a></h5>
+<p class="blk" id="b107" data-b="107"><span class="pn">P1</span>When the trip feels like sick stomach, nausea, diarrhea, toxic heaviness, a dirty body-feeling, parasite die-off, or mental hell driven by gut hell, zeolite and the ZHoly3O ferment are often my first thoughts.</p>
+<p class="blk" id="b108" data-b="108"><span class="pn">P2</span>Many ferments help to different degrees, including kombucha, kimchi, and apple vinegar. I prefer fermented beet juice made with apple vinegar and salt. Smelling the ferment helps a lot. Drinking a spoonful can also help, although it may cause itching in somebody who breaks down histamine poorly, which then requires activated charcoal to reduce gut histamine.</p>
+<p class="blk" id="b109" data-b="109"><span class="pn">P3</span>In my experiments, zeolite has to be prepared correctly. I use powdered zeolite rather than nano-liquid zeolite. Many products did nothing for me, and quality mattered enormously. Most zeolites have clogged pores because they haven&#x27;t been cleaned.</p>
+<p class="blk" id="b110" data-b="110"><span class="pn">P4</span>For my ozonated zeolite, I mix the powder into water and use an ozone-water purifier in a glass vessel because ozone destroys plastic. I mean ozonating water, never inhaling ozone gas. With a machine producing about two grams of ozone per hour, ten minutes produced a working zeolite for me. Less time did not work as well, and more time did not noticeably improve it.</p>
+<p class="blk" id="b111" data-b="111"><span class="pn">P5</span>I also keep zeolite away from metal during preparation. Zeolite adsorbs metals, which is part of why it is used for heavy-metal removal, and I don&#x27;t want it sitting against a metal vessel or utensil before ingestion. I use glass for ozonation and storage whenever possible.</p>
+<p class="blk" id="b112" data-b="112"><span class="pn">P6</span>Most sober people don&#x27;t feel much from zeolite. Its effect becomes more obvious when a trip has a toxic or gut-driven component. I put a spoonful into water--some people need a teaspoon, others a tablespoon--and sip slowly. Rubbing it on the body or simply holding the jar also helps me.</p>
+<h5 class="blk" id="b113" data-b="113">Actual Activated Charcoal</h5>
+<p class="blk" id="b114" data-b="114"><span class="pn">P1</span>Activated charcoal can help gut toxicity, but it adsorbs drugs. Sometimes that is exactly the point. It can also flatten or reduce a trip, so I don&#x27;t treat charcoal and zeolite as interchangeable.</p>
+<p class="blk" id="b115" data-b="115"><span class="pn">P2</span>When the goal is to reduce drug absorption or stop a toxic gut situation, charcoal may be relevant. When I want to preserve the trip while improving the gut feeling, I prefer zeolite.</p>
+<p class="blk" id="b116" data-b="116"><span class="pn">P3</span>Charcoal can also adsorb medications somebody depends on. I would use it cautiously around necessary medicines and tell the medics if charcoal was taken.</p>
+<p class="blk" id="b117" data-b="117"><span class="pn">P4</span>---</p>
+<h4 class="blk" id="b118" data-b="118">Nausea Smoothers When the Person Wants to Preserve the Trip</h4>
+<p class="blk" id="b119" data-b="119"><span class="pn">P1</span>When ozonated zeolite and ferment don&#x27;t help, I consider nausea caused by an excessive psychedelic dose acting on serotonin receptors in the gut. The tools in this section are for somebody who still wants the trip to continue.</p>
+<h5 class="blk" id="b120" data-b="120"><a href="http://coffeecherry.u-dont-exist.com/" target="_blank" rel="noopener noreferrer">Coffee Cherry</a> for Nausea and Brain Recharge</h5>
+<p class="blk" id="b121" data-b="121"><span class="pn">P1</span>Eating a couple of coffee cherries helps my nausea. It can make a trip blissful and sleepy for a few hours, followed later by intense mental clarity and physical energy--almost like a perfected amphetamine. It may also extend the trip. That can be useful and healthy when planned, but I wouldn&#x27;t reach for it first when somebody is already becoming manic.</p>
+<p class="blk" id="b122" data-b="122"><span class="pn">P2</span>---</p>
+<h4 class="blk" id="b123" data-b="123">When the Goal Is to Stop a Psychedelic Trip</h4>
+<h5 class="blk" id="b124" data-b="124">Beach Morning Glory--<em>Ipomoea pes-caprae</em></h5>
+<p class="blk" id="b125" data-b="125"><span class="pn">P1</span>By beach morning glory I mean <em>Ipomoea pes-caprae</em>, rather than morning-glory plants in general. The distinction matters. I have tried many related plants and cousins, and they did not work the same way. As far as I know, nobody else sells it.</p>
+<p class="blk" id="b126" data-b="126"><span class="pn">P2</span>Its primary role in this guide is not ordinary nausea control. In my experience, <em>Ipomoea pes-caprae</em> is the ultimate sledgehammer for stopping a psychedelic trip cold and fast.</p>
+<p class="blk" id="b127" data-b="127"><span class="pn">P3</span>A tiny nibble can sometimes smooth psychedelic nausea and improve the trip without killing it, but the difference between that amount and a trip-aborting amount is narrow. I use it for nausea only when the person is comfortable with the possibility that the trip may end.</p>
+<p class="blk" id="b128" data-b="128"><span class="pn">P4</span>Even picking a leaf can affect me when the broken juicy part touches sensitive skin, especially under the fingernails. Avoiding contact with the broken portion prevents that effect.</p>
+<p class="blk" id="b129" data-b="129"><span class="pn">P5</span>A whole leaf can easily end the trip and, in my experience, may prevent tripping for days afterward.</p>
+<p class="blk" id="b130" data-b="130"><span class="pn">P6</span>This was not only personal. I once gave beach morning glory to a woman experiencing nausea and dysphoria during a psychedelic state. I was rushing to help and may have given more than I would now. Within a couple of minutes she shifted from miserable to very happy. That helped convince me the effect wasn&#x27;t limited to my body.</p>
+<p class="blk" id="b131" data-b="131"><span class="pn">P7</span>I do not yet have data showing that pes-caprae aborts MDMA. MDMA remains a separate branch centered on magnesium, temperature, sodium, potassium, hydration, serotonin toxicity, seizure, and cardiovascular symptoms.</p>
+<p class="blk" id="b132" data-b="132"><span class="pn">P8</span>---</p>
+<h4 class="blk" id="b133" data-b="133">Mental Stabilizers That Don&#x27;t Abort the Trip</h4>
+<h5 class="blk" id="b134" data-b="134">Metta NMT Sniffer Makes the Trip Chill &amp; Lovey!</h5>
+<p class="blk" id="b135" data-b="135"><span class="pn">P1</span>As explained in my <a href="http://loveyhuasca.info" target="_blank" rel="noopener noreferrer">loveyhuasca guide</a>, this little sniffer stick that you smell gives people 30-60 minutes (or more) of peace even when they are sober and just anxious. People tell me it&#x27;s saved their life from crippling anxiety. I have a <a href="http://sniffersurvey.loveyhuasca.info" target="_blank" rel="noopener noreferrer">survey here </a>they can post at. But when I&#x27;m on ayahauasca or loveyhuasca, not only is it calming and nice, but actually opens my heart chakra considerably. Before this, loveyhuasca was kind of hit or miss for me on the love part. It turns regular ayahuasca into loveyhuasca even. You can get these directly from me. It&#x27;s a bunch of stuff in the formula, but one of the things in here you can buy directly on Amazon for super cheap right now and it works also very well:</p>
+<h5 class="blk" id="b136" data-b="136">Humic Acid Brings Brain to Optimal Function</h5>
+<p class="blk" id="b137" data-b="137"><span class="pn">P1</span>As mentioned in my <a href="http://humicacid.u-dont-exist.com" target="_blank" rel="noopener noreferrer">humic acid note</a>, I&#x27;ve found if I take too much ayahuasca or loveyhuasca and I feel &quot;out of it&quot; and bad, simply smelling the humic acid powder fixes it pretty much instantly, even when many other remedies don&#x27;t work so well. Licking a tiny bit like 5mg does even more, sending my brain into hyperfunctionality.</p>
+<h5 class="blk" id="b138" data-b="138">Ocean Water to calm &amp; protect the energetic field</h5>
+<p class="blk" id="b139" data-b="139"><span class="pn">P1</span>Ocean water is one of the simplest and strangest stabilizers I have found. I noticed it in Kenya and Florida. Rain water also works for me, but I&#x27;ve only tested it near the ocean. You can also buy <a href="http://quintonmedical.com" target="_blank" rel="noopener noreferrer">Quinton Medical Seawater</a>, which has a number of health benefits when used as a nasal spray or as a source of minerals.</p>
+<p class="blk" id="b140" data-b="140"><span class="pn">P2</span>When a trip is too strong, touching ocean water can be extremely soothing. Touching the outside of a bottle doesn&#x27;t do it. Direct contact with the water seems to matter, even when the water has been stored in a bottle.</p>
+<p class="blk" id="b141" data-b="141"><span class="pn">P3</span>It has a grounding, cooling, organizing effect different from DMSO, aged ozonated-charcoal water, zeolite, or beach morning glory. I don&#x27;t understand the mechanism. I only know that it has repeatedly felt like a powerful natural remedy for excessive psychedelic intensity.</p>
+<h5 class="blk" id="b142" data-b="142">Shungite, Aged Ozonated-Charcoal Water, or Boiled Charcoal Water</h5>
+<p class="blk" id="b143" data-b="143"><span class="pn">P1</span>I honestly can&#x27;t say how different these are from ocean water, because I&#x27;ve only used them a handful of times, but I do believe they&#x27;re different in certain ways. Ocean water seems to reduce the intensity of the trip a bit more, while aged ozonated-charcoal water seems more peaceful without necessarily reducing intensity, and ocean water seems more reliable for some reason. Aged ozonated-charcoal water is different from zeolite and from swallowing charcoal.</p>
+<p class="blk" id="b144" data-b="144"><span class="pn">P2</span>What I usually use is the water portion: water ozonated in contact with activated charcoal and allowed to sit after the charcoal falls to the bottom, or water ozonated with ordinary rock charcoal. I mean the water after active ozonation has ended and residual ozone has dissipated.</p>
+<p class="blk" id="b145" data-b="145"><span class="pn">P3</span>That water doesn&#x27;t fix the gut the way zeolite does.</p>
+<p class="blk" id="b146" data-b="146"><span class="pn">P4</span>Aged ozonated-charcoal water acts more on the crazy or excessively intense mental feeling: too much psychedelic energy, the wrong environment, anxiety, high EMF, or a generally overloaded mind. It can shift &quot;too much&quot; into calm release without necessarily aborting the trip.</p>
+<p class="blk" id="b147" data-b="147"><span class="pn">P5</span>Zeolite usually feels subtle to sober people. Aged ozonated-charcoal water does not. Most people I have given it to find it relaxing even while sober, whether they smell it, touch it, or drink the water portion.</p>
+<p class="blk" id="b148" data-b="148"><span class="pn">P6</span>I have even watched the water calm a crying baby through touch alone. No ozone gas was present; this was contact with the water after ozonation had ended and the residual ozone had dissipated. I include that because it suggested the relaxing effect was not only adult expectation or psychedelic context.</p>
+<p class="blk" id="b149" data-b="149"><span class="pn">P7</span>Earlier in my experiments, I made the mistake of directly smelling ozone gas during a psychedelic state. It intensified the experience and became mentally alarming. DMSO didn&#x27;t help that situation, while aged ozonated-charcoal water helped rapidly. I don&#x27;t recommend inhaling ozone. The mistake showed me that DMSO and aged ozonated-charcoal water address different kinds of overload.</p>
+<p class="blk" id="b150" data-b="150"><span class="pn">P8</span>Without an ozone-water purifier--which can cost around $20 on Amazon--boiling water with charcoal gives some of the benefit. Touching or holding shungite can also feel similar to holding cleaned zeolite. Shungite pendants are sold on Amazon. Shungite should not be drunk unless it has been properly washed of heavy metals.</p>
+<div class="blk native-blk" id="b151" data-b="151"><span class="native">[post card: DMSO]</span> <a href="http://dmso.u-dont-exist.com/" target="_blank" rel="noopener noreferrer">open</a></div>
+<p class="blk" id="b152" data-b="152"><span class="pn">P1</span>DMSO is another stabilizer I use when a trip becomes too intense and I don&#x27;t want to abort it. It is also my primary emergency neuroprotectant when the problem feels like acute neurological damage, altered consciousness, loss of bodily control, or severe drug-related brain dysfunction.</p>
+<p class="blk" id="b153" data-b="153"><span class="pn">P2</span>It overlaps with aged ozonated-charcoal water, but the two don&#x27;t always work equally. Sometimes DMSO works better; sometimes the water does. I don&#x27;t yet know why. In my experience there is generally no harm in taking both or mixing them. Ozonated-charcoal water has what I consider a perfect safety profile; DMSO is a close second in my experience.</p>
+<p class="blk" id="b154" data-b="154"><span class="pn">P3</span>Side effects:</p>
+<div class="blk li" id="b155" data-b="155"><span class="mk">•</span><span class="lt">Astringency: 100% DMSO usually irritates skin on the upper half of the body. When it itches, dilute it with water or real aloe juice without added chemicals. Leaving 100% DMSO on the skin can crenate it, and the skin may take a week to look plump again. DMSO can also burn dry mouth tissue, so the mouth should be moist first.</span></div>
+<div class="blk li" id="b156" data-b="156"><span class="pn">P4</span><span class="mk">•</span><span class="lt">Nausea: when drinking DMSO, dilute it in water, juice, or milk and sip gradually. Sensitivity varies.</span></div>
+<div class="blk li" id="b157" data-b="157"><span class="pn">P5</span><span class="mk">•</span><span class="lt">Reduced sleep: DMSO reduces how long I sleep when I take too much, take it too late, or use it over too many consecutive days. It builds up past a threshold that seems to differ between people. <a href="https://www.sciencedirect.com/science/article/abs/pii/S0378427405000810" target="_blank" rel="noopener noreferrer">In rats, higher doses made sleep lighter</a>. Some people sleep better with DMSO because it reduces whatever symptom had been keeping them awake.</span></div>
+<div class="blk li" id="b158" data-b="158"><span class="pn">P6</span><span class="mk">•</span><span class="lt">Body odor: above a certain dose you may smell like sulfur. I don&#x27;t smell when I put it into milk.</span></div>
+<p class="blk" id="b159" data-b="159"><span class="pn">P7</span>Interactions:</p>
+<div class="blk li" id="b160" data-b="160"><span class="mk">•</span><span class="lt">Don&#x27;t put it on dirty skin; it can carry chemicals inward.</span></div>
+<div class="blk li" id="b161" data-b="161"><span class="pn">P8</span><span class="mk">•</span><span class="lt">Don&#x27;t take it with drugs that should not absorb rapidly: DMSO can strengthen other medicines taken with it. With harmalas, don&#x27;t put the harmala in the DMSO or take them at exactly the same time; taking them a bit apart is totally fine, and the point is to take DMSO if you&#x27;ve already absorbed the harmalas and the aya is too crazy.</span></div>
+<div class="blk li" id="b162" data-b="162"><span class="pn">P9</span><span class="mk">•</span><span class="lt">Don&#x27;t combine it with cholinergic drugs because DMSO is also cholinergic, although I haven&#x27;t found anecdotes of this causing a real problem.</span></div>
+<p class="blk" id="b163" data-b="163"><span class="pn">P10</span>Contraindications:</p>
+<div class="blk li" id="b164" data-b="164"><span class="mk">•</span><span class="lt">DMSO has produced both anticonvulsant and proconvulsant effects depending on dose and seizure model. I consider it a plausible adjunct for excitotoxic or temporal-lobe-type seizure activity, not a proven universal seizure rescue.</span></div>
+<div class="blk li" id="b165" data-b="165"><span class="pn">P11</span><span class="mk">•</span><span class="lt">It may worsen a cluster headache, even though rubbing DMSO--especially with magnesium chloride--on the head can alleviate tension headaches.</span></div>
+<div class="blk li" id="b166" data-b="166"><span class="pn">P12</span><span class="mk">•</span><span class="lt">It may release histamine in some people. Use caution with MCAS.</span></div>
+<p class="blk" id="b167" data-b="167"><span class="pn">P13</span>---</p>
+<h4 class="blk" id="b168" data-b="168">A Final Trip Killer</h4>
+<h5 class="blk" id="b169" data-b="169">Niacin (a Form of Vitamin B3)</h5>
+<p class="blk" id="b170" data-b="170"><span class="pn">P1</span>Flushing niacin has effectively aborted trips for me and friends, although I dislike it compared with beach morning glory.</p>
+<p class="blk" id="b171" data-b="171"><span class="pn">P2</span>I include it because most people don&#x27;t have access to <em>Ipomoea pes-caprae</em>, although I supply it. A vitamin is not automatically harmless. Niacin has been used for decades by orthomolecular doctors for psychotic conditions and seems to act both like a natural benzodiazepine and an antipsychotic. The clinical literature is discussed in <em>Niacin: The Real Story</em> by Abram Hoffer, M.D.</p>
+<p class="blk" id="b172" data-b="172"><span class="pn">P3</span>Side effects:</p>
+<div class="blk li" id="b173" data-b="173"><span class="mk">•</span><span class="lt">Niacin flush: itchy sunburn-like heat. This is normal, although some people find it intolerable and others enjoy it.</span></div>
+<div class="blk li" id="b174" data-b="174"><span class="pn">P4</span><span class="mk">•</span><span class="lt">Heartburn in sensitive stomachs or after too much at once.</span></div>
+<div class="blk li" id="b175" data-b="175"><span class="pn">P5</span><span class="mk">•</span><span class="lt">Drowsiness, usually with terrible sleep quality.</span></div>
+<div class="blk li" id="b176" data-b="176"><span class="pn">P6</span><span class="mk">•</span><span class="lt">Higher or repeated doses can create real risk, especially with liver problems, alcohol, medications, or sensitive physiology.</span></div>
+<p class="blk" id="b177" data-b="177"><span class="pn">P7</span>Other forms of vitamin B3 seem less reliable for relaxation. Niacinamide sometimes relaxes people and sometimes creates hyperfocus, depending on their state. Avoid sustained-release niacin and the useless non-flush hexanicotinate form.</p>
+<p class="blk" id="b178" data-b="178"><span class="pn">P8</span>---</p>
+<h3 class="blk" id="b179" data-b="179">Some Remedies Require More Caution</h3>
+<p class="blk" id="b180" data-b="180"><span class="pn">P1</span>Useful substances can still be poor rescue tools when somebody is already destabilized.</p>
+<p class="blk" id="b181" data-b="181"><span class="pn">P2</span><a href="http://humicacid.u-dont-exist.com/" target="_blank" rel="noopener noreferrer">Humic acid</a> <em>when eaten</em>, can produce a hyperintelligent state for me. From the outside that may look manic, and it could destabilize somebody prone to mania or without meditation training. I wouldn&#x27;t use it casually during a bad trip. Smelling it does not produce that hyper intelligent state but does feel relaxing and very beneficial for brain health, so I&#x27;d start with that.</p>
+<p class="blk" id="b182" data-b="182"><span class="pn">P3</span><a href="http://cinnamon.u-dont-exist.com/" target="_blank" rel="noopener noreferrer">Cinnamon</a> can produce an intense &quot;brain surgery&quot; or &quot;brain scraping&quot; effect, especially the first time it combines with an ayahuasca-like state. That may be therapeutic in the right context, but it is not a casual rescue tool.</p>
+<p class="blk" id="b183" data-b="183"><span class="pn">P4</span>I would also be extremely careful with <em>Acacia confusa</em> eaten with <em>Mimosa hostilis</em>. For me, that combination produced hellishly intense psychosis-like and autism-like states before transforming into a week of extraordinary creativity and joy. The later benefit did not make the crisis recommendable.</p>
+<p class="blk" id="b184" data-b="184"><span class="pn">P5</span><a href="http://iboga.u-dont-exist.com/" target="_blank" rel="noopener noreferrer">Iboga</a>--especially male iboga--potentiates many drugs and can be dangerous. A low amount combined well for me; doubling it became dangerously intense. I include that only as a warning.</p>
+<p class="blk" id="b185" data-b="185"><span class="pn">P6</span>---</p>
+<p class="blk" id="b186" data-b="186"><span class="pn">P7</span>That finishes the rescue-chemistry side of the guide. Once the body is stable and those tools have done what they can, fear, grief, memory, certainty, and whatever else the altered mind has opened still need somebody to sit with them.</p>
+<div class="blk native-blk" id="b187" data-b="187"><span class="native">[image 4]</span> <a href="https://substack-post-media.s3.amazonaws.com/public/images/ce9cb88d-67d8-4e3f-8436-d3e2446de167_1122x1402.png" target="_blank" rel="noopener noreferrer">open</a></div>
+<p class="blk" id="b188" data-b="188"><span class="pn">P9</span>---</p>
+<h2 class="blk" id="b189" data-b="189">Shadow Work and Tripsitting Yourself or Others</h2>
+<div class="blk native-blk" id="b190" data-b="190"><span class="native">[image 5]</span> <a href="https://substack-post-media.s3.amazonaws.com/public/images/283c878b-0957-4893-a932-b6704c0e5442_1122x1402.png" target="_blank" rel="noopener noreferrer">open</a></div>
+<p class="blk" id="b191" data-b="191"><span class="pn">P2</span><a href="https://www.youtube.com/watch?v=1aBjoARwlOY" target="_blank" rel="noopener noreferrer">YouTube video 1aBjoARwlOY</a></p>
+<p class="blk" id="b192" data-b="192"><span class="pn">P3</span>(<a href="http://maps.u-dont-exist.com/" target="_blank" rel="noopener noreferrer">I don&#x27;t endorse MAPS as an organization</a>, but this is a good introductory video.)</p>
+<p class="blk" id="b193" data-b="193"><span class="pn">P4</span>Hello, Lovey Bunny! I hope you are presently well, and if not, I pray that you feel well soon!</p>
+<p class="blk" id="b194" data-b="194"><span class="pn">P5</span>This post collects my own experience and thinking, but I would be remiss not to point you toward the <a href="https://challengingpsychedelicexperiences.com/" target="_blank" rel="noopener noreferrer">Challenging Psychedelic Experiences Project</a>, which helps people understand the full risks and recover when they &quot;gamble and lose&quot; with psychedelics.</p>
+<h3 class="blk" id="b195" data-b="195">Psychological First Aid: The First Five Minutes</h3>
+<div class="blk native-blk" id="b196" data-b="196"><span class="native">[image 6]</span> <a href="https://substack-post-media.s3.amazonaws.com/public/images/944bef30-ca59-415b-a2e8-809a29ac2ba6_1122x1402.png" target="_blank" rel="noopener noreferrer">open</a></div>
+<p class="blk" id="b197" data-b="197"><span class="pn">P2</span>Anything that could let someone hurt themselves in the next five minutes takes priority, so get the car keys out of reach and turn the stove off, and move them away from roads and balconies, or pools of water for that matter. Letting them move around is fine, and pacing can help, but keep them from taking more of any substance. If they want to go confront somebody, that can wait. And if they want to leave, have someone go with them. Put any weapons away and keep the person away from crowds and strangers. If they want to post their big revelation about the universe, or message an ex, take the phone.</p>
+<p class="blk" id="b198" data-b="198"><span class="pn">P3</span>They&#x27;re feeling overwhelmed, so dim the lights, and clear out the extra people around them.</p>
+<p class="blk" id="b199" data-b="199"><span class="pn">P4</span>Sometimes it can be helpful to remind them where they are and what&#x27;s happening, since a trip can make them lose track of the fact that they took a substance which has temporary effects.</p>
+<p class="blk" id="b200" data-b="200"><span class="pn">P5</span>If a practice like meditation or fasting brought this on, have them stop it now, since doing more of it only makes this stronger. There&#x27;s no drug wearing off here, so it could be over soon or take a while.</p>
+<h4 class="blk" id="b201" data-b="201">Stillness or Movement?</h4>
+<p class="blk" id="b202" data-b="202"><span class="pn">P1</span>Test them rather than turning them into rival religions. Try one for two minutes and ask: <em>Does this make me safer and clearer, or more activated and impulsive?</em></p>
+<p class="blk" id="b203" data-b="203"><span class="pn">P2</span>When lying down feels like imprisonment, pace slowly in a contained space. When pacing begins to resemble escape, sit against a wall or lie under a blanket. The goal is to let the nervous system discharge without creating a new danger.</p>
+<p class="blk" id="b204" data-b="204"><span class="pn">P3</span>Parallel processing can help when lying still turns into immobile introspection. Let one part of attention stay with the body, fear, grief, or memory while another part completes a simple, safe task with a visible endpoint: sort ten objects, draw, fold five towels, or wash one cup. Finishing something small helps confirm that time is moving and ordinary reality is still here. Stop if the task increases agitation, speed, or risk.</p>
+<p class="blk" id="b205" data-b="205"><span class="pn">P4</span>A useful order is room → body → human → time → meaning. Most people begin with meaning because the experience feels cosmic. When the nervous system is on fire, love becomes practical first.</p>
+<h3 class="blk" id="b206" data-b="206">Get One Human Anchor</h3>
+<p class="blk" id="b207" data-b="207"><span class="pn">P1</span>Many bad trips get worse because somebody is alone with a frightened or over-certain mind. Other times it&#x27;s the opposite: too many people crowd in and start advising, arguing, spiritualizing, or panicking.</p>
+<p class="blk" id="b208" data-b="208"><span class="pn">P2</span>So one calm person should be the anchor and take the lead. One person can only handle so much, though. When fatigue or logistics get to be too much, or keeping them safe does, or there&#x27;s a risk of violence or self-harm, bring in one more calm adult or a crisis professional to back them up.</p>
+<div class="blk native-blk" id="b209" data-b="209"><span class="native">[image 7]</span> <a href="https://substack-post-media.s3.amazonaws.com/public/images/2b8889eb-85e8-466f-99af-f71e48caeb61_1122x1402.png" target="_blank" rel="noopener noreferrer">open</a></div>
+<p class="blk" id="b210" data-b="210"><span class="pn">P4</span>Script for the person in the altered state:</p>
+<blockquote class="blk" id="b211" data-b="211"><span class="pn">P5</span>I&#x27;m in an intense psychedelic or altered state and I need grounding. I don&#x27;t need you to solve my life. Please stay with me, speak slowly, remind me where I am, and help me not make any big decisions until tomorrow.</blockquote>
+<p class="blk" id="b212" data-b="212"><span class="pn">P6</span>Script for the sitter or friend:</p>
+<blockquote class="blk" id="b213" data-b="213"><span class="pn">P7</span>I&#x27;m here. You&#x27;re not alone. This is a wave. We don&#x27;t have to solve your whole life right now. Let&#x27;s make your body safe, keep things simple, and stay together.</blockquote>
+<h4 class="blk" id="b214" data-b="214">Who to Contact, and When</h4>
+<p class="blk" id="b215" data-b="215"><span class="pn">P1</span>Save the relevant links and local numbers <em>before</em> you need them. Their hours and services change, and some only work in one country.</p>
+<p class="blk" id="b216" data-b="216"><span class="pn">P2</span>During or soon after a psychedelic experience</p>
+<div class="blk li" id="b217" data-b="217"><span class="pn">P3</span><span class="mk">•</span><span class="lt"><a href="https://firesideproject.org/support-line" target="_blank" rel="noopener noreferrer">Fireside Project</a>: U.S.-only according to its current FAQ; phone or text psychedelic peer support at 623-473-7433, daily from 11 a.m. to 11 p.m. Pacific Time.</span></div>
+<div class="blk li" id="b218" data-b="218"><span class="pn">P4</span><span class="mk">•</span><span class="lt"><a href="https://tripsit.me/webchat" target="_blank" rel="noopener noreferrer">TripSit live chat</a>: a harm-reduction chat you open in your browser, for people using drugs and for whoever&#x27;s looking after them.</span></div>
+<p class="blk" id="b219" data-b="219"><span class="pn">P5</span>Global crisis and emotional-support directories</p>
+<div class="blk li" id="b220" data-b="220"><span class="pn">P6</span><span class="mk">•</span><span class="lt"><a href="https://findahelpline.com/" target="_blank" rel="noopener noreferrer">Find A Helpline</a>: a global directory of free helplines, many offering phone, text, online chat, or WhatsApp. It is not psychedelic-specific, but it can put a human on the other end quickly.</span></div>
+<p class="blk" id="b221" data-b="221"><span class="pn">P7</span>U.S. crisis chat and text</p>
+<div class="blk li" id="b222" data-b="222"><span class="pn">P8</span><span class="mk">•</span><span class="lt"><a href="https://988lifeline.org/" target="_blank" rel="noopener noreferrer">988 Suicide &amp; Crisis Lifeline</a>: U.S. call, text, and chat for suicidal or mental-health crises.</span></div>
+<div class="blk li" id="b223" data-b="223"><span class="pn">P9</span><span class="mk">•</span><span class="lt"><a href="https://www.crisistextline.org/" target="_blank" rel="noopener noreferrer">Crisis Text Line</a>: U.S. text, chat, and WhatsApp support, with partner text lines listed for Canada, the UK, and Ireland.</span></div>
+<p class="blk" id="b224" data-b="224"><span class="pn">P10</span>Integration and post-experience support</p>
+<div class="blk li" id="b225" data-b="225"><span class="pn">P11</span><span class="mk">•</span><span class="lt"><a href="https://www.iceers.org/en/support-and-integration/" target="_blank" rel="noopener noreferrer">ICEERS Support Center</a>: up to five free online integration sessions for challenging experiences.</span></div>
+<div class="blk li" id="b226" data-b="226"><span class="pn">P12</span><span class="mk">•</span><span class="lt"><a href="https://challengingpsychedelicexperiences.com/online-support-group/" target="_blank" rel="noopener noreferrer">CPEP online peer group</a>: a free confidential monthly group for post-psychedelic difficulties.</span></div>
+<div class="blk li" id="b227" data-b="227"><span class="pn">P13</span><span class="mk">•</span><span class="lt"><a href="https://www.cheetahhouse.org/cheetah-house-resources" target="_blank" rel="noopener noreferrer">Cheetah House</a>: resources, consultations, and support groups for meditation-related difficulties, including chat-based peer support.</span></div>
+<h4 class="blk" id="b228" data-b="228">Alone at 3 a.m.</h4>
+<p class="blk" id="b229" data-b="229"><span class="pn">P1</span>The <a href="https://ibogaqueen.com/1625-2/" target="_blank" rel="noopener noreferrer">triage app</a> has the stripped-down 3 a.m. plan. Once the lamp is on, the keys are away, and &quot;No big actions until morning&quot; is visible, use the phone only to reach a calm person or support service.</p>
+<p class="blk" id="b230" data-b="230"><span class="pn">P2</span>Send the human-anchor script.</p>
+<p class="blk" id="b231" data-b="231"><span class="pn">P3</span>When the body still needs movement, keep it contained and boring: brush your teeth, stretch gently, take a calm shower, or do a few slow wall push-ups. Then protect sleep.</p>
+<h3 class="blk" id="b232" data-b="232">For the Person Helping: Calm Anchor, Not Guru</h3>
+<p class="blk" id="b233" data-b="233"><span class="pn">P1</span><mark class="hl t-repeat" data-s="HELPER-OPEN-CUT">A good sitter is not there to win a philosophy debate, perform a rescue fantasy, impose an interpretation, or demonstrate spiritual advancement.</mark> The Zendo Project, a harm-reduction group that offers peer support at festivals and other events to people having a hard time in an altered state, sums up its approach in four principles: creating a safe space, sitting with the person rather than guiding them, talking them through it rather than down from it, and remembering that difficult isn&#x27;t necessarily bad.</p>
+<section class="card t-repeat" id="c-HELPER-OPEN-CUT" data-id="HELPER-OPEN-CUT" data-type="repeat" data-advice="approve" data-block="233">
+<div class="card-top"><button type="button" class="chip t-repeat" data-filter-type="repeat" title="a point the guide already makes elsewhere: one copy goes, the other stays">Said twice</button><span class="cid">HELPER-OPEN-CUT</span><span class="ctitle">&quot;A good sitter is not there to ...&quot; said once</span><span class="pill" aria-live="polite">Not approved yet</span><button type="button" class="link-btn fold" aria-expanded="true">Fold</button></div>
+<div class="card-body">
+<div class="changes"><div class="chg"><div class="chg-k">For the Person Helping: Calm Anchor, Not Guru, P1 now</div><div class="dif side now"><del>A good sitter is not there to win a philosophy debate, perform a rescue fantasy, impose an interpretation, or demonstrate spiritual advancement. </del>The Zendo Project, a harm-reduction group that offers peer support at festivals and other events to people having a hard time in an altered state, sums up its approach in four principles: creating a safe space, sitting with the person rather than guiding them, talking them through it rather than down from it, and remembering that difficult isn&#x27;t necessarily bad.</div><div class="chg-k">How it would read</div><div class="dif side after">The Zendo Project, a harm-reduction group that offers peer support at festivals and other events to people having a hard time in an altered state, sums up its approach in four principles: creating a safe space, sitting with the person rather than guiding them, talking them through it rather than down from it, and remembering that difficult isn&#x27;t necessarily bad.</div></div></div>
+<div class="info"><div class="row"><span class="lab">What changes</span> <span>The first sentence goes, so the section opens on the Zendo Project&#x27;s four principles.</span></div><div class="row"><span class="lab">Why</span> <span>Your anchor line and don&#x27;ts under Don&#x27;t now say three of its four points: &quot;win a philosophy debate&quot; is your &quot;don&#x27;t try to win an argument with their visions ...&quot;, &quot;impose an interpretation&quot; is your &quot;While many interpretations are possible ...&quot; and &quot;Don&#x27;t force ... an insight on them&quot;, and &quot;demonstrate spiritual advancement&quot; is your &quot;not the witch doctor guru who knows magic spells&quot;.</span></div><div class="row"><span class="lab">What stays</span> <span>The Zendo sentence after it, and your anchor line and don&#x27;ts.</span></div><div class="row"><span class="lab">Why I&#x27;m asking</span> <span>Downside: its fourth point, &quot;perform a rescue fantasy&quot; (the helper casting themselves as the hero who saves the person), is said nowhere else in the guide</span></div><div class="row"><span class="lab">You&#x27;re deciding</span> <span>Approve cuts the sentence; Reject keeps it as the section&#x27;s first line.</span></div><div class="row advice"><span class="lab">My advice</span> <span>Approve: it&#x27;s the opening your new Don&#x27;t section repeats.</span></div><div class="row src"><span class="lab">Found by</span> <span>a fresh reader&#x27;s read of what this paragraph&#x27;s reader needs, after your round-24 versions went in</span></div></div>
+<div class="decide" role="group" aria-label="Decision on HELPER-OPEN-CUT"><button type="button" class="dec approve" data-dec="approved">Approve: cut it</button><button type="button" class="dec reject" data-dec="rejected">Reject: keep it as it is</button><button type="button" class="dec revise" data-dec="revise">Revise</button><button type="button" class="dec undo" data-dec="pending">Not approved yet</button></div>
+<label class="yours-wrap" hidden><span class="lab">Your version</span><textarea class="yours" rows="4" placeholder="Your wording, or what to change"></textarea></label>
+<label class="note-wrap"><span class="lab">Your comment</span><textarea class="note" rows="2" placeholder="A note on this suggestion (optional)"></textarea></label>
+<div class="saved-line"></div>
+</div></section>
+<p class="blk" id="b234" data-b="234"><span class="pn">P2</span>Crying, grieving, remembering, or touching a genuine wound calls for loving awareness. Interrogation, analysis every thirty seconds, and &quot;bro, you&#x27;re purging ancestral karma&quot; while somebody white-knuckles the carpet are generally less helpful.</p>
+<p class="blk" id="b235" data-b="235"><span class="pn">P3</span>Stay present. If it helps, you can say to yourself: <em>This feeling is allowed to move through. I don&#x27;t have to become it. I can love the part of me that feels it.</em> Or simply: <em>Can I send love to the one who&#x27;s suffering?</em></p>
+<h4 class="blk" id="b236" data-b="236">Do</h4>
+<div class="blk li" id="b237" data-b="237"><span class="pn">P1</span><span class="mk">•</span><span class="lt">Ask simple questions: &quot;Would less light help?&quot; &quot;Music or quiet?&quot; &quot;Closer or farther away?&quot; &quot;Water?&quot; (in small sips) &quot;Need the bathroom?&quot;</span></div>
+<div class="blk li" id="b238" data-b="238"><span class="pn">P2</span><span class="mk">•</span><span class="lt">Reflect without arguing: &quot;That sounds terrifying.&quot; &quot;I&#x27;m with you.&quot; &quot;Let&#x27;s breathe together.&quot;</span></div>
+<div class="blk li" id="b239" data-b="239"><span class="pn">P3</span><span class="mk">•</span><span class="lt">Offer choices instead of commands.</span></div>
+<div class="blk li" id="b240" data-b="240"><span class="pn">P4</span><span class="mk">•</span><span class="lt">Keep the room quiet, private, warm, and physically safe, and move anyone they&#x27;re wary of somewhere else.</span></div>
+<div class="blk li" id="b241" data-b="241"><span class="pn">P5</span><span class="mk">•</span><span class="lt">Call for help early when safety is slipping.</span></div>
+<div class="blk li" id="b242" data-b="242"><span class="pn">P6</span><span class="mk">•</span><span class="lt">Translate metaphysics into shared safety values: &quot;This feels sacred and huge. Sacred power protects life tonight.&quot;</span></div>
+<div class="blk li" id="b243" data-b="243"><span class="pn">P7</span><span class="mk">•</span><span class="lt">Set behavioral boundaries without humiliation: &quot;I won&#x27;t help anybody hurt themselves or another person. We are keeping every body safe.&quot;</span></div>
+<h4 class="blk" id="b244" data-b="244">Don&#x27;t</h4>
+<p class="blk" id="b245" data-b="245"><span class="pn">P1</span>As the person helping, you want to play the role of the calm, caring anchor to the safe present moment, not the witch doctor guru who knows magic spells.</p>
+<p class="blk" id="b246" data-b="246"><span class="pn">P2</span>So don&#x27;t try to win an argument with their visions, the entities they spoke to, the memories that surfaced, or whatever cosmic conclusions they reached ten minutes ago... But don&#x27;t let silence validate anything harmful either, like a plan that ends with somebody getting hurt. If they&#x27;re being attacked by a demon, let your care help them connect to love, which cancels fear. Hopefully they&#x27;ve been practicing that prior. Don&#x27;t encourage them to believe they are crazy, impure, weak or broken. While many interpretations are possible, a therapeutic one would not be that they&#x27;re being punished or failing the medicine. Don&#x27;t force eye contact, touch, music, prayer, chanting, a confession or an insight on them. After they&#x27;ve slept, they may wish to talk more about their experience.</p>
+<h4 class="blk" id="b247" data-b="247">When the Content Turns Toward Harm</h4>
+<p class="blk" id="b248" data-b="248"><span class="pn">P1</span>When somebody says, &quot;I am God, so I can kill,&quot; leading with &quot;No you&#x27;re not&quot; or &quot;That&#x27;s delusional&quot; can turn the encounter into a status fight. Nodding along as though harm is spiritually neutral is also unacceptable. Treat the statement as a safety signal and build a bridge back toward non-harm.</p>
+<p class="blk" id="b249" data-b="249"><span class="pn">P2</span>Non-combative philosophical grounding:</p>
+<blockquote class="blk" id="b250" data-b="250"><span class="pn">P3</span>I hear how vast and certain this feels. Many traditions say God is in everyone. That makes every body sacred, not disposable. Peace is the godly move tonight. No proof is needed. We protect life and sleep first.</blockquote>
+<p class="blk" id="b251" data-b="251"><span class="pn">P4</span>Other useful lines: &quot;Maybe you are touching something divine. Divine doesn&#x27;t need a violent test.&quot; &quot;Tonight the commandment is no harm, no proof, no mission, sleep first.&quot;</p>
+<p class="blk" id="b252" data-b="252"><span class="pn">P5</span>Redirect within the person&#x27;s value-world toward peace and protection, increase containment, and bring in crisis support as early and as non-coercively as the situation allows.</p>
+<p class="blk" id="b253" data-b="253"><span class="pn">P6</span>When talk of harm continues, shift from philosophy to safety. Create distance from potential targets and keep your own exit. Don&#x27;t block, crowd, threaten, mock, or physically wrestle away a weapon. Quietly remove means only when that can be done without confrontation or turning yourself into the target.</p>
+<p class="blk" id="b254" data-b="254"><span class="pn">P7</span>Call crisis or emergency services for a specific target, available means, movement toward action, escalating agitation, a weapon, violence underway, or a situation you can&#x27;t contain.</p>
+<p class="blk" id="b255" data-b="255"><span class="pn">P8</span>Be brief and specific with emergency services: &quot;Someone is in an altered-state or mental-health crisis, has threatened to harm others, may have access to [means if known], and needs a medical or mental-health crisis response with de-escalation support. Please send crisis-trained responders or EMS if available.&quot;</p>
+<h3 class="blk" id="b256" data-b="256">Grounding Menu: Choose One or Two Things</h3>
+<p class="blk" id="b257" data-b="257"><span class="pn">P1</span>Choose one or two options rather than all of them. Twelve simultaneous techniques can become another form of panic.</p>
+<div class="blk native-blk" id="b258" data-b="258"><span class="native">[image 8]</span> <a href="https://substack-post-media.s3.amazonaws.com/public/images/296952b0-1468-44da-9878-093d82942785_1122x1402.png" target="_blank" rel="noopener noreferrer">open</a></div>
+<p class="blk" id="b259" data-b="259"><span class="pn">P3</span>Body</p>
+<div class="blk li" id="b260" data-b="260"><span class="pn">P4</span><span class="mk">•</span><span class="lt">Feel both feet against the floor.</span></div>
+<div class="blk li" id="b261" data-b="261"><span class="pn">P5</span><span class="mk">•</span><span class="lt">Put one hand on the heart and one on the belly or solar plexus.</span></div>
+<div class="blk li" id="b262" data-b="262"><span class="pn">P6</span><span class="mk">•</span><span class="lt">Hold something with weight or texture.</span></div>
+<div class="blk li" id="b263" data-b="263"><span class="pn">P7</span><span class="mk">•</span><span class="lt">Slowly unclench the jaw, hands, belly, and shoulders.</span></div>
+<p class="blk" id="b264" data-b="264"><span class="pn">P8</span>A familiar object</p>
+<div class="blk li" id="b265" data-b="265"><span class="pn">P9</span><span class="mk">•</span><span class="lt">Choose it ahead of time, while calm and regulated: a childhood toy, stuffed animal, note, photograph, blanket, stone, or another object that represents your inner Nurturer or Protector--the adult part of you that offers care or safety.</span></div>
+<div class="blk li" id="b266" data-b="266"><span class="pn">P10</span><span class="mk">•</span><span class="lt">During a difficult state, let it remind you what you already decided: &quot;I&#x27;m here. I protect this body. No big decisions tonight.&quot;</span></div>
+<div class="blk li" id="b267" data-b="267"><span class="pn">P11</span><span class="mk">•</span><span class="lt">Use it as a cue, not an oracle. It does not issue commands or interpret the trip.</span></div>
+<div class="blk li" id="b268" data-b="268"><span class="pn">P12</span><span class="mk">•</span><span class="lt">Pair the comfort with one adult action: contact the grounded person, move away from danger, drink some water when safe, or prepare for sleep.</span></div>
+<div class="blk li" id="b269" data-b="269"><span class="pn">P13</span><span class="mk">•</span><span class="lt">A calm pet can offer the same quiet company when the animal is comfortable and the situation is safe.</span></div>
+<p class="blk" id="b270" data-b="270"><span class="pn">P14</span>Breath</p>
+<div class="blk li" id="b271" data-b="271"><span class="pn">P15</span><span class="mk">•</span><span class="lt">Exhale longer than you inhale for ten breaths.</span></div>
+<div class="blk li" id="b272" data-b="272"><span class="pn">P16</span><span class="mk">•</span><span class="lt">Try inhaling for four and exhaling for six, without strain.</span></div>
+<div class="blk li" id="b273" data-b="273"><span class="pn">P17</span><span class="mk">•</span><span class="lt">Or breathe softly and slowly through the nose, taking in slightly less air than desired until there is faint air hunger.</span></div>
+<div class="blk li" id="b274" data-b="274"><span class="pn">P18</span><span class="mk">•</span><span class="lt">Never force breath-holds while intoxicated or panicked. Stop for increased fear, dizziness, chest pain, or medical concern.</span></div>
+<div class="blk li" id="b275" data-b="275"><span class="pn">P19</span><span class="mk">•</span><span class="lt">Whisper: &quot;This is a wave.&quot;</span></div>
+<p class="blk" id="b276" data-b="276"><span class="pn">P20</span>Music</p>
+<div class="blk li" id="b277" data-b="277"><span class="pn">P21</span><span class="mk">•</span><span class="lt">Silence is a real option.</span></div>
+<div class="blk li" id="b278" data-b="278"><span class="pn">P22</span><span class="mk">•</span><span class="lt">Use familiar music when possible. I wouldn&#x27;t force a predesigned emotional arc or an unfamiliar therapeutic playlist on somebody who dislikes it.</span></div>
+<div class="blk li" id="b279" data-b="279"><span class="pn">P23</span><span class="mk">•</span><span class="lt">Try a steady drum rhythm for stabilization or grounding; try airy harp-like or meditative music when the person wants something gentler and spiritually uplifting.</span></div>
+<div class="blk li" id="b280" data-b="280"><span class="pn">P24</span><span class="mk">•</span><span class="lt">Soothing meditative music, like that of Chantress Seba and others on my <a href="http://music.u-dont-exist.com/" target="_blank" rel="noopener noreferrer">music page</a>, can be very helpful.</span></div>
+<div class="blk li" id="b281" data-b="281"><span class="pn">P25</span><span class="mk">•</span><span class="lt">Keep the stop or change control immediate. Music should remain an option, rather than become another authority in the room.</span></div>
+<p class="blk" id="b282" data-b="282"><span class="pn">P26</span>Room</p>
+<div class="blk li" id="b283" data-b="283"><span class="pn">P27</span><span class="mk">•</span><span class="lt">Name five ordinary objects.</span></div>
+<div class="blk li" id="b284" data-b="284"><span class="pn">P28</span><span class="mk">•</span><span class="lt">Look at one stable object and describe it plainly.</span></div>
+<div class="blk li" id="b285" data-b="285"><span class="pn">P29</span><span class="mk">•</span><span class="lt">Say: &quot;This is a wall. This is a blanket. This is my hand.&quot;</span></div>
+<p class="blk" id="b286" data-b="286"><span class="pn">P30</span>Human</p>
+<div class="blk li" id="b287" data-b="287"><span class="pn">P31</span><span class="mk">•</span><span class="lt">Ask one calm person to stay as the lead anchor.</span></div>
+<div class="blk li" id="b288" data-b="288"><span class="pn">P32</span><span class="mk">•</span><span class="lt">Let them remind you where you are.</span></div>
+<div class="blk li" id="b289" data-b="289"><span class="pn">P33</span><span class="mk">•</span><span class="lt">Don&#x27;t process with the most reactive person in your life.</span></div>
+<p class="blk" id="b290" data-b="290"><span class="pn">P34</span>Time</p>
+<div class="blk li" id="b291" data-b="291"><span class="pn">P35</span><span class="mk">•</span><span class="lt">Say the date, place, and approximate time.</span></div>
+<div class="blk li" id="b292" data-b="292"><span class="pn">P36</span><span class="mk">•</span><span class="lt">Remember that these states usually rise, peak, and change.</span></div>
+<div class="blk li" id="b293" data-b="293"><span class="pn">P37</span><span class="mk">•</span><span class="lt">Put every big decision into tomorrow&#x27;s notebook.</span></div>
+<p class="blk" id="b294" data-b="294"><span class="pn">P38</span>Ordinary world</p>
+<div class="blk li" id="b295" data-b="295"><span class="pn">P39</span><span class="mk">•</span><span class="lt">Eat simple healthy food, such as fruit, when you can.</span></div>
+<div class="blk li" id="b296" data-b="296"><span class="pn">P40</span><span class="mk">•</span><span class="lt">Walk slowly with a clear-headed person in a safe environment.</span></div>
+<div class="blk li" id="b297" data-b="297"><span class="pn">P41</span><span class="mk">•</span><span class="lt">Go outside only away from roads, heights, crowds, and water.</span></div>
+<div class="blk li" id="b298" data-b="298"><span class="pn">P42</span><span class="mk">•</span><span class="lt">Avoid strenuous exercise with overheating, chest pain, faintness, severe confusion, stimulant use, an unknown mixture, or any medical concern.</span></div>
+<p class="blk" id="b299" data-b="299"><span class="pn">P43</span>Movement evidence note: the best-supported general advice is to create a safe, low-stimulation environment and choose responses that reduce danger. A <a href="https://www.nature.com/articles/s41598-024-79931-w" target="_blank" rel="noopener noreferrer">2024 study</a> of strategies for resolving challenging psychedelic experiences identified physical movement, intentional breathing, sensory engagement, sleep-seeking, and social support among the ways people navigate difficulty.</p>
+<p class="blk" id="b300" data-b="300"><span class="pn">P44</span>Buteyko evidence note: published evidence for Buteyko-style breathing mainly concerns asthma and breathing retraining, rather than psychedelic or spiritual-practice crisis. I include it because panic-related over-breathing can lower CO&lt;sub&gt;2&lt;/sub&gt; and directly cause tingling, lightheadedness, confusion, and unreality feelings (<a href="https://www.hopkinsmedicine.org/health/conditions-and-diseases/hyperventilation" target="_blank" rel="noopener noreferrer">Hopkins Medicine</a>). Use the simpler longer-exhale option first. Never strain or turn breathing into another achievement.</p>
+<h3 class="blk" id="b301" data-b="301">No Rash Actions: Visions Are Not Commands</h3>
+<p class="blk" id="b302" data-b="302"><span class="pn">P1</span>An intense altered state can make everything feel final, cosmic, and urgent, and it might feel like you have to act right now. But more likely the urgency is just part of the state, and acting on it isn&#x27;t safe.</p>
+<p class="blk" id="b303" data-b="303"><span class="pn">P2</span>Put yourself on a 24–72 hour action lock.</p>
+<p class="blk" id="b304" data-b="304"><span class="pn">P3</span>Until you have slept and eaten, maybe don&#x27;t drive, travel, break up, make up, quit your job, confess everything, confront or accuse that list of people you&#x27;ve been meaning to... Think twice before sending whatever ridiculous message you&#x27;re planning on to Judge Amos, posting that revelation you&#x27;ll forget tomorrow, giving away your BMW, buying a new BMW. After you decide that you are permanently enlightened or permanently damaged, and you explained the whole universe to your parents in 42 seconds, you can still change your mind the next day.</p>
+<p class="blk" id="b305" data-b="305"><span class="pn">P4</span>Write it down, get some sleep, and go back over it with one grounded person once your head is clear.</p>
+<p class="blk" id="b306" data-b="306"><span class="pn">P5</span>Treat trip content first as experience-content, rather than fact-content. Because you saw it, it might feel like you have to act on it, and because it felt cosmic, obeying it might seem wise. But more likely you had an experience, and it can wait until the state has passed.</p>
+<p class="blk" id="b307" data-b="307"><span class="pn">P6</span>No revelation makes murder, assault, coercion, sexual boundary-crossing, reckless driving, or self-harm safe tonight. Anything requiring violated consent or harm belongs in the notebook until you can review it with a clear head.</p>
+<div class="blk native-blk" id="b308" data-b="308"><span class="native">[image 9]</span> <a href="https://substack-post-media.s3.amazonaws.com/public/images/82a089c6-bd6f-4fa8-86ec-a359a5905538_1122x1402.png" target="_blank" rel="noopener noreferrer">open</a></div>
+<h3 class="blk" id="b309" data-b="309">When the Trip Feels Amazing: Euphoric Certainty</h3>
+<p class="blk" id="b310" data-b="310"><span class="pn">P1</span>The action lock matters especially when the state feels blissful: <em>I am God. I am chosen. Everybody must hear this tonight. I finally understand everything.</em> Bliss is not proof of safety, and it often makes grounding less welcome.</p>
+<p class="blk" id="b311" data-b="311"><span class="pn">P2</span>Two questions while glowing:</p>
+<div class="blk li" id="b312" data-b="312"><span class="mk">1.</span><span class="lt">Have I slept? Sleep comes before mission.</span></div>
+<div class="blk li" id="b313" data-b="313"><span class="pn">P3</span><span class="mk">2.</span><span class="lt">Has this happened before, and how did it end? A recurring pattern with lost sleep, racing thoughts, pressured speech, or everyone saying you are not yourself needs grounded support before action.</span></div>
+<p class="blk" id="b314" data-b="314"><span class="pn">P4</span>The revelation will still exist after breakfast. If it is true, it survives sleep. If it cannot survive one night of rest, it was an emergency impulse wearing angel wings.</p>
+<h3 class="blk" id="b315" data-b="315">(Re)defining &quot;Bad Trip&quot;</h3>
+<p class="blk" id="b316" data-b="316"><span class="pn">P1</span>A bad trip is one of those terms thrown around very loosely in the psychedelic space. It can refer to various things which may be intertwined.</p>
+<p class="blk" id="b317" data-b="317"><span class="pn">P2</span>When too much hits you at once, your nervous system can become flooded, and nothing makes sense, even as the brain still tries to derive meanings that might create unhelpful feedback loops. Underlying those interpretations are factors like the dose of what drug(s) you took and how your body handles them, or how hard you pushed a practice. Old painful memories could have been triggered, or you may have gone in with a fearful or unloving mindset, or the setting or people around you could have fed into it. Be kind to yourself or to whoever&#x27;s going through it, because blaming anyone only makes it heavier.</p>
+<p class="blk" id="b318" data-b="318"><span class="pn">P3</span>Some say there&#x27;s no such thing as a bad trip, because it&#x27;s all a doorway to shadow work. But if you had no intention of doing shadow work, that explanation might have come too late. Other bad trips seem unrelated to shadow work, although any negative experience can lead into it. Samsara offers no shortage of difficult experiences to process. It still makes sense to reduce present-moment trauma so we can address what was already there.</p>
+<p class="blk" id="b319" data-b="319"><span class="pn">P4</span>Sometimes focusing on what we want makes the blockage visible:</p>
+<div class="blk native-blk" id="b320" data-b="320"><span class="native">[image 10]</span> <a href="https://substack-post-media.s3.amazonaws.com/public/images/39743f7e-c7cd-4db7-933c-aa35a381f5b5_911x1600.jpeg" target="_blank" rel="noopener noreferrer">open</a></div>
+<p class="blk" id="b321" data-b="321"><span class="pn">P6</span>A bad trip or destabilizing state may also come from drug interactions, sleep deprivation, cannabis, hunger, dehydration, sexual or social pressure, medical symptoms, psychosis-like symptoms, fasting, intense breathwork, meditation overload, or retreat pressure.</p>
+<p class="blk" id="b322" data-b="322"><span class="pn">P7</span>Every hard experience can feel like a profound lesson. But sometimes the lesson is just to lower the dose or stop the practice, get some sleep and something to eat, pick safer people, and admit that the room is bad.</p>
+<p class="blk" id="b323" data-b="323"><span class="pn">P8</span>Cognitive distortions from Cognitive Behavioral Therapy (CBT) can create or prolong the crisis:</p>
+<div class="blk li" id="b324" data-b="324"><span class="mk">•</span><span class="lt">Catastrophizing: &quot;This will never end.&quot;</span></div>
+<div class="blk li" id="b325" data-b="325"><span class="pn">P9</span><span class="mk">•</span><span class="lt">Emotional reasoning: &quot;It feels true, so it must be true.&quot;</span></div>
+<div class="blk li" id="b326" data-b="326"><span class="pn">P10</span><span class="mk">•</span><span class="lt">Mind reading: &quot;Everyone can see I am broken.&quot;</span></div>
+<div class="blk li" id="b327" data-b="327"><span class="pn">P11</span><span class="mk">•</span><span class="lt">Fortune-telling: &quot;My life is ruined now.&quot;</span></div>
+<div class="blk li" id="b328" data-b="328"><span class="pn">P12</span><span class="mk">•</span><span class="lt">All-or-nothing thinking: &quot;Either I am enlightened or I am doomed.&quot;</span></div>
+<div class="blk li" id="b329" data-b="329"><span class="pn">P13</span><span class="mk">•</span><span class="lt">Personalization: &quot;This cosmic horror is specifically my fault.&quot;</span></div>
+<div class="blk li" id="b330" data-b="330"><span class="pn">P14</span><span class="mk">•</span><span class="lt">Spiritual bypassing: &quot;Because everything is love, I don&#x27;t need boundaries, doctors, sleep, or consequences.&quot;</span></div>
+<h3 class="blk" id="b331" data-b="331">Spiritual ≠ &quot;Getting Your Ass Kicked&quot;</h3>
+<p class="blk" id="b332" data-b="332"><span class="pn">P1</span>The triage above is meant to make trips useful. Some people believe they deserve suffering because of karma or self-hatred. Suffering by itself fixes nobody. Suffering that yields insight requires enough clarity of mind and heart to learn from it.</p>
+<p class="blk" id="b333" data-b="333"><span class="pn">P2</span>This is one side of the difference between <a href="http://goenka.u-dont-exist.com" target="_blank" rel="noopener noreferrer">spiritual bypassing</a> and <a href="http://nibbana.u-dont-exist.com" target="_blank" rel="noopener noreferrer">spiritual practice</a>:</p>
+<p class="blk" id="b334" data-b="334"><span class="pn">P3</span>Bypassing reaches for an ultimate view--&quot;we are all One,&quot; &quot;I don&#x27;t exist,&quot; &quot;this is all karma,&quot; &quot;everything is Love&quot;--while ignoring the person shaking in the corner.</p>
+<p class="blk" id="b335" data-b="335"><span class="pn">P4</span>Practice says love is here, so we make the room safer, call for help when needed, stop pretending, and hold the experience without becoming it.</p>
+<p class="blk" id="b336" data-b="336"><span class="pn">P5</span>That is tripsitting, shadow work, and the path becoming practical.</p>
+<h3 class="blk" id="b337" data-b="337">The Other Bypass: Feeling Good Forever</h3>
+<p class="blk" id="b338" data-b="338"><span class="pn">P1</span>A well-rounded trip should offer practical lessons and contact with suffering as well as freedom from suffering, lest we become &quot;so spiritually high that we are no earthly good.&quot; &quot;Life is full of suffering&quot; is Buddha&#x27;s First Noble Truth. Ignoring that side of life becomes dissociation or spiritual bypassing in the opposite direction, followed eventually by statements like &quot;Everything is Love, including violence.&quot;</p>
+<p class="blk" id="b339" data-b="339"><span class="pn">P2</span>Many people meditate or take psychedelics to feel good. I am definitely one of them, and Buddha also said meditation should generally feel good. My friend Eshwar, however, found that shadow work made up about 99% of his path to heart-chakra awakening.</p>
+<p class="blk" id="b340" data-b="340"><span class="pn">P3</span>Modern people carry so much trauma--and some people did even in Buddha&#x27;s time--that shadow work and inner-child reparenting may need to come first, even before authentic liberation from the identity illusion.</p>
+<p class="blk" id="b341" data-b="341"><span class="pn">P4</span>When shadow work is bypassed in meditation and therapy, it may appear in ordinary life without explaining itself. I encountered a lot of it in my first two marriages, to my bewilderment. I wish everybody could keep shadow work inside the safer rooms of meditation, therapy, journaling, prayer, and honest conversation.</p>
+<p class="blk" id="b342" data-b="342"><span class="pn">P5</span>Shadow work to me is neither BDSM nor &quot;feeding your demons.&quot; It means bringing loving awareness to the parts of the mind built in fear, pain, humiliation, rejection, and survival. <a href="http://innerchild.u-dont-exist.com" target="_blank" rel="noopener noreferrer">Inner-child reparenting </a>is central. Most negative mind-states aren&#x27;t some error in your philosophy, they&#x27;re just young parts of you that are still waiting for love and protection and permission, and for the explanation nobody ever gave them.</p>
+<p class="blk" id="b343" data-b="343"><span class="pn">P6</span>Begin with my <a href="http://innerchild.u-dont-exist.com" target="_blank" rel="noopener noreferrer">Inner Child Therapy guide</a> and app, and my <a href="http://hypnoisis.u-dont-exist.com" target="_blank" rel="noopener noreferrer">Self-Hypnosis guide</a> and app.</p>
+<h3 class="blk" id="b344" data-b="344">Hang up the phone, get off the Healing Treadmill</h3>
+<div class="blk native-blk" id="b345" data-b="345"><span class="native">[image 11]</span> <a href="https://substack-post-media.s3.amazonaws.com/public/images/ccdad771-dde3-4618-ba38-830eb35b4e59_1254x1254.png" target="_blank" rel="noopener noreferrer">open</a></div>
+<p class="blk" id="b346" data-b="346"><span class="pn">P2</span>If you use psychedelics (or MDMA) to achieve a goal like healing or spiritual liberation, you need to already be on the same path so that they aren&#x27;t radically changing your ordinary understanding of things. If the trip is so crazy that you can&#x27;t believe it a few days later, chances are, like me, you&#x27;ll end up taking that drug again and again to understand it.</p>
+<p class="blk" id="b347" data-b="347"><span class="pn">P3</span>With healthy drugs like <a href="http://loveyhuasca.info" target="_blank" rel="noopener noreferrer">Loveyhuasca</a>, which has literally saved my life on numerous occasions from unknown infections, there&#x27;s less of an argument for &quot;Hang up the phone&quot; as Alan Watts famously said you should do &quot;once you get the message.&quot; But what we shouldn&#x27;t be doing is feeling like we need to use these substances <em>because we can&#x27;t integrate them.</em></p>
+<p class="blk" id="b348" data-b="348"><span class="pn">P4</span><a href="https://www.youtube.com/watch?v=9yp0lvYKK6Q" target="_blank" rel="noopener noreferrer">YouTube video 9yp0lvYKK6Q</a></p>
+<p class="blk" id="b349" data-b="349"><span class="pn">P5</span>That happened to me at first when I started with ayahuasca. The ego deaths were so far beyond my ordinary understanding of reality that I dismissed them each time within a week. Then I felt a compulsion to have another ego death soon after. Once I learned to meditate into the experience (<a href="http://nibbana.u-dont-exist.com" target="_blank" rel="noopener noreferrer">and beyond</a>) without ayahuasca, that compulsion was gone. If I had learned about Buddhism and if I could have accepted that my view of reality was limited prior to ayahuasca, then probably just one or two ego deaths would have been enough inspiration for me.</p>
+<p class="blk" id="b350" data-b="350"><span class="pn">P6</span>With <a href="http://mdmaket.u-dont-exist.com" target="_blank" rel="noopener noreferrer">toxic drugs like MDMA &amp; ketamine</a>, that can be a recipe for long-term harm to your physical, and/or mental health. Ketamine is super easy to abuse because it&#x27;s a dissociative psychedelic. All your problems are magically gone, and if you take enough, you get some crazy trips that you can barely remember later. <a href="http://bufo.u-dont-exist.com" target="_blank" rel="noopener noreferrer">5-MeO-DMT</a> is the more psychedelic version of ketamine. See my guide on that, because it shares a lot of the same warnings, altho I do think it has more potential to be helpful when used correctly.</p>
+<p class="blk" id="b351" data-b="351"><span class="pn">P7</span>Here&#x27;s a <a href="https://www.reddit.com/r/mdmatherapy/comments/17nne25/reaching_resolution_32_sessions_over_5_years_for/" target="_blank" rel="noopener noreferrer">reddit poster </a>who talks about going through tremendous pain with MDMA as she uncovered childhood sex abuse memories. It took her dozens of sessions that felt harmful before she finally had one that fully got her to accept what happened to her (and a huge somatic release which looked like a re-enactment of the abuse). So there are some people who argue that if MDMA opened up your wounds, just keep taking more MDMA until it&#x27;s fixed. Although <a href="https://www.reddit.com/r/mdmatherapy/comments/1woxh97/deep_lingering_grief_two_years_post_mdmaassisted/" target="_blank" rel="noopener noreferrer">on this thread</a>, there are some who disagree with that simplistic advice. I know a few people who quit because they simply couldn&#x27;t keep going through the pain that MDMA brought up for them. And as the commenters on the first thread note, very few people would go thru that dozens of times hoping for something different to happen.</p>
+<p class="blk" id="b352" data-b="352"><span class="pn">P8</span>My perspective is that these people are not correctly preparing for the <a href="http://innerchild.u-dont-exist.com" target="_blank" rel="noopener noreferrer">inner child reparenting</a> that MDMA suddenly provides experiential access to. Because they are unprepared to make the best of the experience, and unprepared to integrate it after, it&#x27;s sort of like being thrown into the deep end of a swimming pool before you learn to swim. You flail around for a bit then terrified, you go back to holding on to the wall and begging to get out. It really will take a long time to learn to swim that way, for most folks. On the other hand, without MDMA or loveyhuasca, many people are unable to really do inner child therapy, because it sounds fake to them, just as ego death sounded fake to me before I experienced it. So I think these approaches complement each other greatly.</p>
+<h3 class="blk" id="b353" data-b="353">Give the Session a Beginning and an End</h3>
+<div class="blk native-blk" id="b354" data-b="354"><span class="native">[image 12]</span> <a href="https://substack-post-media.s3.amazonaws.com/public/images/5ae3cffc-d155-41ef-b1af-c547efa8f52f_1122x1402.png" target="_blank" rel="noopener noreferrer">open</a></div>
+<p class="blk" id="b355" data-b="355"><span class="pn">P2</span>If you&#x27;re planning a session, think through beforehand how it will start and end, and what happens in between. Rest and timing come first: don&#x27;t begin already depleted, and ideally start earlier in the day, so there&#x27;s time afterward for food, some normal company and most importantly, sleep.</p>
+<p class="blk" id="b356" data-b="356"><span class="pn">P3</span>Set up the space you&#x27;ll be in, and decide ahead of time what would make you call for outside help. Go in curious about what might come up, along with gentle intentions, not harboring demands for revelations, buried memories, good cries or spiritual breakthroughs. Sometimes people find that when they prepare to purify themselves and open up to love, they don&#x27;t even end up needing the experience itself. The work is already done.</p>
+<p class="blk" id="b357" data-b="357"><span class="pn">P4</span>One woman I met in Kenya was going to take shrooms to fix her tobacco and marijuana addictions. Before she took the shrooms, she simply realized she was addicted to those substances because she was trying to escape anxiety. So instead, she let the anxiety come, and accepted the feeling until it left. Her addictions vanished, no shroom trip required.</p>
+<p class="blk" id="b358" data-b="358"><span class="pn">P5</span>If you&#x27;re taking a psychoactive drug, though, know what you&#x27;re taking and roughly how much, and look up what it mixes badly with and any medical concerns. If you&#x27;ve taken this amount before, that&#x27;s a good starting place to understand how it could affect you this time, although people&#x27;s sensitivities can vary from one session to the next, sometimes quite dramatically. If you&#x27;ve never taken this dose or done this type of meditation this intensely before, make sure you&#x27;re not jumping into the deep end all at once.</p>
+<p class="blk" id="b359" data-b="359"><span class="pn">P6</span>During the experience, the sitter (the sober person with you, not literally someone sitting on your face!) keeps you safe and offers you choices if relevant.</p>
+<p class="blk" id="b360" data-b="360"><span class="pn">P7</span>As the experience winds down, give it some closure. Stop adding stimulation (I really don&#x27;t like the MDMA protocols that include redosing, as it amplifies the neurotoxicity concerns). Check where you are and what day it is. Eat and drink a bit to replenish your electrolytes.</p>
+<p class="blk" id="b361" data-b="361"><span class="pn">P8</span>Jot down anything you want to remember before you forget, and let your body know the session is over with some gentle massage. Keep the rest of the day free, and the next morning too if possible, since your brain is still in a vulnerable, flexible, &quot;plastic&quot; state, and the goal is not to cement in worse new patterns than what you had before!</p>
+<p class="blk" id="b362" data-b="362"><span class="pn">P9</span>Use this sequence for planned sessions. Once somebody is already in trouble, return to the <a href="https://ibogaqueen.com/1625-2/" target="_blank" rel="noopener noreferrer">triage app</a> instead of trying to improve the ceremony plan.</p>
+<h3 class="blk" id="b363" data-b="363">The Fear/Panic Loop</h3>
+<p class="blk" id="b364" data-b="364"><span class="pn">P1</span>A common loop is fear trying to solve fear. Terror appears, and the mind answers it with metaphysics, diagnosis, conspiracy, spiritual certainty, or desperate action. That usually feeds the terror.</p>
+<div class="blk native-blk" id="b365" data-b="365"><span class="native">[image 13]</span> <a href="https://substack-post-media.s3.amazonaws.com/public/images/633de218-0966-491c-aac4-6b4a366195ce_1122x1402.png" target="_blank" rel="noopener noreferrer">open</a></div>
+<p class="blk" id="b366" data-b="366"><span class="pn">P3</span>Loop breaker:</p>
+<div class="blk li" id="b367" data-b="367"><span class="mk">1.</span><span class="lt">Name it: &quot;This is fear trying to solve fear.&quot;</span></div>
+<div class="blk li" id="b368" data-b="368"><span class="pn">P4</span><span class="mk">2.</span><span class="lt">Stop debating: no metaphysics, diagnosis, or life decisions at the peak.</span></div>
+<div class="blk li" id="b369" data-b="369"><span class="pn">P5</span><span class="mk">3.</span><span class="lt">Move down the ladder: room → body → human → time.</span></div>
+<div class="blk li" id="b370" data-b="370"><span class="pn">P6</span><span class="mk">4.</span><span class="lt">Repeat: &quot;This is a wave. I don&#x27;t have to solve it at the peak.&quot;</span></div>
+<h3 class="blk" id="b371" data-b="371">Dealing With Sorrow: Missing Versus <a href="http://love.u-dont-exist.com/" target="_blank" rel="noopener noreferrer">Sending Love</a></h3>
+<p class="blk" id="b372" data-b="372"><span class="pn">P1</span>I once found a pamphlet helpful on sorrow, although it was too &quot;ultimate&quot; and Advaita for my taste. I now think focusing on love is more helpful than focusing on missing somebody or something.</p>
+<blockquote class="blk" id="b373" data-b="373"><span class="pn">P2</span><em>Missing hurts. Sending love feels good.</em></blockquote>
+<p class="blk" id="b374" data-b="374"><span class="pn">P3</span>This sounds almost embarrassingly obvious, but it took me months of daily loveyhuasca after my ex-wife Bee left to understand it.</p>
+<p class="blk" id="b375" data-b="375"><span class="pn">P4</span>Missing someone is a contraction. There&#x27;s hunger and ache in it, it keeps circling back to you, and there&#x27;s the painful fantasy that loving them means needing them to come back. Sending love is different. Sending love is pleasure in itself, even when the person is gone. Love can bless without grabbing.</p>
+<p class="blk" id="b376" data-b="376"><span class="pn">P5</span>The difference is enormous.</p>
+<p class="blk" id="b377" data-b="377"><span class="pn">P6</span>The mistake people often make in love states is simply enjoying the love--or sending heart emojis to everybody. That can feel like the whole point, and it&#x27;s nice.</p>
+<p class="blk" id="b378" data-b="378"><span class="pn">P7</span>But the deepest utility is sending love to the places where love is missing.</p>
+<div class="blk li" id="b379" data-b="379"><span class="pn">P8</span><span class="mk">•</span><span class="lt">Send love to the person you miss without demanding their return.</span></div>
+<div class="blk li" id="b380" data-b="380"><span class="pn">P9</span><span class="mk">•</span><span class="lt">Send love to the part of you still waiting for them.</span></div>
+<div class="blk li" id="b381" data-b="381"><span class="pn">P10</span><span class="mk">•</span><span class="lt">Send love to the inner child who believed somebody else had to rescue him.</span></div>
+<div class="blk li" id="b382" data-b="382"><span class="pn">P11</span><span class="mk">•</span><span class="lt">Send love to the ashamed, angry, lonely, terrified, and exiled parts.</span></div>
+<h3 class="blk" id="b383" data-b="383">Hand on Heart and Gratitude 🫶🏿</h3>
+<p class="blk" id="b384" data-b="384"><span class="pn">P1</span>A hand on the heart can change the direction of a trip, especially when the problem is emotional contraction, grief, fear, or loneliness. There&#x27;s no need to manufacture loving thoughts, you&#x27;re just giving the body one simple signal: love is here.</p>
+<p class="blk" id="b385" data-b="385"><span class="pn">P2</span>Put one hand on the heart and the other on the solar plexus just below it, sending love to the inner child. Sometimes that shifts the whole field. Once love reaches the inner child, send it toward all beings suffering now. Recognizing that you are not the only one suffering can open awareness in a liberating way, with real heart magic.</p>
+<p class="blk" id="b386" data-b="386"><span class="pn">P3</span>Gratitude comes like icing on the cake. Being thankful for every lesson, difficult experience, reprieve, heart opening, and moment of compassion can create a deep connection with the sacred. Never force gratitude. Let it bubble up gently.</p>
+<p class="blk" id="b387" data-b="387"><span class="pn">P4</span><a href="https://www.youtube.com/watch?v=kzq6idkl1B4" target="_blank" rel="noopener noreferrer">YouTube video kzq6idkl1B4</a></p>
+<h4 class="blk" id="b388" data-b="388">Touch, Consent, and Compassion</h4>
+<p class="blk" id="b389" data-b="389"><span class="pn">P1</span>Self-touch is different from somebody else touching you. Compassion does not mean grabbing, hugging, restraining, stroking, or crowding. Ask first: &quot;Would touch help, or would you rather have space?&quot; Good support may be silent presence from six feet away.</p>
+<p class="blk" id="b390" data-b="390"><span class="pn">P2</span>When the person says stop, freezes, pulls away, or seems unsure, stop. Touch must remain nonsexual, consensual, and unrelated to the helper&#x27;s needs.</p>
+<p class="blk" id="b391" data-b="391"><span class="pn">P3</span>---</p>
+<h3 class="blk" id="b392" data-b="392">Demons, Jinn, Entities, and Shadow Forces</h3>
+<p class="blk" id="b393" data-b="393"><span class="pn">P1</span>I have faced demons and jinn during psychedelic and exorcism-type situations. The most important thing I discovered was that fighting them did not help. Sending love did.</p>
+<p class="blk" id="b394" data-b="394"><span class="pn">P2</span>In one especially dramatic situation involving another person, the entity seemed to attack both of us psychically. I sent it love, and within a few seconds it left. The other person could not do that immediately. I had to show her, and it took hours of practice before it worked because she had never gone deeply into &quot;Love Thy Enemy.&quot;</p>
+<p class="blk" id="b395" data-b="395"><span class="pn">P3</span>I don&#x27;t have to settle whether these things are objectively real or internal formations because the response is mostly the same.</p>
+<p class="blk" id="b396" data-b="396"><span class="pn">P4</span>Hatred, fear, shame, pride, and rage make hooks. Love removes hooks.</p>
+<p class="blk" id="b397" data-b="397"><span class="pn">P5</span>The common mistake is fighting the terrifying thing with the energy it already consumes. Panic fights panic, hatred fights hatred, pride fights pride, and suddenly a small war is running inside consciousness.</p>
+<p class="blk" id="b398" data-b="398"><span class="pn">P6</span>Love is a better move, although it is difficult advice. Almost nobody can authentically love what terrifies them while they are terrified. So train before you need it, sending love to a frightening image, to someone you hate (without approving of what they did), to your shame and your body, to sickness and aging and fear and death, and to the inner child. Practice being the space rather than the storm.</p>
+<p class="blk" id="b399" data-b="399"><span class="pn">P7</span>It might look passive, but this is how you become unhookable. A demon can fight your hatred, feed on your fear, argue with your pride or seduce your grandiosity, but there&#x27;s nothing in love for it to grab.</p>
+<p class="blk" id="b400" data-b="400"><span class="pn">P8</span>When somebody is medically, physically, or psychologically too overwhelmed to reach love, stabilize first. Don&#x27;t teach nondual demonology to somebody who needs the lights down and a doctor.</p>
+<h3 class="blk" id="b401" data-b="401">Abuse Memories, Recovered Memories, and Certainty</h3>
+<p class="blk" id="b402" data-b="402"><span class="pn">P1</span>Psychedelics and intense practices can bring up true trauma, symbolic material, distorted fragments, fears, fantasies, archetypes, past-life narratives, and mixtures of all of them. Don&#x27;t dismiss what arises. Don&#x27;t treat the certainty you feel in that state as evidence either.</p>
+<p class="blk" id="b403" data-b="403"><span class="pn">P2</span>Don&#x27;t confront tonight</p>
+<p class="blk" id="b404" data-b="404"><span class="pn">P3</span>When you see or remember abuse, betrayal, murder, past lives, hidden crimes, or cosmic plots, write it down and get safe. Don&#x27;t confront anybody while intoxicated or destabilized. Return to it after sleep with a trauma-informed therapist, integration specialist, or grounded person you trust.</p>
+<p class="blk" id="b405" data-b="405"><span class="pn">P4</span>The experience may matter deeply. It could be true psychologically, or symbolically, or literally, or only partly true, or false in the form it first took. You don&#x27;t have to decide tonight.</p>
+<h3 class="blk" id="b406" data-b="406">Dealing With Shadow Thoughts</h3>
+<p class="blk" id="b407" data-b="407"><span class="pn">P1</span>When we try to purify the mind, something natural and frightening may happen: the opposite becomes more visible, almost like Newton&#x27;s Third Law--every action arrives with an equal and opposite reaction.</p>
+<p class="blk" id="b408" data-b="408"><span class="pn">P2</span>Shadow thoughts and feelings are not inherently a problem. They co-arise naturally and do not need to be attached to, like shadows cast by objects in sunlight. I also notice them after excessive focus. The mind becomes stressed and seeks an exit from the pressure, often in the opposite direction from the focus.</p>
+<p class="blk" id="b409" data-b="409"><span class="pn">P3</span>Relax, unwind, unbind, and unweave the identity illusion, mind, and unified experience. My pamphlet on already-perfect goes further into this.</p>
+<p class="blk" id="b410" data-b="410"><span class="pn">P4</span>I am not repeating the simplistic Hermetic claim that opposites are required to understand anything. A hated baby does not feel love, and a loved baby does not feel hate. In the subconscious world of concepts, however, two sides are often considered together.</p>
+<p class="blk" id="b411" data-b="411"><span class="pn">P5</span>During a trip, don&#x27;t identify with every shadow thought, suppress it, confess it to everybody, or convert it into a permanent diagnosis. Notice: &quot;A thought is here. A feeling is here. It is intense, but it is not the whole of me.&quot; Then return to room, body, human, time, and love.</p>
+<h4 class="blk" id="b412" data-b="412">The Joker Poem</h4>
+<blockquote class="blk" id="b413" data-b="413"><span class="pn">P1</span>At the centre of the spinning circle sits the joker with a mirror in his hand, reflecting all to everyone to help them understand.</blockquote>
+<blockquote class="blk" id="b414" data-b="414"><span class="pn">P2</span>His face is fierce, yet gentle, his eyes, they pierce you through, you cannot escape his gaze no matter where you go, no matter what you do.</blockquote>
+<blockquote class="blk" id="b415" data-b="415"><span class="pn">P3</span>His smile is warm, he draws you in, he is so calm, why are you so confused by him?</blockquote>
+<blockquote class="blk" id="b416" data-b="416"><span class="pn">P4</span>Your thoughts are like a raging storm between the whirling sky and sea, nothing seems certain any more, nothing&#x27;s how it used to be.</blockquote>
+<blockquote class="blk" id="b417" data-b="417"><span class="pn">P5</span>Once things were clear in black and white, you thought you knew the wrong from right, you drew the line, and cut it fine, between the day and night; but now your world is crumbling, there&#x27;s nowhere you can call your own, nothing&#x27;s solid anymore, not even cities made of stone, not even your own body, not even flesh and blood, not even skin and bone.</blockquote>
+<blockquote class="blk" id="b418" data-b="418"><span class="pn">P6</span>The sun and moon are falling on your head, the stars are tumbling down, flowers sing like angels, in the winter town.</blockquote>
+<blockquote class="blk" id="b419" data-b="419"><span class="pn">P7</span>The dead are living, the living dead, fire turns to water, water burns instead, silence is so full of sound, time stands still, you hear the earth turn round.</blockquote>
+<blockquote class="blk" id="b420" data-b="420"><span class="pn">P8</span>Your life flashes before you, is that thunder, or the beating of your heart, you don&#x27;t know if this is the end, or something new about to start. You don&#x27;t know if you&#x27;re dreaming or if you are awake, and as you go on spinning you see the joker&#x27;s mirror reflecting every move you make.</blockquote>
+<blockquote class="blk" id="b421" data-b="421"><span class="pn">P9</span>You show him good, and he will show you evil; you show him truth, and he will show you lies; you show him life, and he will show you how all that&#x27;s living dies.</blockquote>
+<blockquote class="blk" id="b422" data-b="422"><span class="pn">P10</span>You show him happiness, and he will show you sorrow, you show him yesterday, and he will show you tomorrow; you show him poverty, and he will show you wealth; you show him sickness and he will show you health.</blockquote>
+<blockquote class="blk" id="b423" data-b="423"><span class="pn">P11</span>You fall as if forever, falling spinning round and round, tumbling into empty space, without up or down and thus you will go on falling until you understand how opposites arise mutually, then you and the joker will dance, hand in hand.</blockquote>
+<blockquote class="blk" id="b424" data-b="424"><span class="pn">P12</span>Then you will know the truth: that all is of one taste; then you and the joker will have the same face.</blockquote>
+<blockquote class="blk" id="b425" data-b="425"><span class="pn">P13</span>--Unknown</blockquote>
+<p class="blk" id="b426" data-b="426"><span class="pn">P14</span>---</p>
+<h3 class="blk" id="b427" data-b="427">After the Storm</h3>
+<p class="blk" id="b428" data-b="428"><span class="pn">P1</span>Don&#x27;t make huge decisions or diagnose yourself from an intense night. You don&#x27;t need to assume every vision was literal, nor that anything you realized is actually true (or false). Ask your body what it needs from you now. I&#x27;m betting it will tell you: Give me sleep, natural food, pure water, a nice nature walk. It helps to integrate the experience via journaling your feelings, and talking with someone grounded (not the 20 chaotic people who are still coming down). To prevent your mind from giving spirituality a negative connotation, engage in some calm prayer or gentle meditation.</p>
+<div class="blk native-blk" id="b429" data-b="429"><span class="native">[image 14]</span> <a href="https://substack-post-media.s3.amazonaws.com/public/images/287aef23-c49e-4977-a360-504aa2b632e4_1122x1402.png" target="_blank" rel="noopener noreferrer">open</a></div>
+<h4 class="blk" id="b430" data-b="430">What Kind of Aftermath Is This?</h4>
+<p class="blk" id="b431" data-b="431"><span class="pn">P1</span>When symptoms linger, name the pattern rather than collapsing everything into &quot;I&#x27;m broken.&quot; Different patterns need different support.</p>
+<div class="blk li" id="b432" data-b="432"><span class="pn">P2</span><span class="mk">•</span><span class="lt">Anxiety and fear: grounding, routine, reduced stimulation, CBT-style reality testing, and therapy when it persists.</span></div>
+<div class="blk li" id="b433" data-b="433"><span class="pn">P3</span><span class="mk">•</span><span class="lt">Sleep disturbance and nightmares: sleep hygiene, no more substances or intense practice, and professional help when severe or prolonged.</span></div>
+<div class="blk li" id="b434" data-b="434"><span class="pn">P4</span><span class="mk">•</span><span class="lt">Derealization and depersonalization: ordinary-world grounding, exercise, nature, outside attention, less rumination, peer or family support, and therapy when needed.</span></div>
+<div class="blk li" id="b435" data-b="435"><span class="pn">P5</span><span class="mk">•</span><span class="lt">Visual distortions or HPPD-like symptoms: reduce stress and substance use; seek professional support when symptoms interfere with life.</span></div>
+<div class="blk li" id="b436" data-b="436"><span class="pn">P6</span><span class="mk">•</span><span class="lt">Social disconnection and shame: one or two safe humans, peer support, and no social-media crowdsourcing while raw.</span></div>
+<div class="blk li" id="b437" data-b="437"><span class="pn">P7</span><span class="mk">•</span><span class="lt">Existential shock: write it down, slow down, and return to practical love before building a metaphysical system.</span></div>
+<div class="blk li" id="b438" data-b="438"><span class="pn">P8</span><span class="mk">•</span><span class="lt"><mark class="hl t-repeat" data-s="AFT-TRAUMA-ONCE">Trauma material: trauma-informed therapy or integration support, without immediate confrontation while destabilized.</mark></span></div>
+<section class="card t-repeat" id="c-AFT-TRAUMA-ONCE" data-id="AFT-TRAUMA-ONCE" data-type="repeat" data-advice="approve" data-block="438">
+<div class="card-top"><button type="button" class="chip t-repeat" data-filter-type="repeat" title="a point the guide already makes elsewhere: one copy goes, the other stays">Said twice</button><span class="cid">AFT-TRAUMA-ONCE</span><span class="ctitle">What Kind of Aftermath Is This?: the trauma line said once</span><span class="pill" aria-live="polite">Not approved yet</span><button type="button" class="link-btn fold" aria-expanded="true">Fold</button></div>
+<div class="card-body">
+<div class="changes"><div class="chg"><div class="chg-k">What Kind of Aftermath Is This?, P8 is cut</div><div class="dif"><del>Trauma material: trauma-informed therapy or integration support, without immediate confrontation while destabilized.</del></div></div></div>
+<div class="info"><div class="row"><span class="lab">What changes</span> <span>The &quot;Trauma material&quot; line goes from the list.</span></div><div class="row"><span class="lab">Why</span> <span>Abuse Memories, Recovered Memories, and Certainty says all of it: &quot;Return to it after sleep with a trauma-informed therapist, integration specialist, or grounded person you trust.&quot; and &quot;Don&#x27;t confront anybody while intoxicated or destabilized.&quot; When to bring in help is in &quot;Bring in mental-health support when:&quot; (&quot;The trauma material is bigger than the room can hold.&quot;).</span></div><div class="row"><span class="lab">What stays</span> <span>The list&#x27;s other eight lines, and Abuse Memories as it is.</span></div><div class="row"><span class="lab">Why I&#x27;m asking</span> <span>Downside: the list of kinds of aftermath no longer names trauma, so a reader with old trauma coming up afterward finds it under Abuse Memories instead</span></div><div class="row"><span class="lab">You&#x27;re deciding</span> <span>Approve cuts the line; Reject keeps it in the list.</span></div><div class="row advice"><span class="lab">My advice</span> <span>Approve: the fresh reader found nothing in it that Abuse Memories doesn&#x27;t say.</span></div><div class="row src"><span class="lab">Found by</span> <span>a fresh reader&#x27;s repeats read of the section against the whole guide (linked in the introduction)</span></div></div>
+<div class="decide" role="group" aria-label="Decision on AFT-TRAUMA-ONCE"><button type="button" class="dec approve" data-dec="approved">Approve: cut it</button><button type="button" class="dec reject" data-dec="rejected">Reject: keep it as it is</button><button type="button" class="dec revise" data-dec="revise">Revise</button><button type="button" class="dec undo" data-dec="pending">Not approved yet</button></div>
+<label class="yours-wrap" hidden><span class="lab">Your version</span><textarea class="yours" rows="4" placeholder="Your wording, or what to change"></textarea></label>
+<label class="note-wrap"><span class="lab">Your comment</span><textarea class="note" rows="2" placeholder="A note on this suggestion (optional)"></textarea></label>
+<div class="saved-line"></div>
+</div></section>
+<div class="blk li" id="b439" data-b="439"><span class="pn">P9</span><span class="mk">•</span><span class="lt">Paranoia or psychosis-like beliefs: professional support quickly, especially when beliefs drive unsafe action.</span></div>
+<div class="blk li" id="b440" data-b="440"><span class="pn">P10</span><span class="mk">•</span><span class="lt">Somatic hyperarousal: gentle movement, breathing, grounding, and medical care for severe, unusual, or worrying symptoms.</span></div>
+<p class="blk" id="b441" data-b="441"><span class="pn">P11</span>No &quot;another ceremony will fix this&quot; reflex.</p>
+<p class="blk" id="b442" data-b="442"><span class="pn">P12</span>Don&#x27;t take more psychedelics, cannabis, ketamine, intense breathwork, fast, push kundalini, deprive yourself of sleep, meditate or stretch to extremes, or schedule &quot;another ceremony to fix it&quot; while destabilized. Deep practice can wait until the floor is back.</p>
+<p class="blk" id="b443" data-b="443"><span class="pn">P13</span>Then ask what actually happened. What was medical or environmental? What was emotional? What was old trauma? What was fantasy? What was useful? What changed behavior? What needs therapy, an apology, rest, or plain practical action?</p>
+<p class="blk" id="b444" data-b="444"><span class="pn">P14</span>It can feel like the more cosmic the story sounds, the bigger the insight. But the fruit of an insight is whether suffering goes down and love gets more available.</p>
+<p class="blk" id="b445" data-b="445"><span class="pn">P15</span>---</p>
+<h2 class="blk" id="b446" data-b="446">Appendix: Additional Resources</h2>
+<p class="blk" id="b447" data-b="447"><span class="pn">P1</span>If somebody is actively in trouble, use the <a href="https://ibogaqueen.com/1625-2/" target="_blank" rel="noopener noreferrer">triage app</a> first. The resources below come afterward.</p>
+<div class="blk li" id="b448" data-b="448"><span class="pn">P2</span><span class="mk">•</span><span class="lt">Other alternatives to standard mental-health care are listed at <a href="http://alternativementalhealth.com/" target="_blank" rel="noopener noreferrer">alternativementalhealth.com</a>.</span></div>
+<div class="blk li" id="b449" data-b="449"><span class="pn">P3</span><span class="mk">•</span><span class="lt">U.C. Berkeley offers a <a href="https://www.edx.org/course/the-science-of-happiness-0?source=aw&amp;awc=6798_1552495277_34b3e4407505841b179970d2ed02f5c8&amp;utm_source=aw&amp;utm_medium=affiliate_partner&amp;utm_content=text-link&amp;utm_term=78888_Skimlinks" target="_blank" rel="noopener noreferrer">free class</a>, based partly on experimentally validated Buddhist teachings, about learning to be happy and helping others become happy.</span></div>
+<div class="blk li" id="b450" data-b="450"><span class="pn">P4</span><span class="mk">•</span><span class="lt">The monk Ajahn Jayasaro gives useful guidance on shadow work in Buddhist teachings in the video below.</span></div>
+<p class="blk" id="b451" data-b="451"><span class="pn">P5</span><a href="https://www.youtube.com/watch?v=7lIIHR5hT3c" target="_blank" rel="noopener noreferrer">YouTube video 7lIIHR5hT3c</a></p>
+<div class="blk li" id="b452" data-b="452"><span class="pn">P6</span><span class="mk">•</span><span class="lt">Have you ever wondered whether the stuff we see in visions is real or not? Here is my &quot;<a href="https://tafkajestdr.blogspot.com/2019/07/how-does-brain-construct-psychedelic.html" target="_blank" rel="noopener noreferrer">answer</a>.&quot;</span></div>
+<div class="blk li" id="b453" data-b="453"><span class="pn">P7</span><span class="mk">•</span><span class="lt">The Hopkins/Griffiths protocol for psilocybin (enduring benefits), <a href="https://www.patreon.com/posts/28680845" target="_blank" rel="noopener noreferrer">summarized by GordoTek</a>.</span></div>
+<div class="blk li" id="b454" data-b="454"><span class="pn">P8</span><span class="mk">•</span><span class="lt">Two manuals at: <a href="https://zendoproject.org/education/" target="_blank" rel="noopener noreferrer">zendoproject.org/education/</a>   &quot;<em>The ZENDO Project Training Manual</em>&quot; especially Appendix A: &quot;How to Work With Difficult Psychedelic Experiences&quot; (pages 13 - 17) and &quot;<em>The Manual of Psychedelic Support</em>&quot; …. 328 pages &quot;A comprehensive guide to setting up and running compassionate care services for people having difficult drug experiences at music festivals and similar events.&quot; ------</span></div>
+<div class="blk li" id="b455" data-b="455"><span class="pn">P9</span><span class="mk">•</span><span class="lt"><a href="http://www.maps.org/images/pdf/1998_greer_1.pdf" target="_blank" rel="noopener noreferrer">&quot;A Method of Conducting Therapeutic Sessions with MDMA&quot;</a> by George R. Greer, M.D. &amp; Requa Tolbert, M.S.N. Journal of Psychoactive Drugs   Excerpt: &quot;As much as possible, everything done or said in preparing clients to take this compound attempted to give this message&quot;: &quot;You are consciously taking a medicine to open yourself to whatever teachings you may need at this time. Neither you nor we know what these teachings will be or how they may occur. We will provide a safe place for your explorations, and will be available to assist you with any difficulties; but all you learn that is real comes from within you--not from us, or from the medicine itself.&quot;</span></div>
+</main>
+<p class="endnote gut">The end of the guide. When you're done, tell me in the chat; your answers are already saved here, and "Save / send" gives you a copy to paste or keep.</p>
+<script id="review-data" type="application/json">{"format": "joel-suggestion-review-v1", "review_id": "bad-trips-r26", "title": "Bad Trips Guide, Round 26", "git_file": "articles/bad-trips/review/r26/REVIEW-R26.html", "article": {"file": "articles/bad-trips/review/r26/PAGE-R26.md", "sha256": "b8e4e2275e4254d044f7e3926234903178c244fd73643f6e4144e695ba827a42"}, "built": "2026-11-08", "generator": "suggestion_review.py 1.10 (2026-11-07)", "types": {"plain": {"label": "Said plainly", "about": "AI lines said plainly, each with its reason, the way he fixes his own windows"}, "structure": {"label": "Structure", "about": "how the quick version and the long version split the guide, and where a part goes"}, "repeat": {"label": "Said twice", "about": "a point the guide already makes elsewhere: one copy goes, the other stays"}, "safety": {"label": "Safety in one place", "about": "a caution or call-for-help line said in several places, or one that changes nothing a reader does"}, "question": {"label": "Your call", "about": "something only you can decide or know"}, "teach": {"label": "Teach me", "about": "a paragraph that reads AI in every wording I tried, whose shape many stuck paragraphs share: how you would say it teaches me how to say them (you asked for these on 2026-11-07)"}}, "suggestions": [{"id": "HELPER-OPEN-CUT", "type": "repeat", "title": "\"A good sitter is not there to ...\" said once", "advice": "approve", "what": "The first sentence goes, so the section opens on the Zendo Project's four principles.", "deciding": "Approve cuts the sentence; Reject keeps it as the section's first line.", "decided": null, "question": null, "where": "For the Person Helping: Calm Anchor, Not Guru, P1", "proposed": "The Zendo Project, a harm-reduction group that offers peer support at festivals and other events to people having a hard time in an altered state, sums up its approach in four principles: creating a safe space, sitting with the person rather than guiding them, talking them through it rather than down from it, and remembering that difficult isn't necessarily bad.", "before": "A good sitter is not there to win a philosophy debate, perform a rescue fantasy, impose an interpretation, or demonstrate spiritual advancement. The Zendo Project, a harm-reduction group that offers peer support at festivals and other events to people having a hard time in an altered state, sums up its approach in four principles: creating a safe space, sitting with the person rather than guiding them, talking them through it rather than down from it, and remembering that difficult isn't necessarily bad."}, {"id": "AFT-TRAUMA-ONCE", "type": "repeat", "title": "What Kind of Aftermath Is This?: the trauma line said once", "advice": "approve", "what": "The \"Trauma material\" line goes from the list.", "deciding": "Approve cuts the line; Reject keeps it in the list.", "decided": null, "question": null, "where": "What Kind of Aftermath Is This?, P8", "proposed": "(cut: Trauma material: trauma-informed therapy or integration support, without immediate confrontation …)", "before": "Trauma material: trauma-informed therapy or integration support, without immediate confrontation while destabilized."}], "sections": [{"b": 3, "level": 1, "text": "Inner Signal App to the Rescue!"}, {"b": 6, "level": 1, "text": "When to Bring In Outside Help"}, {"b": 8, "level": 2, "text": "Call medics while acting for:"}, {"b": 21, "level": 2, "text": "Bring in mental-health support when:"}, {"b": 28, "level": 2, "text": "When Peer Support Isn't Enough"}, {"b": 32, "level": 1, "text": "Acute Medical and Neurological Rescue"}, {"b": 37, "level": 2, "text": "If Someone Says \"My Brain Feels Damaged\": DMSO + Humic Acid First"}, {"b": 47, "level": 2, "text": "Active Seizure"}, {"b": 57, "level": 2, "text": "MDMA: Jaw Tension Is the Magnesium Alarm"}, {"b": 64, "level": 2, "text": "Chest Pain and Injury"}, {"b": 68, "level": 2, "text": "Recent Oral Toxic Ingestion"}, {"b": 72, "level": 2, "text": "Suspected Serotonin Syndrome (SS)"}, {"b": 74, "level": 3, "text": "Recognizing serotonin toxicity"}, {"b": 82, "level": 3, "text": "Do this immediately when serotonin toxicity is reasonably suspected:"}, {"b": 92, "level": 1, "text": "My Acute Rescue Hierarchy"}, {"b": 99, "level": 2, "text": "How I label the evidence"}, {"b": 104, "level": 3, "text": "Gut-Toxin and Parasite-Die-Off Tools"}, {"b": 118, "level": 3, "text": "Nausea Smoothers When the Person Wants to Preserve the Trip"}, {"b": 123, "level": 3, "text": "When the Goal Is to Stop a Psychedelic Trip"}, {"b": 133, "level": 3, "text": "Mental Stabilizers That Don't Abort the Trip"}, {"b": 168, "level": 3, "text": "A Final Trip Killer"}, {"b": 179, "level": 2, "text": "Some Remedies Require More Caution"}, {"b": 189, "level": 1, "text": "Shadow Work and Tripsitting Yourself or Others"}, {"b": 195, "level": 2, "text": "Psychological First Aid: The First Five Minutes"}, {"b": 201, "level": 3, "text": "Stillness or Movement?"}, {"b": 206, "level": 2, "text": "Get One Human Anchor"}, {"b": 214, "level": 3, "text": "Who to Contact, and When"}, {"b": 228, "level": 3, "text": "Alone at 3 a.m."}, {"b": 232, "level": 2, "text": "For the Person Helping: Calm Anchor, Not Guru"}, {"b": 236, "level": 3, "text": "Do"}, {"b": 244, "level": 3, "text": "Don't"}, {"b": 247, "level": 3, "text": "When the Content Turns Toward Harm"}, {"b": 256, "level": 2, "text": "Grounding Menu: Choose One or Two Things"}, {"b": 301, "level": 2, "text": "No Rash Actions: Visions Are Not Commands"}, {"b": 309, "level": 2, "text": "When the Trip Feels Amazing: Euphoric Certainty"}, {"b": 315, "level": 2, "text": "(Re)defining \"Bad Trip\""}, {"b": 331, "level": 2, "text": "Spiritual ≠ \"Getting Your Ass Kicked\""}, {"b": 337, "level": 2, "text": "The Other Bypass: Feeling Good Forever"}, {"b": 344, "level": 2, "text": "Hang up the phone, get off the Healing Treadmill"}, {"b": 353, "level": 2, "text": "Give the Session a Beginning and an End"}, {"b": 363, "level": 2, "text": "The Fear/Panic Loop"}, {"b": 371, "level": 2, "text": "Dealing With Sorrow: Missing Versus Sending Love"}, {"b": 383, "level": 2, "text": "Hand on Heart and Gratitude 🫶🏿"}, {"b": 388, "level": 3, "text": "Touch, Consent, and Compassion"}, {"b": 392, "level": 2, "text": "Demons, Jinn, Entities, and Shadow Forces"}, {"b": 401, "level": 2, "text": "Abuse Memories, Recovered Memories, and Certainty"}, {"b": 406, "level": 2, "text": "Dealing With Shadow Thoughts"}, {"b": 412, "level": 3, "text": "The Joker Poem"}, {"b": 427, "level": 2, "text": "After the Storm"}, {"b": 430, "level": 3, "text": "What Kind of Aftermath Is This?"}, {"b": 446, "level": 1, "text": "Appendix: Additional Resources"}]}</script>
+<script>
+(() => {
+  'use strict';
+  const DATA = JSON.parse(document.getElementById('review-data').textContent);
+  const SUG = {};
+  DATA.suggestions.forEach(s => { SUG[s.id] = s; });
+  const ORDER = DATA.suggestions.map(s => s.id);
+  const STATUSES = ['pending', 'approved', 'rejected', 'revise'];
+  const STORE_KEY = 'joel-suggestion-review-v1:' + DATA.review_id + ':' + DATA.article.sha256.slice(0, 12);
+  const $ = (q, r) => (r || document).querySelector(q);
+  const $$ = (q, r) => Array.from((r || document).querySelectorAll(q));
+  const now = () => new Date().toISOString();
+  const cards = {};
+  $$('.card[data-id]').forEach(c => { cards[c.dataset.id] = c; });
+  const marksById = {};
+  $$('mark.hl[data-s]').forEach(m => m.dataset.s.split(' ').forEach(id => { (marksById[id] = marksById[id] || []).push(m); }));
+
+  // ---------------------------------------------------------------- state
+  let state = {};
+  function blank() { return { status: 'pending', comment: '', text: '', history: [], updated: '' }; }
+  function clean(x) {
+    const st = blank();
+    if (!x || typeof x !== 'object') return st;
+    st.status = STATUSES.includes(x.status) ? x.status : 'pending';
+    st.comment = typeof x.comment === 'string' ? x.comment : '';
+    st.text = typeof x.text === 'string' ? x.text : '';
+    st.history = Array.isArray(x.history) ? x.history.filter(h => h && typeof h === 'object').slice(-50) : [];
+    st.updated = typeof x.updated === 'string' ? x.updated : '';
+    return st;
+  }
+  function initial(id) {
+    const st = blank();
+    const d = SUG[id] && SUG[id].decided;
+    if (d) {
+      st.status = STATUSES.includes(d.status) ? d.status : 'pending';
+      st.text = d.text || '';
+      st.comment = d.comment || '';
+      st.history = [{ from: 'pending', to: st.status, at: d.at || '', by: d.by || '' }];
+    }
+    return st;
+  }
+  function get(id) { if (!state[id]) state[id] = initial(id); return state[id]; }
+  try {
+    const raw = localStorage.getItem(STORE_KEY);
+    if (raw) {
+      const o = JSON.parse(raw);
+      if (o && o.items) Object.keys(o.items).forEach(id => { if (SUG[id]) state[id] = clean(o.items[id]); });
+    }
+  } catch (e) { /* storage blocked: the page still works, answers live in memory */ }
+  let localOk = true;
+  function persistLocal() {
+    try { localStorage.setItem(STORE_KEY, JSON.stringify({ saved: now(), items: state })); localOk = true; }
+    catch (e) { localOk = false; }
+  }
+
+  // ---------------------------------------------------------------- the store (db), when this view has one
+  let db = null, storeState = 'none';
+  const dirty = {}, busy = {}, timers = {}, retried = {};
+  function setStoreNote() {
+    const el = $('#storeNote');
+    if (storeState === 'db') el.textContent = 'Your answers save as you click, to this page (on every device you open it from with this account) and in this browser. Tell me in the chat when you\'re done and I\'ll read them from here; "Copy my answers" gives you a copy to paste anywhere.';
+    else el.textContent = localOk ? 'Your answers save in this browser as you click. To move them to another browser or account, or to send them to me, use "Copy my answers" or "Save them as a file".' : 'This browser won\'t keep answers for this page, so copy or save them before you close it.';
+  }
+  function queueWrite(id, delay) {
+    if (!db) return;
+    dirty[id] = true;
+    clearTimeout(timers[id]);
+    timers[id] = setTimeout(() => flush(id), delay || 0);
+  }
+  async function flush(id) {
+    if (!db || busy[id] || !dirty[id]) return;
+    busy[id] = true;
+    try {
+      while (dirty[id] && db) {
+        dirty[id] = false;
+        const body = JSON.parse(JSON.stringify(get(id)));
+        await db.doc('decisions/' + id).set(body);
+      }
+      savedLine(id, 'Saved');
+    } catch (e) {
+      const code = e && e.code;
+      if (code === 'unavailable' && !retried[id]) {
+        retried[id] = true; dirty[id] = true;
+        setTimeout(() => { busy[id] = false; flush(id); }, 1200 + Math.random() * 1500);
+        return;
+      }
+      if (code === 'resource_exhausted') { dirty[id] = true; setTimeout(() => { busy[id] = false; flush(id); }, 4000); return; }
+      db = null; storeState = 'none'; setStoreNote();
+      savedLine(id, 'Saved in this browser only');
+    } finally { if (busy[id] === true) busy[id] = false; }
+  }
+  function mergeRemote(id, raw) {
+    const remote = clean(raw);
+    const local = get(id);
+    if ((remote.updated || '') > (local.updated || '')) {
+      state[id] = remote; persistLocal(); renderCard(id, true);
+    } else if ((local.updated || '') > (remote.updated || '')) {
+      queueWrite(id, 0);
+    }
+  }
+  async function initDb() {
+    let api = null;
+    try { if (window.claude && typeof window.claude.use === 'function') api = await window.claude.use('db'); } catch (e) { api = null; }
+    if (!api) { setStoreNote(); return; }
+    db = api; storeState = 'db'; setStoreNote();
+    let first = true;
+    try {
+      db.collection('decisions').onSnapshot(snap => {
+        const seen = new Set();
+        snap.docs.forEach(d => { seen.add(d.id); if (SUG[d.id]) mergeRemote(d.id, d.data()); });
+        if (first) {
+          first = false;
+          Object.keys(state).forEach(id => { if (!seen.has(id) && state[id].updated) queueWrite(id, 0); });
+        }
+        progress();
+      }, () => { db = null; storeState = 'none'; setStoreNote(); });
+    } catch (e) { db = null; storeState = 'none'; setStoreNote(); }
+  }
+
+  // ---------------------------------------------------------------- downloads, when this view has them
+  let dl = null;
+  (async () => { try { if (window.claude && typeof window.claude.use === 'function') dl = await window.claude.use('downloads'); } catch (e) { dl = null; } })();
+
+  // ---------------------------------------------------------------- rendering
+  const PILL = { pending: 'Not approved yet', approved: 'Approved', rejected: 'Rejected: keep as is', revise: 'Revise' };
+  // a stretch for him to see and rewrite if he wants (advice "edit", 2026-10-27): its own words for the same states
+  const EDIT_PILL = { pending: 'Not decided yet', approved: 'Approved', rejected: 'Keep as it is', revise: 'Your version' };
+  function savedLine(id, msg) { const c = cards[id]; if (c) { const el = $('.saved-line', c); if (el) el.textContent = msg; } }
+  function isAsk(id) { return SUG[id] && SUG[id].advice === 'ask'; }
+  function askPill(id) {
+    const c = cards[id]; if (!c) return;
+    const done = !!(get(id).comment || '').trim();
+    c.dataset.status = done ? 'answered' : 'pending';
+    $('.pill', c).textContent = done ? 'Answered' : 'Not answered yet';
+    c.classList.toggle('decided', done);
+    (marksById[id] || []).forEach(m => m.classList.toggle('done', done));
+  }
+  function renderCard(id, fromRemote) {
+    const c = cards[id]; if (!c) return;
+    const st = get(id);
+    if (isAsk(id)) {
+      const nt = $('.note', c);
+      if (!(fromRemote && document.activeElement === nt)) nt.value = st.comment || '';
+      askPill(id);
+      return;
+    }
+    c.dataset.status = st.status;
+    $('.pill', c).textContent = (c.dataset.advice === 'leave' && st.status === 'pending') ? 'I\'d leave it'
+      : (c.dataset.advice === 'edit' ? EDIT_PILL : PILL)[st.status];
+    $$('.dec', c).forEach(b => b.setAttribute('aria-pressed', String(b.dataset.dec === st.status)));
+    const yw = $('.yours-wrap', c), yt = $('.yours', c), nt = $('.note', c);
+    yw.hidden = !(st.status === 'revise' || st.text);
+    if (!(fromRemote && document.activeElement === yt)) yt.value = st.text || '';
+    if (!(fromRemote && document.activeElement === nt)) nt.value = st.comment || '';
+    const done = st.status !== 'pending';
+    (marksById[id] || []).forEach(m => {
+      const all = m.dataset.s.split(' ').every(x => get(x).status !== 'pending');
+      m.classList.toggle('done', all);
+    });
+    c.classList.toggle('decided', done);
+  }
+  function renderAll() { ORDER.forEach(id => renderCard(id)); progress(); }
+  function progress() {
+    let n = 0, dec = 0, ap = 0, rj = 0, rv = 0, quiet = 0, quietSeen = 0, asks = 0, answered = 0, eds = 0, edDone = 0, kept = 0, edited = 0;
+    ORDER.forEach(id => {
+      const st = get(id);
+      if (isAsk(id)) { asks++; if ((st.comment || '').trim()) answered++; return; }
+      if (SUG[id].advice === 'leave') { quiet++; if (st.status !== 'pending' || st.comment) quietSeen++; return; }
+      if (SUG[id].advice === 'edit') {   // a stretch to edit: kept or his version, counted apart from the suggestions
+        eds++; if (st.status !== 'pending') edDone++;
+        if (st.status === 'rejected') kept++; else if (st.status === 'revise') edited++;
+        return;
+      }
+      n++;
+      if (st.status !== 'pending') dec++;
+      if (st.status === 'approved') ap++; else if (st.status === 'rejected') rj++; else if (st.status === 'revise') rv++;
+    });
+    $('#prog').innerHTML = (n ? '<b>' + dec + '</b> of ' + n + ' decided · ' + ap + ' approved · ' + rj + ' rejected · ' + rv + ' to revise' : '')
+      + (eds ? (n ? ' · ' : '') + '<b>' + edDone + '</b> of ' + eds + ' stretches looked at · ' + kept + ' kept · ' + edited + ' edited' : '')
+      + (asks ? ' · ' + answered + ' of ' + asks + ' questions answered' : '');
+    $('#meter').style.width = ((n + eds + asks) ? Math.round(100 * (dec + edDone + answered) / (n + eds + asks)) : 0) + '%';
+    $('#leaveCount').textContent = quiet + (quietSeen ? ', ' + quietSeen + ' looked at' : '');
+    const counts = {};
+    ORDER.forEach(id => { const s = SUG[id]; if (s.advice === 'leave') return; counts[s.type] = (counts[s.type] || 0) + 1; });
+    $$('[data-count-type]').forEach(el => { el.textContent = counts[el.dataset.countType] || 0; });
+  }
+
+  // ---------------------------------------------------------------- decisions and notes
+  function decide(id, to) {
+    const st = get(id);
+    const from = st.status;
+    if (from === to) return;
+    st.history.push({ from: from, to: to, at: now() });
+    st.status = to; st.updated = now();
+    if (to === 'revise' && !st.text) st.text = SUG[id].proposed || '';
+    persistLocal(); renderCard(id); progress(); queueWrite(id, 0);
+    savedLine(id, db ? 'Saving…' : (localOk ? 'Saved in this browser' : 'Not saved: copy your answers before closing'));
+    if (to === 'revise') { const yt = $('.yours', cards[id]); if (yt) { yt.focus(); } }
+  }
+  ORDER.forEach(id => {
+    const c = cards[id]; if (!c) return;
+    $$('.dec', c).forEach(b => b.addEventListener('click', () => decide(id, b.dataset.dec)));
+    const typed = (field, el) => {
+      const st = get(id);
+      st[field] = el.value; st.updated = now();
+      persistLocal(); queueWrite(id, 900);
+      savedLine(id, db ? 'Saving…' : (localOk ? 'Saved in this browser' : 'Not saved: copy your answers before closing'));
+      if (isAsk(id)) askPill(id);
+      progress();
+    };
+    const yt = $('.yours', c), nt = $('.note', c);
+    yt.addEventListener('input', () => typed('text', yt));
+    nt.addEventListener('input', () => typed('comment', nt));
+    [yt, nt].forEach(el => el.addEventListener('blur', () => { if (dirty[id]) { clearTimeout(timers[id]); flush(id); } }));
+    const fold = $('.fold', c), body = $('.card-body', c);
+    fold.addEventListener('click', () => {
+      body.hidden = !body.hidden;
+      fold.textContent = body.hidden ? 'Open' : 'Fold';
+      fold.setAttribute('aria-expanded', String(!body.hidden));
+    });
+  });
+
+  // ---------------------------------------------------------------- moving around
+  // The cards in the order they stand on the page, not the order of REVIEW.json: Next and Previous move down and up the
+  // page. (Joel, 2026-11-03 19:12 UTC, on the gut article's r01 page: "your next button is skipping questions fix that".
+  // The list came from ORDER, the suggestions' file order, which put the three question cards last although one sat near
+  // the top of the article and the others between decision cards, so Next passed over them.)
+  function visibleCards() { return $$('.card[data-id]').filter(c => cards[c.dataset.id] === c && !c.hidden && c.offsetParent !== null); }
+  function openCard(c) { const body = $('.card-body', c); if (body.hidden) { body.hidden = false; const f = $('.fold', c); f.textContent = 'Fold'; f.setAttribute('aria-expanded', 'true'); } }
+  function flash(c) { c.classList.remove('flash'); void c.offsetWidth; c.classList.add('flash'); }
+  function goTo(c) { openCard(c); c.scrollIntoView({ behavior: 'smooth', block: 'start' }); flash(c); }
+  function undecided(c) { const id = c.dataset.id; return isAsk(id) ? !(get(id).comment || '').trim() : get(id).status === 'pending'; }
+  function step(dir) {
+    if (document.body.classList.contains('reading')) { document.body.classList.remove('reading'); $('#readingMode').checked = false; }
+    const topLine = 130;   // just under the sticky bar: a card scrolled to with goTo() stands at scroll-padding-top (120px)
+    if (dir > 0) {
+      const list = visibleCards().filter(undecided);
+      if (!list.length) { $('#prog').insertAdjacentText('beforeend', ' · nothing undecided in view'); return; }
+      const next = list.find(c => c.getBoundingClientRect().top > topLine + 4) || list[0];
+      goTo(next);
+      return;
+    }
+    // Previous: the card before the one you're on, decided or not, and never a jump to the bottom. (Joel, 2026-10-30, after
+    // going through the cards in order: "your "pevious" button brouught me to the bottom of the page": it went to the last
+    // undecided card above, and with every card above decided it wrapped round to the last one on the page.)
+    const all = visibleCards();
+    const above = all.filter(c => c.getBoundingClientRect().top < topLine + 4);
+    if (!above.length) { $('#prog').insertAdjacentText('beforeend', ' · this is the first card'); return; }
+    const cur = above[above.length - 1];
+    // inside a long card (its top well above the bar): back to its start first; at its start: the card before it
+    const target = cur.getBoundingClientRect().top < topLine - 60 ? cur : above[above.length - 2];
+    if (!target) { $('#prog').insertAdjacentText('beforeend', ' · this is the first card'); return; }
+    goTo(target);
+  }
+  $('#nextBtn').addEventListener('click', () => step(1));
+  $('#prevBtn').addEventListener('click', () => step(-1));
+  document.addEventListener('click', e => {
+    const m = e.target.closest('mark.hl[data-s]');
+    if (m && !e.target.closest('a')) {
+      const id = m.dataset.s.split(' ')[0];
+      const c = cards[id];
+      if (c && SUG[id].advice === 'leave' && !document.body.classList.contains('show-leave')) return;
+      if (c) {
+        if (document.body.classList.contains('reading')) { document.body.classList.remove('reading'); $('#readingMode').checked = false; }
+        if (c.hidden) { c.hidden = false; }
+        goTo(c);
+      }
+      return;
+    }
+    const g = e.target.closest('[data-go]');
+    if (g) {
+      const t = document.getElementById(g.dataset.go);
+      if (t) { if (t.classList.contains('card')) goTo(t); else { t.scrollIntoView({ behavior: 'smooth', block: 'center' }); flash(t); } }
+    }
+  });
+
+  // ---------------------------------------------------------------- filters
+  const hiddenTypes = new Set();
+  function applyFilters() {
+    const status = $('#statusFilter').value;
+    const q = $('#search').value.trim().toLowerCase();
+    ORDER.forEach(id => {
+      const c = cards[id]; if (!c) return;
+      const st = get(id);
+      let show = !hiddenTypes.has(SUG[id].type);
+      if (show && status !== 'all') show = status === 'noted' ? !!(st.comment || st.text) : st.status === status;
+      if (show && q) {
+        const b = document.getElementById('b' + c.dataset.block);
+        const hay = (c.textContent + ' ' + (b ? b.textContent : '') + ' ' + st.comment + ' ' + st.text).toLowerCase();
+        show = hay.includes(q);
+      }
+      c.hidden = !show;
+    });
+    Object.keys(DATA.types).forEach(t => document.body.classList.toggle('hide-t-' + t, hiddenTypes.has(t)));
+  }
+  $$('[data-filter-type]').forEach(b => b.addEventListener('click', e => {
+    const t = b.dataset.filterType;
+    if (b.closest('.card')) { e.stopPropagation(); }
+    if (hiddenTypes.has(t)) hiddenTypes.delete(t); else hiddenTypes.add(t);
+    $$('.tools [data-filter-type="' + t + '"]').forEach(x => x.setAttribute('aria-pressed', String(!hiddenTypes.has(t))));
+    applyFilters();
+  }));
+  $('#statusFilter').addEventListener('change', applyFilters);
+  let searchTimer = null;
+  $('#search').addEventListener('input', () => { clearTimeout(searchTimer); searchTimer = setTimeout(applyFilters, 200); });
+  $('#showLeave').addEventListener('change', e => { document.body.classList.toggle('show-leave', e.target.checked); });
+  $('#readingMode').addEventListener('change', e => { document.body.classList.toggle('reading', e.target.checked); });
+  const sel = $('#sectionJump');
+  DATA.sections.forEach(s => {
+    const o = document.createElement('option');
+    o.value = 'b' + s.b; o.textContent = (s.level >= 3 ? '   ' : '') + s.text;
+    sel.appendChild(o);
+  });
+  sel.addEventListener('change', () => { const t = document.getElementById(sel.value); if (t) t.scrollIntoView({ behavior: 'smooth', block: 'start' }); sel.value = ''; });
+  function togglePanel(btn, panel) {
+    const open = panel.hidden;
+    panel.hidden = !open; btn.setAttribute('aria-expanded', String(open));
+  }
+  $('#toolsBtn').addEventListener('click', () => togglePanel($('#toolsBtn'), $('#tools')));
+  $('#saveBtn').addEventListener('click', () => togglePanel($('#saveBtn'), $('#savePanel')));
+
+  // ---------------------------------------------------------------- export and import
+  function answers() {
+    const counts = { approved: 0, rejected: 0, revise: 0, pending: 0 };
+    const items = ORDER.map(id => {
+      const s = SUG[id], st = get(id);
+      counts[st.status]++;
+      return { id: id, type: s.type, title: s.title, where: s.where, advice: s.advice, status: isAsk(id) ? ((st.comment || '').trim() ? 'answered' : 'pending') : st.status,
+        question: s.question || undefined,
+        your_version: st.text, comment: st.comment, my_version: s.proposed, before: s.before,
+        history: st.history, updated: st.updated };
+    });
+    return { format: 'joel-suggestion-review-answers-v1', review_id: DATA.review_id, title: DATA.title, git_file: DATA.git_file,
+      article: DATA.article, built: DATA.built, generator: DATA.generator, exported_at: now(), counts: counts, items: items };
+  }
+  function status(msg) { $('#saveStatus').textContent = msg; }
+  function showCopyArea(text) {
+    const ta = $('#copyArea'); ta.hidden = false; ta.value = text; ta.focus(); ta.select();
+  }
+  $('#copyJson').addEventListener('click', () => {
+    const text = JSON.stringify(answers(), null, 1);
+    let done = false;
+    try {
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(text).then(() => { done = true; status('Copied. Paste it into the chat, or into this page on another account with "Paste answers instead".'); $('#copyArea').hidden = true; },
+          () => { showCopyArea(text); status('This view blocked copying: the answers are selected below, so copy them with your keyboard or the menu.'); });
+        return;
+      }
+    } catch (e) { /* fall through */ }
+    if (!done) { showCopyArea(text); status('The answers are selected below: copy them with your keyboard or the menu.'); }
+  });
+  $('#saveJson').addEventListener('click', async () => {
+    const text = JSON.stringify(answers(), null, 1);
+    const name = (DATA.review_id || 'review') + '-answers-' + now().slice(0, 16).replace(/[:T]/g, '-') + '.json';
+    if (dl) {
+      try { const r = await dl.save({ filename: name, data: text }); status(r && r.status === 'delivered' ? 'Sent.' : 'Saved as ' + name + '.'); return; }
+      catch (e) {
+        if (e && e.code === 'declined') { status('Not saved.'); return; }
+        if (e && e.code === 'rate_limited') { status('A save is already waiting for you to confirm.'); return; }
+      }
+    }
+    try {
+      const url = URL.createObjectURL(new Blob([text], { type: 'application/json' }));
+      const a = document.createElement('a'); a.href = url; a.download = name; a.style.display = 'none';
+      document.body.appendChild(a); a.click(); a.remove();
+      setTimeout(() => URL.revokeObjectURL(url), 60000);
+      status('Saving ' + name + '. If nothing downloads, use "Copy my answers" instead.');
+    } catch (e) { showCopyArea(text); status('Saving files is blocked here: the answers are selected below to copy.'); }
+  });
+  function load(text) {
+    let o;
+    try { o = JSON.parse(text); } catch (e) { status('That isn\'t a JSON answers file.'); return; }
+    if (!o || o.format !== 'joel-suggestion-review-answers-v1' || !Array.isArray(o.items)) { status('That isn\'t an answers file from this page.'); return; }
+    if (o.review_id !== DATA.review_id) { status('Those answers are for a different review (' + o.review_id + '), so nothing was loaded.'); return; }
+    if (!o.article || o.article.sha256 !== DATA.article.sha256) { status('Those answers are for a different version of the guide, so nothing was loaded: send them to me and I\'ll carry them over.'); return; }
+    let n = 0; const unknown = [];
+    o.items.forEach(it => {
+      if (!it || !SUG[it.id]) { if (it && it.id) unknown.push(it.id); return; }
+      const st = get(it.id);
+      const to = STATUSES.includes(it.status) ? it.status : 'pending';
+      if (to === 'pending' && !it.comment && !it.your_version && st.status === 'pending' && !st.comment && !st.text) return;
+      if (to !== st.status) st.history.push({ from: st.status, to: to, at: now(), by: 'loaded from a file' });
+      st.status = to; st.comment = typeof it.comment === 'string' ? it.comment : '';
+      st.text = typeof it.your_version === 'string' ? it.your_version : '';
+      st.updated = now(); n++;
+      queueWrite(it.id, 0);
+    });
+    persistLocal(); renderAll(); applyFilters();
+    status('Loaded ' + n + ' answer' + (n === 1 ? '' : 's') + (unknown.length ? '; ' + unknown.length + ' not on this page (' + unknown.slice(0, 5).join(', ') + ')' : '') + '.');
+  }
+  $('#importFile').addEventListener('change', e => {
+    const f = e.target.files && e.target.files[0]; if (!f) return;
+    const r = new FileReader(); r.onload = () => { load(String(r.result)); e.target.value = ''; }; r.readAsText(f);
+  });
+  $('#pasteToggle').addEventListener('click', () => { const b = $('#pasteBox'); b.hidden = !b.hidden; if (!b.hidden) $('#pasteArea').focus(); });
+  $('#pasteLoad').addEventListener('click', () => load($('#pasteArea').value));
+
+  window.__review = { answers: answers, load: load, state: () => state };
+  renderAll(); applyFilters(); setStoreNote(); initDb();
+})();
+</script>
