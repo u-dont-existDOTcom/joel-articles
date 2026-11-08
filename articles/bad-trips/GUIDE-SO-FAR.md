@@ -28,7 +28,7 @@ I developed the [**Inner Signal app**](http://innersignalselfhypnosis.com/integr
 - Violence, self-harm, or a situation the sitter cannot physically contain
 - Concerning symptoms after an MAOI plus a serotonergic substance
 
-The remedies below can begin while help is being arranged. Calling medics does not require waiting passively, and using a fast field remedy does not require giving up a time-sensitive medical option.
+The remedies below can begin while help is being arranged.
 
 ## Bring in mental-health support when:
 
@@ -203,7 +203,7 @@ Charcoal can also adsorb medications somebody depends on. I would use it cautiou
 
 ### Nausea Smoothers When the Person Wants to Preserve the Trip
 
-When ozonated zeolite and ferment don't help, I consider nausea caused by an excessive psychedelic dose acting on serotonin receptors in the gut. The tools in this section are for somebody who still wants the trip to continue.
+When ozonated zeolite and ferment don't help, I consider nausea caused by an excessive psychedelic dose acting on serotonin receptors in the gut.
 
 #### [Coffee Cherry](http://coffeecherry.u-dont-exist.com/) for Nausea and Brain Recharge
 
@@ -263,7 +263,7 @@ Zeolite usually feels subtle to sober people. Aged ozonated-charcoal water does 
 
 I have even watched the water calm a crying baby through touch alone. No ozone gas was present; this was contact with the water after ozonation had ended and the residual ozone had dissipated. I include that because it suggested the relaxing effect was not only adult expectation or psychedelic context.
 
-Earlier in my experiments, **I made the mistake of directly smelling ozone gas** during a psychedelic state. It intensified the experience and became mentally alarming. DMSO didn't help that situation, while aged ozonated-charcoal water helped rapidly. I don't recommend inhaling ozone. The mistake showed me that DMSO and aged ozonated-charcoal water address different kinds of overload.
+Earlier in my experiments, **I made the mistake of directly smelling ozone gas** during a psychedelic state. It intensified the experience and became mentally alarming. DMSO didn't help that situation, while aged ozonated-charcoal water helped rapidly. I don't recommend inhaling ozone.
 
 Without an ozone-water purifier--which can cost around $20 on Amazon--boiling water with charcoal gives some of the benefit. Touching or holding shungite can also feel similar to holding cleaned zeolite. Shungite pendants are sold on Amazon. Shungite should not be drunk unless it has been properly washed of heavy metals.
 
@@ -315,8 +315,6 @@ Other forms of vitamin B3 seem less reliable for relaxation. Niacinamide sometim
 
 ## Some Remedies Require More Caution
 
-Useful substances can still be poor rescue tools when somebody is already destabilized.
-
 [Humic acid](http://humicacid.u-dont-exist.com/) *when eaten*, can produce a hyperintelligent state for me. From the outside that may look manic, and it could destabilize somebody prone to mania or without meditation training. I wouldn't use it casually during a bad trip. Smelling it does not produce that hyper intelligent state but does feel relaxing and very beneficial for brain health, so I'd start with that.
 
 [Cinnamon](http://cinnamon.u-dont-exist.com/) can produce an intense "brain surgery" or "brain scraping" effect, especially the first time it combines with an ayahuasca-like state. That may be therapeutic in the right context, but it is not a casual rescue tool.
@@ -327,7 +325,7 @@ I would also be extremely careful with *Acacia confusa* eaten with *Mimosa hosti
 
 ---
 
-That finishes the rescue-chemistry side of the guide. Once the body is stable and those tools have done what they can, fear, grief, memory, certainty, and whatever else the altered mind has opened still need somebody to sit with them.
+Once the body is stable and those tools have done what they can, fear, grief, memory, certainty, and whatever else the altered mind has opened still need somebody to sit with them.
 
 ![](https://substack-post-media.s3.amazonaws.com/public/images/ce9cb88d-67d8-4e3f-8436-d3e2446de167_1122x1402.png)
 
@@ -458,7 +456,7 @@ Be brief and specific with emergency services: "Someone is in an altered-state o
 
 ## Grounding Menu: Choose One or Two Things
 
-Choose one or two options rather than all of them. Twelve simultaneous techniques can become another form of panic.
+Twelve simultaneous techniques can become another form of panic.
 
 ![](https://substack-post-media.s3.amazonaws.com/public/images/296952b0-1468-44da-9878-093d82942785_1122x1402.png)
 
@@ -491,7 +489,7 @@ Choose one or two options rather than all of them. Twelve simultaneous technique
 - Use familiar music when possible. I wouldn't force a predesigned emotional arc or an unfamiliar therapeutic playlist on somebody who dislikes it.
 - Try a steady drum rhythm for stabilization or grounding; try airy harp-like or meditative music when the person wants something gentler and spiritually uplifting.
 - Soothing meditative music, like that of Chantress Seba and others on my [music page](http://music.u-dont-exist.com/), can be very helpful.
-- Keep the stop or change control immediate. Music should remain an option, rather than become another authority in the room.
+- Keep the stop or change control immediate.
 
 **Room**
 
@@ -582,8 +580,6 @@ This is one side of the difference between [spiritual bypassing](http://goenka.u
 Bypassing reaches for an ultimate view--"we are all One," "I don't exist," "this is all karma," "everything is Love"--while ignoring the person shaking in the corner.
 
 Practice says love is here, so we make the room safer, call for help when needed, stop pretending, and hold the experience without becoming it.
-
-That is tripsitting, shadow work, and the path becoming practical.
 
 ## The Other Bypass: Feeling Good Forever
 
@@ -703,7 +699,7 @@ The common mistake is fighting the terrifying thing with the energy it already c
 
 Love is a better move, although it is difficult advice. Almost nobody can authentically love what terrifies them while they are terrified. So train before you need it, sending love to a frightening image, to someone you hate (without approving of what they did), to your shame and your body, to sickness and aging and fear and death, and to the inner child. Practice being the space rather than the storm.
 
-It might look passive, but this is how you become unhookable. A demon can fight your hatred, feed on your fear, argue with your pride or seduce your grandiosity, but there's nothing in love for it to grab.
+It might look passive, but this is how you become unhookable.
 
 When somebody is medically, physically, or psychologically too overwhelmed to reach love, stabilize first. Don't teach nondual demonology to somebody who needs the lights down and a doctor.
 
