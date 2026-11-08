@@ -27,7 +27,7 @@ flowchart TD
     acute["Acute Medical and Neurological Rescue — job: brain-damage feeling, seizure, MDMA, chest pain, oral toxic ingestion, serotonin syndrome"]
     remedies["My Acute Rescue Hierarchy — job: gut tools, nausea smoothers, stopping a trip, stabilizers, niacin, remedies needing caution"]
     sit["Shadow Work and Tripsitting — job: first five minutes, one human anchor, who to contact, alone at 3 a.m., the person helping, grounding, no rash actions"]
-    essays["The shadow-work essays — job: what a bad trip is, the two bypasses, the healing treadmill, sorrow, demons, memories, shadow thoughts"]
+    essays["The shadow-work essays — job: what a bad trip is and why it happens (Why Bad Trips Tend to Happen merged into (Re)defining, round 24), the two bypasses, the healing treadmill, a planned session's beginning and end, sorrow, demons, memories, shadow thoughts"]
     after["After the Storm — job: integration and the kinds of aftermath"]
     res["Appendix: Additional Resources"]
     applink --> app --> help --> acute --> remedies --> sit --> essays --> after --> res
@@ -56,7 +56,7 @@ flowchart LR
 
 ## Authority / placement notes
 
-- Current topology: the guide after round 4 (`review/r04/GUIDE-AFTER-R04.md`, made by `review/r04/apply_r04.py` from
+- Current topology (2026-11-08): the guide after round 24 (`humanize/h32-20261108/`: his round-24 versions, the dash swap, Why Bad Trips Tend to Happen said once under his (Re)defining "Bad Trip", the guide made drug-neutral where it speaks generally). Rounds 5 to 23 (the other account, 2026-11-05 to 07) cut repeats across the long part (Minimum Viable Integration among them, round 23) and put in his versions; their records are in the handoff note. Before that, the guide after round 4 (`review/r04/GUIDE-AFTER-R04.md`, made by `review/r04/apply_r04.py` from
   round 3's guide, `review/r03/GUIDE-AFTER-R03.md`, and his round-4 answers) as `GUIDE-SO-FAR.md`. Each round's apply
   script reads the round before's frozen output: round 2's guide, then the standard typographic swap
   (`humanize/h01/swap.py`, writing `humanize/h01/GUIDE-AFTER-SWAP.md`), round 3, round 4. Round 4 took the checklist out

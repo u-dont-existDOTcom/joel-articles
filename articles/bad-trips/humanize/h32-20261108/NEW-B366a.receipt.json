@@ -1,0 +1,55 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-08",
+ "text_sha256": "530f188d202ff2b1c65853d6ab8e9f9078cd487c7748bd8091cdd18b7a2dd483",
+ "text": "If you're planning a session, think through how it will start and end, and what happens in between, ahead of time. Rest and timing come first: don't begin already depleted, and ideally start earlier in the day, so there's time afterward for food, some normal company and most importantly, sleep.",
+ "section": "Give the Session a Beginning and an End",
+ "reader": "someone planning a session, with a substance or an intense practice, before it starts",
+ "sentences": [
+  {
+   "s": "If you're planning a session, think through how it will start and end, and what happens in between, ahead of time.",
+   "payoff": "they plan the session's start, end and middle before it begins, whether it is a substance or a practice",
+   "follows": "it opens the section under its heading and picture: the heading's beginning and end, said as what to do"
+  },
+  {
+   "s": "Rest and timing come first: don't begin already depleted, and ideally start earlier in the day, so there's time afterward for food, some normal company and most importantly, sleep.",
+   "payoff": "they rest first and start early, so food, company and sleep fit in afterward",
+   "follows": "the first of the things to plan: rest and timing",
+   "link": "Rest and timing come first"
+  }
+ ],
+ "checked": [],
+ "placement": "the first paragraph of his Give the Session a Beginning and an End, under the heading and the picture",
+ "opens": {
+  "first_sentence": "If you're planning a session, think through how it will start and end, and what happens in between, ahead of time.",
+  "why_reading": "it tells someone planning a session what this section is for: thinking the session through before it begins"
+ },
+ "same_point": "none: read the section from its heading to the next (The Fear/Panic Loop) for planning ahead and rest: only here",
+ "needed": {
+  "reader": "a fresh Haiku agent that saw only the paragraph, its heading and what it is for, given tools/humanization/needed_read_brief.md (NEEDED-READ.md)",
+  "unneeded": [],
+  "kept": {}
+ },
+ "questions": {
+  "Q1": "PASS: S1 opens on \"If you're planning a session\", S2 on \"Rest and timing come first\"",
+  "Q2": "PASS: each instruction says what it is for (so there's time afterward for food, company and sleep)",
+  "Q3": "PASS: \"ahead of time\" fits a substance and a practice alike, which \"before you take anything\" didn't",
+  "Q4": "PASS: no term a reader wouldn't know",
+  "Q5": "PASS: S2 is the first thing to think through, as S1 asks",
+  "Q6": "PASS: plan first, then the first step of the plan",
+  "Q7": "PASS: both are for someone planning a session now",
+  "Q8": "N/A: no group of items",
+  "Q9": "PASS: one phrase changed"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

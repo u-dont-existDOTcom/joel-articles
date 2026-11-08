@@ -1,0 +1,83 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-08",
+ "text_sha256": "c981bde8e21c66f7976373986833d073fd6145b70023bd7679831dfa9a9bf3f7",
+ "text": "When symptoms linger, it's worth figuring out what kind they are, since \"I'm broken\" covers everything at once and each kind is helped by something different. Leftover anxiety and fear tend to settle with grounding and a quiet, steady routine, with fewer people and less noise. It also helps to check the scary thoughts against what's going on around you, the way CBT does it. Sleep problems are their own thing. With nightmares or bad nights, sleep comes first, which means no more substances and no pushing a practice for a while. Bring in a professional if the fear or the bad nights hang on, or get really bad.",
+ "section": "After the Storm: What Kind of Aftermath Is This?",
+ "reader": "someone whose symptoms linger after a bad trip, from a drug or a practice, trying to tell which kind of aftermath it is and what helps",
+ "sentences": [
+  {
+   "s": "When symptoms linger, it's worth figuring out what kind they are, since \"I'm broken\" covers everything at once and each kind is helped by something different.",
+   "payoff": "they start by working out which kind theirs is, and why",
+   "follows": "it opens the section under its heading"
+  },
+  {
+   "s": "Leftover anxiety and fear tend to settle with grounding and a quiet, steady routine, with fewer people and less noise.",
+   "payoff": "if theirs is anxiety and fear, they ground themselves and keep things quiet and steady",
+   "follows": "the first kind",
+   "link": "Leftover anxiety and fear"
+  },
+  {
+   "s": "It also helps to check the scary thoughts against what's going on around you, the way CBT does it.",
+   "payoff": "they test the scary thoughts against what is happening",
+   "follows": "one more thing for the same kind",
+   "link": "It also helps"
+  },
+  {
+   "s": "Sleep problems are their own thing.",
+   "payoff": "they see the next kind is separate",
+   "follows": "it turns from the first kind to the second",
+   "link": "Sleep problems"
+  },
+  {
+   "s": "With nightmares or bad nights, sleep comes first, which means no more substances and no pushing a practice for a while.",
+   "payoff": "if theirs is sleep, they protect it and take nothing more and push no practice",
+   "follows": "what to do for the kind just named",
+   "link": "With nightmares or bad nights"
+  },
+  {
+   "s": "Bring in a professional if the fear or the bad nights hang on, or get really bad.",
+   "payoff": "they know when these two need a professional",
+   "follows": "the limit for both kinds just named",
+   "link": "the fear or the bad nights"
+  }
+ ],
+ "checked": [],
+ "placement": "What Kind of Aftermath Is This?, its first paragraph, after the heading (the list's first two kinds as sentences)",
+ "opens": {
+  "first_sentence": "When symptoms linger, it's worth figuring out what kind they are, since \"I'm broken\" covers everything at once and each kind is helped by something different.",
+  "why_reading": "it tells someone whose symptoms linger to work out which kind they have, because each kind needs its own help"
+ },
+ "same_point": "none: read What Kind of Aftermath Is This? to the next heading for anxiety, sleep and professional help: the other kinds follow, each with its own help",
+ "needed": {
+  "reader": "a fresh Haiku agent given tools/humanization/needed_read_brief.md with the paragraph (NEEDED-READ.md, AFT2)",
+  "unneeded": [
+   "It also helps to check the scary thoughts against what's going on around you, the way CBT does it."
+  ],
+  "kept": {
+   "It also helps to check the scary thoughts against what's going on around you, the way CBT does it.": "they test the scary thoughts against what's happening, a different tool from grounding (the thoughts, not the body), which the guide's list had as CBT-style reality testing"
+  }
+ },
+ "questions": {
+  "Q1": "PASS: each sentence opens on its point (\"Leftover anxiety and fear\", \"Sleep problems\", \"Bring in a professional\")",
+  "Q2": "PASS: each instruction is the reader's, with what it is for",
+  "Q3": "PASS: \"no more substances and no pushing a practice\" names both cases",
+  "Q4": "PASS: \"CBT\" and \"grounding\" are explained earlier in the guide",
+  "Q5": "PASS: \"since\" gives the reason; \"also\" adds to the same kind; the turn to sleep is said",
+  "Q6": "PASS: name it, then each kind, then the limit",
+  "Q7": "PASS: for someone whose symptoms linger now",
+  "Q8": "PASS: each remedy sits with its kind",
+  "Q9": "PASS: the kinds said as their own sentences, not labels"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}
