@@ -1,0 +1,57 @@
+{
+ "readers": [
+  "haiku",
+  "sonnet"
+ ],
+ "sentences": [
+  "When symptoms linger, try to name the pattern.",
+  "\"I'm broken\" lumps everything together, and different patterns need different support.",
+  "If it's mostly anxiety and fear that stayed with you, grounding helps, and so does a steady routine with less going on around you.",
+  "You can also check the scary thoughts against what's happening, the way CBT does it.",
+  "If you can't sleep or keep having nightmares, look after your sleep first, and stay away from more substances or intense practice for now.",
+  "If either one is severe or drags on, get professional help."
+ ],
+ "flagged": {
+  "1": [
+   "haiku"
+  ],
+  "2": [
+   "haiku",
+   "sonnet"
+  ],
+  "3": [
+   "haiku",
+   "sonnet"
+  ],
+  "4": [
+   "sonnet"
+  ],
+  "5": [
+   "haiku",
+   "sonnet"
+  ],
+  "6": [
+   "haiku",
+   "sonnet"
+  ]
+ },
+ "agreed": [
+  2,
+  3,
+  5,
+  6
+ ],
+ "whole": {
+  "haiku": [
+   "The paragraph reads as a condensed, even-toned wellness summary. Its sentences are similar in length and shape, it has no first-person experience or concrete example, and its structure is a neat run of if-then rules ending in a referral, which is typical of model output."
+  ],
+  "sonnet": [
+   "The paragraph is built as a series of \"If [pattern], do [remedy]\" branches that run in parallel, with an opening framing line and a closing referral, so it reads like a tidy decision tree in even, instructional sentences with no specific example or personal voice. Its rhythm is uniformly medium-length and consistently reassuring, with no surprises or digressions."
+  ]
+ },
+ "human_clean": [
+  "check the scary thoughts against what's happening",
+  "scary thoughts",
+  "what's happening"
+ ]
+}

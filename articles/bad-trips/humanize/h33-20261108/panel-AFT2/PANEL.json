@@ -1,0 +1,58 @@
+{
+ "readers": [
+  "haiku",
+  "sonnet"
+ ],
+ "sentences": [
+  "When symptoms linger, it's worth figuring out what kind they are, since \"I'm broken\" covers everything at once and each kind is helped by something different.",
+  "Leftover anxiety and fear tend to settle with grounding and a quiet, steady routine, with fewer people and less noise.",
+  "It also helps to check the scary thoughts against what's going on around you, the way CBT does it.",
+  "Sleep problems are their own thing.",
+  "With nightmares or bad nights, sleep comes first, which means no more substances and no pushing a practice for a while.",
+  "Bring in a professional if the fear or the bad nights hang on, or get really bad."
+ ],
+ "flagged": {
+  "1": [
+   "haiku",
+   "sonnet"
+  ],
+  "2": [
+   "haiku",
+   "sonnet"
+  ],
+  "3": [
+   "haiku",
+   "sonnet"
+  ],
+  "4": [
+   "haiku",
+   "sonnet"
+  ],
+  "5": [
+   "sonnet"
+  ],
+  "6": [
+   "haiku",
+   "sonnet"
+  ]
+ },
+ "agreed": [
+  1,
+  2,
+  3,
+  4,
+  6
+ ],
+ "whole": {
+  "haiku": [
+   "The paragraph is evenly built, with each sentence handling one claim, one mechanism, or one piece of advice in a similar order, and it never offers an example, number, named practice or personal detail. That even, topic-by-topic template with a referral at the end reads machine-made more than its individual words do."
+  ],
+  "sonnet": [
+   "It is built as a clean sequence (frame the problem, sort into types, give a remedy for each, end with when to get help), and every sentence is smooth, even-lengthed and hedged, with no tangents or specifics. The voice is a calm, generic advice-giver with no personal detail or friction, though the plain wording keeps it from sounding polished to a shine."
+  ]
+ },
+ "human_clean": [
+  "I'm broken",
+  "I'm broken"
+ ]
+}

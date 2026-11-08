@@ -1,0 +1,51 @@
+{
+ "readers": [
+  "haiku",
+  "sonnet"
+ ],
+ "sentences": [
+  "When symptoms are still hanging around after the trip, try to name what kind they are, since \"I'm broken\" tends to swallow everything at once, and the different kinds get better with different things.",
+  "If it's mostly anxiety and fear that stayed, grounding usually helps, along with a routine that's as steady and low-key as you can make it for a while, ideally with fewer people around and less news, that kind of thing.",
+  "You can also test the scary thoughts against what's happening around you, the way CBT does, although if the fear keeps coming back, that's a good time to find a therapist.",
+  "If you can't sleep, or the nightmares keep coming, look after your sleep first, before you try to make sense of anything, and stay away from more substances and from pushing your practice until it settles, which can take a little while.",
+  "Get professional help if it's severe or just won't let up."
+ ],
+ "flagged": {
+  "1": [
+   "haiku",
+   "sonnet"
+  ],
+  "2": [
+   "sonnet"
+  ],
+  "3": [
+   "haiku",
+   "sonnet"
+  ],
+  "4": [
+   "haiku",
+   "sonnet"
+  ],
+  "5": [
+   "haiku",
+   "sonnet"
+  ]
+ },
+ "agreed": [
+  1,
+  3,
+  4,
+  5
+ ],
+ "whole": {
+  "haiku": [
+   "The paragraph is built on even, balanced clauses with conditional openers (\"If it's mostly...\", \"If you can't sleep...\", \"Get professional help...\") and a tidy three-part arrangement, so the rhythm feels evenly metered rather than uneven as in most personal writing. Its voice is warm but generic and heavily hedged (\"usually\", \"a little while\", \"that kind of thing\"), and every paragraph of advice ends with a neat summary-style line."
+  ],
+  "sonnet": [
+   "The paragraph is built as a small decision tree: a framing sentence, then one branch per symptom type, each ending with a \"get help if it persists\" clause. Its rhythm is even, with long comma-chained sentences of similar length, and its voice is calm, reassuring and impersonal, with no concrete example, anecdote or specific detail anywhere."
+  ]
+ },
+ "human_clean": [
+  "hanging around"
+ ]
+}
