@@ -1,6 +1,6 @@
 # Romance current state
 
-Updated: 2026-11-07
+Updated: 2026-11-08
 
 ## Goal
 
@@ -106,6 +106,26 @@ with his OK and no email.
   paragraphs (`whole/`); my compare read of the new ones (147, 148, 151, 285 to 287) found one softened point, 148's
   "rewriting the whole past", now carried by "faking it all along", and 285's "cuteness", now carried by "play the
   damsel"; the word-for-sense read of the new paragraphs waits for the jealousy answer, with the whole-article check.
+
+- 2026-11-08 (his message of 15:07 UTC, `humanize/fix-20261107/r27/`): his T2 answer saved
+  (`review/teach-20261107/ANSWERS-T2.json`): he rewrote all of Jealousy 366 to 370 ([Human, High, alone](https://www.pangram.com/history/8f1e5924-1921-4136-8815-d09f45d295e5)).
+  With three slips fixed (a missing "than", "also ... too", a curly apostrophe) the section read
+  [Human, 0% AI, one Medium window on the live 361](https://www.pangram.com/history/d00216d9-49ef-4351-bfd1-df2165ff14da) (#135).
+  His correction of S17 ("the couple I really liked as an example"): the section read [one Human High window](https://www.pangram.com/history/2c67fdaa-6753-4d00-8f49-0f66f7d286d5) (#136).
+  "Beware idealization": its five Low windows of #132 fixed; 14% AI on the first try (#138), then
+  [Human, High and Medium, no Low](https://www.pangram.com/history/1ef0b91c-6a89-4c35-b4b9-c46f1f54276d) (#143), after
+  the compare read put 151's ending back to his boundary. Lessons: `docs/lessons/2026-11-08-1507-romance.md`
+  (romance-2026-11-08a to c); the sense-read brief now names a doubled word that isn't next to its twin. The fixed
+  version (46 changes, 88 paragraphs) has no window a smaller check read AI or Low; drafts A and B were re-pasted and
+  their secret links rendered the built text exactly (`whole/DRAFTS.json`). The whole-article check went to him.
+
+## Next step
+
+His Pangram extension on the two drafts' secret links (the whole-article check), then: read both results back from his
+Pangram history by SHA-256, write the two article predictions (`r27/README.md`) and results, and fix any window that
+reads AI or Low. Open for him: 366's "And even better than simply suppressing it, I agree with Esther Perel" (the fix
+adding "they can put it to work." read as well, #137; his words stay until he says yes). Then his post is updated
+with his OK (no email), with 366's link to Esther Perel's post carried into the editor and the "Updated" date set.
 
 ### Before 2026-11-07 (the registered master, as recorded then)
 
