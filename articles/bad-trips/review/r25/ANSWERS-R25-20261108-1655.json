@@ -1,0 +1,41 @@
+{
+ "format": "joel-suggestion-review-answers-v1",
+ "review_id": "bad-trips-r25",
+ "title": "Bad Trips Guide, Round 25",
+ "git_file": "articles/bad-trips/review/r25/REVIEW-R25.html",
+ "article": {
+  "file": "articles/bad-trips/review/r25/PAGE-R25.md",
+  "sha256": "acbdb6ca7c6cf3eda7de90acd9378ad785a50fd113404b3060fadcfb3aeb041c"
+ },
+ "built": "2026-11-08",
+ "generator": "suggestion_review.py 1.10 (2026-11-07)",
+ "exported_at": "2026-11-08T16:55:35.256Z",
+ "counts": {
+  "approved": 1,
+  "rejected": 0,
+  "revise": 0,
+  "pending": 0
+ },
+ "items": [
+  {
+   "id": "WHY-LESSON-CUT",
+   "type": "repeat",
+   "title": "\"Sometimes the lesson is just to ...\" said once",
+   "where": "(Re)defining \"Bad Trip\", P7",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "(cut: Every hard experience can feel like a profound lesson. But …)",
+   "before": "Every hard experience can feel like a profound lesson. But sometimes the lesson is just to lower the dose or stop the practice, get some sleep and something to eat, pick safer people, and admit that the room is bad.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-08T16:55:29.503Z"
+    }
+   ],
+   "updated": "2026-11-08T16:55:29.503Z"
+  }
+ ]
+}

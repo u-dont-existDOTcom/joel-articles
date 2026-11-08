@@ -1218,6 +1218,41 @@
     }
    ],
    "recorded_utc": "2026-11-08T15:53Z"
+  },
+  {
+   "turn": "2026-11-08T16:57Z",
+   "lines_of_work": [
+    "bad trips guide"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "UDA root re-fetched at 841f579, unchanged since 15:50; nothing new in the lane's suggested fixes since this account's 15:52 read"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "pull request 402 (ours) merged at 16:53 UTC; open: 401 (romance, not this lane); no new issues, comments or reviews on this lane"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no edits by others to this lane's handoff note, questions page or state since this account's push of 16:53"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "his round-25 export of 16:55 UTC, sent 16:56 UTC"
+    }
+   ],
+   "items": [
+    {
+     "item": "his round-25 export: WHY-LESSON-CUT approved, no comment",
+     "outcome": "cut B361 (review/r25/apply_r25.py) with W102's owner_changes entry (FIDELITY-KEYS-R25.json); then the overcompletion read (gate E328)"
+    }
+   ],
+   "recorded_utc": "2026-11-08T16:57Z"
   }
  ]
 }
