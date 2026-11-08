@@ -11,6 +11,10 @@
 - His question: once the science is settled, read the suggestions and the protocol as a whole. Lesson neuro-2026-11-08f:
   science section by section, then the coherence read of the whole protocol (changes on cards), then the needed read
   and humanizing.
+- Science of sections C, D, E and flag F-4 (`fix-20261108/sci-cde/`, SCIENCE-CDE.md): eight cards, SC-24, SC-47, SC-48,
+  SC-50, SC-52, SC-53, SC-56, SC-57, each new paragraph through a fresh reader's needed read (`sci-cde/needed/`), page
+  x1108b (artifact 2JnJqQ6qFKy58V665J36U9, db, user, downloads). FACTS flags F-4, F-5, F-8, F-9, F-10 are on it; F-1
+  and F-11 fall in Parts 2 and 3. Block 61 holds.
 
 ## 2026-11-08, his versions of blocks 37 and 38 (00:49 UTC): both in and Human; the needed read; 39 to 41 in
 
