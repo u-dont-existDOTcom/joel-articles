@@ -116362,7 +116362,7 @@
         },
         "current_state": {
           "path": "articles/bad-trips/CURRENT-STATE.md",
-          "sha256": "30fc8c5ca20038cd326deafdfa3a7db717eccef58f6cac4f28c2f773151bd4ba"
+          "sha256": "c74cf3992224b83fac18509f6381646f699199f1df8d4305937c5821f2ce2567"
         }
       },
       "review": {
@@ -116391,7 +116391,7 @@
         },
         {
           "path": "articles/bad-trips/HANDOFF-bad-trips.md",
-          "sha256": "3c095b222c99ff6f4b9653c9d98131863529ee0187df692d466dcdce16719ff8",
+          "sha256": "e22e9aab4eccbddfae1b6fe51f789458dd1b8369be6e1c1aa31df25e96f9d14e",
           "role": "humanization_working_record"
         },
         {
@@ -126072,6 +126072,21 @@
         {
           "path": "articles/bad-trips/review/r26/cards_r26.py",
           "sha256": "383ecbe1e56c9390fd0b4769b7f5b2c65027ff7075b013501b53f4eb26cac5e1",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/bad-trips/humanize/h35-20261108/REPEATS-ANCHOR-TO-SHADOW.md",
+          "sha256": "9a7f6bbaa6b008a05163f48018e94bc07209cf78e9e512ea0a33085fd1076d59",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/bad-trips/humanize/h35-20261108/REPEATS-GROUNDING-TO-BYPASS.md",
+          "sha256": "622c039b394d22afdb942f94cac68f00027801b24e5eb31a0a4e29e0ed3921af",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/bad-trips/humanize/h35-20261108/RESULTS.md",
+          "sha256": "e9bcd66aa37460ae533c43223b85f53c99255946d638c58296196f8ae2ff1f87",
           "role": "humanization_working_record"
         }
       ]
