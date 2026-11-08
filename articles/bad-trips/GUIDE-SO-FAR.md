@@ -417,7 +417,7 @@ When the body still needs movement, keep it contained and boring: brush your tee
 
 ## For the Person Helping: Calm Anchor, Not Guru
 
-A good sitter is not there to win a philosophy debate, perform a rescue fantasy, impose an interpretation, or demonstrate spiritual advancement. The Zendo Project, a harm-reduction group that offers peer support at festivals and other events to people having a hard time in an altered state, sums up its approach in four principles: creating a safe space, sitting with the person rather than guiding them, talking them through it rather than down from it, and remembering that difficult isn't necessarily bad.
+The Zendo Project, a harm-reduction group that offers peer support at festivals and other events to people having a hard time in an altered state, sums up its approach in four principles: creating a safe space, sitting with the person rather than guiding them, talking them through it rather than down from it, and remembering that difficult isn't necessarily bad.
 
 Crying, grieving, remembering, or touching a genuine wound calls for loving awareness. Interrogation, analysis every thirty seconds, and "bro, you're purging ancestral karma" while somebody white-knuckles the carpet are generally less helpful.
 
@@ -840,7 +840,6 @@ When symptoms linger, name the pattern rather than collapsing everything into "I
 - **Visual distortions or HPPD-like symptoms:** reduce stress and substance use; seek professional support when symptoms interfere with life.
 - **Social disconnection and shame:** one or two safe humans, peer support, and no social-media crowdsourcing while raw.
 - **Existential shock:** write it down, slow down, and return to practical love before building a metaphysical system.
-- **Trauma material:** trauma-informed therapy or integration support, without immediate confrontation while destabilized.
 - **Paranoia or psychosis-like beliefs:** professional support quickly, especially when beliefs drive unsafe action.
 - **Somatic hyperarousal:** gentle movement, breathing, grounding, and medical care for severe, unusual, or worrying symptoms.
 

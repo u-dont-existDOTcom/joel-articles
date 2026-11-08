@@ -1,0 +1,61 @@
+{
+ "format": "joel-suggestion-review-answers-v1",
+ "review_id": "bad-trips-r26",
+ "title": "Bad Trips Guide, Round 26",
+ "git_file": "articles/bad-trips/review/r26/REVIEW-R26.html",
+ "article": {
+  "file": "articles/bad-trips/review/r26/PAGE-R26.md",
+  "sha256": "3f0edb8df55e0f6864f0a3d0fe23ec971bfa8367af08918a64ca350cb82c6bef"
+ },
+ "built": "2026-11-08",
+ "generator": "suggestion_review.py 1.10 (2026-11-07)",
+ "exported_at": "2026-11-08T16:48:07.926Z",
+ "counts": {
+  "approved": 2,
+  "rejected": 0,
+  "revise": 0,
+  "pending": 0
+ },
+ "items": [
+  {
+   "id": "HELPER-OPEN-CUT",
+   "type": "repeat",
+   "title": "\"A good sitter is not there to ...\" said once",
+   "where": "For the Person Helping: Calm Anchor, Not Guru, P1",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "The Zendo Project, a harm-reduction group that offers peer support at festivals and other events to people having a hard time in an altered state, sums up its approach in four principles: creating a safe space, sitting with the person rather than guiding them, talking them through it rather than down from it, and remembering that difficult isn't necessarily bad.",
+   "before": "A good sitter is not there to win a philosophy debate, perform a rescue fantasy, impose an interpretation, or demonstrate spiritual advancement. The Zendo Project, a harm-reduction group that offers peer support at festivals and other events to people having a hard time in an altered state, sums up its approach in four principles: creating a safe space, sitting with the person rather than guiding them, talking them through it rather than down from it, and remembering that difficult isn't necessarily bad.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-08T16:47:51.798Z"
+    }
+   ],
+   "updated": "2026-11-08T16:47:51.798Z"
+  },
+  {
+   "id": "AFT-TRAUMA-ONCE",
+   "type": "repeat",
+   "title": "What Kind of Aftermath Is This?: the trauma line said once",
+   "where": "What Kind of Aftermath Is This?, P8",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "(cut: Trauma material: trauma-informed therapy or integration support, without immediate confrontation …)",
+   "before": "Trauma material: trauma-informed therapy or integration support, without immediate confrontation while destabilized.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-08T16:48:01.877Z"
+    }
+   ],
+   "updated": "2026-11-08T16:48:01.877Z"
+  }
+ ]
+}

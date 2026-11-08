@@ -910,6 +910,19 @@
     "intoxicated certainty",
     "before you take anything"
    ]
+  },
+  {
+   "id": "r26-said-once",
+   "status": "applied",
+   "what": "round 26's two cuts (review/r26/apply_r26.py): For the Person Helping's first sentence (\"A good sitter is not there to win a philosophy debate, perform a rescue fantasy, ...\"), which his anchor line and don'ts repeat, so the section opens on the Zendo Project's four principles; and What Kind of Aftermath Is This?'s \"Trauma material\" line, which Abuse Memories says",
+   "joel": "2026-11-08 16:48 UTC, round 26 (review/r26/ANSWERS-R26-20261108-1648.json): both approved, no comment",
+   "must_contain_exact": [
+    "The Zendo Project, a harm-reduction group that offers peer support at festivals and other events"
+   ],
+   "must_not_contain": [
+    "A good sitter is not there to win a philosophy debate",
+    "Trauma material:** trauma-informed therapy or integration support"
+   ]
   }
  ]
 }
