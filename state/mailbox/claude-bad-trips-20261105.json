@@ -1144,6 +1144,41 @@
     }
    ],
    "recorded_utc": "2026-11-07T22:56Z"
+  },
+  {
+   "turn": "2026-11-08T15:07Z",
+   "lines_of_work": [
+    "bad trips guide"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "the same six items as at 22:38 yesterday, the three unlisted ones the Inner Child and neuro de-armoring lanes'; UDA root AGENTS.md re-fetched at b6185f7 (it was c5c9951 in this account's last turn)"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "pull requests 388 and 389 (ours) merged; 390 (romance) and 391 to 393 (neuro de-armoring) merged since; main brought in (their lessons: neuro-2026-11-08a, a fresh reader's needed read before a model's paragraph is reworded, which sense_receipt.py now refuses without; neuro-2026-11-08c, his new claims checked like the old and fixes to his words on a card); no new issues, comments or reviews"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no edits by others to this lane's handoff note, questions page or state since 22:38 yesterday; the old branch claude/bad-trips-20261103 is in main"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "his message of 15:07 UTC ('moving back from the other acct'): the resume line and his round-24 export; no queued notifications"
+    }
+   ],
+   "items": [
+    {
+     "item": "his round-24 export: both cards revised, his own versions (the first five minutes' reminder and the helper's don'ts; his (Re)defining 'Bad Trip'; his Give the Session), with 'there's still way too much duplication here' (Why Bad Trips Tend to Happen) and 'let's make sure this guide is not assuming people are taking a drug'",
+     "outcome": "his versions in this turn; Why Bad Trips deduplicated against his definition; the guide read for drug-assuming lines; what his versions carry measured and carried"
+    }
+   ],
+   "recorded_utc": "2026-11-08T15:14Z"
   }
  ]
 }

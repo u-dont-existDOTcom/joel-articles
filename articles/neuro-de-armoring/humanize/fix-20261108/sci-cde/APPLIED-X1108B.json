@@ -1,0 +1,150 @@
+{
+ "about": "his answers on x1108b (2026-11-08): five approved, three his versions",
+ "answers": "ANSWERS-X1108B-20261108-1508.json",
+ "before_sha256": "2e73a3b4a6bb77980d6d534fa79c0a5c8bd537af788d9def84ba7b9807f537a7",
+ "after_sha256": "8be97d8fbdc4010bd25f6a3645d6a01fb9eb4f62308a5844c4492afdda403048",
+ "cards": {
+  "SC-24": {
+   "status": "approved",
+   "line": 49,
+   "old": "We are operating on less than 1/24th of the relational density our biology requires. The \"Void\" you feel is real. Once you have de-armored, you cannot simply return to a lonely life. You must aggressively engineer a \"High-Density\" social environment (A Tribe), or the brain will eventually reach for the armor again just to survive the cold.",
+   "new": "We are operating on about one-sixteenth of the relational density our biology requires ([Perry, 2023](https://issuu.com/familyjusticegroup/docs/20230629_journal_final/s/27001732)). The \"Void\" you feel is real. Once you have de-armored, you cannot simply return to a lonely life. You must aggressively engineer a \"High-Density\" social environment (A Tribe), or the brain will eventually reach for the armor again just to survive the cold.",
+   "fixes": [],
+   "comment": ""
+  },
+  "SC-47": {
+   "status": "revise",
+   "line": 96,
+   "old": "Why Standard Meds Failed You If you have tried SSRIs (antidepressants) and failed, you are not crazy. Ipser & Stein [2012 study ](https://academic.oup.com/ijnp/article/15/6/825/761323?login=false)showed that Prozac had zero effect on male combat veterans with calcified PTSD. And the side effects are well-known, including anhedonia, zombification, and sexual dysfunction.",
+   "new": "Why Standard Meds Failed You If you have tried SSRIs (antidepressants) and failed, you are not crazy. In a small trial of male combat veterans with severe, long-term PTSD, Prozac did no better than a placebo ([Hertzberg, et al, 2000](https://scholars.duke.edu/publication/759904)). Trials in veterans have been mixed since, yet the VA still recommends sertraline and paroxetine ([VA/DoD, 2023](https://pubmed.ncbi.nlm.nih.gov/38408360/)). And the side effects are well-known, including anhedonia, zombification, and sexual dysfunction.",
+   "fixes": [
+    {
+     "was": "(Hertzberg, et al, 2000)",
+     "now": "([Hertzberg, et al, 2000](https://scholars.duke.edu/publication/759904))",
+     "why": "citation link put back"
+    },
+    {
+     "was": "(VA/DoD, 2023)",
+     "now": "([VA/DoD, 2023](https://pubmed.ncbi.nlm.nih.gov/38408360/))",
+     "why": "citation link put back"
+    }
+   ],
+   "comment": "you can't say \"they help some people\" since you showed zero evidence that they do (helping as much as placebo is not helping, and helping less than harming is not helping). the fact that the VA recommends them is not science"
+  },
+  "SC-48": {
+   "status": "revise",
+   "line": 98,
+   "old": "Why don't these drugs work on calcified PTSD? Because standard serotonin drugs treat the \"software\" (mood), but they cannot penetrate the \"hardware\" (the structural changes in the amygdala caused by severe trauma). This protocol uses Ketones and HDAC Inhibitors to remodel the physical structure of the brain that resists standard medication.",
+   "new": "Why don't these drugs work on calcified PTSD? Because even if they did work for mood by modulating serotonin transmission, PTSD is not a mood disorder. That's a bit like putting some Bengay on a broken leg. This protocol tries to get at the underpinnings of the problem. The ketone BHB blocks enzymes called HDACs ([Shimazu, et al, 2013](https://escholarship.org/uc/item/4w889738)), and in mice that couldn't hold on to extinction learning (learning that a cue is now safe), an HDAC blocker made the new learning last ([Whittle & Singewald, 2014](https://pmc.ncbi.nlm.nih.gov/articles/PMC3961057)). Whether ketosis does that in people hasn't been tested.",
+   "fixes": [
+    {
+     "was": "Why don't these drugs on calcified PTSD?",
+     "now": "Why don't these drugs work on calcified PTSD?",
+     "why": "the missing word, as his post had it"
+    },
+    {
+     "was": "That's like a bit like",
+     "now": "That's a bit like",
+     "why": "a doubled word"
+    },
+    {
+     "was": "broken leg.This protocol",
+     "now": "broken leg. This protocol",
+     "why": "the missing space"
+    },
+    {
+     "was": "(Shimazu, et al, 2013)",
+     "now": "([Shimazu, et al, 2013](https://escholarship.org/uc/item/4w889738))",
+     "why": "citation link put back"
+    },
+    {
+     "was": "(Whittle & Singewald, 2014)",
+     "now": "([Whittle & Singewald, 2014](https://pmc.ncbi.nlm.nih.gov/articles/PMC3961057))",
+     "why": "citation link put back"
+    }
+   ],
+   "comment": "your version sounded absurd, we don't know? yes we know, it's obvious. if we don't know anything i wouldn't publish this article."
+  },
+  "SC-50": {
+   "status": "revise",
+   "line": 102,
+   "old": "The Fix (The Unlock): You cannot \"wait\" for this to pass. We use \"System Reformats\" (Shrooms/Iboga) to stimulate GDNF, which physically rewires the brain around these hardened loops.",
+   "new": "The Fix (The Unlock): DeltaFosB does fade on its own, but [slowly](https://pmc.ncbi.nlm.nih.gov/articles/PMC8879420), and the same fears keep making more. Along with therapy and the de-armoring supplements, we use \"System Reformats\" (Psychedelics and Iboga). Iboga raised GDNF, a growth factor that protects dopamine neurons, in rats ([He, et al, 2005](https://pmc.ncbi.nlm.nih.gov/articles/PMC1193648)), and one dose of psilocybin grew new connections in mouse brains that lasted a month ([Shao, et al, 2021](https://pubmed.ncbi.nlm.nih.gov/34228959/)). Whether either loosens DeltaFosB's hold hasn't been tested directly, although these have been shown to help with addictions, which DeltaFosB plays a role in.\n\nWhile the science is focused on some specific substances in certain psychedelics, like psilocybin and ibogaine, the reality is much more complicated. Each iboga tree and each mushroom strain (and phenotype) have different levels of different psychedelic alkaloids apart from the principal ones studied. You can learn more about the different types of iboga in [my iboga guide](http://iboga.u-dont-exist.com/). Aside from the different ibogas, I find [loveyhuasca](http://soma.u-dont-exist.com/) to be more clear-headed than shrooms and often more beneficial, although some shroom strains, like Orissa India, are much more therapeutic than others (like Golden Teacher, Penis Envy) in my experience. And part of the way these help, from my understanding, is their antiparasitic action. Each psychedelic, and even each mushroom strain seems to target a different subset of parasites, and there's an anecdote-based theory that physical parasites solidify mental and spiritual ones. I remember eating some B+ strain shrooms which people told me were very mild and gentle. For me it was the opposite, absolute hell, until a very large and strange parasite came out and then instantly I felt amazing. More recently, I've learned that the toxins released during the psychedelic parasite cleanse actually block a lot of the benefits that we can get from the experience. Binding those toxins or protecting the brain from them is crucial for max benefits. I explain my methods for doing so in my [Altered States Guide](http://badtrips.u-dont-exist.com/).",
+   "fixes": [
+    {
+     "was": "on its own, but slowly,",
+     "now": "on its own, but [slowly](https://pmc.ncbi.nlm.nih.gov/articles/PMC8879420),",
+     "why": "citation link put back"
+    },
+    {
+     "was": "(He, et al, 2005)",
+     "now": "([He, et al, 2005](https://pmc.ncbi.nlm.nih.gov/articles/PMC1193648))",
+     "why": "citation link put back"
+    },
+    {
+     "was": "(Shao, et al, 2021)",
+     "now": "([Shao, et al, 2021](https://pubmed.ncbi.nlm.nih.gov/34228959/))",
+     "why": "citation link put back"
+    },
+    {
+     "was": "which DeltaFosB plays a role in. \n",
+     "now": "which DeltaFosB plays a role in.\n",
+     "why": "the trailing space"
+    },
+    {
+     "was": "apart from the principle ones studied",
+     "now": "apart from the principal ones studied",
+     "why": "a misspelling"
+    },
+    {
+     "was": "[my iboga guide](iboga.u-dont-exist.com)",
+     "now": "[my iboga guide](http://iboga.u-dont-exist.com/)",
+     "why": "the address as his other links to the guide have it"
+    },
+    {
+     "was": "[loveyhuasca](soma.u-dont-exist.com)",
+     "now": "[loveyhuasca](http://soma.u-dont-exist.com/)",
+     "why": "the address as his other link to soma has it"
+    },
+    {
+     "was": "[Altered States Guide] (badtrips.u-dont-exist.com)",
+     "now": "[Altered States Guide](http://badtrips.u-dont-exist.com/)",
+     "why": "a space that broke the link, and the address"
+    }
+   ],
+   "comment": "i'm sure if i wrote this article myself it would have been a lot better. i'm strugglin to resurrect it from gemini's version to something more useful lol"
+  },
+  "SC-52": {
+   "status": "approved",
+   "line": 106,
+   "old": "The Problem: \"Brain Fog\" is often a fuel crisis. Trauma causes cerebral insulin resistance--your neurons are swimming in glucose (sugar) but cannot burn it. The engine is flooded.",
+   "new": "The Problem: \"Brain Fog\" may partly be a fuel problem. In brain scans of people with PTSD, some regions burn less glucose (sugar), and the less they burn, the worse the symptoms ([Jeong, et al, 2019](https://pmc.ncbi.nlm.nih.gov/articles/PMC6820768)).",
+   "fixes": [],
+   "comment": ""
+  },
+  "SC-53": {
+   "status": "approved",
+   "line": 108,
+   "old": "The Fix: If the brain cannot burn sugar, we switch fuels. We use PQQ to boost ATP, and Ketones, which bypass the broken glucose pathways and enter the mitochondria directly. This turns the lights back on immediately. We alternate hot and cold showers to [boost p131](https://www.rockefeller.edu/news/38266-increasing-the-level-of-the-protein-pi31-demonstrates-neuroprotective-effects-in-mice/) and heat shock proteins and reduce inflammation.",
+   "new": "The Fix: If the brain is burning less sugar, we give it another fuel. Ketones are its backup fuel, and brains that take up less glucose (as in early Alzheimer's) still take up ketones normally ([Cunnane, et al, 2016](https://www.frontiersin.org/journals/molecular-neuroscience/articles/10.3389/fnmol.2016.00053/text)). PQQ made mouse cells build more mitochondria, the parts of the cell that burn fuel ([Chowanadisai, et al, 2010](https://pmc.ncbi.nlm.nih.gov/articles/PMC2804159)); whether it does that in the human brain hasn't been shown.",
+   "fixes": [],
+   "comment": ""
+  },
+  "SC-56": {
+   "status": "approved",
+   "line": 114,
+   "old": "The Fix (\"The Jammer\"): Memories require visual processing power to be restored. If you occupy the Visual-Spatial Working Memory (e.g., playing Tetris) during the critical window *after* a flashback, the brain fails to \"save\" the visual details. The memory is restored, but the emotional \"sting\" is permanently reduced.",
+   "new": "The Fix (\"The Jammer\"): Memories require visual processing power to be restored. If you occupy the Visual-Spatial Working Memory (e.g., playing Tetris) during the critical window *after* a flashback, the brain fails to \"save\" the visual details as strongly, and the memory flashes back less often. In the lab, a reminder of a day-old memory followed by Tetris cut its flashbacks, and neither one alone did ([James, et al, 2015](https://pubmed.ncbi.nlm.nih.gov/26133572/)).",
+   "fixes": [],
+   "comment": ""
+  },
+  "SC-57": {
+   "status": "approved",
+   "line": 116,
+   "old": "Instead of Tetris (which requires app/phone), you can use the \"Color-Path Connect\" method. This is more effective than simple counting because it forces your brain to map 3D space, which directly competes with the visual \"saving\" of a traumatic memory.",
+   "new": "Instead of Tetris (which requires app/phone), you can use the \"Color-Path Connect\" method. It hasn't been tested the way Tetris has, but it is built on the same idea: it makes your brain map 3D space, which competes with the visual \"saving\" of a traumatic memory. Skip counting and word games, though: in the lab, a verbal quiz game after a trauma film led to more flashbacks, not fewer ([Holmes, et al, 2010](https://pubmed.ncbi.nlm.nih.gov/21085661/)).",
+   "fixes": [],
+   "comment": ""
+  }
+ }
+}

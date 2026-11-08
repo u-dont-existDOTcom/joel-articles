@@ -1,23 +1,30 @@
 # Bad Trips guide: questions for Joel
 
-Updated 2026-11-04 (turn 8, his round-4 answers of 14:58 UTC in). Status: **open** = waiting on you, **next** = I do it once you
+Updated 2026-11-08 (turn 26, his round-24 answers of 15:01 UTC in). Status: **open** = waiting on you, **next** = I do it once you
 answer, **done** = answered.
 Answer under an item's number in a message.
 
 ## Open
 
-1. **open — Round 5: two paragraphs, in your words.** The CBD paragraph: you asked me to make it pass Pangram, and four
-   versions all read AI, three of mine and one by GPT. The first five minutes' dangers paragraph: my versions read AI
-   too, and the readers say it lacks what only you can give it (first person, something at stake); most of the guide's
-   how-to sections are like it, so your version shows me how to do the rest. Each card has the Pangram links, what the
-   readers saw, and the points it has to keep. On round 5's page (Bad Trips Guide, Round 5, in your claude.ai artifacts; the cards as text:
-   [REVIEW-R05.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261103/articles/bad-trips/review/r05/REVIEW-R05.md)).
+1. **open — Round 25: one card.** Why Bad Trips Tend to Happen is now said once under your (Re)defining "Bad Trip", and
+   its line "Every hard experience can feel like a profound lesson. But sometimes the lesson is just to lower the dose or
+   stop the practice ..." repeats what the first five minutes, your Give the Session and your (Re)defining say. It holds
+   a warning the fidelity check protects, so its cut is your call. On round 25's page (Bad Trips Guide, Round 25,
+   https://claude.ai/artifact/3dKpHXmFwMSLYxDE2i9yiL; the card as text:
+   [REVIEW-R25.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261105/articles/bad-trips/review/r25/REVIEW-R25.md)).
 
 ## Your tasks
 
 None right now.
 
 ## Decisions on record
+
+His round-24 answers of 2026-11-08 15:01 UTC, on [round 24's cards](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261105/articles/bad-trips/review/r24/REVIEW-R24.md):
+both teaching cards revised with his own versions, all four in as he sent them ("themself" fixed): the reminder, the
+anchor line and don'ts, (Re)defining "Bad Trip" ("a little bit less redundant") and Give the Session. With them:
+"there's still way too much duplication here" (Why Bad Trips Tend to Happen, now said once under his (Re)defining) and
+"let's make sure this guide is not assuming people are taking a drug" (16 lines changed). Rounds 5 to 23 were answered
+on the other account; the handoff note's entries have each one.
 
 His round-4 answers of 2026-11-04 14:58 UTC, on [round 4's cards](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261103/articles/bad-trips/review/r04/REVIEW-R04.md):
 all 5 approved and in the guide; W-CBD2 with "now fix it so it passes pangram" (round 5). His message "updated the web

@@ -6,7 +6,7 @@
 
 # Inner Signal App to the Rescue!
 
-I developed the [**Inner Signal app**](http://innersignalselfhypnosis.com/integrate) from my [Inner Child Reparenting](http://innerchild.u-dont-exist.com/) and [Self-Hypnosis](http://hypnosis.u-dont-exist.com/) guides, along with my [sleep guide](http://sleep.u-dont-exist.com/), [meditation guidance](http://mindset.u-dont-exist.com/), and this bad-trips guide. It can gently guide you through reparenting in trance – or without trance when you're already altered – choose meditations that fit what's actually happening, and help you through difficult altered states. If you prefer the old-fashioned method of reading and applying things yourself, read on.
+I developed the [**Inner Signal app**](http://innersignalselfhypnosis.com/integrate) from my [Inner Child Reparenting](http://innerchild.u-dont-exist.com/) and [Self-Hypnosis](http://hypnosis.u-dont-exist.com/) guides, along with my [sleep guide](http://sleep.u-dont-exist.com/), [meditation guidance](http://mindset.u-dont-exist.com/), and this bad-trips guide. It can gently guide you through reparenting in trance--or without trance when you're already altered--choose meditations that fit what's actually happening, and help you through difficult altered states. If you prefer the old-fashioned method of reading and applying things yourself, read on.
 
 ---
 
@@ -22,7 +22,7 @@ I developed the [**Inner Signal app**](http://innersignalselfhypnosis.com/integr
 - Dangerous overheating, severe rigidity, or clonus with fever
 - Sudden one-sided weakness, loss of speech, inability to walk normally, or loss of control of bodily functions
 - A report that the brain feels damaged when the person cannot complete a basic neurological check or is rapidly worsening
-- Severe, worsening, radiating, or exertional chest pain – or chest pain with breathlessness, sweating, faintness, neurological changes, or collapse
+- Severe, worsening, radiating, or exertional chest pain--or chest pain with breathlessness, sweating, faintness, neurological changes, or collapse
 - Serious injury, uncontrolled bleeding, or a possible head or spinal injury
 - Repeated vomiting, severe dehydration, blood, or severe abdominal pain
 - Violence, self-harm, or a situation the sitter cannot physically contain
@@ -53,7 +53,7 @@ An emergency means act now. It does not always mean that an ambulance is the fir
 
 When the person is breathing normally, not dangerously hot, not seizing, has no neurological-injury concern, remains conscious enough to cooperate, and can be kept physically safe, calming and stabilizing the trip may be enough.
 
-The emergency room is not magic, and for a physiologically stable psychedelic crisis it may be a poor environment. A scared, psychotic-feeling person often receives a benzodiazepine; those drugs don't reliably address psychosis and can cause paradoxical agitation or fear in some people. Antipsychotics may work better for psychosis, but they carry their own risks and interactions, often administered by someone who doesn't know what was taken.
+The emergency room is not magic, and for a physiologically stable psychedelic or practice-induced crisis it may be a poor environment. A scared, psychotic-feeling person often receives a benzodiazepine; those drugs don't reliably address psychosis and can cause paradoxical agitation or fear in some people. Antipsychotics may work better for psychosis, but they carry their own risks and interactions, often administered by someone who doesn't know what was taken, if anything.
 
 ![](https://substack-post-media.s3.amazonaws.com/public/images/d463e09a-821b-4254-aa6b-0b1d770c3b80_1122x1402.png)
 
@@ -101,11 +101,11 @@ A token dose may not be enough. On multiple occasions, I have dissolved **Dead S
 
 Interestingly, magnesium taken before the MDMA peak also makes the peak less euphoric for me. That suggests it may both meet a rapidly increasing magnesium need and directly moderate part of MDMA's excitatory effect. For harm reduction, slightly less euphoria is a reasonable price for a relaxed jaw and what appears in my experience to be a much lower risk of the state escalating.
 
-My second wife had severe convulsions after an MDMA overdose. At the hospital, her potassium was found to be critically low – described to me as essentially zero – and IV potassium was the only treatment they gave her. That experience is why I treat serious MDMA toxicity as a broader electrolyte emergency, even though magnesium is the first and most useful early intervention when jaw tension appears.
+My second wife had severe convulsions after an MDMA overdose. At the hospital, her potassium was found to be critically low--described to me as essentially zero--and IV potassium was the only treatment they gave her. That experience is why I treat serious MDMA toxicity as a broader electrolyte emergency, even though magnesium is the first and most useful early intervention when jaw tension appears.
 
 Jaw tension should also mean no more MDMA, less exertion and heat, and closer monitoring. Worsening headache, confusion, vomiting, weakness, palpitations, collapse, or seizure raises concern about sodium, potassium, temperature, hydration, kidneys, and broader toxicity. MDMA is documented to cause [acute kidney injury through several pathways](https://pubmed.ncbi.nlm.nih.gov/27917269/), and controlled research confirms that [hyponatremia can occur after a single dose](https://pubmed.ncbi.nlm.nih.gov/39546312/).
 
-**People with impaired kidneys do need to be more cautious with large, rapid magnesium doses because they may not clear magnesium normally. But they should be far more worried about the MDMA.** MDMA can cause overheating, rhabdomyolysis, dangerous electrolyte shifts, and acute kidney injury. Kidney impairment is a strong reason not to take MDMA – not a reason to sit there with worsening jaw tension after taking it. I would not tell somebody with serious kidney impairment to copy my one-gram-per-minute approach blindly; I would tell them to treat the situation as higher-risk and get help sooner.
+**People with impaired kidneys do need to be more cautious with large, rapid magnesium doses because they may not clear magnesium normally. But they should be far more worried about the MDMA.** MDMA can cause overheating, rhabdomyolysis, dangerous electrolyte shifts, and acute kidney injury. Kidney impairment is a strong reason not to take MDMA--not a reason to sit there with worsening jaw tension after taking it. I would not tell somebody with serious kidney impairment to copy my one-gram-per-minute approach blindly; I would tell them to treat the situation as higher-risk and get help sooner.
 
 ## Chest Pain and Injury
 
@@ -113,7 +113,7 @@ DMSO is also my first remedy for many injuries and some chest pain. After I over
 
 The cardiovascular science is preclinical but relevant. In rats, DMSO pretreatment reduced myocardial infarct size by about three quarters and sharply reduced cardiac injury markers. Other work found inhibition of tissue factor, platelet activation, and arterial thrombus formation. [Myocardial-ischemia study](https://pubmed.ncbi.nlm.nih.gov/19904216/); [tissue-factor and thrombosis study](https://pubmed.ncbi.nlm.nih.gov/17000906/); [human platelet study](https://pubmed.ncbi.nlm.nih.gov/20035720/).
 
-Mild, familiar, non-progressive discomfort in a fully alert person is different from new, severe, persistent, worsening, radiating, or exertional pain – or pain with breathlessness, sweating, faintness, neurological changes, or collapse. In the second branch, I would use DMSO while arranging medical evaluation. If you're not sure which branch it is, treat it as the second. DMSO can also block pain signals, so pain relief alone does not prove that the underlying problem has ended.
+Mild, familiar, non-progressive discomfort in a fully alert person is different from new, severe, persistent, worsening, radiating, or exertional pain--or pain with breathlessness, sweating, faintness, neurological changes, or collapse. In the second branch, I would use DMSO while arranging medical evaluation. If you're not sure which branch it is, treat it as the second. DMSO can also block pain signals, so pain relief alone does not prove that the underlying problem has ended.
 
 ## Recent Oral Toxic Ingestion
 
@@ -154,7 +154,7 @@ This is a recognition aid rather than a command to wait for every criterion befo
 
 # My Acute Rescue Hierarchy
 
-This hierarchy is for acute situations, including emergencies – not merely uncomfortable trips.
+This hierarchy is for acute situations, including emergencies--not merely uncomfortable trips.
 
 In general it's good to try all these things in very low, increasing doses before they are needed in crisis.
 
@@ -189,7 +189,7 @@ For my ozonated zeolite, I mix the powder into water and use an ozone-water puri
 
 I also keep zeolite away from metal during preparation. Zeolite adsorbs metals, which is part of why it is used for heavy-metal removal, and I don't want it sitting against a metal vessel or utensil before ingestion. I use glass for ozonation and storage whenever possible.
 
-Most sober people don't feel much from zeolite. Its effect becomes more obvious when a trip has a toxic or gut-driven component. I put a spoonful into water – some people need a teaspoon, others a tablespoon – and sip slowly. Rubbing it on the body or simply holding the jar also helps me.
+Most sober people don't feel much from zeolite. Its effect becomes more obvious when a trip has a toxic or gut-driven component. I put a spoonful into water--some people need a teaspoon, others a tablespoon--and sip slowly. Rubbing it on the body or simply holding the jar also helps me.
 
 #### Actual Activated Charcoal
 
@@ -207,13 +207,13 @@ When ozonated zeolite and ferment don't help, I consider nausea caused by an exc
 
 #### [Coffee Cherry](http://coffeecherry.u-dont-exist.com/) for Nausea and Brain Recharge
 
-Eating a couple of coffee cherries helps my nausea. It can make a trip blissful and sleepy for a few hours, followed later by intense mental clarity and physical energy – almost like a perfected amphetamine. It may also extend the trip. That can be useful and healthy when planned, but I wouldn't reach for it first when somebody is already becoming manic.
+Eating a couple of coffee cherries helps my nausea. It can make a trip blissful and sleepy for a few hours, followed later by intense mental clarity and physical energy--almost like a perfected amphetamine. It may also extend the trip. That can be useful and healthy when planned, but I wouldn't reach for it first when somebody is already becoming manic.
 
 ---
 
 ### When the Goal Is to Stop a Psychedelic Trip
 
-#### Beach Morning Glory – *Ipomoea pes-caprae*
+#### Beach Morning Glory--*Ipomoea pes-caprae*
 
 By beach morning glory I mean *Ipomoea pes-caprae*, rather than morning-glory plants in general. The distinction matters. I have tried many related plants and cousins, and they did not work the same way. As far as I know, nobody else sells it.
 
@@ -265,7 +265,7 @@ I have even watched the water calm a crying baby through touch alone. No ozone g
 
 Earlier in my experiments, **I made the mistake of directly smelling ozone gas** during a psychedelic state. It intensified the experience and became mentally alarming. DMSO didn't help that situation, while aged ozonated-charcoal water helped rapidly. I don't recommend inhaling ozone. The mistake showed me that DMSO and aged ozonated-charcoal water address different kinds of overload.
 
-Without an ozone-water purifier – which can cost around $20 on Amazon – boiling water with charcoal gives some of the benefit. Touching or holding shungite can also feel similar to holding cleaned zeolite. Shungite pendants are sold on Amazon. Shungite should not be drunk unless it has been properly washed of heavy metals.
+Without an ozone-water purifier--which can cost around $20 on Amazon--boiling water with charcoal gives some of the benefit. Touching or holding shungite can also feel similar to holding cleaned zeolite. Shungite pendants are sold on Amazon. Shungite should not be drunk unless it has been properly washed of heavy metals.
 
 #### [**DMSO**](http://dmso.u-dont-exist.com/)
 
@@ -289,7 +289,7 @@ It overlaps with aged ozonated-charcoal water, but the two don't always work equ
 **Contraindications:**
 
 - DMSO has produced both anticonvulsant and proconvulsant effects depending on dose and seizure model. I consider it a plausible adjunct for excitotoxic or temporal-lobe-type seizure activity, not a proven universal seizure rescue.
-- It may worsen a cluster headache, even though rubbing DMSO – especially with magnesium chloride – on the head can alleviate tension headaches.
+- It may worsen a cluster headache, even though rubbing DMSO--especially with magnesium chloride--on the head can alleviate tension headaches.
 - It may release histamine in some people. Use caution with MCAS.
 
 ---
@@ -323,7 +323,7 @@ Useful substances can still be poor rescue tools when somebody is already destab
 
 I would also be extremely careful with *Acacia confusa* eaten with *Mimosa hostilis*. For me, that combination produced hellishly intense psychosis-like and autism-like states before transforming into a week of extraordinary creativity and joy. The later benefit did not make the crisis recommendable.
 
-[Iboga](http://iboga.u-dont-exist.com/) – especially male iboga – potentiates many drugs and can be dangerous. A low amount combined well for me; doubling it became dangerously intense. I include that only as a warning.
+[Iboga](http://iboga.u-dont-exist.com/)--especially male iboga--potentiates many drugs and can be dangerous. A low amount combined well for me; doubling it became dangerously intense. I include that only as a warning.
 
 ---
 
@@ -353,9 +353,7 @@ Anything that could let someone hurt themselves in the next five minutes takes p
 
 They're feeling overwhelmed, so dim the lights, and clear out the extra people around them.
 
-Then remind them where they are and what's happening, since a trip can make them lose track of it:
-
-> You're in *[place]*. It's *[date/time]*. You took *[substance, if known]*, and its effects will peak and then change.
+Sometimes it can be helpful to remind them where they are and what's happening, since a trip can make them lose track of the fact that they took a substance which has temporary effects.
 
 If a practice like meditation or fasting brought this on, have them stop it now, since doing more of it only makes this stronger. There's no drug wearing off here, so it could be over soon or take a while.
 
@@ -437,9 +435,9 @@ Stay present. If it helps, you can say to yourself: *This feeling is allowed to 
 
 ### Don't
 
-- Don't try to win an argument with visions, entities, memories, or cosmic conclusions. Don't validate harmful conclusions. Reflect the feeling and redirect toward safety, non-harm, sleep, and ordinary reality.
-- Don't tell somebody they are crazy, broken, weak, punished, or failing the medicine.
-- Don't force eye contact, touch, music, prayer, chanting, interpretation, confession, or insight.
+As the person helping, you want to play the role of the calm, caring anchor to the safe present moment, not the witch doctor guru who knows magic spells.
+
+So don't try to win an argument with their visions, the entities they spoke to, the memories that surfaced, or whatever cosmic conclusions they reached ten minutes ago... But don't let silence validate anything harmful either, like a plan that ends with somebody getting hurt. If they're being attacked by a demon, let your care help them connect to love, which cancels fear. Hopefully they've been practicing that prior. Don't encourage them to believe they are crazy, impure, weak or broken. While many interpretations are possible, a therapeutic one would not be that they're being punished or failing the medicine. Don't force eye contact, touch, music, prayer, chanting, a confession or an insight on them. After they've slept, they may wish to talk more about their experience.
 
 ### When the Content Turns Toward Harm
 
@@ -474,7 +472,7 @@ Choose one or two options rather than all of them. Twelve simultaneous technique
 
 **A familiar object**
 
-- Choose it while sober and regulated: a childhood toy, stuffed animal, note, photograph, blanket, stone, or another object that represents your inner Nurturer or Protector – the adult part of you that offers care or safety.
+- Choose it ahead of time, while calm and regulated: a childhood toy, stuffed animal, note, photograph, blanket, stone, or another object that represents your inner Nurturer or Protector--the adult part of you that offers care or safety.
 - During a difficult state, let it remind you what you already decided: "I'm here. I protect this body. No big decisions tonight."
 - Use it as a cue, not an oracle. It does not issue commands or interpret the trip.
 - Pair the comfort with one adult action: contact the grounded person, move away from danger, drink some water when safe, or prepare for sleep.
@@ -511,13 +509,13 @@ Choose one or two options rather than all of them. Twelve simultaneous technique
 **Time**
 
 - Say the date, place, and approximate time.
-- Remember that substance effects usually rise, peak, and change.
+- Remember that these states usually rise, peak, and change.
 - Put every big decision into tomorrow's notebook.
 
 **Ordinary world**
 
 - Eat simple healthy food, such as fruit, when you can.
-- Walk slowly with a sober person in a safe environment.
+- Walk slowly with a clear-headed person in a safe environment.
 - Go outside only away from roads, heights, crowds, and water.
 - Avoid strenuous exercise with overheating, chest pain, faintness, severe confusion, stimulant use, an unknown mixture, or any medical concern.
 
@@ -533,11 +531,11 @@ An intense altered state can make everything feel final, cosmic, and urgent, and
 
 Until you have slept and eaten, maybe don't drive, travel, break up, make up, quit your job, confess everything, confront or accuse that list of people you've been meaning to... Think twice before sending whatever ridiculous message you're planning on to Judge Amos, posting that revelation you'll forget tomorrow, giving away your BMW, buying a new BMW. After you decide that you are permanently enlightened or permanently damaged, and you explained the whole universe to your parents in 42 seconds, you can still change your mind the next day.
 
-**Write it down, get some sleep, and go back over it sober with one grounded person.**
+**Write it down, get some sleep, and go back over it with one grounded person once your head is clear.**
 
-Treat trip content first as **experience-content**, rather than fact-content. Because you saw it, it might feel like you have to act on it, and because it felt cosmic, obeying it might seem wise. But more likely you had an experience, and it can wait for you to be sober.
+Treat trip content first as **experience-content**, rather than fact-content. Because you saw it, it might feel like you have to act on it, and because it felt cosmic, obeying it might seem wise. But more likely you had an experience, and it can wait until the state has passed.
 
-**No revelation makes murder, assault, coercion, sexual boundary-crossing, reckless driving, or self-harm safe tonight.** Anything requiring violated consent or harm belongs in the notebook until sober review.
+**No revelation makes murder, assault, coercion, sexual boundary-crossing, reckless driving, or self-harm safe tonight.** Anything requiring violated consent or harm belongs in the notebook until you can review it with a clear head.
 
 ![](https://substack-post-media.s3.amazonaws.com/public/images/82a089c6-bd6f-4fa8-86ec-a359a5905538_1122x1402.png)
 
@@ -554,9 +552,29 @@ The revelation will still exist after breakfast. If it is true, it survives slee
 
 ## (Re)defining "Bad Trip"
 
-Some people call shadow work a bad trip, especially when they had no intention of doing shadow work that day. Other bad trips seem unrelated to shadow work, although any negative experience can lead into it. Samsara offers no shortage of difficult experiences to process. It still makes sense to reduce present-moment trauma so we can address what was already there.
+A bad trip is one of those terms thrown around very loosely in the psychedelic space. It can refer to various things which may be intertwined.
 
-When too much hits you at once, your nervous system can become flooded, nothing makes sense, and we call it a bad trip. It might feel in the moment like you're damaged for good, or that you're being punished for being spiritually impure. But more likely factors include the dose of what drug(s) you took and how your body handles them. Old painful memories could have been triggered, or you may have gone in with a fearful mindset, or the setting or people around you could have fed into it. Be kind to yourself or to whoever's going through it, because blaming anyone only makes it heavier.
+When too much hits you at once, your nervous system can become flooded, and nothing makes sense, even as the brain still tries to derive meanings that might create unhelpful feedback loops. Underlying those interpretations are factors like the dose of what drug(s) you took and how your body handles them, or how hard you pushed a practice. Old painful memories could have been triggered, or you may have gone in with a fearful or unloving mindset, or the setting or people around you could have fed into it. Be kind to yourself or to whoever's going through it, because blaming anyone only makes it heavier.
+
+Some say there's no such thing as a bad trip, because it's all a doorway to shadow work. But if you had no intention of doing shadow work, that explanation might have come too late. Other bad trips seem unrelated to shadow work, although any negative experience can lead into it. Samsara offers no shortage of difficult experiences to process. It still makes sense to reduce present-moment trauma so we can address what was already there.
+
+Sometimes focusing on what we want makes the blockage visible:
+
+![Universe Sends What You Need](https://substack-post-media.s3.amazonaws.com/public/images/39743f7e-c7cd-4db7-933c-aa35a381f5b5_911x1600.jpeg)
+
+A bad trip or destabilizing state may also come from drug interactions, sleep deprivation, cannabis, hunger, dehydration, sexual or social pressure, medical symptoms, psychosis-like symptoms, fasting, intense breathwork, meditation overload, or retreat pressure.
+
+Every hard experience can feel like a profound lesson. But sometimes the lesson is just to lower the dose or stop the practice, get some sleep and something to eat, pick safer people, and admit that the room is bad.
+
+Cognitive distortions from Cognitive Behavioral Therapy (CBT) can create or prolong the crisis:
+
+- **Catastrophizing:** "This will never end."
+- **Emotional reasoning:** "It feels true, so it must be true."
+- **Mind reading:** "Everyone can see I am broken."
+- **Fortune-telling:** "My life is ruined now."
+- **All-or-nothing thinking:** "Either I am enlightened or I am doomed."
+- **Personalization:** "This cosmic horror is specifically my fault."
+- **Spiritual bypassing:** "Because everything is love, I don't need boundaries, doctors, sleep, or consequences."
 
 ## Spiritual ≠ "Getting Your Ass Kicked"
 
@@ -564,7 +582,7 @@ The triage above is meant to make trips useful. Some people believe they deserve
 
 This is one side of the difference between [spiritual bypassing](http://goenka.u-dont-exist.com) and [spiritual practice](http://nibbana.u-dont-exist.com):
 
-Bypassing reaches for an ultimate view – "we are all One," "I don't exist," "this is all karma," "everything is Love" – while ignoring the person shaking in the corner.
+Bypassing reaches for an ultimate view--"we are all One," "I don't exist," "this is all karma," "everything is Love"--while ignoring the person shaking in the corner.
 
 Practice says love is here, so we make the room safer, call for help when needed, stop pretending, and hold the experience without becoming it.
 
@@ -576,7 +594,7 @@ A well-rounded trip should offer practical lessons and contact with suffering as
 
 Many people meditate or take psychedelics to feel good. I am definitely one of them, and Buddha also said meditation should generally feel good. My friend Eshwar, however, found that shadow work made up about 99% of his path to heart-chakra awakening.
 
-Modern people carry so much trauma – and some people did even in Buddha's time – that shadow work and inner-child reparenting may need to come first, even before authentic liberation from the identity illusion.
+Modern people carry so much trauma--and some people did even in Buddha's time--that shadow work and inner-child reparenting may need to come first, even before authentic liberation from the identity illusion.
 
 When shadow work is bypassed in meditation and therapy, it may appear in ordinary life without explaining itself. I encountered a lot of it in my first two marriages, to my bewilderment. I wish everybody could keep shadow work inside the safer rooms of meditation, therapy, journaling, prayer, and honest conversation.
 
@@ -602,42 +620,23 @@ Here's a [reddit poster ](https://www.reddit.com/r/mdmatherapy/comments/17nne25/
 
 My perspective is that these people are not correctly preparing for the [inner child reparenting](http://innerchild.u-dont-exist.com) that MDMA suddenly provides experiential access to. Because they are unprepared to make the best of the experience, and unprepared to integrate it after, it's sort of like being thrown into the deep end of a swimming pool before you learn to swim. You flail around for a bit then terrified, you go back to holding on to the wall and begging to get out. It really will take a long time to learn to swim that way, for most folks. On the other hand, without MDMA or loveyhuasca, many people are unable to really do inner child therapy, because it sounds fake to them, just as ego death sounded fake to me before I experienced it. So I think these approaches complement each other greatly.
 
-## Why Bad Trips Tend to Happen
-
-Sometimes focusing on what we want makes the blockage visible:
-
-![Universe Sends What You Need](https://substack-post-media.s3.amazonaws.com/public/images/39743f7e-c7cd-4db7-933c-aa35a381f5b5_911x1600.jpeg)
-
-That frame can be useful. It cannot be the only frame.
-
-A bad trip or destabilizing state may also come from dose, drug interactions, sleep deprivation, cannabis, hunger, dehydration, an unsafe setting, sexual or social pressure, **unresolved trauma**, panic loops, medical symptoms, psychosis-like symptoms, fasting, intense breathwork, meditation overload, retreat pressure, or simply too much too fast.
-
-Every hard experience can feel like a profound lesson. But sometimes the lesson is just to lower the dose or stop the practice, get some sleep and something to eat, pick safer people, and admit that the room is bad.
-
-Cognitive distortions from Cognitive Behavioral Therapy (CBT) can create or prolong the crisis:
-
-- **Catastrophizing:** "This will never end."
-- **Emotional reasoning:** "It feels true, so it must be true."
-- **Mind reading:** "Everyone can see I am broken."
-- **Fortune-telling:** "My life is ruined now."
-- **All-or-nothing thinking:** "Either I am enlightened or I am doomed."
-- **Personalization:** "This cosmic horror is specifically my fault."
-- **Spiritual bypassing:** "Because everything is love, I don't need boundaries, doctors, sleep, or consequences."
-
 ## Give the Session a Beginning and an End
 
 ![](https://substack-post-media.s3.amazonaws.com/public/images/5ae3cffc-d155-41ef-b1af-c547efa8f52f_1122x1402.png)
 
-For planned altered-state work, think through the beginning, middle, and end before starting.
+If you're planning a session, think through beforehand how it will start and end, and what happens in between. Rest and timing come first: don't begin already depleted, and ideally start earlier in the day, so there's time afterward for food, some normal company and most importantly, sleep.
 
-When you have a choice:
+Set up the space you'll be in, and decide ahead of time what would make you call for outside help. Go in curious about what might come up, along with gentle intentions, not harboring demands for revelations, buried memories, good cries or spiritual breakthroughs. Sometimes people find that when they prepare to purify themselves and open up to love, they don't even end up needing the experience itself. The work is already done.
 
-- **Rest and timing:** don't begin already depleted. When possible, begin earlier in the day so there is still time for the experience, food, ordinary contact, and sleep afterward.
-- **Physical safety:** know the substance and approximate dose, review combinations and medical concerns, prepare the room, and decide in advance what requires outside help.
-- **Intention without a script:** know what you are open to exploring without demanding a particular revelation, memory, emotional arc, or spiritual result.
-- **Low-directivity support:** the sitter protects safety and offers choices.
-- **Closure:** stop adding stimulation, return to the room and date, eat and hydrate when safe, write down the basic facts, and let the body understand that the session has ended.
-- **Integration time:** leave the rest of the day and, when possible, the next morning free. Sleep and food come before turning the experience into a new life plan.
+One woman I met in Kenya was going to take shrooms to fix her tobacco and marijuana addictions. Before she took the shrooms, she simply realized she was addicted to those substances because she was trying to escape anxiety. So instead, she let the anxiety come, and accepted the feeling until it left. Her addictions vanished, no shroom trip required.
+
+If you're taking a psychoactive drug, though, know what you're taking and roughly how much, and look up what it mixes badly with and any medical concerns. If you've taken this amount before, that's a good starting place to understand how it could affect you this time, although people's sensitivities can vary from one session to the next, sometimes quite dramatically. If you've never taken this dose or done this type of meditation this intensely before, make sure you're not jumping into the deep end all at once.
+
+During the experience, the sitter (the sober person with you, not literally someone sitting on your face!) keeps you safe and offers you choices if relevant.
+
+As the experience winds down, give it some closure. Stop adding stimulation (I really don't like the MDMA protocols that include redosing, as it amplifies the neurotoxicity concerns). Check where you are and what day it is. Eat and drink a bit to replenish your electrolytes.
+
+Jot down anything you want to remember before you forget, and let your body know the session is over with some gentle massage. Keep the rest of the day free, and the next morning too if possible, since your brain is still in a vulnerable, flexible, "plastic" state, and the goal is not to cement in worse new patterns than what you had before!
 
 Use this sequence for planned sessions. Once somebody is already in trouble, return to the [triage app](https://ibogaqueen.com/1625-2/) instead of trying to improve the ceremony plan.
 
@@ -650,9 +649,9 @@ A common loop is fear trying to solve fear. Terror appears, and the mind answers
 **Loop breaker:**
 
 1. **Name it:** "This is fear trying to solve fear."
-2. **Stop debating:** no metaphysics, diagnosis, or life decisions while peaking.
+2. **Stop debating:** no metaphysics, diagnosis, or life decisions at the peak.
 3. **Move down the ladder:** room → body → human → time.
-4. **Repeat:** "This is a wave. I don't have to solve it while peaking."
+4. **Repeat:** "This is a wave. I don't have to solve it at the peak."
 
 ## Dealing With Sorrow: Missing Versus [Sending Love](http://love.u-dont-exist.com/)
 
@@ -666,7 +665,7 @@ Missing someone is a contraction. There's hunger and ache in it, it keeps circli
 
 The difference is enormous.
 
-The mistake people often make in love states is simply enjoying the love – or sending heart emojis to everybody. That can feel like the whole point, and it's nice.
+The mistake people often make in love states is simply enjoying the love--or sending heart emojis to everybody. That can feel like the whole point, and it's nice.
 
 But the deepest utility is sending love to the places where love is missing.
 
@@ -713,7 +712,7 @@ When somebody is medically, physically, or psychologically too overwhelmed to re
 
 ## Abuse Memories, Recovered Memories, and Certainty
 
-Psychedelics can bring up true trauma, symbolic material, distorted fragments, fears, fantasies, archetypes, past-life narratives, and mixtures of all of them. Don't dismiss what arises. Don't treat intoxicated certainty as evidence either.
+Psychedelics and intense practices can bring up true trauma, symbolic material, distorted fragments, fears, fantasies, archetypes, past-life narratives, and mixtures of all of them. Don't dismiss what arises. Don't treat the certainty you feel in that state as evidence either.
 
 **Don't confront tonight**
 
@@ -723,7 +722,7 @@ The experience may matter deeply. It could be true psychologically, or symbolica
 
 ## Dealing With Shadow Thoughts
 
-When we try to purify the mind, something natural and frightening may happen: the opposite becomes more visible, almost like Newton's Third Law – every action arrives with an equal and opposite reaction.
+When we try to purify the mind, something natural and frightening may happen: the opposite becomes more visible, almost like Newton's Third Law--every action arrives with an equal and opposite reaction.
 
 Shadow thoughts and feelings are not inherently a problem. They co-arise naturally and do not need to be attached to, like shadows cast by objects in sunlight. I also notice them after excessive focus. The mind becomes stressed and seeks an exit from the pressure, often in the opposite direction from the focus.
 
@@ -822,13 +821,13 @@ During a trip, don't identify with every shadow thought, suppress it, confess it
 > then you and the joker
 > will have the same face.
 > 
-> – Unknown
+>--Unknown
 
 ---
 
 ## After the Storm
 
-Don't make huge decisions or diagnose yourself from an intense night. You don't need to assume every vision was literal, nor that anything you realized is actually true (or false). Ask your body what it needs from you now. I'm betting it will tell you: Give me sleep, natural food, pure water, a nice nature walk. It helps to integrate the experience via journaling your feelings, and talking with someone grounded (not the 20 chaotic people who are still coming down). To prevent your mind from giving spirituality a negative connotation, engage in some sober prayer or gentle meditation.
+Don't make huge decisions or diagnose yourself from an intense night. You don't need to assume every vision was literal, nor that anything you realized is actually true (or false). Ask your body what it needs from you now. I'm betting it will tell you: Give me sleep, natural food, pure water, a nice nature walk. It helps to integrate the experience via journaling your feelings, and talking with someone grounded (not the 20 chaotic people who are still coming down). To prevent your mind from giving spirituality a negative connotation, engage in some calm prayer or gentle meditation.
 
 ![](https://substack-post-media.s3.amazonaws.com/public/images/287aef23-c49e-4977-a360-504aa2b632e4_1122x1402.png)
 
@@ -837,7 +836,7 @@ Don't make huge decisions or diagnose yourself from an intense night. You don't 
 When symptoms linger, name the pattern rather than collapsing everything into "I'm broken." Different patterns need different support.
 
 - **Anxiety and fear:** grounding, routine, reduced stimulation, CBT-style reality testing, and therapy when it persists.
-- **Sleep disturbance and nightmares:** sleep hygiene, no more substances, and professional help when severe or prolonged.
+- **Sleep disturbance and nightmares:** sleep hygiene, no more substances or intense practice, and professional help when severe or prolonged.
 - **Derealization and depersonalization:** ordinary-world grounding, exercise, nature, outside attention, less rumination, peer or family support, and therapy when needed.
 - **Visual distortions or HPPD-like symptoms:** reduce stress and substance use; seek professional support when symptoms interfere with life.
 - **Social disconnection and shame:** one or two safe humans, peer support, and no social-media crowdsourcing while raw.
@@ -877,4 +876,4 @@ and
 - ["A Method of Conducting Therapeutic Sessions with MDMA"](http://www.maps.org/images/pdf/1998_greer_1.pdf) by George R. Greer, M.D. & Requa Tolbert, M.S.N. Journal of Psychoactive Drugs  
 Excerpt:  
 "As much as possible, everything done or said in preparing clients to take this compound attempted to give this message":  
-"You are consciously taking a medicine to open yourself to whatever teachings you may need at this time. Neither you nor we know what these teachings will be or how they may occur. We will provide a safe place for your explorations, and will be available to assist you with any difficulties; but all you learn that is real comes from within you – not from us, or from the medicine itself."
+"You are consciously taking a medicine to open yourself to whatever teachings you may need at this time. Neither you nor we know what these teachings will be or how they may occur. We will provide a safe place for your explorations, and will be available to assist you with any difficulties; but all you learn that is real comes from within you--not from us, or from the medicine itself."

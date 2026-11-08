@@ -1,0 +1,67 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-08",
+ "text_sha256": "fb058e2b26bd4614193e0c5f3fcdd32041460836f7cd2d5e302cd9b6bd4a0dd8",
+ "text": "When too much hits you at once, your nervous system can become flooded, and nothing makes sense, even as the brain still tries to derive meanings that might create unhelpful feedback loops. Underlying those interpretations are factors like the dose of what drug(s) you took and how your body handles them, or how hard you pushed a practice. Old painful memories could have been triggered, or you may have gone in with a fearful or unloving mindset, or the setting or people around you could have fed into it. Be kind to yourself or to whoever's going through it, because blaming anyone only makes it heavier.",
+ "section": "(Re)defining \"Bad Trip\"",
+ "reader": "someone who had, or is sitting with, an overwhelming trip, from a drug or from a practice, wondering what a bad trip is and why it happened",
+ "sentences": [
+  {
+   "s": "When too much hits you at once, your nervous system can become flooded, and nothing makes sense, even as the brain still tries to derive meanings that might create unhelpful feedback loops.",
+   "payoff": "they recognize what the overwhelm felt like, and that the mind keeps making meanings out of it",
+   "follows": "it opens the paragraph after his line that a bad trip can mean several things: here is the first, the flood"
+  },
+  {
+   "s": "Underlying those interpretations are factors like the dose of what drug(s) you took and how your body handles them, or how hard you pushed a practice.",
+   "payoff": "they see what lies under those meanings, the dose and their body, or how hard they pushed a practice, so a state from meditation or breathwork fits too",
+   "follows": "\"those interpretations\" are S1's meanings; this says what is under them",
+   "link": "Underlying those interpretations"
+  },
+  {
+   "s": "Old painful memories could have been triggered, or you may have gone in with a fearful or unloving mindset, or the setting or people around you could have fed into it.",
+   "payoff": "they see the other causes, from their past, their mindset and the people or place",
+   "follows": "more of the factors S2 began",
+   "link": "Old painful memories could have been triggered"
+  },
+  {
+   "s": "Be kind to yourself or to whoever's going through it, because blaming anyone only makes it heavier.",
+   "payoff": "they stop blaming themselves or the person they sat with, since blame makes it heavier",
+   "follows": "having named causes, it turns to how to treat the person who had them",
+   "link": "because blaming anyone only makes it heavier"
+  }
+ ],
+ "checked": [],
+ "placement": "his (Re)defining \"Bad Trip\", second paragraph: after \"It can refer to various things which may be intertwined\", which it begins to list; before his shadow-work paragraph",
+ "opens": {
+  "first_sentence": "When too much hits you at once, your nervous system can become flooded, and nothing makes sense, even as the brain still tries to derive meanings that might create unhelpful feedback loops.",
+  "why_reading": "it names the state they would recognize in themselves: too much at once, nothing making sense"
+ },
+ "same_point": "the causes are said here and, for the ones it doesn't name, in the paragraph after the picture (\"may also come from drug interactions, sleep deprivation ...\"); the practice case also in Psychological First Aid's practice paragraph, which is about what to do, not why: none merged",
+ "needed": {
+  "reader": "a fresh Haiku agent that saw only the paragraph, its heading and what it is for, given tools/humanization/needed_read_brief.md (NEEDED-READ.md)",
+  "unneeded": [],
+  "kept": {}
+ },
+ "questions": {
+  "Q1": "PASS: each sentence opens on its point (the flood; what lies underneath; the memories, mindset and setting; be kind)",
+  "Q2": "PASS: the one instruction says what it is for (\"because blaming anyone only makes it heavier\")",
+  "Q3": "PASS: \"the dose of what drug(s) you took\" and \"how hard you pushed a practice\" name the two cases exactly",
+  "Q4": "PASS: no term a reader wouldn't know; \"a practice\" is the guide's word for meditation, breathwork, fasting and the like",
+  "Q5": "PASS: \"those interpretations\" points to S1's meanings; the memories and setting add to S2's factors; S4 turns from causes to blame",
+  "Q6": "PASS: what it feels like, then what lies under it, then the reader's response",
+  "Q7": "PASS: every cause is one this reader may have had, now including a practice",
+  "Q8": "PASS: the dose, the body and the practice are the physical factors; memories, mindset and setting the rest",
+  "Q9": "PASS: one clause added, said plainly"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

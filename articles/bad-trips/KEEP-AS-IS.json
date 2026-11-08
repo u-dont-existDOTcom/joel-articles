@@ -172,6 +172,36 @@
    "when": "2026-11-05 15:14 UTC",
    "where": "round 6, card CBD-TRIAL (his version)",
    "basis": "his answer"
+  },
+  {
+   "id": "K18",
+   "kind": "joke",
+   "quote": "not literally someone sitting on your face!",
+   "what": "His joke on the word \"sitter\", in his Give the Session. A pass looking for quips would flag it; it is his, and his section read Human, High with it (0469ebb9).",
+   "joel": "",
+   "when": "2026-11-08 15:01 UTC",
+   "where": "round 24, card TEACH-LABELS (his version)",
+   "basis": "his answer"
+  },
+  {
+   "id": "K19",
+   "kind": "choice",
+   "quote": "not the witch doctor guru who knows magic spells",
+   "what": "His picture of what the person helping is not, in his anchor line before the don'ts.",
+   "joel": "",
+   "when": "2026-11-08 15:01 UTC",
+   "where": "round 24, card TEACH-FIRM (his version)",
+   "basis": "his answer"
+  },
+  {
+   "id": "K20",
+   "kind": "voice",
+   "quote": "Hopefully they've been practicing that prior.",
+   "what": "His wry aside after the demon line, with \"prior\" used for \"beforehand\": his voice, not a typo.",
+   "joel": "",
+   "when": "2026-11-08 15:01 UTC",
+   "where": "round 24, card TEACH-FIRM (his version)",
+   "basis": "his answer"
   }
  ],
  "cuts": [
@@ -263,6 +293,24 @@
    "joel": "now it's all high conf human",
    "when": "2026-11-05 15:14 UTC",
    "where": "round 6, card MOVE-YOURS (his version)",
+   "basis": "his answer"
+  },
+  {
+   "id": "C11",
+   "quote": "It might feel in the moment like you're damaged for good, or that you're being punished for being spiritually impure.",
+   "what": "His round-22 line in (Re)defining \"Bad Trip\", cut by his round-24 version: his don'ts now say it (\"Don't encourage them to believe they are crazy, impure, weak or broken ... being punished\").",
+   "joel": "\"this looks like it's also duplicating stuff in redefining bad trip section... so let's change that to this which is a little bit less redundant\"",
+   "when": "2026-11-08 15:01 UTC",
+   "where": "round 24, card TEACH-FIRM's comment",
+   "basis": "his answer"
+  },
+  {
+   "id": "C12",
+   "quote": "and its effects will peak and then change.",
+   "what": "The first five minutes' reminder script (\"You're in [place]. It's [date/time]. You took [substance, if known], and its effects will peak and then change.\"), which his round-24 sentence replaced after his first check read it Medium (6f85cc29 to 82851dc3).",
+   "joel": "\"fixed it, now all high conf\"",
+   "when": "2026-11-08 15:01 UTC",
+   "where": "round 24, card TEACH-FIRM (his version)",
    "basis": "his answer"
   }
  ]

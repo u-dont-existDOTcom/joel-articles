@@ -397,16 +397,17 @@
     "which the next two sections are about"
    ],
    "must_contain_exact": [
-    "**Write it down, get some sleep, and go back over it sober with one grounded person.**",
+    "**Write it down, get some sleep, and go back over it with one grounded person once your head is clear.**",
     "Sleep comes before mission."
    ],
    "superseded": [
-    "2026-11-07: No Rash Actions' write-it-down line reworded by round 16's NRA-WRITE (approved; entry r16-nra-write)"
+    "2026-11-07: No Rash Actions' write-it-down line reworded by round 16's NRA-WRITE (approved; entry r16-nra-write)",
+    "2026-11-08: the write-it-down line said drug-neutrally (entry r24-no-drug-assumed); its new words checked here"
    ]
   },
   {
    "id": "t18-reminder-once",
-   "status": "applied",
+   "status": "superseded",
    "what": "the first five minutes' reminder (B243) keeps where they are, the time, what they took and that its effects will peak and then change; its last two sentences, said again in Get One Human Anchor's sitter script in the post's words (\"This is a wave. We don't have to solve your whole life right now.\"), go (experiments/t18-answers/apply_t18.py)",
    "joel": "2026-11-06 19:43 UTC: \"i'd say make the cuts regardless of pangram if it makes the guide read better, that was what we were supposed to do already prior\"",
    "must_not_contain": [
@@ -415,6 +416,9 @@
    "must_contain_exact": [
     "and its effects will peak and then change.",
     "This is a wave. We don't have to solve your whole life right now."
+   ],
+   "superseded": [
+    "2026-11-08: the reminder and its script replaced by his round-24 sentence (TEACH-FIRM; entry r24-his-versions)"
    ]
   },
   {
@@ -533,7 +537,7 @@
   },
   {
    "id": "t22-prevention-once",
-   "status": "applied",
+   "status": "superseded",
    "what": "Give the Session a Beginning and an End: \"A lot of prevention is boring: being rested, starting before everyone is exhausted, leaving time afterward, having food ready, and knowing how the session ends.\" cut: it lists ahead of time what the section's list then says item by item (experiments/t22-session/apply_t22.py)",
    "joel": "2026-11-06 19:43 UTC: \"i'd say make the cuts regardless of pangram if it makes the guide read better, that was what we were supposed to do already prior\"",
    "must_not_contain": [
@@ -542,6 +546,9 @@
    "must_contain_exact": [
     "For planned altered-state work, think through the beginning, middle, and end before starting.",
     "**Rest and timing:** don't begin already depleted."
+   ],
+   "superseded": [
+    "2026-11-08: Give the Session's opening and list replaced by his round-24 version (TEACH-LABELS; entry r24-his-versions)"
    ]
   },
   {
@@ -603,7 +610,7 @@
   },
   {
    "id": "r16-nra-write",
-   "status": "applied",
+   "status": "superseded",
    "what": "r16 card NRA-WRITE approved, put in by review/apply-20261107/apply_rounds.py (answers: articles/bad-trips/review/r16/ANSWERS-R16-20261107-db.json)",
    "joel": "2026-11-07 12:08 UTC: \"in this case i approved every single suggestion you had from all those rounds\"",
    "must_not_contain": [
@@ -611,6 +618,9 @@
    ],
    "must_contain_exact": [
     "**Write it down, get some sleep, and go back over it sober with one grounded person.**"
+   ],
+   "superseded": [
+    "2026-11-08: 'sober' said drug-neutrally under his rule of round 24 (entry r24-no-drug-assumed)"
    ]
   },
   {
@@ -639,7 +649,7 @@
   },
   {
    "id": "r18-session-force-once",
-   "status": "applied",
+   "status": "superseded",
    "what": "r18 card SESSION-FORCE-ONCE approved, put in by review/apply-20261107/apply_rounds.py (answers: articles/bad-trips/review/r18/ANSWERS-R18-20261107-db.json)",
    "joel": "2026-11-07 12:08 UTC: \"in this case i approved every single suggestion you had from all those rounds\"",
    "must_not_contain": [
@@ -647,6 +657,9 @@
    ],
    "must_contain_exact": [
     "interpretation, confession, or insight."
+   ],
+   "superseded": [
+    "2026-11-08: the Don't list replaced by his round-24 don'ts (TEACH-FIRM; entry r24-his-versions)"
    ]
   },
   {
@@ -720,7 +733,7 @@
   },
   {
    "id": "r22-teach-not-broken",
-   "status": "applied",
+   "status": "superseded",
    "what": "(Re)defining \"Bad Trip\", the not-broken paragraph: his own version from round 22's card TEACH-NOT-BROKEN (his Pangram history 68752b7e, the one that passed), with two typos fixed (\"I might feel\" to \"It might feel\", \"no that\" to \"or that\") and a double space; read Human, its window High, after the Human base (16f4706a); put in by humanize/h28-20261107/apply_h28.py (answers: review/r22/ANSWERS-R22-20261107-db.json); replaced at 15:45 UTC by his final version (Pangram history 96a465a6: he \"cleaned up the weird wording in last sentence\"), typos fixed, Human High with its last sentence Medium after the Human base (3b397872); humanize/h29-20261107/apply_his_r22.py",
    "joel": "2026-11-07 13:51 to 14:02 UTC, on round 22's card: \"here is the first version that passed: https://www.pangram.com/history/68752b7e-7d77-4416-9092-30a9c92bce4f\"; 2026-11-07 15:38 UTC: \"ok i cleaned up the weird wording in last sentence, now all is high conf human\"",
    "must_not_contain": [
@@ -733,6 +746,9 @@
     "When too much hits you at once, your nervous system can become flooded, nothing makes sense, and we call it a bad trip.",
     "It might feel in the moment like you're damaged for good, or that you're being punished for being spiritually impure.",
     "Be kind to yourself or to whoever's going through it, because blaming anyone only makes it heavier."
+   ],
+   "superseded": [
+    "2026-11-08: (Re)defining \"Bad Trip\" replaced by his round-24 version (TEACH-FIRM's comment; entry r24-his-versions)"
    ]
   },
   {
@@ -845,6 +861,55 @@
     "First 24 hours:"
    ],
    "must_contain_exact": []
+  },
+  {
+   "id": "r24-his-versions",
+   "status": "applied",
+   "what": "his round-24 versions as he sent them (typos fixed): the first five minutes' reminder; the helper's anchor line and don'ts under Don't; (Re)defining \"Bad Trip\"; Give the Session a Beginning and an End's opening to its closure (humanize/h32-20261108/apply_r24.py)",
+   "joel": "2026-11-08 15:01 UTC, round 24 (review/r24/ANSWERS-R24-20261108-1501.json): his versions, his checks 82851dc3 and 0469ebb9 (Human High); \"so let's change that to this which is a little bit less redundant\"",
+   "must_contain_exact": [
+    "Sometimes it can be helpful to remind them where they are and what's happening, since a trip can make them lose track of the fact that they took a substance which has temporary effects.",
+    "As the person helping, you want to play the role of the calm, caring anchor to the safe present moment, not the witch doctor guru who knows magic spells.",
+    "So don't try to win an argument with their visions, the entities they spoke to, the memories that surfaced, or whatever cosmic conclusions they reached ten minutes ago...",
+    "A bad trip is one of those terms thrown around very loosely in the psychedelic space.",
+    "One woman I met in Kenya was going to take shrooms to fix her tobacco and marijuana addictions.",
+    "the sitter (the sober person with you, not literally someone sitting on your face!)"
+   ],
+   "must_not_contain": [
+    "When you have a choice:",
+    "Then remind them where they are and what's happening, since a trip can make them lose track of it:"
+   ]
+  },
+  {
+   "id": "r24-why-once",
+   "status": "applied",
+   "what": "Why Bad Trips Tend to Happen said once, under his (Re)defining: its heading and 'That frame can be useful' line cut, its causes trimmed to the ones said nowhere else, its picture, causes, lesson line and thinking traps moved (humanize/h32-20261108/merge_why.py); the lesson line's cut is round 25's card WHY-LESSON-CUT (warning W102)",
+   "joel": "2026-11-08 15:01 UTC, on TEACH-LABELS: \"there's still way too much duplication here. why bad trips tend to happen the section above this, is duplicating a few other sections, including redefining a bad trip and first 5 minutes\"",
+   "must_not_contain": [
+    "## Why Bad Trips Tend to Happen",
+    "That frame can be useful. It cannot be the only frame."
+   ],
+   "must_contain_exact": [
+    "A bad trip or destabilizing state may also come from drug interactions, sleep deprivation, cannabis, hunger, dehydration, sexual or social pressure, medical symptoms, psychosis-like symptoms, fasting, intense breathwork, meditation overload, or retreat pressure."
+   ]
+  },
+  {
+   "id": "r24-no-drug-assumed",
+   "status": "applied",
+   "what": "the guide stops assuming a drug where it speaks generally: 16 lines (humanize/h32-20261108/drug_fixes.py, the list in DRUG-READ.md); his humanized lines changed only after a check read Human",
+   "joel": "2026-11-08 15:01 UTC, on TEACH-LABELS: \"also let's make sure this guide is not assuming people are taking a drug, since it's not called the bad drug trips guide.\"",
+   "must_contain_exact": [
+    "Remember that these states usually rise, peak, and change.",
+    "or how hard you pushed a practice.",
+    "think through beforehand how it will start and end",
+    "go back over it with one grounded person once your head is clear"
+   ],
+   "must_not_contain": [
+    "until sober review",
+    "while peaking",
+    "intoxicated certainty",
+    "before you take anything"
+   ]
   }
  ]
 }
