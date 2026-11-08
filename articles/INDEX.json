@@ -116442,7 +116442,7 @@
         },
         "current_state": {
           "path": "articles/bad-trips/CURRENT-STATE.md",
-          "sha256": "0e6a7b6d692f1cfb34ab836ceb3dc4b44c450e085184bba1900cafddba97f6aa"
+          "sha256": "3c2a6cf98f14f1eb53c0592f2b01a9738907c505b0ec3b6bffdf1325df9aeee6"
         }
       },
       "review": {
@@ -116471,7 +116471,7 @@
         },
         {
           "path": "articles/bad-trips/HANDOFF-bad-trips.md",
-          "sha256": "e73d3aaaf3fff71904327bc2eb9c5f86489c58f07a8e7b9b36493472ad123621",
+          "sha256": "710f078cb0501895542b6ac97e6e6fcad6ec8298cc451f23d5160a0414579755",
           "role": "humanization_working_record"
         },
         {
@@ -126292,6 +126292,11 @@
         {
           "path": "articles/bad-trips/humanize/h36-20261108/overcompletion/cut_overcompletion.py",
           "sha256": "93219569705a27092e7b6716b6d4fc9c279cf1ab245313df8ccefa0dce3594fe",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/bad-trips/experiments/t27-answers/joel-20261108-1722-1724-messages.txt",
+          "sha256": "835ba87e4cbfe28bab82acfc08ebcb1b68249aacb843e10cdfcf29b44028ccb7",
           "role": "humanization_working_record"
         }
       ]
