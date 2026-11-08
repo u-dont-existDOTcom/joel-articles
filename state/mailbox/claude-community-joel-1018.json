@@ -946,6 +946,41 @@
     }
    ],
    "recorded_utc": "2026-11-08T00:51Z"
+  },
+  {
+   "turn": "2026-11-08T11:03Z",
+   "lines_of_work": [
+    "neuro de-armoring"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "AGENTS.md 1a6b97f0, LESSON-INDEX 8faf3e83: unchanged"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "main at 33ecb1d8d: only my PR 391 since last turn"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "his answers X1108A: SC-37, SC-38, SC-42 approved; SC-37 comment disputes my reasoning on stress injury"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "browser pane tab-9 pangram, tab-8 pmc"
+    }
+   ],
+   "items": [
+    {
+     "item": "apply SC-37/38/42; recheck stress injury and swelling science (he pushed back)",
+     "outcome": "plan a whole-protocol coherence pass after the science pass, as he asked"
+    }
+   ],
+   "recorded_utc": "2026-11-08T11:04Z"
   }
  ]
 }

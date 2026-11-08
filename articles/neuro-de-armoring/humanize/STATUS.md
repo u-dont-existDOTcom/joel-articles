@@ -1,5 +1,17 @@
 # Status: neuro de-armoring humanization (newest on top)
 
+## 2026-11-08, his answers of 11:03 UTC: SC-37, SC-38, SC-42 approved and in; SC-37 rechecked; the protocol coherence read planned
+
+- Applied (`fix-20261108/x1108a/apply_x1108a.py`, APPLIED-X1108A.json): T37b (no "swell"), T38b (NMDA the calcium door,
+  GluD "another door"), B042r (the Repair, GluD clause out; FIDELITY-KEYS owner_changes W022 "GluD"). Fidelity PASS.
+- His SC-37 comment ("stress itself was shown to cause injury ... you seem to use weird/old definitions"): rechecked
+  (`x1108a/RECHECK-SC37.md`). He is right on both counts; "can injure" is backed (Bonifacino 2023, Martin and Wellman
+  2011, Andres 2013) and my card's why read as doubting it; "swell" still goes (the beads are sodium, chloride and water,
+  Hasbani 1998; no stress study reports swelling). Lessons neuro-2026-11-08d and e.
+- His question: once the science is settled, read the suggestions and the protocol as a whole. Lesson neuro-2026-11-08f:
+  science section by section, then the coherence read of the whole protocol (changes on cards), then the needed read
+  and humanizing.
+
 ## 2026-11-08, his versions of blocks 37 and 38 (00:49 UTC): both in and Human; the needed read; 39 to 41 in
 
 - His versions in (`fix-20261108/apply_his_x1107c.py`): block 37 is the text of his own last check, read back from his

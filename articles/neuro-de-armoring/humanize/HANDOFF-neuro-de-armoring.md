@@ -18,6 +18,14 @@ From an account with Desktop Commander connected to the laptop: "Continue my neu
 
 ## START HERE
 
+- **2026-11-08, after his answers of 11:03 UTC: SC-37, SC-38, SC-42 in; SC-37 rechecked (`fix-20261108/x1108a/RECHECK-SC37.md`).
+  Order from here (lesson neuro-2026-11-08f): (1) the science, section by section from C (FACTS.md flags F-1, F-4, F-5,
+  F-8 to F-11 where they fall), each on his cards; (2) the coherence read of the whole protocol against the settled
+  science (a tool whose reason is gone, doses or timings that disagree between sections, order and combinations,
+  warnings beside their tools), changes on cards; (3) the needed read and the humanizing of the rest.** Read the term in
+  its current use before arguing from it (neuro-2026-11-08d); a card that cuts part of a claim names the source for
+  what stays (neuro-2026-11-08e).
+
 - **2026-11-08, after his versions of blocks 37 and 38 (00:49 UTC): both in, both Human; blocks 39 to 41 in after the
   needed read (still AI); two science fixes to his words on cards** (`fix-20261108/RESULTS-0108.md`). New gate
   neuro-2026-11-08a: every receipt of mine needs a fresh reader's `needed` read before any rewording
