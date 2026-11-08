@@ -1,0 +1,73 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-08",
+ "text_sha256": "3005d63ebb6d507f736e390467d67fb0eb26c3d877cf69f855eba539224427c8",
+ "text": "When symptoms are still hanging around after the trip, try to name what kind they are, since \"I'm broken\" tends to swallow everything at once, and the different kinds get better with different things.\n\nIf it's mostly anxiety and fear that stayed, grounding usually helps, along with a routine that's as steady and low-key as you can make it for a while, ideally with fewer people around and less news, that kind of thing. You can also test the scary thoughts against what's happening around you, the way CBT does, although if the fear keeps coming back, that's a good time to find a therapist.\n\nIf you can't sleep, or the nightmares keep coming, look after your sleep first, before you try to make sense of anything, and stay away from more substances and from pushing your practice until it settles, which can take a little while. Get professional help if it's severe or just won't let up.",
+ "section": "After the Storm: What Kind of Aftermath Is This?",
+ "reader": "someone whose symptoms linger after a bad trip, from a drug or a practice, trying to tell which kind of aftermath it is and what helps",
+ "sentences": [
+  {
+   "s": "When symptoms are still hanging around after the trip, try to name what kind they are, since \"I'm broken\" tends to swallow everything at once, and the different kinds get better with different things.",
+   "payoff": "they work out which kind of aftermath theirs is, and why it helps to",
+   "follows": "it opens the section on what its heading asks"
+  },
+  {
+   "s": "If it's mostly anxiety and fear that stayed, grounding usually helps, along with a routine that's as steady and low-key as you can make it for a while, ideally with fewer people around and less news, that kind of thing.",
+   "payoff": "if theirs is anxiety and fear, they ground themselves and keep things steady and quiet for a while",
+   "follows": "the first kind, said as their own case",
+   "link": "If it's mostly anxiety and fear that stayed"
+  },
+  {
+   "s": "You can also test the scary thoughts against what's happening around you, the way CBT does, although if the fear keeps coming back, that's a good time to find a therapist.",
+   "payoff": "they test the scary thoughts against what is happening, and know when to find a therapist",
+   "follows": "one more thing for the same kind, and its limit",
+   "link": "You can also"
+  },
+  {
+   "s": "If you can't sleep, or the nightmares keep coming, look after your sleep first, before you try to make sense of anything, and stay away from more substances and from pushing your practice until it settles, which can take a little while.",
+   "payoff": "if theirs is sleep, they protect it first, take nothing more and push no practice until it settles",
+   "follows": "the second kind, said as their own case",
+   "link": "If you can't sleep"
+  },
+  {
+   "s": "Get professional help if it's severe or just won't let up.",
+   "payoff": "they know when the sleep problem needs a professional",
+   "follows": "the limit for the kind just named",
+   "link": "if it's severe or just won't let up"
+  }
+ ],
+ "checked": [],
+ "placement": "What Kind of Aftermath Is This?, its first three paragraphs, after the heading: the list's first two kinds as paragraphs, his Give the Session's way (CONTRAST.md)",
+ "opens": {
+  "first_sentence": "When symptoms are still hanging around after the trip, try to name what kind they are, since \"I'm broken\" tends to swallow everything at once, and the different kinds get better with different things.",
+  "why_reading": "it tells someone whose symptoms linger to work out which kind they have, because each kind gets better with something different"
+ },
+ "same_point": "none: read What Kind of Aftermath Is This? to the next heading for anxiety, sleep and professional help: the other kinds follow, each with its own help",
+ "needed": {
+  "reader": "a fresh Haiku agent given tools/humanization/needed_read_brief.md with the passage (NEEDED-READ.md, AFT3)",
+  "unneeded": [],
+  "kept": {}
+ },
+ "questions": {
+  "Q1": "PASS: each paragraph opens on the reader's situation (\"When symptoms are still hanging around\", \"If it's mostly anxiety\", \"If you can't sleep\")",
+  "Q2": "PASS: each instruction is the reader's, with what it is for",
+  "Q3": "PASS: \"more substances\" and \"pushing your practice\" name both cases",
+  "Q4": "PASS: \"CBT\" and \"grounding\" are explained earlier in the guide",
+  "Q5": "PASS: \"since\" gives the reason; \"also\" adds; \"although\" gives the limit",
+  "Q6": "PASS: name it, then each kind with its limit",
+  "Q7": "PASS: for someone whose symptoms linger now",
+  "Q8": "PASS: each remedy sits with its kind",
+  "Q9": "PASS: the labels said as the reader's cases"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

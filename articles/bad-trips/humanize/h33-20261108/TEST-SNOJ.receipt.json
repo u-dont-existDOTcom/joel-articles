@@ -1,0 +1,151 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-08",
+ "text_sha256": "0032d82c66c8e886c109824a779be603e7781fb0d5498f9d13806da9083b06f9",
+ "text": "Give the Session a Beginning and an End\n\nIf you're planning a session, think through beforehand how it will start and end, and what happens in between. Rest and timing come first: don't begin already depleted, and ideally start earlier in the day, so there's time afterward for food, some normal company and most importantly, sleep.\n\nSet up the space you'll be in, and decide ahead of time what would make you call for outside help. Go in curious about what might come up, along with gentle intentions, not harboring demands for revelations, buried memories, good cries or spiritual breakthroughs. Sometimes people find that when they prepare to purify themselves and open up to love, they don't even end up needing the experience itself. The work is already done.\n\nIf you're taking a psychoactive drug, though, know what you're taking and roughly how much, and look up what it mixes badly with and any medical concerns. If you've taken this amount before, that's a good starting place to understand how it could affect you this time, although people's sensitivities can vary from one session to the next, sometimes quite dramatically. If you've never taken this dose or done this type of meditation this intensely before, make sure you're not jumping into the deep end all at once.\n\nDuring the experience, the sitter (the sober person with you) keeps you safe and offers you choices if relevant.\n\nAs the experience winds down, give it some closure. Stop adding stimulation. Check where you are and what day it is. Eat and drink a bit to replenish your electrolytes.\n\nJot down anything you want to remember before you forget, and let your body know the session is over with some gentle massage. Keep the rest of the day free, and the next morning too if possible, since your brain is still in a vulnerable, flexible, \"plastic\" state, and the goal is not to cement in worse new patterns than what you had before!",
+ "section": "Give the Session a Beginning and an End",
+ "reader": "someone planning a session, with a substance or an intense practice, before it starts",
+ "sentences": [
+  {
+   "s": "Give the Session a Beginning and an End",
+   "payoff": "they know the section is about planning a session's start and end",
+   "follows": "the section's heading"
+  },
+  {
+   "s": "If you're planning a session, think through beforehand how it will start and end, and what happens in between.",
+   "payoff": "they plan the start, the end and the middle before the session, whatever kind it is",
+   "follows": "it opens the section on what its heading promises",
+   "link": "none: the section's first sentence after its heading"
+  },
+  {
+   "s": "Rest and timing come first: don't begin already depleted, and ideally start earlier in the day, so there's time afterward for food, some normal company and most importantly, sleep.",
+   "payoff": "they rest first and start early, so food, company and sleep fit in afterward",
+   "follows": "the first thing to plan",
+   "link": "Rest and timing come first"
+  },
+  {
+   "s": "Set up the space you'll be in, and decide ahead of time what would make you call for outside help.",
+   "payoff": "they set up the room and decide in advance what would make them call for help",
+   "follows": "the next thing to plan, the place and the limit",
+   "link": "Set up the space you'll be in"
+  },
+  {
+   "s": "Go in curious about what might come up, along with gentle intentions, not harboring demands for revelations, buried memories, good cries or spiritual breakthroughs.",
+   "payoff": "they go in curious, without demanding a particular revelation or breakthrough",
+   "follows": "from the room to the mind they bring into it",
+   "link": "Go in curious"
+  },
+  {
+   "s": "Sometimes people find that when they prepare to purify themselves and open up to love, they don't even end up needing the experience itself.",
+   "payoff": "they see that preparing with love can be enough on its own",
+   "follows": "it turns the gentle intention into what it can do",
+   "link": "Sometimes people find that"
+  },
+  {
+   "s": "The work is already done.",
+   "payoff": "they hear it said plainly: the preparation can be the whole work",
+   "follows": "it finishes the thought of the sentence before",
+   "link": "The work is already done"
+  },
+  {
+   "s": "If you're taking a psychoactive drug, though, know what you're taking and roughly how much, and look up what it mixes badly with and any medical concerns.",
+   "payoff": "if they are taking a drug, they know what and how much, and check its interactions and medical concerns",
+   "follows": "it turns back from the case that needed no trip to the reader who is taking something",
+   "link": "though"
+  },
+  {
+   "s": "If you've taken this amount before, that's a good starting place to understand how it could affect you this time, although people's sensitivities can vary from one session to the next, sometimes quite dramatically.",
+   "payoff": "they use a dose they know as a starting point, and expect their sensitivity to vary",
+   "follows": "from what to check to what a known dose tells them",
+   "link": "If you've taken this amount before"
+  },
+  {
+   "s": "If you've never taken this dose or done this type of meditation this intensely before, make sure you're not jumping into the deep end all at once.",
+   "payoff": "they don't jump in at a new dose or a new intensity of practice",
+   "follows": "the other case: a dose or practice they haven't done before",
+   "link": "If you've never taken this dose"
+  },
+  {
+   "s": "During the experience, the sitter (the sober person with you) keeps you safe and offers you choices if relevant.",
+   "payoff": "they know what the sitter does during it, and who the sitter is",
+   "follows": "from before the session to during it",
+   "link": "During the experience"
+  },
+  {
+   "s": "As the experience winds down, give it some closure.",
+   "payoff": "they close the session as it winds down",
+   "follows": "from during to the end",
+   "link": "As the experience winds down"
+  },
+  {
+   "s": "Stop adding stimulation.",
+   "payoff": "they stop adding stimulation as it ends",
+   "follows": "the first step of the closure",
+   "link": "Stop adding stimulation"
+  },
+  {
+   "s": "Check where you are and what day it is.",
+   "payoff": "they check where they are and what day it is",
+   "follows": "the next step of the closure",
+   "link": "Check where you are"
+  },
+  {
+   "s": "Eat and drink a bit to replenish your electrolytes.",
+   "payoff": "they eat and drink to replenish their electrolytes",
+   "follows": "the next step of the closure",
+   "link": "Eat and drink a bit"
+  },
+  {
+   "s": "Jot down anything you want to remember before you forget, and let your body know the session is over with some gentle massage.",
+   "payoff": "they note what they want to remember, and tell the body it's over with a massage",
+   "follows": "the next step of the closure",
+   "link": "Jot down anything"
+  },
+  {
+   "s": "Keep the rest of the day free, and the next morning too if possible, since your brain is still in a vulnerable, flexible, \"plastic\" state, and the goal is not to cement in worse new patterns than what you had before!",
+   "payoff": "they keep the rest of the day and the next morning free, and why",
+   "follows": "after the session: the time after it",
+   "link": "Keep the rest of the day free"
+  }
+ ],
+ "checked": [],
+ "placement": "a test text: his Give the Session without his story, joke and aside",
+ "opens": {
+  "first_sentence": "Give the Session a Beginning and an End",
+  "why_reading": "it tells someone planning a session to think it through first"
+ },
+ "same_point": "none: read the section from its heading to the next (The Fear/Panic Loop) for planning ahead, rest and closure: each said once",
+ "needed": {
+  "reader": "a fresh Haiku agent given tools/humanization/needed_read_brief.md with each text (NEEDED-READ.md)",
+  "unneeded": [
+   "Sometimes people find that when they prepare to purify themselves and open up to love, they don't even end up needing the experience itself.",
+   "The work is already done."
+  ],
+  "kept": {
+   "Sometimes people find that when they prepare to purify themselves and open up to love, they don't even end up needing the experience itself.": "they plan the session as preparation first, since preparing with love can be enough on its own (his line; kept for the test)",
+   "The work is already done.": "they hear that the preparation itself can be the whole work (his line; kept for the test)"
+  }
+ },
+ "questions": {
+  "Q1": "PASS: each paragraph opens on its point",
+  "Q2": "PASS: the instructions say what they are for",
+  "Q3": "PASS: \"a psychoactive drug\", \"this type of meditation\"",
+  "Q4": "PASS: \"sitter\" glossed where first used; \"plastic\" glossed",
+  "Q5": "PASS: the order of a session",
+  "Q6": "PASS: before, during, the end, after",
+  "Q7": "PASS: all for someone planning a session",
+  "Q8": "PASS: the closure steps are the end's",
+  "Q9": "PASS: one step a sentence"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}
