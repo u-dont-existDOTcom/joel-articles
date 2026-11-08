@@ -1,0 +1,186 @@
+{
+ "format": "joel-suggestion-review-answers-v1",
+ "review_id": "neuro-de-armoring-cards-20261108-x1108b",
+ "title": "Neuro De-Armoring Cards, 8 November (2): the science of sections C to E",
+ "git_file": "articles/neuro-de-armoring/humanize/fix-20261108/sci-cde/REVIEW-X1108B.html",
+ "article": {
+  "file": "articles/neuro-de-armoring/humanize/HUMANIZED-SO-FAR.md",
+  "sha256": "2e73a3b4a6bb77980d6d534fa79c0a5c8bd537af788d9def84ba7b9807f537a7"
+ },
+ "built": "2026-11-08T11:20:14Z",
+ "generator": "suggestion_review.py 1.10 (2026-11-07)",
+ "exported_at": "2026-11-08T11:59:02.830Z",
+ "counts": {
+  "approved": 5,
+  "rejected": 0,
+  "revise": 3,
+  "pending": 0
+ },
+ "items": [
+  {
+   "id": "SC-24",
+   "type": "science",
+   "title": "The relational density figure is Perry's one-sixteenth",
+   "where": "Psychology is the Software; Biology is the Hardware., P5",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "We are operating on about one-sixteenth of the relational density our biology requires (Perry, 2023). The \"Void\" you feel is real. Once you have de-armored, you cannot simply return to a lonely life. You must aggressively engineer a \"High-Density\" social environment (A Tribe), or the brain will eventually reach for the armor again just to survive the cold.",
+   "before": "We are operating on less than 1/24th of the relational density our biology requires. The \"Void\" you feel is real. Once you have de-armored, you cannot simply return to a lonely life. You must aggressively engineer a \"High-Density\" social environment (A Tribe), or the brain will eventually reach for the armor again just to survive the cold.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-08T11:30:14.479Z"
+    }
+   ],
+   "updated": "2026-11-08T11:30:14.481Z"
+  },
+  {
+   "id": "SC-47",
+   "type": "science",
+   "title": "Prozac in veterans: one small trial, and mixed results since",
+   "where": "C. The \"Hardened\" Circuit: Dynorphin & DeltaFosB, P2",
+   "advice": "approve",
+   "status": "revise",
+   "your_version": "Why Standard Meds Failed You If you have tried SSRIs (antidepressants) and failed, you are not crazy. In a small trial of male combat veterans with severe, long-term PTSD, Prozac did no better than a placebo (Hertzberg, et al, 2000). Trials in veterans have been mixed since, yet the VA still recommends sertraline and paroxetine (VA/DoD, 2023). And the side effects are well-known, including anhedonia, zombification, and sexual dysfunction.",
+   "comment": "you can't say \"they help some people\" since you showed zero evidence that they do (helping as much as placebo is not helping, and helping less than harming is not helping). the fact that the VA recommends them is not science",
+   "my_version": "Why Standard Meds Failed You If you have tried SSRIs (antidepressants) and failed, you are not crazy. In a small trial of male combat veterans with severe, long-term PTSD, Prozac did no better than a placebo (Hertzberg, et al, 2000). Trials in veterans have been mixed since, and the VA still recommends sertraline and paroxetine (VA/DoD, 2023), so they help some people, just not everyone. And the side effects are well-known, including anhedonia, zombification, and sexual dysfunction.",
+   "before": "Why Standard Meds Failed You If you have tried SSRIs (antidepressants) and failed, you are not crazy. Ipser & Stein 2012 study showed that Prozac had zero effect on male combat veterans with calcified PTSD. And the side effects are well-known, including anhedonia, zombification, and sexual dysfunction.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "rejected",
+     "at": "2026-11-08T11:31:04.184Z"
+    },
+    {
+     "from": "rejected",
+     "to": "revise",
+     "at": "2026-11-08T11:31:19.520Z"
+    }
+   ],
+   "updated": "2026-11-08T11:32:11.851Z"
+  },
+  {
+   "id": "SC-48",
+   "type": "science",
+   "title": "Why SSRIs fail some people: nobody knows; why ketones: a mouse finding",
+   "where": "C. The \"Hardened\" Circuit: Dynorphin & DeltaFosB, P3",
+   "advice": "approve",
+   "status": "revise",
+   "your_version": "Why don't these drugs on calcified PTSD? Because even if they did work for mood by modulating serotonin transmission, PTSD is not a mood disorder. That's like a bit like putting some Bengay on a broken leg.This protocol tries to get at the underpinnings of the problem. The ketone BHB blocks enzymes called HDACs (Shimazu, et al, 2013), and in mice that couldn't hold on to extinction learning (learning that a cue is now safe), an HDAC blocker made the new learning last (Whittle & Singewald, 2014). Whether ketosis does that in people hasn't been tested.",
+   "comment": "your version sounded absurd, we don't know? yes we know, it's obvious. if we don't know anything i wouldn't publish this article.",
+   "my_version": "Why don't these drugs work for everyone? Nobody knows for sure. This protocol tries something else. The ketone BHB blocks enzymes called HDACs (Shimazu, et al, 2013), and in mice that couldn't hold on to extinction learning (learning that a cue is now safe), an HDAC blocker made the new learning last (Whittle & Singewald, 2014). Whether ketosis does that in people hasn't been tested.",
+   "before": "Why don't these drugs work on calcified PTSD? Because standard serotonin drugs treat the \"software\" (mood), but they cannot penetrate the \"hardware\" (the structural changes in the amygdala caused by severe trauma). This protocol uses Ketones and HDAC Inhibitors to remodel the physical structure of the brain that resists standard medication.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "revise",
+     "at": "2026-11-08T11:32:21.225Z"
+    }
+   ],
+   "updated": "2026-11-08T11:35:44.078Z"
+  },
+  {
+   "id": "SC-50",
+   "type": "science",
+   "title": "DeltaFosB fades, slowly; what iboga and psilocybin were shown to do",
+   "where": "C. The \"Hardened\" Circuit: Dynorphin & DeltaFosB, P5",
+   "advice": "approve",
+   "status": "revise",
+   "your_version": "The Fix (The Unlock): DeltaFosB does fade on its own, but slowly, and the same fears keep making more. Along with therapy and the de-armoring supplements, we use \"System Reformats\" (Psychedelics and Iboga). Iboga raised GDNF, a growth factor that protects dopamine neurons, in rats (He, et al, 2005), and one dose of psilocybin grew new connections in mouse brains that lasted a month (Shao, et al, 2021). Whether either loosens DeltaFosB's hold hasn't been tested directly, although these have been shown to help with addictions, which DeltaFosB plays a role in. \n\nWhile the science is focused on some specific substances in certain psychedelics, like psilocybin and ibogaine, the reality is much more complicated. Each iboga tree and each mushroom strain (and phenotype) have different levels of different psychedelic alkaloids apart from the principle ones studied. You can learn more about the different types of iboga in [my iboga guide](iboga.u-dont-exist.com). Aside from the different ibogas, I find [loveyhuasca](soma.u-dont-exist.com) to be more clear-headed than shrooms and often more beneficial, although some shroom strains, like Orissa India, are much more therapeutic than others (like Golden Teacher, Penis Envy) in my experience. And part of the way these help, from my understanding, is their antiparasitic action. Each psychedelic, and even each mushroom strain seems to target a different subset of parasites, and there's an anecdote-based theory that physical parasites solidify mental and spiritual ones. I remember eating some B+ strain shrooms which people told me were very mild and gentle. For me it was the opposite, absolute hell, until a very large and strange parasite came out and then instantly I felt amazing. More recently, I've learned that the toxins released during the psychedelic parasite cleanse actually block a lot of the benefits that we can get from the experience. Binding those toxins or protecting the brain from them is crucial for max benefits. I explain my methods for doing so in my [Altered States Guide] (badtrips.u-dont-exist.com).",
+   "comment": "i'm sure if i wrote this article myself it would have been a lot better. i'm strugglin to resurrect it from gemini's version to something more useful lol",
+   "my_version": "The Fix (The Unlock): DeltaFosB does fade on its own, but slowly, and the same fears keep making more. So we use \"System Reformats\" (Shrooms/Iboga). Iboga raised GDNF, a growth factor that protects dopamine neurons, in rats (He, et al, 2005), and one dose of psilocybin grew new connections in mouse brains that lasted a month (Shao, et al, 2021). Whether either loosens DeltaFosB's hold hasn't been tested.",
+   "before": "The Fix (The Unlock): You cannot \"wait\" for this to pass. We use \"System Reformats\" (Shrooms/Iboga) to stimulate GDNF, which physically rewires the brain around these hardened loops.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "revise",
+     "at": "2026-11-08T11:36:57.036Z"
+    }
+   ],
+   "updated": "2026-11-08T11:57:17.190Z"
+  },
+  {
+   "id": "SC-52",
+   "type": "science",
+   "title": "Brain fog: some regions burn less glucose in PTSD",
+   "where": "D. The \"Lagging\" System: Toxicity & Hypometabolism (The Fog), P1",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "The Problem: \"Brain Fog\" may partly be a fuel problem. In brain scans of people with PTSD, some regions burn less glucose (sugar), and the less they burn, the worse the symptoms (Jeong, et al, 2019).",
+   "before": "The Problem: \"Brain Fog\" is often a fuel crisis. Trauma causes cerebral insulin resistance--your neurons are swimming in glucose (sugar) but cannot burn it. The engine is flooded.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-08T11:57:47.100Z"
+    }
+   ],
+   "updated": "2026-11-08T11:57:47.100Z"
+  },
+  {
+   "id": "SC-53",
+   "type": "science",
+   "title": "Ketones and PQQ, as far as they're shown; the shower sentence out",
+   "where": "D. The \"Lagging\" System: Toxicity & Hypometabolism (The Fog), P2",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "The Fix: If the brain is burning less sugar, we give it another fuel. Ketones are its backup fuel, and brains that take up less glucose (as in early Alzheimer's) still take up ketones normally (Cunnane, et al, 2016). PQQ made mouse cells build more mitochondria, the parts of the cell that burn fuel (Chowanadisai, et al, 2010); whether it does that in the human brain hasn't been shown.",
+   "before": "The Fix: If the brain cannot burn sugar, we switch fuels. We use PQQ to boost ATP, and Ketones, which bypass the broken glucose pathways and enter the mitochondria directly. This turns the lights back on immediately. We alternate hot and cold showers to boost p131 and heat shock proteins and reduce inflammation.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-08T11:58:05.036Z"
+    }
+   ],
+   "updated": "2026-11-08T11:58:05.036Z"
+  },
+  {
+   "id": "SC-56",
+   "type": "science",
+   "title": "The Jammer: fewer flashbacks, not a permanently reduced sting",
+   "where": "E. The \"Save Button\": Memory Reconsolidation, P2",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "The Fix (\"The Jammer\"): Memories require visual processing power to be restored. If you occupy the Visual-Spatial Working Memory (e.g., playing Tetris) during the critical window after a flashback, the brain fails to \"save\" the visual details as strongly, and the memory flashes back less often. In the lab, a reminder of a day-old memory followed by Tetris cut its flashbacks, and neither one alone did (James, et al, 2015).",
+   "before": "The Fix (\"The Jammer\"): Memories require visual processing power to be restored. If you occupy the Visual-Spatial Working Memory (e.g., playing Tetris) during the critical window after a flashback, the brain fails to \"save\" the visual details. The memory is restored, but the emotional \"sting\" is permanently reduced.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-08T11:58:35.621Z"
+    }
+   ],
+   "updated": "2026-11-08T11:58:35.621Z"
+  },
+  {
+   "id": "SC-57",
+   "type": "science",
+   "title": "Color-Path Connect is untested; skip verbal tasks",
+   "where": "E. The \"Save Button\": Memory Reconsolidation, P3",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "Instead of Tetris (which requires app/phone), you can use the \"Color-Path Connect\" method. It hasn't been tested the way Tetris has, but it is built on the same idea: it makes your brain map 3D space, which competes with the visual \"saving\" of a traumatic memory. Skip counting and word games, though: in the lab, a verbal quiz game after a trauma film led to more flashbacks, not fewer (Holmes, et al, 2010).",
+   "before": "Instead of Tetris (which requires app/phone), you can use the \"Color-Path Connect\" method. This is more effective than simple counting because it forces your brain to map 3D space, which directly competes with the visual \"saving\" of a traumatic memory.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-08T11:58:53.998Z"
+    }
+   ],
+   "updated": "2026-11-08T11:58:53.998Z"
+  }
+ ]
+}

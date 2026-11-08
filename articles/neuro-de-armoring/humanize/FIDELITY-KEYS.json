@@ -2508,6 +2508,38 @@
     ]
    },
    "citations_lost": []
+  },
+  {
+   "by": "fix-20261108/sci-cde/ANSWERS-X1108B-20261108-1508.json, cards SC-24, SC-52, SC-53, SC-56 and SC-57 (approved) and SC-47, SC-48 and SC-50 (his versions), 2026-11-08 (exported 11:59 UTC, sent 15:08 UTC)",
+   "why": "the science of sections C to E (SCIENCE-CDE.md): Perry's own figure, one-sixteenth, for the \"1/24th\" of a training summary (F-4); the trial the SSRI sentence describes, Hertzberg et al. 2000, for Ipser & Stein 2012, with his version saying what the VA recommends; the shower sentence out of block 53 (nothing tests showers for PI31 or heat-shock proteins; the routine goes to the coherence read). The new numbers are the years of the citations the cards add and his versions keep",
+   "numbers_lost": [
+    "1/24th",
+    "2012"
+   ],
+   "numbers_new": [
+    "2000",
+    "2005",
+    "2010",
+    "2013",
+    "2014",
+    "2015",
+    "2016",
+    "2019",
+    "2021",
+    "2023"
+   ],
+   "terms_lost": [],
+   "keys_lost": {},
+   "citations_lost": [
+    {
+     "cite": "Ipser & Stein 2012",
+     "why": "on his card: SC-47 put the trial the sentence describes, Hertzberg et al. 2000, in its place (the no-better-than-placebo result in male combat veterans is that trial's); his version of SC-47 keeps Hertzberg"
+    },
+    {
+     "cite": "Rockefeller University news on PI31, linked as \"boost p131\"",
+     "why": "on his card: SC-53 took the shower sentence out; PI31 was raised by gene therapy in mice, and nothing tests showers (F-10)"
+    }
+   ]
   }
  ],
  "warning_words": {
