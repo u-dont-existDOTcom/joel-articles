@@ -6,6 +6,7 @@ BUILT = '2026-11-08'
 H = 'https://www.pangram.com/history/'
 H33 = BLOB + 'articles/bad-trips/humanize/h33-20261108/'
 HD = BLOB + 'articles/bad-trips/humanize/h34-20261108/'
+H35 = BLOB + 'articles/bad-trips/humanize/h35-20261108/'
 
 INTRO = [
     'Round 26 (2026-11-08). What carries your round-24 versions, measured one thing at a time ([the results](%sRESULTS.md)). '
@@ -18,11 +19,13 @@ INTRO = [
     'paragraphs alone). So I stopped trying them and did what you asked first: say each thing once.' % (H33, H, H, H),
     'Two fresh readers read the stretches round 24 named against the whole guide ([What Kind of Aftermath Is '
     'This?](%sREPEATS-AFTERMATH.md), [the others](%sREPEATS-NAMED.md)). Most of what they found adds something no other '
-    'line says (a remedy, a threshold, a script line), so it stays. One sentence only repeated your After the Storm lines '
-    'and loses nothing, so it\'s gone: "Stabilize through sleep, food, routine, sober support, ordinary body, and ordinary '
-    'world." And "Zendo-style" is explained where the guide first names it: "The Zendo Project, a harm-reduction group that '
+    'line says (a remedy, a threshold, a script line), so it stays. Two lines only repeated what\'s said nearby and lose '
+    'nothing, so they\'re gone: "Stabilize through sleep, food, routine, sober support, ordinary body, and ordinary '
+    'world." (your After the Storm lines say it) and the Do list\'s "Offer choices instead of commands." (its own questions '
+    'and your don\'ts say it; [the rest of the reads](%sRESULTS.md)). And "Zendo-style" is explained where the guide first '
+    'names it: "The Zendo Project, a harm-reduction group that '
     'offers peer support at festivals and other events to people having a hard time in an altered state, sums up its '
-    'approach in four principles: ..."' % (HD, HD),
+    'approach in four principles: ..."' % (HD, HD, H35),
     'Two cards, each a cut with a small downside.',
 ]
 

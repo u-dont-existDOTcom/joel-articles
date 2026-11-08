@@ -476,8 +476,6 @@ Stay present. If it helps, you can say to yourself: *This feeling is allowed to 
 
 - Reflect without arguing: "That sounds terrifying." "I'm with you." "Let's breathe together."
 
-- Offer choices instead of commands.
-
 - Keep the room quiet, private, warm, and physically safe, and move anyone they're wary of somewhere else.
 
 - Call for help early when safety is slipping.
