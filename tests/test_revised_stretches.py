@@ -32,7 +32,7 @@ def review_for(page):
     bl = sr.blocks(page)
     i = [b['i'] for b in bl if b['text'].startswith('A common loop')][0]
     j = [b['i'] for b in bl if b['text'].startswith('Name it')][0]
-    return {'suggestions': [{'id': 'TEACH-LOOP', 'spans': [{'block': i, 'start': 0, 'end': len(bl[i]['text'])},
+    return {'suggestions': [{'id': 'TEACH-LOOP', 'advice': 'edit', 'spans': [{'block': i, 'start': 0, 'end': len(bl[i]['text'])},
                                                            {'block': j, 'start': 0, 'end': len(bl[j]['text'])}]}]}
 
 
@@ -60,6 +60,17 @@ class RevisedStretchesTest(unittest.TestCase):
         self.answers['items'][0]['comment'] += ' Name it and wait for the wave to pass before you decide anything.'
         article = PAGE.replace('A common loop is fear trying to solve fear, over and over again.', '')
         self.assertEqual(R.stale(self.answers, self.review, PAGE, article), [])
+
+    def test_insert_card_marks_a_place_only(self):
+        # an approve card that inserts a paragraph spans the block before it; his version replaces the insert, not that block
+        self.review['suggestions'][0]['advice'] = 'approve'
+        self.review['suggestions'][0]['inserts'] = [{'before': 0, 'kind': 'p', 'text': 'new'}]
+        self.assertEqual(R.stale(self.answers, self.review, PAGE, PAGE), [])
+
+    def test_revised_edit_card_checks_its_before(self):
+        self.review['suggestions'][0]['advice'] = 'approve'
+        self.review['suggestions'][0]['edits'] = [{'block': 0, 'before': 'Stay with them and keep the room calm and quiet for a while.', 'after': 'x'}]
+        self.assertEqual([c for c, _ in R.stale(self.answers, self.review, PAGE, PAGE)], ['TEACH-LOOP'])
 
     def test_approved_card_is_not_checked(self):
         self.answers['items'][0]['status'] = 'approved'
