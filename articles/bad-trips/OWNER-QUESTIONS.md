@@ -6,7 +6,7 @@ Answer under an item's number in a message.
 
 ## Open
 
-Nothing waiting on you.
+- **Round 32** (Bad Trips Guide, Round 32, https://claude.ai/artifact/CSaM2EWsDDMHMG29y8Srsb), built 2026-11-09: SEIZE-HEAD (a heading where Active Seizure's extras start: A, B or none), GROUND-ORDER (the room-first order to the Grounding Menu's top), GROUND-ROOM (Room first in the menu), SHADOW-START (a heading in The Other Bypass, or its definition and where-to-begin opening Shadow Work).
 
 ## Your tasks
 
