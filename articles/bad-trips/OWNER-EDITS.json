@@ -953,6 +953,67 @@
    "must_not_contain": [
     "### Don't\n\nAs the person helping"
    ]
+  },
+  {
+   "id": "r30-toc-a",
+   "status": "applied",
+   "what": "the contents as option A of round 30's TOC card, with the brain section kept first in the medical part and three headings renamed so readers can find them (humanize/h39-20261109/toc/plan_toc.py, review/r30/apply_r30.py)",
+   "joel": "2026-11-09 18:43 UTC (review/r30/ANSWERS-R30-20261109-1843.json, TOC): \"a sure rename them so readers can find them, and brain should be at top yeah that's kind of one of the most common things people say\"",
+   "must_contain": [
+    "## Risk of Harm: When Peer Support Isn't Enough",
+    "# My Acute Rescue Hierarchy of Remedies",
+    "### A Final Trip Killer: Niacin (a Form of Vitamin B3)",
+    "# Tripsitting Yourself or Others",
+    "# Shadow Work",
+    "### When What They Say Turns Toward Harm",
+    "## Trip After Trip? Hang up the phone, get off the Healing Treadmill",
+    "# Planning a Trip or Ceremony? Give It a Beginning and an End"
+   ],
+   "order": [
+    "# When to Bring In Outside Help",
+    "## Risk of Harm: When Peer Support Isn't Enough",
+    "## Who to Contact, and When",
+    "# Acute Medical and Neurological Rescue",
+    "## If Someone Says \"My Brain Feels Damaged\"",
+    "## Active Seizure",
+    "# My Acute Rescue Hierarchy of Remedies",
+    "## How I label the evidence",
+    "## Some Remedies Require More Caution",
+    "## Mental Stabilizers That Don't Abort the Trip",
+    "## When the Goal Is to Stop a Psychedelic Trip",
+    "# Tripsitting Yourself or Others",
+    "## Psychological First Aid: The First Five Minutes",
+    "## Grounding Menu: Choose One or Two Things",
+    "## Get One Human Anchor",
+    "# Shadow Work",
+    "# After the Storm",
+    "## What Kind of Aftermath Is This?",
+    "## Bring in mental-health support when:",
+    "## Trip After Trip?",
+    "# Planning a Trip or Ceremony?",
+    "# Appendix: Additional Resources"
+   ]
+  },
+  {
+   "id": "r30-rue-oil",
+   "status": "applied",
+   "what": "his Syrian rue oil and essential-oils entries, and the herbs named in his restlessness line (review/r30/apply_r30.py)",
+   "joel": "2026-11-09 18:43 UTC (review/r30/ANSWERS-R30-20261109-1843.json): RUE-OIL, OILS and HERBS-NAMED approved",
+   "must_contain": [
+    "### Syrian Rue Oil Makes the Trip Gentle & Sweet",
+    "### Authentic Calming Essential Oils (or a Lime Peel)",
+    "I would not assume there's no MAOI effect",
+    "like beach morning glory, Syrian rue oil or the Metta NMT sniffer"
+   ]
+  },
+  {
+   "id": "r30-rue-caution-his",
+   "status": "applied",
+   "what": "no general MAOI caution on the Syrian rue oil: he rejected one (RUE-WARN); the care is vaping the whole seeds, which his entry says, and trying any new substance in small amounts first, which My Acute Rescue Hierarchy's opening says (\"try all these things in very low, increasing doses\")",
+   "joel": "2026-11-09 18:43 UTC (review/r30/ANSWERS-R30-20261109-1843.json, RUE-WARN, rejected): \"no what they should be careful about is vaping the whole seeds, that could be more likely to have an MAOi effect, there's almost no MAOi in 1-2mL of the rue seed oil, although with any new substance people should be careful to see how it affects them with smaller amounts which i think i said somewhere.\"",
+   "must_not_contain": [
+    "How much harmine and harmaline end up in a home-made oil can vary"
+   ]
   }
  ]
 }

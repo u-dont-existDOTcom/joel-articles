@@ -1,18 +1,20 @@
 # Bad Trips guide: questions for Joel
 
-Updated 2026-11-09 (turn 30, rounds 28 and 29 answered at 17:22 UTC, round 30 out); earlier turn 29 (round 27 answered at 01:24 UTC, rounds 28 and 29 out); earlier 2026-11-08 (turn 26, his round-24 answers of 15:01 UTC in; round 26 out with the session's resume of 15:52 UTC and answered at 16:48 UTC; round 25 answered at 16:55 UTC; round 27 out at 17:52 UTC). Status: **open** = waiting on you, **next** = I do it once you
+Updated 2026-11-09 (turn 31, round 30 answered at 18:43 UTC, round 31 out); earlier turn 30 (rounds 28 and 29 answered at 17:22 UTC, round 30 out); earlier turn 29 (round 27 answered at 01:24 UTC, rounds 28 and 29 out); earlier 2026-11-08 (turn 26, his round-24 answers of 15:01 UTC in; round 26 out with the session's resume of 15:52 UTC and answered at 16:48 UTC; round 25 answered at 16:55 UTC; round 27 out at 17:52 UTC). Status: **open** = waiting on you, **next** = I do it once you
 answer, **done** = answered.
 Answer under an item's number in a message.
 
 ## Open
 
-1. **open — Round 30: the table of contents first, and your Syrian rue notes placed.** The contents card shows each option as it would read (A, my pick, B and C), with what fresh readers found reading only the contents; four cards put your Syrian rue oil and relaxing-herbs notes in the guide in your words, one of them a caution of mine. On round 30's page (Bad Trips Guide, Round 30, https://claude.ai/artifact/43k1tzziHtyWB97shMs1Xe; the cards as text: [REVIEW-R30.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261105/articles/bad-trips/review/r30/REVIEW-R30.md)).
+1. **open — Round 31: your method where people use the guide in trouble.** Three cards put a line the guide already has where it will be used (Alone at 3 a.m., the breath line, the planning section), and one asks where paranoia and derealization go, each option as it would read. On round 31's page (Bad Trips Guide, Round 31, https://claude.ai/artifact/11ksqcBLtURBBSKZYao3k4; the cards as text: [REVIEW-R31.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261105/articles/bad-trips/review/r31/REVIEW-R31.md)).
 
 ## Your tasks
 
 None right now.
 
 ## Decisions on record
+
+His round-30 answers of 2026-11-09 18:43 UTC, on [round 30's cards](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261105/articles/bad-trips/review/r30/REVIEW-R30.md): TOC "a sure rename them so readers can find them, and brain should be at top yeah that's kind of one of the most common things people say"; RUE-OIL, OILS and HERBS-NAMED approved; RUE-WARN rejected ("no what they should be careful about is vaping the whole seeds ..."). In: [apply_r30.py](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261105/articles/bad-trips/review/r30/apply_r30.py).
 
 His round-28 and round-29 answers of 2026-11-09 17:22 UTC, on [round 28's cards](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261105/articles/bad-trips/review/r28/REVIEW-R28.md) and [round 29's](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261105/articles/bad-trips/review/r29/REVIEW-R29.md): AFT-TERMS approved ("link somatic experiencing to my guide at somatic.u-dont-exist.com"); METHOD-WHERE "a", with "keep in mind how confident you are ... make sure i'm able to see the options and how theyh would really look"; LOOP-ONCE: "i thought i already merged it and cut that section in the last turn" (cut); AFT-HOW-MUCH: visual distortions stay, paranoia and derealization maybe to the outside-help section with pointers, "if it were right after this section it would be an easy choice"; HELPER-NOW: the contents first; RUE-SAFETY "a", with his notes on Syrian rue oil and the relaxing herbs; both typo fixes approved. In: [apply_r28.py](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261105/articles/bad-trips/review/r28/apply_r28.py); the rest is round 30.
 

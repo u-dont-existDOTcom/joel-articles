@@ -1,0 +1,121 @@
+{
+ "format": "joel-suggestion-review-answers-v1",
+ "review_id": "bad-trips-r30",
+ "title": "Bad Trips Guide, Round 30",
+ "git_file": "articles/bad-trips/review/r30/REVIEW-R30.html",
+ "article": {
+  "file": "articles/bad-trips/review/r30/PAGE-R30.md",
+  "sha256": "55b7c2ab075702fff813a460b39e91b3196d38b29ebe2313eade725d8b922445"
+ },
+ "built": "2026-11-09",
+ "generator": "suggestion_review.py 1.10 (2026-11-07)",
+ "exported_at": "2026-11-09T18:43:50.923Z",
+ "counts": {
+  "approved": 3,
+  "rejected": 1,
+  "revise": 0,
+  "pending": 1
+ },
+ "items": [
+  {
+   "id": "TOC",
+   "type": "structure",
+   "title": "1. The table of contents: which one?",
+   "where": "the heading \"Inner Signal App to the Rescue!\"",
+   "advice": "ask",
+   "status": "answered",
+   "question": "Three fresh readers read only the contents, with 16 situations a reader comes with (a friend shaking and not responding, a week later the world still feels unreal, planning a ceremony), and said where they'd look first. On the contents as it is, the two readers guessed on 6 and 5 of the 16, and both would have stopped at beach morning glory and missed niacin when they wanted the trip to end. On A, a third reader guessed on 4, and its first pick was right for all 16 ([what each reader found](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261105/articles/bad-trips/humanize/h39-20261109/toc/RESULTS.md)).\n\nA (my pick):\nInner Signal App to the Rescue!\nWhen to Bring In Outside Help\n    Call medics for:\n    When Peer Support Isn't Enough\n    Who to Contact, and When   [moved here from Get One Human Anchor]\nAcute Medical and Neurological Rescue\n    Active Seizure   [the emergencies come first now]\n    MDMA: Jaw Tension Is the Magnesium Alarm\n    Chest Pain and Injury\n    Recent Oral Toxic Ingestion\n    Suspected Serotonin Syndrome (SS)\n        Recognizing serotonin toxicity\n        Do this immediately when serotonin toxicity is reasonably suspected:\n    If Someone Says \"My Brain Feels Damaged\": DMSO + Humic Acid First   [moved to the end of the medical part, leading into the remedies]\nMy Acute Rescue Hierarchy of Remedies   [\"of Remedies\" added]\n    How I label the evidence   [no longer the parent of every remedy]\n    Some Remedies Require More Caution   [moved before the remedies]\n    Gut-Toxin and Parasite-Die-Off Tools   [each remedy group one level up]\n        Zeolite and Ferment in ZHoly3O\n        Actual Activated Charcoal\n    Nausea Smoothers When the Person Wants to Preserve the Trip\n        Coffee Cherry for Nausea and Brain Recharge\n    Mental Stabilizers That Don't Abort the Trip\n        Metta NMT Sniffer Makes the Trip Chill & Lovey!\n        Humic Acid Brings Brain to Optimal Function\n        Authentic Calming Essential Oils (or a Lime Peel)   [new: your notes, card OILS]\n        DMSO   [moved next to humic acid]\n        Syrian Rue Oil Makes the Trip Gentle & Sweet   [new: your notes, card RUE-OIL]\n        Ocean Water to calm & protect the energetic field\n        Shungite, Aged Ozonated-Charcoal Water, or Boiled Charcoal Water\n    When the Goal Is to Stop a Psychedelic Trip   [now after the stabilizers, gentlest to strongest]\n        Beach Morning Glory--Ipomoea pes-caprae\n        A Final Trip Killer: Niacin (a Form of Vitamin B3)   [your two headings joined]\nTripsitting Yourself or Others   [your part heading split in two; your greeting still opens it]\n    Psychological First Aid: The First Five Minutes\n        Stillness or Movement?\n    Grounding Menu: Choose One or Two Things   [moved up, next to first aid]\n    Get One Human Anchor\n        Alone at 3 a.m.\n    For the Person Helping: Calm Anchor, Not Guru\n        Do\n        When the Content Turns Toward Harm\n    No Rash Actions: Visions Are Not Commands\n    When the Trip Feels Amazing: Euphoric Certainty\nShadow Work   [the other half of your part heading]\n    Dealing With Sorrow: Missing Versus Sending Love   [the hard-content sections, before the reflective ones]\n    Hand on Heart and Gratitude 🫶🏿\n        Touch, Consent, and Compassion\n    Demons, Jinn, Entities, and Shadow Forces\n    Abuse Memories, Recovered Memories, and Certainty\n    Dealing With Shadow Thoughts\n        The Joker Poem\n    (Re)defining \"Bad Trip\"   [the reflective sections, after the hard content]\n    Spiritual ≠ \"Getting Your Ass Kicked\"\n    The Other Bypass: Feeling Good Forever\nAfter the Storm   [a part of its own]\n    What Kind of Aftermath Is This?\n    Bring in mental-health support when:   [moved here from the top, right after the aftermath list]\n    Hang up the phone, get off the Healing Treadmill   [moved here]\nGive the Session a Beginning and an End   [a part of its own, for next time]\nAppendix: Additional Resources\n\nPro: who to call is in one place at the top; the emergencies come first; the remedies run from the evidence key and the cautions to the gentlest and then the strongest; the psychological part is two short parts, what to do in the moment and the shadow work; the days after and the next session each have a part of their own. Con: the biggest change to the order your post has, and the brain section no longer leads the medical part.\n\nB (only what both readers found broken):\nInner Signal App to the Rescue!\nWhen to Bring In Outside Help\n    Call medics for:\n    Bring in mental-health support when:\n    When Peer Support Isn't Enough\n    Who to Contact, and When   [moved here from Get One Human Anchor]\nAcute Medical and Neurological Rescue\n    If Someone Says \"My Brain Feels Damaged\": DMSO + Humic Acid First\n    Active Seizure\n    MDMA: Jaw Tension Is the Magnesium Alarm\n    Chest Pain and Injury\n    Recent Oral Toxic Ingestion\n    Suspected Serotonin Syndrome (SS)\n        Recognizing serotonin toxicity\n        Do this immediately when serotonin toxicity is reasonably suspected:\nMy Acute Rescue Hierarchy of Remedies   [\"of Remedies\" added]\n    How I label the evidence   [no longer the parent of every remedy]\n    Some Remedies Require More Caution   [moved before the remedies]\n    Gut-Toxin and Parasite-Die-Off Tools   [each remedy group one level up]\n        Zeolite and Ferment in ZHoly3O\n        Actual Activated Charcoal\n    Nausea Smoothers When the Person Wants to Preserve the Trip\n        Coffee Cherry for Nausea and Brain Recharge\n    Mental Stabilizers That Don't Abort the Trip\n        Metta NMT Sniffer Makes the Trip Chill & Lovey!\n        Humic Acid Brings Brain to Optimal Function\n        Ocean Water to calm & protect the energetic field\n        Shungite, Aged Ozonated-Charcoal Water, or Boiled Charcoal Water\n        DMSO\n    When the Goal Is to Stop a Psychedelic Trip   [now after the stabilizers, gentlest to strongest]\n        Beach Morning Glory--Ipomoea pes-caprae\n        A Final Trip Killer: Niacin (a Form of Vitamin B3)   [your two headings joined]\n(the rest as it is now)\n\nPro: fixes the remedies part and who to call, and nothing else moves. Con: the psychological part stays one run of 17 sections with the days after at the end of it, and \"Bring in mental-health support when:\" stays at the top, away from the aftermath list.\n\nC: leave the contents as it is.",
+   "your_version": "",
+   "comment": "a sure rename them so readers can find them, and brain should be at top yeah that's kind of one of the most common things people say",
+   "my_version": "",
+   "before": "",
+   "history": [],
+   "updated": "2026-11-09T18:22:43.424Z"
+  },
+  {
+   "id": "RUE-OIL",
+   "type": "notes",
+   "title": "Syrian rue oil: your notes as a new entry under Mental Stabilizers",
+   "where": "DMSO, P11",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "#### Syrian Rue Oil Makes the Trip Gentle & Sweet\n\nSyrian rue (*Peganum harmala*) can be mixed into warm/hot oil (like coconut oil), just enough to cover it, then squeezed out thru cheese cloth. Within some minutes of the seeds soaking in oil (if it's hot, or maybe an hour if it's warm), the oil contains the oil-soluble harmalas, not harmine, harmaline, or THH in quantities that could make it a potent MAOI. In my experience there's no MAOI effect in Syrian rue extracted with oil (it won't activate DMT, rather it reduces DMT's effects). These oil-soluble harmalas have no effect when eaten, but when absorbed thru mucous membranes or vaped, they chill out psychedelic trip intensity, making them more gentle and sweet. On their own, they have some mild psychedelic properties though (like I felt like half of my head was sort of transparent), and significant mood boosting properties.\n\nI have a friend with schizophrenia who would use about 1-2mL of this oil rectally when he was in psychosis, which helped at least as much as niacin and DMSO, equally effective as Geodon, an antipsychotic his doctors prescribed which makes him feel like a zombie.\n\nAnother option is vaping the whole Syrian rue seeds, as it seems that these oil soluble harmalas are concentrated on the outside of the seeds. Once ground up, vaping the powder is more stimulating, less relaxing (but variable since all is mixed together). However, if vaping the whole seeds, I would not assume there's no MAOI effect (even though it still seems to reduce DMT effects) since depending maybe on temperature and time, you might also vaporize the harmine and harmaline.",
+   "before": "",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-09T18:24:59.084Z"
+    }
+   ],
+   "updated": "2026-11-09T18:24:59.084Z"
+  },
+  {
+   "id": "RUE-WARN",
+   "type": "safety",
+   "title": "Syrian rue oil: what to keep it away from",
+   "where": "DMSO, P12",
+   "advice": "approve",
+   "status": "rejected",
+   "your_version": "",
+   "comment": "no what they should be careful about is vaping the whole seeds, that could be more likely to have an MAOi effect, there's almost no MAOi in 1-2mL of the rue seed oil, although with any new substance people should be careful to see how it affects them with smaller amounts which i think i said somewhere . ",
+   "my_version": "How much harmine and harmaline end up in a home-made oil can vary, so don't use Syrian rue in any form alongside antidepressants, MDMA, other MAOIs, or anything else on the stop list under Suspected Serotonin Syndrome. And if someone's on a prescribed antipsychotic, don't swap it for this oil without checking with whoever prescribed it.",
+   "before": "",
+   "history": [
+    {
+     "from": "pending",
+     "to": "revise",
+     "at": "2026-11-09T18:27:06.650Z"
+    },
+    {
+     "from": "revise",
+     "to": "rejected",
+     "at": "2026-11-09T18:27:18.618Z"
+    }
+   ],
+   "updated": "2026-11-09T18:43:32.477Z"
+  },
+  {
+   "id": "OILS",
+   "type": "notes",
+   "title": "Authentic calming essential oils: your notes as a new entry",
+   "where": "Humic Acid Brings Brain to Optimal Function, P1",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "#### Authentic Calming Essential Oils (or a Lime Peel)\n\nIf you don't have the Metta NMT sniffer, just use AUTHENTIC natural calming essential oils to smell, like rose geranium, jasmine, lemon/lime oils. Most of these oils are fake on Amazon so buy only directly from trusted essential oil vendors. It should not smell like a perfume. Even just taking a lime and scratch & sniff the peel can be relaxing.",
+   "before": "",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-09T18:23:32.487Z"
+    }
+   ],
+   "updated": "2026-11-09T18:23:32.487Z"
+  },
+  {
+   "id": "HERBS-NAMED",
+   "type": "notes",
+   "title": "What Kind of Aftermath Is This?: the relaxing herbs named",
+   "where": "What Kind of Aftermath Is This?, P8",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "Somatic hyperarousal: This is not rumination, but more like akathisia, bodily restlessness. Try gentle movements (that yin yoga again!), slower breathing, grounding, and medical care if the symptoms are severe, unusual or longer-lasting than expected. I'd still go for my trusty relaxing herbs first, like beach morning glory, Syrian rue oil or the Metta NMT sniffer, and natural antipsychotics like DMSO and niacin.",
+   "before": "Somatic hyperarousal: This is not rumination, but more like akathisia, bodily restlessness. Try gentle movements (that yin yoga again!), slower breathing, grounding, and medical care if the symptoms are severe, unusual or longer-lasting than expected. I'd still go for my trusty relaxing herbs and natural antipsychotics listed above first.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-09T18:43:46.611Z"
+    }
+   ],
+   "updated": "2026-11-09T18:43:46.611Z"
+  }
+ ]
+}

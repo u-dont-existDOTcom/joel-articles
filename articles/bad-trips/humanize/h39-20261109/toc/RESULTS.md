@@ -57,3 +57,24 @@ for planning, "Hang up the phone" says nothing until the section is read, and ha
 part, the helper's "When the Content Turns Toward Harm" and the call-medics list). Renaming them is a later card, if he
 wants it. Not taken from the readers: moving "When the Content Turns Toward Harm" to the top (it's how the helper handles
 the talk itself, and the top part already says when to get urgent help for harm), and renaming "Do" and "Who to Contact".
+
+## His answer, and the contents as it went in (2026-11-09 18:43 UTC)
+
+"a sure rename them so readers can find them, and brain should be at top yeah that's kind of one of the most common
+things people say." So option A went in with the brain section first, and the three headings readers had to guess at
+renamed, his words kept with a lead a reader would look for: "Risk of Harm: When Peer Support Isn't Enough", "When What
+They Say Turns Toward Harm", "Trip After Trip? Hang up the phone, get off the Healing Treadmill" and "Planning a Trip or
+Ceremony? Give It a Beginning and an End" ([plan_toc.py](plan_toc.py) A --apply, run by [review/r30/apply_r30.py](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261105/articles/bad-trips/review/r30/apply_r30.py)). A fourth
+fresh reader read the renamed contents ([TOC-A2.md](TOC-A2.md), [READ-A2-1.md](reads/READ-A2-1.md)): 3 guesses (1, 11,
+14), every first pick right; planning a ceremony and "ceremony after ceremony" became sure.
+
+| | Guesses (of 16) | First pick right |
+|---|---|---|
+| As it was, reader 1 | 6 | 15 |
+| As it was, reader 2 | 5 | 15 |
+| Option A, reader 3 | 4 | 16 |
+| A as he chose it, renamed, reader 4 | 3 | 16 |
+
+The guesses left: shaking and not responding (a seizure or serotonin syndrome, which the medics list covers either
+way), a week later the world feels unreal (the aftermath list or the support section, now next to each other), and harm
+(the top part or the helper's section, now named for what each covers).
