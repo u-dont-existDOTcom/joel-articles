@@ -94,6 +94,8 @@ Time the seizure. Protect the person from injury, clear dangerous objects, loose
 
 If an appropriate rapid seizure-rescue benzodiazepine is available, use it by its intended route. Benzodiazepines are the [established first-line drug class for status epilepticus](https://pmc.ncbi.nlm.nih.gov/articles/PMC9477921/). An ordinary pill is not the same thing as a nasal, buccal, rectal, intramuscular, or intravenous rescue preparation, and respiratory depressants in the mix change the risk.
 
+Call medics for a convulsive seizure lasting about five minutes, repeated seizures without normal recovery, trouble breathing, dangerous heat, serious injury, a first seizure, or a seizure substantially different from the person's known pattern.
+
 Some people get a warning before a seizure takes hold, which is called an aura. That's when the things people report can still stop it, depending on what sets their seizures off. If it's flashing or flickering light, cover one eye with a hand and turn away from the light, because closing the eyes doesn't block enough of it. Some people stop a seizure at the warning stage with a strong smell like jasmine, and some train themselves to link one smell with feeling calm and then sniff it when a seizure threatens. When overstimulation is what sets it off, a cool, quiet, dark and comfortable space can help. I'd also try sniffing humic/fulvic acid powder, although that's just a hunch based on the effects I notice so far.
 
 During the seizure, alongside any rescue medicine, I would use topical magnesium chloride and consider topical DMSO with a known-genuine CBD preparation (a lot of CBD is fake or very dilute). Seizures come in all different types, and we have no study on whether CBD could be a rescue remedy for a seizure ([just anecdotes](https://www.youtube.com/watch?v=RCxGSrUsB0Q)), even though we do have studies showing long-term effectiveness to prevent them: Purified oral CBD is [approved](https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/210365s024s029s030lbl.pdf) for the seizures of Lennox-Gastaut syndrome, Dravet syndrome and tuberous sclerosis complex.
@@ -105,8 +107,6 @@ I also read on forums some swear it stops the seizure from going any further, an
 As for topical CBD, it hasn't been well-studied. There was a short [12-week trial](https://pubmed.ncbi.nlm.nih.gov/35802375/) done, where they used a CBD skin gel, and although absorption was good, it didn't work any better than placebo to prevent seizures. The study authors suggested the dosing may have been too low, or that adults with focal epilepsy just don't respond as well as people with the syndromes oral CBD is approved for. The seizures in Dravet and Lennox-Gastaut syndrome are mostly generalized. Generalized are the type people usually have with MDMA & psychedelic overdoses, so topical CBD might do better for those than it did in that trial.
 
 As for DMSO, it did reduce seizure activity in [rats with temporal-lobe epilepsy](https://pubmed.ncbi.nlm.nih.gov/23643984/), and we know it has several neuroprotective mechanisms, but it produced the opposite effect at some doses in an [absence-epilepsy model](https://pubmed.ncbi.nlm.nih.gov/21320528/). I'd treat it as a plausible experimental adjunct remedy rather than something to wait on while a seizure continues.
-
-Call medics for a convulsive seizure lasting about five minutes, repeated seizures without normal recovery, trouble breathing, dangerous heat, serious injury, a first seizure, or a seizure substantially different from the person's known pattern.
 
 ## MDMA: Jaw Tension Is the Magnesium Alarm
 
@@ -202,12 +202,6 @@ I would also be extremely careful with *Acacia confusa* eaten with *Mimosa hosti
 
 ---
 
-Once the body is stable and those tools have done what they can, fear, grief, memory, certainty, and whatever else the altered mind has opened still need somebody to sit with them.
-
-![](https://substack-post-media.s3.amazonaws.com/public/images/ce9cb88d-67d8-4e3f-8436-d3e2446de167_1122x1402.png)
-
----
-
 ## Gut-Toxin and Parasite-Die-Off Tools
 
 These are the first things I would use, even preventively on the come-up, because I want to address possible toxins before assigning the distress to something more mysterious.
@@ -218,13 +212,13 @@ When the trip feels like sick stomach, nausea, diarrhea, toxic heaviness, a dirt
 
 Many ferments help to different degrees, including kombucha, kimchi, and apple vinegar. I prefer fermented beet juice made with apple vinegar and salt. Smelling the ferment helps a lot. Drinking a spoonful can also help, although it may cause itching in somebody who breaks down histamine poorly, which then requires activated charcoal to reduce gut histamine.
 
+Most sober people don't feel much from zeolite. Its effect becomes more obvious when a trip has a toxic or gut-driven component. I put a spoonful into water--some people need a teaspoon, others a tablespoon--and sip slowly. Rubbing it on the body or simply holding the jar also helps me.
+
 In my experiments, zeolite has to be prepared correctly. I use powdered zeolite rather than nano-liquid zeolite. Many products did nothing for me, and quality mattered enormously. Most zeolites have clogged pores because they haven't been cleaned.
 
 For my ozonated zeolite, I mix the powder into water and use an ozone-water purifier in a glass vessel because ozone destroys plastic. I mean ozonating water, never inhaling ozone gas. With a machine producing about two grams of ozone per hour, ten minutes produced a working zeolite for me. Less time did not work as well, and more time did not noticeably improve it.
 
 I also keep zeolite away from metal during preparation. Zeolite adsorbs metals, which is part of why it is used for heavy-metal removal, and I don't want it sitting against a metal vessel or utensil before ingestion. I use glass for ozonation and storage whenever possible.
-
-Most sober people don't feel much from zeolite. Its effect becomes more obvious when a trip has a toxic or gut-driven component. I put a spoonful into water--some people need a teaspoon, others a tablespoon--and sip slowly. Rubbing it on the body or simply holding the jar also helps me.
 
 ### Actual Activated Charcoal
 
@@ -358,6 +352,12 @@ Other forms of vitamin B3 seem less reliable for relaxation. Niacinamide sometim
 
 ---
 
+Once the body is stable and those tools have done what they can, fear, grief, memory, certainty, and whatever else the altered mind has opened still need somebody to sit with them.
+
+![](https://substack-post-media.s3.amazonaws.com/public/images/ce9cb88d-67d8-4e3f-8436-d3e2446de167_1122x1402.png)
+
+---
+
 # Tripsitting Yourself or Others
 
 ![](https://substack-post-media.s3.amazonaws.com/public/images/283c878b-0957-4893-a932-b6704c0e5442_1122x1402.png)
@@ -401,6 +401,8 @@ Test stillness and movement rather than turning them into rival religions. Try o
 When lying down feels like imprisonment, pace slowly in a contained space. When pacing begins to resemble escape, sit against a wall or lie under a blanket. The goal is to let the nervous system discharge without creating a new danger.
 
 **Parallel processing** can help when lying still turns into immobile introspection. Let one part of attention stay with the body, fear, grief, or memory while another part completes a simple, safe task with a visible endpoint: sort ten objects, draw, fold five towels, or wash one cup. Finishing something small helps confirm that time is moving and ordinary reality is still here. Stop if the task increases agitation, speed, or risk.
+
+**Movement evidence note:** the best-supported general advice is to create a safe, low-stimulation environment and choose responses that reduce danger. A [2024 study](https://www.nature.com/articles/s41598-024-79931-w) of strategies for resolving challenging psychedelic experiences identified physical movement, intentional breathing, sensory engagement, sleep-seeking, and social support among the ways people navigate difficulty.
 
 A useful order is **room → body → human → time → meaning**. Most people begin with meaning because the experience feels cosmic. When the nervous system is on fire, love becomes practical first.
 
@@ -465,8 +467,6 @@ Grounding is love becoming practical. Choose one or two options rather than all 
 - Walk slowly with a clear-headed person in a safe environment.
 - Go outside only away from roads, heights, crowds, and water.
 - Avoid strenuous exercise with overheating, chest pain, faintness, severe confusion, stimulant use, an unknown mixture, or any medical concern.
-
-**Movement evidence note:** the best-supported general advice is to create a safe, low-stimulation environment and choose responses that reduce danger. A [2024 study](https://www.nature.com/articles/s41598-024-79931-w) of strategies for resolving challenging psychedelic experiences identified physical movement, intentional breathing, sensory engagement, sleep-seeking, and social support among the ways people navigate difficulty.
 
 **Buteyko evidence note:** published evidence for Buteyko-style breathing mainly concerns asthma and breathing retraining, rather than psychedelic or spiritual-practice crisis. I include it because panic-related over-breathing can lower CO<sub>2</sub> and directly cause tingling, lightheadedness, confusion, and unreality feelings ([Hopkins Medicine](https://www.hopkinsmedicine.org/health/conditions-and-diseases/hyperventilation)). Use the simpler longer-exhale option first. Never strain or turn breathing into another achievement.
 
@@ -786,6 +786,14 @@ Begin with my [Inner Child Therapy guide](http://innerchild.u-dont-exist.com) an
 
 Don't make huge decisions or diagnose yourself from an intense night. You don't need to assume every vision was literal, nor that anything you realized is actually true (or false). Ask your body what it needs from you now. I'm betting it will tell you: Give me sleep, natural food, pure water, a nice nature walk. It helps to integrate the experience via journaling your feelings, and talking with someone grounded (not the 20 chaotic people who are still coming down). To prevent your mind from giving spirituality a negative connotation, engage in some calm prayer or gentle meditation.
 
+**No "another ceremony will fix this" reflex.**
+
+Don't take more psychedelics, cannabis or ketamine, do intense breathwork, fast, push kundalini, deprive yourself of sleep, meditate or stretch to extremes, or schedule "another ceremony to fix it" while destabilized. Deep practice can wait until the floor is back.
+
+Then ask what actually happened. What was medical or environmental? What was emotional? What was old trauma? What was fantasy? What was useful? What changed behavior? What needs therapy, an apology, rest, or plain practical action?
+
+It can feel like the more cosmic the story sounds, the bigger the insight. But the fruit of an insight is whether suffering goes down and love gets more available.
+
 ![](https://substack-post-media.s3.amazonaws.com/public/images/287aef23-c49e-4977-a360-504aa2b632e4_1122x1402.png)
 
 ## What Kind of Aftermath Is This?
@@ -800,14 +808,6 @@ When symptoms linger, people too often put everything into the "I'm broken" buck
 - **Existential shock:** This one's pretty normal if someone has a deep journey, especially one they weren't prepared for. It helps to go back one step to focus on loving kindness and sending love to the inner child before getting lost in a philosophical ocean. Finding others who've been through a similar experience could be helpful, or harmful, depending on which rabbit hole it was you fell into. I find reading the Buddhist suttas supremely helpful.
 - **Paranoia or psychosis-like beliefs:** Here we gotta be careful because this can spiral out of control and get dangerous quickly. I'd seek professional support while utilizing the relatively safe and natural antipsychotics mentioned in this guide, like DMSO, syrian rue OIL, and niacin.
 - **Somatic hyperarousal:** This is not rumination, but more like akathisia, bodily restlessness. Try gentle movements (that yin yoga again!), slower breathing, grounding, and medical care if the symptoms are severe, unusual or longer-lasting than expected. I'd still go for my trusty relaxing herbs first, like beach morning glory, Syrian rue oil or the Metta NMT sniffer, and natural antipsychotics like DMSO and niacin.
-
-**No "another ceremony will fix this" reflex.**
-
-Don't take more psychedelics, cannabis or ketamine, do intense breathwork, fast, push kundalini, deprive yourself of sleep, meditate or stretch to extremes, or schedule "another ceremony to fix it" while destabilized. Deep practice can wait until the floor is back.
-
-Then ask what actually happened. What was medical or environmental? What was emotional? What was old trauma? What was fantasy? What was useful? What changed behavior? What needs therapy, an apology, rest, or plain practical action?
-
-It can feel like the more cosmic the story sounds, the bigger the insight. But the fruit of an insight is whether suffering goes down and love gets more available.
 
 ## Bring in mental-health support when:
 
