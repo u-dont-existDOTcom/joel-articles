@@ -116601,7 +116601,7 @@
         },
         {
           "path": "articles/bad-trips/BAD-TRIPS-GUIDE-AS-IT-STANDS.html",
-          "sha256": "34760f988e10a1080d5b734300a1231b4dd61e21cc090c9319741c4c2ac2d10c",
+          "sha256": "72cbbab37a5c6f7fca711fb35c5c4ea01a02c21954bd843ecd504f0fc6fc5c54",
           "role": "humanization_working_record"
         },
         {
@@ -116626,17 +116626,17 @@
         },
         {
           "path": "articles/bad-trips/GUIDE-SO-FAR-blocks.json",
-          "sha256": "9d0438e604d102c6da312f37d213a5fb6d0928095010aa5387359bc521b7a0ff",
+          "sha256": "a9f605bbc38c4154c8c30ae18fb3b27608bce947eab02896d37bd9e40670925a",
           "role": "humanization_working_record"
         },
         {
           "path": "articles/bad-trips/GUIDE-SO-FAR.md",
-          "sha256": "fb62060e6d9dc0988291546b3d9456d9e78f81ca9a918fe3dedb094fd2428bfb",
+          "sha256": "c8f55833ec206db3aaf5bc5028e121b069c62cd1bdaaa045620589549b571171",
           "role": "humanization_working_record"
         },
         {
           "path": "articles/bad-trips/OWNER-EDITS.json",
-          "sha256": "5d197bd08f2a018c1f73145d2d5116cd4f179f03a3519e0e39acf9c5bbba9b2c",
+          "sha256": "276ab4a4e84cc3569b0744eb324b723c1b25faad2974e1fef312afa8b3b4858f",
           "role": "owner_edits_ledger"
         },
         {
@@ -116711,7 +116711,7 @@
         },
         {
           "path": "articles/bad-trips/KEEP-AS-IS.json",
-          "sha256": "719ed567d9a023a6d88a2c113ac03fc75cc7e8446002391c852c324bdd1548ef",
+          "sha256": "0a433a17a7e5eab2b26dd4f41fa92c00a056697985627b1875fa39fe6848333c",
           "role": "humanization_working_record"
         },
         {
@@ -126397,6 +126397,96 @@
         {
           "path": "articles/bad-trips/review/r27/cards_r27.py",
           "sha256": "d64b61542b4a21084e89cea07b55755aa4c642dc4272b011d5a652c0996f5596",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/bad-trips/experiments/t29-answers/joel-20261109-0124-r27-comments.txt",
+          "sha256": "7c885038db5d5e26ede3890d814c3f4d8adeaefe416c0e729cee37907c384833",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/bad-trips/humanize/h01/FIDELITY-KEYS-R26.json",
+          "sha256": "343fed05ab1c6ba5eb1c9390501f033d8c6edf09cb0c7ba4258c1108654d7f2d",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/bad-trips/review/r27/ANSWERS-R27-20261109-0124.json",
+          "sha256": "af34de74226669051b54011cf229dc33d6d9cc81cb24ef01208748b1fac1a2f5",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/bad-trips/review/r27/apply_r27.py",
+          "sha256": "1749ae493bee6fed99a2f423777057b868998a840e1a8f8bd4a06d2065dc3c02",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/bad-trips/review/r28/AFT-ANX.receipt.json",
+          "sha256": "443f7cdfc2f82fd12dfedb95301a05714676e9895efd65f6aa7f0f4d21c4cb4a",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/bad-trips/review/r28/AFT-ANX.txt",
+          "sha256": "44cd26e129329fccdabb60197301087a857b52bf57e4b7a5a4947876a7826e29",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/bad-trips/review/r28/AFT-DEREAL.receipt.json",
+          "sha256": "4b9a173f3f45dac0e2bb59d472485f94036a598d94f8733ce8d8cf65cb47c33e",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/bad-trips/review/r28/AFT-DEREAL.txt",
+          "sha256": "b9a1a6bcf40d851d3cee96b4cdc65027245646929af0ca5289b7538b6dac57dc",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/bad-trips/review/r28/BROWSER-TEST-R28.json",
+          "sha256": "2bd34be65d19dbb09fec686d75a80a05f7ff742a081899b1d2a6ef32d3ec90b8",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/bad-trips/review/r28/NEEDED-READ.md",
+          "sha256": "3547abc19518712d13d1e671e13354cec3e1c56cacd01d2c90d0db80cc412652",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/bad-trips/review/r28/PAGE-R28-map.json",
+          "sha256": "11127791c40d611f2647f96c4728a938aa389f6f4c74e5b868597b3ba336b65b",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/bad-trips/review/r28/PAGE-R28.md",
+          "sha256": "ead7f119d964229c693d0211aaac4a39ff76d788adab436da4964ed77219e66d",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/bad-trips/review/r28/REVIEW-R28.artifact.html",
+          "sha256": "b57245bb6efb0728b09e4424fa65bd12b31d88e032952dda6a7a0bd664a7e829",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/bad-trips/review/r28/REVIEW-R28.html",
+          "sha256": "d2b603b959b22e5f21aaf6efa9ec2fa970e8886e1c5001254db493c107312377",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/bad-trips/review/r28/REVIEW-R28.json",
+          "sha256": "22064e0ae078167a9fe492a8cd4374675f0e217cb28c326b0e0fea94eba881e9",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/bad-trips/review/r28/REVIEW-R28.md",
+          "sha256": "b233e1a39ecaef5e2324e699556abba57d2cb8dfc67853af0840f61d4190d8af",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/bad-trips/review/r28/build_r28.py",
+          "sha256": "00078007ed51b788c8cfc8b2a3ef97d4a57704bee5b5e80f2122f73a4c6b7e14",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/bad-trips/review/r28/cards_r28.py",
+          "sha256": "6965eb18be373f91a2078b0691adb445bcd0fb9cf997d29e6c4b8e216eed388d",
           "role": "humanization_working_record"
         }
       ]

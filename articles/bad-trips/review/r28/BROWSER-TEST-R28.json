@@ -1,0 +1,367 @@
+{
+ "page": "/home/claude/joel-articles/articles/bad-trips/review/r28/REVIEW-R28.html",
+ "passed": 62,
+ "failed": 0,
+ "results": [
+  {
+   "test": "light: one card per suggestion",
+   "pass": true,
+   "detail": "6 cards, 6 suggestions"
+  },
+  {
+   "test": "light: every other card starts not approved",
+   "pass": true,
+   "detail": 0
+  },
+  {
+   "test": "light: a page of one suggestion to approve, no stretches to edit",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "light: typed comment kept",
+   "pass": true,
+   "detail": "Keep \"this\" — and check the link, please. Ünïcode ok."
+  },
+  {
+   "test": "light: comment text legible (contrast 14.7)",
+   "pass": true,
+   "detail": {
+    "ratio": 14.67911847763172,
+    "fg": "rgb(31, 41, 55)",
+    "fill": "rgb(31, 41, 55)",
+    "bg": "rgb(255, 255, 255)"
+   }
+  },
+  {
+   "test": "light: type filter hides that type",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "light: and shows it again",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "light: no cards I'd leave on this page, so nothing to hide",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "light: each changed paragraph shows as two clean texts (1 cards)",
+   "pass": true,
+   "detail": []
+  },
+  {
+   "test": "light: a passage shown whole reads as my version (0 cards)",
+   "pass": true,
+   "detail": []
+  },
+  {
+   "test": "light: a question card says Answered",
+   "pass": true,
+   "detail": "Answered"
+  },
+  {
+   "test": "light: answers count apart from decisions",
+   "pass": true,
+   "detail": "0 of 1 decided · 0 approved · 0 rejected · 0 to revise · 1 of 5 questions answered"
+  },
+  {
+   "test": "light: every highlight has a colour",
+   "pass": true,
+   "detail": "0 without one"
+  },
+  {
+   "test": "light: Next undecided brings one to the top",
+   "pass": true,
+   "detail": 1
+  },
+  {
+   "test": "light: Next walks every undecided card in page order, questions included",
+   "pass": true,
+   "detail": "expected ['HELPER-NOW', 'LOOP-ONCE', 'AFT-HOW-MUCH', 'AFT-TERMS', 'RUE-SAFETY'], got ['HELPER-NOW', 'LOOP-ONCE', 'AFT-HOW-MUCH', 'AFT-TERMS', 'RUE-SAFETY']"
+  },
+  {
+   "test": "light: Copy gives parseable JSON",
+   "pass": true,
+   "detail": "{\n \"format\": \"joel-suggestion-review-answers-v1\",\n \"review_id\": \"bad-trips-r28\","
+  },
+  {
+   "test": "light: export names the review and the guide version",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "light: export has every suggestion",
+   "pass": true,
+   "detail": 6
+  },
+  {
+   "test": "light: comment exported word for word",
+   "pass": true,
+   "detail": "Keep \"this\" — and check the link, please. Ünïcode ok."
+  },
+  {
+   "test": "light: statuses exported",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "light: the answer is exported with its question",
+   "pass": true,
+   "detail": {
+    "id": "METHOD-WHERE",
+    "type": "structure",
+    "title": "1. Your method in the parts people use in trouble: how?",
+    "where": "Alone at 3 a.m., P1",
+    "advice": "ask",
+    "status": "answered",
+    "question": "A fresh reader found 15 places where the guide gives generic advice where your method would change what the reader or helper does ([where](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261105/articles/bad-trips/humanize/h37-20261108/beliefs/GENERIC.md)). Your first five minutes, your don'ts and your aftermath list now carry it, which leaves 10: the sitter's script, Alone at 3 a.m., the helper's Do list, the Grounding Menu's hand on the heart and breath line, the thinking traps, Give the Session's preparation, Abuse Memories' step after sleep, Shadow Thoughts' in-trip move, and the questions after the aftermath list.\n\nA (my pick): I move or quote sentences the guide already has, where it gives your method, into those places, one approve card each, starting with the four that matter most: Alone at 3 a.m. (someone with no sitter: \"Can I send love to the one who's suffering?\" and the hand on the heart), the breath line (\"I can love the part of me that feels it.\"), Give the Session's preparation (\"So train before you need it, sending love to a frightening image ...\") and the thinking traps (\"young parts of you that are still waiting for love ...\"). Pro: your method where it's used, in sentences the guide already has, quick for you to approve. Con: a moved sentence can need a joining word, and the places read AI now, so they may still need your hand for Pangram.\n\nB: teaching cards, one or two places at a time, for you to write each with your method in it. Pro: your voice and your view, and they read Human. Con: your time, ten places.\n\nC: leave them. Pro: no work. Con: the guide stays generic where it's used.",
+    "your_version": "",
+    "comment": "From people I've talked to.",
+    "my_version": "",
+    "before": "",
+    "history": [],
+    "updated": "2026-11-09T01:35:18.397Z"
+   }
+  },
+  {
+   "test": "light: Save downloads the answers",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "light: a reload keeps the decisions",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "light: a reload keeps the comment",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "light: cleared storage starts fresh",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "light: loading the saved file restores decisions",
+   "pass": true,
+   "detail": "Loaded 2 answers."
+  },
+  {
+   "test": "light: and the comment",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "light: answers for another review are refused",
+   "pass": true,
+   "detail": "Those answers are for a different review (another-review), so nothing was loaded."
+  },
+  {
+   "test": "light: bad pasted text is refused",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "light: no console or page errors",
+   "pass": true,
+   "detail": []
+  },
+  {
+   "test": "dark: one card per suggestion",
+   "pass": true,
+   "detail": "6 cards, 6 suggestions"
+  },
+  {
+   "test": "dark: every other card starts not approved",
+   "pass": true,
+   "detail": 0
+  },
+  {
+   "test": "dark: a page of one suggestion to approve, no stretches to edit",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "dark: typed comment kept",
+   "pass": true,
+   "detail": "Keep \"this\" — and check the link, please. Ünïcode ok."
+  },
+  {
+   "test": "dark: comment text legible (contrast 14.7)",
+   "pass": true,
+   "detail": {
+    "ratio": 14.67911847763172,
+    "fg": "rgb(31, 41, 55)",
+    "fill": "rgb(31, 41, 55)",
+    "bg": "rgb(255, 255, 255)"
+   }
+  },
+  {
+   "test": "dark: type filter hides that type",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "dark: and shows it again",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "dark: no cards I'd leave on this page, so nothing to hide",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "dark: each changed paragraph shows as two clean texts (1 cards)",
+   "pass": true,
+   "detail": []
+  },
+  {
+   "test": "dark: a passage shown whole reads as my version (0 cards)",
+   "pass": true,
+   "detail": []
+  },
+  {
+   "test": "dark: a question card says Answered",
+   "pass": true,
+   "detail": "Answered"
+  },
+  {
+   "test": "dark: answers count apart from decisions",
+   "pass": true,
+   "detail": "0 of 1 decided · 0 approved · 0 rejected · 0 to revise · 1 of 5 questions answered"
+  },
+  {
+   "test": "dark: every highlight has a colour",
+   "pass": true,
+   "detail": "0 without one"
+  },
+  {
+   "test": "dark: Next undecided brings one to the top",
+   "pass": true,
+   "detail": 1
+  },
+  {
+   "test": "dark: Next walks every undecided card in page order, questions included",
+   "pass": true,
+   "detail": "expected ['HELPER-NOW', 'LOOP-ONCE', 'AFT-HOW-MUCH', 'AFT-TERMS', 'RUE-SAFETY'], got ['HELPER-NOW', 'LOOP-ONCE', 'AFT-HOW-MUCH', 'AFT-TERMS', 'RUE-SAFETY']"
+  },
+  {
+   "test": "dark: Copy gives parseable JSON",
+   "pass": true,
+   "detail": "{\n \"format\": \"joel-suggestion-review-answers-v1\",\n \"review_id\": \"bad-trips-r28\","
+  },
+  {
+   "test": "dark: export names the review and the guide version",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "dark: export has every suggestion",
+   "pass": true,
+   "detail": 6
+  },
+  {
+   "test": "dark: comment exported word for word",
+   "pass": true,
+   "detail": "Keep \"this\" — and check the link, please. Ünïcode ok."
+  },
+  {
+   "test": "dark: statuses exported",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "dark: the answer is exported with its question",
+   "pass": true,
+   "detail": {
+    "id": "METHOD-WHERE",
+    "type": "structure",
+    "title": "1. Your method in the parts people use in trouble: how?",
+    "where": "Alone at 3 a.m., P1",
+    "advice": "ask",
+    "status": "answered",
+    "question": "A fresh reader found 15 places where the guide gives generic advice where your method would change what the reader or helper does ([where](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261105/articles/bad-trips/humanize/h37-20261108/beliefs/GENERIC.md)). Your first five minutes, your don'ts and your aftermath list now carry it, which leaves 10: the sitter's script, Alone at 3 a.m., the helper's Do list, the Grounding Menu's hand on the heart and breath line, the thinking traps, Give the Session's preparation, Abuse Memories' step after sleep, Shadow Thoughts' in-trip move, and the questions after the aftermath list.\n\nA (my pick): I move or quote sentences the guide already has, where it gives your method, into those places, one approve card each, starting with the four that matter most: Alone at 3 a.m. (someone with no sitter: \"Can I send love to the one who's suffering?\" and the hand on the heart), the breath line (\"I can love the part of me that feels it.\"), Give the Session's preparation (\"So train before you need it, sending love to a frightening image ...\") and the thinking traps (\"young parts of you that are still waiting for love ...\"). Pro: your method where it's used, in sentences the guide already has, quick for you to approve. Con: a moved sentence can need a joining word, and the places read AI now, so they may still need your hand for Pangram.\n\nB: teaching cards, one or two places at a time, for you to write each with your method in it. Pro: your voice and your view, and they read Human. Con: your time, ten places.\n\nC: leave them. Pro: no work. Con: the guide stays generic where it's used.",
+    "your_version": "",
+    "comment": "From people I've talked to.",
+    "my_version": "",
+    "before": "",
+    "history": [],
+    "updated": "2026-11-09T01:35:30.830Z"
+   }
+  },
+  {
+   "test": "dark: Save downloads the answers",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "dark: a reload keeps the decisions",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "dark: a reload keeps the comment",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "dark: cleared storage starts fresh",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "dark: loading the saved file restores decisions",
+   "pass": true,
+   "detail": "Loaded 2 answers."
+  },
+  {
+   "test": "dark: and the comment",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "dark: answers for another review are refused",
+   "pass": true,
+   "detail": "Those answers are for a different review (another-review), so nothing was loaded."
+  },
+  {
+   "test": "dark: bad pasted text is refused",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "dark: no console or page errors",
+   "pass": true,
+   "detail": []
+  },
+  {
+   "test": "negative fixture: the old white-box defect fails the check (contrast 1.0)",
+   "pass": true,
+   "detail": {
+    "ratio": 1,
+    "fg": "rgb(255, 255, 255)",
+    "fill": "rgb(255, 255, 255)",
+    "bg": "rgb(255, 255, 255)"
+   }
+  },
+  {
+   "test": "phone width: no sideways scroll",
+   "pass": true,
+   "detail": [
+    390,
+    390
+   ]
+  }
+ ],
+ "not_tested": [
+  "the artifact store (db) and the downloads capability, which only exist inside claude.ai; the page falls back to this browser's storage and an ordinary download, tested here",
+  "a real phone browser (tested at phone width in Chromium)"
+ ]
+}

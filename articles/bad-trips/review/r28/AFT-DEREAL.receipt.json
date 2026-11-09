@@ -1,0 +1,67 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-09",
+ "text_sha256": "0589e379260560e07f289f609de3276254331631859bce631107c24cc38a1cb1",
+ "text": "Derealization and depersonalization (when the world, or you yourself, feel unreal): Is it due to isolation? Rumination (which often goes along with isolation)? Peer and family support are crucial to combat those. Some things that tend to help are related to reconnecting with the feelings in your body: taking walks in nature (with bare feet for grounding to the Earth), doing gentle yin yoga, and Somatic Experiencing, a therapy that works through body sensations.",
+ "section": "What Kind of Aftermath Is This?",
+ "reader": "someone days after a hard trip with symptoms still hanging around, looking for their kind and what helps",
+ "sentences": [
+  {
+   "s": "Derealization and depersonalization (when the world, or you yourself, feel unreal): Is it due to isolation?",
+   "payoff": "they recognize the kind from what it feels like (the world, or they themselves, feeling unreal) and check whether isolation is behind it",
+   "follows": "his first question for this kind"
+  },
+  {
+   "s": "Rumination (which often goes along with isolation)?",
+   "payoff": "they check whether rumination is behind it too",
+   "follows": "his second question",
+   "link": "Rumination"
+  },
+  {
+   "s": "Peer and family support are crucial to combat those.",
+   "payoff": "they reach for peer and family support against both",
+   "follows": "what answers the two causes",
+   "link": "Peer and family support"
+  },
+  {
+   "s": "Some things that tend to help are related to reconnecting with the feelings in your body: taking walks in nature (with bare feet for grounding to the Earth), doing gentle yin yoga, and Somatic Experiencing, a therapy that works through body sensations.",
+   "payoff": "they get things that reconnect them with their body: walks in nature, gentle yin yoga, and Somatic Experiencing, said as what it is",
+   "follows": "the body-based help",
+   "link": "Some things that tend to help"
+  }
+ ],
+ "checked": [],
+ "placement": "What Kind of Aftermath Is This?, the list's third item (his version of 2026-11-09)",
+ "opens": {
+  "first_sentence": "Derealization and depersonalization (when the world, or you yourself, feel unreal): Is it due to isolation?",
+  "why_reading": "it names a kind most readers can't name, with what it feels like"
+ },
+ "same_point": "none: read the section from its heading to the next",
+ "needed": {
+  "reader": "a fresh Haiku agent given tools/humanization/needed_read_brief.md with the items sentence by sentence (NEEDED-READ.md beside this receipt)",
+  "unneeded": [],
+  "kept": {}
+ },
+ "questions": {
+  "Q1": "PASS: the kind first, then what helps",
+  "Q2": "PASS: each step says what it is for in his words",
+  "Q3": "PASS: the step and the therapy named exactly",
+  "Q4": "PASS: the term the card glosses is explained in the sentence that names it; CBT is spelled out earlier in (Re)defining \"Bad Trip\"",
+  "Q5": "PASS: his order, unchanged but for the gloss",
+  "Q6": "PASS: his order",
+  "Q7": "PASS: each step is one this reader can take days after a trip",
+  "Q8": "PASS: each item under its kind, as he wrote it",
+  "Q9": "PASS: his sentences, the gloss inside the one it explains"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

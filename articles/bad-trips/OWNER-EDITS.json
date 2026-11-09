@@ -867,15 +867,15 @@
   {
    "id": "r24-his-versions",
    "status": "applied",
-   "what": "his round-24 versions as he sent them (typos fixed): the first five minutes' reminder; the helper's anchor line and don'ts under Don't; (Re)defining \"Bad Trip\"; Give the Session a Beginning and an End's opening to its closure (humanize/h32-20261108/apply_r24.py)",
+   "what": "his round-24 versions as he sent them (typos fixed): the first five minutes' reminder; the helper's anchor line and don'ts under Don't; (Re)defining \"Bad Trip\"; Give the Session a Beginning and an End's opening to its closure (humanize/h32-20261108/apply_r24.py); 2026-11-09: his round-27 version (r27-his-versions) moved the anchor line and don'ts back into the first five minutes as one piece and starts the argument line \"But if they want to talk about it right now,\"",
    "joel": "2026-11-08 15:01 UTC, round 24 (review/r24/ANSWERS-R24-20261108-1501.json): his versions, his checks 82851dc3 and 0469ebb9 (Human High); \"so let's change that to this which is a little bit less redundant\"",
    "must_contain_exact": [
     "Sometimes it can be helpful to remind them where they are and what's happening, since a trip can make them lose track of the fact that they took a substance which has temporary effects.",
     "As the person helping, you want to play the role of the calm, caring anchor to the safe present moment, not the witch doctor guru who knows magic spells.",
-    "So don't try to win an argument with their visions, the entities they spoke to, the memories that surfaced, or whatever cosmic conclusions they reached ten minutes ago...",
     "A bad trip is one of those terms thrown around very loosely in the psychedelic space.",
     "One woman I met in Kenya was going to take shrooms to fix her tobacco and marijuana addictions.",
-    "the sitter (the sober person with you, not literally someone sitting on your face!)"
+    "the sitter (the sober person with you, not literally someone sitting on your face!)",
+    "don't try to win an argument with their visions, the entities they spoke to, the memories that surfaced, or whatever cosmic conclusions they reached ten minutes ago..."
    ],
    "must_not_contain": [
     "When you have a choice:",
@@ -933,6 +933,26 @@
    "joel": "2026-11-08 16:55 UTC, round 25 (review/r25/ANSWERS-R25-20261108-1655.json): approved, no comment",
    "must_not_contain": [
     "Every hard experience can feel like a profound lesson"
+   ]
+  },
+  {
+   "id": "r27-his-versions",
+   "status": "applied",
+   "what": "his round-27 versions as he sent them, obvious typos fixed (review/r27/apply_r27.py): the first five minutes as one piece (the helper's anchor line, offering gently, the argument line, the panic loop, the demon and love, his own story of the voice), the helper's Don't heading and its two paragraphs out since his piece says them; his What Kind of Aftermath Is This? list; and round 27's two approved put-backs",
+   "joel": "2026-11-09 01:24 UTC, round 27 (review/r27/ANSWERS-R27-20261109-0124.json): \"why did you lose my fixes from before? i'm putting them back and adding the fear panic loop plus my experience\"; his aftermath version checked High (85f35730); BACK-HIERARCHY-WHY and BACK-GROUNDING-LOVE approved",
+   "must_contain_exact": [
+    "So don't force eye contact, touch, music, prayer, chanting on them, just offer gently if it might help.",
+    "But if they want to talk about it right now, don't try to win an argument with their visions",
+    "Sometimes people get stuck in a panic loop, where they make interpretations to try to solve a feeling of panic",
+    "which led to 3 weeks of wandering in Malaysia & Cambodia without money once",
+    "The voice didn't respond, it just went away.",
+    "When symptoms linger, people too often put everything into the \"I'm broken\" bucket, which solves nothing.",
+    "**Somatic hyperarousal:** This is not rumination, but more like akathisia, bodily restlessness.",
+    "The hierarchy appears before the mystical sections because love doesn't require us to ignore the body.",
+    "Grounding is love becoming practical. Choose one or two options rather than all of them."
+   ],
+   "must_not_contain": [
+    "### Don't\n\nAs the person helping"
    ]
   }
  ]
