@@ -1,0 +1,491 @@
+{
+ "page": "/home/claude/joel-articles/articles/bad-trips/review/r33/REVIEW-R33.html",
+ "passed": 84,
+ "failed": 0,
+ "results": [
+  {
+   "test": "light: one card per suggestion",
+   "pass": true,
+   "detail": "8 cards, 8 suggestions"
+  },
+  {
+   "test": "light: every other card starts not approved",
+   "pass": true,
+   "detail": 0
+  },
+  {
+   "test": "light: typed comment kept",
+   "pass": true,
+   "detail": "Keep \"this\" — and check the link, please. Ünïcode ok."
+  },
+  {
+   "test": "light: comment text legible (contrast 14.7)",
+   "pass": true,
+   "detail": {
+    "ratio": 14.67911847763172,
+    "fg": "rgb(31, 41, 55)",
+    "fill": "rgb(31, 41, 55)",
+    "bg": "rgb(255, 255, 255)"
+   }
+  },
+  {
+   "test": "light: Approve is one click, no dialog",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "light: pill says Approved",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "light: Reject",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "light: rejected looks different from not approved",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "light: Revise opens your version",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "light: your version starts from mine",
+   "pass": true,
+   "detail": "## Get One Human Anchor\n\nMany bad trips get worse because somebody is alone with"
+  },
+  {
+   "test": "light: your-version text legible (contrast 14.7)",
+   "pass": true,
+   "detail": {
+    "ratio": 14.67911847763172,
+    "fg": "rgb(31, 41, 55)",
+    "fill": "rgb(31, 41, 55)",
+    "bg": "rgb(255, 255, 255)"
+   }
+  },
+  {
+   "test": "light: progress counts the decisions",
+   "pass": true,
+   "detail": "3 of 6 decided · 1 approved · 1 rejected · 1 to revise · 0 of 2 questions answered"
+  },
+  {
+   "test": "light: back to not approved in one click",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "light: approval count is explicit approvals only",
+   "pass": true,
+   "detail": "2 of 6 decided · 0 approved · 1 rejected · 1 to revise · 0 of 2 questions answered"
+  },
+  {
+   "test": "light: type filter hides that type",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "light: and shows it again",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "light: status filter shows only approved",
+   "pass": true,
+   "detail": [
+    "approved"
+   ]
+  },
+  {
+   "test": "light: search narrows the cards",
+   "pass": true,
+   "detail": 3
+  },
+  {
+   "test": "light: no cards I'd leave on this page, so nothing to hide",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "light: each changed paragraph shows as two clean texts (0 cards)",
+   "pass": true,
+   "detail": []
+  },
+  {
+   "test": "light: a passage shown whole reads as my version (6 cards)",
+   "pass": true,
+   "detail": []
+  },
+  {
+   "test": "light: a question card says Answered",
+   "pass": true,
+   "detail": "Answered"
+  },
+  {
+   "test": "light: answers count apart from decisions",
+   "pass": true,
+   "detail": "3 of 6 decided · 1 approved · 1 rejected · 1 to revise · 1 of 2 questions answered"
+  },
+  {
+   "test": "light: every highlight has a colour",
+   "pass": true,
+   "detail": "0 without one"
+  },
+  {
+   "test": "light: Next undecided brings one to the top",
+   "pass": true,
+   "detail": 1
+  },
+  {
+   "test": "light: Next walks every undecided card in page order, questions included",
+   "pass": true,
+   "detail": "expected ['LABELS-CUT', 'MENU-CUTS', 'HELPER-CUTS', 'REDEFINE-CUTS', 'SMALL-CUTS'], got ['LABELS-CUT', 'MENU-CUTS', 'HELPER-CUTS', 'REDEFINE-CUTS', 'SMALL-CUTS']"
+  },
+  {
+   "test": "light: Copy gives parseable JSON",
+   "pass": true,
+   "detail": "{\n \"format\": \"joel-suggestion-review-answers-v1\",\n \"review_id\": \"bad-trips-r33\","
+  },
+  {
+   "test": "light: export names the review and the guide version",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "light: export has every suggestion",
+   "pass": true,
+   "detail": 8
+  },
+  {
+   "test": "light: comment exported word for word",
+   "pass": true,
+   "detail": "Keep \"this\" — and check the link, please. Ünïcode ok."
+  },
+  {
+   "test": "light: statuses exported",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "light: the answer is exported with its question",
+   "pass": true,
+   "detail": {
+    "id": "SMELL",
+    "type": "question",
+    "title": "4. A Smell part in the Grounding Menu?",
+    "where": "Grounding Menu: Choose One or Two Things, P4",
+    "advice": "ask",
+    "status": "answered",
+    "question": "You wrote that smelling a nice natural scent like a lime peel would be more useful in the menu, but weren't sure, since the guide says it in several places. It does, all in the remedies: your essential oils entry with the lime peel, the Metta NMT sniffer, humic acid powder, and smelling the ferment. The menu is where someone in trouble picks one or two things to do now, and it has no smell in it. How each option would read:\n\nA (my pick): a Smell part right after Body, one line pointing to the remedies:\n    Smell\n    - Scratch & sniff a lime peel, or smell an authentic calming essential oil, the Metta NMT sniffer or humic acid powder (see Mental Stabilizers That Don't Abort the Trip).\nPro: the menu offers what you reach for yourself, in one line that names where the guide explains it, so nothing is said twice. Con: one more part in a menu you're trimming.\n\nB: no Smell part. Pro: nothing added. Con: someone who opens the menu for something to do now won't meet smell there.",
+    "your_version": "",
+    "comment": "From people I've talked to.",
+    "my_version": "",
+    "before": "",
+    "history": [],
+    "updated": "2026-11-09T20:24:33.286Z"
+   }
+  },
+  {
+   "test": "light: Save downloads the answers",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "light: a reload keeps the decisions",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "light: a reload keeps the comment",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "light: cleared storage starts fresh",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "light: loading the saved file restores decisions",
+   "pass": true,
+   "detail": "Loaded 4 answers."
+  },
+  {
+   "test": "light: and the comment",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "light: answers for another review are refused",
+   "pass": true,
+   "detail": "Those answers are for a different review (another-review), so nothing was loaded."
+  },
+  {
+   "test": "light: bad pasted text is refused",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "light: no console or page errors",
+   "pass": true,
+   "detail": []
+  },
+  {
+   "test": "dark: one card per suggestion",
+   "pass": true,
+   "detail": "8 cards, 8 suggestions"
+  },
+  {
+   "test": "dark: every other card starts not approved",
+   "pass": true,
+   "detail": 0
+  },
+  {
+   "test": "dark: typed comment kept",
+   "pass": true,
+   "detail": "Keep \"this\" — and check the link, please. Ünïcode ok."
+  },
+  {
+   "test": "dark: comment text legible (contrast 14.7)",
+   "pass": true,
+   "detail": {
+    "ratio": 14.67911847763172,
+    "fg": "rgb(31, 41, 55)",
+    "fill": "rgb(31, 41, 55)",
+    "bg": "rgb(255, 255, 255)"
+   }
+  },
+  {
+   "test": "dark: Approve is one click, no dialog",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "dark: pill says Approved",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "dark: Reject",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "dark: rejected looks different from not approved",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "dark: Revise opens your version",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "dark: your version starts from mine",
+   "pass": true,
+   "detail": "## Get One Human Anchor\n\nMany bad trips get worse because somebody is alone with"
+  },
+  {
+   "test": "dark: your-version text legible (contrast 14.7)",
+   "pass": true,
+   "detail": {
+    "ratio": 14.67911847763172,
+    "fg": "rgb(31, 41, 55)",
+    "fill": "rgb(31, 41, 55)",
+    "bg": "rgb(255, 255, 255)"
+   }
+  },
+  {
+   "test": "dark: progress counts the decisions",
+   "pass": true,
+   "detail": "3 of 6 decided · 1 approved · 1 rejected · 1 to revise · 0 of 2 questions answered"
+  },
+  {
+   "test": "dark: back to not approved in one click",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "dark: approval count is explicit approvals only",
+   "pass": true,
+   "detail": "2 of 6 decided · 0 approved · 1 rejected · 1 to revise · 0 of 2 questions answered"
+  },
+  {
+   "test": "dark: type filter hides that type",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "dark: and shows it again",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "dark: status filter shows only approved",
+   "pass": true,
+   "detail": [
+    "approved"
+   ]
+  },
+  {
+   "test": "dark: search narrows the cards",
+   "pass": true,
+   "detail": 3
+  },
+  {
+   "test": "dark: no cards I'd leave on this page, so nothing to hide",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "dark: each changed paragraph shows as two clean texts (0 cards)",
+   "pass": true,
+   "detail": []
+  },
+  {
+   "test": "dark: a passage shown whole reads as my version (6 cards)",
+   "pass": true,
+   "detail": []
+  },
+  {
+   "test": "dark: a question card says Answered",
+   "pass": true,
+   "detail": "Answered"
+  },
+  {
+   "test": "dark: answers count apart from decisions",
+   "pass": true,
+   "detail": "3 of 6 decided · 1 approved · 1 rejected · 1 to revise · 1 of 2 questions answered"
+  },
+  {
+   "test": "dark: every highlight has a colour",
+   "pass": true,
+   "detail": "0 without one"
+  },
+  {
+   "test": "dark: Next undecided brings one to the top",
+   "pass": true,
+   "detail": 1
+  },
+  {
+   "test": "dark: Next walks every undecided card in page order, questions included",
+   "pass": true,
+   "detail": "expected ['LABELS-CUT', 'MENU-CUTS', 'HELPER-CUTS', 'REDEFINE-CUTS', 'SMALL-CUTS'], got ['LABELS-CUT', 'MENU-CUTS', 'HELPER-CUTS', 'REDEFINE-CUTS', 'SMALL-CUTS']"
+  },
+  {
+   "test": "dark: Copy gives parseable JSON",
+   "pass": true,
+   "detail": "{\n \"format\": \"joel-suggestion-review-answers-v1\",\n \"review_id\": \"bad-trips-r33\","
+  },
+  {
+   "test": "dark: export names the review and the guide version",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "dark: export has every suggestion",
+   "pass": true,
+   "detail": 8
+  },
+  {
+   "test": "dark: comment exported word for word",
+   "pass": true,
+   "detail": "Keep \"this\" — and check the link, please. Ünïcode ok."
+  },
+  {
+   "test": "dark: statuses exported",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "dark: the answer is exported with its question",
+   "pass": true,
+   "detail": {
+    "id": "SMELL",
+    "type": "question",
+    "title": "4. A Smell part in the Grounding Menu?",
+    "where": "Grounding Menu: Choose One or Two Things, P4",
+    "advice": "ask",
+    "status": "answered",
+    "question": "You wrote that smelling a nice natural scent like a lime peel would be more useful in the menu, but weren't sure, since the guide says it in several places. It does, all in the remedies: your essential oils entry with the lime peel, the Metta NMT sniffer, humic acid powder, and smelling the ferment. The menu is where someone in trouble picks one or two things to do now, and it has no smell in it. How each option would read:\n\nA (my pick): a Smell part right after Body, one line pointing to the remedies:\n    Smell\n    - Scratch & sniff a lime peel, or smell an authentic calming essential oil, the Metta NMT sniffer or humic acid powder (see Mental Stabilizers That Don't Abort the Trip).\nPro: the menu offers what you reach for yourself, in one line that names where the guide explains it, so nothing is said twice. Con: one more part in a menu you're trimming.\n\nB: no Smell part. Pro: nothing added. Con: someone who opens the menu for something to do now won't meet smell there.",
+    "your_version": "",
+    "comment": "From people I've talked to.",
+    "my_version": "",
+    "before": "",
+    "history": [],
+    "updated": "2026-11-09T20:24:48.519Z"
+   }
+  },
+  {
+   "test": "dark: Save downloads the answers",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "dark: a reload keeps the decisions",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "dark: a reload keeps the comment",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "dark: cleared storage starts fresh",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "dark: loading the saved file restores decisions",
+   "pass": true,
+   "detail": "Loaded 4 answers."
+  },
+  {
+   "test": "dark: and the comment",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "dark: answers for another review are refused",
+   "pass": true,
+   "detail": "Those answers are for a different review (another-review), so nothing was loaded."
+  },
+  {
+   "test": "dark: bad pasted text is refused",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "dark: no console or page errors",
+   "pass": true,
+   "detail": []
+  },
+  {
+   "test": "negative fixture: the old white-box defect fails the check (contrast 1.0)",
+   "pass": true,
+   "detail": {
+    "ratio": 1,
+    "fg": "rgb(255, 255, 255)",
+    "fill": "rgb(255, 255, 255)",
+    "bg": "rgb(255, 255, 255)"
+   }
+  },
+  {
+   "test": "phone width: no sideways scroll",
+   "pass": true,
+   "detail": [
+    390,
+    390
+   ]
+  }
+ ],
+ "not_tested": [
+  "the artifact store (db) and the downloads capability, which only exist inside claude.ai; the page falls back to this browser's storage and an ordinary download, tested here",
+  "a real phone browser (tested at phone width in Chromium)"
+ ]
+}

@@ -1035,6 +1035,70 @@
     "on the belly",
     "on your belly"
    ]
+  },
+  {
+   "id": "r32-seize-head",
+   "status": "applied",
+   "what": "Active Seizure: the heading he picked (A) where the extras start, after first aid, the rescue medicine and when to call medics (review/r32/apply_r32.py)",
+   "joel": "2026-11-09 20:08 UTC (review/r32/ANSWERS-R32-20261109-2008.json, SEIZE-HEAD): \"a\"",
+   "must_contain": [
+    "### What Else May Help: At the Aura, and Alongside Rescue Medicine"
+   ],
+   "order": [
+    "## Active Seizure",
+    "Call medics for a convulsive seizure",
+    "### What Else May Help: At the Aura, and Alongside Rescue Medicine",
+    "Some people get a warning before a seizure takes hold"
+   ]
+  },
+  {
+   "id": "r32-ground-order",
+   "status": "applied",
+   "what": "the room-first order opens the Grounding Menu, after its first paragraph, without \"When the nervous system is on fire, love becomes practical first.\" (review/r32/apply_r32.py)",
+   "joel": "2026-11-09 20:08 UTC (review/r32/ANSWERS-R32-20261109-2008.json, GROUND-ORDER, approved): \"we can remove the 2nd line about love becomes practical first\"",
+   "must_contain": [
+    "Grounding is love becoming practical.",
+    "A useful order is **room → body → human → time → meaning**. Most people begin with meaning because the experience feels cosmic."
+   ],
+   "must_not_contain": [
+    "love becomes practical first"
+   ],
+   "order": [
+    "## Grounding Menu: Choose One or Two Things",
+    "Grounding is love becoming practical.",
+    "A useful order is **room → body → human → time → meaning**"
+   ]
+  },
+  {
+   "id": "r32-menu-boilerplate",
+   "status": "applied",
+   "what": "the Grounding Menu's Room and A familiar object, and Time's \"Say the date, place, and approximate time.\", cut as AI boilerplate (FIDELITY-KEYS-R32, W089; review/r32/apply_r32.py); his ask to find more boilerplate and his lime-peel thought go to round 33",
+   "joel": "2026-11-09 20:08 UTC (review/r32/ANSWERS-R32-20261109-2008.json, GROUND-ROOM, revised): \"this is too much boilerplate stuff that ai added in to my guide. help mne locate more boilerplate stuff that could be removed. i want to remove room section, familiar object section, this line: \\\"Say the date, place, and approximate time.\\\"\"",
+   "must_not_contain": [
+    "**A familiar object**",
+    "**Room**",
+    "Name five ordinary objects.",
+    "Say the date, place, and approximate time.",
+    "inner Nurturer or Protector"
+   ]
+  },
+  {
+   "id": "r32-shadow-start",
+   "status": "applied",
+   "what": "the definition of shadow work and where to begin open the Shadow Work part, right under its heading; The Other Bypass ends on \"... and honest conversation.\" (review/r32/apply_r32.py)",
+   "joel": "2026-11-09 20:08 UTC (review/r32/ANSWERS-R32-20261109-2008.json, SHADOW-START): \"b\"",
+   "must_contain": [
+    "# Shadow Work\n\nShadow work to me is neither BDSM nor \"feeding your demons.\""
+   ],
+   "order": [
+    "# Shadow Work",
+    "Shadow work to me is neither BDSM",
+    "Begin with my Inner Child Therapy guide",
+    "## Dealing With Sorrow",
+    "## The Other Bypass: Feeling Good Forever",
+    "I wish everybody could keep shadow work inside the safer rooms",
+    "# After the Storm"
+   ]
   }
  ]
 }
