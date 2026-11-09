@@ -1014,6 +1014,27 @@
    "must_not_contain": [
     "How much harmine and harmaline end up in a home-made oil can vary"
    ]
+  },
+  {
+   "id": "r31-method-where",
+   "status": "applied",
+   "what": "his method where the guide is used in trouble: his version of the Alone at 3 a.m. line, the breath line's \"I can love the part of me that feels it.\", and \"train before you need it\" in the planning section; paranoia and derealization stay in the aftermath list (AFT-PLACE \"c\") (review/r31/apply_r31.py)",
+   "joel": "2026-11-09 18:59 UTC (review/r31/ANSWERS-R31-20261109-1859.json): MW-ALONE revised with his version, MW-BREATH and MW-PREP approved, AFT-PLACE \"c\"",
+   "must_contain": [
+    "While you wait, put one hand on your heart and the other on your solar plexus just under your chest",
+    "Whisper: \"This is a wave. I can love the part of me that feels it.\"",
+    "And train before you need it, sending love to a frightening image"
+   ]
+  },
+  {
+   "id": "r31-solar-plexus",
+   "status": "applied",
+   "what": "the second hand goes on the solar plexus, not the belly, wherever the guide places the hands (keep-as-is K24)",
+   "joel": "2026-11-09 18:59 UTC (review/r31/ANSWERS-R31-20261109-1859.json, MW-ALONE): \"belly must be an ai error, it's funny it keeps changing that\"",
+   "must_not_contain": [
+    "on the belly",
+    "on your belly"
+   ]
   }
  ]
 }

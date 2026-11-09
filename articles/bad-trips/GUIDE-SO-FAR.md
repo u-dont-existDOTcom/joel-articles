@@ -413,7 +413,7 @@ Grounding is love becoming practical. Choose one or two options rather than all 
 **Body**
 
 - Feel both feet against the floor.
-- Put one hand on the heart and one on the belly or solar plexus.
+- Put one hand on the heart and one on the solar plexus.
 - Hold something with weight or texture.
 - Slowly unclench the jaw, hands, belly, and shoulders.
 
@@ -431,7 +431,7 @@ Grounding is love becoming practical. Choose one or two options rather than all 
 - Try inhaling for four and exhaling for six, without strain.
 - Or breathe softly and slowly through the nose, taking in slightly less air than desired until there is faint air hunger.
 - Never force breath-holds while intoxicated or panicked. Stop for increased fear, dizziness, chest pain, or medical concern.
-- Whisper: "This is a wave."
+- Whisper: "This is a wave. I can love the part of me that feels it."
 
 **Music**
 
@@ -491,6 +491,8 @@ So **one calm person should be the anchor** and take the lead. One person can on
 The [triage app](https://ibogaqueen.com/1625-2/) has the stripped-down 3 a.m. plan. Once the lamp is on, the keys are away, and **"No big actions until morning"** is visible, use the phone only to reach a calm person or support service.
 
 Send the human-anchor script.
+
+While you wait, put one hand on your heart and the other on your solar plexus just under your chest, and say to yourself: "This feeling is allowed to move through. I can love the part of me that feels it."
 
 When the body still needs movement, keep it contained and boring: brush your teeth, stretch gently, take a calm shower, or do a few slow wall push-ups. Then protect sleep.
 
@@ -840,7 +842,7 @@ My perspective is that these people are not correctly preparing for the [inner c
 
 If you're planning a session, think through beforehand how it will start and end, and what happens in between. Rest and timing come first: don't begin already depleted, and ideally start earlier in the day, so there's time afterward for food, some normal company and most importantly, sleep.
 
-Set up the space you'll be in, and decide ahead of time what would make you call for outside help. Go in curious about what might come up, along with gentle intentions, not harboring demands for revelations, buried memories, good cries or spiritual breakthroughs. Sometimes people find that when they prepare to purify themselves and open up to love, they don't even end up needing the experience itself. The work is already done.
+Set up the space you'll be in, and decide ahead of time what would make you call for outside help. Go in curious about what might come up, along with gentle intentions, not harboring demands for revelations, buried memories, good cries or spiritual breakthroughs. And train before you need it, sending love to a frightening image, to someone you hate (without approving of what they did), and to the inner child. Sometimes people find that when they prepare to purify themselves and open up to love, they don't even end up needing the experience itself. The work is already done.
 
 One woman I met in Kenya was going to take shrooms to fix her tobacco and marijuana addictions. Before she took the shrooms, she simply realized she was addicted to those substances because she was trying to escape anxiety. So instead, she let the anxiety come, and accepted the feeling until it left. Her addictions vanished, no shroom trip required.
 

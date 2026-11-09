@@ -55,8 +55,13 @@ def stale(answers, review, page_md, article_md):
         his = norm(yours + ' ' + (it.get('comment') or ''))
         if len(his) < 40:
             continue
-        for sp in s.get('spans', []):
-            text = bl[sp['block']]['text'][sp['start']:sp['end']]
+        # the stretch his version replaces: a stretch to edit's spans, or an approve card's edited blocks; an insert-only
+        # card's spans only mark where the new text goes, and nothing there is replaced
+        if s.get('advice') == 'edit':
+            texts = [bl[sp['block']]['text'][sp['start']:sp['end']] for sp in s.get('spans', [])]
+        else:
+            texts = [e.get('before') or '' for e in s.get('edits', [])]
+        for text in texts:
             for piece in SENT.split(text):
                 n = norm(piece)
                 if len(n) >= MIN_CHARS and n in art and n not in his:
