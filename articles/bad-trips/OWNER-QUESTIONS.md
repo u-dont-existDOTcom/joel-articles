@@ -1,18 +1,20 @@
 # Bad Trips guide: questions for Joel
 
-Updated 2026-11-09 (turn 31, rounds 30 and 31 answered at 18:43 and 18:59 UTC); earlier turn 30 (rounds 28 and 29 answered at 17:22 UTC, round 30 out); earlier turn 29 (round 27 answered at 01:24 UTC, rounds 28 and 29 out); earlier 2026-11-08 (turn 26, his round-24 answers of 15:01 UTC in; round 26 out with the session's resume of 15:52 UTC and answered at 16:48 UTC; round 25 answered at 16:55 UTC; round 27 out at 17:52 UTC). Status: **open** = waiting on you, **next** = I do it once you
+Updated 2026-11-09 (turn 32, round 32 answered at 20:08 UTC, round 33 out); earlier turn 31 (rounds 30 and 31 answered at 18:43 and 18:59 UTC); earlier turn 30 (rounds 28 and 29 answered at 17:22 UTC, round 30 out); earlier turn 29 (round 27 answered at 01:24 UTC, rounds 28 and 29 out); earlier 2026-11-08 (turn 26, his round-24 answers of 15:01 UTC in; round 26 out with the session's resume of 15:52 UTC and answered at 16:48 UTC; round 25 answered at 16:55 UTC; round 27 out at 17:52 UTC). Status: **open** = waiting on you, **next** = I do it once you
 answer, **done** = answered.
 Answer under an item's number in a message.
 
 ## Open
 
-- **Round 32** (Bad Trips Guide, Round 32, https://claude.ai/artifact/CSaM2EWsDDMHMG29y8Srsb), built 2026-11-09: SEIZE-HEAD (a heading where Active Seizure's extras start: A, B or none), GROUND-ORDER (the room-first order to the Grounding Menu's top), GROUND-ROOM (Room first in the menu), SHADOW-START (a heading in The Other Bypass, or its definition and where-to-begin opening Shadow Work).
+- **Round 33** (Bad Trips Guide, Round 33, https://claude.ai/artifact/JETdWLQMup1G7AUjLfrh1q), built 2026-11-09: the boilerplate you asked me to find. LABELS-CUT (How I label the evidence), STILL-CUT (Stillness or Movement?), MENU-CUTS (the Grounding Menu's other standard lines), SMELL (a Smell part in the menu: A or B), ANCHOR-CUTS (the sitter's script, the 3 a.m. movement tips), HELPER-CUTS (three Do lines and the harm summary), REDEFINE-CUTS (the causes list and the CBT thinking traps), SMALL-CUTS (seven smaller ones: which letters go). Also open in its introduction: the room-first order now starts with a room the menu no longer has a part for.
 
 ## Your tasks
 
 None right now.
 
 ## Decisions on record
+
+His round-32 answers of 2026-11-09 20:08 UTC, on [round 32's cards](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261105/articles/bad-trips/review/r32/REVIEW-R32.md): SEIZE-HEAD "a"; GROUND-ORDER approved, "we can remove the 2nd line about love becomes practical first"; GROUND-ROOM revised: "this is too much boilerplate stuff that ai added in to my guide. help mne locate more boilerplate stuff that could be removed. i want to remove room section, familiar object section, this line: "Say the date, place, and approximate time."" and "more useful would be smelling a nice natural scent like lime peel or something, but idk i feel like this is all said in multiple places also"; SHADOW-START "b". All in ([review/r32/apply_r32.py](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261105/articles/bad-trips/review/r32/apply_r32.py)); lesson bad-trips-2026-11-09i; his ask to find more boilerplate and his lime-peel thought are round 33.
 
 His round-31 answers of 2026-11-09 18:59 UTC, on [round 31's cards](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261105/articles/bad-trips/review/r31/REVIEW-R31.md): AFT-PLACE "c"; MW-ALONE revised with his version ("belly must be an ai error, it's funny it keeps changing that"); MW-BREATH and MW-PREP approved. In: [apply_r31.py](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261105/articles/bad-trips/review/r31/apply_r31.py).
 

@@ -1,0 +1,96 @@
+{
+ "format": "joel-suggestion-review-answers-v1",
+ "review_id": "bad-trips-r32",
+ "title": "Bad Trips Guide, Round 32",
+ "git_file": "articles/bad-trips/review/r32/REVIEW-R32.html",
+ "article": {
+  "file": "articles/bad-trips/review/r32/PAGE-R32.md",
+  "sha256": "a4ef4c73826f722ffbba37c76d0f6aa62a4ed2ca83d35fc87e6dae33647f8f94"
+ },
+ "built": "2026-11-09",
+ "generator": "suggestion_review.py 1.10 (2026-11-07)",
+ "exported_at": "2026-11-09T20:08:42.872Z",
+ "counts": {
+  "approved": 1,
+  "rejected": 0,
+  "revise": 1,
+  "pending": 2
+ },
+ "items": [
+  {
+   "id": "SEIZE-HEAD",
+   "type": "structure",
+   "title": "1. Active Seizure: a heading where the extras start?",
+   "where": "Active Seizure, P4",
+   "advice": "ask",
+   "status": "answered",
+   "question": "Active Seizure now opens with first aid, the rescue medicine and when to call medics (that line moved up; see the top of the page). Six paragraphs follow on what else may help: the aura, magnesium with DMSO and CBD, the ABRACE spray, the forums, the CBD gel trial, and DMSO in rats. Nothing marks where the essentials stop. How each option would read:\n\nA (my pick):\n    ... or a seizure substantially different from the person's known pattern.\n    ### What Else May Help: At the Aura, and Alongside Rescue Medicine\n    Some people get a warning before a seizure takes hold, which is called an aura. ...\nPro: someone with a seizing friend sees that what they need is above it, and the heading says when the rest applies, with \"alongside any rescue medicine\" from the magnesium paragraph. Con: it names none of the remedies, so someone scanning the headings for CBD has to read on to find it.\n\nB: the same place, \"### What Else May Help: Magnesium, CBD, THC and DMSO\". Pro: someone scanning the headings for CBD or DMSO finds them. Con: it leaves out the aura, which the first paragraph under it is about.\n\nC: no heading. Pro: nothing added, and the essentials come first now anyway. Con: the six paragraphs run on from the first aid with nothing to say they're extras.",
+   "your_version": "",
+   "comment": "a",
+   "my_version": "",
+   "before": "",
+   "history": [],
+   "updated": "2026-11-09T19:58:55.729Z"
+  },
+  {
+   "id": "GROUND-ORDER",
+   "type": "structure",
+   "title": "2. Grounding Menu: the room-first order at its top",
+   "where": "Stillness or Movement?, P5",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "we can remove the 2nd line about love becomes practical first",
+   "my_version": "## Grounding Menu: Choose One or Two Things\n\nGrounding is love becoming practical. Choose one or two options rather than all of them. Twelve simultaneous techniques can become another form of panic.\n\nA useful order is room → body → human → time → meaning. Most people begin with meaning because the experience feels cosmic. When the nervous system is on fire, love becomes practical first.",
+   "before": "A useful order is room → body → human → time → meaning. Most people begin with meaning because the experience feels cosmic. When the nervous system is on fire, love becomes practical first.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-09T19:59:51.830Z"
+    }
+   ],
+   "updated": "2026-11-09T20:00:51.785Z"
+  },
+  {
+   "id": "GROUND-ROOM",
+   "type": "structure",
+   "title": "3. Grounding Menu: Room first, as in the order",
+   "where": "Grounding Menu: Choose One or Two Things, P26",
+   "advice": "approve",
+   "status": "revise",
+   "your_version": "",
+   "comment": "this is too much boilerplate stuff that ai added in to my guide. help mne locate more boilerplate stuff that could be removed. i want to remove room section, familiar object section, this line: \"•\nSay the date, place, and approximate time.\"\n\nmore useful would be smelling a nice natural scent like lime peel or something, but idk i feel like this is all said in multiple places also",
+   "my_version": "(move \"Room\" to just before \"Body\")",
+   "before": "",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-09T20:01:09.024Z"
+    },
+    {
+     "from": "approved",
+     "to": "revise",
+     "at": "2026-11-09T20:02:49.078Z"
+    }
+   ],
+   "updated": "2026-11-09T20:08:04.145Z"
+  },
+  {
+   "id": "SHADOW-START",
+   "type": "structure",
+   "title": "4. The Other Bypass turns into what shadow work is: a heading, or the start of Shadow Work?",
+   "where": "The Other Bypass: Feeling Good Forever, P5",
+   "advice": "ask",
+   "status": "answered",
+   "question": "The Other Bypass is about the bypass of only wanting to feel good; from \"Modern people carry so much trauma ...\" it's about shadow work: why it may come first, how it shows up when skipped, what it is, and where to begin. Since the contents put this section at the end of Shadow Work, the part's only words on what shadow work is come last. How each option would read:\n\nA (a fresh reader's idea): a heading above \"Modern people carry so much trauma ...\":\n    ### Why Shadow Work Comes First\nPro: marks the turn. Con: a third level in a six-paragraph section, and Shadow Work still opens with nothing on what it is.\n\nB (my pick): the last two paragraphs open the Shadow Work part, right under its heading:\n    # Shadow Work\n    Shadow work to me is neither BDSM nor \"feeding your demons.\" It means bringing loving awareness to the parts of the mind built in fear, pain, humiliation, rejection, and survival. Inner-child reparenting is central. Most negative mind-states aren't some error in your philosophy, they're just young parts of you that are still waiting for love and protection and permission, and for the explanation nobody ever gave them.\n    Begin with my Inner Child Therapy guide and app, and my Self-Hypnosis guide and app.\n    ## Dealing With Sorrow: Missing Versus Sending Love\nand The Other Bypass ends:\n    ... I encountered a lot of it in my first two marriages, to my bewilderment. I wish everybody could keep shadow work inside the safer rooms of meditation, therapy, journaling, prayer, and honest conversation.\nPro: someone who opens Shadow Work first reads what you mean by it and where to begin, before the sections that do it, as in your post, where The Other Bypass came before them. Con: the \"young parts of you that are still waiting for love\" sentence would no longer come two sections after the list of cognitive distortions in (Re)defining \"Bad Trip\"; it would come five sections before it.\n\nC: leave it. Pro: nothing moves. Con: the section turns halfway with nothing to mark it, and the definition comes at the part's end.",
+   "your_version": "",
+   "comment": "b",
+   "my_version": "",
+   "before": "",
+   "history": [],
+   "updated": "2026-11-09T20:08:40.315Z"
+  }
+ ]
+}

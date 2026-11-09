@@ -96,6 +96,8 @@ If an appropriate rapid seizure-rescue benzodiazepine is available, use it by it
 
 Call medics for a convulsive seizure lasting about five minutes, repeated seizures without normal recovery, trouble breathing, dangerous heat, serious injury, a first seizure, or a seizure substantially different from the person's known pattern.
 
+### What Else May Help: At the Aura, and Alongside Rescue Medicine
+
 Some people get a warning before a seizure takes hold, which is called an aura. That's when the things people report can still stop it, depending on what sets their seizures off. If it's flashing or flickering light, cover one eye with a hand and turn away from the light, because closing the eyes doesn't block enough of it. Some people stop a seizure at the warning stage with a strong smell like jasmine, and some train themselves to link one smell with feeling calm and then sniff it when a seizure threatens. When overstimulation is what sets it off, a cool, quiet, dark and comfortable space can help. I'd also try sniffing humic/fulvic acid powder, although that's just a hunch based on the effects I notice so far.
 
 During the seizure, alongside any rescue medicine, I would use topical magnesium chloride and consider topical DMSO with a known-genuine CBD preparation (a lot of CBD is fake or very dilute). Seizures come in all different types, and we have no study on whether CBD could be a rescue remedy for a seizure ([just anecdotes](https://www.youtube.com/watch?v=RCxGSrUsB0Q)), even though we do have studies showing long-term effectiveness to prevent them: Purified oral CBD is [approved](https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/210365s024s029s030lbl.pdf) for the seizures of Lennox-Gastaut syndrome, Dravet syndrome and tuberous sclerosis complex.
@@ -404,11 +406,11 @@ When lying down feels like imprisonment, pace slowly in a contained space. When 
 
 **Movement evidence note:** the best-supported general advice is to create a safe, low-stimulation environment and choose responses that reduce danger. A [2024 study](https://www.nature.com/articles/s41598-024-79931-w) of strategies for resolving challenging psychedelic experiences identified physical movement, intentional breathing, sensory engagement, sleep-seeking, and social support among the ways people navigate difficulty.
 
-A useful order is **room → body → human → time → meaning**. Most people begin with meaning because the experience feels cosmic. When the nervous system is on fire, love becomes practical first.
-
 ## Grounding Menu: Choose One or Two Things
 
 Grounding is love becoming practical. Choose one or two options rather than all of them. Twelve simultaneous techniques can become another form of panic.
+
+A useful order is **room → body → human → time → meaning**. Most people begin with meaning because the experience feels cosmic.
 
 ![](https://substack-post-media.s3.amazonaws.com/public/images/296952b0-1468-44da-9878-093d82942785_1122x1402.png)
 
@@ -418,14 +420,6 @@ Grounding is love becoming practical. Choose one or two options rather than all 
 - Put one hand on the heart and one on the solar plexus.
 - Hold something with weight or texture.
 - Slowly unclench the jaw, hands, belly, and shoulders.
-
-**A familiar object**
-
-- Choose it ahead of time, while calm and regulated: a childhood toy, stuffed animal, note, photograph, blanket, stone, or another object that represents your inner Nurturer or Protector--the adult part of you that offers care or safety.
-- During a difficult state, let it remind you what you already decided: "I'm here. I protect this body. No big decisions tonight."
-- Use it as a cue, not an oracle. It does not issue commands or interpret the trip.
-- Pair the comfort with one adult action: contact the grounded person, move away from danger, drink some water when safe, or prepare for sleep.
-- A calm pet can offer the same quiet company when the animal is comfortable and the situation is safe.
 
 **Breath**
 
@@ -443,12 +437,6 @@ Grounding is love becoming practical. Choose one or two options rather than all 
 - Soothing meditative music, like that of Chantress Seba and others on my [music page](http://music.u-dont-exist.com/), can be very helpful.
 - Keep the stop or change control immediate.
 
-**Room**
-
-- Name five ordinary objects.
-- Look at one stable object and describe it plainly.
-- Say: "This is a wall. This is a blanket. This is my hand."
-
 **Human**
 
 - Ask one calm person to stay as the lead anchor.
@@ -457,7 +445,6 @@ Grounding is love becoming practical. Choose one or two options rather than all 
 
 **Time**
 
-- Say the date, place, and approximate time.
 - Remember that these states usually rise, peak, and change.
 - Put every big decision into tomorrow's notebook.
 
@@ -559,6 +546,10 @@ The action lock matters especially when the state feels blissful: *I am God. I a
 The revelation will still exist after breakfast. If it is true, it survives sleep. If it cannot survive one night of rest, it was an emergency impulse wearing angel wings.
 
 # Shadow Work
+
+Shadow work to me is neither BDSM nor "feeding your demons." It means bringing loving awareness to the parts of the mind built in fear, pain, humiliation, rejection, and survival. [Inner-child reparenting ](http://innerchild.u-dont-exist.com)is central. Most negative mind-states aren't some error in your philosophy, they're just young parts of you that are still waiting for love and protection and permission, and for the explanation nobody ever gave them.
+
+Begin with my [Inner Child Therapy guide](http://innerchild.u-dont-exist.com) and app, and my [Self-Hypnosis guide](http://hypnoisis.u-dont-exist.com) and app.
 
 ## Dealing With Sorrow: Missing Versus [Sending Love](http://love.u-dont-exist.com/)
 
@@ -777,10 +768,6 @@ Many people meditate or take psychedelics to feel good. I am definitely one of t
 Modern people carry so much trauma--and some people did even in Buddha's time--that shadow work and inner-child reparenting may need to come first, even before authentic liberation from the identity illusion.
 
 When shadow work is bypassed in meditation and therapy, it may appear in ordinary life without explaining itself. I encountered a lot of it in my first two marriages, to my bewilderment. I wish everybody could keep shadow work inside the safer rooms of meditation, therapy, journaling, prayer, and honest conversation.
-
-Shadow work to me is neither BDSM nor "feeding your demons." It means bringing loving awareness to the parts of the mind built in fear, pain, humiliation, rejection, and survival. [Inner-child reparenting ](http://innerchild.u-dont-exist.com)is central. Most negative mind-states aren't some error in your philosophy, they're just young parts of you that are still waiting for love and protection and permission, and for the explanation nobody ever gave them.
-
-Begin with my [Inner Child Therapy guide](http://innerchild.u-dont-exist.com) and app, and my [Self-Hypnosis guide](http://hypnoisis.u-dont-exist.com) and app.
 
 # After the Storm
 
