@@ -26,7 +26,7 @@ I developed the [**Inner Signal app**](http://innersignalselfhypnosis.com/integr
 - Serious injury, uncontrolled bleeding, or a possible head or spinal injury
 - Repeated vomiting, severe dehydration, blood, or severe abdominal pain
 - Violence, self-harm, or a situation the sitter cannot physically contain
-- Concerning symptoms after an MAOI plus a serotonergic substance
+- Concerning symptoms after an MAOI, which slows the breakdown of serotonin (some older antidepressants, and the harmalas in ayahuasca and Syrian rue seeds), plus a serotonergic substance, one that raises serotonin, like MDMA or most antidepressants
 
 The remedies below can begin while help is being arranged.
 
@@ -237,7 +237,7 @@ I do not yet have data showing that pes-caprae aborts MDMA. MDMA remains a separ
 
 #### Metta NMT Sniffer Makes the Trip Chill & Lovey!
 
-As explained in my [loveyhuasca guide](http://loveyhuasca.info), this little sniffer stick that you smell gives people 30-60 minutes (or more) of peace even when they are sober and just anxious. People tell me it's saved their life from crippling anxiety. I have a [survey here ](http://sniffersurvey.loveyhuasca.info)they can post at. But when I'm on ayahauasca or loveyhuasca, not only is it calming and nice, but actually opens my heart chakra considerably. Before this, loveyhuasca was kind of hit or miss for me on the love part. It turns regular ayahuasca into loveyhuasca even. You can get these directly from me. It's a bunch of stuff in the formula, but one of the things in here you can buy directly on Amazon for super cheap right now and it works also very well:
+As explained in my [loveyhuasca guide](http://loveyhuasca.info), this little sniffer stick that you smell gives people 30-60 minutes (or more) of peace even when they are sober and just anxious. People tell me it's saved their life from crippling anxiety. I have a [survey here ](http://sniffersurvey.loveyhuasca.info)they can post at. But when I'm on ayahuasca or loveyhuasca, not only is it calming and nice, but actually opens my heart chakra considerably. Before this, loveyhuasca was kind of hit or miss for me on the love part. It turns regular ayahuasca into loveyhuasca even. You can get these directly from me. It's a bunch of stuff in the formula, but one of the things in here you can buy directly on Amazon for super cheap right now and it works also very well:
 
 #### Humic Acid Brings Brain to Optimal Function
 
@@ -317,7 +317,7 @@ Other forms of vitamin B3 seem less reliable for relaxation. Niacinamide sometim
 
 ## Some Remedies Require More Caution
 
-[Humic acid](http://humicacid.u-dont-exist.com/) *when eaten*, can produce a hyperintelligent state for me. From the outside that may look manic, and it could destabilize somebody prone to mania or without meditation training. I wouldn't use it casually during a bad trip. Smelling it does not produce that hyper intelligent state but does feel relaxing and very beneficial for brain health, so I'd start with that.
+[Humic acid](http://humicacid.u-dont-exist.com/) *when eaten*, can produce a hyperintelligent state for me. From the outside that may look manic, and it could destabilize somebody prone to mania or without meditation training. I wouldn't use it casually during a bad trip. Smelling it does not produce that hyperintelligent state but does feel relaxing and very beneficial for brain health, so I'd start with that.
 
 [Cinnamon](http://cinnamon.u-dont-exist.com/) can produce an intense "brain surgery" or "brain scraping" effect, especially the first time it combines with an ayahuasca-like state. That may be therapeutic in the right context, but it is not a casual rescue tool.
 
@@ -362,6 +362,8 @@ As the person helping, you want to play the role of the calm, caring anchor to t
 But if they want to talk about it right now, don't try to win an argument with their visions, the entities they spoke to, the memories that surfaced, or whatever cosmic conclusions they reached ten minutes ago... But don't let silence validate anything harmful either, like a plan that ends with somebody getting hurt.
 
 Sometimes people get stuck in a panic loop, where they make interpretations to try to solve a feeling of panic, but then those create another kind of panic. It's helpful to remind them that sometimes feelings just need to be felt, so they can move and release, and then thinking can be more clear afterwards.
+
+![](https://substack-post-media.s3.amazonaws.com/public/images/633de218-0966-491c-aac4-6b4a366195ce_1122x1402.png)
 
 If they're being attacked by a demon, let your care help them connect to love, which cancels fear. Hopefully they've been practicing that prior. Don't encourage them to believe they are crazy, impure, weak or broken. While many interpretations are possible, a therapeutic one would not be that they're being punished or failing the medicine.
 
@@ -641,19 +643,6 @@ Jot down anything you want to remember before you forget, and let your body know
 
 Use this sequence for planned sessions. Once somebody is already in trouble, return to the [triage app](https://ibogaqueen.com/1625-2/) instead of trying to improve the ceremony plan.
 
-## The Fear/Panic Loop
-
-A common loop is fear trying to solve fear. Terror appears, and the mind answers it with metaphysics, diagnosis, conspiracy, spiritual certainty, or desperate action. That usually feeds the terror.
-
-![](https://substack-post-media.s3.amazonaws.com/public/images/633de218-0966-491c-aac4-6b4a366195ce_1122x1402.png)
-
-**Loop breaker:**
-
-1. **Name it:** "This is fear trying to solve fear."
-2. **Stop debating:** no metaphysics, diagnosis, or life decisions at the peak.
-3. **Move down the ladder:** room → body → human → time.
-4. **Repeat:** "This is a wave. I don't have to solve it at the peak."
-
 ## Dealing With Sorrow: Missing Versus [Sending Love](http://love.u-dont-exist.com/)
 
 I once found a pamphlet helpful on sorrow, although it was too "ultimate" and Advaita for my taste. I now think focusing on love is more helpful than focusing on missing somebody or something.
@@ -836,9 +825,9 @@ Don't make huge decisions or diagnose yourself from an intense night. You don't 
 
 When symptoms linger, people too often put everything into the "I'm broken" bucket, which solves nothing. While a professional can be called in to help at any point, self-diagnostics and basic fix strategies may obviate the need for one. Try to find the underlying psychological and/or physiological patterns driving the symptoms:
 
-- **Anxiety and fear:** with this pattern, it helps to first figure out what is providing the stimulation for the anxiety. CBT-style reality testing is one way to do that which could be explored with a therapist if it persists, but can be done without one to start with. In general, it can help to have grounding/relaxing routines (like morning or bedtime yin yoga, meeting a friend for lunch).
+- **Anxiety and fear:** with this pattern, it helps to first figure out what is providing the stimulation for the anxiety. CBT-style reality testing, checking the frightening thought against what's actually happening, is one way to do that which could be explored with a therapist if it persists, but can be done without one to start with. In general, it can help to have grounding/relaxing routines (like morning or bedtime yin yoga, meeting a friend for lunch).
 - **Sleep disturbance and nightmares:** I'd first ensure no more substances are being used, including "normal" ones like coffee, which some people become extra sensitive to after certain psychedelics (especially iboga). Pay attention to sleep hygiene, especially what you eat at what time, and what you might not be processing during the day which then grabs attention at night.
-- **Derealization and depersonalization:** Is it due to isolation? Rumination (which often goes along with isolation)? Peer and family support are crucial to combat those. Some things that tend to help are related to reconnecting with the feelings in your body: taking walks in nature (with bare feet for grounding to the Earth), doing gentle yin yoga, and Somatic Experiencing therapy.
+- **Derealization and depersonalization (when the world, or you yourself, feel unreal):** Is it due to isolation? Rumination (which often goes along with isolation)? Peer and family support are crucial to combat those. Some things that tend to help are related to reconnecting with the feelings in your body: taking walks in nature (with bare feet for grounding to the Earth), doing gentle yin yoga, and [Somatic Experiencing](http://somatic.u-dont-exist.com/), a therapy that works through body sensations.
 - **Visual distortions/Hallucinogen Persisting Perception Disorder (HPPD)-like symptoms:** These can be long-lasting, and people often end up just getting used to it, but it helps to reduce stress and avoid any further use of psychedelics. I'd also try DMSO, niacin, and other neuroprotective/restorative treatments.
 - **Social disconnection and shame:** The biggest thing here is if you can find one or two trusted people who won't judge you. Get whatever it is off your chest. If you can't find someone like that, talk to a therapist. You'd be surprised how many people have gone through something like this and come out the other side realizing it wasn't what they made it out to be, myself included. Check [my guide on shame](http://shame.u-dont-exist.com/) for more info.
 - **Existential shock:** This one's pretty normal if someone has a deep journey, especially one they weren't prepared for. It helps to go back one step to focus on loving kindness and sending love to the inner child before getting lost in a philosophical ocean. Finding others who've been through a similar experience could be helpful, or harmful, depending on which rabbit hole it was you fell into. I find reading the Buddhist suttas supremely helpful.

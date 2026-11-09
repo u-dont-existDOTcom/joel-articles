@@ -46,11 +46,10 @@
   {
    "id": "q5-room-first",
    "status": "applied",
-   "what": "Q-5 (a): room before body in all four places",
+   "what": "Q-5 (a): room before body in all four places; the fourth place, the loop breaker, cut with the Fear/Panic Loop section by his round-28 answer (LOOP-ONCE, 2026-11-09 17:22 UTC: \"i thought i already merged it and cut that section\")",
    "joel": "18:59: \"q-5 a\"",
    "must_contain": [
     "room → body → human → time → meaning",
-    "room → body → human → time.",
     "Then return to room, body, human, time, and love."
    ],
    "must_not_contain": [
