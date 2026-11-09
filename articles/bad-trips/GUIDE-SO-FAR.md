@@ -162,6 +162,8 @@ Sometimes the mind isn't in a metaphysical crisis. The body feels awful and the 
 
 A horrible thought isn't automatically a revelation. The body may need quiet, water, cooling, warmth, rest, or a calmer room. The body is part of the spiritual field.
 
+The hierarchy appears before the mystical sections because love doesn't require us to ignore the body.
+
 A trip with diarrhea, nausea, toxic heaviness, a dirty body-feeling, loss of bodily control, jaw tension, neurological disorganization, or the sense that the mind is going crazy because the gut or brain is going crazy belongs in a different branch from a mainly emotional crisis. A gut-driven mental hell is often mistaken as shadow work.
 
 ---
@@ -355,6 +357,16 @@ Sometimes it can be helpful to remind them where they are and what's happening, 
 
 If a practice like meditation or fasting brought this on, have them stop it now, since doing more of it only makes this stronger. There's no drug wearing off here, so it could be over soon or take a while.
 
+As the person helping, you want to play the role of the calm, caring anchor to the safe present moment, not the witch doctor guru who knows magic spells. So don't force eye contact, touch, music, prayer, chanting on them, just offer gently if it might help. After they've slept, they may wish to talk more about their experience.
+
+But if they want to talk about it right now, don't try to win an argument with their visions, the entities they spoke to, the memories that surfaced, or whatever cosmic conclusions they reached ten minutes ago... But don't let silence validate anything harmful either, like a plan that ends with somebody getting hurt.
+
+Sometimes people get stuck in a panic loop, where they make interpretations to try to solve a feeling of panic, but then those create another kind of panic. It's helpful to remind them that sometimes feelings just need to be felt, so they can move and release, and then thinking can be more clear afterwards.
+
+If they're being attacked by a demon, let your care help them connect to love, which cancels fear. Hopefully they've been practicing that prior. Don't encourage them to believe they are crazy, impure, weak or broken. While many interpretations are possible, a therapeutic one would not be that they're being punished or failing the medicine.
+
+I actually get something like this regularly when I take a high dose of something (or meditate too much), where I feel like I'm at risk of ruining my life if I don't stay away from sex and money. And there's a voice that really commands me to leave both of those completely (which led to 3 weeks of wandering in Malaysia & Cambodia without money once). What actually helped me in one case when receiving this stern order from a higher power, was to ask it to clarify. I said, "I agree, that makes sense as a Buddhist, and I'd like to leave those behind at some point, especially money. But what's the best timeline to benefit all involved? Some people are dependent on me, I have a son, and so forth." The voice didn't respond, it just went away. So I took it more like a long-term suggestion than the urgency I assumed it needed based on how loud it was at first.
+
 ### Stillness or Movement?
 
 Test them rather than turning them into rival religions. Try one for two minutes and ask: *Does this make me safer and clearer, or more activated and impulsive?*
@@ -430,12 +442,6 @@ Stay present. If it helps, you can say to yourself: *This feeling is allowed to 
 - Translate metaphysics into shared safety values: "This feels sacred and huge. Sacred power protects life tonight."
 - Set behavioral boundaries without humiliation: "I won't help anybody hurt themselves or another person. We are keeping every body safe."
 
-### Don't
-
-As the person helping, you want to play the role of the calm, caring anchor to the safe present moment, not the witch doctor guru who knows magic spells.
-
-So don't try to win an argument with their visions, the entities they spoke to, the memories that surfaced, or whatever cosmic conclusions they reached ten minutes ago... But don't let silence validate anything harmful either, like a plan that ends with somebody getting hurt. If they're being attacked by a demon, let your care help them connect to love, which cancels fear. Hopefully they've been practicing that prior. Don't encourage them to believe they are crazy, impure, weak or broken. While many interpretations are possible, a therapeutic one would not be that they're being punished or failing the medicine. Don't force eye contact, touch, music, prayer, chanting, a confession or an insight on them. After they've slept, they may wish to talk more about their experience.
-
 ### When the Content Turns Toward Harm
 
 When somebody says, "I am God, so I can kill," leading with "No you're not" or "That's delusional" can turn the encounter into a status fight. Nodding along as though harm is spiritually neutral is also unacceptable. Treat the statement as a safety signal and build a bridge back toward non-harm.
@@ -456,7 +462,7 @@ Be brief and specific with emergency services: "Someone is in an altered-state o
 
 ## Grounding Menu: Choose One or Two Things
 
-Twelve simultaneous techniques can become another form of panic.
+Grounding is love becoming practical. Choose one or two options rather than all of them. Twelve simultaneous techniques can become another form of panic.
 
 ![](https://substack-post-media.s3.amazonaws.com/public/images/296952b0-1468-44da-9878-093d82942785_1122x1402.png)
 
@@ -828,16 +834,16 @@ Don't make huge decisions or diagnose yourself from an intense night. You don't 
 
 ### What Kind of Aftermath Is This?
 
-When symptoms linger, name the pattern rather than collapsing everything into "I'm broken." Different patterns need different support.
+When symptoms linger, people too often put everything into the "I'm broken" bucket, which solves nothing. While a professional can be called in to help at any point, self-diagnostics and basic fix strategies may obviate the need for one. Try to find the underlying psychological and/or physiological patterns driving the symptoms:
 
-- **Anxiety and fear:** grounding, routine, reduced stimulation, CBT-style reality testing, and therapy when it persists.
-- **Sleep disturbance and nightmares:** sleep hygiene, no more substances or intense practice, and professional help when severe or prolonged.
-- **Derealization and depersonalization:** ordinary-world grounding, exercise, nature, outside attention, less rumination, peer or family support, and therapy when needed.
-- **Visual distortions or HPPD-like symptoms:** reduce stress and substance use; seek professional support when symptoms interfere with life.
-- **Social disconnection and shame:** one or two safe humans, peer support, and no social-media crowdsourcing while raw.
-- **Existential shock:** write it down, slow down, and return to practical love before building a metaphysical system.
-- **Paranoia or psychosis-like beliefs:** professional support quickly, especially when beliefs drive unsafe action.
-- **Somatic hyperarousal:** gentle movement, breathing, grounding, and medical care for severe, unusual, or worrying symptoms.
+- **Anxiety and fear:** with this pattern, it helps to first figure out what is providing the stimulation for the anxiety. CBT-style reality testing is one way to do that which could be explored with a therapist if it persists, but can be done without one to start with. In general, it can help to have grounding/relaxing routines (like morning or bedtime yin yoga, meeting a friend for lunch).
+- **Sleep disturbance and nightmares:** I'd first ensure no more substances are being used, including "normal" ones like coffee, which some people become extra sensitive to after certain psychedelics (especially iboga). Pay attention to sleep hygiene, especially what you eat at what time, and what you might not be processing during the day which then grabs attention at night.
+- **Derealization and depersonalization:** Is it due to isolation? Rumination (which often goes along with isolation)? Peer and family support are crucial to combat those. Some things that tend to help are related to reconnecting with the feelings in your body: taking walks in nature (with bare feet for grounding to the Earth), doing gentle yin yoga, and Somatic Experiencing therapy.
+- **Visual distortions/Hallucinogen Persisting Perception Disorder (HPPD)-like symptoms:** These can be long-lasting, and people often end up just getting used to it, but it helps to reduce stress and avoid any further use of psychedelics. I'd also try DMSO, niacin, and other neuroprotective/restorative treatments.
+- **Social disconnection and shame:** The biggest thing here is if you can find one or two trusted people who won't judge you. Get whatever it is off your chest. If you can't find someone like that, talk to a therapist. You'd be surprised how many people have gone through something like this and come out the other side realizing it wasn't what they made it out to be, myself included. Check [my guide on shame](http://shame.u-dont-exist.com/) for more info.
+- **Existential shock:** This one's pretty normal if someone has a deep journey, especially one they weren't prepared for. It helps to go back one step to focus on loving kindness and sending love to the inner child before getting lost in a philosophical ocean. Finding others who've been through a similar experience could be helpful, or harmful, depending on which rabbit hole it was you fell into. I find reading the Buddhist suttas supremely helpful.
+- **Paranoia or psychosis-like beliefs:** Here we gotta be careful because this can spiral out of control and get dangerous quickly. I'd seek professional support while utilizing the relatively safe and natural antipsychotics mentioned in this guide, like DMSO, syrian rue OIL, and niacin.
+- **Somatic hyperarousal:** This is not rumination, but more like akathisia, bodily restlessness. Try gentle movements (that yin yoga again!), slower breathing, grounding, and medical care if the symptoms are severe, unusual or longer-lasting than expected. I'd still go for my trusty relaxing herbs and natural antipsychotics listed above first.
 
 **No "another ceremony will fix this" reflex.**
 
