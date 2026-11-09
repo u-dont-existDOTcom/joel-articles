@@ -30,20 +30,35 @@ I developed the [**Inner Signal app**](http://innersignalselfhypnosis.com/integr
 
 The remedies below can begin while help is being arranged.
 
-## Bring in mental-health support when:
-
-- Psychosis-like symptoms outlast the acute state.
-- Sleep won't return.
-- Mania or suicidal thinking appears.
-- Panic won't settle.
-- The person can't function afterward.
-- The trauma material is bigger than the room can hold.
-
-## When Peer Support Isn't Enough
+## Risk of Harm: When Peer Support Isn't Enough
 
 Get urgent help when somebody may harm themselves or another person, cannot be kept physically safe, is moving toward roads, water, or heights, has command voices or fixed terrifying beliefs driving action, becomes violent, is severely confused and unreachable, has dangerous physical symptoms, has lost enough sleep that judgment is collapsing, or exceeds what the sitter can safely contain.
 
 Use local emergency services for immediate danger or a medical emergency. In the United States, 988 can provide mental-health crisis guidance, de-escalation, and connection to local resources when no immediate physical emergency exists. Call 911 for immediate danger, a crime in progress, medical emergency, weapon, violence underway, or a situation you cannot safely contain. Outside the United States, identify the local emergency number and crisis line before you ever need them.
+
+## Who to Contact, and When
+
+Save the relevant links and local numbers *before* you need them. Their hours and services change, and some only work in one country.
+
+**During or soon after a psychedelic experience**
+
+- [Fireside Project](https://firesideproject.org/support-line): U.S.-only according to its current FAQ; phone or text psychedelic peer support at **623-473-7433**, daily from **11 a.m. to 11 p.m. Pacific Time**.
+- [TripSit live chat](https://tripsit.me/webchat): a harm-reduction chat you open in your browser, for people using drugs and for whoever's looking after them.
+
+**Global crisis and emotional-support directories**
+
+- [Find A Helpline](https://findahelpline.com/): a global directory of free helplines, many offering phone, text, online chat, or WhatsApp. It is not psychedelic-specific, but it can put a human on the other end quickly.
+
+**U.S. crisis chat and text**
+
+- [988 Suicide & Crisis Lifeline](https://988lifeline.org/): U.S. call, text, and chat for suicidal or mental-health crises.
+- [Crisis Text Line](https://www.crisistextline.org/): U.S. text, chat, and WhatsApp support, with partner text lines listed for Canada, the UK, and Ireland.
+
+**Integration and post-experience support**
+
+- [ICEERS Support Center](https://www.iceers.org/en/support-and-integration/): up to five free online integration sessions for challenging experiences.
+- [CPEP online peer group](https://challengingpsychedelicexperiences.com/online-support-group/): a free confidential monthly group for post-psychedelic difficulties.
+- [Cheetah House](https://www.cheetahhouse.org/cheetah-house-resources): resources, consultations, and support groups for meditation-related difficulties, including chat-based peer support.
 
 ---
 
@@ -152,7 +167,7 @@ This is a recognition aid rather than a command to wait for every criterion befo
 
 ---
 
-# My Acute Rescue Hierarchy
+# My Acute Rescue Hierarchy of Remedies
 
 This hierarchy is for acute situations, including emergencies--not merely uncomfortable trips.
 
@@ -175,11 +190,29 @@ A trip with diarrhea, nausea, toxic heaviness, a dirty body-feeling, loss of bod
 - **Mechanism or preclinical evidence:** biologically plausible effects shown mainly in cells or animals.
 - **Personal field signal:** what I have repeatedly observed in myself or other people. Repetition and a clear immediate endpoint make an anecdote more useful, but they do not turn it into a population rate.
 
-### Gut-Toxin and Parasite-Die-Off Tools
+## Some Remedies Require More Caution
+
+[Humic acid](http://humicacid.u-dont-exist.com/) *when eaten*, can produce a hyperintelligent state for me. From the outside that may look manic, and it could destabilize somebody prone to mania or without meditation training. I wouldn't use it casually during a bad trip. Smelling it does not produce that hyperintelligent state but does feel relaxing and very beneficial for brain health, so I'd start with that.
+
+[Cinnamon](http://cinnamon.u-dont-exist.com/) can produce an intense "brain surgery" or "brain scraping" effect, especially the first time it combines with an ayahuasca-like state. That may be therapeutic in the right context, but it is not a casual rescue tool.
+
+I would also be extremely careful with *Acacia confusa* eaten with *Mimosa hostilis*. For me, that combination produced hellishly intense psychosis-like and autism-like states before transforming into a week of extraordinary creativity and joy. The later benefit did not make the crisis recommendable.
+
+[Iboga](http://iboga.u-dont-exist.com/)--especially male iboga--potentiates many drugs and can be dangerous. A low amount combined well for me; doubling it became dangerously intense. I include that only as a warning.
+
+---
+
+Once the body is stable and those tools have done what they can, fear, grief, memory, certainty, and whatever else the altered mind has opened still need somebody to sit with them.
+
+![](https://substack-post-media.s3.amazonaws.com/public/images/ce9cb88d-67d8-4e3f-8436-d3e2446de167_1122x1402.png)
+
+---
+
+## Gut-Toxin and Parasite-Die-Off Tools
 
 These are the first things I would use, even preventively on the come-up, because I want to address possible toxins before assigning the distress to something more mysterious.
 
-#### Zeolite and Ferment in [**ZHoly3O**](http://zholy3o.u-dont-exist.com/)
+### Zeolite and Ferment in [**ZHoly3O**](http://zholy3o.u-dont-exist.com/)
 
 When the trip feels like sick stomach, nausea, diarrhea, toxic heaviness, a dirty body-feeling, parasite die-off, or mental hell driven by gut hell, zeolite and the ZHoly3O ferment are often my first thoughts.
 
@@ -193,7 +226,7 @@ I also keep zeolite away from metal during preparation. Zeolite adsorbs metals, 
 
 Most sober people don't feel much from zeolite. Its effect becomes more obvious when a trip has a toxic or gut-driven component. I put a spoonful into water--some people need a teaspoon, others a tablespoon--and sip slowly. Rubbing it on the body or simply holding the jar also helps me.
 
-#### Actual Activated Charcoal
+### Actual Activated Charcoal
 
 Activated charcoal can help gut toxicity, but it adsorbs drugs. Sometimes that is exactly the point. It can also flatten or reduce a trip, so I don't treat charcoal and zeolite as interchangeable.
 
@@ -203,73 +236,31 @@ Charcoal can also adsorb medications somebody depends on. I would use it cautiou
 
 ---
 
-### Nausea Smoothers When the Person Wants to Preserve the Trip
+## Nausea Smoothers When the Person Wants to Preserve the Trip
 
 When ozonated zeolite and ferment don't help, I consider nausea caused by an excessive psychedelic dose acting on serotonin receptors in the gut.
 
-#### [Coffee Cherry](http://coffeecherry.u-dont-exist.com/) for Nausea and Brain Recharge
+### [Coffee Cherry](http://coffeecherry.u-dont-exist.com/) for Nausea and Brain Recharge
 
 Eating a couple of coffee cherries helps my nausea. It can make a trip blissful and sleepy for a few hours, followed later by intense mental clarity and physical energy--almost like a perfected amphetamine. It may also extend the trip. That can be useful and healthy when planned, but I wouldn't reach for it first when somebody is already becoming manic.
 
 ---
 
-### When the Goal Is to Stop a Psychedelic Trip
+## Mental Stabilizers That Don't Abort the Trip
 
-#### Beach Morning Glory--*Ipomoea pes-caprae*
-
-By beach morning glory I mean *Ipomoea pes-caprae*, rather than morning-glory plants in general. The distinction matters. I have tried many related plants and cousins, and they did not work the same way. As far as I know, nobody else sells it.
-
-Its primary role in this guide is not ordinary nausea control. In my experience, *Ipomoea pes-caprae* is the ultimate sledgehammer for stopping a psychedelic trip cold and fast.
-
-A tiny nibble can sometimes smooth psychedelic nausea and improve the trip without killing it, but the difference between that amount and a trip-aborting amount is narrow. I use it for nausea only when the person is comfortable with the possibility that the trip may end.
-
-Even picking a leaf can affect me when the broken juicy part touches sensitive skin, especially under the fingernails. Avoiding contact with the broken portion prevents that effect.
-
-A whole leaf can easily end the trip and, in my experience, may prevent tripping for days afterward.
-
-This was not only personal. I once gave beach morning glory to a woman experiencing nausea and dysphoria during a psychedelic state. I was rushing to help and may have given more than I would now. Within a couple of minutes she shifted from miserable to very happy. That helped convince me the effect wasn't limited to my body.
-
-I do not yet have data showing that pes-caprae aborts MDMA. MDMA remains a separate branch centered on magnesium, temperature, sodium, potassium, hydration, serotonin toxicity, seizure, and cardiovascular symptoms.
-
----
-
-### Mental Stabilizers That Don't Abort the Trip
-
-#### Metta NMT Sniffer Makes the Trip Chill & Lovey!
+### Metta NMT Sniffer Makes the Trip Chill & Lovey!
 
 As explained in my [loveyhuasca guide](http://loveyhuasca.info), this little sniffer stick that you smell gives people 30-60 minutes (or more) of peace even when they are sober and just anxious. People tell me it's saved their life from crippling anxiety. I have a [survey here ](http://sniffersurvey.loveyhuasca.info)they can post at. But when I'm on ayahuasca or loveyhuasca, not only is it calming and nice, but actually opens my heart chakra considerably. Before this, loveyhuasca was kind of hit or miss for me on the love part. It turns regular ayahuasca into loveyhuasca even. You can get these directly from me. It's a bunch of stuff in the formula, but one of the things in here you can buy directly on Amazon for super cheap right now and it works also very well:
 
-#### Humic Acid Brings Brain to Optimal Function
+### Humic Acid Brings Brain to Optimal Function
 
 As mentioned in my [humic acid note](http://humicacid.u-dont-exist.com), I've found if I take too much ayahuasca or loveyhuasca and I feel "out of it" and bad, simply smelling the humic acid powder fixes it pretty much instantly, even when many other remedies don't work so well. Licking a tiny bit like 5mg does even more, sending my brain into hyperfunctionality.
 
-#### Ocean Water to calm & protect the energetic field
+### Authentic Calming Essential Oils (or a Lime Peel)
 
-Ocean water is one of the simplest and strangest stabilizers I have found. I noticed it in Kenya and Florida. Rain water also works for me, but I've only tested it near the ocean. You can also buy [Quinton Medical Seawater](http://quintonmedical.com), which has a number of health benefits when used as a nasal spray or as a source of minerals.
+If you don't have the Metta NMT sniffer, just use AUTHENTIC natural calming essential oils to smell, like rose geranium, jasmine, lemon/lime oils. Most of these oils are fake on Amazon so buy only directly from trusted essential oil vendors. It should not smell like a perfume. Even just taking a lime and scratch & sniff the peel can be relaxing.
 
-When a trip is too strong, touching ocean water can be extremely soothing. Touching the outside of a bottle doesn't do it. Direct contact with the water seems to matter, even when the water has been stored in a bottle.
-
-It has a grounding, cooling, organizing effect different from DMSO, aged ozonated-charcoal water, zeolite, or beach morning glory. I don't understand the mechanism. I only know that it has repeatedly felt like a powerful natural remedy for excessive psychedelic intensity.
-
-#### Shungite, Aged Ozonated-Charcoal Water, or Boiled Charcoal Water
-
-I honestly can't say how different these are from ocean water, because I've only used them a handful of times, but I do believe they're different in certain ways. Ocean water seems to reduce the intensity of the trip a bit more, while aged ozonated-charcoal water seems more peaceful without necessarily reducing intensity, and ocean water seems more reliable for some reason. Aged ozonated-charcoal water is different from zeolite and from swallowing charcoal.
-
-What I usually use is the water portion: water ozonated in contact with activated charcoal and allowed to sit after the charcoal falls to the bottom, or water ozonated with ordinary rock charcoal. I mean the water after active ozonation has ended and residual ozone has dissipated.
-
-That water doesn't fix the gut the way zeolite does.
-
-Aged ozonated-charcoal water acts more on the crazy or excessively intense mental feeling: too much psychedelic energy, the wrong environment, anxiety, high EMF, or a generally overloaded mind. It can shift "too much" into calm release without necessarily aborting the trip.
-
-Zeolite usually feels subtle to sober people. Aged ozonated-charcoal water does not. Most people I have given it to find it relaxing even while sober, whether they smell it, touch it, or drink the water portion.
-
-I have even watched the water calm a crying baby through touch alone. No ozone gas was present; this was contact with the water after ozonation had ended and the residual ozone had dissipated. I include that because it suggested the relaxing effect was not only adult expectation or psychedelic context.
-
-Earlier in my experiments, **I made the mistake of directly smelling ozone gas** during a psychedelic state. It intensified the experience and became mentally alarming. DMSO didn't help that situation, while aged ozonated-charcoal water helped rapidly. I don't recommend inhaling ozone. The mistake showed me that DMSO and aged ozonated-charcoal water address different kinds of overload.
-
-Without an ozone-water purifier--which can cost around $20 on Amazon--boiling water with charcoal gives some of the benefit. Touching or holding shungite can also feel similar to holding cleaned zeolite. Shungite pendants are sold on Amazon. Shungite should not be drunk unless it has been properly washed of heavy metals.
-
-#### [**DMSO**](http://dmso.u-dont-exist.com/)
+### [**DMSO**](http://dmso.u-dont-exist.com/)
 
 DMSO is another stabilizer I use when a trip becomes too intense and I don't want to abort it. It is also my primary emergency neuroprotectant when the problem feels like acute neurological damage, altered consciousness, loss of bodily control, or severe drug-related brain dysfunction.
 
@@ -294,11 +285,63 @@ It overlaps with aged ozonated-charcoal water, but the two don't always work equ
 - It may worsen a cluster headache, even though rubbing DMSO--especially with magnesium chloride--on the head can alleviate tension headaches.
 - It may release histamine in some people. Use caution with MCAS.
 
+### Syrian Rue Oil Makes the Trip Gentle & Sweet
+
+Syrian rue (*Peganum harmala*) can be mixed into warm/hot oil (like coconut oil), just enough to cover it, then squeezed out thru cheese cloth. Within some minutes of the seeds soaking in oil (if it's hot, or maybe an hour if it's warm), the oil contains the oil-soluble harmalas, not harmine, harmaline, or THH in quantities that could make it a potent MAOI. In my experience there's no MAOI effect in Syrian rue extracted with oil (it won't activate DMT, rather it reduces DMT's effects). These oil-soluble harmalas have no effect when eaten, but when absorbed thru mucous membranes or vaped, they chill out psychedelic trip intensity, making them more gentle and sweet. On their own, they have some mild psychedelic properties though (like I felt like half of my head was sort of transparent), and significant mood boosting properties.
+
+I have a friend with schizophrenia who would use about 1-2mL of this oil rectally when he was in psychosis, which helped at least as much as niacin and DMSO, equally effective as Geodon, an antipsychotic his doctors prescribed which makes him feel like a zombie.
+
+Another option is vaping the whole Syrian rue seeds, as it seems that these oil soluble harmalas are concentrated on the outside of the seeds. Once ground up, vaping the powder is more stimulating, less relaxing (but variable since all is mixed together). However, if vaping the whole seeds, I would not assume there's no MAOI effect (even though it still seems to reduce DMT effects) since depending maybe on temperature and time, you might also vaporize the harmine and harmaline.
+
+### Ocean Water to calm & protect the energetic field
+
+Ocean water is one of the simplest and strangest stabilizers I have found. I noticed it in Kenya and Florida. Rain water also works for me, but I've only tested it near the ocean. You can also buy [Quinton Medical Seawater](http://quintonmedical.com), which has a number of health benefits when used as a nasal spray or as a source of minerals.
+
+When a trip is too strong, touching ocean water can be extremely soothing. Touching the outside of a bottle doesn't do it. Direct contact with the water seems to matter, even when the water has been stored in a bottle.
+
+It has a grounding, cooling, organizing effect different from DMSO, aged ozonated-charcoal water, zeolite, or beach morning glory. I don't understand the mechanism. I only know that it has repeatedly felt like a powerful natural remedy for excessive psychedelic intensity.
+
+### Shungite, Aged Ozonated-Charcoal Water, or Boiled Charcoal Water
+
+I honestly can't say how different these are from ocean water, because I've only used them a handful of times, but I do believe they're different in certain ways. Ocean water seems to reduce the intensity of the trip a bit more, while aged ozonated-charcoal water seems more peaceful without necessarily reducing intensity, and ocean water seems more reliable for some reason. Aged ozonated-charcoal water is different from zeolite and from swallowing charcoal.
+
+What I usually use is the water portion: water ozonated in contact with activated charcoal and allowed to sit after the charcoal falls to the bottom, or water ozonated with ordinary rock charcoal. I mean the water after active ozonation has ended and residual ozone has dissipated.
+
+That water doesn't fix the gut the way zeolite does.
+
+Aged ozonated-charcoal water acts more on the crazy or excessively intense mental feeling: too much psychedelic energy, the wrong environment, anxiety, high EMF, or a generally overloaded mind. It can shift "too much" into calm release without necessarily aborting the trip.
+
+Zeolite usually feels subtle to sober people. Aged ozonated-charcoal water does not. Most people I have given it to find it relaxing even while sober, whether they smell it, touch it, or drink the water portion.
+
+I have even watched the water calm a crying baby through touch alone. No ozone gas was present; this was contact with the water after ozonation had ended and the residual ozone had dissipated. I include that because it suggested the relaxing effect was not only adult expectation or psychedelic context.
+
+Earlier in my experiments, **I made the mistake of directly smelling ozone gas** during a psychedelic state. It intensified the experience and became mentally alarming. DMSO didn't help that situation, while aged ozonated-charcoal water helped rapidly. I don't recommend inhaling ozone. The mistake showed me that DMSO and aged ozonated-charcoal water address different kinds of overload.
+
+Without an ozone-water purifier--which can cost around $20 on Amazon--boiling water with charcoal gives some of the benefit. Touching or holding shungite can also feel similar to holding cleaned zeolite. Shungite pendants are sold on Amazon. Shungite should not be drunk unless it has been properly washed of heavy metals.
+
 ---
 
-### A Final Trip Killer
+## When the Goal Is to Stop a Psychedelic Trip
 
-#### Niacin (a Form of Vitamin B3)
+### Beach Morning Glory--*Ipomoea pes-caprae*
+
+By beach morning glory I mean *Ipomoea pes-caprae*, rather than morning-glory plants in general. The distinction matters. I have tried many related plants and cousins, and they did not work the same way. As far as I know, nobody else sells it.
+
+Its primary role in this guide is not ordinary nausea control. In my experience, *Ipomoea pes-caprae* is the ultimate sledgehammer for stopping a psychedelic trip cold and fast.
+
+A tiny nibble can sometimes smooth psychedelic nausea and improve the trip without killing it, but the difference between that amount and a trip-aborting amount is narrow. I use it for nausea only when the person is comfortable with the possibility that the trip may end.
+
+Even picking a leaf can affect me when the broken juicy part touches sensitive skin, especially under the fingernails. Avoiding contact with the broken portion prevents that effect.
+
+A whole leaf can easily end the trip and, in my experience, may prevent tripping for days afterward.
+
+This was not only personal. I once gave beach morning glory to a woman experiencing nausea and dysphoria during a psychedelic state. I was rushing to help and may have given more than I would now. Within a couple of minutes she shifted from miserable to very happy. That helped convince me the effect wasn't limited to my body.
+
+I do not yet have data showing that pes-caprae aborts MDMA. MDMA remains a separate branch centered on magnesium, temperature, sodium, potassium, hydration, serotonin toxicity, seizure, and cardiovascular symptoms.
+
+---
+
+### A Final Trip Killer: Niacin (a Form of Vitamin B3)
 
 Flushing niacin has effectively aborted trips for me and friends, although I dislike it compared with beach morning glory.
 
@@ -315,25 +358,7 @@ Other forms of vitamin B3 seem less reliable for relaxation. Niacinamide sometim
 
 ---
 
-## Some Remedies Require More Caution
-
-[Humic acid](http://humicacid.u-dont-exist.com/) *when eaten*, can produce a hyperintelligent state for me. From the outside that may look manic, and it could destabilize somebody prone to mania or without meditation training. I wouldn't use it casually during a bad trip. Smelling it does not produce that hyperintelligent state but does feel relaxing and very beneficial for brain health, so I'd start with that.
-
-[Cinnamon](http://cinnamon.u-dont-exist.com/) can produce an intense "brain surgery" or "brain scraping" effect, especially the first time it combines with an ayahuasca-like state. That may be therapeutic in the right context, but it is not a casual rescue tool.
-
-I would also be extremely careful with *Acacia confusa* eaten with *Mimosa hostilis*. For me, that combination produced hellishly intense psychosis-like and autism-like states before transforming into a week of extraordinary creativity and joy. The later benefit did not make the crisis recommendable.
-
-[Iboga](http://iboga.u-dont-exist.com/)--especially male iboga--potentiates many drugs and can be dangerous. A low amount combined well for me; doubling it became dangerously intense. I include that only as a warning.
-
----
-
-Once the body is stable and those tools have done what they can, fear, grief, memory, certainty, and whatever else the altered mind has opened still need somebody to sit with them.
-
-![](https://substack-post-media.s3.amazonaws.com/public/images/ce9cb88d-67d8-4e3f-8436-d3e2446de167_1122x1402.png)
-
----
-
-# Shadow Work and Tripsitting Yourself or Others
+# Tripsitting Yourself or Others
 
 ![](https://substack-post-media.s3.amazonaws.com/public/images/283c878b-0957-4893-a932-b6704c0e5442_1122x1402.png)
 
@@ -378,89 +403,6 @@ When lying down feels like imprisonment, pace slowly in a contained space. When 
 **Parallel processing** can help when lying still turns into immobile introspection. Let one part of attention stay with the body, fear, grief, or memory while another part completes a simple, safe task with a visible endpoint: sort ten objects, draw, fold five towels, or wash one cup. Finishing something small helps confirm that time is moving and ordinary reality is still here. Stop if the task increases agitation, speed, or risk.
 
 A useful order is **room → body → human → time → meaning**. Most people begin with meaning because the experience feels cosmic. When the nervous system is on fire, love becomes practical first.
-
-## Get One Human Anchor
-
-Many bad trips get worse because somebody is alone with a frightened or over-certain mind. Other times it's the opposite: too many people crowd in and start advising, arguing, spiritualizing, or panicking.
-
-So **one calm person should be the anchor** and take the lead. One person can only handle so much, though. When fatigue or logistics get to be too much, or keeping them safe does, or there's a risk of violence or self-harm, bring in **one more calm adult or a crisis professional** to back them up.
-
-![](https://substack-post-media.s3.amazonaws.com/public/images/2b8889eb-85e8-466f-99af-f71e48caeb61_1122x1402.png)
-
-**Script for the person in the altered state:**
-
-> I'm in an intense psychedelic or altered state and I need grounding. I don't need you to solve my life. Please stay with me, speak slowly, remind me where I am, and help me not make any big decisions until tomorrow.
-
-**Script for the sitter or friend:**
-
-> I'm here. You're not alone. This is a wave. We don't have to solve your whole life right now. Let's make your body safe, keep things simple, and stay together.
-
-### Who to Contact, and When
-
-Save the relevant links and local numbers *before* you need them. Their hours and services change, and some only work in one country.
-
-**During or soon after a psychedelic experience**
-
-- [Fireside Project](https://firesideproject.org/support-line): U.S.-only according to its current FAQ; phone or text psychedelic peer support at **623-473-7433**, daily from **11 a.m. to 11 p.m. Pacific Time**.
-- [TripSit live chat](https://tripsit.me/webchat): a harm-reduction chat you open in your browser, for people using drugs and for whoever's looking after them.
-
-**Global crisis and emotional-support directories**
-
-- [Find A Helpline](https://findahelpline.com/): a global directory of free helplines, many offering phone, text, online chat, or WhatsApp. It is not psychedelic-specific, but it can put a human on the other end quickly.
-
-**U.S. crisis chat and text**
-
-- [988 Suicide & Crisis Lifeline](https://988lifeline.org/): U.S. call, text, and chat for suicidal or mental-health crises.
-- [Crisis Text Line](https://www.crisistextline.org/): U.S. text, chat, and WhatsApp support, with partner text lines listed for Canada, the UK, and Ireland.
-
-**Integration and post-experience support**
-
-- [ICEERS Support Center](https://www.iceers.org/en/support-and-integration/): up to five free online integration sessions for challenging experiences.
-- [CPEP online peer group](https://challengingpsychedelicexperiences.com/online-support-group/): a free confidential monthly group for post-psychedelic difficulties.
-- [Cheetah House](https://www.cheetahhouse.org/cheetah-house-resources): resources, consultations, and support groups for meditation-related difficulties, including chat-based peer support.
-
-### Alone at 3 a.m.
-
-The [triage app](https://ibogaqueen.com/1625-2/) has the stripped-down 3 a.m. plan. Once the lamp is on, the keys are away, and **"No big actions until morning"** is visible, use the phone only to reach a calm person or support service.
-
-Send the human-anchor script.
-
-When the body still needs movement, keep it contained and boring: brush your teeth, stretch gently, take a calm shower, or do a few slow wall push-ups. Then protect sleep.
-
-## For the Person Helping: Calm Anchor, Not Guru
-
-The Zendo Project, a harm-reduction group that offers peer support at festivals and other events to people having a hard time in an altered state, sums up its approach in four principles: creating a safe space, sitting with the person rather than guiding them, talking them through it rather than down from it, and remembering that difficult isn't necessarily bad.
-
-Crying, grieving, remembering, or touching a genuine wound calls for loving awareness. Interrogation, analysis every thirty seconds, and "bro, you're purging ancestral karma" while somebody white-knuckles the carpet are generally less helpful.
-
-Stay present. If it helps, you can say to yourself: *This feeling is allowed to move through. I don't have to become it. I can love the part of me that feels it.* Or simply: *Can I send love to the one who's suffering?*
-
-### Do
-
-- Ask simple questions: "Would less light help?" "Music or quiet?" "Closer or farther away?" "Water?" (in small sips) "Need the bathroom?"
-- Reflect without arguing: "That sounds terrifying." "I'm with you." "Let's breathe together."
-- Keep the room quiet, private, warm, and physically safe, and move anyone they're wary of somewhere else.
-- Call for help early when safety is slipping.
-- Translate metaphysics into shared safety values: "This feels sacred and huge. Sacred power protects life tonight."
-- Set behavioral boundaries without humiliation: "I won't help anybody hurt themselves or another person. We are keeping every body safe."
-
-### When the Content Turns Toward Harm
-
-When somebody says, "I am God, so I can kill," leading with "No you're not" or "That's delusional" can turn the encounter into a status fight. Nodding along as though harm is spiritually neutral is also unacceptable. Treat the statement as a safety signal and build a bridge back toward non-harm.
-
-**Non-combative philosophical grounding:**
-
-> I hear how vast and certain this feels. Many traditions say God is in everyone. That makes every body sacred, not disposable. Peace is the godly move tonight. No proof is needed. We protect life and sleep first.
-
-Other useful lines: "Maybe you are touching something divine. Divine doesn't need a violent test." "Tonight the commandment is no harm, no proof, no mission, sleep first."
-
-Redirect within the person's value-world toward peace and protection, increase containment, and bring in crisis support as early and as non-coercively as the situation allows.
-
-When talk of harm continues, shift from philosophy to safety. Create distance from potential targets and keep your own exit. Don't block, crowd, threaten, mock, or physically wrestle away a weapon. Quietly remove means only when that can be done without confrontation or turning yourself into the target.
-
-Call crisis or emergency services for a specific target, available means, movement toward action, escalating agitation, a weapon, violence underway, or a situation you can't contain.
-
-Be brief and specific with emergency services: "Someone is in an altered-state or mental-health crisis, has threatened to harm others, may have access to [means if known], and needs a medical or mental-health crisis response with de-escalation support. Please send crisis-trained responders or EMS if available."
 
 ## Grounding Menu: Choose One or Two Things
 
@@ -528,6 +470,65 @@ Grounding is love becoming practical. Choose one or two options rather than all 
 
 **Buteyko evidence note:** published evidence for Buteyko-style breathing mainly concerns asthma and breathing retraining, rather than psychedelic or spiritual-practice crisis. I include it because panic-related over-breathing can lower CO<sub>2</sub> and directly cause tingling, lightheadedness, confusion, and unreality feelings ([Hopkins Medicine](https://www.hopkinsmedicine.org/health/conditions-and-diseases/hyperventilation)). Use the simpler longer-exhale option first. Never strain or turn breathing into another achievement.
 
+## Get One Human Anchor
+
+Many bad trips get worse because somebody is alone with a frightened or over-certain mind. Other times it's the opposite: too many people crowd in and start advising, arguing, spiritualizing, or panicking.
+
+So **one calm person should be the anchor** and take the lead. One person can only handle so much, though. When fatigue or logistics get to be too much, or keeping them safe does, or there's a risk of violence or self-harm, bring in **one more calm adult or a crisis professional** to back them up.
+
+![](https://substack-post-media.s3.amazonaws.com/public/images/2b8889eb-85e8-466f-99af-f71e48caeb61_1122x1402.png)
+
+**Script for the person in the altered state:**
+
+> I'm in an intense psychedelic or altered state and I need grounding. I don't need you to solve my life. Please stay with me, speak slowly, remind me where I am, and help me not make any big decisions until tomorrow.
+
+**Script for the sitter or friend:**
+
+> I'm here. You're not alone. This is a wave. We don't have to solve your whole life right now. Let's make your body safe, keep things simple, and stay together.
+
+### Alone at 3 a.m.
+
+The [triage app](https://ibogaqueen.com/1625-2/) has the stripped-down 3 a.m. plan. Once the lamp is on, the keys are away, and **"No big actions until morning"** is visible, use the phone only to reach a calm person or support service.
+
+Send the human-anchor script.
+
+When the body still needs movement, keep it contained and boring: brush your teeth, stretch gently, take a calm shower, or do a few slow wall push-ups. Then protect sleep.
+
+## For the Person Helping: Calm Anchor, Not Guru
+
+The Zendo Project, a harm-reduction group that offers peer support at festivals and other events to people having a hard time in an altered state, sums up its approach in four principles: creating a safe space, sitting with the person rather than guiding them, talking them through it rather than down from it, and remembering that difficult isn't necessarily bad.
+
+Crying, grieving, remembering, or touching a genuine wound calls for loving awareness. Interrogation, analysis every thirty seconds, and "bro, you're purging ancestral karma" while somebody white-knuckles the carpet are generally less helpful.
+
+Stay present. If it helps, you can say to yourself: *This feeling is allowed to move through. I don't have to become it. I can love the part of me that feels it.* Or simply: *Can I send love to the one who's suffering?*
+
+### Do
+
+- Ask simple questions: "Would less light help?" "Music or quiet?" "Closer or farther away?" "Water?" (in small sips) "Need the bathroom?"
+- Reflect without arguing: "That sounds terrifying." "I'm with you." "Let's breathe together."
+- Keep the room quiet, private, warm, and physically safe, and move anyone they're wary of somewhere else.
+- Call for help early when safety is slipping.
+- Translate metaphysics into shared safety values: "This feels sacred and huge. Sacred power protects life tonight."
+- Set behavioral boundaries without humiliation: "I won't help anybody hurt themselves or another person. We are keeping every body safe."
+
+### When What They Say Turns Toward Harm
+
+When somebody says, "I am God, so I can kill," leading with "No you're not" or "That's delusional" can turn the encounter into a status fight. Nodding along as though harm is spiritually neutral is also unacceptable. Treat the statement as a safety signal and build a bridge back toward non-harm.
+
+**Non-combative philosophical grounding:**
+
+> I hear how vast and certain this feels. Many traditions say God is in everyone. That makes every body sacred, not disposable. Peace is the godly move tonight. No proof is needed. We protect life and sleep first.
+
+Other useful lines: "Maybe you are touching something divine. Divine doesn't need a violent test." "Tonight the commandment is no harm, no proof, no mission, sleep first."
+
+Redirect within the person's value-world toward peace and protection, increase containment, and bring in crisis support as early and as non-coercively as the situation allows.
+
+When talk of harm continues, shift from philosophy to safety. Create distance from potential targets and keep your own exit. Don't block, crowd, threaten, mock, or physically wrestle away a weapon. Quietly remove means only when that can be done without confrontation or turning yourself into the target.
+
+Call crisis or emergency services for a specific target, available means, movement toward action, escalating agitation, a weapon, violence underway, or a situation you can't contain.
+
+Be brief and specific with emergency services: "Someone is in an altered-state or mental-health crisis, has threatened to harm others, may have access to [means if known], and needs a medical or mental-health crisis response with de-escalation support. Please send crisis-trained responders or EMS if available."
+
 ## No Rash Actions: Visions Are Not Commands
 
 An intense altered state can make everything feel final, cosmic, and urgent, and it might feel like you have to act right now. But more likely the urgency is just part of the state, and acting on it isn't safe.
@@ -555,93 +556,7 @@ The action lock matters especially when the state feels blissful: *I am God. I a
 
 The revelation will still exist after breakfast. If it is true, it survives sleep. If it cannot survive one night of rest, it was an emergency impulse wearing angel wings.
 
-## (Re)defining "Bad Trip"
-
-A bad trip is one of those terms thrown around very loosely in the psychedelic space. It can refer to various things which may be intertwined.
-
-When too much hits you at once, your nervous system can become flooded, and nothing makes sense, even as the brain still tries to derive meanings that might create unhelpful feedback loops. Underlying those interpretations are factors like the dose of what drug(s) you took and how your body handles them, or how hard you pushed a practice. Old painful memories could have been triggered, or you may have gone in with a fearful or unloving mindset, or the setting or people around you could have fed into it. Be kind to yourself or to whoever's going through it, because blaming anyone only makes it heavier.
-
-Some say there's no such thing as a bad trip, because it's all a doorway to shadow work. But if you had no intention of doing shadow work, that explanation might have come too late. Other bad trips seem unrelated to shadow work, although any negative experience can lead into it. Samsara offers no shortage of difficult experiences to process. It still makes sense to reduce present-moment trauma so we can address what was already there.
-
-Sometimes focusing on what we want makes the blockage visible:
-
-![Universe Sends What You Need](https://substack-post-media.s3.amazonaws.com/public/images/39743f7e-c7cd-4db7-933c-aa35a381f5b5_911x1600.jpeg)
-
-A bad trip or destabilizing state may also come from drug interactions, sleep deprivation, cannabis, hunger, dehydration, sexual or social pressure, medical symptoms, psychosis-like symptoms, fasting, intense breathwork, meditation overload, or retreat pressure.
-
-Cognitive distortions from Cognitive Behavioral Therapy (CBT) can create or prolong the crisis:
-
-- **Catastrophizing:** "This will never end."
-- **Emotional reasoning:** "It feels true, so it must be true."
-- **Mind reading:** "Everyone can see I am broken."
-- **Fortune-telling:** "My life is ruined now."
-- **All-or-nothing thinking:** "Either I am enlightened or I am doomed."
-- **Personalization:** "This cosmic horror is specifically my fault."
-- **Spiritual bypassing:** "Because everything is love, I don't need boundaries, doctors, sleep, or consequences."
-
-## Spiritual ≠ "Getting Your Ass Kicked"
-
-The triage above is meant to make trips useful. Some people believe they deserve suffering because of karma or self-hatred. Suffering by itself fixes nobody. Suffering that yields insight requires enough clarity of mind and heart to learn from it.
-
-This is one side of the difference between [spiritual bypassing](http://goenka.u-dont-exist.com) and [spiritual practice](http://nibbana.u-dont-exist.com):
-
-Bypassing reaches for an ultimate view--"we are all One," "I don't exist," "this is all karma," "everything is Love"--while ignoring the person shaking in the corner.
-
-Practice says love is here, so we make the room safer, call for help when needed, stop pretending, and hold the experience without becoming it.
-
-That is tripsitting, shadow work, and the path becoming practical.
-
-## The Other Bypass: Feeling Good Forever
-
-A well-rounded trip should offer practical lessons and contact with suffering as well as freedom from suffering, lest we become "so spiritually high that we are no earthly good." "Life is full of suffering" is Buddha's First Noble Truth. Ignoring that side of life becomes dissociation or spiritual bypassing in the opposite direction, followed eventually by statements like "Everything is Love, including violence."
-
-Many people meditate or take psychedelics to feel good. I am definitely one of them, and Buddha also said meditation should generally feel good. My friend Eshwar, however, found that shadow work made up about 99% of his path to heart-chakra awakening.
-
-Modern people carry so much trauma--and some people did even in Buddha's time--that shadow work and inner-child reparenting may need to come first, even before authentic liberation from the identity illusion.
-
-When shadow work is bypassed in meditation and therapy, it may appear in ordinary life without explaining itself. I encountered a lot of it in my first two marriages, to my bewilderment. I wish everybody could keep shadow work inside the safer rooms of meditation, therapy, journaling, prayer, and honest conversation.
-
-Shadow work to me is neither BDSM nor "feeding your demons." It means bringing loving awareness to the parts of the mind built in fear, pain, humiliation, rejection, and survival. [Inner-child reparenting ](http://innerchild.u-dont-exist.com)is central. Most negative mind-states aren't some error in your philosophy, they're just young parts of you that are still waiting for love and protection and permission, and for the explanation nobody ever gave them.
-
-Begin with my [Inner Child Therapy guide](http://innerchild.u-dont-exist.com) and app, and my [Self-Hypnosis guide](http://hypnoisis.u-dont-exist.com) and app.
-
-## Hang up the phone, get off the Healing Treadmill
-
-![](https://substack-post-media.s3.amazonaws.com/public/images/ccdad771-dde3-4618-ba38-830eb35b4e59_1254x1254.png)
-
-If you use psychedelics (or MDMA) to achieve a goal like healing or spiritual liberation, you need to already be on the same path so that they aren't radically changing your ordinary understanding of things. If the trip is so crazy that you can't believe it a few days later, chances are, like me, you'll end up taking that drug again and again to understand it.
-
-With healthy drugs like [Loveyhuasca](http://loveyhuasca.info), which has literally saved my life on numerous occasions from unknown infections, there's less of an argument for "Hang up the phone" as Alan Watts famously said you should do "once you get the message." But what we shouldn't be doing is feeling like we need to use these substances *because we can't integrate them.*
-
-[YouTube video 9yp0lvYKK6Q](https://www.youtube.com/watch?v=9yp0lvYKK6Q)
-
-That happened to me at first when I started with ayahuasca. The ego deaths were so far beyond my ordinary understanding of reality that I dismissed them each time within a week. Then I felt a compulsion to have another ego death soon after. Once I learned to meditate into the experience ([and beyond](http://nibbana.u-dont-exist.com)) without ayahuasca, that compulsion was gone. If I had learned about Buddhism and if I could have accepted that my view of reality was limited prior to ayahuasca, then probably just one or two ego deaths would have been enough inspiration for me.
-
-With [toxic drugs like MDMA & ketamine](http://mdmaket.u-dont-exist.com), that can be a recipe for long-term harm to your physical, and/or mental health. Ketamine is super easy to abuse because it's a dissociative psychedelic. All your problems are magically **gone, **and if you take enough, you get some crazy trips that you can barely remember later. [5-MeO-DMT](http://bufo.u-dont-exist.com) is the more psychedelic version of ketamine. See my guide on that, because it shares a lot of the same warnings, altho I do think it has more potential to be helpful when used correctly.
-
-Here's a [reddit poster ](https://www.reddit.com/r/mdmatherapy/comments/17nne25/reaching_resolution_32_sessions_over_5_years_for/)who talks about going through tremendous pain with MDMA as she uncovered childhood sex abuse memories. It took her dozens of sessions that felt harmful before she finally had one that fully got her to accept what happened to her (and a huge somatic release which looked like a re-enactment of the abuse). So there are some people who argue that if MDMA opened up your wounds, just keep taking more MDMA until it's fixed. Although [on this thread](https://www.reddit.com/r/mdmatherapy/comments/1woxh97/deep_lingering_grief_two_years_post_mdmaassisted/), there are some who disagree with that simplistic advice. I know a few people who quit because they simply couldn't keep going through the pain that MDMA brought up for them. And as the commenters on the first thread note, very few people would go thru that dozens of times hoping for something different to happen.
-
-My perspective is that these people are not correctly preparing for the [inner child reparenting](http://innerchild.u-dont-exist.com) that MDMA suddenly provides experiential access to. Because they are unprepared to make the best of the experience, and unprepared to integrate it after, it's sort of like being thrown into the deep end of a swimming pool before you learn to swim. You flail around for a bit then terrified, you go back to holding on to the wall and begging to get out. It really will take a long time to learn to swim that way, for most folks. On the other hand, without MDMA or loveyhuasca, many people are unable to really do inner child therapy, because it sounds fake to them, just as ego death sounded fake to me before I experienced it. So I think these approaches complement each other greatly.
-
-## Give the Session a Beginning and an End
-
-![](https://substack-post-media.s3.amazonaws.com/public/images/5ae3cffc-d155-41ef-b1af-c547efa8f52f_1122x1402.png)
-
-If you're planning a session, think through beforehand how it will start and end, and what happens in between. Rest and timing come first: don't begin already depleted, and ideally start earlier in the day, so there's time afterward for food, some normal company and most importantly, sleep.
-
-Set up the space you'll be in, and decide ahead of time what would make you call for outside help. Go in curious about what might come up, along with gentle intentions, not harboring demands for revelations, buried memories, good cries or spiritual breakthroughs. Sometimes people find that when they prepare to purify themselves and open up to love, they don't even end up needing the experience itself. The work is already done.
-
-One woman I met in Kenya was going to take shrooms to fix her tobacco and marijuana addictions. Before she took the shrooms, she simply realized she was addicted to those substances because she was trying to escape anxiety. So instead, she let the anxiety come, and accepted the feeling until it left. Her addictions vanished, no shroom trip required.
-
-If you're taking a psychoactive drug, though, know what you're taking and roughly how much, and look up what it mixes badly with and any medical concerns. If you've taken this amount before, that's a good starting place to understand how it could affect you this time, although people's sensitivities can vary from one session to the next, sometimes quite dramatically. If you've never taken this dose or done this type of meditation this intensely before, make sure you're not jumping into the deep end all at once.
-
-During the experience, the sitter (the sober person with you, not literally someone sitting on your face!) keeps you safe and offers you choices if relevant.
-
-As the experience winds down, give it some closure. Stop adding stimulation (I really don't like the MDMA protocols that include redosing, as it amplifies the neurotoxicity concerns). Check where you are and what day it is. Eat and drink a bit to replenish your electrolytes.
-
-Jot down anything you want to remember before you forget, and let your body know the session is over with some gentle massage. Keep the rest of the day free, and the next morning too if possible, since your brain is still in a vulnerable, flexible, "plastic" state, and the goal is not to cement in worse new patterns than what you had before!
-
-Use this sequence for planned sessions. Once somebody is already in trouble, return to the [triage app](https://ibogaqueen.com/1625-2/) instead of trying to improve the ceremony plan.
+# Shadow Work
 
 ## Dealing With Sorrow: Missing Versus [Sending Love](http://love.u-dont-exist.com/)
 
@@ -815,13 +730,63 @@ During a trip, don't identify with every shadow thought, suppress it, confess it
 
 ---
 
-## After the Storm
+## (Re)defining "Bad Trip"
+
+A bad trip is one of those terms thrown around very loosely in the psychedelic space. It can refer to various things which may be intertwined.
+
+When too much hits you at once, your nervous system can become flooded, and nothing makes sense, even as the brain still tries to derive meanings that might create unhelpful feedback loops. Underlying those interpretations are factors like the dose of what drug(s) you took and how your body handles them, or how hard you pushed a practice. Old painful memories could have been triggered, or you may have gone in with a fearful or unloving mindset, or the setting or people around you could have fed into it. Be kind to yourself or to whoever's going through it, because blaming anyone only makes it heavier.
+
+Some say there's no such thing as a bad trip, because it's all a doorway to shadow work. But if you had no intention of doing shadow work, that explanation might have come too late. Other bad trips seem unrelated to shadow work, although any negative experience can lead into it. Samsara offers no shortage of difficult experiences to process. It still makes sense to reduce present-moment trauma so we can address what was already there.
+
+Sometimes focusing on what we want makes the blockage visible:
+
+![Universe Sends What You Need](https://substack-post-media.s3.amazonaws.com/public/images/39743f7e-c7cd-4db7-933c-aa35a381f5b5_911x1600.jpeg)
+
+A bad trip or destabilizing state may also come from drug interactions, sleep deprivation, cannabis, hunger, dehydration, sexual or social pressure, medical symptoms, psychosis-like symptoms, fasting, intense breathwork, meditation overload, or retreat pressure.
+
+Cognitive distortions from Cognitive Behavioral Therapy (CBT) can create or prolong the crisis:
+
+- **Catastrophizing:** "This will never end."
+- **Emotional reasoning:** "It feels true, so it must be true."
+- **Mind reading:** "Everyone can see I am broken."
+- **Fortune-telling:** "My life is ruined now."
+- **All-or-nothing thinking:** "Either I am enlightened or I am doomed."
+- **Personalization:** "This cosmic horror is specifically my fault."
+- **Spiritual bypassing:** "Because everything is love, I don't need boundaries, doctors, sleep, or consequences."
+
+## Spiritual ≠ "Getting Your Ass Kicked"
+
+The triage above is meant to make trips useful. Some people believe they deserve suffering because of karma or self-hatred. Suffering by itself fixes nobody. Suffering that yields insight requires enough clarity of mind and heart to learn from it.
+
+This is one side of the difference between [spiritual bypassing](http://goenka.u-dont-exist.com) and [spiritual practice](http://nibbana.u-dont-exist.com):
+
+Bypassing reaches for an ultimate view--"we are all One," "I don't exist," "this is all karma," "everything is Love"--while ignoring the person shaking in the corner.
+
+Practice says love is here, so we make the room safer, call for help when needed, stop pretending, and hold the experience without becoming it.
+
+That is tripsitting, shadow work, and the path becoming practical.
+
+## The Other Bypass: Feeling Good Forever
+
+A well-rounded trip should offer practical lessons and contact with suffering as well as freedom from suffering, lest we become "so spiritually high that we are no earthly good." "Life is full of suffering" is Buddha's First Noble Truth. Ignoring that side of life becomes dissociation or spiritual bypassing in the opposite direction, followed eventually by statements like "Everything is Love, including violence."
+
+Many people meditate or take psychedelics to feel good. I am definitely one of them, and Buddha also said meditation should generally feel good. My friend Eshwar, however, found that shadow work made up about 99% of his path to heart-chakra awakening.
+
+Modern people carry so much trauma--and some people did even in Buddha's time--that shadow work and inner-child reparenting may need to come first, even before authentic liberation from the identity illusion.
+
+When shadow work is bypassed in meditation and therapy, it may appear in ordinary life without explaining itself. I encountered a lot of it in my first two marriages, to my bewilderment. I wish everybody could keep shadow work inside the safer rooms of meditation, therapy, journaling, prayer, and honest conversation.
+
+Shadow work to me is neither BDSM nor "feeding your demons." It means bringing loving awareness to the parts of the mind built in fear, pain, humiliation, rejection, and survival. [Inner-child reparenting ](http://innerchild.u-dont-exist.com)is central. Most negative mind-states aren't some error in your philosophy, they're just young parts of you that are still waiting for love and protection and permission, and for the explanation nobody ever gave them.
+
+Begin with my [Inner Child Therapy guide](http://innerchild.u-dont-exist.com) and app, and my [Self-Hypnosis guide](http://hypnoisis.u-dont-exist.com) and app.
+
+# After the Storm
 
 Don't make huge decisions or diagnose yourself from an intense night. You don't need to assume every vision was literal, nor that anything you realized is actually true (or false). Ask your body what it needs from you now. I'm betting it will tell you: Give me sleep, natural food, pure water, a nice nature walk. It helps to integrate the experience via journaling your feelings, and talking with someone grounded (not the 20 chaotic people who are still coming down). To prevent your mind from giving spirituality a negative connotation, engage in some calm prayer or gentle meditation.
 
 ![](https://substack-post-media.s3.amazonaws.com/public/images/287aef23-c49e-4977-a360-504aa2b632e4_1122x1402.png)
 
-### What Kind of Aftermath Is This?
+## What Kind of Aftermath Is This?
 
 When symptoms linger, people too often put everything into the "I'm broken" bucket, which solves nothing. While a professional can be called in to help at any point, self-diagnostics and basic fix strategies may obviate the need for one. Try to find the underlying psychological and/or physiological patterns driving the symptoms:
 
@@ -832,7 +797,7 @@ When symptoms linger, people too often put everything into the "I'm broken" buck
 - **Social disconnection and shame:** The biggest thing here is if you can find one or two trusted people who won't judge you. Get whatever it is off your chest. If you can't find someone like that, talk to a therapist. You'd be surprised how many people have gone through something like this and come out the other side realizing it wasn't what they made it out to be, myself included. Check [my guide on shame](http://shame.u-dont-exist.com/) for more info.
 - **Existential shock:** This one's pretty normal if someone has a deep journey, especially one they weren't prepared for. It helps to go back one step to focus on loving kindness and sending love to the inner child before getting lost in a philosophical ocean. Finding others who've been through a similar experience could be helpful, or harmful, depending on which rabbit hole it was you fell into. I find reading the Buddhist suttas supremely helpful.
 - **Paranoia or psychosis-like beliefs:** Here we gotta be careful because this can spiral out of control and get dangerous quickly. I'd seek professional support while utilizing the relatively safe and natural antipsychotics mentioned in this guide, like DMSO, syrian rue OIL, and niacin.
-- **Somatic hyperarousal:** This is not rumination, but more like akathisia, bodily restlessness. Try gentle movements (that yin yoga again!), slower breathing, grounding, and medical care if the symptoms are severe, unusual or longer-lasting than expected. I'd still go for my trusty relaxing herbs and natural antipsychotics listed above first.
+- **Somatic hyperarousal:** This is not rumination, but more like akathisia, bodily restlessness. Try gentle movements (that yin yoga again!), slower breathing, grounding, and medical care if the symptoms are severe, unusual or longer-lasting than expected. I'd still go for my trusty relaxing herbs first, like beach morning glory, Syrian rue oil or the Metta NMT sniffer, and natural antipsychotics like DMSO and niacin.
 
 **No "another ceremony will fix this" reflex.**
 
@@ -841,6 +806,53 @@ Don't take more psychedelics, cannabis or ketamine, do intense breathwork, fast,
 Then ask what actually happened. What was medical or environmental? What was emotional? What was old trauma? What was fantasy? What was useful? What changed behavior? What needs therapy, an apology, rest, or plain practical action?
 
 It can feel like the more cosmic the story sounds, the bigger the insight. But the fruit of an insight is whether suffering goes down and love gets more available.
+
+## Bring in mental-health support when:
+
+- Psychosis-like symptoms outlast the acute state.
+- Sleep won't return.
+- Mania or suicidal thinking appears.
+- Panic won't settle.
+- The person can't function afterward.
+- The trauma material is bigger than the room can hold.
+
+## Trip After Trip? Hang up the phone, get off the Healing Treadmill
+
+![](https://substack-post-media.s3.amazonaws.com/public/images/ccdad771-dde3-4618-ba38-830eb35b4e59_1254x1254.png)
+
+If you use psychedelics (or MDMA) to achieve a goal like healing or spiritual liberation, you need to already be on the same path so that they aren't radically changing your ordinary understanding of things. If the trip is so crazy that you can't believe it a few days later, chances are, like me, you'll end up taking that drug again and again to understand it.
+
+With healthy drugs like [Loveyhuasca](http://loveyhuasca.info), which has literally saved my life on numerous occasions from unknown infections, there's less of an argument for "Hang up the phone" as Alan Watts famously said you should do "once you get the message." But what we shouldn't be doing is feeling like we need to use these substances *because we can't integrate them.*
+
+[YouTube video 9yp0lvYKK6Q](https://www.youtube.com/watch?v=9yp0lvYKK6Q)
+
+That happened to me at first when I started with ayahuasca. The ego deaths were so far beyond my ordinary understanding of reality that I dismissed them each time within a week. Then I felt a compulsion to have another ego death soon after. Once I learned to meditate into the experience ([and beyond](http://nibbana.u-dont-exist.com)) without ayahuasca, that compulsion was gone. If I had learned about Buddhism and if I could have accepted that my view of reality was limited prior to ayahuasca, then probably just one or two ego deaths would have been enough inspiration for me.
+
+With [toxic drugs like MDMA & ketamine](http://mdmaket.u-dont-exist.com), that can be a recipe for long-term harm to your physical, and/or mental health. Ketamine is super easy to abuse because it's a dissociative psychedelic. All your problems are magically **gone, **and if you take enough, you get some crazy trips that you can barely remember later. [5-MeO-DMT](http://bufo.u-dont-exist.com) is the more psychedelic version of ketamine. See my guide on that, because it shares a lot of the same warnings, altho I do think it has more potential to be helpful when used correctly.
+
+Here's a [reddit poster ](https://www.reddit.com/r/mdmatherapy/comments/17nne25/reaching_resolution_32_sessions_over_5_years_for/)who talks about going through tremendous pain with MDMA as she uncovered childhood sex abuse memories. It took her dozens of sessions that felt harmful before she finally had one that fully got her to accept what happened to her (and a huge somatic release which looked like a re-enactment of the abuse). So there are some people who argue that if MDMA opened up your wounds, just keep taking more MDMA until it's fixed. Although [on this thread](https://www.reddit.com/r/mdmatherapy/comments/1woxh97/deep_lingering_grief_two_years_post_mdmaassisted/), there are some who disagree with that simplistic advice. I know a few people who quit because they simply couldn't keep going through the pain that MDMA brought up for them. And as the commenters on the first thread note, very few people would go thru that dozens of times hoping for something different to happen.
+
+My perspective is that these people are not correctly preparing for the [inner child reparenting](http://innerchild.u-dont-exist.com) that MDMA suddenly provides experiential access to. Because they are unprepared to make the best of the experience, and unprepared to integrate it after, it's sort of like being thrown into the deep end of a swimming pool before you learn to swim. You flail around for a bit then terrified, you go back to holding on to the wall and begging to get out. It really will take a long time to learn to swim that way, for most folks. On the other hand, without MDMA or loveyhuasca, many people are unable to really do inner child therapy, because it sounds fake to them, just as ego death sounded fake to me before I experienced it. So I think these approaches complement each other greatly.
+
+# Planning a Trip or Ceremony? Give It a Beginning and an End
+
+![](https://substack-post-media.s3.amazonaws.com/public/images/5ae3cffc-d155-41ef-b1af-c547efa8f52f_1122x1402.png)
+
+If you're planning a session, think through beforehand how it will start and end, and what happens in between. Rest and timing come first: don't begin already depleted, and ideally start earlier in the day, so there's time afterward for food, some normal company and most importantly, sleep.
+
+Set up the space you'll be in, and decide ahead of time what would make you call for outside help. Go in curious about what might come up, along with gentle intentions, not harboring demands for revelations, buried memories, good cries or spiritual breakthroughs. Sometimes people find that when they prepare to purify themselves and open up to love, they don't even end up needing the experience itself. The work is already done.
+
+One woman I met in Kenya was going to take shrooms to fix her tobacco and marijuana addictions. Before she took the shrooms, she simply realized she was addicted to those substances because she was trying to escape anxiety. So instead, she let the anxiety come, and accepted the feeling until it left. Her addictions vanished, no shroom trip required.
+
+If you're taking a psychoactive drug, though, know what you're taking and roughly how much, and look up what it mixes badly with and any medical concerns. If you've taken this amount before, that's a good starting place to understand how it could affect you this time, although people's sensitivities can vary from one session to the next, sometimes quite dramatically. If you've never taken this dose or done this type of meditation this intensely before, make sure you're not jumping into the deep end all at once.
+
+During the experience, the sitter (the sober person with you, not literally someone sitting on your face!) keeps you safe and offers you choices if relevant.
+
+As the experience winds down, give it some closure. Stop adding stimulation (I really don't like the MDMA protocols that include redosing, as it amplifies the neurotoxicity concerns). Check where you are and what day it is. Eat and drink a bit to replenish your electrolytes.
+
+Jot down anything you want to remember before you forget, and let your body know the session is over with some gentle massage. Keep the rest of the day free, and the next morning too if possible, since your brain is still in a vulnerable, flexible, "plastic" state, and the goal is not to cement in worse new patterns than what you had before!
+
+Use this sequence for planned sessions. Once somebody is already in trouble, return to the [triage app](https://ibogaqueen.com/1625-2/) instead of trying to improve the ceremony plan.
 
 ---
 

@@ -6,7 +6,8 @@ make sure the ToC is optimized then we can make sure the stuff in each section i
 or moving?" Two fresh readers read the contents alone (reads/READ-NOW-1.md, READ-NOW-2.md); RESULTS.md says what each
 found and which of their changes each option takes.
 
-Option A moves whole sections and changes heading levels; it changes no paragraph. Its headings are his, but for "of
+Option A, as he chose it on 2026-11-09 18:43 UTC (A, with the brain section first and three headings renamed),
+moves whole sections, changes heading levels and renames those headings; it changes no paragraph. Its headings are his, but for "of
 Remedies" (both readers' words), "A Final Trip Killer: Niacin (...)" (his two headings joined) and the split of his part
 heading into "Tripsitting Yourself or Others" and "Shadow Work" (his own words, from that heading). Option B is only the
 remedies part's levels and order and "Who to Contact, and When" moved up, which both readers found broken.
@@ -77,16 +78,26 @@ def plan(option):
     put_after(stop + final, 'B208')                       # after the stabilizers' divider
     for g in ('B150', 'B164', 'B169', 'B180'):
         relevel[g] = 2
-    for e in ('B152', 'B159', 'B166', 'B170', 'B181', 'B183', 'B185', 'B189', 'B199', 'B210'):
-        relevel[e] = 3
+    for e in ('B152', 'B159', 'B166', 'B170', 'B181', 'B183', 'B185', 'B189', 'B199', 'B210', 'R30-OILS1', 'R30-RUE1'):
+        if e in unit:
+            relevel[e] = 3
     if option == 'B':
         return blocks, unit, order, relevel, rename, new
 
-    # A: the medical part's emergencies first
-    brain = take(sec('B102'))
-    put_before(brain, 'B137')
+    # A as he chose it (round 30, 2026-11-09 18:43 UTC: "a sure rename them so readers can find them, and brain should
+    # be at top yeah that's kind of one of the most common things people say"): the brain section stays first, and the
+    # three headings fresh readers had to guess at are renamed, his words kept with a lead a reader would look for
+    rename['N-SF-1'] = "## Risk of Harm: When Peer Support Isn't Enough"
+    rename['B285'] = '### When What They Say Turns Toward Harm'
+    rename['B347'] = '## Trip After Trip? Hang up the phone, get off the Healing Treadmill'
+    rename['B364'] = '# Planning a Trip or Ceremony? Give It a Beginning and an End'
     # DMSO next to humic acid, as the brain section names them
-    dmso = take(sec('B199', stop_before='B208'))
+    dmso = sec('B199', stop_before='B208')
+    k = ids.index(dmso[-1]) + 1
+    while k < len(ids) and ids[k].startswith('R30-RUE'):   # his Syrian rue oil entry (round 30) goes with DMSO
+        dmso.append(ids[k])
+        k += 1
+    dmso = take(dmso)
     put_before(dmso, 'B185')
     # the psychological part split in two, in his words
     rename['B227'] = '# Tripsitting Yourself or Others'

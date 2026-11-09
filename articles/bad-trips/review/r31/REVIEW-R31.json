@@ -1,0 +1,172 @@
+{
+ "format": "joel-suggestion-review-v1",
+ "review_id": "bad-trips-r31",
+ "title": "Bad Trips Guide, Round 31",
+ "intro": [
+  "Round 31 (2026-11-09). Round 30 is in: the contents as A, with the brain section first and the three headings renamed so readers can find them, your Syrian rue oil and essential-oils entries, and the herbs named. A fourth fresh reader read the renamed contents and found every section on the first pick, with 3 guesses where the first two readers had made 6 and 5. Your caution about vaping the whole seeds stays as your entry says it, and mine is out; your note about trying any new substance in small amounts first is already in My Acute Rescue Hierarchy's opening (\"try all these things in very low, increasing doses\").",
+  "Now the places people use in trouble get your method. Three cards each put a line the guide already has where it will be used, in the four places round 28 named but one: the thinking traps now sit two sections before your \"young parts of you that are still waiting for love\" line, so they need nothing. And with the support section right after the aftermath list, one card asks where paranoia and derealization go, with each option as it would read."
+ ],
+ "git_file": "articles/bad-trips/review/r31/REVIEW-R31.html",
+ "article": {
+  "file": "articles/bad-trips/review/r31/PAGE-R31.md",
+  "sha256": "2fb3325dbc879b5a984af0ae4705432aba381096e3705bb81946172e9c239341"
+ },
+ "built": "2026-11-09",
+ "links": {
+  "guide": "https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261105/articles/bad-trips/GUIDE-SO-FAR.md",
+  "guide_label": "the guide as it stands",
+  "check": "https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261105/articles/bad-trips/review/r31/REVIEW-R31.md",
+  "review": "https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261105/articles/bad-trips/review/r31/REVIEW-R31.md"
+ },
+ "types": {
+  "plain": {
+   "label": "Said plainly",
+   "about": "AI lines said plainly, each with its reason, the way he fixes his own windows"
+  },
+  "structure": {
+   "label": "Structure",
+   "about": "how the quick version and the long version split the guide, and where a part goes"
+  },
+  "repeat": {
+   "label": "Said twice",
+   "about": "a point the guide already makes elsewhere: one copy goes, the other stays"
+  },
+  "safety": {
+   "label": "Safety in one place",
+   "about": "a caution or call-for-help line said in several places, or one that changes nothing a reader does"
+  },
+  "question": {
+   "label": "Your call",
+   "about": "something only you can decide or know"
+  },
+  "sense": {
+   "label": "Says what it means",
+   "about": "a term explained where it is first used, or a word that says what to do"
+  },
+  "belief": {
+   "label": "Your belief back",
+   "about": "a sentence of your post that said why, cut in an earlier round, put back where it bears on what the reader does"
+  },
+  "method": {
+   "label": "Your method where it is used",
+   "about": "a line the guide already has, put where the reader uses it in trouble (your METHOD-WHERE answer, round 28)"
+  },
+  "notes": {
+   "label": "Your notes, placed",
+   "about": "what you sent in a comment, put where it belongs in the guide, in your words"
+  },
+  "typo": {
+   "label": "Typo",
+   "about": "a word in your own paragraph spelled differently from how you spell it elsewhere, with the fix in place"
+  },
+  "teach": {
+   "label": "Teach me",
+   "about": "a paragraph that reads AI in every wording I tried, whose shape many stuck paragraphs share: how you would say it teaches me how to say them (you asked for these on 2026-11-07)"
+  }
+ },
+ "suggestions": [
+  {
+   "id": "AFT-PLACE",
+   "type": "structure",
+   "advice": "ask",
+   "title": "1. Paranoia and derealization: in the support section, or where they are?",
+   "question": "Bring in mental-health support when: now comes right after What Kind of Aftermath Is This?, which you said would make moving these two there an easy choice. How each option would read:\n\nA (your idea): both move under the support list, after its six lines, as you wrote them, and your aftermath list keeps one line where they were:\n    - Derealization and depersonalization, paranoia or psychosis-like beliefs: see Bring in mental-health support, right below.\nand the support section ends:\n    - Derealization and depersonalization (when the world, or you yourself, feel unreal): Is it due to isolation? Rumination (which often goes along with isolation)? Peer and family support are crucial to combat those. Some things that tend to help are related to reconnecting with the feelings in your body: taking walks in nature (with bare feet for grounding to the Earth), doing gentle yin yoga, and Somatic Experiencing, a therapy that works through body sensations.\n    - Paranoia or psychosis-like beliefs: Here we gotta be careful because this can spiral out of control and get dangerous quickly. I'd seek professional support while utilizing the relatively safe and natural antipsychotics mentioned in this guide, like DMSO, syrian rue OIL, and niacin.\nPro: the two kinds most likely to need a professional sit with the lines on when to bring one in. Con: that list says when to get help, and your two items say what helps, so it becomes two kinds of list; and a reader a week on still looks in the aftermath list first (the fresh readers did), then has to follow the line.\n\nB: only paranoia moves, with the same kind of line left in your list. Your paranoia item says to bring in professional support; your derealization item's help is all things the reader can do (people, walks, yin yoga, Somatic Experiencing), so it stays with the other kinds. Pro: each kind sits with what it asks for. Con: the support list still changes what it is, for one item.\n\nC (my pick): both stay where they are, and the support list now follows them. Pro: nothing moves; readers find them where they look first; your paranoia item already says to seek professional support, and the next thing they read is when to. Con: the two kinds that may need a professional sit just above the support list rather than in it.",
+   "why": "Your round-28 answer: \"i suppose those last two might be better in the bring outside help in section, but we should make sure the aftermath section points to that section then briefly for the cases that got moved i guess... also depends on where that section is placed, if it were right after this section it would be an easy choice\". It is right after now, so moving is easy; the question is whether it still helps.",
+   "stays": "Both items as they are, where they are, until you answer.",
+   "advice_note": "C, and I'm fairly sure: with the two sections side by side, the move adds a step for the reader and gains little. If you'd rather have them with the support lines, B fits your items best.",
+   "spans": [
+    {
+     "block": 411,
+     "start": 0,
+     "end": 283
+    }
+   ]
+  },
+  {
+   "id": "MW-ALONE",
+   "type": "method",
+   "advice": "approve",
+   "title": "Alone at 3 a.m.: your method for someone with no sitter",
+   "what": "A new paragraph after \"Send the human-anchor script.\": \"While you wait, put one hand on your heart and the other on your belly, and say to yourself: \"This feeling is allowed to move through. I can love the part of me that feels it.\"\"",
+   "why": "Someone alone at 3 a.m. has nobody there to bring them love, so the section gives them a way to do it for themselves, in the guide's own lines: the hand on the heart from the Grounding Menu, and the self-talk from For the Person Helping (\"This feeling is allowed to move through. I don't have to become it. I can love the part of me that feels it.\"). \"While you wait\" ties it to the message just sent.",
+   "stays": "The lamp, the keys, \"No big actions until morning\", the script, and the movement lines.",
+   "deciding": "Approve puts it in; Revise to say it your way; Reject leaves the section as it is.",
+   "advice_note": "Approve, and I'm fairly sure: it's the one moment in the guide where nobody else can do the loving. The cost is that the self-talk is said twice, here and for the helper.",
+   "ask_because": "downside: the self-talk is said again here, as For the Person Helping already says it",
+   "found_by": "round 28's METHOD-WHERE card, from a fresh reader's list of where the guide is generic",
+   "inserts": [
+    {
+     "before": 280,
+     "kind": "p",
+     "seq": 1,
+     "text": "While you wait, put one hand on your heart and the other on your belly, and say to yourself: \"This feeling is allowed to move through. I can love the part of me that feels it.\""
+    }
+   ],
+   "spans": [
+    {
+     "block": 279,
+     "start": 0,
+     "end": 29
+    }
+   ],
+   "receipt": "articles/bad-trips/review/r31/MW-ALONE.receipt.json"
+  },
+  {
+   "id": "MW-BREATH",
+   "type": "method",
+   "advice": "approve",
+   "title": "Grounding Menu, Breath: \"I can love the part of me that feels it.\"",
+   "what": "The breath list's last line, \"Whisper: \"This is a wave.\"\", becomes \"Whisper: \"This is a wave. I can love the part of me that feels it.\"\"",
+   "why": "The breath lines say how to breathe but nothing of love; the line from the helper's self-talk gives the reader something to do with the feeling while the breath slows, not only wait it out.",
+   "stays": "The other breath lines, and \"This is a wave.\"",
+   "deciding": "Approve adds it; Reject leaves the line as it is.",
+   "advice_note": "Approve, and I'm sure of this one: one sentence added to a line the reader is already saying.",
+   "ask_because": "downside: the line is said again here, as For the Person Helping already says it",
+   "found_by": "round 28's METHOD-WHERE card, from a fresh reader's list of where the guide is generic",
+   "edits": [
+    {
+     "block": 243,
+     "before": "Whisper: \"This is a wave.\"",
+     "after": "Whisper: \"This is a wave. I can love the part of me that feels it.\""
+    }
+   ],
+   "spans": [
+    {
+     "block": 243,
+     "start": 0,
+     "end": 26
+    }
+   ],
+   "receipt": "articles/bad-trips/review/r31/MW-BREATH.receipt.json"
+  },
+  {
+   "id": "MW-PREP",
+   "type": "method",
+   "advice": "approve",
+   "title": "Planning a Trip or Ceremony?: train love before you need it",
+   "whose": "his own: his round-24 version of Give the Session a Beginning and an End (2026-11-08)",
+   "what": "One sentence added to your preparation paragraph, after \"spiritual breakthroughs.\": \"And train before you need it, sending love to a frightening image, to someone you hate (without approving of what they did), and to the inner child.\" It's your Demons line, \"So train before you need it, sending love to a frightening image, to someone you hate (without approving of what they did), to your shame and your body, ...\", with its list cut to three.",
+   "why": "Your preparation says to go in with gentle intentions and that preparing to open up to love can make the trip unneeded, but not how to prepare that love. Your Demons section says how, and says to do it beforehand; someone planning reads this section, not Demons.",
+   "stays": "The rest of your paragraph, word for word, and the Demons line as it is.",
+   "deciding": "Approve adds it; Revise to say it your way or keep the whole list; Reject leaves your paragraph as it is.",
+   "advice_note": "Approve, and I'm fairly sure: it's the practice your next sentence counts on. Less sure of the cut list: Revise if the shame, the body, sickness and death belong in the preparation too.",
+   "ask_because": "his own: your preparation paragraph (round 24), with a sentence of your Demons section added",
+   "found_by": "round 28's METHOD-WHERE card, from a fresh reader's list of where the guide is generic",
+   "edits": [
+    {
+     "block": 436,
+     "before": "Set up the space you'll be in, and decide ahead of time what would make you call for outside help. Go in curious about what might come up, along with gentle intentions, not harboring demands for revelations, buried memories, good cries or spiritual breakthroughs. Sometimes people find that when they prepare to purify themselves and open up to love, they don't even end up needing the experience itself. The work is already done.",
+     "after": "Set up the space you'll be in, and decide ahead of time what would make you call for outside help. Go in curious about what might come up, along with gentle intentions, not harboring demands for revelations, buried memories, good cries or spiritual breakthroughs. And train before you need it, sending love to a frightening image, to someone you hate (without approving of what they did), and to the inner child. Sometimes people find that when they prepare to purify themselves and open up to love, they don't even end up needing the experience itself. The work is already done."
+    }
+   ],
+   "spans": [
+    {
+     "block": 436,
+     "start": 239,
+     "end": 263
+    }
+   ],
+   "receipt": "articles/bad-trips/review/r31/MW-PREP.receipt.json"
+  }
+ ]
+}
