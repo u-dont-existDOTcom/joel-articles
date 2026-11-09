@@ -14,7 +14,7 @@ I developed the [**Inner Signal app**](http://innersignalselfhypnosis.com/integr
 
 ![](https://substack-post-media.s3.amazonaws.com/public/images/fcb02067-8041-4f0d-aaa5-8ccf8cd48531_1122x1402.png)
 
-## Call medics while acting for:
+## Call medics for:
 
 - Trouble breathing, blue or gray lips, or respiratory depression
 - A convulsive seizure lasting about five minutes, repeated seizures without normal recovery, or a first or substantially different seizure
@@ -369,7 +369,7 @@ I actually get something like this regularly when I take a high dose of somethin
 
 ### Stillness or Movement?
 
-Test them rather than turning them into rival religions. Try one for two minutes and ask: *Does this make me safer and clearer, or more activated and impulsive?*
+Test stillness and movement rather than turning them into rival religions. Try one for two minutes and ask: *Does this make me safer and clearer, or more activated and impulsive?*
 
 When lying down feels like imprisonment, pace slowly in a contained space. When pacing begins to resemble escape, sit against a wall or lie under a blanket. The goal is to let the nervous system discharge without creating a new danger.
 
@@ -847,7 +847,7 @@ When symptoms linger, people too often put everything into the "I'm broken" buck
 
 **No "another ceremony will fix this" reflex.**
 
-Don't take more psychedelics, cannabis, ketamine, intense breathwork, fast, push kundalini, deprive yourself of sleep, meditate or stretch to extremes, or schedule "another ceremony to fix it" while destabilized. Deep practice can wait until the floor is back.
+Don't take more psychedelics, cannabis or ketamine, do intense breathwork, fast, push kundalini, deprive yourself of sleep, meditate or stretch to extremes, or schedule "another ceremony to fix it" while destabilized. Deep practice can wait until the floor is back.
 
 Then ask what actually happened. What was medical or environmental? What was emotional? What was old trauma? What was fantasy? What was useful? What changed behavior? What needs therapy, an apology, rest, or plain practical action?
 
