@@ -1,18 +1,20 @@
 # Bad Trips guide: questions for Joel
 
-Updated 2026-11-08 (turn 26, his round-24 answers of 15:01 UTC in; round 26 out with the session's resume of 15:52 UTC and answered at 16:48 UTC; round 25 answered at 16:55 UTC; round 27 out at 17:52 UTC). Status: **open** = waiting on you, **next** = I do it once you
+Updated 2026-11-09 (turn 29, round 27 answered at 01:24 UTC, round 28 out); earlier 2026-11-08 (turn 26, his round-24 answers of 15:01 UTC in; round 26 out with the session's resume of 15:52 UTC and answered at 16:48 UTC; round 25 answered at 16:55 UTC; round 27 out at 17:52 UTC). Status: **open** = waiting on you, **next** = I do it once you
 answer, **done** = answered.
 Answer under an item's number in a message.
 
 ## Open
 
-1. **open — Round 27: your beliefs, four cards.** Two put sentences of your post back where they bear (why the body comes first; "Grounding is love becoming practical."), and two teaching cards are the stretches that would teach me the most and lack your method most where it's used (The Fear/Panic Loop; What Kind of Aftermath Is This?), each with a fresh sense read and my tries. On round 27's page (Bad Trips Guide, Round 27, https://claude.ai/artifact/69kipTsshviuZ3zPcaaDFp; the cards as text: [REVIEW-R27.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261105/articles/bad-trips/review/r27/REVIEW-R27.md)).
+1. **open — Round 28: my best first, then the choices that matter most.** One approve card (three terms in your aftermath list explained where they're used) and five choices, each with options, pros and cons and my pick: how your method gets into the parts people use in trouble; the Fear/Panic Loop now that your first five minutes has it; how much of the aftermath list the guide needs; what For the Person Helping is for now; and Syrian rue in your paranoia line, a safety point to settle before the guide goes live. On round 28's page (Bad Trips Guide, Round 28, https://claude.ai/artifact/HojoTdFbfZVx8A6mLF9e3e; the cards as text: [REVIEW-R28.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261105/articles/bad-trips/review/r28/REVIEW-R28.md)).
 
 ## Your tasks
 
 None right now.
 
 ## Decisions on record
+
+His round-27 answers of 2026-11-09 01:24 UTC, on [round 27's cards](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261105/articles/bad-trips/review/r27/REVIEW-R27.md): both put-backs approved; TEACH-LOOP revised with his first five minutes as one piece ("why did you lose my fixes from before? i'm putting them back and adding the fear panic loop plus my experience"); TEACH-AFTERMATH revised with his own list, checked High, and "so do your best first, give me your suggestions, pros and cons for each, and the most impactful choices i can make" (round 28). All in (`review/r27/apply_r27.py`).
 
 His round-25 answer of 2026-11-08 16:55 UTC, on [round 25's card](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261105/articles/bad-trips/review/r25/REVIEW-R25.md): WHY-LESSON-CUT approved with no comment and in (`review/r25/apply_r25.py`): the lesson line that came over with Why Bad Trips Tend to Happen's merge is cut, warning W102 an owner change (`humanize/h01/FIDELITY-KEYS-R25.json`).
 
