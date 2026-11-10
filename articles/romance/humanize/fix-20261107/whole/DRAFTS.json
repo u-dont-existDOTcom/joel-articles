@@ -1,16 +1,52 @@
 {
- "about": "The two temporary Substack drafts of the fixed version (build_draft.js, from REPLACEMENTS.json and LIVE-INDEX.txt at commit 871a909aa3a51f7690c73a668738e120af4a15bd and the post API), made 2026-11-07 17:52 to 17:55 UTC in the app's built-in browser. Never published, no email; their titles have no detector's name (gate E205). Their secret preview links (paid view) are not kept in Git: substack_secret_link.js makes one from the draft number with a new cache key. They are kept to be pasted again (cleared first) for the whole-article check, which waits until every window a smaller check read AI reads Human in a later smaller check (gate gut-2026-11-07a): S2, S17, the three S2-pattern stretches and the other AI windows of 'Can making love be a spiritual practice?' (#45). Joel deletes them from his drafts list when the check is done (the budget rule: a Claude worker leaves the delete click to him).",
+ "about": "The two temporary Substack drafts of the fixed version (build_draft.js, from REPLACEMENTS.json and LIVE-INDEX.txt at commit 871a909aa3a51f7690c73a668738e120af4a15bd and the post API), made 2026-11-07 17:52 to 17:55 UTC in the app's built-in browser. Never published, no email; their titles have no detector's name (gate E205). Their secret preview links (paid view) are not kept in Git: substack_secret_link.js makes one from the draft number with a new cache key. They are kept to be pasted again (cleared first) for the whole-article check, which waits until every window a smaller check read AI reads Human in a later smaller check (gate gut-2026-11-07a): S2, S17, the three S2-pattern stretches and the other AI windows of 'Can making love be a spiritual practice?' (#45). Joel deletes them from his drafts list when the check is done (the budget rule: a Claude worker leaves the delete click to him). Re-pasted 2026-11-08 (r27, cleared first, in the built-in browser) with his jealousy answer (#135), S17's doubled \"example\" taken out (#136) and the fixed Idealization section (#143), from this folder's REPLACEMENTS.json (88 keys, canonical SHA-256 bc856e29a79e…); each secret link's rendered text matched the built text with its quotes curled as the walk curls them. The whole-article check is his, in his browser, on the two secret links.",
  "split_at": "Primal attraction: channeling the Divine Masculine & Feminine",
- "total_checked_chars": 113045,
+ "total_checked_chars": 114036,
  "left_out": "pictures, videos, embeds, the Share and Subscribe buttons and the empty dividers (Pangram's check reads paragraphs and list items only); a changed paragraph's inline formatting",
  "drafts": [
-  {"part": "A", "title": "Romance, draft A (temp, delete after)", "draft": 223926381, "lines": 213, "chars": 60109, "words": 10739,
+  {
+   "part": "A",
+   "title": "Romance, draft A (temp, delete after)",
+   "draft": 223926381,
+   "lines": 213,
+   "chars": 60109,
+   "words": 10739,
    "text_sha256": "6f860382017b7494048ca0d64706dfd8e8f6a75a26f72c6b0faebaa3d6d9115f",
    "html_sha256": "056053841ff672861cd58c69120c5d1c5596663cd3f9e45576d06026ad467d2b",
-   "rendered_check": "the secret link's rendered text (substack_rendered_check.js's walk) matched the built text: 213 lines, the same SHA-256"},
-  {"part": "B", "title": "Romance, draft B (temp, delete after)", "draft": 223926513, "lines": 178, "chars": 52934, "words": 9266,
+   "rendered_check": "the secret link's rendered text (substack_rendered_check.js's walk) matched the built text: 213 lines, the same SHA-256"
+  },
+  {
+   "part": "B",
+   "title": "Romance, draft B (temp, delete after)",
+   "draft": 223926513,
+   "lines": 178,
+   "chars": 52934,
+   "words": 9266,
    "text_sha256": "9ba904dc52cfa3c3af166957fdfbaba4edbdc4fb02c1e5448336ca80847aa806",
    "html_sha256": "32573f75e3952b5de2d3b12fcca3f32dbf27950797212cea954eade924bdc8e8",
-   "rendered_check": "the secret link's rendered text matched the built text: 178 lines, the same SHA-256"}
+   "rendered_check": "the secret link's rendered text matched the built text: 178 lines, the same SHA-256"
+  }
+ ],
+ "r27": [
+  {
+   "part": "A",
+   "draft": 223926381,
+   "lines": 213,
+   "chars": 60348,
+   "words": 10794,
+   "text_sha256": "4abc6ef110a09d8c00904d6e073cfa617bd3cff785ebfdadc108197d8269239e",
+   "html_sha256": "70051d9762b27b1ac90e24564430333c19ae54e256db28bbe5988058480e2ed6",
+   "rendered_check": "the secret link (cache key romance-r27-a-…) rendered 213 lines, SHA-256 d50958a656a1…, the built text with its quotes curled: matched"
+  },
+  {
+   "part": "B",
+   "draft": 223926513,
+   "lines": 178,
+   "chars": 53688,
+   "words": 9429,
+   "text_sha256": "7ba708889297b2a5422c52cef99b7f239096cfb19c84beb2e5bf1153142958f1",
+   "html_sha256": "c7726aeab9ecec01b9220c63ae9276fb12ca57152f19a4aff69aef98156e2713",
+   "rendered_check": "the secret link (cache key romance-r27-b-1108) rendered 178 lines, SHA-256 9f2383ac27bf…, the built text with its quotes curled: matched"
+  }
  ]
 }

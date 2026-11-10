@@ -72,7 +72,9 @@ Sometimes withdrawing isn’t wrong. Telling your friend, “Can you believe wha
 
 It doesn’t help if she tells her friends her side while I tell mine mine. We need people who actually know both of us over time, well enough that the relationship isn’t the only reality in the room. I’ll come back to that.
 
-## 14. Beware idealization (S8, 147, 148) (live 146, 147, 148)
+## 14. Beware idealization (S8, 145 to 151) (live 145, 146, 147, 148)
+
+It shouldn’t have to happen that way, though. It’s a bad shortcut to the divine archetypes.
 
 Legitimately seeing someone as amazing doesn’t depend on what the seeing gives you. Once you start identifying with the way you see them—she’s perfect, this is destiny, I’m the one who finally found her—you’re already lost in the sauce.
 
@@ -80,7 +82,7 @@ The degree of idealization also predicts the degree of demonization for me. I do
 
 When the BPD splitting happens, private hatred can replace worship. Then come public accusations, rewriting the whole past and treating every flaw as proof that the person was fake all along. Sometimes the woman who thought I was perfect later accuses me of thinking I’m perfect.
 
-## 15. Beware idealization (S8, 147, 148) (live 151)
+## 15. Beware idealization (S8, 145 to 151) (live 151)
 
 If she says, “Can you talk less about your exes?” Sure. Maybe I do talk about them too much sometimes. But they still matter to me. If I’m supposed to listen to everything on her mind, I don’t want to have to pretend that isn’t on mine.
 
@@ -100,13 +102,17 @@ Once I’m attached, “I’m taking a chance on her” starts turning into “s
 
 If I have sex with somebody quickly, that’s a reason not to move in quickly too. Moving in together right away is basically getting into a common-law marriage without discussing it. I want us to keep seeing friends, have some kind of community around the relationship, and pick actual dates to ask how it’s going. Otherwise it’s too easy for me to assume the relationship is going well because we’re already entangled.
 
-## 19. Slow & steady (live 180, 181, 182)
+## 19. Slow & steady (live 180, 181, 182, 183, 184)
 
 Going slowly can show you how somebody’s moods move over time, how they treat you, and how they treat other people. It still can’t tell you how good the sex will be or how either of you will act afterward.
 
 You can know somebody for twenty years and then discover on the first night that the polarity isn’t there, touch or smell feels wrong, your desire levels or kinks don’t fit, one person is sexually shut down, or the bodies just don’t connect.
 
 Some of those things might get better if both partners are committed to helping each other through it. Sometimes bad sexual fit still feels like, “Let’s just be friends!”
+
+Saying, “The sex isn’t working for me,” may sound like, “I only love you if the sex is good.” But universal love doesn’t make someone special. It isn’t romance. It’s the basis of any good relationship of any kind.
+
+I can still love her and not want to be in a romantic relationship with her. Romantic love generally needs good sex too, or we’re friends who care deeply about each other.
 
 ## 20. From flow to nitty gritty (live 199, 200, 201)
 
@@ -204,11 +210,13 @@ She has also collected a ton of stories from students who say the effects spill 
 
 Brad and Pam Keene are the example I really like. Pam says her Kundalini process completed while they were making love and opened into a lasting universal-consciousness awakening. She later helped Brad awaken too, so the marriage itself became part of the path.
 
-## 36. S18 (live 331)
+## 36. S18 and S19 with 330 to 336 (live 331)
 
 Let me show you how this looked for me. I’ve noticed in my own relationships that whenever a serious issue arises, both of us tend to turn to our separate circles of friends for support. Then I resent the one-sided story she’s telling, she resents the one-sided story I’m telling. Some of the friends may even be exes who want us to break up, and eventually neither of us wants to talk to the other’s friends anymore. That’s a pretty terrible time to be trying to run the rest of life with two people. Housing, money, children, health, emotional crises—if one person goes down, the other becomes the whole backup system. Who even has time for the relationship itself at that point?
 
-## 37. S19 (live 335)
+## 37. S18 and S19 with 330 to 336 (live 334, 335)
+
+Having the same confidant creates the opposite problem: now you may not have a release valve when you want privacy from your partner. There isn’t one perfect arrangement.
 
 If you do have separate confidants, you need enough emotional maturity to remember they will automatically be biased toward you. Take what they say with a grain of salt. They are hearing a partial story, usually while you’re upset, and they may be trying to protect you rather than understand the relationship fairly.
 
@@ -228,19 +236,31 @@ And the biggie: what happens if one of us falls in love with someone else? What 
 
 Matthew 5:33–37 and James 5:12 are stranger still beside wedding vows: let your “Yes” be “Yes” and your “No” be “No,” and anything beyond that comes from evil. To me, the extra promise itself starts to look suspicious. If your yes is trustworthy, why does it need another layer?
 
-## 41. Why all of this sounds artificial (live 410)
+## 41. Jealousy on trial (his T2 answer) (live 366, 367, 368, 369, 370)
+
+I do believe two people can choose sexual exclusivity honestly. They can admit that attraction to other people exists and decide not to act on it each day.
+
+I would rather make every attraction possible to mention casually, including the low-stakes ones. If only the serious attractions are supposed to be disclosed, each disclosure becomes such a major event that people are less likely to say anything at all.
+
+A foundational, permanent, exclusive romantic partnership is promised far more often than it is actually lived. In a polyamorous relationship the boundaries might be more negotiable, but that actually means negotiating is required.
+
+That’s not to say that polyamory is automatically better, because it can be dishonest too. These days, I believe it is often a way to cope with an inability to connect deeply with one person, or a way to admit a lack of self-control without necessarily doing the self-development that would make the arrangement ethical. If you can’t do monogamy, saying so is still more honest than pretending you can. Sometimes the pretending does more damage than an outside connection would have.
+
+I learned most of this by screwing it up. Some of it I just thought through, and I’m still not sure about all of it.
+
+## 42. Why all of this sounds artificial (live 410)
 
 Some things were less mysterious. They were acting as if the trust problem wasn’t there because they still wanted the relationship. Attractions to other people sometimes went unsaid too, and sometimes got imagined from nowhere. Some people keep a relationship like this going for a long time, just sweeping everything under the rug.
 
-## 42. Gaslighting in the dark (live 433)
+## 43. Gaslighting in the dark (live 433)
 
 Many say it’s best to save face and work things out privately, but I’d disagree. If you don’t have friends who can help with the conflict, then you’re really stuck (and you might wanna find some new friends). But do it honestly, with the goal of helping the conflict, not just getting approval for your own interpretation. Both people should have a chance to speak, and good friends shouldn’t automatically validate either side.
 
-## 43. Gaslighting in the dark (live 435)
+## 44. Gaslighting in the dark (live 435)
 
 If you’ve been there for someone, don’t abandon them in a crisis unless it’s unsafe for you to stay or they’re creating the crisis to keep you, or they aren’t willing to help themself. You may need to arrange other care. That doesn’t mean you have to pretend the romance still has a future.
 
-## 44. After leaving (S22) (live 437, 438, 439, 440)
+## 45. After leaving (S22) (live 437, 438, 439, 440)
 
 Often times the breakup is hard, but the aftermath is worse. Public demonization should be avoided, but I don’t think that means hiding the truth about the relationship to save face. Sometimes the truth is abuse, coercion, or serious deception. How much you say, to whom, and how publicly depends on what happened and why you’re telling people.
 
@@ -250,6 +270,6 @@ Sometimes the easiest story is that they were fake all along. Don’t grab that 
 
 Spiritual practice during an ending is critical, but don’t use it to get around the feelings. Pray for your ex’s wellbeing. Remember what was real and good, and don’t use your pain as permission to hate them. Avoid the New Age belief that everyone is simply a mirror of you. No, that isn’t true. We partly mirror one another, but each person was formed by plenty that had nothing to do with you. No matter how enlightened the Buddha was, his cousin Devadatta still kept trying to kill him. Looking honestly at your part doesn’t erase theirs. Sometimes it helps to ask, “What would Mr. Rogers do?” (if you’re old enough to remember that show).
 
-## 45. What I gained from loss (live 443)
+## 46. What I gained from loss (live 443)
 
 At this point, I can say I’m better off because of what happened with Bee, Key, and H., without pretending every part of those relationships was beneficial or destined. Loss taught me things love alone never would. And to paraphrase Rumi, “You must keep breaking your heart until it stays open.” (The real quote: “The reed must be torn from its bed, cut, hollowed out, and pierced with holes (wounded) before it can channel the breath of the musician into music.”)

@@ -25,7 +25,10 @@ the eye fills in the word that should be there. So read every word.
 - **A wrong word**: a real word where another belongs ("oily" for "old"; "deceptive" where "receptive" is meant;
   "illicit" for "elicit"). These matter most.
 - **A phrase that doesn't mean anything** when you ask what it says; a metaphor that doesn't work.
-- **A broken sentence**: missing or doubled words, grammar that changes halfway, a pronoun with nothing to point at.
+- **A broken sentence**: missing or doubled words, grammar that changes halfway, a pronoun with nothing to point at. A
+  doubled word isn't only two in a row: it is also the same word, or two words doing one job, used twice in a sentence
+  where the writer meant it once ("the example couple I really liked as an example", "can also be ... too"), and a
+  comparison missing its "than" ("even better simply suppressing it").
 - **A slip**: a typo, a wrong number or name, a stray mark, an unclosed bracket or quote, a word in the wrong language.
 - **A contradiction** with the sentence before it or with the section.
 

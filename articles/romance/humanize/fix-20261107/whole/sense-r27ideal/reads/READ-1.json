@@ -1,0 +1,17 @@
+{"part": 1,
+ "read": [0, 1, 2, 3, 4, 5, 6, 7],
+ "findings": [
+  {"block": 5,
+   "text": "first in private and than in front of everybody",
+   "kind": "slip",
+   "what": "\"than\" is used where \"then\" is meant.",
+   "fix": "first in private and then in front of everybody",
+   "confidence": "sure"},
+  {"block": 7,
+   "text": "if I’m gonna glisten to everything on her mind",
+   "kind": "wrong-word",
+   "what": "\"glisten\" is a real word standing where \"listen\" is meant.",
+   "fix": "if I’m gonna listen to everything on her mind",
+   "confidence": "sure"}
+ ],
+ "notes": "Block 3's \"doesn't depend on what the seeing gives you\" is slightly abstract but means something; left unreported."}
