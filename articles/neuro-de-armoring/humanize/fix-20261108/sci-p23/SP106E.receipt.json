@@ -1,0 +1,144 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-11",
+ "text_sha256": "ce17dcec3803446d06291690588e6fa74770e3a610abcccab2c63582cf31bd28",
+ "text": "The Science: Your nerves need potassium to fire and reset (NIH, 2022), yet most of us eat less than the recommended amount: only about 3 in 10 Americans reach it (Dietary Guidelines Advisory Committee, 2024). In a diet trial, people who took in more potassium and less salt had better mood and less fatigue (Torres, et al, 2008), and potassium supplements eased mood and behavior problems in 13 of 16 children taking steroid drugs, which mimic the stress hormone cortisol (Pariury, et al, 2019). People who eat more of it also tend to think and remember better as they get older (Na, et al, 2022), though not every study agrees, and none yet shows extra potassium helping people who already get enough. Some people need more than others, too, since diarrhea, diuretics and some inherited kidney conditions drain it (NIH, 2022; Cruz, et al, 2001). More potassium also brings high blood pressure down (Aburto, et al, 2013), which matters on Strategy A, since its salts bring their own sodium. Stone Age diets are estimated to have had more than four times the potassium we eat now (Sebastian, et al, 2006), so eating closer to a paleo diet probably does more than adding a couple of potatoes, but the potatoes and greens below are the easy way to start. If you have kidney disease or take a blood pressure drug that holds on to potassium, like an ACE inhibitor or an ARB, ask your doctor first, since potassium can build up in your blood (NIH, 2022).",
+ "section": "1. Electrolytes (Choose Your Path)",
+ "reader": "someone with trauma or in withdrawal who is anxious, wired, numb or foggy, following the protocol's diet and electrolyte steps and wanting to know why each one is there",
+ "sentences": [
+  {
+   "s": "The Science: Your nerves need potassium to fire and reset (NIH, 2022), yet most of us eat less than the recommended amount: only about 3 in 10 Americans reach it (Dietary Guidelines Advisory Committee, 2024).",
+   "payoff": "they learn why potassium matters for their nerves and that they are probably eating less than recommended",
+   "follows": "it opens the paragraph, after \"Potassium:\" and the sodium line above it"
+  },
+  {
+   "s": "In a diet trial, people who took in more potassium and less salt had better mood and less fatigue (Torres, et al, 2008), and potassium supplements eased mood and behavior problems in 13 of 16 children taking steroid drugs, which mimic the stress hormone cortisol (Pariury, et al, 2019).",
+   "payoff": "they learn what raising potassium has done for mood and fatigue in studies, including with cortisol-like drugs",
+   "follows": "it turns from why potassium matters to what raising it has done",
+   "link": "took in more potassium"
+  },
+  {
+   "s": "People who eat more of it also tend to think and remember better as they get older (Na, et al, 2022), though not every study agrees, and none yet shows extra potassium helping people who already get enough.",
+   "payoff": "they learn it may help their thinking too, and how far the evidence goes",
+   "follows": "it adds thinking to mood, with the limit",
+   "link": "also tend to think"
+  },
+  {
+   "s": "Some people need more than others, too, since diarrhea, diuretics and some inherited kidney conditions drain it (NIH, 2022; Cruz, et al, 2001).",
+   "payoff": "they learn whether they may need more than most",
+   "follows": "it turns from what potassium does to who needs more of it",
+   "link": "Some people need more than others, too"
+  },
+  {
+   "s": "More potassium also brings high blood pressure down (Aburto, et al, 2013), which matters on Strategy A, since its salts bring their own sodium.",
+   "payoff": "they learn the benefit trials have shown and why it matters with the sodium in their salts",
+   "follows": "it adds the blood-pressure benefit and ties it to Strategy A",
+   "link": "also brings high blood pressure down"
+  },
+  {
+   "s": "Stone Age diets are estimated to have had more than four times the potassium we eat now (Sebastian, et al, 2006), so eating closer to a paleo diet probably does more than adding a couple of potatoes, but the potatoes and greens below are the easy way to start.",
+   "payoff": "they learn the fuller way to raise potassium and the easy start",
+   "follows": "it turns to how to get more, before the target and the foods",
+   "link": "the potatoes and greens below"
+  },
+  {
+   "s": "If you have kidney disease or take a blood pressure drug that holds on to potassium, like an ACE inhibitor or an ARB, ask your doctor first, since potassium can build up in your blood (NIH, 2022).",
+   "payoff": "they learn to ask a doctor first if they have kidney disease or take a blood pressure drug that keeps potassium in",
+   "follows": "it ends on who should check with a doctor first",
+   "link": "If you have kidney disease"
+  }
+ ],
+ "checked": [
+  {
+   "point": "low potassium (common in high stress) makes the KCNQ brakes fail, and eating potassium puts them back",
+   "found": "the brain keeps the potassium around its neurons within tight limits whatever the blood does (Hladky and Barrand 2016)",
+   "still_needed": "no: the brakes story is cut, with its two labels (blocks 104 and 105)",
+   "fate": "cut"
+  },
+  {
+   "point": "most people eat less potassium than recommended",
+   "found": "28% of Americans aged 1 and up are above the Adequate Intake (DGAC 2024, Table D.1.6)",
+   "still_needed": "yes: they learn they are probably low and the step is for them",
+   "fate": "changed"
+  },
+  {
+   "point": "more potassium goes with better mood",
+   "found": "urinary potassium went with less fatigue and a lower sodium-to-potassium ratio with less anger and depression (Torres et al. 2008); potassium chloride helped 13 of 16 children with corticosteroid-induced neuropsychiatric effects (Pariury et al. 2019, retrospective)",
+   "still_needed": "yes: they learn what raising potassium may do for their mood",
+   "fate": "kept"
+  },
+  {
+   "point": "more potassium goes with better thinking and memory",
+   "found": "higher intake went with higher cognitive scores and less memory decline in 4,213 Chinese adults aged 50 and up (Na et al. 2022); against: Cherbuin 2014, Zingales 2025",
+   "still_needed": "yes: they learn it may help their thinking, with the limit",
+   "fate": "kept"
+  },
+  {
+   "point": "some people lose more potassium",
+   "found": "diarrhea, vomiting and diuretics cause hypokalemia (NIH 2022); Gitelman syndrome wastes it (Cruz et al. 2001)",
+   "still_needed": "yes: they check whether they are among those who need more",
+   "fate": "kept"
+  },
+  {
+   "point": "eating more potassium brings high blood pressure down",
+   "found": "in trials, systolic pressure fell about 3.5 mm Hg, in people with high blood pressure (Aburto et al. 2013)",
+   "still_needed": "yes: they learn why it matters with the salts of Strategy A",
+   "fate": "changed"
+  },
+  {
+   "point": "Stone Age diets had far more potassium; a paleo diet probably does more than adding potatoes (his view)",
+   "found": "400 +/- 125 mEq a day in retrojected Stone Age diets (Sebastian et al. 2006)",
+   "still_needed": "yes: they can eat closer to a paleo diet, with the potatoes and greens as the start",
+   "fate": "kept"
+  },
+  {
+   "point": "kidney disease and drugs that keep potassium in can let it build up",
+   "found": "ACE inhibitors and ARBs can lead to hyperkalemia (NIH 2022); restricting potassium slowed neuropathy in kidney disease (Arnold et al. 2017)",
+   "still_needed": "yes: they ask their doctor first if either applies to them",
+   "fate": "kept"
+  }
+ ],
+ "placement": "where the block is now (block 106); its place in the section is unchanged",
+ "opens": {
+  "first_sentence": "The Science: Your nerves need potassium to fire and reset (NIH, 2022), yet most of us eat less than the recommended amount: only about 3 in 10 Americans reach it (Dietary Guidelines Advisory Committee, 2024).",
+  "why_reading": "they learn why potassium matters for their nerves and that they are probably eating less than recommended"
+ },
+ "same_point": "none: read the section from its heading to the next for the same point; the caution at the top of the article is the general one, this one is beside its step",
+ "needed": {
+  "reader": "a fresh reader (Haiku) given tools/humanization/needed_read_brief.md and only this paragraph (needed/sp106e/READ.md)",
+  "unneeded": [
+   "and potassium supplements eased mood and behavior problems in 13 of 16 children taking steroid drugs, which mimic the stress hormone cortisol (Pariury, et al, 2019).",
+   "People who eat more of it also tend to think and remember better as they get older (Na, et al, 2022), though not every study agrees, and none yet shows extra potassium helping people who already get enough.",
+   "More potassium also brings high blood pressure down (Aburto, et al, 2013), which matters on Strategy A, since its salts bring their own sodium.",
+   "Stone Age diets are estimated to have had more than four times the potassium we eat now (Sebastian, et al, 2006), so eating closer to a paleo diet probably does more than adding a couple of potatoes, but the potatoes and greens below are the easy way to start."
+  ],
+  "kept": {
+   "and potassium supplements eased mood and behavior problems in 13 of 16 children taking steroid drugs, which mimic the stress hormone cortisol (Pariury, et al, 2019).": "they learn that potassium itself, given as a supplement, eased mood problems set off by cortisol-like drugs, the hormone this protocol is about, which the diet trial alone can't show",
+   "People who eat more of it also tend to think and remember better as they get older (Na, et al, 2022), though not every study agrees, and none yet shows extra potassium helping people who already get enough.": "they learn it may also help the fog in their thinking, which this protocol treats, and how far that evidence goes",
+   "More potassium also brings high blood pressure down (Aburto, et al, 2013), which matters on Strategy A, since its salts bring their own sodium.": "they learn the one benefit trials have shown and why it matters with the sodium in the salts they take",
+   "Stone Age diets are estimated to have had more than four times the potassium we eat now (Sebastian, et al, 2006), so eating closer to a paleo diet probably does more than adding a couple of potatoes, but the potatoes and greens below are the easy way to start.": "they learn the author's view of the fuller way to raise potassium, with the potatoes and greens as the start (his view, worded as one)"
+  }
+ },
+ "questions": {
+  "Q1": "PASS: each sentence opens on its point",
+  "Q2": "N/A: no instruction here, or the one instruction says what it is for",
+  "Q3": "PASS: each thing is named exactly",
+  "Q4": "PASS: each unfamiliar term is said in plain words where it is first used",
+  "Q5": "PASS: each \"and\", \"so\" and \"but\" turns on the clause before it",
+  "Q6": "PASS: the claim, then what the evidence shows, then its limit",
+  "Q7": "PASS: each fact is about the reader's own symptom or the tool they are deciding on",
+  "Q8": "N/A: no group or list inside this paragraph",
+  "Q9": "PASS: one step a clause, with the small words that carry the relation kept"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

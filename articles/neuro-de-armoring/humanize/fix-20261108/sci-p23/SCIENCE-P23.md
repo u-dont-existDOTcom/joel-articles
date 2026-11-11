@@ -80,3 +80,28 @@ SC-106d (`build_x1111a.py`, page x1111a): SC-106c's change with two sentences of
 mood trial with its limit; the Stone Age amount and paleo over "a couple of potatoes"). A fresh reader found those two not
 needed to know why to eat potassium (`needed/sp106d/READ.md`); they carry his view, so they stay, with what the reader
 does with each in the receipt's "kept", and the card shows him the paragraph without them. Lesson neuro-2026-11-11a.
+
+## Rethought on the science (x1111b, 2026-11-11, after his message of 22:07 UTC)
+
+His message: the card rests on science, not on "I think"; SC-106d made potassium look like a one-study artifact; my
+research was thin; GPT's research; low intakes are common (`../joel-20261111-2207-message.txt`, the research as he
+pasted it beside it). GPT's sources checked one by one (a Sonnet agent read each record or page; I re-read the ones the
+card cites and opened every link the card carries):
+
+| source | what it shows | used |
+|---|---|---|
+| Dietary Guidelines Advisory Committee 2025 report, Part D Ch. 1, Table D.1.6 (December 2024) | 28% of Americans aged 1 and up are above the Adequate Intake for potassium; men 14 to 32% and women 23 to 35% by age | yes: "only about 3 in 10 Americans reach it". His "about 40% below 2.3 g a day" wasn't found |
+| [Pariury et al. 2019](https://pubmed.ncbi.nlm.nih.gov/31538841/), doi 10.1080/08880018.2019.1659463 | retrospective review: potassium chloride (median 0.5 mEq/kg/day) gave 13 of 16 children with leukemia an objective benefit for corticosteroid-induced mood and behavior effects, no adverse effects | yes |
+| [Na et al. 2022](https://doaj.org/article/335f413ec4a5414d8abb24b26101837e), doi 10.1016/j.glt.2022.10.002 | 4,213 Chinese adults aged 50 and up, 1997 to 2006: higher potassium intake, higher cognitive scores (Q4 against Q1, beta 1.454) and lower risk of memory decline | yes |
+| [Cherbuin et al. 2014](https://pubmed.ncbi.nlm.nih.gov/24550825/), doi 10.3389/fnagi.2014.00004 | 1,406 Australians over 8 years: higher potassium went with more amnestic mild cognitive impairment (HR 1.09) | on the card, as the other side |
+| [Zingales et al. 2025](https://pubmed.ncbi.nlm.nih.gov/41081007/), doi 10.1016/j.cdnut.2025.107544 | crossover trial, 40 adults: 2 cups of fruit a day raised potassium, cognition unchanged | on the card, as the other side |
+| [Wassertheil-Smoller et al. 1991](https://pubmed.ncbi.nlm.nih.gov/2003706/) (TAIM), doi 10.7326/0003-4819-114-8-613 | 697 people with mild hypertension: more fatigue on the low-sodium, high-potassium diet with placebo (34% against 18% on the usual diet) | on the card, as the other side |
+| [Cruz et al. 2001](https://pubmed.ncbi.nlm.nih.gov/11168953/), doi 10.1046/j.1523-1755.2001.059002710.x | 50 adults with Gitelman syndrome (an inherited kidney condition that wastes potassium and magnesium): fatigue, weakness, lower energy and emotional quality of life | yes, for "some inherited kidney conditions drain it" |
+| [Dai 2025](https://pubmed.ncbi.nlm.nih.gov/41316473/), doi 10.1186/s13256-025-05693-2 | case report: depression and anxiety (self-rated) gone in four weeks on potassium chloride, with diet change and leave at the same time, written by a relative | no: confounded |
+| NIH 2022 fact sheet | the gradient "is required for proper nerve transmission"; diarrhea, vomiting and some medications (diuretics, in hospital) cause low potassium | yes |
+| Torres 2008 (above) | across phases, more urinary potassium went with less fatigue, a lower sodium-to-potassium ratio with less anger and depression; the paper also misreports R squared 0.060 as "60 %" | yes, as associations |
+
+SC-106e (`texts_x1111b.py`, `build_x1111b.py`, page x1111b): block 106 rests on this; the paleo sentence stays as his view.
+Two fresh needed reads (`needed/sp106e-first/`, `needed/sp106e/`): the first found S2 unclear (rewritten); the second
+found the children clause, S3, S5 and S6 not needed. They stay, with what the reader does with each, and the card shows
+him the paragraph the reader would keep. Lessons neuro-2026-11-11a (corrected) and 11b.

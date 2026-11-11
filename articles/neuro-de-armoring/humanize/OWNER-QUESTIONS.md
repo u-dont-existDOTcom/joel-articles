@@ -1,8 +1,8 @@
 # Neuro de-armoring: what I need from Joel
 
-Last updated 2026-11-11, after your answer of 21:01 UTC.
+Last updated 2026-11-11, after your message of 22:07 UTC.
 **Open questions: 0.** **For you to do**: one card on
-[Neuro De-Armoring Cards, 11 November](https://claude.ai/artifact/9nENpt9AEJCB43a9Wy5jqn) ([the same card in Git](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/sci-p23/REVIEW-X1111A.md)), potassium with your view in it; it replaces (5) on the same page.
+[Neuro De-Armoring Cards, 11 November (2)](https://claude.ai/artifact/9nENpt9AEJCB43a9Wy5jqn) ([the same card in Git](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/sci-p23/REVIEW-X1111B.md)), potassium rethought on the science; it replaces the earlier version on the same page.
 
 Colours: 🟣 a question for you; 🟠 something for you to do; 🔵 next or in progress; 🟢 done or decided.
 
@@ -18,7 +18,16 @@ can read and update it. Every file it points to is a link.
 
 ## For you to do
 
-- 🟠 **Potassium, with your view in it** ([the page](https://claude.ai/artifact/9nENpt9AEJCB43a9Wy5jqn), [in Git](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/sci-p23/REVIEW-X1111A.md)): one card, SC-106d, in place of SC-106c. The paragraph adds your view on the brain, with the mood trial and its limit, and on paleo, with the Stone Age amount; the card shows it without them too.
+- 🟠 **Potassium, rethought on the science** ([the page](https://claude.ai/artifact/9nENpt9AEJCB43a9Wy5jqn), [in Git](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/sci-p23/REVIEW-X1111B.md)): one card, SC-106e, in place of SC-106d. The paragraph now rests on the studies (nerves, low intakes, mood, thinking, who needs more), with your paleo view as yours.
+
+## Your message of 2026-11-11 22:07 UTC, and what I did
+
+- 🟢 **You were right**: a claim made as science rests on science, and my research was thin. GPT's sources are
+  checked ([the check](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/sci-p23/SCIENCE-P23.md)), and the card is
+  rebuilt on them.
+- 🟢 **Lessons**: the earlier one corrected ([the file](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/docs/lessons/2026-11-11-2101-neuro.md)), and a new one on
+  research depth ([the file](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/docs/lessons/2026-11-11-2207-neuro.md)).
+- 🔵 **Your Reddit threads**: Reddit is blocked to my web tools; paste the posts if you want them in.
 
 ## Your answer of 2026-11-11 21:01 UTC (potassium, your comment), and what I did
 
