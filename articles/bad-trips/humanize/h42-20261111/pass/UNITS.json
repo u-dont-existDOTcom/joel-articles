@@ -1,0 +1,796 @@
+[
+ {
+  "key": "h42-01",
+  "title": "Inner Signal App to the Rescue!",
+  "parent": "Inner Signal App to the Rescue!",
+  "words": 73,
+  "his_share": 0.0,
+  "blocks": [
+   "B65",
+   "B66"
+  ],
+  "sha256": "455d67f4ab59dfc105450c6e3744d8d4f888838273e31c5084c1cf61b4fd95a9"
+ },
+ {
+  "key": "h42-02",
+  "title": "When to Bring In Outside Help / Call medics for:",
+  "parent": "When to Bring In Outside Help / Call medics for:",
+  "words": 184,
+  "his_share": 0.0,
+  "blocks": [
+   "B91",
+   "B93",
+   "B94",
+   "B95"
+  ],
+  "sha256": "42b36196a19a2a6e4e53119efded43ce7b8c665c9501bec04be5a48120dd4ab6"
+ },
+ {
+  "key": "h42-03",
+  "title": "Risk of Harm: When Peer Support Isn't Enough",
+  "parent": "Risk of Harm: When Peer Support Isn't Enough",
+  "words": 138,
+  "his_share": 0.06,
+  "blocks": [
+   "N-SF-1",
+   "B276",
+   "B278"
+  ],
+  "sha256": "d7782d68c2040fce0cd4b3cb003a6ad8f1418454d22cf86e89a8d193992a52e0"
+ },
+ {
+  "key": "h42-04",
+  "title": "Who to Contact, and When",
+  "parent": "Who to Contact, and When",
+  "words": 201,
+  "his_share": 0.0,
+  "blocks": [
+   "B261",
+   "B262",
+   "B263",
+   "B264",
+   "B265",
+   "B266",
+   "B267",
+   "B268",
+   "B269",
+   "B270"
+  ],
+  "sha256": "c44490f418e01deb71c66440938ce3176f9c844fbebdccf4660e9206aeae0269"
+ },
+ {
+  "key": "h42-05",
+  "title": "Acute Medical and Neurological Rescue",
+  "parent": "Acute Medical and Neurological Rescue",
+  "words": 150,
+  "his_share": 0.0,
+  "blocks": [
+   "B99",
+   "B100",
+   "B76",
+   "B77"
+  ],
+  "sha256": "815ae67597709c4bd1b8a219046d5f6f03f07ae124ad985fbb04e4e9a5c5551a"
+ },
+ {
+  "key": "h42-06",
+  "title": "If Someone Says \"My Brain Feels Damaged\": DMSO + Humic Acid First",
+  "parent": "If Someone Says \"My Brain Feels Damaged\": DMSO + Humic Acid First",
+  "words": 480,
+  "his_share": 0.0,
+  "blocks": [
+   "B102",
+   "B103",
+   "B104",
+   "B105",
+   "B106",
+   "B144"
+  ],
+  "sha256": "b6ac7df3c0ba1cc182a13c11e88865c72750b7dc5cf1a447a052c1c739ae9696"
+ },
+ {
+  "key": "h42-07",
+  "title": "Active Seizure (1 of 2)",
+  "parent": "Active Seizure",
+  "words": 451,
+  "his_share": 0.51,
+  "blocks": [
+   "B108",
+   "B109",
+   "B110",
+   "B112",
+   "R32-SEIZE",
+   "N-WARN",
+   "B111",
+   "N-CANNA-1"
+  ],
+  "sha256": "d5a452f52883f82ac947fd0be520164d04c74fc4e9972cf6a2a80393b732dc1a"
+ },
+ {
+  "key": "h42-08",
+  "title": "Active Seizure (2 of 2)",
+  "parent": "Active Seizure",
+  "words": 219,
+  "his_share": 1.0,
+  "blocks": [
+   "N-CANNA-2",
+   "N-CBD-2",
+   "N-CBD-3"
+  ],
+  "sha256": "e35084fc1e90cb8e3f0989369f039cedd265c662a29f4ec1a368c2b010e392db"
+ },
+ {
+  "key": "h42-09",
+  "title": "MDMA: Jaw Tension Is the Magnesium Alarm",
+  "parent": "MDMA: Jaw Tension Is the Magnesium Alarm",
+  "words": 424,
+  "his_share": 0.0,
+  "blocks": [
+   "B113",
+   "B114",
+   "B115",
+   "B117",
+   "B118",
+   "B119",
+   "B120"
+  ],
+  "sha256": "e52df1a6fd5d84cc73cc42dda27f55a1aee7c5f3cf609da4d361d8dd6fa15b03"
+ },
+ {
+  "key": "h42-10",
+  "title": "Chest Pain and Injury",
+  "parent": "Chest Pain and Injury",
+  "words": 162,
+  "his_share": 0.0,
+  "blocks": [
+   "B121",
+   "B122",
+   "B123",
+   "B124"
+  ],
+  "sha256": "5bac9e941935ce279fc526767ee9df704c1285695e53602478f4b0389ea30ed2"
+ },
+ {
+  "key": "h42-11",
+  "title": "Recent Oral Toxic Ingestion",
+  "parent": "Recent Oral Toxic Ingestion",
+  "words": 142,
+  "his_share": 0.0,
+  "blocks": [
+   "B125",
+   "B126",
+   "B127",
+   "B128"
+  ],
+  "sha256": "83df24c9e3c2278b96b813861368bbd2e17587afba24968dbda4c3911b7bb360"
+ },
+ {
+  "key": "h42-12",
+  "title": "Suspected Serotonin Syndrome (SS)",
+  "parent": "Suspected Serotonin Syndrome (SS)",
+  "words": 500,
+  "his_share": 0.0,
+  "blocks": [
+   "B129",
+   "B130",
+   "B131",
+   "B132",
+   "B133",
+   "B134",
+   "B135",
+   "B136"
+  ],
+  "sha256": "7917775b4ac4fdad03d101eb381158ce8a287b2fe0161a30a2c7ffeaa5cf105a"
+ },
+ {
+  "key": "h42-13",
+  "title": "My Acute Rescue Hierarchy of Remedies",
+  "parent": "My Acute Rescue Hierarchy of Remedies",
+  "words": 172,
+  "his_share": 0.21,
+  "blocks": [
+   "B138",
+   "B139",
+   "N-AN-Q1",
+   "B86",
+   "B87",
+   "R27-HIER",
+   "B141"
+  ],
+  "sha256": "5f2a343ec704297607668b7849458f2d69b5b40b492d5ec5cc2d09bd7233d5a1"
+ },
+ {
+  "key": "h42-14",
+  "title": "Some Remedies Require More Caution",
+  "parent": "Some Remedies Require More Caution",
+  "words": 175,
+  "his_share": 0.0,
+  "blocks": [
+   "B217",
+   "B219",
+   "B220",
+   "B221",
+   "B222"
+  ],
+  "sha256": "747ee2889c3f979f5a817a1d05d546edc3308209339c8af00697175985757aa0"
+ },
+ {
+  "key": "h42-15",
+  "title": "Gut-Toxin and Parasite-Die-Off Tools (1 of 2)",
+  "parent": "Gut-Toxin and Parasite-Die-Off Tools",
+  "words": 278,
+  "his_share": 0.0,
+  "blocks": [
+   "B150",
+   "B151",
+   "B152",
+   "B153",
+   "B154",
+   "B158",
+   "B155",
+   "B156"
+  ],
+  "sha256": "0429eb4c139bfc469f892dc3c874429807bc6eb4467497f7135e987988fb9ac1"
+ },
+ {
+  "key": "h42-16",
+  "title": "Gut-Toxin and Parasite-Die-Off Tools (2 of 2)",
+  "parent": "Gut-Toxin and Parasite-Die-Off Tools",
+  "words": 139,
+  "his_share": 0.0,
+  "blocks": [
+   "B157",
+   "B159",
+   "B160",
+   "B161",
+   "B162"
+  ],
+  "sha256": "4d6e5785897e640255bd1f1c4192a97ee8cbe7f4d1c862e6ecafb66d039ff7d5"
+ },
+ {
+  "key": "h42-17",
+  "title": "Nausea Smoothers When the Person Wants to Preserve the Trip",
+  "parent": "Nausea Smoothers When the Person Wants to Preserve the Trip",
+  "words": 101,
+  "his_share": 0.0,
+  "blocks": [
+   "B164",
+   "B165",
+   "B166",
+   "B167"
+  ],
+  "sha256": "9a031e7021835d3c20936e00fdba9482aee2f60d3988a54c4e6ff1b7958911e7"
+ },
+ {
+  "key": "h42-18",
+  "title": "Mental Stabilizers That Don't Abort the Trip (1 of 6)",
+  "parent": "Mental Stabilizers That Don't Abort the Trip",
+  "words": 212,
+  "his_share": 0.0,
+  "blocks": [
+   "B180",
+   "B181",
+   "B182",
+   "B183",
+   "B184"
+  ],
+  "sha256": "7ca13474ad18c683c848facf69c38fad79e3c20d35e8fedd49ee0b0350f9dd3c"
+ },
+ {
+  "key": "h42-19",
+  "title": "Mental Stabilizers That Don't Abort the Trip (2 of 6)",
+  "parent": "Mental Stabilizers That Don't Abort the Trip",
+  "words": 332,
+  "his_share": 0.21,
+  "blocks": [
+   "R30-OILS1",
+   "R30-OILS2",
+   "B199",
+   "B200",
+   "B201",
+   "B202",
+   "B203"
+  ],
+  "sha256": "89e4ea5b5e72dc0fd6c9798928cf2fade6f16ccafe8eaf23b786c9e6556a7f09"
+ },
+ {
+  "key": "h42-20",
+  "title": "Mental Stabilizers That Don't Abort the Trip (3 of 6)",
+  "parent": "Mental Stabilizers That Don't Abort the Trip",
+  "words": 159,
+  "his_share": 0.0,
+  "blocks": [
+   "B204",
+   "B205",
+   "B206",
+   "B207"
+  ],
+  "sha256": "fac93487509af43734a9742ad66533aa6191c5f829915aebe185d7e7dcaae101"
+ },
+ {
+  "key": "h42-21",
+  "title": "Mental Stabilizers That Don't Abort the Trip (4 of 6)",
+  "parent": "Mental Stabilizers That Don't Abort the Trip",
+  "words": 276,
+  "his_share": 1.0,
+  "blocks": [
+   "R30-RUE1",
+   "R30-RUE2",
+   "R30-RUE3",
+   "R30-RUE4"
+  ],
+  "sha256": "26e00741070c514d33b2e4deda6e99fc469650e25798aabb65a2b9fe1550f102"
+ },
+ {
+  "key": "h42-22",
+  "title": "Mental Stabilizers That Don't Abort the Trip (5 of 6)",
+  "parent": "Mental Stabilizers That Don't Abort the Trip",
+  "words": 287,
+  "his_share": 0.0,
+  "blocks": [
+   "B185",
+   "B186",
+   "B187",
+   "B188",
+   "B189",
+   "B190",
+   "B192",
+   "B193"
+  ],
+  "sha256": "b8d260c69a0a1529815e3cdf83a038edfd9e622ce836544519421423e80da2e2"
+ },
+ {
+  "key": "h42-23",
+  "title": "Mental Stabilizers That Don't Abort the Trip (6 of 6)",
+  "parent": "Mental Stabilizers That Don't Abort the Trip",
+  "words": 234,
+  "his_share": 0.0,
+  "blocks": [
+   "B194",
+   "B195",
+   "B196",
+   "B197",
+   "B198"
+  ],
+  "sha256": "f66764a4eb8ae06d597ef77258326d8e7b0e181c6ccd3bd44ffdb28fc67c799c"
+ },
+ {
+  "key": "h42-24",
+  "title": "When the Goal Is to Stop a Psychedelic Trip (1 of 2)",
+  "parent": "When the Goal Is to Stop a Psychedelic Trip",
+  "words": 234,
+  "his_share": 0.0,
+  "blocks": [
+   "B169",
+   "B170",
+   "B171",
+   "B172",
+   "B173",
+   "B174",
+   "B175",
+   "B176"
+  ],
+  "sha256": "7502673d69e0337f555f07f20658d8891efabad270f30616080380c9f43daa12"
+ },
+ {
+  "key": "h42-25",
+  "title": "When the Goal Is to Stop a Psychedelic Trip (2 of 2)",
+  "parent": "When the Goal Is to Stop a Psychedelic Trip",
+  "words": 228,
+  "his_share": 0.0,
+  "blocks": [
+   "B178",
+   "B210",
+   "B211",
+   "B212",
+   "B213",
+   "B214",
+   "B215",
+   "B224"
+  ],
+  "sha256": "b668a44304357712f2f27e08d23583227cb9333b52300585c1cc85cdc8cd639c"
+ },
+ {
+  "key": "h42-26",
+  "title": "Tripsitting Yourself or Others",
+  "parent": "Tripsitting Yourself or Others",
+  "words": 76,
+  "his_share": 0.0,
+  "blocks": [
+   "B227",
+   "B230",
+   "B231",
+   "B232"
+  ],
+  "sha256": "d22ab3bd4bb18bc6c91649fbbd9e4844b4a9cf686d86b8c9c03137053eb725d2"
+ },
+ {
+  "key": "h42-27",
+  "title": "Psychological First Aid: The First Five Minutes (1 of 2)",
+  "parent": "Psychological First Aid: The First Five Minutes",
+  "words": 322,
+  "his_share": 0.88,
+  "blocks": [
+   "B233",
+   "B236",
+   "B240",
+   "B242",
+   "B244",
+   "R27-PFA1",
+   "R27-PFA2"
+  ],
+  "sha256": "29c1dad58ab50a774c3893b5da4f95778d36023a168fe90d38e43bbcb6318d80"
+ },
+ {
+  "key": "h42-28",
+  "title": "Psychological First Aid: The First Five Minutes (2 of 2)",
+  "parent": "Psychological First Aid: The First Five Minutes",
+  "words": 275,
+  "his_share": 1.0,
+  "blocks": [
+   "R27-PFA3",
+   "R27-PFA4",
+   "R27-PFA5"
+  ],
+  "sha256": "06c9306936024264a64bf1d91cd8b4885c5afd89707148752950d4879c7fc950"
+ },
+ {
+  "key": "h42-29",
+  "title": "Grounding Menu: Choose One or Two Things (1 of 2)",
+  "parent": "Grounding Menu: Choose One or Two Things",
+  "words": 198,
+  "his_share": 0.15,
+  "blocks": [
+   "B294",
+   "B295",
+   "B252",
+   "B297",
+   "B298",
+   "R33-SMELL",
+   "R33-SMELL-L",
+   "B301",
+   "B302"
+  ],
+  "sha256": "5ff76c34684d099f2e3b7215e2839fe3055b6a473759ea32cf9873e5c5fbeab3"
+ },
+ {
+  "key": "h42-30",
+  "title": "Grounding Menu: Choose One or Two Things (2 of 2)",
+  "parent": "Grounding Menu: Choose One or Two Things",
+  "words": 144,
+  "his_share": 0.0,
+  "blocks": [
+   "B303",
+   "B304",
+   "B307",
+   "B308",
+   "B309",
+   "B310",
+   "B311",
+   "B312"
+  ],
+  "sha256": "b0b0a95b58ca4cf809f66a1bc3b94b42294fa2fa745610a8608d12eb6278d24a"
+ },
+ {
+  "key": "h42-31",
+  "title": "Get One Human Anchor",
+  "parent": "Get One Human Anchor",
+  "words": 228,
+  "his_share": 0.18,
+  "blocks": [
+   "B253",
+   "B254",
+   "B255",
+   "B257",
+   "B258",
+   "B271",
+   "B272",
+   "B273",
+   "R31-ALONE"
+  ],
+  "sha256": "7ed6269b5263c6d3b2917df8d2d04ff9f39f3ab721a1ae97ed394bbccfc88b40"
+ },
+ {
+  "key": "h42-32",
+  "title": "For the Person Helping: Calm Anchor, Not Guru (1 of 2)",
+  "parent": "For the Person Helping: Calm Anchor, Not Guru",
+  "words": 194,
+  "his_share": 0.0,
+  "blocks": [
+   "B279",
+   "B280",
+   "B82",
+   "B83",
+   "B281",
+   "B282"
+  ],
+  "sha256": "084587cc5bd48d34732d29375ab8efa42f89419ac13589f6c296d38a947de641"
+ },
+ {
+  "key": "h42-33",
+  "title": "For the Person Helping: Calm Anchor, Not Guru (2 of 2)",
+  "parent": "For the Person Helping: Calm Anchor, Not Guru",
+  "words": 246,
+  "his_share": 0.0,
+  "blocks": [
+   "B285",
+   "B286",
+   "B287",
+   "B288",
+   "B289",
+   "B291",
+   "B292",
+   "B293"
+  ],
+  "sha256": "37addeb99f5d71fe1f27d24e3200465adce7bc0d3e0d9d1ebca8e4ba2dc886e6"
+ },
+ {
+  "key": "h42-34",
+  "title": "No Rash Actions: Visions Are Not Commands",
+  "parent": "No Rash Actions: Visions Are Not Commands",
+  "words": 246,
+  "his_share": 0.36,
+  "blocks": [
+   "B315",
+   "B316",
+   "B317",
+   "B318",
+   "B319",
+   "B320",
+   "B321"
+  ],
+  "sha256": "b85296785b71d15a43004a595ea2e92e3b9aedcd7e02a806f998ad5ccbd0acb1"
+ },
+ {
+  "key": "h42-35",
+  "title": "When the Trip Feels Amazing: Euphoric Certainty",
+  "parent": "When the Trip Feels Amazing: Euphoric Certainty",
+  "words": 87,
+  "his_share": 0.0,
+  "blocks": [
+   "B323",
+   "B324",
+   "B326",
+   "B327"
+  ],
+  "sha256": "7c67dbf27fc562b8365fef99036d30e953e8c9b87e9fc476cf66d27894b19022"
+ },
+ {
+  "key": "h42-36",
+  "title": "Shadow Work",
+  "parent": "Shadow Work",
+  "words": 84,
+  "his_share": 0.0,
+  "blocks": [
+   "R30-SHADOW",
+   "B344",
+   "B345"
+  ],
+  "sha256": "1cff85054874c7913ddc61e8707a581236c4dad3a2caeaabe3a2ec18e229b9c8"
+ },
+ {
+  "key": "h42-37",
+  "title": "Dealing With Sorrow: Missing Versus Sending Love",
+  "parent": "Dealing With Sorrow: Missing Versus Sending Love",
+  "words": 213,
+  "his_share": 0.0,
+  "blocks": [
+   "B376",
+   "B377",
+   "B378",
+   "B379",
+   "B380",
+   "B381",
+   "B382",
+   "B383",
+   "B384"
+  ],
+  "sha256": "e8845aadcbb70c1d82d8904445d1a097a343ef432d451b836a0a6e1158207d14"
+ },
+ {
+  "key": "h42-38",
+  "title": "Hand on Heart and Gratitude 🫶🏿",
+  "parent": "Hand on Heart and Gratitude 🫶🏿",
+  "words": 211,
+  "his_share": 0.0,
+  "blocks": [
+   "B385",
+   "B386",
+   "B387",
+   "B388",
+   "B390",
+   "B391",
+   "B392"
+  ],
+  "sha256": "ce0b983f67c91da20cfaced2fcca827be38bec9a65c8e5adce26195841d93866"
+ },
+ {
+  "key": "h42-39",
+  "title": "Demons, Jinn, Entities, and Shadow Forces",
+  "parent": "Demons, Jinn, Entities, and Shadow Forces",
+  "words": 294,
+  "his_share": 0.0,
+  "blocks": [
+   "B394",
+   "B395",
+   "B396",
+   "B397",
+   "B398",
+   "B399",
+   "B400",
+   "B401",
+   "B404"
+  ],
+  "sha256": "d15513783b44c6abac06d040a5754e08a7ffc685b27d97197f13cadfaee502db"
+ },
+ {
+  "key": "h42-40",
+  "title": "Abuse Memories, Recovered Memories, and Certainty",
+  "parent": "Abuse Memories, Recovered Memories, and Certainty",
+  "words": 125,
+  "his_share": 0.0,
+  "blocks": [
+   "B405",
+   "B406",
+   "B407",
+   "B408",
+   "B409"
+  ],
+  "sha256": "dc934bbbf2aab593333a2344f8571b6092f2304a1a8c9c2628e0884a7c4f03c2"
+ },
+ {
+  "key": "h42-41",
+  "title": "Dealing With Shadow Thoughts",
+  "parent": "Dealing With Shadow Thoughts",
+  "words": 610,
+  "his_share": 0.0,
+  "blocks": [
+   "B410",
+   "B411",
+   "B412",
+   "B413",
+   "B414",
+   "B415",
+   "B416",
+   "B417"
+  ],
+  "sha256": "d0979b1dd47f8add0c03130b4e7e681be7e2c30aeb7bc2c6ab342a7aa10676df"
+ },
+ {
+  "key": "h42-42",
+  "title": "(Re)defining \"Bad Trip\"",
+  "parent": "(Re)defining \"Bad Trip\"",
+  "words": 221,
+  "his_share": 0.94,
+  "blocks": [
+   "B329",
+   "B330a",
+   "B330b",
+   "B330c",
+   "B357"
+  ],
+  "sha256": "874bc07cb2201644eda3652b644d6f7a3afcc8742640616d3e78c96e99ce4de0"
+ },
+ {
+  "key": "h42-43",
+  "title": "Spiritual ≠ \"Getting Your Ass Kicked\"",
+  "parent": "Spiritual ≠ \"Getting Your Ass Kicked\"",
+  "words": 120,
+  "his_share": 0.0,
+  "blocks": [
+   "B332",
+   "B333",
+   "B334",
+   "B335",
+   "B336",
+   "B337"
+  ],
+  "sha256": "29aa5e7b43a9040cc3b72ea4dc49de5b4c82f7dace7b452a6411807e497c649e"
+ },
+ {
+  "key": "h42-44",
+  "title": "The Other Bypass: Feeling Good Forever",
+  "parent": "The Other Bypass: Feeling Good Forever",
+  "words": 193,
+  "his_share": 0.0,
+  "blocks": [
+   "B338",
+   "B339",
+   "B340",
+   "B341",
+   "B342"
+  ],
+  "sha256": "a3b44f9358385833d43ee2af1c5e2c57001fcaa59d33d39d926a55ccc2b919d2"
+ },
+ {
+  "key": "h42-45",
+  "title": "After the Storm",
+  "parent": "After the Storm",
+  "words": 215,
+  "his_share": 0.46,
+  "blocks": [
+   "B419",
+   "B420",
+   "B427",
+   "B428",
+   "B429",
+   "B430"
+  ],
+  "sha256": "2f49736f06dda1599e50bf02ae3014db776b1687d674287e0df739bbdf66fa0f"
+ },
+ {
+  "key": "h42-46",
+  "title": "What Kind of Aftermath Is This?",
+  "parent": "What Kind of Aftermath Is This?",
+  "words": 567,
+  "his_share": 0.99,
+  "blocks": [
+   "B424",
+   "B425",
+   "B426"
+  ],
+  "sha256": "03f0b996caab722fd493242f67620f11f06b769659358e4bcd6d9b0c823344d3"
+ },
+ {
+  "key": "h42-47",
+  "title": "Bring in mental-health support when:",
+  "parent": "Bring in mental-health support when:",
+  "words": 37,
+  "his_share": 0.0,
+  "blocks": [
+   "B96",
+   "B97"
+  ],
+  "sha256": "e197dfc1033e0395cc70e109829724ebc9e67ff065ef96d9638d3f2de8569404"
+ },
+ {
+  "key": "h42-48",
+  "title": "Trip After Trip? Hang up the phone, get off the Healing Treadmill",
+  "parent": "Trip After Trip? Hang up the phone, get off the Healing Treadmill",
+  "words": 605,
+  "his_share": 0.0,
+  "blocks": [
+   "B347",
+   "B349",
+   "B350",
+   "B352",
+   "B353",
+   "B354",
+   "B355"
+  ],
+  "sha256": "bab38418225c2500b72b5e247c2b95ec6f12f4a73047200678c8f7f16a851d9b"
+ },
+ {
+  "key": "h42-49",
+  "title": "Planning a Trip or Ceremony? Give It a Beginning and an End",
+  "parent": "Planning a Trip or Ceremony? Give It a Beginning and an End",
+  "words": 469,
+  "his_share": 0.92,
+  "blocks": [
+   "B364",
+   "B366a",
+   "B366b",
+   "B366c",
+   "B366d",
+   "B366e",
+   "B366f",
+   "B366g",
+   "B370"
+  ],
+  "sha256": "85976c6ff0589fd32e4142e1551bf2cf076316a8fb022d6107b02214938a2622"
+ },
+ {
+  "key": "h42-50",
+  "title": "Appendix: Additional Resources",
+  "parent": "Appendix: Additional Resources",
+  "words": 266,
+  "his_share": 0.0,
+  "blocks": [
+   "B432",
+   "B437",
+   "B433",
+   "B438"
+  ],
+  "sha256": "a96c7040d2a1e02bdf94bee639c965d1e3de2ddb84368887e373d626e746317a"
+ }
+]

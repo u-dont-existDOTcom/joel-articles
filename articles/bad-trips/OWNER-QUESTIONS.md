@@ -11,7 +11,7 @@ Answer under an item's number in a message.
 
 ## Your tasks
 
-None right now.
+- **Pangram, for the section checks (2026-11-11):** in the Claude app's browser pane (Cmd+Shift+B on a Mac, Ctrl+Shift+B on Windows, or the globe icon), Pangram's dashboard is signed out and asks you to tick "Verify you are human", which I never do myself. Sign in there and tick it, then tell me to go on; or tell me to use Chrome instead, which the session's permission check stopped me from opening without you. The 50 checks are ready to run ([the batch](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261105/articles/bad-trips/humanize/h42-20261111/README.md)).
 
 ## Decisions on record
 
