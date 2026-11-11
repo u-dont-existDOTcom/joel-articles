@@ -1467,6 +1467,41 @@
     }
    ],
    "recorded_utc": "2026-11-11T19:55Z"
+  },
+  {
+   "turn": "2026-11-11T21:04Z",
+   "lines_of_work": [
+    "bad trips guide"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "UDA root at 841f579, unchanged; suggested-fixes/joel-articles has the same six items, all in docs/suggested-fixes-ledger.md"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "pull request 418 (ours, the first Pangram batch) open, its Content integrity check still queued; no other new issues, pull requests, comments or reviews since 20:30 UTC"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no edits by others to this lane's handoff note, questions page or state since this account's push of 20:17 UTC"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "his message of 21:04 UTC: 'i logged in on your browser' (Pangram in the desktop app's browser pane)"
+    }
+   ],
+   "items": [
+    {
+     "item": "his sign-in",
+     "outcome": "the h42a batch runs this turn: predictions to the ledger, the 50 checks, the results with every window's confidence and link"
+    }
+   ],
+   "recorded_utc": "2026-11-11T21:04Z"
   }
  ]
 }

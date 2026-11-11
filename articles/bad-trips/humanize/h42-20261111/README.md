@@ -23,9 +23,20 @@ To run: `python3 articles/bad-trips/humanize/h42-20261111/pass/write_predictions
 with each unit's link and every window's confidence (his: always the links; Medium windows shown too, since he fixes
 those himself).
 
-## Where it stopped (2026-11-11, turn 33)
+## How it ran (2026-11-11, turn 34)
 
-The desktop app's browser pane was open on Pangram's dashboard but signed out, with the page asking to tick "Verify you
-are human", which I never tick (AGENTS.md, gate E356). The lane's other route, a tab in his Chrome through Claude in
-Chrome, was refused by the session's permission check when I asked to open one. So the batch waits on him: either he
-signs in to Pangram in the browser pane and ticks the box, or he allows the Chrome route.
+Pangram reachable once he signed in to the desktop app's browser pane ("i logged in on your browser", 21:04 UTC; I
+ticked nothing). `write_predictions.py` put the 50 predictions in the ledger (#383 to #432) before the first click; the
+page helpers ran the batch from 21:06 to 21:15 UTC. The run stopped at h42-47, "Bring in mental-health support when:",
+37 words: the web app's Check for AI button stays off under 50 words, so its prediction is voided (it gets checked with a
+neighbour after the humanize edits) and h42-48 to h42-50 ran after it. 49 results, read from the History by
+`__readI` (`pass/RESULTS-h42a-idx-1.json`, `-idx-2.json`, merged as `pass/RESULTS-h42a-idx.json`), turned into the
+ledger's form with each window's words by `pass/ingest.py` (all 49 windows' first characters matched), recorded with
+`pangram_ledger.py results`, and laid out by `pass/results_md.py` as `RESULTS.md`.
+
+**What it found:** 16 read Human Written (8 Human High in every window), one Mostly Human (Dealing With Shadow Thoughts,
+8%), 32 with AI windows (15 of them 100%). His own sections read Human where they're his; the AI is the medical part and most of the
+remedies, the tripsitting middle (Grounding Menu 1, Get One Human Anchor, For the Person Helping, No Rash Actions, Euphoric), the shadow
+part's middle (Sorrow, Hand on Heart, Demons, Abuse Memories, Spiritual ≠) and After the Storm. Nine predictions missed,
+all the same way: a lone tell called AI in a section of his that read Human (explained in the ledger as "his voice
+outweighed a lone tell").
