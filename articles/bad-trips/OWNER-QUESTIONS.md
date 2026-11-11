@@ -1,6 +1,6 @@
 # Bad Trips guide: questions for Joel
 
-Updated 2026-11-11 (turn 33, round 33 answered at 19:54 UTC); earlier turn 32 (round 32 answered at 20:08 UTC, round 33 out); earlier turn 31 (rounds 30 and 31 answered at 18:43 and 18:59 UTC); earlier turn 30 (rounds 28 and 29 answered at 17:22 UTC, round 30 out); earlier turn 29 (round 27 answered at 01:24 UTC, rounds 28 and 29 out); earlier 2026-11-08 (turn 26, his round-24 answers of 15:01 UTC in; round 26 out with the session's resume of 15:52 UTC and answered at 16:48 UTC; round 25 answered at 16:55 UTC; round 27 out at 17:52 UTC). Status: **open** = waiting on you, **next** = I do it once you
+Updated 2026-11-11 (turn 34, the first Pangram batch run after his sign-in of 21:04 UTC); earlier turn 33 (round 33 answered at 19:54 UTC); earlier turn 32 (round 32 answered at 20:08 UTC, round 33 out); earlier turn 31 (rounds 30 and 31 answered at 18:43 and 18:59 UTC); earlier turn 30 (rounds 28 and 29 answered at 17:22 UTC, round 30 out); earlier turn 29 (round 27 answered at 01:24 UTC, rounds 28 and 29 out); earlier 2026-11-08 (turn 26, his round-24 answers of 15:01 UTC in; round 26 out with the session's resume of 15:52 UTC and answered at 16:48 UTC; round 25 answered at 16:55 UTC; round 27 out at 17:52 UTC). Status: **open** = waiting on you, **next** = I do it once you
 answer, **done** = answered.
 Answer under an item's number in a message.
 
@@ -11,7 +11,15 @@ Answer under an item's number in a message.
 
 ## Your tasks
 
-None right now.
+- **Medium windows, yours to fix if you want (2026-11-11, batch h42a):** these sections read Human with no AI window, and
+  each has a window at Medium confidence. Their links show every window ([all 49 results](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261105/articles/bad-trips/humanize/h42-20261111/RESULTS.md)).
+  - [Psychological First Aid (1 of 2)](https://www.pangram.com/history/71e9dd23-ae2b-48bc-a606-78f33f1e5c1e) (Human High 78, Medium 11, High 240): "And if they want to leave, have someone go with them."
+  - [Grounding Menu (2 of 2)](https://www.pangram.com/history/ea7a2215-f9de-4b7c-b35b-dc5091ec7037) (Human Medium 6, High 83, Medium 8, High 12, Medium 11, Low 29): "Music / Use familiar music when possible.", "Put every big decision into tomorrow's notebook." and "Walk slowly with a clear-headed person in a safe environment." (The Low one is mine to fix.)
+  - [Shadow Work](https://www.pangram.com/history/236a3091-6841-4e3a-a5fc-9642b12637e1) (Human High 32, Medium 5, High 52): "Inner-child reparenting is central."
+  - [(Re)defining "Bad Trip"](https://www.pangram.com/history/4972cd65-cf59-4a3c-878d-0a877f11d012) (Human High 158, Medium 17, High 16, Medium 9, High 17, Medium 10): "But if you had no intention of doing shadow work, that explanation might have come too late.", "Samsara offers no shortage of difficult experiences to process." and "Sometimes focusing on what we want makes the blockage visible:"
+  - [Nausea Smoothers](https://www.pangram.com/history/1c9fc7f4-9af7-44f1-9892-8f51bcd71352) (Human High 76, Medium 6, Low 22): "It may also extend the trip." (The Low one is mine to fix.)
+  - Not worth your time: the two pieces Pangram splits off, What Kind of Aftermath Is This?'s heading ([Medium 6, then High 584](https://www.pangram.com/history/78353445-3765-4e63-9119-00ab5f8f562a)) and the Appendix's "U.C." ([Medium 2](https://www.pangram.com/history/eeba7d60-3ed4-499e-9432-61b828931b46)).
+  - The Medium windows in sections that also have AI windows come after my fixes there, since those fixes can move them.
 
 ## Decisions on record
 
