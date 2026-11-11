@@ -1,0 +1,91 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-11",
+ "text_sha256": "e81d88a33da371a501f7c26d5fe50ee67c247bcc2c20dbc6af1ee1d2c95241a4",
+ "text": "Nausea Smoothers When the Person Wants to Preserve the Trip\n\nWhen ozonated zeolite and ferment don't help, I consider nausea caused by an excessive psychedelic dose acting on serotonin receptors in the gut.\n\nCoffee Cherry for Nausea and Brain Recharge\n\nEating a couple of coffee cherries helps my nausea. It can make a trip blissful and sleepy for a few hours, followed later by intense mental clarity and physical energy--almost like a perfected amphetamine. It may also extend the trip. I wouldn't reach for coffee cherries first if somebody is already becoming manic, though a longer trip can be useful and healthy when it's planned.",
+ "section": "Nausea Smoothers When the Person Wants to Preserve the Trip",
+ "reader": "someone nauseous on a psychedelic who wants to keep the trip going, choosing what to take for the nausea, and when not to",
+ "sentences": [
+  {
+   "s": "Nausea Smoothers When the Person Wants to Preserve the Trip",
+   "payoff": "they know this part is for nausea when they want to keep the trip",
+   "follows": "the heading"
+  },
+  {
+   "s": "When ozonated zeolite and ferment don't help, I consider nausea caused by an excessive psychedelic dose acting on serotonin receptors in the gut.",
+   "payoff": "they know when to reach for these: when ozonated zeolite and ferment did not help, the nausea is likely the dose acting on serotonin receptors in the gut",
+   "follows": "it opens the section under its heading",
+   "link": "When ozonated zeolite and ferment don't help"
+  },
+  {
+   "s": "Coffee Cherry for Nausea and Brain Recharge",
+   "payoff": "they know the first remedy and what else it does",
+   "follows": "the remedy, as its own heading",
+   "link": "none: a heading, naming the next remedy"
+  },
+  {
+   "s": "Eating a couple of coffee cherries helps my nausea.",
+   "payoff": "they know coffee cherries helped his nausea",
+   "follows": "it opens the remedy under its heading",
+   "link": "Eating a couple of coffee cherries"
+  },
+  {
+   "s": "It can make a trip blissful and sleepy for a few hours, followed later by intense mental clarity and physical energy--almost like a perfected amphetamine.",
+   "payoff": "they know what it does to the trip: blissful and sleepy, then clarity and energy",
+   "follows": "what else it does, after the nausea",
+   "link": "It"
+  },
+  {
+   "s": "It may also extend the trip.",
+   "payoff": "they know it may lengthen the trip",
+   "follows": "one more effect",
+   "link": "also"
+  },
+  {
+   "s": "I wouldn't reach for coffee cherries first if somebody is already becoming manic, though a longer trip can be useful and healthy when it's planned.",
+   "payoff": "they don't give it first to someone already getting manic, and know a longer trip is fine when planned",
+   "follows": "what the longer, energized trip means for who should take it",
+   "link": "I wouldn't reach for coffee cherries first"
+  }
+ ],
+ "checked": [],
+ "placement": "Nausea Smoothers, after the gut remedies (ozonated zeolite and ferment) that it follows when they did not help",
+ "opens": {
+  "first_sentence": "Nausea Smoothers When the Person Wants to Preserve the Trip",
+  "why_reading": "it tells someone whose nausea didn't settle with zeolite and ferment what is likely causing it, so they read on for what helps that kind"
+ },
+ "same_point": "none: read Nausea Smoothers from its heading to the next for coffee cherry; the gut remedies are their own section before it",
+ "needed": {
+  "reader": "a fresh Haiku agent given tools/humanization/needed_read_brief.md with the unit, its heading and what it is for (NEEDED-READ.md, h42-17)",
+  "unneeded": [
+   "Nausea Smoothers When the Person Wants to Preserve the Trip",
+   "Coffee Cherry for Nausea and Brain Recharge"
+  ],
+  "kept": {
+   "Nausea Smoothers When the Person Wants to Preserve the Trip": "they find this part by its heading in the guide's contents; it is the section heading itself, typed with the unit",
+   "Coffee Cherry for Nausea and Brain Recharge": "they find the remedy by its heading among the remedies; 'Brain Recharge' names the clarity and energy the paragraph says it brings later"
+  }
+ },
+ "questions": {
+  "Q1": "PASS: the section says when to use it first; the last sentence opens on the instruction, the nuance after",
+  "Q2": "PASS: the one instruction (not first for someone becoming manic) is the reader's, with what it is for",
+  "Q3": "PASS: \"a couple of coffee cherries\", \"somebody already becoming manic\" say exactly which",
+  "Q4": "PASS: ozonated zeolite and ferment are the remedies of the section before; serotonin receptors in the gut is said as what they act on",
+  "Q5": "PASS: \"also\" adds the longer trip; the last sentence draws on it with \"though\"",
+  "Q6": "PASS: when to use, what it does, then who should not take it first",
+  "Q7": "PASS: each effect bears on whether to take it now",
+  "Q8": "PASS: coffee cherry is a nausea smoother that keeps the trip",
+  "Q9": "PASS: one step a sentence"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

@@ -1,0 +1,73 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-11",
+ "text_sha256": "d422c5b28d452bdc08eaaa55c4303e7737a640da64e7632724d3b0515758e51f",
+ "text": "Contraindications:\n\nWith seizures it can go either way: in animal studies it calmed one kind and, at some doses, made another kind worse (more on that in Active Seizure).\nIt may worsen a cluster headache, even though rubbing DMSO--especially with magnesium chloride--on the head can alleviate tension headaches.\nIt may release histamine in some people. Use caution with MCAS.",
+ "section": "Mental Stabilizers That Don't Abort the Trip (3 of 6): DMSO's interactions and contraindications",
+ "reader": "someone about to use DMSO to steady a hard trip, checking what not to combine it with and who should be careful with it",
+ "sentences": [
+  {
+   "s": "Contraindications:",
+   "payoff": "they know the contraindications come next",
+   "follows": "after the interactions"
+  },
+  {
+   "s": "With seizures it can go either way: in animal studies it calmed one kind and, at some doses, made another kind worse (more on that in Active Seizure).",
+   "payoff": "if they have seizures, they know DMSO can help or hurt depending on the kind and dose, and where the guide says more",
+   "follows": "the first contraindication",
+   "link": "none: the first item under its label"
+  },
+  {
+   "s": "It may worsen a cluster headache, even though rubbing DMSO--especially with magnesium chloride--on the head can alleviate tension headaches.",
+   "payoff": "if they get cluster headaches, they know it may worsen them, though it can ease tension headaches",
+   "follows": "the next contraindication",
+   "link": "none: a list item, the next one under its label"
+  },
+  {
+   "s": "It may release histamine in some people.",
+   "payoff": "they know it may release histamine",
+   "follows": "the next contraindication",
+   "link": "none: a list item, the next one under its label"
+  },
+  {
+   "s": "Use caution with MCAS.",
+   "payoff": "if they have MCAS, they go carefully",
+   "follows": "who the histamine matters to",
+   "link": "Use caution with MCAS"
+  }
+ ],
+ "checked": [],
+ "placement": "DMSO's entry in Mental Stabilizers, after its side effects: what not to combine it with, then who should be careful (checked here by itself with the paragraph it leans on, E343, E349)",
+ "opens": {
+  "first_sentence": "Contraindications:",
+  "why_reading": "it tells someone checking DMSO that what follows is who should be careful with it"
+ },
+ "same_point": "the seizure item's second sentence repeated Active Seizure's DMSO paragraph (the two animal models, 'a plausible experimental adjunct remedy') and is cut there (gate E378); what stays here is the contraindication itself, with a pointer to Active Seizure",
+ "needed": {
+  "reader": "a fresh Haiku agent given tools/humanization/needed_read_brief.md with the unit, its heading and what it is for (NEEDED-READ.md, h42-20); this paragraph test is part of that unit, read there in place",
+  "unneeded": [],
+  "kept": {}
+ },
+ "questions": {
+  "Q1": "PASS: each item opens on what to avoid or who should be careful (\"Don't put it on dirty skin\", \"With seizures\")",
+  "Q2": "PASS: each instruction is the reader's own act, with its reason",
+  "Q3": "PASS: \"drugs that should not absorb rapidly\", \"cholinergic drugs\", \"a cluster headache\" say which",
+  "Q4": "PASS: harmalas and MCAS are the guide's terms from earlier; \"cholinergic\" is said as what DMSO also is",
+  "Q5": "PASS: each item follows its label; the seizure item says both sides with \"either way\"",
+  "Q6": "PASS: interactions, then contraindications",
+  "Q7": "PASS: each item bears on whether they take DMSO now, with what",
+  "Q8": "PASS: the seizure item is a reason for some people to be careful with DMSO",
+  "Q9": "PASS: one point an item"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

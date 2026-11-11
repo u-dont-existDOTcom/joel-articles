@@ -1,0 +1,63 @@
+{
+ "readers": [
+  "haiku",
+  "sonnet"
+ ],
+ "sentences": [
+  "Risk of Harm: When Peer Support Isn't Enough\n\nPeer support only goes so far.",
+  "If it looks like someone might hurt themselves or anyone else, or you can't keep them physically safe, say they keep making for the road or the water, or climbing somewhere high, get urgent help right then.",
+  "Voices telling them what to do are a reason to call, and so is a fixed, terrifying belief they've started acting on.",
+  "If it turns violent, call right away.",
+  "If they're so severely confused they're unreachable, or they haven't slept in so long their judgment is falling apart, that's past what a sitter can carry too, and so are the dangerous physical symptoms listed above.",
+  "And if it's more than you can safely handle, call."
+ ],
+ "flagged": {
+  "1": [
+   "haiku",
+   "sonnet"
+  ],
+  "2": [
+   "haiku",
+   "sonnet"
+  ],
+  "3": [
+   "haiku",
+   "sonnet"
+  ],
+  "4": [
+   "haiku",
+   "sonnet"
+  ],
+  "5": [
+   "haiku",
+   "sonnet"
+  ],
+  "6": [
+   "haiku",
+   "sonnet"
+  ]
+ },
+ "agreed": [
+  1,
+  2,
+  3,
+  4,
+  5,
+  6
+ ],
+ "whole": {
+  "haiku": [
+   "The paragraph runs as a smooth stack of parallel conditional rules, each ending on a short \"call\" instruction, with even rhythm and no digression, so it reads like an organized checklist rather than a voice working through a situation."
+  ],
+  "sonnet": [
+   "The paragraph is built as an even run of \"if X, call\" triggers with almost every sentence of similar length and a steady cadence, and it opens with a thesis and closes with a summary line. That shape reads like a safety checklist turned into prose rather than one person talking."
+  ]
+ },
+ "human_clean": [
+  "say they keep making for the road or the water",
+  "say they keep",
+  "making for",
+  "say they keep making for the road or the water, or climbing somewhere high",
+  "making for the road"
+ ]
+}

@@ -231,7 +231,7 @@ When ozonated zeolite and ferment don't help, I consider nausea caused by an exc
 
 ### [Coffee Cherry](http://coffeecherry.u-dont-exist.com/) for Nausea and Brain Recharge
 
-Eating a couple of coffee cherries helps my nausea. It can make a trip blissful and sleepy for a few hours, followed later by intense mental clarity and physical energy--almost like a perfected amphetamine. It may also extend the trip. That can be useful and healthy when planned, but I wouldn't reach for it first when somebody is already becoming manic.
+Eating a couple of coffee cherries helps my nausea. It can make a trip blissful and sleepy for a few hours, followed later by intense mental clarity and physical energy--almost like a perfected amphetamine. It may also extend the trip. I wouldn't reach for coffee cherries first if somebody is already becoming manic, though a longer trip can be useful and healthy when it's planned.
 
 ---
 
@@ -270,7 +270,7 @@ It overlaps with aged ozonated-charcoal water, but the two don't always work equ
 
 **Contraindications:**
 
-- DMSO has produced both anticonvulsant and proconvulsant effects depending on dose and seizure model. I consider it a plausible adjunct for excitotoxic or temporal-lobe-type seizure activity, not a proven universal seizure rescue.
+- With seizures it can go either way: in animal studies it calmed one kind and, at some doses, made another kind worse (more on that in Active Seizure).
 - It may worsen a cluster headache, even though rubbing DMSO--especially with magnesium chloride--on the head can alleviate tension headaches.
 - It may release histamine in some people. Use caution with MCAS.
 
@@ -288,7 +288,7 @@ Ocean water is one of the simplest and strangest stabilizers I have found. I not
 
 When a trip is too strong, touching ocean water can be extremely soothing. Touching the outside of a bottle doesn't do it. Direct contact with the water seems to matter, even when the water has been stored in a bottle.
 
-It has a grounding, cooling, organizing effect different from DMSO, aged ozonated-charcoal water, zeolite, or beach morning glory. I don't understand the mechanism. I only know that it has repeatedly felt like a powerful natural remedy for excessive psychedelic intensity.
+It feels grounding and cooling, and there's something organizing about it too that I don't get from DMSO or my other remedies. I don't understand the mechanism, I just know that again and again it's felt like a powerful natural remedy for a trip that's too intense.
 
 ### Shungite, Aged Ozonated-Charcoal Water, or Boiled Charcoal Water
 
@@ -432,14 +432,14 @@ A useful order is **room → body → human → time → meaning**. Most people 
 
 - Eat simple healthy food, such as fruit, when you can.
 - Walk slowly with a clear-headed person in a safe environment.
-- Go outside only away from roads, heights, crowds, and water.
-- Avoid strenuous exercise with overheating, chest pain, faintness, severe confusion, stimulant use, an unknown mixture, or any medical concern.
+- Going outside can help too, if it's somewhere quiet with nothing high to fall from, away from roads and water.
+- Avoid strenuous exercise if you're overheating or have chest pain, and hold off too if you feel faint or badly confused. The same goes after a stimulant or an unknown mixture, or with any medical concern.
 
 ## Get One Human Anchor
 
-Many bad trips get worse because somebody is alone with a frightened or over-certain mind. Other times it's the opposite: too many people crowd in and start advising, arguing, spiritualizing, or panicking.
+Being alone with a frightened or over-certain mind can make a bad trip worse. So can a crowd of people telling them what it all means, or panicking right along with them.
 
-So **one calm person should be the anchor** and take the lead. One person can only handle so much, though. When fatigue or logistics get to be too much, or keeping them safe does, or there's a risk of violence or self-harm, bring in **one more calm adult or a crisis professional** to back them up.
+So have **one calm person be the anchor** and take the lead. One person can only handle so much, though. If fatigue or logistics start getting to be too much for them, or keeping everyone safe does, bring in **one more calm adult or a crisis professional** to back them up, and do it right away if there's any risk of violence or self-harm.
 
 ![](https://substack-post-media.s3.amazonaws.com/public/images/2b8889eb-85e8-466f-99af-f71e48caeb61_1122x1402.png)
 

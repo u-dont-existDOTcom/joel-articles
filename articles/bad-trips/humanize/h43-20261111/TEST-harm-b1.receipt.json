@@ -1,0 +1,83 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-11",
+ "text_sha256": "61774b07e5687fdf11681e8147d782681fd9f9c42b9cd27e6cd22bc6daab4873",
+ "text": "Risk of Harm: When Peer Support Isn't Enough\n\nGet urgent help the moment somebody might hurt themselves or anyone else, or you can't keep them physically safe, like when they keep heading for roads and high places, or water for that matter. Voices telling them what to do are a reason too, and so is a fixed, terrifying belief they've started acting on. Get help just as fast if they turn violent or they're so severely confused they're unreachable. Dangerous physical symptoms count, and so does going so long without sleep that their judgment is falling apart. And if it's more than you can safely handle, call for help then too.",
+ "section": "Risk of Harm: When Peer Support Isn't Enough",
+ "reader": "someone sitting with a person in a hard trip, deciding whether it has gone past what they can handle and they need urgent help now",
+ "sentences": [
+  {
+   "s": "Risk of Harm: When Peer Support Isn't Enough",
+   "payoff": "they know this part is when to get urgent help",
+   "follows": "the heading"
+  },
+  {
+   "s": "Get urgent help the moment somebody might hurt themselves or anyone else, or you can't keep them physically safe, like when they keep heading for roads and high places, or water for that matter.",
+   "payoff": "they get urgent help at once if someone might hurt anyone, or can't be kept physically safe, like heading for roads, high places or water",
+   "follows": "it opens the section under its heading",
+   "link": "none: the first sentence under its heading"
+  },
+  {
+   "s": "Voices telling them what to do are a reason too, and so is a fixed, terrifying belief they've started acting on.",
+   "payoff": "they get help too for voices telling the person what to do, or a fixed terrifying belief they are acting on",
+   "follows": "more reasons of the same kind",
+   "link": "are a reason too"
+  },
+  {
+   "s": "Get help just as fast if they turn violent or they're so severely confused they're unreachable.",
+   "payoff": "they get help as fast for violence, or confusion so severe the person is unreachable",
+   "follows": "more reasons",
+   "link": "Get help just as fast"
+  },
+  {
+   "s": "Dangerous physical symptoms count, and so does going so long without sleep that their judgment is falling apart.",
+   "payoff": "they get help for dangerous physical symptoms or sleep loss that has broken judgment",
+   "follows": "the body's reasons",
+   "link": "count, and so does"
+  },
+  {
+   "s": "And if it's more than you can safely handle, call for help then too.",
+   "payoff": "they get help whenever it's more than they can safely handle",
+   "follows": "the last reason, which needs no other",
+   "link": "And if it"
+  }
+ ],
+ "checked": [],
+ "placement": "Risk of Harm's first paragraph, before which services to call",
+ "opens": {
+  "first_sentence": "Risk of Harm: When Peer Support Isn't Enough",
+  "why_reading": "it tells a sitter the first reasons to get urgent help right away"
+ },
+ "same_point": "When to Bring In Outside Help lists the medical reasons; this part is the reasons of harm, said here once",
+ "needed": {
+  "reader": "a fresh Haiku agent given tools/humanization/needed_read_brief.md with the test, its heading and what it is for (NEEDED-READ.md, harm-b1)",
+  "unneeded": [
+   "Risk of Harm: When Peer Support Isn't Enough"
+  ],
+  "kept": {
+   "Risk of Harm: When Peer Support Isn't Enough": "they find this part by its heading; it is the section heading itself, typed with the test"
+  }
+ },
+ "questions": {
+  "Q1": "PASS: the instruction first (get urgent help), then each reason",
+  "Q2": "PASS: each instruction is the sitter's act",
+  "Q3": "PASS: \"roads and high places, or water\", \"voices telling them what to do\" say which",
+  "Q4": "PASS: \"command voices\" said as voices telling them what to do",
+  "Q5": "PASS: \"too\", \"just as fast\", \"and so does\", \"And if\" say each relation",
+  "Q6": "PASS: harm and safety first, then the mind, violence and confusion, the body, then the sitter's limit",
+  "Q7": "PASS: each reason bears on calling now",
+  "Q8": "PASS: every item is a reason to get urgent help",
+  "Q9": "PASS: the nine conditions in five sentences, two at most a sentence"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}
