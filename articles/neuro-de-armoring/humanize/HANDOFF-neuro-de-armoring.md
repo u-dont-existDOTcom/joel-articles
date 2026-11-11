@@ -18,6 +18,16 @@ From an account with Desktop Commander connected to the laptop: "Continue my neu
 
 ## START HERE
 
+- **2026-11-11, after his message of 22:44 UTC: SC-106e is in, approved in chat, with his two Reddit links.**
+  HUMANIZED-SO-FAR.md is adfe7042 (`fix-20261108/sci-p23/apply_x1111b.py`; FIDELITY owner_changes for SC-106e). Reddit is
+  blocked to this session's web tools as content, the browser included, so links he gives there are put in from his
+  description and he checks them; never read around the block. **Next**: the coherence read of the whole protocol
+  (lesson neuro-2026-11-08f) from `fix-20261108/coherence/EXTRACT.md` (17 places the text disagrees with itself, not yet
+  judged), with Part 3's goal line (block 100: "Stabilize voltage ... (Headaches/Panic)") and the diet and ketone claims
+  against GPT's PTSD diet trials (`fix-20261108/joel-20261111-2101-message.txt`), Youssef 2022 first (ketone salts
+  against placebo for PTSD: no difference between the groups); research wide on both sides first (lesson
+  neuro-2026-11-11b); changes on cards. Then the needed read and the humanizing of the rest.
+
 - **2026-11-11, after his message of 22:07 UTC: SC-106e rests on the science; lessons 11a (corrected) and 11b.** The
   article is still 8de00b80. **Next**: his answer on Neuro De-Armoring Cards, 11 November (2) (artifact
   9nENpt9AEJCB43a9Wy5jqn, version 4; `sci-p23/REVIEW-X1111B.md`, review id x1111b): SC-106e cuts blocks 104 and 105,

@@ -22,7 +22,7 @@ Every paragraph and every section reads Human in Pangram, with the meaning kept 
 
 ## Current checkpoint
 
-`humanize/HUMANIZED-SO-FAR.md` (8de00b80, after his answers of 2026-11-08 15:45 UTC on the science of Parts 2 and 3: SC-97 approved, `humanize/fix-20261108/sci-p23/APPLIED-X1108C.json`) is his post with the standard typographic swap, his versions and the science corrections he approved, section by section through Part 2. The potassium card, revised after GPT's critique, his questions to GPT and his comment of 2026-11-11, is on his page, rethought on the science after his message of 22:07 UTC (`humanize/fix-20261108/sci-p23/REVIEW-X1111B.md`, SC-106e); after it, the protocol is read as a whole against the settled science, then the rest is humanized (lesson neuro-2026-11-08f). Nothing has been changed in his post yet.
+`humanize/HUMANIZED-SO-FAR.md` (adfe7042, after his chat approval of 2026-11-11 22:44 UTC of the potassium card, SC-106e, with his two Reddit links: `humanize/fix-20261108/sci-p23/APPLIED-X1111B.json`) is his post with the standard typographic swap, his versions and the science corrections he approved, section by section through Part 3's potassium step. Next, the protocol is read as a whole against the settled science (`humanize/fix-20261108/coherence/EXTRACT.md`), then the rest is humanized (lesson neuro-2026-11-08f). Nothing has been changed in his post yet.
 
 ## Remaining
 
@@ -30,7 +30,7 @@ The AI windows of every section, rewritten and checked; his cards; his post upda
 
 ## Blockers / unresolved
 
-One card on Neuro De-Armoring Cards, 11 November (2) (`humanize/fix-20261108/sci-p23/REVIEW-X1111B.md`); no open questions (`humanize/OWNER-QUESTIONS.md`). The coherence read goes on meanwhile where it doesn't depend on it.
+Nothing waits on him; no open questions (`humanize/OWNER-QUESTIONS.md`).
 
 ## Evidence / artifacts
 

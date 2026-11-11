@@ -2557,6 +2557,56 @@
     ]
    },
    "citations_lost": []
+  },
+  {
+   "by": "fix-20261108/joel-20261111-2244-message.txt, card SC-106e (approved in chat 2026-11-11 22:44 UTC: \"yes i want the reddit links. and your paragraph looks good other than that\"), applied by fix-20261108/sci-p23/apply_x1111b.py with his two Reddit links",
+   "why": "the science of Part 3's potassium step (fix-20261108/sci-p23/SCIENCE-P23.md, \"Rethought on the science\"): the KCNQ brakes story doesn't hold (the brain keeps its own potassium; Hladky & Barrand 2016), so its labels and its sentences go, and block 106 rests on what the studies show (NIH 2022; the 2025 Dietary Guidelines Advisory Committee report; Torres 2008; Pariury 2019; Na 2022; Cruz 2001; Aburto 2013; Sebastian 2006). The new numbers are the years of those citations the 13 of 16 children of Pariury 2019 and the \"3 in 10 Americans\" of the 2025 report",
+   "numbers_lost": [],
+   "numbers_new": [
+    "2008",
+    "2013",
+    "2019",
+    "2022",
+    "2022",
+    "2022",
+    "2022",
+    "2024",
+    "13",
+    "16",
+    "2006",
+    "10"
+   ],
+   "terms_lost": [
+    "KCNQ"
+   ],
+   "keys_lost": {
+    "W054": [
+     [
+      "KCNQ"
+     ],
+     [
+      "uncontrollably"
+     ],
+     [
+      "called"
+     ],
+     [
+      "stop"
+     ]
+    ],
+    "W055": [
+     [
+      "breathe"
+     ],
+     [
+      "pedal"
+     ],
+     [
+      "stop"
+     ]
+    ]
+   },
+   "citations_lost": []
   }
  ],
  "warning_words": {
