@@ -1,0 +1,110 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-11",
+ "text_sha256": "771b45a175016d2e454dbe90fccf916157ccf32e46a5737a7c3f7b4219877cd2",
+ "text": "Why don't these drugs work on calcified PTSD? Because even if they did work for mood by modulating serotonin transmission, PTSD is not a mood disorder. That's a bit like putting some Bengay on a broken leg. This protocol tries to get at the underpinnings of the problem. The ketone BHB blocks enzymes called HDACs (Shimazu, et al, 2013), and in mice that couldn't hold on to extinction learning (learning that a cue is now safe), an HDAC blocker made the new learning last (Whittle & Singewald, 2014). In people with PTSD, the first small study of a keto diet with BHB supplements found that both people who finished its four weeks improved, by 20 and 10 points on the standard 80-point PTSD checklist, which its authors call clinically meaningful (Edwards, et al, 2024). In two case reports, women whose PTSD hadn't responded to treatment were nearly or fully free of symptoms after months on the diet (Bellamy & Laurent, 2025; Laurent, 2026). No controlled trial of the diet has been done yet, and the one placebo-controlled trial of BHB supplements alone was too small to tell either way (Youssef, et al, 2022).",
+ "section": "C. The \"Hardened\" Circuit: Dynorphin & DeltaFosB",
+ "reader": "someone with trauma or in withdrawal who is anxious, wired, numb or foggy, wanting to know what is going on in their brain and which of the protocol's tools does what",
+ "sentences": [
+  {
+   "s": "Why don't these drugs work on calcified PTSD?",
+   "his": true
+  },
+  {
+   "s": "Because even if they did work for mood by modulating serotonin transmission, PTSD is not a mood disorder.",
+   "his": true
+  },
+  {
+   "s": "That's a bit like putting some Bengay on a broken leg.",
+   "his": true
+  },
+  {
+   "s": "This protocol tries to get at the underpinnings of the problem.",
+   "his": true
+  },
+  {
+   "s": "The ketone BHB blocks enzymes called HDACs (Shimazu, et al, 2013), and in mice that couldn't hold on to extinction learning (learning that a cue is now safe), an HDAC blocker made the new learning last (Whittle & Singewald, 2014).",
+   "payoff": "they learn what the protocol's ketones do in the brain that a mood drug doesn't, and that the learning result comes from mice",
+   "follows": "it says what \"the underpinnings\" are and how the protocol gets at them",
+   "link": "The ketone BHB"
+  },
+  {
+   "s": "In people with PTSD, the first small study of a keto diet with BHB supplements found that both people who finished its four weeks improved, by 20 and 10 points on the standard 80-point PTSD checklist, which its authors call clinically meaningful (Edwards, et al, 2024).",
+   "payoff": "they learn that people with PTSD on a keto diet with BHB supplements have improved, and by how much",
+   "follows": "it turns from the mouse finding to people with PTSD",
+   "link": "In people with PTSD"
+  },
+  {
+   "s": "In two case reports, women whose PTSD hadn't responded to treatment were nearly or fully free of symptoms after months on the diet (Bellamy & Laurent, 2025; Laurent, 2026).",
+   "payoff": "they learn that PTSD treatment hadn't helped has nearly or fully gone on the diet in two people",
+   "follows": "it adds two longer cases to the four-week study",
+   "link": "on the diet"
+  },
+  {
+   "s": "No controlled trial of the diet has been done yet, and the one placebo-controlled trial of BHB supplements alone was too small to tell either way (Youssef, et al, 2022).",
+   "payoff": "they learn how far this evidence goes, so they take it as early signs, not proof",
+   "follows": "it ends on the limit of the human evidence",
+   "link": "No controlled trial of the diet"
+  }
+ ],
+ "checked": [
+  {
+   "point": "the ketone BHB blocks HDACs; in mice an HDAC blocker made extinction learning last",
+   "found": "as on SC-48 (Shimazu et al. 2013; Whittle and Singewald 2014)",
+   "still_needed": "yes: they learn why the protocol uses ketones for PTSD rather than for mood",
+   "fate": "kept"
+  },
+  {
+   "point": "whether ketosis does that in people hasn't been tested",
+   "found": "true of the HDAC route, but ketosis has been tried in people with PTSD: a four-week keto diet with BHB salts, PCL-5 down 20 and 10 points in the two who finished (Edwards et al. 2024); two case reports, PCL-5 80 to 0 at 12 weeks and 32 to 2 at 27 weeks (Bellamy and Laurent 2025; Laurent 2026)",
+   "still_needed": "yes: they learn what has been seen when people with PTSD tried ketosis, in place of a sentence that reads as if it never had been",
+   "fate": "changed"
+  },
+  {
+   "point": "how far the human evidence goes",
+   "found": "no controlled trial of the diet (the registered studies are single-arm: NCT05415982, NCT07415590); a 2026 integrative review finds only minimal reliable information from human studies; the one placebo-controlled trial of BHB salts found no difference between its groups with 21 people, which its authors put down to its size (Youssef et al. 2022)",
+   "still_needed": "yes: they take the human results as early signs, not proof",
+   "fate": "changed"
+  }
+ ],
+ "placement": "where the block is now (block 48), after the reasons the drugs fall short; the new sentences end it, after the mouse finding they answer for people",
+ "opens": {
+  "first_sentence": "Why don't these drugs work on calcified PTSD?",
+  "why_reading": "they learn the paragraph answers why the drugs they tried haven't fixed their PTSD"
+ },
+ "same_point": "none: read section C from its heading to the next for what ketosis has done in people with PTSD; it appears once. Block 94 gives three adults whose depression and anxiety went on a keto diet (Calabrese 2024), another condition, and stays where it is",
+ "needed": {
+  "reader": "a fresh reader (Haiku) given tools/humanization/needed_read_brief.md and only this paragraph (needed/sp48b/READ.md)",
+  "unneeded": [
+   "That's a bit like putting some Bengay on a broken leg.",
+   "and in mice that couldn't hold on to extinction learning (learning that a cue is now safe), an HDAC blocker made the new learning last (Whittle & Singewald, 2014)."
+  ],
+  "kept": {
+   "That's a bit like putting some Bengay on a broken leg.": "they get the author's own picture of a mood drug used on a broken structure, his words, which only he can cut",
+   "and in mice that couldn't hold on to extinction learning (learning that a cue is now safe), an HDAC blocker made the new learning last (Whittle & Singewald, 2014).": "they learn why blocking HDACs matters for PTSD: it made the learning that a cue is now safe last, shown so far in mice with another HDAC blocker"
+  }
+ },
+ "questions": {
+  "Q1": "PASS: each sentence opens on its point",
+  "Q2": "N/A: no instruction here, or the one instruction says what it is for",
+  "Q3": "PASS: each thing is named exactly",
+  "Q4": "PASS: each unfamiliar term is said in plain words where it is first used",
+  "Q5": "PASS: each \"and\", \"so\" and \"but\" turns on the clause before it",
+  "Q6": "PASS: the claim, then what the evidence shows, then its limit",
+  "Q7": "PASS: each fact is about the reader's own symptom or the tool they are deciding on",
+  "Q8": "N/A: no group or list inside this paragraph",
+  "Q9": "PASS: one step a clause, with the small words that carry the relation kept"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ },
+ "his_whose": "his own: block 48's first four sentences, as he wrote them in his answer on SC-48 (2026-11-08 15:08 UTC, APPLIED-X1108B.json)"
+}

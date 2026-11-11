@@ -1,5 +1,33 @@
 # Status: neuro de-armoring humanization (newest on top)
 
+## 2026-11-11, his message of 22:53 UTC: ketosis in people with PTSD (SC-48b); lesson 11c
+
+His message word for word and GPT's review: `fix-20261108/joel-20261111-2253-message.txt`,
+`fix-20261108/joel-20261111-2253-gpt-ketone-review.txt` ("ok and also ketones do seem to help ppl with ptsd idk why
+youre research is always wrong .... i also don't understand why you can't see the reddit pages that i can see in your
+cloud browser? look"). **The mailbox first** ("2026-11-11 22:53"): main 7531cd1f7 merged (this lane's 422); UDA
+unchanged; no new issues or comments; no notifications.
+
+- **He was right.** Block 48 ended on my "Whether ketosis does that in people hasn't been tested.", true of the HDAC
+  route but read as the answer to whether ketosis helps people with PTSD; and in chat I gave Youssef 2022 as "the two
+  groups ended up no different", making a trial too small to tell sound like a negative. GPT's sources checked through
+  PubMed and ClinicalTrials.gov (`fix-20261108/keto/KETO-PTSD.md`): Edwards 2024 (PCL-5 70 to 50 and 50 to 40 in the two
+  who finished four weeks of a keto diet with BHB salts), Bellamy & Laurent 2025 (80 to 0 by week 12, full text read:
+  three years of trauma-focused therapy hadn't helped), Laurent 2026 (32 to 2 at 27 weeks, treatment-resistant), the 2026
+  integrative review ("only minimal reliable information" from human studies), NCT07415590 (six people in Munich,
+  completed, no results), Youssef 2022 (21 people, no difference between groups, too small to tell).
+- **Card SC-48b** (`fix-20261108/keto/build_x1111c.py`; REVIEW-X1111C): block 48's last sentence becomes the Oslo study,
+  the two cases and the limit. A fresh reader (Haiku, BRIEF.txt only; `keto/needed/sp48b/READ.md`) kept all three new
+  sentences and would lose his Bengay line and the mouse clause: both kept, with the reasons in the receipt, and the card
+  shows him that reader's version. Published on the cards page (version 5).
+- **Lesson neuro-2026-11-11c** (`docs/lessons/2026-11-11-2253-neuro.md`): find what was tried in people with the
+  reader's condition before calling something untested; a small trial with no difference is too small to tell. Lesson
+  11a's name put in the standard form so `lane_push.py --lesson-id` finds it.
+- **Reddit**: still not read. It is blocked to the web tools as content, and the rule covers the browser even with the
+  page open there; he's asked for the posts' text.
+- **Waiting on him**: SC-48b. Next: the coherence read (`fix-20261108/coherence/EXTRACT.md`), Strategy A's "need the fog
+  gone fast" with the salts (block 95) beside Youssef 2022.
+
 ## 2026-11-11, his message of 22:44 UTC: SC-106e in, as he approved it in chat, with his two Reddit links
 
 His message word for word: `fix-20261108/joel-20261111-2244-message.txt` ("yes i want the reddit links. and your

@@ -30,7 +30,7 @@ The AI windows of every section, rewritten and checked; his cards; his post upda
 
 ## Blockers / unresolved
 
-Nothing waits on him; no open questions (`humanize/OWNER-QUESTIONS.md`).
+One card waits on him: SC-48b, ketosis in people with PTSD (`humanize/fix-20261108/keto/REVIEW-X1111C.md`); no open questions (`humanize/OWNER-QUESTIONS.md`).
 
 ## Evidence / artifacts
 
