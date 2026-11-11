@@ -1,5 +1,29 @@
 # Status: neuro de-armoring humanization (newest on top)
 
+## 2026-11-11, his message of 22:07 UTC: lesson 11a corrected; GPT's research checked; SC-106e rests on the science; lesson 11b
+
+His message word for word and the research he pasted: `fix-20261108/joel-20261111-2207-message.txt`,
+`fix-20261108/joel-20261111-2207-gpt-research.txt`. **The mailbox first** ("2026-11-11 22:07"): main 373ee5274 merged
+(a fast forward; this lane's 419 merged); UDA unchanged; no new issues or comments; no notifications.
+
+- **He was right**: a claim he makes as science rests on science (lesson 11a corrected in its file), and my research for
+  SC-106b to d was thin. GPT's sources checked one by one (a Sonnet agent; I re-read the ones cited and opened every
+  link): Pariury 2019 (13 of 16 children with steroid-induced mood and behavior effects helped by potassium), Na 2022
+  (4,213 older adults, higher intake and better cognition), Cherbuin 2014, Zingales 2025 and TAIM 1991 on the other side,
+  Dai 2025 (left out, confounded); the 2025 Dietary Guidelines Advisory Committee report: 28% of Americans above the
+  Adequate Intake (his "40% below 2.3 g" wasn't found); Gitelman syndrome (Cruz 2001) for people who lose more. Reddit is
+  blocked to the web tools: his two threads weren't read, and the card asks for the posts as text.
+- **SC-106e** (`fix-20261108/sci-p23/texts_x1111b.py`, `build_x1111b.py`): block 106 rests on the science (nerves, low
+  intakes, mood, thinking, who needs more, blood pressure), his paleo view and the caution. Two fresh needed reads
+  (`needed/sp106e-first/`: S2 unclear, rewritten; `needed/sp106e/`: four items not needed, kept with reasons, and the
+  reader's shorter paragraph shown on the card). Published to the same page (9nENpt9AEJCB43a9Wy5jqn, version 4, review
+  id x1111b); smoke test at 400 and 1,200 px clean. Questions page republished.
+- **Lessons**: neuro-2026-11-11a corrected (`docs/lessons/2026-11-11-2101-neuro.md`); neuro-2026-11-11b
+  (`docs/lessons/2026-11-11-2207-neuro.md`): research goes wide on both sides before a science card; a blood level is not
+  an intake. The article is unchanged (8de00b80).
+- **Predictions**: none. **Delegations**: one Sonnet agent, GPT's sources and the searches he named (no files; checked:
+  every cited record re-read, every link opened): done. Two Haiku agents, the needed reads of SP106E: done.
+
 ## 2026-11-11, his answer of 21:01 UTC on x1108e: SC-106c back with his comment; his points checked; SC-106d with his view; lesson 11a
 
 His answers, byte for byte: `fix-20261108/sci-p23/ANSWERS-X1108E-20261111-2101.json`; his comment word for word:

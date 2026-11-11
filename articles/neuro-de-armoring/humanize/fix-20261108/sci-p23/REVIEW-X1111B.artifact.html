@@ -1,0 +1,842 @@
+<title>Neuro De-Armoring Cards, 11 November (2): potassium, rethought on the science</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<style>
+:root{
+  --bg:#f6f4ef;--paper:#fffdfa;--ink:#1e2227;--muted:#5d646d;--line:#dcd5c8;--soft:#efebe3;--head:#fffdfaee;
+  --link:#0b5cad;--focus:#2458a6;
+  --t-reread:#1d4ed8;--t-reread-bg:#dbe7fe;
+  --t-structure:#6d28d9;--t-structure-bg:#ece6fd;
+  --t-caveat:#c2410c;--t-caveat-bg:#ffe8d5;
+  --t-repeat:#a16207;--t-repeat-bg:#fdf0c4;
+  --t-innerchild:#15803d;--t-innerchild-bg:#d9f5e2;
+  --t-typo:#be123c;--t-typo-bg:#ffe1e7;
+  --t-cut:#a21caf;--t-cut-bg:#fae8ff;
+  --t-ask:#0f766e;--t-ask-bg:#d5f5ef;
+  --ok:#15803d;--ok-bg:#dcf5e3;--no:#475569;--no-bg:#e3e8ef;--rev:#6d28d9;--rev-bg:#ece6fd;--pend:#b42318;--pend-bg:#fde4e1;
+  --del-bg:#fbd9d5;--del-ink:#7a1d12;--ins-bg:#d4f2dc;--ins-ink:#0f4d24;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#141619;--paper:#1c1f23;--ink:#e7e4de;--muted:#a2a8b1;--line:#363a42;--soft:#24282d;--head:#1c1f23ee;
+  --link:#7fb2ff;--focus:#8ab4ff;
+  --t-reread:#7aa7ff;--t-reread-bg:#1e3157;
+  --t-structure:#b79cff;--t-structure-bg:#33295a;
+  --t-caveat:#ffa66b;--t-caveat-bg:#4d2c17;
+  --t-repeat:#f0c45a;--t-repeat-bg:#45391a;
+  --t-innerchild:#6fdc95;--t-innerchild-bg:#173d27;
+  --t-typo:#ff8aa3;--t-typo-bg:#4f1d2a;
+  --t-cut:#f0abfc;--t-cut-bg:#4a1d4f;
+  --t-ask:#5eead4;--t-ask-bg:#123f3b;
+  --ok:#6fdc95;--ok-bg:#173d27;--no:#b6c0cf;--no-bg:#2c333d;--rev:#b79cff;--rev-bg:#33295a;--pend:#ff8f84;--pend-bg:#4a1f1c;
+  --del-bg:#4f2421;--del-ink:#ffc9c2;--ins-bg:#173d27;--ins-ink:#c4f5d3;
+  color-scheme:dark;
+}}
+:root[data-theme="dark"]{
+  --bg:#141619;--paper:#1c1f23;--ink:#e7e4de;--muted:#a2a8b1;--line:#363a42;--soft:#24282d;--head:#1c1f23ee;
+  --link:#7fb2ff;--focus:#8ab4ff;
+  --t-reread:#7aa7ff;--t-reread-bg:#1e3157;
+  --t-structure:#b79cff;--t-structure-bg:#33295a;
+  --t-caveat:#ffa66b;--t-caveat-bg:#4d2c17;
+  --t-repeat:#f0c45a;--t-repeat-bg:#45391a;
+  --t-innerchild:#6fdc95;--t-innerchild-bg:#173d27;
+  --t-typo:#ff8aa3;--t-typo-bg:#4f1d2a;
+  --t-cut:#f0abfc;--t-cut-bg:#4a1d4f;
+  --t-ask:#5eead4;--t-ask-bg:#123f3b;
+  --ok:#6fdc95;--ok-bg:#173d27;--no:#b6c0cf;--no-bg:#2c333d;--rev:#b79cff;--rev-bg:#33295a;--pend:#ff8f84;--pend-bg:#4a1f1c;
+  --del-bg:#4f2421;--del-ink:#ffc9c2;--ins-bg:#173d27;--ins-ink:#c4f5d3;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+html{scroll-padding-top:120px}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;-webkit-text-size-adjust:100%}
+a{color:var(--link)}
+button{font:inherit;color:inherit;cursor:pointer}
+.t-reread{--c:var(--t-reread);--cb:var(--t-reread-bg)}
+.t-structure{--c:var(--t-structure);--cb:var(--t-structure-bg)}
+.t-caveat{--c:var(--t-caveat);--cb:var(--t-caveat-bg)}
+.t-repeat{--c:var(--t-repeat);--cb:var(--t-repeat-bg)}
+.t-innerchild{--c:var(--t-innerchild);--cb:var(--t-innerchild-bg)}
+.t-typo{--c:var(--t-typo);--cb:var(--t-typo-bg)}
+.t-cut{--c:var(--t-cut);--cb:var(--t-cut-bg)}
+.t-ask{--c:var(--t-ask);--cb:var(--t-ask-bg)}
+.gut{padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--paper)}
+header.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:var(--head);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+.bar{max-width:78rem;margin:0 auto;display:flex;flex-wrap:wrap;gap:6px 10px;align-items:center;padding-top:8px;padding-bottom:8px}
+.bar .name{font-weight:750;font-size:.98rem;margin-right:auto}
+.prog{font-size:.84rem;color:var(--muted)}
+.prog b{color:var(--ink)}
+.meter{height:4px;background:var(--soft);border-radius:4px;overflow:hidden;flex-basis:100%}
+.meter i{display:block;height:100%;width:0;background:var(--ok);transition:width .2s}
+.btn{border:1px solid var(--line);background:var(--paper);border-radius:8px;padding:6px 11px;min-height:36px;font-size:.88rem}
+.btn:hover{border-color:var(--muted)}
+.btn.main{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.tools{max-width:78rem;margin:0 auto;padding-top:4px;padding-bottom:10px;display:grid;gap:10px}
+.tools[hidden]{display:none}
+.tools .grp{display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+.tools .grp>.lab{font-size:.78rem;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.04em;margin-right:4px}
+.chip{border:1px solid var(--c,var(--line));background:var(--cb,var(--paper));color:var(--ink);border-radius:999px;padding:3px 10px;font-size:.8rem;min-height:30px}
+.chip[aria-pressed="false"]{background:transparent;opacity:.55;text-decoration:line-through}
+.chip .n{font-weight:700}
+.tools select,.tools input[type=search]{border:1px solid var(--line);border-radius:8px;padding:6px 8px;min-height:36px;max-width:100%}
+.tools input[type=search]{width:16rem}
+.check{display:flex;gap:6px;align-items:center;font-size:.88rem}
+.panel{max-width:78rem;margin:0 auto;padding-top:10px;padding-bottom:14px;border-top:1px dashed var(--line)}
+.panel[hidden]{display:none}
+.panel .row{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:6px 0}
+.panel textarea{width:100%;min-height:7rem;border:1px solid var(--line);border-radius:8px;padding:8px;font:13px/1.4 ui-monospace,SFMono-Regular,Menlo,monospace}
+.status{font-size:.86rem;color:var(--muted);min-height:1.2em}
+.intro{max-width:46rem;margin:18px auto 6px;font-size:.95rem}
+.intro .box{background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:12px 16px}
+.intro p{margin:.5em 0}
+.intro .src{font-size:.82rem;color:var(--muted)}
+.legend{display:flex;flex-wrap:wrap;gap:6px;margin:8px 0 2px}
+.store-note{font-size:.82rem;color:var(--muted)}
+main.article{max-width:46rem;margin:0 auto 40vh;font:1.06rem/1.7 Georgia,"Iowan Old Style","Palatino Linotype",serif}
+main.article h2,main.article h3,main.article h4,main.article h5,main.article h6{font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;line-height:1.25;margin:2.1em 0 .5em}
+main.article h2{font-size:1.45rem}main.article h3{font-size:1.2rem}main.article h4{font-size:1.06rem}main.article h5{font-size:.98rem}main.article h6{font-size:.92rem}
+main.article p,main.article blockquote,.blk.li{margin:.85em 0}
+main.article blockquote{border-left:3px solid var(--line);padding-left:1rem;color:var(--muted)}
+.blk.li{display:flex;gap:.55em;padding-left:.4em}
+.blk.li .mk{flex:0 0 auto;font-weight:700}
+/* 2026-11-02: never copied with the text (Joel's checks of paragraphs copied from these pages read "P1Here is a list"; taking the labels out alone turned AI Detected into Human Written, gate E326) */
+.pn{font:600 .66em system-ui,sans-serif;color:var(--muted);margin-right:.45em;vertical-align:.12em;-webkit-user-select:none;user-select:none}
+.blk.li .pn{order:-1}
+.native-blk{font:600 .85rem system-ui,sans-serif;color:var(--muted);background:var(--soft);border:1px dashed var(--line);border-radius:8px;padding:8px 12px;margin:1em 0}
+mark.hl{background:var(--cb);color:inherit;border-bottom:2px solid var(--c);border-radius:2px;padding:0 .04em;cursor:pointer;-webkit-box-decoration-break:clone;box-decoration-break:clone}
+mark.hl.multi{background-image:repeating-linear-gradient(135deg,transparent 0 6px,rgba(127,127,127,.18) 6px 8px)}
+mark.hl.leave{background:transparent;border-bottom:2px dotted var(--muted)}
+mark.hl.done{background:transparent;border-bottom-style:solid;opacity:.8}
+body:not(.show-leave) mark.hl.leave{border-bottom:none;cursor:text}
+.moving{border-left:4px solid var(--c);padding-left:10px;margin:.6em 0}
+.moving.leave{border-left-color:var(--line)}
+.moving-k{font:700 .72rem system-ui,sans-serif;color:var(--c);text-transform:uppercase;letter-spacing:.05em}
+.marker{font:600 .9rem system-ui,sans-serif;border:2px dashed var(--c);background:var(--cb);border-radius:8px;padding:6px 10px;margin:1.1em 0 .4em}
+.marker.leave{border-color:var(--line);background:transparent;color:var(--muted)}
+.marker .mk-k{font-size:.74rem;text-transform:uppercase;letter-spacing:.04em;color:var(--c)}
+.marker .mk-h{font-size:1rem}
+body:not(.show-leave) .marker.leave,body:not(.show-leave) .card.leave{display:none}
+body:not(.show-leave) .moving.leave{border-left:none;padding-left:0}
+body:not(.show-leave) .moving.leave .moving-k{display:none}
+.card{font:15px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;background:var(--paper);border:1px solid var(--line);border-left:5px solid var(--c);border-radius:10px;padding:10px 12px;margin:.5em 0 1.5em}
+.card.leave{border-left-color:var(--line);background:var(--soft)}
+.card[hidden]{display:none}
+.card.flash{animation:flash 1.4s ease}
+@keyframes flash{0%,100%{box-shadow:none}25%{box-shadow:0 0 0 4px var(--c)}}
+.card-top{display:flex;flex-wrap:wrap;gap:6px 8px;align-items:center}
+.cid{font:600 .78rem ui-monospace,SFMono-Regular,Menlo,monospace;color:var(--muted)}
+.ctitle{font-weight:700;margin-right:auto}
+.pill{font-size:.78rem;font-weight:700;border-radius:999px;padding:2px 9px;background:var(--pend-bg);color:var(--pend);border:1px solid var(--pend)}
+.card[data-status="approved"] .pill{background:var(--ok-bg);color:var(--ok);border-color:var(--ok)}
+.card[data-status="rejected"] .pill{background:var(--no-bg);color:var(--no);border-color:var(--no)}
+.card[data-status="revise"] .pill{background:var(--rev-bg);color:var(--rev);border-color:var(--rev)}
+.card.leave[data-status="pending"] .pill{background:transparent;color:var(--muted);border-color:var(--line)}
+.card[data-status="approved"]{border-color:var(--ok);border-left-color:var(--c)}
+.card[data-status="revise"]{border-color:var(--rev);border-left-color:var(--c)}
+.link-btn{border:none;background:none;color:var(--link);padding:2px 4px;font-size:.84rem;text-decoration:underline;min-height:28px}
+.changes{margin:8px 0 6px}
+.chg{margin:6px 0}
+.chg-k{font-size:.74rem;font-weight:700;text-transform:uppercase;letter-spacing:.04em;color:var(--muted);margin:4px 0 2px}
+.dif,.mv-src{font:1rem/1.62 Georgia,"Iowan Old Style","Palatino Linotype",serif;background:var(--soft);border-radius:8px;padding:8px 11px;white-space:pre-wrap;overflow-wrap:anywhere}
+.ctx{font:.95rem/1.5 Georgia,serif;color:var(--muted);padding:2px 11px}
+.mv-arrow{font-weight:700;color:var(--c);padding:0 11px}
+.ins-h{font:700 1.05rem system-ui,sans-serif;margin:4px 0;padding:6px 11px;background:var(--soft);border-radius:8px}
+del{background:var(--del-bg);color:var(--del-ink);text-decoration:line-through;text-decoration-thickness:1.5px}
+ins{background:var(--ins-bg);color:var(--ins-ink);text-decoration:none;border-bottom:1px solid currentColor}
+ins.br{font:700 .78rem system-ui,sans-serif;padding:0 4px;border-radius:4px}
+ins.br::before{content:"¶ new paragraph"}
+.reads{font:1rem/1.62 Georgia,"Iowan Old Style","Palatino Linotype",serif;background:var(--soft);border-radius:8px;padding:2px 11px;overflow-wrap:anywhere}
+.reads .rd{margin:.6em 0}
+.reads .rd-h{font:700 1.02rem/1.3 system-ui,-apple-system,"Segoe UI",sans-serif;margin:1em 0 .35em}
+.reads .rd-h2{font-size:1.15rem}.reads .rd-h3{font-size:1.08rem}
+.reads .rd-hm{font-weight:400;color:var(--muted);font-size:.8em}
+.reads .rd-note{font:.8rem/1.4 system-ui,sans-serif;color:var(--muted);margin:-.35em 0 .7em}
+.card[data-status="answered"] .pill{background:var(--ok-bg);color:var(--ok);border-color:var(--ok)}
+.also .link-btn{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.8rem}
+.info .row{margin:3px 0}
+.info .lab,.yours-wrap .lab,.note-wrap .lab{font-size:.74rem;font-weight:700;text-transform:uppercase;letter-spacing:.04em;color:var(--muted);margin-right:4px}
+.info .warn span:last-child{color:var(--pend)}
+.decide{display:flex;flex-wrap:wrap;gap:6px;margin:10px 0 6px}
+.dec{border:1.5px solid var(--line);background:var(--paper);border-radius:8px;padding:6px 11px;min-height:38px;font-size:.88rem;font-weight:600}
+.dec.approve{border-color:var(--ok);color:var(--ok)}
+.dec.reject{border-color:var(--no);color:var(--no)}
+.dec.revise{border-color:var(--rev);color:var(--rev)}
+.dec.undo{border-color:var(--pend);color:var(--pend)}
+.card[data-status="approved"] .dec.approve{background:var(--ok);color:var(--paper)}
+.card[data-status="rejected"] .dec.reject{background:var(--no);color:var(--paper)}
+.card[data-status="revise"] .dec.revise{background:var(--rev);color:var(--paper)}
+.dec[hidden]{display:none}
+.yours-wrap,.note-wrap{display:block;margin:6px 0}
+.yours-wrap[hidden]{display:none}
+.card textarea{display:block;width:100%;border:1px solid var(--line);border-radius:8px;padding:7px 9px;font:15px/1.45 system-ui,sans-serif;resize:vertical;margin-top:3px}
+.card textarea.yours{font:1rem/1.55 Georgia,serif;min-height:6.5rem}
+.saved-line{font-size:.78rem;color:var(--muted);min-height:1.1em}
+body.reading .card{display:none}
+.endnote{max-width:46rem;margin:0 auto;font-size:.9rem;color:var(--muted)}
+@media (max-width:640px){
+  .bar .name{display:none}
+  .bar{gap:5px 6px;padding-top:6px;padding-bottom:6px}
+  .prog{flex-basis:100%;font-size:.8rem}
+  .bar .btn{padding:4px 9px;min-height:34px;font-size:.82rem}
+  .tools input[type=search]{width:100%}
+  main.article{font-size:1.02rem}
+  .card{padding:9px 10px}
+  .dec{flex:1 1 auto}
+}
+@media print{header.top,.card .decide,.card textarea{display:none}}
+/* review-form-controls-v1: paired colors for light review forms. */
+input:not([type="checkbox"]):not([type="radio"]):not([type="range"]):not([type="button"]):not([type="submit"]):not([type="reset"]):not([type="hidden"]),textarea,select,option,optgroup,[contenteditable="true"]{color-scheme:only light!important;color:#1f2937!important;-webkit-text-fill-color:#1f2937!important;background-color:#ffffff!important;caret-color:#1f2937!important}
+input::placeholder,textarea::placeholder{color:#526174!important;-webkit-text-fill-color:#526174!important;opacity:1}
+select option:checked{color:#ffffff!important;-webkit-text-fill-color:#ffffff!important;background-color:#244e72!important}
+input:focus-visible,textarea:focus-visible,select:focus-visible,button:focus-visible,[contenteditable="true"]:focus-visible{outline:3px solid #2458a6;outline-offset:2px}
+@media(forced-colors:active){input,textarea,select,option,optgroup,[contenteditable="true"]{forced-color-adjust:auto;color:CanvasText!important;-webkit-text-fill-color:CanvasText!important;background-color:Canvas!important;caret-color:CanvasText!important}input::placeholder,textarea::placeholder{color:GrayText!important;-webkit-text-fill-color:GrayText!important}select option:checked{color:HighlightText!important;-webkit-text-fill-color:HighlightText!important;background-color:Highlight!important}}
+
+</style><style>
+.t-science{--c:#0e7490;--cb:#d3f1f8}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .t-science{--c:#67e8f9;--cb:#123a44}}
+:root[data-theme="dark"] .t-science{--c:#67e8f9;--cb:#123a44}
+</style>
+<header class="top">
+  <div class="bar gut">
+    <span class="name">Neuro De-Armoring Cards, 11 November (2): potassium, rethought on the science</span>
+    <span class="prog" id="prog" aria-live="polite"></span>
+    <button type="button" class="btn" id="prevBtn" title="The card before this one">↑ Previous</button>
+    <button type="button" class="btn main" id="nextBtn" title="The next suggestion you haven't decided">Next undecided ↓</button>
+    <button type="button" class="btn" id="toolsBtn" aria-expanded="false" aria-controls="tools">Filters</button>
+    <button type="button" class="btn" id="saveBtn" aria-expanded="false" aria-controls="savePanel">Save / send</button>
+    <div class="meter" aria-hidden="true"><i id="meter"></i></div>
+  </div>
+  <div class="tools gut" id="tools" hidden>
+    <div class="grp"><span class="lab">Show</span><button type="button" class="chip t-science" data-filter-type="science" aria-pressed="true" title="Something the sources don&#x27;t support, changed as little as the science allows.">A claim corrected <span class="n" data-count-type="science"></span></button></div>
+    <div class="grp"><span class="lab">Status</span>
+      <select id="statusFilter" aria-label="Show suggestions by status">
+        <option value="all">All</option><option value="pending">Not decided yet</option><option value="approved">Approved</option>
+        <option value="rejected">Rejected</option><option value="revise">Revise</option><option value="noted">With a comment</option>
+      </select>
+      <label class="check"><input type="checkbox" id="showLeave"> The ones a reader flagged and I'd leave (<span id="leaveCount"></span>)</label>
+    </div>
+    <div class="grp"><span class="lab">Find</span><input type="search" id="search" placeholder="Words in a suggestion or its paragraph" aria-label="Search">
+      <select id="sectionJump" aria-label="Go to a section"><option value="">Go to a section…</option></select>
+      <label class="check"><input type="checkbox" id="readingMode"> Read the guide without the cards</label>
+    </div>
+  </div>
+  <div class="panel gut" id="savePanel" hidden>
+    <div class="store-note" id="storeNote">Your answers save in this browser as you click.</div>
+    <div class="row"><button type="button" class="btn main" id="copyJson">Copy my answers (JSON)</button><button type="button" class="btn" id="saveJson">Save them as a file</button></div>
+    <div class="row"><label class="btn" for="importFile">Load answers from a file</label><input type="file" id="importFile" accept=".json,application/json" hidden>
+      <button type="button" class="btn" id="pasteToggle">Paste answers instead</button></div>
+    <div id="pasteBox" hidden><textarea id="pasteArea" placeholder="Paste a JSON answers file here"></textarea><div class="row"><button type="button" class="btn" id="pasteLoad">Load the pasted answers</button></div></div>
+    <textarea id="copyArea" hidden readonly aria-label="Your answers as JSON"></textarea>
+    <div class="status" id="saveStatus" aria-live="polite"></div>
+  </div>
+</header>
+<div class="intro gut"><div class="box">
+<p>SC-106d again, after your message. The card now rests on the science, searched again with GPT's sources checked one by one, and the paleo sentence stays as your view.</p><p>This card replaces SC-106d. No compound, dose, unit or timing changes.</p><p>After this card, the protocol gets read as a whole against the settled science.</p>
+<div class="legend" aria-hidden="true"><button type="button" class="chip t-science" data-filter-type="science" aria-pressed="true" title="Something the sources don&#x27;t support, changed as little as the science allows.">A claim corrected <span class="n" data-count-type="science"></span></button></div>
+<p class="src">This page is a view of what's in Git: <a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/HUMANIZED-SO-FAR.md" target="_blank" rel="noopener noreferrer">the guide so far</a> (version 8de00b80) and <a href="https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/sci-p23/REVIEW-X1111B.md" target="_blank" rel="noopener noreferrer">the list of suggestions</a>, built 2026-11-11T22:35:00Z. Your answers go into Git as well, once you tell me you're done.</p>
+</div></div>
+<main class="article gut" id="article">
+<div class="blk native-blk" id="b0" data-b="0"><span class="native">[image 1]</span> <a href="https://substackcdn.com/image/fetch/$s_!ynMU!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff12376e5-68be-420d-8489-5dd9ceae39b3_1122x1402.png" target="_blank" rel="noopener noreferrer">open</a></div>
+<h2 class="blk" id="b1" data-b="1">Introduction</h2>
+<p class="blk" id="b2" data-b="2"><span class="pn">P1</span>When people tell me they have trauma, I generally recommend they follow my <a href="http://innerchild.u-dont-exist.com/" target="_blank" rel="noopener noreferrer">inner child therapy</a> guide, which includes <a href="http://somatic.u-dont-exist.com" target="_blank" rel="noopener noreferrer">somatic therapy &amp; breathwork.</a> To help people engage more deeply with the practices, I have advised the use of my <a href="http://soma.u-dont-exist.com/" target="_blank" rel="noopener noreferrer">Ultimate Psychedelic protocol</a>. But recently, I realized that there&#x27;s some more basic physiological interventions we need to implement before getting to those levels. The very first step is fixing your physical health and neuro-inflammation. I suggest starting with my <a href="http://detox.u-dont-exist.com" target="_blank" rel="noopener noreferrer">detox guide</a>. After addressing overall health and neuro-inflammation, this de-armoring guide gets more specific to address the hardened neural pathways that have developed over a lifetime.</p>
+<p class="blk" id="b3" data-b="3"><span class="pn">P2</span>This protocol is partly theoretical and partly based on experience reports. There&#x27;s no peer-reviewed study that says all this, although there are studies supporting various parts of it. As with any guide, see what makes sense for you, your genetics, your situation, and your experience. People are all quite different, and you never know until you try.</p>
+<div class="blk native-blk" id="b4" data-b="4"><span class="native">[image 2]</span> <a href="https://substackcdn.com/image/fetch/$s_!KvZl!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc3c39ed3-8535-4788-b3e2-49bc0e7d73d0_453x580.png" target="_blank" rel="noopener noreferrer">open</a></div>
+<h2 class="blk" id="b5" data-b="5">The &quot;Biological Resilience&quot; Protocol</h2>
+<h4 class="blk" id="b6" data-b="6">A Complete Guide to Bio-De-Armoring</h4>
+<p class="blk" id="b7" data-b="7"><span class="pn">P1</span>⚠️ CRITICAL MEDICAL DISCLAIMER:DMSO Safety: You should use 99.9% Pharmaceutical Grade DMSO, ideally in a glass bottle. It&#x27;s sold on Amazon and other sites (I&#x27;ve never had a bad batch of DMSO). Ensure hands, lungs, and nose are clean before using. See my <a href="http://dmso.u-dont-exist.com/" target="_blank" rel="noopener noreferrer">full DMSO reference</a> here.</p>
+<p class="blk" id="b8" data-b="8"><span class="pn">P2</span>Electrolytes: Consult a doctor if you have kidney disease or heart conditions.</p>
+<p class="blk" id="b9" data-b="9"><span class="pn">P3</span>Ethnobotanicals:Iboga and Psilocybin are illegal in many jurisdictions and carry risks. Never combine Iboga with most medications (especially heart &amp; psych meds). See full <a href="http://iboga.u-dont-exist.com/" target="_blank" rel="noopener noreferrer">iboga guide here</a>, and <a href="http://ibogamicroprotocol.u-dont-exist.com/" target="_blank" rel="noopener noreferrer">microdosing protocol here</a>.</p>
+<p class="blk" id="b10" data-b="10"><span class="pn">P4</span>Behavioral Warning (The Isolation Trap): While this protocol demands starving the brain of &quot;Phasic&quot; Dopamine (excitement, novelty, the chase), do not isolate completely. Total social isolation spikes Cortisol, the chronic stress hormone, which sensitizes the brain to Glutamate and effectively locks the armor in place even without any addiction. You need the &quot;Oxytocinergic Anchoring&quot; of healthy social relationships, because humans are social animals.</p>
+<p class="blk" id="b11" data-b="11"><span class="pn">P5</span>The Rule: Seek &quot;Boring Love&quot; (parallel play, reading next to someone, safe touch). Avoid &quot;Exciting Love&quot; (romance, high-stakes drama), as this spikes Phasic Dopamine and resets the armor.</p>
+<p class="blk" id="b12" data-b="12"><span class="pn">P6</span>Cognitive Warning: As you de-armor, you will feel naked and exposed. You will assume everyone can see your anxiety. Dr. Nicholas Epley, <a href="https://www.amazon.com/Mindwise-Misunderstand-Others-Think-Believe/dp/030774356X" target="_blank" rel="noopener noreferrer">*Mindwise*</a>, calls this the &quot;Illusion of Transparency.&quot;</p>
+<p class="blk" id="b13" data-b="13"><span class="pn">P7</span>The armored brain projects its own internal threat level onto neutral faces. You will think people are judging you; in reality, they are just thinking about themselves. Rule: During this protocol, do not trust your social intuition. It is calibrated to &quot;Threat,&quot; not &quot;Truth.&quot; Assume you are misreading every room until your heart rate is below 90 BPM.</p>
+<p class="blk" id="b14" data-b="14"><span class="pn">P8</span>Agmatine Warning (The Voltage Governor): Agmatine is not a basic nutrient like magnesium or a membrane nutrient like phosphatidylcholine. It is a multi-target neuromodulator that can affect NMDA/glutamate signaling, imidazoline/alpha-2 adrenergic tone, nitric-oxide pathways, and opioid reward/tolerance.</p>
+<p class="blk" id="b15" data-b="15"><span class="pn">P9</span>Precautions/Side Effects: Do not use concurrently with opioids and/or kratom (will reduce tolerance), clonidine and/or guanfacine, blood pressure lowering medications (including nitrates and PDE-5 inhibitors), or other complex &quot;psych&quot; stacks without having a physician competent to consider the likelihoods of problematic interactions. Not recommended for use in pregnancy or breast-feeding. Use with extreme caution in those with a prior psychotic episode, lower end blood pressure, or kidney or liver issues.</p>
+<p class="blk" id="b16" data-b="16"><span class="pn">P10</span>Stop immediately if it causes flatness, anhedonia, emotional blunting, new depression, agitation, insomnia, dizziness, palpitations, nausea, loose stools, diarrhea, or increased craving. Only the stomach problems showed up in the human trials, but the flatness happens in practice, so do not &quot;push through&quot; numbness. If agmatine makes the world more gray, it is the wrong tool for that phase.</p>
+<p class="blk" id="b17" data-b="17"><span class="pn">P11</span>Uridine &amp; 5-HTP Warning for Psychedelic Users: These are not &quot;trip enhancers.&quot; They are repair-oriented levers that, in practice, can change brain sensitivity quickly. 5-HTP is serotonergic because it is a direct serotonin precursor. Do not combine it with SSRIs, SNRIs, MAOIs, linezolid, lithium, tramadol, methadone, fentanyl, DXM, MDMA, St. John&#x27;s wort, SAM-e, L-tryptophan, or other serotonin-raising stacks without clinician review. Be especially conservative around ayahuasca / harmalas because MAO-A inhibition can amplify serotonin load, and around iboga / ibogaine because ibogaine and noribogaine interact with serotonin transport biology and already carry serious cardiac and neurological risk.</p>
+<p class="blk" id="b18" data-b="18"><span class="pn">P12</span>Rule: do not take 5-HTP on the same day as psychedelics, and do not use it anywhere near ayahuasca/harmalas or iboga unless the whole medicine plan has been medically reviewed. Uridine is not serotonergic, but it may still change dream vividness, visual sensitivity, craving, and psychedelic tolerance; that&#x27;s from experience, like Scott&#x27;s below, not from studies. Do not take UMP on the same day as psychedelics; if sensitivity changes, assume your old psychedelic dose may now be too high.</p>
+<h3 class="blk" id="b19" data-b="19">Psychology is the Software; Biology is the Hardware.</h3>
+<p class="blk" id="b20" data-b="20"><span class="pn">P1</span>Have you done years of CBT or EMDR and yet you still get triggered and freeze or blow up? One reason to think about, is that standard therapy is trying to rewrite the &quot;code&quot; (your thoughts and behaviors), while the &quot;motherboard&quot; (the brain&#x27;s physical structure and chemistry) is often overheating or damaged, and code doesn&#x27;t run well on a motherboard like that. So to address that, I&#x27;ve designed this protocol to go after 4 specific neuro-biological problems before you go working on the psychology (well, alongside).</p>
+<p class="blk" id="b21" data-b="21"><span class="pn">P2</span>The &quot;Underpinning&quot; Principle Dr. Bruce Perry compares treating trauma to building a house. Standard CBT &amp; EMDR style therapies attempt to &quot;decorate&quot; the house (changing thoughts/behaviors in the Cortex) while the foundation (the Brainstem) is crumbling. You cannot hang curtains in a collapsing house.</p>
+<p class="blk" id="b22" data-b="22"><span class="pn">P3</span>The Modern &quot;Role-Self&quot; vs. The Ancient &quot;True-Self&quot;</p>
+<p class="blk" id="b23" data-b="23"><span class="pn">P4</span>Why does the brain build this armor? Psychologist Lindsay Gibson explains that <a href="https://www.amazon.com/Adult-Children-Emotionally-Immature-Parents/dp/B01F2L1HLM/ref=sr_1_1?crid=2JLWO51H6BXO1&amp;dib=eyJ2IjoiMSJ9.WNWQbN2kbLNCbYq_W-fodAEeQ_UlnBi9Ju6cPln8M1TPg-RV-3-nRjn0Qj-b2kgxvix3vglikzPoFdr6m1bV4ZrTYX1qWRDNS0Dbk17dV3oK-KP3CXCX7QstfIkQGtiiLMJyKwT9N66J8RW_F6c7YoH8oGEsjPnyij0gNk5i-nnTMPGQa4VFhVtocMt46Fax3GwdCYOwIduJYQPc1LjZSgr9sS7b1bTey37wCvpdEnc.YYpzi2NWlm3O9D3YaGlV-1PGakmscQwxvmqh3imaiA8&amp;dib_tag=se&amp;keywords=children+of+emotionally+immature+parents&amp;qid=1766678988&amp;s=books&amp;sprefix=children+of+emotionally+immature+parents%2Cstripbooks%2C395&amp;sr=1-1" target="_blank" rel="noopener noreferrer">*Adult children of emotionally immature parents*</a> survive by creating a &quot;Role-Self&quot;--a defensive personality designed to please others and manage the parent&#x27;s emotions. But we can&#x27;t just blame our immature parents for this Role Self. It really is true what they say: &quot;It takes a village to raise a child.&quot; The modern large society with only one or two people caring for the children is vastly insufficient. As Dr. Bruce Perry explains, our brains evolved in hunter-gatherer bands with a ratio of 4 developmentally mature adults to 1 child. Today, our &quot;enriched&quot; environments offer 1 immature adult to 4 children.</p>
+<p class="blk" id="b24" data-b="24"><span class="pn">P5</span>We are operating on about one-sixteenth of the relational density our biology requires (<a href="https://issuu.com/familyjusticegroup/docs/20230629_journal_final/s/27001732" target="_blank" rel="noopener noreferrer">Perry, 2023</a>). The &quot;Void&quot; you feel is real. Once you have de-armored, you cannot simply return to a lonely life. You must aggressively engineer a &quot;High-Density&quot; social environment (A Tribe), or the brain will eventually reach for the armor again just to survive the cold.</p>
+<p class="blk" id="b25" data-b="25"><span class="pn">P6</span>We grew up building a &quot;role-self&quot; to please and manage the people around us. And the role-self psychology gets locked in physiologically by Dopamine and DeltaFosB, which also underlie addictions, so it&#x27;s a vicious cycle as both create the other. That&#x27;s why I built this protocol, to go after the chemistry holding the false persona in place, so the person you were before the trauma (your &quot;True-Self&quot;) can come back out.</p>
+<p class="blk" id="b26" data-b="26"><span class="pn">P7</span>Neurological De-Armoring is about fixing the underpinnings, not redecorating. It&#x27;s a protocol that serves as a metabolic solvent, via HDAC inhibition, that softens the &quot;concrete&quot; in the brainstem by using Glutamate modulation and supplementing Ketones (BHB) to allow us to dig under the house, and pour a new foundation, so we can eventually update the psychological software upstairs.</p>
+<p class="blk" id="b27" data-b="27"><span class="pn">P8</span>The Anti-Breakthrough (Micro-Dosing) As Dr. Perry explains, we need to temporarily abandon the therapy ideal of the &quot;hour-long breakthrough.&quot; A sensitized, armored nervous system cannot metabolize sixty minutes of trauma processing; that is a flood, not a fix. Dr. Perry&#x27;s data indicates the &quot;therapeutic window&quot; for a dysregulated brain is often only seconds long.</p>
+<p class="blk" id="b28" data-b="28"><span class="pn">P9</span>Your goal is Micro-Dosing Safety: 30 seconds of regulated breathing, twenty times a day. We are not running a marathon; we are doing physical therapy for a broken nervous system. Frequency beats intensity.</p>
+<h4 class="blk" id="b29" data-b="29">Part 1: THE SCIENCE (Why We Do This)</h4>
+<p class="blk" id="b30" data-b="30"><span class="pn">P1</span>Before applying the tools, you must understand what actually goes wrong in the brain during trauma, withdrawal or chronic stress, the &quot;Hardware Failures&quot; the tools are for.</p>
+<h5 class="blk" id="b31" data-b="31">A. The Metabolic Red Line</h5>
+<p class="blk" id="b32" data-b="32"><span class="pn">P1</span>If you&#x27;ve tried to talk yourself out of a trigger and couldn&#x27;t, that&#x27;s because anatomy overrides intellect. Dr. Perry describes a &quot;Metabolic Red Line&quot; for the traumatized brain: once your resting heart rate goes up or your heart-rate variability drops (a state of &quot;Fear&quot;), blood flow shifts away from the Cortex, which does logic and reasoning, and down to the Brainstem, which runs survival.</p>
+<p class="blk" id="b33" data-b="33"><span class="pn">P2</span>So if you try to process trauma while you&#x27;re above this red line, you&#x27;re adding to the armor instead of taking it off. In that state your functional IQ drops a lot, and the Nucleus Accumbens gets flooded with the catecholamines that transcribe new DeltaFosB proteins, the &quot;armor&quot; itself.</p>
+<h5 class="blk" id="b34" data-b="34">B. The &quot;Overheating&quot; CPU: Glutamate Excitotoxicity</h5>
+<p class="blk" id="b35" data-b="35"><span class="pn">P1</span>The Problem: Glutamate is the brain&#x27;s primary excitatory neurotransmitter. In states of stress, the brain floods with Glutamate. This is the &quot;voltage spike&quot;--the engine is redlining.</p>
+<p class="blk" id="b36" data-b="36"><span class="pn">P2</span>The Metabolic Red Line: We often assume we can &#x27;think&#x27; our way out of trauma, but Dr. Bruce Perry&#x27;s data proves that anatomy overrides intellect. When trauma survivors become highly dysregulated, prefrontal cortical functioning often decreases while survival-oriented neural systems become more dominant. In this state, learning and memory processes may favor reinforcement of existing fear networks rather than integration of traumatic material. For this reason many trauma therapies emphasize staying within a manageable &quot;window of tolerance&quot; rather than overwhelming activation. You can often tell when you&#x27;re dysregulated by noticing if your heart is beating faster or if your heart-rate variability declines. DeltaFosB may be the master switch, but the research isn&#x27;t settled.</p>
+<p class="blk" id="b37" data-b="37"><span class="pn">P3</span>The Mechanism: When glutamate floods into the neuron, it jams open the NMDA &quot;doors&quot; (receptors), which allows calcium to flood in. Calcium at such high levels caused by stress can injure the neurons. Possibly as a protective mechanism, those neurons have been observed (in rats) to pull back their complex interactions with other neurons for up to two weeks after a stressful event (<a href="https://www.nature.com/articles/s41398-023-02366-w" target="_blank" rel="noopener noreferrer">Bonifacino, et al, 2023</a>). It&#x27;s theorized that chronic stress on neurons also makes them more vulnerable to other toxic insults (<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC2746750/" target="_blank" rel="noopener noreferrer">Conrad, 2008</a>), which is kind of common sense. What does all that feel like? Although popular neuroscience doesn&#x27;t communicate this well, neurotransmitters affect different brain regions differently. Under chronic stress, glutamate rises in the part of the amygdala that flags threats (<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC4721288" target="_blank" rel="noopener noreferrer">Wilson, 2015</a>), producing anxiety, rage, all that good stuff. Block the NMDA receptors there, and anxious behaviour drops in animals (<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3670432" target="_blank" rel="noopener noreferrer">Boyle, 2013</a>).</p>
+<p class="blk" id="b38" data-b="38"><span class="pn">P4</span>The Secondary Signal Dial (GluD Receptors): While NMDA receptors are the main door calcium comes in through when glutamate fires, another door was recently discovered in the GluD receptors. What opens them is D-serine (one of the tools below) and GABA, the neurotransmitter that usually quiets down communication, not glutamate (<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12520249/" target="_blank" rel="noopener noreferrer">Wang, et al, 2025</a>).</p>
+<p class="blk" id="b39" data-b="39"><span class="pn">P5</span>D-serine may help therapy update old memories, since it switches on a spot on the NMDA receptor that this kind of learning needs (<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC23961" target="_blank" rel="noopener noreferrer">Wolosker, et al, 1999</a>). But the drug that&#x27;s actually been tested alongside exposure therapy (facing the feared thing in small, safe doses) is a different one, D-cycloserine (DCS), which works on that same spot, and across 21 trials with over 1,000 patients it gave the therapy a small boost (<a href="https://jamanetwork.com/journals/jamapsychiatry/fullarticle/2599177" target="_blank" rel="noopener noreferrer">Mataix-Cols, et al, 2017</a>). So what does it actually do? It doesn&#x27;t erase fear, it strengthens whatever you learn in the session, good or bad. End the session with the fear down and some sense of mastery, and DCS (and maybe D-serine) helps that stick; end it overwhelmed, and it can lock in the fear instead (<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3747985" target="_blank" rel="noopener noreferrer">Smits, et al, 2013</a>).</p>
+<p class="blk" id="b40" data-b="40"><span class="pn">P6</span>The Fix: The Brake (NAC): NAC gives the brain&#x27;s support cells cystine (an amino acid), which they trade for glutamate, and in rats that glutamate sitting outside the synapse turns on a brake that cuts how much glutamate gets released into it (<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC1413952" target="_blank" rel="noopener noreferrer">Moran, et al, 2005</a>).</p>
+<p class="blk" id="b41" data-b="41"><span class="pn">P7</span>The Lock (Zinc/Magnesium): Magnesium physically plugs the NMDA receptor&#x27;s channel while the cell is at rest (<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC6333211" target="_blank" rel="noopener noreferrer">Jalali-Yazdi, et al, 2018</a>), and zinc mostly makes the channel open less often (<a href="https://pubmed.ncbi.nlm.nih.gov/21504727/" target="_blank" rel="noopener noreferrer">Amico-Ruvio, et al, 2011</a>), so less calcium gets in.</p>
+<p class="blk" id="b42" data-b="42"><span class="pn">P8</span>The Repair (L-Serine): Your brain makes D-Serine out of L-Serine (<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC23961" target="_blank" rel="noopener noreferrer">Wolosker, et al, 1999</a>). So taking L-Serine gives you more D-serine for that spot on the NMDA receptor, which means a session that ends with the fear down and a sense of mastery has a better chance of sticking. The conversion isn&#x27;t very efficient though, so some people take D-serine itself instead (more risk, but also more benefit).</p>
+<p class="blk" id="b43" data-b="43"><span class="pn">P9</span>The Governor (Agmatine): Agmatine is the optional &quot;voltage governor.&quot; It may help when the problem is not just excess glutamate in the synapse, but NMDA/GluN2B over-reactivity--the hot, itchy, reactive, pain-y, rumination-heavy version of the Glutamate Storm. It is not a daily foundation nutrient. It is a state-dependent brake.</p>
+<p class="blk" id="b44" data-b="44"><span class="pn">P10</span>Important conflict: do not use agmatine as a same-session companion to D-Serine/DCS-style exposure or EMDR work. D-Serine/DCS-style tools are meant to support NMDA-dependent learning and memory updating; agmatine partially brakes NMDA activity. Use agmatine for storm control, not immediately before a session where the goal is deliberate reconsolidation.</p>
+<h5 class="blk" id="b45" data-b="45">C. The &quot;Hardened&quot; Circuit: Dynorphin &amp; DeltaFosB</h5>
+<p class="blk" id="b46" data-b="46"><span class="pn">P1</span>The Problem: If you&#x27;re feeling apathetic, gray, no desire for anything, you might be in a neurochemical &quot;Void&quot; state caused by Dynorphin &amp; DeltaFosB. That&#x27;s because the brain releases dynorphin to suppress dopamine in order to protect from trauma&#x27;s Glutamate Storm.  And as we know, dopamine is the neurotransmitter for motivation (by showing us what is important to pay attention to). Even though dynorphin clears relatively quickly, allowing us the motivation to learn, DeltaFosB keeps cementing our neural connections, preventing that learning from really &quot;clicking&quot; as durable insights. And because we&#x27;re still reacting in the same maladaptive ways (same fears, etc), our psychology then asks for more DeltaFosB to keep the armor in place, in a vicious cycle. (<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC2607320" target="_blank" rel="noopener noreferrer">Nestler, 2008</a>; <a href="https://pubmed.ncbi.nlm.nih.gov/20473292/" target="_blank" rel="noopener noreferrer">Vialou, et al, 2010</a>; <a href="https://pubmed.ncbi.nlm.nih.gov/37003493/" target="_blank" rel="noopener noreferrer">Zhong, et al, 2023</a>).</p>
+<p class="blk" id="b47" data-b="47"><span class="pn">P2</span>Why Standard Meds Failed You If you have tried SSRIs (antidepressants) and failed, you are not crazy. In a small trial of male combat veterans with severe, long-term PTSD, Prozac did no better than a placebo (<a href="https://scholars.duke.edu/publication/759904" target="_blank" rel="noopener noreferrer">Hertzberg, et al, 2000</a>). Trials in veterans have been mixed since, yet the VA still recommends sertraline and paroxetine (<a href="https://pubmed.ncbi.nlm.nih.gov/38408360/" target="_blank" rel="noopener noreferrer">VA/DoD, 2023</a>). And the side effects are well-known, including anhedonia, zombification, and sexual dysfunction.</p>
+<p class="blk" id="b48" data-b="48"><span class="pn">P3</span>Why don&#x27;t these drugs work on calcified PTSD? Because even if they did work for mood by modulating serotonin transmission, PTSD is not a mood disorder. That&#x27;s a bit like putting some Bengay on a broken leg. This protocol tries to get at the underpinnings of the problem. The ketone BHB blocks enzymes called HDACs (<a href="https://escholarship.org/uc/item/4w889738" target="_blank" rel="noopener noreferrer">Shimazu, et al, 2013</a>), and in mice that couldn&#x27;t hold on to extinction learning (learning that a cue is now safe), an HDAC blocker made the new learning last (<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3961057" target="_blank" rel="noopener noreferrer">Whittle &amp; Singewald, 2014</a>). Whether ketosis does that in people hasn&#x27;t been tested.</p>
+<div class="blk native-blk" id="b49" data-b="49"><span class="native">[video]</span></div>
+<p class="blk" id="b50" data-b="50"><span class="pn">P5</span>The Fix (The Unlock): DeltaFosB does fade on its own, but <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8879420" target="_blank" rel="noopener noreferrer">slowly</a>, and the same fears keep making more. Along with therapy and the de-armoring supplements, we use &quot;System Reformats&quot; (Psychedelics and Iboga). Iboga raised GDNF, a growth factor that protects dopamine neurons, in rats (<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC1193648" target="_blank" rel="noopener noreferrer">He, et al, 2005</a>), and one dose of psilocybin grew new connections in mouse brains that lasted a month (<a href="https://pubmed.ncbi.nlm.nih.gov/34228959/" target="_blank" rel="noopener noreferrer">Shao, et al, 2021</a>). Whether either loosens DeltaFosB&#x27;s hold hasn&#x27;t been tested directly, although these have been shown to help with addictions, which DeltaFosB plays a role in.</p>
+<p class="blk" id="b51" data-b="51"><span class="pn">P6</span>While the science is focused on some specific substances in certain psychedelics, like psilocybin and ibogaine, the reality is much more complicated. Each iboga tree and each mushroom strain (and phenotype) have different levels of different psychedelic alkaloids apart from the principal ones studied. You can learn more about the different types of iboga in <a href="http://iboga.u-dont-exist.com/" target="_blank" rel="noopener noreferrer">my iboga guide</a>. Aside from the different ibogas, I find <a href="http://soma.u-dont-exist.com/" target="_blank" rel="noopener noreferrer">loveyhuasca</a> to be more clear-headed than shrooms and often more beneficial, although some shroom strains, like Orissa India, are much more therapeutic than others (like Golden Teacher, Penis Envy) in my experience. And part of the way these help, from my understanding, is their antiparasitic action. Each psychedelic, and even each mushroom strain seems to target a different subset of parasites, and there&#x27;s an anecdote-based theory that physical parasites solidify mental and spiritual ones. I remember eating some B+ strain shrooms which people told me were very mild and gentle. For me it was the opposite, absolute hell, until a very large and strange parasite came out and then instantly I felt amazing. More recently, I&#x27;ve learned that the toxins released during the psychedelic parasite cleanse actually block a lot of the benefits that we can get from the experience. Binding those toxins or protecting the brain from them is crucial for max benefits. I explain my methods for doing so in my <a href="http://badtrips.u-dont-exist.com/" target="_blank" rel="noopener noreferrer">Altered States Guide</a>.</p>
+<h5 class="blk" id="b52" data-b="52">D. The &quot;Lagging&quot; System: Toxicity &amp; Hypometabolism (The Fog)</h5>
+<p class="blk" id="b53" data-b="53"><span class="pn">P1</span>The Problem: &quot;Brain Fog&quot; may partly be a fuel problem. In brain scans of people with PTSD, some regions burn less glucose (sugar), and the less they burn, the worse the symptoms (<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC6820768" target="_blank" rel="noopener noreferrer">Jeong, et al, 2019</a>).</p>
+<p class="blk" id="b54" data-b="54"><span class="pn">P2</span>The Fix: If the brain is burning less sugar, we give it another fuel. Ketones are its backup fuel, and brains that take up less glucose (as in early Alzheimer&#x27;s) still take up ketones normally (<a href="https://www.frontiersin.org/journals/molecular-neuroscience/articles/10.3389/fnmol.2016.00053/text" target="_blank" rel="noopener noreferrer">Cunnane, et al, 2016</a>). PQQ made mouse cells build more mitochondria, the parts of the cell that burn fuel (<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC2804159" target="_blank" rel="noopener noreferrer">Chowanadisai, et al, 2010</a>); whether it does that in the human brain hasn&#x27;t been shown.</p>
+<h5 class="blk" id="b55" data-b="55">E. The &quot;Save Button&quot;: Memory Reconsolidation</h5>
+<p class="blk" id="b56" data-b="56"><span class="pn">P1</span>The Problem: Every time you have a flashback, your brain attempts to &quot;save&quot; the memory again, often reinforcing the emotional trauma loop.</p>
+<p class="blk" id="b57" data-b="57"><span class="pn">P2</span>The Fix (&quot;The Jammer&quot;): Memories require visual processing power to be restored. If you occupy the Visual-Spatial Working Memory (e.g., playing Tetris) during the critical window <em>after</em> a flashback, the brain fails to &quot;save&quot; the visual details as strongly, and the memory flashes back less often. In the lab, a reminder of a day-old memory followed by Tetris cut its flashbacks, and neither one alone did (<a href="https://pubmed.ncbi.nlm.nih.gov/26133572/" target="_blank" rel="noopener noreferrer">James, et al, 2015</a>).</p>
+<p class="blk" id="b58" data-b="58"><span class="pn">P3</span>Instead of Tetris (which requires app/phone), you can use the &quot;Color-Path Connect&quot; method. It hasn&#x27;t been tested the way Tetris has, but it is built on the same idea: it makes your brain map 3D space, which competes with the visual &quot;saving&quot; of a traumatic memory. Skip counting and word games, though: in the lab, a verbal quiz game after a trauma film led to more flashbacks, not fewer (<a href="https://pubmed.ncbi.nlm.nih.gov/21085661/" target="_blank" rel="noopener noreferrer">Holmes, et al, 2010</a>).</p>
+<p class="blk" id="b59" data-b="59"><span class="pn">P4</span>How to play:Pick a color (e.g., Blue).</p>
+<p class="blk" id="b60" data-b="60"><span class="pn">P5</span>Trace a Path: Find every blue object in the room and mentally draw a line connecting them from left to right.</p>
+<p class="blk" id="b61" data-b="61"><span class="pn">P6</span>Add Complexity: Now, mentally &quot;rotate&quot; those objects in your mind or imagine them changing into a different shape (e.g., &quot;That blue chair is now a blue cube&quot;).</p>
+<p class="blk" id="b62" data-b="62"><span class="pn">P7</span>The Goal: You must do this for 10–20 minutes immediately after a trigger to &quot;jam&quot; the memory reconsolidation.</p>
+<p class="blk" id="b63" data-b="63"><span class="pn">P8</span>+1</p>
+<h3 class="blk" id="b64" data-b="64">Part 2: Reducing Anxiety &amp; Depression</h3>
+<p class="blk" id="b65" data-b="65"><span class="pn">P1</span>Lower the Cortisol Floor (Phosphatidylserine)</p>
+<p class="blk" id="b66" data-b="66"><span class="pn">P2</span>Before ketones, before D-Serine, address cortisol directly--because cortisol is what sensitizes the brain to Glutamate and locks the armor in place (see the Isolation Trap above). The single most useful nutrient I&#x27;ve found for this is Phosphatidylserine (PS), a phospholipid that blunts the HPA-axis cortisol response to stress.</p>
+<p class="blk" id="b67" data-b="67"><span class="pn">P3</span>Who it&#x27;s for: People running high or <em>reactive</em> cortisol--the &quot;wired and tired,&quot; can&#x27;t-downshift, waking-at-3-a.m. type. This includes many people with slow COMT (the Val158Met variant that clears catecholamines slowly, so stress hormones linger and you stay on high alert). One friend, Scott, with exactly this profile got more out of PS than anything else in this protocol. Be honest about the evidence, though: the cortisol-lowering effect is best documented in <em>chronically stressed</em> people; the slow-COMT angle is mechanism plus my own observation, not a controlled finding.</p>
+<p class="blk" id="b68" data-b="68"><span class="pn">P4</span>Dose: about 400 mg/day, taken earlier in the day. In the stress studies, which used a PS complex, 400 mg blunted the cortisol response, while 200 mg did nothing and 600 or 800 mg didn&#x27;t either.</p>
+<p class="blk" id="b69" data-b="69"><span class="pn">P5</span>Food instead of capsules: One of the few supplements you can actually eat your way to. Atlantic mackerel (~480 mg/100g) and herring (~360 mg) are richest; tuna is lower (~194 mg). A 200g mackerel fillet ≈ 960 mg PS--above clinical doses. (Don&#x27;t lean on tuna daily--mercury.)</p>
+<p class="blk" id="b70" data-b="70"><span class="pn">P6</span>⚠️ The catch, again: PS is only for genuinely high cortisol--and there are two ways to find out you guessed wrong. PS works by <em>blunting</em> cortisol. If yours isn&#x27;t actually elevated, lowering it pushes you down the other side of the curve, where the symptoms look almost identical to high cortisol. Watch for either signal:</p>
+<p class="blk" id="b71" data-b="71"><span class="pn">P7</span>Flat / numb / no drive--you&#x27;ve over-suppressed. Classic too-little-cortisol.</p>
+<p class="blk" id="b72" data-b="72"><span class="pn">P8</span>More wired, not less--racing thoughts, 3 a.m. waking, irritability, vivid or stressful dreams. Counterintuitive but real: when cortisol drops too far, the body leans on adrenaline to hold up blood pressure and alertness, and you feel <em>more</em> stressed, not less.</p>
+<p class="blk" id="b73" data-b="73"><span class="pn">P9</span>Either one means PS is the wrong tool for you <em>right now</em>. Don&#x27;t raise the dose to push through--stop. If you want to know before you start, a 4-point salivary cortisol test tells you whether you&#x27;re actually high.</p>
+<p class="blk" id="b74" data-b="74"><span class="pn">P10</span>The rule of thumb if you can&#x27;t test: Wired, tired, can&#x27;t switch off, 3 a.m. waking → probably high, PS is worth a trial. Numb, low-drive, flat → probably <em>not</em> high; PS will likely make it worse. Skip it or test first.</p>
+<h4 class="blk" id="b75" data-b="75">Agmatine vs PS vs Phosphatidylcholine</h4>
+<p class="blk" id="b76" data-b="76"><span class="pn">P1</span>Do not confuse these three tools:</p>
+<p class="blk" id="b77" data-b="77"><span class="pn">P2</span>Phosphatidylserine (PS) is the cortisol-floor tool. Use it only for the high-cortisol &quot;wired and tired&quot; profile.</p>
+<p class="blk" id="b78" data-b="78"><span class="pn">P3</span>Phosphatidylcholine (PC) is a membrane/choline nutrient. It may support general cell-membrane and acetylcholine biology, but it is not a targeted cortisol-lowering or glutamate-braking intervention.</p>
+<p class="blk" id="b79" data-b="79"><span class="pn">P4</span>Agmatine is different from both. It is an optional glutamate/NO/imidazoline &quot;voltage governor.&quot; It belongs in the Shield section, not as a replacement for PS or PC. Like PS, it can overcorrect the system: PS can push low-cortisol people into flatness; agmatine can push already-numb people into more emotional blunting.</p>
+<h4 class="blk" id="b80" data-b="80">Dopamine Receptor Burnout / DAWS Pattern: Uridine Monophosphate</h4>
+<p class="blk" id="b81" data-b="81"><span class="pn">P1</span>Who this is for: Uridine isn&#x27;t for everyone with depression. It could be helpful, though, for folks that show a &quot;burned-out dopamine receptor&quot; pattern, where everything feels gray and there&#x27;s no desire for anything (anhedonia). These folks also find that dreams and psychedelic visuals are weak, so they need unusually high doses to feel anything, and as a result they tend to compulsively reach for ketamine/LSD/novelty just to get a hit. In the medical literature, this burnout pattern is talked about with regard to <a href="https://pubmed.ncbi.nlm.nih.gov/23686524/" target="_blank" rel="noopener noreferrer">dopamine agonist withdrawal syndrome</a> (DAWS). People with DAWS, after tapering off dopamine agonist drugs (like pramipexole or ropinirole), present with symptoms of anxiety, panic, dysphoria, depression, agitation, fatigue, autonomic symptoms, pain, and drug cravings. Scott&#x27;s case looked like DAWS with dopamine receptor D2/D3 reward-system downregulation, which then got worse from frequent LSD microdosing and from trying to force dopamine hits with ketamine.</p>
+<p class="blk" id="b82" data-b="82"><span class="pn">P2</span>The tool: Uridine monophosphate (UMP). There&#x27;s no study showing that &quot;UMP cures DAWS&quot;, only more basic research on what uridine, choline, and DHA do in the brain. All three get carried in the blood to the brain, which uses them to make the fatty membranes at its synapses (circulating precursors for brain phosphatide / synaptic membrane synthesis). Wurtman&#x27;s research group found that <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC4011061/" target="_blank" rel="noopener noreferrer">giving the three together can increase synaptic membrane components and synaptic proteins</a>, and that in animals, adding UMP to DHA made the neurons grow more new connection points (<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC2140951/" target="_blank" rel="noopener noreferrer">DHA-induced dendritic spine formation</a>). And <a href="https://pubmed.ncbi.nlm.nih.gov/16055952/" target="_blank" rel="noopener noreferrer">in old rats, UMP in their food meant their neurons put out more dopamine when stimulated with potassium, and grew more nerve fibers</a>. So it&#x27;s plausible that it works on the synapses this way, but using it for DAWS in people means carefully extrapolating from those studies and from anecdotes like Scott&#x27;s.</p>
+<p class="blk" id="b83" data-b="83"><span class="pn">P3</span>Scott added a standard dose of UMP, and within a day his ketamine/LSD cravings fell hard. He already had choline covered with eggs, and took fish oil for DHA/EPA. His psychedelic tolerance seemed to drop too. You can&#x27;t prove from this whether UMP rebuilt his D3 receptors overnight, but it does suggest that in the right person, UMP can show you very clearly when the brain&#x27;s system for rebuilding synaptic membranes and recovering dopamine receptors has been starved of building materials. Scott was having vivid dreams again too, with real childhood memories surfacing.</p>
+<p class="blk" id="b84" data-b="84"><span class="pn">P4</span>Do a trial with 150-300mg Uridine, in the morning with food. It shouldn&#x27;t take more than 3 to 7 days to get an idea of whether or not it&#x27;s beneficial. Keep your Omega-3&#x27;s up, especially DHA and EPA. Make sure you have sufficient Choline - from eggs, Phosphatidylcholine, CDP-choline, etc, whichever works best for you. Don&#x27;t start the uridine at the same time as starting some other major variable (like 5-HTP, Agmatine, D-serine, Keto diet, Iboga, Shrooms, LSD, Ketamine, etc), since the point is to see whether uridine itself changes the signal.</p>
+<p class="blk" id="b85" data-b="85"><span class="pn">P5</span>Side effects / stop signs: In practice, the most common problem is the &quot;choline headache&quot;, or a spaced-out kind of brain fog. That isn&#x27;t shown in the studies I&#x27;ve seen, but the likely reason is that UMP speeds up neuronal and synaptic membrane synthesis, which places a higher demand on choline than what people may normally get from diet alone. Other stop signs include insomnia, jitteriness, racing thoughts, irritability, emotional flatness, nausea, stomach cramps, or loose stools.</p>
+<p class="blk" id="b86" data-b="86"><span class="pn">P6</span>Vivid dreams and increased sensitivity to psychedelics are the hoped-for benefits of UMP. That means you should not take the old high doses of your psychedelic at first, as it might hit you way harder than you expected.</p>
+<h4 class="blk" id="b87" data-b="87">Serotonin Bottleneck Pattern: 5-HTP + Low-Dose P5P</h4>
+<p class="blk" id="b88" data-b="88"><span class="pn">P1</span>Who this is for: 5-HTP is not for every depressed person either. It could help, though, with a low-serotonin-looking pattern, where it&#x27;s hard to fall asleep and your mood is low, without much warmth to it. At night you get anxious and keep going over the same things. It makes more sense if there&#x27;s also a genetic or clinical reason to suspect a bottleneck in serotonin synthesis, like with Scott, whose genetic data pointed to a TPH2 bottleneck, and 5-HTP helped his sleep and mood. 5-HTP skips over that bottleneck, because your body uses it to make serotonin directly, so people who respond to it can feel it quickly, although it&#x27;s not as strong for sleep or mood as some hype it up to be (see this <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7796270/" target="_blank" rel="noopener noreferrer">broad review of 5-HTP</a>).  I&#x27;d avoid casually experimenting with 5-HTP if you&#x27;re agitated or manic, as it could sometimes push that further. And watch out for serotonin syndrome risk if you&#x27;re on serotonergic meds, or using serotonergic psychedelics/entactogens.</p>
+<p class="blk" id="b89" data-b="89"><span class="pn">P2</span>Scott took 100 mg 5-HTP sublingually at night, with 10–20 mg P5P sublingually in the morning. The P5P isn&#x27;t there as a stimulant, but as the active form of vitamin B6, which the enzyme that turns 5-HTP into serotonin (aromatic amino-acid decarboxylase) needs. He&#x27;s genetically slow-COMT, making him sensitive to too much P5P.</p>
+<p class="blk" id="b90" data-b="90"><span class="pn">P3</span>If you&#x27;re sensitive, start lower and do the trial with just 50mg 5-HTP at night for 2–3 nights, then go up to 100mg if 50mg was clearly helpful and not causing side effects. You can also add 10–20mg P5P in the morning, like Scott did, especially if the 5-HTP felt like it &quot;almost worked,&quot; as that could be a sign it wasn&#x27;t converting cleanly over to serotonin. Don&#x27;t do the trial at the same time as the other suggested regimen changes (like UMP, agmatine, D-serine, psychedelics, or prescription medication changes), since the point is to see whether the 5-HTP itself is doing anything. If it&#x27;s the right tool, the first things you&#x27;ll usually notice are your mood or sleep quality improves, you have less nighttime rumination, and your dreams become more vivid or memorable.</p>
+<p class="blk" id="b91" data-b="91"><span class="pn">P4</span>Side effects / stop signs: The most dangerous symptoms to watch out for are diagnostic of serotonin syndrome, which can be deadly if untreated: agitation + sweating + diarrhea + tremor/clonus + fever, confusion, fast heart rate, or unstable blood pressure. Other stop signs include less dangerous symptoms (some of which are part of serotonin syndrome, but not dangerous alone) like nausea, stomach discomfort, loose stools, headache, vivid or intense dreams, insomnia, sweating, tremor, anxiety, irritability, emotional agitation, or a too-bright / hypomanic feeling.</p>
+<p class="blk" id="b92" data-b="92"><span class="pn">P5</span><a href="https://medlineplus.gov/ency/article/007272.htm" target="_blank" rel="noopener noreferrer">Serotonin syndrome</a> usually comes from mixing 5-HTP casually with anything else that raises serotonin, like antidepressants or MAOIs. Reviews keep warning about the risk with 5-HTP, like <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC5580516/" target="_blank" rel="noopener noreferrer">this case report</a>, where a young guy on sertraline (an antidepressant) took 5-HTP with a whole pile of weight-loss and energy supplements before a workout, and ended up with serotonin syndrome so bad that surgeons had to cut open both of his legs and his forearm to relieve the pressure! Luckily he recovered. If you&#x27;re doing psychedelics, avoid 5-HTP on your psychedelic days, and be especially strict around ayahuasca&#x27;s <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7678905/" target="_blank" rel="noopener noreferrer">harmala MAOI chemistry</a> and around iboga or ibogaine.</p>
+<h4 class="blk" id="b93" data-b="93">Fixing ATP Signaling if Cortisol Isn&#x27;t High</h4>
+<p class="blk" id="b94" data-b="94"><span class="pn">P1</span>If your cortisol is normal or low, low ATP signaling in the brain might be what&#x27;s behind your anxiety or depression. <a href="https://www.sciencedaily.com/releases/2025/11/251126025315.htm" target="_blank" rel="noopener noreferrer">Recent neuroscience</a> (Tian-Ming Gao, et al, 2025) has shown in male mice that anxiety and depression are a result of reduced hippocampal astrocyte ATP release. So I&#x27;d trial 20mg of PQQ in the morning to boost ATP, with ketones, which your neurons can still burn for energy when they&#x27;re struggling to burn sugar. In <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11182043/" target="_blank" rel="noopener noreferrer">Calabrese, et al (2024)</a>, three adults on a ketogenic diet all went into full remission of depression and anxiety within a few months. That&#x27;s only three people, but it&#x27;s part of much broader research.</p>
+<p class="blk" id="b95" data-b="95"><span class="pn">P2</span>You must pick one of two ketone strategies, because the salts in one bring their own sodium while the diet in the other drains it. If you&#x27;re in a crisis and need the fog gone fast, there&#x27;s Strategy A, the &quot;Crisis Mode&quot;. You drink BHB (beta-hydroxybutyrate) salts and keep eating a standard low-sugar diet.</p>
+<div class="blk native-blk" id="b96" data-b="96"><span class="native">[image 3]</span> <a href="https://substackcdn.com/image/fetch/$s_!8q8r!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fddfc5f6a-2896-48cf-a63e-f42157ac505e_641x420.png" target="_blank" rel="noopener noreferrer">open</a></div>
+<p class="blk" id="b97" data-b="97"><span class="pn">P4</span>For the long run there&#x27;s Strategy B, the &quot;Resilience Mode&quot;, a keto diet with carbs under 20g/day so your liver makes the ketones itself. That only works if fat becomes your fuel, so eat fat until you&#x27;re full. Don&#x27;t fill up on lean protein like chicken breast instead, since your body can only take so much protein: past about a third of your calories it can make you sick (<a href="https://pubmed.ncbi.nlm.nih.gov/16779921/" target="_blank" rel="noopener noreferrer">Bilsborough &amp; Mann, 2006</a>), so the rest of your energy has to come from fat. Switching over often brings on the keto flu, and to avoid it, refer to my <a href="http://ketoflu.u-dont-exist.com/" target="_blank" rel="noopener noreferrer">Keto Adaptation Guide</a>.</p>
+<div class="blk native-blk" id="b98" data-b="98"><span class="native">[image 4]</span> <a href="https://substackcdn.com/image/fetch/$s_!Gd-0!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3f50e963-b7ee-4211-8c03-1748bbef3507_631x378.png" target="_blank" rel="noopener noreferrer">open</a></div>
+<h3 class="blk" id="b99" data-b="99">Part 3: THE SHIELD (Flu-Proofing &amp; Voltage Control)</h3>
+<p class="blk" id="b100" data-b="100"><span class="pn">P1</span>Goal: Stabilize voltage to prevent the &quot;Biological Crash&quot; (Headaches/Panic).</p>
+<h4 class="blk" id="b101" data-b="101">1. Electrolytes (Choose Your Path)</h4>
+<p class="blk" id="b102" data-b="102"><span class="pn">P1</span>If on Quick Fix, Strategy A (BHB Salts / Standard Diet):Sodium: Standard intake. DO NOT load extra salt (Risk of High Blood Pressure).</p>
+<p class="blk" id="b103" data-b="103"><span class="pn">P2</span>Potassium:</p>
+<p class="blk" id="b104" data-b="104"><span class="pn">P3</span><mark class="hl t-science" data-s="SC-106e">Goal: Install the &quot;Brake Pads&quot; for your nervous system.</mark></p>
+<section class="card t-science" id="c-SC-106e" data-id="SC-106e" data-type="science" data-advice="approve" data-block="104">
+<div class="card-top"><button type="button" class="chip t-science" data-filter-type="science" title="Something the sources don&#x27;t support, changed as little as the science allows.">A claim corrected</button><span class="cid">SC-106e</span><span class="ctitle">Potassium, rethought on the science: nerves, low intakes, mood, thinking</span><span class="pill" aria-live="polite">Not approved yet</span><button type="button" class="link-btn fold" aria-expanded="true">Fold</button></div>
+<div class="card-body">
+<div class="changes"><div class="chg"><div class="chg-k">1. Electrolytes (Choose Your Path), P3 is cut</div><div class="dif"><del>Goal: Install the &quot;Brake Pads&quot; for your nervous system.</del></div></div><div class="chg"><div class="chg-k">1. Electrolytes (Choose Your Path), P4 is cut</div><div class="dif"><del>Mechanism: Potassium Channels (KCNQ).</del></div></div><div class="chg"><div class="chg-k">1. Electrolytes (Choose Your Path), P5 now</div><div class="dif side now">The Science: Your <del>neurons</del> have <del>&quot;brakes&quot;</del> <del>called</del> <del>KCNQ</del> <del>channels</del> <del>that</del> <del>stop</del> <del>them</del> <del>from</del> <del>firing</del> <del>uncontrollably.</del> <del>These</del> <del>brakes</del> <del>run</del> <del>on</del> <del>Potassium</del> <del>ions</del>. If you <del>are</del> <del>low</del> on potassium <del>(common</del> in <del>high</del> <del>stress)</del>, <del>your brakes fail</del>.<del> You can push the pedal (breathe), but the car won&#x27;t stop.</del></div><div class="chg-k">How it would read</div><div class="dif side after">The Science: Your <ins>nerves need potassium to fire and reset (NIH, 2022), yet most of us eat less than the recommended amount: only about 3 in 10 Americans reach it (Dietary Guidelines Advisory Committee, 2024). In a diet trial, people who took in more potassium and less salt had better mood and less fatigue (Torres, et al, 2008), and potassium supplements eased mood and behavior problems in 13 of 16 children taking steroid drugs, which mimic the stress hormone cortisol (Pariury, et al, 2019). People who eat more of it also tend to think and remember better as they get older (Na, et al, 2022), though not every study agrees, and none yet shows extra potassium helping people who already get enough. Some people need more than others, too, since diarrhea, diuretics and some inherited kidney conditions drain it (NIH, 2022; Cruz, et al, 2001). More potassium also brings high blood pressure down (Aburto, et al, 2013), which matters on Strategy A, since its salts bring their own sodium. Stone Age diets are estimated to</ins> have <ins>had</ins> <ins>more</ins> <ins>than</ins> <ins>four</ins> <ins>times</ins> <ins>the</ins> <ins>potassium</ins> <ins>we</ins> <ins>eat</ins> <ins>now</ins> <ins>(Sebastian,</ins> <ins>et</ins> <ins>al,</ins> <ins>2006),</ins> <ins>so</ins> <ins>eating closer to a paleo diet probably does more than adding a couple of potatoes, but the potatoes and greens below are the easy way to start</ins>. If you <ins>have</ins> <ins>kidney disease or take a blood pressure drug that holds</ins> on <ins>to potassium, like an ACE inhibitor or an ARB, ask your doctor first, since </ins>potassium <ins>can build up</ins> in <ins>your</ins> <ins>blood (NIH</ins>, <ins>2022)</ins>.</div></div><div class="chg"><div class="chg-k">1. Electrolytes (Choose Your Path), P14 now</div><div class="dif side now">The Strategy: Eat 2 large potatoes and 2 cups of greens every single day.<del> This saturates your cells, lowering your &quot;resting voltage&quot; so you become physically harder to trigger.</del></div><div class="chg-k">How it would read</div><div class="dif side after">The Strategy: Eat 2 large potatoes and 2 cups of greens every single day.</div></div></div>
+<div class="info"><div class="row"><span class="lab">What changes</span> <span>As before, the two labels of the brakes story go (blocks 104 and 105) and block 115&#x27;s second sentence goes. Block 106 now rests on the science: nerves need potassium and most people eat too little; what raising it has done for mood and thinking, with the limits; who needs more; blood pressure; your paleo view; the caution.</span></div><div class="row"><span class="lab">Why</span> <span>You&#x27;re right on both counts. A claim the article makes as science rests on science, and my lesson had that backwards; SC-106d also made potassium look like one weak study, because my search was thin. Searched again, with GPT&#x27;s sources checked one by one: only about 3 in 10 Americans eat the recommended amount (<a href="https://www.dietaryguidelines.gov/sites/default/files/2024-12/Part%20D_Ch%201_%20Data%20Analysis_FINAL_508.pdf" target="_blank" rel="noopener noreferrer">Dietary Guidelines Advisory Committee, 2024</a>), which backs your NHANES point (I couldn&#x27;t find the 40% figure itself). In the diet trial, more potassium and less salt went with better mood and less fatigue (<a href="https://pubmed.ncbi.nlm.nih.gov/18466657/" target="_blank" rel="noopener noreferrer">Torres, et al, 2008</a>); potassium given to children whose steroid drugs had set off mood and behavior problems helped 13 of 16 (<a href="https://pubmed.ncbi.nlm.nih.gov/31538841/" target="_blank" rel="noopener noreferrer">Pariury, et al, 2019</a>); older adults who ate more thought and remembered better (<a href="https://doaj.org/article/335f413ec4a5414d8abb24b26101837e" target="_blank" rel="noopener noreferrer">Na, et al, 2022</a>), though one cohort found the opposite for mild memory problems (<a href="https://pubmed.ncbi.nlm.nih.gov/24550825/" target="_blank" rel="noopener noreferrer">Cherbuin, et al, 2014</a>), a fruit trial changed nothing (<a href="https://pubmed.ncbi.nlm.nih.gov/41081007/" target="_blank" rel="noopener noreferrer">Zingales, et al, 2025</a>), and an older trial found more fatigue on a low-salt, high-potassium diet (<a href="https://pubmed.ncbi.nlm.nih.gov/2003706/" target="_blank" rel="noopener noreferrer">Wassertheil-Smoller, et al, 1991</a>). People also lose potassium at very different rates: diarrhea, diuretics and an inherited kidney condition, Gitelman syndrome, drain it, and people with Gitelman report fatigue, weakness and lower energy and emotional well-being (<a href="https://pubmed.ncbi.nlm.nih.gov/11168953/" target="_blank" rel="noopener noreferrer">Cruz, et al, 2001</a>). I was wrong to say eating more helps the nerves only when something has drained it: no study shows that, and low intakes are common. Left out: the 2025 case report GPT found, since the woman also changed her diet and took leave at the same time and the author is a relative (<a href="https://pubmed.ncbi.nlm.nih.gov/41316473/" target="_blank" rel="noopener noreferrer">Dai, 2025</a>). I couldn&#x27;t open your Reddit threads, which are blocked from here; paste the posts if you want firsthand reports in. The paleo sentence stays as your view, as you wrote it.</span></div><div class="row"><span class="lab">What stays</span> <span>&quot;Potassium:&quot;, the target (4,700 mg, the FDA&#x27;s Daily Value), the food-only rule, the menu, &quot;Eat 2 large potatoes and 2 cups of greens every single day.&quot;, and your caution at the top. Part 3&#x27;s goal line goes to the read of the whole protocol.</span></div><div class="row"><span class="lab">Why I&#x27;m asking</span> <span>Meaning: block 106&#x27;s reason for potassium becomes the science on nerves, mood and thinking, with blood pressure after it</span></div><div class="row"><span class="lab">You&#x27;re deciding</span> <span>Whether block 106 gives potassium&#x27;s reason as this science (nerves, low intakes, mood, thinking, who needs more, blood pressure), with your paleo view and the caution.</span></div><div class="row advice"><span class="lab">My advice</span> <span>Approve. I&#x27;m fairly sure this is the science the card needed, less sure of the length. A fresh reader would keep only this: &quot;The Science: Your nerves need potassium to fire and reset (NIH, 2022), yet most of us eat less than the recommended amount: only about 3 in 10 Americans reach it (Dietary Guidelines Advisory Committee, 2024). In a diet trial, people who took in more potassium and less salt had better mood and less fatigue (Torres, et al, 2008). Some people need more than others, too, since diarrhea, diuretics and some inherited kidney conditions drain it (NIH, 2022; Cruz, et al, 2001). If you have kidney disease or take a blood pressure drug that holds on to potassium, like an ACE inhibitor or an ARB, ask your doctor first, since potassium can build up in your blood (NIH, 2022).&quot;</span></div><div class="row src"><span class="lab">Found by</span> <span>His message of 2026-11-11 22:07 UTC: the card rests on science; GPT&#x27;s sources and his points checked</span></div></div>
+<div class="decide" role="group" aria-label="Decision on SC-106e"><button type="button" class="dec approve" data-dec="approved">Approve: use it</button><button type="button" class="dec reject" data-dec="rejected">Reject: keep it as it is</button><button type="button" class="dec revise" data-dec="revise">Revise</button><button type="button" class="dec undo" data-dec="pending" hidden>Undo my answer</button></div>
+<label class="yours-wrap" hidden><span class="lab">Your version</span><textarea class="yours" rows="4" placeholder="Your wording, or what to change"></textarea></label>
+<label class="note-wrap"><span class="lab">Your comment</span><textarea class="note" rows="2" placeholder="A note, or a question for me (optional): a question can wait here undecided"></textarea></label>
+<div class="saved-line"></div>
+</div></section>
+<p class="blk" id="b105" data-b="105"><span class="pn">P4</span><mark class="hl t-science" data-s="SC-106e">Mechanism: Potassium Channels (KCNQ).</mark></p>
+<p class="blk" id="b106" data-b="106"><span class="pn">P5</span><mark class="hl t-science" data-s="SC-106e">The Science: Your neurons have &quot;brakes&quot; called KCNQ channels that stop them from firing uncontrollably. These brakes run on Potassium ions. If you are low on potassium (common in high stress), your brakes fail. You can push the pedal (breathe), but the car won&#x27;t stop.</mark></p>
+<p class="blk" id="b107" data-b="107"><span class="pn">P6</span>The Target: Aim for 4,700 mg of Potassium daily.</p>
+<p class="blk" id="b108" data-b="108"><span class="pn">P7</span>The Source: Food Only. (Supplements are limited to 99mg, and bigger doses need a doctor&#x27;s supervision.)</p>
+<p class="blk" id="b109" data-b="109"><span class="pn">P8</span>The Menu (The &quot;Shield&quot; Foods):</p>
+<p class="blk" id="b110" data-b="110"><span class="pn">P9</span>Potato (Baked with skin): ~925 mg (The King of Potassium).</p>
+<p class="blk" id="b111" data-b="111"><span class="pn">P10</span>Beet Greens (Cooked): ~1,300 mg per cup.</p>
+<p class="blk" id="b112" data-b="112"><span class="pn">P11</span>Salmon: ~1,000 mg per filet.</p>
+<p class="blk" id="b113" data-b="113"><span class="pn">P12</span>Avocado: ~700-900 mg.</p>
+<p class="blk" id="b114" data-b="114"><span class="pn">P13</span>Coconut Water: ~600 mg per cup.</p>
+<p class="blk" id="b115" data-b="115"><span class="pn">P14</span><mark class="hl t-science" data-s="SC-106e">The Strategy: Eat 2 large potatoes and 2 cups of greens every single day. This saturates your cells, lowering your &quot;resting voltage&quot; so you become physically harder to trigger.</mark></p>
+<p class="blk" id="b116" data-b="116"><span class="pn">P15</span>If on Deep Fix, Strategy B (Keto Diet): <a href="http://ketoflu.u-dont-exist.com/" target="_blank" rel="noopener noreferrer">***See my Keto Adaptation Guide for electrolytes.***</a></p>
+<h4 class="blk" id="b117" data-b="117">2. The Glutamate Shield (Anxiety):</h4>
+<p class="blk" id="b118" data-b="118"><span class="pn">P1</span>Sulforaphane from 1 cup of broccoli sprouts (which also contain the myrosinase needed).</p>
+<p class="blk" id="b119" data-b="119"><span class="pn">P2</span>Function: It acts as a &quot;Guardian of the Proteasome,&quot; preventing the premature degradation of the cleanup machinery you are working so hard to build. Sulforaphane is also a potent Nrf2 activator; if you are in a &quot;Glutamate Storm,&quot; it helps clear oxidative stress.</p>
+<p class="blk" id="b120" data-b="120"><span class="pn">P3</span>NAC: 1.8g – 2.4g (divided doses). <em>Turns down glutamate release.</em></p>
+<p class="blk" id="b121" data-b="121"><span class="pn">P4</span>Agmatine Sulfate (Optional Trial): Start with 250–500 mg in the morning or early afternoon for 3 days. If it clearly reduces the hot/itchy/reactive state without flattening mood, use 500 mg once or twice daily. For this protocol, cap at 1 g/day.</p>
+<p class="blk" id="b122" data-b="122"><span class="pn">P5</span>Best fit: Glutamate Storm + rumination/compulsion + inflammatory or neuropathic &quot;pain-y&quot; body state.</p>
+<p class="blk" id="b123" data-b="123"><span class="pn">P6</span>Poor fit: already numb, low-drive, depressed, dissociated, low blood pressure, sedated, or entering the Dynorphin Void.</p>
+<p class="blk" id="b124" data-b="124"><span class="pn">P7</span>Cycle rule: use it as a 7–14 day anxiety-phase experiment, not a forever baseline. Stop if flatness, anhedonia, apathy, irritability, insomnia, dizziness, nausea, loose stools, diarrhea, or increased craving appears.</p>
+<p class="blk" id="b125" data-b="125"><span class="pn">P8</span>Timing rule: avoid agmatine on D-Serine/DCS-style reconsolidation days, or keep it at least 12–24 hours away from the session.</p>
+<p class="blk" id="b126" data-b="126"><span class="pn">P9</span>Magnesium Glycinate: 400mg (Night). <em>The &quot;Plug&quot; for the anxiety channel.</em></p>
+<p class="blk" id="b127" data-b="127"><span class="pn">P10</span>The Dynorphin Bridge (Apathy / DAWS-pattern Void):Cordyceps mushrooms: A gentle vitality tool for some people, especially when the Void is mostly fatigue and low respiratory/mitochondrial drive.</p>
+<p class="blk" id="b128" data-b="128"><span class="pn">P11</span>Uridine Monophosphate: The more targeted option when the Void looks like dopamine-receptor burnout: low dreams, low visuals, high psychedelic tolerance, dopamine-agonist withdrawal history, or ketamine/LSD chasing. Use UMP as a 3–7 day morning trial with choline + DHA/EPA in place. Do not take it on psychedelic days.</p>
+<p class="blk" id="b129" data-b="129"><span class="pn">P12</span>5-HTP: Not a dopamine tool. Use only when the parallel problem looks like low serotonin / poor sleep / TPH2 bottleneck. Do not combine with serotonergic medications, ayahuasca/harmalas, iboga, MDMA, DXM, tramadol, or same-day psychedelics.</p>
+<h4 class="blk" id="b130" data-b="130">3. The &quot;Nuclear Option&quot; (Ethnobotanical)</h4>
+<p class="blk" id="b131" data-b="131"><span class="pn">P1</span>The Stack: Microdose Iboga Nasal Spray (Bypasses digestion, quicker effect). Read my <a href="http://ibogamicroprotocol.u-dont-exist.com/" target="_blank" rel="noopener noreferrer">iboga microdosing guide</a> to keep safe. While shrooms are often better for a functional mood brightener effect, iboga is its own kind of therapist that shows you what you need to see in a non-threatening way.</p>
+<p class="blk" id="b132" data-b="132"><span class="pn">P2</span>Female Iboga: For &quot;Numbness/Fog&quot; (Anima).</p>
+<p class="blk" id="b133" data-b="133"><span class="pn">P3</span>Male Iboga: For &quot;Helplessness/Relapse&quot; (Animus).</p>
+<p class="blk" id="b134" data-b="134"><span class="pn">P4</span>Shrooms: Hillbilly or Mazatapec strains are some of the best (0.1g - 0.2g).</p>
+<h3 class="blk" id="b135" data-b="135">Part 4: THE JAMMER (Acute Symptom Management)</h3>
+<p class="blk" id="b136" data-b="136"><span class="pn">P1</span>Instructions: When the symptom wave hits, identify the Type and apply the Fix.</p>
+<h4 class="blk" id="b137" data-b="137">Scenario A: The &quot;Glutamate Storm&quot;</h4>
+<p class="blk" id="b138" data-b="138"><span class="pn">P1</span>Symptoms: Anxiety, Rage, &quot;Itchy&quot; Brain, Racing Thoughts, Flashbacks.</p>
+<p class="blk" id="b139" data-b="139"><span class="pn">P2</span>Mechanism: The brain is firing too hot. You need to cool the system and jam the reconsolidation.</p>
+<p class="blk" id="b140" data-b="140"><span class="pn">P3</span>The Perry-Sequence (Rhythmic First, Visual Second)</p>
+<p class="blk" id="b141" data-b="141"><span class="pn">P4</span>Anatomy overrides intellect. If your heart rate is elevated or heart-rate-variability (HRV) reduced significantly, your &quot;Reasoning Brain&quot; is offline.</p>
+<p class="blk" id="b142" data-b="142"><span class="pn">P5</span>Step 1: Rhythmic Regulation (Brainstem): Perform 5 minutes of rhythmic, repetitive sensory input--walking, drumming on your thighs, or rhythmic &quot;Therapeutic Sighing&quot;.</p>
+<p class="blk" id="b143" data-b="143"><span class="pn">P6</span>Step 2: Check Your Baseline: Once your heart rate is within normal range, you cerebral cortex is receptive. Phosphatidylserine (PS, see Part 2) is a daily baseline agent that lowers how often and how hard these storms hit; it&#x27;s not an in-the-moment tool.</p>
+<p class="blk" id="b144" data-b="144"><span class="pn">P7</span>Step 3: Apply the Jammer: Now use Tetris or the &quot;Color-Path Connect&quot; game to overwrite the visual memory</p>
+<div class="blk native-blk" id="b145" data-b="145"><span class="native">[image 5]</span> <a href="https://substackcdn.com/image/fetch/$s_!hkoq!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6b6016a4-5f84-4559-b2e8-24a72d1175cb_1448x1086.png" target="_blank" rel="noopener noreferrer">open</a></div>
+<p class="blk" id="b146" data-b="146"><span class="pn">P9</span>Advanced tactic: The D-Serine Memory Re-consolidator. While L-Serine provides the building blocks for myelin, taking D-Serine (700mg–1400mg) on an empty stomach 45 minutes before a de-armoring session acts as a &quot;memory (re)consolidator&quot; which can cement the benefits of therapies like EMDR which aim to rewire the affective tone of memories.</p>
+<p class="blk" id="b147" data-b="147"><span class="pn">P10</span>D-serine has shown efficacy in studies where it was used to augment exposure therapy for treating a variety of conditions such as social anxiety, PTSD, and fear of public speaking. The idea is that it facilitates the consolidation of the newly formed memory of how the anticipated negative consequences of the exposure to what you fear didn&#x27;t actually happen. Some studies ssuggested that d-serine is more effective at this when the practice exposure to what you fear ends on a positive note as opposed to a negative one. Again, all d-serine is doing is making it easier to consolidate the memory of the experience into a long-term memory.</p>
+<p class="blk" id="b148" data-b="148"><span class="pn">P11</span>Use L-Serine for daily maintenance and background hardware support.</p>
+<p class="blk" id="b149" data-b="149"><span class="pn">P12</span>Use D-Serine for acute sessions where you need to &quot;force&quot; memory reconsolidation. <a href="https://www.lifelabsupplements.com/d-serine" target="_blank" rel="noopener noreferrer">Best price from LifeLab</a>. You should take it 45 minutes or so after taking PQQ &amp; Ketones so that your brain is fueled when the D-serine starts working.</p>
+<p class="blk" id="b150" data-b="150"><span class="pn">P13</span>Warning: High doses of D-Serine damaged the kidneys in rat studies, so it carries a kidney caution, though kidney problems have been rare in human studies. Do not exceed 30mg/kg and ensure high water intake.</p>
+<h4 class="blk" id="b151" data-b="151">Scenario B: The &quot;Fog&quot;</h4>
+<p class="blk" id="b152" data-b="152"><span class="pn">P1</span>Symptoms: Confusion, Disassociation, Low Energy, &quot;Lagging.&quot;</p>
+<p class="blk" id="b153" data-b="153"><span class="pn">P2</span>Mechanism: Hypometabolism (Low Fuel) or Toxicity (Static).</p>
+<div class="blk native-blk" id="b154" data-b="154"><span class="native">[image 6]</span> <a href="https://substackcdn.com/image/fetch/$s_!YOD5!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8be815a7-daf4-4c23-b19c-e9081c7b3ca8_725x298.png" target="_blank" rel="noopener noreferrer">open</a></div>
+<h4 class="blk" id="b155" data-b="155">Scenario C: The &quot;Void&quot;</h4>
+<p class="blk" id="b156" data-b="156"><span class="pn">P1</span>Symptoms: Numbness, Boredom, &quot;I want to Relapse.&quot;</p>
+<p class="blk" id="b157" data-b="157"><span class="pn">P2</span>Mechanism: The Dynorphin block is active. You feel &quot;dead.&quot; You need to force a spark. We will utilize the science of hot and cold showers as a vascular pump, and plant medicine as needed:</p>
+<p class="blk" id="b158" data-b="158"><span class="pn">P3</span>First-Line Void Add-Ons: If the Void has a DAWS / D2-D3 burnout flavor, trial UMP before chasing more stimulation. If the Void is mainly sleep + serotonin bottleneck, trial 5-HTP at night. Do not start both together, and do not use either to force stronger psychedelic effects.</p>
+<p class="blk" id="b159" data-b="159"><span class="pn">P4</span>Hot (3 Minutes): As hot as you can safely handle. This relaxes muscles and induces mild hyperthermia, signaling the body to start producing repair proteins (HSPs/PI31).</p>
+<p class="blk" id="b160" data-b="160"><span class="pn">P5</span>The Metabolic Red Line: If your resting heart rate is elevated or HRV reduced, do NOT use high heat yet. Heat mimics exercise and will raise your heart rate further, which can re-enforce your &quot;armor&quot;. Stick to lukewarm-to-cold until your baseline heart rate is below 90 BPM.</p>
+<p class="blk" id="b161" data-b="161"><span class="pn">P6</span>Cold (1 Minute): Turn it to max cold. This provides the acute stress spike needed to activate the transport motors (p38 MAPK).</p>
+<p class="blk" id="b162" data-b="162"><span class="pn">P7</span>Repeat: Do this 3 times. Always end on cold.</p>
+<p class="blk" id="b163" data-b="163"><span class="pn">P8</span>Fun with fungi: If the showers aren&#x27;t enough, you can microdose Hillbilly or Mazatapec (balanced, happy, spiritual) shroom strains (100-300mg daily). This stimulates 5-HT2A receptors to bypass the &quot;numb&quot; receptors.</p>
+<p class="blk" id="b164" data-b="164"><span class="pn">P9</span>Activate the &quot;Inner Father&quot;: If you are lacking discipline, try a male iboga nasal spray micro-dose. 1 spray (equal to about 150mg of bark) in the morning, as it lasts 12 hours. Make sure to check all the dangerous iboga drug interactions. Full <a href="http://iboga.u-dont-exist.com/" target="_blank" rel="noopener noreferrer">iboga guide here</a>.</p>
+<h3 class="blk" id="b165" data-b="165">Part 5: THE TIMELINE (The 8-Week Path)</h3>
+<p class="blk" id="b166" data-b="166"><span class="pn">P1</span>Weeks 1–2: The Glutamate Storm (Anxiety Phase)Protocol:Self-care: Hot &amp; cold showers, alternating, ending on cold. <em>No hot showers if heart rate elevated or heart-rate-variability reduced.</em></p>
+<p class="blk" id="b167" data-b="167"><span class="pn">P2</span>Supplement daily:</p>
+<p class="blk" id="b168" data-b="168"><span class="pn">P3</span>Phosphatidylserine about 400 mg earlier in the day only if you fit the high-cortisol profile + 1 cup broccoli sprouts + Magnesium Glycinate 400 mg + NAC 1.8–2.4 g divided.</p>
+<p class="blk" id="b169" data-b="169"><span class="pn">P4</span>Optional add-on: Agmatine Sulfate 250–500 mg AM, increasing to 500 mg twice daily only if it clearly reduces the hot/itchy/reactive state without flattening mood. Cap at 1 g/day in this protocol. Do not add agmatine on the same day you increase PS, start D-Serine, change NAC dose, begin keto, microdose, or introduce any other major variable.</p>
+<p class="blk" id="b170" data-b="170"><span class="pn">P5</span>If PS leaves you flat OR more wired, you&#x27;re not a high-cortisol responder--drop it. If agmatine leaves you flat, anhedonic, dizzy, nauseous, sleepless, irritable, or more craving-prone--drop it.</p>
+<p class="blk" id="b171" data-b="171"><span class="pn">P6</span>Fuel: Start with BHB Salts (Strategy A) to manage initial fog.</p>
+<p class="blk" id="b172" data-b="172"><span class="pn">P7</span>Rescue: &quot;The Fire&quot; + <a href="https://www.youtube.com/channel/UCM9H6pHyg-J2eEZdX6wU_Dw" target="_blank" rel="noopener noreferrer">Chantress Seba</a> or other <a href="http://music.u-dont-exist.com/" target="_blank" rel="noopener noreferrer">music </a>+ The Repair Stack (Zn/Leu/Ser) + Tetris/Color Path for acute attacks.</p>
+<p class="blk" id="b173" data-b="173"><span class="pn">P8</span>Weeks 3–5: The Dynorphin Void (Depression Phase)State: The anxiety stops, but the world turns gray/boring.</p>
+<p class="blk" id="b174" data-b="174"><span class="pn">P9</span>Protocol:Taper off Phosphatidylserine here. This phase is low-drive and gray by design--you do <em>not</em> want to keep blunting cortisol in an already-flattened system, or you&#x27;ll deepen the numbness. PS was for the anxiety phase; the Void phase needs the opposite. (If you never felt the wired/high-cortisol state in Weeks 1–2, you probably shouldn&#x27;t have been on PS at all.)</p>
+<p class="blk" id="b175" data-b="175"><span class="pn">P10</span>Also stop agmatine here unless it is unmistakably helping acute glutamate storms without worsening flatness. The Void phase is already low-drive and gray; agmatine can over-brake the system in the same direction.</p>
+<p class="blk" id="b176" data-b="176"><span class="pn">P11</span>UMP trial if the Void looks like DAWS: 150–300 mg UMP in the morning with food for 3–7 days, with choline + DHA/EPA in place. Best fit: low dreams, weak visuals, high psychedelic tolerance, dopamine-agonist withdrawal history, ketamine/LSD craving, or dopamine-hit chasing. Do not take UMP on psychedelic days, and assume old psychedelic doses may become too strong if sensitivity returns.</p>
+<p class="blk" id="b177" data-b="177"><span class="pn">P12</span>5-HTP trial if the bottleneck looks serotonergic: 50–100 mg at night for 2–3 nights, with optional P5P 10–20 mg in the morning. Best fit: poor sleep, low mood warmth, nighttime rumination, or TPH2-style serotonin synthesis bottleneck. Do not use with serotonergic medications/supplements, ayahuasca/harmalas, iboga, MDMA, DXM, tramadol, or same-day psychedelics.</p>
+<p class="blk" id="b178" data-b="178"><span class="pn">P13</span>Hot &amp; cold showers, alternating, ending on cold). <em>No hot showers if heart rate elevated or heart-rate-variability reduced</em>. Reduce or stop phosphatidylserine here--you don&#x27;t want to suppress an already-flattened system. Micro-dose Male Iboga (if heart is ok).</p>
+<p class="blk" id="b179" data-b="179"><span class="pn">P14</span>Transition: Consider moving to Strategy B (Keto Diet) for long-term repair (Autophagy) now that the acute storm has passed.</p>
+<p class="blk" id="b180" data-b="180"><span class="pn">P15</span>Rescue:</p>
+<p class="blk" id="b181" data-b="181"><span class="pn">P16</span><em>If Foggy:</em> Inhale DMSO + Drink BHB.</p>
+<p class="blk" id="b182" data-b="182"><span class="pn">P17</span><em>If Numb:</em> Micro-dose Male Iboga and/or Hillybilly/Mazatapec shrooms.</p>
+<p class="blk" id="b183" data-b="183"><span class="pn">P18</span>Week 8+: The BaselineState: DeltaFosB degraded, if the animal timelines carry over. Hardware reset complete.</p>
+<p class="blk" id="b184" data-b="184"><span class="pn">P19</span>Maintenance: Cycle off NAC. Maintain metabolic flexibility (Low Carb/Seasonally Keto).</p>
+<h3 class="blk" id="b185" data-b="185">The Aftermath: The Relational Vacuum</h3>
+<p class="blk" id="b186" data-b="186"><span class="pn">P1</span>As the armor decays, you will experience a frightening but beautiful side effect: Interoception. Van der Kolk describes this as the ability to &quot;feel&quot; your own body again. For years, you have likely been numb--living in your head to avoid the pain in your chest.</p>
+<p class="blk" id="b187" data-b="187"><span class="pn">P2</span>As the dopamine armor fades, you will feel your heart beat. You will feel your gut churn. You will feel the wind on your skin. Do not mistake this sensitivity for anxiety. It is not a symptom of sickness; it is the symptom of coming back to life. Welcome it.</p>
+</main>
+<p class="endnote gut">The end of the guide. When you're done, tell me in the chat; your answers are already saved here, and "Save / send" gives you a copy to paste or keep.</p>
+<script id="review-data" type="application/json">{"format": "joel-suggestion-review-v1", "review_id": "neuro-de-armoring-cards-20261111-x1111b", "title": "Neuro De-Armoring Cards, 11 November (2): potassium, rethought on the science", "git_file": "articles/neuro-de-armoring/humanize/fix-20261108/sci-p23/REVIEW-X1111B.html", "article": {"file": "articles/neuro-de-armoring/humanize/HUMANIZED-SO-FAR.md", "sha256": "8de00b80f581bfd64ccc17331bf39d69773f56b54eedabf00f73418ab78b892f"}, "built": "2026-11-11T22:35:00Z", "generator": "suggestion_review.py 1.11 (2026-11-11)", "types": {"science": {"label": "A claim corrected", "about": "Something the sources don't support, changed as little as the science allows."}}, "suggestions": [{"id": "SC-106e", "type": "science", "title": "Potassium, rethought on the science: nerves, low intakes, mood, thinking", "advice": "approve", "what": "As before, the two labels of the brakes story go (blocks 104 and 105) and block 115's second sentence goes. Block 106 now rests on the science: nerves need potassium and most people eat too little; what raising it has done for mood and thinking, with the limits; who needs more; blood pressure; your paleo view; the caution.", "deciding": "Whether block 106 gives potassium's reason as this science (nerves, low intakes, mood, thinking, who needs more, blood pressure), with your paleo view and the caution.", "decided": null, "question": null, "where": "1. Electrolytes (Choose Your Path), P3", "proposed": "(cut: Goal: Install the \"Brake Pads\" for your nervous system.)\n\n(cut: Mechanism: Potassium Channels (KCNQ).)\n\nThe Science: Your nerves need potassium to fire and reset (NIH, 2022), yet most of us eat less than the recommended amount: only about 3 in 10 Americans reach it (Dietary Guidelines Advisory Committee, 2024). In a diet trial, people who took in more potassium and less salt had better mood and less fatigue (Torres, et al, 2008), and potassium supplements eased mood and behavior problems in 13 of 16 children taking steroid drugs, which mimic the stress hormone cortisol (Pariury, et al, 2019). People who eat more of it also tend to think and remember better as they get older (Na, et al, 2022), though not every study agrees, and none yet shows extra potassium helping people who already get enough. Some people need more than others, too, since diarrhea, diuretics and some inherited kidney conditions drain it (NIH, 2022; Cruz, et al, 2001). More potassium also brings high blood pressure down (Aburto, et al, 2013), which matters on Strategy A, since its salts bring their own sodium. Stone Age diets are estimated to have had more than four times the potassium we eat now (Sebastian, et al, 2006), so eating closer to a paleo diet probably does more than adding a couple of potatoes, but the potatoes and greens below are the easy way to start. If you have kidney disease or take a blood pressure drug that holds on to potassium, like an ACE inhibitor or an ARB, ask your doctor first, since potassium can build up in your blood (NIH, 2022).\n\nThe Strategy: Eat 2 large potatoes and 2 cups of greens every single day.", "before": "Goal: Install the \"Brake Pads\" for your nervous system.\n\nMechanism: Potassium Channels (KCNQ).\n\nThe Science: Your neurons have \"brakes\" called KCNQ channels that stop them from firing uncontrollably. These brakes run on Potassium ions. If you are low on potassium (common in high stress), your brakes fail. You can push the pedal (breathe), but the car won't stop.\n\nThe Strategy: Eat 2 large potatoes and 2 cups of greens every single day. This saturates your cells, lowering your \"resting voltage\" so you become physically harder to trigger."}], "sections": [{"b": 1, "level": 1, "text": "Introduction"}, {"b": 5, "level": 1, "text": "The \"Biological Resilience\" Protocol"}, {"b": 6, "level": 3, "text": "A Complete Guide to Bio-De-Armoring"}, {"b": 19, "level": 2, "text": "Psychology is the Software; Biology is the Hardware."}, {"b": 29, "level": 3, "text": "Part 1: THE SCIENCE (Why We Do This)"}, {"b": 64, "level": 2, "text": "Part 2: Reducing Anxiety & Depression"}, {"b": 75, "level": 3, "text": "Agmatine vs PS vs Phosphatidylcholine"}, {"b": 80, "level": 3, "text": "Dopamine Receptor Burnout / DAWS Pattern: Uridine Monophosphate"}, {"b": 87, "level": 3, "text": "Serotonin Bottleneck Pattern: 5-HTP + Low-Dose P5P"}, {"b": 93, "level": 3, "text": "Fixing ATP Signaling if Cortisol Isn't High"}, {"b": 99, "level": 2, "text": "Part 3: THE SHIELD (Flu-Proofing & Voltage Control)"}, {"b": 101, "level": 3, "text": "1. Electrolytes (Choose Your Path)"}, {"b": 117, "level": 3, "text": "2. The Glutamate Shield (Anxiety):"}, {"b": 130, "level": 3, "text": "3. The \"Nuclear Option\" (Ethnobotanical)"}, {"b": 135, "level": 2, "text": "Part 4: THE JAMMER (Acute Symptom Management)"}, {"b": 137, "level": 3, "text": "Scenario A: The \"Glutamate Storm\""}, {"b": 151, "level": 3, "text": "Scenario B: The \"Fog\""}, {"b": 155, "level": 3, "text": "Scenario C: The \"Void\""}, {"b": 165, "level": 2, "text": "Part 5: THE TIMELINE (The 8-Week Path)"}, {"b": 185, "level": 2, "text": "The Aftermath: The Relational Vacuum"}]}</script>
+<script>
+(() => {
+  'use strict';
+  const DATA = JSON.parse(document.getElementById('review-data').textContent);
+  const SUG = {};
+  DATA.suggestions.forEach(s => { SUG[s.id] = s; });
+  const ORDER = DATA.suggestions.map(s => s.id);
+  const STATUSES = ['pending', 'approved', 'rejected', 'revise'];
+  const STORE_KEY = 'joel-suggestion-review-v1:' + DATA.review_id + ':' + DATA.article.sha256.slice(0, 12);
+  const $ = (q, r) => (r || document).querySelector(q);
+  const $$ = (q, r) => Array.from((r || document).querySelectorAll(q));
+  const now = () => new Date().toISOString();
+  const cards = {};
+  $$('.card[data-id]').forEach(c => { cards[c.dataset.id] = c; });
+  const marksById = {};
+  $$('mark.hl[data-s]').forEach(m => m.dataset.s.split(' ').forEach(id => { (marksById[id] = marksById[id] || []).push(m); }));
+
+  // ---------------------------------------------------------------- state
+  let state = {};
+  function blank() { return { status: 'pending', comment: '', text: '', history: [], updated: '' }; }
+  function clean(x) {
+    const st = blank();
+    if (!x || typeof x !== 'object') return st;
+    st.status = STATUSES.includes(x.status) ? x.status : 'pending';
+    st.comment = typeof x.comment === 'string' ? x.comment : '';
+    st.text = typeof x.text === 'string' ? x.text : '';
+    st.history = Array.isArray(x.history) ? x.history.filter(h => h && typeof h === 'object').slice(-50) : [];
+    st.updated = typeof x.updated === 'string' ? x.updated : '';
+    return st;
+  }
+  function initial(id) {
+    const st = blank();
+    const d = SUG[id] && SUG[id].decided;
+    if (d) {
+      st.status = STATUSES.includes(d.status) ? d.status : 'pending';
+      st.text = d.text || '';
+      st.comment = d.comment || '';
+      st.history = [{ from: 'pending', to: st.status, at: d.at || '', by: d.by || '' }];
+    }
+    return st;
+  }
+  function get(id) { if (!state[id]) state[id] = initial(id); return state[id]; }
+  try {
+    const raw = localStorage.getItem(STORE_KEY);
+    if (raw) {
+      const o = JSON.parse(raw);
+      if (o && o.items) Object.keys(o.items).forEach(id => { if (SUG[id]) state[id] = clean(o.items[id]); });
+    }
+  } catch (e) { /* storage blocked: the page still works, answers live in memory */ }
+  let localOk = true;
+  function persistLocal() {
+    try { localStorage.setItem(STORE_KEY, JSON.stringify({ saved: now(), items: state })); localOk = true; }
+    catch (e) { localOk = false; }
+  }
+
+  // ---------------------------------------------------------------- the store (db), when this view has one
+  let db = null, storeState = 'none';
+  const dirty = {}, busy = {}, timers = {}, retried = {};
+  function setStoreNote() {
+    const el = $('#storeNote');
+    if (storeState === 'db') el.textContent = 'Your answers save as you click, to this page (on every device you open it from with this account) and in this browser. Tell me in the chat when you\'re done and I\'ll read them from here; "Copy my answers" gives you a copy to paste anywhere.';
+    else el.textContent = localOk ? 'Your answers save in this browser as you click. To move them to another browser or account, or to send them to me, use "Copy my answers" or "Save them as a file".' : 'This browser won\'t keep answers for this page, so copy or save them before you close it.';
+  }
+  function queueWrite(id, delay) {
+    if (!db) return;
+    dirty[id] = true;
+    clearTimeout(timers[id]);
+    timers[id] = setTimeout(() => flush(id), delay || 0);
+  }
+  async function flush(id) {
+    if (!db || busy[id] || !dirty[id]) return;
+    busy[id] = true;
+    try {
+      while (dirty[id] && db) {
+        dirty[id] = false;
+        const body = JSON.parse(JSON.stringify(get(id)));
+        await db.doc('decisions/' + id).set(body);
+      }
+      savedLine(id, 'Saved');
+    } catch (e) {
+      const code = e && e.code;
+      if (code === 'unavailable' && !retried[id]) {
+        retried[id] = true; dirty[id] = true;
+        setTimeout(() => { busy[id] = false; flush(id); }, 1200 + Math.random() * 1500);
+        return;
+      }
+      if (code === 'resource_exhausted') { dirty[id] = true; setTimeout(() => { busy[id] = false; flush(id); }, 4000); return; }
+      db = null; storeState = 'none'; setStoreNote();
+      savedLine(id, 'Saved in this browser only');
+    } finally { if (busy[id] === true) busy[id] = false; }
+  }
+  function mergeRemote(id, raw) {
+    const remote = clean(raw);
+    const local = get(id);
+    if ((remote.updated || '') > (local.updated || '')) {
+      state[id] = remote; persistLocal(); renderCard(id, true);
+    } else if ((local.updated || '') > (remote.updated || '')) {
+      queueWrite(id, 0);
+    }
+  }
+  async function initDb() {
+    let api = null;
+    try { if (window.claude && typeof window.claude.use === 'function') api = await window.claude.use('db'); } catch (e) { api = null; }
+    if (!api) { setStoreNote(); return; }
+    db = api; storeState = 'db'; setStoreNote();
+    let first = true;
+    try {
+      db.collection('decisions').onSnapshot(snap => {
+        const seen = new Set();
+        snap.docs.forEach(d => { seen.add(d.id); if (SUG[d.id]) mergeRemote(d.id, d.data()); });
+        if (first) {
+          first = false;
+          Object.keys(state).forEach(id => { if (!seen.has(id) && state[id].updated) queueWrite(id, 0); });
+        }
+        progress();
+      }, () => { db = null; storeState = 'none'; setStoreNote(); });
+    } catch (e) { db = null; storeState = 'none'; setStoreNote(); }
+  }
+
+  // ---------------------------------------------------------------- downloads, when this view has them
+  let dl = null;
+  (async () => { try { if (window.claude && typeof window.claude.use === 'function') dl = await window.claude.use('downloads'); } catch (e) { dl = null; } })();
+
+  // ---------------------------------------------------------------- rendering
+  const PILL = { pending: 'Not approved yet', approved: 'Approved', rejected: 'Rejected: keep as is', revise: 'Revise' };
+  // a stretch for him to see and rewrite if he wants (advice "edit", 2026-10-27): its own words for the same states
+  const EDIT_PILL = { pending: 'Not decided yet', approved: 'Approved', rejected: 'Keep as it is', revise: 'Your version' };
+  function savedLine(id, msg) { const c = cards[id]; if (c) { const el = $('.saved-line', c); if (el) el.textContent = msg; } }
+  function isAsk(id) { return SUG[id] && SUG[id].advice === 'ask'; }
+  function askPill(id) {
+    const c = cards[id]; if (!c) return;
+    const done = !!(get(id).comment || '').trim();
+    c.dataset.status = done ? 'answered' : 'pending';
+    $('.pill', c).textContent = done ? 'Answered' : 'Not answered yet';
+    c.classList.toggle('decided', done);
+    (marksById[id] || []).forEach(m => m.classList.toggle('done', done));
+  }
+  function renderCard(id, fromRemote) {
+    const c = cards[id]; if (!c) return;
+    const st = get(id);
+    if (isAsk(id)) {
+      const nt = $('.note', c);
+      if (!(fromRemote && document.activeElement === nt)) nt.value = st.comment || '';
+      askPill(id);
+      return;
+    }
+    c.dataset.status = st.status;
+    $('.pill', c).textContent = (c.dataset.advice === 'leave' && st.status === 'pending') ? 'I\'d leave it'
+      : (c.dataset.advice === 'edit' ? EDIT_PILL : PILL)[st.status];
+    $$('.dec', c).forEach(b => b.setAttribute('aria-pressed', String(b.dataset.dec === st.status)));
+    // "Undo my answer" shows only when there is an answer to undo (1.11; Joel, 2026-11-11: "'not approved yet' doesn't
+    // work as a button": it showed, pressed, on every undecided card, where a click did nothing)
+    $$('.dec.undo', c).forEach(b => { b.hidden = st.status === 'pending'; });
+    const yw = $('.yours-wrap', c), yt = $('.yours', c), nt = $('.note', c);
+    yw.hidden = !(st.status === 'revise' || st.text);
+    if (!(fromRemote && document.activeElement === yt)) yt.value = st.text || '';
+    if (!(fromRemote && document.activeElement === nt)) nt.value = st.comment || '';
+    const done = st.status !== 'pending';
+    (marksById[id] || []).forEach(m => {
+      const all = m.dataset.s.split(' ').every(x => get(x).status !== 'pending');
+      m.classList.toggle('done', all);
+    });
+    c.classList.toggle('decided', done);
+  }
+  function renderAll() { ORDER.forEach(id => renderCard(id)); progress(); }
+  function progress() {
+    let n = 0, dec = 0, ap = 0, rj = 0, rv = 0, quiet = 0, quietSeen = 0, asks = 0, answered = 0, eds = 0, edDone = 0, kept = 0, edited = 0;
+    ORDER.forEach(id => {
+      const st = get(id);
+      if (isAsk(id)) { asks++; if ((st.comment || '').trim()) answered++; return; }
+      if (SUG[id].advice === 'leave') { quiet++; if (st.status !== 'pending' || st.comment) quietSeen++; return; }
+      if (SUG[id].advice === 'edit') {   // a stretch to edit: kept or his version, counted apart from the suggestions
+        eds++; if (st.status !== 'pending') edDone++;
+        if (st.status === 'rejected') kept++; else if (st.status === 'revise') edited++;
+        return;
+      }
+      n++;
+      if (st.status !== 'pending') dec++;
+      if (st.status === 'approved') ap++; else if (st.status === 'rejected') rj++; else if (st.status === 'revise') rv++;
+    });
+    $('#prog').innerHTML = (n ? '<b>' + dec + '</b> of ' + n + ' decided · ' + ap + ' approved · ' + rj + ' rejected · ' + rv + ' to revise' : '')
+      + (eds ? (n ? ' · ' : '') + '<b>' + edDone + '</b> of ' + eds + ' stretches looked at · ' + kept + ' kept · ' + edited + ' edited' : '')
+      + (asks ? ' · ' + answered + ' of ' + asks + ' questions answered' : '');
+    $('#meter').style.width = ((n + eds + asks) ? Math.round(100 * (dec + edDone + answered) / (n + eds + asks)) : 0) + '%';
+    $('#leaveCount').textContent = quiet + (quietSeen ? ', ' + quietSeen + ' looked at' : '');
+    const counts = {};
+    ORDER.forEach(id => { const s = SUG[id]; if (s.advice === 'leave') return; counts[s.type] = (counts[s.type] || 0) + 1; });
+    $$('[data-count-type]').forEach(el => { el.textContent = counts[el.dataset.countType] || 0; });
+  }
+
+  // ---------------------------------------------------------------- decisions and notes
+  function decide(id, to) {
+    const st = get(id);
+    const from = st.status;
+    if (from === to) return;
+    st.history.push({ from: from, to: to, at: now() });
+    st.status = to; st.updated = now();
+    if (to === 'revise' && !st.text) st.text = SUG[id].proposed || '';
+    persistLocal(); renderCard(id); progress(); queueWrite(id, 0);
+    savedLine(id, db ? 'Saving…' : (localOk ? 'Saved in this browser' : 'Not saved: copy your answers before closing'));
+    if (to === 'revise') { const yt = $('.yours', cards[id]); if (yt) { yt.focus(); } }
+  }
+  ORDER.forEach(id => {
+    const c = cards[id]; if (!c) return;
+    $$('.dec', c).forEach(b => b.addEventListener('click', () => decide(id, b.dataset.dec)));
+    const typed = (field, el) => {
+      const st = get(id);
+      st[field] = el.value; st.updated = now();
+      persistLocal(); queueWrite(id, 900);
+      savedLine(id, db ? 'Saving…' : (localOk ? 'Saved in this browser' : 'Not saved: copy your answers before closing'));
+      if (isAsk(id)) askPill(id);
+      progress();
+    };
+    const yt = $('.yours', c), nt = $('.note', c);
+    yt.addEventListener('input', () => typed('text', yt));
+    nt.addEventListener('input', () => typed('comment', nt));
+    [yt, nt].forEach(el => el.addEventListener('blur', () => { if (dirty[id]) { clearTimeout(timers[id]); flush(id); } }));
+    const fold = $('.fold', c), body = $('.card-body', c);
+    fold.addEventListener('click', () => {
+      body.hidden = !body.hidden;
+      fold.textContent = body.hidden ? 'Open' : 'Fold';
+      fold.setAttribute('aria-expanded', String(!body.hidden));
+    });
+  });
+
+  // ---------------------------------------------------------------- moving around
+  // The cards in the order they stand on the page, not the order of REVIEW.json: Next and Previous move down and up the
+  // page. (Joel, 2026-11-03 19:12 UTC, on the gut article's r01 page: "your next button is skipping questions fix that".
+  // The list came from ORDER, the suggestions' file order, which put the three question cards last although one sat near
+  // the top of the article and the others between decision cards, so Next passed over them.)
+  function visibleCards() { return $$('.card[data-id]').filter(c => cards[c.dataset.id] === c && !c.hidden && c.offsetParent !== null); }
+  function openCard(c) { const body = $('.card-body', c); if (body.hidden) { body.hidden = false; const f = $('.fold', c); f.textContent = 'Fold'; f.setAttribute('aria-expanded', 'true'); } }
+  function flash(c) { c.classList.remove('flash'); void c.offsetWidth; c.classList.add('flash'); }
+  function goTo(c) { openCard(c); c.scrollIntoView({ behavior: 'smooth', block: 'start' }); flash(c); }
+  function undecided(c) { const id = c.dataset.id; return isAsk(id) ? !(get(id).comment || '').trim() : get(id).status === 'pending'; }
+  function step(dir) {
+    if (document.body.classList.contains('reading')) { document.body.classList.remove('reading'); $('#readingMode').checked = false; }
+    const topLine = 130;   // just under the sticky bar: a card scrolled to with goTo() stands at scroll-padding-top (120px)
+    if (dir > 0) {
+      const list = visibleCards().filter(undecided);
+      if (!list.length) { $('#prog').insertAdjacentText('beforeend', ' · nothing undecided in view'); return; }
+      const next = list.find(c => c.getBoundingClientRect().top > topLine + 4) || list[0];
+      goTo(next);
+      return;
+    }
+    // Previous: the card before the one you're on, decided or not, and never a jump to the bottom. (Joel, 2026-10-30, after
+    // going through the cards in order: "your "pevious" button brouught me to the bottom of the page": it went to the last
+    // undecided card above, and with every card above decided it wrapped round to the last one on the page.)
+    const all = visibleCards();
+    const above = all.filter(c => c.getBoundingClientRect().top < topLine + 4);
+    if (!above.length) { $('#prog').insertAdjacentText('beforeend', ' · this is the first card'); return; }
+    const cur = above[above.length - 1];
+    // inside a long card (its top well above the bar): back to its start first; at its start: the card before it
+    const target = cur.getBoundingClientRect().top < topLine - 60 ? cur : above[above.length - 2];
+    if (!target) { $('#prog').insertAdjacentText('beforeend', ' · this is the first card'); return; }
+    goTo(target);
+  }
+  $('#nextBtn').addEventListener('click', () => step(1));
+  $('#prevBtn').addEventListener('click', () => step(-1));
+  document.addEventListener('click', e => {
+    const m = e.target.closest('mark.hl[data-s]');
+    if (m && !e.target.closest('a')) {
+      const id = m.dataset.s.split(' ')[0];
+      const c = cards[id];
+      if (c && SUG[id].advice === 'leave' && !document.body.classList.contains('show-leave')) return;
+      if (c) {
+        if (document.body.classList.contains('reading')) { document.body.classList.remove('reading'); $('#readingMode').checked = false; }
+        if (c.hidden) { c.hidden = false; }
+        goTo(c);
+      }
+      return;
+    }
+    const g = e.target.closest('[data-go]');
+    if (g) {
+      const t = document.getElementById(g.dataset.go);
+      if (t) { if (t.classList.contains('card')) goTo(t); else { t.scrollIntoView({ behavior: 'smooth', block: 'center' }); flash(t); } }
+    }
+  });
+
+  // ---------------------------------------------------------------- filters
+  const hiddenTypes = new Set();
+  function applyFilters() {
+    const status = $('#statusFilter').value;
+    const q = $('#search').value.trim().toLowerCase();
+    ORDER.forEach(id => {
+      const c = cards[id]; if (!c) return;
+      const st = get(id);
+      let show = !hiddenTypes.has(SUG[id].type);
+      if (show && status !== 'all') show = status === 'noted' ? !!(st.comment || st.text) : st.status === status;
+      if (show && q) {
+        const b = document.getElementById('b' + c.dataset.block);
+        const hay = (c.textContent + ' ' + (b ? b.textContent : '') + ' ' + st.comment + ' ' + st.text).toLowerCase();
+        show = hay.includes(q);
+      }
+      c.hidden = !show;
+    });
+    Object.keys(DATA.types).forEach(t => document.body.classList.toggle('hide-t-' + t, hiddenTypes.has(t)));
+  }
+  $$('[data-filter-type]').forEach(b => b.addEventListener('click', e => {
+    const t = b.dataset.filterType;
+    if (b.closest('.card')) { e.stopPropagation(); }
+    if (hiddenTypes.has(t)) hiddenTypes.delete(t); else hiddenTypes.add(t);
+    $$('.tools [data-filter-type="' + t + '"]').forEach(x => x.setAttribute('aria-pressed', String(!hiddenTypes.has(t))));
+    applyFilters();
+  }));
+  $('#statusFilter').addEventListener('change', applyFilters);
+  let searchTimer = null;
+  $('#search').addEventListener('input', () => { clearTimeout(searchTimer); searchTimer = setTimeout(applyFilters, 200); });
+  $('#showLeave').addEventListener('change', e => { document.body.classList.toggle('show-leave', e.target.checked); });
+  $('#readingMode').addEventListener('change', e => { document.body.classList.toggle('reading', e.target.checked); });
+  const sel = $('#sectionJump');
+  DATA.sections.forEach(s => {
+    const o = document.createElement('option');
+    o.value = 'b' + s.b; o.textContent = (s.level >= 3 ? '   ' : '') + s.text;
+    sel.appendChild(o);
+  });
+  sel.addEventListener('change', () => { const t = document.getElementById(sel.value); if (t) t.scrollIntoView({ behavior: 'smooth', block: 'start' }); sel.value = ''; });
+  function togglePanel(btn, panel) {
+    const open = panel.hidden;
+    panel.hidden = !open; btn.setAttribute('aria-expanded', String(open));
+  }
+  $('#toolsBtn').addEventListener('click', () => togglePanel($('#toolsBtn'), $('#tools')));
+  $('#saveBtn').addEventListener('click', () => togglePanel($('#saveBtn'), $('#savePanel')));
+
+  // ---------------------------------------------------------------- export and import
+  function answers() {
+    const counts = { approved: 0, rejected: 0, revise: 0, pending: 0 };
+    const items = ORDER.map(id => {
+      const s = SUG[id], st = get(id);
+      counts[st.status]++;
+      return { id: id, type: s.type, title: s.title, where: s.where, advice: s.advice, status: isAsk(id) ? ((st.comment || '').trim() ? 'answered' : 'pending') : st.status,
+        question: s.question || undefined,
+        your_version: st.text, comment: st.comment, my_version: s.proposed, before: s.before,
+        history: st.history, updated: st.updated };
+    });
+    return { format: 'joel-suggestion-review-answers-v1', review_id: DATA.review_id, title: DATA.title, git_file: DATA.git_file,
+      article: DATA.article, built: DATA.built, generator: DATA.generator, exported_at: now(), counts: counts, items: items };
+  }
+  function status(msg) { $('#saveStatus').textContent = msg; }
+  function showCopyArea(text) {
+    const ta = $('#copyArea'); ta.hidden = false; ta.value = text; ta.focus(); ta.select();
+  }
+  $('#copyJson').addEventListener('click', () => {
+    const text = JSON.stringify(answers(), null, 1);
+    let done = false;
+    try {
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(text).then(() => { done = true; status('Copied. Paste it into the chat, or into this page on another account with "Paste answers instead".'); $('#copyArea').hidden = true; },
+          () => { showCopyArea(text); status('This view blocked copying: the answers are selected below, so copy them with your keyboard or the menu.'); });
+        return;
+      }
+    } catch (e) { /* fall through */ }
+    if (!done) { showCopyArea(text); status('The answers are selected below: copy them with your keyboard or the menu.'); }
+  });
+  $('#saveJson').addEventListener('click', async () => {
+    const text = JSON.stringify(answers(), null, 1);
+    const name = (DATA.review_id || 'review') + '-answers-' + now().slice(0, 16).replace(/[:T]/g, '-') + '.json';
+    if (dl) {
+      try { const r = await dl.save({ filename: name, data: text }); status(r && r.status === 'delivered' ? 'Sent.' : 'Saved as ' + name + '.'); return; }
+      catch (e) {
+        if (e && e.code === 'declined') { status('Not saved.'); return; }
+        if (e && e.code === 'rate_limited') { status('A save is already waiting for you to confirm.'); return; }
+      }
+    }
+    try {
+      const url = URL.createObjectURL(new Blob([text], { type: 'application/json' }));
+      const a = document.createElement('a'); a.href = url; a.download = name; a.style.display = 'none';
+      document.body.appendChild(a); a.click(); a.remove();
+      setTimeout(() => URL.revokeObjectURL(url), 60000);
+      status('Saving ' + name + '. If nothing downloads, use "Copy my answers" instead.');
+    } catch (e) { showCopyArea(text); status('Saving files is blocked here: the answers are selected below to copy.'); }
+  });
+  function load(text) {
+    let o;
+    try { o = JSON.parse(text); } catch (e) { status('That isn\'t a JSON answers file.'); return; }
+    if (!o || o.format !== 'joel-suggestion-review-answers-v1' || !Array.isArray(o.items)) { status('That isn\'t an answers file from this page.'); return; }
+    if (o.review_id !== DATA.review_id) { status('Those answers are for a different review (' + o.review_id + '), so nothing was loaded.'); return; }
+    if (!o.article || o.article.sha256 !== DATA.article.sha256) { status('Those answers are for a different version of the guide, so nothing was loaded: send them to me and I\'ll carry them over.'); return; }
+    let n = 0; const unknown = [];
+    o.items.forEach(it => {
+      if (!it || !SUG[it.id]) { if (it && it.id) unknown.push(it.id); return; }
+      const st = get(it.id);
+      const to = STATUSES.includes(it.status) ? it.status : 'pending';
+      if (to === 'pending' && !it.comment && !it.your_version && st.status === 'pending' && !st.comment && !st.text) return;
+      if (to !== st.status) st.history.push({ from: st.status, to: to, at: now(), by: 'loaded from a file' });
+      st.status = to; st.comment = typeof it.comment === 'string' ? it.comment : '';
+      st.text = typeof it.your_version === 'string' ? it.your_version : '';
+      st.updated = now(); n++;
+      queueWrite(it.id, 0);
+    });
+    persistLocal(); renderAll(); applyFilters();
+    status('Loaded ' + n + ' answer' + (n === 1 ? '' : 's') + (unknown.length ? '; ' + unknown.length + ' not on this page (' + unknown.slice(0, 5).join(', ') + ')' : '') + '.');
+  }
+  $('#importFile').addEventListener('change', e => {
+    const f = e.target.files && e.target.files[0]; if (!f) return;
+    const r = new FileReader(); r.onload = () => { load(String(r.result)); e.target.value = ''; }; r.readAsText(f);
+  });
+  $('#pasteToggle').addEventListener('click', () => { const b = $('#pasteBox'); b.hidden = !b.hidden; if (!b.hidden) $('#pasteArea').focus(); });
+  $('#pasteLoad').addEventListener('click', () => load($('#pasteArea').value));
+
+  window.__review = { answers: answers, load: load, state: () => state };
+  renderAll(); applyFilters(); setStoreNote(); initDb();
+})();
+</script>

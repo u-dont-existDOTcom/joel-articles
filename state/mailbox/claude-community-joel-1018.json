@@ -1137,6 +1137,43 @@
     }
    ],
    "recorded_utc": "2026-11-11T21:04Z"
+  },
+  {
+   "turn": "2026-11-11T22:07Z",
+   "lines_of_work": [
+    "neuro de-armoring",
+    "hypnosis guide",
+    "community article"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "AGENTS.md 7ef0bfc and LESSON-INDEX ba787e0 unchanged; the lane's six suggested-fix items, all in the ledger"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "main at 373ee5274 (bad trips 420; this lane's 419 merged); no new issues or review comments; 309 still open"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "his message of 22:07 UTC: my lesson 11a is wrong (a claim he makes as science rests on science, never recast as his opinion; a fallen mechanism means rethinking the card); my potassium wording undersold it and my research was thin; GPT's research on potassium and mood, cognition and firsthand reports; NHANES low intakes; two Reddit threads; nobody else edited this lane's files"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "no queued notifications"
+    }
+   ],
+   "items": [
+    {
+     "item": "his message of 22:07 UTC",
+     "outcome": "correct lesson 11a; check GPT's sources and his NHANES figure and threads; rethink the potassium card on the science (SC-106e)"
+    }
+   ],
+   "recorded_utc": "2026-11-11T22:09Z"
   }
  ]
 }

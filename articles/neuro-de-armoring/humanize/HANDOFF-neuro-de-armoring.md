@@ -18,6 +18,17 @@ From an account with Desktop Commander connected to the laptop: "Continue my neu
 
 ## START HERE
 
+- **2026-11-11, after his message of 22:07 UTC: SC-106e rests on the science; lessons 11a (corrected) and 11b.** The
+  article is still 8de00b80. **Next**: his answer on Neuro De-Armoring Cards, 11 November (2) (artifact
+  9nENpt9AEJCB43a9Wy5jqn, version 4; `sci-p23/REVIEW-X1111B.md`, review id x1111b): SC-106e cuts blocks 104 and 105,
+  gives block 106 seven sentences (nerves and low intakes, mood, thinking, who needs more, blood pressure, his paleo view,
+  the caution) and cuts block 115's second sentence. On approval put `sci-p23/SP106E.md` and `SP115G.md` in and cut the
+  two label blocks (texts_x1111b.py's start strings find them), with a FIDELITY owner_changes entry (the new years:
+  2001, 2006, 2008, 2013, 2019, 2022 and 2024; KCNQ and the labels' keys, if listed) and my
+  comparative read; if he takes the reader's shorter paragraph, it's in the card's advice. If he pastes Reddit posts,
+  they're firsthand reports, said as such. Then the coherence read from `fix-20261108/coherence/EXTRACT.md` and the
+  diet and ketone claims (GPT's PTSD trials, Youssef 2022 first).
+
 - **2026-11-11, after his answer of 21:01 UTC on x1108e (SC-106c to revise, with his comment): his points checked;
   SC-106d puts his view in block 106.** The session's container was renewed: the lane now works in a fresh clone,
   `/home/claude/joel-articles`, branch `claude/community-joel-1018` put on main's tip (the old worktree is gone). The
