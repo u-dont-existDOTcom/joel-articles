@@ -474,18 +474,6 @@
   "text": null
  },
  {
-  "id": "B147",
-  "kind": "h2",
-  "md": "## How I label the evidence",
-  "text": null
- },
- {
-  "id": "B148",
-  "kind": "ul",
-  "md": "- **Established acute treatment:** standard seizure first aid, rapid rescue benzodiazepines, cooling dangerous hyperthermia, and treating documented electrolyte abnormalities.\n- **Limited human evidence:** interventions with clinical reports or small trials but no strong modern outcome evidence.\n- **Mechanism or preclinical evidence:** biologically plausible effects shown mainly in cells or animals.\n- **Personal field signal:** what I have repeatedly observed in myself or other people. Repetition and a clear immediate endpoint make an anecdote more useful, but they do not turn it into a population rate.",
-  "text": null
- },
- {
   "id": "B217",
   "kind": "h2",
   "md": "## Some Remedies Require More Caution",
@@ -914,7 +902,7 @@
  {
   "id": "B212",
   "kind": "p",
-  "md": "I include it because most people don't have access to *Ipomoea pes-caprae*, although I supply it. A vitamin is not automatically harmless. Niacin has been used for decades by orthomolecular doctors for psychotic conditions and seems to act both like a natural benzodiazepine and an antipsychotic. The clinical literature is discussed in *Niacin: The Real Story* by Abram Hoffer, M.D.",
+  "md": "I include it because most people don't have access to *Ipomoea pes-caprae*, although I supply it. Niacin has been used for decades by orthomolecular doctors for psychotic conditions and seems to act both like a natural benzodiazepine and an antipsychotic. The clinical literature is discussed in *Niacin: The Real Story* by Abram Hoffer, M.D.",
   "text": null
  },
  {
@@ -1068,36 +1056,6 @@
   "text": null
  },
  {
-  "id": "B248",
-  "kind": "h3",
-  "md": "### Stillness or Movement?",
-  "text": null
- },
- {
-  "id": "B249",
-  "kind": "p",
-  "md": "Test stillness and movement rather than turning them into rival religions. Try one for two minutes and ask: *Does this make me safer and clearer, or more activated and impulsive?*",
-  "text": null
- },
- {
-  "id": "B250",
-  "kind": "p",
-  "md": "When lying down feels like imprisonment, pace slowly in a contained space. When pacing begins to resemble escape, sit against a wall or lie under a blanket. The goal is to let the nervous system discharge without creating a new danger.",
-  "text": null
- },
- {
-  "id": "B251",
-  "kind": "p",
-  "md": "**Parallel processing** can help when lying still turns into immobile introspection. Let one part of attention stay with the body, fear, grief, or memory while another part completes a simple, safe task with a visible endpoint: sort ten objects, draw, fold five towels, or wash one cup. Finishing something small helps confirm that time is moving and ordinary reality is still here. Stop if the task increases agitation, speed, or risk.",
-  "text": null
- },
- {
-  "id": "B313",
-  "kind": "p",
-  "md": "**Movement evidence note:** the best-supported general advice is to create a safe, low-stimulation environment and choose responses that reduce danger. A [2024 study](https://www.nature.com/articles/s41598-024-79931-w) of strategies for resolving challenging psychedelic experiences identified physical movement, intentional breathing, sensory engagement, sleep-seeking, and social support among the ways people navigate difficulty.",
-  "text": null
- },
- {
   "id": "B294",
   "kind": "h2",
   "md": "## Grounding Menu: Choose One or Two Things",
@@ -1106,7 +1064,7 @@
  {
   "id": "B295",
   "kind": "p",
-  "md": "Grounding is love becoming practical. Choose one or two options rather than all of them. Twelve simultaneous techniques can become another form of panic.",
+  "md": "Grounding is love becoming practical. Choose one or two options rather than all of them.",
   "text": null
  },
  {
@@ -1130,7 +1088,19 @@
  {
   "id": "B298",
   "kind": "ul",
-  "md": "- Feel both feet against the floor.\n- Put one hand on the heart and one on the solar plexus.\n- Hold something with weight or texture.\n- Slowly unclench the jaw, hands, belly, and shoulders.",
+  "md": "- Put one hand on the heart and one on the solar plexus.",
+  "text": null
+ },
+ {
+  "id": "R33-SMELL",
+  "kind": "p",
+  "md": "**Smell**",
+  "text": null
+ },
+ {
+  "id": "R33-SMELL-L",
+  "kind": "ul",
+  "md": "- Scratch & sniff a lime peel, or smell an authentic calming essential oil, the Metta NMT sniffer or humic acid powder (see Mental Stabilizers That Don't Abort the Trip).",
   "text": null
  },
  {
@@ -1142,7 +1112,7 @@
  {
   "id": "B302",
   "kind": "ul",
-  "md": "- Exhale longer than you inhale for ten breaths.\n- Try inhaling for four and exhaling for six, without strain.\n- Or breathe softly and slowly through the nose, taking in slightly less air than desired until there is faint air hunger.\n- Never force breath-holds while intoxicated or panicked. Stop for increased fear, dizziness, chest pain, or medical concern.\n- Whisper: \"This is a wave. I can love the part of me that feels it.\"",
+  "md": "- Exhale longer than you inhale for ten breaths.\n- Or try Buteyko reduced breathing: breathe softly and slowly through the nose, taking in slightly less air than desired until there is faint air hunger.\n- Systema continuous partial breathing in coordination with relaxed movement and muscular detensioning is excellent for entering a flow state. It helps to watch a video on how to do it prior though, as it's a bit tricky to understand compared to simple reduced breathing.\n- Never force breath-holds while intoxicated or panicked. Stop for increased fear, dizziness, chest pain, or medical concern.\n- Whisper: \"This is a wave. I can love the part of me that feels it.\"",
   "text": null
  },
  {
@@ -1154,7 +1124,7 @@
  {
   "id": "B304",
   "kind": "ul",
-  "md": "- Silence is a real option.\n- Use familiar music when possible. I wouldn't force a predesigned emotional arc or an unfamiliar therapeutic playlist on somebody who dislikes it.\n- Try a steady drum rhythm for stabilization or grounding; try airy harp-like or meditative music when the person wants something gentler and spiritually uplifting.\n- Soothing meditative music, like that of Chantress Seba and others on my [music page](http://music.u-dont-exist.com/), can be very helpful.\n- Keep the stop or change control immediate.",
+  "md": "- Use familiar music when possible. I wouldn't force a predesigned emotional arc or an unfamiliar therapeutic playlist on somebody who dislikes it.\n- Try a steady drum rhythm for stabilization or grounding; try airy harp-like or meditative music when the person wants something gentler and spiritually uplifting.\n- Soothing meditative music, like that of Chantress Seba and others on my [music page](http://music.u-dont-exist.com/), can be very helpful.",
   "text": null
  },
  {
@@ -1166,7 +1136,7 @@
  {
   "id": "B308",
   "kind": "ul",
-  "md": "- Ask one calm person to stay as the lead anchor.\n- Let them remind you where you are.\n- Don't process with the most reactive person in your life.",
+  "md": "- Don't process with the most reactive person in your life.",
   "text": null
  },
  {
@@ -1191,12 +1161,6 @@
   "id": "B312",
   "kind": "ul",
   "md": "- Eat simple healthy food, such as fruit, when you can.\n- Walk slowly with a clear-headed person in a safe environment.\n- Go outside only away from roads, heights, crowds, and water.\n- Avoid strenuous exercise with overheating, chest pain, faintness, severe confusion, stimulant use, an unknown mixture, or any medical concern.",
-  "text": null
- },
- {
-  "id": "B314",
-  "kind": "p",
-  "md": "**Buteyko evidence note:** published evidence for Buteyko-style breathing mainly concerns asthma and breathing retraining, rather than psychedelic or spiritual-practice crisis. I include it because panic-related over-breathing can lower CO<sub>2</sub> and directly cause tingling, lightheadedness, confusion, and unreality feelings ([Hopkins Medicine](https://www.hopkinsmedicine.org/health/conditions-and-diseases/hyperventilation)). Use the simpler longer-exhale option first. Never strain or turn breathing into another achievement.",
   "text": null
  },
  {
@@ -1236,18 +1200,6 @@
   "text": null
  },
  {
-  "id": "B259",
-  "kind": "p",
-  "md": "**Script for the sitter or friend:**",
-  "text": null
- },
- {
-  "id": "B260",
-  "kind": "blockquote",
-  "md": "> I'm here. You're not alone. This is a wave. We don't have to solve your whole life right now. Let's make your body safe, keep things simple, and stay together.",
-  "text": null
- },
- {
   "id": "B271",
   "kind": "h3",
   "md": "### Alone at 3 a.m.",
@@ -1269,12 +1221,6 @@
   "id": "R31-ALONE",
   "kind": "p",
   "md": "While you wait, put one hand on your heart and the other on your solar plexus just under your chest, and say to yourself: \"This feeling is allowed to move through. I can love the part of me that feels it.\"",
-  "text": null
- },
- {
-  "id": "B274",
-  "kind": "p",
-  "md": "When the body still needs movement, keep it contained and boring: brush your teeth, stretch gently, take a calm shower, or do a few slow wall push-ups. Then protect sleep.",
   "text": null
  },
  {
@@ -1310,7 +1256,7 @@
  {
   "id": "B282",
   "kind": "ul",
-  "md": "- Ask simple questions: \"Would less light help?\" \"Music or quiet?\" \"Closer or farther away?\" \"Water?\" (in small sips) \"Need the bathroom?\"\n- Reflect without arguing: \"That sounds terrifying.\" \"I'm with you.\" \"Let's breathe together.\"\n- Keep the room quiet, private, warm, and physically safe, and move anyone they're wary of somewhere else.\n- Call for help early when safety is slipping.\n- Translate metaphysics into shared safety values: \"This feels sacred and huge. Sacred power protects life tonight.\"\n- Set behavioral boundaries without humiliation: \"I won't help anybody hurt themselves or another person. We are keeping every body safe.\"",
+  "md": "- Ask simple questions: \"Would less light help?\" \"Music or quiet?\" \"Closer or farther away?\" \"Water?\" (in small sips) \"Need the bathroom?\"\n- Call for help early when safety is slipping.\n- Set behavioral boundaries without humiliation: \"I won't help anybody hurt themselves or another person. We are keeping every body safe.\"",
   "text": null
  },
  {
@@ -1341,12 +1287,6 @@
   "id": "B289",
   "kind": "p",
   "md": "Other useful lines: \"Maybe you are touching something divine. Divine doesn't need a violent test.\" \"Tonight the commandment is no harm, no proof, no mission, sleep first.\"",
-  "text": null
- },
- {
-  "id": "B290",
-  "kind": "p",
-  "md": "Redirect within the person's value-world toward peace and protection, increase containment, and bring in crisis support as early and as non-coercively as the situation allows.",
   "text": null
  },
  {
@@ -1437,12 +1377,6 @@
   "id": "B327",
   "kind": "ol",
   "md": "1. **Have I slept?** Sleep comes before mission.\n2. **Has this happened before, and how did it end?** A recurring pattern with lost sleep, racing thoughts, pressured speech, or everyone saying you are not yourself needs grounded support before action.",
-  "text": null
- },
- {
-  "id": "B328",
-  "kind": "p",
-  "md": "The revelation will still exist after breakfast. If it is true, it survives sleep. If it cannot survive one night of rest, it was an emergency impulse wearing angel wings.",
   "text": null
  },
  {
@@ -1743,24 +1677,6 @@
   "id": "B358",
   "kind": "image",
   "md": "![Universe Sends What You Need](https://substack-post-media.s3.amazonaws.com/public/images/39743f7e-c7cd-4db7-933c-aa35a381f5b5_911x1600.jpeg)",
-  "text": null
- },
- {
-  "id": "B360",
-  "kind": "p",
-  "md": "A bad trip or destabilizing state may also come from drug interactions, sleep deprivation, cannabis, hunger, dehydration, sexual or social pressure, medical symptoms, psychosis-like symptoms, fasting, intense breathwork, meditation overload, or retreat pressure.",
-  "text": null
- },
- {
-  "id": "B362",
-  "kind": "p",
-  "md": "Cognitive distortions from Cognitive Behavioral Therapy (CBT) can create or prolong the crisis:",
-  "text": null
- },
- {
-  "id": "B363",
-  "kind": "ul",
-  "md": "- **Catastrophizing:** \"This will never end.\"\n- **Emotional reasoning:** \"It feels true, so it must be true.\"\n- **Mind reading:** \"Everyone can see I am broken.\"\n- **Fortune-telling:** \"My life is ruined now.\"\n- **All-or-nothing thinking:** \"Either I am enlightened or I am doomed.\"\n- **Personalization:** \"This cosmic horror is specifically my fault.\"\n- **Spiritual bypassing:** \"Because everything is love, I don't need boundaries, doctors, sleep, or consequences.\"",
   "text": null
  },
  {

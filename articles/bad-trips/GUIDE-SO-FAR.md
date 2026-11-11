@@ -185,13 +185,6 @@ A trip with diarrhea, nausea, toxic heaviness, a dirty body-feeling, loss of bod
 
 ---
 
-## How I label the evidence
-
-- **Established acute treatment:** standard seizure first aid, rapid rescue benzodiazepines, cooling dangerous hyperthermia, and treating documented electrolyte abnormalities.
-- **Limited human evidence:** interventions with clinical reports or small trials but no strong modern outcome evidence.
-- **Mechanism or preclinical evidence:** biologically plausible effects shown mainly in cells or animals.
-- **Personal field signal:** what I have repeatedly observed in myself or other people. Repetition and a clear immediate endpoint make an anecdote more useful, but they do not turn it into a population rate.
-
 ## Some Remedies Require More Caution
 
 [Humic acid](http://humicacid.u-dont-exist.com/) *when eaten*, can produce a hyperintelligent state for me. From the outside that may look manic, and it could destabilize somebody prone to mania or without meditation training. I wouldn't use it casually during a bad trip. Smelling it does not produce that hyperintelligent state but does feel relaxing and very beneficial for brain health, so I'd start with that.
@@ -341,7 +334,7 @@ I do not yet have data showing that pes-caprae aborts MDMA. MDMA remains a separ
 
 Flushing niacin has effectively aborted trips for me and friends, although I dislike it compared with beach morning glory.
 
-I include it because most people don't have access to *Ipomoea pes-caprae*, although I supply it. A vitamin is not automatically harmless. Niacin has been used for decades by orthomolecular doctors for psychotic conditions and seems to act both like a natural benzodiazepine and an antipsychotic. The clinical literature is discussed in *Niacin: The Real Story* by Abram Hoffer, M.D.
+I include it because most people don't have access to *Ipomoea pes-caprae*, although I supply it. Niacin has been used for decades by orthomolecular doctors for psychotic conditions and seems to act both like a natural benzodiazepine and an antipsychotic. The clinical literature is discussed in *Niacin: The Real Story* by Abram Hoffer, M.D.
 
 **Side effects:**
 
@@ -396,19 +389,9 @@ If they're being attacked by a demon, let your care help them connect to love, w
 
 I actually get something like this regularly when I take a high dose of something (or meditate too much), where I feel like I'm at risk of ruining my life if I don't stay away from sex and money. And there's a voice that really commands me to leave both of those completely (which led to 3 weeks of wandering in Malaysia & Cambodia without money once). What actually helped me in one case when receiving this stern order from a higher power, was to ask it to clarify. I said, "I agree, that makes sense as a Buddhist, and I'd like to leave those behind at some point, especially money. But what's the best timeline to benefit all involved? Some people are dependent on me, I have a son, and so forth." The voice didn't respond, it just went away. So I took it more like a long-term suggestion than the urgency I assumed it needed based on how loud it was at first.
 
-### Stillness or Movement?
-
-Test stillness and movement rather than turning them into rival religions. Try one for two minutes and ask: *Does this make me safer and clearer, or more activated and impulsive?*
-
-When lying down feels like imprisonment, pace slowly in a contained space. When pacing begins to resemble escape, sit against a wall or lie under a blanket. The goal is to let the nervous system discharge without creating a new danger.
-
-**Parallel processing** can help when lying still turns into immobile introspection. Let one part of attention stay with the body, fear, grief, or memory while another part completes a simple, safe task with a visible endpoint: sort ten objects, draw, fold five towels, or wash one cup. Finishing something small helps confirm that time is moving and ordinary reality is still here. Stop if the task increases agitation, speed, or risk.
-
-**Movement evidence note:** the best-supported general advice is to create a safe, low-stimulation environment and choose responses that reduce danger. A [2024 study](https://www.nature.com/articles/s41598-024-79931-w) of strategies for resolving challenging psychedelic experiences identified physical movement, intentional breathing, sensory engagement, sleep-seeking, and social support among the ways people navigate difficulty.
-
 ## Grounding Menu: Choose One or Two Things
 
-Grounding is love becoming practical. Choose one or two options rather than all of them. Twelve simultaneous techniques can become another form of panic.
+Grounding is love becoming practical. Choose one or two options rather than all of them.
 
 A useful order is **room → body → human → time → meaning**. Most people begin with meaning because the experience feels cosmic.
 
@@ -416,31 +399,28 @@ A useful order is **room → body → human → time → meaning**. Most people 
 
 **Body**
 
-- Feel both feet against the floor.
 - Put one hand on the heart and one on the solar plexus.
-- Hold something with weight or texture.
-- Slowly unclench the jaw, hands, belly, and shoulders.
+
+**Smell**
+
+- Scratch & sniff a lime peel, or smell an authentic calming essential oil, the Metta NMT sniffer or humic acid powder (see Mental Stabilizers That Don't Abort the Trip).
 
 **Breath**
 
 - Exhale longer than you inhale for ten breaths.
-- Try inhaling for four and exhaling for six, without strain.
-- Or breathe softly and slowly through the nose, taking in slightly less air than desired until there is faint air hunger.
+- Or try Buteyko reduced breathing: breathe softly and slowly through the nose, taking in slightly less air than desired until there is faint air hunger.
+- Systema continuous partial breathing in coordination with relaxed movement and muscular detensioning is excellent for entering a flow state. It helps to watch a video on how to do it prior though, as it's a bit tricky to understand compared to simple reduced breathing.
 - Never force breath-holds while intoxicated or panicked. Stop for increased fear, dizziness, chest pain, or medical concern.
 - Whisper: "This is a wave. I can love the part of me that feels it."
 
 **Music**
 
-- Silence is a real option.
 - Use familiar music when possible. I wouldn't force a predesigned emotional arc or an unfamiliar therapeutic playlist on somebody who dislikes it.
 - Try a steady drum rhythm for stabilization or grounding; try airy harp-like or meditative music when the person wants something gentler and spiritually uplifting.
 - Soothing meditative music, like that of Chantress Seba and others on my [music page](http://music.u-dont-exist.com/), can be very helpful.
-- Keep the stop or change control immediate.
 
 **Human**
 
-- Ask one calm person to stay as the lead anchor.
-- Let them remind you where you are.
 - Don't process with the most reactive person in your life.
 
 **Time**
@@ -455,8 +435,6 @@ A useful order is **room → body → human → time → meaning**. Most people 
 - Go outside only away from roads, heights, crowds, and water.
 - Avoid strenuous exercise with overheating, chest pain, faintness, severe confusion, stimulant use, an unknown mixture, or any medical concern.
 
-**Buteyko evidence note:** published evidence for Buteyko-style breathing mainly concerns asthma and breathing retraining, rather than psychedelic or spiritual-practice crisis. I include it because panic-related over-breathing can lower CO<sub>2</sub> and directly cause tingling, lightheadedness, confusion, and unreality feelings ([Hopkins Medicine](https://www.hopkinsmedicine.org/health/conditions-and-diseases/hyperventilation)). Use the simpler longer-exhale option first. Never strain or turn breathing into another achievement.
-
 ## Get One Human Anchor
 
 Many bad trips get worse because somebody is alone with a frightened or over-certain mind. Other times it's the opposite: too many people crowd in and start advising, arguing, spiritualizing, or panicking.
@@ -469,10 +447,6 @@ So **one calm person should be the anchor** and take the lead. One person can on
 
 > I'm in an intense psychedelic or altered state and I need grounding. I don't need you to solve my life. Please stay with me, speak slowly, remind me where I am, and help me not make any big decisions until tomorrow.
 
-**Script for the sitter or friend:**
-
-> I'm here. You're not alone. This is a wave. We don't have to solve your whole life right now. Let's make your body safe, keep things simple, and stay together.
-
 ### Alone at 3 a.m.
 
 The [triage app](https://ibogaqueen.com/1625-2/) has the stripped-down 3 a.m. plan. Once the lamp is on, the keys are away, and **"No big actions until morning"** is visible, use the phone only to reach a calm person or support service.
@@ -480,8 +454,6 @@ The [triage app](https://ibogaqueen.com/1625-2/) has the stripped-down 3 a.m. pl
 Send the human-anchor script.
 
 While you wait, put one hand on your heart and the other on your solar plexus just under your chest, and say to yourself: "This feeling is allowed to move through. I can love the part of me that feels it."
-
-When the body still needs movement, keep it contained and boring: brush your teeth, stretch gently, take a calm shower, or do a few slow wall push-ups. Then protect sleep.
 
 ## For the Person Helping: Calm Anchor, Not Guru
 
@@ -494,10 +466,7 @@ Stay present. If it helps, you can say to yourself: *This feeling is allowed to 
 ### Do
 
 - Ask simple questions: "Would less light help?" "Music or quiet?" "Closer or farther away?" "Water?" (in small sips) "Need the bathroom?"
-- Reflect without arguing: "That sounds terrifying." "I'm with you." "Let's breathe together."
-- Keep the room quiet, private, warm, and physically safe, and move anyone they're wary of somewhere else.
 - Call for help early when safety is slipping.
-- Translate metaphysics into shared safety values: "This feels sacred and huge. Sacred power protects life tonight."
 - Set behavioral boundaries without humiliation: "I won't help anybody hurt themselves or another person. We are keeping every body safe."
 
 ### When What They Say Turns Toward Harm
@@ -509,8 +478,6 @@ When somebody says, "I am God, so I can kill," leading with "No you're not" or "
 > I hear how vast and certain this feels. Many traditions say God is in everyone. That makes every body sacred, not disposable. Peace is the godly move tonight. No proof is needed. We protect life and sleep first.
 
 Other useful lines: "Maybe you are touching something divine. Divine doesn't need a violent test." "Tonight the commandment is no harm, no proof, no mission, sleep first."
-
-Redirect within the person's value-world toward peace and protection, increase containment, and bring in crisis support as early and as non-coercively as the situation allows.
 
 When talk of harm continues, shift from philosophy to safety. Create distance from potential targets and keep your own exit. Don't block, crowd, threaten, mock, or physically wrestle away a weapon. Quietly remove means only when that can be done without confrontation or turning yourself into the target.
 
@@ -542,8 +509,6 @@ The action lock matters especially when the state feels blissful: *I am God. I a
 
 1. **Have I slept?** Sleep comes before mission.
 2. **Has this happened before, and how did it end?** A recurring pattern with lost sleep, racing thoughts, pressured speech, or everyone saying you are not yourself needs grounded support before action.
-
-The revelation will still exist after breakfast. If it is true, it survives sleep. If it cannot survive one night of rest, it was an emergency impulse wearing angel wings.
 
 # Shadow Work
 
@@ -734,18 +699,6 @@ Some say there's no such thing as a bad trip, because it's all a doorway to shad
 Sometimes focusing on what we want makes the blockage visible:
 
 ![Universe Sends What You Need](https://substack-post-media.s3.amazonaws.com/public/images/39743f7e-c7cd-4db7-933c-aa35a381f5b5_911x1600.jpeg)
-
-A bad trip or destabilizing state may also come from drug interactions, sleep deprivation, cannabis, hunger, dehydration, sexual or social pressure, medical symptoms, psychosis-like symptoms, fasting, intense breathwork, meditation overload, or retreat pressure.
-
-Cognitive distortions from Cognitive Behavioral Therapy (CBT) can create or prolong the crisis:
-
-- **Catastrophizing:** "This will never end."
-- **Emotional reasoning:** "It feels true, so it must be true."
-- **Mind reading:** "Everyone can see I am broken."
-- **Fortune-telling:** "My life is ruined now."
-- **All-or-nothing thinking:** "Either I am enlightened or I am doomed."
-- **Personalization:** "This cosmic horror is specifically my fault."
-- **Spiritual bypassing:** "Because everything is love, I don't need boundaries, doctors, sleep, or consequences."
 
 ## Spiritual ≠ "Getting Your Ass Kicked"
 

@@ -9,8 +9,12 @@ What it does, in Chromium (Playwright), on the exact file it's given, opened as 
     the box have a contrast of at least 4.5, under light and dark preferences; a negative fixture (the 2023-10-23 white
     box with no text colour) must fail the same check, so the check can't pass by accident;
   - a pre-decided suggestion starts with its decision; every other one starts "Not approved yet";
-  - Approve, Reject, Revise and "Not approved yet" are one click each, without a dialog; the progress counts explicit
+  - Approve, Reject, Revise and "Undo my answer" are one click each, without a dialog; the progress counts explicit
     decisions; Revise opens "Your version" filled with my version;
+  - "Undo my answer" shows only on a card he has answered, says what it does, and takes the card back to undecided
+    (1.11; Joel, 2026-11-11 19:54 UTC: "can you durably fix this cards thing because 'not approved yet' doesn't work as
+    a button": the button was labelled with a state, and showed, pressed, on every undecided card, where a click did
+    nothing);
   - the type filters, the status filter, the search and "The ones I'd leave" toggle hide and show the right cards;
   - every changed paragraph shows as two clean texts, as it is now and as it would read, each exactly that version (so a
     paste can't run them together, E266 (Inner Child)), and a passage shown whole reads exactly as my version;
@@ -120,7 +124,12 @@ def run(page_path, report_path=None):
             con = note.evaluate(CONTRAST_JS)
             ok('%s: comment text legible (contrast %.1f)' % (scheme, con['ratio']), con['ratio'] >= 4.5, con)
             if not edit_only:
+                ok('%s: no undo button on an undecided card' % scheme,
+                   page.locator(c1).get_attribute('data-status') != 'pending' or not page.locator(c1 + ' .dec.undo').is_visible())
                 page.click(c1 + ' .dec.approve')
+                und = page.locator(c1 + ' .dec.undo')
+                ok('%s: once answered, a button that says what it does' % scheme,
+                   und.is_visible() and und.text_content() == 'Undo my answer', und.text_content())
                 ok('%s: Approve is one click, no dialog' % scheme, page.locator(c1).get_attribute('data-status') == 'approved')
                 ok('%s: pill says Approved' % scheme, page.locator(c1 + ' .pill').text_content() == 'Approved')
                 page.click(c2 + ' .dec.reject')
@@ -142,6 +151,7 @@ def run(page_path, report_path=None):
                    (' %d approved' % (1 + pre_ap) in prog) and prog.startswith('%d of' % (n_dec + pre_n)), prog)
                 page.click(c1 + ' .dec.undo')
                 ok('%s: back to not approved in one click' % scheme, page.locator(c1).get_attribute('data-status') == 'pending')
+                ok('%s: and the undo button goes away' % scheme, not page.locator(c1 + ' .dec.undo').is_visible())
                 ok('%s: approval count is explicit approvals only' % scheme, ' %d approved' % pre_ap in page.locator('#prog').text_content(),
                    page.locator('#prog').text_content())
                 page.click(c1 + ' .dec.approve')

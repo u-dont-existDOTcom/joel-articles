@@ -109,6 +109,11 @@ class SuggestionReviewTests(unittest.TestCase):
         self.assertIn('id="c-CV-1.1"', page)
         self.assertIn('Approve: cut it', page)
         self.assertIn('Approve: make this change anyway', page)   # a leave card says what approving it does
+        # the fourth button names what it does and waits, hidden, until there is an answer to undo (1.11; Joel,
+        # 2026-11-11 19:54 UTC: "can you durably fix this cards thing because 'not approved yet' doesn't work as a button")
+        self.assertIn('<button type="button" class="dec undo" data-dec="pending" hidden>Undo my answer</button>', page)
+        self.assertNotIn('data-dec="pending">Not approved yet<', page)
+        self.assertIn("$$('.dec.undo', c).forEach(b => { b.hidden = st.status === 'pending'; });", page)
         self.assertIn('class="card t-structure leave"', page)
         self.assertIn('A new heading', page)
         self.assertIn('review-form-controls-v1', page)
