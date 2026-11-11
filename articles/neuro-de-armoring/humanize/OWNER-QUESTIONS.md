@@ -1,7 +1,8 @@
 # Neuro de-armoring: what I need from Joel
 
-Last updated 2026-11-11, after your message of 22:44 UTC.
-**Open questions: 0.** **For you to do**: nothing right now. Next I read the whole protocol against the science.
+Last updated 2026-11-11, after your message of 22:53 UTC.
+**Open questions: 0.** **For you to do**: one card on
+[Neuro De-Armoring Cards, 11 November (3)](https://claude.ai/artifact/9nENpt9AEJCB43a9Wy5jqn) ([the same card in Git](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/keto/REVIEW-X1111C.md)), ketosis in people with PTSD; it replaces the potassium card on the same page.
 
 Colours: 🟣 a question for you; 🟠 something for you to do; 🔵 next or in progress; 🟢 done or decided.
 
@@ -17,7 +18,13 @@ can read and update it. Every file it points to is a link.
 
 ## For you to do
 
-- 🟢 **Nothing waiting on you.**
+- 🟠 **Ketosis in people with PTSD** ([the page](https://claude.ai/artifact/9nENpt9AEJCB43a9Wy5jqn), [in Git](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/keto/REVIEW-X1111C.md)): one card, SC-48b. Block 48 ended on my "Whether ketosis does that in people hasn't been tested."; it now says what has been seen in people with PTSD on a keto diet (the Oslo study, two case reports) and how far that goes.
+
+## Your message of 2026-11-11 22:53 UTC, and what I did
+
+- 🟢 **You're right about ketones.** My sentence in block 48 read as if ketosis had never been tried in people with PTSD, and in chat I made the one placebo-controlled trial of ketone salts sound negative when it was too small to tell. GPT's sources are checked ([the check](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/keto/KETO-PTSD.md)), and the card above puts in what has been seen.
+- 🟢 **Lesson**: say what was tried in people and what happened before saying anything is untested, and report a small trial with no difference between its groups as too small to tell ([the file](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/docs/lessons/2026-11-11-2253-neuro.md)).
+- 🟢 **Reddit**: blocked to me as content, for legal reasons, so the rule covers the browser too, even with the page open in it. Paste a post's text in the chat and I'll check the sentence against it.
 
 ## Your message of 2026-11-11 22:44 UTC, and what I did
 

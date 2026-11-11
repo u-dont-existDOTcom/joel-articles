@@ -18,6 +18,19 @@ From an account with Desktop Commander connected to the laptop: "Continue my neu
 
 ## START HERE
 
+- **2026-11-11, after his message of 22:53 UTC: card SC-48b waits on him (ketosis in people with PTSD); lesson 11c.**
+  HUMANIZED-SO-FAR.md is still adfe7042. The card (`fix-20261108/keto/REVIEW-X1111C.md`, on the cards page
+  https://claude.ai/artifact/9nENpt9AEJCB43a9Wy5jqn, version 5) replaces block 48's "Whether ketosis does that in people
+  hasn't been tested." with the Oslo study (Edwards 2024), two case reports (Bellamy & Laurent 2025; Laurent 2026) and the
+  limit (no controlled trial of the diet; the one placebo-controlled trial of BHB salts, Youssef 2022, too small to
+  tell). Sources: `fix-20261108/keto/KETO-PTSD.md`. Youssef 2022 is not "no difference" evidence against ketones: it is
+  inconclusive (lesson neuro-2026-11-11c), so the bullet below's "no difference between the groups" is read that way.
+  **When his answer comes**: apply it by script (as `fix-20261108/sci-p23/apply_x1111b.py` did), a FIDELITY-KEYS
+  owner_changes entry if keys move (the four citations' years are new), my comparative read, the gates. **Next**: the
+  coherence read (`fix-20261108/coherence/EXTRACT.md`), with Strategy A's "need the fog gone fast" with the salts (block
+  95) beside Youssef 2022; research wide on both sides first (lesson neuro-2026-11-11b). Reddit stays unread in every
+  tool, the browser included; ask him for the posts' text.
+
 - **2026-11-11, after his message of 22:44 UTC: SC-106e is in, approved in chat, with his two Reddit links.**
   HUMANIZED-SO-FAR.md is adfe7042 (`fix-20261108/sci-p23/apply_x1111b.py`; FIDELITY owner_changes for SC-106e). Reddit is
   blocked to this session's web tools as content, the browser included, so links he gives there are put in from his
