@@ -207,11 +207,7 @@ If on Quick Fix, Strategy A (BHB Salts / Standard Diet):Sodium: Standard intake.
 
 Potassium:
 
-Goal: Install the "Brake Pads" for your nervous system.
-
-Mechanism: Potassium Channels (KCNQ).
-
-The Science: Your neurons have "brakes" called KCNQ channels that stop them from firing uncontrollably. These brakes run on Potassium ions. If you are low on potassium (common in high stress), your brakes fail. You can push the pedal (breathe), but the car won't stop.
+The Science: Your nerves need potassium to fire and reset ([NIH, 2022](https://ods.od.nih.gov/factsheets/Potassium-HealthProfessional/)), yet most of us eat less than the recommended amount: only about 3 in 10 Americans reach it ([Dietary Guidelines Advisory Committee, 2024](https://www.dietaryguidelines.gov/sites/default/files/2024-12/Part%20D_Ch%201_%20Data%20Analysis_FINAL_508.pdf)). In a diet trial, people who took in more potassium and less salt had better mood and less fatigue ([Torres, et al, 2008](https://pubmed.ncbi.nlm.nih.gov/18466657/)), and potassium supplements eased mood and behavior problems in 13 of 16 children taking steroid drugs, which mimic the stress hormone cortisol ([Pariury, et al, 2019](https://pubmed.ncbi.nlm.nih.gov/31538841/)). People describe it firsthand too: some say potassium helped them [feel emotions again](https://www.reddit.com/r/POTS/comments/1go5xl1/did_anybody_notice_how_potassium_makes_you/), and others tie their [panic attacks to low potassium](https://www.reddit.com/r/Anxietyhelp/comments/1d52hl6/low_potassium_an_issue_for_anyone/). People who eat more of it also tend to think and remember better as they get older ([Na, et al, 2022](https://doaj.org/article/335f413ec4a5414d8abb24b26101837e)), though not every study agrees, and none yet shows extra potassium helping people who already get enough. Some people need more than others, too, since diarrhea, diuretics and some inherited kidney conditions drain it ([NIH, 2022](https://ods.od.nih.gov/factsheets/Potassium-HealthProfessional/); [Cruz, et al, 2001](https://pubmed.ncbi.nlm.nih.gov/11168953/)). More potassium also brings high blood pressure down ([Aburto, et al, 2013](https://pubmed.ncbi.nlm.nih.gov/23558164/)), which matters on Strategy A, since its salts bring their own sodium. Stone Age diets are estimated to have had more than four times the potassium we eat now ([Sebastian, et al, 2006](https://pubmed.ncbi.nlm.nih.gov/17275582/)), so eating closer to a paleo diet probably does more than adding a couple of potatoes, but the potatoes and greens below are the easy way to start. If you have kidney disease or take a blood pressure drug that holds on to potassium, like an ACE inhibitor or an ARB, ask your doctor first, since potassium can build up in your blood ([NIH, 2022](https://ods.od.nih.gov/factsheets/Potassium-HealthProfessional/)).
 
 The Target: Aim for 4,700 mg of Potassium daily.
 
@@ -229,7 +225,7 @@ Avocado: ~700-900 mg.
 
 Coconut Water: ~600 mg per cup.
 
-The Strategy: Eat 2 large potatoes and 2 cups of greens every single day. This saturates your cells, lowering your "resting voltage" so you become physically harder to trigger.
+The Strategy: Eat 2 large potatoes and 2 cups of greens every single day.
 
 If on Deep Fix, Strategy B (Keto Diet): [***See my Keto Adaptation Guide for electrolytes.***](http://ketoflu.u-dont-exist.com/)
 

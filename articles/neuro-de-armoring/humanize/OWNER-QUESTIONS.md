@@ -1,8 +1,7 @@
 # Neuro de-armoring: what I need from Joel
 
-Last updated 2026-11-11, after your message of 22:07 UTC.
-**Open questions: 0.** **For you to do**: one card on
-[Neuro De-Armoring Cards, 11 November (2)](https://claude.ai/artifact/9nENpt9AEJCB43a9Wy5jqn) ([the same card in Git](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/sci-p23/REVIEW-X1111B.md)), potassium rethought on the science; it replaces the earlier version on the same page.
+Last updated 2026-11-11, after your message of 22:44 UTC.
+**Open questions: 0.** **For you to do**: nothing right now. Next I read the whole protocol against the science.
 
 Colours: 🟣 a question for you; 🟠 something for you to do; 🔵 next or in progress; 🟢 done or decided.
 
@@ -18,7 +17,13 @@ can read and update it. Every file it points to is a link.
 
 ## For you to do
 
-- 🟠 **Potassium, rethought on the science** ([the page](https://claude.ai/artifact/9nENpt9AEJCB43a9Wy5jqn), [in Git](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/sci-p23/REVIEW-X1111B.md)): one card, SC-106e, in place of SC-106d. The paragraph now rests on the studies (nerves, low intakes, mood, thinking, who needs more), with your paleo view as yours.
+- 🟢 **Nothing waiting on you.**
+
+## Your message of 2026-11-11 22:44 UTC, and what I did
+
+- 🟢 **The potassium paragraph is in**, as you approved it, with your two Reddit links as firsthand reports.
+  Reddit is blocked to my tools as content, the browser too, so I wrote that sentence from your description
+  ("feel emotions again", "panic attacks to low potassium"): check it matches the threads.
 
 ## Your message of 2026-11-11 22:07 UTC, and what I did
 
@@ -27,7 +32,7 @@ can read and update it. Every file it points to is a link.
   rebuilt on them.
 - 🟢 **Lessons**: the earlier one corrected ([the file](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/docs/lessons/2026-11-11-2101-neuro.md)), and a new one on
   research depth ([the file](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/docs/lessons/2026-11-11-2207-neuro.md)).
-- 🔵 **Your Reddit threads**: Reddit is blocked to my web tools; paste the posts if you want them in.
+- 🟢 **Your Reddit threads**: in, from your description (below).
 
 ## Your answer of 2026-11-11 21:01 UTC (potassium, your comment), and what I did
 

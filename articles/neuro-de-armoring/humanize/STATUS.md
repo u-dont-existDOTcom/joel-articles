@@ -1,5 +1,21 @@
 # Status: neuro de-armoring humanization (newest on top)
 
+## 2026-11-11, his message of 22:44 UTC: SC-106e in, as he approved it in chat, with his two Reddit links
+
+His message word for word: `fix-20261108/joel-20261111-2244-message.txt` ("yes i want the reddit links. and your
+paragraph looks good other than that"). **The mailbox first** ("2026-11-11 22:44"): main 2dd64e4f3 merged (this lane's
+421); UDA unchanged; no new issues or comments; no notifications.
+
+- **Applied** (`fix-20261108/sci-p23/apply_x1111b.py`, APPLIED-X1111B.json): blocks 104 and 105 cut; block 106 is
+  SC-106e's paragraph with one sentence after the mood studies carrying his two links as firsthand reports, worded from
+  his description ("feel emotions again", "panic attacks to low potassium"); block 115's second sentence cut. Reddit is
+  blocked to the web tools as content, which covers the browser too, so the threads weren't read; he's asked to check
+  the sentence against them. FIDELITY-KEYS owner_changes entry (KCNQ and W054, W055 out; the citations' years, 13, 16
+  and 10 new); fidelity PASS. My comparative read recorded (`sci-p23/read_x1111b.py`); compare gate PASS.
+  HUMANIZED-SO-FAR.md 8de00b80 to adfe7042.
+- **Nothing waits on him.** Next: the coherence read (`fix-20261108/coherence/EXTRACT.md`) and the diet and ketone
+  claims.
+
 ## 2026-11-11, his message of 22:07 UTC: lesson 11a corrected; GPT's research checked; SC-106e rests on the science; lesson 11b
 
 His message word for word and the research he pasted: `fix-20261108/joel-20261111-2207-message.txt`,
