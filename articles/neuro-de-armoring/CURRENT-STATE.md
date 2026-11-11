@@ -22,7 +22,7 @@ Every paragraph and every section reads Human in Pangram, with the meaning kept 
 
 ## Current checkpoint
 
-`humanize/HUMANIZED-SO-FAR.md` (8de00b80, after his answers of 2026-11-08 15:45 UTC on the science of Parts 2 and 3: SC-97 approved, `humanize/fix-20261108/sci-p23/APPLIED-X1108C.json`) is his post with the standard typographic swap, his versions and the science corrections he approved, section by section through Part 2. The potassium card, revised after GPT's critique and corrected again after his questions to GPT, is on his page (`humanize/fix-20261108/sci-p23/REVIEW-X1108E.md`, SC-106c); after it, the protocol is read as a whole against the settled science, then the rest is humanized (lesson neuro-2026-11-08f). Nothing has been changed in his post yet.
+`humanize/HUMANIZED-SO-FAR.md` (8de00b80, after his answers of 2026-11-08 15:45 UTC on the science of Parts 2 and 3: SC-97 approved, `humanize/fix-20261108/sci-p23/APPLIED-X1108C.json`) is his post with the standard typographic swap, his versions and the science corrections he approved, section by section through Part 2. The potassium card, revised after GPT's critique, his questions to GPT and his comment of 2026-11-11, is on his page (`humanize/fix-20261108/sci-p23/REVIEW-X1111A.md`, SC-106d); after it, the protocol is read as a whole against the settled science, then the rest is humanized (lesson neuro-2026-11-08f). Nothing has been changed in his post yet.
 
 ## Remaining
 
@@ -30,7 +30,7 @@ The AI windows of every section, rewritten and checked; his cards; his post upda
 
 ## Blockers / unresolved
 
-One card on Neuro De-Armoring Cards, 8 November (5) (`humanize/fix-20261108/sci-p23/REVIEW-X1108E.md`); no open questions (`humanize/OWNER-QUESTIONS.md`). The coherence read goes on meanwhile where it doesn't depend on it.
+One card on Neuro De-Armoring Cards, 11 November (`humanize/fix-20261108/sci-p23/REVIEW-X1111A.md`); no open questions (`humanize/OWNER-QUESTIONS.md`). The coherence read goes on meanwhile where it doesn't depend on it.
 
 ## Evidence / artifacts
 

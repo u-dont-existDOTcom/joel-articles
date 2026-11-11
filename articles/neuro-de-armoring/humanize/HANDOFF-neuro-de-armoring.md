@@ -18,6 +18,19 @@ From an account with Desktop Commander connected to the laptop: "Continue my neu
 
 ## START HERE
 
+- **2026-11-11, after his answer of 21:01 UTC on x1108e (SC-106c to revise, with his comment): his points checked;
+  SC-106d puts his view in block 106.** The session's container was renewed: the lane now works in a fresh clone,
+  `/home/claude/joel-articles`, branch `claude/community-joel-1018` put on main's tip (the old worktree is gone). The
+  article is still 8de00b80. **Next**: his answer on Neuro De-Armoring Cards, 11 November (artifact 9nENpt9AEJCB43a9Wy5jqn,
+  version 3, the same page as (4) and (5); `sci-p23/REVIEW-X1111A.md`, review id x1111a): SC-106d cuts blocks 104 and
+  105, gives block 106 the blood-pressure reason, his view on the brain (with Torres 2008 and its limit) and on paleo
+  (Sebastian 2006), and the kidney and drug caution, and cuts block 115's second sentence. On approval put
+  `sci-p23/SP106D.md` and `SP115F.md` in and cut the two label blocks (texts_x1111a.py's start strings find them), with a
+  FIDELITY owner_changes entry (2006, 2008, 2013 and 2022 new; KCNQ and the labels' keys, if listed) and my comparative
+  read; if he takes the paragraph without his view, that's SC-106c's text (texts_x1108e.py). Then the coherence read from
+  `fix-20261108/coherence/EXTRACT.md`, with GPT's PTSD diet trials from his comment (`fix-20261108/joel-20261111-2101-message.txt`)
+  for the article's diet and ketone claims, Youssef 2022 first (ketone salts against placebo for PTSD).
+
 - **2026-11-08, after his message of 17:09 UTC (GPT's answers on SC-106b's reasons): both checked; SC-106c replaces
   SC-106b on the same page.** HUMANIZED-SO-FAR.md is still 8de00b80. GPT agrees with the card on nerve function (a role
   in the body, not a benefit of eating more: NIH 2022) and is right that the card read too much into Torres 2008, which I

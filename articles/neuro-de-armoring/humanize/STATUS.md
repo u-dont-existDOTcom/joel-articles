@@ -1,5 +1,36 @@
 # Status: neuro de-armoring humanization (newest on top)
 
+## 2026-11-11, his answer of 21:01 UTC on x1108e: SC-106c back with his comment; his points checked; SC-106d with his view; lesson 11a
+
+His answers, byte for byte: `fix-20261108/sci-p23/ANSWERS-X1108E-20261111-2101.json`; his comment word for word:
+`fix-20261108/joel-20261111-2101-message.txt` (his view on the potassium-to-sodium ratio and the brain, the paleo diet's
+potassium, the confounding, and GPT's research on diet trials for PTSD). **The mailbox first** ("2026-11-11 21:01"): the
+session's container was renewed, so a fresh clone with the lane branch put on main's tip (fb1c649d5; this lane's 405
+merged on 2026-11-08); main brought the bad trips lessons of 11-08 to 11-11 (08e his beliefs in every section, 09a do
+your best first, 09f each option as it would look with how sure, 09i generic model advice goes) and suggestion_review 1.11;
+UDA unchanged (AGENTS.md 7ef0bfc, LESSON-INDEX ba787e0); 309 still open; no new issues or comments; no notifications.
+
+- **Checked through PubMed** (`fix-20261108/sci-p23/SCIENCE-P23.md`, "SC-106c and his comment"; a Sonnet agent read the
+  candidate abstracts, I read the ones used): mood, one small trial (Torres 2008); memory and thinking mixed (Nowak 2018,
+  a ratio association its authors discount; Zhao 2025; Yoshida 2026); Stone Age potassium 400 +/- 125 mEq a day, more
+  than four times current intakes (Sebastian 2006); a paleo-type diet improved blood pressure and insulin in nine people
+  over ten days (Frassetto 2009). The Eaton and Konner papers' figures weren't readable (NEJM paywalled; ScienceDirect
+  refused the app's browser). GPT's PTSD diet trials go to the coherence read; one bears on Strategy A's salts (Youssef
+  2022: 21 people, ketone salts against placebo, no difference between the groups).
+- **SC-106d** (`sci-p23/texts_x1111a.py`, `build_x1111a.py`): SC-106c's change with two sentences of his view in block
+  106. A fresh reader's needed read (Haiku, `needed/sp106d/`) found those two not needed; they carry his view, so they stay
+  with their "kept" reasons, and the card shows the paragraph without them. Published to the same page as x1108d and e
+  (https://claude.ai/artifact/9nENpt9AEJCB43a9Wy5jqn, version 3, review id x1111a); smoke test at 400 and 1,200 px: one
+  card, no sideways scroll, no errors. Questions page republished.
+- **Lesson** (`docs/lessons/2026-11-11-2101-neuro.md`): neuro-2026-11-11a, when a mechanism falls the card keeps the
+  article's own question and answers it with his view and the evidence at its strength; a needed read's "not needed" on
+  his stated view goes to him as an option, not a cut. The article is unchanged this turn (8de00b80).
+- **Predictions**: none (no Pangram check).
+- **Delegations** (model, piece, check, outcome): one Sonnet agent, the PubMed abstracts on the ratio, mood, cognition and
+  paleo potassium (no files); check: I re-read every abstract the card cites (Nowak, Zhao, Yoshida, Sebastian, Frassetto,
+  Youssef): done. One Haiku agent, the needed read of SP106D (BRIEF.txt only): two sentences unneeded, kept as his view
+  and shown to him: done.
+
 ## 2026-11-08, his message of 17:09 UTC: GPT's answers on SC-106b's reasons checked; SC-106c replaces it on the same page; lesson k
 
 His message, word for word: `fix-20261108/joel-20261108-1709-message.txt` (GPT's answers to two of his questions: whether

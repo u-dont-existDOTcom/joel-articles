@@ -1,8 +1,8 @@
 # Neuro de-armoring: what I need from Joel
 
-Last updated 2026-11-08, after your message of 17:09 UTC.
+Last updated 2026-11-11, after your answer of 21:01 UTC.
 **Open questions: 0.** **For you to do**: one card on
-[Neuro De-Armoring Cards, 8 November (5)](https://claude.ai/artifact/9nENpt9AEJCB43a9Wy5jqn) ([the same card in Git](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/sci-p23/REVIEW-X1108E.md)), potassium corrected again; it replaces (4) on the same page.
+[Neuro De-Armoring Cards, 11 November](https://claude.ai/artifact/9nENpt9AEJCB43a9Wy5jqn) ([the same card in Git](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/sci-p23/REVIEW-X1111A.md)), potassium with your view in it; it replaces (5) on the same page.
 
 Colours: 🟣 a question for you; 🟠 something for you to do; 🔵 next or in progress; 🟢 done or decided.
 
@@ -18,7 +18,18 @@ can read and update it. Every file it points to is a link.
 
 ## For you to do
 
-- 🟠 **Potassium, corrected again** ([the page](https://claude.ai/artifact/9nENpt9AEJCB43a9Wy5jqn), [in Git](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/sci-p23/REVIEW-X1108E.md)): one card, SC-106c, in place of SC-106b. The same change, plus a caution beside the step for kidney disease and blood pressure drugs that hold on to potassium, and its reasons now say what the mood trial found.
+- 🟠 **Potassium, with your view in it** ([the page](https://claude.ai/artifact/9nENpt9AEJCB43a9Wy5jqn), [in Git](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/sci-p23/REVIEW-X1111A.md)): one card, SC-106d, in place of SC-106c. The paragraph adds your view on the brain, with the mood trial and its limit, and on paleo, with the Stone Age amount; the card shows it without them too.
+
+## Your answer of 2026-11-11 21:01 UTC (potassium, your comment), and what I did
+
+- 🟢 **Your points checked through PubMed**
+  ([the check](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/sci-p23/SCIENCE-P23.md)). On paleo you're right,
+  and 10 g is if anything low: Stone Age diets are estimated at about 16 g a day. On the brain, one small trial backs
+  the mood part and the studies of memory and thinking are mixed, so the paragraph gives it as your view.
+- 🟢 **GPT's research on diet trials for PTSD** goes to the read of the whole protocol, where the article's diet and
+  ketone claims are.
+- 🟢 **A lesson** ([the file](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/docs/lessons/2026-11-11-2101-neuro.md)): when a card's mechanism falls, it keeps
+  the article's question and answers it with your view and the evidence, rather than swapping in another reason.
 
 ## Your message of 2026-11-08 17:09 UTC (your questions to GPT), and what I did
 

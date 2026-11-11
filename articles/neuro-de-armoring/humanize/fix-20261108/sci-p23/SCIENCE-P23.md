@@ -61,3 +61,22 @@ say what Torres 2008 found, including the potassium and fatigue association, and
 have kidney disease or take a blood pressure drug that holds on to potassium, like an ACE inhibitor or an ARB, ask your
 doctor first, since potassium can build up in your blood (NIH, 2022)." A fresh reader's needed read found both
 sentences needed (`needed/sp106c/READ.md`). Lesson neuro-2026-11-08k.
+
+## SC-106c and his comment (x1111a, 2026-11-11, after his answer of 21:01 UTC)
+
+His answer on SC-106c was "revise", with a comment of his and GPT's research on diet trials for PTSD
+(`../joel-20261111-2101-message.txt`). His points, checked through PubMed (abstracts; a Sonnet agent read the candidate
+abstracts and I read the ones used):
+
+| his point | what the sources show | holds? |
+|---|---|---|
+| "brain function tends to improve in general (including mood, but not "vigor" in one study) when potassium to sodium ratio is increased" | Mood: one small randomized trial, Torres 2008 (above): the low-sodium, high-potassium diet lifted mood a little; across phases higher sodium went with higher vigour, his "not vigor". Memory and thinking, mixed: in 1,194 older adults over 6.9 years a higher sodium-to-potassium intake went with more decline (OR 2.02 per unit), neither alone did, and the authors write that the findings "do not support reduction dietary sodium/increased potassium intake to prevent cognitive decline with aging" ([Nowak et al. 2018](https://pubmed.ncbi.nlm.nih.gov/29393090/), doi 10.1159/000486580); in NHANES the top quarter of potassium intake had lower odds of poor processing speed (OR 0.542) ([Zhao et al. 2025](https://pubmed.ncbi.nlm.nih.gov/40139389/), doi 10.1016/j.clnesp.2025.03.034); genetically predicted urinary sodium-to-potassium ratio had no clear link to Alzheimer's (OR 1.02, 0.77 to 1.36) ([Yoshida et al. 2026](https://pubmed.ncbi.nlm.nih.gov/42083372/), doi 10.2174/0115672050472115260421093303) | in part: mood, one small trial; memory and thinking mixed. In the paragraph as his view, with the mood trial |
+| the paleo diet has far more potassium than modern diets; one person calculated 10 g a day from his | In 159 retrojected Stone Age diets, potassium averaged 400 ± 125 mEq a day (about 16 g), more than four times current and recommended intakes ([Sebastian et al. 2006](https://pubmed.ncbi.nlm.nih.gov/17275582/), doi 10.1016/j.semnephrol.2006.10.003) | yes; 10 g is if anything low |
+| "probably paleo diet in general would be better than just adding a couple potatoes for potassium" | Ten days of a paleo-type diet in nine healthy people lowered blood pressure, insulin and lipids without weight loss ([Frassetto et al. 2009](https://pubmed.ncbi.nlm.nih.gov/19209185/), doi 10.1038/ejcn.2009.4); nothing tests it for mood | his view; in the paragraph as his |
+| changing sodium changes the ratio too; more potassium comes with other foods; in diet trials for mental health the coaching can't be told from the diet | Agreed: Torres 2008 couldn't separate them, and GPT's trials (the Mediterranean diet in World Trade Center responders, MOVE!+UP) improved in both arms | yes; one clause in the paragraph |
+| GPT's PTSD diet trials | Not used in the potassium paragraph; they go to the coherence read, where the article's diet and ketone claims are. One bears on Strategy A's salts directly: 21 people, 14 g a day of BHB ketone salts against placebo, no difference between the groups (the ketone group's own scores fell, from a higher start) ([Youssef et al. 2022](https://pubmed.ncbi.nlm.nih.gov/36282607/), doi 10.12788/acp.0088) | to the coherence read |
+
+SC-106d (`build_x1111a.py`, page x1111a): SC-106c's change with two sentences of his view in block 106 (the brain and the
+mood trial with its limit; the Stone Age amount and paleo over "a couple of potatoes"). A fresh reader found those two not
+needed to know why to eat potassium (`needed/sp106d/READ.md`); they carry his view, so they stay, with what the reader
+does with each in the receipt's "kept", and the card shows him the paragraph without them. Lesson neuro-2026-11-11a.
