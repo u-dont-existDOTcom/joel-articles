@@ -1,11 +1,12 @@
 # Bad Trips guide: questions for Joel
 
-Updated 2026-11-11 (turn 34, the first Pangram batch run after his sign-in of 21:04 UTC); earlier turn 33 (round 33 answered at 19:54 UTC); earlier turn 32 (round 32 answered at 20:08 UTC, round 33 out); earlier turn 31 (rounds 30 and 31 answered at 18:43 and 18:59 UTC); earlier turn 30 (rounds 28 and 29 answered at 17:22 UTC, round 30 out); earlier turn 29 (round 27 answered at 01:24 UTC, rounds 28 and 29 out); earlier 2026-11-08 (turn 26, his round-24 answers of 15:01 UTC in; round 26 out with the session's resume of 15:52 UTC and answered at 16:48 UTC; round 25 answered at 16:55 UTC; round 27 out at 17:52 UTC). Status: **open** = waiting on you, **next** = I do it once you
+Updated 2026-11-11 (turn 34, the first Pangram batch run after his sign-in of 21:04 UTC, the first fixes in, round 34 out); earlier turn 33 (round 33 answered at 19:54 UTC); earlier turn 32 (round 32 answered at 20:08 UTC, round 33 out); earlier turn 31 (rounds 30 and 31 answered at 18:43 and 18:59 UTC); earlier turn 30 (rounds 28 and 29 answered at 17:22 UTC, round 30 out); earlier turn 29 (round 27 answered at 01:24 UTC, rounds 28 and 29 out); earlier 2026-11-08 (turn 26, his round-24 answers of 15:01 UTC in; round 26 out with the session's resume of 15:52 UTC and answered at 16:48 UTC; round 25 answered at 16:55 UTC; round 27 out at 17:52 UTC). Status: **open** = waiting on you, **next** = I do it once you
 answer, **done** = answered.
 Answer under an item's number in a message.
 
 ## Open
 
+- **Round 34 (2026-11-11):** [Bad Trips Guide, Round 34](https://claude.ai/artifact/KEMSBqTSCTcUt7Jjn9W9v7), two cards: the teaching card you asked for (Risk of Harm's list of when to get urgent help, which read AI in each of my wordings), and a question on your "adjunct remedy" in Active Seizure.
 - **Systema video (optional):** your new breathing line says "It helps to watch a video on how to do it prior though". If you have one you like, send it and it goes on that line as a link.
 - **Evidence labels (optional):** you asked whether to label the evidence instead of cutting How I label the evidence. The guide already says, where each claim is, what kind of evidence it rests on ("just anecdotes", "preclinical but relevant", "a recent systematic review found the evidence for major outcomes inconclusive"), so I applied your approval. If you want a short tag on each remedy heading too, say so and it goes on a card with how each would read.
 
@@ -19,6 +20,7 @@ Answer under an item's number in a message.
   - [(Re)defining "Bad Trip"](https://www.pangram.com/history/4972cd65-cf59-4a3c-878d-0a877f11d012) (Human High 158, Medium 17, High 16, Medium 9, High 17, Medium 10): "But if you had no intention of doing shadow work, that explanation might have come too late.", "Samsara offers no shortage of difficult experiences to process." and "Sometimes focusing on what we want makes the blockage visible:"
   - [Nausea Smoothers](https://www.pangram.com/history/1c9fc7f4-9af7-44f1-9892-8f51bcd71352) (Human High 76, Medium 6, Low 22): "It may also extend the trip." (The Low one is mine to fix.)
   - Not worth your time: the two pieces Pangram splits off, What Kind of Aftermath Is This?'s heading ([Medium 6, then High 584](https://www.pangram.com/history/78353445-3765-4e63-9119-00ab5f8f562a)) and the Appendix's "U.C." ([Medium 2](https://www.pangram.com/history/eeba7d60-3ed4-499e-9432-61b828931b46)).
+  - Two of my fixed lines read Medium: Grounding Menu 2's "The same goes after a stimulant or an unknown mixture, or with any medical concern." ([Medium 15](https://www.pangram.com/history/7fd43eaf-b126-4b77-a6f9-53b4456044e2)) and Get One Human Anchor's "So have one calm person be the anchor and take the lead. One person can only handle so much, though." ([Medium 20](https://www.pangram.com/history/3a3fd073-98e1-46ea-9e5d-342bd7c7ee67)).
   - The Medium windows in sections that also have AI windows come after my fixes there, since those fixes can move them.
 
 ## Decisions on record

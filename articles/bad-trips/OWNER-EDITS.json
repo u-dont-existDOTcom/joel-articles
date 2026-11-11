@@ -434,25 +434,25 @@
   {
    "id": "t19-anchor-committee-cut",
    "status": "applied",
-   "what": "Get One Human Anchor's \"committee\" line cut: it says again the section's first paragraph (too many people crowding in make it worse); the paragraph ends on \"That is backup.\" (experiments/t19-anchor/apply_t19.py) (round 13's ANCHOR-BACKUP then said the paragraph again, approved 2026-11-07 00:01 UTC)",
+   "what": "Get One Human Anchor's \"committee\" line cut: it says again the section's first paragraph (too many people crowding in make it worse); the paragraph ends on \"That is backup.\" (experiments/t19-anchor/apply_t19.py) (round 13's ANCHOR-BACKUP then said the paragraph again, approved 2026-11-07 00:01 UTC) | the sentence it checks changed in the humanize pass's fix anchor-a1 (2026-11-11, turn 34; humanize/h43-20261111/apply_h43.py; https://www.pangram.com/history/3a3fd073-98e1-46ea-9e5d-342bd7c7ee67): the two people it names are still the one place backup is said, bold as before",
    "joel": "2026-11-06 19:43 UTC: \"i'd say make the cuts regardless of pangram if it makes the guide read better, that was what we were supposed to do already prior\"",
    "must_not_contain": [
     "A committee of frantic people rarely improves anyone's nervous system."
    ],
    "must_contain_exact": [
-    "bring in **one more calm adult or a crisis professional** to back them up."
+    "bring in **one more calm adult or a crisis professional** to back them up, and do it right away if there's any risk of violence or self-harm."
    ]
   },
   {
    "id": "t19-recruit-once",
    "status": "applied",
-   "what": "The violence part's \"When you are the only helper and safety is slipping, recruit one additional calm adult or crisis professional.\" cut: Get One Human Anchor says it, violence among its cases; the paragraph opens on when to call crisis or emergency services (experiments/t19-anchor/apply_t19b.py)",
+   "what": "The violence part's \"When you are the only helper and safety is slipping, recruit one additional calm adult or crisis professional.\" cut: Get One Human Anchor says it, violence among its cases; the paragraph opens on when to call crisis or emergency services (experiments/t19-anchor/apply_t19b.py) | the sentence it checks changed in the humanize pass's fix anchor-a1 (2026-11-11, turn 34; humanize/h43-20261111/apply_h43.py; https://www.pangram.com/history/3a3fd073-98e1-46ea-9e5d-342bd7c7ee67): the two people it names are still the one place backup is said, bold as before",
    "joel": "2026-11-06 19:43 UTC: \"i'd say make the cuts regardless of pangram if it makes the guide read better, that was what we were supposed to do already prior\"",
    "must_not_contain": [
     "When you are the only helper and safety is slipping, recruit one additional calm adult or crisis professional."
    ],
    "must_contain_exact": [
-    "bring in **one more calm adult or a crisis professional** to back them up.",
+    "bring in **one more calm adult or a crisis professional** to back them up, and do it right away if there's any risk of violence or self-harm.",
     "Call crisis or emergency services for a specific target"
    ]
   },
@@ -483,22 +483,23 @@
   {
    "id": "r13-anchor-opposite",
    "status": "applied",
-   "what": "Get One Human Anchor's first paragraph: \"Others get worse because\" said as \"Other times it's the opposite:\" (round 13, card ANCHOR-OPPOSITE; review/r13/apply_r13.py)",
+   "what": "Get One Human Anchor's first paragraph: \"Others get worse because\" said as \"Other times it's the opposite:\" (round 13, card ANCHOR-OPPOSITE; review/r13/apply_r13.py) | superseded by the humanize pass's fix anchor-a1 (2026-11-11, turn 34; humanize/h43-20261111/apply_h43.py), which read Human after 38 tries of earlier wordings (https://www.pangram.com/history/3a3fd073-98e1-46ea-9e5d-342bd7c7ee67): the mirrored pair stays gone, said as what makes a trip worse",
    "joel": "2026-11-07 00:01 UTC: round 13's export, ANCHOR-OPPOSITE approved (review/r13/ANSWERS-R13-20261107-0001.json)",
    "must_contain_exact": [
-    "Other times it's the opposite: too many people crowd in and start advising, arguing, spiritualizing, or panicking."
+    "Being alone with a frightened or over-certain mind can make a bad trip worse. So can a crowd of people telling them what it all means, or panicking right along with them."
    ],
    "must_not_contain": [
-    "Others get worse because too many people crowd in"
+    "Others get worse because too many people crowd in",
+    "Many bad trips get worse because somebody is alone"
    ]
   },
   {
    "id": "r13-anchor-backup",
    "status": "applied",
-   "what": "Get One Human Anchor's second paragraph said with its limit as an aside, the bold kept on the two people it names (round 13, card ANCHOR-BACKUP; review/r13/apply_r13.py)",
+   "what": "Get One Human Anchor's second paragraph said with its limit as an aside, the bold kept on the two people it names (round 13, card ANCHOR-BACKUP; review/r13/apply_r13.py) | superseded by the humanize pass's fix anchor-a1 (2026-11-11, turn 34; humanize/h43-20261111/apply_h43.py), which read Human after 38 tries of earlier wordings (https://www.pangram.com/history/3a3fd073-98e1-46ea-9e5d-342bd7c7ee67): the limit still an aside, the bold still on the two people it names",
    "joel": "2026-11-07 00:01 UTC: round 13's export, ANCHOR-BACKUP approved (review/r13/ANSWERS-R13-20261107-0001.json)",
    "must_contain_exact": [
-    "So **one calm person should be the anchor** and take the lead. One person can only handle so much, though."
+    "So have **one calm person be the anchor** and take the lead. One person can only handle so much, though."
    ],
    "must_not_contain": [
     "That is backup.",

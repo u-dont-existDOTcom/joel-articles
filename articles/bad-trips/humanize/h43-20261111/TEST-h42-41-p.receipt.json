@@ -1,0 +1,93 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-11",
+ "text_sha256": "ee8432ed054869fce4458bf62d401e306d0b0d52e82b43354ed6d6ee5c987958",
+ "text": "I am not repeating the simplistic Hermetic claim that opposites are required to understand anything. A hated baby does not feel love, and a loved baby does not feel hate. In the subconscious world of concepts, however, two sides are often considered together.\n\nWhile you're still tripping, maybe don't take every shadow thought as the truth about you, or try to suppress it either. Confessing it to everyone in the room can wait, and so can turning it into some permanent diagnosis... You can just notice it instead, something like \"this is a thought and a feeling, and it's intense, but it isn't the whole of me.\" Then return to room, body, human, time, and love.",
+ "section": "Dealing With Shadow Thoughts",
+ "reader": "someone mid-trip, flooded with frightening shadow thoughts, deciding what to do with them right now",
+ "sentences": [
+  {
+   "s": "I am not repeating the simplistic Hermetic claim that opposites are required to understand anything.",
+   "payoff": "they know he is not saying opposites are needed to understand anything",
+   "follows": "it continues the point before, on shadows co-arising"
+  },
+  {
+   "s": "A hated baby does not feel love, and a loved baby does not feel hate.",
+   "payoff": "they see why: a baby feels love or hate, not both",
+   "follows": "the example",
+   "link": "A hated baby"
+  },
+  {
+   "s": "In the subconscious world of concepts, however, two sides are often considered together.",
+   "payoff": "they know the mind still pairs two sides in its concepts, which is why shadows come up",
+   "follows": "what he does say",
+   "link": "however"
+  },
+  {
+   "s": "While you're still tripping, maybe don't take every shadow thought as the truth about you, or try to suppress it either.",
+   "payoff": "they don't take a shadow thought as the truth about them, or push it down",
+   "follows": "what to do with them during a trip",
+   "link": "While you're still tripping"
+  },
+  {
+   "s": "Confessing it to everyone in the room can wait, and so can turning it into some permanent diagnosis...",
+   "payoff": "they don't confess it to everyone or make it a permanent diagnosis yet",
+   "follows": "more of what can wait",
+   "link": "can wait, and so can"
+  },
+  {
+   "s": "You can just notice it instead, something like \"this is a thought and a feeling, and it's intense, but it isn't the whole of me.\"",
+   "payoff": "they notice it as a thought and a feeling, intense but not all of them",
+   "follows": "what to do instead",
+   "link": "instead"
+  },
+  {
+   "s": "Then return to room, body, human, time, and love.",
+   "payoff": "they come back to the room, the body, a person, time and love",
+   "follows": "where to go from noticing",
+   "link": "Then"
+  }
+ ],
+ "checked": [],
+ "placement": "Dealing With Shadow Thoughts, its last paragraph before the Joker Poem: what to do with shadow thoughts during a trip",
+ "opens": {
+  "first_sentence": "I am not repeating the simplistic Hermetic claim that opposites are required to understand anything.",
+  "why_reading": "it tells someone with shadow thoughts that he is not saying they need their opposite to understand anything"
+ },
+ "same_point": "none: read Dealing With Shadow Thoughts to the next heading for what to do with them; the menu named in the last sentence is the Grounding Menu",
+ "needed": {
+  "reader": "a fresh Haiku agent given tools/humanization/needed_read_brief.md with the test, its heading and what it is for (NEEDED-READ.md, h42-41-p)",
+  "unneeded": [
+   "I am not repeating the simplistic Hermetic claim that opposites are required to understand anything.",
+   "A hated baby does not feel love, and a loved baby does not feel hate.",
+   "In the subconscious world of concepts, however, two sides are often considered together."
+  ],
+  "kept": {
+   "I am not repeating the simplistic Hermetic claim that opposites are required to understand anything.": "they see why shadow thoughts come up at all (the mind pairs two sides in its concepts, though he isn't saying opposites are needed to understand anything), so they can treat one as a thought, not the truth (his paragraph, in the test because the fixed one leans on it)",
+   "A hated baby does not feel love, and a loved baby does not feel hate.": "they get his example of what he is not claiming, the step before his 'however' (his paragraph)",
+   "In the subconscious world of concepts, however, two sides are often considered together.": "they see why shadow thoughts come up at all (the mind pairs two sides in its concepts, though he isn't saying opposites are needed to understand anything), so they can treat one as a thought, not the truth (his paragraph, in the test because the fixed one leans on it)"
+  }
+ },
+ "questions": {
+  "Q1": "PASS: each sentence opens on its point; the during-a-trip lines on when they apply",
+  "Q2": "PASS: each instruction is the reader's own act",
+  "Q3": "PASS: \"everyone in the room\", \"some permanent diagnosis\" say which",
+  "Q4": "PASS: \"Hermetic claim\" is said by what it claims",
+  "Q5": "PASS: \"however\", \"either\", \"can wait, and so can\", \"instead\" and \"Then\" say each relation",
+  "Q6": "PASS: his view, what not to do yet, what to do instead, where to go next",
+  "Q7": "PASS: each line bears on what they do with a shadow thought now",
+  "Q8": "PASS: all of it is about shadow thoughts",
+  "Q9": "PASS: the four don'ts in two sentences"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}
