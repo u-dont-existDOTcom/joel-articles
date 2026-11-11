@@ -1,0 +1,176 @@
+{
+ "format": "joel-suggestion-review-answers-v1",
+ "review_id": "bad-trips-r33",
+ "title": "Bad Trips Guide, Round 33",
+ "git_file": "articles/bad-trips/review/r33/REVIEW-R33.html",
+ "article": {
+  "file": "articles/bad-trips/review/r33/PAGE-R33.md",
+  "sha256": "b33ccc15d19e09f97fc7005748639c50e8463df319d1bcd551c868728dee88c4"
+ },
+ "built": "2026-11-09",
+ "generator": "suggestion_review.py 1.10 (2026-11-07)",
+ "exported_at": "2026-11-11T19:54:04.372Z",
+ "counts": {
+  "approved": 6,
+  "rejected": 0,
+  "revise": 0,
+  "pending": 2
+ },
+ "items": [
+  {
+   "id": "SMELL",
+   "type": "question",
+   "title": "4. A Smell part in the Grounding Menu?",
+   "where": "Grounding Menu: Choose One or Two Things, P4",
+   "advice": "ask",
+   "status": "answered",
+   "question": "You wrote that smelling a nice natural scent like a lime peel would be more useful in the menu, but weren't sure, since the guide says it in several places. It does, all in the remedies: your essential oils entry with the lime peel, the Metta NMT sniffer, humic acid powder, and smelling the ferment. The menu is where someone in trouble picks one or two things to do now, and it has no smell in it. How each option would read:\n\nA (my pick): a Smell part right after Body, one line pointing to the remedies:\n    Smell\n    - Scratch & sniff a lime peel, or smell an authentic calming essential oil, the Metta NMT sniffer or humic acid powder (see Mental Stabilizers That Don't Abort the Trip).\nPro: the menu offers what you reach for yourself, in one line that names where the guide explains it, so nothing is said twice. Con: one more part in a menu you're trimming.\n\nB: no Smell part. Pro: nothing added. Con: someone who opens the menu for something to do now won't meet smell there.",
+   "your_version": "",
+   "comment": "yes",
+   "my_version": "",
+   "before": "",
+   "history": [],
+   "updated": "2026-11-11T19:49:03.862Z"
+  },
+  {
+   "id": "MENU-CUTS",
+   "type": "boilerplate",
+   "title": "3. Grounding Menu: the rest of the standard grounding lines",
+   "where": "Grounding Menu: Choose One or Two Things, P5",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "ok I would like to add next to Buteyko reduced breathing that Systema continuous partial breathing in coordination with relaxed movement and muscular detensioning is excellent for entering a flow state. It helps to watch a video on how to do it prior though, as it's a bit tricky to understand compared to simple reduced breathing. ",
+   "my_version": "## Grounding Menu: Choose One or Two Things\n\nGrounding is love becoming practical. Choose one or two options rather than all of them. Twelve simultaneous techniques can become another form of panic.\n\nA useful order is room → body → human → time → meaning. Most people begin with meaning because the experience feels cosmic.\n\nBody\n\n- Put one hand on the heart and one on the solar plexus.\n\nBreath\n\n- Exhale longer than you inhale for ten breaths.\n\n- Never force breath-holds while intoxicated or panicked. Stop for increased fear, dizziness, chest pain, or medical concern.\n\n- Whisper: \"This is a wave. I can love the part of me that feels it.\"\n\nMusic\n\n- Use familiar music when possible. I wouldn't force a predesigned emotional arc or an unfamiliar therapeutic playlist on somebody who dislikes it.\n\n- Try a steady drum rhythm for stabilization or grounding; try airy harp-like or meditative music when the person wants something gentler and spiritually uplifting.\n\n- Soothing meditative music, like that of Chantress Seba and others on my music page, can be very helpful.\n\nHuman\n\n- Don't process with the most reactive person in your life.\n\nTime\n\n- Remember that these states usually rise, peak, and change.\n\n- Put every big decision into tomorrow's notebook.\n\nOrdinary world\n\n- Eat simple healthy food, such as fruit, when you can.\n\n- Walk slowly with a clear-headed person in a safe environment.\n\n- Go outside only away from roads, heights, crowds, and water.\n\n- Avoid strenuous exercise with overheating, chest pain, faintness, severe confusion, stimulant use, an unknown mixture, or any medical concern.",
+   "before": "Feel both feet against the floor.\n\nHold something with weight or texture.\n\nSlowly unclench the jaw, hands, belly, and shoulders.\n\nTry inhaling for four and exhaling for six, without strain.\n\nOr breathe softly and slowly through the nose, taking in slightly less air than desired until there is faint air hunger.\n\nSilence is a real option.\n\nKeep the stop or change control immediate.\n\nAsk one calm person to stay as the lead anchor.\n\nLet them remind you where you are.\n\nButeyko evidence note: published evidence for Buteyko-style breathing mainly concerns asthma and breathing retraining, rather than psychedelic or spiritual-practice crisis. I include it because panic-related over-breathing can lower CO<sub>2</sub> and directly cause tingling, lightheadedness, confusion, and unreality feelings (Hopkins Medicine). Use the simpler longer-exhale option first. Never strain or turn breathing into another achievement.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-11T19:33:15.482Z"
+    }
+   ],
+   "updated": "2026-11-11T19:37:29.256Z"
+  },
+  {
+   "id": "STILL-CUT",
+   "type": "boilerplate",
+   "title": "2. Stillness or Movement?: the whole subsection",
+   "where": "the heading \"Stillness or Movement?\"",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "I actually get something like this regularly when I take a high dose of something (or meditate too much), where I feel like I'm at risk of ruining my life if I don't stay away from sex and money. And there's a voice that really commands me to leave both of those completely (which led to 3 weeks of wandering in Malaysia & Cambodia without money once). What actually helped me in one case when receiving this stern order from a higher power, was to ask it to clarify. I said, \"I agree, that makes sense as a Buddhist, and I'd like to leave those behind at some point, especially money. But what's the best timeline to benefit all involved? Some people are dependent on me, I have a son, and so forth.\" The voice didn't respond, it just went away. So I took it more like a long-term suggestion than the urgency I assumed it needed based on how loud it was at first.\n\n## Grounding Menu: Choose One or Two Things",
+   "before": "Stillness or Movement?\n\nTest stillness and movement rather than turning them into rival religions. Try one for two minutes and ask: Does this make me safer and clearer, or more activated and impulsive?\n\nWhen lying down feels like imprisonment, pace slowly in a contained space. When pacing begins to resemble escape, sit against a wall or lie under a blanket. The goal is to let the nervous system discharge without creating a new danger.\n\nParallel processing can help when lying still turns into immobile introspection. Let one part of attention stay with the body, fear, grief, or memory while another part completes a simple, safe task with a visible endpoint: sort ten objects, draw, fold five towels, or wash one cup. Finishing something small helps confirm that time is moving and ordinary reality is still here. Stop if the task increases agitation, speed, or risk.\n\nMovement evidence note: the best-supported general advice is to create a safe, low-stimulation environment and choose responses that reduce danger. A 2024 study of strategies for resolving challenging psychedelic experiences identified physical movement, intentional breathing, sensory engagement, sleep-seeking, and social support among the ways people navigate difficulty.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-11T19:32:12.659Z"
+    }
+   ],
+   "updated": "2026-11-11T19:32:12.659Z"
+  },
+  {
+   "id": "ANCHOR-CUTS",
+   "type": "boilerplate",
+   "title": "5. Get One Human Anchor: the sitter's script and the 3 a.m. movement tips",
+   "where": "Get One Human Anchor, P6",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "## Get One Human Anchor\n\nMany bad trips get worse because somebody is alone with a frightened or over-certain mind. Other times it's the opposite: too many people crowd in and start advising, arguing, spiritualizing, or panicking.\n\nSo one calm person should be the anchor and take the lead. One person can only handle so much, though. When fatigue or logistics get to be too much, or keeping them safe does, or there's a risk of violence or self-harm, bring in one more calm adult or a crisis professional to back them up.\n\nScript for the person in the altered state:\n\nI'm in an intense psychedelic or altered state and I need grounding. I don't need you to solve my life. Please stay with me, speak slowly, remind me where I am, and help me not make any big decisions until tomorrow.\n\n### Alone at 3 a.m.\n\nThe triage app has the stripped-down 3 a.m. plan. Once the lamp is on, the keys are away, and \"No big actions until morning\" is visible, use the phone only to reach a calm person or support service.\n\nSend the human-anchor script.\n\nWhile you wait, put one hand on your heart and the other on your solar plexus just under your chest, and say to yourself: \"This feeling is allowed to move through. I can love the part of me that feels it.\"",
+   "before": "Script for the sitter or friend:\n\nI'm here. You're not alone. This is a wave. We don't have to solve your whole life right now. Let's make your body safe, keep things simple, and stay together.\n\nWhen the body still needs movement, keep it contained and boring: brush your teeth, stretch gently, take a calm shower, or do a few slow wall push-ups. Then protect sleep.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-11T19:49:33.940Z"
+    }
+   ],
+   "updated": "2026-11-11T19:49:33.940Z"
+  },
+  {
+   "id": "HELPER-CUTS",
+   "type": "boilerplate",
+   "title": "6. For the Person Helping: the Do lines your first five minutes already says",
+   "where": "Do, P2",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "### Do\n\n- Ask simple questions: \"Would less light help?\" \"Music or quiet?\" \"Closer or farther away?\" \"Water?\" (in small sips) \"Need the bathroom?\"\n\n- Call for help early when safety is slipping.\n\n- Set behavioral boundaries without humiliation: \"I won't help anybody hurt themselves or another person. We are keeping every body safe.\"\n\n### When What They Say Turns Toward Harm\n\nWhen somebody says, \"I am God, so I can kill,\" leading with \"No you're not\" or \"That's delusional\" can turn the encounter into a status fight. Nodding along as though harm is spiritually neutral is also unacceptable. Treat the statement as a safety signal and build a bridge back toward non-harm.\n\nNon-combative philosophical grounding:\n\nI hear how vast and certain this feels. Many traditions say God is in everyone. That makes every body sacred, not disposable. Peace is the godly move tonight. No proof is needed. We protect life and sleep first.\n\nOther useful lines: \"Maybe you are touching something divine. Divine doesn't need a violent test.\" \"Tonight the commandment is no harm, no proof, no mission, sleep first.\"\n\nWhen talk of harm continues, shift from philosophy to safety. Create distance from potential targets and keep your own exit. Don't block, crowd, threaten, mock, or physically wrestle away a weapon. Quietly remove means only when that can be done without confrontation or turning yourself into the target.\n\nCall crisis or emergency services for a specific target, available means, movement toward action, escalating agitation, a weapon, violence underway, or a situation you can't contain.",
+   "before": "Reflect without arguing: \"That sounds terrifying.\" \"I'm with you.\" \"Let's breathe together.\"\n\nKeep the room quiet, private, warm, and physically safe, and move anyone they're wary of somewhere else.\n\nTranslate metaphysics into shared safety values: \"This feels sacred and huge. Sacred power protects life tonight.\"\n\nRedirect within the person's value-world toward peace and protection, increase containment, and bring in crisis support as early and as non-coercively as the situation allows.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-11T19:49:53.828Z"
+    }
+   ],
+   "updated": "2026-11-11T19:49:53.828Z"
+  },
+  {
+   "id": "REDEFINE-CUTS",
+   "type": "boilerplate",
+   "title": "7. (Re)defining \"Bad Trip\": the list of causes and the CBT thinking traps",
+   "where": "(Re)defining \"Bad Trip\", P6",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "## (Re)defining \"Bad Trip\"\n\nA bad trip is one of those terms thrown around very loosely in the psychedelic space. It can refer to various things which may be intertwined.\n\nWhen too much hits you at once, your nervous system can become flooded, and nothing makes sense, even as the brain still tries to derive meanings that might create unhelpful feedback loops. Underlying those interpretations are factors like the dose of what drug(s) you took and how your body handles them, or how hard you pushed a practice. Old painful memories could have been triggered, or you may have gone in with a fearful or unloving mindset, or the setting or people around you could have fed into it. Be kind to yourself or to whoever's going through it, because blaming anyone only makes it heavier.\n\nSome say there's no such thing as a bad trip, because it's all a doorway to shadow work. But if you had no intention of doing shadow work, that explanation might have come too late. Other bad trips seem unrelated to shadow work, although any negative experience can lead into it. Samsara offers no shortage of difficult experiences to process. It still makes sense to reduce present-moment trauma so we can address what was already there.\n\nSometimes focusing on what we want makes the blockage visible:\n\n## Spiritual ≠ \"Getting Your Ass Kicked\"",
+   "before": "A bad trip or destabilizing state may also come from drug interactions, sleep deprivation, cannabis, hunger, dehydration, sexual or social pressure, medical symptoms, psychosis-like symptoms, fasting, intense breathwork, meditation overload, or retreat pressure.\n\nCognitive distortions from Cognitive Behavioral Therapy (CBT) can create or prolong the crisis:\n\nCatastrophizing: \"This will never end.\"\n\nEmotional reasoning: \"It feels true, so it must be true.\"\n\nMind reading: \"Everyone can see I am broken.\"\n\nFortune-telling: \"My life is ruined now.\"\n\nAll-or-nothing thinking: \"Either I am enlightened or I am doomed.\"\n\nPersonalization: \"This cosmic horror is specifically my fault.\"\n\nSpiritual bypassing: \"Because everything is love, I don't need boundaries, doctors, sleep, or consequences.\"",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-11T19:51:25.979Z"
+    }
+   ],
+   "updated": "2026-11-11T19:51:25.979Z"
+  },
+  {
+   "id": "LABELS-CUT",
+   "type": "boilerplate",
+   "title": "1. How I label the evidence: the whole section",
+   "where": "the heading \"How I label the evidence\"",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "or should we label the evidence like this instad of removing the labeling idea? we do label evidence like this already i think but not with these exact labels. ",
+   "my_version": "A trip with diarrhea, nausea, toxic heaviness, a dirty body-feeling, loss of bodily control, jaw tension, neurological disorganization, or the sense that the mind is going crazy because the gut or brain is going crazy belongs in a different branch from a mainly emotional crisis. A gut-driven mental hell is often mistaken as shadow work.\n\n## Some Remedies Require More Caution",
+   "before": "How I label the evidence\n\nEstablished acute treatment: standard seizure first aid, rapid rescue benzodiazepines, cooling dangerous hyperthermia, and treating documented electrolyte abnormalities.\n\nLimited human evidence: interventions with clinical reports or small trials but no strong modern outcome evidence.\n\nMechanism or preclinical evidence: biologically plausible effects shown mainly in cells or animals.\n\nPersonal field signal: what I have repeatedly observed in myself or other people. Repetition and a clear immediate endpoint make an anecdote more useful, but they do not turn it into a population rate.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "rejected",
+     "at": "2026-11-11T19:25:53.594Z"
+    },
+    {
+     "from": "rejected",
+     "to": "approved",
+     "at": "2026-11-11T19:29:29.919Z"
+    }
+   ],
+   "updated": "2026-11-11T19:30:54.459Z"
+  },
+  {
+   "id": "SMALL-CUTS",
+   "type": "boilerplate",
+   "title": "8. Seven smaller ones: which go?",
+   "where": "For the Person Helping: Calm Anchor, Not Guru, P1",
+   "advice": "ask",
+   "status": "answered",
+   "question": "Each as it is now, with my pick. Answer with the letters that go, or \"none\".\n\na. For the Person Helping's opening paragraph: \"The Zendo Project, a harm-reduction group that offers peer support at festivals and other events to people having a hard time in an altered state, sums up its approach in four principles: creating a safe space, sitting with the person rather than guiding them, talking them through it rather than down from it, and remembering that difficult isn't necessarily bad.\" My pick: keep. It opens the section with a known group's approach, which your first five minutes agrees with.\n\nb. After the Storm: \"Then ask what actually happened. What was medical or environmental? What was emotional? What was old trauma? What was fantasy? What was useful? What changed behavior? What needs therapy, an apology, rest, or plain practical action?\" My pick: keep. It's the only place the guide asks a reader to look back at what happened.\n\nc. Abuse Memories, Recovered Memories, and Certainty, its first and last paragraphs: \"Psychedelics and intense practices can bring up true trauma, symbolic material, distorted fragments, fears, fantasies, archetypes, past-life narratives, and mixtures of all of them. Don't dismiss what arises. Don't treat the certainty you feel in that state as evidence either.\" and \"The experience may matter deeply. It could be true psychologically, or symbolically, or literally, or only partly true, or false in the form it first took. You don't have to decide tonight.\" My pick: keep. \"Don't treat the certainty you feel in that state as evidence\" and \"It could be true psychologically, or symbolically, or literally\" are your view of a trip's memories: neither dismissed nor taken as fact.\n\nd. Tripsitting Yourself or Others' opening: \"This post collects my own experience and thinking, but I would be remiss not to point you toward the Challenging Psychedelic Experiences Project, which helps people understand the full risks and recover when they \"gamble and lose\" with psychedelics.\" My pick: keep: it points people who \"gamble and lose\" to help.\n\ne. Euphoric Certainty's last paragraph: \"The revelation will still exist after breakfast. If it is true, it survives sleep. If it cannot survive one night of rest, it was an emergency impulse wearing angel wings.\" My pick: cut. No Rash Actions already says it can wait until the state has passed, and \"an emergency impulse wearing angel wings\" is the kind of quip you've cut before.\n\nf. Niacin: \"A vitamin is not automatically harmless.\" My pick: cut. Its side effects, two paragraphs down, name the real risk.\n\ng. The Grounding Menu's \"Twelve simultaneous techniques can become another form of panic.\" My pick: cut. The menu no longer has twelve, and its heading says to choose one or two.",
+   "your_version": "",
+   "comment": "agree with ur advice",
+   "my_version": "",
+   "before": "",
+   "history": [],
+   "updated": "2026-11-11T19:54:00.583Z"
+  }
+ ]
+}

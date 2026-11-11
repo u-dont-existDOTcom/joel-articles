@@ -1,18 +1,21 @@
 # Bad Trips guide: questions for Joel
 
-Updated 2026-11-09 (turn 32, round 32 answered at 20:08 UTC, round 33 out); earlier turn 31 (rounds 30 and 31 answered at 18:43 and 18:59 UTC); earlier turn 30 (rounds 28 and 29 answered at 17:22 UTC, round 30 out); earlier turn 29 (round 27 answered at 01:24 UTC, rounds 28 and 29 out); earlier 2026-11-08 (turn 26, his round-24 answers of 15:01 UTC in; round 26 out with the session's resume of 15:52 UTC and answered at 16:48 UTC; round 25 answered at 16:55 UTC; round 27 out at 17:52 UTC). Status: **open** = waiting on you, **next** = I do it once you
+Updated 2026-11-11 (turn 33, round 33 answered at 19:54 UTC); earlier turn 32 (round 32 answered at 20:08 UTC, round 33 out); earlier turn 31 (rounds 30 and 31 answered at 18:43 and 18:59 UTC); earlier turn 30 (rounds 28 and 29 answered at 17:22 UTC, round 30 out); earlier turn 29 (round 27 answered at 01:24 UTC, rounds 28 and 29 out); earlier 2026-11-08 (turn 26, his round-24 answers of 15:01 UTC in; round 26 out with the session's resume of 15:52 UTC and answered at 16:48 UTC; round 25 answered at 16:55 UTC; round 27 out at 17:52 UTC). Status: **open** = waiting on you, **next** = I do it once you
 answer, **done** = answered.
 Answer under an item's number in a message.
 
 ## Open
 
-- **Round 33** (Bad Trips Guide, Round 33, https://claude.ai/artifact/JETdWLQMup1G7AUjLfrh1q), built 2026-11-09: the boilerplate you asked me to find. LABELS-CUT (How I label the evidence), STILL-CUT (Stillness or Movement?), MENU-CUTS (the Grounding Menu's other standard lines), SMELL (a Smell part in the menu: A or B), ANCHOR-CUTS (the sitter's script, the 3 a.m. movement tips), HELPER-CUTS (three Do lines and the harm summary), REDEFINE-CUTS (the causes list and the CBT thinking traps), SMALL-CUTS (seven smaller ones: which letters go). Also open in its introduction: the room-first order now starts with a room the menu no longer has a part for.
+- **Systema video (optional):** your new breathing line says "It helps to watch a video on how to do it prior though". If you have one you like, send it and it goes on that line as a link.
+- **Evidence labels (optional):** you asked whether to label the evidence instead of cutting How I label the evidence. The guide already says, where each claim is, what kind of evidence it rests on ("just anecdotes", "preclinical but relevant", "a recent systematic review found the evidence for major outcomes inconclusive"), so I applied your approval. If you want a short tag on each remedy heading too, say so and it goes on a card with how each would read.
 
 ## Your tasks
 
 None right now.
 
 ## Decisions on record
+
+His round-33 answers of 2026-11-11 19:54 UTC, on [round 33's cards](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261105/articles/bad-trips/review/r33/REVIEW-R33.md): all six cut cards approved; MENU-CUTS with his Systema line ("ok I would like to add next to Buteyko reduced breathing that Systema continuous partial breathing ..."), put in as he wrote it beside the reduced-breathing line, which stays for it; SMELL "yes"; SMALL-CUTS "agree with ur advice" (e, f and g cut); LABELS-CUT approved with a question, answered above. All in ([review/r33/apply_r33.py](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261105/articles/bad-trips/review/r33/apply_r33.py)). With them: "btw can you durably fix this cards thing because "not approved yet" doesn't work as a button": fixed for every lane (lesson bad-trips-2026-11-11a).
 
 His round-32 answers of 2026-11-09 20:08 UTC, on [round 32's cards](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261105/articles/bad-trips/review/r32/REVIEW-R32.md): SEIZE-HEAD "a"; GROUND-ORDER approved, "we can remove the 2nd line about love becomes practical first"; GROUND-ROOM revised: "this is too much boilerplate stuff that ai added in to my guide. help mne locate more boilerplate stuff that could be removed. i want to remove room section, familiar object section, this line: "Say the date, place, and approximate time."" and "more useful would be smelling a nice natural scent like lime peel or something, but idk i feel like this is all said in multiple places also"; SHADOW-START "b". All in ([review/r32/apply_r32.py](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261105/articles/bad-trips/review/r32/apply_r32.py)); lesson bad-trips-2026-11-09i; his ask to find more boilerplate and his lime-peel thought are round 33.
 

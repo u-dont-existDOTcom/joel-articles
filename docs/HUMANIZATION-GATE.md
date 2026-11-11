@@ -1342,7 +1342,7 @@ buttons".
   Markdown lists with item numbers to answer instead; he couldn't use them ("half suggestion that are out of context").
   `tools/humanization/suggestion_review.py` now makes the page: the article from its Markdown with his P-numbers, each
   suggestion highlighted on the words it changes in its type's colour, and its card under the paragraph with the paragraph
-  as it would read, why, what stays, my advice, Approve / Reject / Revise / Not approved yet and a comment box; the ones a
+  as it would read, why, what stays, my advice, Approve / Reject / Revise (and "Undo my answer" once answered) and a comment box; the ones a
   reader flagged that I'd leave are hidden until he asks for them. Answers save as he clicks (the artifact's store, and the
   browser's) and export as JSON that the page can load again. `suggestion_review_browser_test.py` tests it in a real
   browser (74 checks, with a negative fixture for the 2026-10-23 white-on-white boxes). A check with more than a handful of

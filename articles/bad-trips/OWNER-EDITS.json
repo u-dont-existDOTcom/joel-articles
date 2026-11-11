@@ -369,7 +369,7 @@
   {
    "id": "t17-room-cut",
    "status": "applied",
-   "what": "the room paragraph (B238) cut, its points said in their own places (Why Bad Trips Tend to Happen, the fixes line, the Do and Don't lists, Get One Human Anchor, Touch, Consent, and Compassion); what only it said moved to the Do list (B282): \"Need the bathroom?\" and moving anyone they're wary of (experiments/t17-room-cut/apply_t17.py)",
+   "what": "the room paragraph (B238) cut, its points said in their own places (Why Bad Trips Tend to Happen, the fixes line, the Do and Don't lists, Get One Human Anchor, Touch, Consent, and Compassion); what only it said moved to the Do list (B282): \"Need the bathroom?\" and moving anyone they're wary of (experiments/t17-room-cut/apply_t17.py) | the Do list line it moved there cut in round 33 (HELPER-CUTS, his approval of 2026-11-11 19:54 UTC (review/r33/ANSWERS-R33-20261111-1954.json)",
    "joel": "2026-11-06 19:43 UTC: \"i'd say make the cuts regardless of pangram if it makes the guide read better, that was what we were supposed to do already prior\"",
    "must_not_contain": [
     "A lot of what looks like a deep psychedelic crisis",
@@ -378,8 +378,7 @@
     "Then look at the room. Is the light too bright?"
    ],
    "must_contain_exact": [
-    "\"Closer or farther away?\" \"Water?\" (in small sips) \"Need the bathroom?\"",
-    "Keep the room quiet, private, warm, and physically safe, and move anyone they're wary of somewhere else."
+    "\"Closer or farther away?\" \"Water?\" (in small sips) \"Need the bathroom?\""
    ],
    "order": [
     "or message an ex, take the phone.",
@@ -460,15 +459,11 @@
   {
    "id": "t19-3am-movement-once",
    "status": "applied",
-   "what": "Alone at 3 a.m.'s movement paragraph keeps only what Stillness or Movement? doesn't say: pacing, towels and a cup, and sitting or lying under a blanket when moving makes it worse are cut there; teeth, stretching, a calm shower, wall push-ups and \"Then protect sleep.\" stay (experiments/t19-anchor/apply_t19c.py)",
+   "what": "Alone at 3 a.m.'s movement paragraph keeps only what Stillness or Movement? doesn't say: pacing, towels and a cup, and sitting or lying under a blanket when moving makes it worse are cut there; teeth, stretching, a calm shower, wall push-ups and \"Then protect sleep.\" stay (experiments/t19-anchor/apply_t19c.py) | both kept paragraphs cut in round 33 (ANCHOR-CUTS and STILL-CUT, his approvals of 2026-11-11 19:54 UTC (review/r33/ANSWERS-R33-20261111-1954.json) | see above",
    "joel": "2026-11-06 19:43 UTC: \"i'd say make the cuts regardless of pangram if it makes the guide read better, that was what we were supposed to do already prior\"",
    "must_not_contain": [
     "When movement makes you more frantic, sit with both feet against the floor or lie under a blanket.",
     "pace the same hallway, fold towels, wash a cup"
-   ],
-   "must_contain_exact": [
-    "keep it contained and boring: brush your teeth, stretch gently, take a calm shower, or do a few slow wall push-ups. Then protect sleep.",
-    "When pacing begins to resemble escape, sit against a wall or lie under a blanket. The goal is to let the nervous system discharge without creating a new danger."
    ]
   },
   {
@@ -884,15 +879,13 @@
   {
    "id": "r24-why-once",
    "status": "applied",
-   "what": "Why Bad Trips Tend to Happen said once, under his (Re)defining: its heading and 'That frame can be useful' line cut, its causes trimmed to the ones said nowhere else, its picture, causes, lesson line and thinking traps moved (humanize/h32-20261108/merge_why.py); the lesson line's cut is round 25's card WHY-LESSON-CUT (warning W102)",
+   "what": "Why Bad Trips Tend to Happen said once, under his (Re)defining: its heading and 'That frame can be useful' line cut, its causes trimmed to the ones said nowhere else, its picture, causes, lesson line and thinking traps moved (humanize/h32-20261108/merge_why.py); the lesson line's cut is round 25's card WHY-LESSON-CUT (warning W102) | its causes list and thinking traps cut in round 33 (REDEFINE-CUTS, his approval of 2026-11-11 19:54 UTC (review/r33/ANSWERS-R33-20261111-1954.json)",
    "joel": "2026-11-08 15:01 UTC, on TEACH-LABELS: \"there's still way too much duplication here. why bad trips tend to happen the section above this, is duplicating a few other sections, including redefining a bad trip and first 5 minutes\"",
    "must_not_contain": [
     "## Why Bad Trips Tend to Happen",
     "That frame can be useful. It cannot be the only frame."
    ],
-   "must_contain_exact": [
-    "A bad trip or destabilizing state may also come from drug interactions, sleep deprivation, cannabis, hunger, dehydration, sexual or social pressure, medical symptoms, psychosis-like symptoms, fasting, intense breathwork, meditation overload, or retreat pressure."
-   ]
+   "must_contain_exact": []
   },
   {
    "id": "r24-no-drug-assumed",
@@ -957,7 +950,7 @@
   {
    "id": "r30-toc-a",
    "status": "applied",
-   "what": "the contents as option A of round 30's TOC card, with the brain section kept first in the medical part and three headings renamed so readers can find them (humanize/h39-20261109/toc/plan_toc.py, review/r30/apply_r30.py)",
+   "what": "the contents as option A of round 30's TOC card, with the brain section kept first in the medical part and three headings renamed so readers can find them (humanize/h39-20261109/toc/plan_toc.py, review/r30/apply_r30.py) | How I label the evidence cut in round 33 (LABELS-CUT, his approval of 2026-11-11 19:54 UTC (review/r33/ANSWERS-R33-20261111-1954.json)",
    "joel": "2026-11-09 18:43 UTC (review/r30/ANSWERS-R30-20261109-1843.json, TOC): \"a sure rename them so readers can find them, and brain should be at top yeah that's kind of one of the most common things people say\"",
    "must_contain": [
     "## Risk of Harm: When Peer Support Isn't Enough",
@@ -977,7 +970,6 @@
     "## If Someone Says \"My Brain Feels Damaged\"",
     "## Active Seizure",
     "# My Acute Rescue Hierarchy of Remedies",
-    "## How I label the evidence",
     "## Some Remedies Require More Caution",
     "## Mental Stabilizers That Don't Abort the Trip",
     "## When the Goal Is to Stop a Psychedelic Trip",
@@ -1098,6 +1090,62 @@
     "## The Other Bypass: Feeling Good Forever",
     "I wish everybody could keep shadow work inside the safer rooms",
     "# After the Storm"
+   ]
+  },
+  {
+   "id": "r33-systema",
+   "status": "applied",
+   "what": "his Systema line in the Grounding Menu's Breath list, as he wrote it, right after the reduced-breathing line it compares itself with, which stays (named \"Buteyko reduced breathing\", his name for it) though MENU-CUTS had it (review/r33/apply_r33.py)",
+   "joel": "2026-11-11 19:54 UTC (review/r33/ANSWERS-R33-20261111-1954.json, MENU-CUTS, approved): \"ok I would like to add next to Buteyko reduced breathing that Systema continuous partial breathing in coordination with relaxed movement and muscular detensioning is excellent for entering a flow state. It helps to watch a video on how to do it prior though, as it's a bit tricky to understand compared to simple reduced breathing.\"",
+   "must_contain": [
+    "Systema continuous partial breathing in coordination with relaxed movement and muscular detensioning is excellent for entering a flow state. It helps to watch a video on how to do it prior though, as it's a bit tricky to understand compared to simple reduced breathing.",
+    "Or try Buteyko reduced breathing:"
+   ],
+   "order": [
+    "Or try Buteyko reduced breathing:",
+    "Systema continuous partial breathing"
+   ]
+  },
+  {
+   "id": "r33-smell",
+   "status": "applied",
+   "what": "a Smell part in the Grounding Menu, right after Body, one line pointing to the remedies (SMELL, A)",
+   "joel": "2026-11-11 19:54 UTC (review/r33/ANSWERS-R33-20261111-1954.json, SMELL): \"yes\"",
+   "must_contain": [
+    "Scratch & sniff a lime peel, or smell an authentic calming essential oil, the Metta NMT sniffer or humic acid powder"
+   ],
+   "order": [
+    "**Body**",
+    "**Smell**",
+    "**Breath**"
+   ]
+  },
+  {
+   "id": "r33-boilerplate-cuts",
+   "status": "applied",
+   "what": "the boilerplate he approved cutting in round 33 (LABELS-CUT, STILL-CUT, MENU-CUTS, ANCHOR-CUTS, HELPER-CUTS, REDEFINE-CUTS) and SMALL-CUTS e to g; FIDELITY-KEYS-R33 records the warnings with them",
+   "joel": "2026-11-11 19:54 UTC (review/r33/ANSWERS-R33-20261111-1954.json): six cut cards approved; SMALL-CUTS \"agree with ur advice\"; LABELS-CUT with \"or should we label the evidence like this instad of removing the labeling idea? we do label evidence like this already i think but not with these exact labels.\"",
+   "must_not_contain": [
+    "How I label the evidence",
+    "Stillness or Movement?",
+    "Parallel processing",
+    "Movement evidence note",
+    "Feel both feet against the floor.",
+    "Try inhaling for four",
+    "Buteyko evidence note",
+    "Silence is a real option.",
+    "Keep the stop or change control immediate.",
+    "Ask one calm person to stay as the lead anchor.",
+    "Script for the sitter or friend",
+    "keep it contained and boring",
+    "Reflect without arguing",
+    "Translate metaphysics into shared safety values",
+    "Redirect within the person's value-world",
+    "may also come from drug interactions",
+    "Cognitive distortions from Cognitive Behavioral Therapy",
+    "The revelation will still exist after breakfast",
+    "A vitamin is not automatically harmless",
+    "Twelve simultaneous techniques"
    ]
   }
  ]
