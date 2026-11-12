@@ -1326,6 +1326,51 @@
     }
    ],
    "recorded_utc": "2026-11-12T19:33Z"
+  },
+  {
+   "turn": "2026-11-12T21:37Z",
+   "lines_of_work": [
+    "neuro de-armoring",
+    "hypnosis guide",
+    "community article"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "AGENTS.md 7ef0bfc and LESSON-INDEX ba787e0 unchanged; the lane's six suggested-fix items, all in the ledger"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "main at 1baee2173 (this lane's 430 merged; bad-trips 431: gate bad-trips-2026-11-12j, the fit read, required in receipts made from 2026-11-13); no new issues or comments; 309 still open"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no edits by others to this lane's notes; his message of 21:37 UTC: what the 'offered split' on SC-48c was, and DMSO to go into the protocol, with a study (PMID 11421595, DMSO suppresses NMDA- and AMPA-mediated excitotoxicity)"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "no queued notifications"
+    }
+   ],
+   "items": [
+    {
+     "item": "his question on the split",
+     "outcome": "explain plainly: the card's advice offered an optional second change, splitting his long sentence at the first although; approving applied only the card's change; ask whether he wants it"
+    },
+    {
+     "item": "DMSO in the protocol",
+     "outcome": "check his study and research DMSO wide on both sides (people and animals, route and amount, safety); write the step and put it on a card"
+    },
+    {
+     "item": "main's gate bad-trips-2026-11-12j (the fit read)",
+     "outcome": "adopted from 2026-11-13 for this lane's receipts; its brief is written for the bad-trips guide, so its setting line is adapted to this article's reader"
+    }
+   ],
+   "recorded_utc": "2026-11-12T21:38Z"
   }
  ]
 }

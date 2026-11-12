@@ -18,6 +18,18 @@ From an account with Desktop Commander connected to the laptop: "Continue my neu
 
 ## START HERE
 
+- **2026-11-12, after his message of 21:37 UTC: cards SC-95 and SC-DMSO and question 12 wait on him; lesson 12b.**
+  HUMANIZED-SO-FAR.md is still 86fa6be5. The cards page (https://claude.ai/artifact/9nENpt9AEJCB43a9Wy5jqn, version 8,
+  `fix-20261108/dmso/REVIEW-X1112C.json`) carries SC-95 (the ketone strategies) and SC-DMSO (a new item after Magnesium in
+  the Glutamate Shield, an insert before block 125; sources `fix-20261108/dmso/DMSO-PTSD.md`). Question 12: split block
+  48's last sentence at his first "although" (a) or keep it (b). **When his answers come**: apply each by script; SC-DMSO
+  is an insert (a new paragraph before the Dynorphin Bridge, the Markdown in `dmso/SPDMSO.md`), with a FIDELITY
+  owner_changes entry for its new numbers (2001, 2009, 0.5, 1.5, 1) and my comparative read. Every new receipt now
+  carries the fit read (gate bad-trips-2026-11-12j): its brief is written for the bad-trips guide, so write its setting
+  line for this protocol's reader, as `dmso/fit/spdmso/BRIEF.txt` does. **Next**: EXTRACT.md's other 16 items, 2.2 and
+  2.3 first; research wide on both sides (lessons 11b, 11c, 12a); an optional change of mine goes on its own card or as a
+  question (lesson 12b).
+
 - **2026-11-12, after his answer of 19:32 UTC: SC-48c is in; the read of the whole protocol has started; card SC-95 waits
   on him.** HUMANIZED-SO-FAR.md is 86fa6be5 (`fix-20261108/keto/apply_x1112a.py`; my read `keto/read_x1112a.py`). Card
   SC-95 (`fix-20261108/coherence/ketone/REVIEW-X1112B.md`, cards page https://claude.ai/artifact/9nENpt9AEJCB43a9Wy5jqn,
