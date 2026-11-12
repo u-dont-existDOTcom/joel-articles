@@ -1,0 +1,196 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-12",
+ "text_sha256": "bb044347684caaee0e880b5e165ed1c513a1d1fa1129f2dc696ef312e5d8531b",
+ "text": "Active Seizure\n\nTime the seizure, and while it lasts:\n- Move any dangerous objects away from them, especially anything hard or sharp.\n- Don't restrain them, since that can cause injuries, but do put pillows where appropriate, especially under the head.\n- Loosen any tight clothing.\n- Turn them gently onto their side, which helps them breathe.\n- Keep everything out of their mouth while they're convulsing or not fully conscious.\n\nCall medics if any of these happen:\n- A convulsive seizure goes on for over 5 minutes.\n- Their breathing gets slow and shallow.\n- Their lips turn blue or gray.\n- They get dangerously hot (not just regular sweating).\n- They injure their head, break a bone, or bleeding won't stop.\n\nIf there's a rescue medicine for seizures on hand, like one they carry for epilepsy, follow its label for when and how to give it. It's a benzodiazepine, which is what doctors reach for first when a seizure won't stop. Because a pill is no use while someone's seizing, it comes as a nasal spray or a rectal gel, or sometimes an intramuscular shot. After giving it, keep watching their breathing, since a benzodiazepine adds to the risk of it getting slow and shallow, especially if they've also taken respiratory depressants like opioids or alcohol.",
+ "section": "Active Seizure",
+ "reader": "someone whose friend is having a seizure right now, deciding what to do while it lasts, when to call medics, and whether to give a rescue medicine they have",
+ "sentences": [
+  {
+   "s": "Active Seizure",
+   "payoff": "they know this part is for a seizure happening now",
+   "follows": "the heading"
+  },
+  {
+   "s": "Time the seizure, and while it lasts:",
+   "payoff": "they time the seizure and do the steps below while it lasts",
+   "follows": "his lead-in",
+   "link": "none: the first sentence under its heading"
+  },
+  {
+   "s": "- Move any dangerous objects away from them, especially anything hard or sharp.",
+   "payoff": "they move dangerous objects away, especially hard or sharp ones",
+   "follows": "his first step",
+   "link": "none: his line (5e41c575, 19:44 UTC), the next one in his list"
+  },
+  {
+   "s": "- Don't restrain them, since that can cause injuries, but do put pillows where appropriate, especially under the head.",
+   "payoff": "they don't restrain the person, and put pillows under their head",
+   "follows": "his next step",
+   "link": "none: his line (5e41c575, 19:44 UTC), the next one in his list"
+  },
+  {
+   "s": "- Loosen any tight clothing.",
+   "payoff": "they loosen tight clothing",
+   "follows": "his next step",
+   "link": "none: his line (5e41c575, 19:44 UTC), the next one in his list"
+  },
+  {
+   "s": "- Turn them gently onto their side, which helps them breathe.",
+   "payoff": "they turn the person gently onto their side to help them breathe",
+   "follows": "his next step",
+   "link": "none: his line (5e41c575, 19:44 UTC), the next one in his list"
+  },
+  {
+   "s": "- Keep everything out of their mouth while they're convulsing or not fully conscious.",
+   "payoff": "they keep everything out of the person's mouth",
+   "follows": "his last step",
+   "link": "none: his line (5e41c575, 19:44 UTC), the next one in his list"
+  },
+  {
+   "s": "Call medics if any of these happen:",
+   "payoff": "they know the lines below are when to call medics",
+   "follows": "his second lead-in",
+   "link": "Call medics if"
+  },
+  {
+   "s": "- A convulsive seizure goes on for over 5 minutes.",
+   "payoff": "they call medics for a convulsive seizure over 5 minutes",
+   "follows": "his first sign",
+   "link": "none: his line (5e41c575, 19:44 UTC), the next one in his list"
+  },
+  {
+   "s": "- Their breathing gets slow and shallow.",
+   "payoff": "they call medics when breathing gets slow and shallow",
+   "follows": "his next sign",
+   "link": "none: his line (5e41c575, 19:44 UTC), the next one in his list"
+  },
+  {
+   "s": "- Their lips turn blue or gray.",
+   "payoff": "they call medics when the lips turn blue or gray",
+   "follows": "his next sign",
+   "link": "none: his line (5e41c575, 19:44 UTC), the next one in his list"
+  },
+  {
+   "s": "- They get dangerously hot (not just regular sweating).",
+   "payoff": "they call medics for dangerous heat",
+   "follows": "his next sign",
+   "link": "none: his line (5e41c575, 19:44 UTC), the next one in his list"
+  },
+  {
+   "s": "- They injure their head, break a bone, or bleeding won't stop.",
+   "payoff": "they call medics for a head injury, a broken bone or bleeding that won't stop",
+   "follows": "his last sign",
+   "link": "none: his line (5e41c575, 19:44 UTC), the next one in his list"
+  },
+  {
+   "s": "If there's a rescue medicine for seizures on hand, like one they carry for epilepsy, follow its label for when and how to give it.",
+   "payoff": "they give a rescue medicine for seizures, if there is one, when and how its label says",
+   "follows": "what else to do, after when to call",
+   "link": "If there's a rescue medicine"
+  },
+  {
+   "s": "It's a benzodiazepine, which is what doctors reach for first when a seizure won't stop.",
+   "payoff": "they know what they hold is a benzodiazepine, what doctors give first for a seizure that won't stop",
+   "follows": "what the medicine is",
+   "link": "It's a benzodiazepine"
+  },
+  {
+   "s": "Because a pill is no use while someone's seizing, it comes as a nasal spray or a rectal gel, or sometimes an intramuscular shot.",
+   "payoff": "they know it will be a nasal spray, a rectal gel or a shot, since a pill is no use during a seizure",
+   "follows": "what form it comes in",
+   "link": "Because a pill is no use"
+  },
+  {
+   "s": "After giving it, keep watching their breathing, since a benzodiazepine adds to the risk of it getting slow and shallow, especially if they've also taken respiratory depressants like opioids or alcohol.",
+   "payoff": "they keep watching the person's breathing after giving it, more closely if opioids or alcohol were taken too",
+   "follows": "what to do after giving it, and why",
+   "link": "After giving it"
+  }
+ ],
+ "checked": [],
+ "placement": "Active Seizure, its rescue medicine paragraph (B110), after his first aid and call list, before What Else May Help",
+ "opens": {
+  "first_sentence": "Active Seizure",
+  "why_reading": "it tells someone with a rescue medicine on hand to give it as its label says, and what to watch for after"
+ },
+ "same_point": "none: read the section from its heading to What Else May Help for the rescue medicine; the call list says when to call medics and this paragraph what to give, and its breathing sign is the call list's own words",
+ "needed": {
+  "reader": "a fresh Haiku agent given tools/humanization/needed_read_brief.md with the paragraph, its heading and what it is for (reads/need-rescue-c9.txt)",
+  "unneeded": [
+   "It's a benzodiazepine, which is what doctors reach for first when a seizure won't stop."
+  ],
+  "kept": {
+   "It's a benzodiazepine, which is what doctors reach for first when a seizure won't stop.": "they give a friend's rescue medicine without second-guessing once they know it is what doctors give first for a seizure that won't stop, and they know what the breathing warning after it is about"
+  }
+ },
+ "his_fixes": {
+  "reader": "a fresh Sonnet reader given tools/humanization/his_fixes_brief.md, after reads of rescue-c1 to c8 (reads/his-rescue-c9.txt)",
+  "marked": [
+   {
+    "s": "- Don't restrain them, since that can cause injuries, but do put pillows where appropriate, especially under the head.",
+    "difference": "4",
+    "draft": "rescue-c9"
+   },
+   {
+    "s": "It's a benzodiazepine, which is what doctors reach for first when a seizure won't stop.",
+    "difference": "7",
+    "draft": "rescue-c9"
+   },
+   {
+    "s": "After giving it, keep watching their breathing, since a benzodiazepine adds to the risk of it getting slow and shallow, especially if they've also taken respiratory depressants like opioids or alcohol.",
+    "difference": "1",
+    "draft": "rescue-c9"
+   }
+  ],
+  "kept": {
+   "- Don't restrain them, since that can cause injuries, but do put pillows where appropriate, especially under the head.": "his line, from his Active Seizure version of 2026-11-12 19:44 UTC (5e41c575), which read Human High",
+   "It's a benzodiazepine, which is what doctors reach for first when a seizure won't stop.": "the guide's own evidence point (B110: \"the established first-line drug class for status epilepticus\", with its link) said of what they hold: why giving it is right, and what \"a benzodiazepine\" in the breathing warning is; rescue-c8's appositive form of it read AI (ed4fe070), so this is its new form",
+   "After giving it, keep watching their breathing, since a benzodiazepine adds to the risk of it getting slow and shallow, especially if they've also taken respiratory depressants like opioids or alcohol.": "his own shape (his electrolytes sentence of 19:44 UTC: what, because, \"especially\"); split in two it ended on a bare risk, which the needed read and the read against his fixes of rescue-c5 both marked, and in rescue-c8 it read Human"
+  }
+ },
+ "fit": {
+  "reader": "a fresh Sonnet reader given tools/humanization/fit_read_brief.md (reads/fit-rescue-c9.txt)",
+  "marked": [
+   {
+    "s": "- A convulsive seizure goes on for over 5 minutes.",
+    "found": "FROM"
+   },
+   {
+    "s": "- They get dangerously hot (not just regular sweating).",
+    "found": "CAN'T TELL"
+   },
+   {
+    "s": "- They injure their head, break a bone, or bleeding won't stop.",
+    "found": "CAN'T TELL"
+   }
+  ],
+  "kept": {
+   "- A convulsive seizure goes on for over 5 minutes.": "his line and his call of 19:44 UTC: he took out \"first seizure\" since a seizure is what to expect when an overdose brings one on, and kept over 5 minutes; the read flagged it on rescue-c1, c5, c6, c8 and c9",
+   "- They get dangerously hot (not just regular sweating).": "his line, from his Active Seizure version of 2026-11-12 19:44 UTC (5e41c575), which read Human High; \"not just regular sweating\" is how he tells it from the heat of the drug",
+   "- They injure their head, break a bone, or bleeding won't stop.": "his line, from his Active Seizure version of 2026-11-12 19:44 UTC (5e41c575), which read Human High; a friend can see a head hit, a limb at a wrong angle, or bleeding that won't stop"
+  }
+ },
+ "questions": {
+  "Q1": "PASS: the paragraph opens on what to do with a rescue medicine on hand, then what it is, its forms, and what to watch",
+  "Q2": "PASS: \"follow its label for when and how to give it\", \"keep watching their breathing\": the helper's acts",
+  "Q3": "PASS: \"a rescue medicine for seizures\", \"like one they carry for epilepsy\", \"a nasal spray or a rectal gel\"",
+  "Q4": "PASS: \"respiratory depressants\" said with what they are (\"like opioids or alcohol\")",
+  "Q5": "PASS: \"which is what\", \"Because\", \"since\", \"especially if\" say each relation, no connector twice in my sentences",
+  "Q6": "PASS: what to do, what it is, its forms, what to watch after",
+  "Q7": "PASS: each sentence bears on giving a rescue medicine now",
+  "Q8": "PASS: one paragraph on the rescue medicine",
+  "Q9": "PASS: one point a sentence, the forms with their reason first, the breathing sentence with its reason"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

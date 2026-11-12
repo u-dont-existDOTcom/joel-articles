@@ -1,0 +1,37 @@
+{
+ "brainev-c1": [
+  "AI Detected",
+  0.72,
+  134,
+  "Human, Low, 32; AI-Generated, Medium, 15; AI-Generated, Low, 19; AI-Generated, Low, 19; AI-Generated, High, 30; AI-Generated, Medium, 19",
+  "20:11:02",
+  "/a8a986e7-f324-4e8a-9561-b542fa57b413",
+  [
+   "AI-Generated Medium (15 words): My judgment goes further than the clinical evidence, but that evidence points the same way.",
+   "AI-Generated Low (19 words): People who'd had a stroke from a clot may have recovered better on DMSO in a preliminary trial.",
+   "AI-Generated Low (19 words): Doctors have also used it in a small series of patients to bring down dangerous pressure inside the skull.",
+   "AI-Generated High (30 words): And animal stroke research found it shrank the area of the brain that died, even when treatment started after the stroke, so it may still help if you start late.",
+   "AI-Generated Medium (19 words): It also suppresses NMDA- and AMPA-mediated excitotoxicity, the overexcited nerve signaling that kills brain cells after a stroke."
+  ],
+  [
+   "Human Low (32 words): If Someone Says \"My Brain Feels Damaged\": DMSO + Humic Acid + Electrolytes First\nI believe DMSO works better for stroke and most acute brain damage than anything else readily available to ordinary people."
+  ]
+ ],
+ "rescue-c8": [
+  "AI Detected",
+  0.17,
+  223,
+  "Human, High, 40; Human, Medium, 4; Human, High, 40; Human, Medium, 6; Human, High, 26; Human, Low, 26; AI-Generated, Low, 44; Human, Low, 37",
+  "20:10:51",
+  "/ed4fe070-ae91-4317-b946-a25cfd4bf60f",
+  [
+   "AI-Generated Low (44 words): These are benzodiazepines, the same first drugs doctors reach for when a seizure won't stop. They come in forms you don't have to swallow, like a nasal spray or a rectal gel, because a pill is no use while someone's seizing."
+  ],
+  [
+   "Human Medium (4 words): - Loosen any tight clothing.",
+   "Human Medium (6 words): - Their breathing gets slow and shallow.",
+   "Human Low (26 words): If there's a rescue medicine for seizures on hand, like one they carry for epilepsy, follow its label for when and how to give it.",
+   "Human Low (37 words): A few are intramuscular shots. After giving it, keep watching their breathing, since a benzodiazepine adds to the risk of it getting slow and shallow, especially if they've also taken respiratory depressants like opioids or alcohol."
+  ]
+ ]
+}

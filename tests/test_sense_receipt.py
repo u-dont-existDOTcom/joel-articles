@@ -29,6 +29,7 @@ def filled(text=TEXT, his='', whose='his own: a test line he wrote into the guid
     r['same_point'] = 'none: read the Active Seizure section from its heading to the next for topical CBD'
     r['needed'] = {'reader': 'a fresh reader given needed_read_brief.md', 'unneeded': [], 'kept': {}}
     r['his_fixes'] = {'reader': 'a fresh reader given his_fixes_brief.md', 'marked': [], 'kept': {}}
+    r['fit'] = {'reader': 'a fresh reader given fit_read_brief.md', 'marked': [], 'kept': {}}
     r['questions'] = {q: 'PASS: checked against this text' for q in R.QUESTIONS}
     return r
 
@@ -208,6 +209,37 @@ class HisFixes(unittest.TestCase):
         r = filled()
         del r['his_fixes']
         r['made'] = '2026-11-11'
+        self.assertFalse(self.probs(r))
+
+
+
+class Fit(unittest.TestCase):
+    """Gate bad-trips-2026-11-12j: a fresh reader's fit read, and a line it marks is changed or kept with the reason it
+    fits."""
+    S = 'Dr. Smith thought the dose was too low.'
+
+    def probs(self, r):
+        return [x for x in R.check(TEXT, r) if x.startswith('fit')]
+
+    def test_a_filled_read_passes(self):
+        self.assertEqual(self.probs(filled()), [])
+
+    def test_no_read_fails(self):
+        r = filled()
+        r['fit']['reader'] = ''
+        self.assertTrue(self.probs(r))
+
+    def test_a_marked_line_left_in_fails_until_changed_or_kept_with_a_reason(self):
+        r = filled()
+        r['fit']['marked'] = [{'s': self.S, 'found': 'ANYWAY'}]
+        self.assertTrue(self.probs(r))
+        r['fit']['kept'] = {self.S: 'it fits: the dose is the guide\'s own claim, not a sign to look for'}
+        self.assertFalse(self.probs(r))
+
+    def test_a_receipt_made_before_the_rule_is_read_as_it_was(self):
+        r = filled()
+        del r['fit']
+        r['made'] = '2026-11-12'
         self.assertFalse(self.probs(r))
 
 

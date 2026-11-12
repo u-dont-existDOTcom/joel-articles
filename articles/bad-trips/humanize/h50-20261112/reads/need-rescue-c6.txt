@@ -1,0 +1,8 @@
+NEEDS:
+S1: Tells the reader to give the rescue medicine they have, following its label, which is the core of the decision.
+S2: Tells the reader that the medicine has to be a form that needs no swallowing (spray or gel), so a pill is no use and they should not rely on one.
+S3: nothing
+S4: Tells the reader to keep watching the friend's breathing after giving the medicine, which is the next thing to do.
+
+UNNEEDED:
+- S3: A few are intramuscular shots. — It names a category without telling the reader to do anything; whether their medicine is a shot is on its label, and S2 already covers the usable forms.

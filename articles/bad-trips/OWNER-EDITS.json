@@ -1038,11 +1038,11 @@
    "order": [
     "## Active Seizure",
     "Call medics if any of these happen:",
-    "If an appropriate rapid seizure-rescue benzodiazepine",
+    "If they have a rescue medicine for seizures",
     "### What Else May Help: At the Aura, and Alongside Rescue Medicine",
     "Some people get a warning before a seizure takes hold"
    ],
-   "order_note": "2026-11-12, turn 39: the call-medics line is now a lead-in and list (humanize/h49-20261112, seize-c3, Human Written) and comes before the rescue medicine; his heading still opens the extras after first aid, when to call medics and the rescue medicine"
+   "order_note": "2026-11-12, turn 39: the call-medics line is now a lead-in and list (humanize/h49-20261112, seize-c3, Human Written) and comes before the rescue medicine; his heading still opens the extras after first aid, when to call medics and the rescue medicine; 2026-11-12, turn 40: the rescue medicine paragraph is now mine in his first person (humanize/h50-20261112, rescue-c10, Human Written in its section), in the same place"
   },
   {
    "id": "r32-ground-order",
@@ -1259,6 +1259,46 @@
    "must_not_contain": [
     "While using DMSO, check wakefulness",
     "For objective stroke-like signs, I would use DMSO immediately"
+   ]
+  },
+  {
+   "id": "r38b-seize",
+   "status": "applied",
+   "what": "Active Seizure's first aid and call list are his version, the text of his check 5e41c575 (pillows under the head; over 5 minutes; no \"another seizure before they've recovered\" and no \"first seizure\"; injuries said as what happens) (review/r38/apply_r38b.py)",
+   "joel": "2026-11-12 19:44 UTC: \"i fixed active seizure section, it was giving some wrong advice (if it's their first seizure? ... that's what we are expecting if the overdose causes a seizure... and how would someone know if they have another seizure before the first is over?)\"",
+   "must_contain_exact": [
+    "but do put pillows where appropriate, especially under the head.",
+    "- A convulsive seizure goes on for over 5 minutes.",
+    "- They injure their head, break a bone, or bleeding won't stop."
+   ],
+   "must_not_contain": [
+    "It's their first seizure",
+    "Another seizure starts before they've recovered"
+   ]
+  },
+  {
+   "id": "r38b-brain",
+   "status": "applied",
+   "what": "My Brain Feels Damaged: his electrolytes sentence (\"I give electrolytes to drink also ... to reverse damage already underway\") and no vision check, the text of his check a0b8ac56 (review/r38/apply_r38b.py)",
+   "joel": "2026-11-12 19:44 UTC: \"the changed vision thing made no sense (they are tripping, their vision should change...) and i clarified my electrolytes part\"",
+   "must_contain_exact": [
+    "I give electrolytes to drink also",
+    "sufficient to reverse damage already underway."
+   ],
+   "must_not_contain": [
+    "Check if their vision has changed"
+   ]
+  },
+  {
+   "id": "r38b-call-seizure",
+   "status": "applied",
+   "what": "The Call medics list's seizure line says what his Active Seizure call list says, \"A convulsive seizure lasting over 5 minutes\", without the first seizure and the repeated seizures he cut there (review/r38/apply_r38b.py; shown to him in the turn's report)",
+   "joel": "2026-11-12 19:44 UTC, the same message (\"it was giving some wrong advice\")",
+   "must_contain_exact": [
+    "- A convulsive seizure lasting over 5 minutes"
+   ],
+   "must_not_contain": [
+    "or a first or substantially different seizure"
    ]
   }
  ]

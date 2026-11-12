@@ -16,7 +16,7 @@ ART = HERE.parents[1]
 REPO = HERE.parents[3]
 BJ = ART / 'GUIDE-SO-FAR-blocks.json'
 MD = ART / 'GUIDE-SO-FAR.md'
-KEYS = ART / 'humanize/h01/FIDELITY-KEYS-R38.json'
+KEYS = ART / 'humanize/h01/FIDELITY-KEYS-R39.json'
 SP = pathlib.Path('/tmp/claude-0/-home-claude/7a3d2b92-4547-585d-83c0-bf816aa7e013/scratchpad')
 sys.path.insert(0, str(HERE))
 from build_tests import OPEN, FIRST_AID3 as FIRST_AID, CALL3 as CALL, ER3 as ER  # noqa: E402

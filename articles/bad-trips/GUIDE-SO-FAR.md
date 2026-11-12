@@ -17,7 +17,7 @@ I developed the [**Inner Signal app**](http://innersignalselfhypnosis.com/integr
 ## Call medics for:
 
 - Trouble breathing, blue or gray lips, or respiratory depression
-- A convulsive seizure lasting about five minutes, repeated seizures without normal recovery, or a first or substantially different seizure
+- A convulsive seizure lasting over 5 minutes
 - Collapse, inability to wake normally, or rapidly worsening consciousness
 - Dangerous overheating (not just regular sweating), severe rigidity, or clonus with fever
 - Severe insomnia
@@ -74,7 +74,7 @@ In an emergency room, a scared and psychotic-feeling person will often get a ben
 
 ## If Someone Says "My Brain Feels Damaged": DMSO + Humic Acid + Electrolytes First
 
-Don't dismiss someone who says their brain feels damaged just because they're high or can't explain what they feel in medical language, since something could really be going wrong in their brain. [DMSO](http://dmso.u-dont-exist.com/) is my first immediate remedy while I ask what the symptoms actually are. I usually know within about a minute whether it is helping. Smelling [humic acid ](http://humicacid.u-dont-exist.com)or tasting a tiny bit can also help a lot, in my experience, but I'm still collecting data from others. I add electrolytes too, because magnesium (and then potassium) can be depleted by some drugs, especially MDMA and iboga, although I don't think just electrolytes would be sufficient.
+Don't dismiss someone who says their brain feels damaged just because they're high or can't explain what they feel in medical language, since something could really be going wrong in their brain. [DMSO](http://dmso.u-dont-exist.com/) is my first immediate remedy while I ask what the symptoms actually are. I usually know within about a minute whether it is helping. Smelling [humic acid ](http://humicacid.u-dont-exist.com)or tasting a tiny bit can also help a lot, in my experience, but I'm still collecting data from others. I give electrolytes to drink also, because magnesium (and then potassium) can be depleted by some drugs, especially MDMA and iboga, although I don't think just electrolytes would be sufficient to reverse damage already underway.
 
 While the DMSO is working, check for [stroke warning signs](https://www.stroke.org/en/about-stroke/stroke-symptoms) that would trigger a call to medics:
 
@@ -86,7 +86,6 @@ While the DMSO is working, check for [stroke warning signs](https://www.stroke.o
 - Wetting or soiling themselves is another sign to watch for.
 - Watch for a seizure, and for vomiting that keeps coming back.
 - Ask about a really bad headache or chest pain.
-- Check if their vision has changed.
 
 When they're too out of it to help you do the checks, or if the brain-damage feeling stays despite sufficient treatment, then you've done what you can do, and it's time to call for help.
 
@@ -105,22 +104,20 @@ DMSO cannot identify whether the problem is a clot, a hemorrhage, low oxygen, an
 Time the seizure, and while it lasts:
 
 - Move any dangerous objects away from them, especially anything hard or sharp.
+- Don't restrain them, since that can cause injuries, but do put pillows where appropriate, especially under the head.
 - Loosen any tight clothing.
 - Turn them gently onto their side, which helps them breathe.
-- Don't restrain them, since that can cause injuries.
 - Keep everything out of their mouth while they're convulsing or not fully conscious.
 
 Call medics if any of these happen:
 
-- A convulsive seizure goes on for about five minutes.
-- Another seizure starts before they've recovered from the last one.
+- A convulsive seizure goes on for over 5 minutes.
 - Their breathing gets slow and shallow.
-- Blue or gray lips are another sign.
+- Their lips turn blue or gray.
 - They get dangerously hot (not just regular sweating).
-- They're seriously hurt, like bleeding that won't stop or a possible head injury.
-- It's their first seizure, or one that's substantially different from their usual ones.
+- They injure their head, break a bone, or bleeding won't stop.
 
-If an appropriate rapid seizure-rescue benzodiazepine is available, use it by its intended route. Benzodiazepines are the [established first-line drug class for status epilepticus](https://pmc.ncbi.nlm.nih.gov/articles/PMC9477921/). An ordinary pill is not the same thing as a nasal, buccal, rectal, intramuscular, or intravenous rescue preparation, and respiratory depressants in the mix change the risk.
+If they have a rescue medicine for seizures with them, like one they carry for epilepsy, I'd give it when and how its label says. It's a benzodiazepine, the kind of drug [doctors reach for first when a seizure won't stop](https://pmc.ncbi.nlm.nih.gov/articles/PMC9477921/). A pill is no use while someone's seizing, so it'll be a nasal spray or a rectal gel, or sometimes an intramuscular shot. After giving it, I'd keep a close eye on their breathing, since a benzodiazepine adds to the risk of it getting slow and shallow, especially if they've also taken respiratory depressants like opioids or alcohol.
 
 ### What Else May Help: At the Aura, and Alongside Rescue Medicine
 

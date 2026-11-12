@@ -1,0 +1,132 @@
+{
+ "brainev-c1": [
+  "AI Detected",
+  0.72,
+  134,
+  "a8a986e7-f324-4e8a-9561-b542fa57b413",
+  "2026-11-12T20:11:02.075Z",
+  [
+   [
+    "Human",
+    "Low",
+    32,
+    0,
+    204,
+    "If Someone Says \"My Brai"
+   ],
+   [
+    "AI-Generated",
+    "Medium",
+    15,
+    204,
+    296,
+    "My judgment goes further"
+   ],
+   [
+    "AI-Generated",
+    "Low",
+    19,
+    296,
+    392,
+    "People who'd had a strok"
+   ],
+   [
+    "AI-Generated",
+    "Low",
+    19,
+    392,
+    499,
+    "Doctors have also used i"
+   ],
+   [
+    "AI-Generated",
+    "High",
+    30,
+    499,
+    661,
+    "And animal stroke resear"
+   ],
+   [
+    "AI-Generated",
+    "Medium",
+    19,
+    661,
+    791,
+    "It also suppresses NMDA-"
+   ]
+  ]
+ ],
+ "rescue-c8": [
+  "AI Detected",
+  0.17,
+  223,
+  "ed4fe070-ae91-4317-b946-a25cfd4bf60f",
+  "2026-11-12T20:10:51.973Z",
+  [
+   [
+    "Human",
+    "High",
+    40,
+    0,
+    251,
+    "Active Seizure\nTime the "
+   ],
+   [
+    "Human",
+    "Medium",
+    4,
+    251,
+    280,
+    "- Loosen any tight cloth"
+   ],
+   [
+    "Human",
+    "High",
+    40,
+    280,
+    515,
+    "- Turn them gently onto "
+   ],
+   [
+    "Human",
+    "Medium",
+    6,
+    515,
+    556,
+    "- Their breathing gets s"
+   ],
+   [
+    "Human",
+    "High",
+    26,
+    556,
+    708,
+    "- Their lips turn blue o"
+   ],
+   [
+    "Human",
+    "Low",
+    26,
+    708,
+    839,
+    "If there's a rescue medi"
+   ],
+   [
+    "AI-Generated",
+    "Low",
+    44,
+    839,
+    1064,
+    "These are benzodiazepine"
+   ],
+   [
+    "Human",
+    "Low",
+    37,
+    1064,
+    1297,
+    "A few are intramuscular "
+   ]
+  ]
+ ]
+}
