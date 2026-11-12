@@ -22,7 +22,7 @@ Every paragraph and every section reads Human in Pangram, with the meaning kept 
 
 ## Current checkpoint
 
-`humanize/HUMANIZED-SO-FAR.md` (37964390, after his version of the ketone card, SC-48b, from his answers of 2026-11-12 18:23 UTC: `humanize/fix-20261108/keto/APPLIED-X1111C.json`) is his post with the standard typographic swap, his versions and the science corrections he approved, section by section through Part 3's potassium step. Next, the protocol is read as a whole against the settled science (`humanize/fix-20261108/coherence/EXTRACT.md`), then the rest is humanized (lesson neuro-2026-11-08f). Nothing has been changed in his post yet.
+`humanize/HUMANIZED-SO-FAR.md` (86fa6be5, after his approval of 2026-11-12 19:32 UTC of SC-48c, the rats and the salts in his ketone clause: `humanize/fix-20261108/keto/APPLIED-X1112A.json`) is his post with the standard typographic swap, his versions and the science corrections he approved, section by section through Part 3's potassium step. Next, the protocol is read as a whole against the settled science (`humanize/fix-20261108/coherence/EXTRACT.md`), then the rest is humanized (lesson neuro-2026-11-08f). Nothing has been changed in his post yet.
 
 ## Remaining
 
@@ -30,7 +30,7 @@ The AI windows of every section, rewritten and checked; his cards; his post upda
 
 ## Blockers / unresolved
 
-One card waits on him: SC-48c, the rats and the salts in his ketone clause (`humanize/fix-20261108/keto/REVIEW-X1112A.md`); no open questions (`humanize/OWNER-QUESTIONS.md`).
+One card waits on him: SC-95, the two ketone strategies, the first card of the read of the whole protocol (`humanize/fix-20261108/coherence/ketone/REVIEW-X1112B.md`); no open questions (`humanize/OWNER-QUESTIONS.md`).
 
 ## Evidence / artifacts
 
