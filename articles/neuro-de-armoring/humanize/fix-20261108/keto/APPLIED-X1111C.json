@@ -1,0 +1,41 @@
+{
+ "about": "SC-48b as he revised it (his version), with the fixes listed; answers exported 2026-11-12 18:23 UTC",
+ "answers": "ANSWERS-X1111C-20261112-1823.json",
+ "card": "SC-48b",
+ "status": "revise",
+ "line": 98,
+ "old": "Why don't these drugs work on calcified PTSD? Because even if they did work for mood by modulating serotonin transmission, PTSD is not a mood disorder. That's a bit like putting some Bengay on a broken leg. This protocol tries to get at the underpinnings of the problem. The ketone BHB blocks enzymes called HDACs ([Shimazu, et al, 2013](https://escholarship.org/uc/item/4w889738)), and in mice that couldn't hold on to extinction learning (learning that a cue is now safe), an HDAC blocker made the new learning last ([Whittle & Singewald, 2014](https://pmc.ncbi.nlm.nih.gov/articles/PMC3961057)). Whether ketosis does that in people hasn't been tested.",
+ "new": "Why don't these drugs work on calcified PTSD? Because even if they did work for mood by modulating serotonin transmission, PTSD is not a mood disorder. That's a bit like putting some Bengay on a broken leg. This protocol tries to get at the underpinnings of the problem. The ketone BHB blocks enzymes called HDACs ([Shimazu, et al, 2013](https://escholarship.org/uc/item/4w889738)), and in mice that couldn't hold on to extinction learning (learning that a cue is now safe), an HDAC blocker made the new learning last ([Whittle & Singewald, 2014](https://pmc.ncbi.nlm.nih.gov/articles/PMC3961057)). In people with PTSD, the first small study of a keto diet with BHB supplements found that both people who finished its four weeks improved, by 20 and 10 points on the standard 80-point PTSD checklist, which its authors call clinically meaningful ([Edwards, et al, 2024](https://pubmed.ncbi.nlm.nih.gov/39588043/)). In two case reports, women whose PTSD hadn't responded to treatment were nearly or fully free of symptoms after months on the diet ([Bellamy & Laurent, 2025](https://pubmed.ncbi.nlm.nih.gov/40626225/); [Laurent, 2026](https://pubmed.ncbi.nlm.nih.gov/41783812/)). No controlled trial of the diet has been done yet, and the one placebo-controlled trial of BHB supplements alone was too small to tell either way ([Youssef, et al, 2022](https://pubmed.ncbi.nlm.nih.gov/36282607/)), although we can see some astounding BHB salt reviews on forums, like for [brain injury repair](https://www.reddit.com/r/keto/comments/1fmu0po/ketone_supplements_insanely_good/), and the salts work for rats with trauma, although not nearly as proven for humans as the keto diet is ([Engelhardt, et al, 2026](https://www.frontiersin.org/journals/psychiatry/articles/10.3389/fpsyt.2026.1854499/full)).",
+ "fixes": [
+  {
+   "was": "[brain injury repai]r (https://www.reddit.com/r/keto/comments/1fmu0po/ketone_supplements_insanely_good/)",
+   "now": "[brain injury repair](https://www.reddit.com/r/keto/comments/1fmu0po/ketone_supplements_insanely_good/)",
+   "why": "the link's bracket closed a letter early and a space split it from its address"
+  },
+  {
+   "was": "the salts works",
+   "now": "the salts work",
+   "why": "a typo"
+  },
+  {
+   "was": "[(Engelhardt, et al 2026](https://www.frontiersin.org/journals/psychiatry/articles/10.3389/fpsyt.2026.1854499/full))",
+   "now": "([Engelhardt, et al, 2026](https://www.frontiersin.org/journals/psychiatry/articles/10.3389/fpsyt.2026.1854499/full))",
+   "why": "the bracket after the parenthesis, with the comma the article's citations have"
+  },
+  {
+   "was": "(the sentence ends without a full stop)",
+   "now": ".",
+   "why": "the full stop"
+  },
+  {
+   "was": "(Shimazu, et al, 2013) ... (Youssef, et al, 2022), as plain text",
+   "now": "each with its link",
+   "why": "the page shows his version as plain text; the citations' links put back where they were"
+  }
+ ],
+ "reddit_read": false,
+ "why_not_read": "Reddit is blocked to the web tools as content; the restriction covers every tool, the browser too",
+ "checked_after": "KETO-PTSD.md, \"His clause, checked\"; what the review says differently is on card SC-48c",
+ "before_sha256": "adfe7042f2b4d92b1202288690710c6ba5930307ea137685a971faa193dbc16d",
+ "after_sha256": "379643901cbc37d7494588d504502fc5d89b87987ee36fab60e79e63e08dcbc2"
+}

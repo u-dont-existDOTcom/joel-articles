@@ -1,8 +1,8 @@
 # Neuro de-armoring: what I need from Joel
 
-Last updated 2026-11-11, after your message of 22:53 UTC.
+Last updated 2026-11-12, after your answers of 18:23 UTC.
 **Open questions: 0.** **For you to do**: one card on
-[Neuro De-Armoring Cards, 11 November (3)](https://claude.ai/artifact/9nENpt9AEJCB43a9Wy5jqn) ([the same card in Git](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/keto/REVIEW-X1111C.md)), ketosis in people with PTSD; it replaces the potassium card on the same page.
+[Neuro De-Armoring Cards, 12 November](https://claude.ai/artifact/9nENpt9AEJCB43a9Wy5jqn) ([the same card in Git](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/keto/REVIEW-X1112A.md)), the rats and the salts in your clause; it replaces the ketone card on the same page.
 
 Colours: 🟣 a question for you; 🟠 something for you to do; 🔵 next or in progress; 🟢 done or decided.
 
@@ -18,7 +18,13 @@ can read and update it. Every file it points to is a link.
 
 ## For you to do
 
-- 🟠 **Ketosis in people with PTSD** ([the page](https://claude.ai/artifact/9nENpt9AEJCB43a9Wy5jqn), [in Git](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/keto/REVIEW-X1111C.md)): one card, SC-48b. Block 48 ended on my "Whether ketosis does that in people hasn't been tested."; it now says what has been seen in people with PTSD on a keto diet (the Oslo study, two case reports) and how far that goes.
+- 🟠 **The rats and the salts in your clause** ([the page](https://claude.ai/artifact/9nENpt9AEJCB43a9Wy5jqn), [in Git](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/keto/REVIEW-X1112A.md)): one card, SC-48c. Your version of the ketone card is in; two points of the clause you added read differently in the review you cite, and the card puts its wording to you.
+
+## Your answers of 2026-11-12 18:23 UTC (the ketone card), and what I did
+
+- 🟢 **Your version of SC-48b is in**, with a broken link, a typo and the citation's brackets fixed ([what went in](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/keto/APPLIED-X1111C.json)).
+- 🟢 **Your clause, checked** ([the check](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/keto/KETO-PTSD.md)): the rats were given BHB by injection, not the salts, and the review you cite calls the salts against the diet in people an open question. That's the card above.
+- 🟢 **Lesson**: studies of the protocol's own compound in the condition, animals included, go in with what was given and how ([the file](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/docs/lessons/2026-11-12-1823-neuro.md)).
 
 ## Your message of 2026-11-11 22:53 UTC, and what I did
 

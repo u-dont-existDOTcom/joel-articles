@@ -41,3 +41,31 @@ the one placebo-controlled trial of BHB salts too small to tell). The one-line s
 ("the two groups ended up no different") made a trial too small to tell sound like a negative: lesson neuro-2026-11-11c.
 Strategy A's "need the fog gone fast" with the salts (block 95) goes to the read of the whole protocol, beside the
 Youssef trial.
+
+## His clause, checked (his version of SC-48b, answers exported 2026-11-12 18:23 UTC)
+
+His version added to the last sentence: "although we can see some astounding BHB salt reviews on forums, like for brain
+injury repair (a Reddit thread), and the salts work for rats with trauma, although not nearly as proven for humans as the
+keto diet is (Engelhardt, et al 2026)". It went in as he wrote it ([apply_x1111c.py](apply_x1111c.py), with the fixes it
+lists: a broken link, a typo, the citation's brackets, the full stop, the citations' links).
+
+- **The forum reviews**: his link is to a Reddit thread, blocked to this session's tools as content, so not read. His
+  point and his link, as firsthand reports.
+- **Engelhardt 2026** is the integrative review above ([PubMed](https://pubmed.ncbi.nlm.nih.gov/42780737/); Engelhardt R,
+  Ogedengbe JO, ... Potenza MN), cited as he cites it.
+- **"the salts work for rats with trauma"**: the review's rodent studies gave BHB by injection ("directly injected
+  β-hydroxybutyrate, which resulted in reduced post-traumatic anxiety-like behavior"), MCT oil, or sodium acetate.
+  [Yamanashi, et al, 2020](https://pubmed.ncbi.nlm.nih.gov/33303808/) (doi 10.1038/s41598-020-78410-2; full text read in
+  PubMed Central): DL-BHB in buffered saline, 250 mg/kg under the skin, eased anxiety-related behavior after single
+  prolonged stress and partly lowered TNF-α. [Jung, et al, 2025](https://pubmed.ncbi.nlm.nih.gov/41412336/) (doi
+  10.1016/j.jad.2025.120940; abstract): BHB 250 mg/kg by injection twice a day for a week prevented anxiety and fear
+  behaviors and normalized corticosterone in male and female rats. [Yoshioka, et al, 2026](https://pubmed.ncbi.nlm.nih.gov/41942638/)
+  (abstract): MCT oil by mouth raised BHB and reduced anxiety-like behavior. None gave the salts by mouth. Card SC-48c:
+  "BHB injections work for rats with trauma".
+- **"not nearly as proven for humans as the keto diet is"**: the review: "no efficacy for PTSD in humans was demonstrated
+  against a control group", and "Another open question remains whether supplementation can achieve effects comparable to
+  ketogenic diets. While supplementation may rapidly elevate circulating ketones, dietary interventions may exert more
+  sustained effects". Card SC-48c: "although in humans it's still an open question whether the salts work as well as the
+  keto diet".
+- I had left the rat studies out of SC-48b as adding nothing to the mouse finding. They are the closer evidence, BHB itself
+  in a trauma model, and his clause put them in (lesson neuro-2026-11-12a).

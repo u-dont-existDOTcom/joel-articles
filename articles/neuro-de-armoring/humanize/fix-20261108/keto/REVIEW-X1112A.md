@@ -1,0 +1,30 @@
+# Neuro De-Armoring Cards, 12 November: the rats and the salts in your clause
+
+Your version of the ketone card is in the article. Checked against the review you cite, two points in your clause read differently there; this card puts the review's wording to you.
+
+One card. No compound, dose, unit or timing changes.
+
+Strategy A's promise and the other ketone steps go to the read of the whole protocol.
+
+## SC-48c: The rats and the salts in your clause: what the review you cite says
+
+*C. The "Hardened" Circuit: Dynorphin & DeltaFosB, P3*
+
+**Now:**
+
+> Why don't these drugs work on calcified PTSD? Because even if they did work for mood by modulating serotonin transmission, PTSD is not a mood disorder. That's a bit like putting some Bengay on a broken leg. This protocol tries to get at the underpinnings of the problem. The ketone BHB blocks enzymes called HDACs (Shimazu, et al, 2013), and in mice that couldn't hold on to extinction learning (learning that a cue is now safe), an HDAC blocker made the new learning last (Whittle & Singewald, 2014). In people with PTSD, the first small study of a keto diet with BHB supplements found that both people who finished its four weeks improved, by 20 and 10 points on the standard 80-point PTSD checklist, which its authors call clinically meaningful (Edwards, et al, 2024). In two case reports, women whose PTSD hadn't responded to treatment were nearly or fully free of symptoms after months on the diet (Bellamy & Laurent, 2025; Laurent, 2026). No controlled trial of the diet has been done yet, and the one placebo-controlled trial of BHB supplements alone was too small to tell either way (Youssef, et al, 2022), although we can see some astounding BHB salt reviews on forums, like for brain injury repair, and the salts work for rats with trauma, although not nearly as proven for humans as the keto diet is (Engelhardt, et al, 2026).
+
+**As it would read:**
+
+> Why don't these drugs work on calcified PTSD? Because even if they did work for mood by modulating serotonin transmission, PTSD is not a mood disorder. That's a bit like putting some Bengay on a broken leg. This protocol tries to get at the underpinnings of the problem. The ketone BHB blocks enzymes called HDACs (Shimazu, et al, 2013), and in mice that couldn't hold on to extinction learning (learning that a cue is now safe), an HDAC blocker made the new learning last (Whittle & Singewald, 2014). In people with PTSD, the first small study of a keto diet with BHB supplements found that both people who finished its four weeks improved, by 20 and 10 points on the standard 80-point PTSD checklist, which its authors call clinically meaningful (Edwards, et al, 2024). In two case reports, women whose PTSD hadn't responded to treatment were nearly or fully free of symptoms after months on the diet (Bellamy & Laurent, 2025; Laurent, 2026). No controlled trial of the diet has been done yet, and the one placebo-controlled trial of BHB supplements alone was too small to tell either way (Youssef, et al, 2022), although we can see some astounding BHB salt reviews on forums, like for brain injury repair, and BHB injections work for rats with trauma, although in humans it's still an open question whether the salts work as well as the keto diet (Engelhardt, et al, 2026).
+
+**What changes:** Two phrases in the clause you added to block 48's last sentence change to what the review you cite says: "the salts work for rats with trauma" becomes "BHB injections work for rats with trauma", and "although not nearly as proven for humans as the keto diet is" becomes "although in humans it's still an open question whether the salts work as well as the keto diet".
+
+**Why:** Your version is in, as you wrote it, with a broken link, a typo and the citation's brackets fixed. Checked against the review you cite ([Engelhardt, et al, 2026](https://www.frontiersin.org/journals/psychiatry/articles/10.3389/fpsyt.2026.1854499/full)), two points read differently there. The rats weren't given the salts: BHB injected under the skin eased their anxiety after a trauma model ([Yamanashi, et al, 2020](https://pubmed.ncbi.nlm.nih.gov/33303808/)), BHB injected twice a day for a week prevented anxiety and fear behaviors in male and female rats ([Jung, et al, 2025](https://pubmed.ncbi.nlm.nih.gov/41412336/)), and MCT oil by mouth, which raises BHB, reduced anxiety ([Yoshioka, et al, 2026](https://pubmed.ncbi.nlm.nih.gov/41942638/)). None had the salts by mouth, which is what a reader on Strategy A takes. And the review doesn't rank the salts below the diet in people: it says no ketogenic therapy has yet been shown to work for PTSD against a control group, and calls it "an open question" whether supplements can match the diet, though it adds that the diet "may exert more sustained effects". You were right to put the rats in. I'd left them out as adding nothing to the mouse finding, when they're closer evidence than it, BHB itself in a trauma model. I couldn't read the Reddit thread (blocked from here), so your forum point stays as you wrote it.
+
+**What stays:** Your forum point and its link, the rest of the sentence and of the paragraph, as your version has them.
+
+**You're deciding:** Whether the rats and the salts against the diet say what the review you cite says.
+
+**My advice:** Approve. I'm sure of what the rats were given and of what the review says. Two fresh readers stumble on the sentence's two "although"s; if you'd like it split at your first one, with nothing else changed: "No controlled trial of the diet has been done yet, and the one placebo-controlled trial of BHB supplements alone was too small to tell either way (Youssef, et al, 2022). But we can see some astounding BHB salt reviews on forums, like for brain injury repair, and BHB injections work for rats with trauma, although in humans it's still an open question whether the salts work as well as the keto diet (Engelhardt, et al, 2026)." One of them would also cut the forum and rat clauses as not about PTSD in people, which I wouldn't: they're your points, and the rats are the closest animal evidence for BHB itself.
+

@@ -1248,6 +1248,47 @@
     }
    ],
    "recorded_utc": "2026-11-11T22:54Z"
+  },
+  {
+   "turn": "2026-11-12T18:23Z",
+   "lines_of_work": [
+    "neuro de-armoring",
+    "hypnosis guide",
+    "community article"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "AGENTS.md 7ef0bfc and LESSON-INDEX ba787e0 unchanged; the lane's six suggested-fix items, all in the ledger"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "main at 20749c0d6 (this lane's 423 merged; bad-trips 424 to 427: the sixth fix for every lane and gate bad-trips-2026-11-12g, the read against his fixes before any check of a text of mine); no new issues or comments; 309 still open"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no edits by others to this lane's notes; his answers on x1111c (attached JSON, exported 2026-11-12 18:23 UTC): SC-48b to revise, his version adds forum reviews of BHB salts (a Reddit link on brain injury repair), the salts working for rats with trauma, and the salts not nearly as proven in people as the keto diet (Engelhardt, et al 2026)"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "no queued notifications"
+    }
+   ],
+   "items": [
+    {
+     "item": "his answers on x1111c (SC-48b, his version)",
+     "outcome": "check his added claims (the rat studies and what they gave; what Engelhardt 2026 says of salts against the diet in people) against their sources; apply his version by script with the link and typo fixes, a card only for a point that doesn't hold"
+    },
+    {
+     "item": "main's gate bad-trips-2026-11-12g (the read against his fixes)",
+     "outcome": "adopted: any new text of mine gets the fresh read against his fixes before a check"
+    }
+   ],
+   "recorded_utc": "2026-11-12T18:25Z"
   }
  ]
 }
