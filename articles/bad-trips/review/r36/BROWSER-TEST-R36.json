@@ -1,0 +1,401 @@
+{
+ "page": "/home/claude/joel-articles/articles/bad-trips/review/r36/REVIEW-R36.html",
+ "passed": 68,
+ "failed": 0,
+ "results": [
+  {
+   "test": "light: one card per suggestion",
+   "pass": true,
+   "detail": "2 cards, 2 suggestions"
+  },
+  {
+   "test": "light: every other card starts not approved",
+   "pass": true,
+   "detail": 0
+  },
+  {
+   "test": "light: a page of stretches to edit (1), no suggestions to approve",
+   "pass": true,
+   "detail": [
+    "TEACH-SS"
+   ]
+  },
+  {
+   "test": "light: typed comment kept",
+   "pass": true,
+   "detail": "Keep \"this\" — and check the link, please. Ünïcode ok."
+  },
+  {
+   "test": "light: comment text legible (contrast 14.7)",
+   "pass": true,
+   "detail": {
+    "ratio": 14.67911847763172,
+    "fg": "rgb(31, 41, 55)",
+    "fill": "rgb(31, 41, 55)",
+    "bg": "rgb(255, 255, 255)"
+   }
+  },
+  {
+   "test": "light: type filter hides that type",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "light: and shows it again",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "light: no cards I'd leave on this page, so nothing to hide",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "light: each changed paragraph shows as two clean texts (0 cards)",
+   "pass": true,
+   "detail": []
+  },
+  {
+   "test": "light: a passage shown whole reads as my version (0 cards)",
+   "pass": true,
+   "detail": []
+  },
+  {
+   "test": "light: a question card says Answered",
+   "pass": true,
+   "detail": "Answered"
+  },
+  {
+   "test": "light: answers count apart from decisions",
+   "pass": true,
+   "detail": "0 of 1 stretches looked at · 0 kept · 0 edited · 1 of 1 questions answered"
+  },
+  {
+   "test": "light: Keep on a stretch to edit",
+   "pass": true,
+   "detail": "Keep as it is"
+  },
+  {
+   "test": "light: Edit opens your version, filled with the paragraph as it is",
+   "pass": true,
+   "detail": "Clinicians often use the Hunter criteria. One or more of the following patterns "
+  },
+  {
+   "test": "light: stretches to edit count apart",
+   "pass": true,
+   "detail": "1 of 1 stretches looked at · 0 kept · 1 edited · 1 of 1 questions answered"
+  },
+  {
+   "test": "light: every highlight has a colour",
+   "pass": true,
+   "detail": "0 without one"
+  },
+  {
+   "test": "light: Next undecided brings one to the top",
+   "pass": true,
+   "detail": 1
+  },
+  {
+   "test": "light: Next walks every undecided card in page order, questions included",
+   "pass": true,
+   "detail": "expected ['TEACH-SS'], got ['TEACH-SS']"
+  },
+  {
+   "test": "light: Copy gives parseable JSON",
+   "pass": true,
+   "detail": "{\n \"format\": \"joel-suggestion-review-answers-v1\",\n \"review_id\": \"bad-trips-r36\","
+  },
+  {
+   "test": "light: export names the review and the guide version",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "light: export has every suggestion",
+   "pass": true,
+   "detail": 2
+  },
+  {
+   "test": "light: comment exported word for word",
+   "pass": true,
+   "detail": "Keep \"this\" — and check the link, please. Ünïcode ok."
+  },
+  {
+   "test": "light: statuses exported",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "light: the answer is exported with its question",
+   "pass": true,
+   "detail": {
+    "id": "MEDICAL-HOW",
+    "type": "question",
+    "title": "1. The rest of the medical part: a whole version a round, or a line or two for each section?",
+    "where": "Acute Medical and Neurological Rescue, P1",
+    "advice": "ask",
+    "status": "answered",
+    "question": "Nine sections of the medical part read AI in the first batch and haven't been fixed: Call medics for, Who to Contact, Acute Medical and Neurological Rescue (these two paragraphs), My Brain Feels Damaged, Active Seizure's first part, MDMA's jaw tension, Chest Pain, Recent Oral Toxic Ingestion's charcoal and poison control paragraphs, and Serotonin Syndrome. How each option would go:\n\nA: as now: one teaching card a round, and I carry what you do to the others and test them. Pro: you write one section a round. Con: my carries of your two medical versions read AI in all eight tries, so so far only the section you write turns Human.\n\nB (my pick): next round, a short box for each of those sections, for a line or two of your own there: what you've seen, what you'd do, or what you think of the standard advice. I build each section around what you write and test it. Pro: the whole part in a round or two, and it's how my fixes went Human in the remedies, where something you wrote was near (Nausea Smoothers, DMSO, the ocean water). Con: untried on clinical text; a section that still reads AI comes back to you as a teaching card.",
+    "your_version": "",
+    "comment": "From people I've talked to.",
+    "my_version": "",
+    "before": "",
+    "history": [],
+    "updated": "2026-11-12T14:00:34.950Z"
+   }
+  },
+  {
+   "test": "light: Save downloads the answers",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "light: a reload keeps the decisions",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "light: a reload keeps the comment",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "light: cleared storage starts fresh",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "light: loading the saved file restores decisions",
+   "pass": true,
+   "detail": "Loaded 2 answers."
+  },
+  {
+   "test": "light: and the comment",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "light: answers for another review are refused",
+   "pass": true,
+   "detail": "Those answers are for a different review (another-review), so nothing was loaded."
+  },
+  {
+   "test": "light: bad pasted text is refused",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "light: no console or page errors",
+   "pass": true,
+   "detail": []
+  },
+  {
+   "test": "dark: one card per suggestion",
+   "pass": true,
+   "detail": "2 cards, 2 suggestions"
+  },
+  {
+   "test": "dark: every other card starts not approved",
+   "pass": true,
+   "detail": 0
+  },
+  {
+   "test": "dark: a page of stretches to edit (1), no suggestions to approve",
+   "pass": true,
+   "detail": [
+    "TEACH-SS"
+   ]
+  },
+  {
+   "test": "dark: typed comment kept",
+   "pass": true,
+   "detail": "Keep \"this\" — and check the link, please. Ünïcode ok."
+  },
+  {
+   "test": "dark: comment text legible (contrast 14.7)",
+   "pass": true,
+   "detail": {
+    "ratio": 14.67911847763172,
+    "fg": "rgb(31, 41, 55)",
+    "fill": "rgb(31, 41, 55)",
+    "bg": "rgb(255, 255, 255)"
+   }
+  },
+  {
+   "test": "dark: type filter hides that type",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "dark: and shows it again",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "dark: no cards I'd leave on this page, so nothing to hide",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "dark: each changed paragraph shows as two clean texts (0 cards)",
+   "pass": true,
+   "detail": []
+  },
+  {
+   "test": "dark: a passage shown whole reads as my version (0 cards)",
+   "pass": true,
+   "detail": []
+  },
+  {
+   "test": "dark: a question card says Answered",
+   "pass": true,
+   "detail": "Answered"
+  },
+  {
+   "test": "dark: answers count apart from decisions",
+   "pass": true,
+   "detail": "0 of 1 stretches looked at · 0 kept · 0 edited · 1 of 1 questions answered"
+  },
+  {
+   "test": "dark: Keep on a stretch to edit",
+   "pass": true,
+   "detail": "Keep as it is"
+  },
+  {
+   "test": "dark: Edit opens your version, filled with the paragraph as it is",
+   "pass": true,
+   "detail": "Clinicians often use the Hunter criteria. One or more of the following patterns "
+  },
+  {
+   "test": "dark: stretches to edit count apart",
+   "pass": true,
+   "detail": "1 of 1 stretches looked at · 0 kept · 1 edited · 1 of 1 questions answered"
+  },
+  {
+   "test": "dark: every highlight has a colour",
+   "pass": true,
+   "detail": "0 without one"
+  },
+  {
+   "test": "dark: Next undecided brings one to the top",
+   "pass": true,
+   "detail": 1
+  },
+  {
+   "test": "dark: Next walks every undecided card in page order, questions included",
+   "pass": true,
+   "detail": "expected ['TEACH-SS'], got ['TEACH-SS']"
+  },
+  {
+   "test": "dark: Copy gives parseable JSON",
+   "pass": true,
+   "detail": "{\n \"format\": \"joel-suggestion-review-answers-v1\",\n \"review_id\": \"bad-trips-r36\","
+  },
+  {
+   "test": "dark: export names the review and the guide version",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "dark: export has every suggestion",
+   "pass": true,
+   "detail": 2
+  },
+  {
+   "test": "dark: comment exported word for word",
+   "pass": true,
+   "detail": "Keep \"this\" — and check the link, please. Ünïcode ok."
+  },
+  {
+   "test": "dark: statuses exported",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "dark: the answer is exported with its question",
+   "pass": true,
+   "detail": {
+    "id": "MEDICAL-HOW",
+    "type": "question",
+    "title": "1. The rest of the medical part: a whole version a round, or a line or two for each section?",
+    "where": "Acute Medical and Neurological Rescue, P1",
+    "advice": "ask",
+    "status": "answered",
+    "question": "Nine sections of the medical part read AI in the first batch and haven't been fixed: Call medics for, Who to Contact, Acute Medical and Neurological Rescue (these two paragraphs), My Brain Feels Damaged, Active Seizure's first part, MDMA's jaw tension, Chest Pain, Recent Oral Toxic Ingestion's charcoal and poison control paragraphs, and Serotonin Syndrome. How each option would go:\n\nA: as now: one teaching card a round, and I carry what you do to the others and test them. Pro: you write one section a round. Con: my carries of your two medical versions read AI in all eight tries, so so far only the section you write turns Human.\n\nB (my pick): next round, a short box for each of those sections, for a line or two of your own there: what you've seen, what you'd do, or what you think of the standard advice. I build each section around what you write and test it. Pro: the whole part in a round or two, and it's how my fixes went Human in the remedies, where something you wrote was near (Nausea Smoothers, DMSO, the ocean water). Con: untried on clinical text; a section that still reads AI comes back to you as a teaching card.",
+    "your_version": "",
+    "comment": "From people I've talked to.",
+    "my_version": "",
+    "before": "",
+    "history": [],
+    "updated": "2026-11-12T14:00:42.227Z"
+   }
+  },
+  {
+   "test": "dark: Save downloads the answers",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "dark: a reload keeps the decisions",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "dark: a reload keeps the comment",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "dark: cleared storage starts fresh",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "dark: loading the saved file restores decisions",
+   "pass": true,
+   "detail": "Loaded 2 answers."
+  },
+  {
+   "test": "dark: and the comment",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "dark: answers for another review are refused",
+   "pass": true,
+   "detail": "Those answers are for a different review (another-review), so nothing was loaded."
+  },
+  {
+   "test": "dark: bad pasted text is refused",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "dark: no console or page errors",
+   "pass": true,
+   "detail": []
+  },
+  {
+   "test": "negative fixture: the old white-box defect fails the check (contrast 1.0)",
+   "pass": true,
+   "detail": {
+    "ratio": 1,
+    "fg": "rgb(255, 255, 255)",
+    "fill": "rgb(255, 255, 255)",
+    "bg": "rgb(255, 255, 255)"
+   }
+  },
+  {
+   "test": "phone width: no sideways scroll",
+   "pass": true,
+   "detail": [
+    390,
+    390
+   ]
+  }
+ ],
+ "not_tested": [
+  "the artifact store (db) and the downloads capability, which only exist inside claude.ai; the page falls back to this browser's storage and an ordinary download, tested here",
+  "a real phone browser (tested at phone width in Chromium)"
+ ]
+}

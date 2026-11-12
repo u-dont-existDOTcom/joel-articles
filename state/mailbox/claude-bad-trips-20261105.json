@@ -1537,6 +1537,41 @@
     }
    ],
    "recorded_utc": "2026-11-11T23:59Z"
+  },
+  {
+   "turn": "2026-11-12T13:37Z",
+   "lines_of_work": [
+    "bad trips guide"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "UDA root at 841f579, unchanged; suggested-fixes/joel-articles has the same six items, all in docs/suggested-fixes-ledger.md"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "pull request 424 (ours) merged at 00:16 UTC; no new pull requests, issues, comments or reviews since"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no edits by others to this lane's handoff note, questions page or state since this account's push of 00:15 UTC"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "his round-35 export of 13:37:05 UTC: BODY-ONCE answered ('my paragraph should not say anything that should be going in that above list. so cut this section or move it up/merge it'); TEACH-ORAL revised with his version and his five checks"
+    }
+   ],
+   "items": [
+    {
+     "item": "round 35's answers",
+     "outcome": "in this turn: the body signs move to the Call medics list, his catch-all stays in his paragraph; his Oral Ingestion version in, read from his last check; his moves carried and tested"
+    }
+   ],
+   "recorded_utc": "2026-11-12T13:38Z"
   }
  ]
 }

@@ -19,7 +19,8 @@ I developed the [**Inner Signal app**](http://innersignalselfhypnosis.com/integr
 - Trouble breathing, blue or gray lips, or respiratory depression
 - A convulsive seizure lasting about five minutes, repeated seizures without normal recovery, or a first or substantially different seizure
 - Collapse, inability to wake normally, or rapidly worsening consciousness
-- Dangerous overheating, severe rigidity, or clonus with fever
+- Dangerous overheating (not just regular sweating), severe rigidity, or clonus with fever
+- Severe insomnia
 - Sudden one-sided weakness, loss of speech, inability to walk normally, or loss of control of bodily functions
 - A report that the brain feels damaged when the person cannot complete a basic neurological check or is rapidly worsening
 - Severe, worsening, radiating, or exertional chest pain--or chest pain with breathlessness, sweating, faintness, neurological changes, or collapse
@@ -33,7 +34,7 @@ The remedies below can begin while help is being arranged.
 
 You can sit through a lot with someone, but the moment you think they might hurt themselves or anybody else, get urgent help. It doesn't have to be a proven death wish. They might just start heading out the door and get lost, hit by a car, drown, fall off a cliff, etc. Another cue to get help is if they start acting delusional.
 
-If their body is flashing warning signs like severe overheating (not just regular sweating), severe insomnia, or trouble breathing, or if for whatever reason you feel like this is more than you can handle, reach out.
+If for whatever reason you feel like this is more than you can handle, reach out.
 
 Use local emergency services (911 in the United States) for immediate danger, a medical emergency, a weapon, or a crime in progress. In the United States, 988 can provide mental-health crisis guidance, de-escalation, and connection to local resources when no immediate physical emergency exists. Outside the United States, identify the local emergency number and crisis line before you ever need them.
 
@@ -135,7 +136,7 @@ Mild, familiar, non-progressive discomfort in a fully alert person is different 
 
 ## Recent Oral Toxic Ingestion
 
-"Overdose" is too vague to choose a remedy. Ask what was swallowed, how much, when, and what the body is actually doing: respiratory depression, stimulant toxicity, serotonin toxicity, seizure, dangerous overheating, cardiovascular symptoms, severe agitation, objective neurological dysfunction, vomiting, diarrhea, or something else.
+"Overdose" is too vague to choose a remedy. Figure out how much of what was swallowed and how long ago, then see what the body is doing: are they suffering from slow and shallow breathing (respiratory depression, from opioids, benzos and alcohol)? Or is it rapid breathing, heart rate, and agitation, signs of stimulant toxicity? Do you see symptoms of serotonin toxicity, like seizure, dangerous overheating, tremor? Do they have vomiting or diarrhea beyond what they can handle? Some of these symptoms are also normal, like vomiting and diarrhea, which are helpful in undoing an overdose, up to a point. Slow breathing is normal with iboga, but if cardiac irregularities come along with it, that's an extra danger sign.
 
 Activated charcoal may help after some recent oral ingestions when the substance binds to it and the person is fully alert enough to swallow safely. It does not bind every toxin, can adsorb necessary medication, and creates aspiration risk in somebody who is vomiting, sedated, seizing, or unable to protect the airway. [Clinical review](https://pmc.ncbi.nlm.nih.gov/articles/PMC6620762/).
 
