@@ -1,0 +1,101 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-12",
+ "text_sha256": "4b423acc2fe91aed8f5266efa535a858d33b75e279ba376bfb9bbc1d140f9a3c",
+ "text": "Recognizing serotonin toxicity\n\nAny one of the following patterns makes serotonin toxicity more likely. Are their muscles jerking in a rhythm by themselves, with nothing setting it off (that's called clonus)? Does the jerking start when you stretch a muscle, like flexing their foot up quickly, and are they also agitated or sweating? Do you see their eyes darting back and forth in a rhythm, again with agitation or sweating? Are they shaking, with reflexes that are way too brisk? Or are their muscles rigid, with a temperature above 38°C (100.4°F) and that eye or stretch-triggered clonus too?\n\nDon't wait to see every one of these before you act, though. Dangerous heat, rigidity, clonus, confusion, or rapid worsening deserves medical help.",
+ "section": "Suspected Serotonin Syndrome (SS): Recognizing serotonin toxicity",
+ "reader": "someone with a person who may have taken too much of a serotonergic substance (MDMA, an MAOI brew, antidepressants), checking whether it looks like serotonin toxicity and when to get medical help",
+ "sentences": [
+  {
+   "s": "Recognizing serotonin toxicity",
+   "payoff": "they know this part is how to tell whether it looks like serotonin toxicity",
+   "follows": "the sub-heading"
+  },
+  {
+   "s": "Any one of the following patterns makes serotonin toxicity more likely.",
+   "payoff": "they know any one of the patterns below is enough to suspect serotonin toxicity",
+   "follows": "it opens the part under its sub-heading",
+   "link": "none: the first sentence under its sub-heading"
+  },
+  {
+   "s": "Are their muscles jerking in a rhythm by themselves, with nothing setting it off (that's called clonus)?",
+   "payoff": "they check whether the muscles jerk in a rhythm on their own, and know that is clonus",
+   "follows": "the first of the patterns",
+   "link": "none: the first of the patterns the sentence before announces, asked as a question"
+  },
+  {
+   "s": "Does the jerking start when you stretch a muscle, like flexing their foot up quickly, and are they also agitated or sweating?",
+   "payoff": "they check whether the jerking starts when a muscle is stretched, with agitation or sweating",
+   "follows": "the same jerking, brought on",
+   "link": "Does the jerking"
+  },
+  {
+   "s": "Do you see their eyes darting back and forth in a rhythm, again with agitation or sweating?",
+   "payoff": "they check the eyes for a rhythm with agitation or sweating",
+   "follows": "the same rhythm in the eyes",
+   "link": "again with agitation or sweating"
+  },
+  {
+   "s": "Are they shaking, with reflexes that are way too brisk?",
+   "payoff": "they check for shaking with reflexes that are too brisk",
+   "follows": "the next pattern",
+   "link": "none: the next pattern in the list, a new question the reader expects"
+  },
+  {
+   "s": "Or are their muscles rigid, with a temperature above 38°C (100.4°F) and that eye or stretch-triggered clonus too?",
+   "payoff": "they check for rigid muscles with a temperature over 38°C (100.4°F) and eye or stretch-triggered clonus",
+   "follows": "the last pattern",
+   "link": "that eye or stretch-triggered clonus"
+  },
+  {
+   "s": "Don't wait to see every one of these before you act, though.",
+   "payoff": "they act without waiting to see every pattern",
+   "follows": "after the patterns, what to do with them",
+   "link": "though"
+  },
+  {
+   "s": "Dangerous heat, rigidity, clonus, confusion, or rapid worsening deserves medical help.",
+   "payoff": "they get medical help for dangerous heat, rigidity, clonus, confusion or rapid worsening",
+   "follows": "what to act on",
+   "link": "none: it names what to act on, which the sentence before said not to wait for"
+  }
+ ],
+ "checked": [],
+ "placement": "Suspected Serotonin Syndrome, under its sub-heading Recognizing serotonin toxicity, after the paragraph on what can cause it and before what to do immediately (B131 to B134)",
+ "opens": {
+  "first_sentence": "Recognizing serotonin toxicity",
+  "why_reading": "it tells someone worried about serotonin toxicity that any one of these patterns is enough to suspect it, before they work through the patterns"
+ },
+ "same_point": "none: read the section from its heading to the next (Do this immediately) for the patterns and when to act; the Call medics list names \"clonus with fever\" and \"severe rigidity\" as reasons to call, and this part says how to recognize them, so each stays where it does its job (lesson 12d)",
+ "needed": {
+  "reader": "a fresh Haiku agent given tools/humanization/needed_read_brief.md with the test, its heading and what it is for (NEEDED-READ.md, ss-r1-fix2)",
+  "unneeded": [
+   "Recognizing serotonin toxicity"
+  ],
+  "kept": {
+   "Recognizing serotonin toxicity": "they find this part by its sub-heading; it is the sub-heading itself, typed with the test"
+  }
+ },
+ "questions": {
+  "Q1": "PASS: the part opens on \"any one of these patterns makes serotonin toxicity more likely\"; each question names the sign before its term",
+  "Q2": "PASS: each question is something the reader checks on the person; the last two lines say what to do",
+  "Q3": "PASS: each pattern says which muscles, eyes or reflexes, and the temperature in both units",
+  "Q4": "PASS: clonus said in plain words and named once, where first used (\"that's called clonus\"); the other signs said only in plain words, since the reader acts on the signs",
+  "Q5": "PASS: \"Does the jerking\", \"again\", \"that eye or stretch-triggered clonus\", \"though\" say each relation",
+  "Q6": "PASS: the patterns, then not waiting for all of them, then what to act on",
+  "Q7": "PASS: each pattern bears on whether it looks like serotonin toxicity",
+  "Q8": "PASS: all about recognizing serotonin toxicity and when to get help",
+  "Q9": "PASS: one pattern a question"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

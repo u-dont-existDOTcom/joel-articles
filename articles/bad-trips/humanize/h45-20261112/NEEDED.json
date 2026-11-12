@@ -1,0 +1,39 @@
+{
+ "ss-r1": {
+  "reader": "a fresh Haiku agent given tools/humanization/needed_read_brief.md with the test, its heading and what it is for (NEEDED-READ.md, ss-r1)",
+  "unneeded": [
+   "Recognizing serotonin toxicity",
+   "(they're the Hunter criteria clinicians use)"
+  ],
+  "kept": {
+   "Recognizing serotonin toxicity": "they find this part by its sub-heading; it is the sub-heading itself, typed with the test"
+  }
+ },
+ "acute-r1": {
+  "reader": "a fresh Haiku agent given tools/humanization/needed_read_brief.md with the test, its heading and what it is for (NEEDED-READ.md, acute-r1)",
+  "unneeded": [
+   "Acute Medical and Neurological Rescue"
+  ],
+  "kept": {
+   "Acute Medical and Neurological Rescue": "they find this part by its heading; it is the section heading itself, typed with the test"
+  }
+ },
+ "ss-r1-fix2": {
+  "reader": "a fresh Haiku agent given tools/humanization/needed_read_brief.md with the test, its heading and what it is for (NEEDED-READ.md, ss-r1-fix2)",
+  "unneeded": [
+   "Recognizing serotonin toxicity"
+  ],
+  "kept": {
+   "Recognizing serotonin toxicity": "they find this part by its sub-heading; it is the sub-heading itself, typed with the test"
+  }
+ },
+ "acute-r1-fix2": {
+  "reader": "a fresh Haiku agent given tools/humanization/needed_read_brief.md with the test, its heading and what it is for (NEEDED-READ.md, acute-r1-fix2)",
+  "unneeded": [
+   "Acute Medical and Neurological Rescue"
+  ],
+  "kept": {
+   "Acute Medical and Neurological Rescue": "they find this part by its heading; it is the section heading itself, typed with the test"
+  }
+ }
+}

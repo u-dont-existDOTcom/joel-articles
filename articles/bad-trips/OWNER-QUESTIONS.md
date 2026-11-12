@@ -1,12 +1,12 @@
 # Bad Trips guide: questions for Joel
 
-Updated 2026-11-12 (turn 35, round 34 answered at 2026-11-11 23:57 UTC, round 35 out); earlier turn 34 (the first Pangram batch run after his sign-in of 21:04 UTC, the first fixes in, round 34 out); earlier turn 33 (round 33 answered at 19:54 UTC); earlier turn 32 (round 32 answered at 20:08 UTC, round 33 out); earlier turn 31 (rounds 30 and 31 answered at 18:43 and 18:59 UTC); earlier turn 30 (rounds 28 and 29 answered at 17:22 UTC, round 30 out); earlier turn 29 (round 27 answered at 01:24 UTC, rounds 28 and 29 out); earlier 2026-11-08 (turn 26, his round-24 answers of 15:01 UTC in; round 26 out with the session's resume of 15:52 UTC and answered at 16:48 UTC; round 25 answered at 16:55 UTC; round 27 out at 17:52 UTC). Status: **open** = waiting on you, **next** = I do it once you
+Updated 2026-11-12 (turn 36, round 35 answered at 13:37 UTC, round 36 out); earlier turn 35 (round 34 answered at 2026-11-11 23:57 UTC, round 35 out); earlier turn 34 (the first Pangram batch run after his sign-in of 21:04 UTC, the first fixes in, round 34 out); earlier turn 33 (round 33 answered at 19:54 UTC); earlier turn 32 (round 32 answered at 20:08 UTC, round 33 out); earlier turn 31 (rounds 30 and 31 answered at 18:43 and 18:59 UTC); earlier turn 30 (rounds 28 and 29 answered at 17:22 UTC, round 30 out); earlier turn 29 (round 27 answered at 01:24 UTC, rounds 28 and 29 out); earlier 2026-11-08 (turn 26, his round-24 answers of 15:01 UTC in; round 26 out with the session's resume of 15:52 UTC and answered at 16:48 UTC; round 25 answered at 16:55 UTC; round 27 out at 17:52 UTC). Status: **open** = waiting on you, **next** = I do it once you
 answer, **done** = answered.
 Answer under an item's number in a message.
 
 ## Open
 
-- **Round 35 (2026-11-12):** [Bad Trips Guide, Round 35](https://claude.ai/artifact/Agjwg8o2KxNgFkhdCSnR8x), two cards: the body's warning signs your Risk of Harm paragraph and the Call medics list both name (which to keep), and the next teaching card, Recent Oral Toxic Ingestion, where your round-34 moves in my words still read AI.
+- **Round 36 (2026-11-12):** [Bad Trips Guide, Round 36](https://claude.ai/artifact/NTmoxsDRTX9Fq27bXYR61U), two cards: how you want to do the rest of the medical part (one teaching card a round as now, or a line or two of yours for each section, built around and tested), and the next teaching card, Suspected Serotonin Syndrome's recognition part, where your round-35 moves in my words read AI in both tries.
 - **Systema video (optional):** your new breathing line says "It helps to watch a video on how to do it prior though". If you have one you like, send it and it goes on that line as a link.
 - **Evidence labels (optional):** you asked whether to label the evidence instead of cutting How I label the evidence. The guide already says, where each claim is, what kind of evidence it rests on ("just anecdotes", "preclinical but relevant", "a recent systematic review found the evidence for major outcomes inconclusive"), so I applied your approval. If you want a short tag on each remedy heading too, say so and it goes on a card with how each would read.
 
@@ -24,6 +24,8 @@ Answer under an item's number in a message.
   - The Medium windows in sections that also have AI windows come after my fixes there, since those fixes can move them.
 
 ## Decisions on record
+
+His round-35 answers of 2026-11-12 13:37 UTC, on [round 35's cards](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261105/articles/bad-trips/review/r35/REVIEW-R35.md): BODY-ONCE "my paragraph should not say anything that should be going in that above list. so cut this section or move it up/merge it": its warning signs moved into the Call medics list; TEACH-ORAL revised, your version in whole from [your last check](https://www.pangram.com/history/7e898f05-9c97-4f23-9513-cfca78be8905) (Human, High), with your five tries' notes. All in ([review/r35/apply_r35.py](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261105/articles/bad-trips/review/r35/apply_r35.py)); lessons bad-trips-2026-11-12d to f.
 
 His round-34 answers of 2026-11-11 23:57 UTC, on [round 34's cards](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261105/articles/bad-trips/review/r34/REVIEW-R34.md): TEACH-HARM revised, his version in [his check](https://www.pangram.com/history/aa15e193-4ea0-43f9-b851-a8aee94d62cc) ("human high"), with "make sure this is only said once"; ADJUNCT "b". All in ([review/r34/apply_r34.py](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261105/articles/bad-trips/review/r34/apply_r34.py)); the repeats of its reasons cut; lessons bad-trips-2026-11-12a to c.
 

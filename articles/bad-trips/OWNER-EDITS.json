@@ -1150,11 +1150,11 @@
   {
    "id": "r34-teach-harm",
    "status": "applied",
-   "what": "Risk of Harm's first paragraph is his version from his check aa15e193, whole, his line break kept as a paragraph break (round 34, card TEACH-HARM; review/r34/apply_r34.py)",
+   "what": "Risk of Harm's first paragraph is his version from his check aa15e193, whole, his line break kept as a paragraph break (round 34, card TEACH-HARM; review/r34/apply_r34.py) | its body signs moved up into the Call medics list by his round-35 answer to BODY-ONCE (owner edit r35-body-once)",
    "joel": "2026-11-11 23:57:59 UTC: round 34's export, TEACH-HARM revised, \"human high https://www.pangram.com/history/aa15e193-4ea0-43f9-b851-a8aee94d62cc ... make sure this is only said once\"",
    "must_contain_exact": [
     "You can sit through a lot with someone, but the moment you think they might hurt themselves or anybody else, get urgent help. It doesn't have to be a proven death wish.",
-    "If their body is flashing warning signs like severe overheating (not just regular sweating), severe insomnia, or trouble breathing, or if for whatever reason you feel like this is more than you can handle, reach out."
+    "If for whatever reason you feel like this is more than you can handle, reach out."
    ],
    "must_not_contain": [
     "Get urgent help when somebody may harm themselves or another person"
@@ -1182,6 +1182,33 @@
    ],
    "must_not_contain": [
     "plausible experimental adjunct remedy rather than something to wait on"
+   ]
+  },
+  {
+   "id": "r35-body-once",
+   "status": "applied",
+   "what": "His Risk of Harm paragraph keeps only his catch-all; its body signs merged into the Call medics list: \"(not just regular sweating)\" on the overheating line, \"Severe insomnia\" a line of its own (round 35, card BODY-ONCE; review/r35/apply_r35.py)",
+   "joel": "2026-11-12 13:37:05 UTC: round 35's export, BODY-ONCE: \"my paragraph should not say anything that should be going in that above list. so cut this section or move it up/merge it\"",
+   "must_contain_exact": [
+    "- Dangerous overheating (not just regular sweating), severe rigidity, or clonus with fever",
+    "- Severe insomnia",
+    "If for whatever reason you feel like this is more than you can handle, reach out."
+   ],
+   "must_not_contain": [
+    "If their body is flashing warning signs"
+   ]
+  },
+  {
+   "id": "r35-teach-oral",
+   "status": "applied",
+   "what": "Recent Oral Toxic Ingestion's first paragraph is his version, the text of his last check 7e898f05, one typo fixed (\"from from\") (round 35, card TEACH-ORAL; review/r35/apply_r35.py)",
+   "joel": "2026-11-12 13:37:05 UTC: round 35's export, TEACH-ORAL revised, with his five tries and \"so i went back to the original one and fixed that one, now it's high conf human\"",
+   "must_contain_exact": [
+    "\"Overdose\" is too vague to choose a remedy. Figure out how much of what was swallowed and how long ago, then see what the body is doing:",
+    "Slow breathing is normal with iboga, but if cardiac irregularities come along with it, that's an extra danger sign."
+   ],
+   "must_not_contain": [
+    "Ask what was swallowed, how much, when, and what the body is actually doing"
    ]
   }
  ]

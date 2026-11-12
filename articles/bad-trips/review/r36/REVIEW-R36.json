@@ -1,0 +1,145 @@
+{
+ "format": "joel-suggestion-review-v1",
+ "review_id": "bad-trips-r36",
+ "title": "Bad Trips Guide, Round 36",
+ "intro": [
+  "Round 36 (2026-11-12). Round 35 is in: your Recent Oral Toxic Ingestion version, whole, from your check ([Human, High](https://www.pangram.com/history/7e898f05-9c97-4f23-9513-cfca78be8905)), with the doubled \"from\" fixed. \"My paragraph should not say anything that should be going in that above list\": its warning signs moved into the Call medics list (\"Dangerous overheating (not just regular sweating)\" and a new line, \"Severe insomnia\"; trouble breathing was there already), and your paragraph now goes straight to \"If for whatever reason you feel like this is more than you can handle, reach out.\" What your five tries teach is in the shared rules for every lane, with the sixth fix: the list as the questions you ask of the body, \"requires different treatment from ... as would\" for \"is different from ... both are different from\", \"Slow and shallow\" for \"Slow, shallow\", and every state kept.",
+  "Your moves, carried in my words to Acute Medical and Neurological Rescue and to Serotonin Syndrome's recognition part, read AI in both tries of each ([every try](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261105/articles/bad-trips/humanize/h45-20261112/RESULTS.md)). With round 34's four, that's eight tries in the medical part, all AI, while both versions you wrote there read Human, High. So card 1 asks how you want to do the rest of the medical part, and card 2 is the next teaching card."
+ ],
+ "git_file": "articles/bad-trips/review/r36/REVIEW-R36.html",
+ "article": {
+  "file": "articles/bad-trips/review/r36/PAGE-R36.md",
+  "sha256": "abd862e0befc6bc833f3a91bbe6b7c16e95ada464946696eca82d0ed3b8e4497"
+ },
+ "built": "2026-11-12",
+ "links": {
+  "guide": "https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261105/articles/bad-trips/GUIDE-SO-FAR.md",
+  "guide_label": "the guide as it stands",
+  "check": "https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261105/articles/bad-trips/review/r36/REVIEW-R36.md",
+  "review": "https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261105/articles/bad-trips/review/r36/REVIEW-R36.md"
+ },
+ "types": {
+  "plain": {
+   "label": "Said plainly",
+   "about": "AI lines said plainly, each with its reason, the way he fixes his own windows"
+  },
+  "structure": {
+   "label": "Structure",
+   "about": "how the quick version and the long version split the guide, and where a part goes"
+  },
+  "repeat": {
+   "label": "Said twice",
+   "about": "a point the guide already makes elsewhere: one copy goes, the other stays"
+  },
+  "safety": {
+   "label": "Safety in one place",
+   "about": "a caution or call-for-help line said in several places, or one that changes nothing a reader does"
+  },
+  "question": {
+   "label": "Your call",
+   "about": "something only you can decide or know"
+  },
+  "sense": {
+   "label": "Says what it means",
+   "about": "a term explained where it is first used, or a word that says what to do"
+  },
+  "belief": {
+   "label": "Your belief back",
+   "about": "a sentence of your post that said why, cut in an earlier round, put back where it bears on what the reader does"
+  },
+  "method": {
+   "label": "Your method where it is used",
+   "about": "a line the guide already has, put where the reader uses it in trouble (your METHOD-WHERE answer, round 28)"
+  },
+  "notes": {
+   "label": "Your notes, placed",
+   "about": "what you sent in a comment, put where it belongs in the guide, as you sent it"
+  },
+  "typo": {
+   "label": "Typo",
+   "about": "a word in your own paragraph spelled differently from how you spell it elsewhere, with the fix in place"
+  },
+  "boilerplate": {
+   "label": "Boilerplate",
+   "about": "standard advice a model added that carries none of your method and no safety point a reader needs, shown as the section would read without it (your round-32 note)"
+  },
+  "teach": {
+   "label": "Teach me",
+   "about": "a paragraph that reads AI in every wording I tried, whose shape many stuck paragraphs share: how you would say it teaches me how to say them (you asked for these on 2026-11-07)"
+  }
+ },
+ "suggestions": [
+  {
+   "id": "MEDICAL-HOW",
+   "type": "question",
+   "advice": "ask",
+   "title": "1. The rest of the medical part: a whole version a round, or a line or two for each section?",
+   "question": "Nine sections of the medical part read AI in the first batch and haven't been fixed: Call medics for, Who to Contact, Acute Medical and Neurological Rescue (these two paragraphs), My Brain Feels Damaged, Active Seizure's first part, MDMA's jaw tension, Chest Pain, Recent Oral Toxic Ingestion's charcoal and poison control paragraphs, and Serotonin Syndrome. How each option would go:\n\nA: as now: one teaching card a round, and I carry what you do to the others and test them. Pro: you write one section a round. Con: my carries of your two medical versions read AI in all eight tries, so so far only the section you write turns Human.\n\nB (my pick): next round, a short box for each of those sections, for a line or two of your own there: what you've seen, what you'd do, or what you think of the standard advice. I build each section around what you write and test it. Pro: the whole part in a round or two, and it's how my fixes went Human in the remedies, where something you wrote was near (Nausea Smoothers, DMSO, the ocean water). Con: untried on clinical text; a section that still reads AI comes back to you as a teaching card.",
+   "why": "Since round 34, every Human read in the medical part is a version you wrote, and none of my eight carries passed ([this round's four](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261105/articles/bad-trips/humanize/h45-20261112/RESULTS.md)). That changes how much a teaching round can do, so how to spend your time on the rest is your call.",
+   "stays": "A, as now.",
+   "advice_note": "B, not sure: it's where my fixes have read Human so far, but I haven't tried it on clinical text.",
+   "spans": [
+    {
+     "block": 41,
+     "start": 0,
+     "end": 225
+    },
+    {
+     "block": 42,
+     "start": 0,
+     "end": 228
+    }
+   ]
+  },
+  {
+   "id": "TEACH-SS",
+   "type": "teach",
+   "advice": "edit",
+   "whose": "he asked: Joel, 2026-11-08 17:22 UTC: \"give me your best tries and what would teach you the best and i'll do that\"",
+   "keep_label": "skip this one",
+   "title": "2. Suspected Serotonin Syndrome: how to recognize it",
+   "reading": "The whole section in the first batch: [AI Generated, 100%](https://www.pangram.com/history/4a5da2d5-a8b4-44f4-87d1-b86df0781db3).",
+   "tested": "Your round-35 moves carried in my words, each checked by itself with its heading:\n\n1. The patterns as the questions you'd ask of the body, the clinical term in brackets after each (\"Are their muscles contracting and relaxing in a rhythm on their own, with nothing setting it off (spontaneous clonus)? ...\"): [AI Generated, 100%](https://www.pangram.com/history/02fb701a-4fdd-44dc-b43b-c8cfba529429).\n\n2. One term for the whole list and the rest in plain words, the questions looser (\"Are their muscles jerking in a rhythm by themselves, with nothing setting it off (that's called clonus)? ... Are they shaking, with reflexes that are way too brisk? ...\"): [AI Generated, 100%](https://www.pangram.com/history/38a740c3-c190-4716-b0f3-5db42b93a213).\n\nAcute Medical and Neurological Rescue's first two paragraphs, said the same way, read the same both times: [first](https://www.pangram.com/history/eedc2eec-ceb0-493b-a41b-366d703ab11c), [second](https://www.pangram.com/history/49d3772f-dead-4b30-a92e-72051c07b5dd).",
+   "sense": "A fresh reader of my tries needed every pattern, the 38°C, \"don't wait for all of them\" and the call-for-help line, and found the name \"the Hunter criteria\" a source label the reader doesn't act on, so my tries leave it out. The guide's version names the five patterns by their clinical terms (\"Spontaneous clonus\", \"Inducible clonus plus agitation or sweating\", \"Tremor plus hyperreflexia\", ...), most of which a reader would have to look up in the moment.",
+   "why": "Its shape, the signs that point to one condition, is the medical part's third common shape after the two you taught (when to get help; what to find out, then decide): Chest Pain's warning signs, the checks in My Brain Feels Damaged and the Call medics list share it. It's also the largest part of the guide that reads AI (the whole section, 512 words).",
+   "advice_note": "Edit it: say how you'd tell someone to recognize serotonin toxicity, in your words. Keep the five patterns, each with its companion sign, and the 38°C (100.4°F); the last line's \"dangerous\", \"deserves\" and \"rigidity\" are kept as warnings, so keep those words or say they can change. Whatever you pick on card 1, your version goes in whole, and I test what it teaches on the sections above.",
+   "spans": [
+    {
+     "block": 84,
+     "start": 0,
+     "end": 117
+    },
+    {
+     "block": 85,
+     "start": 0,
+     "end": 107
+    },
+    {
+     "block": 86,
+     "start": 0,
+     "end": 44
+    },
+    {
+     "block": 87,
+     "start": 0,
+     "end": 83
+    },
+    {
+     "block": 88,
+     "start": 0,
+     "end": 75
+    },
+    {
+     "block": 89,
+     "start": 0,
+     "end": 112
+    },
+    {
+     "block": 90,
+     "start": 0,
+     "end": 177
+    }
+   ]
+  }
+ ]
+}
