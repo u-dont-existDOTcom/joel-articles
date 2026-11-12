@@ -1,0 +1,72 @@
+{
+ "TEACH-HARM": {
+  "before": "Get urgent help when somebody may harm themselves or another person, cannot be kept physically safe, is moving toward roads, water, or heights, has command voices or fixed terrifying beliefs driving action, becomes violent, is severely confused and unreachable, has dangerous physical symptoms, has lost enough sleep that judgment is collapsing, or exceeds what the sitter can safely contain.",
+  "tries": [
+   {
+    "id": "aa15e193",
+    "reading": "Human Written; Human High 110",
+    "note": "his version (read from his history; the box came back unchanged)",
+    "text": "Risk of Harm: When Peer Support Isn't Enough\n\nYou can sit through a lot with someone, but the moment you think they might hurt themselves or anybody else, get urgent help. It doesn't have to be a proven death wish. They might just start heading out the door and get lost, hit by a car, drown, fall off a cliff, etc. Another cue to get help is if they start acting delusional. \nIf their body is flashing warning signs like severe overheating (not just regular sweating), severe insomnia, or trouble breathing, or if for whatever reason you feel like this is more than you can handle, reach out."
+   }
+  ]
+ },
+ "TEACH-ORAL": {
+  "before": "\"Overdose\" is too vague to choose a remedy. Ask what was swallowed, how much, when, and what the body is actually doing: respiratory depression, stimulant toxicity, serotonin toxicity, seizure, dangerous overheating, cardiovascular symptoms, severe agitation, objective neurological dysfunction, vomiting, diarrhea, or something else.",
+  "mine_he_started_from": "Before you pick a remedy for an \"overdose\", find out what they actually swallowed, how much and when, because that word alone doesn't tell you much. Then look at what their body is doing. Slow, shallow breathing (respiratory depression) is a different problem from a racing stimulant high, and both are different from serotonin toxicity, a seizure, dangerous overheating, etc., so each gets its own remedy.",
+  "tries": [
+   {
+    "id": "9624711d",
+    "reading": "AI Generated, 100%; AI High 55",
+    "note": "try 1, fixed some redundancy but still ai",
+    "text": "Before you pick a remedy for an \"overdose\", find out what they  swallowed, how much and when. Then look at what their body is doing to help determine the remedy. Slow, shallow breathing (respiratory depression) is a different problem from a racing stimulant high, and both are different from serotonin toxicity, a seizure, dangerous overheating."
+   },
+   {
+    "id": "4dfa4929",
+    "reading": "AI Detected, 65%; Human Low 18, Human Low 13, AI Low 30",
+    "note": "try 2, mixed. explained symptoms and overlap better",
+    "text": "Before you pick a remedy for an \"overdose\", find out how much of what they swallowed, and when. Then look at what their body is doing to help determine the remedy. Slow, shallow breathing (respiratory depression) is a different problem from a racing stimulant high, and both are different from serotonin toxicity, which could include symptoms like seizure, or dangerous overheating."
+   },
+   {
+    "id": "9adb5e7a",
+    "reading": "Human Written; Human High 18, Medium 13, Low 26",
+    "note": "try 3 i fixed the vague repetitive \"different from is different from\" phrasing",
+    "text": "Before you pick a remedy for an \"overdose\", find out how much of what they swallowed, and when. Then look at what their body is doing to help determine the remedy. Slow, shallow breathing (respiratory depression) requires different treatment from a racing stimulant high, as would serotonin toxicity, which could include symptoms like seizure, or dangerous overheating."
+   },
+   {
+    "id": "98298677",
+    "reading": "Human Written; Human High 58",
+    "note": "try 4, high conf human, changed comma to and",
+    "text": "Before you pick a remedy for an \"overdose\", find out how much of what they swallowed, and when. Then look at what their body is doing to help determine the remedy. Slow and shallow breathing (respiratory depression) requires different treatment from a racing stimulant high, as would serotonin toxicity, which could include symptoms like seizure, or dangerous overheating."
+   },
+   {
+    "id": "7e898f05",
+    "reading": "Human Written; Human High 121",
+    "note": "now putting back the symptoms that don't overlap which you cut: so i went back to the original one and fixed that one",
+    "text": "\"Overdose\" is too vague to choose a remedy. Figure out how much of what was swallowed and how long ago, then see what the body is doing: are they suffering from slow and shallow breathing (respiratory depression, from from opioids, benzos and alcohol)? Or is it rapid breathing, heart rate, and agitation, signs of stimulant toxicity? Do you see symptoms of serotonin toxicity, like seizure, dangerous overheating, tremor? Do they have vomiting or diarrhea beyond what they can handle? Some of these symptoms are also normal, like vomiting and diarrhea, which are helpful in undoing an overdose, up to a point. Slow breathing is normal with iboga, but if cardiac irregularities come along with it, that's an extra danger sign."
+   }
+  ]
+ },
+ "TEACH-SS": {
+  "before": "Clinicians often use the Hunter criteria. One or more of the following patterns makes serotonin toxicity more likely:\n\nSpontaneous clonus: involuntary rhythmic muscle contractions and relaxations occurring without stimulation.\n\nInducible clonus plus agitation or sweating.\n\nOcular clonus plus agitation or sweating: rapid rhythmic involuntary eye movements.\n\nTremor plus hyperreflexia: shaking together with abnormally brisk reflexes.\n\nHypertonia plus fever: rigidity with temperature above 38°C (100.4°F), together with ocular or inducible clonus.\n\nThis is a recognition aid rather than a command to wait for every criterion before acting. Dangerous heat, rigidity, clonus, confusion, or rapid worsening deserves medical help.",
+  "tries": [
+   {
+    "id": "52abd79e",
+    "reading": "AI Generated, 100%; AI High 55, AI Medium 11, AI High 54",
+    "note": "my first attempt clarified and reduced redundancy, still ai",
+    "text": "Recognizing serotonin toxicity\n\nClinicians often use the Hunter criteria to diagnose serotonin syndrome. One or more of the following patterns makes the diagnosis more likely:\nSpontaneous clonus: involuntary rhythmic muscle spasms, with no stimulation needed to set it off. \nInducible clonus is spasms set off by stretching a muscle, like flexing their foot up quickly. That plus agitation or sweating would be counted as one pattern.\nOcular clonus (rapid involuntary eye movements) plus agitation or sweating, another pattern. \nAnother is Tremor plus hyperreflexia: shaking together with abnormally brisk reflexes. \nLastly, Hypertonia plus fever: meaning muscular rigidity with temperature above 38°C (100.4°F), together with ocular or inducible clonus.\n\nSo if you see any of these, get medical help."
+   },
+   {
+    "id": "54dd2f4b",
+    "reading": "Mostly Human Written, 1.2%; Human Low 13, High 65, Medium 10, High 19, Medium 11",
+    "note": "made it read better by explaining closer to the term and clarifying what counts as a pattern, as well as varying the phrasing used a bit, now it's nearly all full conf human",
+    "text": "Recognizing serotonin toxicity\n\nClinicians often use the Hunter criteria to diagnose serotonin syndrome. One or more of the these patterns makes the diagnosis more likely:\nSpontaneous clonus: involuntary rhythmic muscle spasms, with no stimulation needed to set it off, would be one full pattern\nInducible clonus, spasms set off by stretching/flexing a muscle, plus agitation or sweating would be counted as one pattern altogether.\nOcular clonus (rapid involuntary eye movements) plus agitation or sweating, another pattern together. \nAnother is tremor (shaking) along with hyperreflexia (abnormally brisk reflexes). \nLastly, Hypertonia (muscular rigidity) with fever above 38°C (100.4°F), as well as ocular or inducible clonus.\n\nSo if you see any of these patterns, get medical help."
+   },
+   {
+    "id": "9e32c090",
+    "reading": "Human Written; Human High 121",
+    "note": "now it's all high conf human",
+    "text": "Recognizing serotonin toxicity\n\nWe can use the same Hunter criteria that clinicians use to diagnose serotonin syndrome. One or more of the these patterns makes the diagnosis more likely:\nSpontaneous clonus: involuntary rhythmic muscle spasms, with no stimulation needed to set it off, would be one full pattern\nInducible clonus, spasms set off by stretching/flexing a muscle, plus agitation or sweating would be counted as one pattern altogether.\nOcular clonus (rapid involuntary eye movements) plus agitation or sweating, another pattern together. \nAnother is tremor (shaking) along with hyperreflexia (abnormally brisk reflexes). \nLastly, Hypertonia (muscular rigidity) with fever above 38°C (100.4°F), as well as ocular or inducible clonus.\n\nSo if you see any of these patterns, call medics."
+   }
+  ]
+ }
+}

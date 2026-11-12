@@ -28,6 +28,7 @@ def filled(text=TEXT, his='', whose='his own: a test line he wrote into the guid
     r['opens']['why_reading'] = 'they learn up front that the gel is not something to count on for them'
     r['same_point'] = 'none: read the Active Seizure section from its heading to the next for topical CBD'
     r['needed'] = {'reader': 'a fresh reader given needed_read_brief.md', 'unneeded': [], 'kept': {}}
+    r['his_fixes'] = {'reader': 'a fresh reader given his_fixes_brief.md', 'marked': [], 'kept': {}}
     r['questions'] = {q: 'PASS: checked against this text' for q in R.QUESTIONS}
     return r
 
@@ -175,6 +176,39 @@ class Needed(unittest.TestCase):
         self.assertTrue(self.probs(self.receipt(checked=[dict(c, still_needed='yes: the guess has a mechanism')])))
         self.assertFalse(self.probs(self.receipt(checked=[dict(c, still_needed='yes: they take D-serine knowing what '
                                                                             'it opens')])))
+
+
+
+class HisFixes(unittest.TestCase):
+    """Gate bad-trips-2026-11-12g: a fresh reader's read against his fixes, and a sentence it marks is changed or kept with
+    the reason it stays."""
+    S = 'Dr. Smith thought the dose was too low.'
+
+    def probs(self, r):
+        return [x for x in R.check(TEXT, r) if x.startswith('his_fixes')]
+
+    def test_a_filled_read_passes(self):
+        self.assertEqual(self.probs(filled()), [])
+
+    def test_no_read_fails(self):
+        r = filled()
+        r['his_fixes']['reader'] = ''
+        self.assertTrue(self.probs(r))
+
+    def test_a_marked_sentence_left_in_fails_until_changed_or_kept_with_a_reason(self):
+        r = filled()
+        r['his_fixes']['marked'] = [{'s': self.S, 'difference': '7'}]
+        self.assertTrue(self.probs(r))
+        r['his_fixes']['kept'] = {self.S: 'it stays: the reader needs who doubted the dose'}
+        self.assertFalse(self.probs(r))
+        r['his_fixes']['kept'] = {}
+        self.assertFalse(self.probs(dict(r, his_fixes={'reader': 'a fresh reader', 'marked': [{'s': 'Gone from the text.'}]})))
+
+    def test_a_receipt_made_before_the_rule_is_read_as_it_was(self):
+        r = filled()
+        del r['his_fixes']
+        r['made'] = '2026-11-11'
+        self.assertFalse(self.probs(r))
 
 
 if __name__ == '__main__':

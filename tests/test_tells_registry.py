@@ -84,10 +84,12 @@ class RegistryShape(unittest.TestCase):
         # guide answers of 2026-11-03 18:59 UTC; W122 (O68, a study opened bare) from his bad trips guide answers of 2026-11-04
         # 22:14 UTC (E360); W123 (O46 again, "one" before any word and a noun: "one intense night") from his bad trips guide
         # answers of 2026-11-07 15:38 UTC; J69 (a compressed list of category words) from his bad trips guide's round-23
-        # answer of 2026-11-07 22:38 UTC
-        self.assertEqual(len(ids), 192)
+        # answer of 2026-11-07 22:38 UTC; W124 (O69, correction or contrast frames, two in a paragraph failing), W125 (O70,
+        # "different from" twice) and J70 (a sentence that reads the way his fixes change, the read against his fixes) from his
+        # bad trips guide's round-36 answer of 2026-11-12 14:45 UTC (bad-trips-2026-11-12g)
+        self.assertEqual(len(ids), 195)
         self.assertEqual(len(set(ids)), len(ids))
-        self.assertEqual(sum(t['kind'] == 'mechanical' for t in TELLS), 123)
+        self.assertEqual(sum(t['kind'] == 'mechanical' for t in TELLS), 125)
         for t in TELLS:
             with self.subTest(id=t['id']):
                 self.assertIn(t['kind'], ('mechanical', 'judgment'))

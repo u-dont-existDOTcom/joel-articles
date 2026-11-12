@@ -1572,6 +1572,41 @@
     }
    ],
    "recorded_utc": "2026-11-12T13:38Z"
+  },
+  {
+   "turn": "2026-11-12T14:45Z",
+   "lines_of_work": [
+    "bad trips guide"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "UDA root at 841f579, unchanged; suggested-fixes/joel-articles has the same six items, all in docs/suggested-fixes-ledger.md"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "pull request 425 (ours) merged at 14:08 UTC; no new pull requests, issues, comments or reviews since"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no edits by others to this lane's handoff note, questions page or state since this account's push of 14:08 UTC"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "his round-36 export of 14:45:53 UTC: MEDICAL-HOW 'a', with 'have you systematically looked at all of the fixes i've shown you and what are the idfferences in how you write vs how i fix?'; TEACH-SS revised with his version and three checks (52abd79e, 54dd2f4b, 9e32c090)"
+    }
+   ],
+   "items": [
+    {
+     "item": "his round-36 answers",
+     "outcome": "his SS version in whole; the systematic read of every fix of his against what it replaced; what it shows applied to the medical part and tested"
+    }
+   ],
+   "recorded_utc": "2026-11-12T14:47Z"
   }
  ]
 }

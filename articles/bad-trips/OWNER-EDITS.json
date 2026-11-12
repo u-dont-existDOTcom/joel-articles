@@ -1210,6 +1210,21 @@
    "must_not_contain": [
     "Ask what was swallowed, how much, when, and what the body is actually doing"
    ]
+  },
+  {
+   "id": "r36-teach-ss",
+   "status": "applied",
+   "what": "Suspected Serotonin Syndrome's recognition part is his version, the text of his last check 9e32c090, with \"the these\" made \"these\" (round 36, card TEACH-SS; review/r36/apply_r36.py)",
+   "joel": "2026-11-12 14:45:53 UTC: round 36's export, TEACH-SS revised, with his three tries and \"now it's all high conf human\"",
+   "must_contain_exact": [
+    "We can use the same Hunter criteria that clinicians use to diagnose serotonin syndrome.",
+    "would be counted as one pattern altogether.",
+    "So if you see any of these patterns, call medics."
+   ],
+   "must_not_contain": [
+    "This is a recognition aid rather than a command to wait for every criterion before acting.",
+    "Clinicians often use the Hunter criteria. One or more of the following patterns"
+   ]
   }
  ]
 }

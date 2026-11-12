@@ -1015,6 +1015,7 @@ def main():
         imps = 0
         passives = 0   # O48: passive verbs in my sentences
         plists = []   # (mine, excerpt) for each list of three outside a quote (E125)
+        para69 = []   # O69: my sentences in this paragraph with a correction or contrast frame
         checked = any(m and RESEARCH_NOTE.search(without_quotes(x)) for x, m in zip(nss, mine_s))   # O23: the paragraph narrates a check
         for i, s in enumerate(ss):
             n = nss[i]
@@ -1035,6 +1036,29 @@ def main():
             tri = triads(s)
             plists += [(mine, x) for k, x, q in tri if not q]
             if not mine: continue
+            # O69 (Joel, 2026-11-12 14:45 UTC, round 36 of the bad trips guide, after reading my carries of his fixes: "you still use a
+            # lot of ai patterns like "this is different. that's different, this other thing is also different" and "x but not y" and
+            # so forth, like you're not even trying"). A correction or contrast frame in my sentence, outside brackets: "X is a Y
+            # rather than a Z", "does not mean/prove", "isn't X, it's Y", "not X but Y", "X but not Y". Measured on his 112 fixes
+            # that day (articles/bad-trips/humanize/h46-20261112/his-fixes/HOW-HE-FIXES.md): he writes these too, 0.97 per 1,000
+            # words against 1.37 in the texts he fixed, when one answers a reader's real worry ("Just because it's unplanned
+            # doesn't mean it will be more shocking"), and a contrast he keeps often sits in brackets as a pictured aside
+            # ("severe overheating (not just regular sweating)"), so bracketed text is left alone. One is a candidate for the
+            # read against his fixes; two in one paragraph of mine fail (para69 below; none of his 112 versions has two).
+            nb = re.sub(r'\([^()]*\)', '', n)
+            m69 = (re.search(r"\b(?:is|are|was|were|as|be|been)\b[^.?!;]{0,80}?\brather than\b", nb, re.I)
+                   or re.search(r"\b(?:does not|doesn't|do not|don't|did not|didn't)\s+(?:mean|prove|imply)\b", nb, re.I)
+                   or re.search(r"\b(?:isn't|is not|aren't|are not|wasn't|was not)\b[^.?!;]{1,60}?[,;:]\s*(?:it's|it is|they're|"
+                                r"they are|that's|that is)\b", nb, re.I)
+                   or re.search(r"\bnot (?:just |only |merely |simply )?(?!sure\b|yet\b)[^.?!;,]{1,40}?,?\s+but\s+(?:rather\s+|also\s+)?\w",
+                                nb, re.I)
+                   or re.search(r"\bbut not\b", nb, re.I))
+            if m69:
+                para69.append(s)
+                flag('REVIEW', 'O69 a correction or contrast frame ("%s"; Joel 2026-11-12: "you still use a lot of ai patterns like ... "x '
+                     'but not y""): keep it only if it answers a worry the reader really has; otherwise say the thing itself, or its '
+                     'likely cause, the way he does ("So if you see any of these patterns, call medics." for "a recognition aid '
+                     'rather than a command to wait")' % m69.group(0).strip()[:40], s)
             for k, x, q in tri:
                 # E186 (Joel, 2026-10-17 14:01 UTC: "we got that list of 3 going on again. how is that not detected?"): it was
                 # detected, as a REVIEW, and a REVIEW doesn't block, so it went to Pangram and to him. In the single-paragraph
@@ -1412,6 +1436,22 @@ def main():
         if ss and len(words(nss[-1])) <= 9 and mine_s[-1]:
             para_final_short += 1; flag('REVIEW', 'B7 short landing at paragraph end', ss[-1])
         if imps >= 2: imper_heavy += 1; flag('REVIEW', 'E23 paragraph of instructions', p[:90] + '...')
+        # O70 (Joel, 2026-11-12 14:45 UTC, the same message as O69: "this is different. that's different, this other thing is also
+        # different"). My sentences in one paragraph that compare by saying "different" twice: his fix of my "is a different
+        # problem from a racing stimulant high, and both are different from serotonin toxicity" was "requires different
+        # treatment from a racing stimulant high, as would serotonin toxicity", Mixed to Human (round 35).
+        # Measured the same day: "different from" twice in a paragraph, or "both ... different", is in none of his 112 versions
+        # nor of the texts he fixed; it was in my oral paragraph (h44), which he fixed.
+        if len(para69) >= 2:
+            flag('FAIL', 'O69 two correction or contrast frames in one paragraph of mine (none of his 112 versions has two; Joel '
+                 '2026-11-12: ""x but not y" and so forth"): keep at most the one that answers a worry the reader really has',
+                 ' / '.join(para69))
+        mine_text = ' '.join(x for x, m in zip(nss, mine_s) if m)
+        n70 = len(re.findall(r"\bdifferent (?:from|than|to)\b|\bdiffers? from\b", mine_text, re.I))
+        if n70 >= 2 or re.search(r"\bboth\b[^.?!]{0,40}\bdiffer", mine_text, re.I):
+            flag('FAIL', 'O70 "different" doing the comparing twice ("this is different. that\'s different, this other thing is also '
+                 'different"; Joel 2026-11-12): say what the difference means for the reader once, the way he did ("requires '
+                 'different treatment from a racing stimulant high, as would serotonin toxicity")', p[:90] + '...')
         if passives >= 3:
             flag('REVIEW', 'O48 passive voice in %d places (Joel 2026-10-30: "passive voice overuse also high freq AI"): say who does it, as he '
                  'does ("Is the hypnotist using ..." for "Are roles ... being used")' % passives, p[:90] + '...')

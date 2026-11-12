@@ -1,0 +1,151 @@
+{
+ "chest-c3": {
+  "reader": "fresh Sonnet readers given tools/humanization/his_fixes_brief.md, one for each draft (HIS-FIXES-READ.md)",
+  "marked": [
+   {
+    "s": "- The pain is new to them, or hasn't let up.",
+    "difference": "2",
+    "draft": "chest-c1"
+   },
+   {
+    "s": "- It's severe, or keeps getting worse.",
+    "difference": "2",
+    "draft": "chest-c1"
+   },
+   {
+    "s": "- Any of the warning signs from the brain checks above show up.",
+    "difference": "2",
+    "draft": "chest-c1"
+   },
+   {
+    "s": "- They feel faint, or collapse.",
+    "difference": "2",
+    "draft": "chest-c1"
+   },
+   {
+    "s": "- It's severe, or a kind of pain they've never had before.",
+    "difference": "2 or 4",
+    "draft": "chest-c2"
+   },
+   {
+    "s": "- It won't let up or keeps getting worse.",
+    "difference": "2 or 4",
+    "draft": "chest-c2"
+   },
+   {
+    "s": "- Physical effort brought it on.",
+    "difference": "2 or 4",
+    "draft": "chest-c2"
+   },
+   {
+    "s": "- It spreads out from the chest, like into an arm or the jaw.",
+    "difference": "2 or 4",
+    "draft": "chest-c2"
+   }
+  ],
+  "kept": {
+   "- It won't let up or keeps getting worse.": "it stays: the shape it repeated, the line before's \"It's severe, or ...\", is now \"The pain is severe, or new to them.\", and the read of this draft (chest-c3) marked nothing"
+  }
+ },
+ "brain-c3": {
+  "reader": "fresh Sonnet readers given tools/humanization/his_fixes_brief.md, one for each draft (HIS-FIXES-READ.md)",
+  "marked": [
+   {
+    "s": "- First, are they awake and breathing normally, and how hot are they?",
+    "difference": "1 or 7",
+    "draft": "brain-c1"
+   },
+   {
+    "s": "- Keep an eye out for a seizure, or for vomiting again and again.",
+    "difference": "1 or 7",
+    "draft": "brain-c1"
+   },
+   {
+    "s": "- Ask if they have a really bad headache or chest pain, and check whether their vision has changed.",
+    "difference": "1 or 7",
+    "draft": "brain-c1"
+   },
+   {
+    "s": "If everything checks out but the brain-damage feeling stays, keep going with the DMSO and check them again soon.",
+    "difference": "1 or 7",
+    "draft": "brain-c1"
+   },
+   {
+    "s": "Several of these checks are recognized stroke warning signs:",
+    "difference": "1, 2, 4, 5 or 7",
+    "draft": "brain-c2"
+   },
+   {
+    "s": "Check their breathing, and feel whether they're very hot.",
+    "difference": "1, 2, 4, 5 or 7",
+    "draft": "brain-c2"
+   },
+   {
+    "s": "If an arm drifts down, that's another.",
+    "difference": "1, 2, 4, 5 or 7",
+    "draft": "brain-c2"
+   },
+   {
+    "s": "Losing their balance counts, and so does losing control of their bladder or bowels.",
+    "difference": "1, 2, 4, 5 or 7",
+    "draft": "brain-c2"
+   },
+   {
+    "s": "- Look out for a seizure.",
+    "difference": "1, 2, 4, 5 or 7",
+    "draft": "brain-c2"
+   },
+   {
+    "s": "Vomiting again and again is a sign as well.",
+    "difference": "1, 2, 4, 5 or 7",
+    "draft": "brain-c2"
+   },
+   {
+    "s": "- Ask whether they have a really bad headache, and whether their chest hurts.",
+    "difference": "1, 2, 4, 5 or 7",
+    "draft": "brain-c2"
+   },
+   {
+    "s": "For objective stroke-like signs, I would use DMSO immediately while someone calls medics.",
+    "difference": "1, 2, 4, 5 or 7",
+    "draft": "brain-c2"
+   },
+   {
+    "s": "When they're too out of it to answer you or do the checks, count that as a warning sign too, since nobody can see what's happening in their brain.",
+    "difference": "1, 2, 4, 5 or 7",
+    "draft": "brain-c2"
+   },
+   {
+    "s": "Several of these checks look for recognized stroke warning signs:",
+    "difference": "4",
+    "draft": "brain-c3"
+   },
+   {
+    "s": "- Feel whether they're very hot.",
+    "difference": "7",
+    "draft": "brain-c3"
+   },
+   {
+    "s": "Wetting or soiling themselves counts as a sign too.",
+    "difference": "2",
+    "draft": "brain-c3"
+   },
+   {
+    "s": "- Then there's a seizure, or vomiting that keeps coming back.",
+    "difference": "1",
+    "draft": "brain-c3"
+   },
+   {
+    "s": "If everything checks out but the brain-damage feeling stays, keep going DMSO-first and check them again soon.",
+    "difference": "4",
+    "draft": "brain-c3",
+    "note": "the read marked it as \"keep going with the DMSO and check them again soon\"; \"DMSO-first\" is the guide's term, kept for fidelity"
+   }
+  ],
+  "kept": {
+   "Several of these checks look for recognized stroke warning signs:": "it stays: W007's warning words (checks, recognized, warning) are kept, and the line after it names each check",
+   "- Feel whether they're very hot.": "it stays: what to do with any of the signs is said once, in \"So if you see any of these signs, keep the DMSO going while someone calls medics.\"",
+   "If everything checks out but the brain-damage feeling stays, keep going DMSO-first and check them again soon.": "it stays: the guide's \"reassess promptly\" names no interval, and inventing one would add a claim"
+  }
+ }
+}
