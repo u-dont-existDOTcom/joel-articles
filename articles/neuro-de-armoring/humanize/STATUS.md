@@ -1,5 +1,23 @@
 # Status: neuro de-armoring humanization (newest on top)
 
+## 2026-11-12, his answer of 19:32 UTC: SC-48c in; the read of the whole protocol starts (card SC-95)
+
+His answers: `fix-20261108/keto/ANSWERS-X1112A-20261112-1932.json` (SC-48c approved, no comment). **The mailbox first**
+("2026-11-12 19:32"): main fb89a3bca merged (this lane's 428; bad-trips 429, linter rules O72 and O73); UDA unchanged; no
+new issues or comments; no notifications.
+
+- **Applied** (`fix-20261108/keto/apply_x1112a.py`, APPLIED-X1112A.json): block 48's two phrases in the review's wording.
+  Fidelity PASS; my comparative read (`keto/read_x1112a.py`; F1 and F2 fixed, F3 his); compare gate PASS.
+  HUMANIZED-SO-FAR.md 37964390 to 86fa6be5.
+- **The read of the whole protocol, first card** (`fix-20261108/coherence/ketone/`): EXTRACT.md 2.4 (block 95's "must pick
+  one" against a timeline that uses both) with Strategy A's fog promise. Sources in KETONE-STRATEGY.md: Edwards 2024 (diet
+  and salts together), Bonnechère 2026 (meta-analysis: exogenous ketones improved cognition a little, SMD 0.29, single
+  doses and longer use alike), Baranowski 2025 and Stalmans 2025 (no effect). Card SC-95 (REVIEW-X1112B, cards page
+  version 7): "Your ketone strategy decides how you handle salt, since ..."; "need the fog to lift fast"; a sentence on
+  what trials found. Both fresh reads (needed/sp95, his-fixes/sp95) acted on, each disposition in its READ.md.
+- **Waiting on him**: SC-95. Next: EXTRACT.md's other 16 items, one card each, starting with 2.2 and 2.3 (the Weeks 3 to
+  5 stack against one change at a time; UMP and 5-HTP against psychedelic days).
+
 ## 2026-11-12, his answers of 18:23 UTC: his version of SC-48b in; card SC-48c; lesson 12a
 
 His answers: `fix-20261108/keto/ANSWERS-X1111C-20261112-1823.json` (SC-48b to revise, his version). **The mailbox first**

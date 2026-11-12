@@ -18,6 +18,16 @@ From an account with Desktop Commander connected to the laptop: "Continue my neu
 
 ## START HERE
 
+- **2026-11-12, after his answer of 19:32 UTC: SC-48c is in; the read of the whole protocol has started; card SC-95 waits
+  on him.** HUMANIZED-SO-FAR.md is 86fa6be5 (`fix-20261108/keto/apply_x1112a.py`; my read `keto/read_x1112a.py`). Card
+  SC-95 (`fix-20261108/coherence/ketone/REVIEW-X1112B.md`, cards page https://claude.ai/artifact/9nENpt9AEJCB43a9Wy5jqn,
+  version 7) resolves EXTRACT.md 2.4 and gives Strategy A's fog promise the size trials found
+  (`coherence/ketone/KETONE-STRATEGY.md`). **When his answer comes**: apply it by script, as `keto/apply_x1112a.py` does,
+  with a FIDELITY owner_changes entry if keys move (Bonnechère's 2026 is new), my comparative read, the gates. **Next**:
+  EXTRACT.md's other 16 items, one card each, 2.2 and 2.3 first (the Weeks 3 to 5 stack against one change at a time;
+  UMP and 5-HTP against psychedelic days); research wide on both sides for any science in them (lessons 11b, 11c, 12a);
+  the fresh read against his fixes before any text of mine is checked (gate bad-trips-2026-11-12g).
+
 - **2026-11-12, after his answers of 18:23 UTC: his version of SC-48b is in; card SC-48c waits on him; lesson 12a.**
   HUMANIZED-SO-FAR.md is 37964390 (`fix-20261108/keto/apply_x1111c.py`; FIDELITY owner_changes for SC-48b; my read
   `keto/read_x1111c.py`). Card SC-48c (`fix-20261108/keto/REVIEW-X1112A.md`, on the cards page

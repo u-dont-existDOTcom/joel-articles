@@ -1,8 +1,8 @@
 # Neuro de-armoring: what I need from Joel
 
-Last updated 2026-11-12, after your answers of 18:23 UTC.
+Last updated 2026-11-12, after your answers of 19:32 UTC.
 **Open questions: 0.** **For you to do**: one card on
-[Neuro De-Armoring Cards, 12 November](https://claude.ai/artifact/9nENpt9AEJCB43a9Wy5jqn) ([the same card in Git](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/keto/REVIEW-X1112A.md)), the rats and the salts in your clause; it replaces the ketone card on the same page.
+[Neuro De-Armoring Cards, 12 November (2)](https://claude.ai/artifact/9nENpt9AEJCB43a9Wy5jqn) ([the same card in Git](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/coherence/ketone/REVIEW-X1112B.md)), the two ketone strategies; it replaces the earlier card on the same page.
 
 Colours: 🟣 a question for you; 🟠 something for you to do; 🔵 next or in progress; 🟢 done or decided.
 
@@ -18,7 +18,12 @@ can read and update it. Every file it points to is a link.
 
 ## For you to do
 
-- 🟠 **The rats and the salts in your clause** ([the page](https://claude.ai/artifact/9nENpt9AEJCB43a9Wy5jqn), [in Git](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/keto/REVIEW-X1112A.md)): one card, SC-48c. Your version of the ketone card is in; two points of the clause you added read differently in the review you cite, and the card puts its wording to you.
+- 🟠 **The two ketone strategies** ([the page](https://claude.ai/artifact/9nENpt9AEJCB43a9Wy5jqn), [in Git](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/coherence/ketone/REVIEW-X1112B.md)): one card, SC-95, the first of the read of the whole protocol. Block 95 says to pick one strategy while the timeline uses both; the card ties the choice to your salt plan, and gives the salts' fog promise the size trials found.
+
+## Your answer of 2026-11-12 19:32 UTC (the rats and the salts), and what I did
+
+- 🟢 **SC-48c is in**, as you approved it ([what went in](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/keto/APPLIED-X1112A.json)).
+- 🔵 **The read of the whole protocol has started**: the first card is the ketone strategies ([the sources](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/coherence/ketone/KETONE-STRATEGY.md)); the other places where the text disagrees with itself come next, one card each.
 
 ## Your answers of 2026-11-12 18:23 UTC (the ketone card), and what I did
 
