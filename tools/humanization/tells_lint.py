@@ -281,7 +281,7 @@ STILL_NEXT = re.compile(r"(?:But |And )?(?:it|that|this|they|you)(?:['’]s)? (?
 # it's really needed." A bulleted or numbered list in the draft is a REVIEW (lists in a sentence are E125).
 LIST_LINE = re.compile(r"^\s*(?:[-*+•]|\d+[.)])\s+\S", re.M)
 # O71: the reader's action or the verdict, said after the list or questions it serves (see the check below)
-ACT71 = re.compile(r"\b(?:call|calls|calling) (?:medics|an ambulance|emergency|911|for help)\b|\b(?:get|seek) (?:urgent |medical )?help\b"
+ACT71 = re.compile(r"\b(?:call|calls|calling) (?:medics|an ambulance|emergency|911|for help)\b|\bcall to (?:medics|911)\b|\b(?:get|seek) (?:urgent |medical )?help\b"
                    r"|\bI'?d (?:just |also |still )?(?:use|give|call|try|get|keep|start|skip|reach|calm)\b"
                    r"|\bI would (?:use|give|call|try|start|calm)\b|\bkeep (?:the )?\w+ going\b|\b(?:may|might|can) be enough\b"
                    r"|^(?:So |Then )?(?:Call|Use|Give|Get|Take|Keep|Move|Dim|Offer|Stop|Put|Turn|Start|Continue|Go|Let|Have|"
@@ -292,6 +292,27 @@ O71 = ('O71 the action comes after the list or questions it serves (Joel 2026-11
        '100% to Human Written): say what to do in the lead-in, the way he did ("For the following more serious signs (or if '
        'unsure), I\'d also call medics:"), and rebuild the paragraph around it (moving only the action left brain-p1 AI; '
        'acute-c1, rebuilt, read Human, High)')
+# O72 (Joel, 2026-11-12 18:19 UTC, round 38: "that ai tell "if it's safe" which ai says ALLL THE TIME ... pretty much any
+# time you see the word "safe" make sure it needs to be there and there's no ambiguitiy about what it's referring to or how
+# one would ensure that"; his "If you can safely hold them as they try" for my "If it's safe" took the window 15% toward
+# Human). The bare condition fails; any other "safe" of mine is a flag to look at.
+SAFE_BARE = re.compile(r"\b(?:if|when|once|where|as long as) (?:it's|it is|it’s|that's|that is|that’s|it seems) safe\b|\b(?:if|when) safe\b", re.I)
+SAFE_ANY = re.compile(r"\bsafe(?:ly|ty|r|st)?\b", re.I)
+O72 = ('O72 "safe" with nothing saying what it refers to or how to make sure (Joel 2026-11-12: "that ai tell \"if it\'s '
+       'safe\" which ai says ALLL THE TIME ... make sure it needs to be there and there\'s no ambiguitiy about what it\'s '
+       'referring to or how one would ensure that"): say how, the way he did ("If you can safely hold them as they try"), or '
+       'cut it')
+# O73 (the same answer: "you didn't notice that your first symptom was not a symptom? it was the opposite, a sign of
+# health. fixed that and now it's 80% human"; his one-line change "First, are they awake and breathing normally?" to
+# "First, are unconscious or breathing abnormally?" took eleven AI windows to seven Human and one AI Low). A list whose
+# lead-in names warning signs, with a line that says the healthy state.
+WARN_LEAD = re.compile(r"\b(?:warning|signs?|symptoms?|serious|danger(?:ous)?|red flags?|call (?:medics|for help|an ambulance|911)|get (?:urgent )?help)\b", re.I)
+HEALTHY = re.compile(r"\b(?:normally|normal|awake|alert|fine|okay|steady|stable|calm|healthy|safe)\b", re.I)
+# the healthy word said as what is missing ("inability to wake normally", "without normal recovery", "before they're back to normal") is the sign
+NOT_HEALTHY = re.compile(r"\b(?:inability|unable|not|no longer|without|can't|cannot|loss of|lose|losing|fails?|before (?:they're|they are|it's)(?: back)?|isn't|aren't|never)\b[^.?!]*$", re.I)
+O73 = ('O73 a sign of health in a list of warning signs (Joel 2026-11-12: "you didn\'t notice that your first symptom was not a '
+       'symptom? it was the opposite, a sign of health"): each line says the sign the list is for ("are they unconscious or '
+       'breathing abnormally?"), not the healthy state')
 
 # O6: a feeling or an abstract idea doing what a person does (Joel, 2026-10-02 00:52: "the usage of abstract concepts
 # or feelings as agents is one AI tell because it permits high efficiency of words"; he changed "so the anger goes
@@ -1011,6 +1032,14 @@ def main():
     def o71_mine(x):
         return not (x in installed_raw or is_known(x))
     lines71 = body.split('\n')
+    for line72 in lines71:
+        for x72 in o71_sents(re.sub(r'^\s*(?:[-*+•]|\d+[.)])\s+', '', line72)) if line72.strip() and not line72.lstrip().startswith('#') else []:
+            if not o71_mine(x72):
+                continue
+            if SAFE_BARE.search(x72):
+                flag('FAIL', O72, x72)
+            elif SAFE_ANY.search(x72):
+                flag('REVIEW', O72, x72)
     k71 = 0
     while k71 < len(lines71):
         if LIST_LINE.match(lines71[k71]):
@@ -1021,9 +1050,17 @@ def main():
             after71 = [l for l in lines71[k71:] if l.strip() and not LIST_LINE.match(l)]
             lead71 = o71_sents(before71[-1])[-1] if before71 else ''
             nxt71 = o71_sents(after71[0])[0] if after71 else ''
-            if lead71 and nxt71 and not ACT71.search(lead71) and (ACT71.search(nxt71) or VERDICT71.search(nxt71)) \
-                    and (o71_mine(lead71) or o71_mine(nxt71)):
+            # a sentence ending in a colon after the list is the next list's lead-in, not this one's payoff
+            if lead71 and nxt71 and not nxt71.endswith(':') and not ACT71.search(lead71) \
+                    and (ACT71.search(nxt71) or VERDICT71.search(nxt71)) and (o71_mine(lead71) or o71_mine(nxt71)):
                 flag('REVIEW', O71, lead71 + ' ... ' + nxt71)
+            if lead71 and WARN_LEAD.search(lead71):
+                for item73 in lines71[a71:k71]:
+                    it73 = re.sub(r'^\s*(?:[-*+•]|\d+[.)])\s+', '', item73).strip()
+                    healthy73 = [m for m in HEALTHY.finditer(it73)
+                                 if not NOT_HEALTHY.search(it73[max(0, m.start() - 40):m.start()])]
+                    if healthy73 and o71_mine(it73):
+                        flag('REVIEW', O73, lead71 + ' ... ' + it73)
             continue
         ss71 = o71_sents(lines71[k71]) if lines71[k71].strip() and not lines71[k71].lstrip().startswith('#') else []
         runs71 = []

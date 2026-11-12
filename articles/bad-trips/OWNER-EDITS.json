@@ -1037,10 +1037,12 @@
    ],
    "order": [
     "## Active Seizure",
-    "Call medics for a convulsive seizure",
+    "Call medics if any of these happen:",
+    "If an appropriate rapid seizure-rescue benzodiazepine",
     "### What Else May Help: At the Aura, and Alongside Rescue Medicine",
     "Some people get a warning before a seizure takes hold"
-   ]
+   ],
+   "order_note": "2026-11-12, turn 39: the call-medics line is now a lead-in and list (humanize/h49-20261112, seize-c3, Human Written) and comes before the rescue medicine; his heading still opens the extras after first aid, when to call medics and the rescue medicine"
   },
   {
    "id": "r32-ground-order",
@@ -1239,6 +1241,24 @@
    "must_not_contain": [
     "Mild, familiar, non-progressive discomfort",
     "In the second branch"
+   ]
+  },
+  {
+   "id": "r38-teach-brain",
+   "status": "applied",
+   "what": "My Brain Feels Damaged's heading and checks are his version, the text of his last check 4739068c: \"+ Electrolytes\" in the heading, the lead-in \"check for stroke warning signs that would trigger a call to medics:\", his nine lines and his closing line, with three obvious corrections; his reason for the electrolytes at the end of B103 in his words; B106's first sentence gone, since his lead-in says it (round 38, card TEACH-BRAIN; review/r38/apply_r38.py)",
+   "joel": "2026-11-12 18:19:16 UTC: round 38's export, TEACH-BRAIN revised, with his six tries; \"some really obvious problems again\"",
+   "must_contain_exact": [
+    "DMSO + Humic Acid + Electrolytes First",
+    "that would trigger a call to medics:",
+    "- First, are they unconscious or breathing abnormally?",
+    "- If you can safely hold them as they try, have them stand and walk a few steps",
+    "then you've done what you can do, and it's time to call for help.",
+    "because magnesium (and then potassium) can be depleted by some drugs"
+   ],
+   "must_not_contain": [
+    "While using DMSO, check wakefulness",
+    "For objective stroke-like signs, I would use DMSO immediately"
    ]
   }
  ]
