@@ -1502,6 +1502,41 @@
     }
    ],
    "recorded_utc": "2026-11-11T21:04Z"
+  },
+  {
+   "turn": "2026-11-11T23:58Z",
+   "lines_of_work": [
+    "bad trips guide"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "UDA root at 841f579, unchanged; suggested-fixes/joel-articles has the same six items, all in docs/suggested-fixes-ledger.md"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "pull requests 418 and 420 (ours) merged by lane auto-merge; main has the neuro lane's 419 and 421 to 423 since; no new issues, comments or reviews since 21:00 UTC"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no edits by others to this lane's handoff note, questions page or state since this account's push of 22:02 UTC"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "his round-34 export of 23:57:59 UTC: TEACH-HARM revised with the paragraph as it is, 'human high' (his check aa15e193) and 'make sure this is only said once'; ADJUNCT 'b'"
+    }
+   ],
+   "items": [
+    {
+     "item": "round 34's answers",
+     "outcome": "in this turn: ADJUNCT b in the guide; TEACH-HARM's paragraph stays as it is, its reasons said once across the guide, and the lesson (check a paragraph as it stands by itself before rewriting it)"
+    }
+   ],
+   "recorded_utc": "2026-11-11T23:59Z"
   }
  ]
 }

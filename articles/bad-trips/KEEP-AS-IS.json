@@ -1,7 +1,7 @@
 {
  "format": "joel-keep-as-is-v1",
  "article": "articles/bad-trips/GUIDE-SO-FAR.md",
- "about": "What Joel has said stays as it is in the Bad Trips guide, and the cuts he meant: no card flags, fixes or puts these back (tools/humanization/keep_as_is.py, gate E340). Started 2026-11-04 from his answers to round 1 (review/r01/ANSWERS-R01-20261103-1859.json), his messages of 2026-11-03 (experiments/t01-answers/) and round 2 (review/r02/ANSWERS-R02-20261104-1026.json). His other edits, with the strings that prove they are in, are in OWNER-EDITS.json. The quotes are in the guide's characters after the standard swap (humanize/h01/swap.py): straight quote marks, spaced en dashes.",
+ "about": "What Joel has said stays as it is in the Bad Trips guide, and the cuts he meant: no card flags, fixes or puts these back (tools/humanization/keep_as_is.py, gate E340). Started 2026-11-04 from his answers to round 1 (review/r01/ANSWERS-R01-20261103-1859.json), his messages of 2026-11-03 (experiments/t01-answers/) and round 2 (review/r02/ANSWERS-R02-20261104-1026.json). His other edits, with the strings that prove they are in, are in OWNER-EDITS.json. The quotes are in the guide's characters after the standard swap (humanize/h01/swap.py): straight quote marks, spaced en dashes. | K12 (\"adjunct remedy\", round 5) released by his round-34 answer to ADJUNCT, \"b\" (review/r34/ANSWERS-R34-20261111-2357.json, 2026-11-11 23:57:59 UTC): the sentence became \"While a seizure continues, the rescue medicine comes first, and I'd still consider DMSO alongside it, although that's experimental.\" (Human, Medium, 83f4caef).",
  "keep": [
   {
    "id": "K1",
@@ -109,16 +109,6 @@
    "quote": "just anecdotes",
    "what": "His link to a 35-second clip (\"Miraculous CBD Oil Stops Child's Epileptic Seizure Instantly\"): a pass checking sources would flag a news clip as weak evidence, but the words say it is an anecdote, which is his point.",
    "joel": "then i added a link to a cbd instant seizure fix yt vid anecdote",
-   "when": "2026-11-04 22:14 UTC",
-   "where": "round 5, card CBD-YOURS (his version)",
-   "basis": "his answer"
-  },
-  {
-   "id": "K12",
-   "kind": "choice",
-   "quote": "adjunct remedy",
-   "what": "\"remedy\" after \"adjunct\" can look redundant; it says what the adjunct is for, and it was the change that took his paragraph to Human.",
-   "joel": "then the one thing that flipped it was adding \"remedy\" to \"adjunct\" since adjunct is not really clear what it's adjuncting for",
    "when": "2026-11-04 22:14 UTC",
    "where": "round 5, card CBD-YOURS (his version)",
    "basis": "his answer"

@@ -1,0 +1,56 @@
+{
+ "format": "joel-suggestion-review-answers-v1",
+ "review_id": "bad-trips-r34",
+ "title": "Bad Trips Guide, Round 34",
+ "git_file": "articles/bad-trips/review/r34/REVIEW-R34.html",
+ "article": {
+  "file": "articles/bad-trips/review/r34/PAGE-R34.md",
+  "sha256": "0da348bc9735882bb84fa5a057243b39dd8f8d9d58b6994af75acefd53bb1b13"
+ },
+ "built": "2026-11-11",
+ "generator": "suggestion_review.py 1.11 (2026-11-11)",
+ "exported_at": "2026-11-11T23:57:59.951Z",
+ "counts": {
+  "approved": 0,
+  "rejected": 0,
+  "revise": 1,
+  "pending": 1
+ },
+ "items": [
+  {
+   "id": "TEACH-HARM",
+   "type": "teach",
+   "title": "1. Risk of Harm: when to get urgent help",
+   "where": "Risk of Harm: When Peer Support Isn't Enough, P1",
+   "advice": "edit",
+   "status": "revise",
+   "your_version": "Get urgent help when somebody may harm themselves or another person, cannot be kept physically safe, is moving toward roads, water, or heights, has command voices or fixed terrifying beliefs driving action, becomes violent, is severely confused and unreachable, has dangerous physical symptoms, has lost enough sleep that judgment is collapsing, or exceeds what the sitter can safely contain.",
+   "comment": "human high https://www.pangram.com/history/aa15e193-4ea0-43f9-b851-a8aee94d62cc?ucc=4rq5Ko7gBiW&utm_source=pangram_share&utm_medium=copy_link\n\n\n\nmake sure this is only said once",
+   "my_version": "Get urgent help when somebody may harm themselves or another person, cannot be kept physically safe, is moving toward roads, water, or heights, has command voices or fixed terrifying beliefs driving action, becomes violent, is severely confused and unreachable, has dangerous physical symptoms, has lost enough sleep that judgment is collapsing, or exceeds what the sitter can safely contain.",
+   "before": "Get urgent help when somebody may harm themselves or another person, cannot be kept physically safe, is moving toward roads, water, or heights, has command voices or fixed terrifying beliefs driving action, becomes violent, is severely confused and unreachable, has dangerous physical symptoms, has lost enough sleep that judgment is collapsing, or exceeds what the sitter can safely contain.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "revise",
+     "at": "2026-11-11T23:56:15.263Z"
+    }
+   ],
+   "updated": "2026-11-11T23:57:21.009Z"
+  },
+  {
+   "id": "ADJUNCT",
+   "type": "question",
+   "title": "2. Active Seizure: keep \"adjunct remedy\" at Low, or read higher?",
+   "where": "What Else May Help: At the Aura, and Alongside Rescue Medicine, P6",
+   "advice": "ask",
+   "status": "answered",
+   "question": "The DMSO paragraph in What Else May Help ends on a sentence that reads Human but Low. \"Adjunct remedy\" is on your keep list from round 5, where adding \"remedy\" took that paragraph to Human. How each option would read:\n\nA: as it is: \"I'd treat it as a plausible experimental adjunct remedy rather than something to wait on while a seizure continues.\" [Human, Low](https://www.pangram.com/history/a9e74179-83f2-4805-be65-b8057c632bbc).\n\nB (my pick): \"While a seizure continues, the rescue medicine comes first, and I'd still consider DMSO alongside it, although that's experimental.\" [Human, Medium](https://www.pangram.com/history/83f4caef-593d-4931-af86-fdb8c79f53db). It says what DMSO goes alongside, which was the reason for \"remedy\", but \"adjunct remedy\" goes.\n\nC: B with \"adjunct remedy\" kept: \"While a seizure continues, the rescue medicine comes first, and I'd treat DMSO as a plausible adjunct remedy, although that's experimental.\" [AI, Low](https://www.pangram.com/history/5f6a6b57-47ce-4db7-ac73-5746241a5d28).",
+   "your_version": "",
+   "comment": "b",
+   "my_version": "",
+   "before": "",
+   "history": [],
+   "updated": "2026-11-11T23:57:57.163Z"
+  }
+ ]
+}

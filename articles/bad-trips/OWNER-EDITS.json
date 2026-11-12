@@ -180,12 +180,11 @@
   {
    "id": "r05-cbd-his-version",
    "status": "applied",
-   "what": "CBD-YOURS: his three CBD paragraphs, as he wrote them (typo \"a rats\" fixed), with the study links on the words that name them",
+   "what": "CBD-YOURS: his three CBD paragraphs, as he wrote them (typo \"a rats\" fixed), with the study links on the words that name them | its last sentence changed by his round-34 answer to ADJUNCT, \"b\" (review/r34/apply_r34.py; owner edit r34-adjunct-b)",
    "joel": "22:14: \"i broke it up, fixed the first part ...\" (his version in the answers file); \"now it's fully human high conf\"",
    "must_contain_exact": [
     "consider topical DMSO with a known-genuine CBD preparation (a lot of CBD is fake or very dilute).",
-    "Seizures come in all different types, and we have no study on whether CBD could be a rescue remedy for a seizure",
-    "I'd treat it as a plausible experimental adjunct remedy rather than something to wait on while a seizure continues."
+    "Seizures come in all different types, and we have no study on whether CBD could be a rescue remedy for a seizure"
    ],
    "must_not_contain": [
     "focal seizures fell by about half to three quarters over nearly three years",
@@ -446,14 +445,13 @@
   {
    "id": "t19-recruit-once",
    "status": "applied",
-   "what": "The violence part's \"When you are the only helper and safety is slipping, recruit one additional calm adult or crisis professional.\" cut: Get One Human Anchor says it, violence among its cases; the paragraph opens on when to call crisis or emergency services (experiments/t19-anchor/apply_t19b.py) | the sentence it checks changed in the humanize pass's fix anchor-a1 (2026-11-11, turn 34; humanize/h43-20261111/apply_h43.py; https://www.pangram.com/history/3a3fd073-98e1-46ea-9e5d-342bd7c7ee67): the two people it names are still the one place backup is said, bold as before",
+   "what": "The violence part's \"When you are the only helper and safety is slipping, recruit one additional calm adult or crisis professional.\" cut: Get One Human Anchor says it, violence among its cases; the paragraph opens on when to call crisis or emergency services (experiments/t19-anchor/apply_t19b.py) | the sentence it checks changed in the humanize pass's fix anchor-a1 (2026-11-11, turn 34; humanize/h43-20261111/apply_h43.py; https://www.pangram.com/history/3a3fd073-98e1-46ea-9e5d-342bd7c7ee67): the two people it names are still the one place backup is said, bold as before | the call line it opened on cut by his round-34 \"make sure this is only said once\" (owner edit r34-harm-said-once)",
    "joel": "2026-11-06 19:43 UTC: \"i'd say make the cuts regardless of pangram if it makes the guide read better, that was what we were supposed to do already prior\"",
    "must_not_contain": [
     "When you are the only helper and safety is slipping, recruit one additional calm adult or crisis professional."
    ],
    "must_contain_exact": [
-    "bring in **one more calm adult or a crisis professional** to back them up, and do it right away if there's any risk of violence or self-harm.",
-    "Call crisis or emergency services for a specific target"
+    "bring in **one more calm adult or a crisis professional** to back them up, and do it right away if there's any risk of violence or self-harm."
    ]
   },
   {
@@ -1147,6 +1145,43 @@
     "The revelation will still exist after breakfast",
     "A vitamin is not automatically harmless",
     "Twelve simultaneous techniques"
+   ]
+  },
+  {
+   "id": "r34-teach-harm",
+   "status": "applied",
+   "what": "Risk of Harm's first paragraph is his version from his check aa15e193, whole, his line break kept as a paragraph break (round 34, card TEACH-HARM; review/r34/apply_r34.py)",
+   "joel": "2026-11-11 23:57:59 UTC: round 34's export, TEACH-HARM revised, \"human high https://www.pangram.com/history/aa15e193-4ea0-43f9-b851-a8aee94d62cc ... make sure this is only said once\"",
+   "must_contain_exact": [
+    "You can sit through a lot with someone, but the moment you think they might hurt themselves or anybody else, get urgent help. It doesn't have to be a proven death wish.",
+    "If their body is flashing warning signs like severe overheating (not just regular sweating), severe insomnia, or trouble breathing, or if for whatever reason you feel like this is more than you can handle, reach out."
+   ],
+   "must_not_contain": [
+    "Get urgent help when somebody may harm themselves or another person"
+   ]
+  },
+  {
+   "id": "r34-harm-said-once",
+   "status": "applied",
+   "what": "The reasons to get urgent help are said once, in his Risk of Harm paragraph: the Call medics list's violence line, the helper's Do list's \"Call for help early\" and the harm part's list of when to call go (round 34, TEACH-HARM's comment; review/r34/apply_r34.py) | and Risk of Harm's 911 line joined to the paragraph's first sentence, its repeated reasons gone (humanize/h44-20261112/apply_h44.py)",
+   "joel": "2026-11-11 23:57:59 UTC: \"make sure this is only said once\"",
+   "must_not_contain": [
+    "Violence, self-harm, or a situation the sitter cannot physically contain",
+    "Call for help early when safety is slipping.",
+    "Call crisis or emergency services for a specific target",
+    "violence underway, or a situation you cannot safely contain"
+   ]
+  },
+  {
+   "id": "r34-adjunct-b",
+   "status": "applied",
+   "what": "Active Seizure's DMSO sentence is option B; \"adjunct remedy\" goes and leaves the keep list (round 34, card ADJUNCT; review/r34/apply_r34.py)",
+   "joel": "2026-11-11 23:57:59 UTC: round 34's export, ADJUNCT \"b\"",
+   "must_contain_exact": [
+    "While a seizure continues, the rescue medicine comes first, and I'd still consider DMSO alongside it, although that's experimental."
+   ],
+   "must_not_contain": [
+    "plausible experimental adjunct remedy rather than something to wait on"
    ]
   }
  ]
