@@ -102,6 +102,11 @@ PARAGRAPH_FROM = '2026-11-07'
 # Gate neuro-2026-11-08a: from this day a receipt for a text of mine carries a fresh reader's "needed" read, and a
 # sentence that read says the reader doesn't need is cut unless "kept" says what the reader does with it.
 NEEDED_FROM = '2026-11-08'
+# Gate bad-trips-2026-11-12g: from this day a receipt for a text of mine carries a fresh reader's read against his fixes
+# (tools/humanization/his_fixes_brief.md, the eight ways his 112 fixes differ from the drafts he fixed), and each sentence
+# that read marks is changed before the check, or "kept" says why it stays. Joel, 2026-11-12 14:45 UTC: "have you
+# systematically looked at all of the fixes i've shown you and what are the idfferences in how you write vs how i fix?"
+HIS_FIXES_FROM = '2026-11-12'
 READER_USE = re.compile(r'^\s*(yes\s*:\s*)?they\b\s+\S.{20,}', re.I | re.S)
 HIS_OWN = re.compile(r'^\s*his own\s*:\s*\S.{8,}', re.I | re.S)
 NOT_HIS = ('--his is only for what Joel wrote himself, before any humanizing: give --whose "his own: what and where". His '
@@ -200,6 +205,7 @@ def make(text, section='', reader='', his_text='', whose=''):
         'opens': {'first_sentence': (sentences(text) or [''])[0], 'why_reading': ''},
         'same_point': '',
         'needed': {'reader': '', 'unneeded': [], 'kept': {}},
+        'his_fixes': {'reader': '', 'marked': [], 'kept': {}},
         'questions': {q: '' for q in QUESTIONS},
         'question_text': QUESTIONS,
     }, **({'his_whose': whose} if his else {}))
@@ -289,6 +295,8 @@ def check(text, receipt):
                      'bit redundant")')
     if mine and ('needed' in receipt or (receipt.get('made') or '') >= NEEDED_FROM):
         p += needed_problems(text, receipt)
+    if mine and ('his_fixes' in receipt or (receipt.get('made') or '') >= HIS_FIXES_FROM):
+        p += his_fixes_problems(text, receipt)
     qs = receipt.get('questions') or {}
     for q in QUESTIONS:
         a = (qs.get(q) or '').strip()
@@ -327,6 +335,29 @@ def needed_problems(text, receipt):
         if a.lower().startswith('yes') and not READER_USE.match(a):
             p.append('checked: "%s" says it is still needed; say what the reader does with it ("yes: they ..."), '
                      'not why the claim holds; %s' % ((c.get('point') or '?')[:50], why))
+    return p
+
+
+def his_fixes_problems(text, receipt):
+    """Gate bad-trips-2026-11-12g: a fresh reader's read against his fixes is there, and every sentence it marks is gone from
+    the text or kept with the reason it stays."""
+    p = []
+    why = ('a marked sentence reads the way his fixes change (tools/humanization/his_fixes_brief.md); change it before the '
+           'check, or say why it stays (Joel, 2026-11-12: "when i look at how you try to implement my fixes, it\'s laughable")')
+    h = receipt.get('his_fixes') or {}
+    if len((h.get('reader') or '').strip()) < 10:
+        p.append('his_fixes: say who read the text against his fixes (a fresh reader given tools/humanization/his_fixes_brief.md '
+                 'and the text, one sentence a line), and list in "marked" each sentence they marked with its number, or [] if '
+                 'none; ' + why)
+    have = sentences(text)
+    kept = h.get('kept') or {}
+    for m in h.get('marked') or []:
+        u = ((m.get('s') if isinstance(m, dict) else m) or '').strip()
+        if not u:
+            continue
+        if any(u in x or x in u for x in have) and len((kept.get(u) or '').strip()) < 25:
+            p.append('his_fixes: "%s" was marked (%s) and is still in the text; %s' % (
+                u[:70], (m.get('difference') if isinstance(m, dict) else '') or '?', why))
     return p
 
 

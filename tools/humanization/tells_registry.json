@@ -2975,6 +2975,44 @@
     }
    ],
    "reason": "The linter's list flag (W68, B4) finds a long list but not what its items are: it flags his Human, High version too. Whether each item is something a reader can picture, and whether the sentences around it are built differently, is a reader's call."
+  },
+  {
+   "id": "W124",
+   "tell": "a correction or contrast frame (\"x but not y\"; \"a Y rather than a Z\", \"does not mean\", \"isn't X, it's Y\", \"not X but Y\"); two in one paragraph of mine fail",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "docs/lessons/2026-11-11-2357-bad-trips.md",
+     "quote": "you still use a lot of ai patterns like \"this is different. that's different, this other thing is also different\" and \"x but not y\" and so forth"
+    }
+   ],
+   "rule": "O69",
+   "example": "A bad trip does not prove that you are broken. It is a sign of overload rather than a verdict on you."
+  },
+  {
+   "id": "W125",
+   "tell": "\"different\" doing the comparing twice (\"this is different. that's different, this other thing is also different\")",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "docs/lessons/2026-11-11-2357-bad-trips.md",
+     "quote": "you still use a lot of ai patterns like \"this is different. that's different, this other thing is also different\" and \"x but not y\" and so forth"
+    }
+   ],
+   "rule": "O70",
+   "example": "Slow, shallow breathing is a different problem from a racing stimulant high, and both are different from serotonin toxicity."
+  },
+  {
+   "id": "J70",
+   "tell": "a sentence that reads the way his fixes change (compressed, built like its neighbours, correcting or contrasting, vague about who or what counts, opening on a rule, ending on a summing-up, no use to the reader, joined the way a model joins)",
+   "kind": "judgment",
+   "sources": [
+    {
+     "file": "docs/lessons/2026-11-11-2357-bad-trips.md",
+     "quote": "have you systematically looked at all of the fixes i've shown you and what are the idfferences in how you write vs how i fix?"
+    }
+   ],
+   "reason": "whether a sentence is compressed, built like its neighbours, vague about who or what counts, or no use to its reader is meaning: a fresh reader given tools/humanization/his_fixes_brief.md judges it, sentence by sentence; his own writing has as many lists, questions and contrasts as the texts he fixed (articles/bad-trips/humanize/h46-20261112/his-fixes/COUNTS.md), so no count of those decides it"
   }
  ]
 }

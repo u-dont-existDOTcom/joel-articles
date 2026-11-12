@@ -1,0 +1,110 @@
+{
+ "format": "joel-suggestion-review-v1",
+ "review_id": "bad-trips-r37",
+ "title": "Bad Trips Guide, Round 37",
+ "intro": [
+  "Round 37 (2026-11-12). Round 36 is in: your Serotonin Syndrome version, whole, with \"the these\" made \"these\" (as it goes in: [Human Written, the heading and first sentence Medium, the rest High](https://www.pangram.com/history/0dfe5d10-9de1-43ad-8062-4dedd8b8fea2); your exact text read High throughout, so card 2 asks which you want). And \"a\": one teaching card a round, as now.",
+  "Your question, how I write against how you fix: I read all 112 of your fixes in six lanes against the texts they replaced, and your eight tries step by step ([what you change, counted, what flipped Pangram in your words, and the eight ways my drafts differ](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261105/articles/bad-trips/humanize/h46-20261112/his-fixes/HOW-HE-FIXES.md)). Every text of mine now goes to a fresh reader with those eight differences before any check, and each sentence they mark changes first. Written that way, Chest Pain's branch paragraph and My Brain Feels Damaged's checks still read AI ([every try](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261105/articles/bad-trips/humanize/h46-20261112/RESULTS.md)), so card 1 is the next teaching card."
+ ],
+ "git_file": "articles/bad-trips/review/r37/REVIEW-R37.html",
+ "article": {
+  "file": "articles/bad-trips/review/r37/PAGE-R37.md",
+  "sha256": "a459b1105dec73d5c6f98c506985c1eec334941f39466d442392a26d6f8af3c4"
+ },
+ "built": "2026-11-12",
+ "links": {
+  "guide": "https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261105/articles/bad-trips/GUIDE-SO-FAR.md",
+  "guide_label": "the guide as it stands",
+  "check": "https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261105/articles/bad-trips/review/r37/REVIEW-R37.md",
+  "review": "https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261105/articles/bad-trips/review/r37/REVIEW-R37.md"
+ },
+ "types": {
+  "plain": {
+   "label": "Said plainly",
+   "about": "AI lines said plainly, each with its reason, the way he fixes his own windows"
+  },
+  "structure": {
+   "label": "Structure",
+   "about": "how the quick version and the long version split the guide, and where a part goes"
+  },
+  "repeat": {
+   "label": "Said twice",
+   "about": "a point the guide already makes elsewhere: one copy goes, the other stays"
+  },
+  "safety": {
+   "label": "Safety in one place",
+   "about": "a caution or call-for-help line said in several places, or one that changes nothing a reader does"
+  },
+  "question": {
+   "label": "Your call",
+   "about": "something only you can decide or know"
+  },
+  "sense": {
+   "label": "Says what it means",
+   "about": "a term explained where it is first used, or a word that says what to do"
+  },
+  "belief": {
+   "label": "Your belief back",
+   "about": "a sentence of your post that said why, cut in an earlier round, put back where it bears on what the reader does"
+  },
+  "method": {
+   "label": "Your method where it is used",
+   "about": "a line the guide already has, put where the reader uses it in trouble (your METHOD-WHERE answer, round 28)"
+  },
+  "notes": {
+   "label": "Your notes, placed",
+   "about": "what you sent in a comment, put where it belongs in the guide, as you sent it"
+  },
+  "typo": {
+   "label": "Typo",
+   "about": "a word in your own paragraph spelled differently from how you spell it elsewhere, with the fix in place"
+  },
+  "boilerplate": {
+   "label": "Boilerplate",
+   "about": "standard advice a model added that carries none of your method and no safety point a reader needs, shown as the section would read without it (your round-32 note)"
+  },
+  "teach": {
+   "label": "Teach me",
+   "about": "a paragraph that reads AI in every wording I tried, whose shape many stuck paragraphs share: how you would say it teaches me how to say them (you asked for these on 2026-11-07)"
+  }
+ },
+ "suggestions": [
+  {
+   "id": "TEACH-CHEST",
+   "type": "teach",
+   "advice": "edit",
+   "whose": "he asked: Joel, 2026-11-08 17:22 UTC: \"give me your best tries and what would teach you the best and i'll do that\"; 2026-11-12 14:45 UTC, card MEDICAL-HOW: \"a\"",
+   "keep_label": "skip this one",
+   "title": "1. Chest Pain: mild or serious, and what to do with each",
+   "reading": "The whole section in the first batch: [AI Detected, 78%](https://www.pangram.com/history/ce00d5dc-1e58-4c03-9b82-628409d40764), this paragraph in its AI High window.",
+   "tested": "Written against your fixes, read by a fresh reader with the eight differences after each of three drafts and changed every time: \"For chest pain that's mild and familiar, I'd just use DMSO, as long as it's holding steady and they're fully alert. It's more serious if: ... Hard movement brought it on, like dancing or climbing stairs. ... When you're unsure which kind it is, treat it as the serious kind.\": [AI Generated, 100%](https://www.pangram.com/history/2f1b6aa2-e672-4b5f-aeb4-6479ccf56025) (AI windows at High and Medium).\n\nMy Brain Feels Damaged's checks, written the same way, read the same: [AI Generated, 100%](https://www.pangram.com/history/0eeefa6e-c72f-4ea6-b74e-fab541aca12f) (AI windows at Medium, High and Low).",
+   "sense": "A fresh reader of my version needed every sentence, \"if the pain fades, still let the medics check them\" among them, since DMSO can mask pain. The guide's paragraph sets the two kinds against each other (\"Mild, familiar, non-progressive discomfort in a fully alert person is different from new, severe, persistent, worsening, radiating, or exertional pain--or pain with breathlessness, sweating, faintness, neurological changes, or collapse\") and calls the serious one \"the second branch\".",
+   "why": "Its shape, two cases, how to tell them apart and what to do when you can't, is one none of your lessons has had yet: you taught when to get help (Risk of Harm), what to find out (Recent Oral Toxic Ingestion) and which signs count (Serotonin Syndrome). Acute Medical and Neurological Rescue's opening (calm the trip where they are, or call) has it too.",
+   "advice_note": "Edit it: say how you'd tell mild chest pain from the serious kind, and what to do with each, in your words. Keep each sign of the serious kind (new, severe, persistent, worsening, spreading, brought on by effort, or with breathlessness, sweating, faintness, neurological changes or collapse), what to do when unsure, and that DMSO can block pain. Your version goes in whole, and I test what it teaches on the sections above.",
+   "spans": [
+    {
+     "block": 76,
+     "start": 0,
+     "end": 483
+    }
+   ]
+  },
+  {
+   "id": "SS-THESE",
+   "type": "question",
+   "advice": "ask",
+   "title": "2. Serotonin Syndrome: \"the these\" fixed, or your exact text?",
+   "question": "Your version says \"One or more of the these patterns makes the diagnosis more likely:\". How each option would read:\n\nA (my pick): \"One or more of these patterns makes the diagnosis more likely:\", as the guide has it now: [Human Written, the heading and first sentence Medium, the rest High](https://www.pangram.com/history/0dfe5d10-9de1-43ad-8062-4dedd8b8fea2). Pro: no doubled word for a reader to trip on. Con: the first sentence reads Medium.\n\nB: your exact text, \"the these\" kept: [Human Written, High throughout](https://www.pangram.com/history/9e32c090-a4bd-4353-abcc-f56393b6b644). Pro: High everywhere. Con: a reader sees \"the these\".",
+   "why": "It is your version, and fixing the doubled word lowers its first sentence from High to Medium.",
+   "stays": "A, as it is now.",
+   "advice_note": "A, fairly sure: a reader trips on \"the these\", and a Medium window is fine by your rule (no Low window, most of the text High).",
+   "spans": [
+    {
+     "block": 84,
+     "start": 88,
+     "end": 150
+    }
+   ]
+  }
+ ]
+}

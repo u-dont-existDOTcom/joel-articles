@@ -148,15 +148,15 @@ Serotonin syndrome overlaps with several symptoms above, but the rescue measures
 
 ### Recognizing serotonin toxicity
 
-Clinicians often use the Hunter criteria. One or more of the following patterns makes serotonin toxicity more likely:
+We can use the same Hunter criteria that clinicians use to diagnose serotonin syndrome. One or more of these patterns makes the diagnosis more likely:
 
-- **Spontaneous clonus:** involuntary rhythmic muscle contractions and relaxations occurring without stimulation.
-- **Inducible clonus plus agitation or sweating.**
-- **Ocular clonus plus agitation or sweating:** rapid rhythmic involuntary eye movements.
-- **Tremor plus hyperreflexia:** shaking together with abnormally brisk reflexes.
-- **Hypertonia plus fever:** rigidity with temperature above 38°C (100.4°F), together with ocular or inducible clonus.
+- Spontaneous clonus: involuntary rhythmic muscle spasms, with no stimulation needed to set it off, would be one full pattern
+- Inducible clonus, spasms set off by stretching/flexing a muscle, plus agitation or sweating would be counted as one pattern altogether.
+- Ocular clonus (rapid involuntary eye movements) plus agitation or sweating, another pattern together.
+- Another is tremor (shaking) along with hyperreflexia (abnormally brisk reflexes).
+- Lastly, Hypertonia (muscular rigidity) with fever above 38°C (100.4°F), as well as ocular or inducible clonus.
 
-This is a recognition aid rather than a command to wait for every criterion before acting. Dangerous heat, rigidity, clonus, confusion, or rapid worsening deserves medical help.
+So if you see any of these patterns, call medics.
 
 ### Do this immediately when serotonin toxicity is reasonably suspected:
 
