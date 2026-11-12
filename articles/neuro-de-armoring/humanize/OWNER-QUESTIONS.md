@@ -1,8 +1,8 @@
 # Neuro de-armoring: what I need from Joel
 
-Last updated 2026-11-12, after your answers of 19:32 UTC.
-**Open questions: 0.** **For you to do**: one card on
-[Neuro De-Armoring Cards, 12 November (2)](https://claude.ai/artifact/9nENpt9AEJCB43a9Wy5jqn) ([the same card in Git](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/coherence/ketone/REVIEW-X1112B.md)), the two ketone strategies; it replaces the earlier card on the same page.
+Last updated 2026-11-12, after your message of 21:37 UTC.
+**Open questions: 1.** **For you to do**: two cards on
+[Neuro De-Armoring Cards, 12 November (3)](https://claude.ai/artifact/9nENpt9AEJCB43a9Wy5jqn) ([the DMSO card in Git](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/dmso/REVIEW-X1112C.md)): DMSO in the Glutamate Shield, and the ketone strategies from earlier tonight.
 
 Colours: 🟣 a question for you; 🟠 something for you to do; 🔵 next or in progress; 🟢 done or decided.
 
@@ -11,6 +11,16 @@ can read and update it. Every file it points to is a link.
 
 ## Open questions
 
+**🟣 12. Split block 48's last sentence?** It runs on with two "although"s, and two fresh readers stumbled on it.
+Split at your first one, with nothing else changed, it would read: "No controlled trial of the diet has been done
+yet, and the one placebo-controlled trial of BHB supplements alone was too small to tell either way (Youssef, et al,
+2022). But we can see some astounding BHB salt reviews on forums, like for brain injury repair, and BHB injections
+work for rats with trauma, although in humans it's still an open question whether the salts work as well as the
+keto diet (Engelhardt, et al, 2026)."
+
+- a) Split it there.
+- b) Keep it as one sentence.
+
 - 🟢 **11, answered ("11yes add that")**: Zhong 2023 is cited after Vialou in your paragraph, with Nestler 2008 back
   beside them (below).
 - 🟢 **9 and 10, answered by your paragraph**: DeltaFosB stays the armor, and what it does is keep the learning from
@@ -18,7 +28,13 @@ can read and update it. Every file it points to is a link.
 
 ## For you to do
 
-- 🟠 **The two ketone strategies** ([the page](https://claude.ai/artifact/9nENpt9AEJCB43a9Wy5jqn), [in Git](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/coherence/ketone/REVIEW-X1112B.md)): one card, SC-95, the first of the read of the whole protocol. Block 95 says to pick one strategy while the timeline uses both; the card ties the choice to your salt plan, and gives the salts' fog promise the size trials found.
+- 🟠 **DMSO in the Glutamate Shield** ([the page](https://claude.ai/artifact/9nENpt9AEJCB43a9Wy5jqn), [in Git](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/dmso/REVIEW-X1112C.md)): card SC-DMSO, a new item after Magnesium with your study checked and both sides searched.
+- 🟠 **The two ketone strategies** (the same page, [in Git](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/coherence/ketone/REVIEW-X1112B.md)): card SC-95, from earlier tonight.
+
+## Your message of 2026-11-12 21:37 UTC, and what I did
+
+- 🟢 **The split**: my report put it badly. The card's advice had an optional extra, splitting your long sentence, which the buttons never put to you; approving applied the card's change only. It's question 12 now. Lesson: an optional change gets its own card or question ([the file](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/docs/lessons/2026-11-12-2137-neuro.md)).
+- 🟢 **DMSO**: your study says what you say, in rat brain cells in a dish; both sides searched ([the check](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/dmso/DMSO-PTSD.md)); the card above adds it to the Glutamate Shield.
 
 ## Your answer of 2026-11-12 19:32 UTC (the rats and the salts), and what I did
 

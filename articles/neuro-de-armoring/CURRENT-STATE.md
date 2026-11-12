@@ -30,7 +30,7 @@ The AI windows of every section, rewritten and checked; his cards; his post upda
 
 ## Blockers / unresolved
 
-One card waits on him: SC-95, the two ketone strategies, the first card of the read of the whole protocol (`humanize/fix-20261108/coherence/ketone/REVIEW-X1112B.md`); no open questions (`humanize/OWNER-QUESTIONS.md`).
+Two cards wait on him: SC-95, the two ketone strategies (`humanize/fix-20261108/coherence/ketone/REVIEW-X1112B.md`), and SC-DMSO, DMSO in the Glutamate Shield (`humanize/fix-20261108/dmso/REVIEW-X1112C.md`); one open question, 12, on splitting block 48's last sentence (`humanize/OWNER-QUESTIONS.md`).
 
 ## Evidence / artifacts
 

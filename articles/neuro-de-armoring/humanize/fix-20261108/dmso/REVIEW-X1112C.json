@@ -1,0 +1,89 @@
+{
+ "format": "joel-suggestion-review-v1",
+ "review_id": "neuro-de-armoring-cards-20261112-x1112c",
+ "title": "Neuro De-Armoring Cards, 12 November (3): DMSO, and the ketone strategies",
+ "intro": [
+  "DMSO, as you asked: one new item in the Glutamate Shield, with your study checked and both sides searched.",
+  "The ketone-strategy card from earlier tonight is here too, unchanged, since you haven't answered it yet.",
+  "No compound, dose, unit or timing changes in either."
+ ],
+ "git_file": "articles/neuro-de-armoring/humanize/fix-20261108/dmso/REVIEW-X1112C.html",
+ "article": {
+  "file": "articles/neuro-de-armoring/humanize/HUMANIZED-SO-FAR.md",
+  "sha256": "86fa6be522c67ce00ccd02b098a7ffcd298e43eb679e951de9f98e5e0339d69f"
+ },
+ "built": "2026-11-12T21:44:58Z",
+ "links": {
+  "guide": "https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/HUMANIZED-SO-FAR.md",
+  "review": "https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/dmso/REVIEW-X1112C.md"
+ },
+ "types": {
+  "add": {
+   "label": "Something added",
+   "about": "New text you asked for, with its sources."
+  },
+  "science": {
+   "label": "A claim corrected",
+   "about": "Something the sources don't support, changed as little as the science allows."
+  }
+ },
+ "suggestions": [
+  {
+   "id": "SC-95",
+   "type": "science",
+   "title": "The two ketone strategies: what the choice decides, and what the salts do for the fog",
+   "advice": "approve",
+   "spans": [
+    {
+     "block": 95,
+     "start": 0,
+     "end": 305
+    }
+   ],
+   "edits": [
+    {
+     "block": 95,
+     "before": "You must pick one of two ketone strategies, because the salts in one bring their own sodium while the diet in the other drains it. If you're in a crisis and need the fog gone fast, there's Strategy A, the \"Crisis Mode\". You drink BHB (beta-hydroxybutyrate) salts and keep eating a standard low-sugar diet.",
+     "after": "Your ketone strategy decides how you handle salt, since the salts bring their own sodium while the diet drains it. If you're in a crisis and need the fog to lift fast, there's Strategy A, the \"Crisis Mode\". You drink BHB (beta-hydroxybutyrate) salts and keep eating a standard low-sugar diet. In trials, ketone esters, salts and MCT oil improved thinking a little against a placebo, from a single dose as well as over two weeks or more (Bonnechère, et al, 2026)."
+    }
+   ],
+   "what": "Block 95 no longer says you must pick one strategy: it says your strategy decides how you handle salt. \"Need the fog gone fast\" becomes \"need the fog to lift fast\", and a sentence gives what trials found ketone supplements do for thinking.",
+   "why": "Reading the protocol as a whole, block 95 says you must pick one strategy, but the timeline starts you on the salts, moves you to the diet in Weeks 3 to 5, and still has you \"Drink BHB\" when foggy on the diet. Your post said the choice \"determines your electrolyte protocol\", and that's what holds: one after the other, the two don't clash, and the salts' sodium on the diet just goes toward what the diet drains. The Oslo PTSD study, which measured ketosis three times a day, gave both together ([Edwards, et al, 2024](https://pubmed.ncbi.nlm.nih.gov/39588043/)). On the fog, in a 2026 meta-analysis of 29 trial protocols (1,117 people), ketone esters, salts and MCT oil improved thinking a little against a placebo, about as much after a single dose as over two weeks or more, and more at higher daily doses ([Bonnechère, et al, 2026](https://pubmed.ncbi.nlm.nih.gov/42063954/)). Some found nothing, such as one in adults with type 2 diabetes ([Baranowski, et al, 2025](https://pubmed.ncbi.nlm.nih.gov/39804761/)) and one in low oxygen ([Stalmans, et al, 2025](https://pubmed.ncbi.nlm.nih.gov/40315254/)). So \"gone\" becomes \"lift\", with the size the trials found.",
+   "stays": "Strategy A, the \"Crisis Mode\", with the salts and a standard low-sugar diet; Strategy B below it; and the timeline as it is, starting on the salts, moving to the diet, the salts when foggy.",
+   "deciding": "Whether block 95 says what the choice of strategy decides, instead of that you must pick one, and gives what the salts do for thinking at the size trials found.",
+   "advice_note": "Approve. I'm sure of what the trials found. A fresh reader would drop the trials sentence as not needed to choose; I'd keep it, since the promise that the fog lifts is made as science and the reader learns how much to expect. That reader's version: \"Your ketone strategy decides how you handle salt, since the salts bring their own sodium while the diet drains it. If you're in a crisis and need the fog to lift fast, there's Strategy A, the \"Crisis Mode\". You drink BHB (beta-hydroxybutyrate) salts and keep eating a standard low-sugar diet.\"",
+   "ask_because": "meaning: block 95 no longer says you must pick one strategy, and the fog promise gets the size trials found",
+   "approve_label": "use it",
+   "found_by": "The read of the whole protocol (coherence/EXTRACT.md, 2.4), with the ketone research of lessons neuro-2026-11-11b and 11c",
+   "receipt": [
+    "articles/neuro-de-armoring/humanize/fix-20261108/coherence/ketone/SP95.receipt.json"
+   ]
+  },
+  {
+   "id": "SC-DMSO",
+   "type": "add",
+   "title": "DMSO in the Glutamate Shield: what it does to glutamate, and who should keep away",
+   "advice": "approve",
+   "inserts": [
+    {
+     "before": 125,
+     "kind": "p",
+     "text": "DMSO (99.9%): Smell it, as in the Fog table below. In rat brain cells in a dish, DMSO at 0.5 to 1.5% quickly turned down the signals glutamate sends through its NMDA and AMPA receptors, and the calcium they let in. It also kept glutamate from killing the cells (Lu & Mattson, 2001). In another lab, DMSO at 0.5% and 1% killed rat brain cells in a dish by itself, and injected into young mice, it set off widespread cell death in their brains (Hanslick, et al, 2009). So keep it away from pregnancy and children. How much reaches your brain when you smell it hasn't been measured. No trial has tested it for anxiety or PTSD, so whether it helps rests on what people report, and many say it does.",
+     "seq": 1
+    }
+   ],
+   "card_after": 124,
+   "what": "A new item after Magnesium in \"2. The Glutamate Shield (Anxiety)\": smell DMSO (99.9%), as the Fog table already says; what your study found, in rat brain cells in a dish; another lab's finding at similar strengths, and in young mice, so keep it away from pregnancy and children; and how far the evidence goes.",
+   "why": "DMSO is already in the protocol in three places, the safety note at the top, the Fog table (\"Smell DMSO (99.9%)\") and the timeline (\"Inhale DMSO\"), but nowhere does the text say what it does, so the Glutamate Shield is where your study fits. Your study says what you say: in rat brain cells in a dish, DMSO at 0.5 to 1.5% quickly and reversibly damped glutamate's NMDA and AMPA signals and the calcium they let in, and kept glutamate from killing the cells ([Lu & Mattson, 2001](https://pubmed.ncbi.nlm.nih.gov/11421595/)). On the other side, another lab found DMSO at 0.5% and 1% killed rat brain cells in a dish by itself, and injections set off cell death in young mouse brains ([Hanslick, et al, 2009](https://pubmed.ncbi.nlm.nih.gov/19100327/)); given into a vein with frozen stem cells, it has rarely caused seizures and strokes in people. In people, given into a vein after head injury, it lowered the pressure in the skull in small series with no comparison group ([Huang & Wang, 2026](https://pubmed.ncbi.nlm.nih.gov/42939788/), a review). I found no study of how much reaches the brain when it's smelled, and no trial of it for anxiety, PTSD or mood, so the people it helps are in the item as reports.",
+   "stays": "Your safety note at the top, the Fog table and the timeline's \"Inhale DMSO\", as they are.",
+   "deciding": "Whether DMSO goes into the Glutamate Shield with what your study found and the cautions.",
+   "advice_note": "Approve. I put it with the glutamate tools because that's what your study is about; if you'd rather it sat by the Fog table, say so in your comment and I'll move it.",
+   "ask_because": "meaning: new text in the protocol: what DMSO does to glutamate, with a caution for pregnancy and children",
+   "approve_label": "add it",
+   "found_by": "His message of 2026-11-12 21:37 UTC (\"we should include DMSO in the protocol as well\"), with his study checked and both sides searched through PubMed",
+   "receipt": [
+    "articles/neuro-de-armoring/humanize/fix-20261108/dmso/SPDMSO.receipt.json"
+   ]
+  }
+ ]
+}

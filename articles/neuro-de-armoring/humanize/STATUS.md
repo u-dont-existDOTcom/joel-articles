@@ -1,5 +1,22 @@
 # Status: neuro de-armoring humanization (newest on top)
 
+## 2026-11-12, his message of 21:37 UTC: the split explained; DMSO card (SC-DMSO); lesson 12b
+
+His message word for word: `fix-20261108/joel-20261112-2137-message.txt`. **The mailbox first** ("2026-11-12 21:37"):
+main 1baee2173 merged (this lane's 430; bad-trips 431: gate bad-trips-2026-11-12j, the fit read, which the receipt tool
+now asks of every new receipt); UDA unchanged; no new issues or comments; no notifications.
+
+- **The split**: SC-48c's advice note offered to split his long sentence; the card's buttons never put it to him, and my
+  report said he "didn't take" it. Now question 12 on the questions page. Lesson neuro-2026-11-12b
+  (`docs/lessons/2026-11-12-2137-neuro.md`).
+- **DMSO** (`fix-20261108/dmso/`): his study checked (Lu & Mattson 2001, rat neurons in a dish, 0.5 to 1.5%); both sides
+  searched (DMSO-PTSD.md: Hanslick 2009, neuron loss in culture and in developing mouse brains; IV in people; no study of
+  smelling it, no trial for anxiety or PTSD). DMSO is already in the safety note, the Fog table (an image: "Smell DMSO
+  (99.9%)") and the timeline. Card SC-DMSO (REVIEW-X1112C, cards page version 8, with SC-95 still waiting): a new item
+  after Magnesium in the Glutamate Shield. Fresh reads: needed, his fixes, and the fit read with its setting line written
+  for this protocol's reader; each disposition in its READ.md.
+- **Waiting on him**: SC-95, SC-DMSO, question 12. Next: EXTRACT.md's other 16 items, 2.2 and 2.3 first.
+
 ## 2026-11-12, his answer of 19:32 UTC: SC-48c in; the read of the whole protocol starts (card SC-95)
 
 His answers: `fix-20261108/keto/ANSWERS-X1112A-20261112-1932.json` (SC-48c approved, no comment). **The mailbox first**
