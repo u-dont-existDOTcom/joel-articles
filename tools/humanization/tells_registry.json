@@ -3016,6 +3016,32 @@
    "example": "So check the body first. Are they breathing normally? Is their temperature safe? Are they awake enough to work with you? If all that checks out, calming and stabilizing the trip may be enough."
   },
   {
+   "id": "W127",
+   "tell": "\"safe\" with nothing saying what it refers to or how to make sure (\"if it's safe\" fails)",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "docs/lessons/2026-11-11-2357-bad-trips.md",
+     "quote": "pretty much any time you see the word \"safe\" make sure it needs to be there and there's no ambiguitiy about what it's referring to or how one would ensure that"
+    }
+   ],
+   "rule": "O72",
+   "example": "If it's safe, have them stand and walk a few steps to see if they keep their balance."
+  },
+  {
+   "id": "W128",
+   "tell": "a sign of health in a list whose lead-in names warning signs",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "docs/lessons/2026-11-11-2357-bad-trips.md",
+     "quote": "you didn't notice that your first symptom was not a symptom? it was the opposite, a sign of health"
+    }
+   ],
+   "rule": "O73",
+   "example": "While the DMSO is working, check for these stroke warning signs:\n- First, are they awake and breathing normally?\n- Is their speech slurred?"
+  },
+  {
    "id": "J70",
    "tell": "a sentence that reads the way his fixes change (compressed, built like its neighbours, correcting or contrasting, vague about who or what counts, opening on a rule, ending on a summing-up, no use to the reader, joined the way a model joins)",
    "kind": "judgment",

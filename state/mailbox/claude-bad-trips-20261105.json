@@ -1642,6 +1642,41 @@
     }
    ],
    "recorded_utc": "2026-11-12T16:49Z"
+  },
+  {
+   "turn": "2026-11-12T18:20Z",
+   "lines_of_work": [
+    "bad trips guide"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "UDA root at 841f579, unchanged; suggested-fixes/joel-articles has the same six items, all in docs/suggested-fixes-ledger.md"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "pull request 427 (ours) merged at 17:34 UTC; pull request 428 (the neuro de-armoring lane, merged at 18:40 UTC) touches no file of this lane; no new issues, comments or reviews"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no edits by others to this lane's handoff note, questions page or state since this account's push of 17:34 UTC"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "his round-38 export of 18:19:16 UTC: TEACH-BRAIN revised with his version and six checks; and his message: 'some really obvious problems again'"
+    }
+   ],
+   "items": [
+    {
+     "item": "his round-38 answer and message",
+     "outcome": "his brain checks in whole with three obvious corrections; what he found I missed made two linter checks (O72, O73) and lesson bad-trips-2026-11-12i; carried to three paragraphs, all Human and in"
+    }
+   ],
+   "recorded_utc": "2026-11-12T18:48Z"
   }
  ]
 }

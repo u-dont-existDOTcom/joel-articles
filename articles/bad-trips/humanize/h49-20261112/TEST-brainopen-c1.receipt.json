@@ -1,0 +1,206 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-12",
+ "text_sha256": "f83ba4630125062c5b0df85f717b7e483a6759b2f74c5cf909dab10215fc0dce",
+ "text": "If Someone Says \"My Brain Feels Damaged\": DMSO + Humic Acid + Electrolytes First\n\nDon't dismiss someone who says their brain feels damaged just because they're high or can't explain what they feel in medical language, since something could really be going wrong in their brain. DMSO is my first immediate remedy while I ask what the symptoms actually are. I usually know within about a minute whether it is helping. Smelling humic acid or tasting a tiny bit can also help a lot, in my experience, but I'm still collecting data from others. I add electrolytes too, because magnesium (and then potassium) can be depleted by some drugs, especially MDMA and iboga, although I don't think just electrolytes would be sufficient.\n\nWhile the DMSO is working, check for stroke warning signs that would trigger a call to medics:\n- First, are they unconscious or breathing abnormally?\n- Feel whether they're very hot.\n- Have them talk and smile. Is their speech slurred, or does one side of their face droop?\n- Ask them to hold both arms out in front of them, and see if one drifts down.\n- If you can safely hold them as they try, have them stand and walk a few steps to see if they keep their balance.\n- Wetting or soiling themselves is another sign to watch for.\n- Watch for a seizure, and for vomiting that keeps coming back.\n- Ask about a really bad headache or chest pain.\n- Check if their vision has changed.\n\nWhen they're too out of it to help you do the checks, or if the brain-damage feeling stays despite sufficient treatment, then you've done what you can do, and it's time to call for help.",
+ "section": "If Someone Says \"My Brain Feels Damaged\": DMSO + Humic Acid + Electrolytes First",
+ "reader": "someone whose friend says their brain feels damaged, deciding what to do first and whether to call medics",
+ "sentences": [
+  {
+   "s": "If Someone Says \"My Brain Feels Damaged\": DMSO + Humic Acid + Electrolytes First",
+   "payoff": "they know this part is for someone who says their brain feels damaged, and what comes first",
+   "follows": "the heading"
+  },
+  {
+   "s": "Don't dismiss someone who says their brain feels damaged just because they're high or can't explain what they feel in medical language, since something could really be going wrong in their brain.",
+   "payoff": "they take the report seriously even when the person is high or can't explain it",
+   "follows": "it opens the section under its heading",
+   "link": "none: the first sentence under its heading"
+  },
+  {
+   "s": "DMSO is my first immediate remedy while I ask what the symptoms actually are.",
+   "payoff": "they give DMSO first while they ask about the symptoms",
+   "follows": "what to do, after taking it seriously",
+   "link": "DMSO is my first"
+  },
+  {
+   "s": "I usually know within about a minute whether it is helping.",
+   "payoff": "they know within about a minute whether the DMSO is helping",
+   "follows": "what to expect from it",
+   "link": "whether it is helping"
+  },
+  {
+   "s": "Smelling humic acid or tasting a tiny bit can also help a lot, in my experience, but I'm still collecting data from others.",
+   "payoff": "they try smelling or tasting a little humic acid too",
+   "follows": "the next remedy the heading names",
+   "link": "can also help"
+  },
+  {
+   "s": "I add electrolytes too, because magnesium (and then potassium) can be depleted by some drugs, especially MDMA and iboga, although I don't think just electrolytes would be sufficient.",
+   "payoff": "they give electrolytes too, knowing why and that they are not enough alone",
+   "follows": "the last remedy the heading names",
+   "link": "I add electrolytes too"
+  },
+  {
+   "s": "While the DMSO is working, check for stroke warning signs that would trigger a call to medics:",
+   "payoff": "they check for stroke warning signs while the DMSO works, and call medics for any",
+   "follows": "his lead-in to the checks",
+   "link": "While the DMSO is working"
+  },
+  {
+   "s": "- First, are they unconscious or breathing abnormally?",
+   "payoff": "they look for unconsciousness or abnormal breathing",
+   "follows": "his first sign",
+   "link": "none: his line (round 38, 4739068c), the next one in his list"
+  },
+  {
+   "s": "- Feel whether they're very hot.",
+   "payoff": "they feel whether the person is very hot",
+   "follows": "his next sign",
+   "link": "none: his line (round 38, 4739068c), the next one in his list"
+  },
+  {
+   "s": "- Have them talk and smile.",
+   "payoff": "they have the person talk and smile",
+   "follows": "his next check",
+   "link": "none: his line (round 38, 4739068c), the next one in his list"
+  },
+  {
+   "s": "Is their speech slurred, or does one side of their face droop?",
+   "payoff": "they listen for slurred speech and look for a drooping face",
+   "follows": "what talking and smiling show",
+   "link": "Is their speech slurred"
+  },
+  {
+   "s": "- Ask them to hold both arms out in front of them, and see if one drifts down.",
+   "payoff": "they have the person hold both arms out and see if one drifts down",
+   "follows": "his next check",
+   "link": "none: his line (round 38, 4739068c), the next one in his list"
+  },
+  {
+   "s": "- If you can safely hold them as they try, have them stand and walk a few steps to see if they keep their balance.",
+   "payoff": "they check balance on a few steps while holding the person",
+   "follows": "his next check",
+   "link": "none: his line (round 38, 4739068c), the next one in his list"
+  },
+  {
+   "s": "- Wetting or soiling themselves is another sign to watch for.",
+   "payoff": "they watch for wetting or soiling",
+   "follows": "his next sign",
+   "link": "none: his line (round 38, 4739068c), the next one in his list"
+  },
+  {
+   "s": "- Watch for a seizure, and for vomiting that keeps coming back.",
+   "payoff": "they watch for a seizure and for vomiting that keeps coming back",
+   "follows": "his next signs",
+   "link": "none: his line (round 38, 4739068c), the next one in his list"
+  },
+  {
+   "s": "- Ask about a really bad headache or chest pain.",
+   "payoff": "they ask about a really bad headache or chest pain",
+   "follows": "his next check",
+   "link": "none: his line (round 38, 4739068c), the next one in his list"
+  },
+  {
+   "s": "- Check if their vision has changed.",
+   "payoff": "they check whether vision has changed",
+   "follows": "his last check",
+   "link": "none: his line (round 38, 4739068c), the next one in his list"
+  },
+  {
+   "s": "When they're too out of it to help you do the checks, or if the brain-damage feeling stays despite sufficient treatment, then you've done what you can do, and it's time to call for help.",
+   "payoff": "they call for help when the checks can't be done or the feeling stays despite treatment",
+   "follows": "his last line",
+   "link": "When they're too out of it"
+  }
+ ],
+ "checked": [],
+ "placement": "If Someone Says \"My Brain Feels Damaged\", its first paragraph (B103) before his checks (round 38); B105's belief in DMSO for stroke after them",
+ "opens": {
+  "first_sentence": "If Someone Says \"My Brain Feels Damaged\": DMSO + Humic Acid + Electrolytes First",
+  "why_reading": "it tells someone whose friend says their brain feels damaged to take it seriously and what to give first"
+ },
+ "same_point": "none: read the section from its heading to the next (Active Seizure) for taking the report seriously and what to give first; B103's three opening sentences are said once here, his checks and closing line say when to call, and B106's first sentence, which said it again, is gone (round 38)",
+ "needed": {
+  "reader": "a fresh Haiku agent given tools/humanization/needed_read_brief.md with the paragraph before his checks, its heading and what it is for (reads/needed-brainopen-c1.txt); none unneeded",
+  "unneeded": [],
+  "kept": {}
+ },
+ "his_fixes": {
+  "reader": "a fresh Sonnet reader given tools/humanization/his_fixes_brief.md (reads/his-brainopen-c1.txt); it marked none of my sentence, only his lines",
+  "marked": [
+   {
+    "s": "If Someone Says \"My Brain Feels Damaged\": DMSO + Humic Acid + Electrolytes First",
+    "difference": "1",
+    "draft": "brainopen-c1"
+   },
+   {
+    "s": "Smelling humic acid or tasting a tiny bit can also help a lot, in my experience, but I'm still collecting data from others.",
+    "difference": "4",
+    "draft": "brainopen-c1"
+   },
+   {
+    "s": "I add electrolytes too, because magnesium (and then potassium) can be depleted by some drugs, especially MDMA and iboga, although I don't think just electrolytes would be sufficient.",
+    "difference": "1, 4",
+    "draft": "brainopen-c1"
+   },
+   {
+    "s": "- First, are they unconscious or breathing abnormally?",
+    "difference": "4",
+    "draft": "brainopen-c1"
+   },
+   {
+    "s": "- Feel whether they're very hot.",
+    "difference": "4, 7",
+    "draft": "brainopen-c1"
+   },
+   {
+    "s": "- Ask about a really bad headache or chest pain.",
+    "difference": "4",
+    "draft": "brainopen-c1"
+   },
+   {
+    "s": "- Check if their vision has changed.",
+    "difference": "4",
+    "draft": "brainopen-c1"
+   },
+   {
+    "s": "When they're too out of it to help you do the checks, or if the brain-damage feeling stays despite sufficient treatment, then you've done what you can do, and it's time to call for help.",
+    "difference": "4, 6",
+    "draft": "brainopen-c1"
+   }
+  ],
+  "kept": {
+   "If Someone Says \"My Brain Feels Damaged\": DMSO + Humic Acid + Electrolytes First": "his heading, his version (round 38, 4739068c), as he wrote it",
+   "Smelling humic acid or tasting a tiny bit can also help a lot, in my experience, but I'm still collecting data from others.": "his remedy line, already in the guide in his words",
+   "I add electrolytes too, because magnesium (and then potassium) can be depleted by some drugs, especially MDMA and iboga, although I don't think just electrolytes would be sufficient.": "his reason for the electrolytes, from his round-38 comment, in his words",
+   "- First, are they unconscious or breathing abnormally?": "his line, his version (round 38, 4739068c), as he wrote it, with \"they\" put in",
+   "- Feel whether they're very hot.": "his line, his version (round 38, 4739068c), as he wrote it",
+   "- Ask about a really bad headache or chest pain.": "his line, his version (round 38, 4739068c), as he wrote it",
+   "- Check if their vision has changed.": "his line, his version (round 38, 4739068c), as he wrote it",
+   "When they're too out of it to help you do the checks, or if the brain-damage feeling stays despite sufficient treatment, then you've done what you can do, and it's time to call for help.": "his closing line, his version (round 38, 4739068c), as he wrote it"
+  }
+ },
+ "questions": {
+  "Q1": "PASS: the paragraph opens on what to do with the report (\"Don't dismiss ...\"), the remedies right after",
+  "Q2": "PASS: \"Don't dismiss\", \"DMSO is my first immediate remedy\", \"I add electrolytes too\": the reader's acts",
+  "Q3": "PASS: \"someone who says their brain feels damaged\" says who; the remedies are named",
+  "Q4": "PASS: \"acute neurological dysfunction\" said as \"something could really be going wrong in their brain\"; no term left",
+  "Q5": "PASS: \"just because\", \"since\", \"while\", \"too\", \"because\" say each relation",
+  "Q6": "PASS: take it seriously, what to give, then his checks and when to call",
+  "Q7": "PASS: each sentence bears on what to do for someone whose brain feels damaged",
+  "Q8": "PASS: one section, the brain report",
+  "Q9": "PASS: the opening is one step; his lines are his"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

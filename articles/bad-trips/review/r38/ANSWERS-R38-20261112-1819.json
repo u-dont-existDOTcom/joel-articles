@@ -1,0 +1,41 @@
+{
+ "format": "joel-suggestion-review-answers-v1",
+ "review_id": "bad-trips-r38",
+ "title": "Bad Trips Guide, Round 38",
+ "git_file": "articles/bad-trips/review/r38/REVIEW-R38.html",
+ "article": {
+  "file": "articles/bad-trips/review/r38/PAGE-R38.md",
+  "sha256": "16d80f3815b97256404739cd4f5401cdb42d8c7141ebb4eabdab2dffc2fedf4b"
+ },
+ "built": "2026-11-12",
+ "generator": "suggestion_review.py 1.11 (2026-11-11)",
+ "exported_at": "2026-11-12T18:19:16.627Z",
+ "counts": {
+  "approved": 0,
+  "rejected": 0,
+  "revise": 1,
+  "pending": 0
+ },
+ "items": [
+  {
+   "id": "TEACH-BRAIN",
+   "type": "teach",
+   "title": "1. My Brain Feels Damaged: the checks, and what to do when one shows a sign",
+   "where": "If Someone Says \"My Brain Feels Damaged\": DMSO + Humic Acid First, P2",
+   "advice": "edit",
+   "status": "revise",
+   "your_version": "If Someone Says \"My Brain Feels Damaged\": DMSO + Humic Acid  + Electrolytes First\n\nWhile the DMSO is working, check for stroke warning signs that would trigger a call to medics:\n- First, are unconscious or breathing abnormally?\n- Feel whether they're very hot.\n- Have them talk and smile. Is their speech slurred, or does one side of their face droop?\n- Ask them to hold both arms out in front of them, and see if one drifts down.\n- If you can safely hold them as they try, have them stand and walk a few steps to see if they keep their balance. \n-Wetting or soiling themselves is another sign to watch for.\n- Watch for a seizure, and for vomiting that keeps coming back.\n- Ask about a really bad headache or chest pain.\n- Check if their vision has changed.\n\nWhen they're too out of it to help you do the checks, or if the brain-damage feeling stays despite sufficient treatment, then you've done what you can do, and it's time to call for help.",
+   "comment": "first, i added electrolytes to this, because magnesium (and then potassium) can be depleted by some drugs esp MDMA and iboga, altho i don't think just electrolytes would be sufficient... it didn't change it to human of course:\n\nhttps://www.pangram.com/history/c30b544b-6d9e-4465-b9bd-5b2b934b2fda?ucc=4rq5Ko7gBiW&utm_source=pangram_share&utm_medium=copy_link\n\nnext i removed a little redundancy, but that didn't flip it: \nhttps://www.pangram.com/history/86262bd8-3629-494b-8264-47412e355257?ucc=4rq5Ko7gBiW&utm_source=pangram_share&utm_medium=copy_link\n\nah, i found the exact problem with most of it, you didn't notice that your first symptom was not a symptom? it was the opposite, a sign of health. fixed that and now it's 80% human: https://www.pangram.com/history/ed86bddc-89e9-4e10-be3e-f6119d144d75?ucc=4rq5Ko7gBiW&utm_source=pangram_share&utm_medium=copy_link\n\nthen i moved \"wetting or soiling\" to new line since that was not following the sentenc ebefore it. that helped 1% i guess.: https://www.pangram.com/history/0f807196-fdb7-4877-8649-7d331c89802f?ucc=4rq5Ko7gBiW&utm_source=pangram_share&utm_medium=copy_link\n\nthen i saw that ai tell \"if it's safe\" which ai says ALLL THE TIME, so i reworded that to be more specific, and that gave another 15% towards human: https://www.pangram.com/history/7158fa13-0166-45fa-8941-79eaf466b6fa?ucc=4rq5Ko7gBiW&utm_source=pangram_share&utm_medium=copy_link\n\npretty much any time you see the word \"safe\" make sure it needs to be there and there's no ambiguitiy about what it's referring to or how one would ensure that. \n\nclarified the last part and now it's all high conf human: \nhttps://www.pangram.com/history/4739068c-f916-48bd-a838-d839deb41e5f?ucc=4rq5Ko7gBiW&utm_source=pangram_share&utm_medium=copy_link\n",
+   "my_version": "While using DMSO, check wakefulness, breathing, temperature, speech, facial symmetry, both arms, balance, walking, bodily control, seizure activity, severe headache, repeated vomiting, chest pain, and vision. These checks include several recognized stroke warning signs. A person who cannot answer or cooperate has not passed the screen; their neurological status is still unknown. If the screen is reassuring but the brain-damage feeling remains, continue the DMSO-first route and reassess promptly.",
+   "before": "While using DMSO, check wakefulness, breathing, temperature, speech, facial symmetry, both arms, balance, walking, bodily control, seizure activity, severe headache, repeated vomiting, chest pain, and vision. These checks include several recognized stroke warning signs. A person who cannot answer or cooperate has not passed the screen; their neurological status is still unknown. If the screen is reassuring but the brain-damage feeling remains, continue the DMSO-first route and reassess promptly.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "revise",
+     "at": "2026-11-12T17:53:45.069Z"
+    }
+   ],
+   "updated": "2026-11-12T18:19:14.713Z"
+  }
+ ]
+}

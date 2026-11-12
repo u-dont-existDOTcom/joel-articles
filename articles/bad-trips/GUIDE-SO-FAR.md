@@ -68,19 +68,31 @@ Save the relevant links and local numbers *before* you need them. Their hours an
 
 I'd calm and stabilize the trip right where they are, as long as none of the signs on the Call medics list above show up and I can keep them from getting hurt. Even from a severe trip, they can come down faster that way than after an ambulance ride and hours in an emergency room.
 
-The emergency room is not magic, and for a physiologically stable psychedelic or practice-induced crisis it may be a poor environment. A scared, psychotic-feeling person often receives a benzodiazepine; those drugs don't reliably address psychosis and can cause paradoxical agitation or fear in some people. Antipsychotics may work better for psychosis, but they carry their own risks and interactions, often administered by someone who doesn't know what was taken, if anything.
+In an emergency room, a scared and psychotic-feeling person will often get a benzodiazepine. Don't count on it helping with psychosis, since in some people it brings on a paradoxical reaction, with more agitation or fear. Antipsychotics may work better for psychosis, but they carry their own risks and interactions. The staff also often have no idea what was taken, if anything, so if you do end up there, tell them.
 
 ![](https://substack-post-media.s3.amazonaws.com/public/images/d463e09a-821b-4254-aa6b-0b1d770c3b80_1122x1402.png)
 
-## If Someone Says "My Brain Feels Damaged": DMSO + Humic Acid First
+## If Someone Says "My Brain Feels Damaged": DMSO + Humic Acid + Electrolytes First
 
-Do not dismiss that report because the person is high or cannot explain it in clinical language. It may be anxiety or excessive psychedelic intensity. It may also be acute neurological dysfunction, and the person experiencing it may be the least able to describe it neatly. [DMSO](http://dmso.u-dont-exist.com/) is my first immediate remedy while I ask what the symptoms actually are. I usually know within about a minute whether it is helping. Smelling [humic acid ](http://humicacid.u-dont-exist.com)or tasting a tiny bit can also help a lot, in my experience, but I'm still collecting data from others.
+Don't dismiss someone who says their brain feels damaged just because they're high or can't explain what they feel in medical language, since something could really be going wrong in their brain. [DMSO](http://dmso.u-dont-exist.com/) is my first immediate remedy while I ask what the symptoms actually are. I usually know within about a minute whether it is helping. Smelling [humic acid ](http://humicacid.u-dont-exist.com)or tasting a tiny bit can also help a lot, in my experience, but I'm still collecting data from others. I add electrolytes too, because magnesium (and then potassium) can be depleted by some drugs, especially MDMA and iboga, although I don't think just electrolytes would be sufficient.
 
-While using DMSO, check wakefulness, breathing, temperature, speech, facial symmetry, both arms, balance, walking, bodily control, seizure activity, severe headache, repeated vomiting, chest pain, and vision. These checks include several recognized [stroke warning signs](https://www.stroke.org/en/about-stroke/stroke-symptoms). A person who cannot answer or cooperate has not passed the screen; their neurological status is still unknown. If the screen is reassuring but the brain-damage feeling remains, continue the DMSO-first route and reassess promptly.
+While the DMSO is working, check for [stroke warning signs](https://www.stroke.org/en/about-stroke/stroke-symptoms) that would trigger a call to medics:
+
+- First, are they unconscious or breathing abnormally?
+- Feel whether they're very hot.
+- Have them talk and smile. Is their speech slurred, or does one side of their face droop?
+- Ask them to hold both arms out in front of them, and see if one drifts down.
+- If you can safely hold them as they try, have them stand and walk a few steps to see if they keep their balance.
+- Wetting or soiling themselves is another sign to watch for.
+- Watch for a seizure, and for vomiting that keeps coming back.
+- Ask about a really bad headache or chest pain.
+- Check if their vision has changed.
+
+When they're too out of it to help you do the checks, or if the brain-damage feeling stays despite sufficient treatment, then you've done what you can do, and it's time to call for help.
 
 I believe DMSO works better for stroke and most acute brain damage than anything else readily available to ordinary people. That judgment is stronger than the clinical evidence, but the evidence is not empty: a [preliminary human ischemic-stroke trial](https://pubmed.ncbi.nlm.nih.gov/11783757/) reported possible neurological benefit; a [small human series](https://pubmed.ncbi.nlm.nih.gov/6462399/) used DMSO for intracranial hypertension; and [animal stroke research](https://pubmed.ncbi.nlm.nih.gov/15744247/) found substantial infarct reduction even when treatment began after ischemia. DMSO also suppresses [NMDA- and AMPA-mediated excitotoxicity](https://pubmed.ncbi.nlm.nih.gov/11421595/).
 
-For objective stroke-like signs, I would use DMSO immediately **while someone calls medics**. DMSO cannot identify whether the problem is a clot, a hemorrhage, low oxygen, an electrolyte crisis, or something else. The larger adjacent risk is losing a treatment window or missing a bleed because the symptoms improved enough to feel reassuring. If someone is worried about a bleed, I'd probably skip DMSO, but it depends on how severe their issue is. It's not a powerful blood thinner like heparin, unless maybe injected; it's basically a dietary blood thinner. I've never had any issues with bleeding too much from consuming DMSO, and never heard of it either, but if bleeding is already a medical issue I'd want to think about that more.
+DMSO cannot identify whether the problem is a clot, a hemorrhage, low oxygen, an electrolyte crisis, or something else. The larger adjacent risk is losing a treatment window or missing a bleed because the symptoms improved enough to feel reassuring. If someone is worried about a bleed, I'd probably skip DMSO, but it depends on how severe their issue is. It's not a powerful blood thinner like heparin, unless maybe injected; it's basically a dietary blood thinner. I've never had any issues with bleeding too much from consuming DMSO, and never heard of it either, but if bleeding is already a medical issue I'd want to think about that more.
 
 1. **DMSO immediately. Smell humic acid first; if that doesn't help, take a 5mg lick of it. Smell the Metta NMT sniffer** (described in [loveyhuasca guide](http://loveyhuasca.info)).
 2. **Ask what the symptoms actually are while the DMSO is being used.** Do not manufacture reassurance from missing information.
@@ -90,11 +102,25 @@ For objective stroke-like signs, I would use DMSO immediately **while someone ca
 
 ## Active Seizure
 
-Time the seizure. Protect the person from injury, clear dangerous objects, loosen tight clothing, and place them on their side when practical. Don't restrain them and don't put anything in their mouth while they are convulsing or not fully conscious.
+Time the seizure, and while it lasts:
+
+- Move any dangerous objects away from them, especially anything hard or sharp.
+- Loosen any tight clothing.
+- Turn them gently onto their side, which helps them breathe.
+- Don't restrain them, since that can cause injuries.
+- Keep everything out of their mouth while they're convulsing or not fully conscious.
+
+Call medics if any of these happen:
+
+- A convulsive seizure goes on for about five minutes.
+- Another seizure starts before they've recovered from the last one.
+- Their breathing gets slow and shallow.
+- Blue or gray lips are another sign.
+- They get dangerously hot (not just regular sweating).
+- They're seriously hurt, like bleeding that won't stop or a possible head injury.
+- It's their first seizure, or one that's substantially different from their usual ones.
 
 If an appropriate rapid seizure-rescue benzodiazepine is available, use it by its intended route. Benzodiazepines are the [established first-line drug class for status epilepticus](https://pmc.ncbi.nlm.nih.gov/articles/PMC9477921/). An ordinary pill is not the same thing as a nasal, buccal, rectal, intramuscular, or intravenous rescue preparation, and respiratory depressants in the mix change the risk.
-
-Call medics for a convulsive seizure lasting about five minutes, repeated seizures without normal recovery, trouble breathing, dangerous heat, serious injury, a first seizure, or a seizure substantially different from the person's known pattern.
 
 ### What Else May Help: At the Aura, and Alongside Rescue Medicine
 
