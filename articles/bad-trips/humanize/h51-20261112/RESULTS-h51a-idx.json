@@ -1,0 +1,61 @@
+{
+ "seize-c10": [
+  "Human Written",
+  0,
+  265,
+  "c00d2cae-f984-451a-8b26-f790150280e6",
+  "2026-11-12T22:53:27.753Z",
+  [
+   [
+    "Human",
+    "High",
+    265,
+    0,
+    1549,
+    "Active Seizure\nTime the "
+   ]
+  ]
+ ],
+ "explone-c5": [
+  "Human Written",
+  0,
+  56,
+  "fa2258eb-9f83-497d-a25c-7a1877a73608",
+  "2026-11-12T22:53:16.291Z",
+  [
+   [
+    "Human",
+    "High",
+    56,
+    0,
+    317,
+    "Waiting the 5 minutes is"
+   ]
+  ]
+ ],
+ "callp-c3": [
+  "Human Written",
+  0,
+  68,
+  "4d0a5d11-8a2e-49fa-8539-c6c5e87989d5",
+  "2026-11-12T22:53:05.970Z",
+  [
+   [
+    "Human",
+    "High",
+    36,
+    0,
+    175,
+    "Call medics if any of th"
+   ],
+   [
+    "Human",
+    "Medium",
+    32,
+    175,
+    363,
+    "- Their breathing gets s"
+   ]
+  ]
+ ]
+}

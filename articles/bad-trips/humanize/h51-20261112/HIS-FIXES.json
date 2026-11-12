@@ -1,0 +1,293 @@
+{
+ "seize-c10": {
+  "reader": "a fresh Sonnet reader given tools/humanization/his_fixes_brief.md, after reads of seize-c6 to c9 (reads/his-seize-c10.txt)",
+  "marked": [
+   {
+    "s": "- Don't restrain them, since that can cause injuries, but do put pillows where appropriate, especially under the head.",
+    "difference": "1, 4",
+    "draft": "seize-c10"
+   },
+   {
+    "s": "Their seizure is most likely less dangerous than an actual drug overdose seizure.",
+    "difference": "7",
+    "draft": "seize-c10"
+   },
+   {
+    "s": "These medicines are benzodiazepines in nasal spray or rectal gel, or sometimes an intramuscular shot (pills can't be swallowed).",
+    "difference": "1",
+    "draft": "seize-c10"
+   },
+   {
+    "s": "After giving it, keep a close eye on their breathing, since a benzodiazepine adds to the risk of it getting slow and shallow, especially if they've also taken other respiratory depressants like opioids or alcohol.",
+    "difference": "1",
+    "draft": "seize-c10"
+   }
+  ],
+  "kept": {
+   "- Don't restrain them, since that can cause injuries, but do put pillows where appropriate, especially under the head.": "his line, from his Active Seizure version of 2026-11-12 19:44 UTC (5e41c575), which read Human High",
+   "Their seizure is most likely less dangerous than an actual drug overdose seizure.": "his point in his words (22:34 UTC: \"most likely less dangerous than an actual drug overdose seizure\"), asked for; it is why the 5 minutes is only for a seizure on a normal dose, and the call list says to call when the dose is not known",
+   "These medicines are benzodiazepines in nasal spray or rectal gel, or sometimes an intramuscular shot (pills can't be swallowed).": "his line, from his fix of the rescue medicine paragraph of 22:34 UTC (9320d4ec, Human High 73 by itself)",
+   "After giving it, keep a close eye on their breathing, since a benzodiazepine adds to the risk of it getting slow and shallow, especially if they've also taken other respiratory depressants like opioids or alcohol.": "his line, from his fix of the rescue medicine paragraph of 22:34 UTC (9320d4ec, Human High 73 by itself)"
+  }
+ },
+ "callp-c3": {
+  "reader": "a fresh Sonnet reader given tools/humanization/his_fixes_brief.md, after reads of seize-c6 to c9 (reads/his-seize-c10.txt)",
+  "marked": [
+   {
+    "s": "- Don't restrain them, since that can cause injuries, but do put pillows where appropriate, especially under the head.",
+    "difference": "1, 4",
+    "draft": "seize-c10"
+   },
+   {
+    "s": "Their seizure is most likely less dangerous than an actual drug overdose seizure.",
+    "difference": "7",
+    "draft": "seize-c10"
+   },
+   {
+    "s": "These medicines are benzodiazepines in nasal spray or rectal gel, or sometimes an intramuscular shot (pills can't be swallowed).",
+    "difference": "1",
+    "draft": "seize-c10"
+   },
+   {
+    "s": "After giving it, keep a close eye on their breathing, since a benzodiazepine adds to the risk of it getting slow and shallow, especially if they've also taken other respiratory depressants like opioids or alcohol.",
+    "difference": "1",
+    "draft": "seize-c10"
+   }
+  ],
+  "kept": {
+   "- Don't restrain them, since that can cause injuries, but do put pillows where appropriate, especially under the head.": "his line, from his Active Seizure version of 2026-11-12 19:44 UTC (5e41c575), which read Human High",
+   "Their seizure is most likely less dangerous than an actual drug overdose seizure.": "his point in his words (22:34 UTC: \"most likely less dangerous than an actual drug overdose seizure\"), asked for; it is why the 5 minutes is only for a seizure on a normal dose, and the call list says to call when the dose is not known",
+   "These medicines are benzodiazepines in nasal spray or rectal gel, or sometimes an intramuscular shot (pills can't be swallowed).": "his line, from his fix of the rescue medicine paragraph of 22:34 UTC (9320d4ec, Human High 73 by itself)",
+   "After giving it, keep a close eye on their breathing, since a benzodiazepine adds to the risk of it getting slow and shallow, especially if they've also taken other respiratory depressants like opioids or alcohol.": "his line, from his fix of the rescue medicine paragraph of 22:34 UTC (9320d4ec, Human High 73 by itself)"
+  }
+ },
+ "explone-c5": {
+  "reader": "a fresh Sonnet reader given tools/humanization/his_fixes_brief.md, after reads of seize-c6 to c9 (reads/his-seize-c10.txt)",
+  "marked": [
+   {
+    "s": "- Don't restrain them, since that can cause injuries, but do put pillows where appropriate, especially under the head.",
+    "difference": "1, 4",
+    "draft": "seize-c10"
+   },
+   {
+    "s": "Their seizure is most likely less dangerous than an actual drug overdose seizure.",
+    "difference": "7",
+    "draft": "seize-c10"
+   },
+   {
+    "s": "These medicines are benzodiazepines in nasal spray or rectal gel, or sometimes an intramuscular shot (pills can't be swallowed).",
+    "difference": "1",
+    "draft": "seize-c10"
+   },
+   {
+    "s": "After giving it, keep a close eye on their breathing, since a benzodiazepine adds to the risk of it getting slow and shallow, especially if they've also taken other respiratory depressants like opioids or alcohol.",
+    "difference": "1",
+    "draft": "seize-c10"
+   }
+  ],
+  "kept": {
+   "- Don't restrain them, since that can cause injuries, but do put pillows where appropriate, especially under the head.": "his line, from his Active Seizure version of 2026-11-12 19:44 UTC (5e41c575), which read Human High",
+   "Their seizure is most likely less dangerous than an actual drug overdose seizure.": "his point in his words (22:34 UTC: \"most likely less dangerous than an actual drug overdose seizure\"), asked for; it is why the 5 minutes is only for a seizure on a normal dose, and the call list says to call when the dose is not known",
+   "These medicines are benzodiazepines in nasal spray or rectal gel, or sometimes an intramuscular shot (pills can't be swallowed).": "his line, from his fix of the rescue medicine paragraph of 22:34 UTC (9320d4ec, Human High 73 by itself)",
+   "After giving it, keep a close eye on their breathing, since a benzodiazepine adds to the risk of it getting slow and shallow, especially if they've also taken other respiratory depressants like opioids or alcohol.": "his line, from his fix of the rescue medicine paragraph of 22:34 UTC (9320d4ec, Human High 73 by itself)"
+  }
+ },
+ "callp-c4": {
+  "reader": "a fresh Sonnet reader given tools/humanization/his_fixes_brief.md, after reads of seize-c6 to c10 (reads/his-seize-c11.txt)",
+  "marked": [
+   {
+    "s": "- Don't restrain them, since that can cause injuries, but do put pillows where appropriate, especially under the head.",
+    "difference": "4",
+    "draft": "seize-c11"
+   },
+   {
+    "s": "- They get dangerously hot, which you can feel on their forehead (not just regular sweating).",
+    "difference": "3",
+    "draft": "seize-c11"
+   },
+   {
+    "s": "Their seizure is most likely less dangerous than an actual drug overdose seizure.",
+    "difference": "3, 4",
+    "draft": "seize-c11"
+   },
+   {
+    "s": "These medicines are benzodiazepines in nasal spray or rectal gel, or sometimes an intramuscular shot (pills can't be swallowed).",
+    "difference": "1",
+    "draft": "seize-c11"
+   }
+  ],
+  "kept": {
+   "- Don't restrain them, since that can cause injuries, but do put pillows where appropriate, especially under the head.": "his line, from his Active Seizure version of 2026-11-12 19:44 UTC (5e41c575), which read Human High",
+   "- They get dangerously hot, which you can feel on their forehead (not just regular sweating).": "his line and his bracket, with only how to tell added in his words (22:34 UTC: \"you can tell by touching someone's forehead how hot it is. i'm very often sweating a lot on psychedelics but my forehead is not hot\")",
+   "Their seizure is most likely less dangerous than an actual drug overdose seizure.": "his point in his words (22:34 UTC: \"most likely less dangerous than an actual drug overdose seizure\"), asked for; it is why the 5 minutes is only for a seizure on a normal dose, and the call list says to call when the dose is not known; by itself it read Human High (fa2258eb)",
+   "These medicines are benzodiazepines in nasal spray or rectal gel, or sometimes an intramuscular shot (pills can't be swallowed).": "his line, from his fix of the rescue medicine paragraph of 22:34 UTC (9320d4ec, Human High 73 by itself)"
+  }
+ },
+ "seize-c11": {
+  "reader": "a fresh Sonnet reader given tools/humanization/his_fixes_brief.md, after reads of seize-c6 to c10 (reads/his-seize-c11.txt)",
+  "marked": [
+   {
+    "s": "- Don't restrain them, since that can cause injuries, but do put pillows where appropriate, especially under the head.",
+    "difference": "4",
+    "draft": "seize-c11"
+   },
+   {
+    "s": "- They get dangerously hot, which you can feel on their forehead (not just regular sweating).",
+    "difference": "3",
+    "draft": "seize-c11"
+   },
+   {
+    "s": "Their seizure is most likely less dangerous than an actual drug overdose seizure.",
+    "difference": "3, 4",
+    "draft": "seize-c11"
+   },
+   {
+    "s": "These medicines are benzodiazepines in nasal spray or rectal gel, or sometimes an intramuscular shot (pills can't be swallowed).",
+    "difference": "1",
+    "draft": "seize-c11"
+   }
+  ],
+  "kept": {
+   "- Don't restrain them, since that can cause injuries, but do put pillows where appropriate, especially under the head.": "his line, from his Active Seizure version of 2026-11-12 19:44 UTC (5e41c575), which read Human High",
+   "- They get dangerously hot, which you can feel on their forehead (not just regular sweating).": "his line and his bracket, with only how to tell added in his words (22:34 UTC: \"you can tell by touching someone's forehead how hot it is. i'm very often sweating a lot on psychedelics but my forehead is not hot\")",
+   "Their seizure is most likely less dangerous than an actual drug overdose seizure.": "his point in his words (22:34 UTC: \"most likely less dangerous than an actual drug overdose seizure\"), asked for; it is why the 5 minutes is only for a seizure on a normal dose, and the call list says to call when the dose is not known; by itself it read Human High (fa2258eb)",
+   "These medicines are benzodiazepines in nasal spray or rectal gel, or sometimes an intramuscular shot (pills can't be swallowed).": "his line, from his fix of the rescue medicine paragraph of 22:34 UTC (9320d4ec, Human High 73 by itself)"
+  }
+ },
+ "callp-c5": {
+  "reader": "a fresh Sonnet reader given tools/humanization/his_fixes_brief.md, after reads of seize-c6 to c11 (reads/his-seize-c12.txt)",
+  "marked": [
+   {
+    "s": "- Don't restrain them, since that can cause injuries, but do put pillows where appropriate, especially under the head.",
+    "difference": "4",
+    "draft": "seize-c12"
+   },
+   {
+    "s": "Waiting the 5 minutes is only for a seizure on a normal dose.",
+    "difference": "5",
+    "draft": "seize-c12"
+   },
+   {
+    "s": "Their seizure is most likely less dangerous than an actual drug overdose seizure.",
+    "difference": "7",
+    "draft": "seize-c12"
+   },
+   {
+    "s": "These medicines are benzodiazepines in nasal spray or rectal gel, or sometimes an intramuscular shot (pills can't be swallowed).",
+    "difference": "1, 4",
+    "draft": "seize-c12"
+   }
+  ],
+  "kept": {
+   "- Don't restrain them, since that can cause injuries, but do put pillows where appropriate, especially under the head.": "his line, from his Active Seizure version of 2026-11-12 19:44 UTC (5e41c575), which read Human High",
+   "Waiting the 5 minutes is only for a seizure on a normal dose.": "it says which seizure the 5 minutes is for, the scope all three reads of seize-c8 asked for; the paragraph read Human High 56 by itself (fa2258eb)",
+   "Their seizure is most likely less dangerous than an actual drug overdose seizure.": "his point in his words (22:34 UTC: \"most likely less dangerous than an actual drug overdose seizure\"), asked for; it is why the 5 minutes is only for a seizure on a normal dose, and the call list says to call when the dose is not known; by itself it read Human High (fa2258eb)",
+   "These medicines are benzodiazepines in nasal spray or rectal gel, or sometimes an intramuscular shot (pills can't be swallowed).": "his line, from his fix of the rescue medicine paragraph of 22:34 UTC (9320d4ec, Human High 73 by itself)"
+  }
+ },
+ "seize-c12": {
+  "reader": "a fresh Sonnet reader given tools/humanization/his_fixes_brief.md, after reads of seize-c6 to c11 (reads/his-seize-c12.txt)",
+  "marked": [
+   {
+    "s": "- Don't restrain them, since that can cause injuries, but do put pillows where appropriate, especially under the head.",
+    "difference": "4",
+    "draft": "seize-c12"
+   },
+   {
+    "s": "Waiting the 5 minutes is only for a seizure on a normal dose.",
+    "difference": "5",
+    "draft": "seize-c12"
+   },
+   {
+    "s": "Their seizure is most likely less dangerous than an actual drug overdose seizure.",
+    "difference": "7",
+    "draft": "seize-c12"
+   },
+   {
+    "s": "These medicines are benzodiazepines in nasal spray or rectal gel, or sometimes an intramuscular shot (pills can't be swallowed).",
+    "difference": "1, 4",
+    "draft": "seize-c12"
+   }
+  ],
+  "kept": {
+   "- Don't restrain them, since that can cause injuries, but do put pillows where appropriate, especially under the head.": "his line, from his Active Seizure version of 2026-11-12 19:44 UTC (5e41c575), which read Human High",
+   "Waiting the 5 minutes is only for a seizure on a normal dose.": "it says which seizure the 5 minutes is for, the scope all three reads of seize-c8 asked for; the paragraph read Human High 56 by itself (fa2258eb)",
+   "Their seizure is most likely less dangerous than an actual drug overdose seizure.": "his point in his words (22:34 UTC: \"most likely less dangerous than an actual drug overdose seizure\"), asked for; it is why the 5 minutes is only for a seizure on a normal dose, and the call list says to call when the dose is not known; by itself it read Human High (fa2258eb)",
+   "These medicines are benzodiazepines in nasal spray or rectal gel, or sometimes an intramuscular shot (pills can't be swallowed).": "his line, from his fix of the rescue medicine paragraph of 22:34 UTC (9320d4ec, Human High 73 by itself)"
+  }
+ },
+ "callp-c6": {
+  "reader": "a fresh Sonnet reader given tools/humanization/his_fixes_brief.md, after reads of seize-c6 to c12 (reads/his-seize-c13.txt)",
+  "marked": [
+   {
+    "s": "- Don't restrain them, since that can cause injuries, but do put pillows where appropriate, especially under the head.",
+    "difference": "1, 4",
+    "draft": "seize-c13"
+   },
+   {
+    "s": "Waiting the 5 minutes is only for a seizure on a normal dose.",
+    "difference": "4",
+    "draft": "seize-c13"
+   },
+   {
+    "s": "Their seizure is most likely less dangerous than an actual drug overdose seizure.",
+    "difference": "3, 7",
+    "draft": "seize-c13"
+   },
+   {
+    "s": "These medicines are benzodiazepines in nasal spray or rectal gel, or sometimes an intramuscular shot (pills can't be swallowed).",
+    "difference": "1",
+    "draft": "seize-c13"
+   },
+   {
+    "s": "After giving it, keep a close eye on their breathing, since a benzodiazepine adds to the risk of it getting slow and shallow, especially if they've also taken other respiratory depressants like opioids or alcohol.",
+    "difference": "7",
+    "draft": "seize-c13"
+   }
+  ],
+  "kept": {
+   "- Don't restrain them, since that can cause injuries, but do put pillows where appropriate, especially under the head.": "his line, from his Active Seizure version of 2026-11-12 19:44 UTC (5e41c575), which read Human High",
+   "Waiting the 5 minutes is only for a seizure on a normal dose.": "it says which seizure the 5 minutes is for, the scope all three reads of seize-c8 asked for, right after the list line that says to call when it goes on for over 5 minutes; the paragraph read Human High 56 by itself (fa2258eb)",
+   "Their seizure is most likely less dangerous than an actual drug overdose seizure.": "his point in his words (22:34 UTC: \"most likely less dangerous than an actual drug overdose seizure\"), asked for; it is why the 5 minutes is only for a seizure on a normal dose, and the call list says to call when the dose is not known; by itself it read Human High (fa2258eb)",
+   "These medicines are benzodiazepines in nasal spray or rectal gel, or sometimes an intramuscular shot (pills can't be swallowed).": "his line, from his fix of the rescue medicine paragraph of 22:34 UTC (9320d4ec, Human High 73 by itself)",
+   "After giving it, keep a close eye on their breathing, since a benzodiazepine adds to the risk of it getting slow and shallow, especially if they've also taken other respiratory depressants like opioids or alcohol.": "his line, from his fix of the rescue medicine paragraph of 22:34 UTC (9320d4ec, Human High 73 by itself)"
+  }
+ },
+ "seize-c13": {
+  "reader": "a fresh Sonnet reader given tools/humanization/his_fixes_brief.md, after reads of seize-c6 to c12 (reads/his-seize-c13.txt)",
+  "marked": [
+   {
+    "s": "- Don't restrain them, since that can cause injuries, but do put pillows where appropriate, especially under the head.",
+    "difference": "1, 4",
+    "draft": "seize-c13"
+   },
+   {
+    "s": "Waiting the 5 minutes is only for a seizure on a normal dose.",
+    "difference": "4",
+    "draft": "seize-c13"
+   },
+   {
+    "s": "Their seizure is most likely less dangerous than an actual drug overdose seizure.",
+    "difference": "3, 7",
+    "draft": "seize-c13"
+   },
+   {
+    "s": "These medicines are benzodiazepines in nasal spray or rectal gel, or sometimes an intramuscular shot (pills can't be swallowed).",
+    "difference": "1",
+    "draft": "seize-c13"
+   },
+   {
+    "s": "After giving it, keep a close eye on their breathing, since a benzodiazepine adds to the risk of it getting slow and shallow, especially if they've also taken other respiratory depressants like opioids or alcohol.",
+    "difference": "7",
+    "draft": "seize-c13"
+   }
+  ],
+  "kept": {
+   "- Don't restrain them, since that can cause injuries, but do put pillows where appropriate, especially under the head.": "his line, from his Active Seizure version of 2026-11-12 19:44 UTC (5e41c575), which read Human High",
+   "Waiting the 5 minutes is only for a seizure on a normal dose.": "it says which seizure the 5 minutes is for, the scope all three reads of seize-c8 asked for, right after the list line that says to call when it goes on for over 5 minutes; the paragraph read Human High 56 by itself (fa2258eb)",
+   "Their seizure is most likely less dangerous than an actual drug overdose seizure.": "his point in his words (22:34 UTC: \"most likely less dangerous than an actual drug overdose seizure\"), asked for; it is why the 5 minutes is only for a seizure on a normal dose, and the call list says to call when the dose is not known; by itself it read Human High (fa2258eb)",
+   "These medicines are benzodiazepines in nasal spray or rectal gel, or sometimes an intramuscular shot (pills can't be swallowed).": "his line, from his fix of the rescue medicine paragraph of 22:34 UTC (9320d4ec, Human High 73 by itself)",
+   "After giving it, keep a close eye on their breathing, since a benzodiazepine adds to the risk of it getting slow and shallow, especially if they've also taken other respiratory depressants like opioids or alcohol.": "his line, from his fix of the rescue medicine paragraph of 22:34 UTC (9320d4ec, Human High 73 by itself)"
+  }
+ }
+}

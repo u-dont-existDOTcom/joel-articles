@@ -1,0 +1,29 @@
+{
+ "callp-c4": [
+  "AI Generated",
+  1,
+  75,
+  "AI-Generated, Low, 42; AI-Generated, Medium, 21; AI-Generated, Low, 12",
+  "22:55:27",
+  "/14de8a4b-0a31-4cf0-9be6-db18bb676461",
+  [
+   "AI-Generated Low (42 words): Call medics if any of these happen:\n- They have a seizure after taking too much, or you don't know how much they took.\n- A seizure on a normal dose goes on for over 5 minutes.\n- Their breathing gets slow and shallow.",
+   "AI-Generated Medium (21 words): - Their lips turn blue or gray.\n- They get dangerously hot, which you can feel on their forehead (not just regular sweating).",
+   "AI-Generated Low (12 words): - They injure their head, break a bone, or bleeding won't stop."
+  ],
+  []
+ ],
+ "seize-c11": [
+  "Human Written",
+  0,
+  272,
+  "Human, High, 40; Human, Medium, 4; Human, High, 60; Human, Medium, 6; Human, High, 162",
+  "22:55:37",
+  "/1d90cd9d-7014-4d9b-b19f-e49424a87f94",
+  [],
+  [
+   "Human Medium (4 words): - Loosen any tight clothing.",
+   "Human Medium (6 words): - Their breathing gets slow and shallow."
+  ]
+ ]
+}

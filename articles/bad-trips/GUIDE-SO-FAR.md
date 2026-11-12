@@ -17,7 +17,7 @@ I developed the [**Inner Signal app**](http://innersignalselfhypnosis.com/integr
 ## Call medics for:
 
 - Trouble breathing, blue or gray lips, or respiratory depression
-- A convulsive seizure lasting over 5 minutes
+- A seizure after taking too much (or an unknown amount), or one on a normal dose lasting over 5 minutes
 - Collapse, inability to wake normally, or rapidly worsening consciousness
 - Dangerous overheating (not just regular sweating), severe rigidity, or clonus with fever
 - Severe insomnia
@@ -89,11 +89,11 @@ While the DMSO is working, check for [stroke warning signs](https://www.stroke.o
 
 When they're too out of it to help you do the checks, or if the brain-damage feeling stays despite sufficient treatment, then you've done what you can do, and it's time to call for help.
 
-I believe DMSO works better for stroke and most acute brain damage than anything else readily available to ordinary people. That judgment is stronger than the clinical evidence, but the evidence is not empty: a [preliminary human ischemic-stroke trial](https://pubmed.ncbi.nlm.nih.gov/11783757/) reported possible neurological benefit; a [small human series](https://pubmed.ncbi.nlm.nih.gov/6462399/) used DMSO for intracranial hypertension; and [animal stroke research](https://pubmed.ncbi.nlm.nih.gov/15744247/) found substantial infarct reduction even when treatment began after ischemia. DMSO also suppresses [NMDA- and AMPA-mediated excitotoxicity](https://pubmed.ncbi.nlm.nih.gov/11421595/).
+I believe, based on [my experience and those of others I've heard from, as well as the books I've read on this](http://dmso.u-dont-exist.com/), that DMSO works better for most acute brain damage than anything else readily available. The clinical evidence is incomplete, but it leans this way. In animals, when given after a stroke, [it shrank the area of the brain that died](https://pubmed.ncbi.nlm.nih.gov/15744247/) (which is a good thing). In [one human trial](https://pubmed.ncbi.nlm.nih.gov/11783757/), some clot stroke patients seemed to recover better on DMSO, and doctors have used it in a [small series of patients](https://pubmed.ncbi.nlm.nih.gov/6462399/) to bring down dangerous pressure inside the skull. But more relevant to the drug overdose issue this article deals with, DMSO calms [NMDA- and AMPA-mediated excitotoxicity](https://pubmed.ncbi.nlm.nih.gov/11421595/) that kills brain cells.
 
 DMSO cannot identify whether the problem is a clot, a hemorrhage, low oxygen, an electrolyte crisis, or something else. The larger adjacent risk is losing a treatment window or missing a bleed because the symptoms improved enough to feel reassuring. If someone is worried about a bleed, I'd probably skip DMSO, but it depends on how severe their issue is. It's not a powerful blood thinner like heparin, unless maybe injected; it's basically a dietary blood thinner. I've never had any issues with bleeding too much from consuming DMSO, and never heard of it either, but if bleeding is already a medical issue I'd want to think about that more.
 
-1. **DMSO immediately. Smell humic acid first; if that doesn't help, take a 5mg lick of it. Smell the Metta NMT sniffer** (described in [loveyhuasca guide](http://loveyhuasca.info)).
+1. **DMSO immediately. Smell humic acid first; if that doesn't help, take a 5mg lick of it.** (See [humic acid evidence here](http://humicacid.u-dont-exist.com).) **Smell the Metta NMT sniffer** (described in [loveyhuasca guide](http://loveyhuasca.info)).
 2. **Ask what the symptoms actually are while the DMSO is being used.** Do not manufacture reassurance from missing information.
 3. **If this is a psychedelic, use *Ipomoea pes-caprae* to stop the trip.** At this point safety matters more than preserving the experience.
 4. **If this is MDMA, move to magnesium chloride and the broader electrolyte branch instead.**
@@ -111,13 +111,16 @@ Time the seizure, and while it lasts:
 
 Call medics if any of these happen:
 
-- A convulsive seizure goes on for over 5 minutes.
+- They have a seizure after taking too much, or you don't know how much they took.
+- A seizure on a normal dose goes on for over 5 minutes.
 - Their breathing gets slow and shallow.
 - Their lips turn blue or gray.
-- They get dangerously hot (not just regular sweating).
+- Their forehead feels very hot (not just sweaty).
 - They injure their head, break a bone, or bleeding won't stop.
 
-If they have a rescue medicine for seizures with them, like one they carry for epilepsy, I'd give it when and how its label says. It's a benzodiazepine, the kind of drug [doctors reach for first when a seizure won't stop](https://pmc.ncbi.nlm.nih.gov/articles/PMC9477921/). A pill is no use while someone's seizing, so it'll be a nasal spray or a rectal gel, or sometimes an intramuscular shot. After giving it, I'd keep a close eye on their breathing, since a benzodiazepine adds to the risk of it getting slow and shallow, especially if they've also taken respiratory depressants like opioids or alcohol.
+Waiting the 5 minutes is only for a seizure on a normal dose. Psychedelics can lower the seizure threshold even at a normal dose, so someone with epilepsy or who's otherwise prone to seizures can have a seizure without taking too much. Their seizure is most likely less dangerous than an actual drug overdose seizure.
+
+If they have a rescue medicine for epilepsy seizures with them, give it as the label instructs. These medicines are [benzodiazepines](https://pmc.ncbi.nlm.nih.gov/articles/PMC9477921/) in nasal spray or rectal gel, or sometimes an intramuscular shot (pills can't be swallowed). After giving it, keep a close eye on their breathing, since a benzodiazepine adds to the risk of it getting slow and shallow, especially if they've also taken other respiratory depressants like opioids or alcohol.
 
 ### What Else May Help: At the Aura, and Alongside Rescue Medicine
 
