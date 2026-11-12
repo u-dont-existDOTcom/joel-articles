@@ -1,0 +1,169 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-12",
+ "text_sha256": "d3777fa557cf6cc978639b823635b5b3fc69ab37a13d34154749574e1fa459a4",
+ "text": "If Someone Says \"My Brain Feels Damaged\": DMSO + Humic Acid First\n\nWhile the DMSO is working, check them over. Several of these checks look for recognized stroke warning signs. If any check turns up a problem (or they're too out of it to answer you), keep the DMSO going while someone calls medics:\n- First, are they awake and breathing normally?\n- Feel whether they're very hot.\n- Have them talk and smile. Is their speech slurred, or does one side of their face droop?\n- Ask them to hold both arms out in front of them, and see if one drifts down.\n- If it's safe, have them stand and walk a few steps to see if they keep their balance. Wetting or soiling themselves is another sign to watch for.\n- Watch for a seizure, and for vomiting that keeps coming back.\n- Ask about a really bad headache or chest pain.\n- Check if their vision has changed.\n\nIf everything checks out but the brain-damage feeling stays, keep going DMSO-first and check them again soon.",
+ "section": "If Someone Says \"My Brain Feels Damaged\": DMSO + Humic Acid First",
+ "reader": "someone whose friend says their brain feels damaged, giving DMSO and checking them for signs of a stroke or other brain injury, to decide whether to call medics",
+ "sentences": [
+  {
+   "s": "If Someone Says \"My Brain Feels Damaged\": DMSO + Humic Acid First",
+   "payoff": "they know this part is for someone who says their brain feels damaged",
+   "follows": "the heading"
+  },
+  {
+   "s": "While the DMSO is working, check them over.",
+   "payoff": "they check the person over while the DMSO works",
+   "follows": "it opens the paragraph under its heading",
+   "link": "none: the first sentence under its heading"
+  },
+  {
+   "s": "Several of these checks look for recognized stroke warning signs.",
+   "payoff": "they know several of the checks look for recognized stroke warning signs",
+   "follows": "why these checks",
+   "link": "these checks"
+  },
+  {
+   "s": "If any check turns up a problem (or they're too out of it to answer you), keep the DMSO going while someone calls medics:",
+   "payoff": "they keep the DMSO going while someone calls medics when any check turns up a problem, or when the person is too out of it to answer",
+   "follows": "what to do with the checks, said before them",
+   "link": "If any check"
+  },
+  {
+   "s": "- First, are they awake and breathing normally?",
+   "payoff": "they check the person is awake and breathing normally",
+   "follows": "the first check",
+   "link": "First"
+  },
+  {
+   "s": "- Feel whether they're very hot.",
+   "payoff": "they feel whether the person is very hot",
+   "follows": "the next check",
+   "link": "none: a list line, the next check the reader expects after the one before"
+  },
+  {
+   "s": "- Have them talk and smile.",
+   "payoff": "they have the person talk and smile",
+   "follows": "the next check",
+   "link": "none: a list line, the next check the reader expects after the one before"
+  },
+  {
+   "s": "Is their speech slurred, or does one side of their face droop?",
+   "payoff": "they listen for slurred speech and look for one side of the face drooping",
+   "follows": "what talking and smiling show",
+   "link": "Is their speech slurred"
+  },
+  {
+   "s": "- Ask them to hold both arms out in front of them, and see if one drifts down.",
+   "payoff": "they have the person hold both arms out and see if one drifts down",
+   "follows": "the next check",
+   "link": "none: a list line, the next check the reader expects after the one before"
+  },
+  {
+   "s": "- If it's safe, have them stand and walk a few steps to see if they keep their balance.",
+   "payoff": "they see whether the person keeps their balance walking a few steps, if that is safe",
+   "follows": "the next check",
+   "link": "none: a list line, the next check the reader expects after the one before"
+  },
+  {
+   "s": "Wetting or soiling themselves is another sign to watch for.",
+   "payoff": "they know wetting or soiling themselves is another sign to watch for",
+   "follows": "what else walking may show",
+   "link": "another sign"
+  },
+  {
+   "s": "- Watch for a seizure, and for vomiting that keeps coming back.",
+   "payoff": "they watch for a seizure, and for vomiting that keeps coming back",
+   "follows": "the next signs",
+   "link": "none: a list line, the next check the reader expects after the one before"
+  },
+  {
+   "s": "- Ask about a really bad headache or chest pain.",
+   "payoff": "they ask about a really bad headache or chest pain",
+   "follows": "the next check",
+   "link": "none: a list line, the next check the reader expects after the one before"
+  },
+  {
+   "s": "- Check if their vision has changed.",
+   "payoff": "they check whether their vision has changed",
+   "follows": "the last check",
+   "link": "none: a list line, the next check the reader expects after the one before"
+  },
+  {
+   "s": "If everything checks out but the brain-damage feeling stays, keep going DMSO-first and check them again soon.",
+   "payoff": "they keep going with DMSO and check again soon when every check passes but the feeling stays",
+   "follows": "the case where every check passes",
+   "link": "If everything checks out"
+  }
+ ],
+ "checked": [],
+ "placement": "If Someone Says \"My Brain Feels Damaged\", its second paragraph (B104), after \"Do not dismiss that report\" and DMSO first, before his belief in DMSO for stroke (B105); B106's first sentence moves here",
+ "opens": {
+  "first_sentence": "If Someone Says \"My Brain Feels Damaged\": DMSO + Humic Acid First",
+  "why_reading": "it tells someone giving DMSO to a friend whose brain feels damaged what to check, and what each check shows"
+ },
+ "same_point": "merged here: B106's first sentence (\"For objective stroke-like signs, I would use DMSO immediately while someone calls medics.\") said here as what to do with the checks, now before them (\"If any check turns up a problem ..., keep the DMSO going while someone calls medics:\"); B106 keeps the rest",
+ "needed": {
+  "reader": "a fresh Haiku agent given tools/humanization/needed_read_brief.md with brain-p1's first draft, its heading and what it is for (reads/needed-brain-p1.txt); none unneeded",
+  "unneeded": [],
+  "kept": {}
+ },
+ "his_fixes": {
+  "reader": "fresh Sonnet readers given tools/humanization/his_fixes_brief.md, one for each draft (reads/his-brain-p1-draft1.txt, reads/his-brain-p1.txt)",
+  "marked": [
+   {
+    "s": "Several of these checks look for recognized stroke warning signs, so if any check turns up a problem (or they're too out of it to answer you), keep the DMSO going while someone calls medics:",
+    "difference": "1, 5",
+    "draft": "brain-p1 first draft"
+   },
+   {
+    "s": "- Feel whether they're very hot.",
+    "difference": "4, 7",
+    "draft": "brain-p1 first draft"
+   },
+   {
+    "s": "- Check if their vision has changed.",
+    "difference": "4",
+    "draft": "brain-p1 first draft"
+   },
+   {
+    "s": "If everything checks out but the brain-damage feeling stays, keep going DMSO-first and check them again soon.",
+    "difference": "4",
+    "draft": "brain-p1 first draft"
+   },
+   {
+    "s": "Several of these checks look for recognized stroke warning signs.",
+    "difference": "5",
+    "draft": "brain-p1"
+   }
+  ],
+  "kept": {
+   "- Feel whether they're very hot.": "kept for the minimal pair: brain-c3's own words, since this test changes only where the action is said (his try 7 on chest-c3); what to do with any sign is said once, in the lead-in now",
+   "- Check if their vision has changed.": "kept for the minimal pair: brain-c3's own words, since this test changes only where the action is said (his try 7 on chest-c3)",
+   "If everything checks out but the brain-damage feeling stays, keep going DMSO-first and check them again soon.": "kept for the minimal pair: brain-c3's own words, since this test changes only where the action is said (his try 7 on chest-c3); the guide's \"reassess promptly\" names no interval, and inventing one would add a claim",
+   "Several of these checks look for recognized stroke warning signs.": "kept for the minimal pair: brain-c3's own words, since this test changes only where the action is said (his try 7 on chest-c3), and W007's warning words (\"checks\", \"recognized\", \"warning\"), linked to the stroke list in the guide"
+  }
+ },
+ "questions": {
+  "Q1": "PASS: the action (\"keep the DMSO going while someone calls medics\") is said before the checks it serves, as in his Chest Pain fix; each line is one check and what it shows",
+  "Q2": "PASS: \"check\", \"Have them talk and smile\", \"Ask them\", \"Watch them\", \"Look out for\", \"count that as a warning sign\": the reader's acts",
+  "Q3": "PASS: which side, which arm, bladder or bowels, vision",
+  "Q4": "PASS: \"facial symmetry\", \"bodily control\" and \"neurological status\" said as what the reader sees (\"one side of their face droop\", \"Wetting or soiling themselves\", \"too out of it to answer you or do the checks\"); no term left",
+  "Q5": "PASS: \"If any check turns up a problem\", \"Is their speech slurred\", \"another sign to watch for\", \"If everything checks out\" say each relation",
+  "Q6": "PASS: why the checks, what to do when one shows a sign or can't be done, the checks, the case they all pass",
+  "Q7": "PASS: each line bears on whether to call medics",
+  "Q8": "PASS: all about checking someone whose brain feels damaged",
+  "Q9": "PASS: one check a line"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}
