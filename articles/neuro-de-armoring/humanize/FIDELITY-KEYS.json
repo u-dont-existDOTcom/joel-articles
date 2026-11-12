@@ -2607,6 +2607,23 @@
     ]
    },
    "citations_lost": []
+  },
+  {
+   "by": "fix-20261108/keto/ANSWERS-X1111C-20261112-1823.json, card SC-48b to revise with his version (his answers exported 2026-11-12 18:23 UTC), applied by fix-20261108/keto/apply_x1111c.py with the fixes it lists",
+   "why": "block 48 ends on what has been seen in people with PTSD on a keto diet and how far it goes (Edwards 2024; Bellamy & Laurent 2025; Laurent 2026; Youssef 2022), with his clause on forum reviews of the salts, rats with trauma and the review he cites (Engelhardt 2026); sources in fix-20261108/keto/KETO-PTSD.md. The new numbers are those citations' years and the Oslo study's 20 and 10 points",
+   "numbers_lost": [],
+   "numbers_new": [
+    "10",
+    "20",
+    "2022",
+    "2024",
+    "2025",
+    "2026",
+    "2026"
+   ],
+   "terms_lost": [],
+   "keys_lost": {},
+   "citations_lost": []
   }
  ],
  "warning_words": {

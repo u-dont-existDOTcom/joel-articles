@@ -18,6 +18,18 @@ From an account with Desktop Commander connected to the laptop: "Continue my neu
 
 ## START HERE
 
+- **2026-11-12, after his answers of 18:23 UTC: his version of SC-48b is in; card SC-48c waits on him; lesson 12a.**
+  HUMANIZED-SO-FAR.md is 37964390 (`fix-20261108/keto/apply_x1111c.py`; FIDELITY owner_changes for SC-48b; my read
+  `keto/read_x1111c.py`). Card SC-48c (`fix-20261108/keto/REVIEW-X1112A.md`, on the cards page
+  https://claude.ai/artifact/9nENpt9AEJCB43a9Wy5jqn, version 6) changes two phrases of his clause to what the review he
+  cites says: "BHB injections work for rats with trauma" and "although in humans it's still an open question whether the
+  salts work as well as the keto diet" (`keto/KETO-PTSD.md`, "His clause, checked"). **When his answer comes**: apply it
+  by script, as `keto/apply_x1111c.py` does, then my comparative read and the gates. Gate bad-trips-2026-11-12g is in
+  force: any new text of mine gets the fresh read against his fixes (`tools/humanization/his_fixes_brief.md`) before a
+  check, and the receipt carries it. **Next**: the coherence read (`fix-20261108/coherence/EXTRACT.md`), Strategy A's
+  "need the fog gone fast" (block 95) beside Youssef 2022; research wide on both sides first, animals included (lessons
+  neuro-2026-11-11b, 11c, 12a). Reddit stays unread in every tool; ask him for the posts' text.
+
 - **2026-11-11, after his message of 22:53 UTC: card SC-48b waits on him (ketosis in people with PTSD); lesson 11c.**
   HUMANIZED-SO-FAR.md is still adfe7042. The card (`fix-20261108/keto/REVIEW-X1111C.md`, on the cards page
   https://claude.ai/artifact/9nENpt9AEJCB43a9Wy5jqn, version 5) replaces block 48's "Whether ketosis does that in people

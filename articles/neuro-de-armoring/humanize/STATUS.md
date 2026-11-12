@@ -1,5 +1,29 @@
 # Status: neuro de-armoring humanization (newest on top)
 
+## 2026-11-12, his answers of 18:23 UTC: his version of SC-48b in; card SC-48c; lesson 12a
+
+His answers: `fix-20261108/keto/ANSWERS-X1111C-20261112-1823.json` (SC-48b to revise, his version). **The mailbox first**
+("2026-11-12 18:23"): main 20749c0d6 merged (this lane's 423; bad-trips 424 to 427, with the sixth fix and gate
+bad-trips-2026-11-12g, the read against his fixes before any check of a text of mine, adopted); UDA unchanged; no new
+issues or comments; no notifications.
+
+- **Applied** (`fix-20261108/keto/apply_x1111c.py`, APPLIED-X1111C.json): block 48 is his version, word for word, with
+  the fixes listed (the Reddit link's brackets, "the salts works", the Engelhardt citation's brackets and comma, the full
+  stop, the citations' links put back). FIDELITY-KEYS owner_changes entry; fidelity PASS. My comparative read
+  (`keto/read_x1111c.py`): F1 and F2 (severity 2, the rats and the salts against the diet) his, on card SC-48c; F3
+  (severity 1, the two "although"s) his; compare gate PASS. HUMANIZED-SO-FAR.md adfe7042 to 37964390.
+- **His clause checked** (`keto/KETO-PTSD.md`, "His clause, checked"): Engelhardt 2026 is the integrative review; its
+  rats had BHB by injection (Yamanashi 2020, full text: DL-BHB under the skin; Jung 2025) or MCT oil by mouth (Yoshioka
+  2026), never the salts by mouth; it calls the salts against the diet in people "an open question". The Reddit thread
+  wasn't read (blocked as content).
+- **Card SC-48c** (`keto/build_x1112a.py`; REVIEW-X1112A, cards page version 6): the two phrases changed to the review's
+  wording; the advice offers the split at his first "although". Fresh reads: the needed read (`keto/needed/sp48c`) and
+  the read against his fixes (`keto/his-fixes/sp48c`), with my dispositions.
+- **Lesson neuro-2026-11-12a** (`docs/lessons/2026-11-12-1823-neuro.md`): studies of the compound in the condition,
+  animals included, go in with what was given and how; a stand-in mechanism ranks below them.
+- **Waiting on him**: SC-48c. Next: the coherence read (`fix-20261108/coherence/EXTRACT.md`), Strategy A's "need the fog
+  gone fast" with the salts (block 95) beside Youssef 2022.
+
 ## 2026-11-11, his message of 22:53 UTC: ketosis in people with PTSD (SC-48b); lesson 11c
 
 His message word for word and GPT's review: `fix-20261108/joel-20261111-2253-message.txt`,
