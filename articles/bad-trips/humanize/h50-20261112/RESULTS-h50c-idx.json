@@ -1,0 +1,43 @@
+{
+ "rescuep-c10": [
+  "AI Detected",
+  0.79,
+  106,
+  "cdc63980-b7da-43a7-b684-819d7d4ac1c8",
+  "2026-11-12T20:20:10.000Z",
+  [
+   [
+    "AI-Generated",
+    "Low",
+    26,
+    0,
+    129,
+    "If they have a rescue me"
+   ],
+   [
+    "AI-Generated",
+    "Low",
+    18,
+    129,
+    220,
+    "It's a benzodiazepine, t"
+   ],
+   [
+    "Human",
+    "Low",
+    25,
+    220,
+    341,
+    "A pill is no use while s"
+   ],
+   [
+    "AI-Generated",
+    "High",
+    37,
+    341,
+    553,
+    "After giving it, I'd kee"
+   ]
+  ]
+ ]
+}

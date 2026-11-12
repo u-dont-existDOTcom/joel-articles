@@ -1,0 +1,83 @@
+{
+ "rescue-c10": [
+  "Human Written",
+  0,
+  222,
+  "8522369e-b999-481a-84c0-3ab4c0518bef",
+  "2026-11-12T20:21:13.444Z",
+  [
+   [
+    "Human",
+    "High",
+    40,
+    0,
+    251,
+    "Active Seizure\nTime the "
+   ],
+   [
+    "Human",
+    "Medium",
+    4,
+    251,
+    280,
+    "- Loosen any tight cloth"
+   ],
+   [
+    "Human",
+    "High",
+    40,
+    280,
+    515,
+    "- Turn them gently onto "
+   ],
+   [
+    "Human",
+    "Medium",
+    6,
+    515,
+    556,
+    "- Their breathing gets s"
+   ],
+   [
+    "Human",
+    "High",
+    26,
+    556,
+    708,
+    "- Their lips turn blue o"
+   ],
+   [
+    "Human",
+    "Medium",
+    26,
+    708,
+    838,
+    "If they have a rescue me"
+   ],
+   [
+    "Human",
+    "Low",
+    18,
+    838,
+    929,
+    "It's a benzodiazepine, t"
+   ],
+   [
+    "Human",
+    "High",
+    25,
+    929,
+    1050,
+    "A pill is no use while s"
+   ],
+   [
+    "Human",
+    "Low",
+    37,
+    1050,
+    1262,
+    "After giving it, I'd kee"
+   ]
+  ]
+ ]
+}

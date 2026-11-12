@@ -56,7 +56,7 @@
  {
   "id": "B94",
   "kind": "ul",
-  "md": "- Trouble breathing, blue or gray lips, or respiratory depression\n- A convulsive seizure lasting about five minutes, repeated seizures without normal recovery, or a first or substantially different seizure\n- Collapse, inability to wake normally, or rapidly worsening consciousness\n- Dangerous overheating (not just regular sweating), severe rigidity, or clonus with fever\n- Severe insomnia\n- Sudden one-sided weakness, loss of speech, inability to walk normally, or loss of control of bodily functions\n- A report that the brain feels damaged when the person cannot complete a basic neurological check or is rapidly worsening\n- Severe, worsening, radiating, or exertional chest pain--or chest pain with breathlessness, sweating, faintness, neurological changes, or collapse\n- Serious injury, uncontrolled bleeding, or a possible head or spinal injury\n- Repeated vomiting, severe dehydration, blood, or severe abdominal pain\n- Concerning symptoms after an MAOI, which slows the breakdown of serotonin (some older antidepressants, and the harmalas in ayahuasca and Syrian rue seeds), plus a serotonergic substance, one that raises serotonin, like MDMA or most antidepressants",
+  "md": "- Trouble breathing, blue or gray lips, or respiratory depression\n- A convulsive seizure lasting over 5 minutes\n- Collapse, inability to wake normally, or rapidly worsening consciousness\n- Dangerous overheating (not just regular sweating), severe rigidity, or clonus with fever\n- Severe insomnia\n- Sudden one-sided weakness, loss of speech, inability to walk normally, or loss of control of bodily functions\n- A report that the brain feels damaged when the person cannot complete a basic neurological check or is rapidly worsening\n- Severe, worsening, radiating, or exertional chest pain--or chest pain with breathlessness, sweating, faintness, neurological changes, or collapse\n- Serious injury, uncontrolled bleeding, or a possible head or spinal injury\n- Repeated vomiting, severe dehydration, blood, or severe abdominal pain\n- Concerning symptoms after an MAOI, which slows the breakdown of serotonin (some older antidepressants, and the harmalas in ayahuasca and Syrian rue seeds), plus a serotonergic substance, one that raises serotonin, like MDMA or most antidepressants",
   "text": null
  },
  {
@@ -188,7 +188,7 @@
  {
   "id": "B103",
   "kind": "p",
-  "md": "Don't dismiss someone who says their brain feels damaged just because they're high or can't explain what they feel in medical language, since something could really be going wrong in their brain. [DMSO](http://dmso.u-dont-exist.com/) is my first immediate remedy while I ask what the symptoms actually are. I usually know within about a minute whether it is helping. Smelling [humic acid ](http://humicacid.u-dont-exist.com)or tasting a tiny bit can also help a lot, in my experience, but I'm still collecting data from others. I add electrolytes too, because magnesium (and then potassium) can be depleted by some drugs, especially MDMA and iboga, although I don't think just electrolytes would be sufficient.",
+  "md": "Don't dismiss someone who says their brain feels damaged just because they're high or can't explain what they feel in medical language, since something could really be going wrong in their brain. [DMSO](http://dmso.u-dont-exist.com/) is my first immediate remedy while I ask what the symptoms actually are. I usually know within about a minute whether it is helping. Smelling [humic acid ](http://humicacid.u-dont-exist.com)or tasting a tiny bit can also help a lot, in my experience, but I'm still collecting data from others. I give electrolytes to drink also, because magnesium (and then potassium) can be depleted by some drugs, especially MDMA and iboga, although I don't think just electrolytes would be sufficient to reverse damage already underway.",
   "text": null
  },
  {
@@ -201,7 +201,7 @@
   "id": "R38-BRAIN-LIST",
   "kind": "ul",
   "text": null,
-  "md": "- First, are they unconscious or breathing abnormally?\n- Feel whether they're very hot.\n- Have them talk and smile. Is their speech slurred, or does one side of their face droop?\n- Ask them to hold both arms out in front of them, and see if one drifts down.\n- If you can safely hold them as they try, have them stand and walk a few steps to see if they keep their balance.\n- Wetting or soiling themselves is another sign to watch for.\n- Watch for a seizure, and for vomiting that keeps coming back.\n- Ask about a really bad headache or chest pain.\n- Check if their vision has changed."
+  "md": "- First, are they unconscious or breathing abnormally?\n- Feel whether they're very hot.\n- Have them talk and smile. Is their speech slurred, or does one side of their face droop?\n- Ask them to hold both arms out in front of them, and see if one drifts down.\n- If you can safely hold them as they try, have them stand and walk a few steps to see if they keep their balance.\n- Wetting or soiling themselves is another sign to watch for.\n- Watch for a seizure, and for vomiting that keeps coming back.\n- Ask about a really bad headache or chest pain."
  },
  {
   "id": "R38-BRAIN-2",
@@ -242,7 +242,7 @@
  {
   "id": "H49-SEIZE-LIST",
   "kind": "ul",
-  "md": "- Move any dangerous objects away from them, especially anything hard or sharp.\n- Loosen any tight clothing.\n- Turn them gently onto their side, which helps them breathe.\n- Don't restrain them, since that can cause injuries.\n- Keep everything out of their mouth while they're convulsing or not fully conscious.",
+  "md": "- Move any dangerous objects away from them, especially anything hard or sharp.\n- Don't restrain them, since that can cause injuries, but do put pillows where appropriate, especially under the head.\n- Loosen any tight clothing.\n- Turn them gently onto their side, which helps them breathe.\n- Keep everything out of their mouth while they're convulsing or not fully conscious.",
   "text": null
  },
  {
@@ -254,13 +254,13 @@
  {
   "id": "H49-SEIZE-CALL",
   "kind": "ul",
-  "md": "- A convulsive seizure goes on for about five minutes.\n- Another seizure starts before they've recovered from the last one.\n- Their breathing gets slow and shallow.\n- Blue or gray lips are another sign.\n- They get dangerously hot (not just regular sweating).\n- They're seriously hurt, like bleeding that won't stop or a possible head injury.\n- It's their first seizure, or one that's substantially different from their usual ones.",
+  "md": "- A convulsive seizure goes on for over 5 minutes.\n- Their breathing gets slow and shallow.\n- Their lips turn blue or gray.\n- They get dangerously hot (not just regular sweating).\n- They injure their head, break a bone, or bleeding won't stop.",
   "text": null
  },
  {
   "id": "B110",
   "kind": "p",
-  "md": "If an appropriate rapid seizure-rescue benzodiazepine is available, use it by its intended route. Benzodiazepines are the [established first-line drug class for status epilepticus](https://pmc.ncbi.nlm.nih.gov/articles/PMC9477921/). An ordinary pill is not the same thing as a nasal, buccal, rectal, intramuscular, or intravenous rescue preparation, and respiratory depressants in the mix change the risk.",
+  "md": "If they have a rescue medicine for seizures with them, like one they carry for epilepsy, I'd give it when and how its label says. It's a benzodiazepine, the kind of drug [doctors reach for first when a seizure won't stop](https://pmc.ncbi.nlm.nih.gov/articles/PMC9477921/). A pill is no use while someone's seizing, so it'll be a nasal spray or a rectal gel, or sometimes an intramuscular shot. After giving it, I'd keep a close eye on their breathing, since a benzodiazepine adds to the risk of it getting slow and shallow, especially if they've also taken respiratory depressants like opioids or alcohol.",
   "text": null
  },
  {

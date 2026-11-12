@@ -1,0 +1,10 @@
+NEEDS:
+S1: Tells the reader whether and how to give the rescue medicine they have on hand, which is the core decision the paragraph exists for.
+S2: nothing
+S3: Tells the reader the medicine comes as a nasal spray or rectal gel, so they know it can be given to someone who cannot swallow during a seizure.
+S4: nothing
+S5: Tells the reader to keep watching the friend's breathing after giving the medicine, which is the follow-up action they need.
+
+UNNEEDED:
+- S2: These are benzodiazepines, the same first drugs doctors reach for when a seizure won't stop. — It names the drug class and explains why it is used, but the reader does not need that to decide or act; S1 already tells them to follow the label.
+- S4: A few are intramuscular shots. — It only names one more category of form, and the label named in S1 already says how to give whichever form they have.
