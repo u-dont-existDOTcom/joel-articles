@@ -1,0 +1,23 @@
+QUESTION: Do I call an ambulance right now, and what do I do for my friend in the next few minutes, given they swallowed too much an hour ago?
+
+S1:
+DO: Ask what they took, how much, and when. I can start that now. Nothing yet on whether to call anyone.
+STUCK: "remedy" (I'm not looking for a remedy, I want to know whether to call). "overdose" in quotes is fine.
+AGAIN: -
+PACKED: What / how much / when is three things, but they are all one question to ask, so it is tolerable.
+
+S2:
+DO: Watch them. Nothing yet, because it doesn't say what to look for.
+STUCK: "what their body is doing" is too vague to act on.
+AGAIN: Partly repeats S1's idea of finding out what is going on, but it is a new action (observe).
+PACKED: -
+
+S3:
+DO: Check their breathing. If it is slow and shallow, that is one problem. Otherwise I can't tell what to do, because no remedy is given.
+STUCK: "respiratory depression" (the parenthetical helps), "serotonin toxicity" (I can't act on it), "etc." (what else?), "each gets its own remedy" (but none is named, so I am left waiting).
+AGAIN: The "body" signs overlap with S2; this is S2 restated as a list of conditions.
+PACKED: Yes. Five conditions at once (slow breathing, stimulant high, serotonin toxicity, seizure, overheating) plus "etc.", and I have no spare attention.
+
+PAYOFF: My question was never answered. No sentence says to call an ambulance or emergency services, and none gives any remedy or any "while you wait" step. S3 promises remedies and delivers none. What I needed before S1 was a threshold: if they are hard to wake, breathing slowly, seizing, or very hot, call emergency services now. That belongs at the very start, before the questions about what they took.
+
+WORST: Open with the call-emergency-now signs (slow or shallow breathing, can't be woken, seizure, very hot) and put what to do while waiting right after.

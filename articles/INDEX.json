@@ -116756,7 +116756,7 @@
         },
         {
           "path": "articles/bad-trips/HANDOFF-bad-trips.md",
-          "sha256": "dd0ab63841b14d29ace7b03927c9f443890e9dd60218a3fb4c2d290d60fffd8f",
+          "sha256": "3a65b45d7c56eb8fb6115988bf9dd89c2a9ab5bed63ac870155afc8bd08ffd00",
           "role": "humanization_working_record"
         },
         {
@@ -116766,7 +116766,7 @@
         },
         {
           "path": "articles/bad-trips/OWNER-QUESTIONS.md",
-          "sha256": "d5aaaa5abea63bd0acdddb8adfb7200f0921413d0a8da30dbf73b388a6933844",
+          "sha256": "bbeda3e44e3d905f022b4ab3cce24c0cad0c15910a1ecd8d9d2fff4fde81b30b",
           "role": "owner_questions_page"
         },
         {
@@ -116816,7 +116816,7 @@
         },
         {
           "path": "articles/bad-trips/humanize/pangram-ledger.jsonl",
-          "sha256": "b93025006a3f05873c611843ae6d7ce37893866aa03abdf51486cc84fcebd610",
+          "sha256": "978959ef751fada077ef91803c70c696dcf33555797f8b3c2e6a3b90338d76d2",
           "role": "humanization_working_record"
         },
         {
@@ -116886,7 +116886,7 @@
         },
         {
           "path": "articles/bad-trips/BAD-TRIPS-GUIDE-AS-IT-STANDS.html",
-          "sha256": "a850c33b20fd69d4ed87f54b53e6fc4e2cc9f890bc3178a96a6eed7e87910f17",
+          "sha256": "8663bc5ead5432428ee14ef4176798e6dd054edbcb079bc9e741058e66426feb",
           "role": "humanization_working_record"
         },
         {
@@ -116911,17 +116911,17 @@
         },
         {
           "path": "articles/bad-trips/GUIDE-SO-FAR-blocks.json",
-          "sha256": "c4f8b9398b2900be1e312d868f99193d4394fda3d3bf1052316c60c0872b56b2",
+          "sha256": "54b234e9cff83154fd7a9638849ee908722a3cbe7c868137f3039828cb3485f8",
           "role": "humanization_working_record"
         },
         {
           "path": "articles/bad-trips/GUIDE-SO-FAR.md",
-          "sha256": "0970e4be2f73a36edc60ab7730a9d51a9635ea50cef2ab6da7d37f4466556a4f",
+          "sha256": "8a3e1add695cd17d819531390a32e62a706f0b2f5ad35346c408c3b436d3a3f0",
           "role": "humanization_working_record"
         },
         {
           "path": "articles/bad-trips/OWNER-EDITS.json",
-          "sha256": "65437fc4f10a84519241bb53510134851e71c057ce45b22a2f2c00b688dce0d1",
+          "sha256": "08d5b9c69b38a85ae1983d050fca5d00bd311485f61fe1c05db812031b413ee8",
           "role": "owner_edits_ledger"
         },
         {
@@ -128967,6 +128967,231 @@
         {
           "path": "articles/bad-trips/review/r37/cards_r37.py",
           "sha256": "658d4114cf3acf7c63a61b1987bc853b8d61dceb117e83be77b26c4f37a488c8",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/bad-trips/experiments/t37-answers/JOEL-TRIES-TEACH-CHEST.md",
+          "sha256": "91c09c8057d76b6b7243e4e7a7d46c30888a7ba52460fc386558025134ba7ae1",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/bad-trips/humanize/h47-20261112/CALIBRATION.md",
+          "sha256": "32a854aef5745c199d2e0c40caf7607bc3609b8d9b305c2a80e3fd534900e502",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/bad-trips/humanize/h47-20261112/CASES.json",
+          "sha256": "acb051025fc753e8587b66cb6f7a0bf12f9b544c187e66867156c49456a6d483",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/bad-trips/humanize/h47-20261112/GOLD.json",
+          "sha256": "46ebd120f3dc302accf346a62f3276099307ae015028acbd6ab7518d0f996025",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/bad-trips/humanize/h47-20261112/answers/PROMPT-new-oral-p1.txt",
+          "sha256": "71e25a829fed2a91f88e0f0a37e71d6354c2bd55b869b48593ef5d3af5b13127",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/bad-trips/humanize/h47-20261112/answers/PROMPT-old-oral-p1.txt",
+          "sha256": "b3cabd958fb011b8385b049957b6ee3779a6a97e179f3f076b818f598b0708e8",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/bad-trips/humanize/h47-20261112/answers/ans-new-aftermath-before.txt",
+          "sha256": "dd2326c3ed3b3e29bc2a78fc9e8e6b7201622426858b33addba430016beb045a",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/bad-trips/humanize/h47-20261112/answers/ans-new-oral-p1.txt",
+          "sha256": "dd4e921a8b2b43eeb87778641b783a865f958522148658f76ba1b85e78309103",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/bad-trips/humanize/h47-20261112/answers/ans-new-room-before.txt",
+          "sha256": "f5ec9d7c6c183148a35c2d8b920a901920950b6bc5ed248b311756acff6b4b1d",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/bad-trips/humanize/h47-20261112/answers/ans-old-aftermath-before.txt",
+          "sha256": "1284483a35f8d4bf789431543011c4b176e9517fe7e03acf4d1abbc614d57c60",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/bad-trips/humanize/h47-20261112/answers/ans-old-cbd-before.txt",
+          "sha256": "f7f40c28d8be83d64be9153925f6d1e3d21cb41ce78f52b300b2a4a5d5cada1d",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/bad-trips/humanize/h47-20261112/answers/ans-old-oral-p1.txt",
+          "sha256": "e6544077675c12a1a16710119555eaa80104ad1359409dec2d756d3433e1fd6f",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/bad-trips/humanize/h47-20261112/answers/ans-old-pfa-before.txt",
+          "sha256": "7a234e0b33aea35797ce98b4fac15775d3a55cc6b4458077101d4359ec7df339",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/bad-trips/humanize/h47-20261112/answers/ans-old-room-before.txt",
+          "sha256": "0b5d3d5c5b17c010817f1a5977bbe4d100887221d06e692314c34f4364a4a59a",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/bad-trips/humanize/h47-20261112/answers/ans-old-ss-r1-fix2.txt",
+          "sha256": "9c43715649fe14b786ca59b314d7e77ec6269e8b1e100a00102800b2495480c2",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/bad-trips/humanize/h48-20261112/HIS-FIXES.json",
+          "sha256": "ad946e2e060a800768915f26f84b612ef53c340a0a4376b6ce6eadff6fb3d85e",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/bad-trips/humanize/h48-20261112/NEEDED.json",
+          "sha256": "590734f3c9acf4790425b0c6274cafa33292217732723b3e977aaae5f2505628",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/bad-trips/humanize/h48-20261112/RESULTS-h48a-idx.json",
+          "sha256": "1b08f4d394999c58583dc95e28bc47a53ac5149e5cd0d01296c123dd25a4bccf",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/bad-trips/humanize/h48-20261112/RESULTS-h48a.json",
+          "sha256": "a7bd96d9ceede31d1caf927e05ba945d31cf99b1f1ba0c872d799f51e83e3bf2",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/bad-trips/humanize/h48-20261112/RESULTS.md",
+          "sha256": "0fbb239a4a7c796ab9ad72c79fa3627619cce79fafa5f8d976780d9eead60e6e",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/bad-trips/humanize/h48-20261112/TEST-acute-c1.receipt.json",
+          "sha256": "908a209062efb7c91f1276e2f4c7e11f5a0369d386548da43075a6f718fba0ea",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/bad-trips/humanize/h48-20261112/TEST-acute-c1.txt",
+          "sha256": "7084f7d4b119e7efc29197df09918a4fc097cd9da085f384996730a34a36c57a",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/bad-trips/humanize/h48-20261112/TEST-brain-p1.receipt.json",
+          "sha256": "6d0e1fefde6b6cd8b409186077cb1ac98daebbb46866e07fc7e1a0004654afd1",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/bad-trips/humanize/h48-20261112/TEST-brain-p1.txt",
+          "sha256": "57a3fb2d9dbb02cab4bca3de684a4ac0c759c2496322a4ddc9b49630310a8e87",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/bad-trips/humanize/h48-20261112/apply_h48.py",
+          "sha256": "eff9d0a058845d45f0678e52ae06e88fbf02a3ef07f490c05c42b4ab0f3cd2d3",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/bad-trips/humanize/h48-20261112/build_tests.py",
+          "sha256": "5a60dffb011b7c2fe8723d0c15b91a2ba2a60e268c954ec5cd43f9e925053e94",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/bad-trips/humanize/h48-20261112/ingest.py",
+          "sha256": "3298a09561475c1fb4b20f195676939e55acaba6d325e09f8d7d75a91e1c2dcd",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/bad-trips/humanize/h48-20261112/make_receipts.py",
+          "sha256": "e440afc8520488a0f2fe08394e5e1a7e9ad7557fe57cdc320180d1f5f6b910e1",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/bad-trips/humanize/h48-20261112/predict.py",
+          "sha256": "c36071117f55d385fa9306b6640d02c955936f83e3476fe9a3ed851167667740",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/bad-trips/humanize/h48-20261112/reads/his-acute-c1.txt",
+          "sha256": "e6a78c420186d45130f2d6091077ff8fe80602cc1d000ceabc053527f8ea7e0f",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/bad-trips/humanize/h48-20261112/reads/his-brain-p1-draft1.txt",
+          "sha256": "1da88ebd0a36f31f6515476dff8956a46b4b6814049b96b52f4530eda5233c68",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/bad-trips/humanize/h48-20261112/reads/his-brain-p1.txt",
+          "sha256": "5d212fecfc6e6bff12e98aeec4ea17ebb1e15c90af6594ecd53730a0e773b257",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/bad-trips/humanize/h48-20261112/reads/needed-acute-c1.txt",
+          "sha256": "2b6d27f69c80a678cb4b979ab9a636abaa0b52d76067eb6182096d593dd27269",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/bad-trips/humanize/h48-20261112/reads/needed-brain-p1.txt",
+          "sha256": "443e5598f60023501eda75a1134ac56dc4327f6c2783478eb95298af3f162e4a",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/bad-trips/review/r37/ANSWERS-R37-20261112-1647.json",
+          "sha256": "ca3796b0434cffc6cce2a3f865ed59dd5c8c1e311808a52beb7b1ae77bff614b",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/bad-trips/review/r37/apply_r37.py",
+          "sha256": "ff93eddd4fea2e7e39cea9310e6b1cf77f14ffd76576f6da73159a103bc90cf9",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/bad-trips/review/r38/BROWSER-TEST-R38.json",
+          "sha256": "6851ca4b7b377ebf2efa1693727e2606d8a5260d3101b409e9a65be6d04e04fc",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/bad-trips/review/r38/PAGE-R38-map.json",
+          "sha256": "8892fd43c7f8d39ffab07d529ee31ccdc64bc8db890670e6449b4071e9b02e44",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/bad-trips/review/r38/PAGE-R38.md",
+          "sha256": "16d80f3815b97256404739cd4f5401cdb42d8c7141ebb4eabdab2dffc2fedf4b",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/bad-trips/review/r38/REVIEW-R38.artifact.html",
+          "sha256": "66b0112c6a4af70590681a19732de449c7ce80bc090fa6d3e8aa1dea265aa3ed",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/bad-trips/review/r38/REVIEW-R38.html",
+          "sha256": "f3427dd263b1e85bf0df2bd459c28f1b586217b2ef2e408a0642fd767fbd8a89",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/bad-trips/review/r38/REVIEW-R38.json",
+          "sha256": "8901e75af151e7b31c64f9c7218c579a8a19ff643f310a5bc99475057f8e25b4",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/bad-trips/review/r38/REVIEW-R38.md",
+          "sha256": "fd7233017fbd500a8113e0de6762cf5268e4c900d81065a55df047480fceceb5",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/bad-trips/review/r38/build_r38.py",
+          "sha256": "f24a1571906a5c9ad692e1bee0306ec3ee5b79339707ae774ab800ed33be7bac",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/bad-trips/review/r38/cards_r38.py",
+          "sha256": "be04fc0be17a9baffe859003d7e2d4abe7c7ed74e89ca960593cae86baedcc71",
           "role": "humanization_working_record"
         }
       ]

@@ -1,0 +1,113 @@
+QUESTION: What do I change right now, in this loud crowded room, to settle my panicking friend?
+
+S1: "Then look at the room."
+DO: Look around the room (not just at my friend).
+STUCK: "Then" - then after what? I never saw the earlier step, but I can still act.
+AGAIN: -
+PACKED: -
+
+S2: "Is the light too bright?"
+DO: Check the light.
+STUCK: -
+AGAIN: -
+PACKED: -
+
+S3: "Is the music horrible?"
+DO: Check the music.
+STUCK: "horrible" is vague; I'd read it as too loud or grating for my friend.
+AGAIN: -
+PACKED: -
+
+S4: "Are five concerned people talking at once?"
+DO: Check how many people are crowding in and talking.
+STUCK: -
+AGAIN: Slight overlap with the noise from S3, but it's a separate cause (people, not music).
+PACKED: -
+
+S5: "Is somebody touching the person when touch is unwelcome?"
+DO: Check whether anyone is touching my friend.
+STUCK: "the person" - my friend, presumably.
+AGAIN: -
+PACKED: -
+
+S6: "Are they too hot, too cold, desperate for the bathroom, or trapped beside somebody they don't trust?"
+DO: Check temperature, bathroom need, and who is next to my friend.
+STUCK: -
+AGAIN: -
+PACKED: Yes: four separate things to check in one sentence.
+
+S7: "A huge amount of what gets called profound psychedelic crisis is a frightened nervous system stuck in an annoying room."
+DO: Nothing new; it tells me this is probably the room and not a medical emergency. That helps me decide to fix the room myself.
+STUCK: "profound psychedelic crisis" is a bit grand, and "annoying" undersells it, but I can act.
+AGAIN: Restates the point of S2-S6.
+PACKED: -
+
+S8: "Dim the lights."
+DO: Dim the lights.
+STUCK: -
+AGAIN: Answers S2.
+PACKED: -
+
+S9: "Lower the sound."
+DO: Turn the music down.
+STUCK: -
+AGAIN: Answers S3.
+PACKED: -
+
+S10: "Clear out the extra people."
+DO: Get the extra people out.
+STUCK: "extra" - who counts as extra? I'd guess everyone except me and one calm person.
+AGAIN: Answers S4.
+PACKED: -
+
+S11: "Offer water without forcing it."
+DO: Offer water, don't push it.
+STUCK: -
+AGAIN: -
+PACKED: -
+
+S12: "Sip rather than chug."
+DO: Hand it over for small sips.
+STUCK: -
+AGAIN: Overlaps S11; it's the same water action.
+PACKED: -
+
+S13: "Ask before touching."
+DO: Ask before I touch my friend.
+STUCK: -
+AGAIN: Answers S5.
+PACKED: -
+
+S14: "Speak slowly and use fewer words."
+DO: Talk slowly, in short sentences.
+STUCK: -
+AGAIN: -
+PACKED: Two things (slow, few words), but they go together.
+
+S15: "Please don't explain the universe at somebody who is already frightened by it."
+DO: Don't lecture or explain big ideas.
+STUCK: "the universe" is figurative; I get it.
+AGAIN: Overlaps S14 (fewer words).
+PACKED: -
+
+S16: "Ask 'music or quiet?'"
+DO: Ask my friend exactly that.
+STUCK: -
+AGAIN: Partly overlaps S9, but it hands the choice to my friend.
+PACKED: -
+
+S17: "If a track starts pulling the experience somewhere unwanted, change it."
+DO: Change the song if it's pulling my friend somewhere bad.
+STUCK: "pulling the experience somewhere unwanted" is abstract; I'd read it as the music is making things worse.
+AGAIN: Overlaps S3, S9 and S16.
+PACKED: -
+
+S18: "This is a bad time to defend the playlist."
+DO: Don't argue about the music.
+STUCK: -
+AGAIN: Overlaps S17.
+PACKED: -
+
+PAYOFF: My question was answered at S8-S10 (dim the lights, lower the sound, clear the room). Before that I needed the instructions, but S1-S6 only gave me questions to check. I had to hold six checks (S2-S6, with four things inside S6) before I got a single action. The verdict in S7 ("it's mostly the room, so you can handle it") is what I needed first, to know I'm not calling an ambulance. It arrives late, after the checklist. The actions in S8-S18 are good and short. The checks and the actions are the same list said twice (S2 -> S8, S3 -> S9, S4 -> S10, S5 -> S13).
+
+WORST: Open with S7 (it's usually the room, not a crisis), then give the actions (dim, lower, clear, water, ask before touching) in one pass, and drop the separate "is it...?" checklist.

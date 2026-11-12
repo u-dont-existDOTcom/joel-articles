@@ -1,0 +1,16 @@
+{
+ "brain-p1": {
+  "reader": "a fresh Haiku agent given tools/humanization/needed_read_brief.md with brain-p1's first draft, its heading and what it is for (reads/needed-brain-p1.txt); none unneeded",
+  "unneeded": [],
+  "kept": {}
+ },
+ "acute-c1": {
+  "reader": "a fresh Haiku agent given tools/humanization/needed_read_brief.md with acute-c1, its heading and what it is for (reads/needed-acute-c1.txt)",
+  "unneeded": [
+   "Even from a severe trip, they can come down faster that way than after an ambulance ride and hours in an emergency room."
+  ],
+  "kept": {
+   "Even from a severe trip, they can come down faster that way than after an ambulance ride and hours in an emergency room.": "they stay with the person instead of heading to an emergency room, trusting the guide's belief (B100) that even a severe trip in a stable body can come down faster there than after an ambulance ride and hours in an emergency room; without it the reader has only a rule against their own first thought, to call an ambulance"
+  }
+ }
+}

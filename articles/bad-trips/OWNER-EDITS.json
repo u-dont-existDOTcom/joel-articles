@@ -1225,6 +1225,21 @@
     "This is a recognition aid rather than a command to wait for every criterion before acting.",
     "Clinicians often use the Hunter criteria. One or more of the following patterns"
    ]
+  },
+  {
+   "id": "r37-teach-chest",
+   "status": "applied",
+   "what": "Chest Pain and Injury's branch paragraph is his version, the text of his last check cabd68b6: the mild case with DMSO + magnesium chloride on the chest, \"For the following more serious signs (or if unsure), I'd also call medics:\", his six signs, and a later checkup since DMSO can block pain (round 37, card TEACH-CHEST; review/r37/apply_r37.py)",
+   "joel": "2026-11-12 16:47:47 UTC: round 37's export, TEACH-CHEST revised, with his twelve tries; \"i want to add magnesium chloride and explain this is topical for chest pain\"",
+   "must_contain_exact": [
+    "I'd just use DMSO + magnesium chloride on the chest",
+    "For the following more serious signs (or if unsure), I'd also call medics:",
+    "- Shortness of breath or sweating shows up also."
+   ],
+   "must_not_contain": [
+    "Mild, familiar, non-progressive discomfort",
+    "In the second branch"
+   ]
   }
  ]
 }

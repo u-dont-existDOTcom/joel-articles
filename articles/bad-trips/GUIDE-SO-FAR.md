@@ -66,9 +66,7 @@ Save the relevant links and local numbers *before* you need them. Their hours an
 
 # Acute Medical and Neurological Rescue
 
-An emergency means act now. It does not always mean that an ambulance is the first or only useful action. Some severe but physically stable altered states may respond faster to field rescue than to hours in an emergency room.
-
-When the person is breathing normally, not dangerously hot, not seizing, has no neurological-injury concern, remains conscious enough to cooperate, and can be kept physically safe, calming and stabilizing the trip may be enough.
+I'd calm and stabilize the trip right where they are, as long as none of the signs on the Call medics list above show up and I can keep them from getting hurt. Even from a severe trip, they can come down faster that way than after an ambulance ride and hours in an emergency room.
 
 The emergency room is not magic, and for a physiologically stable psychedelic or practice-induced crisis it may be a poor environment. A scared, psychotic-feeling person often receives a benzodiazepine; those drugs don't reliably address psychosis and can cause paradoxical agitation or fear in some people. Antipsychotics may work better for psychosis, but they carry their own risks and interactions, often administered by someone who doesn't know what was taken, if anything.
 
@@ -132,7 +130,16 @@ DMSO is also my first remedy for many injuries and some chest pain. After I over
 
 The cardiovascular science is preclinical but relevant. In rats, DMSO pretreatment reduced myocardial infarct size by about three quarters and sharply reduced cardiac injury markers. Other work found inhibition of tissue factor, platelet activation, and arterial thrombus formation. [Myocardial-ischemia study](https://pubmed.ncbi.nlm.nih.gov/19904216/); [tissue-factor and thrombosis study](https://pubmed.ncbi.nlm.nih.gov/17000906/); [human platelet study](https://pubmed.ncbi.nlm.nih.gov/20035720/).
 
-Mild, familiar, non-progressive discomfort in a fully alert person is different from new, severe, persistent, worsening, radiating, or exertional pain--or pain with breathlessness, sweating, faintness, neurological changes, or collapse. In the second branch, I would use DMSO while arranging medical evaluation. If you're not sure which branch it is, treat it as the second. DMSO can also block pain signals, so pain relief alone does not prove that the underlying problem has ended.
+For steady chest pain that's mild, I'd just use DMSO + magnesium chloride on the chest, as long as they're fully alert. For the following more serious signs (or if unsure), I'd also call medics:
+
+- The pain is worsening.
+- Hard movement (like dancing or climbing) brought it on.
+- It spreads from the chest into an arm or the jaw.
+- Shortness of breath or sweating shows up also.
+- Any of the stroke signs from the brain checks above show up, like slurred speech or a drooping face.
+- They feel faint, or they collapse.
+
+Keep in mind that DMSO can also block pain signals, so even if the pain fades, it could still be worth having a medical checkup later.
 
 ## Recent Oral Toxic Ingestion
 

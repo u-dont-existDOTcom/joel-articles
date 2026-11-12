@@ -280,6 +280,18 @@ STILL_NEXT = re.compile(r"(?:But |And )?(?:it|that|this|they|you)(?:['’]s)? (?
 # O19 (Joel, 2026-10-07 15:44; the lane's O15 until 2026-10-09): "lists of 3 especially, and lists in general are overused by AI. try to avoid that unless
 # it's really needed." A bulleted or numbered list in the draft is a REVIEW (lists in a sentence are E125).
 LIST_LINE = re.compile(r"^\s*(?:[-*+•]|\d+[.)])\s+\S", re.M)
+# O71: the reader's action or the verdict, said after the list or questions it serves (see the check below)
+ACT71 = re.compile(r"\b(?:call|calls|calling) (?:medics|an ambulance|emergency|911|for help)\b|\b(?:get|seek) (?:urgent |medical )?help\b"
+                   r"|\bI'?d (?:just |also |still )?(?:use|give|call|try|get|keep|start|skip|reach|calm)\b"
+                   r"|\bI would (?:use|give|call|try|start|calm)\b|\bkeep (?:the )?\w+ going\b|\b(?:may|might|can) be enough\b"
+                   r"|^(?:So |Then )?(?:Call|Use|Give|Get|Take|Keep|Move|Dim|Offer|Stop|Put|Turn|Start|Continue|Go|Let|Have|"
+                   r"Don't|Do not|Try|Bring|Hold|Leave|Lower|Clear|Cool|Remove|Apply|Treat)\b", re.I)
+VERDICT71 = re.compile(r"^(?:So |Then |And )?(?:if|when) (?:all|any|none|everything|each|both)\b", re.I)
+O71 = ('O71 the action comes after the list or questions it serves (Joel 2026-11-12: "most of all, when the payoff comes too '
+       'late"; his try 7 on my chest-c3 said "I\'d also call medics" before the list and changed nothing else, AI Generated, '
+       '100% to Human Written): say what to do in the lead-in, the way he did ("For the following more serious signs (or if '
+       'unsure), I\'d also call medics:"), and rebuild the paragraph around it (moving only the action left brain-p1 AI; '
+       'acute-c1, rebuilt, read Human, High)')
 
 # O6: a feeling or an abstract idea doing what a person does (Joel, 2026-10-02 00:52: "the usage of abstract concepts
 # or feelings as agents is one AI tell because it permits high efficiency of words"; he changed "so the anger goes
@@ -987,6 +999,49 @@ def main():
             in_list = True
         elif line.strip():
             in_list = False
+    # O71 (Joel, 2026-11-12 16:48 UTC: "most of all, when the payoff comes too late"). A list, or a run of three questions or
+    # more, whose lead-in says no action, with the action or the verdict said after it. His try 7 on my chest-c3 changed only
+    # that ("It's more serious if:" made "For the following more serious signs (or if unsure), I'd also call medics:", the two
+    # sentences after the list cut): AI Generated, 100% to Human Written. Measured the same day: chest-c3, brain-c3 (h46) and
+    # acute-r1-fix2 (h45) all have it and all read AI; his Chest Pain version doesn't. His Serotonin Syndrome list has it ("So
+    # if you see any of these patterns, call medics." after it) and reads High, so it is a flag to look at, not a failure; and
+    # moving only the action left brain-p1 AI (h48), so the paragraph is rebuilt around it, as acute-c1 was (Human, High).
+    def o71_sents(t):
+        return [x.strip() for x in re.split(r'(?<=[.?!:])\s+(?=[A-Z"(])', t.strip()) if x.strip()]
+    def o71_mine(x):
+        return not (x in installed_raw or is_known(x))
+    lines71 = body.split('\n')
+    k71 = 0
+    while k71 < len(lines71):
+        if LIST_LINE.match(lines71[k71]):
+            a71 = k71
+            while k71 < len(lines71) and LIST_LINE.match(lines71[k71]):
+                k71 += 1
+            before71 = [l for l in lines71[:a71] if l.strip()]
+            after71 = [l for l in lines71[k71:] if l.strip() and not LIST_LINE.match(l)]
+            lead71 = o71_sents(before71[-1])[-1] if before71 else ''
+            nxt71 = o71_sents(after71[0])[0] if after71 else ''
+            if lead71 and nxt71 and not ACT71.search(lead71) and (ACT71.search(nxt71) or VERDICT71.search(nxt71)) \
+                    and (o71_mine(lead71) or o71_mine(nxt71)):
+                flag('REVIEW', O71, lead71 + ' ... ' + nxt71)
+            continue
+        ss71 = o71_sents(lines71[k71]) if lines71[k71].strip() and not lines71[k71].lstrip().startswith('#') else []
+        runs71 = []
+        for j71, x71 in enumerate(ss71):
+            if not x71.endswith('?'):
+                continue
+            if runs71 and runs71[-1][-1] == j71 - 1:
+                runs71[-1].append(j71)
+            else:
+                runs71.append([j71])
+        for r71 in runs71:
+            if len(r71) >= 3 and r71[-1] + 1 < len(ss71):
+                lead71 = ss71[r71[0] - 1] if r71[0] > 0 else ''
+                nxt71 = ss71[r71[-1] + 1]
+                if not ACT71.search(lead71) and (ACT71.search(nxt71) or VERDICT71.search(nxt71)) \
+                        and (o71_mine(lead71) or o71_mine(nxt71)):
+                    flag('REVIEW', O71, (lead71 + ' ... ' if lead71 else '') + nxt71)
+        k71 += 1
     mine_words = 0; coach_hits = 0; you_hits = 0
     para_final_short = 0; imper_heavy = 0
     openers = []

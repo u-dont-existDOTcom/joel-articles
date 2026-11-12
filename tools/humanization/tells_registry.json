@@ -3003,6 +3003,19 @@
    "example": "Slow, shallow breathing is a different problem from a racing stimulant high, and both are different from serotonin toxicity."
   },
   {
+   "id": "W126",
+   "tell": "the action or the verdict said after the list or the run of questions it serves, its lead-in saying no action",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "docs/lessons/2026-11-11-2357-bad-trips.md",
+     "quote": "so we need to figure out how you can understand when things don't make sense, when they're indefinite in reference, when they're logically overlapping and redundant, when they are compressed, and most of all, when the payoff comes too late"
+    }
+   ],
+   "rule": "O71",
+   "example": "So check the body first. Are they breathing normally? Is their temperature safe? Are they awake enough to work with you? If all that checks out, calming and stabilizing the trip may be enough."
+  },
+  {
    "id": "J70",
    "tell": "a sentence that reads the way his fixes change (compressed, built like its neighbours, correcting or contrasting, vague about who or what counts, opening on a rule, ending on a summing-up, no use to the reader, joined the way a model joins)",
    "kind": "judgment",

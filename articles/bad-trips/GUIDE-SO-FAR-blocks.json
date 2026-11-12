@@ -164,13 +164,7 @@
  {
   "id": "B100",
   "kind": "p",
-  "md": "An emergency means act now. It does not always mean that an ambulance is the first or only useful action. Some severe but physically stable altered states may respond faster to field rescue than to hours in an emergency room.",
-  "text": null
- },
- {
-  "id": "B76",
-  "kind": "p",
-  "md": "When the person is breathing normally, not dangerously hot, not seizing, has no neurological-injury concern, remains conscious enough to cooperate, and can be kept physically safe, calming and stabilizing the trip may be enough.",
+  "md": "I'd calm and stabilize the trip right where they are, as long as none of the signs on the Call medics list above show up and I can keep them from getting hurt. Even from a severe trip, they can come down faster that way than after an ambulance ride and hours in an emergency room.",
   "text": null
  },
  {
@@ -350,8 +344,20 @@
  {
   "id": "B124",
   "kind": "p",
-  "md": "Mild, familiar, non-progressive discomfort in a fully alert person is different from new, severe, persistent, worsening, radiating, or exertional pain--or pain with breathlessness, sweating, faintness, neurological changes, or collapse. In the second branch, I would use DMSO while arranging medical evaluation. If you're not sure which branch it is, treat it as the second. DMSO can also block pain signals, so pain relief alone does not prove that the underlying problem has ended.",
+  "md": "For steady chest pain that's mild, I'd just use DMSO + magnesium chloride on the chest, as long as they're fully alert. For the following more serious signs (or if unsure), I'd also call medics:",
   "text": null
+ },
+ {
+  "id": "R37-CHEST-LIST",
+  "kind": "ul",
+  "text": null,
+  "md": "- The pain is worsening.\n- Hard movement (like dancing or climbing) brought it on.\n- It spreads from the chest into an arm or the jaw.\n- Shortness of breath or sweating shows up also.\n- Any of the stroke signs from the brain checks above show up, like slurred speech or a drooping face.\n- They feel faint, or they collapse."
+ },
+ {
+  "id": "R37-CHEST-2",
+  "kind": "p",
+  "text": null,
+  "md": "Keep in mind that DMSO can also block pain signals, so even if the pain fades, it could still be worth having a medical checkup later."
  },
  {
   "id": "B125",
