@@ -56,7 +56,7 @@
  {
   "id": "B94",
   "kind": "ul",
-  "md": "- Trouble breathing, blue or gray lips, or respiratory depression\n- A convulsive seizure lasting about five minutes, repeated seizures without normal recovery, or a first or substantially different seizure\n- Collapse, inability to wake normally, or rapidly worsening consciousness\n- Dangerous overheating, severe rigidity, or clonus with fever\n- Sudden one-sided weakness, loss of speech, inability to walk normally, or loss of control of bodily functions\n- A report that the brain feels damaged when the person cannot complete a basic neurological check or is rapidly worsening\n- Severe, worsening, radiating, or exertional chest pain--or chest pain with breathlessness, sweating, faintness, neurological changes, or collapse\n- Serious injury, uncontrolled bleeding, or a possible head or spinal injury\n- Repeated vomiting, severe dehydration, blood, or severe abdominal pain\n- Violence, self-harm, or a situation the sitter cannot physically contain\n- Concerning symptoms after an MAOI, which slows the breakdown of serotonin (some older antidepressants, and the harmalas in ayahuasca and Syrian rue seeds), plus a serotonergic substance, one that raises serotonin, like MDMA or most antidepressants",
+  "md": "- Trouble breathing, blue or gray lips, or respiratory depression\n- A convulsive seizure lasting about five minutes, repeated seizures without normal recovery, or a first or substantially different seizure\n- Collapse, inability to wake normally, or rapidly worsening consciousness\n- Dangerous overheating, severe rigidity, or clonus with fever\n- Sudden one-sided weakness, loss of speech, inability to walk normally, or loss of control of bodily functions\n- A report that the brain feels damaged when the person cannot complete a basic neurological check or is rapidly worsening\n- Severe, worsening, radiating, or exertional chest pain--or chest pain with breathlessness, sweating, faintness, neurological changes, or collapse\n- Serious injury, uncontrolled bleeding, or a possible head or spinal injury\n- Repeated vomiting, severe dehydration, blood, or severe abdominal pain\n- Concerning symptoms after an MAOI, which slows the breakdown of serotonin (some older antidepressants, and the harmalas in ayahuasca and Syrian rue seeds), plus a serotonergic substance, one that raises serotonin, like MDMA or most antidepressants",
   "text": null
  },
  {
@@ -74,13 +74,19 @@
  {
   "id": "B276",
   "kind": "p",
-  "md": "Get urgent help when somebody may harm themselves or another person, cannot be kept physically safe, is moving toward roads, water, or heights, has command voices or fixed terrifying beliefs driving action, becomes violent, is severely confused and unreachable, has dangerous physical symptoms, has lost enough sleep that judgment is collapsing, or exceeds what the sitter can safely contain.",
+  "md": "You can sit through a lot with someone, but the moment you think they might hurt themselves or anybody else, get urgent help. It doesn't have to be a proven death wish. They might just start heading out the door and get lost, hit by a car, drown, fall off a cliff, etc. Another cue to get help is if they start acting delusional.",
+  "text": null
+ },
+ {
+  "id": "R34-HARM-2",
+  "kind": "p",
+  "md": "If their body is flashing warning signs like severe overheating (not just regular sweating), severe insomnia, or trouble breathing, or if for whatever reason you feel like this is more than you can handle, reach out.",
   "text": null
  },
  {
   "id": "B278",
   "kind": "p",
-  "md": "Use local emergency services for immediate danger or a medical emergency. In the United States, 988 can provide mental-health crisis guidance, de-escalation, and connection to local resources when no immediate physical emergency exists. Call 911 for immediate danger, a crime in progress, medical emergency, weapon, violence underway, or a situation you cannot safely contain. Outside the United States, identify the local emergency number and crisis line before you ever need them.",
+  "md": "Use local emergency services (911 in the United States) for immediate danger, a medical emergency, a weapon, or a crime in progress. In the United States, 988 can provide mental-health crisis guidance, de-escalation, and connection to local resources when no immediate physical emergency exists. Outside the United States, identify the local emergency number and crisis line before you ever need them.",
   "text": null
  },
  {
@@ -278,7 +284,7 @@
  {
   "id": "N-CBD-3",
   "kind": "p",
-  "md": "As for DMSO, it did reduce seizure activity in [rats with temporal-lobe epilepsy](https://pubmed.ncbi.nlm.nih.gov/23643984/), and we know it has several neuroprotective mechanisms, but it produced the opposite effect at some doses in an [absence-epilepsy model](https://pubmed.ncbi.nlm.nih.gov/21320528/). I'd treat it as a plausible experimental adjunct remedy rather than something to wait on while a seizure continues.",
+  "md": "As for DMSO, it did reduce seizure activity in [rats with temporal-lobe epilepsy](https://pubmed.ncbi.nlm.nih.gov/23643984/), and we know it has several neuroprotective mechanisms, but it produced the opposite effect at some doses in an [absence-epilepsy model](https://pubmed.ncbi.nlm.nih.gov/21320528/). While a seizure continues, the rescue medicine comes first, and I'd still consider DMSO alongside it, although that's experimental.",
   "text": null
  },
  {
@@ -1256,7 +1262,7 @@
  {
   "id": "B282",
   "kind": "ul",
-  "md": "- Ask simple questions: \"Would less light help?\" \"Music or quiet?\" \"Closer or farther away?\" \"Water?\" (in small sips) \"Need the bathroom?\"\n- Call for help early when safety is slipping.\n- Set behavioral boundaries without humiliation: \"I won't help anybody hurt themselves or another person. We are keeping every body safe.\"",
+  "md": "- Ask simple questions: \"Would less light help?\" \"Music or quiet?\" \"Closer or farther away?\" \"Water?\" (in small sips) \"Need the bathroom?\"\n- Set behavioral boundaries without humiliation: \"I won't help anybody hurt themselves or another person. We are keeping every body safe.\"",
   "text": null
  },
  {
@@ -1293,12 +1299,6 @@
   "id": "B291",
   "kind": "p",
   "md": "When talk of harm continues, shift from philosophy to safety. Create distance from potential targets and keep your own exit. Don't block, crowd, threaten, mock, or physically wrestle away a weapon. Quietly remove means only when that can be done without confrontation or turning yourself into the target.",
-  "text": null
- },
- {
-  "id": "B292",
-  "kind": "p",
-  "md": "Call crisis or emergency services for a specific target, available means, movement toward action, escalating agitation, a weapon, violence underway, or a situation you can't contain.",
   "text": null
  },
  {

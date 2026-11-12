@@ -1,0 +1,24 @@
+{
+ "harm-s1": {
+  "reader": "a fresh Haiku agent given tools/humanization/needed_read_brief.md with the test, its heading and what it is for (NEEDED-READ.md, harm-s1)",
+  "unneeded": [
+   "Risk of Harm: When Peer Support Isn't Enough"
+  ],
+  "kept": {
+   "Risk of Harm: When Peer Support Isn't Enough": "they find this part by its heading; it is the section heading itself, typed with the test"
+  }
+ },
+ "oral-s1": {
+  "reader": "a fresh Haiku agent given tools/humanization/needed_read_brief.md with the test, its heading and what it is for (NEEDED-READ.md, oral-s1)",
+  "unneeded": [
+   "Recent Oral Toxic Ingestion",
+   "Clinical review.",
+   "They're there to help you decide, and the first aid is still yours to do."
+  ],
+  "kept": {
+   "Recent Oral Toxic Ingestion": "they find this part by its heading; it is the section heading itself, typed with the test",
+   "Clinical review.": "they can open the clinical review the charcoal paragraph rests on (a link on the page)",
+   "They're there to help you decide, and the first aid is still yours to do.": "they do the first aid themselves instead of waiting on the call"
+  }
+ }
+}

@@ -25,16 +25,17 @@ I developed the [**Inner Signal app**](http://innersignalselfhypnosis.com/integr
 - Severe, worsening, radiating, or exertional chest pain--or chest pain with breathlessness, sweating, faintness, neurological changes, or collapse
 - Serious injury, uncontrolled bleeding, or a possible head or spinal injury
 - Repeated vomiting, severe dehydration, blood, or severe abdominal pain
-- Violence, self-harm, or a situation the sitter cannot physically contain
 - Concerning symptoms after an MAOI, which slows the breakdown of serotonin (some older antidepressants, and the harmalas in ayahuasca and Syrian rue seeds), plus a serotonergic substance, one that raises serotonin, like MDMA or most antidepressants
 
 The remedies below can begin while help is being arranged.
 
 ## Risk of Harm: When Peer Support Isn't Enough
 
-Get urgent help when somebody may harm themselves or another person, cannot be kept physically safe, is moving toward roads, water, or heights, has command voices or fixed terrifying beliefs driving action, becomes violent, is severely confused and unreachable, has dangerous physical symptoms, has lost enough sleep that judgment is collapsing, or exceeds what the sitter can safely contain.
+You can sit through a lot with someone, but the moment you think they might hurt themselves or anybody else, get urgent help. It doesn't have to be a proven death wish. They might just start heading out the door and get lost, hit by a car, drown, fall off a cliff, etc. Another cue to get help is if they start acting delusional.
 
-Use local emergency services for immediate danger or a medical emergency. In the United States, 988 can provide mental-health crisis guidance, de-escalation, and connection to local resources when no immediate physical emergency exists. Call 911 for immediate danger, a crime in progress, medical emergency, weapon, violence underway, or a situation you cannot safely contain. Outside the United States, identify the local emergency number and crisis line before you ever need them.
+If their body is flashing warning signs like severe overheating (not just regular sweating), severe insomnia, or trouble breathing, or if for whatever reason you feel like this is more than you can handle, reach out.
+
+Use local emergency services (911 in the United States) for immediate danger, a medical emergency, a weapon, or a crime in progress. In the United States, 988 can provide mental-health crisis guidance, de-escalation, and connection to local resources when no immediate physical emergency exists. Outside the United States, identify the local emergency number and crisis line before you ever need them.
 
 ## Who to Contact, and When
 
@@ -108,7 +109,7 @@ I also read on forums some swear it stops the seizure from going any further, an
 
 As for topical CBD, it hasn't been well-studied. There was a short [12-week trial](https://pubmed.ncbi.nlm.nih.gov/35802375/) done, where they used a CBD skin gel, and although absorption was good, it didn't work any better than placebo to prevent seizures. The study authors suggested the dosing may have been too low, or that adults with focal epilepsy just don't respond as well as people with the syndromes oral CBD is approved for. The seizures in Dravet and Lennox-Gastaut syndrome are mostly generalized. Generalized are the type people usually have with MDMA & psychedelic overdoses, so topical CBD might do better for those than it did in that trial.
 
-As for DMSO, it did reduce seizure activity in [rats with temporal-lobe epilepsy](https://pubmed.ncbi.nlm.nih.gov/23643984/), and we know it has several neuroprotective mechanisms, but it produced the opposite effect at some doses in an [absence-epilepsy model](https://pubmed.ncbi.nlm.nih.gov/21320528/). I'd treat it as a plausible experimental adjunct remedy rather than something to wait on while a seizure continues.
+As for DMSO, it did reduce seizure activity in [rats with temporal-lobe epilepsy](https://pubmed.ncbi.nlm.nih.gov/23643984/), and we know it has several neuroprotective mechanisms, but it produced the opposite effect at some doses in an [absence-epilepsy model](https://pubmed.ncbi.nlm.nih.gov/21320528/). While a seizure continues, the rescue medicine comes first, and I'd still consider DMSO alongside it, although that's experimental.
 
 ## MDMA: Jaw Tension Is the Magnesium Alarm
 
@@ -466,7 +467,6 @@ Stay present. If it helps, you can say to yourself: *This feeling is allowed to 
 ### Do
 
 - Ask simple questions: "Would less light help?" "Music or quiet?" "Closer or farther away?" "Water?" (in small sips) "Need the bathroom?"
-- Call for help early when safety is slipping.
 - Set behavioral boundaries without humiliation: "I won't help anybody hurt themselves or another person. We are keeping every body safe."
 
 ### When What They Say Turns Toward Harm
@@ -480,8 +480,6 @@ When somebody says, "I am God, so I can kill," leading with "No you're not" or "
 Other useful lines: "Maybe you are touching something divine. Divine doesn't need a violent test." "Tonight the commandment is no harm, no proof, no mission, sleep first."
 
 When talk of harm continues, shift from philosophy to safety. Create distance from potential targets and keep your own exit. Don't block, crowd, threaten, mock, or physically wrestle away a weapon. Quietly remove means only when that can be done without confrontation or turning yourself into the target.
-
-Call crisis or emergency services for a specific target, available means, movement toward action, escalating agitation, a weapon, violence underway, or a situation you can't contain.
 
 Be brief and specific with emergency services: "Someone is in an altered-state or mental-health crisis, has threatened to harm others, may have access to [means if known], and needs a medical or mental-health crisis response with de-escalation support. Please send crisis-trained responders or EMS if available."
 
