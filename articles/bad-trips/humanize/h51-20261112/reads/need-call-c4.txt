@@ -1,0 +1,11 @@
+NEEDS:
+S1: Tells the reader that the list below gives the conditions for calling medics during a seizure.
+S2: Tells the reader to call medics when the friend had a seizure after too much medicine or the amount taken is unknown.
+S3: Gives the time threshold: a seizure on a normal dose lasting over 5 minutes means calling medics.
+S4: Gives a warning sign (slow, shallow breathing) that means calling medics.
+S5: Gives a warning sign (blue or gray lips) that means calling medics.
+S6: Gives a warning sign (dangerous overheating, felt on the forehead, not ordinary sweating) that means calling medics.
+S7: Gives injury warnings (head injury, broken bone, bleeding that won't stop) that mean calling medics.
+
+UNNEEDED:
+- none

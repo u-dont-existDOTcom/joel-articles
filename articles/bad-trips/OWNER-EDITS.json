@@ -1038,11 +1038,11 @@
    "order": [
     "## Active Seizure",
     "Call medics if any of these happen:",
-    "If they have a rescue medicine for seizures",
+    "If they have a rescue medicine for epilepsy seizures",
     "### What Else May Help: At the Aura, and Alongside Rescue Medicine",
     "Some people get a warning before a seizure takes hold"
    ],
-   "order_note": "2026-11-12, turn 39: the call-medics line is now a lead-in and list (humanize/h49-20261112, seize-c3, Human Written) and comes before the rescue medicine; his heading still opens the extras after first aid, when to call medics and the rescue medicine; 2026-11-12, turn 40: the rescue medicine paragraph is now mine in his first person (humanize/h50-20261112, rescue-c10, Human Written in its section), in the same place"
+   "order_note": "2026-11-12, turn 39: the call-medics line is now a lead-in and list (humanize/h49-20261112, seize-c3, Human Written) and comes before the rescue medicine; his heading still opens the extras after first aid, when to call medics and the rescue medicine; 2026-11-12, turn 40: the rescue medicine paragraph is now mine in his first person (humanize/h50-20261112, rescue-c10, Human Written in its section), in the same place; 2026-11-12, turn 41: the rescue medicine paragraph is his fix (review/r39/apply_r39.py), in the same place"
   },
   {
    "id": "r32-ground-order",
@@ -1264,11 +1264,11 @@
   {
    "id": "r38b-seize",
    "status": "applied",
-   "what": "Active Seizure's first aid and call list are his version, the text of his check 5e41c575 (pillows under the head; over 5 minutes; no \"another seizure before they've recovered\" and no \"first seizure\"; injuries said as what happens) (review/r38/apply_r38b.py)",
+   "what": "Active Seizure's first aid and call list are his version, the text of his check 5e41c575 (pillows under the head; over 5 minutes; no \"another seizure before they've recovered\" and no \"first seizure\"; injuries said as what happens) (review/r38/apply_r38b.py); 2026-11-12 22:34 UTC, his message: an overdose seizure its own call line and the 5 minutes for a seizure on a normal dose, the heat line with the forehead (humanize/h51-20261112/apply_h51.py)",
    "joel": "2026-11-12 19:44 UTC: \"i fixed active seizure section, it was giving some wrong advice (if it's their first seizure? ... that's what we are expecting if the overdose causes a seizure... and how would someone know if they have another seizure before the first is over?)\"",
    "must_contain_exact": [
     "but do put pillows where appropriate, especially under the head.",
-    "- A convulsive seizure goes on for over 5 minutes.",
+    "- A seizure on a normal dose goes on for over 5 minutes.",
     "- They injure their head, break a bone, or bleeding won't stop."
    ],
    "must_not_contain": [
@@ -1292,13 +1292,55 @@
   {
    "id": "r38b-call-seizure",
    "status": "applied",
-   "what": "The Call medics list's seizure line says what his Active Seizure call list says, \"A convulsive seizure lasting over 5 minutes\", without the first seizure and the repeated seizures he cut there (review/r38/apply_r38b.py; shown to him in the turn's report)",
+   "what": "The Call medics list's seizure line says what his Active Seizure call list says, \"A convulsive seizure lasting over 5 minutes\", without the first seizure and the repeated seizures he cut there (review/r38/apply_r38b.py; shown to him in the turn's report); 2026-11-12 22:34 UTC: the same line as his Active Seizure call list now says it, an overdose seizure and the 5 minutes for a seizure on a normal dose (humanize/h51-20261112/apply_h51.py)",
    "joel": "2026-11-12 19:44 UTC, the same message (\"it was giving some wrong advice\")",
    "must_contain_exact": [
-    "- A convulsive seizure lasting over 5 minutes"
+    "- A seizure after taking too much (or an unknown amount), or one on a normal dose lasting over 5 minutes"
    ],
    "must_not_contain": [
     "or a first or substantially different seizure"
+   ]
+  },
+  {
+   "id": "r39-evid",
+   "status": "applied",
+   "what": "My Brain Feels Damaged's evidence paragraph (B105): his version, whole, from his check 5b09da6c (review/r39/apply_r39.py)",
+   "joel": "2026-11-12 22:34 UTC (review/r39/ANSWERS-R39-20261112-2234.json, TEACH-EVID revised; experiments/t39-answers/JOEL-TRIES-TEACH-EVID.md)",
+   "must_contain": [
+    "based on my experience and those of others I've heard from",
+    "The clinical evidence is incomplete, but it leans this way.",
+    "(which is a good thing)",
+    "But more relevant to the drug overdose issue this article deals with, DMSO calms"
+   ]
+  },
+  {
+   "id": "r39-humic",
+   "status": "applied",
+   "what": "The protocol's first step (B144): his pointer to the humic acid evidence after its humic acid sentence (review/r39/apply_r39.py)",
+   "joel": "2026-11-12 22:34 UTC (review/r39/ANSWERS-R39-20261112-2234.json, TEACH-EVID comment: \"you can just say (see humic acid evidence here and link to humicacid.u-dont-exist.com ) after the p13 sentence ends\")",
+   "must_contain": [
+    "(See [humic acid evidence here](http://humicacid.u-dont-exist.com).)"
+   ]
+  },
+  {
+   "id": "r39-rescue",
+   "status": "applied",
+   "what": "Active Seizure's rescue medicine paragraph (B110): his fix of my rescue-c10, whole, from his check 9320d4ec (review/r39/apply_r39.py)",
+   "joel": "2026-11-12 22:34 UTC (his message: \"look, i fixed the rescue medicine paragraph, it was super obvious stuff just clarifying and reducing redundancy, now human high\"; \"i also removed \"I'd\" because saying that too much sounds weird\")",
+   "must_contain": [
+    "If they have a rescue medicine for epilepsy seizures with them, give it as the label instructs.",
+    "(pills can't be swallowed)",
+    "especially if they've also taken other respiratory depressants like opioids or alcohol."
+   ]
+  },
+  {
+   "id": "h51-seize-wait",
+   "status": "applied",
+   "what": "Active Seizure: the paragraph after the call list says which seizure the 5 minutes is for, why a seizure can come on a normal dose, and that it is most likely less dangerous than an overdose seizure (humanize/h51-20261112/apply_h51.py)",
+   "joel": "2026-11-12 22:34 UTC: \"you're right about over 5 minutes that's an epilepsy rule. altho we should also keep in mind that if someone does have epilepsy, they are more likely to have seizures on psychedelics so explain that they can lower seizure threshold even with a normal dose and people with already low seizure thresholds might have seizures which are most likely less dangerous than an actual drug overdose seizure\"",
+   "must_contain": [
+    "Psychedelics can lower the seizure threshold even at a normal dose",
+    "most likely less dangerous than an actual drug overdose seizure"
    ]
   }
  ]

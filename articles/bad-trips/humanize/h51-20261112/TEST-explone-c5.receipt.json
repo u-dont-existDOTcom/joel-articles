@@ -1,0 +1,108 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-12",
+ "text_sha256": "d6df25e0ca8c1bf1f3b2b76ade9cc94f27a764aeec2d49e785d253918da6507a",
+ "text": "Waiting the 5 minutes is only for a seizure on a normal dose. Psychedelics can lower the seizure threshold even at a normal dose, so someone with epilepsy or who's otherwise prone to seizures can have a seizure without taking too much. Their seizure is most likely less dangerous than an actual drug overdose seizure.",
+ "section": "Active Seizure",
+ "reader": "someone whose friend is having a seizure right now, deciding what to do while it lasts, when to call medics, and whether to give a rescue medicine they have",
+ "sentences": [
+  {
+   "s": "Waiting the 5 minutes is only for a seizure on a normal dose.",
+   "payoff": "they wait the 5 minutes only for a seizure on a normal dose",
+   "follows": "which seizure the 5 minutes is for"
+  },
+  {
+   "s": "Psychedelics can lower the seizure threshold even at a normal dose, so someone with epilepsy or who's otherwise prone to seizures can have a seizure without taking too much.",
+   "payoff": "they know someone prone to seizures can have one on a normal dose, since psychedelics lower the threshold",
+   "follows": "why a seizure on a normal dose happens",
+   "link": "Psychedelics can lower"
+  },
+  {
+   "s": "Their seizure is most likely less dangerous than an actual drug overdose seizure.",
+   "payoff": "they know that seizure is most likely less dangerous than an overdose seizure",
+   "follows": "his comparison, why it gets the 5 minutes",
+   "link": "Their seizure"
+  }
+ ],
+ "checked": [],
+ "placement": "Active Seizure, the paragraph on the 5 minutes, after the call list, checked by itself for the gate",
+ "opens": {
+  "first_sentence": "Waiting the 5 minutes is only for a seizure on a normal dose.",
+  "why_reading": "it tells someone whose friend is seizing when to call medics, and which seizure gets the 5 minutes"
+ },
+ "same_point": "none: read the section from its heading to What Else May Help for the 5 minutes",
+ "needed": {
+  "reader": "a fresh Haiku agent given tools/humanization/needed_read_brief.md with the paragraph, its heading and what it is for (reads/need-expl-c5.txt)",
+  "unneeded": [
+   "Their seizure is most likely less dangerous than an actual drug overdose seizure."
+  ],
+  "kept": {
+   "Their seizure is most likely less dangerous than an actual drug overdose seizure.": "they know the seizure of someone prone to them on a normal dose is most likely less dangerous than an overdose seizure, which is why they wait the 5 minutes for it and call at once after an overdose, as he asked it said"
+  }
+ },
+ "his_fixes": {
+  "reader": "a fresh Sonnet reader given tools/humanization/his_fixes_brief.md, after reads of seize-c6 to c9 (reads/his-seize-c10.txt)",
+  "marked": [
+   {
+    "s": "- Don't restrain them, since that can cause injuries, but do put pillows where appropriate, especially under the head.",
+    "difference": "1, 4",
+    "draft": "seize-c10"
+   },
+   {
+    "s": "Their seizure is most likely less dangerous than an actual drug overdose seizure.",
+    "difference": "7",
+    "draft": "seize-c10"
+   },
+   {
+    "s": "These medicines are benzodiazepines in nasal spray or rectal gel, or sometimes an intramuscular shot (pills can't be swallowed).",
+    "difference": "1",
+    "draft": "seize-c10"
+   },
+   {
+    "s": "After giving it, keep a close eye on their breathing, since a benzodiazepine adds to the risk of it getting slow and shallow, especially if they've also taken other respiratory depressants like opioids or alcohol.",
+    "difference": "1",
+    "draft": "seize-c10"
+   }
+  ],
+  "kept": {
+   "- Don't restrain them, since that can cause injuries, but do put pillows where appropriate, especially under the head.": "his line, from his Active Seizure version of 2026-11-12 19:44 UTC (5e41c575), which read Human High",
+   "Their seizure is most likely less dangerous than an actual drug overdose seizure.": "his point in his words (22:34 UTC: \"most likely less dangerous than an actual drug overdose seizure\"), asked for; it is why the 5 minutes is only for a seizure on a normal dose, and the call list says to call when the dose is not known",
+   "These medicines are benzodiazepines in nasal spray or rectal gel, or sometimes an intramuscular shot (pills can't be swallowed).": "his line, from his fix of the rescue medicine paragraph of 22:34 UTC (9320d4ec, Human High 73 by itself)",
+   "After giving it, keep a close eye on their breathing, since a benzodiazepine adds to the risk of it getting slow and shallow, especially if they've also taken other respiratory depressants like opioids or alcohol.": "his line, from his fix of the rescue medicine paragraph of 22:34 UTC (9320d4ec, Human High 73 by itself)"
+  }
+ },
+ "fit": {
+  "reader": "a fresh Sonnet reader given tools/humanization/fit_read_brief.md, the universal version (reads/fit-seize-c10.txt)",
+  "marked": [
+   {
+    "s": "Their seizure is most likely less dangerous than an actual drug overdose seizure.",
+    "found": "CAN'T TELL, MISREAD"
+   }
+  ],
+  "kept": {
+   "Their seizure is most likely less dangerous than an actual drug overdose seizure.": "his point in his words (22:34 UTC: \"most likely less dangerous than an actual drug overdose seizure\"), asked for; it is why the 5 minutes is only for a seizure on a normal dose, and the call list says to call when the dose is not known"
+  }
+ },
+ "questions": {
+  "Q1": "PASS: the call list says its action first; the paragraph after it opens on which seizure the 5 minutes is for",
+  "Q2": "PASS: \"Call medics if\", \"Waiting the 5 minutes is only for\": the helper's acts",
+  "Q3": "PASS: \"after taking too much\", \"on a normal dose\", \"Their forehead feels very hot (not just sweaty)\"",
+  "Q4": "PASS: \"the seizure threshold\" said with who it matters for (\"someone with epilepsy or who's otherwise prone to seizures\")",
+  "Q5": "PASS: \"so\", \"only for\", \"Their seizure\" say each relation and whose seizure",
+  "Q6": "PASS: when to call, which seizure gets the 5 minutes, why, and how it compares",
+  "Q7": "PASS: each line bears on calling medics during a seizure",
+  "Q8": "PASS: the call list, then one paragraph on the 5 minutes",
+  "Q9": "PASS: one point a line or sentence"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

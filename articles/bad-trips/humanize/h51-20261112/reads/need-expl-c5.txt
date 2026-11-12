@@ -1,0 +1,7 @@
+NEEDS:
+S1: Tells the reader when waiting out the seizure is the right choice, rather than calling medics or giving rescue medicine.
+S2: Warns that a seizure can happen at a normal dose in someone prone to seizures, so the reader cannot assume an overdose and apply S1's wait-only rule blindly.
+S3: nothing
+
+UNNEEDED:
+- S3: Their seizure is most likely less dangerous than an actual drug overdose seizure. — It changes none of the three decisions (wait, call medics, give rescue medicine), and its comparison could lead the reader to downplay a seizure that is happening now.

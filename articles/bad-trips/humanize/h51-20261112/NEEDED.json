@@ -1,0 +1,59 @@
+{
+ "seize-c10": {
+  "reader": "a fresh Haiku agent given tools/humanization/needed_read_brief.md with the paragraph, its heading and what it is for (reads/need-expl-c5.txt)",
+  "unneeded": [
+   "Their seizure is most likely less dangerous than an actual drug overdose seizure."
+  ],
+  "kept": {
+   "Their seizure is most likely less dangerous than an actual drug overdose seizure.": "they know the seizure of someone prone to them on a normal dose is most likely less dangerous than an overdose seizure, which is why they wait the 5 minutes for it and call at once after an overdose, as he asked it said"
+  }
+ },
+ "callp-c3": {
+  "reader": "a fresh Haiku agent given tools/humanization/needed_read_brief.md with the paragraph, its heading and what it is for (reads/need-expl-c5.txt)",
+  "unneeded": [
+   "Their seizure is most likely less dangerous than an actual drug overdose seizure."
+  ],
+  "kept": {
+   "Their seizure is most likely less dangerous than an actual drug overdose seizure.": "they know the seizure of someone prone to them on a normal dose is most likely less dangerous than an overdose seizure, which is why they wait the 5 minutes for it and call at once after an overdose, as he asked it said"
+  }
+ },
+ "explone-c5": {
+  "reader": "a fresh Haiku agent given tools/humanization/needed_read_brief.md with the paragraph, its heading and what it is for (reads/need-expl-c5.txt)",
+  "unneeded": [
+   "Their seizure is most likely less dangerous than an actual drug overdose seizure."
+  ],
+  "kept": {
+   "Their seizure is most likely less dangerous than an actual drug overdose seizure.": "they know the seizure of someone prone to them on a normal dose is most likely less dangerous than an overdose seizure, which is why they wait the 5 minutes for it and call at once after an overdose, as he asked it said"
+  }
+ },
+ "callp-c4": {
+  "reader": "a fresh Haiku agent given tools/humanization/needed_read_brief.md with the call list, its heading and what it is for (reads/need-call-c4.txt)",
+  "unneeded": [],
+  "kept": {}
+ },
+ "seize-c11": {
+  "reader": "a fresh Haiku agent given tools/humanization/needed_read_brief.md with the call list, its heading and what it is for (reads/need-call-c4.txt)",
+  "unneeded": [],
+  "kept": {}
+ },
+ "callp-c5": {
+  "reader": "a fresh Haiku agent given tools/humanization/needed_read_brief.md with the call list, its heading and what it is for (reads/need-call-c5.txt)",
+  "unneeded": [],
+  "kept": {}
+ },
+ "seize-c12": {
+  "reader": "a fresh Haiku agent given tools/humanization/needed_read_brief.md with the call list, its heading and what it is for (reads/need-call-c5.txt)",
+  "unneeded": [],
+  "kept": {}
+ },
+ "callp-c6": {
+  "reader": "a fresh Haiku agent given tools/humanization/needed_read_brief.md with the call list, its heading and what it is for (reads/need-call-c6.txt)",
+  "unneeded": [],
+  "kept": {}
+ },
+ "seize-c13": {
+  "reader": "a fresh Haiku agent given tools/humanization/needed_read_brief.md with the call list, its heading and what it is for (reads/need-call-c6.txt)",
+  "unneeded": [],
+  "kept": {}
+ }
+}
