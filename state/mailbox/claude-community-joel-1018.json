@@ -1371,6 +1371,51 @@
     }
    ],
    "recorded_utc": "2026-11-12T21:38Z"
+  },
+  {
+   "turn": "2026-11-13T14:05Z",
+   "lines_of_work": [
+    "neuro de-armoring",
+    "hypnosis guide",
+    "community article"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "AGENTS.md 7ef0bfc and LESSON-INDEX ba787e0 unchanged; the lane's six suggested-fix items, all in the ledger (GitHub answered 503 for the first minutes of the turn, then recovered)"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "main at 0dc58c501 (this lane's 432 merged; bad-trips 433: gate bad-trips-2026-11-12l, nothing of mine goes in below Human High checked by itself, apply_gate.py called by every apply script; the fit read made universal, bad-trips-2026-11-12k); no new issues or comments; 309 still open"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no edits by others to this lane's notes; his message of 14:05 UTC: the 1967 paper Ramirez and Luza, DMSO in the treatment of mental patients, as a PDF, with no words"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "no queued notifications"
+    }
+   ],
+   "items": [
+    {
+     "item": "his 1967 DMSO paper",
+     "outcome": "read in full; it gave DMSO to nine people with severe anxiety or OCD, so the DMSO card's 'no trial for anxiety' was wrong: card SC-DMSOb with the study at its strength; lesson neuro-2026-11-13a on searching older names"
+    },
+    {
+     "item": "main's gate bad-trips-2026-11-12l (Human High before a paragraph of mine goes in)",
+     "outcome": "adopted: SC-95 and SC-DMSOb go in only after a Pangram check of each by itself reads Human High; this session's link to his computer is down, so those checks wait for it"
+    },
+    {
+     "item": "main's universal fit read (bad-trips-2026-11-12k)",
+     "outcome": "adopted: used on SC-DMSOb with WHAT IT IS and YOUR MOMENT written for this protocol"
+    }
+   ],
+   "recorded_utc": "2026-11-13T14:18Z"
   }
  ]
 }

@@ -30,7 +30,7 @@ The AI windows of every section, rewritten and checked; his cards; his post upda
 
 ## Blockers / unresolved
 
-Two cards wait on him: SC-95, the two ketone strategies (`humanize/fix-20261108/coherence/ketone/REVIEW-X1112B.md`), and SC-DMSO, DMSO in the Glutamate Shield (`humanize/fix-20261108/dmso/REVIEW-X1112C.md`); one open question, 12, on splitting block 48's last sentence (`humanize/OWNER-QUESTIONS.md`).
+Two cards wait on him: SC-95, the two ketone strategies (`humanize/fix-20261108/coherence/ketone/REVIEW-X1112B.md`), and SC-DMSOb, DMSO in the Glutamate Shield with his 1967 paper (`humanize/fix-20261108/dmso/REVIEW-X1113A.md`); each goes in only after a Pangram check of it by itself reads Human High; one open question, 12, on splitting block 48's last sentence (`humanize/OWNER-QUESTIONS.md`).
 
 ## Evidence / artifacts
 

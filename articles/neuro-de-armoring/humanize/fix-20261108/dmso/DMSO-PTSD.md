@@ -54,3 +54,30 @@ abstract). No human study of DMSO for anxiety, PTSD or mood turned up.
 A new item after Magnesium in "2. The Glutamate Shield (Anxiety)": smell it (99.9%), as the Fog table says; what his
 study found, in a dish; the other lab's finding and young mice, so keep it away from pregnancy and children; and how far
 the evidence goes, with the firsthand reports he points to.
+
+## His 1967 paper (sent 2026-11-13, 14:05 UTC), read in full
+
+Ramírez E, Luza S. "Dimethyl sulfoxide in the treatment of mental patients." Annals of the New York Academy of Sciences
+141 (1967): 655-667, doi 10.1111/j.1749-6632.1967.tb34937.x (his PDF, 13 pages; the PDF stays out of Git, as a
+publisher's copy). My search above had said no human study of DMSO for anxiety turned up: it had searched "psychiatric",
+and a 1967 title says "mental patients".
+
+- **Who**: 42 inpatients in Lima: 25 with schizophrenia (14 acute, 11 chronic), four in mania, four with alcoholic
+  psychoses, four with obsessive-compulsive neurosis and five with severe anxiety states.
+- **What**: pharmaceutical-grade DMSO at 50% and 80% in saline, 5 ml vials, injected into the muscle; most began on one
+  80% vial two or three times a day, up to five a day in the most disturbed, and one or two a day for the anxiety
+  patients; agitated patients also had barbiturates in the first days. Earlier treatments were stopped at least a week
+  before in the chronic patients.
+- **Control**: "clinical control tests with placebo or with the blind and double-blind methods proved to be impossible"
+  (DMSO's smell); the hospital stays of the 31 acute cases were compared with 16 acute patients with similar diagnoses on
+  the usual treatment of the time (insulin coma, electroshock, phenothiazines, minor tranquilizers, barbiturates), not
+  assigned at random.
+- **Found**: agitation eased "from the very first few doses"; in the anxiety states, one or two vials a day "caused
+  decrease in the anxiety symptoms", most of all in the obsessive-compulsive patients ("Patients said that they felt
+  calm"); the acute cases' hospital stays were shorter than the comparison group's (the figure: about 15 against about 30
+  days for the anxiety states); the effect showed "between the first and seventh days". Tolerated well: pain or heat at
+  the injection site with the 80% vials, insomnia early on, some thirst, sweating and passing more water; laboratory
+  tests normal.
+- **Not**: smelled; not PTSD; no placebo, no blinding, no random assignment.
+
+Card SC-DMSOb puts this in the item, at its strength, and narrows "no trial has tested it for anxiety or PTSD" to PTSD.

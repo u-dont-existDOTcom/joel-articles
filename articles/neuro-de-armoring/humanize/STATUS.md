@@ -1,5 +1,25 @@
 # Status: neuro de-armoring humanization (newest on top)
 
+## 2026-11-13, his message of 14:05 UTC: the 1967 DMSO paper; card SC-DMSOb; lesson 13a
+
+He sent Ramírez & Luza 1967 ("Dimethyl sulfoxide in the treatment of mental patients", Annals of the New York Academy of
+Sciences 141: 655-667) as a PDF, no words; the PDF stays out of Git (a publisher's copy). **The mailbox first**
+("2026-11-13 14:05"): GitHub answered 503 for the first minutes, then main 0dc58c501 merged (this lane's 432; bad-trips
+433: gate bad-trips-2026-11-12l, nothing of mine goes in below Human High checked by itself, with apply_gate.py called by
+every apply script; the fit read made universal, bad-trips-2026-11-12k); UDA unchanged; no new issues or comments; no
+notifications. This session's link to his computer and its PubMed tool failed to connect this turn.
+
+- **His paper, read in full** (`fix-20261108/dmso/DMSO-PTSD.md`, "His 1967 paper"): 42 inpatients in Lima, nine with
+  severe anxiety or obsessive-compulsive neurosis, 50 to 80% DMSO into the muscle; calmer within days, shorter hospital
+  stays than 16 non-randomized controls; no placebo. SC-DMSO's "No trial has tested it for anxiety or PTSD" was wrong.
+- **Card SC-DMSOb** (`dmso/build_x1113a.py`; REVIEW-X1113A, cards page version 9, with SC-95): the DMSO item with the 1967
+  study at its strength; "no trial" narrowed to PTSD. Fresh reads: needed, his fixes, and the universal fit read, each
+  disposition in its READ.md.
+- **Lesson neuro-2026-11-13a** (`docs/lessons/2026-11-13-1405-neuro.md`): search the condition's older and plain names and
+  the compound's heyday before calling anything untested; say "I found no ..." with what was searched.
+- **Waiting on him**: SC-95, SC-DMSOb, question 12. Before either card's paragraph goes in, a Pangram check of it by
+  itself must read Human High (gate bad-trips-2026-11-12l); those GUI checks need his computer's browser, down this turn.
+
 ## 2026-11-12, his message of 21:37 UTC: the split explained; DMSO card (SC-DMSO); lesson 12b
 
 His message word for word: `fix-20261108/joel-20261112-2137-message.txt`. **The mailbox first** ("2026-11-12 21:37"):
