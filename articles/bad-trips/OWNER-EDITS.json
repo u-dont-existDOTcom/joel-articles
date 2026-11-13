@@ -1264,12 +1264,12 @@
   {
    "id": "r38b-seize",
    "status": "applied",
-   "what": "Active Seizure's first aid and call list are his version, the text of his check 5e41c575 (pillows under the head; over 5 minutes; no \"another seizure before they've recovered\" and no \"first seizure\"; injuries said as what happens) (review/r38/apply_r38b.py); 2026-11-12 22:34 UTC, his message: an overdose seizure its own call line and the 5 minutes for a seizure on a normal dose, the heat line with the forehead (humanize/h51-20261112/apply_h51.py)",
+   "what": "Active Seizure's first aid and call list are his version, the text of his check 5e41c575 (pillows under the head; over 5 minutes; no \"another seizure before they've recovered\" and no \"first seizure\"; injuries said as what happens) (review/r38/apply_r38b.py); 2026-11-12 22:34 UTC, his message: an overdose seizure its own call line and the 5 minutes for a seizure on a normal dose, the heat line with the forehead (humanize/h51-20261112/apply_h51.py); 2026-11-13 14:15 UTC, his fix: no periods at the end of the call list's items (review/r39/apply_r39b.py)",
    "joel": "2026-11-12 19:44 UTC: \"i fixed active seizure section, it was giving some wrong advice (if it's their first seizure? ... that's what we are expecting if the overdose causes a seizure... and how would someone know if they have another seizure before the first is over?)\"",
    "must_contain_exact": [
     "but do put pillows where appropriate, especially under the head.",
-    "- A seizure on a normal dose goes on for over 5 minutes.",
-    "- They injure their head, break a bone, or bleeding won't stop."
+    "- A seizure on a normal dose goes on for over 5 minutes",
+    "- They injure their head, break a bone, or bleeding won't stop"
    ],
    "must_not_contain": [
     "It's their first seizure",
@@ -1341,6 +1341,42 @@
    "must_contain": [
     "Psychedelics can lower the seizure threshold even at a normal dose",
     "most likely less dangerous than an actual drug overdose seizure"
+   ]
+  },
+  {
+   "id": "r39b-call-periods",
+   "status": "applied",
+   "what": "Active Seizure's call list without periods at the end of its items, his fix a53907ff (review/r39/apply_r39b.py)",
+   "joel": "2026-11-13 14:15 UTC: \"i fixed the call list, you had to remove the periods at the end of each list item (i wouldn't put them in anyway, since they aren't full sentences)\"",
+   "must_contain_exact": [
+    "- They injure their head, break a bone, or bleeding won't stop\n"
+   ],
+   "must_not_contain": [
+    "- They injure their head, break a bone, or bleeding won't stop."
+   ]
+  },
+  {
+   "id": "r39b-support-periods",
+   "status": "applied",
+   "what": "Bring in mental-health support when: its items without periods, his rule of 2026-11-13 (review/r39/apply_r39b.py)",
+   "joel": "2026-11-13 14:15 UTC, the same message (\"i wouldn't put them in anyway, since they aren't full sentences\")",
+   "must_contain_exact": [
+    "- Sleep won't return\n"
+   ],
+   "must_not_contain": [
+    "- Sleep won't return."
+   ]
+  },
+  {
+   "id": "r39b-dmso-info",
+   "status": "applied",
+   "what": "The DMSO section: his DMSO text from his neuro de-armoring research, whole, its sleep advice in the Reduced sleep side effect (review/r39/apply_r39b.py)",
+   "joel": "2026-11-13 14:15 UTC: \"btw here is some DMSO info that should be in this guide, i took it from my neuro-dearmoring guide research\"",
+   "must_contain": [
+    "In my experience, DMSO makes me alert, smarter, happier, healthier, and more relaxed",
+    "slashing mental patients' psych ward stays in half",
+    "Translating mouse research to humans isn't straightforward.",
+    "so it's best taken in the morning, and reduce the dose if you notice you're sleeping less"
    ]
   }
  ]
