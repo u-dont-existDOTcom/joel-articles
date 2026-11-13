@@ -112,13 +112,11 @@ Time the seizure, and while it lasts:
 Call medics if any of these happen:
 
 - They have a seizure after taking too much, or you don't know how much they took
-- A seizure on a normal dose goes on for over 5 minutes
+- Note that psychedelics do reduce the seizure threshold, so if someone is prone to seizures, a normal dose could produce a seizure for them which doesn't indicate brain damage, but if it goes on over 5 minutes, that's too much
 - Their breathing gets slow and shallow
 - Their lips turn blue or gray
-- Their forehead feels very hot (not just sweaty)
+- When you touch their forehead, it's very hot (not just sweaty)
 - They injure their head, break a bone, or bleeding won't stop
-
-Waiting the 5 minutes is only for a seizure on a normal dose. Psychedelics can lower the seizure threshold even at a normal dose, so someone with epilepsy or who's otherwise prone to seizures can have a seizure without taking too much. Their seizure is most likely less dangerous than an actual drug overdose seizure.
 
 If they have a rescue medicine for epilepsy seizures with them, give it as the label instructs. These medicines are [benzodiazepines](https://pmc.ncbi.nlm.nih.gov/articles/PMC9477921/) in nasal spray or rectal gel, or sometimes an intramuscular shot (pills can't be swallowed). After giving it, keep a close eye on their breathing, since a benzodiazepine adds to the risk of it getting slow and shallow, especially if they've also taken other respiratory depressants like opioids or alcohol.
 
@@ -292,9 +290,9 @@ In my experience, DMSO makes me alert, smarter, happier, healthier, and more rel
 
 It overlaps with aged ozonated-charcoal water, but the two don't always work equally. Sometimes DMSO works better; sometimes the water does. I don't yet know why. In my experience there is generally no harm in taking both or mixing them. Ozonated-charcoal water has what I consider a perfect safety profile; DMSO is a close second in my experience.
 
-One famous [1967 study by Ramirez & Luza](https://nyaspubs.onlinelibrary.wiley.com/doi/epdf/10.1111/j.1749-6632.1967.tb34937.x) found it more effective than the best antipsychotic drugs at the time, slashing mental patients' psych ward stays in half, although it hasn't been tested (that I know of, yet) specifically for anxiety or PTSD, although those patients surely had both of those conditions. It's routinely used in humans who receive organ or stem cell transplants, as it is the best cell preservative that we've found so far. There is evidence ([Kortleve, et al, 2023](https://assets-eu.researchsquare.com/files/rs-2624641/v1/45119f29-3464-4680-8468-490477ae59ae.pdf?c=1688109028)) that using too much DMSO (10% vs 5%) in stem cell transfusions increases mild side effects in adult humans.
+One famous [1967 study by Ramirez & Luza](https://nyaspubs.onlinelibrary.wiley.com/doi/epdf/10.1111/j.1749-6632.1967.tb34937.x) found it more effective than the best antipsychotic drugs at the time, slashing mental patients' psych ward stays in half, although it hasn't been tested (that I know of, yet) specifically for anxiety or PTSD, although those patients surely had both of those conditions. It's routinely used in humans who receive stem cell transplants, as it is the best cell preservative that we've found so far. There is evidence ([Kortleve, et al, 2023](https://assets-eu.researchsquare.com/files/rs-2624641/v1/45119f29-3464-4680-8468-490477ae59ae.pdf?c=1688109028)) that using too much DMSO (10% vs 5%) in stem cell transfusions increases mild side effects in adult humans.
 
-In rat brain cells in a dish, DMSO at 0.5 to 1.5% quickly turned down the signals glutamate sends through its NMDA and AMPA receptors, and the calcium they let in. It also kept glutamate from killing the cells ([Lu & Mattson, 2001](https://pubmed.ncbi.nlm.nih.gov/11421595/)). But it also appears to be neurotoxic to healthy mice neurons when they are exposed for too long ([Hanslick, et al, 2009](https://pubmed.ncbi.nlm.nih.gov/19100327/)). Translating mouse research to humans isn't straightforward.
+Young brains may be at risk from DMSO, though: it killed brain cells in mice up to a month old, even at a low dose, and in a dish of rat neurons ([Hanslick, et al, 2009](https://pubmed.ncbi.nlm.nih.gov/19100327/)). Translating mouse research to humans isn't straightforward.
 
 **Side effects:**
 

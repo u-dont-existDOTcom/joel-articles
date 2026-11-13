@@ -1,0 +1,78 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-13",
+ "text_sha256": "fbaf2846ecf9da74be2da8484e515cab0dd2e5e5e14d595e1552864d1c45fbf9",
+ "text": "The heart research on DMSO is only in animals and lab dishes so far, but it leans the same way. In rats given DMSO before a heart attack, about three quarters less heart muscle died than in rats without it. Most heart attacks come from a clot blocking an artery, and DMSO slowed clotting too, including in human platelets.",
+ "section": "Chest Pain and Injury",
+ "reader": "a friend whose companion on a drug has chest pain, deciding whether DMSO with magnesium chloride on the chest is worth using before the next paragraph tells them when to call medics",
+ "sentences": [
+  {
+   "s": "The heart research on DMSO is only in animals and lab dishes so far, but it leans the same way.",
+   "payoff": "they know how far the heart evidence goes, and that it points the same way as his angina story",
+   "follows": "his angina story before it; this says what the research adds"
+  },
+  {
+   "s": "In rats given DMSO before a heart attack, about three quarters less heart muscle died than in rats without it.",
+   "payoff": "they know DMSO protected heart muscle in rats, given before the heart attack",
+   "follows": "the first finding the research leans on",
+   "link": "In rats given DMSO before a heart attack"
+  },
+  {
+   "s": "Most heart attacks come from a clot blocking an artery, and DMSO slowed clotting too, including in human platelets.",
+   "payoff": "they know why the clotting finding bears on chest pain, and that it held in human cells",
+   "follows": "the second finding, with why it bears on a heart attack first",
+   "link": "Most heart attacks come from a clot"
+  }
+ ],
+ "checked": [
+  {
+   "point": "the three studies the guide links (PubMed 19904216, 17000906, 20035720)",
+   "found": "rats given DMSO before blood flow to the heart was cut lost about three quarters less heart muscle; DMSO slowed tissue factor, platelet activation and clotting in arteries; and it slowed human platelets (as the guide's paragraph had them)",
+   "still_needed": "yes: they know what the research behind the author's story shows, and in what",
+   "fate": "kept"
+  }
+ ],
+ "placement": "Chest Pain and Injury, after his angina story and before what to do (DMSO and magnesium chloride on the chest for steady mild pain, and the signs to call medics for)",
+ "opens": {
+  "first_sentence": "The heart research on DMSO is only in animals and lab dishes so far, but it leans the same way.",
+  "why_reading": "it tells someone whose friend has chest pain whether the research backs the author's story"
+ },
+ "same_point": "none: read the section from its heading to the next for the heart evidence",
+ "needed": {
+  "reader": "",
+  "unneeded": [],
+  "kept": {}
+ },
+ "his_fixes": {
+  "reader": "",
+  "marked": [],
+  "kept": {}
+ },
+ "fit": {
+  "reader": "",
+  "marked": [],
+  "kept": {}
+ },
+ "questions": {
+  "Q1": "PASS: how far the evidence goes opens; the clotting sentence says why clotting matters before the finding",
+  "Q2": "N/A: an evidence paragraph, no instruction in it",
+  "Q3": "PASS: \"rats given DMSO before a heart attack\", \"human platelets\"",
+  "Q4": "PASS: \"platelets\" a common word; the clot's part in a heart attack said",
+  "Q5": "PASS: \"the same way\" turns on his story; \"too\" on the rats",
+  "Q6": "PASS: how far it goes, then the rats, then clotting",
+  "Q7": "PASS: each bears on whether DMSO is worth using for chest pain",
+  "Q8": "N/A: no list or group in it",
+  "Q9": "PASS: one finding a sentence"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}
