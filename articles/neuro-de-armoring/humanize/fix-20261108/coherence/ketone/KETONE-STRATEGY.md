@@ -39,3 +39,42 @@ against a schedule that uses both"), taken with Strategy A's promise. The card: 
   ketone esters, salts and MCT oil improved thinking a little against a placebo, from a single dose as well as over two
   weeks or more (Bonnechère, et al, 2026)."
 - Two fresh reads (needed/sp95, his-fixes/sp95), with what I did about each in their READ.md.
+
+## His SC-95 answer, checked (answered 2026-11-12 20:16 UTC on the cards page, read 2026-11-13 15:25 UTC)
+
+He kept my four sentences and added three: "Amazon reviews do show many folks noting increased mental clarity, though."
+(with BHB drink and MCT oil reviews pasted in his comment); "And one study shows large improvement for Parkinson's, and
+[one woman's Alzheimer's was reversed] (LongeCity link)."; "Data on ketones for PTSD specifically are sparse." His
+comment: "wasn't sure if this was the place or if we are repeating stuff about the benefits in diff places..."
+
+- **The Amazon reviews**: users of a BHB salt drink and of MCT oils say their fog lifts and they focus better; a few say
+  it did nothing or made it worse. They speak to Strategy A's promise, next to the trials' small average effect, so they
+  stay in block 95.
+- **His LongeCity link** (opened 2026-11-13 in his browser; works): "Ketones bring alzheimer's patient back from the
+  brink", 2008, quoting the Tampa Bay Times. The patient is Steve Newport, a man with early-onset Alzheimer's, whose wife
+  Dr. Mary Newport gave him coconut oil: the next day he scored 18 on the mini-mental test, four points up; after five
+  months his tremor had eased, his visual problems had gone and he was more social. She says nothing could repair the
+  damage, only that the oil seemed to help. Later, the [case report](https://pubmed.ncbi.nlm.nih.gov/25301680/) (Newport,
+  VanItallie, Kashiwaya, King & Veech, Alzheimer's & Dementia 2015; doi 10.1016/j.jalz.2014.01.006): on a ketone
+  monoester drink for 20 months, from a pretreatment score of 12, he "improved markedly in mood, affect, self-care, and
+  cognitive and daily activity performance". So: a man, and improved markedly, not reversed.
+- **The Parkinson's study**: the same thread quotes VanItallie's 2005 study,
+  [VanItallie, et al, 2005](https://pubmed.ncbi.nlm.nih.gov/15728303/) (Neurology; doi
+  10.1212/01.WNL.0000152046.11390.45): five of seven volunteers kept to a "hyperketogenic" diet for 28 days; rating-scale
+  scores improved in all five; "a placebo effect was not ruled out" (the thread quotes him: on average by as much as 43%).
+  The other side: [Phillips, et al, 2018](https://pubmed.ncbi.nlm.nih.gov/30098269/) (Mov Disord; doi 10.1002/mds.27390),
+  47 randomized to a ketogenic or low-fat diet for 8 weeks, 38 finished: both improved; the ketogenic group more on
+  non-motor symptoms (41% against 11%; most for urinary problems, pain, fatigue, daytime sleepiness and thinking), the same
+  on movement. Reviews: class C, "possibly effective", for non-motor features and unproven for motor ones (Bohnen 2023,
+  PMID 36846143); the randomized trials show no motor or cognitive gain (Grammatikopoulou 2022, PMID 35714419); a small
+  2024 placebo-controlled MCT-ketogenic week: non-motor symptoms down more, rating scale no different (Choi 2024, PMID
+  38561682). All of these are the diet or MCT oil, not BHB salts.
+- **"Data on ketones for PTSD specifically are sparse"**: block 48 says it with the studies (Edwards 2024, two case
+  reports, Youssef 2022, Engelhardt 2026).
+- **The repeats he asked about**: block 26 (the intro: BHB blocks HDACs), block 48 (PTSD: the mechanism and every human
+  study), block 54 (the fog as a fuel problem; ketones as backup fuel that early-Alzheimer's brains still take up), block
+  94 (anxiety and depression: Calabrese's three adults; ketones as fuel for struggling neurons, in a clause) and block 95
+  (what Strategy A does). Each makes its own point; the PTSD line was the one said twice, and Parkinson's and Alzheimer's
+  belong where block 54 already names Alzheimer's.
+
+Cards SC-95b (block 95) and SC-54 (block 54), in ../../x1113b/.

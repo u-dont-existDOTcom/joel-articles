@@ -81,3 +81,44 @@ and a 1967 title says "mental patients".
 - **Not**: smelled; not PTSD; no placebo, no blinding, no random assignment.
 
 Card SC-DMSOb puts this in the item, at its strength, and narrows "no trial has tested it for anxiety or PTSD" to PTSD.
+
+## His two DMSO answers, checked (read 2026-11-13 15:25 UTC)
+
+He answered SC-DMSO on 2026-11-13 at 14:04 UTC on the cards page and never sent it, then SC-DMSOb at 15:22 UTC ("not sure
+if info is being duplicated, we should try to merge the DMSO info if it is duplicated"). Both, word for word:
+../CARDS-PAGE-DECISIONS-20261113-1525.json and ANSWERS-X1113A-20261113-1524.json.
+
+- **The duplicates**: his two versions repeat each other (his experience, the 1967 study, transplants, the dish study,
+  the rodents). Against the rest of the protocol nothing repeats: the safety note at the top is about purity and
+  cleanliness, the Fog table and the timeline say when to smell it, and his item says what it does.
+- **[Kortleve, et al, 2023](https://www.researchsquare.com/article/rs-2624641/v1)** (his link, the preprint; published
+  as a letter, Bone Marrow Transplant 2023, PMID 37391653, doi 10.1038/s41409-023-02008-1): a survey of 64 European
+  transplant centres about giving fluids after stem cells frozen in DMSO; it cites the trial behind his "10% vs 5%":
+  [Mitrus, et al, 2018](https://pubmed.ncbi.nlm.nih.gov/29269805/) (Bone Marrow Transplant; doi
+  10.1038/s41409-017-0056-6), 150 adults randomized to stem cells frozen in 10%, 7.5% or 5% DMSO: side effects during and
+  just after the infusion were fewest with 5% (p = 0.02 against 10%; mostly mild nausea, vomiting and blood pressure
+  changes, per the survey), with engraftment the same. The survey also says DMSO in transplants can cause serious
+  reactions such as heart rhythm problems.
+- **Jacob & de la Torre 2015** (his Amazon link; Amazon answered my check with "Access restricted ... unauthorized AI
+  agent", so not opened): the publisher's page
+  ([Routledge](https://www.routledge.com/Dimethyl-Sulfoxide-DMSO-in-Trauma-and-Disease/Jacob-Torre/p/book/9781138894624))
+  says the book reviews DMSO's clinical uses with animal work: osteoarthritis, interstitial cystitis, gut inflammation,
+  scleroderma, respiratory distress, myasthenia gravis, heart disease, brain injury, Alzheimer's, pain, cancer, stroke and
+  spinal cord injury. It doesn't say "hundreds"; nothing I found says children take it for other problems. Children do
+  get it in stem cell transplants (Hanslick's abstract).
+- **[Brown, et al, 1988](https://pubmed.ncbi.nlm.nih.gov/3356738/)** (J Burn Care Rehabil; doi
+  10.1097/00004630-198801000-00007): 26 ewes given smoke from burning cotton: all seven controls dead by 72 hours; four
+  of six given DMSO died; two of six given heparin died; all seven given DMSO with heparin lived. The abstract gives no
+  route. His "prevent ... from killing 4/6 sheep" had it the other way round.
+- **[Kimura, et al, 1988](https://pubmed.ncbi.nlm.nih.gov/2458858/)** (Circ Shock, the same Galveston lab): DMSO with
+  heparin nebulized into the windpipe every four hours from an hour after the smoke; lung fluid and lymph flow rose much
+  less, "especially ... in the animals that received the DMSO". Nebulized, with heparin; lung injury, not survival.
+- **"other rodent studies under other conditions"**: the condition is age. Hanslick 2009 (above): brain cell death in
+  mice from birth to a month, worst at a week, from the lowest dose tried (0.3 ml/kg); its authors: "Because children,
+  who undergo bone marrow transplantation, are routinely exposed to DMSO at doses higher than 0.3 ml/kg, there is concern
+  that DMSO might be producing similar damage in human children." Its dish found 0.5% and 1% killing rat neurons, the
+  strengths at which Lu & Mattson saw protection; he cut that from SC-DMSOb, and it stays out.
+- **"If it is killing my neurons, I'm pretty sure it's killing the trash ones"**: his view; nothing I found shows DMSO
+  sparing healthy neurons (Hanslick's were healthy, young ones).
+
+Card SC-DMSOc, in ../x1113b/.

@@ -1,5 +1,14 @@
 # Status: neuro de-armoring humanization (newest on top)
 
+## 2026-11-13, his message of 15:24 UTC: answers I hadn't read; SC-95b, SC-54 and SC-DMSOc; lesson 13b
+
+He sent the x1113a answers (SC-95 and SC-DMSOb, both revise) and asked why I couldn't reach his computer and why the ketone card was back. His message word for word: `fix-20261108/joel-20261113-1524-message.txt`; his answers: `fix-20261108/dmso/ANSWERS-X1113A-20261113-1524.json`. **The mailbox first** ("2026-11-13 15:24"): main 0dc58c501, unchanged; this lane's 434 open and clean, not merged by the lane workflow; bad-trips 435 open; UDA unchanged; no new issues or comments; no notifications. The link to his computer worked (the last turn's failure was every connector at once).
+
+- **The answers I hadn't read**: the cards page saves each answer in its database ("decisions"); I had read only the files he sent. His SC-95 answer (2026-11-12 20:16) and his first DMSO answer (2026-11-13 14:04) sat there unread (`fix-20261108/CARDS-PAGE-DECISIONS-20261113-1525.json`). Lesson neuro-2026-11-13b (`docs/lessons/2026-11-13-1524-neuro.md`): read the page's stored answers every turn, first.
+- **His new sources, checked** (`coherence/ketone/KETONE-STRATEGY.md`, "His SC-95 answer, checked"; `dmso/DMSO-PTSD.md`, "His two DMSO answers, checked"; links opened in his browser, `x1113b/LINKS-CHECKED.md`): the LongeCity Alzheimer's case is a man, Steve Newport, improved markedly (Newport 2015), not reversed; the Parkinson's study is VanItallie 2005, with Phillips 2018's randomized trial; Brown 1988's sheep the other way round (DMSO with heparin 7 of 7 alive; DMSO alone 2 of 6; controls 0 of 7), nebulized in Kimura 1988; Kortleve 2023 is a survey, the 10% vs 5% finding Mitrus 2018's trial; Amazon refused my check of the book, the publisher's page lists its conditions, not "hundreds".
+- **Cards** (`fix-20261108/x1113b/`, cards page version 10): SC-95b (block 95, his version without his PTSD line); SC-54 (block 54, his Parkinson's and Alzheimer's sentence corrected, with the trial); SC-DMSOc (his two DMSO versions as one, after Magnesium; "including children" moved to the young-mouse study after the fit read took it as a safety sign). Nine fresh reads (needed, his fixes, fit, for each text), each disposition in its READ.md.
+- **Waiting on him**: the three cards and question 12. Before SC-54 or SC-DMSOc's second and third paragraphs go in, a Pangram check of each by itself must read Human High.
+
 ## 2026-11-13, his message of 14:05 UTC: the 1967 DMSO paper; card SC-DMSOb; lesson 13a
 
 He sent Ramírez & Luza 1967 ("Dimethyl sulfoxide in the treatment of mental patients", Annals of the New York Academy of
