@@ -18,6 +18,30 @@ From an account with Desktop Commander connected to the laptop: "Continue my neu
 
 ## START HERE
 
+- **2026-11-13, after his message of 15:24 UTC: cards SC-95b, SC-54 and SC-DMSOc and question 12 wait on him; lesson
+  13b.** HUMANIZED-SO-FAR.md is still 86fa6be5. **Every turn, first**: list the cards page's stored answers (ArtifactData
+  `list`, collection "decisions", on https://claude.ai/artifact/9nENpt9AEJCB43a9Wy5jqn) and handle any newer than the
+  last applied, sent or not (lesson neuro-2026-11-13b: his SC-95 answer of 2026-11-12 20:16 and SC-DMSO answer of
+  2026-11-13 14:04 sat there unread). The page is now version 10 (`fix-20261108/x1113b/REVIEW-X1113B.json`): SC-95b
+  (block 95, his version without his PTSD line, which block 48 says), SC-54 (block 54, his Parkinson's and Alzheimer's
+  sentence, corrected: a man, improved markedly; VanItallie 2005 with Phillips 2018) and SC-DMSOc (his two DMSO versions
+  as one item after Magnesium: the sheep the right way round, Mitrus 2018 for 10% vs 5%, the publisher for the book,
+  "including children" moved to the young-mouse study). Texts with links: `x1113b/X1113B-TEXTS.md`; checks:
+  `coherence/ketone/KETONE-STRATEGY.md` and `dmso/DMSO-PTSD.md`. **Before applying**: gate bad-trips-2026-11-12l
+  (`tools/humanization/apply_gate.py`): SC-54's paragraph and SC-DMSOc's second and third paragraphs are mine and need a
+  Pangram check by themselves at Human High (GUI checks in his browser; the link to his computer works again). SC-95b
+  and SC-DMSOc's first and last paragraphs are his versions. **Next**: his answers; those checks; then EXTRACT.md's other
+  16 items, 2.2 and 2.3 first (lessons 11b, 11c, 12a, 13a for research; 12b for optional changes).
+- **2026-11-13, after his message of 14:05 UTC (the 1967 DMSO paper): cards SC-95 and SC-DMSOb and question 12 wait on
+  him; lesson 13a.** HUMANIZED-SO-FAR.md is still 86fa6be5. The cards page (https://claude.ai/artifact/9nENpt9AEJCB43a9Wy5jqn,
+  version 9, `fix-20261108/dmso/REVIEW-X1113A.json`) carries SC-95 and SC-DMSOb (the DMSO item with Ramírez & Luza 1967;
+  replaces SC-DMSO). **Before applying either**: gate bad-trips-2026-11-12l, a paragraph of mine goes in only when a
+  Pangram check of it by itself reads Human High in every window (`tools/humanization/apply_gate.py`, which every apply
+  script calls; predictions first with `pangram_ledger.py predict --detector`; GUI checks in his browser, as AGENTS.md
+  says). This turn the link to his computer failed to connect, so no check ran and the laptop handoffs weren't updated.
+  **Next**: his answers; the Pangram checks of the approved paragraphs; then EXTRACT.md's other 16 items, 2.2 and 2.3
+  first (lessons 11b, 11c, 12a, 13a for research; 12b for optional changes).
+
 - **2026-11-12, after his message of 21:37 UTC: cards SC-95 and SC-DMSO and question 12 wait on him; lesson 12b.**
   HUMANIZED-SO-FAR.md is still 86fa6be5. The cards page (https://claude.ai/artifact/9nENpt9AEJCB43a9Wy5jqn, version 8,
   `fix-20261108/dmso/REVIEW-X1112C.json`) carries SC-95 (the ketone strategies) and SC-DMSO (a new item after Magnesium in

@@ -30,7 +30,7 @@ The AI windows of every section, rewritten and checked; his cards; his post upda
 
 ## Blockers / unresolved
 
-Two cards wait on him: SC-95, the two ketone strategies (`humanize/fix-20261108/coherence/ketone/REVIEW-X1112B.md`), and SC-DMSO, DMSO in the Glutamate Shield (`humanize/fix-20261108/dmso/REVIEW-X1112C.md`); one open question, 12, on splitting block 48's last sentence (`humanize/OWNER-QUESTIONS.md`).
+Three cards wait on him (`humanize/fix-20261108/x1113b/REVIEW-X1113B.md`, cards page version 10): SC-95b, his Strategy A version without the PTSD line block 48 already says; SC-54, his Parkinson's and Alzheimer's evidence, corrected, in block 54; SC-DMSOc, his two DMSO versions merged into one item after Magnesium. Of these, SC-54's paragraph and SC-DMSOc's second and third paragraphs are mine and go in only after a Pangram check of each by itself reads Human High. One open question, 12, on splitting block 48's last sentence (`humanize/OWNER-QUESTIONS.md`). Every turn starts by reading the cards page's stored answers (lesson neuro-2026-11-13b).
 
 ## Evidence / artifacts
 
@@ -38,4 +38,4 @@ Two cards wait on him: SC-95, the two ketone strategies (`humanize/fix-20261108/
 
 ## Next safe action
 
-`humanize/HANDOFF-neuro-de-armoring.md`, Next step: his answers to questions 3 and 4 and the two cards; then the warnings cards; then the rest of the article one paragraph at a time (gates E343, E344). The master is unchanged (his post as it stands).
+`humanize/HANDOFF-neuro-de-armoring.md`, Next step: the cards page's stored answers, then his answers to SC-95b, SC-54, SC-DMSOc and question 12; then the protocol's other contradictions (`humanize/fix-20261108/coherence/EXTRACT.md`); then the rest of the article one paragraph at a time (gates E343, E344). The master is unchanged (his post as it stands).

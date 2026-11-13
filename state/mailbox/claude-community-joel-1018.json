@@ -1371,6 +1371,96 @@
     }
    ],
    "recorded_utc": "2026-11-12T21:38Z"
+  },
+  {
+   "turn": "2026-11-13T14:05Z",
+   "lines_of_work": [
+    "neuro de-armoring",
+    "hypnosis guide",
+    "community article"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "AGENTS.md 7ef0bfc and LESSON-INDEX ba787e0 unchanged; the lane's six suggested-fix items, all in the ledger (GitHub answered 503 for the first minutes of the turn, then recovered)"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "main at 0dc58c501 (this lane's 432 merged; bad-trips 433: gate bad-trips-2026-11-12l, nothing of mine goes in below Human High checked by itself, apply_gate.py called by every apply script; the fit read made universal, bad-trips-2026-11-12k); no new issues or comments; 309 still open"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no edits by others to this lane's notes; his message of 14:05 UTC: the 1967 paper Ramirez and Luza, DMSO in the treatment of mental patients, as a PDF, with no words"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "no queued notifications"
+    }
+   ],
+   "items": [
+    {
+     "item": "his 1967 DMSO paper",
+     "outcome": "read in full; it gave DMSO to nine people with severe anxiety or OCD, so the DMSO card's 'no trial for anxiety' was wrong: card SC-DMSOb with the study at its strength; lesson neuro-2026-11-13a on searching older names"
+    },
+    {
+     "item": "main's gate bad-trips-2026-11-12l (Human High before a paragraph of mine goes in)",
+     "outcome": "adopted: SC-95 and SC-DMSOb go in only after a Pangram check of each by itself reads Human High; this session's link to his computer is down, so those checks wait for it"
+    },
+    {
+     "item": "main's universal fit read (bad-trips-2026-11-12k)",
+     "outcome": "adopted: used on SC-DMSOb with WHAT IT IS and YOUR MOMENT written for this protocol"
+    }
+   ],
+   "recorded_utc": "2026-11-13T14:18Z"
+  },
+  {
+   "turn": "2026-11-13T15:24Z",
+   "lines_of_work": [
+    "neuro de-armoring",
+    "hypnosis guide",
+    "community article"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "AGENTS.md 7ef0bfc and LESSON-INDEX ba787e0 unchanged; the lane's six suggested-fix items, all in the ledger"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "main at 0dc58c501, unchanged since the last turn; this lane's 434 open, clean, its check passed but not merged by the lane workflow (likely missed during the morning's outage; the next push re-runs it); bad-trips 435 open; no new issues or comments; 309 still open"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no edits by others to this lane's notes; his answers on x1113a (SC-95 revise, his version from 2026-11-12 20:16 UTC that I had not seen; SC-DMSOb revise with his version and a comment to merge duplicated DMSO info); the cards page's stored decisions also hold his SC-DMSO version of 2026-11-13 14:04 UTC, unseen until now; his questions: why I couldn't reach his computer, and why the ketone card came back"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "no queued notifications"
+    }
+   ],
+   "items": [
+    {
+     "item": "his SC-95 answer, made 2026-11-12 20:16 UTC and missed",
+     "outcome": "read from the page's stored decisions; his version with Amazon reports, Parkinson's and Alzheimer's: check the claims and answer his question on repeats with a merge card; lesson: read the stored decisions every turn"
+    },
+    {
+     "item": "his SC-DMSO (14:04) and SC-DMSOb (15:22) versions",
+     "outcome": "merge his two versions as his comment asks, check the new claims (the sheep study, the transplant study, the book, the young-brain harm) and put the merge on a card"
+    },
+    {
+     "item": "his question about his computer",
+     "outcome": "the link works now (device info answered at 15:25 UTC); the last turn's failure was every connector at once, not his setup; no new conversation needed"
+    }
+   ],
+   "recorded_utc": "2026-11-13T15:27Z"
   }
  ]
 }

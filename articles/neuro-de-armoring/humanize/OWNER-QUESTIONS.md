@@ -1,8 +1,8 @@
 # Neuro de-armoring: what I need from Joel
 
-Last updated 2026-11-12, after your message of 21:37 UTC.
-**Open questions: 1.** **For you to do**: two cards on
-[Neuro De-Armoring Cards, 12 November (3)](https://claude.ai/artifact/9nENpt9AEJCB43a9Wy5jqn) ([the DMSO card in Git](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/dmso/REVIEW-X1112C.md)): DMSO in the Glutamate Shield, and the ketone strategies from earlier tonight.
+Last updated 2026-11-13, after your message of 15:24 UTC.
+**Open questions: 1.** **For you to do**: three cards on
+[Neuro De-Armoring Cards, 13 November (2)](https://claude.ai/artifact/9nENpt9AEJCB43a9Wy5jqn) ([the cards in Git](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/x1113b/REVIEW-X1113B.md)): your ketone and DMSO answers, merged.
 
 Colours: 🟣 a question for you; 🟠 something for you to do; 🔵 next or in progress; 🟢 done or decided.
 
@@ -28,8 +28,22 @@ keto diet (Engelhardt, et al, 2026)."
 
 ## For you to do
 
-- 🟠 **DMSO in the Glutamate Shield** ([the page](https://claude.ai/artifact/9nENpt9AEJCB43a9Wy5jqn), [in Git](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/dmso/REVIEW-X1112C.md)): card SC-DMSO, a new item after Magnesium with your study checked and both sides searched.
-- 🟠 **The two ketone strategies** (the same page, [in Git](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/coherence/ketone/REVIEW-X1112B.md)): card SC-95, from earlier tonight.
+- 🟠 **Strategy A, without the repeat** ([the page](https://claude.ai/artifact/9nENpt9AEJCB43a9Wy5jqn), [in Git](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/x1113b/REVIEW-X1113B.md)): card SC-95b.
+- 🟠 **Your Parkinson's and Alzheimer's evidence, in the fuel paragraph** (the same page): card SC-54.
+- 🟠 **DMSO: your two versions as one** (the same page): card SC-DMSOc, in place of SC-DMSO and SC-DMSOb.
+
+## Your message of 2026-11-13 15:24 UTC, and what I did
+
+- 🟢 **Your computer**: the last turn's failure was every connection at once on my side, not your setup; it works again, and so does the browser on your computer. No new conversation needed.
+- 🟢 **The ketone card came back because I hadn't read your answer**: the cards page saves what you type, and I read only the answers files you sent. Your SC-95 answer (2026-11-12 20:16) and your first DMSO answer (2026-11-13 14:04) were saved there unread ([what the page held](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/CARDS-PAGE-DECISIONS-20261113-1525.json)). Now I read the page's saved answers every turn ([the lesson](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/docs/lessons/2026-11-13-1524-neuro.md)).
+- 🟢 **The repeats you asked about**: each place makes its own point (block 48 PTSD, block 54 fuel for a brain short of sugar, block 94 mood and anxiety, block 95 what the salts do); the PTSD line was the one said twice. Your two DMSO versions repeated each other; nothing else in the protocol repeats them ([the ketone check](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/coherence/ketone/KETONE-STRATEGY.md), [the DMSO check](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/dmso/DMSO-PTSD.md)).
+- 🟢 **Your new sources, checked**: the Alzheimer's case in your link is a man, Steve Newport, who improved markedly; the Parkinson's study is VanItallie 2005, with a randomized trial since; the sheep study had it the other way round (DMSO with heparin kept all seven alive; DMSO alone, two of six); the 10% vs 5% finding is the trial Kortleve cites (Mitrus 2018). All on the cards above.
+
+## Your message of 2026-11-13 14:05 UTC (the 1967 paper), and what I did
+
+- 🟢 **You were right to send it**: my DMSO card said no trial had tested DMSO for anxiety, and this 1967 study gave it to nine people with severe anxiety or obsessive-compulsive disorder. Read in full ([the check](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/dmso/DMSO-PTSD.md)); the card is redone with it, at its strength.
+- 🟢 **Lesson**: search the condition's older names and the decade a compound was most studied before saying something was never tested ([the file](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/docs/lessons/2026-11-13-1405-neuro.md)).
+- 🔵 **Before any card of mine goes in**: a new rule for every lane says a paragraph of mine goes into an article only once a Pangram check of it by itself reads Human High. My link to your computer is down this turn, so those checks wait for it.
 
 ## Your message of 2026-11-12 21:37 UTC, and what I did
 
