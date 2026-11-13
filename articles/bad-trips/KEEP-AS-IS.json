@@ -76,13 +76,13 @@
   {
    "id": "K8",
    "kind": "placement",
-   "quote": "- A seizure on a normal dose goes on for over 5 minutes.",
+   "quote": "- Note that psychedelics do reduce the seizure threshold, so if someone is prone to seizures, a normal dose could produce a seizure for them which doesn't indicate brain damage, but if it goes on over 5 minutes, that's too much",
    "what": "The seizure threshold is said in the medics list and again in Active Seizure; it stays in both, where the reader acts on it.",
    "joel": "sf-2 agree with you",
    "when": "2026-11-03 18:59 UTC",
    "where": "round 1, card SF-2 (my advice: leave both)",
    "basis": "his answer",
-   "reworded": "2026-11-12, turn 39: Active Seizure's call-medics line said as a lead-in and list (\"Call medics if any of these happen:\"), every threshold kept (humanize/h49-20261112, seize-c3, Human Written); the placement he agreed to is unchanged, in both places; 2026-11-12 19:44 UTC, his Active Seizure version (\"over 5 minutes\"), and the Call medics list's line said the same way, so the threshold is still in both places; 2026-11-12 22:34 UTC, his message (\"you're right about over 5 minutes that's an epilepsy rule\"): the 5 minutes for a seizure on a normal dose, an overdose seizure its own line, in both places"
+   "reworded": "2026-11-12, turn 39: Active Seizure's call-medics line said as a lead-in and list (\"Call medics if any of these happen:\"), every threshold kept (humanize/h49-20261112, seize-c3, Human Written); the placement he agreed to is unchanged, in both places; 2026-11-12 19:44 UTC, his Active Seizure version (\"over 5 minutes\"), and the Call medics list's line said the same way, so the threshold is still in both places; 2026-11-12 22:34 UTC, his message (\"you're right about over 5 minutes that's an epilepsy rule\"): the 5 minutes for a seizure on a normal dose, an overdose seizure its own line, in both places; 2026-11-13 14:15 UTC, his fix: the call list's items end with no period; 2026-11-13, his version f6b4e35a (\"but i want this version which explains better\"): the line with his explanation of the seizure threshold in it, still in both places"
   },
   {
    "id": "K9",

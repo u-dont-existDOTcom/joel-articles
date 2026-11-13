@@ -3052,6 +3052,19 @@
     }
    ],
    "reason": "whether a sentence is compressed, built like its neighbours, vague about who or what counts, or no use to its reader is meaning: a fresh reader given tools/humanization/his_fixes_brief.md judges it, sentence by sentence; his own writing has as many lists, questions and contrasts as the texts he fixed (articles/bad-trips/humanize/h46-20261112/his-fixes/COUNTS.md), so no count of those decides it"
+  },
+  {
+   "id": "W129",
+   "tell": "a list item that finishes its lead-in ends with a period",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "docs/lessons/2026-11-11-2357-bad-trips.md",
+     "quote": "you had to remove the periods at the end of each list item (i wouldn't put them in anyway, since they aren't full sentences)"
+    }
+   ],
+   "rule": "O74",
+   "example": "Call medics if any of these happen:\n- Their breathing gets slow and shallow.\n- Their lips turn blue or gray."
   }
  ]
 }

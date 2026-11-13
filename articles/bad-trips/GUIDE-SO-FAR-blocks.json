@@ -254,13 +254,7 @@
  {
   "id": "H49-SEIZE-CALL",
   "kind": "ul",
-  "md": "- They have a seizure after taking too much, or you don't know how much they took.\n- A seizure on a normal dose goes on for over 5 minutes.\n- Their breathing gets slow and shallow.\n- Their lips turn blue or gray.\n- Their forehead feels very hot (not just sweaty).\n- They injure their head, break a bone, or bleeding won't stop.",
-  "text": null
- },
- {
-  "id": "H51-SEIZE-WAIT",
-  "kind": "p",
-  "md": "Waiting the 5 minutes is only for a seizure on a normal dose. Psychedelics can lower the seizure threshold even at a normal dose, so someone with epilepsy or who's otherwise prone to seizures can have a seizure without taking too much. Their seizure is most likely less dangerous than an actual drug overdose seizure.",
+  "md": "- They have a seizure after taking too much, or you don't know how much they took\n- Note that psychedelics do reduce the seizure threshold, so if someone is prone to seizures, a normal dose could produce a seizure for them which doesn't indicate brain damage, but if it goes on over 5 minutes, that's too much\n- Their breathing gets slow and shallow\n- Their lips turn blue or gray\n- When you touch their forehead, it's very hot (not just sweaty)\n- They injure their head, break a bone, or bleeding won't stop",
   "text": null
  },
  {
@@ -720,9 +714,27 @@
   "text": null
  },
  {
+  "id": "R39B-DMSO-1",
+  "kind": "p",
+  "md": "In my experience, DMSO makes me alert, smarter, happier, healthier, and more relaxed, and pretty much everyone I've heard from on forums and in real life says the same thing. It also is one of the only things that can instantly turn a bad psychedelic trip good. When I nebulize it, within a minute, my brain feels crystal clean and super blissed out (much more bliss than other routes).",
+  "text": null
+ },
+ {
   "id": "B201",
   "kind": "p",
   "md": "It overlaps with aged ozonated-charcoal water, but the two don't always work equally. Sometimes DMSO works better; sometimes the water does. I don't yet know why. In my experience there is generally no harm in taking both or mixing them. Ozonated-charcoal water has what I consider a perfect safety profile; DMSO is a close second in my experience.",
+  "text": null
+ },
+ {
+  "id": "R39B-DMSO-2",
+  "kind": "p",
+  "md": "One famous [1967 study by Ramirez & Luza](https://nyaspubs.onlinelibrary.wiley.com/doi/epdf/10.1111/j.1749-6632.1967.tb34937.x) found it more effective than the best antipsychotic drugs at the time, slashing mental patients' psych ward stays in half, although it hasn't been tested (that I know of, yet) specifically for anxiety or PTSD, although those patients surely had both of those conditions. It's routinely used in humans who receive stem cell transplants, as it is the best cell preservative that we've found so far. There is evidence ([Kortleve, et al, 2023](https://assets-eu.researchsquare.com/files/rs-2624641/v1/45119f29-3464-4680-8468-490477ae59ae.pdf?c=1688109028)) that using too much DMSO (10% vs 5%) in stem cell transfusions increases mild side effects in adult humans.",
+  "text": null
+ },
+ {
+  "id": "R39B-DMSO-3",
+  "kind": "p",
+  "md": "Young brains may be at risk from DMSO, though: it killed brain cells in mice up to a month old, even at a low dose, and in a dish of rat neurons ([Hanslick, et al, 2009](https://pubmed.ncbi.nlm.nih.gov/19100327/)). Translating mouse research to humans isn't straightforward.",
   "text": null
  },
  {
@@ -734,7 +746,7 @@
  {
   "id": "B203",
   "kind": "ul",
-  "md": "- **Astringency:** 100% DMSO usually irritates skin on the upper half of the body. When it itches, dilute it with water or real aloe juice without added chemicals. Leaving 100% DMSO on the skin can crenate it, and the skin may take a week to look plump again. DMSO can also burn dry mouth tissue, so the mouth should be moist first.\n- **Nausea:** when drinking DMSO, dilute it in water, juice, or milk and sip gradually. Sensitivity varies.\n- **Reduced sleep:** DMSO reduces how long I sleep when I take too much, take it too late, or use it over too many consecutive days. It builds up past a threshold that seems to differ between people. [In rats, higher doses made sleep lighter](https://www.sciencedirect.com/science/article/abs/pii/S0378427405000810). Some people sleep better with DMSO because it reduces whatever symptom had been keeping them awake.\n- **Body odor:** above a certain dose you may smell like sulfur. I don't smell when I put it into milk.",
+  "md": "- **Astringency:** 100% DMSO usually irritates skin on the upper half of the body. When it itches, dilute it with water or real aloe juice without added chemicals. Leaving 100% DMSO on the skin can crenate it, and the skin may take a week to look plump again. DMSO can also burn dry mouth tissue, so the mouth should be moist first.\n- **Nausea:** when drinking DMSO, dilute it in water, juice, or milk and sip gradually. Sensitivity varies.\n- **Reduced sleep:** DMSO reduces how long I sleep when I take too much, take it too late, or use it over too many consecutive days. It builds up past a threshold that seems to differ between people, so it's best taken in the morning, and reduce the dose if you notice you're sleeping less. [In rats, higher doses made sleep lighter](https://www.sciencedirect.com/science/article/abs/pii/S0378427405000810). Some people sleep better with DMSO because it reduces whatever symptom had been keeping them awake.\n- **Body odor:** above a certain dose you may smell like sulfur. I don't smell when I put it into milk.",
   "text": null
  },
  {
@@ -1850,7 +1862,7 @@
  {
   "id": "B97",
   "kind": "ul",
-  "md": "- Psychosis-like symptoms outlast the acute state.\n- Sleep won't return.\n- Mania or suicidal thinking appears.\n- Panic won't settle.\n- The person can't function afterward.\n- The trauma material is bigger than the room can hold.",
+  "md": "- Psychosis-like symptoms outlast the acute state\n- Sleep won't return\n- Mania or suicidal thinking appears\n- Panic won't settle\n- The person can't function afterward\n- The trauma material is bigger than the room can hold",
   "text": null
  },
  {

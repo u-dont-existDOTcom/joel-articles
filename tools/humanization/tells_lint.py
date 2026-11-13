@@ -314,6 +314,16 @@ O73 = ('O73 a sign of health in a list of warning signs (Joel 2026-11-12: "you d
        'symptom? it was the opposite, a sign of health"): each line says the sign the list is for ("are they unconscious or '
        'breathing abnormally?"), not the healthy state')
 
+# O74 (Joel, 2026-11-13 14:15 UTC, lesson bad-trips-2026-11-12m: "i fixed the call list, you had to remove the periods at the
+# end of each list item (i wouldn't put them in anyway, since they aren't full sentences)"; his check read Human, 0% AI,
+# where my two tries with the periods read Human with a Medium window and two others AI). A list item that finishes its
+# lead-in's sentence ("Call medics if any of these happen:", "Call medics for:", "Bring in mental-health support when:")
+# is not a sentence of its own, so it ends with no period. An item of two sentences or more is left alone.
+COMPLETES_LEAD = re.compile(r"\b(?:if|when|whenever|for|like|such as|include|includes|including|these|this|the following|"
+                            r"any of|one of|either|happen|happens|is|are|means?|signs?)\s*:\s*$", re.I)
+O74 = ('O74 a list item that finishes its lead-in ends with a period (Joel 2026-11-13: "you had to remove the periods at the end '
+       'of each list item (i wouldn\'t put them in anyway, since they aren\'t full sentences)"): end it with no period')
+
 # O6: a feeling or an abstract idea doing what a person does (Joel, 2026-10-02 00:52: "the usage of abstract concepts
 # or feelings as agents is one AI tell because it permits high efficiency of words"; he changed "so the anger goes
 # there, trying to get some justice" to "so the angry communard goes there"). REVIEW only: an idiom can stay, and so
@@ -1054,6 +1064,11 @@ def main():
             if lead71 and nxt71 and not nxt71.endswith(':') and not ACT71.search(lead71) \
                     and (ACT71.search(nxt71) or VERDICT71.search(nxt71)) and (o71_mine(lead71) or o71_mine(nxt71)):
                 flag('REVIEW', O71, lead71 + ' ... ' + nxt71)
+            if lead71 and COMPLETES_LEAD.search(lead71):
+                for item74 in lines71[a71:k71]:
+                    it74 = re.sub(r'^\s*(?:[-*+•]|\d+[.)])\s+', '', item74).strip()
+                    if it74.endswith('.') and len(o71_sents(it74)) == 1 and o71_mine(it74):
+                        flag('REVIEW', O74, lead71 + ' ... ' + it74)
             if lead71 and WARN_LEAD.search(lead71):
                 for item73 in lines71[a71:k71]:
                     it73 = re.sub(r'^\s*(?:[-*+•]|\d+[.)])\s+', '', item73).strip()
