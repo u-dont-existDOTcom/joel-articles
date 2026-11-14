@@ -1,0 +1,107 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-14",
+ "text_sha256": "c46a9fcd2d396017e394b03db19d6965e84e996a5275469b9bda1adb957194e1",
+ "text": "I believe, based on my experience and those of others I've heard from, as well as the books I've read on this, that DMSO works better for most acute brain damage than anything else readily available. The clinical evidence is incomplete, but it leans this way. In animals, when given after a stroke, it shrank the area of the brain that died (which is a good thing). In a human trial, some clot stroke patients seemed to recover better on DMSO, and doctors have used it in a small series of patients to bring down dangerous pressure inside the skull. But more relevant to the drug overdose issue this article deals with, DMSO calms NMDA- and AMPA-mediated excitotoxicity that kills brain cells, at least in rat brain cells in a dish.",
+ "section": "If Someone Says \"My Brain Feels Damaged\": DMSO + Humic Acid + Electrolytes First",
+ "reader": "a friend sitting with someone on a drug who says their brain feels damaged, who has just done the stroke checks and is deciding whether to trust DMSO as the first remedy",
+ "sentences": [
+  {
+   "s": "I believe, based on my experience and those of others I've heard from, as well as the books I've read on this, that DMSO works better for most acute brain damage than anything else readily available.",
+   "payoff": "they know why the author gives DMSO first for a brain that feels damaged",
+   "follows": "the checks and call line before it"
+  },
+  {
+   "s": "The clinical evidence is incomplete, but it leans this way.",
+   "payoff": "they know how far the evidence goes",
+   "follows": "it weighs the belief before it",
+   "link": "none: his sentence, the next in his paragraph"
+  },
+  {
+   "s": "In animals, when given after a stroke, it shrank the area of the brain that died (which is a good thing).",
+   "payoff": "they know DMSO limited brain damage after a stroke in animals",
+   "follows": "the first study",
+   "link": "none: his sentence, the next in his paragraph"
+  },
+  {
+   "s": "In a human trial, some clot stroke patients seemed to recover better on DMSO, and doctors have used it in a small series of patients to bring down dangerous pressure inside the skull.",
+   "payoff": "they know the human evidence is small",
+   "follows": "the human studies",
+   "link": "none: his sentence, the next in his paragraph"
+  },
+  {
+   "s": "But more relevant to the drug overdose issue this article deals with, DMSO calms NMDA- and AMPA-mediated excitotoxicity that kills brain cells, at least in rat brain cells in a dish.",
+   "payoff": "they know DMSO calmed the excitotoxicity an overdose brings, and that it was in rat cells in a dish",
+   "follows": "the overdose case after the strokes, his frame",
+   "link": "But more relevant to the drug overdose issue"
+  }
+ ],
+ "checked": [],
+ "placement": "My Brain Feels Damaged, the evidence paragraph after the checks and the call line: his sentence with where the study was done added",
+ "opens": {
+  "first_sentence": "I believe, based on my experience and those of others I've heard from, as well as the books I've read on this, that DMSO works better for most acute brain damage than anything else readily available.",
+  "why_reading": "it tells someone deciding whether to trust DMSO for a damaged-feeling brain that the author rates it first, and on what"
+ },
+ "same_point": "none: Lu & Mattson is said here only (turn 43); read the section for the study",
+ "needed": {
+  "reader": "a fresh agent given tools/humanization/needed_read_brief.md with only the text, its heading and what it is for (reads/need-brainev-m3.txt)",
+  "unneeded": [
+   "In a human trial, some clot stroke patients seemed to recover better on DMSO, and doctors have used it in a small series of patients to bring down dangerous pressure inside the skull."
+  ],
+  "kept": {
+   "In a human trial, some clot stroke patients seemed to recover better on DMSO, and doctors have used it in a small series of patients to bring down dangerous pressure inside the skull.": "they know the human evidence is small; his sentence with \"a\" for \"one\", his own rule"
+  }
+ },
+ "his_fixes": {
+  "reader": "a fresh agent given tools/humanization/his_fixes_brief.md with the text, one sentence a line (reads/his-brainev-m3.txt)",
+  "marked": [
+   {
+    "s": "The clinical evidence is incomplete, but it leans this way.",
+    "difference": "3, 4",
+    "draft": "brainev-m3"
+   },
+   {
+    "s": "In one human trial, some clot stroke patients seemed to recover better on DMSO, and doctors have used it in a small series of patients to bring down dangerous pressure inside the skull.",
+    "difference": "1, 2, 8",
+    "draft": "brainev-m3"
+   },
+   {
+    "s": "But more relevant to the drug overdose issue this article deals with, DMSO calms NMDA- and AMPA-mediated excitotoxicity that kills brain cells, at least in rat brain cells in a dish.",
+    "difference": "1, 4, 7",
+    "draft": "brainev-m3"
+   }
+  ],
+  "kept": {
+   "The clinical evidence is incomplete, but it leans this way.": "they know how far the evidence goes; his sentence (5b09da6c, Human High)",
+   "But more relevant to the drug overdose issue this article deals with, DMSO calms NMDA- and AMPA-mediated excitotoxicity that kills brain cells, at least in rat brain cells in a dish.": "they know the overdose evidence, in his integrated wording, with where it was found added (High in brainev-m3, dcca4831)",
+   "In a human trial, some clot stroke patients seemed to recover better on DMSO, and doctors have used it in a small series of patients to bring down dangerous pressure inside the skull.": "they know the human evidence is small; his sentence, \"one\" made \"a\" by his rule"
+  }
+ },
+ "fit": {
+  "reader": "a fresh agent given tools/humanization/fit_read_brief.md, the universal version (reads/fit-brainev-m3.txt)",
+  "marked": [],
+  "kept": {}
+ },
+ "questions": {
+  "Q2": "N/A: an evidence paragraph, no instruction in it",
+  "Q8": "N/A: no list or group in it",
+  "Q1": "PASS: his frame leads; where the finding was made closes the sentence",
+  "Q3": "PASS: \"rat brain cells in a dish\"",
+  "Q5": "PASS: \"But more relevant\" turns from strokes to the overdose case",
+  "Q6": "PASS: belief, how far, animals, people, the overdose case",
+  "Q7": "PASS: each study bears on trusting DMSO for brain damage",
+  "Q9": "PASS: one finding a clause",
+  "Q4": "PASS: his term, as in his version (he kept it: 5b09da6c, Human High)"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

@@ -377,6 +377,9 @@ def parser():
                     help='merge the pull request into main once its checks pass: required when the branch changes shared '
                          'rules or tools, so every lane has them at its next turn (Joel, 2026-11-05)')
     ap.add_argument('--no-merge', help='push a branch with shared changes without merging it: why it must wait')
+    ap.add_argument('--boundary', help='what ends the turn with this turn\'s checks still below Human High: the card he '
+                                        'answers next, the budget spent, a gate, or "mid-turn save" (lesson '
+                                        'bad-trips-2026-11-14b)')
     ap.add_argument('--mailbox', metavar='TURN',
                     help='the turn\'s first clock reading ("2026-11-01 22:27", UTC): its mailbox check must be on record '
                          '(tools/humanization/lane_mailbox.py record); required')
@@ -461,6 +464,9 @@ def robot_on_main():
     return run(['git', 'cat-file', '-e', 'origin/main:' + ROBOT], check=False).returncode == 0
 
 
+REFUSED_MERGE = re.compile(r'permission|refus|denied|not allowed|classifier|without review|auto mode', re.I)
+
+
 def merge_gate(a, pending, robot=None):
     """Refuse a push of shared changes that says neither --merge nor --no-merge (Joel, 2026-11-05: "make sure you merge
     lessons with main branch so everyone is sharing always"), unless main has the lane auto-merge workflow, which merges
@@ -476,6 +482,73 @@ def merge_gate(a, pending, robot=None):
                  'always"). Push again with --merge, or with --no-merge "why it must wait".' % ', '.join(pending[:6]))
     if a.merge and a.no_merge:
         sys.exit('refused: --merge and --no-merge together')
+    if a.no_merge and robot and REFUSED_MERGE.search(a.no_merge):
+        sys.exit('refused: --no-merge labels the pull request "hold", so the lane auto-merge workflow leaves it for Joel; a '
+                 'merge this session was not allowed to make is no reason to hold it (lesson bad-trips-2026-11-14a; Joel, '
+                 '2026-11-14 22:08 UTC, after merging a pull request held that way: "i merged, and that should happen '
+                 'automatically"). Push again with neither --merge nor --no-merge: the workflow merges it once its checks '
+                 'pass and it has no conflicts (E379). --no-merge is for a change that must wait: failing tests, or his '
+                 'decision.')
+
+
+BUDGET = 6   # tests per paragraph, docs/PANGRAM-PRODUCTION-BUDGET-20261020.md
+
+
+def open_work(ledger, since):
+    """Lineages checked this turn (predictions from SINCE, the turn's mailbox time) whose last result reads below Human
+    High in some window: [(lineage, tries, last verdict and windows)]. Lesson bad-trips-2026-11-14b: the turn goes on
+    while one has a next step that is safe and mine (another try after a diagnosis, or his teaching card once the tries
+    are spent), and ends only at a boundary it names."""
+    path = pathlib.Path(ledger)
+    if not path.exists() or not since:
+        return []
+    since = since.strip().replace(' ', 'T')
+    recs = [json.loads(x) for x in path.read_text(encoding='utf-8').splitlines() if x.strip()]
+    voided = {r.get('prediction') for r in recs if r.get('type') == 'void'}
+    results = {}
+    for r in recs:
+        if r.get('type') == 'result':
+            results[r.get('prediction')] = r
+    lines = {}
+    for r in recs:
+        if r.get('type') != 'prediction' or r.get('id') in voided:
+            continue
+        lines.setdefault(r.get('lineage'), []).append(r)
+    out = []
+    for lin, preds in lines.items():
+        if not any(str(p.get('at', '')) >= since for p in preds):
+            continue
+        done = [p for p in preds if p.get('id') in results]
+        if not done:
+            continue
+        last = results[done[-1]['id']]
+        ws = [w for w in last.get('windows') or [] if isinstance(w, dict)]
+        if ws and all(w.get('label') == 'Human' and w.get('confidence') == 'High' for w in ws):
+            continue
+        shown = '%s (%s)' % (last.get('headline') or last.get('verdict'),
+                             ', '.join('%s %s' % (w.get('label'), w.get('confidence')) for w in ws))
+        out.append((lin, len(preds), shown))
+    return out
+
+
+def boundary_gate(a):
+    """Refuse a push that ends a turn with this turn's checks below Human High unless --boundary says what ends it."""
+    if not a.article:
+        return
+    left = open_work(REPO / 'articles' / a.article / 'humanize' / 'pangram-ledger.jsonl', a.mailbox)
+    if not left or a.boundary:
+        if left:
+            print('open at this push (lesson bad-trips-2026-11-14b): %s; boundary: %s' % (
+                '; '.join('%s, try %d of %d, %s' % (l, n, BUDGET, w) for l, n, w in left), a.boundary))
+        return
+    sys.exit('refused: this turn checked texts that still read below Human High:\n  ' + '\n  '.join(
+        '%s: try %d of %d, last %s' % (l, n, BUDGET, w) for l, n, w in left) + '\n'
+        'The turn goes on while a next step is safe and yours: another try after a named diagnosis, or, once the tries are '
+        'spent or the next has nothing new to try, the paragraph on his marking page as a teaching card with your best '
+        'tested tries (lesson bad-trips-2026-11-14b; Joel, 2026-11-14 22:08 UTC: "didn\'t understand why you gave me no '
+        'cards and quit working tho"; lesson bad-trips-2026-11-06b). Push again with --boundary "what ends the turn '
+        'here" naming it: the card he answers next (its round), the budget spent, a gate, or "mid-turn save" when the '
+        'work goes on after this push.')
 
 
 def merge_now(wait=600):
@@ -538,6 +611,7 @@ def main(argv=None):
             print(line)
     pending = sorted(set(shared_changes()) | set(shared(a.add)))
     merge_gate(a, pending)
+    boundary_gate(a)
     lesson_numbers_gate()
     note = compare_gate(a.article, a.unread_ok)
     if pending and a.no_merge:

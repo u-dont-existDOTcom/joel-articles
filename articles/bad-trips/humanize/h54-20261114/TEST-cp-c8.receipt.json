@@ -1,0 +1,103 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-14",
+ "text_sha256": "bf1f4df9ca5fa6f3a039fdf7dda6ac6aeac7f5411005f46d471baf1542fb7f36",
+ "text": "DMSO is also my first remedy for many injuries and some chest pain. After I overused erythritol, I developed angina that lasted for days. I took DMSO, the pain disappeared within about a minute, and it never returned.\n\nChest pain can come from a clot starting to block an artery, and DMSO slowed clotting in mice and in a dish of human platelets, the blood cells that start clots.",
+ "section": "Chest Pain and Injury",
+ "reader": "a friend whose companion on a drug has chest pain, deciding whether DMSO with magnesium chloride on the chest is worth using before the next paragraph tells them when to call medics",
+ "sentences": [
+  {
+   "s": "DMSO is also my first remedy for many injuries and some chest pain.",
+   "payoff": "they know the author uses DMSO for some chest pain",
+   "follows": "his section opens"
+  },
+  {
+   "s": "After I overused erythritol, I developed angina that lasted for days.",
+   "payoff": "they know his angina",
+   "follows": "the story behind his first sentence",
+   "link": "none: his sentence, the next in his paragraph"
+  },
+  {
+   "s": "I took DMSO, the pain disappeared within about a minute, and it never returned.",
+   "payoff": "they know it went within a minute and stayed gone",
+   "follows": "what DMSO did for it, after the angina",
+   "link": "none: his sentence, the next in his paragraph"
+  },
+  {
+   "s": "Chest pain can come from a clot starting to block an artery, and DMSO slowed clotting in mice and in a dish of human platelets, the blood cells that start clots.",
+   "payoff": "they know chest pain can come from a clot and that DMSO slowed clotting, in mice and in human platelets in a dish",
+   "follows": "what the research adds to his story",
+   "link": "Chest pain can come from a clot"
+  }
+ ],
+ "checked": [
+  {
+   "point": "the two clotting studies the guide links (PubMed 17000906, 20035720), and the rat study (19904216)",
+   "found": "17000906: DMSO slowed tissue factor and clots in arteries, in mice and human cells; 20035720: human platelets; 19904216: rats given DMSO for three days before the artery was tied, pretreatment only",
+   "still_needed": "yes: they know DMSO slows clotting, in mice and human platelets; the rats go, as the reader can't give it days before",
+   "fate": "changed"
+  }
+ ],
+ "placement": "Chest Pain and Injury, after his angina story (checked with it, the paragraph being under 50 words) and before what to do",
+ "opens": {
+  "first_sentence": "DMSO is also my first remedy for many injuries and some chest pain.",
+  "why_reading": "it tells someone whose friend has chest pain why DMSO might help: clots, which it slows"
+ },
+ "same_point": "none: read the section from its heading to the next for the heart evidence",
+ "needed": {
+  "reader": "a fresh agent given tools/humanization/needed_read_brief.md with only the text, its heading and what it is for (reads/need-cp-c5 and cp-c6.txt)",
+  "unneeded": [
+   "Rats given it for three days before a heart attack lost about three quarters less heart muscle (nobody gave it to them after the attack started, though).",
+   "In rats given it for three days before a heart attack, about three quarters less heart muscle died, though they weren't given it after the attack started."
+  ],
+  "kept": {}
+ },
+ "his_fixes": {
+  "reader": "a fresh agent given tools/humanization/his_fixes_brief.md with the text, one sentence a line (reads/his-cp-c5 and cp-c6.txt)",
+  "marked": [
+   {
+    "s": "If you're wondering whether that was just me, the research on DMSO and the heart has only been in animals and lab dishes so far, but it points that way.",
+    "difference": "3",
+    "draft": "cp-c5"
+   },
+   {
+    "s": "Most heart attacks come from a clot blocking an artery, and DMSO slows clotting: it did in mice, and in human platelets (the blood cells that start clots) in a dish.",
+    "difference": "5, 8",
+    "draft": "cp-c6"
+   },
+   {
+    "s": "That's all animal and lab-dish research so far.",
+    "difference": "6",
+    "draft": "cp-c6"
+   }
+  ],
+  "kept": {}
+ },
+ "fit": {
+  "reader": "a fresh agent given tools/humanization/fit_read_brief.md, the universal version (reads/fit-cp-c5 and cp-c6.txt)",
+  "marked": [],
+  "kept": {}
+ },
+ "questions": {
+  "Q2": "N/A: an evidence paragraph, no instruction in it",
+  "Q8": "N/A: no list or group in it",
+  "Q3": "PASS: \"rats given it for three days before a heart attack\", \"human platelets ... in a dish\"",
+  "Q4": "PASS: \"platelets (the blood cells that start clots)\"",
+  "Q6": "PASS: each finding beside what it means for the friend",
+  "Q7": "PASS: each bears on whether DMSO is worth using for chest pain",
+  "Q9": "PASS: one finding a sentence",
+  "Q1": "PASS: what chest pain can come from first, then the finding with where it was found",
+  "Q5": "PASS: \"and DMSO slowed clotting\""
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}
