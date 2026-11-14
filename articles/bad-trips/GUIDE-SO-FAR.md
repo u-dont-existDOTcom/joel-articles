@@ -89,7 +89,7 @@ While the DMSO is working, check for [stroke warning signs](https://www.stroke.o
 
 When they're too out of it to help you do the checks, or if the brain-damage feeling stays despite sufficient treatment, then you've done what you can do, and it's time to call for help.
 
-I believe, based on [my experience and those of others I've heard from, as well as the books I've read on this](http://dmso.u-dont-exist.com/), that DMSO works better for most acute brain damage than anything else readily available. The clinical evidence is incomplete, but it leans this way. In animals, when given after a stroke, [it shrank the area of the brain that died](https://pubmed.ncbi.nlm.nih.gov/15744247/) (which is a good thing). In [one human trial](https://pubmed.ncbi.nlm.nih.gov/11783757/), some clot stroke patients seemed to recover better on DMSO, and doctors have used it in a [small series of patients](https://pubmed.ncbi.nlm.nih.gov/6462399/) to bring down dangerous pressure inside the skull. But more relevant to the drug overdose issue this article deals with, DMSO calms [NMDA- and AMPA-mediated excitotoxicity](https://pubmed.ncbi.nlm.nih.gov/11421595/) that kills brain cells.
+I believe, based on [my experience and those of others I've heard from, as well as the books I've read on this](http://dmso.u-dont-exist.com/), that DMSO works better for most acute brain damage than anything else readily available. The clinical evidence is incomplete, but it leans this way. In animals, when given after a stroke, [it shrank the area of the brain that died](https://pubmed.ncbi.nlm.nih.gov/15744247/) (which is a good thing). Some patients whose stroke came from a clot seemed to recover better on DMSO in [a human trial](https://pubmed.ncbi.nlm.nih.gov/11783757/), and doctors have used it in [a handful of patients](https://pubmed.ncbi.nlm.nih.gov/6462399/) to bring down dangerous pressure inside the skull. But more relevant to the drug overdose issue this article deals with, DMSO calms [NMDA- and AMPA-mediated excitotoxicity](https://pubmed.ncbi.nlm.nih.gov/11421595/) that kills brain cells, at least in rat brain cells in a dish.
 
 DMSO cannot identify whether the problem is a clot, a hemorrhage, low oxygen, an electrolyte crisis, or something else. The larger adjacent risk is losing a treatment window or missing a bleed because the symptoms improved enough to feel reassuring. If someone is worried about a bleed, I'd probably skip DMSO, but it depends on how severe their issue is. It's not a powerful blood thinner like heparin, unless maybe injected; it's basically a dietary blood thinner. I've never had any issues with bleeding too much from consuming DMSO, and never heard of it either, but if bleeding is already a medical issue I'd want to think about that more.
 
@@ -272,11 +272,19 @@ Eating a couple of coffee cherries helps my nausea. It can make a trip blissful 
 
 ### Metta NMT Sniffer Makes the Trip Chill & Lovey!
 
-As explained in my [loveyhuasca guide](http://loveyhuasca.info), this little sniffer stick that you smell gives people 30-60 minutes (or more) of peace even when they are sober and just anxious. People tell me it's saved their life from crippling anxiety. I have a [survey here ](http://sniffersurvey.loveyhuasca.info)they can post at. But when I'm on ayahuasca or loveyhuasca, not only is it calming and nice, but actually opens my heart chakra considerably. Before this, loveyhuasca was kind of hit or miss for me on the love part. It turns regular ayahuasca into loveyhuasca even. You can get these directly from me. It's a bunch of stuff in the formula, but one of the things in here you can buy directly on Amazon for super cheap right now and it works also very well:
+As explained in my [loveyhuasca guide](http://loveyhuasca.info), this little sniffer stick that you smell gives people 30-60 minutes (or more) of peace even when they are sober and just anxious. People tell me it's saved their life from crippling anxiety. I have a [survey here ](http://sniffersurvey.loveyhuasca.info)they can post at. But when I'm on ayahuasca or loveyhuasca, not only is it calming and nice, but actually opens my heart chakra considerably. Before this, loveyhuasca was kind of hit or miss for me on the love part. It turns regular ayahuasca into loveyhuasca even. You can get these directly from me. It's a bunch of stuff in the formula, and I've now added creatine and mango leaf tea to it, so one you get from me now already has everything. If you don't have one, three of the things in it you can buy directly on Amazon for super cheap right now, and they also work very well:
 
 ### Humic Acid Brings Brain to Optimal Function
 
 As mentioned in my [humic acid note](http://humicacid.u-dont-exist.com), I've found if I take too much ayahuasca or loveyhuasca and I feel "out of it" and bad, simply smelling the humic acid powder fixes it pretty much instantly, even when many other remedies don't work so well. Licking a tiny bit like 5mg does even more, sending my brain into hyperfunctionality.
+
+### Creatine Is Blissful and Good for the Brain
+
+I just discovered that smelling creatine (NOT snorting it, people keep thinking I mean snorting when I say smell) is incredible for brain health while high on psychedelics. Just hold the open container near your nose and breathe in gently: it's very blissful, and it fixes posture instantly. Like DMSO, it seems to strongly protect the brain from inflammation.
+
+### Mango Leaf Tea Relaxes Without Killing the Trip
+
+Mango leaf tea is super relaxing and very blissful, so brew some and smell it while it's hot.
 
 ### Authentic Calming Essential Oils (or a Lime Peel)
 
@@ -290,9 +298,9 @@ In my experience, DMSO makes me alert, smarter, happier, healthier, and more rel
 
 It overlaps with aged ozonated-charcoal water, but the two don't always work equally. Sometimes DMSO works better; sometimes the water does. I don't yet know why. In my experience there is generally no harm in taking both or mixing them. Ozonated-charcoal water has what I consider a perfect safety profile; DMSO is a close second in my experience.
 
-One famous [1967 study by Ramirez & Luza](https://nyaspubs.onlinelibrary.wiley.com/doi/epdf/10.1111/j.1749-6632.1967.tb34937.x) found it more effective than the best antipsychotic drugs at the time, slashing mental patients' psych ward stays in half, although it hasn't been tested (that I know of, yet) specifically for anxiety or PTSD, although those patients surely had both of those conditions. It's routinely used in humans who receive stem cell transplants, as it is the best cell preservative that we've found so far. There is evidence ([Kortleve, et al, 2023](https://assets-eu.researchsquare.com/files/rs-2624641/v1/45119f29-3464-4680-8468-490477ae59ae.pdf?c=1688109028)) that using too much DMSO (10% vs 5%) in stem cell transfusions increases mild side effects in adult humans.
+One famous [1967 study by Ramirez & Luza](https://nyaspubs.onlinelibrary.wiley.com/doi/epdf/10.1111/j.1749-6632.1967.tb34937.x) found it more effective than the best antipsychotic drugs at the time, slashing mental patients' psych ward stays in half, and that included patients with severe anxiety, though it hasn't been tested (that I know of, yet) for PTSD. It's routinely used in humans who receive stem cell transplants, as it is the best cell preservative that we've found so far. There is evidence ([Kortleve, et al, 2023](https://assets-eu.researchsquare.com/files/rs-2624641/v1/45119f29-3464-4680-8468-490477ae59ae.pdf?c=1688109028)) that using too much DMSO (10% vs 5%) in stem cell transfusions increases mild side effects in adult humans.
 
-Young brains may be at risk from DMSO, though: it killed brain cells in mice up to a month old, even at a low dose, and in a dish of rat neurons ([Hanslick, et al, 2009](https://pubmed.ncbi.nlm.nih.gov/19100327/)). Translating mouse research to humans isn't straightforward.
+Children's brains may be at risk from DMSO, though: it killed brain cells in mice up to a month old, even at a low dose, and in a dish of rat neurons ([Hanslick, et al, 2009](https://pubmed.ncbi.nlm.nih.gov/19100327/)). Translating mouse research to humans isn't straightforward.
 
 **Side effects:**
 

@@ -1,0 +1,160 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-14",
+ "text_sha256": "5e68e91e5389b9cf68c2608effeecbeb7e4ba446e1b982873550c170d03a3822",
+ "text": "As explained in my loveyhuasca guide, this little sniffer stick that you smell gives people 30-60 minutes (or more) of peace even when they are sober and just anxious. People tell me it's saved their life from crippling anxiety. I have a survey here they can post at. But when I'm on ayahuasca or loveyhuasca, not only is it calming and nice, but actually opens my heart chakra considerably. Before this, loveyhuasca was kind of hit or miss for me on the love part. It turns regular ayahuasca into loveyhuasca even. You can get these directly from me. It's a bunch of stuff in the formula, and I've now added creatine and mango leaf tea to it, so one you get from me now already has everything. If you don't have one, three of the things in it you can buy directly on Amazon for super cheap right now, and they also work very well:",
+ "section": "Metta NMT Sniffer Makes the Trip Chill & Lovey!",
+ "reader": "someone deciding whether to get the author's sniffer for a hard trip, or what to buy instead to smell",
+ "sentences": [
+  {
+   "s": "As explained in my loveyhuasca guide, this little sniffer stick that you smell gives people 30-60 minutes (or more) of peace even when they are sober and just anxious.",
+   "payoff": "they know what the sniffer does: peace for 30-60 minutes even sober",
+   "follows": "his entry opens the part"
+  },
+  {
+   "s": "People tell me it's saved their life from crippling anxiety.",
+   "payoff": "they know people say it saved them from crippling anxiety",
+   "follows": "what people say, after what it does",
+   "link": "none: his sentence, the next in his paragraph"
+  },
+  {
+   "s": "I have a survey here they can post at.",
+   "payoff": "they know where to post or read about it",
+   "follows": "where they say it, after what they say",
+   "link": "none: his sentence, the next in his paragraph"
+  },
+  {
+   "s": "But when I'm on ayahuasca or loveyhuasca, not only is it calming and nice, but actually opens my heart chakra considerably.",
+   "payoff": "they know on ayahuasca it also opens the heart",
+   "follows": "what it does in a trip, after sober use",
+   "link": "none: his sentence, the next in his paragraph"
+  },
+  {
+   "s": "Before this, loveyhuasca was kind of hit or miss for me on the love part.",
+   "payoff": "they know it made the love part reliable for him",
+   "follows": "how it changed his trips, after what it does on them",
+   "link": "none: his sentence, the next in his paragraph"
+  },
+  {
+   "s": "It turns regular ayahuasca into loveyhuasca even.",
+   "payoff": "they know it turns ayahuasca into loveyhuasca",
+   "follows": "the change it made, after how it was before",
+   "link": "none: his sentence, the next in his paragraph"
+  },
+  {
+   "s": "You can get these directly from me.",
+   "payoff": "they know they can get it from him",
+   "follows": "where to get it, after what it does",
+   "link": "none: his sentence, the next in his paragraph"
+  },
+  {
+   "s": "It's a bunch of stuff in the formula, and I've now added creatine and mango leaf tea to it, so one you get from me now already has everything.",
+   "payoff": "they know a sniffer from him now has creatine and mango leaf tea in it, so they need nothing else",
+   "follows": "what is in what they'd get from him",
+   "link": "It's a bunch of stuff in the formula"
+  },
+  {
+   "s": "If you don't have one, three of the things in it you can buy directly on Amazon for super cheap right now, and they also work very well:",
+   "payoff": "they know which three things in it to buy on Amazon without one: the next three entries",
+   "follows": "for those without it, his line",
+   "link": "If you don't have one"
+  }
+ ],
+ "checked": [],
+ "placement": "the part's first entry; its last sentence leads into the three entries after it (humic acid, creatine, mango leaf tea)",
+ "opens": {
+  "first_sentence": "As explained in my loveyhuasca guide, this little sniffer stick that you smell gives people 30-60 minutes (or more) of peace even when they are sober and just anxious.",
+  "why_reading": "it tells someone in a hard trip that this stick calms people within minutes, even sober"
+ },
+ "same_point": "none: read the part for the sniffer's formula; creatine and mango leaf tea have their own entries after it",
+ "needed": {
+  "reader": "a fresh agent given tools/humanization/needed_read_brief.md with only the text, its heading and what it is for (reads/need-sniffer-c1.txt)",
+  "unneeded": [
+   "People tell me it's saved their life from crippling anxiety.",
+   "I have a survey here they can post at.",
+   "Before this, loveyhuasca was kind of hit or miss for me on the love part.",
+   "It turns regular ayahuasca into loveyhuasca even."
+  ],
+  "kept": {
+   "People tell me it's saved their life from crippling anxiety.": "they know people say it saved them from crippling anxiety; his sentence, which stays as he wrote it",
+   "I have a survey here they can post at.": "they know where people post about it; his sentence, which stays as he wrote it",
+   "Before this, loveyhuasca was kind of hit or miss for me on the love part.": "they know it made the love part reliable for him; his sentence, which stays as he wrote it",
+   "It turns regular ayahuasca into loveyhuasca even.": "they know what it does on ayahuasca; his sentence, which stays as he wrote it"
+  }
+ },
+ "his_fixes": {
+  "reader": "a fresh agent given tools/humanization/his_fixes_brief.md with the text, one sentence a line (reads/his-sniffer-c1.txt)",
+  "marked": [
+   {
+    "s": "As explained in my loveyhuasca guide, this little sniffer stick that you smell gives people 30-60 minutes (or more) of peace even when they are sober and just anxious.",
+    "difference": "5",
+    "draft": "sniffer-c1"
+   },
+   {
+    "s": "I have a survey here they can post at.",
+    "difference": "4, 7",
+    "draft": "sniffer-c1"
+   },
+   {
+    "s": "But when I'm on ayahuasca or loveyhuasca, not only is it calming and nice, but actually opens my heart chakra considerably.",
+    "difference": "3",
+    "draft": "sniffer-c1"
+   },
+   {
+    "s": "It turns regular ayahuasca into loveyhuasca even.",
+    "difference": "8",
+    "draft": "sniffer-c1"
+   },
+   {
+    "s": "It's a bunch of stuff in the formula, and I've now added creatine and mango leaf tea to it, so if you have one it's already got everything.",
+    "difference": "4",
+    "draft": "sniffer-c1"
+   }
+  ],
+  "kept": {
+   "As explained in my loveyhuasca guide, this little sniffer stick that you smell gives people 30-60 minutes (or more) of peace even when they are sober and just anxious.": "they know what the stick does; his sentence, which stays as he wrote it",
+   "I have a survey here they can post at.": "they know where people post about it; his sentence, which stays as he wrote it",
+   "But when I'm on ayahuasca or loveyhuasca, not only is it calming and nice, but actually opens my heart chakra considerably.": "they know what it does on ayahuasca; his sentence, which stays as he wrote it",
+   "It turns regular ayahuasca into loveyhuasca even.": "they know what it does on ayahuasca; his sentence, which stays as he wrote it"
+  }
+ },
+ "fit": {
+  "reader": "a fresh agent given tools/humanization/fit_read_brief.md, the universal version (reads/fit-sniffer-c1.txt)",
+  "marked": [
+   {
+    "s": "Before this, loveyhuasca was kind of hit or miss for me on the love part.",
+    "found": "FROM"
+   },
+   {
+    "s": "It turns regular ayahuasca into loveyhuasca even.",
+    "found": "FROM"
+   }
+  ],
+  "kept": {
+   "Before this, loveyhuasca was kind of hit or miss for me on the love part.": "they know it made the love part reliable for him; his sentence, which stays as he wrote it",
+   "It turns regular ayahuasca into loveyhuasca even.": "they know what it does on ayahuasca; his sentence, which stays as he wrote it"
+  }
+ },
+ "questions": {
+  "Q1": "PASS: his entry opens on what the sniffer does; the formula line says first what changed",
+  "Q2": "N/A: his entry tells what it does; the buying is said as a choice",
+  "Q3": "PASS: \"creatine and mango leaf tea\", \"three of the things in it\"",
+  "Q4": "N/A: no new term",
+  "Q5": "PASS: \"so if you have one\", \"If not\"",
+  "Q6": "PASS: what it is, where to get it, what is in it, what to buy without it",
+  "Q7": "PASS: each bears on getting it or its parts",
+  "Q8": "N/A: no list",
+  "Q9": "PASS: one step a sentence"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

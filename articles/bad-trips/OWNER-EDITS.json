@@ -1409,15 +1409,40 @@
   {
    "id": "h53-lu-mattson-once",
    "status": "applied",
-   "what": "Lu & Mattson 2001 said once, in My Brain Feels Damaged's evidence paragraph (his round-39 sentence, as it was); its description in the DMSO section cut, and that section's Hanslick sentence said as the study found (young brains, even a low dose; his yes of 14:56 UTC), checked Human High 146 with its neighbour, c6e7b513 (humanize/h53-20261113/apply_h53.py)",
+   "what": "Lu & Mattson 2001 said once, in My Brain Feels Damaged's evidence paragraph (his round-39 sentence, as it was); its description in the DMSO section cut, and that section's Hanslick sentence said as the study found (young brains, even a low dose; his yes of 14:56 UTC), checked Human High 146 with its neighbour, c6e7b513 (humanize/h53-20261113/apply_h53.py); turn 44 (2026-11-14): \"Young brains\" said as \"Children's brains\", and where the study was done added to its sentence (humanize/h54-20261114/apply_h54.py)",
    "joel": "2026-11-13 14:59 UTC: \"also i wasn't clear on why Lu & Mattson need to be described in 2 places, maybe we can merge that?\"; 14:56 UTC: \"and yes i want the dmso fixes you mentioned\"",
    "must_contain": [
-    "Young brains may be at risk from DMSO, though: it killed brain cells in mice up to a month old",
-    "DMSO calms [NMDA- and AMPA-mediated excitotoxicity](https://pubmed.ncbi.nlm.nih.gov/11421595/) that kills brain cells."
+    "Children's brains may be at risk from DMSO, though: it killed brain cells in mice up to a month old",
+    "DMSO calms [NMDA- and AMPA-mediated excitotoxicity](https://pubmed.ncbi.nlm.nih.gov/11421595/) that kills brain cells, at least in rat brain cells in a dish."
    ],
    "must_not_contain": [
     "quickly turned down the signals glutamate sends through its NMDA and AMPA receptors",
     "neurotoxic to healthy mice neurons"
+   ]
+  },
+  {
+   "id": "h54-1967-anxiety",
+   "status": "applied",
+   "what": "The DMSO section's 1967 sentence: the anxiety patients the paper had, and PTSD as what hasn't been tested (humanize/h54-20261114/apply_h54.py)",
+   "joel": "2026-11-14 22:08 UTC: \"yes i agree to add the anxietry point on dmso patients\"",
+   "must_contain": [
+    "and that included patients with severe anxiety, though it hasn't been tested (that I know of, yet) for PTSD."
+   ],
+   "must_not_contain": [
+    "although those patients surely had both of those conditions"
+   ]
+  },
+  {
+   "id": "h54-creatine-mango",
+   "status": "applied",
+   "what": "Creatine (smell, not snort) and mango leaf tea (smell it while it's hot) as entries after Humic Acid, and the sniffer's formula with both (humanize/h54-20261114/apply_h54.py)",
+   "joel": "2026-11-14 22:08 UTC: \"i want to add another super relaxing herbal remedy which is very blissful and does not kill the trip: mango leaf tea (smell it while hot) ... smelling creatine (NOT SNORTING IT, ppl keep thinking i mean snorting when i say smell) is incredible for brain health ... I've add the mango leaf tea and creatine into my Metta NMT sniffer formula now so if they have that it's already got everything, if not they can just buy these on amazon\"",
+   "must_contain": [
+    "### Creatine Is Blissful and Good for the Brain",
+    "### Mango Leaf Tea Relaxes Without Killing the Trip",
+    "NOT snorting it",
+    "so brew some and smell it while it's hot",
+    "I've now added creatine and mango leaf tea to it"
    ]
   }
  ]
