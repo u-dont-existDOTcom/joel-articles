@@ -159,3 +159,49 @@ BEFORE = 'The Dynorphin Bridge (Apathy / DAWS-pattern Void)'
 AFTER = 'Magnesium Glycinate: 400mg (Night).'
 # his own words in the item, for the receipts' "his": both his versions as he saved them
 HIS_D_ALL = HIS_D1 + '\n\n' + HIS_D2
+
+# ---- SC-54 humanized (2026-11-14): its check as approved read AI Detected, 69% AI (x1113b/checks-1114, Pangram
+# 6ed0e3e9): AI Low on "The Fix" and the Cunnane sentence, AI Low on the Phillips sentence, AI High on the PQQ sentence;
+# the Newport sentence Human High, VanItallie Human Medium. The same facts and citations, said the way his fixes go:
+# the parenthesis opened, the three symptoms down to two plain words, the Phillips trial joined to the study it weighs,
+# the semicolon gone.
+K54H = ('The Fix: If the brain is burning less sugar, we can give it another fuel. Ketones are its backup fuel, and even '
+        'brains that take up less glucose, as in early Alzheimer\'s, still take them up just fine ([Cunnane, et al, 2016]'
+        '(https://www.frontiersin.org/journals/molecular-neuroscience/articles/10.3389/fnmol.2016.00053/text)). '
+        + N54_AD + ' In Parkinson\'s too, a small study with no comparison group showed large improvement on a ketogenic '
+        'diet ([VanItallie, et al, 2005](%s)), and when a bigger trial put the keto diet up against a low-fat diet, it did '
+        'more for tiredness and thinking problems, but movement improved about the same on both ([Phillips, et al, '
+        '2018](%s)). PQQ may help too, since it made mouse cells build more mitochondria, the parts of the cell that burn '
+        'fuel ([Chowanadisai, et al, 2010](https://pmc.ncbi.nlm.nih.gov/articles/PMC2804159)), but no one has shown it '
+        'does that in the human brain yet.' % (VANITALLIE, PHILLIPS))
+
+# ---- SC-54 try 3 (2026-11-14): try 2 (K54H) read AI Detected, 89% (7ac6e89f), so the tell panel read try 1 (panel-sp54:
+# Codex, Sonnet, Haiku). Agreed: S1's tidy problem-and-fix line, S4's "showed large improvement", S5's three symptoms set
+# against movement, S6's gloss and stock hedge, and the whole's claim-then-citation march in one even voice. Fixed here:
+# S1 as his question and answer, the backup fuel joined to Cunnane; VanItallie named in the sentence with what happened;
+# two symptoms, not three; PQQ said as what it's meant to do, its limit in his first person (lesson neuro-2026-11-13a).
+K54T3 = ('The Fix: What do you do if your brain is burning less sugar? You give it ketones, its backup fuel, since even '
+         'brains that take up less glucose, like in early Alzheimer\'s, still take up ketones normally ([Cunnane, et al, '
+         '2016](https://www.frontiersin.org/journals/molecular-neuroscience/articles/10.3389/fnmol.2016.00053/text)). '
+         + N54_AD + ' [VanItallie, et al (2005)](%s) saw something like it in Parkinson\'s, where five people improved a lot '
+         'after a month on a ketogenic diet, although no one was compared with them. Then a bigger trial put keto up '
+         'against a low-fat diet, and the people on keto got more relief from their tiredness and thinking problems, while '
+         'their movement improved about the same on both ([Phillips, et al, 2018](%s)). PQQ is meant to help with the '
+         'burning: in mouse cells, it built more mitochondria, the part of a cell that does the burning ([Chowanadisai, et '
+         'al, 2010](https://pmc.ncbi.nlm.nih.gov/articles/PMC2804159)), but I haven\'t seen a study of that in a human '
+         'brain yet.' % (VANITALLIE, PHILLIPS))
+
+# ---- SC-54 try 3b (2026-11-14): try 3 (K54T3) drew the panel's agreed tells again (panel-sp54-t3), so the next draft came
+# from Codex, given the rewrite brief (rewrite-sp54/REWRITE-PROMPT.txt; its draft in rewrite-sp54/codex-rewrite.md). Codex
+# opened on the case and put the "bigger" trial before the small study it is bigger than, so the order goes back to the
+# reader's (the fix, the fuel, the case, the small study, the bigger trial, PQQ), in Codex's words.
+K54C = ('The Fix: If your brain is burning less sugar, give it another fuel. Ketones are the brain\'s backup fuel, and in '
+        'early Alzheimer\'s, brains that take up less glucose still take up ketones normally ([Cunnane, et al, 2016]'
+        '(https://www.frontiersin.org/journals/molecular-neuroscience/articles/10.3389/fnmol.2016.00053/text)). '
+        + N54_AD + ' An early Parkinson\'s study had only five people and no comparison group, but they improved a lot '
+        'after a month on a ketogenic diet ([VanItallie, et al, 2005](%s)). In a bigger randomized Parkinson\'s trial, '
+        'people on keto got more relief from fatigue and daytime sleepiness than those on a low-fat diet. Their thinking '
+        'problems eased more too. Movement improved about the same on both ([Phillips, et al, 2018](%s)). PQQ made mouse '
+        'cells build more mitochondria, the parts of a cell that burn fuel ([Chowanadisai, et al, 2010]'
+        '(https://pmc.ncbi.nlm.nih.gov/articles/PMC2804159)), but that hasn\'t been shown in the human brain.'
+        % (VANITALLIE, PHILLIPS))

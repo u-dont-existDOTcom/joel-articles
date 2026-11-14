@@ -1,0 +1,11 @@
+{
+ "sp54h": {
+  "lineage": "neuro-de-armoring/B054-sc54",
+  "name": "SC-54 humanized: the same facts and citations, try 2",
+  "text": "The Fix: If the brain is burning less sugar, we can give it another fuel. Ketones are its backup fuel, and even brains that take up less glucose, as in early Alzheimer's, still take them up just fine (Cunnane, et al, 2016). And one man's Alzheimer's improved markedly on coconut oil, and later on a ketone drink (Newport, et al, 2015). In Parkinson's too, a small study with no comparison group showed large improvement on a ketogenic diet (VanItallie, et al, 2005), and when a bigger trial put the keto diet up against a low-fat diet, it did more for tiredness and thinking problems, but movement improved about the same on both (Phillips, et al, 2018). PQQ may help too, since it made mouse cells build more mitochondria, the parts of the cell that burn fuel (Chowanadisai, et al, 2010), but no one has shown it does that in the human brain yet.",
+  "chance": 0.55,
+  "why": "tells: one long joined Parkinson's sentence with two citations, \"the parts of the cell that burn fuel\"; human: the parenthesis opened, \"just fine\", \"did more for tiredness and thinking problems\", \", but\" joins, the Newport sentence unchanged (Human High in try 1)",
+  "diagnosis": "try 1 (6ed0e3e9) read AI Detected, 69%: AI Low on \"The Fix\" and the Cunnane sentence, AI Low on the Phillips sentence, AI High on the PQQ sentence with its semicolon; Newport Human High, VanItallie Human Medium",
+  "decides": "whether this version of SC-54, the same meaning he approved, goes in (gate bad-trips-2026-11-12l), or a third try"
+ }
+}

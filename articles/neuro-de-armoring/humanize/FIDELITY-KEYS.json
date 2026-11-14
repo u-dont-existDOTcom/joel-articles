@@ -2624,6 +2624,47 @@
    "terms_lost": [],
    "keys_lost": {},
    "citations_lost": []
+  },
+  {
+   "by": "fix-20261108/x1113b/ANSWERS-X1113B-20261114-2204.json, card SC-95b (approved, his answers exported 2026-11-14 22:04 UTC): his SC-95 version of 2026-11-12 20:16 UTC less his PTSD line, applied by fix-20261108/x1113b/apply_x1113b.py",
+   "why": "block 95 says what the ketone strategy decides (how you handle salt) instead of that you must pick one, as card SC-95 explained (the timeline uses both strategies in turn), and adds what trials found for the salts (Bonnechere 2026) and his Amazon sentence; the warning W050 keeps \"ketone\" and the choice, not \"must\"",
+   "numbers_lost": [],
+   "numbers_new": [
+    "2026"
+   ],
+   "terms_lost": [],
+   "keys_lost": {
+    "W050": [
+     [
+      "must"
+     ]
+    ]
+   },
+   "citations_lost": []
+  },
+  {
+   "by": "fix-20261108/x1113b/ANSWERS-X1113B-20261114-2204.json, card SC-DMSOc (revise with his version, exported 2026-11-14 22:04 UTC), applied by fix-20261108/x1113b/apply_x1113b.py with the card's links back on its citations",
+   "why": "his DMSO item after Magnesium in the Glutamate Shield: purity (99.9), Lu & Mattson 2001, Ramirez & Luza 1967 (42 inpatients, 16 compared), Jacob & de la Torre 2015, Mitrus 2018 (10% vs 5%), Kimura and Brown 1988, Hanslick 2009; sources in fix-20261108/dmso/DMSO-PTSD.md",
+   "numbers_lost": [],
+   "numbers_new": [
+    "0.5to1.5",
+    "10",
+    "16",
+    "1967",
+    "1967",
+    "1988",
+    "1988",
+    "2001",
+    "2009",
+    "2015",
+    "2018",
+    "42",
+    "5",
+    "99.9"
+   ],
+   "terms_lost": [],
+   "keys_lost": {},
+   "citations_lost": []
   }
  ],
  "warning_words": {

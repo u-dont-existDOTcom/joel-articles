@@ -1,5 +1,14 @@
 # Status: neuro de-armoring humanization (newest on top)
 
+## 2026-11-14, his answers of 22:04 UTC: SC-95b and his DMSO item in; SC-54 reads AI (question 14); lesson 14a
+
+His answers on x1113b (`fix-20261108/x1113b/ANSWERS-X1113B-20261114-2204.json`; the cards page's stored answers say the same, `fix-20261108/CARDS-PAGE-DECISIONS-20261114-2204.json`): SC-95b and SC-54 approved, SC-DMSOc revise with his version (the card's text and one clause of his on children). **The mailbox first** ("2026-11-14 22:04"): main cf2cc8809 then ec873cbda (this lane's 434 merged yesterday; bad-trips 435 merged: lesson bad-trips-2026-11-13a, `said_twice.py`, the fit brief's line on findings said with where they were found); UDA unchanged; no new issues or comments; no notifications.
+
+- **In** (`x1113b/apply_x1113b.py`, `APPLIED-X1113B.json`; HUMANIZED-SO-FAR.md now ec3c2ada): SC-95b, block 95 as his version without his PTSD line; SC-DMSOc, his DMSO item after Magnesium, four paragraphs, the links back on its citations and checked word for word against what he saved. `said_twice.py` found no study of either cited elsewhere. FIDELITY-KEYS owner_changes for both (W050 keeps "ketone" and the choice, not "must"). His versions are outside the Pangram gate; the DMSO item's second and third paragraphs, which I had changed, read Human by themselves (checks-1114: 0% AI, the third with his closing sentence Human Medium).
+- **SC-54 waits** (lesson neuro-2026-11-14a, `docs/lessons/2026-11-14-2204-neuro.md`): block 54 read AI by itself as approved (69%), as my rewrite (89%) and as Codex's rewrite from the tell panel's notes (46%; `x1113b/panel-sp54`, `panel-sp54-t3`, `rewrite-sp54`); three tries of six used, the misses explained. Per the panel rule it goes to him: question 14.
+- **His clause on children, checked** (`dmso/DMSO-PTSD.md`, "His clause on children, checked"): no study of lasting harm in children; brief reactions in children given it into a vein with stem cells (Schlegel 2009); for his side, a 1975 trial in 13 children with no toxicity, and Soviet use on children's bone infections. Question 13: add "long-term".
+- **Waiting on him**: questions 12, 13 and 14.
+
 ## 2026-11-13, his message of 15:24 UTC: answers I hadn't read; SC-95b, SC-54 and SC-DMSOc; lesson 13b
 
 He sent the x1113a answers (SC-95 and SC-DMSOb, both revise) and asked why I couldn't reach his computer and why the ketone card was back. His message word for word: `fix-20261108/joel-20261113-1524-message.txt`; his answers: `fix-20261108/dmso/ANSWERS-X1113A-20261113-1524.json`. **The mailbox first** ("2026-11-13 15:24"): main 0dc58c501, unchanged; this lane's 434 open and clean, not merged by the lane workflow; bad-trips 435 open; UDA unchanged; no new issues or comments; no notifications. The link to his computer worked (the last turn's failure was every connector at once).

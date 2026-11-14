@@ -1,0 +1,9 @@
+{
+ "detector": "Pangram 4.1 (web app)",
+ "results": {
+  "sp54h": {"uuid": "7ac6e89f-71ff-417d-ac17-b19577134de9", "at": "2026-11-14T17:15:49.498682-05:00", "headline": "AI Detected", "ai": 0.8939706087112427, "words": 158,
+   "windows": [["AI-Generated", "High", 43, "The Fix: If the brain is burning less sugar, we can give it another fuel. Ketones are its backup fuel, and even brains that take up less glucose, as in early Alzheimer's, still take them up just fine (Cunnane, et al, 2016)."],
+               ["Human", "Low", 21, "And one man's Alzheimer's improved markedly on coconut oil, and later on a ketone drink (Newport, et al, 2015)."],
+               ["AI-Generated", "High", 94, "In Parkinson's too, a small study with no comparison group showed large improvement on a ketogenic diet (VanItallie, et al, 2005), and when a bigger trial put the keto diet up against a low-fat diet, it did more for tiredness and thinking problems, but movement improved about the same on both (Phillips, et al, 2018). PQQ may help too, since it made mouse cells build more mitochondria, the parts of the cell that burn fuel (Chowanadisai, et al, 2010), but no one has shown it does that in the human brain yet."]]}
+ }
+}

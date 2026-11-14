@@ -1,0 +1,35 @@
+[
+ {
+  "key": "sp54",
+  "name": "SC-54 (approved 2026-11-14): block 54 with his Parkinson's and Alzheimer's evidence, my sentences",
+  "lineage": "neuro-de-armoring/B054-sc54",
+  "scope": "paragraph",
+  "words": 139,
+  "call": "AI",
+  "chance": 0.4,
+  "why": "tells: packed sentences with citations at each end, a list of three (fatigue, sleepiness and thinking problems), \"one\" where \"a\" would do, a study opened bare (\"In a bigger trial\"), a semicolon join in the PQQ sentence; human: his \"And one ...\" opening, \"In Parkinson's too\", plain words",
+  "sha256": "b6047ce3e5fe81bf3003fcbe3137484fa01b6085b0e91233cf8b086e4f5e5b9f"
+ },
+ {
+  "key": "dm2",
+  "name": "SC-DMSOc paragraph 2 (uses and side effects), his version of 2026-11-14",
+  "lineage": "neuro-de-armoring/DMSO-P2",
+  "scope": "paragraph",
+  "words": 83,
+  "call": "Human",
+  "chance": 0.55,
+  "why": "tells: \"from arthritis to brain injuries\", a coach-like \"so for PTSD it rests on what people report\"; human: his \"There is evidence (Mitrus, et al, 2018) that using too much DMSO (10% vs 5%)\", his \"(that I know of, yet)\"",
+  "sha256": "d29a10474df2c9c38e2e22331d7246627e058b978001b337e95bf81b3c88029d"
+ },
+ {
+  "key": "dm3",
+  "name": "SC-DMSOc paragraph 3 (animals, young mice, his clause on children), his version of 2026-11-14",
+  "lineage": "neuro-de-armoring/DMSO-P3",
+  "scope": "paragraph",
+  "words": 134,
+  "call": "Human",
+  "chance": 0.55,
+  "why": "tells: number-dense sheep sentences, \"In another study\" opened bare, \"even the smallest dose tested\", \"isn't straightforward\" landing; human: his clause (\"and so forth with good results in practice\"), his \"But it has shown some neurotoxic effects\"",
+  "sha256": "3881e1ccb8330b864bb065510bf072d38b6516e06f68361f50ab01312860d8e3"
+ }
+]

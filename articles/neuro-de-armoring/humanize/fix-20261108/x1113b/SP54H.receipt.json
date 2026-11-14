@@ -1,0 +1,124 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-14",
+ "text_sha256": "192e443f5ed5e53f1ca4e3ead59284afe677c5fd3315b562e016f5c114990274",
+ "text": "The Fix: If the brain is burning less sugar, we can give it another fuel. Ketones are its backup fuel, and even brains that take up less glucose, as in early Alzheimer's, still take them up just fine (Cunnane, et al, 2016). And one man's Alzheimer's improved markedly on coconut oil, and later on a ketone drink (Newport, et al, 2015). In Parkinson's too, a small study with no comparison group showed large improvement on a ketogenic diet (VanItallie, et al, 2005), and when a bigger trial put the keto diet up against a low-fat diet, it did more for tiredness and thinking problems, but movement improved about the same on both (Phillips, et al, 2018). PQQ may help too, since it made mouse cells build more mitochondria, the parts of the cell that burn fuel (Chowanadisai, et al, 2010), but no one has shown it does that in the human brain yet.",
+ "section": "D. The \"Lagging\" System: Toxicity & Hypometabolism (The Fog)",
+ "reader": "someone with trauma and brain fog reading why the protocol gives them ketones: whether their fog may be a brain short of fuel, and what giving ketones has done for brains like that",
+ "sentences": [
+  {
+   "s": "The Fix: If the brain is burning less sugar, we can give it another fuel.",
+   "payoff": "they learn the protocol's answer to the fuel problem the paragraph before describes: another fuel",
+   "follows": "it answers \"The Problem\" just before: some regions of PTSD brains burn less sugar"
+  },
+  {
+   "s": "Ketones are its backup fuel, and even brains that take up less glucose, as in early Alzheimer's, still take them up just fine (Cunnane, et al, 2016).",
+   "payoff": "they learn the other fuel is ketones, and that a brain taking up less sugar still takes them up",
+   "follows": "it names the fuel the sentence before promised",
+   "link": "Ketones are its backup fuel"
+  },
+  {
+   "s": "And one man's Alzheimer's improved markedly on coconut oil, and later on a ketone drink (Newport, et al, 2015).",
+   "payoff": "they learn what giving ketones did for one brain short of sugar: a man with Alzheimer's got markedly better",
+   "follows": "it goes from the Alzheimer's brain taking up ketones to what giving them did for one",
+   "link": "And one man's Alzheimer's"
+  },
+  {
+   "s": "In Parkinson's too, a small study with no comparison group showed large improvement on a ketogenic diet (VanItallie, et al, 2005), and when a bigger trial put the keto diet up against a low-fat diet, it did more for tiredness and thinking problems, but movement improved about the same on both (Phillips, et al, 2018).",
+   "payoff": "they learn the same was seen in another brain disease short of fuel, how weak that study was, and that a controlled trial found the diet did more for tiredness and thinking, the fog they have",
+   "follows": "it adds a second disease to the first, with the trial that weighs it",
+   "link": "In Parkinson's too"
+  },
+  {
+   "s": "PQQ may help too, since it made mouse cells build more mitochondria, the parts of the cell that burn fuel (Chowanadisai, et al, 2010), but no one has shown it does that in the human brain yet.",
+   "payoff": "they learn why the protocol also gives PQQ for the fog, and how far that evidence goes",
+   "follows": "it turns from the fuel to the parts of the cell that burn it",
+   "link": "PQQ may help too"
+  }
+ ],
+ "checked": [
+  {
+   "point": "one woman's Alzheimer's was reversed (his, with his LongeCity link)",
+   "found": "his link (2008, quoting the Tampa Bay Times): Steve Newport, a man with early-onset Alzheimer's, on coconut oil; the case report: improved markedly over 20 months on a ketone monoester (Newport et al. 2015)",
+   "still_needed": "yes: they learn what giving ketones did for one brain short of sugar",
+   "fate": "changed"
+  },
+  {
+   "point": "one study shows large improvement for Parkinson's (his)",
+   "found": "VanItallie et al. 2005: five people, 28 days, all improved, placebo not ruled out; Phillips et al. 2018: 47 randomized, keto more than low-fat on fatigue, daytime sleepiness and thinking, the same on movement",
+   "still_needed": "yes: they learn the big change he points to, and what the controlled trial found for fog-like symptoms",
+   "fate": "changed"
+  }
+ ],
+ "placement": "block 54, \"The Fix\", where SC-54 put it: after Cunnane's finding that early-Alzheimer's brains still take up ketones, which the new sentences follow up, and before the PQQ sentence",
+ "opens": {
+  "first_sentence": "The Fix: If the brain is burning less sugar, we can give it another fuel.",
+  "why_reading": "they learn the protocol's fix for the fuel problem they may have: a second fuel"
+ },
+ "same_point": "none: read the section from its heading (D. The \"Lagging\" System) to the next for ketones as the brain's backup fuel and what giving them did; block 53 states the problem, this block the fix. Block 48 is PTSD, block 94 anxiety and depression, block 95 what the salts do: none gives this evidence",
+ "needed": {
+  "reader": "a fresh reader (Haiku) given tools/humanization/needed_read_brief.md and only the text, one sentence a line (x1113b/needed/sp54h/READ.md)",
+  "unneeded": [
+   "PQQ may help too, since it made mouse cells build more mitochondria, the parts of the cell that burn fuel (Chowanadisai, et al, 2010), but no one has shown it does that in the human brain yet."
+  ],
+  "kept": {
+   "PQQ may help too, since it made mouse cells build more mitochondria, the parts of the cell that burn fuel (Chowanadisai, et al, 2010), but no one has shown it does that in the human brain yet.": "they learn why the protocol also gives them PQQ for the fog: the paragraph's second fix, there before this card, reworded only to read human"
+  }
+ },
+ "his_fixes": {
+  "reader": "a fresh reader (Haiku) given tools/humanization/his_fixes_brief.md and only the text, one sentence a line (x1113b/his-fixes/sp54h/READ.md)",
+  "marked": [
+   {
+    "s": "And one man's Alzheimer's improved markedly on coconut oil, and later on a ketone drink (Newport, et al, 2015).",
+    "difference": "4, 8"
+   },
+   {
+    "s": "In Parkinson's too, a small study with no comparison group showed large improvement on a ketogenic diet (VanItallie, et al, 2005), and when a bigger trial put the keto diet up against a low-fat diet, it did more for tiredness and thinking problems, but movement improved about the same on both (Phillips, et al, 2018).",
+    "difference": "1, 3"
+   },
+   {
+    "s": "PQQ may help too, since it made mouse cells build more mitochondria, the parts of the cell that burn fuel (Chowanadisai, et al, 2010), but no one has shown it does that in the human brain yet.",
+    "difference": "8"
+   }
+  ],
+  "kept": {
+   "And one man's Alzheimer's improved markedly on coconut oil, and later on a ketone drink (Newport, et al, 2015).": "read Human High by itself as he approved it; \"improved markedly\" is the case report's own words and \"one\" says it is a single case",
+   "In Parkinson's too, a small study with no comparison group showed large improvement on a ketogenic diet (VanItallie, et al, 2005), and when a bigger trial put the keto diet up against a low-fat diet, it did more for tiredness and thinking problems, but movement improved about the same on both (Phillips, et al, 2018).": "joined on purpose: the trial is there to weigh the small study, and the two apart read AI Low and Human Medium in the first check",
+   "PQQ may help too, since it made mouse cells build more mitochondria, the parts of the cell that burn fuel (Chowanadisai, et al, 2010), but no one has shown it does that in the human brain yet.": "\", but\" is the join his fixes make (the brief's eighth difference); the caveat stays with the finding it limits"
+  }
+ },
+ "fit": {
+  "marked": [
+   {
+    "s": "The Fix: If the brain is burning less sugar, we can give it another fuel.",
+    "found": "CAN'T TELL: the reader can't measure their brain's sugar use"
+   }
+  ],
+  "kept": {
+   "The Fix: If the brain is burning less sugar, we can give it another fuel.": "the paragraph before says scans of PTSD brains show regions burning less sugar, the reader's case; nothing asks them to measure it"
+  },
+  "reader": "a fresh reader (Haiku) given tools/humanization/fit_read_brief.md and only the text, one sentence a line (x1113b/fit/sp54h/READ.md)"
+ },
+ "questions": {
+  "Q1": "PASS: each sentence opens on its point",
+  "Q2": "N/A: no instruction here, or the one instruction says what it is for",
+  "Q3": "PASS: each thing is named exactly",
+  "Q4": "PASS: each unfamiliar term is said in plain words where it is first used",
+  "Q5": "PASS: each \"and\", \"so\" and \"but\" turns on the clause before it",
+  "Q6": "PASS: the claim, then what the evidence shows, then its limit",
+  "Q7": "PASS: each fact is about the reader's own symptom or the tool they are deciding on",
+  "Q8": "N/A: no group or list inside this paragraph",
+  "Q9": "PASS: one step a clause, with the small words that carry the relation kept"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

@@ -1,8 +1,7 @@
 # Neuro de-armoring: what I need from Joel
 
-Last updated 2026-11-13, after your message of 15:24 UTC.
-**Open questions: 1.** **For you to do**: three cards on
-[Neuro De-Armoring Cards, 13 November (2)](https://claude.ai/artifact/9nENpt9AEJCB43a9Wy5jqn) ([the cards in Git](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/x1113b/REVIEW-X1113B.md)): your ketone and DMSO answers, merged.
+Last updated 2026-11-14, after your answers of 22:04 UTC.
+**Open questions: 3.** **For you to do**: nothing besides the questions; SC-95b and your DMSO item are in.
 
 Colours: 🟣 a question for you; 🟠 something for you to do; 🔵 next or in progress; 🟢 done or decided.
 
@@ -21,6 +20,16 @@ keto diet (Engelhardt, et al, 2026)."
 - a) Split it there.
 - b) Keep it as one sentence.
 
+**🟣 13. "No proof it's harming children": add "long-term"?** Your new clause in the DMSO item holds for lasting harm: I found no study showing any in children. But children given DMSO into a vein with their stem cells have had brief reactions, passing out for a moment among them ([Schlegel, et al, 2009](https://pubmed.ncbi.nlm.nih.gov/19608681/)). With one word it would read: "although so far there's no proof it's harming children long-term, and many people use it on their children for injuries, infections, and so forth with good results in practice." For your side, a 1975 trial gave 13 children a DMSO treatment for six months with no signs of toxicity ([Giller & de Bernadou, 1975](https://pubmed.ncbi.nlm.nih.gov/1093464/)), though its abstract doesn't say what else the treatment held, and Soviet doctors used DMSO on children's bone infections and arthritis ([the check](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/dmso/DMSO-PTSD.md)).
+
+- a) Add "long-term" as above.
+- b) Keep it as you wrote it.
+
+**🟣 14. Your Parkinson's and Alzheimer's paragraph (SC-54) reads AI by itself: will you fix it?** You approved it, but a paragraph of mine goes in only once it reads Human High by itself, and block 54 also carries its older sentences (The Fix, the backup fuel, PQQ), which read AI too. Three tries: as you approved it, 69% AI ([check](https://www.pangram.com/history/6ed0e3e9-ac92-4b1a-b6fa-3f19e03445d9)); my rewrite, 89% ([check](https://www.pangram.com/history/7ac6e89f-71ff-417d-ac17-b19577134de9)); and Codex's rewrite from three readers' notes ([the panel](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/x1113b/panel-sp54-t3/PANEL.md)), 46% ([check](https://www.pangram.com/history/5aadfad4-0e5b-4329-aaa8-0edd7994a054)). In that last one, the Alzheimer's sentence reads Human High and the trial and PQQ sentences read AI. Codex's version, which keeps everything you approved: "The Fix: If your brain is burning less sugar, give it another fuel. Ketones are the brain's backup fuel, and in early Alzheimer's, brains that take up less glucose still take up ketones normally (Cunnane, et al, 2016). And one man's Alzheimer's improved markedly on coconut oil, and later on a ketone drink (Newport, et al, 2015). An early Parkinson's study had only five people and no comparison group, but they improved a lot after a month on a ketogenic diet (VanItallie, et al, 2005). In a bigger randomized Parkinson's trial, people on keto got more relief from fatigue and daytime sleepiness than those on a low-fat diet. Their thinking problems eased more too. Movement improved about the same on both (Phillips, et al, 2018). PQQ made mouse cells build more mitochondria, the parts of a cell that burn fuel (Chowanadisai, et al, 2010), but that hasn't been shown in the human brain."
+
+- a) I'll send my version of block 54 (it goes in as mine).
+- b) Keep trying yourself (three tries left), and it waits until one reads Human High.
+
 - 🟢 **11, answered ("11yes add that")**: Zhong 2023 is cited after Vialou in your paragraph, with Nestler 2008 back
   beside them (below).
 - 🟢 **9 and 10, answered by your paragraph**: DeltaFosB stays the armor, and what it does is keep the learning from
@@ -28,9 +37,14 @@ keto diet (Engelhardt, et al, 2026)."
 
 ## For you to do
 
-- 🟠 **Strategy A, without the repeat** ([the page](https://claude.ai/artifact/9nENpt9AEJCB43a9Wy5jqn), [in Git](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/x1113b/REVIEW-X1113B.md)): card SC-95b.
-- 🟠 **Your Parkinson's and Alzheimer's evidence, in the fuel paragraph** (the same page): card SC-54.
-- 🟠 **DMSO: your two versions as one** (the same page): card SC-DMSOc, in place of SC-DMSO and SC-DMSOb.
+- 🟢 **Nothing on the cards page**: SC-95b and SC-DMSOc are in; SC-54 is question 14.
+
+## Your answers of 2026-11-14 22:04 UTC, and what I did
+
+- 🟢 **SC-95b is in**, your Strategy A version without the PTSD line ([what went in](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/x1113b/APPLIED-X1113B.json)).
+- 🟢 **Your DMSO item is in**, after Magnesium, your version with your clause on children, the links back on its citations; its second and third paragraphs read Human by themselves ([checks](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/x1113b/checks-1114/RESULTS.md)).
+- 🟢 **Your clause on children, checked** ([the check](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/dmso/DMSO-PTSD.md)): it holds for lasting harm; question 13 is the one word that would make it exact.
+- 🔵 **SC-54 waits**: it read AI by itself in three tries (question 14).
 
 ## Your message of 2026-11-13 15:24 UTC, and what I did
 

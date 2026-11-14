@@ -1,0 +1,17 @@
+{
+ "detector": "Pangram 4.1 (web app)",
+ "results": {
+  "sp54": {"uuid": "6ed0e3e9-ac92-4b1a-b6fa-3f19e03445d9", "at": "2026-11-14T17:12:07.980504-05:00", "headline": "AI Detected", "ai": 0.6891219019889832, "words": 145,
+   "windows": [["AI-Generated", "Low", 14, "The Fix: If the brain is burning less sugar, we give it another fuel."],
+               ["AI-Generated", "Low", 26, "Ketones are its backup fuel, and brains that take up less glucose (as in early Alzheimer's) still take up ketones normally (Cunnane, et al, 2016)."],
+               ["Human", "High", 21, "And one man's Alzheimer's improved markedly on coconut oil, and later on a ketone drink (Newport, et al, 2015)."],
+               ["Human", "Medium", 22, "In Parkinson's too, one small study with no comparison group showed large improvement on a ketogenic diet (VanItallie, et al, 2005)."],
+               ["AI-Generated", "Low", 31, "In a bigger trial against a low-fat diet, the keto diet eased fatigue, sleepiness and thinking problems more, but movement improved about the same on both (Phillips, et al, 2018)."],
+               ["AI-Generated", "High", 31, "PQQ made mouse cells build more mitochondria, the parts of the cell that burn fuel (Chowanadisai, et al, 2010); whether it does that in the human brain hasn't been shown."]]},
+  "dm2": {"uuid": "27507cd1-9065-45a1-83a4-fcbcedbaf8a4", "at": "2026-11-14T17:12:17.668988-05:00", "headline": "Human Written", "ai": 0.0, "words": 83,
+   "windows": [["Human", "High", 83, "It is used for humans routinely in stem cell transplants and by many humans for all kinds of medical problems, from arthritis to brain injuries (Jacob & de la Torre, 2015). There is evidence (Mitrus, et al, 2018) that using too much DMSO (10% vs 5%) in stem cell transfusions increases mild side effects in adult humans. It hasn't been tested (that I know of, yet) specifically for PTSD, so for PTSD it rests on what people report, and many say it helps."]]},
+  "dm3": {"uuid": "17e08ce2-5333-482f-9ba3-8fdcf1f9fd3b", "at": "2026-11-14T17:12:30.035761-05:00", "headline": "Human Written", "ai": 1.1280059519571685e-16, "words": 137,
+   "windows": [["Human", "High", 129, "Nebulized DMSO with heparin (a blood thinner) has been shown to cut the lung damage from toxic cotton smoke in sheep (Kimura, et al, 1988). In another study, the smoke killed all seven untreated sheep and four of the six given DMSO alone, while all seven given DMSO with heparin survived (Brown, et al, 1988). But it has shown some neurotoxic effects in rodent studies. In mice in their first month of life, even the smallest dose tested set off brain cell death, and the authors worried about the children who get it in transplants (Hanslick, et al, 2009), although so far there's no proof it's harming children, and many people use it on their children for injuries, infections, and so forth with good results in practice."],
+               ["Human", "Medium", 8, "Translating mouse research to humans isn't straightforward."]]}
+ }
+}

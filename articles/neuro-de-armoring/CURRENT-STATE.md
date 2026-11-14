@@ -22,7 +22,7 @@ Every paragraph and every section reads Human in Pangram, with the meaning kept 
 
 ## Current checkpoint
 
-`humanize/HUMANIZED-SO-FAR.md` (86fa6be5, after his approval of 2026-11-12 19:32 UTC of SC-48c, the rats and the salts in his ketone clause: `humanize/fix-20261108/keto/APPLIED-X1112A.json`) is his post with the standard typographic swap, his versions and the science corrections he approved, section by section through Part 3's potassium step. Next, the protocol is read as a whole against the settled science (`humanize/fix-20261108/coherence/EXTRACT.md`), then the rest is humanized (lesson neuro-2026-11-08f). Nothing has been changed in his post yet.
+`humanize/HUMANIZED-SO-FAR.md` (ec3c2ada, after his answers of 2026-11-14 22:04 UTC: SC-95b and his DMSO item, `humanize/fix-20261108/x1113b/APPLIED-X1113B.json`) is his post with the standard typographic swap, his versions and the science corrections he approved, section by section through Part 3's potassium step. Next, the protocol is read as a whole against the settled science (`humanize/fix-20261108/coherence/EXTRACT.md`), then the rest is humanized (lesson neuro-2026-11-08f). Nothing has been changed in his post yet.
 
 ## Remaining
 
@@ -30,7 +30,7 @@ The AI windows of every section, rewritten and checked; his cards; his post upda
 
 ## Blockers / unresolved
 
-Three cards wait on him (`humanize/fix-20261108/x1113b/REVIEW-X1113B.md`, cards page version 10): SC-95b, his Strategy A version without the PTSD line block 48 already says; SC-54, his Parkinson's and Alzheimer's evidence, corrected, in block 54; SC-DMSOc, his two DMSO versions merged into one item after Magnesium. Of these, SC-54's paragraph and SC-DMSOc's second and third paragraphs are mine and go in only after a Pangram check of each by itself reads Human High. One open question, 12, on splitting block 48's last sentence (`humanize/OWNER-QUESTIONS.md`). Every turn starts by reading the cards page's stored answers (lesson neuro-2026-11-13b).
+Three questions wait on him (`humanize/OWNER-QUESTIONS.md`): 12, splitting block 48's last sentence; 13, "long-term" in his clause on children in the DMSO item; 14, SC-54 (his Parkinson's and Alzheimer's evidence in block 54, approved), which read AI by itself in three tries and waits for his version or more tries. Every turn starts by reading the cards page's stored answers (lesson neuro-2026-11-13b).
 
 ## Evidence / artifacts
 
@@ -38,4 +38,4 @@ Three cards wait on him (`humanize/fix-20261108/x1113b/REVIEW-X1113B.md`, cards 
 
 ## Next safe action
 
-`humanize/HANDOFF-neuro-de-armoring.md`, Next step: the cards page's stored answers, then his answers to SC-95b, SC-54, SC-DMSOc and question 12; then the protocol's other contradictions (`humanize/fix-20261108/coherence/EXTRACT.md`); then the rest of the article one paragraph at a time (gates E343, E344). The master is unchanged (his post as it stands).
+`humanize/HANDOFF-neuro-de-armoring.md`, Next step: the cards page's stored answers, then his answers to questions 12, 13 and 14; then the protocol's other contradictions (`humanize/fix-20261108/coherence/EXTRACT.md`); then the rest of the article one paragraph at a time (gates E343, E344). The master is unchanged (his post as it stands).
