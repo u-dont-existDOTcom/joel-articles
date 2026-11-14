@@ -1747,6 +1747,81 @@
     }
    ],
    "recorded_utc": "2026-11-12T23:05Z"
+  },
+  {
+   "turn": "2026-11-13T14:15Z",
+   "lines_of_work": [
+    "bad trips guide"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "UDA root at eac15d4: AGENTS.md unchanged, the two new commits are the AI tool radar and Greptile credits, unrelated; suggested-fixes/joel-articles has the same six items, all in docs/suggested-fixes-ledger.md"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "pull request 433 (ours) merged at 23:09 UTC; pull request 434 (the neuro de-armoring lane, open) touches no file of this lane; no new issues, comments or reviews"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no edits by others to this lane's handoff note, questions page or state since this account's push of turn 41"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "his message of 14:15 UTC: his call list fix (a53907ff), the version he wants (f6b4e35a), 'continue', and his DMSO text from his neuro de-armoring research; his computer (his Pangram history, the laptop note) could not be reached: the link failed to connect (502), to be tried again next turn"
+    }
+   ],
+   "items": [
+    {
+     "item": "his message of 14:15 UTC",
+     "outcome": "his call list fix and the same rule on the support list in, O74 and lesson 12m; his DMSO text in, whole; f6b4e35a waits on its text; Chest Pain's evidence paragraph read three ways, not checked"
+    }
+   ],
+   "recorded_utc": "2026-11-13T14:29Z"
+  },
+  {
+   "turn": "2026-11-13T14:56Z",
+   "lines_of_work": [
+    "bad trips guide"
+   ],
+   "places": [
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "pull request 435 (ours, hold label, clean) and 434 (the neuro de-armoring lane: its DMSO card with the 1967 paper and lesson neuro-2026-11-13a, a new lesson file; no file of this lane) open; no new issues, comments or reviews since 14:00 UTC"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no edits by others to this lane's handoff note, questions page or state since turn 42's push (the branch's last commits are this lane's)"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "his messages of 14:56 UTC ('yes i want the dmso fixes you mentioned', 'continue') and 14:59 UTC (Lu & Mattson said in two places: 'maybe we can merge that?'); the link to his computer came back during the turn (his Pangram history and the laptop note readable); a web fetch's permission prompt went unanswered"
+    },
+    {
+     "place": "uda-lane",
+     "status": "unreachable",
+     "failed": "this session could not read universal-dev-architecture's suggested-fixes/joel-articles/: GitHub's API answered that the repository is not enabled for this session (HTTP 403), adding it was refused by this session's permission check, and the folder's web page refused the fetch (robots); the root AGENTS.md was read through a web fetch, as a summary",
+     "retry": "next turn, from a session that can add the repository"
+    }
+   ],
+   "items": [
+    {
+     "item": "his messages of 14:56 and 14:59 UTC",
+     "outcome": "his call list f6b4e35a in, whole (read from his history), the paragraph it now says cut; stem cell transplants; Hanslick and the Lu & Mattson merge read three ways and checked (humanize/h53-20261113/)"
+    },
+    {
+     "item": "neuro-2026-11-13a (pull request 434): the 1967 paper had anxiety patients",
+     "outcome": "his DMSO text here says it hasn't been tested for anxiety; offered to him as an optional point, the neuro lane's card SC-DMSOb asks the same of the neuro guide"
+    }
+   ],
+   "recorded_utc": "2026-11-13T15:36Z"
   }
  ]
 }

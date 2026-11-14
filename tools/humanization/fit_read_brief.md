@@ -43,7 +43,8 @@ situation. For every line (a sign, a step, a claim, a reason, a finding), ask fo
 - FROM: Is it a rule, sign, detail or reason carried over from another kind of text or setting (a general health manual,
   a clinic, a hospital ward, a textbook, an article about something else) that doesn't hold here, means something else
   here, or doesn't fit what this text is about? A danger sign that holds everywhere (lips turning blue, one side of the
-  face drooping) fits.
+  face drooping) fits, and so does a study's finding said with where it was found (in rats, in a dish): that is evidence
+  the reader can weigh, not a rule carried over.
 - MISREAD: Read quickly, does it sound like the opposite of what it means, or would it alarm or reassure you when it
   shouldn't, until a word more says which?
 

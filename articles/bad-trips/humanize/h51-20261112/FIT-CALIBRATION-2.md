@@ -35,3 +35,10 @@ the MISREAD question was written from his fix of it.
 So: a read that knows what the text is and who reads it, from any article, finds most of the lines that don't fit, and
 over-marks some; each mark is changed or kept with why it fits, as before. Read by a Sonnet agent; gate
 bad-trips-2026-11-12j as made universal by bad-trips-2026-11-12k (`sense_receipt.py`'s "fit" field).
+
+## After use (turn 42, 2026-11-13)
+
+On Chest Pain's evidence paragraph (`../h52-20261113/reads/fit-cp-c2.txt`) the read marked every line, the animal and
+lab findings as FROM ("animal and lab-dish findings don't apply to a person with chest pain right now") though each said
+where it was found. A second wording fix: FROM now says that a study's finding, said with where it was found, is evidence
+the reader can weigh, not a rule carried over. Not yet scored again.
