@@ -1461,6 +1461,51 @@
     }
    ],
    "recorded_utc": "2026-11-13T15:27Z"
+  },
+  {
+   "turn": "2026-11-14T22:04Z",
+   "lines_of_work": [
+    "neuro de-armoring",
+    "hypnosis guide",
+    "community article"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "AGENTS.md 7ef0bfc and LESSON-INDEX ba787e0 unchanged; the lane's six suggested-fix items, all in the ledger"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "main at cf2cc8809: this lane's 434 merged by the lane workflow at 16:05 yesterday; bad-trips 435 open (its own files, INDEX.json); no new issues or comments"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no edits by others to this lane's notes; his answers on x1113b: SC-95b and SC-54 approved, SC-DMSOc revise (his version adds a clause after the young-mouse study: no proof yet of harm to children, and many use it on their children); the cards page's stored decisions match his file, nothing else new there"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "no queued notifications"
+    }
+   ],
+   "items": [
+    {
+     "item": "SC-95b approved",
+     "outcome": "his version of block 95: apply by script (his own version, outside the Pangram gate)"
+    },
+    {
+     "item": "SC-54 approved",
+     "outcome": "my paragraph: a Pangram check of it by itself, Human High in every window, before it goes in (gate bad-trips-2026-11-12l)"
+    },
+    {
+     "item": "SC-DMSOc revise",
+     "outcome": "his version: apply by script; check his new clause on children against the sources, both sides, and raise what they show"
+    }
+   ],
+   "recorded_utc": "2026-11-14T22:06Z"
   }
  ]
 }

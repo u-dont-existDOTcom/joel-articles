@@ -122,3 +122,30 @@ if info is being duplicated, we should try to merge the DMSO info if it is dupli
   sparing healthy neurons (Hanslick's were healthy, young ones).
 
 Card SC-DMSOc, in ../x1113b/.
+
+## His clause on children, checked (his SC-DMSOc version, 2026-11-14 22:04 UTC)
+
+He added, after the young-mouse study: "although so far there's no proof it's harming children, and many people use it on
+their children for injuries, infections, and so forth with good results in practice." Searched PubMed for DMSO (and its
+Russian name, dimexide) with children, infants and newborns, harms and uses, 1960s on (lesson neuro-2026-11-13a).
+
+- **Brief harms in children, all with stem cells given into a vein:** "Transient loss of consciousness in pediatric
+  recipients of dimethylsulfoxide (DMSO)-cryopreserved peripheral blood stem cells independent of morphine co-medication"
+  ([Schlegel, et al, 2009](https://pubmed.ncbi.nlm.nih.gov/19608681/), Haematologica; doi 10.3324/haematol.2009.009860;
+  a letter with cases, no abstract). In a prospective study of 219 small recipients, 90 of them children, infusion
+  reactions (slow heart rate after cord blood, high blood pressure after fresh marrow) followed the product's volume and
+  cells as much as DMSO; fresh marrow, with no DMSO, had the highest overall rate
+  ([Ikeda, et al, 2020](https://pubmed.ncbi.nlm.nih.gov/32306410/), Transfusion; doi 10.1111/trf.15786). Also: a slow
+  heart reflex in a child as DMSO was flushed through an artery (PMID 21561553, 2011); severe local pain from DMSO on the
+  skin in a child (PMID 15770831, 2005); DMSO-based glue for brain vessel malformations in babies, complications in 5 of
+  66 procedures, as in older patients (PMID 41667227, 2026).
+- **Lasting harm in children:** no study found. Hanslick 2009's worry (young mice) is untested in children.
+- **For his side:** 1975 trials gave a "DMSO therapy" to children with intellectual disabilities: 13 children for 180
+  days improved on intelligence tests against a control group, and "None of the 13 cases treated showed any signs of
+  toxicity" ([Giller & de Bernadou, 1975](https://pubmed.ncbi.nlm.nih.gov/1093464/), Ann N Y Acad Sci; doi
+  10.1111/j.1749-6632.1975.tb25386.x); also children with Down syndrome (PMID 124151, 1975). The abstract calls the
+  treatment "DAT" and doesn't say what else it held (the Down syndrome paper's index lists amino acids), and the paper is
+  behind a paywall. Soviet doctors used dimexide on children's bone infections (43 children, with hyperbaric oxygen; PMID
+  516263, 1979), juvenile arthritis (with heparin; PMID 7432935, 1980) and tuberculosis (aerosol; PMID 6968885, 1980).
+- **So:** his clause holds for lasting harm; children given it into a vein with stem cells have had brief reactions,
+  passing out among them. Question 13 asks whether "lasting" goes in.
