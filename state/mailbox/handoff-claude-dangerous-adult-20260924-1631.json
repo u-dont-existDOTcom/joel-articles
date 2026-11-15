@@ -264,6 +264,49 @@
     }
    ],
    "recorded_utc": "2026-11-04T18:22Z"
+  },
+  {
+   "turn": "2026-11-15T15:11Z",
+   "lines_of_work": [
+    "inner child guide"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "6 items in suggested-fixes/joel-articles/ (UDA main 536e6b20), all in docs/suggested-fixes-ledger.md; two were deferred to this lane's next mailbox check by the neuro de-armoring lane on 2026-11-08, both owner requests: 2026-10-18-schema-therapist-fit-and-reparenting-guide.md and 2026-10-22-book-audit-and-guide-receipts.md"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "since turn 128's check (2026-11-04 18:20 UTC): pull request 301 (this lane, turn 128) merged; no new issue; no comment or review since 2026-11-04 18:40 UTC that names the Inner Child guide (gh api issues/comments); open pull requests 401, 309, 278, 244, 200, 199, 198, 197 and 109, none new for this lane (278, the other chat's Real Life plan of 2026-11-03, was already open at turn 128); main changed nothing in articles/inner-child-therapy since turn 128"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "the laptop's handoff note is byte for byte what turn 128's update made of it (cmp with inbox/t113/note-expected-t128.md); OWNER-QUESTIONS.md and HANDOFF-UPDATE.json unchanged on main since turn 128"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "no queued notifications"
+    }
+   ],
+   "items": [
+    {
+     "item": "his message of 15:11 UTC: check the latest version of the guide on Substack and learn from how he improved its organization",
+     "outcome": "next step, this turn: the live post (updated 2026-11-14 02:07 UTC) saved and compared block by block with the article of 2026-11-04; what his moves show goes into the shared rules as lessons"
+    },
+    {
+     "item": "2026-10-18-schema-therapist-fit-and-reparenting-guide.md (deferred to this lane, owner request)",
+     "outcome": "next step, this turn: read against his live guide's Finding a Therapist and Schema Therapy sections; what is still missing goes to him as a question, nothing is declined without him"
+    },
+    {
+     "item": "2026-10-22-book-audit-and-guide-receipts.md (deferred to this lane, owner request)",
+     "outcome": "next step: its proposals B1 to B4, C1, C2 and O1 read against his live guide; what is already there is recorded, the rest goes to him with my recommendation; waits for this turn's read of the live guide"
+    }
+   ],
+   "recorded_utc": "2026-11-15T15:22Z"
   }
  ]
 }
