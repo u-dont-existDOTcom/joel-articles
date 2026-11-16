@@ -1,0 +1,636 @@
+{
+ "about": "The sections that answer each situation in SITUATIONS.md, by the live post's section ids (S001 = its first heading; LIVE-TOC.json gives each id's heading in the post as it was on 2026-11-16 02:12 UTC). 'right' sections answer it; 'also' sections answer part of it and count as right too. Written from the live post's text before any new contents was drafted, and kept out of the readers' view. A reader's pick counts by its section id, so a renamed or moved section still counts.",
+ "situations": {
+  "1": {
+   "right": [
+    [
+     "S080",
+     "When the Adult Voice Feels Fake"
+    ]
+   ],
+   "also": [
+    [
+     "S062",
+     "You Don’t Need an Inner Monologue"
+    ]
+   ]
+  },
+  "2": {
+   "right": [
+    [
+     "S031",
+     "Love Can Start Before It’s Trusted ❤️"
+    ]
+   ],
+   "also": [
+    [
+     "S029",
+     "Earning their trust, day to day"
+    ],
+    [
+     "S026",
+     "Protecting them from yourself"
+    ],
+    [
+     "S032",
+     "If the Love Isn’t Coming Yet"
+    ],
+    [
+     "S023",
+     "Protecting and Building Trust With Your Little One"
+    ]
+   ]
+  },
+  "3": {
+   "right": [
+    [
+     "S032",
+     "If the Love Isn’t Coming Yet"
+    ]
+   ],
+   "also": [
+    [
+     "S033",
+     "Borrow Someone Else’s Love"
+    ],
+    [
+     "S034",
+     "Borrow Your Love For Someone Else"
+    ],
+    [
+     "S040",
+     "A Smaller Doorway: Goodwill"
+    ],
+    [
+     "S031",
+     "Love Can Start Before It’s Trusted ❤️"
+    ]
+   ]
+  },
+  "4": {
+   "right": [
+    [
+     "S027",
+     "Protecting from the Parent You Inherited"
+    ]
+   ],
+   "also": [
+    [
+     "S026",
+     "Protecting them from yourself"
+    ],
+    [
+     "S028",
+     "Reframing attacks as unskillful attempts to help"
+    ],
+    [
+     "S078",
+     "Answering the Strict Disciplinarian"
+    ]
+   ]
+  },
+  "5": {
+   "right": [
+    [
+     "S013",
+     "If You Want to Kill Yourself"
+    ]
+   ],
+   "also": [
+    [
+     "S014",
+     "The Spiritual Side of the Question"
+    ],
+    [
+     "S015",
+     "This human life is the most precious opportunity"
+    ]
+   ]
+  },
+  "6": {
+   "right": [
+    [
+     "S019",
+     "Don’t Sell Your Inner Adult To Buy An Outer Adult"
+    ],
+    [
+     "S020",
+     "Signs of Manipulation"
+    ]
+   ],
+   "also": []
+  },
+  "7": {
+   "right": [
+    [
+     "S037",
+     "How to Forgive Without Forgetting"
+    ]
+   ],
+   "also": []
+  },
+  "8": {
+   "right": [
+    [
+     "S009",
+     "When Therapy Stirs Things Up"
+    ]
+   ],
+   "also": [
+    [
+     "S082",
+     "When the Practice Feels Real but Stays Shallow"
+    ]
+   ]
+  },
+  "9": {
+   "right": [
+    [
+     "S073",
+     "One Intention in the Morning, One Review at Night"
+    ]
+   ],
+   "also": [
+    [
+     "S060",
+     "Make a Simple Vow"
+    ],
+    [
+     "S061",
+     "Remind Yourself"
+    ],
+    [
+     "S039",
+     "Show Up When Nothing’s Wrong"
+    ]
+   ]
+  },
+  "10": {
+   "right": [
+    [
+     "S063",
+     "Use Childhood Photographs Gently"
+    ]
+   ],
+   "also": [
+    [
+     "S062",
+     "You Don’t Need an Inner Monologue"
+    ],
+    [
+     "S081",
+     "Sometimes There Isn’t a Clear Child Yet"
+    ],
+    [
+     "S064",
+     "Journal With Each Hand"
+    ],
+    [
+     "S059",
+     "Start With Whatever Showed Up"
+    ]
+   ]
+  },
+  "11": {
+   "right": [
+    [
+     "S081",
+     "Sometimes There Isn’t a Clear Child Yet"
+    ],
+    [
+     "S115",
+     "Untangling the Belonging Bargains"
+    ]
+   ],
+   "also": [
+    [
+     "S112",
+     "From Survival to Experimental Play"
+    ],
+    [
+     "S117",
+     "Practicing Differentiation"
+    ],
+    [
+     "S113",
+     "Let the Child Be Bad at Things"
+    ]
+   ]
+  },
+  "12": {
+   "right": [
+    [
+     "S087",
+     "How Would You Know It’s Helping?"
+    ],
+    [
+     "S088",
+     "When to Change the Strategy"
+    ]
+   ],
+   "also": [
+    [
+     "S089",
+     "How many tries would I give it?"
+    ],
+    [
+     "S090",
+     "If you keep following the reparenting steps correctly without getting the expected results"
+    ]
+   ]
+  },
+  "13": {
+   "right": [
+    [
+     "S086",
+     "When Healing Turns Into Checking"
+    ]
+   ],
+   "also": []
+  },
+  "14": {
+   "right": [
+    [
+     "S093",
+     "Altered States Can Deepen Therapy or Escapism"
+    ]
+   ],
+   "also": [
+    [
+     "S094",
+     "For some people, reparenting starts feeling real in an altered state"
+    ],
+    [
+     "S098",
+     "When Escape Leaves Reality Behind"
+    ],
+    [
+     "S099",
+     "If a past trip went badly"
+    ],
+    [
+     "S107",
+     "My Psychedelic Experiences Came A Bit Too Soon"
+    ]
+   ]
+  },
+  "15": {
+   "right": [
+    [
+     "S095",
+     "Everyone has altered states: Prepare now"
+    ],
+    [
+     "S096",
+     "Using spiritual attack for spiritual gain"
+    ]
+   ],
+   "also": []
+  },
+  "16": {
+   "right": [
+    [
+     "S097",
+     "What to Do With a Peak"
+    ]
+   ],
+   "also": []
+  },
+  "17": {
+   "right": [
+    [
+     "S142",
+     "When One Life Has Ended and the Next Hasn’t Begun"
+    ]
+   ],
+   "also": [
+    [
+     "S143",
+     "Missing Someone"
+    ]
+   ]
+  },
+  "18": {
+   "right": [
+    [
+     "S129",
+     "Finding a Therapist to Borrow Adulthood"
+    ],
+    [
+     "S130",
+     "Inner Child Reparenting therapists"
+    ],
+    [
+     "S131",
+     "If you want a licensed therapist"
+    ],
+    [
+     "S132",
+     "Before choosing a therapist"
+    ]
+   ],
+   "also": []
+  },
+  "19": {
+   "right": [
+    [
+     "S137",
+     "Write It. Don’t Send It Yet."
+    ]
+   ],
+   "also": [
+    [
+     "S134",
+     "Speaking Up and Handling Conflict"
+    ],
+    [
+     "S069",
+     "Catch the Hook Before the Story Takes Over"
+    ]
+   ]
+  },
+  "20": {
+   "right": [
+    [
+     "S119",
+     "When Being Happy Feels Like Abandoning Someone"
+    ]
+   ],
+   "also": []
+  },
+  "21": {
+   "right": [
+    [
+     "S120",
+     "Finding People and Building Trust"
+    ],
+    [
+     "S121",
+     "First Social Connections, Done Right"
+    ]
+   ],
+   "also": [
+    [
+     "S124",
+     "How To Let People In"
+    ],
+    [
+     "S122",
+     "Opening Up Honestly to the Right People at the Right Pace"
+    ]
+   ]
+  },
+  "22": {
+   "right": [
+    [
+     "S123",
+     "Before You Tell the Hardest Stuff"
+    ]
+   ],
+   "also": [
+    [
+     "S122",
+     "Opening Up Honestly to the Right People at the Right Pace"
+    ]
+   ]
+  },
+  "23": {
+   "right": [
+    [
+     "S126",
+     "Dating While You Heal"
+    ]
+   ],
+   "also": []
+  },
+  "24": {
+   "right": [
+    [
+     "S084",
+     "Physical Pain Makes It Harder"
+    ],
+    [
+     "S085",
+     "Listen To Your Body, Or Else!"
+    ]
+   ],
+   "also": []
+  },
+  "25": {
+   "right": [
+    [
+     "S008",
+     "Your Body Might Need Some Love First"
+    ]
+   ],
+   "also": []
+  },
+  "26": {
+   "right": [
+    [
+     "S011",
+     "When the Present-Day Adult Is Dangerous to the Child"
+    ]
+   ],
+   "also": [
+    [
+     "S012",
+     "Ill Will and Loving-Kindness"
+    ]
+   ]
+  },
+  "27": {
+   "right": [
+    [
+     "S147",
+     "How This Relates to Similar Therapies"
+    ],
+    [
+     "S148",
+     "Schema Therapy"
+    ],
+    [
+     "S149",
+     "Internal Family Systems (IFS)"
+    ]
+   ],
+   "also": [
+    [
+     "S150",
+     "Development of my framework"
+    ]
+   ]
+  },
+  "28": {
+   "right": [
+    [
+     "S044",
+     "Between Spoiling and Clamping Down"
+    ]
+   ],
+   "also": []
+  },
+  "29": {
+   "right": [
+    [
+     "S076",
+     "Use hindsight to “re-do” traumatic memories in a healthier way"
+    ],
+    [
+     "S077",
+     "How should discipline have been done right?"
+    ]
+   ],
+   "also": [
+    [
+     "S078",
+     "Answering the Strict Disciplinarian"
+    ],
+    [
+     "S036",
+     "“And So That’s the Way It Happened!”"
+    ],
+    [
+     "S037",
+     "How to Forgive Without Forgetting"
+    ]
+   ]
+  },
+  "30": {
+   "right": [
+    [
+     "S049",
+     "Guide Yourself To Divine Love"
+    ],
+    [
+     "S050",
+     "Ask God for a Loan 🫶🏿"
+    ],
+    [
+     "S041",
+     "A Bigger Doorway: Divine Love"
+    ]
+   ],
+   "also": [
+    [
+     "S052",
+     "The Joy In Sorrow"
+    ],
+    [
+     "S053",
+     "You Belong Everywhere and Nowhere"
+    ]
+   ]
+  },
+  "31": {
+   "right": [
+    [
+     "S035",
+     "Shame can make you feel unlovable"
+    ]
+   ],
+   "also": [
+    [
+     "S036",
+     "“And So That’s the Way It Happened!”"
+    ],
+    [
+     "S123",
+     "Before You Tell the Hardest Stuff"
+    ]
+   ]
+  },
+  "32": {
+   "right": [
+    [
+     "S007",
+     "Dip Your Toes In Before You Go Deep"
+    ]
+   ],
+   "also": [
+    [
+     "S010",
+     "Notice the Part That Came Here"
+    ]
+   ]
+  },
+  "33": {
+   "right": [
+    [
+     "S048",
+     "A Healthy Mind Is Not a Perfect Mind"
+    ]
+   ],
+   "also": [
+    [
+     "S011",
+     "When the Present-Day Adult Is Dangerous to the Child"
+    ]
+   ]
+  },
+  "34": {
+   "right": [
+    [
+     "S139",
+     "Other Folks Also Have Hooks"
+    ]
+   ],
+   "also": [
+    [
+     "S140",
+     "Can They Change?"
+    ],
+    [
+     "S141",
+     "If a Relationship Keeps Making You Feel Less Safe"
+    ]
+   ]
+  },
+  "35": {
+   "right": [
+    [
+     "S059",
+     "Start With Whatever Showed Up"
+    ]
+   ],
+   "also": []
+  },
+  "36": {
+   "right": [
+    [
+     "S083",
+     "When the Urge to Escape Arrives"
+    ]
+   ],
+   "also": []
+  },
+  "37": {
+   "right": [
+    [
+     "S069",
+     "Catch the Hook Before the Story Takes Over"
+    ]
+   ],
+   "also": [
+    [
+     "S137",
+     "Write It. Don’t Send It Yet."
+    ]
+   ]
+  },
+  "38": {
+   "right": [
+    [
+     "S071",
+     "If it’s anxiety"
+    ]
+   ],
+   "also": [
+    [
+     "S070",
+     "What to Make of a Passing Feeling"
+    ]
+   ]
+  }
+ }
+}
