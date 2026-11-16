@@ -1,0 +1,84 @@
+[
+ {
+  "contents": "NOW-SIDEBAR",
+  "label": "Yours as it is, as the sidebar cuts it",
+  "readers": 2,
+  "right": [
+   31,
+   32
+  ],
+  "guesses": [
+   26,
+   21
+  ],
+  "found": [
+   33,
+   34
+  ]
+ },
+ {
+  "contents": "NOW-FULL",
+  "label": "Yours as it is, whole headings (no sidebar)",
+  "readers": 1,
+  "right": [
+   32
+  ],
+  "guesses": [
+   18
+  ],
+  "found": [
+   34
+  ]
+ },
+ {
+  "contents": "B",
+  "label": "Mine, first version",
+  "readers": 2,
+  "right": [
+   34,
+   32
+  ],
+  "guesses": [
+   19,
+   20
+  ],
+  "found": [
+   35,
+   33
+  ]
+ },
+ {
+  "contents": "B2",
+  "label": "Mine, with three fixes after the first readers",
+  "readers": 2,
+  "right": [
+   32,
+   33
+  ],
+  "guesses": [
+   20,
+   18
+  ],
+  "found": [
+   34,
+   33
+  ]
+ },
+ {
+  "contents": "C",
+  "label": "GPT's",
+  "readers": 2,
+  "right": [
+   31,
+   33
+  ],
+  "guesses": [
+   20,
+   24
+  ],
+  "found": [
+   31,
+   34
+  ]
+ }
+]
