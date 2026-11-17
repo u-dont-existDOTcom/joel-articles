@@ -1,0 +1,113 @@
+# Your headings on 4 November and in the live post (2026-11-17)
+
+The headings of `HUMANIZED-ARTICLE-SO-FAR.md` (the guide as published on 4 November, 148 headings) lined up against the live post's 147 listed headings (`../t130-toc/LIVE-TOC.json`; the same on 16 and 17 November). Made by a sequence match on the heading text, so a heading that moved shows once under "only on 4 November" (where it was) and once under "only in the live post" (where it is). Headings in the same place are left out unless their level changed.
+
+- only in the live post here (after "Understanding Reparenting"):
+    - h2 Allow Céline to explain the “inner child:” (S002)
+- only on 4 November here (after "Noticing Counts"):
+    - h2 Protecting and Building Trust With Your Little One
+- only in the live post here (after "Noticing Counts"):
+    - h2 Protecting and Building Trust With Your Little One (S023)
+- only in the live post here (after "Borrow Your Love For Someone Else"):
+    - h3 Shame can make you feel unlovable (S035)
+    - h4 “And So That’s the Way It Happened!” (S036)
+    - h3 How to Forgive Without Forgetting (S037)
+    - h4 Forgiving Yourself (S038)
+- only in the live post here (after "A Smaller Doorway: Goodwill"):
+    - h3 A Bigger Doorway: Divine Love (S041)
+    - h2 The Inner Guide: Becoming Your Own Shepherd (S042)
+    - h3 Are you ready for the Guide? (S043)
+    - h3 Between Spoiling and Clamping Down (S044)
+    - h3 Borrow the Guide to Build It (S045)
+    - h4 Borrow Hindsight (S046)
+    - h4 Remember When You Already Did It Well (S047)
+    - h3 A Healthy Mind Is Not a Perfect Mind (S048)
+    - h3 Guide Yourself To Divine Love (S049)
+- level changed, h3 to h4: Ask God for a Loan 🫶🏿 (S050)
+- only on 4 November here (after "Ask God for a Loan"):
+    - h4 Your Loan is PRE-APPROVED!
+    - h5 Mo' Money, Mo' Problems
+- only in the live post here (after "Ask God for a Loan 🫶🏿"):
+    - h4 The Joy In Sorrow (S052)
+    - h4 You Belong Everywhere and Nowhere (S053)
+- only in the live post here (after "When the Spiritual Relationship Hurts"):
+    - h1 Practicing With Your Little One (S058)
+    - h2 Start With Whatever Showed Up (S059)
+- level changed, h3 to h2: Make a Simple Vow (S060)
+- level changed, h4 to h3: Remind Yourself (S061)
+- only on 4 November here (after "Remind Yourself"):
+    - h3 How Much Happiness Do You Know Is Possible?
+    - h3 The Joy In Sorrow
+    - h2 The Inner Guide: Becoming Your Own Shepherd
+    - h3 Borrow Hindsight
+    - h3 Remember When You Already Did It Well
+    - h3 A Healthy Mind Is Not a Perfect Mind
+    - h3 You Belong Everywhere and Nowhere
+    - h3 Timing Is Individual
+    - h3 Between Spoiling and Clamping Down
+    - h1 Practicing With Your Little One
+    - h2 Start With Whatever Showed Up
+- only in the live post here (after "If it tells you to do something"):
+    - h2 Catch the Hook Before the Story Takes Over (S069)
+    - h2 What to Make of a Passing Feeling (S070)
+- only on 4 November here (after "If it's anxiety"):
+    - h2 Catch the Hook Before the Story Takes Over
+- only on 4 November here (after "Gentle Meditation and Mantra"):
+    - h2 What to Make of a Passing Feeling
+- only on 4 November here (after "Discovering and Healing Old Patterns"):
+    - h2 How Distrust Reproduces
+    - h2 Shame can make you feel unlovable
+    - h3 "And So That's the Way It Happened!"
+    - h2 How to Forgive Without Forgetting
+    - h3 Forgiving Yourself
+    - h2 Using hindsight to "re-do" memories of trauma in a healthier way
+- only in the live post here (after "Discovering and Healing Old Patterns"):
+    - h2 Use hindsight to “re-do” traumatic memories in a healthier way (S076)
+- only on 4 November here (after "When the Adult Voice Feels Fake"):
+    - h3 For some people it only stops feeling fake in an altered state
+- only in the live post here (after "When the Practice Feels Real but Stays Shallow"):
+    - h2 When the Urge to Escape Arrives (S083)
+    - h3 Physical Pain Makes It Harder (S084)
+    - h4 Listen To Your Body, Or Else! (S085)
+- only on 4 November here (after "If you'd rather stop"):
+    - h2 When the Urge to Escape Arrives
+    - h2 Physical Pain Makes It Harder
+    - h3 Listen To Your Body, Or Else!
+- only in the live post here (after "Altered States Can Deepen Therapy or Escapism"):
+    - h3 For some people, reparenting starts feeling real in an altered state (S094)
+    - h2 Everyone has altered states: Prepare now (S095)
+    - h3 Using spiritual attack for spiritual gain (S096)
+- only in the live post here (after "What you mix"):
+    - h3 Non-altered states can feel like this too (S106)
+- only on 4 November here (after "My Psychedelic Experiences Came A Bit Too Soon"):
+    - h2 Altered States Can Require Reparenting
+    - h3 Using spiritual attack for spiritual gain
+    - h3 Non-altered states can feel like this too
+- only in the live post here (after "Practicing Differentiation"):
+    - h3 Taking a Break From a Family, Group, or Relationship (S118)
+- only on 4 November here (after "Finding People and Building Trust"):
+    - h3 People? Where Are the People?
+- only in the live post here (after "Before You Tell the Hardest Stuff"):
+    - h3 How To Let People In (S124)
+- only in the live post here (after "Ask What Kind of Company They Want"):
+    - h3 Dating While You Heal (S126)
+    - h3 The Love Has to Move (S127)
+- only on 4 November here (after "Hearthwork: Taking Turns Lending & Borrowing Adulthood"):
+    - h3 Dating While You Heal
+- only in the live post here (after "Hearthwork: Taking Turns Lending & Borrowing Adulthood"):
+    - h2 Finding a Therapist to Borrow Adulthood (S129)
+    - h3 Inner Child Reparenting therapists (S130)
+    - h3 If you want a licensed therapist (S131)
+    - h3 Before choosing a therapist (S132)
+    - h3 AI therapy (S133)
+- only on 4 November here (after "Speak Toward What You Are Building"):
+    - h3 Being Your Own Advocate With Doctors
+- only on 4 November here (after "If a Relationship Keeps Making You Feel Less Safe"):
+    - h3 Taking a Break From a Family, Group, or Relationship
+- only on 4 November here (after "Missing Someone"):
+    - h2 The Love Has to Move
+    - h2 Finding a Therapist to Borrow Adulthood
+    - h3 Inner Child Reparenting therapists
+    - h3 If you want a licensed therapist
+    - h3 Before choosing a therapist
+    - h3 AI therapy
