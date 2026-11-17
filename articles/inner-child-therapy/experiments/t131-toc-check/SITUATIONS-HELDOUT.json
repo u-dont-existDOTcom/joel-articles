@@ -1,0 +1,366 @@
+{
+ "about": "30 situations written on 2026-11-17 by a Sonnet agent that saw the guide's text with every heading removed and had never seen the turn-130 situations, any contents option or any reader's answers. 'right' sections answer the situation; 'also' sections answer part of it and count as right too (section ids of the live post, S001 = its first heading). A second Sonnet agent then read the whole guide against all 68 situations to find answering sections the keys had missed; Fable checked each of its quotes in the text and applied the changes listed under 'changes' before any reader saw anything. The checker's other suggestions for this set (dropping S003 from 1 and S019 from 13) were not clear errors and were left.",
+ "situations": [
+  {
+   "n": 1,
+   "situation": "You've meditated for years and feel free, but when someone calls you lazy you suddenly feel like a small kid again.",
+   "right": [
+    "S005"
+   ],
+   "also": [
+    "S003",
+    "S043",
+    "S054"
+   ],
+   "why": "S005 describes the author's own case: a spiritually free adult whose childhood wound still hit, which is why he turned to inner child work."
+  },
+  {
+   "n": 2,
+   "situation": "You're so flooded by old feelings that you can't stay calm for yourself, and you wonder whether a friend could do part of the grown-up work for you first.",
+   "right": [
+    "S003"
+   ],
+   "also": [
+    "S018",
+    "S004",
+    "S033",
+    "S128"
+   ],
+   "why": "S003 says that if you're stuck in the child state, someone else can do one part of the adult role first while you copy small pieces."
+  },
+  {
+   "n": 3,
+   "situation": "You're partway through a conversation with your younger self, it's getting too intense, and you want to stop.",
+   "right": [
+    "S007"
+   ],
+   "also": [
+    "S074"
+   ],
+   "why": "S007 says to jot down why you're pausing and what progress you made, come back later, and reach toward someone if being alone was part of the hurt."
+  },
+  {
+   "n": 4,
+   "situation": "Everyone says to be kind to yourself, but your honest reaction is that you hate yourself.",
+   "right": [
+    "S010"
+   ],
+   "also": [],
+   "why": "S010 says to listen to the self-hatred without arguing, and to ask the part that brought you here what it hoped for."
+  },
+  {
+   "n": 5,
+   "situation": "You're convinced that dying would simply end the pain and that nothing comes after.",
+   "right": [
+    "S015"
+   ],
+   "also": [
+    "S013",
+    "S014"
+   ],
+   "why": "S015 questions the belief that death is nothing, and offers the point that the life change you fear is easier than dying."
+  },
+  {
+   "n": 6,
+   "situation": "When you fall apart, calling a friend helps, but you'd like to be able to comfort yourself the same way.",
+   "right": [
+    "S033"
+   ],
+   "also": [
+    "S032"
+   ],
+   "why": "S033 says to steal what the friend does, sitting with you without fixing, and try ten seconds of it yourself or imagine someone caring doing it."
+  },
+  {
+   "n": 7,
+   "situation": "You hurt someone badly in the past and can't stop punishing yourself for it.",
+   "right": [
+    "S038"
+   ],
+   "also": [
+    "S037",
+    "S035",
+    "S138"
+   ],
+   "why": "S038 says own what was really yours, feel remorse, repair what you can, and then stop holding yourself hostage while keeping the responsibility."
+  },
+  {
+   "n": 8,
+   "situation": "You can't honestly wish well to someone who treated you badly, because it feels like rewarding them.",
+   "right": [
+    "S040"
+   ],
+   "also": [],
+   "why": "S040 offers a bigger wish, that they be loving, peaceful and free, which is easier to say honestly and can warm your own heart."
+  },
+  {
+   "n": 9,
+   "situation": "You're struggling with stress eating and don't know where to find the strength to change.",
+   "right": [
+    "S047"
+   ],
+   "also": [],
+   "why": "S047 says to recall a harder challenge you got through, see what helped and whether any of it is still within reach, without using it as a stick."
+  },
+  {
+   "n": 10,
+   "situation": "You put off decisions until you're completely sure, and your life feels on hold.",
+   "right": [
+    "S048"
+   ],
+   "also": [],
+   "why": "S048 says the Guide picks the next sane step with the info available, since waiting for certainty as a pattern keeps life small."
+  },
+  {
+   "n": 11,
+   "situation": "You're suffering and people tell you to be grateful, which feels fake, but you wonder whether there's a real version.",
+   "right": [
+    "S050",
+    "S051"
+   ],
+   "also": [],
+   "why": "S050 and S051 describe gratitude that is not forced positivity, starting from small real things like a breath, and not pushed on someone who needs to grieve."
+  },
+  {
+   "n": 12,
+   "situation": "Someone was kind to you and, to your surprise, it made you cry.",
+   "right": [
+    "S052"
+   ],
+   "also": [],
+   "why": "S052 says being loved can open grief, sadness for the care that was missing."
+  },
+  {
+   "n": 13,
+   "situation": "A spiritual teacher you trusted betrayed you, and now even sitting down to meditate feels like it belongs to them.",
+   "right": [
+    "S056"
+   ],
+   "also": [
+    "S019",
+    "S020"
+   ],
+   "why": "S056 says not to let an abuser control your appreciation of life, and uses the serenity prayer to sort what you can and cannot control."
+  },
+  {
+   "n": 14,
+   "situation": "You want a writing exercise that gets at feelings your ordinary journaling doesn't reach.",
+   "right": [
+    "S064"
+   ],
+   "also": [
+    "S062"
+   ],
+   "why": "S064 describes writing with your other hand as the scared child while your usual hand answers as the grown-up."
+  },
+  {
+   "n": 15,
+   "situation": "You feel a sudden strong attraction or wave of shame and wonder whether that passing feeling tells you who you really are.",
+   "right": [
+    "S070"
+   ],
+   "also": [],
+   "why": "S070 says a feeling is real as a feeling but doesn't settle who you are, so give patterns time to show what lasts."
+  },
+  {
+   "n": 16,
+   "situation": "You'd like a short morning and evening routine to catch your automatic reactions and review the day.",
+   "right": [
+    "S073"
+   ],
+   "also": [
+    "S069"
+   ],
+   "why": "S073 gives a morning intention and an evening review: where you noticed being hooked, what you still did anyway, what small repair to make, and what to appreciate."
+  },
+  {
+   "n": 17,
+   "situation": "After an emotional session you feel stirred up and don't know how to wrap up and get on with your evening.",
+   "right": [
+    "S074"
+   ],
+   "also": [],
+   "why": "S074 says to end by looking around, feeling your feet on the floor, and telling your little one it's enough for today and you're returning to your life."
+  },
+  {
+   "n": 18,
+   "situation": "Even a healthy routine like yoga and an early bedtime feels like being bossed around, because one of your parents was so strict.",
+   "right": [
+    "S078"
+   ],
+   "also": [
+    "S111"
+   ],
+   "why": "S078 says a routine done in a disciplinarian style feels like lock-down to your little one, and suggests rewriting your answers to the strict voice, comforting first."
+  },
+  {
+   "n": 19,
+   "situation": "You felt you connected with your younger self during a session, but later realized it stayed on the surface.",
+   "right": [
+    "S082"
+   ],
+   "also": [],
+   "why": "S082 says dreams, especially in the second half of the night, can bring more direct feeling, and to shorten practice if nightmares wreck sleep."
+  },
+  {
+   "n": 20,
+   "situation": "Doctors suggested your mysterious symptoms might be emotional, and you wonder whether illness can really come from feelings.",
+   "right": [
+    "S085"
+   ],
+   "also": [
+    "S084"
+   ],
+   "why": "S085 says some physical illness is partly or wholly emotional and body therapy has helped people, but not all illness is, so consider all possibilities."
+  },
+  {
+   "n": 21,
+   "situation": "Your self-healing exercises have started to feel like a chore you must finish before you're allowed to live your life.",
+   "right": [
+    "S087"
+   ],
+   "also": [
+    "S086",
+    "S111"
+   ],
+   "why": "S087 says that if exercises feel like a ritual to complete before living, stop; real healing means needing the therapy less."
+  },
+  {
+   "n": 22,
+   "situation": "After a rough psychedelic experience you ended up paranoid and worse than before, and you wonder whether to try again.",
+   "right": [
+    "S099"
+   ],
+   "also": [
+    "S100",
+    "S101",
+    "S103"
+   ],
+   "why": "S099 says that becoming manic, psychotic, paranoid or worse afterward is a sign not to repeat it until you understand why and what would make it safe."
+  },
+  {
+   "n": 23,
+   "situation": "You found a healer on Reddit whom everyone raves about, and you're thinking of trusting them with your healing.",
+   "right": [
+    "S102"
+   ],
+   "also": [],
+   "why": "S102 says trusted means a long relationship, not Reddit praise, which is a crapshoot, and a new therapist is less trusted than an old one."
+  },
+  {
+   "n": 24,
+   "situation": "Scrolling social media leaves you feeling manipulated and awful.",
+   "right": [
+    "S106"
+   ],
+   "also": [],
+   "why": "S106 says algorithms wreck you without a loving, protective inner parent, and that with one social media becomes useful and nicer."
+  },
+  {
+   "n": 25,
+   "situation": "Being around your family makes you lose track of what you want, even though they aren't doing anything to you, and you wonder about stepping back.",
+   "right": [
+    "S118"
+   ],
+   "also": [
+    "S117"
+   ],
+   "why": "S118 says taking a break from a family or group can be needed even if they aren't doing anything, sometimes briefly, sometimes long-term."
+  },
+  {
+   "n": 26,
+   "situation": "You told a new friend your whole life story at once and now worry you overshared.",
+   "right": [
+    "S122"
+   ],
+   "also": [],
+   "why": "S122 says privacy isn't fakery, people earn more of you by how they handle small things, and opening too fast can scare even good people."
+  },
+  {
+   "n": 27,
+   "situation": "You'd like a regular arrangement with a friend where you take turns being heard without any advice.",
+   "right": [
+    "S128"
+   ],
+   "also": [
+    "S109"
+   ],
+   "why": "S128 describes peers taking equal turns listening privately with warm regard, with no interpreting or advice, between friendship and therapy."
+  },
+  {
+   "n": 28,
+   "situation": "You've been using an AI chatbot as a therapist and wonder how far to trust it.",
+   "right": [
+    "S133"
+   ],
+   "also": [],
+   "why": "S133 says AI therapy apps are a toss-up, can give insights but may go sideways, and shouldn't replace real people."
+  },
+  {
+   "n": 29,
+   "situation": "Someone who keeps letting you down promises that this time they'll change.",
+   "right": [
+    "S140"
+   ],
+   "also": [
+    "S139"
+   ],
+   "why": "S140 says a promise to change is about as useful as earlier promises, so keep a realistic boundary and hold high hopes while prepared for failure."
+  },
+  {
+   "n": 30,
+   "situation": "Someone stopped loving you and you've begun to feel you're unworthy of love.",
+   "right": [
+    "S145"
+   ],
+   "also": [],
+   "why": "S145 says another person's love running out says nothing about your worth, and points to a deeper love that doesn't depend on earning."
+  }
+ ],
+ "changes": [
+  {
+   "n": 1,
+   "added": [
+    "S043",
+    "S054"
+   ],
+   "why": "Checker: both speak to a spiritual opening that didn't reach the child (\"Say you had a spiritual opening years before you had much of a Nurturer or Protector.\"; \"You can have an enormous spiritual feast upstairs while the child is still starving downstairs.\")."
+  },
+  {
+   "n": 2,
+   "added": [
+    "S033",
+    "S128"
+   ],
+   "why": "Checker: \"So steal some of it.\" (a friend's way of sitting with you) and Hearthwork's \"...ideal for borrowing the Nurturer role and what that feels like.\""
+  },
+  {
+   "n": 7,
+   "added": [
+    "S138"
+   ],
+   "why": "Checker: \"Are you really sorry for what you did, or are you just trying to feel sorry because they’re upset?\" (repair, and guilt that keeps shouting)."
+  },
+  {
+   "n": 17,
+   "removed": [
+    "S059"
+   ],
+   "why": "Checker and Fable: Start With Whatever Showed Up is about beginning a session, not closing one."
+  },
+  {
+   "n": 18,
+   "added": [
+    "S111"
+   ],
+   "why": "Checker: \"So if it feels like you’re enforcing everything as a discipline, see if you can change that discipline into a game.\" (the section's example is yoga)."
+  },
+  {
+   "n": 21,
+   "added": [
+    "S111"
+   ],
+   "why": "Checker: the same sentence, for practice that has turned into a duty."
+  }
+ ]
+}

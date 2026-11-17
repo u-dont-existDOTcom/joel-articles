@@ -1,0 +1,50 @@
+{
+ "about": "Each turn's mailbox check (tools/humanization/lane_mailbox.py; AGENTS.md, \"Suggested fixes from other projects\"). Newest last.",
+ "places": {
+  "uda-lane": "this repository's lane in universal-dev-architecture (suggested-fixes/joel-articles/), against docs/suggested-fixes-ledger.md",
+  "repo": "new issues and pull requests here, and new comments and reviews on any of them, replies on our own included",
+  "notes": "edits others made to the lane's handoff notes and owner questions pages since its last turn",
+  "runtime": "the messages the session's runtime queued for it"
+ },
+ "checks": [
+  {
+   "turn": "2026-11-17T18:07Z",
+   "lines_of_work": [
+    "inner child guide"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "6 items in suggested-fixes/joel-articles/, all already in docs/suggested-fixes-ledger.md; no new item; UDA at 536e6b2"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "open pull requests: 438 (turn 129, the article chat; no comments or reviews), 401, 309, 278, 244, 200, 199, 198, 197 and 109; none changes this turn's shared files (docs/FIXING-AN-ARTICLE.md and two files in docs/lessons/); pull request 439 (turn 130) merged 2026-11-16 03:13 UTC with no comments; open issues 27, 8 and 7, none new (gh)"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "the laptop's handoff note inner-child-article.md last changed 2026-11-16 03:13 UTC (turn 130's own update); the handoffs README gained a row for another chat's work on 2026-11-16 16:17 UTC, nothing addressed to this lane; OWNER-QUESTIONS.md on main unchanged since its last update (26 October)"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "no queued notifications"
+    }
+   ],
+   "items": [
+    {
+     "item": "pull request 438 (turn 129, the article chat), open",
+     "outcome": "not this chat's to merge; this turn touches none of its files, and the checkpoint names it as waiting"
+    },
+    {
+     "item": "Joel, 2026-11-17 18:07 UTC: Check now with fable",
+     "outcome": "Fable's check of turn 130's contents work (experiments/t131-toc-check/CHECK.md); the options page now starts on Fable's pick; question 111 on OWNER-QUESTIONS.md; his answer is the next step"
+    }
+   ],
+   "recorded_utc": "2026-11-17T19:08Z"
+  }
+ ]
+}
