@@ -22,7 +22,7 @@ Every paragraph and every section reads Human in Pangram, with the meaning kept 
 
 ## Current checkpoint
 
-`humanize/HUMANIZED-SO-FAR.md` (ec3c2ada, after his answers of 2026-11-14 22:04 UTC: SC-95b and his DMSO item, `humanize/fix-20261108/x1113b/APPLIED-X1113B.json`) is his post with the standard typographic swap, his versions and the science corrections he approved, section by section through Part 3's potassium step. Next, the protocol is read as a whole against the settled science (`humanize/fix-20261108/coherence/EXTRACT.md`), then the rest is humanized (lesson neuro-2026-11-08f). Nothing has been changed in his post yet.
+`humanize/HUMANIZED-SO-FAR.md` (9f5bbc31, after his message of 2026-11-19 16:17 UTC: his answer 12a and his version of block 54, `humanize/fix-20261108/x1119a/APPLIED-X1119A.json`) is his post with the standard typographic swap, his versions and the science corrections he approved, section by section through Part 3's potassium step. Next, the protocol is read as a whole against the settled science (`humanize/fix-20261108/coherence/EXTRACT.md`), then the rest is humanized (lesson neuro-2026-11-08f). Nothing has been changed in his post yet.
 
 ## Remaining
 
@@ -30,7 +30,7 @@ The AI windows of every section, rewritten and checked; his cards; his post upda
 
 ## Blockers / unresolved
 
-Three questions wait on him (`humanize/OWNER-QUESTIONS.md`): 12, splitting block 48's last sentence; 13, "long-term" in his clause on children in the DMSO item; 14, SC-54 (his Parkinson's and Alzheimer's evidence in block 54, approved), which read AI by itself in three tries and waits for his version or more tries. Every turn starts by reading the cards page's stored answers (lesson neuro-2026-11-13b).
+Three questions wait on him (`humanize/OWNER-QUESTIONS.md`): 15, whether his clause on children in the DMSO item should say it means uses other than IV; 16, whether Weeks 3–5 should start its new things one at a time (`humanize/fix-20261108/coherence/EXTRACT.md` 2.2); 17, whether a microdose day counts as a psychedelic day for 5-HTP and UMP (EXTRACT 2.3). Every turn starts by reading the cards page's stored answers (lesson neuro-2026-11-13b).
 
 ## Evidence / artifacts
 
@@ -38,4 +38,4 @@ Three questions wait on him (`humanize/OWNER-QUESTIONS.md`): 12, splitting block
 
 ## Next safe action
 
-`humanize/HANDOFF-neuro-de-armoring.md`, Next step: the cards page's stored answers, then his answers to questions 12, 13 and 14; then the protocol's other contradictions (`humanize/fix-20261108/coherence/EXTRACT.md`); then the rest of the article one paragraph at a time (gates E343, E344). The master is unchanged (his post as it stands).
+`humanize/HANDOFF-neuro-de-armoring.md`, Next step: the cards page's stored answers, then his answers to questions 15, 16 and 17; then the protocol's other contradictions (`humanize/fix-20261108/coherence/EXTRACT.md`); then the rest of the article one paragraph at a time (gates E343, E344). The master is unchanged (his post as it stands).
