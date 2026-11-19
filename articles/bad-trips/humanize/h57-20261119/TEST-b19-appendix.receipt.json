@@ -1,0 +1,104 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-19",
+ "text_sha256": "b33ebb9f1d861798ec979a82f9b7fccccedda8741bdc417122f63dc9014dcec2",
+ "text": "Other alternatives to standard mental-health care are listed at alternativementalhealth.com.\nUC Berkeley offers a free class, based partly on experimentally validated Buddhist teachings, about learning to be happy and helping others become happy.\nThe monk Ajahn Jayasaro gives useful guidance on shadow work in Buddhist teachings in the video below.",
+ "section": "Appendix: Additional Resources",
+ "reader": "someone whose crisis is over, looking for more help and learning for themselves or a friend",
+ "sentences": [
+  {
+   "s": "Other alternatives to standard mental-health care are listed at alternativementalhealth.com.",
+   "payoff": "they can find other kinds of help than standard mental-health care, at the site named",
+   "follows": "the appendix's list, after its note that the triage app comes first"
+  },
+  {
+   "s": "UC Berkeley offers a free class, based partly on experimentally validated Buddhist teachings, about learning to be happy and helping others become happy.",
+   "payoff": "they can take a free class on learning to be happy and helping others be happy, by its link",
+   "follows": "a second resource",
+   "link": "none: a new item of the list, which the reader expects after the one before"
+  },
+  {
+   "s": "The monk Ajahn Jayasaro gives useful guidance on shadow work in Buddhist teachings in the video below.",
+   "payoff": "they can watch a monk's guidance on shadow work, in the video below",
+   "follows": "a third resource",
+   "link": "none: a new item of the list, which the reader expects after the one before"
+  }
+ ],
+ "checked": [],
+ "placement": "the Appendix's list, after its note that the triage app comes first in trouble",
+ "opens": {
+  "first_sentence": "Other alternatives to standard mental-health care are listed at alternativementalhealth.com.",
+  "why_reading": "it gives someone past the crisis a place to find other kinds of help"
+ },
+ "same_point": "none: read the Appendix from its heading to the next for these resources: only this list",
+ "needed": {
+  "reader": "a fresh agent (Sonnet) given tools/humanization/needed_read_brief.md with only the text, its heading and what it is for (reads/need-b19-appendix.txt; the draft it read: reads/read-text-b19-appendix.txt)",
+  "unneeded": [],
+  "kept": {}
+ },
+ "his_fixes": {
+  "reader": "a fresh agent (Sonnet) given tools/humanization/his_fixes_brief.md, the ten ways, with the text one sentence a line (reads/his-b19-appendix.txt; the draft it read: reads/read-text-b19-appendix.txt)",
+  "marked": [
+   {
+    "s": "Other alternatives to standard mental-health care are listed at alternativementalhealth.com.",
+    "difference": "4"
+   },
+   {
+    "s": "UC Berkeley offers a free class, based partly on experimentally validated Buddhist teachings, about learning to be happy and helping others become happy.",
+    "difference": "1"
+   },
+   {
+    "s": "UC Berkeley offers a free class, based partly on experimentally validated Buddhist teachings, about learning to be happy and helping others become happy.",
+    "difference": "4"
+   },
+   {
+    "s": "UC Berkeley offers a free class, based partly on experimentally validated Buddhist teachings, about learning to be happy and helping others become happy.",
+    "difference": "7"
+   },
+   {
+    "s": "The monk Ajahn Jayasaro gives useful guidance on shadow work in Buddhist teachings in the video below.",
+    "difference": "4"
+   },
+   {
+    "s": "The monk Ajahn Jayasaro gives useful guidance on shadow work in Buddhist teachings in the video below.",
+    "difference": "7"
+   },
+   {
+    "s": "The monk Ajahn Jayasaro gives useful guidance on shadow work in Buddhist teachings in the video below.",
+    "difference": "10"
+   }
+  ],
+  "kept": {
+   "Other alternatives to standard mental-health care are listed at alternativementalhealth.com.": "the site's own name for what it lists; the link takes them there",
+   "UC Berkeley offers a free class, based partly on experimentally validated Buddhist teachings, about learning to be happy and helping others become happy.": "the class is the link on \"free class\"; what it is about the sentence says",
+   "The monk Ajahn Jayasaro gives useful guidance on shadow work in Buddhist teachings in the video below.": "the video is right below the list; shadow work is the guide's own subject, defined in its Shadow Work part"
+  }
+ },
+ "fit": {
+  "reader": "a fresh agent (Sonnet) given tools/humanization/fit_read_brief.md, the universal version (reads/fit-b19-appendix.txt; the draft it read: reads/read-text-b19-appendix.txt)",
+  "marked": [],
+  "kept": {}
+ },
+ "questions": {
+  "Q1": "PASS: each item names the resource first",
+  "Q2": "N/A: resources, no instruction",
+  "Q3": "PASS: each resource named",
+  "Q4": "N/A: shadow work is defined in the guide's Shadow Work part",
+  "Q5": "PASS: a list; each item its own resource",
+  "Q6": "PASS: help, then learning, then the video below it",
+  "Q7": "PASS: each bears on finding more help after the crisis",
+  "Q8": "PASS: each item is a resource",
+  "Q9": "PASS: \"U.C.\" spelt UC, which Pangram read as a sentence of its own"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

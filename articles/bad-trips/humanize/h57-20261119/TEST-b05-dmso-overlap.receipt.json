@@ -1,0 +1,138 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-19",
+ "text_sha256": "d966bd58da9abf4e53e4613dee76dcc318b18ae4f432daaa492e0a3711e38a35",
+ "text": "It overlaps with aged ozonated-charcoal water, but the two don't always work equally. Sometimes DMSO works better, and sometimes the water does. I don't yet know why. In my experience there is generally no harm in taking both or mixing them. Ozonated-charcoal water has what I consider a perfect safety profile, and DMSO is a close second.",
+ "section": "DMSO (Mental Stabilizers That Don't Abort the Trip)",
+ "reader": "someone sitting with a friend whose psychedelic trip has become too intense, with DMSO and aged ozonated-charcoal water at hand, deciding which to give",
+ "sentences": [
+  {
+   "s": "It overlaps with aged ozonated-charcoal water, but the two don't always work equally.",
+   "payoff": "they know DMSO and the water do a similar job, so either can be tried, and that one may help where the other doesn't",
+   "follows": "his paragraph before says what DMSO does for him in a bad trip; this sets it beside the water"
+  },
+  {
+   "s": "Sometimes DMSO works better, and sometimes the water does.",
+   "payoff": "they know either may work better on a given trip, so they try one and switch to the other if it doesn't help",
+   "follows": "says how unequally the two work",
+   "link": "Sometimes DMSO works better"
+  },
+  {
+   "s": "I don't yet know why.",
+   "payoff": "they know nobody can tell in advance which will help, so they don't wait to pick the right one",
+   "follows": "says why they can't choose in advance",
+   "link": "why"
+  },
+  {
+   "s": "In my experience there is generally no harm in taking both or mixing them.",
+   "payoff": "they can give both, one after the other or mixed together, without worrying, when one alone isn't enough",
+   "follows": "what to do when you can't tell which will help: give both",
+   "link": "taking both"
+  },
+  {
+   "s": "Ozonated-charcoal water has what I consider a perfect safety profile, and DMSO is a close second.",
+   "payoff": "they know both are low-risk in his experience, the water the lowest, so they can start with either",
+   "follows": "the reason no harm comes from giving both",
+   "link": "what I consider"
+  }
+ ],
+ "checked": [],
+ "placement": "the DMSO section of Mental Stabilizers That Don't Abort the Trip, after his paragraph on what DMSO does for him (R39B-DMSO-1), before his evidence paragraphs; its \"It\" is DMSO, named in that paragraph",
+ "opens": {
+  "first_sentence": "It overlaps with aged ozonated-charcoal water, but the two don't always work equally.",
+  "why_reading": "it tells someone choosing between DMSO and the water that the two do a similar job, but not always equally"
+ },
+ "same_point": "B197, in the charcoal-water section, says the two address different kinds of overload, from his ozone story; this paragraph says what to do about it (try one, switch, or give both), so both stay",
+ "needed": {
+  "reader": "a fresh agent (Sonnet) given tools/humanization/needed_read_brief.md with only the text, its heading and what it is for (reads/need-b05-dmso-overlap.txt; the draft it read: reads/read-text-b05-dmso-overlap.txt)",
+  "unneeded": [
+   "I don't yet know why.",
+   "Ozonated-charcoal water has what I consider a perfect safety profile, and DMSO is a close second."
+  ],
+  "kept": {
+   "I don't yet know why.": "they know nobody can tell them in advance which will work, so they try one and switch rather than wait to pick",
+   "Ozonated-charcoal water has what I consider a perfect safety profile, and DMSO is a close second.": "they know both are low-risk in his experience, the water lowest, so they start with either or give both without fear; his judgment, which the guide keeps where it bears on what the reader does (his rule of 2026-11-08)"
+  }
+ },
+ "his_fixes": {
+  "reader": "a fresh agent (Sonnet) given tools/humanization/his_fixes_brief.md, the ten ways, with the text one sentence a line (reads/his-b05-dmso-overlap.txt; the draft it read: reads/read-text-b05-dmso-overlap.txt)",
+  "marked": [
+   {
+    "s": "It overlaps with aged ozonated-charcoal water, but the two don't always work equally.",
+    "difference": "10, 4"
+   },
+   {
+    "s": "Sometimes DMSO works better, and sometimes the water does.",
+    "difference": "7, 4"
+   },
+   {
+    "s": "I don't yet know why.",
+    "difference": "8"
+   },
+   {
+    "s": "In my experience there is generally no harm in taking both or mixing them.",
+    "difference": "10, 4, 7"
+   },
+   {
+    "s": "Ozonated-charcoal water has what I consider a perfect safety profile, and DMSO is a close second.",
+    "difference": "6, 4"
+   }
+  ],
+  "kept": {
+   "It overlaps with aged ozonated-charcoal water, but the two don't always work equally.": "\"It\" is DMSO, named in the paragraph before it in the guide; \"equally\" is said by the next sentence, which works better when; W060's fidelity keys hold \"overlaps\", \"don't\" and \"equally\"",
+   "Sometimes DMSO works better, and sometimes the water does.": "the semicolon pair joined with \"and\", his way 8; what to do with it (try the other) the reader takes from it",
+   "I don't yet know why.": "a short sentence of his voice; joining it to the one before (the his-fixes read's suggestion) is the next try's, the near miss's 20% being spent",
+   "In my experience there is generally no harm in taking both or mixing them.": "\"them\" is the two just named, and \"taking both or mixing them\" says both ways of giving both; what counts as harm is the next sentence's",
+   "Ozonated-charcoal water has what I consider a perfect safety profile, and DMSO is a close second.": "his judgment of the two, which tells the reader both are low-risk; \"safety profile\" is the next try's one change if this window stays Medium (lesson 19b: one change a window a check)"
+  }
+ },
+ "fit": {
+  "reader": "a fresh agent (Sonnet) given tools/humanization/fit_read_brief.md, the universal version (reads/fit-b05-dmso-overlap.txt; the draft it read: reads/read-text-b05-dmso-overlap.txt)",
+  "marked": [
+   {
+    "s": "It overlaps with aged ozonated-charcoal water, but the two don't always work equally.",
+    "found": "MISREAD"
+   },
+   {
+    "s": "Sometimes DMSO works better, and sometimes the water does.",
+    "found": "CAN'T TELL"
+   },
+   {
+    "s": "In my experience there is generally no harm in taking both or mixing them.",
+    "found": "CAN'T TELL, MISREAD"
+   },
+   {
+    "s": "Ozonated-charcoal water has what I consider a perfect safety profile, and DMSO is a close second.",
+    "found": "FROM, MISREAD"
+   }
+  ],
+  "kept": {
+   "It overlaps with aged ozonated-charcoal water, but the two don't always work equally.": "\"It\" is DMSO, named in the paragraph before it in the guide (the check reads it alone)",
+   "Sometimes DMSO works better, and sometimes the water does.": "nobody can tell in advance which will work, and the next sentence says so (\"I don't yet know why\")",
+   "In my experience there is generally no harm in taking both or mixing them.": "his experience, said as his (\"In my experience\"); it tells them they may give both",
+   "Ozonated-charcoal water has what I consider a perfect safety profile, and DMSO is a close second.": "his judgment, said as his (\"what I consider\"); \"safety profile\" is the next try's one change if this window stays Medium"
+  }
+ },
+ "questions": {
+  "Q1": "PASS: the comparison first, then what it means for the reader (try one, switch, or give both)",
+  "Q2": "N/A: no instruction; what they may do (give both) is said as his experience",
+  "Q3": "PASS: DMSO and aged ozonated-charcoal water named; \"both\" is the two",
+  "Q4": "N/A: no term a high-school graduate wouldn't know that the section hasn't explained",
+  "Q5": "PASS: \"but\", \"Sometimes ... but I don't yet know why\", \"In my experience\", the ranking as the reason",
+  "Q6": "PASS: how they compare, that you can't predict, that both is fine, why",
+  "Q7": "PASS: each bears on which to give a friend whose trip is too intense",
+  "Q8": "N/A: no list",
+  "Q9": "PASS: the semicolon pairs said as joined clauses"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

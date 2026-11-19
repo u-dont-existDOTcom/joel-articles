@@ -1,0 +1,9 @@
+NEEDS:
+S1: Gives the first simple thing to pick (eat fruit or other simple food).
+S2: Gives the second thing to pick (a slow walk), with who to go with and where.
+S3: Gives the third thing to pick (going outside), with the places to avoid (heights, roads, water).
+S4: Tells the reader when to skip exercise (overheating, chest pain, faint, badly confused).
+S5: Adds more cases for skipping exercise (stimulant, unknown mixture, other medical concern).
+
+UNNEEDED:
+- none

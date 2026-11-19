@@ -1,0 +1,1 @@
+It overlaps with aged ozonated-charcoal water, but the two don't always work equally. Sometimes DMSO works better, and sometimes the water does. I don't yet know why. In my experience there is generally no harm in taking both or mixing them. Ozonated-charcoal water has what I consider a perfect safety profile, and DMSO is a close second.

@@ -1,0 +1,95 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-19",
+ "text_sha256": "7820235b1182cf931bc71282640e638681272c96c4c95062867680d94c10c64a",
+ "text": "So have one calm person be the anchor and take the lead. One person can only handle so much, though. If fatigue or logistics start getting to be too much for the anchor, or keeping everyone from getting hurt does, bring in one more calm adult or a crisis professional to back them up, and get that help right away if there's any risk of violence or self-harm.",
+ "section": "Get One Human Anchor",
+ "reader": "one of a few people with someone having a bad trip, working out who takes the lead and when to call in more help",
+ "sentences": [
+  {
+   "s": "So have one calm person be the anchor and take the lead.",
+   "payoff": "they pick one calm person to lead",
+   "follows": "the paragraph before says why one calm person helps more than a crowd"
+  },
+  {
+   "s": "One person can only handle so much, though.",
+   "payoff": "they know one person's limits, which the next sentence turns into when to add help",
+   "follows": "the limit of the one anchor",
+   "link": "though"
+  },
+  {
+   "s": "If fatigue or logistics start getting to be too much for the anchor, or keeping everyone from getting hurt does, bring in one more calm adult or a crisis professional to back them up, and get that help right away if there's any risk of violence or self-harm.",
+   "payoff": "they bring in a second calm adult or a crisis professional when the anchor is worn out, overwhelmed, or can't keep everyone from getting hurt, and do it right away if anyone might be violent or hurt themselves",
+   "follows": "when the limit is reached, and what to do",
+   "link": "If fatigue or logistics"
+  }
+ ],
+ "checked": [],
+ "placement": "Get One Human Anchor, after its first paragraph (alone is bad, a crowd is bad) and before the scripts; \"So\" turns on that paragraph",
+ "opens": {
+  "first_sentence": "So have one calm person be the anchor and take the lead.",
+  "why_reading": "it tells a group with someone in a bad trip to pick one calm person to lead"
+ },
+ "same_point": "none: read Get One Human Anchor from its heading to the next for the lead and backup: only this paragraph",
+ "needed": {
+  "reader": "a fresh agent (Sonnet) given tools/humanization/needed_read_brief.md with only the text, its heading and what it is for (reads/need-b10-anchor-lead.txt; the draft it read: reads/read-text-b10-anchor-lead.txt)",
+  "unneeded": [
+   "One person can only handle so much, though."
+  ],
+  "kept": {
+   "One person can only handle so much, though.": "they know why a second person may be needed, which the next sentence says when; his approved wording (OWNER-EDITS r13-anchor-backup)"
+  }
+ },
+ "his_fixes": {
+  "reader": "a fresh agent (Sonnet) given tools/humanization/his_fixes_brief.md, the ten ways, with the text one sentence a line (reads/his-b10-anchor-lead.txt; the draft it read: reads/read-text-b10-anchor-lead.txt)",
+  "marked": [
+   {
+    "s": "One person can only handle so much, though.",
+    "difference": "4"
+   },
+   {
+    "s": "If fatigue or logistics start getting to be too much for the anchor, or keeping everyone from getting hurt does, bring in one more calm adult or a crisis professional to back them up, and do it right away if there's any risk of violence or self-harm.",
+    "difference": "1"
+   },
+   {
+    "s": "If fatigue or logistics start getting to be too much for the anchor, or keeping everyone from getting hurt does, bring in one more calm adult or a crisis professional to back them up, and do it right away if there's any risk of violence or self-harm.",
+    "difference": "4"
+   },
+   {
+    "s": "If fatigue or logistics start getting to be too much for the anchor, or keeping everyone from getting hurt does, bring in one more calm adult or a crisis professional to back them up, and do it right away if there's any risk of violence or self-harm.",
+    "difference": "10"
+   }
+  ],
+  "kept": {
+   "One person can only handle so much, though.": "his approved wording (OWNER-EDITS r13-anchor-backup, round 13); what the anchor can handle only so much of is the next sentence's fatigue, logistics and keeping everyone from getting hurt",
+   "If fatigue or logistics start getting to be too much for the anchor, or keeping everyone from getting hurt does, bring in one more calm adult or a crisis professional to back them up, and do it right away if there's any risk of violence or self-harm.": "each condition is short, and they share one action, bringing in help; \"them\" is now the anchor, named; \"get that help\" says what to do right away; W079's keys hold fatigue, logistics and risk"
+  }
+ },
+ "fit": {
+  "reader": "a fresh agent (Sonnet) given tools/humanization/fit_read_brief.md, the universal version (reads/fit-b10-anchor-lead.txt; the draft it read: reads/read-text-b10-anchor-lead.txt)",
+  "marked": [],
+  "kept": {}
+ },
+ "questions": {
+  "Q1": "PASS: who leads first, then when to add help",
+  "Q2": "PASS: have one person lead, bring in one more, get that help right away: the group's acts",
+  "Q3": "PASS: \"the anchor\", \"one more calm adult or a crisis professional\", \"that help\" named",
+  "Q4": "N/A: no term a high-school graduate wouldn't know",
+  "Q5": "PASS: \"So\", \"though\", \"If\", \"and get that help right away if\"",
+  "Q6": "PASS: who leads, the limit, when to add help",
+  "Q7": "PASS: each bears on who leads and when to call more help",
+  "Q8": "N/A: no list",
+  "Q9": "PASS: \"safe\" said as what it means (keeping everyone from getting hurt)"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

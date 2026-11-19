@@ -433,25 +433,25 @@
   {
    "id": "t19-anchor-committee-cut",
    "status": "applied",
-   "what": "Get One Human Anchor's \"committee\" line cut: it says again the section's first paragraph (too many people crowding in make it worse); the paragraph ends on \"That is backup.\" (experiments/t19-anchor/apply_t19.py) (round 13's ANCHOR-BACKUP then said the paragraph again, approved 2026-11-07 00:01 UTC) | the sentence it checks changed in the humanize pass's fix anchor-a1 (2026-11-11, turn 34; humanize/h43-20261111/apply_h43.py; https://www.pangram.com/history/3a3fd073-98e1-46ea-9e5d-342bd7c7ee67): the two people it names are still the one place backup is said, bold as before",
+   "what": "Get One Human Anchor's \"committee\" line cut: it says again the section's first paragraph (too many people crowding in make it worse); the paragraph ends on \"That is backup.\" (experiments/t19-anchor/apply_t19.py) (round 13's ANCHOR-BACKUP then said the paragraph again, approved 2026-11-07 00:01 UTC) | the sentence it checks changed in the humanize pass's fix anchor-a1 (2026-11-11, turn 34; humanize/h43-20261111/apply_h43.py; https://www.pangram.com/history/3a3fd073-98e1-46ea-9e5d-342bd7c7ee67): the two people it names are still the one place backup is said, bold as before | the sentence it checks changed in turn 49's fix b10-anchor-lead (2026-11-19; humanize/h57-20261119/apply_h57.py; https://www.pangram.com/history/36cf33c5-55a8-4a4f-942f-4f9bea7d145d, Human High 70): \"them\" said as the anchor, \"safe\" as \"from getting hurt\", \"do it\" as \"get that help\"; the two people it names still the one place backup is said, bold as before",
    "joel": "2026-11-06 19:43 UTC: \"i'd say make the cuts regardless of pangram if it makes the guide read better, that was what we were supposed to do already prior\"",
    "must_not_contain": [
     "A committee of frantic people rarely improves anyone's nervous system."
    ],
    "must_contain_exact": [
-    "bring in **one more calm adult or a crisis professional** to back them up, and do it right away if there's any risk of violence or self-harm."
+    "bring in **one more calm adult or a crisis professional** to back them up, and get that help right away if there's any risk of violence or self-harm."
    ]
   },
   {
    "id": "t19-recruit-once",
    "status": "applied",
-   "what": "The violence part's \"When you are the only helper and safety is slipping, recruit one additional calm adult or crisis professional.\" cut: Get One Human Anchor says it, violence among its cases; the paragraph opens on when to call crisis or emergency services (experiments/t19-anchor/apply_t19b.py) | the sentence it checks changed in the humanize pass's fix anchor-a1 (2026-11-11, turn 34; humanize/h43-20261111/apply_h43.py; https://www.pangram.com/history/3a3fd073-98e1-46ea-9e5d-342bd7c7ee67): the two people it names are still the one place backup is said, bold as before | the call line it opened on cut by his round-34 \"make sure this is only said once\" (owner edit r34-harm-said-once)",
+   "what": "The violence part's \"When you are the only helper and safety is slipping, recruit one additional calm adult or crisis professional.\" cut: Get One Human Anchor says it, violence among its cases; the paragraph opens on when to call crisis or emergency services (experiments/t19-anchor/apply_t19b.py) | the sentence it checks changed in the humanize pass's fix anchor-a1 (2026-11-11, turn 34; humanize/h43-20261111/apply_h43.py; https://www.pangram.com/history/3a3fd073-98e1-46ea-9e5d-342bd7c7ee67): the two people it names are still the one place backup is said, bold as before | the call line it opened on cut by his round-34 \"make sure this is only said once\" (owner edit r34-harm-said-once) | the sentence it checks changed in turn 49's fix b10-anchor-lead (2026-11-19; humanize/h57-20261119/apply_h57.py; https://www.pangram.com/history/36cf33c5-55a8-4a4f-942f-4f9bea7d145d, Human High 70): \"them\" said as the anchor, \"safe\" as \"from getting hurt\", \"do it\" as \"get that help\"; the two people it names still the one place backup is said, bold as before",
    "joel": "2026-11-06 19:43 UTC: \"i'd say make the cuts regardless of pangram if it makes the guide read better, that was what we were supposed to do already prior\"",
    "must_not_contain": [
     "When you are the only helper and safety is slipping, recruit one additional calm adult or crisis professional."
    ],
    "must_contain_exact": [
-    "bring in **one more calm adult or a crisis professional** to back them up, and do it right away if there's any risk of violence or self-harm."
+    "bring in **one more calm adult or a crisis professional** to back them up, and get that help right away if there's any risk of violence or self-harm."
    ]
   },
   {
