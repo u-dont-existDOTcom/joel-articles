@@ -2665,6 +2665,17 @@
    "terms_lost": [],
    "keys_lost": {},
    "citations_lost": []
+  },
+  {
+   "by": "fix-20261108/joel-20261119-1617-message.txt, answer 14: his version of block 54 (SC-54), which he checked himself (Human Written, every window High: fix-20261108/x1119a/HIS-CHECKS-READ-20261119.json), applied by fix-20261108/x1119a/apply_x1119a.py with the links back on its citations",
+   "why": "block 54, The Fix, adds the evidence of card SC-54 he approved on 2026-11-14 in his own words: one man's Alzheimer's on coconut oil and a ketone drink (Newport 2015), the five-person Parkinson's study with no control group (VanItallie 2005), and the randomized Parkinson's trial against a low-fat diet (Phillips 2018); sources in fix-20261108/x1113b/LINKS-CHECKED.md and fix-20261108/x1119a/CHECKED.md",
+   "numbers_lost": [],
+   "numbers_new": [
+    "2005",
+    "2015",
+    "2018",
+    "5"
+   ]
   }
  ],
  "warning_words": {

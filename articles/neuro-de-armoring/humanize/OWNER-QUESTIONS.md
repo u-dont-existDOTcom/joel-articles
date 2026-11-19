@@ -1,7 +1,7 @@
 # Neuro de-armoring: what I need from Joel
 
-Last updated 2026-11-14, after your answers of 22:04 UTC.
-**Open questions: 3.** **For you to do**: nothing besides the questions; SC-95b and your DMSO item are in.
+Last updated 2026-11-19, after your message of 16:17 UTC.
+**Open questions: 3.** **For you to do**: nothing besides the questions; your answers 12a and 14 are in.
 
 Colours: 🟣 a question for you; 🟠 something for you to do; 🔵 next or in progress; 🟢 done or decided.
 
@@ -10,25 +10,32 @@ can read and update it. Every file it points to is a link.
 
 ## Open questions
 
-**🟣 12. Split block 48's last sentence?** It runs on with two "although"s, and two fresh readers stumbled on it.
-Split at your first one, with nothing else changed, it would read: "No controlled trial of the diet has been done
-yet, and the one placebo-controlled trial of BHB supplements alone was too small to tell either way (Youssef, et al,
-2022). But we can see some astounding BHB salt reviews on forums, like for brain injury repair, and BHB injections
-work for rats with trauma, although in humans it's still an open question whether the salts work as well as the
-keto diet (Engelhardt, et al, 2026)."
+**🟣 15. Should your clause on children say it means uses other than IV?** You said you're not talking about IV use. But
+your clause comes right after the authors' worry about the children who get DMSO in transplants, which is given by IV, so a
+reader may take "no proof it's harming children" to cover those children too, and they have had brief reactions
+([Schlegel, et al, 2009](https://pubmed.ncbi.nlm.nih.gov/19608681/)). With a few words it would say what you mean:
+"although so far there's no proof it's harming children when it's not given by IV, and many people use it on their
+children for injuries, infections, and so forth with good results in practice."
 
-- a) Split it there.
-- b) Keep it as one sentence.
-
-**🟣 13. "No proof it's harming children": add "long-term"?** Your new clause in the DMSO item holds for lasting harm: I found no study showing any in children. But children given DMSO into a vein with their stem cells have had brief reactions, passing out for a moment among them ([Schlegel, et al, 2009](https://pubmed.ncbi.nlm.nih.gov/19608681/)). With one word it would read: "although so far there's no proof it's harming children long-term, and many people use it on their children for injuries, infections, and so forth with good results in practice." For your side, a 1975 trial gave 13 children a DMSO treatment for six months with no signs of toxicity ([Giller & de Bernadou, 1975](https://pubmed.ncbi.nlm.nih.gov/1093464/)), though its abstract doesn't say what else the treatment held, and Soviet doctors used DMSO on children's bone infections and arthritis ([the check](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/dmso/DMSO-PTSD.md)).
-
-- a) Add "long-term" as above.
+- a) Add "when it's not given by IV" as above. (My pick: then the sentence can't be read as covering the transplants.)
 - b) Keep it as you wrote it.
 
-**🟣 14. Your Parkinson's and Alzheimer's paragraph (SC-54) reads AI by itself: will you fix it?** You approved it, but a paragraph of mine goes in only once it reads Human High by itself, and block 54 also carries its older sentences (The Fix, the backup fuel, PQQ), which read AI too. Three tries: as you approved it, 69% AI ([check](https://www.pangram.com/history/6ed0e3e9-ac92-4b1a-b6fa-3f19e03445d9)); my rewrite, 89% ([check](https://www.pangram.com/history/7ac6e89f-71ff-417d-ac17-b19577134de9)); and Codex's rewrite from three readers' notes ([the panel](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/x1113b/panel-sp54-t3/PANEL.md)), 46% ([check](https://www.pangram.com/history/5aadfad4-0e5b-4329-aaa8-0edd7994a054)). In that last one, the Alzheimer's sentence reads Human High and the trial and PQQ sentences read AI. Codex's version, which keeps everything you approved: "The Fix: If your brain is burning less sugar, give it another fuel. Ketones are the brain's backup fuel, and in early Alzheimer's, brains that take up less glucose still take up ketones normally (Cunnane, et al, 2016). And one man's Alzheimer's improved markedly on coconut oil, and later on a ketone drink (Newport, et al, 2015). An early Parkinson's study had only five people and no comparison group, but they improved a lot after a month on a ketogenic diet (VanItallie, et al, 2005). In a bigger randomized Parkinson's trial, people on keto got more relief from fatigue and daytime sleepiness than those on a low-fat diet. Their thinking problems eased more too. Movement improved about the same on both (Phillips, et al, 2018). PQQ made mouse cells build more mitochondria, the parts of a cell that burn fuel (Chowanadisai, et al, 2010), but that hasn't been shown in the human brain."
+**🟣 16. Should Weeks 3–5 say to start its new things one at a time?** Your plan for Weeks 3–5 lists the UMP trial, the
+5-HTP trial, the iboga and mushroom microdoses and a move to the keto diet in the same weeks, with no order or gap between
+them. Earlier you say not to start the uridine at the same time as another big change, not to do the 5-HTP trial along with
+the other changes, and "Do not start both together" ([the lines](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/coherence/EXTRACT.md), item 2.2).
 
-- a) I'll send my version of block 54 (it goes in as mine).
-- b) Keep trying yourself (three tries left), and it waits until one reads Human High.
+- a) Yes: the plan says to start them one at a time, in the order you give (or the order they're listed in now). (My pick:
+  it's what your own trial lines say.)
+- b) No: they can start together, and the earlier lines change to say so.
+
+**🟣 17. Does a microdose day count as a "psychedelic day"?** You say not to take 5-HTP or UMP on psychedelic days, and your
+5-HTP trial also says not to use it with iboga at all. But the same weeks have the daily mushroom microdose and the morning
+iboga spray, and the text doesn't say whether a microdose day is a psychedelic day ([the lines](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/coherence/EXTRACT.md), item 2.3).
+
+- a) Yes: the plan says the 5-HTP and UMP trials don't overlap the microdosing. (My pick: it's the reading your own
+  warnings give.)
+- b) No: a microdose doesn't count, and the rule says so where it stands (5-HTP still not with iboga, as your line says).
 
 - 🟢 **11, answered ("11yes add that")**: Zhong 2023 is cited after Vialou in your paragraph, with Nestler 2008 back
   beside them (below).
@@ -37,14 +44,21 @@ keto diet (Engelhardt, et al, 2026)."
 
 ## For you to do
 
-- 🟢 **Nothing on the cards page**: SC-95b and SC-DMSOc are in; SC-54 is question 14.
+- 🟢 **Nothing on the cards page**: SC-95b, SC-DMSOc and your version of SC-54 are in.
+
+## Your answers of 2026-11-19 16:17 UTC, and what I did
+
+- 🟢 **12a: block 48's last sentence is split** at your first "although", nothing else changed ([what went in](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/x1119a/APPLIED-X1119A.json)).
+- 🟢 **13b: your clause on children stays as you wrote it.** You said you're not talking about IV use; question 15 asks
+  whether the sentence should say so.
+- 🟢 **14: your version of block 54 is in**, as you checked it (Human Written, every window High: [your check](https://www.pangram.com/history/b9ba21e6-8d8b-4628-a151-66a39165dadb)), with the links back on its citations. Its claims match the sources ([the check](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/x1119a/CHECKED.md)).
 
 ## Your answers of 2026-11-14 22:04 UTC, and what I did
 
 - 🟢 **SC-95b is in**, your Strategy A version without the PTSD line ([what went in](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/x1113b/APPLIED-X1113B.json)).
 - 🟢 **Your DMSO item is in**, after Magnesium, your version with your clause on children, the links back on its citations; its second and third paragraphs read Human by themselves ([checks](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/x1113b/checks-1114/RESULTS.md)).
 - 🟢 **Your clause on children, checked** ([the check](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/dmso/DMSO-PTSD.md)): it holds for lasting harm; question 13 is the one word that would make it exact.
-- 🔵 **SC-54 waits**: it read AI by itself in three tries (question 14).
+- 🟢 **SC-54 waited**: it read AI by itself in three tries (question 14); your version went in on 2026-11-19.
 
 ## Your message of 2026-11-13 15:24 UTC, and what I did
 
