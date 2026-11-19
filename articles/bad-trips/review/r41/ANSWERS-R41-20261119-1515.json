@@ -1,0 +1,81 @@
+{
+ "format": "joel-suggestion-review-answers-v1",
+ "review_id": "bad-trips-r41",
+ "title": "Bad Trips Guide, Round 41",
+ "git_file": "articles/bad-trips/review/r41/REVIEW-R41.html",
+ "article": {
+  "file": "articles/bad-trips/review/r41/PAGE-R41.md",
+  "sha256": "bf31bd658455694ed453b3a00f407d9cc08fe9d2ac6deb7fe5af8cce7cd36591"
+ },
+ "built": "2026-11-19",
+ "generator": "suggestion_review.py 1.11 (2026-11-11)",
+ "exported_at": "2026-11-19T15:15:01.329Z",
+ "counts": {
+  "approved": 1,
+  "rejected": 0,
+  "revise": 2,
+  "pending": 0
+ },
+ "items": [
+  {
+   "id": "B106-ORDER",
+   "type": "plain",
+   "title": "1. My Brain Feels Damaged: your bleed lines first, mine after in plain words",
+   "where": "If Someone Says \"My Brain Feels Damaged\": DMSO + Humic Acid + Electrolytes First, P12",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "If someone is worried about a bleed, I'd probably skip DMSO, but it depends on how severe their issue is. It's not a powerful blood thinner like heparin, unless maybe injected; it's basically a dietary blood thinner. I've never had any issues with bleeding too much from consuming DMSO, and never heard of it either, but if bleeding is already a medical issue I'd want to think about that more. They can feel better on DMSO with a clot or a bleed still there. So if any of the checks above fail, call medics right away, before the window for treating a stroke closes.",
+   "before": "DMSO cannot identify whether the problem is a clot, a hemorrhage, low oxygen, an electrolyte crisis, or something else. The larger adjacent risk is losing a treatment window or missing a bleed because the symptoms improved enough to feel reassuring. If someone is worried about a bleed, I'd probably skip DMSO, but it depends on how severe their issue is. It's not a powerful blood thinner like heparin, unless maybe injected; it's basically a dietary blood thinner. I've never had any issues with bleeding too much from consuming DMSO, and never heard of it either, but if bleeding is already a medical issue I'd want to think about that more.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-19T10:53:44.362Z"
+    }
+   ],
+   "updated": "2026-11-19T10:53:44.363Z"
+  },
+  {
+   "id": "TEACH-CYP",
+   "type": "teach",
+   "title": "3. Serotonin Syndrome, step 2: cyproheptadine and how far its evidence goes",
+   "where": "Do this immediately when serotonin toxicity is reasonably suspected:, P1",
+   "advice": "edit",
+   "status": "revise",
+   "your_version": "If the person is fully alert and able to swallow, I would give cyproheptadine early, since it blocks serotonin receptors. So far, the evidence for this med has only been case reports, and a recent review found them insufficient to show that it works. I wouldn't wait to see whether it does before doing the other steps.",
+   "comment": "i made 2 changes, and i checked each one. each was necessary to get to fully high conf human. first i clarified what \"it\" was referring to, then i clarified what \"too weak\" meant since that souunds like possibly the effects of the drug or possibly the evidence\n\nhttps://www.pangram.com/history/cc5e6563-f430-4386-8377-2b28592c2ebc?ucc=4rq5Ko7gBiW&utm_source=pangram_share&utm_medium=copy_link",
+   "my_version": "If the person is fully alert and able to swallow, I would give cyproheptadine early. It antagonizes serotonin receptors. Case reports describe rapid improvement, including complete resolution within two hours in a small series, while a recent systematic review found the evidence for major outcomes inconclusive. Case series; systematic review. I would not wait to see whether it works before cooling, stopping serotonergic substances, and arranging help for moderate or severe signs.",
+   "before": "If the person is fully alert and able to swallow, I would give cyproheptadine early. It antagonizes serotonin receptors. Case reports describe rapid improvement, including complete resolution within two hours in a small series, while a recent systematic review found the evidence for major outcomes inconclusive. Case series; systematic review. I would not wait to see whether it works before cooling, stopping serotonergic substances, and arranging help for moderate or severe signs.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "revise",
+     "at": "2026-11-19T15:09:12.141Z"
+    }
+   ],
+   "updated": "2026-11-19T15:14:52.383Z"
+  },
+  {
+   "id": "TEACH-MDMA",
+   "type": "teach",
+   "title": "2. MDMA: what else to do once the jaw tenses, and which signs mean medics",
+   "where": "MDMA: Jaw Tension Is the Magnesium Alarm, P5",
+   "advice": "edit",
+   "status": "revise",
+   "your_version": "Once their jaw tenses, that should be their last dose of MDMA, so get them to slow down and cool off. If they drink a lot of plain water, even a single normal MDMA dose raises the risk of their sodium dropping too low, so have them sip an electrolyte drink when they're thirsty instead. The following indicators would justify calling medics: If their confusion or headache worsens, or vomiting won't stop (sodium might be too low and it could be too late for an easy fix). If their muscles keep getting weaker or their heart palpitations keep getting stronger, that could be from dangerously low potassium, like my second wife had. A seizure or collapse can result from low potassium, and can also come from overheating or MDMA toxicity.",
+   "comment": "first i clarified \"should\" is what you meant, that flipped that part less likely ai: https://www.pangram.com/history/7c9898b5-41f8-44a2-921c-bfdd740475ea?ucc=4rq5Ko7gBiW&utm_source=pangram_share&utm_medium=copy_link\n\ncompacted the repetitive listicle with keeps on keeps on keeps on phrasing, that didn't flip anything tho: https://www.pangram.com/history/b5b25a7c-0ae5-4264-bd7a-495fd0b9f239?ucc=4rq5Ko7gBiW&utm_source=pangram_share&utm_medium=copy_link\n\nadded \"it means\" to clarify, that brought a prior sentnece more human: https://www.pangram.com/history/8951f117-b121-4aea-bf8d-3a00f2bf8779?ucc=4rq5Ko7gBiW&utm_source=pangram_share&utm_medium=copy_link\n\nspecified whose confusion, that flipped it almost a 1/3 more human: https://www.pangram.com/history/ee4a2d22-01ca-4c8d-836d-f9c4bdfa714e?ucc=4rq5Ko7gBiW&utm_source=pangram_share&utm_medium=copy_link\n\nalright i tried to fully clarify it and not repeat 3 times to call medics, now it's human high conf, altho i'm not sure i clarified it correctly medically speaking. check to make sure. is that right, that their sodium is too low, should people not also give them some electrolytes then while they call medics, is the idea that they might not tolerate drinking electrolytes now or what? it was confusing... https://www.pangram.com/history/c45651d9-f45e-4f3e-8496-f340eae874b0?ucc=4rq5Ko7gBiW&utm_source=pangram_share&utm_medium=copy_link",
+   "my_version": "Jaw tension should also mean no more MDMA, less exertion and heat, and closer monitoring. Worsening headache, confusion, vomiting, weakness, palpitations, collapse, or seizure raises concern about sodium, potassium, temperature, hydration, kidneys, and broader toxicity. MDMA is documented to cause acute kidney injury through several pathways, and controlled research confirms that hyponatremia can occur after a single dose.",
+   "before": "Jaw tension should also mean no more MDMA, less exertion and heat, and closer monitoring. Worsening headache, confusion, vomiting, weakness, palpitations, collapse, or seizure raises concern about sodium, potassium, temperature, hydration, kidneys, and broader toxicity. MDMA is documented to cause acute kidney injury through several pathways, and controlled research confirms that hyponatremia can occur after a single dose.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "revise",
+     "at": "2026-11-19T10:53:47.898Z"
+    }
+   ],
+   "updated": "2026-11-19T15:07:59.022Z"
+  }
+ ]
+}

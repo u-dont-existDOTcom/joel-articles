@@ -1905,6 +1905,49 @@
     }
    ],
    "recorded_utc": "2026-11-19T01:18Z"
+  },
+  {
+   "turn": "2026-11-19T15:15Z",
+   "lines_of_work": [
+    "bad trips guide"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "read from a read-only git fetch of the live default branch (3d79cc8, 2026-11-19 11:59 UTC): its root AGENTS.md and LESSON-INDEX.md loaded; new since turn 45, patterns/fresh-session-advice.md (tell him when a fresh session would save tokens), applied in this turn's answer; suggested-fixes/joel-articles/ still holds the six items the ledger lists, nothing new"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "this lane's pull request 441 merged by the lane auto-merge; no new issues, comments or reviews since turn 45's push"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no edits by others to this lane's handoff note, questions page or state since turn 45's push"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "his round-41 export of 2026-11-19 15:15 UTC: B106-ORDER approved, TEACH-CYP and TEACH-MDMA revised with his versions, his checks and comments; his message: 'it seems like i keep giving you the same lessons each time ... but you keep failing to apply those lessons. why?'"
+    }
+   ],
+   "items": [
+    {
+     "item": "his round-41 export",
+     "outcome": "B106-ORDER in; his two versions in whole, links on his words; his MDMA medical question answered and the two points that don't hold checked against sources, on round 42's card"
+    },
+    {
+     "item": "his question why I keep failing to apply his lessons",
+     "outcome": "answered with the cause from this round's own records, lesson bad-trips-2026-11-19b, and enforcement in the read against his fixes and the ledger"
+    },
+    {
+     "item": "UDA patterns/fresh-session-advice.md (new)",
+     "outcome": "adopted: this turn's answer gives the estimated level and the resume line"
+    }
+   ],
+   "recorded_utc": "2026-11-19T15:18Z"
   }
  ]
 }

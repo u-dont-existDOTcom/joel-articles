@@ -612,6 +612,25 @@ def changed_share(old, new):
 
 
 BIG_CHANGE = 0.4
+NEAR_MISS = 0.2
+
+
+def best_near_miss(line):
+    """Lesson bad-trips-2026-11-19b: the try of the lineage that read best (lowest AI likelihood) among those with a Human
+    window, or None. Joel's round-41 versions started from my first tries, each with a Human window (79% and 87% AI), and
+    changed a word or two a reader could take two ways, checking after each; my later tries rewrote those near misses and
+    read 100% AI."""
+    best = None
+    for p in line:
+        r = p.get('result') or {}
+        ws = r.get('windows') or []
+        if not p.get('text') or not any(isinstance(w, dict) and str(w.get('label', '')).startswith('Human') for w in ws):
+            continue
+        lk = r.get('likelihood')
+        lk = 1.0 if lk is None else lk
+        if best is None or lk < best[1]:
+            best = (p, lk)
+    return best[0] if best else None
 
 
 def sense_gate(a, text, sha, line):
@@ -646,6 +665,20 @@ def sense_gate(a, text, sha, line):
                        'spent (gate E361; Joel, 2026-11-05, on the movement paragraph he fixed with two words and a move: '
                        '"the problem was simply that you had the ideas out of their natural order")'
                        % (round(share * 100), prev.get('id', '?')))
+    near = best_near_miss(line)
+    if near and text is not None:
+        share = changed_share(near['text'], text)
+        after = line[line.index(near) + 1:]
+        small = [p for p in after if p.get('text') and changed_share(near['text'], p['text']) <= NEAR_MISS]
+        if share > NEAR_MISS and len(small) < 2:
+            why.append('the best try of this lineage, %s, read with a Human window: the next try starts from it and changes '
+                       'only what a reader could take two ways (an "it" that could point at two things, a word like "too '
+                       'weak" that could describe the drug or the evidence), one or two words at a time, checked after each; '
+                       'this try changes %d%% of its words, and a rewrite waits until two tries of at most %d%% have been '
+                       'checked from it, whatever --big-change says (lesson bad-trips-2026-11-19b; Joel, 2026-11-19: "i made 2 '
+                       'changes, and i checked each one. each was necessary to get to fully high conf human. first i '
+                       'clarified what "it" was referring to, then i clarified what "too weak" meant")'
+                       % (near.get('id', '?'), round(share * 100), round(NEAR_MISS * 100)))
     return why
 
 
