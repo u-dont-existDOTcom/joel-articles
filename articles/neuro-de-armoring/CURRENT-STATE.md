@@ -30,7 +30,7 @@ The AI windows of every section, rewritten and checked; his cards; his post upda
 
 ## Blockers / unresolved
 
-Three questions wait on him (`humanize/OWNER-QUESTIONS.md`): 15, whether his clause on children in the DMSO item should say it means uses other than IV; 16, whether Weeks 3–5 should start its new things one at a time (`humanize/fix-20261108/coherence/EXTRACT.md` 2.2); 17, whether a microdose day counts as a psychedelic day for 5-HTP and UMP (EXTRACT 2.3). Every turn starts by reading the cards page's stored answers (lesson neuro-2026-11-13b).
+Nine questions wait on him (`humanize/OWNER-QUESTIONS.md`): 15, whether his clause on children in the DMSO item should say it means uses other than IV; 16 to 23, the protocol's contradictions in `humanize/fix-20261108/coherence/EXTRACT.md` items 2.2, 2.3 and 2.5 to 2.10 (starting things one at a time in Weeks 3–5, microdose days and 5-HTP and UMP, the iboga for numbness, PS, agmatine). Every turn starts by reading the cards page's stored answers (lesson neuro-2026-11-13b).
 
 ## Evidence / artifacts
 
@@ -38,4 +38,4 @@ Three questions wait on him (`humanize/OWNER-QUESTIONS.md`): 15, whether his cla
 
 ## Next safe action
 
-`humanize/HANDOFF-neuro-de-armoring.md`, Next step: the cards page's stored answers, then his answers to questions 15, 16 and 17; then the protocol's other contradictions (`humanize/fix-20261108/coherence/EXTRACT.md`); then the rest of the article one paragraph at a time (gates E343, E344). The master is unchanged (his post as it stands).
+`humanize/HANDOFF-neuro-de-armoring.md`, Next step: the cards page's stored answers, then his answers to questions 15 to 23; then the protocol's other contradictions (`humanize/fix-20261108/coherence/EXTRACT.md`); then the rest of the article one paragraph at a time (gates E343, E344). The master is unchanged (his post as it stands).

@@ -1,7 +1,7 @@
 # Neuro de-armoring: what I need from Joel
 
 Last updated 2026-11-19, after your message of 16:17 UTC.
-**Open questions: 3.** **For you to do**: nothing besides the questions; your answers 12a and 14 are in.
+**Open questions: 9.** **For you to do**: nothing besides the questions; your answers 12a and 14 are in.
 
 Colours: 🟣 a question for you; 🟠 something for you to do; 🔵 next or in progress; 🟢 done or decided.
 
@@ -36,6 +36,47 @@ iboga spray, and the text doesn't say whether a microdose day is a psychedelic d
 - a) Yes: the plan says the 5-HTP and UMP trials don't overlap the microdosing. (My pick: it's the reading your own
   warnings give.)
 - b) No: a microdose doesn't count, and the rule says so where it stands (5-HTP still not with iboga, as your line says).
+
+**🟣 18. Which iboga is for numbness?** Your iboga section gives female iboga for numbness and fog, and male iboga for
+helplessness and relapse. But for the numb phase, Weeks 3–5 says to microdose male iboga, and its "If Numb" line gives male
+iboga too ([the lines](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/coherence/EXTRACT.md), item 2.5).
+
+- a) Female: the two Weeks 3–5 lines change to female.
+- b) Male: your iboga section changes (your words for how).
+
+**🟣 19. "Increase PS" in Weeks 1–2: does it mean starting PS?** Weeks 1–2 says not to add agmatine on a day you increase
+PS, but your PS section says not to raise the dose ([the lines](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/coherence/EXTRACT.md), item 2.7).
+
+- a) Yes: "increase PS" becomes "start PS". (My pick: it fits your rule against raising it.)
+- b) No: the dose can go up, and your PS section says when.
+
+**🟣 20. The PS in mackerel: say it's above the dose that worked?** Your PS section says one dose blunted the cortisol
+response in the trial and higher doses didn't, but the mackerel line gives well above that dose and calls it "above clinical
+doses", without saying the higher doses didn't work ([the lines](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/coherence/EXTRACT.md), item 2.6).
+
+- a) Yes: the mackerel line says that much is above the dose that worked. (My pick: otherwise a reader may think more is
+  better.)
+- b) Keep it as it is.
+
+**🟣 21. PS in Weeks 3–5: "taper off" or "reduce or stop"?** One Weeks 3–5 line says to taper it off, another to reduce or
+stop it ([the lines](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/coherence/EXTRACT.md), item 2.8).
+
+- a) "Taper off" in both.
+- b) "Reduce or stop" in both.
+
+**🟣 22. Agmatine after its trial: stop it, or keep it when it helps?** Your agmatine section says to use it as a short
+trial for the anxiety phase, not long term. But Weeks 3–5, after the trial would have ended, says to stop it unless it's
+clearly helping the glutamate storms without making the flatness worse ([the lines](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/coherence/EXTRACT.md), item 2.9).
+
+- a) Keep the exception: your agmatine section says it can go on in that case.
+- b) The limit holds: Weeks 3–5 says to stop it, without the exception.
+
+**🟣 23. Agmatine before a session: one timing rule?** One line says not to take it "immediately before" a session for
+reconsolidation, with no gap given, while your timing rule says to avoid it that whole day or keep it hours away from the
+session ([the lines](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/coherence/EXTRACT.md), item 2.10).
+
+- a) The first line points to your timing rule. (My pick: one rule, said once.)
+- b) Keep both as they are.
 
 - 🟢 **11, answered ("11yes add that")**: Zhong 2023 is cited after Vialou in your paragraph, with Nestler 2008 back
   beside them (below).
