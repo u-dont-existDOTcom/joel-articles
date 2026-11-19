@@ -1160,6 +1160,15 @@ def main():
                    or re.search(r"\bnot (?:just |only |merely |simply )?(?!sure\b|yet\b)[^.?!;,]{1,40}?,?\s+but\s+(?:rather\s+|also\s+)?\w",
                                 nb, re.I)
                    or re.search(r"\bbut not\b", nb, re.I))
+            # O75 (Joel, 2026-11-19 00:52 UTC, his round-40 tries on the bad trips guide's chest pain evidence: "now i changed
+            # the perfect past to simple past and it's again back to 100% "possibly ai assisted" instead of ai"; his check went
+            # from AI Detected, 99.6% to AI Assisted, 50% with "had started" made "started", lesson bad-trips-2026-11-19a).
+            # A past perfect in my sentence: the simple past says it, unless the order of two past events is the point.
+            m75 = re.search(r"\bhad\s+(?:not\s+|never\s+|already\s+|just\s+)?(?:been|\w+(?:ed|en))\b", nb, re.I)
+            if m75 and not re.search(r"\bhad\s+(?:seen|been through|hidden|ridden|written)\b", m75.group(0), re.I):
+                flag('REVIEW', 'O75 a past perfect ("%s"; Joel 2026-11-19: "i changed the perfect past to simple past and it\'s again '
+                     'back to 100%% "possibly ai assisted" instead of ai"): say it in the simple past, unless the order of two '
+                     'past events is the point' % m75.group(0), s)
             if m69:
                 para69.append(s)
                 flag('REVIEW', 'O69 a correction or contrast frame ("%s"; Joel 2026-11-12: "you still use a lot of ai patterns like ... "x '
@@ -1549,6 +1558,17 @@ def main():
         # treatment from a racing stimulant high, as would serotonin toxicity", Mixed to Human (round 35).
         # Measured the same day: "different from" twice in a paragraph, or "both ... different", is in none of his 112 versions
         # nor of the texts he fixed; it was in my oral paragraph (h44), which he fixed.
+        # O76 (Joel, 2026-11-19 00:52 UTC, the same tries: "now less certain about it being ai, after not saying DMSO 3x in a
+        # row"; lesson bad-trips-2026-11-19a). The same abbreviation (DMSO, MDMA, CBD) in three sentences in a row, one of them
+        # mine: "it" where the reader can't lose the thread, or say it once less.
+        caps76 = [set(re.findall(r"\b[A-Z][A-Z0-9]{1,}[A-Za-z0-9-]*\b", x)) - {'I', 'OK', 'TV', 'UK', 'US', 'USA'} for x in nss]
+        for i76 in range(len(caps76) - 2):
+            same76 = caps76[i76] & caps76[i76 + 1] & caps76[i76 + 2]
+            if same76 and any(mine_s[i76:i76 + 3]):
+                flag('REVIEW', 'O76 "%s" in three sentences in a row (Joel 2026-11-19: "now less certain about it being ai, after not '
+                     'saying DMSO 3x in a row"): say "it" where the reader can\'t lose the thread' % sorted(same76)[0],
+                     ' / '.join(ss[i76:i76 + 3]))
+                break
         if len(para69) >= 2:
             flag('FAIL', 'O69 two correction or contrast frames in one paragraph of mine (none of his 112 versions has two; Joel '
                  '2026-11-12: ""x but not y" and so forth"): keep at most the one that answers a worry the reader really has',

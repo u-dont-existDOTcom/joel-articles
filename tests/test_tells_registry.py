@@ -90,10 +90,12 @@ class RegistryShape(unittest.TestCase):
         # the list or questions it serves) from his round-37 message of 2026-11-12 16:48 UTC (bad-trips-2026-11-12h); W127
         # (O72, "safe" with no how) and W128 (O73, a sign of health in a list of warning signs) from his round-38 answer of
         # 2026-11-12 18:19 UTC (bad-trips-2026-11-12i); W129 (O74, a list item that finishes its lead-in ending with a period)
-        # from his message of 2026-11-13 14:15 UTC (bad-trips-2026-11-12m)
-        self.assertEqual(len(ids), 199)
+        # from his message of 2026-11-13 14:15 UTC (bad-trips-2026-11-12m); W130 (O75, a past perfect where the simple past
+        # does) and W131 (O76, the same abbreviation in three sentences in a row) from his round-40 tries of 2026-11-19
+        # (bad-trips-2026-11-19a)
+        self.assertEqual(len(ids), 201)
         self.assertEqual(len(set(ids)), len(ids))
-        self.assertEqual(sum(t['kind'] == 'mechanical' for t in TELLS), 129)
+        self.assertEqual(sum(t['kind'] == 'mechanical' for t in TELLS), 131)
         for t in TELLS:
             with self.subTest(id=t['id']):
                 self.assertIn(t['kind'], ('mechanical', 'judgment'))

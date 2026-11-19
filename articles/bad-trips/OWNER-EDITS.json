@@ -1444,6 +1444,19 @@
     "so brew some and smell it while it's hot",
     "I've now added creatine and mango leaf tea to it"
    ]
+  },
+  {
+   "id": "r40-chest-evid",
+   "status": "applied",
+   "what": "Chest Pain's evidence paragraph is his round-40 version, whole (e8688033, Human High 88), the three studies linked on his words (review/r40/apply_r40.py)",
+   "joel": "2026-11-19 00:52 UTC, his round-40 export: TEACH-CHEST-EVID revised",
+   "must_contain": [
+    "So far, the heart research on DMSO has only been in animals and lab dishes, and only as a prophylactic (preventative treatment).",
+    "those rats lost about three quarters less heart muscle than the rats who didn't get DMSO."
+   ],
+   "must_not_contain": [
+    "The cardiovascular science is preclinical but relevant."
+   ]
   }
  ]
 }

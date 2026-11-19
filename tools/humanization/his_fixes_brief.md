@@ -14,7 +14,7 @@ stays.
 
 ---
 
-You are reading a draft against the way one writer, Joel, fixes drafts like it. Below are eight ways his fixes differ
+You are reading a draft against the way one writer, Joel, fixes drafts like it. Below are nine ways his fixes differ
 from the drafts he fixed, each with a sentence he fixed and what he wrote instead. Read the draft and mark every sentence
 that still reads the first way.
 
@@ -47,6 +47,13 @@ that still reads the first way.
    extra danger sign."
 8. **Joined and worded the way a model joins and words.** Two short sentences he would join with ", but" or "so"; a comma
    pair he writes with "and" ("Slow and shallow", not "Slow, shallow"); "one" where "a" would do.
+9. **The findings before whether they bear on the reader's case.** He says first what decides whether what follows applies
+   to the reader, and puts the limit there, never in a clause hung on a finding. My "When they gave DMSO to rats for three
+   days before a heart attack, those rats lost ... though that study didn't try giving it after the attack had started"
+   became his "So far, the heart research on DMSO has only been in animals and lab dishes, and only as a prophylactic
+   (preventative treatment)." first ("i flipped it high conf human by moving the payoff earlier about whether they are
+   about to read something relevant or not", 2026-11-19). He writes a study's finding in the simple past ("started", not
+   "had started"), and doesn't name the same thing in three sentences in a row.
 
 THE DRAFT (what it is for: [one line: what the reader is about to do with it]):
 [the text, one sentence a line, numbered S1, S2, ...]

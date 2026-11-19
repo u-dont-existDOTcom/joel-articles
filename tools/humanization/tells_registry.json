@@ -3065,6 +3065,32 @@
    ],
    "rule": "O74",
    "example": "Call medics if any of these happen:\n- Their breathing gets slow and shallow.\n- Their lips turn blue or gray."
+  },
+  {
+   "id": "W130",
+   "tell": "a past perfect where the simple past does",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "docs/lessons/2026-11-19-0052-bad-trips.md",
+     "quote": "i changed the perfect past to simple past and it's again back to 100% \"possibly ai assisted\" instead of ai"
+    }
+   ],
+   "rule": "O75",
+   "example": "When they gave DMSO to rats for three days before a heart attack, those rats lost about three quarters less heart muscle, though that study didn't try giving it after the attack had started."
+  },
+  {
+   "id": "W131",
+   "tell": "the same abbreviation in three sentences in a row",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "docs/lessons/2026-11-19-0052-bad-trips.md",
+     "quote": "now less certain about it being ai, after not saying DMSO 3x in a row"
+    }
+   ],
+   "rule": "O76",
+   "example": "The heart research on DMSO has only been in animals and lab dishes so far. When they gave DMSO to rats for three days before a heart attack, those rats lost less heart muscle. Most heart attacks come from a clot, so it's a good sign that DMSO also slowed clotting."
   }
  ]
 }
