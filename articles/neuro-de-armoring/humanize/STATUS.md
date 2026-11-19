@@ -1,13 +1,13 @@
 # Status: neuro de-armoring humanization (newest on top)
 
-## 2026-11-19, his message of 16:17 UTC: 12a and his block 54 in, 13b; questions 15 to 17
+## 2026-11-19, his message of 16:17 UTC: 12a and his block 54 in, 13b; questions 15 to 23
 
 His message word for word: `fix-20261108/joel-20261119-1617-message.txt` (12a; 13b, with his note that he isn't talking about IV use; 14, with his Pangram check and his version of block 54). **The mailbox first** ("2026-11-19 16:17"): main 4eb7e99cb merged (bad-trips' near-miss rule, its O75 and O76 tells and the turn-boundary check in `lane_push.py`; inner child's contents-sidebar rules); this lane's 436 merged on 2026-11-14; the cards page's stored answers unchanged; no notifications. UDA's LESSON-INDEX gained entry 93 (advice on starting a fresh session): applied at the turn's start and before the final answer.
 
 - **In** (`fix-20261108/x1119a/apply_x1119a.py`, `APPLIED-X1119A.json`; HUMANIZED-SO-FAR.md ec3c2ada to 9f5bbc31): 12a, block 48's last sentence split at his first "although", as question 12 showed it (my comparison read, `x1119a/read-1119/`); 14, his version of block 54 as his, the links back on its citations and on "one man's Alzheimer's improved markedly", checked word for word against the text he checked. His check, read back from his history (`x1119a/HIS-CHECKS-READ-20261119.json`): Human Written, 161 words, one window, Human High, the text's SHA-256 his paragraph's; no check of mine this turn. Its claims hold against the sources (`x1119a/CHECKED.md`). `said_twice.py`: none of its links is cited elsewhere. FIDELITY owner_changes for it (2005, 2015, 2018 and 5 new). Fidelity PASS, comparison gate PASS.
 - **13b**: his clause on children stays as he wrote it. He means uses other than IV, but the clause follows the authors' worry about the children who get DMSO in transplants, which is IV: question 15 asks whether it should say so ("when it's not given by IV").
-- **EXTRACT 2.2 and 2.3 as questions** (his decision comes first, lesson neuro-2026-11-12b): 16, Weeks 3–5 starts five things in the same weeks against his one-at-a-time lines; 17, whether a microdose day counts as a psychedelic day for 5-HTP and UMP. No dose figures in them.
-- **Waiting on him**: questions 15, 16 and 17 (questions page version 26). Predictions: none (his check stands). Delegations: none.
+- **EXTRACT 2.2, 2.3 and 2.5 to 2.10 as questions** (his decision comes first, lesson neuro-2026-11-12b; every quoted line checked still in the article): 16, Weeks 3–5 starts five things in the same weeks against his one-at-a-time lines; 17, whether a microdose day counts as a psychedelic day for 5-HTP and UMP; 18, which iboga is for numbness; 19, whether "increase PS" means starting it; 20, the mackerel line above the PS dose that worked; 21, "taper off" or "reduce or stop"; 22, agmatine past its trial; 23, agmatine's timing before a session. No dose figures in them. 2.4 was settled by SC-95b.
+- **Waiting on him**: questions 15 to 23 (questions page version 27). Predictions: none (his check stands). Delegations: none.
 
 ## 2026-11-14, his answers of 22:04 UTC: SC-95b and his DMSO item in; SC-54 reads AI (question 14); lesson 14a
 
