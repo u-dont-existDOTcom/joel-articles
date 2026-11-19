@@ -1490,6 +1490,20 @@
    "must_contain": [
     "The following indicators would justify calling medics:"
    ]
+  },
+  {
+   "id": "r42-med-mdma",
+   "status": "applied",
+   "what": "MDMA paragraph's two medical fixes (round 42, MED-MDMA): something very salty while waiting for medics if alert and not vomiting, in place of \"too late for an easy fix\"; low sodium, magnesium or potassium in the seizure line",
+   "joel": "approved card MED-MDMA, 2026-11-19 16:05 UTC, after his message of 15:41 UTC (\"what about hypertonic fluids? wouldn't it make sense unless they aren't able to keep it down or swallow?\")",
+   "applied_by": "review/r42/ANSWERS-R42-20261119-1606.json, put in by review/r42/apply_r42.py",
+   "must_contain": [
+    "give them something very salty instead, like strong broth or salty snacks",
+    "A seizure or collapse can result from low sodium, magnesium or potassium"
+   ],
+   "must_not_contain": [
+    "it could be too late for an easy fix"
+   ]
   }
  ]
 }
