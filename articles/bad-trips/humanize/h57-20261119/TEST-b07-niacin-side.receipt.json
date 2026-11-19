@@ -1,0 +1,136 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-19",
+ "text_sha256": "367dc880aae376fab6f2def6d17daba8a300f94ef058a3df63c1735cf12846bc",
+ "text": "Side effects:\n\nNiacin flush: itchy sunburn-like heat. The flush is normal, although some people find it intolerable and others enjoy it.\nHeartburn in sensitive stomachs or after too much at once.\nDrowsiness, usually with terrible sleep quality.\nHigher or repeated doses can create a real risk of liver damage, especially with liver problems, alcohol, or medications.",
+ "section": "A Final Trip Killer: Niacin (a Form of Vitamin B3): Side effects",
+ "reader": "someone whose friend's trip has to end, without beach morning glory, reading niacin's side effects before giving it",
+ "sentences": [
+  {
+   "s": "Side effects:",
+   "payoff": "they know the list that follows is niacin's side effects",
+   "follows": "the label after the section's dosing paragraph"
+  },
+  {
+   "s": "Niacin flush: itchy sunburn-like heat.",
+   "payoff": "they know the flush they'll feel: itchy heat like sunburn",
+   "follows": "the first side effect, the one everyone gets",
+   "link": "Niacin flush:"
+  },
+  {
+   "s": "The flush is normal, although some people find it intolerable and others enjoy it.",
+   "payoff": "they know the flush is expected, not an emergency, and that some hate it and some enjoy it",
+   "follows": "says what the flush means",
+   "link": "The flush is normal"
+  },
+  {
+   "s": "Heartburn in sensitive stomachs or after too much at once.",
+   "payoff": "they know heartburn can come, with a sensitive stomach or too much at once",
+   "follows": "the second side effect",
+   "link": "Heartburn"
+  },
+  {
+   "s": "Drowsiness, usually with terrible sleep quality.",
+   "payoff": "they know it can make them drowsy, with poor sleep",
+   "follows": "the third side effect",
+   "link": "Drowsiness"
+  },
+  {
+   "s": "Higher or repeated doses can create a real risk of liver damage, especially with liver problems, alcohol, or medications.",
+   "payoff": "they don't take higher or repeated doses, which risk liver damage, least of all with liver problems, alcohol or medications",
+   "follows": "the risk after the side effects",
+   "link": "Higher or repeated doses"
+  }
+ ],
+ "checked": [
+  {
+   "point": "what the risk of higher or repeated niacin doses is",
+   "found": "NIH ODS (consumer fact sheet): long-term treatment, especially with extended-release forms of nicotinic acid, can cause liver problems; LiverTox (NBK548176): high doses and certain formulations linked to acute liver injury, which can be severe; MSD Manual: high-dose niacin can cause complications in people with a liver disorder, and hepatotoxicity may be more common with sustained-release forms",
+   "still_needed": "yes: they know the risk is to the liver, so they don't take more or keep taking it, especially if they drink or have liver trouble",
+   "fate": "changed"
+  }
+ ],
+ "placement": "Niacin's section, after the paragraph on why he includes it and its literature, before the other forms of vitamin B3",
+ "opens": {
+  "first_sentence": "Side effects:",
+  "why_reading": "it tells someone about to give niacin what it will feel like and when it becomes risky"
+ },
+ "same_point": "none: read Niacin's section from its heading to the next for its side effects: only this list gives them",
+ "needed": {
+  "reader": "a fresh agent (Sonnet) given tools/humanization/needed_read_brief.md with only the text, its heading and what it is for (reads/need-b07-niacin-side.txt; the draft it read: reads/read-text-b07-niacin-side.txt)",
+  "unneeded": [
+   "Side effects:"
+  ],
+  "kept": {
+   "Side effects:": "they know the list is side effects: the guide's own label, under a heading that names niacin"
+  }
+ },
+ "his_fixes": {
+  "reader": "a fresh agent (Sonnet) given tools/humanization/his_fixes_brief.md, the ten ways, with the text one sentence a line (reads/his-b07-niacin-side.txt; the draft it read: reads/read-text-b07-niacin-side.txt)",
+  "marked": [
+   {
+    "s": "Niacin flush: itchy sunburn-like heat.",
+    "difference": "1, 4"
+   },
+   {
+    "s": "This is normal, although some people find it intolerable and others enjoy it.",
+    "difference": "7, 10"
+   },
+   {
+    "s": "Heartburn in sensitive stomachs or after too much at once.",
+    "difference": "1, 2, 4"
+   },
+   {
+    "s": "Drowsiness, usually with terrible sleep quality.",
+    "difference": "1, 2, 8, 10"
+   },
+   {
+    "s": "Higher or repeated doses can harm the liver, especially with liver problems, alcohol, medications, or sensitive physiology.",
+    "difference": "1, 4, 6, 7"
+   }
+  ],
+  "kept": {
+   "Niacin flush: itchy sunburn-like heat.": "a list item's label, which the next sentence explains (\"The flush is normal\")",
+   "Heartburn in sensitive stomachs or after too much at once.": "a list item, built as the list's items are; who gets it (a sensitive stomach, too much at once) is said",
+   "Drowsiness, usually with terrible sleep quality.": "a list item; drowsiness and the poor sleep with it are the two things to expect"
+  }
+ },
+ "fit": {
+  "reader": "a fresh agent (Sonnet) given tools/humanization/fit_read_brief.md, the universal version (reads/fit-b07-niacin-side.txt; the draft it read: reads/read-text-b07-niacin-side.txt)",
+  "marked": [
+   {
+    "s": "Heartburn in sensitive stomachs or after too much at once.",
+    "found": "CAN'T TELL"
+   },
+   {
+    "s": "Higher or repeated doses can harm the liver, especially with liver problems, alcohol, medications, or sensitive physiology.",
+    "found": "CAN'T TELL"
+   }
+  ],
+  "kept": {
+   "Heartburn in sensitive stomachs or after too much at once.": "how much is too much at once the dose the section gives says; the item says heartburn can come with more"
+  }
+ },
+ "questions": {
+  "Q1": "PASS: each item opens on the side effect it is about",
+  "Q2": "N/A: no instruction but the last, said as the risk",
+  "Q3": "PASS: \"the flush\" named where \"This\" could have meant the flush or the heat; the risk named (liver damage)",
+  "Q4": "PASS: \"niacin flush\" explained in its item (\"itchy sunburn-like heat\")",
+  "Q5": "PASS: a list; each item its own side effect; \"although\", \"especially with\"",
+  "Q6": "PASS: the side effect everyone gets first, the risk last",
+  "Q7": "PASS: each bears on giving niacin to end a trip",
+  "Q8": "PASS: each item is a side effect or risk of niacin",
+  "Q9": "PASS: \"sensitive physiology\", which no reader can check, out"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

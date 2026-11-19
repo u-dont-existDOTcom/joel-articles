@@ -1,0 +1,3 @@
+- Other alternatives to standard mental-health care are listed at [alternativementalhealth.com](http://alternativementalhealth.com/).
+- UC Berkeley offers a [free class](https://www.edx.org/course/the-science-of-happiness-0?source=aw&awc=6798_1552495277_34b3e4407505841b179970d2ed02f5c8&utm_source=aw&utm_medium=affiliate_partner&utm_content=text-link&utm_term=78888_Skimlinks), based partly on experimentally validated Buddhist teachings, about learning to be happy and helping others become happy.
+- The monk Ajahn Jayasaro gives useful guidance on shadow work in Buddhist teachings in the video below.

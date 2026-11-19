@@ -304,9 +304,9 @@ Children's brains may be at risk from DMSO, though: it killed brain cells in mic
 
 **Side effects:**
 
-- **Astringency:** 100% DMSO usually irritates skin on the upper half of the body. When it itches, dilute it with water or real aloe juice without added chemicals. Leaving 100% DMSO on the skin can crenate it, and the skin may take a week to look plump again. DMSO can also burn dry mouth tissue, so the mouth should be moist first.
-- **Nausea:** when drinking DMSO, dilute it in water, juice, or milk and sip gradually. Sensitivity varies.
-- **Reduced sleep:** DMSO reduces how long I sleep when I take too much, take it too late, or use it over too many consecutive days. It builds up past a threshold that seems to differ between people, so it's best taken in the morning, and reduce the dose if you notice you're sleeping less. [In rats, higher doses made sleep lighter](https://www.sciencedirect.com/science/article/abs/pii/S0378427405000810). Some people sleep better with DMSO because it reduces whatever symptom had been keeping them awake.
+- **Astringency:** 100% DMSO usually irritates skin on the upper half of the body. When the skin itches, dilute the DMSO with water or real aloe juice without added chemicals. Leaving 100% DMSO on the skin can crenate (shrivel) it, and the skin may take a week to look plump again. DMSO can also burn dry mouth tissue, so wet your mouth first.
+- **Nausea:** when drinking DMSO, dilute it in water, juice, or milk and sip gradually.
+- **Reduced sleep:** DMSO reduces how long I sleep when I take too much, take it too late, or use it over too many consecutive days. It builds up past a threshold that seems to differ between people, so it's best taken in the morning, and reduce the dose if you notice you're sleeping less. [In rats, higher doses made sleep less deep](https://www.sciencedirect.com/science/article/abs/pii/S0378427405000810). Some people sleep better with DMSO because it reduces whatever symptom had been keeping them awake.
 - **Body odor:** above a certain dose you may smell like sulfur. I don't smell when I put it into milk.
 
 **Interactions:**
@@ -385,12 +385,12 @@ I include it because most people don't have access to *Ipomoea pes-caprae*, alth
 
 **Side effects:**
 
-- **Niacin flush:** itchy sunburn-like heat. This is normal, although some people find it intolerable and others enjoy it.
+- **Niacin flush:** itchy sunburn-like heat. The flush is normal, although some people find it intolerable and others enjoy it.
 - Heartburn in sensitive stomachs or after too much at once.
 - Drowsiness, usually with terrible sleep quality.
-- Higher or repeated doses can create real risk, especially with liver problems, alcohol, medications, or sensitive physiology.
+- Higher or repeated doses can create a real risk of liver damage, especially with liver problems, alcohol, or medications.
 
-Other forms of vitamin B3 seem less reliable for relaxation. Niacinamide sometimes relaxes people and sometimes creates hyperfocus, depending on their state. Avoid sustained-release niacin and the useless non-flush hexanicotinate form.
+Other forms of vitamin B3 seem less reliable than niacin for relaxation. Niacinamide relaxes some people, but it can make others hyperfocused, depending on the state the person is in. Avoid sustained-release niacin and the useless "no-flush" kind (inositol hexanicotinate).
 
 ---
 
@@ -480,13 +480,13 @@ A useful order is **room → body → human → time → meaning**. Most people 
 - Eat simple healthy food, such as fruit, when you can.
 - Walk slowly with a clear-headed person in a safe environment.
 - Going outside can help too, if it's somewhere quiet with nothing high to fall from, away from roads and water.
-- Avoid strenuous exercise if you're overheating or have chest pain, and hold off too if you feel faint or badly confused. The same goes after a stimulant or an unknown mixture, or with any medical concern.
+- Avoid strenuous exercise if you're overheating or have chest pain, and hold off too if you feel faint or badly confused. Skip exercise too if you've taken a stimulant or an unknown mixture, or have any other medical concern.
 
 ## Get One Human Anchor
 
 Being alone with a frightened or over-certain mind can make a bad trip worse. So can a crowd of people telling them what it all means, or panicking right along with them.
 
-So have **one calm person be the anchor** and take the lead. One person can only handle so much, though. If fatigue or logistics start getting to be too much for them, or keeping everyone safe does, bring in **one more calm adult or a crisis professional** to back them up, and do it right away if there's any risk of violence or self-harm.
+So have **one calm person be the anchor** and take the lead. One person can only handle so much, though. If fatigue or logistics start getting to be too much for the anchor, or keeping everyone from getting hurt does, bring in **one more calm adult or a crisis professional** to back them up, and get that help right away if there's any risk of violence or self-harm.
 
 ![](https://substack-post-media.s3.amazonaws.com/public/images/2b8889eb-85e8-466f-99af-f71e48caeb61_1122x1402.png)
 
@@ -556,7 +556,7 @@ The action lock matters especially when the state feels blissful: *I am God. I a
 
 # Shadow Work
 
-Shadow work to me is neither BDSM nor "feeding your demons." It means bringing loving awareness to the parts of the mind built in fear, pain, humiliation, rejection, and survival. [Inner-child reparenting ](http://innerchild.u-dont-exist.com)is central. Most negative mind-states aren't some error in your philosophy, they're just young parts of you that are still waiting for love and protection and permission, and for the explanation nobody ever gave them.
+Shadow work to me is neither BDSM nor "feeding your demons." It means bringing loving awareness to the parts of the mind built in fear, pain, humiliation, rejection, and survival. [Inner-child reparenting](http://innerchild.u-dont-exist.com) is central to shadow work. Most negative mind-states aren't some error in your philosophy, they're just young parts of you that are still waiting for love and protection and permission, and for the explanation nobody ever gave them.
 
 Begin with my [Inner Child Therapy guide](http://innerchild.u-dont-exist.com) and app, and my [Self-Hypnosis guide](http://hypnoisis.u-dont-exist.com) and app.
 
@@ -847,7 +847,7 @@ Use this sequence for planned sessions. Once somebody is already in trouble, ret
 If somebody is actively in trouble, use the [triage app](https://ibogaqueen.com/1625-2/) first. The resources below come afterward.
 
 - Other alternatives to standard mental-health care are listed at [alternativementalhealth.com](http://alternativementalhealth.com/).
-- U.C. Berkeley offers a [free class](https://www.edx.org/course/the-science-of-happiness-0?source=aw&awc=6798_1552495277_34b3e4407505841b179970d2ed02f5c8&utm_source=aw&utm_medium=affiliate_partner&utm_content=text-link&utm_term=78888_Skimlinks), based partly on experimentally validated Buddhist teachings, about learning to be happy and helping others become happy.
+- UC Berkeley offers a [free class](https://www.edx.org/course/the-science-of-happiness-0?source=aw&awc=6798_1552495277_34b3e4407505841b179970d2ed02f5c8&utm_source=aw&utm_medium=affiliate_partner&utm_content=text-link&utm_term=78888_Skimlinks), based partly on experimentally validated Buddhist teachings, about learning to be happy and helping others become happy.
 - The monk Ajahn Jayasaro gives useful guidance on shadow work in Buddhist teachings in the video below.
 
 [YouTube video 7lIIHR5hT3c](https://www.youtube.com/watch?v=7lIIHR5hT3c)

@@ -1,0 +1,22 @@
+NEEDS:
+S1: nothing (repeats the heading; announces the list)
+S2: names the first side effect so the reader can find it
+S3: tells the reader 100% DMSO will likely irritate the upper-body skin
+S4: what to do when it itches: dilute with water or plain aloe juice
+S5: what happens if 100% is left on the skin, so they avoid it
+S6: warns against putting it on a dry mouth, and what to do first (moisten)
+S7: what to do about nausea when drinking it: dilute and sip
+S8: nothing (gives no action)
+S9: names the second side effect so the reader can find it
+S10: when it cuts sleep: too much, too late, too many days in a row
+S11: what to do: take it in the morning, cut the dose if sleeping less, and why (buildup past a personal threshold)
+S12: nothing (rat data gives no action)
+S13: nothing (describes a benefit, not a side effect to handle)
+S14: tells the reader a high dose can make them smell of sulfur
+S15: a fix for the smell: put it in milk
+
+UNNEEDED:
+- S1: Side effects: — repeats the heading and adds nothing the reader acts on
+- S8: Some people get nauseous more easily than others. — gives no action; the dilute-and-sip advice in S7 works without it
+- S12: In rats, higher doses made sleep less deep. — animal finding that changes nothing the reader does; S10 and S11 already say the effect and the fix
+- S13: Some people sleep better with DMSO because it reduces whatever symptom had been keeping them awake. — a benefit, not a side effect; the reader needs nothing from it to handle reduced sleep

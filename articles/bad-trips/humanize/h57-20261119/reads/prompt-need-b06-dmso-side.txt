@@ -1,0 +1,41 @@
+You are reading one paragraph of an article for the person it is written for. Here is what the paragraph is for:
+
+WHAT IT IS FOR: knowing what side effects DMSO can have, and what to do about each, before using it during a hard trip
+
+HEADING: DMSO: Side effects
+
+PARAGRAPH:
+S1: Side effects:
+S2: Astringency:
+S3: 100% DMSO usually irritates skin on the upper half of the body.
+S4: When it itches, dilute it with water or real aloe juice without added chemicals.
+S5: Leaving 100% DMSO on the skin can crenate it, and the skin may take a week to look plump again.
+S6: DMSO can also burn dry mouth tissue, so the mouth should be moist first.
+S7: Nausea: when drinking DMSO, dilute it in water, juice, or milk and sip gradually.
+S8: Some people get nauseous more easily than others.
+S9: Reduced sleep:
+S10: DMSO reduces how long I sleep when I take too much, take it too late, or use it over too many consecutive days.
+S11: It builds up past a threshold that seems to differ between people, so it's best taken in the morning, and reduce the dose if you notice you're sleeping less.
+S12: In rats, higher doses made sleep less deep.
+S13: Some people sleep better with DMSO because it reduces whatever symptom had been keeping them awake.
+S14: Body odor: above a certain dose you may smell like sulfur.
+S15: I don't smell when I put it into milk.
+
+For each sentence, answer in one line: what does the reader need this sentence for, given what the paragraph is for?
+Then list the sentences the reader doesn't need.
+
+A sentence the reader doesn't need is one they could lose and still do what the paragraph is for, with nothing
+missing. These are not reasons to keep a sentence: it is true; it has a source; it is interesting; it is a careful
+hypothesis or a testable guess; it explains a disease or a case the reader doesn't have; it qualifies another claim the
+reader didn't need either; it was already in the text. Read also for sense: a sentence whose words don't make sense
+together, or that mixes pictures (a dial, a door, a floor and a leak for one thing), goes on the list too, with why.
+
+Answer in this shape:
+
+NEEDS:
+S1: [what the reader needs it for, or "nothing"]
+S2: ...
+
+UNNEEDED:
+- S2: [the sentence, copied exactly] — [why the reader can lose it]
+- (or "none")
