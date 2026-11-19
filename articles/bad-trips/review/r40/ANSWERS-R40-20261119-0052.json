@@ -1,0 +1,26 @@
+{
+ "format": "joel-suggestion-review-answers-v1",
+ "review_id": "bad-trips-r40",
+ "title": "Bad Trips Guide, Round 39",
+ "git_file": "articles/bad-trips/review/r40/REVIEW-R40.html",
+ "article": {"file": "articles/bad-trips/review/r40/PAGE-R40.md", "sha256": "1ef9247d886f8cc659dc6116a350ae8f43c616c8f08f72733ea9dd97d287e3de"},
+ "built": "2026-11-14",
+ "generator": "suggestion_review.py 1.11 (2026-11-11)",
+ "exported_at": "2026-11-19T00:52:41.736Z",
+ "counts": {"approved": 0, "rejected": 0, "revise": 1, "pending": 0},
+ "items": [
+  {
+   "id": "TEACH-CHEST-EVID",
+   "type": "teach",
+   "title": "1. Chest Pain: what the heart research adds to your angina story",
+   "where": "Chest Pain and Injury, P2",
+   "advice": "edit",
+   "status": "revise",
+   "your_version": "So far, the heart research on DMSO has only been in animals and lab dishes, and only as a prophylactic (preventative treatment). When they gave it to rats for three days before a heart attack, those rats lost about three quarters less heart muscle than the rats who didn't get DMSO. Most heart attacks come from a clot blocking an artery, so it's a good sign that DMSO also slowed clotting, in mice and in human platelets (the blood cells that start clots) in a dish.",
+   "comment": "first i reworded so that 2nd sentence sounds more natural and not coming out of nowhere. it changed pangram to 99% likely ai: https://www.pangram.com/history/bba48851-f3b5-4124-8f57-d4620703bb06\n\nnow i changed the perfect past to simple past and it's again back to 100% \"possibly ai assisted\" instead of ai: https://www.pangram.com/history/6e5f6c98-f9fe-4ab0-b021-bcaab17f8e6d\nstill reads like good english to me, idk if there's some rule of grammar most ppl don't know\n\nnow less certain about it being ai, after not saying DMSO 3x in a row: https://www.pangram.com/history/fa73d444-fe86-48a6-91a9-46a6761dfd65\n\nmoved \"so far\" first, based on the immediate reading payoff rule, tho didn't seem to help pangram much yet: https://www.pangram.com/history/78ac0487-88fb-4d18-868f-42a848bc3e54\n\nnow i flipped it high conf human by moving the payoff earlier about whether they are about to read somethihng relevant or not: https://www.pangram.com/history/e8688033-21f1-4b0c-bc76-bdae42a7bdfd\n\nthen i made ONLY that one change from your version and it flipped it human (tho with my other changes it was higher conf): https://www.pangram.com/history/fc846803-fedb-47b8-a3d2-01dfb087df4f\n\n\nbut on the other hand, this is saying that dmso slows clotting, which didn't we say that's not an issue to warn about somewher eelse? \n",
+   "history": [{"from": "pending", "to": "revise", "at": "2026-11-15T12:41:18.449Z"}],
+   "updated": "2026-11-19T00:52:38.843Z",
+   "note": "his export of 2026-11-19 00:52 UTC, pasted in chat; the share codes (?ucc=...) dropped from his links. The page's database holds the same text (read 2026-11-19); his final check e8688033 holds it word for word (Human Written, Human High 88, one window)."
+  }
+ ]
+}

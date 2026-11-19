@@ -1,0 +1,31 @@
+You are reading one paragraph of an article for the person it is written for. Here is what the paragraph is for:
+
+WHAT IT IS FOR: the reader has given DMSO to a friend who says their brain feels damaged, is doing the stroke checks, and is deciding whether DMSO is right if a bleed is possible and whether to call medics
+
+HEADING: If Someone Says "My Brain Feels Damaged": DMSO + Humic Acid + Electrolytes First (after the stroke checks to do while the DMSO works and the author's evidence for DMSO in acute brain damage)
+
+PARAGRAPH:
+S1: If someone is worried about a bleed, I'd probably skip DMSO, but it depends on how severe their issue is.
+S2: It's not a powerful blood thinner like heparin, unless maybe injected; it's basically a dietary blood thinner.
+S3: I've never had any issues with bleeding too much from consuming DMSO, and never heard of it either, but if bleeding is already a medical issue I'd want to think about that more.
+S4: They can feel better on DMSO while a clot or a bleed is still there.
+S5: So if any of the checks above fail, call medics anyway, while a hospital can still treat it.
+
+For each sentence, answer in one line: what does the reader need this sentence for, given what the paragraph is for?
+Then list the sentences the reader doesn't need.
+
+A sentence the reader doesn't need is one they could lose and still do what the paragraph is for, with nothing
+missing. These are not reasons to keep a sentence: it is true; it has a source; it is interesting; it is a careful
+hypothesis or a testable guess; it explains a disease or a case the reader doesn't have; it qualifies another claim the
+reader didn't need either; it was already in the text. Read also for sense: a sentence whose words don't make sense
+together, or that mixes pictures (a dial, a door, a floor and a leak for one thing), goes on the list too, with why.
+
+Answer in this shape:
+
+NEEDS:
+S1: [what the reader needs it for, or "nothing"]
+S2: ...
+
+UNNEEDED:
+- S2: [the sentence, copied exactly] — [why the reader can lose it]
+- (or "none")

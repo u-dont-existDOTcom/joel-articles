@@ -1,0 +1,117 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-19",
+ "text_sha256": "02c5a772660115f0a959fe1cfbb6f6ecc6f25ee471da133a7c455efffc4acc78",
+ "text": "If the person is fully alert and able to swallow, I'd give them cyproheptadine right away, an old allergy medicine that also blocks serotonin receptors. The evidence for it is only case reports so far (nobody has compared it against people who didn't get it), but in a small series of five ER patients, three of them had no symptoms left within two hours. Keep cooling them down either way, and get help now if their signs are moderate or severe, before you know whether it works.",
+ "section": "Suspected Serotonin Syndrome (SS): Do this immediately when serotonin toxicity is reasonably suspected",
+ "reader": "someone sitting with a friend who shows signs of serotonin toxicity after a serotonergic combination (an MAOI brew, MDMA, an antidepressant, tramadol ...), working down the guide's numbered steps and deciding whether to give cyproheptadine and how much to lean on it",
+ "sentences": [
+  {
+   "s": "If the person is fully alert and able to swallow, I'd give them cyproheptadine right away, an old allergy medicine that also blocks serotonin receptors.",
+   "payoff": "they give cyproheptadine right away if the person is fully alert and can swallow, and know what it is: an old allergy medicine that also blocks serotonin receptors",
+   "follows": "step 1 stopped the serotonergic substances; this is the next thing to do, the drug explained where it is first named"
+  },
+  {
+   "s": "The evidence for it is only case reports so far (nobody has compared it against people who didn't get it), but in a small series of five ER patients, three of them had no symptoms left within two hours.",
+   "payoff": "they know how far to lean on it (only case reports, nobody compared) and what it did in the one small series",
+   "follows": "the limit first (lesson 19a), then the finding",
+   "link": "The evidence for it"
+  },
+  {
+   "s": "Keep cooling them down either way, and get help now if their signs are moderate or severe, before you know whether it works.",
+   "payoff": "they keep cooling them down and get help now for moderate or severe signs, without waiting on it",
+   "follows": "what the limit means for what they do now",
+   "link": "Keep cooling them down"
+  }
+ ],
+ "checked": [
+  {
+   "point": "the case series the step links (PubMed 9696181, Graudins et al. 1998)",
+   "found": "five patients given 4-8 mg by mouth, three with no signs left within 2 h, the other two after a repeat dose; \"it is unknown whether cyproheptadine modifies patient outcome\"; \"an adjunct to supportive care\"",
+   "still_needed": "yes: they know the evidence for it is case reports, which is how much they can lean on it; the series itself goes (the three reads: no use to the reader, and it reads as proof)",
+   "fate": "changed"
+  },
+  {
+   "point": "the systematic review the step links (PubMed 39791184, King & Rotella 2025)",
+   "found": "twelve reports from 2003 on (eleven case reports, one series), every one very low evidence and at high risk of bias; \"a lack of evidence to support the efficacy of cyproheptadine\"",
+   "still_needed": "yes: they know the evidence is case reports only, which the review counted; its link is on \"case reports\"",
+   "fate": "kept"
+  }
+ ],
+ "placement": "Suspected Serotonin Syndrome's immediate steps, step 2, after stopping all serotonergic substances and before calling emergency help and cooling",
+ "opens": {
+  "first_sentence": "If the person is fully alert and able to swallow, I'd give them cyproheptadine right away, an old allergy medicine that also blocks serotonin receptors.",
+  "why_reading": "it tells someone whose friend shows serotonin toxicity what to give right after stopping the substances"
+ },
+ "same_point": "none: read Suspected Serotonin Syndrome from its heading to the next for cyproheptadine and its evidence: only this step names it",
+ "needed": {
+  "reader": "a fresh agent given tools/humanization/needed_read_brief.md with only the text, its heading and what it is for (reads/need-cyp-c5.txt) (it read the text before the fixes below: reads/read-text-cyp-c5.txt)",
+  "unneeded": [
+   "It's an old allergy medicine that also blocks serotonin receptors, which is why it can help here."
+  ],
+  "kept": {
+   "If the person is fully alert and able to swallow, I'd give them cyproheptadine right away, an old allergy medicine that also blocks serotonin receptors.": "they know what cyproheptadine is where it is first named, a term a high-school graduate wouldn't know (gates E368 and E369); the mechanism clause the read found unneeded (\"which is why it can help here\") is cut"
+  }
+ },
+ "his_fixes": {
+  "reader": "a fresh agent given tools/humanization/his_fixes_brief.md with the text, one sentence a line (reads/his-cyp-c5.txt) (it read the text before the fixes below: reads/read-text-cyp-c5.txt)",
+  "marked": [
+   {
+    "s": "If the person is fully alert and able to swallow, I'd give them cyproheptadine right away.",
+    "difference": "7",
+    "draft": "cyp-c5 as read"
+   },
+   {
+    "s": "It's an old allergy medicine that also blocks serotonin receptors, which is why it can help here.",
+    "difference": "8",
+    "draft": "cyp-c5 as read"
+   },
+   {
+    "s": "The evidence for it is only case reports so far (nobody has compared it against people who didn't get it), but in a small series of five ER patients, three had no symptoms left within two hours, and the other two took a bit longer.",
+    "difference": "4",
+    "draft": "cyp-c5 as read"
+   },
+   {
+    "s": "Even so, I wouldn't wait to see if it works before cooling them down and getting help for moderate or severe signs.",
+    "difference": "5, 4",
+    "draft": "cyp-c5 as read"
+   }
+  ],
+  "kept": {
+   "If the person is fully alert and able to swallow, I'd give them cyproheptadine right away.": "they know when to give it and what it is; the amount, which the guide has never given, goes to him as a question on round 41's card (cyproheptadine is a prescription drug in many countries, and the dose is his call)",
+   "If the person is fully alert and able to swallow, I'd give them cyproheptadine right away, an old allergy medicine that also blocks serotonin receptors.": "they know when to give it and what it is; the amount, which the guide has never given, goes to him as a question on round 41's card (cyproheptadine is a prescription drug in many countries, and the dose is his call)"
+  }
+ },
+ "fit": {
+  "reader": "a fresh agent given tools/humanization/fit_read_brief.md, the universal version (reads/fit-cyp-c5.txt) (it read the text before the fixes below: reads/read-text-cyp-c5.txt)",
+  "marked": [
+   {
+    "s": "The evidence for it is only case reports so far (nobody has compared it against people who didn't get it), but in a small series of five ER patients, three had no symptoms left within two hours, and the other two took a bit longer.",
+    "found": "MISREAD"
+   }
+  ],
+  "kept": {}
+ },
+ "questions": {
+  "Q1": "PASS: the step leads; the limit of its evidence opens the next sentence; the last line opens on what keeps going",
+  "Q2": "PASS: give it, and don't wait on it: the helper's acts",
+  "Q3": "PASS: \"fully alert and able to swallow\", \"case reports\", \"the other steps\"",
+  "Q4": "PASS: cyproheptadine explained in the sentence that names it (\"an old allergy medicine that also blocks serotonin receptors\")",
+  "Q5": "PASS: \"but in a small series\" turns on the limit; \"either way\" on what the series can't settle",
+  "Q6": "PASS: what to give and what it is, how far the evidence goes, what to do meanwhile",
+  "Q7": "PASS: each bears on whether to give it and how much to count on it",
+  "Q8": "N/A: no list or group in it",
+  "Q9": "PASS: one idea a sentence"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

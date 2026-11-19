@@ -1,0 +1,104 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-19",
+ "text_sha256": "7552b43e0758503a8c68e643da79e1a8ceb392cfde0c6dee109337bfe5cc5de0",
+ "text": "If the person is fully alert and able to swallow, I would give cyproheptadine right away, since it blocks serotonin receptors. So far, the evidence for it has only been case reports, where nobody could compare it against people who didn't get it. When doctors gave it to five patients, three had no signs left within two hours, and the other two took longer, so keep going with the other steps while you see whether it works.",
+ "section": "Suspected Serotonin Syndrome (SS): Do this immediately when serotonin toxicity is reasonably suspected",
+ "reader": "someone sitting with a friend who shows signs of serotonin toxicity after a serotonergic combination (an MAOI brew, MDMA, an antidepressant, tramadol ...), working down the guide's numbered steps and deciding whether to give cyproheptadine and how much to lean on it",
+ "sentences": [
+  {
+   "s": "If the person is fully alert and able to swallow, I would give cyproheptadine right away, since it blocks serotonin receptors.",
+   "payoff": "they give cyproheptadine right away if the person is fully alert and can swallow, and know why: it blocks the serotonin that's in excess",
+   "follows": "step 1 stopped the serotonergic substances; this is the next thing to do"
+  },
+  {
+   "s": "So far, the evidence for it has only been case reports, where nobody could compare it against people who didn't get it.",
+   "payoff": "they know how far to lean on it: only case reports, with no one to compare against",
+   "follows": "the limit that decides how much the step's remedy can be counted on, said first (lesson 19a)",
+   "link": "So far, the evidence for it"
+  },
+  {
+   "s": "When doctors gave it to five patients, three had no signs left within two hours, and the other two took longer, so keep going with the other steps while you see whether it works.",
+   "payoff": "they know what to expect (signs gone within two hours in three of five, longer in two) and keep going with the other steps meanwhile",
+   "follows": "the finding the limit was about, with what it means for what they do now",
+   "link": "When doctors gave it"
+  }
+ ],
+ "checked": [
+  {
+   "point": "the case series the step links (PubMed 9696181, Graudins et al. 1998)",
+   "found": "five patients given 4-8 mg by mouth, three with no signs left within 2 h, the other two after a repeat dose; \"it is unknown whether cyproheptadine modifies patient outcome\"; \"an adjunct to supportive care\"",
+   "still_needed": "yes: they know the evidence for it is case reports, which is how much they can lean on it; the series itself goes (the three reads: no use to the reader, and it reads as proof)",
+   "fate": "changed"
+  },
+  {
+   "point": "the systematic review the step links (PubMed 39791184, King & Rotella 2025)",
+   "found": "twelve reports from 2003 on (eleven case reports, one series), every one very low evidence and at high risk of bias; \"a lack of evidence to support the efficacy of cyproheptadine\"",
+   "still_needed": "yes: they know the evidence is case reports only, which the review counted; its link is on \"case reports\"",
+   "fate": "kept"
+  }
+ ],
+ "placement": "Suspected Serotonin Syndrome's immediate steps, step 2, after stopping all serotonergic substances and before calling emergency help and cooling",
+ "opens": {
+  "first_sentence": "If the person is fully alert and able to swallow, I would give cyproheptadine right away, since it blocks serotonin receptors.",
+  "why_reading": "it tells someone whose friend shows serotonin toxicity what to give right after stopping the substances"
+ },
+ "same_point": "none: read Suspected Serotonin Syndrome from its heading to the next for cyproheptadine and its evidence: only this step names it",
+ "needed": {
+  "reader": "a fresh agent given tools/humanization/needed_read_brief.md with only the text, its heading and what it is for (reads/need-cyp-c4.txt) (it read the text before the read against his fixes: reads/read-text-cyp-c4.txt)",
+  "unneeded": [],
+  "kept": {
+   "When doctors gave it to five patients, three had no signs left within two hours, and the other two took longer, so keep going with the other steps while you see whether it works.": "they know what to expect and keep going with the other steps meanwhile; the needed read of cyp-c4 found it needed, as against c1's bare series"
+  }
+ },
+ "his_fixes": {
+  "reader": "a fresh agent given tools/humanization/his_fixes_brief.md with the text, one sentence a line (reads/his-cyp-c4.txt) (reads/read-text-cyp-c4.txt)",
+  "marked": [
+   {
+    "s": "If the person is fully alert and able to swallow, I would give cyproheptadine early, since it blocks serotonin receptors.",
+    "difference": "4",
+    "draft": "cyp-c4 as read"
+   },
+   {
+    "s": "So it can take a while even when it works, and I wouldn't wait on it before doing the other steps.",
+    "difference": "6, 4",
+    "draft": "cyp-c4 as read"
+   }
+  ],
+  "kept": {}
+ },
+ "fit": {
+  "reader": "a fresh agent given tools/humanization/fit_read_brief.md, the universal version (reads/fit-cyp-c4.txt) (reads/read-text-cyp-c4.txt)",
+  "marked": [
+   {
+    "s": "When doctors gave it to five patients, three had no signs left within two hours, and the other two after a second dose.",
+    "found": "CAN'T TELL, FROM, MISREAD"
+   }
+  ],
+  "kept": {
+   "When doctors gave it to five patients, three had no signs left within two hours, and the other two took longer, so keep going with the other steps while you see whether it works.": "they know what to expect, in hours; the second dose it read as an instruction is gone (\"took longer\"), the limit before it says nobody could compare, and the dose, which the guide never gave, goes to him as a question"
+  }
+ },
+ "questions": {
+  "Q1": "PASS: the step leads; the limit of its evidence opens the next sentence; the finding ends on what to do",
+  "Q2": "PASS: give it, and don't wait on it: the helper's acts",
+  "Q3": "PASS: \"fully alert and able to swallow\", \"case reports\", \"five patients\", \"within two hours\"",
+  "Q4": "PASS: \"blocks serotonin receptors\" says what it does in a line; no other term",
+  "Q5": "PASS: \"since\", \"So far\", \"so keep going\" turns on the finding",
+  "Q6": "PASS: what to give, how far the evidence goes, what it did and what to do meanwhile",
+  "Q7": "PASS: each bears on whether to give it and how much to count on it",
+  "Q8": "N/A: no list or group in it",
+  "Q9": "PASS: one idea a sentence"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

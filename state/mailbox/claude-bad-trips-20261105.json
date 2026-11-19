@@ -1862,6 +1862,49 @@
     }
    ],
    "recorded_utc": "2026-11-14T22:18Z"
+  },
+  {
+   "turn": "2026-11-19T00:52Z",
+   "lines_of_work": [
+    "bad trips guide"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "read from a read-only git clone of the live default branch (HEAD 536e6b20, 2026-11-13 17:37 UTC) through the session's git proxy: suggested-fixes/joel-articles/ holds six items, all six already in docs/suggested-fixes-ledger.md, nothing new; its root AGENTS.md and LESSON-INDEX.md loaded for the turn's bootstrap (the GitHub API is still not enabled for it in this session)"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "no new issues, comments or reviews since turn 44's push; the one open pull request changed since then, 438, is the Inner Child lane's; this lane's 437 merged by the lane auto-merge at 22:44 UTC on 2026-11-14; main brought the Inner Child lane's turns 130 and 131 (the sidebar-headings tool, lesson inner-child-2026-11-17e), already merged into this branch"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no edits by others to this lane's handoff note, questions page or state since turn 44's push"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "his round-40 export of 2026-11-19 00:52 UTC: TEACH-CHEST-EVID revised, his version and six checks in its comment, and his question whether DMSO slowing clotting contradicts the warning cut elsewhere"
+    }
+   ],
+   "items": [
+    {
+     "item": "his round-40 export (00:52 UTC)",
+     "outcome": "his version in whole (e8688033, Human High 88); what it teaches is lesson bad-trips-2026-11-19a with the linter's O75 and O76, carried this turn to the cyproheptadine step, the MDMA studies and B106"
+    },
+    {
+     "item": "his clotting question",
+     "outcome": "answered in this turn's reply: the warning round 2's card SF-8 cut (his message of 2026-11-03 22:04 UTC) rested on the same two lab studies his Chest Pain paragraph now links, and his bleed lines in B106 (K4) keep the caution; no change needed"
+    },
+    {
+     "item": "inner-child-2026-11-17e (main): rename a heading only when the sidebar's cut hides its point",
+     "outcome": "noted for this guide's new h3 headings (creatine, mango leaf tea), whose cuts keep their subject; no rename"
+    }
+   ],
+   "recorded_utc": "2026-11-19T01:18Z"
   }
  ]
 }

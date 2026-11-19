@@ -1,0 +1,131 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-19",
+ "text_sha256": "4889c72b0123ed5bd2bb0b2f40e2367858c268c07c77e32c47d92a196b470cde",
+ "text": "If someone is worried about a bleed, I'd probably skip DMSO, but it depends on how severe their issue is. It's not a powerful blood thinner like heparin, unless maybe injected; it's basically a dietary blood thinner. I've never had any issues with bleeding too much from consuming DMSO, and never heard of it either, but if bleeding is already a medical issue I'd want to think about that more. They can feel better on DMSO with a clot or a bleed still there. So if any of the checks above fail, call medics right away, before the window for treating a stroke closes.",
+ "section": "If Someone Says \"My Brain Feels Damaged\": DMSO + Humic Acid + Electrolytes First",
+ "reader": "someone with a friend on a drug who says their brain feels damaged, who has given DMSO and is doing the guide's stroke checks, and who may be worried the problem is a clot or a bleed",
+ "sentences": [
+  {
+   "s": "If someone is worried about a bleed, I'd probably skip DMSO, but it depends on how severe their issue is.",
+   "his": true,
+   "payoff": "they weigh skipping DMSO when a bleed is the worry",
+   "follows": "his lines first: the limit that decides whether DMSO is for this reader at all (lesson 19a)"
+  },
+  {
+   "s": "It's not a powerful blood thinner like heparin, unless maybe injected; it's basically a dietary blood thinner.",
+   "his": true,
+   "payoff": "they know how strongly DMSO thins blood",
+   "follows": "his line (KEEP-AS-IS K4, his message of 2026-11-03 22:04 UTC)"
+  },
+  {
+   "s": "I've never had any issues with bleeding too much from consuming DMSO, and never heard of it either, but if bleeding is already a medical issue I'd want to think about that more.",
+   "his": true,
+   "payoff": "they know his experience and where he'd think again",
+   "follows": "his line (KEEP-AS-IS K4, his message of 2026-11-03 22:04 UTC)"
+  },
+  {
+   "s": "They can feel better on DMSO with a clot or a bleed still there.",
+   "payoff": "they don't stand down when DMSO makes their friend feel better",
+   "follows": "what feeling better can hide, after the bleed lines",
+   "link": "They can feel better"
+  },
+  {
+   "s": "So if any of the checks above fail, call medics right away, before the window for treating a stroke closes.",
+   "payoff": "they call medics right away if any stroke check fails, before the window for treating a stroke closes",
+   "follows": "what to do about it",
+   "link": "So if any"
+  }
+ ],
+ "checked": [],
+ "placement": "My Brain Feels Damaged, after the evidence for DMSO (B105) and before the section's numbered steps: his bleed lines, then what feeling better can hide",
+ "opens": {
+  "first_sentence": "If someone is worried about a bleed, I'd probably skip DMSO, but it depends on how severe their issue is.",
+  "why_reading": "it tells someone who gave DMSO to a friend whose brain feels damaged whether DMSO suits a possible bleed"
+ },
+ "same_point": "none: read My Brain Feels Damaged from its heading to the next for DMSO and bleeding, and for feeling better hiding a stroke: only this paragraph says either (SF-8 cut the interactions line; KEEP-AS-IS C2)",
+ "needed": {
+  "reader": "a fresh agent given tools/humanization/needed_read_brief.md with only the text, its heading and what it is for (reads/need-b106-c1.txt)",
+  "unneeded": [
+   "I've never had any issues with bleeding too much from consuming DMSO, and never heard of it either, but if bleeding is already a medical issue I'd want to think about that more."
+  ],
+  "kept": {
+   "I've never had any issues with bleeding too much from consuming DMSO, and never heard of it either, but if bleeding is already a medical issue I'd want to think about that more.": "they know his experience of DMSO and bleeding; his sentence (KEEP-AS-IS K4), his to change: what the reads found goes to him on a card"
+  }
+ },
+ "his_fixes": {
+  "reader": "a fresh agent given tools/humanization/his_fixes_brief.md with the text, one sentence a line (reads/his-b106-c1.txt)",
+  "marked": [
+   {
+    "s": "If someone is worried about a bleed, I'd probably skip DMSO, but it depends on how severe their issue is.",
+    "difference": "4, 7",
+    "draft": "b106-c1"
+   },
+   {
+    "s": "It's not a powerful blood thinner like heparin, unless maybe injected; it's basically a dietary blood thinner.",
+    "difference": "3, 9",
+    "draft": "b106-c1"
+   },
+   {
+    "s": "I've never had any issues with bleeding too much from consuming DMSO, and never heard of it either, but if bleeding is already a medical issue I'd want to think about that more.",
+    "difference": "4, 7, 9",
+    "draft": "b106-c1"
+   },
+   {
+    "s": "So if any of the checks above fail, call medics anyway, while a hospital can still treat it.",
+    "difference": "2",
+    "draft": "b106-c1"
+   }
+  ],
+  "kept": {
+   "If someone is worried about a bleed, I'd probably skip DMSO, but it depends on how severe their issue is.": "they know he would skip DMSO if a bleed is the worry; his sentence (KEEP-AS-IS K4), his to change: what the reads found goes to him on a card",
+   "It's not a powerful blood thinner like heparin, unless maybe injected; it's basically a dietary blood thinner.": "they know how strongly DMSO thins blood; his sentence (KEEP-AS-IS K4), his to change: what the reads found goes to him on a card",
+   "I've never had any issues with bleeding too much from consuming DMSO, and never heard of it either, but if bleeding is already a medical issue I'd want to think about that more.": "they know his experience of DMSO and bleeding; his sentence (KEEP-AS-IS K4), his to change: what the reads found goes to him on a card"
+  }
+ },
+ "fit": {
+  "reader": "a fresh agent given tools/humanization/fit_read_brief.md, the universal version (reads/fit-b106-c1.txt)",
+  "marked": [
+   {
+    "s": "If someone is worried about a bleed, I'd probably skip DMSO, but it depends on how severe their issue is.",
+    "found": "CAN'T TELL, MISREAD"
+   },
+   {
+    "s": "It's not a powerful blood thinner like heparin, unless maybe injected; it's basically a dietary blood thinner.",
+    "found": "FROM, MISREAD"
+   },
+   {
+    "s": "I've never had any issues with bleeding too much from consuming DMSO, and never heard of it either, but if bleeding is already a medical issue I'd want to think about that more.",
+    "found": "CAN'T TELL, MISREAD"
+   }
+  ],
+  "kept": {
+   "If someone is worried about a bleed, I'd probably skip DMSO, but it depends on how severe their issue is.": "they know he would skip DMSO if a bleed is the worry; his sentence (KEEP-AS-IS K4), his to change: what the reads found goes to him on a card",
+   "It's not a powerful blood thinner like heparin, unless maybe injected; it's basically a dietary blood thinner.": "they know how strongly DMSO thins blood; his sentence (KEEP-AS-IS K4), his to change: what the reads found goes to him on a card",
+   "I've never had any issues with bleeding too much from consuming DMSO, and never heard of it either, but if bleeding is already a medical issue I'd want to think about that more.": "they know his experience of DMSO and bleeding; his sentence (KEEP-AS-IS K4), his to change: what the reads found goes to him on a card"
+  }
+ },
+ "questions": {
+  "Q1": "PASS: his bleed decision first; what feeling better can hide, then what to do",
+  "Q2": "PASS: \"call medics right away\": the helper's act",
+  "Q3": "PASS: \"a clot or a bleed\", \"the checks above\"",
+  "Q4": "PASS: no term left unexplained",
+  "Q5": "PASS: \"So if any\" turns on what feeling better can hide",
+  "Q6": "PASS: whether DMSO suits a bleed, then the checks that still decide",
+  "Q7": "PASS: each bears on DMSO for a friend who may have a clot or a bleed",
+  "Q8": "N/A: no list or group in it",
+  "Q9": "PASS: one idea a sentence"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ },
+ "his_whose": "his own: his bleed lines, from his message of 2026-11-03 22:04 UTC and round 2's card AN-Q3b, which he approved 2026-11-04 10:26 UTC (KEEP-AS-IS K4)"
+}

@@ -152,7 +152,7 @@ Jaw tension should also mean no more MDMA, less exertion and heat, and closer mo
 
 DMSO is also my first remedy for many injuries and some chest pain. After I overused erythritol, I developed angina that lasted for days. I took DMSO, the pain disappeared within about a minute, and it never returned.
 
-The cardiovascular science is preclinical but relevant. In rats, DMSO pretreatment reduced myocardial infarct size by about three quarters and sharply reduced cardiac injury markers. Other work found inhibition of tissue factor, platelet activation, and arterial thrombus formation. [Myocardial-ischemia study](https://pubmed.ncbi.nlm.nih.gov/19904216/); [tissue-factor and thrombosis study](https://pubmed.ncbi.nlm.nih.gov/17000906/); [human platelet study](https://pubmed.ncbi.nlm.nih.gov/20035720/).
+So far, the heart research on DMSO has only been in animals and lab dishes, and only as a prophylactic (preventative treatment). When they [gave it to rats for three days before a heart attack](https://pubmed.ncbi.nlm.nih.gov/19904216/), those rats lost about three quarters less heart muscle than the rats who didn't get DMSO. Most heart attacks come from a clot blocking an artery, so it's a good sign that DMSO also [slowed clotting, in mice](https://pubmed.ncbi.nlm.nih.gov/17000906/) and [in human platelets](https://pubmed.ncbi.nlm.nih.gov/20035720/) (the blood cells that start clots) in a dish.
 
 For steady chest pain that's mild, I'd just use DMSO + magnesium chloride on the chest, as long as they're fully alert. For the following more serious signs (or if unsure), I'd also call medics:
 
