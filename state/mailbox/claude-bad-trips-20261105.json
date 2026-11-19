@@ -1948,6 +1948,41 @@
     }
    ],
    "recorded_utc": "2026-11-19T15:18Z"
+  },
+  {
+   "turn": "2026-11-19T15:41Z",
+   "lines_of_work": [
+    "bad trips guide"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "live default branch fetched read-only (3d79cc8, unchanged since 15:15 UTC); suggested-fixes lane unchanged, nothing new"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "this lane's pull request 442 merged by the lane auto-merge; no new issues, comments or reviews"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no edits by others to this lane's handoff note, questions page or state since turn 46's push"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "his message of 2026-11-19 15:41 UTC: his wife's seizures came with low potassium, so it could be any of the electrolytes, starting with low magnesium in his experience; and what about hypertonic fluids, unless they can't keep it down or swallow"
+    }
+   ],
+   "items": [
+    {
+     "item": "his message of 15:41 UTC",
+     "outcome": "answered with sources; round 42's card updated: something very salty while waiting for medics if alert and not vomiting, magnesium with sodium and potassium in the seizure line, checked Human High 157 (597c5351)"
+    }
+   ],
+   "recorded_utc": "2026-11-19T15:46Z"
   }
  ]
 }
