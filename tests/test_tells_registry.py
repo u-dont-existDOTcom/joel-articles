@@ -92,8 +92,9 @@ class RegistryShape(unittest.TestCase):
         # 2026-11-12 18:19 UTC (bad-trips-2026-11-12i); W129 (O74, a list item that finishes its lead-in ending with a period)
         # from his message of 2026-11-13 14:15 UTC (bad-trips-2026-11-12m); W130 (O75, a past perfect where the simple past
         # does) and W131 (O76, the same abbreviation in three sentences in a row) from his round-40 tries of 2026-11-19
-        # (bad-trips-2026-11-19a)
-        self.assertEqual(len(ids), 201)
+        # (bad-trips-2026-11-19a); J71 (a word or a pointer a reader could take two ways) from his round-41 answer of
+        # 2026-11-19 15:15 UTC (bad-trips-2026-11-19b)
+        self.assertEqual(len(ids), 202)
         self.assertEqual(len(set(ids)), len(ids))
         self.assertEqual(sum(t['kind'] == 'mechanical' for t in TELLS), 131)
         for t in TELLS:

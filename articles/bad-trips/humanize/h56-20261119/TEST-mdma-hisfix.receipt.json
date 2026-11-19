@@ -1,0 +1,132 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-19",
+ "text_sha256": "3e39ca994283df2558e45e5a2d2f394ac3129256e60818ba1b2ca10188f3d315",
+ "text": "Once their jaw tenses, that should be their last dose of MDMA, so get them to slow down and cool off. If they drink a lot of plain water, even a single normal MDMA dose raises the risk of their sodium dropping too low, so have them sip an electrolyte drink when they're thirsty instead. The following indicators would justify calling medics: If their confusion or headache worsens, or vomiting won't stop (sodium might be too low by then for even an electrolyte drink to fix, so don't give them any more to drink). If their muscles keep getting weaker or their heart palpitations keep getting stronger, that could be from dangerously low potassium, like my second wife had. A seizure or collapse can result from low sodium or potassium, and can also come from overheating or MDMA toxicity.",
+ "section": "MDMA: Jaw Tension Is the Magnesium Alarm",
+ "reader": "someone with a friend (or themselves) on MDMA whose jaw has tensed up, after the author's magnesium chloride method and his second wife's story of critically low potassium, deciding what else to do and when to call medics",
+ "sentences": [
+  {
+   "s": "Once their jaw tenses, that should be their last dose of MDMA, so get them to slow down and cool off.",
+   "his": true,
+   "payoff": "they make the jaw tension the last dose and get their friend to slow down and cool off",
+   "follows": "his paragraph opens"
+  },
+  {
+   "s": "If they drink a lot of plain water, even a single normal MDMA dose raises the risk of their sodium dropping too low, so have them sip an electrolyte drink when they're thirsty instead.",
+   "his": true,
+   "payoff": "they have their friend sip an electrolyte drink when thirsty, not drink a lot of plain water",
+   "follows": "his line (his round-41 version, c45651d9)"
+  },
+  {
+   "s": "The following indicators would justify calling medics: If their confusion or headache worsens, or vomiting won't stop (sodium might be too low by then for even an electrolyte drink to fix, so don't give them any more to drink).",
+   "payoff": "they call medics when confusion or a headache gets worse or vomiting won't stop, and from then on give no more to drink, since by then even an electrolyte drink can't fix the sodium",
+   "follows": "his first call-medics signs, with what his parenthesis meant said plainly: his question was whether to keep giving electrolytes",
+   "link": "sodium might be too low by then"
+  },
+  {
+   "s": "If their muscles keep getting weaker or their heart palpitations keep getting stronger, that could be from dangerously low potassium, like my second wife had.",
+   "his": true,
+   "payoff": "they call medics when muscles keep weakening or palpitations keep getting stronger",
+   "follows": "his line (his round-41 version, c45651d9)"
+  },
+  {
+   "s": "A seizure or collapse can result from low sodium or potassium, and can also come from overheating or MDMA toxicity.",
+   "payoff": "they know a seizure or collapse can come from low sodium as well as potassium, overheating or MDMA toxicity",
+   "follows": "his last call-medics sign, low sodium added: it is the electrolyte most often behind MDMA seizures",
+   "link": "low sodium or potassium"
+  }
+ ],
+ "checked": [
+  {
+   "point": "whether to keep giving electrolyte drinks once low-sodium signs show (his question)",
+   "found": "the Wilderness Medical Society guidelines (2019 update, in American Family Physician 2021): overdrinking water or sports drinks, both hypotonic, is the usual cause; fluids are restricted once low sodium is suspected; severe cases get hypertonic saline; MDMA cases in hospital the same (Merck Manual: fluid restriction or hypertonic IV fluids)",
+   "still_needed": "yes: they stop giving drinks once those signs show and leave the fix to the hospital",
+   "fate": "changed"
+  },
+  {
+   "point": "what a seizure or collapse can come from",
+   "found": "low sodium is the electrolyte most often behind MDMA seizures (the case reports and reviews the search found; hypertonic saline given for them); severe low potassium brings weakness and heart rhythm trouble",
+   "still_needed": "yes: they know low sodium can bring a seizure too, not only low potassium",
+   "fate": "changed"
+  }
+ ],
+ "placement": "MDMA: Jaw Tension Is the Magnesium Alarm, after his second wife's story (B118), before the kidney paragraph (B120)",
+ "opens": {
+  "first_sentence": "Once their jaw tenses, that should be their last dose of MDMA, so get them to slow down and cool off.",
+  "why_reading": "it tells someone whose friend's jaw has tensed on MDMA what to do now and which signs mean medics"
+ },
+ "same_point": "none: read the MDMA section from its heading to the next for drinking and the call-medics signs: only this paragraph says them; B120 names acute kidney injury with its review",
+ "needed": {
+  "reader": "a fresh agent given tools/humanization/needed_read_brief.md with only the text, its heading and what it is for (reads/need.txt), of reads/read-text-mdma-hisfix.txt",
+  "unneeded": [
+   "A seizure or collapse can result from low sodium or potassium, and can also come from overheating or MDMA toxicity."
+  ],
+  "kept": {
+   "A seizure or collapse can result from low sodium or potassium, and can also come from overheating or MDMA toxicity.": "they know what a seizure or collapse can come from; his sentence with \"low sodium or\" added; the read's point, that it says no action, goes to him on the card, the sentence sitting under his \"The following indicators would justify calling medics:\""
+  }
+ },
+ "his_fixes": {
+  "reader": "a fresh agent given tools/humanization/his_fixes_brief.md with the text, one sentence a line (reads/his.txt), of reads/read-text-mdma-hisfix.txt",
+  "marked": [
+   {
+    "s": "The following indicators would justify calling medics: If their confusion or headache worsens, or vomiting won't stop (by then their sodium may already be too low, so stop all drinks, electrolyte ones too, since they'd only thin it further).",
+    "difference": "1, 5",
+    "draft": "mdma-hisfix as read"
+   },
+   {
+    "s": "If their muscles keep getting weaker or their heart palpitations keep getting stronger, that could be from dangerously low potassium, like my second wife had.",
+    "difference": "7",
+    "draft": "mdma-hisfix"
+   },
+   {
+    "s": "A seizure or collapse can result from low sodium or potassium, and can also come from overheating or MDMA toxicity.",
+    "difference": "1, 7",
+    "draft": "mdma-hisfix"
+   }
+  ],
+  "kept": {
+   "If their muscles keep getting weaker or their heart palpitations keep getting stronger, that could be from dangerously low potassium, like my second wife had.": "they know weakening muscles and stronger palpitations mean medics; his sentence, his to change: what the read found goes to him on round 42's card",
+   "A seizure or collapse can result from low sodium or potassium, and can also come from overheating or MDMA toxicity.": "they know what a seizure or collapse can come from (low sodium added); his sentence, his to change: what the read found goes to him on round 42's card"
+  }
+ },
+ "fit": {
+  "reader": "a fresh agent given tools/humanization/fit_read_brief.md, the universal version (reads/fit.txt), of reads/read-text-mdma-hisfix.txt",
+  "marked": [
+   {
+    "s": "The following indicators would justify calling medics: If their confusion or headache worsens, or vomiting won't stop (by then their sodium may already be too low, so stop all drinks, electrolyte ones too, since they'd only thin it further).",
+    "found": "ANYWAY, CAN'T TELL, MISREAD"
+   },
+   {
+    "s": "If their muscles keep getting weaker or their heart palpitations keep getting stronger, that could be from dangerously low potassium, like my second wife had.",
+    "found": "ANYWAY, CAN'T TELL"
+   }
+  ],
+  "kept": {
+   "If their muscles keep getting weaker or their heart palpitations keep getting stronger, that could be from dangerously low potassium, like my second wife had.": "they know weakening muscles and stronger palpitations mean medics; his sentence, his to change: what the read found goes to him on round 42's card"
+  }
+ },
+ "questions": {
+  "Q1": "PASS: his order kept; the parenthesis now says what \"too late for an easy fix\" meant",
+  "Q2": "PASS: \"don't give them any more to drink\": the helper's act",
+  "Q3": "PASS: \"even an electrolyte drink\", \"low sodium or potassium\"",
+  "Q4": "PASS: no new term",
+  "Q5": "PASS: \"by then\" ties the stop to the signs before it, which keeps it apart from his sipping line",
+  "Q6": "PASS: his order",
+  "Q7": "PASS: each bears on a friend on MDMA",
+  "Q8": "PASS: his signs, grouped as he grouped them",
+  "Q9": "PASS: his sentences"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ },
+ "his_whose": "his own: his round-41 version of the MDMA paragraph (TEACH-MDMA, his check c45651d9, Human High 132), exported 2026-11-19 15:15 UTC"
+}

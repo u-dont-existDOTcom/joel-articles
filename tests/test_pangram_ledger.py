@@ -542,6 +542,24 @@ class SenseGate(unittest.TestCase):
                                                'every small fix of the windows was tried')), 0)
         self.read_ai(t3)
 
+    def test_a_near_miss_is_fixed_word_by_word(self):
+        """Lesson bad-trips-2026-11-19b: after a try with a Human window, the next starts from it and changes a word or two
+        (his round-41 fixes: "it" made "this med", "too weak" made "insufficient"); --big-change doesn't lift it until two
+        small tries from it have been checked."""
+        t1, r1 = self.files('Letting them move around is fine. If they want to leave, someone goes with them.')
+        self.assertEqual(self.predict(t1, r1), 0)
+        pid = L.read(self.ledger)[-1]['id']
+        with open(self.ledger, 'a', encoding='utf-8') as f:
+            f.write(json.dumps({'type': 'result', 'prediction': pid, 'at': 'x', 'sha256': L.read(self.ledger)[-1]['sha256'],
+                                'verdict': 'Mixed', 'link': 'https://www.pangram.com/history/near', 'right': False,
+                                'likelihood': 0.79, 'windows': [{'label': 'Human', 'confidence': 'Low', 'words': 8},
+                                                                {'label': 'AI-Generated', 'confidence': 'Medium', 'words': 9}]}) + '\n')
+        t3, r3 = self.files('Pacing is fine, so let them walk laps of the yard. Walk with them if they insist on going.')
+        self.assertEqual(self.predict(t3, r3, ('--diagnosis', 'acts on things', '--big-change',
+                                               'every small fix of the windows was tried')), 2)
+        t2, r2 = self.files('Letting them move around is fine. If they want to leave, someone should go with them.')
+        self.assertEqual(self.predict(t2, r2, ('--diagnosis', 'what someone does said as what they should do')), 0)
+
     def test_a_small_retry_goes_through(self):
         t1, r1 = self.files('Letting them move around is fine. If they want to leave, someone goes with them.')
         self.assertEqual(self.predict(t1, r1), 0)

@@ -3091,6 +3091,18 @@
    ],
    "rule": "O76",
    "example": "The heart research on DMSO has only been in animals and lab dishes so far. When they gave DMSO to rats for three days before a heart attack, those rats lost less heart muscle. Most heart attacks come from a clot, so it's a good sign that DMSO also slowed clotting."
+  },
+  {
+   "id": "J71",
+   "tell": "a word or a pointer a reader could take two ways (an \"it\" that could point at two things, \"too weak\" that could describe the drug or the evidence, a statement that is really an instruction, a sign with nobody's name on it)",
+   "kind": "judgment",
+   "sources": [
+    {
+     "file": "docs/lessons/2026-11-19-1515-bad-trips.md",
+     "quote": "first i clarified what \"it\" was referring to, then i clarified what \"too weak\" meant since that souunds like possibly the effects of the drug or possibly the evidence"
+    }
+   ],
+   "reason": "what a word could mean in its sentence is meaning: a fresh reader given tools/humanization/his_fixes_brief.md (its tenth way) writes what each pointer and describing word could mean and marks the ones a quick reader could take either way; pangram_ledger.py holds a retry after a near miss to a word or two (bad-trips-2026-11-19b)"
   }
  ]
 }

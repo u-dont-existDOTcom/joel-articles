@@ -1457,6 +1457,39 @@
    "must_not_contain": [
     "The cardiovascular science is preclinical but relevant."
    ]
+  },
+  {
+   "id": "r41-b106-order",
+   "status": "applied",
+   "what": "My Brain Feels Damaged's bleed paragraph: his three bleed lines first, my two after them in plain words (round 41, B106-ORDER)",
+   "joel": "approved card B106-ORDER, 2026-11-19 10:53 UTC",
+   "applied_by": "review/r41/ANSWERS-R41-20261119-1515.json (exported 2026-11-19 15:15 UTC), put in by review/r41/apply_r41.py",
+   "must_contain": [
+    "They can feel better on DMSO with a clot or a bleed still there."
+   ],
+   "must_not_contain": [
+    "The larger adjacent risk is losing a treatment window"
+   ]
+  },
+  {
+   "id": "r41-cyp-his",
+   "status": "applied",
+   "what": "Suspected Serotonin Syndrome's step 2, his version whole (round 41, TEACH-CYP; his check cc5e6563, Human High 58)",
+   "joel": "2026-11-19 15:14 UTC: \"i made 2 changes, and i checked each one. each was necessary to get to fully high conf human. first i clarified what \"it\" was referring to, then i clarified what \"too weak\" meant\"",
+   "applied_by": "review/r41/ANSWERS-R41-20261119-1515.json (exported 2026-11-19 15:15 UTC), put in by review/r41/apply_r41.py",
+   "must_contain": [
+    "So far, the evidence for this med has only been"
+   ]
+  },
+  {
+   "id": "r41-mdma-his",
+   "status": "applied",
+   "what": "MDMA's paragraph after his second wife's story, his version whole (round 41, TEACH-MDMA; his check c45651d9, Human High 132)",
+   "joel": "2026-11-19 15:07 UTC: \"alright i tried to fully clarify it and not repeat 3 times to call medics, now it's human high conf, altho i'm not sure i clarified it correctly medically speaking. check to make sure.\"",
+   "applied_by": "review/r41/ANSWERS-R41-20261119-1515.json (exported 2026-11-19 15:15 UTC), put in by review/r41/apply_r41.py",
+   "must_contain": [
+    "The following indicators would justify calling medics:"
+   ]
   }
  ]
 }

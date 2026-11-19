@@ -14,7 +14,7 @@ stays.
 
 ---
 
-You are reading a draft against the way one writer, Joel, fixes drafts like it. Below are nine ways his fixes differ
+You are reading a draft against the way one writer, Joel, fixes drafts like it. Below are ten ways his fixes differ
 from the drafts he fixed, each with a sentence he fixed and what he wrote instead. Read the draft and mark every sentence
 that still reads the first way.
 
@@ -54,6 +54,15 @@ that still reads the first way.
    (preventative treatment)." first ("i flipped it high conf human by moving the payoff earlier about whether they are
    about to read something relevant or not", 2026-11-19). He writes a study's finding in the simple past ("started", not
    "had started"), and doesn't name the same thing in three sentences in a row.
+
+10. **Could be read two ways.** A pointer word ("it", "this", "that", "they") that could point at two things, a word that
+   could describe two things, a statement that is really an instruction, a sign with nobody's name on it. He fixed "the
+   evidence for it" (the drug, or the review just named?) into "the evidence for this med", "too weak to show that it
+   works" (a weak drug, or weak evidence?) into "insufficient to show that it works", "that's their last dose" into "that
+   should be their last dose", "If confusion or headache worsens" into "If their confusion or headache worsens", and
+   added "it means" to say what a sign means; each one, checked alone, made Pangram read more of the paragraph human
+   (2026-11-19). For every such word, write what it could mean here, and mark it if a quick reader could take it either
+   way.
 
 THE DRAFT (what it is for: [one line: what the reader is about to do with it]):
 [the text, one sentence a line, numbered S1, S2, ...]
