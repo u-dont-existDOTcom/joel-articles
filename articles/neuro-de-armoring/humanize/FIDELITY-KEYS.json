@@ -2676,6 +2676,14 @@
     "2018",
     "5"
    ]
+  },
+  {
+   "by": "fix-20261108/joel-20261120-1705-message.txt, answer 20 (\"you can say it's above, although when not isolated, it's harder to compare\"), applied by fix-20261108/x1120a/apply_x1120a.py",
+   "why": "the PS food line says the mackerel fillet's PS is above the 400 mg the PS section says worked, with his caveat that PS in food is harder to compare",
+   "numbers_lost": [],
+   "numbers_new": [
+    "400mg"
+   ]
   }
  ],
  "warning_words": {
