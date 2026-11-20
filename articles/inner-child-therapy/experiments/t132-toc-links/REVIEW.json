@@ -1,0 +1,282 @@
+[
+  {
+    "id": "S013",
+    "quote": "If this is due to physical pain, see my later section “ Compassion Exit? ,” for an alternative plan that’s more natural and healthy.",
+    "problem": "In the crisis section, this sends someone who may be about to act toward a section on letting go of life, calling it more natural and healthy, instead of keeping them on getting help now (and that section is actually titled “Compassionate Exit?”).",
+    "severity": "high",
+    "fix": "If this is due to physical pain, you deserve real help with the pain too, so once you’re safe and someone’s with you, see my later section “Physical Pain Makes It Harder.”",
+    "needs_author": true
+  },
+  {
+    "id": "S084x",
+    "quote": "one way that humans and animals have traditionally used to give up on an unbearable life in a meditative way, without explicit suicidal intent",
+    "problem": "It offers readers in unbearable pain, including suicidal readers sent here from the crisis section, a gentle-sounding way to let go of life, which is still a way of dying however it is framed.",
+    "severity": "high",
+    "fix": "While I don’t advocate suicide nor assisted suicide, if your pain has you thinking about giving up on life, please treat that as a crisis: get another person involved and push for a pain specialist before anything else.",
+    "needs_author": true
+  },
+  {
+    "id": "S084x",
+    "quote": "often cures a lot of people from incurable conditions, both physical, mental, and spiritual, although it can be more risky if they are already malnourished.",
+    "problem": "It claims without evidence that this often cures incurable physical and mental illness and names only malnutrition as a risk, which could lead a seriously ill reader to drop treatment or try it unsupervised.",
+    "severity": "high",
+    "fix": "Some people say it helped them, but it’s no cure for serious illness, and it can be dangerous without a doctor keeping an eye on you, especially if you’re already sick, on medication, or underweight.",
+    "needs_author": true
+  },
+  {
+    "id": "S084x",
+    "quote": "My friend Brandon is evidence of this approach. He had end-stage PML, and doctors gave up on him.",
+    "problem": "One recovery story is offered as evidence that this cures an often-fatal brain infection, which could lead a gravely ill reader to try it in place of treatment.",
+    "severity": "high",
+    "fix": "My friend Brandon’s story moved me, though one case can’t show what caused his recovery. He had end-stage PML, and doctors gave up on him.",
+    "needs_author": true
+  },
+  {
+    "id": "S050",
+    "quote": "Miraculously, I then found some obscure ethnobotanical research (on Google Scholar , before AI) which led me to drink roselle tea. Within an hour, I was cured.",
+    "problem": "It reads as a one-hour tea cure for bilharzia, but easing symptoms isn't a cure, the infection was never confirmed, and bilharzia needs testing and standard medicine even when symptoms fade.",
+    "severity": "high",
+    "fix": "Miraculously, I then found some obscure ethnobotanical research (on Google Scholar, before AI) which led me to drink roselle tea, and within an hour the pain and bleeding eased off. (If you ever pee blood, though, get tested, since bilharzia needs proper medicine even when the symptoms quiet down.)",
+    "needs_author": true
+  },
+  {
+    "id": "S094",
+    "quote": "are more protective and nurturing than many other medicines, especially at lower doses, so you don’t need as much Nurturer and Protector built up for those, though you still need some.",
+    "problem": "It calls a list that includes iboga and MDMA gentle enough to need less preparation, with no word on medical screening, iboga's known heart risks, drug interactions or the risks of the suggested add-ons, and it undercuts the advice just above to build the Nurturer and Protector first.",
+    "severity": "high",
+    "fix": "are more nurturing than many other medicines for a lot of people, especially at lower doses, though you still need the Nurturer and Protector built up. Some of them also carry real medical risks (iboga can cause dangerous heart rhythm problems, and several interact with common medications), so get screened first.",
+    "needs_author": true
+  },
+  {
+    "id": "S099",
+    "quote": "If you go manic, psychotic (by which I mean losing your sense of reality to the point of posing a risk to yourself or others), get super paranoid, or end up worse afterward than before, those are signs to reconsider trying the same thing again, and try to figure out why that happened. Don’t try again until you understand what would make it safe.",
+    "problem": "After a manic or psychotic reaction it only says to reconsider and work out the cause yourself, with no professional check (S103 gives one for sober confusion), though such a reaction can mean psychedelics aren't safe for you at all, and its definition skips psychosis that doesn't endanger anyone.",
+    "severity": "high",
+    "fix": "If you go manic or psychotic, get checked by a mental-health professional before trying anything like it again, and know that for some people what makes it safe is not trying again. If you get super paranoid, or end up worse afterward than before, those are signs to reconsider trying the same thing again, and try to figure out why that happened.",
+    "needs_author": true
+  },
+  {
+    "id": "S101",
+    "quote": "And any predisposition toward mania or psychosis is a warning sign too, whether it’s family history, a bad environment or a bad mindset. These are just caution signs, and when you see them, you take more precautions of every kind.",
+    "problem": "A personal or close family history of psychosis or bipolar disorder is a standard reason clinical trials screen people out of psychedelics, so calling it “just” a caution sign that more precautions can cover understates the risk.",
+    "severity": "high",
+    "fix": "With a personal or close family history of psychosis or bipolar, these are more than caution signs: many clinicians would say to skip these drugs, so get a professional’s view before going ahead. For the other signs, you take more precautions of every kind.",
+    "needs_author": false
+  },
+  {
+    "id": "S077",
+    "quote": "I would hold him as lovingly as possible, until he started to cry, because he did not seem interested in learning any lessons until that point.",
+    "problem": "Holding a child who can't leave until he cries is coercive restraint, close to the discredited “holding therapy,” yet it is presented as discipline that worked, even though his sister says it taught her hugs are punishment.",
+    "severity": "high",
+    "fix": "I would hold him as lovingly as possible, but looking back I wouldn’t recommend holding a child who wants to get away until they cry: a hug they’re free to leave is a different thing.",
+    "needs_author": true
+  },
+  {
+    "id": "S077",
+    "quote": "With very stubborn children (most are at times), that may require induced crying. It didn’t always require a punishment hug to do that, either.",
+    "problem": "It recommends deliberately making children cry to break their “ego,” which is emotional coercion, and the shouting example right after describes a child conditioned to fear rather than to connect.",
+    "severity": "high",
+    "fix": "With very stubborn children (most are at times), that may take patience, and staying close until they’re ready, rather than making them cry.",
+    "needs_author": true
+  },
+  {
+    "id": "S077",
+    "quote": "A regular time-out could work, but sometimes it has to be enforced somehow, like locking the kid in their room for a bit (and assuming they can’t just have fun in their room).",
+    "problem": "Locking a child in a room puts them at risk in a fire or other emergency and can terrify them, so it shouldn't be offered as a way to enforce a time-out.",
+    "severity": "high",
+    "fix": "A regular time-out could work, but sometimes it has to be enforced somehow, just never by locking the kid in.",
+    "needs_author": false
+  },
+  {
+    "id": "S020",
+    "quote": "If you notice this happening, extricate yourself quickly.",
+    "problem": "In an abusive relationship, leaving suddenly without a plan can raise the danger, so this needs a safety-planning condition for anyone facing violence or threats.",
+    "severity": "medium",
+    "fix": "If you notice this happening, start getting yourself out, and if they’ve ever been violent or threatening, plan it with a domestic-violence service, since leaving can be the riskiest time.",
+    "needs_author": false
+  },
+  {
+    "id": "S011",
+    "quote": "If some of it turns out to be malice they actually want to act on, the inner child can wait.",
+    "problem": "Someone who finds they want to act on malice is only told to put off the inner-child work, with no pointer to getting help before anyone is hurt.",
+    "severity": "medium",
+    "fix": "If some of it turns out to be malice they actually want to act on, the inner child can wait, and the first job is talking it through with a therapist before anyone gets hurt.",
+    "needs_author": false
+  },
+  {
+    "id": "S105",
+    "quote": "doctors & AI don’t know about a lot of this",
+    "problem": "In the section on what you mix, this casts doubt on asking a doctor or pharmacist, while the best-known dangerous mixes with ayahuasca, such as many antidepressants, go unnamed.",
+    "severity": "medium",
+    "fix": "doctors & AI don’t know about a lot of this, though they do know the big ones: many antidepressants and other serotonin drugs can be dangerous with ayahuasca, so check with a doctor or pharmacist before you mix.",
+    "needs_author": false
+  },
+  {
+    "id": "S107",
+    "quote": "In general, don’t call the cops and expect it to go well. That’s a real last resort.",
+    "problem": "It could make readers hold off on calling for help in a drug emergency, since it doesn't say that a medical emergency (trouble breathing, a seizure, someone who won't wake up) needs emergency help right away.",
+    "severity": "medium",
+    "fix": "In general, don’t call the cops and expect it to go well, so in a mental-health crisis that’s a real last resort. But if someone’s having a medical emergency, like trouble breathing, a seizure, or not waking up, call for emergency help right away.",
+    "needs_author": false
+  },
+  {
+    "id": "S084",
+    "quote": "Say an attack has you curled up on the bathroom floor, and whatever knocked the pain out last time (say, fent, or ketamine) starts looking real good, though you know it’ll leave you worse if you keep resorting to that quick fix.",
+    "problem": "It frames the danger as building only with repeated use, when street fentanyl can kill on a single use, especially for someone alone, as in this scene.",
+    "severity": "medium",
+    "fix": "Say an attack has you curled up on the bathroom floor, and whatever knocked the pain out last time (say, fent, or ketamine) starts looking real good, though you know it’ll leave you worse if you keep resorting to that quick fix, and fent can kill you even once, especially alone.",
+    "needs_author": false
+  },
+  {
+    "id": "S095",
+    "quote": "Luckily, I trusted my parents with this information, and instead of taking me to a psychiatrist and pumping me full of anti-psychotic drugs, they put bars on the windows. Many kids are not so lucky in modern societies.",
+    "problem": "It holds up skipping a psychiatrist as the lucky outcome for a child whose voices were daring him to jump, and then says diagnosed kids may get antipsychotics for life, which could steer parents away from the check this situation calls for.",
+    "severity": "medium",
+    "fix": "Luckily, I trusted my parents with this information, and they took it seriously and put bars on the windows. Some kids do get overmedicated, but a voice daring a kid toward harm is exactly when I’d also get a professional to weigh in.",
+    "needs_author": true
+  },
+  {
+    "id": "S077",
+    "quote": "But my sister should probably go back to those memories of punishment hugs and ensure that she learns that hugs are loving, even if that particular hug was also designed to teach a lesson about improving her behavior.",
+    "problem": "It tells someone who says a practice hurt her to relearn it as loving, overriding her own account, the opposite of the guide's advice to believe the little one's complaint.",
+    "severity": "medium",
+    "fix": "But my sister’s little one may need to hear that she’s right, that those hugs felt like punishment, and that she deserved hugs that were only loving.",
+    "needs_author": true
+  },
+  {
+    "id": "S077",
+    "quote": "Importantly, there is currently no expert consensus on how children should be disciplined, aside from using the least amount of force possible, in the least traumatizing way, whatever that may happen to be.",
+    "problem": "It overstates the uncertainty, since major pediatric and psychology bodies agree that physical punishment and harsh or frightening discipline harm children, which also counts against the methods earlier in this section.",
+    "severity": "medium",
+    "fix": "Importantly, experts still disagree about a lot of discipline questions, but they broadly agree on avoiding physical punishment and anything frightening, and on using the least amount of force possible, in the least traumatizing way.",
+    "needs_author": false
+  },
+  {
+    "id": "S076",
+    "quote": "Once you’ve got your cast of perfected future characters (from Borrow Hindsight) in your mind, you can also go back to earlier traumatic memories and relive them in a better way.",
+    "problem": "It invites reliving traumatic memories without the guide's own condition to start with one you can handle (S036), though S008 describes how going straight to the worst memory floods people.",
+    "severity": "medium",
+    "fix": "Once you’ve got your cast of perfected future characters (from Borrow Hindsight) in your mind, you can also go back to earlier traumatic memories and relive them in a better way. Start with one you can handle, like my example below, and save the worst ones for when you have support around.",
+    "needs_author": false
+  },
+  {
+    "id": "S009",
+    "quote": "Although sometimes dreams can show you real memories and even predict the future on occasion, we need to be careful not to assume that they are doing that each time.",
+    "problem": "It invites readers to take some dream or session images as real memories, though such images aren't a reliable record and reading them that way can build false memories, as S063 and S094 warn.",
+    "severity": "medium",
+    "fix": "Dreams can sometimes echo real memories (and I believe they can even predict the future on occasion), but they can feel totally real without proving anything happened, so don’t treat one as a memory unless something outside the dream backs it up.",
+    "needs_author": true
+  },
+  {
+    "id": "S011",
+    "quote": "And if somebody actually wonders whether they’re malicious, they’d do better to meditate on it and find out why they’re asking before they bring their inner child anywhere near it.",
+    "problem": "For people with unwanted harm thoughts, as in OCD, digging into whether they're secretly malicious tends to feed the doubt, the same checking loop the guide warns about in “When Healing Turns Into Checking.”",
+    "severity": "medium",
+    "fix": "And if somebody keeps wondering whether they’re malicious, however they answer it, that’s more like the checking in “When Healing Turns Into Checking” than malice, and an OCD-savvy therapist can help more than meditating on it.",
+    "needs_author": true
+  },
+  {
+    "id": "S100",
+    "quote": "Paranoia during a rough trip can be a warning sign for psychosis, but it doesn’t automatically lead there, since it can be valid. It tends to go that way when it isn’t balanced by practicality.",
+    "problem": "It doesn't separate the fairly common paranoia that passes with a hard trip from paranoia that hangs on once sober, which is the real warning sign, and its “practicality” test, which calls a CIA mind-control belief practically useful, isn't a sound way to judge psychosis risk.",
+    "severity": "medium",
+    "fix": "Paranoia during a rough trip is fairly common and usually passes with the trip, but if it hangs on once you’re sober, that can be a warning sign for psychosis. It’s most worrying when it feels aimed at you personally and nothing can shake it, and that’s the time to get a professional’s view.",
+    "needs_author": true
+  },
+  {
+    "id": "S107",
+    "quote": "When you’re deeply entranced, you can’t freak out: no matter how scary something is, it’s just like, “Oh, this is scary, OK, oh well.”",
+    "problem": "It states as general fact that the brew's trance stops you freaking out, and the next paragraph treats that trance as what keeps people safe at higher doses, though people do panic, and occasionally become psychotic, on ayahuasca.",
+    "severity": "medium",
+    "fix": "For me, being deeply entranced made it hard to freak out: no matter how scary something was, it was just like, “Oh, this is scary, OK, oh well.” That’s no safety net for anyone else, though.",
+    "needs_author": true
+  },
+  {
+    "id": "S007",
+    "quote": "Even if you don’t have someone you know who wants to listen, there are warmlines for this (not hotlines unless it’s an emergency).",
+    "problem": "A reader in distress who isn't sure it counts as an emergency may hold off on a crisis line, though many crisis lines also take calls from people who are struggling but not in immediate danger.",
+    "severity": "low",
+    "fix": "Even if you don’t have someone you know who wants to listen, there are warmlines for this (save hotlines for emergencies, but if you’re not sure whether it is one, call the hotline anyway).",
+    "needs_author": false
+  },
+  {
+    "id": "S141",
+    "quote": "Meditate on why it makes you feel unsafe, and what keeps you in it. Might it be due to a lack of the healed inner child/inner adult relationship?",
+    "problem": "It points someone in an unsafe relationship inward for why they stay, skipping the outside reasons people stay (money, kids, fear of what the other person will do), which can add self-blame.",
+    "severity": "low",
+    "fix": "Meditate on why it makes you feel unsafe, and what keeps you in it, whether that’s money, kids, fear of what they’d do, or something old in you. Might part of it be due to a lack of the healed inner child/inner adult relationship?",
+    "needs_author": false
+  },
+  {
+    "id": "S035",
+    "quote": "Whatever the cause, finding someone trusted that you can slowly open up to is a magic cure.",
+    "problem": "It overstates opening up as a cure, since it often helps but shame can outlast one good talk and a bad reaction can deepen it, so a reader who still feels shame afterward may think they failed.",
+    "severity": "low",
+    "fix": "Whatever the cause, finding someone trusted that you can slowly open up to can work like magic, even if it takes more than one talk.",
+    "needs_author": false
+  },
+  {
+    "id": "S076",
+    "quote": "Many people experienced something like this where the consequences for their little mind were much more severe than anyone would imagine, and in almost every case, the adult themself does not currently understand the extent of the damage until the little one feels safe to tell them.",
+    "problem": "It states as near-universal fact that adults don't grasp how much an early hurt damaged them, which can prime readers to go looking for hidden harm, the kind of suggestion S063 warns about.",
+    "severity": "low",
+    "fix": "Many people experienced something like this where the consequences for their little mind were more severe than anyone would imagine, and often the adult doesn’t understand the extent of the damage until the little one feels safe to tell them.",
+    "needs_author": false
+  },
+  {
+    "id": "S015",
+    "quote": "If the many traditions and the accumulating scientific evidence are right that the mind’s causal process goes on after the body dies, killing the body may take away some of those redirections and leave the suffering to spiral all by itself.",
+    "problem": "It calls past-life and near-death research “accumulating scientific evidence” that the mind survives death, which overstates work most scientists don't accept, in a passage written for someone weighing their life.",
+    "severity": "low",
+    "fix": "If the many traditions, and those researchers, are right that the mind’s causal process goes on after the body dies, killing the body may take away some of those redirections and leave the suffering to spiral all by itself.",
+    "needs_author": false
+  },
+  {
+    "id": "S096",
+    "quote": "The thing to fear is fear itself, since it actually opens us up to being manipulated by demons, which feed on it directly.",
+    "problem": "It gives readers a reason to fear their own fear during sleep paralysis or a trip, the “fear of fear” loop S071 warns about, for an experience the guide itself calls less dangerous than it feels.",
+    "severity": "low",
+    "fix": "The thing to work with is fear itself, since that’s what gives these experiences their grip on us.",
+    "needs_author": true
+  },
+  {
+    "id": "S123",
+    "quote": "Although personally I wouldn’t even bother with that, because whatever they tell you today, the law can change tomorrow.",
+    "problem": "Right after calling the question normal and expected, it says he wouldn't bother asking, which leaves readers unsure whether to ask and may push them to hide things from people who could help.",
+    "severity": "low",
+    "fix": "Just keep in mind that whatever they tell you today, the law can change tomorrow.",
+    "needs_author": true
+  },
+  {
+    "id": "S050",
+    "quote": "For example, when I got tuberculosis from a cave in Mexico at age 20, and coughed for six months straight, eventually having my throat close up, leading to a near death experience.",
+    "problem": "TB spreads between people rather than from caves, while caves are known for a fungal lung infection (histoplasmosis), so either the source or the diagnosis is likely off.",
+    "severity": "low",
+    "fix": "For example, when I got [the illness I was actually diagnosed with] in Mexico at age 20, and coughed for six months straight, eventually having my throat close up, leading to a near death experience.",
+    "needs_author": true
+  },
+  {
+    "id": "S147",
+    "quote": "As far as I can tell, it was first developed in 1976 by Dr. Lucia Capacchione.",
+    "problem": "Inner-child and reparenting ideas came before her 1976 method (Jung's child archetype, W. Hugh Missildine's 1963 book Your Inner Child of the Past), so “first developed” overstates her role.",
+    "severity": "low",
+    "fix": "As far as I can tell, Dr. Lucia Capacchione developed one of the first inner child reparenting methods, in 1976, though the inner child idea itself goes back at least to Carl Jung.",
+    "needs_author": false
+  },
+  {
+    "id": "S137",
+    "quote": "As Lao Tsu might have said (if I could ever have read that whole boring Art of War book), a war with no casualties is the best possible war.",
+    "problem": "The Art of War is by Sun Tzu, not Lao Tzu.",
+    "severity": "low",
+    "fix": "As Sun Tzu might have said (if I could ever have read that whole boring Art of War book), a war with no casualties is the best possible war.",
+    "needs_author": false
+  },
+  {
+    "id": "S094",
+    "quote": "I have more advice on using psychedelics with the therapy in the “Altered States Can Deepen Therapy or Escapism” section further on.",
+    "problem": "That section is the one just before this one, so the pointer sends readers backward instead of to the later psychedelic safety sections.",
+    "severity": "low",
+    "fix": "I have more advice on using psychedelics with the therapy further on, starting with “When Escape Leaves Reality Behind.”",
+    "needs_author": true
+  }
+]

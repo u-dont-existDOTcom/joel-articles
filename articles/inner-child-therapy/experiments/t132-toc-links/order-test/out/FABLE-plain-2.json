@@ -1,0 +1,610 @@
+{
+ "outline": [
+  {
+   "id": "N001",
+   "level": 1
+  },
+  {
+   "id": "N002",
+   "level": 2
+  },
+  {
+   "id": "N003",
+   "level": 2
+  },
+  {
+   "id": "N004",
+   "level": 2
+  },
+  {
+   "id": "N005",
+   "level": 1
+  },
+  {
+   "id": "N006",
+   "level": 2
+  },
+  {
+   "id": "N007",
+   "level": 2
+  },
+  {
+   "id": "N008",
+   "level": 2
+  },
+  {
+   "id": "N009",
+   "level": 2
+  },
+  {
+   "id": "N010",
+   "level": 2
+  },
+  {
+   "id": "N011",
+   "level": 3
+  },
+  {
+   "id": "N012",
+   "level": 2
+  },
+  {
+   "id": "N013",
+   "level": 3
+  },
+  {
+   "id": "N014",
+   "level": 3
+  },
+  {
+   "id": "N015",
+   "level": 1
+  },
+  {
+   "id": "N016",
+   "level": 2
+  },
+  {
+   "id": "N017",
+   "level": 3
+  },
+  {
+   "id": "N018",
+   "level": 3
+  },
+  {
+   "id": "N019",
+   "level": 3
+  },
+  {
+   "id": "N020",
+   "level": 3
+  },
+  {
+   "id": "N021",
+   "level": 2
+  },
+  {
+   "id": "N022",
+   "level": 3
+  },
+  {
+   "id": "N023",
+   "level": 3
+  },
+  {
+   "id": "N024",
+   "level": 3
+  },
+  {
+   "id": "N025",
+   "level": 3
+  },
+  {
+   "id": "N026",
+   "level": 4
+  },
+  {
+   "id": "N027",
+   "level": 3
+  },
+  {
+   "id": "N028",
+   "level": 2
+  },
+  {
+   "id": "N029",
+   "level": 3
+  },
+  {
+   "id": "N030",
+   "level": 3
+  },
+  {
+   "id": "N031",
+   "level": 3
+  },
+  {
+   "id": "N032",
+   "level": 3
+  },
+  {
+   "id": "N033",
+   "level": 3
+  },
+  {
+   "id": "N034",
+   "level": 3
+  },
+  {
+   "id": "N035",
+   "level": 3
+  },
+  {
+   "id": "N036",
+   "level": 4
+  },
+  {
+   "id": "N037",
+   "level": 4
+  },
+  {
+   "id": "N038",
+   "level": 3
+  },
+  {
+   "id": "N039",
+   "level": 4
+  },
+  {
+   "id": "N040",
+   "level": 3
+  },
+  {
+   "id": "N043",
+   "level": 3
+  },
+  {
+   "id": "N044",
+   "level": 3
+  },
+  {
+   "id": "N041",
+   "level": 3
+  },
+  {
+   "id": "N042",
+   "level": 4
+  },
+  {
+   "id": "N045",
+   "level": 2
+  },
+  {
+   "id": "N050",
+   "level": 3
+  },
+  {
+   "id": "N046",
+   "level": 3
+  },
+  {
+   "id": "N047",
+   "level": 3
+  },
+  {
+   "id": "N048",
+   "level": 3
+  },
+  {
+   "id": "N049",
+   "level": 3
+  },
+  {
+   "id": "N051",
+   "level": 3
+  },
+  {
+   "id": "N052",
+   "level": 1
+  },
+  {
+   "id": "N053",
+   "level": 2
+  },
+  {
+   "id": "N058",
+   "level": 3
+  },
+  {
+   "id": "N059",
+   "level": 3
+  },
+  {
+   "id": "N060",
+   "level": 3
+  },
+  {
+   "id": "N061",
+   "level": 3
+  },
+  {
+   "id": "N054",
+   "level": 2
+  },
+  {
+   "id": "N064",
+   "level": 2
+  },
+  {
+   "id": "N055",
+   "level": 2
+  },
+  {
+   "id": "N056",
+   "level": 2
+  },
+  {
+   "id": "N057",
+   "level": 3
+  },
+  {
+   "id": "N062",
+   "level": 2
+  },
+  {
+   "id": "N063",
+   "level": 2
+  },
+  {
+   "id": "N065",
+   "level": 2
+  },
+  {
+   "id": "N066",
+   "level": 2
+  },
+  {
+   "id": "N067",
+   "level": 1
+  },
+  {
+   "id": "N068",
+   "level": 2
+  },
+  {
+   "id": "N069",
+   "level": 2
+  },
+  {
+   "id": "N070",
+   "level": 3
+  },
+  {
+   "id": "N071",
+   "level": 2
+  },
+  {
+   "id": "N072",
+   "level": 3
+  },
+  {
+   "id": "N073",
+   "level": 2
+  },
+  {
+   "id": "N074",
+   "level": 3
+  },
+  {
+   "id": "N075",
+   "level": 2
+  },
+  {
+   "id": "N076",
+   "level": 1
+  },
+  {
+   "id": "N077",
+   "level": 2
+  },
+  {
+   "id": "N078",
+   "level": 3
+  },
+  {
+   "id": "N079",
+   "level": 2
+  },
+  {
+   "id": "N080",
+   "level": 2
+  },
+  {
+   "id": "N081",
+   "level": 2
+  },
+  {
+   "id": "N082",
+   "level": 2
+  },
+  {
+   "id": "N083",
+   "level": 2
+  },
+  {
+   "id": "N084",
+   "level": 3
+  },
+  {
+   "id": "N085",
+   "level": 3
+  },
+  {
+   "id": "N086",
+   "level": 3
+  },
+  {
+   "id": "N087",
+   "level": 2
+  },
+  {
+   "id": "N088",
+   "level": 2
+  },
+  {
+   "id": "N089",
+   "level": 3
+  },
+  {
+   "id": "N090",
+   "level": 1
+  },
+  {
+   "id": "N091",
+   "level": 2
+  },
+  {
+   "id": "N093",
+   "level": 2
+  },
+  {
+   "id": "N094",
+   "level": 3
+  },
+  {
+   "id": "N095",
+   "level": 3
+  },
+  {
+   "id": "N096",
+   "level": 3
+  },
+  {
+   "id": "N097",
+   "level": 3
+  },
+  {
+   "id": "N098",
+   "level": 3
+  },
+  {
+   "id": "N099",
+   "level": 3
+  },
+  {
+   "id": "N100",
+   "level": 3
+  },
+  {
+   "id": "N101",
+   "level": 2
+  },
+  {
+   "id": "N102",
+   "level": 2
+  },
+  {
+   "id": "N103",
+   "level": 3
+  },
+  {
+   "id": "N104",
+   "level": 3
+  },
+  {
+   "id": "N092",
+   "level": 2
+  },
+  {
+   "id": "N105",
+   "level": 1
+  },
+  {
+   "id": "N106",
+   "level": 2
+  },
+  {
+   "id": "N107",
+   "level": 3
+  },
+  {
+   "id": "N108",
+   "level": 3
+  },
+  {
+   "id": "N109",
+   "level": 3
+  },
+  {
+   "id": "N110",
+   "level": 2
+  },
+  {
+   "id": "N111",
+   "level": 3
+  },
+  {
+   "id": "N112",
+   "level": 4
+  },
+  {
+   "id": "N113",
+   "level": 3
+  },
+  {
+   "id": "N114",
+   "level": 3
+  },
+  {
+   "id": "N132",
+   "level": 3
+  },
+  {
+   "id": "N115",
+   "level": 2
+  },
+  {
+   "id": "N116",
+   "level": 3
+  },
+  {
+   "id": "N117",
+   "level": 3
+  },
+  {
+   "id": "N118",
+   "level": 3
+  },
+  {
+   "id": "N119",
+   "level": 4
+  },
+  {
+   "id": "N120",
+   "level": 3
+  },
+  {
+   "id": "N121",
+   "level": 3
+  },
+  {
+   "id": "N122",
+   "level": 3
+  },
+  {
+   "id": "N136",
+   "level": 2
+  },
+  {
+   "id": "N137",
+   "level": 3
+  },
+  {
+   "id": "N138",
+   "level": 3
+  },
+  {
+   "id": "N139",
+   "level": 3
+  },
+  {
+   "id": "N140",
+   "level": 3
+  },
+  {
+   "id": "N123",
+   "level": 2
+  },
+  {
+   "id": "N124",
+   "level": 3
+  },
+  {
+   "id": "N125",
+   "level": 3
+  },
+  {
+   "id": "N127",
+   "level": 3
+  },
+  {
+   "id": "N128",
+   "level": 3
+  },
+  {
+   "id": "N129",
+   "level": 3
+  },
+  {
+   "id": "N130",
+   "level": 4
+  },
+  {
+   "id": "N131",
+   "level": 3
+  },
+  {
+   "id": "N126",
+   "level": 3
+  },
+  {
+   "id": "N133",
+   "level": 2
+  },
+  {
+   "id": "N134",
+   "level": 3
+  },
+  {
+   "id": "N135",
+   "level": 2
+  },
+  {
+   "id": "N142",
+   "level": 1
+  },
+  {
+   "id": "N143",
+   "level": 1
+  },
+  {
+   "id": "N144",
+   "level": 2
+  },
+  {
+   "id": "N145",
+   "level": 2
+  },
+  {
+   "id": "N146",
+   "level": 2
+  },
+  {
+   "id": "N147",
+   "level": 2
+  },
+  {
+   "id": "N148",
+   "level": 2
+  },
+  {
+   "id": "N141",
+   "drop": true
+  }
+ ],
+ "reasons": [
+  "N008, N009 raised to level 2: neither is about the body, so they should not sit under 'Your Body Might Need Some Love First'.",
+  "N037 raised from 5 to 4: 448 words on gratitude without conditions deserve a ToC entry.",
+  "N041-N042 (the vow) moved to the end of the Nurturer: it interrupted the spiritual run N035-N044 and works as the Nurturer's practical capstone.",
+  "N050 moved to open the Guide section: it says when the Guide should come in, which the reader needs before the Guide techniques.",
+  "N058-N061 moved under N053: they answer what happens after you 'wait and listen', and are not about two-handed journaling; N057 stays with journaling.",
+  "N064 moved next to N054: both are about reading feelings and thoughts; it had split the hook sequence N062-N063-N065.",
+  "N092 moved to the end of Altered States: 'Now, the beautiful stuff' lands after the cautions, and its laundry theme leads into the real-life part.",
+  "N132 moved under Differentiation: it opens 'Differentiation is slow' and was stranded under conflict.",
+  "N136-N140 (finding a therapist, AI) moved after Finding People: it is about finding support, and lets the part end on 'The Love Has to Move' instead of AI therapy.",
+  "N126 moved to the end of Speaking Up: it broke the conflict sequence N125-N127-N129.",
+  "N131 raised to level 3: a safety item should be listed, not hidden as a sub-sub-point of 'Other Folks Also Have Hooks'.",
+  "N141 dropped, N142 and N143 made level 1, N144-N148 level 2: the conclusion and the appendix are different things and each gets its own top-level entry."
+ ]
+}

@@ -1,0 +1,610 @@
+{
+ "outline": [
+  {
+   "id": "N001",
+   "level": 1
+  },
+  {
+   "id": "N002",
+   "level": 2
+  },
+  {
+   "id": "N003",
+   "level": 2
+  },
+  {
+   "id": "N004",
+   "level": 2
+  },
+  {
+   "id": "N005",
+   "level": 1
+  },
+  {
+   "id": "N006",
+   "level": 2
+  },
+  {
+   "id": "N007",
+   "level": 2
+  },
+  {
+   "id": "N008",
+   "level": 3
+  },
+  {
+   "id": "N009",
+   "level": 2
+  },
+  {
+   "id": "N010",
+   "level": 2
+  },
+  {
+   "id": "N011",
+   "level": 3
+  },
+  {
+   "id": "N012",
+   "level": 2
+  },
+  {
+   "id": "N013",
+   "level": 3
+  },
+  {
+   "id": "N014",
+   "level": 3
+  },
+  {
+   "id": "N015",
+   "level": 1
+  },
+  {
+   "id": "N016",
+   "level": 2
+  },
+  {
+   "id": "N017",
+   "level": 3
+  },
+  {
+   "id": "N018",
+   "level": 3
+  },
+  {
+   "id": "N019",
+   "level": 3
+  },
+  {
+   "id": "N020",
+   "level": 3
+  },
+  {
+   "id": "N021",
+   "level": 2
+  },
+  {
+   "id": "N022",
+   "level": 3
+  },
+  {
+   "id": "N023",
+   "level": 3
+  },
+  {
+   "id": "N024",
+   "level": 3
+  },
+  {
+   "id": "N025",
+   "level": 3
+  },
+  {
+   "id": "N026",
+   "level": 4
+  },
+  {
+   "id": "N027",
+   "level": 3
+  },
+  {
+   "id": "N028",
+   "level": 2
+  },
+  {
+   "id": "N029",
+   "level": 3
+  },
+  {
+   "id": "N030",
+   "level": 3
+  },
+  {
+   "id": "N031",
+   "level": 3
+  },
+  {
+   "id": "N032",
+   "level": 3
+  },
+  {
+   "id": "N033",
+   "level": 3
+  },
+  {
+   "id": "N034",
+   "level": 3
+  },
+  {
+   "id": "N035",
+   "level": 3
+  },
+  {
+   "id": "N036",
+   "level": 4
+  },
+  {
+   "id": "N037",
+   "level": 5
+  },
+  {
+   "id": "N038",
+   "level": 3
+  },
+  {
+   "id": "N039",
+   "level": 4
+  },
+  {
+   "id": "N040",
+   "level": 3
+  },
+  {
+   "id": "N043",
+   "level": 3
+  },
+  {
+   "id": "N044",
+   "level": 3
+  },
+  {
+   "id": "N041",
+   "level": 3
+  },
+  {
+   "id": "N042",
+   "level": 4
+  },
+  {
+   "id": "N045",
+   "level": 2
+  },
+  {
+   "id": "N046",
+   "level": 3
+  },
+  {
+   "id": "N047",
+   "level": 3
+  },
+  {
+   "id": "N048",
+   "level": 3
+  },
+  {
+   "id": "N049",
+   "level": 3
+  },
+  {
+   "id": "N050",
+   "level": 3
+  },
+  {
+   "id": "N051",
+   "level": 3
+  },
+  {
+   "id": "N052",
+   "level": 1
+  },
+  {
+   "id": "N053",
+   "level": 2
+  },
+  {
+   "id": "N058",
+   "level": 5
+  },
+  {
+   "id": "N059",
+   "level": 5
+  },
+  {
+   "id": "N060",
+   "level": 5
+  },
+  {
+   "id": "N061",
+   "level": 5
+  },
+  {
+   "id": "N054",
+   "level": 2
+  },
+  {
+   "id": "N055",
+   "level": 2
+  },
+  {
+   "id": "N056",
+   "level": 2
+  },
+  {
+   "id": "N057",
+   "level": 3
+  },
+  {
+   "id": "N062",
+   "level": 2
+  },
+  {
+   "id": "N063",
+   "level": 2
+  },
+  {
+   "id": "N064",
+   "level": 2
+  },
+  {
+   "id": "N065",
+   "level": 2
+  },
+  {
+   "id": "N066",
+   "level": 2
+  },
+  {
+   "id": "N067",
+   "level": 1
+  },
+  {
+   "id": "N068",
+   "level": 2
+  },
+  {
+   "id": "N069",
+   "level": 2
+  },
+  {
+   "id": "N070",
+   "level": 3
+  },
+  {
+   "id": "N071",
+   "level": 2
+  },
+  {
+   "id": "N072",
+   "level": 3
+  },
+  {
+   "id": "N073",
+   "level": 2
+  },
+  {
+   "id": "N074",
+   "level": 3
+  },
+  {
+   "id": "N075",
+   "level": 2
+  },
+  {
+   "id": "N076",
+   "level": 1
+  },
+  {
+   "id": "N077",
+   "level": 2
+  },
+  {
+   "id": "N078",
+   "level": 5
+  },
+  {
+   "id": "N079",
+   "level": 2
+  },
+  {
+   "id": "N080",
+   "level": 2
+  },
+  {
+   "id": "N081",
+   "level": 2
+  },
+  {
+   "id": "N082",
+   "level": 2
+  },
+  {
+   "id": "N083",
+   "level": 2
+  },
+  {
+   "id": "N084",
+   "level": 5
+  },
+  {
+   "id": "N085",
+   "level": 5
+  },
+  {
+   "id": "N086",
+   "level": 5
+  },
+  {
+   "id": "N087",
+   "level": 2
+  },
+  {
+   "id": "N088",
+   "level": 2
+  },
+  {
+   "id": "N126",
+   "level": 3
+  },
+  {
+   "id": "N089",
+   "level": 3
+  },
+  {
+   "id": "N090",
+   "level": 1
+  },
+  {
+   "id": "N091",
+   "level": 2
+  },
+  {
+   "id": "N093",
+   "level": 2
+  },
+  {
+   "id": "N094",
+   "level": 3
+  },
+  {
+   "id": "N095",
+   "level": 3
+  },
+  {
+   "id": "N096",
+   "level": 3
+  },
+  {
+   "id": "N097",
+   "merge_into": "N096"
+  },
+  {
+   "id": "N098",
+   "level": 3
+  },
+  {
+   "id": "N099",
+   "level": 3
+  },
+  {
+   "id": "N100",
+   "level": 3
+  },
+  {
+   "id": "N101",
+   "level": 2
+  },
+  {
+   "id": "N092",
+   "level": 2
+  },
+  {
+   "id": "N102",
+   "level": 2
+  },
+  {
+   "id": "N103",
+   "level": 3
+  },
+  {
+   "id": "N104",
+   "level": 3
+  },
+  {
+   "id": "N105",
+   "level": 1
+  },
+  {
+   "id": "N106",
+   "level": 2
+  },
+  {
+   "id": "N107",
+   "level": 3
+  },
+  {
+   "id": "N108",
+   "level": 3
+  },
+  {
+   "id": "N109",
+   "level": 3
+  },
+  {
+   "id": "N110",
+   "level": 2
+  },
+  {
+   "id": "N111",
+   "level": 3
+  },
+  {
+   "id": "N112",
+   "level": 4
+  },
+  {
+   "id": "N113",
+   "level": 3
+  },
+  {
+   "id": "N114",
+   "level": 3
+  },
+  {
+   "id": "N132",
+   "level": 3
+  },
+  {
+   "id": "N115",
+   "level": 2
+  },
+  {
+   "id": "N116",
+   "level": 3
+  },
+  {
+   "id": "N117",
+   "level": 3
+  },
+  {
+   "id": "N118",
+   "level": 3
+  },
+  {
+   "id": "N119",
+   "level": 4
+  },
+  {
+   "id": "N120",
+   "level": 3
+  },
+  {
+   "id": "N121",
+   "level": 3
+  },
+  {
+   "id": "N122",
+   "level": 3
+  },
+  {
+   "id": "N136",
+   "level": 2
+  },
+  {
+   "id": "N137",
+   "level": 3
+  },
+  {
+   "id": "N138",
+   "level": 3
+  },
+  {
+   "id": "N139",
+   "level": 3
+  },
+  {
+   "id": "N140",
+   "level": 3
+  },
+  {
+   "id": "N123",
+   "level": 2
+  },
+  {
+   "id": "N124",
+   "level": 3
+  },
+  {
+   "id": "N125",
+   "level": 3
+  },
+  {
+   "id": "N127",
+   "level": 3
+  },
+  {
+   "id": "N128",
+   "level": 3
+  },
+  {
+   "id": "N129",
+   "level": 3
+  },
+  {
+   "id": "N130",
+   "level": 4
+  },
+  {
+   "id": "N131",
+   "level": 4
+  },
+  {
+   "id": "N133",
+   "level": 2
+  },
+  {
+   "id": "N134",
+   "level": 3
+  },
+  {
+   "id": "N135",
+   "level": 2
+  },
+  {
+   "id": "N141",
+   "drop": true
+  },
+  {
+   "id": "N142",
+   "level": 1
+  },
+  {
+   "id": "N143",
+   "level": 1
+  },
+  {
+   "id": "N144",
+   "level": 2
+  },
+  {
+   "id": "N145",
+   "level": 3
+  },
+  {
+   "id": "N146",
+   "level": 3
+  },
+  {
+   "id": "N147",
+   "level": 2
+  },
+  {
+   "id": "N148",
+   "level": 2
+  }
+ ],
+ "reasons": [
+  "N058-N061 (no answer / an answer / it tells you to do something / anxiety) moved from under 'Journal With Each Hand' to under N053, whose last line is 'wait and listen patiently': they are about what comes back when you ask a part, not about journaling. Set to level 5 so four tiny what-if headings stay in the text but don't crowd the contents list.",
+  "N041 vow and N042 reminder moved to the end of the Nurturer chapter, so the spiritual-love run (Ask God for a Loan, Invite Your Little One In, heart loop, When the Spiritual Relationship Hurts, How Much Happiness, Joy In Sorrow) reads unbroken and the chapter closes on the commitment.",
+  "N092 What to Do With a Peak moved after the safety run (N093-N100) and the author's own too-soon story (N101): cautions come before the peak, and its opening 'Now, the beautiful stuff' lands as a turn after the heavy material.",
+  "N097 Who counts as trusted merged into N096, which ends on 'trusted advisors' and is what N097 defines.",
+  "N126 Being Your Own Advocate With Doctors moved under N088 Physical Pain, where the doctors, tests and written plan are discussed; in the conflict chapter it interrupted the run from choosing words (N125) to writing the message (N127).",
+  "N132 Taking a Break moved to the end of the Differentiation chapter: it opens 'Differentiation is slow' and is about differentiating, not about a conflict.",
+  "N136-N140 (finding a therapist, AI therapy) moved to right after Finding People and Hearthwork, so all the where-to-get-support material sits together and the part ends on the bardo and The Love Has to Move, which reads as its close.",
+  "N009 Notice the Part That Came Here raised to level 2: it is about self-hatred and what brought you here, not a sub-point of the body section.",
+  "N078 set to level 5: a long sentence-style heading that the parent 'When the Adult Voice Feels Fake' already covers.",
+  "N084-N086 set to level 5: three very short what-ifs (one with a title far too long for the narrow list) under 'When to Change the Strategy', which already names them.",
+  "N141 'Conclusion and Appendix' (empty) dropped; N142 conclusion and N143 Appendix raised to level 1 so each is findable at the top level, with the appendix sections raised one level and Schema Therapy and IFS nested under 'How This Relates to Similar Therapies'.",
+  "Everything else kept in place: the Protector, Nurturer, Guide order follows the order the guide says the child receives them, and many sections lead into the next by their last line (N016 into N017, N035 into N036, N062 into N063)."
+ ]
+}

@@ -1,0 +1,634 @@
+{
+  "outline": [
+    {
+      "id": "N001",
+      "level": 1
+    },
+    {
+      "id": "N002",
+      "level": 2
+    },
+    {
+      "id": "N003",
+      "level": 2
+    },
+    {
+      "id": "N004",
+      "level": 2
+    },
+    {
+      "id": "N005",
+      "level": 1
+    },
+    {
+      "id": "N012",
+      "level": 2
+    },
+    {
+      "id": "N013",
+      "level": 3
+    },
+    {
+      "id": "N014",
+      "merge_into": "N013"
+    },
+    {
+      "id": "N006",
+      "level": 2
+    },
+    {
+      "id": "N136",
+      "level": 2
+    },
+    {
+      "id": "N137",
+      "level": 3
+    },
+    {
+      "id": "N138",
+      "level": 3
+    },
+    {
+      "id": "N139",
+      "level": 3
+    },
+    {
+      "id": "N140",
+      "level": 3
+    },
+    {
+      "id": "N007",
+      "level": 2
+    },
+    {
+      "id": "N008",
+      "level": 3
+    },
+    {
+      "id": "N009",
+      "level": 2
+    },
+    {
+      "id": "N010",
+      "level": 2
+    },
+    {
+      "id": "N011",
+      "level": 3
+    },
+    {
+      "id": "N015",
+      "level": 1
+    },
+    {
+      "id": "N016",
+      "level": 2
+    },
+    {
+      "id": "N017",
+      "level": 3
+    },
+    {
+      "id": "N018",
+      "level": 4
+    },
+    {
+      "id": "N019",
+      "level": 3
+    },
+    {
+      "id": "N020",
+      "level": 3
+    },
+    {
+      "id": "N021",
+      "level": 2
+    },
+    {
+      "id": "N022",
+      "level": 3
+    },
+    {
+      "id": "N023",
+      "level": 3
+    },
+    {
+      "id": "N024",
+      "level": 3
+    },
+    {
+      "id": "N025",
+      "level": 3
+    },
+    {
+      "id": "N026",
+      "level": 4
+    },
+    {
+      "id": "N075",
+      "level": 4
+    },
+    {
+      "id": "N027",
+      "level": 3
+    },
+    {
+      "id": "N028",
+      "level": 2
+    },
+    {
+      "id": "N029",
+      "level": 3
+    },
+    {
+      "id": "N030",
+      "level": 3
+    },
+    {
+      "id": "N031",
+      "level": 3
+    },
+    {
+      "id": "N032",
+      "level": 3
+    },
+    {
+      "id": "N033",
+      "level": 3
+    },
+    {
+      "id": "N034",
+      "level": 3
+    },
+    {
+      "id": "N041",
+      "level": 3
+    },
+    {
+      "id": "N042",
+      "merge_into": "N041"
+    },
+    {
+      "id": "N071",
+      "level": 3
+    },
+    {
+      "id": "N072",
+      "level": 4
+    },
+    {
+      "id": "N045",
+      "level": 2
+    },
+    {
+      "id": "N046",
+      "level": 3
+    },
+    {
+      "id": "N047",
+      "level": 3
+    },
+    {
+      "id": "N048",
+      "level": 3
+    },
+    {
+      "id": "N049",
+      "level": 3
+    },
+    {
+      "id": "N050",
+      "level": 3
+    },
+    {
+      "id": "N051",
+      "level": 3
+    },
+    {
+      "id": "N043",
+      "level": 3
+    },
+    {
+      "id": "N035",
+      "level": 3
+    },
+    {
+      "id": "N036",
+      "level": 4
+    },
+    {
+      "id": "N037",
+      "level": 4
+    },
+    {
+      "id": "N038",
+      "level": 3
+    },
+    {
+      "id": "N040",
+      "level": 3
+    },
+    {
+      "id": "N044",
+      "level": 3
+    },
+    {
+      "id": "N052",
+      "level": 1
+    },
+    {
+      "id": "N053",
+      "level": 2
+    },
+    {
+      "id": "N054",
+      "level": 2
+    },
+    {
+      "id": "N055",
+      "level": 2
+    },
+    {
+      "id": "N056",
+      "level": 2
+    },
+    {
+      "id": "N057",
+      "merge_into": "N056"
+    },
+    {
+      "id": "N058",
+      "merge_into": "N056"
+    },
+    {
+      "id": "N059",
+      "merge_into": "N056"
+    },
+    {
+      "id": "N060",
+      "merge_into": "N056"
+    },
+    {
+      "id": "N061",
+      "merge_into": "N056"
+    },
+    {
+      "id": "N039",
+      "level": 2
+    },
+    {
+      "id": "N062",
+      "level": 2
+    },
+    {
+      "id": "N063",
+      "level": 3
+    },
+    {
+      "id": "N064",
+      "level": 2
+    },
+    {
+      "id": "N125",
+      "level": 2
+    },
+    {
+      "id": "N065",
+      "level": 2
+    },
+    {
+      "id": "N066",
+      "level": 2
+    },
+    {
+      "id": "N067",
+      "level": 1
+    },
+    {
+      "id": "N068",
+      "level": 2
+    },
+    {
+      "id": "N069",
+      "level": 2
+    },
+    {
+      "id": "N070",
+      "merge_into": "N069"
+    },
+    {
+      "id": "N073",
+      "level": 2
+    },
+    {
+      "id": "N074",
+      "level": 3
+    },
+    {
+      "id": "N076",
+      "level": 1
+    },
+    {
+      "id": "N077",
+      "level": 2
+    },
+    {
+      "id": "N078",
+      "level": 3
+    },
+    {
+      "id": "N079",
+      "level": 2
+    },
+    {
+      "id": "N080",
+      "level": 2
+    },
+    {
+      "id": "N081",
+      "level": 2
+    },
+    {
+      "id": "N082",
+      "level": 2
+    },
+    {
+      "id": "N083",
+      "level": 2
+    },
+    {
+      "id": "N084",
+      "merge_into": "N083"
+    },
+    {
+      "id": "N085",
+      "merge_into": "N083"
+    },
+    {
+      "id": "N086",
+      "merge_into": "N083"
+    },
+    {
+      "id": "N087",
+      "level": 2
+    },
+    {
+      "id": "N088",
+      "level": 3
+    },
+    {
+      "id": "N089",
+      "level": 4
+    },
+    {
+      "id": "N126",
+      "level": 4
+    },
+    {
+      "id": "N090",
+      "level": 1
+    },
+    {
+      "id": "N091",
+      "level": 2
+    },
+    {
+      "new": "Medication and Substance Precautions",
+      "level": 2
+    },
+    {
+      "id": "N099",
+      "level": 3
+    },
+    {
+      "id": "N100",
+      "level": 3
+    },
+    {
+      "id": "N093",
+      "level": 2
+    },
+    {
+      "id": "N094",
+      "level": 3
+    },
+    {
+      "id": "N095",
+      "level": 3
+    },
+    {
+      "id": "N096",
+      "level": 3
+    },
+    {
+      "id": "N097",
+      "merge_into": "N096"
+    },
+    {
+      "id": "N098",
+      "level": 3
+    },
+    {
+      "id": "N101",
+      "level": 3
+    },
+    {
+      "id": "N092",
+      "level": 2
+    },
+    {
+      "id": "N102",
+      "level": 2
+    },
+    {
+      "id": "N103",
+      "level": 3
+    },
+    {
+      "id": "N105",
+      "level": 1
+    },
+    {
+      "id": "N104",
+      "level": 2
+    },
+    {
+      "id": "N106",
+      "level": 2
+    },
+    {
+      "id": "N107",
+      "level": 3
+    },
+    {
+      "id": "N108",
+      "level": 3
+    },
+    {
+      "id": "N109",
+      "level": 3
+    },
+    {
+      "id": "N110",
+      "level": 2
+    },
+    {
+      "id": "N111",
+      "level": 3
+    },
+    {
+      "id": "N112",
+      "level": 4
+    },
+    {
+      "id": "N113",
+      "level": 3
+    },
+    {
+      "id": "N114",
+      "level": 3
+    },
+    {
+      "id": "N132",
+      "level": 3
+    },
+    {
+      "id": "N115",
+      "level": 2
+    },
+    {
+      "id": "N116",
+      "level": 3
+    },
+    {
+      "id": "N117",
+      "level": 3
+    },
+    {
+      "id": "N118",
+      "level": 3
+    },
+    {
+      "id": "N119",
+      "level": 4
+    },
+    {
+      "id": "N120",
+      "level": 3
+    },
+    {
+      "id": "N121",
+      "level": 3
+    },
+    {
+      "id": "N135",
+      "level": 3
+    },
+    {
+      "id": "N122",
+      "level": 3
+    },
+    {
+      "id": "N123",
+      "level": 2
+    },
+    {
+      "id": "N124",
+      "merge_into": "N123"
+    },
+    {
+      "id": "N127",
+      "level": 3
+    },
+    {
+      "id": "N128",
+      "level": 3
+    },
+    {
+      "id": "N129",
+      "level": 3
+    },
+    {
+      "id": "N130",
+      "level": 4
+    },
+    {
+      "id": "N131",
+      "level": 4
+    },
+    {
+      "id": "N133",
+      "level": 2
+    },
+    {
+      "id": "N134",
+      "level": 3
+    },
+    {
+      "id": "N141",
+      "drop": true
+    },
+    {
+      "id": "N142",
+      "level": 1
+    },
+    {
+      "id": "N143",
+      "level": 1
+    },
+    {
+      "id": "N144",
+      "level": 2
+    },
+    {
+      "id": "N145",
+      "level": 3
+    },
+    {
+      "id": "N146",
+      "level": 3
+    },
+    {
+      "id": "N147",
+      "level": 2
+    },
+    {
+      "id": "N148",
+      "level": 2
+    }
+  ],
+  "reasons": [
+    "Reader path: understand reparenting; establish safety and support; build the three adult roles; practice; recognize and heal old patterns; troubleshoot; consider altered states; carry it into life; conclude; consult the appendix.",
+    "N012–N013 move to the start of Safety and Readiness so a reader facing immediate danger reaches the urgent response before optional preparation; N014 merges into N013 as its continuation about the value of human life.",
+    "N136–N140 move after N006 so readers who need to borrow adult support can choose and vet help before deeper practice; the references to the appendix still point forward.",
+    "N009 becomes level 2 because finding the motivation that brought someone here is general readiness, not a kind of bodily preparation.",
+    "N018 becomes level 4 under N017 because manipulation is a specific danger when borrowing an outside adult.",
+    "N075 moves under N025 at level 4 beside N026: answering the inherited disciplinarian is a Protector tool for responding to the inherited parent, after that problem has been explained.",
+    "N035–N038, N040, N043 and N044 move under N045 because divine love, spiritual horizons, gratitude, spiritual integration and spiritual hurt belong with the Guide’s spiritual work; N043 introduces the horizon before the specific doors into it.",
+    "N037 becomes level 4 beside N036: conditional gratitude and deeper contentment are a substantial, findable qualification of the spiritual-loan practice, not a hidden subcase of its announcement.",
+    "N039 moves to the practice part at level 2, after the spiritual-love concepts and the initial ways of contacting the child; the hand-placement and circulation exercise is a technique readers can return to directly.",
+    "N042 merges into N041 because reminders are the continuation of keeping the vow, rather than a separate destination.",
+    "N071–N072 move under the Nurturer at levels 3 and 4 because forgiving others and oneself are emotional-repair skills; boundaries and accountability remain part of their preserved text.",
+    "N073–N074 remain together in deeper pattern-healing practice, after the Borrow Hindsight concept they explicitly require; the discipline example stays below the rescripting exercise it illustrates.",
+    "N057–N061 merge into N056 in their existing sequence: which thoughts to engage, silence, answers, instructions and anxiety are short continuations of the journaling practice.",
+    "N063 becomes level 3 under N062 because its opening explicitly offers mantra as a tool for a more deeply stuck hook.",
+    "N125 moves after N064 at level 2 because its main instruction is constructive internal language and acknowledging feelings during practice, before the daily review and session ending.",
+    "N070 merges into N069 because it supplies the single short shame-memory trick that N069 explicitly introduces.",
+    "N084–N086 merge into N083 because timing, stalled results and stopping are short cases of deciding when to change strategy.",
+    "N088 becomes level 3 under N087 because its opening identifies physical pain as another cause of the urge to escape; N089 becomes level 4 as a specific bodily-pain consideration.",
+    "N126 moves under N088 at level 4 beside N089 because medical advocacy is needed while investigating and treating physical pain, rather than as a general relationship-conflict topic.",
+    "A new Medication and Substance Precautions heading groups N099–N100 before the altered-state risk cases; withdrawal and mixing precautions are preparation readers need before proceeding.",
+    "N097 merges into N096 because it directly defines the trusted advisors recommended at the end of N096.",
+    "N101 becomes level 3 under N093 because the personal story illustrates premature psychedelic use and loss of reality testing; N092 moves after this risk material so integration follows preparation and cautions.",
+    "N104 moves just inside N105 at level 2 because its concrete subject is social-media influence in ordinary life; keeping it at the boundary preserves the nearby comparison to altered states.",
+    "N132 moves under N110 after N114 because stepping back from a family, group or relationship is a differentiation option, including when no conflict or wrongdoing has occurred.",
+    "N135 moves under N115 after N121 because community and the circulation of support extend the discussion of peer support and human connection.",
+    "N124 merges into N123 so its one-sentence instruction to get safe remains the first conflict instruction without a separate sidebar entry.",
+    "N141 drops as an empty wrapper; N142 and N143 become separate level-1 conclusion and appendix destinations, each doing one job.",
+    "N144 becomes level 2 with N145–N146 at level 3 because Schema Therapy and IFS are specific comparisons with related therapies; N147–N148 become level-2 development and resource entries in the appendix.",
+    "Pointer check: N092’s reference to conditional gratitude from Ask God for a Loan now spans the moved N036–N037 material; a later text-edit pass should point to those retained subheadings precisely.",
+    "Pointer check: N104’s title and opening compare ordinary influence with altered states in the preceding part; after the move, a later text-edit pass should make that cross-part reference explicit.",
+    "Other directional pointers remain valid: N012 to Noticing Counts, N078 to Altered States Can Deepen Therapy or Escapism, N079 to Untangling the Belonging Bargains, N064 to differentiation, N145 to the next IFS section, and N142 back to Your Loan is PRE-APPROVED!.",
+    "Moved 26 retained sections: N012, N013, N035, N036, N037, N038, N039, N040, N043, N044, N071, N072, N075, N092, N099, N100, N104, N125, N126, N132, N135, N136, N137, N138, N139, N140; merges, drops and level-only changes are counted separately."
+  ]
+}
