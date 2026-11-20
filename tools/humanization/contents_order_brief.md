@@ -13,6 +13,13 @@ his moves (9 and 8 of his 20) and also the most he didn't make (16 and 23), and 
 So a model's outline is a proposal that goes to him move by move (`docs/FIXING-AN-ARTICLE.md` section 3, item 8), never a
 reorganization, and the moves of his that every model missed are the examples under rule 2.
 
+**His view of the framework comes first (lesson inner-child-2026-11-20l).** Turn 133 tried three more ways: small
+questions per section, a frame of what each role is for, and a blind card sort of the shuffled sections
+(`articles/inner-child-therapy/experiments/t133-order/`). None came closer: every reader filed shame and forgiveness
+under the part they were in, where he put them under the Nurturer. What he sees each role's work as including isn't in
+the text. So before a model sorts, ask him for a few lines on what each role and part holds, in his words, and give
+those lines to the model with this brief.
+
 ## 1. Find the reader's path first
 
 Read the whole piece and write down, in a few words each, the path a reader takes through it: what they need to

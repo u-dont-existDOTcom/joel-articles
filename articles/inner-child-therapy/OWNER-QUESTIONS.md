@@ -1,6 +1,6 @@
 # Inner Child article: questions for Joel
 
-Last updated 2026-11-20 (turn 133). **Open question: 113**, two small things about your heading picks. Questions 111 and 112 are answered. The to-do entries below date from turn 115 (26 October) and weren't rechecked this turn, except pull request #255, which you merged on 3 November. To answer a question, reply in chat with its number and a letter, like `111: A`, or in your own words.
+Last updated 2026-11-20 (turn 134). **Open question: 114**, a few lines on what each role's work includes, in your view, so a model can sort sections the way you do. Questions 111 to 113 are answered. The to-do entries below date from turn 115 (26 October) and weren't rechecked this turn, except pull request #255, which you merged on 3 November. To answer a question, reply in chat with its number and a letter, like `111: A`, or in your own words.
 
 🟣 a question for you · 🟠 for you to do · 🔵 next or in progress · 🟢 done or decided
 
@@ -8,9 +8,17 @@ The published page, a view of this file rebuilt after every change ([questions_p
 
 ## Open questions
 
-### 🟣 113. Two small things about your heading picks (turn 133)
+### 🟣 114. What does each role's work include, in your view? (turn 134)
+
+You asked for a contents test that could get closer to your own reorganization of 4 to 14 November. Three tries didn't ([RESULTS.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/inner-child-therapy/experiments/t133-order/RESULTS.md), [RESULTS-2.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/inner-child-therapy/experiments/t133-order/RESULTS-2.md), [RESULTS-3.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/inner-child-therapy/experiments/t133-order/RESULTS-3.md)). Even sorting the shuffled sections blind, every reader put shame and forgiveness under Healing Old Patterns, where you put them under the Nurturer. Your view of what each role does isn't in the text, so no reader can find it.
+
+In a few lines each, in your words: what belongs to the Protector, the Nurturer and the Guide, and what makes something a practice rather than one role's work? Say especially the parts a reader wouldn't guess, like why shame and forgiveness are the Nurturer's. Those lines become the frame for the next run, and for organizing your other guides.
+
+### 🟢 113. Two small things about your heading picks (turn 133)
 
 Why does **"Earning trust, day to day"** stay lower case while its siblings are in Title Case, and why does **"Shame Says “Unlovable”"** keep its quote marks? If you can't say why, a guess like "it sounded right" helps too: the headings brief learns from it.
+
+Answered 2026-11-20 22:32 UTC: every heading follows one rule, and "Unlovable" is in quote marks because it's what shame says. The rule is AP title case (rule 7 of the [headings brief](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/tools/humanization/headings_brief.md)), and words someone or something says take quote marks (rule 10).
 
 ### 🟢 112. Why did you pick these five headings? (turn 132)
 

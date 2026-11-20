@@ -42,7 +42,21 @@ misses below before it goes to him.
 6. **The author's voice.** Keep the author's catchy coinages and turns of phrase where they fit; short parallel
    phrasing is welcome ("Lend, Don't Lose"). Don't add claims the section doesn't make.
 
-7. **Case.** Title Case for a new heading; where the sibling headings under one parent are in sentence case, match them.
+7. **Case: AP title case, every heading** (Joel, 2026-11-20 22:32 UTC: "there should be a rule that the headings follow").
+   Capitalize every word except articles (a, an, the) and conjunctions and prepositions of three letters or fewer (and,
+   but, for, if, or, so, as, at, by, in, of, on, to, up), which stay lower case unless first or last, or after a colon;
+   "With", "From", "Into" are capitalized. "Earning Trust, Day to Day", "How to Let People In". A small word that belongs
+   to a verb is capitalized ("Show Up Just for Joy", "Dip Your Toes In First"). `python3 tools/humanization/heading_case.py
+   "..."` gives the case, and `--catalog SECTION-LINKS.json` lists every heading that doesn't follow it; it leaves "in",
+   "on", "up", "off", "by", "so" and "yet" written with a capital for a reader to judge. A change of case doesn't change
+   the section's link.
+
+10. **Quote marks for words someone says or thinks, and for a word used as a word.** "Shame Says “Unlovable”" parses;
+   "Shame Says Unlovable" doesn't (Joel, 2026-11-20 22:32 UTC: "if you just say "Shame says unlovable" it doesn't parse
+   for humans at all"). What a person, a feeling or an inner voice says goes in quote marks, in a heading as in the text
+   ("“No. I Hate Myself.”"), and so does a word being talked about rather than used. The Chicago Manual puts a word used
+   as a word in italics or quote marks; a heading can't rely on italics in the sidebar, so it takes quote marks. In his
+   text they are his straight quote marks (his typographic swap); in headings, as he wrote them.
 
 8. **Two things, two headings.** If a section holds two different things, so that one heading can only name one of
    them, say so and propose a second heading for the second part instead of a heading that covers half. A part that

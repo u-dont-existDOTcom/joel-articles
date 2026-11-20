@@ -1,0 +1,518 @@
+{
+ "cards": [
+  {
+   "id": "N105",
+   "reader_question": "Do I have to do this alone, or do other people have a place in it?",
+   "kind": "concept",
+   "role": "none",
+   "role_confidence": "high",
+   "part": "N105",
+   "part_confidence": "high",
+   "continues": "none",
+   "needs_first": []
+  },
+  {
+   "id": "N106",
+   "reader_question": "What does it look like to bring play and my own tastes back into this?",
+   "kind": "grouping",
+   "role": "none",
+   "role_confidence": "high",
+   "part": "N105",
+   "part_confidence": "high",
+   "continues": "none",
+   "needs_first": []
+  },
+  {
+   "id": "N107",
+   "reader_question": "Can this work be fun, or does it have to feel like discipline?",
+   "kind": "concept",
+   "role": "none",
+   "role_confidence": "medium",
+   "part": "N105",
+   "part_confidence": "high",
+   "continues": "none",
+   "needs_first": []
+  },
+  {
+   "id": "N108",
+   "reader_question": "How do I find out what I actually like after years of fitting in?",
+   "kind": "practice",
+   "role": "none",
+   "role_confidence": "medium",
+   "part": "N105",
+   "part_confidence": "high",
+   "continues": "none",
+   "needs_first": [
+    "N107"
+   ]
+  },
+  {
+   "id": "N109",
+   "reader_question": "What if I'm bad at something new and my inner critic mocks me for it?",
+   "kind": "practice",
+   "role": "N045",
+   "role_confidence": "low",
+   "part": "N105",
+   "part_confidence": "high",
+   "continues": "none",
+   "needs_first": []
+  },
+  {
+   "id": "N110",
+   "reader_question": "How do I stay myself while still belonging to my people?",
+   "kind": "grouping",
+   "role": "none",
+   "role_confidence": "high",
+   "part": "N105",
+   "part_confidence": "high",
+   "continues": "none",
+   "needs_first": []
+  },
+  {
+   "id": "N111",
+   "reader_question": "What unspoken deals have I made to belong or to feel worthy?",
+   "kind": "concept",
+   "role": "none",
+   "role_confidence": "high",
+   "part": "N105",
+   "part_confidence": "high",
+   "continues": "none",
+   "needs_first": []
+  },
+  {
+   "id": "N112",
+   "reader_question": "How can I spot which bargain is hooking my little one right now?",
+   "kind": "practice",
+   "role": "none",
+   "role_confidence": "medium",
+   "part": "N105",
+   "part_confidence": "high",
+   "continues": "N111",
+   "needs_first": [
+    "N111"
+   ]
+  },
+  {
+   "id": "N113",
+   "reader_question": "What does staying myself inside a family or group look like day to day?",
+   "kind": "practice",
+   "role": "none",
+   "role_confidence": "medium",
+   "part": "N105",
+   "part_confidence": "high",
+   "continues": "none",
+   "needs_first": [
+    "N111"
+   ]
+  },
+  {
+   "id": "N114",
+   "reader_question": "Is it selfish to be happy while people I love are suffering?",
+   "kind": "story",
+   "role": "none",
+   "role_confidence": "medium",
+   "part": "N105",
+   "part_confidence": "high",
+   "continues": "none",
+   "needs_first": []
+  },
+  {
+   "id": "N115",
+   "reader_question": "Where do I find people I can trust, and how do I build that trust?",
+   "kind": "grouping",
+   "role": "none",
+   "role_confidence": "high",
+   "part": "N105",
+   "part_confidence": "high",
+   "continues": "none",
+   "needs_first": []
+  },
+  {
+   "id": "N116",
+   "reader_question": "Where do I even find people?",
+   "kind": "relationships",
+   "role": "N021",
+   "role_confidence": "low",
+   "part": "N105",
+   "part_confidence": "high",
+   "continues": "none",
+   "needs_first": []
+  },
+  {
+   "id": "N117",
+   "reader_question": "How do I meet new people without needing them to prove I'm lovable?",
+   "kind": "relationships",
+   "role": "none",
+   "role_confidence": "medium",
+   "part": "N105",
+   "part_confidence": "high",
+   "continues": "none",
+   "needs_first": []
+  },
+  {
+   "id": "N118",
+   "reader_question": "How much of myself should I share, and when?",
+   "kind": "relationships",
+   "role": "N021",
+   "role_confidence": "low",
+   "part": "N105",
+   "part_confidence": "high",
+   "continues": "none",
+   "needs_first": []
+  },
+  {
+   "id": "N119",
+   "reader_question": "Is it safe to tell someone my darkest secrets, and who might have to report them?",
+   "kind": "safety",
+   "role": "none",
+   "role_confidence": "medium",
+   "part": "N105",
+   "part_confidence": "high",
+   "continues": "N118",
+   "needs_first": [
+    "N118"
+   ]
+  },
+  {
+   "id": "N120",
+   "reader_question": "How do I help someone without guessing what they want?",
+   "kind": "relationships",
+   "role": "none",
+   "role_confidence": "high",
+   "part": "N105",
+   "part_confidence": "high",
+   "continues": "none",
+   "needs_first": []
+  },
+  {
+   "id": "N121",
+   "reader_question": "Is there a way to get peer support without turning friends into therapists?",
+   "kind": "relationships",
+   "role": "none",
+   "role_confidence": "medium",
+   "part": "N105",
+   "part_confidence": "high",
+   "continues": "none",
+   "needs_first": [
+    "N016"
+   ]
+  },
+  {
+   "id": "N122",
+   "reader_question": "Should I start dating while I'm still healing?",
+   "kind": "relationships",
+   "role": "none",
+   "role_confidence": "high",
+   "part": "N105",
+   "part_confidence": "high",
+   "continues": "none",
+   "needs_first": []
+  },
+  {
+   "id": "N123",
+   "reader_question": "Where does my inner child show up when there's a conflict?",
+   "kind": "relationships",
+   "role": "none",
+   "role_confidence": "medium",
+   "part": "N105",
+   "part_confidence": "high",
+   "continues": "none",
+   "needs_first": []
+  },
+  {
+   "id": "N124",
+   "reader_question": "What if someone has actually hurt or threatened me?",
+   "kind": "safety",
+   "role": "N021",
+   "role_confidence": "medium",
+   "part": "N105",
+   "part_confidence": "high",
+   "continues": "N123",
+   "needs_first": [
+    "N123"
+   ]
+  },
+  {
+   "id": "N125",
+   "reader_question": "What should I say to myself and to my little one so words help instead of backfire?",
+   "kind": "practice",
+   "role": "N028",
+   "role_confidence": "medium",
+   "part": "N105",
+   "part_confidence": "high",
+   "continues": "none",
+   "needs_first": []
+  },
+  {
+   "id": "N126",
+   "reader_question": "How do I stand up for myself with doctors?",
+   "kind": "special-situation",
+   "role": "none",
+   "role_confidence": "high",
+   "part": "N105",
+   "part_confidence": "high",
+   "continues": "none",
+   "needs_first": []
+  },
+  {
+   "id": "N127",
+   "reader_question": "How do I say something hard to someone without regretting it?",
+   "kind": "practice",
+   "role": "none",
+   "role_confidence": "medium",
+   "part": "N105",
+   "part_confidence": "high",
+   "continues": "none",
+   "needs_first": []
+  },
+  {
+   "id": "N128",
+   "reader_question": "What if I really was the one who hurt them?",
+   "kind": "relationships",
+   "role": "none",
+   "role_confidence": "high",
+   "part": "N105",
+   "part_confidence": "high",
+   "continues": "none",
+   "needs_first": []
+  },
+  {
+   "id": "N129",
+   "reader_question": "How do I tell whether the other person is the problem in a repeated fight?",
+   "kind": "relationships",
+   "role": "none",
+   "role_confidence": "high",
+   "part": "N105",
+   "part_confidence": "high",
+   "continues": "none",
+   "needs_first": []
+  },
+  {
+   "id": "N130",
+   "reader_question": "Can this person change, and should I count on their promise?",
+   "kind": "relationships",
+   "role": "none",
+   "role_confidence": "high",
+   "part": "N105",
+   "part_confidence": "high",
+   "continues": "N129",
+   "needs_first": [
+    "N129"
+   ]
+  },
+  {
+   "id": "N131",
+   "reader_question": "What if a relationship keeps making me feel unsafe?",
+   "kind": "relationships",
+   "role": "none",
+   "role_confidence": "medium",
+   "part": "N105",
+   "part_confidence": "high",
+   "continues": "N129",
+   "needs_first": [
+    "N129"
+   ]
+  },
+  {
+   "id": "N132",
+   "reader_question": "When is it okay to step away from my family or group?",
+   "kind": "relationships",
+   "role": "none",
+   "role_confidence": "high",
+   "part": "N105",
+   "part_confidence": "high",
+   "continues": "none",
+   "needs_first": [
+    "N113"
+   ]
+  },
+  {
+   "id": "N133",
+   "reader_question": "Why is my little one so loud after a big life ending, and what do I do?",
+   "kind": "special-situation",
+   "role": "none",
+   "role_confidence": "high",
+   "part": "N105",
+   "part_confidence": "high",
+   "continues": "none",
+   "needs_first": []
+  },
+  {
+   "id": "N134",
+   "reader_question": "How do I handle missing someone?",
+   "kind": "practice",
+   "role": "N028",
+   "role_confidence": "medium",
+   "part": "N105",
+   "part_confidence": "high",
+   "continues": "N133",
+   "needs_first": []
+  },
+  {
+   "id": "N135",
+   "reader_question": "How do the inner work and other people fit together in the end?",
+   "kind": "closing",
+   "role": "none",
+   "role_confidence": "high",
+   "part": "N105",
+   "part_confidence": "medium",
+   "continues": "none",
+   "needs_first": []
+  },
+  {
+   "id": "N136",
+   "reader_question": "How do I find a therapist to lean on?",
+   "kind": "special-situation",
+   "role": "none",
+   "role_confidence": "high",
+   "part": "N105",
+   "part_confidence": "high",
+   "continues": "none",
+   "needs_first": []
+  },
+  {
+   "id": "N137",
+   "reader_question": "Are there therapists who do inner child reparenting?",
+   "kind": "special-situation",
+   "role": "none",
+   "role_confidence": "high",
+   "part": "N105",
+   "part_confidence": "high",
+   "continues": "N136",
+   "needs_first": [
+    "N136"
+   ]
+  },
+  {
+   "id": "N138",
+   "reader_question": "If I want a licensed therapist, what kind should I look for?",
+   "kind": "special-situation",
+   "role": "none",
+   "role_confidence": "high",
+   "part": "N105",
+   "part_confidence": "high",
+   "continues": "N136",
+   "needs_first": [
+    "N136"
+   ]
+  },
+  {
+   "id": "N139",
+   "reader_question": "How do I vet a therapist before committing?",
+   "kind": "special-situation",
+   "role": "none",
+   "role_confidence": "high",
+   "part": "N105",
+   "part_confidence": "high",
+   "continues": "N136",
+   "needs_first": [
+    "N136"
+   ]
+  },
+  {
+   "id": "N140",
+   "reader_question": "Can AI work as a therapist for this?",
+   "kind": "special-situation",
+   "role": "none",
+   "role_confidence": "high",
+   "part": "N105",
+   "part_confidence": "high",
+   "continues": "N136",
+   "needs_first": []
+  },
+  {
+   "id": "N141",
+   "reader_question": "What's at the end of the guide, and what does the appendix hold?",
+   "kind": "grouping",
+   "role": "none",
+   "role_confidence": "high",
+   "part": "N141",
+   "part_confidence": "high",
+   "continues": "none",
+   "needs_first": []
+  },
+  {
+   "id": "N142",
+   "reader_question": "Am I still worthy of love after all this?",
+   "kind": "closing",
+   "role": "N028",
+   "role_confidence": "medium",
+   "part": "N141",
+   "part_confidence": "high",
+   "continues": "none",
+   "needs_first": [
+    "N036"
+   ]
+  },
+  {
+   "id": "N143",
+   "reader_question": "What does the appendix cover?",
+   "kind": "grouping",
+   "role": "none",
+   "role_confidence": "high",
+   "part": "N141",
+   "part_confidence": "high",
+   "continues": "none",
+   "needs_first": []
+  },
+  {
+   "id": "N144",
+   "reader_question": "How does this guide relate to other inner child therapy?",
+   "kind": "concept",
+   "role": "none",
+   "role_confidence": "high",
+   "part": "N141",
+   "part_confidence": "high",
+   "continues": "none",
+   "needs_first": []
+  },
+  {
+   "id": "N145",
+   "reader_question": "How is this different from Schema Therapy?",
+   "kind": "concept",
+   "role": "none",
+   "role_confidence": "medium",
+   "part": "N141",
+   "part_confidence": "high",
+   "continues": "none",
+   "needs_first": [
+    "N144"
+   ]
+  },
+  {
+   "id": "N146",
+   "reader_question": "How is this different from IFS?",
+   "kind": "concept",
+   "role": "none",
+   "role_confidence": "medium",
+   "part": "N141",
+   "part_confidence": "high",
+   "continues": "none",
+   "needs_first": [
+    "N144"
+   ]
+  },
+  {
+   "id": "N147",
+   "reader_question": "Where did this framework come from?",
+   "kind": "closing",
+   "role": "none",
+   "role_confidence": "high",
+   "part": "N141",
+   "part_confidence": "high",
+   "continues": "none",
+   "needs_first": []
+  },
+  {
+   "id": "N148",
+   "reader_question": "Who taught the author, and where can I learn more from them?",
+   "kind": "closing",
+   "role": "none",
+   "role_confidence": "medium",
+   "part": "N141",
+   "part_confidence": "high",
+   "continues": "none",
+   "needs_first": []
+  }
+ ]
+}

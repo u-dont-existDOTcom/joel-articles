@@ -4,7 +4,7 @@
   "id": "189761959",
   "title": "Joel's inner child guide"
  },
- "source": "Built 2026-11-20 by experiments/t133-links/build_catalog.py from turn 132 as published at 17:06 UTC: its headings (publish/probe132.js) and the 22 section links it added (publish/PLAN.json). Not yet in it: the one section link the post had before turn 132, and Joel's changes after 17:06 UTC other than those applied below with section_links.py rename.",
+ "source": "Built 2026-11-20 by experiments/t133-links/build_catalog.py from turn 132 as published at 17:06 UTC: its headings (publish/probe132.js) and the 22 section links it added (publish/PLAN.json). Not yet in it: the one section link the post had before turn 132, and Joel's changes after 17:06 UTC other than those applied below with section_links.py rename. Added from his message of 2026-11-20 22:32 UTC (not yet read from the post): his new heading \"Killing the Old You\" and its link to \"Compassionate Exit?\". Announced, not yet made: S092 to \"Altered States & Meditating Intensely\".",
  "headings": [
   {
    "id": "S001",
@@ -83,6 +83,13 @@
    "level": 2,
    "text": "If You Want to Kill Yourself",
    "anchor": "if-you-want-to-kill-yourself"
+  },
+  {
+   "id": "S013k",
+   "level": null,
+   "text": "Killing the Old You",
+   "anchor": "killing-the-old-you",
+   "note": "added by Joel (his message of 2026-11-20 22:32 UTC); level and exact place to read from the post"
   },
   {
    "id": "S014",
@@ -1039,6 +1046,13 @@
    "text": "borrowed adulthood",
    "target": "S018",
    "href": "https://ibogaqueen.substack.com/i/189761959/borrowed-adulthood"
+  },
+  {
+   "in": "S013k",
+   "text": "As mentioned before",
+   "target": "S084x",
+   "href": "https://ibogaqueen.substack.com/i/189761959/compassionate-exit",
+   "note": "added by Joel himself (his message of 2026-11-20 22:32 UTC)"
   }
  ],
  "unlinked_on_purpose": [
