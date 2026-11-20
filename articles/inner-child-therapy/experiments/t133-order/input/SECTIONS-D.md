@@ -1,0 +1,254 @@
+# Sections N105 to N148 of the guide
+
+# [N105] Bringing Reparenting Into Real Life  (146 words)
+Reparenting is usually talked about as something you do alone, or with a therapist. But your little one got hurt by people that weren't either of those, so some of the healing has to happen with real life other people too. If you're presently lucky to have some support, it might be mostly one person carrying a lot of it. Maybe you're picturing them right now. Having someone like that while you're struggling can be an enormous blessing. If it's more distributed, with various people you can count on for small parts, that can be more sustainable, even if it doesn't feel as deep.
+
+Over time, reparenting can help you take in some of what they've been doing for you, and start doing it yourself. You'll find the balance is dynamic between inner & outer reliance, and going too far in either extreme isn't generally the healthiest.
+
+## [N106] Rediscover Play and Your Own Preferences  (0 words)
+(no text of its own: a grouping heading)
+
+### [N107] Play Is Part of the Work  (227 words)
+Your little one wants to play, too, which is why I call the deeper therapy pl/ork. Many times we adults see things as work that a child would see as play, like yoga, for example. So if it feels like you're enforcing everything as a discipline, see if you can change that discipline into a game. Personally, I can really get a lot of enjoyment when I feel those lovely stretches without thinking it's another task. A lot of the best discoveries come when you're both just messing around, kind of like how kids tell you what's really going on from the back seat, when nobody's looking right at them. Play not only paves the way for therapy, but is a part of how successful therapy should be measured.
+
+A lot of what adults tend to lose, your little one still has, like the silliness and the irreverence, the rawness, the creativity, all that, and maybe a connection to the Great Mystery from before your karma ran over my dogma 🤪. That's the spark of life they bring, and you get to draw on it and give back, so it's more communion than command. For one example of the spark, there's my post [Treasuring the Inner Child's Gift](https://ibogaqueen.substack.com/p/treasuring-the-inner-childs-gift).
+
+
+
+But that spark of life might have been suppressed as you grew up.
+
+### [N108] From Survival to Experimental Play  (182 words)
+If your childhood meant avoiding pain and keeping the people you needed close, your attention got used up reading danger (was that sigh about me?) and meeting their expectations, and when curiosity or mistakes got you punished, or it felt like they loved you less, you got better at playing the "chameleon".
+
+So early on, the practice is finding out who's actually in there, through long reflection with no outside input, and journaling just for yourself, without picturing a reader. Time alone in nature helps too, and so does getting back the preferences that got buried: the foods you really like and what feels good to do, and what you believe and feel when nobody's around to take your cues from. *Focusing* (Eugene Gendlin's method of listening to a vague, felt sense in your body) can especially help you notice feelings and preferences the part you've been playing learned to overlook. Any words you put to them can stay tentative ("I hate cooking... or just for everybody?") while you look at what they seem to mean and revise how you read them.
+
+### [N109] Let the Child Be Bad at Things  (196 words)
+Reflection can show you what got sMothered/suppressed. For identity you also need some experiments out in real life, so go try something new just for you. Maybe a foraging group, or a painting class. Stargazing can be awe-inspiring, and you might even see a UFO! Notice what holds your attention when nobody is impressed.
+
+The old parent in your head may demand immediate talent, though, and then the first time you're awkward at it, that's "evidence" that you're stupid or clumsy. Or you hear, "Come on, you're not really the type." I think your little one is listening to see if anybody's going to stick up for them. The grown-up you're building has to be the one who does: "It's okay if we're bad at this, nobody's on trial. We're just seeing if we like it. And it's ok to be great at it also!"
+
+Give a new interest enough tries to get past the humiliation of being a beginner, when you keep telling people, "Sorry, I'm new." Maybe after that you still genuinely dislike it, and then you may quit. You may also discover a part of yourself that never had permission to exist.
+
+## [N110] Differentiation: Keeping Your Own Ground  (0 words)
+(no text of its own: a grouping heading)
+
+### [N111] Untangling the Belonging Bargains  (263 words)
+Part of building who you are is untangling yourself from what I call the "belonging bargains" which pull you away from your own inner-knowing in return for belonging. Your friends probably have unwritten rules about what you can joke about or get upset about. A political tribe might expect consistent positions and predictable reactions, while a family or religion that's kind to you might have expectations that look at face value like just being a good member.  It can help to write down the unspoken rules your family ran on, like "Boys don't cry." Then write down the role you got handed, like the stand-in parent for a sibling, or the one who got blamed for everything (ST-CA has lists of both, in sections 15.2.3 and 15.2.4).
+
+Then there's another bargain, where you have to earn your worth: when you don't feel your value inside as a human being, you can become a "human doer," working for it in some arena outside yourself. That might be beauty, athleticism, sexual desirability, intelligence or grades. For some people it's money or status, and for others it's a sophisticated spiritual identity or becoming indispensable to everybody else's problems. It can feel really good to be the one everybody calls. In the more shadowy presentation, when you really need to feel needed, you might be like the firefighters who become arsonists to keep themselves employed.
+
+Even with good parents, you could have learned unhealthy self-valuation when people repeatedly praised what you did rather than your inherent worth. You weren't born with this flaw.
+
+#### [N112] Four Pairs That Commonly Hook the Child  (181 words)
+Pema Chödrön has a quick map for finding the bargain. It's four pairs, starting with pleasure and pain, and gain and loss. The other two are about what people think of you: praise and blame, and good reputation and disgrace. Your little one can panic when something hurts, and also when something good might disappear, like praise, romance, money, status, belonging or a spiritual high. You might still be enjoying one of those when your little one starts asking how long this is going to last.
+
+When that happens, you can ask yourself these, once you've caught your breath:
+
+- What do I think I'm about to get, or lose?
+- Whose approval suddenly feels like I can't live without it?
+- Is this a value I'm standing up for, or a high I'm trying to keep?
+- Would this still be something I'd feel is worth doing if at the end of the day, I didn't get praise from anyone for it?
+
+You don't have to stop enjoying pleasure, praise, gain or belonging, as long as they don't define you.
+
+### [N113] Practicing Differentiation  (358 words)
+Differentiation can happen right inside a family, religion, community or relationship. You'd still belong, but now you come first and belonging second. As a differentiated adult you can stay deeply embedded, free to question things or disagree. If a parent used to go quiet and hurt whenever you disagreed, that might be hard to believe. A family where everyone gets to be their own person is healthier than an enmeshed one, and a faith that's your own is healthier than religious compliance. It can be the same religion either way. And two differentiated people have a sturdier relationship than two who've been absorbed into each other.
+
+As you tell the part you've been playing apart from the authentic self that didn't get much practice, notice whether it makes you more curious about both, and better able to relate to them. Or does it have you thinking, "That chameleon's fake, and I'm getting rid of it"? Keep in mind the chameleon was a skillset that somehow worked to help you fit in. Even if you're not planning on playing James Bond anytime soon, you still might need to smooth your edges out sometimes as part of socializing. You can't always disagree with everyone on everything and still expect to be enjoyable/enjoy company.
+
+Day to day, differentiation looks something like this:
+
+- Caring about somebody's feelings without automatically adopting their opinions or sacrificing your own ground. Their reasons can still change your mind, though.
+- Noticing when you agreed in the moment and disagree later: "Wait, why was I nodding along?"
+- Noticing when what you thought you knew suddenly feels like water slipping through your hand because of praise or pity, fear or attraction, or something that really resonates with you.
+- Disappointing people and withstanding social pressure, and still being recognizably yourself wherever you are (maybe louder in some places). That one can take a while.
+- Questioning what you were programmed to believe while holding the discomfort, and without having to stop loving anyone over it.
+
+Key developed this identity and differentiation portion of the method, drawing on Murray Bowen's family-systems work and her own self-therapy.
+
+### [N114] When Being Happy Feels Like Abandoning Someone  (221 words)
+Some families run on a bargain like "If I'm happy while someone I love is suffering, I'm abandoning them."
+
+That's exactly why I was crying for 14 years. Beginning at the age of 12, when I really started to understand that life is brutal for most people, I became convinced that being happy myself, while others weren't, was selfish. I had this poster in my room that really resonated with me, by the famous socialist, Eugene V. Debs. I told this to a therapist in college and she actually agreed it was a good reason to be depressed!
+
+What I found, once I started cultivating my own happiness, was that I got a lot better at helping other people toward theirs. So do your part for people who are suffering (which might sometimes just be modeling how to live, i.e. doing nothing different), and skip the part where you have to be miserable too.
+
+Some friends or family really might not like it when you get happier, though. Some of them might pull away, while others might try to keep dragging you back into the old misery, since misery loves company. On the other hand, I wouldn't automatically classify everyone as envious just because they don't feel comfortable with you anymore, as it could be something you've done while unaware.
+
+## [N115] Finding People and Building Trust  (0 words)
+(no text of its own: a grouping heading)
+
+### [N116] People? Where Are the People?  (70 words)
+I can't tell you where to look for people who fit you, but I'd bet on more than one place. Keep the good people you've already got. Then maybe try a class, or a spiritual community if you find one that fits you. And if any group, or any one person, starts acting like they should be your only support, that's when we ask the Protector to start paying attention.
+
+### [N117] First Social Connections, Done Right  (255 words)
+Then there are people you're just getting to know. Meeting them can turn into a kind of test--"First impressions are everything," as they say, but it could be even worse than that, if you need them to prove you're lovable.
+
+Some people try to make themselves as lovable as possible, hiding their real feelings to do so. Others have no filter, on purpose, to see if they are still loved and appreciated. Like my one friend who used to go into churches and tell pastors they were wicked or unfit for their jobs, and then he wondered why he didn't feel the love those churches promise (which was more proof he was right about them to begin with). He's not wrong to speak his mind, but I wonder whether his goal is to reach mutual understanding, to vent, or to re-try dealing with some traumatic childhood pattern of losing himself to fit in with the gang.
+
+Neither of those approaches are the balance we're seeking, and both are treating the other person like they're your reassurance machine. I'm giving you permission now to quit school and flunk the tests. Instead, get curious about who this person is, and who you are, and let both of you have your own reasons for being there in the beautiful present. Leaning on each other is still a big part of relationships, and it goes both ways.
+
+If you find yourself getting strange reactions from people all the time, check what your expectations were about how they'd react.
+
+### [N118] Opening Up Honestly to the Right People at the Right Pace  (140 words)
+And reaching out doesn't mean telling strangers everything. Privacy isn't fakery. People can earn more of you by how they handle the smaller stuff, like whether that thing you told them about your weird fear of birds turns into a joke at the next party 🙈, and how they take it when you say no. But if a relationship is getting deep and you're still keeping up a fake normal, happy version of yourself to hold onto it, I'd either bring more of the truth in, carefully, or let it be less deep for now. (If telling could put you in real danger, like violence, or being outed where that isn't safe, protect yourself first.) And when someone finally accepts you, it can feel amazing. It still doesn't prove you're meant for each other, or that they've earned your trust yet.
+
+#### [N119] Before You Tell the Hardest Stuff  (279 words)
+Then there's the stuff that's hardest to tell anyone, and of course that's exactly what you need help with. Maybe it's an urge that scares you, or something you did that could get you in legal trouble. I'd assume that what you tell won't be completely confidential, especially if it sounds like something dangerous.
+
+You know that DM you deleted? It can still be sitting on their phone as a screenshot 🙈, and whatever's on a company's server can get handed over if a court asks. Just because Mr. Boopaloopa was your name on WhatsApp doesn't guarantee you're anonymous, by the way.
+
+And some of the people you'd tell, like therapists, teachers, and doctors, can be required to report certain things (a few laws cover everybody, too). Which things depends on where you live, and it's nowhere near every crime you might mention. The cops are hopefully the obvious ones to be careful with, even if they pretend to care.
+
+So you could ask this person, before handing over any tricky specifics: "What does the law require you to report?" That's a normal and expected question. Although personally I wouldn't even bother with that, because whatever they tell you today, the law can change tomorrow.
+
+You can always rephrase things as a dream narrative to get the emotional content across without triggering alarm bells (although I actually got in trouble with the Talkspace therapy bot even for a dream!). Just don't hold back a danger that's happening now from people who can help, and get anyone in danger safe before worrying about the rest. Sometimes telling on yourself is the thing that keeps someone safe, whatever it costs you legally.
+
+### [N120] Ask What Kind of Company They Want  (64 words)
+Before giving anyone advice, your little one included, it can help to find out what kind of company they want: "Do you want me to mostly listen, help you untangle this, brainstorm, or...?" Not that you have to make a ritual of asking every time, if it's obvious what they want. But as they say, "assume" makes an "ass" out of "u" and "me."
+
+### [N121] Hearthwork: Taking Turns Lending & Borrowing Adulthood  (272 words)
+[Hearthwork](https://hearthwork.u-dont-exist.com) is what I call my peer-counseling framework, which combines various other frameworks I'm familiar with. The basic premise is, peers take turns of equal length to privately listen to each other with respect and warm, positive regard. They don't try to interpret what's really going on, give advice, or fix the other person's life in the session.
+
+This is a "middle path" kind of relationship, that threads itself between ordinary friendship (so you're not "clienting" to your friends) and professional therapy (which gets saved for the more severe issues). Modern life rarely gives us anything like this, and your little one might really need it.
+
+It also helps us with the borrowed adulthood practice. When you take turns listening with a good peer, on an equal footing, their warmth and the way they hold space for you are ideal for borrowing the Nurturer role and what that feels like. The Protector role can also be borrowed from the way they keep what you say private, and the way you both stop when the turn's time is up.
+
+But they don't act as your Guide, or decide what your experience means. Maybe they're thinking, "Oh, I know what this is about," or "Here's what you should do." It's hard sometimes, but they agree to keep that to themselves during the session. Instead of telling you what to do, they might ask the right question at the right moment so you can hear your own Guide. There's also no pressure to answer. Then you trade places, and it's your turn to keep "Here's what you should do" to yourself.
+
+### [N122] Dating While You Heal  (169 words)
+Maybe you'd rather that your support came from a lover, as well. Lots of people open a dating app in the middle of the night, hoping someone will make it all stop hurting. 🙈 We call that "co-dependency" (although the term is not literally negative, it has come to carry this connotation). If that's you hitting the Swipe button right now, my suggestion is to let the dating game wait. Let your friends and the steady people around you do their part to support you as you learn to support yourself more.
+
+That doesn't mean you have to be completely healed before you date, but romance should follow when two people really love each other and want to build a life together. It won't rescue you from the pain of your life, nor reward you for healing, and it sucks to mess up a beautiful relationship because of unhealed trauma. Believe me, I've been through it. I wrote a whole [romance guide](http://romance.u-dont-exist.com), mostly due to this.
+
+## [N123] Speaking Up and Handling Conflict  (31 words)
+It's often in handling conflict that we see the real inner child jump out. So if you've been wondering where they are in a session, here you go, let's pl/ork!
+
+### [N124] If Someone Has Actually Hurt or Threatened You  (23 words)
+Even once, whether or not it brings up old stuff, get safe first, which is not a small thing at all, I know.
+
+### [N125] Speak Toward What You Are Building  (225 words)
+It's not so hard to understand that words have power. They point your attention somewhere, so aim them at what you want more of, whether that's something you'd like to be able to do or a relationship. Say you tell yourself "I'm not dependent." Well, now you're thinking about being dependent, just like that Pink Elephant. Being totally independent can even seem like just a reaction to the original problem. We can often strike a nice nuanced poetic balance, like: "I'm provided for by the universe, like the birds & lilies Jesus reminded us of." With your little one, and in hypnosis especially, make it easy to picture: warmth, protection, steadiness, rest, whatever's really needed to melt into your happy place. You'll save a ton of money on vacations!
+
+But let's also make sure we don't hide from shadow stuff with toxic positivity. Grief is natural, and letting tears flow can be immensely therapeutic, as long as they don't hijack your perspective with a cemented story of what will always be true. If your little one says "he hurt me," we honestly label that as harm, even if it was also a learning experience. Same for anger, a "No," who's responsible, all that. Then once the difficult experience is acknowledged by the Nurturer, the Protector & Guide can lead the way up to more safety and maturity.
+
+### [N126] Being Your Own Advocate With Doctors  (47 words)
+No need to give them a good impression if that means not being your own advocate. If you don't feel up to it, bring someone you trust to speak up for you (like, not that relative who never respected your wishes), and ask what a treatment's for.
+
+### [N127] Write It. Don't Send It Yet.  (589 words)
+If you've got something burning you up that you wanna say, write it out as a reply. There, that got it out. Ahh. Breathing easier. 😌 But don't send it. Take that breather you earned and then come back to it from a cooler place.
+
+It doesn't mean you need to hide your upset, or apply for a permit to protest, but choose your battles and execute them wisely, so you don't end up regretting how you communicated later. As Lao Tsu might have said (if I could ever have read that whole boring Art of War book), a war with no casualties is the best possible war. When high IQ & EQ communication hits a writer's block, sometimes the best thing is to simply say, "I need some time to think about my response." And if the conflict really requires a response right now, then obviously just do your best rather than wait for the perfect timing.
+
+Be honest with yourself about what your goal is for this communication. Do you want to bring someone mighty down? To show that you or your views matter? Or do you want them to listen and hear you without getting defensive? Sometimes folks are shocked at the response they get (why does everyone always reject me?), without even considering whether that response was easily predictable based on the energy they gave out to spark it.
+
+This is where I turn inward and talk to my writer, which is often my inner child when emotions pop up. It's like I'm holding his hand and showing him a better way, not like I just stole his pencil because he wrote something embarrassing. So what was he actually trying to say? A lot of the time it's just "that hurt."
+
+Other times it's "I did this too." My friend Tyler saw a guy smoking in front of a baby and asked him if he thought that was wise. The guy asked if he thought it was wise to mind his own business, and Tyler said, "Well, I believe in Christ, so I thought you might care about life too." Afterward he wasn't sure he'd handled it right, or whether he should have thrown the first stone at all, since he'd smoked in front of a baby himself.
+
+But Jesus also said to take the log out of your own eye first, and then "[you will see clearly to take the speck out of your brother's eye](https://www.biblegateway.com/passage/?search=Matthew%207%3A3-5&version=ESV)." That's exactly what made Tyler the right person to say something. If you actually have the problem they have, and you want to call them out for it, call yourself out for it first. What we came up with was something like, "Hey man, when I was younger I smoked in front of an infant, not realizing how selfish that was, and I notice you doing the same thing. I'd ask you to please have some compassion for him. I have a young child now, so this really touches me." Tyler's an evangelical Christian who preaches on YouTube, so the fact that he really appreciated this take on Jesus' message is pretty salient to me.
+
+It's also how your voice sounds, though. You can say all the right words, but if the tone is accusatory, it doesn't matter.
+
+Before sending anything hastily, I'd read it over once as if I were in their shoes. Stuff I wrote while I was scared or hurt can sound like aggression to them.
+
+### [N128] If You Really Did Hurt Them  (110 words)
+Repairing relationship damage is easier said than done, and must start from genuinely correct motivations.
+
+Are you really sorry for what you did, or are you just trying to feel sorry because they're upset? If you've said what you really feel, without dressing it up or justifying it, then let that be that. There's no guarantee they'll understand it, and they might need to mull it over for a while before they're even willing to hear what you said. That's how anger works, it grips you. Meanwhile, guilt may keep shouting at you. That doesn't tell you the whole conflict was your fault, nor does it prove they're manipulating you.
+
+### [N129] Other Folks Also Have Hooks  (190 words)
+Once you're in your happy place, look at the other person too, and don't go only by the one fight where they crossed your boundary, or, the other way around, by the one "no" or boundary of theirs that made you mad--after all, they're allowed to say no to you. Does it keep ending the same way, where you bring up something that hurt and then still end up reassuring them they're not a bad person, and the talk never comes back to what happened to you? (The psychologist [Lindsay Gibson](https://www.youtube.com/watch?v=VlNpgFWOLPw) wrote the book on this: [Disentangling from Emotionally Immature People](https://www.newharbinger.com/9781648481512/disentangling-from-emotionally-immature-people/).) Or can they hear you disagree and look at their own part?
+
+If it's the first, it can seem like you haven't explained yourself well enough yet. You probably have, and it makes more sense to count on what they keep showing you they can do than on the right words finally getting through to them. Maybe what they can do is text you something kind the next day and not bring any of it up.
+
+#### [N130] Can They Change?  (96 words)
+You may not know for certain whether the other person is or could be capable of a healthier response, and neither do they. If they promise to change, that's probably as useful as their prior promises were. Think about how long it has taken you to become more healthy. Could you have done that from one moment to the next based on a promise? Sometimes we can be a better support for someone when we maintain a realistic boundary, so that we can hold high expectations, and still feel prepared for their failure to meet them.
+
+#### [N131] If a Relationship Keeps Making You Feel Less Safe  (36 words)
+Meditate on why it makes you feel unsafe, and what keeps you in it. Might it be due to a lack of the healed inner child/inner adult relationship? (If so, you're reading the right guide!)
+
+### [N132] Taking a Break From a Family, Group, or Relationship  (89 words)
+Differentiation is slow, and it goes on your whole life. Sometimes you need to take a break from a family, group or relationship, even if they aren't doing anything to you. Simply being around them may pull you into that programmed space where listening to what you really want becomes harder. Some people come back later on different terms, and sometimes the break has to be long-term because the pattern of losing yourself with them is deeply entrenched. As you differentiate, you learn to tell which of those apply.
+
+## [N133] When One Life Has Ended and the Next Hasn't Begun  (234 words)
+Your little one can get really loud in the gap after one (figurative) life ends and before the next one has formed. A breakup will do it, or moving to another country, an illness, losing your faith or a role, or your youngest real child moving out. Maybe you've left a family or community, maybe you've stayed on new terms. A therapist or helper might step back because you're doing so much better, and suddenly your little one is wailing. For a while the old you is gone and the new you hasn't shown up yet. Tibetan Buddhism calls an in-between state like that a *bardo*.
+
+Your little one might be sure everything's over. Usually one real thing ended, and the related habits might be held onto like on autopilot. Ask your little one what they're scared will happen in the bardo between past and future (worst-case scenarios are kind of their specialty).
+
+Something basic can mark the ending, like boxing up the old keys. Nobody needs to know what door will open next. But when the not-knowing feels too heavy, a new identity can sure look tempting. Like a borrowed coat that doesn't fit but at least it's warm. But you can't go far with a borrowed coat anyway, so don't force the future on. Keep taking care of yourself, and grieve what ended with your little one beside you during the metamorphosis.
+
+### [N134] Missing Someone  (127 words)
+When you miss someone, let the ache be a cue for love. It doesn't have to become one more problem to solve, and pushing it away won't help. If love's there, "I miss you" becomes "I love you." Or there's the loving-kindness wish: "May you be loving, peaceful, and free." You can picture them. Or don't, and just feel the care going their way.
+
+All of this happens in you, so it doesn't matter whether they get any of it, because the main benefit is for your little one. I have an [*N of 1 case study that proves this works, also*](https://ibogaqueen.substack.com/p/i-ate-loveyhuasca-every-day-for-90). It's what rescued me from deep despair when the love of my life, my second wife, Bee, left me.
+
+## [N135] The Love Has to Move  (166 words)
+Community can come before the big opening or after it, too. Sometimes loving people give somebody enough safety and belonging that a deeper opening becomes possible. Other times it's the other way around. Somebody has a big opening first, a love or a meaning they couldn't have imagined before, and then they start to "manifest" different kinds of people and relationships in their life. Either way, the community is what helps make it practical, real, down to earth, embodied and so on.
+
+This is part of why I connect inner-child pl/ork with [Hearthwork](https://hearthwork.u-dont-exist.com) and with [building community](https://community.u-dont-exist.com). Having a beautiful experience on the inside isn't really the point. The love has to move, and it doesn't always go the same way round (the door you came in through matters less than the loop). From a spiritual experience to your little one, then into your relationship with the grown-up you, then out to other people, and back again.
+
+## [N136] Finding a Therapist to Borrow Adulthood  (35 words)
+We all need some support, especially when taking our first steps. First and easiest is to start with finding a somatic therapist, if that resonates, as per my [Somatic Therapies Guide](http://somatic.u-dont-exist.com/).
+
+### [N137] Inner Child Reparenting therapists  (83 words)
+Inner Child Reparenting therapists do exist, and you can find them, although they often are not licensed, and I don't know of any central directory, nor of any protocol they'd have in common (aside from Lucia C's, in the Appendix). There are none which work with my guide yet. I can consult, and if you like the guide, you can ask a therapist to check it out and see what they agree with or disagree with as a great way to vet them.
+
+### [N138] If you want a licensed therapist  (73 words)
+The best licensed, listed therapists you'll find that come close will be doing Internal Family Systems (IFS), or Schema Therapy. I'll talk more about those in the appendix. [Open Path Collective](https://openpathcollective.org/pricing-and-eligibility-for-affordable-therapy/) (or a similar resource in your country) lists thousands of affordable therapists. You can filter them by Schema or IFS. You can often find [even more Schema therapists at the official site](https://schematherapysociety.org/Search?&tab=1).
+
+### [N139] Before choosing a therapist  (130 words)
+Get to know the strengths and pitfalls of their approach, including any modifications they make to the standard protocol. I'd especially want to interview them regarding how they treat spiritual experiences. You want someone who won't tell you what yours really mean, downplay them, force them, or treat them as a symptom. I'd also want one who doesn't put ideas in your head, and who understands dissociation. What have they found too challenging to deal with so far, and where have they seen the best results? A good therapist won't charge you an arm and a leg just for this kind of interview, and they should already have this information on their website to avoid wasting too much time. A certificate on the wall can't tell you any of that.
+
+### [N140] AI therapy  (127 words)
+I've tried all the top AI therapy apps, and they're all pretty bad. I'm trying to make my own based on this guide, but I'm becoming more convinced that unsupervised AI therapy is just a toss up. That doesn't mean you can't get a lot of great insights sometimes when talking to AI, but just expect it to go sideways sometimes, and don't let it replace real humans who love you and want to think with you. Actually, I find one of the best uses for it is to improve my interactions with real people. For example, it can help me formulate more careful replies to people who are too sensitive to take my excessive bluntness or wry humor (although I wouldn't send them actual AI text).
+
+# [N141] Conclusion and Appendix  (0 words)
+(no text of its own: a grouping heading)
+
+## [N142] You Are Worthy of Love. Always.  (142 words)
+And the love you're worthy of is the same love as back in "Your Loan is PRE-APPROVED!", the Divine Love that can start as a little spark of relief when you give thanks. That kind, whether you'd say it comes from God or the universe itself or your subconscious, was there before you could earn anything. Love from a person is more conditional than that. Somebody's love running out on you still says nothing about what you're worth.
+
+Be patient with yourself, and gentle, including with the part of you that thinks you should be over it by now. You are more than your pain and your past. There's help, and lots of other people are out there learning to look after their own little ones. You can post a comment right here and let us know how it's goin for you.
+
+## [N143] Appendix  (0 words)
+(no text of its own: a grouping heading)
+
+### [N144] How This Relates to Similar Therapies  (114 words)
+My reparenting guide is part of the larger reparenting and inner child therapy category. As far as I can tell, it was first developed in 1976 by Dr. Lucia Capacchione. Although Lucia is no longer with us, [her institute still trains therapists](https://luciac.com/instructors.php) in her methods (including art therapy and other things). I greatly respect and appreciate what Lucia has given us to work with. While there are many inner child therapy offshoots (often less codified than Lucia's book, *Recovery of Your Inner Child*), it would be impossible for me to compare my guide to each individual therapist's approach. Below are the differences between Lucia's approach and my guide's approach:
+
+### [N145] Schema Therapy  (430 words)
+Of the scientifically studied clinical approaches I know, Schema Therapy, developed in the 1980s-1990s by Jeffrey E. Young, is the closest to this guide. Its therapists do what they call [limited reparenting](https://schematherapysociety.org/Limited-Reparenting): within professional limits, they give you some of what a good parent would, with warmth and firmness and some playfulness too. Over time you take that in, and it becomes your own "Healthy Adult," who looks after your "Vulnerable Child" and stands up to the punishing parent in your head. The healthy adult recognizes when a need differs from the strategy you use to meet it, and it helps you set limits. And it gets on with [adult life](https://schematherapy.com/id72.htm), like work and the things you've committed to. All that sounds like my Nurturer, Protector and Guide by other names, and since the therapist's version becomes yours bit by bit, it's borrowed adulthood too.
+
+Being all scientific and stuff does have its drawbacks also. Schema Therapy's name pretty much tells you all you need to know. What the heck is a Schema anyway? It's normally described as a "pervasive pattern of thinking, feeling, and behaving" (learned in childhood). Although I find a slightly different definition of it [from Cleveland Clinic](https://my.clevelandclinic.org/health/treatments/schema-therapy): "A schema is a long-lasting outlook or assumption that you have about yourself, others or the world." But yeah, put those together and that's basically what it's talking about. So the schema therapist takes answers from a questionnaire you fill out and maps your difficulties onto a set list of 18 schemas, which themselves map onto a set of modes, like the Vulnerable Child or the Punitive Parent. Based on those schemas and modes, the therapist assumes some things about your childhood that would explain them.
+
+Where it really differs is spirituality. Schema therapy doesn't build it in, though the preface to its main textbook calls blending it with meditation or religious practice "an important development." That's not so surprising, since it grew out of cognitive therapy. Some people do blend them, though.
+
+Tara Bennett-Goleman's book Emotional Alchemy, for one, fits a Buddhist loving-kindness wish to each schema. Her book barely mentions gratitude, and for me that's the door to the bigger love back in Your Loan is PRE-APPROVED! IFS goes overboard the other way, in my opinion (more on that in the next section).
+
+Schema Therapy takes a more combative stance with the inner critic and guards than IFS or my approach, possibly a result of the lack of spirituality in it.
+
+### [N146] Internal Family Systems (IFS)  (659 words)
+Richard Schwartz, who developed IFS in the 1980s, called one of his books *[No Bad Parts](https://ifs-institute.com/store/419).* Honor, understand and love every part, he says, and the protective ones are no exception, so "meet the guard first" would fit right in over there, although I focus more on keeping the inner child safe first. The one exception is that IFS does understand some parts may be entity attachments ("unattached burdens") which need to be exorcised. My guide also talks about entity attachments, but I don't believe that's reason to start another war. Rather, I explain the root cause of such attachments as lack of protective love from the inner adult.
+
+My reparenting method diverges from IFS at another important point. The IFS Institute's [outline of the model](https://ifs-institute.com/resources/articles/internal-family-systems-model-outline) says "everyone has a Self," (a divine True Self, from Advaita) and that the Self "can and should lead," once your parts stop "blending" with it. I emphasize the inner adult you borrow, build and practice occupying that has the roles of: Nurturer, Protector, and Guide.
+
+Is a perfect Higher/True Self already waiting in there to be your guide or parent? I'd call that claim [spiritual bypassing](https://bypassing.u-dont-exist.com). I've experienced that Higher Self perspective myself, though, in very powerful meditations and altered states. For example, one time, while still married to my first wife Ann, who was becoming more violent and crazy as time went on, we got super high on weed and we were both in some higher realm as our higher selves. My higher self asked her higher self, "Are you going to keep getting more and more crazy?" Her higher self said, "Yes." It was like we could see the whole timeline of life from above. Although, my friends already told me the same thing, quite sober. 😅
+
+So, there is a less subjective way of seeing things as perfectly ordained in reality, despite the ego's illusions, which matches what others say about it. As a Buddhist, I no longer see it as "Self", though it can still give the same love, peace, and clarity to whoever accesses it. Where I part ways with IFS is I don't think the Higher Self has any *specific* wisdom that can be followed mechanically. From that higher vantage point, problems can also look like they were never problems at all, and that can ironically lead instead to more foolish indifference.
+
+You can see both sides of this see-saw in the guru types who supposedly embody their Higher Self. [Anthony de Mello](https://en.wikipedia.org/wiki/Anthony_de_Mello_(Jesuit_priest)) is an excellent example. He was a Jesuit priest who mixed stories from all kinds of traditions into his teaching on seeing through the ego's traps and coming back to the Perfect Present. He also had a background as a psychotherapist who understood trauma-informed healing methods. He seemed to drift between the two opposite paradigms in a way that contradicted itself. And that bizarre contradiction is itself cited as "crazy wisdom" by apologists.
+
+I'm also not a fan of the strange and complex cast of characters in IFS. IFS splits up my "inner child" into an indefinite number of wounded young parts called "exiles." I find that pathologizing. I prefer to speak of a child who needs parenting and integration, rather than naming them by their wounded or excluded condition. And the parts just keep coming: managers, firefighters, exiles, polarized parts, legacy burdens, Self-energy, guides, new subparts... At some point it's a maze, and as my friend Pink, who has been healing her Dissociative Identity Disorder, explained, while it can be useful to have validation of the parts that one experiences, and ideas for how to work with them, it can also get overwhelming. People who are already overwhelmed can thus become more split up than before. I've seen many others echo this same evaluation, and it makes sense to me.
+
+### [N147] Development of my framework  (67 words)
+My inner child reparenting framework developed through the teachers and collaborators credited below and my own practice. Later revisions also compare notes with schema therapy, compassion-focused therapy, attachment repair, motivational interviewing, mentalizing, metacognitive therapy, behavioral activation, radically open DBT, emotion-focused therapy and spiritually integrated psychotherapy. I borrow particular ideas and practices from each of them, but the mix is mine, so please don't blame them for it.
+
+### [N148] Original Teachers and Practice Resources  (173 words)
+Daja works with inner-child pl/ork intuitively, through the divine Nurturer and Protector archetypes. Her work is less neuroscience and CBT and more direct archetypal practice, and the three grown-up jobs draw a lot from it. She has a [book](https://a.co/d/7Sa4kP2) and a [free one-hour YouTube training](https://youtube.com/playlist?list=PL_kbcFWhZK0wJeFUShGvHFZa1u3x7p8Y-&si=Fr0g76mDh8-WLMjM), and she's on [Instagram](http://instagram.com/ihopeyoufindserenity).
+
+[Key](https://substack.com/@keygoddess11) helped me think through some of these ideas in a very "embodied" way for a few months, and she added The Guide to make the 3 parental modes. She led a [guided inner-child meditation](https://www.youtube.com/watch?v=UkVlDixqqA0) in Nairobi in January 2026 for twenty people, and it's up on YouTube.
+
+
+
+Lisa Romano brings more neuroscience and CBT, and her [video](https://www.youtube.com/watch?v=2tbMRZKdHJ4) is a good place to start. She makes the point that remembering the specific details of childhood trauma isn't necessary, because the felt body knows what needs to come up.

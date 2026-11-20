@@ -1,0 +1,323 @@
+{
+ "cards": [
+  {
+   "id": "N001",
+   "reader_question": "What is inner child reparenting, in a nutshell?",
+   "kind": "concept",
+   "role": "none",
+   "role_confidence": "medium",
+   "part": "N001",
+   "part_confidence": "high",
+   "sits_under": "none",
+   "sits_under_confidence": "high"
+  },
+  {
+   "id": "N002",
+   "reader_question": "Why can't my inner child just heal itself, and what if I can't become the adult?",
+   "kind": "concept",
+   "role": "none",
+   "role_confidence": "medium",
+   "part": "N001",
+   "part_confidence": "high",
+   "sits_under": "N001",
+   "sits_under_confidence": "high"
+  },
+  {
+   "id": "N003",
+   "reader_question": "How does the path of reparenting usually unfold?",
+   "kind": "concept",
+   "role": "none",
+   "role_confidence": "medium",
+   "part": "N001",
+   "part_confidence": "high",
+   "sits_under": "N001",
+   "sits_under_confidence": "high"
+  },
+  {
+   "id": "N004",
+   "reader_question": "Why does the author trust this, and how did he come to it?",
+   "kind": "story",
+   "role": "none",
+   "role_confidence": "high",
+   "part": "N001",
+   "part_confidence": "high",
+   "sits_under": "N001",
+   "sits_under_confidence": "high"
+  },
+  {
+   "id": "N005",
+   "reader_question": "Is it safe and the right time for me to start?",
+   "kind": "grouping",
+   "role": "none",
+   "role_confidence": "high",
+   "part": "N005",
+   "part_confidence": "high",
+   "sits_under": "none",
+   "sits_under_confidence": "high"
+  },
+  {
+   "id": "N006",
+   "reader_question": "How do I know I'm ready, and how deep should I go at first?",
+   "kind": "safety",
+   "role": "none",
+   "role_confidence": "medium",
+   "part": "N005",
+   "part_confidence": "high",
+   "sits_under": "N005",
+   "sits_under_confidence": "high"
+  },
+  {
+   "id": "N007",
+   "reader_question": "What if my body is tense or flooded and I can't relax into this?",
+   "kind": "safety",
+   "role": "none",
+   "role_confidence": "medium",
+   "part": "N005",
+   "part_confidence": "high",
+   "sits_under": "N005",
+   "sits_under_confidence": "medium"
+  },
+  {
+   "id": "N008",
+   "reader_question": "What if therapy stirs up storms, dreams or grief afterward?",
+   "kind": "safety",
+   "role": "none",
+   "role_confidence": "medium",
+   "part": "N005",
+   "part_confidence": "high",
+   "sits_under": "N007",
+   "sits_under_confidence": "high"
+  },
+  {
+   "id": "N009",
+   "reader_question": "What if I hate myself or my inner child and see nothing to love?",
+   "kind": "concept",
+   "role": "N028",
+   "role_confidence": "low",
+   "part": "N005",
+   "part_confidence": "medium",
+   "sits_under": "N030",
+   "sits_under_confidence": "low"
+  },
+  {
+   "id": "N010",
+   "reader_question": "What if I want to scare or hurt the child, or fear I might?",
+   "kind": "safety",
+   "role": "none",
+   "role_confidence": "medium",
+   "part": "N005",
+   "part_confidence": "high",
+   "sits_under": "N005",
+   "sits_under_confidence": "high"
+  },
+  {
+   "id": "N011",
+   "reader_question": "How does ill will get dealt with before the child is involved?",
+   "kind": "safety",
+   "role": "none",
+   "role_confidence": "medium",
+   "part": "N005",
+   "part_confidence": "high",
+   "sits_under": "N010",
+   "sits_under_confidence": "high"
+  },
+  {
+   "id": "N012",
+   "reader_question": "What do I do if I'm about to kill myself?",
+   "kind": "safety",
+   "role": "none",
+   "role_confidence": "high",
+   "part": "N005",
+   "part_confidence": "high",
+   "sits_under": "N005",
+   "sits_under_confidence": "high"
+  },
+  {
+   "id": "N013",
+   "reader_question": "Is death really an escape, and what does spirituality say about it?",
+   "kind": "safety",
+   "role": "none",
+   "role_confidence": "medium",
+   "part": "N005",
+   "part_confidence": "high",
+   "sits_under": "N012",
+   "sits_under_confidence": "high"
+  },
+  {
+   "id": "N014",
+   "reader_question": "Why is this human life worth keeping?",
+   "kind": "safety",
+   "role": "none",
+   "role_confidence": "medium",
+   "part": "N005",
+   "part_confidence": "high",
+   "sits_under": "N012",
+   "sits_under_confidence": "medium"
+  },
+  {
+   "id": "N015",
+   "reader_question": "How do I build the grown-up inside me?",
+   "kind": "grouping",
+   "role": "none",
+   "role_confidence": "high",
+   "part": "N015",
+   "part_confidence": "high",
+   "sits_under": "none",
+   "sits_under_confidence": "high"
+  },
+  {
+   "id": "N016",
+   "reader_question": "How can I become the adult when I don't feel like one yet?",
+   "kind": "concept",
+   "role": "none",
+   "role_confidence": "medium",
+   "part": "N015",
+   "part_confidence": "high",
+   "sits_under": "N015",
+   "sits_under_confidence": "high"
+  },
+  {
+   "id": "N017",
+   "reader_question": "Can I just lean on a wise-seeming outside person to be my adult?",
+   "kind": "relationships",
+   "role": "N045",
+   "role_confidence": "low",
+   "part": "N015",
+   "part_confidence": "high",
+   "sits_under": "N016",
+   "sits_under_confidence": "high"
+  },
+  {
+   "id": "N018",
+   "reader_question": "How do I spot manipulation by gurus and others who seem to understand me?",
+   "kind": "relationships",
+   "role": "N021",
+   "role_confidence": "low",
+   "part": "N015",
+   "part_confidence": "medium",
+   "sits_under": "N017",
+   "sits_under_confidence": "high"
+  },
+  {
+   "id": "N019",
+   "reader_question": "How do I borrow a model of a good parent when I can't imagine one?",
+   "kind": "practice",
+   "role": "none",
+   "role_confidence": "medium",
+   "part": "N015",
+   "part_confidence": "high",
+   "sits_under": "N016",
+   "sits_under_confidence": "high"
+  },
+  {
+   "id": "N020",
+   "reader_question": "What can I do before I've built any adult capacities?",
+   "kind": "practice",
+   "role": "none",
+   "role_confidence": "medium",
+   "part": "N015",
+   "part_confidence": "medium",
+   "sits_under": "N015",
+   "sits_under_confidence": "medium"
+  },
+  {
+   "id": "N021",
+   "reader_question": "How can I protect and earn trust from my little one when I feel no warmth yet?",
+   "kind": "practice",
+   "role": "N021",
+   "role_confidence": "high",
+   "part": "N015",
+   "part_confidence": "high",
+   "sits_under": "N015",
+   "sits_under_confidence": "high"
+  },
+  {
+   "id": "N022",
+   "reader_question": "What are concrete first protector moves?",
+   "kind": "practice",
+   "role": "N021",
+   "role_confidence": "high",
+   "part": "N015",
+   "part_confidence": "high",
+   "sits_under": "N021",
+   "sits_under_confidence": "high"
+  },
+  {
+   "id": "N023",
+   "reader_question": "How do I plan protector acts instead of reacting to crises?",
+   "kind": "practice",
+   "role": "N021",
+   "role_confidence": "high",
+   "part": "N015",
+   "part_confidence": "high",
+   "sits_under": "N021",
+   "sits_under_confidence": "high"
+  },
+  {
+   "id": "N024",
+   "reader_question": "How do I protect my little one from my own self-attacks?",
+   "kind": "practice",
+   "role": "N021",
+   "role_confidence": "high",
+   "part": "N015",
+   "part_confidence": "high",
+   "sits_under": "N021",
+   "sits_under_confidence": "high"
+  },
+  {
+   "id": "N025",
+   "reader_question": "How do I protect them from the critical parent voice I inherited?",
+   "kind": "practice",
+   "role": "N021",
+   "role_confidence": "high",
+   "part": "N015",
+   "part_confidence": "medium",
+   "sits_under": "N021",
+   "sits_under_confidence": "high"
+  },
+  {
+   "id": "N026",
+   "reader_question": "How can I handle a harsh inner voice without fighting it or obeying it?",
+   "kind": "practice",
+   "role": "N021",
+   "role_confidence": "medium",
+   "part": "N015",
+   "part_confidence": "medium",
+   "sits_under": "N025",
+   "sits_under_confidence": "high"
+  },
+  {
+   "id": "N027",
+   "reader_question": "How does the child's trust actually get earned over time?",
+   "kind": "concept",
+   "role": "N021",
+   "role_confidence": "high",
+   "part": "N015",
+   "part_confidence": "high",
+   "sits_under": "N021",
+   "sits_under_confidence": "high"
+  },
+  {
+   "id": "N028",
+   "reader_question": "How do I grow love and warmth toward my little one?",
+   "kind": "grouping",
+   "role": "N028",
+   "role_confidence": "high",
+   "part": "N015",
+   "part_confidence": "high",
+   "sits_under": "N015",
+   "sits_under_confidence": "high"
+  },
+  {
+   "id": "N029",
+   "reader_question": "What if my love feels unsafe to my child, or they say they don't believe me?",
+   "kind": "practice",
+   "role": "N028",
+   "role_confidence": "high",
+   "part": "N015",
+   "part_confidence": "high",
+   "sits_under": "N028",
+   "sits_under_confidence": "high"
+  }
+ ]
+}

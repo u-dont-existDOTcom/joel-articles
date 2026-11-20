@@ -1,0 +1,456 @@
+{
+ "cards": [
+  {
+   "id": "N030",
+   "reader_question": "What if I can't feel any love for my inner child and 'love them' sounds like nonsense?",
+   "kind": "problem",
+   "role": "N028",
+   "role_confidence": "high",
+   "part": "N015",
+   "part_confidence": "high",
+   "continues": "N029",
+   "needs_first": [
+    "N029"
+   ]
+  },
+  {
+   "id": "N031",
+   "reader_question": "How can I use the love a good friend gave me when I have none of my own yet?",
+   "kind": "practice",
+   "role": "N028",
+   "role_confidence": "high",
+   "part": "N015",
+   "part_confidence": "high",
+   "continues": "none",
+   "needs_first": [
+    "N029"
+   ]
+  },
+  {
+   "id": "N032",
+   "reader_question": "If I can love my dog or a friend, how do I get that love to reach my little one?",
+   "kind": "practice",
+   "role": "N028",
+   "role_confidence": "high",
+   "part": "N015",
+   "part_confidence": "high",
+   "continues": "none",
+   "needs_first": [
+    "N029"
+   ]
+  },
+  {
+   "id": "N033",
+   "reader_question": "Should I only show up for my little one when something is wrong?",
+   "kind": "practice",
+   "role": "N028",
+   "role_confidence": "high",
+   "part": "N015",
+   "part_confidence": "high",
+   "continues": "none",
+   "needs_first": [
+    "N029"
+   ]
+  },
+  {
+   "id": "N034",
+   "reader_question": "What can I offer when 'I love you' is too much to say honestly, especially to someone who hurt me?",
+   "kind": "practice",
+   "role": "N028",
+   "role_confidence": "high",
+   "part": "N015",
+   "part_confidence": "high",
+   "continues": "none",
+   "needs_first": [
+    "N030"
+   ]
+  },
+  {
+   "id": "N035",
+   "reader_question": "Is there a deeper love than ordinary love, and do I have to shrink it to a thought experiment?",
+   "kind": "concept",
+   "role": "N028",
+   "role_confidence": "medium",
+   "part": "N015",
+   "part_confidence": "high",
+   "continues": "none",
+   "needs_first": [
+    "N029"
+   ]
+  },
+  {
+   "id": "N036",
+   "reader_question": "How can I actually start to experience divine love, and is gratitude just toxic positivity?",
+   "kind": "practice",
+   "role": "N028",
+   "role_confidence": "medium",
+   "part": "N015",
+   "part_confidence": "medium",
+   "continues": "N035",
+   "needs_first": [
+    "N035"
+   ]
+  },
+  {
+   "id": "N037",
+   "reader_question": "Isn't gratitude just prosperity philosophy, and what about being thankful in suffering?",
+   "kind": "concept",
+   "role": "N028",
+   "role_confidence": "medium",
+   "part": "N015",
+   "part_confidence": "medium",
+   "continues": "N036",
+   "needs_first": [
+    "N036"
+   ]
+  },
+  {
+   "id": "N038",
+   "reader_question": "Once I feel that softness of heart, how do I bring my little one into it without bypassing them?",
+   "kind": "practice",
+   "role": "N028",
+   "role_confidence": "high",
+   "part": "N015",
+   "part_confidence": "high",
+   "continues": "none",
+   "needs_first": [
+    "N036"
+   ]
+  },
+  {
+   "id": "N039",
+   "reader_question": "What is a concrete hands-on way to send love to my little one and let it come back?",
+   "kind": "practice",
+   "role": "N028",
+   "role_confidence": "high",
+   "part": "N015",
+   "part_confidence": "high",
+   "continues": "N038",
+   "needs_first": [
+    "N038"
+   ]
+  },
+  {
+   "id": "N040",
+   "reader_question": "What if the teacher I trusted betrayed me and spiritual practice feels tainted?",
+   "kind": "problem",
+   "role": "N028",
+   "role_confidence": "low",
+   "part": "N015",
+   "part_confidence": "medium",
+   "continues": "N035",
+   "needs_first": [
+    "N035"
+   ]
+  },
+  {
+   "id": "N041",
+   "reader_question": "Is there a simple promise I can make to my little one that I can actually keep?",
+   "kind": "practice",
+   "role": "N028",
+   "role_confidence": "high",
+   "part": "N015",
+   "part_confidence": "high",
+   "continues": "none",
+   "needs_first": [
+    "N029"
+   ]
+  },
+  {
+   "id": "N042",
+   "reader_question": "How do I remember the vow day to day, and can a child or pet help?",
+   "kind": "practice",
+   "role": "N028",
+   "role_confidence": "high",
+   "part": "N015",
+   "part_confidence": "high",
+   "continues": "N041",
+   "needs_first": [
+    "N041"
+   ]
+  },
+  {
+   "id": "N043",
+   "reader_question": "How big can my wish for someone's happiness be, and how would I know a bigger love exists?",
+   "kind": "concept",
+   "role": "N028",
+   "role_confidence": "medium",
+   "part": "N015",
+   "part_confidence": "medium",
+   "continues": "none",
+   "needs_first": [
+    "N029"
+   ]
+  },
+  {
+   "id": "N044",
+   "reader_question": "Can grief or sorrow lead somewhere good, and why does being cared for make me sad?",
+   "kind": "concept",
+   "role": "N028",
+   "role_confidence": "low",
+   "part": "N015",
+   "part_confidence": "medium",
+   "continues": "none",
+   "needs_first": []
+  },
+  {
+   "id": "N045",
+   "reader_question": "What does the Inner Guide do, and what if I don't feel wise enough to be one?",
+   "kind": "concept",
+   "role": "N045",
+   "role_confidence": "high",
+   "part": "N015",
+   "part_confidence": "high",
+   "continues": "none",
+   "needs_first": [
+    "N016"
+   ]
+  },
+  {
+   "id": "N046",
+   "reader_question": "How can I borrow wisdom when I can't see my situation clearly yet?",
+   "kind": "practice",
+   "role": "N045",
+   "role_confidence": "high",
+   "part": "N015",
+   "part_confidence": "high",
+   "continues": "N045",
+   "needs_first": [
+    "N045"
+   ]
+  },
+  {
+   "id": "N047",
+   "reader_question": "How can I use past successes without turning them into a stick to hit myself with?",
+   "kind": "practice",
+   "role": "N045",
+   "role_confidence": "high",
+   "part": "N015",
+   "part_confidence": "high",
+   "continues": "N045",
+   "needs_first": [
+    "N045"
+   ]
+  },
+  {
+   "id": "N048",
+   "reader_question": "Must the Guide be certain and flawless, and what do I do with embarrassing intrusive thoughts?",
+   "kind": "concept",
+   "role": "N045",
+   "role_confidence": "high",
+   "part": "N015",
+   "part_confidence": "high",
+   "continues": "none",
+   "needs_first": [
+    "N045"
+   ]
+  },
+  {
+   "id": "N049",
+   "reader_question": "What if my little one fears nobody will like it, where else can I belong?",
+   "kind": "concept",
+   "role": "N045",
+   "role_confidence": "high",
+   "part": "N015",
+   "part_confidence": "high",
+   "continues": "N045",
+   "needs_first": [
+    "N045"
+   ]
+  },
+  {
+   "id": "N050",
+   "reader_question": "When is it too early for the Guide to take charge, and how do I tell?",
+   "kind": "safety",
+   "role": "N045",
+   "role_confidence": "high",
+   "part": "N015",
+   "part_confidence": "high",
+   "continues": "none",
+   "needs_first": [
+    "N045"
+   ]
+  },
+  {
+   "id": "N051",
+   "reader_question": "How do I avoid both spoiling my little one and being harsh with it?",
+   "kind": "concept",
+   "role": "N045",
+   "role_confidence": "high",
+   "part": "N015",
+   "part_confidence": "high",
+   "continues": "none",
+   "needs_first": [
+    "N045"
+   ]
+  },
+  {
+   "id": "N052",
+   "reader_question": "How do I actually practice with my little one in a session?",
+   "kind": "grouping",
+   "role": "none",
+   "role_confidence": "high",
+   "part": "N052",
+   "part_confidence": "high",
+   "continues": "none",
+   "needs_first": []
+  },
+  {
+   "id": "N053",
+   "reader_question": "What if I look for my little one and get anger or a blank instead?",
+   "kind": "practice",
+   "role": "none",
+   "role_confidence": "high",
+   "part": "N052",
+   "part_confidence": "high",
+   "continues": "none",
+   "needs_first": []
+  },
+  {
+   "id": "N054",
+   "reader_question": "What if I don't hear an inner voice, can I still do this?",
+   "kind": "problem",
+   "role": "none",
+   "role_confidence": "high",
+   "part": "N052",
+   "part_confidence": "high",
+   "continues": "none",
+   "needs_first": []
+  },
+  {
+   "id": "N055",
+   "reader_question": "Can looking at childhood photos help me reach my little one, and what are the risks?",
+   "kind": "practice",
+   "role": "none",
+   "role_confidence": "high",
+   "part": "N052",
+   "part_confidence": "high",
+   "continues": "none",
+   "needs_first": []
+  },
+  {
+   "id": "N056",
+   "reader_question": "What is other-hand journaling and what if it doesn't work for me?",
+   "kind": "practice",
+   "role": "none",
+   "role_confidence": "high",
+   "part": "N052",
+   "part_confidence": "high",
+   "continues": "none",
+   "needs_first": []
+  },
+  {
+   "id": "N057",
+   "reader_question": "Which thoughts that come up while journaling deserve an answer?",
+   "kind": "practice",
+   "role": "none",
+   "role_confidence": "high",
+   "part": "N052",
+   "part_confidence": "high",
+   "continues": "N056",
+   "needs_first": [
+    "N056"
+   ]
+  },
+  {
+   "id": "N058",
+   "reader_question": "What if no answer comes when I journal?",
+   "kind": "practice",
+   "role": "none",
+   "role_confidence": "high",
+   "part": "N052",
+   "part_confidence": "high",
+   "continues": "N056",
+   "needs_first": [
+    "N056"
+   ]
+  },
+  {
+   "id": "N059",
+   "reader_question": "What if I do get an answer, and what form might it take?",
+   "kind": "practice",
+   "role": "none",
+   "role_confidence": "high",
+   "part": "N052",
+   "part_confidence": "high",
+   "continues": "N056",
+   "needs_first": [
+    "N056"
+   ]
+  },
+  {
+   "id": "N060",
+   "reader_question": "What if the voice tells me to do something?",
+   "kind": "safety",
+   "role": "none",
+   "role_confidence": "high",
+   "part": "N052",
+   "part_confidence": "high",
+   "continues": "N056",
+   "needs_first": [
+    "N056"
+   ]
+  },
+  {
+   "id": "N061",
+   "reader_question": "What do I do when the part that answers is anxiety?",
+   "kind": "practice",
+   "role": "none",
+   "role_confidence": "high",
+   "part": "N052",
+   "part_confidence": "high",
+   "continues": "N056",
+   "needs_first": [
+    "N056"
+   ]
+  },
+  {
+   "id": "N062",
+   "reader_question": "How do I notice being hooked before the story takes over?",
+   "kind": "practice",
+   "role": "none",
+   "role_confidence": "high",
+   "part": "N052",
+   "part_confidence": "high",
+   "continues": "none",
+   "needs_first": []
+  },
+  {
+   "id": "N063",
+   "reader_question": "What can calm me when I'm badly hooked, and is mantra okay?",
+   "kind": "practice",
+   "role": "none",
+   "role_confidence": "high",
+   "part": "N052",
+   "part_confidence": "high",
+   "continues": "N062",
+   "needs_first": [
+    "N062"
+   ]
+  },
+  {
+   "id": "N064",
+   "reader_question": "Does a passing feeling mean something is true about them or me?",
+   "kind": "concept",
+   "role": "none",
+   "role_confidence": "medium",
+   "part": "N052",
+   "part_confidence": "medium",
+   "continues": "none",
+   "needs_first": []
+  },
+  {
+   "id": "N065",
+   "reader_question": "What daily morning and night routine can I follow?",
+   "kind": "practice",
+   "role": "none",
+   "role_confidence": "high",
+   "part": "N052",
+   "part_confidence": "high",
+   "continues": "none",
+   "needs_first": [
+    "N062"
+   ]
+  }
+ ]
+}
