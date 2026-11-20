@@ -581,6 +581,16 @@ class SenseGate(unittest.TestCase):
         best = L.best_near_miss(L.lineage_view(L.state(L.read(self.ledger)), 'G'))
         self.assertEqual(best['text'], pathlib.Path(t2).read_text(encoding='utf-8').rstrip('\n'))
 
+    def test_a_try_adds_no_word_the_linter_flags_as_overused(self):
+        """Lesson bad-trips-2026-11-20e: my try added "ordinary"; he took it out and the paragraph read Human High."""
+        t1, r1 = self.files('Samsara offers no shortage of difficult experiences to process.')
+        self.assertEqual(self.predict(t1, r1), 0)
+        self.read_ai(t1)
+        t2, r2 = self.files('Samsara, the cycle of ordinary existence, offers no shortage of difficult experiences to process.')
+        self.assertEqual(self.predict(t2, r2, ('--diagnosis', 'the term explained')), 2)
+        t3, r3 = self.files('Samsara, the cycle of existence, offers no shortage of difficult experiences to process.')
+        self.assertEqual(self.predict(t3, r3, ('--diagnosis', 'the term explained')), 0)
+
     def test_a_small_retry_goes_through(self):
         t1, r1 = self.files('Letting them move around is fine. If they want to leave, someone goes with them.')
         self.assertEqual(self.predict(t1, r1), 0)
@@ -617,6 +627,16 @@ class FirstFix(SenseGate):
         self.assertEqual(self.predict(t, r, ('--first-fix', 'payoff: moved up')), 2)   # join and plain unsaid
         self.assertEqual(self.predict(t, r, ('--first-fix', self.FIX)), 0)
         self.assertEqual(L.read(self.ledger)[-1]['first_fix'], self.FIX)
+
+    def test_a_payoff_that_moved_nothing_says_how_each_sentence_already_leads(self):
+        """Lesson bad-trips-2026-11-20c: "payoff: none moved" let my tries keep the means before the payoff; his Hunter fix
+        ("To diagnose serotonin syndrome, we can use ...") moved it, and Pangram read the stretch Human."""
+        self.window('AI-Generated', 'Medium', self.OLD)
+        t, r = self.files(self.NEW)
+        rest = '; join: the α-KG sentence joined to the one before; plain: "turned straight into" back to "converted into"'
+        self.assertEqual(self.predict(t, r, ('--first-fix', 'payoff: none moved' + rest)), 2)
+        self.assertEqual(self.predict(t, r, ('--first-fix', 'payoff: none moved, each changed sentence already leads with '
+                                                            'what the reader gets (the energy)' + rest)), 0)
 
     def test_human_at_medium_is_below_high_too(self):
         self.window('Human', 'Medium', self.OLD)

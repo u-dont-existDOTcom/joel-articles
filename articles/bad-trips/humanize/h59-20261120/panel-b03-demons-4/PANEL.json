@@ -1,0 +1,39 @@
+{
+ "readers": [
+  "haiku",
+  "sonnet"
+ ],
+ "sentences": [
+  "It might look passive, but this is how you become unhookable.",
+  "When you meet a demon with love, the demon has nothing to hook into, since its hooks only catch on things like hatred and fear.",
+  "If someone's too overwhelmed to reach love, maybe because they're sick or too scared to think straight, help them get steady first, with the lights down and a doctor if they need one, and save the demon philosophy for later."
+ ],
+ "flagged": {
+  "1": [
+   "haiku",
+   "sonnet"
+  ],
+  "2": [
+   "haiku",
+   "sonnet"
+  ],
+  "3": [
+   "haiku",
+   "sonnet"
+  ]
+ },
+ "agreed": [
+  1,
+  2,
+  3
+ ],
+ "whole": {
+  "haiku": [
+   "The paragraph follows a tidy arc of claim, metaphor, practical step and wry close, each neatly resolved, which gives it the even, finished rhythm of a generated passage rather than a rougher personal voice."
+  ],
+  "sonnet": [
+   "The paragraph makes a bold claim, explains it with one metaphor, then adds a considerate caveat for the exception, a very orderly claim-then-qualification build. The tone is gentle and reassuring with little rough edge."
+  ]
+ },
+ "human_clean": []
+}
