@@ -1551,6 +1551,55 @@
     }
    ],
    "recorded_utc": "2026-11-19T16:29Z"
+  },
+  {
+   "turn": "2026-11-20T17:05Z",
+   "lines_of_work": [
+    "neuro de-armoring",
+    "hypnosis guide",
+    "community article"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "AGENTS.md 7ef0bfc and LESSON-INDEX 62d9a9f unchanged (main 3d79cc81); the lane's six suggested-fix items, all in the ledger"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "main at 5d00ac6cc: this lane's 445 and 446 merged by the lane workflow yesterday at 16:37 and 16:43; bad-trips 447 to 449 merged; no new issues or comments"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no edits by others to this lane's notes; his answers 15a, 16a, 17 to 23 and his request to make the contradictions check a standard step; the cards page's stored answers unchanged since 2026-11-14"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "no queued notifications"
+    }
+   ],
+   "items": [
+    {
+     "item": "15a 16a 19a 21b",
+     "outcome": "apply by script (the words the questions showed, or the listed order for 16a)"
+    },
+    {
+     "item": "17 20 22a",
+     "outcome": "his words go in where the question pointed, by script"
+    },
+    {
+     "item": "18 23",
+     "outcome": "his new points on iboga (Tabernanthe elliptica) and agmatine with psychedelics: check against sources and forums on both sides, then cards with the text"
+    },
+    {
+     "item": "contradictions check",
+     "outcome": "make it a standard step in joel-articles: rule, tool, lesson, after reading the open pull requests that touch the shared files"
+    }
+   ],
+   "recorded_utc": "2026-11-20T17:07Z"
   }
  ]
 }

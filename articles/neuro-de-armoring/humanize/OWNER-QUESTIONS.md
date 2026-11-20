@@ -1,7 +1,7 @@
 # Neuro de-armoring: what I need from Joel
 
-Last updated 2026-11-19, after your message of 16:17 UTC.
-**Open questions: 9.** **For you to do**: nothing besides the questions; your answers 12a and 14 are in.
+Last updated 2026-11-20, after your message of 17:05 UTC.
+**Open questions: 10.** **For you to do**: nothing besides the questions; your answers 15a, 19a, 20, 21b and 22a are in.
 
 Colours: 🟣 a question for you; 🟠 something for you to do; 🔵 next or in progress; 🟢 done or decided.
 
@@ -10,73 +10,104 @@ can read and update it. Every file it points to is a link.
 
 ## Open questions
 
-**🟣 15. Should your clause on children say it means uses other than IV?** You said you're not talking about IV use. But
-your clause comes right after the authors' worry about the children who get DMSO in transplants, which is given by IV, so a
-reader may take "no proof it's harming children" to cover those children too, and they have had brief reactions
-([Schlegel, et al, 2009](https://pubmed.ncbi.nlm.nih.gov/19608681/)). With a few words it would say what you mean:
-"although so far there's no proof it's harming children when it's not given by IV, and many people use it on their
-children for injuries, infections, and so forth with good results in practice."
+**🟣 32. Your iboga answer (18) as text: does it go in like this?** In the iboga list, your words, with the Weeks 3–5
+lines to match:
 
-- a) Add "when it's not given by IV" as above. (My pick: then the sentence can't be read as covering the transplants.)
-- b) Keep it as you wrote it.
+> Female Iboga: For "Emotional Numbness" (Anima).
+> Male Iboga: For "Brain Fog/Helplessness/Relapse" (Animus).
+> Tabernanthe elliptica ("bisexual" or "healer" iboga): an iboga cousin with many iboga alkaloids, the best of both worlds
+> but lower potency than regular iboga, and it doesn't feel as trancey. Try elliptica first for microdosing: it's more
+> functional, more clear-headed, and often better for mood. Male iboga seems to be closest to what is mainly studied.
 
-**🟣 16. Should Weeks 3–5 say to start its new things one at a time?** Your plan for Weeks 3–5 lists the UMP trial, the
-5-HTP trial, the iboga and mushroom microdoses and a move to the keto diet in the same weeks, with no order or gap between
-them. Earlier you say not to start the uridine at the same time as another big change, not to do the 5-HTP trial along with
-the other changes, and "Do not start both together" ([the lines](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/coherence/EXTRACT.md), item 2.2).
+Weeks 3–5: "Micro-dose Tabernanthe elliptica or Male Iboga (if heart is ok)." and "*If Numb:* Micro-dose Tabernanthe
+elliptica or Female Iboga, and/or Hillybilly/Mazatapec shrooms."
 
-- a) Yes: the plan says to start them one at a time, in the order you give (or the order they're listed in now). (My pick:
-  it's what your own trial lines say.)
-- b) No: they can start together, and the earlier lines change to say so.
+What the sources show ([the research](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/x1120a/RESEARCH-18-23.md)): no paper on elliptica's alkaloids or potency (PubMed has none), and the only
+page I found calling it "bisexual" or "healer" iboga, with its lower potency and clear head, is your own Substack.
+Botanists don't split iboga into male and female plants; in the Bwiti interviews I found, male and female are initiation
+rites. Research mostly uses ibogaine itself (or noribogaine), not a plant type, so nothing backs "closest to what is mainly
+studied". Iboga's heart risk comes from its alkaloids (QT prolongation and dangerous heart rhythms, even in people with no heart
+condition, and deaths), so "if heart is ok" covers elliptica too, and an ECG is how to know. Your Substack also calls male iboga "almost surely
+more cardiotoxic".
 
-**🟣 17. Does a microdose day count as a "psychedelic day"?** You say not to take 5-HTP or UMP on psychedelic days, and your
-5-HTP trial also says not to use it with iboga at all. But the same weeks have the daily mushroom microdose and the morning
-iboga spray, and the text doesn't say whether a microdose day is a psychedelic day ([the lines](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/coherence/EXTRACT.md), item 2.3).
+- a) Put it in as above.
+- b) Put it in saying elliptica's potency and feel are from experience ("in my experience ..."), without "closest to what
+  is mainly studied", and with "(if heart is ok: an ECG is how to know)". (My pick: it says only what's known.)
+- c) Your words.
 
-- a) Yes: the plan says the 5-HTP and UMP trials don't overlap the microdosing. (My pick: it's the reading your own
-  warnings give.)
-- b) No: a microdose doesn't count, and the rule says so where it stands (5-HTP still not with iboga, as your line says).
+**🟣 33. Your agmatine answer (23) as text: does it go in like this?** After agmatine's timing rule, your words:
 
-**🟣 18. Which iboga is for numbness?** Your iboga section gives female iboga for numbness and fog, and male iboga for
-helplessness and relapse. But for the numb phase, Weeks 3–5 says to microdose male iboga, and its "If Numb" line gives male
-iboga too ([the lines](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/coherence/EXTRACT.md), item 2.5).
+> Agmatine with psychedelics is more complicated, and I can't say to take it with them or not. People report it can make a
+> trip or an MDMA roll stronger while putting a ceiling on the euphoria. A friend of mine finds it gives a lot of the
+> introspective benefits he gets from iboga, and that the two go well together, although I haven't heard of that from
+> others. I don't notice much from it myself, aside from, I think, a lower ceiling on euphoria. I wouldn't use it unless a
+> trip gets too stormy, but you can try the combination to see if it's worthwhile for you. Everyone's different.
 
-- a) Female: the two Weeks 3–5 lines change to female.
-- b) Male: your iboga section changes (your words for how).
+What the forums and studies show ([the research](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/x1120a/RESEARCH-18-23.md)): the one forum thread I could open on agmatine with MDMA leans the
+other way (one person felt less intensity, one no change, one said it smoothed the rough edges). In rats, agmatine weakened
+methamphetamine's effects and its rise in body temperature, and calmed amphetamine and ketamine's activity. One rat study
+found ibogaine shares some of its felt effects with drugs acting where agmatine acts, and agmatine overlapped a little:
+some support for your friend. There's no study of agmatine with MDMA, psilocybin or LSD, and none on safety. The timing
+line for D-serine and DCS days stays as it is (it's about learning sessions, not trips) unless you say otherwise.
 
-**🟣 19. "Increase PS" in Weeks 1–2: does it mean starting PS?** Weeks 1–2 says not to add agmatine on a day you increase
-PS, but your PS section says not to raise the dose ([the lines](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/coherence/EXTRACT.md), item 2.7).
+- a) Put it in as above.
+- b) Put it in with "People's reports differ: some say it makes a trip or roll stronger while capping the euphoria, others
+  that it weakens it." (My pick: that's what the reports I found say.)
+- c) Your words.
 
-- a) Yes: "increase PS" becomes "start PS". (My pick: it fits your rule against raising it.)
-- b) No: the dose can go up, and your PS section says when.
+**🟣 24. Say "Reduce or stop phosphatidylserine here" once in Weeks 3–5?** With your answer 21b, the phase says it twice:
+in its Protocol line, with the reason, and again in the showers line.
 
-**🟣 20. The PS in mackerel: say it's above the dose that worked?** Your PS section says one dose blunted the cortisol
-response in the trial and higher doses didn't, but the mackerel line gives well above that dose and calls it "above clinical
-doses", without saying the higher doses didn't work ([the lines](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/coherence/EXTRACT.md), item 2.6).
+- a) Keep only the Protocol line's. (My pick: it has the reason.)
+- b) Keep both.
 
-- a) Yes: the mackerel line says that much is above the dose that worked. (My pick: otherwise a reader may think more is
-  better.)
-- b) Keep it as it is.
+**🟣 25. Which mushroom microdose range?** Your line on the best strains gives one range and no frequency; the Scenario C
+line gives a range with a higher top and says daily ([the lines](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/coherence/EXTRACT.md), item 2.1).
 
-**🟣 21. PS in Weeks 3–5: "taper off" or "reduce or stop"?** One Weeks 3–5 line says to taper it off, another to reduce or
-stop it ([the lines](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/coherence/EXTRACT.md), item 2.8).
+- a) The first matches the second (its range, daily).
+- b) The second matches the first.
+- c) Your words.
 
-- a) "Taper off" in both.
-- b) "Reduce or stop" in both.
+**🟣 26. How does agmatine start?** The agmatine section says to start in the morning or early afternoon for 3 days; Weeks
+1–2 says mornings only, with no 3-day step ([the lines](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/coherence/EXTRACT.md), item 2.11).
 
-**🟣 22. Agmatine after its trial: stop it, or keep it when it helps?** Your agmatine section says to use it as a short
-trial for the anxiety phase, not long term. But Weeks 3–5, after the trial would have ended, says to stop it unless it's
-clearly helping the glutamate storms without making the flatness worse ([the lines](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/coherence/EXTRACT.md), item 2.9).
+- a) Weeks 1–2 follows the agmatine section.
+- b) The agmatine section follows Weeks 1–2.
 
-- a) Keep the exception: your agmatine section says it can go on in that case.
-- b) The limit holds: Weeks 3–5 says to stop it, without the exception.
+**🟣 27. In what order do PQQ, ketones, D-serine and the session go?** One line has D-serine on an empty stomach 45
+minutes before the session, another 45 minutes after PQQ and ketones, and the PQQ line puts PQQ in the morning with
+ketones ([the lines](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/coherence/EXTRACT.md), item 2.12).
 
-**🟣 23. Agmatine before a session: one timing rule?** One line says not to take it "immediately before" a session for
-reconsolidation, with no gap given, while your timing rule says to avoid it that whole day or keep it hours away from the
-session ([the lines](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/coherence/EXTRACT.md), item 2.10).
+- a) One order, said once: PQQ and ketones, D-serine about 45 minutes later, the session about 45 minutes after that.
+- b) Your order.
 
-- a) The first line points to your timing rule. (My pick: one rule, said once.)
-- b) Keep both as they are.
+**🟣 28. D-serine: the dose against the per-kilo cap?** The dose is a fixed range, but the cap is per kilo of body weight,
+so for anyone under about 47 kg (104 lb) the top of the range goes over the cap ([the lines](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/coherence/EXTRACT.md), item 2.13).
+
+- a) Say the cap wins: lighter people stay under it. (My pick: otherwise a light reader who follows the dose breaks your
+  cap.)
+- b) Your words.
+
+**🟣 29. The 5-HTP trial: how long at each step?** The 5-HTP section starts low for 2–3 nights and goes up only if that
+clearly helped, with no length for the second step; Weeks 3–5 gives 2–3 nights for the whole range ([the lines](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/coherence/EXTRACT.md),
+item 2.14).
+
+- a) Weeks 3–5 follows the 5-HTP section, and you say how long the second step lasts.
+- b) Your words.
+
+**🟣 30. The potassium food plan falls short of its target.** By the article's own figures, the daily potatoes and greens
+come to about 4,450 mg, under the 4,700 mg target ([the lines](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/coherence/EXTRACT.md), item 2.15).
+
+- a) Say the plan gets you close, and the rest comes from your other food. (My pick.)
+- b) Add a food that makes up the rest (which one?).
+- c) Your words.
+
+**🟣 31. Hot and cold showers in the anxiety phase?** Showers come in as a tool for the numb Void (Scenario C), but Weeks
+1–2, where the aim is to cool the system, schedules them too ([the lines](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/coherence/EXTRACT.md), item 2.17).
+
+- a) They belong in both: say what they do in the anxiety phase.
+- b) Only in the Void: Weeks 1–2 drops them.
+- c) Your words.
 
 - 🟢 **11, answered ("11yes add that")**: Zhong 2023 is cited after Vialou in your paragraph, with Nestler 2008 back
   beside them (below).
@@ -86,6 +117,23 @@ session ([the lines](https://github.com/u-dont-existDOTcom/joel-articles/blob/ma
 ## For you to do
 
 - 🟢 **Nothing on the cards page**: SC-95b, SC-DMSOc and your version of SC-54 are in.
+
+## Your answers of 2026-11-20 17:05 UTC, and what I did
+
+- 🟢 **In, by script** ([what went in](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/x1120a/APPLIED-X1120A.json)): 15a, "when it's not given by IV" in your clause on
+  children; 19a, "start PS"; 20, the mackerel line says its PS is above the 400 mg that worked, with your caveat that it's
+  harder to compare when it's not isolated; 21b, "Reduce or stop" in both Weeks 3–5 lines (question 24 asks about saying it
+  once); 22a, agmatine's cycle rule gets Weeks 3–5's exception, in that line's words.
+- 🔵 **16a and 17**: one new line at the top of Weeks 3–5 says to start its new things one at a time, in the order listed,
+  never 5-HTP while microdosing iboga, and, since there isn't enough data on UMP with a microdose or 5-HTP with mushrooms,
+  to try each on a microdose day and on a day without one and see how it feels, stopping 5-HTP at its stop signs. It's
+  mine, so it goes in once it reads Human High by itself ([the text](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/x1120a/texts_x1120a.py), four rounds of fresh reads).
+- 🔵 **18 and 23**: your answers, as text, with what the sources and forums show: questions 32 and 33.
+- 🟢 **The contradictions check is now a standard step for every article**: a fresh reader lists the statements that can't
+  both hold, each one the text doesn't explain comes to you as a question, and an article isn't done while one has no
+  fate ([the rule](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/docs/FIXING-AN-ARTICLE.md), lesson
+  neuro-2026-11-20a, the tool `tools/humanization/contradictions.py`). This article's remaining contradictions are
+  questions 25 to 31; the breathing pair turned out to be two different tools.
 
 ## Your answers of 2026-11-19 16:17 UTC, and what I did
 

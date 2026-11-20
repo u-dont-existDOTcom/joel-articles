@@ -1,0 +1,75 @@
+{
+ "article": "articles/neuro-de-armoring/humanize/HUMANIZED-SO-FAR.md",
+ "extract": "articles/neuro-de-armoring/humanize/fix-20261108/coherence/EXTRACT.md (section 2)",
+ "about": "the fate of each contradiction of the protocol (gate neuro-2026-11-20a, tools/humanization/contradictions.py)",
+ "items": {
+  "2.1": {
+   "fate": "question",
+   "ref": "OWNER-QUESTIONS.md 25"
+  },
+  "2.2": {
+   "fate": "applying",
+   "ref": "his answer 16a; fix-20261108/x1120a/texts_x1120a.py W35 waits on its receipt and its Pangram check by itself (reads in x1120a/*/w35d)"
+  },
+  "2.3": {
+   "fate": "applying",
+   "ref": "his answer 17; the same line as 2.2 (texts_x1120a.W35)"
+  },
+  "2.4": {
+   "fate": "settled",
+   "ref": "card SC-95b (fix-20261108/x1113b/APPLIED-X1113B.json): block 95 says what the choice of strategy changes, not that you must pick one"
+  },
+  "2.5": {
+   "fate": "question",
+   "ref": "OWNER-QUESTIONS.md 32 (his answer 18 as text, with what the sources show)"
+  },
+  "2.6": {
+   "fate": "answered",
+   "ref": "his answer 20, fix-20261108/x1120a/APPLIED-X1120A.json"
+  },
+  "2.7": {
+   "fate": "answered",
+   "ref": "his answer 19a, fix-20261108/x1120a/APPLIED-X1120A.json"
+  },
+  "2.8": {
+   "fate": "answered",
+   "ref": "his answer 21b, fix-20261108/x1120a/APPLIED-X1120A.json; question 24 asks to say it once"
+  },
+  "2.9": {
+   "fate": "answered",
+   "ref": "his answer 22a, fix-20261108/x1120a/APPLIED-X1120A.json"
+  },
+  "2.10": {
+   "fate": "question",
+   "ref": "OWNER-QUESTIONS.md 33 (his answer 23 as text, with what the sources show)"
+  },
+  "2.11": {
+   "fate": "question",
+   "ref": "OWNER-QUESTIONS.md 26"
+  },
+  "2.12": {
+   "fate": "question",
+   "ref": "OWNER-QUESTIONS.md 27"
+  },
+  "2.13": {
+   "fate": "question",
+   "ref": "OWNER-QUESTIONS.md 28"
+  },
+  "2.14": {
+   "fate": "question",
+   "ref": "OWNER-QUESTIONS.md 29"
+  },
+  "2.15": {
+   "fate": "question",
+   "ref": "OWNER-QUESTIONS.md 30"
+  },
+  "2.16": {
+   "fate": "not-a-conflict",
+   "note": "two different tools: 30 seconds of regulated breathing through the day, and 5 minutes of rhythmic sensory input (walking, drumming, sighing) as step 1 of another routine"
+  },
+  "2.17": {
+   "fate": "question",
+   "ref": "OWNER-QUESTIONS.md 31"
+  }
+ }
+}

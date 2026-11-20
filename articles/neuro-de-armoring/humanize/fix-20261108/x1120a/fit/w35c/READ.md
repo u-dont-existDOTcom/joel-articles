@@ -1,0 +1,4 @@
+- S1: ANYWAY - / CAN'T TELL yes, it sends you to "the order they're listed below", but no list appears in the text, so you can't tell which order is meant / FROM - / MISREAD -
+- S3: ANYWAY - / CAN'T TELL - / FROM - / MISREAD yes, "There isn't enough data yet to make a suggestion" can sound like no concern has been found, when it means the safety is unknown, and nothing else in the text says which
+- S4: ANYWAY - / CAN'T TELL yes, it asks you to judge how it feels on a microdose day against a day without, while in the numb, gray phase, and it contradicts S2 for anyone microdosing iboga (S2 says no 5-HTP at all, S4 says take it on a microdose day) / FROM - / MISREAD -
+- S5: ANYWAY - / CAN'T TELL yes, "the stop signs in the 5-HTP section" are not in the text, so you can't tell what would count as a stop sign / FROM - / MISREAD -
