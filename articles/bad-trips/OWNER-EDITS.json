@@ -21,7 +21,7 @@
   },
   {
    "id": "q1-smell-first",
-   "status": "applied",
+   "status": "superseded",
    "what": "Q-1 (a): the Core Order's first step says to smell humic acid first",
    "joel": "18:59: \"q-1 smell it first for sure, that's like an allergy test\"",
    "must_contain": [
@@ -29,6 +29,9 @@
    ],
    "must_not_contain": [
     "Smell humic acid, take a 5mg lick of it."
+   ],
+   "superseded": [
+    "2026-11-20: his C4 answer a (c4-humic-no-first); the smell still comes before the lick, as his \"smell it first for sure\" asked"
    ]
   },
   {
@@ -590,7 +593,7 @@
   },
   {
    "id": "r16-nra-lock",
-   "status": "applied",
+   "status": "superseded",
    "what": "r16 card NRA-LOCK approved, put in by review/apply-20261107/apply_rounds.py (answers: articles/bad-trips/review/r16/ANSWERS-R16-20261107-db.json)",
    "joel": "2026-11-07 12:08 UTC: \"in this case i approved every single suggestion you had from all those rounds\"",
    "must_not_contain": [
@@ -598,6 +601,9 @@
    ],
    "must_contain_exact": [
     "**Put yourself on a 24–72 hour action lock.**"
+   ],
+   "superseded": [
+    "2026-11-20: his C2 answer a (c2-lock-two-clocks)"
    ]
   },
   {
@@ -1636,6 +1642,69 @@
    "must_contain_exact": [
     "It might look passive, but this is how you become unhookable. When you meet a demon with love, the demon has nothing to hook into, since its hooks catch on hatred, fear, pride and grandiosity, not on love.",
     "If someone's too overwhelmed to send love, because they're sick or too scared to think straight, help them get steady first. Turn the lights down, and get them whatever help they need. Once they can think straight again, you can teach them to send the demon love."
+   ]
+  },
+  {
+   "id": "c1-ss-call-any",
+   "status": "applied",
+   "what": "C1 (a), the contradictions check's item 6: the serotonin steps' step 3 says his rule, \"Call emergency help and arrange transport.\" (\"for moderate or severe signs\" out), agreeing with his \"So if you see any of these patterns, call medics.\"",
+   "joel": "2026-11-20 22:40 UTC: \"C1 a C2a C3 a C4 a\"",
+   "applied_by": "humanize/h62-20261120/apply_c.py",
+   "must_contain_exact": [
+    "3. **Call emergency help and arrange transport.** Don't drive yourself."
+   ],
+   "must_not_contain": [
+    "arrange transport for moderate or severe signs"
+   ]
+  },
+  {
+   "id": "c2-lock-two-clocks",
+   "status": "applied",
+   "what": "C2 (a), item 12: No Rash Actions' lock line gives the longer clock, his list after it the shorter (\"Until you have slept and eaten\"); the night's lines elsewhere keep tomorrow or morning",
+   "joel": "2026-11-20 22:40 UTC: \"C1 a C2a C3 a C4 a\"",
+   "applied_by": "humanize/h62-20261120/apply_c.py",
+   "must_contain_exact": [
+    "**Put yourself on an action lock: nothing life-changing for 24–72 hours.**"
+   ],
+   "must_not_contain": [
+    "Put yourself on a 24–72 hour action lock."
+   ]
+  },
+  {
+   "id": "c3-ozone-suggested",
+   "status": "applied",
+   "what": "C3 (a), item 9: the ozone story says the mistake \"suggested\" what DMSO and the charcoal water each address, agreeing with his DMSO lines (\"I don't yet know why\")",
+   "joel": "2026-11-20 22:40 UTC: \"C1 a C2a C3 a C4 a\"",
+   "applied_by": "humanize/h62-20261120/apply_c.py",
+   "must_contain_exact": [
+    "The mistake suggested that DMSO and aged ozonated-charcoal water address different kinds of overload."
+   ],
+   "must_not_contain": [
+    "The mistake showed me"
+   ]
+  },
+  {
+   "id": "c4-humic-no-first",
+   "status": "applied",
+   "what": "C4 (a), item 4: \"first\" out of My Brain Feels Damaged's first step, so humic acid can't read as coming before DMSO; the smell still comes before the lick (\"if that doesn't help\")",
+   "joel": "2026-11-20 22:40 UTC: \"C1 a C2a C3 a C4 a\"",
+   "applied_by": "humanize/h62-20261120/apply_c.py",
+   "must_contain_exact": [
+    "Smell humic acid; if that doesn't help, take a 5mg lick of it."
+   ],
+   "must_not_contain": [
+    "Smell humic acid first",
+    "Smell humic acid, take a 5mg lick of it."
+   ]
+  },
+  {
+   "id": "systema-video",
+   "status": "applied",
+   "what": "his Systema breathing line links the video he sent, on \"a video\" (the words as he wrote them)",
+   "joel": "2026-11-20 22:40 UTC: \"best systema breathing vid i have seen so far: https://www.youtube.com/shorts/Nar2-nvomAk\"",
+   "applied_by": "humanize/h62-20261120/apply_c.py",
+   "must_contain_exact": [
+    "[a video](https://www.youtube.com/shorts/Nar2-nvomAk)"
    ]
   }
  ]

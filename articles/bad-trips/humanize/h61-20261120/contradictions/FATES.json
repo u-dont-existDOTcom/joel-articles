@@ -18,9 +18,9 @@
    "note": "stopping the trip is for a brain that may be damaged: \"At this point safety matters more than preserving the experience.\""
   },
   "4": {
-   "fate": "question",
-   "ref": "articles/bad-trips/OWNER-QUESTIONS.md, C4",
-   "note": "not a conflict in meaning (\"first\" is smelling the humic acid before licking it), but a reader can take \"Smell humic acid first\" as humic acid before DMSO, right after \"DMSO immediately.\""
+   "fate": "answered",
+   "ref": "articles/bad-trips/humanize/h62-20261120/apply_c.py",
+   "note": "his C4 answer a (2026-11-20 22:40 UTC): \"DMSO immediately. Smell humic acid; if that doesn't help, take a 5mg lick of it.\" (\"first\" out; the smell still comes before the lick)"
   },
   "5": {
    "fate": "explained",
@@ -28,9 +28,9 @@
    "note": "\"but it depends on how severe their issue is\""
   },
   "6": {
-   "fate": "question",
-   "ref": "articles/bad-trips/OWNER-QUESTIONS.md, C1",
-   "note": "his line says any Hunter pattern means call medics; step 3 says moderate or severe signs"
+   "fate": "answered",
+   "ref": "articles/bad-trips/humanize/h62-20261120/apply_c.py",
+   "note": "his C1 answer a: step 3 says \"Call emergency help and arrange transport.\" (\"for moderate or severe signs\" out), agreeing with his \"So if you see any of these patterns, call medics.\""
   },
   "7": {
    "fate": "not-a-conflict",
@@ -43,9 +43,9 @@
    "note": "line 207 says when the order of remedies applies (acute situations, not a merely uncomfortable trip); line 235 says the first tier is also worth taking before trouble, which line 209 already allows (\"try all these things in very low, increasing doses before they are needed\")"
   },
   "9": {
-   "fate": "question",
-   "ref": "articles/bad-trips/OWNER-QUESTIONS.md, C3",
-   "note": "\"I don't yet know why\" they differ, against \"The mistake showed me that ... address different kinds of overload\""
+   "fate": "answered",
+   "ref": "articles/bad-trips/humanize/h62-20261120/apply_c.py",
+   "note": "his C3 answer a: \"The mistake suggested that DMSO and aged ozonated-charcoal water address different kinds of overload.\" (\"showed me\" out), agreeing with \"I don't yet know why\""
   },
   "10": {
    "fate": "explained",
@@ -58,9 +58,9 @@
    "note": "\"Quietly remove means only when that can be done without confrontation ...\""
   },
   "12": {
-   "fate": "question",
-   "ref": "articles/bad-trips/OWNER-QUESTIONS.md, C2",
-   "note": "until tomorrow, until morning, until slept and eaten, and a 24-72 hour lock"
+   "fate": "answered",
+   "ref": "articles/bad-trips/humanize/h62-20261120/apply_c.py",
+   "note": "his C2 answer a: two clocks, each where it belongs: \"Put yourself on an action lock: nothing life-changing for 24–72 hours.\", then his list, \"Until you have slept and eaten, maybe don't ...\"; the night's lines keep tomorrow or morning (the line's check a09a7d77, Human High 106)"
   },
   "13": {
    "fate": "not-a-conflict",
