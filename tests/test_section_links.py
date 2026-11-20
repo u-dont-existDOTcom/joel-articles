@@ -65,5 +65,51 @@ class SectionLinks(unittest.TestCase):
         self.assertTrue(any('UNCHECKED' in p for p in probs["Life's a trip also"]))  # plain() straightens quotes
 
 
+class Catalog(unittest.TestCase):
+    """The catalog (lesson inner-child-2026-11-20g): a renamed heading lists every link to fix, and a stale link is caught."""
+
+    def cat(self):
+        base, post = 'https://x.substack.com', '1'
+        return {'post': {'base': base, 'id': post},
+                'headings': [{'id': 'S1', 'level': 2, 'text': 'Attacked by a Demon?', 'anchor': 'attacked-by-a-demon'},
+                             {'id': 'S2', 'level': 2, 'text': 'Noticing Counts', 'anchor': 'noticing-counts'}],
+                'links': [{'in': 'S2', 'text': 'the demon section', 'target': 'S1',
+                           'href': base + '/i/1/attacked-by-a-demon'},
+                          {'in': 'S1', 'text': 'Noticing Counts', 'href': base + '/i/1/noticing-counts'}],
+                'unlinked_on_purpose': []}
+
+    def test_rename_lists_and_fixes_links(self):
+        cat = self.cat()
+        changes = sl.rename(cat, 'S1', 'Prepare for Altered States Now')
+        self.assertEqual([(old, new) for _, old, new in changes],
+                         [('https://x.substack.com/i/1/attacked-by-a-demon',
+                           'https://x.substack.com/i/1/prepare-for-altered-states-now')])
+        self.assertEqual(sl.links_check(cat), [])
+
+    def test_a_heading_changed_outside_the_catalog_is_caught(self):
+        cat = self.cat()
+        cat['headings'][0].update(text='Prepare for Altered States Now', anchor='prepare-for-altered-states-now')
+        probs = sl.links_check(cat)
+        self.assertEqual(len(probs), 1)
+        self.assertIn('is now #prepare-for-altered-states-now', probs[0][1])
+
+    def test_rename_by_words_without_ids(self):
+        cat = self.cat()
+        for h in cat['headings']:
+            h.pop('id')
+        cat['links'][0].pop('target')
+        changes = sl.rename(cat, 'Attacked by a Demon?', 'Prepare for Altered States Now')
+        self.assertEqual(len(changes), 1)
+
+    def test_build_from_post_html(self):
+        html = ('<h2>Noticing Counts</h2><p>Look <a href="https://x.substack.com/i/1/therapy-or-escapism">here</a> and '
+                '<a href="https://elsewhere.com/a">there</a>.</p><h3>Therapy or Escapism?</h3><p>text</p>')
+        cat = sl.build(html, 'https://x.substack.com/', 1, source='test')
+        self.assertEqual([h['anchor'] for h in cat['headings']], ['noticing-counts', 'therapy-or-escapism'])
+        self.assertEqual(cat['links'], [{'in': 'Noticing Counts', 'text': 'here',
+                                         'href': 'https://x.substack.com/i/1/therapy-or-escapism'}])
+        self.assertEqual(sl.links_check(cat), [])
+
+
 if __name__ == '__main__':
     unittest.main()

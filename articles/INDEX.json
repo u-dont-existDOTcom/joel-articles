@@ -2710,7 +2710,7 @@
         },
         "current_state": {
           "path": "articles/inner-child-therapy/CURRENT-STATE.md",
-          "sha256": "8d2cbafd6c8a368db8ff6118e99c71d3029cc45b67dfee832b460188a58245ea"
+          "sha256": "366322147d3f2b1cb5a715dd3e8866a53db6833be8298c5c67e389504a8f595b"
         }
       },
       "review": {
@@ -8009,7 +8009,7 @@
         },
         {
           "path": "articles/inner-child-therapy/OWNER-QUESTIONS.md",
-          "sha256": "4ba8032219bf454c0aaabac15c78a00169cdea2965b237a7611860f1d91df19a",
+          "sha256": "55f406e41797d2796536e0ad523e6e6c4afc63f7af1a562b38d55f746719d157",
           "role": "owner_questions_page"
         },
         {
@@ -36670,6 +36670,21 @@
         {
           "path": "articles/inner-child-therapy/experiments/t132-toc-links/sections-ids.json",
           "sha256": "ffeb784c1c9e92b4bf1110b695e8f44bcb2bd2bdfafce9baeec9342e5a9462ce",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/SECTION-LINKS.json",
+          "sha256": "db7597d5dd3d6b36b209a32c1ec91bd61918b47a083254e8197a4d222910e53c",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t133-answers/JOEL-20261120-2149.md",
+          "sha256": "319263d693b869bfedd9d1158daf1378102cfe96ba79250260de1a40c2a3af85",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t133-links/build_catalog.py",
+          "sha256": "7b82563888688f1aa6d71b29607d22e5c6c44a4a7ca8156335d5adbda44ad657",
           "role": "humanization_working_record"
         }
       ]

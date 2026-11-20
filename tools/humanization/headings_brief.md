@@ -14,12 +14,16 @@ misses below before it goes to him.
 1. **Fit.** Every heading must fit its level's room. Measure it (`python3 tools/humanization/toc_sidebar.py --text "..."
    --level N` prints fits, tight or cut). If the author's heading already fits and does its job, keep it as it is.
 
-2. **Keep the meaning.** A new heading says the same thing the author's heading said: not narrower, broader or
+2. **Keep the meaning.** A new heading promises the same section the author's heading did: not narrower, broader or
    different. Keep qualifiers that carry meaning ("Bad at Sports" is not "Bad"). Keep the word a reader would look for
-   ("Back Pain", not "Pain").
+   ("Back Pain", not "Pain"). Same meaning is not the author's words reshuffled: rule 3 decides the words.
 
-3. **Name what the reader came for,** in the words they'd use: their situation, their question, or what the section
-   gives them.
+3. **Name what the reader came for,** in the words they'd use: the question, objection or curiosity they bring to the
+   contents, which this section answers. Think like the reader scanning the sidebar, not like someone who has read the
+   section: a heading that sums up the section, or makes sense only once you've read it, fails there (Joel, 2026-11-20
+   21:49 UTC: "'the part that came here' does presage the content, but it's not what someone is looking for in the ToC,
+   and that's the key we were trying to fix. so we are thinking like the reader [...] wondering what question or
+   objection or curiosity we are answering for them"; on "Others Have Hooks Too": "good in context, but not in the ToC").
    - A section about a situation or a sign ("is this happening to me?"): a short question. "Can't Sleep After Practice?",
      "Is Anger a Warning?", "Stuck?"
    - A section that gives a practice: an imperative or a short noun phrase. "End the Session Gently", "Evening Review".
@@ -30,7 +34,10 @@ misses below before it goes to him.
    ("Before You Quit").
 
 5. **Don't point to the wrong situation.** Avoid a word that could send a reader somewhere else or alarm them: "ends"
-   can read as a death; a normal experience shouldn't be named as a warning sign.
+   can read as a death; a normal experience shouldn't be named as a warning sign. A word that reads two ways alone in
+   the sidebar gets the specific word ("Gain" reads as money or fame: "Spirit Attacks Teach Love"), and a word a reader
+   can't parse alone gets spelled out ("Intensives": intensive what? "Meditating Intensely"). Name the section's main
+   idea, not its most vivid example ("Attacked by a Demon?" named one example of a section whose point is to prepare).
 
 6. **The author's voice.** Keep the author's catchy coinages and turns of phrase where they fit; short parallel
    phrasing is welcome ("Lend, Don't Lose"). Don't add claims the section doesn't make.
@@ -38,21 +45,30 @@ misses below before it goes to him.
 7. **Case.** Title Case for a new heading; where the sibling headings under one parent are in sentence case, match them.
 
 8. **Two things, two headings.** If a section holds two different things, so that one heading can only name one of
-   them, say so and propose a second heading for the second part instead of a heading that covers half.
+   them, say so and propose a second heading for the second part instead of a heading that covers half. A part that
+   covers two things a reader wouldn't guess go together names both, even when it's cut off in the sidebar ("Altered
+   States & Meditating Intensely": readers looking for intense meditation wouldn't know it's under Altered States).
 
 9. **After renaming,** read the sentence before the heading (if it runs on into it) and the first sentence after it,
    and fix any that leaned on the old heading's words. Text that names the section by its old heading gets the new
    name, and a link to the section (`tools/humanization/section_links.py`).
 
-## Where all three writers still missed his pick
+## Where all three writers missed his pick, and why (his answers of 2026-11-20 21:49 UTC)
 
-Each of these got "different" for all three writers. What each seems to show is my reading of his pick; he was asked
-why on the inner child questions page (2026-11-20), and his answer replaces the reading here.
+Each of these got "different" for all three writers in turn 132. He said why, and rules 3, 5 and 8 now say it. Before
+asking him why he picked a heading, look up who wrote it: most of his picks came from earlier runs' lists (Opus, Fable,
+GPT), whose notes may already say why (lesson inner-child-2026-11-20f).
 
-- **The reader's own words, in quotes.** The section answers something readers say to themselves; his heading is what
-  they say: "“No. I Hate Myself.”" The writers named the advice instead ("The Part That Came Here").
-- **The situation the reader arrives with, not the section's advice.** "Attacked by a Demon?" where all three wrote
-  "Prepare for Altered States"; "If They Can't Hear You" where they wrote "Others Have Hooks Too".
-- **The specific payoff, not a general one.** "Spirit Attacks Teach Love", not "Gain from Spiritual Attack".
-- **A part's heading names its main subject.** "Altered States", where all three added a smaller second subject with
-  "&" ("Altered States & Intensives").
+- **"“No. I Hate Myself.”"** (Opus's and GPT's in turn 130; the writers wrote "The Part That Came Here"): the objection
+  the reader brings, not a summary of the section (rule 3).
+- **"If They Can't Hear You"** (they wrote "Others Have Hooks Too"): theirs was "good in context, but not in the ToC"
+  (rule 3).
+- **"Spirit Attacks Teach Love"** (his own; they wrote "Gain from Spiritual Attack"): "gain what like money or fame..."
+  (rule 5).
+- **"Prepare for Altered States Now"**: the writers were right here. His pick, "Attacked by a Demon?", named one example;
+  "the main idea is you have to prepare for them even before you think you are ready for them since they can come
+  without your request" (rule 5). He changed it in the post on 20 November.
+- **"Altered States & Meditating Intensely"**: the writers were half right to name both ("& Intensives"), but
+  "Intensives is hard to parse... intensive whats?" (rules 5 and 8). He kept it although the sidebar cuts it; the
+  versions that fit drop "intense" ("Altered States & Meditation", which would also pull readers looking for the gentle
+  meditation section) or change it ("& Retreats").
