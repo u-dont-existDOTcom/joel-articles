@@ -1,6 +1,6 @@
 # Inner Child article: questions for Joel
 
-Last updated 2026-11-20 (turn 132). **Open question: 112**, why you picked five of your headings, so the headings brief can produce them. Question 111 is answered (your own picks, live in the post since 20 November). The to-do entries below date from turn 115 (26 October) and weren't rechecked this turn, except pull request #255, which you merged on 3 November. To answer a question, reply in chat with its number and a letter, like `111: A`, or in your own words.
+Last updated 2026-11-20 (turn 133). **Open question: 113**, two small things about your heading picks. Questions 111 and 112 are answered. The to-do entries below date from turn 115 (26 October) and weren't rechecked this turn, except pull request #255, which you merged on 3 November. To answer a question, reply in chat with its number and a letter, like `111: A`, or in your own words.
 
 🟣 a question for you · 🟠 for you to do · 🔵 next or in progress · 🟢 done or decided
 
@@ -8,7 +8,11 @@ The published page, a view of this file rebuilt after every change ([questions_p
 
 ## Open questions
 
-### 🟣 112. Why did you pick these five headings? (turn 132)
+### 🟣 113. Two small things about your heading picks (turn 133)
+
+Why does **"Earning trust, day to day"** stay lower case while its siblings are in Title Case, and why does **"Shame Says “Unlovable”"** keep its quote marks? If you can't say why, a guess like "it sounded right" helps too: the headings brief learns from it.
+
+### 🟢 112. Why did you pick these five headings? (turn 132)
 
 You asked for instructions that would produce your heading picks, and said to ask where it wasn't clear why you picked something. Three fresh writers (Fable, Sonnet, GPT) named all 147 headings with the new [headings brief](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/tools/humanization/headings_brief.md); Fable came closest, the same as yours or close on 134 ([RESULTS.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/inner-child-therapy/experiments/t132-toc-links/RESULTS.md)). On these five, all three missed what yours says. For each, **A** is my reading of why you picked it; answer A, or say why in your own words, and the brief takes your reason as its rule.
 
@@ -18,7 +22,7 @@ You asked for instructions that would produce your heading picks, and said to as
 4. **"Spirit Attacks Teach Love"** (they wrote "Gain from Spiritual Attack"). A: name the specific payoff, not a general one.
 5. **"Altered States"** (they wrote "Altered States & Intensives"). A: a part's heading names its main subject only.
 
-Also from your picks, two I'd like to understand: why **"Earning trust, day to day"** stays lower case while its siblings are in Title Case, and why **"Shame Says “Unlovable”"** keeps the quote marks.
+Answered 2026-11-20 21:49 UTC (your words are in [JOEL-20261120-2149.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/inner-child-therapy/experiments/t133-answers/JOEL-20261120-2149.md)): 1, the reader's question, objection or curiosity, not a summary (and Opus wrote it, which I should have looked up); 2, your pick was wrong, now "Prepare for Altered States Now"; 3 and 4, yes; 5, now "Altered States & Meditating Intensely". The [headings brief](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/tools/humanization/headings_brief.md) says all of it now, as rules 3, 5 and 8.
 
 ### 🟢 111. Which headings go in your post for the narrow sidebar? (turns 130 and 131)
 
