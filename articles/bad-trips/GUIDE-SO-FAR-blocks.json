@@ -746,7 +746,7 @@
  {
   "id": "B201",
   "kind": "p",
-  "md": "It overlaps with aged ozonated-charcoal water, but the two don't always work equally. Sometimes DMSO works better; sometimes the water does. I don't yet know why. In my experience there is generally no harm in taking both or mixing them. Ozonated-charcoal water has what I consider a perfect safety profile; DMSO is a close second in my experience.",
+  "md": "It overlaps with aged ozonated-charcoal water, but the two don't always work equally. Sometimes DMSO works better, and sometimes the water wins. I don't yet know why, but you can also just use both rather than try to figure out which for when. Ozonated-charcoal water has what I consider a perfect safety profile, and DMSO is a close second.",
   "text": null
  },
  {
@@ -770,7 +770,7 @@
  {
   "id": "B203",
   "kind": "ul",
-  "md": "- **Astringency:** 100% DMSO usually irritates skin on the upper half of the body. When the skin itches, dilute the DMSO with water or real aloe juice without added chemicals. Leaving 100% DMSO on the skin can crenate (shrivel) it, and the skin may take a week to look plump again. DMSO can also burn dry mouth tissue, so wet your mouth first.\n- **Nausea:** when drinking DMSO, dilute it in water, juice, or milk and sip gradually.\n- **Reduced sleep:** DMSO reduces how long I sleep when I take too much, take it too late, or use it over too many consecutive days. It builds up past a threshold that seems to differ between people, so it's best taken in the morning, and reduce the dose if you notice you're sleeping less. [In rats, higher doses made sleep less deep](https://www.sciencedirect.com/science/article/abs/pii/S0378427405000810). Some people sleep better with DMSO because it reduces whatever symptom had been keeping them awake.\n- **Body odor:** above a certain dose you may smell like sulfur. I don't smell when I put it into milk.",
+  "md": "- **Astringency:** 100% DMSO usually irritates skin on the upper half of the body. When the skin itches, dilute the DMSO with water or real aloe juice without added chemicals. Leaving 100% DMSO on the skin can crenate (shrivel) it, and the skin may take a week to look plump again. DMSO can also burn dry mouth tissue, so wet your mouth first.\n- **Nausea:** when drinking DMSO, dilute it in water, juice, or milk and sip gradually. Sensitivity to DMSO varies, so start with less than you planned.\n- **Reduced sleep:** DMSO reduces how long I sleep when I take too much, take it too late, or use it over too many consecutive days. It builds up past a threshold that seems to differ between people, so it's best taken in the morning, and reduce the dose if you notice you're sleeping less. [In rats, higher doses of DMSO made sleep less deep](https://www.sciencedirect.com/science/article/abs/pii/S0378427405000810). Some people sleep better with DMSO because it reduces whatever symptom had been keeping them awake.\n- **Body odor:** above a certain dose you may smell like sulfur. I don't smell when I put it into milk.",
   "text": null
  },
  {
@@ -992,7 +992,7 @@
  {
   "id": "B214",
   "kind": "ul",
-  "md": "- **Niacin flush:** itchy sunburn-like heat. The flush is normal, although some people find it intolerable and others enjoy it.\n- Heartburn in sensitive stomachs or after too much at once.\n- Drowsiness, usually with terrible sleep quality.\n- Higher or repeated doses can create a real risk of liver damage, especially with liver problems, alcohol, or medications.",
+  "md": "- **Niacin flush:** itchy sunburn-like heat. The flush is normal, although some people find it intolerable and others enjoy it.\n- Heartburn in sensitive stomachs or after too much at once.\n- Drowsiness, usually with terrible sleep quality.\n- [Sustained-release niacin](https://pubmed.ncbi.nlm.nih.gov/8309029/), or repeated doses through the day, can create a real risk of liver damage, especially with liver problems, alcohol, or medications.",
   "text": null
  },
  {
@@ -1676,19 +1676,31 @@
  {
   "id": "B412",
   "kind": "p",
-  "md": "Shadow thoughts and feelings are not inherently a problem. They co-arise naturally and do not need to be attached to, like shadows cast by objects in sunlight. I also notice them after excessive focus. The mind becomes stressed and seeks an exit from the pressure, often in the opposite direction from the focus.",
-  "text": null
- },
- {
-  "id": "B413",
-  "kind": "p",
-  "md": "Relax, unwind, unbind, and unweave the identity illusion, mind, and unified experience. My pamphlet on already-perfect goes further into this.",
+  "md": "Shadow thoughts and feelings are not inherently a problem. They co-arise naturally and do not need to be attached to, like shadows cast by objects in sunlight.",
   "text": null
  },
  {
   "id": "B414",
   "kind": "p",
-  "md": "I am not repeating the simplistic Hermetic claim that opposites are required to understand anything. A hated baby does **not** feel love, and a loved baby does **not** feel hate. In the subconscious world of concepts, however, two sides are often considered together.",
+  "md": "I am not repeating the simplistic Hermetic claim that opposites are required to understand anything. A hated baby does **not** feel love, and a loved baby does **not** feel hate. In the subconscious mind, however, concepts often do arise as pairs.",
+  "text": null
+ },
+ {
+  "id": "R43-SHADOW-LIGHT",
+  "kind": "p",
+  "md": "Overly focusing on the \"light\" or positive side of things can cause the subconscious to strategically highlight the darker stuff. That might be because you're trying to ignore it, and the subconscious is wise enough to know that ignoring problems only makes them worse, so it brings them up (often in dreams, or trips).",
+  "text": null
+ },
+ {
+  "id": "R43-SHADOW-PRESSURE",
+  "kind": "p",
+  "md": "But over-focusing the mind for any reason can also create pressure. When the mind is stressed, it seeks an exit from the pressure, often in the opposite direction from what's focusing it. An intensive meditation retreat, or a weighty obligation, or a large psychedelic dose could all be putting that focusing pressure on and leading to dark stuff coming into focus as a misunderstood signal to ease up.",
+  "text": null
+ },
+ {
+  "id": "B413",
+  "kind": "p",
+  "md": "So relax, unwind, unbind, and unweave the identity illusion, mind, and unified experience. My pamphlet on already-perfect goes further into this.",
   "text": null
  },
  {

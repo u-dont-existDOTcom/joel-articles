@@ -615,11 +615,20 @@ BIG_CHANGE = 0.4
 NEAR_MISS = 0.2
 
 
+def below_high_words(windows):
+    """The words of WINDOWS in a window that isn't Human at High confidence."""
+    return sum((w.get('words') or 0) for w in windows if isinstance(w, dict)
+               and not (str(w.get('label', '')).startswith('Human') and w.get('confidence') == 'High'))
+
+
 def best_near_miss(line):
     """Lesson bad-trips-2026-11-19b: the try of the lineage that read best (lowest AI likelihood) among those with a Human
     window, or None. Joel's round-41 versions started from my first tries, each with a Human window (79% and 87% AI), and
     changed a word or two a reader could take two ways, checking after each; my later tries rewrote those near misses and
-    read 100% AI."""
+    read 100% AI. Between tries of the same likelihood, the one with fewer words in windows below Human High is the better:
+    Pangram's likelihood for a Human text rounds to 0, so a later try that read Human High in every window tied an earlier
+    one with a Medium window, and the near-miss rule measured a new try from the older, worse text (turn 50, 2026-11-20:
+    niacin's side effects, b07 Human High after a07's Medium window)."""
     best = None
     for p in line:
         r = p.get('result') or {}
@@ -627,9 +636,9 @@ def best_near_miss(line):
         if not p.get('text') or not any(isinstance(w, dict) and str(w.get('label', '')).startswith('Human') for w in ws):
             continue
         lk = r.get('likelihood')
-        lk = 1.0 if lk is None else lk
-        if best is None or lk < best[1]:
-            best = (p, lk)
+        rank = (1.0 if lk is None else lk, below_high_words(ws))
+        if best is None or rank < best[1]:
+            best = (p, rank)
     return best[0] if best else None
 
 

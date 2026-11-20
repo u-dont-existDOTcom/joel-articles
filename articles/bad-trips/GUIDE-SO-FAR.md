@@ -296,7 +296,7 @@ DMSO is another stabilizer I use when a trip becomes too intense and I don't wan
 
 In my experience, DMSO makes me alert, smarter, happier, healthier, and more relaxed, and pretty much everyone I've heard from on forums and in real life says the same thing. It also is one of the only things that can instantly turn a bad psychedelic trip good. When I nebulize it, within a minute, my brain feels crystal clean and super blissed out (much more bliss than other routes).
 
-It overlaps with aged ozonated-charcoal water, but the two don't always work equally. Sometimes DMSO works better; sometimes the water does. I don't yet know why. In my experience there is generally no harm in taking both or mixing them. Ozonated-charcoal water has what I consider a perfect safety profile; DMSO is a close second in my experience.
+It overlaps with aged ozonated-charcoal water, but the two don't always work equally. Sometimes DMSO works better, and sometimes the water wins. I don't yet know why, but you can also just use both rather than try to figure out which for when. Ozonated-charcoal water has what I consider a perfect safety profile, and DMSO is a close second.
 
 One famous [1967 study by Ramirez & Luza](https://nyaspubs.onlinelibrary.wiley.com/doi/epdf/10.1111/j.1749-6632.1967.tb34937.x) found it more effective than the best antipsychotic drugs at the time, slashing mental patients' psych ward stays in half, and that included patients with severe anxiety, though it hasn't been tested (that I know of, yet) for PTSD. It's routinely used in humans who receive stem cell transplants, as it is the best cell preservative that we've found so far. There is evidence ([Kortleve, et al, 2023](https://assets-eu.researchsquare.com/files/rs-2624641/v1/45119f29-3464-4680-8468-490477ae59ae.pdf?c=1688109028)) that using too much DMSO (10% vs 5%) in stem cell transfusions increases mild side effects in adult humans.
 
@@ -305,8 +305,8 @@ Children's brains may be at risk from DMSO, though: it killed brain cells in mic
 **Side effects:**
 
 - **Astringency:** 100% DMSO usually irritates skin on the upper half of the body. When the skin itches, dilute the DMSO with water or real aloe juice without added chemicals. Leaving 100% DMSO on the skin can crenate (shrivel) it, and the skin may take a week to look plump again. DMSO can also burn dry mouth tissue, so wet your mouth first.
-- **Nausea:** when drinking DMSO, dilute it in water, juice, or milk and sip gradually.
-- **Reduced sleep:** DMSO reduces how long I sleep when I take too much, take it too late, or use it over too many consecutive days. It builds up past a threshold that seems to differ between people, so it's best taken in the morning, and reduce the dose if you notice you're sleeping less. [In rats, higher doses made sleep less deep](https://www.sciencedirect.com/science/article/abs/pii/S0378427405000810). Some people sleep better with DMSO because it reduces whatever symptom had been keeping them awake.
+- **Nausea:** when drinking DMSO, dilute it in water, juice, or milk and sip gradually. Sensitivity to DMSO varies, so start with less than you planned.
+- **Reduced sleep:** DMSO reduces how long I sleep when I take too much, take it too late, or use it over too many consecutive days. It builds up past a threshold that seems to differ between people, so it's best taken in the morning, and reduce the dose if you notice you're sleeping less. [In rats, higher doses of DMSO made sleep less deep](https://www.sciencedirect.com/science/article/abs/pii/S0378427405000810). Some people sleep better with DMSO because it reduces whatever symptom had been keeping them awake.
 - **Body odor:** above a certain dose you may smell like sulfur. I don't smell when I put it into milk.
 
 **Interactions:**
@@ -388,7 +388,7 @@ I include it because most people don't have access to *Ipomoea pes-caprae*, alth
 - **Niacin flush:** itchy sunburn-like heat. The flush is normal, although some people find it intolerable and others enjoy it.
 - Heartburn in sensitive stomachs or after too much at once.
 - Drowsiness, usually with terrible sleep quality.
-- Higher or repeated doses can create a real risk of liver damage, especially with liver problems, alcohol, or medications.
+- [Sustained-release niacin](https://pubmed.ncbi.nlm.nih.gov/8309029/), or repeated doses through the day, can create a real risk of liver damage, especially with liver problems, alcohol, or medications.
 
 Other forms of vitamin B3 seem less reliable than niacin for relaxation. Niacinamide relaxes some people, but it can make others hyperfocused, depending on the state the person is in. Avoid sustained-release niacin and the useless "no-flush" kind (inositol hexanicotinate).
 
@@ -631,11 +631,15 @@ The experience may matter deeply. It could be true psychologically, or symbolica
 
 When we try to purify the mind, something natural and frightening may happen: the opposite becomes more visible, almost like Newton's Third Law--every action arrives with an equal and opposite reaction.
 
-Shadow thoughts and feelings are not inherently a problem. They co-arise naturally and do not need to be attached to, like shadows cast by objects in sunlight. I also notice them after excessive focus. The mind becomes stressed and seeks an exit from the pressure, often in the opposite direction from the focus.
+Shadow thoughts and feelings are not inherently a problem. They co-arise naturally and do not need to be attached to, like shadows cast by objects in sunlight.
 
-Relax, unwind, unbind, and unweave the identity illusion, mind, and unified experience. My pamphlet on already-perfect goes further into this.
+I am not repeating the simplistic Hermetic claim that opposites are required to understand anything. A hated baby does **not** feel love, and a loved baby does **not** feel hate. In the subconscious mind, however, concepts often do arise as pairs.
 
-I am not repeating the simplistic Hermetic claim that opposites are required to understand anything. A hated baby does **not** feel love, and a loved baby does **not** feel hate. In the subconscious world of concepts, however, two sides are often considered together.
+Overly focusing on the "light" or positive side of things can cause the subconscious to strategically highlight the darker stuff. That might be because you're trying to ignore it, and the subconscious is wise enough to know that ignoring problems only makes them worse, so it brings them up (often in dreams, or trips).
+
+But over-focusing the mind for any reason can also create pressure. When the mind is stressed, it seeks an exit from the pressure, often in the opposite direction from what's focusing it. An intensive meditation retreat, or a weighty obligation, or a large psychedelic dose could all be putting that focusing pressure on and leading to dark stuff coming into focus as a misunderstood signal to ease up.
+
+So relax, unwind, unbind, and unweave the identity illusion, mind, and unified experience. My pamphlet on already-perfect goes further into this.
 
 During a trip, don't identify with every shadow thought, suppress it, confess it to everybody, or convert it into a permanent diagnosis. Notice: **"A thought is here. A feeling is here. It is intense, but it is not the whole of me."** Then return to room, body, human, time, and love.
 

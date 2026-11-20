@@ -1,0 +1,51 @@
+{
+ "readers": [
+  "haiku",
+  "sonnet"
+ ],
+ "sentences": [
+  "During a trip, try not to take every dark thought that comes up as the truth about you.",
+  "It's often just the flip side of whatever you've been focusing on, and pushing it away tends to make it come back stronger.",
+  "You can tell the person sitting with you, but maybe hold off on confessing it to everybody else, since a trip is about the worst time to decide something is permanently wrong with you.",
+  "Just notice what's there, maybe saying to yourself, \"OK, there's a thought, and there's a feeling, and it's intense, but it's not all of me.\"",
+  "Then come back to the room you're in, your body, the person with you, what time it is, and love."
+ ],
+ "flagged": {
+  "1": [
+   "sonnet"
+  ],
+  "2": [
+   "haiku",
+   "sonnet"
+  ],
+  "3": [
+   "haiku",
+   "sonnet"
+  ],
+  "4": [
+   "haiku",
+   "sonnet"
+  ],
+  "5": [
+   "haiku",
+   "sonnet"
+  ]
+ },
+ "agreed": [
+  2,
+  3,
+  4,
+  5
+ ],
+ "whole": {
+  "haiku": [
+   "Every sentence is a clean, complete unit of similar length, and the arc runs advice, then a script, then a grounding list ending on one word, which is smooth and even in a way that reads built rather than spoken. The voice is calm and generic, with no concrete detail or first-person experience to anchor it."
+  ],
+  "sonnet": [
+   "The paragraph moves in a very even, orderly sequence (reframe, reason, who to tell, a script, a grounding list), with every sentence similar in length and calm in tone and no digression, specific detail or rough edge. Its voice is uniformly soothing and instructional, which reads as composed to be helpful rather than spoken from one person's experience."
+  ]
+ },
+ "human_clean": [
+  "OK, there's a thought"
+ ]
+}

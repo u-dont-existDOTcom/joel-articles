@@ -1504,6 +1504,37 @@
    "must_not_contain": [
     "it could be too late for an easy fix"
    ]
+  },
+  {
+   "id": "r43-dmso-water-his",
+   "status": "applied",
+   "what": "DMSO's third paragraph, beside the charcoal water, his version whole (round 43, TEACH-DMSO-WATER; his check 9dfa6b6d, Human High 63)",
+   "joel": "card TEACH-DMSO-WATER revised, 2026-11-19 23:40 UTC, his check linked in his comment",
+   "applied_by": "review/r43/ANSWERS-R43-20261120-0001.json (exported 2026-11-20 00:01:40 UTC), put in by review/r43/apply_r43.py",
+   "must_contain_exact": [
+    "It overlaps with aged ozonated-charcoal water, but the two don't always work equally. Sometimes DMSO works better, and sometimes the water wins. I don't yet know why, but you can also just use both rather than try to figure out which for when. Ozonated-charcoal water has what I consider a perfect safety profile, and DMSO is a close second."
+   ],
+   "must_not_contain": [
+    "In my experience there is generally no harm in taking both or mixing them"
+   ]
+  },
+  {
+   "id": "r43-shadow-his",
+   "status": "applied",
+   "what": "Dealing With Shadow Thoughts up to \"So relax ...\", his rewrite whole (round 43, TEACH-OPPOSITES; his check 4f316acd, Human High 253): the Hermetic paragraph third, two new paragraphs of his on why the opposite shows up",
+   "joel": "2026-11-20 00:01 UTC: \"i had to rewrite everything in this section up to this part, it was not written very well. now it's good and human high conf ... you can try to fix p5\"",
+   "applied_by": "review/r43/ANSWERS-R43-20261120-0001.json (exported 2026-11-20 00:01:40 UTC), put in by review/r43/apply_r43.py",
+   "must_contain_exact": [
+    "Shadow thoughts and feelings are not inherently a problem. They co-arise naturally and do not need to be attached to, like shadows cast by objects in sunlight.",
+    "I am not repeating the simplistic Hermetic claim that opposites are required to understand anything. A hated baby does **not** feel love, and a loved baby does **not** feel hate. In the subconscious mind, however, concepts often do arise as pairs.",
+    "Overly focusing on the \"light\" or positive side of things can cause the subconscious to strategically highlight the darker stuff. That might be because you're trying to ignore it, and the subconscious is wise enough to know that ignoring problems only makes them worse, so it brings them up (often in dreams, or trips).",
+    "But over-focusing the mind for any reason can also create pressure. When the mind is stressed, it seeks an exit from the pressure, often in the opposite direction from what's focusing it. An intensive meditation retreat, or a weighty obligation, or a large psychedelic dose could all be putting that focusing pressure on and leading to dark stuff coming into focus as a misunderstood signal to ease up.",
+    "So relax, unwind, unbind, and unweave the identity illusion, mind, and unified experience. My pamphlet on already-perfect goes further into this."
+   ],
+   "must_not_contain": [
+    "I also notice them after excessive focus.",
+    "In the subconscious world of concepts, however, two sides are often considered together."
+   ]
   }
  ]
 }

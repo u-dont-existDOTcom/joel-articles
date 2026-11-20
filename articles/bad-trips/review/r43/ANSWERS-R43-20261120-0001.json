@@ -1,0 +1,61 @@
+{
+ "format": "joel-suggestion-review-answers-v1",
+ "review_id": "bad-trips-r43",
+ "title": "Bad Trips Guide, Round 43",
+ "git_file": "articles/bad-trips/review/r43/REVIEW-R43.html",
+ "article": {
+  "file": "articles/bad-trips/review/r43/PAGE-R43.md",
+  "sha256": "703dabecb6e0a23a6665fca54adcf7c048127d990f8965f960717d372662af8f"
+ },
+ "built": "2026-11-19",
+ "generator": "suggestion_review.py 1.11 (2026-11-11)",
+ "exported_at": "2026-11-20T00:01:40.698Z",
+ "counts": {
+  "approved": 0,
+  "rejected": 0,
+  "revise": 2,
+  "pending": 0
+ },
+ "items": [
+  {
+   "id": "TEACH-DMSO-WATER",
+   "type": "teach",
+   "title": "1. DMSO beside aged ozonated-charcoal water: which to give, or both",
+   "where": "DMSO, P3",
+   "advice": "edit",
+   "status": "revise",
+   "your_version": "It overlaps with aged ozonated-charcoal water, but the two don't always work equally. Sometimes DMSO works better, and sometimes the water wins. I don't yet know why, but you can also just use both rather than try to figure out which for when. Ozonated-charcoal water has what I consider a perfect safety profile, and DMSO is a close second.",
+   "comment": "https://www.pangram.com/history/9dfa6b6d-e8ea-4fe5-8363-a7e166fb0149?ucc=4rq5Ko7gBiW&utm_source=pangram_share&utm_medium=copy_link",
+   "my_version": "It overlaps with aged ozonated-charcoal water, but the two don't always work equally. Sometimes DMSO works better; sometimes the water does. I don't yet know why. In my experience there is generally no harm in taking both or mixing them. Ozonated-charcoal water has what I consider a perfect safety profile; DMSO is a close second in my experience.",
+   "before": "It overlaps with aged ozonated-charcoal water, but the two don't always work equally. Sometimes DMSO works better; sometimes the water does. I don't yet know why. In my experience there is generally no harm in taking both or mixing them. Ozonated-charcoal water has what I consider a perfect safety profile; DMSO is a close second in my experience.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "revise",
+     "at": "2026-11-19T23:38:18.351Z"
+    }
+   ],
+   "updated": "2026-11-19T23:40:17.296Z"
+  },
+  {
+   "id": "TEACH-OPPOSITES",
+   "type": "teach",
+   "title": "2. Dealing With Shadow Thoughts: why the opposite thought shows up",
+   "where": "Dealing With Shadow Thoughts, P4",
+   "advice": "edit",
+   "status": "revise",
+   "your_version": "Dealing With Shadow Thoughts\nWhen we try to purify the mind, something natural and frightening may happen: the opposite becomes more visible, almost like Newton's Third Law--every action arrives with an equal and opposite reaction. \n\nShadow thoughts and feelings are not inherently a problem. They co-arise naturally and do not need to be attached to, like shadows cast by objects in sunlight. \n\nI am not repeating the simplistic Hermetic claim that opposites are required to understand anything. A hated baby does not feel love, and a loved baby does not feel hate. In the subconscious mind, however, concepts often do arise as pairs.\n\nOverly focusing on the \"light\" or positive side of things can cause the subconscious to strategically highlight the darker stuff. That might be because you're trying to ignore it, and the subconscious is wise enough to know that ignoring problems only makes them worse, so it brings them up (often in dreams, or trips). \n\nBut over-focusing the mind for any reason can also create pressure. When the mind is stressed, it seeks an exit from the pressure, often in the opposite direction from what's focusing it. An intensive meditation retreat, or a weighty obligation, or a large psychedelic dose could all be putting that focusing pressure on and leading to dark stuff coming into focus as a misunderstood signal to ease up.\n\nSo relax, unwind, unbind, and unweave the identity illusion, mind, and unified experience. My pamphlet on already-perfect goes further into this.\n\nDuring a trip, don't identify with every shadow thought, suppress it, confess it to everybody, or convert it into a permanent diagnosis. Notice: \"A thought is here. A feeling is here. It is intense, but it is not the whole of me.\" Then return to room, body, human, time, and love.",
+   "comment": "i had to rewrite everything in this section up to this part, it was not written very well. now it's good and human high conf: https://www.pangram.com/history/4f316acd-398d-4d6f-b224-e076aff05c7d?ucc=4rq5Ko7gBiW&utm_source=pangram_share&utm_medium=copy_link\n\nyou can try to fix p5",
+   "my_version": "I am not repeating the simplistic Hermetic claim that opposites are required to understand anything. A hated baby does not feel love, and a loved baby does not feel hate. In the subconscious world of concepts, however, two sides are often considered together.",
+   "before": "I am not repeating the simplistic Hermetic claim that opposites are required to understand anything. A hated baby does not feel love, and a loved baby does not feel hate. In the subconscious world of concepts, however, two sides are often considered together.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "revise",
+     "at": "2026-11-19T23:40:23.713Z"
+    }
+   ],
+   "updated": "2026-11-20T00:01:38.212Z"
+  }
+ ]
+}
