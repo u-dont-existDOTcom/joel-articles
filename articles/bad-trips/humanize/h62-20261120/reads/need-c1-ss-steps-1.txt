@@ -1,0 +1,31 @@
+NEEDS:
+S1: The first act: stop giving or taking anything that raises serotonin.
+S2: Lets the reader recognize which substances count, so nothing more is taken (including less obvious ones like cough syrup, supplements, redoses).
+S3: An early drug step the reader can do if the friend is alert and can swallow; the condition tells them when not to.
+S4: nothing
+S5: Tells the reader not to hold up the other steps (calling, cooling, transport) while waiting to see if cyproheptadine works.
+S6: Calls for help and gets the friend moving toward care.
+S7: Tells the reader to have someone else drive, or have emergency services come.
+S8: Poison control is an extra call when the mix is unclear, but it does not replace emergency help (implies: don't stop at poison control).
+S9: Names the next act, cooling, and says it must not delay transport.
+S10: The concrete ways to cool the person.
+S11: Says when not to use a bath (confused, seizing, very weak) so the reader doesn't make things worse.
+S12: Implies: don't give a fever reducer and consider the job done; keep cooling physically.
+S13: Says to keep the room calm and stop the friend from exerting.
+S14: Concrete things to prevent (pacing, exercise, crowds, arguments).
+S15: Explains why to hold the friend back from moving even when they feel a strong urge to; implies: calmly keep them still despite it.
+S16: Says when it is safe to give fluids (alert, not vomiting).
+S17: Says how: small sips of oral rehydration drink.
+S18: Says what not to push on a person who is confused, vomiting, sleepy, or at seizure risk.
+S19: Heading-like lead-in telling the reader why the next lines (bring things, write things down) matter: for the ER.
+S20: Tells the reader to bring the pill bottles and packages.
+S21: Tells the reader exactly what to write down for the ER.
+S22: nothing
+S23: Implies: do not give niacin.
+S24: Implies: do not use DMSO.
+S25: nothing
+
+UNNEEDED:
+- S4: So far, the evidence for this med has only been case reports, and a recent review found them insufficient to show that it works. — The reader's act (give it if alert, don't wait on it) is already in S3 and S5; the evidence history changes nothing they do.
+- S22: Hospitals may use benzodiazepines, external cooling, IV fluids, monitoring, and intensive supportive care. — Describes what the hospital will do, which the reader doesn't do or decide; they can lose it and still carry out every step.
+- S25: I would consider oral magnesium chloride when the person is fully alert, especially with MDMA-related jaw tension or muscle activity. — Not a first step: it is an optional extra for one drug case, with no support given, and it sits oddly after the hospital and "unsafe" lines, so it can be lost with nothing missing.
