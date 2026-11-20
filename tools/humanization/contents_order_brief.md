@@ -49,6 +49,21 @@ His moves that every model missed, all of this kind: the shame and forgiveness s
 role that does that repair; the spiritual sections under the Inner Guide; the sections about altered states under the
 Altered States part; the vow under Practicing.
 
+How he decides whose work it is (Joel, 2026-11-20 23:03 UTC, his answer to question 114; lesson inner-child-2026-11-20m):
+- **Ask whom a person would go to for it.** "when you have shame or you need forgiveness, it is someone who feeling like a
+  nurturer that you go to for that. you don't go to a policew officer (protector) for help with those [...] love accepts.
+  protection blocks. guide directs. shame and forgiveness need acceptance."
+- **A catch-all part is not the home for a primary obstacle.** "healing old patterns is just a catch all category which
+  is not important enough to deal with such a primary obstacle."
+- **A practice goes under a role only when the role must do it; otherwise it goes where the flow lands.** "a practice is
+  something that could be done by any of the roles [...] mantra practice, that's primary to the Guide, so it could go
+  under the Guide, but the Guide does not need to give a mantra practice to be a good guide, so it doesn't need to go
+  there if it fits better somewhere else [...] if the thing must go under a role then it goes there, but if it's optional
+  there and the flow would have it come elsewhere then it would prob go elsewhere."
+
+With these lines added to the frame, a blind card sort of the inner child guide put shame and forgiveness under the
+Nurturer and gave the best order score of any outline so far (turn 133, run 4: `RESULTS-4.md`).
+
 ## 3. Order inside each part
 
 What a reader needs first comes first: readiness and foundations before techniques, the general before its special
