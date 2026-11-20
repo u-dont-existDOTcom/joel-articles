@@ -1,6 +1,6 @@
 # Inner Child article: questions for Joel
 
-Last updated 2026-11-20 (turn 135). **Open question: 115**, three of your moves the sort still can't explain. Questions 111 to 114 are answered. The to-do entries below date from turn 115 (26 October) and weren't rechecked this turn, except pull request #255, which you merged on 3 November. To answer a question, reply in chat with its number and a letter, like `111: A`, or in your own words.
+Last updated 2026-11-20 (turn 136). No open questions: 111 to 115 are answered. The to-do entries below date from turn 115 (26 October) and weren't rechecked this turn, except pull request #255, which you merged on 3 November. To answer a question, reply in chat with its number and a letter, like `111: A`, or in your own words.
 
 🟣 a question for you · 🟠 for you to do · 🔵 next or in progress · 🟢 done or decided
 
@@ -8,13 +8,15 @@ The published page, a view of this file rebuilt after every change ([questions_p
 
 ## Open questions
 
-### 🟣 115. Three of your moves the sort still can't explain (turn 135)
+### 🟢 115. Three of your moves the sort still can't explain (turn 135)
 
 1. You put the spiritual sections under the Guide: Invite Your Little One In, How Much Happiness Do You Know Is Possible?, When the Spiritual Relationship Hurts. Divine love is love, so why the Guide and not the Nurturer? Is it that the Guide directs toward what's possible, and the Nurturer gives the love that's already there?
 2. Borrow Hindsight and Remember When You Already Did It Well went under Between Spoiling and Clamping Down. Are they tools for keeping that balance, so a tool goes under the problem it solves?
 3. How Distrust Reproduces went under Finding People and Building Trust. Because a reader meets distrust when they're finding people, so it goes where it comes up?
 
 Answer in your own words, or just "yes" where my guess is right; each answer goes into the frame for the next run.
+
+Answered 2026-11-20 23:22 UTC: 1, "the nurturer doesn't give divine love, they give the love of the nurturer [...] divine love is beyond taking care of someone [...] it's infinite, it's unspeakable"; 2, my question was wrong: Borrow Hindsight and You Did It Well Before went under "Borrow a Guide to Build It", the heading you added (my scorer had named the nearest older heading, and I passed it on without checking); 3, yes. All three are now in the [contents order brief](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/tools/humanization/contents_order_brief.md).
 
 ### 🟢 114. What does each role's work include, in your view? (turn 134)
 

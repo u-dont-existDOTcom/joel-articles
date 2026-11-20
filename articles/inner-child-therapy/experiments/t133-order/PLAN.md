@@ -47,7 +47,7 @@ The primary assembly moved nothing: every high-confidence card agreed with the 4
 framework reader had described each part and role by what sat under it, so the Nurturer was "loves the little one,
 borrows love..." and Healing Old Patterns was "how distrust and shame reproduce, forgiveness...". Carded against that,
 shame and forgiveness belong where they already were. A frame read off the current outline can only confirm it. Most of
-his other moves were local (a section put under a sibling: Borrow Hindsight under Between Spoiling and Clamping Down),
+his other moves were local (Borrow Hindsight and You Did It Well Before went under "Borrow a Guide to Build It", a heading he added; turn 136 found that run 1's report had named the nearest older heading instead),
 which run 1's questions didn't ask about.
 
 ## Run 2 (written before it ran)
@@ -95,3 +95,9 @@ added to the frame and the instruction to sort by them (`out/FRAME-3.json`, `inp
 Predictions: shame and forgiveness go under the Nurturer (likely); at high confidence 4 to 8 of his 20 moves with 10 or
 fewer others; still short of his moves inside the Guide's part (Borrow Hindsight under Between Spoiling and Clamping),
 which his answer doesn't speak to.
+
+Turn 136 correction, the prediction left as written: he put Borrow Hindsight under "Borrow a Guide to Build It", a
+heading he added; the report had named the nearest older heading (his answer to question 115, 2026-11-20 23:22 UTC:
+"what are you looking at?"). RESULTS-3-NAMED.md and RESULTS-4-NAMED.md list his 20 moves by his current headings and
+where he really put each section. RESULTS-3.md and RESULTS-4.md stay as first written, since the article registry
+keeps experiment results unchanged; their counts and scores are the same.
