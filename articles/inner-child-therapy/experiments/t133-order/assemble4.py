@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Turn 133, run 4 (PLAN.md, "Run 4"; written before its cards existed): the blind card sort with his own view's outline, scored.
 
-  python3 assemble4.py       # out/OUTLINE4-*.json and RESULTS-4.md"""
+  python3 assemble4.py       # out/OUTLINE4-*.json and RESULTS-4-NAMED.md"""
 import json
 import pathlib
 import sys
@@ -34,20 +34,21 @@ def main():
         detail[name] = (s, moved)
         L.append('| %s | %d | %d | %d | %d | %.3f | %d | %d |' % (label, s['reparented_same'], s['reparented_extra'],
                  s['levels_same'], s['levels_extra'], s['tau_vs_his'], s['same_place'], len(moved)))
-    L += ['', 'Cards missing: %s.' % (', '.join(missing) or 'none'), '', '## His 20 moves: where the blind sort filed each', '']
+    L += ['', 'Cards missing: %s.' % (', '.join(missing) or 'none'), '', '## His 20 moves: where the blind sort filed each', '', 'Headings are his current ones (his picks of 20 November); "he put it under" is the heading he really put it under, headings he added included. The pages RESULTS-3.md and RESULTS-4.md, as first written, named the 4 November headings and, for a section under a heading he added, the nearest older one.', '']
     B, H = A.score_order.parse(A.score_order.BASE), A.score_order.parse(A.score_order.HIS)
     for u in A2.his_moves():
         c = cards.get(u, {})
         t = c.get('sits_under')
         mark = 'his' if t == H['par'][u] else ('where it was' if t == B['par'][u] else 'elsewhere')
-        L.append('- %s "%s": he put it under "%s"; the sort, under "%s" (%s, %s)' % (
-            u, A.HEADING[u], A.HEADING.get(H['par'][u], H['par'][u]), A.HEADING.get(t, t), c.get('sits_under_confidence'), mark))
+        L.append('- "%s": %s; the sort, under "%s" (%s, %s)' % (
+            A.CURRENT.get(u, A.HEADING[u]), A.his_place(u), A.CURRENT.get(t, A.HEADING.get(t, t)),
+            c.get('sits_under_confidence'), mark))
     s, moved = detail['high']
     L += ['', '## The high-confidence moves', '']
     for i in sorted(moved, key=A.POS.get):
         t = cards[i]['sits_under']
-        L.append('- %s "%s" -> under "%s" (%s)' % (i, A.HEADING[i], A.HEADING.get(t, t), 'his move' if i in s['got'] else 'not his'))
-    (HERE / 'RESULTS-4.md').write_text('\n'.join(L) + '\n')
+        L.append('- "%s" -> under "%s" (%s)' % (A.CURRENT.get(i, A.HEADING[i]), A.CURRENT.get(t, A.HEADING.get(t, t)), 'his move' if i in s['got'] else 'not his'))
+    (HERE / 'RESULTS-4-NAMED.md').write_text('\n'.join(L) + '\n')
     print('\n'.join(L))
 
 

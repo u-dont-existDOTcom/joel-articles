@@ -24,6 +24,42 @@ HEADING = {'N%03d' % s['n']: s['heading'] for s in SECTIONS}
 POS = {i: k for k, i in enumerate(IDS)}
 
 
+def _his_names():
+    """His current heading for each unit, and the heading he really put it under, headings he added included.
+    (score_order.py skips added headings when it finds a parent, so its parent for a unit under one of his new headings
+    is the nearest older unit above: right for scoring, wrong to report as his move. Joel, 2026-11-20 23:22 UTC: "no they
+    didn't go under between spoiling and clamping down. they went under borrow a guide to build it. what are you looking
+    at?")"""
+    picks = {h['id']: h['heading'] for h in json.load(open(ORDER.parent / 'HIS-PICKS-RESOLVED.json'))}
+    outline = json.load(open(ORDER / 'HIS-OUTLINE.json'))['outline']
+    current, real, merged, stack = {}, {}, {}, []
+    for e in outline:
+        if 'merge_into' in e:
+            merged[e['id']] = e['merge_into']
+            continue
+        if e.get('drop'):
+            continue
+        name = picks.get(e.get('S')) or e.get('new') or HEADING.get(e.get('id'), '')
+        while stack and stack[-1][0] >= e['level']:
+            stack.pop()
+        if 'id' in e:
+            current[e['id']] = name
+            real[e['id']] = stack[-1][1] if stack else None
+        stack.append((e['level'], name))
+    return current, real, merged
+
+
+CURRENT, HIS_PARENT, MERGED = _his_names()
+
+
+def his_place(u):
+    """Where he really put unit u, in words: under a heading (his added ones included), or merged into another section
+    (Being Your Own Advocate With Doctors went into "Physical Pain?"; turn 136's first named report said "under None")."""
+    if u in MERGED:
+        return 'he merged it into "%s"' % CURRENT.get(MERGED[u], HEADING.get(MERGED[u], MERGED[u]))
+    return 'he put it under "%s"' % HIS_PARENT.get(u)
+
+
 def base_parents():
     par, stack = {}, []
     for i in IDS:

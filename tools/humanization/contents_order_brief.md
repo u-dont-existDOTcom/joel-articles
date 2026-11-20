@@ -61,8 +61,34 @@ How he decides whose work it is (Joel, 2026-11-20 23:03 UTC, his answer to quest
   there if it fits better somewhere else [...] if the thing must go under a role then it goes there, but if it's optional
   there and the flow would have it come elsewhere then it would prob go elsewhere."
 
-With these lines added to the frame, a blind card sort of the inner child guide put shame and forgiveness under the
-Nurturer and gave the best order score of any outline so far (turn 133, run 4: `RESULTS-4.md`).
+- **What lies beyond a role goes to the role that points there.** (Joel, 2026-11-20 23:22 UTC: "the nurturer doesn't
+  give divine love, they give the love of the nurturer [...] divine love is beyond taking care of someone, or hugging
+  them, or being with them or listening to them. it's infinite, it's unspeakable...") So divine love goes under the
+  Guide, which directs toward it; his line under the Nurturer says so: "This is what the Inner Guide can bring you to."
+- **A problem goes where the reader meets it.** How Distrust Reproduces went under Finding People and Building Trust.
+
+With his answer to question 114 added to the frame, a blind card sort of the inner child guide put shame and forgiveness
+under the Nurturer and gave the best order score of any outline so far (turn 133, run 4: `RESULTS-4.md`).
+
+## Before the sort: ask the author about the framework (lesson inner-child-2026-11-20p)
+
+In real work there is no author's outline to compare a model's with, so his view has to come before the sort, not after
+a miss (Joel, 2026-11-20 23:22 UTC: "you need to ask the author for their view before the models miss... because what
+are they even missing?"). These questions come from the guide's own structure, so they can be asked of any guide on day
+one; ask them in one message, with the guide's roles and parts named:
+
+1. For each role (or figure, tool or stage the guide is built on): what belongs to it that a reader might not guess, and
+   what looks as if it belongs but doesn't? Whom would a reader go to for it?
+2. For each pair of roles that touch: what decides between them?
+3. Which parts are catch-alls, and what should never be filed there?
+4. Is there anything beyond the roles (as divine love is beyond the Nurturer's care), and which role points to it?
+5. Where do practices go: under a role, or where the reader needs them?
+6. What does a reader meet first, and what can wait?
+
+The readers' own doubt is a weak guide to anything else worth asking (`articles/inner-child-therapy/experiments/t133-order/DOUBT.md`):
+in the blind sort they were unsure about 14 of the 20 sections he moved, but also about 65 he left alone, and their
+doubt came without his answer. To turn doubt into a few questions instead of dozens, ask each reader for a first and a
+second home, and put one question to the author for each pair of homes that many unsure sections split between.
 
 ## 3. Order inside each part
 
