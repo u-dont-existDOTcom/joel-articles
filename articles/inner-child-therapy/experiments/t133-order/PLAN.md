@@ -82,3 +82,16 @@ how sure, plus whose role's work it is (`input/TASK-CARDS-3.md`, out `out/CARDS3
 
 Predictions: at high confidence, 4 to 8 of his moves with 8 to 20 others; it beats run 1 and run 2 on his moves, and
 tau falls below 0.92. Shame and forgiveness go under the Nurturer: no better than even.
+
+## Run 4: the blind sort with his own view (written before it ran)
+
+Run 3 (RESULTS-3.md) made 1 of his 20 moves at high confidence; every reader filed shame and forgiveness under Healing
+Old Patterns. His answer to question 114 (2026-11-20 23:03 UTC) is the missing input: "love accepts. protection blocks.
+guide directs. shame and forgiveness need acceptance", a catch-all part isn't the home for a primary obstacle, and a
+practice goes under a role only when the role must do it, otherwise "where the flow lands". Run 4 is run 3 with his words
+added to the frame and the instruction to sort by them (`out/FRAME-3.json`, `input/TASK-CARDS-4.md`, out
+`out/CARDS4-A.json` to `D`), assembled and scored by `assemble4.py` the same way.
+
+Predictions: shame and forgiveness go under the Nurturer (likely); at high confidence 4 to 8 of his 20 moves with 10 or
+fewer others; still short of his moves inside the Guide's part (Borrow Hindsight under Between Spoiling and Clamping),
+which his answer doesn't speak to.

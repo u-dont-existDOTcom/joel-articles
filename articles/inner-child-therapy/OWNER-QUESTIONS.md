@@ -1,6 +1,6 @@
 # Inner Child article: questions for Joel
 
-Last updated 2026-11-20 (turn 134). **Open question: 114**, a few lines on what each role's work includes, in your view, so a model can sort sections the way you do. Questions 111 to 113 are answered. The to-do entries below date from turn 115 (26 October) and weren't rechecked this turn, except pull request #255, which you merged on 3 November. To answer a question, reply in chat with its number and a letter, like `111: A`, or in your own words.
+Last updated 2026-11-20 (turn 135). **Open question: 115**, three of your moves the sort still can't explain. Questions 111 to 114 are answered. The to-do entries below date from turn 115 (26 October) and weren't rechecked this turn, except pull request #255, which you merged on 3 November. To answer a question, reply in chat with its number and a letter, like `111: A`, or in your own words.
 
 🟣 a question for you · 🟠 for you to do · 🔵 next or in progress · 🟢 done or decided
 
@@ -8,11 +8,21 @@ The published page, a view of this file rebuilt after every change ([questions_p
 
 ## Open questions
 
-### 🟣 114. What does each role's work include, in your view? (turn 134)
+### 🟣 115. Three of your moves the sort still can't explain (turn 135)
+
+1. You put the spiritual sections under the Guide: Invite Your Little One In, How Much Happiness Do You Know Is Possible?, When the Spiritual Relationship Hurts. Divine love is love, so why the Guide and not the Nurturer? Is it that the Guide directs toward what's possible, and the Nurturer gives the love that's already there?
+2. Borrow Hindsight and Remember When You Already Did It Well went under Between Spoiling and Clamping Down. Are they tools for keeping that balance, so a tool goes under the problem it solves?
+3. How Distrust Reproduces went under Finding People and Building Trust. Because a reader meets distrust when they're finding people, so it goes where it comes up?
+
+Answer in your own words, or just "yes" where my guess is right; each answer goes into the frame for the next run.
+
+### 🟢 114. What does each role's work include, in your view? (turn 134)
 
 You asked for a contents test that could get closer to your own reorganization of 4 to 14 November. Three tries didn't ([RESULTS.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/inner-child-therapy/experiments/t133-order/RESULTS.md), [RESULTS-2.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/inner-child-therapy/experiments/t133-order/RESULTS-2.md), [RESULTS-3.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/inner-child-therapy/experiments/t133-order/RESULTS-3.md)). Even sorting the shuffled sections blind, every reader put shame and forgiveness under Healing Old Patterns, where you put them under the Nurturer. Your view of what each role does isn't in the text, so no reader can find it.
 
 In a few lines each, in your words: what belongs to the Protector, the Nurturer and the Guide, and what makes something a practice rather than one role's work? Say especially the parts a reader wouldn't guess, like why shame and forgiveness are the Nurturer's. Those lines become the frame for the next run, and for organizing your other guides.
+
+Answered 2026-11-20 23:03 UTC: "love accepts. protection blocks. guide directs. shame and forgiveness need acceptance"; a catch-all part isn't the home for a primary obstacle; a practice goes under a role only when the role must do it, otherwise where the flow lands. With your words in the frame, the blind sort put shame and forgiveness under the Nurturer and gave the best order score yet ([RESULTS-4.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/inner-child-therapy/experiments/t133-order/RESULTS-4.md)). Your words are now part of the [contents order brief](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/tools/humanization/contents_order_brief.md).
 
 ### 🟢 113. Two small things about your heading picks (turn 133)
 
