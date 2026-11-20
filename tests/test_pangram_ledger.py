@@ -560,6 +560,27 @@ class SenseGate(unittest.TestCase):
         t2, r2 = self.files('Letting them move around is fine. If they want to leave, someone should go with them.')
         self.assertEqual(self.predict(t2, r2, ('--diagnosis', 'what someone does said as what they should do')), 0)
 
+    def test_the_near_miss_is_the_try_with_fewer_words_below_high_when_likelihoods_tie(self):
+        """Turn 50 (2026-11-20): Pangram rounds a Human text's likelihood to 0, so niacin's side effects as the guide had them
+        (a Medium window) tied my fix of them (Human High in every window), and the near-miss rule measured the next try
+        from the older text."""
+        def human(windows):
+            last = L.read(self.ledger)[-1]
+            with open(self.ledger, 'a', encoding='utf-8') as f:
+                f.write(json.dumps({'type': 'result', 'prediction': last['id'], 'at': 'x', 'sha256': last['sha256'],
+                                    'verdict': 'Human', 'link': 'https://www.pangram.com/history/h%d' % self.n,
+                                    'right': True, 'likelihood': 0, 'windows': windows}) + '\n')
+        t1, r1 = self.files('Higher or repeated doses can create real risk, especially with liver problems, alcohol, '
+                            'medications, or sensitive physiology.')
+        self.assertEqual(self.predict(t1, r1), 0)
+        human([{'label': 'Human', 'confidence': 'High', 'words': 6}, {'label': 'Human', 'confidence': 'Medium', 'words': 11}])
+        t2, r2 = self.files('Higher or repeated doses can create a real risk, especially with liver problems, alcohol, '
+                            'medications, or sensitive physiology.')
+        self.assertEqual(self.predict(t2, r2, ('--diagnosis', 'the risk said as one')), 0)
+        human([{'label': 'Human', 'confidence': 'High', 'words': 17}])
+        best = L.best_near_miss(L.lineage_view(L.state(L.read(self.ledger)), 'G'))
+        self.assertEqual(best['text'], pathlib.Path(t2).read_text(encoding='utf-8').rstrip('\n'))
+
     def test_a_small_retry_goes_through(self):
         t1, r1 = self.files('Letting them move around is fine. If they want to leave, someone goes with them.')
         self.assertEqual(self.predict(t1, r1), 0)

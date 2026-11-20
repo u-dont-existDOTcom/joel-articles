@@ -1,0 +1,168 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-20",
+ "text_sha256": "6559f5df62b38cbac99560f09c887f3395459246745fe4660c3a791c57085805",
+ "text": "During a trip, try not to take every dark thought that comes up as the truth about you, since it's often just the flip side of whatever you've been focusing on. Pushing the thought away tends to make it come back stronger, so let it be there. You can tell the person sitting with you, but maybe hold off on confessing it to everybody else, or deciding it means something is permanently wrong with you. Just notice what's there: \"A thought is here. A feeling is here. It is intense, but it is not the whole of me.\" Then return to room, body, human, time, and love.",
+ "section": "Dealing With Shadow Thoughts",
+ "reader": "someone tripping who just had a dark thought or feeling about themselves come up, or the friend sitting with them, reading what to do with it right now",
+ "sentences": [
+  {
+   "s": "During a trip, try not to take every dark thought that comes up as the truth about you, since it's often just the flip side of whatever you've been focusing on.",
+   "payoff": "they don't believe a dark thought about themselves just because it came up, knowing it's often the flip side of what they've been focusing on",
+   "follows": "his paragraphs before it, on why the opposite shows up; this says what to do with it during a trip"
+  },
+  {
+   "s": "Pushing the thought away tends to make it come back stronger, so let it be there.",
+   "payoff": "they don't fight the thought, since that makes it come back stronger, and let it be there",
+   "follows": "the second thing not to do, from his \"ignoring problems only makes them worse\"",
+   "link": "Pushing the thought away"
+  },
+  {
+   "s": "You can tell the person sitting with you, but maybe hold off on confessing it to everybody else, or deciding it means something is permanently wrong with you.",
+   "payoff": "they can tell the person sitting with them, but don't announce it to everyone or take it as a verdict on themselves",
+   "follows": "who to tell, and what not to decide yet",
+   "link": "You can tell"
+  },
+  {
+   "s": "Just notice what's there: \"A thought is here.",
+   "payoff": "they name what's happening: a thought is here",
+   "follows": "what to do instead of those",
+   "link": "Just notice what's there"
+  },
+  {
+   "s": "A feeling is here.",
+   "payoff": "they name the feeling too",
+   "follows": "the script's second line",
+   "link": "none: the script's next line, which the reader says after the one before"
+  },
+  {
+   "s": "It is intense, but it is not the whole of me.\"",
+   "payoff": "they hold it as intense but not all of them",
+   "follows": "the script's last line, what the noticing is for",
+   "link": "It is intense"
+  },
+  {
+   "s": "Then return to room, body, human, time, and love.",
+   "payoff": "they go back to grounding in the Grounding Menu's order: the room, the body, a calm person, the time, love",
+   "follows": "what to do after noticing",
+   "link": "Then"
+  }
+ ],
+ "checked": [],
+ "placement": "the last paragraph of Dealing With Shadow Thoughts, after his six paragraphs on why the opposite shows up and his \"So relax ...\", before The Joker Poem: the general advice before it, what to do in the moment here",
+ "opens": {
+  "first_sentence": "During a trip, try not to take every dark thought that comes up as the truth about you, since it's often just the flip side of whatever you've been focusing on.",
+  "why_reading": "it tells someone tripping what to do with a dark thought about themselves, right now"
+ },
+ "same_point": "none: read Dealing With Shadow Thoughts from its heading to the next for what to do during a trip: only this paragraph says it; his \"So relax ...\" is the general advice, this the steps in the moment",
+ "needed": {
+  "reader": "a fresh agent (Sonnet) given tools/humanization/needed_read_brief.md with only the text, its heading and what it is for (reads/need-d01-trip-shadow.txt; the draft it read: reads/read-text-d01-trip-shadow.txt)",
+  "unneeded": [],
+  "kept": {}
+ },
+ "his_fixes": {
+  "reader": "a fresh agent (Sonnet) given tools/humanization/his_fixes_brief.md, the ten ways, with the text one sentence a line (reads/his-d01-trip-shadow.txt; the draft it read: reads/read-text-d01-trip-shadow.txt)",
+  "marked": [
+   {
+    "s": "During a trip, try not to take every shadow thought as the truth about you, since it's often just the other half of a pair showing up, and don't push it away either, because that tends to make it come back stronger.",
+    "difference": "1"
+   },
+   {
+    "s": "During a trip, try not to take every shadow thought as the truth about you, since it's often just the other half of a pair showing up, and don't push it away either, because that tends to make it come back stronger.",
+    "difference": "3"
+   },
+   {
+    "s": "During a trip, try not to take every shadow thought as the truth about you, since it's often just the other half of a pair showing up, and don't push it away either, because that tends to make it come back stronger.",
+    "difference": "4"
+   },
+   {
+    "s": "During a trip, try not to take every shadow thought as the truth about you, since it's often just the other half of a pair showing up, and don't push it away either, because that tends to make it come back stronger.",
+    "difference": "10"
+   },
+   {
+    "s": "Maybe hold off on confessing it to everybody, too, or turning it into some permanent diagnosis of what's wrong with you.",
+    "difference": "4"
+   },
+   {
+    "s": "Maybe hold off on confessing it to everybody, too, or turning it into some permanent diagnosis of what's wrong with you.",
+    "difference": "10"
+   },
+   {
+    "s": "Just notice it:",
+    "difference": "10"
+   },
+   {
+    "s": "\"A thought is here.",
+    "difference": "2"
+   },
+   {
+    "s": "A feeling is here.",
+    "difference": "2"
+   },
+   {
+    "s": "It is intense, but it is not the whole of me.",
+    "difference": "3"
+   },
+   {
+    "s": "It is intense, but it is not the whole of me.",
+    "difference": "10"
+   },
+   {
+    "s": "Then return to room, body, human, time, and love.",
+    "difference": "1"
+   },
+   {
+    "s": "Then return to room, body, human, time, and love.",
+    "difference": "4"
+   }
+  ],
+  "kept": {
+   "\"A thought is here.": "the script the guide gives the reader to say, a line each, built the same way on purpose so it can be repeated; \"It\" is the thought and the feeling it has just named",
+   "A feeling is here.": "the script the guide gives the reader to say, a line each, built the same way on purpose so it can be repeated; \"It\" is the thought and the feeling it has just named",
+   "It is intense, but it is not the whole of me.": "the script the guide gives the reader to say, a line each, built the same way on purpose so it can be repeated; \"It\" is the thought and the feeling it has just named",
+   "Then return to room, body, human, time, and love.": "his decision on the grounding order (OWNER-EDITS q5-room-first, round 5's Q-5 (a): room before body), word for word; each word is a heading of the Grounding Menu earlier in the guide, which says what to do with it"
+  }
+ },
+ "fit": {
+  "reader": "a fresh agent (Sonnet) given tools/humanization/fit_read_brief.md, the universal version (reads/fit-d01-trip-shadow.txt; the draft it read: reads/read-text-d01-trip-shadow.txt)",
+  "marked": [
+   {
+    "s": "During a trip, try not to take every shadow thought as the truth about you, since it's often just the other half of a pair showing up, and don't push it away either, because that tends to make it come back stronger.",
+    "found": "CAN'T TELL, MISREAD"
+   },
+   {
+    "s": "Maybe hold off on confessing it to everybody, too, or turning it into some permanent diagnosis of what's wrong with you.",
+    "found": "MISREAD"
+   },
+   {
+    "s": "Then return to room, body, human, time, and love.",
+    "found": "CAN'T TELL"
+   }
+  ],
+  "kept": {
+   "Then return to room, body, human, time, and love.": "his decision on the grounding order (OWNER-EDITS q5-room-first, round 5's Q-5 (a): room before body), word for word; each word is a heading of the Grounding Menu earlier in the guide, which says what to do with it"
+  }
+ },
+ "questions": {
+  "Q1": "PASS: what to do with the thought first, each don't with its reason after it",
+  "Q2": "PASS: each instruction is something the reader does (take it as true or not, let it be there, tell the person sitting with you, notice), with what it's for in their terms",
+  "Q3": "PASS: \"the person sitting with you\" and \"everybody else\" told apart; \"the thought\" named where \"it\" could point two ways",
+  "Q4": "PASS: \"shadow thought\" said as a dark thought that comes up; \"the flip side of whatever you've been focusing on\" in place of \"the other half of a pair\"",
+  "Q5": "PASS: \"since\", \"so\", \"but\", \"Then\" carry each turn",
+  "Q6": "PASS: what the thought is, what not to do, who to tell, what to do instead, then grounding: the order of the moment",
+  "Q7": "PASS: each line is for someone with a dark thought during a trip",
+  "Q8": "PASS: the don'ts are what not to do with the thought; the script is what to say",
+  "Q9": "PASS: the four don'ts of one sentence unpacked, each with its reason"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

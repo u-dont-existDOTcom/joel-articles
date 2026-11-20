@@ -1,0 +1,37 @@
+{
+ "about": "His two round-43 checks, read back from his Pangram history by uuid on 2026-11-20 (web.pangram.com/api/history/<uuid>/): prompt, headline, average AI likelihood, words and each window (label, confidence, words).",
+ "checks": [
+  {
+   "card": "TEACH-DMSO-WATER",
+   "uuid": "9dfa6b6d-e8ea-4fe5-8363-a7e166fb0149",
+   "checked": "2026-11-19T18:40:00-05:00",
+   "headline": "Human Written",
+   "avg_ai_likelihood": 1.1579191567441603e-28,
+   "words": 63,
+   "windows": [
+    [
+     "Human",
+     "High",
+     63
+    ]
+   ],
+   "prompt": "It overlaps with aged ozonated-charcoal water, but the two don't always work equally. Sometimes DMSO works better, and sometimes the water wins. I don't yet know why, but you can also just use both rather than try to figure out which for when. Ozonated-charcoal water has what I consider a perfect safety profile, and DMSO is a close second."
+  },
+  {
+   "card": "TEACH-OPPOSITES",
+   "uuid": "4f316acd-398d-4d6f-b224-e076aff05c7d",
+   "checked": "2026-11-19T19:00:14-05:00",
+   "headline": "Human Written",
+   "avg_ai_likelihood": 1.4685054195479435e-32,
+   "words": 253,
+   "windows": [
+    [
+     "Human",
+     "High",
+     253
+    ]
+   ],
+   "prompt": "Dealing With Shadow Thoughts\nWhen we try to purify the mind, something natural and frightening may happen: the opposite becomes more visible, almost like Newton's Third Law--every action arrives with an equal and opposite reaction. \n\nShadow thoughts and feelings are not inherently a problem. They co-arise naturally and do not need to be attached to, like shadows cast by objects in sunlight. \n\nI am not repeating the simplistic Hermetic claim that opposites are required to understand anything. A hated baby does not feel love, and a loved baby does not feel hate. In the subconscious mind, however, concepts often do arise as pairs.\n\nOverly focusing on the \"light\" or positive side of things can cause the subconscious to strategically highlight the darker stuff. That might be because you're trying to ignore it, and the subconscious is wise enough to know that ignoring problems only makes them worse, so it brings them up (often in dreams, or trips). \n\nBut over-focusing the mind for any reason can also create pressure. When the mind is stressed, it seeks an exit from the pressure, often in the opposite direction from what's focusing it. An intensive meditation retreat, or a weighty obligation, or a large psychedelic dose could all be putting that focusing pressure on and leading to dark stuff coming into focus as a misunderstood signal to ease up.\n\nSo relax, unwind, unbind, and unweave the identity illusion, mind, and unified experience. My pamphlet on already-perfect goes further into this."
+  }
+ ]
+}

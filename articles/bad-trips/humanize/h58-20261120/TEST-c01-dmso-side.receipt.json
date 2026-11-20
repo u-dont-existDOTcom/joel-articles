@@ -1,0 +1,208 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-20",
+ "text_sha256": "4f95e8cc5b175dfebd542346cd827d2b283cc286754c691a6b10f485c10d5bad",
+ "text": "Side effects:\n\nAstringency: 100% DMSO usually irritates skin on the upper half of the body. When the skin itches, dilute the DMSO with water or real aloe juice without added chemicals. Leaving 100% DMSO on the skin can crenate (shrivel) it, and the skin may take a week to look plump again. DMSO can also burn dry mouth tissue, so wet your mouth first.\nNausea: when drinking DMSO, dilute it in water, juice, or milk and sip gradually. Sensitivity to DMSO varies, so start with less than you planned.\nReduced sleep: DMSO reduces how long I sleep when I take too much, take it too late, or use it over too many consecutive days. It builds up past a threshold that seems to differ between people, so it's best taken in the morning, and reduce the dose if you notice you're sleeping less. In rats, higher doses of DMSO made sleep less deep. Some people sleep better with DMSO because it reduces whatever symptom had been keeping them awake.\nBody odor: above a certain dose you may smell like sulfur. I don't smell when I put it into milk.",
+ "section": "DMSO: Side effects (Mental Stabilizers That Don't Abort the Trip)",
+ "reader": "someone about to give a friend DMSO during a hard trip, or take it themselves, checking what side effects to expect and how to avoid them",
+ "sentences": [
+  {
+   "s": "Side effects:",
+   "payoff": "they know the list that follows is DMSO's side effects",
+   "follows": "the label under the DMSO section, after its uses"
+  },
+  {
+   "s": "Astringency: 100% DMSO usually irritates skin on the upper half of the body.",
+   "payoff": "they know undiluted DMSO usually irritates the skin on the upper body",
+   "follows": "the first side effect",
+   "link": "Astringency:"
+  },
+  {
+   "s": "When the skin itches, dilute the DMSO with water or real aloe juice without added chemicals.",
+   "payoff": "they know what to do when it itches: dilute it with water or pure aloe juice",
+   "follows": "what to do about the irritation",
+   "link": "When the skin itches"
+  },
+  {
+   "s": "Leaving 100% DMSO on the skin can crenate (shrivel) it, and the skin may take a week to look plump again.",
+   "payoff": "they know not to leave 100% DMSO on the skin, which can shrivel it for a week",
+   "follows": "what leaving it on does",
+   "link": "Leaving 100% DMSO on the skin"
+  },
+  {
+   "s": "DMSO can also burn dry mouth tissue, so wet your mouth first.",
+   "payoff": "they wet the mouth before taking it by mouth, since it can burn dry mouth tissue",
+   "follows": "the mouth, the other place it burns",
+   "link": "can also"
+  },
+  {
+   "s": "Nausea: when drinking DMSO, dilute it in water, juice, or milk and sip gradually.",
+   "payoff": "they dilute it and sip it slowly when drinking it, so it doesn't nauseate",
+   "follows": "the second side effect, nausea",
+   "link": "Nausea:"
+  },
+  {
+   "s": "Sensitivity to DMSO varies, so start with less than you planned.",
+   "payoff": "they start with less than they planned, since how easily DMSO turns the stomach differs between people",
+   "follows": "what to do when sipping slowly may not be enough for them, his reason first",
+   "link": "Sensitivity to DMSO varies"
+  },
+  {
+   "s": "Reduced sleep: DMSO reduces how long I sleep when I take too much, take it too late, or use it over too many consecutive days.",
+   "payoff": "they know too much, too late, or too many days of it cuts his sleep",
+   "follows": "the third side effect, sleep",
+   "link": "Reduced sleep:"
+  },
+  {
+   "s": "It builds up past a threshold that seems to differ between people, so it's best taken in the morning, and reduce the dose if you notice you're sleeping less.",
+   "payoff": "they take it in the morning and lower the dose if they sleep less, because it builds up",
+   "follows": "what to do about the sleep, his advice",
+   "link": "so it's best taken in the morning"
+  },
+  {
+   "s": "In rats, higher doses of DMSO made sleep less deep.",
+   "payoff": "they know a study backs his experience (in rats, higher doses made sleep less deep), so the morning advice is worth following",
+   "follows": "the evidence for the sleep effect, with where it was found first (lesson 19a)",
+   "link": "In rats"
+  },
+  {
+   "s": "Some people sleep better with DMSO because it reduces whatever symptom had been keeping them awake.",
+   "payoff": "they know some people sleep better on it, when it relieves what kept them awake, so they don't skip it for fear of insomnia",
+   "follows": "the other side of the sleep effect",
+   "link": "Some people sleep better"
+  },
+  {
+   "s": "Body odor: above a certain dose you may smell like sulfur.",
+   "payoff": "they know a high dose can make them smell of sulfur",
+   "follows": "the fourth side effect",
+   "link": "Body odor:"
+  },
+  {
+   "s": "I don't smell when I put it into milk.",
+   "payoff": "they can avoid the smell by taking it in milk, as he does",
+   "follows": "what to do about the smell, his experience",
+   "link": "when I put it into milk"
+  }
+ ],
+ "checked": [],
+ "placement": "the DMSO section's side effects list, after the section's uses and evidence and before its interactions; every item names what it is about first",
+ "opens": {
+  "first_sentence": "Side effects:",
+  "why_reading": "it tells someone about to use DMSO that what follows is what can go wrong, item by item"
+ },
+ "same_point": "none: read the DMSO section from its heading to the next for side effects: only this list gives them; the section's reduced-sleep advice is said here once (round 39b)",
+ "needed": {
+  "reader": "a fresh agent (Sonnet) given tools/humanization/needed_read_brief.md with only the text, its heading and what it is for (reads/need-c01-dmso-side.txt; the draft it read: reads/read-text-c01-dmso-side.txt)",
+  "unneeded": [
+   "Side effects:",
+   "In rats, higher doses of DMSO made sleep less deep.",
+   "Some people sleep better with DMSO because it reduces whatever symptom had been keeping them awake."
+  ],
+  "kept": {
+   "Side effects:": "they know the list is side effects: the guide's own label, under a heading that names DMSO, not side effects",
+   "In rats, higher doses of DMSO made sleep less deep.": "they know a study backs his sleep line, which is the evidence his advice to take it in the morning rests on; the study is the link, which goes with it (gate E380: a citation isn't cut without him)",
+   "Some people sleep better with DMSO because it reduces whatever symptom had been keeping them awake.": "they know DMSO can help some people sleep (when it eases what kept them awake), so they don't skip it for fear of insomnia"
+  }
+ },
+ "his_fixes": {
+  "reader": "a fresh agent (Sonnet) given tools/humanization/his_fixes_brief.md, the ten ways, with the text one sentence a line (reads/his-c01-dmso-side.txt; the draft it read: reads/read-text-c01-dmso-side.txt)",
+  "marked": [
+   {
+    "s": "DMSO can also burn dry mouth tissue, so wet your mouth first.",
+    "difference": "4, 10"
+   },
+   {
+    "s": "Nausea: when drinking DMSO, dilute it in water, juice, or milk and sip gradually.",
+    "difference": "4"
+   },
+   {
+    "s": "Sensitivity varies between people, so try a small amount at first.",
+    "difference": "4"
+   },
+   {
+    "s": "DMSO reduces how long I sleep when I take too much, take it too late, or use it over too many consecutive days.",
+    "difference": "1, 4"
+   },
+   {
+    "s": "It builds up past a threshold that seems to differ between people, so it's best taken in the morning, and reduce the dose if you notice you're sleeping less.",
+    "difference": "1, 10"
+   },
+   {
+    "s": "In rats, higher doses of DMSO made sleep less deep.",
+    "difference": "7, 9"
+   },
+   {
+    "s": "Some people sleep better with DMSO because it reduces whatever symptom had been keeping them awake.",
+    "difference": "4"
+   },
+   {
+    "s": "Body odor: above a certain dose you may smell like sulfur.",
+    "difference": "4, 7"
+   },
+   {
+    "s": "I don't smell when I put it into milk.",
+    "difference": "7, 10"
+   }
+  ],
+  "kept": {
+   "DMSO can also burn dry mouth tissue, so wet your mouth first.": "\"dry mouth tissue\" is the tissue of a dry mouth, which the same sentence's fix says (\"so wet your mouth first\"); Human High in b06",
+   "Nausea: when drinking DMSO, dilute it in water, juice, or milk and sip gradually.": "his item as it read Human High in b06; the amounts are the drink's, and the next sentence says how much DMSO to start with",
+   "Sensitivity varies between people, so try a small amount at first.": "changed: \"Sensitivity\" said as sensitivity to DMSO, and \"a small amount\" as less than you planned, his \"less\"",
+   "DMSO reduces how long I sleep when I take too much, take it too late, or use it over too many consecutive days.": "his own experience, in his words (round 39b put his sleep advice here); each of the three causes is short and the next sentence says what to do",
+   "It builds up past a threshold that seems to differ between people, so it's best taken in the morning, and reduce the dose if you notice you're sleeping less.": "his advice from round 39b in his words; \"It\" is DMSO, the item's subject; the threshold is why the morning helps",
+   "In rats, higher doses of DMSO made sleep less deep.": "the finding comes after \"In rats\", the limit, first; it backs his advice (morning doses), which is the use; its link is the study (gate E380)",
+   "Some people sleep better with DMSO because it reduces whatever symptom had been keeping them awake.": "they know it can help some people sleep; what kept them awake is whatever it was for that person",
+   "Body odor: above a certain dose you may smell like sulfur.": "the dose differs between people, as the sleep item says of its threshold; the next sentence says what to do (milk)",
+   "I don't smell when I put it into milk.": "his experience, said as his; it tells them how to avoid the smell"
+  }
+ },
+ "fit": {
+  "reader": "a fresh agent (Sonnet) given tools/humanization/fit_read_brief.md, the universal version (reads/fit-c01-dmso-side.txt; the draft it read: reads/read-text-c01-dmso-side.txt)",
+  "marked": [
+   {
+    "s": "Sensitivity varies between people, so try a small amount at first.",
+    "found": "CAN'T TELL"
+   },
+   {
+    "s": "DMSO reduces how long I sleep when I take too much, take it too late, or use it over too many consecutive days.",
+    "found": "CAN'T TELL"
+   },
+   {
+    "s": "It builds up past a threshold that seems to differ between people, so it's best taken in the morning, and reduce the dose if you notice you're sleeping less.",
+    "found": "CAN'T TELL"
+   },
+   {
+    "s": "Body odor: above a certain dose you may smell like sulfur.",
+    "found": "CAN'T TELL"
+   }
+  ],
+  "kept": {
+   "Sensitivity varies between people, so try a small amount at first.": "changed: \"a small amount\" (no measure) said as less than you planned, the measure they have",
+   "DMSO reduces how long I sleep when I take too much, take it too late, or use it over too many consecutive days.": "his experience of DMSO in general, not of a trip; the list says how to avoid each side effect whenever it's used",
+   "It builds up past a threshold that seems to differ between people, so it's best taken in the morning, and reduce the dose if you notice you're sleeping less.": "his advice (morning doses, less if sleep shortens) holds whenever DMSO is used, a trip or not",
+   "Body odor: above a certain dose you may smell like sulfur.": "the dose differs between people; the next sentence says how to avoid the smell"
+  }
+ },
+ "questions": {
+  "Q1": "PASS: each item opens on the side effect it is about, then says what to do",
+  "Q2": "PASS: dilute it, wet your mouth first, sip gradually, try a small amount at first, take it in the morning, lower the dose: the reader's acts",
+  "Q3": "PASS: \"the skin\", \"the DMSO\", \"your mouth\" named where an \"it\" could have pointed two ways",
+  "Q4": "PASS: \"crenate\" explained where it is used (\"shrivel\"); \"astringency\" is the label the item explains",
+  "Q5": "PASS: \"When\", \"so\", \"because\", \"In rats\" carry each turn",
+  "Q6": "PASS: skin, mouth, stomach, sleep, smell: the order of the list, each with its fix",
+  "Q7": "PASS: each item bears on using DMSO without harm",
+  "Q8": "PASS: each item is a side effect of DMSO",
+  "Q9": "PASS: one step a sentence; his \"Sensitivity varies\" said with what it is to (DMSO) and what to do about it"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

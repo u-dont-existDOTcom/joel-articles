@@ -2053,6 +2053,41 @@
     }
    ],
    "recorded_utc": "2026-11-19T16:14Z"
+  },
+  {
+   "turn": "2026-11-20T00:01Z",
+   "lines_of_work": [
+    "bad trips guide"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "live default branch read-only clone 3d79cc8 (unchanged since turn 48); suggested-fixes lane: six items, all in the ledger"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "this lane's pull request 447 merged by the lane auto-merge at 17:07 UTC; the neuro de-armoring lane's 445 and 446 merged (not for this lane); no new issues, comments or reviews since 16:00 UTC"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no edits by others to this lane's handoff note, questions page or state (main holds only this lane's merge since turn 49)"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "no queued notifications; his round-43 export of 2026-11-20 00:01 UTC (both cards revise, with his versions and Pangram links) and his message: keep 'Sensitivity varies.' with a reason to try less at first; niacin's liver risk is extended-release (or regular niacin spread through the day), not niacin in general"
+    }
+   ],
+   "items": [
+    {
+     "item": "his round-43 export and message of 00:01 UTC",
+     "outcome": "this turn: his two versions in whole, 'Sensitivity varies.' back with 'try less at first', niacin's liver risk tied to extended-release, then his P5 and the next step"
+    }
+   ],
+   "recorded_utc": "2026-11-20T00:06Z"
   }
  ]
 }
