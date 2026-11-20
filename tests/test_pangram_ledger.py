@@ -83,6 +83,36 @@ class Ledger(unittest.TestCase):
             L.main(['explain', self.ledger, '--sha', L.sha256('v%d' % i), '--cause', 'list', '--note', 'the list read AI'])
         self.assertEqual(self.predict('v6', diagnosis='a seventh idea'), 2)
 
+    def compact(self, body, key, likelihood, windows):
+        """Record a result in the web app reader's compact form, with its likelihood and windows."""
+        res = self.dir / ('res-%s.json' % key)
+        head = 'Human Written' if likelihood == 0 else 'AI Detected'
+        res.write_text(json.dumps({key: [head, likelihood, 50, windows, '20:00:00', '/u-%s' % key, []]}), encoding='utf-8')
+        return L.main(['results', self.ledger, str(res)])
+
+    def test_a_lineage_on_the_right_track_goes_to_ten_tries(self):
+        """Lesson bad-trips-2026-11-20g (Joel, 2026-11-20 18:20 UTC: "it seems like the point of the limit was to stop you
+        from doing blind tests, but if your'e on the right track you should keep going"): past six tries, a lineage whose
+        latest check is its best so far, with a Human window, may go on to ten; once a check reads worse, it stops."""
+        for i in range(6):
+            body = 'rt%d' % i
+            self.assertEqual(self.predict(body, lineage='RT', call='AI', key='rt%d' % i, diagnosis='try %d fixes a word' % i,
+                                          panel=self.panel() if i >= 2 else None), 0)
+            self.assertEqual(self.compact(body, 'rt%d' % i, 0.9 - 0.1 * i, 'Human, Low, 20; AI-Generated, Low, 30'), 0)
+        self.assertEqual(self.predict('rt6', lineage='RT', call='AI', key='rt6', diagnosis='the next marked word',
+                                      panel=self.panel()), 0)
+        self.assertEqual(self.compact('rt6', 'rt6', 0.8, 'Human, Low, 20; AI-Generated, High, 30'), 0)   # worse than rt5
+        self.assertEqual(self.predict('rt7', lineage='RT', call='AI', diagnosis='another word', panel=self.panel()), 2)
+
+    def test_a_lineage_off_the_right_track_stops_at_six(self):
+        """Its sixth check read worse than its fourth, so a seventh is a blind test (lesson bad-trips-2026-11-20g)."""
+        for i, lk in enumerate((0.9, 0.8, 0.6, 0.5, 0.7, 0.75)):
+            body = 'ot%d' % i
+            self.assertEqual(self.predict(body, lineage='OT', call='AI', key=body, diagnosis='try %d' % i,
+                                          panel=self.panel() if i >= 2 else None), 0)
+            self.assertEqual(self.compact(body, body, lk, 'Human, Low, 20; AI-Generated, Low, 30'), 0)
+        self.assertEqual(self.predict('ot6', lineage='OT', call='AI', diagnosis='a seventh idea', panel=self.panel()), 2)
+
     def test_a_paragraph_that_read_ai_twice_goes_to_the_tell_panel_first(self):
         """E346 (2026-11-04): the neuro de-armoring lane's two uridine paragraphs took four tries each before the tell panel
         ran; with it, one read Human at its fifth try, and the other at its sixth, in another family's rewrite."""
