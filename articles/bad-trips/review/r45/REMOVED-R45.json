@@ -1,0 +1,14 @@
+{
+ "about": "Blocks taken out by apply_r45.py at his question \"but now you have to take out p2 right?\" (TEACH-HARM-GOD, 2026-11-20 18:20 UTC): the script's label (the page's P2) and the script it labels, which his paragraph now quotes from. To put them back, insert them after B286 in this order.",
+ "after": "B286",
+ "blocks": [
+  {
+   "id": "B287",
+   "md": "**Non-combative philosophical grounding:**"
+  },
+  {
+   "id": "B288",
+   "md": "> I hear how vast and certain this feels. Many traditions say God is in everyone. That makes every body sacred, not disposable. Peace is the godly move tonight. No proof is needed. We protect life and sleep first."
+  }
+ ]
+}

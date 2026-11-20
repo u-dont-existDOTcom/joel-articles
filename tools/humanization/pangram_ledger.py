@@ -8,7 +8,7 @@ predictions in batch tables read by its own scorecard (which the hypnosis lane j
 table; nothing counted tries. docs/PANGRAM-PRODUCTION-BUDGET-20261020.md asks every lane for an immutable prediction before
 each call (scope, Human or AI, the tells behind it, the try number), the result after, every miss recorded with its cause,
 a scorecard with rolling accuracy beside the always-AI and always-Human baselines and the boundary mix, and a tries count of
-at most six per paragraph lineage, two per section and two per whole article. This tool does those things for any lane.
+at most six per paragraph lineage (ten while it is on the right track, lesson bad-trips-2026-11-20g), two per section and two per whole article. This tool does those things for any lane.
 
 Each lane keeps one append-only file, `pangram-ledger.jsonl` in its folder (tools/humanization/pangram_lanes.json says where),
 with one JSON object per line:
@@ -47,6 +47,12 @@ import argparse, datetime, hashlib, json, pathlib, re, sys
 REPO = pathlib.Path(__file__).resolve().parents[2]
 LANES = REPO / 'tools' / 'humanization' / 'pangram_lanes.json'
 CAPS = {'sentence': 6, 'heading': 6, 'paragraph': 6, 'pair': 6, 'section': 2, 'stretch': 2, 'article': 2}
+# Lesson bad-trips-2026-11-20g (Joel, 2026-11-20 18:20 UTC, on a seventh try I held back although the sixth had read Human
+# High and the seventh only put back what the sixth had dropped: "you used up your tries? so we shoudl raise the limit to 10
+# then? it seems like the point of the limit was to stop you from doing blind tests, but if your'e on the right track you
+# should keep going"): a paragraph-sized lineage on the right track may go to ten tries; one that isn't stops at six.
+RIGHT_TRACK_CAP = 10
+RIGHT_TRACK_SCOPES = ('sentence', 'heading', 'paragraph', 'pair')
 PANEL_SCOPES = ('paragraph', 'pair')   # E346: read AI twice, the tell panel before the next try
 
 
@@ -298,11 +304,17 @@ def blocks(recs, lineage, scope, detector=None, after_fix=None):
         out.append('try %d of lineage %s (%s) has no result: recover it from the History, or void it if it was never sent'
                    % (pending[0]['try'], lineage, pending[0].get('key') or pending[0]['sha256'][:12]))
     cap = cap_for(scope, detector if detector is not None else (line[-1].get('detector') if line else None))
+    if cap is not None and scope in RIGHT_TRACK_SCOPES and len(line) >= cap and right_track(line):
+        cap = max(cap, RIGHT_TRACK_CAP)   # lesson bad-trips-2026-11-20g: on the right track, up to ten
     if cap is not None and len(line) >= cap and not (scope == 'section' and (after_fix or '').strip()):
-        out.append('lineage %s has used its %d tries for a %s: stop and ask Joel only for a decision that is his (a new '
+        out.append('lineage %s has used its %d tries for a %s%s: stop and ask Joel only for a decision that is his (a new '
                    'owner decision is needed); a fix that is yours, or that the article\'s own goals already call for '
                    '(a repeat cut, gate E378), goes on: for a section with a fix in it, give --after-fix (his answer 28a), '
-                   'or narrow it to its paragraphs (E343)' % (lineage, cap, scope))
+                   'or narrow it to its paragraphs (E343)'
+                   % (lineage, cap, scope, '' if scope not in RIGHT_TRACK_SCOPES or cap >= RIGHT_TRACK_CAP else
+                      ' and isn\'t on the right track (its latest check read worse than an earlier one, or with no Human '
+                      'window), so it stops at six (lesson bad-trips-2026-11-20g: up to ten only while the latest check '
+                      'is the best so far)'))
     done = [p for p in line if p['result']]
     if len(done) >= 2 and all(is_miss(p) and not p['explain'] for p in done[-2:]):
         out.append('the last two predictions of lineage %s missed and neither is explained: stop and ask Joel ("I can\'t find '
@@ -642,6 +654,26 @@ def best_near_miss(line):
     return best[0] if best else None
 
 
+def right_track(line):
+    """Lesson bad-trips-2026-11-20g: a lineage is on the right track when its latest checked try is its best so far (the
+    lowest AI likelihood, then the fewest words below Human High, as best_near_miss ranks them) and has a Human window. Past
+    six tries such a lineage may go on to RIGHT_TRACK_CAP; one whose latest check read worse than an earlier one stops at
+    six, which is what the limit was for: blind tests (Joel, 2026-11-20). Each further try still needs its named
+    diagnosis, and the two-miss stop still holds."""
+    done = [p for p in line if p.get('result')]
+    if not done:
+        return False
+    def rank(p):
+        r = p.get('result') or {}
+        lk = r.get('likelihood')
+        return (1.0 if lk is None else lk, below_high_words(r.get('windows') or []))
+    last = done[-1]
+    ws = (last.get('result') or {}).get('windows') or []
+    if not any(isinstance(w, dict) and str(w.get('label', '')).startswith('Human') for w in ws):
+        return False
+    return all(rank(last) <= rank(p) for p in done[:-1])
+
+
 def sense_gate(a, text, sha, line):
     """Refusals for a text of mine before it goes to Pangram (gates E365, enforcing E362, and E361): its making-sense receipt
     (sense_receipt.py) must pass for this exact text, and a retry may change at most 40%% of the words of the try before it
@@ -848,7 +880,10 @@ def cmd_predict(a):
         print('REFUSED: ' + '\n  '.join(why), file=sys.stderr)
         return 2
     append(a.ledger, {k: v for k, v in rec.items() if v not in (None, [], '')})
-    print('%s: try %d of %s for %s (%s), predicted %s%s' % (rec['id'], rec['try'], cap_text(a.scope, a.detector), a.lineage, a.scope, a.call,
+    of = cap_text(a.scope, a.detector)
+    if a.scope in RIGHT_TRACK_SCOPES and of.isdigit() and rec['try'] > int(of):
+        of = '%d (on the right track, lesson bad-trips-2026-11-20g)' % RIGHT_TRACK_CAP
+    print('%s: try %d of %s for %s (%s), predicted %s%s' % (rec['id'], rec['try'], of, a.lineage, a.scope, a.call,
                                                           '' if a.chance is None else ' at %.2f' % a.chance))
     return 0
 

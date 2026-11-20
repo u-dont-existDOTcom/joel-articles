@@ -517,11 +517,7 @@ Stay present. If it helps, you can say to yourself: *This feeling is allowed to 
 
 ### When What They Say Turns Toward Harm
 
-When somebody says, "I am God, so I can kill," leading with "No you're not" or "That's delusional" can turn the encounter into a status fight. Nodding along as though harm is spiritually neutral is also unacceptable. Treat the statement as a safety signal and build a bridge back toward non-harm.
-
-**Non-combative philosophical grounding:**
-
-> I hear how vast and certain this feels. Many traditions say God is in everyone. That makes every body sacred, not disposable. Peace is the godly move tonight. No proof is needed. We protect life and sleep first.
+When somebody says, "I am God, so I can kill," take it as a sign they could really hurt someone. To lead them back to not hurting anyone, start from what they believe, like the script below does: "Yes, I know you are God. God is in everyone, so every body is sacred." If instead you argue, that can make them dig in to prove they're God, so don't tell them "No you're not" or "That's delusional." And the other failing alternative, just nodding along, might let them think you're okay with them hurting someone.
 
 Other useful lines: "Maybe you are touching something divine. Divine doesn't need a violent test." "Tonight the commandment is no harm, no proof, no mission, sleep first."
 
@@ -593,9 +589,9 @@ Gratitude comes like icing on the cake. Being thankful for every lesson, difficu
 
 ### Touch, Consent, and Compassion
 
-Self-touch is different from somebody else touching you. Compassion does not mean grabbing, hugging, restraining, stroking, or crowding. Ask first: **"Would touch help, or would you rather have space?"** Good support may be silent presence from six feet away.
+Ask before you touch someone who's tripping, even to put your hand on their heart: **"Would respectful touch help, or would you rather have space?"** A hug can be too much when they're already overwhelmed. And if you hold them in a way that prevents their movement, they might feel attacked and fight you. If they'd rather have space, sit about six feet away and only talk if they want to.
 
-When the person says stop, freezes, pulls away, or seems unsure, stop. Touch must remain nonsexual, consensual, and unrelated to the helper's needs.
+If they did permit touch, stop as soon as they say stop. Pulling away or freezing means stop too, since they might be too overwhelmed to tell you to stop. Ask again whenever you can't tell what they want. Be honest with yourself about why you want to touch them, and hold off if it's mostly to calm yourself down. Never touch them in a sexual way, even if they ask you to.
 
 ---
 
@@ -613,9 +609,9 @@ The common mistake is fighting the terrifying thing with the energy it already c
 
 Love is a better move, although it is difficult advice. Almost nobody can authentically love what terrifies them while they are terrified. So train before you need it, sending love to a frightening image, to someone you hate (without approving of what they did), to your shame and your body, to sickness and aging and fear and death, and to the inner child. Practice being the space rather than the storm.
 
-It might look passive, but this is how you become unhookable. A demon can fight your hatred, feed on your fear, argue with your pride or seduce your grandiosity, but there's nothing in love for it to grab.
+It might look passive, but this is how you become unhookable. When you meet a demon with love, the demon has nothing to hook into, since its hooks catch on hatred, fear, pride and grandiosity, not on love.
 
-When somebody is medically, physically, or psychologically too overwhelmed to reach love, stabilize first. Don't teach nondual demonology to somebody who needs the lights down and a doctor.
+If someone's too overwhelmed to send love, because they're sick or too scared to think straight, help them get steady first. Turn the lights down, and get them whatever help they need. Once they can think straight again, you can teach them to send the demon love.
 
 ## Abuse Memories, Recovered Memories, and Certainty
 
