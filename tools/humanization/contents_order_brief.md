@@ -75,7 +75,21 @@ under the Nurturer and gave the best order score of any outline so far (turn 133
 In real work there is no author's outline to compare a model's with, so his view has to come before the sort, not after
 a miss (Joel, 2026-11-20 23:22 UTC: "you need to ask the author for their view before the models miss... because what
 are they even missing?"). These questions come from the guide's own structure, so they can be asked of any guide on day
-one; ask them in one message, with the guide's roles and parts named:
+one; ask them in one message, with the guide's roles and parts named.
+
+**Start with the parts and roles the guide doesn't define (lesson inner-child-2026-11-20r).** `python3
+tools/humanization/undefined_parts.py GUIDE.md` (or the post's HTML) lists every heading that has sections under it and
+little or no text of its own. For each one, ask the author what it is for and what looks as if it belongs but doesn't,
+and put the answer in the frame in place of a model's description. A model asked what such a part is for reads it off
+what sits under it now, even when told not to. On 4 November the inner child guide's Nurturer and 7 of its 9 parts had no
+text of their own, and the frame for the sorts gave the Nurturer "borrowing love from other people or from a spiritual
+source ... and widening the sense of what happiness is possible", and Healing Old Patterns distrust, shame and
+forgiveness: that sent 8 of his 20 moves back where they were. Joel, 2026-11-20 23:22 UTC: "is that really hard for ai
+to understand the diff?" It wasn't: the text says it, and GPT, with no frame, put three of the five spiritual sections
+under the Guide in turn 132. The list points to questions, not to sections: his moved sections sat under such headings
+no more often than all the others did (`articles/inner-child-therapy/experiments/t133-order/DOUBT.md`).
+
+The questions:
 
 1. For each role (or figure, tool or stage the guide is built on): what belongs to it that a reader might not guess, and
    what looks as if it belongs but doesn't? Whom would a reader go to for it?
