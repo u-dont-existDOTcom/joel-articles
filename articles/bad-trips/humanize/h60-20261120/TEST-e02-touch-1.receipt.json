@@ -1,0 +1,124 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-20",
+ "text_sha256": "3494a490f1d0f943c93bee460fba1aa4df5a3e998f3f5722ada3140d1d14f0bc",
+ "text": "Ask before you touch someone who's tripping, even to put your hand on their heart: \"Would touch help, or would you rather have space?\" Even a hug can be too much when they're already overwhelmed. And if you hold them down, they might feel attacked and fight you. If they'd rather have space, sit about six feet away and only talk if they want to.\n\nStop as soon as they say stop. Pulling away or freezing means stop too, since they might be too overwhelmed to tell you to stop. Ask again whenever you can't tell what they want. Be honest with yourself about why you want to touch them, and hold off if it's mostly to calm yourself down. Never touch them in a sexual way, even if they ask you to.",
+ "section": "Touch, Consent, and Compassion",
+ "reader": "someone helping a friend through a hard trip who wants to comfort them, maybe with a hug or a hand on them, right after the guide suggested putting a hand on your own heart",
+ "sentences": [
+  {
+   "s": "Ask before you touch someone who's tripping, even to put your hand on their heart: \"Would touch help, or would you rather have space?\"",
+   "payoff": "they ask before any touch, even their hand on the friend's heart, and have the words to ask with",
+   "follows": "the heading names touch and consent; the section before was a hand on your own heart"
+  },
+  {
+   "s": "Even a hug can be too much when they're already overwhelmed.",
+   "payoff": "they know even a hug, the comfort they were about to give, can be too much for a friend already overwhelmed",
+   "follows": "why the asking matters, after the asking",
+   "link": "Even a hug"
+  },
+  {
+   "s": "And if you hold them down, they might feel attacked and fight you.",
+   "payoff": "they know holding the friend down can make them feel attacked and fight",
+   "follows": "the worse case, after the hug",
+   "link": "And if"
+  },
+  {
+   "s": "If they'd rather have space, sit about six feet away and only talk if they want to.",
+   "payoff": "if the friend wants space, they sit about six feet away and talk only if the friend wants to",
+   "follows": "the other answer to the question (\"or would you rather have space?\")",
+   "link": "If they'd rather have space"
+  },
+  {
+   "s": "Stop as soon as they say stop.",
+   "payoff": "they stop when the friend says stop",
+   "follows": "after asking, when to stop",
+   "link": "none: a new step, after the asking and its answers"
+  },
+  {
+   "s": "Pulling away or freezing means stop too, since they might be too overwhelmed to tell you to stop.",
+   "payoff": "they know pulling away or freezing means stop too, since the friend may be too overwhelmed to tell them to stop",
+   "follows": "the stop without words, after the spoken one",
+   "link": "means stop too"
+  },
+  {
+   "s": "Ask again whenever you can't tell what they want.",
+   "payoff": "they ask again whenever they can't tell what the friend wants",
+   "follows": "what to do between yes and stop",
+   "link": "Ask again"
+  },
+  {
+   "s": "Be honest with yourself about why you want to touch them, and hold off if it's mostly to calm yourself down.",
+   "payoff": "they look at their own reasons, and hold off when the touch is mostly to calm themselves",
+   "follows": "the last check, on the helper",
+   "link": "none: the turn from the friend to the helper, said as an instruction to the helper"
+  },
+  {
+   "s": "Never touch them in a sexual way, even if they ask you to.",
+   "payoff": "they never touch the friend in a sexual way, even if the friend asks them to",
+   "follows": "the other thing the check can find, the one with no exception",
+   "link": "even if they ask you to"
+  }
+ ],
+ "checked": [],
+ "placement": "the section after \"Hand on Heart and Gratitude\", which ends on putting a hand on your own heart; this paragraph turns to touching someone else, and the pair is the whole section",
+ "opens": {
+  "first_sentence": "Ask before you touch someone who's tripping, even to put your hand on their heart: \"Would touch help, or would you rather have space?\"",
+  "why_reading": "it tells someone about to touch a tripping friend to ask first, and gives them the question"
+ },
+ "same_point": "none: read the section from its heading to the next for asking before touch, when to stop and the helper's own reasons: the section is these two paragraphs, and the \"Do\" list of For the Person Helping asks \"Closer or farther away?\", not about touch",
+ "needed": {
+  "reader": "a fresh agent (Sonnet) given tools/humanization/needed_read_brief.md with only the text, its heading and what it is for (reads/need-e02-touch-1.txt; the draft it read: reads/read-text-e02-touch-1.txt)",
+  "unneeded": [
+   "In that state a hug can be too much."
+  ],
+  "kept": {
+   "In that state a hug can be too much.": "reworded, not cut: the reader's moment is wanting to comfort the friend \"maybe with a hug\", and asking (S1) covers touch in general; this line says the hug they were about to give can be too much for someone already overwhelmed, so they ask before that too; said now with the state named, as the read against his fixes asked (\"Even a hug can be too much when they're already overwhelmed.\")"
+  }
+ },
+ "his_fixes": {
+  "reader": "a fresh agent (Sonnet) given tools/humanization/his_fixes_brief.md, the eleven ways, with the text one sentence a line (reads/his-e02-touch-1.txt; the draft it read: reads/read-text-e02-touch-1.txt)",
+  "marked": [
+   {
+    "s": "In that state a hug can be too much.",
+    "difference": "4, 10"
+   },
+   {
+    "s": "Pulling away or freezing means stop too, since they might be too overwhelmed to say it.",
+    "difference": "10"
+   },
+   {
+    "s": "Never touch them in a sexual way, whatever they say.",
+    "difference": "4"
+   }
+  ],
+  "kept": {}
+ },
+ "fit": {
+  "reader": "a fresh agent (Sonnet) given tools/humanization/fit_read_brief.md, the universal version (reads/fit-e02-touch-1.txt; the draft it read: reads/read-text-e02-touch-1.txt)",
+  "marked": [],
+  "kept": {}
+ },
+ "questions": {
+  "Q1": "PASS: each sentence opens on what to do or what can happen; the question to ask comes in the first",
+  "Q2": "PASS: ask, sit six feet away, stop, check your own reasons: all the helper's acts",
+  "Q3": "PASS: \"when they're already overwhelmed\" names the state (\"In that state\" read vague); \"to tell you to stop\" names what they can't say (\"say it\" could be stop or the overwhelm); \"even if they ask you to\" names what they might say (\"whatever they say\")",
+  "Q4": "PASS: no term to explain",
+  "Q5": "PASS: the reason follows the asking; \"If they say stop\" follows the asking; \"too\" marks the last check",
+  "Q6": "PASS: ask, why, the no-touch answer, when to stop, the helper's own reasons",
+  "Q7": "PASS: each line is about touching this friend now",
+  "Q8": "PASS: all about touch and consent",
+  "Q9": "PASS: the five \"if\" sentences of c02 built differently (his way 2): \"means stop too\", \"Ask again whenever\", \"and hold off if\"; the motive check and what it finds joined, one thought"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

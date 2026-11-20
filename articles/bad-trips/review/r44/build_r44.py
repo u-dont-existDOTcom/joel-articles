@@ -186,7 +186,7 @@ def main():
     review = {
         'format': 'joel-suggestion-review-v1',
         'review_id': 'bad-trips-r44',
-        'title': 'Bad Trips Guide, Round 43',
+        'title': 'Bad Trips Guide, Round 44',  # said "Round 43" when published (2026-11-20); fixed in turn 52
         'intro': INTRO,
         'git_file': 'articles/bad-trips/review/r44/REVIEW-R44.html',
         'article': {'file': 'articles/bad-trips/review/r44/PAGE-R44.md',

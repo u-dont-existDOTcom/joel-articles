@@ -1,0 +1,43 @@
+{
+ "f01-harm-1": [
+  "Mostly Human Written",
+  0.02,
+  85,
+  "Human, High, 20; Human, Medium, 27; Human, Low, 24; Human, Low, 14",
+  "17:07:55",
+  "/22ceceb9-c03d-4adf-8583-6aec995e6da0",
+  [],
+  [
+   "Human Medium (27 words): To lead them back to not hurting anyone, start from what they believe, like the script below does: God is in everyone, so every body is sacred.",
+   "Human Low (24 words): Arguing can make them dig in to prove they're God, so don't tell them \"No you're not\" or \"That's delusional.\"",
+   "Human Low (14 words): If you nod along, they might think you're okay with them hurting someone."
+  ]
+ ],
+ "f02-touch-1": [
+  "AI Detected",
+  0.849,
+  141,
+  "Human, Low, 25; AI-Generated, Low, 12; AI-Generated, Low, 38; AI-Generated, Medium, 53; AI-Generated, Low, 13",
+  "17:08:08",
+  "/df0baed1-0e51-47cc-8fac-989e3e1c86d4",
+  [
+   "AI-Generated Low (12 words): Even a hug can be too much when they're already overwhelmed.",
+   "AI-Generated Low (38 words): And if you hold them down, they might feel attacked and fight you. If they'd rather have space, sit about six feet away and only talk if they want to.\nStop as soon as they say stop.",
+   "AI-Generated Medium (53 words): Pulling away or freezing means stop too, since they might be too overwhelmed to tell you to stop. Ask again whenever you can't tell what they want. Before you touch them, ask yourself whether the touch is for them or for you. If it's mostly to calm yourself down, hold off.",
+   "AI-Generated Low (13 words): Never touch them in a sexual way, even if they ask you to."
+  ],
+  [
+   "Human Low (25 words): Ask before you touch someone who's tripping, even to put your hand on their heart: \"Would touch help, or would you rather have space?\""
+  ]
+ ],
+ "f03-demons-4": [
+  "Human Written",
+  0,
+  85,
+  "Human, High, 85",
+  "17:08:17",
+  "/fcc2408d-2d22-4566-9c9b-68d220d58127",
+  [],
+  []
+ ]
+}
