@@ -1,0 +1,1282 @@
+{
+ "post_id": 189761959,
+ "base_updated_at": "2026-11-20T16:40:14.839Z",
+ "headings": [
+  {
+   "id": "S001",
+   "from": "Understanding Reparenting",
+   "from_level": 1,
+   "to": "Understanding Reparenting",
+   "level": 1
+  },
+  {
+   "id": "S002",
+   "from": "Allow Céline to explain the “inner child:”",
+   "from_level": 2,
+   "to": "Céline on the Inner Child",
+   "level": 2
+  },
+  {
+   "id": "S003",
+   "from": "The Chicken-and-Egg Problem",
+   "from_level": 2,
+   "to": "Chicken-and-Egg Problem",
+   "level": 2
+  },
+  {
+   "id": "S004",
+   "from": "Five Stages of Reparenting",
+   "from_level": 2,
+   "to": "Five Stages of Reparenting",
+   "level": 2
+  },
+  {
+   "id": "S005",
+   "from": "My Journey",
+   "from_level": 2,
+   "to": "My Journey",
+   "level": 2
+  },
+  {
+   "id": "S006",
+   "from": "Safety and Readiness",
+   "from_level": 1,
+   "to": "Safety and Readiness",
+   "level": 1
+  },
+  {
+   "id": "S007",
+   "from": "Dip Your Toes In Before You Go Deep",
+   "from_level": 2,
+   "to": "Dip Your Toes In First",
+   "level": 2
+  },
+  {
+   "id": "S008",
+   "from": "Your Body Might Need Some Love First",
+   "from_level": 2,
+   "to": "Your Body May Need Love",
+   "level": 2
+  },
+  {
+   "id": "S009",
+   "from": "When Therapy Stirs Things Up",
+   "from_level": 3,
+   "to": "Therapy Stirs Things Up",
+   "level": 3
+  },
+  {
+   "id": "S010",
+   "from": "Notice the Part That Came Here",
+   "from_level": 3,
+   "to": "“No. I Hate Myself.”",
+   "level": 2
+  },
+  {
+   "id": "S011",
+   "from": "When the Present-Day Adult Is Dangerous to the Child",
+   "from_level": 2,
+   "to": "When You’re the Danger",
+   "level": 2
+  },
+  {
+   "id": "S012",
+   "from": "Ill Will and Loving-Kindness",
+   "from_level": 3,
+   "to": "Ill Will & Loving-Kindness",
+   "level": 3
+  },
+  {
+   "id": "S013",
+   "from": "If You Want to Kill Yourself",
+   "from_level": 2,
+   "to": "If You Want to Kill Yourself",
+   "level": 2
+  },
+  {
+   "id": "S014",
+   "from": "The Spiritual Side of the Question",
+   "from_level": 3,
+   "to": "The Spiritual Side",
+   "level": 3
+  },
+  {
+   "id": "S015",
+   "from": "This human life is the most precious opportunity",
+   "from_level": 3,
+   "to": "This Precious Human Life",
+   "level": 3
+  },
+  {
+   "id": "S016",
+   "from": "",
+   "from_level": 3,
+   "to": "",
+   "level": 3
+  },
+  {
+   "id": "S017",
+   "from": "Building Your Inner Adult",
+   "from_level": 1,
+   "to": "Building Your Inner Adult",
+   "level": 1
+  },
+  {
+   "id": "S018",
+   "from": "Borrow the Adult To Become the Adult",
+   "from_level": 2,
+   "to": "Borrowed Adulthood",
+   "level": 2
+  },
+  {
+   "id": "S019",
+   "from": "Don’t Sell Your Inner Adult To Buy An Outer Adult",
+   "from_level": 3,
+   "to": "Borrow, Don’t Sell Out",
+   "level": 3
+  },
+  {
+   "id": "S020",
+   "from": "Signs of Manipulation",
+   "from_level": 3,
+   "to": "Signs of Manipulation",
+   "level": 3
+  },
+  {
+   "id": "S021",
+   "from": "Borrow One Competency at a Time",
+   "from_level": 3,
+   "to": "One Skill at a Time",
+   "level": 3
+  },
+  {
+   "id": "S022",
+   "from": "Noticing Counts",
+   "from_level": 3,
+   "to": "Noticing Counts",
+   "level": 3
+  },
+  {
+   "id": "S023",
+   "from": "Protecting and Building Trust With Your Little One",
+   "from_level": 2,
+   "to": "The Protector",
+   "level": 2
+  },
+  {
+   "id": "S024",
+   "from": "Talk to the hand!✋🏿",
+   "from_level": 3,
+   "to": "Talk to the hand!✋🏿",
+   "level": 3
+  },
+  {
+   "id": "S025",
+   "from": "Making It Intentional",
+   "from_level": 3,
+   "to": "Making It Intentional",
+   "level": 3
+  },
+  {
+   "id": "S026",
+   "from": "Protecting them from yourself",
+   "from_level": 3,
+   "to": "Protect Them From You",
+   "level": 3
+  },
+  {
+   "id": "S027",
+   "from": "Protecting from the Parent You Inherited",
+   "from_level": 3,
+   "to": "The Parent You Inherited",
+   "level": 3
+  },
+  {
+   "id": "S028",
+   "from": "Reframing attacks as unskillful attempts to help",
+   "from_level": 4,
+   "to": "Reframe the Critic",
+   "level": 4
+  },
+  {
+   "id": "S029",
+   "from": "Earning their trust, day to day",
+   "from_level": 3,
+   "to": "Earning trust, day to day",
+   "level": 3
+  },
+  {
+   "id": "S030",
+   "from": "The Nurturer",
+   "from_level": 2,
+   "to": "The Nurturer",
+   "level": 2
+  },
+  {
+   "id": "S031",
+   "from": "Love Can Start Before It’s Trusted ❤️",
+   "from_level": 3,
+   "to": "Love Before Trust ❤️",
+   "level": 3
+  },
+  {
+   "id": "S032",
+   "from": "If the Love Isn’t Coming Yet",
+   "from_level": 3,
+   "to": "If Love Isn’t Coming Yet",
+   "level": 3
+  },
+  {
+   "id": "S033",
+   "from": "Borrow Someone Else’s Love",
+   "from_level": 3,
+   "to": "Borrow Someone’s Love",
+   "level": 3
+  },
+  {
+   "id": "S034",
+   "from": "Borrow Your Love For Someone Else",
+   "from_level": 3,
+   "to": "Borrow the Love You Give",
+   "level": 3
+  },
+  {
+   "id": "S035",
+   "from": "Shame can make you feel unlovable",
+   "from_level": 3,
+   "to": "Shame Says “Unlovable”",
+   "level": 3
+  },
+  {
+   "id": "S036",
+   "from": "“And So That’s the Way It Happened!”",
+   "from_level": 4,
+   "to": "“And So That’s the Way It Happened!”",
+   "level": 4
+  },
+  {
+   "id": "S037",
+   "from": "How to Forgive Without Forgetting",
+   "from_level": 3,
+   "to": "Forgiving, Not Forgetting",
+   "level": 3
+  },
+  {
+   "id": "S038",
+   "from": "Forgiving Yourself",
+   "from_level": 4,
+   "to": "Forgiving Yourself",
+   "level": 4
+  },
+  {
+   "id": "S039",
+   "from": "Show Up When Nothing’s Wrong",
+   "from_level": 3,
+   "to": "Show Up Just for Joy",
+   "level": 3
+  },
+  {
+   "id": "S040",
+   "from": "A Smaller Doorway: Goodwill",
+   "from_level": 3,
+   "to": "Goodwill: A Smaller Door",
+   "level": 3
+  },
+  {
+   "id": "S041",
+   "from": "A Bigger Doorway: Divine Love",
+   "from_level": 3,
+   "to": "Divine Love: Bigger Door",
+   "level": 3
+  },
+  {
+   "id": "S042",
+   "from": "The Inner Guide: Becoming Your Own Shepherd",
+   "from_level": 2,
+   "to": "The Inner Guide",
+   "level": 2
+  },
+  {
+   "id": "S043",
+   "from": "Are you ready for the Guide?",
+   "from_level": 3,
+   "to": "Ready for the Guide?",
+   "level": 3
+  },
+  {
+   "id": "S044",
+   "from": "Between Spoiling and Clamping Down",
+   "from_level": 3,
+   "to": "Spoil or Clamp Down?",
+   "level": 3
+  },
+  {
+   "id": "S045",
+   "from": "Borrow the Guide to Build It",
+   "from_level": 3,
+   "to": "Borrow a Guide to Build It",
+   "level": 3
+  },
+  {
+   "id": "S046",
+   "from": "Borrow Hindsight",
+   "from_level": 4,
+   "to": "Borrow Hindsight",
+   "level": 4
+  },
+  {
+   "id": "S047",
+   "from": "Remember When You Already Did It Well",
+   "from_level": 4,
+   "to": "You Did It Well Before",
+   "level": 4
+  },
+  {
+   "id": "S048",
+   "from": "A Healthy Mind Is Not a Perfect Mind",
+   "from_level": 3,
+   "to": "Healthy Mind, Not Perfect",
+   "level": 3
+  },
+  {
+   "id": "S048b",
+   "from": null,
+   "from_level": null,
+   "to": "Ugly Thoughts Happen",
+   "level": 4,
+   "insert_before_paragraph": "Forced adulthood can get into your head too"
+  },
+  {
+   "id": "S049",
+   "from": "Guide Yourself To Divine Love",
+   "from_level": 3,
+   "to": "Toward Divine Love",
+   "level": 3
+  },
+  {
+   "id": "S050",
+   "from": "Ask God for a Loan 🫶🏿",
+   "from_level": 4,
+   "to": "Ask God for a Loan 🫶🏿",
+   "level": 4
+  },
+  {
+   "id": "S051",
+   "from": "Mo’ Money, Mo’ Problems",
+   "from_level": 5,
+   "to": "Mo’ Money, Mo’ Problems",
+   "level": 5
+  },
+  {
+   "id": "S052",
+   "from": "The Joy In Sorrow",
+   "from_level": 4,
+   "to": "The Joy In Sorrow",
+   "level": 4
+  },
+  {
+   "id": "S053",
+   "from": "You Belong Everywhere and Nowhere",
+   "from_level": 4,
+   "to": "You Belong Everywhere",
+   "level": 4
+  },
+  {
+   "id": "S054",
+   "from": "Invite Your Little One In",
+   "from_level": 3,
+   "to": "Invite Your Little One In",
+   "level": 3
+  },
+  {
+   "id": "S055",
+   "from": "A Heart to Child Loop",
+   "from_level": 4,
+   "to": "A Heart to Child Loop",
+   "level": 4
+  },
+  {
+   "id": "S056",
+   "from": "When the Spiritual Relationship Hurts",
+   "from_level": 3,
+   "to": "Betrayed by a Teacher",
+   "level": 3
+  },
+  {
+   "id": "S057",
+   "from": "",
+   "from_level": 3,
+   "to": "",
+   "level": 3
+  },
+  {
+   "id": "S058",
+   "from": "Practicing With Your Little One",
+   "from_level": 1,
+   "to": "Practice With Your Little One",
+   "level": 1
+  },
+  {
+   "id": "S059",
+   "from": "Start With Whatever Showed Up",
+   "from_level": 2,
+   "to": "Start With What Shows Up",
+   "level": 2
+  },
+  {
+   "id": "S060",
+   "from": "Make a Simple Vow",
+   "from_level": 2,
+   "to": "Make a Simple Vow",
+   "level": 2
+  },
+  {
+   "id": "S061",
+   "from": "Remind Yourself",
+   "from_level": 3,
+   "to": "Remind Yourself",
+   "level": 3
+  },
+  {
+   "id": "S062",
+   "from": "You Don’t Need an Inner Monologue",
+   "from_level": 2,
+   "to": "No Inner Monologue?",
+   "level": 2
+  },
+  {
+   "id": "S063",
+   "from": "Use Childhood Photographs Gently",
+   "from_level": 2,
+   "to": "Childhood Photos, Gently",
+   "level": 2
+  },
+  {
+   "id": "S064",
+   "from": "Journal With Each Hand",
+   "from_level": 2,
+   "to": "Journal With Each Hand",
+   "level": 2
+  },
+  {
+   "id": "S065",
+   "from": "Which thoughts to talk to",
+   "from_level": 3,
+   "to": "Which thoughts to talk to",
+   "level": 3
+  },
+  {
+   "id": "S066",
+   "from": "If no answer comes",
+   "from_level": 3,
+   "to": "If no answer comes",
+   "level": 3
+  },
+  {
+   "id": "S067",
+   "from": "If you do get an answer",
+   "from_level": 3,
+   "to": "If you do get an answer",
+   "level": 3
+  },
+  {
+   "id": "S068",
+   "from": "If it tells you to do something",
+   "from_level": 3,
+   "to": "If it tells you to act",
+   "level": 3
+  },
+  {
+   "id": "S069",
+   "from": "Catch the Hook Before the Story Takes Over",
+   "from_level": 2,
+   "to": "Catch the Hook Early",
+   "level": 2
+  },
+  {
+   "id": "S070",
+   "from": "What to Make of a Passing Feeling",
+   "from_level": 2,
+   "to": "A Passing Feeling",
+   "level": 2
+  },
+  {
+   "id": "S071",
+   "from": "If it’s anxiety",
+   "from_level": 3,
+   "to": "If it’s anxiety",
+   "level": 3
+  },
+  {
+   "id": "S072",
+   "from": "Gentle Meditation and Mantra",
+   "from_level": 2,
+   "to": "Gentle Mantra Meditation",
+   "level": 2
+  },
+  {
+   "id": "S073",
+   "from": "One Intention in the Morning, One Review at Night",
+   "from_level": 2,
+   "to": "Morning & Night Practice",
+   "level": 2
+  },
+  {
+   "id": "S074",
+   "from": "Close the Session and Return to Life",
+   "from_level": 2,
+   "to": "Close the Session",
+   "level": 2
+  },
+  {
+   "id": "S075",
+   "from": "Discovering and Healing Old Patterns",
+   "from_level": 1,
+   "to": "Healing Old Patterns",
+   "level": 1
+  },
+  {
+   "id": "S076",
+   "from": "Use hindsight to “re-do” traumatic memories in a healthier way",
+   "from_level": 2,
+   "to": "Re-do Trauma Memories",
+   "level": 2
+  },
+  {
+   "id": "S077",
+   "from": "How should discipline have been done right?",
+   "from_level": 3,
+   "to": "Discipline Done Right?",
+   "level": 3
+  },
+  {
+   "id": "S078",
+   "from": "Answering the Strict Disciplinarian",
+   "from_level": 2,
+   "to": "Answer the Disciplinarian",
+   "level": 2
+  },
+  {
+   "id": "S079",
+   "from": "When the Practice Gets Difficult",
+   "from_level": 1,
+   "to": "When Practice Gets Hard",
+   "level": 1
+  },
+  {
+   "id": "S080",
+   "from": "When the Adult Voice Feels Fake",
+   "from_level": 2,
+   "to": "When It Feels Fake",
+   "level": 2
+  },
+  {
+   "id": "S081",
+   "from": "Sometimes There Isn’t a Clear Child Yet",
+   "from_level": 2,
+   "to": "No Clear Child Yet?",
+   "level": 2
+  },
+  {
+   "id": "S082",
+   "from": "When the Practice Feels Real but Stays Shallow",
+   "from_level": 2,
+   "to": "Real but Shallow?",
+   "level": 2
+  },
+  {
+   "id": "S083",
+   "from": "When the Urge to Escape Arrives",
+   "from_level": 2,
+   "to": "The Urge to Escape",
+   "level": 2
+  },
+  {
+   "id": "S084",
+   "from": "Physical Pain Makes It Harder",
+   "from_level": 3,
+   "to": "Physical Pain?",
+   "level": 3
+  },
+  {
+   "id": "S084x",
+   "from": "Compassionate Exit?",
+   "from_level": 4,
+   "to": "Compassionate Exit?",
+   "level": 4
+  },
+  {
+   "id": "S085",
+   "from": "Listen To Your Body, Or Else!",
+   "from_level": 4,
+   "to": "Listen to Your Body!",
+   "level": 4
+  },
+  {
+   "id": "S086",
+   "from": "When Healing Turns Into Checking",
+   "from_level": 2,
+   "to": "Healing or Checking?",
+   "level": 2
+  },
+  {
+   "id": "S087",
+   "from": "How Would You Know It’s Helping?",
+   "from_level": 2,
+   "to": "Is It Helping?",
+   "level": 2
+  },
+  {
+   "id": "S088",
+   "from": "When to Change the Strategy",
+   "from_level": 2,
+   "to": "When to Change Strategy",
+   "level": 2
+  },
+  {
+   "id": "S089",
+   "from": "How many tries would I give it?",
+   "from_level": 3,
+   "to": "How Many Tries?",
+   "level": 3
+  },
+  {
+   "id": "S090",
+   "from": "If you keep following the reparenting steps correctly without getting the expected results",
+   "from_level": 3,
+   "to": "Right Steps, No Results?",
+   "level": 3
+  },
+  {
+   "id": "S091",
+   "from": "If you’d rather stop",
+   "from_level": 3,
+   "to": "If you’d rather stop",
+   "level": 3
+  },
+  {
+   "id": "S092",
+   "from": "Altered States and Intensive Practice",
+   "from_level": 1,
+   "to": "Altered States",
+   "level": 1
+  },
+  {
+   "id": "S093",
+   "from": "Altered States Can Deepen Therapy or Escapism",
+   "from_level": 2,
+   "to": "Therapy or Escapism?",
+   "level": 2
+  },
+  {
+   "id": "S094",
+   "from": "For some people, reparenting starts feeling real in an altered state",
+   "from_level": 3,
+   "to": "Altered Can Make It Real",
+   "level": 3
+  },
+  {
+   "id": "S095",
+   "from": "Everyone has altered states: Prepare now",
+   "from_level": 2,
+   "to": "Attacked by a Demon?",
+   "level": 2
+  },
+  {
+   "id": "S096",
+   "from": "Using spiritual attack for spiritual gain",
+   "from_level": 3,
+   "to": "Spirit Attacks Teach Love",
+   "level": 3
+  },
+  {
+   "id": "S097",
+   "from": "What to Do With a Peak",
+   "from_level": 2,
+   "to": "What to Do With a Peak",
+   "level": 2
+  },
+  {
+   "id": "S098",
+   "from": "When Escape Leaves Reality Behind",
+   "from_level": 2,
+   "to": "Losing Touch With Reality",
+   "level": 2
+  },
+  {
+   "id": "S099",
+   "from": "If a past trip went badly",
+   "from_level": 3,
+   "to": "If a past trip went badly",
+   "level": 3
+  },
+  {
+   "id": "S106",
+   "from": "Life’s a trip also",
+   "from_level": 3,
+   "to": "Life’s a trip also",
+   "level": 3
+  },
+  {
+   "id": "S100",
+   "from": "Is your paranoia a warning sign?",
+   "from_level": 3,
+   "to": "Is Paranoia a Warning?",
+   "level": 3
+  },
+  {
+   "id": "S101",
+   "from": "If you might be prone to mania or psychosis",
+   "from_level": 3,
+   "to": "Mania or Psychosis Risk",
+   "level": 3
+  },
+  {
+   "id": "S102",
+   "from": "Who counts as trusted",
+   "from_level": 3,
+   "to": "Who counts as trusted",
+   "level": 3
+  },
+  {
+   "id": "S103",
+   "from": "Confused After Trips?",
+   "from_level": 3,
+   "to": "Confused After Trips?",
+   "level": 3
+  },
+  {
+   "id": "S104",
+   "from": "Before you quit a medication or alcohol",
+   "from_level": 3,
+   "to": "Quitting Meds or Alcohol",
+   "level": 3
+  },
+  {
+   "id": "S105",
+   "from": "What you mix",
+   "from_level": 3,
+   "to": "What you mix",
+   "level": 3
+  },
+  {
+   "id": "S107",
+   "from": "My Psychedelic Experiences Came A Bit Too Soon",
+   "from_level": 2,
+   "to": "My Trips Came Too Soon",
+   "level": 2
+  },
+  {
+   "id": "S108",
+   "from": "",
+   "from_level": 2,
+   "to": "",
+   "level": 2
+  },
+  {
+   "id": "S109",
+   "from": "Bringing Reparenting Into Real Life",
+   "from_level": 1,
+   "to": "Reparenting in Real Life",
+   "level": 1
+  },
+  {
+   "id": "S110",
+   "from": "Rediscover Play and Your Own Preferences",
+   "from_level": 2,
+   "to": "Play and Your Preferences",
+   "level": 2
+  },
+  {
+   "id": "S111",
+   "from": "Play Is Part of the Work",
+   "from_level": 3,
+   "to": "Play Is Part of the Work",
+   "level": 3
+  },
+  {
+   "id": "S112",
+   "from": "From Survival to Experimental Play",
+   "from_level": 3,
+   "to": "From Survival to Play",
+   "level": 3
+  },
+  {
+   "id": "S113",
+   "from": "Let the Child Be Bad at Things",
+   "from_level": 3,
+   "to": "Let the Child Be Bad at It",
+   "level": 3
+  },
+  {
+   "id": "S114",
+   "from": "Differentiation: Keeping Your Own Ground",
+   "from_level": 2,
+   "to": "Keeping Your Own Ground",
+   "level": 2
+  },
+  {
+   "id": "S115",
+   "from": "Untangling the Belonging Bargains",
+   "from_level": 3,
+   "to": "Belonging Bargains",
+   "level": 3
+  },
+  {
+   "id": "S116",
+   "from": "Four Pairs That Commonly Hook the Child",
+   "from_level": 4,
+   "to": "Four Pairs That Hook",
+   "level": 4
+  },
+  {
+   "id": "S117",
+   "from": "Practicing Differentiation",
+   "from_level": 3,
+   "to": "Practicing Differentiation",
+   "level": 3
+  },
+  {
+   "id": "S118",
+   "from": "Taking a Break From a Family, Group, or Relationship",
+   "from_level": 3,
+   "to": "A Break From Family",
+   "level": 3
+  },
+  {
+   "id": "S119",
+   "from": "When Being Happy Feels Like Abandoning Someone",
+   "from_level": 3,
+   "to": "Guilty for Being Happy?",
+   "level": 3
+  },
+  {
+   "id": "S120",
+   "from": "Finding People and Building Trust",
+   "from_level": 2,
+   "to": "Finding Your People",
+   "level": 2
+  },
+  {
+   "id": "S121",
+   "from": "First Social Connections, Done Right",
+   "from_level": 3,
+   "to": "Connecting Genuinely",
+   "level": 3
+  },
+  {
+   "id": "S122",
+   "from": "Opening Up Carefully",
+   "from_level": 3,
+   "to": "Opening Up Carefully",
+   "level": 3
+  },
+  {
+   "id": "S123",
+   "from": "Before You Tell the Hardest Stuff",
+   "from_level": 4,
+   "to": "Before You Tell Secrets",
+   "level": 4
+  },
+  {
+   "id": "S124",
+   "from": "How To Let People In",
+   "from_level": 3,
+   "to": "How To Let People In",
+   "level": 3
+  },
+  {
+   "id": "S125",
+   "from": "Ask What Kind of Company They Want",
+   "from_level": 3,
+   "to": "Ask What They Need",
+   "level": 3
+  },
+  {
+   "id": "S126",
+   "from": "Dating While You Heal",
+   "from_level": 3,
+   "to": "Dating While You Heal",
+   "level": 3
+  },
+  {
+   "id": "S127",
+   "from": "The Love Has to Move",
+   "from_level": 3,
+   "to": "The Love Has to Move",
+   "level": 3
+  },
+  {
+   "id": "S128",
+   "from": "Hearthwork: Taking Turns Lending & Borrowing Adulthood",
+   "from_level": 3,
+   "to": "Hearthwork: Take Turns",
+   "level": 3
+  },
+  {
+   "id": "S129",
+   "from": "Finding a Therapist to Borrow Adulthood",
+   "from_level": 2,
+   "to": "Finding a Therapist",
+   "level": 2
+  },
+  {
+   "id": "S130",
+   "from": "Inner Child Reparenting therapists",
+   "from_level": 3,
+   "to": "Reparenting Therapists",
+   "level": 3
+  },
+  {
+   "id": "S131",
+   "from": "If you want a licensed therapist",
+   "from_level": 3,
+   "to": "Licensed Therapists",
+   "level": 3
+  },
+  {
+   "id": "S132",
+   "from": "Before choosing a therapist",
+   "from_level": 3,
+   "to": "Before You Choose",
+   "level": 3
+  },
+  {
+   "id": "S133",
+   "from": "AI therapy",
+   "from_level": 3,
+   "to": "AI therapy",
+   "level": 3
+  },
+  {
+   "id": "S134",
+   "from": "Speaking Up and Handling Conflict",
+   "from_level": 2,
+   "to": "Speaking Up in Conflict",
+   "level": 2
+  },
+  {
+   "id": "S135",
+   "from": "If Someone Has Actually Hurt or Threatened You",
+   "from_level": 3,
+   "to": "If Hurt or Threatened",
+   "level": 3
+  },
+  {
+   "id": "S136",
+   "from": "Speak Toward What You Are Building",
+   "from_level": 3,
+   "to": "Aim Your Words",
+   "level": 3
+  },
+  {
+   "id": "S137",
+   "from": "Write It. Don’t Send It Yet.",
+   "from_level": 3,
+   "to": "Write It. Don’t Send It Yet.",
+   "level": 3
+  },
+  {
+   "id": "S138",
+   "from": "If You Really Did Hurt Them",
+   "from_level": 3,
+   "to": "If You Did Hurt Them",
+   "level": 3
+  },
+  {
+   "id": "S139",
+   "from": "Other Folks Also Have Hooks",
+   "from_level": 3,
+   "to": "If They Can’t Hear You",
+   "level": 3
+  },
+  {
+   "id": "S140",
+   "from": "Can They Change?",
+   "from_level": 4,
+   "to": "Can They Change?",
+   "level": 4
+  },
+  {
+   "id": "S141",
+   "from": "If a Relationship Keeps Making You Feel Less Safe",
+   "from_level": 4,
+   "to": "Less Safe With Them?",
+   "level": 4
+  },
+  {
+   "id": "S142",
+   "from": "When One Life Has Ended and the Next Hasn’t Begun",
+   "from_level": 2,
+   "to": "Between Old & New Lives",
+   "level": 2
+  },
+  {
+   "id": "S143",
+   "from": "Missing Someone",
+   "from_level": 3,
+   "to": "Missing Someone",
+   "level": 3
+  },
+  {
+   "id": "S144",
+   "from": "Conclusion and Appendix",
+   "from_level": 1,
+   "to": "Conclusion and Appendix",
+   "level": 1
+  },
+  {
+   "id": "S145",
+   "from": "You Are Worthy of Love. Always.",
+   "from_level": 2,
+   "to": "Worthy of Love. Always.",
+   "level": 2
+  },
+  {
+   "id": "S146",
+   "from": "Appendix",
+   "from_level": 2,
+   "to": "Appendix",
+   "level": 2
+  },
+  {
+   "id": "S147",
+   "from": "How This Relates to Similar Therapies",
+   "from_level": 3,
+   "to": "Similar Therapies",
+   "level": 3
+  },
+  {
+   "id": "S148",
+   "from": "Schema Therapy",
+   "from_level": 3,
+   "to": "Schema Therapy",
+   "level": 3
+  },
+  {
+   "id": "S149",
+   "from": "Internal Family Systems (IFS)",
+   "from_level": 3,
+   "to": "Internal Family Systems",
+   "level": 3
+  },
+  {
+   "id": "S150",
+   "from": "Development of my framework",
+   "from_level": 3,
+   "to": "My Framework’s Roots",
+   "level": 3
+  },
+  {
+   "id": "S151",
+   "from": "Original Teachers and Practice Resources",
+   "from_level": 3,
+   "to": "Teachers and Resources",
+   "level": 3
+  }
+ ],
+ "edits": [
+  {
+   "in": "S132",
+   "from": "Get to know the strengths and pitfalls of their approach",
+   "to": "Get to know the strengths and pitfalls of a therapist’s approach",
+   "why": "the first sentence leaned on the old heading (\"Before choosing a therapist\") for who \"their\" is"
+  },
+  {
+   "in": "S046",
+   "from": "In A Healther Way",
+   "to": "In A Healthier Way",
+   "why": "typo, in the name of a section it points to"
+  },
+  {
+   "in": "S081",
+   "from": "“Untangling the Belonging Bargains” further on",
+   "to": "“Belonging Bargains” further on",
+   "why": "the pointer named the section by its old heading"
+  },
+  {
+   "in": "S094",
+   "from": "the “Altered States Can Deepen Therapy or Escapism” section further on",
+   "to": "the “Therapy or Escapism?” section above",
+   "why": "the pointer named the section by its old heading, and the section is now above (this one sits inside it since your move)"
+  }
+ ],
+ "links": [
+  {
+   "in": "S013",
+   "text": "Noticing Counts",
+   "context": "more on that in Noticing Counts, further on",
+   "target": "S022",
+   "href": "https://ibogaqueen.substack.com/i/189761959/noticing-counts",
+   "target_heading": "Noticing Counts"
+  },
+  {
+   "in": "S031",
+   "text": "the Chicken and Egg problem",
+   "context": "like the Chicken and Egg problem.",
+   "target": "S003",
+   "href": "https://ibogaqueen.substack.com/i/189761959/chicken-and-egg-problem",
+   "target_heading": "Chicken-and-Egg Problem"
+  },
+  {
+   "in": "S031",
+   "text": "the Mr. Rogers reframing trick",
+   "context": "Apply the Mr. Rogers reframing trick here as well.",
+   "target": "S028",
+   "href": "https://ibogaqueen.substack.com/i/189761959/reframe-the-critic",
+   "target_heading": "Reframe the Critic"
+  },
+  {
+   "in": "S041",
+   "text": "the next section after the foundational guidance",
+   "context": "which will be discussed in the next section after the foundational guidance.",
+   "target": "S049",
+   "href": "https://ibogaqueen.substack.com/i/189761959/toward-divine-love",
+   "target_heading": "Toward Divine Love"
+  },
+  {
+   "in": "S046",
+   "text": "Use Hindsight to Re-do Traumatic Memories In A Healthier Way",
+   "context": "We can also Use Hindsight to Re-do Traumatic Memories In A Healthier Way, which is a section further down",
+   "target": "S076",
+   "href": "https://ibogaqueen.substack.com/i/189761959/re-do-trauma-memories",
+   "target_heading": "Re-do Trauma Memories"
+  },
+  {
+   "in": "S059",
+   "text": "“Noticing Counts”",
+   "context": "Remember what we learned in “Noticing Counts” above.",
+   "target": "S022",
+   "href": "https://ibogaqueen.substack.com/i/189761959/noticing-counts",
+   "target_heading": "Noticing Counts"
+  },
+  {
+   "in": "S070",
+   "text": "we get deeper into that further on",
+   "context": "(we get deeper into that further on)",
+   "target": "S114",
+   "href": "https://ibogaqueen.substack.com/i/189761959/keeping-your-own-ground",
+   "target_heading": "Keeping Your Own Ground"
+  },
+  {
+   "in": "S076",
+   "text": "Borrow Hindsight",
+   "context": "(from Borrow Hindsight)",
+   "target": "S046",
+   "href": "https://ibogaqueen.substack.com/i/189761959/borrow-hindsight",
+   "target_heading": "Borrow Hindsight"
+  },
+  {
+   "in": "S081",
+   "text": "“Belonging Bargains”",
+   "context": "in “Belonging Bargains” further on",
+   "target": "S115",
+   "href": "https://ibogaqueen.substack.com/i/189761959/belonging-bargains",
+   "target_heading": "Belonging Bargains"
+  },
+  {
+   "in": "S084x",
+   "text": "If You Want to Kill Yourself",
+   "context": "As mentioned in “If You Want to Kill Yourself,”",
+   "target": "S013",
+   "href": "https://ibogaqueen.substack.com/i/189761959/if-you-want-to-kill-yourself",
+   "target_heading": "If You Want to Kill Yourself"
+  },
+  {
+   "in": "S094",
+   "text": "“Therapy or Escapism?”",
+   "context": "in the “Therapy or Escapism?” section above.",
+   "target": "S093",
+   "href": "https://ibogaqueen.substack.com/i/189761959/therapy-or-escapism",
+   "target_heading": "Therapy or Escapism?"
+  },
+  {
+   "in": "S095",
+   "text": "In the previous section",
+   "context": "In the previous section, I made it sound",
+   "target": "S093",
+   "href": "https://ibogaqueen.substack.com/i/189761959/therapy-or-escapism",
+   "target_heading": "Therapy or Escapism?"
+  },
+  {
+   "in": "S097",
+   "text": "Ask God for a Loan",
+   "context": "the gratitude with conditions from Ask God for a Loan.",
+   "target": "S050",
+   "href": "https://ibogaqueen.substack.com/i/189761959/ask-god-for-a-loan",
+   "target_heading": "Ask God for a Loan 🫶🏿"
+  },
+  {
+   "in": "S096",
+   "text": "borrowed adulthood",
+   "context": "Borrowing support like that is basically borrowed adulthood.",
+   "target": "S018",
+   "href": "https://ibogaqueen.substack.com/i/189761959/borrowed-adulthood",
+   "target_heading": "Borrowed Adulthood"
+  },
+  {
+   "in": "S128",
+   "text": "the borrowed adulthood practice",
+   "context": "It also helps us with the borrowed adulthood practice.",
+   "target": "S018",
+   "href": "https://ibogaqueen.substack.com/i/189761959/borrowed-adulthood",
+   "target_heading": "Borrowed Adulthood"
+  },
+  {
+   "in": "S130",
+   "text": "in the Appendix",
+   "context": "(aside from Lucia C’s, in the Appendix)",
+   "target": "S147",
+   "href": "https://ibogaqueen.substack.com/i/189761959/similar-therapies",
+   "target_heading": "Similar Therapies"
+  },
+  {
+   "in": "S131",
+   "text": "Internal Family Systems (IFS)",
+   "context": "will be doing Internal Family Systems (IFS), or Schema Therapy.",
+   "target": "S149",
+   "href": "https://ibogaqueen.substack.com/i/189761959/internal-family-systems",
+   "target_heading": "Internal Family Systems"
+  },
+  {
+   "in": "S131",
+   "text": "Schema Therapy",
+   "context": "will be doing Internal Family Systems (IFS), or Schema Therapy.",
+   "target": "S148",
+   "href": "https://ibogaqueen.substack.com/i/189761959/schema-therapy",
+   "target_heading": "Schema Therapy"
+  },
+  {
+   "in": "S145",
+   "text": "“Your Loan is PRE-APPROVED!”",
+   "context": "the same love as back in “Your Loan is PRE-APPROVED!”,",
+   "target": "S050",
+   "href": "https://ibogaqueen.substack.com/i/189761959/ask-god-for-a-loan",
+   "target_heading": "Ask God for a Loan 🫶🏿"
+  },
+  {
+   "in": "S148",
+   "text": "Your Loan is PRE-APPROVED!",
+   "context": "the bigger love back in Your Loan is PRE-APPROVED! IFS",
+   "target": "S050",
+   "href": "https://ibogaqueen.substack.com/i/189761959/ask-god-for-a-loan",
+   "target_heading": "Ask God for a Loan 🫶🏿"
+  },
+  {
+   "in": "S148",
+   "text": "the next section",
+   "context": "(more on that in the next section)",
+   "target": "S149",
+   "href": "https://ibogaqueen.substack.com/i/189761959/internal-family-systems",
+   "target_heading": "Internal Family Systems"
+  },
+  {
+   "in": "S148",
+   "text": "borrowed adulthood",
+   "context": "it’s borrowed adulthood too.",
+   "target": "S018",
+   "href": "https://ibogaqueen.substack.com/i/189761959/borrowed-adulthood",
+   "target_heading": "Borrowed Adulthood"
+  }
+ ]
+}
