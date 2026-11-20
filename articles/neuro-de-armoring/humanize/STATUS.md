@@ -1,5 +1,34 @@
 # Status: neuro de-armoring humanization (newest on top)
 
+## 2026-11-20, his message of 17:05 UTC: 15a, 19a, 20, 21b, 22a in; the contradictions check made standard; questions 24 to 33
+
+His message word for word: `fix-20261108/joel-20261120-1705-message.txt` (15a, 16a, 17 in his words, 18 with his iboga
+types and Tabernanthe elliptica, 19a, 20 with his caveat, 21b, 22a, 23 on agmatine with psychedelics, and "let's make the
+contradictions check a standard step in joel-articles"). **The mailbox first** ("2026-11-20 17:05"): main 5d00ac6cc merged
+(bad-trips lessons 20a to 20e: a sentence that implies an act says it; a risk names the form that carries it; the payoff
+first, enforced by `pangram_ledger.py`; long tries fixed in parts; the O12 overused-word check); this lane's 445 and 446
+merged yesterday; the cards page's stored answers unchanged; no notifications.
+
+- **In** (`fix-20261108/x1120a/apply_x1120a.py`, `APPLIED-X1120A.json`; HUMANIZED-SO-FAR.md 9f5bbc31 to 9c001fcb): 15a,
+  19a, 20 (his caveat in his words), 21b, 22a, each his line with the words the question showed or his own. My comparison
+  read of the four paragraphs whose words changed (`x1120a/read-1120/`); FIDELITY owner_changes for 20's "400mg".
+  Fidelity PASS, comparison gate PASS.
+- **16a and 17, waiting on their check**: one line of mine at the top of Weeks 3–5 (`x1120a/texts_x1120a.py`, W35), four
+  rounds of fresh reads (`x1120a/{needed,his-fixes,fit}/w35`, `w35b`, `w35c`, `w35d`): the reads found "listed" with no
+  list, "Otherwise" and "either" reading as leave to take 5-HTP on an iboga day, "safe" (O72) and "make a suggestion"
+  (read as "no dose"), and a numb reader unable to judge by feel; W35 answers them. Not yet checked in Pangram.
+- **18 and 23 checked against sources and forums** (a Sonnet helper, `x1120a/RESEARCH-18-23.md`): nothing outside his own
+  Substack backs elliptica's names, potency or feel; no botanical male and female iboga (in Bwiti, initiation rites); no
+  source ties "male" iboga to research, which uses ibogaine itself; the heart risk is in the alkaloids. On agmatine, the
+  one forum thread leans the other way, rats show it weakens stimulants, and one rat study shows a little overlap with
+  ibogaine. Both answers go back to him as text with these notes: questions 32 and 33.
+- **The contradictions check, a standard step** (lesson neuro-2026-11-20a, `docs/lessons/2026-11-20-1705-neuro.md`):
+  `docs/FIXING-AN-ARTICLE.md` section 5 item 5, a pointer in AGENTS.md, `tools/humanization/contradictions.py` (brief and
+  check) with `tests/test_contradictions.py`. This article's fates: `fix-20261108/coherence/CONTRADICTIONS-FATES.json`
+  (17 items: 4 answered, 2 applying, 1 settled, 1 not a conflict, 9 questions); `check` PASS, `--done` not yet.
+- **Waiting on him**: questions 24 to 33 (questions page version 28). Delegations: one Sonnet research helper (claims of 18
+  and 23, file above), twelve Haiku fresh reads (four rounds of three). Predictions: none.
+
 ## 2026-11-19, his message of 16:17 UTC: 12a and his block 54 in, 13b; questions 15 to 23
 
 His message word for word: `fix-20261108/joel-20261119-1617-message.txt` (12a; 13b, with his note that he isn't talking about IV use; 14, with his Pangram check and his version of block 54). **The mailbox first** ("2026-11-19 16:17"): main 4eb7e99cb merged (bad-trips' near-miss rule, its O75 and O76 tells and the turn-boundary check in `lane_push.py`; inner child's contents-sidebar rules); this lane's 436 merged on 2026-11-14; the cards page's stored answers unchanged; no notifications. UDA's LESSON-INDEX gained entry 93 (advice on starting a fresh session): applied at the turn's start and before the final answer.

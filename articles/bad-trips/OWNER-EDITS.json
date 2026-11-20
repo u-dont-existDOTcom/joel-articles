@@ -1594,6 +1594,49 @@
    "must_not_contain": [
     "Samsara, the cycle of ordinary existence"
    ]
+  },
+  {
+   "id": "r45-harm-his",
+   "status": "applied",
+   "what": "When What They Say Turns Toward Harm, his first paragraph (round 45, TEACH-HARM-GOD; his check a2f4be55, Human High 100): the script line in quotes, starting from what they believe, the two mistakes as the alternatives",
+   "joel": "2026-11-20 17:54 UTC: \"your script was not in quotes and it didn't start from what they knew. i fixed that ... fixed the connectivity issue ... fixed the final connectivity issue, now all hum high\"",
+   "applied_by": "review/r45/ANSWERS-R45-20261120-1820.json (exported 2026-11-20 18:20:10 UTC), put in by review/r45/apply_r45.py",
+   "must_contain_exact": [
+    "When somebody says, \"I am God, so I can kill,\" take it as a sign they could really hurt someone. To lead them back to not hurting anyone, start from what they believe, like the script below does: \"Yes, I know you are God. God is in everyone, so every body is sacred.\" If instead you argue, that can make them dig in to prove they're God, so don't tell them \"No you're not\" or \"That's delusional.\" And the other failing alternative, just nodding along, might let them think you're okay with them hurting someone."
+   ]
+  },
+  {
+   "id": "r45-harm-script-out",
+   "status": "applied",
+   "what": "When What They Say Turns Toward Harm: the script's label and the script (B287, B288) out, his paragraph now quoting its line; \"Other useful lines\" follows it (review/r45/REMOVED-R45.json keeps the two blocks)",
+   "joel": "2026-11-20 17:54 UTC, with his version: \"but now you have to take out p2 right?\"",
+   "applied_by": "review/r45/ANSWERS-R45-20261120-1820.json (exported 2026-11-20 18:20:10 UTC), put in by review/r45/apply_r45.py",
+   "must_not_contain": [
+    "Non-combative philosophical grounding",
+    "Peace is the godly move tonight."
+   ]
+  },
+  {
+   "id": "r45-touch-his",
+   "status": "applied",
+   "what": "Touch, Consent, and Compassion, his two paragraphs (round 45, TEACH-TOUCH; his check 39cd2ecf, Human High 149): \"respectful touch\", holding down said as what it does, \"If they did permit touch, ...\"",
+   "joel": "2026-11-20 18:14 UTC: \"adding \"respectful\" ... made the request clearer ... explained hold them down better, that lfipped it all human ... i fixed the lead-in, now it's all high conf\"",
+   "applied_by": "review/r45/ANSWERS-R45-20261120-1820.json (exported 2026-11-20 18:20:10 UTC), put in by review/r45/apply_r45.py",
+   "must_contain_exact": [
+    "Ask before you touch someone who's tripping, even to put your hand on their heart: **\"Would respectful touch help, or would you rather have space?\"** A hug can be too much when they're already overwhelmed. And if you hold them in a way that prevents their movement, they might feel attacked and fight you. If they'd rather have space, sit about six feet away and only talk if they want to.",
+    "If they did permit touch, stop as soon as they say stop. Pulling away or freezing means stop too, since they might be too overwhelmed to tell you to stop. Ask again whenever you can't tell what they want. Be honest with yourself about why you want to touch them, and hold off if it's mostly to calm yourself down. Never touch them in a sexual way, even if they ask you to."
+   ]
+  },
+  {
+   "id": "r45-demons-his",
+   "status": "applied",
+   "what": "Demons, Jinn, Entities, and Shadow Forces: the hooks kept (hatred, fear, pride and grandiosity, not love) and \"get them whatever help they need\" (round 45, DEMONS-HOOKS; his check 3a1603ee, Human High 87)",
+   "joel": "2026-11-20 18:20 UTC: \"why did you not check b yet? it's high conf hum ... i don't like always telling to go to a doctor, i would use this one ... and that's also high conf hum\"",
+   "applied_by": "review/r45/ANSWERS-R45-20261120-1820.json (exported 2026-11-20 18:20:10 UTC), put in by review/r45/apply_r45.py",
+   "must_contain_exact": [
+    "It might look passive, but this is how you become unhookable. When you meet a demon with love, the demon has nothing to hook into, since its hooks catch on hatred, fear, pride and grandiosity, not on love.",
+    "If someone's too overwhelmed to send love, because they're sick or too scared to think straight, help them get steady first. Turn the lights down, and get them whatever help they need. Once they can think straight again, you can teach them to send the demon love."
+   ]
   }
  ]
 }

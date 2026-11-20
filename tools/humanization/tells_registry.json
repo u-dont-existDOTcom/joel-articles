@@ -3103,6 +3103,18 @@
     }
    ],
    "reason": "what a word could mean in its sentence is meaning: a fresh reader given tools/humanization/his_fixes_brief.md (its tenth way) writes what each pointer and describing word could mean and marks the ones a quick reader could take either way; pangram_ledger.py holds a retry after a near miss to a word or two (bad-trips-2026-11-19b)"
+  },
+  {
+   "id": "J72",
+   "tell": "a sentence that gives another option, the other mistake or the next case without saying how it follows from the one before (two mistakes in two sentences of their own; a second paragraph that starts on a step the first one never reached)",
+   "kind": "judgment",
+   "sources": [
+    {
+     "file": "docs/lessons/2026-11-20-1820-bad-trips.md",
+     "quote": "fixed the connectivity issue, now just one hum med at teh end"
+    }
+   ],
+   "reason": "how a sentence follows from the one before is meaning: a fresh reader given tools/humanization/his_fixes_brief.md (its twelfth way) writes, for each sentence, how it follows and marks the ones where nothing in the sentence says so; \"If instead\", \"the other\", \"If they did\" are his words for three cases, not a list a pattern could check"
   }
  ]
 }

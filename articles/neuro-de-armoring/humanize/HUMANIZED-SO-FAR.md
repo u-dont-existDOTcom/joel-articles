@@ -137,7 +137,7 @@ Who it's for: People running high or *reactive* cortisol--the "wired and tired,"
 
 Dose: about 400 mg/day, taken earlier in the day. In the stress studies, which used a PS complex, 400 mg blunted the cortisol response, while 200 mg did nothing and 600 or 800 mg didn't either.
 
-Food instead of capsules: One of the few supplements you can actually eat your way to. Atlantic mackerel (~480 mg/100g) and herring (~360 mg) are richest; tuna is lower (~194 mg). A 200g mackerel fillet ≈ 960 mg PS--above clinical doses. (Don't lean on tuna daily--mercury.)
+Food instead of capsules: One of the few supplements you can actually eat your way to. Atlantic mackerel (~480 mg/100g) and herring (~360 mg) are richest; tuna is lower (~194 mg). A 200g mackerel fillet ≈ 960 mg PS--above the 400 mg that worked, although when it's not isolated, it's harder to compare. (Don't lean on tuna daily--mercury.)
 
 ⚠️ The catch, again: PS is only for genuinely high cortisol--and there are two ways to find out you guessed wrong. PS works by *blunting* cortisol. If yours isn't actually elevated, lowering it pushes you down the other side of the curve, where the symptoms look almost identical to high cortisol. Watch for either signal:
 
@@ -243,7 +243,7 @@ Best fit: Glutamate Storm + rumination/compulsion + inflammatory or neuropathic 
 
 Poor fit: already numb, low-drive, depressed, dissociated, low blood pressure, sedated, or entering the Dynorphin Void.
 
-Cycle rule: use it as a 7–14 day anxiety-phase experiment, not a forever baseline. Stop if flatness, anhedonia, apathy, irritability, insomnia, dizziness, nausea, loose stools, diarrhea, or increased craving appears.
+Cycle rule: use it as a 7–14 day anxiety-phase experiment, not a forever baseline, unless it is unmistakably helping acute glutamate storms without worsening flatness. Stop if flatness, anhedonia, apathy, irritability, insomnia, dizziness, nausea, loose stools, diarrhea, or increased craving appears.
 
 Timing rule: avoid agmatine on D-Serine/DCS-style reconsolidation days, or keep it at least 12–24 hours away from the session.
 
@@ -253,7 +253,7 @@ DMSO (99.9%): Smell it, as in the Fog table below. In rat brain cells in a dish,
 
 It is used for humans routinely in stem cell transplants and by many humans for all kinds of medical problems, from arthritis to brain injuries ([Jacob & de la Torre, 2015](https://www.routledge.com/Dimethyl-Sulfoxide-DMSO-in-Trauma-and-Disease/Jacob-Torre/p/book/9781138894624)). There is evidence ([Mitrus, et al, 2018](https://pubmed.ncbi.nlm.nih.gov/29269805/)) that using too much DMSO (10% vs 5%) in stem cell transfusions increases mild side effects in adult humans. It hasn't been tested (that I know of, yet) specifically for PTSD, so for PTSD it rests on what people report, and many say it helps.
 
-Nebulized DMSO with heparin (a blood thinner) has been shown to cut the lung damage from toxic cotton smoke in sheep ([Kimura, et al, 1988](https://pubmed.ncbi.nlm.nih.gov/2458858/)). In another study, the smoke killed all seven untreated sheep and four of the six given DMSO alone, while all seven given DMSO with heparin survived ([Brown, et al, 1988](https://pubmed.ncbi.nlm.nih.gov/3356738/)). But it has shown some neurotoxic effects in rodent studies. In mice in their first month of life, even the smallest dose tested set off brain cell death, and the authors worried about the children who get it in transplants ([Hanslick, et al, 2009](https://pubmed.ncbi.nlm.nih.gov/19100327/)), although so far there's no proof it's harming children, and many people use it on their children for injuries, infections, and so forth with good results in practice. Translating mouse research to humans isn't straightforward.
+Nebulized DMSO with heparin (a blood thinner) has been shown to cut the lung damage from toxic cotton smoke in sheep ([Kimura, et al, 1988](https://pubmed.ncbi.nlm.nih.gov/2458858/)). In another study, the smoke killed all seven untreated sheep and four of the six given DMSO alone, while all seven given DMSO with heparin survived ([Brown, et al, 1988](https://pubmed.ncbi.nlm.nih.gov/3356738/)). But it has shown some neurotoxic effects in rodent studies. In mice in their first month of life, even the smallest dose tested set off brain cell death, and the authors worried about the children who get it in transplants ([Hanslick, et al, 2009](https://pubmed.ncbi.nlm.nih.gov/19100327/)), although so far there's no proof it's harming children when it's not given by IV, and many people use it on their children for injuries, infections, and so forth with good results in practice. Translating mouse research to humans isn't straightforward.
 
 My experience and that of those I know and have read about, is that it has immense brain benefits, turning bad trips good instantly, giving relaxed alertness, more intelligence, brighter mood (especially when nebulized). When I nebulize it, within a minute, my brain feels crystal clean and super blissed out (much more bliss than other routes). But when used too close to bedtime or too much, it can reduce sleep, so it's best taken in the morning, and reduce the dose if you notice you're sleeping less. If it is killing my neurons, I'm pretty sure it's killing the trash ones that should be going out anyway. My dad used DMSO for decades and was healthy and mentally sharp into his old age.
 
@@ -341,7 +341,7 @@ Supplement daily:
 
 Phosphatidylserine about 400 mg earlier in the day only if you fit the high-cortisol profile + 1 cup broccoli sprouts + Magnesium Glycinate 400 mg + NAC 1.8–2.4 g divided.
 
-Optional add-on: Agmatine Sulfate 250–500 mg AM, increasing to 500 mg twice daily only if it clearly reduces the hot/itchy/reactive state without flattening mood. Cap at 1 g/day in this protocol. Do not add agmatine on the same day you increase PS, start D-Serine, change NAC dose, begin keto, microdose, or introduce any other major variable.
+Optional add-on: Agmatine Sulfate 250–500 mg AM, increasing to 500 mg twice daily only if it clearly reduces the hot/itchy/reactive state without flattening mood. Cap at 1 g/day in this protocol. Do not add agmatine on the same day you start PS, start D-Serine, change NAC dose, begin keto, microdose, or introduce any other major variable.
 
 If PS leaves you flat OR more wired, you're not a high-cortisol responder--drop it. If agmatine leaves you flat, anhedonic, dizzy, nauseous, sleepless, irritable, or more craving-prone--drop it.
 
@@ -351,7 +351,7 @@ Rescue: "The Fire" + [Chantress Seba](https://www.youtube.com/channel/UCM9H6pHyg
 
 Weeks 3–5: The Dynorphin Void (Depression Phase)State: The anxiety stops, but the world turns gray/boring.
 
-Protocol:Taper off Phosphatidylserine here. This phase is low-drive and gray by design--you do *not* want to keep blunting cortisol in an already-flattened system, or you'll deepen the numbness. PS was for the anxiety phase; the Void phase needs the opposite. (If you never felt the wired/high-cortisol state in Weeks 1–2, you probably shouldn't have been on PS at all.)
+Protocol:Reduce or stop phosphatidylserine here. This phase is low-drive and gray by design--you do *not* want to keep blunting cortisol in an already-flattened system, or you'll deepen the numbness. PS was for the anxiety phase; the Void phase needs the opposite. (If you never felt the wired/high-cortisol state in Weeks 1–2, you probably shouldn't have been on PS at all.)
 
 Also stop agmatine here unless it is unmistakably helping acute glutamate storms without worsening flatness. The Void phase is already low-drive and gray; agmatine can over-brake the system in the same direction.
 

@@ -22,7 +22,7 @@ Every paragraph and every section reads Human in Pangram, with the meaning kept 
 
 ## Current checkpoint
 
-`humanize/HUMANIZED-SO-FAR.md` (9f5bbc31, after his message of 2026-11-19 16:17 UTC: his answer 12a and his version of block 54, `humanize/fix-20261108/x1119a/APPLIED-X1119A.json`) is his post with the standard typographic swap, his versions and the science corrections he approved, section by section through Part 3's potassium step. Next, the protocol is read as a whole against the settled science (`humanize/fix-20261108/coherence/EXTRACT.md`), then the rest is humanized (lesson neuro-2026-11-08f). Nothing has been changed in his post yet.
+`humanize/HUMANIZED-SO-FAR.md` (9c001fcb, after his message of 2026-11-20 17:05 UTC: his answers 15a, 19a, 20, 21b and 22a, `humanize/fix-20261108/x1120a/APPLIED-X1120A.json`) is his post with the standard typographic swap, his versions and the science corrections he approved, section by section through Part 3's potassium step. Next, the protocol is read as a whole against the settled science (`humanize/fix-20261108/coherence/EXTRACT.md`), then the rest is humanized (lesson neuro-2026-11-08f). Nothing has been changed in his post yet.
 
 ## Remaining
 
@@ -30,7 +30,7 @@ The AI windows of every section, rewritten and checked; his cards; his post upda
 
 ## Blockers / unresolved
 
-Nine questions wait on him (`humanize/OWNER-QUESTIONS.md`): 15, whether his clause on children in the DMSO item should say it means uses other than IV; 16 to 23, the protocol's contradictions in `humanize/fix-20261108/coherence/EXTRACT.md` items 2.2, 2.3 and 2.5 to 2.10 (starting things one at a time in Weeks 3–5, microdose days and 5-HTP and UMP, the iboga for numbness, PS, agmatine). Every turn starts by reading the cards page's stored answers (lesson neuro-2026-11-13b).
+Ten questions wait on him (`humanize/OWNER-QUESTIONS.md`): 24 to 31, the protocol's remaining contradictions (`humanize/fix-20261108/coherence/EXTRACT.md`, fates in `CONTRADICTIONS-FATES.json` beside it), and 32 and 33, his iboga and agmatine answers as text, with what the sources show. His answers 16a and 17 wait on one line of mine at the top of Weeks 3–5 (`humanize/fix-20261108/x1120a/texts_x1120a.py` W35) reading Human High by itself. Every turn starts by reading the cards page's stored answers (lesson neuro-2026-11-13b).
 
 ## Evidence / artifacts
 
@@ -38,4 +38,4 @@ Nine questions wait on him (`humanize/OWNER-QUESTIONS.md`): 15, whether his clau
 
 ## Next safe action
 
-`humanize/HANDOFF-neuro-de-armoring.md`, Next step: the cards page's stored answers, then his answers to questions 15 to 23; then the protocol's other contradictions (`humanize/fix-20261108/coherence/EXTRACT.md`); then the rest of the article one paragraph at a time (gates E343, E344). The master is unchanged (his post as it stands).
+`humanize/HANDOFF-neuro-de-armoring.md`, Next step: the cards page's stored answers, then the Weeks 3–5 line's receipt and check, and his answers to questions 24 to 33; then the protocol's other contradictions (`humanize/fix-20261108/coherence/EXTRACT.md`); then the rest of the article one paragraph at a time (gates E343, E344). The master is unchanged (his post as it stands).

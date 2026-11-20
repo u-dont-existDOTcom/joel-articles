@@ -2123,6 +2123,80 @@
     }
    ],
    "recorded_utc": "2026-11-20T13:55Z"
+  },
+  {
+   "turn": "2026-11-20T16:48Z",
+   "lines_of_work": [
+    "bad trips guide"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "live default branch 3d79cc8 (unchanged since turn 50; read-only clone); suggested-fixes lane: six items, all in the ledger"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "this lane's pull request 449 merged into main at 14:36 UTC; no new issues, pull requests, comments or reviews since 13:50 UTC"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no edits by others to this lane's handoff note, questions page or state since 449 (main holds only this lane's merge)"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "no queued notifications; his message of 16:48 UTC: continue from the handoff's next step"
+    }
+   ],
+   "items": [
+    {
+     "item": "his message of 16:48 UTC",
+     "outcome": "this turn: try 5 (and 6) on the demons, harm and touch paragraphs from each near miss, then round 45 for what stays below Human High, then the other AI units"
+    }
+   ],
+   "recorded_utc": "2026-11-20T16:51Z"
+  },
+  {
+   "turn": "2026-11-20T18:20Z",
+   "lines_of_work": [
+    "bad trips guide"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "live default branch 3d79cc8 (unchanged; read-only clone, re-fetched this turn); suggested-fixes lane: six items, all in the ledger"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "this lane's pull requests 450 and 451 merged by the lane auto-merge at 17:20 and 17:24 UTC; the neuro lane's 452 merged at 17:27 UTC (the contradictions check made standard for every article, gate neuro-2026-11-20a, merged in here); no new issues, comments or reviews since 17:20 UTC"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no edits by others to this lane's handoff note, questions page or state since 451"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "no queued notifications; his round-45 export of 2026-11-20 18:20:10 UTC: TEACH-HARM-GOD and TEACH-TOUCH revised with his versions and checks, DEMONS-HOOKS answered (B checked by him, his version with 'whatever help they need'; raise the try limit to 10 when on the right track)"
+    }
+   ],
+   "items": [
+    {
+     "item": "his round-45 export of 18:20 UTC",
+     "outcome": "this turn: his three versions in whole, his checks read back; his question on the harm section's p2 answered; the try limit to 10 for a lineage on the right track, in the shared budget rule and the ledger"
+    },
+    {
+     "item": "the neuro lane's gate neuro-2026-11-20a (the contradictions check, every article)",
+     "outcome": "adopted for this lane: the guide's check queued as a next step (once a full draft exists, and after a big change)"
+    }
+   ],
+   "recorded_utc": "2026-11-20T18:22Z"
   }
  ]
 }

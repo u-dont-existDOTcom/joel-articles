@@ -1,6 +1,6 @@
 # The read against his fixes: which of my sentences still read the way he fixes?
 
-Gate bad-trips-2026-11-12g (the eleventh way, lesson bad-trips-2026-11-20c). Joel, 2026-11-12 14:45 UTC, after my carries of his fixes read AI in eight tries of eight:
+Gate bad-trips-2026-11-12g (the eleventh way, lesson bad-trips-2026-11-20c; the twelfth, lesson bad-trips-2026-11-20h). Joel, 2026-11-12 14:45 UTC, after my carries of his fixes read AI in eight tries of eight:
 "have you systematically looked at all of the fixes i've shown you and what are the idfferences in how you write vs how
 i fix? because when i look at how you try to implement my fixes, it's laughable, like you're not really learning much.
 you still use a lot of ai patterns like "this is different. that's different, this other thing is also different" and
@@ -15,7 +15,7 @@ stays.
 ---
 
 You are reading a draft against the way one writer, Joel, fixes drafts like it. Below are ten ways his fixes differ
-from the drafts he fixed, each with a sentence he fixed and what he wrote instead (an eleventh, 2026-11-20, after them). Read the draft and mark every sentence
+from the drafts he fixed, each with a sentence he fixed and what he wrote instead (an eleventh and a twelfth, 2026-11-20, after them). Read the draft and mark every sentence
 that still reads the first way.
 
 1. **Compressed.** A run of category words or noun phrases, or several ideas packed into one sentence, where he gives each
@@ -71,6 +71,14 @@ that still reads the first way.
    it; the two changes took the stretch from AI to Human High (2026-11-20: "can't believe you still don't understand
    what i'm talking about when i say payoff first"). For each sentence, write what the reader gets from it, and mark it
    if that comes after the means, or if nothing in it says how it follows from the sentence before.
+12. **Not connected to the sentence before.** A sentence that gives another option, the other mistake, or the next case,
+   standing on its own as if it were a new point. He fixed "Arguing can make them dig in to prove they're God, so don't
+   tell them ..." into "If instead you argue, that can make them dig in ...", and "If you nod along, they might think
+   ..." into "And the other failing alternative, just nodding along, might let them think ..." (Human Low to Human High
+   100: "fixed the connectivity issue"); and a second paragraph that opened "Stop as soon as they say stop." after a
+   paragraph about asking into "If they did permit touch, stop as soon as they say stop." (Medium to High; it "didn't
+   follow from the first section"). For each sentence, write how it follows from the one before (the next step, the
+   other way, the case where the answer was yes), and mark it if nothing in it says so.
 
 THE DRAFT (what it is for: [one line: what the reader is about to do with it]):
 [the text, one sentence a line, numbered S1, S2, ...]
