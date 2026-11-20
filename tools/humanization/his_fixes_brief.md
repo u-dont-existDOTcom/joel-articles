@@ -1,6 +1,6 @@
 # The read against his fixes: which of my sentences still read the way he fixes?
 
-Gate bad-trips-2026-11-12g. Joel, 2026-11-12 14:45 UTC, after my carries of his fixes read AI in eight tries of eight:
+Gate bad-trips-2026-11-12g (the eleventh way, lesson bad-trips-2026-11-20c). Joel, 2026-11-12 14:45 UTC, after my carries of his fixes read AI in eight tries of eight:
 "have you systematically looked at all of the fixes i've shown you and what are the idfferences in how you write vs how
 i fix? because when i look at how you try to implement my fixes, it's laughable, like you're not really learning much.
 you still use a lot of ai patterns like "this is different. that's different, this other thing is also different" and
@@ -15,7 +15,7 @@ stays.
 ---
 
 You are reading a draft against the way one writer, Joel, fixes drafts like it. Below are ten ways his fixes differ
-from the drafts he fixed, each with a sentence he fixed and what he wrote instead. Read the draft and mark every sentence
+from the drafts he fixed, each with a sentence he fixed and what he wrote instead (an eleventh, 2026-11-20, after them). Read the draft and mark every sentence
 that still reads the first way.
 
 1. **Compressed.** A run of category words or noun phrases, or several ideas packed into one sentence, where he gives each
@@ -63,6 +63,14 @@ that still reads the first way.
    added "it means" to say what a sign means; each one, checked alone, made Pangram read more of the paragraph human
    (2026-11-19). For every such word, write what it could mean here, and mark it if a quick reader could take it either
    way.
+11. **The means before the payoff.** A sentence that opens on the tool, the source or the method, and only then says
+   what the reader gets from it. He fixed "We can use the same Hunter criteria that clinicians use to diagnose
+   serotonin syndrome." into "To diagnose serotonin syndrome, we can use the Hunter criteria, the same checklist
+   clinicians use.", and the sentence after it, "One or more of these patterns makes the diagnosis more likely:",
+   into "Using Hunter, one or more of these patterns makes the diagnosis more likely:", so it says how the first leads to
+   it; the two changes took the stretch from AI to Human High (2026-11-20: "can't believe you still don't understand
+   what i'm talking about when i say payoff first"). For each sentence, write what the reader gets from it, and mark it
+   if that comes after the means, or if nothing in it says how it follows from the sentence before.
 
 THE DRAFT (what it is for: [one line: what the reader is about to do with it]):
 [the text, one sentence a line, numbered S1, S2, ...]

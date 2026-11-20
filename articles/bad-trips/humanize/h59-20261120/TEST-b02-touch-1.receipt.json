@@ -1,0 +1,97 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-20",
+ "text_sha256": "7fb4a93af9829768c57f299be5dee2bd3e3d23f5d50ad83e8369eb70d321e5d8",
+ "text": "Ask before you touch someone who's tripping, even to put a hand on their heart: \"Would touch help, or would you rather have space?\" A hug can feel like too much in that state, and holding them down can feel like an attack. Sometimes the best support is to sit six feet away and stay silent.\n\nIf they say stop, stop, and the same goes if they pull away or freeze, or you're not sure they want it. Check your own reasons, too: if you mostly want to touch them to calm yourself down, or there's anything sexual in it, don't.",
+ "section": "Touch, Consent, and Compassion",
+ "reader": "someone helping a friend through a hard trip who wants to comfort them, maybe with a hug or a hand on them, right after the guide suggested putting a hand on your own heart",
+ "sentences": [
+  {
+   "s": "Ask before you touch someone who's tripping, even to put a hand on their heart: \"Would touch help, or would you rather have space?\"",
+   "payoff": "they ask before any touch, even a hand on the heart the section before suggested, and have the words to ask with",
+   "follows": "the heading names touch and consent; the section before was a hand on your own heart"
+  },
+  {
+   "s": "A hug can feel like too much in that state, and holding them down can feel like an attack.",
+   "payoff": "they know why to ask: a hug can be too much in that state, and holding someone down can feel like an attack",
+   "follows": "why the asking matters, after the asking",
+   "link": "none: the reason for the sentence before, said as what can happen"
+  },
+  {
+   "s": "Sometimes the best support is to sit six feet away and stay silent.",
+   "payoff": "they know they can help without touching at all: six feet away, silent",
+   "follows": "the other answer to the question (\"or would you rather have space?\")",
+   "link": "none: what to do if they choose space"
+  },
+  {
+   "s": "If they say stop, stop, and the same goes if they pull away or freeze, or you're not sure they want it.",
+   "payoff": "they stop at \"stop\", and also when the friend pulls away, freezes, or they can't tell",
+   "follows": "after asking, when to stop",
+   "link": "none: a new step, after the ones before it"
+  },
+  {
+   "s": "Check your own reasons, too: if you mostly want to touch them to calm yourself down, or there's anything sexual in it, don't.",
+   "payoff": "they check their own reasons and hold off when the touch is mostly to calm themselves, or has anything sexual in it",
+   "follows": "the last check, on the helper",
+   "link": "too"
+  }
+ ],
+ "checked": [],
+ "placement": "the section after \"Hand on Heart and Gratitude\", which ends on putting a hand on your own heart; this paragraph turns to touching someone else, and the pair is the whole section",
+ "opens": {
+  "first_sentence": "Ask before you touch someone who's tripping, even to put a hand on their heart: \"Would touch help, or would you rather have space?\"",
+  "why_reading": "it tells someone about to touch a tripping friend to ask first, and gives them the question"
+ },
+ "same_point": "none: read the section from its heading to the next for asking before touch, when to stop and the helper's own reasons: the section is these two paragraphs, and the \"Do\" list of For the Person Helping asks \"Closer or farther away?\", not about touch",
+ "needed": {
+  "reader": "a fresh agent (Sonnet) given tools/humanization/needed_read_brief.md with only the text, its heading and what it is for (reads/need-b02-touch-1.txt; the draft it read: reads/read-text-b02-touch-1.txt)",
+  "unneeded": [],
+  "kept": {}
+ },
+ "his_fixes": {
+  "reader": "a fresh agent (Sonnet) given tools/humanization/his_fixes_brief.md, the eleven ways, with the text one sentence a line (reads/his-b02-touch-1.txt; the draft it read: reads/read-text-b02-touch-1.txt)",
+  "marked": [
+   {
+    "s": "A hug can feel like too much in that state, however much you mean it as comfort, and holding them down can feel like an attack.",
+    "difference": "3"
+   },
+   {
+    "s": "Touch should never be sexual, and if part of why you want to touch them is that it would make you feel better, don't.",
+    "difference": "5"
+   }
+  ],
+  "kept": {}
+ },
+ "fit": {
+  "reader": "a fresh agent (Sonnet) given tools/humanization/fit_read_brief.md, the universal version (reads/fit-b02-touch-1.txt; the draft it read: reads/read-text-b02-touch-1.txt)",
+  "marked": [
+   {
+    "s": "Touch should never be sexual, and if part of why you want to touch them is that it would make you feel better, don't.",
+    "found": "CAN'T TELL, MISREAD"
+   }
+  ],
+  "kept": {}
+ },
+ "questions": {
+  "Q1": "PASS: each sentence opens on what to do or what can happen; the question to ask comes in the first",
+  "Q2": "PASS: ask, sit six feet away, stop, check your own reasons: all the helper's acts",
+  "Q3": "PASS: \"a hand on their heart\", \"a hug\", \"holding them down\", \"six feet away\"",
+  "Q4": "PASS: no term to explain",
+  "Q5": "PASS: the reason follows the asking; \"If they say stop\" follows the asking; \"too\" marks the last check",
+  "Q6": "PASS: ask, why, the no-touch answer, when to stop, the helper's own reasons",
+  "Q7": "PASS: each line is about touching this friend now",
+  "Q8": "PASS: all about touch and consent",
+  "Q9": "PASS: \"nonsexual, consensual, and unrelated to the helper's needs\" said as the helper checking their own reasons; the list of five kinds of touch cut to the two that say why"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

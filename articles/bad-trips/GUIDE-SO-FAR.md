@@ -179,7 +179,7 @@ Serotonin syndrome overlaps with several symptoms above, but the rescue measures
 
 ### Recognizing serotonin toxicity
 
-We can use the same Hunter criteria that clinicians use to diagnose serotonin syndrome. One or more of these patterns makes the diagnosis more likely:
+To diagnose serotonin syndrome, we can use the Hunter criteria, the same checklist clinicians use. Using Hunter, one or more of these patterns makes the diagnosis more likely:
 
 - Spontaneous clonus: involuntary rhythmic muscle spasms, with no stimulation needed to set it off, would be one full pattern
 - Inducible clonus, spasms set off by stretching/flexing a muscle, plus agitation or sweating would be counted as one pattern altogether.
@@ -416,7 +416,7 @@ This post collects my own experience and thinking, but I would be remiss not to 
 
 ![](https://substack-post-media.s3.amazonaws.com/public/images/944bef30-ca59-415b-a2e8-809a29ac2ba6_1122x1402.png)
 
-Anything that could let someone hurt themselves in the next five minutes takes priority, so get the car keys out of reach and turn the stove off, and move them away from roads and balconies, or pools of water for that matter. Letting them move around is fine, and pacing can help, but keep them from taking more of any substance. If they want to go confront somebody, that can wait. And if they want to leave, have someone go with them. Put any weapons away and keep the person away from crowds and strangers. If they want to post their big revelation about the universe, or message an ex, take the phone.
+Anything that could let someone hurt themselves in the next five minutes takes priority, so get the car keys out of reach and turn the stove off, and move them away from roads and balconies, or pools of water for that matter. Letting them move around is fine, and pacing can help, but keep them from taking more of any substance or getting into confrontations. And if they want to leave, have someone go with them. Put any weapons away and keep the person away from crowds and strangers. If they want to post their big revelation about the universe, or message an ex, take the phone.
 
 They're feeling overwhelmed, so dim the lights, and clear out the extra people around them.
 
@@ -639,9 +639,9 @@ Overly focusing on the "light" or positive side of things can cause the subconsc
 
 But over-focusing the mind for any reason can also create pressure. When the mind is stressed, it seeks an exit from the pressure, often in the opposite direction from what's focusing it. An intensive meditation retreat, or a weighty obligation, or a large psychedelic dose could all be putting that focusing pressure on and leading to dark stuff coming into focus as a misunderstood signal to ease up.
 
-So relax, unwind, unbind, and unweave the identity illusion, mind, and unified experience. My pamphlet on already-perfect goes further into this.
+Shadow thoughts also serve to show us the danger with *identifying* with *any* contents of the mind. Whatever comes through the mind should be seen like water flowing over rocks. In the first stage of working with the mind, we re-identify as the gold-panners, sifting through the infinite possibilities, and making use of the best, truest, loveliest, most skillful thoughts and feelings, without taking those to be ourself. We don't need to suppress the shadow thoughts, confess them, or use them to diagnose ourselves. Simply notice: "A thought or feeling is passing through. As heavy as it feels to hold or block it, that is as liberating as it feels to let it go."
 
-During a trip, don't identify with every shadow thought, suppress it, confess it to everybody, or convert it into a permanent diagnosis. Notice: **"A thought is here. A feeling is here. It is intense, but it is not the whole of me."** Then return to room, body, human, time, and love.
+So relax, unwind, unbind, and unweave the identity illusion, mind, and unified experience. My pamphlet on already-perfect goes further into this.
 
 ### The Joker Poem
 
@@ -742,9 +742,9 @@ A bad trip is one of those terms thrown around very loosely in the psychedelic s
 
 When too much hits you at once, your nervous system can become flooded, and nothing makes sense, even as the brain still tries to derive meanings that might create unhelpful feedback loops. Underlying those interpretations are factors like the dose of what drug(s) you took and how your body handles them, or how hard you pushed a practice. Old painful memories could have been triggered, or you may have gone in with a fearful or unloving mindset, or the setting or people around you could have fed into it. Be kind to yourself or to whoever's going through it, because blaming anyone only makes it heavier.
 
-Some say there's no such thing as a bad trip, because it's all a doorway to shadow work. But if you had no intention of doing shadow work, that explanation might have come too late. Other bad trips seem unrelated to shadow work, although any negative experience can lead into it. Samsara offers no shortage of difficult experiences to process. It still makes sense to reduce present-moment trauma so we can address what was already there.
+Some say there's no such thing as a bad trip, because it's all a doorway to shadow work. But if you had no intention of doing shadow work today, you might feel unprepared and bewildered. And even though every difficult experience can be a learning or healing opportunity, it still makes sense to first reduce the trauma the trip itself is causing, so we can address what was already there underneath. It's like if someone throws a pile of garbage on some spot on the floor we forgot to clean... well, thanks for showing me that spot, but now I have to clean up the new mess first.
 
-Sometimes focusing on what we want makes the blockage visible:
+And we could practice to see that spot on the floor without such a crude pointer. Samsara, the cycle of existence, already offers no shortage of difficult experiences to process. For example, sometimes focusing on what we want shows us what's blocking it:
 
 ![Universe Sends What You Need](https://substack-post-media.s3.amazonaws.com/public/images/39743f7e-c7cd-4db7-933c-aa35a381f5b5_911x1600.jpeg)
 
@@ -786,7 +786,7 @@ It can feel like the more cosmic the story sounds, the bigger the insight. But t
 
 ## What Kind of Aftermath Is This?
 
-When symptoms linger, people too often put everything into the "I'm broken" bucket, which solves nothing. While a professional can be called in to help at any point, self-diagnostics and basic fix strategies may obviate the need for one. Try to find the underlying psychological and/or physiological patterns driving the symptoms:
+When symptoms linger after a trip, people too often put everything into the "I'm broken" bucket, the way children sometimes give up at the slightest difficulty. While a professional can be called in to help at any point, self-diagnostics and basic fix strategies usually obviate the need for one. Try to find the underlying psychological or physical patterns driving the symptoms:
 
 - **Anxiety and fear:** with this pattern, it helps to first figure out what is providing the stimulation for the anxiety. CBT-style reality testing, checking the frightening thought against what's actually happening, is one way to do that which could be explored with a therapist if it persists, but can be done without one to start with. In general, it can help to have grounding/relaxing routines (like morning or bedtime yin yoga, meeting a friend for lunch).
 - **Sleep disturbance and nightmares:** I'd first ensure no more substances are being used, including "normal" ones like coffee, which some people become extra sensitive to after certain psychedelics (especially iboga). Pay attention to sleep hygiene, especially what you eat at what time, and what you might not be processing during the day which then grabs attention at night.

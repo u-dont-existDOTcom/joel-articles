@@ -688,9 +688,19 @@ def sense_gate(a, text, sha, line):
                        'changes, and i checked each one. each was necessary to get to fully high conf human. first i '
                        'clarified what "it" was referring to, then i clarified what "too weak" meant")'
                        % (near.get('id', '?'), round(share * 100), round(NEAR_MISS * 100)))
+    # Lesson bad-trips-2026-11-20e: my try of his samsara paragraph added "the cycle of ordinary existence", a word the
+    # linter flags (O12: overused by AI); he took it out and the paragraph read Human High ("removed the ai tell word
+    # "ordinary" (it's on your linter right?)"). A try of mine adds none of these words to the lineage's text.
+    first = next((r for r in line if r.get('text')), None)
+    if first and text is not None:
+        added = sorted(set(w.lower() for w in O12.findall(text)) - set(w.lower() for w in O12.findall(first['text'])))
+        if added:
+            why.append('this try adds %s, which the linter flags as overused by AI (O12; lesson bad-trips-2026-11-20e): say '
+                       'the plain thing it stands for, or keep the lineage\'s own word' % ', '.join('"%s"' % w for w in added))
     return why
 
 
+O12 = re.compile(r"\b(ordinary|regular|boring|everyday|mundane|quietly)\b", re.I)
 FIRST_FIX_PARTS = ('payoff', 'join', 'plain')
 
 
@@ -741,6 +751,13 @@ def first_fix_gate(a, recs, text):
         return []
     said = (a.first_fix or '').lower()
     missing = [k for k in FIRST_FIX_PARTS if not re.search(r'\b%s\w*\s*:\s*\S.{6,}' % k, said)]
+    # Lesson bad-trips-2026-11-20c: "payoff: none moved" let every try keep the means before the payoff (his Hunter
+    # fix, 2026-11-20: "can't believe you still don't understand what i'm talking about when i say payoff first"). A
+    # payoff part that moved nothing says how each changed sentence already leads with what the reader gets.
+    m = re.search(r'\bpayoff\w*\s*:\s*([^;]*)', said)
+    if m and re.match(r'\s*(none|no |nothing)', m.group(1)) and not re.search(r'already leads?|leads with', m.group(1)):
+        missing.append('payoff ("none" must say how each changed sentence already leads with what the reader gets '
+                       'from it, lesson bad-trips-2026-11-20c)')
     if not missing:
         return []
     shown = '; '.join('"%s" (%s %s, %s)' % (old[:70], label, conf, pid) for pid, label, conf, old, new in hits[:3])

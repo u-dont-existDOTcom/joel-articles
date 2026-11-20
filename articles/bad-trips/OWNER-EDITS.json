@@ -46,11 +46,10 @@
   {
    "id": "q5-room-first",
    "status": "applied",
-   "what": "Q-5 (a): room before body in all four places; the fourth place, the loop breaker, cut with the Fear/Panic Loop section by his round-28 answer (LOOP-ONCE, 2026-11-09 17:22 UTC: \"i thought i already merged it and cut that section\")",
+   "what": "Q-5 (a): room before body in all four places; the fourth place, the loop breaker, cut with the Fear/Panic Loop section by his round-28 answer (LOOP-ONCE, 2026-11-09 17:22 UTC: \"i thought i already merged it and cut that section\") | 2026-11-20: B415's line \"Then return to room, body, human, time, and love.\" went with his round-44 paragraph (r44-shadow-p7-his); room before body still holds in the Grounding Menu",
    "joel": "18:59: \"q-5 a\"",
    "must_contain": [
-    "room → body → human → time → meaning",
-    "Then return to room, body, human, time, and love."
+    "room → body → human → time → meaning"
    ],
    "must_not_contain": [
     "body → room",
@@ -232,10 +231,10 @@
   {
    "id": "r06-move-his-version",
    "status": "applied",
-   "what": "MOVE-YOURS: his paragraph, the movement lines inside his dangers paragraph",
+   "what": "MOVE-YOURS: his paragraph, the movement lines inside his dangers paragraph | 2026-11-20: his round-44 version (r44-confront-his) says this line his new way; the check follows it",
    "joel": "15:14: \"now it's all high conf human\"",
    "must_contain_exact": [
-    "or pools of water for that matter. Letting them move around is fine, and pacing can help, but keep them from taking more of any substance. If they want to go confront somebody, that can wait. And if they want to leave, have someone go with them. Put any weapons away"
+    "or pools of water for that matter. Letting them move around is fine, and pacing can help, but keep them from taking more of any substance or getting into confrontations. And if they want to leave, have someone go with them. Put any weapons away"
    ],
    "must_not_contain": [
     "Movement is allowed. Unsafe movement is not."
@@ -929,7 +928,7 @@
   {
    "id": "r27-his-versions",
    "status": "applied",
-   "what": "his round-27 versions as he sent them, obvious typos fixed (review/r27/apply_r27.py): the first five minutes as one piece (the helper's anchor line, offering gently, the argument line, the panic loop, the demon and love, his own story of the voice), the helper's Don't heading and its two paragraphs out since his piece says them; his What Kind of Aftermath Is This? list; and round 27's two approved put-backs",
+   "what": "his round-27 versions as he sent them, obvious typos fixed (review/r27/apply_r27.py): the first five minutes as one piece (the helper's anchor line, offering gently, the argument line, the panic loop, the demon and love, his own story of the voice), the helper's Don't heading and its two paragraphs out since his piece says them; his What Kind of Aftermath Is This? list; and round 27's two approved put-backs | 2026-11-20: his round-44 version (r44-aftermath-his) says this line his new way; the check follows it",
    "joel": "2026-11-09 01:24 UTC, round 27 (review/r27/ANSWERS-R27-20261109-0124.json): \"why did you lose my fixes from before? i'm putting them back and adding the fear panic loop plus my experience\"; his aftermath version checked High (85f35730); BACK-HIERARCHY-WHY and BACK-GROUNDING-LOVE approved",
    "must_contain_exact": [
     "So don't force eye contact, touch, music, prayer, chanting on them, just offer gently if it might help.",
@@ -937,7 +936,7 @@
     "Sometimes people get stuck in a panic loop, where they make interpretations to try to solve a feeling of panic",
     "which led to 3 weeks of wandering in Malaysia & Cambodia without money once",
     "The voice didn't respond, it just went away.",
-    "When symptoms linger, people too often put everything into the \"I'm broken\" bucket, which solves nothing.",
+    "When symptoms linger after a trip, people too often put everything into the \"I'm broken\" bucket, the way children sometimes give up at the slightest difficulty.",
     "**Somatic hyperarousal:** This is not rumination, but more like akathisia, bodily restlessness.",
     "The hierarchy appears before the mystical sections because love doesn't require us to ignore the body.",
     "Grounding is love becoming practical. Choose one or two options rather than all of them."
@@ -1216,10 +1215,10 @@
   {
    "id": "r36-teach-ss",
    "status": "applied",
-   "what": "Suspected Serotonin Syndrome's recognition part is his version, the text of his last check 9e32c090, with \"the these\" made \"these\" (round 36, card TEACH-SS; review/r36/apply_r36.py)",
+   "what": "Suspected Serotonin Syndrome's recognition part is his version, the text of his last check 9e32c090, with \"the these\" made \"these\" (round 36, card TEACH-SS; review/r36/apply_r36.py) | 2026-11-20: his round-44 version (r44-ss-lead-his) says this line his new way; the check follows it",
    "joel": "2026-11-12 14:45:53 UTC: round 36's export, TEACH-SS revised, with his three tries and \"now it's all high conf human\"",
    "must_contain_exact": [
-    "We can use the same Hunter criteria that clinicians use to diagnose serotonin syndrome.",
+    "To diagnose serotonin syndrome, we can use the Hunter criteria, the same checklist clinicians use.",
     "would be counted as one pattern altogether.",
     "So if you see any of these patterns, call medics."
    ],
@@ -1534,6 +1533,66 @@
    "must_not_contain": [
     "I also notice them after excessive focus.",
     "In the subconscious world of concepts, however, two sides are often considered together."
+   ]
+  },
+  {
+   "id": "r44-shadow-p7-his",
+   "status": "applied",
+   "what": "Dealing With Shadow Thoughts' paragraph on identifying with the mind's contents, his own (round 44, TEACH-TRIP-SHADOW; his check ab6720fc, Human High 370), before \"So relax ...\"; \"we re-identifying\" read as \"we re-identify\"",
+   "joel": "2026-11-20 13:25 UTC: \"all human high conf, i felt that the last para needed more work and was in thew rong place also\"",
+   "applied_by": "review/r44/ANSWERS-R44-20261120-1353.json (exported 2026-11-20 13:53:52 UTC), put in by review/r44/apply_r44.py",
+   "must_contain_exact": [
+    "Shadow thoughts also serve to show us the danger with *identifying* with *any* contents of the mind. Whatever comes through the mind should be seen like water flowing over rocks. In the first stage of working with the mind, we re-identify as the gold-panners, sifting through the infinite possibilities, and making use of the best, truest, loveliest, most skillful thoughts and feelings, without taking those to be ourself. We don't need to suppress the shadow thoughts, confess them, or use them to diagnose ourselves. Simply notice: \"A thought or feeling is passing through. As heavy as it feels to hold or block it, that is as liberating as it feels to let it go.\""
+   ],
+   "must_not_contain": [
+    "During a trip, don't identify with every shadow thought"
+   ]
+  },
+  {
+   "id": "r44-aftermath-his",
+   "status": "applied",
+   "what": "What Kind of Aftermath Is This?, his first paragraph (round 44, EDIT-AFTERMATH; his check 1e3928a2)",
+   "joel": "2026-11-20 13:53 UTC: \"first i thought \"may\" sounds so ai, and what i meant was \"usually\" ... i changed solves nothing to an analogy about children and it flipped it all high conf human\"",
+   "applied_by": "review/r44/ANSWERS-R44-20261120-1353.json (exported 2026-11-20 13:53:52 UTC), put in by review/r44/apply_r44.py",
+   "must_contain_exact": [
+    "When symptoms linger after a trip, people too often put everything into the \"I'm broken\" bucket, the way children sometimes give up at the slightest difficulty. While a professional can be called in to help at any point, self-diagnostics and basic fix strategies usually obviate the need for one. Try to find the underlying psychological or physical patterns driving the symptoms:"
+   ]
+  },
+  {
+   "id": "r44-ss-lead-his",
+   "status": "applied",
+   "what": "Recognizing serotonin toxicity, his lead-in with the payoff first (round 44, EDIT-SS-LEAD; his check fe532a4d)",
+   "joel": "2026-11-20 12:35 UTC: \"can't believe you still don't understand what i'm talking about when i say payoff first. look, i moved the payoff first and now it's almost all human\"",
+   "applied_by": "review/r44/ANSWERS-R44-20261120-1353.json (exported 2026-11-20 13:53:52 UTC), put in by review/r44/apply_r44.py",
+   "must_contain_exact": [
+    "To diagnose serotonin syndrome, we can use the Hunter criteria, the same checklist clinicians use. Using Hunter, one or more of these patterns makes the diagnosis more likely:"
+   ]
+  },
+  {
+   "id": "r44-confront-his",
+   "status": "applied",
+   "what": "The First Five Minutes, his dangers paragraph with confrontations folded into \"keep them from ...\" (round 44, EDIT-CONFRONT; his check e04e1552, Human High 107)",
+   "joel": "card EDIT-CONFRONT revised, 2026-11-20 12:37 UTC, his check linked",
+   "applied_by": "review/r44/ANSWERS-R44-20261120-1353.json (exported 2026-11-20 13:53:52 UTC), put in by review/r44/apply_r44.py",
+   "must_contain_exact": [
+    "Anything that could let someone hurt themselves in the next five minutes takes priority, so get the car keys out of reach and turn the stove off, and move them away from roads and balconies, or pools of water for that matter. Letting them move around is fine, and pacing can help, but keep them from taking more of any substance or getting into confrontations. And if they want to leave, have someone go with them. Put any weapons away and keep the person away from crowds and strangers. If they want to post their big revelation about the universe, or message an ex, take the phone."
+   ],
+   "must_not_contain": [
+    "If they want to go confront somebody, that can wait."
+   ]
+  },
+  {
+   "id": "r44-redefining-his",
+   "status": "applied",
+   "what": "(Re)defining \"Bad Trip\", his two paragraphs (round 44, EDIT-REDEFINING; his check a03b5901, Human High 155)",
+   "joel": "2026-11-20 13:46 UTC: \"removed the ai tell word \"ordinary\" (it's on your linter right?) and now it's all high conf human\"",
+   "applied_by": "review/r44/ANSWERS-R44-20261120-1353.json (exported 2026-11-20 13:53:52 UTC), put in by review/r44/apply_r44.py",
+   "must_contain_exact": [
+    "Some say there's no such thing as a bad trip, because it's all a doorway to shadow work. But if you had no intention of doing shadow work today, you might feel unprepared and bewildered. And even though every difficult experience can be a learning or healing opportunity, it still makes sense to first reduce the trauma the trip itself is causing, so we can address what was already there underneath. It's like if someone throws a pile of garbage on some spot on the floor we forgot to clean... well, thanks for showing me that spot, but now I have to clean up the new mess first.",
+    "And we could practice to see that spot on the floor without such a crude pointer. Samsara, the cycle of existence, already offers no shortage of difficult experiences to process. For example, sometimes focusing on what we want shows us what's blocking it:"
+   ],
+   "must_not_contain": [
+    "Samsara, the cycle of ordinary existence"
    ]
   }
  ]
