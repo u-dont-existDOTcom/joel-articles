@@ -6,7 +6,7 @@ already know to link that one, or if any article mentions another, it links that
 like snippets that are the same in different articles we can store them once rather than twice or link snippets if they
 depend on each other, stuff like that. can we brainstorm how to design or adopt that system?"
 
-Status: a proposal, with four questions for him at the end. Nothing is built yet.
+Status: decided (his answers of 2026-11-20 23:40 UTC, at the end) and handed to a lane of its own: [the lane's handoff](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/docs/proposals/2026-11-20-substack-system-HANDOFF.md), which carries his answers and the three things he added (a conflict checker across posts, asking where a new point belongs, and a copy of everything that can move to a new Substack or his VPS). Nothing is built yet.
 
 ## What it has to do
 
@@ -43,9 +43,10 @@ share.
 - **Note apps.** Obsidian gives each note aliases, lists the "unlinked mentions" of a note's name across the vault (point
   1, found for you), shows backlinks (point 2), and embeds one note's section or paragraph inside another (point 3).
   Logseq and Roam do the same with block references; Notion's synced blocks show one block in many pages, edited once.
-- **Substack itself** has none of these, as far as I know: each post is its own document, edited in its editor, with no
-  includes or synced blocks. So whatever keeps a passage once has to copy it into each post when the post is updated, or
-  link to one place instead of repeating it.
+- **Substack itself** (corrected by Joel, 2026-11-20 23:40 UTC): "substack has includes but they aren't synced".
+  Notes are synced: a post can link to a Note or embed it, but an embed shows only part of the Note until the reader
+  clicks it, so it isn't always right in place of the text. So a passage kept once is either copied into each post
+  when the post is updated, linked to one place, or, where a short synced pointer is enough, an embedded Note.
 
 ## Three ways to build it
 
@@ -109,3 +110,7 @@ How it would start:
 4. **Scope of the first pass:** every post on ibogaqueen.substack.com and his u-dont-exist.com guides, registering his own
    things first (videos, guides, apps, products) and the outside sources he cites often after. Anything to add or leave
    out?
+
+## His answers (2026-11-20 23:40 UTC)
+
+"1. b, i don't want to write stuff in obsidian, not sure how that would transfer to substack with embeds and such, but open to your suggestions / 2. substack has includes but they aren't synced / substack has Notes, which are synced, so we can link to notes or we can embed notes (not the full note gets shown). However, it may not always be appropriate to embed a note instead of directly putting the text tehre, since the full note isn't shown in the article until they click it. / idk if you can find all my notes, most of them were jst one time things that would not be included in articles, and i think all the ones that would be included already are included in some article or another. / 3. your pick yes / 4. yes. we should also have a substack-wide conflict checker. ... / you can hand all this work off to a separate lane so you can continue on bad trips humanization" (whole, in the handoff).
