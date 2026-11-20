@@ -19,8 +19,14 @@ Rules v2 (order-test/input/RULES-ORGANIZE-2.md) outputs ready but NOT yet scored
 Exact-match baselines vs his 146 picks: Opus t130 132, Fable t131 121, Opus B2 119, GPT C 91, his 17 Nov 43. New runs with RULES-HEADINGS.md: SONNET-1, FABLE-1, GPT-1 in heading-test/out, NOT yet scored (heading-test/validate.py; then blind Sonnet judge same/close/different).
 Patterns in his picks: Title Case, short and clear; questions for "is this me?" sections; positive framing; "you"; no meaning changes or misleading words; second heading for two-part sections; his exact old words are not a priority.
 
+## Resumed 2026-11-20 18:27 UTC (other account): step 1 done
+- Scored: RESULTS.md (made by score_t132.py; rerun it to check). Order: no model came near his order; GPT with rules v1 made the most of his moves (9, 8 of 20) and the most he didn't (16, 23); rules v2 helped none. Headings: blind Sonnet judge (heading-judge/, key kept apart from the judge): Fable 134 of 147 same or close, Sonnet and GPT 129.
+- Saved for every lane: tools/humanization/contents_order_brief.md (rules v1, with the finding at the top), tools/humanization/headings_brief.md (RULES-HEADINGS.md plus the five picks all three missed), tools/humanization/section_links.py (the slug rule wasn't in lib132.js after all; rebuilt from the 22 links here and 15 bad trips anchors, with tests/test_section_links.py), docs/FIXING-AN-ARTICLE.md section 3, lessons docs/lessons/2026-11-20-1639-inner-child.md (inner-child-2026-11-20a to d).
+- Question 112 on OWNER-QUESTIONS.md: why the five missed headings, plus S029's lower case and S035's quote marks (old step 4).
+- S013's mention of "Compassion Exit?" stays unlinked on purpose (recorded in CURRENT-STATE.md): Claude declined to link the crisis paragraph to that section; Joel kept the mention and can add the link himself.
+
 ## Next steps
-1. Score rules-v2 order runs + heading runs; pick the best model+rules; save universal rules into docs/ (organizing prompt, heading rules, "section mentions are always linked", intro-sentence rule) and update docs/FIXING-AN-ARTICLE.md §3. Add tools/humanization/section_links.py from publish/lib132.js slug rule.
+1. Done 2026-11-20 (see above).
 2. Options page: own-words box sized to each level's sidebar room (toc_sidebar.py ROOM h1 217, h2 205, h3 193, h4 181 px, Inter 15px) for 3 and 4 columns.
 3. REVIEW.json: 35 flagged passages (11 high) -> marking page for him; not applied.
 4. Questions for him: S029 lower case, S035 kept "Shame Says “Unlovable”", S139 "If They Can’t Hear You" - why.

@@ -1,6 +1,6 @@
 # Inner Child article: questions for Joel
 
-Last updated 2026-11-17 (turn 131). **Open question: 111**, which headings go in your post for the narrow sidebar. The to-do entries below date from turn 115 (26 October) and weren't rechecked this turn, except pull request #255, which you merged on 3 November. To answer a question, reply in chat with its number and a letter, like `111: A`, or in your own words.
+Last updated 2026-11-20 (turn 132). **Open question: 112**, why you picked five of your headings, so the headings brief can produce them. Question 111 is answered (your own picks, live in the post since 20 November). The to-do entries below date from turn 115 (26 October) and weren't rechecked this turn, except pull request #255, which you merged on 3 November. To answer a question, reply in chat with its number and a letter, like `111: A`, or in your own words.
 
 🟣 a question for you · 🟠 for you to do · 🔵 next or in progress · 🟢 done or decided
 
@@ -8,7 +8,21 @@ The published page, a view of this file rebuilt after every change ([questions_p
 
 ## Open questions
 
-### 🟣 111. Which headings go in your post for the narrow sidebar? (turns 130 and 131)
+### 🟣 112. Why did you pick these five headings? (turn 132)
+
+You asked for instructions that would produce your heading picks, and said to ask where it wasn't clear why you picked something. Three fresh writers (Fable, Sonnet, GPT) named all 147 headings with the new [headings brief](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/tools/humanization/headings_brief.md); Fable came closest, the same as yours or close on 134 ([RESULTS.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/inner-child-therapy/experiments/t132-toc-links/RESULTS.md)). On these five, all three missed what yours says. For each, **A** is my reading of why you picked it; answer A, or say why in your own words, and the brief takes your reason as its rule.
+
+1. **"“No. I Hate Myself.”"** (they wrote "The Part That Came Here"). A: a section that answers something readers say to themselves gets their words, in quotes.
+2. **"Attacked by a Demon?"** (they wrote "Prepare for Altered States"). A: name the situation the reader comes with, as they'd put it, not the section's advice.
+3. **"If They Can't Hear You"** (they wrote "Others Have Hooks Too"). A: the same, the reader's situation rather than the section's explanation.
+4. **"Spirit Attacks Teach Love"** (they wrote "Gain from Spiritual Attack"). A: name the specific payoff, not a general one.
+5. **"Altered States"** (they wrote "Altered States & Intensives"). A: a part's heading names its main subject only.
+
+Also from your picks, two I'd like to understand: why **"Earning trust, day to day"** stays lower case while its siblings are in Title Case, and why **"Shame Says “Unlovable”"** keeps the quote marks.
+
+### 🟢 111. Which headings go in your post for the narrow sidebar? (turns 130 and 131)
+
+Answered 2026-11-20 16:39 UTC: your own picks, set in the post exactly as you chose them in turn 132 (live since 17:06 UTC).
 
 Substack's sidebar cuts off 105 of the guide's 147 listed headings. Opus renamed them to fit on 16 November (turn 130), and Fable checked that work on 17 November (turn 131, [CHECK.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/inner-child-therapy/experiments/t131-toc-check/CHECK.md)). Fresh readers went to the right section first on about 54 of 68 situations with any renamed version, against about 46 with your sidebar as it is. Your order stays in every option.
 

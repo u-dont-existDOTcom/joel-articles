@@ -1,0 +1,737 @@
+{
+ "S001": {
+  "A": "GPT-1",
+  "B": "SONNET-1",
+  "C": "FABLE-1"
+ },
+ "S002": {
+  "A": "GPT-1",
+  "B": "SONNET-1",
+  "C": "FABLE-1"
+ },
+ "S003": {
+  "A": "FABLE-1",
+  "B": "GPT-1",
+  "C": "SONNET-1"
+ },
+ "S004": {
+  "A": "GPT-1",
+  "B": "SONNET-1",
+  "C": "FABLE-1"
+ },
+ "S005": {
+  "A": "FABLE-1",
+  "B": "SONNET-1",
+  "C": "GPT-1"
+ },
+ "S006": {
+  "A": "GPT-1",
+  "B": "FABLE-1",
+  "C": "SONNET-1"
+ },
+ "S007": {
+  "A": "GPT-1",
+  "B": "SONNET-1",
+  "C": "FABLE-1"
+ },
+ "S008": {
+  "A": "GPT-1",
+  "B": "SONNET-1",
+  "C": "FABLE-1"
+ },
+ "S009": {
+  "A": "SONNET-1",
+  "B": "FABLE-1",
+  "C": "GPT-1"
+ },
+ "S010": {
+  "A": "GPT-1",
+  "B": "FABLE-1",
+  "C": "SONNET-1"
+ },
+ "S011": {
+  "A": "SONNET-1",
+  "B": "FABLE-1",
+  "C": "GPT-1"
+ },
+ "S012": {
+  "A": "SONNET-1",
+  "B": "GPT-1",
+  "C": "FABLE-1"
+ },
+ "S013": {
+  "A": "FABLE-1",
+  "B": "GPT-1",
+  "C": "SONNET-1"
+ },
+ "S014": {
+  "A": "FABLE-1",
+  "B": "SONNET-1",
+  "C": "GPT-1"
+ },
+ "S015": {
+  "A": "SONNET-1",
+  "B": "FABLE-1",
+  "C": "GPT-1"
+ },
+ "S017": {
+  "A": "FABLE-1",
+  "B": "SONNET-1",
+  "C": "GPT-1"
+ },
+ "S018": {
+  "A": "FABLE-1",
+  "B": "SONNET-1",
+  "C": "GPT-1"
+ },
+ "S019": {
+  "A": "GPT-1",
+  "B": "SONNET-1",
+  "C": "FABLE-1"
+ },
+ "S020": {
+  "A": "SONNET-1",
+  "B": "GPT-1",
+  "C": "FABLE-1"
+ },
+ "S021": {
+  "A": "GPT-1",
+  "B": "SONNET-1",
+  "C": "FABLE-1"
+ },
+ "S022": {
+  "A": "FABLE-1",
+  "B": "SONNET-1",
+  "C": "GPT-1"
+ },
+ "S023": {
+  "A": "SONNET-1",
+  "B": "FABLE-1",
+  "C": "GPT-1"
+ },
+ "S024": {
+  "A": "FABLE-1",
+  "B": "GPT-1",
+  "C": "SONNET-1"
+ },
+ "S025": {
+  "A": "GPT-1",
+  "B": "SONNET-1",
+  "C": "FABLE-1"
+ },
+ "S026": {
+  "A": "FABLE-1",
+  "B": "GPT-1",
+  "C": "SONNET-1"
+ },
+ "S027": {
+  "A": "SONNET-1",
+  "B": "GPT-1",
+  "C": "FABLE-1"
+ },
+ "S028": {
+  "A": "GPT-1",
+  "B": "SONNET-1",
+  "C": "FABLE-1"
+ },
+ "S029": {
+  "A": "GPT-1",
+  "B": "FABLE-1",
+  "C": "SONNET-1"
+ },
+ "S030": {
+  "A": "FABLE-1",
+  "B": "SONNET-1",
+  "C": "GPT-1"
+ },
+ "S031": {
+  "A": "SONNET-1",
+  "B": "GPT-1",
+  "C": "FABLE-1"
+ },
+ "S032": {
+  "A": "GPT-1",
+  "B": "FABLE-1",
+  "C": "SONNET-1"
+ },
+ "S033": {
+  "A": "FABLE-1",
+  "B": "SONNET-1",
+  "C": "GPT-1"
+ },
+ "S034": {
+  "A": "FABLE-1",
+  "B": "GPT-1",
+  "C": "SONNET-1"
+ },
+ "S035": {
+  "A": "FABLE-1",
+  "B": "GPT-1",
+  "C": "SONNET-1"
+ },
+ "S036": {
+  "A": "GPT-1",
+  "B": "SONNET-1",
+  "C": "FABLE-1"
+ },
+ "S037": {
+  "A": "GPT-1",
+  "B": "FABLE-1",
+  "C": "SONNET-1"
+ },
+ "S038": {
+  "A": "SONNET-1",
+  "B": "FABLE-1",
+  "C": "GPT-1"
+ },
+ "S039": {
+  "A": "GPT-1",
+  "B": "FABLE-1",
+  "C": "SONNET-1"
+ },
+ "S040": {
+  "A": "GPT-1",
+  "B": "SONNET-1",
+  "C": "FABLE-1"
+ },
+ "S041": {
+  "A": "FABLE-1",
+  "B": "GPT-1",
+  "C": "SONNET-1"
+ },
+ "S042": {
+  "A": "FABLE-1",
+  "B": "SONNET-1",
+  "C": "GPT-1"
+ },
+ "S043": {
+  "A": "FABLE-1",
+  "B": "GPT-1",
+  "C": "SONNET-1"
+ },
+ "S044": {
+  "A": "SONNET-1",
+  "B": "GPT-1",
+  "C": "FABLE-1"
+ },
+ "S045": {
+  "A": "SONNET-1",
+  "B": "FABLE-1",
+  "C": "GPT-1"
+ },
+ "S046": {
+  "A": "GPT-1",
+  "B": "FABLE-1",
+  "C": "SONNET-1"
+ },
+ "S047": {
+  "A": "GPT-1",
+  "B": "SONNET-1",
+  "C": "FABLE-1"
+ },
+ "S048": {
+  "A": "SONNET-1",
+  "B": "FABLE-1",
+  "C": "GPT-1"
+ },
+ "S049": {
+  "A": "GPT-1",
+  "B": "FABLE-1",
+  "C": "SONNET-1"
+ },
+ "S050": {
+  "A": "FABLE-1",
+  "B": "GPT-1",
+  "C": "SONNET-1"
+ },
+ "S052": {
+  "A": "GPT-1",
+  "B": "FABLE-1",
+  "C": "SONNET-1"
+ },
+ "S053": {
+  "A": "FABLE-1",
+  "B": "SONNET-1",
+  "C": "GPT-1"
+ },
+ "S054": {
+  "A": "FABLE-1",
+  "B": "SONNET-1",
+  "C": "GPT-1"
+ },
+ "S055": {
+  "A": "FABLE-1",
+  "B": "SONNET-1",
+  "C": "GPT-1"
+ },
+ "S056": {
+  "A": "SONNET-1",
+  "B": "GPT-1",
+  "C": "FABLE-1"
+ },
+ "S058": {
+  "A": "FABLE-1",
+  "B": "SONNET-1",
+  "C": "GPT-1"
+ },
+ "S059": {
+  "A": "FABLE-1",
+  "B": "SONNET-1",
+  "C": "GPT-1"
+ },
+ "S060": {
+  "A": "GPT-1",
+  "B": "FABLE-1",
+  "C": "SONNET-1"
+ },
+ "S061": {
+  "A": "FABLE-1",
+  "B": "SONNET-1",
+  "C": "GPT-1"
+ },
+ "S062": {
+  "A": "SONNET-1",
+  "B": "GPT-1",
+  "C": "FABLE-1"
+ },
+ "S063": {
+  "A": "SONNET-1",
+  "B": "FABLE-1",
+  "C": "GPT-1"
+ },
+ "S064": {
+  "A": "GPT-1",
+  "B": "FABLE-1",
+  "C": "SONNET-1"
+ },
+ "S065": {
+  "A": "GPT-1",
+  "B": "FABLE-1",
+  "C": "SONNET-1"
+ },
+ "S066": {
+  "A": "SONNET-1",
+  "B": "FABLE-1",
+  "C": "GPT-1"
+ },
+ "S067": {
+  "A": "SONNET-1",
+  "B": "FABLE-1",
+  "C": "GPT-1"
+ },
+ "S068": {
+  "A": "GPT-1",
+  "B": "SONNET-1",
+  "C": "FABLE-1"
+ },
+ "S069": {
+  "A": "GPT-1",
+  "B": "FABLE-1",
+  "C": "SONNET-1"
+ },
+ "S070": {
+  "A": "FABLE-1",
+  "B": "GPT-1",
+  "C": "SONNET-1"
+ },
+ "S071": {
+  "A": "FABLE-1",
+  "B": "SONNET-1",
+  "C": "GPT-1"
+ },
+ "S072": {
+  "A": "SONNET-1",
+  "B": "GPT-1",
+  "C": "FABLE-1"
+ },
+ "S073": {
+  "A": "SONNET-1",
+  "B": "FABLE-1",
+  "C": "GPT-1"
+ },
+ "S074": {
+  "A": "FABLE-1",
+  "B": "GPT-1",
+  "C": "SONNET-1"
+ },
+ "S075": {
+  "A": "GPT-1",
+  "B": "SONNET-1",
+  "C": "FABLE-1"
+ },
+ "S076": {
+  "A": "GPT-1",
+  "B": "SONNET-1",
+  "C": "FABLE-1"
+ },
+ "S077": {
+  "A": "SONNET-1",
+  "B": "FABLE-1",
+  "C": "GPT-1"
+ },
+ "S078": {
+  "A": "FABLE-1",
+  "B": "GPT-1",
+  "C": "SONNET-1"
+ },
+ "S079": {
+  "A": "GPT-1",
+  "B": "SONNET-1",
+  "C": "FABLE-1"
+ },
+ "S080": {
+  "A": "FABLE-1",
+  "B": "GPT-1",
+  "C": "SONNET-1"
+ },
+ "S081": {
+  "A": "FABLE-1",
+  "B": "GPT-1",
+  "C": "SONNET-1"
+ },
+ "S082": {
+  "A": "FABLE-1",
+  "B": "GPT-1",
+  "C": "SONNET-1"
+ },
+ "S083": {
+  "A": "GPT-1",
+  "B": "FABLE-1",
+  "C": "SONNET-1"
+ },
+ "S084": {
+  "A": "GPT-1",
+  "B": "FABLE-1",
+  "C": "SONNET-1"
+ },
+ "S085": {
+  "A": "GPT-1",
+  "B": "FABLE-1",
+  "C": "SONNET-1"
+ },
+ "S086": {
+  "A": "GPT-1",
+  "B": "FABLE-1",
+  "C": "SONNET-1"
+ },
+ "S087": {
+  "A": "SONNET-1",
+  "B": "GPT-1",
+  "C": "FABLE-1"
+ },
+ "S088": {
+  "A": "GPT-1",
+  "B": "FABLE-1",
+  "C": "SONNET-1"
+ },
+ "S089": {
+  "A": "SONNET-1",
+  "B": "FABLE-1",
+  "C": "GPT-1"
+ },
+ "S090": {
+  "A": "FABLE-1",
+  "B": "SONNET-1",
+  "C": "GPT-1"
+ },
+ "S091": {
+  "A": "FABLE-1",
+  "B": "SONNET-1",
+  "C": "GPT-1"
+ },
+ "S092": {
+  "A": "GPT-1",
+  "B": "FABLE-1",
+  "C": "SONNET-1"
+ },
+ "S093": {
+  "A": "GPT-1",
+  "B": "SONNET-1",
+  "C": "FABLE-1"
+ },
+ "S094": {
+  "A": "GPT-1",
+  "B": "SONNET-1",
+  "C": "FABLE-1"
+ },
+ "S095": {
+  "A": "SONNET-1",
+  "B": "FABLE-1",
+  "C": "GPT-1"
+ },
+ "S096": {
+  "A": "FABLE-1",
+  "B": "SONNET-1",
+  "C": "GPT-1"
+ },
+ "S097": {
+  "A": "FABLE-1",
+  "B": "GPT-1",
+  "C": "SONNET-1"
+ },
+ "S098": {
+  "A": "SONNET-1",
+  "B": "GPT-1",
+  "C": "FABLE-1"
+ },
+ "S099": {
+  "A": "SONNET-1",
+  "B": "GPT-1",
+  "C": "FABLE-1"
+ },
+ "S106": {
+  "A": "GPT-1",
+  "B": "SONNET-1",
+  "C": "FABLE-1"
+ },
+ "S100": {
+  "A": "GPT-1",
+  "B": "FABLE-1",
+  "C": "SONNET-1"
+ },
+ "S101": {
+  "A": "FABLE-1",
+  "B": "SONNET-1",
+  "C": "GPT-1"
+ },
+ "S102": {
+  "A": "FABLE-1",
+  "B": "GPT-1",
+  "C": "SONNET-1"
+ },
+ "S103": {
+  "A": "GPT-1",
+  "B": "FABLE-1",
+  "C": "SONNET-1"
+ },
+ "S104": {
+  "A": "FABLE-1",
+  "B": "GPT-1",
+  "C": "SONNET-1"
+ },
+ "S105": {
+  "A": "SONNET-1",
+  "B": "GPT-1",
+  "C": "FABLE-1"
+ },
+ "S107": {
+  "A": "GPT-1",
+  "B": "SONNET-1",
+  "C": "FABLE-1"
+ },
+ "S109": {
+  "A": "FABLE-1",
+  "B": "SONNET-1",
+  "C": "GPT-1"
+ },
+ "S110": {
+  "A": "FABLE-1",
+  "B": "SONNET-1",
+  "C": "GPT-1"
+ },
+ "S111": {
+  "A": "FABLE-1",
+  "B": "GPT-1",
+  "C": "SONNET-1"
+ },
+ "S112": {
+  "A": "FABLE-1",
+  "B": "SONNET-1",
+  "C": "GPT-1"
+ },
+ "S113": {
+  "A": "GPT-1",
+  "B": "FABLE-1",
+  "C": "SONNET-1"
+ },
+ "S114": {
+  "A": "SONNET-1",
+  "B": "GPT-1",
+  "C": "FABLE-1"
+ },
+ "S115": {
+  "A": "FABLE-1",
+  "B": "GPT-1",
+  "C": "SONNET-1"
+ },
+ "S116": {
+  "A": "FABLE-1",
+  "B": "GPT-1",
+  "C": "SONNET-1"
+ },
+ "S117": {
+  "A": "GPT-1",
+  "B": "FABLE-1",
+  "C": "SONNET-1"
+ },
+ "S118": {
+  "A": "SONNET-1",
+  "B": "GPT-1",
+  "C": "FABLE-1"
+ },
+ "S119": {
+  "A": "SONNET-1",
+  "B": "FABLE-1",
+  "C": "GPT-1"
+ },
+ "S120": {
+  "A": "SONNET-1",
+  "B": "FABLE-1",
+  "C": "GPT-1"
+ },
+ "S121": {
+  "A": "GPT-1",
+  "B": "FABLE-1",
+  "C": "SONNET-1"
+ },
+ "S122": {
+  "A": "SONNET-1",
+  "B": "GPT-1",
+  "C": "FABLE-1"
+ },
+ "S123": {
+  "A": "FABLE-1",
+  "B": "SONNET-1",
+  "C": "GPT-1"
+ },
+ "S124": {
+  "A": "FABLE-1",
+  "B": "SONNET-1",
+  "C": "GPT-1"
+ },
+ "S125": {
+  "A": "SONNET-1",
+  "B": "GPT-1",
+  "C": "FABLE-1"
+ },
+ "S126": {
+  "A": "FABLE-1",
+  "B": "GPT-1",
+  "C": "SONNET-1"
+ },
+ "S127": {
+  "A": "GPT-1",
+  "B": "SONNET-1",
+  "C": "FABLE-1"
+ },
+ "S128": {
+  "A": "GPT-1",
+  "B": "SONNET-1",
+  "C": "FABLE-1"
+ },
+ "S129": {
+  "A": "GPT-1",
+  "B": "SONNET-1",
+  "C": "FABLE-1"
+ },
+ "S130": {
+  "A": "FABLE-1",
+  "B": "GPT-1",
+  "C": "SONNET-1"
+ },
+ "S131": {
+  "A": "GPT-1",
+  "B": "SONNET-1",
+  "C": "FABLE-1"
+ },
+ "S132": {
+  "A": "SONNET-1",
+  "B": "GPT-1",
+  "C": "FABLE-1"
+ },
+ "S133": {
+  "A": "GPT-1",
+  "B": "SONNET-1",
+  "C": "FABLE-1"
+ },
+ "S134": {
+  "A": "FABLE-1",
+  "B": "SONNET-1",
+  "C": "GPT-1"
+ },
+ "S135": {
+  "A": "FABLE-1",
+  "B": "SONNET-1",
+  "C": "GPT-1"
+ },
+ "S136": {
+  "A": "GPT-1",
+  "B": "FABLE-1",
+  "C": "SONNET-1"
+ },
+ "S137": {
+  "A": "SONNET-1",
+  "B": "FABLE-1",
+  "C": "GPT-1"
+ },
+ "S138": {
+  "A": "FABLE-1",
+  "B": "SONNET-1",
+  "C": "GPT-1"
+ },
+ "S139": {
+  "A": "SONNET-1",
+  "B": "GPT-1",
+  "C": "FABLE-1"
+ },
+ "S140": {
+  "A": "GPT-1",
+  "B": "SONNET-1",
+  "C": "FABLE-1"
+ },
+ "S141": {
+  "A": "GPT-1",
+  "B": "SONNET-1",
+  "C": "FABLE-1"
+ },
+ "S142": {
+  "A": "FABLE-1",
+  "B": "GPT-1",
+  "C": "SONNET-1"
+ },
+ "S143": {
+  "A": "SONNET-1",
+  "B": "FABLE-1",
+  "C": "GPT-1"
+ },
+ "S144": {
+  "A": "FABLE-1",
+  "B": "SONNET-1",
+  "C": "GPT-1"
+ },
+ "S145": {
+  "A": "FABLE-1",
+  "B": "GPT-1",
+  "C": "SONNET-1"
+ },
+ "S146": {
+  "A": "SONNET-1",
+  "B": "GPT-1",
+  "C": "FABLE-1"
+ },
+ "S147": {
+  "A": "GPT-1",
+  "B": "FABLE-1",
+  "C": "SONNET-1"
+ },
+ "S148": {
+  "A": "SONNET-1",
+  "B": "FABLE-1",
+  "C": "GPT-1"
+ },
+ "S149": {
+  "A": "GPT-1",
+  "B": "FABLE-1",
+  "C": "SONNET-1"
+ },
+ "S150": {
+  "A": "SONNET-1",
+  "B": "GPT-1",
+  "C": "FABLE-1"
+ },
+ "S151": {
+  "A": "SONNET-1",
+  "B": "FABLE-1",
+  "C": "GPT-1"
+ }
+}
