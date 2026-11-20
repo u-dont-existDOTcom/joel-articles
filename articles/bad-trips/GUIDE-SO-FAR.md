@@ -554,7 +554,7 @@ The action lock matters especially when the state feels blissful: *I am God. I a
 
 Shadow work to me is neither BDSM nor "feeding your demons." It means bringing loving awareness to the parts of the mind built in fear, pain, humiliation, rejection, and survival. [Inner-child reparenting](http://innerchild.u-dont-exist.com) is central to shadow work. Most negative mind-states aren't some error in your philosophy, they're just young parts of you that are still waiting for love and protection and permission, and for the explanation nobody ever gave them.
 
-Begin with my [Inner Child Therapy guide](http://innerchild.u-dont-exist.com) and app, and my [Self-Hypnosis guide](http://hypnoisis.u-dont-exist.com) and app.
+Begin with my [Inner Child Therapy guide](http://innerchild.u-dont-exist.com) and app, and my [Self-Hypnosis guide](http://hypnosis.u-dont-exist.com) and app.
 
 ## Dealing With Sorrow: Missing Versus [Sending Love](http://love.u-dont-exist.com/)
 

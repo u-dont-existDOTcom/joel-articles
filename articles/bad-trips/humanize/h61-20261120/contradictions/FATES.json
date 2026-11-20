@@ -1,0 +1,76 @@
+{
+ "article": "articles/bad-trips/GUIDE-SO-FAR.md",
+ "extract": "articles/bad-trips/humanize/h61-20261120/contradictions/EXTRACT.md",
+ "items": {
+  "1": {
+   "fate": "answered",
+   "ref": "articles/bad-trips/humanize/h61-20261120/contradictions/fix_hypnosis_link.py",
+   "note": "a typo in his post's link (hypnoisis): the guide's other link to the same guide, in its first paragraph, is http://hypnosis.u-dont-exist.com/; fixed as an obvious correction (\"no need to ask me for obvious corrections\", 2026-11-12)"
+  },
+  "2": {
+   "fate": "explained",
+   "ref": "line 170",
+   "note": "slow breathing is a call-medics sign; the iboga line says it is normal with iboga and what makes it a danger sign there"
+  },
+  "3": {
+   "fate": "explained",
+   "ref": "line 98",
+   "note": "stopping the trip is for a brain that may be damaged: \"At this point safety matters more than preserving the experience.\""
+  },
+  "4": {
+   "fate": "question",
+   "ref": "articles/bad-trips/OWNER-QUESTIONS.md, C4",
+   "note": "not a conflict in meaning (\"first\" is smelling the humic acid before licking it), but a reader can take \"Smell humic acid first\" as humic acid before DMSO, right after \"DMSO immediately.\""
+  },
+  "5": {
+   "fate": "explained",
+   "ref": "line 94",
+   "note": "\"but it depends on how severe their issue is\""
+  },
+  "6": {
+   "fate": "question",
+   "ref": "articles/bad-trips/OWNER-QUESTIONS.md, C1",
+   "note": "his line says any Hunter pattern means call medics; step 3 says moderate or severe signs"
+  },
+  "7": {
+   "fate": "not-a-conflict",
+   "ref": "line 198",
+   "note": "two cases: suspected serotonin toxicity (no pacing, since muscle work adds heat and muscle breakdown, line 198) and a hard trip without it, where moving around is fine (line 419)"
+  },
+  "8": {
+   "fate": "not-a-conflict",
+   "ref": "line 209",
+   "note": "line 207 says when the order of remedies applies (acute situations, not a merely uncomfortable trip); line 235 says the first tier is also worth taking before trouble, which line 209 already allows (\"try all these things in very low, increasing doses before they are needed\")"
+  },
+  "9": {
+   "fate": "question",
+   "ref": "articles/bad-trips/OWNER-QUESTIONS.md, C3",
+   "note": "\"I don't yet know why\" they differ, against \"The mistake showed me that ... address different kinds of overload\""
+  },
+  "10": {
+   "fate": "explained",
+   "ref": "line 330",
+   "note": "oil extraction versus vaping the whole seeds, with the reason"
+  },
+  "11": {
+   "fate": "explained",
+   "ref": "line 524",
+   "note": "\"Quietly remove means only when that can be done without confrontation ...\""
+  },
+  "12": {
+   "fate": "question",
+   "ref": "articles/bad-trips/OWNER-QUESTIONS.md, C2",
+   "note": "until tomorrow, until morning, until slept and eaten, and a 24-72 hour lock"
+  },
+  "13": {
+   "fate": "not-a-conflict",
+   "ref": "line 785",
+   "note": "different things: line 771 is about drawing conclusions about yourself from one intense night; line 785 is about working out what drives symptoms that linger after a trip, with the patterns it lists"
+  },
+  "14": {
+   "fate": "explained",
+   "ref": "line 821",
+   "note": "the harm is the unprepared, repeated use line 815 describes; line 821 says MDMA and inner child work complement each other when prepared (\"these people are not correctly preparing ...\")"
+  }
+ }
+}
