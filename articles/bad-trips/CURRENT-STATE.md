@@ -313,7 +313,7 @@ dose, unit, timing and warning exactly as it went in, and his post updated with 
 
 ## Current checkpoint
 
-- **In progress:** none; turn 52 saved mid-turn after round 45.
+- **In progress:** none; turn 52 ended at a mid-turn boundary after round 45 (pull request 450 merged at 17:20 UTC). The rest of h59a's AI units are mostly stretches whose paragraphs are under 50 words each (the web app's minimum), so each needs its checkable pairs worked out before its first fix (E343); several (a05, a08, a09, a10, a17) are the paragraphs round 45's two teaching cards should teach, and a17 holds the hooks list card 3 asks about.
 - **Next step (updated on every push, so another account can pick up here):** the other AI units of `humanize/h59-20261120/RESULTS.md`'s h59a (a01, a03, a05, a07, a08, a10, a11, a17, a20, a23; a02's and a09's AI windows; a13's two Low lines), each the same way: a first fix in his ways, the three fresh reads and a receipt, the tell panel after two reads below High, then from each near miss a word or two (two small tries) before every mark at once (`humanize/h60-20261120/RESULTS.md`); and the Spiritual stretch narrowed to its paragraphs. Before any Human High try goes in, read it beside the unit as the guide has it for anything it no longer says (lesson 20f). Round 45's answers go in whole when he sends them (DEMONS-HOOKS "b" needs a check of its own first). Every text of mine through the three reads before any check, in only at Human High by itself (`apply_gate.py`). Fidelity checks use `humanize/h01/FIDELITY-KEYS-R43.json`. No whole-guide check until no window already seen reads AI or Low (E354).
 - **Waiting on Joel:** round 45 (three cards).
 
