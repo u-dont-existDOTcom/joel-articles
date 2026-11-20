@@ -2240,6 +2240,50 @@
     }
    ],
    "recorded_utc": "2026-11-20T22:42Z"
+  },
+  {
+   "turn": "2026-11-20T23:40Z",
+   "lines_of_work": [
+    "bad trips guide",
+    "the Substack-wide system (handed to its own lane)"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "live default branch 3d79cc8 (unchanged since the last turn; read-only clone, re-fetched); suggested-fixes lane: six items, all in the ledger"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "this lane's pull requests 458 and 459 (turn 54) merged at 23:06 and 23:09 UTC; the inner child lane's 460 and 461 merged (lessons inner-child-2026-11-20m to q; merged in here); no new issues, comments or reviews on this lane's pull requests"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no edits by others to this lane's handoff note, questions page or state since 459"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "no queued notifications; his message of 23:40 UTC: S1 b (the registry in Git, no Obsidian), S2 (Substack's includes aren't synced; Notes are, linked or embedded), S3 yes, S4 yes plus a conflict checker across posts, a question when he says something new on a covered topic, and a copy that can move to a new Substack or his VPS; hand the system to its own lane and carry on with bad trips"
+    }
+   ],
+   "items": [
+    {
+     "item": "his message of 23:40 UTC",
+     "outcome": "this turn: his answers on the proposal and this lane's questions page; the system handed to its own lane (docs/proposals/2026-11-20-substack-system-HANDOFF.md, his words whole, its first steps and questions); bad trips carries on: round 46 (the heading tags) out, then the ozone story's next try"
+    },
+    {
+     "item": "the inner child lane's lessons inner-child-2026-11-20m to q",
+     "outcome": "read; m, n and q are the inner child guide's own; p (the author's view before a model guesses) applied: round 46's card asks what his humic acid, coffee cherry and creatine notes cite before those three headings are tagged"
+    },
+    {
+     "item": "main's merge of pull request 462 (the inner child lane: tools/humanization/undefined_parts.py, lesson inner-child-2026-11-20r)",
+     "outcome": "merged in at 23:50 UTC; read: a tool that lists a guide's parts and roles with no text of their own before any reorganization; nothing in this turn's work reorganizes the bad trips guide"
+    }
+   ],
+   "recorded_utc": "2026-11-20T23:50Z"
   }
  ]
 }
