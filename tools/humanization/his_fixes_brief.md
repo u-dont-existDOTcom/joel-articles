@@ -1,6 +1,6 @@
 # The read against his fixes: which of my sentences still read the way he fixes?
 
-Gate bad-trips-2026-11-12g (the eleventh way, lesson bad-trips-2026-11-20c; the twelfth, lesson bad-trips-2026-11-20h). Joel, 2026-11-12 14:45 UTC, after my carries of his fixes read AI in eight tries of eight:
+Gate bad-trips-2026-11-12g (the eleventh way, lesson bad-trips-2026-11-20c; the twelfth, lesson bad-trips-2026-11-20h; the thirteenth to seventeenth, lesson bad-trips-2026-11-21e). Joel, 2026-11-12 14:45 UTC, after my carries of his fixes read AI in eight tries of eight:
 "have you systematically looked at all of the fixes i've shown you and what are the idfferences in how you write vs how
 i fix? because when i look at how you try to implement my fixes, it's laughable, like you're not really learning much.
 you still use a lot of ai patterns like "this is different. that's different, this other thing is also different" and
@@ -15,7 +15,7 @@ stays.
 ---
 
 You are reading a draft against the way one writer, Joel, fixes drafts like it. Below are ten ways his fixes differ
-from the drafts he fixed, each with a sentence he fixed and what he wrote instead (an eleventh and a twelfth, 2026-11-20, after them). Read the draft and mark every sentence
+from the drafts he fixed, each with a sentence he fixed and what he wrote instead (an eleventh and a twelfth, 2026-11-20, after them, and five more from his fix of the serotonin steps, 2026-11-21). Read the draft and mark every sentence
 that still reads the first way.
 
 1. **Compressed.** A run of category words or noun phrases, or several ideas packed into one sentence, where he gives each
@@ -79,6 +79,34 @@ that still reads the first way.
    paragraph about asking into "If they did permit touch, stop as soon as they say stop." (Medium to High; it "didn't
    follow from the first section"). For each sentence, write how it follows from the one before (the next step, the
    other way, the case where the answer was yes), and mark it if nothing in it says so.
+
+13. **Leaves the reader wondering why they're reading it.** A sentence or step that opens on what to do, or on a fact,
+   before saying what in the situation calls for it. He opened the fluids step on why fluids come up at all, tied to the
+   step before: my "Give fluids only if they're fully alert, able to swallow and not vomiting" became his "Overstimulating
+   also dehydrates them, but we can't give fluids unless they're fully alert, able to swallow and not vomiting"
+   (2026-11-21: "my goal is to make it read well and lead on so i'm not wondering all the time why i am reading this").
+   For each sentence, write what in the reader's situation it answers, and mark it if they only find out later, or never.
+14. **A rule against what someone would naturally do, said flatly.** He says first why a person would want to, then the
+   problem: my "Pacing or exercising to "burn it off" only makes more heat" became "While it's natural for people who are
+   overstimulated to start pacing or exercising to "burn it off," the problem is that creates more body heat". Mark a
+   don't, a "won't help" or an "only makes it worse" that doesn't say why somebody would want to do it.
+15. **A don't with nothing to do instead, or advice nobody could carry out.** My "If they feel a strong urge to keep
+   moving (akathisia), I'd stay with them and talk them into keeping still anyway" (an urge nobody can be talked out of)
+   became "I'd have them do some fidgeting (especially of the calf muscle, flexing the feet), which can soothe that urge
+   without the over-activity risk." Mark each instruction the reader couldn't do, and each don't that leaves them
+   nothing to do.
+16. **Said twice: a lead line the rest says again, or a rule said again the other way round.** He cut my opener "Keep
+   them still in a calm room." (the sentences after it say how) and my "But if they're confused, vomiting or sleepy, I
+   wouldn't push anything into them ..." after "Give fluids only if they're fully alert, able to swallow and not
+   vomiting" (the same condition turned inside out). Cutting the opener was one of the two changes that took the steps
+   from AI to Human High ("it still was AI until i removed the redundant first sentence"). Mark a first sentence that the
+   rest repeats, and a sentence that turns a condition just given around.
+17. **Advice that isn't right here.** Advice carried over from another case, or that another part contradicts. My "not
+   even pills or charcoal" in the fluids step went: the step before it gives a pill (cyproheptadine) to anyone fully
+   alert and able to swallow, and charcoal isn't part of serotonin syndrome care (2026-11-21: "the advice i think was not
+   quite correct medically altho pangram wouldn't know that part"). Read each instruction against the rest of the text
+   and the reader's situation, and mark it if something else in the text contradicts it, it doesn't fit this case, or a
+   reader without training couldn't do it safely.
 
 THE DRAFT (what it is for: [one line: what the reader is about to do with it]):
 [the text, one sentence a line, numbered S1, S2, ...]

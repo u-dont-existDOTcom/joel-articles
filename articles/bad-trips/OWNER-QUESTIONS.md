@@ -6,16 +6,16 @@ Answer under an item's number in a message.
 
 ## Open
 
-- **Round 48: the serotonin steps** ([Bad Trips Guide, Round 48](https://claude.ai/artifact/Q8qeTNfRLC9cenyjzdUZLA); [the card as text](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261105/articles/bad-trips/review/r48/REVIEW-R48.md)). Every wording of mine reads AI in three tries; your step 2 is the one part of the list that reads Human. One teaching card: steps 5 and 6 in your words, and I carry your ways to the other steps.
-- **R47-1: "(Coffee Cherry for Brain also)" is cut off in the sidebar**, as "(Coffee Cherry for Brain …", and both fresh readers of your contents couldn't tell what it is. a) "Coffee Cherry, Brain Too" (fits with room to spare) b) "(Coffee Cherry, Brain Too)" (fits, just) c) keep yours. ([what went in from round 47](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261105/articles/bad-trips/review/r47/RESULTS-R47.md))
-- **R47-2: "Who to Contact, and When"** read to both readers as asking again what "When to Get Outside Help" above it asks. a) "Who to Contact" (your words, fits) b) keep it.
+- **Round 49** ([Bad Trips Guide, Round 49](https://claude.ai/artifact/JEJVLrdJBraHyKQxe9GyaT); [the cards as text](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261105/articles/bad-trips/review/r49/REVIEW-R49.md)): **QUIZ-1**, the quiz you suggested: my reading of each sentence of my steps 1, 3, 4 and 7, before Pangram sees them, for you to score; **SS-STEP8**, step 8 your way (Human High by itself; the hospital line goes); **SS-ASKED**, what readers couldn't tell in the steps (niacin, magnesium and the kidneys, Syrian rue oil, cyproheptadine, the electrolyte drink); **BOLD-56**, bold in your steps 5 and 6.
 
 ## Your tasks
 
-- Round 48's card (above), and R47-1 and R47-2 in a message.
+- Round 49's cards (above).
 - To start the Substack system lane, paste into a new chat: "Read https://github.com/u-dont-existDOTcom/joel-articles/blob/main/docs/proposals/2026-11-20-substack-system-HANDOFF.md and start the Substack system lane from it."
 
 ## Decisions on record
+
+His round-48 answer of 2026-11-21 15:57 UTC, on [round 48's card](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261105/articles/bad-trips/review/r48/REVIEW-R48.md), with "r47-1a / r47-2a": your steps 5 and 6 in whole, one obvious fix (the comma after "Since"), and your lesson in the repo for every lane; "Coffee Cherry, Brain Too" and "Who to Contact" in ([what went in](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261105/articles/bad-trips/review/r48/RESULTS-R48.md)).
 
 His round-46 answer of 2026-11-20 23:59 UTC, on [round 46's card](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261105/articles/bad-trips/review/r46/REVIEW-R46.md) (TAGS): "almost all these are my exp plus experiences of friends (except creatien for now just me)". The tags, as A (square brackets at the end of each remedy heading): **[Tried by Me and Friends]** on eleven, **[Tried by Me]** on creatine, **[Some Human Studies]** on DMSO and **[Standard for Poisoning]** on activated charcoal. Each goes in with its heading's check (the heading with its first paragraph, Human High in every window, the rule for anything of mine); where the paragraph under a heading still reads AI (zeolite, activated charcoal, the essential oils, DMSO, beach morning glory, niacin), its tag goes in with that paragraph's fix. The ozone story's last line now ends on what to do and reads Human High by itself ([242c57e7](https://www.pangram.com/history/242c57e7-6cf6-4e87-97d5-87a6792a75d7); [the tries](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261105/articles/bad-trips/humanize/h63-20261120/RESULTS.md)).
 

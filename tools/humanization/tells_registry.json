@@ -3115,6 +3115,66 @@
     }
    ],
    "reason": "how a sentence follows from the one before is meaning: a fresh reader given tools/humanization/his_fixes_brief.md (its twelfth way) writes, for each sentence, how it follows and marks the ones where nothing in the sentence says so; \"If instead\", \"the other\", \"If they did\" are his words for three cases, not a list a pattern could check"
+  },
+  {
+   "id": "J73",
+   "tell": "a step or sentence that leaves the reader wondering why they are reading it: it opens on what to do, or on a fact, before saying what in the situation calls for it",
+   "kind": "judgment",
+   "sources": [
+    {
+     "file": "docs/lessons/2026-11-21-1557-bad-trips.md",
+     "quote": "my goal is to make it read well and lead on so i'm not wondering all the time why i am reading this"
+    }
+   ],
+   "reason": "why a sentence is there for its reader is meaning: a fresh reader given tools/humanization/his_fixes_brief.md (its thirteenth way) writes what in the reader's situation each sentence answers and marks the ones where they only find out later, or never"
+  },
+  {
+   "id": "J74",
+   "tell": "a rule against what someone would naturally do, said flatly, without first saying why a person would want to do it",
+   "kind": "judgment",
+   "sources": [
+    {
+     "file": "docs/lessons/2026-11-21-1557-bad-trips.md",
+     "quote": "there was a lot that wasn't connecting"
+    }
+   ],
+   "reason": "whether a don't leaves out the impulse it answers is meaning: a fresh reader given tools/humanization/his_fixes_brief.md (its fourteenth way) marks a don't, a \"won't help\" or an \"only makes it worse\" that doesn't say why somebody would want to"
+  },
+  {
+   "id": "J75",
+   "tell": "a don't with nothing to do instead, or advice nobody could carry out (talking someone out of an urge to move)",
+   "kind": "judgment",
+   "sources": [
+    {
+     "file": "docs/lessons/2026-11-21-1557-bad-trips.md",
+     "quote": "the advice i think was not quite correct medically altho pangram wouldn't know that part"
+    }
+   ],
+   "reason": "whether an instruction can be done is meaning: a fresh reader given tools/humanization/his_fixes_brief.md (its fifteenth way) marks each one the reader couldn't do and each don't that leaves them nothing to do"
+  },
+  {
+   "id": "J76",
+   "tell": "said twice: a lead line that the rest of the paragraph says again, or a rule said again the other way round",
+   "kind": "judgment",
+   "sources": [
+    {
+     "file": "docs/lessons/2026-11-21-1557-bad-trips.md",
+     "quote": "it still was AI until i removed the redundant first sentence"
+    }
+   ],
+   "reason": "whether a line repeats what the rest says is meaning: a fresh reader given tools/humanization/his_fixes_brief.md (its sixteenth way) marks a first sentence the rest repeats and a sentence that turns a condition just given around"
+  },
+  {
+   "id": "J77",
+   "tell": "advice that isn't right here: carried over from another case, or contradicted by another part of the text",
+   "kind": "judgment",
+   "sources": [
+    {
+     "file": "docs/lessons/2026-11-21-1557-bad-trips.md",
+     "quote": "now i fixed the last part, it was redundant and also i think not giving the correct medical advice"
+    }
+   ],
+   "reason": "whether advice fits its case is meaning, and Pangram can't see it: a fresh reader given tools/humanization/his_fixes_brief.md (its seventeenth way) reads each instruction against the rest of the text and the reader's situation"
   }
  ]
 }

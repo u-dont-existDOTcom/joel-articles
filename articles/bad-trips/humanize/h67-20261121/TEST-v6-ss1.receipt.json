@@ -1,0 +1,152 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-21",
+ "text_sha256": "319be1f16966cbb2369db542073cdf7a8d4919954b85b74a19ee093080e82a9b",
+ "text": "Serotonin syndrome comes from too much serotonin, so I'd stop anything suspected of adding more (serotonergic substances). No more MDMA or other stimulants, of course, but also no DXM cough syrup, the painkiller tramadol or the antibiotic linezolid. I'd hold off on even their prescribed antidepressant until a doctor says to restart it, whether it's an SSRI like Prozac or Zoloft, Effexor or another SNRI, or an MAOI. Ayahuasca and other harmala brews, like Syrian rue, act as MAOIs too. And don't forget the supplements people don't think of as drugs, like 5-HTP, St John's wort and SAM-e.",
+ "section": "Act Now on SS",
+ "reader": "the friend of someone who shows signs of serotonin syndrome (say MDMA on top of an antidepressant: twitching muscles, sweating, a racing heart), who has just read \"So if you see any of these patterns, call medics.\" and now does these steps while help comes",
+ "sentences": [
+  {
+   "s": "Serotonin syndrome comes from too much serotonin, so I'd stop anything suspected of adding more (serotonergic substances).",
+   "payoff": "they stop anything that adds serotonin, knowing why, and know the word for those things",
+   "follows": "the first step after \"call medics\": stop more of the cause"
+  },
+  {
+   "s": "No more MDMA or other stimulants, of course, but also no DXM cough syrup, the painkiller tramadol or the antibiotic linezolid.",
+   "payoff": "they hold back MDMA and stimulants, and the three drugs people don't think of, each named with what it is",
+   "follows": "what \"anything suspected of adding more\" means, the obvious ones first",
+   "link": "of course, but also"
+  },
+  {
+   "s": "I'd hold off on even their prescribed antidepressant until a doctor says to restart it, whether it's an SSRI like Prozac or Zoloft, Effexor or another SNRI, or an MAOI.",
+   "payoff": "they keep back their friend's own antidepressant until a doctor restarts it, and can tell the kinds by name",
+   "follows": "the hardest one to hold back, after the obvious ones",
+   "link": "even"
+  },
+  {
+   "s": "Ayahuasca and other harmala brews, like Syrian rue, act as MAOIs too.",
+   "payoff": "they know ayahuasca and Syrian rue count as MAOIs too",
+   "follows": "the brews that belong with the MAOI just named",
+   "link": "too"
+  },
+  {
+   "s": "And don't forget the supplements people don't think of as drugs, like 5-HTP, St John's wort and SAM-e.",
+   "payoff": "they check for 5-HTP, St John's wort and SAM-e, which they might not think of",
+   "follows": "the last of what to stop",
+   "link": "And don't forget"
+  }
+ ],
+ "checked": [
+  {
+   "point": "an SSRI like Prozac or Zoloft, Effexor or another SNRI",
+   "found": "Mayo Clinic (same page): SSRIs include fluoxetine (Prozac) and sertraline (Zoloft); venlafaxine (Effexor) is an SNRI",
+   "still_needed": "yes: they match the names on their friend's bottles",
+   "fate": "kept"
+  }
+ ],
+ "placement": "step 1 of the eight steps under \"Act Now on SS\" (B136), after the Hunter patterns and \"So if you see any of these patterns, call medics.\" and before My Acute Rescue Remedies, with his steps 2, 5 and 6 as he wrote them; the hospital line (\"Hospitals may use benzodiazepines, ...\") is out, a proposal on his card",
+ "opens": {
+  "first_sentence": "Serotonin syndrome comes from too much serotonin, so I'd stop anything suspected of adding more (serotonergic substances).",
+  "why_reading": "it tells the friend the first thing to do, stop anything that adds serotonin, and why"
+ },
+ "same_point": "none: read the section from its heading to the next (Serotonin Syndrome (SS)?, How to Check for SS, Act Now on SS): the call to medics is in \"So if you see any of these patterns, call medics.\" and step 3 says how to make it",
+ "needed": {
+  "reader": "a fresh agent (Sonnet) given tools/humanization/needed_read_brief.md with the whole list as version five had it, its heading, the line before it and what it is for (reads/need-v5-ss-steps.txt; the earlier rounds: reads/*-v1-ss-steps.txt, *-v2-*, *-v3-* and *-v5-*)",
+  "unneeded": [
+   "Niacin is actually unsafe with serotonin syndrome."
+  ],
+  "kept": {}
+ },
+ "his_fixes": {
+  "reader": "a fresh agent (Sonnet) given tools/humanization/his_fixes_brief.md, its seventeen ways (13 to 17 from his fix of steps 5 and 6), with version five one sentence a line (reads/his-v5-ss-steps.txt; the earlier rounds: reads/*-v1-ss-steps.txt, *-v2-*, *-v3-* and *-v5-*)",
+  "marked": [
+   {
+    "s": "No more MDMA or other stimulants, of course, but also no DXM cough syrup, the painkiller tramadol or the antibiotic linezolid.",
+    "difference": "1"
+   },
+   {
+    "s": "I'd hold off on even their prescribed antidepressant until a doctor says to restart it, whether it's an SSRI like Prozac, an SNRI like Effexor or an MAOI.",
+    "difference": "2"
+   },
+   {
+    "s": "Ayahuasca and other harmala brews, like Syrian rue, act as MAOIs too, and don't forget the supplements people don't think of as drugs, like 5-HTP, St John's wort and SAM-e.",
+    "difference": "1, 4"
+   },
+   {
+    "s": "Poison control can help figure out which mix of drugs caused this, but they can't treat serotonin syndrome, so I'd call them once the ambulance is on its way.",
+    "difference": "10, 12"
+   },
+   {
+    "s": "This guide suggests niacin for ending a trip, and DMSO for brain injuries, seizures and chest pain, but I wouldn't use either one here.",
+    "difference": "1, 13"
+   },
+   {
+    "s": "Niacin is actually unsafe with serotonin syndrome.",
+    "difference": "7, 8"
+   },
+   {
+    "s": "For MDMA-related jaw tension or muscle activity, though, I would consider oral magnesium chloride if they're fully alert and able to swallow (the amounts are in MDMA:",
+    "difference": "4, 17"
+   }
+  ],
+  "kept": {
+   "No more MDMA or other stimulants, of course, but also no DXM cough syrup, the painkiller tramadol or the antibiotic linezolid.": "each drug comes with what it is (cough syrup, painkiller, antibiotic), and the friend needs the names to check what was taken; the obvious ones come first, then \"but also\" the ones people don't think of, so the run of names leads somewhere"
+  }
+ },
+ "fit": {
+  "reader": "a fresh agent (Sonnet) given tools/humanization/fit_read_brief.md, the universal version, with version five (reads/fit-v5-ss-steps.txt; the earlier rounds: reads/*-v1-ss-steps.txt, *-v2-*, *-v3-* and *-v5-*)",
+  "marked": [
+   {
+    "s": "If the person is fully alert and able to swallow, I would give cyproheptadine early, since it blocks serotonin receptors.",
+    "found": "CAN'T TELL, FROM"
+   },
+   {
+    "s": "I wouldn't wait to see whether it does before doing the other steps.",
+    "found": "MISREAD"
+   },
+   {
+    "s": "But if they feel a strong urge to keep moving (akathisia), I'd have them do some fidgeting (especially of the calf muscle, flexing the feet), which can soothe that urge without the over-activity risk.",
+    "found": "MISREAD"
+   },
+   {
+    "s": "Overstimulating also dehydrates them, but we can't give fluids unless they're fully alert, able to swallow and not vomiting, and then just small sips of an electrolyte drink (a hypertonic one, more concentrated than an ordinary one, may be required if they still have symptoms of lack of electrolytes).",
+    "found": "CAN'T TELL, FROM"
+   },
+   {
+    "s": "This guide suggests niacin for ending a trip, and DMSO for brain injuries, seizures and chest pain, but I wouldn't use either one here.",
+    "found": "FROM, MISREAD"
+   },
+   {
+    "s": "For MDMA-related jaw tension or muscle activity, though, I would consider oral magnesium chloride if they're fully alert and able to swallow (the amounts are in MDMA:",
+    "found": "CAN'T TELL, FROM"
+   },
+   {
+    "s": "Magnesium Alarm, above).",
+    "found": "CAN'T TELL, FROM"
+   }
+  ],
+  "kept": {}
+ },
+ "questions": {
+  "Q1": "PASS: each step opens on why the reader is reading it (serotonin syndrome comes from too much serotonin; the call the line before asked for; the heat the muscles make; the wait before the ambulance; the remedies they may reach for), and each term is explained where first used (serotonergic, SSRI, SNRI, harmala, the drugs)",
+  "Q2": "PASS: every instruction is something the friend does, with what it is for",
+  "Q3": "PASS: which drugs and supplements, which body places, which numbers, which remedies",
+  "Q4": "PASS: serotonergic (\"anything suspected of adding more\"), the antidepressant kinds with their brand names, tramadol (\"the painkiller\"), linezolid (\"the antibiotic\"), harmala (\"brews, like Syrian rue\") explained where first used; niacin, DMSO and magnesium chloride are this guide's own remedies, in their sections",
+  "Q5": "PASS: each sentence says how it follows (\"of course, but also\", \"even\", \"too\", \"so\", \"also\", \"Then\", \"though\")",
+  "Q6": "PASS: the order of the list as it stands (stop, his med, call, cool, his calm and fluids, gather, leave out)",
+  "Q7": "PASS: every fact is for a friend facing serotonin syndrome now; the hospital line, which the reader can't act on, is out (two needed reads; a proposal on his card, since it was in his guide)",
+  "Q8": "PASS: the drugs together, the cooling ways together, what to write down together",
+  "Q9": "PASS: one step a numbered item, his way: the reason first or right after the act, said once"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}
