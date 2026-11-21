@@ -1,6 +1,6 @@
 # Inner Child article: questions for Joel
 
-Last updated 2026-11-21 (turn 139). No open questions: 111 to 117 are answered. The to-do entries below date from turn 115 (26 October) and weren't rechecked this turn, except pull request #255, which you merged on 3 November. To answer a question, reply in chat with its number and a letter, like `111: A`, or in your own words.
+Last updated 2026-11-21 (turn 140). No open questions: 111 to 117 are answered. The to-do entries below date from turn 115 (26 October) and weren't rechecked this turn, except pull request #255, which you merged on 3 November. To answer a question, reply in chat with its number and a letter, like `111: A`, or in your own words.
 
 🟣 a question for you · 🟠 for you to do · 🔵 next or in progress · 🟢 done or decided
 
@@ -83,9 +83,11 @@ Nothing goes into your post until you say so. When it does, the words in the tex
 
 ## For you to do (no decision needed)
 
-### 🟠 The moves of question 117 in the post (turn 139)
+### 🟢 The moves of question 117 in the post (turn 139, done in turn 140)
 
 This session couldn't open your post's editor, so the moves are yours to make, or tell me to try again. In the Substack editor: delete the Healing Old Patterns heading and the divider just above it; cut Re-do Trauma Memories through the end of Discipline Done Right? and paste it after You Did It Well Before (before Healthy Mind, Not Perfect), as Heading 3 and Heading 4; cut Answer the Disciplinarian and its text (not the divider after it) and paste it after Reframe the Critic (before Earning trust, day to day), as Heading 3; fix "Healther" in Borrow Hindsight's link if it's still there; update the post with email off. Once they're in, I update the section catalog.
+
+Done 2026-11-21 13:35 UTC, with your OK of 13:31 ("retry it now i'm here i can approve"): the moves are in the live post, with no word added or changed (Borrow Hindsight's link already read "Healthier"), updated with email off and read back, and the section catalog follows the post ([the record](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/inner-child-therapy/experiments/t140-moves/UPDATED.json)).
 
 > [!WARNING]
 > Comes back every turn. My merges are refused by the safety check, so it stays yours.

@@ -147,8 +147,11 @@ ends with recommendations to the author, each a proposal with its evidence:
 2. A pointer, with a link, at each place where most readings of the sort would look for a section under another part or
    another role than the one it is in. A neighbouring heading inside the same part needs none: the sidebar shows them
    together.
-3. After he picks, the contents test with fresh readers and real situations ("where would you look first?") runs again
-   on the new contents, to see whether the lines and pointers changed where readers look.
+3. After he picks, each line and pointer goes into his post only once it reads Human with High confidence in Pangram,
+   in its place (lesson inner-child-2026-11-21f; Joel, 2026-11-21 13:31 UTC: "make sure you don't add anything that
+   hasn't passed pangram with high conf"). A move or a heading's level changes no words and needs no check.
+4. Then the contents test with fresh readers and real situations ("where would you look first?") runs again on the new
+   contents, to see whether the lines and pointers changed where readers look.
 
 The inner child guide's: `articles/inner-child-therapy/experiments/t139-readers/RECOMMENDATIONS.md`, made by
 `where_readers_look.py` and `recommend.py` there.
