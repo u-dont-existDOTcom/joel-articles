@@ -1,0 +1,1246 @@
+{
+ "format": "joel-suggestion-review-v1",
+ "review_id": "romance-medium-t4",
+ "title": "Romance Advice I Wish My Parents Taught Me: the Medium windows",
+ "intro": [
+  "Every window your whole-article check read Human at Medium, in the paragraphs it read, shown as the fixed version has them now (where a section check reread a paragraph since, its Medium windows are shown instead). Each highlight is the window; press Edit it to write your version, or leave it.",
+  "Under each I name the tells I see, and where I see none, the human tells I do see. \"Mine\" means my rewrite of the live words."
+ ],
+ "git_file": "articles/romance/review/teach-20261108/REVIEW-T4.html",
+ "article": {
+  "file": "articles/romance/review/teach-20261108/PAGE-T4.md",
+  "sha256": "706a7f8c18847f434d457de4c3418589d798aeff199581d5bd4af07e4a40fe9f"
+ },
+ "built": "2026-11-08",
+ "links": {
+  "guide": "https://ibogaqueen.substack.com/p/romance-advice-i-wish-my-parents",
+  "guide_label": "your live post",
+  "review": "https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/romance-20261108/articles/romance/review/teach-20261108/REVIEW-T4.md"
+ },
+ "types": {
+  "medium": {
+   "label": "Medium",
+   "about": "words Pangram read Human at Medium confidence"
+  }
+ },
+ "suggestions": [
+  {
+   "id": "M-4",
+   "type": "medium",
+   "advice": "edit",
+   "keep_label": "leave it",
+   "whose": "he asked: \"ok show me any more medium sections i will fix those as well\" (2026-11-08 17:20 UTC); the words are the live post’s",
+   "title": "“I want your attention and your body.”",
+   "reading": "Human, Medium in [your whole check, draft A](https://www.pangram.com/feed/87029c8c-313d-436c-b885-e76466096da6).",
+   "why": "You asked to see every Medium window (2026-11-08 17:20 UTC: \"i notice that medium sections usually do point at ai slop writing\").",
+   "advice_note": "Human tells: \"tangled up together\", the plain \"I want\" run. I can’t find an AI tell here.",
+   "sense": "A fresh reader read it for sense (sense-t4/) and found nothing wrong.",
+   "spans": [
+    {
+     "block": 1,
+     "start": 64,
+     "end": 100
+    }
+   ]
+  },
+  {
+   "id": "M-13",
+   "type": "medium",
+   "advice": "edit",
+   "keep_label": "leave it",
+   "whose": "he asked: \"ok show me any more medium sections i will fix those as well\" (2026-11-08 17:20 UTC); the words are the live post’s",
+   "title": "“Are we ready?”",
+   "reading": "Human, Medium in [your whole check, draft A](https://www.pangram.com/feed/87029c8c-313d-436c-b885-e76466096da6).",
+   "why": "You asked to see every Medium window (2026-11-08 17:20 UTC: \"i notice that medium sections usually do point at ai slop writing\").",
+   "advice_note": "Short questions in a run; human tells: \"Are we ready?\" after a long question. I can’t find an AI tell here.",
+   "sense": "A fresh reader read it for sense (sense-t4/) and found nothing wrong.",
+   "spans": [
+    {
+     "block": 3,
+     "start": 109,
+     "end": 122
+    }
+   ]
+  },
+  {
+   "id": "M-14",
+   "type": "medium",
+   "advice": "edit",
+   "keep_label": "leave it",
+   "whose": "he asked: \"ok show me any more medium sections i will fix those as well\" (2026-11-08 17:20 UTC); the words are the live post’s",
+   "title": "“What do you actually want?”",
+   "reading": "Human, Medium in [your whole check, draft A](https://www.pangram.com/feed/87029c8c-313d-436c-b885-e76466096da6).",
+   "why": "You asked to see every Medium window (2026-11-08 17:20 UTC: \"i notice that medium sections usually do point at ai slop writing\").",
+   "advice_note": "The window is three of the questions. Human tells: \"anything kinky you need to be able to say out loud\". I can’t find an AI tell here.",
+   "sense": "A fresh reader read it for sense (sense-t4/) and found nothing wrong.",
+   "spans": [
+    {
+     "block": 4,
+     "start": 0,
+     "end": 26
+    },
+    {
+     "block": 4,
+     "start": 69,
+     "end": 105
+    },
+    {
+     "block": 4,
+     "start": 220,
+     "end": 243
+    }
+   ]
+  },
+  {
+   "id": "M-28",
+   "type": "medium",
+   "advice": "edit",
+   "keep_label": "leave it",
+   "whose": "he asked: \"ok show me any more medium sections i will fix those as well\" (2026-11-08 17:20 UTC); the words are mine",
+   "title": "“Then what? You block her?”",
+   "reading": "Human, Medium in [your whole check, draft A](https://www.pangram.com/feed/87029c8c-313d-436c-b885-e76466096da6).",
+   "why": "You asked to see every Medium window (2026-11-08 17:20 UTC: \"i notice that medium sections usually do point at ai slop writing\").",
+   "advice_note": "Short questions in a run (\"Then what? You block her?\"), and \"Or vice versa.\" standing alone. Human tells: \"she’s gonna call you\", your Baptist girlfriend.",
+   "sense": "A fresh reader read it for sense (sense-t4/) and found nothing wrong.",
+   "spans": [
+    {
+     "block": 6,
+     "start": 122,
+     "end": 147
+    },
+    {
+     "block": 6,
+     "start": 246,
+     "end": 260
+    }
+   ]
+  },
+  {
+   "id": "M-34",
+   "type": "medium",
+   "advice": "edit",
+   "keep_label": "leave it",
+   "whose": "he asked: \"ok show me any more medium sections i will fix those as well\" (2026-11-08 17:20 UTC); the words are mine",
+   "title": "“Doomscrolling entertains you too.”",
+   "reading": "Human, Medium in [your whole check, draft A](https://www.pangram.com/feed/87029c8c-313d-436c-b885-e76466096da6).",
+   "why": "You asked to see every Medium window (2026-11-08 17:20 UTC: \"i notice that medium sections usually do point at ai slop writing\").",
+   "advice_note": "Mine. Tell I see: the closing one-liner (\"Doomscrolling entertains you too.\") lands like a punchline after an abstract sentence (\"the existential void another superficial fix creates\").",
+   "sense": "A fresh reader read it for sense (sense-t4/) and found nothing wrong.",
+   "spans": [
+    {
+     "block": 8,
+     "start": 395,
+     "end": 428
+    }
+   ]
+  },
+  {
+   "id": "M-35",
+   "type": "medium",
+   "advice": "edit",
+   "keep_label": "leave it",
+   "whose": "he asked: \"ok show me any more medium sections i will fix those as well\" (2026-11-08 17:20 UTC); the words are the live post’s",
+   "title": "“And “Why are you making this heavy?” can be a real question. They may …”",
+   "reading": "Human, Medium in [your whole check, draft A](https://www.pangram.com/feed/87029c8c-313d-436c-b885-e76466096da6).",
+   "why": "You asked to see every Medium window (2026-11-08 17:20 UTC: \"i notice that medium sections usually do point at ai slop writing\").",
+   "advice_note": "Tell I see: \"They may actually mean:\" announces the reading before giving it. Human tell: \"drainingly superficial\".",
+   "sense": "A fresh reader read it for sense (sense-t4/) and found nothing wrong.",
+   "spans": [
+    {
+     "block": 9,
+     "start": 0,
+     "end": 141
+    }
+   ]
+  },
+  {
+   "id": "M-39",
+   "type": "medium",
+   "advice": "edit",
+   "keep_label": "leave it",
+   "whose": "he asked: \"ok show me any more medium sections i will fix those as well\" (2026-11-08 17:20 UTC); the words are mine",
+   "title": "“I don’t need to promise that on paper.”",
+   "reading": "Human, Medium in [your whole check, draft A](https://www.pangram.com/feed/87029c8c-313d-436c-b885-e76466096da6).",
+   "why": "You asked to see every Medium window (2026-11-08 17:20 UTC: \"i notice that medium sections usually do point at ai slop writing\").",
+   "advice_note": "Mine. Tell I see: \"not a label:\" (the X-not-Y turn), and \"I don’t need to promise that on paper.\" as a short landing.",
+   "sense": "A fresh reader read it for sense (sense-t4/) and found nothing wrong.",
+   "spans": [
+    {
+     "block": 11,
+     "start": 190,
+     "end": 228
+    }
+   ]
+  },
+  {
+   "id": "M-40",
+   "type": "medium",
+   "advice": "edit",
+   "keep_label": "leave it",
+   "whose": "he asked: \"ok show me any more medium sections i will fix those as well\" (2026-11-08 17:20 UTC); the words are the live post’s",
+   "title": "“Usually they’re just less aware that it isn’t.”",
+   "reading": "Human, Medium in [your whole check, draft A](https://www.pangram.com/feed/87029c8c-313d-436c-b885-e76466096da6).",
+   "why": "You asked to see every Medium window (2026-11-08 17:20 UTC: \"i notice that medium sections usually do point at ai slop writing\").",
+   "advice_note": "Tell I see: \"Usually they’re just less aware that it isn’t.\" is an X-isn’t-Y line. Human tell: your friend’s \"No, I’m miserable, dude.\"",
+   "sense": "A fresh reader read it for sense (sense-t4/) and found nothing wrong.",
+   "spans": [
+    {
+     "block": 12,
+     "start": 83,
+     "end": 129
+    }
+   ]
+  },
+  {
+   "id": "M-44",
+   "type": "medium",
+   "advice": "edit",
+   "keep_label": "leave it",
+   "whose": "he asked: \"ok show me any more medium sections i will fix those as well\" (2026-11-08 17:20 UTC); the words are the live post’s",
+   "title": "“You’re not ready.”",
+   "reading": "Human, Medium in [its section check](https://www.pangram.com/history/ea7c7aeb-b319-445f-bada-226e7578a95a).",
+   "why": "You asked to see every Medium window (2026-11-08 17:20 UTC: \"i notice that medium sections usually do point at ai slop writing\").",
+   "advice_note": "A short landing (\"You’re not ready.\"). Human tells: \"Get a cat or a puppy\", \"come on\". I can’t find an AI tell here.",
+   "sense": "A fresh reader read it for sense (sense-t4/) and found nothing wrong.",
+   "spans": [
+    {
+     "block": 14,
+     "start": 326,
+     "end": 343
+    }
+   ]
+  },
+  {
+   "id": "M-51",
+   "type": "medium",
+   "advice": "edit",
+   "keep_label": "leave it",
+   "whose": "he asked: \"ok show me any more medium sections i will fix those as well\" (2026-11-08 17:20 UTC); the words are the live post’s",
+   "title": "“Everything.”",
+   "reading": "Human, Medium in [your whole check, draft A](https://www.pangram.com/feed/87029c8c-313d-436c-b885-e76466096da6).",
+   "why": "You asked to see every Medium window (2026-11-08 17:20 UTC: \"i notice that medium sections usually do point at ai slop writing\").",
+   "advice_note": "A fragment list ending on \"Everything.\" Human tells: \"ALWAYS\", \"survives contact with another human being\". The one-word ending may be what reads.",
+   "sense": "A fresh reader read it for sense (sense-t4/) and found nothing wrong.",
+   "spans": [
+    {
+     "block": 16,
+     "start": 313,
+     "end": 324
+    }
+   ]
+  },
+  {
+   "id": "M-69",
+   "type": "medium",
+   "advice": "edit",
+   "keep_label": "leave it",
+   "whose": "he asked: \"ok show me any more medium sections i will fix those as well\" (2026-11-08 17:20 UTC); the words are the live post’s",
+   "title": "“It’s philosophical.”",
+   "reading": "Human, Medium in [your whole check, draft A](https://www.pangram.com/feed/87029c8c-313d-436c-b885-e76466096da6).",
+   "why": "You asked to see every Medium window (2026-11-08 17:20 UTC: \"i notice that medium sections usually do point at ai slop writing\").",
+   "advice_note": "Tell I see: \"It’s philosophical.\" as a short reveal. Human tell: \"(often subconscious)\".",
+   "sense": "A fresh reader read it for sense (sense-t4/) and found nothing wrong.",
+   "spans": [
+    {
+     "block": 18,
+     "start": 52,
+     "end": 71
+    }
+   ]
+  },
+  {
+   "id": "M-73",
+   "type": "medium",
+   "advice": "edit",
+   "keep_label": "leave it",
+   "whose": "he asked: \"ok show me any more medium sections i will fix those as well\" (2026-11-08 17:20 UTC); the words are mine",
+   "title": "“Later she blamed herself for staying through that, and I agree.”",
+   "reading": "Human, Medium in [your whole check, draft A](https://www.pangram.com/feed/87029c8c-313d-436c-b885-e76466096da6).",
+   "why": "You asked to see every Medium window (2026-11-08 17:20 UTC: \"i notice that medium sections usually do point at ai slop writing\").",
+   "advice_note": "Mine. Tells I see: \"and I agree\" tacked on, and \"which can create the opposite pattern\" (abstract, unexplained). Human tell: \"totally broke and crazy\".",
+   "sense": "A fresh reader read it for sense (sense-t4/) and found nothing wrong.",
+   "spans": [
+    {
+     "block": 19,
+     "start": 111,
+     "end": 174
+    },
+    {
+     "block": 19,
+     "start": 341,
+     "end": 407
+    }
+   ]
+  },
+  {
+   "id": "M-76",
+   "type": "medium",
+   "advice": "edit",
+   "keep_label": "leave it",
+   "whose": "he asked: \"ok show me any more medium sections i will fix those as well\" (2026-11-08 17:20 UTC); the words are the live post’s",
+   "title": "“There is a real contradiction here.”",
+   "reading": "Human, Medium in [your whole check, draft A](https://www.pangram.com/feed/87029c8c-313d-436c-b885-e76466096da6).",
+   "why": "You asked to see every Medium window (2026-11-08 17:20 UTC: \"i notice that medium sections usually do point at ai slop writing\").",
+   "advice_note": "Tell I see: \"There is a real contradiction here.\" announces instead of saying it.",
+   "sense": "A fresh reader read it for sense (sense-t4/) and found nothing wrong.",
+   "spans": [
+    {
+     "block": 21,
+     "start": 224,
+     "end": 259
+    }
+   ]
+  },
+  {
+   "id": "M-77",
+   "type": "medium",
+   "advice": "edit",
+   "keep_label": "leave it",
+   "whose": "he asked: \"ok show me any more medium sections i will fix those as well\" (2026-11-08 17:20 UTC); the words are the live post’s",
+   "title": "“I think sex is especially important while the bond is forming. It may …”",
+   "reading": "Human, Medium in [your whole check, draft A](https://www.pangram.com/feed/87029c8c-313d-436c-b885-e76466096da6).",
+   "why": "You asked to see every Medium window (2026-11-08 17:20 UTC: \"i notice that medium sections usually do point at ai slop writing\").",
+   "advice_note": "Tells I see: two hedges (\"I think\", \"It may be\") before the point.",
+   "sense": "A fresh reader read it for sense (sense-t4/) and found nothing wrong.",
+   "spans": [
+    {
+     "block": 22,
+     "start": 0,
+     "end": 154
+    }
+   ]
+  },
+  {
+   "id": "M-97",
+   "type": "medium",
+   "advice": "edit",
+   "keep_label": "leave it",
+   "whose": "he asked: \"ok show me any more medium sections i will fix those as well\" (2026-11-08 17:20 UTC); the words are the live post’s",
+   "title": "“Other people know them.”",
+   "reading": "Human, Medium in [your whole check, draft A](https://www.pangram.com/feed/87029c8c-313d-436c-b885-e76466096da6).",
+   "why": "You asked to see every Medium window (2026-11-08 17:20 UTC: \"i notice that medium sections usually do point at ai slop writing\").",
+   "advice_note": "Short line \"Other people know them.\" Human tell: \"irritated, bored, jealous\". I can’t find an AI tell here.",
+   "sense": "A fresh reader read it for sense (sense-t4/) and found nothing wrong.",
+   "spans": [
+    {
+     "block": 24,
+     "start": 107,
+     "end": 130
+    }
+   ]
+  },
+  {
+   "id": "M-107",
+   "type": "medium",
+   "advice": "edit",
+   "keep_label": "leave it",
+   "whose": "he asked: \"ok show me any more medium sections i will fix those as well\" (2026-11-08 17:20 UTC); the words are mine",
+   "title": "“The attachment theory part comes from my own experience and from readi…”",
+   "reading": "Human, Medium in [your whole check, draft A](https://www.pangram.com/feed/87029c8c-313d-436c-b885-e76466096da6).",
+   "why": "You asked to see every Medium window (2026-11-08 17:20 UTC: \"i notice that medium sections usually do point at ai slop writing\").",
+   "advice_note": "Mine. Tells I see: a source note opening the paragraph (\"comes from my own experience and from reading I’ve done\"), an em-dash list of three chemicals, \"biases us toward\".",
+   "sense": "A fresh reader read it for sense (sense-t4/) and found nothing wrong.",
+   "spans": [
+    {
+     "block": 26,
+     "start": 0,
+     "end": 188
+    }
+   ]
+  },
+  {
+   "id": "M-108",
+   "type": "medium",
+   "advice": "edit",
+   "keep_label": "leave it",
+   "whose": "he asked: \"ok show me any more medium sections i will fix those as well\" (2026-11-08 17:20 UTC); the words are mine",
+   "title": "“You might get anxious or suspicious.”",
+   "reading": "Human, Medium in [your whole check, draft A](https://www.pangram.com/feed/87029c8c-313d-436c-b885-e76466096da6).",
+   "why": "You asked to see every Medium window (2026-11-08 17:20 UTC: \"i notice that medium sections usually do point at ai slop writing\").",
+   "advice_note": "Mine. Tell I see: \"You might get anxious or suspicious.\" as one of two parallel \"You might\" lines.",
+   "sense": "A fresh reader read it for sense (sense-t4/) and found nothing wrong.",
+   "spans": [
+    {
+     "block": 27,
+     "start": 329,
+     "end": 365
+    }
+   ]
+  },
+  {
+   "id": "M-114",
+   "type": "medium",
+   "advice": "edit",
+   "keep_label": "leave it",
+   "whose": "he asked: \"ok show me any more medium sections i will fix those as well\" (2026-11-08 17:20 UTC); the words are the live post’s",
+   "title": "“Ask deep questions.”",
+   "reading": "Human, Medium in [your whole check, draft A](https://www.pangram.com/feed/87029c8c-313d-436c-b885-e76466096da6).",
+   "why": "You asked to see every Medium window (2026-11-08 17:20 UTC: \"i notice that medium sections usually do point at ai slop writing\").",
+   "advice_note": "An imperative as a fragment (\"Ask deep questions.\"). Human tell: \"may seem silly\". I can’t find an AI tell here.",
+   "sense": "A fresh reader read it for sense (sense-t4/) and found nothing wrong.",
+   "spans": [
+    {
+     "block": 29,
+     "start": 0,
+     "end": 19
+    }
+   ]
+  },
+  {
+   "id": "M-116",
+   "type": "medium",
+   "advice": "edit",
+   "keep_label": "leave it",
+   "whose": "he asked: \"ok show me any more medium sections i will fix those as well\" (2026-11-08 17:20 UTC); the words are mine",
+   "title": "“A card game can create its own little high too.”",
+   "reading": "Human, Medium in [your whole check, draft A](https://www.pangram.com/feed/87029c8c-313d-436c-b885-e76466096da6).",
+   "why": "You asked to see every Medium window (2026-11-08 17:20 UTC: \"i notice that medium sections usually do point at ai slop writing\").",
+   "advice_note": "Mine. Tell I see: \"its own little high too\" (a cute coinage of mine).",
+   "sense": "A fresh reader read it for sense (sense-t4/) and found nothing wrong.",
+   "spans": [
+    {
+     "block": 30,
+     "start": 0,
+     "end": 47
+    }
+   ]
+  },
+  {
+   "id": "M-117",
+   "type": "medium",
+   "advice": "edit",
+   "keep_label": "leave it",
+   "whose": "he asked: \"ok show me any more medium sections i will fix those as well\" (2026-11-08 17:20 UTC); the words are the live post’s",
+   "title": "“Is it weird?”",
+   "reading": "Human, Medium in [your whole check, draft A](https://www.pangram.com/feed/87029c8c-313d-436c-b885-e76466096da6).",
+   "why": "You asked to see every Medium window (2026-11-08 17:20 UTC: \"i notice that medium sections usually do point at ai slop writing\").",
+   "advice_note": "Short question \"Is it weird?\". Human tells: \"hit you up later\", \"Can you guys be normal together\". I can’t find an AI tell here.",
+   "sense": "A fresh reader read it for sense (sense-t4/) and found nothing wrong.",
+   "spans": [
+    {
+     "block": 31,
+     "start": 274,
+     "end": 286
+    }
+   ]
+  },
+  {
+   "id": "M-119",
+   "type": "medium",
+   "advice": "edit",
+   "keep_label": "leave it",
+   "whose": "he asked: \"ok show me any more medium sections i will fix those as well\" (2026-11-08 17:20 UTC); the words are the live post’s",
+   "title": "“It doesn’t prove anything.”",
+   "reading": "Human, Medium in [your whole check, draft A](https://www.pangram.com/feed/87029c8c-313d-436c-b885-e76466096da6).",
+   "why": "You asked to see every Medium window (2026-11-08 17:20 UTC: \"i notice that medium sections usually do point at ai slop writing\").",
+   "advice_note": "Tell I see: \"It doesn’t prove anything.\" (your \"doesn’t prove\" pattern).",
+   "sense": "A fresh reader read it for sense (sense-t4/) and found nothing wrong.",
+   "spans": [
+    {
+     "block": 32,
+     "start": 60,
+     "end": 86
+    }
+   ]
+  },
+  {
+   "id": "M-124",
+   "type": "medium",
+   "advice": "edit",
+   "keep_label": "leave it",
+   "whose": "he asked: \"ok show me any more medium sections i will fix those as well\" (2026-11-08 17:20 UTC); the words are the live post’s",
+   "title": "“What are you having trouble with now?”",
+   "reading": "Human, Medium in [your whole check, draft A](https://www.pangram.com/feed/87029c8c-313d-436c-b885-e76466096da6).",
+   "why": "You asked to see every Medium window (2026-11-08 17:20 UTC: \"i notice that medium sections usually do point at ai slop writing\").",
+   "advice_note": "A short question. Human tell: \"“I have baggage” tells me almost nothing.\" I can’t find an AI tell here.",
+   "sense": "A fresh reader read it for sense (sense-t4/) and found nothing wrong.",
+   "spans": [
+    {
+     "block": 34,
+     "start": 42,
+     "end": 79
+    }
+   ]
+  },
+  {
+   "id": "M-125",
+   "type": "medium",
+   "advice": "edit",
+   "keep_label": "leave it",
+   "whose": "he asked: \"ok show me any more medium sections i will fix those as well\" (2026-11-08 17:20 UTC); the words are the live post’s",
+   "title": "“I’d want both of us to be honest about how effective we actually are a…”",
+   "reading": "Human, Medium in [your whole check, draft A](https://www.pangram.com/feed/87029c8c-313d-436c-b885-e76466096da6).",
+   "why": "You asked to see every Medium window (2026-11-08 17:20 UTC: \"i notice that medium sections usually do point at ai slop writing\").",
+   "advice_note": "Tells I see: a run of four questions, and \"That tells me more than either of us announcing that we’re healed.\" as a tidy close.",
+   "sense": "A fresh reader read it for sense (sense-t4/) and found nothing wrong.",
+   "spans": [
+    {
+     "block": 35,
+     "start": 0,
+     "end": 318
+    }
+   ]
+  },
+  {
+   "id": "M-126",
+   "type": "medium",
+   "advice": "edit",
+   "keep_label": "leave it",
+   "whose": "he asked: \"ok show me any more medium sections i will fix those as well\" (2026-11-08 17:20 UTC); the words are mine",
+   "title": "“The most recent conflicts are the best place to look.”",
+   "reading": "Human, Medium in [your whole check, draft A](https://www.pangram.com/feed/87029c8c-313d-436c-b885-e76466096da6).",
+   "why": "You asked to see every Medium window (2026-11-08 17:20 UTC: \"i notice that medium sections usually do point at ai slop writing\").",
+   "advice_note": "Mine. Tells I see: \"The most recent conflicts are the best place to look.\" (a topic sentence that announces), then a run of questions.",
+   "sense": "A fresh reader read it for sense (sense-t4/) and found nothing wrong.",
+   "spans": [
+    {
+     "block": 36,
+     "start": 0,
+     "end": 53
+    },
+    {
+     "block": 36,
+     "start": 145,
+     "end": 194
+    },
+    {
+     "block": 36,
+     "start": 271,
+     "end": 307
+    }
+   ]
+  },
+  {
+   "id": "M-135",
+   "type": "medium",
+   "advice": "edit",
+   "keep_label": "leave it",
+   "whose": "he asked: \"ok show me any more medium sections i will fix those as well\" (2026-11-08 17:20 UTC); the words are the live post’s",
+   "title": "“That was my mistake.”",
+   "reading": "Human, Medium in [your whole check, draft A](https://www.pangram.com/feed/87029c8c-313d-436c-b885-e76466096da6).",
+   "why": "You asked to see every Medium window (2026-11-08 17:20 UTC: \"i notice that medium sections usually do point at ai slop writing\").",
+   "advice_note": "Tell I see: \"That was my mistake.\" as a short confession line. I can’t find more.",
+   "sense": "A fresh reader read it for sense (sense-t4/) and found nothing wrong.",
+   "spans": [
+    {
+     "block": 38,
+     "start": 0,
+     "end": 20
+    }
+   ]
+  },
+  {
+   "id": "M-149",
+   "type": "medium",
+   "advice": "edit",
+   "keep_label": "leave it",
+   "whose": "he asked: \"ok show me any more medium sections i will fix those as well\" (2026-11-08 17:20 UTC); the words are the live post’s",
+   "title": "“We’re twin flames. She knows my motives. I’m Lord Krishna.”",
+   "reading": "Human, Medium in [its section check](https://www.pangram.com/history/1ef0b91c-6a89-4c35-b4b9-c46f1f54276d).",
+   "why": "You asked to see every Medium window (2026-11-08 17:20 UTC: \"i notice that medium sections usually do point at ai slop writing\").",
+   "advice_note": "Mine. Short lines in a run (\"We’re twin flames. She knows my motives. I’m Lord Krishna.\"). Human tell: \"Lord Krishna\".",
+   "sense": "A fresh reader read it for sense (sense-t4/) and found nothing wrong.",
+   "spans": [
+    {
+     "block": 40,
+     "start": 76,
+     "end": 134
+    }
+   ]
+  },
+  {
+   "id": "M-150",
+   "type": "medium",
+   "advice": "edit",
+   "keep_label": "leave it",
+   "whose": "he asked: \"ok show me any more medium sections i will fix those as well\" (2026-11-08 17:20 UTC); the words are the live post’s",
+   "title": "“I’m not trying to make her jealous.”",
+   "reading": "Human, Medium in [its section check](https://www.pangram.com/history/1ef0b91c-6a89-4c35-b4b9-c46f1f54276d).",
+   "why": "You asked to see every Medium window (2026-11-08 17:20 UTC: \"i notice that medium sections usually do point at ai slop writing\").",
+   "advice_note": "Short line \"I’m not trying to make her jealous.\" Human tell: \"she isn’t ready for me\". I can’t find an AI tell here.",
+   "sense": "A fresh reader read it for sense (sense-t4/) and found nothing wrong.",
+   "spans": [
+    {
+     "block": 41,
+     "start": 112,
+     "end": 147
+    }
+   ]
+  },
+  {
+   "id": "M-151",
+   "type": "medium",
+   "advice": "edit",
+   "keep_label": "leave it",
+   "whose": "he asked: \"ok show me any more medium sections i will fix those as well\" (2026-11-08 17:20 UTC); the words are mine",
+   "title": "“But I still care about them, and I’m not gonna act like they never cro…”",
+   "reading": "Human, Medium in [its section check](https://www.pangram.com/history/1ef0b91c-6a89-4c35-b4b9-c46f1f54276d).",
+   "why": "You asked to see every Medium window (2026-11-08 17:20 UTC: \"i notice that medium sections usually do point at ai slop writing\").",
+   "advice_note": "Mine. Tell I see: the \"not when ...\" tail, a turn shaped like a quip.",
+   "sense": "A fresh reader read it for sense (sense-t4/) and found nothing wrong.",
+   "spans": [
+    {
+     "block": 42,
+     "start": 117,
+     "end": 244
+    }
+   ]
+  },
+  {
+   "id": "M-154",
+   "type": "medium",
+   "advice": "edit",
+   "keep_label": "leave it",
+   "whose": "he asked: \"ok show me any more medium sections i will fix those as well\" (2026-11-08 17:20 UTC); the words are the live post’s",
+   "title": "“I see the good. I give the benefit of the doubt long after it has stop…”",
+   "reading": "Human, Medium in [its section check](https://www.pangram.com/history/c311d29f-08d7-45db-8835-c41da56fb9db).",
+   "why": "You asked to see every Medium window (2026-11-08 17:20 UTC: \"i notice that medium sections usually do point at ai slop writing\").",
+   "advice_note": "Tell I see: two short sentences in a row (\"I see the good. I give the benefit of the doubt ...\") with a neat turn (\"stopped being a benefit\"). Human tells: \"like Ping Pong\", \"anti-PTSD\".",
+   "sense": "A fresh reader read it for sense (sense-t4/) and found nothing wrong.",
+   "spans": [
+    {
+     "block": 44,
+     "start": 343,
+     "end": 433
+    }
+   ]
+  },
+  {
+   "id": "M-155",
+   "type": "medium",
+   "advice": "edit",
+   "keep_label": "leave it",
+   "whose": "he asked: \"ok show me any more medium sections i will fix those as well\" (2026-11-08 17:20 UTC); the words are the live post’s",
+   "title": "“Why does she contact me only sometimes? What’s the pattern?”",
+   "reading": "Human, Medium in [its section check](https://www.pangram.com/history/c311d29f-08d7-45db-8835-c41da56fb9db).",
+   "why": "You asked to see every Medium window (2026-11-08 17:20 UTC: \"i notice that medium sections usually do point at ai slop writing\").",
+   "advice_note": "Short questions; \"That’s my question.\" as a landing. Human tell: \"Would my twin flame behave like this?\"",
+   "sense": "A fresh reader read it for sense (sense-t4/) and found nothing wrong.",
+   "spans": [
+    {
+     "block": 45,
+     "start": 199,
+     "end": 258
+    },
+    {
+     "block": 45,
+     "start": 392,
+     "end": 411
+    }
+   ]
+  },
+  {
+   "id": "M-157",
+   "type": "medium",
+   "advice": "edit",
+   "keep_label": "leave it",
+   "whose": "he asked: \"ok show me any more medium sections i will fix those as well\" (2026-11-08 17:20 UTC); the words are mine",
+   "title": "“She would tell you the same.”",
+   "reading": "Human, Medium in [its section check](https://www.pangram.com/history/c311d29f-08d7-45db-8835-c41da56fb9db).",
+   "why": "You asked to see every Medium window (2026-11-08 17:20 UTC: \"i notice that medium sections usually do point at ai slop writing\").",
+   "advice_note": "Your Bee story; \"She would tell you the same.\" Human tell: \"witchcrafted\". I can’t find an AI tell here.",
+   "sense": "A fresh reader read it for sense (sense-t4/) and found nothing wrong.",
+   "spans": [
+    {
+     "block": 46,
+     "start": 382,
+     "end": 410
+    }
+   ]
+  },
+  {
+   "id": "M-160",
+   "type": "medium",
+   "advice": "edit",
+   "keep_label": "leave it",
+   "whose": "he asked: \"ok show me any more medium sections i will fix those as well\" (2026-11-08 17:20 UTC); the words are the live post’s",
+   "title": "“That wasn’t the whole story.”",
+   "reading": "Human, Medium in [its section check](https://www.pangram.com/history/c311d29f-08d7-45db-8835-c41da56fb9db).",
+   "why": "You asked to see every Medium window (2026-11-08 17:20 UTC: \"i notice that medium sections usually do point at ai slop writing\").",
+   "advice_note": "Tell I see: \"That wasn’t the whole story.\" as a short turn. Human tell: \"enough insanity for several lifetimes\".",
+   "sense": "A fresh reader read it for sense (sense-t4/) and found nothing wrong.",
+   "spans": [
+    {
+     "block": 47,
+     "start": 172,
+     "end": 200
+    }
+   ]
+  },
+  {
+   "id": "M-171",
+   "type": "medium",
+   "advice": "edit",
+   "keep_label": "leave it",
+   "whose": "he asked: \"ok show me any more medium sections i will fix those as well\" (2026-11-08 17:20 UTC); the words are the live post’s",
+   "title": "“Phone or video first can help. So can meeting around other people and …”",
+   "reading": "Human, Medium in [your whole check, draft A](https://www.pangram.com/feed/87029c8c-313d-436c-b885-e76466096da6).",
+   "why": "You asked to see every Medium window (2026-11-08 17:20 UTC: \"i notice that medium sections usually do point at ai slop writing\").",
+   "advice_note": "Tells I see: \"Phone or video first can help. So can ...\" (a short parallel pair), \"but they noticed something real\" (a balancing concession). Human tell: \"helicoptering\".",
+   "sense": "A fresh reader read it for sense (sense-t4/) and found nothing wrong.",
+   "spans": [
+    {
+     "block": 49,
+     "start": 0,
+     "end": 125
+    },
+    {
+     "block": 49,
+     "start": 249,
+     "end": 326
+    }
+   ]
+  },
+  {
+   "id": "M-173",
+   "type": "medium",
+   "advice": "edit",
+   "keep_label": "leave it",
+   "whose": "he asked: \"ok show me any more medium sections i will fix those as well\" (2026-11-08 17:20 UTC); the words are the live post’s",
+   "title": "“That only deals with pregnancy, though.”",
+   "reading": "Human, Medium in [your whole check, draft A](https://www.pangram.com/feed/87029c8c-313d-436c-b885-e76466096da6).",
+   "why": "You asked to see every Medium window (2026-11-08 17:20 UTC: \"i notice that medium sections usually do point at ai slop writing\").",
+   "advice_note": "Tell I see: \"That only deals with pregnancy, though.\" as a short turn. Human tell: \"Gandarussa\", \"traditonal\".",
+   "sense": "Its one finding: \"traditonal\" is a typo for \"traditional\" (I fix that either way), and \"health benefits (including libido and for HIV)\" mixes a noun with \"for\".",
+   "spans": [
+    {
+     "block": 51,
+     "start": 348,
+     "end": 387
+    }
+   ]
+  },
+  {
+   "id": "M-175",
+   "type": "medium",
+   "advice": "edit",
+   "keep_label": "leave it",
+   "whose": "he asked: \"ok show me any more medium sections i will fix those as well\" (2026-11-08 17:20 UTC); the words are mine",
+   "title": "“Based on what?”",
+   "reading": "Human, Medium in [its section check](https://www.pangram.com/history/600b344d-da2d-4b16-9776-dff00def702d).",
+   "why": "You asked to see every Medium window (2026-11-08 17:20 UTC: \"i notice that medium sections usually do point at ai slop writing\").",
+   "advice_note": "A two-word question (\"Based on what?\"). I can’t find an AI tell here.",
+   "sense": "A fresh reader read it for sense (sense-t4/) and found nothing wrong.",
+   "spans": [
+    {
+     "block": 53,
+     "start": 132,
+     "end": 146
+    }
+   ]
+  },
+  {
+   "id": "M-206",
+   "type": "medium",
+   "advice": "edit",
+   "keep_label": "leave it",
+   "whose": "he asked: \"ok show me any more medium sections i will fix those as well\" (2026-11-08 17:20 UTC); the words are the live post’s",
+   "title": "“What was I doing?”",
+   "reading": "Human, Medium in [your whole check, draft A](https://www.pangram.com/feed/87029c8c-313d-436c-b885-e76466096da6).",
+   "why": "You asked to see every Medium window (2026-11-08 17:20 UTC: \"i notice that medium sections usually do point at ai slop writing\").",
+   "advice_note": "Short questions. Human tell: \"suddenly it was weird.\" I can’t find an AI tell here.",
+   "sense": "A fresh reader read it for sense (sense-t4/) and found nothing wrong.",
+   "spans": [
+    {
+     "block": 55,
+     "start": 158,
+     "end": 175
+    }
+   ]
+  },
+  {
+   "id": "M-214",
+   "type": "medium",
+   "advice": "edit",
+   "keep_label": "leave it",
+   "whose": "he asked: \"ok show me any more medium sections i will fix those as well\" (2026-11-08 17:20 UTC); the words are the live post’s",
+   "title": "“I like that idea.”",
+   "reading": "Human, Medium in [your whole check, draft A](https://www.pangram.com/feed/87029c8c-313d-436c-b885-e76466096da6).",
+   "why": "You asked to see every Medium window (2026-11-08 17:20 UTC: \"i notice that medium sections usually do point at ai slop writing\").",
+   "advice_note": "Tell I see: \"I like that idea.\" (approval announced). Human tell: the long list from Toft.",
+   "sense": "A fresh reader read it for sense (sense-t4/) and found nothing wrong.",
+   "spans": [
+    {
+     "block": 57,
+     "start": 129,
+     "end": 146
+    }
+   ]
+  },
+  {
+   "id": "M-215",
+   "type": "medium",
+   "advice": "edit",
+   "keep_label": "leave it",
+   "whose": "he asked: \"ok show me any more medium sections i will fix those as well\" (2026-11-08 17:20 UTC); the words are mine",
+   "title": "“So I’d rather make alone time normal from early on.”",
+   "reading": "Human, Medium in [your whole check, draft A](https://www.pangram.com/feed/87029c8c-313d-436c-b885-e76466096da6).",
+   "why": "You asked to see every Medium window (2026-11-08 17:20 UTC: \"i notice that medium sections usually do point at ai slop writing\").",
+   "advice_note": "Mine. Tell I see: \"So I’d rather ...\" (a preference announced).",
+   "sense": "A fresh reader read it for sense (sense-t4/) and found nothing wrong.",
+   "spans": [
+    {
+     "block": 58,
+     "start": 130,
+     "end": 181
+    }
+   ]
+  },
+  {
+   "id": "M-216",
+   "type": "medium",
+   "advice": "edit",
+   "keep_label": "leave it",
+   "whose": "he asked: \"ok show me any more medium sections i will fix those as well\" (2026-11-08 17:20 UTC); the words are the live post’s",
+   "title": "“See people together. Go places. Don’t just disappear into each other.”",
+   "reading": "Human, Medium in [your whole check, draft A](https://www.pangram.com/feed/87029c8c-313d-436c-b885-e76466096da6).",
+   "why": "You asked to see every Medium window (2026-11-08 17:20 UTC: \"i notice that medium sections usually do point at ai slop writing\").",
+   "advice_note": "Tells I see: three short imperatives in a row (\"See people together. Go places. Don’t just disappear ...\").",
+   "sense": "A fresh reader read it for sense (sense-t4/) and found nothing wrong.",
+   "spans": [
+    {
+     "block": 59,
+     "start": 41,
+     "end": 110
+    }
+   ]
+  },
+  {
+   "id": "M-219",
+   "type": "medium",
+   "advice": "edit",
+   "keep_label": "leave it",
+   "whose": "he asked: \"ok show me any more medium sections i will fix those as well\" (2026-11-08 17:20 UTC); the words are the live post’s",
+   "title": "“A peer can give another angle.”",
+   "reading": "Human, Medium in [your whole check, draft A](https://www.pangram.com/feed/87029c8c-313d-436c-b885-e76466096da6).",
+   "why": "You asked to see every Medium window (2026-11-08 17:20 UTC: \"i notice that medium sections usually do point at ai slop writing\").",
+   "advice_note": "Tell I see: \"A peer can give another angle.\" (a generic opener). Human tell: \"hopefully does not\".",
+   "sense": "A fresh reader read it for sense (sense-t4/) and found nothing wrong.",
+   "spans": [
+    {
+     "block": 61,
+     "start": 0,
+     "end": 30
+    }
+   ]
+  },
+  {
+   "id": "M-223",
+   "type": "medium",
+   "advice": "edit",
+   "keep_label": "leave it",
+   "whose": "he asked: \"ok show me any more medium sections i will fix those as well\" (2026-11-08 17:20 UTC); the words are mine",
+   "title": "“Sometimes she’s deliberately trying to do that, and other times it’s h…”",
+   "reading": "Human, Medium in [your whole check, draft A](https://www.pangram.com/feed/87029c8c-313d-436c-b885-e76466096da6).",
+   "why": "You asked to see every Medium window (2026-11-08 17:20 UTC: \"i notice that medium sections usually do point at ai slop writing\").",
+   "advice_note": "Mine. Tell I see: a balanced either/or (\"Sometimes she’s deliberately ..., and other times it’s hard to tell\").",
+   "sense": "A fresh reader read it for sense (sense-t4/) and found nothing wrong.",
+   "spans": [
+    {
+     "block": 62,
+     "start": 249,
+     "end": 331
+    }
+   ]
+  },
+  {
+   "id": "M-252",
+   "type": "medium",
+   "advice": "edit",
+   "keep_label": "leave it",
+   "whose": "he asked: \"ok show me any more medium sections i will fix those as well\" (2026-11-08 17:20 UTC); the words are the live post’s",
+   "title": "“Everything I’ve been putting forward so far has leaned toward honesty,…”",
+   "reading": "Human, Medium in [your whole check, draft B](https://www.pangram.com/feed/5b03d47c-4290-42e5-8693-688418a08a68).",
+   "why": "You asked to see every Medium window (2026-11-08 17:20 UTC: \"i notice that medium sections usually do point at ai slop writing\").",
+   "advice_note": "Tells I see: an announcing opener with a list of three (\"honesty, closeness, and equal dignity\"). Human tell: \"tear each other’s clothes off\".",
+   "sense": "A fresh reader read it for sense (sense-t4/) and found nothing wrong.",
+   "spans": [
+    {
+     "block": 64,
+     "start": 0,
+     "end": 100
+    }
+   ]
+  },
+  {
+   "id": "M-253",
+   "type": "medium",
+   "advice": "edit",
+   "keep_label": "leave it",
+   "whose": "he asked: \"ok show me any more medium sections i will fix those as well\" (2026-11-08 17:20 UTC); the words are the live post’s",
+   "title": "“For me, safety gives the space for desire, even if it doesn’t spark it…”",
+   "reading": "Human, Medium in [your whole check, draft B](https://www.pangram.com/feed/5b03d47c-4290-42e5-8693-688418a08a68).",
+   "why": "You asked to see every Medium window (2026-11-08 17:20 UTC: \"i notice that medium sections usually do point at ai slop writing\").",
+   "advice_note": "Tells I see: an aphorism with an X-not-Y turn (\"gives the space for desire, even if it doesn’t spark it\").",
+   "sense": "A fresh reader read it for sense (sense-t4/) and found nothing wrong.",
+   "spans": [
+    {
+     "block": 65,
+     "start": 0,
+     "end": 71
+    }
+   ]
+  },
+  {
+   "id": "M-264",
+   "type": "medium",
+   "advice": "edit",
+   "keep_label": "leave it",
+   "whose": "he asked: \"ok show me any more medium sections i will fix those as well\" (2026-11-08 17:20 UTC); the words are the live post’s",
+   "title": "“Woops...”",
+   "reading": "Human, Medium in [your whole check, draft B](https://www.pangram.com/feed/5b03d47c-4290-42e5-8693-688418a08a68).",
+   "why": "You asked to see every Medium window (2026-11-08 17:20 UTC: \"i notice that medium sections usually do point at ai slop writing\").",
+   "advice_note": "One word (\"Woops...\"), your joke. I can’t find an AI tell here.",
+   "sense": "A fresh reader read it for sense (sense-t4/) and found nothing wrong.",
+   "spans": [
+    {
+     "block": 67,
+     "start": 316,
+     "end": 324
+    }
+   ]
+  },
+  {
+   "id": "M-277",
+   "type": "medium",
+   "advice": "edit",
+   "keep_label": "leave it",
+   "whose": "he asked: \"ok show me any more medium sections i will fix those as well\" (2026-11-08 17:20 UTC); the words are the live post’s",
+   "title": "“Women often show wanting directly.”",
+   "reading": "Human, Medium in [your whole check, draft B](https://www.pangram.com/feed/5b03d47c-4290-42e5-8693-688418a08a68).",
+   "why": "You asked to see every Medium window (2026-11-08 17:20 UTC: \"i notice that medium sections usually do point at ai slop writing\").",
+   "advice_note": "Tell I see: \"Women often show wanting directly.\" (an abstract topic sentence). Human tell: \"even when they could do it themselves\".",
+   "sense": "A fresh reader read it for sense (sense-t4/) and found nothing wrong.",
+   "spans": [
+    {
+     "block": 69,
+     "start": 0,
+     "end": 34
+    }
+   ]
+  },
+  {
+   "id": "M-285",
+   "type": "medium",
+   "advice": "edit",
+   "keep_label": "leave it",
+   "whose": "he asked: \"ok show me any more medium sections i will fix those as well\" (2026-11-08 17:20 UTC); the words are mine",
+   "title": "“The same is true for a woman. She shouldn’t have to play the damsel ev…”",
+   "reading": "Human, Medium in [your whole check, draft B](https://www.pangram.com/feed/5b03d47c-4290-42e5-8693-688418a08a68).",
+   "why": "You asked to see every Medium window (2026-11-08 17:20 UTC: \"i notice that medium sections usually do point at ai slop writing\").",
+   "advice_note": "Mine, from your T1 lessons. Tell I see: \"The same is true for a woman.\" (an announcing opener). Human tell: \"pretending she can’t open a jar\".",
+   "sense": "A fresh reader read it for sense (sense-t4/) and found nothing wrong.",
+   "spans": [
+    {
+     "block": 71,
+     "start": 0,
+     "end": 144
+    }
+   ]
+  },
+  {
+   "id": "M-286",
+   "type": "medium",
+   "advice": "edit",
+   "keep_label": "leave it",
+   "whose": "he asked: \"ok show me any more medium sections i will fix those as well\" (2026-11-08 17:20 UTC); the words are mine",
+   "title": "“Women can get pulled in two directions here.”",
+   "reading": "Human, Medium in [your whole check, draft B](https://www.pangram.com/feed/5b03d47c-4290-42e5-8693-688418a08a68).",
+   "why": "You asked to see every Medium window (2026-11-08 17:20 UTC: \"i notice that medium sections usually do point at ai slop writing\").",
+   "advice_note": "Mine. Tell I see: \"Women can get pulled in two directions here.\" (announces).",
+   "sense": "A fresh reader read it for sense (sense-t4/) and found nothing wrong.",
+   "spans": [
+    {
+     "block": 72,
+     "start": 0,
+     "end": 44
+    }
+   ]
+  },
+  {
+   "id": "M-287",
+   "type": "medium",
+   "advice": "edit",
+   "keep_label": "leave it",
+   "whose": "he asked: \"ok show me any more medium sections i will fix those as well\" (2026-11-08 17:20 UTC); the words are mine",
+   "title": "“She’s choosing the ride.”",
+   "reading": "Human, Medium in [your whole check, draft B](https://www.pangram.com/feed/5b03d47c-4290-42e5-8693-688418a08a68).",
+   "why": "You asked to see every Medium window (2026-11-08 17:20 UTC: \"i notice that medium sections usually do point at ai slop writing\").",
+   "advice_note": "Mine. Short line \"She’s choosing the ride.\" Human tell: \"a woman who drives just fine asking me to drive\".",
+   "sense": "A fresh reader read it for sense (sense-t4/) and found nothing wrong.",
+   "spans": [
+    {
+     "block": 73,
+     "start": 466,
+     "end": 490
+    }
+   ]
+  },
+  {
+   "id": "M-327",
+   "type": "medium",
+   "advice": "edit",
+   "keep_label": "leave it",
+   "whose": "he asked: \"ok show me any more medium sections i will fix those as well\" (2026-11-08 17:20 UTC); the words are the live post’s",
+   "title": "“Anyway.”",
+   "reading": "Human, Medium in [your whole check, draft B](https://www.pangram.com/feed/5b03d47c-4290-42e5-8693-688418a08a68).",
+   "why": "You asked to see every Medium window (2026-11-08 17:20 UTC: \"i notice that medium sections usually do point at ai slop writing\").",
+   "advice_note": "One word (\"Anyway.\"). Human tell: \"playing John Legend on loop\". I can’t find an AI tell here.",
+   "sense": "A fresh reader read it for sense (sense-t4/) and found nothing wrong.",
+   "spans": [
+    {
+     "block": 75,
+     "start": 0,
+     "end": 7
+    }
+   ]
+  },
+  {
+   "id": "M-332",
+   "type": "medium",
+   "advice": "edit",
+   "keep_label": "leave it",
+   "whose": "he asked: \"ok show me any more medium sections i will fix those as well\" (2026-11-08 17:20 UTC); the words are the live post’s",
+   "title": "“I think that’s rare.”",
+   "reading": "Human, Medium in [its section check](https://www.pangram.com/history/56fc62b2-dd18-4b8a-bad7-7c769a85f449).",
+   "why": "You asked to see every Medium window (2026-11-08 17:20 UTC: \"i notice that medium sections usually do point at ai slop writing\").",
+   "advice_note": "Your Two Pillars paragraph, an owner lock; \"I think that’s rare.\" I can’t find an AI tell here.",
+   "sense": "Its one finding: the capital \"If\" mid-sentence, which is your owner-final Two Pillars text (2026-08-24), so it stays.",
+   "spans": [
+    {
+     "block": 77,
+     "start": 76,
+     "end": 96
+    }
+   ]
+  },
+  {
+   "id": "M-338",
+   "type": "medium",
+   "advice": "edit",
+   "keep_label": "leave it",
+   "whose": "he asked: \"ok show me any more medium sections i will fix those as well\" (2026-11-08 17:20 UTC); the words are the live post’s",
+   "title": "“H.”",
+   "reading": "Human, Medium in [your whole check, draft B](https://www.pangram.com/feed/5b03d47c-4290-42e5-8693-688418a08a68).",
+   "why": "You asked to see every Medium window (2026-11-08 17:20 UTC: \"i notice that medium sections usually do point at ai slop writing\").",
+   "advice_note": "One letter (\"H.\"), the start of the paragraph. I can’t find an AI tell here.",
+   "sense": "Its one finding: \"naturally deepen ... so it was natural for the dependency\" says natural twice; \"so the dependency grew too\" would say it once.",
+   "spans": [
+    {
+     "block": 78,
+     "start": 0,
+     "end": 2
+    }
+   ]
+  },
+  {
+   "id": "M-342",
+   "type": "medium",
+   "advice": "edit",
+   "keep_label": "leave it",
+   "whose": "he asked: \"ok show me any more medium sections i will fix those as well\" (2026-11-08 17:20 UTC); the words are mine",
+   "title": "“what does that mean exactly?”",
+   "reading": "Human, Medium in [your whole check, draft B](https://www.pangram.com/feed/5b03d47c-4290-42e5-8693-688418a08a68).",
+   "why": "You asked to see every Medium window (2026-11-08 17:20 UTC: \"i notice that medium sections usually do point at ai slop writing\").",
+   "advice_note": "Mine. A short question after an ellipsis. Human tell: \"the biggie\"-style register around it.",
+   "sense": "A fresh reader read it for sense (sense-t4/) and found nothing wrong.",
+   "spans": [
+    {
+     "block": 80,
+     "start": 21,
+     "end": 49
+    }
+   ]
+  },
+  {
+   "id": "M-343",
+   "type": "medium",
+   "advice": "edit",
+   "keep_label": "leave it",
+   "whose": "he asked: \"ok show me any more medium sections i will fix those as well\" (2026-11-08 17:20 UTC); the words are the live post’s",
+   "title": "“I’d call that a practical partnership.”",
+   "reading": "Human, Medium in [your whole check, draft B](https://www.pangram.com/feed/5b03d47c-4290-42e5-8693-688418a08a68).",
+   "why": "You asked to see every Medium window (2026-11-08 17:20 UTC: \"i notice that medium sections usually do point at ai slop writing\").",
+   "advice_note": "Tell I see: \"I’d call that a practical partnership.\" (naming the thing).",
+   "sense": "A fresh reader read it for sense (sense-t4/) and found nothing wrong.",
+   "spans": [
+    {
+     "block": 81,
+     "start": 238,
+     "end": 276
+    }
+   ]
+  },
+  {
+   "id": "M-346",
+   "type": "medium",
+   "advice": "edit",
+   "keep_label": "leave it",
+   "whose": "he asked: \"ok show me any more medium sections i will fix those as well\" (2026-11-08 17:20 UTC); the words are mine",
+   "title": "“What counts as betrayal, and what’s just a sign we need a serious talk…”",
+   "reading": "Human, Medium in [your whole check, draft B](https://www.pangram.com/feed/5b03d47c-4290-42e5-8693-688418a08a68).",
+   "why": "You asked to see every Medium window (2026-11-08 17:20 UTC: \"i notice that medium sections usually do point at ai slop writing\").",
+   "advice_note": "Mine. Tell I see: a balanced \"What counts as X, and what’s just Y\" question.",
+   "sense": "A fresh reader read it for sense (sense-t4/) and found nothing wrong.",
+   "spans": [
+    {
+     "block": 82,
+     "start": 75,
+     "end": 146
+    }
+   ]
+  },
+  {
+   "id": "M-349",
+   "type": "medium",
+   "advice": "edit",
+   "keep_label": "leave it",
+   "whose": "he asked: \"ok show me any more medium sections i will fix those as well\" (2026-11-08 17:20 UTC); the words are the live post’s",
+   "title": "“You can’t promise how you’ll feel in the future. You can promise actio…”",
+   "reading": "Human, Medium in [your whole check, draft B](https://www.pangram.com/feed/5b03d47c-4290-42e5-8693-688418a08a68).",
+   "why": "You asked to see every Medium window (2026-11-08 17:20 UTC: \"i notice that medium sections usually do point at ai slop writing\").",
+   "advice_note": "Tells I see: a parallel pair (\"You can’t promise ... You can promise ...\").",
+   "sense": "A fresh reader read it for sense (sense-t4/) and found nothing wrong.",
+   "spans": [
+    {
+     "block": 84,
+     "start": 67,
+     "end": 196
+    }
+   ]
+  },
+  {
+   "id": "M-361",
+   "type": "medium",
+   "advice": "edit",
+   "keep_label": "leave it",
+   "whose": "he asked: \"ok show me any more medium sections i will fix those as well\" (2026-11-08 17:20 UTC); the words are the live post’s",
+   "title": "“So her jealousy was not simply tracking what I was doing in the presen…”",
+   "reading": "Human, Medium in [its section check](https://www.pangram.com/history/367c7b3d-e9c8-4206-bb32-7e167b3e7039).",
+   "why": "You asked to see every Medium window (2026-11-08 17:20 UTC: \"i notice that medium sections usually do point at ai slop writing\").",
+   "advice_note": "Tell I see: \"was not simply tracking\" (an X-not-Y turn).",
+   "sense": "A fresh reader read it for sense (sense-t4/) and found nothing wrong.",
+   "spans": [
+    {
+     "block": 86,
+     "start": 164,
+     "end": 236
+    }
+   ]
+  },
+  {
+   "id": "M-405",
+   "type": "medium",
+   "advice": "edit",
+   "keep_label": "leave it",
+   "whose": "he asked: \"ok show me any more medium sections i will fix those as well\" (2026-11-08 17:20 UTC); the words are the live post’s",
+   "title": "“Well, yeah.”",
+   "reading": "Human, Medium in [your whole check, draft B](https://www.pangram.com/feed/5b03d47c-4290-42e5-8693-688418a08a68).",
+   "why": "You asked to see every Medium window (2026-11-08 17:20 UTC: \"i notice that medium sections usually do point at ai slop writing\").",
+   "advice_note": "Two words (\"Well, yeah.\"). I can’t find an AI tell here.",
+   "sense": "A fresh reader read it for sense (sense-t4/) and found nothing wrong.",
+   "spans": [
+    {
+     "block": 88,
+     "start": 0,
+     "end": 11
+    }
+   ]
+  },
+  {
+   "id": "M-409",
+   "type": "medium",
+   "advice": "edit",
+   "keep_label": "leave it",
+   "whose": "he asked: \"ok show me any more medium sections i will fix those as well\" (2026-11-08 17:20 UTC); the words are the live post’s",
+   "title": "“That drove me crazy.”",
+   "reading": "Human, Medium in [your whole check, draft B](https://www.pangram.com/feed/5b03d47c-4290-42e5-8693-688418a08a68).",
+   "why": "You asked to see every Medium window (2026-11-08 17:20 UTC: \"i notice that medium sections usually do point at ai slop writing\").",
+   "advice_note": "A short line (\"That drove me crazy.\"). Human tell: the door story. I can’t find an AI tell here.",
+   "sense": "A fresh reader read it for sense (sense-t4/) and found nothing wrong.",
+   "spans": [
+    {
+     "block": 90,
+     "start": 147,
+     "end": 167
+    }
+   ]
+  },
+  {
+   "id": "M-437",
+   "type": "medium",
+   "advice": "edit",
+   "keep_label": "leave it",
+   "whose": "he asked: \"ok show me any more medium sections i will fix those as well\" (2026-11-08 17:20 UTC); the words are mine",
+   "title": "“So how much you say, and to whom, and how publicly, really depends on …”",
+   "reading": "Human, Medium in [your whole check, draft B](https://www.pangram.com/feed/5b03d47c-4290-42e5-8693-688418a08a68).",
+   "why": "You asked to see every Medium window (2026-11-08 17:20 UTC: \"i notice that medium sections usually do point at ai slop writing\").",
+   "advice_note": "Mine. Tells I see: a list of three (\"how much you say, and to whom, and how publicly\") and \"really depends on\".",
+   "sense": "A fresh reader read it for sense (sense-t4/) and found nothing wrong.",
+   "spans": [
+    {
+     "block": 92,
+     "start": 260,
+     "end": 374
+    }
+   ]
+  },
+  {
+   "id": "M-438",
+   "type": "medium",
+   "advice": "edit",
+   "keep_label": "leave it",
+   "whose": "he asked: \"ok show me any more medium sections i will fix those as well\" (2026-11-08 17:20 UTC); the words are mine",
+   "title": "“Once you’re out, you can see things you genuinely couldn’t see while y…”",
+   "reading": "Human, Medium in [your whole check, draft B](https://www.pangram.com/feed/5b03d47c-4290-42e5-8693-688418a08a68).",
+   "why": "You asked to see every Medium window (2026-11-08 17:20 UTC: \"i notice that medium sections usually do point at ai slop writing\").",
+   "advice_note": "Mine. Tell I see: \"Look at what you contributed.\" as a bare imperative.",
+   "sense": "A fresh reader read it for sense (sense-t4/) and found nothing wrong.",
+   "spans": [
+    {
+     "block": 93,
+     "start": 0,
+     "end": 115
+    }
+   ]
+  },
+  {
+   "id": "M-440",
+   "type": "medium",
+   "advice": "edit",
+   "keep_label": "leave it",
+   "whose": "he asked: \"ok show me any more medium sections i will fix those as well\" (2026-11-08 17:20 UTC); the words are mine",
+   "title": "“No, that isn’t true. We partly mirror one another, but each person was…”",
+   "reading": "Human, Medium in [your whole check, draft B](https://www.pangram.com/feed/5b03d47c-4290-42e5-8693-688418a08a68).",
+   "why": "You asked to see every Medium window (2026-11-08 17:20 UTC: \"i notice that medium sections usually do point at ai slop writing\").",
+   "advice_note": "Mine. Tell I see: \"No, that isn’t true.\" then a balanced \"partly ..., but ...\" correction.",
+   "sense": "A fresh reader read it for sense (sense-t4/) and found nothing wrong.",
+   "spans": [
+    {
+     "block": 94,
+     "start": 275,
+     "end": 395
+    }
+   ]
+  },
+  {
+   "id": "M-441",
+   "type": "medium",
+   "advice": "edit",
+   "keep_label": "leave it",
+   "whose": "he asked: \"ok show me any more medium sections i will fix those as well\" (2026-11-08 17:20 UTC); the words are the live post’s",
+   "title": "“I also learned that public demonization doesn’t always have to be the …”",
+   "reading": "Human, Medium in [your whole check, draft B](https://www.pangram.com/feed/5b03d47c-4290-42e5-8693-688418a08a68).",
+   "why": "You asked to see every Medium window (2026-11-08 17:20 UTC: \"i notice that medium sections usually do point at ai slop writing\").",
+   "advice_note": "Tell I see: \"doesn’t always have to be the last chapter\" (a soft metaphor). Human tell: \"You’re not a yo-yo.\"",
+   "sense": "Its one finding: the sentences after it are about cutting contact and letting them back in, not public demonization; \"doesn’t always have to be the last chapter\" may want the breakup as its subject.",
+   "spans": [
+    {
+     "block": 95,
+     "start": 0,
+     "end": 83
+    }
+   ]
+  }
+ ]
+}
