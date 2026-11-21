@@ -101,3 +101,69 @@ heading he added; the report had named the nearest older heading (his answer to 
 "what are you looking at?"). RESULTS-3-NAMED.md and RESULTS-4-NAMED.md list his 20 moves by his current headings and
 where he really put each section. RESULTS-3.md and RESULTS-4.md stay as first written, since the article registry
 keeps experiment results unchanged; their counts and scores are the same.
+
+## Run 5: the blind sort with only the guide's own words and his answers (written before it ran)
+
+Turn 136 found what the earlier frames got wrong: the Nurturer and 7 of the 9 parts had no text of their own on 4
+November, and the model that wrote the frame for runs 2 to 4 described them by what sat under them, which gave the old
+place to 8 of his 20 moves (DOUBT.md, second section; lesson inner-child-2026-11-20r). Turn 137 asked him only what the
+article doesn't answer (question 116, Healing Old Patterns; `../t137-questions/ASKED.md`), and he answered on
+2026-11-21 at 01:47 UTC.
+
+Run 5 is run 4 with one change to the frame and one addition to the cards. The frame (`out/FRAME-5.json`, made by
+`make_frame5.py`) is no model's description: it is the 4 November text's own words, verbatim (the opening, Five Stages,
+and each part's and role's own text, empty where there is none), and his framework answers: 114 as run 4 had it, 115 (1)
+on divine love, the rule he agreed to in 115 (3) (a problem goes where the reader meets it), and 116's definition of
+Healing Old Patterns. What his answers say about his own moves stays out ("i moved most of the sections from here into
+their role sections"), so the run tests the method and not his outline. Each card also names a second home: where the
+section would go if not the first. Same readers as runs 2 to 4 (Sonnet, one per shuffled batch), same headings list,
+same assembly and scoring (`assemble5.py`, from `assemble4.py`).
+
+Predictions: the spiritual sections go to the Guide's side (at high or medium confidence, 3 to 5 of the five: Ask God for
+a Loan, Invite Your Little One In, When the Spiritual Relationship Hurts, How Much Happiness Do You Know Is Possible?,
+The Joy In Sorrow); shame and forgiveness stay under the Nurturer, as in run 4; How Distrust Reproduces goes under Finding
+People and Building Trust (likely, by 115 (3)). At high confidence, 6 to 10 of his 20 moves with 12 or fewer others; tau
+at or above run 4's 0.943. Second homes: his real heading is the first or second home for more of his 20 moves than it
+is the first (prediction: 4 or more more), at no more than about 30 questions (unsure sections with a second home).
+
+## Run 5 result, and run 5b (written before 5b ran)
+
+Run 5 (RESULTS-5.md) did worse than run 4: 2 of his 20 moves at high confidence with 9 others, tau 0.933 (run 4: 3, 9,
+0.943); at high or medium, 33 other moves (run 4: 24). Every prediction failed except one: no spiritual section went to
+the Guide's side; his real heading was the second home for 4 more of his moves, as predicted, but at 84 questions, not
+about 30, and with fewer of his moves among them than chance (7, against 11.4).
+
+The cards say why the spiritual sections stayed. The readers did take his answer to 115 (1): they gave Ask God for a
+Loan, Your Loan is PRE-APPROVED! and How Much Happiness Do You Know Is Possible? no role ("none"), not the Nurturer. But
+nothing in the frame named the role that leads there, so they filed the sections where they were, under the Nurturer or
+under Ask God for a Loan. His answer said where divine love doesn't go, not where it does. Question 4 of "Before the
+sort" asks both ("which role points to it?"), and turn 135's question 115 put the second half only as a guess of mine,
+which he didn't take up in words.
+
+Run 5b is run 5 with the other half, in his own words from his guide: under Divine Love: Bigger Door he wrote "This is
+what the Inner Guide can bring you to" (`out/FRAME-5B.json`, made by `make_frame5.py --b`; `input/TASK-CARDS-5B.md`).
+Nothing else changes: same batches, readers (Sonnet) and assembly (`assemble5.py 5b`).
+
+Predictions: at least 3 of the 5 spiritual sections (Ask God for a Loan, Invite Your Little One In, When the Spiritual
+Relationship Hurts, How Much Happiness Do You Know Is Possible?, The Joy In Sorrow) land on the Guide's side (under the
+Guide, or under a section filed under it); his other moves change by at most 2 either way. If fewer than 3 move, an
+explicit destination is not enough either, and the next question is what else the readers need.
+
+## Run 5b result
+
+The prediction held: with his one line added, all 5 spiritual sections landed on the Guide's side (run 5: none), 3 of
+them exactly where he put them (Invite Your Little One In and How Much Happiness Do You Know Is Possible? under the
+Guide, The Joy In Sorrow under How Much Happiness), and the readers gave Ask God for a Loan, Invite Your Little One In and
+How Much Happiness the Guide's role. So one sentence naming where a thing goes moved what a sentence saying where it
+doesn't go could not. The other prediction failed: at high or medium confidence his moves went from 4 to 7, 3 more than
+the 2 allowed, all of them spiritual sections. At high confidence alone, 5b is no closer than run 4 (2 of his moves with 7
+others, tau 0.924; run 4: 3, 9, 0.943), and at high or medium it makes 31 moves he didn't make: with no words of their
+own for 7 of the 9 parts, the readers scatter more than with a model's description. Second homes didn't narrow the
+questions in either run: 84 and 94 unsure sections with a second home, with fewer of his moves among them than chance.
+
+## Run 6 (not run; for Joel to say)
+
+Combine what each frame did well: a model's description only for the parts and roles the 4 November text describes in
+its own words (run 4 kept those sections steadier), and his words for the ones it doesn't: the Nurturer (questions 114
+and 115, with "This is what the Inner Guide can bring you to"), Healing Old Patterns (116), and the five other parts
+with no text of their own, asked first. The prediction would be written here before it runs.

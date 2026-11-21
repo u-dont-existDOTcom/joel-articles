@@ -1,6 +1,6 @@
 # Inner Child article: questions for Joel
 
-Last updated 2026-11-21 (turn 137). One open question: 116. Questions 111 to 115 are answered. The to-do entries below date from turn 115 (26 October) and weren't rechecked this turn, except pull request #255, which you merged on 3 November. To answer a question, reply in chat with its number and a letter, like `111: A`, or in your own words.
+Last updated 2026-11-21 (turn 138). One open question: 117. Questions 111 to 116 are answered. The to-do entries below date from turn 115 (26 October) and weren't rechecked this turn, except pull request #255, which you merged on 3 November. To answer a question, reply in chat with its number and a letter, like `111: A`, or in your own words.
 
 🟣 a question for you · 🟠 for you to do · 🔵 next or in progress · 🟢 done or decided
 
@@ -8,11 +8,23 @@ The published page, a view of this file rebuilt after every change ([questions_p
 
 ## Open questions
 
-### 🟣 116. What is Healing Old Patterns for? (turn 137)
+### 🟣 117. Do away with Healing Old Patterns? (turn 138)
+
+What's left in it is Re-do Trauma Memories (with Discipline Done Right?) and Answer the Disciplinarian, about 970 words.
+
+- **A** (my suggestion): Re-do Trauma Memories goes in the Guide as an h3 right after Borrow a Guide to Build It, with Discipline Done Right? as its h4. It opens "Once you've got your cast of perfected future characters (from Borrow Hindsight)", and Borrow Hindsight already sends readers to it, "a section further down"; that line becomes a one-line lead-in. Answer the Disciplinarian goes under the Protector as an h3 right after The Parent You Inherited: it answers the voice that section calls "a critic, or a warden with rules", and protection blocks.
+- **B**: both into the Guide, Answer the Disciplinarian as an h3 after Spoil or Clamp Down? (routines kept without harshness).
+- **C**: keep Healing Old Patterns, for GPT's reason: the core role sections stay shorter.
+
+The Guide would grow from about 3,100 words to 3,900 (A) or 4,050 (B), and the Protector from 1,200 to 1,350 (A). Every new heading fits whole in the sidebar at those levels. Nothing links to Healing Old Patterns itself, and the moved sections keep their anchors. Answer A, B or C, or in your own words.
+
+### 🟢 116. What is Healing Old Patterns for? (turn 137)
 
 It's the one part of the guide I can't find defined in the article or in your answers so far ([what I checked, and where the others are answered](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/inner-child-therapy/experiments/t137-questions/ASKED.md)). Your answer to 114 says what it isn't: "just a catch all category which is not important enough to deal with such a primary obstacle". And the opening gives noticing old patterns to the whole Inner Adult ("That grown-up notices the old patterns and practices better ways of responding"), so from the article alone, all three roles' work sounds like healing old patterns.
 
 What is the part for, and what should go there rather than under the Protector, the Nurturer or the Guide? A line or two in your own words is plenty. It goes into the frame for the next sort with your answers to 114 and 115 and the article's own descriptions.
+
+Answered 2026-11-21 01:47 UTC: "yes all 3 roles are for healing old patterns, that's true. this section is basically where we have decided to put techniques that don't seem to fit cleanly into just one role". You've moved most of its sections into their roles, so little is left, and you're weighing doing away with it: question 117. The definition is in the [contents order brief](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/tools/humanization/contents_order_brief.md), and the sort's runs 5 and 5b used it ([run 5](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/inner-child-therapy/experiments/t133-order/RESULTS-5.md), [run 5b](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/inner-child-therapy/experiments/t133-order/RESULTS-5B.md)).
 
 ### 🟢 115. Three of your moves the sort still can't explain (turn 135)
 

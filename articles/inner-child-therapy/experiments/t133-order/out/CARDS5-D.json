@@ -1,0 +1,300 @@
+{
+ "cards": [
+  {
+   "id": "N090",
+   "sits_under": "none",
+   "sits_under_confidence": "high",
+   "second_home": "none",
+   "role": "none",
+   "role_confidence": "low"
+  },
+  {
+   "id": "N016",
+   "sits_under": "N015",
+   "sits_under_confidence": "high",
+   "second_home": "N019",
+   "role": "none",
+   "role_confidence": "medium"
+  },
+  {
+   "id": "N080",
+   "sits_under": "N076",
+   "sits_under_confidence": "medium",
+   "second_home": "none",
+   "role": "none",
+   "role_confidence": "medium"
+  },
+  {
+   "id": "N017",
+   "sits_under": "N015",
+   "sits_under_confidence": "medium",
+   "second_home": "N016",
+   "role": "none",
+   "role_confidence": "medium"
+  },
+  {
+   "id": "N130",
+   "sits_under": "N123",
+   "sits_under_confidence": "medium",
+   "second_home": "N129",
+   "role": "none",
+   "role_confidence": "medium"
+  },
+  {
+   "id": "N142",
+   "sits_under": "N141",
+   "sits_under_confidence": "medium",
+   "second_home": "none",
+   "role": "N028",
+   "role_confidence": "medium"
+  },
+  {
+   "id": "N038",
+   "sits_under": "N013",
+   "sits_under_confidence": "low",
+   "second_home": "N028",
+   "role": "N028",
+   "role_confidence": "low"
+  },
+  {
+   "id": "N131",
+   "sits_under": "N123",
+   "sits_under_confidence": "low",
+   "second_home": "N132",
+   "role": "none",
+   "role_confidence": "medium"
+  },
+  {
+   "id": "N116",
+   "sits_under": "N115",
+   "sits_under_confidence": "high",
+   "second_home": "N105",
+   "role": "N021",
+   "role_confidence": "low"
+  },
+  {
+   "id": "N143",
+   "sits_under": "N141",
+   "sits_under_confidence": "high",
+   "second_home": "none",
+   "role": "none",
+   "role_confidence": "high"
+  },
+  {
+   "id": "N084",
+   "sits_under": "N082",
+   "sits_under_confidence": "high",
+   "second_home": "N083",
+   "role": "none",
+   "role_confidence": "high"
+  },
+  {
+   "id": "N119",
+   "sits_under": "N118",
+   "sits_under_confidence": "medium",
+   "second_home": "N115",
+   "role": "N021",
+   "role_confidence": "low"
+  },
+  {
+   "id": "N042",
+   "sits_under": "N041",
+   "sits_under_confidence": "medium",
+   "second_home": "N028",
+   "role": "N021",
+   "role_confidence": "low"
+  },
+  {
+   "id": "N053",
+   "sits_under": "N052",
+   "sits_under_confidence": "high",
+   "second_home": "N009",
+   "role": "none",
+   "role_confidence": "medium"
+  },
+  {
+   "id": "N099",
+   "sits_under": "N090",
+   "sits_under_confidence": "medium",
+   "second_home": "N098",
+   "role": "N021",
+   "role_confidence": "medium"
+  },
+  {
+   "id": "N117",
+   "sits_under": "N115",
+   "sits_under_confidence": "high",
+   "second_home": "N116",
+   "role": "none",
+   "role_confidence": "medium"
+  },
+  {
+   "id": "N136",
+   "sits_under": "N105",
+   "sits_under_confidence": "medium",
+   "second_home": "N016",
+   "role": "none",
+   "role_confidence": "medium"
+  },
+  {
+   "id": "N039",
+   "sits_under": "N028",
+   "sits_under_confidence": "high",
+   "second_home": "N029",
+   "role": "N028",
+   "role_confidence": "high"
+  },
+  {
+   "id": "N138",
+   "sits_under": "N136",
+   "sits_under_confidence": "high",
+   "second_home": "N137",
+   "role": "none",
+   "role_confidence": "high"
+  },
+  {
+   "id": "N024",
+   "sits_under": "N021",
+   "sits_under_confidence": "high",
+   "second_home": "N025",
+   "role": "N021",
+   "role_confidence": "high"
+  },
+  {
+   "id": "N041",
+   "sits_under": "N028",
+   "sits_under_confidence": "medium",
+   "second_home": "N021",
+   "role": "N028",
+   "role_confidence": "medium"
+  },
+  {
+   "id": "N109",
+   "sits_under": "N106",
+   "sits_under_confidence": "high",
+   "second_home": "N107",
+   "role": "N045",
+   "role_confidence": "low"
+  },
+  {
+   "id": "N129",
+   "sits_under": "N123",
+   "sits_under_confidence": "medium",
+   "second_home": "N112",
+   "role": "none",
+   "role_confidence": "medium"
+  },
+  {
+   "id": "N097",
+   "sits_under": "N090",
+   "sits_under_confidence": "low",
+   "second_home": "N091",
+   "role": "N021",
+   "role_confidence": "low"
+  },
+  {
+   "id": "N002",
+   "sits_under": "N001",
+   "sits_under_confidence": "high",
+   "second_home": "none",
+   "role": "none",
+   "role_confidence": "high"
+  },
+  {
+   "id": "N056",
+   "sits_under": "N052",
+   "sits_under_confidence": "high",
+   "second_home": "N053",
+   "role": "none",
+   "role_confidence": "medium"
+  },
+  {
+   "id": "N074",
+   "sits_under": "N075",
+   "sits_under_confidence": "medium",
+   "second_home": "N051",
+   "role": "N045",
+   "role_confidence": "medium"
+  },
+  {
+   "id": "N068",
+   "sits_under": "N067",
+   "sits_under_confidence": "medium",
+   "second_home": "N115",
+   "role": "none",
+   "role_confidence": "medium"
+  },
+  {
+   "id": "N073",
+   "sits_under": "N067",
+   "sits_under_confidence": "medium",
+   "second_home": "N046",
+   "role": "N045",
+   "role_confidence": "medium"
+  },
+  {
+   "id": "N021",
+   "sits_under": "N015",
+   "sits_under_confidence": "high",
+   "second_home": "none",
+   "role": "N021",
+   "role_confidence": "high"
+  },
+  {
+   "id": "N009",
+   "sits_under": "N005",
+   "sits_under_confidence": "medium",
+   "second_home": "N011",
+   "role": "N028",
+   "role_confidence": "low"
+  },
+  {
+   "id": "N140",
+   "sits_under": "N136",
+   "sits_under_confidence": "high",
+   "second_home": "N139",
+   "role": "none",
+   "role_confidence": "high"
+  },
+  {
+   "id": "N087",
+   "sits_under": "N076",
+   "sits_under_confidence": "medium",
+   "second_home": "N086",
+   "role": "none",
+   "role_confidence": "medium"
+  },
+  {
+   "id": "N083",
+   "sits_under": "N082",
+   "sits_under_confidence": "medium",
+   "second_home": "N076",
+   "role": "none",
+   "role_confidence": "medium"
+  },
+  {
+   "id": "N124",
+   "sits_under": "N123",
+   "sits_under_confidence": "medium",
+   "second_home": "N005",
+   "role": "N021",
+   "role_confidence": "medium"
+  },
+  {
+   "id": "N091",
+   "sits_under": "N090",
+   "sits_under_confidence": "high",
+   "second_home": "N096",
+   "role": "none",
+   "role_confidence": "medium"
+  },
+  {
+   "id": "N127",
+   "sits_under": "N123",
+   "sits_under_confidence": "high",
+   "second_home": "N125",
+   "role": "none",
+   "role_confidence": "medium"
+  }
+ ]
+}
