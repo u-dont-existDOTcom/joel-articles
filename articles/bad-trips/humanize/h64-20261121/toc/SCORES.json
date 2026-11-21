@@ -1,0 +1,1066 @@
+{
+ "rows": [
+  {
+   "reader": "FABLE-1",
+   "first_right": 26,
+   "guesses": 9,
+   "right_by_second": 30
+  },
+  {
+   "reader": "FABLE-2",
+   "first_right": 26,
+   "guesses": 6,
+   "right_by_second": 30
+  },
+  {
+   "reader": "NOW-1",
+   "first_right": 23,
+   "guesses": 14,
+   "right_by_second": 28
+  },
+  {
+   "reader": "NOW-2",
+   "first_right": 24,
+   "guesses": 14,
+   "right_by_second": 27
+  },
+  {
+   "reader": "PICK-1",
+   "first_right": 28,
+   "guesses": 8,
+   "right_by_second": 29
+  },
+  {
+   "reader": "PICK-2",
+   "first_right": 27,
+   "guesses": 10,
+   "right_by_second": 31
+  }
+ ],
+ "per_situation": {
+  "1": {
+   "FABLE-1": [
+    "B93",
+    "sure",
+    true
+   ],
+   "FABLE-2": [
+    "B93",
+    "sure",
+    true
+   ],
+   "NOW-1": [
+    "B93",
+    "sure",
+    true
+   ],
+   "NOW-2": [
+    "B93",
+    "sure",
+    true
+   ],
+   "PICK-1": [
+    "B93",
+    "sure",
+    true
+   ],
+   "PICK-2": [
+    "B93",
+    "sure",
+    true
+   ]
+  },
+  "2": {
+   "FABLE-1": [
+    "B108",
+    "sure",
+    true
+   ],
+   "FABLE-2": [
+    "B108",
+    "sure",
+    true
+   ],
+   "NOW-1": [
+    "B108",
+    "sure",
+    true
+   ],
+   "NOW-2": [
+    "B108",
+    "sure",
+    true
+   ],
+   "PICK-1": [
+    "B108",
+    "sure",
+    true
+   ],
+   "PICK-2": [
+    "B108",
+    "sure",
+    true
+   ]
+  },
+  "3": {
+   "FABLE-1": [
+    "B129",
+    "sure",
+    true
+   ],
+   "FABLE-2": [
+    "B131",
+    "guess",
+    true
+   ],
+   "NOW-1": [
+    "B129",
+    "guess",
+    true
+   ],
+   "NOW-2": [
+    "B129",
+    "guess",
+    true
+   ],
+   "PICK-1": [
+    "B129",
+    "guess",
+    true
+   ],
+   "PICK-2": [
+    "B129",
+    "sure",
+    true
+   ]
+  },
+  "4": {
+   "FABLE-1": [
+    "B113",
+    "sure",
+    true
+   ],
+   "FABLE-2": [
+    "B113",
+    "sure",
+    true
+   ],
+   "NOW-1": [
+    "B113",
+    "sure",
+    true
+   ],
+   "NOW-2": [
+    "B113",
+    "sure",
+    true
+   ],
+   "PICK-1": [
+    "B113",
+    "guess",
+    true
+   ],
+   "PICK-2": [
+    "B113",
+    "guess",
+    true
+   ]
+  },
+  "5": {
+   "FABLE-1": [
+    "B99",
+    "guess",
+    false
+   ],
+   "FABLE-2": [
+    "B99",
+    "guess",
+    false
+   ],
+   "NOW-1": [
+    "B113",
+    "guess",
+    true
+   ],
+   "NOW-2": [
+    "B113",
+    "guess",
+    true
+   ],
+   "PICK-1": [
+    "B113",
+    "guess",
+    true
+   ],
+   "PICK-2": [
+    "B113",
+    "guess",
+    true
+   ]
+  },
+  "6": {
+   "FABLE-1": [
+    "B125",
+    "guess",
+    true
+   ],
+   "FABLE-2": [
+    "B125",
+    "guess",
+    true
+   ],
+   "NOW-1": [
+    "B91",
+    "guess",
+    false
+   ],
+   "NOW-2": [
+    "B261",
+    "guess",
+    false
+   ],
+   "PICK-1": [
+    "B125",
+    "sure",
+    true
+   ],
+   "PICK-2": [
+    "B125",
+    "sure",
+    true
+   ]
+  },
+  "7": {
+   "FABLE-1": [
+    "B102",
+    "sure",
+    true
+   ],
+   "FABLE-2": [
+    "B102",
+    "sure",
+    true
+   ],
+   "NOW-1": [
+    "B102",
+    "sure",
+    true
+   ],
+   "NOW-2": [
+    "B102",
+    "sure",
+    true
+   ],
+   "PICK-1": [
+    "B102",
+    "sure",
+    true
+   ],
+   "PICK-2": [
+    "B102",
+    "sure",
+    true
+   ]
+  },
+  "8": {
+   "FABLE-1": [
+    "B99",
+    "guess",
+    false
+   ],
+   "FABLE-2": [
+    "B93",
+    "sure",
+    true
+   ],
+   "NOW-1": [
+    "B99",
+    "guess",
+    false
+   ],
+   "NOW-2": [
+    "B99",
+    "guess",
+    false
+   ],
+   "PICK-1": [
+    "B93",
+    "guess",
+    true
+   ],
+   "PICK-2": [
+    "B93",
+    "guess",
+    true
+   ]
+  },
+  "9": {
+   "FABLE-1": [
+    "B121",
+    "sure",
+    true
+   ],
+   "FABLE-2": [
+    "B121",
+    "sure",
+    true
+   ],
+   "NOW-1": [
+    "B121",
+    "sure",
+    true
+   ],
+   "NOW-2": [
+    "B121",
+    "sure",
+    true
+   ],
+   "PICK-1": [
+    "B121",
+    "sure",
+    true
+   ],
+   "PICK-2": [
+    "B121",
+    "sure",
+    true
+   ]
+  },
+  "10": {
+   "FABLE-1": [
+    "B129",
+    "sure",
+    true
+   ],
+   "FABLE-2": [
+    "B129",
+    "sure",
+    true
+   ],
+   "NOW-1": [
+    "B129",
+    "sure",
+    true
+   ],
+   "NOW-2": [
+    "B129",
+    "sure",
+    true
+   ],
+   "PICK-1": [
+    "B129",
+    "sure",
+    true
+   ],
+   "PICK-2": [
+    "B129",
+    "sure",
+    true
+   ]
+  },
+  "11": {
+   "FABLE-1": [
+    "N-SF-1",
+    "sure",
+    true
+   ],
+   "FABLE-2": [
+    "N-SF-1",
+    "sure",
+    true
+   ],
+   "NOW-1": [
+    "N-SF-1",
+    "guess",
+    true
+   ],
+   "NOW-2": [
+    "N-SF-1",
+    "guess",
+    true
+   ],
+   "PICK-1": [
+    "N-SF-1",
+    "sure",
+    true
+   ],
+   "PICK-2": [
+    "N-SF-1",
+    "sure",
+    true
+   ]
+  },
+  "12": {
+   "FABLE-1": [
+    "B285",
+    "guess",
+    true
+   ],
+   "FABLE-2": [
+    "B285",
+    "guess",
+    true
+   ],
+   "NOW-1": [
+    "B394",
+    "guess",
+    false
+   ],
+   "NOW-2": [
+    "B285",
+    "guess",
+    true
+   ],
+   "PICK-1": [
+    "N-SF-1",
+    "guess",
+    true
+   ],
+   "PICK-2": [
+    "B285",
+    "guess",
+    true
+   ]
+  },
+  "13": {
+   "FABLE-1": [
+    "B261",
+    "sure",
+    true
+   ],
+   "FABLE-2": [
+    "B261",
+    "sure",
+    true
+   ],
+   "NOW-1": [
+    "B261",
+    "sure",
+    true
+   ],
+   "NOW-2": [
+    "B261",
+    "guess",
+    true
+   ],
+   "PICK-1": [
+    "B261",
+    "sure",
+    true
+   ],
+   "PICK-2": [
+    "B261",
+    "sure",
+    true
+   ]
+  },
+  "14": {
+   "FABLE-1": [
+    "B169",
+    "sure",
+    false
+   ],
+   "FABLE-2": [
+    "B169",
+    "sure",
+    false
+   ],
+   "NOW-1": [
+    "B169",
+    "sure",
+    false
+   ],
+   "NOW-2": [
+    "B169",
+    "sure",
+    false
+   ],
+   "PICK-1": [
+    "B169",
+    "sure",
+    false
+   ],
+   "PICK-2": [
+    "B169",
+    "sure",
+    false
+   ]
+  },
+  "15": {
+   "FABLE-1": [
+    "B150",
+    "sure",
+    false
+   ],
+   "FABLE-2": [
+    "B164",
+    "sure",
+    true
+   ],
+   "NOW-1": [
+    "B164",
+    "sure",
+    true
+   ],
+   "NOW-2": [
+    "B164",
+    "sure",
+    true
+   ],
+   "PICK-1": [
+    "B164",
+    "sure",
+    true
+   ],
+   "PICK-2": [
+    "B150",
+    "sure",
+    false
+   ]
+  },
+  "16": {
+   "FABLE-1": [
+    "B125",
+    "guess",
+    true
+   ],
+   "FABLE-2": [
+    "B164",
+    "guess",
+    false
+   ],
+   "NOW-1": [
+    "B150",
+    "guess",
+    false
+   ],
+   "NOW-2": [
+    "B150",
+    "guess",
+    false
+   ],
+   "PICK-1": [
+    "B150",
+    "guess",
+    false
+   ],
+   "PICK-2": [
+    "B150",
+    "guess",
+    false
+   ]
+  },
+  "17": {
+   "FABLE-1": [
+    "B181",
+    "sure",
+    true
+   ],
+   "FABLE-2": [
+    "B180",
+    "sure",
+    false
+   ],
+   "NOW-1": [
+    "B180",
+    "guess",
+    false
+   ],
+   "NOW-2": [
+    "B180",
+    "sure",
+    false
+   ],
+   "PICK-1": [
+    "B181",
+    "sure",
+    true
+   ],
+   "PICK-2": [
+    "B180",
+    "sure",
+    false
+   ]
+  },
+  "18": {
+   "FABLE-1": [
+    "B125",
+    "guess",
+    false
+   ],
+   "FABLE-2": [
+    "B125",
+    "sure",
+    false
+   ],
+   "NOW-1": [
+    "B138",
+    "guess",
+    false
+   ],
+   "NOW-2": [
+    "B169",
+    "guess",
+    false
+   ],
+   "PICK-1": [
+    "B125",
+    "guess",
+    false
+   ],
+   "PICK-2": [
+    "B125",
+    "guess",
+    false
+   ]
+  },
+  "19": {
+   "FABLE-1": [
+    "B159",
+    "guess",
+    true
+   ],
+   "FABLE-2": [
+    "B159",
+    "guess",
+    true
+   ],
+   "NOW-1": [
+    "B159",
+    "sure",
+    true
+   ],
+   "NOW-2": [
+    "B159",
+    "sure",
+    true
+   ],
+   "PICK-1": [
+    "B159",
+    "sure",
+    true
+   ],
+   "PICK-2": [
+    "B159",
+    "sure",
+    true
+   ]
+  },
+  "20": {
+   "FABLE-1": [
+    "B279",
+    "sure",
+    true
+   ],
+   "FABLE-2": [
+    "B281",
+    "sure",
+    true
+   ],
+   "NOW-1": [
+    "B279",
+    "sure",
+    true
+   ],
+   "NOW-2": [
+    "B279",
+    "sure",
+    true
+   ],
+   "PICK-1": [
+    "B279",
+    "sure",
+    true
+   ],
+   "PICK-2": [
+    "B279",
+    "guess",
+    true
+   ]
+  },
+  "21": {
+   "FABLE-1": [
+    "B390",
+    "sure",
+    true
+   ],
+   "FABLE-2": [
+    "B390",
+    "sure",
+    true
+   ],
+   "NOW-1": [
+    "B390",
+    "sure",
+    true
+   ],
+   "NOW-2": [
+    "B390",
+    "sure",
+    true
+   ],
+   "PICK-1": [
+    "B390",
+    "sure",
+    true
+   ],
+   "PICK-2": [
+    "B390",
+    "sure",
+    true
+   ]
+  },
+  "22": {
+   "FABLE-1": [
+    "B394",
+    "sure",
+    true
+   ],
+   "FABLE-2": [
+    "B394",
+    "sure",
+    true
+   ],
+   "NOW-1": [
+    "B394",
+    "sure",
+    true
+   ],
+   "NOW-2": [
+    "B394",
+    "sure",
+    true
+   ],
+   "PICK-1": [
+    "B394",
+    "sure",
+    true
+   ],
+   "PICK-2": [
+    "B394",
+    "sure",
+    true
+   ]
+  },
+  "23": {
+   "FABLE-1": [
+    "B323",
+    "sure",
+    true
+   ],
+   "FABLE-2": [
+    "B323",
+    "sure",
+    true
+   ],
+   "NOW-1": [
+    "B323",
+    "sure",
+    true
+   ],
+   "NOW-2": [
+    "B315",
+    "sure",
+    true
+   ],
+   "PICK-1": [
+    "B323",
+    "sure",
+    true
+   ],
+   "PICK-2": [
+    "B323",
+    "sure",
+    true
+   ]
+  },
+  "24": {
+   "FABLE-1": [
+    "B405",
+    "sure",
+    true
+   ],
+   "FABLE-2": [
+    "B405",
+    "sure",
+    true
+   ],
+   "NOW-1": [
+    "B405",
+    "sure",
+    true
+   ],
+   "NOW-2": [
+    "B405",
+    "sure",
+    true
+   ],
+   "PICK-1": [
+    "B405",
+    "sure",
+    true
+   ],
+   "PICK-2": [
+    "B405",
+    "sure",
+    true
+   ]
+  },
+  "25": {
+   "FABLE-1": [
+    "B410",
+    "sure",
+    true
+   ],
+   "FABLE-2": [
+    "B410",
+    "sure",
+    true
+   ],
+   "NOW-1": [
+    "B410",
+    "sure",
+    true
+   ],
+   "NOW-2": [
+    "B410",
+    "sure",
+    true
+   ],
+   "PICK-1": [
+    "B410",
+    "sure",
+    true
+   ],
+   "PICK-2": [
+    "B410",
+    "sure",
+    true
+   ]
+  },
+  "26": {
+   "FABLE-1": [
+    "B332",
+    "sure",
+    true
+   ],
+   "FABLE-2": [
+    "B332",
+    "sure",
+    true
+   ],
+   "NOW-1": [
+    "B332",
+    "guess",
+    true
+   ],
+   "NOW-2": [
+    "B332",
+    "guess",
+    true
+   ],
+   "PICK-1": [
+    "B332",
+    "sure",
+    true
+   ],
+   "PICK-2": [
+    "B332",
+    "sure",
+    true
+   ]
+  },
+  "27": {
+   "FABLE-1": [
+    "B376",
+    "sure",
+    true
+   ],
+   "FABLE-2": [
+    "B376",
+    "sure",
+    true
+   ],
+   "NOW-1": [
+    "B376",
+    "sure",
+    true
+   ],
+   "NOW-2": [
+    "B376",
+    "sure",
+    true
+   ],
+   "PICK-1": [
+    "B376",
+    "sure",
+    true
+   ],
+   "PICK-2": [
+    "B376",
+    "sure",
+    true
+   ]
+  },
+  "28": {
+   "FABLE-1": [
+    "B424",
+    "sure",
+    true
+   ],
+   "FABLE-2": [
+    "B424",
+    "sure",
+    true
+   ],
+   "NOW-1": [
+    "B419",
+    "guess",
+    true
+   ],
+   "NOW-2": [
+    "B424",
+    "guess",
+    true
+   ],
+   "PICK-1": [
+    "B424",
+    "sure",
+    true
+   ],
+   "PICK-2": [
+    "B424",
+    "sure",
+    true
+   ]
+  },
+  "29": {
+   "FABLE-1": [
+    "B424",
+    "sure",
+    true
+   ],
+   "FABLE-2": [
+    "B424",
+    "sure",
+    true
+   ],
+   "NOW-1": [
+    "B96",
+    "guess",
+    true
+   ],
+   "NOW-2": [
+    "B96",
+    "guess",
+    true
+   ],
+   "PICK-1": [
+    "B424",
+    "sure",
+    true
+   ],
+   "PICK-2": [
+    "B424",
+    "guess",
+    true
+   ]
+  },
+  "30": {
+   "FABLE-1": [
+    "B419",
+    "guess",
+    true
+   ],
+   "FABLE-2": [
+    "B419",
+    "sure",
+    true
+   ],
+   "NOW-1": [
+    "B424",
+    "guess",
+    false
+   ],
+   "NOW-2": [
+    "B424",
+    "guess",
+    false
+   ],
+   "PICK-1": [
+    "B419",
+    "sure",
+    true
+   ],
+   "PICK-2": [
+    "B419",
+    "guess",
+    true
+   ]
+  },
+  "31": {
+   "FABLE-1": [
+    "B364",
+    "sure",
+    true
+   ],
+   "FABLE-2": [
+    "B364",
+    "sure",
+    true
+   ],
+   "NOW-1": [
+    "B364",
+    "sure",
+    true
+   ],
+   "NOW-2": [
+    "B364",
+    "sure",
+    true
+   ],
+   "PICK-1": [
+    "B364",
+    "sure",
+    true
+   ],
+   "PICK-2": [
+    "B364",
+    "sure",
+    true
+   ]
+  },
+  "32": {
+   "FABLE-1": [
+    "B91",
+    "guess",
+    false
+   ],
+   "FABLE-2": [
+    "B91",
+    "sure",
+    false
+   ],
+   "NOW-1": [
+    "B91",
+    "guess",
+    false
+   ],
+   "NOW-2": [
+    "B261",
+    "guess",
+    false
+   ],
+   "PICK-1": [
+    "B261",
+    "guess",
+    false
+   ],
+   "PICK-2": [
+    "B93",
+    "guess",
+    true
+   ]
+  }
+ }
+}
