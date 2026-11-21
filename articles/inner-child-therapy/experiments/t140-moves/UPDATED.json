@@ -4,10 +4,35 @@
  "what": "Question 117, A (his answer of 2026-11-21 13:07 UTC): Healing Old Patterns gone; Re-do Trauma Memories (h3) and Discipline Done Right? (h4) after You Did It Well Before, in the Guide; Answer the Disciplinarian (h3) after Reframe the Critic, under the Protector. No words added or changed.",
  "first_try": "turn 139, about 13:15 UTC: opening the editor in the desktop app's browser pane was refused (auto-mode classifier, Undermining Oversight); the steps went to him in chat",
  "base": "the editor's document at 13:33 UTC: 738 nodes, 153 headings (2 of them empty); Borrow Hindsight's pointer to Re-do Trauma Memories already read \"Healthier\", so no text needed fixing",
- "transaction": {"script": "moves_117.js, run in the editor in the desktop app's browser pane", "removed": ["node 400, the divider above Healing Old Patterns", "node 401, the h1 Healing Old Patterns", "node 402, the empty paragraph under it"], "moved": ["nodes 403-416 (Re-do Trauma Memories h2 -> h3, Discipline Done Right? h3 -> h4) to before node 259, Healthy Mind, Not Perfect", "nodes 417-419 (Answer the Disciplinarian h2 -> h3) to before node 174, Earning trust, day to day"], "checked": "735 nodes after; every other node the same (type and text), once each; the new heading order around both places", "ok": true},
+ "transaction": {
+  "script": "moves_117.js, run in the editor in the desktop app's browser pane",
+  "removed": [
+   "node 400, the divider above Healing Old Patterns",
+   "node 401, the h1 Healing Old Patterns",
+   "node 402, the empty paragraph under it"
+  ],
+  "moved": [
+   "nodes 403-416 (Re-do Trauma Memories h2 -> h3, Discipline Done Right? h3 -> h4) to before node 259, Healthy Mind, Not Perfect",
+   "nodes 417-419 (Answer the Disciplinarian h2 -> h3) to before node 174, Earning trust, day to day"
+  ],
+  "checked": "735 nodes after; every other node the same (type and text), once each; the new heading order around both places",
+  "ok": true
+ },
  "saved": "the draft API at 13:33:49.565 UTC: 735 nodes, the new order and levels",
- "update": {"by": "me, with his OK of 13:31 UTC", "how": "Continue, then the Publish dialog's \"Update now\"; \"Send via email and the Substack app\" was off and stayed off (no email to subscribers); audience Everyone, comments Everyone, section Spirit and Mind Health, tags inner child, self-love, how to love, all as they were", "updated_at": "2026-11-21T13:35:01.547Z"},
- "live_read_back": {"from": "the public post API (/api/v1/posts/inner-child-self-love-tips-and-guided) right after", "headings": "152, the draft's exactly (live_headings.txt; 2 empty)", "no_healing_old_patterns": true, "body_html_sha256": "6cfedd742fcf648e91f3230c56d23761379f4f97b20d75bbcb3812f6b26c40eb", "text_sha256_no_whitespace": "50e13cdaee4dec6a321b43ce2834ec6a69da9b1e46799c996ba82d36007dca45", "wordcount_substack": 29450, "audience": "everyone"},
+ "update": {
+  "by": "me, with his OK of 13:31 UTC",
+  "how": "Continue, then the Publish dialog's \"Update now\"; \"Send via email and the Substack app\" was off and stayed off (no email to subscribers); audience Everyone, comments Everyone, section Spirit and Mind Health, tags inner child, self-love, how to love, all as they were",
+  "updated_at": "2026-11-21T13:35:01.547Z"
+ },
+ "live_read_back": {
+  "from": "the public post API (/api/v1/posts/inner-child-self-love-tips-and-guided) right after",
+  "headings": "152, the draft's exactly (live_headings.txt; 2 empty)",
+  "no_healing_old_patterns": true,
+  "body_html_sha256": "6cfedd742fcf648e91f3230c56d23761379f4f97b20d75bbcb3812f6b26c40eb",
+  "text_sha256_no_whitespace": "50e13cdaee4dec6a321b43ce2834ec6a69da9b1e46799c996ba82d36007dca45",
+  "wordcount_substack": 29450,
+  "audience": "everyone"
+ },
  "anchors": "read from the rendered post: live_anchors.txt (149 anchored headings; the h5 Mo' Money, Mo' Problems has none). Five of the catalog's were wrong: Substack reads \"&\" as \"and\" and keeps an accented letter's plain letter. section_links.py now does the same, and apply_moves.py checks the catalog against both files.",
- "found": "Two empty headings in the post: an h3 after Betrayed by a Teacher (before Practice With Your Little One) and an h2 after My Trips Came Too Soon (before Reparenting in Real Life). They were there on 16 November too. Left as they are; told Joel."
+ "found": "Two blank lines with heading formatting (an h3 after Betrayed by a Teacher, an h2 after My Trips Came Too Soon), there on 16 November too. Joel, 2026-11-21 14:27 UTC: \"those aren't empty headings they are simply new lines, which don't do anything to the ToC.\" They stay (lesson inner-child-2026-11-21i)."
 }
