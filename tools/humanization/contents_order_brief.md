@@ -55,6 +55,10 @@ How he decides whose work it is (Joel, 2026-11-20 23:03 UTC, his answer to quest
   protection blocks. guide directs. shame and forgiveness need acceptance."
 - **A catch-all part is not the home for a primary obstacle.** "healing old patterns is just a catch all category which
   is not important enough to deal with such a primary obstacle."
+- **A catch-all part holds the techniques that don't fit cleanly into one role.** (Joel, 2026-11-21 01:47 UTC, question
+  116: "yes all 3 roles are for healing old patterns, that's true. this section is basically where we have decided to put
+  techniques that don't seem to fit cleanly into just one role".) Once moves into the roles leave it nearly empty, ask
+  the author whether it should go, and where each section left would land in the flow (question 117).
 - **A practice goes under a role only when the role must do it; otherwise it goes where the flow lands.** "a practice is
   something that could be done by any of the roles [...] mantra practice, that's primary to the Guide, so it could go
   under the Guide, but the Guide does not need to give a mantra practice to be a good guide, so it doesn't need to go
@@ -105,13 +109,23 @@ The questions:
 2. For each pair of roles that touch: what decides between them?
 3. Which parts are catch-alls, and what should never be filed there?
 4. Is there anything beyond the roles (as divine love is beyond the Nurturer's care), and which role points to it?
+   Get both halves.
 5. Where do practices go: under a role, or where the reader needs them?
 6. What does a reader meet first, and what can wait?
 
+**Every answer has to say where a thing goes, not only where it doesn't (lesson inner-child-2026-11-21b).** When an
+answer only rules a place out, ask once more: "so where does it go?" In the inner child guide's run 5, the readers took
+his "the nurturer doesn't give divine love": they gave the divine-love sections no role at all. With nothing naming where
+divine love leads, they left all five where they were. Run 5b added one line of his, "This is what the Inner Guide can
+bring you to", and all five went to the Guide's side (`articles/inner-child-therapy/experiments/t133-order/RESULTS-5B.md`).
+
 The readers' own doubt is a weak guide to anything else worth asking (`articles/inner-child-therapy/experiments/t133-order/DOUBT.md`):
 in the blind sort they were unsure about 14 of the 20 sections he moved, but also about 65 he left alone, and their
-doubt came without his answer. To turn doubt into a few questions instead of dozens, ask each reader for a first and a
-second home, and put one question to the author for each pair of homes that many unsure sections split between.
+doubt came without his answer. Second homes didn't help either (lesson inner-child-2026-11-21c): in runs 5 and 5b, 84
+and 94 unsure sections had a second home, with fewer of his moves among them than chance would give. And the guide's own
+words alone are too thin a frame where most parts have none: the readers scatter sections more than with a model's
+description of each part. Not yet tried: a model's description only for the parts the guide describes in its own words,
+and his words for the ones it doesn't (run 6 in that experiment's PLAN.md, if he wants it).
 
 ## 3. Order inside each part
 
