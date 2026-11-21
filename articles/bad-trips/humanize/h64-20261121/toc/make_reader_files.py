@@ -10,7 +10,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, os.path.join(HERE, '..', '..', '..', '..', '..', 'tools', 'humanization'))
 import toc_sidebar as ts
 
-FILES = {'NOW': 'NOW.json', 'FABLE': 'PROPOSAL-FABLE.json', 'PICK': 'PROPOSAL-PICK.json', 'WHOLE': 'NOW.json'}
+FILES = {'NOW': 'NOW.json', 'FABLE': 'PROPOSAL-FABLE.json', 'PICK': 'PROPOSAL-PICK.json', 'PICK2': 'PROPOSAL-PICK2.json', 'PICK3': 'PROPOSAL-PICK3.json', 'PICK4': 'PROPOSAL-PICK4.json', 'PICK5': 'PROPOSAL-PICK5.json', 'PICK6': 'PROPOSAL-PICK6.json', 'WHOLE': 'NOW.json'}
 
 
 def lines(name):

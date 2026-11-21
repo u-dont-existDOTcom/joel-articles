@@ -2323,6 +2323,41 @@
     }
    ],
    "recorded_utc": "2026-11-21T01:07Z"
+  },
+  {
+   "turn": "2026-11-21T13:04Z",
+   "lines_of_work": [
+    "bad trips guide"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "live default branch 3d79cc8 (unchanged; read-only clone, re-fetched); suggested-fixes lane: six items, all in the ledger"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "this lane's pull request 465 merged; the inner child lane's 466 and 467 merged (lessons inner-child-2026-11-21a to c, contents order; merged in here); no new issues, comments or reviews on this lane's pull requests"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no edits by others to this lane's handoff note, questions page or state since 465"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "no queued notifications; his message of 13:04 UTC: done (round 47), learn lessons: why two serotonin syndrome headings in a row; continue"
+    }
+   ],
+   "items": [
+    {
+     "item": "his message of 13:04 UTC",
+     "outcome": "this turn: his round-47 picks were saved only in his browser (the page declared no database), so the page now declares one and sends his picks when he opens it; lessons: a heading never repeats the one before it or its parent, and every heading a contents reader marks as hard gets a fate before the page goes out (tools/humanization/toc_check.py, the headings brief, docs/FIXING-AN-ARTICLE.md); the serotonin headings fixed in my pick"
+    }
+   ],
+   "recorded_utc": "2026-11-21T13:06Z"
   }
  ]
 }

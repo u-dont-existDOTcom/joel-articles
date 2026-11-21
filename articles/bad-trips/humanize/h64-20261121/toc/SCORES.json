@@ -35,6 +35,66 @@
    "first_right": 27,
    "guesses": 10,
    "right_by_second": 31
+  },
+  {
+   "reader": "PICK2-1",
+   "first_right": 27,
+   "guesses": 4,
+   "right_by_second": 31
+  },
+  {
+   "reader": "PICK2-2",
+   "first_right": 27,
+   "guesses": 8,
+   "right_by_second": 30
+  },
+  {
+   "reader": "PICK3-1",
+   "first_right": 24,
+   "guesses": 7,
+   "right_by_second": 29
+  },
+  {
+   "reader": "PICK3-2",
+   "first_right": 25,
+   "guesses": 7,
+   "right_by_second": 29
+  },
+  {
+   "reader": "PICK4-1",
+   "first_right": 27,
+   "guesses": 6,
+   "right_by_second": 30
+  },
+  {
+   "reader": "PICK4-2",
+   "first_right": 27,
+   "guesses": 5,
+   "right_by_second": 31
+  },
+  {
+   "reader": "PICK5-1",
+   "first_right": 27,
+   "guesses": 4,
+   "right_by_second": 30
+  },
+  {
+   "reader": "PICK5-2",
+   "first_right": 26,
+   "guesses": 6,
+   "right_by_second": 30
+  },
+  {
+   "reader": "PICK6-1",
+   "first_right": 27,
+   "guesses": 4,
+   "right_by_second": 29
+  },
+  {
+   "reader": "PICK6-2",
+   "first_right": 27,
+   "guesses": 8,
+   "right_by_second": 30
   }
  ],
  "per_situation": {
@@ -65,6 +125,56 @@
     true
    ],
    "PICK-2": [
+    "B93",
+    "sure",
+    true
+   ],
+   "PICK2-1": [
+    "B93",
+    "sure",
+    true
+   ],
+   "PICK2-2": [
+    "B93",
+    "sure",
+    true
+   ],
+   "PICK3-1": [
+    "B93",
+    "sure",
+    true
+   ],
+   "PICK3-2": [
+    "B93",
+    "sure",
+    true
+   ],
+   "PICK4-1": [
+    "B93",
+    "sure",
+    true
+   ],
+   "PICK4-2": [
+    "B93",
+    "sure",
+    true
+   ],
+   "PICK5-1": [
+    "B93",
+    "sure",
+    true
+   ],
+   "PICK5-2": [
+    "B93",
+    "sure",
+    true
+   ],
+   "PICK6-1": [
+    "B93",
+    "sure",
+    true
+   ],
+   "PICK6-2": [
     "B93",
     "sure",
     true
@@ -100,6 +210,56 @@
     "B108",
     "sure",
     true
+   ],
+   "PICK2-1": [
+    "B108",
+    "sure",
+    true
+   ],
+   "PICK2-2": [
+    "B108",
+    "sure",
+    true
+   ],
+   "PICK3-1": [
+    "B108",
+    "sure",
+    true
+   ],
+   "PICK3-2": [
+    "B108",
+    "sure",
+    true
+   ],
+   "PICK4-1": [
+    "B108",
+    "sure",
+    true
+   ],
+   "PICK4-2": [
+    "B108",
+    "sure",
+    true
+   ],
+   "PICK5-1": [
+    "B108",
+    "sure",
+    true
+   ],
+   "PICK5-2": [
+    "B108",
+    "sure",
+    true
+   ],
+   "PICK6-1": [
+    "B108",
+    "sure",
+    true
+   ],
+   "PICK6-2": [
+    "B108",
+    "sure",
+    true
    ]
   },
   "3": {
@@ -131,6 +291,56 @@
    "PICK-2": [
     "B129",
     "sure",
+    true
+   ],
+   "PICK2-1": [
+    "B129",
+    "sure",
+    true
+   ],
+   "PICK2-2": [
+    "B129",
+    "sure",
+    true
+   ],
+   "PICK3-1": [
+    "B129",
+    "sure",
+    true
+   ],
+   "PICK3-2": [
+    "B129",
+    "sure",
+    true
+   ],
+   "PICK4-1": [
+    "B129",
+    "sure",
+    true
+   ],
+   "PICK4-2": [
+    "B129",
+    "guess",
+    true
+   ],
+   "PICK5-1": [
+    "B129",
+    "sure",
+    true
+   ],
+   "PICK5-2": [
+    "B129",
+    "sure",
+    true
+   ],
+   "PICK6-1": [
+    "B129",
+    "sure",
+    true
+   ],
+   "PICK6-2": [
+    "B129",
+    "guess",
     true
    ]
   },
@@ -164,6 +374,56 @@
     "B113",
     "guess",
     true
+   ],
+   "PICK2-1": [
+    "B113",
+    "sure",
+    true
+   ],
+   "PICK2-2": [
+    "B113",
+    "sure",
+    true
+   ],
+   "PICK3-1": [
+    "B113",
+    "sure",
+    true
+   ],
+   "PICK3-2": [
+    "B113",
+    "sure",
+    true
+   ],
+   "PICK4-1": [
+    "B113",
+    "sure",
+    true
+   ],
+   "PICK4-2": [
+    "B113",
+    "sure",
+    true
+   ],
+   "PICK5-1": [
+    "B113",
+    "sure",
+    true
+   ],
+   "PICK5-2": [
+    "B113",
+    "sure",
+    true
+   ],
+   "PICK6-1": [
+    "B113",
+    "sure",
+    true
+   ],
+   "PICK6-2": [
+    "B113",
+    "sure",
+    true
    ]
   },
   "5": {
@@ -196,6 +456,56 @@
     "B113",
     "guess",
     true
+   ],
+   "PICK2-1": [
+    "B113",
+    "sure",
+    true
+   ],
+   "PICK2-2": [
+    "B113",
+    "sure",
+    true
+   ],
+   "PICK3-1": [
+    "B113",
+    "sure",
+    true
+   ],
+   "PICK3-2": [
+    "B113",
+    "sure",
+    true
+   ],
+   "PICK4-1": [
+    "B113",
+    "guess",
+    true
+   ],
+   "PICK4-2": [
+    "B113",
+    "sure",
+    true
+   ],
+   "PICK5-1": [
+    "B113",
+    "sure",
+    true
+   ],
+   "PICK5-2": [
+    "B113",
+    "guess",
+    true
+   ],
+   "PICK6-1": [
+    "B113",
+    "sure",
+    true
+   ],
+   "PICK6-2": [
+    "B113",
+    "sure",
+    true
    ]
   },
   "6": {
@@ -225,6 +535,56 @@
     true
    ],
    "PICK-2": [
+    "B125",
+    "sure",
+    true
+   ],
+   "PICK2-1": [
+    "B125",
+    "sure",
+    true
+   ],
+   "PICK2-2": [
+    "B125",
+    "sure",
+    true
+   ],
+   "PICK3-1": [
+    "B125",
+    "sure",
+    true
+   ],
+   "PICK3-2": [
+    "B125",
+    "sure",
+    true
+   ],
+   "PICK4-1": [
+    "B125",
+    "sure",
+    true
+   ],
+   "PICK4-2": [
+    "B125",
+    "sure",
+    true
+   ],
+   "PICK5-1": [
+    "B125",
+    "sure",
+    true
+   ],
+   "PICK5-2": [
+    "B125",
+    "sure",
+    true
+   ],
+   "PICK6-1": [
+    "B125",
+    "sure",
+    true
+   ],
+   "PICK6-2": [
     "B125",
     "sure",
     true
@@ -260,6 +620,56 @@
     "B102",
     "sure",
     true
+   ],
+   "PICK2-1": [
+    "B102",
+    "sure",
+    true
+   ],
+   "PICK2-2": [
+    "B102",
+    "sure",
+    true
+   ],
+   "PICK3-1": [
+    "B102",
+    "sure",
+    true
+   ],
+   "PICK3-2": [
+    "B102",
+    "sure",
+    true
+   ],
+   "PICK4-1": [
+    "B102",
+    "sure",
+    true
+   ],
+   "PICK4-2": [
+    "B102",
+    "sure",
+    true
+   ],
+   "PICK5-1": [
+    "B102",
+    "sure",
+    true
+   ],
+   "PICK5-2": [
+    "B102",
+    "sure",
+    true
+   ],
+   "PICK6-1": [
+    "B102",
+    "sure",
+    true
+   ],
+   "PICK6-2": [
+    "B102",
+    "sure",
+    true
    ]
   },
   "8": {
@@ -289,6 +699,56 @@
     true
    ],
    "PICK-2": [
+    "B93",
+    "guess",
+    true
+   ],
+   "PICK2-1": [
+    "B93",
+    "guess",
+    true
+   ],
+   "PICK2-2": [
+    "B93",
+    "guess",
+    true
+   ],
+   "PICK3-1": [
+    "B93",
+    "guess",
+    true
+   ],
+   "PICK3-2": [
+    "B93",
+    "guess",
+    true
+   ],
+   "PICK4-1": [
+    "B93",
+    "guess",
+    true
+   ],
+   "PICK4-2": [
+    "B93",
+    "guess",
+    true
+   ],
+   "PICK5-1": [
+    "B93",
+    "guess",
+    true
+   ],
+   "PICK5-2": [
+    "B93",
+    "guess",
+    true
+   ],
+   "PICK6-1": [
+    "B93",
+    "guess",
+    true
+   ],
+   "PICK6-2": [
     "B93",
     "guess",
     true
@@ -324,6 +784,56 @@
     "B121",
     "sure",
     true
+   ],
+   "PICK2-1": [
+    "B121",
+    "sure",
+    true
+   ],
+   "PICK2-2": [
+    "B121",
+    "sure",
+    true
+   ],
+   "PICK3-1": [
+    "B121",
+    "sure",
+    true
+   ],
+   "PICK3-2": [
+    "B121",
+    "sure",
+    true
+   ],
+   "PICK4-1": [
+    "B121",
+    "sure",
+    true
+   ],
+   "PICK4-2": [
+    "B121",
+    "sure",
+    true
+   ],
+   "PICK5-1": [
+    "B121",
+    "sure",
+    true
+   ],
+   "PICK5-2": [
+    "B121",
+    "sure",
+    true
+   ],
+   "PICK6-1": [
+    "B121",
+    "sure",
+    true
+   ],
+   "PICK6-2": [
+    "B121",
+    "sure",
+    true
    ]
   },
   "10": {
@@ -353,6 +863,56 @@
     true
    ],
    "PICK-2": [
+    "B129",
+    "sure",
+    true
+   ],
+   "PICK2-1": [
+    "B129",
+    "sure",
+    true
+   ],
+   "PICK2-2": [
+    "B129",
+    "sure",
+    true
+   ],
+   "PICK3-1": [
+    "B129",
+    "sure",
+    true
+   ],
+   "PICK3-2": [
+    "B129",
+    "sure",
+    true
+   ],
+   "PICK4-1": [
+    "B129",
+    "sure",
+    true
+   ],
+   "PICK4-2": [
+    "B129",
+    "sure",
+    true
+   ],
+   "PICK5-1": [
+    "B129",
+    "sure",
+    true
+   ],
+   "PICK5-2": [
+    "B129",
+    "sure",
+    true
+   ],
+   "PICK6-1": [
+    "B129",
+    "sure",
+    true
+   ],
+   "PICK6-2": [
     "B129",
     "sure",
     true
@@ -388,6 +948,56 @@
     "N-SF-1",
     "sure",
     true
+   ],
+   "PICK2-1": [
+    "N-SF-1",
+    "sure",
+    true
+   ],
+   "PICK2-2": [
+    "N-SF-1",
+    "sure",
+    true
+   ],
+   "PICK3-1": [
+    "B285",
+    "guess",
+    false
+   ],
+   "PICK3-2": [
+    "B315",
+    "guess",
+    false
+   ],
+   "PICK4-1": [
+    "N-SF-1",
+    "sure",
+    true
+   ],
+   "PICK4-2": [
+    "N-SF-1",
+    "sure",
+    true
+   ],
+   "PICK5-1": [
+    "N-SF-1",
+    "sure",
+    true
+   ],
+   "PICK5-2": [
+    "N-SF-1",
+    "sure",
+    true
+   ],
+   "PICK6-1": [
+    "N-SF-1",
+    "sure",
+    true
+   ],
+   "PICK6-2": [
+    "N-SF-1",
+    "sure",
+    true
    ]
   },
   "12": {
@@ -420,6 +1030,56 @@
     "B285",
     "guess",
     true
+   ],
+   "PICK2-1": [
+    "B285",
+    "guess",
+    true
+   ],
+   "PICK2-2": [
+    "B285",
+    "guess",
+    true
+   ],
+   "PICK3-1": [
+    "B394",
+    "guess",
+    false
+   ],
+   "PICK3-2": [
+    "B285",
+    "guess",
+    true
+   ],
+   "PICK4-1": [
+    "N-SF-1",
+    "guess",
+    true
+   ],
+   "PICK4-2": [
+    "N-SF-1",
+    "guess",
+    true
+   ],
+   "PICK5-1": [
+    "B285",
+    "guess",
+    true
+   ],
+   "PICK5-2": [
+    "B285",
+    "guess",
+    true
+   ],
+   "PICK6-1": [
+    "B285",
+    "guess",
+    true
+   ],
+   "PICK6-2": [
+    "N-SF-1",
+    "guess",
+    true
    ]
   },
   "13": {
@@ -449,6 +1109,56 @@
     true
    ],
    "PICK-2": [
+    "B261",
+    "sure",
+    true
+   ],
+   "PICK2-1": [
+    "B261",
+    "sure",
+    true
+   ],
+   "PICK2-2": [
+    "B261",
+    "guess",
+    true
+   ],
+   "PICK3-1": [
+    "B261",
+    "sure",
+    true
+   ],
+   "PICK3-2": [
+    "B261",
+    "sure",
+    true
+   ],
+   "PICK4-1": [
+    "B261",
+    "sure",
+    true
+   ],
+   "PICK4-2": [
+    "B261",
+    "sure",
+    true
+   ],
+   "PICK5-1": [
+    "B261",
+    "sure",
+    true
+   ],
+   "PICK5-2": [
+    "B261",
+    "sure",
+    true
+   ],
+   "PICK6-1": [
+    "B261",
+    "sure",
+    true
+   ],
+   "PICK6-2": [
     "B261",
     "sure",
     true
@@ -484,6 +1194,56 @@
     "B169",
     "sure",
     false
+   ],
+   "PICK2-1": [
+    "B169",
+    "sure",
+    false
+   ],
+   "PICK2-2": [
+    "B169",
+    "sure",
+    false
+   ],
+   "PICK3-1": [
+    "B169",
+    "sure",
+    false
+   ],
+   "PICK3-2": [
+    "B169",
+    "sure",
+    false
+   ],
+   "PICK4-1": [
+    "B169",
+    "sure",
+    false
+   ],
+   "PICK4-2": [
+    "B169",
+    "sure",
+    false
+   ],
+   "PICK5-1": [
+    "B169",
+    "sure",
+    false
+   ],
+   "PICK5-2": [
+    "B169",
+    "sure",
+    false
+   ],
+   "PICK6-1": [
+    "B169",
+    "sure",
+    false
+   ],
+   "PICK6-2": [
+    "B169",
+    "sure",
+    false
    ]
   },
   "15": {
@@ -513,6 +1273,56 @@
     true
    ],
    "PICK-2": [
+    "B150",
+    "sure",
+    false
+   ],
+   "PICK2-1": [
+    "B150",
+    "sure",
+    false
+   ],
+   "PICK2-2": [
+    "B150",
+    "sure",
+    false
+   ],
+   "PICK3-1": [
+    "B150",
+    "sure",
+    false
+   ],
+   "PICK3-2": [
+    "B150",
+    "sure",
+    false
+   ],
+   "PICK4-1": [
+    "B150",
+    "sure",
+    false
+   ],
+   "PICK4-2": [
+    "B150",
+    "sure",
+    false
+   ],
+   "PICK5-1": [
+    "B150",
+    "sure",
+    false
+   ],
+   "PICK5-2": [
+    "B150",
+    "sure",
+    false
+   ],
+   "PICK6-1": [
+    "B150",
+    "sure",
+    false
+   ],
+   "PICK6-2": [
     "B150",
     "sure",
     false
@@ -548,6 +1358,56 @@
     "B150",
     "guess",
     false
+   ],
+   "PICK2-1": [
+    "B150",
+    "guess",
+    false
+   ],
+   "PICK2-2": [
+    "B150",
+    "guess",
+    false
+   ],
+   "PICK3-1": [
+    "B150",
+    "guess",
+    false
+   ],
+   "PICK3-2": [
+    "B150",
+    "guess",
+    false
+   ],
+   "PICK4-1": [
+    "B150",
+    "guess",
+    false
+   ],
+   "PICK4-2": [
+    "B150",
+    "guess",
+    false
+   ],
+   "PICK5-1": [
+    "B150",
+    "guess",
+    false
+   ],
+   "PICK5-2": [
+    "B150",
+    "guess",
+    false
+   ],
+   "PICK6-1": [
+    "B150",
+    "guess",
+    false
+   ],
+   "PICK6-2": [
+    "B150",
+    "guess",
+    false
    ]
   },
   "17": {
@@ -577,6 +1437,56 @@
     true
    ],
    "PICK-2": [
+    "B180",
+    "sure",
+    false
+   ],
+   "PICK2-1": [
+    "R30-OILS1",
+    "sure",
+    true
+   ],
+   "PICK2-2": [
+    "B180",
+    "sure",
+    false
+   ],
+   "PICK3-1": [
+    "B180",
+    "sure",
+    false
+   ],
+   "PICK3-2": [
+    "B180",
+    "guess",
+    false
+   ],
+   "PICK4-1": [
+    "B180",
+    "sure",
+    false
+   ],
+   "PICK4-2": [
+    "B180",
+    "sure",
+    false
+   ],
+   "PICK5-1": [
+    "B180",
+    "sure",
+    false
+   ],
+   "PICK5-2": [
+    "B180",
+    "sure",
+    false
+   ],
+   "PICK6-1": [
+    "B180",
+    "sure",
+    false
+   ],
+   "PICK6-2": [
     "B180",
     "sure",
     false
@@ -612,6 +1522,56 @@
     "B125",
     "guess",
     false
+   ],
+   "PICK2-1": [
+    "B125",
+    "sure",
+    false
+   ],
+   "PICK2-2": [
+    "B125",
+    "guess",
+    false
+   ],
+   "PICK3-1": [
+    "B125",
+    "guess",
+    false
+   ],
+   "PICK3-2": [
+    "B125",
+    "sure",
+    false
+   ],
+   "PICK4-1": [
+    "B125",
+    "guess",
+    false
+   ],
+   "PICK4-2": [
+    "B125",
+    "sure",
+    false
+   ],
+   "PICK5-1": [
+    "B125",
+    "guess",
+    false
+   ],
+   "PICK5-2": [
+    "B125",
+    "sure",
+    false
+   ],
+   "PICK6-1": [
+    "B125",
+    "sure",
+    false
+   ],
+   "PICK6-2": [
+    "B125",
+    "guess",
+    false
    ]
   },
   "19": {
@@ -643,6 +1603,56 @@
    "PICK-2": [
     "B159",
     "sure",
+    true
+   ],
+   "PICK2-1": [
+    "B159",
+    "sure",
+    true
+   ],
+   "PICK2-2": [
+    "B159",
+    "guess",
+    true
+   ],
+   "PICK3-1": [
+    "B159",
+    "sure",
+    true
+   ],
+   "PICK3-2": [
+    "B159",
+    "sure",
+    true
+   ],
+   "PICK4-1": [
+    "B159",
+    "sure",
+    true
+   ],
+   "PICK4-2": [
+    "B159",
+    "sure",
+    true
+   ],
+   "PICK5-1": [
+    "B159",
+    "sure",
+    true
+   ],
+   "PICK5-2": [
+    "B152",
+    "sure",
+    false
+   ],
+   "PICK6-1": [
+    "B159",
+    "sure",
+    true
+   ],
+   "PICK6-2": [
+    "B159",
+    "guess",
     true
    ]
   },
@@ -676,6 +1686,56 @@
     "B279",
     "guess",
     true
+   ],
+   "PICK2-1": [
+    "B279",
+    "sure",
+    true
+   ],
+   "PICK2-2": [
+    "B279",
+    "sure",
+    true
+   ],
+   "PICK3-1": [
+    "B281",
+    "sure",
+    true
+   ],
+   "PICK3-2": [
+    "B279",
+    "sure",
+    true
+   ],
+   "PICK4-1": [
+    "B279",
+    "sure",
+    true
+   ],
+   "PICK4-2": [
+    "B279",
+    "sure",
+    true
+   ],
+   "PICK5-1": [
+    "B279",
+    "sure",
+    true
+   ],
+   "PICK5-2": [
+    "B279",
+    "sure",
+    true
+   ],
+   "PICK6-1": [
+    "B279",
+    "sure",
+    true
+   ],
+   "PICK6-2": [
+    "B279",
+    "sure",
+    true
    ]
   },
   "21": {
@@ -705,6 +1765,56 @@
     true
    ],
    "PICK-2": [
+    "B390",
+    "sure",
+    true
+   ],
+   "PICK2-1": [
+    "B390",
+    "sure",
+    true
+   ],
+   "PICK2-2": [
+    "B390",
+    "sure",
+    true
+   ],
+   "PICK3-1": [
+    "B390",
+    "sure",
+    true
+   ],
+   "PICK3-2": [
+    "B390",
+    "sure",
+    true
+   ],
+   "PICK4-1": [
+    "B390",
+    "sure",
+    true
+   ],
+   "PICK4-2": [
+    "B390",
+    "sure",
+    true
+   ],
+   "PICK5-1": [
+    "B390",
+    "sure",
+    true
+   ],
+   "PICK5-2": [
+    "B390",
+    "sure",
+    true
+   ],
+   "PICK6-1": [
+    "B390",
+    "sure",
+    true
+   ],
+   "PICK6-2": [
     "B390",
     "sure",
     true
@@ -740,6 +1850,56 @@
     "B394",
     "sure",
     true
+   ],
+   "PICK2-1": [
+    "B394",
+    "sure",
+    true
+   ],
+   "PICK2-2": [
+    "B394",
+    "sure",
+    true
+   ],
+   "PICK3-1": [
+    "B394",
+    "sure",
+    true
+   ],
+   "PICK3-2": [
+    "B394",
+    "sure",
+    true
+   ],
+   "PICK4-1": [
+    "B394",
+    "sure",
+    true
+   ],
+   "PICK4-2": [
+    "B394",
+    "sure",
+    true
+   ],
+   "PICK5-1": [
+    "B394",
+    "sure",
+    true
+   ],
+   "PICK5-2": [
+    "B394",
+    "sure",
+    true
+   ],
+   "PICK6-1": [
+    "B394",
+    "sure",
+    true
+   ],
+   "PICK6-2": [
+    "B394",
+    "sure",
+    true
    ]
   },
   "23": {
@@ -769,6 +1929,56 @@
     true
    ],
    "PICK-2": [
+    "B323",
+    "sure",
+    true
+   ],
+   "PICK2-1": [
+    "B323",
+    "sure",
+    true
+   ],
+   "PICK2-2": [
+    "B315",
+    "sure",
+    true
+   ],
+   "PICK3-1": [
+    "B315",
+    "sure",
+    true
+   ],
+   "PICK3-2": [
+    "B323",
+    "sure",
+    true
+   ],
+   "PICK4-1": [
+    "B323",
+    "sure",
+    true
+   ],
+   "PICK4-2": [
+    "B323",
+    "sure",
+    true
+   ],
+   "PICK5-1": [
+    "B323",
+    "sure",
+    true
+   ],
+   "PICK5-2": [
+    "B323",
+    "sure",
+    true
+   ],
+   "PICK6-1": [
+    "B323",
+    "sure",
+    true
+   ],
+   "PICK6-2": [
     "B323",
     "sure",
     true
@@ -804,6 +2014,56 @@
     "B405",
     "sure",
     true
+   ],
+   "PICK2-1": [
+    "B405",
+    "sure",
+    true
+   ],
+   "PICK2-2": [
+    "B405",
+    "sure",
+    true
+   ],
+   "PICK3-1": [
+    "B405",
+    "sure",
+    true
+   ],
+   "PICK3-2": [
+    "B405",
+    "sure",
+    true
+   ],
+   "PICK4-1": [
+    "B405",
+    "sure",
+    true
+   ],
+   "PICK4-2": [
+    "B405",
+    "sure",
+    true
+   ],
+   "PICK5-1": [
+    "B405",
+    "sure",
+    true
+   ],
+   "PICK5-2": [
+    "B405",
+    "sure",
+    true
+   ],
+   "PICK6-1": [
+    "B405",
+    "sure",
+    true
+   ],
+   "PICK6-2": [
+    "B405",
+    "sure",
+    true
    ]
   },
   "25": {
@@ -833,6 +2093,56 @@
     true
    ],
    "PICK-2": [
+    "B410",
+    "sure",
+    true
+   ],
+   "PICK2-1": [
+    "B410",
+    "sure",
+    true
+   ],
+   "PICK2-2": [
+    "B410",
+    "sure",
+    true
+   ],
+   "PICK3-1": [
+    "B410",
+    "sure",
+    true
+   ],
+   "PICK3-2": [
+    "B410",
+    "sure",
+    true
+   ],
+   "PICK4-1": [
+    "B410",
+    "sure",
+    true
+   ],
+   "PICK4-2": [
+    "B410",
+    "sure",
+    true
+   ],
+   "PICK5-1": [
+    "B410",
+    "sure",
+    true
+   ],
+   "PICK5-2": [
+    "B410",
+    "sure",
+    true
+   ],
+   "PICK6-1": [
+    "B410",
+    "sure",
+    true
+   ],
+   "PICK6-2": [
     "B410",
     "sure",
     true
@@ -868,6 +2178,56 @@
     "B332",
     "sure",
     true
+   ],
+   "PICK2-1": [
+    "B332",
+    "sure",
+    true
+   ],
+   "PICK2-2": [
+    "B332",
+    "sure",
+    true
+   ],
+   "PICK3-1": [
+    "B332",
+    "sure",
+    true
+   ],
+   "PICK3-2": [
+    "B332",
+    "guess",
+    true
+   ],
+   "PICK4-1": [
+    "B332",
+    "sure",
+    true
+   ],
+   "PICK4-2": [
+    "B332",
+    "guess",
+    true
+   ],
+   "PICK5-1": [
+    "B332",
+    "sure",
+    true
+   ],
+   "PICK5-2": [
+    "B332",
+    "sure",
+    true
+   ],
+   "PICK6-1": [
+    "B332",
+    "sure",
+    true
+   ],
+   "PICK6-2": [
+    "B332",
+    "sure",
+    true
    ]
   },
   "27": {
@@ -897,6 +2257,56 @@
     true
    ],
    "PICK-2": [
+    "B376",
+    "sure",
+    true
+   ],
+   "PICK2-1": [
+    "B376",
+    "sure",
+    true
+   ],
+   "PICK2-2": [
+    "B376",
+    "sure",
+    true
+   ],
+   "PICK3-1": [
+    "B376",
+    "sure",
+    true
+   ],
+   "PICK3-2": [
+    "B376",
+    "sure",
+    true
+   ],
+   "PICK4-1": [
+    "B376",
+    "sure",
+    true
+   ],
+   "PICK4-2": [
+    "B376",
+    "sure",
+    true
+   ],
+   "PICK5-1": [
+    "B376",
+    "sure",
+    true
+   ],
+   "PICK5-2": [
+    "B376",
+    "sure",
+    true
+   ],
+   "PICK6-1": [
+    "B376",
+    "sure",
+    true
+   ],
+   "PICK6-2": [
     "B376",
     "sure",
     true
@@ -932,6 +2342,56 @@
     "B424",
     "sure",
     true
+   ],
+   "PICK2-1": [
+    "B424",
+    "sure",
+    true
+   ],
+   "PICK2-2": [
+    "B424",
+    "sure",
+    true
+   ],
+   "PICK3-1": [
+    "B424",
+    "sure",
+    true
+   ],
+   "PICK3-2": [
+    "B424",
+    "sure",
+    true
+   ],
+   "PICK4-1": [
+    "B424",
+    "sure",
+    true
+   ],
+   "PICK4-2": [
+    "B424",
+    "sure",
+    true
+   ],
+   "PICK5-1": [
+    "B424",
+    "sure",
+    true
+   ],
+   "PICK5-2": [
+    "B424",
+    "sure",
+    true
+   ],
+   "PICK6-1": [
+    "B424",
+    "sure",
+    true
+   ],
+   "PICK6-2": [
+    "B424",
+    "sure",
+    true
    ]
   },
   "29": {
@@ -961,6 +2421,56 @@
     true
    ],
    "PICK-2": [
+    "B424",
+    "guess",
+    true
+   ],
+   "PICK2-1": [
+    "B424",
+    "guess",
+    true
+   ],
+   "PICK2-2": [
+    "B424",
+    "guess",
+    true
+   ],
+   "PICK3-1": [
+    "B424",
+    "sure",
+    true
+   ],
+   "PICK3-2": [
+    "B424",
+    "guess",
+    true
+   ],
+   "PICK4-1": [
+    "B424",
+    "sure",
+    true
+   ],
+   "PICK4-2": [
+    "B424",
+    "sure",
+    true
+   ],
+   "PICK5-1": [
+    "B424",
+    "sure",
+    true
+   ],
+   "PICK5-2": [
+    "B424",
+    "guess",
+    true
+   ],
+   "PICK6-1": [
+    "B424",
+    "guess",
+    true
+   ],
+   "PICK6-2": [
     "B424",
     "guess",
     true
@@ -996,6 +2506,56 @@
     "B419",
     "guess",
     true
+   ],
+   "PICK2-1": [
+    "B419",
+    "sure",
+    true
+   ],
+   "PICK2-2": [
+    "B419",
+    "sure",
+    true
+   ],
+   "PICK3-1": [
+    "B419",
+    "guess",
+    true
+   ],
+   "PICK3-2": [
+    "B419",
+    "sure",
+    true
+   ],
+   "PICK4-1": [
+    "B419",
+    "sure",
+    true
+   ],
+   "PICK4-2": [
+    "B419",
+    "sure",
+    true
+   ],
+   "PICK5-1": [
+    "B419",
+    "sure",
+    true
+   ],
+   "PICK5-2": [
+    "B419",
+    "sure",
+    true
+   ],
+   "PICK6-1": [
+    "B419",
+    "sure",
+    true
+   ],
+   "PICK6-2": [
+    "B419",
+    "sure",
+    true
    ]
   },
   "31": {
@@ -1028,6 +2588,56 @@
     "B364",
     "sure",
     true
+   ],
+   "PICK2-1": [
+    "B364",
+    "sure",
+    true
+   ],
+   "PICK2-2": [
+    "B364",
+    "sure",
+    true
+   ],
+   "PICK3-1": [
+    "B364",
+    "sure",
+    true
+   ],
+   "PICK3-2": [
+    "B364",
+    "sure",
+    true
+   ],
+   "PICK4-1": [
+    "B364",
+    "sure",
+    true
+   ],
+   "PICK4-2": [
+    "B364",
+    "sure",
+    true
+   ],
+   "PICK5-1": [
+    "B364",
+    "sure",
+    true
+   ],
+   "PICK5-2": [
+    "B364",
+    "sure",
+    true
+   ],
+   "PICK6-1": [
+    "B364",
+    "sure",
+    true
+   ],
+   "PICK6-2": [
+    "B364",
+    "sure",
+    true
    ]
   },
   "32": {
@@ -1057,6 +2667,56 @@
     false
    ],
    "PICK-2": [
+    "B93",
+    "guess",
+    true
+   ],
+   "PICK2-1": [
+    "B91",
+    "sure",
+    false
+   ],
+   "PICK2-2": [
+    "B93",
+    "guess",
+    true
+   ],
+   "PICK3-1": [
+    "B91",
+    "guess",
+    false
+   ],
+   "PICK3-2": [
+    "B91",
+    "sure",
+    false
+   ],
+   "PICK4-1": [
+    "B93",
+    "guess",
+    true
+   ],
+   "PICK4-2": [
+    "B93",
+    "sure",
+    true
+   ],
+   "PICK5-1": [
+    "B93",
+    "sure",
+    true
+   ],
+   "PICK5-2": [
+    "B93",
+    "guess",
+    true
+   ],
+   "PICK6-1": [
+    "B93",
+    "sure",
+    true
+   ],
+   "PICK6-2": [
     "B93",
     "guess",
     true
