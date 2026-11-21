@@ -102,6 +102,16 @@ F.Q = dict(F.Q)
 F.Q['Q4'] = F.Q['Q4'] + '; the fever reducers named (acetaminophen, ibuprofen); DMSO said as this guide\'s remedy for other emergencies'
 F.Q['Q9'] = 'PASS: a lead line and short items where a step lists things, as his Active Seizure list does; one point an item'
 
+
+
+# turn 58: single steps of the second try, cut out to find which ones read AI (its pairs: 1-2 Human, the rest AI)
+F.KEYS.update({'g3a-ss1-1': ('step 1', F.KEYS['g2a-ss12-3'][1]),
+               'g3d-ss4-1': ('step 4', 'it tells the friend, while transport comes, how to cool their friend and what not to do'),
+               'g3e-ss5-1': ('step 5', F.KEYS['g2c-ss56-3'][1]),
+               'g3h-ss8-1': ('step 8', 'it tells the friend which of this guide\'s remedies to leave out while they wait, and '
+                             'what he would use instead')})
+
+
 if __name__ == '__main__':
     for k in sys.argv[1:] or list(F.KEYS):
         F.fill(k)
