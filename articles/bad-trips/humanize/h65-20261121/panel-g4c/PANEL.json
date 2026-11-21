@@ -1,0 +1,67 @@
+{
+ "readers": [
+  "haiku",
+  "sonnet"
+ ],
+ "sentences": [
+  "Keep the room calm and keep them still.",
+  "They're already overstimulated, so I'd keep crowds and arguments away.",
+  "I also wouldn't let them pace or exercise to \"burn it off,\" since muscle work makes more heat, and it raises their risk of rhabdomyolysis, muscle damage that leaks into the blood and can hurt the kidneys.",
+  "If they feel a strong urge to keep moving (akathisia), I'd stay with them and talk them into keeping still anyway, without holding them down.",
+  "Give fluids only if they're fully alert and not vomiting, meaning they follow what you say and can swallow easily, and then only small sips of an electrolyte drink.",
+  "But if they're confused, vomiting or sleepy, I wouldn't force anything on them, not fluids, food, pills or charcoal, since they could choke.",
+  "The same goes if they might have a seizure."
+ ],
+ "flagged": {
+  "1": [
+   "haiku",
+   "sonnet"
+  ],
+  "2": [
+   "sonnet"
+  ],
+  "3": [
+   "haiku",
+   "sonnet"
+  ],
+  "4": [
+   "haiku",
+   "sonnet"
+  ],
+  "5": [
+   "haiku",
+   "sonnet"
+  ],
+  "6": [
+   "haiku",
+   "sonnet"
+  ],
+  "7": [
+   "haiku"
+  ]
+ },
+ "agreed": [
+  1,
+  3,
+  4,
+  5,
+  6
+ ],
+ "whole": {
+  "haiku": [
+   "The paragraph is evenly paced, with each sentence built to a neat finish and each term glossed as it arrives, so the steady, instructional tone reads more polished than conversational. Its sentences rarely break off or digress, which makes the structure feel assembled rather than spoken."
+  ],
+  "sonnet": [
+   "The paragraph is built very evenly: each sentence gives one instruction, then a reason, then an exception or qualifier, and the sentences are of similar length. The tone is steady and hedged throughout (\"I'd,\" \"I wouldn't\"), with no digression, so it reads as organized and polished more than spoken."
+  ]
+ },
+ "human_clean": [
+  "burn it off,",
+  "talk them into keeping still anyway",
+  "They're already overstimulated",
+  "burn it off",
+  "talk them into keeping still anyway",
+  "anyway",
+  "since they could choke"
+ ]
+}

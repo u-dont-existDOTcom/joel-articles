@@ -1,6 +1,18 @@
 {
  "rows": [
   {
+   "reader": "APPLIED-1",
+   "first_right": 26,
+   "guesses": 8,
+   "right_by_second": 30
+  },
+  {
+   "reader": "APPLIED-2",
+   "first_right": 26,
+   "guesses": 8,
+   "right_by_second": 30
+  },
+  {
    "reader": "FABLE-1",
    "first_right": 26,
    "guesses": 9,
@@ -99,6 +111,16 @@
  ],
  "per_situation": {
   "1": {
+   "APPLIED-1": [
+    "B93",
+    "sure",
+    true
+   ],
+   "APPLIED-2": [
+    "B93",
+    "sure",
+    true
+   ],
    "FABLE-1": [
     "B93",
     "sure",
@@ -181,6 +203,16 @@
    ]
   },
   "2": {
+   "APPLIED-1": [
+    "B108",
+    "sure",
+    true
+   ],
+   "APPLIED-2": [
+    "B108",
+    "sure",
+    true
+   ],
    "FABLE-1": [
     "B108",
     "sure",
@@ -263,6 +295,16 @@
    ]
   },
   "3": {
+   "APPLIED-1": [
+    "B129",
+    "sure",
+    true
+   ],
+   "APPLIED-2": [
+    "B129",
+    "sure",
+    true
+   ],
    "FABLE-1": [
     "B129",
     "sure",
@@ -345,6 +387,16 @@
    ]
   },
   "4": {
+   "APPLIED-1": [
+    "B113",
+    "guess",
+    true
+   ],
+   "APPLIED-2": [
+    "B113",
+    "guess",
+    true
+   ],
    "FABLE-1": [
     "B113",
     "sure",
@@ -427,6 +479,16 @@
    ]
   },
   "5": {
+   "APPLIED-1": [
+    "B113",
+    "guess",
+    true
+   ],
+   "APPLIED-2": [
+    "B113",
+    "guess",
+    true
+   ],
    "FABLE-1": [
     "B99",
     "guess",
@@ -509,6 +571,16 @@
    ]
   },
   "6": {
+   "APPLIED-1": [
+    "B125",
+    "sure",
+    true
+   ],
+   "APPLIED-2": [
+    "B125",
+    "sure",
+    true
+   ],
    "FABLE-1": [
     "B125",
     "guess",
@@ -591,6 +663,16 @@
    ]
   },
   "7": {
+   "APPLIED-1": [
+    "B102",
+    "sure",
+    true
+   ],
+   "APPLIED-2": [
+    "B102",
+    "sure",
+    true
+   ],
    "FABLE-1": [
     "B102",
     "sure",
@@ -673,6 +755,16 @@
    ]
   },
   "8": {
+   "APPLIED-1": [
+    "B93",
+    "guess",
+    true
+   ],
+   "APPLIED-2": [
+    "B93",
+    "guess",
+    true
+   ],
    "FABLE-1": [
     "B99",
     "guess",
@@ -755,6 +847,16 @@
    ]
   },
   "9": {
+   "APPLIED-1": [
+    "B121",
+    "sure",
+    true
+   ],
+   "APPLIED-2": [
+    "B121",
+    "sure",
+    true
+   ],
    "FABLE-1": [
     "B121",
     "sure",
@@ -837,6 +939,16 @@
    ]
   },
   "10": {
+   "APPLIED-1": [
+    "B129",
+    "sure",
+    true
+   ],
+   "APPLIED-2": [
+    "B129",
+    "sure",
+    true
+   ],
    "FABLE-1": [
     "B129",
     "sure",
@@ -919,6 +1031,16 @@
    ]
   },
   "11": {
+   "APPLIED-1": [
+    "N-SF-1",
+    "sure",
+    true
+   ],
+   "APPLIED-2": [
+    "N-SF-1",
+    "sure",
+    true
+   ],
    "FABLE-1": [
     "N-SF-1",
     "sure",
@@ -1001,6 +1123,16 @@
    ]
   },
   "12": {
+   "APPLIED-1": [
+    "B285",
+    "guess",
+    true
+   ],
+   "APPLIED-2": [
+    "B285",
+    "sure",
+    true
+   ],
    "FABLE-1": [
     "B285",
     "guess",
@@ -1083,6 +1215,16 @@
    ]
   },
   "13": {
+   "APPLIED-1": [
+    "B261",
+    "sure",
+    true
+   ],
+   "APPLIED-2": [
+    "B271",
+    "sure",
+    true
+   ],
    "FABLE-1": [
     "B261",
     "sure",
@@ -1165,6 +1307,16 @@
    ]
   },
   "14": {
+   "APPLIED-1": [
+    "B169",
+    "sure",
+    false
+   ],
+   "APPLIED-2": [
+    "B169",
+    "sure",
+    false
+   ],
    "FABLE-1": [
     "B169",
     "sure",
@@ -1247,6 +1399,16 @@
    ]
   },
   "15": {
+   "APPLIED-1": [
+    "B150",
+    "guess",
+    false
+   ],
+   "APPLIED-2": [
+    "B150",
+    "sure",
+    false
+   ],
    "FABLE-1": [
     "B150",
     "sure",
@@ -1329,6 +1491,16 @@
    ]
   },
   "16": {
+   "APPLIED-1": [
+    "B164",
+    "guess",
+    false
+   ],
+   "APPLIED-2": [
+    "B150",
+    "guess",
+    false
+   ],
    "FABLE-1": [
     "B125",
     "guess",
@@ -1411,6 +1583,16 @@
    ]
   },
   "17": {
+   "APPLIED-1": [
+    "B180",
+    "sure",
+    false
+   ],
+   "APPLIED-2": [
+    "B180",
+    "sure",
+    false
+   ],
    "FABLE-1": [
     "B181",
     "sure",
@@ -1493,6 +1675,16 @@
    ]
   },
   "18": {
+   "APPLIED-1": [
+    "B125",
+    "guess",
+    false
+   ],
+   "APPLIED-2": [
+    "B125",
+    "guess",
+    false
+   ],
    "FABLE-1": [
     "B125",
     "guess",
@@ -1575,6 +1767,16 @@
    ]
   },
   "19": {
+   "APPLIED-1": [
+    "B159",
+    "sure",
+    true
+   ],
+   "APPLIED-2": [
+    "B159",
+    "sure",
+    true
+   ],
    "FABLE-1": [
     "B159",
     "guess",
@@ -1657,6 +1859,16 @@
    ]
   },
   "20": {
+   "APPLIED-1": [
+    "B279",
+    "sure",
+    true
+   ],
+   "APPLIED-2": [
+    "B281",
+    "sure",
+    true
+   ],
    "FABLE-1": [
     "B279",
     "sure",
@@ -1739,6 +1951,16 @@
    ]
   },
   "21": {
+   "APPLIED-1": [
+    "B390",
+    "sure",
+    true
+   ],
+   "APPLIED-2": [
+    "B390",
+    "sure",
+    true
+   ],
    "FABLE-1": [
     "B390",
     "sure",
@@ -1821,6 +2043,16 @@
    ]
   },
   "22": {
+   "APPLIED-1": [
+    "B394",
+    "sure",
+    true
+   ],
+   "APPLIED-2": [
+    "B394",
+    "sure",
+    true
+   ],
    "FABLE-1": [
     "B394",
     "sure",
@@ -1903,6 +2135,16 @@
    ]
   },
   "23": {
+   "APPLIED-1": [
+    "B315",
+    "sure",
+    true
+   ],
+   "APPLIED-2": [
+    "B323",
+    "sure",
+    true
+   ],
    "FABLE-1": [
     "B323",
     "sure",
@@ -1985,6 +2227,16 @@
    ]
   },
   "24": {
+   "APPLIED-1": [
+    "B405",
+    "sure",
+    true
+   ],
+   "APPLIED-2": [
+    "B405",
+    "sure",
+    true
+   ],
    "FABLE-1": [
     "B405",
     "sure",
@@ -2067,6 +2319,16 @@
    ]
   },
   "25": {
+   "APPLIED-1": [
+    "B410",
+    "sure",
+    true
+   ],
+   "APPLIED-2": [
+    "B410",
+    "guess",
+    true
+   ],
    "FABLE-1": [
     "B410",
     "sure",
@@ -2149,6 +2411,16 @@
    ]
   },
   "26": {
+   "APPLIED-1": [
+    "B332",
+    "sure",
+    true
+   ],
+   "APPLIED-2": [
+    "B332",
+    "sure",
+    true
+   ],
    "FABLE-1": [
     "B332",
     "sure",
@@ -2231,6 +2503,16 @@
    ]
   },
   "27": {
+   "APPLIED-1": [
+    "B376",
+    "sure",
+    true
+   ],
+   "APPLIED-2": [
+    "B376",
+    "sure",
+    true
+   ],
    "FABLE-1": [
     "B376",
     "sure",
@@ -2313,6 +2595,16 @@
    ]
   },
   "28": {
+   "APPLIED-1": [
+    "B424",
+    "sure",
+    true
+   ],
+   "APPLIED-2": [
+    "B424",
+    "sure",
+    true
+   ],
    "FABLE-1": [
     "B424",
     "sure",
@@ -2395,6 +2687,16 @@
    ]
   },
   "29": {
+   "APPLIED-1": [
+    "B424",
+    "guess",
+    true
+   ],
+   "APPLIED-2": [
+    "B424",
+    "guess",
+    true
+   ],
    "FABLE-1": [
     "B424",
     "sure",
@@ -2477,6 +2779,16 @@
    ]
   },
   "30": {
+   "APPLIED-1": [
+    "B419",
+    "sure",
+    true
+   ],
+   "APPLIED-2": [
+    "B419",
+    "guess",
+    true
+   ],
    "FABLE-1": [
     "B419",
     "guess",
@@ -2559,6 +2871,16 @@
    ]
   },
   "31": {
+   "APPLIED-1": [
+    "B364",
+    "sure",
+    true
+   ],
+   "APPLIED-2": [
+    "B364",
+    "sure",
+    true
+   ],
    "FABLE-1": [
     "B364",
     "sure",
@@ -2641,6 +2963,16 @@
    ]
   },
   "32": {
+   "APPLIED-1": [
+    "B91",
+    "sure",
+    false
+   ],
+   "APPLIED-2": [
+    "B261",
+    "sure",
+    false
+   ],
    "FABLE-1": [
     "B91",
     "guess",

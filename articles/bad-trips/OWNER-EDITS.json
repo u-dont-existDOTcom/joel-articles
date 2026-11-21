@@ -957,37 +957,40 @@
    "what": "the contents as option A of round 30's TOC card, with the brain section kept first in the medical part and three headings renamed so readers can find them (humanize/h39-20261109/toc/plan_toc.py, review/r30/apply_r30.py) | How I label the evidence cut in round 33 (LABELS-CUT, his approval of 2026-11-11 19:54 UTC (review/r33/ANSWERS-R33-20261111-1954.json)",
    "joel": "2026-11-09 18:43 UTC (review/r30/ANSWERS-R30-20261109-1843.json, TOC): \"a sure rename them so readers can find them, and brain should be at top yeah that's kind of one of the most common things people say\"",
    "must_contain": [
-    "## Risk of Harm: When Peer Support Isn't Enough",
-    "# My Acute Rescue Hierarchy of Remedies",
-    "### A Final Trip Killer: Niacin (a Form of Vitamin B3)",
+    "## If Someone Might Get Hurt",
+    "# My Acute Rescue Remedies",
+    "### Niacin \"Flushes\" Trips Out",
     "# Tripsitting Yourself or Others",
     "# Shadow Work",
-    "### When What They Say Turns Toward Harm",
-    "## Trip After Trip? Hang up the phone, get off the Healing Treadmill",
-    "# Planning a Trip or Ceremony? Give It a Beginning and an End"
+    "### When Talk Turns to Harm",
+    "## Off the Healing Treadmill",
+    "# Plan a Trip or Ceremony"
    ],
    "order": [
-    "# When to Bring In Outside Help",
-    "## Risk of Harm: When Peer Support Isn't Enough",
+    "# When to Get Outside Help",
+    "## If Someone Might Get Hurt",
     "## Who to Contact, and When",
-    "# Acute Medical and Neurological Rescue",
-    "## If Someone Says \"My Brain Feels Damaged\"",
+    "# Medical and Brain Rescue",
+    "## \"My Brain Feels Damaged\"",
     "## Active Seizure",
-    "# My Acute Rescue Hierarchy of Remedies",
-    "## Some Remedies Require More Caution",
-    "## Mental Stabilizers That Don't Abort the Trip",
-    "## When the Goal Is to Stop a Psychedelic Trip",
+    "# My Acute Rescue Remedies",
+    "## Remedies Needing Caution",
+    "## Too Intense? Stabilizers",
+    "## Need to Stop the Trip?",
     "# Tripsitting Yourself or Others",
-    "## Psychological First Aid: The First Five Minutes",
-    "## Grounding Menu: Choose One or Two Things",
+    "## The First Five Minutes",
+    "## Grounding Menu",
     "## Get One Human Anchor",
     "# Shadow Work",
     "# After the Storm",
-    "## What Kind of Aftermath Is This?",
-    "## Bring in mental-health support when:",
-    "## Trip After Trip?",
-    "# Planning a Trip or Ceremony?",
-    "# Appendix: Additional Resources"
+    "## Lingering Symptoms?",
+    "## Get Mental-Health Help If:",
+    "## Off the Healing Treadmill",
+    "# Plan a Trip or Ceremony",
+    "# Appendix: More Resources"
+   ],
+   "changed": [
+    "2026-11-21 (turn 58): headings renamed by his round-47 picks (review/r47/apply_r47.py)"
    ]
   },
   {
@@ -996,10 +999,13 @@
    "what": "his Syrian rue oil and essential-oils entries, and the herbs named in his restlessness line (review/r30/apply_r30.py)",
    "joel": "2026-11-09 18:43 UTC (review/r30/ANSWERS-R30-20261109-1843.json): RUE-OIL, OILS and HERBS-NAMED approved",
    "must_contain": [
-    "### Syrian Rue Oil Makes the Trip Gentle & Sweet",
-    "### Authentic Calming Essential Oils (or a Lime Peel)",
+    "### Syrian Rue Oil: Gentler",
+    "### Lime or EOs for Calm",
     "I would not assume there's no MAOI effect",
     "like beach morning glory, Syrian rue oil or the Metta NMT sniffer"
+   ],
+   "changed": [
+    "2026-11-21 (turn 58): headings renamed by his round-47 picks (review/r47/apply_r47.py)"
    ]
   },
   {
@@ -1038,16 +1044,19 @@
    "what": "Active Seizure: the heading he picked (A) where the extras start, after first aid, the rescue medicine and when to call medics (review/r32/apply_r32.py)",
    "joel": "2026-11-09 20:08 UTC (review/r32/ANSWERS-R32-20261109-2008.json, SEIZE-HEAD): \"a\"",
    "must_contain": [
-    "### What Else May Help: At the Aura, and Alongside Rescue Medicine"
+    "### Seizure: What Else Helps"
    ],
    "order": [
     "## Active Seizure",
     "Call medics if any of these happen:",
     "If they have a rescue medicine for epilepsy seizures",
-    "### What Else May Help: At the Aura, and Alongside Rescue Medicine",
+    "### Seizure: What Else Helps",
     "Some people get a warning before a seizure takes hold"
    ],
-   "order_note": "2026-11-12, turn 39: the call-medics line is now a lead-in and list (humanize/h49-20261112, seize-c3, Human Written) and comes before the rescue medicine; his heading still opens the extras after first aid, when to call medics and the rescue medicine; 2026-11-12, turn 40: the rescue medicine paragraph is now mine in his first person (humanize/h50-20261112, rescue-c10, Human Written in its section), in the same place; 2026-11-12, turn 41: the rescue medicine paragraph is his fix (review/r39/apply_r39.py), in the same place"
+   "order_note": "2026-11-12, turn 39: the call-medics line is now a lead-in and list (humanize/h49-20261112, seize-c3, Human Written) and comes before the rescue medicine; his heading still opens the extras after first aid, when to call medics and the rescue medicine; 2026-11-12, turn 40: the rescue medicine paragraph is now mine in his first person (humanize/h50-20261112, rescue-c10, Human Written in its section), in the same place; 2026-11-12, turn 41: the rescue medicine paragraph is his fix (review/r39/apply_r39.py), in the same place",
+   "changed": [
+    "2026-11-21 (turn 58): headings renamed by his round-47 picks (review/r47/apply_r47.py)"
+   ]
   },
   {
    "id": "r32-ground-order",
@@ -1062,9 +1071,12 @@
     "love becomes practical first"
    ],
    "order": [
-    "## Grounding Menu: Choose One or Two Things",
+    "## Grounding Menu",
     "Grounding is love becoming practical.",
     "A useful order is **room → body → human → time → meaning**"
+   ],
+   "changed": [
+    "2026-11-21 (turn 58): headings renamed by his round-47 picks (review/r47/apply_r47.py)"
    ]
   },
   {
@@ -1093,9 +1105,12 @@
     "Shadow work to me is neither BDSM",
     "Begin with my Inner Child Therapy guide",
     "## Dealing With Sorrow",
-    "## The Other Bypass: Feeling Good Forever",
+    "## The Feel-Good Bypass",
     "I wish everybody could keep shadow work inside the safer rooms",
     "# After the Storm"
+   ],
+   "changed": [
+    "2026-11-21 (turn 58): headings renamed by his round-47 picks (review/r47/apply_r47.py)"
    ]
   },
   {
@@ -1254,7 +1269,6 @@
    "what": "My Brain Feels Damaged's heading and checks are his version, the text of his last check 4739068c: \"+ Electrolytes\" in the heading, the lead-in \"check for stroke warning signs that would trigger a call to medics:\", his nine lines and his closing line, with three obvious corrections; his reason for the electrolytes at the end of B103 in his words; B106's first sentence gone, since his lead-in says it (round 38, card TEACH-BRAIN; review/r38/apply_r38.py)",
    "joel": "2026-11-12 18:19:16 UTC: round 38's export, TEACH-BRAIN revised, with his six tries; \"some really obvious problems again\"",
    "must_contain_exact": [
-    "DMSO + Humic Acid + Electrolytes First",
     "that would trigger a call to medics:",
     "- First, are they unconscious or breathing abnormally?",
     "- If you can safely hold them as they try, have them stand and walk a few steps",
@@ -1264,6 +1278,10 @@
    "must_not_contain": [
     "While using DMSO, check wakefulness",
     "For objective stroke-like signs, I would use DMSO immediately"
+   ],
+   "changed": [
+    "2026-11-21 (turn 58): headings renamed by his round-47 picks (review/r47/apply_r47.py): his round-47 pick for the heading is \"\\\"My Brain Feels Damaged\\\"\" (my pick, kept): the heading's \"DMSO + Humic Acid + Electrolytes First\" went with it, and the section's first paragraph (B103) still says it: DMSO first, then smelling humic acid, then electrolytes to drink",
+    "2026-11-21 (turn 58): headings renamed by his round-47 picks (review/r47/apply_r47.py)"
    ]
   },
   {
@@ -1443,11 +1461,14 @@
    "what": "Creatine (smell, not snort) and mango leaf tea (smell it while it's hot) as entries after Humic Acid, and the sniffer's formula with both (humanize/h54-20261114/apply_h54.py)",
    "joel": "2026-11-14 22:08 UTC: \"i want to add another super relaxing herbal remedy which is very blissful and does not kill the trip: mango leaf tea (smell it while hot) ... smelling creatine (NOT SNORTING IT, ppl keep thinking i mean snorting when i say smell) is incredible for brain health ... I've add the mango leaf tea and creatine into my Metta NMT sniffer formula now so if they have that it's already got everything, if not they can just buy these on amazon\"",
    "must_contain": [
-    "### Creatine Is Blissful and Good for the Brain",
-    "### Mango Leaf Tea Relaxes Without Killing the Trip",
+    "### Creatine for Brain & Bliss",
+    "### Mango Leaf Tea: Chill Bliss",
     "NOT snorting it",
     "so brew some and smell it while it's hot",
     "I've now added creatine and mango leaf tea to it"
+   ],
+   "changed": [
+    "2026-11-21 (turn 58): headings renamed by his round-47 picks (review/r47/apply_r47.py)"
    ]
   },
   {
@@ -1708,6 +1729,33 @@
    "applied_by": "humanize/h62-20261120/apply_c.py",
    "must_contain_exact": [
     "[a video](https://www.youtube.com/shorts/Nar2-nvomAk)"
+   ]
+  },
+  {
+   "id": "r47-headings",
+   "status": "applied",
+   "what": "his headings for Substack's contents sidebar: 11 in his own words, Fable's \"The Feel-Good Bypass\", the rest my pick; \"How To Check For SS\" in title case, his rule; the links a heading carried kept on its words or moved to the same words in its text (review/r47/apply_r47.py)",
+   "joel": "2026-11-21 14:28 UTC: his round-47 export (review/r47/ANSWERS-R47-20261121-1428.json), \"continue\"",
+   "applied_by": "review/r47/apply_r47.py",
+   "must_contain_exact": [
+    "### How to Check for SS",
+    "### Act Now on SS",
+    "### Niacin \"Flushes\" Trips Out",
+    "## Off the Healing Treadmill",
+    "### Mango Leaf Tea: Chill Bliss",
+    "### Metta Sniffer: Chill Love 🫶🏿",
+    "### Lime or EOs for Calm"
+   ]
+  },
+  {
+   "id": "r47-inner-signal-out",
+   "status": "applied",
+   "what": "the Inner Signal section out of the guide until his app is ready, kept word for word in review/r47/REMOVED-B65.md",
+   "joel": "2026-11-21 14:28 UTC, for the Inner Signal heading: \"remove this section for now since my app isn't ready\"",
+   "applied_by": "review/r47/apply_r47.py",
+   "must_not_contain": [
+    "Inner Signal App to the Rescue!",
+    "I developed the [**Inner Signal app**]"
    ]
   }
  ]

@@ -129,6 +129,78 @@ def run2(key):
     return r.returncode
 
 
+
+
+# Turn 58 (h65c): single steps of the second try, cut out of its pairs to find which read AI (1-2 read Human Written,
+# 8ad45936, his last line Human Medium; 3-4, 5-6 and 7-8 AI High in one window each).
+BATCH3 = 'h65c'
+D3 = ('the second try\'s pairs: steps 1-2 Human High 109 and Human Medium 14 over his own last line (8ad45936); 3-4 AI High '
+      '122 (5d3a5e91), 5-6 AI High 121 (fc3db895), 7-8 AI High 118 (b6d8abee), each one window over everything, so they '
+      'don\'t say which step reads AI. This check is one step by itself, as it stands in the second try. ')
+P3 = {
+    'g3a-ss1-1': ('step 1 by itself', 'Human', 0.6, ['Stop all suspected serotonergic substances'], ['even DXM cough syrup'],
+                  D3 + 'Step 1 was in the Human High window of its pair. Better: Human High alone, so it can go in'),
+    'g3d-ss4-1': ('step 4 by itself', 'AI', 0.3, ['Put a fan on them, with cool damp cloths on their skin.'],
+                  ["If you think of giving a fever reducer"], D3 + 'Better: a Human window, to start the next try from'),
+    'g3e-ss5-1': ('step 5 by itself', 'AI', 0.35, ['Keep the room calm and keep them still:'],
+                  ["They're already overstimulated, so keep crowds and arguments away."], D3 + 'Better: a Human window'),
+    'g3h-ss8-1': ('step 8 by itself', 'AI', 0.4, ['Leave out DMSO too, which this guide uses for other emergencies'],
+                  ["While you wait, don't reach for niacin to end the trip"], D3 + 'Better: a Human window'),
+}
+
+
+def run3(key):
+    name, call, chance, tells, human, diag = P3[key]
+    a = ['python3', 'tools/humanization/pangram_ledger.py', 'predict', L, '--lineage',
+         LINEAGE.replace('steps: B136,', '%s: B136,' % name).replace('Syndrome steps', 'Syndrome'), '--scope', 'paragraph',
+         '--text', REL + 'TEST-%s.txt' % key, '--key', key, '--batch', BATCH3, '--call', call, '--chance', str(chance),
+         '--detector', DET, '--decides', DECIDES, '--diagnosis', diag, '--receipt', REL + 'TEST-%s.receipt.json' % key,
+         '--humanized', HUMANIZED2, '--first-fix', FIRST_FIX2]
+    for t in tells:
+        a += ['--tells', t]
+    for t in human:
+        a += ['--human-tells', t]
+    r = subprocess.run(a, cwd=REPO, capture_output=True, text=True)
+    out = (r.stdout + r.stderr).strip()
+    print(key, '|', out[:1500] if r.returncode else out.splitlines()[-1][:220])
+    return r.returncode
+
+
+
+
+# Turn 58 (h65d): the third try at steps 5 and 6, in his first person.
+BIG4 = ('every second-person try of mine read AI, step 1 by itself included (49c25418, AI High 65), while his own first-'
+        'person step 2 read Human High by itself (cc5e6563) and carried its pair to Human (8ad45936): no Human window of '
+        'mine to start a small change from, so this try changes the register to his "I\'d" and "I wouldn\'t" where a step '
+        'says what to do')
+
+
+def run4(key='g4c-ss56-4'):
+    a = ['python3', 'tools/humanization/pangram_ledger.py', 'predict', L, '--lineage',
+         LINEAGE.replace('steps: B136,', 'steps 5 and 6: B136,'), '--scope', 'paragraph', '--text', REL + 'TEST-%s.txt' % key,
+         '--key', key, '--batch', 'h65d', '--call', 'Human', '--chance', '0.55', '--detector', DET, '--decides', DECIDES,
+         '--diagnosis', ('steps 5 and 6 read AI High 133 (25df9e03) and 121 (fc3db895), and step 5 by itself AI High 69 '
+                         '(d85068d3); his first-person step 2 is the only text in these steps that reads Human. This try '
+                         'puts steps 5 and 6 in his first person, with the three reads\' marks fixed and then the tell '
+                         'panel\'s five agreed sentences (panel-g4c/PANEL.md); read again, the panel agreed on six of seven '
+                         '(panel-g4c-2/PANEL.md), now on the steps\' own conditions and terms, which every wording of them '
+                         'has. Better: a Human window'),
+         '--receipt', REL + 'TEST-%s.receipt.json' % key, '--big-change', BIG4,
+         '--humanized', ('steps 5 and 6 in his first person ("I\'d keep crowds and arguments away", "I wouldn\'t force '
+                         'anything on them"), the register of his step 2; "fully alert" said; holding still said as talking '
+                         'them into it, not holding them down; the fluids\' other case opened with "But if"'),
+         '--first-fix', ('payoff: what he would do first in each sentence, the reason after it; join: "so", "also", '
+                         '"anyway", "But if", "The same goes"; plain: "fully alert" said as following what you say and '
+                         'swallowing easily, "help them keep still" said as talking them into it without holding them down'),
+         '--panel', REL + 'panel-g4c/PANEL.md',
+         '--tells', "They're already overstimulated, so I'd clear out the crowd and stop any arguing.",
+         '--human-tells', "I'd stay with them and talk them into keeping still anyway"]
+    r = subprocess.run(a, cwd=REPO, capture_output=True, text=True)
+    out = (r.stdout + r.stderr).strip()
+    print(key, '|', out[:1500] if r.returncode else out.splitlines()[-1][:220])
+    return r.returncode
+
+
 if __name__ == '__main__':
     ks = sys.argv[1:] or list(P)
-    sys.exit(max([(run2(k) if k in P2 else run(k)) for k in ks] or [0]))
+    sys.exit(max([(run4(k) if k == 'g4c-ss56-4' else run3(k) if k in P3 else run2(k) if k in P2 else run(k)) for k in ks] or [0]))

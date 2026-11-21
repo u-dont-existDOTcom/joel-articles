@@ -1,0 +1,90 @@
+{
+ "t1-coffee-1": [
+  "Human Written",
+  0,
+  78,
+  "Human, High, 78",
+  "09:39:27",
+  "/f395f721-6285-448f-9b3c-c3ec12cb0166",
+  [],
+  []
+ ],
+ "t2-sniffer-1": [
+  "Human Written",
+  0,
+  170,
+  "Human, High, 170",
+  "09:39:37",
+  "/8200bc48-6fda-4257-a813-d34ad7382370",
+  [],
+  []
+ ],
+ "t3-humic-1": [
+  "Human Written",
+  0,
+  71,
+  "Human, High, 71",
+  "09:39:49",
+  "/6071635e-4db3-49b8-acdb-cc0109998969",
+  [],
+  []
+ ],
+ "t4-creatine-mango-1": [
+  "Human Written",
+  0,
+  96,
+  "Human, High, 96",
+  "09:39:59",
+  "/ae243505-50ab-4e8c-acb4-81a24db2ff41",
+  [],
+  []
+ ],
+ "t5-rue-1": [
+  "Human Written",
+  0,
+  157,
+  "Human, High, 157",
+  "09:40:10",
+  "/62eea0df-eb4f-4a81-8b57-b37d57d110f6",
+  [],
+  []
+ ],
+ "t6-ocean-1": [
+  "Human Written",
+  0,
+  69,
+  "Human, High, 69",
+  "09:40:20",
+  "/0ddd8382-53e2-45e9-9e9a-e2f3326fc3ab",
+  [],
+  []
+ ],
+ "t7-shungite-1": [
+  "Human Written",
+  0,
+  86,
+  "Human, High, 86",
+  "09:40:31",
+  "/d18e036d-22db-4d98-8e9c-106a02b6c404",
+  [],
+  []
+ ],
+ "t8-menu-smell-1": [
+  "AI Detected",
+  0.218,
+  150,
+  "Human, Low, 13; Human, High, 24; Human, Low, 10; Human, Medium, 25; Human, High, 45; AI-Generated, Medium, 8; AI-Generated, High, 15; AI-Generated, Medium, 10",
+  "09:40:41",
+  "/aa272269-ff21-459c-8415-15d983ad18f5",
+  [
+   "AI-Generated Medium (8 words): Never force breath-holds while intoxicated or panicked.",
+   "AI-Generated High (15 words): Stop for increased fear, dizziness, chest pain, or medical concern.\nWhisper: \"This is a wave.",
+   "AI-Generated Medium (10 words): I can love the part of me that feels it.\""
+  ],
+  [
+   "Human Low (13 words): Body\nPut one hand on the heart and one on the solar plexus.",
+   "Human Low (10 words): Stabilizers).\nBreath\nExhale longer than you inhale for ten breaths.",
+   "Human Medium (25 words): Or try Buteyko reduced breathing: breathe softly and slowly through the nose, taking in slightly less air than desired until there is faint air hunger."
+  ]
+ ]
+}

@@ -234,6 +234,86 @@
    "when": "2026-11-09 18:59 UTC",
    "where": "round 31, card MW-ALONE (his version)",
    "basis": "his answer"
+  },
+  {
+   "id": "K25",
+   "kind": "coinage",
+   "quote": "ZeoCharge",
+   "what": "his name for his zeolite, with his post on it linked; a pass that sees \"zeolite\" in the text may take it for a typo or a brand to explain away",
+   "joel": "",
+   "when": "2026-11-21 14:28 UTC",
+   "where": "round 47, his headings for the sidebar (review/r47/ANSWERS-R47-20261121-1428.json)",
+   "basis": "his answer"
+  },
+  {
+   "id": "K26",
+   "kind": "coinage",
+   "quote": "Holy Water",
+   "what": "his name for the ozonated charcoal water of his ZHoly3O page (his words elsewhere: \"an ozonated charcoal \\\"holy water\\\"\"), linked to that page; it is not in the section's text, which says \"aged ozonated-charcoal water\"",
+   "joel": "",
+   "when": "2026-11-21 14:28 UTC",
+   "where": "round 47, his headings for the sidebar (review/r47/ANSWERS-R47-20261121-1428.json)",
+   "basis": "his answer"
+  },
+  {
+   "id": "K27",
+   "kind": "joke",
+   "quote": "Niacin \"Flushes\" Trips Out",
+   "what": "his pun on the niacin flush, in his quote marks",
+   "joel": "",
+   "when": "2026-11-21 14:28 UTC",
+   "where": "round 47, his headings for the sidebar (review/r47/ANSWERS-R47-20261121-1428.json)",
+   "basis": "his answer"
+  },
+  {
+   "id": "K28",
+   "kind": "voice",
+   "quote": "Chill Love 🫶🏿",
+   "what": "his playful words and his emoji in the sniffer's heading, at the edge of the sidebar's room",
+   "joel": "",
+   "when": "2026-11-21 14:28 UTC",
+   "where": "round 47, his headings for the sidebar (review/r47/ANSWERS-R47-20261121-1428.json)",
+   "basis": "his answer"
+  },
+  {
+   "id": "K29",
+   "kind": "voice",
+   "quote": "Mango Leaf Tea: Chill Bliss",
+   "what": "his playful words in the heading",
+   "joel": "",
+   "when": "2026-11-21 14:28 UTC",
+   "where": "round 47, his headings for the sidebar (review/r47/ANSWERS-R47-20261121-1428.json)",
+   "basis": "his answer"
+  },
+  {
+   "id": "K30",
+   "kind": "choice",
+   "quote": "Lime or EOs for Calm",
+   "what": "\"EOs\" is his short form for essential oils; the section's first line says essential oils",
+   "joel": "",
+   "when": "2026-11-21 14:28 UTC",
+   "where": "round 47, his headings for the sidebar (review/r47/ANSWERS-R47-20261121-1428.json)",
+   "basis": "his answer"
+  },
+  {
+   "id": "K31",
+   "kind": "choice",
+   "quote": "Act Now on SS",
+   "what": "\"SS\" in the headings is his, after \"Serotonin Syndrome (SS)?\" spells it out; \"How to Check for SS\" is his \"How To Check For SS\" in title case, his rule",
+   "joel": "",
+   "when": "2026-11-21 14:28 UTC",
+   "where": "round 47, his headings for the sidebar (review/r47/ANSWERS-R47-20261121-1428.json)",
+   "basis": "his answer"
+  },
+  {
+   "id": "K32",
+   "kind": "choice",
+   "quote": "Off the Healing Treadmill",
+   "what": "his words from his old heading \"Trip After Trip? Hang up the phone, get off the Healing Treadmill\"",
+   "joel": "",
+   "when": "2026-11-21 14:28 UTC",
+   "where": "round 47, his headings for the sidebar (review/r47/ANSWERS-R47-20261121-1428.json)",
+   "basis": "his answer"
   }
  ],
  "cuts": [
@@ -343,6 +423,15 @@
    "joel": "\"fixed it, now all high conf\"",
    "when": "2026-11-08 15:01 UTC",
    "where": "round 24, card TEACH-FIRM (his version)",
+   "basis": "his answer"
+  },
+  {
+   "id": "C13",
+   "quote": "I developed the [**Inner Signal app**]",
+   "what": "the Inner Signal section, out until his app is ready; kept word for word in review/r47/REMOVED-B65.md to go back in when he says the app is ready",
+   "joel": "remove this section for now since my app isn't ready",
+   "when": "2026-11-21 14:28 UTC",
+   "where": "round 47, his headings for the sidebar (review/r47/ANSWERS-R47-20261121-1428.json)",
    "basis": "his answer"
   }
  ]

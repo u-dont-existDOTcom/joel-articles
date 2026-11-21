@@ -43,11 +43,24 @@ and changed where they marked it: the antidepressant line says to hold it back e
 line's "suspected"), the fever reducers are named, DMSO is said as this guide's remedy for other emergencies, the fan and
 the ice packs are two items. Its receipts pass and its fidelity check passes.
 
-**Not checked yet:** the desktop app's browser pane went offline after the first try's checks (its tools left this
-session), and the checks run only there (his Pangram account; tabs in his own browser get lost, so not there). The
-predictions are written in [predict.py](predict.py) (`python3 predict.py g2a-ss12-3 g2b-ss34-3 g2c-ss56-3 g2d-ss78-3`,
-right before the checks), with the texts to type beside it. The whole list waits until the pairs read Human: its
-lineage has one of its two section checks left.
+**Checked in turn 58** (his round-47 export of 14:28 UTC, "continue"):
+
+| Text | Result | Windows | Link |
+|---|---|---|---|
+| Steps 1 and 2 | Human Written | Human High 109, Human Medium 14 (his own last line) | [8ad45936](https://www.pangram.com/history/8ad45936-f8e3-4d22-bcbc-0564508d234f) |
+| Steps 3 and 4 | AI Generated, 100% | AI High 122 | [5d3a5e91](https://www.pangram.com/history/5d3a5e91-ec5b-44e0-9f3b-f72ef12a7c91) |
+| Steps 5 and 6 | AI Generated, 100% | AI High 121 | [fc3db895](https://www.pangram.com/history/fc3db895-2d16-4e30-a626-635f44022fd1) |
+| Steps 7 and 8 | AI Generated, 100% | AI High 118 | [b6d8abee](https://www.pangram.com/history/b6d8abee-e0d7-4992-9a6d-1ac712ddb68a) |
+
+To find which steps read AI, four steps by themselves: step 1 [AI High 65](https://www.pangram.com/history/49c25418-8bd1-4238-afe2-927a59031592), step 4 [AI High 91](https://www.pangram.com/history/5a25bced-d711-4611-9b42-59fac7c580d9), step 5 [AI High 69](https://www.pangram.com/history/d85068d3-ebac-4a40-b630-efaf22aebf26), step 8 [AI Medium 18, AI High 52](https://www.pangram.com/history/b9cb6c07-05cb-467a-8021-bd00a69db9d8). So steps 1 and 2 read Human because of his own step 2, in his first person ("I would give cyproheptadine early ... I wouldn't wait"), not because of the form: every step of mine, in either form, reads AI.
+
+## The third try: his first person
+
+His step 2 is the one part of these steps that reads Human, alone (Human High 58) and carrying its pair. The third try puts steps 5 and 6 in his first person where they say what to do ("I'd keep crowds and arguments away", "I wouldn't force anything on them"), read by three fresh readers and changed where they marked it: "fully alert" said, keeping still said as talking them into it without holding them down, the fluids' other case opened with "But if". The ledger sends a lineage that read AI twice through the tell panel before its next try: two readers (Sonnet and Haiku; Codex, the reader from another family, runs from his laptop, which wasn't connected) agreed on five sentences ([panel](panel-g4c/PANEL.md)), all changed; read again, they agreed on six of seven ([panel](panel-g4c-2/PANEL.md)), now on the steps' own conditions and terms. Checked: [AI Medium 7, AI High 122](https://www.pangram.com/history/f4275573-6c55-4088-b703-de8331ec99b9). His first person was not what made his step 2 read Human.
+
+## To him
+
+Three tries on a pair and four steps by themselves, all AI, the way eight of eight of my medical paragraphs read (lesson bad-trips-2026-11-12f): steps 5 and 6 go to him as round 48's teaching card ([Bad Trips Guide, Round 48](https://claude.ai/artifact/Q8qeTNfRLC9cenyjzdUZLA); [the card as text](../../review/r48/REVIEW-R48.md)), and his version's ways go to the other steps.
 
 ## Also found
 
