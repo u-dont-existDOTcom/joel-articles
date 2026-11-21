@@ -1677,10 +1677,13 @@
    "joel": "2026-11-20 22:40 UTC: \"C1 a C2a C3 a C4 a\"",
    "applied_by": "humanize/h62-20261120/apply_c.py",
    "must_contain_exact": [
-    "The mistake suggested that DMSO and aged ozonated-charcoal water address different kinds of overload."
+    "The mistake suggested that DMSO and aged ozonated-charcoal water work on different kinds of overload, so if DMSO doesn't help, try the water, and the other way around."
    ],
    "must_not_contain": [
     "The mistake showed me"
+   ],
+   "changed": [
+    "2026-11-20 (turn 55): the last line ends on what to do, read Human High by itself (f3-ozone-4, humanize/h63-20261120/apply_b197.py); \"suggested\" kept"
    ]
   },
   {

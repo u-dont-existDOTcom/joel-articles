@@ -1,0 +1,36 @@
+{
+ "format": "joel-suggestion-review-answers-v1",
+ "review_id": "bad-trips-r46",
+ "title": "Bad Trips Guide, Round 46",
+ "git_file": "articles/bad-trips/review/r46/REVIEW-R46.html",
+ "article": {
+  "file": "articles/bad-trips/review/r46/PAGE-R46.md",
+  "sha256": "60da8dabcc0847dc0411512b5f7b270d82df776a664897e9272a7f3e8694540b"
+ },
+ "built": "2026-11-20",
+ "generator": "suggestion_review.py 1.11 (2026-11-11)",
+ "exported_at": "2026-11-20T23:59:44.800Z",
+ "counts": {
+  "approved": 0,
+  "rejected": 0,
+  "revise": 0,
+  "pending": 1
+ },
+ "items": [
+  {
+   "id": "TAGS",
+   "type": "question",
+   "title": "Short evidence tags on the 14 remedy headings",
+   "where": "the heading \"Zeolite and Ferment in ZHoly3O\"",
+   "advice": "ask",
+   "status": "answered",
+   "question": "Each tag says what its section rests the remedy on, as the section itself says it: your own experience (\"In my experiments\", \"helps my nausea\", \"I've found\", \"for me and friends\"), a study in people (DMSO: the 1967 trial in psychiatric patients), or a standard medical use (activated charcoal for a poisoning). How each heading would read:\n\nA (my pick): a tag in square brackets at the end of each heading:\n    Zeolite and Ferment in ZHoly3O [My Experience]\n    Actual Activated Charcoal [Standard for Poisoning]\n    Coffee Cherry for Nausea and Brain Recharge [My Experience]\n    Metta NMT Sniffer Makes the Trip Chill & Lovey! [My Experience]\n    Humic Acid Brings Brain to Optimal Function [My Experience]\n    Creatine Is Blissful and Good for the Brain [My Experience]\n    Mango Leaf Tea Relaxes Without Killing the Trip [My Experience]\n    Authentic Calming Essential Oils (or a Lime Peel) [My Experience]\n    DMSO [Some Human Studies]\n    Syrian Rue Oil Makes the Trip Gentle & Sweet [My Experience]\n    Ocean Water to Calm & Protect the Energetic Field [My Experience]\n    Shungite, Aged Ozonated-Charcoal Water, or Boiled Charcoal Water [My Experience]\n    Beach Morning Glory--Ipomoea pes-caprae [My Experience]\n    A Final Trip Killer: Niacin (a Form of Vitamin B3) [My Experience]\nPro: a reader scanning the headings in a hurry sees at a glance which remedies have studies behind them and which rest on your experience. Con: twelve of the fourteen say the same thing.\n\nB: the same, in the guide's old evidence labels (the How I label the evidence section, cut in round 33), Personal Field Signal on the twelve and:\n    Actual Activated Charcoal [Established Acute Treatment]\n    DMSO [Limited Human Evidence]\nPro: the labels you had. Con: \"Personal Field Signal\" needs explaining, and the section that explained it is gone.\n\nC: tags only where there is more than your experience (DMSO and activated charcoal, as in A), and one line under My Acute Rescue Hierarchy of Remedies:\n    Unless a heading says otherwise, a remedy here rests on my own experience and what people I've given it to have told me.\nPro: two tags stand out instead of fourteen. Con: a reader who skips that line can take an untagged heading as tested.\n\nTwo things only you know: do your humic acid, coffee cherry or creatine notes cite studies in people or animals? If they do, that heading's tag says so instead (\"Some Human Studies\" or \"Animal Studies\"). And are the words right: \"My Experience\", \"Some Human Studies\", \"Standard for Poisoning\"?",
+   "your_version": "",
+   "comment": "almost all these are my exp plus experiences of friends (except creatien for now just me)",
+   "my_version": "",
+   "before": "",
+   "history": [],
+   "updated": "2026-11-20T23:59:40.162Z"
+  }
+ ]
+}
