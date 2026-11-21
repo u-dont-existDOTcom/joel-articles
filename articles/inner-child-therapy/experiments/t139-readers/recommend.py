@@ -80,8 +80,9 @@ def main():
          'Joel, 2026-11-21 13:07 UTC: "in that approach you should recommend how to improve the guide so the real readers '
          'will also know where they would look for the sections". Made by [recommend.py](%st139-readers/recommend.py) '
          'from [where_readers_look.py](%st139-readers/where_readers_look.py). These are proposals: none is in the post, '
-         'and none has been checked with Pangram yet. The section names are his of 20 November, with the moves of '
-         'question 117 (A).' % (GH, GH), '',
+         'and none has been checked with Pangram yet. Nothing goes in until it reads Human with High confidence in '
+         'Pangram (Joel, 2026-11-21 13:31 UTC: "make sure you don\'t add anything that hasn\'t passed pangram with high conf"). The section names are his of 20 November, with the moves of '
+         'question 117 (A), which are in the post since 2026-11-21 13:35 UTC.' % (GH, GH), '',
          '## 1. A line or two under each part and role with no text of its own', '',
          'A reader who opens the contents sees only a part\'s name. Where the guide says nothing under it, they guess what '
          'it holds, as the models did. Each line below is drafted from his own words, given beside it.', '']
@@ -112,7 +113,7 @@ def main():
           'other in the sidebar, so they need no pointer. %s' % (
               len(near), ', '.join(r['section'] for r in near),
               ('Too few readings agreed on another place for %s.' % ', '.join(r['section'] for r in weak)) if weak else ''), '',
-          '**Answer the Disciplinarian**, going to the Protector (question 117, A): 2 of the 5 readings put it there, '
+          '**Answer the Disciplinarian**, under the Protector since 2026-11-21 13:35 UTC (question 117, A): 2 of the 5 readings put it there, '
           'beside The Parent You Inherited, and 3 beside Discipline Done Right?, which goes to the Guide. The pointer '
           'above serves the 3. '
           'Re-do Trauma Memories: one reading (run 6, high confidence) put it under Borrow Hindsight, where it now goes.', '',

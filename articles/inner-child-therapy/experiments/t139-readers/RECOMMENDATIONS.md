@@ -1,6 +1,6 @@
 # How to help readers know where to look (turn 139)
 
-Joel, 2026-11-21 13:07 UTC: "in that approach you should recommend how to improve the guide so the real readers will also know where they would look for the sections". Made by [recommend.py](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/inner-child-therapy/experiments/t139-readers/recommend.py) from [where_readers_look.py](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/inner-child-therapy/experiments/t139-readers/where_readers_look.py). These are proposals: none is in the post, and none has been checked with Pangram yet. The section names are his of 20 November, with the moves of question 117 (A).
+Joel, 2026-11-21 13:07 UTC: "in that approach you should recommend how to improve the guide so the real readers will also know where they would look for the sections". Made by [recommend.py](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/inner-child-therapy/experiments/t139-readers/recommend.py) from [where_readers_look.py](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/inner-child-therapy/experiments/t139-readers/where_readers_look.py). These are proposals: none is in the post, and none has been checked with Pangram yet. Nothing goes in until it reads Human with High confidence in Pangram (Joel, 2026-11-21 13:31 UTC: "make sure you don't add anything that hasn't passed pangram with high conf"). The section names are his of 20 November, with the moves of question 117 (A), which are in the post since 2026-11-21 13:35 UTC.
 
 ## 1. A line or two under each part and role with no text of its own
 
@@ -45,7 +45,7 @@ Five blind card sorts (runs 3 to 6 in the contents test, each with a different f
 
 13 more sections were filed under a neighbouring heading inside the same part (No Inner Monologue?, Journal With Each Hand, If no answer comes, If it’s anxiety, Catch the Hook Early, Gentle Mantra Meditation, A Passing Feeling, Is It Helping?, What to Do With a Peak, Losing Touch With Reality, Who counts as trusted, My Trips Came Too Soon, Life’s a trip also). They show next to each other in the sidebar, so they need no pointer. Too few readings agreed on another place for Childhood Photos, Gently.
 
-**Answer the Disciplinarian**, going to the Protector (question 117, A): 2 of the 5 readings put it there, beside The Parent You Inherited, and 3 beside Discipline Done Right?, which goes to the Guide. The pointer above serves the 3. Re-do Trauma Memories: one reading (run 6, high confidence) put it under Borrow Hindsight, where it now goes.
+**Answer the Disciplinarian**, under the Protector since 2026-11-21 13:35 UTC (question 117, A): 2 of the 5 readings put it there, beside The Parent You Inherited, and 3 beside Discipline Done Right?, which goes to the Guide. The pointer above serves the 3. Re-do Trauma Memories: one reading (run 6, high confidence) put it under Borrow Hindsight, where it now goes.
 
 ## 3. Then test it with readers
 

@@ -4,7 +4,7 @@
   "id": "189761959",
   "title": "Joel's inner child guide"
  },
- "source": "Built 2026-11-20 by experiments/t133-links/build_catalog.py from turn 132 as published at 17:06 UTC: its headings (publish/probe132.js) and the 22 section links it added (publish/PLAN.json). Not yet in it: the one section link the post had before turn 132, and Joel's changes after 17:06 UTC other than those applied below with section_links.py rename. Added from his message of 2026-11-20 22:32 UTC (not yet read from the post): his new heading \"Killing the Old You\" and its link to \"Compassionate Exit?\". Announced, not yet made: S092 to \"Altered States & Meditating Intensely\".",
+ "source": "Built 2026-11-20 by experiments/t133-links/build_catalog.py from turn 132 as published at 17:06 UTC: its headings (publish/probe132.js) and the 22 section links it added (publish/PLAN.json). Not yet in it: the one section link the post had before turn 132, and Joel's changes after 17:06 UTC other than those applied below with section_links.py rename. Added from his message of 2026-11-20 22:32 UTC (not yet read from the post): his new heading \"Killing the Old You\" and its link to \"Compassionate Exit?\". S092's rename to \"Altered States & Meditating Intensely\", announced then, is in the post since (turn 140). Turn 140, 2026-11-21: question 117's moves (S075 gone; S076 and S077 after S047 as h3 and h4; S078 after S028 as h3), the level of S013k, and his renames of S092, S102 and S105, and his own moves since 20 November (Killing the Old You under This Precious Human Life; What to Do With a Peak before Prepare for Altered States Now; Life's a trip also under it; Confused After Trips? before Who Counts as Trusted), all checked against the live post's headings at 13:35 UTC (experiments/t140-moves/). Every anchor was checked against the rendered post on 2026-11-21 (experiments/t140-moves/live_anchors.txt, 149 anchored headings): five were wrong, because Substack reads \"&\" as \"and\" and keeps an accented letter's plain letter, and section_links.py now does the same.",
  "headings": [
   {
    "id": "S001",
@@ -16,7 +16,7 @@
    "id": "S002",
    "level": 2,
    "text": "Céline on the Inner Child",
-   "anchor": "cline-on-the-inner-child"
+   "anchor": "celine-on-the-inner-child"
   },
   {
    "id": "S003",
@@ -76,20 +76,13 @@
    "id": "S012",
    "level": 3,
    "text": "Ill Will & Loving-Kindness",
-   "anchor": "ill-will-loving-kindness"
+   "anchor": "ill-will-and-loving-kindness"
   },
   {
    "id": "S013",
    "level": 2,
    "text": "If You Want to Kill Yourself",
    "anchor": "if-you-want-to-kill-yourself"
-  },
-  {
-   "id": "S013k",
-   "level": null,
-   "text": "“Killing the Old You”",
-   "anchor": "killing-the-old-you",
-   "note": "added by Joel (his message of 2026-11-20 22:32 UTC); level and exact place to read from the post; Joel, 2026-11-20 23:03 UTC: it takes quote marks"
   },
   {
    "id": "S014",
@@ -102,6 +95,13 @@
    "level": 3,
    "text": "This Precious Human Life",
    "anchor": "this-precious-human-life"
+  },
+  {
+   "id": "S013k",
+   "level": 4,
+   "text": "“Killing the Old You”",
+   "anchor": "killing-the-old-you",
+   "note": "added by Joel (his message of 2026-11-20 22:32 UTC); level and exact place to read from the post; Joel, 2026-11-20 23:03 UTC: it takes quote marks; an h4 in the post (read 2026-11-21 13:35 UTC)"
   },
   {
    "id": "S017",
@@ -174,6 +174,12 @@
    "level": 4,
    "text": "Reframe the Critic",
    "anchor": "reframe-the-critic"
+  },
+  {
+   "id": "S078",
+   "level": 3,
+   "text": "Answer the Disciplinarian",
+   "anchor": "answer-the-disciplinarian"
   },
   {
    "id": "S029",
@@ -288,6 +294,18 @@
    "level": 4,
    "text": "You Did It Well Before",
    "anchor": "you-did-it-well-before"
+  },
+  {
+   "id": "S076",
+   "level": 3,
+   "text": "Re-do Trauma Memories",
+   "anchor": "re-do-trauma-memories"
+  },
+  {
+   "id": "S077",
+   "level": 4,
+   "text": "Discipline Done Right?",
+   "anchor": "discipline-done-right"
   },
   {
    "id": "S048",
@@ -443,37 +461,13 @@
    "id": "S073",
    "level": 2,
    "text": "Morning & Night Practice",
-   "anchor": "morning-night-practice"
+   "anchor": "morning-and-night-practice"
   },
   {
    "id": "S074",
    "level": 2,
    "text": "Close the Session",
    "anchor": "close-the-session"
-  },
-  {
-   "id": "S075",
-   "level": 1,
-   "text": "Healing Old Patterns",
-   "anchor": "healing-old-patterns"
-  },
-  {
-   "id": "S076",
-   "level": 2,
-   "text": "Re-do Trauma Memories",
-   "anchor": "re-do-trauma-memories"
-  },
-  {
-   "id": "S077",
-   "level": 3,
-   "text": "Discipline Done Right?",
-   "anchor": "discipline-done-right"
-  },
-  {
-   "id": "S078",
-   "level": 2,
-   "text": "Answer the Disciplinarian",
-   "anchor": "answer-the-disciplinarian"
   },
   {
    "id": "S079",
@@ -562,8 +556,8 @@
   {
    "id": "S092",
    "level": 1,
-   "text": "Altered States",
-   "anchor": "altered-states"
+   "text": "Altered States & Meditating Intensely",
+   "anchor": "altered-states-and-meditating-intensely"
   },
   {
    "id": "S093",
@@ -578,6 +572,12 @@
    "anchor": "altered-can-make-it-real"
   },
   {
+   "id": "S097",
+   "level": 2,
+   "text": "What to Do With a Peak",
+   "anchor": "what-to-do-with-a-peak"
+  },
+  {
    "id": "S095",
    "level": 2,
    "text": "Prepare for Altered States Now",
@@ -590,10 +590,10 @@
    "anchor": "spirit-attacks-teach-love"
   },
   {
-   "id": "S097",
-   "level": 2,
-   "text": "What to Do With a Peak",
-   "anchor": "what-to-do-with-a-peak"
+   "id": "S106",
+   "level": 3,
+   "text": "Life’s a trip also",
+   "anchor": "lifes-a-trip-also"
   },
   {
    "id": "S098",
@@ -608,12 +608,6 @@
    "anchor": "if-a-past-trip-went-badly"
   },
   {
-   "id": "S106",
-   "level": 3,
-   "text": "Life’s a trip also",
-   "anchor": "lifes-a-trip-also"
-  },
-  {
    "id": "S100",
    "level": 3,
    "text": "Is Paranoia a Warning?",
@@ -626,16 +620,16 @@
    "anchor": "mania-or-psychosis-risk"
   },
   {
-   "id": "S102",
-   "level": 3,
-   "text": "Who counts as trusted",
-   "anchor": "who-counts-as-trusted"
-  },
-  {
    "id": "S103",
    "level": 3,
    "text": "Confused After Trips?",
    "anchor": "confused-after-trips"
+  },
+  {
+   "id": "S102",
+   "level": 3,
+   "text": "Who Counts as Trusted",
+   "anchor": "who-counts-as-trusted"
   },
   {
    "id": "S104",
@@ -646,8 +640,8 @@
   {
    "id": "S105",
    "level": 3,
-   "text": "What you mix",
-   "anchor": "what-you-mix"
+   "text": "Check Interactions",
+   "anchor": "check-interactions"
   },
   {
    "id": "S107",
@@ -857,7 +851,7 @@
    "id": "S142",
    "level": 2,
    "text": "Between Old & New Lives",
-   "anchor": "between-old-new-lives"
+   "anchor": "between-old-and-new-lives"
   },
   {
    "id": "S143",

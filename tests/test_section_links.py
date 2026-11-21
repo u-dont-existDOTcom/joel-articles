@@ -25,6 +25,19 @@ SEEN = {
     'Similar Therapies': 'similar-therapies',
     'Internal Family Systems': 'internal-family-systems',
     'Schema Therapy': 'schema-therapy',
+    # inner child guide, its 149 anchored headings as rendered on 2026-11-21 (turn 140; the rest of them in
+    # articles/inner-child-therapy/experiments/t140-moves/live_anchors.txt, checked in test_live_inner_child)
+    'Céline on the Inner Child': 'celine-on-the-inner-child',
+    'Ill Will & Loving-Kindness': 'ill-will-and-loving-kindness',
+    'Morning & Night Practice': 'morning-and-night-practice',
+    'Altered States & Meditating Intensely': 'altered-states-and-meditating-intensely',
+    'Between Old & New Lives': 'between-old-and-new-lives',
+    'When You’re the Danger': 'when-youre-the-danger',
+    'Talk to the hand!✋🏿': 'talk-to-the-hand',
+    '“And So That’s the Way It Happened!”': 'and-so-thats-the-way-it-happened',
+    'Write It. Don’t Send It Yet.': 'write-it-dont-send-it-yet',
+    'Love Before Trust ❤️': 'love-before-trust',
+    'Life’s a trip also': 'lifes-a-trip-also',
     # bad trips guide, post 170920118
     'Alone at 3 a.m.': 'alone-at-3-am',
     'Who to Contact, and When': 'who-to-contact-and-when',
@@ -53,16 +66,24 @@ class SectionLinks(unittest.TestCase):
                          'https://ibogaqueen.substack.com/i/189761959/therapy-or-escapism')
 
     def test_unchecked_characters_are_flagged(self):
-        self.assertEqual(sl.unchecked('Life’s a trip also'), ['’'])
-        self.assertEqual(sl.unchecked('Céline on the Inner Child'), ['é'])
-        self.assertEqual(sl.unchecked('Ill Will & Loving-Kindness'), ['&'])
+        self.assertEqual(sl.unchecked('Pain (and Joy)'), ['(', ')'])
+        self.assertEqual(sl.unchecked('Either/Or'), ['/'])
+        self.assertEqual(sl.unchecked('Wait — Really'), ['—'])
+
+    def test_live_inner_child(self):
+        root = pathlib.Path(__file__).resolve().parents[1]
+        rows = [l.split('\t') for l in (root / 'articles/inner-child-therapy/experiments/t140-moves/live_anchors.txt')
+                .read_text(encoding='utf-8').splitlines() if l]
+        self.assertEqual(len(rows), 149)
+        for heading, anchor in rows:
+            self.assertEqual(sl.slug(heading), anchor, heading)
 
     def test_check_flags_repeats_and_unchecked(self):
-        rows = sl.check('# Safety\n\n## Noticing Counts\n\ntext\n\n### Noticing counts!\n\n## Life’s a trip also\n')
+        rows = sl.check('# Safety\n\n## Noticing Counts\n\ntext\n\n### Noticing counts!\n\n## Either/Or\n')
         probs = {text: p for _, text, _, p in rows}
         self.assertEqual(probs['Noticing Counts'], [])
         self.assertTrue(any('same slug' in p for p in probs['Noticing counts!']))
-        self.assertTrue(any('UNCHECKED' in p for p in probs["Life's a trip also"]))  # plain() straightens quotes
+        self.assertTrue(any('UNCHECKED' in p for p in probs['Either/Or']))
 
 
 class Catalog(unittest.TestCase):

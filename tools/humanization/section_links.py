@@ -45,7 +45,10 @@ import unicodedata
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
 from section_refs import plain  # noqa: E402
 
-CHECKED_DROPPED = set('?:,.+"“”')
+CHECKED_DROPPED = set('?:,.+"“”!’')
+# Read 2026-11-21 from all 149 anchored headings of the inner child guide as rendered
+# (articles/inner-child-therapy/experiments/t140-moves/live_anchors.txt): "&" reads "and", an accented letter keeps
+# its plain letter ("Céline" -> "celine"), and "!" and "’" go like the other punctuation.
 HEAD = re.compile(r'^(#{1,6})\s+(.*\S)\s*$')
 
 
@@ -57,9 +60,16 @@ def _emoji(ch):
     return unicodedata.category(ch) in ('So', 'Sk') or 0xFE00 <= ord(ch) <= 0xFE0F or ord(ch) == 0x200D
 
 
+def _plain_letter(ch):
+    """An accented letter's plain letter ("é" -> "e"), or None."""
+    base = ''.join(c for c in unicodedata.normalize('NFKD', ch) if not unicodedata.combining(c))
+    return base if base != ch and len(base) == 1 and _kept(base) else None
+
+
 def slug(heading):
     """The anchor Substack gives a heading with these words."""
-    s = re.sub(r'\s+', ' ', heading).lower()
+    s = re.sub(r'\s+', ' ', heading).lower().replace('&', ' and ')
+    s = ''.join(_plain_letter(ch) or ch for ch in s)
     s = ''.join(ch for ch in s if _kept(ch))
     s = re.sub(r' ', '-', s)
     return re.sub(r'-+', '-', s).strip('-')
@@ -69,7 +79,7 @@ def unchecked(heading):
     """The characters in a heading whose handling hasn't been seen on a rendered page yet."""
     out = []
     for ch in re.sub(r'\s+', ' ', heading).lower():
-        if _kept(ch) or ch in CHECKED_DROPPED or _emoji(ch):
+        if _kept(ch) or ch in CHECKED_DROPPED or _emoji(ch) or ch == '&' or _plain_letter(ch):
             continue
         if ch not in out:
             out.append(ch)
