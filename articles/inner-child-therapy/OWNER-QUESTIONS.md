@@ -1,12 +1,18 @@
 # Inner Child article: questions for Joel
 
-Last updated 2026-11-20 (turn 136). No open questions: 111 to 115 are answered. The to-do entries below date from turn 115 (26 October) and weren't rechecked this turn, except pull request #255, which you merged on 3 November. To answer a question, reply in chat with its number and a letter, like `111: A`, or in your own words.
+Last updated 2026-11-21 (turn 137). One open question: 116. Questions 111 to 115 are answered. The to-do entries below date from turn 115 (26 October) and weren't rechecked this turn, except pull request #255, which you merged on 3 November. To answer a question, reply in chat with its number and a letter, like `111: A`, or in your own words.
 
 🟣 a question for you · 🟠 for you to do · 🔵 next or in progress · 🟢 done or decided
 
 The published page, a view of this file rebuilt after every change ([questions_page.py](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/tools/questions_page.py)), is https://claude.ai/artifact/1k5VjWfDiYpMv4aEViWc9E. This file is the page's master copy, so either of your Claude accounts can read and update it (UDA [owner-questions-page.md](https://github.com/u-dont-existDOTcom/universal-dev-architecture/blob/main/patterns/owner-questions-page.md), [cross-account-continuity.md](https://github.com/u-dont-existDOTcom/universal-dev-architecture/blob/main/patterns/cross-account-continuity.md)). Only the account that published the page can republish it, so after a turn by your other account (turns 100 to 115), this file is newer than the page until the next republish.
 
 ## Open questions
+
+### 🟣 116. What is Healing Old Patterns for? (turn 137)
+
+It's the one part of the guide I can't find defined in the article or in your answers so far ([what I checked, and where the others are answered](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/inner-child-therapy/experiments/t137-questions/ASKED.md)). Your answer to 114 says what it isn't: "just a catch all category which is not important enough to deal with such a primary obstacle". And the opening gives noticing old patterns to the whole Inner Adult ("That grown-up notices the old patterns and practices better ways of responding"), so from the article alone, all three roles' work sounds like healing old patterns.
+
+What is the part for, and what should go there rather than under the Protector, the Nurturer or the Guide? A line or two in your own words is plenty. It goes into the frame for the next sort with your answers to 114 and 115 and the article's own descriptions.
 
 ### 🟢 115. Three of your moves the sort still can't explain (turn 135)
 
