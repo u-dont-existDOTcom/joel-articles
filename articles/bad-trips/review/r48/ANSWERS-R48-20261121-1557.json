@@ -1,0 +1,41 @@
+{
+ "format": "joel-suggestion-review-answers-v1",
+ "review_id": "bad-trips-r48",
+ "title": "Bad Trips Guide, Round 48",
+ "git_file": "articles/bad-trips/review/r48/REVIEW-R48.html",
+ "article": {
+  "file": "articles/bad-trips/review/r48/PAGE-R48.md",
+  "sha256": "17d98b20325557e9374c3d45193451161492842b808db0c0d529b0e11411f05d"
+ },
+ "built": "2026-11-21",
+ "generator": "suggestion_review.py 1.11 (2026-11-11)",
+ "exported_at": "2026-11-21T15:57:20.567Z",
+ "counts": {
+  "approved": 0,
+  "rejected": 0,
+  "revise": 1,
+  "pending": 0
+ },
+ "items": [
+  {
+   "id": "TEACH-SS-STEPS",
+   "type": "teach",
+   "title": "1. Act Now on SS: steps 5 and 6 (keep them still, give fluids only if)",
+   "where": "Act Now on SS, P5",
+   "advice": "edit",
+   "status": "revise",
+   "your_version": "Since, they're already overstimulated, it helps to clear out the crowd and stop any arguing. While it's natural for people who are overstimulated to start pacing or exercising to \"burn it off,\" the problem is that creates more body heat, and it raises the risk of their muscles breaking down into the blood, which hurts the kidneys (rhabdomyolysis). But if they feel a strong urge to keep moving (akathisia), I'd have them do some fidgeting (especially of the calf muscle, flexing the feet), which can soothe that urge without the over-activity risk.\nOverstimulating also dehydrates them, but we can't give fluids unless they're fully alert, able to swallow and not vomiting, and then just small sips of an electrolyte drink (a hypertonic one, more concentrated than an ordinary one, may be required if they still have symptoms of lack of electrolytes).",
+   "comment": "there was a lot that wasn't connecting and also the advice i think was not quite correct medically altho pangram wouldn't know that part. i fixed the first part, but it still was AI until i removed the redundant first sentence: https://www.pangram.com/history/f8a505f1-9042-4296-8738-d03f48796e81?ucc=4rq5Ko7gBiW&utm_source=pangram_share&utm_medium=copy_link\n\nbut if i had only done that one change it would not flip it human: https://www.pangram.com/history/7de1beae-855a-42ba-8cc9-7567e6468ff7?ucc=4rq5Ko7gBiW&utm_source=pangram_share&utm_medium=copy_link\n\nnote, i've told u this before but my approach requires not even thinking about pangram at first. i made many attempts that didn't help with pangram, and i kept going in the same direction. my goal is to make it read well and lead on so i'm not wondering all the time why i am reading this. once i fully make it look right, then i can chheck if pangram agrees. \n\npangram can be fickle so when you're not fully fixed yet you might go back and forth on pangram results and it gets too confusing to rely on that. \n\ni still don't think you are able to read youur own writing correctly to see what looks ai, that's what i'm trying to teach you. we should do some quizes for you without pangram first maybe\n\nnow i fixed the last part, it was redundant and also i think not giving the correct medical advice, now all human high: https://www.pangram.com/history/924a9caa-8af0-4fdd-b705-f388d542b7a6?ucc=4rq5Ko7gBiW&utm_source=pangram_share&utm_medium=copy_link\n\n",
+   "my_version": "Keep stimulation low and prevent exertion. No pacing to \"burn it off,\" exercise, crowds, or arguments. Akathisia can create a strong urge to move, but muscle activity can worsen heat and rhabdomyolysis risk.\n\nHydrate only when fully alert and not vomiting. Small sips of an appropriate oral rehydration drink are reasonable. Don't force fluids, food, pills, or charcoal when someone is confused, vomiting, sleepy, or at seizure risk.",
+   "before": "Keep stimulation low and prevent exertion. No pacing to \"burn it off,\" exercise, crowds, or arguments. Akathisia can create a strong urge to move, but muscle activity can worsen heat and rhabdomyolysis risk.\n\nHydrate only when fully alert and not vomiting. Small sips of an appropriate oral rehydration drink are reasonable. Don't force fluids, food, pills, or charcoal when someone is confused, vomiting, sleepy, or at seizure risk.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "revise",
+     "at": "2026-11-21T15:26:24.593Z"
+    }
+   ],
+   "updated": "2026-11-21T15:57:17.331Z"
+  }
+ ]
+}

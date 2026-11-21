@@ -954,7 +954,7 @@
   {
    "id": "r30-toc-a",
    "status": "applied",
-   "what": "the contents as option A of round 30's TOC card, with the brain section kept first in the medical part and three headings renamed so readers can find them (humanize/h39-20261109/toc/plan_toc.py, review/r30/apply_r30.py) | How I label the evidence cut in round 33 (LABELS-CUT, his approval of 2026-11-11 19:54 UTC (review/r33/ANSWERS-R33-20261111-1954.json)",
+   "what": "the contents as option A of round 30's TOC card, with the brain section kept first in the medical part and three headings renamed so readers can find them (humanize/h39-20261109/toc/plan_toc.py, review/r30/apply_r30.py) | How I label the evidence cut in round 33 (LABELS-CUT, his approval of 2026-11-11 19:54 UTC (review/r33/ANSWERS-R33-20261111-1954.json) | 2026-11-21 15:57 UTC: \"## Who to Contact, and When\" renamed \"## Who to Contact\" by his R47-2 answer (r48-headings)",
    "joel": "2026-11-09 18:43 UTC (review/r30/ANSWERS-R30-20261109-1843.json, TOC): \"a sure rename them so readers can find them, and brain should be at top yeah that's kind of one of the most common things people say\"",
    "must_contain": [
     "## If Someone Might Get Hurt",
@@ -969,7 +969,7 @@
    "order": [
     "# When to Get Outside Help",
     "## If Someone Might Get Hurt",
-    "## Who to Contact, and When",
+    "## Who to Contact",
     "# Medical and Brain Rescue",
     "## \"My Brain Feels Damaged\"",
     "## Active Seizure",
@@ -1756,6 +1756,40 @@
    "must_not_contain": [
     "Inner Signal App to the Rescue!",
     "I developed the [**Inner Signal app**]"
+   ]
+  },
+  {
+   "id": "r48-teach-ss",
+   "status": "applied",
+   "what": "his steps 5 and 6 of Act Now on SS in whole, from his TEACH-SS-STEPS version, with one obvious correction (the comma after \"Since\" out); the old step 5 and 6 text and the \"Don't force fluids, food, pills, or charcoal\" sentence out, his change (review/r48/apply_r48.py)",
+   "joel": "2026-11-21 15:57 UTC: his round-48 export (articles/bad-trips/review/r48/ANSWERS-R48-20261121-1557.json), card TEACH-SS-STEPS: \"now i fixed the last part, it was redundant and also i think not giving the correct medical advice, now all human high\"",
+   "applied_by": "review/r48/apply_r48.py",
+   "must_contain_exact": [
+    "5. Since they're already overstimulated, it helps to clear out the crowd and stop any arguing.",
+    "the problem is that creates more body heat, and it raises the risk of their muscles breaking down into the blood, which hurts the kidneys (rhabdomyolysis).",
+    "I'd have them do some fidgeting (especially of the calf muscle, flexing the feet), which can soothe that urge without the over-activity risk.",
+    "6. Overstimulating also dehydrates them, but we can't give fluids unless they're fully alert, able to swallow and not vomiting, and then just small sips of an electrolyte drink (a hypertonic one, more concentrated than an ordinary one, may be required if they still have symptoms of lack of electrolytes)."
+   ],
+   "must_not_contain": [
+    "Keep stimulation low and prevent exertion.",
+    "Hydrate only when fully alert and not vomiting.",
+    "Don't force fluids, food, pills, or charcoal",
+    "Since, they're"
+   ]
+  },
+  {
+   "id": "r48-headings",
+   "status": "applied",
+   "what": "his answers to R47-1 and R47-2: the coffee cherry heading \"Coffee Cherry, Brain Too\" (its link kept on \"Coffee Cherry\") and \"Who to Contact\"; the section links catalog renamed with them",
+   "joel": "2026-11-21 15:57 UTC: \"r47-1a / r47-2a\"",
+   "applied_by": "review/r48/apply_r48.py",
+   "must_contain_exact": [
+    "### [Coffee Cherry](http://coffeecherry.u-dont-exist.com/), Brain Too",
+    "## Who to Contact"
+   ],
+   "must_not_contain": [
+    "(Coffee Cherry for Brain also)",
+    "Who to Contact, and When"
    ]
   }
  ]
