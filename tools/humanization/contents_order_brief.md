@@ -124,8 +124,34 @@ in the blind sort they were unsure about 14 of the 20 sections he moved, but als
 doubt came without his answer. Second homes didn't help either (lesson inner-child-2026-11-21c): in runs 5 and 5b, 84
 and 94 unsure sections had a second home, with fewer of his moves among them than chance would give. And the guide's own
 words alone are too thin a frame where most parts have none: the readers scatter sections more than with a model's
-description of each part. Not yet tried: a model's description only for the parts the guide describes in its own words,
-and his words for the ones it doesn't (run 6 in that experiment's PLAN.md, if he wants it).
+description of each part.
+
+**The frame, since 2026-11-21 (run 6; lesson inner-child-2026-11-21e):** a model's description for each part and role the
+guide describes in its own words, and the author's words for each one it doesn't (from the opening, any overview, and
+his answers to the questions above), with his answers on how he sorts things
+(`articles/inner-child-therapy/experiments/t133-order/make_frame6.py`). On the inner child guide it found as many of his
+moves at high confidence as the best earlier frame (3 of 20), with about half the wrong ones (5 against 9) and twice his
+level changes (6 against 3), and it put 4 of the 5 divine-love sections on the Guide's side
+(`articles/inner-child-therapy/experiments/t133-order/RESULTS-6.md`). It still misses most of his moves: the sort is a
+proposal, put to him move by move.
+
+## After the sort: help the readers find their way (lesson inner-child-2026-11-21d)
+
+Joel, 2026-11-21 13:07 UTC: "in that approach you should recommend how to improve the guide so the real readers will
+also know where they would look for the sections". The gaps that mislead a model mislead a reader too, so the approach
+ends with recommendations to the author, each a proposal with its evidence:
+
+1. A line or two under each part and role with no text of its own (`tools/humanization/undefined_parts.py` lists them),
+   drafted from the author's own words, with those words given beside it. One "how this guide is laid out" paragraph near
+   the top can do the same job for a first-time reader.
+2. A pointer, with a link, at each place where most readings of the sort would look for a section under another part or
+   another role than the one it is in. A neighbouring heading inside the same part needs none: the sidebar shows them
+   together.
+3. After he picks, the contents test with fresh readers and real situations ("where would you look first?") runs again
+   on the new contents, to see whether the lines and pointers changed where readers look.
+
+The inner child guide's: `articles/inner-child-therapy/experiments/t139-readers/RECOMMENDATIONS.md`, made by
+`where_readers_look.py` and `recommend.py` there.
 
 ## 3. Order inside each part
 

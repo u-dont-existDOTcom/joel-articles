@@ -1,6 +1,6 @@
 # Inner Child article: questions for Joel
 
-Last updated 2026-11-21 (turn 138). One open question: 117. Questions 111 to 116 are answered. The to-do entries below date from turn 115 (26 October) and weren't rechecked this turn, except pull request #255, which you merged on 3 November. To answer a question, reply in chat with its number and a letter, like `111: A`, or in your own words.
+Last updated 2026-11-21 (turn 139). No open questions: 111 to 117 are answered. The to-do entries below date from turn 115 (26 October) and weren't rechecked this turn, except pull request #255, which you merged on 3 November. To answer a question, reply in chat with its number and a letter, like `111: A`, or in your own words.
 
 🟣 a question for you · 🟠 for you to do · 🔵 next or in progress · 🟢 done or decided
 
@@ -8,7 +8,7 @@ The published page, a view of this file rebuilt after every change ([questions_p
 
 ## Open questions
 
-### 🟣 117. Do away with Healing Old Patterns? (turn 138)
+### 🟢 117. Do away with Healing Old Patterns? (turn 138)
 
 What's left in it is Re-do Trauma Memories (with Discipline Done Right?) and Answer the Disciplinarian, about 970 words.
 
@@ -17,6 +17,8 @@ What's left in it is Re-do Trauma Memories (with Discipline Done Right?) and Ans
 - **C**: keep Healing Old Patterns, for GPT's reason: the core role sections stay shorter.
 
 The Guide would grow from about 3,100 words to 3,900 (A) or 4,050 (B), and the Protector from 1,200 to 1,350 (A). Every new heading fits whole in the sidebar at those levels. Nothing links to Healing Old Patterns itself, and the moved sections keep their anchors. Answer A, B or C, or in your own words.
+
+Answered 2026-11-21 13:07 UTC: A ("yes, implement your suggestions for the moves"). The moves aren't in the post yet: this session couldn't open your post's editor (a safety check blocked it), so the steps went to you in chat; see "For you to do" below. Of five card-sort readings of Answer the Disciplinarian, 2 put it beside The Parent You Inherited, as A does, and 3 beside Discipline Done Right?; the [recommendations for readers](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/inner-child-therapy/experiments/t139-readers/RECOMMENDATIONS.md) add a pointer from there.
 
 ### 🟢 116. What is Healing Old Patterns for? (turn 137)
 
@@ -80,6 +82,10 @@ My pick is A, or C if you've changed some on the page. I'm sure renaming helps r
 Nothing goes into your post until you say so. When it does, the words in the text that name a renamed heading change with it (four of them already point to the wrong place in the live post).
 
 ## For you to do (no decision needed)
+
+### 🟠 The moves of question 117 in the post (turn 139)
+
+This session couldn't open your post's editor, so the moves are yours to make, or tell me to try again. In the Substack editor: delete the Healing Old Patterns heading and the divider just above it; cut Re-do Trauma Memories through the end of Discipline Done Right? and paste it after You Did It Well Before (before Healthy Mind, Not Perfect), as Heading 3 and Heading 4; cut Answer the Disciplinarian and its text (not the divider after it) and paste it after Reframe the Critic (before Earning trust, day to day), as Heading 3; fix "Healther" in Borrow Hindsight's link if it's still there; update the post with email off. Once they're in, I update the section catalog.
 
 > [!WARNING]
 > Comes back every turn. My merges are refused by the safety check, so it stays yours.
