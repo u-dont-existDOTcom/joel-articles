@@ -2288,6 +2288,41 @@
     }
    ],
    "recorded_utc": "2026-11-20T23:50Z"
+  },
+  {
+   "turn": "2026-11-21T01:06Z",
+   "lines_of_work": [
+    "bad trips guide"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "live default branch 3d79cc8 (unchanged; read-only clone, re-fetched); suggested-fixes lane: six items, all in the ledger"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "this lane's pull request 464 merged at 00:04 UTC; no other pull requests since; no new issues, comments or reviews"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no edits by others to this lane's handoff note, questions page or state since 464"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "no queued notifications; his message of 01:06 UTC: continue, and make sure the headings fit the contents (ToC) as the inner child lane worked out for that guide"
+    }
+   ],
+   "items": [
+    {
+     "item": "his message of 01:06 UTC",
+     "outcome": "this turn: the contents measured in the sidebar (46 of 62 headings cut); Fable's names from the headings brief, read by fresh readers against 32 situations, my pick best (28 and 27 of 32 first picks right, against 23 and 24); round 47 out, a pick per heading; his evidence tags placed under the remedy headings, since in a heading they would be cut; the tags go in with his picks"
+    }
+   ],
+   "recorded_utc": "2026-11-21T01:07Z"
   }
  ]
 }
