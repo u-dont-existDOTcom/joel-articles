@@ -167,3 +167,38 @@ Combine what each frame did well: a model's description only for the parts and r
 its own words (run 4 kept those sections steadier), and his words for the ones it doesn't: the Nurturer (questions 114
 and 115, with "This is what the Inner Guide can bring you to"), Healing Old Patterns (116), and the five other parts
 with no text of their own, asked first. The prediction would be written here before it runs.
+
+## Run 6: run 4's frame with his words where the guide has none (written before it ran)
+
+Joel, 2026-11-21 13:07 UTC: "yes, implement your suggestions for the moves and the better combined model approach and
+then also in that approach you should recommend how to improve the guide so the real readers will also know where they
+would look for the sections".
+
+Run 6 is run 4 with two changes (`out/FRAME-6.json`, made by `make_frame6.py`; `input/TASK-CARDS-6.md`). For the parts
+and roles the 4 November text describes in its own words (Understanding Reparenting, Bringing Reparenting Into Real Life,
+the Protector, the Guide), the frame keeps run 4's model description, which kept the readers steady. For the ones with no
+text of their own, the model's description, which was read off what sat under them, gives way to his words: the Nurturer
+(his answers to 114 and 115 and his line "This is what the Inner Guide can bring you to"), Healing Old Patterns (116), and
+for the other five parts the lines of the opening and the five stages that ASKED.md found answer them, or only the name.
+His view grows from 114 alone to 114, 115 (1), the rule of 115 (3), 116 and the Inner Guide line. Same batches, readers
+(Sonnet), second homes and assembly (`assemble5.py 6`).
+
+Predictions: the spiritual sections go to the Guide's side (3 or more of 5); shame and forgiveness under the Nurturer.
+At high confidence, 4 or more of his 20 moves with 10 or fewer others and tau at or above 0.943 (run 4: 3, 9, 0.943); at
+high or medium, 7 or more of his moves with 25 or fewer others (run 4: 5 and 24; run 5b: 7 and 31). If it beats run 4 on
+his moves without more other moves, it becomes the brief's method.
+
+Then the readers' first homes become the recommendations for real readers: where a reader of the cards would file a
+section somewhere other than where he put it, a real reader may look for it there too, so that place gets a pointer to
+it, or the part a line saying what it holds.
+
+## Run 6 result
+
+RESULTS-6.md: at high confidence, 3 of his 20 moves (as run 4) with 5 others (run 4: 9), 6 of his 15 level changes (run
+4: 3) with 6 others (run 4: 15), tau 0.933 (run 4: 0.943) and 94 sections in his place (run 4: 91). At high or medium,
+5 of his moves with 28 others: the prediction of 7 or more with 25 or fewer failed, and so did 4 or more at high
+confidence with tau at or above 0.943. The spiritual sections held: 4 of 5 on the Guide's side. So the combined frame
+finds no more of his moves than run 4, but makes about half the wrong ones and twice his level changes. By the rule
+written above it doesn't qualify: it ties run 4 on his moves instead of beating it. It becomes the brief's method all
+the same, on his word of 13:07 UTC ("implement [...] the better combined model approach"): it removes the cause found in
+turn 136, and it halves the moves he would have to turn down. The rule's failure stays recorded here.

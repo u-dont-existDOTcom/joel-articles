@@ -1,0 +1,110 @@
+{
+ "about": "What each part and role of the guide is for. Where the guide describes a part or role in its own words, \"job\" or \"work\" is a reader's summary of it. Where it doesn't, \"his_words\" are the author's own words about it (empty: only its name). \"joel_view\" is how the author sorts things.",
+ "parts": [
+  {
+   "id": "N001",
+   "heading": "Understanding Reparenting",
+   "job": "Orients a new reader: what reparenting is, why it is hard to begin, how the path usually unfolds, and why the author trusts it. Anything that explains the idea, its logic or its stages, or builds motivation and credibility before the reader tries it, serves this part."
+  },
+  {
+   "id": "N005",
+   "heading": "Safety and Readiness",
+   "his_words": [
+    "Five Stages: \"make sure there's enough safety around you to continue with reparenting\"",
+    "his rule (2026-11-20 23:22 UTC): \"A problem goes where the reader meets it.\""
+   ]
+  },
+  {
+   "id": "N015",
+   "heading": "Building Your Inner Adult",
+   "his_words": [
+    "the opening: \"Reparenting means consciously evolving and molding a better Inner Adult inside you, comprising a loving Nurturer, a safe Adult Protector (hereafter just the Protector) and a wise Guide.\"",
+    "Five Stages: \"Begin to borrow adulthood\""
+   ]
+  },
+  {
+   "id": "N052",
+   "heading": "Practicing With Your Little One",
+   "his_words": [
+    "Five Stages: \"Practice being the adult--do at least one part of caring for yourself while support is still there from the previous step.\"",
+    "Five Stages: \"saying the right thing when you sit down with your little one helps\""
+   ]
+  },
+  {
+   "id": "N067",
+   "heading": "Discovering and Healing Old Patterns",
+   "his_words": [
+    "his answer to question 116 (2026-11-21 01:47 UTC): \"yes all 3 roles are for healing old patterns, that's true. this section is basically where we have decided to put techniques that don't seem to fit cleanly into just one role\"",
+    "his answer to question 114: \"healing old patterns is just a catch all category which is not important enough to deal with such a primary obstacle\""
+   ]
+  },
+  {
+   "id": "N076",
+   "heading": "When the Practice Gets Difficult",
+   "his_words": [
+    "the opening: \"At first, it's deliberate and might feel difficult. Many struggle to get past the silly, awkward feeling of it.\""
+   ]
+  },
+  {
+   "id": "N090",
+   "heading": "Altered States and Intensive Practice",
+   "his_words": [
+    "its first section, Altered States Can Deepen Therapy or Escapism: \"Why not just blast right past that guard part, with [intensive meditation](https://goenka.u-dont-exist.com) or psychedelics? Sometimes that can help tremendously, but both can get you past the guards before there's a grown-up big enough to hold whatever comes through, so I'd hold off until there's enough Nurturer and Protector around.\""
+   ]
+  },
+  {
+   "id": "N105",
+   "heading": "Bringing Reparenting Into Real Life",
+   "job": "Carries the inner work out into living and relationships: play and preferences, keeping one's own ground among others, finding and trusting people, speaking up and handling conflict, grief and life transitions, and getting outside help. Anything about practicing with and among real people and a real life, rather than inside oneself, serves this part."
+  },
+  {
+   "id": "N141",
+   "heading": "Conclusion and Appendix",
+   "his_words": []
+  }
+ ],
+ "roles": [
+  {
+   "id": "N021",
+   "name": "Protecting and Building Trust With Your Little One",
+   "work": "The Protector's work: keeping the child safe from harm, whether from outside people, from the reader's own self-attacks or from inherited harsh inner voices, and showing through small, dependable acts of care that the child can rely on the adult. It matters most when warmth is still missing, because it starts the bond with actions and not with feeling. Any passage about defending, setting boundaries for, or earning the trust of the child is this role's work."
+  },
+  {
+   "id": "N028",
+   "name": "The Nurturer",
+   "his_words": [
+    "the opening: \"a loving Nurturer\"",
+    "his answer to question 114: \"when you have shame or you need forgiveness, it is someone who feeling like a nurturer that you go to for that [...] love accepts. protection blocks. guide directs. shame and forgiveness need acceptance.\"",
+    "his answer to question 115: \"the nurturer doesn't give divine love, they give the love of the nurturer [...] divine love is beyond taking care of someone, or hugging them, or being with them or listening to them. it's infinite, it's unspeakable...\"",
+    "his line on divine love in his guide: \"This is what the Inner Guide can bring you to\""
+   ]
+  },
+  {
+   "id": "N045",
+   "name": "The Inner Guide: Becoming Your Own Shepherd",
+   "work": "The Guide's work: wisdom, teaching and direction. It chooses what the child learns and experiences, holds standards without harshness, and gives perspective and a healthy sense of timing, limits and imperfection. It can start from borrowed wisdom or hindsight. Any passage about judgment, discipline, learning, guidance or balancing indulgence with firmness is this role's work."
+  }
+ ],
+ "joel_view": [
+  {
+   "source": "Joel, 2026-11-20 23:03 UTC, his answer to question 114 (verbatim)",
+   "text": "shame and forgiveness are the role of the nurturer because when you have shame or you need forgiveness, it is someone who feeling like a nurturer that you go to for that. you don't go to a policew officer (protector) for help with those. you might go to a Guru, but only if they also embody the nurturing love role... love accepts. protection blocks. guide directs. shame and forgiveness need acceptance. idk it seems pretty obvious. i think it was put itno healing old patterns because GPT didn't understand this is a core function of the nurturer. but healing old patterns is just a catch all category which is not important enough to deal with such a primary obstacle. a practice is something that could be done by any of the roles, or that is not primary to a role and the role primary to it. so for example mantra practice, that's primary to the Guide, so it could go under the Guide, but the Guide does not need to give a mantra practice to be a good guide, so it doesn't need to go there if it fits better somewhere else, and i think it did fit somewhere else , yeah, in the section on what to do with a passing feeling. so part of reorganizing is where the flow lands. if the thing must go under a role then it goes there, but if it's optional there and the flow would have it come elsewhere then it would prob go elsewhere."
+  },
+  {
+   "source": "Joel, 2026-11-20 23:22 UTC, on divine love and the Nurturer (verbatim)",
+   "text": "the nurturer doesn't give divine love, they give the love of the nurturer, it's explained i think in the article is it not? divine love is beyond taking care of someone, or hugging them, or being with them or listening to them. it's infinite, it's unspeakable..."
+  },
+  {
+   "source": "Joel, 2026-11-20 23:22 UTC, agreeing to this rule",
+   "text": "A problem goes where the reader meets it."
+  },
+  {
+   "source": "Joel, 2026-11-21 01:47 UTC, on what the part \"Discovering and Healing Old Patterns\" is for (verbatim)",
+   "text": "yes all 3 roles are for healing old patterns, that's true. this section is basically where we have decided to put techniques that don't seem to fit cleanly into just one role"
+  },
+  {
+   "source": "Joel, in his guide after his reorganization: the text under the heading \"Divine Love: Bigger Door\", verbatim, without its last clause, which says where a section sits",
+   "text": "This is what the Inner Guide can bring you to"
+  }
+ ]
+}

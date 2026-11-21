@@ -3,7 +3,8 @@
 words and his framework answers (questions 114 to 116) as its frame, scored, with each card's second home.
 
   python3 assemble5.py       # out/OUTLINE5-*.json and RESULTS-5.md
-  python3 assemble5.py 5b    # run 5b, with his line on where divine love leads: out/OUTLINE5B-*.json and RESULTS-5B.md"""
+  python3 assemble5.py 5b    # run 5b, with his line on where divine love leads: out/OUTLINE5B-*.json and RESULTS-5B.md
+  python3 assemble5.py 6     # run 6, run 4's frame with his words where the guide has none: OUTLINE6-*, RESULTS-6.md"""
 import collections
 import json
 import pathlib
@@ -35,7 +36,7 @@ def row(label, outline, moved=None):
 
 
 RUN = (sys.argv[1] if len(sys.argv) > 1 else '5').upper()
-TAG = {'5': '5', '5B': '5B'}[RUN]
+TAG = {'5': '5', '5B': '5B', '6': '6'}[RUN]
 SPIRITUAL = ['N035', 'N038', 'N040', 'N043', 'N044']
 GH = 'https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/inner-child-therapy/experiments/t133-order/'
 
@@ -69,6 +70,13 @@ def main():
                'before the run). The frame, made by [make_frame5.py](%smake_frame5.py), is the 4 November text\'s own '
                'words for each part and role, and his answers to questions 114, 115 and 116; no model described any '
                'part.' % (GH, GH, GH))
+    elif TAG == '6':
+        title = '# Turn 139, run 6: run 4\'s frame with his own words where the guide has none'
+        how = ('Made by [assemble5.py](%sassemble5.py) with "6" (method and predictions: [the plan](%sPLAN.md), "Run 6", '
+               'written before the run). The frame, made by [make_frame6.py](%smake_frame6.py), keeps run 4\'s model '
+               'description for the parts and roles the 4 November text describes in its own words, and puts his words '
+               'in place of the others; his view is his answers to 114, 115 and 116 and his line "This is what the Inner '
+               'Guide can bring you to".' % (GH, GH, GH))
     else:
         title = '# Turn 138, run 5b: run 5 with his line on where divine love leads'
         how = ('Made by [assemble5.py](%sassemble5.py) with "5b" (method and predictions: [the plan](%sPLAN.md), '
@@ -83,6 +91,10 @@ def main():
     for lv in ('high', 'medium'):
         o = json.load(open(HERE / 'out' / ('OUTLINE4-%s.json' % lv)))
         L.append(row('Run 4: frame written by a model, with his answer to 114 (%s)' % ('high' if lv == 'high' else 'high or medium'), o)[1])
+    if TAG == '6':
+        for lv in ('high', 'medium'):
+            o = json.load(open(HERE / 'out' / ('OUTLINE5B-%s.json' % lv)))
+            L.append(row('Run 5b: the guide\'s words, his answers and his divine-love line (%s)' % ('high' if lv == 'high' else 'high or medium'), o)[1])
     if TAG == '5B':
         for lv in ('high', 'medium'):
             o = json.load(open(HERE / 'out' / ('OUTLINE5-%s.json' % lv)))
