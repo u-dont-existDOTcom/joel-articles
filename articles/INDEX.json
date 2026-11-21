@@ -8009,7 +8009,7 @@
         },
         {
           "path": "articles/inner-child-therapy/OWNER-QUESTIONS.md",
-          "sha256": "e45815758601a9257636ce2f66fe2640173801c390932363a2c23809ddaf1e6c",
+          "sha256": "2f84f784af78d489f0af5bb6a18e2faa1398de6ce7f95779f97497c1f3a7500b",
           "role": "owner_questions_page"
         },
         {
@@ -37016,6 +37016,16 @@
           "path": "articles/inner-child-therapy/experiments/t133-order/RESULTS-4-NAMED.md",
           "sha256": "6b209d48797539b75bf59f23b80a445e125e8d41b209a190dc16b9a8b7d60ae8",
           "role": "detector_experiment_result"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t133-answers/JOEL-20261121-0108.md",
+          "sha256": "47f539b6265f492534f947764733967c8be98a510babf4d46c047f2439e3df00",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/experiments/t137-questions/ASKED.md",
+          "sha256": "58b902ba75ae5ce2e54fc91433bc149f5d949c7479e2bc346610f5ee58ea21a3",
+          "role": "humanization_working_record"
         }
       ]
     },

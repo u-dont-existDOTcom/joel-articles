@@ -12,9 +12,14 @@ Code counts the words; whether a short text says what its part is for is a reade
 
   python3 tools/humanization/undefined_parts.py GUIDE.md [--min-words 40]
   python3 tools/humanization/undefined_parts.py master.html
+  python3 tools/humanization/undefined_parts.py LIVE-POST.json --substack-json
+
+Before a question goes to the author, look for its answer in the guide and in what he has already said, and send only
+the ones left (Joel, 2026-11-21 01:08 UTC: "send me any qeustions that you can't find answered in the article").
 """
 import argparse
 import html.parser
+import json
 import re
 import sys
 
@@ -38,34 +43,51 @@ def from_markdown(text):
     return out
 
 
-class _HTML(html.parser.HTMLParser):
-    SKIP = {'script', 'style'}
+VOID = {'area', 'base', 'br', 'col', 'embed', 'hr', 'img', 'input', 'link', 'meta', 'source', 'track', 'wbr'}
+# Not the author's own words about a part: captions, pull quotes (a repeat of his text), buttons, embeds, and
+# Substack's subscribe and share widgets.
+SKIP_TAGS = {'script', 'style', 'button', 'figure', 'figcaption', 'iframe', 'svg', 'form'}
+SKIP_CLASSES = ('captioned-image', 'image-gallery', 'pullquote', 'subscription-widget', 'subscribe-widget',
+                'button-wrapper', 'youtube', 'video-embed', 'audio-embed', 'instagram', 'tweet', 'embedded-post',
+                'digest-post-embed', 'callout-block')
 
+
+class _HTML(html.parser.HTMLParser):
     def __init__(self):
         super().__init__(convert_charrefs=True)
-        self.out, self.in_heading, self.skip = [], False, 0
+        self.out, self.in_heading, self.stack = [], False, []
+
+    def _skipping(self):
+        return any(t in SKIP_TAGS or any(k in c for k in SKIP_CLASSES) for t, c in self.stack)
 
     def handle_starttag(self, tag, attrs):
-        if tag in self.SKIP:
-            self.skip += 1
-        elif HTML_HEADING.fullmatch(tag):
+        if tag in VOID:
+            if tag == 'br' and self.out and not self._skipping():
+                self.out[-1]['own'] += '\n'
+            return
+        self.stack.append((tag, dict(attrs).get('class') or ''))
+        if HTML_HEADING.fullmatch(tag):
             self.in_heading = True
             self.out.append({'level': int(tag[1]), 'heading': '', 'own': ''})
-        elif tag == 'br' and self.out:
-            self.out[-1]['own'] += '\n'
 
     def handle_endtag(self, tag):
-        if tag in self.SKIP:
-            self.skip = max(0, self.skip - 1)
-        elif HTML_HEADING.fullmatch(tag):
+        if tag in VOID:
+            return
+        while self.stack:
+            if self.stack.pop()[0] == tag:
+                break
+        if HTML_HEADING.fullmatch(tag):
             self.in_heading = False
-        elif tag in BLOCK_END and self.out:
+        elif tag in BLOCK_END and self.out and not self._skipping():
             self.out[-1]['own'] += '\n'
 
     def handle_data(self, data):
-        if self.skip or not self.out:
+        if not self.out:
             return
-        self.out[-1]['heading' if self.in_heading else 'own'] += data
+        if self.in_heading:
+            self.out[-1]['heading'] += data
+        elif not self._skipping():
+            self.out[-1]['own'] += data
 
 
 def from_html(text):
@@ -108,12 +130,19 @@ def report(found, total, min_words):
 
 def main(argv=None):
     ap = argparse.ArgumentParser(description=__doc__.split('\n\n')[0])
-    ap.add_argument('path', help='the guide, as Markdown or HTML (by its extension, or --html)')
+    ap.add_argument('path', help='the guide, as Markdown or HTML (by its extension, or --html), or a post as Substack '
+                                 'API JSON (--substack-json)')
     ap.add_argument('--min-words', type=int, default=40)
     ap.add_argument('--html', action='store_true')
+    ap.add_argument('--substack-json', action='store_true', help="read the post's body_html from Substack's API answer")
     a = ap.parse_args(argv)
     text = open(a.path, encoding='utf-8').read()
-    secs = from_html(text) if (a.html or a.path.lower().endswith(('.html', '.htm'))) else from_markdown(text)
+    if a.substack_json:
+        secs = from_html(json.loads(text)['body_html'])
+    elif a.html or a.path.lower().endswith(('.html', '.htm')):
+        secs = from_html(text)
+    else:
+        secs = from_markdown(text)
     print('\n'.join(report(undefined(secs, a.min_words), len(secs), a.min_words)))
     return 0
 

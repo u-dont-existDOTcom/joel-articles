@@ -89,6 +89,15 @@ to understand the diff?" It wasn't: the text says it, and GPT, with no frame, pu
 under the Guide in turn 132. The list points to questions, not to sections: his moved sections sat under such headings
 no more often than all the others did (`articles/inner-child-therapy/experiments/t133-order/DOUBT.md`).
 
+**Send only what the guide and his answers leave open (lesson inner-child-2026-11-21a; Joel, 2026-11-21 01:08 UTC: "send
+me any qeustions that you can't find answered in the article").** Look for each answer first: in the opening, any
+overview of stages or parts, each part's first section, the names themselves, and what he has already answered. Keep a
+table of where each is answered beside the questions, and send the rest. Of the 11 parts and roles his reorganized inner
+child guide gives no text of their own, 10 were answered that way and one question went to him
+(`articles/inner-child-therapy/experiments/t137-questions/ASKED.md`). When the sort will be scored against an outline of
+his, ask only what a reader of the guide could ask without that outline, never about where he moved something, or the
+score measures his answers and not the method.
+
 The questions:
 
 1. For each role (or figure, tool or stage the guide is built on): what belongs to it that a reader might not guess, and
