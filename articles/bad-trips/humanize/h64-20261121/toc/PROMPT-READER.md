@@ -15,4 +15,8 @@ one line per situation and nothing else, in this form:
   situation number | line number you'd open first | sure or guess | line number you'd try next
 for example:
   1 | 12 | sure | 14
-Then reply with: done, and the three headings that were hardest to understand, as the sidebar shows them, with why.
+After the answers, add one line for each of the three headings that were hardest to understand, in this form:
+  HARD: line number | why
+Look too for two headings in a row, or a heading and the one it sits under, that say or ask the same thing: mark each
+such pair with a HARD line for the second of the two.
+Then reply with: done.

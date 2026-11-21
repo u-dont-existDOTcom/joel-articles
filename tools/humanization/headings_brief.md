@@ -67,6 +67,28 @@ misses below before it goes to him.
    and fix any that leaned on the old heading's words. Text that names the section by its old heading gets the new
    name, and a link to the section (`tools/humanization/section_links.py`).
 
+11. **Never say or ask the same thing twice in a row** (lesson bad-trips-2026-11-21a; Joel, 2026-11-21 13:04 UTC: "why
+   would you put 2 serotonin syndrome headings in a row"). Read the contents as the sidebar lists it: a parent's own text
+   doesn't show there, so a heading and the first heading under it sit on two lines in a row. The parent names the topic
+   once, and each child names its own part of it: "Serotonin Syndrome (SS)?", then "How to Recognize It" and "What to Do
+   Right Away", not "Is It Serotonin Toxicity?" under it. The same holds for any two headings in a row ("Who to Contact"
+   under "When to Get Outside Help", not "Who to Contact, and When"). A child needn't repeat its parent's word ("What Else
+   Helps" under "Active Seizure"), but it must still say what it holds without it: "Some Need More Caution" under the
+   remedies said nothing of what needs it.
+
+## Before the contents goes to him
+
+- Every reader of a contents writes its hardest headings into its read file ("HARD: line number | why"), and marks any
+  heading that says or asks the same thing as the one before it or its parent.
+- `python3 tools/humanization/toc_check.py CONTENTS.json --reads DIR --name NAME --fates FATES.json` lists every heading
+  that shares a content word with its parent or the heading before it, and every heading the readers marked HARD, and
+  fails until each has a fate: "changed: ..." or "kept: why it stays" (lesson bad-trips-2026-11-21b: both readers of round
+  47's pick had said the two serotonin headings read as one, in the chat, and the page went out with them).
+- A changed heading is read again by fresh readers before the page goes out (gate inner-child-2026-11-17a).
+- A page that saves his picks declares its database before it goes out, sends what he saved in his browser when he
+  opens it, and saves the headings themselves, not only which column he clicked (lesson bad-trips-2026-11-21c): the
+  round-47 page didn't, so his "done" reached nothing that could be read.
+
 ## Where all three writers missed his pick, and why (his answers of 2026-11-20 21:49 UTC)
 
 Each of these got "different" for all three writers in turn 132. He said why, and rules 3, 5 and 8 now say it. Before

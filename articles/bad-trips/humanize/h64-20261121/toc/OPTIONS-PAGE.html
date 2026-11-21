@@ -134,11 +134,14 @@ function drawItems(){
   });
   document.getElementById('items').innerHTML = h;
 }
-function save(){
+// lesson bad-trips-2026-11-21c: what is saved says the headings themselves, not only which column was picked,
+// so the answer still reads right if the columns change later
+function resolvedOut(){ return {page: STORE_KEY, headings: Object.fromEntries(D.now.map(e => [e.id, choice(e.id)])), levels: Object.fromEntries(D.now.filter(e => levelOf(e.id) !== e.level).map(e => [e.id, levelOf(e.id)])), added: D.added.filter(addedOn).map(a => ({id: a.id, after: a.after, level: a.level, heading: a.heading}))}; }
+function save(msg){
   try { localStorage.setItem(STORE_KEY, JSON.stringify(ans)); } catch (e) {}
   const s = document.getElementById('saved');
-  if (doc) { doc.set(Object.assign({updated: new Date().toISOString()}, ans)).then(() => s.textContent = 'Saved').catch(() => s.textContent = 'Saved in this browser only'); }
-  else s.textContent = 'Saved in this browser';
+  if (doc) { doc.set(Object.assign({updated: new Date().toISOString()}, ans, resolvedOut())).then(() => s.textContent = msg || 'Saved').catch(() => s.textContent = 'Saved in this browser only: use "Copy my answers" and paste them into the chat'); }
+  else s.textContent = 'Saved in this browser only: use "Copy my answers" and paste them into the chat';
 }
 document.addEventListener('change', ev => {
   const t = ev.target;
@@ -176,6 +179,8 @@ if (document.fonts && document.fonts.ready) document.fonts.ready.then(draw);
     const snap = await doc.get(); clearTimeout(timer);
     const v = snap && (snap.data ? snap.data() : snap);
     if (v && v.picks) { ans = Object.assign(ans, {picks: v.picks, own: v.own || {}, comment: v.comment || ''}); document.getElementById('comment').value = ans.comment; draw(); document.getElementById('saved').textContent = 'Your answers are back'; }
+    // lesson bad-trips-2026-11-21c: picks saved only in this browser (before the page had its database) are sent as the page opens
+    else if (Object.keys(ans.picks).length || Object.keys(ans.own).length || ans.comment) { save('Your picks from this browser are sent'); }
   } catch (e) { doc = null; }
 })();
 </script></body></html>

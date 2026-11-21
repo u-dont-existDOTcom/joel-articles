@@ -24,6 +24,61 @@ The inner child lane measured the sidebar in his post (gate inner-child-2026-11-
 - "Hang Up" (Fable's "Trip After Trip? Hang Up") read as a phone call to both of its readers: my pick is his "Trip After Trip?".
 - Still weak in every version: ZHoly3O (no reader knew what it is), and "My Acute Rescue Remedies" next to "Medical and Brain Rescue" (two parents with "Rescue").
 
+## The two serotonin headings in a row (his answer, 2026-11-21 13:04 UTC)
+
+His message: "done. learn lessons. why would you put 2 serotonin syndrome headings in a row / continue".
+
+**Why it happened.** Fable named each heading to read on its own, so it turned his "Suspected Serotonin Syndrome (SS)" into "Serotonin Syndrome (SS)?" and his "Recognizing serotonin toxicity", the heading right under it, into "Is It Serotonin Toxicity?": the same question twice. My pick took both from Fable. Nothing compared a heading with the one it sits under or the one before it; the readers were only asked where they would look, and their scores came out fine, because a reader who opens either heading lands in the right place. When readers mentioned the pair in their replies, I didn't act on it.
+
+**What changed** (lessons bad-trips-2026-11-21a to c, [the lesson file](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/docs/lessons/2026-11-21-1304-bad-trips.md)):
+
+- [The headings brief](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/tools/humanization/headings_brief.md) has rule 11: no two headings in a row say or ask the same thing; a parent names the topic and its children name their parts.
+- [toc_check.py](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/tools/humanization/toc_check.py) lists every heading that shares a word with the one it sits under or the one before it, and every heading a reader marked hard, and fails until each one is changed or kept with the reason it stays.
+- Readers now end with a "HARD:" line for each of the three hardest headings and for each pair that says the same thing, and a changed heading is read again by fresh readers before it goes to him.
+- His round 47 picks never reached me: the page had no database when he answered, so they were kept only in the browser he used. The page now sends them when it opens there, and it saves the headings themselves, not only which column he clicked, so they still read right if the columns change.
+
+**The picks read after his answer.** Each one was read by two fresh readers; the serotonin pair went in the second.
+
+| Contents | What changed from the one before | First pick right (of 32) | Guesses | Right by the 2nd pick |
+|---|---|---|---|---|
+| My pick (on the page he answered) | as on the page | 28, 27 | 8, 10 | 29, 31 |
+| Second | "Medical and Brain Rescue" → "Medical Emergencies"; "Seizure: What Else Helps" → "What Else Helps"; "MDMA: Magnesium Alarm" → "MDMA: Jaw and Water"; "Is It Serotonin Toxicity?" → "How to Recognize It"; "Do This Immediately" → "What to Do Right Away"; "Remedies Needing Caution" → "Some Need More Caution"; "Gut-Toxin & Die-Off Tools" → "Toxic Gut or Die-Off?"; "Creatine for Brain & Bliss" → "Creatine Is Blissful" | 27, 27 | 4, 8 | 31, 30 |
+| Third | "If Someone Might Get Hurt" → "If Support Isn't Enough"; "Who to Contact, and When" → "Who to Contact"; "My Acute Rescue Remedies" → "Remedies for a Hard Trip"; "Some Need More Caution" → "Which Need Caution?"; "Feeling Good Forever?" → "Bliss Can Be a Bypass Too" | 24, 25 | 7, 7 | 29, 29 |
+| Fourth | "If Support Isn't Enough" → "If Someone Might Get Hurt"; "Which Need Caution?" → "Remedies Needing Caution" | 27, 27 | 6, 5 | 30, 31 |
+| Fifth | "Medical Emergencies" → "Medical First Aid"; "What Else Helps" → "Beyond Rescue Medicine" | 27, 26 | 4, 6 | 30, 30 |
+| Sixth | "Beyond Rescue Medicine" → "What Else May Help" | 27, 27 | 4, 8 | 29, 30 |
+
+The serotonin part in the sixth: "Serotonin Syndrome (SS)?", then "How to Recognize It" and "What to Do Right Away" under it.
+
+**Every heading the check or a reader flagged in the sixth pick, and its fate:**
+
+| Heading | Why it was flagged | Fate |
+|---|---|---|
+| Remedies Needing Caution | shares a word with the heading above it or before it | kept: "Remedies" is the parent's topic word, but this names its own part, the ones not to use casually (humic acid eaten, cinnamon, acacia with mimosa); the shorter "Some Need More Caution" and "Which Need Caution?" told the readers of the second and third picks nothing |
+| Remedies Needing Caution | a reader marked it hard | kept: one reader of the fifth pick found it close to "Remedies for a Hard Trip" above it, but the parent is what to reach for and this is what to be careful with; no reader of the sixth pick flagged it |
+| Shungite, Charcoal Water | shares a word with the heading above it or before it | kept: it shares only "water" with "Ocean Water Calms" before it, and they are different remedies (his text compares the two) |
+| Shungite, Charcoal Water | a reader marked it hard | kept: it isn't "Activated Charcoal" (line 20): it is water left after charcoal, and his text says it is different from swallowing charcoal; shungite is the name a reader who uses it looks for, and the text says what each one is |
+| Need to Stop the Trip? | shares a word with the heading above it or before it | kept: "trip" is the guide's own word; the parent eases a hard trip, this one ends it |
+| Niacin: A Final Trip Killer | shares a word with the heading above it or before it | kept: "trip" is the guide's own word; Beach Morning Glory sits between it and its parent, and "Final" says what sets niacin apart, that it is the last thing to try |
+| Niacin: A Final Trip Killer | a reader marked it hard | kept: his own words, with the remedy's name first; "Final" says what the parent doesn't, that niacin is the last thing to try; for "I want this trip to stop right now" all four readers of the fifth and sixth picks opened its parent first, sure, and three of the four tried niacin next |
+| Shadow Thoughts | shares a word with the heading above it or before it | kept: five headings sit between it and its parent, and they are different things: shadow work is the practice, shadow thoughts are the dark thoughts that come up; his term |
+| Plan a Trip or Ceremony | shares a word with the heading above it or before it | kept: "trip" is the guide's own word; "Trip After Trip?" is about trips coming back again and again, this one is about planning one |
+| Zeolite and ZHoly3O | a reader marked it hard | kept: ZHoly3O is the name of his ferment, linked in the text; the round 47 page tells him both readers of Fable's list couldn't tell what it is, so it stays his call |
+| Metta NMT Sniffer: Chill! | a reader marked it hard | kept: the name of his own sniffer, which the text explains, with his playful "Chill!" for what it does |
+| Bliss Can Be a Bypass Too | a reader marked it hard | kept: it sits eleven headings below line 45, in another part, and says another thing: line 45 is what to do while a trip feels blissful, this one is chasing good feelings as a way around shadow work |
+| Inner Signal to the Rescue! | a reader marked it hard | kept: his to decide: four of the ten readers of the second to sixth picks couldn't tell what "Inner Signal to the Rescue!" is; with "App" it runs past the sidebar's room and is cut to "to the Resc…", and "Inner Signal App Can Help!" fits (190 of 217) and says it is an app, so it goes to him beside his pick |
+| If Someone Might Get Hurt | a reader marked it hard | kept: it tested best: both readers of the second pick found the friend who keeps walking out the door here, and the third pick's "If Support Isn't Enough" lost him for both; it sits beside "Call Medics For:" because both are reasons to call (harm here, the body there), and line 43 is for the helper, in another part |
+| What Else May Help | a reader marked it hard | kept: his own words; under "Active Seizure" they say it is more help for a seizure, and the aura is its first line; one of the two readers flagged it, against both for "Beyond Rescue Medicine", and "At the Aura and During It" would sound like the parent's own steps |
+| (Re)defining "Bad Trip" | a reader marked it hard | kept: his own heading, untouched and fitting; both readers still opened it second for "someone told me a bad trip is just shadow work" |
+| Spiritual ≠ "Ass-Kicking" | a reader marked it hard | kept: his own sign and his phrase, shortened to fit; both readers opened it first, and sure, for "someone told me a bad trip is just shadow work so I should push through it" |
+| Call Medics For: | a reader marked it hard | kept: his own words; the parent asks when to get outside help and this names one answer, medics, and what for (its siblings name the others: someone might get hurt, who to contact); both readers of the sixth pick opened it first or next in seven of the nine situations that need it |
+| Get Mental-Health Help If: | a reader marked it hard | kept: "Lingering Symptoms?" asks what this aftermath is, this one says when it needs a professional; both readers opened the two in that order for "it's been a week and nothing feels real" |
+| Helping? Anchor, Not Guru | a reader marked it hard | kept: "Get One Human Anchor" is for the one tripping, this is for the one helping; "anchor" is his word in both, and "Alone at 3 a.m." sits between them |
+
+In the fifth pick both readers couldn't tell what "Beyond Rescue Medicine" covered: back to his own words "What Else May Help" in the sixth pick, since both readers of the fifth couldn't tell what "Beyond Rescue Medicine" covered; re-read by two fresh readers.
+
+**Next, when his picks arrive** ([read_answers.py](read_answers.py)): his headings are worked out again from his picks with the columns he saw and compared with what the page saved; his contents gets the same check (the serotonin pair is fixed whichever way he picked it, from the headings read above) and two fresh readers; then the headings go into the guide with their evidence tag lines.
+
 ## The evidence tags
 
 His round-46 answer put a short evidence tag on each remedy heading. In a heading, "[Tried by Me and Friends]" alone takes more than an h3's room, so the remedy's name would be cut: each tag goes on its own line just under its heading. They go in with the headings he picks, each heading checked with its tag line and first paragraph.
