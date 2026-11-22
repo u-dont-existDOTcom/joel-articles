@@ -1,0 +1,1485 @@
+[
+ {
+  "part": "outside-help",
+  "S": 4,
+  "sentence": "- Trouble breathing, blue or gray lips, or respiratory depression",
+  "flags": {
+   "CAN'T TELL": "yes, \"respiratory depression\" is a term I wouldn't know; blue or gray lips I could see, slow shallow breathing I'd have to be told",
+   "FROM": "yes, clinical term"
+  },
+  "orig_ratio": 0.99,
+  "orig": "Trouble breathing, blue or gray lips, or respiratory depression",
+  "in_guide": true
+ },
+ {
+  "part": "outside-help",
+  "S": 5,
+  "sentence": "- A seizure after taking too much (or an unknown amount), or one on a normal dose lasting over 5 minutes",
+  "flags": {
+   "CAN'T TELL": "yes, I may not know how much they took, and \"normal dose\" vs \"too much\" is a guess; timing 5 minutes is doable but only if I'm watching a clock",
+   "RIGHT": "yes, calling only after 5 minutes for a seizure on a \"normal\" dose is doubtful; standard first aid and harm reduction say call for any first seizure or one after drugs, and the dose is usually unknown",
+   "MISREAD": "yes, \"over 5 minutes\" may read as \"wait 5 minutes first\""
+  },
+  "orig_ratio": 0.43,
+  "orig": "A sitter trying too hard—or doing nothing.",
+  "in_guide": true
+ },
+ {
+  "part": "outside-help",
+  "S": 6,
+  "sentence": "- Collapse, inability to wake normally, or rapidly worsening consciousness",
+  "flags": {
+   "CAN'T TELL": "yes, \"wake normally\" and \"rapidly worsening consciousness\" are vague; someone deep in a trip or sleepy from MDMA/downers already looks odd"
+  },
+  "orig_ratio": 0.99,
+  "orig": "Collapse, inability to wake normally, or rapidly worsening consciousness",
+  "in_guide": true
+ },
+ {
+  "part": "outside-help",
+  "S": 7,
+  "sentence": "- Dangerous overheating (not just regular sweating), severe rigidity, or clonus with fever",
+  "flags": {
+   "ANYWAY": "yes, sweating, heat and shaking are expected on MDMA or psychedelics, so the only usable part is \"dangerous\"",
+   "CAN'T TELL": "yes, I have no thermometer and can't tell \"dangerous\" overheating, \"rigidity\" or \"clonus\" (not explained)",
+   "FROM": "yes, clinical serotonin-syndrome terms"
+  },
+  "orig_ratio": 0.81,
+  "orig": "Dangerous overheating, severe rigidity, or clonus with fever",
+  "in_guide": true
+ },
+ {
+  "part": "outside-help",
+  "S": 8,
+  "sentence": "- Severe insomnia",
+  "flags": {
+   "ANYWAY": "yes, being unable to sleep for hours or a night is normal after a psychedelic or MDMA, so it can't tell me anything",
+   "CAN'T TELL": "yes, I can't judge \"severe\" at 3 a.m.",
+   "FROM": "yes, sounds like a clinic symptom, not an emergency sign",
+   "RIGHT": "yes, insomnia alone is not a call-medics emergency; doubt it belongs on this list (days without sleep, or sleeplessness with psychosis, would be different)",
+   "MISREAD": "yes, would alarm me for a thing that is nearly certain tonight"
+  },
+  "orig_ratio": 0.5,
+  "orig": "A hostile person.",
+  "in_guide": true
+ },
+ {
+  "part": "outside-help",
+  "S": 9,
+  "sentence": "- Sudden one-sided weakness, loss of speech, inability to walk normally, or loss of control of bodily functions",
+  "flags": {
+   "ANYWAY": "yes for \"inability to walk normally\" and maybe \"loss of speech\" (garbled speech); on a drug, walking and talking are often impaired",
+   "CAN'T TELL": "yes, what \"normally\" means for someone who's high",
+   "FROM": "- (one-sided weakness and loss of speech are real stroke signs)"
+  },
+  "orig_ratio": 1.0,
+  "orig": "Sudden one-sided weakness, loss of speech, inability to walk normally, or loss of control of bodily functions",
+  "in_guide": true
+ },
+ {
+  "part": "outside-help",
+  "S": 10,
+  "sentence": "- A report that the brain feels damaged when the person cannot complete a basic neurological check or is rapidly worsening",
+  "flags": {
+   "ANYWAY": "yes, \"my brain feels damaged/fried\" is a common thing to say during a bad trip",
+   "CAN'T TELL": "yes, I don't know what a \"basic neurological check\" is or how to do one, nor how to judge \"rapidly worsening\"",
+   "FROM": "yes, clinic language",
+   "MISREAD": "yes, the first half alarms me, the second half (cannot complete a check) is unclear, so I don't know whether to call"
+  },
+  "orig_ratio": 1.0,
+  "orig": "A report that the brain feels damaged when the person cannot complete a basic neurological check or is rapidly worsening",
+  "in_guide": true
+ },
+ {
+  "part": "outside-help",
+  "S": 11,
+  "sentence": "- Severe, worsening, radiating, or exertional chest pain--or chest pain with breathlessness, sweating, faintness, neurological changes, or collapse",
+  "flags": {
+   "ANYWAY": "yes, a pounding heart, sweating, tight chest and breathlessness from anxiety or stimulants are expected on MDMA, so the list of accompanying signs doesn't separate danger from usual",
+   "CAN'T TELL": "yes, \"exertional\", \"radiating\", \"neurological changes\" are not things I can judge",
+   "FROM": "yes, cardiology-manual wording",
+   "RIGHT": "- (calling for severe or worsening chest pain is right)"
+  },
+  "orig_ratio": 1.0,
+  "orig": "Severe, worsening, radiating, or exertional chest pain—or chest pain with breathlessness, sweating, faintness, neurological changes, or collapse",
+  "in_guide": true
+ },
+ {
+  "part": "outside-help",
+  "S": 13,
+  "sentence": "- Repeated vomiting, severe dehydration, blood, or severe abdominal pain",
+  "flags": {
+   "ANYWAY": "yes, vomiting is common and sometimes expected (ayahuasca purging, MDMA, mushrooms) and \"repeated\" has no number",
+   "CAN'T TELL": "yes, \"severe dehydration\" I can't measure, \"blood\" isn't said where (vomit, stool, wound)",
+   "FROM": "yes, clinic wording",
+   "MISREAD": "yes, \"blood\" alone could read as any small cut"
+  },
+  "orig_ratio": 0.99,
+  "orig": "Repeated vomiting, severe dehydration, blood, or severe abdominal pain",
+  "in_guide": true
+ },
+ {
+  "part": "outside-help",
+  "S": 14,
+  "sentence": "- Concerning symptoms after an MAOI, which slows the breakdown of serotonin (some older antidepressants, and the harmalas in ayahuasca and Syrian rue seeds), plus a serotonergic substance, one that raises serotonin, like MDMA or most antidepressants",
+  "flags": {
+   "CAN'T TELL": "yes, \"concerning symptoms\" doesn't say which; I'd need the serotonin-syndrome signs (fever, stiffness, shaking, racing heart, agitation) and I may not know what they took or if they take an MAOI",
+   "FROM": "yes, drug-interaction wording from a pharmacology text; the long parenthetical is hard to take in while reading in a hurry",
+   "RIGHT": "- (combining an MAOI with a serotonergic drug is dangerous)",
+   "MISREAD": "yes, \"concerning\" is softer than the real risk, which could make me wait"
+  },
+  "orig_ratio": 0.41,
+  "orig": "Concerning symptoms after an MAOI plus a serotonergic substance",
+  "in_guide": true
+ },
+ {
+  "part": "outside-help",
+  "S": 15,
+  "sentence": "The remedies below can begin while help is being arranged.",
+  "flags": {
+   "CAN'T TELL": "yes, no remedies are below in this part, so I'd look for something to start and find none",
+   "FROM": "yes, this sentence was carried from the full guide where remedies follow",
+   "MISREAD": "yes, reads as reassurance that I can handle it myself before help arrives, or as \"wait before calling\""
+  },
+  "orig_ratio": 1.0,
+  "orig": "The remedies below can begin while help is being arranged.",
+  "in_guide": true
+ },
+ {
+  "part": "outside-help",
+  "S": 20,
+  "sentence": "Another cue to get help is if they start acting delusional.",
+  "flags": {
+   "ANYWAY": "yes, seeing or believing strange things (delusions) is part of a bad trip, so \"start acting delusional\" fits almost every trip",
+   "CAN'T TELL": "yes, I can't tell trip-delusion from dangerous delusion",
+   "MISREAD": "yes, would alarm me for something expected until a word more (dangerous to self/others) says when"
+  },
+  "orig_ratio": 0.49,
+  "orig": "## Hang up the phone, get off the Healing Treadmill",
+  "in_guide": true
+ },
+ {
+  "part": "outside-help",
+  "S": 24,
+  "sentence": "Outside the United States, identify the local emergency number and crisis line before you ever need them.",
+  "flags": {
+   "CAN'T TELL": "yes, I'm already in the moment, so \"before you ever need them\" is too late; no way to do it now"
+  },
+  "orig_ratio": 1.0,
+  "orig": "Outside the United States, identify the local emergency number and crisis line before you ever need them.",
+  "in_guide": true
+ },
+ {
+  "part": "outside-help",
+  "S": 26,
+  "sentence": "Save the relevant links and local numbers *before* you need them.",
+  "flags": {
+   "CAN'T TELL": "yes, same: I can't save links before I need them now"
+  },
+  "orig_ratio": 1.0,
+  "orig": "Save the relevant links and local numbers *before* you need them.",
+  "in_guide": true
+ },
+ {
+  "part": "outside-help",
+  "S": 30,
+  "sentence": "U.S.-only according to its current FAQ; phone or text psychedelic peer support at 623-473-7433, daily from 11 a.m. to 11 p.m.",
+  "flags": {
+   "CAN'T TELL": "yes, 11 a.m. to 11 p.m. Pacific is closed or about to close at night for many places (2 a.m. Eastern), and I don't know which time zone I'm in relative to it",
+   "RIGHT": "yes, hours, \"U.S.-only\" and the number come from a \"current FAQ\" with no link; the writer should check them against Fireside's site"
+  },
+  "orig_ratio": 0.93,
+  "orig": "Fireside Project: U.S.-only according to its current FAQ; phone or text psychedelic peer support at **623-473-7433**, daily from **11 a.m. to 11 p.m.",
+  "in_guide": true
+ },
+ {
+  "part": "outside-help",
+  "S": 32,
+  "sentence": "- TripSit live chat: a harm-reduction chat you open in your browser, for people using drugs and for whoever's looking after them.",
+  "flags": {
+   "CAN'T TELL": "yes, no address or link to open and a browser chat is slow for an emergency"
+  },
+  "orig_ratio": 0.67,
+  "orig": "TripSit live chat: browser-based harm-reduction chat for people using drugs and the people supporting them.",
+  "in_guide": false
+ },
+ {
+  "part": "outside-help",
+  "S": 35,
+  "sentence": "It is not psychedelic-specific, but it can put a human on the other end quickly.",
+  "flags": {
+   "RIGHT": "yes, \"put a human on the other end quickly\" is a claim of speed with no source; helplines vary by country and time"
+  },
+  "orig_ratio": 1.0,
+  "orig": "It is not psychedelic-specific, but it can put a human on the other end quickly.",
+  "in_guide": true
+ },
+ {
+  "part": "outside-help",
+  "S": 40,
+  "sentence": "U.S. text, chat, and WhatsApp support, with partner text lines listed for Canada, the UK, and Ireland.",
+  "flags": {
+   "RIGHT": "yes, the partner lines for Canada, UK and Ireland change; check they exist now"
+  },
+  "orig_ratio": 0.92,
+  "orig": "Crisis Text Line: U.S. text, chat, and WhatsApp support, with partner text lines listed for Canada, the UK, and Ireland.",
+  "in_guide": true
+ },
+ {
+  "part": "outside-help",
+  "S": 42,
+  "sentence": "- ICEERS Support Center: up to five free online integration sessions for challenging experiences.",
+  "flags": {
+   "CAN'T TELL": "yes, it's for after the experience, so I can't use it right now",
+   "RIGHT": "yes, \"up to five free online sessions\" needs a current source"
+  },
+  "orig_ratio": 0.99,
+  "orig": "ICEERS Support Center: up to five free online integration sessions for challenging experiences.",
+  "in_guide": false
+ },
+ {
+  "part": "outside-help",
+  "S": 43,
+  "sentence": "- CPEP online peer group: a free confidential monthly group for post-psychedelic difficulties.",
+  "flags": {
+   "CAN'T TELL": "yes, monthly group for later, no use tonight",
+   "RIGHT": "yes, \"free confidential monthly\" needs a source"
+  },
+  "orig_ratio": 0.99,
+  "orig": "CPEP online peer group: a free confidential monthly group for post-psychedelic difficulties.",
+  "in_guide": false
+ },
+ {
+  "part": "outside-help",
+  "S": 44,
+  "sentence": "- Cheetah House: resources, consultations, and support groups for meditation-related difficulties, including chat-based peer support.",
+  "flags": {
+   "CAN'T TELL": "yes, no use tonight",
+   "FROM": "yes, it's about meditation-related difficulties, not drug emergencies"
+  },
+  "orig_ratio": 1.0,
+  "orig": "Cheetah House: resources, consultations, and support groups for meditation-related difficulties, including chat-based peer support.",
+  "in_guide": false
+ },
+ {
+  "part": "brain-seizure",
+  "S": 2,
+  "sentence": "I'd calm and stabilize the trip right where they are, as long as none of the signs on the Call medics list above show up and I can keep them from getting hurt.",
+  "flags": {
+   "CAN'T TELL": "yes, \"the Call medics list above\" is not in this text, so I can't check it now, and \"I can keep them from getting hurt\" is a judgment call I can't make mid-trip"
+  },
+  "orig_ratio": 0.43,
+  "orig": "Music can also steer the state in the wrong direction, so use something familiar and keep the stop or change button within reach.",
+  "in_guide": true
+ },
+ {
+  "part": "brain-seizure",
+  "S": 3,
+  "sentence": "Even from a severe trip, they can come down faster that way than after an ambulance ride and hours in an emergency room.",
+  "flags": {
+   "RIGHT": "yes, \"come down faster than after an ambulance\" has no source and nudges me away from calling for a severe trip"
+  },
+  "orig_ratio": 0.44,
+  "orig": "Some symptom patterns call for medics while you use an immediate remedy; some severe but physically stable altered states may respond faster to field rescue than to hours in an emergency room.",
+  "in_guide": true
+ },
+ {
+  "part": "brain-seizure",
+  "S": 5,
+  "sentence": "Don't count on it helping with psychosis, since in some people it brings on a paradoxical reaction, with more agitation or fear.",
+  "flags": {
+   "RIGHT": "yes, benzodiazepines are the usual first-line treatment for agitation or panic on psychedelics and stimulants, so \"don't count on it\" is overstated and may put me off the ER; no source"
+  },
+  "orig_ratio": 0.41,
+  "orig": "I once found a pamphlet helpful on sorrow, although it was too “ultimate” and Advaita for my taste.",
+  "in_guide": true
+ },
+ {
+  "part": "brain-seizure",
+  "S": 11,
+  "sentence": "DMSO is my first immediate remedy while I ask what the symptoms actually are.",
+  "flags": {
+   "CAN'T TELL": "yes, I may not have DMSO, and nothing says what it is, how much, or how to take it",
+   "RIGHT": "yes, an unproven remedy is put first while I am still working out whether this is a stroke or another emergency; no source"
+  },
+  "orig_ratio": 1.0,
+  "orig": "DMSO is my first immediate remedy while I ask what the symptoms actually are.",
+  "in_guide": false
+ },
+ {
+  "part": "brain-seizure",
+  "S": 12,
+  "sentence": "I usually know within about a minute whether it is helping.",
+  "flags": {
+   "CAN'T TELL": "yes, how would I know in a minute that it is helping, when the person may be unable to say how they feel?",
+   "RIGHT": "yes, feeling better is not proof of anything, and S34 says they can feel better with a clot or bleed still there",
+   "MISREAD": "yes, reads as \"if they perk up, it is fine\", which is dangerous for a stroke"
+  },
+  "orig_ratio": 1.0,
+  "orig": "I usually know within about a minute whether it is helping.",
+  "in_guide": true
+ },
+ {
+  "part": "brain-seizure",
+  "S": 13,
+  "sentence": "Smelling humic acid or tasting a tiny bit can also help a lot, in my experience, but I'm still collecting data from others.",
+  "flags": {
+   "CAN'T TELL": "yes, humic acid is not explained and I wouldn't have it or know how much \"a tiny bit\" is",
+   "RIGHT": "yes, \"in my experience... still collecting data\" is not evidence and tasting a substance for a brain problem has no source"
+  },
+  "orig_ratio": 1.0,
+  "orig": "Smelling humic acid or tasting a tiny bit can also help a lot, in my experience, but I’m still collecting data from others.",
+  "in_guide": false
+ },
+ {
+  "part": "brain-seizure",
+  "S": 14,
+  "sentence": "I give electrolytes to drink also, because magnesium (and then potassium) can be depleted by some drugs, especially MDMA and iboga, although I don't think just electrolytes would be sufficient to reverse damage already underway.",
+  "flags": {
+   "CAN'T TELL": "yes, which electrolytes, what amount, and how do I give it to someone who may be vomiting or confused",
+   "RIGHT": "yes, for MDMA the danger of drinking too much water (low sodium) is not mentioned; \"iboga\" is not explained"
+  },
+  "orig_ratio": 0.41,
+  "orig": "See my guide on that, because it shares a lot of the same warnings, altho I do think it has more potential to be helpful when used correctly.",
+  "in_guide": true
+ },
+ {
+  "part": "brain-seizure",
+  "S": 19,
+  "sentence": "Is their speech slurred, or does one side of their face droop?",
+  "flags": {
+   "ANYWAY": "yes, slurred speech is common on many drugs, so it can't tell me much; one-sided face droop is the real sign"
+  },
+  "orig_ratio": 0.49,
+  "orig": "That finishes the rescue-chemistry side of the guide.",
+  "in_guide": true
+ },
+ {
+  "part": "brain-seizure",
+  "S": 21,
+  "sentence": "- If you can safely hold them as they try, have them stand and walk a few steps to see if they keep their balance.",
+  "flags": {
+   "ANYWAY": "yes, balance is often off on psychedelics, MDMA and other drugs, so failing this is expected",
+   "CAN'T TELL": "yes, I can't tell a drug stumble from a stroke stumble",
+   "RIGHT": "yes, walking a stroke suspect or very high person risks a fall"
+  },
+  "orig_ratio": 0.4,
+  "orig": "This is the branch where time matters and presence alone is not the intervention.",
+  "in_guide": true
+ },
+ {
+  "part": "brain-seizure",
+  "S": 23,
+  "sentence": "- Watch for a seizure, and for vomiting that keeps coming back.",
+  "flags": {
+   "ANYWAY": "yes, vomiting is common after many of these drugs",
+   "CAN'T TELL": "yes, how many times is \"keeps coming back\""
+  },
+  "orig_ratio": 0.44,
+  "orig": "> I hear how vast and certain this feels.",
+  "in_guide": true
+ },
+ {
+  "part": "brain-seizure",
+  "S": 24,
+  "sentence": "- Ask about a really bad headache or chest pain.",
+  "flags": {
+   "ANYWAY": "yes, headache is common after MDMA and psychedelics; only \"really bad\" or sudden should count",
+   "CAN'T TELL": "yes, \"really bad\" is not defined"
+  },
+  "orig_ratio": 0.45,
+  "orig": "Rain water also works for me, but I’ve only tested it near the ocean.",
+  "in_guide": true
+ },
+ {
+  "part": "brain-seizure",
+  "S": 25,
+  "sentence": "When they're too out of it to help you do the checks, or if the brain-damage feeling stays despite sufficient treatment, then you've done what you can do, and it's time to call for help.",
+  "flags": {
+   "ANYWAY": "yes, \"too out of it\" is exactly how someone on a trip is, so it would mean calling for nearly everyone",
+   "CAN'T TELL": "yes, \"sufficient treatment\" has no amount or time, so I can't tell when I've done enough",
+   "RIGHT": "yes, waiting until treatment has \"failed\" delays calling for a possible stroke or brain bleed",
+   "MISREAD": "yes, S15 and S35 say call at once if a check fails, S25 says call only after treatment fails, so I can't tell which to follow"
+  },
+  "orig_ratio": 0.42,
+  "orig": "If the screen is reassuring but the brain-damage feeling remains, continue the DMSO-first route and reassess promptly.",
+  "in_guide": true
+ },
+ {
+  "part": "brain-seizure",
+  "S": 26,
+  "sentence": "I believe, based on my experience and those of others I've heard from, as well as the books I've read on this, that DMSO works better for most acute brain damage than anything else readily available.",
+  "flags": {
+   "RIGHT": "yes, \"better than anything else readily available\" rests on personal experience and unnamed books; no source"
+  },
+  "orig_ratio": 0.58,
+  "orig": "I believe DMSO works better for stroke and most acute brain damage than anything else readily available to ordinary people.",
+  "in_guide": true
+ },
+ {
+  "part": "brain-seizure",
+  "S": 27,
+  "sentence": "The clinical evidence is incomplete, but it leans this way.",
+  "flags": {
+   "RIGHT": "yes, \"the clinical evidence leans this way\" overstates, since the next lines are mostly animals and cells in a dish",
+   "MISREAD": "yes, sounds like human studies back it"
+  },
+  "orig_ratio": 0.48,
+  "orig": "This is intense, but it will change.",
+  "in_guide": true
+ },
+ {
+  "part": "brain-seizure",
+  "S": 29,
+  "sentence": "Some patients whose stroke came from a clot seemed to recover better on DMSO in a human trial, and doctors have used it in a handful of patients to bring down dangerous pressure inside the skull.",
+  "flags": {
+   "RIGHT": "yes, \"seemed to recover better\" and \"a handful of patients\" are vague and unsourced; stroke and skull pressure are not an overdose"
+  },
+  "orig_ratio": 0.38,
+  "orig": "Some people sleep better with DMSO because it reduces whatever symptom had been keeping them awake.",
+  "in_guide": true
+ },
+ {
+  "part": "brain-seizure",
+  "S": 31,
+  "sentence": "If someone is worried about a bleed, I'd probably skip DMSO, but it depends on how severe their issue is.",
+  "flags": {
+   "CAN'T TELL": "yes, I can't tell a clot from a bleed at home, so I can't decide to skip it",
+   "MISREAD": "yes, \"skip DMSO if worried about a bleed\" can sound like \"otherwise, wait and treat it myself\""
+  },
+  "orig_ratio": 0.45,
+  "orig": "If the person cannot answer reliably, basic stability remains unknown rather than reassuring.",
+  "in_guide": true
+ },
+ {
+  "part": "brain-seizure",
+  "S": 32,
+  "sentence": "It's not a powerful blood thinner like heparin, unless maybe injected; it's basically a dietary blood thinner.",
+  "flags": {
+   "RIGHT": "yes, \"basically a dietary blood thinner\" and \"not powerful\" have no source"
+  },
+  "orig_ratio": 0.43,
+  "orig": "I can love the part of me that feels it.* Or simply: *Can I send love to the one who’s suffering?*",
+  "in_guide": true
+ },
+ {
+  "part": "brain-seizure",
+  "S": 33,
+  "sentence": "I've never had any issues with bleeding too much from consuming DMSO, and never heard of it either, but if bleeding is already a medical issue I'd want to think about that more.",
+  "flags": {
+   "RIGHT": "yes, \"never had issues, never heard of any\" is a personal anecdote used to reassure",
+   "MISREAD": "yes, reassures about bleeding"
+  },
+  "orig_ratio": 0.38,
+  "orig": "I have tried many related plants and cousins, and they did not work the same way.",
+  "in_guide": true
+ },
+ {
+  "part": "brain-seizure",
+  "S": 37,
+  "sentence": "DMSO immediately.",
+  "flags": {
+   "RIGHT": "yes, \"DMSO immediately\" as step 1 comes before checking breathing or consciousness (S16); first aid puts that first"
+  },
+  "orig_ratio": 1.0,
+  "orig": "DMSO immediately.",
+  "in_guide": true
+ },
+ {
+  "part": "brain-seizure",
+  "S": 38,
+  "sentence": "Smell humic acid; if that doesn't help, take a 5mg lick of it.",
+  "flags": {
+   "CAN'T TELL": "yes, I can't measure \"a 5mg lick\"",
+   "RIGHT": "yes, the dose and the claim are unsourced"
+  },
+  "orig_ratio": 0.79,
+  "orig": "Smell humic acid, take a 5mg lick of it.",
+  "in_guide": true
+ },
+ {
+  "part": "brain-seizure",
+  "S": 39,
+  "sentence": "(See humic acid evidence here.",
+  "flags": {
+   "CAN'T TELL": "yes, \"See humic acid evidence here.\" has no link or text here, and the parenthesis never closes"
+  },
+  "orig_ratio": 0.53,
+  "orig": "## How I label the evidence",
+  "in_guide": true
+ },
+ {
+  "part": "brain-seizure",
+  "S": 40,
+  "sentence": "Smell the Metta NMT sniffer (described in loveyhuasca guide).",
+  "flags": {
+   "CAN'T TELL": "yes, I don't have the sniffer, and the guide it is \"described in\" is not in front of me",
+   "FROM": "yes, points to another guide"
+  },
+  "orig_ratio": 1.0,
+  "orig": "Smell the Metta NMT sniffer** (described in loveyhuasca guide).",
+  "in_guide": true
+ },
+ {
+  "part": "brain-seizure",
+  "S": 45,
+  "sentence": "If this is a psychedelic, use *Ipomoea pes-caprae* to stop the trip.",
+  "flags": {
+   "CAN'T TELL": "yes, I would not know what *Ipomoea pes-caprae* is or where to get it at night, nor how to use it",
+   "RIGHT": "yes, no source or dose for ending a trip with it"
+  },
+  "orig_ratio": 0.54,
+  "orig": "With a psychedelic, safety now means stopping the trip with *Ipomoea pes-caprae* rather than merely calming it.",
+  "in_guide": true
+ },
+ {
+  "part": "brain-seizure",
+  "S": 48,
+  "sentence": "If this is MDMA, move to magnesium chloride and the broader electrolyte branch instead.",
+  "flags": {
+   "CAN'T TELL": "yes, \"the broader electrolyte branch\" refers to something not in this text, and \"magnesium chloride\" has no amount or way to take it",
+   "RIGHT": "yes, MDMA emergencies are mainly overheating and low sodium, and neither is mentioned here"
+  },
+  "orig_ratio": 0.81,
+  "orig": "With MDMA, I would move instead to magnesium chloride and the broader electrolyte branch.",
+  "in_guide": true
+ },
+ {
+  "part": "brain-seizure",
+  "S": 50,
+  "sentence": "Bring in medical help in parallel for objective neurological signs, dangerous heat, prolonged or repeated seizure, breathing trouble, severe chest pain, collapse, or when basic stability cannot be established.",
+  "flags": {
+   "CAN'T TELL": "yes, \"when basic stability cannot be established\" doesn't say what to look for",
+   "MISREAD": "yes, \"in parallel\" contradicts S2 and S25, which put calling later"
+  },
+  "orig_ratio": 1.0,
+  "orig": "Bring in medical help in parallel** for objective neurological signs, dangerous heat, prolonged or repeated seizure, breathing trouble, severe chest pain, collapse, or when basic stability cannot be established.",
+  "in_guide": true
+ },
+ {
+  "part": "brain-seizure",
+  "S": 59,
+  "sentence": "- They have a seizure after taking too much, or you don't know how much they took",
+  "flags": {
+   "ANYWAY": "yes, a seizure after drugs is nearly always \"after taking too much\", so this means call every time",
+   "CAN'T TELL": "yes, I often won't know how much they took",
+   "MISREAD": "yes, reads as a condition when it really means always call"
+  },
+  "orig_ratio": 0.49,
+  "orig": "A sitter trying too hard—or doing nothing.",
+  "in_guide": true
+ },
+ {
+  "part": "brain-seizure",
+  "S": 60,
+  "sentence": "- Note that psychedelics do reduce the seizure threshold, so if someone is prone to seizures, a normal dose could produce a seizure for them which doesn't indicate brain damage, but if it goes on over 5 minutes, that's too much",
+  "flags": {
+   "CAN'T TELL": "yes, I can't tell a person \"prone to seizures\" from someone having a first seizure",
+   "RIGHT": "yes, \"a normal dose could produce a seizure which doesn't indicate brain damage\" reassures wrongly, since a first seizure always needs medics and the 5-minute limit is the usual emergency line, not \"too much\"",
+   "MISREAD": "yes, it sits in a list of reasons to call but opens as a \"Note\" and says \"that's too much\" without saying of what"
+  },
+  "orig_ratio": 0.37,
+  "orig": "Music can also steer the state in the wrong direction, so use something familiar and keep the stop or change button within reach.",
+  "in_guide": true
+ },
+ {
+  "part": "brain-seizure",
+  "S": 63,
+  "sentence": "- When you touch their forehead, it's very hot (not just sweaty)",
+  "flags": {
+   "CAN'T TELL": "yes, how hot is \"very hot\", and a person who has just convulsed is warm anyway"
+  },
+  "orig_ratio": 0.44,
+  "orig": "Many products did nothing for me, and quality mattered enormously.",
+  "in_guide": true
+ },
+ {
+  "part": "brain-seizure",
+  "S": 71,
+  "sentence": "That's when the things people report can still stop it, depending on what sets their seizures off.",
+  "flags": {
+   "CAN'T TELL": "yes, \"the things people report\" doesn't say what to do, and someone on a drug may not tell me about an aura",
+   "RIGHT": "yes, \"can still stop it\" has no source"
+  },
+  "orig_ratio": 0.45,
+  "orig": "DMSO has produced both anticonvulsant and proconvulsant effects depending on dose and seizure model.",
+  "in_guide": true
+ },
+ {
+  "part": "brain-seizure",
+  "S": 73,
+  "sentence": "Some people stop a seizure at the warning stage with a strong smell like jasmine, and some train themselves to link one smell with feeling calm and then sniff it when a seizure threatens.",
+  "flags": {
+   "CAN'T TELL": "yes, I can't \"train\" a smell on the spot",
+   "RIGHT": "yes, jasmine stopping a seizure is anecdote with no source"
+  },
+  "orig_ratio": 0.38,
+  "orig": "Then stop unsafe momentum, fix the room, help the body, find one calm human, protect sleep, and only then start interpreting anything.",
+  "in_guide": true
+ },
+ {
+  "part": "brain-seizure",
+  "S": 75,
+  "sentence": "I'd also try sniffing humic/fulvic acid powder, although that's just a hunch based on the effects I notice so far.",
+  "flags": {
+   "CAN'T TELL": "yes, I don't know what humic/fulvic acid powder is or have it",
+   "RIGHT": "yes, \"a hunch\" is not a reason, and powder near the face of someone who may seize risks choking or breathing it in"
+  },
+  "orig_ratio": 0.4,
+  "orig": "DMSO is also my first remedy for many injuries and some chest pain, with the decision about medics based on severity and the surrounding symptoms.",
+  "in_guide": true
+ },
+ {
+  "part": "brain-seizure",
+  "S": 76,
+  "sentence": "During the seizure, alongside any rescue medicine, I would use topical magnesium chloride and consider topical DMSO with a known-genuine CBD preparation (a lot of CBD is fake or very dilute).",
+  "flags": {
+   "CAN'T TELL": "yes, where on the body, how much, and what is \"known-genuine CBD\" to me",
+   "RIGHT": "yes, putting DMSO (which carries other things through skin) on a convulsing person pulls my hands from the safety steps, no source for any of it"
+  },
+  "orig_ratio": 0.68,
+  "orig": "I would also use topical magnesium chloride and consider topical DMSO with a known CBD preparation as adjuncts.",
+  "in_guide": true
+ },
+ {
+  "part": "brain-seizure",
+  "S": 78,
+  "sentence": "Purified oral CBD is approved for the seizures of Lennox-Gastaut syndrome, Dravet syndrome and tuberous sclerosis complex.",
+  "flags": {
+   "CAN'T TELL": "yes, Lennox-Gastaut, Dravet and tuberous sclerosis are never explained, and I can't tell if this person has any of them",
+   "FROM": "yes, a clinic's drug-approval fact that doesn't apply to an overdose"
+  },
+  "orig_ratio": 0.38,
+  "orig": "Sometimes the lesson is to lower the dose, stop the practice, sleep, eat, choose safer people, and admit that the room is bad.",
+  "in_guide": false
+ },
+ {
+  "part": "brain-seizure",
+  "S": 79,
+  "sentence": "As for CBD/cannabis, people do smoke or vape it at the start of an aura, while they're still awake enough to do it on purpose.",
+  "flags": {
+   "RIGHT": "yes, smoking or vaping cannabis at a seizure warning is unsafe advice, since smoke at that moment is a choking risk and THC can trigger seizures (S84-S85)"
+  },
+  "orig_ratio": 0.43,
+  "orig": "Activated charcoal may help after some recent oral ingestions when the substance binds to it and the person is fully alert enough to swallow safely.",
+  "in_guide": true
+ },
+ {
+  "part": "brain-seizure",
+  "S": 80,
+  "sentence": "There are also people who find THC and/or CBD works as a nasal spray or sublingually, and there's even a medical THC nasal spray marketed for seizure interruption in Brazil by a non-profit patients' association called ABRACE.",
+  "flags": {
+   "CAN'T TELL": "yes, I can't get a Brazilian nasal spray tonight",
+   "FROM": "yes, patient-association product from another country",
+   "RIGHT": "yes, \"marketed\" says nothing about safety"
+  },
+  "orig_ratio": 0.39,
+  "orig": "That experience is why I treat serious MDMA toxicity as a broader electrolyte emergency, even though magnesium is the first and most useful early intervention when jaw tension appears.",
+  "in_guide": true
+ },
+ {
+  "part": "brain-seizure",
+  "S": 81,
+  "sentence": "They testified in Congress that in more than 30 tests they did with children having seizures, the nasal spray ended those seizures within 30 seconds.",
+  "flags": {
+   "RIGHT": "yes, \"more than 30 tests ended seizures in 30 seconds\" is a claim from testimony, with no study; a source is needed",
+   "MISREAD": "yes, sounds like a proven fast treatment"
+  },
+  "orig_ratio": 0.4,
+  "orig": "My perspective is that these people are not correctly preparing for the inner child reparenting that MDMA suddenly provides experiential access to.",
+  "in_guide": false
+ },
+ {
+  "part": "brain-seizure",
+  "S": 82,
+  "sentence": "You can see it being used on a child in this vid: https://www.youtube.com/watch?v=bgVi5o_2v_w",
+  "flags": {
+   "CAN'T TELL": "yes, I can't watch a video mid-seizure"
+  },
+  "orig_ratio": 0.39,
+  "orig": "The monk Ajahn Jayasaro gives useful guidance on shadow work in Buddhist teachings in the video below.",
+  "in_guide": true
+ },
+ {
+  "part": "brain-seizure",
+  "S": 88,
+  "sentence": "The study authors suggested the dosing may have been too low, or that adults with focal epilepsy just don't respond as well as people with the syndromes oral CBD is approved for.",
+  "flags": {
+   "CAN'T TELL": "yes, \"focal epilepsy\" and \"dosing too low\" don't change what I do",
+   "FROM": "yes, a clinical trial of adults taking CBD to prevent seizures, not an emergency"
+  },
+  "orig_ratio": 0.39,
+  "orig": "Put one hand on the heart and the other on the solar plexus just below it, sending love to the inner child.",
+  "in_guide": true
+ },
+ {
+  "part": "brain-seizure",
+  "S": 89,
+  "sentence": "The seizures in Dravet and Lennox-Gastaut syndrome are mostly generalized.",
+  "flags": {
+   "CAN'T TELL": "yes, \"generalized\" is not explained and I can't tell the type"
+  },
+  "orig_ratio": 0.45,
+  "orig": "Other alternatives to standard mental-health care are listed at alternativementalhealth.com.",
+  "in_guide": true
+ },
+ {
+  "part": "brain-seizure",
+  "S": 90,
+  "sentence": "Generalized are the type people usually have with MDMA & psychedelic overdoses, so topical CBD might do better for those than it did in that trial.",
+  "flags": {
+   "CAN'T TELL": "yes, I can't tell the seizure type",
+   "RIGHT": "yes, \"generalized is the type usually had with MDMA and psychedelic overdoses\" has no source, and \"might do better\" is speculation"
+  },
+  "orig_ratio": 0.42,
+  "orig": "So there are some people who argue that if MDMA opened up your wounds, just keep taking more MDMA until it’s fixed.",
+  "in_guide": true
+ },
+ {
+  "part": "brain-seizure",
+  "S": 91,
+  "sentence": "As for DMSO, it did reduce seizure activity in rats with temporal-lobe epilepsy, and we know it has several neuroprotective mechanisms, but it produced the opposite effect at some doses in an absence-epilepsy model.",
+  "flags": {
+   "CAN'T TELL": "yes, \"temporal-lobe\" and \"absence\" epilepsy are not explained and don't change my action",
+   "MISREAD": "yes, \"reduced seizure activity\" in rats reads as a reason to use DMSO now, then \"opposite effect at some doses\" reverses it"
+  },
+  "orig_ratio": 0.9,
+  "orig": "DMSO reduced seizure activity in a rat temporal-lobe epilepsy model and has several neuroprotective mechanisms, but it produced the opposite effect at some doses in an absence-epilepsy model.",
+  "in_guide": true
+ },
+ {
+  "part": "brain-seizure",
+  "S": 92,
+  "sentence": "While a seizure continues, the rescue medicine comes first, and I'd still consider DMSO alongside it, although that's experimental.",
+  "flags": {
+   "CAN'T TELL": "yes, most people won't have a rescue medicine, and this doesn't say to call medics then",
+   "RIGHT": "yes, adding experimental DMSO to a seizure while it is going on has no support, and the section never says to call medics when there is no rescue medicine and the seizure goes on"
+  },
+  "orig_ratio": 0.44,
+  "orig": "“You are consciously taking a medicine to open yourself to whatever teachings you may need at this time.",
+  "in_guide": true
+ },
+ {
+  "part": "mdma-chest-swallowed",
+  "S": 3,
+  "sentence": "With MDMA, I treat meaningful jaw tension as the earliest warning that the body needs more magnesium.",
+  "flags": {
+   "ANYWAY": "yes, jaw tension is a normal MDMA effect, so it is already true when nothing is wrong",
+   "CAN'T TELL": "yes, \"meaningful\" jaw tension versus ordinary clenching can't be judged",
+   "RIGHT": "yes, jaw tension as a sign of magnesium need is the writer's own hypothesis with no source"
+  },
+  "orig_ratio": 1.0,
+  "orig": "With MDMA, I treat meaningful jaw tension as the earliest warning that the body needs more magnesium.",
+  "in_guide": true
+ },
+ {
+  "part": "mdma-chest-swallowed",
+  "S": 5,
+  "sentence": "Everyone I know who has taken enough magnesium chloride to make the jaw tension fully release has avoided the other complications I have seen when people let that tension continue.",
+  "flags": {
+   "CAN'T TELL": "yes, \"enough\", \"fully release\" and the unnamed \"other complications\" can't be checked in a friend",
+   "RIGHT": "yes, \"everyone I know\" is anecdote and survivorship, not evidence that magnesium prevents complications",
+   "MISREAD": "yes, reads as a promise that enough magnesium prevents the bad outcomes"
+  },
+  "orig_ratio": 1.0,
+  "orig": "Everyone I know who has taken enough magnesium chloride to make the jaw tension fully release has avoided the other complications I have seen when people let that tension continue.",
+  "in_guide": true
+ },
+ {
+  "part": "mdma-chest-swallowed",
+  "S": 6,
+  "sentence": "A token dose may not be enough.",
+  "flags": {
+   "CAN'T TELL": "yes, no amount says what a \"token\" dose is versus enough",
+   "RIGHT": "yes, nudges toward bigger doses with no basis"
+  },
+  "orig_ratio": 1.0,
+  "orig": "A token dose may not be enough.",
+  "in_guide": true
+ },
+ {
+  "part": "mdma-chest-swallowed",
+  "S": 7,
+  "sentence": "On multiple occasions, I have dissolved Dead Sea magnesium chloride hexahydrate flakes in water and taken approximately one gram per minute orally for around twenty minutes before my jaw fully released.",
+  "flags": {
+   "CAN'T TELL": "yes, one gram a minute for twenty minutes needs a scale, a clock, Dead Sea flakes and a way to see a friend's jaw \"fully release\", none of which you have at a gathering",
+   "RIGHT": "yes, 20 g of magnesium chloride hexahydrate is about 2.4 g of elemental magnesium, roughly seven times the 350 mg/day supplement upper limit, given to someone who may be dehydrated, vomiting or kidney-stressed; the dose comes from the writer's own body"
+  },
+  "orig_ratio": 1.0,
+  "orig": "On multiple occasions, I have dissolved **Dead Sea magnesium chloride hexahydrate flakes** in water and taken approximately **one gram per minute orally for around twenty minutes** before my jaw fully released.",
+  "in_guide": true
+ },
+ {
+  "part": "mdma-chest-swallowed",
+  "S": 8,
+  "sentence": "I have tolerated around twenty grams without diarrhea; for me, diarrhea has appeared only above roughly forty grams.",
+  "flags": {
+   "CAN'T TELL": "yes, your friend's tolerance is unknown",
+   "RIGHT": "yes, 40 g is about 4.8 g of elemental magnesium; diarrhea is not the only limit (too much magnesium causes low blood pressure, slow heartbeat, weakness, slow breathing), and diarrhea drains the fluid and potassium S17 and S20 worry about",
+   "MISREAD": "yes, \"tolerated twenty grams\" reads as 20 g being safe"
+  },
+  "orig_ratio": 1.0,
+  "orig": "I have tolerated around twenty grams without diarrhea; for me, diarrhea has appeared only above roughly forty grams.",
+  "in_guide": true
+ },
+ {
+  "part": "mdma-chest-swallowed",
+  "S": 9,
+  "sentence": "Magnesium chloride is also generally less likely to cause diarrhea than several other replacement salts, including forms deliberately used as laxatives.",
+  "flags": {
+   "RIGHT": "yes, the claim that this salt is less laxative than others needs a source, and it still causes diarrhea at these doses"
+  },
+  "orig_ratio": 1.0,
+  "orig": "Magnesium chloride is also generally less likely to cause diarrhea than several other replacement salts, including forms deliberately used as laxatives.",
+  "in_guide": true
+ },
+ {
+  "part": "mdma-chest-swallowed",
+  "S": 12,
+  "sentence": "For harm reduction, slightly less euphoria is a reasonable price for a relaxed jaw and what appears in my experience to be a much lower risk of the state escalating.",
+  "flags": {
+   "CAN'T TELL": "yes, \"the state escalating\" is never defined",
+   "RIGHT": "yes, \"much lower risk\" rests on personal experience only",
+   "MISREAD": "yes, reassures that magnesium stops escalation, which could delay calling medics"
+  },
+  "orig_ratio": 1.0,
+  "orig": "For harm reduction, slightly less euphoria is a reasonable price for a relaxed jaw and what appears in my experience to be a much lower risk of the state escalating.",
+  "in_guide": true
+ },
+ {
+  "part": "mdma-chest-swallowed",
+  "S": 14,
+  "sentence": "At the hospital, her potassium was found to be critically low--described to me as essentially zero--and IV potassium was the only treatment they gave her.",
+  "flags": {
+   "RIGHT": "yes, a potassium \"essentially zero\" can't be literal and is second-hand; seizures are an unusual sign of low potassium and \"the only treatment\" is odd for MDMA convulsions; one case is used to frame all serious MDMA toxicity as an electrolyte emergency"
+  },
+  "orig_ratio": 1.0,
+  "orig": "At the hospital, her potassium was found to be critically low—described to me as essentially zero—and IV potassium was the only treatment they gave her.",
+  "in_guide": true
+ },
+ {
+  "part": "mdma-chest-swallowed",
+  "S": 15,
+  "sentence": "That experience is why I treat serious MDMA toxicity as a broader electrolyte emergency, even though magnesium is the first and most useful early intervention when jaw tension appears.",
+  "flags": {
+   "RIGHT": "yes, \"first and most useful early intervention\" is unsourced and conflicts with S16-S17 (stop redosing, cool off, sip electrolytes) and the call-medics list; magnesium should not come before cooling and help"
+  },
+  "orig_ratio": 1.0,
+  "orig": "That experience is why I treat serious MDMA toxicity as a broader electrolyte emergency, even though magnesium is the first and most useful early intervention when jaw tension appears.",
+  "in_guide": true
+ },
+ {
+  "part": "mdma-chest-swallowed",
+  "S": 16,
+  "sentence": "Once their jaw tenses, that should be their last dose of MDMA, so get them to slow down and cool off.",
+  "flags": {
+   "ANYWAY": "yes, jaw tension happens in most people on MDMA, so \"once their jaw tenses\" is nearly always already true"
+  },
+  "orig_ratio": 0.43,
+  "orig": "It is intense, but it is not the whole of me.”** Then return to body, room, human, time, and love.",
+  "in_guide": true
+ },
+ {
+  "part": "mdma-chest-swallowed",
+  "S": 17,
+  "sentence": "If they drink a lot of plain water, even a single normal MDMA dose raises the risk of their sodium dropping too low, so have them sip an electrolyte drink when they're thirsty instead.",
+  "flags": {
+   "CAN'T TELL": "yes, \"a lot of plain water\" has no amount",
+   "RIGHT": "yes (mild), many electrolyte or sports drinks are low in sodium and don't prevent low sodium; usual advice is to sip to thirst and not force fluids"
+  },
+  "orig_ratio": 0.4,
+  "orig": "But they should be far more worried about the MDMA.** MDMA can cause overheating, rhabdomyolysis, dangerous electrolyte shifts, and acute kidney injury.",
+  "in_guide": true
+ },
+ {
+  "part": "mdma-chest-swallowed",
+  "S": 19,
+  "sentence": "If their confusion or headache worsens, or vomiting won't stop (sodium might be too low by then for an electrolyte drink to fix; while you wait for medics, if they're alert and not vomiting, give them something very salty instead, like strong broth or salty snacks).",
+  "flags": {
+   "ANYWAY": "yes, headache and vomiting are common on MDMA, so only \"worsens\" and \"won't stop\" carry meaning",
+   "CAN'T TELL": "yes, how much worse and how long is \"won't stop\" can't be judged in a friend at night",
+   "RIGHT": "yes, broth or salty snacks are unproven for low sodium, carry choking risk for a confused person, and \"if they're alert\" contradicts the worsening confusion that triggered the call"
+  },
+  "orig_ratio": 0.38,
+  "orig": "It took her dozens of sessions that felt harmful before she finally had one that fully got her to accept what happened to her (and a huge somatic release which looked like a re-enactment of the abuse).",
+  "in_guide": true
+ },
+ {
+  "part": "mdma-chest-swallowed",
+  "S": 20,
+  "sentence": "If their muscles keep getting weaker or their heart palpitations keep getting stronger, that could be from dangerously low potassium, like my second wife had.",
+  "flags": {
+   "ANYWAY": "yes, a pounding heart and tired muscles are normal on MDMA",
+   "CAN'T TELL": "yes, \"keep getting\" stronger or weaker over what time, and potassium can't be told from heat, muscle breakdown or the drug",
+   "RIGHT": "yes, the potassium cause is speculative, and the wife's sign was convulsions, not weakness or palpitations"
+  },
+  "orig_ratio": 0.44,
+  "orig": "Worsening headache, confusion, vomiting, weakness, palpitations, collapse, or seizure raises concern about sodium, potassium, temperature, hydration, kidneys, and broader toxicity.",
+  "in_guide": true
+ },
+ {
+  "part": "mdma-chest-swallowed",
+  "S": 21,
+  "sentence": "A seizure or collapse can result from low sodium, magnesium or potassium, and can also come from overheating or MDMA toxicity.",
+  "flags": {
+   "CAN'T TELL": "yes, you cannot tell which of sodium, magnesium, potassium, overheating or toxicity caused it",
+   "MISREAD": "yes, reads as an explanation, never says to call at once, though it sits in the call-medics list"
+  },
+  "orig_ratio": 0.4,
+  "orig": "A whole leaf can easily end the trip and, in my experience, may prevent tripping for days afterward.",
+  "in_guide": true
+ },
+ {
+  "part": "mdma-chest-swallowed",
+  "S": 22,
+  "sentence": "People with impaired kidneys do need to be more cautious with large, rapid magnesium doses because they may not clear magnesium normally.",
+  "flags": {
+   "CAN'T TELL": "yes, you can't know a friend's kidneys, and \"more cautious\" gives no action",
+   "RIGHT": "yes, caution only for known kidney disease implies everyone else is fine, yet MDMA itself can injure kidneys and dehydration slows clearing"
+  },
+  "orig_ratio": 1.0,
+  "orig": "People with impaired kidneys do need to be more cautious with large, rapid magnesium doses because they may not clear magnesium normally.",
+  "in_guide": true
+ },
+ {
+  "part": "mdma-chest-swallowed",
+  "S": 23,
+  "sentence": "But they should be far more worried about the MDMA.",
+  "flags": {
+   "MISREAD": "yes, \"they\" is unclear and it reads as downplaying the magnesium risk just raised"
+  },
+  "orig_ratio": 0.47,
+  "orig": "Shungite should not be drunk unless it has been properly washed of heavy metals.",
+  "in_guide": true
+ },
+ {
+  "part": "mdma-chest-swallowed",
+  "S": 24,
+  "sentence": "MDMA can cause overheating, rhabdomyolysis, dangerous electrolyte shifts, and acute kidney injury.",
+  "flags": {
+   "CAN'T TELL": "yes, no sign is given (dark urine, muscle pain, no urine) that a friend could look for",
+   "FROM": "yes, rhabdomyolysis, acute kidney injury and electrolyte shifts are hospital terms"
+  },
+  "orig_ratio": 0.79,
+  "orig": "But they should be far more worried about the MDMA.** MDMA can cause overheating, rhabdomyolysis, dangerous electrolyte shifts, and acute kidney injury.",
+  "in_guide": true
+ },
+ {
+  "part": "mdma-chest-swallowed",
+  "S": 25,
+  "sentence": "Kidney impairment is a strong reason not to take MDMA--not a reason to sit there with worsening jaw tension after taking it.",
+  "flags": {
+   "RIGHT": "yes, can be read as telling someone with bad kidneys to still take the magnesium, and \"reason not to take MDMA\" is no use after taking it",
+   "MISREAD": "yes, contradicts S26"
+  },
+  "orig_ratio": 1.0,
+  "orig": "Kidney impairment is a strong reason not to take MDMA—not a reason to sit there with worsening jaw tension after taking it.",
+  "in_guide": true
+ },
+ {
+  "part": "mdma-chest-swallowed",
+  "S": 26,
+  "sentence": "I would not tell somebody with serious kidney impairment to copy my one-gram-per-minute approach blindly; I would tell them to treat the situation as higher-risk and get help sooner.",
+  "flags": {
+   "CAN'T TELL": "yes, \"serious kidney impairment\", \"blindly\" and \"sooner\" have no sign or time",
+   "RIGHT": "yes, the safe line is plainly don't give it and call",
+   "MISREAD": "yes, \"blindly\" suggests informed copying is fine"
+  },
+  "orig_ratio": 1.0,
+  "orig": "I would not tell somebody with serious kidney impairment to copy my one-gram-per-minute approach blindly; I would tell them to treat the situation as higher-risk and get help sooner.",
+  "in_guide": true
+ },
+ {
+  "part": "mdma-chest-swallowed",
+  "S": 28,
+  "sentence": "DMSO is also my first remedy for many injuries and some chest pain.",
+  "flags": {
+   "CAN'T TELL": "yes, DMSO is never introduced (what it is, grade, how to apply) and \"also\" points to something not in this text",
+   "RIGHT": "yes, \"first remedy\" for chest pain delays the standard step of calling emergency help; no source",
+   "MISREAD": "yes, \"some chest pain\" never says which"
+  },
+  "orig_ratio": 0.48,
+  "orig": "A demon can fight hatred, feed on fear, argue with pride, and seduce grandiosity.",
+  "in_guide": true
+ },
+ {
+  "part": "mdma-chest-swallowed",
+  "S": 29,
+  "sentence": "After I overused erythritol, I developed angina that lasted for days.",
+  "flags": {
+   "CAN'T TELL": "yes, you can't tell angina from a heart attack",
+   "RIGHT": "yes, angina lasting days calls for a doctor and this models staying home; the erythritol cause is self-diagnosed and unsourced"
+  },
+  "orig_ratio": 1.0,
+  "orig": "After I overused erythritol, I developed angina that lasted for days.",
+  "in_guide": true
+ },
+ {
+  "part": "mdma-chest-swallowed",
+  "S": 30,
+  "sentence": "I took DMSO, the pain disappeared within about a minute, and it never returned.",
+  "flags": {
+   "RIGHT": "yes, pain vanishing after DMSO doesn't show the heart problem is gone (S42 says DMSO blocks pain); one case",
+   "MISREAD": "yes, reassures that it works"
+  },
+  "orig_ratio": 1.0,
+  "orig": "I took DMSO, the pain disappeared within about a minute, and it never returned.",
+  "in_guide": true
+ },
+ {
+  "part": "mdma-chest-swallowed",
+  "S": 32,
+  "sentence": "When they gave it to rats for three days before a heart attack, those rats lost about three quarters less heart muscle than the rats who didn't get DMSO.",
+  "flags": {
+   "MISREAD": "yes, \"lost about three quarters less heart muscle\" can be read as losing three quarters of it"
+  },
+  "orig_ratio": 0.41,
+  "orig": "I believe DMSO works better for stroke and most acute brain damage than anything else readily available to ordinary people.",
+  "in_guide": true
+ },
+ {
+  "part": "mdma-chest-swallowed",
+  "S": 33,
+  "sentence": "Most heart attacks come from a clot blocking an artery, so it's a good sign that DMSO also slowed clotting, in mice and in human platelets (the blood cells that start clots) in a dish.",
+  "flags": {
+   "RIGHT": "yes, slowed clotting in mice and a dish is far from treating a person, and an anti-clotting effect would be harmful if the \"stroke signs\" in S40 are a bleed",
+   "MISREAD": "yes, \"a good sign\" reassures"
+  },
+  "orig_ratio": 0.37,
+  "orig": "Don’t combine it with blood-thinning medication because DMSO also thins the blood.",
+  "in_guide": true
+ },
+ {
+  "part": "mdma-chest-swallowed",
+  "S": 34,
+  "sentence": "For steady chest pain that's mild, I'd just use DMSO + magnesium chloride on the chest, as long as they're fully alert.",
+  "flags": {
+   "CAN'T TELL": "yes, you can't tell mild steady chest pain from an early heart attack, and no amount, strength or method is given for DMSO + magnesium chloride on skin",
+   "RIGHT": "yes, S31 says evidence is only preventive, in animals; chest pain after a stimulant is a reason to call first",
+   "MISREAD": "yes, \"I'd just use\" sounds low-stakes"
+  },
+  "orig_ratio": 0.45,
+  "orig": "If this is MDMA, move to magnesium chloride and the broader electrolyte branch instead.** I do not yet have data that pes-caprae aborts MDMA.",
+  "in_guide": true
+ },
+ {
+  "part": "mdma-chest-swallowed",
+  "S": 35,
+  "sentence": "For the following more serious signs (or if unsure), I'd also call medics:",
+  "flags": {
+   "MISREAD": "yes, \"more serious signs\" implies mild chest pain needs no call"
+  },
+  "orig_ratio": 0.49,
+  "orig": "For objective stroke-like signs, I would use DMSO immediately **while someone calls medics**.",
+  "in_guide": true
+ },
+ {
+  "part": "mdma-chest-swallowed",
+  "S": 38,
+  "sentence": "- It spreads from the chest into an arm or the jaw.",
+  "flags": {
+   "ANYWAY": "yes, jaw tension is normal on MDMA (S3)",
+   "CAN'T TELL": "yes, you can't tell a clenching ache from pain spreading from the chest"
+  },
+  "orig_ratio": 0.48,
+  "orig": "That finishes the rescue-chemistry side of the guide.",
+  "in_guide": true
+ },
+ {
+  "part": "mdma-chest-swallowed",
+  "S": 39,
+  "sentence": "- Shortness of breath or sweating shows up also.",
+  "flags": {
+   "ANYWAY": "yes, sweating and breathlessness are normal when dancing hot on MDMA",
+   "CAN'T TELL": "yes, breathless from the heart versus anxious breathing"
+  },
+  "orig_ratio": 0.46,
+  "orig": "Some people over-breathe during panic.",
+  "in_guide": true
+ },
+ {
+  "part": "mdma-chest-swallowed",
+  "S": 40,
+  "sentence": "- Any of the stroke signs from the brain checks above show up, like slurred speech or a drooping face.",
+  "flags": {
+   "ANYWAY": "yes, slurred speech is common with alcohol, benzos, ketamine or GHB",
+   "CAN'T TELL": "yes, \"the brain checks above\" are not in this text"
+  },
+  "orig_ratio": 0.43,
+  "orig": "It can be dangerous when someone is vomiting, sedated, seizing, or unable to swallow safely.",
+  "in_guide": true
+ },
+ {
+  "part": "mdma-chest-swallowed",
+  "S": 41,
+  "sentence": "- They feel faint, or they collapse.",
+  "flags": {
+   "ANYWAY": "yes, feeling faint is common when hot, dancing or dehydrated (collapse itself is a sound sign)"
+  },
+  "orig_ratio": 0.54,
+  "orig": "> then you and the joker",
+  "in_guide": true
+ },
+ {
+  "part": "mdma-chest-swallowed",
+  "S": 42,
+  "sentence": "Keep in mind that DMSO can also block pain signals, so even if the pain fades, it could still be worth having a medical checkup later.",
+  "flags": {
+   "CAN'T TELL": "yes, you can't tell whether pain faded from DMSO numbing or because it resolved",
+   "RIGHT": "yes, \"a checkup later\" is wrong for possible heart pain, which needs checking now",
+   "MISREAD": "yes, reassures"
+  },
+  "orig_ratio": 0.48,
+  "orig": "DMSO can also block pain signals, so pain relief alone does not prove that the underlying problem has ended.",
+  "in_guide": true
+ },
+ {
+  "part": "mdma-chest-swallowed",
+  "S": 45,
+  "sentence": "Figure out how much of what was swallowed and how long ago, then see what the body is doing: are they suffering from slow and shallow breathing (respiratory depression, from opioids, benzos and alcohol)?",
+  "flags": {
+   "CAN'T TELL": "yes, how much and when is unknowable for unknown pills, and \"slow and shallow\" has no breath count",
+   "FROM": "yes, \"respiratory depression\" and \"benzos\"",
+   "RIGHT": "yes, gives no immediate step for slow breathing (call, recovery position, naloxone if opioid) and starts with investigating"
+  },
+  "orig_ratio": 0.38,
+  "orig": "A huge amount of what gets called “deep psychedelic crisis” is a nervous system begging for a less irritating room.",
+  "in_guide": true
+ },
+ {
+  "part": "mdma-chest-swallowed",
+  "S": 46,
+  "sentence": "Or is it rapid breathing, heart rate, and agitation, signs of stimulant toxicity?",
+  "flags": {
+   "ANYWAY": "yes, fast breathing, heart rate and agitation are normal on MDMA, stimulants or in a bad trip",
+   "CAN'T TELL": "yes, no number for \"rapid\""
+  },
+  "orig_ratio": 0.45,
+  "orig": "No strain, no long breath-holds while intoxicated, and stop if it spikes fear.",
+  "in_guide": true
+ },
+ {
+  "part": "mdma-chest-swallowed",
+  "S": 47,
+  "sentence": "Do you see symptoms of serotonin toxicity, like seizure, dangerous overheating, tremor?",
+  "flags": {
+   "ANYWAY": "yes, tremor is common on psychedelics and MDMA",
+   "CAN'T TELL": "yes, \"dangerous\" overheating has no sign or temperature",
+   "FROM": "yes, \"serotonin toxicity\""
+  },
+  "orig_ratio": 0.44,
+  "orig": "### Do this immediately when serotonin toxicity is reasonably suspected:",
+  "in_guide": true
+ },
+ {
+  "part": "mdma-chest-swallowed",
+  "S": 48,
+  "sentence": "Do they have vomiting or diarrhea beyond what they can handle?",
+  "flags": {
+   "ANYWAY": "yes, S49 calls these normal",
+   "CAN'T TELL": "yes, \"beyond what they can handle\" can't be judged"
+  },
+  "orig_ratio": 0.5,
+  "orig": "Try the safest option for two minutes and see what actually happens.",
+  "in_guide": true
+ },
+ {
+  "part": "mdma-chest-swallowed",
+  "S": 49,
+  "sentence": "Some of these symptoms are also normal, like vomiting and diarrhea, which are helpful in undoing an overdose, up to a point.",
+  "flags": {
+   "CAN'T TELL": "yes, \"up to a point\" has no point",
+   "RIGHT": "yes, vomiting and diarrhea \"undoing an overdose\" is unsupported; vomiting risks choking and dehydration; conflicts with S19",
+   "MISREAD": "yes, \"these symptoms\" could include slow breathing"
+  },
+  "orig_ratio": 0.41,
+  "orig": "Magnesium chloride is also generally less likely to cause diarrhea than several other replacement salts, including forms deliberately used as laxatives.",
+  "in_guide": true
+ },
+ {
+  "part": "mdma-chest-swallowed",
+  "S": 50,
+  "sentence": "Slow breathing is normal with iboga, but if cardiac irregularities come along with it, that's an extra danger sign.",
+  "flags": {
+   "CAN'T TELL": "yes, cardiac irregularities can't be told without a monitor",
+   "RIGHT": "yes, slow breathing is not known as normal with iboga, whose main danger is cardiac, so \"extra danger sign\" understates",
+   "MISREAD": "yes, reassures about slow breathing, against S45"
+  },
+  "orig_ratio": 0.43,
+  "orig": "Set behavioral boundaries without humiliation: “I won’t help anybody hurt themselves or another person.",
+  "in_guide": true
+ },
+ {
+  "part": "mdma-chest-swallowed",
+  "S": 51,
+  "sentence": "Activated charcoal may help after some recent oral ingestions when the substance binds to it and the person is fully alert enough to swallow safely.",
+  "flags": {
+   "CAN'T TELL": "yes, \"recent\", which substances bind and \"fully alert enough\" can't be judged or parsed",
+   "RIGHT": "yes, charcoal at home is normally given only on poison control or medic direction; choking risk"
+  },
+  "orig_ratio": 1.0,
+  "orig": "Activated charcoal may help after some recent oral ingestions when the substance binds to it and the person is fully alert enough to swallow safely.",
+  "in_guide": true
+ },
+ {
+  "part": "mdma-chest-swallowed",
+  "S": 53,
+  "sentence": "Clinical review.",
+  "flags": {
+   "CAN'T TELL": "yes, it says nothing",
+   "MISREAD": "yes, unclear whether it is a heading, an order or a leftover note"
+  },
+  "orig_ratio": 1.0,
+  "orig": "Clinical review.",
+  "in_guide": true
+ },
+ {
+  "part": "mdma-chest-swallowed",
+  "S": 54,
+  "sentence": "Poison control may be useful when the substance, combination, delayed risk, or value of charcoal is unclear.",
+  "flags": {
+   "CAN'T TELL": "yes, \"delayed risk\" is unclear and no number or country is given",
+   "RIGHT": "yes, poison control is the usual free first call for any swallowed substance, not only when unclear",
+   "MISREAD": "yes, the substance is nearly always unclear, so this reads as optional"
+  },
+  "orig_ratio": 1.0,
+  "orig": "Poison control may be useful when the substance, combination, delayed risk, or value of charcoal is unclear.",
+  "in_guide": true
+ },
+ {
+  "part": "mdma-chest-swallowed",
+  "S": 55,
+  "sentence": "I do not treat it as a mandatory ritual; usefulness varies by country and by whoever answers.",
+  "flags": {
+   "RIGHT": "yes, discourages a free expert service without an alternative",
+   "MISREAD": "yes, \"it\" could mean charcoal, and \"ritual\" dismisses calling"
+  },
+  "orig_ratio": 1.0,
+  "orig": "I do not treat it as a mandatory ritual; usefulness varies by country and by whoever answers.",
+  "in_guide": true
+ },
+ {
+  "part": "mdma-chest-swallowed",
+  "S": 56,
+  "sentence": "It is decision support, not first aid.",
+  "flags": {
+   "RIGHT": "yes (mild), \"not first aid\" may lead a reader to skip poison control, which gives first-aid directions",
+   "MISREAD": "yes, \"It\" is ambiguous (charcoal or poison control)"
+  },
+  "orig_ratio": 1.0,
+  "orig": "It is decision support, not first aid.",
+  "in_guide": true
+ },
+ {
+  "part": "serotonin",
+  "S": 6,
+  "sentence": "To diagnose serotonin syndrome, we can use the Hunter criteria, the same checklist clinicians use.",
+  "flags": {
+   "CAN'T TELL": "yes, I'm not a clinician and can't \"diagnose\" anything at the bedside",
+   "FROM": "yes, Hunter criteria are a clinic exam checklist, and the tests behind them (reflex hammer, flexing an ankle, watching eye movement) are not things a friend does"
+  },
+  "orig_ratio": 0.44,
+  "orig": "Clinicians often use the Hunter criteria.",
+  "in_guide": true
+ },
+ {
+  "part": "serotonin",
+  "S": 8,
+  "sentence": "- Spontaneous clonus: involuntary rhythmic muscle spasms, with no stimulation needed to set it off, would be one full pattern",
+  "flags": {
+   "CAN'T TELL": "yes, I couldn't say whether rhythmic jerking is clonus, shivering, a seizure or just shaking"
+  },
+  "orig_ratio": 0.6,
+  "orig": "Spontaneous clonus:** involuntary rhythmic muscle contractions and relaxations occurring without stimulation.",
+  "in_guide": true
+ },
+ {
+  "part": "serotonin",
+  "S": 9,
+  "sentence": "- Inducible clonus, spasms set off by stretching/flexing a muscle, plus agitation or sweating would be counted as one pattern altogether.",
+  "flags": {
+   "ANYWAY": "yes, agitation and sweating are already expected on MDMA or a psychedelic, so they add almost nothing",
+   "CAN'T TELL": "yes, I don't know how to \"set off\" clonus by flexing a muscle, or how much flexing is safe",
+   "FROM": "yes, clinic exam maneuver"
+  },
+  "orig_ratio": 0.49,
+  "orig": "Inducible clonus plus agitation or sweating.**",
+  "in_guide": true
+ },
+ {
+  "part": "serotonin",
+  "S": 10,
+  "sentence": "- Ocular clonus (rapid involuntary eye movements) plus agitation or sweating, another pattern together.",
+  "flags": {
+   "ANYWAY": "yes, agitation and sweating are already true",
+   "CAN'T TELL": "yes, I couldn't tell ocular clonus from the eye movements a psychedelic or stimulant causes",
+   "FROM": "yes, neuro exam sign"
+  },
+  "orig_ratio": 0.53,
+  "orig": "Ocular clonus plus agitation or sweating:** rapid rhythmic involuntary eye movements.",
+  "in_guide": true
+ },
+ {
+  "part": "serotonin",
+  "S": 11,
+  "sentence": "- Another is tremor (shaking) along with hyperreflexia (abnormally brisk reflexes).",
+  "flags": {
+   "ANYWAY": "yes, shaking is common on MDMA or stimulants when nothing is wrong",
+   "CAN'T TELL": "yes, I can't test reflexes to know \"hyperreflexia\"",
+   "FROM": "yes, clinic exam"
+  },
+  "orig_ratio": 0.64,
+  "orig": "Tremor plus hyperreflexia:** shaking together with abnormally brisk reflexes.",
+  "in_guide": true
+ },
+ {
+  "part": "serotonin",
+  "S": 12,
+  "sentence": "- Lastly, Hypertonia (muscular rigidity) with fever above 38°C (100.4°F), as well as ocular or inducible clonus.",
+  "flags": {
+   "CAN'T TELL": "yes, I may have no thermometer and can't judge rigidity or clonus, so I can't check 38°C",
+   "FROM": "yes, clinic criterion"
+  },
+  "orig_ratio": 0.76,
+  "orig": "Hypertonia plus fever:** rigidity with temperature above 38°C (100.4°F), together with ocular or inducible clonus.",
+  "in_guide": true
+ },
+ {
+  "part": "serotonin",
+  "S": 13,
+  "sentence": "So if you see any of these patterns, call medics.",
+  "flags": {
+   "ANYWAY": "yes, since several of the patterns lean on tremor, sweating and agitation, which a person on MDMA often has, this could fire for nearly everyone",
+   "CAN'T TELL": "yes, I can't tell which pattern I'm seeing, so it doesn't say when to call if I'm unsure (the answer should be: call early)"
+  },
+  "orig_ratio": 0.52,
+  "orig": "> you see the joker’s mirror",
+  "in_guide": true
+ },
+ {
+  "part": "serotonin",
+  "S": 18,
+  "sentence": "It doesn't matter if they are prescribed an antidepressant (an SSRI like Prozac, or an SNRI or MAOI), it's too risky right now.",
+  "flags": {
+   "RIGHT": "doubt, \"doesn't matter if prescribed\" should say only skip the next dose and call medics/poison control, not stop the medicine for good (stopping some antidepressants or MAOIs suddenly causes its own problems)",
+   "MISREAD": "yes, could be read as \"tell them to quit their antidepressant\""
+  },
+  "orig_ratio": 0.4,
+  "orig": "Because they are unprepared to make the best of the experience, and unprepared to integrate it after, it’s sort of like being thrown into the deep end of a swimming pool before you learn to swim.",
+  "in_guide": true
+ },
+ {
+  "part": "serotonin",
+  "S": 22,
+  "sentence": "If the person is fully alert and able to swallow, I would give cyproheptadine early, since it blocks serotonin receptors.",
+  "flags": {
+   "CAN'T TELL": "yes, no dose is given and I'd have to know the dose and where to get it",
+   "RIGHT": "doubt, a prescription drug given by a friend with no dose; cyproheptadine is sedating and anticholinergic (can reduce sweating, so could worsen overheating, and sedation may hide worsening); S23 itself says the evidence is weak, so \"give early\" sits badly with it"
+  },
+  "orig_ratio": 0.92,
+  "orig": "If the person is fully alert and able to swallow, I would give cyproheptadine early.** It antagonizes serotonin receptors.",
+  "in_guide": true
+ },
+ {
+  "part": "serotonin",
+  "S": 39,
+  "sentence": "But if they feel a strong urge to keep moving (akathisia), I'd have them do some fidgeting (especially of the calf muscle, flexing the feet), which can soothe that urge without the over-activity risk.",
+  "flags": {
+   "CAN'T TELL": "yes, I can't tell akathisia (an inner urge to move) from ordinary agitation",
+   "FROM": "yes, akathisia is a term from antipsychotic side effects",
+   "RIGHT": "doubt, no source that fidgeting soothes it here, and flexing the feet is the very maneuver that sets off ankle clonus, so it may trigger or worsen muscle activity and heat"
+  },
+  "orig_ratio": 0.38,
+  "orig": "Shadow work to me is neither BDSM nor “feeding your demons.” It means bringing loving awareness to the parts of the mind built in fear, pain, humiliation, rejection, and survival.",
+  "in_guide": true
+ },
+ {
+  "part": "serotonin",
+  "S": 41,
+  "sentence": "Overstimulating also dehydrates them, but we can't give fluids unless they're fully alert, able to swallow and not vomiting, and then just small sips of an electrolyte drink (a hypertonic one, more concentrated than an ordinary one, may be required if they still have symptoms of lack of electrolytes).",
+  "flags": {
+   "CAN'T TELL": "yes, I can't tell \"symptoms of lack of electrolytes\", and a hypertonic drink isn't something I have or could mix correctly",
+   "RIGHT": "doubt, a more concentrated drink can worsen dehydration or upset the stomach, and MDMA also carries a risk of low sodium from too much fluid; needs a source"
+  },
+  "orig_ratio": 0.39,
+  "orig": "Hydrate only when fully alert and not vomiting.** Small sips of an appropriate oral rehydration drink are reasonable.",
+  "in_guide": true
+ },
+ {
+  "part": "serotonin",
+  "S": 45,
+  "sentence": "Keep track of how their breathing is doing, as that's one of the main indicators of how dangerous the seizure is, according to the CDC.",
+  "flags": {
+   "CAN'T TELL": "yes, \"keep track of breathing\" says nothing about what's dangerous or what to do (tell the dispatcher; recovery position if seizing)",
+   "FROM": "yes, a CDC seizure severity note carried into a serotonin syndrome step, and no seizure has been mentioned yet",
+   "RIGHT": "doubt, source is general seizure guidance, not SS",
+   "MISREAD": "yes, sits oddly inside the \"write down what they took\" step"
+  },
+  "orig_ratio": 0.42,
+  "orig": "Put one hand on the heart and the other on the solar plexus just below it, sending love to the inner child.",
+  "in_guide": true
+ },
+ {
+  "part": "serotonin",
+  "S": 48,
+  "sentence": "Niacin is actually unsafe with serotonin syndrome, since at the doses used to end a trip it can cause flushing, dizziness and low blood pressure (NIH).",
+  "flags": {
+   "FROM": "yes, the reasons given (flushing, dizziness, low blood pressure) are niacin's general side effects, not anything specific to serotonin syndrome",
+   "RIGHT": "doubt, \"actually unsafe with serotonin syndrome\" is not supported by that NIH source, though avoiding it is still a sensible caution"
+  },
+  "orig_ratio": 0.42,
+  "orig": "Don’t combine it with blood-thinning medication because DMSO also thins the blood.",
+  "in_guide": true
+ },
+ {
+  "part": "serotonin",
+  "S": 49,
+  "sentence": "I'd also leave out this guide's Syrian rue oil for now: made at home it has almost none of the harmala alkaloids, but I couldn't find any research on it with MDMA, so it could help or harm here.",
+  "flags": {
+   "RIGHT": "doubt, \"almost none of the harmala alkaloids\" then \"could help or harm\" doesn't add up; if it has almost none, why would it harm, and why would it help",
+   "MISREAD": "yes, I can't tell whether to use it or not until \"leave it out\""
+  },
+  "orig_ratio": 0.41,
+  "orig": "I know a few people who quit because they simply couldn’t keep going through the pain that MDMA brought up for them.",
+  "in_guide": true
+ },
+ {
+  "part": "serotonin",
+  "S": 50,
+  "sentence": "Magnesium chloride is the one I would consider, since many people with serotonin syndrome run low on magnesium (a nursing review).",
+  "flags": {
+   "CAN'T TELL": "yes, no check of whether I'm \"low\" in magnesium, and the amounts are elsewhere",
+   "FROM": "yes, \"a nursing review\" is a weak source for a claim about low magnesium",
+   "RIGHT": "doubt, giving magnesium by mouth can cause diarrhea and vomiting, and if the kidneys are strained by muscle breakdown (S38), magnesium can build up; needs better evidence"
+  },
+  "orig_ratio": 0.47,
+  "orig": "I would also use topical magnesium chloride and consider topical DMSO with a known CBD preparation as adjuncts.",
+  "in_guide": true
+ },
+ {
+  "part": "serotonin",
+  "S": 51,
+  "sentence": "If they're fully alert and able to swallow, I'd give it by mouth, especially with MDMA-related jaw tension or muscle activity (the amounts are in MDMA:",
+  "flags": {
+   "ANYWAY": "yes, jaw tension is already normal on MDMA, so \"especially with MDMA jaw tension\" points at nearly everyone on MDMA",
+   "CAN'T TELL": "yes, the amounts are in another section (\"MDMA: Magnesium Alarm, above\") that I'd have to find in the middle of an emergency",
+   "MISREAD": "yes, the sentence is split across S51 and S52 and ends mid-thought"
+  },
+  "orig_ratio": 0.47,
+  "orig": "If the person is fully alert and able to swallow, I would give cyproheptadine early.** It antagonizes serotonin receptors.",
+  "in_guide": true
+ },
+ {
+  "part": "serotonin",
+  "S": 53,
+  "sentence": "Topical magnesium chloride if they're not able to swallow.",
+  "flags": {
+   "CAN'T TELL": "yes, no amount, no way to apply it, and I can't tell it's working",
+   "RIGHT": "doubt, little evidence that skin magnesium gets absorbed enough to matter, and someone who can't swallow is an ambulance-now case, so it may distract",
+   "MISREAD": "yes, a fragment with no verb, hard to read as an instruction"
+  },
+  "orig_ratio": 0.47,
+  "orig": "Use **one calm human anchor as the lead**.",
+  "in_guide": true
+ }
+]

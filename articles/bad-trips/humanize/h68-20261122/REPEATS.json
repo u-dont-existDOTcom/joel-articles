@@ -1,0 +1,160 @@
+{
+ "pairs": [
+  {
+   "j": 0.67,
+   "r": 0.79,
+   "a": [
+    "B400",
+    "Demons, Jinn, and Entities",
+    "So train before you need it, sending love to a frightening image, to someone you hate (without approving of what they did), to your shame and your body, to sickness and aging and fear and death, and to the inner child."
+   ],
+   "b": [
+    "B366b",
+    "Plan a Trip or Ceremony",
+    "And train before you need it, sending love to a frightening image, to someone you hate (without approving of what they did), and to the inner child."
+   ],
+   "shared": [
+    "approving",
+    "child",
+    "frightening",
+    "hate",
+    "image",
+    "inner",
+    "love",
+    "need",
+    "sending",
+    "someone",
+    "train",
+    "without"
+   ]
+  },
+  {
+   "j": 0.46,
+   "r": 0.71,
+   "a": [
+    "B192",
+    "Shungite, [Holy Water](http://zholy3o.u-dont-exist.com/)",
+    "I mean the water after active ozonation has ended and residual ozone has dissipated."
+   ],
+   "b": [
+    "B196",
+    "Shungite, [Holy Water](http://zholy3o.u-dont-exist.com/)",
+    "No ozone gas was present; this was contact with the water after ozonation had ended and the residual ozone had dissipated."
+   ],
+   "shared": [
+    "dissipated",
+    "ended",
+    "ozonation",
+    "ozone",
+    "residual",
+    "water"
+   ]
+  },
+  {
+   "j": 0.5,
+   "r": 0.66,
+   "a": [
+    "B298",
+    "Grounding Menu",
+    "Put one hand on the heart and one on the solar plexus."
+   ],
+   "b": [
+    "B387",
+    "Hand on Heart, Gratitude",
+    "Put one hand on the heart and the other on the solar plexus just below it, sending love to the inner child."
+   ],
+   "shared": [
+    "hand",
+    "heart",
+    "plexus",
+    "put",
+    "solar"
+   ]
+  },
+  {
+   "j": 0.43,
+   "r": 0.55,
+   "a": [
+    "R31-ALONE",
+    "Alone at 3 a.m.",
+    "While you wait, put one hand on your heart and the other on your solar plexus just under your chest, and say to yourself: \"This feeling is allowed to move through."
+   ],
+   "b": [
+    "B83",
+    "Helping? Anchor, Not Guru",
+    "If it helps, you can say to yourself: *This feeling is allowed to move through."
+   ],
+   "shared": [
+    "allowed",
+    "feeling",
+    "move",
+    "say",
+    "through",
+    "yourself"
+   ]
+  }
+ ],
+ "spread": {
+  "electrolyte drink": {
+   "\"My Brain Feels Damaged\"": 3,
+   "MDMA: Magnesium Alarm": 4,
+   "Act Now on SS": 2,
+   "Plan a Trip or Ceremony": 1
+  },
+  "DMSO": {
+   "\"My Brain Feels Damaged\"": 12,
+   "Seizure: What Else Helps": 3,
+   "Chest Pain and Injury": 7,
+   "Act Now on SS": 1,
+   "Creatine for Brain & Bliss": 1,
+   "[**DMSO**](http://dmso.u-dont-exist.com/)": 20,
+   "Syrian Rue Oil: Gentler": 1,
+   "Ocean Water Calms": 1,
+   "Shungite, [Holy Water](http://zholy3o.u-dont-exist.com/)": 3,
+   "Lingering Symptoms?": 3
+  },
+  "humic": {
+   "\"My Brain Feels Damaged\"": 5,
+   "Seizure: What Else Helps": 1,
+   "Remedies Needing Caution": 2,
+   "Humic Acid for the Brain": 3,
+   "Grounding Menu": 1
+  },
+  "magnesium chloride": {
+   "\"My Brain Feels Damaged\"": 1,
+   "Seizure: What Else Helps": 1,
+   "MDMA: Magnesium Alarm": 3,
+   "Chest Pain and Injury": 1,
+   "Act Now on SS": 2,
+   "[**DMSO**](http://dmso.u-dont-exist.com/)": 1
+  },
+  "Ipomoea": {
+   "\"My Brain Feels Damaged\"": 1,
+   "Beach Morning Glory": 2,
+   "Niacin \"Flushes\" Trips Out": 1
+  },
+  "activated charcoal": {
+   "Swallowed Too Much?": 2,
+   "[ZeoCharge](https://ibogaqueen.substack.com/p/here-is-why-everyone-should-use-zeocharge) & Ferment": 1,
+   "Activated Charcoal": 5,
+   "[**DMSO**](http://dmso.u-dont-exist.com/)": 2,
+   "Shungite, [Holy Water](http://zholy3o.u-dont-exist.com/)": 11
+  },
+  "poison control": {
+   "Swallowed Too Much?": 1,
+   "Act Now on SS": 1
+  },
+  "cyproheptadine": {
+   "Act Now on SS": 1
+  },
+  "cool / ice / cold bath": {
+   "Act Now on SS": 4
+  },
+  "niacin": {
+   "Act Now on SS": 3,
+   "Syrian Rue Oil: Gentler": 1,
+   "Niacin \"Flushes\" Trips Out": 8,
+   "Lingering Symptoms?": 3
+  }
+ }
+}

@@ -115,6 +115,14 @@ HIS_FIXES_FROM = '2026-11-12'
 # better sense check in general". The receipts make writes carry the field from that hour; a receipt made before it with
 # no field is read as it was.
 FIT_FROM = '2026-11-13'
+# Lesson bad-trips-2026-11-22a (Joel, 2026-11-22 17:21 UTC, on my sentence after "Serotonin syndrome comes from too much
+# serotonin, so I'd stop anything suspected of adding more": "S2 doesn't follow from S1. you really don't see that? what's
+# connecting them? even "So" would connect", and on "Even if they take an antidepressant every day ...": "I'm reading like 20
+# words before I understand why I'm reading them"): from receipts made on this day, the words that tie a sentence to the one
+# before come at its start, within its first LINK_START_WORDS words ("So", "It doesn't matter if", "And while you might
+# think", "Although"), not somewhere after the reader has started wondering; "none: why" stays for a new step.
+LINK_START_FROM = '2026-11-22'
+LINK_START_WORDS = 5
 READER_USE = re.compile(r'^\s*(yes\s*:\s*)?they\b\s+\S.{20,}', re.I | re.S)
 HIS_OWN = re.compile(r'^\s*his own\s*:\s*\S.{8,}', re.I | re.S)
 NOT_HIS = ('--his is only for what Joel wrote himself, before any humanizing: give --whose "his own: what and where". His '
@@ -265,6 +273,13 @@ def check(text, receipt):
                          'reader\'s case ("One reason to think about, is that", "So to address that"); if there are '
                          'none, the sentence needs them, or "none: why" (gate neuro-2026-11-06b; Joel: "it was not '
                          'giving the payoff at the start")' % s)
+            elif (receipt.get('made') or '') >= LINK_START_FROM:
+                before = len(re.findall(r"[\w'’-]+", full[:full.lower().index(link.lower())]))
+                if before >= LINK_START_WORDS:
+                    p.append('link for "%s": the words that tie it to the one before ("%s") come after %d words; put '
+                             'the tie at the start, where the reader asks why they are reading it ("So", "It doesn\'t '
+                             'matter if", "And while you might think"; lesson bad-trips-2026-11-22a; Joel: "even \'So\' '
+                             'would connect"), or say "none: why" for a new step' % (s, link, before))
     for c in receipt.get('checked', []):
         for k in ('point', 'found', 'still_needed', 'fate'):
             if not (c.get(k) or '').strip():

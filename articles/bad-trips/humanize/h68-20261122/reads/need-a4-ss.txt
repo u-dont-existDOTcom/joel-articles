@@ -1,0 +1,53 @@
+NEEDS:
+S1: step number 1, marks where the steps begin
+S2: first act: stop anything that adds serotonin
+S3: tells which common substances to withhold (MDMA, stimulants, DXM, tramadol, linezolid)
+S4: tells them not to give a prescribed antidepressant either (act: hold it for now, tell the medics)
+S5: tells them to withhold ayahuasca or Syrian rue, with the reason
+S6: tells them to check for supplements (5-HTP, St John's wort, SAM-e) and withhold them
+S7: act: give cyproheptadine early, only if alert and able to swallow
+S8: tells them the evidence is weak, so cyproheptadine should not replace the other steps (implied act: do not rely on it)
+S9: act: do not wait for the med to work before doing the other steps
+S10: tells them where to get cyproheptadine (prescription, telehealth), so they can act on step 2
+S11: the dose to give, needed if they get the med (changeable sentence; kept, see below)
+S12: act: ask for an ambulance when calling, with the reason
+S13: act: do not drive them to the ER yourself, with the reason
+S14: act: call poison control if the mix is unknown
+S15: step number 4
+S16: why cooling comes first, tells them to address the heat from tense, twitching muscles
+S17: act: move them somewhere cool, remove extra clothes, fan over cool damp cloths
+S18: act: ice packs wrapped in cloth at neck, armpits and groin
+S19: act: no cold bath, with the reason
+S20: act: do not give Tylenol or ibuprofen, with the reason
+S21: step number 5
+S22: act: clear out the crowd and stop arguing
+S23: act: do not let them pace or exercise, with the reason
+S24: act: let them fidget, especially flexing the feet, if they feel a strong urge to move
+S25: step number 6
+S26: act: give small sips of an electrolyte drink only if alert, able to swallow and not vomiting
+S27-S28 (one sentence split by the link): tells them when to switch to a stronger drink (if the low-electrolyte signs from the Magnesium Alarm section are still there), and what it is (saltier, with more magnesium)
+S29: act: how to make that drink at home (normal drink plus a bit of salt and magnesium, or salty broth with magnesium chloride flakes)
+S30: act: leave out extra potassium, with the reason
+S31: nothing the reader does
+S32: step number 7
+S33: act: gather pill bottles and packages for the ER
+S34: act: write down how much of each they took and when, street drugs and supplements included
+S35: act: during a seizure, watch their breathing, which is what medics need to know
+S36: step number 8
+S37: tells them not to use niacin or DMSO here
+S38: tells them why niacin is unsafe, so they will not give it
+S39: act: do not use the Syrian rue oil, with the reason
+S40: act: magnesium chloride is the remedy to consider, with the reason
+S41: act: give magnesium chloride by mouth if alert and able to swallow, and where to find the amounts
+S42: finishes the sentence above and points to the amounts
+S43: act: use topical magnesium chloride if they can't swallow
+
+UNNEEDED:
+- S31: "If theirs is low instead, as it can be after MDMA, the ER will find that and fix it." — the reader does nothing with it: they leave out potassium either way, and the ER handles the rest. "theirs" also has no clear noun to point to (potassium, but the sentence before it talks about muscles releasing potassium), so "low instead" reads as a muddle.
+
+Notes on the other changeable sentences, which stay:
+- S11 stays: someone who gets the med needs the dose.
+- S27-S28 stay: they tell the reader when to use the saltier drink.
+- S29 stays: it says how to make the drink.
+- S30 stays: it says what to leave out.
+- S35 stays: it gives the one act in a seizure the paragraph covers (watch breathing). Nothing in the paragraph says what to do if breathing stops or how to keep them safe in a seizure (clear the space, no restraint, nothing in the mouth, on their side after); the reader may need that, and S12 only says medics will come.
