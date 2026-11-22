@@ -308,3 +308,35 @@ class Link(unittest.TestCase):
         r = filled(text)
         r['sentences'][1]['link'] = 'One reason to think about, is that'
         self.assertEqual(R.check(text, r), [])
+
+
+class LinkAtTheStart(unittest.TestCase):
+    """Lesson bad-trips-2026-11-22a (Joel, 2026-11-22 17:21 UTC: "S2 doesn't follow from S1. you really don't see that?
+    what's connecting them? even "So" would connect"): from receipts made that day, the tie to the sentence before comes
+    within the first five words."""
+    S1 = "Serotonin syndrome comes from too much serotonin, so I'd stop anything suspected of adding more."
+    LATE = S1 + (" No more MDMA or other stimulants, of course, but also no DXM cough syrup, the painkiller tramadol or the "
+                 "antibiotic linezolid.")
+    HIS = S1 + (" So no more MDMA or other stimulants, of course, but also no DXM cough syrup, the painkiller tramadol or "
+                "the antibiotic linezolid.")
+
+    def receipt(self, text, link, made):
+        r = filled(text)
+        r['sentences'][1]['link'] = link
+        r['made'] = made
+        return r
+
+    def test_a_tie_after_five_words_fails_from_the_lesson_on(self):
+        p = R.check(self.LATE, self.receipt(self.LATE, 'of course, but also', '2026-11-22'))
+        self.assertTrue(any(x.startswith('link for') and 'come after' in x for x in p), p)
+
+    def test_his_so_at_the_start_passes(self):
+        self.assertEqual(R.check(self.HIS, self.receipt(self.HIS, 'So', '2026-11-22')), [])
+
+    def test_receipts_made_before_the_lesson_are_checked_as_before(self):
+        p = R.check(self.LATE, self.receipt(self.LATE, 'of course, but also', '2026-11-21'))
+        self.assertFalse(any('come after' in x for x in p), p)
+
+    def test_none_with_a_reason_still_passes(self):
+        r = self.receipt(self.LATE, 'none: a new step, which the reader expects after the one before', '2026-11-22')
+        self.assertFalse(any(x.startswith('link for') for x in R.check(self.LATE, r)))

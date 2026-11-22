@@ -1,0 +1,154 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-22",
+ "text_sha256": "a0738fb78db3a8221aad63fc7122d7009d47448a63ccc8e4fc7b39a41dd68a0e",
+ "text": "If the person is fully alert and able to swallow, I would give cyproheptadine early, since it blocks serotonin receptors. So far, the evidence for this med has only been case reports, and a recent review found them insufficient to show that it works. I wouldn't wait to see whether it does before doing the other steps. And most people won't have it at home anyway, since it needs a prescription in the US, though a telehealth doctor might write one quickly, and only some countries sell it without one.",
+ "section": "Act Now on SS",
+ "reader": "the friend of someone who shows signs of serotonin syndrome (MDMA on top of an antidepressant: twitching muscles, sweating, a racing heart), who has just read 'So if you see any of these patterns, call medics.' and now does these steps while help comes",
+ "sentences": [
+  {
+   "s": "If the person is fully alert and able to swallow, I would give cyproheptadine early, since it blocks serotonin receptors.",
+   "his": true
+  },
+  {
+   "s": "So far, the evidence for this med has only been case reports, and a recent review found them insufficient to show that it works.",
+   "his": true
+  },
+  {
+   "s": "I wouldn't wait to see whether it does before doing the other steps.",
+   "his": true
+  },
+  {
+   "s": "And most people won't have it at home anyway, since it needs a prescription in the US, though a telehealth doctor might write one quickly, and only some countries sell it without one.",
+   "payoff": "they know they probably won't have it, so they go on with the other steps, and how it can be got",
+   "follows": "why not to wait on it, after \"I wouldn't wait\"",
+   "link": "And"
+  }
+ ],
+ "checked": [
+  {
+   "point": "cyproheptadine needs a prescription in the US, and only some countries sell it without one",
+   "found": "his SS-ASKED answer of 2026-11-22 17:21 UTC: \"they can't get it day or night unless it's sold without an Rx at the pharmacy, which currently it is not in the US, but in other countries may be. well, perahps via telehealth they could get it Rx'd rapidly\"",
+   "still_needed": "yes: they don't go looking for it, and go on with the other steps",
+   "fate": "kept"
+  }
+ ],
+ "placement": "step 2 of the eight steps under \"Act Now on SS\" (B136), his own step with one line after it from his SS-ASKED answer (a)",
+ "opens": {
+  "first_sentence": "If the person is fully alert and able to swallow, I would give cyproheptadine early, since it blocks serotonin receptors.",
+  "why_reading": "it tells the friend to give cyproheptadine early if they can, how little to count on it, and that they probably won't have it"
+ },
+ "same_point": "none: read the section from its heading to the next (Serotonin Syndrome (SS)?, How to Check for SS, Act Now on SS); this guide's remedies are named only here in the steps",
+ "needed": {
+  "reader": "a fresh agent (Sonnet) given tools/humanization/needed_read_brief.md with the whole list, his versions and my two additions, its heading, the line before it and what it is for (reads/need-a2-ss-steps.txt; the round before: reads/need-a1-ss-steps.txt)",
+  "unneeded": [
+   "Niacin is actually unsafe with serotonin syndrome, since at the doses used to end a trip it can cause flushing, dizziness and low blood pressure (NIH).",
+   "If they still show the signs of low electrolytes from MDMA:",
+   "Magnesium Alarm above, they may need a hypertonic electrolyte drink with more magnesium and potassium than a normal one, which can be as simple as a normal one with a bit of extra salt, potassium and magnesium thrown in, or a salty potato soup with some Epsom salt."
+  ],
+  "kept": {}
+ },
+ "his_fixes": {
+  "reader": "a fresh agent (Sonnet) given tools/humanization/his_fixes_brief.md, its seventeen ways, with the whole list one sentence a line (reads/his-a2-ss-steps.txt; the round before: reads/his-a1-ss-steps.txt)",
+  "marked": [
+   {
+    "s": "Most people won't have it at home anyway, since in the US it needs a prescription (a telehealth doctor might write one quickly), and only some countries sell it without one.",
+    "difference": "1, 7"
+   },
+   {
+    "s": "If they still show the signs of low electrolytes from MDMA:",
+    "difference": "1, 4, 17"
+   },
+   {
+    "s": "Magnesium Alarm above, they may need a hypertonic electrolyte drink with more magnesium and potassium than a normal one, which can be as simple as a normal one with a bit of extra salt, potassium and magnesium thrown in, or a salty potato soup with some Epsom salt.",
+    "difference": "1, 4, 17"
+   },
+   {
+    "s": "While you wait, you might think of this guide's other remedies, like niacin for ending a trip or DMSO for brain injuries, seizures and chest pain, but I wouldn't use either one here.",
+    "difference": "14"
+   },
+   {
+    "s": "I'd also leave out this guide's Syrian rue oil for now: made at home it has almost none of the harmala alkaloids and might even help, but I couldn't find any research on it with MDMA.",
+    "difference": "1, 9, 10, 17"
+   },
+   {
+    "s": "Magnesium chloride is the one I would consider, since many people with serotonin syndrome run low on magnesium (a nursing review).",
+    "difference": "7"
+   },
+   {
+    "s": "If they're fully alert and able to swallow, I'd give it by mouth, especially with MDMA-related jaw tension or muscle activity (the amounts are in MDMA:",
+    "difference": "4, 7"
+   },
+   {
+    "s": "Magnesium Alarm, above).",
+    "difference": "4, 7"
+   },
+   {
+    "s": "Topical magnesium chloride if they're not able to swallow.",
+    "difference": "15, 16"
+   }
+  ],
+  "kept": {}
+ },
+ "fit": {
+  "reader": "a fresh agent (Sonnet) given tools/humanization/fit_read_brief.md, the universal version, with the whole list (reads/fit-a2-ss-steps.txt; the round before: reads/fit-a1-ss-steps.txt)",
+  "marked": [
+   {
+    "s": "It doesn't matter if they are prescribed an antidepressant (an SSRI like Prozac, or an SNRI or MAOI), it's too risky right now.",
+    "found": "MISREAD"
+   },
+   {
+    "s": "If they still show the signs of low electrolytes from MDMA:",
+    "found": "CAN'T TELL, FROM"
+   },
+   {
+    "s": "Magnesium Alarm above, they may need a hypertonic electrolyte drink with more magnesium and potassium than a normal one, which can be as simple as a normal one with a bit of extra salt, potassium and magnesium thrown in, or a salty potato soup with some Epsom salt.",
+    "found": "CAN'T TELL, FROM, MISREAD"
+   },
+   {
+    "s": "Keep track of how their breathing is doing, as that's one of the main indicators of how dangerous the seizure is, according to the CDC.",
+    "found": "CAN'T TELL, FROM, MISREAD"
+   },
+   {
+    "s": "I'd also leave out this guide's Syrian rue oil for now: made at home it has almost none of the harmala alkaloids and might even help, but I couldn't find any research on it with MDMA.",
+    "found": "MISREAD"
+   },
+   {
+    "s": "If they're fully alert and able to swallow, I'd give it by mouth, especially with MDMA-related jaw tension or muscle activity (the amounts are in MDMA:",
+    "found": "CAN'T TELL, FROM"
+   },
+   {
+    "s": "Magnesium Alarm, above).",
+    "found": "CAN'T TELL, FROM"
+   },
+   {
+    "s": "Topical magnesium chloride if they're not able to swallow.",
+    "found": "CAN'T TELL, MISREAD"
+   }
+  ],
+  "kept": {}
+ },
+ "questions": {
+  "Q1": "PASS: each sentence opens on why it is there: what they may reach for, the reason, the remedy that fits",
+  "Q2": "PASS: every instruction is something the friend does or leaves out, with why",
+  "Q3": "PASS: which remedies, which oil, which form of magnesium, where the amounts are",
+  "Q4": "PASS: the remedies are this guide's own, named by what the guide uses them for; harmala explained in step 1",
+  "Q5": "PASS: each sentence ties to the one before at its start (\"And\", \"Niacin\", \"also\", \"Magnesium chloride is the one\")",
+  "Q6": "PASS: what to leave out, then what to consider, then how",
+  "Q7": "PASS: every fact is one a reader asked about, answered from his answers",
+  "Q8": "PASS: the remedies to leave out together, then magnesium",
+  "Q9": "PASS: one point a sentence, his payoff first"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ },
+ "his_whose": "his own: step 2 as he sent it in round 41 (card TEACH-CYP), the guide's step 2"
+}

@@ -121,10 +121,125 @@
      "why": "what they can measure with what they may have at home, and what the doctors get from it"
     }
    ],
-   "his": {},
-   "missed": [],
-   "his_words": "",
-   "pangram": {}
+   "his": {
+    "1": "right",
+    "2": "wrong",
+    "3": "right",
+    "4": "right",
+    "5": "right",
+    "6": "right",
+    "7": "right",
+    "8": "right",
+    "9": "right",
+    "10": "wrong",
+    "11": "right",
+    "12": "wrong",
+    "13": "wrong",
+    "14": "wrong",
+    "15": "wrong",
+    "16": "wrong"
+   },
+   "missed": [
+    2,
+    10,
+    12,
+    13,
+    14,
+    15,
+    16
+   ],
+   "his_words": "scored in his QUIZ-1 comment of 2026-11-22 17:21 UTC (review/r49/ANSWERS-R49-20261122-1721.json); \"step 3: interestingly, you were right about all your guesses including the question on the last line\"; \"i'm still using pangram to help me see what should be mostly obvious without it\"",
+   "pangram": {
+    "step 1": "his \"So\" alone: AI Detected 64% (ba1cea46); his version: Human High (4cdb8dad)",
+    "step 3": "as I had it: Human, High 61 and Medium 29 (01935319); his last line: Human High (418788ec)",
+    "step 4": "as I had it: AI High (6cda7dcb); his version: Human High (89fd3d40)",
+    "step 7": "as I had it: AI High (6fb8659d); his payoff-first version with all the advice: Human High (88da8b41)"
+   },
+   "his_notes": {
+    "2": "doesn't follow from S1: \"even 'So' would connect\" (his \"So\" alone took step 1 from 100% to 64% AI)",
+    "3": "my \"not sure\" was for the bracket; his reason: \"I'm reading like 20 words before I understand why I'm reading them\": \"Even if\" made \"It doesn't matter if\"",
+    "8": "right: \"as you had it, the last line was the only one not high conf human\"",
+    "9": "my \"not sure\" was for its length; his reason: \"look at how this starts off, i'm immediately wondering why i'm reading this whole paragraph\": opened on the payoff, actionable",
+    "10": "\"it doesn't make sense. like the one thing doesn't directly follow from the other\": \"where they can absorb the most heat\"",
+    "11": "payoff too late: \"Although a cold bath would cool them faster, ... so it's not advisable\", \"and breathe in\" for \"or\"",
+    "12": "\"not explaining soon enough\": \"while you might think fever reducers ... could work by reducing body heat in general\"",
+    "13": "\"could be introduced better, with maybe 'Since'\"",
+    "14": "\"could maybe flow better if merged with S13, and how much of each THEY TOOK, right?\"",
+    "15": "\"this doesn't make much sense to me. what is this there for? ... i'd cut this\"",
+    "16": "\"do we actually have evidence that doing this means something?\": breathing instead, after the CDC"
+   }
+  },
+  {
+   "id": "QUIZ-2",
+   "round": "r50",
+   "card": "QUIZ-2",
+   "passage": "my new lines on round 50: step 2's dose, step 6 (my pick on card SS-DRINK), step 7's seizure line, the naloxone lines after Call Medics For (humanize/h68-20261122/TEST-a4-ss.txt, TEST-a4-nalox.txt)",
+   "written": "2026-11-22, before the page went out and before any Pangram check; read once by three fresh readers (needed, against his fixes, fit), their marks answered",
+   "reading": [
+    {
+     "n": 1,
+     "step": "step 2",
+     "s": "If you do get it, I'd give an adult 12 mg to start, and tell the medics you did.",
+     "mine": "not sure",
+     "why": "\"If you do get it\" ties it to the line before and the dose comes at once, but \"to start\" leaves the next doses unsaid (I left those to the medics, since the ambulance comes long before two hours)"
+    },
+    {
+     "n": 2,
+     "step": "step 6",
+     "s": "If they still show the signs of low electrolytes from MDMA: Magnesium Alarm above, they may need a hypertonic electrolyte drink with more salt and magnesium than a normal one.",
+     "mine": "reads right",
+     "why": "\"still\" ties it to the sips, and the drink, in your bold, comes as soon as the condition is said; the signs stay in your MDMA section, as you asked, so the reader follows the link"
+    },
+    {
+     "n": 3,
+     "step": "step 6",
+     "s": "That can be as simple as a pinch of salt and some magnesium chloride flakes stirred into an ordinary one, or a salty broth with the flakes in it.",
+     "mine": "not sure",
+     "why": "your \"as simple as\" and what a kitchen has, but \"some\" flakes is no amount, and the amounts your MDMA section gives are for jaw tension, not a drink"
+    },
+    {
+     "n": 4,
+     "step": "step 6",
+     "s": "And while you might think to add potassium too, since it can run low after MDMA, I wouldn't add any, because muscles breaking down into the blood release a lot of it, and too much can stop the heart.",
+     "mine": "not sure",
+     "why": "your \"And while you might think\" names the urge before the don't, and the reason comes from step 5, but it carries two reasons (since, because) and may be one too many"
+    },
+    {
+     "n": 5,
+     "step": "step 7",
+     "s": "And if they have a seizure while you wait, do the first aid in Active Seizure above.",
+     "mine": "reads right",
+     "why": "\"while you wait\" ties it to the step, and it points to your first aid instead of saying it again"
+    },
+    {
+     "n": 6,
+     "step": "step 7",
+     "s": "Then I'd tell the medics whether their breathing got better or worse afterward, since the CDC counts trouble breathing after a seizure as a danger sign.",
+     "mine": "reads right",
+     "why": "your act and your reason in your order (\"make note if their breathing is getting better or worse\"), with the seizure now one they had and who the note is for"
+    },
+    {
+     "n": 7,
+     "step": "after Call Medics For",
+     "s": "Slow, shallow breathing can mean an opioid overdose, which naloxone reverses, so if you have it (the Narcan nasal spray), spray it into one nostril right away.",
+     "mine": "not sure",
+     "why": "the reason first, as in your steps, but three things come before the act (what it may be, what reverses it, the brand in brackets)"
+    },
+    {
+     "n": 8,
+     "step": "after Call Medics For",
+     "s": "It doesn't matter if they think they only took MDMA, since fentanyl, an opioid, has turned up in pills sold as MDMA, and naloxone does no harm without one.",
+     "mine": "reads right",
+     "why": "your \"It doesn't matter if\" answers the doubt the reader will have, then both reasons to give it anyway"
+    },
+    {
+     "n": 9,
+     "step": "after Call Medics For",
+     "s": "But naloxone can wear off before the opioid does, so call medics even if they wake up, and if their breathing slows again before help comes, give the second spray in the pack.",
+     "mine": "not sure",
+     "why": "\"But\" ties it, and each act follows from the wearing off, but two acts in one sentence, the second with its own condition"
+    }
+   ]
   }
  ]
 }
