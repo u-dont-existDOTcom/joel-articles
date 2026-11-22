@@ -280,6 +280,49 @@ STILL_NEXT = re.compile(r"(?:But |And )?(?:it|that|this|they|you)(?:['’]s)? (?
 # O19 (Joel, 2026-10-07 15:44; the lane's O15 until 2026-10-09): "lists of 3 especially, and lists in general are overused by AI. try to avoid that unless
 # it's really needed." A bulleted or numbered list in the draft is a REVIEW (lists in a sentence are E125).
 LIST_LINE = re.compile(r"^\s*(?:[-*+•]|\d+[.)])\s+\S", re.M)
+# O71: the reader's action or the verdict, said after the list or questions it serves (see the check below)
+ACT71 = re.compile(r"\b(?:call|calls|calling) (?:medics|an ambulance|emergency|911|for help)\b|\bcall to (?:medics|911)\b|\b(?:get|seek) (?:urgent |medical )?help\b"
+                   r"|\bI'?d (?:just |also |still )?(?:use|give|call|try|get|keep|start|skip|reach|calm)\b"
+                   r"|\bI would (?:use|give|call|try|start|calm)\b|\bkeep (?:the )?\w+ going\b|\b(?:may|might|can) be enough\b"
+                   r"|^(?:So |Then )?(?:Call|Use|Give|Get|Take|Keep|Move|Dim|Offer|Stop|Put|Turn|Start|Continue|Go|Let|Have|"
+                   r"Don't|Do not|Try|Bring|Hold|Leave|Lower|Clear|Cool|Remove|Apply|Treat)\b", re.I)
+VERDICT71 = re.compile(r"^(?:So |Then |And )?(?:if|when) (?:all|any|none|everything|each|both)\b", re.I)
+O71 = ('O71 the action comes after the list or questions it serves (Joel 2026-11-12: "most of all, when the payoff comes too '
+       'late"; his try 7 on my chest-c3 said "I\'d also call medics" before the list and changed nothing else, AI Generated, '
+       '100% to Human Written): say what to do in the lead-in, the way he did ("For the following more serious signs (or if '
+       'unsure), I\'d also call medics:"), and rebuild the paragraph around it (moving only the action left brain-p1 AI; '
+       'acute-c1, rebuilt, read Human, High)')
+# O72 (Joel, 2026-11-12 18:19 UTC, round 38: "that ai tell "if it's safe" which ai says ALLL THE TIME ... pretty much any
+# time you see the word "safe" make sure it needs to be there and there's no ambiguitiy about what it's referring to or how
+# one would ensure that"; his "If you can safely hold them as they try" for my "If it's safe" took the window 15% toward
+# Human). The bare condition fails; any other "safe" of mine is a flag to look at.
+SAFE_BARE = re.compile(r"\b(?:if|when|once|where|as long as) (?:it's|it is|it’s|that's|that is|that’s|it seems) safe\b|\b(?:if|when) safe\b", re.I)
+SAFE_ANY = re.compile(r"\bsafe(?:ly|ty|r|st)?\b", re.I)
+O72 = ('O72 "safe" with nothing saying what it refers to or how to make sure (Joel 2026-11-12: "that ai tell \"if it\'s '
+       'safe\" which ai says ALLL THE TIME ... make sure it needs to be there and there\'s no ambiguitiy about what it\'s '
+       'referring to or how one would ensure that"): say how, the way he did ("If you can safely hold them as they try"), or '
+       'cut it')
+# O73 (the same answer: "you didn't notice that your first symptom was not a symptom? it was the opposite, a sign of
+# health. fixed that and now it's 80% human"; his one-line change "First, are they awake and breathing normally?" to
+# "First, are unconscious or breathing abnormally?" took eleven AI windows to seven Human and one AI Low). A list whose
+# lead-in names warning signs, with a line that says the healthy state.
+WARN_LEAD = re.compile(r"\b(?:warning|signs?|symptoms?|serious|danger(?:ous)?|red flags?|call (?:medics|for help|an ambulance|911)|get (?:urgent )?help)\b", re.I)
+HEALTHY = re.compile(r"\b(?:normally|normal|awake|alert|fine|okay|steady|stable|calm|healthy|safe)\b", re.I)
+# the healthy word said as what is missing ("inability to wake normally", "without normal recovery", "before they're back to normal") is the sign
+NOT_HEALTHY = re.compile(r"\b(?:inability|unable|not|no longer|without|can't|cannot|loss of|lose|losing|fails?|before (?:they're|they are|it's)(?: back)?|isn't|aren't|never)\b[^.?!]*$", re.I)
+O73 = ('O73 a sign of health in a list of warning signs (Joel 2026-11-12: "you didn\'t notice that your first symptom was not a '
+       'symptom? it was the opposite, a sign of health"): each line says the sign the list is for ("are they unconscious or '
+       'breathing abnormally?"), not the healthy state')
+
+# O74 (Joel, 2026-11-13 14:15 UTC, lesson bad-trips-2026-11-12m: "i fixed the call list, you had to remove the periods at the
+# end of each list item (i wouldn't put them in anyway, since they aren't full sentences)"; his check read Human, 0% AI,
+# where my two tries with the periods read Human with a Medium window and two others AI). A list item that finishes its
+# lead-in's sentence ("Call medics if any of these happen:", "Call medics for:", "Bring in mental-health support when:")
+# is not a sentence of its own, so it ends with no period. An item of two sentences or more is left alone.
+COMPLETES_LEAD = re.compile(r"\b(?:if|when|whenever|for|like|such as|include|includes|including|these|this|the following|"
+                            r"any of|one of|either|happen|happens|is|are|means?|signs?)\s*:\s*$", re.I)
+O74 = ('O74 a list item that finishes its lead-in ends with a period (Joel 2026-11-13: "you had to remove the periods at the end '
+       'of each list item (i wouldn\'t put them in anyway, since they aren\'t full sentences)"): end it with no period')
 
 # O6: a feeling or an abstract idea doing what a person does (Joel, 2026-10-02 00:52: "the usage of abstract concepts
 # or feelings as agents is one AI tell because it permits high efficiency of words"; he changed "so the anger goes
@@ -987,6 +1030,70 @@ def main():
             in_list = True
         elif line.strip():
             in_list = False
+    # O71 (Joel, 2026-11-12 16:48 UTC: "most of all, when the payoff comes too late"). A list, or a run of three questions or
+    # more, whose lead-in says no action, with the action or the verdict said after it. His try 7 on my chest-c3 changed only
+    # that ("It's more serious if:" made "For the following more serious signs (or if unsure), I'd also call medics:", the two
+    # sentences after the list cut): AI Generated, 100% to Human Written. Measured the same day: chest-c3, brain-c3 (h46) and
+    # acute-r1-fix2 (h45) all have it and all read AI; his Chest Pain version doesn't. His Serotonin Syndrome list has it ("So
+    # if you see any of these patterns, call medics." after it) and reads High, so it is a flag to look at, not a failure; and
+    # moving only the action left brain-p1 AI (h48), so the paragraph is rebuilt around it, as acute-c1 was (Human, High).
+    def o71_sents(t):
+        return [x.strip() for x in re.split(r'(?<=[.?!:])\s+(?=[A-Z"(])', t.strip()) if x.strip()]
+    def o71_mine(x):
+        return not (x in installed_raw or is_known(x))
+    lines71 = body.split('\n')
+    for line72 in lines71:
+        for x72 in o71_sents(re.sub(r'^\s*(?:[-*+•]|\d+[.)])\s+', '', line72)) if line72.strip() and not line72.lstrip().startswith('#') else []:
+            if not o71_mine(x72):
+                continue
+            if SAFE_BARE.search(x72):
+                flag('FAIL', O72, x72)
+            elif SAFE_ANY.search(x72):
+                flag('REVIEW', O72, x72)
+    k71 = 0
+    while k71 < len(lines71):
+        if LIST_LINE.match(lines71[k71]):
+            a71 = k71
+            while k71 < len(lines71) and LIST_LINE.match(lines71[k71]):
+                k71 += 1
+            before71 = [l for l in lines71[:a71] if l.strip()]
+            after71 = [l for l in lines71[k71:] if l.strip() and not LIST_LINE.match(l)]
+            lead71 = o71_sents(before71[-1])[-1] if before71 else ''
+            nxt71 = o71_sents(after71[0])[0] if after71 else ''
+            # a sentence ending in a colon after the list is the next list's lead-in, not this one's payoff
+            if lead71 and nxt71 and not nxt71.endswith(':') and not ACT71.search(lead71) \
+                    and (ACT71.search(nxt71) or VERDICT71.search(nxt71)) and (o71_mine(lead71) or o71_mine(nxt71)):
+                flag('REVIEW', O71, lead71 + ' ... ' + nxt71)
+            if lead71 and COMPLETES_LEAD.search(lead71):
+                for item74 in lines71[a71:k71]:
+                    it74 = re.sub(r'^\s*(?:[-*+•]|\d+[.)])\s+', '', item74).strip()
+                    if it74.endswith('.') and len(o71_sents(it74)) == 1 and o71_mine(it74):
+                        flag('REVIEW', O74, lead71 + ' ... ' + it74)
+            if lead71 and WARN_LEAD.search(lead71):
+                for item73 in lines71[a71:k71]:
+                    it73 = re.sub(r'^\s*(?:[-*+•]|\d+[.)])\s+', '', item73).strip()
+                    healthy73 = [m for m in HEALTHY.finditer(it73)
+                                 if not NOT_HEALTHY.search(it73[max(0, m.start() - 40):m.start()])]
+                    if healthy73 and o71_mine(it73):
+                        flag('REVIEW', O73, lead71 + ' ... ' + it73)
+            continue
+        ss71 = o71_sents(lines71[k71]) if lines71[k71].strip() and not lines71[k71].lstrip().startswith('#') else []
+        runs71 = []
+        for j71, x71 in enumerate(ss71):
+            if not x71.endswith('?'):
+                continue
+            if runs71 and runs71[-1][-1] == j71 - 1:
+                runs71[-1].append(j71)
+            else:
+                runs71.append([j71])
+        for r71 in runs71:
+            if len(r71) >= 3 and r71[-1] + 1 < len(ss71):
+                lead71 = ss71[r71[0] - 1] if r71[0] > 0 else ''
+                nxt71 = ss71[r71[-1] + 1]
+                if not ACT71.search(lead71) and (ACT71.search(nxt71) or VERDICT71.search(nxt71)) \
+                        and (o71_mine(lead71) or o71_mine(nxt71)):
+                    flag('REVIEW', O71, (lead71 + ' ... ' if lead71 else '') + nxt71)
+        k71 += 1
     mine_words = 0; coach_hits = 0; you_hits = 0
     para_final_short = 0; imper_heavy = 0
     openers = []
@@ -1015,6 +1122,7 @@ def main():
         imps = 0
         passives = 0   # O48: passive verbs in my sentences
         plists = []   # (mine, excerpt) for each list of three outside a quote (E125)
+        para69 = []   # O69: my sentences in this paragraph with a correction or contrast frame
         checked = any(m and RESEARCH_NOTE.search(without_quotes(x)) for x, m in zip(nss, mine_s))   # O23: the paragraph narrates a check
         for i, s in enumerate(ss):
             n = nss[i]
@@ -1035,6 +1143,38 @@ def main():
             tri = triads(s)
             plists += [(mine, x) for k, x, q in tri if not q]
             if not mine: continue
+            # O69 (Joel, 2026-11-12 14:45 UTC, round 36 of the bad trips guide, after reading my carries of his fixes: "you still use a
+            # lot of ai patterns like "this is different. that's different, this other thing is also different" and "x but not y" and
+            # so forth, like you're not even trying"). A correction or contrast frame in my sentence, outside brackets: "X is a Y
+            # rather than a Z", "does not mean/prove", "isn't X, it's Y", "not X but Y", "X but not Y". Measured on his 112 fixes
+            # that day (articles/bad-trips/humanize/h46-20261112/his-fixes/HOW-HE-FIXES.md): he writes these too, 0.97 per 1,000
+            # words against 1.37 in the texts he fixed, when one answers a reader's real worry ("Just because it's unplanned
+            # doesn't mean it will be more shocking"), and a contrast he keeps often sits in brackets as a pictured aside
+            # ("severe overheating (not just regular sweating)"), so bracketed text is left alone. One is a candidate for the
+            # read against his fixes; two in one paragraph of mine fail (para69 below; none of his 112 versions has two).
+            nb = re.sub(r'\([^()]*\)', '', n)
+            m69 = (re.search(r"\b(?:is|are|was|were|as|be|been)\b[^.?!;]{0,80}?\brather than\b", nb, re.I)
+                   or re.search(r"\b(?:does not|doesn't|do not|don't|did not|didn't)\s+(?:mean|prove|imply)\b", nb, re.I)
+                   or re.search(r"\b(?:isn't|is not|aren't|are not|wasn't|was not)\b[^.?!;]{1,60}?[,;:]\s*(?:it's|it is|they're|"
+                                r"they are|that's|that is)\b", nb, re.I)
+                   or re.search(r"\bnot (?:just |only |merely |simply )?(?!sure\b|yet\b)[^.?!;,]{1,40}?,?\s+but\s+(?:rather\s+|also\s+)?\w",
+                                nb, re.I)
+                   or re.search(r"\bbut not\b", nb, re.I))
+            # O75 (Joel, 2026-11-19 00:52 UTC, his round-40 tries on the bad trips guide's chest pain evidence: "now i changed
+            # the perfect past to simple past and it's again back to 100% "possibly ai assisted" instead of ai"; his check went
+            # from AI Detected, 99.6% to AI Assisted, 50% with "had started" made "started", lesson bad-trips-2026-11-19a).
+            # A past perfect in my sentence: the simple past says it, unless the order of two past events is the point.
+            m75 = re.search(r"\bhad\s+(?:not\s+|never\s+|already\s+|just\s+)?(?:been|\w+(?:ed|en))\b", nb, re.I)
+            if m75 and not re.search(r"\bhad\s+(?:seen|been through|hidden|ridden|written)\b", m75.group(0), re.I):
+                flag('REVIEW', 'O75 a past perfect ("%s"; Joel 2026-11-19: "i changed the perfect past to simple past and it\'s again '
+                     'back to 100%% "possibly ai assisted" instead of ai"): say it in the simple past, unless the order of two '
+                     'past events is the point' % m75.group(0), s)
+            if m69:
+                para69.append(s)
+                flag('REVIEW', 'O69 a correction or contrast frame ("%s"; Joel 2026-11-12: "you still use a lot of ai patterns like ... "x '
+                     'but not y""): keep it only if it answers a worry the reader really has; otherwise say the thing itself, or its '
+                     'likely cause, the way he does ("So if you see any of these patterns, call medics." for "a recognition aid '
+                     'rather than a command to wait")' % m69.group(0).strip()[:40], s)
             for k, x, q in tri:
                 # E186 (Joel, 2026-10-17 14:01 UTC: "we got that list of 3 going on again. how is that not detected?"): it was
                 # detected, as a REVIEW, and a REVIEW doesn't block, so it went to Pangram and to him. In the single-paragraph
@@ -1412,6 +1552,33 @@ def main():
         if ss and len(words(nss[-1])) <= 9 and mine_s[-1]:
             para_final_short += 1; flag('REVIEW', 'B7 short landing at paragraph end', ss[-1])
         if imps >= 2: imper_heavy += 1; flag('REVIEW', 'E23 paragraph of instructions', p[:90] + '...')
+        # O70 (Joel, 2026-11-12 14:45 UTC, the same message as O69: "this is different. that's different, this other thing is also
+        # different"). My sentences in one paragraph that compare by saying "different" twice: his fix of my "is a different
+        # problem from a racing stimulant high, and both are different from serotonin toxicity" was "requires different
+        # treatment from a racing stimulant high, as would serotonin toxicity", Mixed to Human (round 35).
+        # Measured the same day: "different from" twice in a paragraph, or "both ... different", is in none of his 112 versions
+        # nor of the texts he fixed; it was in my oral paragraph (h44), which he fixed.
+        # O76 (Joel, 2026-11-19 00:52 UTC, the same tries: "now less certain about it being ai, after not saying DMSO 3x in a
+        # row"; lesson bad-trips-2026-11-19a). The same abbreviation (DMSO, MDMA, CBD) in three sentences in a row, one of them
+        # mine: "it" where the reader can't lose the thread, or say it once less.
+        caps76 = [set(re.findall(r"\b[A-Z][A-Z0-9]{1,}[A-Za-z0-9-]*\b", x)) - {'I', 'OK', 'TV', 'UK', 'US', 'USA'} for x in nss]
+        for i76 in range(len(caps76) - 2):
+            same76 = caps76[i76] & caps76[i76 + 1] & caps76[i76 + 2]
+            if same76 and any(mine_s[i76:i76 + 3]):
+                flag('REVIEW', 'O76 "%s" in three sentences in a row (Joel 2026-11-19: "now less certain about it being ai, after not '
+                     'saying DMSO 3x in a row"): say "it" where the reader can\'t lose the thread' % sorted(same76)[0],
+                     ' / '.join(ss[i76:i76 + 3]))
+                break
+        if len(para69) >= 2:
+            flag('FAIL', 'O69 two correction or contrast frames in one paragraph of mine (none of his 112 versions has two; Joel '
+                 '2026-11-12: ""x but not y" and so forth"): keep at most the one that answers a worry the reader really has',
+                 ' / '.join(para69))
+        mine_text = ' '.join(x for x, m in zip(nss, mine_s) if m)
+        n70 = len(re.findall(r"\bdifferent (?:from|than|to)\b|\bdiffers? from\b", mine_text, re.I))
+        if n70 >= 2 or re.search(r"\bboth\b[^.?!]{0,40}\bdiffer", mine_text, re.I):
+            flag('FAIL', 'O70 "different" doing the comparing twice ("this is different. that\'s different, this other thing is also '
+                 'different"; Joel 2026-11-12): say what the difference means for the reader once, the way he did ("requires '
+                 'different treatment from a racing stimulant high, as would serotonin toxicity")', p[:90] + '...')
         if passives >= 3:
             flag('REVIEW', 'O48 passive voice in %d places (Joel 2026-10-30: "passive voice overuse also high freq AI"): say who does it, as he '
                  'does ("Is the hypnotist using ..." for "Are roles ... being used")' % passives, p[:90] + '...')

@@ -1,0 +1,289 @@
+{
+ "brainopen-c1": {
+  "reader": "a fresh Sonnet reader given tools/humanization/his_fixes_brief.md (reads/his-brainopen-c1.txt); it marked none of my sentence, only his lines",
+  "marked": [
+   {
+    "s": "If Someone Says \"My Brain Feels Damaged\": DMSO + Humic Acid + Electrolytes First",
+    "difference": "1",
+    "draft": "brainopen-c1"
+   },
+   {
+    "s": "Smelling humic acid or tasting a tiny bit can also help a lot, in my experience, but I'm still collecting data from others.",
+    "difference": "4",
+    "draft": "brainopen-c1"
+   },
+   {
+    "s": "I add electrolytes too, because magnesium (and then potassium) can be depleted by some drugs, especially MDMA and iboga, although I don't think just electrolytes would be sufficient.",
+    "difference": "1, 4",
+    "draft": "brainopen-c1"
+   },
+   {
+    "s": "- First, are they unconscious or breathing abnormally?",
+    "difference": "4",
+    "draft": "brainopen-c1"
+   },
+   {
+    "s": "- Feel whether they're very hot.",
+    "difference": "4, 7",
+    "draft": "brainopen-c1"
+   },
+   {
+    "s": "- Ask about a really bad headache or chest pain.",
+    "difference": "4",
+    "draft": "brainopen-c1"
+   },
+   {
+    "s": "- Check if their vision has changed.",
+    "difference": "4",
+    "draft": "brainopen-c1"
+   },
+   {
+    "s": "When they're too out of it to help you do the checks, or if the brain-damage feeling stays despite sufficient treatment, then you've done what you can do, and it's time to call for help.",
+    "difference": "4, 6",
+    "draft": "brainopen-c1"
+   }
+  ],
+  "kept": {
+   "If Someone Says \"My Brain Feels Damaged\": DMSO + Humic Acid + Electrolytes First": "his heading, his version (round 38, 4739068c), as he wrote it",
+   "Smelling humic acid or tasting a tiny bit can also help a lot, in my experience, but I'm still collecting data from others.": "his remedy line, already in the guide in his words",
+   "I add electrolytes too, because magnesium (and then potassium) can be depleted by some drugs, especially MDMA and iboga, although I don't think just electrolytes would be sufficient.": "his reason for the electrolytes, from his round-38 comment, in his words",
+   "- First, are they unconscious or breathing abnormally?": "his line, his version (round 38, 4739068c), as he wrote it, with \"they\" put in",
+   "- Feel whether they're very hot.": "his line, his version (round 38, 4739068c), as he wrote it",
+   "- Ask about a really bad headache or chest pain.": "his line, his version (round 38, 4739068c), as he wrote it",
+   "- Check if their vision has changed.": "his line, his version (round 38, 4739068c), as he wrote it",
+   "When they're too out of it to help you do the checks, or if the brain-damage feeling stays despite sufficient treatment, then you've done what you can do, and it's time to call for help.": "his closing line, his version (round 38, 4739068c), as he wrote it"
+  }
+ },
+ "seize-c3": {
+  "reader": "fresh Sonnet readers given tools/humanization/his_fixes_brief.md, one for each draft (reads/his-seize-c1.txt, reads/his-seize-c2.txt, reads/his-seize-c3.txt)",
+  "marked": [
+   {
+    "s": "- Don't restrain them, and don't put anything in their mouth while they're convulsing or not fully conscious.",
+    "difference": "1",
+    "draft": "seize-c1"
+   },
+   {
+    "s": "- They have trouble breathing.",
+    "difference": "2, 4",
+    "draft": "seize-c1"
+   },
+   {
+    "s": "- They get dangerously hot.",
+    "difference": "2, 4",
+    "draft": "seize-c1"
+   },
+   {
+    "s": "- They're seriously hurt.",
+    "difference": "2, 4",
+    "draft": "seize-c1"
+   },
+   {
+    "s": "- It's their first seizure, or it's substantially different from the ones they usually have.",
+    "difference": "1, 4",
+    "draft": "seize-c1"
+   },
+   {
+    "s": "- Don't restrain them.",
+    "difference": "7",
+    "draft": "seize-c2"
+   },
+   {
+    "s": "- Their lips turn blue or gray.",
+    "difference": "2",
+    "draft": "seize-c2"
+   },
+   {
+    "s": "- It's their first seizure, or one that's substantially different from their usual ones.",
+    "difference": "4",
+    "draft": "seize-c2, seize-c3"
+   },
+   {
+    "s": "- Blue or gray lips are another sign.",
+    "difference": "4",
+    "draft": "seize-c3"
+   },
+   {
+    "s": "- They get dangerously hot (not just regular sweating).",
+    "difference": "3",
+    "draft": "seize-c3"
+   }
+  ],
+  "kept": {
+   "- It's their first seizure, or one that's substantially different from their usual ones.": "the guide's own level (\"a first seizure, or a seizure substantially different from the person's known pattern\"); the reader's examples would add claims",
+   "- Blue or gray lips are another sign.": "built the way his own brain list says a sign (\"Wetting or soiling themselves is another sign to watch for.\"), under a lead-in that says what the signs are for (call medics)",
+   "- They get dangerously hot (not just regular sweating).": "his aside, from his Risk of Harm version (the Call medics list's \"Dangerous overheating (not just regular sweating)\")"
+  }
+ },
+ "seize-c4": {
+  "reader": "fresh Sonnet readers given tools/humanization/his_fixes_brief.md, one for each draft (reads/his-seize-c1.txt, reads/his-seize-c2.txt, reads/his-seize-c3.txt, reads/his-seize-c4.txt)",
+  "marked": [
+   {
+    "s": "- Don't restrain them, and don't put anything in their mouth while they're convulsing or not fully conscious.",
+    "difference": "1",
+    "draft": "seize-c1"
+   },
+   {
+    "s": "- They have trouble breathing.",
+    "difference": "2, 4",
+    "draft": "seize-c1"
+   },
+   {
+    "s": "- They get dangerously hot.",
+    "difference": "2, 4",
+    "draft": "seize-c1"
+   },
+   {
+    "s": "- They're seriously hurt.",
+    "difference": "2, 4",
+    "draft": "seize-c1"
+   },
+   {
+    "s": "- It's their first seizure, or it's substantially different from the ones they usually have.",
+    "difference": "1, 4",
+    "draft": "seize-c1"
+   },
+   {
+    "s": "- Don't restrain them.",
+    "difference": "7",
+    "draft": "seize-c2"
+   },
+   {
+    "s": "- Their lips turn blue or gray.",
+    "difference": "2",
+    "draft": "seize-c2"
+   },
+   {
+    "s": "- It's their first seizure, or one that's substantially different from their usual ones.",
+    "difference": "4",
+    "draft": "seize-c2, seize-c3"
+   },
+   {
+    "s": "- Blue or gray lips are another sign.",
+    "difference": "4",
+    "draft": "seize-c3"
+   },
+   {
+    "s": "- They get dangerously hot (not just regular sweating).",
+    "difference": "3",
+    "draft": "seize-c3"
+   },
+   {
+    "s": "- Move any dangerous objects away from them, especially anything hard or sharp.",
+    "difference": "4",
+    "draft": "seize-c4"
+   },
+   {
+    "s": "- Keep everything out of their mouth while they're convulsing or not fully conscious.",
+    "difference": "4",
+    "draft": "seize-c4"
+   }
+  ],
+  "kept": {
+   "- It's their first seizure, or one that's substantially different from their usual ones.": "the guide's own level (\"a first seizure, or a seizure substantially different from the person's known pattern\"); the reader's examples would add claims",
+   "- Blue or gray lips are another sign.": "built the way his own brain list says a sign (\"Wetting or soiling themselves is another sign to watch for.\"), under a lead-in that says what the signs are for (call medics)",
+   "- They get dangerously hot (not just regular sweating).": "his aside, from his Risk of Harm version (the Call medics list's \"Dangerous overheating (not just regular sweating)\")",
+   "- Move any dangerous objects away from them, especially anything hard or sharp.": "read Human, High in seize-c3 (36fbfa7d); \"hard or sharp\" says what counts, and the reader's list of things would add examples the guide never had",
+   "- Keep everything out of their mouth while they're convulsing or not fully conscious.": "the guide's own warning at its own level (\"don't put anything in their mouth\"); the reader's reasons and examples would add claims"
+  }
+ },
+ "seize-c5": {
+  "reader": "fresh Sonnet readers given tools/humanization/his_fixes_brief.md, one for each draft (reads/his-seize-c1.txt, reads/his-seize-c2.txt, reads/his-seize-c3.txt)",
+  "marked": [
+   {
+    "s": "- Don't restrain them, and don't put anything in their mouth while they're convulsing or not fully conscious.",
+    "difference": "1",
+    "draft": "seize-c1"
+   },
+   {
+    "s": "- They have trouble breathing.",
+    "difference": "2, 4",
+    "draft": "seize-c1"
+   },
+   {
+    "s": "- They get dangerously hot.",
+    "difference": "2, 4",
+    "draft": "seize-c1"
+   },
+   {
+    "s": "- They're seriously hurt.",
+    "difference": "2, 4",
+    "draft": "seize-c1"
+   },
+   {
+    "s": "- It's their first seizure, or it's substantially different from the ones they usually have.",
+    "difference": "1, 4",
+    "draft": "seize-c1"
+   },
+   {
+    "s": "- Don't restrain them.",
+    "difference": "7",
+    "draft": "seize-c2"
+   },
+   {
+    "s": "- Their lips turn blue or gray.",
+    "difference": "2",
+    "draft": "seize-c2"
+   },
+   {
+    "s": "- It's their first seizure, or one that's substantially different from their usual ones.",
+    "difference": "4",
+    "draft": "seize-c2, seize-c3"
+   },
+   {
+    "s": "- Blue or gray lips are another sign.",
+    "difference": "4",
+    "draft": "seize-c3"
+   },
+   {
+    "s": "- They get dangerously hot (not just regular sweating).",
+    "difference": "3",
+    "draft": "seize-c3"
+   }
+  ],
+  "kept": {
+   "- It's their first seizure, or one that's substantially different from their usual ones.": "the guide's own level (\"a first seizure, or a seizure substantially different from the person's known pattern\"); the reader's examples would add claims",
+   "- Blue or gray lips are another sign.": "built the way his own brain list says a sign (\"Wetting or soiling themselves is another sign to watch for.\"), under a lead-in that says what the signs are for (call medics)",
+   "- They get dangerously hot (not just regular sweating).": "his aside, from his Risk of Harm version (the Call medics list's \"Dangerous overheating (not just regular sweating)\")",
+   "- Their lips turn blue or gray.": "back from the second draft: the third draft's \"Blue or gray lips are another sign.\" read Low (36fbfa7d) and the read's fix of it read worse (c61ad5f7)"
+  }
+ },
+ "er-c3": {
+  "reader": "fresh Sonnet readers given tools/humanization/his_fixes_brief.md, one for each draft (reads/his-er-c1.txt, reads/his-er-c2.txt, reads/his-er-c3.txt)",
+  "marked": [
+   {
+    "s": "In an emergency room, a scared, psychotic-feeling person will often get a benzodiazepine.",
+    "difference": "8",
+    "draft": "er-c1"
+   },
+   {
+    "s": "Those only sometimes help with psychosis, and in some people they bring on more agitation or fear instead, a paradoxical reaction.",
+    "difference": "1, 4",
+    "draft": "er-c1"
+   },
+   {
+    "s": "Antipsychotics may work better for psychosis, but they carry their own risks and interactions, and the staff giving them often don't know what was taken, if anything.",
+    "difference": "1, 7",
+    "draft": "er-c1"
+   },
+   {
+    "s": "Even from a severe trip, they can come down faster that way than after an ambulance ride and hours in an emergency room.",
+    "difference": "4",
+    "draft": "er-c2"
+   },
+   {
+    "s": "Don't count on it helping with psychosis, since in some people it does the opposite and brings on more agitation or fear, which is called a paradoxical reaction.",
+    "difference": "3, 7",
+    "draft": "er-c2"
+   },
+   {
+    "s": "Antipsychotics may work better for psychosis, but they carry their own risks and interactions.",
+    "difference": "4, 7",
+    "draft": "er-c2, er-c3"
+   }
+  ],
+  "kept": {
+   "Even from a severe trip, they can come down faster that way than after an ambulance ride and hours in an emergency room.": "acute-c1's sentence, in the guide since turn 38 and read Human, High (97bf9589); \"that way\" is the sentence before",
+   "Antipsychotics may work better for psychosis, but they carry their own risks and interactions.": "the guide's own level (\"they carry their own risks and interactions\"); naming risks would add claims, and the next sentence gives the reader what to do about interactions (tell the staff what was taken)"
+  }
+ }
+}

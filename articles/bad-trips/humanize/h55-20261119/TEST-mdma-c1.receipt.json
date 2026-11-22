@@ -1,0 +1,95 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-19",
+ "text_sha256": "c9151c3379fef93f7dbbebc34cefe4ebee6016d81bb26f9fd4ba25da440b2d7c",
+ "text": "When their jaw tenses, that's also the time to stop taking MDMA and get them to slow down and cool off. Keep watching them: a headache that keeps getting worse can mean their sodium is getting too low, and so can confusion or vomiting. Weakness or palpitations can mean their potassium is dropping. A seizure or a collapse raises the stakes, so call medics, since overheating and MDMA toxicity can cause those too. Even a single normal dose can drop sodium. When healthy volunteers took it once in clinical trials, about a third ended up with low sodium (hyponatremia). None of the volunteers whose drinking was limited did, so keep water to small sips.",
+ "section": "MDMA: Jaw Tension Is the Magnesium Alarm",
+ "reader": "someone with a friend (or themselves) on MDMA whose jaw has tensed up, after the author's magnesium chloride method and his second wife's story of critically low potassium, deciding what else to do and what to watch for",
+ "sentences": [
+  {
+   "s": "When their jaw tenses, that's also the time to stop taking MDMA and get them to slow down and cool off.",
+   "payoff": "",
+   "follows": ""
+  },
+  {
+   "s": "Keep watching them: a headache that keeps getting worse can mean their sodium is getting too low, and so can confusion or vomiting.",
+   "payoff": "",
+   "follows": "",
+   "link": ""
+  },
+  {
+   "s": "Weakness or palpitations can mean their potassium is dropping.",
+   "payoff": "",
+   "follows": "",
+   "link": ""
+  },
+  {
+   "s": "A seizure or a collapse raises the stakes, so call medics, since overheating and MDMA toxicity can cause those too.",
+   "payoff": "",
+   "follows": "",
+   "link": ""
+  },
+  {
+   "s": "Even a single normal dose can drop sodium.",
+   "payoff": "",
+   "follows": "",
+   "link": ""
+  },
+  {
+   "s": "When healthy volunteers took it once in clinical trials, about a third ended up with low sodium (hyponatremia).",
+   "payoff": "",
+   "follows": "",
+   "link": ""
+  },
+  {
+   "s": "None of the volunteers whose drinking was limited did, so keep water to small sips.",
+   "payoff": "",
+   "follows": "",
+   "link": ""
+  }
+ ],
+ "checked": [],
+ "placement": "",
+ "opens": {
+  "first_sentence": "When their jaw tenses, that's also the time to stop taking MDMA and get them to slow down and cool off.",
+  "why_reading": ""
+ },
+ "same_point": "",
+ "needed": {
+  "reader": "",
+  "unneeded": [],
+  "kept": {}
+ },
+ "his_fixes": {
+  "reader": "",
+  "marked": [],
+  "kept": {}
+ },
+ "fit": {
+  "reader": "",
+  "marked": [],
+  "kept": {}
+ },
+ "questions": {
+  "Q1": "",
+  "Q2": "",
+  "Q3": "",
+  "Q4": "",
+  "Q5": "",
+  "Q6": "",
+  "Q7": "",
+  "Q8": "",
+  "Q9": ""
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

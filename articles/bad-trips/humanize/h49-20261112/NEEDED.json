@@ -1,0 +1,29 @@
+{
+ "brainopen-c1": {
+  "reader": "a fresh Haiku agent given tools/humanization/needed_read_brief.md with the paragraph before his checks, its heading and what it is for (reads/needed-brainopen-c1.txt); none unneeded",
+  "unneeded": [],
+  "kept": {}
+ },
+ "seize-c3": {
+  "reader": "a fresh Haiku agent given tools/humanization/needed_read_brief.md with seize-c1, its heading and what it is for (reads/needed-seize-c1.txt); none unneeded, the later drafts saying the same lines again",
+  "unneeded": [],
+  "kept": {}
+ },
+ "seize-c4": {
+  "reader": "a fresh Haiku agent given tools/humanization/needed_read_brief.md with seize-c1, its heading and what it is for (reads/needed-seize-c1.txt); none unneeded, the later drafts saying the same lines again",
+  "unneeded": [],
+  "kept": {}
+ },
+ "seize-c5": {
+  "reader": "a fresh Haiku agent given tools/humanization/needed_read_brief.md with seize-c1, its heading and what it is for (reads/needed-seize-c1.txt); none unneeded, the later drafts saying the same lines again",
+  "unneeded": [],
+  "kept": {}
+ },
+ "er-c3": {
+  "reader": "a fresh Haiku agent given tools/humanization/needed_read_brief.md with er-c1's paragraph, its heading, what it is for and the paragraph before it (reads/needed-er-c1.txt)",
+  "unneeded": [
+   "Antipsychotics may work better for psychosis, but they carry their own risks and interactions, and the staff giving them often don't know what was taken, if anything."
+  ],
+  "kept": {}
+ }
+}

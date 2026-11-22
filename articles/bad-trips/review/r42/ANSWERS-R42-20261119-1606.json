@@ -1,0 +1,41 @@
+{
+ "format": "joel-suggestion-review-answers-v1",
+ "review_id": "bad-trips-r42",
+ "title": "Bad Trips Guide, Round 42",
+ "git_file": "articles/bad-trips/review/r42/REVIEW-R42.html",
+ "article": {
+  "file": "articles/bad-trips/review/r42/PAGE-R42.md",
+  "sha256": "4bed692c0d9be2bfd4ccd6191b8a1dbee5cb99222a64e6584d219284f09e01e9"
+ },
+ "built": "2026-11-19",
+ "generator": "suggestion_review.py 1.11 (2026-11-11)",
+ "exported_at": "2026-11-19T16:06:01.737Z",
+ "counts": {
+  "approved": 1,
+  "rejected": 0,
+  "revise": 0,
+  "pending": 0
+ },
+ "items": [
+  {
+   "id": "MED-MDMA",
+   "type": "safety",
+   "title": "1. MDMA: what \"too late for an easy fix\" means, and sodium and magnesium in the seizure line",
+   "where": "MDMA: Jaw Tension Is the Magnesium Alarm, P5",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "Once their jaw tenses, that should be their last dose of MDMA, so get them to slow down and cool off. If they drink a lot of plain water, even a single normal MDMA dose raises the risk of their sodium dropping too low, so have them sip an electrolyte drink when they're thirsty instead. The following indicators would justify calling medics: If their confusion or headache worsens, or vomiting won't stop (sodium might be too low by then for an electrolyte drink to fix; while you wait for medics, if they're alert and not vomiting, give them something very salty instead, like strong broth or salty snacks). If their muscles keep getting weaker or their heart palpitations keep getting stronger, that could be from dangerously low potassium, like my second wife had. A seizure or collapse can result from low sodium, magnesium or potassium, and can also come from overheating or MDMA toxicity.",
+   "before": "Once their jaw tenses, that should be their last dose of MDMA, so get them to slow down and cool off. If they drink a lot of plain water, even a single normal MDMA dose raises the risk of their sodium dropping too low, so have them sip an electrolyte drink when they're thirsty instead. The following indicators would justify calling medics: If their confusion or headache worsens, or vomiting won't stop (sodium might be too low and it could be too late for an easy fix). If their muscles keep getting weaker or their heart palpitations keep getting stronger, that could be from dangerously low potassium, like my second wife had. A seizure or collapse can result from low potassium, and can also come from overheating or MDMA toxicity.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-19T16:05:58.150Z"
+    }
+   ],
+   "updated": "2026-11-19T16:05:58.153Z"
+  }
+ ]
+}

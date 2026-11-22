@@ -2557,6 +2557,149 @@
     ]
    },
    "citations_lost": []
+  },
+  {
+   "by": "fix-20261108/joel-20261111-2244-message.txt, card SC-106e (approved in chat 2026-11-11 22:44 UTC: \"yes i want the reddit links. and your paragraph looks good other than that\"), applied by fix-20261108/sci-p23/apply_x1111b.py with his two Reddit links",
+   "why": "the science of Part 3's potassium step (fix-20261108/sci-p23/SCIENCE-P23.md, \"Rethought on the science\"): the KCNQ brakes story doesn't hold (the brain keeps its own potassium; Hladky & Barrand 2016), so its labels and its sentences go, and block 106 rests on what the studies show (NIH 2022; the 2025 Dietary Guidelines Advisory Committee report; Torres 2008; Pariury 2019; Na 2022; Cruz 2001; Aburto 2013; Sebastian 2006). The new numbers are the years of those citations the 13 of 16 children of Pariury 2019 and the \"3 in 10 Americans\" of the 2025 report",
+   "numbers_lost": [],
+   "numbers_new": [
+    "2008",
+    "2013",
+    "2019",
+    "2022",
+    "2022",
+    "2022",
+    "2022",
+    "2024",
+    "13",
+    "16",
+    "2006",
+    "10"
+   ],
+   "terms_lost": [
+    "KCNQ"
+   ],
+   "keys_lost": {
+    "W054": [
+     [
+      "KCNQ"
+     ],
+     [
+      "uncontrollably"
+     ],
+     [
+      "called"
+     ],
+     [
+      "stop"
+     ]
+    ],
+    "W055": [
+     [
+      "breathe"
+     ],
+     [
+      "pedal"
+     ],
+     [
+      "stop"
+     ]
+    ]
+   },
+   "citations_lost": []
+  },
+  {
+   "by": "fix-20261108/keto/ANSWERS-X1111C-20261112-1823.json, card SC-48b to revise with his version (his answers exported 2026-11-12 18:23 UTC), applied by fix-20261108/keto/apply_x1111c.py with the fixes it lists",
+   "why": "block 48 ends on what has been seen in people with PTSD on a keto diet and how far it goes (Edwards 2024; Bellamy & Laurent 2025; Laurent 2026; Youssef 2022), with his clause on forum reviews of the salts, rats with trauma and the review he cites (Engelhardt 2026); sources in fix-20261108/keto/KETO-PTSD.md. The new numbers are those citations' years and the Oslo study's 20 and 10 points",
+   "numbers_lost": [],
+   "numbers_new": [
+    "10",
+    "20",
+    "2022",
+    "2024",
+    "2025",
+    "2026",
+    "2026"
+   ],
+   "terms_lost": [],
+   "keys_lost": {},
+   "citations_lost": []
+  },
+  {
+   "by": "fix-20261108/x1113b/ANSWERS-X1113B-20261114-2204.json, card SC-95b (approved, his answers exported 2026-11-14 22:04 UTC): his SC-95 version of 2026-11-12 20:16 UTC less his PTSD line, applied by fix-20261108/x1113b/apply_x1113b.py",
+   "why": "block 95 says what the ketone strategy decides (how you handle salt) instead of that you must pick one, as card SC-95 explained (the timeline uses both strategies in turn), and adds what trials found for the salts (Bonnechere 2026) and his Amazon sentence; the warning W050 keeps \"ketone\" and the choice, not \"must\"",
+   "numbers_lost": [],
+   "numbers_new": [
+    "2026"
+   ],
+   "terms_lost": [],
+   "keys_lost": {
+    "W050": [
+     [
+      "must"
+     ]
+    ]
+   },
+   "citations_lost": []
+  },
+  {
+   "by": "fix-20261108/x1113b/ANSWERS-X1113B-20261114-2204.json, card SC-DMSOc (revise with his version, exported 2026-11-14 22:04 UTC), applied by fix-20261108/x1113b/apply_x1113b.py with the card's links back on its citations",
+   "why": "his DMSO item after Magnesium in the Glutamate Shield: purity (99.9), Lu & Mattson 2001, Ramirez & Luza 1967 (42 inpatients, 16 compared), Jacob & de la Torre 2015, Mitrus 2018 (10% vs 5%), Kimura and Brown 1988, Hanslick 2009; sources in fix-20261108/dmso/DMSO-PTSD.md",
+   "numbers_lost": [],
+   "numbers_new": [
+    "0.5to1.5",
+    "10",
+    "16",
+    "1967",
+    "1967",
+    "1988",
+    "1988",
+    "2001",
+    "2009",
+    "2015",
+    "2018",
+    "42",
+    "5",
+    "99.9"
+   ],
+   "terms_lost": [],
+   "keys_lost": {},
+   "citations_lost": []
+  },
+  {
+   "by": "fix-20261108/joel-20261119-1617-message.txt, answer 14: his version of block 54 (SC-54), which he checked himself (Human Written, every window High: fix-20261108/x1119a/HIS-CHECKS-READ-20261119.json), applied by fix-20261108/x1119a/apply_x1119a.py with the links back on its citations",
+   "why": "block 54, The Fix, adds the evidence of card SC-54 he approved on 2026-11-14 in his own words: one man's Alzheimer's on coconut oil and a ketone drink (Newport 2015), the five-person Parkinson's study with no control group (VanItallie 2005), and the randomized Parkinson's trial against a low-fat diet (Phillips 2018); sources in fix-20261108/x1113b/LINKS-CHECKED.md and fix-20261108/x1119a/CHECKED.md",
+   "numbers_lost": [],
+   "numbers_new": [
+    "2005",
+    "2015",
+    "2018",
+    "5"
+   ]
+  },
+  {
+   "by": "fix-20261108/joel-20261120-1705-message.txt, answer 20 (\"you can say it's above, although when not isolated, it's harder to compare\"), applied by fix-20261108/x1120a/apply_x1120a.py",
+   "why": "the PS food line says the mackerel fillet's PS is above the 400 mg the PS section says worked, with his caveat that PS in food is harder to compare",
+   "numbers_lost": [],
+   "numbers_new": [
+    "400mg"
+   ]
+  },
+  {
+   "by": "fix-20261108/joel-20261122-1739-message.txt, answers 25, 26a, 28a and 29a, applied by fix-20261108/x1122a/apply_x1122a.py",
+   "why": "25: the strains line takes his range in place of 0.1g-0.2g (and says some strains are much more potent); 26a: Weeks 1-2's agmatine starts as its section does (3 days); 28a: the D-serine cap wins under about 47 kg (104 lb); 29a: the 5-HTP trial in Weeks 3-5 follows its section (50mg, then 100mg), so its range 50-100mg goes",
+   "numbers_lost": [
+    "50-100mg",
+    "0.1g-0.2g"
+   ],
+   "numbers_new": [
+    "100-300mg",
+    "100mg",
+    "104",
+    "3days",
+    "47kg",
+    "50mg"
+   ]
   }
  ],
  "warning_words": {

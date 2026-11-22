@@ -1,0 +1,71 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-11",
+ "text_sha256": "b83f7f1992b68ff57cb60d289650a89771207f87be935c3c02fff321157fe9db",
+ "text": "Other forms of vitamin B3 seem less reliable for relaxation. Niacinamide sometimes relaxes people and sometimes creates hyperfocus, depending on their state. Avoid sustained-release niacin and the useless non-flush hexanicotinate form.\n\nEven once the body is stable and those tools have done what they can, somebody still needs to sit with whatever the altered mind has opened up, the fear or grief, an old memory, a sudden certainty...",
+ "section": "When the Goal Is to Stop a Psychedelic Trip (2 of 2): A Final Trip Killer: Niacin (a Form of Vitamin B3)",
+ "reader": "someone who wants a trip to end, without beach morning glory to hand, deciding whether to use flushing niacin, what it feels like and what to avoid",
+ "sentences": [
+  {
+   "s": "Other forms of vitamin B3 seem less reliable for relaxation.",
+   "payoff": "they know other forms of B3 relax less reliably",
+   "follows": "which form to use"
+  },
+  {
+   "s": "Niacinamide sometimes relaxes people and sometimes creates hyperfocus, depending on their state.",
+   "payoff": "they know niacinamide can relax or focus depending on the state",
+   "follows": "one of those forms",
+   "link": "Niacinamide"
+  },
+  {
+   "s": "Avoid sustained-release niacin and the useless non-flush hexanicotinate form.",
+   "payoff": "they avoid sustained-release and non-flush niacin",
+   "follows": "which forms to avoid",
+   "link": "Avoid"
+  },
+  {
+   "s": "Even once the body is stable and those tools have done what they can, somebody still needs to sit with whatever the altered mind has opened up, the fear or grief, an old memory, a sudden certainty...",
+   "payoff": "they know that once the body is settled, someone still needs to sit with what the trip opened up, which is where tripsitting begins",
+   "follows": "the end of the remedies, handing on to tripsitting",
+   "link": "Even once the body is stable"
+  }
+ ],
+ "checked": [],
+ "placement": "the end of When the Goal Is to Stop a Psychedelic Trip, and of the remedies: niacin last, then the bridge to tripsitting (checked here by itself with the paragraph it leans on, E343, E349)",
+ "opens": {
+  "first_sentence": "Other forms of vitamin B3 seem less reliable for relaxation.",
+  "why_reading": "it tells someone reaching for vitamin B3 which forms relax less reliably"
+ },
+ "same_point": "none: read the section from its niacin heading to the next for niacin; the bridge is said once, here",
+ "needed": {
+  "reader": "a fresh Haiku agent given tools/humanization/needed_read_brief.md with the unit, its heading and what it is for (NEEDED-READ.md, h42-25); this paragraph test is part of that unit, read there in place",
+  "unneeded": [
+   "Other forms of vitamin B3 seem less reliable for relaxation."
+  ],
+  "kept": {
+   "Other forms of vitamin B3 seem less reliable for relaxation.": "they use flushing niacin rather than another B3 form, the point the next two lines make exact"
+  }
+ },
+ "questions": {
+  "Q1": "PASS: each sentence opens on its point; the bridge opens on when it applies",
+  "Q2": "PASS: the instructions (avoid sustained-release and non-flush forms) are the reader's own acts",
+  "Q3": "PASS: \"flushing niacin\", \"sustained-release niacin\", \"non-flush hexanicotinate\" say which",
+  "Q4": "PASS: niacin is explained in its heading (a form of vitamin B3); niacinamide as another form",
+  "Q5": "PASS: \"because\", \"although\" and \"Even once\" say each relation",
+  "Q6": "PASS: what it does, why it is here, side effects, forms, then the hand-off",
+  "Q7": "PASS: each fact bears on whether and how they use niacin now",
+  "Q8": "PASS: niacin is a trip killer; the bridge belongs at the end of the remedies",
+  "Q9": "PASS: one step a sentence"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

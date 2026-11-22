@@ -1,0 +1,72 @@
+{
+ "brainev-c1": {
+  "reader": "a fresh Sonnet reader given tools/humanization/fit_read_brief.md (reads/fit-brainev-c1.txt)",
+  "marked": [
+   {
+    "s": "If Someone Says \"My Brain Feels Damaged\": DMSO + Humic Acid + Electrolytes First",
+    "found": "ANYWAY, CAN'T TELL, FROM"
+   }
+  ],
+  "kept": {
+   "If Someone Says \"My Brain Feels Damaged\": DMSO + Humic Acid + Electrolytes First": "his heading and his method (round 38: DMSO first for someone who says their brain feels damaged, with his checks for the signs that call for medics); the read questioned the section's premise, not a line of mine"
+  }
+ },
+ "rescue-c8": {
+  "reader": "a fresh Sonnet reader given tools/humanization/fit_read_brief.md (reads/fit-rescue-c8.txt)",
+  "marked": [
+   {
+    "s": "- A convulsive seizure goes on for over 5 minutes.",
+    "found": "FROM"
+   }
+  ],
+  "kept": {
+   "- A convulsive seizure goes on for over 5 minutes.": "his line and his call of 19:44 UTC: he took out \"first seizure\" since a seizure is what to expect when an overdose brings one on, and kept over 5 minutes; the read flagged it on rescue-c1, c5, c6 and c8"
+  }
+ },
+ "rescue-c9": {
+  "reader": "a fresh Sonnet reader given tools/humanization/fit_read_brief.md (reads/fit-rescue-c9.txt)",
+  "marked": [
+   {
+    "s": "- A convulsive seizure goes on for over 5 minutes.",
+    "found": "FROM"
+   },
+   {
+    "s": "- They get dangerously hot (not just regular sweating).",
+    "found": "CAN'T TELL"
+   },
+   {
+    "s": "- They injure their head, break a bone, or bleeding won't stop.",
+    "found": "CAN'T TELL"
+   }
+  ],
+  "kept": {
+   "- A convulsive seizure goes on for over 5 minutes.": "his line and his call of 19:44 UTC: he took out \"first seizure\" since a seizure is what to expect when an overdose brings one on, and kept over 5 minutes; the read flagged it on rescue-c1, c5, c6, c8 and c9",
+   "- They get dangerously hot (not just regular sweating).": "his line, from his Active Seizure version of 2026-11-12 19:44 UTC (5e41c575), which read Human High; \"not just regular sweating\" is how he tells it from the heat of the drug",
+   "- They injure their head, break a bone, or bleeding won't stop.": "his line, from his Active Seizure version of 2026-11-12 19:44 UTC (5e41c575), which read Human High; a friend can see a head hit, a limb at a wrong angle, or bleeding that won't stop"
+  }
+ },
+ "brainev-c2": {
+  "reader": "a fresh Sonnet reader given tools/humanization/fit_read_brief.md (reads/fit-brainev-c2.txt)",
+  "marked": [
+   {
+    "s": "If Someone Says \"My Brain Feels Damaged\": DMSO + Humic Acid + Electrolytes First",
+    "found": "ANYWAY, CAN'T TELL, FROM"
+   }
+  ],
+  "kept": {
+   "If Someone Says \"My Brain Feels Damaged\": DMSO + Humic Acid + Electrolytes First": "his heading and his method (round 38: DMSO first for someone who says their brain feels damaged, with his checks for the signs that call for medics); the read questioned the section's premise, not a line of mine"
+  }
+ },
+ "rescue-c10": {
+  "reader": "a fresh Sonnet reader given tools/humanization/fit_read_brief.md (reads/fit-rescue-c10.txt)",
+  "marked": [
+   {
+    "s": "- They get dangerously hot (not just regular sweating).",
+    "found": "CAN'T TELL"
+   }
+  ],
+  "kept": {
+   "- They get dangerously hot (not just regular sweating).": "his line, from his Active Seizure version of 2026-11-12 19:44 UTC (5e41c575), which read Human High; \"not just regular sweating\" is how he tells it from the heat of the drug"
+  }
+ }
+}

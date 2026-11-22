@@ -1,0 +1,120 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-12",
+ "text_sha256": "b3f0966ef5ab7b445dcbdef4c4793ab4a11c0e7ba4dbbce4d7dea4f62bcf2b09",
+ "text": "If Someone Says \"My Brain Feels Damaged\": DMSO + Humic Acid + Electrolytes First\n\nI believe DMSO works better for stroke and most acute brain damage than anything else readily available to ordinary people. That's more than the clinical evidence shows so far, but what there is points the same way. In animal stroke research, it shrank the area of the brain that died even when it was given after the stroke, so it may still help after the damage has started. A preliminary trial in people who'd had a stroke from a clot found they may have recovered better on it, and doctors have used it in a small series of patients to bring down dangerous pressure inside the skull. It also calms the overexcited nerve signaling that kills brain cells after a stroke (NMDA- and AMPA-mediated excitotoxicity).",
+ "section": "If Someone Says \"My Brain Feels Damaged\": DMSO + Humic Acid + Electrolytes First",
+ "reader": "someone whose friend says their brain feels damaged, deciding whether to trust DMSO for it",
+ "sentences": [
+  {
+   "s": "If Someone Says \"My Brain Feels Damaged\": DMSO + Humic Acid + Electrolytes First",
+   "payoff": "they know this part is for someone who says their brain feels damaged",
+   "follows": "the heading"
+  },
+  {
+   "s": "I believe DMSO works better for stroke and most acute brain damage than anything else readily available to ordinary people.",
+   "payoff": "they know he trusts DMSO for stroke and acute brain damage more than anything else at hand",
+   "follows": "his belief, first",
+   "link": "none: the first sentence of the paragraph"
+  },
+  {
+   "s": "That's more than the clinical evidence shows so far, but what there is points the same way.",
+   "payoff": "they know his judgment goes further than the studies, and the studies point the same way",
+   "follows": "how far the evidence goes",
+   "link": "That's more than"
+  },
+  {
+   "s": "In animal stroke research, it shrank the area of the brain that died even when it was given after the stroke, so it may still help after the damage has started.",
+   "payoff": "they know from animal stroke research that it may still help after the damage has started",
+   "follows": "the finding they can act on",
+   "link": "In animal stroke research"
+  },
+  {
+   "s": "A preliminary trial in people who'd had a stroke from a clot found they may have recovered better on it, and doctors have used it in a small series of patients to bring down dangerous pressure inside the skull.",
+   "payoff": "they know the evidence in people: a preliminary trial after clot strokes, and a small series for pressure in the skull",
+   "follows": "the human evidence",
+   "link": "A preliminary trial"
+  },
+  {
+   "s": "It also calms the overexcited nerve signaling that kills brain cells after a stroke (NMDA- and AMPA-mediated excitotoxicity).",
+   "payoff": "they know it calms the nerve signaling that kills brain cells after a stroke",
+   "follows": "how it works",
+   "link": "It also calms"
+  }
+ ],
+ "checked": [],
+ "placement": "If Someone Says \"My Brain Feels Damaged\", its evidence paragraph (B105), after his checks and closing line, before the bleed paragraph (B106)",
+ "opens": {
+  "first_sentence": "If Someone Says \"My Brain Feels Damaged\": DMSO + Humic Acid + Electrolytes First",
+  "why_reading": "it tells someone giving DMSO for a brain-damage feeling why he trusts it, and how far the evidence goes"
+ },
+ "same_point": "none: read the section from its heading to Active Seizure for why DMSO; B103 says to give it first, this paragraph says why he trusts it",
+ "needed": {
+  "reader": "a fresh Haiku agent given tools/humanization/needed_read_brief.md with the paragraph, its heading and what it is for (reads/need-brainev-c2.txt)",
+  "unneeded": [
+   "It also calms the overexcited nerve signaling that kills brain cells after a stroke (NMDA- and AMPA-mediated excitotoxicity)."
+  ],
+  "kept": {
+   "It also calms the overexcited nerve signaling that kills brain cells after a stroke (NMDA- and AMPA-mediated excitotoxicity).": "they trust DMSO for a damaged brain more once they know it calms the nerve signaling that kills brain cells after a stroke, which is what makes it worth giving at all"
+  }
+ },
+ "his_fixes": {
+  "reader": "a fresh Sonnet reader given tools/humanization/his_fixes_brief.md (reads/his-brainev-c2.txt)",
+  "marked": [
+   {
+    "s": "I believe DMSO works better for stroke and most acute brain damage than anything else readily available to ordinary people.",
+    "difference": "4",
+    "draft": "brainev-c2"
+   },
+   {
+    "s": "A preliminary trial in people who'd had a stroke from a clot found they may have recovered better on it, and doctors have used it in a small series of patients to bring down dangerous pressure inside the skull.",
+    "difference": "1",
+    "draft": "brainev-c2"
+   },
+   {
+    "s": "It also calms the overexcited nerve signaling that kills brain cells after a stroke (NMDA- and AMPA-mediated excitotoxicity).",
+    "difference": "7",
+    "draft": "brainev-c2"
+   }
+  ],
+  "kept": {
+   "I believe DMSO works better for stroke and most acute brain damage than anything else readily available to ordinary people.": "his belief, the guide's first sentence of this paragraph as it was; it read Human in brainev-c1 (a8a986e7)",
+   "A preliminary trial in people who'd had a stroke from a clot found they may have recovered better on it, and doctors have used it in a small series of patients to bring down dangerous pressure inside the skull.": "the two findings in people, in two shapes; one finding a sentence was the run that read AI in brainev-c1 (a8a986e7)",
+   "It also calms the overexcited nerve signaling that kills brain cells after a stroke (NMDA- and AMPA-mediated excitotoxicity).": "the guide's terms (fidelity keys \"NMDA\", \"AMPA-mediated\") in brackets after the plain words, his shape (\"slow and shallow breathing (respiratory depression, from opioids, benzos and alcohol)\")"
+  }
+ },
+ "fit": {
+  "reader": "a fresh Sonnet reader given tools/humanization/fit_read_brief.md (reads/fit-brainev-c2.txt)",
+  "marked": [
+   {
+    "s": "If Someone Says \"My Brain Feels Damaged\": DMSO + Humic Acid + Electrolytes First",
+    "found": "ANYWAY, CAN'T TELL, FROM"
+   }
+  ],
+  "kept": {
+   "If Someone Says \"My Brain Feels Damaged\": DMSO + Humic Acid + Electrolytes First": "his heading and his method (round 38: DMSO first for someone who says their brain feels damaged, with his checks for the signs that call for medics); the read questioned the section's premise, not a line of mine"
+  }
+ },
+ "questions": {
+  "Q1": "PASS: his belief first, then how far the evidence goes, then the finding the reader can act on, then the rest",
+  "Q2": "PASS: the reader acts on it by trusting DMSO, and by starting it even after the damage has started",
+  "Q3": "PASS: \"a stroke from a clot\", \"dangerous pressure inside the skull\", \"the area of the brain that died\"",
+  "Q4": "PASS: \"intracranial hypertension\", \"infarct\" and \"ischemia\" said plainly; \"NMDA- and AMPA-mediated excitotoxicity\" in brackets after the plain words",
+  "Q5": "PASS: \"but\", \"so\", \"and\", \"It also\" say each relation",
+  "Q6": "PASS: belief, how far the evidence goes, the studies, how it works",
+  "Q7": "PASS: each study bears on trusting DMSO for a damaged brain",
+  "Q8": "PASS: one paragraph on why DMSO",
+  "Q9": "PASS: one point a sentence, the two findings in people in one sentence of two shapes"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

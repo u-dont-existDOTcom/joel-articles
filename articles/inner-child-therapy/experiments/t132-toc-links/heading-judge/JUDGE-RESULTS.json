@@ -1,0 +1,272 @@
+{
+ "per_run": {
+  "GPT-1": {
+   "same": 65,
+   "close": 64,
+   "different": 18
+  },
+  "SONNET-1": {
+   "same": 84,
+   "different": 18,
+   "close": 45
+  },
+  "FABLE-1": {
+   "same": 85,
+   "close": 49,
+   "different": 13
+  }
+ },
+ "different": {
+  "SONNET-1": [
+   [
+    "S008",
+    "Your Body May Need Love",
+    "Love Your Body First"
+   ],
+   [
+    "S010",
+    "“No. I Hate Myself.”",
+    "The Part That Came Here"
+   ],
+   [
+    "S014",
+    "The Spiritual Side",
+    "The Spiritual Question"
+   ],
+   [
+    "S018",
+    "Borrowed Adulthood",
+    "Borrow the Adult First"
+   ],
+   [
+    "S019",
+    "Borrow, Don’t Sell Out",
+    "Keep Your Inner Adult"
+   ],
+   [
+    "S023",
+    "The Protector",
+    "Protect and Build Trust"
+   ],
+   [
+    "S032",
+    "If Love Isn’t Coming Yet",
+    "If the Love Isn’t Coming"
+   ],
+   [
+    "S034",
+    "Borrow the Love You Give",
+    "Borrow Love You Have"
+   ],
+   [
+    "S047",
+    "You Did It Well Before",
+    "You Did It Before"
+   ],
+   [
+    "S053",
+    "You Belong Everywhere",
+    "Everywhere, Nowhere"
+   ],
+   [
+    "S086",
+    "Healing or Checking?",
+    "Checking, Not Healing?"
+   ],
+   [
+    "S092",
+    "Altered States",
+    "Altered States, Intensives"
+   ],
+   [
+    "S095",
+    "Attacked by a Demon?",
+    "Prepare for Altered States"
+   ],
+   [
+    "S096",
+    "Spirit Attacks Teach Love",
+    "Spiritual Attack as Gain"
+   ],
+   [
+    "S098",
+    "Losing Touch With Reality",
+    "Escape From Reality?"
+   ],
+   [
+    "S119",
+    "Guilty for Being Happy?",
+    "Joy as Abandonment?"
+   ],
+   [
+    "S125",
+    "Ask What They Need",
+    "What Kind of Company?"
+   ],
+   [
+    "S139",
+    "If They Can’t Hear You",
+    "Others Have Hooks Too"
+   ]
+  ],
+  "GPT-1": [
+   [
+    "S010",
+    "“No. I Hate Myself.”",
+    "Notice What Brought You"
+   ],
+   [
+    "S011",
+    "When You’re the Danger",
+    "Enjoy Hurting Others?"
+   ],
+   [
+    "S023",
+    "The Protector",
+    "Protect and Build Trust"
+   ],
+   [
+    "S040",
+    "Goodwill: A Smaller Door",
+    "Start With Goodwill"
+   ],
+   [
+    "S041",
+    "Divine Love: Bigger Door",
+    "Open to Divine Love"
+   ],
+   [
+    "S042",
+    "The Inner Guide",
+    "Inner Guide: Be a Shepherd"
+   ],
+   [
+    "S044",
+    "Spoil or Clamp Down?",
+    "Care With Firm Limits"
+   ],
+   [
+    "S048",
+    "Healthy Mind, Not Perfect",
+    "Guide With Uncertainty"
+   ],
+   [
+    "S053",
+    "You Belong Everywhere",
+    "Belong, Yet Stay Free"
+   ],
+   [
+    "S070",
+    "A Passing Feeling",
+    "What Does a Feeling Mean?"
+   ],
+   [
+    "S082",
+    "Real but Shallow?",
+    "Practice Staying Shallow?"
+   ],
+   [
+    "S092",
+    "Altered States",
+    "Altered States & Intense Work"
+   ],
+   [
+    "S095",
+    "Attacked by a Demon?",
+    "Prepare for Altered States"
+   ],
+   [
+    "S096",
+    "Spirit Attacks Teach Love",
+    "Grow Through Spirit Attack"
+   ],
+   [
+    "S106",
+    "Life’s a trip also",
+    "Sober life can hook you"
+   ],
+   [
+    "S110",
+    "Play and Your Preferences",
+    "Rediscover Play and You"
+   ],
+   [
+    "S129",
+    "Finding a Therapist",
+    "Borrow From a Therapist"
+   ],
+   [
+    "S139",
+    "If They Can’t Hear You",
+    "Others Have Hooks Too"
+   ]
+  ],
+  "FABLE-1": [
+   [
+    "S010",
+    "“No. I Hate Myself.”",
+    "The Part That Came Here"
+   ],
+   [
+    "S019",
+    "Borrow, Don’t Sell Out",
+    "Keep Your Inner Adult"
+   ],
+   [
+    "S036",
+    "“And So That’s the Way It Happened!”",
+    "Give It a Story Ending"
+   ],
+   [
+    "S042",
+    "The Inner Guide",
+    "The Guide: Your Shepherd"
+   ],
+   [
+    "S044",
+    "Spoil or Clamp Down?",
+    "Neither Spoil nor Clamp"
+   ],
+   [
+    "S047",
+    "You Did It Well Before",
+    "You’ve Done It Before"
+   ],
+   [
+    "S056",
+    "Betrayed by a Teacher",
+    "When Spiritual Ties Hurt"
+   ],
+   [
+    "S085",
+    "Listen to Your Body!",
+    "Hear the Body, Or Else!"
+   ],
+   [
+    "S092",
+    "Altered States",
+    "Altered States & Intensives"
+   ],
+   [
+    "S095",
+    "Attacked by a Demon?",
+    "Prepare for Altered States"
+   ],
+   [
+    "S096",
+    "Spirit Attacks Teach Love",
+    "Gain from Spiritual Attack"
+   ],
+   [
+    "S098",
+    "Losing Touch With Reality",
+    "If Escape Leaves Reality"
+   ],
+   [
+    "S139",
+    "If They Can’t Hear You",
+    "Other Folks Have Hooks"
+   ]
+  ]
+ }
+}

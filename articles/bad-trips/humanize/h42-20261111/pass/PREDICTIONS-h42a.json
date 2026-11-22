@@ -1,0 +1,519 @@
+{
+ "h42-01": {
+  "call": "AI",
+  "chance": 0.2,
+  "tells": [
+   "It can gently guide you through reparenting in trance--or without trance when you're already altered"
+  ],
+  "human_tells": [
+   "If you prefer the old-fashioned method of reading and applying things yourself, read on."
+  ]
+ },
+ "h42-02": {
+  "call": "AI",
+  "chance": 0.1,
+  "tells": [
+   "Trouble breathing, blue or gray lips, or respiratory depression",
+   "Violence, self-harm, or a situation the sitter cannot physically contain"
+  ],
+  "human_tells": [
+   "The remedies below can begin while help is being arranged."
+  ]
+ },
+ "h42-03": {
+  "call": "AI",
+  "chance": 0.1,
+  "tells": [
+   "Use local emergency services for immediate danger or a medical emergency."
+  ],
+  "human_tells": [
+   "Outside the United States, identify the local emergency number and crisis line before you ever need them."
+  ]
+ },
+ "h42-04": {
+  "call": "AI",
+  "chance": 0.15,
+  "tells": [
+   "Find A Helpline: a global directory of free helplines, many offering phone, text, online chat, or WhatsApp."
+  ],
+  "human_tells": [
+   "Save the relevant links and local numbers before you need them."
+  ]
+ },
+ "h42-05": {
+  "call": "AI",
+  "chance": 0.1,
+  "tells": [
+   "The emergency room is not magic, and for a physiologically stable psychedelic or practice-induced crisis it may be a poor environment."
+  ],
+  "human_tells": [
+   "A scared, psychotic-feeling person often receives a benzodiazepine"
+  ]
+ },
+ "h42-06": {
+  "call": "AI",
+  "chance": 0.25,
+  "tells": [
+   "It may be anxiety or excessive psychedelic intensity. It may also be acute neurological dysfunction"
+  ],
+  "human_tells": [
+   "I've never had any issues with bleeding too much from consuming DMSO, and never heard of it either"
+  ]
+ },
+ "h42-07": {
+  "call": "AI",
+  "chance": 0.3,
+  "tells": [
+   "Benzodiazepines are the established first-line drug class for status epilepticus."
+  ],
+  "human_tells": [
+   "I'd also try sniffing humic/fulvic acid powder, although that's just a hunch based on the effects I notice so far."
+  ]
+ },
+ "h42-08": {
+  "call": "Human",
+  "chance": 0.8,
+  "tells": [
+   "I'd treat it as a plausible experimental adjunct remedy rather than something to wait on while a seizure continues."
+  ],
+  "human_tells": [
+   "And rats bred to have seizures had more of them after high-THC smoke.",
+   "But a few people on the same forums said THC vapes and concentrates brought their seizures on."
+  ]
+ },
+ "h42-09": {
+  "call": "AI",
+  "chance": 0.3,
+  "tells": [
+   "Kidney impairment is a strong reason not to take MDMA--not a reason to sit there with worsening jaw tension after taking it."
+  ],
+  "human_tells": [
+   "My second wife had severe convulsions after an MDMA overdose."
+  ]
+ },
+ "h42-10": {
+  "call": "AI",
+  "chance": 0.3,
+  "tells": [
+   "Mild, familiar, non-progressive discomfort in a fully alert person is different from new, severe, persistent, worsening, radiating, or exertional pain"
+  ],
+  "human_tells": [
+   "After I overused erythritol, I developed angina that lasted for days."
+  ]
+ },
+ "h42-11": {
+  "call": "AI",
+  "chance": 0.15,
+  "tells": [
+   "Poison control may be useful when the substance, combination, delayed risk, or value of charcoal is unclear."
+  ],
+  "human_tells": [
+   "I do not treat it as a mandatory ritual; usefulness varies by country and by whoever answers."
+  ]
+ },
+ "h42-12": {
+  "call": "AI",
+  "chance": 0.05,
+  "tells": [
+   "Hydrate only when fully alert and not vomiting. Small sips of an appropriate oral rehydration drink are reasonable."
+  ],
+  "human_tells": [
+   "Niacin is unsafe for serotonin syndrome. DMSO is also not part of this branch."
+  ]
+ },
+ "h42-13": {
+  "call": "AI",
+  "chance": 0.2,
+  "tells": [
+   "The hierarchy appears before the mystical sections because love doesn't require us to ignore the body."
+  ],
+  "human_tells": [
+   "In general it's good to try all these things in very low, increasing doses before they are needed in crisis."
+  ]
+ },
+ "h42-14": {
+  "call": "AI",
+  "chance": 0.35,
+  "tells": [
+   "That may be therapeutic in the right context, but it is not a casual rescue tool."
+  ],
+  "human_tells": [
+   "Humic acid when eaten, can produce a hyperintelligent state for me."
+  ]
+ },
+ "h42-15": {
+  "call": "AI",
+  "chance": 0.3,
+  "tells": [
+   "Many ferments help to different degrees, including kombucha, kimchi, and apple vinegar."
+  ],
+  "human_tells": [
+   "Rubbing it on the body or simply holding the jar also helps me."
+  ]
+ },
+ "h42-16": {
+  "call": "AI",
+  "chance": 0.2,
+  "tells": [
+   "When the goal is to reduce drug absorption or stop a toxic gut situation, charcoal may be relevant."
+  ],
+  "human_tells": [
+   "I use glass for ozonation and storage whenever possible."
+  ]
+ },
+ "h42-17": {
+  "call": "AI",
+  "chance": 0.3,
+  "tells": [
+   "When ozonated zeolite and ferment don't help, I consider nausea caused by an excessive psychedelic dose acting on serotonin receptors in the gut."
+  ],
+  "human_tells": [
+   "Eating a couple of coffee cherries helps my nausea."
+  ]
+ },
+ "h42-18": {
+  "call": "AI",
+  "chance": 0.3,
+  "tells": [
+   "But when I'm on ayahuasca or loveyhuasca, not only is it calming and nice, but actually opens my heart chakra considerably."
+  ],
+  "human_tells": [
+   "People tell me it's saved their life from crippling anxiety.",
+   "Licking a tiny bit like 5mg does even more, sending my brain into hyperfunctionality."
+  ]
+ },
+ "h42-19": {
+  "call": "AI",
+  "chance": 0.3,
+  "tells": [
+   "DMSO is another stabilizer I use when a trip becomes too intense and I don't want to abort it."
+  ],
+  "human_tells": [
+   "Most of these oils are fake on Amazon so buy only directly from trusted essential oil vendors.",
+   "Even just taking a lime and scratch & sniff the peel can be relaxing."
+  ]
+ },
+ "h42-20": {
+  "call": "AI",
+  "chance": 0.2,
+  "tells": [
+   "Don't combine it with cholinergic drugs because DMSO is also cholinergic, although I haven't found anecdotes of this causing a real problem."
+  ],
+  "human_tells": [
+   "taking them a bit apart is totally fine, and the point is to take DMSO",
+   "It may worsen a cluster headache, even though rubbing DMSO--especially with magnesium chloride--on the head can alleviate tension headaches."
+  ]
+ },
+ "h42-21": {
+  "call": "Human",
+  "chance": 0.85,
+  "tells": [
+   "These oil-soluble harmalas have no effect when eaten, but when absorbed thru mucous membranes or vaped, they chill out psychedelic trip intensity"
+  ],
+  "human_tells": [
+   "On their own, they have some mild psychedelic properties though (like I felt like half of my head was sort of transparent)",
+   "I have a friend with schizophrenia who would use about 1-2mL of this oil rectally when he was in psychosis"
+  ]
+ },
+ "h42-22": {
+  "call": "AI",
+  "chance": 0.25,
+  "tells": [
+   "It has a grounding, cooling, organizing effect different from DMSO, aged ozonated-charcoal water, zeolite, or beach morning glory."
+  ],
+  "human_tells": [
+   "I honestly can't say how different these are from ocean water, because I've only used them a handful of times",
+   "Ocean water is one of the simplest and strangest stabilizers I have found."
+  ]
+ },
+ "h42-23": {
+  "call": "AI",
+  "chance": 0.3,
+  "tells": [
+   "Aged ozonated-charcoal water acts more on the crazy or excessively intense mental feeling: too much psychedelic energy, the wrong environment, anxiety, high EMF"
+  ],
+  "human_tells": [
+   "I have even watched the water calm a crying baby through touch alone.",
+   "Earlier in my experiments, I made the mistake of directly smelling ozone gas during a psychedelic state."
+  ]
+ },
+ "h42-24": {
+  "call": "AI",
+  "chance": 0.2,
+  "tells": [
+   "The distinction matters. I have tried many related plants and cousins, and they did not work the same way."
+  ],
+  "human_tells": [
+   "Within a couple of minutes she shifted from miserable to very happy."
+  ]
+ },
+ "h42-25": {
+  "call": "AI",
+  "chance": 0.25,
+  "tells": [
+   "fear, grief, memory, certainty, and whatever else the altered mind has opened still need somebody to sit with them."
+  ],
+  "human_tells": [
+   "Flushing niacin has effectively aborted trips for me and friends, although I dislike it compared with beach morning glory.",
+   "Avoid sustained-release niacin and the useless non-flush hexanicotinate form."
+  ]
+ },
+ "h42-26": {
+  "call": "AI",
+  "chance": 0.45,
+  "tells": [
+   "but I would be remiss not to point you toward the Challenging Psychedelic Experiences Project"
+  ],
+  "human_tells": [
+   "Hello, Lovey Bunny! I hope you are presently well, and if not, I pray that you feel well soon!"
+  ]
+ },
+ "h42-27": {
+  "call": "Human",
+  "chance": 0.6,
+  "tells": [
+   "As the person helping, you want to play the role of the calm, caring anchor to the safe present moment"
+  ],
+  "human_tells": [
+   "If they want to post their big revelation about the universe, or message an ex, take the phone.",
+   "get the car keys out of reach and turn the stove off, and move them away from roads and balconies, or pools of water for that matter."
+  ]
+ },
+ "h42-28": {
+  "call": "Human",
+  "chance": 0.65,
+  "tells": [
+   "If they're being attacked by a demon, let your care help them connect to love, which cancels fear."
+  ],
+  "human_tells": [
+   "I actually get something like this regularly when I take a high dose of something (or meditate too much)"
+  ]
+ },
+ "h42-29": {
+  "call": "AI",
+  "chance": 0.15,
+  "tells": [
+   "Grounding is love becoming practical. Choose one or two options rather than all of them.",
+   "A useful order is room → body → human → time → meaning."
+  ],
+  "human_tells": [
+   "It helps to watch a video on how to do it prior though",
+   "Scratch & sniff a lime peel, or smell an authentic calming essential oil"
+  ]
+ },
+ "h42-30": {
+  "call": "AI",
+  "chance": 0.15,
+  "tells": [
+   "Avoid strenuous exercise with overheating, chest pain, faintness, severe confusion, stimulant use, an unknown mixture, or any medical concern.",
+   "Try a steady drum rhythm for stabilization or grounding; try airy harp-like or meditative music when the person wants something gentler"
+  ],
+  "human_tells": [
+   "Soothing meditative music, like that of Chantress Seba and others on my music page, can be very helpful.",
+   "Eat simple healthy food, such as fruit, when you can."
+  ]
+ },
+ "h42-31": {
+  "call": "AI",
+  "chance": 0.3,
+  "tells": [
+   "Many bad trips get worse because somebody is alone with a frightened or over-certain mind."
+  ],
+  "human_tells": [
+   "The triage app has the stripped-down 3 a.m. plan."
+  ]
+ },
+ "h42-32": {
+  "call": "AI",
+  "chance": 0.15,
+  "tells": [
+   "Crying, grieving, remembering, or touching a genuine wound calls for loving awareness."
+  ],
+  "human_tells": [
+   "while somebody white-knuckles the carpet are generally less helpful."
+  ]
+ },
+ "h42-33": {
+  "call": "AI",
+  "chance": 0.15,
+  "tells": [
+   "Treat the statement as a safety signal and build a bridge back toward non-harm.",
+   "Tonight the commandment is no harm, no proof, no mission, sleep first."
+  ],
+  "human_tells": [
+   "Don't block, crowd, threaten, mock, or physically wrestle away a weapon.",
+   "I hear how vast and certain this feels."
+  ]
+ },
+ "h42-34": {
+  "call": "AI",
+  "chance": 0.3,
+  "tells": [
+   "Treat trip content first as experience-content, rather than fact-content."
+  ],
+  "human_tells": [
+   "Think twice before sending whatever ridiculous message you're planning on to Judge Amos, posting that revelation you'll forget tomorrow,"
+  ]
+ },
+ "h42-35": {
+  "call": "AI",
+  "chance": 0.2,
+  "tells": [
+   "Bliss is not proof of safety, and it often makes grounding less welcome."
+  ],
+  "human_tells": [
+   "The action lock matters especially when the state feels blissful"
+  ]
+ },
+ "h42-36": {
+  "call": "AI",
+  "chance": 0.3,
+  "tells": [
+   "Most negative mind-states aren't some error in your philosophy, they're just young parts of you that are still waiting for love"
+  ],
+  "human_tells": [
+   "Begin with my Inner Child Therapy guide and app, and my Self-Hypnosis guide and app."
+  ]
+ },
+ "h42-37": {
+  "call": "AI",
+  "chance": 0.25,
+  "tells": [
+   "There's hunger and ache in it, it keeps circling back to you, and there's the painful fantasy"
+  ],
+  "human_tells": [
+   "it took me months of daily loveyhuasca after my ex-wife Bee left to understand it."
+  ]
+ },
+ "h42-38": {
+  "call": "AI",
+  "chance": 0.2,
+  "tells": [
+   "Being thankful for every lesson, difficult experience, reprieve, heart opening, and moment of compassion can create a deep connection"
+  ],
+  "human_tells": [
+   "Recognizing that you are not the only one suffering can open awareness in a liberating way, with real heart magic."
+  ]
+ },
+ "h42-39": {
+  "call": "AI",
+  "chance": 0.3,
+  "tells": [
+   "Panic fights panic, hatred fights hatred, pride fights pride, and suddenly a small war is running inside consciousness."
+  ],
+  "human_tells": [
+   "I have faced demons and jinn during psychedelic and exorcism-type situations."
+  ]
+ },
+ "h42-40": {
+  "call": "AI",
+  "chance": 0.1,
+  "tells": [
+   "Psychedelics and intense practices can bring up true trauma, symbolic material, distorted fragments, fears, fantasies, archetypes"
+  ],
+  "human_tells": [
+   "The experience may matter deeply. It could be true psychologically, or symbolically, or literally, or only partly true"
+  ]
+ },
+ "h42-41": {
+  "call": "AI",
+  "chance": 0.35,
+  "tells": [
+   "Shadow thoughts and feelings are not inherently a problem. They co-arise naturally and do not need to be attached to,"
+  ],
+  "human_tells": [
+   "A hated baby does not feel love, and a loved baby does not feel hate."
+  ]
+ },
+ "h42-42": {
+  "call": "Human",
+  "chance": 0.7,
+  "tells": [
+   "Be kind to yourself or to whoever's going through it, because blaming anyone only makes it heavier."
+  ],
+  "human_tells": [
+   "Samsara offers no shortage of difficult experiences to process."
+  ]
+ },
+ "h42-43": {
+  "call": "AI",
+  "chance": 0.2,
+  "tells": [
+   "Suffering by itself fixes nobody. Suffering that yields insight requires enough clarity of mind and heart to learn from it."
+  ],
+  "human_tells": [
+   "while ignoring the person shaking in the corner."
+  ]
+ },
+ "h42-44": {
+  "call": "AI",
+  "chance": 0.3,
+  "tells": [
+   "Ignoring that side of life becomes dissociation or spiritual bypassing in the opposite direction,"
+  ],
+  "human_tells": [
+   "I encountered a lot of it in my first two marriages, to my bewilderment."
+  ]
+ },
+ "h42-45": {
+  "call": "AI",
+  "chance": 0.3,
+  "tells": [
+   "But the fruit of an insight is whether suffering goes down and love gets more available."
+  ],
+  "human_tells": [
+   "I'm betting it will tell you: Give me sleep, natural food, pure water, a nice nature walk."
+  ]
+ },
+ "h42-46": {
+  "call": "Human",
+  "chance": 0.7,
+  "tells": [
+   "Anxiety and fear: with this pattern, it helps to first figure out what is providing the stimulation for the anxiety."
+  ],
+  "human_tells": [
+   "I'd still go for my trusty relaxing herbs first, like beach morning glory",
+   "I find reading the Buddhist suttas supremely helpful."
+  ]
+ },
+ "h42-47": {
+  "call": "AI",
+  "chance": 0.2,
+  "tells": [
+   "The trauma material is bigger than the room can hold."
+  ],
+  "human_tells": [
+   "Psychosis-like symptoms outlast the acute state."
+  ]
+ },
+ "h42-48": {
+  "call": "AI",
+  "chance": 0.25,
+  "tells": [
+   "Because they are unprepared to make the best of the experience, and unprepared to integrate it after,"
+  ],
+  "human_tells": [
+   "You flail around for a bit then terrified, you go back to holding on to the wall and begging to get out."
+  ]
+ },
+ "h42-49": {
+  "call": "Human",
+  "chance": 0.6,
+  "tells": [
+   "Go in curious about what might come up, along with gentle intentions, not harboring demands for revelations"
+  ],
+  "human_tells": [
+   "the sitter (the sober person with you, not literally someone sitting on your face!)"
+  ]
+ },
+ "h42-50": {
+  "call": "AI",
+  "chance": 0.3,
+  "tells": [
+   "If somebody is actively in trouble, use the triage app first. The resources below come afterward."
+  ],
+  "human_tells": [
+   "Have you ever wondered whether the stuff we see in visions is real or not?"
+  ]
+ }
+}

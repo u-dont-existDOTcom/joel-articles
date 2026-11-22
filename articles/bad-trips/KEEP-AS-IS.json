@@ -1,7 +1,7 @@
 {
  "format": "joel-keep-as-is-v1",
  "article": "articles/bad-trips/GUIDE-SO-FAR.md",
- "about": "What Joel has said stays as it is in the Bad Trips guide, and the cuts he meant: no card flags, fixes or puts these back (tools/humanization/keep_as_is.py, gate E340). Started 2026-11-04 from his answers to round 1 (review/r01/ANSWERS-R01-20261103-1859.json), his messages of 2026-11-03 (experiments/t01-answers/) and round 2 (review/r02/ANSWERS-R02-20261104-1026.json). His other edits, with the strings that prove they are in, are in OWNER-EDITS.json. The quotes are in the guide's characters after the standard swap (humanize/h01/swap.py): straight quote marks, spaced en dashes.",
+ "about": "What Joel has said stays as it is in the Bad Trips guide, and the cuts he meant: no card flags, fixes or puts these back (tools/humanization/keep_as_is.py, gate E340). Started 2026-11-04 from his answers to round 1 (review/r01/ANSWERS-R01-20261103-1859.json), his messages of 2026-11-03 (experiments/t01-answers/) and round 2 (review/r02/ANSWERS-R02-20261104-1026.json). His other edits, with the strings that prove they are in, are in OWNER-EDITS.json. The quotes are in the guide's characters after the standard swap (humanize/h01/swap.py): straight quote marks, spaced en dashes. | K12 (\"adjunct remedy\", round 5) released by his round-34 answer to ADJUNCT, \"b\" (review/r34/ANSWERS-R34-20261111-2357.json, 2026-11-11 23:57:59 UTC): the sentence became \"While a seizure continues, the rescue medicine comes first, and I'd still consider DMSO alongside it, although that's experimental.\" (Human, Medium, 83f4caef).",
  "keep": [
   {
    "id": "K1",
@@ -76,12 +76,13 @@
   {
    "id": "K8",
    "kind": "placement",
-   "quote": "Call medics for a convulsive seizure lasting about five minutes, repeated seizures without normal recovery, trouble breathing, dangerous heat, serious injury, a first seizure, or a seizure substantially different from the person's known pattern.",
+   "quote": "- Note that psychedelics do reduce the seizure threshold, so if someone is prone to seizures, a normal dose could produce a seizure for them which doesn't indicate brain damage, but if it goes on over 5 minutes, that's too much",
    "what": "The seizure threshold is said in the medics list and again in Active Seizure; it stays in both, where the reader acts on it.",
    "joel": "sf-2 agree with you",
    "when": "2026-11-03 18:59 UTC",
    "where": "round 1, card SF-2 (my advice: leave both)",
-   "basis": "his answer"
+   "basis": "his answer",
+   "reworded": "2026-11-12, turn 39: Active Seizure's call-medics line said as a lead-in and list (\"Call medics if any of these happen:\"), every threshold kept (humanize/h49-20261112, seize-c3, Human Written); the placement he agreed to is unchanged, in both places; 2026-11-12 19:44 UTC, his Active Seizure version (\"over 5 minutes\"), and the Call medics list's line said the same way, so the threshold is still in both places; 2026-11-12 22:34 UTC, his message (\"you're right about over 5 minutes that's an epilepsy rule\"): the 5 minutes for a seizure on a normal dose, an overdose seizure its own line, in both places; 2026-11-13 14:15 UTC, his fix: the call list's items end with no period; 2026-11-13, his version f6b4e35a (\"but i want this version which explains better\"): the line with his explanation of the seizure threshold in it, still in both places"
   },
   {
    "id": "K9",
@@ -109,16 +110,6 @@
    "quote": "just anecdotes",
    "what": "His link to a 35-second clip (\"Miraculous CBD Oil Stops Child's Epileptic Seizure Instantly\"): a pass checking sources would flag a news clip as weak evidence, but the words say it is an anecdote, which is his point.",
    "joel": "then i added a link to a cbd instant seizure fix yt vid anecdote",
-   "when": "2026-11-04 22:14 UTC",
-   "where": "round 5, card CBD-YOURS (his version)",
-   "basis": "his answer"
-  },
-  {
-   "id": "K12",
-   "kind": "choice",
-   "quote": "adjunct remedy",
-   "what": "\"remedy\" after \"adjunct\" can look redundant; it says what the adjunct is for, and it was the change that took his paragraph to Human.",
-   "joel": "then the one thing that flipped it was adding \"remedy\" to \"adjunct\" since adjunct is not really clear what it's adjuncting for",
    "when": "2026-11-04 22:14 UTC",
    "where": "round 5, card CBD-YOURS (his version)",
    "basis": "his answer"
@@ -156,12 +147,13 @@
   {
    "id": "K16",
    "kind": "choice",
-   "quote": "Letting them move around is fine, and pacing can help, but keep them from taking more of any substance.",
+   "quote": "Letting them move around is fine, and pacing can help, but keep them from taking more of any substance or getting into confrontations.",
    "what": "Where the movement lines sit: inside his dangers paragraph, right after moving them away from roads, balconies and pools, before the weapons and the phone. A pass splitting the paragraph or moving these lines back out undoes his fix.",
    "joel": "actually, the problem was simply that you had the ideas out of their natural order, i fixed that with nothing changed apart from moving",
    "when": "2026-11-05 15:14 UTC",
    "where": "round 6, card MOVE-YOURS (his version)",
-   "basis": "his answer"
+   "basis": "his answer",
+   "reworded": "2026-11-20 13:53 UTC, his round-44 version (EDIT-CONFRONT, e04e1552, Human High 107): \"or getting into confrontations\" folded into this line, his confront line's own sentence gone; the movement lines still sit inside his dangers paragraph, where his round-6 fix put them"
   },
   {
    "id": "K17",
@@ -201,6 +193,126 @@
    "joel": "",
    "when": "2026-11-08 15:01 UTC",
    "where": "round 24, card TEACH-FIRM (his version)",
+   "basis": "his answer"
+  },
+  {
+   "id": "K21",
+   "quote": "which led to 3 weeks of wandering in Malaysia & Cambodia without money once",
+   "what": "His own story in the first five minutes: the voice that told him to leave sex and money, and what it led to once.",
+   "joel": "",
+   "when": "2026-11-09 01:24 UTC",
+   "kind": "voice",
+   "where": "round 27, card TEACH-LOOP (his version)",
+   "basis": "his answer"
+  },
+  {
+   "id": "K22",
+   "quote": "(that yin yoga again!)",
+   "what": "His aside in the aftermath list's somatic line, calling back his yin yoga in the lines before.",
+   "joel": "",
+   "when": "2026-11-09 01:24 UTC",
+   "kind": "voice",
+   "where": "round 27, card TEACH-AFTERMATH (his version)",
+   "basis": "his answer"
+  },
+  {
+   "id": "K23",
+   "quote": "(with bare feet for grounding to the Earth)",
+   "what": "His aside in the aftermath list's derealization line.",
+   "joel": "",
+   "when": "2026-11-09 01:24 UTC",
+   "kind": "voice",
+   "where": "round 27, card TEACH-AFTERMATH (his version)",
+   "basis": "his answer"
+  },
+  {
+   "id": "K24",
+   "kind": "choice",
+   "quote": "the other on your solar plexus just under your chest",
+   "what": "Where the second hand goes: the solar plexus, never the belly. A pass, or a model drafting from the Grounding Menu's old line, keeps putting \"belly\" back; he corrected it in Alone at 3 a.m. and the Grounding Menu says the solar plexus too, as Hand on Heart and Gratitude always did.",
+   "joel": "belly must be an ai error, it's funny it keeps changing that",
+   "when": "2026-11-09 18:59 UTC",
+   "where": "round 31, card MW-ALONE (his version)",
+   "basis": "his answer"
+  },
+  {
+   "id": "K25",
+   "kind": "coinage",
+   "quote": "ZeoCharge",
+   "what": "his name for his zeolite, with his post on it linked; a pass that sees \"zeolite\" in the text may take it for a typo or a brand to explain away",
+   "joel": "",
+   "when": "2026-11-21 14:28 UTC",
+   "where": "round 47, his headings for the sidebar (review/r47/ANSWERS-R47-20261121-1428.json)",
+   "basis": "his answer"
+  },
+  {
+   "id": "K26",
+   "kind": "coinage",
+   "quote": "Holy Water",
+   "what": "his name for the ozonated charcoal water of his ZHoly3O page (his words elsewhere: \"an ozonated charcoal \\\"holy water\\\"\"), linked to that page; it is not in the section's text, which says \"aged ozonated-charcoal water\"",
+   "joel": "",
+   "when": "2026-11-21 14:28 UTC",
+   "where": "round 47, his headings for the sidebar (review/r47/ANSWERS-R47-20261121-1428.json)",
+   "basis": "his answer"
+  },
+  {
+   "id": "K27",
+   "kind": "joke",
+   "quote": "Niacin \"Flushes\" Trips Out",
+   "what": "his pun on the niacin flush, in his quote marks",
+   "joel": "",
+   "when": "2026-11-21 14:28 UTC",
+   "where": "round 47, his headings for the sidebar (review/r47/ANSWERS-R47-20261121-1428.json)",
+   "basis": "his answer"
+  },
+  {
+   "id": "K28",
+   "kind": "voice",
+   "quote": "Chill Love 🫶🏿",
+   "what": "his playful words and his emoji in the sniffer's heading, at the edge of the sidebar's room",
+   "joel": "",
+   "when": "2026-11-21 14:28 UTC",
+   "where": "round 47, his headings for the sidebar (review/r47/ANSWERS-R47-20261121-1428.json)",
+   "basis": "his answer"
+  },
+  {
+   "id": "K29",
+   "kind": "voice",
+   "quote": "Mango Leaf Tea: Chill Bliss",
+   "what": "his playful words in the heading",
+   "joel": "",
+   "when": "2026-11-21 14:28 UTC",
+   "where": "round 47, his headings for the sidebar (review/r47/ANSWERS-R47-20261121-1428.json)",
+   "basis": "his answer"
+  },
+  {
+   "id": "K30",
+   "kind": "choice",
+   "quote": "Lime or EOs for Calm",
+   "what": "\"EOs\" is his short form for essential oils; the section's first line says essential oils",
+   "joel": "",
+   "when": "2026-11-21 14:28 UTC",
+   "where": "round 47, his headings for the sidebar (review/r47/ANSWERS-R47-20261121-1428.json)",
+   "basis": "his answer"
+  },
+  {
+   "id": "K31",
+   "kind": "choice",
+   "quote": "Act Now on SS",
+   "what": "\"SS\" in the headings is his, after \"Serotonin Syndrome (SS)?\" spells it out; \"How to Check for SS\" is his \"How To Check For SS\" in title case, his rule",
+   "joel": "",
+   "when": "2026-11-21 14:28 UTC",
+   "where": "round 47, his headings for the sidebar (review/r47/ANSWERS-R47-20261121-1428.json)",
+   "basis": "his answer"
+  },
+  {
+   "id": "K32",
+   "kind": "choice",
+   "quote": "Off the Healing Treadmill",
+   "what": "his words from his old heading \"Trip After Trip? Hang up the phone, get off the Healing Treadmill\"",
+   "joel": "",
+   "when": "2026-11-21 14:28 UTC",
+   "where": "round 47, his headings for the sidebar (review/r47/ANSWERS-R47-20261121-1428.json)",
    "basis": "his answer"
   }
  ],
@@ -311,6 +423,15 @@
    "joel": "\"fixed it, now all high conf\"",
    "when": "2026-11-08 15:01 UTC",
    "where": "round 24, card TEACH-FIRM (his version)",
+   "basis": "his answer"
+  },
+  {
+   "id": "C13",
+   "quote": "I developed the [**Inner Signal app**]",
+   "what": "the Inner Signal section, out until his app is ready; kept word for word in review/r47/REMOVED-B65.md to go back in when he says the app is ready",
+   "joel": "remove this section for now since my app isn't ready",
+   "when": "2026-11-21 14:28 UTC",
+   "where": "round 47, his headings for the sidebar (review/r47/ANSWERS-R47-20261121-1428.json)",
    "basis": "his answer"
   }
  ]

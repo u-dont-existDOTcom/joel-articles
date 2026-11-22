@@ -1,0 +1,110 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-11",
+ "text_sha256": "a48ab45691e39110b449630274877548db650d4d7c33b4bf0441cad55c9d74c8",
+ "text": "I also read on forums some swear it stops the seizure from going any further, and there was one woman whose EEG showed fewer seizure discharges on the days she smoked. But a few people on the same forums said THC vapes and concentrates brought their seizures on. And rats bred to have seizures had more of them after high-THC smoke.\n\nAs for topical CBD, it hasn't been well-studied. There was a short 12-week trial done, where they used a CBD skin gel, and although absorption was good, it didn't work any better than placebo to prevent seizures. The study authors suggested the dosing may have been too low, or that adults with focal epilepsy just don't respond as well as people with the syndromes oral CBD is approved for. The seizures in Dravet and Lennox-Gastaut syndrome are mostly generalized. Generalized are the type people usually have with MDMA & psychedelic overdoses, so topical CBD might do better for those than it did in that trial.\n\nAs for DMSO, it did reduce seizure activity in rats with temporal-lobe epilepsy, and we know it has several neuroprotective mechanisms, but it produced the opposite effect at some doses in an absence-epilepsy model. While a seizure continues, the rescue medicine comes first, and I'd treat DMSO as a plausible adjunct remedy, although that's experimental.",
+ "section": "Active Seizure: What Else May Help: At the Aura, and Alongside Rescue Medicine (2 of 2)",
+ "reader": "someone with a person having a seizure, often from MDMA or a psychedelic overdose (generalized), deciding whether cannabis, topical CBD or DMSO is worth using alongside rescue medicine, and whether to wait on any",
+ "sentences": [
+  {
+   "s": "I also read on forums some swear it stops the seizure from going any further, and there was one woman whose EEG showed fewer seizure discharges on the days she smoked.",
+   "payoff": "they hear the case for cannabis from people who use it: some say it stops a seizure, one EEG showed fewer discharges",
+   "follows": "it continues the part before on THC, the forum reports after the ones it began with"
+  },
+  {
+   "s": "But a few people on the same forums said THC vapes and concentrates brought their seizures on.",
+   "payoff": "they hear the other side: for some, vapes and concentrates brought seizures on, so the form matters",
+   "follows": "the counter-reports from the same forums",
+   "link": "But a few people on the same forums"
+  },
+  {
+   "s": "And rats bred to have seizures had more of them after high-THC smoke.",
+   "payoff": "they know the animal evidence leans the same way as the warning, for high-THC smoke",
+   "follows": "more on the same side",
+   "link": "And"
+  },
+  {
+   "s": "As for topical CBD, it hasn't been well-studied.",
+   "payoff": "they know topical CBD's evidence is thin before they hear the one trial",
+   "follows": "the next remedy, after cannabis",
+   "link": "As for topical CBD"
+  },
+  {
+   "s": "There was a short 12-week trial done, where they used a CBD skin gel, and although absorption was good, it didn't work any better than placebo to prevent seizures.",
+   "payoff": "they know the one trial found the gel absorbed but no better than placebo",
+   "follows": "what the thin evidence is",
+   "link": "There was a short 12-week trial done"
+  },
+  {
+   "s": "The study authors suggested the dosing may have been too low, or that adults with focal epilepsy just don't respond as well as people with the syndromes oral CBD is approved for.",
+   "payoff": "they know why it may have failed: a low dose, or focal epilepsy responding less",
+   "follows": "the trial's own explanation",
+   "link": "The study authors suggested"
+  },
+  {
+   "s": "The seizures in Dravet and Lennox-Gastaut syndrome are mostly generalized.",
+   "payoff": "they know the syndromes oral CBD is approved for have generalized seizures",
+   "follows": "it picks up \"the syndromes oral CBD is approved for\"",
+   "link": "The seizures in Dravet and Lennox-Gastaut syndrome"
+  },
+  {
+   "s": "Generalized are the type people usually have with MDMA & psychedelic overdoses, so topical CBD might do better for those than it did in that trial.",
+   "payoff": "they know their case (MDMA or psychedelic overdose) is the generalized kind, so the gel might do better for them",
+   "follows": "what that means for their case",
+   "link": "so topical CBD might do better for those"
+  },
+  {
+   "s": "As for DMSO, it did reduce seizure activity in rats with temporal-lobe epilepsy, and we know it has several neuroprotective mechanisms, but it produced the opposite effect at some doses in an absence-epilepsy model.",
+   "payoff": "they know DMSO's evidence is mixed: fewer seizures in one rat model, the opposite at some doses in another",
+   "follows": "the next remedy, after CBD",
+   "link": "As for DMSO"
+  },
+  {
+   "s": "While a seizure continues, the rescue medicine comes first, and I'd treat DMSO as a plausible adjunct remedy, although that's experimental.",
+   "payoff": "they keep the rescue medicine first while the seizure goes on, and use DMSO, if at all, as an adjunct remedy alongside it, knowing it's experimental",
+   "follows": "what the mixed evidence means for them",
+   "link": "While a seizure continues"
+  }
+ ],
+ "checked": [],
+ "placement": "the end of What Else May Help, after cannabis's forum reports and topical CBD: DMSO comes last as the remedy with the weakest seizure evidence, and its last sentence says what to do with it",
+ "opens": {
+  "first_sentence": "I also read on forums some swear it stops the seizure from going any further, and there was one woman whose EEG showed fewer seizure discharges on the days she smoked.",
+  "why_reading": "it tells someone deciding about cannabis that people who use it report it can stop a seizure, so they read on to hear the other side and the other remedies"
+ },
+ "same_point": "none: read What Else May Help from its heading to the next for cannabis, topical CBD and DMSO; each remedy is said once, here",
+ "needed": {
+  "reader": "a fresh Haiku agent given tools/humanization/needed_read_brief.md with the unit, its heading and what it is for (NEEDED-READ.md, h42-08-fix2); fix3 differs only in the last sentence's wording ('treat DMSO as a plausible adjunct remedy', his words), the same job",
+  "unneeded": [
+   "The seizures in Dravet and Lennox-Gastaut syndrome are mostly generalized."
+  ],
+  "kept": {
+   "The seizures in Dravet and Lennox-Gastaut syndrome are mostly generalized.": "they see the syndromes CBD works for have their kind of seizure, the step the next sentence's 'so' stands on when it tells them the gel might do better for them"
+  }
+ },
+ "questions": {
+  "Q1": "PASS: each sentence opens on its remedy or the report (\"As for topical CBD\", \"As for DMSO\", \"So it might help\")",
+  "Q2": "PASS: the one instruction is the reader's: use it alongside rescue medicine, don't wait on it",
+  "Q3": "PASS: \"THC vapes and concentrates\", \"a CBD skin gel\", \"rats with temporal-lobe epilepsy\" name the exact thing",
+  "Q4": "PASS: \"rescue medicine\" is the section's own term from its first part; \"adjunct remedy\" is his (KEEP-AS-IS K12), what it is an adjunct to said in the same sentence",
+  "Q5": "PASS: \"But\" turns to the counter-reports, \"so\" draws each conclusion, the last \"So\" draws it from the mixed evidence",
+  "Q6": "PASS: the reports, then the trial, then what it means for this reader, for each remedy in turn",
+  "Q7": "PASS: each fact bears on whether the reader uses that remedy during a seizure",
+  "Q8": "PASS: all three are remedies people try alongside rescue medicine",
+  "Q9": "PASS: one step a sentence, the relations said (\"so\", \"but\", \"As for\")"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ },
+ "late_ok": {
+  "Generalized": "not mine and not a definition: the guide's sentence (read Human High in h42a) tells the reader their seizures are the generalized kind, after the sentence before says the syndromes' seizures are; it names their case, and rewording words that read High is left alone (gut-2026-11-06c)"
+ }
+}

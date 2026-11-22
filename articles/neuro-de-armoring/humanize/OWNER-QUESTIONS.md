@@ -1,8 +1,7 @@
 # Neuro de-armoring: what I need from Joel
 
-Last updated 2026-11-08, after your message of 17:09 UTC.
-**Open questions: 0.** **For you to do**: one card on
-[Neuro De-Armoring Cards, 8 November (5)](https://claude.ai/artifact/9nENpt9AEJCB43a9Wy5jqn) ([the same card in Git](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/sci-p23/REVIEW-X1108E.md)), potassium corrected again; it replaces (4) on the same page.
+Last updated 2026-11-22, after your message of 17:39 UTC.
+**Open questions: 0.** **For you to do**: nothing; your answers 24 to 33 are in.
 
 Colours: 🟣 a question for you; 🟠 something for you to do; 🔵 next or in progress; 🟢 done or decided.
 
@@ -18,7 +17,112 @@ can read and update it. Every file it points to is a link.
 
 ## For you to do
 
-- 🟠 **Potassium, corrected again** ([the page](https://claude.ai/artifact/9nENpt9AEJCB43a9Wy5jqn), [in Git](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/sci-p23/REVIEW-X1108E.md)): one card, SC-106c, in place of SC-106b. The same change, plus a caution beside the step for kidney disease and blood pressure drugs that hold on to potassium, and its reasons now say what the mood trial found.
+- 🟢 **Nothing on the cards page**: SC-95b, SC-DMSOc and your version of SC-54 are in.
+
+## Your answers of 2026-11-22 17:39 UTC, and what I did
+
+- 🟢 **In, by script** ([what went in](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/x1122a/APPLIED-X1122A.json)): 32b, the iboga list with your elliptica line (its potency
+  and feel as your experience) and the Weeks 3–5 iboga lines, with "(if heart is ok: an ECG is how to know)"; 33b, your
+  agmatine paragraph with "People's reports differ"; 24a; 25, your range and "some strains are much more potent"; 26a; 27a,
+  the order said once in the D-serine section; 28a; 29a, "as long as it benefits you" in the 5-HTP section and in Weeks
+  3–5; 30a; 31a, your showers and baths line for Weeks 1–2, with your [breathwork page](http://breathwork.u-dont-exist.com/).
+- 🟢 **Lion's mane and ashwagandha**: the article advises neither anywhere.
+- 🔵 **Your new warnings** (lion's mane and ashwagandha, with SSRIs and finasteride as the known cases; agmatine and 5-HTP,
+  weeks of anhedonia in rare reports): next, checked against what's reported on both sides, then written and checked in
+  Pangram like any text of mine.
+- 🔵 **16a and 17** still wait on their line's check; then the contradictions check runs again over the new text.
+
+## Your answers of 2026-11-20 17:05 UTC, and what I did
+
+- 🟢 **In, by script** ([what went in](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/x1120a/APPLIED-X1120A.json)): 15a, "when it's not given by IV" in your clause on
+  children; 19a, "start PS"; 20, the mackerel line says its PS is above the 400 mg that worked, with your caveat that it's
+  harder to compare when it's not isolated; 21b, "Reduce or stop" in both Weeks 3–5 lines (question 24 asks about saying it
+  once); 22a, agmatine's cycle rule gets Weeks 3–5's exception, in that line's words.
+- 🔵 **16a and 17**: one new line at the top of Weeks 3–5 says to start its new things one at a time, in the order listed,
+  never 5-HTP while microdosing iboga, and, since there isn't enough data on UMP with a microdose or 5-HTP with mushrooms,
+  to try each on a microdose day and on a day without one and see how it feels, stopping 5-HTP at its stop signs. It's
+  mine, so it goes in once it reads Human High by itself ([the text](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/x1120a/texts_x1120a.py), four rounds of fresh reads).
+- 🔵 **18 and 23**: your answers, as text, with what the sources and forums show: questions 32 and 33.
+- 🟢 **The contradictions check is now a standard step for every article**: a fresh reader lists the statements that can't
+  both hold, each one the text doesn't explain comes to you as a question, and an article isn't done while one has no
+  fate ([the rule](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/docs/FIXING-AN-ARTICLE.md), lesson
+  neuro-2026-11-20a, the tool `tools/humanization/contradictions.py`). This article's remaining contradictions are
+  questions 25 to 31; the breathing pair turned out to be two different tools.
+
+## Your answers of 2026-11-19 16:17 UTC, and what I did
+
+- 🟢 **12a: block 48's last sentence is split** at your first "although", nothing else changed ([what went in](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/x1119a/APPLIED-X1119A.json)).
+- 🟢 **13b: your clause on children stays as you wrote it.** You said you're not talking about IV use; question 15 asks
+  whether the sentence should say so.
+- 🟢 **14: your version of block 54 is in**, as you checked it (Human Written, every window High: [your check](https://www.pangram.com/history/b9ba21e6-8d8b-4628-a151-66a39165dadb)), with the links back on its citations. Its claims match the sources ([the check](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/x1119a/CHECKED.md)).
+
+## Your answers of 2026-11-14 22:04 UTC, and what I did
+
+- 🟢 **SC-95b is in**, your Strategy A version without the PTSD line ([what went in](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/x1113b/APPLIED-X1113B.json)).
+- 🟢 **Your DMSO item is in**, after Magnesium, your version with your clause on children, the links back on its citations; its second and third paragraphs read Human by themselves ([checks](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/x1113b/checks-1114/RESULTS.md)).
+- 🟢 **Your clause on children, checked** ([the check](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/dmso/DMSO-PTSD.md)): it holds for lasting harm; question 13 is the one word that would make it exact.
+- 🟢 **SC-54 waited**: it read AI by itself in three tries (question 14); your version went in on 2026-11-19.
+
+## Your message of 2026-11-13 15:24 UTC, and what I did
+
+- 🟢 **Your computer**: the last turn's failure was every connection at once on my side, not your setup; it works again, and so does the browser on your computer. No new conversation needed.
+- 🟢 **The ketone card came back because I hadn't read your answer**: the cards page saves what you type, and I read only the answers files you sent. Your SC-95 answer (2026-11-12 20:16) and your first DMSO answer (2026-11-13 14:04) were saved there unread ([what the page held](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/CARDS-PAGE-DECISIONS-20261113-1525.json)). Now I read the page's saved answers every turn ([the lesson](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/docs/lessons/2026-11-13-1524-neuro.md)).
+- 🟢 **The repeats you asked about**: each place makes its own point (block 48 PTSD, block 54 fuel for a brain short of sugar, block 94 mood and anxiety, block 95 what the salts do); the PTSD line was the one said twice. Your two DMSO versions repeated each other; nothing else in the protocol repeats them ([the ketone check](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/coherence/ketone/KETONE-STRATEGY.md), [the DMSO check](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/dmso/DMSO-PTSD.md)).
+- 🟢 **Your new sources, checked**: the Alzheimer's case in your link is a man, Steve Newport, who improved markedly; the Parkinson's study is VanItallie 2005, with a randomized trial since; the sheep study had it the other way round (DMSO with heparin kept all seven alive; DMSO alone, two of six); the 10% vs 5% finding is the trial Kortleve cites (Mitrus 2018). All on the cards above.
+
+## Your message of 2026-11-13 14:05 UTC (the 1967 paper), and what I did
+
+- 🟢 **You were right to send it**: my DMSO card said no trial had tested DMSO for anxiety, and this 1967 study gave it to nine people with severe anxiety or obsessive-compulsive disorder. Read in full ([the check](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/dmso/DMSO-PTSD.md)); the card is redone with it, at its strength.
+- 🟢 **Lesson**: search the condition's older names and the decade a compound was most studied before saying something was never tested ([the file](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/docs/lessons/2026-11-13-1405-neuro.md)).
+- 🔵 **Before any card of mine goes in**: a new rule for every lane says a paragraph of mine goes into an article only once a Pangram check of it by itself reads Human High. My link to your computer is down this turn, so those checks wait for it.
+
+## Your message of 2026-11-12 21:37 UTC, and what I did
+
+- 🟢 **The split**: my report put it badly. The card's advice had an optional extra, splitting your long sentence, which the buttons never put to you; approving applied the card's change only. It's question 12 now. Lesson: an optional change gets its own card or question ([the file](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/docs/lessons/2026-11-12-2137-neuro.md)).
+- 🟢 **DMSO**: your study says what you say, in rat brain cells in a dish; both sides searched ([the check](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/dmso/DMSO-PTSD.md)); the card above adds it to the Glutamate Shield.
+
+## Your answer of 2026-11-12 19:32 UTC (the rats and the salts), and what I did
+
+- 🟢 **SC-48c is in**, as you approved it ([what went in](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/keto/APPLIED-X1112A.json)).
+- 🔵 **The read of the whole protocol has started**: the first card is the ketone strategies ([the sources](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/coherence/ketone/KETONE-STRATEGY.md)); the other places where the text disagrees with itself come next, one card each.
+
+## Your answers of 2026-11-12 18:23 UTC (the ketone card), and what I did
+
+- 🟢 **Your version of SC-48b is in**, with a broken link, a typo and the citation's brackets fixed ([what went in](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/keto/APPLIED-X1111C.json)).
+- 🟢 **Your clause, checked** ([the check](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/keto/KETO-PTSD.md)): the rats were given BHB by injection, not the salts, and the review you cite calls the salts against the diet in people an open question. That's the card above.
+- 🟢 **Lesson**: studies of the protocol's own compound in the condition, animals included, go in with what was given and how ([the file](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/docs/lessons/2026-11-12-1823-neuro.md)).
+
+## Your message of 2026-11-11 22:53 UTC, and what I did
+
+- 🟢 **You're right about ketones.** My sentence in block 48 read as if ketosis had never been tried in people with PTSD, and in chat I made the one placebo-controlled trial of ketone salts sound negative when it was too small to tell. GPT's sources are checked ([the check](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/keto/KETO-PTSD.md)), and the card above puts in what has been seen.
+- 🟢 **Lesson**: say what was tried in people and what happened before saying anything is untested, and report a small trial with no difference between its groups as too small to tell ([the file](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/docs/lessons/2026-11-11-2253-neuro.md)).
+- 🟢 **Reddit**: blocked to me as content, for legal reasons, so the rule covers the browser too, even with the page open in it. Paste a post's text in the chat and I'll check the sentence against it.
+
+## Your message of 2026-11-11 22:44 UTC, and what I did
+
+- 🟢 **The potassium paragraph is in**, as you approved it, with your two Reddit links as firsthand reports.
+  Reddit is blocked to my tools as content, the browser too, so I wrote that sentence from your description
+  ("feel emotions again", "panic attacks to low potassium"): check it matches the threads.
+
+## Your message of 2026-11-11 22:07 UTC, and what I did
+
+- 🟢 **You were right**: a claim made as science rests on science, and my research was thin. GPT's sources are
+  checked ([the check](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/sci-p23/SCIENCE-P23.md)), and the card is
+  rebuilt on them.
+- 🟢 **Lessons**: the earlier one corrected ([the file](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/docs/lessons/2026-11-11-2101-neuro.md)), and a new one on
+  research depth ([the file](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/docs/lessons/2026-11-11-2207-neuro.md)).
+- 🟢 **Your Reddit threads**: in, from your description (below).
+
+## Your answer of 2026-11-11 21:01 UTC (potassium, your comment), and what I did
+
+- 🟢 **Your points checked through PubMed**
+  ([the check](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/sci-p23/SCIENCE-P23.md)). On paleo you're right,
+  and 10 g is if anything low: Stone Age diets are estimated at about 16 g a day. On the brain, one small trial backs
+  the mood part and the studies of memory and thinking are mixed, so the paragraph gives it as your view.
+- 🟢 **GPT's research on diet trials for PTSD** goes to the read of the whole protocol, where the article's diet and
+  ketone claims are.
+- 🟢 **A lesson** ([the file](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/docs/lessons/2026-11-11-2101-neuro.md)): when a card's mechanism falls, it keeps
+  the article's question and answers it with your view and the evidence, rather than swapping in another reason.
 
 ## Your message of 2026-11-08 17:09 UTC (your questions to GPT), and what I did
 

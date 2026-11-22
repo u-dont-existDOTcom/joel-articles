@@ -1,0 +1,58 @@
+{
+ "format": "joel-suggestion-review-answers-v1",
+ "review_id": "bad-trips-r29",
+ "title": "Bad Trips Guide, Round 29",
+ "git_file": "articles/bad-trips/review/r29/REVIEW-R29.html",
+ "article": {
+  "file": "articles/bad-trips/review/r29/PAGE-R29.md",
+  "sha256": "14d8dc41ccb0190ea24216609360a8cf9c584ae40872efe395cf33390e9e2ae9"
+ },
+ "built": "2026-11-09",
+ "generator": "suggestion_review.py 1.10 (2026-11-07)",
+ "exported_at": "2026-11-09T17:22:46.803Z",
+ "counts": {
+  "approved": 2,
+  "rejected": 0,
+  "revise": 0,
+  "pending": 0
+ },
+ "items": [
+  {
+   "id": "TYPO-AYA",
+   "type": "typo",
+   "title": "Metta NMT Sniffer: \"ayahauasca\" to \"ayahuasca\"",
+   "where": "Metta NMT Sniffer Makes the Trip Chill & Lovey!, P1",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-09T17:22:38.307Z"
+    }
+   ],
+   "updated": "2026-11-09T17:22:38.307Z"
+  },
+  {
+   "id": "TYPO-HYPER",
+   "type": "typo",
+   "title": "Some Remedies Require More Caution: \"hyper intelligent\" to \"hyperintelligent\"",
+   "where": "Some Remedies Require More Caution, P1",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-09T17:22:42.275Z"
+    }
+   ],
+   "updated": "2026-11-09T17:22:42.275Z"
+  }
+ ],
+ "note": "Sent inline in his message of 2026-11-09 17:22 UTC (the round-28 export was the attachment); my_version and before are left out here, as the page's REVIEW-R29.json has both."
+}

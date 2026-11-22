@@ -1,0 +1,112 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-20",
+ "text_sha256": "75f0d1852335f0f81ec5edda96e4150c02dda4fc4647b10b391f510089bba0a2",
+ "text": "Earlier in my experiments, I made the mistake of directly smelling ozone gas during a psychedelic state. It intensified the experience and became mentally alarming. DMSO didn't help that situation, while aged ozonated-charcoal water helped rapidly. I don't recommend inhaling ozone. The mistake suggested that DMSO and aged ozonated-charcoal water work on different kinds of overload, so if DMSO doesn't help, try the water, and the other way around.",
+ "section": "Shungite, Aged Ozonated-Charcoal Water, or Boiled Charcoal Water",
+ "reader": "the friend of someone whose trip turned more intense near ozone, with DMSO and the aged ozonated-charcoal water at hand, reading which to use and what not to do",
+ "sentences": [
+  {
+   "s": "Earlier in my experiments, I made the mistake of directly smelling ozone gas during a psychedelic state.",
+   "payoff": "they learn the mistake to avoid from the writer's own experience: smelling ozone gas directly on a trip",
+   "follows": "the paragraph before says no ozone gas was present when the water calmed a crying baby; this is what the gas itself did, on a trip"
+  },
+  {
+   "s": "It intensified the experience and became mentally alarming.",
+   "payoff": "they know what it costs: the ozone made the trip stronger and frightening",
+   "follows": "what the mistake did, right after it",
+   "link": "It intensified"
+  },
+  {
+   "s": "DMSO didn't help that situation, while aged ozonated-charcoal water helped rapidly.",
+   "payoff": "they know that after ozone made a trip alarming, the aged ozonated-charcoal water helped fast where DMSO didn't, so they reach for the water",
+   "follows": "after what the mistake did, what was tried for it and what helped",
+   "link": "that situation"
+  },
+  {
+   "s": "I don't recommend inhaling ozone.",
+   "payoff": "they don't inhale ozone, or let their friend",
+   "follows": "the advice the story leads to, after it",
+   "link": "none: the advice the story leads to, said plainly right after it"
+  },
+  {
+   "s": "The mistake suggested that DMSO and aged ozonated-charcoal water work on different kinds of overload, so if DMSO doesn't help, try the water, and the other way around.",
+   "payoff": "they know that if DMSO doesn't help they try the water, and if the water doesn't, DMSO, since the two work on different kinds of overload",
+   "follows": "what the one case suggests beyond itself, and what to do with it, after the advice",
+   "link": "The mistake"
+  }
+ ],
+ "checked": [],
+ "placement": "B197, in Shungite, Aged Ozonated-Charcoal Water, or Boiled Charcoal Water, after the paragraph saying no ozone gas was present when the water calmed a crying baby (B196) and before what to do without an ozone-water purifier (B198); one word changed (his C3 answer a)",
+ "opens": {
+  "first_sentence": "Earlier in my experiments, I made the mistake of directly smelling ozone gas during a psychedelic state.",
+  "why_reading": "it tells a friend whose trip turned alarming near ozone that the writer made the same mistake, so what follows is what helped and what to avoid"
+ },
+ "same_point": "none: read the section from its heading to the next for the points (what the water feels like, the crying baby, the ozone mistake, boiled charcoal water without a purifier); the DMSO lines (\"Sometimes DMSO works better, and sometimes the water wins. I don't yet know why\") are in another section, and \"suggested\" makes this line agree with them (C3)",
+ "needed": {
+  "reader": "a fresh agent (Sonnet) given tools/humanization/needed_read_brief.md with only the text, its heading and what it is for (reads/need-f3-ozone-4.txt; the draft it read: reads/read-text-f3-ozone-4.txt)",
+  "unneeded": [],
+  "kept": {}
+ },
+ "his_fixes": {
+  "reader": "a fresh agent (Sonnet) given tools/humanization/his_fixes_brief.md, the twelve ways, with the text one sentence a line (reads/his-f3-ozone-4.txt; the draft it read: reads/read-text-f3-ozone-4.txt)",
+  "marked": [
+   {
+    "s": "It intensified the experience and became mentally alarming.",
+    "difference": "10"
+   },
+   {
+    "s": "DMSO didn't help that situation, while aged ozonated-charcoal water helped rapidly.",
+    "difference": "3, 4"
+   },
+   {
+    "s": "I don't recommend inhaling ozone.",
+    "difference": "7, 12"
+   },
+   {
+    "s": "The mistake suggested that DMSO and aged ozonated-charcoal water work on different kinds of overload, so if DMSO doesn't help, try the water, and the other way around.",
+    "difference": "1, 4, 10, 11"
+   }
+  ],
+  "kept": {
+   "It intensified the experience and became mentally alarming.": "kept for this check: lesson 19b and the ledger allow one change a check from the near miss (d3-ozone-2, 7794e2d9, Human High 44 over the first four sentences), spent on the last line, the one window below High; \"It\" is the smelling just named and \"the experience\" the trip; what the alarm felt like is his to say",
+   "DMSO didn't help that situation, while aged ozonated-charcoal water helped rapidly.": "kept for this check: lesson 19b and the ledger allow one change a check from the near miss (d3-ozone-2, 7794e2d9, Human High 44 over the first four sentences), spent on the last line, the one window below High; \"that situation\" is the alarm just described; the water is the section's subject, explained under its heading",
+   "I don't recommend inhaling ozone.": "kept for this check: lesson 19b and the ledger allow one change a check from the near miss (d3-ozone-2, 7794e2d9, Human High 44 over the first four sentences), spent on the last line, the one window below High; the advice the story leads to, right after the story",
+   "The mistake suggested that DMSO and aged ozonated-charcoal water work on different kinds of overload, so if DMSO doesn't help, try the water, and the other way around.": "the line this check changes: it names which to try (\"if DMSO doesn't help, try the water, and the other way around\"); which kind of overload each fits isn't known yet (his DMSO lines: \"I don't yet know why\"), and \"The mistake\" says it comes from his one case"
+  }
+ },
+ "fit": {
+  "reader": "a fresh agent (Sonnet) given tools/humanization/fit_read_brief.md, the universal version (reads/fit-f3-ozone-4.txt; the draft it read: reads/read-text-f3-ozone-4.txt)",
+  "marked": [
+   {
+    "s": "The mistake suggested that DMSO and aged ozonated-charcoal water work on different kinds of overload, so if DMSO doesn't help, try the water, and the other way around.",
+    "found": "CAN'T TELL"
+   }
+  ],
+  "kept": {
+   "The mistake suggested that DMSO and aged ozonated-charcoal water work on different kinds of overload, so if DMSO doesn't help, try the water, and the other way around.": "the line before says which helped after ozone (the water, fast, where DMSO didn't), and this line now names both ways round; how long to give one first isn't said, and he hasn't said; kept for this check, one change from the near miss"
+  }
+ },
+ "questions": {
+  "Q1": "PASS: the mistake first, then what it did, what helped, the advice, what it suggests",
+  "Q2": "PASS: the instructions (\"I don't recommend inhaling ozone\", \"if one doesn't help, try the other\") say what to do, in the reader's terms",
+  "Q3": "PASS: the remedies named in the advice (\"if DMSO doesn't help, try the water\"); \"that situation\" is the alarm",
+  "Q4": "PASS: DMSO and the water are the guide's remedies, each explained in its own section; no new term here",
+  "Q5": "PASS: the mistake, what it did, what helped it, the advice, what it suggests: each from the one before",
+  "Q6": "PASS: the story in the order it happened, then the advice, then what it suggests",
+  "Q7": "PASS: for a friend whose trip got worse near ozone, which remedy helped is their case",
+  "Q8": "N/A: no groups or lists in the paragraph",
+  "Q9": "PASS: one change this check, the advice with the remedies named (lesson 19b)"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

@@ -1,0 +1,151 @@
+{
+ "brainev-c1": {
+  "reader": "a fresh Sonnet reader given tools/humanization/his_fixes_brief.md (reads/his-brainev-c1.txt)",
+  "marked": [
+   {
+    "s": "I believe DMSO works better for stroke and most acute brain damage than anything else readily available to ordinary people.",
+    "difference": "4",
+    "draft": "brainev-c1"
+   },
+   {
+    "s": "My judgment goes further than the clinical evidence, but that evidence points the same way.",
+    "difference": "3",
+    "draft": "brainev-c1"
+   },
+   {
+    "s": "People who'd had a stroke from a clot may have recovered better on DMSO in a preliminary trial.",
+    "difference": "4",
+    "draft": "brainev-c1"
+   },
+   {
+    "s": "It also suppresses NMDA- and AMPA-mediated excitotoxicity, the overexcited nerve signaling that kills brain cells after a stroke.",
+    "difference": "1, 7",
+    "draft": "brainev-c1"
+   }
+  ],
+  "kept": {
+   "I believe DMSO works better for stroke and most acute brain damage than anything else readily available to ordinary people.": "his belief, the guide's first sentence of this paragraph as it was",
+   "My judgment goes further than the clinical evidence, but that evidence points the same way.": "a contrast that answers the worry a reader has (is there evidence?), the kind he keeps; the studies say how far it goes right after",
+   "People who'd had a stroke from a clot may have recovered better on DMSO in a preliminary trial.": "the study's own level (\"reported possible neurological benefit\"); saying better at what would add a claim",
+   "It also suppresses NMDA- and AMPA-mediated excitotoxicity, the overexcited nerve signaling that kills brain cells after a stroke.": "the guide's terms \"NMDA\" and \"AMPA-mediated\" (fidelity keys), explained where they are used"
+  }
+ },
+ "rescue-c8": {
+  "reader": "a fresh Sonnet reader given tools/humanization/his_fixes_brief.md, after reads of rescue-c1 to c7 (reads/his-rescue-c8.txt)",
+  "marked": [
+   {
+    "s": "- Don't restrain them, since that can cause injuries, but do put pillows where appropriate, especially under the head.",
+    "difference": "4",
+    "draft": "rescue-c8"
+   },
+   {
+    "s": "- They get dangerously hot (not just regular sweating).",
+    "difference": "3",
+    "draft": "rescue-c8"
+   },
+   {
+    "s": "If there's a rescue medicine for seizures on hand, like one they carry for epilepsy, follow its label for when and how to give it.",
+    "difference": "7",
+    "draft": "rescue-c8"
+   },
+   {
+    "s": "These are benzodiazepines, the same first drugs doctors reach for when a seizure won't stop.",
+    "difference": "5, 7",
+    "draft": "rescue-c8"
+   },
+   {
+    "s": "A few are intramuscular shots.",
+    "difference": "7, 8",
+    "draft": "rescue-c8"
+   }
+  ],
+  "kept": {
+   "- Don't restrain them, since that can cause injuries, but do put pillows where appropriate, especially under the head.": "his line, from his Active Seizure version of 2026-11-12 19:44 UTC (5e41c575), which read Human High",
+   "- They get dangerously hot (not just regular sweating).": "his line, from his Active Seizure version of 2026-11-12 19:44 UTC (5e41c575), which read Human High",
+   "If there's a rescue medicine for seizures on hand, like one they carry for epilepsy, follow its label for when and how to give it.": "the label, and the plan of someone who carries one, is what says when; a time of mine would be a dosing rule of mine, and his call list right above says when to call medics",
+   "These are benzodiazepines, the same first drugs doctors reach for when a seizure won't stop.": "the guide's own evidence point (B110: \"the established first-line drug class for status epilepticus\", with its link) in the reader's words: why giving the rescue medicine is right, and what \"a benzodiazepine\" in the breathing warning is",
+   "A few are intramuscular shots.": "a few rescue medicines are shots (W016's key, \"intramuscular\"), given by their label like the others; joined onto the forms sentence it was marked as tacked on (rescue-c2)"
+  }
+ },
+ "rescue-c9": {
+  "reader": "a fresh Sonnet reader given tools/humanization/his_fixes_brief.md, after reads of rescue-c1 to c8 (reads/his-rescue-c9.txt)",
+  "marked": [
+   {
+    "s": "- Don't restrain them, since that can cause injuries, but do put pillows where appropriate, especially under the head.",
+    "difference": "4",
+    "draft": "rescue-c9"
+   },
+   {
+    "s": "It's a benzodiazepine, which is what doctors reach for first when a seizure won't stop.",
+    "difference": "7",
+    "draft": "rescue-c9"
+   },
+   {
+    "s": "After giving it, keep watching their breathing, since a benzodiazepine adds to the risk of it getting slow and shallow, especially if they've also taken respiratory depressants like opioids or alcohol.",
+    "difference": "1",
+    "draft": "rescue-c9"
+   }
+  ],
+  "kept": {
+   "- Don't restrain them, since that can cause injuries, but do put pillows where appropriate, especially under the head.": "his line, from his Active Seizure version of 2026-11-12 19:44 UTC (5e41c575), which read Human High",
+   "It's a benzodiazepine, which is what doctors reach for first when a seizure won't stop.": "the guide's own evidence point (B110: \"the established first-line drug class for status epilepticus\", with its link) said of what they hold: why giving it is right, and what \"a benzodiazepine\" in the breathing warning is; rescue-c8's appositive form of it read AI (ed4fe070), so this is its new form",
+   "After giving it, keep watching their breathing, since a benzodiazepine adds to the risk of it getting slow and shallow, especially if they've also taken respiratory depressants like opioids or alcohol.": "his own shape (his electrolytes sentence of 19:44 UTC: what, because, \"especially\"); split in two it ended on a bare risk, which the needed read and the read against his fixes of rescue-c5 both marked, and in rescue-c8 it read Human"
+  }
+ },
+ "brainev-c2": {
+  "reader": "a fresh Sonnet reader given tools/humanization/his_fixes_brief.md (reads/his-brainev-c2.txt)",
+  "marked": [
+   {
+    "s": "I believe DMSO works better for stroke and most acute brain damage than anything else readily available to ordinary people.",
+    "difference": "4",
+    "draft": "brainev-c2"
+   },
+   {
+    "s": "A preliminary trial in people who'd had a stroke from a clot found they may have recovered better on it, and doctors have used it in a small series of patients to bring down dangerous pressure inside the skull.",
+    "difference": "1",
+    "draft": "brainev-c2"
+   },
+   {
+    "s": "It also calms the overexcited nerve signaling that kills brain cells after a stroke (NMDA- and AMPA-mediated excitotoxicity).",
+    "difference": "7",
+    "draft": "brainev-c2"
+   }
+  ],
+  "kept": {
+   "I believe DMSO works better for stroke and most acute brain damage than anything else readily available to ordinary people.": "his belief, the guide's first sentence of this paragraph as it was; it read Human in brainev-c1 (a8a986e7)",
+   "A preliminary trial in people who'd had a stroke from a clot found they may have recovered better on it, and doctors have used it in a small series of patients to bring down dangerous pressure inside the skull.": "the two findings in people, in two shapes; one finding a sentence was the run that read AI in brainev-c1 (a8a986e7)",
+   "It also calms the overexcited nerve signaling that kills brain cells after a stroke (NMDA- and AMPA-mediated excitotoxicity).": "the guide's terms (fidelity keys \"NMDA\", \"AMPA-mediated\") in brackets after the plain words, his shape (\"slow and shallow breathing (respiratory depression, from opioids, benzos and alcohol)\")"
+  }
+ },
+ "rescue-c10": {
+  "reader": "a fresh Sonnet reader given tools/humanization/his_fixes_brief.md, after reads of rescue-c1 to c9 (reads/his-rescue-c10.txt)",
+  "marked": [
+   {
+    "s": "- Don't restrain them, since that can cause injuries, but do put pillows where appropriate, especially under the head.",
+    "difference": "1, 4",
+    "draft": "rescue-c10"
+   },
+   {
+    "s": "If they have a rescue medicine for seizures with them, like one they carry for epilepsy, I'd give it when and how its label says.",
+    "difference": "4, 7",
+    "draft": "rescue-c10"
+   },
+   {
+    "s": "It's a benzodiazepine, the kind of drug doctors reach for first when a seizure won't stop.",
+    "difference": "7",
+    "draft": "rescue-c10"
+   },
+   {
+    "s": "After giving it, I'd keep a close eye on their breathing, since a benzodiazepine adds to the risk of it getting slow and shallow, especially if they've also taken respiratory depressants like opioids or alcohol.",
+    "difference": "1",
+    "draft": "rescue-c10"
+   }
+  ],
+  "kept": {
+   "- Don't restrain them, since that can cause injuries, but do put pillows where appropriate, especially under the head.": "his line, from his Active Seizure version of 2026-11-12 19:44 UTC (5e41c575), which read Human High",
+   "If they have a rescue medicine for seizures with them, like one they carry for epilepsy, I'd give it when and how its label says.": "the label, and the plan of someone who carries one, is what says when; a time of mine would be a dosing rule of mine, and his call list right above says when to call medics",
+   "It's a benzodiazepine, the kind of drug doctors reach for first when a seizure won't stop.": "the guide's own evidence point (B110: \"the established first-line drug class for status epilepticus\", with its link) said of what they hold: why giving it is right, and what \"a benzodiazepine\" in the breathing warning is",
+   "After giving it, I'd keep a close eye on their breathing, since a benzodiazepine adds to the risk of it getting slow and shallow, especially if they've also taken respiratory depressants like opioids or alcohol.": "his own shape (his electrolytes sentence of 19:44 UTC: what, because, \"especially\"); split in two it ended on a bare risk, which the needed read and the read against his fixes of rescue-c5 both marked"
+  }
+ }
+}

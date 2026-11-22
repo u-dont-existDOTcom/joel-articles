@@ -1,0 +1,94 @@
+{
+ "format": "joel-suggestion-review-v1",
+ "review_id": "bad-trips-r39",
+ "title": "Bad Trips Guide, Round 39",
+ "intro": [
+  "Round 39 (2026-11-12). Your two fixes of 19:44 UTC are in, whole: Active Seizure ([Human Written, High](https://www.pangram.com/history/5e41c575-7ebf-4b42-9059-adddbf2c5a7f)) and My Brain Feels Damaged ([Human Written, High](https://www.pangram.com/history/a0b8ac56-c015-4374-afbc-996a9a37f870)). The Call medics list at the top still said to call for \"repeated seizures without normal recovery, or a first or substantially different seizure\", the two you cut from Active Seizure, so its line now says what yours says: \"A convulsive seizure lasting over 5 minutes\". Tell me if you want the old line back.",
+  "The three lines you cut were each something a friend couldn't use right then: a first seizure is what to expect when an overdose brings one on, nobody can tell a second seizure from the first, and anyone tripping sees differently. Every read I had asked whether a line was needed or read like your fixes, and these were needed and plain. So before any check now, a fresh reader asks of each line whether it is true anyway of someone tripping, whether a friend could tell, and whether it is a rule from another setting. On twelve lines none of your fixes touched, it marked all seven I expected and passed four of five ([the scores](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261105/articles/bad-trips/humanize/h50-20261112/FIT-CALIBRATION.md)). On your own Active Seizure lines it keeps marking two: \"over 5 minutes\" (it calls the five-minute wait an epilepsy rule, since a seizure from a drug is already an emergency) and \"dangerously hot\" (without a thermometer a friend can't tell). Both stay as you wrote them.",
+  "Carried: Active Seizure's rescue medicine, rebuilt over ten drafts and said in your first person (\"I'd give it when and how its label says\"), read [Human Written](https://www.pangram.com/history/8522369e-b999-481a-84c0-3ab4c0518bef) in its section and is in: your lists High and Medium, my four sentences Medium, Low, High, Low. The two Low ones are mine to fix next. My Brain Feels Damaged's evidence paragraph read AI however I built it, so it is card 1 ([every test](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261105/articles/bad-trips/humanize/h50-20261112/RESULTS.md))."
+ ],
+ "git_file": "articles/bad-trips/review/r39/REVIEW-R39.html",
+ "article": {
+  "file": "articles/bad-trips/review/r39/PAGE-R39.md",
+  "sha256": "98fcc2b8e9878546b721dd212c652c841a018ad2bbcac05189ec905416e4e474"
+ },
+ "built": "2026-11-12",
+ "links": {
+  "guide": "https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261105/articles/bad-trips/GUIDE-SO-FAR.md",
+  "guide_label": "the guide as it stands",
+  "check": "https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261105/articles/bad-trips/review/r39/REVIEW-R39.md",
+  "review": "https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261105/articles/bad-trips/review/r39/REVIEW-R39.md"
+ },
+ "types": {
+  "plain": {
+   "label": "Said plainly",
+   "about": "AI lines said plainly, each with its reason, the way he fixes his own windows"
+  },
+  "structure": {
+   "label": "Structure",
+   "about": "how the quick version and the long version split the guide, and where a part goes"
+  },
+  "repeat": {
+   "label": "Said twice",
+   "about": "a point the guide already makes elsewhere: one copy goes, the other stays"
+  },
+  "safety": {
+   "label": "Safety in one place",
+   "about": "a caution or call-for-help line said in several places, or one that changes nothing a reader does"
+  },
+  "question": {
+   "label": "Your call",
+   "about": "something only you can decide or know"
+  },
+  "sense": {
+   "label": "Says what it means",
+   "about": "a term explained where it is first used, or a word that says what to do"
+  },
+  "belief": {
+   "label": "Your belief back",
+   "about": "a sentence of your post that said why, cut in an earlier round, put back where it bears on what the reader does"
+  },
+  "method": {
+   "label": "Your method where it is used",
+   "about": "a line the guide already has, put where the reader uses it in trouble (your METHOD-WHERE answer, round 28)"
+  },
+  "notes": {
+   "label": "Your notes, placed",
+   "about": "what you sent in a comment, put where it belongs in the guide, as you sent it"
+  },
+  "typo": {
+   "label": "Typo",
+   "about": "a word in your own paragraph spelled differently from how you spell it elsewhere, with the fix in place"
+  },
+  "boilerplate": {
+   "label": "Boilerplate",
+   "about": "standard advice a model added that carries none of your method and no safety point a reader needs, shown as the section would read without it (your round-32 note)"
+  },
+  "teach": {
+   "label": "Teach me",
+   "about": "a paragraph that reads AI in every wording I tried, whose shape many stuck paragraphs share: how you would say it teaches me how to say them (you asked for these on 2026-11-07)"
+  }
+ },
+ "suggestions": [
+  {
+   "id": "TEACH-EVID",
+   "type": "teach",
+   "advice": "edit",
+   "whose": "he asked: Joel, 2026-11-08 17:22 UTC: \"give me your best tries and what would teach you the best and i'll do that\"; 2026-11-12 14:45 UTC, card MEDICAL-HOW: \"a\"",
+   "keep_label": "skip this one",
+   "title": "1. My Brain Feels Damaged: why you trust DMSO, and how far the evidence goes",
+   "reading": "In the first whole-section check, \"That judgment is stronger than the clinical evidence, but the evidence is not empty: ...\" read AI High 55 ([AI Detected, 65%](https://www.pangram.com/history/4076db14-325a-4854-88b1-fc3c82da040a)).",
+   "tested": "One study a sentence, each saying what it found in plain words (\"People who'd had a stroke from a clot may have recovered better on DMSO in a preliminary trial.\"), the animal study ending on what it means for the reader (\"so it may still help if you start late\"): [AI Detected, 72%](https://www.pangram.com/history/a8a986e7-f324-4e8a-9561-b542fa57b413). The heading and your belief read Human Low; every sentence after them read AI, the animal study AI High.\n\nRebuilt around that finding: your belief, how far the evidence goes (\"That's more than the clinical evidence shows so far, but what there is points the same way.\"), then the animal study first, the two findings in people in one sentence, and the mechanism said plainly with its term in brackets after it, the way you put \"(respiratory depression, from opioids, benzos and alcohol)\": [AI Generated, 100%](https://www.pangram.com/history/f7576565-13c8-47d2-9ecb-02e2a092f284).",
+   "sense": "A fresh reader said someone deciding whether to trust DMSO could do without the mechanism sentence (\"A mechanism is a plausibility story, not evidence that DMSO works\"); the reader against your fixes marked the two findings in people as packed into one sentence, and the bracketed term as giving the reader nothing to act on.",
+   "why": "An evidence paragraph, your belief and then the studies behind it, reads AI whichever way I order or join it. The guide has more of them: Chest Pain's cardiovascular science, the cyproheptadine evidence in the Serotonin Syndrome steps, the MDMA studies. How you'd say why you trust DMSO here, and how far the studies go, teaches me how to say those.",
+   "advice_note": "Edit it: why you trust DMSO for a damaged brain, and how far the evidence goes, in your words. Keep your belief, that it goes further than the clinical evidence, the clot-stroke trial, the small series for pressure inside the skull, the animal research (it still shrank the area of the brain that died when given after the stroke) and the NMDA- and AMPA-mediated excitotoxicity, each with its link. Your version goes in whole, and I carry what it teaches to the other evidence paragraphs and test them.",
+   "spans": [
+    {
+     "block": 56,
+     "start": 0,
+     "end": 518
+    }
+   ]
+  }
+ ]
+}

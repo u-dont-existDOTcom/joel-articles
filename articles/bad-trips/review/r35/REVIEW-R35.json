@@ -1,0 +1,110 @@
+{
+ "format": "joel-suggestion-review-v1",
+ "review_id": "bad-trips-r35",
+ "title": "Bad Trips Guide, Round 35",
+ "intro": [
+  "Round 35 (2026-11-12). Round 34 is in: your Risk of Harm version, whole, from your check ([Human, High](https://www.pangram.com/history/aa15e193-4ea0-43f9-b851-a8aee94d62cc)), and Active Seizure's DMSO sentence as B. \"Make sure this is only said once\": the reasons to get urgent help now live in your paragraph, so the Call medics list's violence line, the helper's \"Call for help early when safety is slipping.\", and the harm part's list of when to call are cut, and the 911 line keeps only what your paragraph doesn't say (a weapon, a crime in progress). Your moves are in the shared rules for every lane as the sixth fix.",
+  "Two cards. Card 1 is the one overlap left, the body's warning signs, which your paragraph and the Call medics list both name. Card 2: your moves, carried in my words, read AI in every paragraph of Recent Oral Toxic Ingestion, so it is the next teaching card ([every try](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261105/articles/bad-trips/humanize/h44-20261112/RESULTS.md))."
+ ],
+ "git_file": "articles/bad-trips/review/r35/REVIEW-R35.html",
+ "article": {
+  "file": "articles/bad-trips/review/r35/PAGE-R35.md",
+  "sha256": "080978274e7478e36cd5ce81e1af08e8d1911effed1b26c78f146a3c44748e1f"
+ },
+ "built": "2026-11-12",
+ "links": {
+  "guide": "https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261105/articles/bad-trips/GUIDE-SO-FAR.md",
+  "guide_label": "the guide as it stands",
+  "check": "https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261105/articles/bad-trips/review/r35/REVIEW-R35.md",
+  "review": "https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261105/articles/bad-trips/review/r35/REVIEW-R35.md"
+ },
+ "types": {
+  "plain": {
+   "label": "Said plainly",
+   "about": "AI lines said plainly, each with its reason, the way he fixes his own windows"
+  },
+  "structure": {
+   "label": "Structure",
+   "about": "how the quick version and the long version split the guide, and where a part goes"
+  },
+  "repeat": {
+   "label": "Said twice",
+   "about": "a point the guide already makes elsewhere: one copy goes, the other stays"
+  },
+  "safety": {
+   "label": "Safety in one place",
+   "about": "a caution or call-for-help line said in several places, or one that changes nothing a reader does"
+  },
+  "question": {
+   "label": "Your call",
+   "about": "something only you can decide or know"
+  },
+  "sense": {
+   "label": "Says what it means",
+   "about": "a term explained where it is first used, or a word that says what to do"
+  },
+  "belief": {
+   "label": "Your belief back",
+   "about": "a sentence of your post that said why, cut in an earlier round, put back where it bears on what the reader does"
+  },
+  "method": {
+   "label": "Your method where it is used",
+   "about": "a line the guide already has, put where the reader uses it in trouble (your METHOD-WHERE answer, round 28)"
+  },
+  "notes": {
+   "label": "Your notes, placed",
+   "about": "what you sent in a comment, put where it belongs in the guide, as you sent it"
+  },
+  "typo": {
+   "label": "Typo",
+   "about": "a word in your own paragraph spelled differently from how you spell it elsewhere, with the fix in place"
+  },
+  "boilerplate": {
+   "label": "Boilerplate",
+   "about": "standard advice a model added that carries none of your method and no safety point a reader needs, shown as the section would read without it (your round-32 note)"
+  },
+  "teach": {
+   "label": "Teach me",
+   "about": "a paragraph that reads AI in every wording I tried, whose shape many stuck paragraphs share: how you would say it teaches me how to say them (you asked for these on 2026-11-07)"
+  }
+ },
+ "suggestions": [
+  {
+   "id": "BODY-ONCE",
+   "type": "question",
+   "advice": "ask",
+   "title": "1. The body's warning signs: said in two places?",
+   "question": "Your Risk of Harm paragraph says \"If their body is flashing warning signs like severe overheating (not just regular sweating), severe insomnia, or trouble breathing ... reach out\", and the Call medics list just above it has \"Trouble breathing, blue or gray lips, or respiratory depression\" and \"Dangerous overheating, severe rigidity, or clonus with fever\". How each option would read:\n\nA (my pick): both stay as they are. Your paragraph says when to reach out at all; the list says which signs need an ambulance, with what your examples don't have (blue or gray lips, slow breathing, rigid muscles, jerking muscles with a fever). Pro: no safety sign is lost. Con: overheating and trouble breathing show up twice, a few lines apart.\n\nB: the list keeps only what your paragraph doesn't say: \"Blue or gray lips, or respiratory depression\" and \"Severe rigidity, or clonus with fever\". Pro: each sign is said once. Con: someone scanning the list for when to call medics won't find \"trouble breathing\" or \"overheating\" there.",
+   "why": "You asked that the reasons to get urgent help be said only once. This is the one overlap I didn't cut myself, since cutting either side loses something a reader acts on in an emergency.",
+   "stays": "A, as it is.",
+   "advice_note": "A, fairly sure: the list is where people look in an emergency, and your examples are why to reach out.",
+   "spans": [
+    {
+     "block": 22,
+     "start": 0,
+     "end": 216
+    }
+   ]
+  },
+  {
+   "id": "TEACH-ORAL",
+   "type": "teach",
+   "advice": "edit",
+   "whose": "he asked: Joel, 2026-11-08 17:22 UTC: \"give me your best tries and what would teach you the best and i'll do that\"",
+   "keep_label": "skip this one",
+   "title": "2. Recent Oral Toxic Ingestion: what to do when someone swallowed too much",
+   "reading": "The whole section in the first batch: [AI Generated, 100%](https://www.pangram.com/history/bb092688-faa8-46b1-9b14-b124951061eb).",
+   "tested": "Your Risk of Harm moves carried in my words (the point and its bar first, plain words with the term in an aside, \"etc.\" for the rest of the list, the reader's own judgment), each paragraph checked by itself:\n\n1. \"Before you pick a remedy for an \"overdose\", find out what they actually swallowed, how much and when, because that word alone doesn't tell you much. Then look at what their body is doing. ...\": [AI Generated, 100%](https://www.pangram.com/history/1ed58643-6c98-4d83-b332-e610947a03e1).\n\n2. The charcoal paragraph: [AI Generated, 100%](https://www.pangram.com/history/b822edbf-12eb-484e-a059-e0fbbc2a4f65).\n\n3. The poison control paragraph: [AI Generated, 100%](https://www.pangram.com/history/c4970058-7666-4483-ad93-79165d24f15a).\n\nThe 911 line in Risk of Harm, said the same way, read the same: [AI Generated, 100%](https://www.pangram.com/history/45f31361-e5f6-4f1f-ace2-9a70cf644649).",
+   "sense": "A fresh reader of my version needed each step (what was swallowed, the body's state, when charcoal helps and when it's dangerous, when poison control is worth it) and flagged only the heading, the source link's label and my last line as ones a reader could lose. The guide's first paragraph asks the reader to sort the body into ten clinical states (\"respiratory depression, stimulant toxicity, serotonin toxicity, ... objective neurological dysfunction ...\"), most of which they can't name in the moment.",
+   "why": "Its shape, what to find out and what to do in a medical moment, said in clinical terms, is the medical part's other common shape: Acute Medical and Neurological Rescue, Suspected Serotonin Syndrome, Chest Pain's branch line and Active Seizure's first part all read AI in the first batch. Your Risk of Harm version taught me the firm list; this one is calmer, \"find out, then decide\", and my words in your frame still read AI.",
+   "advice_note": "Edit it: say what you'd tell someone whose friend swallowed too much of something, in your words. Keep the steps that keep them safe (charcoal only when they can swallow safely, never when they're vomiting, sedated or seizing), or tell me which can go. I'll carry what you do to the sections named above, test each, and put the ones that read Human straight in.",
+   "spans": [
+    {
+     "block": 77,
+     "start": 0,
+     "end": 334
+    }
+   ]
+  }
+ ]
+}

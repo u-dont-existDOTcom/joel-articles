@@ -1,0 +1,115 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-20",
+ "text_sha256": "d6105db564e0e6ac49a89e02dad903f3f0fa3edb827b6ba4bf0798ade33a74dd",
+ "text": "Anything that could let someone hurt themselves in the next five minutes takes priority, so get the car keys out of reach and turn the stove off, and move them away from roads and balconies, or pools of water for that matter. Letting them move around is fine, and pacing can help, but keep them from taking more of any substance. If they want to go confront somebody, that can wait until tomorrow. And if they want to leave, have someone go with them. Put any weapons away and keep the person away from crowds and strangers. If they want to post their big revelation about the universe, or message an ex, take the phone.",
+ "section": "Psychological First Aid: The First Five Minutes",
+ "reader": "someone with a friend in a bad trip right now, making the next five minutes safe",
+ "sentences": [
+  {
+   "s": "Anything that could let someone hurt themselves in the next five minutes takes priority, so get the car keys out of reach and turn the stove off, and move them away from roads and balconies, or pools of water for that matter.",
+   "payoff": "they remove what could hurt them in the next five minutes: keys, stove, roads, balconies, water",
+   "follows": "the section's first job"
+  },
+  {
+   "s": "Letting them move around is fine, and pacing can help, but keep them from taking more of any substance.",
+   "payoff": "they let them move and pace, but stop them taking more of anything",
+   "follows": "what to allow and the one thing to stop",
+   "link": "Letting them move around"
+  },
+  {
+   "s": "If they want to go confront somebody, that can wait until tomorrow.",
+   "payoff": "they put off a confrontation until tomorrow",
+   "follows": "the next risk: going after someone",
+   "link": "If they want to go confront"
+  },
+  {
+   "s": "And if they want to leave, have someone go with them.",
+   "payoff": "they send someone with them if they want to leave",
+   "follows": "the risk of leaving alone",
+   "link": "And if they want to leave"
+  },
+  {
+   "s": "Put any weapons away and keep the person away from crowds and strangers.",
+   "payoff": "they put weapons away and keep them from crowds and strangers",
+   "follows": "the risk from things and people around",
+   "link": "Put any weapons away"
+  },
+  {
+   "s": "If they want to post their big revelation about the universe, or message an ex, take the phone.",
+   "payoff": "they take the phone if they want to post a revelation or message an ex",
+   "follows": "the last rash act, his",
+   "link": "If they want to post"
+  }
+ ],
+ "checked": [],
+ "placement": "Psychological First Aid: The First Five Minutes, his dangers paragraph, before the next step",
+ "opens": {
+  "first_sentence": "Anything that could let someone hurt themselves in the next five minutes takes priority, so get the car keys out of reach and turn the stove off, and move them away from roads and balconies, or pools of water for that matter.",
+  "why_reading": "it tells a helper what to make safe first, in the first five minutes"
+ },
+ "same_point": "none: read The First Five Minutes for what to make safe: only this paragraph says it",
+ "needed": {
+  "reader": "a fresh agent (Sonnet) given tools/humanization/needed_read_brief.md with only the text, its heading and what it is for (reads/need-e03-first-five.txt; the draft it read: reads/read-text-e03-first-five.txt)",
+  "unneeded": [
+   "If they want to post their big revelation about the universe, or message an ex, take the phone."
+  ],
+  "kept": {
+   "If they want to post their big revelation about the universe, or message an ex, take the phone.": "they take the phone before a post or message the person will regret: his line, one of the rash actions the guide says to put off until morning"
+  }
+ },
+ "his_fixes": {
+  "reader": "a fresh agent (Sonnet) given tools/humanization/his_fixes_brief.md, the ten ways, with the text one sentence a line (reads/his-e03-first-five.txt; the draft it read: reads/read-text-e03-first-five.txt)",
+  "marked": [
+   {
+    "s": "If they want to go confront somebody, that can wait until tomorrow.",
+    "difference": "2, 10"
+   },
+   {
+    "s": "And if they want to leave, have someone go with them.",
+    "difference": "2, 4"
+   },
+   {
+    "s": "Put any weapons away and keep the person away from crowds and strangers.",
+    "difference": "4"
+   },
+   {
+    "s": "If they want to post their big revelation about the universe, or message an ex, take the phone.",
+    "difference": "2"
+   }
+  ],
+  "kept": {
+   "If they want to go confront somebody, that can wait until tomorrow.": "his words, unchanged; the card puts this read's point to him, since the words are his (changed: \"until tomorrow\" says how long it waits)",
+   "And if they want to leave, have someone go with them.": "his words, unchanged; the card puts this read's point to him, since the words are his",
+   "Put any weapons away and keep the person away from crowds and strangers.": "his words, unchanged; the card puts this read's point to him, since the words are his",
+   "If they want to post their big revelation about the universe, or message an ex, take the phone.": "his words, unchanged; the card puts this read's point to him, since the words are his"
+  }
+ },
+ "fit": {
+  "reader": "a fresh agent (Sonnet) given tools/humanization/fit_read_brief.md, the universal version (reads/fit-e03-first-five.txt; the draft it read: reads/read-text-e03-first-five.txt)",
+  "marked": [],
+  "kept": {}
+ },
+ "questions": {
+  "Q1": "PASS: what takes priority first, then each risk with what to do",
+  "Q2": "PASS: each instruction is the helper's act (get the keys, keep them from more, take the phone)",
+  "Q3": "PASS: the keys, the stove, roads, balconies, pools of water named",
+  "Q4": "N/A: no term a high-school graduate wouldn't know",
+  "Q5": "PASS: \"so\", \"but\", \"And if\"",
+  "Q6": "PASS: the most dangerous first",
+  "Q7": "PASS: each bears on the next five minutes",
+  "Q8": "PASS: each is a risk and what to do about it",
+  "Q9": "PASS: his sentences, two words added"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

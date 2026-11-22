@@ -1,0 +1,10 @@
+NEEDS:
+S1: This is the paragraph's central claim, the recommendation the reader is weighing whether to trust.
+S2: It tells the reader the author's belief is stronger than the evidence, which they need in order to weigh S1 when deciding whether to trust DMSO.
+S3: It is the stroke evidence (a preliminary trial with clot strokes) that bears directly on a friend's brain damage.
+S4: It is the evidence that DMSO has been used in people for acute brain damage, the scope of S1.
+S5: It is the evidence that DMSO may still help when started late, which matters if the friend's injury is not fresh.
+S6: nothing
+
+UNNEEDED:
+- S6: It also suppresses NMDA- and AMPA-mediated excitotoxicity, the overexcited nerve signaling that kills brain cells after a stroke. — It explains a mechanism and a disease process the reader does not need in order to decide whether to trust DMSO; S1 through S5 already carry the claim and the evidence, so losing it leaves nothing missing.

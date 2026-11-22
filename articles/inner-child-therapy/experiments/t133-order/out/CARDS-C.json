@@ -1,0 +1,451 @@
+{
+ "cards": [
+  {
+   "id": "N066",
+   "reader_question": "How do I end a session without staying stuck in it?",
+   "kind": "practice",
+   "role": "none",
+   "role_confidence": "high",
+   "part": "N052",
+   "part_confidence": "high",
+   "continues": "none",
+   "needs_first": [
+    "N053"
+   ]
+  },
+  {
+   "id": "N067",
+   "reader_question": "What comes next once I can make contact with my little one?",
+   "kind": "grouping",
+   "role": "none",
+   "role_confidence": "high",
+   "part": "N067",
+   "part_confidence": "high",
+   "continues": "none",
+   "needs_first": []
+  },
+  {
+   "id": "N068",
+   "reader_question": "Why do I keep expecting people to leave or not care, even when they would help?",
+   "kind": "concept",
+   "role": "none",
+   "role_confidence": "high",
+   "part": "N067",
+   "part_confidence": "high",
+   "continues": "none",
+   "needs_first": []
+  },
+  {
+   "id": "N069",
+   "reader_question": "Why do I feel unlovable, and how do I loosen shame?",
+   "kind": "concept",
+   "role": "none",
+   "role_confidence": "high",
+   "part": "N067",
+   "part_confidence": "high",
+   "continues": "none",
+   "needs_first": []
+  },
+  {
+   "id": "N070",
+   "reader_question": "Is there a quick trick to make a painful memory easier to hold?",
+   "kind": "practice",
+   "role": "none",
+   "role_confidence": "high",
+   "part": "N067",
+   "part_confidence": "high",
+   "continues": "N069",
+   "needs_first": []
+  },
+  {
+   "id": "N071",
+   "reader_question": "Do I have to forgive the people who hurt me, and what does forgiving mean?",
+   "kind": "concept",
+   "role": "none",
+   "role_confidence": "high",
+   "part": "N067",
+   "part_confidence": "high",
+   "continues": "none",
+   "needs_first": []
+  },
+  {
+   "id": "N072",
+   "reader_question": "Does the same forgiveness apply to what I did myself?",
+   "kind": "concept",
+   "role": "none",
+   "role_confidence": "high",
+   "part": "N067",
+   "part_confidence": "high",
+   "continues": "N071",
+   "needs_first": []
+  },
+  {
+   "id": "N073",
+   "reader_question": "How can I redo a painful childhood memory in a healthier way?",
+   "kind": "practice",
+   "role": "N045",
+   "role_confidence": "medium",
+   "part": "N067",
+   "part_confidence": "high",
+   "continues": "none",
+   "needs_first": [
+    "N046"
+   ]
+  },
+  {
+   "id": "N074",
+   "reader_question": "How should discipline have been done instead, and what if no perfect response existed?",
+   "kind": "story",
+   "role": "N045",
+   "role_confidence": "low",
+   "part": "N067",
+   "part_confidence": "high",
+   "continues": "N073",
+   "needs_first": []
+  },
+  {
+   "id": "N075",
+   "reader_question": "How do I answer the inner voice that drives me like a strict disciplinarian?",
+   "kind": "practice",
+   "role": "N021",
+   "role_confidence": "medium",
+   "part": "N067",
+   "part_confidence": "high",
+   "continues": "none",
+   "needs_first": [
+    "N025"
+   ]
+  },
+  {
+   "id": "N076",
+   "reader_question": "What if the practice does not go smoothly?",
+   "kind": "grouping",
+   "role": "none",
+   "role_confidence": "high",
+   "part": "N076",
+   "part_confidence": "high",
+   "continues": "none",
+   "needs_first": []
+  },
+  {
+   "id": "N077",
+   "reader_question": "Why does talking to my little one feel fake or crazy?",
+   "kind": "problem",
+   "role": "N028",
+   "role_confidence": "medium",
+   "part": "N076",
+   "part_confidence": "high",
+   "continues": "none",
+   "needs_first": []
+  },
+  {
+   "id": "N078",
+   "reader_question": "What if it only feels real in an altered state?",
+   "kind": "special-situation",
+   "role": "none",
+   "role_confidence": "medium",
+   "part": "N076",
+   "part_confidence": "medium",
+   "continues": "N077",
+   "needs_first": []
+  },
+  {
+   "id": "N079",
+   "reader_question": "What if I have no clear inner child to talk to?",
+   "kind": "problem",
+   "role": "none",
+   "role_confidence": "high",
+   "part": "N076",
+   "part_confidence": "high",
+   "continues": "none",
+   "needs_first": [
+    "N111"
+   ]
+  },
+  {
+   "id": "N080",
+   "reader_question": "What if it feels real but stays shallow?",
+   "kind": "problem",
+   "role": "none",
+   "role_confidence": "high",
+   "part": "N076",
+   "part_confidence": "high",
+   "continues": "none",
+   "needs_first": []
+  },
+  {
+   "id": "N081",
+   "reader_question": "Can I get stuck checking whether I healed properly?",
+   "kind": "problem",
+   "role": "none",
+   "role_confidence": "high",
+   "part": "N076",
+   "part_confidence": "high",
+   "continues": "none",
+   "needs_first": []
+  },
+  {
+   "id": "N082",
+   "reader_question": "How would I know the practice is actually helping?",
+   "kind": "concept",
+   "role": "none",
+   "role_confidence": "high",
+   "part": "N076",
+   "part_confidence": "high",
+   "continues": "none",
+   "needs_first": []
+  },
+  {
+   "id": "N083",
+   "reader_question": "What should I do when nothing changes for weeks?",
+   "kind": "problem",
+   "role": "none",
+   "role_confidence": "high",
+   "part": "N076",
+   "part_confidence": "high",
+   "continues": "none",
+   "needs_first": []
+  },
+  {
+   "id": "N084",
+   "reader_question": "How long should I keep trying before changing course?",
+   "kind": "problem",
+   "role": "none",
+   "role_confidence": "high",
+   "part": "N076",
+   "part_confidence": "high",
+   "continues": "N083",
+   "needs_first": []
+  },
+  {
+   "id": "N085",
+   "reader_question": "What if I follow the steps correctly and get no results?",
+   "kind": "problem",
+   "role": "none",
+   "role_confidence": "high",
+   "part": "N076",
+   "part_confidence": "high",
+   "continues": "N083",
+   "needs_first": []
+  },
+  {
+   "id": "N086",
+   "reader_question": "What if I just want to stop?",
+   "kind": "problem",
+   "role": "none",
+   "role_confidence": "medium",
+   "part": "N076",
+   "part_confidence": "high",
+   "continues": "N083",
+   "needs_first": []
+  },
+  {
+   "id": "N087",
+   "reader_question": "What do I do when I want to escape as I get close to something painful?",
+   "kind": "problem",
+   "role": "none",
+   "role_confidence": "high",
+   "part": "N076",
+   "part_confidence": "high",
+   "continues": "none",
+   "needs_first": []
+  },
+  {
+   "id": "N088",
+   "reader_question": "What do I do when physical pain makes the practice harder?",
+   "kind": "problem",
+   "role": "none",
+   "role_confidence": "high",
+   "part": "N076",
+   "part_confidence": "high",
+   "continues": "none",
+   "needs_first": [
+    "N087"
+   ]
+  },
+  {
+   "id": "N089",
+   "reader_question": "Could my physical symptoms be emotional, and how far should I take that?",
+   "kind": "problem",
+   "role": "none",
+   "role_confidence": "high",
+   "part": "N076",
+   "part_confidence": "high",
+   "continues": "N088",
+   "needs_first": []
+  },
+  {
+   "id": "N090",
+   "reader_question": "Can meditation retreats or psychedelics help this work?",
+   "kind": "grouping",
+   "role": "none",
+   "role_confidence": "high",
+   "part": "N090",
+   "part_confidence": "high",
+   "continues": "none",
+   "needs_first": []
+  },
+  {
+   "id": "N091",
+   "reader_question": "Should I use intensive meditation or psychedelics, and when?",
+   "kind": "concept",
+   "role": "none",
+   "role_confidence": "medium",
+   "part": "N090",
+   "part_confidence": "high",
+   "continues": "none",
+   "needs_first": [
+    "N021",
+    "N028"
+   ]
+  },
+  {
+   "id": "N092",
+   "reader_question": "What do I do with a peak experience of love?",
+   "kind": "concept",
+   "role": "none",
+   "role_confidence": "medium",
+   "part": "N090",
+   "part_confidence": "high",
+   "continues": "none",
+   "needs_first": [
+    "N050",
+    "N035"
+   ]
+  },
+  {
+   "id": "N093",
+   "reader_question": "What are the risks when altered states leave reality behind?",
+   "kind": "safety",
+   "role": "none",
+   "role_confidence": "high",
+   "part": "N090",
+   "part_confidence": "high",
+   "continues": "none",
+   "needs_first": []
+  },
+  {
+   "id": "N094",
+   "reader_question": "What if a past trip went badly?",
+   "kind": "safety",
+   "role": "none",
+   "role_confidence": "high",
+   "part": "N090",
+   "part_confidence": "high",
+   "continues": "N093",
+   "needs_first": []
+  },
+  {
+   "id": "N095",
+   "reader_question": "Is paranoia on a trip a warning sign of psychosis?",
+   "kind": "safety",
+   "role": "none",
+   "role_confidence": "high",
+   "part": "N090",
+   "part_confidence": "high",
+   "continues": "N093",
+   "needs_first": []
+  },
+  {
+   "id": "N096",
+   "reader_question": "What if I might be prone to mania or psychosis?",
+   "kind": "safety",
+   "role": "none",
+   "role_confidence": "high",
+   "part": "N090",
+   "part_confidence": "high",
+   "continues": "N093",
+   "needs_first": []
+  },
+  {
+   "id": "N097",
+   "reader_question": "Whom can I trust to guide me?",
+   "kind": "safety",
+   "role": "none",
+   "role_confidence": "high",
+   "part": "N090",
+   "part_confidence": "high",
+   "continues": "N093",
+   "needs_first": []
+  },
+  {
+   "id": "N098",
+   "reader_question": "What if I keep coming back from trips confused?",
+   "kind": "safety",
+   "role": "none",
+   "role_confidence": "high",
+   "part": "N090",
+   "part_confidence": "high",
+   "continues": "N093",
+   "needs_first": []
+  },
+  {
+   "id": "N099",
+   "reader_question": "Is it safe to quit a medication or alcohol on my own?",
+   "kind": "safety",
+   "role": "none",
+   "role_confidence": "high",
+   "part": "N090",
+   "part_confidence": "high",
+   "continues": "N093",
+   "needs_first": []
+  },
+  {
+   "id": "N100",
+   "reader_question": "What are the dangers of mixing substances?",
+   "kind": "safety",
+   "role": "none",
+   "role_confidence": "high",
+   "part": "N090",
+   "part_confidence": "high",
+   "continues": "N093",
+   "needs_first": []
+  },
+  {
+   "id": "N101",
+   "reader_question": "What mistakes did the author make with psychedelics?",
+   "kind": "story",
+   "role": "none",
+   "role_confidence": "medium",
+   "part": "N090",
+   "part_confidence": "high",
+   "continues": "none",
+   "needs_first": []
+  },
+  {
+   "id": "N102",
+   "reader_question": "What if I am attacked by a demon or spirit, and what happened to the author?",
+   "kind": "story",
+   "role": "none",
+   "role_confidence": "medium",
+   "part": "N090",
+   "part_confidence": "high",
+   "continues": "none",
+   "needs_first": []
+  },
+  {
+   "id": "N103",
+   "reader_question": "How do I meet spiritual attack with love?",
+   "kind": "practice",
+   "role": "N028",
+   "role_confidence": "medium",
+   "part": "N090",
+   "part_confidence": "high",
+   "continues": "N102",
+   "needs_first": [
+    "N102"
+   ]
+  },
+  {
+   "id": "N104",
+   "reader_question": "Can ordinary life feel like spiritual attack too?",
+   "kind": "concept",
+   "role": "none",
+   "role_confidence": "medium",
+   "part": "N090",
+   "part_confidence": "medium",
+   "continues": "N102",
+   "needs_first": []
+  }
+ ]
+}

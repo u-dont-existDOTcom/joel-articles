@@ -206,6 +206,31 @@ class SenseReadTest(unittest.TestCase):
         code, text, _ = run('nonwords', m, '--known', k)
         self.assertNotIn('flurbish', text)
         self.assertIn('xqzv', text)
+        # his own texts mark a word, never hide it: they carry his typos too ("ayahauasca", 2026-11-09)
+        h = self.tmp / 'his-post.md'
+        h.write_text('A flurbish day, a xqzv map.', encoding='utf-8')
+        code, text, _ = run('nonwords', m, '--his', h)
+        self.assertEqual(code, 0)
+        self.assertIn('flurbish', text)
+        self.assertIn('(in his text: his-post.md)', text)
+        code, text, _ = run('nonwords', m, '--known', k, '--his', h)
+        self.assertNotIn('flurbish', text)
+        self.assertIn('xqzv', text)
+
+    def test_list_markers(self):
+        """A list is one block; its first item keeps its marker in the part, as the later ones do (the bad trips guide's
+        read, 2026-11-09: a reader took the second item's "2." for a stray number when the first had lost its "1.")."""
+        m = self.tmp / 'lists.md'
+        m.write_text('# Lists\n\nCall for help when:\n\n- Breathing stops\n- A seizure lasts\n\nTwo questions:\n\n'
+                     '1. Have I slept?\n2. Has this happened before?\n', encoding='utf-8')
+        out = self.tmp / 'lists-out'
+        code, _, _ = run('make', m, out, '--parts', 1, '--plant', 0, '--seed', 1)
+        self.assertEqual(code, 0)
+        text = (out / 'parts' / 'PART-1.md').read_text(encoding='utf-8')
+        self.assertIn('] - Breathing stops - A seizure lasts', text)
+        self.assertIn('] 1. Have I slept? 2. Has this happened before?', text)
+        self.assertIn('] # Lists', text)
+        self.assertIn('] Call for help when:', text)
 
 
 

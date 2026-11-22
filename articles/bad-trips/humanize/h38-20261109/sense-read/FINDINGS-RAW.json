@@ -1,0 +1,102 @@
+[
+ {
+  "block": 8,
+  "text": "Call medics while acting for:",
+  "kind": "broken",
+  "what": "This heading reads oddly: \"while acting for\" does not say what is meant; probably \"Call medics (while acting) for:\" or \"Call medics, while acting, for:\".",
+  "fix": "Call medics, while acting, for:",
+  "confidence": "likely",
+  "readers": [
+   1
+  ],
+  "reports": [
+   {
+    "reader": 1,
+    "kind": "broken",
+    "what": "This heading reads oddly: \"while acting for\" does not say what is meant; probably \"Call medics (while acting) for:\" or \"Call medics, while acting, for:\".",
+    "fix": "Call medics, while acting, for:",
+    "confidence": "likely"
+   }
+  ]
+ },
+ {
+  "block": 68,
+  "text": "is often mistaken as shadow work",
+  "kind": "slip",
+  "what": "Standard idiom is \"mistaken for\".",
+  "fix": "is often mistaken for shadow work",
+  "confidence": "likely",
+  "readers": [
+   1
+  ],
+  "reports": [
+   {
+    "reader": 1,
+    "kind": "slip",
+    "what": "Standard idiom is \"mistaken for\".",
+    "fix": "is often mistaken for shadow work",
+    "confidence": "likely"
+   }
+  ]
+ },
+ {
+  "block": 103,
+  "text": "when I'm on ayahauasca or loveyhuasca",
+  "kind": "slip",
+  "what": "Typo in \"ayahuasca\".",
+  "fix": "when I'm on ayahuasca or loveyhuasca",
+  "confidence": "sure",
+  "readers": [
+   1
+  ],
+  "reports": [
+   {
+    "reader": 1,
+    "kind": "slip",
+    "what": "Typo in \"ayahuasca\".",
+    "fix": "when I'm on ayahuasca or loveyhuasca",
+    "confidence": "sure"
+   }
+  ]
+ },
+ {
+  "block": 164,
+  "text": "Test them rather than turning them into rival religions.",
+  "kind": "broken",
+  "what": "\"them\" has nothing to point at in the text; only the heading \"Stillness or Movement?\" names what is meant, so the first sentence under it reads as cut off.",
+  "fix": "Test stillness and movement rather than turning them into rival religions.",
+  "confidence": "likely",
+  "readers": [
+   2
+  ],
+  "reports": [
+   {
+    "reader": 2,
+    "kind": "broken",
+    "what": "\"them\" has nothing to point at in the text; only the heading \"Stillness or Movement?\" names what is meant, so the first sentence under it reads as cut off.",
+    "fix": "Test stillness and movement rather than turning them into rival religions.",
+    "confidence": "likely"
+   }
+  ]
+ },
+ {
+  "block": 333,
+  "text": "intense breathwork, fast, push kundalini, deprive yourself of sleep",
+  "kind": "broken",
+  "what": "The list after \"Don't take more\" switches to bare verbs (fast, push, deprive, meditate), so \"take\" no longer governs them and the sentence breaks halfway.",
+  "fix": "Don't take more psychedelics, cannabis, ketamine, or do intense breathwork, fast, push kundalini, deprive yourself of sleep",
+  "confidence": "likely",
+  "readers": [
+   3
+  ],
+  "reports": [
+   {
+    "reader": 3,
+    "kind": "broken",
+    "what": "The list after \"Don't take more\" switches to bare verbs (fast, push, deprive, meditate), so \"take\" no longer governs them and the sentence breaks halfway.",
+    "fix": "Don't take more psychedelics, cannabis, ketamine, or do intense breathwork, fast, push kundalini, deprive yourself of sleep",
+    "confidence": "likely"
+   }
+  ]
+ }
+]

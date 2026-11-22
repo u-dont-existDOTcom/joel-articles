@@ -1,0 +1,11 @@
+You are predicting what Pangram (an AI-text detector) will say about 13 parts of Joel's bad-trips guide, before they are checked. The guide began as his own post, a model (an AI) added a lot of standard advice to it, and over many rounds his own versions replaced some sections. A section's "his_share" in /home/claude/joel-articles/articles/bad-trips/humanize/h42-20261111/pass/UNITS.json is the share of its words from his own recent versions or notes (those have read Human before); the rest is the post's text, much of it model-drafted, which read AI before.
+
+What tends to read AI to Pangram: tidy parallel lists of three or more, "rather than" and "not X but Y" contrasts, a colon that introduces a list, abstract nouns doing things ("the experience opens", "love becomes practical"), stock or slogan-like closing lines, hedged generic advice, evenly sized sentences. What tends to read Human: first-person experience and stories ("I", "my friend"), specific names, places and products, informal asides in brackets, jokes, uneven sentence lengths, typos, plain talk.
+
+For each of these files in /home/claude/joel-articles/articles/bad-trips/humanize/h42-20261111/pass/units/: h42-08.txt, h42-16.txt, h42-18.txt, h42-19.txt, h42-20.txt, h42-21.txt, h42-22.txt, h42-23.txt, h42-25.txt, h42-27.txt, h42-29.txt, h42-30.txt, h42-33.txt (read UNITS.json first for their his_share, then each file), predict:
+- call: "AI" if you expect any AI window, "Human" if you expect a 100% Human result;
+- chance: your chance (0 to 1) of a 100% Human result; a Human call is at least 0.5, an AI call at most 0.5;
+- tells: one or two AI-sounding phrases, each copied EXACTLY, character for character, from that unit's text (8 to 20 words each);
+- human_tells: one or two human-sounding phrases, copied EXACTLY the same way (if there is truly none, give the most human phrase there is).
+
+Write your answer with one Write call to /home/claude/joel-articles/articles/bad-trips/humanize/h42-20261111/pass/PREDICTIONS-h42a-gaps.json as one JSON object: {"h42-01": {"call": "...", "chance": 0.3, "tells": ["..."], "human_tells": ["..."]}, ...} with these 13 keys. Work quickly; a quote that isn't exactly in the text is useless, so copy, don't paraphrase. Reply with one line saying it's written.

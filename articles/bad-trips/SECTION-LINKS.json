@@ -1,0 +1,332 @@
+{
+ "post": {
+  "base": "https://ibogaqueen.substack.com",
+  "id": "170920118"
+ },
+ "source": "articles/bad-trips/GUIDE-SO-FAR.md rendered with python-markdown, 2026-11-21 (turn 58), after his round-47 headings; anchors as Substack makes them (section_links.slug), the four with brackets or ≠ UNCHECKED until read from his post",
+ "headings": [
+  {
+   "level": 1,
+   "text": "When to Get Outside Help",
+   "anchor": "when-to-get-outside-help"
+  },
+  {
+   "level": 2,
+   "text": "Call Medics For:",
+   "anchor": "call-medics-for"
+  },
+  {
+   "level": 2,
+   "text": "If Someone Might Get Hurt",
+   "anchor": "if-someone-might-get-hurt"
+  },
+  {
+   "level": 2,
+   "text": "Who to Contact",
+   "anchor": "who-to-contact"
+  },
+  {
+   "level": 1,
+   "text": "Medical and Brain Rescue",
+   "anchor": "medical-and-brain-rescue"
+  },
+  {
+   "level": 2,
+   "text": "\"My Brain Feels Damaged\"",
+   "anchor": "my-brain-feels-damaged"
+  },
+  {
+   "level": 2,
+   "text": "Active Seizure",
+   "anchor": "active-seizure"
+  },
+  {
+   "level": 3,
+   "text": "Seizure: What Else Helps",
+   "anchor": "seizure-what-else-helps"
+  },
+  {
+   "level": 2,
+   "text": "MDMA: Magnesium Alarm",
+   "anchor": "mdma-magnesium-alarm"
+  },
+  {
+   "level": 2,
+   "text": "Chest Pain and Injury",
+   "anchor": "chest-pain-and-injury"
+  },
+  {
+   "level": 2,
+   "text": "Swallowed Too Much?",
+   "anchor": "swallowed-too-much"
+  },
+  {
+   "level": 2,
+   "text": "Serotonin Syndrome (SS)?",
+   "anchor": "serotonin-syndrome-ss"
+  },
+  {
+   "level": 3,
+   "text": "How to Check for SS",
+   "anchor": "how-to-check-for-ss"
+  },
+  {
+   "level": 3,
+   "text": "Act Now on SS",
+   "anchor": "act-now-on-ss"
+  },
+  {
+   "level": 1,
+   "text": "My Acute Rescue Remedies",
+   "anchor": "my-acute-rescue-remedies"
+  },
+  {
+   "level": 2,
+   "text": "Remedies Needing Caution",
+   "anchor": "remedies-needing-caution"
+  },
+  {
+   "level": 2,
+   "text": "Gut-Toxin & Die-Off Tools",
+   "anchor": "gut-toxin-and-die-off-tools"
+  },
+  {
+   "level": 3,
+   "text": "ZeoCharge & Ferment",
+   "anchor": "zeocharge-and-ferment"
+  },
+  {
+   "level": 3,
+   "text": "Activated Charcoal",
+   "anchor": "activated-charcoal"
+  },
+  {
+   "level": 2,
+   "text": "Nausea Smoothers",
+   "anchor": "nausea-smoothers"
+  },
+  {
+   "level": 3,
+   "text": "Coffee Cherry, Brain Too",
+   "anchor": "coffee-cherry-brain-too"
+  },
+  {
+   "level": 2,
+   "text": "Too Intense? Stabilizers",
+   "anchor": "too-intense-stabilizers"
+  },
+  {
+   "level": 3,
+   "text": "Metta Sniffer: Chill Love 🫶🏿",
+   "anchor": "metta-sniffer-chill-love"
+  },
+  {
+   "level": 3,
+   "text": "Humic Acid for the Brain",
+   "anchor": "humic-acid-for-the-brain"
+  },
+  {
+   "level": 3,
+   "text": "Creatine for Brain & Bliss",
+   "anchor": "creatine-for-brain-and-bliss"
+  },
+  {
+   "level": 3,
+   "text": "Mango Leaf Tea: Chill Bliss",
+   "anchor": "mango-leaf-tea-chill-bliss"
+  },
+  {
+   "level": 3,
+   "text": "Lime or EOs for Calm",
+   "anchor": "lime-or-eos-for-calm"
+  },
+  {
+   "level": 3,
+   "text": "DMSO",
+   "anchor": "dmso"
+  },
+  {
+   "level": 3,
+   "text": "Syrian Rue Oil: Gentler",
+   "anchor": "syrian-rue-oil-gentler"
+  },
+  {
+   "level": 3,
+   "text": "Ocean Water Calms",
+   "anchor": "ocean-water-calms"
+  },
+  {
+   "level": 3,
+   "text": "Shungite, Holy Water",
+   "anchor": "shungite-holy-water"
+  },
+  {
+   "level": 2,
+   "text": "Need to Stop the Trip?",
+   "anchor": "need-to-stop-the-trip"
+  },
+  {
+   "level": 3,
+   "text": "Beach Morning Glory",
+   "anchor": "beach-morning-glory"
+  },
+  {
+   "level": 3,
+   "text": "Niacin \"Flushes\" Trips Out",
+   "anchor": "niacin-flushes-trips-out"
+  },
+  {
+   "level": 1,
+   "text": "Tripsitting Yourself or Others",
+   "anchor": "tripsitting-yourself-or-others"
+  },
+  {
+   "level": 2,
+   "text": "The First Five Minutes",
+   "anchor": "the-first-five-minutes"
+  },
+  {
+   "level": 2,
+   "text": "Grounding Menu",
+   "anchor": "grounding-menu"
+  },
+  {
+   "level": 2,
+   "text": "Get One Human Anchor",
+   "anchor": "get-one-human-anchor"
+  },
+  {
+   "level": 3,
+   "text": "Alone at 3 a.m.",
+   "anchor": "alone-at-3-am"
+  },
+  {
+   "level": 2,
+   "text": "Helping? Anchor, Not Guru",
+   "anchor": "helping-anchor-not-guru"
+  },
+  {
+   "level": 3,
+   "text": "What to Do and Say",
+   "anchor": "what-to-do-and-say"
+  },
+  {
+   "level": 3,
+   "text": "When Talk Turns to Harm",
+   "anchor": "when-talk-turns-to-harm"
+  },
+  {
+   "level": 2,
+   "text": "No Rash Actions",
+   "anchor": "no-rash-actions"
+  },
+  {
+   "level": 2,
+   "text": "If the Trip Feels Amazing",
+   "anchor": "if-the-trip-feels-amazing"
+  },
+  {
+   "level": 1,
+   "text": "Shadow Work",
+   "anchor": "shadow-work"
+  },
+  {
+   "level": 2,
+   "text": "Dealing With Sorrow",
+   "anchor": "dealing-with-sorrow"
+  },
+  {
+   "level": 2,
+   "text": "Hand on Heart, Gratitude",
+   "anchor": "hand-on-heart-gratitude"
+  },
+  {
+   "level": 3,
+   "text": "Ask Before You Touch",
+   "anchor": "ask-before-you-touch"
+  },
+  {
+   "level": 2,
+   "text": "Demons, Jinn, and Entities",
+   "anchor": "demons-jinn-and-entities"
+  },
+  {
+   "level": 2,
+   "text": "Abuse Memories Surface?",
+   "anchor": "abuse-memories-surface"
+  },
+  {
+   "level": 2,
+   "text": "Shadow Thoughts",
+   "anchor": "shadow-thoughts"
+  },
+  {
+   "level": 3,
+   "text": "The Joker Poem",
+   "anchor": "the-joker-poem"
+  },
+  {
+   "level": 2,
+   "text": "(Re)defining \"Bad Trip\"",
+   "anchor": "redefining-bad-trip"
+  },
+  {
+   "level": 2,
+   "text": "Spiritual ≠ \"Ass-Kicking\"",
+   "anchor": "spiritual-ass-kicking"
+  },
+  {
+   "level": 2,
+   "text": "The Feel-Good Bypass",
+   "anchor": "the-feel-good-bypass"
+  },
+  {
+   "level": 1,
+   "text": "After the Storm",
+   "anchor": "after-the-storm"
+  },
+  {
+   "level": 2,
+   "text": "Lingering Symptoms?",
+   "anchor": "lingering-symptoms"
+  },
+  {
+   "level": 2,
+   "text": "Get Mental-Health Help If:",
+   "anchor": "get-mental-health-help-if"
+  },
+  {
+   "level": 2,
+   "text": "Off the Healing Treadmill",
+   "anchor": "off-the-healing-treadmill"
+  },
+  {
+   "level": 1,
+   "text": "Plan a Trip or Ceremony",
+   "anchor": "plan-a-trip-or-ceremony"
+  },
+  {
+   "level": 1,
+   "text": "Appendix: More Resources",
+   "anchor": "appendix-more-resources"
+  }
+ ],
+ "links": [
+  {
+   "in": "DMSO",
+   "text": "Active Seizure",
+   "href": "https://ibogaqueen.substack.com/i/170920118/active-seizure"
+  },
+  {
+   "in": "Grounding Menu",
+   "text": "Too Intense? Stabilizers",
+   "href": "https://ibogaqueen.substack.com/i/170920118/too-intense-stabilizers"
+  },
+  {
+   "in": "Act Now on SS",
+   "text": "MDMA: Magnesium Alarm",
+   "href": "https://ibogaqueen.substack.com/i/170920118/mdma-magnesium-alarm"
+  }
+ ],
+ "unlinked_on_purpose": []
+}

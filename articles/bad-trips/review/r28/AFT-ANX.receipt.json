@@ -1,0 +1,61 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-09",
+ "text_sha256": "a50d55faf3b6327f2a774d00b1b61731d8f3c1572c0adbedf41b55dd67085018",
+ "text": "Anxiety and fear: with this pattern, it helps to first figure out what is providing the stimulation for the anxiety. CBT-style reality testing, checking the frightening thought against what's actually happening, is one way to do that which could be explored with a therapist if it persists, but can be done without one to start with. In general, it can help to have grounding/relaxing routines (like morning or bedtime yin yoga, meeting a friend for lunch).",
+ "section": "What Kind of Aftermath Is This?",
+ "reader": "someone days after a hard trip with symptoms still hanging around, looking for their kind and what helps",
+ "sentences": [
+  {
+   "s": "Anxiety and fear: with this pattern, it helps to first figure out what is providing the stimulation for the anxiety.",
+   "payoff": "they find out what is driving their anxiety before trying to fix it",
+   "follows": "his first step for this kind"
+  },
+  {
+   "s": "CBT-style reality testing, checking the frightening thought against what's actually happening, is one way to do that which could be explored with a therapist if it persists, but can be done without one to start with.",
+   "payoff": "they get a way to do that, checking the frightening thought against what's actually happening, with or without a therapist",
+   "follows": "the method for the first step",
+   "link": "CBT-style reality testing"
+  },
+  {
+   "s": "In general, it can help to have grounding/relaxing routines (like morning or bedtime yin yoga, meeting a friend for lunch).",
+   "payoff": "they set up calming routines of their own, like his yin yoga or a lunch with a friend",
+   "follows": "the second kind of help",
+   "link": "In general"
+  }
+ ],
+ "checked": [],
+ "placement": "What Kind of Aftermath Is This?, the list's first item (his version of 2026-11-09)",
+ "opens": {
+  "first_sentence": "Anxiety and fear: with this pattern, it helps to first figure out what is providing the stimulation for the anxiety.",
+  "why_reading": "it names the most common kind and says what to do first"
+ },
+ "same_point": "none: read the section from its heading to the next; the call-for-help list at the top says when panic needs a professional, this says what to do first",
+ "needed": {
+  "reader": "a fresh Haiku agent given tools/humanization/needed_read_brief.md with the items sentence by sentence (NEEDED-READ.md beside this receipt)",
+  "unneeded": [],
+  "kept": {}
+ },
+ "questions": {
+  "Q1": "PASS: the kind first, then what helps",
+  "Q2": "PASS: each step says what it is for in his words",
+  "Q3": "PASS: the step and the therapy named exactly",
+  "Q4": "PASS: the term the card glosses is explained in the sentence that names it; CBT is spelled out earlier in (Re)defining \"Bad Trip\"",
+  "Q5": "PASS: his order, unchanged but for the gloss",
+  "Q6": "PASS: his order",
+  "Q7": "PASS: each step is one this reader can take days after a trip",
+  "Q8": "PASS: each item under its kind, as he wrote it",
+  "Q9": "PASS: his sentences, the gloss inside the one it explains"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

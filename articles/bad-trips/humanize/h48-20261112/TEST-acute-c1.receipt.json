@@ -1,0 +1,84 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-12",
+ "text_sha256": "ac1985cc2251e7fce6eaa3edc9f9f721997db3c10e8f4f1deaa68e5c31df0d1e",
+ "text": "Acute Medical and Neurological Rescue\n\nI'd calm and stabilize the trip right where they are, as long as none of the signs on the Call medics list above show up and I can keep them from getting hurt. Even from a severe trip, they can come down faster that way than after an ambulance ride and hours in an emergency room.",
+ "section": "Acute Medical and Neurological Rescue",
+ "reader": "someone with a friend in a severe trip, deciding whether to handle it themselves or get them to an emergency room",
+ "sentences": [
+  {
+   "s": "Acute Medical and Neurological Rescue",
+   "payoff": "they know this part is about medical and neurological rescue",
+   "follows": "the heading"
+  },
+  {
+   "s": "I'd calm and stabilize the trip right where they are, as long as none of the signs on the Call medics list above show up and I can keep them from getting hurt.",
+   "payoff": "they calm and stabilize the trip where the person is, unless a sign on the Call medics list shows up or they can't keep the person from getting hurt",
+   "follows": "it opens the section under its heading",
+   "link": "none: the first sentence under its heading"
+  },
+  {
+   "s": "Even from a severe trip, they can come down faster that way than after an ambulance ride and hours in an emergency room.",
+   "payoff": "they know staying can bring the person down faster than an ambulance ride and hours in an emergency room, even from a severe trip",
+   "follows": "why stay, after what to do",
+   "link": "that way"
+  }
+ ],
+ "checked": [],
+ "placement": "Acute Medical and Neurological Rescue, its opening paragraph (B100 and B76 as one), after the contacts that close When to Bring In Outside Help, before the emergency room paragraph (B77)",
+ "opens": {
+  "first_sentence": "Acute Medical and Neurological Rescue",
+  "why_reading": "it tells someone with a friend in a severe trip whether to handle it where they are, before any remedy"
+ },
+ "same_point": "merged here: B76's six conditions are the Call medics list's own lines (trouble breathing, dangerous overheating, seizures, the brain checks, collapse or not waking), so this paragraph points to the list (his BODY-ONCE answer of round 35: \"my paragraph should not say anything that should be going in that above list\"); the one condition the list lacks, keeping them from getting hurt, stays here; B77 keeps the emergency room's drugs",
+ "needed": {
+  "reader": "a fresh Haiku agent given tools/humanization/needed_read_brief.md with acute-c1, its heading and what it is for (reads/needed-acute-c1.txt)",
+  "unneeded": [
+   "Even from a severe trip, they can come down faster that way than after an ambulance ride and hours in an emergency room."
+  ],
+  "kept": {
+   "Even from a severe trip, they can come down faster that way than after an ambulance ride and hours in an emergency room.": "they stay with the person instead of heading to an emergency room, trusting the guide's belief (B100) that even a severe trip in a stable body can come down faster there than after an ambulance ride and hours in an emergency room; without it the reader has only a rule against their own first thought, to call an ambulance"
+  }
+ },
+ "his_fixes": {
+  "reader": "a fresh Sonnet reader given tools/humanization/his_fixes_brief.md (reads/his-acute-c1.txt)",
+  "marked": [
+   {
+    "s": "I'd calm and stabilize the trip right where they are, as long as none of the signs on the Call medics list above show up and I can keep them from getting hurt.",
+    "difference": "1",
+    "draft": "acute-c1"
+   },
+   {
+    "s": "Even from a severe trip, they can come down faster that way than after an ambulance ride and hours in an emergency room.",
+    "difference": "6",
+    "draft": "acute-c1"
+   }
+  ],
+  "kept": {
+   "I'd calm and stabilize the trip right where they are, as long as none of the signs on the Call medics list above show up and I can keep them from getting hurt.": "the action first and its conditions after it, the way his Chest Pain line has it (\"I'd just use DMSO ..., as long as they're fully alert\"); the reader's split put the condition first again, which is the late payoff this test removes",
+   "Even from a severe trip, they can come down faster that way than after an ambulance ride and hours in an emergency room.": "the guide's belief that a stable person can come down faster with you than in an emergency room (B100) is why the reader would stay instead of going, so it bears on what they do; said as a reason, not a moral"
+  }
+ },
+ "questions": {
+  "Q1": "PASS: the paragraph opens on what to do (\"I'd calm and stabilize the trip right where they are\"), its conditions after",
+  "Q2": "PASS: \"calm and stabilize the trip\", \"keep them from getting hurt\": the helper's acts",
+  "Q3": "PASS: \"the signs on the Call medics list above\" says which signs",
+  "Q4": "PASS: no term; \"field rescue\" said as \"right where they are\"",
+  "Q5": "PASS: \"as long as\" and \"that way\" say each relation",
+  "Q6": "PASS: what to do, when not, then why",
+  "Q7": "PASS: both sentences bear on whether to stay or go",
+  "Q8": "PASS: one paragraph on where to handle a severe trip",
+  "Q9": "PASS: one step a sentence; the six conditions are the list's, not packed here"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

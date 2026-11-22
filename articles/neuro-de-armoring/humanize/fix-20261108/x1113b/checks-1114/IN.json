@@ -1,0 +1,29 @@
+{
+ "sp54": {
+  "lineage": "neuro-de-armoring/B054-sc54",
+  "name": "SC-54 (approved 2026-11-14): block 54 with his Parkinson's and Alzheimer's evidence, my sentences",
+  "text": "The Fix: If the brain is burning less sugar, we give it another fuel. Ketones are its backup fuel, and brains that take up less glucose (as in early Alzheimer's) still take up ketones normally (Cunnane, et al, 2016). And one man's Alzheimer's improved markedly on coconut oil, and later on a ketone drink (Newport, et al, 2015). In Parkinson's too, one small study with no comparison group showed large improvement on a ketogenic diet (VanItallie, et al, 2005). In a bigger trial against a low-fat diet, the keto diet eased fatigue, sleepiness and thinking problems more, but movement improved about the same on both (Phillips, et al, 2018). PQQ made mouse cells build more mitochondria, the parts of the cell that burn fuel (Chowanadisai, et al, 2010); whether it does that in the human brain hasn't been shown.",
+  "chance": 0.4,
+  "why": "tells: packed sentences with citations at each end, a list of three (fatigue, sleepiness and thinking problems), \"one\" where \"a\" would do, a study opened bare (\"In a bigger trial\"), a semicolon join in the PQQ sentence; human: his \"And one ...\" opening, \"In Parkinson's too\", plain words",
+  "diagnosis": "first check of this text: the card he approved; the linter flags B4/E15, E125, O46 and O68",
+  "decides": "whether SC-54 goes in as he approved it, or a tested fix of its windows short of Human High goes in instead (gate bad-trips-2026-11-12l)"
+ },
+ "dm2": {
+  "lineage": "neuro-de-armoring/DMSO-P2",
+  "name": "SC-DMSOc paragraph 2 (uses and side effects), his version of 2026-11-14",
+  "text": "It is used for humans routinely in stem cell transplants and by many humans for all kinds of medical problems, from arthritis to brain injuries (Jacob & de la Torre, 2015). There is evidence (Mitrus, et al, 2018) that using too much DMSO (10% vs 5%) in stem cell transfusions increases mild side effects in adult humans. It hasn't been tested (that I know of, yet) specifically for PTSD, so for PTSD it rests on what people report, and many say it helps.",
+  "chance": 0.55,
+  "why": "tells: \"from arthritis to brain injuries\", a coach-like \"so for PTSD it rests on what people report\"; human: his \"There is evidence (Mitrus, et al, 2018) that using too much DMSO (10% vs 5%)\", his \"(that I know of, yet)\"",
+  "diagnosis": "first check: two of its three sentences were changed by me (the uses sentence, the PTSD sentence with his hedge), his version keeps them",
+  "decides": "whether the paragraph I changed reads Human by itself, as I said it would be checked; if not, a tested fix goes to him on a card (gate E373)"
+ },
+ "dm3": {
+  "lineage": "neuro-de-armoring/DMSO-P3",
+  "name": "SC-DMSOc paragraph 3 (animals, young mice, his clause on children), his version of 2026-11-14",
+  "text": "Nebulized DMSO with heparin (a blood thinner) has been shown to cut the lung damage from toxic cotton smoke in sheep (Kimura, et al, 1988). In another study, the smoke killed all seven untreated sheep and four of the six given DMSO alone, while all seven given DMSO with heparin survived (Brown, et al, 1988). But it has shown some neurotoxic effects in rodent studies. In mice in their first month of life, even the smallest dose tested set off brain cell death, and the authors worried about the children who get it in transplants (Hanslick, et al, 2009), although so far there's no proof it's harming children, and many people use it on their children for injuries, infections, and so forth with good results in practice. Translating mouse research to humans isn't straightforward.",
+  "chance": 0.55,
+  "why": "tells: number-dense sheep sentences, \"In another study\" opened bare, \"even the smallest dose tested\", \"isn't straightforward\" landing; human: his clause (\"and so forth with good results in practice\"), his \"But it has shown some neurotoxic effects\"",
+  "diagnosis": "first check: the sheep and young-mouse sentences are mine, his clause and closing sentence are his",
+  "decides": "whether the paragraph I changed reads Human by itself, as I said it would be checked; if not, a tested fix goes to him on a card (gate E373)"
+ }
+}

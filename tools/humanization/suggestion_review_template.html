@@ -169,7 +169,7 @@ ins.br::before{content:"¶ new paragraph"}
 .card[data-status="approved"] .dec.approve{background:var(--ok);color:var(--paper)}
 .card[data-status="rejected"] .dec.reject{background:var(--no);color:var(--paper)}
 .card[data-status="revise"] .dec.revise{background:var(--rev);color:var(--paper)}
-.card[data-status="pending"] .dec.undo{background:var(--pend-bg)}
+.dec[hidden]{display:none}
 .yours-wrap,.note-wrap{display:block;margin:6px 0}
 .yours-wrap[hidden]{display:none}
 .card textarea{display:block;width:100%;border:1px solid var(--line);border-radius:8px;padding:7px 9px;font:15px/1.45 system-ui,sans-serif;resize:vertical;margin-top:3px}
@@ -386,6 +386,9 @@ __MAIN__
     $('.pill', c).textContent = (c.dataset.advice === 'leave' && st.status === 'pending') ? 'I\'d leave it'
       : (c.dataset.advice === 'edit' ? EDIT_PILL : PILL)[st.status];
     $$('.dec', c).forEach(b => b.setAttribute('aria-pressed', String(b.dataset.dec === st.status)));
+    // "Undo my answer" shows only when there is an answer to undo (1.11; Joel, 2026-11-11: "'not approved yet' doesn't
+    // work as a button": it showed, pressed, on every undecided card, where a click did nothing)
+    $$('.dec.undo', c).forEach(b => { b.hidden = st.status === 'pending'; });
     const yw = $('.yours-wrap', c), yt = $('.yours', c), nt = $('.note', c);
     yw.hidden = !(st.status === 'revise' || st.text);
     if (!(fromRemote && document.activeElement === yt)) yt.value = st.text || '';

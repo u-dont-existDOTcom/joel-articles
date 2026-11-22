@@ -1,0 +1,16 @@
+{
+ "chest-c3": {
+  "reader": "a fresh Haiku agent given tools/humanization/needed_read_brief.md with chest-c1, its heading and what it is for (NEEDED-READ.md); every sentence needed, and c3 says the same sentences again",
+  "unneeded": [],
+  "kept": {}
+ },
+ "brain-c3": {
+  "reader": "a fresh Haiku agent given tools/humanization/needed_read_brief.md with brain-c1, its heading and what it is for (NEEDED-READ.md); only the heading unneeded, and its \"never says when to call medics\" answered by the moved line",
+  "unneeded": [
+   "If Someone Says \"My Brain Feels Damaged\": DMSO + Humic Acid First"
+  ],
+  "kept": {
+   "If Someone Says \"My Brain Feels Damaged\": DMSO + Humic Acid First": "they find this part by its heading; it is the section heading itself, typed with the test"
+  }
+ }
+}

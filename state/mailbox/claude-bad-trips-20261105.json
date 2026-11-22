@@ -1284,10 +1284,1185 @@
    "items": [
     {
      "item": "his message of 17:22 UTC",
-     "outcome": "his rule into the shared rules (lesson bad-trips-2026-11-08d); the teaching stretches' sense read first, then my best tries, then round 27"
+     "outcome": "his two rules in the shared rules (lessons bad-trips-2026-11-08d, e); his beliefs read (h37); three of turn 27's cuts back; round 27 out (four cards), waiting on him (recorded once, not checked)"
     }
    ],
    "recorded_utc": "2026-11-08T17:23Z"
+  },
+  {
+   "turn": "2026-11-09T01:26Z",
+   "lines_of_work": [
+    "bad trips guide"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "UDA root at 841f579, unchanged since 2026-11-08 15:50"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "pull request 408 (ours) merged at 17:42 UTC; no other new issues, pull requests, comments or reviews since"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no edits by others to this lane's handoff note, questions page or state since this account's push of 17:42"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "his round-27 export of 2026-11-09 01:24 UTC: two approvals, his first-five-minutes version with the panic loop and his own story, his aftermath version (checked High, 85f35730) and his comment asking for my best first, with options, pros and cons"
+    }
+   ],
+   "items": [
+    {
+     "item": "his round-27 export",
+     "outcome": "round 27 in (review/r27/apply_r27.py); his two rules in the shared rules (bad-trips-2026-11-09a, b); round 28 out (my fixes and five choices), waiting on him (recorded once, not checked)"
+    }
+   ],
+   "recorded_utc": "2026-11-09T01:27Z"
+  },
+  {
+   "turn": "2026-11-09T17:22Z",
+   "lines_of_work": [
+    "bad trips guide"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "UDA root at 841f579, unchanged since 2026-11-08 15:50; suggested-fixes/joel-articles has the same six items, all in docs/suggested-fixes-ledger.md"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "pull requests 409 to 411 (ours) merged; no other new issues, pull requests, comments or reviews since 01:26 UTC"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no edits by others to this lane's handoff note, questions page or state since this account's push of 02:06 UTC"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "his round-28 export (17:22:21 UTC: AFT-TERMS approved with the Somatic Experiencing link; METHOD-WHERE A with care; LOOP-ONCE: he meant round 27 to cut the section; AFT-HOW-MUCH: visual distortions stay, paranoia and derealization maybe to the outside-help section with pointers; HELPER-NOW: the ToC first; RUE-SAFETY A with his Syrian rue oil notes and relaxing herbs) and round 29's (17:22:46 UTC: both typo fixes approved)"
+    }
+   ],
+   "items": [
+    {
+     "item": "his round-28 and round-29 exports",
+     "outcome": "applying them this turn: round 29, AFT-TERMS with the link and the loop section's cut first; then the ToC pass he asked for, then the Syrian rue and herbs placement and METHOD-WHERE's cards"
+    }
+   ],
+   "recorded_utc": "2026-11-09T17:25Z"
+  },
+  {
+   "turn": "2026-11-09T18:43Z",
+   "lines_of_work": [
+    "bad trips guide"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "UDA root at 841f579, unchanged since 2026-11-08 15:50; suggested-fixes/joel-articles has the same six items, all in docs/suggested-fixes-ledger.md"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "pull request 412 (ours) merged; no other new issues, pull requests, comments or reviews since 18:05 UTC"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no edits by others to this lane's handoff note, questions page or state since this account's push of 18:05 UTC"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "his round-30 export (18:43:50 UTC): TOC A, with the three headings renamed and the brain section kept first; RUE-OIL, OILS, HERBS-NAMED approved; RUE-WARN rejected (the care is vaping the whole seeds, which his entry says)"
+    }
+   ],
+   "items": [
+    {
+     "item": "his round-30 export",
+     "outcome": "applying it this turn: A with the brain section first, the renames checked by a fresh reader, the three approved cards; his rejection recorded; then round 31 (the aftermath kinds moved, METHOD-WHERE's cards)"
+    }
+   ],
+   "recorded_utc": "2026-11-09T18:45Z"
+  },
+  {
+   "turn": "2026-11-09T20:08Z",
+   "lines_of_work": [
+    "bad trips guide"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "UDA root at 841f579, unchanged since 2026-11-08 15:50; suggested-fixes/joel-articles has the same six items, all in docs/suggested-fixes-ledger.md"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "pull request 415 (ours) merged at 19:31 UTC; no other new issues, pull requests, comments or reviews since 19:20 UTC"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no edits by others to this lane's handoff note, questions page or state since this account's push of 19:28 UTC"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "his round-32 export (20:08:42 UTC): SEIZE-HEAD a, GROUND-ORDER approved without its second love line, GROUND-ROOM revised (Room, the familiar object and the date line cut as AI boilerplate; find more; a lime-peel thought), SHADOW-START b"
+    }
+   ],
+   "items": [
+    {
+     "item": "his round-32 export",
+     "outcome": "in this turn (review/r32/apply_r32.py, FIDELITY-KEYS-R32 for W089); lesson bad-trips-2026-11-09i; a boilerplate read of the whole guide by four fresh readers, then round 33 with each cut shown in place and his lime-peel thought as a question"
+    }
+   ],
+   "recorded_utc": "2026-11-09T20:17Z"
+  },
+  {
+   "turn": "2026-11-11T19:54Z",
+   "lines_of_work": [
+    "bad trips guide"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "UDA root at 841f579, unchanged since 2026-11-08 15:50; suggested-fixes/joel-articles has the same six items, all in docs/suggested-fixes-ledger.md"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "pull request 416 (ours) merged 2026-11-09 20:30 UTC; no other new issues, pull requests, comments or reviews since"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no edits by others to this lane's handoff note, questions page or state since this account's push of 2026-11-09 20:30 UTC"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "his round-33 export (2026-11-11 19:54:04 UTC): SMELL yes; MENU-CUTS approved with his Systema line; STILL-CUT, ANCHOR-CUTS, HELPER-CUTS, REDEFINE-CUTS approved; LABELS-CUT approved with a question (label the evidence instead?); SMALL-CUTS: my picks (e, f, g go); and his message: the review page's 'Not approved yet' doesn't work as a button"
+    }
+   ],
+   "items": [
+    {
+     "item": "his round-33 export",
+     "outcome": "in this turn: review/r33/apply_r33.py, FIDELITY-KEYS-R33, the ledger entries the cuts touch; his LABELS question answered in the report"
+    },
+    {
+     "item": "the 'Not approved yet' button",
+     "outcome": "fixed in tools/humanization/suggestion_review.py for every lane, with a browser test, this turn"
+    }
+   ],
+   "recorded_utc": "2026-11-11T19:55Z"
+  },
+  {
+   "turn": "2026-11-11T21:04Z",
+   "lines_of_work": [
+    "bad trips guide"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "UDA root at 841f579, unchanged; suggested-fixes/joel-articles has the same six items, all in docs/suggested-fixes-ledger.md"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "pull request 418 (ours, the first Pangram batch) open, its Content integrity check still queued; no other new issues, pull requests, comments or reviews since 20:30 UTC"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no edits by others to this lane's handoff note, questions page or state since this account's push of 20:17 UTC"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "his message of 21:04 UTC: 'i logged in on your browser' (Pangram in the desktop app's browser pane)"
+    }
+   ],
+   "items": [
+    {
+     "item": "his sign-in",
+     "outcome": "the h42a batch runs this turn: predictions to the ledger, the 50 checks, the results with every window's confidence and link"
+    }
+   ],
+   "recorded_utc": "2026-11-11T21:04Z"
+  },
+  {
+   "turn": "2026-11-11T23:58Z",
+   "lines_of_work": [
+    "bad trips guide"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "UDA root at 841f579, unchanged; suggested-fixes/joel-articles has the same six items, all in docs/suggested-fixes-ledger.md"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "pull requests 418 and 420 (ours) merged by lane auto-merge; main has the neuro lane's 419 and 421 to 423 since; no new issues, comments or reviews since 21:00 UTC"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no edits by others to this lane's handoff note, questions page or state since this account's push of 22:02 UTC"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "his round-34 export of 23:57:59 UTC: TEACH-HARM revised with the paragraph as it is, 'human high' (his check aa15e193) and 'make sure this is only said once'; ADJUNCT 'b'"
+    }
+   ],
+   "items": [
+    {
+     "item": "round 34's answers",
+     "outcome": "in this turn: ADJUNCT b in the guide; TEACH-HARM's paragraph stays as it is, its reasons said once across the guide, and the lesson (check a paragraph as it stands by itself before rewriting it)"
+    }
+   ],
+   "recorded_utc": "2026-11-11T23:59Z"
+  },
+  {
+   "turn": "2026-11-12T13:37Z",
+   "lines_of_work": [
+    "bad trips guide"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "UDA root at 841f579, unchanged; suggested-fixes/joel-articles has the same six items, all in docs/suggested-fixes-ledger.md"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "pull request 424 (ours) merged at 00:16 UTC; no new pull requests, issues, comments or reviews since"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no edits by others to this lane's handoff note, questions page or state since this account's push of 00:15 UTC"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "his round-35 export of 13:37:05 UTC: BODY-ONCE answered ('my paragraph should not say anything that should be going in that above list. so cut this section or move it up/merge it'); TEACH-ORAL revised with his version and his five checks"
+    }
+   ],
+   "items": [
+    {
+     "item": "round 35's answers",
+     "outcome": "in this turn: the body signs move to the Call medics list, his catch-all stays in his paragraph; his Oral Ingestion version in, read from his last check; his moves carried and tested"
+    }
+   ],
+   "recorded_utc": "2026-11-12T13:38Z"
+  },
+  {
+   "turn": "2026-11-12T14:45Z",
+   "lines_of_work": [
+    "bad trips guide"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "UDA root at 841f579, unchanged; suggested-fixes/joel-articles has the same six items, all in docs/suggested-fixes-ledger.md"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "pull request 425 (ours) merged at 14:08 UTC; no new pull requests, issues, comments or reviews since"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no edits by others to this lane's handoff note, questions page or state since this account's push of 14:08 UTC"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "his round-36 export of 14:45:53 UTC: MEDICAL-HOW 'a', with 'have you systematically looked at all of the fixes i've shown you and what are the idfferences in how you write vs how i fix?'; TEACH-SS revised with his version and three checks (52abd79e, 54dd2f4b, 9e32c090)"
+    }
+   ],
+   "items": [
+    {
+     "item": "his round-36 answers",
+     "outcome": "his SS version in whole; the systematic read of every fix of his against what it replaced; what it shows applied to the medical part and tested"
+    }
+   ],
+   "recorded_utc": "2026-11-12T14:47Z"
+  },
+  {
+   "turn": "2026-11-12T16:48Z",
+   "lines_of_work": [
+    "bad trips guide"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "UDA root at 841f579, unchanged; suggested-fixes/joel-articles has the same six items, all in docs/suggested-fixes-ledger.md"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "pull request 426 (ours) merged at 15:29 UTC; no new pull requests, issues, comments or reviews since"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no edits by others to this lane's handoff note, questions page or state since this account's push of 15:29 UTC"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "his round-37 export of 16:47:47 UTC: TEACH-CHEST revised with his version and twelve checks; SS-THESE 'a', 'no need to ask me for obvious corrections'; and his message: 'so we need to figure out how you can understand when things don't make sense, when they're indefinite in reference, when they're logically overlapping and redundant, when they are compressed, and most of all, when the payoff comes too late'"
+    }
+   ],
+   "items": [
+    {
+     "item": "his round-37 answers and message",
+     "outcome": "his Chest Pain version in whole; a read for the five problems he named, measured on his own fixes before it is used"
+    }
+   ],
+   "recorded_utc": "2026-11-12T16:49Z"
+  },
+  {
+   "turn": "2026-11-12T18:20Z",
+   "lines_of_work": [
+    "bad trips guide"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "UDA root at 841f579, unchanged; suggested-fixes/joel-articles has the same six items, all in docs/suggested-fixes-ledger.md"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "pull request 427 (ours) merged at 17:34 UTC; pull request 428 (the neuro de-armoring lane, merged at 18:40 UTC) touches no file of this lane; no new issues, comments or reviews"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no edits by others to this lane's handoff note, questions page or state since this account's push of 17:34 UTC"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "his round-38 export of 18:19:16 UTC: TEACH-BRAIN revised with his version and six checks; and his message: 'some really obvious problems again'"
+    }
+   ],
+   "items": [
+    {
+     "item": "his round-38 answer and message",
+     "outcome": "his brain checks in whole with three obvious corrections; what he found I missed made two linter checks (O72, O73) and lesson bad-trips-2026-11-12i; carried to three paragraphs, all Human and in"
+    }
+   ],
+   "recorded_utc": "2026-11-12T18:48Z"
+  },
+  {
+   "turn": "2026-11-12T19:44Z",
+   "lines_of_work": [
+    "bad trips guide"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "UDA root at 841f579, unchanged; suggested-fixes/joel-articles has the same six items, all in docs/suggested-fixes-ledger.md"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "pull request 429 (ours) merged; pull request 430 (the neuro de-armoring lane) merged at 19:44 UTC and touches no file of this lane; no new issues, comments or reviews"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no edits by others to this lane's handoff note, questions page or state since this account's push of turn 39"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "his message of 19:44 UTC: his Active Seizure and My Brain Feels Damaged fixes (5e41c575, a0b8ac56), 'we need to have a better sense check in general', 'continue'"
+    }
+   ],
+   "items": [
+    {
+     "item": "his fixes of 19:44 UTC and his ask for a better sense check",
+     "outcome": "both in whole with the Call medics seizure line made to match (shown to him); the fit read built, scored and made a receipt gate (lesson 12j); the rescue medicine carried and in (Human Written in its section); the evidence paragraph read AI twice and is round 39's card, TEACH-EVID"
+    }
+   ],
+   "recorded_utc": "2026-11-12T20:29Z"
+  },
+  {
+   "turn": "2026-11-12T22:34Z",
+   "lines_of_work": [
+    "bad trips guide"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "UDA root at 841f579, unchanged; suggested-fixes/joel-articles has the same six items, all in docs/suggested-fixes-ledger.md"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "pull request 431 (ours) merged at 20:33 UTC; pull request 432 (the neuro de-armoring lane, merged at 21:49 UTC) touches no file of this lane; no new issues, comments or reviews"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no edits by others to this lane's handoff note, questions page or state since this account's push of turn 40"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "his round-39 export of 22:34:10 UTC (TEACH-EVID revised, fourteen checks) and his message: the seizure threshold and the 5 minutes, the universal sense check, the forehead, the Human High rule, his rescue medicine fix"
+    }
+   ],
+   "items": [
+    {
+     "item": "his round-39 answer and message",
+     "outcome": "his evidence paragraph, humic acid pointer and rescue fix in whole; the fit read made universal (lesson 12k) and the Human High gate built (lesson 12l, apply_gate.py); his seizure points in, the paragraph Human High by itself and the call list on his exception, its next try after the tell panel"
+    }
+   ],
+   "recorded_utc": "2026-11-12T23:05Z"
+  },
+  {
+   "turn": "2026-11-13T14:15Z",
+   "lines_of_work": [
+    "bad trips guide"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "UDA root at eac15d4: AGENTS.md unchanged, the two new commits are the AI tool radar and Greptile credits, unrelated; suggested-fixes/joel-articles has the same six items, all in docs/suggested-fixes-ledger.md"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "pull request 433 (ours) merged at 23:09 UTC; pull request 434 (the neuro de-armoring lane, open) touches no file of this lane; no new issues, comments or reviews"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no edits by others to this lane's handoff note, questions page or state since this account's push of turn 41"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "his message of 14:15 UTC: his call list fix (a53907ff), the version he wants (f6b4e35a), 'continue', and his DMSO text from his neuro de-armoring research; his computer (his Pangram history, the laptop note) could not be reached: the link failed to connect (502), to be tried again next turn"
+    }
+   ],
+   "items": [
+    {
+     "item": "his message of 14:15 UTC",
+     "outcome": "his call list fix and the same rule on the support list in, O74 and lesson 12m; his DMSO text in, whole; f6b4e35a waits on its text; Chest Pain's evidence paragraph read three ways, not checked"
+    }
+   ],
+   "recorded_utc": "2026-11-13T14:29Z"
+  },
+  {
+   "turn": "2026-11-13T14:56Z",
+   "lines_of_work": [
+    "bad trips guide"
+   ],
+   "places": [
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "pull request 435 (ours, hold label, clean) and 434 (the neuro de-armoring lane: its DMSO card with the 1967 paper and lesson neuro-2026-11-13a, a new lesson file; no file of this lane) open; no new issues, comments or reviews since 14:00 UTC"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no edits by others to this lane's handoff note, questions page or state since turn 42's push (the branch's last commits are this lane's)"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "his messages of 14:56 UTC ('yes i want the dmso fixes you mentioned', 'continue') and 14:59 UTC (Lu & Mattson said in two places: 'maybe we can merge that?'); the link to his computer came back during the turn (his Pangram history and the laptop note readable); a web fetch's permission prompt went unanswered"
+    },
+    {
+     "place": "uda-lane",
+     "status": "unreachable",
+     "failed": "this session could not read universal-dev-architecture's suggested-fixes/joel-articles/: GitHub's API answered that the repository is not enabled for this session (HTTP 403), adding it was refused by this session's permission check, and the folder's web page refused the fetch (robots); the root AGENTS.md was read through a web fetch, as a summary",
+     "retry": "next turn, from a session that can add the repository"
+    }
+   ],
+   "items": [
+    {
+     "item": "his messages of 14:56 and 14:59 UTC",
+     "outcome": "his call list f6b4e35a in, whole (read from his history), the paragraph it now says cut; stem cell transplants; Hanslick and the Lu & Mattson merge read three ways and checked (humanize/h53-20261113/)"
+    },
+    {
+     "item": "neuro-2026-11-13a (pull request 434): the 1967 paper had anxiety patients",
+     "outcome": "his DMSO text here says it hasn't been tested for anxiety; offered to him as an optional point, the neuro lane's card SC-DMSOb asks the same of the neuro guide"
+    }
+   ],
+   "recorded_utc": "2026-11-13T15:36Z"
+  },
+  {
+   "turn": "2026-11-14T22:08Z",
+   "lines_of_work": [
+    "bad trips guide"
+   ],
+   "places": [
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "pull request 435 (ours) merged by Joel at 22:06 UTC, and 434 (the neuro de-armoring lane) by the lane auto-merge at 16:05 UTC on 2026-11-13; main brings the neuro lane's lesson neuro-2026-11-13b (read the cards page's database every turn); no new issues, comments or reviews"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no edits by others to this lane's handoff note, questions page or state since turn 43's push; round 39's cards page database holds only TEACH-EVID (revise, 2026-11-12 22:34 UTC), already in"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "his message of 2026-11-14 22:08 UTC: he merged; the 1967 anxiety point yes; no cards and quit working; mango leaf tea and creatine to add, both now in his Metta NMT sniffer"
+    },
+    {
+     "place": "uda-lane",
+     "status": "unreachable",
+     "failed": "the live universal-dev-architecture was out of reach: GitHub's API is not enabled for it in this session, and the web fetch of its root needed an approval nobody answered; the laptop's clone was read instead (its AGENTS.md and LESSON-INDEX.md, older than the live root seen on 2026-11-13), not its suggested-fixes lane",
+     "retry": "next turn, from a session that can add the repository or with the approval answered"
+    }
+   ],
+   "items": [
+    {
+     "item": "his message of 22:08 UTC",
+     "outcome": "the 1967 sentence, mango leaf tea and creatine drafted and read three ways, then checked; lessons bad-trips-2026-11-14a (no hold for a refused merge) and 14b (a named boundary, cards for spent tries) enforced in lane_push.py"
+    },
+    {
+     "item": "neuro-2026-11-13b (main): read the cards page's database every turn",
+     "outcome": "adopted: round 39's database read this turn, nothing new in it"
+    }
+   ],
+   "recorded_utc": "2026-11-14T22:18Z"
+  },
+  {
+   "turn": "2026-11-19T00:52Z",
+   "lines_of_work": [
+    "bad trips guide"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "read from a read-only git clone of the live default branch (HEAD 536e6b20, 2026-11-13 17:37 UTC) through the session's git proxy: suggested-fixes/joel-articles/ holds six items, all six already in docs/suggested-fixes-ledger.md, nothing new; its root AGENTS.md and LESSON-INDEX.md loaded for the turn's bootstrap (the GitHub API is still not enabled for it in this session)"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "no new issues, comments or reviews since turn 44's push; the one open pull request changed since then, 438, is the Inner Child lane's; this lane's 437 merged by the lane auto-merge at 22:44 UTC on 2026-11-14; main brought the Inner Child lane's turns 130 and 131 (the sidebar-headings tool, lesson inner-child-2026-11-17e), already merged into this branch"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no edits by others to this lane's handoff note, questions page or state since turn 44's push"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "his round-40 export of 2026-11-19 00:52 UTC: TEACH-CHEST-EVID revised, his version and six checks in its comment, and his question whether DMSO slowing clotting contradicts the warning cut elsewhere"
+    }
+   ],
+   "items": [
+    {
+     "item": "his round-40 export (00:52 UTC)",
+     "outcome": "his version in whole (e8688033, Human High 88); what it teaches is lesson bad-trips-2026-11-19a with the linter's O75 and O76, carried this turn to the cyproheptadine step, the MDMA studies and B106"
+    },
+    {
+     "item": "his clotting question",
+     "outcome": "answered in this turn's reply: the warning round 2's card SF-8 cut (his message of 2026-11-03 22:04 UTC) rested on the same two lab studies his Chest Pain paragraph now links, and his bleed lines in B106 (K4) keep the caution; no change needed"
+    },
+    {
+     "item": "inner-child-2026-11-17e (main): rename a heading only when the sidebar's cut hides its point",
+     "outcome": "noted for this guide's new h3 headings (creatine, mango leaf tea), whose cuts keep their subject; no rename"
+    }
+   ],
+   "recorded_utc": "2026-11-19T01:18Z"
+  },
+  {
+   "turn": "2026-11-19T15:15Z",
+   "lines_of_work": [
+    "bad trips guide"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "read from a read-only git fetch of the live default branch (3d79cc8, 2026-11-19 11:59 UTC): its root AGENTS.md and LESSON-INDEX.md loaded; new since turn 45, patterns/fresh-session-advice.md (tell him when a fresh session would save tokens), applied in this turn's answer; suggested-fixes/joel-articles/ still holds the six items the ledger lists, nothing new"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "this lane's pull request 441 merged by the lane auto-merge; no new issues, comments or reviews since turn 45's push"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no edits by others to this lane's handoff note, questions page or state since turn 45's push"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "his round-41 export of 2026-11-19 15:15 UTC: B106-ORDER approved, TEACH-CYP and TEACH-MDMA revised with his versions, his checks and comments; his message: 'it seems like i keep giving you the same lessons each time ... but you keep failing to apply those lessons. why?'"
+    }
+   ],
+   "items": [
+    {
+     "item": "his round-41 export",
+     "outcome": "B106-ORDER in; his two versions in whole, links on his words; his MDMA medical question answered and the two points that don't hold checked against sources, on round 42's card"
+    },
+    {
+     "item": "his question why I keep failing to apply his lessons",
+     "outcome": "answered with the cause from this round's own records, lesson bad-trips-2026-11-19b, and enforcement in the read against his fixes and the ledger"
+    },
+    {
+     "item": "UDA patterns/fresh-session-advice.md (new)",
+     "outcome": "adopted: this turn's answer gives the estimated level and the resume line"
+    }
+   ],
+   "recorded_utc": "2026-11-19T15:18Z"
+  },
+  {
+   "turn": "2026-11-19T15:41Z",
+   "lines_of_work": [
+    "bad trips guide"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "live default branch fetched read-only (3d79cc8, unchanged since 15:15 UTC); suggested-fixes lane unchanged, nothing new"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "this lane's pull request 442 merged by the lane auto-merge; no new issues, comments or reviews"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no edits by others to this lane's handoff note, questions page or state since turn 46's push"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "his message of 2026-11-19 15:41 UTC: his wife's seizures came with low potassium, so it could be any of the electrolytes, starting with low magnesium in his experience; and what about hypertonic fluids, unless they can't keep it down or swallow"
+    }
+   ],
+   "items": [
+    {
+     "item": "his message of 15:41 UTC",
+     "outcome": "answered with sources; round 42's card updated: something very salty while waiting for medics if alert and not vomiting, magnesium with sodium and potassium in the seizure line, checked Human High 157 (597c5351)"
+    }
+   ],
+   "recorded_utc": "2026-11-19T15:46Z"
+  },
+  {
+   "turn": "2026-11-19T16:06Z",
+   "lines_of_work": [
+    "bad trips guide"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "live default branch fetched read-only (3d79cc8, unchanged); suggested-fixes lane unchanged"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "this lane's pull request 443 merged by the lane auto-merge; no new issues, comments or reviews"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no edits by others to this lane's handoff note, questions page or state"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "his round-42 export of 2026-11-19 16:06 UTC: MED-MDMA approved; 'continue in a fresh chat then'"
+    }
+   ],
+   "items": [
+    {
+     "item": "his round-42 export",
+     "outcome": "MED-MDMA in (review/r42/apply_r42.py); no card open; handoff updated for the fresh chat"
+    }
+   ],
+   "recorded_utc": "2026-11-19T16:07Z"
+  },
+  {
+   "turn": "2026-11-19T16:09Z",
+   "lines_of_work": [
+    "bad trips guide"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "live default branch read-only clone 3d79cc8 (unchanged since turn 48); suggested-fixes lane: six items, all in the ledger"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "this lane's pull request 444 merged by the lane auto-merge at 16:09 UTC; no new issues, comments or reviews since 16:00 UTC"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no edits by others to this lane's handoff note, questions page or state (main and the lane branch hold the same tree)"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "no queued notifications; his message of 16:09 UTC: continue from the handoff's next step"
+    }
+   ],
+   "items": [
+    {
+     "item": "his message of 16:09 UTC (fresh chat)",
+     "outcome": "resumed from HANDOFF START HERE: the Medium windows of the first batch, the lesson-19b way"
+    }
+   ],
+   "recorded_utc": "2026-11-19T16:14Z"
+  },
+  {
+   "turn": "2026-11-20T00:01Z",
+   "lines_of_work": [
+    "bad trips guide"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "live default branch read-only clone 3d79cc8 (unchanged since turn 48); suggested-fixes lane: six items, all in the ledger"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "this lane's pull request 447 merged by the lane auto-merge at 17:07 UTC; the neuro de-armoring lane's 445 and 446 merged (not for this lane); no new issues, comments or reviews since 16:00 UTC"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no edits by others to this lane's handoff note, questions page or state (main holds only this lane's merge since turn 49)"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "no queued notifications; his round-43 export of 2026-11-20 00:01 UTC (both cards revise, with his versions and Pangram links) and his message: keep 'Sensitivity varies.' with a reason to try less at first; niacin's liver risk is extended-release (or regular niacin spread through the day), not niacin in general"
+    }
+   ],
+   "items": [
+    {
+     "item": "his round-43 export and message of 00:01 UTC",
+     "outcome": "this turn: his two versions in whole, 'Sensitivity varies.' back with 'try less at first', niacin's liver risk tied to extended-release, then his P5 and the next step"
+    }
+   ],
+   "recorded_utc": "2026-11-20T00:06Z"
+  },
+  {
+   "turn": "2026-11-20T13:53Z",
+   "lines_of_work": [
+    "bad trips guide"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "live default branch 3d79cc8 (unchanged; read-only clone); suggested-fixes lane: six items, all in the ledger"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "this lane's pull request 448 merged into main at 00:46 UTC (lane_push --merge); no new issues, pull requests, comments or reviews since 00:40 UTC"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no edits by others to this lane's handoff note, questions page or state since 448"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "no queued notifications; his round-44 export of 2026-11-20 13:53:52 UTC: all five cards revised, with his versions and his step-by-step Pangram checks"
+    }
+   ],
+   "items": [
+    {
+     "item": "his round-44 export of 13:53 UTC",
+     "outcome": "this turn: his five versions in whole, his checks read back with his teaching steps, what they teach carried; then the AI windows"
+    }
+   ],
+   "recorded_utc": "2026-11-20T13:55Z"
+  },
+  {
+   "turn": "2026-11-20T16:48Z",
+   "lines_of_work": [
+    "bad trips guide"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "live default branch 3d79cc8 (unchanged since turn 50; read-only clone); suggested-fixes lane: six items, all in the ledger"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "this lane's pull request 449 merged into main at 14:36 UTC; no new issues, pull requests, comments or reviews since 13:50 UTC"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no edits by others to this lane's handoff note, questions page or state since 449 (main holds only this lane's merge)"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "no queued notifications; his message of 16:48 UTC: continue from the handoff's next step"
+    }
+   ],
+   "items": [
+    {
+     "item": "his message of 16:48 UTC",
+     "outcome": "this turn: try 5 (and 6) on the demons, harm and touch paragraphs from each near miss, then round 45 for what stays below Human High, then the other AI units"
+    }
+   ],
+   "recorded_utc": "2026-11-20T16:51Z"
+  },
+  {
+   "turn": "2026-11-20T18:20Z",
+   "lines_of_work": [
+    "bad trips guide"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "live default branch 3d79cc8 (unchanged; read-only clone, re-fetched this turn); suggested-fixes lane: six items, all in the ledger"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "this lane's pull requests 450 and 451 merged by the lane auto-merge at 17:20 and 17:24 UTC; the neuro lane's 452 merged at 17:27 UTC (the contradictions check made standard for every article, gate neuro-2026-11-20a, merged in here); no new issues, comments or reviews since 17:20 UTC"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no edits by others to this lane's handoff note, questions page or state since 451"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "no queued notifications; his round-45 export of 2026-11-20 18:20:10 UTC: TEACH-HARM-GOD and TEACH-TOUCH revised with his versions and checks, DEMONS-HOOKS answered (B checked by him, his version with 'whatever help they need'; raise the try limit to 10 when on the right track)"
+    }
+   ],
+   "items": [
+    {
+     "item": "his round-45 export of 18:20 UTC",
+     "outcome": "this turn: his three versions in whole, his checks read back; his question on the harm section's p2 answered; the try limit to 10 for a lineage on the right track, in the shared budget rule and the ledger"
+    },
+    {
+     "item": "the neuro lane's gate neuro-2026-11-20a (the contradictions check, every article)",
+     "outcome": "adopted for this lane: the guide's check queued as a next step (once a full draft exists, and after a big change)"
+    }
+   ],
+   "recorded_utc": "2026-11-20T18:22Z"
+  },
+  {
+   "turn": "2026-11-20T22:40Z",
+   "lines_of_work": [
+    "bad trips guide"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "live default branch 3d79cc8 (unchanged; read-only clone, re-fetched); suggested-fixes lane: six items, all in the ledger"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "this lane's pull request 454 merged at 18:43 UTC; the inner child lane's 455 and 456 merged (section links catalogued for every lane, gates inner-child-2026-11-20a to i; merged in here); no new issues, comments or reviews on this lane's pull requests"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no edits by others to this lane's handoff note, questions page or state since 454"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "no queued notifications; his message of 22:40 UTC: C1 a, C2 a, C3 a, C4 a; short tags on headings yes; his Systema video; and a brainstorm: a system for his whole Substack (canonical links for things he mentions, links between articles, shared snippets stored once)"
+    }
+   ],
+   "items": [
+    {
+     "item": "his message of 22:40 UTC",
+     "outcome": "this turn: C1 to C4 in, each changed paragraph checked by itself; the Systema video linked on his breathing line; the heading tags as round 46's card next; the brainstorm as a proposal in docs/ with his decisions to make"
+    },
+    {
+     "item": "the inner child lane's gates inner-child-2026-11-20c, g, h (section links, catalogued; a repeat can become a link)",
+     "outcome": "adopted for this guide: its section mentions get catalogued links when its post is updated (the post waits until the work is finished, E323); the brainstorm builds on the catalog for the whole Substack"
+    },
+    {
+     "item": "main's merge of pull request 457 (the inner child lane's turn 134: lessons inner-child-2026-11-20j to l)",
+     "outcome": "merged in before the push (23:00 UTC); 20j (AP title case for headings, tools/humanization/heading_case.py) and 20k (words said, or a word used as a word, in quote marks, in headings too) apply to round 46's heading tags; 20l is the inner child guide's own"
+    }
+   ],
+   "recorded_utc": "2026-11-20T22:42Z"
+  },
+  {
+   "turn": "2026-11-20T23:40Z",
+   "lines_of_work": [
+    "bad trips guide",
+    "the Substack-wide system (handed to its own lane)"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "live default branch 3d79cc8 (unchanged since the last turn; read-only clone, re-fetched); suggested-fixes lane: six items, all in the ledger"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "this lane's pull requests 458 and 459 (turn 54) merged at 23:06 and 23:09 UTC; the inner child lane's 460 and 461 merged (lessons inner-child-2026-11-20m to q; merged in here); no new issues, comments or reviews on this lane's pull requests"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no edits by others to this lane's handoff note, questions page or state since 459"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "no queued notifications; his message of 23:40 UTC: S1 b (the registry in Git, no Obsidian), S2 (Substack's includes aren't synced; Notes are, linked or embedded), S3 yes, S4 yes plus a conflict checker across posts, a question when he says something new on a covered topic, and a copy that can move to a new Substack or his VPS; hand the system to its own lane and carry on with bad trips"
+    }
+   ],
+   "items": [
+    {
+     "item": "his message of 23:40 UTC",
+     "outcome": "this turn: his answers on the proposal and this lane's questions page; the system handed to its own lane (docs/proposals/2026-11-20-substack-system-HANDOFF.md, his words whole, its first steps and questions); bad trips carries on: round 46 (the heading tags) out, then the ozone story's next try"
+    },
+    {
+     "item": "the inner child lane's lessons inner-child-2026-11-20m to q",
+     "outcome": "read; m, n and q are the inner child guide's own; p (the author's view before a model guesses) applied: round 46's card asks what his humic acid, coffee cherry and creatine notes cite before those three headings are tagged"
+    },
+    {
+     "item": "main's merge of pull request 462 (the inner child lane: tools/humanization/undefined_parts.py, lesson inner-child-2026-11-20r)",
+     "outcome": "merged in at 23:50 UTC; read: a tool that lists a guide's parts and roles with no text of their own before any reorganization; nothing in this turn's work reorganizes the bad trips guide"
+    },
+    {
+     "item": "his round-46 export of 2026-11-20 23:59 UTC (\"almost all these are my exp plus experiences of friends (except creatien for now just me)\")",
+     "outcome": "this turn: recorded (review/r46/ANSWERS-R46-20261120-2359.json; his questions page); the tags [Tried by Me and Friends], [Tried by Me] (creatine), [Some Human Studies] (DMSO), [Standard for Poisoning] (activated charcoal), each in with its heading's check: next turn, the eight headings whose paragraphs already read Human High first"
+    }
+   ],
+   "recorded_utc": "2026-11-20T23:50Z"
+  },
+  {
+   "turn": "2026-11-21T01:06Z",
+   "lines_of_work": [
+    "bad trips guide"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "live default branch 3d79cc8 (unchanged; read-only clone, re-fetched); suggested-fixes lane: six items, all in the ledger"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "this lane's pull request 464 merged at 00:04 UTC; no other pull requests since; no new issues, comments or reviews"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no edits by others to this lane's handoff note, questions page or state since 464"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "no queued notifications; his message of 01:06 UTC: continue, and make sure the headings fit the contents (ToC) as the inner child lane worked out for that guide"
+    }
+   ],
+   "items": [
+    {
+     "item": "his message of 01:06 UTC",
+     "outcome": "this turn: the contents measured in the sidebar (46 of 62 headings cut); Fable's names from the headings brief, read by fresh readers against 32 situations, my pick best (28 and 27 of 32 first picks right, against 23 and 24); round 47 out, a pick per heading; his evidence tags placed under the remedy headings, since in a heading they would be cut; the tags go in with his picks"
+    }
+   ],
+   "recorded_utc": "2026-11-21T01:07Z"
+  },
+  {
+   "turn": "2026-11-21T13:04Z",
+   "lines_of_work": [
+    "bad trips guide"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "live default branch 3d79cc8 (unchanged; read-only clone, re-fetched); suggested-fixes lane: six items, all in the ledger"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "this lane's pull request 465 merged; the inner child lane's 466 and 467 merged (lessons inner-child-2026-11-21a to c, contents order; merged in here); no new issues, comments or reviews on this lane's pull requests"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no edits by others to this lane's handoff note, questions page or state since 465"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "no queued notifications; his message of 13:04 UTC: done (round 47), learn lessons: why two serotonin syndrome headings in a row; continue"
+    }
+   ],
+   "items": [
+    {
+     "item": "his message of 13:04 UTC",
+     "outcome": "this turn: his round-47 picks were saved only in his browser (the page declared no database), so the page now declares one and sends his picks when he opens it; lessons: a heading never repeats the one before it or its parent, and every heading a contents reader marks as hard gets a fate before the page goes out (tools/humanization/toc_check.py, the headings brief, docs/FIXING-AN-ARTICLE.md); the serotonin headings fixed in my pick. Then the serotonin steps (B136): the first try read AI in every pair (humanize/h65-20261121/RESULTS.md); the second, in his Active Seizure list's form, is ready, its checks waiting on the browser pane, which went offline mid-turn."
+    }
+   ],
+   "recorded_utc": "2026-11-21T13:06Z"
+  },
+  {
+   "turn": "2026-11-21T14:28Z",
+   "lines_of_work": [
+    "bad trips guide"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "live default branch 3d79cc8 (unchanged; read-only clone re-fetched); suggested-fixes lane: the same six items, all in the ledger"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "this lane's pull request 471 merged by the workflow; open: the inner child lane's 472 (blank lines with heading formatting) and older ones; no new issues, comments or reviews on this lane's pull requests"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no edits by others to this lane's handoff note, questions page or state since 471"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "no queued notifications; his round-47 export of 14:28 UTC (B65: remove the Inner Signal section for now, the app isn't ready; 11 headings in his own words, B338 Fable's, the rest my pick) and \"continue\""
+    }
+   ],
+   "items": [
+    {
+     "item": "his round-47 export of 14:28 UTC",
+     "outcome": "this turn: his picks worked out again from the columns he saw (the same as the page saved) and checked: two fresh readers (26 and 26 of 32), every flag with a fate, R47-1 (Coffee Cherry cut in the sidebar) and R47-2 (\"Who to Contact, and When\") to him; his headings in, the Inner Signal section out with its text kept, eight evidence tags in at Human High, the section links catalogued; the serotonin steps read AI in every wording of mine, so round 48 has their teaching card (https://claude.ai/artifact/Q8qeTNfRLC9cenyjzdUZLA)"
+    }
+   ],
+   "recorded_utc": "2026-11-21T14:30Z"
+  },
+  {
+   "turn": "2026-11-21T15:57Z",
+   "lines_of_work": [
+    "bad trips guide"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "live default branch 3d79cc8 (unchanged; read-only clone re-fetched); suggested-fixes lane: the same six items, all in the ledger"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "this lane's pull request 473 merged by the workflow; the inner child lane's 472 merged; no new issues, comments or reviews on this lane's pull requests"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no edits by others to this lane's handoff note, questions page or state since 473"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "no queued notifications; his round-48 export of 15:57 UTC (TEACH-SS-STEPS: his version of steps 5 and 6, Human High, and his teaching: fix for sense first, Pangram after; quizzes for me without Pangram) and \"r47-1a r47-2a\""
+    }
+   ],
+   "items": [
+    {
+     "item": "his round-48 export and message of 15:57 UTC",
+     "outcome": "this turn: his steps 5 and 6 in whole (one obvious correction), his R47-1a and R47-2a headings with their links; his approach recorded as a lesson for every lane; his ways carried to the other serotonin steps, read for sense first and checked after; the quiz he suggested"
+    }
+   ],
+   "recorded_utc": "2026-11-21T15:58Z"
+  },
+  {
+   "turn": "2026-11-22T17:21Z",
+   "lines_of_work": [
+    "bad trips guide"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "live default branch 3d79cc8 (unchanged; read-only clone re-fetched); suggested-fixes lane: the same six items, all in the ledger"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "this lane's pull requests 474 and 475 merged (474 by lane_push --merge, 475 by the workflow); no new issues, comments or reviews on this lane's pull requests since"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no edits by others to this lane's handoff note, questions page or state since 475"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "no queued notifications; his round-49 export of 17:21 UTC (QUIZ-1 scored in his comment, with his fixes of steps 1, 3, 4 and 7 and their checks; SS-STEP8 revised with a topical magnesium line; SS-ASKED answered a to e, with a nursing article on serotonin syndrome and low magnesium attached; BOLD-56 answered)"
+    }
+   ],
+   "items": [
+    {
+     "item": "his round-49 export and attachment of 17:21 UTC",
+     "outcome": "this turn: his steps 1, 3, 4 and 7 in from his checks, step 8 his way, his answers on cyproheptadine, the drink, niacin, magnesium and Syrian rue oil carried into the steps; the quiz scored and its lessons recorded for every lane; the guide read for advice that doesn't make sense, as he asked"
+    }
+   ],
+   "recorded_utc": "2026-11-22T17:24Z"
   }
  ]
 }

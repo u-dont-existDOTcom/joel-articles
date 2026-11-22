@@ -1100,6 +1100,551 @@
     }
    ],
    "recorded_utc": "2026-11-08T17:15Z"
+  },
+  {
+   "turn": "2026-11-11T21:01Z",
+   "lines_of_work": [
+    "neuro de-armoring",
+    "hypnosis guide",
+    "community article"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "AGENTS.md 7ef0bfc and LESSON-INDEX ba787e0 unchanged since 2026-11-08 17:09; UDA main 841f579; the lane's six suggested-fix items, all in the ledger"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "this session's container was renewed: a fresh clone, the lane branch put on main's tip fb1c649d5 (this lane's 405 merged on 2026-11-08); main brought the bad trips lessons of 11-08 to 11-11 (among them 08e his beliefs in every section they bear on, 09a do your best first, 09f show each option as it would look and how sure, 09i generic model advice goes) and suggestion_review 1.11 (the undo button); open: 418 (bad trips), 401 (romance), 309 (the separate DeltaFosB lane, unchanged); no new issues or review comments"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "his answers on Neuro De-Armoring Cards, 8 November (5) (x1108e, exported 2026-11-11 21:01 UTC): SC-106c revise, with a comment of his (the potassium-to-sodium ratio and brain function, paleo potassium, confounding) and GPT's research on diet trials for PTSD; nobody else edited this lane's files"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "no queued notifications"
+    }
+   ],
+   "items": [
+    {
+     "item": "his SC-106c comment",
+     "outcome": "check his points and GPT's against their sources; put what holds and his view in SC-106d with each option as it would read; the PTSD diet trials go to the coherence read"
+    }
+   ],
+   "recorded_utc": "2026-11-11T21:04Z"
+  },
+  {
+   "turn": "2026-11-11T22:07Z",
+   "lines_of_work": [
+    "neuro de-armoring",
+    "hypnosis guide",
+    "community article"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "AGENTS.md 7ef0bfc and LESSON-INDEX ba787e0 unchanged; the lane's six suggested-fix items, all in the ledger"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "main at 373ee5274 (bad trips 420; this lane's 419 merged); no new issues or review comments; 309 still open"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "his message of 22:07 UTC: my lesson 11a is wrong (a claim he makes as science rests on science, never recast as his opinion; a fallen mechanism means rethinking the card); my potassium wording undersold it and my research was thin; GPT's research on potassium and mood, cognition and firsthand reports; NHANES low intakes; two Reddit threads; nobody else edited this lane's files"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "no queued notifications"
+    }
+   ],
+   "items": [
+    {
+     "item": "his message of 22:07 UTC",
+     "outcome": "correct lesson 11a; check GPT's sources and his NHANES figure and threads; rethink the potassium card on the science (SC-106e)"
+    }
+   ],
+   "recorded_utc": "2026-11-11T22:09Z"
+  },
+  {
+   "turn": "2026-11-11T22:44Z",
+   "lines_of_work": [
+    "neuro de-armoring",
+    "hypnosis guide",
+    "community article"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "AGENTS.md 7ef0bfc and LESSON-INDEX ba787e0 unchanged; the lane's six suggested-fix items, all in the ledger"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "main at 2dd64e4f3 (this lane's 421 merged); no new issues or review comments; 309 still open"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "his message of 22:44 UTC: the paragraph of SC-106e looks good; he wants his two Reddit links in it; he says the cloud browser could have opened them"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "no queued notifications"
+    }
+   ],
+   "items": [
+    {
+     "item": "his message of 22:44 UTC",
+     "outcome": "apply SC-106e as he approved it in chat, with his two Reddit links as firsthand reports in his description's words (Reddit is blocked to every tool here, the browser included, so they aren't read); fidelity, comparative read, records"
+    }
+   ],
+   "recorded_utc": "2026-11-11T22:45Z"
+  },
+  {
+   "turn": "2026-11-11T22:53Z",
+   "lines_of_work": [
+    "neuro de-armoring",
+    "hypnosis guide",
+    "community article"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "AGENTS.md 7ef0bfc and LESSON-INDEX ba787e0 unchanged; the lane's six suggested-fix items, all in the ledger"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "main at 7531cd1f7 (this lane's 422 merged); no new issues or review comments; 309 still open"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "his message of 22:53 UTC: GPT's review of ketogenic diets and ketone salts for PTSD; 'ketones do seem to help ppl with ptsd idk why youre research is always wrong'; he asks why I can't see the Reddit pages he can see in the cloud browser"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "no queued notifications"
+    }
+   ],
+   "items": [
+    {
+     "item": "his message of 22:53 UTC",
+     "outcome": "check GPT's ketone review against its sources; check the article's ketone claims against it and put what changes on a card; say plainly why Reddit stays closed to me and ask for the posts as text"
+    }
+   ],
+   "recorded_utc": "2026-11-11T22:54Z"
+  },
+  {
+   "turn": "2026-11-12T18:23Z",
+   "lines_of_work": [
+    "neuro de-armoring",
+    "hypnosis guide",
+    "community article"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "AGENTS.md 7ef0bfc and LESSON-INDEX ba787e0 unchanged; the lane's six suggested-fix items, all in the ledger"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "main at 20749c0d6 (this lane's 423 merged; bad-trips 424 to 427: the sixth fix for every lane and gate bad-trips-2026-11-12g, the read against his fixes before any check of a text of mine); no new issues or comments; 309 still open"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no edits by others to this lane's notes; his answers on x1111c (attached JSON, exported 2026-11-12 18:23 UTC): SC-48b to revise, his version adds forum reviews of BHB salts (a Reddit link on brain injury repair), the salts working for rats with trauma, and the salts not nearly as proven in people as the keto diet (Engelhardt, et al 2026)"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "no queued notifications"
+    }
+   ],
+   "items": [
+    {
+     "item": "his answers on x1111c (SC-48b, his version)",
+     "outcome": "check his added claims (the rat studies and what they gave; what Engelhardt 2026 says of salts against the diet in people) against their sources; apply his version by script with the link and typo fixes, a card only for a point that doesn't hold"
+    },
+    {
+     "item": "main's gate bad-trips-2026-11-12g (the read against his fixes)",
+     "outcome": "adopted: any new text of mine gets the fresh read against his fixes before a check"
+    }
+   ],
+   "recorded_utc": "2026-11-12T18:25Z"
+  },
+  {
+   "turn": "2026-11-12T19:32Z",
+   "lines_of_work": [
+    "neuro de-armoring",
+    "hypnosis guide",
+    "community article"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "AGENTS.md 7ef0bfc and LESSON-INDEX ba787e0 unchanged; the lane's six suggested-fix items, all in the ledger"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "main at fb89a3bca (this lane's 428 merged; bad-trips 429: linter rules O72 and O73, the point-first fix extended); no new issues or comments; 309 still open"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no edits by others to this lane's notes; his answers on x1112a (exported 2026-11-12 19:32 UTC): SC-48c approved, no comment"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "no queued notifications"
+    }
+   ],
+   "items": [
+    {
+     "item": "his answers on x1112a (SC-48c approved)",
+     "outcome": "apply it by script, my comparative read and the gates; then the next step, the read of the whole protocol, starting with the ketone strategies"
+    }
+   ],
+   "recorded_utc": "2026-11-12T19:33Z"
+  },
+  {
+   "turn": "2026-11-12T21:37Z",
+   "lines_of_work": [
+    "neuro de-armoring",
+    "hypnosis guide",
+    "community article"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "AGENTS.md 7ef0bfc and LESSON-INDEX ba787e0 unchanged; the lane's six suggested-fix items, all in the ledger"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "main at 1baee2173 (this lane's 430 merged; bad-trips 431: gate bad-trips-2026-11-12j, the fit read, required in receipts made from 2026-11-13); no new issues or comments; 309 still open"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no edits by others to this lane's notes; his message of 21:37 UTC: what the 'offered split' on SC-48c was, and DMSO to go into the protocol, with a study (PMID 11421595, DMSO suppresses NMDA- and AMPA-mediated excitotoxicity)"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "no queued notifications"
+    }
+   ],
+   "items": [
+    {
+     "item": "his question on the split",
+     "outcome": "explain plainly: the card's advice offered an optional second change, splitting his long sentence at the first although; approving applied only the card's change; ask whether he wants it"
+    },
+    {
+     "item": "DMSO in the protocol",
+     "outcome": "check his study and research DMSO wide on both sides (people and animals, route and amount, safety); write the step and put it on a card"
+    },
+    {
+     "item": "main's gate bad-trips-2026-11-12j (the fit read)",
+     "outcome": "adopted from 2026-11-13 for this lane's receipts; its brief is written for the bad-trips guide, so its setting line is adapted to this article's reader"
+    }
+   ],
+   "recorded_utc": "2026-11-12T21:38Z"
+  },
+  {
+   "turn": "2026-11-13T14:05Z",
+   "lines_of_work": [
+    "neuro de-armoring",
+    "hypnosis guide",
+    "community article"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "AGENTS.md 7ef0bfc and LESSON-INDEX ba787e0 unchanged; the lane's six suggested-fix items, all in the ledger (GitHub answered 503 for the first minutes of the turn, then recovered)"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "main at 0dc58c501 (this lane's 432 merged; bad-trips 433: gate bad-trips-2026-11-12l, nothing of mine goes in below Human High checked by itself, apply_gate.py called by every apply script; the fit read made universal, bad-trips-2026-11-12k); no new issues or comments; 309 still open"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no edits by others to this lane's notes; his message of 14:05 UTC: the 1967 paper Ramirez and Luza, DMSO in the treatment of mental patients, as a PDF, with no words"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "no queued notifications"
+    }
+   ],
+   "items": [
+    {
+     "item": "his 1967 DMSO paper",
+     "outcome": "read in full; it gave DMSO to nine people with severe anxiety or OCD, so the DMSO card's 'no trial for anxiety' was wrong: card SC-DMSOb with the study at its strength; lesson neuro-2026-11-13a on searching older names"
+    },
+    {
+     "item": "main's gate bad-trips-2026-11-12l (Human High before a paragraph of mine goes in)",
+     "outcome": "adopted: SC-95 and SC-DMSOb go in only after a Pangram check of each by itself reads Human High; this session's link to his computer is down, so those checks wait for it"
+    },
+    {
+     "item": "main's universal fit read (bad-trips-2026-11-12k)",
+     "outcome": "adopted: used on SC-DMSOb with WHAT IT IS and YOUR MOMENT written for this protocol"
+    }
+   ],
+   "recorded_utc": "2026-11-13T14:18Z"
+  },
+  {
+   "turn": "2026-11-13T15:24Z",
+   "lines_of_work": [
+    "neuro de-armoring",
+    "hypnosis guide",
+    "community article"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "AGENTS.md 7ef0bfc and LESSON-INDEX ba787e0 unchanged; the lane's six suggested-fix items, all in the ledger"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "main at 0dc58c501, unchanged since the last turn; this lane's 434 open, clean, its check passed but not merged by the lane workflow (likely missed during the morning's outage; the next push re-runs it); bad-trips 435 open; no new issues or comments; 309 still open"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no edits by others to this lane's notes; his answers on x1113a (SC-95 revise, his version from 2026-11-12 20:16 UTC that I had not seen; SC-DMSOb revise with his version and a comment to merge duplicated DMSO info); the cards page's stored decisions also hold his SC-DMSO version of 2026-11-13 14:04 UTC, unseen until now; his questions: why I couldn't reach his computer, and why the ketone card came back"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "no queued notifications"
+    }
+   ],
+   "items": [
+    {
+     "item": "his SC-95 answer, made 2026-11-12 20:16 UTC and missed",
+     "outcome": "read from the page's stored decisions; his version with Amazon reports, Parkinson's and Alzheimer's: check the claims and answer his question on repeats with a merge card; lesson: read the stored decisions every turn"
+    },
+    {
+     "item": "his SC-DMSO (14:04) and SC-DMSOb (15:22) versions",
+     "outcome": "merge his two versions as his comment asks, check the new claims (the sheep study, the transplant study, the book, the young-brain harm) and put the merge on a card"
+    },
+    {
+     "item": "his question about his computer",
+     "outcome": "the link works now (device info answered at 15:25 UTC); the last turn's failure was every connector at once, not his setup; no new conversation needed"
+    }
+   ],
+   "recorded_utc": "2026-11-13T15:27Z"
+  },
+  {
+   "turn": "2026-11-14T22:04Z",
+   "lines_of_work": [
+    "neuro de-armoring",
+    "hypnosis guide",
+    "community article"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "AGENTS.md 7ef0bfc and LESSON-INDEX ba787e0 unchanged; the lane's six suggested-fix items, all in the ledger"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "main at cf2cc8809: this lane's 434 merged by the lane workflow at 16:05 yesterday; bad-trips 435 open (its own files, INDEX.json); no new issues or comments"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no edits by others to this lane's notes; his answers on x1113b: SC-95b and SC-54 approved, SC-DMSOc revise (his version adds a clause after the young-mouse study: no proof yet of harm to children, and many use it on their children); the cards page's stored decisions match his file, nothing else new there"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "no queued notifications"
+    }
+   ],
+   "items": [
+    {
+     "item": "SC-95b approved",
+     "outcome": "his version of block 95: apply by script (his own version, outside the Pangram gate)"
+    },
+    {
+     "item": "SC-54 approved",
+     "outcome": "my paragraph: a Pangram check of it by itself, Human High in every window, before it goes in (gate bad-trips-2026-11-12l)"
+    },
+    {
+     "item": "SC-DMSOc revise",
+     "outcome": "his version: apply by script; check his new clause on children against the sources, both sides, and raise what they show"
+    }
+   ],
+   "recorded_utc": "2026-11-14T22:06Z"
+  },
+  {
+   "turn": "2026-11-19T16:17Z",
+   "lines_of_work": [
+    "neuro de-armoring",
+    "hypnosis guide",
+    "community article"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "AGENTS.md unchanged (blob 7ef0bfc); LESSON-INDEX 62d9a9f (was ba787e0): entry 93, advice on starting a fresh session (patterns/fresh-session-advice.md), read; the lane's six suggested-fix items, all in the ledger"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "main at 4eb7e99cb: bad-trips turns 45 to 48 and inner child 439 and 440 merged, inner child 438 open; this lane's 436 merged by the lane workflow on 2026-11-14 at 22:34; no new issues or comments"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no edits by others to this lane's notes; his message: 12a, 13b (his note: he isn't talking about IV use), and 14 with his version of block 54 and his Pangram check of it; the cards page's stored decisions unchanged since 2026-11-14"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "no queued notifications"
+    }
+   ],
+   "items": [
+    {
+     "item": "12a",
+     "outcome": "block 48's last sentence split at his first 'although', by script: his sentence, the text question 12 showed him"
+    },
+    {
+     "item": "13b",
+     "outcome": "his clause on children stays as he wrote it; he means uses other than IV, so question 15 asks whether the sentence should say so"
+    },
+    {
+     "item": "14",
+     "outcome": "his version of block 54 goes in as his, by script, with the links back; his check read back from his history: Human Written, every window High, the SHA-256 his paragraph's"
+    }
+   ],
+   "recorded_utc": "2026-11-19T16:29Z"
+  },
+  {
+   "turn": "2026-11-20T17:05Z",
+   "lines_of_work": [
+    "neuro de-armoring",
+    "hypnosis guide",
+    "community article"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "AGENTS.md 7ef0bfc and LESSON-INDEX 62d9a9f unchanged (main 3d79cc81); the lane's six suggested-fix items, all in the ledger"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "main at 5d00ac6cc: this lane's 445 and 446 merged by the lane workflow yesterday at 16:37 and 16:43; bad-trips 447 to 449 merged; no new issues or comments"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no edits by others to this lane's notes; his answers 15a, 16a, 17 to 23 and his request to make the contradictions check a standard step; the cards page's stored answers unchanged since 2026-11-14"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "no queued notifications"
+    }
+   ],
+   "items": [
+    {
+     "item": "15a 16a 19a 21b",
+     "outcome": "apply by script (the words the questions showed, or the listed order for 16a)"
+    },
+    {
+     "item": "17 20 22a",
+     "outcome": "his words go in where the question pointed, by script"
+    },
+    {
+     "item": "18 23",
+     "outcome": "his new points on iboga (Tabernanthe elliptica) and agmatine with psychedelics: check against sources and forums on both sides, then cards with the text"
+    },
+    {
+     "item": "contradictions check",
+     "outcome": "make it a standard step in joel-articles: rule, tool, lesson, after reading the open pull requests that touch the shared files"
+    }
+   ],
+   "recorded_utc": "2026-11-20T17:07Z"
+  },
+  {
+   "turn": "2026-11-22T17:39Z",
+   "lines_of_work": [
+    "neuro de-armoring",
+    "hypnosis guide",
+    "community article"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "AGENTS.md 7ef0bfc and LESSON-INDEX 62d9a9f unchanged (main 3d79cc81); the lane's six suggested-fix items, all in the ledger"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "main at c506134a8: this lane's 452 merged on 2026-11-20 at 17:27; bad-trips, inner child and the long-articles contents lanes merged since; no new issues or comments"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no edits by others to this lane's notes; his answers 32b, 33b, 24a, 25, 26a, 27a, 28a, 29a, 30a, 31a, and new warnings to add (lion's mane and ashwagandha not advised, persistent anhedonia reports for them, agmatine and 5-HTP), and the breathwork page; the cards page's stored answers unchanged"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "no queued notifications"
+    }
+   ],
+   "items": [
+    {
+     "item": "answers with set words",
+     "outcome": "apply by script: 32b, 33b, 24a, 25, 26a, 27a, 28a, 29a, 30a, 31a"
+    },
+    {
+     "item": "lion's mane and ashwagandha",
+     "outcome": "find every place the article advises them and take the advice out, by script"
+    },
+    {
+     "item": "persistent-anhedonia warnings",
+     "outcome": "check the reports against sources on both sides, then draft the warnings; text of mine goes through the reads and a Pangram check"
+    }
+   ],
+   "recorded_utc": "2026-11-22T17:40Z"
   }
  ]
 }

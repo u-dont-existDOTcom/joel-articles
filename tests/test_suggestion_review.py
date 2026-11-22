@@ -109,6 +109,11 @@ class SuggestionReviewTests(unittest.TestCase):
         self.assertIn('id="c-CV-1.1"', page)
         self.assertIn('Approve: cut it', page)
         self.assertIn('Approve: make this change anyway', page)   # a leave card says what approving it does
+        # the fourth button names what it does and waits, hidden, until there is an answer to undo (1.11; Joel,
+        # 2026-11-11 19:54 UTC: "can you durably fix this cards thing because 'not approved yet' doesn't work as a button")
+        self.assertIn('<button type="button" class="dec undo" data-dec="pending" hidden>Undo my answer</button>', page)
+        self.assertNotIn('data-dec="pending">Not approved yet<', page)
+        self.assertIn("$$('.dec.undo', c).forEach(b => { b.hidden = st.status === 'pending'; });", page)
         self.assertIn('class="card t-structure leave"', page)
         self.assertIn('A new heading', page)
         self.assertIn('review-form-controls-v1', page)
@@ -353,6 +358,8 @@ class ReceiptTests(unittest.TestCase):
         r['opens']['why_reading'] = 'the helper learns the first thing to do while the seizure is on'
         r['same_point'] = 'none: read the Active Seizure section from its heading to the next for timing and the side'
         r['needed'] = {'reader': 'a fresh reader given needed_read_brief.md', 'unneeded': [], 'kept': {}}
+        r['his_fixes'] = {'reader': 'a fresh reader given his_fixes_brief.md', 'marked': [], 'kept': {}}
+        r['fit'] = {'reader': 'a fresh reader given fit_read_brief.md', 'marked': [], 'kept': {}}
         r['questions'] = {q: 'PASS: said plainly' for q in sense_receipt.QUESTIONS}
         with tempfile.NamedTemporaryFile('w', suffix='.json', dir=str(R.ROOT), delete=False) as f:
             json.dump(r, f)

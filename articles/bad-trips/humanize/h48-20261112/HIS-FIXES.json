@@ -1,0 +1,57 @@
+{
+ "brain-p1": {
+  "reader": "fresh Sonnet readers given tools/humanization/his_fixes_brief.md, one for each draft (reads/his-brain-p1-draft1.txt, reads/his-brain-p1.txt)",
+  "marked": [
+   {
+    "s": "Several of these checks look for recognized stroke warning signs, so if any check turns up a problem (or they're too out of it to answer you), keep the DMSO going while someone calls medics:",
+    "difference": "1, 5",
+    "draft": "brain-p1 first draft"
+   },
+   {
+    "s": "- Feel whether they're very hot.",
+    "difference": "4, 7",
+    "draft": "brain-p1 first draft"
+   },
+   {
+    "s": "- Check if their vision has changed.",
+    "difference": "4",
+    "draft": "brain-p1 first draft"
+   },
+   {
+    "s": "If everything checks out but the brain-damage feeling stays, keep going DMSO-first and check them again soon.",
+    "difference": "4",
+    "draft": "brain-p1 first draft"
+   },
+   {
+    "s": "Several of these checks look for recognized stroke warning signs.",
+    "difference": "5",
+    "draft": "brain-p1"
+   }
+  ],
+  "kept": {
+   "- Feel whether they're very hot.": "kept for the minimal pair: brain-c3's own words, since this test changes only where the action is said (his try 7 on chest-c3); what to do with any sign is said once, in the lead-in now",
+   "- Check if their vision has changed.": "kept for the minimal pair: brain-c3's own words, since this test changes only where the action is said (his try 7 on chest-c3)",
+   "If everything checks out but the brain-damage feeling stays, keep going DMSO-first and check them again soon.": "kept for the minimal pair: brain-c3's own words, since this test changes only where the action is said (his try 7 on chest-c3); the guide's \"reassess promptly\" names no interval, and inventing one would add a claim",
+   "Several of these checks look for recognized stroke warning signs.": "kept for the minimal pair: brain-c3's own words, since this test changes only where the action is said (his try 7 on chest-c3), and W007's warning words (\"checks\", \"recognized\", \"warning\"), linked to the stroke list in the guide"
+  }
+ },
+ "acute-c1": {
+  "reader": "a fresh Sonnet reader given tools/humanization/his_fixes_brief.md (reads/his-acute-c1.txt)",
+  "marked": [
+   {
+    "s": "I'd calm and stabilize the trip right where they are, as long as none of the signs on the Call medics list above show up and I can keep them from getting hurt.",
+    "difference": "1",
+    "draft": "acute-c1"
+   },
+   {
+    "s": "Even from a severe trip, they can come down faster that way than after an ambulance ride and hours in an emergency room.",
+    "difference": "6",
+    "draft": "acute-c1"
+   }
+  ],
+  "kept": {
+   "I'd calm and stabilize the trip right where they are, as long as none of the signs on the Call medics list above show up and I can keep them from getting hurt.": "the action first and its conditions after it, the way his Chest Pain line has it (\"I'd just use DMSO ..., as long as they're fully alert\"); the reader's split put the condition first again, which is the late payoff this test removes",
+   "Even from a severe trip, they can come down faster that way than after an ambulance ride and hours in an emergency room.": "the guide's belief that a stable person can come down faster with you than in an emergency room (B100) is why the reader would stay instead of going, so it bears on what they do; said as a reason, not a moral"
+  }
+ }
+}

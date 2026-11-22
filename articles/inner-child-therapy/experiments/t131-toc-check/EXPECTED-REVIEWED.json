@@ -1,0 +1,410 @@
+{
+ "about": "The turn-130 key (../t130-toc/EXPECTED.json, unchanged) plus sections an independent checker found that also answer a situation, each with the sentence that does. Additions only, so every answer the frozen key counted right still counts. Made on 2026-11-17 before any turn-131 reader saw anything. The checker also suggested dropping five sections from the old key (S059 from 10, S099 from 14, S134 from 19, S052 from 30, S010 from 32); the frozen key is left as it was.",
+ "situations": {
+  "1": {
+   "right": [
+    "S080"
+   ],
+   "also": [
+    "S062"
+   ],
+   "added": [
+    {
+     "id": "S001",
+     "quote": "Many struggle to get past the silly, awkward feeling of it."
+    },
+    {
+     "id": "S005",
+     "quote": "It felt like I was making it up at first, which seems quite common."
+    }
+   ]
+  },
+  "2": {
+   "right": [
+    "S031"
+   ],
+   "also": [
+    "S029",
+    "S026",
+    "S032",
+    "S023"
+   ],
+   "added": [
+    {
+     "id": "S060",
+     "quote": "You don’t have to believe these words. Watch what I do."
+    }
+   ]
+  },
+  "3": {
+   "right": [
+    "S032"
+   ],
+   "also": [
+    "S033",
+    "S034",
+    "S040",
+    "S031"
+   ],
+   "added": []
+  },
+  "4": {
+   "right": [
+    "S027"
+   ],
+   "also": [
+    "S026",
+    "S028",
+    "S078"
+   ],
+   "added": []
+  },
+  "5": {
+   "right": [
+    "S013"
+   ],
+   "also": [
+    "S014",
+    "S015"
+   ],
+   "added": [
+    {
+     "id": "S095",
+     "quote": "If a voice or urge is directing you towards harm, and you feel at risk of acting on it, as with myself and those ghosts at home, move away from that open window and get some outside support."
+    }
+   ]
+  },
+  "6": {
+   "right": [
+    "S019",
+    "S020"
+   ],
+   "also": [],
+   "added": []
+  },
+  "7": {
+   "right": [
+    "S037"
+   ],
+   "also": [],
+   "added": []
+  },
+  "8": {
+   "right": [
+    "S009"
+   ],
+   "also": [
+    "S082"
+   ],
+   "added": []
+  },
+  "9": {
+   "right": [
+    "S073"
+   ],
+   "also": [
+    "S060",
+    "S061",
+    "S039"
+   ],
+   "added": []
+  },
+  "10": {
+   "right": [
+    "S063"
+   ],
+   "also": [
+    "S062",
+    "S081",
+    "S064",
+    "S059"
+   ],
+   "added": [
+    {
+     "id": "S080",
+     "quote": "You call up the Nurturer and try to talk to your little one, and you get silence or a numb feeling, and all of a sudden your phone or the laundry feels urgent."
+    }
+   ]
+  },
+  "11": {
+   "right": [
+    "S081",
+    "S115"
+   ],
+   "also": [
+    "S112",
+    "S117",
+    "S113"
+   ],
+   "added": []
+  },
+  "12": {
+   "right": [
+    "S087",
+    "S088"
+   ],
+   "also": [
+    "S089",
+    "S090"
+   ],
+   "added": []
+  },
+  "13": {
+   "right": [
+    "S086"
+   ],
+   "also": [],
+   "added": []
+  },
+  "14": {
+   "right": [
+    "S093"
+   ],
+   "also": [
+    "S094",
+    "S098",
+    "S099",
+    "S107"
+   ],
+   "added": [
+    {
+     "id": "S105",
+     "quote": "Be careful what you mix, too, and not just prescribed medicines."
+    },
+    {
+     "id": "S101",
+     "quote": "And any predisposition toward mania or psychosis is a warning sign too, whether it’s family history, a bad environment or a bad mindset."
+    }
+   ]
+  },
+  "15": {
+   "right": [
+    "S095",
+    "S096"
+   ],
+   "also": [],
+   "added": []
+  },
+  "16": {
+   "right": [
+    "S097"
+   ],
+   "also": [],
+   "added": []
+  },
+  "17": {
+   "right": [
+    "S142"
+   ],
+   "also": [
+    "S143"
+   ],
+   "added": []
+  },
+  "18": {
+   "right": [
+    "S129",
+    "S130",
+    "S131",
+    "S132"
+   ],
+   "also": [],
+   "added": []
+  },
+  "19": {
+   "right": [
+    "S137"
+   ],
+   "also": [
+    "S134",
+    "S069"
+   ],
+   "added": []
+  },
+  "20": {
+   "right": [
+    "S119"
+   ],
+   "also": [],
+   "added": []
+  },
+  "21": {
+   "right": [
+    "S120",
+    "S121"
+   ],
+   "also": [
+    "S124",
+    "S122"
+   ],
+   "added": []
+  },
+  "22": {
+   "right": [
+    "S123"
+   ],
+   "also": [
+    "S122"
+   ],
+   "added": []
+  },
+  "23": {
+   "right": [
+    "S126"
+   ],
+   "also": [],
+   "added": []
+  },
+  "24": {
+   "right": [
+    "S084",
+    "S085"
+   ],
+   "also": [],
+   "added": []
+  },
+  "25": {
+   "right": [
+    "S008"
+   ],
+   "also": [],
+   "added": []
+  },
+  "26": {
+   "right": [
+    "S011"
+   ],
+   "also": [
+    "S012"
+   ],
+   "added": []
+  },
+  "27": {
+   "right": [
+    "S147",
+    "S148",
+    "S149"
+   ],
+   "also": [
+    "S150"
+   ],
+   "added": []
+  },
+  "28": {
+   "right": [
+    "S044"
+   ],
+   "also": [],
+   "added": []
+  },
+  "29": {
+   "right": [
+    "S076",
+    "S077"
+   ],
+   "also": [
+    "S078",
+    "S036",
+    "S037"
+   ],
+   "added": []
+  },
+  "30": {
+   "right": [
+    "S049",
+    "S050",
+    "S041"
+   ],
+   "also": [
+    "S052",
+    "S053"
+   ],
+   "added": [
+    {
+     "id": "S051",
+     "quote": "Notice how, when you offer thanks (to the universe, to life, to God, whatever you may believe in), a space in your heart opens up."
+    }
+   ]
+  },
+  "31": {
+   "right": [
+    "S035"
+   ],
+   "also": [
+    "S036",
+    "S123"
+   ],
+   "added": []
+  },
+  "32": {
+   "right": [
+    "S007"
+   ],
+   "also": [
+    "S010"
+   ],
+   "added": [
+    {
+     "id": "S004",
+     "quote": "At this stage, use your childlike superpowers to come into the “Wow of Now” (have you seen the movie Waking Life?), and make sure there’s enough safety around you to continue with reparenting."
+    }
+   ]
+  },
+  "33": {
+   "right": [
+    "S048"
+   ],
+   "also": [
+    "S011"
+   ],
+   "added": []
+  },
+  "34": {
+   "right": [
+    "S139"
+   ],
+   "also": [
+    "S140",
+    "S141"
+   ],
+   "added": []
+  },
+  "35": {
+   "right": [
+    "S059"
+   ],
+   "also": [],
+   "added": []
+  },
+  "36": {
+   "right": [
+    "S083"
+   ],
+   "also": [],
+   "added": []
+  },
+  "37": {
+   "right": [
+    "S069"
+   ],
+   "also": [
+    "S137"
+   ],
+   "added": []
+  },
+  "38": {
+   "right": [
+    "S071"
+   ],
+   "also": [
+    "S070"
+   ],
+   "added": [
+    {
+     "id": "S116",
+     "quote": "Whose approval suddenly feels like I can’t live without it?"
+    }
+   ]
+  }
+ }
+}

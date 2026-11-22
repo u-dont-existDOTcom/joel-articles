@@ -1,0 +1,193 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-12",
+ "text_sha256": "180e01284dd6fafcb846f25c9bdf3c76fb81bfb0b8eab76e9ad10daa184120ed",
+ "text": "Active Seizure\n\nTime the seizure, and while it lasts:\n- Move any dangerous objects away from them, especially anything hard or sharp.\n- Loosen any tight clothing.\n- Turn them gently onto their side, which helps them breathe.\n- Don't restrain them, since that can cause injuries.\n- Keep everything out of their mouth while they're convulsing or not fully conscious.\n\nCall medics if any of these happen:\n- A convulsive seizure goes on for about five minutes.\n- Another seizure starts before they've recovered from the last one.\n- Their breathing gets slow and shallow.\n- Blue or gray lips are another sign.\n- They get dangerously hot (not just regular sweating).\n- They're seriously hurt, like bleeding that won't stop or a possible head injury.\n- It's their first seizure, or one that's substantially different from their usual ones.",
+ "section": "Active Seizure",
+ "reader": "someone whose friend is having a seizure right now, deciding what to do while it lasts and when to call medics",
+ "sentences": [
+  {
+   "s": "Active Seizure",
+   "payoff": "they know this part is for a seizure happening now",
+   "follows": "the heading"
+  },
+  {
+   "s": "Time the seizure, and while it lasts:",
+   "payoff": "they time the seizure and do the steps below while it lasts",
+   "follows": "it opens the section under its heading",
+   "link": "none: the first sentence under its heading"
+  },
+  {
+   "s": "- Move any dangerous objects away from them, especially anything hard or sharp.",
+   "payoff": "they move dangerous objects, especially hard or sharp ones, away from the person",
+   "follows": "the first step",
+   "link": "none: a list line, the next step the lead-in says the list holds"
+  },
+  {
+   "s": "- Loosen any tight clothing.",
+   "payoff": "they loosen tight clothing",
+   "follows": "the next step",
+   "link": "none: a list line, the next step the lead-in says the list holds"
+  },
+  {
+   "s": "- Turn them gently onto their side, which helps them breathe.",
+   "payoff": "they turn the person gently onto their side to help them breathe",
+   "follows": "the next step",
+   "link": "none: a list line, the next step the lead-in says the list holds"
+  },
+  {
+   "s": "- Don't restrain them, since that can cause injuries.",
+   "payoff": "they don't restrain the person, since that can cause injuries",
+   "follows": "the next step, a don't with its reason",
+   "link": "none: a list line, the next step the lead-in says the list holds"
+  },
+  {
+   "s": "- Keep everything out of their mouth while they're convulsing or not fully conscious.",
+   "payoff": "they keep everything out of the person's mouth while they're convulsing or not fully conscious",
+   "follows": "the last step",
+   "link": "none: a list line, the next step the lead-in says the list holds"
+  },
+  {
+   "s": "Call medics if any of these happen:",
+   "payoff": "they know the lines below are when to call medics",
+   "follows": "after what to do, when to get help",
+   "link": "Call medics if"
+  },
+  {
+   "s": "- A convulsive seizure goes on for about five minutes.",
+   "payoff": "they call medics for a convulsive seizure of about five minutes, which is why they timed it",
+   "follows": "the first sign",
+   "link": "none: a list line, the next sign the lead-in says the list holds"
+  },
+  {
+   "s": "- Another seizure starts before they've recovered from the last one.",
+   "payoff": "they call medics when another seizure starts before recovery",
+   "follows": "the next sign",
+   "link": "none: a list line, the next sign the lead-in says the list holds"
+  },
+  {
+   "s": "- Their breathing gets slow and shallow.",
+   "payoff": "they call medics when breathing gets slow and shallow",
+   "follows": "the next sign",
+   "link": "none: a list line, the next sign the lead-in says the list holds"
+  },
+  {
+   "s": "- Blue or gray lips are another sign.",
+   "payoff": "they call medics for blue or gray lips",
+   "follows": "the next sign",
+   "link": "none: a list line, the next sign the lead-in says the list holds"
+  },
+  {
+   "s": "- They get dangerously hot (not just regular sweating).",
+   "payoff": "they call medics for dangerous heat, not just sweating",
+   "follows": "the next sign",
+   "link": "none: a list line, the next sign the lead-in says the list holds"
+  },
+  {
+   "s": "- They're seriously hurt, like bleeding that won't stop or a possible head injury.",
+   "payoff": "they call medics for a serious injury, like bleeding that won't stop or a possible head injury",
+   "follows": "the next sign",
+   "link": "none: a list line, the next sign the lead-in says the list holds"
+  },
+  {
+   "s": "- It's their first seizure, or one that's substantially different from their usual ones.",
+   "payoff": "they call medics for a first seizure or one unlike their usual ones",
+   "follows": "the last sign",
+   "link": "none: a list line, the next sign the lead-in says the list holds"
+  }
+ ],
+ "checked": [],
+ "placement": "Active Seizure, its first paragraph (B109) and its call-medics line (B112) moved to follow it, before the rescue medicine (B110) and What Else May Help",
+ "opens": {
+  "first_sentence": "Active Seizure",
+  "why_reading": "it tells someone with a friend in a seizure what to do while it lasts, then when to call medics"
+ },
+ "same_point": "kept: the Call medics list at the top holds these signs too, and the lane's locks keep a call-for-help line where the reader acts in an emergency (lesson bad-trips-2026-11-12b names this one); its lines say what counts the way the Call medics list does (\"not just regular sweating\", \"blue or gray\")",
+ "needed": {
+  "reader": "a fresh Haiku agent given tools/humanization/needed_read_brief.md with seize-c1, its heading and what it is for (reads/needed-seize-c1.txt); none unneeded, the later drafts saying the same lines again",
+  "unneeded": [],
+  "kept": {}
+ },
+ "his_fixes": {
+  "reader": "fresh Sonnet readers given tools/humanization/his_fixes_brief.md, one for each draft (reads/his-seize-c1.txt, reads/his-seize-c2.txt, reads/his-seize-c3.txt)",
+  "marked": [
+   {
+    "s": "- Don't restrain them, and don't put anything in their mouth while they're convulsing or not fully conscious.",
+    "difference": "1",
+    "draft": "seize-c1"
+   },
+   {
+    "s": "- They have trouble breathing.",
+    "difference": "2, 4",
+    "draft": "seize-c1"
+   },
+   {
+    "s": "- They get dangerously hot.",
+    "difference": "2, 4",
+    "draft": "seize-c1"
+   },
+   {
+    "s": "- They're seriously hurt.",
+    "difference": "2, 4",
+    "draft": "seize-c1"
+   },
+   {
+    "s": "- It's their first seizure, or it's substantially different from the ones they usually have.",
+    "difference": "1, 4",
+    "draft": "seize-c1"
+   },
+   {
+    "s": "- Don't restrain them.",
+    "difference": "7",
+    "draft": "seize-c2"
+   },
+   {
+    "s": "- Their lips turn blue or gray.",
+    "difference": "2",
+    "draft": "seize-c2"
+   },
+   {
+    "s": "- It's their first seizure, or one that's substantially different from their usual ones.",
+    "difference": "4",
+    "draft": "seize-c2, seize-c3"
+   },
+   {
+    "s": "- Blue or gray lips are another sign.",
+    "difference": "4",
+    "draft": "seize-c3"
+   },
+   {
+    "s": "- They get dangerously hot (not just regular sweating).",
+    "difference": "3",
+    "draft": "seize-c3"
+   }
+  ],
+  "kept": {
+   "- It's their first seizure, or one that's substantially different from their usual ones.": "the guide's own level (\"a first seizure, or a seizure substantially different from the person's known pattern\"); the reader's examples would add claims",
+   "- Blue or gray lips are another sign.": "built the way his own brain list says a sign (\"Wetting or soiling themselves is another sign to watch for.\"), under a lead-in that says what the signs are for (call medics)",
+   "- They get dangerously hot (not just regular sweating).": "his aside, from his Risk of Harm version (the Call medics list's \"Dangerous overheating (not just regular sweating)\")"
+  }
+ },
+ "questions": {
+  "Q1": "PASS: the section opens on what to do while it lasts; the call list says its action first",
+  "Q2": "PASS: each line is something the helper does, or a sign that has them call",
+  "Q3": "PASS: \"hard or sharp\", \"slow and shallow\", \"blue or gray\", \"bleeding that won't stop or a possible head injury\"",
+  "Q4": "PASS: no term left; \"respiratory\" said as breathing",
+  "Q5": "PASS: \"and while it lasts:\", \"Call medics if any of these happen:\" say what each list is",
+  "Q6": "PASS: time it, what to do while it lasts, when to call",
+  "Q7": "PASS: each line bears on a seizure happening now",
+  "Q8": "PASS: the steps are steps and the signs are signs",
+  "Q9": "PASS: one step or sign a line"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

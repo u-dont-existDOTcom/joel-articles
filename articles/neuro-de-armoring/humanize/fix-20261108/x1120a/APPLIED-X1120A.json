@@ -1,0 +1,47 @@
+{
+ "about": "his answers of 2026-11-20 17:05 UTC that change only words of his: 15a, 19a, 20, 21b, 22a",
+ "message": "../joel-20261120-1705-message.txt",
+ "applied": [
+  {
+   "answer": "15a",
+   "line": 256,
+   "old": "Nebulized DMSO with heparin (a blood thinner) has been shown to cut the lung damage from toxic cotton smoke in sheep ([Kimura, et al, 1988](https://pubmed.ncbi.nlm.nih.gov/2458858/)). In another study, the smoke killed all seven untreated sheep and four of the six given DMSO alone, while all seven given DMSO with heparin survived ([Brown, et al, 1988](https://pubmed.ncbi.nlm.nih.gov/3356738/)). But it has shown some neurotoxic effects in rodent studies. In mice in their first month of life, even the smallest dose tested set off brain cell death, and the authors worried about the children who get it in transplants ([Hanslick, et al, 2009](https://pubmed.ncbi.nlm.nih.gov/19100327/)), although so far there's no proof it's harming children, and many people use it on their children for injuries, infections, and so forth with good results in practice. Translating mouse research to humans isn't straightforward.",
+   "new": "Nebulized DMSO with heparin (a blood thinner) has been shown to cut the lung damage from toxic cotton smoke in sheep ([Kimura, et al, 1988](https://pubmed.ncbi.nlm.nih.gov/2458858/)). In another study, the smoke killed all seven untreated sheep and four of the six given DMSO alone, while all seven given DMSO with heparin survived ([Brown, et al, 1988](https://pubmed.ncbi.nlm.nih.gov/3356738/)). But it has shown some neurotoxic effects in rodent studies. In mice in their first month of life, even the smallest dose tested set off brain cell death, and the authors worried about the children who get it in transplants ([Hanslick, et al, 2009](https://pubmed.ncbi.nlm.nih.gov/19100327/)), although so far there's no proof it's harming children when it's not given by IV, and many people use it on their children for injuries, infections, and so forth with good results in practice. Translating mouse research to humans isn't straightforward.",
+   "whose": "his clause, with the words question 15 showed him"
+  },
+  {
+   "answer": "19a",
+   "line": 344,
+   "old": "Optional add-on: Agmatine Sulfate 250–500 mg AM, increasing to 500 mg twice daily only if it clearly reduces the hot/itchy/reactive state without flattening mood. Cap at 1 g/day in this protocol. Do not add agmatine on the same day you increase PS, start D-Serine, change NAC dose, begin keto, microdose, or introduce any other major variable.",
+   "new": "Optional add-on: Agmatine Sulfate 250–500 mg AM, increasing to 500 mg twice daily only if it clearly reduces the hot/itchy/reactive state without flattening mood. Cap at 1 g/day in this protocol. Do not add agmatine on the same day you start PS, start D-Serine, change NAC dose, begin keto, microdose, or introduce any other major variable.",
+   "whose": "his line, with the word question 19 showed him"
+  },
+  {
+   "answer": "20",
+   "line": 140,
+   "old": "Food instead of capsules: One of the few supplements you can actually eat your way to. Atlantic mackerel (~480 mg/100g) and herring (~360 mg) are richest; tuna is lower (~194 mg). A 200g mackerel fillet ≈ 960 mg PS--above clinical doses. (Don't lean on tuna daily--mercury.)",
+   "new": "Food instead of capsules: One of the few supplements you can actually eat your way to. Atlantic mackerel (~480 mg/100g) and herring (~360 mg) are richest; tuna is lower (~194 mg). A 200g mackerel fillet ≈ 960 mg PS--above the 400 mg that worked, although when it's not isolated, it's harder to compare. (Don't lean on tuna daily--mercury.)",
+   "whose": "his line, \"above\" the dose his PS section says worked, and his caveat in his words"
+  },
+  {
+   "answer": "21b",
+   "line": 354,
+   "old": "Protocol:Taper off Phosphatidylserine here. This phase is low-drive and gray by design--you do *not* want to keep blunting cortisol in an already-flattened system, or you'll deepen the numbness. PS was for the anxiety phase; the Void phase needs the opposite. (If you never felt the wired/high-cortisol state in Weeks 1–2, you probably shouldn't have been on PS at all.)",
+   "new": "Protocol:Reduce or stop phosphatidylserine here. This phase is low-drive and gray by design--you do *not* want to keep blunting cortisol in an already-flattened system, or you'll deepen the numbness. PS was for the anxiety phase; the Void phase needs the opposite. (If you never felt the wired/high-cortisol state in Weeks 1–2, you probably shouldn't have been on PS at all.)",
+   "whose": "his line, in the words of his other Weeks 3-5 PS line, as question 21 offered"
+  },
+  {
+   "answer": "22a",
+   "line": 246,
+   "old": "Cycle rule: use it as a 7–14 day anxiety-phase experiment, not a forever baseline. Stop if flatness, anhedonia, apathy, irritability, insomnia, dizziness, nausea, loose stools, diarrhea, or increased craving appears.",
+   "new": "Cycle rule: use it as a 7–14 day anxiety-phase experiment, not a forever baseline, unless it is unmistakably helping acute glutamate storms without worsening flatness. Stop if flatness, anhedonia, apathy, irritability, insomnia, dizziness, nausea, loose stools, diarrhea, or increased craving appears.",
+   "whose": "his line, with Weeks 3-5's exception in that line's own words"
+  }
+ ],
+ "held": [
+  "16a and 17: a new line of mine at the top of Weeks 3-5, after its checks",
+  "18 and 23: his new points, checked against sources, go to him as cards"
+ ],
+ "before_sha256": "9f5bbc31476d3ff4144c67f31cf56ebb253298c02dbbea4e4758657b7ce911e9",
+ "after_sha256": "9c001fcb2e6e44ea467cc55d899608609ba6d8f25619d878797ad776ff6e39a1"
+}

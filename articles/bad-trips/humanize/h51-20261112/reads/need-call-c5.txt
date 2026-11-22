@@ -1,0 +1,11 @@
+NEEDS:
+S1: Introduces the list of conditions that mean the reader should call medics during the seizure.
+S2: One of the call-medics triggers: a seizure after too much medicine, or an unknown amount taken.
+S3: The 5-minute threshold: a seizure on a normal dose lasting over 5 minutes means call medics.
+S4: One of the call-medics triggers: slow, shallow breathing.
+S5: One of the call-medics triggers: blue or gray lips.
+S6: One of the call-medics triggers: a very hot forehead, which signals overheating rather than ordinary sweating.
+S7: One of the call-medics triggers: a head injury, a broken bone, or bleeding that won't stop.
+
+UNNEEDED:
+- none

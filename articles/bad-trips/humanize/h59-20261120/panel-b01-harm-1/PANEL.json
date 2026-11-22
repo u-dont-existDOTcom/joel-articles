@@ -1,0 +1,44 @@
+{
+ "readers": [
+  "haiku",
+  "sonnet"
+ ],
+ "sentences": [
+  "When somebody says, \"I am God, so I can kill,\" take it as a sign that someone could get hurt.",
+  "Start from what they believe and lead them back to not hurting anyone, like the lines below do when they say God is in everyone.",
+  "Arguing (\"No you're not,\" \"That's delusional\") can turn things into a fight over who's right, and if you nod along as if hurting someone could be spiritually fine, they might hear it as permission."
+ ],
+ "flagged": {
+  "1": [
+   "haiku",
+   "sonnet"
+  ],
+  "2": [
+   "haiku",
+   "sonnet"
+  ],
+  "3": [
+   "haiku",
+   "sonnet"
+  ]
+ },
+ "agreed": [
+  1,
+  2,
+  3
+ ],
+ "whole": {
+  "haiku": [
+   "The paragraph moves through an evenly balanced sequence (warning, what to do, what not to do, why it matters), with each part settled in one sentence, which reads like a generated set of guidelines rather than a voice with a stake in the matter."
+  ],
+  "sonnet": [
+   "It is compact and evenly built: a trigger, a prescribed response, then two parallel pitfalls, each cleanly resolved, with no tangents or personal detail. The voice is calm and instructional throughout, with almost no friction or quirk."
+  ]
+ },
+ "human_clean": [
+  "No you're not,",
+  "That's delusional",
+  "like the lines below do when they say God is in everyone",
+  "I am God, so I can kill"
+ ]
+}

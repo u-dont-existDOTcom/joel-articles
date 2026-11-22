@@ -1,0 +1,31 @@
+You are reading one paragraph of an article for the person it is written for. Here is what the paragraph is for:
+
+WHAT IT IS FOR: the reader's friend (or the reader) is on MDMA and their jaw has tensed; they are deciding what to do now, what to watch for, and when to call medics
+
+HEADING: MDMA: Jaw Tension Is the Magnesium Alarm (after the author's magnesium chloride method and his paragraph about his second wife, whose potassium was found essentially zero after an MDMA overdose with convulsions; the next paragraph is about people with impaired kidneys)
+
+PARAGRAPH:
+S1: Once their jaw tenses, that should be their last dose of MDMA, so get them to slow down and cool off.
+S2: If they drink a lot of plain water, even a single normal MDMA dose raises the risk of their sodium dropping too low, so have them sip an electrolyte drink when they're thirsty instead.
+S3: The following indicators would justify calling medics: If their confusion or headache worsens, or vomiting won't stop (sodium might be too low by then for an electrolyte drink to fix; if they're alert and can keep things down, give them something very salty instead, like strong broth or salty snacks).
+S4: If their muscles keep getting weaker or their heart palpitations keep getting stronger, that could be from dangerously low potassium, like my second wife had.
+S5: A seizure or collapse can result from low sodium, magnesium or potassium, and can also come from overheating or MDMA toxicity.
+
+For each sentence, answer in one line: what does the reader need this sentence for, given what the paragraph is for?
+Then list the sentences the reader doesn't need.
+
+A sentence the reader doesn't need is one they could lose and still do what the paragraph is for, with nothing
+missing. These are not reasons to keep a sentence: it is true; it has a source; it is interesting; it is a careful
+hypothesis or a testable guess; it explains a disease or a case the reader doesn't have; it qualifies another claim the
+reader didn't need either; it was already in the text. Read also for sense: a sentence whose words don't make sense
+together, or that mixes pictures (a dial, a door, a floor and a leak for one thing), goes on the list too, with why.
+
+Answer in this shape:
+
+NEEDS:
+S1: [what the reader needs it for, or "nothing"]
+S2: ...
+
+UNNEEDED:
+- S2: [the sentence, copied exactly] — [why the reader can lose it]
+- (or "none")

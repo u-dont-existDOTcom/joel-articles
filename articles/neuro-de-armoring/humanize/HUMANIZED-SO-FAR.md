@@ -95,7 +95,7 @@ Even though dynorphin clears relatively quickly, allowing us the motivation to l
 
 Why Standard Meds Failed You If you have tried SSRIs (antidepressants) and failed, you are not crazy. In a small trial of male combat veterans with severe, long-term PTSD, Prozac did no better than a placebo ([Hertzberg, et al, 2000](https://scholars.duke.edu/publication/759904)). Trials in veterans have been mixed since, yet the VA still recommends sertraline and paroxetine ([VA/DoD, 2023](https://pubmed.ncbi.nlm.nih.gov/38408360/)). And the side effects are well-known, including anhedonia, zombification, and sexual dysfunction.
 
-Why don't these drugs work on calcified PTSD? Because even if they did work for mood by modulating serotonin transmission, PTSD is not a mood disorder. That's a bit like putting some Bengay on a broken leg. This protocol tries to get at the underpinnings of the problem. The ketone BHB blocks enzymes called HDACs ([Shimazu, et al, 2013](https://escholarship.org/uc/item/4w889738)), and in mice that couldn't hold on to extinction learning (learning that a cue is now safe), an HDAC blocker made the new learning last ([Whittle & Singewald, 2014](https://pmc.ncbi.nlm.nih.gov/articles/PMC3961057)). Whether ketosis does that in people hasn't been tested.
+Why don't these drugs work on calcified PTSD? Because even if they did work for mood by modulating serotonin transmission, PTSD is not a mood disorder. That's a bit like putting some Bengay on a broken leg. This protocol tries to get at the underpinnings of the problem. The ketone BHB blocks enzymes called HDACs ([Shimazu, et al, 2013](https://escholarship.org/uc/item/4w889738)), and in mice that couldn't hold on to extinction learning (learning that a cue is now safe), an HDAC blocker made the new learning last ([Whittle & Singewald, 2014](https://pmc.ncbi.nlm.nih.gov/articles/PMC3961057)). In people with PTSD, the first small study of a keto diet with BHB supplements found that both people who finished its four weeks improved, by 20 and 10 points on the standard 80-point PTSD checklist, which its authors call clinically meaningful ([Edwards, et al, 2024](https://pubmed.ncbi.nlm.nih.gov/39588043/)). In two case reports, women whose PTSD hadn't responded to treatment were nearly or fully free of symptoms after months on the diet ([Bellamy & Laurent, 2025](https://pubmed.ncbi.nlm.nih.gov/40626225/); [Laurent, 2026](https://pubmed.ncbi.nlm.nih.gov/41783812/)). No controlled trial of the diet has been done yet, and the one placebo-controlled trial of BHB supplements alone was too small to tell either way ([Youssef, et al, 2022](https://pubmed.ncbi.nlm.nih.gov/36282607/)). But we can see some astounding BHB salt reviews on forums, like for [brain injury repair](https://www.reddit.com/r/keto/comments/1fmu0po/ketone_supplements_insanely_good/), and BHB injections work for rats with trauma, although in humans it's still an open question whether the salts work as well as the keto diet ([Engelhardt, et al, 2026](https://www.frontiersin.org/journals/psychiatry/articles/10.3389/fpsyt.2026.1854499/full)).
 
 Double click to interact with video
 
@@ -107,7 +107,7 @@ While the science is focused on some specific substances in certain psychedelics
 
 The Problem: "Brain Fog" may partly be a fuel problem. In brain scans of people with PTSD, some regions burn less glucose (sugar), and the less they burn, the worse the symptoms ([Jeong, et al, 2019](https://pmc.ncbi.nlm.nih.gov/articles/PMC6820768)).
 
-The Fix: If the brain is burning less sugar, we give it another fuel. Ketones are its backup fuel, and brains that take up less glucose (as in early Alzheimer's) still take up ketones normally ([Cunnane, et al, 2016](https://www.frontiersin.org/journals/molecular-neuroscience/articles/10.3389/fnmol.2016.00053/text)). PQQ made mouse cells build more mitochondria, the parts of the cell that burn fuel ([Chowanadisai, et al, 2010](https://pmc.ncbi.nlm.nih.gov/articles/PMC2804159)); whether it does that in the human brain hasn't been shown.
+The Fix: If your brain is burning less sugar, give it ketones, which it can consume instead. Ketones work even when the brain isn't able to burn glucose efficiently, as in early Alzheimer's ([Cunnane, et al, 2016](https://www.frontiersin.org/journals/molecular-neuroscience/articles/10.3389/fnmol.2016.00053/text)). And [one man's Alzheimer's improved markedly](https://www.longecity.org/forum/viewtopic.php?t=1025608) on coconut oil, and later on a ketone drink ([Newport, et al, 2015](https://pubmed.ncbi.nlm.nih.gov/25301680/)). We've also got an early Parkinson's study with 5 people (no control group) who improved a lot after a month on a ketogenic diet ([VanItallie, et al, 2005](https://pubmed.ncbi.nlm.nih.gov/15728303/)). In a bigger randomized Parkinson's trial, people on keto got more relief from fatigue, thinking difficulty, and daytime sleepiness than those on a low-fat diet. Movement improved about the same on both ([Phillips, et al, 2018](https://pubmed.ncbi.nlm.nih.gov/30098269/)). And as for PQQ, it made mouse cells build more mitochondria, the parts of a cell that burn fuel ([Chowanadisai, et al, 2010](https://pmc.ncbi.nlm.nih.gov/articles/PMC2804159)), but that hasn't been shown in the human brain.
 
 #### E. The "Save Button": Memory Reconsolidation
 
@@ -137,7 +137,7 @@ Who it's for: People running high or *reactive* cortisol--the "wired and tired,"
 
 Dose: about 400 mg/day, taken earlier in the day. In the stress studies, which used a PS complex, 400 mg blunted the cortisol response, while 200 mg did nothing and 600 or 800 mg didn't either.
 
-Food instead of capsules: One of the few supplements you can actually eat your way to. Atlantic mackerel (~480 mg/100g) and herring (~360 mg) are richest; tuna is lower (~194 mg). A 200g mackerel fillet ≈ 960 mg PS--above clinical doses. (Don't lean on tuna daily--mercury.)
+Food instead of capsules: One of the few supplements you can actually eat your way to. Atlantic mackerel (~480 mg/100g) and herring (~360 mg) are richest; tuna is lower (~194 mg). A 200g mackerel fillet ≈ 960 mg PS--above the 400 mg that worked, although when it's not isolated, it's harder to compare. (Don't lean on tuna daily--mercury.)
 
 ⚠️ The catch, again: PS is only for genuinely high cortisol--and there are two ways to find out you guessed wrong. PS works by *blunting* cortisol. If yours isn't actually elevated, lowering it pushes you down the other side of the curve, where the symptoms look almost identical to high cortisol. Watch for either signal:
 
@@ -179,7 +179,7 @@ Who this is for: 5-HTP is not for every depressed person either. It could help, 
 
 Scott took 100 mg 5-HTP sublingually at night, with 10–20 mg P5P sublingually in the morning. The P5P isn't there as a stimulant, but as the active form of vitamin B6, which the enzyme that turns 5-HTP into serotonin (aromatic amino-acid decarboxylase) needs. He's genetically slow-COMT, making him sensitive to too much P5P.
 
-If you're sensitive, start lower and do the trial with just 50mg 5-HTP at night for 2–3 nights, then go up to 100mg if 50mg was clearly helpful and not causing side effects. You can also add 10–20mg P5P in the morning, like Scott did, especially if the 5-HTP felt like it "almost worked," as that could be a sign it wasn't converting cleanly over to serotonin. Don't do the trial at the same time as the other suggested regimen changes (like UMP, agmatine, D-serine, psychedelics, or prescription medication changes), since the point is to see whether the 5-HTP itself is doing anything. If it's the right tool, the first things you'll usually notice are your mood or sleep quality improves, you have less nighttime rumination, and your dreams become more vivid or memorable.
+If you're sensitive, start lower and do the trial with just 50mg 5-HTP at night for 2–3 nights, then go up to 100mg if 50mg was clearly helpful and not causing side effects, and stay on it as long as it benefits you. You can also add 10–20mg P5P in the morning, like Scott did, especially if the 5-HTP felt like it "almost worked," as that could be a sign it wasn't converting cleanly over to serotonin. Don't do the trial at the same time as the other suggested regimen changes (like UMP, agmatine, D-serine, psychedelics, or prescription medication changes), since the point is to see whether the 5-HTP itself is doing anything. If it's the right tool, the first things you'll usually notice are your mood or sleep quality improves, you have less nighttime rumination, and your dreams become more vivid or memorable.
 
 Side effects / stop signs: The most dangerous symptoms to watch out for are diagnostic of serotonin syndrome, which can be deadly if untreated: agitation + sweating + diarrhea + tremor/clonus + fever, confusion, fast heart rate, or unstable blood pressure. Other stop signs include less dangerous symptoms (some of which are part of serotonin syndrome, but not dangerous alone) like nausea, stomach discomfort, loose stools, headache, vivid or intense dreams, insomnia, sweating, tremor, anxiety, irritability, emotional agitation, or a too-bright / hypomanic feeling.
 
@@ -189,7 +189,7 @@ Side effects / stop signs: The most dangerous symptoms to watch out for are diag
 
 If your cortisol is normal or low, low ATP signaling in the brain might be what's behind your anxiety or depression. [Recent neuroscience](https://www.sciencedaily.com/releases/2025/11/251126025315.htm) (Tian-Ming Gao, et al, 2025) has shown in male mice that anxiety and depression are a result of reduced hippocampal astrocyte ATP release. So I'd trial 20mg of PQQ in the morning to boost ATP, with ketones, which your neurons can still burn for energy when they're struggling to burn sugar. In [Calabrese, et al (2024)](https://pmc.ncbi.nlm.nih.gov/articles/PMC11182043/), three adults on a ketogenic diet all went into full remission of depression and anxiety within a few months. That's only three people, but it's part of much broader research.
 
-You must pick one of two ketone strategies, because the salts in one bring their own sodium while the diet in the other drains it. If you're in a crisis and need the fog gone fast, there's Strategy A, the "Crisis Mode". You drink BHB (beta-hydroxybutyrate) salts and keep eating a standard low-sugar diet.
+Your ketone strategy decides how you handle salt, since the salts bring their own sodium while the diet drains it. If you're in a crisis and need the fog to lift fast, there's Strategy A, the "Crisis Mode". You drink BHB (beta-hydroxybutyrate) salts and keep eating a standard low-sugar diet. In trials, ketone esters, salts and MCT oil improved thinking a little against a placebo, from a single dose as well as over two weeks or more ([Bonnechère, et al, 2026](https://pubmed.ncbi.nlm.nih.gov/42063954/)). Amazon reviews do show many folks noting increased mental clarity, though.
 
 [image 3](https://substackcdn.com/image/fetch/$s_!8q8r!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fddfc5f6a-2896-48cf-a63e-f42157ac505e_641x420.png)
 
@@ -207,11 +207,7 @@ If on Quick Fix, Strategy A (BHB Salts / Standard Diet):Sodium: Standard intake.
 
 Potassium:
 
-Goal: Install the "Brake Pads" for your nervous system.
-
-Mechanism: Potassium Channels (KCNQ).
-
-The Science: Your neurons have "brakes" called KCNQ channels that stop them from firing uncontrollably. These brakes run on Potassium ions. If you are low on potassium (common in high stress), your brakes fail. You can push the pedal (breathe), but the car won't stop.
+The Science: Your nerves need potassium to fire and reset ([NIH, 2022](https://ods.od.nih.gov/factsheets/Potassium-HealthProfessional/)), yet most of us eat less than the recommended amount: only about 3 in 10 Americans reach it ([Dietary Guidelines Advisory Committee, 2024](https://www.dietaryguidelines.gov/sites/default/files/2024-12/Part%20D_Ch%201_%20Data%20Analysis_FINAL_508.pdf)). In a diet trial, people who took in more potassium and less salt had better mood and less fatigue ([Torres, et al, 2008](https://pubmed.ncbi.nlm.nih.gov/18466657/)), and potassium supplements eased mood and behavior problems in 13 of 16 children taking steroid drugs, which mimic the stress hormone cortisol ([Pariury, et al, 2019](https://pubmed.ncbi.nlm.nih.gov/31538841/)). People describe it firsthand too: some say potassium helped them [feel emotions again](https://www.reddit.com/r/POTS/comments/1go5xl1/did_anybody_notice_how_potassium_makes_you/), and others tie their [panic attacks to low potassium](https://www.reddit.com/r/Anxietyhelp/comments/1d52hl6/low_potassium_an_issue_for_anyone/). People who eat more of it also tend to think and remember better as they get older ([Na, et al, 2022](https://doaj.org/article/335f413ec4a5414d8abb24b26101837e)), though not every study agrees, and none yet shows extra potassium helping people who already get enough. Some people need more than others, too, since diarrhea, diuretics and some inherited kidney conditions drain it ([NIH, 2022](https://ods.od.nih.gov/factsheets/Potassium-HealthProfessional/); [Cruz, et al, 2001](https://pubmed.ncbi.nlm.nih.gov/11168953/)). More potassium also brings high blood pressure down ([Aburto, et al, 2013](https://pubmed.ncbi.nlm.nih.gov/23558164/)), which matters on Strategy A, since its salts bring their own sodium. Stone Age diets are estimated to have had more than four times the potassium we eat now ([Sebastian, et al, 2006](https://pubmed.ncbi.nlm.nih.gov/17275582/)), so eating closer to a paleo diet probably does more than adding a couple of potatoes, but the potatoes and greens below are the easy way to start. If you have kidney disease or take a blood pressure drug that holds on to potassium, like an ACE inhibitor or an ARB, ask your doctor first, since potassium can build up in your blood ([NIH, 2022](https://ods.od.nih.gov/factsheets/Potassium-HealthProfessional/)).
 
 The Target: Aim for 4,700 mg of Potassium daily.
 
@@ -229,7 +225,7 @@ Avocado: ~700-900 mg.
 
 Coconut Water: ~600 mg per cup.
 
-The Strategy: Eat 2 large potatoes and 2 cups of greens every single day. This saturates your cells, lowering your "resting voltage" so you become physically harder to trigger.
+The Strategy: Eat 2 large potatoes and 2 cups of greens every single day. That gets you close to the target, and the rest comes from your other food.
 
 If on Deep Fix, Strategy B (Keto Diet): [***See my Keto Adaptation Guide for electrolytes.***](http://ketoflu.u-dont-exist.com/)
 
@@ -247,11 +243,21 @@ Best fit: Glutamate Storm + rumination/compulsion + inflammatory or neuropathic 
 
 Poor fit: already numb, low-drive, depressed, dissociated, low blood pressure, sedated, or entering the Dynorphin Void.
 
-Cycle rule: use it as a 7–14 day anxiety-phase experiment, not a forever baseline. Stop if flatness, anhedonia, apathy, irritability, insomnia, dizziness, nausea, loose stools, diarrhea, or increased craving appears.
+Cycle rule: use it as a 7–14 day anxiety-phase experiment, not a forever baseline, unless it is unmistakably helping acute glutamate storms without worsening flatness. Stop if flatness, anhedonia, apathy, irritability, insomnia, dizziness, nausea, loose stools, diarrhea, or increased craving appears.
 
 Timing rule: avoid agmatine on D-Serine/DCS-style reconsolidation days, or keep it at least 12–24 hours away from the session.
 
+Agmatine with psychedelics is more complicated, and I can't say to take it with them or not. People's reports differ: some say it makes a trip or roll stronger while capping the euphoria, others that it weakens it. A friend of mine finds it gives a lot of the introspective benefits he gets from iboga, and that the two go well together, although I haven't heard of that from others. I don't notice much from it myself, aside from, I think, a lower ceiling on euphoria. I wouldn't use it unless a trip gets too stormy, but you can try the combination to see if it's worthwhile for you. Everyone's different.
+
 Magnesium Glycinate: 400mg (Night). *The "Plug" for the anxiety channel.*
+
+DMSO (99.9%): Smell it, as in the Fog table below. In rat brain cells in a dish, DMSO at 0.5 to 1.5% quickly turned down the signals glutamate sends through its NMDA and AMPA receptors, and the calcium they let in. It also kept glutamate from killing the cells ([Lu & Mattson, 2001](https://pubmed.ncbi.nlm.nih.gov/11421595/)). Back in 1967, doctors in Lima injected it into the muscles of 42 psychiatric inpatients, and nine of them had severe anxiety or obsessive-compulsive disorder. Within days they grew calmer, and the acute cases went home sooner than 16 patients with similar diagnoses who got the usual treatments of the time, such as electroshock, insulin comas and tranquilizers ([Ramírez & Luza, 1967](https://doi.org/10.1111/j.1749-6632.1967.tb34937.x)). There was no placebo, though, and the patients they were compared with weren't picked at random.
+
+It is used for humans routinely in stem cell transplants and by many humans for all kinds of medical problems, from arthritis to brain injuries ([Jacob & de la Torre, 2015](https://www.routledge.com/Dimethyl-Sulfoxide-DMSO-in-Trauma-and-Disease/Jacob-Torre/p/book/9781138894624)). There is evidence ([Mitrus, et al, 2018](https://pubmed.ncbi.nlm.nih.gov/29269805/)) that using too much DMSO (10% vs 5%) in stem cell transfusions increases mild side effects in adult humans. It hasn't been tested (that I know of, yet) specifically for PTSD, so for PTSD it rests on what people report, and many say it helps.
+
+Nebulized DMSO with heparin (a blood thinner) has been shown to cut the lung damage from toxic cotton smoke in sheep ([Kimura, et al, 1988](https://pubmed.ncbi.nlm.nih.gov/2458858/)). In another study, the smoke killed all seven untreated sheep and four of the six given DMSO alone, while all seven given DMSO with heparin survived ([Brown, et al, 1988](https://pubmed.ncbi.nlm.nih.gov/3356738/)). But it has shown some neurotoxic effects in rodent studies. In mice in their first month of life, even the smallest dose tested set off brain cell death, and the authors worried about the children who get it in transplants ([Hanslick, et al, 2009](https://pubmed.ncbi.nlm.nih.gov/19100327/)), although so far there's no proof it's harming children when it's not given by IV, and many people use it on their children for injuries, infections, and so forth with good results in practice. Translating mouse research to humans isn't straightforward.
+
+My experience and that of those I know and have read about, is that it has immense brain benefits, turning bad trips good instantly, giving relaxed alertness, more intelligence, brighter mood (especially when nebulized). When I nebulize it, within a minute, my brain feels crystal clean and super blissed out (much more bliss than other routes). But when used too close to bedtime or too much, it can reduce sleep, so it's best taken in the morning, and reduce the dose if you notice you're sleeping less. If it is killing my neurons, I'm pretty sure it's killing the trash ones that should be going out anyway. My dad used DMSO for decades and was healthy and mentally sharp into his old age.
 
 The Dynorphin Bridge (Apathy / DAWS-pattern Void):Cordyceps mushrooms: A gentle vitality tool for some people, especially when the Void is mostly fatigue and low respiratory/mitochondrial drive.
 
@@ -263,11 +269,13 @@ Uridine Monophosphate: The more targeted option when the Void looks like dopamin
 
 The Stack: Microdose Iboga Nasal Spray (Bypasses digestion, quicker effect). Read my [iboga microdosing guide](http://ibogamicroprotocol.u-dont-exist.com/) to keep safe. While shrooms are often better for a functional mood brightener effect, iboga is its own kind of therapist that shows you what you need to see in a non-threatening way.
 
-Female Iboga: For "Numbness/Fog" (Anima).
+Female Iboga: For "Emotional Numbness" (Anima).
 
-Male Iboga: For "Helplessness/Relapse" (Animus).
+Male Iboga: For "Brain Fog/Helplessness/Relapse" (Animus).
 
-Shrooms: Hillbilly or Mazatapec strains are some of the best (0.1g - 0.2g).
+Tabernanthe elliptica ("bisexual" or "healer" iboga): an iboga cousin with many iboga alkaloids. In my experience it's the best of both worlds, but lower potency than regular iboga, and it doesn't feel as trancey. Try elliptica first for microdosing: in my experience it's more functional, more clear-headed, and often better for mood.
+
+Shrooms: Hillbilly or Mazatapec strains are some of the best (100-300mg, though some strains are much more potent).
 
 ## Part 4: THE JAMMER (Acute Symptom Management)
 
@@ -291,15 +299,15 @@ Step 3: Apply the Jammer: Now use Tetris or the "Color-Path Connect" game to ove
 
 [image 5](https://substackcdn.com/image/fetch/$s_!hkoq!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6b6016a4-5f84-4559-b2e8-24a72d1175cb_1448x1086.png)
 
-Advanced tactic: The D-Serine Memory Re-consolidator. While L-Serine provides the building blocks for myelin, taking D-Serine (700mg–1400mg) on an empty stomach 45 minutes before a de-armoring session acts as a "memory (re)consolidator" which can cement the benefits of therapies like EMDR which aim to rewire the affective tone of memories.
+Advanced tactic: The D-Serine Memory Re-consolidator. While L-Serine provides the building blocks for myelin, taking D-Serine (700mg–1400mg) on an empty stomach before a de-armoring session acts as a "memory (re)consolidator" which can cement the benefits of therapies like EMDR which aim to rewire the affective tone of memories.
 
 D-serine has shown efficacy in studies where it was used to augment exposure therapy for treating a variety of conditions such as social anxiety, PTSD, and fear of public speaking. The idea is that it facilitates the consolidation of the newly formed memory of how the anticipated negative consequences of the exposure to what you fear didn't actually happen. Some studies ssuggested that d-serine is more effective at this when the practice exposure to what you fear ends on a positive note as opposed to a negative one. Again, all d-serine is doing is making it easier to consolidate the memory of the experience into a long-term memory.
 
 Use L-Serine for daily maintenance and background hardware support.
 
-Use D-Serine for acute sessions where you need to "force" memory reconsolidation. [Best price from LifeLab](https://www.lifelabsupplements.com/d-serine). You should take it 45 minutes or so after taking PQQ & Ketones so that your brain is fueled when the D-serine starts working.
+Use D-Serine for acute sessions where you need to "force" memory reconsolidation. [Best price from LifeLab](https://www.lifelabsupplements.com/d-serine). Take PQQ & Ketones first, the D-serine about 45 minutes later, and start the session about 45 minutes after that, so that your brain is fueled when the D-serine starts working.
 
-Warning: High doses of D-Serine damaged the kidneys in rat studies, so it carries a kidney caution, though kidney problems have been rare in human studies. Do not exceed 30mg/kg and ensure high water intake.
+Warning: High doses of D-Serine damaged the kidneys in rat studies, so it carries a kidney caution, though kidney problems have been rare in human studies. Do not exceed 30mg/kg, even when that's less than the dose above, as it is for anyone under about 47 kg (104 lb), and ensure high water intake.
 
 ### Scenario B: The "Fog"
 
@@ -331,13 +339,13 @@ Activate the "Inner Father": If you are lacking discipline, try a male iboga nas
 
 ## Part 5: THE TIMELINE (The 8-Week Path)
 
-Weeks 1–2: The Glutamate Storm (Anxiety Phase)Protocol:Self-care: Hot & cold showers, alternating, ending on cold. *No hot showers if heart rate elevated or heart-rate-variability reduced.*
+Weeks 1–2: The Glutamate Storm (Anxiety Phase)Protocol:Self-care: Cold showers for anxiety, though hot showers might also help, so you can experiment, and many people find hot baths especially good for anxiety (especially with Epsom salt). *No hot showers if heart rate elevated or heart-rate-variability reduced.* My [breathwork page](http://breathwork.u-dont-exist.com/) can help a lot with anxiety and mood too.
 
 Supplement daily:
 
 Phosphatidylserine about 400 mg earlier in the day only if you fit the high-cortisol profile + 1 cup broccoli sprouts + Magnesium Glycinate 400 mg + NAC 1.8–2.4 g divided.
 
-Optional add-on: Agmatine Sulfate 250–500 mg AM, increasing to 500 mg twice daily only if it clearly reduces the hot/itchy/reactive state without flattening mood. Cap at 1 g/day in this protocol. Do not add agmatine on the same day you increase PS, start D-Serine, change NAC dose, begin keto, microdose, or introduce any other major variable.
+Optional add-on: Agmatine Sulfate 250–500 mg in the morning or early afternoon for 3 days, then increasing to 500 mg twice daily only if it clearly reduces the hot/itchy/reactive state without flattening mood. Cap at 1 g/day in this protocol. Do not add agmatine on the same day you start PS, start D-Serine, change NAC dose, begin keto, microdose, or introduce any other major variable.
 
 If PS leaves you flat OR more wired, you're not a high-cortisol responder--drop it. If agmatine leaves you flat, anhedonic, dizzy, nauseous, sleepless, irritable, or more craving-prone--drop it.
 
@@ -347,15 +355,15 @@ Rescue: "The Fire" + [Chantress Seba](https://www.youtube.com/channel/UCM9H6pHyg
 
 Weeks 3–5: The Dynorphin Void (Depression Phase)State: The anxiety stops, but the world turns gray/boring.
 
-Protocol:Taper off Phosphatidylserine here. This phase is low-drive and gray by design--you do *not* want to keep blunting cortisol in an already-flattened system, or you'll deepen the numbness. PS was for the anxiety phase; the Void phase needs the opposite. (If you never felt the wired/high-cortisol state in Weeks 1–2, you probably shouldn't have been on PS at all.)
+Protocol:Reduce or stop phosphatidylserine here. This phase is low-drive and gray by design--you do *not* want to keep blunting cortisol in an already-flattened system, or you'll deepen the numbness. PS was for the anxiety phase; the Void phase needs the opposite. (If you never felt the wired/high-cortisol state in Weeks 1–2, you probably shouldn't have been on PS at all.)
 
 Also stop agmatine here unless it is unmistakably helping acute glutamate storms without worsening flatness. The Void phase is already low-drive and gray; agmatine can over-brake the system in the same direction.
 
 UMP trial if the Void looks like DAWS: 150–300 mg UMP in the morning with food for 3–7 days, with choline + DHA/EPA in place. Best fit: low dreams, weak visuals, high psychedelic tolerance, dopamine-agonist withdrawal history, ketamine/LSD craving, or dopamine-hit chasing. Do not take UMP on psychedelic days, and assume old psychedelic doses may become too strong if sensitivity returns.
 
-5-HTP trial if the bottleneck looks serotonergic: 50–100 mg at night for 2–3 nights, with optional P5P 10–20 mg in the morning. Best fit: poor sleep, low mood warmth, nighttime rumination, or TPH2-style serotonin synthesis bottleneck. Do not use with serotonergic medications/supplements, ayahuasca/harmalas, iboga, MDMA, DXM, tramadol, or same-day psychedelics.
+5-HTP trial if the bottleneck looks serotonergic: 50 mg at night for 2–3 nights, then 100 mg if that clearly helped without side effects, for as long as it benefits you, with optional P5P 10–20 mg in the morning. Best fit: poor sleep, low mood warmth, nighttime rumination, or TPH2-style serotonin synthesis bottleneck. Do not use with serotonergic medications/supplements, ayahuasca/harmalas, iboga, MDMA, DXM, tramadol, or same-day psychedelics.
 
-Hot & cold showers, alternating, ending on cold). *No hot showers if heart rate elevated or heart-rate-variability reduced*. Reduce or stop phosphatidylserine here--you don't want to suppress an already-flattened system. Micro-dose Male Iboga (if heart is ok).
+Hot & cold showers, alternating, ending on cold). *No hot showers if heart rate elevated or heart-rate-variability reduced*. Micro-dose Tabernanthe elliptica or Male Iboga (if heart is ok: an ECG is how to know).
 
 Transition: Consider moving to Strategy B (Keto Diet) for long-term repair (Autophagy) now that the acute storm has passed.
 
@@ -363,7 +371,7 @@ Rescue:
 
 *If Foggy:* Inhale DMSO + Drink BHB.
 
-*If Numb:* Micro-dose Male Iboga and/or Hillybilly/Mazatapec shrooms.
+*If Numb:* Micro-dose Tabernanthe elliptica or Female Iboga, and/or Hillybilly/Mazatapec shrooms.
 
 Week 8+: The BaselineState: DeltaFosB degraded, if the animal timelines carry over. Hardware reset complete.
 

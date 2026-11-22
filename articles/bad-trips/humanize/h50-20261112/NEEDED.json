@@ -1,0 +1,47 @@
+{
+ "brainev-c1": {
+  "reader": "a fresh Haiku agent given tools/humanization/needed_read_brief.md with the paragraph, its heading and what it is for (reads/need-brainev-c1.txt)",
+  "unneeded": [
+   "It also suppresses NMDA- and AMPA-mediated excitotoxicity, the overexcited nerve signaling that kills brain cells after a stroke."
+  ],
+  "kept": {
+   "It also suppresses NMDA- and AMPA-mediated excitotoxicity, the overexcited nerve signaling that kills brain cells after a stroke.": "they trust DMSO for a damaged brain more once they know it protects brain cells from the overexcitation that kills them after a stroke, which is what makes it worth giving at all"
+  }
+ },
+ "rescue-c8": {
+  "reader": "a fresh Haiku agent given tools/humanization/needed_read_brief.md with the paragraph, its heading and what it is for (reads/need-rescue-c8.txt)",
+  "unneeded": [
+   "These are benzodiazepines, the same first drugs doctors reach for when a seizure won't stop."
+  ],
+  "kept": {
+   "These are benzodiazepines, the same first drugs doctors reach for when a seizure won't stop.": "they give a friend's rescue medicine without second-guessing once they know it is the drug doctors give first for a seizure that won't stop, and they know what the breathing warning after it is about"
+  }
+ },
+ "rescue-c9": {
+  "reader": "a fresh Haiku agent given tools/humanization/needed_read_brief.md with the paragraph, its heading and what it is for (reads/need-rescue-c9.txt)",
+  "unneeded": [
+   "It's a benzodiazepine, which is what doctors reach for first when a seizure won't stop."
+  ],
+  "kept": {
+   "It's a benzodiazepine, which is what doctors reach for first when a seizure won't stop.": "they give a friend's rescue medicine without second-guessing once they know it is what doctors give first for a seizure that won't stop, and they know what the breathing warning after it is about"
+  }
+ },
+ "brainev-c2": {
+  "reader": "a fresh Haiku agent given tools/humanization/needed_read_brief.md with the paragraph, its heading and what it is for (reads/need-brainev-c2.txt)",
+  "unneeded": [
+   "It also calms the overexcited nerve signaling that kills brain cells after a stroke (NMDA- and AMPA-mediated excitotoxicity)."
+  ],
+  "kept": {
+   "It also calms the overexcited nerve signaling that kills brain cells after a stroke (NMDA- and AMPA-mediated excitotoxicity).": "they trust DMSO for a damaged brain more once they know it calms the nerve signaling that kills brain cells after a stroke, which is what makes it worth giving at all"
+  }
+ },
+ "rescue-c10": {
+  "reader": "a fresh Haiku agent given tools/humanization/needed_read_brief.md with the paragraph, its heading and what it is for (reads/need-rescue-c10.txt)",
+  "unneeded": [
+   "It's a benzodiazepine, the kind of drug doctors reach for first when a seizure won't stop."
+  ],
+  "kept": {
+   "It's a benzodiazepine, the kind of drug doctors reach for first when a seizure won't stop.": "they give a friend's rescue medicine without second-guessing once they know it is what doctors give first for a seizure that won't stop, and they know what the breathing warning after it is about"
+  }
+ }
+}

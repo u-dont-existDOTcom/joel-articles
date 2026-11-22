@@ -11,7 +11,11 @@ page in the same turn as the suggestions; the four lists broke it (lesson E265).
 The page is the article from its Markdown, every block in order with its P-number (para_numbers.py, the numbers on
 every page he reads). Each suggestion is highlighted on the exact words it changes, in its type's colour, and its card
 sits right under that paragraph: what changes (the paragraph as it would read, cut words struck through and new words
-marked), why, what stays, my advice, and his buttons, Approve / Reject / Revise / Not approved yet, with a comment box.
+marked), why, what stays, my advice, and his buttons, Approve / Reject / Revise, with a comment box; once he has answered, an
+"Undo my answer" button takes the card back to undecided. (1.11, 2026-11-11: the fourth button was labelled "Not approved
+yet" and showed, pressed, on every undecided card, where a click did nothing. Joel, 2026-11-11 19:54 UTC: "can you
+durably fix this cards thing because 'not approved yet' doesn't work as a button". A button names what it does and shows
+only when it can do it.)
 Revise opens his own version of the paragraph, starting from mine. Nothing counts as approved until he clicks Approve
 (REVIEW-INTERFACE-DIRECT-DECISION-ADDENDUM.md). A suggestion a reader made that I'd leave as it is shows as a quiet
 grey line he can open and overrule. Answers save as he clicks (the artifact's store when the page is published with
@@ -107,7 +111,7 @@ from html_links import join_split_links  # noqa: E402  (a pasted post card's lin
 TEMPLATE = HERE / 'suggestion_review_template.html'
 FORM_CSS = ROOT / 'project-sources' / 'review-form-controls.css'
 FORMAT = 'joel-suggestion-review-v1'
-GENERATOR = 'suggestion_review.py 1.10 (2026-11-07)'
+GENERATOR = 'suggestion_review.py 1.11 (2026-11-11)'
 ID_OK = re.compile(r'^[A-Za-z0-9][A-Za-z0-9.\-]{0,80}$')
 # a Pangram result's page (2026-11-02, Joel on the hypnosis guide's cards: "why are you not giving me the pangram link so
 # i can see? always give me the links", and "you didn't check if your changes passed.. they didn't. don't waste my time")
@@ -839,7 +843,7 @@ def edit_html(s, bl, types):
 <div class="card-body">
 <div class="changes"><div class="chg"><div class="chg-k">As it is now</div>{now}</div></div>
 <div class="info">{info}</div>
-<div class="decide" role="group" aria-label="Decision on {esc(sid)}"><button type="button" class="dec reject" data-dec="rejected">{esc(keep)}</button><button type="button" class="dec revise" data-dec="revise">Edit it</button><button type="button" class="dec undo" data-dec="pending">Not decided yet</button></div>
+<div class="decide" role="group" aria-label="Decision on {esc(sid)}"><button type="button" class="dec reject" data-dec="rejected">{esc(keep)}</button><button type="button" class="dec revise" data-dec="revise">Edit it</button><button type="button" class="dec undo" data-dec="pending" hidden>Undo my answer</button></div>
 <label class="yours-wrap" hidden><span class="lab">Your version</span><textarea class="yours" rows="5" placeholder="Your wording"></textarea></label>
 <label class="note-wrap"><span class="lab">Your comment</span><textarea class="note" rows="2" placeholder="A note (optional)"></textarea></label>
 <div class="saved-line"></div>
@@ -881,9 +885,9 @@ def card_html(s, bl, types):
 <div class="card-body"{' hidden' if leave else ''}>
 <div class="changes">{change_html(s, bl)}</div>
 <div class="info">{info}<div class="row advice"><span class="lab">My advice</span> <span>{advice}</span></div>{f'<div class="row src"><span class="lab">Found by</span> <span>{found}</span></div>' if found else ''}</div>
-<div class="decide" role="group" aria-label="Decision on {esc(sid)}"><button type="button" class="dec approve" data-dec="approved">Approve: {esc(approve)}</button><button type="button" class="dec reject" data-dec="rejected">Reject: keep it as it is</button><button type="button" class="dec revise" data-dec="revise">Revise</button><button type="button" class="dec undo" data-dec="pending">Not approved yet</button></div>
+<div class="decide" role="group" aria-label="Decision on {esc(sid)}"><button type="button" class="dec approve" data-dec="approved">Approve: {esc(approve)}</button><button type="button" class="dec reject" data-dec="rejected">Reject: keep it as it is</button><button type="button" class="dec revise" data-dec="revise">Revise</button><button type="button" class="dec undo" data-dec="pending" hidden>Undo my answer</button></div>
 <label class="yours-wrap" hidden><span class="lab">Your version</span><textarea class="yours" rows="4" placeholder="Your wording, or what to change"></textarea></label>
-<label class="note-wrap"><span class="lab">Your comment</span><textarea class="note" rows="2" placeholder="A note on this suggestion (optional)"></textarea></label>
+<label class="note-wrap"><span class="lab">Your comment</span><textarea class="note" rows="2" placeholder="A note, or a question for me (optional): a question can wait here undecided"></textarea></label>
 <div class="saved-line"></div>
 </div></section>'''
 

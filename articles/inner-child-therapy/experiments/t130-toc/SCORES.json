@@ -1,0 +1,3215 @@
+{
+ "B-1": {
+  "contents": "B",
+  "totals": {
+   "right": 34,
+   "near": 0,
+   "wrong": 4,
+   "guesses": 19,
+   "sure_but_wrong": 0,
+   "found": 35,
+   "unmatched": 0,
+   "situations": 38
+  },
+  "situations": {
+   "1": {
+    "first": "When It Feels Fake",
+    "first_id": "S080",
+    "first_is": "right",
+    "sure": true,
+    "next": "",
+    "next_id": null,
+    "next_is": null
+   },
+   "2": {
+    "first": "Love Before Trust ❤️",
+    "first_id": "S031",
+    "first_is": "right",
+    "sure": false,
+    "next": "When It Feels Fake",
+    "next_id": "S080",
+    "next_is": "wrong"
+   },
+   "3": {
+    "first": "If Love Isn’t Coming Yet",
+    "first_id": "S032",
+    "first_is": "right",
+    "sure": true,
+    "next": "",
+    "next_id": null,
+    "next_is": null
+   },
+   "4": {
+    "first": "The Parent You Inherited",
+    "first_id": "S027",
+    "first_is": "right",
+    "sure": true,
+    "next": "",
+    "next_id": null,
+    "next_is": null
+   },
+   "5": {
+    "first": "If You Want to Kill Yourself",
+    "first_id": "S013",
+    "first_is": "right",
+    "sure": true,
+    "next": "",
+    "next_id": null,
+    "next_is": null
+   },
+   "6": {
+    "first": "Don’t Buy an Outer Adult",
+    "first_id": "S019",
+    "first_is": "right",
+    "sure": false,
+    "next": "Signs of Manipulation",
+    "next_id": "S020",
+    "next_is": "right"
+   },
+   "7": {
+    "first": "Forgiving, Not Forgetting",
+    "first_id": "S037",
+    "first_is": "right",
+    "sure": true,
+    "next": "",
+    "next_id": null,
+    "next_is": null
+   },
+   "8": {
+    "first": "Therapy Stirred You Up?",
+    "first_id": "S009",
+    "first_is": "right",
+    "sure": true,
+    "next": "",
+    "next_id": null,
+    "next_is": null
+   },
+   "9": {
+    "first": "Morning & Night Practice",
+    "first_id": "S073",
+    "first_is": "right",
+    "sure": false,
+    "next": "Gentle Mantra Meditation",
+    "next_id": "S072",
+    "next_is": "wrong"
+   },
+   "10": {
+    "first": "No Clear Child Yet?",
+    "first_id": "S081",
+    "first_is": "right",
+    "sure": true,
+    "next": "",
+    "next_id": null,
+    "next_is": null
+   },
+   "11": {
+    "first": "Belonging Bargains",
+    "first_id": "S115",
+    "first_is": "right",
+    "sure": false,
+    "next": "Practicing Differentiation",
+    "next_id": "S117",
+    "next_is": "right"
+   },
+   "12": {
+    "first": "Is It Helping?",
+    "first_id": "S087",
+    "first_is": "right",
+    "sure": true,
+    "next": "",
+    "next_id": null,
+    "next_is": null
+   },
+   "13": {
+    "first": "Hooked on Healing",
+    "first_id": "S086",
+    "first_is": "right",
+    "sure": false,
+    "next": "Is It Helping?",
+    "next_id": "S087",
+    "next_is": "wrong"
+   },
+   "14": {
+    "first": "Therapy or Escapism?",
+    "first_id": "S093",
+    "first_is": "right",
+    "sure": false,
+    "next": "When Drugs Warp Reality",
+    "next_id": "S098",
+    "next_is": "right"
+   },
+   "15": {
+    "first": "Attacked by a Demon?",
+    "first_id": "S095",
+    "first_is": "right",
+    "sure": true,
+    "next": "",
+    "next_id": null,
+    "next_is": null
+   },
+   "16": {
+    "first": "What to Do With a Peak",
+    "first_id": "S097",
+    "first_is": "right",
+    "sure": true,
+    "next": "",
+    "next_id": null,
+    "next_is": null
+   },
+   "17": {
+    "first": "A Passing Feeling",
+    "first_id": "S070",
+    "first_is": "wrong",
+    "sure": false,
+    "next": "Missing Someone",
+    "next_id": "S143",
+    "next_is": "right"
+   },
+   "18": {
+    "first": "Finding a Therapist",
+    "first_id": "S129",
+    "first_is": "right",
+    "sure": true,
+    "next": "",
+    "next_id": null,
+    "next_is": null
+   },
+   "19": {
+    "first": "Write It. Don’t Send It Yet.",
+    "first_id": "S137",
+    "first_is": "right",
+    "sure": false,
+    "next": "Catch the Hook Early",
+    "next_id": "S069",
+    "next_is": "right"
+   },
+   "20": {
+    "first": "Guilty for Being Happy?",
+    "first_id": "S119",
+    "first_is": "right",
+    "sure": true,
+    "next": "",
+    "next_id": null,
+    "next_is": null
+   },
+   "21": {
+    "first": "Finding Your People",
+    "first_id": "S120",
+    "first_is": "right",
+    "sure": true,
+    "next": "",
+    "next_id": null,
+    "next_is": null
+   },
+   "22": {
+    "first": "Before Telling Secrets",
+    "first_id": "S123",
+    "first_is": "right",
+    "sure": false,
+    "next": "Opening Up Slowly",
+    "next_id": "S122",
+    "next_is": "right"
+   },
+   "23": {
+    "first": "The Urge to Escape",
+    "first_id": "S083",
+    "first_is": "wrong",
+    "sure": false,
+    "next": "AI therapy",
+    "next_id": "S133",
+    "next_is": "wrong"
+   },
+   "24": {
+    "first": "Pain Makes It Harder",
+    "first_id": "S084",
+    "first_is": "right",
+    "sure": false,
+    "next": "Your Body May Need Love",
+    "next_id": "S008",
+    "next_is": "wrong"
+   },
+   "25": {
+    "first": "Your Body May Need Love",
+    "first_id": "S008",
+    "first_is": "right",
+    "sure": true,
+    "next": "",
+    "next_id": null,
+    "next_is": null
+   },
+   "26": {
+    "first": "When You’re the Danger",
+    "first_id": "S011",
+    "first_is": "right",
+    "sure": true,
+    "next": "",
+    "next_id": null,
+    "next_is": null
+   },
+   "27": {
+    "first": "Similar Therapies",
+    "first_id": "S147",
+    "first_is": "right",
+    "sure": true,
+    "next": "",
+    "next_id": null,
+    "next_is": null
+   },
+   "28": {
+    "first": "Spoil or Clamp Down?",
+    "first_id": "S044",
+    "first_is": "right",
+    "sure": false,
+    "next": "The Urge to Escape",
+    "next_id": "S083",
+    "next_is": "wrong"
+   },
+   "29": {
+    "first": "Re-do Painful Memories",
+    "first_id": "S076",
+    "first_is": "right",
+    "sure": false,
+    "next": "Discipline Done Right?",
+    "next_id": "S077",
+    "next_is": "right"
+   },
+   "30": {
+    "first": "Bigger Door: Divine Love",
+    "first_id": "S041",
+    "first_is": "right",
+    "sure": false,
+    "next": "Toward Divine Love",
+    "next_id": "S049",
+    "next_is": "right"
+   },
+   "31": {
+    "first": "When Shame Gets Stuck",
+    "first_id": "S035",
+    "first_is": "right",
+    "sure": false,
+    "next": "Before Telling Secrets",
+    "next_id": "S123",
+    "next_is": "right"
+   },
+   "32": {
+    "first": "Dip Your Toes In First",
+    "first_id": "S007",
+    "first_is": "right",
+    "sure": true,
+    "next": "",
+    "next_id": null,
+    "next_is": null
+   },
+   "33": {
+    "first": "Which thoughts to talk to",
+    "first_id": "S065",
+    "first_is": "wrong",
+    "sure": false,
+    "next": "Catch the Hook Early",
+    "next_id": "S069",
+    "next_is": "wrong"
+   },
+   "34": {
+    "first": "Hearthwork: Take Turns",
+    "first_id": "S128",
+    "first_is": "wrong",
+    "sure": false,
+    "next": "Opening Up Slowly",
+    "next_id": "S122",
+    "next_is": "wrong"
+   },
+   "35": {
+    "first": "Start With What Shows Up",
+    "first_id": "S059",
+    "first_is": "right",
+    "sure": false,
+    "next": "A Passing Feeling",
+    "next_id": "S070",
+    "next_is": "wrong"
+   },
+   "36": {
+    "first": "The Urge to Escape",
+    "first_id": "S083",
+    "first_is": "right",
+    "sure": true,
+    "next": "",
+    "next_id": null,
+    "next_is": null
+   },
+   "37": {
+    "first": "Catch the Hook Early",
+    "first_id": "S069",
+    "first_is": "right",
+    "sure": true,
+    "next": "",
+    "next_id": null,
+    "next_is": null
+   },
+   "38": {
+    "first": "If it’s anxiety",
+    "first_id": "S071",
+    "first_is": "right",
+    "sure": false,
+    "next": "Which thoughts to talk to",
+    "next_id": "S065",
+    "next_is": "wrong"
+   }
+  }
+ },
+ "B-2": {
+  "contents": "B",
+  "totals": {
+   "right": 32,
+   "near": 0,
+   "wrong": 6,
+   "guesses": 20,
+   "sure_but_wrong": 0,
+   "found": 33,
+   "unmatched": 0,
+   "situations": 38
+  },
+  "situations": {
+   "1": {
+    "first": "When It Feels Fake",
+    "first_id": "S080",
+    "first_is": "right",
+    "sure": true,
+    "next": "",
+    "next_id": null,
+    "next_is": null
+   },
+   "2": {
+    "first": "Love Before Trust ❤️",
+    "first_id": "S031",
+    "first_is": "right",
+    "sure": false,
+    "next": "When It Feels Fake",
+    "next_id": "S080",
+    "next_is": "wrong"
+   },
+   "3": {
+    "first": "If Love Isn’t Coming Yet",
+    "first_id": "S032",
+    "first_is": "right",
+    "sure": false,
+    "next": "Love Before Trust ❤️",
+    "next_id": "S031",
+    "next_is": "right"
+   },
+   "4": {
+    "first": "The Parent You Inherited",
+    "first_id": "S027",
+    "first_is": "right",
+    "sure": true,
+    "next": "",
+    "next_id": null,
+    "next_is": null
+   },
+   "5": {
+    "first": "If You Want to Kill Yourself",
+    "first_id": "S013",
+    "first_is": "right",
+    "sure": true,
+    "next": "",
+    "next_id": null,
+    "next_is": null
+   },
+   "6": {
+    "first": "Don’t Buy an Outer Adult",
+    "first_id": "S019",
+    "first_is": "right",
+    "sure": false,
+    "next": "Signs of Manipulation",
+    "next_id": "S020",
+    "next_is": "right"
+   },
+   "7": {
+    "first": "Forgiving, Not Forgetting",
+    "first_id": "S037",
+    "first_is": "right",
+    "sure": true,
+    "next": "",
+    "next_id": null,
+    "next_is": null
+   },
+   "8": {
+    "first": "Therapy Stirred You Up?",
+    "first_id": "S009",
+    "first_is": "right",
+    "sure": true,
+    "next": "",
+    "next_id": null,
+    "next_is": null
+   },
+   "9": {
+    "first": "Morning & Night Practice",
+    "first_id": "S073",
+    "first_is": "right",
+    "sure": false,
+    "next": "Gentle Mantra Meditation",
+    "next_id": "S072",
+    "next_is": "wrong"
+   },
+   "10": {
+    "first": "No Clear Child Yet?",
+    "first_id": "S081",
+    "first_is": "right",
+    "sure": false,
+    "next": "Childhood Photos, Gently",
+    "next_id": "S063",
+    "next_is": "right"
+   },
+   "11": {
+    "first": "Belonging Bargains",
+    "first_id": "S115",
+    "first_is": "right",
+    "sure": false,
+    "next": "Practicing Differentiation",
+    "next_id": "S117",
+    "next_is": "right"
+   },
+   "12": {
+    "first": "Is It Helping?",
+    "first_id": "S087",
+    "first_is": "right",
+    "sure": true,
+    "next": "",
+    "next_id": null,
+    "next_is": null
+   },
+   "13": {
+    "first": "Hooked on Healing",
+    "first_id": "S086",
+    "first_is": "right",
+    "sure": false,
+    "next": "Re-do Painful Memories",
+    "next_id": "S076",
+    "next_is": "wrong"
+   },
+   "14": {
+    "first": "Therapy or Escapism?",
+    "first_id": "S093",
+    "first_is": "right",
+    "sure": false,
+    "next": "When Drugs Warp Reality",
+    "next_id": "S098",
+    "next_is": "right"
+   },
+   "15": {
+    "first": "Attacked by a Demon?",
+    "first_id": "S095",
+    "first_is": "right",
+    "sure": true,
+    "next": "",
+    "next_id": null,
+    "next_is": null
+   },
+   "16": {
+    "first": "What to Do With a Peak",
+    "first_id": "S097",
+    "first_is": "right",
+    "sure": true,
+    "next": "",
+    "next_id": null,
+    "next_is": null
+   },
+   "17": {
+    "first": "A Passing Feeling",
+    "first_id": "S070",
+    "first_is": "wrong",
+    "sure": false,
+    "next": "Missing Someone",
+    "next_id": "S143",
+    "next_is": "right"
+   },
+   "18": {
+    "first": "Finding a Therapist",
+    "first_id": "S129",
+    "first_is": "right",
+    "sure": true,
+    "next": "",
+    "next_id": null,
+    "next_is": null
+   },
+   "19": {
+    "first": "Write It. Don’t Send It Yet.",
+    "first_id": "S137",
+    "first_is": "right",
+    "sure": false,
+    "next": "Catch the Hook Early",
+    "next_id": "S069",
+    "next_is": "right"
+   },
+   "20": {
+    "first": "Guilty for Being Happy?",
+    "first_id": "S119",
+    "first_is": "right",
+    "sure": true,
+    "next": "",
+    "next_id": null,
+    "next_is": null
+   },
+   "21": {
+    "first": "Finding Your People",
+    "first_id": "S120",
+    "first_is": "right",
+    "sure": true,
+    "next": "",
+    "next_id": null,
+    "next_is": null
+   },
+   "22": {
+    "first": "Before Telling Secrets",
+    "first_id": "S123",
+    "first_is": "right",
+    "sure": false,
+    "next": "Opening Up Slowly",
+    "next_id": "S122",
+    "next_is": "right"
+   },
+   "23": {
+    "first": "The Urge to Escape",
+    "first_id": "S083",
+    "first_is": "wrong",
+    "sure": false,
+    "next": "AI therapy",
+    "next_id": "S133",
+    "next_is": "wrong"
+   },
+   "24": {
+    "first": "Pain Makes It Harder",
+    "first_id": "S084",
+    "first_is": "right",
+    "sure": false,
+    "next": "Your Body May Need Love",
+    "next_id": "S008",
+    "next_is": "wrong"
+   },
+   "25": {
+    "first": "Your Body May Need Love",
+    "first_id": "S008",
+    "first_is": "right",
+    "sure": true,
+    "next": "",
+    "next_id": null,
+    "next_is": null
+   },
+   "26": {
+    "first": "When You’re the Danger",
+    "first_id": "S011",
+    "first_is": "right",
+    "sure": true,
+    "next": "",
+    "next_id": null,
+    "next_is": null
+   },
+   "27": {
+    "first": "Similar Therapies",
+    "first_id": "S147",
+    "first_is": "right",
+    "sure": true,
+    "next": "",
+    "next_id": null,
+    "next_is": null
+   },
+   "28": {
+    "first": "The Urge to Escape",
+    "first_id": "S083",
+    "first_is": "wrong",
+    "sure": false,
+    "next": "Therapy or Escapism?",
+    "next_id": "S093",
+    "next_is": "wrong"
+   },
+   "29": {
+    "first": "Discipline Done Right?",
+    "first_id": "S077",
+    "first_is": "right",
+    "sure": false,
+    "next": "Re-do Painful Memories",
+    "next_id": "S076",
+    "next_is": "right"
+   },
+   "30": {
+    "first": "Bigger Door: Divine Love",
+    "first_id": "S041",
+    "first_is": "right",
+    "sure": false,
+    "next": "Toward Divine Love",
+    "next_id": "S049",
+    "next_is": "right"
+   },
+   "31": {
+    "first": "When Shame Gets Stuck",
+    "first_id": "S035",
+    "first_is": "right",
+    "sure": true,
+    "next": "",
+    "next_id": null,
+    "next_is": null
+   },
+   "32": {
+    "first": "Dip Your Toes In First",
+    "first_id": "S007",
+    "first_is": "right",
+    "sure": true,
+    "next": "",
+    "next_id": null,
+    "next_is": null
+   },
+   "33": {
+    "first": "Which thoughts to talk to",
+    "first_id": "S065",
+    "first_is": "wrong",
+    "sure": false,
+    "next": "A Passing Feeling",
+    "next_id": "S070",
+    "next_is": "wrong"
+   },
+   "34": {
+    "first": "Hearthwork: Take Turns",
+    "first_id": "S128",
+    "first_is": "wrong",
+    "sure": false,
+    "next": "Ask What They Need",
+    "next_id": "S125",
+    "next_is": "wrong"
+   },
+   "35": {
+    "first": "Start With What Shows Up",
+    "first_id": "S059",
+    "first_is": "right",
+    "sure": false,
+    "next": "A Passing Feeling",
+    "next_id": "S070",
+    "next_is": "wrong"
+   },
+   "36": {
+    "first": "The Urge to Escape",
+    "first_id": "S083",
+    "first_is": "right",
+    "sure": true,
+    "next": "",
+    "next_id": null,
+    "next_is": null
+   },
+   "37": {
+    "first": "Catch the Hook Early",
+    "first_id": "S069",
+    "first_is": "right",
+    "sure": true,
+    "next": "",
+    "next_id": null,
+    "next_is": null
+   },
+   "38": {
+    "first": "Belonging Bargains",
+    "first_id": "S115",
+    "first_is": "wrong",
+    "sure": false,
+    "next": "Practicing Differentiation",
+    "next_id": "S117",
+    "next_is": "wrong"
+   }
+  }
+ },
+ "B2-1": {
+  "contents": "B2",
+  "totals": {
+   "right": 32,
+   "near": 0,
+   "wrong": 6,
+   "guesses": 20,
+   "sure_but_wrong": 0,
+   "found": 34,
+   "unmatched": 0,
+   "situations": 38
+  },
+  "situations": {
+   "1": {
+    "first": "When It Feels Fake",
+    "first_id": "S080",
+    "first_is": "right",
+    "sure": true,
+    "next": "",
+    "next_id": null,
+    "next_is": null
+   },
+   "2": {
+    "first": "When It Feels Fake",
+    "first_id": "S080",
+    "first_is": "wrong",
+    "sure": false,
+    "next": "Love Before Trust ❤️",
+    "next_id": "S031",
+    "next_is": "right"
+   },
+   "3": {
+    "first": "If Love Isn’t Coming Yet",
+    "first_id": "S032",
+    "first_is": "right",
+    "sure": true,
+    "next": "",
+    "next_id": null,
+    "next_is": null
+   },
+   "4": {
+    "first": "The Parent You Inherited",
+    "first_id": "S027",
+    "first_is": "right",
+    "sure": false,
+    "next": "Answer the Disciplinarian",
+    "next_id": "S078",
+    "next_is": "right"
+   },
+   "5": {
+    "first": "If You Want to Kill Yourself",
+    "first_id": "S013",
+    "first_is": "right",
+    "sure": true,
+    "next": "",
+    "next_id": null,
+    "next_is": null
+   },
+   "6": {
+    "first": "Don’t Buy an Outer Adult",
+    "first_id": "S019",
+    "first_is": "right",
+    "sure": false,
+    "next": "Signs of Manipulation",
+    "next_id": "S020",
+    "next_is": "right"
+   },
+   "7": {
+    "first": "Forgiving, Not Forgetting",
+    "first_id": "S037",
+    "first_is": "right",
+    "sure": true,
+    "next": "",
+    "next_id": null,
+    "next_is": null
+   },
+   "8": {
+    "first": "Therapy Stirred You Up?",
+    "first_id": "S009",
+    "first_is": "right",
+    "sure": true,
+    "next": "",
+    "next_id": null,
+    "next_is": null
+   },
+   "9": {
+    "first": "Morning & Night Practice",
+    "first_id": "S073",
+    "first_is": "right",
+    "sure": true,
+    "next": "",
+    "next_id": null,
+    "next_is": null
+   },
+   "10": {
+    "first": "No Clear Child Yet?",
+    "first_id": "S081",
+    "first_is": "right",
+    "sure": true,
+    "next": "",
+    "next_id": null,
+    "next_is": null
+   },
+   "11": {
+    "first": "Belonging Bargains",
+    "first_id": "S115",
+    "first_is": "right",
+    "sure": false,
+    "next": "Practicing Differentiation",
+    "next_id": "S117",
+    "next_is": "right"
+   },
+   "12": {
+    "first": "Is It Helping?",
+    "first_id": "S087",
+    "first_is": "right",
+    "sure": true,
+    "next": "",
+    "next_id": null,
+    "next_is": null
+   },
+   "13": {
+    "first": "Hooked on Healing",
+    "first_id": "S086",
+    "first_is": "right",
+    "sure": false,
+    "next": "Forgiving, Not Forgetting",
+    "next_id": "S037",
+    "next_is": "wrong"
+   },
+   "14": {
+    "first": "Therapy or Escapism?",
+    "first_id": "S093",
+    "first_is": "right",
+    "sure": false,
+    "next": "My Trips Came Too Soon",
+    "next_id": "S107",
+    "next_is": "right"
+   },
+   "15": {
+    "first": "Attacked by a Demon?",
+    "first_id": "S095",
+    "first_is": "right",
+    "sure": true,
+    "next": "",
+    "next_id": null,
+    "next_is": null
+   },
+   "16": {
+    "first": "What to Do With a Peak",
+    "first_id": "S097",
+    "first_is": "right",
+    "sure": true,
+    "next": "",
+    "next_id": null,
+    "next_is": null
+   },
+   "17": {
+    "first": "When One Life Ends",
+    "first_id": "S142",
+    "first_is": "right",
+    "sure": false,
+    "next": "Missing Someone",
+    "next_id": "S143",
+    "next_is": "right"
+   },
+   "18": {
+    "first": "Finding a Therapist",
+    "first_id": "S129",
+    "first_is": "right",
+    "sure": true,
+    "next": "",
+    "next_id": null,
+    "next_is": null
+   },
+   "19": {
+    "first": "Write It. Don’t Send It Yet.",
+    "first_id": "S137",
+    "first_is": "right",
+    "sure": false,
+    "next": "Aim Your Words",
+    "next_id": "S136",
+    "next_is": "wrong"
+   },
+   "20": {
+    "first": "Guilty for Being Happy?",
+    "first_id": "S119",
+    "first_is": "right",
+    "sure": true,
+    "next": "",
+    "next_id": null,
+    "next_is": null
+   },
+   "21": {
+    "first": "Finding Your People",
+    "first_id": "S120",
+    "first_is": "right",
+    "sure": false,
+    "next": "First Connections",
+    "next_id": "S121",
+    "next_is": "right"
+   },
+   "22": {
+    "first": "Before Telling Secrets",
+    "first_id": "S123",
+    "first_is": "right",
+    "sure": true,
+    "next": "",
+    "next_id": null,
+    "next_is": null
+   },
+   "23": {
+    "first": "The Urge to Escape",
+    "first_id": "S083",
+    "first_is": "wrong",
+    "sure": false,
+    "next": "Catch the Hook Early",
+    "next_id": "S069",
+    "next_is": "wrong"
+   },
+   "24": {
+    "first": "Your Body May Need Love",
+    "first_id": "S008",
+    "first_is": "wrong",
+    "sure": false,
+    "next": "Pain Makes It Harder",
+    "next_id": "S084",
+    "next_is": "right"
+   },
+   "25": {
+    "first": "Your Body May Need Love",
+    "first_id": "S008",
+    "first_is": "right",
+    "sure": false,
+    "next": "Dip Your Toes In First",
+    "next_id": "S007",
+    "next_is": "wrong"
+   },
+   "26": {
+    "first": "When You’re the Danger",
+    "first_id": "S011",
+    "first_is": "right",
+    "sure": true,
+    "next": "",
+    "next_id": null,
+    "next_is": null
+   },
+   "27": {
+    "first": "Similar Therapies",
+    "first_id": "S147",
+    "first_is": "right",
+    "sure": true,
+    "next": "",
+    "next_id": null,
+    "next_is": null
+   },
+   "28": {
+    "first": "Spoil or Clamp Down?",
+    "first_id": "S044",
+    "first_is": "right",
+    "sure": false,
+    "next": "Therapy or Escapism?",
+    "next_id": "S093",
+    "next_is": "wrong"
+   },
+   "29": {
+    "first": "Re-do Painful Memories",
+    "first_id": "S076",
+    "first_is": "right",
+    "sure": false,
+    "next": "Discipline Done Right?",
+    "next_id": "S077",
+    "next_is": "right"
+   },
+   "30": {
+    "first": "Toward Divine Love",
+    "first_id": "S049",
+    "first_is": "right",
+    "sure": false,
+    "next": "Bigger Door: Divine Love",
+    "next_id": "S041",
+    "next_is": "right"
+   },
+   "31": {
+    "first": "When Shame Gets Stuck",
+    "first_id": "S035",
+    "first_is": "right",
+    "sure": true,
+    "next": "",
+    "next_id": null,
+    "next_is": null
+   },
+   "32": {
+    "first": "Dip Your Toes In First",
+    "first_id": "S007",
+    "first_is": "right",
+    "sure": false,
+    "next": "Ready for the Guide?",
+    "next_id": "S043",
+    "next_is": "wrong"
+   },
+   "33": {
+    "first": "Ugly Thoughts Happen",
+    "first_id": "S048",
+    "first_is": "right",
+    "sure": true,
+    "next": "",
+    "next_id": null,
+    "next_is": null
+   },
+   "34": {
+    "first": "Hearthwork: Take Turns",
+    "first_id": "S128",
+    "first_is": "wrong",
+    "sure": false,
+    "next": "Opening Up Slowly",
+    "next_id": "S122",
+    "next_is": "wrong"
+   },
+   "35": {
+    "first": "A Passing Feeling",
+    "first_id": "S070",
+    "first_is": "wrong",
+    "sure": false,
+    "next": "Catch the Hook Early",
+    "next_id": "S069",
+    "next_is": "wrong"
+   },
+   "36": {
+    "first": "The Urge to Escape",
+    "first_id": "S083",
+    "first_is": "right",
+    "sure": true,
+    "next": "",
+    "next_id": null,
+    "next_is": null
+   },
+   "37": {
+    "first": "Catch the Hook Early",
+    "first_id": "S069",
+    "first_is": "right",
+    "sure": false,
+    "next": "Talk to the hand!✋🏿",
+    "next_id": "S024",
+    "next_is": "wrong"
+   },
+   "38": {
+    "first": "Belonging Bargains",
+    "first_id": "S115",
+    "first_is": "wrong",
+    "sure": false,
+    "next": "Practicing Differentiation",
+    "next_id": "S117",
+    "next_is": "wrong"
+   }
+  }
+ },
+ "B2-2": {
+  "contents": "B2",
+  "totals": {
+   "right": 33,
+   "near": 0,
+   "wrong": 5,
+   "guesses": 18,
+   "sure_but_wrong": 0,
+   "found": 33,
+   "unmatched": 0,
+   "situations": 38
+  },
+  "situations": {
+   "1": {
+    "first": "When It Feels Fake",
+    "first_id": "S080",
+    "first_is": "right",
+    "sure": true,
+    "next": "",
+    "next_id": null,
+    "next_is": null
+   },
+   "2": {
+    "first": "Love Before Trust ❤️",
+    "first_id": "S031",
+    "first_is": "right",
+    "sure": false,
+    "next": "When It Feels Fake",
+    "next_id": "S080",
+    "next_is": "wrong"
+   },
+   "3": {
+    "first": "If Love Isn’t Coming Yet",
+    "first_id": "S032",
+    "first_is": "right",
+    "sure": true,
+    "next": "",
+    "next_id": null,
+    "next_is": null
+   },
+   "4": {
+    "first": "The Parent You Inherited",
+    "first_id": "S027",
+    "first_is": "right",
+    "sure": false,
+    "next": "Protect Them From You",
+    "next_id": "S026",
+    "next_is": "right"
+   },
+   "5": {
+    "first": "If You Want to Kill Yourself",
+    "first_id": "S013",
+    "first_is": "right",
+    "sure": true,
+    "next": "",
+    "next_id": null,
+    "next_is": null
+   },
+   "6": {
+    "first": "Don’t Buy an Outer Adult",
+    "first_id": "S019",
+    "first_is": "right",
+    "sure": false,
+    "next": "Signs of Manipulation",
+    "next_id": "S020",
+    "next_is": "right"
+   },
+   "7": {
+    "first": "Forgiving, Not Forgetting",
+    "first_id": "S037",
+    "first_is": "right",
+    "sure": true,
+    "next": "",
+    "next_id": null,
+    "next_is": null
+   },
+   "8": {
+    "first": "Therapy Stirred You Up?",
+    "first_id": "S009",
+    "first_is": "right",
+    "sure": true,
+    "next": "",
+    "next_id": null,
+    "next_is": null
+   },
+   "9": {
+    "first": "Morning & Night Practice",
+    "first_id": "S073",
+    "first_is": "right",
+    "sure": true,
+    "next": "",
+    "next_id": null,
+    "next_is": null
+   },
+   "10": {
+    "first": "No Clear Child Yet?",
+    "first_id": "S081",
+    "first_is": "right",
+    "sure": true,
+    "next": "No Inner Monologue?",
+    "next_id": "S062",
+    "next_is": "right"
+   },
+   "11": {
+    "first": "Belonging Bargains",
+    "first_id": "S115",
+    "first_is": "right",
+    "sure": false,
+    "next": "Practicing Differentiation",
+    "next_id": "S117",
+    "next_is": "right"
+   },
+   "12": {
+    "first": "Is It Helping?",
+    "first_id": "S087",
+    "first_is": "right",
+    "sure": true,
+    "next": "",
+    "next_id": null,
+    "next_is": null
+   },
+   "13": {
+    "first": "Hooked on Healing",
+    "first_id": "S086",
+    "first_is": "right",
+    "sure": false,
+    "next": "Is It Helping?",
+    "next_id": "S087",
+    "next_is": "wrong"
+   },
+   "14": {
+    "first": "Therapy or Escapism?",
+    "first_id": "S093",
+    "first_is": "right",
+    "sure": false,
+    "next": "When Drugs Warp Reality",
+    "next_id": "S098",
+    "next_is": "right"
+   },
+   "15": {
+    "first": "Attacked by a Demon?",
+    "first_id": "S095",
+    "first_is": "right",
+    "sure": false,
+    "next": "Turn Attack Into Gain",
+    "next_id": "S096",
+    "next_is": "right"
+   },
+   "16": {
+    "first": "What to Do With a Peak",
+    "first_id": "S097",
+    "first_is": "right",
+    "sure": true,
+    "next": "",
+    "next_id": null,
+    "next_is": null
+   },
+   "17": {
+    "first": "When One Life Ends",
+    "first_id": "S142",
+    "first_is": "right",
+    "sure": false,
+    "next": "Missing Someone",
+    "next_id": "S143",
+    "next_is": "right"
+   },
+   "18": {
+    "first": "Finding a Therapist",
+    "first_id": "S129",
+    "first_is": "right",
+    "sure": true,
+    "next": "",
+    "next_id": null,
+    "next_is": null
+   },
+   "19": {
+    "first": "Write It. Don’t Send It Yet.",
+    "first_id": "S137",
+    "first_is": "right",
+    "sure": false,
+    "next": "Catch the Hook Early",
+    "next_id": "S069",
+    "next_is": "right"
+   },
+   "20": {
+    "first": "Guilty for Being Happy?",
+    "first_id": "S119",
+    "first_is": "right",
+    "sure": true,
+    "next": "",
+    "next_id": null,
+    "next_is": null
+   },
+   "21": {
+    "first": "Finding Your People",
+    "first_id": "S120",
+    "first_is": "right",
+    "sure": true,
+    "next": "First Connections",
+    "next_id": "S121",
+    "next_is": "right"
+   },
+   "22": {
+    "first": "Before Telling Secrets",
+    "first_id": "S123",
+    "first_is": "right",
+    "sure": false,
+    "next": "Opening Up Slowly",
+    "next_id": "S122",
+    "next_is": "right"
+   },
+   "23": {
+    "first": "The Urge to Escape",
+    "first_id": "S083",
+    "first_is": "wrong",
+    "sure": false,
+    "next": "AI therapy",
+    "next_id": "S133",
+    "next_is": "wrong"
+   },
+   "24": {
+    "first": "Pain Makes It Harder",
+    "first_id": "S084",
+    "first_is": "right",
+    "sure": false,
+    "next": "Your Body May Need Love",
+    "next_id": "S008",
+    "next_is": "wrong"
+   },
+   "25": {
+    "first": "Your Body May Need Love",
+    "first_id": "S008",
+    "first_is": "right",
+    "sure": true,
+    "next": "",
+    "next_id": null,
+    "next_is": null
+   },
+   "26": {
+    "first": "When You’re the Danger",
+    "first_id": "S011",
+    "first_is": "right",
+    "sure": true,
+    "next": "",
+    "next_id": null,
+    "next_is": null
+   },
+   "27": {
+    "first": "Similar Therapies",
+    "first_id": "S147",
+    "first_is": "right",
+    "sure": true,
+    "next": "",
+    "next_id": null,
+    "next_is": null
+   },
+   "28": {
+    "first": "The Urge to Escape",
+    "first_id": "S083",
+    "first_is": "wrong",
+    "sure": false,
+    "next": "Hooked on Healing",
+    "next_id": "S086",
+    "next_is": "wrong"
+   },
+   "29": {
+    "first": "Discipline Done Right?",
+    "first_id": "S077",
+    "first_is": "right",
+    "sure": true,
+    "next": "Re-do Painful Memories",
+    "next_id": "S076",
+    "next_is": "right"
+   },
+   "30": {
+    "first": "Toward Divine Love",
+    "first_id": "S049",
+    "first_is": "right",
+    "sure": false,
+    "next": "Bigger Door: Divine Love",
+    "next_id": "S041",
+    "next_is": "right"
+   },
+   "31": {
+    "first": "When Shame Gets Stuck",
+    "first_id": "S035",
+    "first_is": "right",
+    "sure": true,
+    "next": "",
+    "next_id": null,
+    "next_is": null
+   },
+   "32": {
+    "first": "Dip Your Toes In First",
+    "first_id": "S007",
+    "first_is": "right",
+    "sure": true,
+    "next": "",
+    "next_id": null,
+    "next_is": null
+   },
+   "33": {
+    "first": "Ugly Thoughts Happen",
+    "first_id": "S048",
+    "first_is": "right",
+    "sure": true,
+    "next": "",
+    "next_id": null,
+    "next_is": null
+   },
+   "34": {
+    "first": "Hearthwork: Take Turns",
+    "first_id": "S128",
+    "first_is": "wrong",
+    "sure": false,
+    "next": "How To Let People In",
+    "next_id": "S124",
+    "next_is": "wrong"
+   },
+   "35": {
+    "first": "A Passing Feeling",
+    "first_id": "S070",
+    "first_is": "wrong",
+    "sure": false,
+    "next": "Real but Shallow?",
+    "next_id": "S082",
+    "next_is": "wrong"
+   },
+   "36": {
+    "first": "The Urge to Escape",
+    "first_id": "S083",
+    "first_is": "right",
+    "sure": true,
+    "next": "",
+    "next_id": null,
+    "next_is": null
+   },
+   "37": {
+    "first": "Catch the Hook Early",
+    "first_id": "S069",
+    "first_is": "right",
+    "sure": false,
+    "next": "Write It. Don’t Send It Yet.",
+    "next_id": "S137",
+    "next_is": "right"
+   },
+   "38": {
+    "first": "Belonging Bargains",
+    "first_id": "S115",
+    "first_is": "wrong",
+    "sure": false,
+    "next": "Practicing Differentiation",
+    "next_id": "S117",
+    "next_is": "wrong"
+   }
+  }
+ },
+ "C-1": {
+  "contents": "C",
+  "totals": {
+   "right": 31,
+   "near": 0,
+   "wrong": 7,
+   "guesses": 20,
+   "sure_but_wrong": 0,
+   "found": 31,
+   "unmatched": 0,
+   "situations": 38
+  },
+  "situations": {
+   "1": {
+    "first": "Adult Voice Feels Fake",
+    "first_id": "S080",
+    "first_is": "right",
+    "sure": false,
+    "next": "No Clear Little One Yet?",
+    "next_id": "S081",
+    "next_is": "wrong"
+   },
+   "2": {
+    "first": "“No. I Hate Myself.”",
+    "first_id": "S010",
+    "first_is": "wrong",
+    "sure": false,
+    "next": "Shame Says “Unlovable”",
+    "next_id": "S035",
+    "next_is": "wrong"
+   },
+   "3": {
+    "first": "If Love Isn’t Coming Yet",
+    "first_id": "S032",
+    "first_is": "right",
+    "sure": true,
+    "next": "",
+    "next_id": null,
+    "next_is": null
+   },
+   "4": {
+    "first": "The Parent You Inherited",
+    "first_id": "S027",
+    "first_is": "right",
+    "sure": true,
+    "next": "",
+    "next_id": null,
+    "next_is": null
+   },
+   "5": {
+    "first": "If You Want to Kill Yourself",
+    "first_id": "S013",
+    "first_is": "right",
+    "sure": true,
+    "next": "",
+    "next_id": null,
+    "next_is": null
+   },
+   "6": {
+    "first": "Signs of Manipulation",
+    "first_id": "S020",
+    "first_is": "right",
+    "sure": false,
+    "next": "A Teacher Betrayed You",
+    "next_id": "S056",
+    "next_is": "wrong"
+   },
+   "7": {
+    "first": "Forgiving, Not Forgetting",
+    "first_id": "S037",
+    "first_is": "right",
+    "sure": true,
+    "next": "",
+    "next_id": null,
+    "next_is": null
+   },
+   "8": {
+    "first": "Therapy Stirs Things Up",
+    "first_id": "S009",
+    "first_is": "right",
+    "sure": true,
+    "next": "",
+    "next_id": null,
+    "next_is": null
+   },
+   "9": {
+    "first": "Morning Aim, Night Review",
+    "first_id": "S073",
+    "first_is": "right",
+    "sure": false,
+    "next": "Meditation and Mantra",
+    "next_id": "S072",
+    "next_is": "wrong"
+   },
+   "10": {
+    "first": "No Clear Little One Yet?",
+    "first_id": "S081",
+    "first_is": "right",
+    "sure": true,
+    "next": "",
+    "next_id": null,
+    "next_is": null
+   },
+   "11": {
+    "first": "Belonging Bargains",
+    "first_id": "S115",
+    "first_is": "right",
+    "sure": false,
+    "next": "Your Own Preferences",
+    "next_id": "S112",
+    "next_is": "right"
+   },
+   "12": {
+    "first": "Is It Helping Your Life?",
+    "first_id": "S087",
+    "first_is": "right",
+    "sure": true,
+    "next": "",
+    "next_id": null,
+    "next_is": null
+   },
+   "13": {
+    "first": "Healing or Checking?",
+    "first_id": "S086",
+    "first_is": "right",
+    "sure": false,
+    "next": "Real, but Still Shallow?",
+    "next_id": "S082",
+    "next_is": "wrong"
+   },
+   "14": {
+    "first": "My Trips Came Too Soon",
+    "first_id": "S107",
+    "first_is": "right",
+    "sure": false,
+    "next": "Therapy or Escapism?",
+    "next_id": "S093",
+    "next_is": "right"
+   },
+   "15": {
+    "first": "Involuntary Altered States",
+    "first_id": "S095",
+    "first_is": "right",
+    "sure": false,
+    "next": "Spiritual Attack: Love",
+    "next_id": "S096",
+    "next_is": "right"
+   },
+   "16": {
+    "first": "What to Do With a Peak",
+    "first_id": "S097",
+    "first_is": "right",
+    "sure": true,
+    "next": "",
+    "next_id": null,
+    "next_is": null
+   },
+   "17": {
+    "first": "Missing Someone",
+    "first_id": "S143",
+    "first_is": "right",
+    "sure": false,
+    "next": "A Passing Feeling",
+    "next_id": "S070",
+    "next_is": "wrong"
+   },
+   "18": {
+    "first": "Find a Therapist",
+    "first_id": "S129",
+    "first_is": "right",
+    "sure": true,
+    "next": "",
+    "next_id": null,
+    "next_is": null
+   },
+   "19": {
+    "first": "Write It. Don’t Send It Yet.",
+    "first_id": "S137",
+    "first_is": "right",
+    "sure": true,
+    "next": "",
+    "next_id": null,
+    "next_is": null
+   },
+   "20": {
+    "first": "Happy While They Hurt?",
+    "first_id": "S119",
+    "first_is": "right",
+    "sure": true,
+    "next": "",
+    "next_id": null,
+    "next_is": null
+   },
+   "21": {
+    "first": "Find People, Build Trust",
+    "first_id": "S120",
+    "first_is": "right",
+    "sure": true,
+    "next": "",
+    "next_id": null,
+    "next_is": null
+   },
+   "22": {
+    "first": "Before You Tell Secrets",
+    "first_id": "S123",
+    "first_is": "right",
+    "sure": true,
+    "next": "",
+    "next_id": null,
+    "next_is": null
+   },
+   "23": {
+    "first": "The Urge to Escape",
+    "first_id": "S083",
+    "first_is": "wrong",
+    "sure": false,
+    "next": "AI therapy",
+    "next_id": "S133",
+    "next_is": "wrong"
+   },
+   "24": {
+    "first": "Physical Pain",
+    "first_id": "S084",
+    "first_is": "right",
+    "sure": true,
+    "next": "",
+    "next_id": null,
+    "next_is": null
+   },
+   "25": {
+    "first": "Body Needs Love First",
+    "first_id": "S008",
+    "first_is": "right",
+    "sure": true,
+    "next": "",
+    "next_id": null,
+    "next_is": null
+   },
+   "26": {
+    "first": "When Cruelty Feels Good",
+    "first_id": "S011",
+    "first_is": "right",
+    "sure": true,
+    "next": "",
+    "next_id": null,
+    "next_is": null
+   },
+   "27": {
+    "first": "My Framework’s Roots",
+    "first_id": "S150",
+    "first_is": "right",
+    "sure": false,
+    "next": "Schema Therapy",
+    "next_id": "S148",
+    "next_is": "right"
+   },
+   "28": {
+    "first": "The Urge to Escape",
+    "first_id": "S083",
+    "first_is": "wrong",
+    "sure": false,
+    "next": "Therapy or Escapism?",
+    "next_id": "S093",
+    "next_is": "wrong"
+   },
+   "29": {
+    "first": "Discipline Done Right?",
+    "first_id": "S077",
+    "first_is": "right",
+    "sure": false,
+    "next": "Re-do Trauma Memories",
+    "next_id": "S076",
+    "next_is": "right"
+   },
+   "30": {
+    "first": "Toward Divine Love",
+    "first_id": "S049",
+    "first_is": "right",
+    "sure": true,
+    "next": "",
+    "next_id": null,
+    "next_is": null
+   },
+   "31": {
+    "first": "Shame Says “Unlovable”",
+    "first_id": "S035",
+    "first_is": "right",
+    "sure": false,
+    "next": "Before You Tell Secrets",
+    "next_id": "S123",
+    "next_is": "right"
+   },
+   "32": {
+    "first": "Dip Your Toes In",
+    "first_id": "S007",
+    "first_is": "right",
+    "sure": false,
+    "next": "Body Needs Love First",
+    "next_id": "S008",
+    "next_is": "wrong"
+   },
+   "33": {
+    "first": "Catch the Hook",
+    "first_id": "S069",
+    "first_is": "wrong",
+    "sure": false,
+    "next": "A Passing Feeling",
+    "next_id": "S070",
+    "next_is": "wrong"
+   },
+   "34": {
+    "first": "Belonging Bargains",
+    "first_id": "S115",
+    "first_is": "wrong",
+    "sure": false,
+    "next": "Listen or Brainstorm?",
+    "next_id": "S125",
+    "next_is": "wrong"
+   },
+   "35": {
+    "first": "A Passing Feeling",
+    "first_id": "S070",
+    "first_is": "wrong",
+    "sure": false,
+    "next": "The Urge to Escape",
+    "next_id": "S083",
+    "next_is": "wrong"
+   },
+   "36": {
+    "first": "The Urge to Escape",
+    "first_id": "S083",
+    "first_is": "right",
+    "sure": true,
+    "next": "",
+    "next_id": null,
+    "next_is": null
+   },
+   "37": {
+    "first": "Catch the Hook",
+    "first_id": "S069",
+    "first_is": "right",
+    "sure": false,
+    "next": "Write It. Don’t Send It Yet.",
+    "next_id": "S137",
+    "next_is": "right"
+   },
+   "38": {
+    "first": "Practicing Differentiation",
+    "first_id": "S117",
+    "first_is": "wrong",
+    "sure": false,
+    "next": "Keep Your Own Ground",
+    "next_id": "S114",
+    "next_is": "wrong"
+   }
+  }
+ },
+ "C-2": {
+  "contents": "C",
+  "totals": {
+   "right": 33,
+   "near": 0,
+   "wrong": 5,
+   "guesses": 24,
+   "sure_but_wrong": 0,
+   "found": 34,
+   "unmatched": 0,
+   "situations": 38
+  },
+  "situations": {
+   "1": {
+    "first": "Adult Voice Feels Fake",
+    "first_id": "S080",
+    "first_is": "right",
+    "sure": false,
+    "next": "Okay to Be Bad at This",
+    "next_id": "S113",
+    "next_is": "wrong"
+   },
+   "2": {
+    "first": "“No. I Hate Myself.”",
+    "first_id": "S010",
+    "first_is": "wrong",
+    "sure": false,
+    "next": "Real, but Still Shallow?",
+    "next_id": "S082",
+    "next_is": "wrong"
+   },
+   "3": {
+    "first": "If Love Isn’t Coming Yet",
+    "first_id": "S032",
+    "first_is": "right",
+    "sure": true,
+    "next": "",
+    "next_id": null,
+    "next_is": null
+   },
+   "4": {
+    "first": "The Parent You Inherited",
+    "first_id": "S027",
+    "first_is": "right",
+    "sure": true,
+    "next": "",
+    "next_id": null,
+    "next_is": null
+   },
+   "5": {
+    "first": "If You Want to Kill Yourself",
+    "first_id": "S013",
+    "first_is": "right",
+    "sure": true,
+    "next": "",
+    "next_id": null,
+    "next_is": null
+   },
+   "6": {
+    "first": "Signs of Manipulation",
+    "first_id": "S020",
+    "first_is": "right",
+    "sure": false,
+    "next": "A Teacher Betrayed You",
+    "next_id": "S056",
+    "next_is": "wrong"
+   },
+   "7": {
+    "first": "Forgiving, Not Forgetting",
+    "first_id": "S037",
+    "first_is": "right",
+    "sure": true,
+    "next": "",
+    "next_id": null,
+    "next_is": null
+   },
+   "8": {
+    "first": "Therapy Stirs Things Up",
+    "first_id": "S009",
+    "first_is": "right",
+    "sure": true,
+    "next": "",
+    "next_id": null,
+    "next_is": null
+   },
+   "9": {
+    "first": "Morning Aim, Night Review",
+    "first_id": "S073",
+    "first_is": "right",
+    "sure": false,
+    "next": "Meditation and Mantra",
+    "next_id": "S072",
+    "next_is": "wrong"
+   },
+   "10": {
+    "first": "No Clear Little One Yet?",
+    "first_id": "S081",
+    "first_is": "right",
+    "sure": false,
+    "next": "No Inner Monologue?",
+    "next_id": "S062",
+    "next_is": "right"
+   },
+   "11": {
+    "first": "Belonging Bargains",
+    "first_id": "S115",
+    "first_is": "right",
+    "sure": false,
+    "next": "Your Own Preferences",
+    "next_id": "S112",
+    "next_is": "right"
+   },
+   "12": {
+    "first": "Is It Helping Your Life?",
+    "first_id": "S087",
+    "first_is": "right",
+    "sure": true,
+    "next": "",
+    "next_id": null,
+    "next_is": null
+   },
+   "13": {
+    "first": "Healing or Checking?",
+    "first_id": "S086",
+    "first_is": "right",
+    "sure": true,
+    "next": "",
+    "next_id": null,
+    "next_is": null
+   },
+   "14": {
+    "first": "Therapy or Escapism?",
+    "first_id": "S093",
+    "first_is": "right",
+    "sure": false,
+    "next": "What to Do With a Peak",
+    "next_id": "S097",
+    "next_is": "wrong"
+   },
+   "15": {
+    "first": "Involuntary Altered States",
+    "first_id": "S095",
+    "first_is": "right",
+    "sure": false,
+    "next": "Spiritual Attack: Love",
+    "next_id": "S096",
+    "next_is": "right"
+   },
+   "16": {
+    "first": "What to Do With a Peak",
+    "first_id": "S097",
+    "first_is": "right",
+    "sure": false,
+    "next": "Reparenting in Real Life",
+    "next_id": "S109",
+    "next_is": "wrong"
+   },
+   "17": {
+    "first": "Missing Someone",
+    "first_id": "S143",
+    "first_is": "right",
+    "sure": false,
+    "next": "A Passing Feeling",
+    "next_id": "S070",
+    "next_is": "wrong"
+   },
+   "18": {
+    "first": "Find a Therapist",
+    "first_id": "S129",
+    "first_is": "right",
+    "sure": true,
+    "next": "",
+    "next_id": null,
+    "next_is": null
+   },
+   "19": {
+    "first": "Write It. Don’t Send It Yet.",
+    "first_id": "S137",
+    "first_is": "right",
+    "sure": false,
+    "next": "Hurt or Threatened?",
+    "next_id": "S135",
+    "next_is": "wrong"
+   },
+   "20": {
+    "first": "Happy While They Hurt?",
+    "first_id": "S119",
+    "first_is": "right",
+    "sure": true,
+    "next": "",
+    "next_id": null,
+    "next_is": null
+   },
+   "21": {
+    "first": "Find People, Build Trust",
+    "first_id": "S120",
+    "first_is": "right",
+    "sure": true,
+    "next": "",
+    "next_id": null,
+    "next_is": null
+   },
+   "22": {
+    "first": "Before You Tell Secrets",
+    "first_id": "S123",
+    "first_is": "right",
+    "sure": false,
+    "next": "Open Up at Your Pace",
+    "next_id": "S122",
+    "next_is": "right"
+   },
+   "23": {
+    "first": "AI therapy",
+    "first_id": "S133",
+    "first_is": "wrong",
+    "sure": false,
+    "next": "The Urge to Escape",
+    "next_id": "S083",
+    "next_is": "wrong"
+   },
+   "24": {
+    "first": "Physical Pain",
+    "first_id": "S084",
+    "first_is": "right",
+    "sure": false,
+    "next": "Listen To Your Body, Or…",
+    "next_id": "S085",
+    "next_is": "right"
+   },
+   "25": {
+    "first": "Body Needs Love First",
+    "first_id": "S008",
+    "first_is": "right",
+    "sure": true,
+    "next": "",
+    "next_id": null,
+    "next_is": null
+   },
+   "26": {
+    "first": "When Cruelty Feels Good",
+    "first_id": "S011",
+    "first_is": "right",
+    "sure": false,
+    "next": "Ill Will & Loving-Kindness",
+    "next_id": "S012",
+    "next_is": "right"
+   },
+   "27": {
+    "first": "Schema Therapy",
+    "first_id": "S148",
+    "first_is": "right",
+    "sure": false,
+    "next": "My Framework’s Roots",
+    "next_id": "S150",
+    "next_is": "right"
+   },
+   "28": {
+    "first": "Spoil or Clamp Down?",
+    "first_id": "S044",
+    "first_is": "right",
+    "sure": false,
+    "next": "Healthy, Not Perfect",
+    "next_id": "S048",
+    "next_is": "wrong"
+   },
+   "29": {
+    "first": "Re-do Trauma Memories",
+    "first_id": "S076",
+    "first_is": "right",
+    "sure": false,
+    "next": "Discipline Done Right?",
+    "next_id": "S077",
+    "next_is": "right"
+   },
+   "30": {
+    "first": "Toward Divine Love",
+    "first_id": "S049",
+    "first_is": "right",
+    "sure": true,
+    "next": "",
+    "next_id": null,
+    "next_is": null
+   },
+   "31": {
+    "first": "Shame Says “Unlovable”",
+    "first_id": "S035",
+    "first_is": "right",
+    "sure": false,
+    "next": "Before You Tell Secrets",
+    "next_id": "S123",
+    "next_is": "right"
+   },
+   "32": {
+    "first": "Dip Your Toes In",
+    "first_id": "S007",
+    "first_is": "right",
+    "sure": true,
+    "next": "",
+    "next_id": null,
+    "next_is": null
+   },
+   "33": {
+    "first": "Catch the Hook",
+    "first_id": "S069",
+    "first_is": "wrong",
+    "sure": false,
+    "next": "Which thoughts to talk to",
+    "next_id": "S065",
+    "next_is": "wrong"
+   },
+   "34": {
+    "first": "Other Folks’ Hooks",
+    "first_id": "S139",
+    "first_is": "right",
+    "sure": false,
+    "next": "Listen or Brainstorm?",
+    "next_id": "S125",
+    "next_is": "wrong"
+   },
+   "35": {
+    "first": "A Passing Feeling",
+    "first_id": "S070",
+    "first_is": "wrong",
+    "sure": false,
+    "next": "Whatever Showed Up",
+    "next_id": "S059",
+    "next_is": "right"
+   },
+   "36": {
+    "first": "The Urge to Escape",
+    "first_id": "S083",
+    "first_is": "right",
+    "sure": false,
+    "next": "Catch the Hook",
+    "next_id": "S069",
+    "next_is": "wrong"
+   },
+   "37": {
+    "first": "Catch the Hook",
+    "first_id": "S069",
+    "first_is": "right",
+    "sure": true,
+    "next": "",
+    "next_id": null,
+    "next_is": null
+   },
+   "38": {
+    "first": "Keep Your Own Ground",
+    "first_id": "S114",
+    "first_is": "wrong",
+    "sure": false,
+    "next": "Belonging Bargains",
+    "next_id": "S115",
+    "next_is": "wrong"
+   }
+  }
+ },
+ "NOW-FULL-1": {
+  "contents": "NOW-FULL",
+  "totals": {
+   "right": 32,
+   "near": 1,
+   "wrong": 5,
+   "guesses": 18,
+   "sure_but_wrong": 0,
+   "found": 34,
+   "unmatched": 0,
+   "situations": 38
+  },
+  "situations": {
+   "1": {
+    "first": "When the Adult Voice Feels Fake",
+    "first_id": "S080",
+    "first_is": "right",
+    "sure": false,
+    "next": "Sometimes There Isn’t a Clear Child Yet",
+    "next_id": "S081",
+    "next_is": "wrong"
+   },
+   "2": {
+    "first": "Love Can Start Before It’s Trusted ❤️",
+    "first_id": "S031",
+    "first_is": "right",
+    "sure": false,
+    "next": "Talk to the hand!✋🏿",
+    "next_id": "S024",
+    "next_is": "wrong"
+   },
+   "3": {
+    "first": "If the Love Isn’t Coming Yet",
+    "first_id": "S032",
+    "first_is": "right",
+    "sure": true,
+    "next": "",
+    "next_id": null,
+    "next_is": null
+   },
+   "4": {
+    "first": "Protecting from the Parent You Inherited",
+    "first_id": "S027",
+    "first_is": "right",
+    "sure": true,
+    "next": "",
+    "next_id": null,
+    "next_is": null
+   },
+   "5": {
+    "first": "If You Want to Kill Yourself",
+    "first_id": "S013",
+    "first_is": "right",
+    "sure": true,
+    "next": "",
+    "next_id": null,
+    "next_is": null
+   },
+   "6": {
+    "first": "Don’t Sell Your Inner Adult To Buy An Outer Adult",
+    "first_id": "S019",
+    "first_is": "right",
+    "sure": false,
+    "next": "Signs of Manipulation",
+    "next_id": "S020",
+    "next_is": "right"
+   },
+   "7": {
+    "first": "How to Forgive Without Forgetting",
+    "first_id": "S037",
+    "first_is": "right",
+    "sure": true,
+    "next": "",
+    "next_id": null,
+    "next_is": null
+   },
+   "8": {
+    "first": "When Therapy Stirs Things Up",
+    "first_id": "S009",
+    "first_is": "right",
+    "sure": true,
+    "next": "",
+    "next_id": null,
+    "next_is": null
+   },
+   "9": {
+    "first": "One Intention in the Morning, One Review at Night",
+    "first_id": "S073",
+    "first_is": "right",
+    "sure": false,
+    "next": "Gentle Meditation and Mantra",
+    "next_id": "S072",
+    "next_is": "wrong"
+   },
+   "10": {
+    "first": "Sometimes There Isn’t a Clear Child Yet",
+    "first_id": "S081",
+    "first_is": "right",
+    "sure": true,
+    "next": "",
+    "next_id": null,
+    "next_is": null
+   },
+   "11": {
+    "first": "Rediscover Play and Your Own Preferences",
+    "first_id": "S110",
+    "first_is": "near",
+    "sure": false,
+    "next": "Untangling the Belonging Bargains",
+    "next_id": "S115",
+    "next_is": "right"
+   },
+   "12": {
+    "first": "How Would You Know It’s Helping?",
+    "first_id": "S087",
+    "first_is": "right",
+    "sure": true,
+    "next": "",
+    "next_id": null,
+    "next_is": null
+   },
+   "13": {
+    "first": "When Healing Turns Into Checking",
+    "first_id": "S086",
+    "first_is": "right",
+    "sure": true,
+    "next": "",
+    "next_id": null,
+    "next_is": null
+   },
+   "14": {
+    "first": "Altered States Can Deepen Therapy or Escapism",
+    "first_id": "S093",
+    "first_is": "right",
+    "sure": true,
+    "next": "",
+    "next_id": null,
+    "next_is": null
+   },
+   "15": {
+    "first": "Everyone has altered states: Prepare now",
+    "first_id": "S095",
+    "first_is": "right",
+    "sure": false,
+    "next": "Using spiritual attack for spiritual gain",
+    "next_id": "S096",
+    "next_is": "right"
+   },
+   "16": {
+    "first": "What to Do With a Peak",
+    "first_id": "S097",
+    "first_is": "right",
+    "sure": false,
+    "next": "When Escape Leaves Reality Behind",
+    "next_id": "S098",
+    "next_is": "wrong"
+   },
+   "17": {
+    "first": "When One Life Has Ended and the Next Hasn’t Begun",
+    "first_id": "S142",
+    "first_is": "right",
+    "sure": false,
+    "next": "Missing Someone",
+    "next_id": "S143",
+    "next_is": "right"
+   },
+   "18": {
+    "first": "Finding a Therapist to Borrow Adulthood",
+    "first_id": "S129",
+    "first_is": "right",
+    "sure": true,
+    "next": "",
+    "next_id": null,
+    "next_is": null
+   },
+   "19": {
+    "first": "Write It. Don’t Send It Yet.",
+    "first_id": "S137",
+    "first_is": "right",
+    "sure": true,
+    "next": "",
+    "next_id": null,
+    "next_is": null
+   },
+   "20": {
+    "first": "When Being Happy Feels Like Abandoning Someone",
+    "first_id": "S119",
+    "first_is": "right",
+    "sure": true,
+    "next": "",
+    "next_id": null,
+    "next_is": null
+   },
+   "21": {
+    "first": "First Social Connections, Done Right",
+    "first_id": "S121",
+    "first_is": "right",
+    "sure": true,
+    "next": "",
+    "next_id": null,
+    "next_is": null
+   },
+   "22": {
+    "first": "Before You Tell the Hardest Stuff",
+    "first_id": "S123",
+    "first_is": "right",
+    "sure": true,
+    "next": "",
+    "next_id": null,
+    "next_is": null
+   },
+   "23": {
+    "first": "When the Urge to Escape Arrives",
+    "first_id": "S083",
+    "first_is": "wrong",
+    "sure": false,
+    "next": "AI therapy",
+    "next_id": "S133",
+    "next_is": "wrong"
+   },
+   "24": {
+    "first": "Physical Pain Makes It Harder",
+    "first_id": "S084",
+    "first_is": "right",
+    "sure": false,
+    "next": "Your Body Might Need Some Love First",
+    "next_id": "S008",
+    "next_is": "wrong"
+   },
+   "25": {
+    "first": "Your Body Might Need Some Love First",
+    "first_id": "S008",
+    "first_is": "right",
+    "sure": true,
+    "next": "",
+    "next_id": null,
+    "next_is": null
+   },
+   "26": {
+    "first": "When the Present-Day Adult Is Dangerous to the Child",
+    "first_id": "S011",
+    "first_is": "right",
+    "sure": false,
+    "next": "Ill Will and Loving-Kindness",
+    "next_id": "S012",
+    "next_is": "right"
+   },
+   "27": {
+    "first": "How This Relates to Similar Therapies",
+    "first_id": "S147",
+    "first_is": "right",
+    "sure": true,
+    "next": "",
+    "next_id": null,
+    "next_is": null
+   },
+   "28": {
+    "first": "Between Spoiling and Clamping Down",
+    "first_id": "S044",
+    "first_is": "right",
+    "sure": false,
+    "next": "When the Urge to Escape Arrives",
+    "next_id": "S083",
+    "next_is": "wrong"
+   },
+   "29": {
+    "first": "Use hindsight to “re-do” traumatic memories in a healthier way",
+    "first_id": "S076",
+    "first_is": "right",
+    "sure": true,
+    "next": "",
+    "next_id": null,
+    "next_is": null
+   },
+   "30": {
+    "first": "A Bigger Doorway: Divine Love",
+    "first_id": "S041",
+    "first_is": "right",
+    "sure": false,
+    "next": "Guide Yourself To Divine Love",
+    "next_id": "S049",
+    "next_is": "right"
+   },
+   "31": {
+    "first": "Shame can make you feel unlovable",
+    "first_id": "S035",
+    "first_is": "right",
+    "sure": true,
+    "next": "",
+    "next_id": null,
+    "next_is": null
+   },
+   "32": {
+    "first": "Dip Your Toes In Before You Go Deep",
+    "first_id": "S007",
+    "first_is": "right",
+    "sure": true,
+    "next": "",
+    "next_id": null,
+    "next_is": null
+   },
+   "33": {
+    "first": "Catch the Hook Before the Story Takes Over",
+    "first_id": "S069",
+    "first_is": "wrong",
+    "sure": false,
+    "next": "What to Make of a Passing Feeling",
+    "next_id": "S070",
+    "next_is": "wrong"
+   },
+   "34": {
+    "first": "Differentiation: Keeping Your Own Ground",
+    "first_id": "S114",
+    "first_is": "wrong",
+    "sure": false,
+    "next": "Other Folks Also Have Hooks",
+    "next_id": "S139",
+    "next_is": "right"
+   },
+   "35": {
+    "first": "What to Make of a Passing Feeling",
+    "first_id": "S070",
+    "first_is": "wrong",
+    "sure": false,
+    "next": "When the Practice Feels Real but Stays Shallow",
+    "next_id": "S082",
+    "next_is": "wrong"
+   },
+   "36": {
+    "first": "When the Urge to Escape Arrives",
+    "first_id": "S083",
+    "first_is": "right",
+    "sure": true,
+    "next": "",
+    "next_id": null,
+    "next_is": null
+   },
+   "37": {
+    "first": "Catch the Hook Before the Story Takes Over",
+    "first_id": "S069",
+    "first_is": "right",
+    "sure": false,
+    "next": "Write It. Don’t Send It Yet.",
+    "next_id": "S137",
+    "next_is": "right"
+   },
+   "38": {
+    "first": "Untangling the Belonging Bargains",
+    "first_id": "S115",
+    "first_is": "wrong",
+    "sure": false,
+    "next": "Differentiation: Keeping Your Own Ground",
+    "next_id": "S114",
+    "next_is": "wrong"
+   }
+  }
+ },
+ "NOW-SIDEBAR-1": {
+  "contents": "NOW-SIDEBAR",
+  "totals": {
+   "right": 31,
+   "near": 0,
+   "wrong": 7,
+   "guesses": 26,
+   "sure_but_wrong": 0,
+   "found": 33,
+   "unmatched": 0,
+   "situations": 38
+  },
+  "situations": {
+   "1": {
+    "first": "Start With Whatever Show…",
+    "first_id": "S059",
+    "first_is": "wrong",
+    "sure": false,
+    "next": "Make a Simple Vow",
+    "next_id": "S060",
+    "next_is": "wrong"
+   },
+   "2": {
+    "first": "Talk to the hand!✋🏿",
+    "first_id": "S024",
+    "first_is": "wrong",
+    "sure": false,
+    "next": "Earning their trust, day to…",
+    "next_id": "S029",
+    "next_is": "right"
+   },
+   "3": {
+    "first": "Love Can Start Before It’s…",
+    "first_id": "S031",
+    "first_is": "right",
+    "sure": false,
+    "next": "If the Love Isn’t Coming …",
+    "next_id": "S032",
+    "next_is": "right"
+   },
+   "4": {
+    "first": "Protecting from the Pare…",
+    "first_id": "S027",
+    "first_is": "right",
+    "sure": false,
+    "next": "Reframing attacks as u…",
+    "next_id": "S028",
+    "next_is": "right"
+   },
+   "5": {
+    "first": "If You Want to Kill Yourself",
+    "first_id": "S013",
+    "first_is": "right",
+    "sure": true,
+    "next": "n/a",
+    "next_id": null,
+    "next_is": "unmatched"
+   },
+   "6": {
+    "first": "Don’t Sell Your Inner Adu…",
+    "first_id": "S019",
+    "first_is": "right",
+    "sure": false,
+    "next": "Signs of Manipulation",
+    "next_id": "S020",
+    "next_is": "right"
+   },
+   "7": {
+    "first": "How to Forgive Without F…",
+    "first_id": "S037",
+    "first_is": "right",
+    "sure": true,
+    "next": "n/a",
+    "next_id": null,
+    "next_is": "unmatched"
+   },
+   "8": {
+    "first": "When Therapy Stirs Thin…",
+    "first_id": "S009",
+    "first_is": "right",
+    "sure": true,
+    "next": "n/a",
+    "next_id": null,
+    "next_is": "unmatched"
+   },
+   "9": {
+    "first": "One Intention in the Morni…",
+    "first_id": "S073",
+    "first_is": "right",
+    "sure": false,
+    "next": "Start With Whatever Show…",
+    "next_id": "S059",
+    "next_is": "wrong"
+   },
+   "10": {
+    "first": "You Don’t Need an Inner M…",
+    "first_id": "S062",
+    "first_is": "right",
+    "sure": false,
+    "next": "Use Childhood Photograph…",
+    "next_id": "S063",
+    "next_is": "right"
+   },
+   "11": {
+    "first": "Untangling the Belonging…",
+    "first_id": "S115",
+    "first_is": "right",
+    "sure": false,
+    "next": "Differentiation: Keeping Yo…",
+    "next_id": "S114",
+    "next_is": "near"
+   },
+   "12": {
+    "first": "How Would You Know It’s …",
+    "first_id": "S087",
+    "first_is": "right",
+    "sure": false,
+    "next": "When to Change the Strate…",
+    "next_id": "S088",
+    "next_is": "right"
+   },
+   "13": {
+    "first": "When Healing Turns Into C…",
+    "first_id": "S086",
+    "first_is": "right",
+    "sure": false,
+    "next": "How Would You Know It’s …",
+    "next_id": "S087",
+    "next_is": "wrong"
+   },
+   "14": {
+    "first": "Altered States Can Deepen…",
+    "first_id": "S093",
+    "first_is": "right",
+    "sure": false,
+    "next": "When Escape Leaves Reali…",
+    "next_id": "S098",
+    "next_is": "right"
+   },
+   "15": {
+    "first": "Using spiritual attack for …",
+    "first_id": "S096",
+    "first_is": "right",
+    "sure": false,
+    "next": "Everyone has altered state…",
+    "next_id": "S095",
+    "next_is": "right"
+   },
+   "16": {
+    "first": "What to Do With a Peak",
+    "first_id": "S097",
+    "first_is": "right",
+    "sure": false,
+    "next": "When Escape Leaves Reali…",
+    "next_id": "S098",
+    "next_is": "wrong"
+   },
+   "17": {
+    "first": "When One Life Has Ended …",
+    "first_id": "S142",
+    "first_is": "right",
+    "sure": false,
+    "next": "Missing Someone",
+    "next_id": "S143",
+    "next_is": "right"
+   },
+   "18": {
+    "first": "Finding a Therapist to Borr…",
+    "first_id": "S129",
+    "first_is": "right",
+    "sure": true,
+    "next": "n/a",
+    "next_id": null,
+    "next_is": "unmatched"
+   },
+   "19": {
+    "first": "Catch the Hook Before the …",
+    "first_id": "S069",
+    "first_is": "right",
+    "sure": false,
+    "next": "Write It. Don’t Send It Yet.",
+    "next_id": "S137",
+    "next_is": "right"
+   },
+   "20": {
+    "first": "When Being Happy Feels…",
+    "first_id": "S119",
+    "first_is": "right",
+    "sure": true,
+    "next": "n/a",
+    "next_id": null,
+    "next_is": "unmatched"
+   },
+   "21": {
+    "first": "Finding People and Buildin…",
+    "first_id": "S120",
+    "first_is": "right",
+    "sure": true,
+    "next": "n/a",
+    "next_id": null,
+    "next_is": "unmatched"
+   },
+   "22": {
+    "first": "Before You Tell the Har…",
+    "first_id": "S123",
+    "first_is": "right",
+    "sure": false,
+    "next": "Opening Up Honestly to t…",
+    "next_id": "S122",
+    "next_is": "right"
+   },
+   "23": {
+    "first": "When the Urge to Escape …",
+    "first_id": "S083",
+    "first_is": "wrong",
+    "sure": false,
+    "next": "AI therapy",
+    "next_id": "S133",
+    "next_is": "wrong"
+   },
+   "24": {
+    "first": "Physical Pain Makes It H…",
+    "first_id": "S084",
+    "first_is": "right",
+    "sure": false,
+    "next": "Listen To Your Body, Or…",
+    "next_id": "S085",
+    "next_is": "right"
+   },
+   "25": {
+    "first": "Your Body Might Need So…",
+    "first_id": "S008",
+    "first_is": "right",
+    "sure": true,
+    "next": "n/a",
+    "next_id": null,
+    "next_is": "unmatched"
+   },
+   "26": {
+    "first": "Ill Will and Loving-Kindne…",
+    "first_id": "S012",
+    "first_is": "right",
+    "sure": false,
+    "next": "When the Present-Day Ad…",
+    "next_id": "S011",
+    "next_is": "right"
+   },
+   "27": {
+    "first": "How This Relates to Simil…",
+    "first_id": "S147",
+    "first_is": "right",
+    "sure": true,
+    "next": "n/a",
+    "next_id": null,
+    "next_is": "unmatched"
+   },
+   "28": {
+    "first": "Between Spoiling and Cl…",
+    "first_id": "S044",
+    "first_is": "right",
+    "sure": false,
+    "next": "Are you ready for the Gui…",
+    "next_id": "S043",
+    "next_is": "wrong"
+   },
+   "29": {
+    "first": "How should discipline ha…",
+    "first_id": "S077",
+    "first_is": "right",
+    "sure": false,
+    "next": "Use hindsight to “re-do” tr…",
+    "next_id": "S076",
+    "next_is": "right"
+   },
+   "30": {
+    "first": "A Bigger Doorway: Divin…",
+    "first_id": "S041",
+    "first_is": "right",
+    "sure": true,
+    "next": "n/a",
+    "next_id": null,
+    "next_is": "unmatched"
+   },
+   "31": {
+    "first": "Shame can make you fee…",
+    "first_id": "S035",
+    "first_is": "right",
+    "sure": true,
+    "next": "n/a",
+    "next_id": null,
+    "next_is": "unmatched"
+   },
+   "32": {
+    "first": "Dip Your Toes In Before Yo…",
+    "first_id": "S007",
+    "first_is": "right",
+    "sure": true,
+    "next": "n/a",
+    "next_id": null,
+    "next_is": "unmatched"
+   },
+   "33": {
+    "first": "What to Make of a Passing…",
+    "first_id": "S070",
+    "first_is": "wrong",
+    "sure": false,
+    "next": "Ill Will and Loving-Kindne…",
+    "next_id": "S012",
+    "next_is": "wrong"
+   },
+   "34": {
+    "first": "Opening Up Honestly to t…",
+    "first_id": "S122",
+    "first_is": "wrong",
+    "sure": false,
+    "next": "Other Folks Also Have H…",
+    "next_id": "S139",
+    "next_is": "right"
+   },
+   "35": {
+    "first": "When the Practice Feels R…",
+    "first_id": "S082",
+    "first_is": "wrong",
+    "sure": false,
+    "next": "When the Adult Voice Feel…",
+    "next_id": "S080",
+    "next_is": "wrong"
+   },
+   "36": {
+    "first": "When the Urge to Escape …",
+    "first_id": "S083",
+    "first_is": "right",
+    "sure": true,
+    "next": "n/a",
+    "next_id": null,
+    "next_is": "unmatched"
+   },
+   "37": {
+    "first": "Catch the Hook Before the …",
+    "first_id": "S069",
+    "first_is": "right",
+    "sure": false,
+    "next": "Write It. Don’t Send It Yet.",
+    "next_id": "S137",
+    "next_is": "right"
+   },
+   "38": {
+    "first": "Differentiation: Keeping Yo…",
+    "first_id": "S114",
+    "first_is": "wrong",
+    "sure": false,
+    "next": "Untangling the Belonging…",
+    "next_id": "S115",
+    "next_is": "wrong"
+   }
+  }
+ },
+ "NOW-SIDEBAR-2": {
+  "contents": "NOW-SIDEBAR",
+  "totals": {
+   "right": 32,
+   "near": 0,
+   "wrong": 6,
+   "guesses": 21,
+   "sure_but_wrong": 1,
+   "found": 34,
+   "unmatched": 0,
+   "situations": 38
+  },
+  "situations": {
+   "1": {
+    "first": "Start With Whatever Show…",
+    "first_id": "S059",
+    "first_is": "wrong",
+    "sure": false,
+    "next": "You Don’t Need an Inner M…",
+    "next_id": "S062",
+    "next_is": "right"
+   },
+   "2": {
+    "first": "Protecting and Building Tru…",
+    "first_id": "S023",
+    "first_is": "right",
+    "sure": false,
+    "next": "Earning their trust, day to…",
+    "next_id": "S029",
+    "next_is": "right"
+   },
+   "3": {
+    "first": "Love Can Start Before It’s…",
+    "first_id": "S031",
+    "first_is": "right",
+    "sure": true,
+    "next": "If the Love Isn’t Coming …",
+    "next_id": "S032",
+    "next_is": "right"
+   },
+   "4": {
+    "first": "Protecting from the Pare…",
+    "first_id": "S027",
+    "first_is": "right",
+    "sure": false,
+    "next": "Answering the Strict Discip…",
+    "next_id": "S078",
+    "next_is": "right"
+   },
+   "5": {
+    "first": "If You Want to Kill Yourself",
+    "first_id": "S013",
+    "first_is": "right",
+    "sure": true,
+    "next": "",
+    "next_id": null,
+    "next_is": null
+   },
+   "6": {
+    "first": "Don’t Sell Your Inner Adu…",
+    "first_id": "S019",
+    "first_is": "right",
+    "sure": false,
+    "next": "Signs of Manipulation",
+    "next_id": "S020",
+    "next_is": "right"
+   },
+   "7": {
+    "first": "How to Forgive Without F…",
+    "first_id": "S037",
+    "first_is": "right",
+    "sure": true,
+    "next": "",
+    "next_id": null,
+    "next_is": null
+   },
+   "8": {
+    "first": "When Therapy Stirs Thin…",
+    "first_id": "S009",
+    "first_is": "right",
+    "sure": true,
+    "next": "",
+    "next_id": null,
+    "next_is": null
+   },
+   "9": {
+    "first": "One Intention in the Morni…",
+    "first_id": "S073",
+    "first_is": "right",
+    "sure": false,
+    "next": "Gentle Meditation and Man…",
+    "next_id": "S072",
+    "next_is": "wrong"
+   },
+   "10": {
+    "first": "Use Childhood Photograph…",
+    "first_id": "S063",
+    "first_is": "right",
+    "sure": false,
+    "next": "Start With Whatever Show…",
+    "next_id": "S059",
+    "next_is": "right"
+   },
+   "11": {
+    "first": "From Survival to Experim…",
+    "first_id": "S112",
+    "first_is": "right",
+    "sure": false,
+    "next": "Let the Child Be Bad at T…",
+    "next_id": "S113",
+    "next_is": "right"
+   },
+   "12": {
+    "first": "How Would You Know It’s …",
+    "first_id": "S087",
+    "first_is": "right",
+    "sure": false,
+    "next": "When to Change the Strate…",
+    "next_id": "S088",
+    "next_is": "right"
+   },
+   "13": {
+    "first": "When Healing Turns Into C…",
+    "first_id": "S086",
+    "first_is": "right",
+    "sure": false,
+    "next": "How Would You Know It’s …",
+    "next_id": "S087",
+    "next_is": "wrong"
+   },
+   "14": {
+    "first": "Altered States Can Deepen…",
+    "first_id": "S093",
+    "first_is": "right",
+    "sure": false,
+    "next": "My Psychedelic Experienc…",
+    "next_id": "S107",
+    "next_is": "right"
+   },
+   "15": {
+    "first": "Non-altered states can f…",
+    "first_id": "S106",
+    "first_is": "wrong",
+    "sure": false,
+    "next": "Everyone has altered state…",
+    "next_id": "S095",
+    "next_is": "right"
+   },
+   "16": {
+    "first": "What to Do With a Peak",
+    "first_id": "S097",
+    "first_is": "right",
+    "sure": false,
+    "next": "When Escape Leaves Reali…",
+    "next_id": "S098",
+    "next_is": "wrong"
+   },
+   "17": {
+    "first": "When One Life Has Ended …",
+    "first_id": "S142",
+    "first_is": "right",
+    "sure": false,
+    "next": "Missing Someone",
+    "next_id": "S143",
+    "next_is": "right"
+   },
+   "18": {
+    "first": "Finding a Therapist to Borr…",
+    "first_id": "S129",
+    "first_is": "right",
+    "sure": true,
+    "next": "",
+    "next_id": null,
+    "next_is": null
+   },
+   "19": {
+    "first": "Write It. Don’t Send It Yet.",
+    "first_id": "S137",
+    "first_is": "right",
+    "sure": true,
+    "next": "",
+    "next_id": null,
+    "next_is": null
+   },
+   "20": {
+    "first": "When Being Happy Feels…",
+    "first_id": "S119",
+    "first_is": "right",
+    "sure": true,
+    "next": "",
+    "next_id": null,
+    "next_is": null
+   },
+   "21": {
+    "first": "First Social Connections,…",
+    "first_id": "S121",
+    "first_is": "right",
+    "sure": true,
+    "next": "",
+    "next_id": null,
+    "next_is": null
+   },
+   "22": {
+    "first": "Before You Tell the Har…",
+    "first_id": "S123",
+    "first_is": "right",
+    "sure": false,
+    "next": "Opening Up Honestly to t…",
+    "next_id": "S122",
+    "next_is": "right"
+   },
+   "23": {
+    "first": "When the Urge to Escape …",
+    "first_id": "S083",
+    "first_is": "wrong",
+    "sure": false,
+    "next": "AI therapy",
+    "next_id": "S133",
+    "next_is": "wrong"
+   },
+   "24": {
+    "first": "Physical Pain Makes It H…",
+    "first_id": "S084",
+    "first_is": "right",
+    "sure": false,
+    "next": "Listen To Your Body, Or…",
+    "next_id": "S085",
+    "next_is": "right"
+   },
+   "25": {
+    "first": "Your Body Might Need So…",
+    "first_id": "S008",
+    "first_is": "right",
+    "sure": true,
+    "next": "",
+    "next_id": null,
+    "next_is": null
+   },
+   "26": {
+    "first": "When the Present-Day Ad…",
+    "first_id": "S011",
+    "first_is": "right",
+    "sure": false,
+    "next": "Ill Will and Loving-Kindne…",
+    "next_id": "S012",
+    "next_is": "right"
+   },
+   "27": {
+    "first": "How This Relates to Simil…",
+    "first_id": "S147",
+    "first_is": "right",
+    "sure": true,
+    "next": "",
+    "next_id": null,
+    "next_is": null
+   },
+   "28": {
+    "first": "Between Spoiling and Cl…",
+    "first_id": "S044",
+    "first_is": "right",
+    "sure": false,
+    "next": "Are you ready for the Gui…",
+    "next_id": "S043",
+    "next_is": "wrong"
+   },
+   "29": {
+    "first": "Use hindsight to “re-do” tr…",
+    "first_id": "S076",
+    "first_is": "right",
+    "sure": true,
+    "next": "",
+    "next_id": null,
+    "next_is": null
+   },
+   "30": {
+    "first": "A Bigger Doorway: Divin…",
+    "first_id": "S041",
+    "first_is": "right",
+    "sure": true,
+    "next": "",
+    "next_id": null,
+    "next_is": null
+   },
+   "31": {
+    "first": "Shame can make you fee…",
+    "first_id": "S035",
+    "first_is": "right",
+    "sure": true,
+    "next": "",
+    "next_id": null,
+    "next_is": null
+   },
+   "32": {
+    "first": "Dip Your Toes In Before Yo…",
+    "first_id": "S007",
+    "first_is": "right",
+    "sure": true,
+    "next": "",
+    "next_id": null,
+    "next_is": null
+   },
+   "33": {
+    "first": "What to Make of a Passing…",
+    "first_id": "S070",
+    "first_is": "wrong",
+    "sure": true,
+    "next": "",
+    "next_id": null,
+    "next_is": null
+   },
+   "34": {
+    "first": "Other Folks Also Have H…",
+    "first_id": "S139",
+    "first_is": "right",
+    "sure": false,
+    "next": "Opening Up Honestly to t…",
+    "next_id": "S122",
+    "next_is": "wrong"
+   },
+   "35": {
+    "first": "When the Practice Feels R…",
+    "first_id": "S082",
+    "first_is": "wrong",
+    "sure": false,
+    "next": "When the Adult Voice Feel…",
+    "next_id": "S080",
+    "next_is": "wrong"
+   },
+   "36": {
+    "first": "When the Urge to Escape …",
+    "first_id": "S083",
+    "first_is": "right",
+    "sure": true,
+    "next": "",
+    "next_id": null,
+    "next_is": null
+   },
+   "37": {
+    "first": "Catch the Hook Before the …",
+    "first_id": "S069",
+    "first_is": "right",
+    "sure": true,
+    "next": "",
+    "next_id": null,
+    "next_is": null
+   },
+   "38": {
+    "first": "Differentiation: Keeping Yo…",
+    "first_id": "S114",
+    "first_is": "wrong",
+    "sure": false,
+    "next": "Untangling the Belonging…",
+    "next_id": "S115",
+    "next_is": "wrong"
+   }
+  }
+ }
+}

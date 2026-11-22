@@ -1,0 +1,75 @@
+{
+ "article": "articles/neuro-de-armoring/humanize/HUMANIZED-SO-FAR.md",
+ "extract": "articles/neuro-de-armoring/humanize/fix-20261108/coherence/EXTRACT.md (section 2)",
+ "about": "the fate of each contradiction of the protocol (gate neuro-2026-11-20a, tools/humanization/contradictions.py)",
+ "items": {
+  "2.1": {
+   "fate": "answered",
+   "ref": "his answer 25, fix-20261108/x1122a/APPLIED-X1122A.json"
+  },
+  "2.2": {
+   "fate": "applying",
+   "ref": "his answer 16a; fix-20261108/x1120a/texts_x1120a.py W35 waits on its receipt and its Pangram check by itself (reads in x1120a/*/w35d)"
+  },
+  "2.3": {
+   "fate": "applying",
+   "ref": "his answer 17; the same line as 2.2 (texts_x1120a.W35)"
+  },
+  "2.4": {
+   "fate": "settled",
+   "ref": "card SC-95b (fix-20261108/x1113b/APPLIED-X1113B.json): block 95 says what the choice of strategy changes, not that you must pick one"
+  },
+  "2.5": {
+   "fate": "answered",
+   "ref": "his answer 32b, fix-20261108/x1122a/APPLIED-X1122A.json"
+  },
+  "2.6": {
+   "fate": "answered",
+   "ref": "his answer 20, fix-20261108/x1120a/APPLIED-X1120A.json"
+  },
+  "2.7": {
+   "fate": "answered",
+   "ref": "his answer 19a, fix-20261108/x1120a/APPLIED-X1120A.json"
+  },
+  "2.8": {
+   "fate": "answered",
+   "ref": "his answers 21b and 24a, fix-20261108/x1120a/APPLIED-X1120A.json and fix-20261108/x1122a/APPLIED-X1122A.json"
+  },
+  "2.9": {
+   "fate": "answered",
+   "ref": "his answer 22a, fix-20261108/x1120a/APPLIED-X1120A.json"
+  },
+  "2.10": {
+   "fate": "answered",
+   "ref": "his answer 33b, fix-20261108/x1122a/APPLIED-X1122A.json"
+  },
+  "2.11": {
+   "fate": "answered",
+   "ref": "his answer 26a, fix-20261108/x1122a/APPLIED-X1122A.json"
+  },
+  "2.12": {
+   "fate": "answered",
+   "ref": "his answer 27a, fix-20261108/x1122a/APPLIED-X1122A.json"
+  },
+  "2.13": {
+   "fate": "answered",
+   "ref": "his answer 28a, fix-20261108/x1122a/APPLIED-X1122A.json"
+  },
+  "2.14": {
+   "fate": "answered",
+   "ref": "his answer 29a, fix-20261108/x1122a/APPLIED-X1122A.json"
+  },
+  "2.15": {
+   "fate": "answered",
+   "ref": "his answer 30a, fix-20261108/x1122a/APPLIED-X1122A.json"
+  },
+  "2.16": {
+   "fate": "not-a-conflict",
+   "note": "two different tools: 30 seconds of regulated breathing through the day, and 5 minutes of rhythmic sensory input (walking, drumming, sighing) as step 1 of another routine"
+  },
+  "2.17": {
+   "fate": "answered",
+   "ref": "his answer 31a, fix-20261108/x1122a/APPLIED-X1122A.json"
+  }
+ }
+}

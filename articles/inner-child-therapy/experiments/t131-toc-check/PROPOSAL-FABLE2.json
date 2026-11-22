@@ -1,0 +1,1124 @@
+[
+ {
+  "id": "S001",
+  "level": 1,
+  "heading": "Understanding Reparenting",
+  "words": 227,
+  "from": "yours"
+ },
+ {
+  "id": "S002",
+  "level": 2,
+  "heading": "Céline on the Inner Child",
+  "words": 241,
+  "from": "opus"
+ },
+ {
+  "id": "S003",
+  "level": 2,
+  "heading": "Chicken-and-Egg Problem",
+  "words": 615,
+  "from": "opus"
+ },
+ {
+  "id": "S004",
+  "level": 2,
+  "heading": "Five Stages of Reparenting",
+  "words": 400,
+  "from": "yours"
+ },
+ {
+  "id": "S005",
+  "level": 2,
+  "heading": "My Journey",
+  "words": 974,
+  "from": "yours"
+ },
+ {
+  "id": "S006",
+  "level": 1,
+  "heading": "Safety and Readiness",
+  "words": 0,
+  "from": "yours"
+ },
+ {
+  "id": "S007",
+  "level": 2,
+  "heading": "Dip Your Toes In First",
+  "words": 202,
+  "from": "opus"
+ },
+ {
+  "id": "S008",
+  "level": 2,
+  "heading": "Body May Need Love First",
+  "words": 179,
+  "from": "fable",
+  "kind": "yours-short",
+  "why": "Keeps your \"First\": the heading is about what comes first. Opus's \"Your Body May Need Love\" drops it."
+ },
+ {
+  "id": "S009",
+  "level": 3,
+  "heading": "Therapy Stirs Things Up",
+  "words": 248,
+  "from": "opus"
+ },
+ {
+  "id": "S010",
+  "level": 2,
+  "heading": "If You Hate Yourself",
+  "words": 144,
+  "from": "fable",
+  "kind": "new-words",
+  "why": "Not your words. The section opens with the reader who answers \"No. I hate myself\", and it sits under Your Body, which it isn't about. GPT's quote heading (Opus's pick) pulled both of its readers of the \"I don't believe you\" case away from Love Before Trust. This one names the reader plainly, like your \"If You Want to Kill Yourself\" beside it. Your own words, kept short, would be \"The Part That Came Here\"."
+ },
+ {
+  "id": "S011",
+  "level": 2,
+  "heading": "When You’re the Danger",
+  "words": 287,
+  "from": "opus"
+ },
+ {
+  "id": "S012",
+  "level": 3,
+  "heading": "Ill Will & Loving-Kindness",
+  "words": 217,
+  "from": "opus"
+ },
+ {
+  "id": "S013",
+  "level": 2,
+  "heading": "If You Want to Kill Yourself",
+  "words": 122,
+  "from": "yours"
+ },
+ {
+  "id": "S014",
+  "level": 3,
+  "heading": "The Spiritual Side",
+  "words": 162,
+  "from": "opus"
+ },
+ {
+  "id": "S015",
+  "level": 3,
+  "heading": "This Precious Human Life",
+  "words": 456,
+  "from": "opus"
+ },
+ {
+  "id": "S017",
+  "level": 1,
+  "heading": "Building Your Inner Adult",
+  "words": 0,
+  "from": "yours"
+ },
+ {
+  "id": "S018",
+  "level": 2,
+  "heading": "Borrowed Adulthood",
+  "words": 137,
+  "from": "opus"
+ },
+ {
+  "id": "S019",
+  "level": 3,
+  "heading": "Don’t Sell Your Inner Adult To Buy An Outer Adult",
+  "words": 171,
+  "from": "fable",
+  "kind": "kept-whole",
+  "why": "Left whole on purpose. The sentence above it runs on into this heading (\"...so that you:\"), which you asked to keep (keep-as-is K3), and the sidebar's own cut already reads \"Don’t Sell Your Inner Adu…\". Opus's \"Don’t Buy an Outer Adult\" drops the selling half of your phrase."
+ },
+ {
+  "id": "S020",
+  "level": 3,
+  "heading": "Signs of Manipulation",
+  "words": 572,
+  "from": "yours"
+ },
+ {
+  "id": "S021",
+  "level": 3,
+  "heading": "Borrow One Competency",
+  "words": 144,
+  "from": "fable",
+  "kind": "yours-short",
+  "why": "Your words, cut at \"at a Time\". Opus's \"One Skill at a Time\" swaps your word competency for skill."
+ },
+ {
+  "id": "S022",
+  "level": 3,
+  "heading": "Noticing Counts",
+  "words": 165,
+  "from": "yours"
+ },
+ {
+  "id": "S023",
+  "level": 2,
+  "heading": "The Protector",
+  "words": 154,
+  "from": "opus"
+ },
+ {
+  "id": "S024",
+  "level": 3,
+  "heading": "Talk to the hand!✋🏿",
+  "words": 208,
+  "from": "yours"
+ },
+ {
+  "id": "S025",
+  "level": 3,
+  "heading": "Making It Intentional",
+  "words": 172,
+  "from": "yours"
+ },
+ {
+  "id": "S026",
+  "level": 3,
+  "heading": "Protecting them from you",
+  "words": 126,
+  "from": "fable",
+  "kind": "yours-short",
+  "why": "Your wording and your lower case."
+ },
+ {
+  "id": "S027",
+  "level": 3,
+  "heading": "The Parent You Inherited",
+  "words": 241,
+  "from": "opus"
+ },
+ {
+  "id": "S028",
+  "level": 4,
+  "heading": "Mr. Rogers’ reframe",
+  "words": 182,
+  "from": "fable",
+  "kind": "yours-short",
+  "why": "Your own name for it: the text calls it \"the Mr. Rogers reframing trick\", and Love Can Start Before It's Trusted points back to it by that name. Opus took GPT's \"Reframe the Critic\"."
+ },
+ {
+  "id": "S029",
+  "level": 3,
+  "heading": "Earning trust, day to day",
+  "words": 83,
+  "from": "fable",
+  "kind": "yours-short",
+  "why": "Your wording, comma and lower case."
+ },
+ {
+  "id": "S030",
+  "level": 2,
+  "heading": "The Nurturer",
+  "words": 0,
+  "from": "yours"
+ },
+ {
+  "id": "S031",
+  "level": 3,
+  "heading": "Love Before Trust ❤️",
+  "words": 647,
+  "from": "opus"
+ },
+ {
+  "id": "S032",
+  "level": 3,
+  "heading": "If Love Isn’t Coming Yet",
+  "words": 266,
+  "from": "opus"
+ },
+ {
+  "id": "S033",
+  "level": 3,
+  "heading": "Borrow Someone’s Love",
+  "words": 120,
+  "from": "opus"
+ },
+ {
+  "id": "S034",
+  "level": 3,
+  "heading": "Borrow Your Own Love",
+  "words": 210,
+  "from": "fable",
+  "kind": "yours-short",
+  "why": "Pairs with Borrow Someone's Love above it and fits with room; Opus's \"Borrow the Love You Give\" fits with under two letters to spare."
+ },
+ {
+  "id": "S035",
+  "level": 3,
+  "heading": "Shame Says “Unlovable”",
+  "words": 149,
+  "from": "opus"
+ },
+ {
+  "id": "S036",
+  "level": 4,
+  "heading": "“And So That’s the Way It Happened!”",
+  "words": 77,
+  "from": "yours"
+ },
+ {
+  "id": "S037",
+  "level": 3,
+  "heading": "Forgiving, Not Forgetting",
+  "words": 421,
+  "from": "opus"
+ },
+ {
+  "id": "S038",
+  "level": 4,
+  "heading": "Forgiving Yourself",
+  "words": 66,
+  "from": "yours"
+ },
+ {
+  "id": "S039",
+  "level": 3,
+  "heading": "When Nothing’s Wrong",
+  "words": 145,
+  "from": "fable",
+  "kind": "yours-short",
+  "why": "Your words, without \"Show Up\". Opus's \"Show Up for No Reason\" says something a little different (no reason, where you wrote no problem)."
+ },
+ {
+  "id": "S040",
+  "level": 3,
+  "heading": "Goodwill: A Smaller Door",
+  "words": 122,
+  "from": "opus"
+ },
+ {
+  "id": "S041",
+  "level": 3,
+  "heading": "Divine Love: Bigger Door",
+  "words": 22,
+  "from": "opus"
+ },
+ {
+  "id": "S042",
+  "level": 2,
+  "heading": "The Inner Guide",
+  "words": 52,
+  "from": "opus"
+ },
+ {
+  "id": "S043",
+  "level": 3,
+  "heading": "Ready for the Guide?",
+  "words": 105,
+  "from": "opus"
+ },
+ {
+  "id": "S044",
+  "level": 3,
+  "heading": "Between Spoiling and Clamping Down",
+  "words": 213,
+  "from": "fable",
+  "kind": "kept-whole",
+  "after_readers": true,
+  "why": "Left whole on purpose, after the readers: under your heading as the sidebar cuts it (\"Between Spoiling and Cl…\") 6 of 6 readers over two runs found the snacks-and-shows case; under \"Spoil or Clamp Down?\" 6 of 15 did (the rest went to The Urge to Escape)."
+ },
+ {
+  "id": "S045",
+  "level": 3,
+  "heading": "Borrow a Guide to Build It",
+  "words": 82,
+  "from": "opus"
+ },
+ {
+  "id": "S046",
+  "level": 4,
+  "heading": "Borrow Hindsight",
+  "words": 209,
+  "from": "yours"
+ },
+ {
+  "id": "S047",
+  "level": 4,
+  "heading": "You Did It Well Before",
+  "words": 150,
+  "from": "opus"
+ },
+ {
+  "id": "S048",
+  "level": 3,
+  "heading": "Healthy Mind, Not Perfect",
+  "words": 428,
+  "from": "fable",
+  "kind": "yours-short",
+  "after_readers": true,
+  "why": "Your saying, shortened, with one small heading added under it (\"Ugly Thoughts Happen\", above \"Forced adulthood can get into your head too\"). The section holds two things and each heading found only one: under \"Ugly Thoughts Happen\" 6 of 6 readers found the ugly-thought case and 0 of 6 the putting-off-decisions case; under GPT's \"Healthy, Not Perfect\" it was 0 of 3 and 3 of 3."
+ },
+ {
+  "id": "S048b",
+  "part_of": "S048",
+  "level": 4,
+  "heading": "Ugly Thoughts Happen",
+  "words": 0,
+  "from": "fable",
+  "kind": "added-heading",
+  "after_readers": true,
+  "why": "A heading that isn't in your post today: it would go above the paragraph that starts \"Forced adulthood can get into your head too\"."
+ },
+ {
+  "id": "S049",
+  "level": 3,
+  "heading": "Toward Divine Love",
+  "words": 347,
+  "from": "opus"
+ },
+ {
+  "id": "S050",
+  "level": 4,
+  "heading": "Ask God for a Loan 🫶🏿",
+  "words": 901,
+  "from": "yours"
+ },
+ {
+  "id": "S052",
+  "level": 4,
+  "heading": "The Joy In Sorrow",
+  "words": 191,
+  "from": "yours"
+ },
+ {
+  "id": "S053",
+  "level": 4,
+  "heading": "You Belong Everywhere and Nowhere",
+  "words": 145,
+  "from": "fable",
+  "kind": "kept-whole",
+  "why": "Left whole on purpose: the sidebar's own cut already reads \"You Belong Everywher…\", the same words as Opus's \"You Belong Everywhere\", and the post keeps your \"and Nowhere\"."
+ },
+ {
+  "id": "S054",
+  "level": 3,
+  "heading": "Invite Your Little One In",
+  "words": 116,
+  "from": "yours"
+ },
+ {
+  "id": "S055",
+  "level": 4,
+  "heading": "A Heart to Child Loop",
+  "words": 179,
+  "from": "yours"
+ },
+ {
+  "id": "S056",
+  "level": 3,
+  "heading": "Betrayed by a Teacher",
+  "words": 102,
+  "from": "opus"
+ },
+ {
+  "id": "S058",
+  "level": 1,
+  "heading": "Practice With Your Little One",
+  "words": 0,
+  "from": "opus"
+ },
+ {
+  "id": "S059",
+  "level": 2,
+  "heading": "Start With What Shows Up",
+  "words": 139,
+  "from": "opus"
+ },
+ {
+  "id": "S060",
+  "level": 2,
+  "heading": "Make a Simple Vow",
+  "words": 318,
+  "from": "yours"
+ },
+ {
+  "id": "S061",
+  "level": 3,
+  "heading": "Remind Yourself",
+  "words": 136,
+  "from": "yours"
+ },
+ {
+  "id": "S062",
+  "level": 2,
+  "heading": "No Inner Monologue?",
+  "words": 294,
+  "from": "opus"
+ },
+ {
+  "id": "S063",
+  "level": 2,
+  "heading": "Childhood Photos, Gently",
+  "words": 457,
+  "from": "opus"
+ },
+ {
+  "id": "S064",
+  "level": 2,
+  "heading": "Journal With Each Hand",
+  "words": 153,
+  "from": "yours"
+ },
+ {
+  "id": "S065",
+  "level": 3,
+  "heading": "Which thoughts to talk to",
+  "words": 110,
+  "from": "yours"
+ },
+ {
+  "id": "S066",
+  "level": 3,
+  "heading": "If no answer comes",
+  "words": 48,
+  "from": "yours"
+ },
+ {
+  "id": "S067",
+  "level": 3,
+  "heading": "If you do get an answer",
+  "words": 58,
+  "from": "yours"
+ },
+ {
+  "id": "S068",
+  "level": 3,
+  "heading": "If it tells you to act",
+  "words": 38,
+  "from": "fable",
+  "kind": "yours-short",
+  "why": "Lower case like the three headings before it (\"If no answer comes\")."
+ },
+ {
+  "id": "S069",
+  "level": 2,
+  "heading": "Catch the Hook Early",
+  "words": 171,
+  "from": "opus"
+ },
+ {
+  "id": "S070",
+  "level": 2,
+  "heading": "A Passing Feeling",
+  "words": 288,
+  "from": "opus"
+ },
+ {
+  "id": "S071",
+  "level": 3,
+  "heading": "If it’s anxiety",
+  "words": 85,
+  "from": "yours"
+ },
+ {
+  "id": "S072",
+  "level": 2,
+  "heading": "Gentle Mantra Meditation",
+  "words": 147,
+  "from": "opus"
+ },
+ {
+  "id": "S073",
+  "level": 2,
+  "heading": "Morning & Night Practice",
+  "words": 294,
+  "from": "opus"
+ },
+ {
+  "id": "S074",
+  "level": 2,
+  "heading": "Close the Session",
+  "words": 100,
+  "from": "opus"
+ },
+ {
+  "id": "S075",
+  "level": 1,
+  "heading": "Healing Old Patterns",
+  "words": 0,
+  "from": "opus"
+ },
+ {
+  "id": "S076",
+  "level": 2,
+  "heading": "Re-do traumatic memories",
+  "words": 313,
+  "from": "fable",
+  "kind": "yours-short",
+  "why": "Your word \"traumatic\" (Opus took GPT's \"Trauma\"), your lower case. Borrow Hindsight points to this heading by these words."
+ },
+ {
+  "id": "S077",
+  "level": 3,
+  "heading": "Discipline done right?",
+  "words": 484,
+  "from": "fable",
+  "kind": "yours-short",
+  "why": "Your lower case."
+ },
+ {
+  "id": "S078",
+  "level": 2,
+  "heading": "Answer the Disciplinarian",
+  "words": 175,
+  "from": "opus"
+ },
+ {
+  "id": "S079",
+  "level": 1,
+  "heading": "When Practice Gets Difficult",
+  "words": 0,
+  "from": "fable",
+  "kind": "yours-short",
+  "why": "Your word \"Difficult\" fits; no need for \"Hard\"."
+ },
+ {
+  "id": "S080",
+  "level": 2,
+  "heading": "When It Feels Fake",
+  "words": 201,
+  "from": "opus"
+ },
+ {
+  "id": "S081",
+  "level": 2,
+  "heading": "No Clear Child Yet?",
+  "words": 175,
+  "from": "opus"
+ },
+ {
+  "id": "S082",
+  "level": 2,
+  "heading": "Real but Shallow?",
+  "words": 104,
+  "from": "opus"
+ },
+ {
+  "id": "S083",
+  "level": 2,
+  "heading": "The Urge to Escape",
+  "words": 235,
+  "from": "opus"
+ },
+ {
+  "id": "S084",
+  "level": 3,
+  "heading": "Physical Pain",
+  "words": 320,
+  "from": "fable",
+  "kind": "yours-short",
+  "why": "Your first two words. Opus's \"Pain Makes It Harder\" drops \"Physical\", the word a reader in pain looks for."
+ },
+ {
+  "id": "S085",
+  "level": 4,
+  "heading": "Listen To Your Body, Or Else!",
+  "words": 166,
+  "from": "fable",
+  "kind": "kept-whole",
+  "why": "Left whole on purpose: the sidebar's own cut reads \"Listen To Your Body, Or…\", and the post keeps your \"Or Else!\"."
+ },
+ {
+  "id": "S086",
+  "level": 2,
+  "heading": "Healing or Checking?",
+  "words": 227,
+  "from": "opus"
+ },
+ {
+  "id": "S087",
+  "level": 2,
+  "heading": "Is It Helping?",
+  "words": 227,
+  "from": "opus"
+ },
+ {
+  "id": "S088",
+  "level": 2,
+  "heading": "When to Change Strategy",
+  "words": 46,
+  "from": "opus"
+ },
+ {
+  "id": "S089",
+  "level": 3,
+  "heading": "How many tries?",
+  "words": 49,
+  "from": "fable",
+  "kind": "yours-short",
+  "why": "Your lower case, like \"If you’d rather stop\" below it."
+ },
+ {
+  "id": "S090",
+  "level": 3,
+  "heading": "Right steps, no results?",
+  "words": 54,
+  "from": "fable",
+  "kind": "yours-short",
+  "why": "Your lower case, like \"If you’d rather stop\" below it."
+ },
+ {
+  "id": "S091",
+  "level": 3,
+  "heading": "If you’d rather stop",
+  "words": 35,
+  "from": "yours"
+ },
+ {
+  "id": "S092",
+  "level": 1,
+  "heading": "Altered States",
+  "words": 0,
+  "from": "opus"
+ },
+ {
+  "id": "S093",
+  "level": 2,
+  "heading": "Therapy or Escapism?",
+  "words": 154,
+  "from": "opus"
+ },
+ {
+  "id": "S094",
+  "level": 3,
+  "heading": "Real in an altered state",
+  "words": 284,
+  "from": "fable",
+  "kind": "yours-short",
+  "why": "Your lower case."
+ },
+ {
+  "id": "S095",
+  "level": 2,
+  "heading": "Attacked by a Demon?",
+  "words": 378,
+  "from": "opus"
+ },
+ {
+  "id": "S096",
+  "level": 3,
+  "heading": "Spiritual attack for gain",
+  "words": 519,
+  "from": "fable",
+  "kind": "yours-short",
+  "why": "Your words. Opus's \"Turn Attack Into Gain\" drops \"spiritual\"."
+ },
+ {
+  "id": "S097",
+  "level": 2,
+  "heading": "What to Do With a Peak",
+  "words": 339,
+  "from": "yours"
+ },
+ {
+  "id": "S098",
+  "level": 2,
+  "heading": "Leaving Reality Behind",
+  "words": 118,
+  "from": "fable",
+  "kind": "yours-short",
+  "why": "Your image, kept. Opus's \"When Drugs Warp Reality\" is plainer but none of it is your wording."
+ },
+ {
+  "id": "S099",
+  "level": 3,
+  "heading": "If a past trip went badly",
+  "words": 91,
+  "from": "yours"
+ },
+ {
+  "id": "S100",
+  "level": 3,
+  "heading": "Is paranoia a warning?",
+  "words": 143,
+  "from": "fable",
+  "kind": "yours-short",
+  "why": "Your question, your lower case."
+ },
+ {
+  "id": "S101",
+  "level": 3,
+  "heading": "Mania or psychosis risk",
+  "words": 88,
+  "from": "fable",
+  "kind": "yours-short",
+  "why": "Lower case like its neighbours. (\"Risk\" is not your word; \"Prone to mania/psychosis\" fits with under two letters to spare.)"
+ },
+ {
+  "id": "S102",
+  "level": 3,
+  "heading": "Who counts as trusted",
+  "words": 84,
+  "from": "yours"
+ },
+ {
+  "id": "S103",
+  "level": 3,
+  "heading": "Spaced out after trips?",
+  "words": 29,
+  "from": "fable",
+  "kind": "yours-short",
+  "why": "Your lower case."
+ },
+ {
+  "id": "S104",
+  "level": 3,
+  "heading": "Quitting meds or alcohol",
+  "words": 35,
+  "from": "fable",
+  "kind": "yours-short",
+  "why": "Your lower case."
+ },
+ {
+  "id": "S105",
+  "level": 3,
+  "heading": "What you mix",
+  "words": 78,
+  "from": "yours"
+ },
+ {
+  "id": "S106",
+  "level": 3,
+  "heading": "Social media hooks too",
+  "words": 104,
+  "from": "fable",
+  "kind": "new-words",
+  "why": "Your lower case. Not your words either way: your heading says ordinary, sober states can do this too; the section's example is social media."
+ },
+ {
+  "id": "S107",
+  "level": 2,
+  "heading": "My Trips Came Too Soon",
+  "words": 399,
+  "from": "opus"
+ },
+ {
+  "id": "S109",
+  "level": 1,
+  "heading": "Reparenting in Real Life",
+  "words": 146,
+  "from": "opus"
+ },
+ {
+  "id": "S110",
+  "level": 2,
+  "heading": "Play and Your Preferences",
+  "words": 0,
+  "from": "opus"
+ },
+ {
+  "id": "S111",
+  "level": 3,
+  "heading": "Play Is Part of the Work",
+  "words": 221,
+  "from": "yours"
+ },
+ {
+  "id": "S112",
+  "level": 3,
+  "heading": "From Survival to Play",
+  "words": 182,
+  "from": "opus"
+ },
+ {
+  "id": "S113",
+  "level": 3,
+  "heading": "Let the Child Be Bad at It",
+  "words": 197,
+  "from": "fable",
+  "kind": "yours-short",
+  "why": "Opus's \"Let the Child Be Bad\" changes the meaning: bad at things became just bad. This keeps your sentence and fits."
+ },
+ {
+  "id": "S114",
+  "level": 2,
+  "heading": "Keeping Your Own Ground",
+  "words": 0,
+  "from": "opus"
+ },
+ {
+  "id": "S115",
+  "level": 3,
+  "heading": "Belonging Bargains",
+  "words": 290,
+  "from": "opus"
+ },
+ {
+  "id": "S116",
+  "level": 4,
+  "heading": "Four Pairs That Hook",
+  "words": 177,
+  "from": "opus"
+ },
+ {
+  "id": "S117",
+  "level": 3,
+  "heading": "Practicing Differentiation",
+  "words": 334,
+  "from": "yours"
+ },
+ {
+  "id": "S118",
+  "level": 3,
+  "heading": "A Break From Family",
+  "words": 89,
+  "from": "opus"
+ },
+ {
+  "id": "S119",
+  "level": 3,
+  "heading": "Guilty for Being Happy?",
+  "words": 222,
+  "from": "opus"
+ },
+ {
+  "id": "S120",
+  "level": 2,
+  "heading": "Finding Your People",
+  "words": 70,
+  "from": "opus"
+ },
+ {
+  "id": "S121",
+  "level": 3,
+  "heading": "First Connections",
+  "words": 254,
+  "from": "fable",
+  "kind": "yours-short",
+  "why": "Your heading, shortened. Opus took GPT's \"Quit the Lovability Tests\", which isn't your wording; your own catchy line in the section is \"flunk the tests\", so \"Flunk the Tests\" would be the lively version in your words."
+ },
+ {
+  "id": "S122",
+  "level": 3,
+  "heading": "Open Up at Your Pace",
+  "words": 213,
+  "from": "opus"
+ },
+ {
+  "id": "S123",
+  "level": 4,
+  "heading": "The Hardest Stuff",
+  "words": 267,
+  "from": "fable",
+  "kind": "yours-short",
+  "why": "Your words. Opus's \"Before Telling Secrets\" brings in \"secrets\", which the section doesn't say."
+ },
+ {
+  "id": "S124",
+  "level": 3,
+  "heading": "How To Let People In",
+  "words": 318,
+  "from": "yours"
+ },
+ {
+  "id": "S125",
+  "level": 3,
+  "heading": "Ask What They Want",
+  "words": 64,
+  "from": "fable",
+  "kind": "yours-short",
+  "why": "Your word is want (\"what kind of company they want\"), not need."
+ },
+ {
+  "id": "S126",
+  "level": 3,
+  "heading": "Dating While You Heal",
+  "words": 165,
+  "from": "yours"
+ },
+ {
+  "id": "S127",
+  "level": 3,
+  "heading": "The Love Has to Move",
+  "words": 158,
+  "from": "yours"
+ },
+ {
+  "id": "S128",
+  "level": 3,
+  "heading": "Hearthwork: Take Turns",
+  "words": 268,
+  "from": "opus"
+ },
+ {
+  "id": "S129",
+  "level": 2,
+  "heading": "Finding a Therapist",
+  "words": 37,
+  "from": "opus"
+ },
+ {
+  "id": "S130",
+  "level": 3,
+  "heading": "Reparenting therapists",
+  "words": 83,
+  "from": "fable",
+  "kind": "yours-short",
+  "why": "Your lower case."
+ },
+ {
+  "id": "S131",
+  "level": 3,
+  "heading": "Licensed therapists",
+  "words": 63,
+  "from": "fable",
+  "kind": "yours-short",
+  "why": "Your lower case."
+ },
+ {
+  "id": "S132",
+  "level": 3,
+  "heading": "Before choosing one",
+  "words": 130,
+  "from": "fable",
+  "kind": "yours-short",
+  "why": "Your words (\"Before choosing a therapist\"), lower case."
+ },
+ {
+  "id": "S133",
+  "level": 3,
+  "heading": "AI therapy",
+  "words": 127,
+  "from": "yours"
+ },
+ {
+  "id": "S134",
+  "level": 2,
+  "heading": "Speaking Up in Conflict",
+  "words": 31,
+  "from": "opus"
+ },
+ {
+  "id": "S135",
+  "level": 3,
+  "heading": "Really Hurt or Threatened",
+  "words": 23,
+  "from": "fable",
+  "kind": "yours-short",
+  "after_readers": true,
+  "why": "After the readers: \"If Hurt or Threatened\" pulled 3 of 9 readers who only had a hurtful comment online away from Write It. Don’t Send It Yet. Your \"Actually\" was doing that job; \"Actually Hurt or Threatened\" is cut by half a letter, so this uses \"Really\", your word two headings down."
+ },
+ {
+  "id": "S136",
+  "level": 3,
+  "heading": "Aim Your Words",
+  "words": 226,
+  "from": "opus"
+ },
+ {
+  "id": "S137",
+  "level": 3,
+  "heading": "Write It. Don’t Send It Yet.",
+  "words": 576,
+  "from": "yours"
+ },
+ {
+  "id": "S138",
+  "level": 3,
+  "heading": "If You Did Hurt Them",
+  "words": 110,
+  "from": "opus"
+ },
+ {
+  "id": "S139",
+  "level": 3,
+  "heading": "Other Folks Have Hooks",
+  "words": 177,
+  "from": "fable",
+  "kind": "yours-short",
+  "why": "Your rhyme kept: only \"Also\" goes, and it fits. Opus's \"If They Can’t Hear You\" was tried on four readers and none of them found the comforting-your-partner case under it."
+ },
+ {
+  "id": "S140",
+  "level": 4,
+  "heading": "Can They Change?",
+  "words": 96,
+  "from": "yours"
+ },
+ {
+  "id": "S141",
+  "level": 4,
+  "heading": "Less Safe With Them?",
+  "words": 36,
+  "from": "opus"
+ },
+ {
+  "id": "S142",
+  "level": 2,
+  "heading": "When Your Old Life Ends",
+  "words": 234,
+  "from": "fable",
+  "kind": "new-words",
+  "why": "One word of mine (\"Old\"). Four readers said on their own that they couldn't tell whether \"When One Life Has Ended\" / \"When One Life Ends\" meant a death or a breakup. Your exact words, cut at \"and\", would be \"When One Life Has Ended\".",
+  "after_readers": true
+ },
+ {
+  "id": "S143",
+  "level": 3,
+  "heading": "Missing Someone",
+  "words": 118,
+  "from": "yours"
+ },
+ {
+  "id": "S144",
+  "level": 1,
+  "heading": "Conclusion and Appendix",
+  "words": 0,
+  "from": "yours"
+ },
+ {
+  "id": "S145",
+  "level": 2,
+  "heading": "Worthy of Love. Always.",
+  "words": 145,
+  "from": "opus"
+ },
+ {
+  "id": "S146",
+  "level": 2,
+  "heading": "Appendix",
+  "words": 0,
+  "from": "yours"
+ },
+ {
+  "id": "S147",
+  "level": 3,
+  "heading": "Similar Therapies",
+  "words": 109,
+  "from": "opus"
+ },
+ {
+  "id": "S148",
+  "level": 3,
+  "heading": "Schema Therapy",
+  "words": 414,
+  "from": "yours"
+ },
+ {
+  "id": "S149",
+  "level": 3,
+  "heading": "Internal Family Systems",
+  "words": 444,
+  "from": "opus"
+ },
+ {
+  "id": "S150",
+  "level": 3,
+  "heading": "My framework’s roots",
+  "words": 67,
+  "from": "fable",
+  "kind": "new-words",
+  "why": "Your lower case. \"Roots\" is not your word; \"Developing my framework\" fits with about one letter to spare."
+ },
+ {
+  "id": "S151",
+  "level": 3,
+  "heading": "Teachers and Resources",
+  "words": 122,
+  "from": "opus"
+ }
+]

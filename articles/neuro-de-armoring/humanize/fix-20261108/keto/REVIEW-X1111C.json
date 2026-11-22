@@ -1,0 +1,59 @@
+{
+ "format": "joel-suggestion-review-v1",
+ "review_id": "neuro-de-armoring-cards-20261111-x1111c",
+ "title": "Neuro De-Armoring Cards, 11 November (3): ketosis in people with PTSD",
+ "intro": [
+  "After your message on ketones. My last sentence in block 48 read as if ketosis had never been tried in people with PTSD; this card puts in what has been seen, with GPT's sources checked one by one.",
+  "One card. No compound, dose, unit or timing changes.",
+  "Strategy A's promise and the other ketone steps go to the read of the whole protocol."
+ ],
+ "git_file": "articles/neuro-de-armoring/humanize/fix-20261108/keto/REVIEW-X1111C.html",
+ "article": {
+  "file": "articles/neuro-de-armoring/humanize/HUMANIZED-SO-FAR.md",
+  "sha256": "adfe7042f2b4d92b1202288690710c6ba5930307ea137685a971faa193dbc16d"
+ },
+ "built": "2026-11-11T23:04:45Z",
+ "links": {
+  "guide": "https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/HUMANIZED-SO-FAR.md",
+  "review": "https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/keto/REVIEW-X1111C.md"
+ },
+ "types": {
+  "science": {
+   "label": "A claim corrected",
+   "about": "Something the sources don't support, changed as little as the science allows."
+  }
+ },
+ "suggestions": [
+  {
+   "id": "SC-48b",
+   "type": "science",
+   "title": "Ketosis in people with PTSD: what has been seen, and how far it goes",
+   "advice": "approve",
+   "spans": [
+    {
+     "block": 48,
+     "start": 0,
+     "end": 557
+    }
+   ],
+   "edits": [
+    {
+     "block": 48,
+     "before": "Why don't these drugs work on calcified PTSD? Because even if they did work for mood by modulating serotonin transmission, PTSD is not a mood disorder. That's a bit like putting some Bengay on a broken leg. This protocol tries to get at the underpinnings of the problem. The ketone BHB blocks enzymes called HDACs (Shimazu, et al, 2013), and in mice that couldn't hold on to extinction learning (learning that a cue is now safe), an HDAC blocker made the new learning last (Whittle & Singewald, 2014). Whether ketosis does that in people hasn't been tested.",
+     "after": "Why don't these drugs work on calcified PTSD? Because even if they did work for mood by modulating serotonin transmission, PTSD is not a mood disorder. That's a bit like putting some Bengay on a broken leg. This protocol tries to get at the underpinnings of the problem. The ketone BHB blocks enzymes called HDACs (Shimazu, et al, 2013), and in mice that couldn't hold on to extinction learning (learning that a cue is now safe), an HDAC blocker made the new learning last (Whittle & Singewald, 2014). In people with PTSD, the first small study of a keto diet with BHB supplements found that both people who finished its four weeks improved, by 20 and 10 points on the standard 80-point PTSD checklist, which its authors call clinically meaningful (Edwards, et al, 2024). In two case reports, women whose PTSD hadn't responded to treatment were nearly or fully free of symptoms after months on the diet (Bellamy & Laurent, 2025; Laurent, 2026). No controlled trial of the diet has been done yet, and the one placebo-controlled trial of BHB supplements alone was too small to tell either way (Youssef, et al, 2022)."
+    }
+   ],
+   "what": "Block 48's last sentence, mine (\"Whether ketosis does that in people hasn't been tested.\"), becomes three: the first small study of a keto diet with BHB supplements in people with PTSD, where both people who finished improved; two case reports of PTSD that treatment hadn't helped, nearly or fully gone after months on the diet; and the limit, that the diet has had no controlled trial yet and the one placebo-controlled trial of BHB supplements was too small to tell.",
+   "why": "You're right. My sentence was true of the HDAC route, but it reads as if ketosis had never been tried in people with PTSD, and it has. GPT's sources check out. In Oslo, of three people who started four weeks of a keto diet with BHB salts, the two who finished went from 70 to 50 and from 50 to 40 on the PCL-5, the standard 80-point PTSD checklist, which its authors call a reliable and clinically meaningful improvement ([Edwards, et al, 2024](https://pubmed.ncbi.nlm.nih.gov/39588043/)). A woman whose PTSD three years of trauma-focused therapy hadn't notably improved went from 80, the checklist's maximum, to 0 by week 12 ([Bellamy & Laurent, 2025](https://pubmed.ncbi.nlm.nih.gov/40626225/)), and a woman whose PTSD therapy and drugs hadn't helped went from 32 to 2 at 27 weeks ([Laurent, 2026](https://pubmed.ncbi.nlm.nih.gov/41783812/)). This year's review of all of it finds only minimal reliable information from human studies so far ([Frontiers in Psychiatry, 2026](https://pubmed.ncbi.nlm.nih.gov/42780737/)), and the studies registered have no comparison group: [a six-person one in Munich](https://clinicaltrials.gov/study/NCT07415590) finished in August with no results posted yet. In chat I also said the one placebo-controlled trial of ketone salts ended with the two groups no different ([Youssef, et al, 2022](https://pubmed.ncbi.nlm.nih.gov/36282607/)). That made a trial too small to tell sound like a negative. Its ketone group's scores fell (a median of 58.5 to 54) while the placebo group's didn't move, but with 21 people the difference between the groups wasn't significant, which its authors put down to the small size. Left out: two rat studies, which add nothing to the mouse finding already there, and [a Ukrainian survey](https://pubmed.ncbi.nlm.nih.gov/41345238/) that found people with PTSD more often on restrictive diets, keto among them, which says nothing about what the diet does to PTSD.",
+   "stays": "Your four sentences on why the drugs fall short, the Bengay line among them, and the HDAC and mouse sentence. Strategy A's \"need the fog gone fast\" with the salts, and the other ketone steps, go to the read of the whole protocol.",
+   "deciding": "Whether block 48 ends on what has been seen in people with PTSD on a keto diet, with its limit, in place of \"hasn't been tested\".",
+   "advice_note": "Approve. I'm sure of the facts, less sure of the length. A fresh reader kept all three new sentences and would also lose the Bengay line and the mouse half of the HDAC sentence, which I'd keep: the Bengay line is how you put it, and the mouse finding is the one place the article says why blocking HDACs matters for PTSD. That reader's version: \"Why don't these drugs work on calcified PTSD? Because even if they did work for mood by modulating serotonin transmission, PTSD is not a mood disorder. This protocol tries to get at the underpinnings of the problem. The ketone BHB blocks enzymes called HDACs (Shimazu, et al, 2013). In people with PTSD, the first small study of a keto diet with BHB supplements found that both people who finished its four weeks improved, by 20 and 10 points on the standard 80-point PTSD checklist, which its authors call clinically meaningful (Edwards, et al, 2024). In two case reports, women whose PTSD hadn't responded to treatment were nearly or fully free of symptoms after months on the diet (Bellamy & Laurent, 2025; Laurent, 2026). No controlled trial of the diet has been done yet, and the one placebo-controlled trial of BHB supplements alone was too small to tell either way (Youssef, et al, 2022).\"",
+   "ask_because": "meaning: what block 48 tells readers about ketosis in people with PTSD changes, from untested to early signs with no controlled trial yet",
+   "approve_label": "use it",
+   "found_by": "His message of 2026-11-11 22:53 UTC (\"ketones do seem to help ppl with ptsd\"), with GPT's review; every source checked through PubMed and ClinicalTrials.gov",
+   "receipt": [
+    "articles/neuro-de-armoring/humanize/fix-20261108/keto/SP48B.receipt.json"
+   ]
+  }
+ ]
+}

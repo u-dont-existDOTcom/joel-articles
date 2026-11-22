@@ -1,0 +1,170 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-19",
+ "text_sha256": "2dcfc0d05aedffb7816c70cc8fd7c4fe54fec8f7d530cf3118750d5c9d70ae8f",
+ "text": "Niacin flush: itchy sunburn-like heat. The flush is normal, although some people find it intolerable and others enjoy it.\nHeartburn in sensitive stomachs or after too much at once.\nDrowsiness, usually with terrible sleep quality.\nHigher or repeated doses can create a real risk of liver damage, especially with liver problems, alcohol, or medications.\n\nOther forms of vitamin B3 seem less reliable than niacin for relaxation. Niacinamide sometimes relaxes people and sometimes creates hyperfocus, depending on their state. Avoid sustained-release niacin and the useless \"no-flush\" kind (inositol hexanicotinate).",
+ "section": "A Final Trip Killer: Niacin (a Form of Vitamin B3): its side effects, then the other forms of vitamin B3",
+ "reader": "someone whose friend's trip has to end, without beach morning glory, reading about niacin before buying or giving it",
+ "sentences": [
+  {
+   "s": "Niacin flush: itchy sunburn-like heat.",
+   "payoff": "they know the flush they'll feel: itchy heat like sunburn",
+   "follows": "the first side effect, the one everyone gets"
+  },
+  {
+   "s": "The flush is normal, although some people find it intolerable and others enjoy it.",
+   "payoff": "they know the flush is expected, not an emergency, and that some hate it and some enjoy it",
+   "follows": "says what the flush means",
+   "link": "The flush is normal"
+  },
+  {
+   "s": "Heartburn in sensitive stomachs or after too much at once.",
+   "payoff": "they know heartburn can come, with a sensitive stomach or too much at once",
+   "follows": "the second side effect",
+   "link": "Heartburn"
+  },
+  {
+   "s": "Drowsiness, usually with terrible sleep quality.",
+   "payoff": "they know it can make them drowsy, with poor sleep",
+   "follows": "the third side effect",
+   "link": "Drowsiness"
+  },
+  {
+   "s": "Higher or repeated doses can create a real risk of liver damage, especially with liver problems, alcohol, or medications.",
+   "payoff": "they don't take higher or repeated doses, which risk liver damage, least of all with liver problems, alcohol or medications",
+   "follows": "the risk after the side effects",
+   "link": "Higher or repeated doses"
+  },
+  {
+   "s": "Other forms of vitamin B3 seem less reliable than niacin for relaxation.",
+   "payoff": "they know other forms of B3 relax people less reliably than niacin, so they get niacin",
+   "follows": "after niacin's own effects, the other forms",
+   "link": "Other forms of vitamin B3"
+  },
+  {
+   "s": "Niacinamide sometimes relaxes people and sometimes creates hyperfocus, depending on their state.",
+   "payoff": "they know niacinamide can relax, or can make someone hyperfocused, so it's a gamble during a trip",
+   "follows": "the first other form",
+   "link": "Niacinamide"
+  },
+  {
+   "s": "Avoid sustained-release niacin and the useless \"no-flush\" kind (inositol hexanicotinate).",
+   "payoff": "they don't buy sustained-release niacin or the \"no-flush\" kind, which is useless here",
+   "follows": "the forms to avoid",
+   "link": "Avoid"
+  }
+ ],
+ "checked": [
+  {
+   "point": "what the risk of higher or repeated niacin doses is",
+   "found": "NIH ODS (consumer fact sheet): long-term treatment, especially with extended-release forms of nicotinic acid, can cause liver problems; LiverTox (NBK548176): high doses and certain formulations linked to acute liver injury, which can be severe; MSD Manual: high-dose niacin can cause complications in people with a liver disorder, and hepatotoxicity may be more common with sustained-release forms",
+   "still_needed": "yes: they know the risk is to the liver, so they don't take more or keep taking it, especially if they drink or have liver trouble",
+   "fate": "changed"
+  }
+ ],
+ "placement": "Niacin's section: its side effects list, then the paragraph on the other forms of vitamin B3, which closes the section",
+ "opens": {
+  "first_sentence": "Niacin flush: itchy sunburn-like heat.",
+  "why_reading": "it tells someone about to give niacin what it will feel like and when it becomes risky"
+ },
+ "same_point": "none: read Niacin's section from its heading to the next for the forms of B3: only this paragraph names them",
+ "needed": {
+  "reader": "a fresh agent (Sonnet) given tools/humanization/needed_read_brief.md with only the text, its heading and what it is for (reads/need-b08-niacin-forms.txt; the draft it read: reads/read-text-b08-niacin-forms.txt)",
+  "unneeded": [],
+  "kept": {}
+ },
+ "his_fixes": {
+  "reader": "a fresh agent (Sonnet) given tools/humanization/his_fixes_brief.md, the ten ways, with the text one sentence a line (reads/his-b08-niacin-forms.txt; the draft it read: reads/read-text-b08-niacin-forms.txt)",
+  "marked": [
+   {
+    "s": "Niacin flush: itchy sunburn-like heat.",
+    "difference": "1"
+   },
+   {
+    "s": "This is normal, although some people find it intolerable and others enjoy it.",
+    "difference": "10"
+   },
+   {
+    "s": "Heartburn in sensitive stomachs or after too much at once.",
+    "difference": "1, 4"
+   },
+   {
+    "s": "Drowsiness, usually with terrible sleep quality.",
+    "difference": "1, 2"
+   },
+   {
+    "s": "Higher or repeated doses can harm the liver, especially with liver problems, alcohol, medications, or sensitive physiology.",
+    "difference": "1, 4"
+   },
+   {
+    "s": "Other forms of vitamin B3 seem less reliable for relaxation.",
+    "difference": "4"
+   },
+   {
+    "s": "Niacinamide sometimes relaxes people and sometimes creates hyperfocus, depending on the state they're in.",
+    "difference": "4, 7"
+   },
+   {
+    "s": "Avoid sustained-release niacin and the useless \"no-flush\" kind (inositol hexanicotinate).",
+    "difference": "1, 7"
+   }
+  ],
+  "kept": {
+   "Niacin flush: itchy sunburn-like heat.": "a list item's label, which the next sentence explains (\"The flush is normal\")",
+   "Heartburn in sensitive stomachs or after too much at once.": "a list item, built as the list's items are; who gets it (a sensitive stomach, too much at once) is said",
+   "Drowsiness, usually with terrible sleep quality.": "a list item; drowsiness and the poor sleep with it are the two things to expect",
+   "Other forms of vitamin B3 seem less reliable for relaxation.": "now says less reliable than what (than niacin)",
+   "Niacinamide sometimes relaxes people and sometimes creates hyperfocus, depending on the state they're in.": "which states give which isn't known; the sentence says it can go either way, which is what the reader needs to know before giving it during a trip",
+   "Avoid sustained-release niacin and the useless \"no-flush\" kind (inositol hexanicotinate).": "the forms to avoid, each named the way a label names it; why sustained-release is avoided (the liver) is the next try's change if this window stays below High, within the 20% of a near miss"
+  }
+ },
+ "fit": {
+  "reader": "a fresh agent (Sonnet) given tools/humanization/fit_read_brief.md, the universal version (reads/fit-b08-niacin-forms.txt; the draft it read: reads/read-text-b08-niacin-forms.txt)",
+  "marked": [
+   {
+    "s": "Heartburn in sensitive stomachs or after too much at once.",
+    "found": "CAN'T TELL"
+   },
+   {
+    "s": "Drowsiness, usually with terrible sleep quality.",
+    "found": "ANYWAY, MISREAD"
+   },
+   {
+    "s": "Higher or repeated doses can harm the liver, especially with liver problems, alcohol, medications, or sensitive physiology.",
+    "found": "CAN'T TELL"
+   },
+   {
+    "s": "Niacinamide sometimes relaxes people and sometimes creates hyperfocus, depending on the state they're in.",
+    "found": "CAN'T TELL"
+   }
+  ],
+  "kept": {
+   "Heartburn in sensitive stomachs or after too much at once.": "how much is too much at once the section's dose says; the item says heartburn can come with more",
+   "Drowsiness, usually with terrible sleep quality.": "drowsiness is what helps end a trip; the item says to expect it with poor sleep after",
+   "Higher or repeated doses can harm the liver, especially with liver problems, alcohol, medications, or sensitive physiology.": "the dose the section gives is the measure for higher; what they know of their friend's liver, drinking and medications is theirs",
+   "Niacinamide sometimes relaxes people and sometimes creates hyperfocus, depending on the state they're in.": "nobody can say in advance which a person will get; the sentence says it can go either way"
+  }
+ },
+ "questions": {
+  "Q1": "PASS: each item opens on the side effect it is about; the paragraph opens on the other forms",
+  "Q2": "PASS: \"Avoid\" names the forms not to buy",
+  "Q3": "PASS: \"the flush\" named; \"than niacin\" said; the forms to avoid named",
+  "Q4": "PASS: the \"no-flush\" kind named the way a label has it",
+  "Q5": "PASS: \"although\", \"especially with\", \"than niacin\", \"depending on\"",
+  "Q6": "PASS: niacin's effects, then the other forms, then which to avoid",
+  "Q7": "PASS: each bears on giving niacin to end a trip",
+  "Q8": "PASS: side effects in the list, forms in the paragraph",
+  "Q9": "PASS: \"sensitive physiology\" out; one form a clause"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

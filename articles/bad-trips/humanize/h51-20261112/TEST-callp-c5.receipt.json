@@ -1,0 +1,128 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-12",
+ "text_sha256": "44c6b5071727c22a0bb6bd37cdccb9e11af1f2f82fc6248c19ee8a2c9ef280fb",
+ "text": "Call medics if any of these happen:\n- They have a seizure after taking too much, or you don't know how much they took.\n- A seizure on a normal dose goes on for over 5 minutes.\n- Their breathing gets slow and shallow.\n- Their lips turn blue or gray.\n- When you touch their forehead, it's very hot, not just sweaty.\n- They injure their head, break a bone, or bleeding won't stop.",
+ "section": "Active Seizure",
+ "reader": "someone whose friend is having a seizure right now, deciding what to do while it lasts, when to call medics, and whether to give a rescue medicine they have",
+ "sentences": [
+  {
+   "s": "Call medics if any of these happen:",
+   "payoff": "they know the lines below are when to call medics",
+   "follows": "his lead-in"
+  },
+  {
+   "s": "- They have a seizure after taking too much, or you don't know how much they took.",
+   "payoff": "they call medics at once for a seizure after taking too much, or when they don't know how much was taken",
+   "follows": "the overdose seizure, his point of 22:34 UTC",
+   "link": "none: his list, its first line"
+  },
+  {
+   "s": "- A seizure on a normal dose goes on for over 5 minutes.",
+   "payoff": "they call medics when a seizure on a normal dose goes past 5 minutes",
+   "follows": "the epilepsy rule, for the other seizures",
+   "link": "none: his line (5e41c575, 19:44 UTC), the next one in his list"
+  },
+  {
+   "s": "- Their breathing gets slow and shallow.",
+   "payoff": "they call medics when breathing gets slow and shallow",
+   "follows": "his next sign",
+   "link": "none: his line (5e41c575, 19:44 UTC), the next one in his list"
+  },
+  {
+   "s": "- Their lips turn blue or gray.",
+   "payoff": "they call medics when the lips turn blue or gray",
+   "follows": "his next sign",
+   "link": "none: his line (5e41c575, 19:44 UTC), the next one in his list"
+  },
+  {
+   "s": "- When you touch their forehead, it's very hot, not just sweaty.",
+   "payoff": "they call medics when the forehead, touched, is very hot, not just sweaty",
+   "follows": "his heat sign, with how to tell (22:34 UTC)",
+   "link": "none: his line (5e41c575, 19:44 UTC), the next one in his list"
+  },
+  {
+   "s": "- They injure their head, break a bone, or bleeding won't stop.",
+   "payoff": "they call medics for a head injury, a broken bone or bleeding that won't stop",
+   "follows": "his last sign",
+   "link": "none: his line (5e41c575, 19:44 UTC), the next one in his list"
+  }
+ ],
+ "checked": [],
+ "placement": "Active Seizure, its call list (H49-SEIZE-CALL with B112), checked by itself for the gate",
+ "opens": {
+  "first_sentence": "Call medics if any of these happen:",
+  "why_reading": "it tells someone whose friend is seizing when to call medics, and which seizure gets the 5 minutes"
+ },
+ "same_point": "none: read the section from its heading to What Else May Help for the call to medics",
+ "needed": {
+  "reader": "a fresh Haiku agent given tools/humanization/needed_read_brief.md with the call list, its heading and what it is for (reads/need-call-c5.txt)",
+  "unneeded": [],
+  "kept": {}
+ },
+ "his_fixes": {
+  "reader": "a fresh Sonnet reader given tools/humanization/his_fixes_brief.md, after reads of seize-c6 to c11 (reads/his-seize-c12.txt)",
+  "marked": [
+   {
+    "s": "- Don't restrain them, since that can cause injuries, but do put pillows where appropriate, especially under the head.",
+    "difference": "4",
+    "draft": "seize-c12"
+   },
+   {
+    "s": "Waiting the 5 minutes is only for a seizure on a normal dose.",
+    "difference": "5",
+    "draft": "seize-c12"
+   },
+   {
+    "s": "Their seizure is most likely less dangerous than an actual drug overdose seizure.",
+    "difference": "7",
+    "draft": "seize-c12"
+   },
+   {
+    "s": "These medicines are benzodiazepines in nasal spray or rectal gel, or sometimes an intramuscular shot (pills can't be swallowed).",
+    "difference": "1, 4",
+    "draft": "seize-c12"
+   }
+  ],
+  "kept": {
+   "- Don't restrain them, since that can cause injuries, but do put pillows where appropriate, especially under the head.": "his line, from his Active Seizure version of 2026-11-12 19:44 UTC (5e41c575), which read Human High",
+   "Waiting the 5 minutes is only for a seizure on a normal dose.": "it says which seizure the 5 minutes is for, the scope all three reads of seize-c8 asked for; the paragraph read Human High 56 by itself (fa2258eb)",
+   "Their seizure is most likely less dangerous than an actual drug overdose seizure.": "his point in his words (22:34 UTC: \"most likely less dangerous than an actual drug overdose seizure\"), asked for; it is why the 5 minutes is only for a seizure on a normal dose, and the call list says to call when the dose is not known; by itself it read Human High (fa2258eb)",
+   "These medicines are benzodiazepines in nasal spray or rectal gel, or sometimes an intramuscular shot (pills can't be swallowed).": "his line, from his fix of the rescue medicine paragraph of 22:34 UTC (9320d4ec, Human High 73 by itself)"
+  }
+ },
+ "fit": {
+  "reader": "a fresh Sonnet reader given tools/humanization/fit_read_brief.md, the universal version (reads/fit-seize-c12.txt)",
+  "marked": [
+   {
+    "s": "Their seizure is most likely less dangerous than an actual drug overdose seizure.",
+    "found": "CAN'T TELL, MISREAD"
+   }
+  ],
+  "kept": {
+   "Their seizure is most likely less dangerous than an actual drug overdose seizure.": "his point in his words (22:34 UTC: \"most likely less dangerous than an actual drug overdose seizure\"), asked for; it is why the 5 minutes is only for a seizure on a normal dose, and the call list says to call when the dose is not known; by itself it read Human High (fa2258eb)"
+  }
+ },
+ "questions": {
+  "Q1": "PASS: the call list says its action first; the paragraph after it opens on which seizure the 5 minutes is for",
+  "Q2": "PASS: \"Call medics if\", \"Waiting the 5 minutes is only for\": the helper's acts",
+  "Q3": "PASS: \"after taking too much\", \"on a normal dose\", \"Their forehead feels very hot (not just sweaty)\"",
+  "Q4": "PASS: \"the seizure threshold\" said with who it matters for (\"someone with epilepsy or who's otherwise prone to seizures\")",
+  "Q5": "PASS: \"so\", \"only for\", \"Their seizure\" say each relation and whose seizure",
+  "Q6": "PASS: when to call, which seizure gets the 5 minutes, why, and how it compares",
+  "Q7": "PASS: each line bears on calling medics during a seizure",
+  "Q8": "PASS: the call list, then one paragraph on the 5 minutes",
+  "Q9": "PASS: one point a line or sentence"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

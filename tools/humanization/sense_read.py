@@ -14,7 +14,7 @@ reader's other findings, and its silence, can be trusted. The first version was 
 
   python3 tools/humanization/sense_read.py make MASTER.md OUTDIR [--parts N] [--plant K] [--seed S] [--style STYLE.md] [--pairs PAIRS.json]
   python3 tools/humanization/sense_read.py score OUTDIR
-  python3 tools/humanization/sense_read.py nonwords MASTER.md [--known FILE ...] [--out FILE]
+  python3 tools/humanization/sense_read.py nonwords MASTER.md [--known STYLE.md ...] [--his HIS-TEXT ...] [--out FILE]
 
 `make` splits the master's blocks (suggestion_review.blocks: headings are blocks too, numbered with the rest) into --parts
 contiguous parts of about equal word counts (default: one per ~10,000 words, at least one), cutting just before a heading
@@ -35,6 +35,8 @@ not (the read can't be trusted yet), 2 for a missing or malformed read.
 
 `nonwords` lists the tokens of the master that are not dictionary words (pyspellchecker), not in the --known files, and
 not names in mid-sentence, with their block numbers: the mechanical net under the read, for typos and run-together words.
+--known takes the list of what is not wrong (the article's STYLE.md: his coinages, the subject's terms); his own texts go
+in --his, which marks a word found in them with the file instead of hiding it, since his texts carry his typos too.
 """
 import argparse
 import collections
@@ -75,7 +77,18 @@ SENT_END = re.compile(r'(?<=[.!?])["”’)\]]*\s+')
 
 
 def line(b):
-    return '[%d] %s%s' % (b['i'], ('#' * b['level'] + ' ') if b['level'] else '', b['text'])
+    # A list is one block whose text has lost its first marker (suggestion_review.blocks keeps it in 'marker') while the
+    # later items keep theirs ("... - Collapse, ...", "... mission. 2. Has this happened ..."). Put the first one back:
+    # without it, a reader of the bad trips guide (2026-11-09) took the "2." for a stray number.
+    if b['level']:
+        mark = '#' * b['level'] + ' '
+    elif b.get('kind') == 'li':
+        mark = '- '
+    elif b.get('kind') == 'oli':
+        mark = b.get('marker', '1.') + ' '
+    else:
+        mark = ''
+    return '[%d] %s%s' % (b['i'], mark, b['text'])
 
 
 def words(b):
@@ -366,7 +379,7 @@ def print_score(res, nraw):
 WORD = re.compile(r"[A-Za-z][A-Za-z'’]*[A-Za-z]|[A-Za-z]")
 
 
-def nonwords(master, known_files=(), out=None):
+def nonwords(master, known_files=(), out=None, his_files=()):
     try:
         from spellchecker import SpellChecker
     except ImportError:
@@ -376,6 +389,13 @@ def nonwords(master, known_files=(), out=None):
     known = set()
     for f in known_files:
         known |= {w.replace('’', "'").lower() for w in WORD.findall(pathlib.Path(f).read_text(encoding='utf-8'))}
+    # His own texts are listed against, never hidden by: they carry his typos, and a word found there is still shown,
+    # marked with the file it is in, which also says whose words it is ("ayahauasca", from his bad trips post, was
+    # hidden when his texts were passed as --known, 2026-11-09).
+    his = {}
+    for f in his_files:
+        for w in WORD.findall(pathlib.Path(f).read_text(encoding='utf-8')):
+            his.setdefault(w.replace('’', "'").lower().strip("'"), pathlib.Path(f).name)
     sp = SpellChecker()
     hits = collections.defaultdict(list)
     for b in bl:
@@ -393,11 +413,11 @@ def nonwords(master, known_files=(), out=None):
                 continue   # a name in mid-sentence
             hits[lw].append(b['i'])
     res = [{'word': w, 'blocks': sorted(set(v)), 'where': [sr.where(bl, i) for i in sorted(set(v))][:3],
-            'suggest': sorted(sp.candidates(w) or [])[:5]} for w, v in sorted(hits.items())]
+            'suggest': sorted(sp.candidates(w) or [])[:5], 'his': his.get(w)} for w, v in sorted(hits.items())]
     if out:
         pathlib.Path(out).write_text(json.dumps(res, ensure_ascii=False, indent=1) + '\n', encoding='utf-8')
     for x in res:
-        print(x['word'], x['blocks'][:6], x['suggest'])
+        print(x['word'], x['blocks'][:6], x['suggest'], *(['(in his text: %s)' % x['his']] if x['his'] else []))
     print(len(res), 'non-words')
     return res
 
@@ -420,6 +440,7 @@ def main(argv=None):
     n = sub.add_parser('nonwords')
     n.add_argument('master')
     n.add_argument('--known', nargs='*', default=[])
+    n.add_argument('--his', nargs='*', default=[])
     n.add_argument('--out')
     a = ap.parse_args(argv)
     if a.cmd == 'make':
@@ -439,7 +460,7 @@ def main(argv=None):
             return 2
         print_score(res, nraw)
         return 0 if res['trusted'] else 3
-    nonwords(a.master, a.known, a.out)
+    nonwords(a.master, a.known, a.out, a.his)
     return 0
 
 

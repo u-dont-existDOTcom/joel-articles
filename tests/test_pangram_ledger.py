@@ -83,6 +83,36 @@ class Ledger(unittest.TestCase):
             L.main(['explain', self.ledger, '--sha', L.sha256('v%d' % i), '--cause', 'list', '--note', 'the list read AI'])
         self.assertEqual(self.predict('v6', diagnosis='a seventh idea'), 2)
 
+    def compact(self, body, key, likelihood, windows):
+        """Record a result in the web app reader's compact form, with its likelihood and windows."""
+        res = self.dir / ('res-%s.json' % key)
+        head = 'Human Written' if likelihood == 0 else 'AI Detected'
+        res.write_text(json.dumps({key: [head, likelihood, 50, windows, '20:00:00', '/u-%s' % key, []]}), encoding='utf-8')
+        return L.main(['results', self.ledger, str(res)])
+
+    def test_a_lineage_on_the_right_track_goes_to_ten_tries(self):
+        """Lesson bad-trips-2026-11-20g (Joel, 2026-11-20 18:20 UTC: "it seems like the point of the limit was to stop you
+        from doing blind tests, but if your'e on the right track you should keep going"): past six tries, a lineage whose
+        latest check is its best so far, with a Human window, may go on to ten; once a check reads worse, it stops."""
+        for i in range(6):
+            body = 'rt%d' % i
+            self.assertEqual(self.predict(body, lineage='RT', call='AI', key='rt%d' % i, diagnosis='try %d fixes a word' % i,
+                                          panel=self.panel() if i >= 2 else None), 0)
+            self.assertEqual(self.compact(body, 'rt%d' % i, 0.9 - 0.1 * i, 'Human, Low, 20; AI-Generated, Low, 30'), 0)
+        self.assertEqual(self.predict('rt6', lineage='RT', call='AI', key='rt6', diagnosis='the next marked word',
+                                      panel=self.panel()), 0)
+        self.assertEqual(self.compact('rt6', 'rt6', 0.8, 'Human, Low, 20; AI-Generated, High, 30'), 0)   # worse than rt5
+        self.assertEqual(self.predict('rt7', lineage='RT', call='AI', diagnosis='another word', panel=self.panel()), 2)
+
+    def test_a_lineage_off_the_right_track_stops_at_six(self):
+        """Its sixth check read worse than its fourth, so a seventh is a blind test (lesson bad-trips-2026-11-20g)."""
+        for i, lk in enumerate((0.9, 0.8, 0.6, 0.5, 0.7, 0.75)):
+            body = 'ot%d' % i
+            self.assertEqual(self.predict(body, lineage='OT', call='AI', key=body, diagnosis='try %d' % i,
+                                          panel=self.panel() if i >= 2 else None), 0)
+            self.assertEqual(self.compact(body, body, lk, 'Human, Low, 20; AI-Generated, Low, 30'), 0)
+        self.assertEqual(self.predict('ot6', lineage='OT', call='AI', diagnosis='a seventh idea', panel=self.panel()), 2)
+
     def test_a_paragraph_that_read_ai_twice_goes_to_the_tell_panel_first(self):
         """E346 (2026-11-04): the neuro de-armoring lane's two uridine paragraphs took four tries each before the tell panel
         ran; with it, one read Human at its fifth try, and the other at its sixth, in another family's rewrite."""
@@ -448,6 +478,8 @@ class SenseGate(unittest.TestCase):
             r['opens']['why_reading'] = 'the helper learns what to do in the first minute of the seizure'
             r['same_point'] = 'none: read the Active Seizure section from its heading to the next for these steps'
             r['needed'] = {'reader': 'a fresh reader given needed_read_brief.md', 'unneeded': [], 'kept': {}}
+            r['his_fixes'] = {'reader': 'a fresh reader given his_fixes_brief.md', 'marked': [], 'kept': {}}
+            r['fit'] = {'reader': 'a fresh reader given fit_read_brief.md', 'marked': [], 'kept': {}}
             r['questions'] = {q: 'PASS: said in the sentence itself' for q in self.S.QUESTIONS}
         rp = self.dir / ('r%d.json' % self.n)
         rp.write_text(json.dumps(r), encoding='utf-8')
@@ -540,6 +572,55 @@ class SenseGate(unittest.TestCase):
                                                'every small fix of the windows was tried')), 0)
         self.read_ai(t3)
 
+    def test_a_near_miss_is_fixed_word_by_word(self):
+        """Lesson bad-trips-2026-11-19b: after a try with a Human window, the next starts from it and changes a word or two
+        (his round-41 fixes: "it" made "this med", "too weak" made "insufficient"); --big-change doesn't lift it until two
+        small tries from it have been checked."""
+        t1, r1 = self.files('Letting them move around is fine. If they want to leave, someone goes with them.')
+        self.assertEqual(self.predict(t1, r1), 0)
+        pid = L.read(self.ledger)[-1]['id']
+        with open(self.ledger, 'a', encoding='utf-8') as f:
+            f.write(json.dumps({'type': 'result', 'prediction': pid, 'at': 'x', 'sha256': L.read(self.ledger)[-1]['sha256'],
+                                'verdict': 'Mixed', 'link': 'https://www.pangram.com/history/near', 'right': False,
+                                'likelihood': 0.79, 'windows': [{'label': 'Human', 'confidence': 'Low', 'words': 8},
+                                                                {'label': 'AI-Generated', 'confidence': 'Medium', 'words': 9}]}) + '\n')
+        t3, r3 = self.files('Pacing is fine, so let them walk laps of the yard. Walk with them if they insist on going.')
+        self.assertEqual(self.predict(t3, r3, ('--diagnosis', 'acts on things', '--big-change',
+                                               'every small fix of the windows was tried')), 2)
+        t2, r2 = self.files('Letting them move around is fine. If they want to leave, someone should go with them.')
+        self.assertEqual(self.predict(t2, r2, ('--diagnosis', 'what someone does said as what they should do')), 0)
+
+    def test_the_near_miss_is_the_try_with_fewer_words_below_high_when_likelihoods_tie(self):
+        """Turn 50 (2026-11-20): Pangram rounds a Human text's likelihood to 0, so niacin's side effects as the guide had them
+        (a Medium window) tied my fix of them (Human High in every window), and the near-miss rule measured the next try
+        from the older text."""
+        def human(windows):
+            last = L.read(self.ledger)[-1]
+            with open(self.ledger, 'a', encoding='utf-8') as f:
+                f.write(json.dumps({'type': 'result', 'prediction': last['id'], 'at': 'x', 'sha256': last['sha256'],
+                                    'verdict': 'Human', 'link': 'https://www.pangram.com/history/h%d' % self.n,
+                                    'right': True, 'likelihood': 0, 'windows': windows}) + '\n')
+        t1, r1 = self.files('Higher or repeated doses can create real risk, especially with liver problems, alcohol, '
+                            'medications, or sensitive physiology.')
+        self.assertEqual(self.predict(t1, r1), 0)
+        human([{'label': 'Human', 'confidence': 'High', 'words': 6}, {'label': 'Human', 'confidence': 'Medium', 'words': 11}])
+        t2, r2 = self.files('Higher or repeated doses can create a real risk, especially with liver problems, alcohol, '
+                            'medications, or sensitive physiology.')
+        self.assertEqual(self.predict(t2, r2, ('--diagnosis', 'the risk said as one')), 0)
+        human([{'label': 'Human', 'confidence': 'High', 'words': 17}])
+        best = L.best_near_miss(L.lineage_view(L.state(L.read(self.ledger)), 'G'))
+        self.assertEqual(best['text'], pathlib.Path(t2).read_text(encoding='utf-8').rstrip('\n'))
+
+    def test_a_try_adds_no_word_the_linter_flags_as_overused(self):
+        """Lesson bad-trips-2026-11-20e: my try added "ordinary"; he took it out and the paragraph read Human High."""
+        t1, r1 = self.files('Samsara offers no shortage of difficult experiences to process.')
+        self.assertEqual(self.predict(t1, r1), 0)
+        self.read_ai(t1)
+        t2, r2 = self.files('Samsara, the cycle of ordinary existence, offers no shortage of difficult experiences to process.')
+        self.assertEqual(self.predict(t2, r2, ('--diagnosis', 'the term explained')), 2)
+        t3, r3 = self.files('Samsara, the cycle of existence, offers no shortage of difficult experiences to process.')
+        self.assertEqual(self.predict(t3, r3, ('--diagnosis', 'the term explained')), 0)
+
     def test_a_small_retry_goes_through(self):
         t1, r1 = self.files('Letting them move around is fine. If they want to leave, someone goes with them.')
         self.assertEqual(self.predict(t1, r1), 0)
@@ -576,6 +657,16 @@ class FirstFix(SenseGate):
         self.assertEqual(self.predict(t, r, ('--first-fix', 'payoff: moved up')), 2)   # join and plain unsaid
         self.assertEqual(self.predict(t, r, ('--first-fix', self.FIX)), 0)
         self.assertEqual(L.read(self.ledger)[-1]['first_fix'], self.FIX)
+
+    def test_a_payoff_that_moved_nothing_says_how_each_sentence_already_leads(self):
+        """Lesson bad-trips-2026-11-20c: "payoff: none moved" let my tries keep the means before the payoff; his Hunter fix
+        ("To diagnose serotonin syndrome, we can use ...") moved it, and Pangram read the stretch Human."""
+        self.window('AI-Generated', 'Medium', self.OLD)
+        t, r = self.files(self.NEW)
+        rest = '; join: the α-KG sentence joined to the one before; plain: "turned straight into" back to "converted into"'
+        self.assertEqual(self.predict(t, r, ('--first-fix', 'payoff: none moved' + rest)), 2)
+        self.assertEqual(self.predict(t, r, ('--first-fix', 'payoff: none moved, each changed sentence already leads with '
+                                                            'what the reader gets (the energy)' + rest)), 0)
 
     def test_human_at_medium_is_below_high_too(self):
         self.window('Human', 'Medium', self.OLD)

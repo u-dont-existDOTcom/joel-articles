@@ -1,0 +1,135 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-13",
+ "text_sha256": "2443e9116e8166de72efa80a40eeefe5d9559b0f555bd8dc82c9651ea72472d4",
+ "text": "My experience and that of those I know and have read about, is that it has immense brain benefits, turning bad trips good instantly, giving relaxed alertness, more intelligence, brighter mood (especially when nebulized). When I nebulize it, within a minute, my brain feels crystal clean and super blissed out (much more bliss than other routes). But when used too close to bedtime or too much, it can reduce sleep, so it's best taken in the morning, and reduce the dose if you notice you're sleeping less. If it is killing my neurons, I'm pretty sure it's killing the trash ones that should be going out anyway. My dad used DMSO for decades and was healthy and mentally sharp into his old age.",
+ "section": "2. The Glutamate Shield (Anxiety):",
+ "reader": "someone with trauma whose glutamate storms bring anxiety, rage and racing thoughts, going through the protocol's glutamate tools and wanting to know what each does and whether it is safe for them",
+ "sentences": [
+  {
+   "s": "My experience and that of those I know and have read about, is that it has immense brain benefits, turning bad trips good instantly, giving relaxed alertness, more intelligence, brighter mood (especially when nebulized).",
+   "payoff": "they learn what the author and people he knows feel on it: alert, smarter, brighter, bad trips turned good",
+   "follows": "it turns from the studies to what people report, which the PTSD line said it rests on"
+  },
+  {
+   "s": "When I nebulize it, within a minute, my brain feels crystal clean and super blissed out (much more bliss than other routes).",
+   "his": true
+  },
+  {
+   "s": "But when used too close to bedtime or too much, it can reduce sleep, so it's best taken in the morning, and reduce the dose if you notice you're sleeping less.",
+   "payoff": "they learn its one side effect for him, less sleep, and how to avoid it: mornings, a smaller dose",
+   "follows": "it turns from the good to its cost",
+   "link": "But when used"
+  },
+  {
+   "s": "If it is killing my neurons, I'm pretty sure it's killing the trash ones that should be going out anyway.",
+   "his": true
+  },
+  {
+   "s": "My dad used DMSO for decades and was healthy and mentally sharp into his old age.",
+   "his": true
+  }
+ ],
+ "checked": [
+  {
+   "point": "it can reduce sleep (his)",
+   "found": "his own experience; no study of smelling it found",
+   "still_needed": "yes: they learn when to take it and when to cut back",
+   "fate": "kept"
+  }
+ ],
+ "placement": "the item's last paragraph: what people report, after the studies, as the PTSD line says it rests on",
+ "opens": {
+  "first_sentence": "My experience and that of those I know and have read about, is that it has immense brain benefits, turning bad trips good instantly, giving relaxed alertness, more intelligence, brighter mood (especially when nebulized).",
+  "why_reading": "they learn what the author feels on it, the reports the item said PTSD rests on"
+ },
+ "same_point": "none: read the section (2. The Glutamate Shield) from its heading to the next for DMSO; the section names no DMSO. The safety note at the top (block 7) covers its purity and cleanliness, and the Fog table and the timeline (block 179) say when to smell it; this item says what it does and how safe it is",
+ "needed": {
+  "reader": "a fresh reader (Haiku) given tools/humanization/needed_read_brief.md and only the text, one sentence a line (x1113b/needed/spdmsoc/READ.md), the whole item, before the reads were acted on",
+  "unneeded": [
+   "If it is killing my neurons, I'm pretty sure it's killing the trash ones that should be going out anyway.",
+   "My dad used DMSO for decades and was healthy and mentally sharp into his old age."
+  ],
+  "kept": {
+   "If it is killing my neurons, I'm pretty sure it's killing the trash ones that should be going out anyway.": "they learn how he weighs the rodent harm against his own experience: his own words, his view",
+   "My dad used DMSO for decades and was healthy and mentally sharp into his old age.": "they learn of one man who used it for decades and stayed sharp, his father: his own words"
+  }
+ },
+ "his_fixes": {
+  "reader": "a fresh reader (Haiku) given tools/humanization/his_fixes_brief.md and only the text, one sentence a line (x1113b/his-fixes/spdmsoc/READ.md), the whole item, before the reads were acted on",
+  "marked": [
+   {
+    "s": "My experience and that of those I know and have read about, is that it has immense brain benefits, turning bad trips good instantly, giving relaxed alertness, more intelligence, brighter mood (especially when nebulized).",
+    "difference": "1"
+   },
+   {
+    "s": "But when used too close to bedtime or too much, it can reduce sleep, so it's best taken in the morning, and reduce the dose if you notice you're sleeping less.",
+    "difference": "8"
+   },
+   {
+    "s": "If it is killing my neurons, I'm pretty sure it's killing the trash ones that should be going out anyway.",
+    "difference": "6"
+   }
+  ],
+  "kept": {
+   "My experience and that of those I know and have read about, is that it has immense brain benefits, turning bad trips good instantly, giving relaxed alertness, more intelligence, brighter mood (especially when nebulized).": "his own words, from his 15:22 version, ended where his first version's nebulizing sentence comes in",
+   "But when used too close to bedtime or too much, it can reduce sleep, so it's best taken in the morning, and reduce the dose if you notice you're sleeping less.": "his own words: the sleep clause from his 15:22 version, the advice from his first version",
+   "If it is killing my neurons, I'm pretty sure it's killing the trash ones that should be going out anyway.": "his own sentence, his view said as his"
+  }
+ },
+ "fit": {
+  "reader": "a fresh reader (Haiku) given tools/humanization/fit_read_brief.md and only the text, one sentence a line (x1113b/fit/spdmsoc/READ.md), the whole item, before the reads were acted on",
+  "marked": [
+   {
+    "s": "My experience and that of those I know and have read about, is that it has immense brain benefits, turning bad trips good instantly, giving relaxed alertness, more intelligence, brighter mood (especially when nebulized).",
+    "found": "CAN'T TELL and MISREAD"
+   },
+   {
+    "s": "When I nebulize it, within a minute, my brain feels crystal clean and super blissed out (much more bliss than other routes).",
+    "found": "MISREAD"
+   },
+   {
+    "s": "But when used too close to bedtime or too much, it can reduce sleep, so it's best taken in the morning, and reduce the dose if you notice you're sleeping less.",
+    "found": "ANYWAY and CAN'T TELL"
+   },
+   {
+    "s": "If it is killing my neurons, I'm pretty sure it's killing the trash ones that should be going out anyway.",
+    "found": "CAN'T TELL and MISREAD"
+   },
+   {
+    "s": "My dad used DMSO for decades and was healthy and mentally sharp into his old age.",
+    "found": "CAN'T TELL and MISREAD"
+   }
+  ],
+  "kept": {
+   "My experience and that of those I know and have read about, is that it has immense brain benefits, turning bad trips good instantly, giving relaxed alertness, more intelligence, brighter mood (especially when nebulized).": "his own experience, said as his and that of people he knows",
+   "When I nebulize it, within a minute, my brain feels crystal clean and super blissed out (much more bliss than other routes).": "his own experience of nebulizing it, said as his",
+   "But when used too close to bedtime or too much, it can reduce sleep, so it's best taken in the morning, and reduce the dose if you notice you're sleeping less.": "his own advice, from his own experience of sleeping less",
+   "If it is killing my neurons, I'm pretty sure it's killing the trash ones that should be going out anyway.": "his own view, said as his (\"I'm pretty sure\"); the evidence goes to him on the card",
+   "My dad used DMSO for decades and was healthy and mentally sharp into his old age.": "his own words about his father, said as one man"
+  }
+ },
+ "questions": {
+  "Q1": "PASS: each sentence opens on its point",
+  "Q2": "N/A: no instruction here, or the one instruction says what it is for",
+  "Q3": "PASS: each thing is named exactly",
+  "Q4": "PASS: each unfamiliar term is said in plain words where it is first used",
+  "Q5": "PASS: each \"and\", \"so\" and \"but\" turns on the clause before it",
+  "Q6": "PASS: the claim, then what the evidence shows, then its limit",
+  "Q7": "PASS: each fact is about the reader's own symptom or the tool they are deciding on",
+  "Q8": "N/A: no group or list inside this paragraph",
+  "Q9": "PASS: one step a clause, with the small words that carry the relation kept"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ },
+ "his_whose": "his own: what he wrote himself in his DMSO answers saved on the cards page on 2026-11-13 at 14:04 and 15:22 UTC (not the sentences of my cards he kept), with \"straightforward\" spelled right"
+}

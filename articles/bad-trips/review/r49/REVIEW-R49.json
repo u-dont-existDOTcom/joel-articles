@@ -1,0 +1,186 @@
+{
+ "format": "joel-suggestion-review-v1",
+ "review_id": "bad-trips-r49",
+ "title": "Bad Trips Guide, Round 49",
+ "intro": [
+  "Round 49 (2026-11-21). Your steps 5 and 6 are in the guide whole, with one obvious fix (the comma after \"Since\"), and so are \"Coffee Cherry, Brain Too\" and \"Who to Contact\" ([what went in](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261105/articles/bad-trips/review/r48/RESULTS-R48.md)). Your lesson is in the repo for every lane: fix for sense until it reads right, and only then check ([the lesson](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261105/docs/lessons/2026-11-21-1557-bad-trips.md)).",
+  "I wrote steps 1, 3, 4, 7 and 8 your way and had fresh readers read them four times before any check. Then step 8 read Human High, and 1, 3, 4 and 7 read AI, with two of my five predictions right ([the checks](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261105/articles/bad-trips/humanize/h67-20261121/RESULTS.md)). So the first quiz you suggested is my next version of those four, with my reading of every sentence, before Pangram sees it."
+ ],
+ "git_file": "articles/bad-trips/review/r49/REVIEW-R49.html",
+ "article": {
+  "file": "articles/bad-trips/review/r49/PAGE-R49.md",
+  "sha256": "92dfa143a6a4db1793fb789ba58275acaf1a4f09da2a7b4d0cb5ed41857a07f9"
+ },
+ "built": "2026-11-21",
+ "links": {
+  "guide": "https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261105/articles/bad-trips/GUIDE-SO-FAR.md",
+  "guide_label": "the guide as it stands",
+  "check": "https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261105/articles/bad-trips/review/r49/REVIEW-R49.md",
+  "review": "https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261105/articles/bad-trips/review/r49/REVIEW-R49.md"
+ },
+ "types": {
+  "plain": {
+   "label": "Said plainly",
+   "about": "AI lines said plainly, each with its reason, the way he fixes his own windows"
+  },
+  "structure": {
+   "label": "Structure",
+   "about": "how the quick version and the long version split the guide, and where a part goes"
+  },
+  "repeat": {
+   "label": "Said twice",
+   "about": "a point the guide already makes elsewhere: one copy goes, the other stays"
+  },
+  "safety": {
+   "label": "Safety in one place",
+   "about": "a caution or call-for-help line said in several places, or one that changes nothing a reader does"
+  },
+  "question": {
+   "label": "Your call",
+   "about": "something only you can decide or know"
+  },
+  "sense": {
+   "label": "Says what it means",
+   "about": "a term explained where it is first used, or a word that says what to do"
+  },
+  "belief": {
+   "label": "Your belief back",
+   "about": "a sentence of your post that said why, cut in an earlier round, put back where it bears on what the reader does"
+  },
+  "method": {
+   "label": "Your method where it is used",
+   "about": "a line the guide already has, put where the reader uses it in trouble (your METHOD-WHERE answer, round 28)"
+  },
+  "notes": {
+   "label": "Your notes, placed",
+   "about": "what you sent in a comment, put where it belongs in the guide, as you sent it"
+  },
+  "typo": {
+   "label": "Typo",
+   "about": "a word in your own paragraph spelled differently from how you spell it elsewhere, with the fix in place"
+  },
+  "boilerplate": {
+   "label": "Boilerplate",
+   "about": "standard advice a model added that carries none of your method and no safety point a reader needs, shown as the section would read without it (your round-32 note)"
+  },
+  "quiz": {
+   "label": "Quiz",
+   "about": "my reading of my own sentences, written before any Pangram check, for you to score (your suggestion of 2026-11-21)"
+  },
+  "teach": {
+   "label": "Teach me",
+   "about": "a paragraph that reads AI in every wording I tried, whose shape many stuck paragraphs share: how you would say it teaches me how to say them (you asked for these on 2026-11-07)"
+  }
+ },
+ "suggestions": [
+  {
+   "id": "QUIZ-1",
+   "type": "quiz",
+   "advice": "ask",
+   "title": "1. Quiz 1, no Pangram: my reading of my serotonin steps 1, 3, 4 and 7",
+   "question": "These are my steps 1, 3, 4 and 7 as I'd now put them, written your way, read four times by fresh readers and not checked by Pangram, on purpose. Under each sentence is my reading of it. Score each reading right or wrong (\"S3 wrong: ...\"), and name any sentence I read as right that you'd mark.\n\nStep 1\nS1: \"Serotonin syndrome comes from too much serotonin, so I'd stop anything suspected of adding more (serotonergic substances).\"\nMy reading: reads right, the reason first, then what to do, the term after its plain words, as in your step 5.\nS2: \"No more MDMA or other stimulants, of course, but also no DXM cough syrup, the painkiller tramadol or the antibiotic linezolid.\"\nMy reading: reads right, the obvious ones first, then \"but also\" the ones people don't think of, each said with what it is.\nS3: \"Even if they take an antidepressant every day (an SSRI like Prozac, or an SNRI or MAOI), I'd skip it until a doctor says to restart it, since missing a dose is much less risky than more serotonin right now.\"\nMy reading: not sure, it answers the reader's worry about stopping a daily medicine, but the bracket of kinds may read like a list dropped in.\nS4: \"If they drank ayahuasca or another harmala brew, like Syrian rue, no more of that either, since those work the way MAOIs do.\"\nMy reading: reads right, it starts from what the reader may be facing (they drank ayahuasca), then what to do and why.\nS5: \"And check whether they take supplements people don't think of as drugs, like 5-HTP, St John's wort or SAM-e.\"\nMy reading: reads right, something to do, ending on what's in their own cupboard.\n\nStep 3\nS6: \"When you call medics, ask for an ambulance, since the person can get worse fast, with seizures or dangerous overheating.\"\nMy reading: reads right, the act the line before asked for, with why an ambulance.\nS7: \"It may seem faster to drive them to the ER yourself, but don't: paramedics can start treating them right there, and if they have a seizure in your car, you can't help them and drive at the same time.\"\nMy reading: reads right, the urge first (it may seem faster), then what can actually happen, pictured (a seizure in your car).\nS8: \"Poison control can't treat serotonin syndrome, but if you don't know what was mixed, they can help work that out once the ambulance is on its way.\"\nMy reading: not sure, the limit comes first (\"can't treat\"), which may read as a correction before the help it gives.\n\nStep 4\nS9: \"Their twitching and tense muscles are making a lot of heat, and overheating is the most dangerous part of serotonin syndrome, so while you wait for the ambulance, I'd get them somewhere cool, take off their extra clothes, and set a fan blowing over cool damp cloths on their skin.\"\nMy reading: not sure, the reason and three acts in one long sentence; I joined them your way, but it may read packed.\nS10: \"If they still feel hot, ice packs wrapped in cloth help most at the neck, armpits and groin.\"\nMy reading: reads right, the next step only if needed, with where the packs help most.\nS11: \"A cold bath would cool them faster, but if they're confused, seizing or very weak, they could slip under or breathe in water, so don't put them in one.\"\nMy reading: not sure, it argues the rule in three clauses (would, but if, so don't), and that build read AI in the last check.\nS12: \"And don't count on fever reducers like Tylenol or ibuprofen, which do not help with heat generated by muscles.\"\nMy reading: reads right, what the reader reaches for, and why it won't work, in one plain line.\n\nStep 7\nS13: \"The ER doctors will want to know exactly what they took, so before the ambulance comes, I'd gather their pill bottles and packages.\"\nMy reading: reads right, why first (the ER doctors will want to know), then the act.\nS14: \"I'd also jot down how much of each and when, street drugs and supplements included.\"\nMy reading: reads right, the next thing to write down, in plain words (\"jot down\", \"street drugs\").\nS15: \"If they raised the dose of anything lately, note that too, since a bigger dose alone can set off serotonin syndrome.\"\nMy reading: reads right, one detail to note, with why it matters.\nS16: \"And if you have a thermometer or a blood pressure cuff, take readings every so often and write them down with the time, so the doctors can see whether things are getting better or worse.\"\nMy reading: reads right, what they can measure with what they may have at home, and what the doctors get from it.",
+   "why": "Your suggestion: \"we should do some quizes for you without pangram first maybe\". The last version showed you were right that I can't read my own writing yet: two of my five predictions were right, and the sentences I named as likeliest to read AI were half the ones that did. The fresh reader against your fixes can't stand in for you either: it marked the two sentences of step 1 that had read Human High. Your score of my reading is the teaching; [the scores are counted here](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261105/articles/bad-trips/review/QUIZ-SCORES.md).",
+   "stays": "the four steps stay out of the guide, and out of Pangram, until your score; the guide keeps its eight steps with your 2, 5 and 6",
+   "advice_note": "score each reading in the box, or rewrite any step yourself; after your score I fix what you mark and only then check",
+   "spans": [
+    {
+     "block": 116,
+     "start": 0,
+     "end": 203
+    },
+    {
+     "block": 118,
+     "start": 0,
+     "end": 150
+    },
+    {
+     "block": 119,
+     "start": 0,
+     "end": 345
+    },
+    {
+     "block": 122,
+     "start": 0,
+     "end": 224
+    }
+   ]
+  },
+  {
+   "id": "SS-STEP8",
+   "type": "plain",
+   "advice": "approve",
+   "title": "2. Act Now on SS: step 8, your way (reads Human High)",
+   "edits": [
+    {
+     "block": 123,
+     "before": "Hospitals may use benzodiazepines, external cooling, IV fluids, monitoring, and intensive supportive care. Niacin is unsafe for serotonin syndrome. DMSO is also not part of this branch. I would consider oral magnesium chloride when the person is fully alert, especially with MDMA-related jaw tension or muscle activity.",
+     "after": "While you wait, you might think of this guide's other remedies, like niacin for ending a trip or DMSO for brain injuries, seizures and chest pain, but I wouldn't use either one here, and niacin is actually unsafe with serotonin syndrome. For MDMA-related jaw tension or muscle activity, though, I would consider oral magnesium chloride if they're fully alert and able to swallow (the amounts are in MDMA: Magnesium Alarm, above)."
+    }
+   ],
+   "spans": [
+    {
+     "block": 123,
+     "start": 0,
+     "end": 319
+    }
+   ],
+   "receipt": "articles/bad-trips/humanize/h67-20261121/TEST-v6-ss8.receipt.json",
+   "tested": "[Human Written, Human High 75](https://www.pangram.com/history/6f055cb9-2165-4807-bb0e-4aeff880d999), by itself.",
+   "what": "step 8 opens on what the reader may reach for while they wait, this guide's other remedies, says why not niacin or DMSO, and turns to your magnesium line; the hospital line goes, and the magnesium line links to your MDMA: Magnesium Alarm section for the amounts",
+   "why": "two needed reads found the reader does nothing with \"Hospitals may use benzodiazepines, ...\", and every fit reader asked why niacin and DMSO came up at all (they appear nowhere else in the steps)",
+   "stays": "\"niacin is unsafe with serotonin syndrome\", your magnesium line with its condition, MDMA-related jaw tension and muscle activity",
+   "ask_because": "meaning: the hospital line goes (it was in your guide); DMSO is named for brain injuries, seizures and chest pain, where the guide uses it; and your magnesium line now says \"fully alert and able to swallow\", like your step 2, where it said \"fully alert\"",
+   "deciding": "whether step 8 goes in as it reads here; Revise to change it",
+   "advice_note": "approve"
+  },
+  {
+   "id": "SS-ASKED",
+   "type": "question",
+   "advice": "ask",
+   "title": "3. What readers couldn't tell in the serotonin steps, yours and mine",
+   "question": "Fresh readers asked these in all four rounds, and I can't answer them from the guide:\na) Step 2: where would a friend get cyproheptadine at night, and how much would they give?\nb) Step 6: what do \"symptoms of lack of electrolytes\" look like, and is a hypertonic drink something they would have at home?\nc) Step 8: why is niacin unsafe with serotonin syndrome? The step says it is, but not why.\nd) Step 8: your step 5 says the kidneys are at risk; magnesium leaves the body through the kidneys. Does the magnesium line still belong here, or does it need your kidney caution from MDMA: Magnesium Alarm?\ne) My step 1 (quiz 1) names Syrian rue as a harmala brew to stop, which it is; your stabilizers suggest Syrian rue oil. Is the oil a risk with serotonin syndrome too, and should step 8 say so?",
+   "why": "each one stopped a reader at a step, and (c), (d) and (e) are about safety; only you can answer them, from what you know and have seen",
+   "stays": "the steps as the guide has them, with your 2, 5 and 6 as you wrote them",
+   "advice_note": "answer the ones you want in the steps, in a line each; I'd answer (c), (d) and (e) at least",
+   "spans": [
+    {
+     "block": 117,
+     "start": 0,
+     "end": 319
+    },
+    {
+     "block": 121,
+     "start": 0,
+     "end": 302
+    },
+    {
+     "block": 123,
+     "start": 0,
+     "end": 319
+    }
+   ]
+  },
+  {
+   "id": "BOLD-56",
+   "type": "question",
+   "advice": "ask",
+   "title": "4. Bold in the serotonin steps: your 5 and 6 have none",
+   "question": "Your step 2 starts with its act in bold (\"If the person is fully alert and able to swallow, I would give cyproheptadine early\"), and steps 1, 3, 4 and 7 bold their act the same way. Your 5 and 6 have no bold, so someone scanning the list in a hurry sees no act there.\na) Bold \"clear out the crowd and stop any arguing\" in 5 and \"small sips of an electrolyte drink\" in 6.\nb) Leave 5 and 6 as they are.\nc) No bold in any step.",
+   "why": "the list is read in an emergency, often by scanning for what to do",
+   "stays": "every word of steps 5 and 6, whatever you pick",
+   "advice_note": "a",
+   "spans": [
+    {
+     "block": 120,
+     "start": 0,
+     "end": 549
+    },
+    {
+     "block": 121,
+     "start": 0,
+     "end": 302
+    }
+   ]
+  }
+ ]
+}

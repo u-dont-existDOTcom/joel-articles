@@ -1,0 +1,120 @@
+{
+ "seize-c10": {
+  "reader": "a fresh Sonnet reader given tools/humanization/fit_read_brief.md, the universal version (reads/fit-seize-c10.txt)",
+  "marked": [
+   {
+    "s": "Their seizure is most likely less dangerous than an actual drug overdose seizure.",
+    "found": "CAN'T TELL, MISREAD"
+   }
+  ],
+  "kept": {
+   "Their seizure is most likely less dangerous than an actual drug overdose seizure.": "his point in his words (22:34 UTC: \"most likely less dangerous than an actual drug overdose seizure\"), asked for; it is why the 5 minutes is only for a seizure on a normal dose, and the call list says to call when the dose is not known"
+  }
+ },
+ "callp-c3": {
+  "reader": "a fresh Sonnet reader given tools/humanization/fit_read_brief.md, the universal version (reads/fit-seize-c10.txt)",
+  "marked": [
+   {
+    "s": "Their seizure is most likely less dangerous than an actual drug overdose seizure.",
+    "found": "CAN'T TELL, MISREAD"
+   }
+  ],
+  "kept": {
+   "Their seizure is most likely less dangerous than an actual drug overdose seizure.": "his point in his words (22:34 UTC: \"most likely less dangerous than an actual drug overdose seizure\"), asked for; it is why the 5 minutes is only for a seizure on a normal dose, and the call list says to call when the dose is not known"
+  }
+ },
+ "explone-c5": {
+  "reader": "a fresh Sonnet reader given tools/humanization/fit_read_brief.md, the universal version (reads/fit-seize-c10.txt)",
+  "marked": [
+   {
+    "s": "Their seizure is most likely less dangerous than an actual drug overdose seizure.",
+    "found": "CAN'T TELL, MISREAD"
+   }
+  ],
+  "kept": {
+   "Their seizure is most likely less dangerous than an actual drug overdose seizure.": "his point in his words (22:34 UTC: \"most likely less dangerous than an actual drug overdose seizure\"), asked for; it is why the 5 minutes is only for a seizure on a normal dose, and the call list says to call when the dose is not known"
+  }
+ },
+ "callp-c4": {
+  "reader": "a fresh Sonnet reader given tools/humanization/fit_read_brief.md, the universal version (reads/fit-seize-c11.txt)",
+  "marked": [
+   {
+    "s": "- They get dangerously hot, which you can feel on their forehead (not just regular sweating).",
+    "found": "ANYWAY, CAN'T TELL"
+   },
+   {
+    "s": "Their seizure is most likely less dangerous than an actual drug overdose seizure.",
+    "found": "CAN'T TELL, MISREAD"
+   }
+  ],
+  "kept": {
+   "- They get dangerously hot, which you can feel on their forehead (not just regular sweating).": "his line and his bracket, with only how to tell added in his words (22:34 UTC: \"you can tell by touching someone's forehead how hot it is. i'm very often sweating a lot on psychedelics but my forehead is not hot\")",
+   "Their seizure is most likely less dangerous than an actual drug overdose seizure.": "his point in his words (22:34 UTC: \"most likely less dangerous than an actual drug overdose seizure\"), asked for; it is why the 5 minutes is only for a seizure on a normal dose, and the call list says to call when the dose is not known; by itself it read Human High (fa2258eb)"
+  }
+ },
+ "seize-c11": {
+  "reader": "a fresh Sonnet reader given tools/humanization/fit_read_brief.md, the universal version (reads/fit-seize-c11.txt)",
+  "marked": [
+   {
+    "s": "- They get dangerously hot, which you can feel on their forehead (not just regular sweating).",
+    "found": "ANYWAY, CAN'T TELL"
+   },
+   {
+    "s": "Their seizure is most likely less dangerous than an actual drug overdose seizure.",
+    "found": "CAN'T TELL, MISREAD"
+   }
+  ],
+  "kept": {
+   "- They get dangerously hot, which you can feel on their forehead (not just regular sweating).": "his line and his bracket, with only how to tell added in his words (22:34 UTC: \"you can tell by touching someone's forehead how hot it is. i'm very often sweating a lot on psychedelics but my forehead is not hot\")",
+   "Their seizure is most likely less dangerous than an actual drug overdose seizure.": "his point in his words (22:34 UTC: \"most likely less dangerous than an actual drug overdose seizure\"), asked for; it is why the 5 minutes is only for a seizure on a normal dose, and the call list says to call when the dose is not known; by itself it read Human High (fa2258eb)"
+  }
+ },
+ "callp-c5": {
+  "reader": "a fresh Sonnet reader given tools/humanization/fit_read_brief.md, the universal version (reads/fit-seize-c12.txt)",
+  "marked": [
+   {
+    "s": "Their seizure is most likely less dangerous than an actual drug overdose seizure.",
+    "found": "CAN'T TELL, MISREAD"
+   }
+  ],
+  "kept": {
+   "Their seizure is most likely less dangerous than an actual drug overdose seizure.": "his point in his words (22:34 UTC: \"most likely less dangerous than an actual drug overdose seizure\"), asked for; it is why the 5 minutes is only for a seizure on a normal dose, and the call list says to call when the dose is not known; by itself it read Human High (fa2258eb)"
+  }
+ },
+ "seize-c12": {
+  "reader": "a fresh Sonnet reader given tools/humanization/fit_read_brief.md, the universal version (reads/fit-seize-c12.txt)",
+  "marked": [
+   {
+    "s": "Their seizure is most likely less dangerous than an actual drug overdose seizure.",
+    "found": "CAN'T TELL, MISREAD"
+   }
+  ],
+  "kept": {
+   "Their seizure is most likely less dangerous than an actual drug overdose seizure.": "his point in his words (22:34 UTC: \"most likely less dangerous than an actual drug overdose seizure\"), asked for; it is why the 5 minutes is only for a seizure on a normal dose, and the call list says to call when the dose is not known; by itself it read Human High (fa2258eb)"
+  }
+ },
+ "callp-c6": {
+  "reader": "a fresh Sonnet reader given tools/humanization/fit_read_brief.md, the universal version (reads/fit-seize-c13.txt)",
+  "marked": [
+   {
+    "s": "Their seizure is most likely less dangerous than an actual drug overdose seizure.",
+    "found": "CAN'T TELL, MISREAD"
+   }
+  ],
+  "kept": {
+   "Their seizure is most likely less dangerous than an actual drug overdose seizure.": "his point in his words (22:34 UTC: \"most likely less dangerous than an actual drug overdose seizure\"), asked for; it is why the 5 minutes is only for a seizure on a normal dose, and the call list says to call when the dose is not known; by itself it read Human High (fa2258eb)"
+  }
+ },
+ "seize-c13": {
+  "reader": "a fresh Sonnet reader given tools/humanization/fit_read_brief.md, the universal version (reads/fit-seize-c13.txt)",
+  "marked": [
+   {
+    "s": "Their seizure is most likely less dangerous than an actual drug overdose seizure.",
+    "found": "CAN'T TELL, MISREAD"
+   }
+  ],
+  "kept": {
+   "Their seizure is most likely less dangerous than an actual drug overdose seizure.": "his point in his words (22:34 UTC: \"most likely less dangerous than an actual drug overdose seizure\"), asked for; it is why the 5 minutes is only for a seizure on a normal dose, and the call list says to call when the dose is not known; by itself it read Human High (fa2258eb)"
+  }
+ }
+}

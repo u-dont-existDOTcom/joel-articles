@@ -1,0 +1,161 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-11",
+ "text_sha256": "2e1eb07548c9bd77bfab3f2b589224e2e52cbde11d7112ef1f598c6ba9fd8190",
+ "text": "Ocean Water to calm & protect the energetic field\n\nOcean water is one of the simplest and strangest stabilizers I have found. I noticed it in Kenya and Florida. Rain water also works for me, but I've only tested it near the ocean. You can also buy Quinton Medical Seawater, which has a number of health benefits when used as a nasal spray or as a source of minerals.\n\nWhen a trip is too strong, touching ocean water can be extremely soothing. Touching the outside of a bottle doesn't do it. Direct contact with the water seems to matter, even when the water has been stored in a bottle.\n\nIt feels grounding and cooling, and there's something organizing about it too that I don't get from DMSO or my other remedies. I don't understand the mechanism, I just know that again and again it's felt like a powerful natural remedy for a trip that's too intense.\n\nShungite, Aged Ozonated-Charcoal Water, or Boiled Charcoal Water\n\nI honestly can't say how different these are from ocean water, because I've only used them a handful of times, but I do believe they're different in certain ways. Ocean water seems to reduce the intensity of the trip a bit more, while aged ozonated-charcoal water seems more peaceful without necessarily reducing intensity, and ocean water seems more reliable for some reason. Aged ozonated-charcoal water is different from zeolite and from swallowing charcoal.\n\nWhat I usually use is the water portion: water ozonated in contact with activated charcoal and allowed to sit after the charcoal falls to the bottom, or water ozonated with ordinary rock charcoal. I mean the water after active ozonation has ended and residual ozone has dissipated.\n\nThat water doesn't fix the gut the way zeolite does.",
+ "section": "Ocean Water to calm & protect the energetic field; Shungite, Aged Ozonated-Charcoal Water, or Boiled Charcoal Water",
+ "reader": "someone whose trip is too strong, deciding whether touching ocean water or a charcoal water could steady it, and how each differs",
+ "sentences": [
+  {
+   "s": "Ocean Water to calm & protect the energetic field",
+   "payoff": "they know this remedy is ocean water",
+   "follows": "the heading"
+  },
+  {
+   "s": "Ocean water is one of the simplest and strangest stabilizers I have found.",
+   "payoff": "they know ocean water is simple and works oddly well for him",
+   "follows": "it opens the remedy under its heading",
+   "link": "none: the first sentence under its heading"
+  },
+  {
+   "s": "I noticed it in Kenya and Florida.",
+   "payoff": "they know where he noticed it",
+   "follows": "where it comes from",
+   "link": "I noticed it"
+  },
+  {
+   "s": "Rain water also works for me, but I've only tested it near the ocean.",
+   "payoff": "they know rain water may work too, tested only near the ocean",
+   "follows": "one more water like it",
+   "link": "also works"
+  },
+  {
+   "s": "You can also buy Quinton Medical Seawater, which has a number of health benefits when used as a nasal spray or as a source of minerals.",
+   "payoff": "they know they can buy seawater if there is no ocean",
+   "follows": "how to get it without an ocean",
+   "link": "You can also buy"
+  },
+  {
+   "s": "When a trip is too strong, touching ocean water can be extremely soothing.",
+   "payoff": "they touch ocean water when the trip is too strong",
+   "follows": "how to use it",
+   "link": "When a trip is too strong"
+  },
+  {
+   "s": "Touching the outside of a bottle doesn't do it.",
+   "payoff": "they know touching the bottle doesn't do it",
+   "follows": "what does not work",
+   "link": "Touching the outside of a bottle"
+  },
+  {
+   "s": "Direct contact with the water seems to matter, even when the water has been stored in a bottle.",
+   "payoff": "they put their hands in the water itself, bottled or not",
+   "follows": "what does",
+   "link": "Direct contact with the water"
+  },
+  {
+   "s": "It feels grounding and cooling, and there's something organizing about it too that I don't get from DMSO or my other remedies.",
+   "payoff": "they know what it feels like and that it is not the same as his other remedies",
+   "follows": "what the touch does",
+   "link": "It feels"
+  },
+  {
+   "s": "I don't understand the mechanism, I just know that again and again it's felt like a powerful natural remedy for a trip that's too intense.",
+   "payoff": "they know he can't say why, only that it has worked again and again for a trip that's too intense",
+   "follows": "what he knows of it",
+   "link": "I don't understand the mechanism"
+  },
+  {
+   "s": "Shungite, Aged Ozonated-Charcoal Water, or Boiled Charcoal Water",
+   "payoff": "they know the next remedies are shungite and the charcoal waters",
+   "follows": "the next heading",
+   "link": "none: a heading, naming the next remedies"
+  },
+  {
+   "s": "I honestly can't say how different these are from ocean water, because I've only used them a handful of times, but I do believe they're different in certain ways.",
+   "payoff": "they know he is less sure how these differ from ocean water",
+   "follows": "it opens the remedy under its heading",
+   "link": "I honestly can't say"
+  },
+  {
+   "s": "Ocean water seems to reduce the intensity of the trip a bit more, while aged ozonated-charcoal water seems more peaceful without necessarily reducing intensity, and ocean water seems more reliable for some reason.",
+   "payoff": "they know ocean water lowers the intensity more, charcoal water is more peaceful, ocean water more reliable",
+   "follows": "how they differ, as far as he knows",
+   "link": "Ocean water seems"
+  },
+  {
+   "s": "Aged ozonated-charcoal water is different from zeolite and from swallowing charcoal.",
+   "payoff": "they know charcoal water is not zeolite or swallowed charcoal",
+   "follows": "what it is not",
+   "link": "Aged ozonated-charcoal water is different"
+  },
+  {
+   "s": "What I usually use is the water portion: water ozonated in contact with activated charcoal and allowed to sit after the charcoal falls to the bottom, or water ozonated with ordinary rock charcoal.",
+   "payoff": "they know which water he means: ozonated with charcoal and left to settle",
+   "follows": "what exactly he uses",
+   "link": "What I usually use"
+  },
+  {
+   "s": "I mean the water after active ozonation has ended and residual ozone has dissipated.",
+   "payoff": "they know it is the water after the ozone is gone",
+   "follows": "which moment exactly",
+   "link": "I mean"
+  },
+  {
+   "s": "That water doesn't fix the gut the way zeolite does.",
+   "payoff": "they know it won't fix the gut the way zeolite does",
+   "follows": "what it does not do",
+   "link": "That water"
+  }
+ ],
+ "checked": [],
+ "placement": "Mental Stabilizers, after the essential oils and DMSO: the waters, ocean water first and the charcoal waters compared with it",
+ "opens": {
+  "first_sentence": "Ocean Water to calm & protect the energetic field",
+  "why_reading": "it tells someone in a trip that is too strong that a simple thing, ocean water, steadies it"
+ },
+ "same_point": "none: read the section from Ocean Water to the next heading for the waters; zeolite is its own section before",
+ "needed": {
+  "reader": "a fresh Haiku agent given tools/humanization/needed_read_brief.md with the unit, its heading and what it is for (NEEDED-READ.md, h42-22)",
+  "unneeded": [
+   "I noticed it in Kenya and Florida.",
+   "Rain water also works for me, but I've only tested it near the ocean.",
+   "You can also buy Quinton Medical Seawater, which has a number of health benefits when used as a nasal spray or as a source of minerals.",
+   "I don't understand the mechanism, I just know that again and again it's felt like a powerful natural remedy for a trip that's too intense.",
+   "I honestly can't say how different these are from ocean water, because I've only used them a handful of times, but I do believe they're different in certain ways.",
+   "Aged ozonated-charcoal water is different from zeolite and from swallowing charcoal.",
+   "That water doesn't fix the gut the way zeolite does."
+  ],
+  "kept": {
+   "I noticed it in Kenya and Florida.": "they know it worked for him at two different oceans, so they can expect any ocean to do, not one special beach",
+   "Rain water also works for me, but I've only tested it near the ocean.": "they can try rain water when there's no ocean, knowing he has only tested it near one",
+   "You can also buy Quinton Medical Seawater, which has a number of health benefits when used as a nasal spray or as a source of minerals.": "they can keep bottled seawater at hand when there's no ocean, since bottled water still works when they touch the water itself",
+   "I don't understand the mechanism, I just know that again and again it's felt like a powerful natural remedy for a trip that's too intense.": "they try it because it has worked for him again and again, knowing nobody can tell them why (his words 'I don't understand the mechanism' are a fidelity key, W056)",
+   "I honestly can't say how different these are from ocean water, because I've only used them a handful of times, but I do believe they're different in certain ways.": "they hold his comparison of the waters loosely, since it rests on a handful of uses",
+   "Aged ozonated-charcoal water is different from zeolite and from swallowing charcoal.": "they don't swap in zeolite or charcoal tablets for the water",
+   "That water doesn't fix the gut the way zeolite does.": "they reach for zeolite instead when their trouble is the gut"
+  }
+ },
+ "questions": {
+  "Q1": "PASS: each sentence opens on its point (\"Ocean water is\", \"When a trip is too strong\", \"It feels\")",
+  "Q2": "PASS: the instruction (touch the water itself) is the reader's own act",
+  "Q3": "PASS: \"Quinton Medical Seawater\", \"the outside of a bottle\", \"water ozonated with ordinary rock charcoal\" say which",
+  "Q4": "PASS: the remedies named are the guide's own from the sections before",
+  "Q5": "PASS: \"also\", \"even when\", \"because\" and \"while\" say each relation",
+  "Q6": "PASS: what it is, how to use it, what it does, then the waters like it",
+  "Q7": "PASS: each fact bears on whether and how they use it now",
+  "Q8": "PASS: the waters are all stabilizers that keep the trip",
+  "Q9": "PASS: one step a sentence"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

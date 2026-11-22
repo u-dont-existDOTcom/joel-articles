@@ -1,0 +1,1 @@
+So have **one calm person be the anchor** and take the lead. One person can only handle so much, though. If fatigue or logistics start getting to be too much for the anchor, or keeping everyone from getting hurt does, bring in **one more calm adult or a crisis professional** to back them up, and get that help right away if there's any risk of violence or self-harm.

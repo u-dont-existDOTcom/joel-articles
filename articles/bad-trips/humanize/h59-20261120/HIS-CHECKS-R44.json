@@ -1,0 +1,660 @@
+{
+ "about": "His round-44 checks (export of 2026-11-20 13:53:52 UTC), read back from his Pangram history by uuid (web.pangram.com/api/history/<uuid>/) on 2026-11-20: each check's headline, average AI likelihood, words and windows (label, confidence, words; H/A = Human/AI, H/M/L = High/Medium/Low), in his order, with what each step changed. FINAL is the check each card's version went in from.",
+ "history": "https://www.pangram.com/history/",
+ "checks": {
+  "TEACH-TRIP-SHADOW": [
+   [
+    "ab6720fc",
+    "Human Written",
+    0,
+    370,
+    [
+     [
+      "H",
+      "H",
+      370
+     ]
+    ],
+    "his final: the section with his own new paragraph before \"So relax\""
+   ],
+   [
+    "0ae2afc0",
+    "Human Written",
+    0,
+    67,
+    [
+     [
+      "H",
+      "H",
+      33
+     ],
+     [
+      "H",
+      "L",
+      34
+     ]
+    ],
+    "my d03 first part, \"the plain truth is being revealed about you\""
+   ],
+   [
+    "68ac27ac",
+    "Human Written",
+    0,
+    69,
+    [
+     [
+      "H",
+      "H",
+      56
+     ],
+     [
+      "H",
+      "M",
+      13
+     ]
+    ],
+    "\"But that revelation is usually not the truth\""
+   ],
+   [
+    "3cd72549",
+    "Human Written",
+    0,
+    69,
+    [
+     [
+      "H",
+      "H",
+      69
+     ]
+    ],
+    "\"come back stronger\" for \"louder\""
+   ],
+   [
+    "7f0722bb",
+    "AI Generated",
+    1,
+    82,
+    [
+     [
+      "A",
+      "L",
+      35
+     ],
+     [
+      "A",
+      "M",
+      47
+     ]
+    ],
+    "my d03 second part as it was"
+   ],
+   [
+    "fe97766a",
+    "AI Generated",
+    1,
+    79,
+    [
+     [
+      "A",
+      "H",
+      79
+     ]
+    ],
+    "two thoughts joined: \"Instead of assuming you uncovered some lifelong disorder, just notice ...\""
+   ],
+   [
+    "e823b566",
+    "Human Written",
+    0,
+    95,
+    [
+     [
+      "H",
+      "M",
+      43
+     ],
+     [
+      "H",
+      "L",
+      11
+     ],
+     [
+      "H",
+      "H",
+      31
+     ],
+     [
+      "H",
+      "M",
+      10
+     ]
+    ],
+    "the last line expanded: \"come out of your head, back to the room ... plant yourself into the present moment. There is love here, even if it casts a shadow.\""
+   ],
+   [
+    "55a32f70",
+    "Human Written",
+    0,
+    100,
+    [
+     [
+      "H",
+      "L",
+      59
+     ],
+     [
+      "H",
+      "H",
+      31
+     ],
+     [
+      "H",
+      "M",
+      10
+     ]
+    ],
+    "\"deep down you already know they aren't all of you\" (therapy speak, worse)"
+   ],
+   [
+    "3a3d781c",
+    "AI Generated",
+    1,
+    95,
+    [
+     [
+      "A",
+      "H",
+      85
+     ],
+     [
+      "A",
+      "M",
+      10
+     ]
+    ],
+    "\"They're heavy, but nobody's forcing you to hold them.\" (more therapy speak, all AI)"
+   ],
+   [
+    "cbd824cf",
+    "Human Written",
+    0,
+    99,
+    [
+     [
+      "H",
+      "H",
+      99
+     ]
+    ],
+    "\"They're heavy, but that just means they want to come back to the Earth. So come out of your head ...\""
+   ],
+   [
+    "16b761c3",
+    "Human Written",
+    0,
+    168,
+    [
+     [
+      "H",
+      "H",
+      56
+     ],
+     [
+      "H",
+      "M",
+      56
+     ],
+     [
+      "H",
+      "H",
+      46
+     ],
+     [
+      "H",
+      "M",
+      10
+     ]
+    ],
+    "the two parts together"
+   ],
+   [
+    "bcfc5c2c",
+    "Human Written",
+    0,
+    175,
+    [
+     [
+      "H",
+      "H",
+      100
+     ],
+     [
+      "H",
+      "M",
+      19
+     ],
+     [
+      "H",
+      "H",
+      46
+     ],
+     [
+      "H",
+      "M",
+      10
+     ]
+    ],
+    "an explainer phrase: \"if it thinks you want a fight\""
+   ],
+   [
+    "5642d104",
+    "Human Written",
+    0,
+    180,
+    [
+     [
+      "H",
+      "H",
+      105
+     ],
+     [
+      "H",
+      "M",
+      12
+     ],
+     [
+      "H",
+      "H",
+      63
+     ]
+    ],
+    "\"excited that you finally found your diagnosis. Instead, just notice ...\"; \"There is love here in this room, even if we find it by the shadow it casts.\""
+   ],
+   [
+    "ab642d29",
+    "Human Written",
+    0,
+    181,
+    [
+     [
+      "H",
+      "H",
+      181
+     ]
+    ],
+    "one word uncompressed: \"came along with it\" (teaching only)"
+   ]
+  ],
+  "EDIT-AFTERMATH": [
+   [
+    "1d57de99",
+    "AI Detected",
+    0.323,
+    62,
+    [
+     [
+      "A",
+      "L",
+      26
+     ],
+     [
+      "H",
+      "L",
+      36
+     ]
+    ],
+    "\"usually\" for \"may\" (more AI; he keeps it)"
+   ],
+   [
+    "1e3928a2",
+    "Human Written",
+    0,
+    69,
+    [
+     [
+      "H",
+      "M",
+      6
+     ],
+     [
+      "H",
+      "H",
+      63
+     ]
+    ],
+    "his final: \"the way children sometimes give up at the slightest difficulty\" for \"which solves nothing\""
+   ]
+  ],
+  "EDIT-SS-LEAD": [
+   [
+    "8838c325",
+    "Mostly Human Written",
+    0.088,
+    111,
+    [
+     [
+      "H",
+      "L",
+      18
+     ],
+     [
+      "H",
+      "L",
+      51
+     ],
+     [
+      "H",
+      "M",
+      13
+     ],
+     [
+      "H",
+      "H",
+      29
+     ]
+    ],
+    "the payoff first: \"To diagnose serotonin syndrome, we can use the Hunter criteria, the same checklist clinicians use.\""
+   ],
+   [
+    "fe532a4d",
+    "Human Written",
+    0,
+    113,
+    [
+     [
+      "H",
+      "M",
+      18
+     ],
+     [
+      "H",
+      "H",
+      95
+     ]
+    ],
+    "his final: the same for the second sentence: \"Using Hunter, one or more of these patterns ...\""
+   ]
+  ],
+  "EDIT-CONFRONT": [
+   [
+    "e04e1552",
+    "Human Written",
+    0,
+    107,
+    [
+     [
+      "H",
+      "H",
+      107
+     ]
+    ],
+    "his final: \"keep them from taking more of any substance or getting into confrontations\""
+   ]
+  ],
+  "EDIT-REDEFINING": [
+   [
+    "243f0a14",
+    "AI Detected",
+    0.356,
+    105,
+    [
+     [
+      "H",
+      "H",
+      20
+     ],
+     [
+      "H",
+      "L",
+      38
+     ],
+     [
+      "A",
+      "L",
+      35
+     ],
+     [
+      "H",
+      "L",
+      12
+     ]
+    ],
+    "\"too late\" explained: \"leaving you unprepared or bewildered\""
+   ],
+   [
+    "19103a01",
+    "AI Detected",
+    0.439,
+    111,
+    [
+     [
+      "H",
+      "H",
+      20
+     ],
+     [
+      "H",
+      "L",
+      44
+     ],
+     [
+      "A",
+      "L",
+      35
+     ],
+     [
+      "A",
+      "L",
+      12
+     ]
+    ],
+    "clarified: \"And not all bad trips seem to come from a need for shadow work\" (more AI; kept)"
+   ],
+   [
+    "b7885354",
+    "AI Detected",
+    0.855,
+    108,
+    [
+     [
+      "H",
+      "M",
+      20
+     ],
+     [
+      "A",
+      "M",
+      22
+     ],
+     [
+      "A",
+      "H",
+      37
+     ],
+     [
+      "A",
+      "M",
+      15
+     ],
+     [
+      "A",
+      "L",
+      14
+     ]
+    ],
+    "clarified more: \"even though every difficult experience can be a learning or healing opportunity, it still makes sense to first reduce ...\" (more AI; kept)"
+   ],
+   [
+    "35a308ec",
+    "AI Detected",
+    0.568,
+    103,
+    [
+     [
+      "H",
+      "H",
+      20
+     ],
+     [
+      "H",
+      "M",
+      17
+     ],
+     [
+      "A",
+      "M",
+      37
+     ],
+     [
+      "A",
+      "L",
+      15
+     ],
+     [
+      "H",
+      "L",
+      14
+     ]
+    ],
+    "less said twice: \"if you had no intention of doing shadow work today, you might feel unprepared or bewildered\""
+   ],
+   [
+    "670ae7d9",
+    "Mostly Human Written",
+    0.007,
+    140,
+    [
+     [
+      "H",
+      "H",
+      37
+     ],
+     [
+      "H",
+      "L",
+      37
+     ],
+     [
+      "H",
+      "H",
+      37
+     ],
+     [
+      "H",
+      "L",
+      29
+     ]
+    ],
+    "an analogy: the pile of garbage on a spot we forgot to clean"
+   ],
+   [
+    "0cc88b1e",
+    "AI Detected",
+    0.284,
+    141,
+    [
+     [
+      "H",
+      "H",
+      20
+     ],
+     [
+      "H",
+      "M",
+      17
+     ],
+     [
+      "A",
+      "L",
+      37
+     ],
+     [
+      "H",
+      "H",
+      38
+     ],
+     [
+      "H",
+      "L",
+      29
+     ]
+    ],
+    "\"have to\" for \"gotta\" (no cheap slang)"
+   ],
+   [
+    "c2879828",
+    "Human Written",
+    0,
+    156,
+    [
+     [
+      "H",
+      "H",
+      37
+     ],
+     [
+      "H",
+      "L",
+      36
+     ],
+     [
+      "H",
+      "H",
+      54
+     ],
+     [
+      "H",
+      "L",
+      29
+     ]
+    ],
+    "the last part connected: \"And we could practice to see that spot on the floor without such a crude pointer.\""
+   ],
+   [
+    "4077f492",
+    "Human Written",
+    0,
+    156,
+    [
+     [
+      "H",
+      "H",
+      127
+     ],
+     [
+      "H",
+      "L",
+      15
+     ],
+     [
+      "H",
+      "M",
+      14
+     ]
+    ],
+    "\"and\" for \"or\""
+   ],
+   [
+    "a03b5901",
+    "Human Written",
+    0,
+    155,
+    [
+     [
+      "H",
+      "H",
+      155
+     ]
+    ],
+    "his final: \"ordinary\" out"
+   ]
+  ]
+ },
+ "final": {
+  "TEACH-TRIP-SHADOW": "ab6720fc-7069-4e8b-9afc-55be0a74b157",
+  "EDIT-AFTERMATH": "1e3928a2-d07f-4140-b1e8-71b9c7cc9945",
+  "EDIT-SS-LEAD": "fe532a4d-7732-4b29-8df2-2c752d7d1c6e",
+  "EDIT-CONFRONT": "e04e1552-05a2-43b1-a599-8662619510fc",
+  "EDIT-REDEFINING": "a03b5901-2c6c-4c33-a06b-d5341aaec04a"
+ }
+}

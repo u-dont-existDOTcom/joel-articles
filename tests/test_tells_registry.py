@@ -84,10 +84,22 @@ class RegistryShape(unittest.TestCase):
         # guide answers of 2026-11-03 18:59 UTC; W122 (O68, a study opened bare) from his bad trips guide answers of 2026-11-04
         # 22:14 UTC (E360); W123 (O46 again, "one" before any word and a noun: "one intense night") from his bad trips guide
         # answers of 2026-11-07 15:38 UTC; J69 (a compressed list of category words) from his bad trips guide's round-23
-        # answer of 2026-11-07 22:38 UTC
-        self.assertEqual(len(ids), 192)
+        # answer of 2026-11-07 22:38 UTC; W124 (O69, correction or contrast frames, two in a paragraph failing), W125 (O70,
+        # "different from" twice) and J70 (a sentence that reads the way his fixes change, the read against his fixes) from his
+        # bad trips guide's round-36 answer of 2026-11-12 14:45 UTC (bad-trips-2026-11-12g); W126 (O71, the action said after
+        # the list or questions it serves) from his round-37 message of 2026-11-12 16:48 UTC (bad-trips-2026-11-12h); W127
+        # (O72, "safe" with no how) and W128 (O73, a sign of health in a list of warning signs) from his round-38 answer of
+        # 2026-11-12 18:19 UTC (bad-trips-2026-11-12i); W129 (O74, a list item that finishes its lead-in ending with a period)
+        # from his message of 2026-11-13 14:15 UTC (bad-trips-2026-11-12m); W130 (O75, a past perfect where the simple past
+        # does) and W131 (O76, the same abbreviation in three sentences in a row) from his round-40 tries of 2026-11-19
+        # (bad-trips-2026-11-19a); J71 (a word or a pointer a reader could take two ways) from his round-41 answer of
+        # 2026-11-19 15:15 UTC (bad-trips-2026-11-19b); J72 (a sentence not connected to the one before: the other
+        # alternative, the next case) from his round-45 answer of 2026-11-20 18:20 UTC (bad-trips-2026-11-20h); J73 to J77
+        # (a step that leaves the reader wondering why, a flat rule against a natural impulse, a don't with nothing to do,
+        # said twice, advice that isn't right here) from his round-48 answer of 2026-11-21 15:57 UTC (bad-trips-2026-11-21e)
+        self.assertEqual(len(ids), 208)
         self.assertEqual(len(set(ids)), len(ids))
-        self.assertEqual(sum(t['kind'] == 'mechanical' for t in TELLS), 123)
+        self.assertEqual(sum(t['kind'] == 'mechanical' for t in TELLS), 131)
         for t in TELLS:
             with self.subTest(id=t['id']):
                 self.assertIn(t['kind'], ('mechanical', 'judgment'))

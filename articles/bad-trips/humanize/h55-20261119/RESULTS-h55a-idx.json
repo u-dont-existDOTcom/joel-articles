@@ -1,0 +1,85 @@
+{
+ "b106-now": [
+  "AI Detected",
+  0.387,
+  115,
+  "7caaa2f9-b611-4d1f-931c-de6584ed18e0",
+  "2026-11-19T01:26:59",
+  [
+   [
+    "AI-Generated",
+    "High",
+    40,
+    0,
+    249,
+    "DMSO cannot identify whe"
+   ],
+   [
+    "Human",
+    "High",
+    75,
+    249,
+    644,
+    "If someone is worried ab"
+   ]
+  ]
+ ],
+ "mdma-c3": [
+  "AI Detected",
+  0.867,
+  127,
+  "adc38bd4-0651-498e-90be-4f06c7540ad8",
+  "2026-11-19T01:26:47",
+  [
+   [
+    "Human",
+    "Low",
+    20,
+    0,
+    93,
+    "Once their jaw tenses, t"
+   ],
+   [
+    "AI-Generated",
+    "Medium",
+    34,
+    93,
+    273,
+    "If they drink a lot of p"
+   ],
+   [
+    "AI-Generated",
+    "High",
+    73,
+    273,
+    698,
+    "If a headache keeps gett"
+   ]
+  ]
+ ],
+ "cyp-c3": [
+  "AI Detected",
+  0.793,
+  58,
+  "33e3c66b-d1ae-4d23-b27a-36eaaee156da",
+  "2026-11-19T01:26:37",
+  [
+   [
+    "Human",
+    "Low",
+    20,
+    0,
+    121,
+    "If the person is fully a"
+   ],
+   [
+    "AI-Generated",
+    "Medium",
+    38,
+    121,
+    309,
+    "So far, the evidence for"
+   ]
+  ]
+ ]
+}

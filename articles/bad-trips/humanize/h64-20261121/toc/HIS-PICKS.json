@@ -1,0 +1,374 @@
+[
+ {
+  "id": "B65",
+  "level": 1,
+  "heading": "remove this section for now since my app isn't ready",
+  "from": "own"
+ },
+ {
+  "id": "B91",
+  "level": 1,
+  "heading": "When to Get Outside Help",
+  "from": "pick"
+ },
+ {
+  "id": "B93",
+  "level": 2,
+  "heading": "Call Medics For:",
+  "from": "pick"
+ },
+ {
+  "id": "N-SF-1",
+  "level": 2,
+  "heading": "If Someone Might Get Hurt",
+  "from": "pick"
+ },
+ {
+  "id": "B261",
+  "level": 2,
+  "heading": "Who to Contact, and When",
+  "from": "now"
+ },
+ {
+  "id": "B99",
+  "level": 1,
+  "heading": "Medical and Brain Rescue",
+  "from": "pick"
+ },
+ {
+  "id": "B102",
+  "level": 2,
+  "heading": "\"My Brain Feels Damaged\"",
+  "from": "pick"
+ },
+ {
+  "id": "B108",
+  "level": 2,
+  "heading": "Active Seizure",
+  "from": "now"
+ },
+ {
+  "id": "R32-SEIZE",
+  "level": 3,
+  "heading": "Seizure: What Else Helps",
+  "from": "pick"
+ },
+ {
+  "id": "B113",
+  "level": 2,
+  "heading": "MDMA: Magnesium Alarm",
+  "from": "pick"
+ },
+ {
+  "id": "B121",
+  "level": 2,
+  "heading": "Chest Pain and Injury",
+  "from": "now"
+ },
+ {
+  "id": "B125",
+  "level": 2,
+  "heading": "Swallowed Too Much?",
+  "from": "pick"
+ },
+ {
+  "id": "B129",
+  "level": 2,
+  "heading": "Serotonin Syndrome (SS)?",
+  "from": "pick"
+ },
+ {
+  "id": "B131",
+  "level": 3,
+  "heading": "How To Check For SS",
+  "from": "own"
+ },
+ {
+  "id": "B135",
+  "level": 3,
+  "heading": "Act Now on SS",
+  "from": "own"
+ },
+ {
+  "id": "B138",
+  "level": 1,
+  "heading": "My Acute Rescue Remedies",
+  "from": "pick"
+ },
+ {
+  "id": "B217",
+  "level": 2,
+  "heading": "Remedies Needing Caution",
+  "from": "pick"
+ },
+ {
+  "id": "B150",
+  "level": 2,
+  "heading": "Gut-Toxin & Die-Off Tools",
+  "from": "pick"
+ },
+ {
+  "id": "B152",
+  "level": 3,
+  "heading": "ZeoCharge & Ferment",
+  "from": "own"
+ },
+ {
+  "id": "B159",
+  "level": 3,
+  "heading": "Activated Charcoal",
+  "from": "pick"
+ },
+ {
+  "id": "B164",
+  "level": 2,
+  "heading": "Nausea Smoothers",
+  "from": "pick"
+ },
+ {
+  "id": "B166",
+  "level": 3,
+  "heading": "(Coffee Cherry for Brain also)",
+  "from": "own"
+ },
+ {
+  "id": "B180",
+  "level": 2,
+  "heading": "Too Intense? Stabilizers",
+  "from": "pick"
+ },
+ {
+  "id": "B181",
+  "level": 3,
+  "heading": "Metta Sniffer: Chill Love 🫶🏿",
+  "from": "own"
+ },
+ {
+  "id": "B183",
+  "level": 3,
+  "heading": "Humic Acid for the Brain",
+  "from": "pick"
+ },
+ {
+  "id": "H54-CREATINE-H",
+  "level": 3,
+  "heading": "Creatine for Brain & Bliss",
+  "from": "pick"
+ },
+ {
+  "id": "H54-MANGO-H",
+  "level": 3,
+  "heading": "Mango Leaf Tea: Chill Bliss",
+  "from": "own"
+ },
+ {
+  "id": "R30-OILS1",
+  "level": 3,
+  "heading": "Lime or EOs for Calm",
+  "from": "own"
+ },
+ {
+  "id": "B199",
+  "level": 3,
+  "heading": "DMSO",
+  "from": "now"
+ },
+ {
+  "id": "R30-RUE1",
+  "level": 3,
+  "heading": "Syrian Rue Oil: Gentler",
+  "from": "pick"
+ },
+ {
+  "id": "B185",
+  "level": 3,
+  "heading": "Ocean Water Calms",
+  "from": "pick"
+ },
+ {
+  "id": "B189",
+  "level": 3,
+  "heading": "Shungite, Holy Water",
+  "from": "own"
+ },
+ {
+  "id": "B169",
+  "level": 2,
+  "heading": "Need to Stop the Trip?",
+  "from": "pick"
+ },
+ {
+  "id": "B170",
+  "level": 3,
+  "heading": "Beach Morning Glory",
+  "from": "pick"
+ },
+ {
+  "id": "B210",
+  "level": 3,
+  "heading": "Niacin \"Flushes\" Trips Out",
+  "from": "own"
+ },
+ {
+  "id": "B227",
+  "level": 1,
+  "heading": "Tripsitting Yourself or Others",
+  "from": "now"
+ },
+ {
+  "id": "B233",
+  "level": 2,
+  "heading": "The First Five Minutes",
+  "from": "pick"
+ },
+ {
+  "id": "B294",
+  "level": 2,
+  "heading": "Grounding Menu",
+  "from": "pick"
+ },
+ {
+  "id": "B253",
+  "level": 2,
+  "heading": "Get One Human Anchor",
+  "from": "now"
+ },
+ {
+  "id": "B271",
+  "level": 3,
+  "heading": "Alone at 3 a.m.",
+  "from": "now"
+ },
+ {
+  "id": "B279",
+  "level": 2,
+  "heading": "Helping? Anchor, Not Guru",
+  "from": "pick"
+ },
+ {
+  "id": "B281",
+  "level": 3,
+  "heading": "What to Do and Say",
+  "from": "pick"
+ },
+ {
+  "id": "B285",
+  "level": 3,
+  "heading": "When Talk Turns to Harm",
+  "from": "pick"
+ },
+ {
+  "id": "B315",
+  "level": 2,
+  "heading": "No Rash Actions",
+  "from": "pick"
+ },
+ {
+  "id": "B323",
+  "level": 2,
+  "heading": "If the Trip Feels Amazing",
+  "from": "pick"
+ },
+ {
+  "id": "R30-SHADOW",
+  "level": 1,
+  "heading": "Shadow Work",
+  "from": "now"
+ },
+ {
+  "id": "B376",
+  "level": 2,
+  "heading": "Dealing With Sorrow",
+  "from": "pick"
+ },
+ {
+  "id": "B385",
+  "level": 2,
+  "heading": "Hand on Heart, Gratitude",
+  "from": "pick"
+ },
+ {
+  "id": "B390",
+  "level": 3,
+  "heading": "Ask Before You Touch",
+  "from": "pick"
+ },
+ {
+  "id": "B394",
+  "level": 2,
+  "heading": "Demons, Jinn, and Entities",
+  "from": "pick"
+ },
+ {
+  "id": "B405",
+  "level": 2,
+  "heading": "Abuse Memories Surface?",
+  "from": "pick"
+ },
+ {
+  "id": "B410",
+  "level": 2,
+  "heading": "Shadow Thoughts",
+  "from": "pick"
+ },
+ {
+  "id": "B416",
+  "level": 3,
+  "heading": "The Joker Poem",
+  "from": "now"
+ },
+ {
+  "id": "B329",
+  "level": 2,
+  "heading": "(Re)defining \"Bad Trip\"",
+  "from": "now"
+ },
+ {
+  "id": "B332",
+  "level": 2,
+  "heading": "Spiritual ≠ \"Ass-Kicking\"",
+  "from": "pick"
+ },
+ {
+  "id": "B338",
+  "level": 2,
+  "heading": "The Feel-Good Bypass",
+  "from": "fable"
+ },
+ {
+  "id": "B419",
+  "level": 1,
+  "heading": "After the Storm",
+  "from": "now"
+ },
+ {
+  "id": "B424",
+  "level": 2,
+  "heading": "Lingering Symptoms?",
+  "from": "pick"
+ },
+ {
+  "id": "B96",
+  "level": 2,
+  "heading": "Get Mental-Health Help If:",
+  "from": "pick"
+ },
+ {
+  "id": "B347",
+  "level": 2,
+  "heading": "Off the Healing Treadmill",
+  "from": "own"
+ },
+ {
+  "id": "B364",
+  "level": 1,
+  "heading": "Plan a Trip or Ceremony",
+  "from": "pick"
+ },
+ {
+  "id": "B432",
+  "level": 1,
+  "heading": "Appendix: More Resources",
+  "from": "pick"
+ }
+]

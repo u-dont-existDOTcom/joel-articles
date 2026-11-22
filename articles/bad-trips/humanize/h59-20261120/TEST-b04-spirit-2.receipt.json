@@ -1,0 +1,86 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-20",
+ "text_sha256": "16447d28af466b268c727384c6a3a6f279126114780ba53c5107aa42a4c8aa54",
+ "text": "Bypassing is answering someone's suffering with a big spiritual truth, like \"this is all karma\" or \"everything is Love,\" and ignoring the person shaking in the corner.\n\nPractice says love is here too, so we take care of that person. We dim the lights and clear away anything they could get hurt on, and if it gets to be more than we can handle, we call for help. We also stop pretending nothing's wrong, and remind them that what they're feeling is allowed to move through, so they don't have to become it.",
+ "section": "Spiritual ≠ \"Getting Your Ass Kicked\"",
+ "reader": "someone who takes trips for spiritual growth, telling a spiritual answer that helps someone suffering from one that ignores them, right after the guide names spiritual bypassing and spiritual practice",
+ "sentences": [
+  {
+   "s": "Bypassing is answering someone's suffering with a big spiritual truth, like \"this is all karma\" or \"everything is Love,\" and ignoring the person shaking in the corner.",
+   "payoff": "they can recognise bypassing: a big spiritual line (\"this is all karma\", \"everything is Love\") said while the person shaking in the corner is ignored",
+   "follows": "the line before names the two, bypassing first"
+  },
+  {
+   "s": "Practice says love is here too, so we take care of that person.",
+   "payoff": "they know practice also says love is here, and acts on it by taking care of that person",
+   "follows": "the other of the two, set against the first by what it does",
+   "link": "too"
+  },
+  {
+   "s": "We dim the lights and clear away anything they could get hurt on, and if it gets to be more than we can handle, we call for help.",
+   "payoff": "they know what taking care means: dim the lights, clear away what they could get hurt on, call for help if it's more than they can handle",
+   "follows": "what \"take care of that person\" means, in steps",
+   "link": "none: the steps of the care the sentence before names"
+  },
+  {
+   "s": "We also stop pretending nothing's wrong, and remind them that what they're feeling is allowed to move through, so they don't have to become it.",
+   "payoff": "they stop pretending nothing's wrong, and remind the person that the feeling is allowed to move through",
+   "follows": "the last part of practice, the one bypassing does the opposite of",
+   "link": "also"
+  }
+ ],
+ "checked": [],
+ "placement": "under \"Spiritual ≠ \"Getting Your Ass Kicked\"\", after \"This is one side of the difference between spiritual bypassing and spiritual practice:\", which these two paragraphs complete; \"That is tripsitting, shadow work, and the path becoming practical.\" (B337) goes: a summing-up line the read against his fixes marks (way 6), whose point the steps now show",
+ "opens": {
+  "first_sentence": "Bypassing is answering someone's suffering with a big spiritual truth, like \"this is all karma\" or \"everything is Love,\" and ignoring the person shaking in the corner.",
+  "why_reading": "it gives the reader the first of the two the line before named, in a form they can recognise"
+ },
+ "same_point": "none: read the section from its heading to the next for what bypassing and practice each do: B333 says suffering alone fixes nobody and B334 names the two; only this pair says what each does when someone suffers (\"The Other Bypass\", the next section, is the opposite bypass)",
+ "needed": {
+  "reader": "a fresh agent (Sonnet) given tools/humanization/needed_read_brief.md with only the text, its heading and what it is for (reads/need-b04-spirit-2.txt; the draft it read: reads/read-text-b04-spirit-2.txt)",
+  "unneeded": [],
+  "kept": {}
+ },
+ "his_fixes": {
+  "reader": "a fresh agent (Sonnet) given tools/humanization/his_fixes_brief.md, the eleven ways, with the text one sentence a line (reads/his-b04-spirit-2.txt; the draft it read: reads/read-text-b04-spirit-2.txt)",
+  "marked": [
+   {
+    "s": "Practice says love is here too, so we take care of that person: we dim the lights and clear away anything they could get hurt on, and if it's more than we can handle, we call for help.",
+    "difference": "1"
+   },
+   {
+    "s": "And we stop pretending nothing's wrong, since the feeling is allowed to move through, and nobody has to become it.",
+    "difference": "6, 10"
+   }
+  ],
+  "kept": {}
+ },
+ "fit": {
+  "reader": "a fresh agent (Sonnet) given tools/humanization/fit_read_brief.md, the universal version (reads/fit-b04-spirit-2.txt; the draft it read: reads/read-text-b04-spirit-2.txt)",
+  "marked": [],
+  "kept": {}
+ },
+ "questions": {
+  "Q1": "PASS: each sentence opens on what bypassing or practice is or does",
+  "Q2": "PASS: dim the lights, clear away what they could get hurt on, call for help, stop pretending, remind them: what the sitter does",
+  "Q3": "PASS: \"that person\" is the person shaking in the corner; \"what they're feeling\" names whose feeling",
+  "Q4": "PASS: \"bypassing\" defined in the sentence that uses it; \"hold the experience\" said as letting the feeling move through",
+  "Q5": "PASS: \"too\" sets practice against bypassing; \"We also\" adds the last part",
+  "Q6": "PASS: bypassing, then practice, then its steps",
+  "Q7": "PASS: each step is something a sitter does for this person now",
+  "Q8": "PASS: the karma and Love lines are bypassing; the steps are practice",
+  "Q9": "PASS: the packed list split: the care in one sentence, the honesty in another"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

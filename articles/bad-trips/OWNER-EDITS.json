@@ -21,7 +21,7 @@
   },
   {
    "id": "q1-smell-first",
-   "status": "applied",
+   "status": "superseded",
    "what": "Q-1 (a): the Core Order's first step says to smell humic acid first",
    "joel": "18:59: \"q-1 smell it first for sure, that's like an allergy test\"",
    "must_contain": [
@@ -29,6 +29,9 @@
    ],
    "must_not_contain": [
     "Smell humic acid, take a 5mg lick of it."
+   ],
+   "superseded": [
+    "2026-11-20: his C4 answer a (c4-humic-no-first); the smell still comes before the lick, as his \"smell it first for sure\" asked"
    ]
   },
   {
@@ -46,12 +49,10 @@
   {
    "id": "q5-room-first",
    "status": "applied",
-   "what": "Q-5 (a): room before body in all four places",
+   "what": "Q-5 (a): room before body in all four places; the fourth place, the loop breaker, cut with the Fear/Panic Loop section by his round-28 answer (LOOP-ONCE, 2026-11-09 17:22 UTC: \"i thought i already merged it and cut that section\") | 2026-11-20: B415's line \"Then return to room, body, human, time, and love.\" went with his round-44 paragraph (r44-shadow-p7-his); room before body still holds in the Grounding Menu",
    "joel": "18:59: \"q-5 a\"",
    "must_contain": [
-    "room → body → human → time → meaning",
-    "room → body → human → time.",
-    "Then return to room, body, human, time, and love."
+    "room → body → human → time → meaning"
    ],
    "must_not_contain": [
     "body → room",
@@ -181,12 +182,11 @@
   {
    "id": "r05-cbd-his-version",
    "status": "applied",
-   "what": "CBD-YOURS: his three CBD paragraphs, as he wrote them (typo \"a rats\" fixed), with the study links on the words that name them",
+   "what": "CBD-YOURS: his three CBD paragraphs, as he wrote them (typo \"a rats\" fixed), with the study links on the words that name them | its last sentence changed by his round-34 answer to ADJUNCT, \"b\" (review/r34/apply_r34.py; owner edit r34-adjunct-b)",
    "joel": "22:14: \"i broke it up, fixed the first part ...\" (his version in the answers file); \"now it's fully human high conf\"",
    "must_contain_exact": [
     "consider topical DMSO with a known-genuine CBD preparation (a lot of CBD is fake or very dilute).",
-    "Seizures come in all different types, and we have no study on whether CBD could be a rescue remedy for a seizure",
-    "I'd treat it as a plausible experimental adjunct remedy rather than something to wait on while a seizure continues."
+    "Seizures come in all different types, and we have no study on whether CBD could be a rescue remedy for a seizure"
    ],
    "must_not_contain": [
     "focal seizures fell by about half to three quarters over nearly three years",
@@ -234,10 +234,10 @@
   {
    "id": "r06-move-his-version",
    "status": "applied",
-   "what": "MOVE-YOURS: his paragraph, the movement lines inside his dangers paragraph",
+   "what": "MOVE-YOURS: his paragraph, the movement lines inside his dangers paragraph | 2026-11-20: his round-44 version (r44-confront-his) says this line his new way; the check follows it",
    "joel": "15:14: \"now it's all high conf human\"",
    "must_contain_exact": [
-    "or pools of water for that matter. Letting them move around is fine, and pacing can help, but keep them from taking more of any substance. If they want to go confront somebody, that can wait. And if they want to leave, have someone go with them. Put any weapons away"
+    "or pools of water for that matter. Letting them move around is fine, and pacing can help, but keep them from taking more of any substance or getting into confrontations. And if they want to leave, have someone go with them. Put any weapons away"
    ],
    "must_not_contain": [
     "Movement is allowed. Unsafe movement is not."
@@ -370,7 +370,7 @@
   {
    "id": "t17-room-cut",
    "status": "applied",
-   "what": "the room paragraph (B238) cut, its points said in their own places (Why Bad Trips Tend to Happen, the fixes line, the Do and Don't lists, Get One Human Anchor, Touch, Consent, and Compassion); what only it said moved to the Do list (B282): \"Need the bathroom?\" and moving anyone they're wary of (experiments/t17-room-cut/apply_t17.py)",
+   "what": "the room paragraph (B238) cut, its points said in their own places (Why Bad Trips Tend to Happen, the fixes line, the Do and Don't lists, Get One Human Anchor, Touch, Consent, and Compassion); what only it said moved to the Do list (B282): \"Need the bathroom?\" and moving anyone they're wary of (experiments/t17-room-cut/apply_t17.py) | the Do list line it moved there cut in round 33 (HELPER-CUTS, his approval of 2026-11-11 19:54 UTC (review/r33/ANSWERS-R33-20261111-1954.json)",
    "joel": "2026-11-06 19:43 UTC: \"i'd say make the cuts regardless of pangram if it makes the guide read better, that was what we were supposed to do already prior\"",
    "must_not_contain": [
     "A lot of what looks like a deep psychedelic crisis",
@@ -379,8 +379,7 @@
     "Then look at the room. Is the light too bright?"
    ],
    "must_contain_exact": [
-    "\"Closer or farther away?\" \"Water?\" (in small sips) \"Need the bathroom?\"",
-    "Keep the room quiet, private, warm, and physically safe, and move anyone they're wary of somewhere else."
+    "\"Closer or farther away?\" \"Water?\" (in small sips) \"Need the bathroom?\""
    ],
    "order": [
     "or message an ex, take the phone.",
@@ -436,40 +435,35 @@
   {
    "id": "t19-anchor-committee-cut",
    "status": "applied",
-   "what": "Get One Human Anchor's \"committee\" line cut: it says again the section's first paragraph (too many people crowding in make it worse); the paragraph ends on \"That is backup.\" (experiments/t19-anchor/apply_t19.py) (round 13's ANCHOR-BACKUP then said the paragraph again, approved 2026-11-07 00:01 UTC)",
+   "what": "Get One Human Anchor's \"committee\" line cut: it says again the section's first paragraph (too many people crowding in make it worse); the paragraph ends on \"That is backup.\" (experiments/t19-anchor/apply_t19.py) (round 13's ANCHOR-BACKUP then said the paragraph again, approved 2026-11-07 00:01 UTC) | the sentence it checks changed in the humanize pass's fix anchor-a1 (2026-11-11, turn 34; humanize/h43-20261111/apply_h43.py; https://www.pangram.com/history/3a3fd073-98e1-46ea-9e5d-342bd7c7ee67): the two people it names are still the one place backup is said, bold as before | the sentence it checks changed in turn 49's fix b10-anchor-lead (2026-11-19; humanize/h57-20261119/apply_h57.py; https://www.pangram.com/history/36cf33c5-55a8-4a4f-942f-4f9bea7d145d, Human High 70): \"them\" said as the anchor, \"safe\" as \"from getting hurt\", \"do it\" as \"get that help\"; the two people it names still the one place backup is said, bold as before",
    "joel": "2026-11-06 19:43 UTC: \"i'd say make the cuts regardless of pangram if it makes the guide read better, that was what we were supposed to do already prior\"",
    "must_not_contain": [
     "A committee of frantic people rarely improves anyone's nervous system."
    ],
    "must_contain_exact": [
-    "bring in **one more calm adult or a crisis professional** to back them up."
+    "bring in **one more calm adult or a crisis professional** to back them up, and get that help right away if there's any risk of violence or self-harm."
    ]
   },
   {
    "id": "t19-recruit-once",
    "status": "applied",
-   "what": "The violence part's \"When you are the only helper and safety is slipping, recruit one additional calm adult or crisis professional.\" cut: Get One Human Anchor says it, violence among its cases; the paragraph opens on when to call crisis or emergency services (experiments/t19-anchor/apply_t19b.py)",
+   "what": "The violence part's \"When you are the only helper and safety is slipping, recruit one additional calm adult or crisis professional.\" cut: Get One Human Anchor says it, violence among its cases; the paragraph opens on when to call crisis or emergency services (experiments/t19-anchor/apply_t19b.py) | the sentence it checks changed in the humanize pass's fix anchor-a1 (2026-11-11, turn 34; humanize/h43-20261111/apply_h43.py; https://www.pangram.com/history/3a3fd073-98e1-46ea-9e5d-342bd7c7ee67): the two people it names are still the one place backup is said, bold as before | the call line it opened on cut by his round-34 \"make sure this is only said once\" (owner edit r34-harm-said-once) | the sentence it checks changed in turn 49's fix b10-anchor-lead (2026-11-19; humanize/h57-20261119/apply_h57.py; https://www.pangram.com/history/36cf33c5-55a8-4a4f-942f-4f9bea7d145d, Human High 70): \"them\" said as the anchor, \"safe\" as \"from getting hurt\", \"do it\" as \"get that help\"; the two people it names still the one place backup is said, bold as before",
    "joel": "2026-11-06 19:43 UTC: \"i'd say make the cuts regardless of pangram if it makes the guide read better, that was what we were supposed to do already prior\"",
    "must_not_contain": [
     "When you are the only helper and safety is slipping, recruit one additional calm adult or crisis professional."
    ],
    "must_contain_exact": [
-    "bring in **one more calm adult or a crisis professional** to back them up.",
-    "Call crisis or emergency services for a specific target"
+    "bring in **one more calm adult or a crisis professional** to back them up, and get that help right away if there's any risk of violence or self-harm."
    ]
   },
   {
    "id": "t19-3am-movement-once",
    "status": "applied",
-   "what": "Alone at 3 a.m.'s movement paragraph keeps only what Stillness or Movement? doesn't say: pacing, towels and a cup, and sitting or lying under a blanket when moving makes it worse are cut there; teeth, stretching, a calm shower, wall push-ups and \"Then protect sleep.\" stay (experiments/t19-anchor/apply_t19c.py)",
+   "what": "Alone at 3 a.m.'s movement paragraph keeps only what Stillness or Movement? doesn't say: pacing, towels and a cup, and sitting or lying under a blanket when moving makes it worse are cut there; teeth, stretching, a calm shower, wall push-ups and \"Then protect sleep.\" stay (experiments/t19-anchor/apply_t19c.py) | both kept paragraphs cut in round 33 (ANCHOR-CUTS and STILL-CUT, his approvals of 2026-11-11 19:54 UTC (review/r33/ANSWERS-R33-20261111-1954.json) | see above",
    "joel": "2026-11-06 19:43 UTC: \"i'd say make the cuts regardless of pangram if it makes the guide read better, that was what we were supposed to do already prior\"",
    "must_not_contain": [
     "When movement makes you more frantic, sit with both feet against the floor or lie under a blanket.",
     "pace the same hallway, fold towels, wash a cup"
-   ],
-   "must_contain_exact": [
-    "keep it contained and boring: brush your teeth, stretch gently, take a calm shower, or do a few slow wall push-ups. Then protect sleep.",
-    "When pacing begins to resemble escape, sit against a wall or lie under a blanket. The goal is to let the nervous system discharge without creating a new danger."
    ]
   },
   {
@@ -489,22 +483,23 @@
   {
    "id": "r13-anchor-opposite",
    "status": "applied",
-   "what": "Get One Human Anchor's first paragraph: \"Others get worse because\" said as \"Other times it's the opposite:\" (round 13, card ANCHOR-OPPOSITE; review/r13/apply_r13.py)",
+   "what": "Get One Human Anchor's first paragraph: \"Others get worse because\" said as \"Other times it's the opposite:\" (round 13, card ANCHOR-OPPOSITE; review/r13/apply_r13.py) | superseded by the humanize pass's fix anchor-a1 (2026-11-11, turn 34; humanize/h43-20261111/apply_h43.py), which read Human after 38 tries of earlier wordings (https://www.pangram.com/history/3a3fd073-98e1-46ea-9e5d-342bd7c7ee67): the mirrored pair stays gone, said as what makes a trip worse",
    "joel": "2026-11-07 00:01 UTC: round 13's export, ANCHOR-OPPOSITE approved (review/r13/ANSWERS-R13-20261107-0001.json)",
    "must_contain_exact": [
-    "Other times it's the opposite: too many people crowd in and start advising, arguing, spiritualizing, or panicking."
+    "Being alone with a frightened or over-certain mind can make a bad trip worse. So can a crowd of people telling them what it all means, or panicking right along with them."
    ],
    "must_not_contain": [
-    "Others get worse because too many people crowd in"
+    "Others get worse because too many people crowd in",
+    "Many bad trips get worse because somebody is alone"
    ]
   },
   {
    "id": "r13-anchor-backup",
    "status": "applied",
-   "what": "Get One Human Anchor's second paragraph said with its limit as an aside, the bold kept on the two people it names (round 13, card ANCHOR-BACKUP; review/r13/apply_r13.py)",
+   "what": "Get One Human Anchor's second paragraph said with its limit as an aside, the bold kept on the two people it names (round 13, card ANCHOR-BACKUP; review/r13/apply_r13.py) | superseded by the humanize pass's fix anchor-a1 (2026-11-11, turn 34; humanize/h43-20261111/apply_h43.py), which read Human after 38 tries of earlier wordings (https://www.pangram.com/history/3a3fd073-98e1-46ea-9e5d-342bd7c7ee67): the limit still an aside, the bold still on the two people it names",
    "joel": "2026-11-07 00:01 UTC: round 13's export, ANCHOR-BACKUP approved (review/r13/ANSWERS-R13-20261107-0001.json)",
    "must_contain_exact": [
-    "So **one calm person should be the anchor** and take the lead. One person can only handle so much, though."
+    "So have **one calm person be the anchor** and take the lead. One person can only handle so much, though."
    ],
    "must_not_contain": [
     "That is backup.",
@@ -598,7 +593,7 @@
   },
   {
    "id": "r16-nra-lock",
-   "status": "applied",
+   "status": "superseded",
    "what": "r16 card NRA-LOCK approved, put in by review/apply-20261107/apply_rounds.py (answers: articles/bad-trips/review/r16/ANSWERS-R16-20261107-db.json)",
    "joel": "2026-11-07 12:08 UTC: \"in this case i approved every single suggestion you had from all those rounds\"",
    "must_not_contain": [
@@ -606,6 +601,9 @@
    ],
    "must_contain_exact": [
     "**Put yourself on a 24–72 hour action lock.**"
+   ],
+   "superseded": [
+    "2026-11-20: his C2 answer a (c2-lock-two-clocks)"
    ]
   },
   {
@@ -867,15 +865,15 @@
   {
    "id": "r24-his-versions",
    "status": "applied",
-   "what": "his round-24 versions as he sent them (typos fixed): the first five minutes' reminder; the helper's anchor line and don'ts under Don't; (Re)defining \"Bad Trip\"; Give the Session a Beginning and an End's opening to its closure (humanize/h32-20261108/apply_r24.py)",
+   "what": "his round-24 versions as he sent them (typos fixed): the first five minutes' reminder; the helper's anchor line and don'ts under Don't; (Re)defining \"Bad Trip\"; Give the Session a Beginning and an End's opening to its closure (humanize/h32-20261108/apply_r24.py); 2026-11-09: his round-27 version (r27-his-versions) moved the anchor line and don'ts back into the first five minutes as one piece and starts the argument line \"But if they want to talk about it right now,\"",
    "joel": "2026-11-08 15:01 UTC, round 24 (review/r24/ANSWERS-R24-20261108-1501.json): his versions, his checks 82851dc3 and 0469ebb9 (Human High); \"so let's change that to this which is a little bit less redundant\"",
    "must_contain_exact": [
     "Sometimes it can be helpful to remind them where they are and what's happening, since a trip can make them lose track of the fact that they took a substance which has temporary effects.",
     "As the person helping, you want to play the role of the calm, caring anchor to the safe present moment, not the witch doctor guru who knows magic spells.",
-    "So don't try to win an argument with their visions, the entities they spoke to, the memories that surfaced, or whatever cosmic conclusions they reached ten minutes ago...",
     "A bad trip is one of those terms thrown around very loosely in the psychedelic space.",
     "One woman I met in Kenya was going to take shrooms to fix her tobacco and marijuana addictions.",
-    "the sitter (the sober person with you, not literally someone sitting on your face!)"
+    "the sitter (the sober person with you, not literally someone sitting on your face!)",
+    "don't try to win an argument with their visions, the entities they spoke to, the memories that surfaced, or whatever cosmic conclusions they reached ten minutes ago..."
    ],
    "must_not_contain": [
     "When you have a choice:",
@@ -885,15 +883,13 @@
   {
    "id": "r24-why-once",
    "status": "applied",
-   "what": "Why Bad Trips Tend to Happen said once, under his (Re)defining: its heading and 'That frame can be useful' line cut, its causes trimmed to the ones said nowhere else, its picture, causes, lesson line and thinking traps moved (humanize/h32-20261108/merge_why.py); the lesson line's cut is round 25's card WHY-LESSON-CUT (warning W102)",
+   "what": "Why Bad Trips Tend to Happen said once, under his (Re)defining: its heading and 'That frame can be useful' line cut, its causes trimmed to the ones said nowhere else, its picture, causes, lesson line and thinking traps moved (humanize/h32-20261108/merge_why.py); the lesson line's cut is round 25's card WHY-LESSON-CUT (warning W102) | its causes list and thinking traps cut in round 33 (REDEFINE-CUTS, his approval of 2026-11-11 19:54 UTC (review/r33/ANSWERS-R33-20261111-1954.json)",
    "joel": "2026-11-08 15:01 UTC, on TEACH-LABELS: \"there's still way too much duplication here. why bad trips tend to happen the section above this, is duplicating a few other sections, including redefining a bad trip and first 5 minutes\"",
    "must_not_contain": [
     "## Why Bad Trips Tend to Happen",
     "That frame can be useful. It cannot be the only frame."
    ],
-   "must_contain_exact": [
-    "A bad trip or destabilizing state may also come from drug interactions, sleep deprivation, cannabis, hunger, dehydration, sexual or social pressure, medical symptoms, psychosis-like symptoms, fasting, intense breathwork, meditation overload, or retreat pressure."
-   ]
+   "must_contain_exact": []
   },
   {
    "id": "r24-no-drug-assumed",
@@ -933,6 +929,905 @@
    "joel": "2026-11-08 16:55 UTC, round 25 (review/r25/ANSWERS-R25-20261108-1655.json): approved, no comment",
    "must_not_contain": [
     "Every hard experience can feel like a profound lesson"
+   ]
+  },
+  {
+   "id": "r27-his-versions",
+   "status": "applied",
+   "what": "his round-27 versions as he sent them, obvious typos fixed (review/r27/apply_r27.py): the first five minutes as one piece (the helper's anchor line, offering gently, the argument line, the panic loop, the demon and love, his own story of the voice), the helper's Don't heading and its two paragraphs out since his piece says them; his What Kind of Aftermath Is This? list; and round 27's two approved put-backs | 2026-11-20: his round-44 version (r44-aftermath-his) says this line his new way; the check follows it",
+   "joel": "2026-11-09 01:24 UTC, round 27 (review/r27/ANSWERS-R27-20261109-0124.json): \"why did you lose my fixes from before? i'm putting them back and adding the fear panic loop plus my experience\"; his aftermath version checked High (85f35730); BACK-HIERARCHY-WHY and BACK-GROUNDING-LOVE approved",
+   "must_contain_exact": [
+    "So don't force eye contact, touch, music, prayer, chanting on them, just offer gently if it might help.",
+    "But if they want to talk about it right now, don't try to win an argument with their visions",
+    "Sometimes people get stuck in a panic loop, where they make interpretations to try to solve a feeling of panic",
+    "which led to 3 weeks of wandering in Malaysia & Cambodia without money once",
+    "The voice didn't respond, it just went away.",
+    "When symptoms linger after a trip, people too often put everything into the \"I'm broken\" bucket, the way children sometimes give up at the slightest difficulty.",
+    "**Somatic hyperarousal:** This is not rumination, but more like akathisia, bodily restlessness.",
+    "The hierarchy appears before the mystical sections because love doesn't require us to ignore the body.",
+    "Grounding is love becoming practical. Choose one or two options rather than all of them."
+   ],
+   "must_not_contain": [
+    "### Don't\n\nAs the person helping"
+   ]
+  },
+  {
+   "id": "r30-toc-a",
+   "status": "applied",
+   "what": "the contents as option A of round 30's TOC card, with the brain section kept first in the medical part and three headings renamed so readers can find them (humanize/h39-20261109/toc/plan_toc.py, review/r30/apply_r30.py) | How I label the evidence cut in round 33 (LABELS-CUT, his approval of 2026-11-11 19:54 UTC (review/r33/ANSWERS-R33-20261111-1954.json) | 2026-11-21 15:57 UTC: \"## Who to Contact, and When\" renamed \"## Who to Contact\" by his R47-2 answer (r48-headings)",
+   "joel": "2026-11-09 18:43 UTC (review/r30/ANSWERS-R30-20261109-1843.json, TOC): \"a sure rename them so readers can find them, and brain should be at top yeah that's kind of one of the most common things people say\"",
+   "must_contain": [
+    "## If Someone Might Get Hurt",
+    "# My Acute Rescue Remedies",
+    "### Niacin \"Flushes\" Trips Out",
+    "# Tripsitting Yourself or Others",
+    "# Shadow Work",
+    "### When Talk Turns to Harm",
+    "## Off the Healing Treadmill",
+    "# Plan a Trip or Ceremony"
+   ],
+   "order": [
+    "# When to Get Outside Help",
+    "## If Someone Might Get Hurt",
+    "## Who to Contact",
+    "# Medical and Brain Rescue",
+    "## \"My Brain Feels Damaged\"",
+    "## Active Seizure",
+    "# My Acute Rescue Remedies",
+    "## Remedies Needing Caution",
+    "## Too Intense? Stabilizers",
+    "## Need to Stop the Trip?",
+    "# Tripsitting Yourself or Others",
+    "## The First Five Minutes",
+    "## Grounding Menu",
+    "## Get One Human Anchor",
+    "# Shadow Work",
+    "# After the Storm",
+    "## Lingering Symptoms?",
+    "## Get Mental-Health Help If:",
+    "## Off the Healing Treadmill",
+    "# Plan a Trip or Ceremony",
+    "# Appendix: More Resources"
+   ],
+   "changed": [
+    "2026-11-21 (turn 58): headings renamed by his round-47 picks (review/r47/apply_r47.py)"
+   ]
+  },
+  {
+   "id": "r30-rue-oil",
+   "status": "applied",
+   "what": "his Syrian rue oil and essential-oils entries, and the herbs named in his restlessness line (review/r30/apply_r30.py)",
+   "joel": "2026-11-09 18:43 UTC (review/r30/ANSWERS-R30-20261109-1843.json): RUE-OIL, OILS and HERBS-NAMED approved",
+   "must_contain": [
+    "### Syrian Rue Oil: Gentler",
+    "### Lime or EOs for Calm",
+    "I would not assume there's no MAOI effect",
+    "like beach morning glory, Syrian rue oil or the Metta NMT sniffer"
+   ],
+   "changed": [
+    "2026-11-21 (turn 58): headings renamed by his round-47 picks (review/r47/apply_r47.py)"
+   ]
+  },
+  {
+   "id": "r30-rue-caution-his",
+   "status": "applied",
+   "what": "no general MAOI caution on the Syrian rue oil: he rejected one (RUE-WARN); the care is vaping the whole seeds, which his entry says, and trying any new substance in small amounts first, which My Acute Rescue Hierarchy's opening says (\"try all these things in very low, increasing doses\")",
+   "joel": "2026-11-09 18:43 UTC (review/r30/ANSWERS-R30-20261109-1843.json, RUE-WARN, rejected): \"no what they should be careful about is vaping the whole seeds, that could be more likely to have an MAOi effect, there's almost no MAOi in 1-2mL of the rue seed oil, although with any new substance people should be careful to see how it affects them with smaller amounts which i think i said somewhere.\"",
+   "must_not_contain": [
+    "How much harmine and harmaline end up in a home-made oil can vary"
+   ]
+  },
+  {
+   "id": "r31-method-where",
+   "status": "applied",
+   "what": "his method where the guide is used in trouble: his version of the Alone at 3 a.m. line, the breath line's \"I can love the part of me that feels it.\", and \"train before you need it\" in the planning section; paranoia and derealization stay in the aftermath list (AFT-PLACE \"c\") (review/r31/apply_r31.py)",
+   "joel": "2026-11-09 18:59 UTC (review/r31/ANSWERS-R31-20261109-1859.json): MW-ALONE revised with his version, MW-BREATH and MW-PREP approved, AFT-PLACE \"c\"",
+   "must_contain": [
+    "While you wait, put one hand on your heart and the other on your solar plexus just under your chest",
+    "Whisper: \"This is a wave. I can love the part of me that feels it.\"",
+    "And train before you need it, sending love to a frightening image"
+   ]
+  },
+  {
+   "id": "r31-solar-plexus",
+   "status": "applied",
+   "what": "the second hand goes on the solar plexus, not the belly, wherever the guide places the hands (keep-as-is K24)",
+   "joel": "2026-11-09 18:59 UTC (review/r31/ANSWERS-R31-20261109-1859.json, MW-ALONE): \"belly must be an ai error, it's funny it keeps changing that\"",
+   "must_not_contain": [
+    "on the belly",
+    "on your belly"
+   ]
+  },
+  {
+   "id": "r32-seize-head",
+   "status": "applied",
+   "what": "Active Seizure: the heading he picked (A) where the extras start, after first aid, the rescue medicine and when to call medics (review/r32/apply_r32.py)",
+   "joel": "2026-11-09 20:08 UTC (review/r32/ANSWERS-R32-20261109-2008.json, SEIZE-HEAD): \"a\"",
+   "must_contain": [
+    "### Seizure: What Else Helps"
+   ],
+   "order": [
+    "## Active Seizure",
+    "Call medics if any of these happen:",
+    "If they have a rescue medicine for epilepsy seizures",
+    "### Seizure: What Else Helps",
+    "Some people get a warning before a seizure takes hold"
+   ],
+   "order_note": "2026-11-12, turn 39: the call-medics line is now a lead-in and list (humanize/h49-20261112, seize-c3, Human Written) and comes before the rescue medicine; his heading still opens the extras after first aid, when to call medics and the rescue medicine; 2026-11-12, turn 40: the rescue medicine paragraph is now mine in his first person (humanize/h50-20261112, rescue-c10, Human Written in its section), in the same place; 2026-11-12, turn 41: the rescue medicine paragraph is his fix (review/r39/apply_r39.py), in the same place",
+   "changed": [
+    "2026-11-21 (turn 58): headings renamed by his round-47 picks (review/r47/apply_r47.py)"
+   ]
+  },
+  {
+   "id": "r32-ground-order",
+   "status": "applied",
+   "what": "the room-first order opens the Grounding Menu, after its first paragraph, without \"When the nervous system is on fire, love becomes practical first.\" (review/r32/apply_r32.py)",
+   "joel": "2026-11-09 20:08 UTC (review/r32/ANSWERS-R32-20261109-2008.json, GROUND-ORDER, approved): \"we can remove the 2nd line about love becomes practical first\"",
+   "must_contain": [
+    "Grounding is love becoming practical.",
+    "A useful order is **room → body → human → time → meaning**. Most people begin with meaning because the experience feels cosmic."
+   ],
+   "must_not_contain": [
+    "love becomes practical first"
+   ],
+   "order": [
+    "## Grounding Menu",
+    "Grounding is love becoming practical.",
+    "A useful order is **room → body → human → time → meaning**"
+   ],
+   "changed": [
+    "2026-11-21 (turn 58): headings renamed by his round-47 picks (review/r47/apply_r47.py)"
+   ]
+  },
+  {
+   "id": "r32-menu-boilerplate",
+   "status": "applied",
+   "what": "the Grounding Menu's Room and A familiar object, and Time's \"Say the date, place, and approximate time.\", cut as AI boilerplate (FIDELITY-KEYS-R32, W089; review/r32/apply_r32.py); his ask to find more boilerplate and his lime-peel thought go to round 33",
+   "joel": "2026-11-09 20:08 UTC (review/r32/ANSWERS-R32-20261109-2008.json, GROUND-ROOM, revised): \"this is too much boilerplate stuff that ai added in to my guide. help mne locate more boilerplate stuff that could be removed. i want to remove room section, familiar object section, this line: \\\"Say the date, place, and approximate time.\\\"\"",
+   "must_not_contain": [
+    "**A familiar object**",
+    "**Room**",
+    "Name five ordinary objects.",
+    "Say the date, place, and approximate time.",
+    "inner Nurturer or Protector"
+   ]
+  },
+  {
+   "id": "r32-shadow-start",
+   "status": "applied",
+   "what": "the definition of shadow work and where to begin open the Shadow Work part, right under its heading; The Other Bypass ends on \"... and honest conversation.\" (review/r32/apply_r32.py)",
+   "joel": "2026-11-09 20:08 UTC (review/r32/ANSWERS-R32-20261109-2008.json, SHADOW-START): \"b\"",
+   "must_contain": [
+    "# Shadow Work\n\nShadow work to me is neither BDSM nor \"feeding your demons.\""
+   ],
+   "order": [
+    "# Shadow Work",
+    "Shadow work to me is neither BDSM",
+    "Begin with my Inner Child Therapy guide",
+    "## Dealing With Sorrow",
+    "## The Feel-Good Bypass",
+    "I wish everybody could keep shadow work inside the safer rooms",
+    "# After the Storm"
+   ],
+   "changed": [
+    "2026-11-21 (turn 58): headings renamed by his round-47 picks (review/r47/apply_r47.py)"
+   ]
+  },
+  {
+   "id": "r33-systema",
+   "status": "applied",
+   "what": "his Systema line in the Grounding Menu's Breath list, as he wrote it, right after the reduced-breathing line it compares itself with, which stays (named \"Buteyko reduced breathing\", his name for it) though MENU-CUTS had it (review/r33/apply_r33.py)",
+   "joel": "2026-11-11 19:54 UTC (review/r33/ANSWERS-R33-20261111-1954.json, MENU-CUTS, approved): \"ok I would like to add next to Buteyko reduced breathing that Systema continuous partial breathing in coordination with relaxed movement and muscular detensioning is excellent for entering a flow state. It helps to watch a video on how to do it prior though, as it's a bit tricky to understand compared to simple reduced breathing.\"",
+   "must_contain": [
+    "Systema continuous partial breathing in coordination with relaxed movement and muscular detensioning is excellent for entering a flow state. It helps to watch a video on how to do it prior though, as it's a bit tricky to understand compared to simple reduced breathing.",
+    "Or try Buteyko reduced breathing:"
+   ],
+   "order": [
+    "Or try Buteyko reduced breathing:",
+    "Systema continuous partial breathing"
+   ]
+  },
+  {
+   "id": "r33-smell",
+   "status": "applied",
+   "what": "a Smell part in the Grounding Menu, right after Body, one line pointing to the remedies (SMELL, A)",
+   "joel": "2026-11-11 19:54 UTC (review/r33/ANSWERS-R33-20261111-1954.json, SMELL): \"yes\"",
+   "must_contain": [
+    "Scratch & sniff a lime peel, or smell an authentic calming essential oil, the Metta NMT sniffer or humic acid powder"
+   ],
+   "order": [
+    "**Body**",
+    "**Smell**",
+    "**Breath**"
+   ]
+  },
+  {
+   "id": "r33-boilerplate-cuts",
+   "status": "applied",
+   "what": "the boilerplate he approved cutting in round 33 (LABELS-CUT, STILL-CUT, MENU-CUTS, ANCHOR-CUTS, HELPER-CUTS, REDEFINE-CUTS) and SMALL-CUTS e to g; FIDELITY-KEYS-R33 records the warnings with them",
+   "joel": "2026-11-11 19:54 UTC (review/r33/ANSWERS-R33-20261111-1954.json): six cut cards approved; SMALL-CUTS \"agree with ur advice\"; LABELS-CUT with \"or should we label the evidence like this instad of removing the labeling idea? we do label evidence like this already i think but not with these exact labels.\"",
+   "must_not_contain": [
+    "How I label the evidence",
+    "Stillness or Movement?",
+    "Parallel processing",
+    "Movement evidence note",
+    "Feel both feet against the floor.",
+    "Try inhaling for four",
+    "Buteyko evidence note",
+    "Silence is a real option.",
+    "Keep the stop or change control immediate.",
+    "Ask one calm person to stay as the lead anchor.",
+    "Script for the sitter or friend",
+    "keep it contained and boring",
+    "Reflect without arguing",
+    "Translate metaphysics into shared safety values",
+    "Redirect within the person's value-world",
+    "may also come from drug interactions",
+    "Cognitive distortions from Cognitive Behavioral Therapy",
+    "The revelation will still exist after breakfast",
+    "A vitamin is not automatically harmless",
+    "Twelve simultaneous techniques"
+   ]
+  },
+  {
+   "id": "r34-teach-harm",
+   "status": "applied",
+   "what": "Risk of Harm's first paragraph is his version from his check aa15e193, whole, his line break kept as a paragraph break (round 34, card TEACH-HARM; review/r34/apply_r34.py) | its body signs moved up into the Call medics list by his round-35 answer to BODY-ONCE (owner edit r35-body-once)",
+   "joel": "2026-11-11 23:57:59 UTC: round 34's export, TEACH-HARM revised, \"human high https://www.pangram.com/history/aa15e193-4ea0-43f9-b851-a8aee94d62cc ... make sure this is only said once\"",
+   "must_contain_exact": [
+    "You can sit through a lot with someone, but the moment you think they might hurt themselves or anybody else, get urgent help. It doesn't have to be a proven death wish.",
+    "If for whatever reason you feel like this is more than you can handle, reach out."
+   ],
+   "must_not_contain": [
+    "Get urgent help when somebody may harm themselves or another person"
+   ]
+  },
+  {
+   "id": "r34-harm-said-once",
+   "status": "applied",
+   "what": "The reasons to get urgent help are said once, in his Risk of Harm paragraph: the Call medics list's violence line, the helper's Do list's \"Call for help early\" and the harm part's list of when to call go (round 34, TEACH-HARM's comment; review/r34/apply_r34.py) | and Risk of Harm's 911 line joined to the paragraph's first sentence, its repeated reasons gone (humanize/h44-20261112/apply_h44.py)",
+   "joel": "2026-11-11 23:57:59 UTC: \"make sure this is only said once\"",
+   "must_not_contain": [
+    "Violence, self-harm, or a situation the sitter cannot physically contain",
+    "Call for help early when safety is slipping.",
+    "Call crisis or emergency services for a specific target",
+    "violence underway, or a situation you cannot safely contain"
+   ]
+  },
+  {
+   "id": "r34-adjunct-b",
+   "status": "applied",
+   "what": "Active Seizure's DMSO sentence is option B; \"adjunct remedy\" goes and leaves the keep list (round 34, card ADJUNCT; review/r34/apply_r34.py)",
+   "joel": "2026-11-11 23:57:59 UTC: round 34's export, ADJUNCT \"b\"",
+   "must_contain_exact": [
+    "While a seizure continues, the rescue medicine comes first, and I'd still consider DMSO alongside it, although that's experimental."
+   ],
+   "must_not_contain": [
+    "plausible experimental adjunct remedy rather than something to wait on"
+   ]
+  },
+  {
+   "id": "r35-body-once",
+   "status": "applied",
+   "what": "His Risk of Harm paragraph keeps only his catch-all; its body signs merged into the Call medics list: \"(not just regular sweating)\" on the overheating line, \"Severe insomnia\" a line of its own (round 35, card BODY-ONCE; review/r35/apply_r35.py)",
+   "joel": "2026-11-12 13:37:05 UTC: round 35's export, BODY-ONCE: \"my paragraph should not say anything that should be going in that above list. so cut this section or move it up/merge it\"",
+   "must_contain_exact": [
+    "- Dangerous overheating (not just regular sweating), severe rigidity, or clonus with fever",
+    "- Severe insomnia",
+    "If for whatever reason you feel like this is more than you can handle, reach out."
+   ],
+   "must_not_contain": [
+    "If their body is flashing warning signs"
+   ]
+  },
+  {
+   "id": "r35-teach-oral",
+   "status": "applied",
+   "what": "Recent Oral Toxic Ingestion's first paragraph is his version, the text of his last check 7e898f05, one typo fixed (\"from from\") (round 35, card TEACH-ORAL; review/r35/apply_r35.py)",
+   "joel": "2026-11-12 13:37:05 UTC: round 35's export, TEACH-ORAL revised, with his five tries and \"so i went back to the original one and fixed that one, now it's high conf human\"",
+   "must_contain_exact": [
+    "\"Overdose\" is too vague to choose a remedy. Figure out how much of what was swallowed and how long ago, then see what the body is doing:",
+    "Slow breathing is normal with iboga, but if cardiac irregularities come along with it, that's an extra danger sign."
+   ],
+   "must_not_contain": [
+    "Ask what was swallowed, how much, when, and what the body is actually doing"
+   ]
+  },
+  {
+   "id": "r36-teach-ss",
+   "status": "applied",
+   "what": "Suspected Serotonin Syndrome's recognition part is his version, the text of his last check 9e32c090, with \"the these\" made \"these\" (round 36, card TEACH-SS; review/r36/apply_r36.py) | 2026-11-20: his round-44 version (r44-ss-lead-his) says this line his new way; the check follows it",
+   "joel": "2026-11-12 14:45:53 UTC: round 36's export, TEACH-SS revised, with his three tries and \"now it's all high conf human\"",
+   "must_contain_exact": [
+    "To diagnose serotonin syndrome, we can use the Hunter criteria, the same checklist clinicians use.",
+    "would be counted as one pattern altogether.",
+    "So if you see any of these patterns, call medics."
+   ],
+   "must_not_contain": [
+    "This is a recognition aid rather than a command to wait for every criterion before acting.",
+    "Clinicians often use the Hunter criteria. One or more of the following patterns"
+   ]
+  },
+  {
+   "id": "r37-teach-chest",
+   "status": "applied",
+   "what": "Chest Pain and Injury's branch paragraph is his version, the text of his last check cabd68b6: the mild case with DMSO + magnesium chloride on the chest, \"For the following more serious signs (or if unsure), I'd also call medics:\", his six signs, and a later checkup since DMSO can block pain (round 37, card TEACH-CHEST; review/r37/apply_r37.py)",
+   "joel": "2026-11-12 16:47:47 UTC: round 37's export, TEACH-CHEST revised, with his twelve tries; \"i want to add magnesium chloride and explain this is topical for chest pain\"",
+   "must_contain_exact": [
+    "I'd just use DMSO + magnesium chloride on the chest",
+    "For the following more serious signs (or if unsure), I'd also call medics:",
+    "- Shortness of breath or sweating shows up also."
+   ],
+   "must_not_contain": [
+    "Mild, familiar, non-progressive discomfort",
+    "In the second branch"
+   ]
+  },
+  {
+   "id": "r38-teach-brain",
+   "status": "applied",
+   "what": "My Brain Feels Damaged's heading and checks are his version, the text of his last check 4739068c: \"+ Electrolytes\" in the heading, the lead-in \"check for stroke warning signs that would trigger a call to medics:\", his nine lines and his closing line, with three obvious corrections; his reason for the electrolytes at the end of B103 in his words; B106's first sentence gone, since his lead-in says it (round 38, card TEACH-BRAIN; review/r38/apply_r38.py)",
+   "joel": "2026-11-12 18:19:16 UTC: round 38's export, TEACH-BRAIN revised, with his six tries; \"some really obvious problems again\"",
+   "must_contain_exact": [
+    "that would trigger a call to medics:",
+    "- First, are they unconscious or breathing abnormally?",
+    "- If you can safely hold them as they try, have them stand and walk a few steps",
+    "then you've done what you can do, and it's time to call for help.",
+    "because magnesium (and then potassium) can be depleted by some drugs"
+   ],
+   "must_not_contain": [
+    "While using DMSO, check wakefulness",
+    "For objective stroke-like signs, I would use DMSO immediately"
+   ],
+   "changed": [
+    "2026-11-21 (turn 58): headings renamed by his round-47 picks (review/r47/apply_r47.py): his round-47 pick for the heading is \"\\\"My Brain Feels Damaged\\\"\" (my pick, kept): the heading's \"DMSO + Humic Acid + Electrolytes First\" went with it, and the section's first paragraph (B103) still says it: DMSO first, then smelling humic acid, then electrolytes to drink",
+    "2026-11-21 (turn 58): headings renamed by his round-47 picks (review/r47/apply_r47.py)"
+   ]
+  },
+  {
+   "id": "r38b-seize",
+   "status": "applied",
+   "what": "Active Seizure's first aid and call list are his version, the text of his check 5e41c575 (pillows under the head; over 5 minutes; no \"another seizure before they've recovered\" and no \"first seizure\"; injuries said as what happens) (review/r38/apply_r38b.py); 2026-11-12 22:34 UTC, his message: an overdose seizure its own call line and the 5 minutes for a seizure on a normal dose, the heat line with the forehead (humanize/h51-20261112/apply_h51.py); 2026-11-13 14:15 UTC, his fix: no periods at the end of the call list's items (review/r39/apply_r39b.py); 2026-11-13, his version f6b4e35a (\"but i want this version which explains better\"): the list whole, the 5-minute line with his explanation in it (review/r39/apply_r39c.py)",
+   "joel": "2026-11-12 19:44 UTC: \"i fixed active seizure section, it was giving some wrong advice (if it's their first seizure? ... that's what we are expecting if the overdose causes a seizure... and how would someone know if they have another seizure before the first is over?)\"",
+   "must_contain_exact": [
+    "but do put pillows where appropriate, especially under the head.",
+    "- Note that psychedelics do reduce the seizure threshold, so if someone is prone to seizures, a normal dose could produce a seizure for them which doesn't indicate brain damage, but if it goes on over 5 minutes, that's too much",
+    "- They injure their head, break a bone, or bleeding won't stop"
+   ],
+   "must_not_contain": [
+    "It's their first seizure",
+    "Another seizure starts before they've recovered"
+   ]
+  },
+  {
+   "id": "r38b-brain",
+   "status": "applied",
+   "what": "My Brain Feels Damaged: his electrolytes sentence (\"I give electrolytes to drink also ... to reverse damage already underway\") and no vision check, the text of his check a0b8ac56 (review/r38/apply_r38b.py)",
+   "joel": "2026-11-12 19:44 UTC: \"the changed vision thing made no sense (they are tripping, their vision should change...) and i clarified my electrolytes part\"",
+   "must_contain_exact": [
+    "I give electrolytes to drink also",
+    "sufficient to reverse damage already underway."
+   ],
+   "must_not_contain": [
+    "Check if their vision has changed"
+   ]
+  },
+  {
+   "id": "r38b-call-seizure",
+   "status": "applied",
+   "what": "The Call medics list's seizure line says what his Active Seizure call list says, \"A convulsive seizure lasting over 5 minutes\", without the first seizure and the repeated seizures he cut there (review/r38/apply_r38b.py; shown to him in the turn's report); 2026-11-12 22:34 UTC: the same line as his Active Seizure call list now says it, an overdose seizure and the 5 minutes for a seizure on a normal dose (humanize/h51-20261112/apply_h51.py)",
+   "joel": "2026-11-12 19:44 UTC, the same message (\"it was giving some wrong advice\")",
+   "must_contain_exact": [
+    "- A seizure after taking too much (or an unknown amount), or one on a normal dose lasting over 5 minutes"
+   ],
+   "must_not_contain": [
+    "or a first or substantially different seizure"
+   ]
+  },
+  {
+   "id": "r39-evid",
+   "status": "applied",
+   "what": "My Brain Feels Damaged's evidence paragraph (B105): his version, whole, from his check 5b09da6c (review/r39/apply_r39.py)",
+   "joel": "2026-11-12 22:34 UTC (review/r39/ANSWERS-R39-20261112-2234.json, TEACH-EVID revised; experiments/t39-answers/JOEL-TRIES-TEACH-EVID.md)",
+   "must_contain": [
+    "based on my experience and those of others I've heard from",
+    "The clinical evidence is incomplete, but it leans this way.",
+    "(which is a good thing)",
+    "But more relevant to the drug overdose issue this article deals with, DMSO calms"
+   ]
+  },
+  {
+   "id": "r39-humic",
+   "status": "applied",
+   "what": "The protocol's first step (B144): his pointer to the humic acid evidence after its humic acid sentence (review/r39/apply_r39.py)",
+   "joel": "2026-11-12 22:34 UTC (review/r39/ANSWERS-R39-20261112-2234.json, TEACH-EVID comment: \"you can just say (see humic acid evidence here and link to humicacid.u-dont-exist.com ) after the p13 sentence ends\")",
+   "must_contain": [
+    "(See [humic acid evidence here](http://humicacid.u-dont-exist.com).)"
+   ]
+  },
+  {
+   "id": "r39-rescue",
+   "status": "applied",
+   "what": "Active Seizure's rescue medicine paragraph (B110): his fix of my rescue-c10, whole, from his check 9320d4ec (review/r39/apply_r39.py)",
+   "joel": "2026-11-12 22:34 UTC (his message: \"look, i fixed the rescue medicine paragraph, it was super obvious stuff just clarifying and reducing redundancy, now human high\"; \"i also removed \"I'd\" because saying that too much sounds weird\")",
+   "must_contain": [
+    "If they have a rescue medicine for epilepsy seizures with them, give it as the label instructs.",
+    "(pills can't be swallowed)",
+    "especially if they've also taken other respiratory depressants like opioids or alcohol."
+   ]
+  },
+  {
+   "id": "h51-seize-wait",
+   "status": "superseded",
+   "what": "Active Seizure: the paragraph after the call list says which seizure the 5 minutes is for, why a seizure can come on a normal dose, and that it is most likely less dangerous than an overdose seizure (humanize/h51-20261112/apply_h51.py)",
+   "joel": "2026-11-12 22:34 UTC: \"you're right about over 5 minutes that's an epilepsy rule. altho we should also keep in mind that if someone does have epilepsy, they are more likely to have seizures on psychedelics so explain that they can lower seizure threshold even with a normal dose and people with already low seizure thresholds might have seizures which are most likely less dangerous than an actual drug overdose seizure\"",
+   "must_contain": [
+    "Psychedelics can lower the seizure threshold even at a normal dose",
+    "most likely less dangerous than an actual drug overdose seizure"
+   ],
+   "superseded_by": "r39c-call-list-his: his version f6b4e35a of 2026-11-13 says this paragraph's points in the list's second item, in his words (\"which doesn't indicate brain damage\" for \"most likely less dangerous than an actual drug overdose seizure\"), so the paragraph is cut as said twice"
+  },
+  {
+   "id": "r39b-call-periods",
+   "status": "applied",
+   "what": "Active Seizure's call list without periods at the end of its items, his fix a53907ff (review/r39/apply_r39b.py)",
+   "joel": "2026-11-13 14:15 UTC: \"i fixed the call list, you had to remove the periods at the end of each list item (i wouldn't put them in anyway, since they aren't full sentences)\"",
+   "must_contain_exact": [
+    "- They injure their head, break a bone, or bleeding won't stop\n"
+   ],
+   "must_not_contain": [
+    "- They injure their head, break a bone, or bleeding won't stop."
+   ]
+  },
+  {
+   "id": "r39b-support-periods",
+   "status": "applied",
+   "what": "Bring in mental-health support when: its items without periods, his rule of 2026-11-13 (review/r39/apply_r39b.py)",
+   "joel": "2026-11-13 14:15 UTC, the same message (\"i wouldn't put them in anyway, since they aren't full sentences\")",
+   "must_contain_exact": [
+    "- Sleep won't return\n"
+   ],
+   "must_not_contain": [
+    "- Sleep won't return."
+   ]
+  },
+  {
+   "id": "r39b-dmso-info",
+   "status": "applied",
+   "what": "The DMSO section: his DMSO text from his neuro de-armoring research, whole, its sleep advice in the Reduced sleep side effect (review/r39/apply_r39b.py)",
+   "joel": "2026-11-13 14:15 UTC: \"btw here is some DMSO info that should be in this guide, i took it from my neuro-dearmoring guide research\"",
+   "must_contain": [
+    "In my experience, DMSO makes me alert, smarter, happier, healthier, and more relaxed",
+    "slashing mental patients' psych ward stays in half",
+    "Translating mouse research to humans isn't straightforward.",
+    "so it's best taken in the morning, and reduce the dose if you notice you're sleeping less"
+   ]
+  },
+  {
+   "id": "r39c-call-list-his",
+   "status": "applied",
+   "what": "Active Seizure's call list is his version f6b4e35a, whole; the paragraph after it that said the same (mine) cut (review/r39/apply_r39c.py)",
+   "joel": "2026-11-13 14:15 UTC: \"but i want this version which explains better\" (f6b4e35a)",
+   "must_contain_exact": [
+    "- Note that psychedelics do reduce the seizure threshold, so if someone is prone to seizures, a normal dose could produce a seizure for them which doesn't indicate brain damage, but if it goes on over 5 minutes, that's too much\n",
+    "- When you touch their forehead, it's very hot (not just sweaty)\n"
+   ],
+   "must_not_contain": [
+    "Waiting the 5 minutes is only for a seizure on a normal dose.",
+    "- Their forehead feels very hot (not just sweaty)"
+   ]
+  },
+  {
+   "id": "r39c-stem-cell",
+   "status": "applied",
+   "what": "The DMSO section: \"organ or stem cell transplants\" made \"stem cell transplants\" (review/r39/apply_r39c.py)",
+   "joel": "2026-11-13 14:56 UTC: \"and yes i want the dmso fixes you mentioned\"",
+   "must_contain": [
+    "It's routinely used in humans who receive stem cell transplants,"
+   ],
+   "must_not_contain": [
+    "organ or stem cell transplants"
+   ]
+  },
+  {
+   "id": "h53-lu-mattson-once",
+   "status": "applied",
+   "what": "Lu & Mattson 2001 said once, in My Brain Feels Damaged's evidence paragraph (his round-39 sentence, as it was); its description in the DMSO section cut, and that section's Hanslick sentence said as the study found (young brains, even a low dose; his yes of 14:56 UTC), checked Human High 146 with its neighbour, c6e7b513 (humanize/h53-20261113/apply_h53.py); turn 44 (2026-11-14): \"Young brains\" said as \"Children's brains\", and where the study was done added to its sentence (humanize/h54-20261114/apply_h54.py)",
+   "joel": "2026-11-13 14:59 UTC: \"also i wasn't clear on why Lu & Mattson need to be described in 2 places, maybe we can merge that?\"; 14:56 UTC: \"and yes i want the dmso fixes you mentioned\"",
+   "must_contain": [
+    "Children's brains may be at risk from DMSO, though: it killed brain cells in mice up to a month old",
+    "DMSO calms [NMDA- and AMPA-mediated excitotoxicity](https://pubmed.ncbi.nlm.nih.gov/11421595/) that kills brain cells, at least in rat brain cells in a dish."
+   ],
+   "must_not_contain": [
+    "quickly turned down the signals glutamate sends through its NMDA and AMPA receptors",
+    "neurotoxic to healthy mice neurons"
+   ]
+  },
+  {
+   "id": "h54-1967-anxiety",
+   "status": "applied",
+   "what": "The DMSO section's 1967 sentence: the anxiety patients the paper had, and PTSD as what hasn't been tested (humanize/h54-20261114/apply_h54.py)",
+   "joel": "2026-11-14 22:08 UTC: \"yes i agree to add the anxietry point on dmso patients\"",
+   "must_contain": [
+    "and that included patients with severe anxiety, though it hasn't been tested (that I know of, yet) for PTSD."
+   ],
+   "must_not_contain": [
+    "although those patients surely had both of those conditions"
+   ]
+  },
+  {
+   "id": "h54-creatine-mango",
+   "status": "applied",
+   "what": "Creatine (smell, not snort) and mango leaf tea (smell it while it's hot) as entries after Humic Acid, and the sniffer's formula with both (humanize/h54-20261114/apply_h54.py)",
+   "joel": "2026-11-14 22:08 UTC: \"i want to add another super relaxing herbal remedy which is very blissful and does not kill the trip: mango leaf tea (smell it while hot) ... smelling creatine (NOT SNORTING IT, ppl keep thinking i mean snorting when i say smell) is incredible for brain health ... I've add the mango leaf tea and creatine into my Metta NMT sniffer formula now so if they have that it's already got everything, if not they can just buy these on amazon\"",
+   "must_contain": [
+    "### Creatine for Brain & Bliss",
+    "### Mango Leaf Tea: Chill Bliss",
+    "NOT snorting it",
+    "so brew some and smell it while it's hot",
+    "I've now added creatine and mango leaf tea to it"
+   ],
+   "changed": [
+    "2026-11-21 (turn 58): headings renamed by his round-47 picks (review/r47/apply_r47.py)"
+   ]
+  },
+  {
+   "id": "r40-chest-evid",
+   "status": "applied",
+   "what": "Chest Pain's evidence paragraph is his round-40 version, whole (e8688033, Human High 88), the three studies linked on his words (review/r40/apply_r40.py)",
+   "joel": "2026-11-19 00:52 UTC, his round-40 export: TEACH-CHEST-EVID revised",
+   "must_contain": [
+    "So far, the heart research on DMSO has only been in animals and lab dishes, and only as a prophylactic (preventative treatment).",
+    "those rats lost about three quarters less heart muscle than the rats who didn't get DMSO."
+   ],
+   "must_not_contain": [
+    "The cardiovascular science is preclinical but relevant."
+   ]
+  },
+  {
+   "id": "r41-b106-order",
+   "status": "applied",
+   "what": "My Brain Feels Damaged's bleed paragraph: his three bleed lines first, my two after them in plain words (round 41, B106-ORDER)",
+   "joel": "approved card B106-ORDER, 2026-11-19 10:53 UTC",
+   "applied_by": "review/r41/ANSWERS-R41-20261119-1515.json (exported 2026-11-19 15:15 UTC), put in by review/r41/apply_r41.py",
+   "must_contain": [
+    "They can feel better on DMSO with a clot or a bleed still there."
+   ],
+   "must_not_contain": [
+    "The larger adjacent risk is losing a treatment window"
+   ]
+  },
+  {
+   "id": "r41-cyp-his",
+   "status": "applied",
+   "what": "Suspected Serotonin Syndrome's step 2, his version whole (round 41, TEACH-CYP; his check cc5e6563, Human High 58)",
+   "joel": "2026-11-19 15:14 UTC: \"i made 2 changes, and i checked each one. each was necessary to get to fully high conf human. first i clarified what \"it\" was referring to, then i clarified what \"too weak\" meant\"",
+   "applied_by": "review/r41/ANSWERS-R41-20261119-1515.json (exported 2026-11-19 15:15 UTC), put in by review/r41/apply_r41.py",
+   "must_contain": [
+    "So far, the evidence for this med has only been"
+   ]
+  },
+  {
+   "id": "r41-mdma-his",
+   "status": "applied",
+   "what": "MDMA's paragraph after his second wife's story, his version whole (round 41, TEACH-MDMA; his check c45651d9, Human High 132)",
+   "joel": "2026-11-19 15:07 UTC: \"alright i tried to fully clarify it and not repeat 3 times to call medics, now it's human high conf, altho i'm not sure i clarified it correctly medically speaking. check to make sure.\"",
+   "applied_by": "review/r41/ANSWERS-R41-20261119-1515.json (exported 2026-11-19 15:15 UTC), put in by review/r41/apply_r41.py",
+   "must_contain": [
+    "The following indicators would justify calling medics:"
+   ]
+  },
+  {
+   "id": "r42-med-mdma",
+   "status": "applied",
+   "what": "MDMA paragraph's two medical fixes (round 42, MED-MDMA): something very salty while waiting for medics if alert and not vomiting, in place of \"too late for an easy fix\"; low sodium, magnesium or potassium in the seizure line",
+   "joel": "approved card MED-MDMA, 2026-11-19 16:05 UTC, after his message of 15:41 UTC (\"what about hypertonic fluids? wouldn't it make sense unless they aren't able to keep it down or swallow?\")",
+   "applied_by": "review/r42/ANSWERS-R42-20261119-1606.json, put in by review/r42/apply_r42.py",
+   "must_contain": [
+    "give them something very salty instead, like strong broth or salty snacks",
+    "A seizure or collapse can result from low sodium, magnesium or potassium"
+   ],
+   "must_not_contain": [
+    "it could be too late for an easy fix"
+   ]
+  },
+  {
+   "id": "r43-dmso-water-his",
+   "status": "applied",
+   "what": "DMSO's third paragraph, beside the charcoal water, his version whole (round 43, TEACH-DMSO-WATER; his check 9dfa6b6d, Human High 63)",
+   "joel": "card TEACH-DMSO-WATER revised, 2026-11-19 23:40 UTC, his check linked in his comment",
+   "applied_by": "review/r43/ANSWERS-R43-20261120-0001.json (exported 2026-11-20 00:01:40 UTC), put in by review/r43/apply_r43.py",
+   "must_contain_exact": [
+    "It overlaps with aged ozonated-charcoal water, but the two don't always work equally. Sometimes DMSO works better, and sometimes the water wins. I don't yet know why, but you can also just use both rather than try to figure out which for when. Ozonated-charcoal water has what I consider a perfect safety profile, and DMSO is a close second."
+   ],
+   "must_not_contain": [
+    "In my experience there is generally no harm in taking both or mixing them"
+   ]
+  },
+  {
+   "id": "r43-shadow-his",
+   "status": "applied",
+   "what": "Dealing With Shadow Thoughts up to \"So relax ...\", his rewrite whole (round 43, TEACH-OPPOSITES; his check 4f316acd, Human High 253): the Hermetic paragraph third, two new paragraphs of his on why the opposite shows up",
+   "joel": "2026-11-20 00:01 UTC: \"i had to rewrite everything in this section up to this part, it was not written very well. now it's good and human high conf ... you can try to fix p5\"",
+   "applied_by": "review/r43/ANSWERS-R43-20261120-0001.json (exported 2026-11-20 00:01:40 UTC), put in by review/r43/apply_r43.py",
+   "must_contain_exact": [
+    "Shadow thoughts and feelings are not inherently a problem. They co-arise naturally and do not need to be attached to, like shadows cast by objects in sunlight.",
+    "I am not repeating the simplistic Hermetic claim that opposites are required to understand anything. A hated baby does **not** feel love, and a loved baby does **not** feel hate. In the subconscious mind, however, concepts often do arise as pairs.",
+    "Overly focusing on the \"light\" or positive side of things can cause the subconscious to strategically highlight the darker stuff. That might be because you're trying to ignore it, and the subconscious is wise enough to know that ignoring problems only makes them worse, so it brings them up (often in dreams, or trips).",
+    "But over-focusing the mind for any reason can also create pressure. When the mind is stressed, it seeks an exit from the pressure, often in the opposite direction from what's focusing it. An intensive meditation retreat, or a weighty obligation, or a large psychedelic dose could all be putting that focusing pressure on and leading to dark stuff coming into focus as a misunderstood signal to ease up.",
+    "So relax, unwind, unbind, and unweave the identity illusion, mind, and unified experience. My pamphlet on already-perfect goes further into this."
+   ],
+   "must_not_contain": [
+    "I also notice them after excessive focus.",
+    "In the subconscious world of concepts, however, two sides are often considered together."
+   ]
+  },
+  {
+   "id": "r44-shadow-p7-his",
+   "status": "applied",
+   "what": "Dealing With Shadow Thoughts' paragraph on identifying with the mind's contents, his own (round 44, TEACH-TRIP-SHADOW; his check ab6720fc, Human High 370), before \"So relax ...\"; \"we re-identifying\" read as \"we re-identify\"",
+   "joel": "2026-11-20 13:25 UTC: \"all human high conf, i felt that the last para needed more work and was in thew rong place also\"",
+   "applied_by": "review/r44/ANSWERS-R44-20261120-1353.json (exported 2026-11-20 13:53:52 UTC), put in by review/r44/apply_r44.py",
+   "must_contain_exact": [
+    "Shadow thoughts also serve to show us the danger with *identifying* with *any* contents of the mind. Whatever comes through the mind should be seen like water flowing over rocks. In the first stage of working with the mind, we re-identify as the gold-panners, sifting through the infinite possibilities, and making use of the best, truest, loveliest, most skillful thoughts and feelings, without taking those to be ourself. We don't need to suppress the shadow thoughts, confess them, or use them to diagnose ourselves. Simply notice: \"A thought or feeling is passing through. As heavy as it feels to hold or block it, that is as liberating as it feels to let it go.\""
+   ],
+   "must_not_contain": [
+    "During a trip, don't identify with every shadow thought"
+   ]
+  },
+  {
+   "id": "r44-aftermath-his",
+   "status": "applied",
+   "what": "What Kind of Aftermath Is This?, his first paragraph (round 44, EDIT-AFTERMATH; his check 1e3928a2)",
+   "joel": "2026-11-20 13:53 UTC: \"first i thought \"may\" sounds so ai, and what i meant was \"usually\" ... i changed solves nothing to an analogy about children and it flipped it all high conf human\"",
+   "applied_by": "review/r44/ANSWERS-R44-20261120-1353.json (exported 2026-11-20 13:53:52 UTC), put in by review/r44/apply_r44.py",
+   "must_contain_exact": [
+    "When symptoms linger after a trip, people too often put everything into the \"I'm broken\" bucket, the way children sometimes give up at the slightest difficulty. While a professional can be called in to help at any point, self-diagnostics and basic fix strategies usually obviate the need for one. Try to find the underlying psychological or physical patterns driving the symptoms:"
+   ]
+  },
+  {
+   "id": "r44-ss-lead-his",
+   "status": "applied",
+   "what": "Recognizing serotonin toxicity, his lead-in with the payoff first (round 44, EDIT-SS-LEAD; his check fe532a4d)",
+   "joel": "2026-11-20 12:35 UTC: \"can't believe you still don't understand what i'm talking about when i say payoff first. look, i moved the payoff first and now it's almost all human\"",
+   "applied_by": "review/r44/ANSWERS-R44-20261120-1353.json (exported 2026-11-20 13:53:52 UTC), put in by review/r44/apply_r44.py",
+   "must_contain_exact": [
+    "To diagnose serotonin syndrome, we can use the Hunter criteria, the same checklist clinicians use. Using Hunter, one or more of these patterns makes the diagnosis more likely:"
+   ]
+  },
+  {
+   "id": "r44-confront-his",
+   "status": "applied",
+   "what": "The First Five Minutes, his dangers paragraph with confrontations folded into \"keep them from ...\" (round 44, EDIT-CONFRONT; his check e04e1552, Human High 107)",
+   "joel": "card EDIT-CONFRONT revised, 2026-11-20 12:37 UTC, his check linked",
+   "applied_by": "review/r44/ANSWERS-R44-20261120-1353.json (exported 2026-11-20 13:53:52 UTC), put in by review/r44/apply_r44.py",
+   "must_contain_exact": [
+    "Anything that could let someone hurt themselves in the next five minutes takes priority, so get the car keys out of reach and turn the stove off, and move them away from roads and balconies, or pools of water for that matter. Letting them move around is fine, and pacing can help, but keep them from taking more of any substance or getting into confrontations. And if they want to leave, have someone go with them. Put any weapons away and keep the person away from crowds and strangers. If they want to post their big revelation about the universe, or message an ex, take the phone."
+   ],
+   "must_not_contain": [
+    "If they want to go confront somebody, that can wait."
+   ]
+  },
+  {
+   "id": "r44-redefining-his",
+   "status": "applied",
+   "what": "(Re)defining \"Bad Trip\", his two paragraphs (round 44, EDIT-REDEFINING; his check a03b5901, Human High 155)",
+   "joel": "2026-11-20 13:46 UTC: \"removed the ai tell word \"ordinary\" (it's on your linter right?) and now it's all high conf human\"",
+   "applied_by": "review/r44/ANSWERS-R44-20261120-1353.json (exported 2026-11-20 13:53:52 UTC), put in by review/r44/apply_r44.py",
+   "must_contain_exact": [
+    "Some say there's no such thing as a bad trip, because it's all a doorway to shadow work. But if you had no intention of doing shadow work today, you might feel unprepared and bewildered. And even though every difficult experience can be a learning or healing opportunity, it still makes sense to first reduce the trauma the trip itself is causing, so we can address what was already there underneath. It's like if someone throws a pile of garbage on some spot on the floor we forgot to clean... well, thanks for showing me that spot, but now I have to clean up the new mess first.",
+    "And we could practice to see that spot on the floor without such a crude pointer. Samsara, the cycle of existence, already offers no shortage of difficult experiences to process. For example, sometimes focusing on what we want shows us what's blocking it:"
+   ],
+   "must_not_contain": [
+    "Samsara, the cycle of ordinary existence"
+   ]
+  },
+  {
+   "id": "r45-harm-his",
+   "status": "applied",
+   "what": "When What They Say Turns Toward Harm, his first paragraph (round 45, TEACH-HARM-GOD; his check a2f4be55, Human High 100): the script line in quotes, starting from what they believe, the two mistakes as the alternatives",
+   "joel": "2026-11-20 17:54 UTC: \"your script was not in quotes and it didn't start from what they knew. i fixed that ... fixed the connectivity issue ... fixed the final connectivity issue, now all hum high\"",
+   "applied_by": "review/r45/ANSWERS-R45-20261120-1820.json (exported 2026-11-20 18:20:10 UTC), put in by review/r45/apply_r45.py",
+   "must_contain_exact": [
+    "When somebody says, \"I am God, so I can kill,\" take it as a sign they could really hurt someone. To lead them back to not hurting anyone, start from what they believe, like the script below does: \"Yes, I know you are God. God is in everyone, so every body is sacred.\" If instead you argue, that can make them dig in to prove they're God, so don't tell them \"No you're not\" or \"That's delusional.\" And the other failing alternative, just nodding along, might let them think you're okay with them hurting someone."
+   ]
+  },
+  {
+   "id": "r45-harm-script-out",
+   "status": "applied",
+   "what": "When What They Say Turns Toward Harm: the script's label and the script (B287, B288) out, his paragraph now quoting its line; \"Other useful lines\" follows it (review/r45/REMOVED-R45.json keeps the two blocks)",
+   "joel": "2026-11-20 17:54 UTC, with his version: \"but now you have to take out p2 right?\"",
+   "applied_by": "review/r45/ANSWERS-R45-20261120-1820.json (exported 2026-11-20 18:20:10 UTC), put in by review/r45/apply_r45.py",
+   "must_not_contain": [
+    "Non-combative philosophical grounding",
+    "Peace is the godly move tonight."
+   ]
+  },
+  {
+   "id": "r45-touch-his",
+   "status": "applied",
+   "what": "Touch, Consent, and Compassion, his two paragraphs (round 45, TEACH-TOUCH; his check 39cd2ecf, Human High 149): \"respectful touch\", holding down said as what it does, \"If they did permit touch, ...\"",
+   "joel": "2026-11-20 18:14 UTC: \"adding \"respectful\" ... made the request clearer ... explained hold them down better, that lfipped it all human ... i fixed the lead-in, now it's all high conf\"",
+   "applied_by": "review/r45/ANSWERS-R45-20261120-1820.json (exported 2026-11-20 18:20:10 UTC), put in by review/r45/apply_r45.py",
+   "must_contain_exact": [
+    "Ask before you touch someone who's tripping, even to put your hand on their heart: **\"Would respectful touch help, or would you rather have space?\"** A hug can be too much when they're already overwhelmed. And if you hold them in a way that prevents their movement, they might feel attacked and fight you. If they'd rather have space, sit about six feet away and only talk if they want to.",
+    "If they did permit touch, stop as soon as they say stop. Pulling away or freezing means stop too, since they might be too overwhelmed to tell you to stop. Ask again whenever you can't tell what they want. Be honest with yourself about why you want to touch them, and hold off if it's mostly to calm yourself down. Never touch them in a sexual way, even if they ask you to."
+   ]
+  },
+  {
+   "id": "r45-demons-his",
+   "status": "applied",
+   "what": "Demons, Jinn, Entities, and Shadow Forces: the hooks kept (hatred, fear, pride and grandiosity, not love) and \"get them whatever help they need\" (round 45, DEMONS-HOOKS; his check 3a1603ee, Human High 87)",
+   "joel": "2026-11-20 18:20 UTC: \"why did you not check b yet? it's high conf hum ... i don't like always telling to go to a doctor, i would use this one ... and that's also high conf hum\"",
+   "applied_by": "review/r45/ANSWERS-R45-20261120-1820.json (exported 2026-11-20 18:20:10 UTC), put in by review/r45/apply_r45.py",
+   "must_contain_exact": [
+    "It might look passive, but this is how you become unhookable. When you meet a demon with love, the demon has nothing to hook into, since its hooks catch on hatred, fear, pride and grandiosity, not on love.",
+    "If someone's too overwhelmed to send love, because they're sick or too scared to think straight, help them get steady first. Turn the lights down, and get them whatever help they need. Once they can think straight again, you can teach them to send the demon love."
+   ]
+  },
+  {
+   "id": "c1-ss-call-any",
+   "status": "applied",
+   "what": "C1 (a), the contradictions check's item 6: the serotonin steps' step 3 says his rule, \"Call emergency help and arrange transport.\" (\"for moderate or severe signs\" out), agreeing with his \"So if you see any of these patterns, call medics.\" | 2026-11-22 17:21 UTC: his round-49 step 3 replaces the C1 opening (\"When you call medics, ask for an ambulance\", r49-his-steps); the check now holds what C1 was for, a call with no severity bar",
+   "joel": "2026-11-20 22:40 UTC: \"C1 a C2a C3 a C4 a\"",
+   "applied_by": "humanize/h62-20261120/apply_c.py",
+   "must_contain_exact": [
+    "3. **When you call medics, ask for an ambulance**"
+   ],
+   "must_not_contain": [
+    "arrange transport for moderate or severe signs",
+    "for moderate or severe signs"
+   ]
+  },
+  {
+   "id": "c2-lock-two-clocks",
+   "status": "applied",
+   "what": "C2 (a), item 12: No Rash Actions' lock line gives the longer clock, his list after it the shorter (\"Until you have slept and eaten\"); the night's lines elsewhere keep tomorrow or morning",
+   "joel": "2026-11-20 22:40 UTC: \"C1 a C2a C3 a C4 a\"",
+   "applied_by": "humanize/h62-20261120/apply_c.py",
+   "must_contain_exact": [
+    "**Put yourself on an action lock: nothing life-changing for 24–72 hours.**"
+   ],
+   "must_not_contain": [
+    "Put yourself on a 24–72 hour action lock."
+   ]
+  },
+  {
+   "id": "c3-ozone-suggested",
+   "status": "applied",
+   "what": "C3 (a), item 9: the ozone story says the mistake \"suggested\" what DMSO and the charcoal water each address, agreeing with his DMSO lines (\"I don't yet know why\")",
+   "joel": "2026-11-20 22:40 UTC: \"C1 a C2a C3 a C4 a\"",
+   "applied_by": "humanize/h62-20261120/apply_c.py",
+   "must_contain_exact": [
+    "The mistake suggested that DMSO and aged ozonated-charcoal water work on different kinds of overload, so if DMSO doesn't help, try the water, and the other way around."
+   ],
+   "must_not_contain": [
+    "The mistake showed me"
+   ],
+   "changed": [
+    "2026-11-20 (turn 55): the last line ends on what to do, read Human High by itself (f3-ozone-4, humanize/h63-20261120/apply_b197.py); \"suggested\" kept"
+   ]
+  },
+  {
+   "id": "c4-humic-no-first",
+   "status": "applied",
+   "what": "C4 (a), item 4: \"first\" out of My Brain Feels Damaged's first step, so humic acid can't read as coming before DMSO; the smell still comes before the lick (\"if that doesn't help\")",
+   "joel": "2026-11-20 22:40 UTC: \"C1 a C2a C3 a C4 a\"",
+   "applied_by": "humanize/h62-20261120/apply_c.py",
+   "must_contain_exact": [
+    "Smell humic acid; if that doesn't help, take a 5mg lick of it."
+   ],
+   "must_not_contain": [
+    "Smell humic acid first",
+    "Smell humic acid, take a 5mg lick of it."
+   ]
+  },
+  {
+   "id": "systema-video",
+   "status": "applied",
+   "what": "his Systema breathing line links the video he sent, on \"a video\" (the words as he wrote them)",
+   "joel": "2026-11-20 22:40 UTC: \"best systema breathing vid i have seen so far: https://www.youtube.com/shorts/Nar2-nvomAk\"",
+   "applied_by": "humanize/h62-20261120/apply_c.py",
+   "must_contain_exact": [
+    "[a video](https://www.youtube.com/shorts/Nar2-nvomAk)"
+   ]
+  },
+  {
+   "id": "r47-headings",
+   "status": "applied",
+   "what": "his headings for Substack's contents sidebar: 11 in his own words, Fable's \"The Feel-Good Bypass\", the rest my pick; \"How To Check For SS\" in title case, his rule; the links a heading carried kept on its words or moved to the same words in its text (review/r47/apply_r47.py)",
+   "joel": "2026-11-21 14:28 UTC: his round-47 export (review/r47/ANSWERS-R47-20261121-1428.json), \"continue\"",
+   "applied_by": "review/r47/apply_r47.py",
+   "must_contain_exact": [
+    "### How to Check for SS",
+    "### Act Now on SS",
+    "### Niacin \"Flushes\" Trips Out",
+    "## Off the Healing Treadmill",
+    "### Mango Leaf Tea: Chill Bliss",
+    "### Metta Sniffer: Chill Love 🫶🏿",
+    "### Lime or EOs for Calm"
+   ]
+  },
+  {
+   "id": "r47-inner-signal-out",
+   "status": "applied",
+   "what": "the Inner Signal section out of the guide until his app is ready, kept word for word in review/r47/REMOVED-B65.md",
+   "joel": "2026-11-21 14:28 UTC, for the Inner Signal heading: \"remove this section for now since my app isn't ready\"",
+   "applied_by": "review/r47/apply_r47.py",
+   "must_not_contain": [
+    "Inner Signal App to the Rescue!",
+    "I developed the [**Inner Signal app**]"
+   ]
+  },
+  {
+   "id": "r48-teach-ss",
+   "status": "applied",
+   "what": "his steps 5 and 6 of Act Now on SS in whole, from his TEACH-SS-STEPS version, with one obvious correction (the comma after \"Since\" out); the old step 5 and 6 text and the \"Don't force fluids, food, pills, or charcoal\" sentence out, his change (review/r48/apply_r48.py)",
+   "joel": "2026-11-21 15:57 UTC: his round-48 export (articles/bad-trips/review/r48/ANSWERS-R48-20261121-1557.json), card TEACH-SS-STEPS: \"now i fixed the last part, it was redundant and also i think not giving the correct medical advice, now all human high\"",
+   "applied_by": "review/r48/apply_r48.py",
+   "must_contain_exact": [
+    "5. Since they're already overstimulated, it helps to clear out the crowd and stop any arguing.",
+    "the problem is that creates more body heat, and it raises the risk of their muscles breaking down into the blood, which hurts the kidneys (rhabdomyolysis).",
+    "I'd have them do some fidgeting (especially of the calf muscle, flexing the feet), which can soothe that urge without the over-activity risk.",
+    "6. Overstimulating also dehydrates them, but we can't give fluids unless they're fully alert, able to swallow and not vomiting, and then just small sips of an electrolyte drink (a hypertonic one, more concentrated than an ordinary one, may be required if they still have symptoms of lack of electrolytes)."
+   ],
+   "must_not_contain": [
+    "Keep stimulation low and prevent exertion.",
+    "Hydrate only when fully alert and not vomiting.",
+    "Don't force fluids, food, pills, or charcoal",
+    "Since, they're"
+   ]
+  },
+  {
+   "id": "r48-headings",
+   "status": "applied",
+   "what": "his answers to R47-1 and R47-2: the coffee cherry heading \"Coffee Cherry, Brain Too\" (its link kept on \"Coffee Cherry\") and \"Who to Contact\"; the section links catalog renamed with them",
+   "joel": "2026-11-21 15:57 UTC: \"r47-1a / r47-2a\"",
+   "applied_by": "review/r48/apply_r48.py",
+   "must_contain_exact": [
+    "### [Coffee Cherry](http://coffeecherry.u-dont-exist.com/), Brain Too",
+    "## Who to Contact"
+   ],
+   "must_not_contain": [
+    "(Coffee Cherry for Brain also)",
+    "Who to Contact, and When"
+   ]
+  },
+  {
+   "id": "r49-his-steps",
+   "status": "applied",
+   "what": "his round-49 versions of the serotonin steps, whole: steps 1, 3 and 4 from his Pangram checks (4cdb8dad, 418788ec, 89fd3d40), step 7 from his QUIZ-1 comment (the raised-dose line cut, breathing instead of the readings, \"they took\" as he asked), and his line in step 8 (review/r49/apply_r49.py)",
+   "joel": "2026-11-22 17:21 UTC: his round-49 export (articles/bad-trips/review/r49/ANSWERS-R49-20261122-1721.json), QUIZ-1 and SS-STEP8",
+   "applied_by": "review/r49/apply_r49.py",
+   "must_contain_exact": [
+    "It doesn't matter if they are prescribed an antidepressant (an SSRI like Prozac, or an SNRI or MAOI), it's too risky right now.",
+    "And while you wait, call poison control if you don't know what was mixed",
+    "Since bodily overheating is the most dangerous part of serotonin syndrome",
+    "Although a cold bath would cool them faster, they could slip under and breathe in water",
+    "could work by reducing body heat in general, they don't work on the heat generated by muscles.",
+    "Keep track of how their breathing is doing, as that's one of the main indicators of how dangerous the seizure is",
+    "Topical magnesium chloride if they're not able to swallow."
+   ],
+   "must_not_contain": [
+    "If they raised the dose of anything lately",
+    "take readings every so often",
+    "Write down exact substances, dose, timing",
+    "Gather the evidence for the ER.",
+    "Even if they take an antidepressant every day"
+   ]
+  },
+  {
+   "id": "r49-asked-answers",
+   "status": "applied",
+   "what": "his SS-ASKED answers carried into the serotonin steps: (a) getting cyproheptadine, at the end of his step 2; (c) why niacin is unsafe, (d) why magnesium, with the review he sent, and (e) the Syrian rue oil, in step 8, his topical magnesium line kept (review/r49/apply_r49_answers.py)",
+   "joel": "2026-11-22 17:21 UTC: his round-49 export (articles/bad-trips/review/r49/ANSWERS-R49-20261122-1721.json), SS-ASKED",
+   "applied_by": "review/r49/apply_r49_answers.py",
+   "must_contain_exact": [
+    "And most people won't have it at home anyway, since it needs a prescription in the US",
+    "Niacin is actually unsafe with serotonin syndrome, since at the doses used to end a trip",
+    "I'd also leave out this guide's Syrian rue oil for now",
+    "Magnesium chloride is the one I would consider, since many people with serotonin syndrome run low on magnesium",
+    "Topical magnesium chloride if they're not able to swallow."
    ]
   }
  ]

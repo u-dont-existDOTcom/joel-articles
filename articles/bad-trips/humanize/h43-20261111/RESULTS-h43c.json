@@ -1,0 +1,60 @@
+{
+ "h42-20-fix1": [
+  "Human Written",
+  0,
+  163,
+  "Human, High, 163",
+  "21:46:54",
+  "/f0dd7b3f-af71-4078-9c23-ff4d6de8a714",
+  [],
+  []
+ ],
+ "h42-22-fix1": [
+  "Human Written",
+  0,
+  307,
+  "Human, High, 307",
+  "21:47:05",
+  "/913f21aa-5675-4649-b12e-9ee80fe5b7ff",
+  [],
+  []
+ ],
+ "h42-25-p-fix2": [
+  "AI Detected",
+  0.361,
+  58,
+  "Human, High, 22; Human, Medium, 11; AI-Generated, High, 25",
+  "21:47:16",
+  "/60f2bff5-892f-4b7a-a487-92fb9f2779c2",
+  [
+   "AI-Generated High (25 words): Once the body has settled and those tools have done what they can, whatever the trip stirred up still needs somebody to sit with it."
+  ],
+  [
+   "Human Medium (11 words): Avoid sustained-release niacin and the useless non-flush hexanicotinate form."
+  ]
+ ],
+ "anchor-a1": [
+  "Human Written",
+  0,
+  103,
+  "Human, High, 37; Human, Medium, 20; Human, High, 46",
+  "21:47:27",
+  "/3a3fd073-98e1-46ea-9e5d-342bd7c7ee67",
+  [],
+  [
+   "Human Medium (20 words): So have one calm person be the anchor and take the lead. One person can only handle so much, though."
+  ]
+ ],
+ "harm-b1": [
+  "AI Generated",
+  1,
+  117,
+  "AI-Generated, High, 117",
+  "21:47:36",
+  "/4c6f1bf6-513b-4f95-8a5c-35d9916efd43",
+  [
+   "AI-Generated High (117 words): Risk of Harm: When Peer Support Isn't Enough\nGet urgent help the moment somebody might hurt themselves or anyone else, or you can't keep them physically safe, like when they keep heading for roads and high places, or water for that matter. Voices telling them what to do are a reason too, and so is a fixed, terrifying belief they've started acting on. Get help just as fast if they turn violent or they're so severely confused they're unreachable. Dangerous physical symptoms count, and so does going so long without sleep that their judgment is falling apart. And if it's more than you can safely handle, call for help then too."
+  ],
+  []
+ ]
+}

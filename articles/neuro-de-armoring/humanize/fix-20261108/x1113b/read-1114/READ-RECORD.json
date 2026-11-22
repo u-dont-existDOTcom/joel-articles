@@ -1,0 +1,43 @@
+{
+ "format": "compare-read-record-v1",
+ "article": "HUMANIZED-SO-FAR.md after his answers of 2026-11-14 22:04 UTC: the DMSO item's first, second and fourth paragraphs (P125, P126, P128), read beside his own two DMSO versions of 2026-11-13 (14:04 and 15:22 UTC) (READER.md); its third paragraph is his own changed line",
+ "coverage": [
+  "81ce79d64e423d0a",
+  "d9690afb3569311e",
+  "5a2799c909318b65"
+ ],
+ "findings": [
+  {
+   "id": "F1",
+   "severity": 1,
+   "kind": "vaguer",
+   "block_hashes": [
+    "81ce79d64e423d0a"
+   ],
+   "now": "the acute cases went home sooner than 16 patients with similar diagnoses",
+   "same_as_original": false
+  },
+  {
+   "id": "F2",
+   "severity": 1,
+   "kind": "point lost",
+   "block_hashes": [
+    "d9690afb3569311e"
+   ],
+   "now": "by many humans for all kinds of medical problems, from arthritis to brain injuries",
+   "same_as_original": false
+  }
+ ],
+ "dispositions": {
+  "F1": [
+   "kept",
+   "his 15:22 version took this wording over his first one (\"slashing ... psych ward stays in half\"); the paper's chart gives about half for schizophrenia and the anxiety states only, so \"in half\" would overstate it for the whole group",
+   1
+  ],
+  "F2": [
+   "kept",
+   "\"as it treats hundreds of them\" went because the book's publisher lists its conditions and not \"hundreds\", on the card he answered with this text; \"including children\" is in the third paragraph, beside the young-mouse study",
+   1
+  ]
+ }
+}

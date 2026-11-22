@@ -1,0 +1,17 @@
+NEEDS:
+S1: Sets the frame: while the DMSO works, the helper checks the person over.
+S2: Gives the rule for when to keep the DMSO going and call medics: any check that finds a problem, or the person can't answer.
+S3: First check, whether they are awake and breathing normally.
+S4: Second check, whether they feel very hot.
+S5: Tells the helper to have the person talk and smile for the speech and face check.
+S6: Says what to look for in that check: slurred speech or a drooping side of the face.
+S7: Arm check, whether one arm drifts down when both are held out.
+S8: Balance check, whether they keep balance when walking a few steps, if safe.
+S9: Names one more sign to watch for, wetting or soiling themselves.
+S10: Names seizure and repeated vomiting as signs to watch for.
+S11: Names a really bad headache or chest pain as signs to ask about.
+S12: Names a vision change as a sign to check.
+S13: Says what to do if all checks are clear but the brain-damage feeling stays: keep DMSO-first and re-check soon.
+
+UNNEEDED:
+- none

@@ -1,0 +1,95 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-12",
+ "text_sha256": "e32f56bee7b2cca84393f61d7e80ff0542786e06484c90a4fede1b25eef201d3",
+ "text": "Acute Medical and Neurological Rescue\n\nAn emergency means act now, and sometimes the fastest help is right where they are. If they're severely altered but physically stable, you may bring them down faster yourself than an ambulance ride and hours in an emergency room would.\n\nSo check the body first. Are they breathing normally, and is their temperature safe? No seizures, and nothing that looks like a brain injury? Are they awake enough to work with you, and can you keep them from getting hurt? If all that checks out, calming and stabilizing the trip may be enough.",
+ "section": "Acute Medical and Neurological Rescue",
+ "reader": "someone with a person in a severe altered state, deciding whether they can calm and stabilize it where they are or need an ambulance",
+ "sentences": [
+  {
+   "s": "Acute Medical and Neurological Rescue",
+   "payoff": "they know this part is the medical and neurological emergencies",
+   "follows": "the heading"
+  },
+  {
+   "s": "An emergency means act now, and sometimes the fastest help is right where they are.",
+   "payoff": "they act now, and know the fastest help may be right where they are",
+   "follows": "it opens the section under its heading",
+   "link": "none: the first sentence under its heading"
+  },
+  {
+   "s": "If they're severely altered but physically stable, you may bring them down faster yourself than an ambulance ride and hours in an emergency room would.",
+   "payoff": "they know they may bring a physically stable person down faster themselves than an ambulance ride and hours in an emergency room would",
+   "follows": "when helping them where they are is the faster help",
+   "link": "If they're severely altered but physically stable"
+  },
+  {
+   "s": "So check the body first.",
+   "payoff": "they check the body before deciding",
+   "follows": "how to tell if they are physically stable",
+   "link": "So"
+  },
+  {
+   "s": "Are they breathing normally, and is their temperature safe?",
+   "payoff": "they check breathing and temperature",
+   "follows": "the first check",
+   "link": "none: the first of the checks the sentence before announces"
+  },
+  {
+   "s": "No seizures, and nothing that looks like a brain injury?",
+   "payoff": "they check for seizures and anything that looks like a brain injury",
+   "follows": "the next check",
+   "link": "none: the next check, a new question the reader expects"
+  },
+  {
+   "s": "Are they awake enough to work with you, and can you keep them from getting hurt?",
+   "payoff": "they check the person is awake enough to work with them and can be kept from getting hurt",
+   "follows": "the last check",
+   "link": "none: the last check, a new question the reader expects"
+  },
+  {
+   "s": "If all that checks out, calming and stabilizing the trip may be enough.",
+   "payoff": "they calm and stabilize the trip where they are when every check passes",
+   "follows": "what the checks decide",
+   "link": "If all that checks out"
+  }
+ ],
+ "checked": [],
+ "placement": "Acute Medical and Neurological Rescue, the medical part's first two paragraphs (B100 and B76), after the tripsitting part and before why the emergency room may be a poor place for a stable crisis (B77)",
+ "opens": {
+  "first_sentence": "Acute Medical and Neurological Rescue",
+  "why_reading": "it tells someone facing a severe altered state to act now, and that the fastest help may be right where they are"
+ },
+ "same_point": "none: read the section from its heading to the next (If Someone Says \"My Brain Feels Damaged\") for when calming the trip where they are may be enough; B77 says why the emergency room may be a poor place for it, and the Call medics list says when to call, each doing its own job",
+ "needed": {
+  "reader": "a fresh Haiku agent given tools/humanization/needed_read_brief.md with the test, its heading and what it is for (NEEDED-READ.md, acute-r1-fix2)",
+  "unneeded": [
+   "Acute Medical and Neurological Rescue"
+  ],
+  "kept": {
+   "Acute Medical and Neurological Rescue": "they find this part by its heading; it is the section heading itself, typed with the test"
+  }
+ },
+ "questions": {
+  "Q1": "PASS: the section opens on acting now and where the fastest help may be; the checks open on \"So check the body first\"",
+  "Q2": "PASS: each check is something the reader asks of the person or of themselves",
+  "Q3": "PASS: breathing, temperature, seizures, a brain injury, wakefulness and physical safety: each check says which",
+  "Q4": "PASS: \"physically stable\" said by the checks that follow; \"neurological-injury concern\" said as anything that looks like a brain injury, \"conscious enough to cooperate\" as awake enough to work with you",
+  "Q5": "PASS: \"If\", \"So\" and \"If all that checks out\" say each relation",
+  "Q6": "PASS: acting now, why the fastest help may be here, then how to tell",
+  "Q7": "PASS: each line bears on whether to calm the trip here or call",
+  "Q8": "PASS: all about deciding between help where they are and an ambulance",
+  "Q9": "PASS: one check a question"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

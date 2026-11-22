@@ -1,0 +1,48 @@
+NEEDS:
+S1: step number marker (list numbering), needed so the steps read as a sequence
+S2: tells the reader to stop giving anything that adds serotonin, and why
+S3: names the common culprits to withhold (MDMA, stimulants, DXM, tramadol, linezolid)
+S4: tells the reader to withhold even a prescribed antidepressant for now; the act is "do not give their next dose"
+S5: tells the reader not to give ayahuasca or other harmala brews, and why
+S6: tells the reader to check for supplements (5-HTP, St John's wort, SAM-e) and withhold them
+S7: step number marker
+S8: tells the reader to give cyproheptadine early, but only if the person is alert and can swallow
+S9: tells the reader the evidence is weak, so they don't rely on it (implied act: don't count on it)
+S10: tells the reader not to delay the other steps for it
+S11: tells the reader how to get cyproheptadine (US prescription, a telehealth doctor, sold without one elsewhere) and that it may take time; implied act: start the other steps now
+S12: step number marker
+S13: tells the reader to ask for an ambulance and why
+S14: tells the reader not to drive them to the ER, and why
+S15: tells the reader to call poison control while waiting if the mix is unknown
+S16: step number marker
+S17: tells the reader the goal while waiting: cool them down, since overheating is the worst danger
+S18: tells the reader how to cool them: cool place, clothes off, fan over cool damp cloths
+S19: tells the reader what to add if still hot: wrapped ice packs at neck, armpits, groin
+S20: tells the reader not to use a cold bath, and why
+S21: tells the reader not to rely on Tylenol or ibuprofen, and why
+S22: step number marker
+S23: tells the reader to clear the crowd and stop arguments
+S24: tells the reader not to let them pace or exercise, and why
+S25: tells the reader what to do instead if they feel the urge to move: fidget, flex the feet
+S26: step number marker
+S27: tells the reader when fluids are allowed (alert, can swallow, not vomiting) and how (small sips of electrolyte drink)
+S28 and S29 (one sentence split at the colon): tells the reader what to give if the low-electrolyte signs from the MDMA Magnesium Alarm are still there: a stronger electrolyte drink or salty potato soup with Epsom salt, and how to make it
+S30: step number marker
+S31: tells the reader to gather pill bottles and packages for the ER doctors
+S32: tells the reader to write down how much of each thing and when, street drugs and supplements included
+S33: tells the reader to watch their breathing, and why
+S34: step number marker
+S35: tells the reader not to use niacin or DMSO here, though the guide recommends them elsewhere
+S36: tells the reader why not niacin (flushing, dizziness, low blood pressure); gives the reason so they resist the urge
+S37: nothing the reader can use while waiting; it says Syrian rue oil is "a maybe" and "might help", which also clashes with S5 telling them to give no harmala
+S38: nothing; says there is no research and tells them to raise a dose slowly and watch, which is not something to start while waiting for an ambulance
+S39: tells the reader magnesium is the exception: consider oral magnesium chloride for MDMA-related jaw tension or muscle activity, only if alert and able to swallow
+S40: tells the reader where the amounts are (the MDMA Magnesium Alarm section); finishes S39's sentence
+S41: tells the reader to use topical magnesium chloride when they can't swallow (a fragment with no amount or pointer; the writer should add where to find how much)
+
+UNNEEDED:
+- S37: Syrian rue oil from the stabilizers is a maybe: made at home it has almost none of the harmala alkaloids, and it might even help with MDMA. — the reader can't act on "a maybe"; "stabilizers" is not explained; it is a hypothesis that works against S5 (no harmala) and adds a substance when the aim is to stop adding them
+- S38: But since I couldn't find any research on it with MDMA, it isn't the first thing I'd try, and if I did, I'd raise the dose slowly and watch whether it helps. — only qualifies S37; a dose-raising trial isn't something to start while waiting for an ambulance; with S37 gone, nothing is missing
+
+Optional trims (kept above because they carry an act, but the reader could lose them):
+- S39's clause "since many people with serotonin syndrome run low on it (a nursing review)": the source tag is not needed to give the magnesium.

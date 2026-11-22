@@ -8,7 +8,7 @@ predictions in batch tables read by its own scorecard (which the hypnosis lane j
 table; nothing counted tries. docs/PANGRAM-PRODUCTION-BUDGET-20261020.md asks every lane for an immutable prediction before
 each call (scope, Human or AI, the tells behind it, the try number), the result after, every miss recorded with its cause,
 a scorecard with rolling accuracy beside the always-AI and always-Human baselines and the boundary mix, and a tries count of
-at most six per paragraph lineage, two per section and two per whole article. This tool does those things for any lane.
+at most six per paragraph lineage (ten while it is on the right track, lesson bad-trips-2026-11-20g), two per section and two per whole article. This tool does those things for any lane.
 
 Each lane keeps one append-only file, `pangram-ledger.jsonl` in its folder (tools/humanization/pangram_lanes.json says where),
 with one JSON object per line:
@@ -47,6 +47,12 @@ import argparse, datetime, hashlib, json, pathlib, re, sys
 REPO = pathlib.Path(__file__).resolve().parents[2]
 LANES = REPO / 'tools' / 'humanization' / 'pangram_lanes.json'
 CAPS = {'sentence': 6, 'heading': 6, 'paragraph': 6, 'pair': 6, 'section': 2, 'stretch': 2, 'article': 2}
+# Lesson bad-trips-2026-11-20g (Joel, 2026-11-20 18:20 UTC, on a seventh try I held back although the sixth had read Human
+# High and the seventh only put back what the sixth had dropped: "you used up your tries? so we shoudl raise the limit to 10
+# then? it seems like the point of the limit was to stop you from doing blind tests, but if your'e on the right track you
+# should keep going"): a paragraph-sized lineage on the right track may go to ten tries; one that isn't stops at six.
+RIGHT_TRACK_CAP = 10
+RIGHT_TRACK_SCOPES = ('sentence', 'heading', 'paragraph', 'pair')
 PANEL_SCOPES = ('paragraph', 'pair')   # E346: read AI twice, the tell panel before the next try
 
 
@@ -298,11 +304,17 @@ def blocks(recs, lineage, scope, detector=None, after_fix=None):
         out.append('try %d of lineage %s (%s) has no result: recover it from the History, or void it if it was never sent'
                    % (pending[0]['try'], lineage, pending[0].get('key') or pending[0]['sha256'][:12]))
     cap = cap_for(scope, detector if detector is not None else (line[-1].get('detector') if line else None))
+    if cap is not None and scope in RIGHT_TRACK_SCOPES and len(line) >= cap and right_track(line):
+        cap = max(cap, RIGHT_TRACK_CAP)   # lesson bad-trips-2026-11-20g: on the right track, up to ten
     if cap is not None and len(line) >= cap and not (scope == 'section' and (after_fix or '').strip()):
-        out.append('lineage %s has used its %d tries for a %s: stop and ask Joel only for a decision that is his (a new '
+        out.append('lineage %s has used its %d tries for a %s%s: stop and ask Joel only for a decision that is his (a new '
                    'owner decision is needed); a fix that is yours, or that the article\'s own goals already call for '
                    '(a repeat cut, gate E378), goes on: for a section with a fix in it, give --after-fix (his answer 28a), '
-                   'or narrow it to its paragraphs (E343)' % (lineage, cap, scope))
+                   'or narrow it to its paragraphs (E343)'
+                   % (lineage, cap, scope, '' if scope not in RIGHT_TRACK_SCOPES or cap >= RIGHT_TRACK_CAP else
+                      ' and isn\'t on the right track (its latest check read worse than an earlier one, or with no Human '
+                      'window), so it stops at six (lesson bad-trips-2026-11-20g: up to ten only while the latest check '
+                      'is the best so far)'))
     done = [p for p in line if p['result']]
     if len(done) >= 2 and all(is_miss(p) and not p['explain'] for p in done[-2:]):
         out.append('the last two predictions of lineage %s missed and neither is explained: stop and ask Joel ("I can\'t find '
@@ -612,6 +624,54 @@ def changed_share(old, new):
 
 
 BIG_CHANGE = 0.4
+NEAR_MISS = 0.2
+
+
+def below_high_words(windows):
+    """The words of WINDOWS in a window that isn't Human at High confidence."""
+    return sum((w.get('words') or 0) for w in windows if isinstance(w, dict)
+               and not (str(w.get('label', '')).startswith('Human') and w.get('confidence') == 'High'))
+
+
+def best_near_miss(line):
+    """Lesson bad-trips-2026-11-19b: the try of the lineage that read best (lowest AI likelihood) among those with a Human
+    window, or None. Joel's round-41 versions started from my first tries, each with a Human window (79% and 87% AI), and
+    changed a word or two a reader could take two ways, checking after each; my later tries rewrote those near misses and
+    read 100% AI. Between tries of the same likelihood, the one with fewer words in windows below Human High is the better:
+    Pangram's likelihood for a Human text rounds to 0, so a later try that read Human High in every window tied an earlier
+    one with a Medium window, and the near-miss rule measured a new try from the older, worse text (turn 50, 2026-11-20:
+    niacin's side effects, b07 Human High after a07's Medium window)."""
+    best = None
+    for p in line:
+        r = p.get('result') or {}
+        ws = r.get('windows') or []
+        if not p.get('text') or not any(isinstance(w, dict) and str(w.get('label', '')).startswith('Human') for w in ws):
+            continue
+        lk = r.get('likelihood')
+        rank = (1.0 if lk is None else lk, below_high_words(ws))
+        if best is None or rank < best[1]:
+            best = (p, rank)
+    return best[0] if best else None
+
+
+def right_track(line):
+    """Lesson bad-trips-2026-11-20g: a lineage is on the right track when its latest checked try is its best so far (the
+    lowest AI likelihood, then the fewest words below Human High, as best_near_miss ranks them) and has a Human window. Past
+    six tries such a lineage may go on to RIGHT_TRACK_CAP; one whose latest check read worse than an earlier one stops at
+    six, which is what the limit was for: blind tests (Joel, 2026-11-20). Each further try still needs its named
+    diagnosis, and the two-miss stop still holds."""
+    done = [p for p in line if p.get('result')]
+    if not done:
+        return False
+    def rank(p):
+        r = p.get('result') or {}
+        lk = r.get('likelihood')
+        return (1.0 if lk is None else lk, below_high_words(r.get('windows') or []))
+    last = done[-1]
+    ws = (last.get('result') or {}).get('windows') or []
+    if not any(isinstance(w, dict) and str(w.get('label', '')).startswith('Human') for w in ws):
+        return False
+    return all(rank(last) <= rank(p) for p in done[:-1])
 
 
 def sense_gate(a, text, sha, line):
@@ -646,9 +706,33 @@ def sense_gate(a, text, sha, line):
                        'spent (gate E361; Joel, 2026-11-05, on the movement paragraph he fixed with two words and a move: '
                        '"the problem was simply that you had the ideas out of their natural order")'
                        % (round(share * 100), prev.get('id', '?')))
+    near = best_near_miss(line)
+    if near and text is not None:
+        share = changed_share(near['text'], text)
+        after = line[line.index(near) + 1:]
+        small = [p for p in after if p.get('text') and changed_share(near['text'], p['text']) <= NEAR_MISS]
+        if share > NEAR_MISS and len(small) < 2:
+            why.append('the best try of this lineage, %s, read with a Human window: the next try starts from it and changes '
+                       'only what a reader could take two ways (an "it" that could point at two things, a word like "too '
+                       'weak" that could describe the drug or the evidence), one or two words at a time, checked after each; '
+                       'this try changes %d%% of its words, and a rewrite waits until two tries of at most %d%% have been '
+                       'checked from it, whatever --big-change says (lesson bad-trips-2026-11-19b; Joel, 2026-11-19: "i made 2 '
+                       'changes, and i checked each one. each was necessary to get to fully high conf human. first i '
+                       'clarified what "it" was referring to, then i clarified what "too weak" meant")'
+                       % (near.get('id', '?'), round(share * 100), round(NEAR_MISS * 100)))
+    # Lesson bad-trips-2026-11-20e: my try of his samsara paragraph added "the cycle of ordinary existence", a word the
+    # linter flags (O12: overused by AI); he took it out and the paragraph read Human High ("removed the ai tell word
+    # "ordinary" (it's on your linter right?)"). A try of mine adds none of these words to the lineage's text.
+    first = next((r for r in line if r.get('text')), None)
+    if first and text is not None:
+        added = sorted(set(w.lower() for w in O12.findall(text)) - set(w.lower() for w in O12.findall(first['text'])))
+        if added:
+            why.append('this try adds %s, which the linter flags as overused by AI (O12; lesson bad-trips-2026-11-20e): say '
+                       'the plain thing it stands for, or keep the lineage\'s own word' % ', '.join('"%s"' % w for w in added))
     return why
 
 
+O12 = re.compile(r"\b(ordinary|regular|boring|everyday|mundane|quietly)\b", re.I)
 FIRST_FIX_PARTS = ('payoff', 'join', 'plain')
 
 
@@ -699,6 +783,13 @@ def first_fix_gate(a, recs, text):
         return []
     said = (a.first_fix or '').lower()
     missing = [k for k in FIRST_FIX_PARTS if not re.search(r'\b%s\w*\s*:\s*\S.{6,}' % k, said)]
+    # Lesson bad-trips-2026-11-20c: "payoff: none moved" let every try keep the means before the payoff (his Hunter
+    # fix, 2026-11-20: "can't believe you still don't understand what i'm talking about when i say payoff first"). A
+    # payoff part that moved nothing says how each changed sentence already leads with what the reader gets.
+    m = re.search(r'\bpayoff\w*\s*:\s*([^;]*)', said)
+    if m and re.match(r'\s*(none|no |nothing)', m.group(1)) and not re.search(r'already leads?|leads with', m.group(1)):
+        missing.append('payoff ("none" must say how each changed sentence already leads with what the reader gets '
+                       'from it, lesson bad-trips-2026-11-20c)')
     if not missing:
         return []
     shown = '; '.join('"%s" (%s %s, %s)' % (old[:70], label, conf, pid) for pid, label, conf, old, new in hits[:3])
@@ -789,7 +880,10 @@ def cmd_predict(a):
         print('REFUSED: ' + '\n  '.join(why), file=sys.stderr)
         return 2
     append(a.ledger, {k: v for k, v in rec.items() if v not in (None, [], '')})
-    print('%s: try %d of %s for %s (%s), predicted %s%s' % (rec['id'], rec['try'], cap_text(a.scope, a.detector), a.lineage, a.scope, a.call,
+    of = cap_text(a.scope, a.detector)
+    if a.scope in RIGHT_TRACK_SCOPES and of.isdigit() and rec['try'] > int(of):
+        of = '%d (on the right track, lesson bad-trips-2026-11-20g)' % RIGHT_TRACK_CAP
+    print('%s: try %d of %s for %s (%s), predicted %s%s' % (rec['id'], rec['try'], of, a.lineage, a.scope, a.call,
                                                           '' if a.chance is None else ' at %.2f' % a.chance))
     return 0
 

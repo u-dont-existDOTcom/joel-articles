@@ -1,0 +1,797 @@
+{
+ "format": "joel-suggestion-review-v1",
+ "review_id": "bad-trips-r33",
+ "title": "Bad Trips Guide, Round 33",
+ "intro": [
+  "Round 33 (2026-11-09). Round 32 is in: the aura heading as you picked it, the room-first order at the top of the Grounding Menu without its second \"love becomes practical\" line, your definition of shadow work and where to begin opening the Shadow Work part, and your cuts: Room, the familiar object and \"Say the date, place, and approximate time.\" With Room gone from the menu, the order at its top now starts with the room itself, which your first five minutes sets up; say if you want that changed.",
+  "You asked me to find more boilerplate like that. Four fresh readers went through the guide, a part each, and flagged 64 pieces ([each one, and what I did with it](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261105/articles/bad-trips/humanize/h41-20261109/RESULTS.md)). I left what you wrote or approved, the safety lines (when to call for help, warning signs), the studies behind your remedies, and your Appendix, so the medical part has nothing to cut. The rest is on six cards, one per section, each showing the section as it would read without it, and one card of seven smaller ones, with my pick for each. Card 4 is your lime-peel thought."
+ ],
+ "git_file": "articles/bad-trips/review/r33/REVIEW-R33.html",
+ "article": {
+  "file": "articles/bad-trips/review/r33/PAGE-R33.md",
+  "sha256": "b33ccc15d19e09f97fc7005748639c50e8463df319d1bcd551c868728dee88c4"
+ },
+ "built": "2026-11-09",
+ "links": {
+  "guide": "https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261105/articles/bad-trips/GUIDE-SO-FAR.md",
+  "guide_label": "the guide as it stands",
+  "check": "https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261105/articles/bad-trips/review/r33/REVIEW-R33.md",
+  "review": "https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261105/articles/bad-trips/review/r33/REVIEW-R33.md"
+ },
+ "types": {
+  "plain": {
+   "label": "Said plainly",
+   "about": "AI lines said plainly, each with its reason, the way he fixes his own windows"
+  },
+  "structure": {
+   "label": "Structure",
+   "about": "how the quick version and the long version split the guide, and where a part goes"
+  },
+  "repeat": {
+   "label": "Said twice",
+   "about": "a point the guide already makes elsewhere: one copy goes, the other stays"
+  },
+  "safety": {
+   "label": "Safety in one place",
+   "about": "a caution or call-for-help line said in several places, or one that changes nothing a reader does"
+  },
+  "question": {
+   "label": "Your call",
+   "about": "something only you can decide or know"
+  },
+  "sense": {
+   "label": "Says what it means",
+   "about": "a term explained where it is first used, or a word that says what to do"
+  },
+  "belief": {
+   "label": "Your belief back",
+   "about": "a sentence of your post that said why, cut in an earlier round, put back where it bears on what the reader does"
+  },
+  "method": {
+   "label": "Your method where it is used",
+   "about": "a line the guide already has, put where the reader uses it in trouble (your METHOD-WHERE answer, round 28)"
+  },
+  "notes": {
+   "label": "Your notes, placed",
+   "about": "what you sent in a comment, put where it belongs in the guide, as you sent it"
+  },
+  "typo": {
+   "label": "Typo",
+   "about": "a word in your own paragraph spelled differently from how you spell it elsewhere, with the fix in place"
+  },
+  "boilerplate": {
+   "label": "Boilerplate",
+   "about": "standard advice a model added that carries none of your method and no safety point a reader needs, shown as the section would read without it (your round-32 note)"
+  },
+  "teach": {
+   "label": "Teach me",
+   "about": "a paragraph that reads AI in every wording I tried, whose shape many stuck paragraphs share: how you would say it teaches me how to say them (you asked for these on 2026-11-07)"
+  }
+ },
+ "suggestions": [
+  {
+   "id": "SMELL",
+   "type": "question",
+   "advice": "ask",
+   "title": "4. A Smell part in the Grounding Menu?",
+   "question": "You wrote that smelling a nice natural scent like a lime peel would be more useful in the menu, but weren't sure, since the guide says it in several places. It does, all in the remedies: your essential oils entry with the lime peel, the Metta NMT sniffer, humic acid powder, and smelling the ferment. The menu is where someone in trouble picks one or two things to do now, and it has no smell in it. How each option would read:\n\nA (my pick): a Smell part right after Body, one line pointing to the remedies:\n    Smell\n    - Scratch & sniff a lime peel, or smell an authentic calming essential oil, the Metta NMT sniffer or humic acid powder (see Mental Stabilizers That Don't Abort the Trip).\nPro: the menu offers what you reach for yourself, in one line that names where the guide explains it, so nothing is said twice. Con: one more part in a menu you're trimming.\n\nB: no Smell part. Pro: nothing added. Con: someone who opens the menu for something to do now won't meet smell there.",
+   "why": "Your round-32 note: \"more useful would be smelling a nice natural scent like lime peel or something, but idk i feel like this is all said in multiple places also\".",
+   "stays": "The menu without a Smell part.",
+   "advice_note": "A, and I'm fairly sure: it points to your remedies rather than repeating them.",
+   "spans": [
+    {
+     "block": 229,
+     "start": 0,
+     "end": 4
+    }
+   ],
+   "card_after": 233
+  },
+  {
+   "id": "MENU-CUTS",
+   "type": "boilerplate",
+   "advice": "approve",
+   "title": "3. Grounding Menu: the rest of the standard grounding lines",
+   "what": "Ten lines go: three of Body's (\"Feel both feet against the floor.\", \"Hold something with weight or texture.\", \"Slowly unclench the jaw, hands, belly, and shoulders.\"), two of Breath's (the four-six count and the Buteyko breath, with the Buteyko evidence note under the menu), two of Music's (\"Silence is a real option.\", \"Keep the stop or change control immediate.\"), and two of Human's (\"Ask one calm person to stay as the lead anchor.\", \"Let them remind you where you are.\").",
+   "why": "They're the same kind of line as Room: grounding and breathing techniques any guide gives. Holding something with weight is the familiar object again. Human's two lines are said by the very next section, Get One Human Anchor (\"one calm person should be the anchor\"), and by your first five minutes (\"remind them where they are\").",
+   "stays": "Your hand on the heart and solar plexus; the longer exhale, the warning against forced breath-holds and your whisper line; your music lines (no forced playlist, the drum and the harp, Chantress Seba); \"Don't process with the most reactive person in your life.\"; Time; and Ordinary world with its safety lines.",
+   "deciding": "Approve cuts all ten; Revise to keep any (say which); Reject keeps the menu as it is.",
+   "advice_note": "Approve, and I'm fairly sure: each is what you cut Room for. Least sure of the breathing count, since some readers already know four-six breathing and reach for it.",
+   "ask_because": "downside: the menu loses the standard techniques a reader may know from elsewhere (feet on the floor, four-six breathing, the Buteyko breath and its note)",
+   "found_by": "a fresh reader of the guide for boilerplate (round 33's read, after your round-32 note)",
+   "edits": [
+    {
+     "block": 230,
+     "before": "Feel both feet against the floor.",
+     "after": ""
+    },
+    {
+     "block": 232,
+     "before": "Hold something with weight or texture.",
+     "after": ""
+    },
+    {
+     "block": 233,
+     "before": "Slowly unclench the jaw, hands, belly, and shoulders.",
+     "after": ""
+    },
+    {
+     "block": 236,
+     "before": "Try inhaling for four and exhaling for six, without strain.",
+     "after": ""
+    },
+    {
+     "block": 237,
+     "before": "Or breathe softly and slowly through the nose, taking in slightly less air than desired until there is faint air hunger.",
+     "after": ""
+    },
+    {
+     "block": 241,
+     "before": "Silence is a real option.",
+     "after": ""
+    },
+    {
+     "block": 245,
+     "before": "Keep the stop or change control immediate.",
+     "after": ""
+    },
+    {
+     "block": 247,
+     "before": "Ask one calm person to stay as the lead anchor.",
+     "after": ""
+    },
+    {
+     "block": 248,
+     "before": "Let them remind you where you are.",
+     "after": ""
+    },
+    {
+     "block": 258,
+     "before": "Buteyko evidence note: published evidence for Buteyko-style breathing mainly concerns asthma and breathing retraining, rather than psychedelic or spiritual-practice crisis. I include it because panic-related over-breathing can lower CO<sub>2</sub> and directly cause tingling, lightheadedness, confusion, and unreality feelings (Hopkins Medicine). Use the simpler longer-exhale option first. Never strain or turn breathing into another achievement.",
+     "after": ""
+    }
+   ],
+   "spans": [
+    {
+     "block": 230,
+     "start": 0,
+     "end": 33
+    },
+    {
+     "block": 232,
+     "start": 0,
+     "end": 38
+    },
+    {
+     "block": 233,
+     "start": 0,
+     "end": 53
+    },
+    {
+     "block": 236,
+     "start": 0,
+     "end": 59
+    },
+    {
+     "block": 237,
+     "start": 0,
+     "end": 120
+    },
+    {
+     "block": 241,
+     "start": 0,
+     "end": 25
+    },
+    {
+     "block": 245,
+     "start": 0,
+     "end": 42
+    },
+    {
+     "block": 247,
+     "start": 0,
+     "end": 47
+    },
+    {
+     "block": 248,
+     "start": 0,
+     "end": 34
+    },
+    {
+     "block": 258,
+     "start": 0,
+     "end": 448
+    }
+   ],
+   "reads": [
+    {
+     "text": "Grounding Menu: Choose One or Two Things",
+     "kind": "h2"
+    },
+    {
+     "text": "Grounding is love becoming practical. Choose one or two options rather than all of them. Twelve simultaneous techniques can become another form of panic."
+    },
+    {
+     "text": "A useful order is room → body → human → time → meaning. Most people begin with meaning because the experience feels cosmic.",
+     "note": "then the menu's picture"
+    },
+    {
+     "text": "Body"
+    },
+    {
+     "text": "- Put one hand on the heart and one on the solar plexus."
+    },
+    {
+     "text": "Breath"
+    },
+    {
+     "text": "- Exhale longer than you inhale for ten breaths."
+    },
+    {
+     "text": "- Never force breath-holds while intoxicated or panicked. Stop for increased fear, dizziness, chest pain, or medical concern."
+    },
+    {
+     "text": "- Whisper: \"This is a wave. I can love the part of me that feels it.\""
+    },
+    {
+     "text": "Music"
+    },
+    {
+     "text": "- Use familiar music when possible. I wouldn't force a predesigned emotional arc or an unfamiliar therapeutic playlist on somebody who dislikes it."
+    },
+    {
+     "text": "- Try a steady drum rhythm for stabilization or grounding; try airy harp-like or meditative music when the person wants something gentler and spiritually uplifting."
+    },
+    {
+     "text": "- Soothing meditative music, like that of Chantress Seba and others on my music page, can be very helpful."
+    },
+    {
+     "text": "Human"
+    },
+    {
+     "text": "- Don't process with the most reactive person in your life."
+    },
+    {
+     "text": "Time"
+    },
+    {
+     "text": "- Remember that these states usually rise, peak, and change."
+    },
+    {
+     "text": "- Put every big decision into tomorrow's notebook."
+    },
+    {
+     "text": "Ordinary world"
+    },
+    {
+     "text": "- Eat simple healthy food, such as fruit, when you can."
+    },
+    {
+     "text": "- Walk slowly with a clear-headed person in a safe environment."
+    },
+    {
+     "text": "- Go outside only away from roads, heights, crowds, and water."
+    },
+    {
+     "text": "- Avoid strenuous exercise with overheating, chest pain, faintness, severe confusion, stimulant use, an unknown mixture, or any medical concern."
+    }
+   ],
+   "reads_label": "The Grounding Menu as it would read"
+  },
+  {
+   "id": "STILL-CUT",
+   "type": "boilerplate",
+   "advice": "approve",
+   "title": "2. Stillness or Movement?: the whole subsection",
+   "what": "The subsection at the end of your first five minutes goes: its heading, the two-minute test, pacing versus lying under a blanket, parallel processing, and the Movement evidence note.",
+   "why": "Your first five minutes already says what a reader needs about moving: \"Letting them move around is fine, and pacing can help, but keep them from taking more of any substance.\" The rest is standard advice and an evidence note for it. I moved that note here this afternoon; your round-32 note showed I should have offered to cut it instead.",
+   "stays": "Your first five minutes, word for word, with its pacing line; the Grounding Menu's walking and exercise lines.",
+   "deciding": "Approve cuts the subsection; Revise to keep a paragraph (say which); Reject keeps it.",
+   "advice_note": "Approve, and I'm fairly sure of all but parallel processing. If that one is your own, Revise to keep it and it ends your first five minutes.",
+   "ask_because": "downside: parallel processing (one part of attention stays with the feeling while another finishes a small task) is said nowhere else in the guide, and it may be yours",
+   "found_by": "a fresh reader of the guide for boilerplate (round 33's read, after your round-32 note)",
+   "edits": [
+    {
+     "block": 220,
+     "before": "Stillness or Movement?",
+     "after": ""
+    },
+    {
+     "block": 221,
+     "before": "Test stillness and movement rather than turning them into rival religions. Try one for two minutes and ask: Does this make me safer and clearer, or more activated and impulsive?",
+     "after": ""
+    },
+    {
+     "block": 222,
+     "before": "When lying down feels like imprisonment, pace slowly in a contained space. When pacing begins to resemble escape, sit against a wall or lie under a blanket. The goal is to let the nervous system discharge without creating a new danger.",
+     "after": ""
+    },
+    {
+     "block": 223,
+     "before": "Parallel processing can help when lying still turns into immobile introspection. Let one part of attention stay with the body, fear, grief, or memory while another part completes a simple, safe task with a visible endpoint: sort ten objects, draw, fold five towels, or wash one cup. Finishing something small helps confirm that time is moving and ordinary reality is still here. Stop if the task increases agitation, speed, or risk.",
+     "after": ""
+    },
+    {
+     "block": 224,
+     "before": "Movement evidence note: the best-supported general advice is to create a safe, low-stimulation environment and choose responses that reduce danger. A 2024 study of strategies for resolving challenging psychedelic experiences identified physical movement, intentional breathing, sensory engagement, sleep-seeking, and social support among the ways people navigate difficulty.",
+     "after": ""
+    }
+   ],
+   "spans": [
+    {
+     "block": 220,
+     "start": 0,
+     "end": 22
+    },
+    {
+     "block": 221,
+     "start": 0,
+     "end": 177
+    },
+    {
+     "block": 222,
+     "start": 0,
+     "end": 235
+    },
+    {
+     "block": 223,
+     "start": 0,
+     "end": 432
+    },
+    {
+     "block": 224,
+     "start": 0,
+     "end": 374
+    }
+   ],
+   "reads": [
+    {
+     "text": "I actually get something like this regularly when I take a high dose of something (or meditate too much), where I feel like I'm at risk of ruining my life if I don't stay away from sex and money. And there's a voice that really commands me to leave both of those completely (which led to 3 weeks of wandering in Malaysia & Cambodia without money once). What actually helped me in one case when receiving this stern order from a higher power, was to ask it to clarify. I said, \"I agree, that makes sense as a Buddhist, and I'd like to leave those behind at some point, especially money. But what's the best timeline to benefit all involved? Some people are dependent on me, I have a son, and so forth.\" The voice didn't respond, it just went away. So I took it more like a long-term suggestion than the urgency I assumed it needed based on how loud it was at first.",
+     "note": "the last paragraph of your first five minutes, as it is"
+    },
+    {
+     "text": "Grounding Menu: Choose One or Two Things",
+     "kind": "h2"
+    }
+   ],
+   "reads_label": "Where your first five minutes would end"
+  },
+  {
+   "id": "ANCHOR-CUTS",
+   "type": "boilerplate",
+   "advice": "approve",
+   "title": "5. Get One Human Anchor: the sitter's script and the 3 a.m. movement tips",
+   "what": "Three paragraphs go: \"Script for the sitter or friend:\" with its script (\"I'm here. You're not alone. This is a wave. ...\"), and Alone at 3 a.m.'s \"When the body still needs movement, keep it contained and boring: brush your teeth, stretch gently, take a calm shower, or do a few slow wall push-ups. Then protect sleep.\"",
+   "why": "The sitter's script says what your first five minutes and the Do list already say (\"don't try to win an argument\", \"I'm with you\"), and \"This is a wave\" is your breath line. The 3 a.m. tips are a standard list.",
+   "stays": "The script for the person in the altered state, which Alone at 3 a.m. tells them to send; your 3 a.m. line, which then ends the section.",
+   "deciding": "Approve cuts all three; Revise to keep one (say which); Reject keeps them.",
+   "advice_note": "Approve, and I'm fairly sure.",
+   "ask_because": "downside: a sitter loses ready words to say, and someone alone at 3 a.m. loses small things to do when the body needs to move",
+   "found_by": "a fresh reader of the guide for boilerplate (round 33's read, after your round-32 note)",
+   "edits": [
+    {
+     "block": 265,
+     "before": "Script for the sitter or friend:",
+     "after": ""
+    },
+    {
+     "block": 266,
+     "before": "I'm here. You're not alone. This is a wave. We don't have to solve your whole life right now. Let's make your body safe, keep things simple, and stay together.",
+     "after": ""
+    },
+    {
+     "block": 271,
+     "before": "When the body still needs movement, keep it contained and boring: brush your teeth, stretch gently, take a calm shower, or do a few slow wall push-ups. Then protect sleep.",
+     "after": ""
+    }
+   ],
+   "spans": [
+    {
+     "block": 265,
+     "start": 0,
+     "end": 32
+    },
+    {
+     "block": 266,
+     "start": 0,
+     "end": 159
+    },
+    {
+     "block": 271,
+     "start": 0,
+     "end": 171
+    }
+   ],
+   "reads": [
+    {
+     "text": "Get One Human Anchor",
+     "kind": "h2"
+    },
+    {
+     "text": "Many bad trips get worse because somebody is alone with a frightened or over-certain mind. Other times it's the opposite: too many people crowd in and start advising, arguing, spiritualizing, or panicking."
+    },
+    {
+     "text": "So one calm person should be the anchor and take the lead. One person can only handle so much, though. When fatigue or logistics get to be too much, or keeping them safe does, or there's a risk of violence or self-harm, bring in one more calm adult or a crisis professional to back them up.",
+     "note": "then the section's picture"
+    },
+    {
+     "text": "Script for the person in the altered state:"
+    },
+    {
+     "text": "I'm in an intense psychedelic or altered state and I need grounding. I don't need you to solve my life. Please stay with me, speak slowly, remind me where I am, and help me not make any big decisions until tomorrow."
+    },
+    {
+     "text": "Alone at 3 a.m.",
+     "kind": "h3"
+    },
+    {
+     "text": "The triage app has the stripped-down 3 a.m. plan. Once the lamp is on, the keys are away, and \"No big actions until morning\" is visible, use the phone only to reach a calm person or support service."
+    },
+    {
+     "text": "Send the human-anchor script."
+    },
+    {
+     "text": "While you wait, put one hand on your heart and the other on your solar plexus just under your chest, and say to yourself: \"This feeling is allowed to move through. I can love the part of me that feels it.\""
+    }
+   ],
+   "reads_label": "Get One Human Anchor as it would read"
+  },
+  {
+   "id": "HELPER-CUTS",
+   "type": "boilerplate",
+   "advice": "approve",
+   "title": "6. For the Person Helping: the Do lines your first five minutes already says",
+   "what": "Three lines of the Do list go (\"Reflect without arguing: ...\", \"Keep the room quiet, private, warm, and physically safe, and move anyone they're wary of somewhere else.\", \"Translate metaphysics into shared safety values: ...\"), and the harm part's summary, \"Redirect within the person's value-world toward peace and protection, increase containment, and bring in crisis support as early and as non-coercively as the situation allows.\"",
+   "why": "Your first five minutes says the first two (\"don't try to win an argument with their visions\", \"dim the lights, and clear out the extra people around them\"), the scripts in the harm part say the third, and the summary repeats those scripts and the call-for-help line under them.",
+   "stays": "\"Ask simple questions: ...\", \"Call for help early when safety is slipping.\", \"Set behavioral boundaries without humiliation: ...\", and the harm part's example, scripts and safety lines.",
+   "deciding": "Approve cuts all four; Revise to keep one (say which); Reject keeps them.",
+   "advice_note": "Approve, and I'm fairly sure.",
+   "ask_because": "downside: two details are said nowhere else, a warm room and moving anyone they're wary of somewhere else",
+   "found_by": "a fresh reader of the guide for boilerplate (round 33's read, after your round-32 note)",
+   "edits": [
+    {
+     "block": 278,
+     "before": "Reflect without arguing: \"That sounds terrifying.\" \"I'm with you.\" \"Let's breathe together.\"",
+     "after": ""
+    },
+    {
+     "block": 279,
+     "before": "Keep the room quiet, private, warm, and physically safe, and move anyone they're wary of somewhere else.",
+     "after": ""
+    },
+    {
+     "block": 281,
+     "before": "Translate metaphysics into shared safety values: \"This feels sacred and huge. Sacred power protects life tonight.\"",
+     "after": ""
+    },
+    {
+     "block": 288,
+     "before": "Redirect within the person's value-world toward peace and protection, increase containment, and bring in crisis support as early and as non-coercively as the situation allows.",
+     "after": ""
+    }
+   ],
+   "spans": [
+    {
+     "block": 278,
+     "start": 0,
+     "end": 92
+    },
+    {
+     "block": 279,
+     "start": 0,
+     "end": 104
+    },
+    {
+     "block": 281,
+     "start": 0,
+     "end": 114
+    },
+    {
+     "block": 288,
+     "start": 0,
+     "end": 175
+    }
+   ],
+   "reads": [
+    {
+     "text": "Do",
+     "kind": "h3"
+    },
+    {
+     "text": "- Ask simple questions: \"Would less light help?\" \"Music or quiet?\" \"Closer or farther away?\" \"Water?\" (in small sips) \"Need the bathroom?\""
+    },
+    {
+     "text": "- Call for help early when safety is slipping."
+    },
+    {
+     "text": "- Set behavioral boundaries without humiliation: \"I won't help anybody hurt themselves or another person. We are keeping every body safe.\""
+    },
+    {
+     "text": "When What They Say Turns Toward Harm",
+     "kind": "h3"
+    },
+    {
+     "text": "When somebody says, \"I am God, so I can kill,\" leading with \"No you're not\" or \"That's delusional\" can turn the encounter into a status fight. Nodding along as though harm is spiritually neutral is also unacceptable. Treat the statement as a safety signal and build a bridge back toward non-harm."
+    },
+    {
+     "text": "Non-combative philosophical grounding:"
+    },
+    {
+     "text": "I hear how vast and certain this feels. Many traditions say God is in everyone. That makes every body sacred, not disposable. Peace is the godly move tonight. No proof is needed. We protect life and sleep first."
+    },
+    {
+     "text": "Other useful lines: \"Maybe you are touching something divine. Divine doesn't need a violent test.\" \"Tonight the commandment is no harm, no proof, no mission, sleep first.\""
+    },
+    {
+     "text": "When talk of harm continues, shift from philosophy to safety. Create distance from potential targets and keep your own exit. Don't block, crowd, threaten, mock, or physically wrestle away a weapon. Quietly remove means only when that can be done without confrontation or turning yourself into the target."
+    },
+    {
+     "text": "Call crisis or emergency services for a specific target, available means, movement toward action, escalating agitation, a weapon, violence underway, or a situation you can't contain."
+    }
+   ],
+   "reads_label": "The Do list and the harm part as they would read"
+  },
+  {
+   "id": "REDEFINE-CUTS",
+   "type": "boilerplate",
+   "advice": "approve",
+   "title": "7. (Re)defining \"Bad Trip\": the list of causes and the CBT thinking traps",
+   "what": "Two lists go: \"A bad trip or destabilizing state may also come from drug interactions, sleep deprivation, ...\" and \"Cognitive distortions from Cognitive Behavioral Therapy (CBT) can create or prolong the crisis:\" with its seven traps.",
+   "why": "The thinking traps are a textbook list with a clinical name. The causes list is the standard one too; your own paragraphs above it already give the dose, the body, the setting and the mindset.",
+   "stays": "Your (Re)defining paragraphs, word for word, and the blockage line with its picture, which then ends the section.",
+   "deciding": "Approve cuts both lists; Revise to keep one (say which); Reject keeps them.",
+   "advice_note": "Approve, and I'm sure of the thinking traps; fairly sure of the causes.",
+   "ask_because": "downside: the causes list names a few causes the guide says nowhere else (sexual or social pressure, retreat pressure, hunger), and round 24 kept it for that",
+   "found_by": "a fresh reader of the guide for boilerplate (round 33's read, after your round-32 note)",
+   "edits": [
+    {
+     "block": 371,
+     "before": "A bad trip or destabilizing state may also come from drug interactions, sleep deprivation, cannabis, hunger, dehydration, sexual or social pressure, medical symptoms, psychosis-like symptoms, fasting, intense breathwork, meditation overload, or retreat pressure.",
+     "after": ""
+    },
+    {
+     "block": 372,
+     "before": "Cognitive distortions from Cognitive Behavioral Therapy (CBT) can create or prolong the crisis:",
+     "after": ""
+    },
+    {
+     "block": 373,
+     "before": "Catastrophizing: \"This will never end.\"",
+     "after": ""
+    },
+    {
+     "block": 374,
+     "before": "Emotional reasoning: \"It feels true, so it must be true.\"",
+     "after": ""
+    },
+    {
+     "block": 375,
+     "before": "Mind reading: \"Everyone can see I am broken.\"",
+     "after": ""
+    },
+    {
+     "block": 376,
+     "before": "Fortune-telling: \"My life is ruined now.\"",
+     "after": ""
+    },
+    {
+     "block": 377,
+     "before": "All-or-nothing thinking: \"Either I am enlightened or I am doomed.\"",
+     "after": ""
+    },
+    {
+     "block": 378,
+     "before": "Personalization: \"This cosmic horror is specifically my fault.\"",
+     "after": ""
+    },
+    {
+     "block": 379,
+     "before": "Spiritual bypassing: \"Because everything is love, I don't need boundaries, doctors, sleep, or consequences.\"",
+     "after": ""
+    }
+   ],
+   "spans": [
+    {
+     "block": 371,
+     "start": 0,
+     "end": 262
+    },
+    {
+     "block": 372,
+     "start": 0,
+     "end": 95
+    },
+    {
+     "block": 373,
+     "start": 0,
+     "end": 39
+    },
+    {
+     "block": 374,
+     "start": 0,
+     "end": 57
+    },
+    {
+     "block": 375,
+     "start": 0,
+     "end": 45
+    },
+    {
+     "block": 376,
+     "start": 0,
+     "end": 41
+    },
+    {
+     "block": 377,
+     "start": 0,
+     "end": 66
+    },
+    {
+     "block": 378,
+     "start": 0,
+     "end": 63
+    },
+    {
+     "block": 379,
+     "start": 0,
+     "end": 108
+    }
+   ],
+   "reads": [
+    {
+     "text": "(Re)defining \"Bad Trip\"",
+     "kind": "h2"
+    },
+    {
+     "text": "A bad trip is one of those terms thrown around very loosely in the psychedelic space. It can refer to various things which may be intertwined."
+    },
+    {
+     "text": "When too much hits you at once, your nervous system can become flooded, and nothing makes sense, even as the brain still tries to derive meanings that might create unhelpful feedback loops. Underlying those interpretations are factors like the dose of what drug(s) you took and how your body handles them, or how hard you pushed a practice. Old painful memories could have been triggered, or you may have gone in with a fearful or unloving mindset, or the setting or people around you could have fed into it. Be kind to yourself or to whoever's going through it, because blaming anyone only makes it heavier."
+    },
+    {
+     "text": "Some say there's no such thing as a bad trip, because it's all a doorway to shadow work. But if you had no intention of doing shadow work, that explanation might have come too late. Other bad trips seem unrelated to shadow work, although any negative experience can lead into it. Samsara offers no shortage of difficult experiences to process. It still makes sense to reduce present-moment trauma so we can address what was already there."
+    },
+    {
+     "text": "Sometimes focusing on what we want makes the blockage visible:",
+     "note": "then its picture, \"Universe Sends What You Need\""
+    },
+    {
+     "text": "Spiritual ≠ \"Getting Your Ass Kicked\"",
+     "kind": "h2"
+    }
+   ],
+   "reads_label": "(Re)defining \"Bad Trip\" as it would read"
+  },
+  {
+   "id": "LABELS-CUT",
+   "type": "boilerplate",
+   "advice": "approve",
+   "title": "1. How I label the evidence: the whole section",
+   "what": "The section goes: its heading and its four labels (established acute treatment, limited human evidence, mechanism or preclinical evidence, personal field signal).",
+   "why": "No remedy in the guide is tagged with these labels, so the legend explains a system the page never uses. It's a standard evidence-grading note.",
+   "stays": "Everything else in My Acute Rescue Hierarchy of Remedies.",
+   "deciding": "Approve cuts the section; Reject keeps it.",
+   "advice_note": "Approve, and I'm fairly sure.",
+   "ask_because": "downside: it's in the contents you chose in round 30, and its last label says how you weigh your own observations",
+   "found_by": "a fresh reader of the guide for boilerplate (round 33's read, after your round-32 note)",
+   "edits": [
+    {
+     "block": 108,
+     "before": "How I label the evidence",
+     "after": ""
+    },
+    {
+     "block": 109,
+     "before": "Established acute treatment: standard seizure first aid, rapid rescue benzodiazepines, cooling dangerous hyperthermia, and treating documented electrolyte abnormalities.",
+     "after": ""
+    },
+    {
+     "block": 110,
+     "before": "Limited human evidence: interventions with clinical reports or small trials but no strong modern outcome evidence.",
+     "after": ""
+    },
+    {
+     "block": 111,
+     "before": "Mechanism or preclinical evidence: biologically plausible effects shown mainly in cells or animals.",
+     "after": ""
+    },
+    {
+     "block": 112,
+     "before": "Personal field signal: what I have repeatedly observed in myself or other people. Repetition and a clear immediate endpoint make an anecdote more useful, but they do not turn it into a population rate.",
+     "after": ""
+    }
+   ],
+   "spans": [
+    {
+     "block": 108,
+     "start": 0,
+     "end": 24
+    },
+    {
+     "block": 109,
+     "start": 0,
+     "end": 169
+    },
+    {
+     "block": 110,
+     "start": 0,
+     "end": 114
+    },
+    {
+     "block": 111,
+     "start": 0,
+     "end": 99
+    },
+    {
+     "block": 112,
+     "start": 0,
+     "end": 201
+    }
+   ],
+   "reads": [
+    {
+     "text": "A trip with diarrhea, nausea, toxic heaviness, a dirty body-feeling, loss of bodily control, jaw tension, neurological disorganization, or the sense that the mind is going crazy because the gut or brain is going crazy belongs in a different branch from a mainly emotional crisis. A gut-driven mental hell is often mistaken as shadow work.",
+     "note": "the hierarchy's opening, as it is, ends here"
+    },
+    {
+     "text": "Some Remedies Require More Caution",
+     "kind": "h2"
+    }
+   ],
+   "reads_label": "Where the hierarchy's opening would lead"
+  },
+  {
+   "id": "SMALL-CUTS",
+   "type": "boilerplate",
+   "advice": "ask",
+   "title": "8. Seven smaller ones: which go?",
+   "question": "Each as it is now, with my pick. Answer with the letters that go, or \"none\".\n\na. For the Person Helping's opening paragraph: \"The Zendo Project, a harm-reduction group that offers peer support at festivals and other events to people having a hard time in an altered state, sums up its approach in four principles: creating a safe space, sitting with the person rather than guiding them, talking them through it rather than down from it, and remembering that difficult isn't necessarily bad.\" My pick: keep. It opens the section with a known group's approach, which your first five minutes agrees with.\n\nb. After the Storm: \"Then ask what actually happened. What was medical or environmental? What was emotional? What was old trauma? What was fantasy? What was useful? What changed behavior? What needs therapy, an apology, rest, or plain practical action?\" My pick: keep. It's the only place the guide asks a reader to look back at what happened.\n\nc. Abuse Memories, Recovered Memories, and Certainty, its first and last paragraphs: \"Psychedelics and intense practices can bring up true trauma, symbolic material, distorted fragments, fears, fantasies, archetypes, past-life narratives, and mixtures of all of them. Don't dismiss what arises. Don't treat the certainty you feel in that state as evidence either.\" and \"The experience may matter deeply. It could be true psychologically, or symbolically, or literally, or only partly true, or false in the form it first took. You don't have to decide tonight.\" My pick: keep. \"Don't treat the certainty you feel in that state as evidence\" and \"It could be true psychologically, or symbolically, or literally\" are your view of a trip's memories: neither dismissed nor taken as fact.\n\nd. Tripsitting Yourself or Others' opening: \"This post collects my own experience and thinking, but I would be remiss not to point you toward the Challenging Psychedelic Experiences Project, which helps people understand the full risks and recover when they \"gamble and lose\" with psychedelics.\" My pick: keep: it points people who \"gamble and lose\" to help.\n\ne. Euphoric Certainty's last paragraph: \"The revelation will still exist after breakfast. If it is true, it survives sleep. If it cannot survive one night of rest, it was an emergency impulse wearing angel wings.\" My pick: cut. No Rash Actions already says it can wait until the state has passed, and \"an emergency impulse wearing angel wings\" is the kind of quip you've cut before.\n\nf. Niacin: \"A vitamin is not automatically harmless.\" My pick: cut. Its side effects, two paragraphs down, name the real risk.\n\ng. The Grounding Menu's \"Twelve simultaneous techniques can become another form of panic.\" My pick: cut. The menu no longer has twelve, and its heading says to choose one or two.",
+   "why": "The readers flagged these too, but each has a reason to stay, or is one line; your call either way.",
+   "stays": "All seven as they are.",
+   "advice_note": "e, f and g go; a to d stay.",
+   "spans": [
+    {
+     "block": 273,
+     "start": 0,
+     "end": 364
+    },
+    {
+     "block": 395,
+     "start": 0,
+     "end": 231
+    },
+    {
+     "block": 340,
+     "start": 0,
+     "end": 277
+    },
+    {
+     "block": 343,
+     "start": 0,
+     "end": 189
+    },
+    {
+     "block": 207,
+     "start": 0,
+     "end": 249
+    },
+    {
+     "block": 305,
+     "start": 0,
+     "end": 171
+    },
+    {
+     "block": 191,
+     "start": 96,
+     "end": 136
+    },
+    {
+     "block": 226,
+     "start": 89,
+     "end": 153
+    }
+   ],
+   "card_after": 395
+  }
+ ]
+}

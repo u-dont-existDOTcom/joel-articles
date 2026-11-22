@@ -1,0 +1,132 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-21",
+ "text_sha256": "8cb048953609f1800856fa18ef868f380086529d9387598ae551f49ad4540b98",
+ "text": "Keep them still in a calm room. They're already overstimulated, so I'd clear out the crowd and stop any arguing. Pacing or exercising to \"burn it off\" only makes more heat, and it raises the risk of their muscles breaking down into the blood, which hurts the kidneys (rhabdomyolysis). If they feel a strong urge to keep moving (akathisia), I'd stay with them and talk them into keeping still anyway.\nGive fluids only if they're fully alert, able to swallow and not vomiting, and then just small sips of an electrolyte drink. But if they're confused, vomiting or sleepy, I wouldn't push anything into them, not even pills or charcoal, since they could choke. The same goes if they might have a seizure.",
+ "section": "Do this immediately when serotonin toxicity is reasonably suspected:",
+ "reader": "the friend of someone who may have serotonin syndrome (MDMA on top of an antidepressant, say: shaking, sweating, muscles jerking, burning up), who has just read the signs and must act now, while calling for help and waiting for it",
+ "sentences": [
+  {
+   "s": "Keep them still in a calm room.",
+   "payoff": "they keep their friend from moving about, in a quiet room",
+   "follows": "the next step, after cooling"
+  },
+  {
+   "s": "They're already overstimulated, so I'd clear out the crowd and stop any arguing.",
+   "payoff": "they clear people out and stop any arguing, knowing why",
+   "follows": "what a calm room means",
+   "link": "so"
+  },
+  {
+   "s": "Pacing or exercising to \"burn it off\" only makes more heat, and it raises the risk of their muscles breaking down into the blood, which hurts the kidneys (rhabdomyolysis).",
+   "payoff": "they stop pacing and exercise, knowing the two dangers of it, the second said plainly and named",
+   "follows": "what keeping still is for",
+   "link": "Pacing or exercising to"
+  },
+  {
+   "s": "If they feel a strong urge to keep moving (akathisia), I'd stay with them and talk them into keeping still anyway.",
+   "payoff": "they keep their friend still by staying with them and talking, even when the urge is strong, and know its name",
+   "follows": "the case where keeping still is hard",
+   "link": "anyway"
+  },
+  {
+   "s": "Give fluids only if they're fully alert, able to swallow and not vomiting, and then just small sips of an electrolyte drink.",
+   "payoff": "they know when they can give a drink, which drink and how much",
+   "follows": "the next step, after keeping them still",
+   "link": "none: a new step, which the reader expects after the one before"
+  },
+  {
+   "s": "But if they're confused, vomiting or sleepy, I wouldn't push anything into them, not even pills or charcoal, since they could choke.",
+   "payoff": "they give nothing by mouth to a friend who is confused, vomiting or sleepy, and know why",
+   "follows": "the other case, when they can't give fluids",
+   "link": "But if"
+  },
+  {
+   "s": "The same goes if they might have a seizure.",
+   "payoff": "they give nothing by mouth to a friend who might have a seizure either",
+   "follows": "the last case",
+   "link": "The same goes"
+  }
+ ],
+ "checked": [
+  {
+   "point": "rhabdomyolysis, said as the muscles breaking down into the blood, which hurts the kidneys",
+   "found": "MedlinePlus (medlineplus.gov/ency/article/000473.htm): the breakdown of muscle tissue that releases muscle fiber contents into the blood, which are harmful to the kidney and often cause kidney damage",
+   "still_needed": "yes: they know the second danger of moving, so they keep their friend still",
+   "fate": "kept"
+  }
+ ],
+ "placement": "steps 5 and 6 of the steps under \"Do this immediately when serotonin toxicity is reasonably suspected:\" (B136), after the Hunter patterns and \"So if you see any of these patterns, call medics.\" and before My Acute Rescue Hierarchy of Remedies, in place of the eight steps as they are, in his first person where a step says what to do, as his own step 2 is; the hospital line (\"Hospitals may use benzodiazepines, ...\") is cut: the needed read of the list as it stands (../h62-20261120/reads/need-c1-ss-steps-1.txt) found the reader does nothing with it, and the call and transport steps already send them there",
+ "opens": {
+  "first_sentence": "Keep them still in a calm room.",
+  "why_reading": "it tells the friend, while help comes, to keep the room calm and their friend still, and why"
+ },
+ "same_point": "none: read the section from its heading to the next for the points (Suspected Serotonin Syndrome (SS), from its heading to My Acute Rescue Hierarchy of Remedies: serotonin syndrome overlaps with the branches above; the Hunter patterns; \"So if you see any of these patterns, call medics.\"; these eight steps); the call to medics is in \"So if you see any of these patterns, call medics.\" and step 3 says how, which his C1 answer a made agree",
+ "needed": {
+  "reader": "a fresh agent (Sonnet) given tools/humanization/needed_read_brief.md with only steps 5 and 6 as drafted in their third try, its heading and what it is for (reads/need-g4c-ss56-4.txt; the draft it read: reads/read-text-g4c-ss56-4.txt)",
+  "unneeded": [],
+  "kept": {}
+ },
+ "his_fixes": {
+  "reader": "a fresh agent (Sonnet) given tools/humanization/his_fixes_brief.md, the twelve ways, with the third try's draft one sentence a line (reads/his-g4c-ss56-4.txt; the draft it read: reads/read-text-g4c-ss56-4.txt)",
+  "marked": [
+   {
+    "s": "I also wouldn't let them pace or exercise to \"burn it off,\" since muscle work makes more heat and raises the risk of rhabdomyolysis, where damaged muscle leaks into the blood and can hurt the kidneys.",
+    "difference": "1"
+   },
+   {
+    "s": "Give fluids only if they're fully alert and not vomiting, and then only small sips of an electrolyte drink.",
+    "difference": "12"
+   },
+   {
+    "s": "Give fluids only if they're fully alert and not vomiting, and then only small sips of an electrolyte drink.",
+    "difference": "4"
+   },
+   {
+    "s": "I wouldn't force fluids, food, pills or charcoal on them if they're confused, vomiting or sleepy, or at risk of a seizure, since they could choke.",
+    "difference": "1"
+   },
+   {
+    "s": "I wouldn't force fluids, food, pills or charcoal on them if they're confused, vomiting or sleepy, or at risk of a seizure, since they could choke.",
+    "difference": "12"
+   }
+  ],
+  "kept": {}
+ },
+ "fit": {
+  "reader": "a fresh agent (Sonnet) given tools/humanization/fit_read_brief.md, the universal version, with the third try's draft (reads/fit-g4c-ss56-4.txt; the draft it read: reads/read-text-g4c-ss56-4.txt)",
+  "marked": [
+   {
+    "s": "If they feel a strong urge to keep moving (akathisia), I'd stay with them and help them keep still anyway.",
+    "found": "MISREAD"
+   },
+   {
+    "s": "I wouldn't force fluids, food, pills or charcoal on them if they're confused, vomiting or sleepy, or at risk of a seizure, since they could choke.",
+    "found": "CAN'T TELL"
+   }
+  ],
+  "kept": {}
+ },
+ "questions": {
+  "Q1": "PASS: each step opens on what to do (stop, call, cool, keep still, give fluids only if, gather, leave out), and each term is explained where it is first used (serotonergic, SSRI as an antidepressant, tramadol, linezolid, akathisia, rhabdomyolysis, oral rehydration salts)",
+  "Q2": "PASS: every instruction is something the friend does (\"give them no more of it\", \"call one too\", \"help them stay put\", \"write those down\"), with what it is for (\"since they could slip under the water\", \"could breathe in whatever you give them\")",
+  "Q3": "PASS: which substances, which body places for the ice packs, which drink, what to write down and which numbers; \"a poison control line\" named instead of \"it\"",
+  "Q4": "PASS: serotonergic (\"anything that raises serotonin\"), the antidepressants, tramadol (\"a painkiller\"), linezolid (\"the antibiotic\"), akathisia (\"a strong urge to keep moving\") and rhabdomyolysis (\"damaged muscle leaks into the blood and can hurt the kidneys\") explained where first used; niacin and magnesium chloride are the guide's own remedies, explained in their sections",
+  "Q5": "PASS: each sentence says how it follows: \"either\", \"counts too\", \"too once emergency help is on its way\", \"Then\", \"though\", \"If you're thinking of\", \"That means\", \"anyway\", \"It also\", \"so\", \"For each substance\", \"as well\", \"While you wait\", \"instead\"",
+  "Q6": "PASS: stop the cause, his med, call, cool, keep still, fluids, gather for the ER, what to leave out while waiting: the order of the list as it stands",
+  "Q7": "PASS: every fact is for a friend facing serotonin syndrome now; the hospital line, which they can't act on, is cut",
+  "Q8": "PASS: the medicines together, then the drugs and supplements, then the MAOI brews and cough syrup; the cooling ways together; the substance notes, then the body's numbers",
+  "Q9": "PASS: one point a sentence, of different lengths; the tell panel's agreed sentences changed (panel-g4c/PANEL.md): the matched opening, the glosses said his way (the plain words, then the term in brackets; \"able to swallow\" from his step 2), the trailing qualifier and the tidy list gone"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

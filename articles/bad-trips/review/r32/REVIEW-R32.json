@@ -1,0 +1,186 @@
+{
+ "format": "joel-suggestion-review-v1",
+ "review_id": "bad-trips-r32",
+ "title": "Bad Trips Guide, Round 32",
+ "intro": [
+  "Round 32 (2026-11-09). Round 31 is in: your Alone at 3 a.m. version as you wrote it, with the solar plexus (the Grounding Menu's \"one on the belly or solar plexus\" now says only the solar plexus too, since it was the same error), the breath line, the training sentence in your preparation, and paranoia and derealization staying where they are.",
+  "Then your next step after the contents: whether what's in each section belongs there. Three fresh readers read the guide section by section and proposed 18 changes ([each one, and what I did with it](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261105/articles/bad-trips/humanize/h40-20261109/RESULTS.md)). Five only move whole paragraphs, word for word, to where they belong, so I made them ([the moves](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261105/articles/bad-trips/humanize/h40-20261109/fix_sections.py)): the bridge into tripsitting (\"Once the body is stable and those tools have done what they can ...\") is back at the end of the remedies, since round 30's contents had left it above them; in Active Seizure, when to call medics comes right after the rescue medicine; in Zeolite, how you take it comes before how you prepare it; the Movement evidence note sits in Stillness or Movement?, with the movement lines it was written for; and in After the Storm, \"No \"another ceremony will fix this\" reflex.\" and the three paragraphs after it join the opening paragraph, since they're for everyone after a hard trip, so the aftermath list leads straight into Bring in mental-health support when:. Say if you want any of them back.",
+  "Four cards: two questions, each with its options as they'd read, and two moves in the Grounding Menu that change where a reader starts. Ten proposals I'd leave, mostly because they'd move or cut what you wrote where you put it: your round-27 first five minutes, the hierarchy sentence you approved putting back that round, and your \"But more likely\" turn."
+ ],
+ "git_file": "articles/bad-trips/review/r32/REVIEW-R32.html",
+ "article": {
+  "file": "articles/bad-trips/review/r32/PAGE-R32.md",
+  "sha256": "a4ef4c73826f722ffbba37c76d0f6aa62a4ed2ca83d35fc87e6dae33647f8f94"
+ },
+ "built": "2026-11-09",
+ "links": {
+  "guide": "https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261105/articles/bad-trips/GUIDE-SO-FAR.md",
+  "guide_label": "the guide as it stands",
+  "check": "https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261105/articles/bad-trips/review/r32/REVIEW-R32.md",
+  "review": "https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261105/articles/bad-trips/review/r32/REVIEW-R32.md"
+ },
+ "types": {
+  "plain": {
+   "label": "Said plainly",
+   "about": "AI lines said plainly, each with its reason, the way he fixes his own windows"
+  },
+  "structure": {
+   "label": "Structure",
+   "about": "how the quick version and the long version split the guide, and where a part goes"
+  },
+  "repeat": {
+   "label": "Said twice",
+   "about": "a point the guide already makes elsewhere: one copy goes, the other stays"
+  },
+  "safety": {
+   "label": "Safety in one place",
+   "about": "a caution or call-for-help line said in several places, or one that changes nothing a reader does"
+  },
+  "question": {
+   "label": "Your call",
+   "about": "something only you can decide or know"
+  },
+  "sense": {
+   "label": "Says what it means",
+   "about": "a term explained where it is first used, or a word that says what to do"
+  },
+  "belief": {
+   "label": "Your belief back",
+   "about": "a sentence of your post that said why, cut in an earlier round, put back where it bears on what the reader does"
+  },
+  "method": {
+   "label": "Your method where it is used",
+   "about": "a line the guide already has, put where the reader uses it in trouble (your METHOD-WHERE answer, round 28)"
+  },
+  "notes": {
+   "label": "Your notes, placed",
+   "about": "what you sent in a comment, put where it belongs in the guide, as you sent it"
+  },
+  "typo": {
+   "label": "Typo",
+   "about": "a word in your own paragraph spelled differently from how you spell it elsewhere, with the fix in place"
+  },
+  "teach": {
+   "label": "Teach me",
+   "about": "a paragraph that reads AI in every wording I tried, whose shape many stuck paragraphs share: how you would say it teaches me how to say them (you asked for these on 2026-11-07)"
+  }
+ },
+ "suggestions": [
+  {
+   "id": "SEIZE-HEAD",
+   "type": "structure",
+   "advice": "ask",
+   "title": "1. Active Seizure: a heading where the extras start?",
+   "question": "Active Seizure now opens with first aid, the rescue medicine and when to call medics (that line moved up; see the top of the page). Six paragraphs follow on what else may help: the aura, magnesium with DMSO and CBD, the ABRACE spray, the forums, the CBD gel trial, and DMSO in rats. Nothing marks where the essentials stop. How each option would read:\n\nA (my pick):\n    ... or a seizure substantially different from the person's known pattern.\n    ### What Else May Help: At the Aura, and Alongside Rescue Medicine\n    Some people get a warning before a seizure takes hold, which is called an aura. ...\nPro: someone with a seizing friend sees that what they need is above it, and the heading says when the rest applies, with \"alongside any rescue medicine\" from the magnesium paragraph. Con: it names none of the remedies, so someone scanning the headings for CBD has to read on to find it.\n\nB: the same place, \"### What Else May Help: Magnesium, CBD, THC and DMSO\". Pro: someone scanning the headings for CBD or DMSO finds them. Con: it leaves out the aura, which the first paragraph under it is about.\n\nC: no heading. Pro: nothing added, and the essentials come first now anyway. Con: the six paragraphs run on from the first aid with nothing to say they're extras.",
+   "why": "A fresh reader, reading each section for what belongs under its heading: \"the reader has to dig out the first-aid steps from the research tour.\" Moving the call-medics line up did most of that; a heading would do the rest, and it's new words, so it comes to you.",
+   "stays": "The section as it is now, with when to call medics right after the rescue medicine.",
+   "advice_note": "A, and I'm fairly sure a heading helps; less sure of its wording, so write yours if neither fits.",
+   "spans": [
+    {
+     "block": 58,
+     "start": 0,
+     "end": 722
+    }
+   ],
+   "card_after": 57
+  },
+  {
+   "id": "GROUND-ORDER",
+   "type": "structure",
+   "advice": "approve",
+   "title": "2. Grounding Menu: the room-first order at its top",
+   "what": "\"A useful order is room → body → human → time → meaning. ...\" moves from the end of Stillness or Movement? to the Grounding Menu, after \"Grounding is love becoming practical. Choose one or two options rather than all of them. ...\". No words change.",
+   "why": "The order lists the menu's own kinds (room, body, human, time), and someone who goes to the Grounding Menu from the contents misses it where it is now. After \"Choose one or two options\", it reads as where to start, not as five things to do.",
+   "stays": "Every line of both sections, word for word. Stillness or Movement? then ends on parallel processing and the Movement evidence note.",
+   "deciding": "Approve moves it; Revise if you'd cut one of the two \"love ... practical\" sentences; Reject leaves it where it is.",
+   "advice_note": "Approve, and I'm sure it belongs with the menu. The cost is the repeat: \"love becomes practical first\" comes three sentences after \"Grounding is love becoming practical.\"",
+   "ask_because": "downside: \"When the nervous system is on fire, love becomes practical first.\" comes three sentences after \"Grounding is love becoming practical.\", so the menu's opening says it twice",
+   "found_by": "a fresh reader of each section, for what belongs under its heading (round 32's section read)",
+   "moves": [
+    {
+     "blocks": [
+      224
+     ],
+     "before": 227,
+     "seq": 1
+    }
+   ],
+   "spans": [
+    {
+     "block": 224,
+     "start": 0,
+     "end": 189
+    }
+   ],
+   "reads": [
+    {
+     "text": "Grounding Menu: Choose One or Two Things",
+     "kind": "h2"
+    },
+    {
+     "text": "Grounding is love becoming practical. Choose one or two options rather than all of them. Twelve simultaneous techniques can become another form of panic."
+    },
+    {
+     "text": "A useful order is room → body → human → time → meaning. Most people begin with meaning because the experience feels cosmic. When the nervous system is on fire, love becomes practical first.",
+     "note": "moved here from the end of Stillness or Movement?; the menu's picture and its kinds follow as they are"
+    }
+   ],
+   "reads_label": "The Grounding Menu's opening as it would read"
+  },
+  {
+   "id": "GROUND-ROOM",
+   "type": "structure",
+   "advice": "approve",
+   "title": "3. Grounding Menu: Room first, as in the order",
+   "what": "Room, with its three lines (\"Name five ordinary objects.\" ...), moves from fifth in the menu to first, ahead of Body. The menu then runs Room, Body, A familiar object, Breath, Music, Human, Time, Ordinary world. No words change.",
+   "why": "You chose room first in all four places the guide gave the order (Q-5, round 1), but the menu itself starts with Body and has Room fifth. With the order at the menu's top (card 2), someone going down the menu would meet them the other way round.",
+   "stays": "Every heading and line of the menu, word for word; only Room's place changes.",
+   "deciding": "Approve moves Room first; Reject keeps Body first.",
+   "advice_note": "Approve, and I'm fairly sure, most of all if card 2 goes in. Not more than fairly: the body lines (feet on the floor, a hand on the heart) are what most people reach for first, and they'd come second.",
+   "ask_because": "meaning: someone going down the menu starts with the room, not the body",
+   "found_by": "me, from card 2: the menu's own order against the room-first order at its top",
+   "moves": [
+    {
+     "blocks": [
+      251,
+      252,
+      253,
+      254
+     ],
+     "before": 228,
+     "seq": 1
+    }
+   ],
+   "spans": [
+    {
+     "block": 251,
+     "start": 0,
+     "end": 4
+    }
+   ]
+  },
+  {
+   "id": "SHADOW-START",
+   "type": "structure",
+   "advice": "ask",
+   "title": "4. The Other Bypass turns into what shadow work is: a heading, or the start of Shadow Work?",
+   "question": "The Other Bypass is about the bypass of only wanting to feel good; from \"Modern people carry so much trauma ...\" it's about shadow work: why it may come first, how it shows up when skipped, what it is, and where to begin. Since the contents put this section at the end of Shadow Work, the part's only words on what shadow work is come last. How each option would read:\n\nA (a fresh reader's idea): a heading above \"Modern people carry so much trauma ...\":\n    ### Why Shadow Work Comes First\nPro: marks the turn. Con: a third level in a six-paragraph section, and Shadow Work still opens with nothing on what it is.\n\nB (my pick): the last two paragraphs open the Shadow Work part, right under its heading:\n    # Shadow Work\n    Shadow work to me is neither BDSM nor \"feeding your demons.\" It means bringing loving awareness to the parts of the mind built in fear, pain, humiliation, rejection, and survival. Inner-child reparenting is central. Most negative mind-states aren't some error in your philosophy, they're just young parts of you that are still waiting for love and protection and permission, and for the explanation nobody ever gave them.\n    Begin with my Inner Child Therapy guide and app, and my Self-Hypnosis guide and app.\n    ## Dealing With Sorrow: Missing Versus Sending Love\nand The Other Bypass ends:\n    ... I encountered a lot of it in my first two marriages, to my bewilderment. I wish everybody could keep shadow work inside the safer rooms of meditation, therapy, journaling, prayer, and honest conversation.\nPro: someone who opens Shadow Work first reads what you mean by it and where to begin, before the sections that do it, as in your post, where The Other Bypass came before them. Con: the \"young parts of you that are still waiting for love\" sentence would no longer come two sections after the list of cognitive distortions in (Re)defining \"Bad Trip\"; it would come five sections before it.\n\nC: leave it. Pro: nothing moves. Con: the section turns halfway with nothing to mark it, and the definition comes at the part's end.",
+   "why": "A fresh reader, reading each section for what belongs under its heading, proposed A. Looking at where the section sits since the contents, I think B fixes more, but it moves your definition, so it's your call.",
+   "stays": "The section as it is.",
+   "advice_note": "B, and I'm fairly sure: Shadow Work opens straight into Sorrow, with nothing on what shadow work is until its last section.",
+   "spans": [
+    {
+     "block": 399,
+     "start": 0,
+     "end": 421
+    },
+    {
+     "block": 400,
+     "start": 0,
+     "end": 84
+    }
+   ],
+   "card_after": 400
+  }
+ ]
+}

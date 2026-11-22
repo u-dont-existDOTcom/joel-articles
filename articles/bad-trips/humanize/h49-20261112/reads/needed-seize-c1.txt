@@ -1,0 +1,16 @@
+NEEDS:
+S1: Tells the reader to time the seizure, which is what they need to judge the five-minute call threshold in S7.
+S2: Safety step for the time it lasts: removing hard or sharp objects so the person doesn't get hurt.
+S3: Safety step for the time it lasts: loosening tight clothing so the person can breathe and move.
+S4: Gives the recovery position (on their side) that helps the person breathe during the seizure.
+S5: Says what not to do (restrain them, put anything in their mouth), which the reader needs to avoid harm while it lasts.
+S6: Introduces the list of conditions that mean the reader should call medics.
+S7: Call-medics trigger: a convulsive seizure lasting about five minutes.
+S8: Call-medics trigger: another seizure starts before recovery from the last one.
+S9: Call-medics trigger: trouble breathing.
+S10: Call-medics trigger: getting dangerously hot.
+S11: Call-medics trigger: serious injury.
+S12: Call-medics trigger: a first seizure or one substantially different from their usual ones.
+
+UNNEEDED:
+- none

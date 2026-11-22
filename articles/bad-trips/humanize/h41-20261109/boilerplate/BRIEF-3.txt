@@ -1,0 +1,32 @@
+You are a cold first-time reader of part 3 of 4 of Joel's guide "Trip-Sitting: Medical Triage, Shadow Work, Therapy", for people having a hard time on psychedelics or in another altered state, and for the friends sitting with them.
+
+Joel wrote the guide, and then a model (an AI) added a lot of standard advice to it. Today, on the guide's Grounding Menu, he wrote: "this is too much boilerplate stuff that ai added in to my guide. help me locate more boilerplate stuff that could be removed. i want to remove room section, familiar object section, this line: 'Say the date, place, and approximate time.'" And: "more useful would be smelling a nice natural scent like lime peel or something, but idk i feel like this is all said in multiple places also". Your job is to help him locate the rest.
+
+What he just cut, so you can see what he means by boilerplate:
+- Room: "Name five ordinary objects." / "Look at one stable object and describe it plainly." / "Say: 'This is a wall. This is a blanket. This is my hand.'"
+- A familiar object: "Choose it ahead of time, while calm and regulated: a childhood toy, stuffed animal, note, photograph, blanket, stone, or another object that represents your inner Nurturer or Protector..." / "Use it as a cue, not an oracle. It does not issue commands or interpret the trip." / "Pair the comfort with one adult action..." / "A calm pet can offer the same quiet company..."
+- Time: "Say the date, place, and approximate time."
+
+Boilerplate is standard advice that any web search or AI would give about trip-sitting, grounding, panic, integration or therapy, and that carries none of his own method, remedies or experience: textbook lists and scripts, techniques with a clinical name, hedges, evidence notes, generic "consider a professional" lines, generic tips (sleep, water, write it down, no big decisions), and generic text the guide says again somewhere else.
+
+Never flag these:
+1. Paragraphs marked [HIS OWN]: he wrote them himself.
+2. His method and beliefs: sending love (to the inner child, to what frightens you, to the one who's suffering), the hand on the heart, love removing hooks; his remedies (DMSO, humic acid, zeolite, ZHoly3O, ferments, charcoal, ocean water, ozonated-charcoal water, coffee cherry, magnesium, niacin, beach morning glory, Syrian rue oil, the Metta NMT sniffer, essential oils, smells); his stories and experiences (first person "I", "me", "my friend"); his links to his own guides (u-dont-exist.com and his other sites); the Buddhist teaching he brings.
+3. Safety lines, however standard: when to call medics or emergency services, warning signs (seizure, serotonin syndrome, chest pain, overheating, poisoning), danger to self or others, dose cautions, don'ts that prevent harm (keys away, no driving), crisis lines. Flag one only if your part says the same safety point in full elsewhere, and name where.
+
+Go through every paragraph and list item not marked [HIS OWN]. For each piece of boilerplate, write a finding. If a whole section is boilerplate, write one finding for the section and name any line in it worth keeping. If a paragraph mixes one line of his with generic text, name the generic sentences only. Don't propose new wording; only what could go.
+
+Read the file /home/claude/joel-articles/articles/bad-trips/humanize/h41-20261109/boilerplate/PART-3.txt (one Read call; block ids are in square brackets, headings start with "#"). Then write your report with one Write call to /home/claude/joel-articles/articles/bad-trips/humanize/h41-20261109/boilerplate/READER-3.md, in this form, in the order of the part, at most 25 findings:
+
+## 1
+ID: the block id(s), e.g. B310, or B305-B306 for a run
+SECTION: the heading it's under, exactly as in the file
+QUOTE: its first sentence (or the list item), copied exactly from the file
+CUT: SECTION, PARAGRAPH, ITEMS (say which), or SENTENCES (copy them exactly)
+KIND: what kind of standard advice it is (for example a grounding script, an orientation tip, a breathing technique, an evidence note, a generic referral)
+ELSEWHERE: where the guide says the same thing (section and a short quote), or "not in this part"
+LOSS: what a reader in trouble would lose if it went, honestly ("nothing" is a fine answer)
+SAFETY: NO, or YES and which safety point
+PICK: CUT, KEEP or UNSURE, and how sure you are (sure, fairly sure, unsure)
+
+Work quickly: read the part once, noting candidates as you go, then write them down. Your report is the whole job; reply with one line saying it's written.

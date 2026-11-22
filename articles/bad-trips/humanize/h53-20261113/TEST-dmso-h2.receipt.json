@@ -1,0 +1,144 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-13",
+ "text_sha256": "8f365e5d75ceb80e87052a1f4a90f51f3479c3c7146e0b116c38b34a8ec97133",
+ "text": "One famous 1967 study by Ramirez & Luza found it more effective than the best antipsychotic drugs at the time, slashing mental patients' psych ward stays in half, although it hasn't been tested (that I know of, yet) specifically for anxiety or PTSD, although those patients surely had both of those conditions. It's routinely used in humans who receive stem cell transplants, as it is the best cell preservative that we've found so far. There is evidence (Kortleve, et al, 2023) that using too much DMSO (10% vs 5%) in stem cell transfusions increases mild side effects in adult humans.\n\nYoung brains may be at risk from DMSO, though: it killed brain cells in mice up to a month old, even at a low dose, and in a dish of rat neurons (Hanslick, et al, 2009). Translating mouse research to humans isn't straightforward.",
+ "section": "DMSO (Mental Stabilizers That Don't Abort the Trip)",
+ "reader": "someone reading the guide's DMSO profile, before or between trips, deciding whether and how to use DMSO to steady a bad trip, weighing what the research says it does and its risks",
+ "sentences": [
+  {
+   "s": "One famous 1967 study by Ramirez & Luza found it more effective than the best antipsychotic drugs at the time, slashing mental patients' psych ward stays in half, although it hasn't been tested (that I know of, yet) specifically for anxiety or PTSD, although those patients surely had both of those conditions.",
+   "payoff": "they know DMSO calmed psychiatric inpatients in a 1967 study, and what hasn't been tested yet",
+   "follows": "the evidence part of the profile opens after his experience and the ozonated-charcoal water"
+  },
+  {
+   "s": "It's routinely used in humans who receive stem cell transplants, as it is the best cell preservative that we've found so far.",
+   "payoff": "they know people are given DMSO routinely, so it has a long record in humans",
+   "follows": "a second line of human use",
+   "link": "It's routinely used in humans"
+  },
+  {
+   "s": "There is evidence (Kortleve, et al, 2023) that using too much DMSO (10% vs 5%) in stem cell transfusions increases mild side effects in adult humans.",
+   "payoff": "they know more DMSO brings more side effects, so they keep the dose down",
+   "follows": "the transplant use's downside",
+   "link": "too much DMSO"
+  },
+  {
+   "s": "Young brains may be at risk from DMSO, though: it killed brain cells in mice up to a month old, even at a low dose, and in a dish of rat neurons (Hanslick, et al, 2009).",
+   "payoff": "they know young brains are the ones the research found at risk, even at a low dose, so they weigh it for anyone young",
+   "follows": "a second risk, to brain cells, after the side effects of too much",
+   "link": "Young brains may be at risk from DMSO"
+  },
+  {
+   "s": "Translating mouse research to humans isn't straightforward.",
+   "payoff": "they weigh the mouse finding as uncertain for people",
+   "follows": "it weighs the finding before it",
+   "link": "mouse research"
+  }
+ ],
+ "checked": [
+  {
+   "point": "Hanslick et al. 2009 (PubMed 19100327)",
+   "found": "PubMed 19100327's abstract, read 2026-11-13: mice from birth to 30 days old given DMSO had widespread apoptosis at every age, worst at 7 days, from the lowest dose tested (0.3 ml/kg); rat hippocampal neurons in a dish were lost at 0.5% and 1.0%; nothing about how long the exposure lasted, so \"when they are exposed for too long\" became \"young brains\"",
+   "still_needed": "yes: they know young brains were the ones harmed, even at a low dose",
+   "fate": "changed"
+  }
+ ],
+ "placement": "the DMSO section, after his experience and the ozonated-charcoal water, before Side effects: what the research says it does, then its risks",
+ "opens": {
+  "first_sentence": "One famous 1967 study by Ramirez & Luza found it more effective than the best antipsychotic drugs at the time, slashing mental patients' psych ward stays in half, although it hasn't been tested (that I know of, yet) specifically for anxiety or PTSD, although those patients surely had both of those conditions.",
+  "why_reading": "it tells someone weighing DMSO what people have used it for and what the research says it does"
+ },
+ "same_point": "the rat brain cells in a dish (Lu & Mattson) are said once, in My Brain Feels Damaged's evidence paragraph; their sentences here are deleted (his 14:59 UTC ask)",
+ "needed": {
+  "reader": "a fresh agent given tools/humanization/needed_read_brief.md with only the paragraph, its heading and what it is for (reads/need-dmso-h1.txt)",
+  "unneeded": [
+   "One famous 1967 study by Ramirez & Luza found it more effective than the best antipsychotic drugs at the time, slashing mental patients' psych ward stays in half, although it hasn't been tested (that I know of, yet) specifically for anxiety or PTSD, although those patients surely had both of those conditions.",
+   "There is evidence (Kortleve, et al, 2023) that using too much DMSO (10% vs 5%) in stem cell transfusions increases mild side effects in adult humans.",
+   "Translating mouse research to humans isn't straightforward."
+  ],
+  "kept": {
+   "One famous 1967 study by Ramirez & Luza found it more effective than the best antipsychotic drugs at the time, slashing mental patients' psych ward stays in half, although it hasn't been tested (that I know of, yet) specifically for anxiety or PTSD, although those patients surely had both of those conditions.": "they know DMSO calmed psychiatric inpatients in 1967; his sentence, and its two \"although\"s go to him (the paper had anxiety patients)",
+   "There is evidence (Kortleve, et al, 2023) that using too much DMSO (10% vs 5%) in stem cell transfusions increases mild side effects in adult humans.": "they know more DMSO brought more side effects in people, so they keep the dose down; his sentence",
+   "Translating mouse research to humans isn't straightforward.": "they weigh the mouse finding as uncertain for people; his sentence"
+  }
+ },
+ "his_fixes": {
+  "reader": "a fresh agent given tools/humanization/his_fixes_brief.md with the text, one sentence a line (reads/his-dmso-h1.txt)",
+  "marked": [
+   {
+    "s": "One famous 1967 study by Ramirez & Luza found it more effective than the best antipsychotic drugs at the time, slashing mental patients' psych ward stays in half, although it hasn't been tested (that I know of, yet) specifically for anxiety or PTSD, although those patients surely had both of those conditions.",
+    "difference": "8",
+    "draft": "dmso-h1"
+   },
+   {
+    "s": "There is evidence (Kortleve, et al, 2023) that using too much DMSO (10% vs 5%) in stem cell transfusions increases mild side effects in adult humans.",
+    "difference": "4, 7",
+    "draft": "dmso-h1"
+   },
+   {
+    "s": "DMSO also appears to kill brain cells when they're exposed to it for too long, as it did in baby mice (from birth to 30 days old) and in a dish of rat neurons (Hanslick, et al, 2009).",
+    "difference": "4",
+    "draft": "dmso-h1"
+   },
+   {
+    "s": "Translating mouse research to humans isn't straightforward.",
+    "difference": "6, 7",
+    "draft": "dmso-h1"
+   }
+  ],
+  "kept": {
+   "One famous 1967 study by Ramirez & Luza found it more effective than the best antipsychotic drugs at the time, slashing mental patients' psych ward stays in half, although it hasn't been tested (that I know of, yet) specifically for anxiety or PTSD, although those patients surely had both of those conditions.": "they know the 1967 result; his sentence, his to change (\"One famous\" his)",
+   "There is evidence (Kortleve, et al, 2023) that using too much DMSO (10% vs 5%) in stem cell transfusions increases mild side effects in adult humans.": "they know too much DMSO brought more side effects; his sentence and his numbers (a fidelity key)",
+   "Translating mouse research to humans isn't straightforward.": "they weigh the mouse finding for people; his sentence"
+  }
+ },
+ "fit": {
+  "reader": "a fresh agent given tools/humanization/fit_read_brief.md, the universal version (reads/fit-dmso-h1.txt)",
+  "marked": [
+   {
+    "s": "One famous 1967 study by Ramirez & Luza found it more effective than the best antipsychotic drugs at the time, slashing mental patients' psych ward stays in half, although it hasn't been tested (that I know of, yet) specifically for anxiety or PTSD, although those patients surely had both of those conditions.",
+    "found": "MISREAD"
+   },
+   {
+    "s": "It's routinely used in humans who receive stem cell transplants, as it is the best cell preservative that we've found so far.",
+    "found": "MISREAD"
+   },
+   {
+    "s": "There is evidence (Kortleve, et al, 2023) that using too much DMSO (10% vs 5%) in stem cell transfusions increases mild side effects in adult humans.",
+    "found": "CAN'T TELL"
+   },
+   {
+    "s": "DMSO also appears to kill brain cells when they're exposed to it for too long, as it did in baby mice (from birth to 30 days old) and in a dish of rat neurons (Hanslick, et al, 2009).",
+    "found": "CAN'T TELL"
+   }
+  ],
+  "kept": {
+   "One famous 1967 study by Ramirez & Luza found it more effective than the best antipsychotic drugs at the time, slashing mental patients' psych ward stays in half, although it hasn't been tested (that I know of, yet) specifically for anxiety or PTSD, although those patients surely had both of those conditions.": "they know the 1967 result; his sentence: the misreading the reader names (its two \"although\"s) goes to him with the anxiety patients the paper had",
+   "It's routinely used in humans who receive stem cell transplants, as it is the best cell preservative that we've found so far.": "they know people are given DMSO routinely; his sentence, \"cell preservative\" after \"stem cell transplants\" says it keeps the transplanted cells",
+   "There is evidence (Kortleve, et al, 2023) that using too much DMSO (10% vs 5%) in stem cell transfusions increases mild side effects in adult humans.": "they know too much DMSO brought more side effects; his sentence and his numbers (a fidelity key)"
+  }
+ },
+ "questions": {
+  "Q1": "PASS: each finding leads its sentence; the Hanslick sentence leads on who is at risk",
+  "Q2": "N/A: an evidence paragraph, no instruction in it",
+  "Q3": "PASS: \"stem cell transplants\", \"mice up to a month old\", \"a dish of rat neurons\"",
+  "Q4": "PASS: no term a reader wouldn't know is left unexplained; \"neurotoxic\" said as \"kill brain cells\"",
+  "Q5": "PASS: \"It's routinely used\", \"too much DMSO\", \"DMSO also\", \"mouse research\" say what they turn on",
+  "Q6": "PASS: human uses, then the side effects of too much, then the risk to brain cells, then how far it carries",
+  "Q7": "PASS: each bears on whether and how to use DMSO",
+  "Q8": "N/A: no list or group in it",
+  "Q9": "PASS: one finding a sentence"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

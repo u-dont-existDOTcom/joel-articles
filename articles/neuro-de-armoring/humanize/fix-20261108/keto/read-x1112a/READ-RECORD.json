@@ -1,0 +1,25 @@
+{
+ "format": "compare-read-record-v1",
+ "article": "HUMANIZED-SO-FAR.md at 86fa6be5: block 48 after SC-48c, read beside his post's by the lead session (E284, E294)",
+ "coverage": [
+  "96ed243deb48f629"
+ ],
+ "findings": [
+  {
+   "id": "F3",
+   "severity": 1,
+   "kind": "unclear",
+   "block_hashes": [
+    "96ed243deb48f629"
+   ],
+   "now": "although we can see some astounding BHB salt reviews on forums, like for brain injury repair, and BHB injections work for rats with trauma, although in humans it's still an open question whether the salts work as well as the keto diet",
+   "same_as_original": false
+  }
+ ],
+ "dispositions": {
+  "F3": [
+   "his",
+   "his own shape; he kept it when SC-48c offered the split (severity 1)"
+  ]
+ }
+}

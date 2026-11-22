@@ -1,0 +1,43 @@
+{
+ "b106-now": [
+  "AI Detected",
+  0.387,
+  115,
+  "AI-Generated, High, 40; Human, High, 75",
+  "01:26:59",
+  "/7caaa2f9-b611-4d1f-931c-de6584ed18e0",
+  [
+   "AI-Generated High (40 words): DMSO cannot identify whether the problem is a clot, a hemorrhage, low oxygen, an electrolyte crisis, or something else. The larger adjacent risk is losing a treatment window or missing a bleed because the symptoms improved enough to feel reassuring."
+  ],
+  []
+ ],
+ "cyp-c3": [
+  "AI Detected",
+  0.793,
+  58,
+  "Human, Low, 20; AI-Generated, Medium, 38",
+  "01:26:37",
+  "/33e3c66b-d1ae-4d23-b27a-36eaaee156da",
+  [
+   "AI-Generated Medium (38 words): So far, the evidence for it has only been case reports, and a recent review found them too weak to show that it works. I wouldn't wait to see whether it does before doing the other steps."
+  ],
+  [
+   "Human Low (20 words): If the person is fully alert and able to swallow, I would give cyproheptadine early, since it blocks serotonin receptors."
+  ]
+ ],
+ "mdma-c3": [
+  "AI Detected",
+  0.867,
+  127,
+  "Human, Low, 20; AI-Generated, Medium, 34; AI-Generated, High, 73",
+  "01:26:47",
+  "/adc38bd4-0651-498e-90be-4f06c7540ad8",
+  [
+   "AI-Generated Medium (34 words): If they drink a lot of plain water, even a single normal dose raises the risk of their sodium dropping too low, so have them sip an electrolyte drink when they're thirsty instead.",
+   "AI-Generated High (73 words): If a headache keeps getting worse, the vomiting keeps coming back, or they're getting more and more confused, their sodium may already be low, so call medics. Do the same if their muscles keep getting weaker or their palpitations keep getting stronger, which can mean low potassium, like my second wife had. A seizure or collapse can also come from overheating or MDMA toxicity, so if either happens, call medics right away."
+  ],
+  [
+   "Human Low (20 words): Once their jaw tenses, that's their last dose of MDMA, so get them to slow down and cool off."
+  ]
+ ]
+}

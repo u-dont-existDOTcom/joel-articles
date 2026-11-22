@@ -1,0 +1,491 @@
+{
+ "page": "/home/claude/joel-articles/articles/bad-trips/review/r30/REVIEW-R30.html",
+ "passed": 84,
+ "failed": 0,
+ "results": [
+  {
+   "test": "light: one card per suggestion",
+   "pass": true,
+   "detail": "5 cards, 5 suggestions"
+  },
+  {
+   "test": "light: every other card starts not approved",
+   "pass": true,
+   "detail": 0
+  },
+  {
+   "test": "light: typed comment kept",
+   "pass": true,
+   "detail": "Keep \"this\" — and check the link, please. Ünïcode ok."
+  },
+  {
+   "test": "light: comment text legible (contrast 14.7)",
+   "pass": true,
+   "detail": {
+    "ratio": 14.67911847763172,
+    "fg": "rgb(31, 41, 55)",
+    "fill": "rgb(31, 41, 55)",
+    "bg": "rgb(255, 255, 255)"
+   }
+  },
+  {
+   "test": "light: Approve is one click, no dialog",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "light: pill says Approved",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "light: Reject",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "light: rejected looks different from not approved",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "light: Revise opens your version",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "light: your version starts from mine",
+   "pass": true,
+   "detail": "#### Authentic Calming Essential Oils (or a Lime Peel)\n\nIf you don't have the Me"
+  },
+  {
+   "test": "light: your-version text legible (contrast 14.7)",
+   "pass": true,
+   "detail": {
+    "ratio": 14.67911847763172,
+    "fg": "rgb(31, 41, 55)",
+    "fill": "rgb(31, 41, 55)",
+    "bg": "rgb(255, 255, 255)"
+   }
+  },
+  {
+   "test": "light: progress counts the decisions",
+   "pass": true,
+   "detail": "3 of 4 decided · 1 approved · 1 rejected · 1 to revise · 0 of 1 questions answered"
+  },
+  {
+   "test": "light: back to not approved in one click",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "light: approval count is explicit approvals only",
+   "pass": true,
+   "detail": "2 of 4 decided · 0 approved · 1 rejected · 1 to revise · 0 of 1 questions answered"
+  },
+  {
+   "test": "light: type filter hides that type",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "light: and shows it again",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "light: status filter shows only approved",
+   "pass": true,
+   "detail": [
+    "approved"
+   ]
+  },
+  {
+   "test": "light: search narrows the cards",
+   "pass": true,
+   "detail": 1
+  },
+  {
+   "test": "light: no cards I'd leave on this page, so nothing to hide",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "light: each changed paragraph shows as two clean texts (1 cards)",
+   "pass": true,
+   "detail": []
+  },
+  {
+   "test": "light: a passage shown whole reads as my version (0 cards)",
+   "pass": true,
+   "detail": []
+  },
+  {
+   "test": "light: a question card says Answered",
+   "pass": true,
+   "detail": "Answered"
+  },
+  {
+   "test": "light: answers count apart from decisions",
+   "pass": true,
+   "detail": "3 of 4 decided · 1 approved · 1 rejected · 1 to revise · 1 of 1 questions answered"
+  },
+  {
+   "test": "light: every highlight has a colour",
+   "pass": true,
+   "detail": "0 without one"
+  },
+  {
+   "test": "light: Next undecided brings one to the top",
+   "pass": true,
+   "detail": 1
+  },
+  {
+   "test": "light: Next walks every undecided card in page order, questions included",
+   "pass": true,
+   "detail": "expected ['RUE-OIL', 'HERBS-NAMED'], got ['RUE-OIL', 'HERBS-NAMED']"
+  },
+  {
+   "test": "light: Copy gives parseable JSON",
+   "pass": true,
+   "detail": "{\n \"format\": \"joel-suggestion-review-answers-v1\",\n \"review_id\": \"bad-trips-r30\","
+  },
+  {
+   "test": "light: export names the review and the guide version",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "light: export has every suggestion",
+   "pass": true,
+   "detail": 5
+  },
+  {
+   "test": "light: comment exported word for word",
+   "pass": true,
+   "detail": "Keep \"this\" — and check the link, please. Ünïcode ok."
+  },
+  {
+   "test": "light: statuses exported",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "light: the answer is exported with its question",
+   "pass": true,
+   "detail": {
+    "id": "TOC",
+    "type": "structure",
+    "title": "1. The table of contents: which one?",
+    "where": "the heading \"Inner Signal App to the Rescue!\"",
+    "advice": "ask",
+    "status": "answered",
+    "question": "Three fresh readers read only the contents, with 16 situations a reader comes with (a friend shaking and not responding, a week later the world still feels unreal, planning a ceremony), and said where they'd look first. On the contents as it is, the two readers guessed on 6 and 5 of the 16, and both would have stopped at beach morning glory and missed niacin when they wanted the trip to end. On A, a third reader guessed on 4, and its first pick was right for all 16 ([what each reader found](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261105/articles/bad-trips/humanize/h39-20261109/toc/RESULTS.md)).\n\nA (my pick):\nInner Signal App to the Rescue!\nWhen to Bring In Outside Help\n    Call medics for:\n    When Peer Support Isn't Enough\n    Who to Contact, and When   [moved here from Get One Human Anchor]\nAcute Medical and Neurological Rescue\n    Active Seizure   [the emergencies come first now]\n    MDMA: Jaw Tension Is the Magnesium Alarm\n    Chest Pain and Injury\n    Recent Oral Toxic Ingestion\n    Suspected Serotonin Syndrome (SS)\n        Recognizing serotonin toxicity\n        Do this immediately when serotonin toxicity is reasonably suspected:\n    If Someone Says \"My Brain Feels Damaged\": DMSO + Humic Acid First   [moved to the end of the medical part, leading into the remedies]\nMy Acute Rescue Hierarchy of Remedies   [\"of Remedies\" added]\n    How I label the evidence   [no longer the parent of every remedy]\n    Some Remedies Require More Caution   [moved before the remedies]\n    Gut-Toxin and Parasite-Die-Off Tools   [each remedy group one level up]\n        Zeolite and Ferment in ZHoly3O\n        Actual Activated Charcoal\n    Nausea Smoothers When the Person Wants to Preserve the Trip\n        Coffee Cherry for Nausea and Brain Recharge\n    Mental Stabilizers That Don't Abort the Trip\n        Metta NMT Sniffer Makes the Trip Chill & Lovey!\n        Humic Acid Brings Brain to Optimal Function\n        Authentic Calming Essential Oils (or a Lime Peel)   [new: your notes, card OILS]\n        DMSO   [moved next to humic acid]\n        Syrian Rue Oil Makes the Trip Gentle & Sweet   [new: your notes, card RUE-OIL]\n        Ocean Water to calm & protect the energetic field\n        Shungite, Aged Ozonated-Charcoal Water, or Boiled Charcoal Water\n    When the Goal Is to Stop a Psychedelic Trip   [now after the stabilizers, gentlest to strongest]\n        Beach Morning Glory--Ipomoea pes-caprae\n        A Final Trip Killer: Niacin (a Form of Vitamin B3)   [your two headings joined]\nTripsitting Yourself or Others   [your part heading split in two; your greeting still opens it]\n    Psychological First Aid: The First Five Minutes\n        Stillness or Movement?\n    Grounding Menu: Choose One or Two Things   [moved up, next to first aid]\n    Get One Human Anchor\n        Alone at 3 a.m.\n    For the Person Helping: Calm Anchor, Not Guru\n        Do\n        When the Content Turns Toward Harm\n    No Rash Actions: Visions Are Not Commands\n    When the Trip Feels Amazing: Euphoric Certainty\nShadow Work   [the other half of your part heading]\n    Dealing With Sorrow: Missing Versus Sending Love   [the hard-content sections, before the reflective ones]\n    Hand on Heart and Gratitude 🫶🏿\n        Touch, Consent, and Compassion\n    Demons, Jinn, Entities, and Shadow Forces\n    Abuse Memories, Recovered Memories, and Certainty\n    Dealing With Shadow Thoughts\n        The Joker Poem\n    (Re)defining \"Bad Trip\"   [the reflective sections, after the hard content]\n    Spiritual ≠ \"Getting Your Ass Kicked\"\n    The Other Bypass: Feeling Good Forever\nAfter the Storm   [a part of its own]\n    What Kind of Aftermath Is This?\n    Bring in mental-health support when:   [moved here from the top, right after the aftermath list]\n    Hang up the phone, get off the Healing Treadmill   [moved here]\nGive the Session a Beginning and an End   [a part of its own, for next time]\nAppendix: Additional Resources\n\nPro: who to call is in one place at the top; the emergencies come first; the remedies run from the evidence key and the cautions to the gentlest and then the strongest; the psychological part is two short parts, what to do in the moment and the shadow work; the days after and the next session each have a part of their own. Con: the biggest change to the order your post has, and the brain section no longer leads the medical part.\n\nB (only what both readers found broken):\nInner Signal App to the Rescue!\nWhen to Bring In Outside Help\n    Call medics for:\n    Bring in mental-health support when:\n    When Peer Support Isn't Enough\n    Who to Contact, and When   [moved here from Get One Human Anchor]\nAcute Medical and Neurological Rescue\n    If Someone Says \"My Brain Feels Damaged\": DMSO + Humic Acid First\n    Active Seizure\n    MDMA: Jaw Tension Is the Magnesium Alarm\n    Chest Pain and Injury\n    Recent Oral Toxic Ingestion\n    Suspected Serotonin Syndrome (SS)\n        Recognizing serotonin toxicity\n        Do this immediately when serotonin toxicity is reasonably suspected:\nMy Acute Rescue Hierarchy of Remedies   [\"of Remedies\" added]\n    How I label the evidence   [no longer the parent of every remedy]\n    Some Remedies Require More Caution   [moved before the remedies]\n    Gut-Toxin and Parasite-Die-Off Tools   [each remedy group one level up]\n        Zeolite and Ferment in ZHoly3O\n        Actual Activated Charcoal\n    Nausea Smoothers When the Person Wants to Preserve the Trip\n        Coffee Cherry for Nausea and Brain Recharge\n    Mental Stabilizers That Don't Abort the Trip\n        Metta NMT Sniffer Makes the Trip Chill & Lovey!\n        Humic Acid Brings Brain to Optimal Function\n        Ocean Water to calm & protect the energetic field\n        Shungite, Aged Ozonated-Charcoal Water, or Boiled Charcoal Water\n        DMSO\n    When the Goal Is to Stop a Psychedelic Trip   [now after the stabilizers, gentlest to strongest]\n        Beach Morning Glory--Ipomoea pes-caprae\n        A Final Trip Killer: Niacin (a Form of Vitamin B3)   [your two headings joined]\n(the rest as it is now)\n\nPro: fixes the remedies part and who to call, and nothing else moves. Con: the psychological part stays one run of 17 sections with the days after at the end of it, and \"Bring in mental-health support when:\" stays at the top, away from the aftermath list.\n\nC: leave the contents as it is.",
+    "your_version": "",
+    "comment": "From people I've talked to.",
+    "my_version": "",
+    "before": "",
+    "history": [],
+    "updated": "2026-11-09T17:56:05.235Z"
+   }
+  },
+  {
+   "test": "light: Save downloads the answers",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "light: a reload keeps the decisions",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "light: a reload keeps the comment",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "light: cleared storage starts fresh",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "light: loading the saved file restores decisions",
+   "pass": true,
+   "detail": "Loaded 4 answers."
+  },
+  {
+   "test": "light: and the comment",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "light: answers for another review are refused",
+   "pass": true,
+   "detail": "Those answers are for a different review (another-review), so nothing was loaded."
+  },
+  {
+   "test": "light: bad pasted text is refused",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "light: no console or page errors",
+   "pass": true,
+   "detail": []
+  },
+  {
+   "test": "dark: one card per suggestion",
+   "pass": true,
+   "detail": "5 cards, 5 suggestions"
+  },
+  {
+   "test": "dark: every other card starts not approved",
+   "pass": true,
+   "detail": 0
+  },
+  {
+   "test": "dark: typed comment kept",
+   "pass": true,
+   "detail": "Keep \"this\" — and check the link, please. Ünïcode ok."
+  },
+  {
+   "test": "dark: comment text legible (contrast 14.7)",
+   "pass": true,
+   "detail": {
+    "ratio": 14.67911847763172,
+    "fg": "rgb(31, 41, 55)",
+    "fill": "rgb(31, 41, 55)",
+    "bg": "rgb(255, 255, 255)"
+   }
+  },
+  {
+   "test": "dark: Approve is one click, no dialog",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "dark: pill says Approved",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "dark: Reject",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "dark: rejected looks different from not approved",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "dark: Revise opens your version",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "dark: your version starts from mine",
+   "pass": true,
+   "detail": "#### Authentic Calming Essential Oils (or a Lime Peel)\n\nIf you don't have the Me"
+  },
+  {
+   "test": "dark: your-version text legible (contrast 14.7)",
+   "pass": true,
+   "detail": {
+    "ratio": 14.67911847763172,
+    "fg": "rgb(31, 41, 55)",
+    "fill": "rgb(31, 41, 55)",
+    "bg": "rgb(255, 255, 255)"
+   }
+  },
+  {
+   "test": "dark: progress counts the decisions",
+   "pass": true,
+   "detail": "3 of 4 decided · 1 approved · 1 rejected · 1 to revise · 0 of 1 questions answered"
+  },
+  {
+   "test": "dark: back to not approved in one click",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "dark: approval count is explicit approvals only",
+   "pass": true,
+   "detail": "2 of 4 decided · 0 approved · 1 rejected · 1 to revise · 0 of 1 questions answered"
+  },
+  {
+   "test": "dark: type filter hides that type",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "dark: and shows it again",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "dark: status filter shows only approved",
+   "pass": true,
+   "detail": [
+    "approved"
+   ]
+  },
+  {
+   "test": "dark: search narrows the cards",
+   "pass": true,
+   "detail": 1
+  },
+  {
+   "test": "dark: no cards I'd leave on this page, so nothing to hide",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "dark: each changed paragraph shows as two clean texts (1 cards)",
+   "pass": true,
+   "detail": []
+  },
+  {
+   "test": "dark: a passage shown whole reads as my version (0 cards)",
+   "pass": true,
+   "detail": []
+  },
+  {
+   "test": "dark: a question card says Answered",
+   "pass": true,
+   "detail": "Answered"
+  },
+  {
+   "test": "dark: answers count apart from decisions",
+   "pass": true,
+   "detail": "3 of 4 decided · 1 approved · 1 rejected · 1 to revise · 1 of 1 questions answered"
+  },
+  {
+   "test": "dark: every highlight has a colour",
+   "pass": true,
+   "detail": "0 without one"
+  },
+  {
+   "test": "dark: Next undecided brings one to the top",
+   "pass": true,
+   "detail": 1
+  },
+  {
+   "test": "dark: Next walks every undecided card in page order, questions included",
+   "pass": true,
+   "detail": "expected ['RUE-OIL', 'HERBS-NAMED'], got ['RUE-OIL', 'HERBS-NAMED']"
+  },
+  {
+   "test": "dark: Copy gives parseable JSON",
+   "pass": true,
+   "detail": "{\n \"format\": \"joel-suggestion-review-answers-v1\",\n \"review_id\": \"bad-trips-r30\","
+  },
+  {
+   "test": "dark: export names the review and the guide version",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "dark: export has every suggestion",
+   "pass": true,
+   "detail": 5
+  },
+  {
+   "test": "dark: comment exported word for word",
+   "pass": true,
+   "detail": "Keep \"this\" — and check the link, please. Ünïcode ok."
+  },
+  {
+   "test": "dark: statuses exported",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "dark: the answer is exported with its question",
+   "pass": true,
+   "detail": {
+    "id": "TOC",
+    "type": "structure",
+    "title": "1. The table of contents: which one?",
+    "where": "the heading \"Inner Signal App to the Rescue!\"",
+    "advice": "ask",
+    "status": "answered",
+    "question": "Three fresh readers read only the contents, with 16 situations a reader comes with (a friend shaking and not responding, a week later the world still feels unreal, planning a ceremony), and said where they'd look first. On the contents as it is, the two readers guessed on 6 and 5 of the 16, and both would have stopped at beach morning glory and missed niacin when they wanted the trip to end. On A, a third reader guessed on 4, and its first pick was right for all 16 ([what each reader found](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261105/articles/bad-trips/humanize/h39-20261109/toc/RESULTS.md)).\n\nA (my pick):\nInner Signal App to the Rescue!\nWhen to Bring In Outside Help\n    Call medics for:\n    When Peer Support Isn't Enough\n    Who to Contact, and When   [moved here from Get One Human Anchor]\nAcute Medical and Neurological Rescue\n    Active Seizure   [the emergencies come first now]\n    MDMA: Jaw Tension Is the Magnesium Alarm\n    Chest Pain and Injury\n    Recent Oral Toxic Ingestion\n    Suspected Serotonin Syndrome (SS)\n        Recognizing serotonin toxicity\n        Do this immediately when serotonin toxicity is reasonably suspected:\n    If Someone Says \"My Brain Feels Damaged\": DMSO + Humic Acid First   [moved to the end of the medical part, leading into the remedies]\nMy Acute Rescue Hierarchy of Remedies   [\"of Remedies\" added]\n    How I label the evidence   [no longer the parent of every remedy]\n    Some Remedies Require More Caution   [moved before the remedies]\n    Gut-Toxin and Parasite-Die-Off Tools   [each remedy group one level up]\n        Zeolite and Ferment in ZHoly3O\n        Actual Activated Charcoal\n    Nausea Smoothers When the Person Wants to Preserve the Trip\n        Coffee Cherry for Nausea and Brain Recharge\n    Mental Stabilizers That Don't Abort the Trip\n        Metta NMT Sniffer Makes the Trip Chill & Lovey!\n        Humic Acid Brings Brain to Optimal Function\n        Authentic Calming Essential Oils (or a Lime Peel)   [new: your notes, card OILS]\n        DMSO   [moved next to humic acid]\n        Syrian Rue Oil Makes the Trip Gentle & Sweet   [new: your notes, card RUE-OIL]\n        Ocean Water to calm & protect the energetic field\n        Shungite, Aged Ozonated-Charcoal Water, or Boiled Charcoal Water\n    When the Goal Is to Stop a Psychedelic Trip   [now after the stabilizers, gentlest to strongest]\n        Beach Morning Glory--Ipomoea pes-caprae\n        A Final Trip Killer: Niacin (a Form of Vitamin B3)   [your two headings joined]\nTripsitting Yourself or Others   [your part heading split in two; your greeting still opens it]\n    Psychological First Aid: The First Five Minutes\n        Stillness or Movement?\n    Grounding Menu: Choose One or Two Things   [moved up, next to first aid]\n    Get One Human Anchor\n        Alone at 3 a.m.\n    For the Person Helping: Calm Anchor, Not Guru\n        Do\n        When the Content Turns Toward Harm\n    No Rash Actions: Visions Are Not Commands\n    When the Trip Feels Amazing: Euphoric Certainty\nShadow Work   [the other half of your part heading]\n    Dealing With Sorrow: Missing Versus Sending Love   [the hard-content sections, before the reflective ones]\n    Hand on Heart and Gratitude 🫶🏿\n        Touch, Consent, and Compassion\n    Demons, Jinn, Entities, and Shadow Forces\n    Abuse Memories, Recovered Memories, and Certainty\n    Dealing With Shadow Thoughts\n        The Joker Poem\n    (Re)defining \"Bad Trip\"   [the reflective sections, after the hard content]\n    Spiritual ≠ \"Getting Your Ass Kicked\"\n    The Other Bypass: Feeling Good Forever\nAfter the Storm   [a part of its own]\n    What Kind of Aftermath Is This?\n    Bring in mental-health support when:   [moved here from the top, right after the aftermath list]\n    Hang up the phone, get off the Healing Treadmill   [moved here]\nGive the Session a Beginning and an End   [a part of its own, for next time]\nAppendix: Additional Resources\n\nPro: who to call is in one place at the top; the emergencies come first; the remedies run from the evidence key and the cautions to the gentlest and then the strongest; the psychological part is two short parts, what to do in the moment and the shadow work; the days after and the next session each have a part of their own. Con: the biggest change to the order your post has, and the brain section no longer leads the medical part.\n\nB (only what both readers found broken):\nInner Signal App to the Rescue!\nWhen to Bring In Outside Help\n    Call medics for:\n    Bring in mental-health support when:\n    When Peer Support Isn't Enough\n    Who to Contact, and When   [moved here from Get One Human Anchor]\nAcute Medical and Neurological Rescue\n    If Someone Says \"My Brain Feels Damaged\": DMSO + Humic Acid First\n    Active Seizure\n    MDMA: Jaw Tension Is the Magnesium Alarm\n    Chest Pain and Injury\n    Recent Oral Toxic Ingestion\n    Suspected Serotonin Syndrome (SS)\n        Recognizing serotonin toxicity\n        Do this immediately when serotonin toxicity is reasonably suspected:\nMy Acute Rescue Hierarchy of Remedies   [\"of Remedies\" added]\n    How I label the evidence   [no longer the parent of every remedy]\n    Some Remedies Require More Caution   [moved before the remedies]\n    Gut-Toxin and Parasite-Die-Off Tools   [each remedy group one level up]\n        Zeolite and Ferment in ZHoly3O\n        Actual Activated Charcoal\n    Nausea Smoothers When the Person Wants to Preserve the Trip\n        Coffee Cherry for Nausea and Brain Recharge\n    Mental Stabilizers That Don't Abort the Trip\n        Metta NMT Sniffer Makes the Trip Chill & Lovey!\n        Humic Acid Brings Brain to Optimal Function\n        Ocean Water to calm & protect the energetic field\n        Shungite, Aged Ozonated-Charcoal Water, or Boiled Charcoal Water\n        DMSO\n    When the Goal Is to Stop a Psychedelic Trip   [now after the stabilizers, gentlest to strongest]\n        Beach Morning Glory--Ipomoea pes-caprae\n        A Final Trip Killer: Niacin (a Form of Vitamin B3)   [your two headings joined]\n(the rest as it is now)\n\nPro: fixes the remedies part and who to call, and nothing else moves. Con: the psychological part stays one run of 17 sections with the days after at the end of it, and \"Bring in mental-health support when:\" stays at the top, away from the aftermath list.\n\nC: leave the contents as it is.",
+    "your_version": "",
+    "comment": "From people I've talked to.",
+    "my_version": "",
+    "before": "",
+    "history": [],
+    "updated": "2026-11-09T17:56:15.369Z"
+   }
+  },
+  {
+   "test": "dark: Save downloads the answers",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "dark: a reload keeps the decisions",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "dark: a reload keeps the comment",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "dark: cleared storage starts fresh",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "dark: loading the saved file restores decisions",
+   "pass": true,
+   "detail": "Loaded 4 answers."
+  },
+  {
+   "test": "dark: and the comment",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "dark: answers for another review are refused",
+   "pass": true,
+   "detail": "Those answers are for a different review (another-review), so nothing was loaded."
+  },
+  {
+   "test": "dark: bad pasted text is refused",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "dark: no console or page errors",
+   "pass": true,
+   "detail": []
+  },
+  {
+   "test": "negative fixture: the old white-box defect fails the check (contrast 1.0)",
+   "pass": true,
+   "detail": {
+    "ratio": 1,
+    "fg": "rgb(255, 255, 255)",
+    "fill": "rgb(255, 255, 255)",
+    "bg": "rgb(255, 255, 255)"
+   }
+  },
+  {
+   "test": "phone width: no sideways scroll",
+   "pass": true,
+   "detail": [
+    390,
+    390
+   ]
+  }
+ ],
+ "not_tested": [
+  "the artifact store (db) and the downloads capability, which only exist inside claude.ai; the page falls back to this browser's storage and an ordinary download, tested here",
+  "a real phone browser (tested at phone width in Chromium)"
+ ]
+}

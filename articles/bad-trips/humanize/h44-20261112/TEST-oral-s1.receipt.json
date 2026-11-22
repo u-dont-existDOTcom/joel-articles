@@ -1,0 +1,117 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-12",
+ "text_sha256": "bd33470a5fc034202e91c65ab4cb7af7b3a5a52043a6e135e83444958e6cf60e",
+ "text": "Recent Oral Toxic Ingestion\n\nBefore you pick a remedy for an \"overdose\", find out what they actually swallowed, how much and when, because that word alone doesn't tell you much. Then look at what their body is doing. Slow, shallow breathing (respiratory depression) is a different problem from a racing stimulant high, and both are different from serotonin toxicity, a seizure, dangerous overheating, etc., so each gets its own remedy.\n\nActivated charcoal can help if they swallowed something recently that charcoal binds to, as long as they're awake enough to swallow safely. It won't bind every toxin, and it can soak up medicine they need. And if they're vomiting, sedated, seizing or too out of it to protect their airway, there's a real aspiration risk, meaning they could breathe it into their lungs. Clinical review.\n\nPoison control can be useful when you're not sure what the substance or combination does, or whether there's a delayed risk, and they can tell you whether charcoal would be of any value. I don't treat calling them as a mandatory ritual, though, since how useful they are depends on the country and on whoever picks up. They're there to help you decide, and the first aid is still yours to do.",
+ "section": "Recent Oral Toxic Ingestion",
+ "reader": "someone with a person who swallowed too much of something recently, deciding what to do first: what to find out, whether to give activated charcoal, whether to call poison control",
+ "sentences": [
+  {
+   "s": "Recent Oral Toxic Ingestion",
+   "payoff": "they know this part is for something swallowed recently",
+   "follows": "the heading"
+  },
+  {
+   "s": "Before you pick a remedy for an \"overdose\", find out what they actually swallowed, how much and when, because that word alone doesn't tell you much.",
+   "payoff": "they find out what was swallowed, how much and when before picking a remedy",
+   "follows": "it opens the section under its heading",
+   "link": "none: the first sentence under its heading"
+  },
+  {
+   "s": "Then look at what their body is doing.",
+   "payoff": "they look at what the body is doing",
+   "follows": "the next thing to find out",
+   "link": "Then"
+  },
+  {
+   "s": "Slow, shallow breathing (respiratory depression) is a different problem from a racing stimulant high, and both are different from serotonin toxicity, a seizure, dangerous overheating, etc., so each gets its own remedy.",
+   "payoff": "they tell slow breathing from a stimulant high, serotonin toxicity, a seizure or overheating, since each needs its own remedy",
+   "follows": "what the body might be doing, and why it matters",
+   "link": "so each gets its own remedy"
+  },
+  {
+   "s": "Activated charcoal can help if they swallowed something recently that charcoal binds to, as long as they're awake enough to swallow safely.",
+   "payoff": "they give activated charcoal only for something it binds, swallowed recently, if the person can swallow safely",
+   "follows": "the first remedy for this",
+   "link": "Activated charcoal can help"
+  },
+  {
+   "s": "It won't bind every toxin, and it can soak up medicine they need.",
+   "payoff": "they know it won't bind everything and can soak up needed medicine",
+   "follows": "its limits",
+   "link": "It won't"
+  },
+  {
+   "s": "And if they're vomiting, sedated, seizing or too out of it to protect their airway, there's a real aspiration risk, meaning they could breathe it into their lungs.",
+   "payoff": "they don't give it to someone vomiting, sedated, seizing or unable to protect their airway, who could breathe it in",
+   "follows": "its danger",
+   "link": "And if they"
+  },
+  {
+   "s": "Clinical review.",
+   "payoff": "they can read the clinical review behind it",
+   "follows": "its source",
+   "link": "none: the source link for the paragraph"
+  },
+  {
+   "s": "Poison control can be useful when you're not sure what the substance or combination does, or whether there's a delayed risk, and they can tell you whether charcoal would be of any value.",
+   "payoff": "they call poison control when they are unsure what the substance does, whether there is a delayed risk, or whether charcoal is worth it",
+   "follows": "the next help",
+   "link": "Poison control can be useful"
+  },
+  {
+   "s": "I don't treat calling them as a mandatory ritual, though, since how useful they are depends on the country and on whoever picks up.",
+   "payoff": "they know he doesn't treat calling as a must, since it varies by country and by who answers",
+   "follows": "his view of it",
+   "link": "though"
+  },
+  {
+   "s": "They're there to help you decide, and the first aid is still yours to do.",
+   "payoff": "they know poison control helps them decide and the first aid is theirs",
+   "follows": "what it is for",
+   "link": "They're there to help you decide"
+  }
+ ],
+ "checked": [],
+ "placement": "Recent Oral Toxic Ingestion, in the medical part after the acute intro",
+ "opens": {
+  "first_sentence": "Recent Oral Toxic Ingestion",
+  "why_reading": "it tells someone facing an \"overdose\" to find out what was swallowed before picking a remedy"
+ },
+ "same_point": "none: read the section to the next heading; charcoal is said here and in the gut tools as a different use",
+ "needed": {
+  "reader": "a fresh Haiku agent given tools/humanization/needed_read_brief.md with the test, its heading and what it is for (NEEDED-READ.md, oral-s1)",
+  "unneeded": [
+   "Recent Oral Toxic Ingestion",
+   "Clinical review.",
+   "They're there to help you decide, and the first aid is still yours to do."
+  ],
+  "kept": {
+   "Recent Oral Toxic Ingestion": "they find this part by its heading; it is the section heading itself, typed with the test",
+   "Clinical review.": "they can open the clinical review the charcoal paragraph rests on (a link on the page)",
+   "They're there to help you decide, and the first aid is still yours to do.": "they do the first aid themselves instead of waiting on the call"
+  }
+ },
+ "questions": {
+  "Q1": "PASS: each paragraph opens on its point (what to find out, when charcoal helps, when poison control helps)",
+  "Q2": "PASS: each instruction is the reader's own act",
+  "Q3": "PASS: \"activated charcoal\", \"poison control\" say which",
+  "Q4": "PASS: \"respiratory depression\" and \"aspiration\" explained where they are used",
+  "Q5": "PASS: \"because\", \"Then\", \"so\", \"as long as\", \"And if\", \"though\" say each relation",
+  "Q6": "PASS: what to find out, what charcoal can and can't do, then poison control",
+  "Q7": "PASS: each fact bears on what they do now",
+  "Q8": "PASS: all three paragraphs are about something swallowed",
+  "Q9": "PASS: one step a sentence"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

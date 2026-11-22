@@ -1,0 +1,61 @@
+"""Fates for every heading the contents check or a reader flagged in the fifth and sixth picks (lessons
+bad-trips-2026-11-21a/b): each one changed, or kept with the reason it stays."""
+import json, os
+HERE = os.path.dirname(os.path.abspath(__file__))
+SHARED = {
+    'repeat:B217': 'kept: "Remedies" is the parent\'s topic word, but this names its own part, the ones not to use casually '
+                   '(humic acid eaten, cinnamon, acacia with mimosa); the shorter "Some Need More Caution" and "Which Need '
+                   'Caution?" told the readers of the second and third picks nothing',
+    'hard:B217': 'kept: one reader of the fifth pick found it close to "Remedies for a Hard Trip" above it, but the parent '
+                 'is what to reach for and this is what to be careful with; no reader of the sixth pick flagged it',
+    'repeat:B189': 'kept: it shares only "water" with "Ocean Water Calms" before it, and they are different remedies '
+                   '(his text compares the two)',
+    'hard:B189': 'kept: it isn\'t "Activated Charcoal" (line 20): it is water left after charcoal, and his text says it is '
+                 'different from swallowing charcoal; shungite is the name a reader who uses it looks for, and the '
+                 'text says what each one is',
+    'repeat:B169': 'kept: "trip" is the guide\'s own word; the parent eases a hard trip, this one ends it',
+    'repeat:B210': 'kept: "trip" is the guide\'s own word; Beach Morning Glory sits between it and its parent, and '
+                   '"Final" says what sets niacin apart, that it is the last thing to try',
+    'hard:B210': 'kept: his own words, with the remedy\'s name first; "Final" says what the parent doesn\'t, that niacin '
+                 'is the last thing to try; for "I want this trip to stop right now" all four readers of the fifth and '
+                 'sixth picks opened its parent first, sure, and three of the four tried niacin next',
+    'repeat:B410': 'kept: five headings sit between it and its parent, and they are different things: shadow work is the '
+                   'practice, shadow thoughts are the dark thoughts that come up; his term',
+    'repeat:B364': 'kept: "trip" is the guide\'s own word; "Trip After Trip?" is about trips coming back again and again, '
+                   'this one is about planning one',
+    'hard:B152': 'kept: ZHoly3O is the name of his ferment, linked in the text; the round 47 page tells him both readers '
+                 'of Fable\'s list couldn\'t tell what it is, so it stays his call',
+    'hard:B181': 'kept: the name of his own sniffer, which the text explains, with his playful "Chill!" for what it does',
+    'hard:B338': 'kept: it sits eleven headings below line 45, in another part, and says another thing: line 45 is what to '
+                 'do while a trip feels blissful, this one is chasing good feelings as a way around shadow work',
+    'hard:B65': 'kept: his to decide: four of the ten readers of the second to sixth picks couldn\'t tell what '
+                '"Inner Signal to the Rescue!" is; with "App" it runs past the sidebar\'s room and is cut to "to the Resc…", '
+                'and "Inner Signal App Can Help!" fits (190 of 217) and says it is an app, so it goes to him beside his pick',
+    'hard:N-SF-1': 'kept: it tested best: both readers of the second pick found the friend who keeps walking out the door '
+                   'here, and the third pick\'s "If Support Isn\'t Enough" lost him for both; it sits beside "Call Medics '
+                   'For:" because both are reasons to call (harm here, the body there), and line 43 is for the helper, in '
+                   'another part',
+}
+PICK5 = dict(SHARED)
+PICK5['hard:R32-SEIZE'] = ('changed: back to his own words "What Else May Help" in the sixth pick, since both readers of '
+                           'the fifth couldn\'t tell what "Beyond Rescue Medicine" covered; re-read by two fresh readers')
+PICK6 = dict(SHARED)
+PICK6.update({
+    'hard:R32-SEIZE': 'kept: his own words; under "Active Seizure" they say it is more help for a seizure, and the aura is '
+                      'its first line; one of the two readers flagged it, against both for "Beyond Rescue Medicine", and '
+                      '"At the Aura and During It" would sound like the parent\'s own steps',
+    'hard:B329': 'kept: his own heading, untouched and fitting; both readers still opened it second for "someone told me a '
+                 'bad trip is just shadow work"',
+    'hard:B332': 'kept: his own sign and his phrase, shortened to fit; both readers opened it first, and sure, for "someone '
+                 'told me a bad trip is just shadow work so I should push through it"',
+    'hard:B93': 'kept: his own words; the parent asks when to get outside help and this names one answer, medics, and what '
+                'for (its siblings name the others: someone might get hurt, who to contact); both readers of the sixth pick '
+                'opened it first or next in seven of the nine situations that need it',
+    'hard:B96': 'kept: "Lingering Symptoms?" asks what this aftermath is, this one says when it needs a professional; both '
+                'readers opened the two in that order for "it\'s been a week and nothing feels real"',
+    'hard:B279': 'kept: "Get One Human Anchor" is for the one tripping, this is for the one helping; "anchor" is his word '
+                 'in both, and "Alone at 3 a.m." sits between them',
+})
+for name, f in (('PICK5', PICK5), ('PICK6', PICK6)):
+    json.dump(f, open(os.path.join(HERE, 'FATES-%s.json' % name), 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
+print('written FATES-PICK5.json (%d), FATES-PICK6.json (%d)' % (len(PICK5), len(PICK6)))

@@ -1,0 +1,79 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-19",
+ "text_sha256": "4a55b191caad5b213c81a619af57206a9857a75a7b1f7a79d864d70f34cb81d4",
+ "text": "If someone is worried about a bleed, I'd probably skip DMSO, but it depends on how severe their issue is. It's not a powerful blood thinner like heparin, unless maybe injected; it's basically a dietary blood thinner. I've never had any issues with bleeding too much from consuming DMSO, and never heard of it either, but if bleeding is already a medical issue I'd want to think about that more. They can feel better on DMSO while a clot or a bleed is still there. So if any of the checks above fail, call medics anyway, while a hospital can still treat it.",
+ "section": "If Someone Says \"My Brain Feels Damaged\": DMSO + Humic Acid + Electrolytes First",
+ "reader": "someone with a friend on a drug who says their brain feels damaged, who has given DMSO and is doing the guide's stroke checks, and who may be worried the problem is a clot or a bleed",
+ "sentences": [
+  {
+   "s": "If someone is worried about a bleed, I'd probably skip DMSO, but it depends on how severe their issue is.",
+   "his": true
+  },
+  {
+   "s": "It's not a powerful blood thinner like heparin, unless maybe injected; it's basically a dietary blood thinner.",
+   "his": true
+  },
+  {
+   "s": "I've never had any issues with bleeding too much from consuming DMSO, and never heard of it either, but if bleeding is already a medical issue I'd want to think about that more.",
+   "his": true
+  },
+  {
+   "s": "They can feel better on DMSO while a clot or a bleed is still there.",
+   "payoff": "",
+   "follows": "",
+   "link": ""
+  },
+  {
+   "s": "So if any of the checks above fail, call medics anyway, while a hospital can still treat it.",
+   "payoff": "",
+   "follows": "",
+   "link": ""
+  }
+ ],
+ "checked": [],
+ "placement": "",
+ "opens": {
+  "first_sentence": "If someone is worried about a bleed, I'd probably skip DMSO, but it depends on how severe their issue is.",
+  "why_reading": ""
+ },
+ "same_point": "",
+ "needed": {
+  "reader": "",
+  "unneeded": [],
+  "kept": {}
+ },
+ "his_fixes": {
+  "reader": "",
+  "marked": [],
+  "kept": {}
+ },
+ "fit": {
+  "reader": "",
+  "marked": [],
+  "kept": {}
+ },
+ "questions": {
+  "Q1": "",
+  "Q2": "",
+  "Q3": "",
+  "Q4": "",
+  "Q5": "",
+  "Q6": "",
+  "Q7": "",
+  "Q8": "",
+  "Q9": ""
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ },
+ "his_whose": "his own: his bleed lines, from his message of 2026-11-03 22:04 UTC and round 2's card AN-Q3b, which he approved 2026-11-04 10:26 UTC (KEEP-AS-IS K4)"
+}

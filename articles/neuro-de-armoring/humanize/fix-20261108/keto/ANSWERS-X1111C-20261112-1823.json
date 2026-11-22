@@ -1,0 +1,41 @@
+{
+ "format": "joel-suggestion-review-answers-v1",
+ "review_id": "neuro-de-armoring-cards-20261111-x1111c",
+ "title": "Neuro De-Armoring Cards, 11 November (3): ketosis in people with PTSD",
+ "git_file": "articles/neuro-de-armoring/humanize/fix-20261108/keto/REVIEW-X1111C.html",
+ "article": {
+  "file": "articles/neuro-de-armoring/humanize/HUMANIZED-SO-FAR.md",
+  "sha256": "adfe7042f2b4d92b1202288690710c6ba5930307ea137685a971faa193dbc16d"
+ },
+ "built": "2026-11-11T23:04:45Z",
+ "generator": "suggestion_review.py 1.11 (2026-11-11)",
+ "exported_at": "2026-11-12T18:23:32.065Z",
+ "counts": {
+  "approved": 0,
+  "rejected": 0,
+  "revise": 1,
+  "pending": 0
+ },
+ "items": [
+  {
+   "id": "SC-48b",
+   "type": "science",
+   "title": "Ketosis in people with PTSD: what has been seen, and how far it goes",
+   "where": "C. The \"Hardened\" Circuit: Dynorphin & DeltaFosB, P3",
+   "advice": "approve",
+   "status": "revise",
+   "your_version": "Why don't these drugs work on calcified PTSD? Because even if they did work for mood by modulating serotonin transmission, PTSD is not a mood disorder. That's a bit like putting some Bengay on a broken leg. This protocol tries to get at the underpinnings of the problem. The ketone BHB blocks enzymes called HDACs (Shimazu, et al, 2013), and in mice that couldn't hold on to extinction learning (learning that a cue is now safe), an HDAC blocker made the new learning last (Whittle & Singewald, 2014). In people with PTSD, the first small study of a keto diet with BHB supplements found that both people who finished its four weeks improved, by 20 and 10 points on the standard 80-point PTSD checklist, which its authors call clinically meaningful (Edwards, et al, 2024). In two case reports, women whose PTSD hadn't responded to treatment were nearly or fully free of symptoms after months on the diet (Bellamy & Laurent, 2025; Laurent, 2026). No controlled trial of the diet has been done yet, and the one placebo-controlled trial of BHB supplements alone was too small to tell either way (Youssef, et al, 2022), although we can see some astounding BHB salt reviews on forums, like for [brain injury repai]r (https://www.reddit.com/r/keto/comments/1fmu0po/ketone_supplements_insanely_good/), and the salts works for rats with trauma, although not nearly as proven for humans as the keto diet is [(Engelhardt, et al 2026](https://www.frontiersin.org/journals/psychiatry/articles/10.3389/fpsyt.2026.1854499/full))",
+   "comment": "",
+   "my_version": "Why don't these drugs work on calcified PTSD? Because even if they did work for mood by modulating serotonin transmission, PTSD is not a mood disorder. That's a bit like putting some Bengay on a broken leg. This protocol tries to get at the underpinnings of the problem. The ketone BHB blocks enzymes called HDACs (Shimazu, et al, 2013), and in mice that couldn't hold on to extinction learning (learning that a cue is now safe), an HDAC blocker made the new learning last (Whittle & Singewald, 2014). In people with PTSD, the first small study of a keto diet with BHB supplements found that both people who finished its four weeks improved, by 20 and 10 points on the standard 80-point PTSD checklist, which its authors call clinically meaningful (Edwards, et al, 2024). In two case reports, women whose PTSD hadn't responded to treatment were nearly or fully free of symptoms after months on the diet (Bellamy & Laurent, 2025; Laurent, 2026). No controlled trial of the diet has been done yet, and the one placebo-controlled trial of BHB supplements alone was too small to tell either way (Youssef, et al, 2022).",
+   "before": "Why don't these drugs work on calcified PTSD? Because even if they did work for mood by modulating serotonin transmission, PTSD is not a mood disorder. That's a bit like putting some Bengay on a broken leg. This protocol tries to get at the underpinnings of the problem. The ketone BHB blocks enzymes called HDACs (Shimazu, et al, 2013), and in mice that couldn't hold on to extinction learning (learning that a cue is now safe), an HDAC blocker made the new learning last (Whittle & Singewald, 2014). Whether ketosis does that in people hasn't been tested.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "revise",
+     "at": "2026-11-12T00:00:09.256Z"
+    }
+   ],
+   "updated": "2026-11-12T14:01:36.481Z"
+  }
+ ]
+}

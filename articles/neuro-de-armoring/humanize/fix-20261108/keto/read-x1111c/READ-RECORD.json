@@ -1,0 +1,53 @@
+{
+ "format": "compare-read-record-v1",
+ "article": "HUMANIZED-SO-FAR.md at 37964390: block 48 as his version of SC-48b put it in, read beside his post's by the lead session (E284, E294)",
+ "coverage": [
+  "001e60963b2262b9"
+ ],
+ "findings": [
+  {
+   "id": "F1",
+   "severity": 2,
+   "kind": "fact",
+   "block_hashes": [
+    "001e60963b2262b9"
+   ],
+   "now": "the salts work for rats with trauma",
+   "same_as_original": false
+  },
+  {
+   "id": "F2",
+   "severity": 2,
+   "kind": "fact",
+   "block_hashes": [
+    "001e60963b2262b9"
+   ],
+   "now": "although not nearly as proven for humans as the keto diet is",
+   "same_as_original": false
+  },
+  {
+   "id": "F3",
+   "severity": 1,
+   "kind": "unclear",
+   "block_hashes": [
+    "001e60963b2262b9"
+   ],
+   "now": "although we can see some astounding BHB salt reviews on forums, like for brain injury repair, and the salts work for rats with trauma, although not nearly as proven for humans as the keto diet is",
+   "same_as_original": false
+  }
+ ],
+ "dispositions": {
+  "F1": [
+   "his",
+   "his own words; the review he cites has the rats given BHB by injection or MCT oil by mouth, and card SC-48c puts that wording to him"
+  ],
+  "F2": [
+   "his",
+   "his own words; the review he cites calls it an open question whether supplements can match the diet, and card SC-48c puts that wording to him"
+  ],
+  "F3": [
+   "his",
+   "his own words and his shape, a small snag (severity 1): it reads, with effort"
+  ]
+ }
+}

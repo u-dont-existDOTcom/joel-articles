@@ -2975,6 +2975,206 @@
     }
    ],
    "reason": "The linter's list flag (W68, B4) finds a long list but not what its items are: it flags his Human, High version too. Whether each item is something a reader can picture, and whether the sentences around it are built differently, is a reader's call."
+  },
+  {
+   "id": "W124",
+   "tell": "a correction or contrast frame (\"x but not y\"; \"a Y rather than a Z\", \"does not mean\", \"isn't X, it's Y\", \"not X but Y\"); two in one paragraph of mine fail",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "docs/lessons/2026-11-11-2357-bad-trips.md",
+     "quote": "you still use a lot of ai patterns like \"this is different. that's different, this other thing is also different\" and \"x but not y\" and so forth"
+    }
+   ],
+   "rule": "O69",
+   "example": "A bad trip does not prove that you are broken. It is a sign of overload rather than a verdict on you."
+  },
+  {
+   "id": "W125",
+   "tell": "\"different\" doing the comparing twice (\"this is different. that's different, this other thing is also different\")",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "docs/lessons/2026-11-11-2357-bad-trips.md",
+     "quote": "you still use a lot of ai patterns like \"this is different. that's different, this other thing is also different\" and \"x but not y\" and so forth"
+    }
+   ],
+   "rule": "O70",
+   "example": "Slow, shallow breathing is a different problem from a racing stimulant high, and both are different from serotonin toxicity."
+  },
+  {
+   "id": "W126",
+   "tell": "the action or the verdict said after the list or the run of questions it serves, its lead-in saying no action",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "docs/lessons/2026-11-11-2357-bad-trips.md",
+     "quote": "so we need to figure out how you can understand when things don't make sense, when they're indefinite in reference, when they're logically overlapping and redundant, when they are compressed, and most of all, when the payoff comes too late"
+    }
+   ],
+   "rule": "O71",
+   "example": "So check the body first. Are they breathing normally? Is their temperature safe? Are they awake enough to work with you? If all that checks out, calming and stabilizing the trip may be enough."
+  },
+  {
+   "id": "W127",
+   "tell": "\"safe\" with nothing saying what it refers to or how to make sure (\"if it's safe\" fails)",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "docs/lessons/2026-11-11-2357-bad-trips.md",
+     "quote": "pretty much any time you see the word \"safe\" make sure it needs to be there and there's no ambiguitiy about what it's referring to or how one would ensure that"
+    }
+   ],
+   "rule": "O72",
+   "example": "If it's safe, have them stand and walk a few steps to see if they keep their balance."
+  },
+  {
+   "id": "W128",
+   "tell": "a sign of health in a list whose lead-in names warning signs",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "docs/lessons/2026-11-11-2357-bad-trips.md",
+     "quote": "you didn't notice that your first symptom was not a symptom? it was the opposite, a sign of health"
+    }
+   ],
+   "rule": "O73",
+   "example": "While the DMSO is working, check for these stroke warning signs:\n- First, are they awake and breathing normally?\n- Is their speech slurred?"
+  },
+  {
+   "id": "J70",
+   "tell": "a sentence that reads the way his fixes change (compressed, built like its neighbours, correcting or contrasting, vague about who or what counts, opening on a rule, ending on a summing-up, no use to the reader, joined the way a model joins)",
+   "kind": "judgment",
+   "sources": [
+    {
+     "file": "docs/lessons/2026-11-11-2357-bad-trips.md",
+     "quote": "have you systematically looked at all of the fixes i've shown you and what are the idfferences in how you write vs how i fix?"
+    }
+   ],
+   "reason": "whether a sentence is compressed, built like its neighbours, vague about who or what counts, or no use to its reader is meaning: a fresh reader given tools/humanization/his_fixes_brief.md judges it, sentence by sentence; his own writing has as many lists, questions and contrasts as the texts he fixed (articles/bad-trips/humanize/h46-20261112/his-fixes/COUNTS.md), so no count of those decides it"
+  },
+  {
+   "id": "W129",
+   "tell": "a list item that finishes its lead-in ends with a period",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "docs/lessons/2026-11-11-2357-bad-trips.md",
+     "quote": "you had to remove the periods at the end of each list item (i wouldn't put them in anyway, since they aren't full sentences)"
+    }
+   ],
+   "rule": "O74",
+   "example": "Call medics if any of these happen:\n- Their breathing gets slow and shallow.\n- Their lips turn blue or gray."
+  },
+  {
+   "id": "W130",
+   "tell": "a past perfect where the simple past does",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "docs/lessons/2026-11-19-0052-bad-trips.md",
+     "quote": "i changed the perfect past to simple past and it's again back to 100% \"possibly ai assisted\" instead of ai"
+    }
+   ],
+   "rule": "O75",
+   "example": "When they gave DMSO to rats for three days before a heart attack, those rats lost about three quarters less heart muscle, though that study didn't try giving it after the attack had started."
+  },
+  {
+   "id": "W131",
+   "tell": "the same abbreviation in three sentences in a row",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "docs/lessons/2026-11-19-0052-bad-trips.md",
+     "quote": "now less certain about it being ai, after not saying DMSO 3x in a row"
+    }
+   ],
+   "rule": "O76",
+   "example": "The heart research on DMSO has only been in animals and lab dishes so far. When they gave DMSO to rats for three days before a heart attack, those rats lost less heart muscle. Most heart attacks come from a clot, so it's a good sign that DMSO also slowed clotting."
+  },
+  {
+   "id": "J71",
+   "tell": "a word or a pointer a reader could take two ways (an \"it\" that could point at two things, \"too weak\" that could describe the drug or the evidence, a statement that is really an instruction, a sign with nobody's name on it)",
+   "kind": "judgment",
+   "sources": [
+    {
+     "file": "docs/lessons/2026-11-19-1515-bad-trips.md",
+     "quote": "first i clarified what \"it\" was referring to, then i clarified what \"too weak\" meant since that souunds like possibly the effects of the drug or possibly the evidence"
+    }
+   ],
+   "reason": "what a word could mean in its sentence is meaning: a fresh reader given tools/humanization/his_fixes_brief.md (its tenth way) writes what each pointer and describing word could mean and marks the ones a quick reader could take either way; pangram_ledger.py holds a retry after a near miss to a word or two (bad-trips-2026-11-19b)"
+  },
+  {
+   "id": "J72",
+   "tell": "a sentence that gives another option, the other mistake or the next case without saying how it follows from the one before (two mistakes in two sentences of their own; a second paragraph that starts on a step the first one never reached)",
+   "kind": "judgment",
+   "sources": [
+    {
+     "file": "docs/lessons/2026-11-20-1820-bad-trips.md",
+     "quote": "fixed the connectivity issue, now just one hum med at teh end"
+    }
+   ],
+   "reason": "how a sentence follows from the one before is meaning: a fresh reader given tools/humanization/his_fixes_brief.md (its twelfth way) writes, for each sentence, how it follows and marks the ones where nothing in the sentence says so; \"If instead\", \"the other\", \"If they did\" are his words for three cases, not a list a pattern could check"
+  },
+  {
+   "id": "J73",
+   "tell": "a step or sentence that leaves the reader wondering why they are reading it: it opens on what to do, or on a fact, before saying what in the situation calls for it",
+   "kind": "judgment",
+   "sources": [
+    {
+     "file": "docs/lessons/2026-11-21-1557-bad-trips.md",
+     "quote": "my goal is to make it read well and lead on so i'm not wondering all the time why i am reading this"
+    }
+   ],
+   "reason": "why a sentence is there for its reader is meaning: a fresh reader given tools/humanization/his_fixes_brief.md (its thirteenth way) writes what in the reader's situation each sentence answers and marks the ones where they only find out later, or never"
+  },
+  {
+   "id": "J74",
+   "tell": "a rule against what someone would naturally do, said flatly, without first saying why a person would want to do it",
+   "kind": "judgment",
+   "sources": [
+    {
+     "file": "docs/lessons/2026-11-21-1557-bad-trips.md",
+     "quote": "there was a lot that wasn't connecting"
+    }
+   ],
+   "reason": "whether a don't leaves out the impulse it answers is meaning: a fresh reader given tools/humanization/his_fixes_brief.md (its fourteenth way) marks a don't, a \"won't help\" or an \"only makes it worse\" that doesn't say why somebody would want to"
+  },
+  {
+   "id": "J75",
+   "tell": "a don't with nothing to do instead, or advice nobody could carry out (talking someone out of an urge to move)",
+   "kind": "judgment",
+   "sources": [
+    {
+     "file": "docs/lessons/2026-11-21-1557-bad-trips.md",
+     "quote": "the advice i think was not quite correct medically altho pangram wouldn't know that part"
+    }
+   ],
+   "reason": "whether an instruction can be done is meaning: a fresh reader given tools/humanization/his_fixes_brief.md (its fifteenth way) marks each one the reader couldn't do and each don't that leaves them nothing to do"
+  },
+  {
+   "id": "J76",
+   "tell": "said twice: a lead line that the rest of the paragraph says again, or a rule said again the other way round",
+   "kind": "judgment",
+   "sources": [
+    {
+     "file": "docs/lessons/2026-11-21-1557-bad-trips.md",
+     "quote": "it still was AI until i removed the redundant first sentence"
+    }
+   ],
+   "reason": "whether a line repeats what the rest says is meaning: a fresh reader given tools/humanization/his_fixes_brief.md (its sixteenth way) marks a first sentence the rest repeats and a sentence that turns a condition just given around"
+  },
+  {
+   "id": "J77",
+   "tell": "advice that isn't right here: carried over from another case, or contradicted by another part of the text",
+   "kind": "judgment",
+   "sources": [
+    {
+     "file": "docs/lessons/2026-11-21-1557-bad-trips.md",
+     "quote": "now i fixed the last part, it was redundant and also i think not giving the correct medical advice"
+    }
+   ],
+   "reason": "whether advice fits its case is meaning, and Pangram can't see it: a fresh reader given tools/humanization/his_fixes_brief.md (its seventeenth way) reads each instruction against the rest of the text and the reader's situation"
   }
  ]
 }

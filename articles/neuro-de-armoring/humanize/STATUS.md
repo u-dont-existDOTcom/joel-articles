@@ -1,5 +1,257 @@
 # Status: neuro de-armoring humanization (newest on top)
 
+## 2026-11-22, his message of 17:39 UTC: his answers 24 to 33 in; his new warnings next
+
+His message word for word: `fix-20261108/joel-20261122-1739-message.txt`. **The mailbox first** ("2026-11-22 17:39"):
+main c506134a8 merged (bad-trips and inner child lessons of 20 and 21 November: up to ten tries for a paragraph on the
+right track, each sentence saying how it follows from the one before, AP title case for headings, section links
+catalogued, a reading quiz before Pangram in bad-trips; the Instagram embeds check); this lane's 452 merged on
+2026-11-20; the cards page's stored answers unchanged; no notifications.
+
+- **In** (`fix-20261108/x1122a/apply_x1122a.py`, `APPLIED-X1122A.json`; HUMANIZED-SO-FAR.md 9c001fcb to 027122dc): 32b,
+  33b, 24a, 25, 26a, 27a, 28a, 29a, 30a, 31a (with his breathwork page; its address redirects to his breathwork post on
+  his Substack). My comparison read (`x1122a/read-1122/`); FIDELITY owner_changes for 25, 26a, 28a and 29a. Fidelity
+  PASS, comparison gate PASS. Every contradiction of EXTRACT section 2 now has a fate: 13 answered, 2 applying (16a, 17),
+  1 settled, 1 not a conflict.
+- **Lion's mane and ashwagandha**: the article advises neither. **His new warnings**: `x1122a/WARNINGS-BRIEF.md` (what to
+  check on both sides, and where each goes).
+- **Waiting**: the Weeks 3–5 line's check (16a, 17), his warnings, and the contradictions check over the new text (his
+  elliptica line, his agmatine paragraph, the showers line). No question open. Delegations: none. Predictions: none.
+
+## 2026-11-20, his message of 17:05 UTC: 15a, 19a, 20, 21b, 22a in; the contradictions check made standard; questions 24 to 33
+
+His message word for word: `fix-20261108/joel-20261120-1705-message.txt` (15a, 16a, 17 in his words, 18 with his iboga
+types and Tabernanthe elliptica, 19a, 20 with his caveat, 21b, 22a, 23 on agmatine with psychedelics, and "let's make the
+contradictions check a standard step in joel-articles"). **The mailbox first** ("2026-11-20 17:05"): main 5d00ac6cc merged
+(bad-trips lessons 20a to 20e: a sentence that implies an act says it; a risk names the form that carries it; the payoff
+first, enforced by `pangram_ledger.py`; long tries fixed in parts; the O12 overused-word check); this lane's 445 and 446
+merged yesterday; the cards page's stored answers unchanged; no notifications.
+
+- **In** (`fix-20261108/x1120a/apply_x1120a.py`, `APPLIED-X1120A.json`; HUMANIZED-SO-FAR.md 9f5bbc31 to 9c001fcb): 15a,
+  19a, 20 (his caveat in his words), 21b, 22a, each his line with the words the question showed or his own. My comparison
+  read of the four paragraphs whose words changed (`x1120a/read-1120/`); FIDELITY owner_changes for 20's "400mg".
+  Fidelity PASS, comparison gate PASS.
+- **16a and 17, waiting on their check**: one line of mine at the top of Weeks 3–5 (`x1120a/texts_x1120a.py`, W35), four
+  rounds of fresh reads (`x1120a/{needed,his-fixes,fit}/w35`, `w35b`, `w35c`, `w35d`): the reads found "listed" with no
+  list, "Otherwise" and "either" reading as leave to take 5-HTP on an iboga day, "safe" (O72) and "make a suggestion"
+  (read as "no dose"), and a numb reader unable to judge by feel; W35 answers them. Not yet checked in Pangram.
+- **18 and 23 checked against sources and forums** (a Sonnet helper, `x1120a/RESEARCH-18-23.md`): nothing outside his own
+  Substack backs elliptica's names, potency or feel; no botanical male and female iboga (in Bwiti, initiation rites); no
+  source ties "male" iboga to research, which uses ibogaine itself; the heart risk is in the alkaloids. On agmatine, the
+  one forum thread leans the other way, rats show it weakens stimulants, and one rat study shows a little overlap with
+  ibogaine. Both answers go back to him as text with these notes: questions 32 and 33.
+- **The contradictions check, a standard step** (lesson neuro-2026-11-20a, `docs/lessons/2026-11-20-1705-neuro.md`):
+  `docs/FIXING-AN-ARTICLE.md` section 5 item 5, a pointer in AGENTS.md, `tools/humanization/contradictions.py` (brief and
+  check) with `tests/test_contradictions.py`. This article's fates: `fix-20261108/coherence/CONTRADICTIONS-FATES.json`
+  (17 items: 4 answered, 2 applying, 1 settled, 1 not a conflict, 9 questions); `check` PASS, `--done` not yet.
+- **Waiting on him**: questions 24 to 33 (questions page version 28). Delegations: one Sonnet research helper (claims of 18
+  and 23, file above), twelve Haiku fresh reads (four rounds of three). Predictions: none.
+
+## 2026-11-19, his message of 16:17 UTC: 12a and his block 54 in, 13b; questions 15 to 23
+
+His message word for word: `fix-20261108/joel-20261119-1617-message.txt` (12a; 13b, with his note that he isn't talking about IV use; 14, with his Pangram check and his version of block 54). **The mailbox first** ("2026-11-19 16:17"): main 4eb7e99cb merged (bad-trips' near-miss rule, its O75 and O76 tells and the turn-boundary check in `lane_push.py`; inner child's contents-sidebar rules); this lane's 436 merged on 2026-11-14; the cards page's stored answers unchanged; no notifications. UDA's LESSON-INDEX gained entry 93 (advice on starting a fresh session): applied at the turn's start and before the final answer.
+
+- **In** (`fix-20261108/x1119a/apply_x1119a.py`, `APPLIED-X1119A.json`; HUMANIZED-SO-FAR.md ec3c2ada to 9f5bbc31): 12a, block 48's last sentence split at his first "although", as question 12 showed it (my comparison read, `x1119a/read-1119/`); 14, his version of block 54 as his, the links back on its citations and on "one man's Alzheimer's improved markedly", checked word for word against the text he checked. His check, read back from his history (`x1119a/HIS-CHECKS-READ-20261119.json`): Human Written, 161 words, one window, Human High, the text's SHA-256 his paragraph's; no check of mine this turn. Its claims hold against the sources (`x1119a/CHECKED.md`). `said_twice.py`: none of its links is cited elsewhere. FIDELITY owner_changes for it (2005, 2015, 2018 and 5 new). Fidelity PASS, comparison gate PASS.
+- **13b**: his clause on children stays as he wrote it. He means uses other than IV, but the clause follows the authors' worry about the children who get DMSO in transplants, which is IV: question 15 asks whether it should say so ("when it's not given by IV").
+- **EXTRACT 2.2, 2.3 and 2.5 to 2.10 as questions** (his decision comes first, lesson neuro-2026-11-12b; every quoted line checked still in the article): 16, Weeks 3–5 starts five things in the same weeks against his one-at-a-time lines; 17, whether a microdose day counts as a psychedelic day for 5-HTP and UMP; 18, which iboga is for numbness; 19, whether "increase PS" means starting it; 20, the mackerel line above the PS dose that worked; 21, "taper off" or "reduce or stop"; 22, agmatine past its trial; 23, agmatine's timing before a session. No dose figures in them. 2.4 was settled by SC-95b.
+- **Waiting on him**: questions 15 to 23 (questions page version 27). Predictions: none (his check stands). Delegations: none.
+
+## 2026-11-14, his answers of 22:04 UTC: SC-95b and his DMSO item in; SC-54 reads AI (question 14); lesson 14a
+
+His answers on x1113b (`fix-20261108/x1113b/ANSWERS-X1113B-20261114-2204.json`; the cards page's stored answers say the same, `fix-20261108/CARDS-PAGE-DECISIONS-20261114-2204.json`): SC-95b and SC-54 approved, SC-DMSOc revise with his version (the card's text and one clause of his on children). **The mailbox first** ("2026-11-14 22:04"): main cf2cc8809 then ec873cbda (this lane's 434 merged yesterday; bad-trips 435 merged: lesson bad-trips-2026-11-13a, `said_twice.py`, the fit brief's line on findings said with where they were found); UDA unchanged; no new issues or comments; no notifications.
+
+- **In** (`x1113b/apply_x1113b.py`, `APPLIED-X1113B.json`; HUMANIZED-SO-FAR.md now ec3c2ada): SC-95b, block 95 as his version without his PTSD line; SC-DMSOc, his DMSO item after Magnesium, four paragraphs, the links back on its citations and checked word for word against what he saved. `said_twice.py` found no study of either cited elsewhere. FIDELITY-KEYS owner_changes for both (W050 keeps "ketone" and the choice, not "must"). His versions are outside the Pangram gate; the DMSO item's second and third paragraphs, which I had changed, read Human by themselves (checks-1114: 0% AI, the third with his closing sentence Human Medium).
+- **SC-54 waits** (lesson neuro-2026-11-14a, `docs/lessons/2026-11-14-2204-neuro.md`): block 54 read AI by itself as approved (69%), as my rewrite (89%) and as Codex's rewrite from the tell panel's notes (46%; `x1113b/panel-sp54`, `panel-sp54-t3`, `rewrite-sp54`); three tries of six used, the misses explained. Per the panel rule it goes to him: question 14.
+- **His clause on children, checked** (`dmso/DMSO-PTSD.md`, "His clause on children, checked"): no study of lasting harm in children; brief reactions in children given it into a vein with stem cells (Schlegel 2009); for his side, a 1975 trial in 13 children with no toxicity, and Soviet use on children's bone infections. Question 13: add "long-term".
+- **Waiting on him**: questions 12, 13 and 14.
+
+## 2026-11-13, his message of 15:24 UTC: answers I hadn't read; SC-95b, SC-54 and SC-DMSOc; lesson 13b
+
+He sent the x1113a answers (SC-95 and SC-DMSOb, both revise) and asked why I couldn't reach his computer and why the ketone card was back. His message word for word: `fix-20261108/joel-20261113-1524-message.txt`; his answers: `fix-20261108/dmso/ANSWERS-X1113A-20261113-1524.json`. **The mailbox first** ("2026-11-13 15:24"): main 0dc58c501, unchanged; this lane's 434 open and clean, not merged by the lane workflow; bad-trips 435 open; UDA unchanged; no new issues or comments; no notifications. The link to his computer worked (the last turn's failure was every connector at once).
+
+- **The answers I hadn't read**: the cards page saves each answer in its database ("decisions"); I had read only the files he sent. His SC-95 answer (2026-11-12 20:16) and his first DMSO answer (2026-11-13 14:04) sat there unread (`fix-20261108/CARDS-PAGE-DECISIONS-20261113-1525.json`). Lesson neuro-2026-11-13b (`docs/lessons/2026-11-13-1524-neuro.md`): read the page's stored answers every turn, first.
+- **His new sources, checked** (`coherence/ketone/KETONE-STRATEGY.md`, "His SC-95 answer, checked"; `dmso/DMSO-PTSD.md`, "His two DMSO answers, checked"; links opened in his browser, `x1113b/LINKS-CHECKED.md`): the LongeCity Alzheimer's case is a man, Steve Newport, improved markedly (Newport 2015), not reversed; the Parkinson's study is VanItallie 2005, with Phillips 2018's randomized trial; Brown 1988's sheep the other way round (DMSO with heparin 7 of 7 alive; DMSO alone 2 of 6; controls 0 of 7), nebulized in Kimura 1988; Kortleve 2023 is a survey, the 10% vs 5% finding Mitrus 2018's trial; Amazon refused my check of the book, the publisher's page lists its conditions, not "hundreds".
+- **Cards** (`fix-20261108/x1113b/`, cards page version 10): SC-95b (block 95, his version without his PTSD line); SC-54 (block 54, his Parkinson's and Alzheimer's sentence corrected, with the trial); SC-DMSOc (his two DMSO versions as one, after Magnesium; "including children" moved to the young-mouse study after the fit read took it as a safety sign). Nine fresh reads (needed, his fixes, fit, for each text), each disposition in its READ.md.
+- **Waiting on him**: the three cards and question 12. Before SC-54 or SC-DMSOc's second and third paragraphs go in, a Pangram check of each by itself must read Human High.
+
+## 2026-11-13, his message of 14:05 UTC: the 1967 DMSO paper; card SC-DMSOb; lesson 13a
+
+He sent Ramírez & Luza 1967 ("Dimethyl sulfoxide in the treatment of mental patients", Annals of the New York Academy of
+Sciences 141: 655-667) as a PDF, no words; the PDF stays out of Git (a publisher's copy). **The mailbox first**
+("2026-11-13 14:05"): GitHub answered 503 for the first minutes, then main 0dc58c501 merged (this lane's 432; bad-trips
+433: gate bad-trips-2026-11-12l, nothing of mine goes in below Human High checked by itself, with apply_gate.py called by
+every apply script; the fit read made universal, bad-trips-2026-11-12k); UDA unchanged; no new issues or comments; no
+notifications. This session's link to his computer and its PubMed tool failed to connect this turn.
+
+- **His paper, read in full** (`fix-20261108/dmso/DMSO-PTSD.md`, "His 1967 paper"): 42 inpatients in Lima, nine with
+  severe anxiety or obsessive-compulsive neurosis, 50 to 80% DMSO into the muscle; calmer within days, shorter hospital
+  stays than 16 non-randomized controls; no placebo. SC-DMSO's "No trial has tested it for anxiety or PTSD" was wrong.
+- **Card SC-DMSOb** (`dmso/build_x1113a.py`; REVIEW-X1113A, cards page version 9, with SC-95): the DMSO item with the 1967
+  study at its strength; "no trial" narrowed to PTSD. Fresh reads: needed, his fixes, and the universal fit read, each
+  disposition in its READ.md.
+- **Lesson neuro-2026-11-13a** (`docs/lessons/2026-11-13-1405-neuro.md`): search the condition's older and plain names and
+  the compound's heyday before calling anything untested; say "I found no ..." with what was searched.
+- **Waiting on him**: SC-95, SC-DMSOb, question 12. Before either card's paragraph goes in, a Pangram check of it by
+  itself must read Human High (gate bad-trips-2026-11-12l); those GUI checks need his computer's browser, down this turn.
+
+## 2026-11-12, his message of 21:37 UTC: the split explained; DMSO card (SC-DMSO); lesson 12b
+
+His message word for word: `fix-20261108/joel-20261112-2137-message.txt`. **The mailbox first** ("2026-11-12 21:37"):
+main 1baee2173 merged (this lane's 430; bad-trips 431: gate bad-trips-2026-11-12j, the fit read, which the receipt tool
+now asks of every new receipt); UDA unchanged; no new issues or comments; no notifications.
+
+- **The split**: SC-48c's advice note offered to split his long sentence; the card's buttons never put it to him, and my
+  report said he "didn't take" it. Now question 12 on the questions page. Lesson neuro-2026-11-12b
+  (`docs/lessons/2026-11-12-2137-neuro.md`).
+- **DMSO** (`fix-20261108/dmso/`): his study checked (Lu & Mattson 2001, rat neurons in a dish, 0.5 to 1.5%); both sides
+  searched (DMSO-PTSD.md: Hanslick 2009, neuron loss in culture and in developing mouse brains; IV in people; no study of
+  smelling it, no trial for anxiety or PTSD). DMSO is already in the safety note, the Fog table (an image: "Smell DMSO
+  (99.9%)") and the timeline. Card SC-DMSO (REVIEW-X1112C, cards page version 8, with SC-95 still waiting): a new item
+  after Magnesium in the Glutamate Shield. Fresh reads: needed, his fixes, and the fit read with its setting line written
+  for this protocol's reader; each disposition in its READ.md.
+- **Waiting on him**: SC-95, SC-DMSO, question 12. Next: EXTRACT.md's other 16 items, 2.2 and 2.3 first.
+
+## 2026-11-12, his answer of 19:32 UTC: SC-48c in; the read of the whole protocol starts (card SC-95)
+
+His answers: `fix-20261108/keto/ANSWERS-X1112A-20261112-1932.json` (SC-48c approved, no comment). **The mailbox first**
+("2026-11-12 19:32"): main fb89a3bca merged (this lane's 428; bad-trips 429, linter rules O72 and O73); UDA unchanged; no
+new issues or comments; no notifications.
+
+- **Applied** (`fix-20261108/keto/apply_x1112a.py`, APPLIED-X1112A.json): block 48's two phrases in the review's wording.
+  Fidelity PASS; my comparative read (`keto/read_x1112a.py`; F1 and F2 fixed, F3 his); compare gate PASS.
+  HUMANIZED-SO-FAR.md 37964390 to 86fa6be5.
+- **The read of the whole protocol, first card** (`fix-20261108/coherence/ketone/`): EXTRACT.md 2.4 (block 95's "must pick
+  one" against a timeline that uses both) with Strategy A's fog promise. Sources in KETONE-STRATEGY.md: Edwards 2024 (diet
+  and salts together), Bonnechère 2026 (meta-analysis: exogenous ketones improved cognition a little, SMD 0.29, single
+  doses and longer use alike), Baranowski 2025 and Stalmans 2025 (no effect). Card SC-95 (REVIEW-X1112B, cards page
+  version 7): "Your ketone strategy decides how you handle salt, since ..."; "need the fog to lift fast"; a sentence on
+  what trials found. Both fresh reads (needed/sp95, his-fixes/sp95) acted on, each disposition in its READ.md.
+- **Waiting on him**: SC-95. Next: EXTRACT.md's other 16 items, one card each, starting with 2.2 and 2.3 (the Weeks 3 to
+  5 stack against one change at a time; UMP and 5-HTP against psychedelic days).
+
+## 2026-11-12, his answers of 18:23 UTC: his version of SC-48b in; card SC-48c; lesson 12a
+
+His answers: `fix-20261108/keto/ANSWERS-X1111C-20261112-1823.json` (SC-48b to revise, his version). **The mailbox first**
+("2026-11-12 18:23"): main 20749c0d6 merged (this lane's 423; bad-trips 424 to 427, with the sixth fix and gate
+bad-trips-2026-11-12g, the read against his fixes before any check of a text of mine, adopted); UDA unchanged; no new
+issues or comments; no notifications.
+
+- **Applied** (`fix-20261108/keto/apply_x1111c.py`, APPLIED-X1111C.json): block 48 is his version, word for word, with
+  the fixes listed (the Reddit link's brackets, "the salts works", the Engelhardt citation's brackets and comma, the full
+  stop, the citations' links put back). FIDELITY-KEYS owner_changes entry; fidelity PASS. My comparative read
+  (`keto/read_x1111c.py`): F1 and F2 (severity 2, the rats and the salts against the diet) his, on card SC-48c; F3
+  (severity 1, the two "although"s) his; compare gate PASS. HUMANIZED-SO-FAR.md adfe7042 to 37964390.
+- **His clause checked** (`keto/KETO-PTSD.md`, "His clause, checked"): Engelhardt 2026 is the integrative review; its
+  rats had BHB by injection (Yamanashi 2020, full text: DL-BHB under the skin; Jung 2025) or MCT oil by mouth (Yoshioka
+  2026), never the salts by mouth; it calls the salts against the diet in people "an open question". The Reddit thread
+  wasn't read (blocked as content).
+- **Card SC-48c** (`keto/build_x1112a.py`; REVIEW-X1112A, cards page version 6): the two phrases changed to the review's
+  wording; the advice offers the split at his first "although". Fresh reads: the needed read (`keto/needed/sp48c`) and
+  the read against his fixes (`keto/his-fixes/sp48c`), with my dispositions.
+- **Lesson neuro-2026-11-12a** (`docs/lessons/2026-11-12-1823-neuro.md`): studies of the compound in the condition,
+  animals included, go in with what was given and how; a stand-in mechanism ranks below them.
+- **Waiting on him**: SC-48c. Next: the coherence read (`fix-20261108/coherence/EXTRACT.md`), Strategy A's "need the fog
+  gone fast" with the salts (block 95) beside Youssef 2022.
+
+## 2026-11-11, his message of 22:53 UTC: ketosis in people with PTSD (SC-48b); lesson 11c
+
+His message word for word and GPT's review: `fix-20261108/joel-20261111-2253-message.txt`,
+`fix-20261108/joel-20261111-2253-gpt-ketone-review.txt` ("ok and also ketones do seem to help ppl with ptsd idk why
+youre research is always wrong .... i also don't understand why you can't see the reddit pages that i can see in your
+cloud browser? look"). **The mailbox first** ("2026-11-11 22:53"): main 7531cd1f7 merged (this lane's 422); UDA
+unchanged; no new issues or comments; no notifications.
+
+- **He was right.** Block 48 ended on my "Whether ketosis does that in people hasn't been tested.", true of the HDAC
+  route but read as the answer to whether ketosis helps people with PTSD; and in chat I gave Youssef 2022 as "the two
+  groups ended up no different", making a trial too small to tell sound like a negative. GPT's sources checked through
+  PubMed and ClinicalTrials.gov (`fix-20261108/keto/KETO-PTSD.md`): Edwards 2024 (PCL-5 70 to 50 and 50 to 40 in the two
+  who finished four weeks of a keto diet with BHB salts), Bellamy & Laurent 2025 (80 to 0 by week 12, full text read:
+  three years of trauma-focused therapy hadn't helped), Laurent 2026 (32 to 2 at 27 weeks, treatment-resistant), the 2026
+  integrative review ("only minimal reliable information" from human studies), NCT07415590 (six people in Munich,
+  completed, no results), Youssef 2022 (21 people, no difference between groups, too small to tell).
+- **Card SC-48b** (`fix-20261108/keto/build_x1111c.py`; REVIEW-X1111C): block 48's last sentence becomes the Oslo study,
+  the two cases and the limit. A fresh reader (Haiku, BRIEF.txt only; `keto/needed/sp48b/READ.md`) kept all three new
+  sentences and would lose his Bengay line and the mouse clause: both kept, with the reasons in the receipt, and the card
+  shows him that reader's version. Published on the cards page (version 5).
+- **Lesson neuro-2026-11-11c** (`docs/lessons/2026-11-11-2253-neuro.md`): find what was tried in people with the
+  reader's condition before calling something untested; a small trial with no difference is too small to tell. Lesson
+  11a's name put in the standard form so `lane_push.py --lesson-id` finds it.
+- **Reddit**: still not read. It is blocked to the web tools as content, and the rule covers the browser even with the
+  page open there; he's asked for the posts' text.
+- **Waiting on him**: SC-48b. Next: the coherence read (`fix-20261108/coherence/EXTRACT.md`), Strategy A's "need the fog
+  gone fast" with the salts (block 95) beside Youssef 2022.
+
+## 2026-11-11, his message of 22:44 UTC: SC-106e in, as he approved it in chat, with his two Reddit links
+
+His message word for word: `fix-20261108/joel-20261111-2244-message.txt` ("yes i want the reddit links. and your
+paragraph looks good other than that"). **The mailbox first** ("2026-11-11 22:44"): main 2dd64e4f3 merged (this lane's
+421); UDA unchanged; no new issues or comments; no notifications.
+
+- **Applied** (`fix-20261108/sci-p23/apply_x1111b.py`, APPLIED-X1111B.json): blocks 104 and 105 cut; block 106 is
+  SC-106e's paragraph with one sentence after the mood studies carrying his two links as firsthand reports, worded from
+  his description ("feel emotions again", "panic attacks to low potassium"); block 115's second sentence cut. Reddit is
+  blocked to the web tools as content, which covers the browser too, so the threads weren't read; he's asked to check
+  the sentence against them. FIDELITY-KEYS owner_changes entry (KCNQ and W054, W055 out; the citations' years, 13, 16
+  and 10 new); fidelity PASS. My comparative read recorded (`sci-p23/read_x1111b.py`); compare gate PASS.
+  HUMANIZED-SO-FAR.md 8de00b80 to adfe7042.
+- **Nothing waits on him.** Next: the coherence read (`fix-20261108/coherence/EXTRACT.md`) and the diet and ketone
+  claims.
+
+## 2026-11-11, his message of 22:07 UTC: lesson 11a corrected; GPT's research checked; SC-106e rests on the science; lesson 11b
+
+His message word for word and the research he pasted: `fix-20261108/joel-20261111-2207-message.txt`,
+`fix-20261108/joel-20261111-2207-gpt-research.txt`. **The mailbox first** ("2026-11-11 22:07"): main 373ee5274 merged
+(a fast forward; this lane's 419 merged); UDA unchanged; no new issues or comments; no notifications.
+
+- **He was right**: a claim he makes as science rests on science (lesson 11a corrected in its file), and my research for
+  SC-106b to d was thin. GPT's sources checked one by one (a Sonnet agent; I re-read the ones cited and opened every
+  link): Pariury 2019 (13 of 16 children with steroid-induced mood and behavior effects helped by potassium), Na 2022
+  (4,213 older adults, higher intake and better cognition), Cherbuin 2014, Zingales 2025 and TAIM 1991 on the other side,
+  Dai 2025 (left out, confounded); the 2025 Dietary Guidelines Advisory Committee report: 28% of Americans above the
+  Adequate Intake (his "40% below 2.3 g" wasn't found); Gitelman syndrome (Cruz 2001) for people who lose more. Reddit is
+  blocked to the web tools: his two threads weren't read, and the card asks for the posts as text.
+- **SC-106e** (`fix-20261108/sci-p23/texts_x1111b.py`, `build_x1111b.py`): block 106 rests on the science (nerves, low
+  intakes, mood, thinking, who needs more, blood pressure), his paleo view and the caution. Two fresh needed reads
+  (`needed/sp106e-first/`: S2 unclear, rewritten; `needed/sp106e/`: four items not needed, kept with reasons, and the
+  reader's shorter paragraph shown on the card). Published to the same page (9nENpt9AEJCB43a9Wy5jqn, version 4, review
+  id x1111b); smoke test at 400 and 1,200 px clean. Questions page republished.
+- **Lessons**: neuro-2026-11-11a corrected (`docs/lessons/2026-11-11-2101-neuro.md`); neuro-2026-11-11b
+  (`docs/lessons/2026-11-11-2207-neuro.md`): research goes wide on both sides before a science card; a blood level is not
+  an intake. The article is unchanged (8de00b80).
+- **Predictions**: none. **Delegations**: one Sonnet agent, GPT's sources and the searches he named (no files; checked:
+  every cited record re-read, every link opened): done. Two Haiku agents, the needed reads of SP106E: done.
+
+## 2026-11-11, his answer of 21:01 UTC on x1108e: SC-106c back with his comment; his points checked; SC-106d with his view; lesson 11a
+
+His answers, byte for byte: `fix-20261108/sci-p23/ANSWERS-X1108E-20261111-2101.json`; his comment word for word:
+`fix-20261108/joel-20261111-2101-message.txt` (his view on the potassium-to-sodium ratio and the brain, the paleo diet's
+potassium, the confounding, and GPT's research on diet trials for PTSD). **The mailbox first** ("2026-11-11 21:01"): the
+session's container was renewed, so a fresh clone with the lane branch put on main's tip (fb1c649d5; this lane's 405
+merged on 2026-11-08); main brought the bad trips lessons of 11-08 to 11-11 (08e his beliefs in every section, 09a do
+your best first, 09f each option as it would look with how sure, 09i generic model advice goes) and suggestion_review 1.11;
+UDA unchanged (AGENTS.md 7ef0bfc, LESSON-INDEX ba787e0); 309 still open; no new issues or comments; no notifications.
+
+- **Checked through PubMed** (`fix-20261108/sci-p23/SCIENCE-P23.md`, "SC-106c and his comment"; a Sonnet agent read the
+  candidate abstracts, I read the ones used): mood, one small trial (Torres 2008); memory and thinking mixed (Nowak 2018,
+  a ratio association its authors discount; Zhao 2025; Yoshida 2026); Stone Age potassium 400 +/- 125 mEq a day, more
+  than four times current intakes (Sebastian 2006); a paleo-type diet improved blood pressure and insulin in nine people
+  over ten days (Frassetto 2009). The Eaton and Konner papers' figures weren't readable (NEJM paywalled; ScienceDirect
+  refused the app's browser). GPT's PTSD diet trials go to the coherence read; one bears on Strategy A's salts (Youssef
+  2022: 21 people, ketone salts against placebo, no difference between the groups).
+- **SC-106d** (`sci-p23/texts_x1111a.py`, `build_x1111a.py`): SC-106c's change with two sentences of his view in block
+  106. A fresh reader's needed read (Haiku, `needed/sp106d/`) found those two not needed; they carry his view, so they stay
+  with their "kept" reasons, and the card shows the paragraph without them. Published to the same page as x1108d and e
+  (https://claude.ai/artifact/9nENpt9AEJCB43a9Wy5jqn, version 3, review id x1111a); smoke test at 400 and 1,200 px: one
+  card, no sideways scroll, no errors. Questions page republished.
+- **Lesson** (`docs/lessons/2026-11-11-2101-neuro.md`): neuro-2026-11-11a, when a mechanism falls the card keeps the
+  article's own question and answers it with his view and the evidence at its strength; a needed read's "not needed" on
+  his stated view goes to him as an option, not a cut. The article is unchanged this turn (8de00b80).
+- **Predictions**: none (no Pangram check).
+- **Delegations** (model, piece, check, outcome): one Sonnet agent, the PubMed abstracts on the ratio, mood, cognition and
+  paleo potassium (no files); check: I re-read every abstract the card cites (Nowak, Zhao, Yoshida, Sebastian, Frassetto,
+  Youssef): done. One Haiku agent, the needed read of SP106D (BRIEF.txt only): two sentences unneeded, kept as his view
+  and shown to him: done.
+
 ## 2026-11-08, his message of 17:09 UTC: GPT's answers on SC-106b's reasons checked; SC-106c replaces it on the same page; lesson k
 
 His message, word for word: `fix-20261108/joel-20261108-1709-message.txt` (GPT's answers to two of his questions: whether

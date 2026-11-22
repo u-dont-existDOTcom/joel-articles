@@ -1,0 +1,129 @@
+{
+ "h42-08": {
+  "reader": "a fresh Haiku agent given tools/humanization/needed_read_brief.md with the unit, its heading and what it is for (NEEDED-READ.md, h42-08)",
+  "unneeded": [
+   "And rats bred to have seizures had more of them after high-THC smoke.",
+   "The study authors suggested the dosing may have been too low, or that adults with focal epilepsy just don't respond as well as people with the syndromes oral CBD is approved for.",
+   "The seizures in Dravet and Lennox-Gastaut syndrome are mostly generalized."
+  ],
+  "kept": {
+   "And rats bred to have seizures had more of them after high-THC smoke.": "they skip high-THC smoke: it is the only line on smoke (the woman before it smoked and did better; the warning before it is vapes and concentrates)",
+   "The study authors suggested the dosing may have been too low, or that adults with focal epilepsy just don't respond as well as people with the syndromes oral CBD is approved for.": "they see the failed trial was focal epilepsy, which may respond less, so they don't take its null result as the answer for their own case",
+   "The seizures in Dravet and Lennox-Gastaut syndrome are mostly generalized.": "they see the syndromes CBD works for have their kind of seizure, the step the next sentence's 'so' stands on when it tells them the gel might do better for them"
+  }
+ },
+ "h42-17": {
+  "reader": "a fresh Haiku agent given tools/humanization/needed_read_brief.md with the unit, its heading and what it is for (NEEDED-READ.md, h42-17)",
+  "unneeded": [
+   "Nausea Smoothers When the Person Wants to Preserve the Trip",
+   "Coffee Cherry for Nausea and Brain Recharge"
+  ],
+  "kept": {
+   "Nausea Smoothers When the Person Wants to Preserve the Trip": "they find this part by its heading in the guide's contents; it is the section heading itself, typed with the unit",
+   "Coffee Cherry for Nausea and Brain Recharge": "they find the remedy by its heading among the remedies; 'Brain Recharge' names the clarity and energy the paragraph says it brings later"
+  }
+ },
+ "h42-30": {
+  "reader": "a fresh Haiku agent given tools/humanization/needed_read_brief.md with the unit, its heading and what it is for (NEEDED-READ.md, h42-30)",
+  "unneeded": [
+   "Soothing meditative music, like that of Chantress Seba and others on my music page, can be very helpful."
+  ],
+  "kept": {
+   "Soothing meditative music, like that of Chantress Seba and others on my music page, can be very helpful.": "they find the gentle music he means, Chantress Seba and others on his music page, which the line before only describes"
+  }
+ },
+ "h42-08-fix2": {
+  "reader": "a fresh Haiku agent given tools/humanization/needed_read_brief.md with the unit, its heading and what it is for (NEEDED-READ.md, h42-08-fix2)",
+  "unneeded": [
+   "The seizures in Dravet and Lennox-Gastaut syndrome are mostly generalized."
+  ],
+  "kept": {
+   "The seizures in Dravet and Lennox-Gastaut syndrome are mostly generalized.": "they see the syndromes CBD works for have their kind of seizure, the step the next sentence's 'so' stands on when it tells them the gel might do better for them"
+  }
+ },
+ "h42-20": {
+  "reader": "a fresh Haiku agent given tools/humanization/needed_read_brief.md with the unit, its heading and what it is for (NEEDED-READ.md, h42-20)",
+  "unneeded": [],
+  "kept": {}
+ },
+ "h42-22": {
+  "reader": "a fresh Haiku agent given tools/humanization/needed_read_brief.md with the unit, its heading and what it is for (NEEDED-READ.md, h42-22)",
+  "unneeded": [
+   "I noticed it in Kenya and Florida.",
+   "Rain water also works for me, but I've only tested it near the ocean.",
+   "You can also buy Quinton Medical Seawater, which has a number of health benefits when used as a nasal spray or as a source of minerals.",
+   "I don't understand the mechanism, I just know that again and again it's felt like a powerful natural remedy for a trip that's too intense.",
+   "I honestly can't say how different these are from ocean water, because I've only used them a handful of times, but I do believe they're different in certain ways.",
+   "Aged ozonated-charcoal water is different from zeolite and from swallowing charcoal.",
+   "That water doesn't fix the gut the way zeolite does."
+  ],
+  "kept": {
+   "I noticed it in Kenya and Florida.": "they know it worked for him at two different oceans, so they can expect any ocean to do, not one special beach",
+   "Rain water also works for me, but I've only tested it near the ocean.": "they can try rain water when there's no ocean, knowing he has only tested it near one",
+   "You can also buy Quinton Medical Seawater, which has a number of health benefits when used as a nasal spray or as a source of minerals.": "they can keep bottled seawater at hand when there's no ocean, since bottled water still works when they touch the water itself",
+   "I don't understand the mechanism, I just know that again and again it's felt like a powerful natural remedy for a trip that's too intense.": "they try it because it has worked for him again and again, knowing nobody can tell them why (his words 'I don't understand the mechanism' are a fidelity key, W056)",
+   "I honestly can't say how different these are from ocean water, because I've only used them a handful of times, but I do believe they're different in certain ways.": "they hold his comparison of the waters loosely, since it rests on a handful of uses",
+   "Aged ozonated-charcoal water is different from zeolite and from swallowing charcoal.": "they don't swap in zeolite or charcoal tablets for the water",
+   "That water doesn't fix the gut the way zeolite does.": "they reach for zeolite instead when their trouble is the gut"
+  }
+ },
+ "h42-25": {
+  "reader": "a fresh Haiku agent given tools/humanization/needed_read_brief.md with the unit, its heading and what it is for (NEEDED-READ.md, h42-25)",
+  "unneeded": [
+   "I do not yet have data showing that pes-caprae aborts MDMA.",
+   "MDMA remains a separate branch centered on magnesium, temperature, sodium, potassium, hydration, serotonin toxicity, seizure, and cardiovascular symptoms.",
+   "A Final Trip Killer: Niacin (a Form of Vitamin B3)",
+   "Niacin has been used for decades by orthomolecular doctors for psychotic conditions and seems to act both like a natural benzodiazepine and an antipsychotic.",
+   "The clinical literature is discussed in Niacin: The Real Story by Abram Hoffer, M.D.",
+   "Other forms of vitamin B3 seem less reliable for relaxation."
+  ],
+  "kept": {
+   "I do not yet have data showing that pes-caprae aborts MDMA.": "they don't count on beach morning glory to end MDMA (the end of the part before; the unit begins mid-section)",
+   "MDMA remains a separate branch centered on magnesium, temperature, sodium, potassium, hydration, serotonin toxicity, seizure, and cardiovascular symptoms.": "they go to the MDMA branch instead when it's MDMA, knowing what it centers on",
+   "A Final Trip Killer: Niacin (a Form of Vitamin B3)": "they find the remedy by its heading; it is the heading itself, typed with the unit",
+   "Niacin has been used for decades by orthomolecular doctors for psychotic conditions and seems to act both like a natural benzodiazepine and an antipsychotic.": "they know why niacin can end a trip at all (it seems to act like a calming drug and an antipsychotic) and that doctors have used it for decades, his reason to trust it",
+   "The clinical literature is discussed in Niacin: The Real Story by Abram Hoffer, M.D.": "they can check the evidence for themselves in the book he names before relying on it",
+   "Other forms of vitamin B3 seem less reliable for relaxation.": "they use flushing niacin rather than another B3 form, the point the next two lines make exact"
+  }
+ },
+ "anchor-a1": {
+  "reader": "a fresh Haiku agent given tools/humanization/needed_read_brief.md with the test, its heading and what it is for (NEEDED-READ.md, anchor-a1)",
+  "unneeded": [
+   "Get One Human Anchor"
+  ],
+  "kept": {
+   "Get One Human Anchor": "they find this part by its heading; it is the section heading itself, typed with the test"
+  }
+ },
+ "harm-b1": {
+  "reader": "a fresh Haiku agent given tools/humanization/needed_read_brief.md with the test, its heading and what it is for (NEEDED-READ.md, harm-b1)",
+  "unneeded": [
+   "Risk of Harm: When Peer Support Isn't Enough"
+  ],
+  "kept": {
+   "Risk of Harm: When Peer Support Isn't Enough": "they find this part by its heading; it is the section heading itself, typed with the test"
+  }
+ },
+ "h42-41-p": {
+  "reader": "a fresh Haiku agent given tools/humanization/needed_read_brief.md with the test, its heading and what it is for (NEEDED-READ.md, h42-41-p)",
+  "unneeded": [
+   "I am not repeating the simplistic Hermetic claim that opposites are required to understand anything.",
+   "A hated baby does not feel love, and a loved baby does not feel hate.",
+   "In the subconscious world of concepts, however, two sides are often considered together."
+  ],
+  "kept": {
+   "I am not repeating the simplistic Hermetic claim that opposites are required to understand anything.": "they see why shadow thoughts come up at all (the mind pairs two sides in its concepts, though he isn't saying opposites are needed to understand anything), so they can treat one as a thought, not the truth (his paragraph, in the test because the fixed one leans on it)",
+   "A hated baby does not feel love, and a loved baby does not feel hate.": "they get his example of what he is not claiming, the step before his 'however' (his paragraph)",
+   "In the subconscious world of concepts, however, two sides are often considered together.": "they see why shadow thoughts come up at all (the mind pairs two sides in its concepts, though he isn't saying opposites are needed to understand anything), so they can treat one as a thought, not the truth (his paragraph, in the test because the fixed one leans on it)"
+  }
+ },
+ "harm-b3": {
+  "reader": "a fresh Haiku agent given tools/humanization/needed_read_brief.md with the test, its heading and what it is for (NEEDED-READ.md, harm-b3)",
+  "unneeded": [
+   "Risk of Harm: When Peer Support Isn't Enough"
+  ],
+  "kept": {
+   "Risk of Harm: When Peer Support Isn't Enough": "they find this part by its heading; it is the section heading itself, typed with the test"
+  }
+ }
+}

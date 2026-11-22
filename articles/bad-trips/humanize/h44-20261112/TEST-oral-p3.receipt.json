@@ -1,0 +1,65 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-12",
+ "text_sha256": "7c33d174343a6da2893cd194640d04c3d7ed6ca2a214683bf8b10984bab2b90c",
+ "text": "Poison control can be useful when you're not sure what the substance or combination does, or whether there's a delayed risk, and they can tell you whether charcoal would be of any value. I don't treat calling them as a mandatory ritual, though, since how useful they are depends on the country and on whoever picks up. They're there to help you decide, and the first aid is still yours to do.",
+ "section": "Recent Oral Toxic Ingestion",
+ "reader": "someone with a person who swallowed too much of something recently, deciding what to do first: what to find out, whether to give activated charcoal, whether to call poison control",
+ "sentences": [
+  {
+   "s": "Poison control can be useful when you're not sure what the substance or combination does, or whether there's a delayed risk, and they can tell you whether charcoal would be of any value.",
+   "payoff": "they call poison control when they are unsure what the substance does, whether there is a delayed risk, or whether charcoal is worth it",
+   "follows": "the next help"
+  },
+  {
+   "s": "I don't treat calling them as a mandatory ritual, though, since how useful they are depends on the country and on whoever picks up.",
+   "payoff": "they know he doesn't treat calling as a must, since it varies by country and by who answers",
+   "follows": "his view of it",
+   "link": "though"
+  },
+  {
+   "s": "They're there to help you decide, and the first aid is still yours to do.",
+   "payoff": "they know poison control helps them decide and the first aid is theirs",
+   "follows": "what it is for",
+   "link": "They're there to help you decide"
+  }
+ ],
+ "checked": [],
+ "placement": "Recent Oral Toxic Ingestion, in the medical part after the acute intro (checked here by itself first, E343)",
+ "opens": {
+  "first_sentence": "Poison control can be useful when you're not sure what the substance or combination does, or whether there's a delayed risk, and they can tell you whether charcoal would be of any value.",
+  "why_reading": "it tells someone when poison control is worth calling"
+ },
+ "same_point": "none: read the section to the next heading; charcoal is said here and in the gut tools as a different use",
+ "needed": {
+  "reader": "a fresh Haiku agent given tools/humanization/needed_read_brief.md with the test, its heading and what it is for (NEEDED-READ.md, oral-s1); this paragraph is part of that test, read there in place",
+  "unneeded": [
+   "They're there to help you decide, and the first aid is still yours to do."
+  ],
+  "kept": {
+   "They're there to help you decide, and the first aid is still yours to do.": "they do the first aid themselves instead of waiting on the call"
+  }
+ },
+ "questions": {
+  "Q1": "PASS: each paragraph opens on its point (what to find out, when charcoal helps, when poison control helps)",
+  "Q2": "PASS: each instruction is the reader's own act",
+  "Q3": "PASS: \"activated charcoal\", \"poison control\" say which",
+  "Q4": "PASS: \"respiratory depression\" and \"aspiration\" explained where they are used",
+  "Q5": "PASS: \"because\", \"Then\", \"so\", \"as long as\", \"And if\", \"though\" say each relation",
+  "Q6": "PASS: what to find out, what charcoal can and can't do, then poison control",
+  "Q7": "PASS: each fact bears on what they do now",
+  "Q8": "PASS: all three paragraphs are about something swallowed",
+  "Q9": "PASS: one step a sentence"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

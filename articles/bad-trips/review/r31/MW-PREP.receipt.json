@@ -1,0 +1,73 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-09",
+ "text_sha256": "c30ae8ab2713e2c07fa8f072dc246abf7491e7c9301f74f79e5a4e8e4f79d7f1",
+ "text": "Set up the space you'll be in, and decide ahead of time what would make you call for outside help. Go in curious about what might come up, along with gentle intentions, not harboring demands for revelations, buried memories, good cries or spiritual breakthroughs. And train before you need it, sending love to a frightening image, to someone you hate (without approving of what they did), and to the inner child. Sometimes people find that when they prepare to purify themselves and open up to love, they don't even end up needing the experience itself. The work is already done.",
+ "section": "Planning a Trip or Ceremony? Give It a Beginning and an End",
+ "reader": "someone planning a psychedelic session or ceremony ahead of time who wants it to go well",
+ "sentences": [
+  {
+   "s": "Set up the space you'll be in, and decide ahead of time what would make you call for outside help.",
+   "his": true
+  },
+  {
+   "s": "Go in curious about what might come up, along with gentle intentions, not harboring demands for revelations, buried memories, good cries or spiritual breakthroughs.",
+   "his": true
+  },
+  {
+   "s": "And train before you need it, sending love to a frightening image, to someone you hate (without approving of what they did), and to the inner child.",
+   "payoff": "they practice sending love to what frightens them before the session, so it is there if the trip turns dark",
+   "follows": "it is how to go in with the gentle intentions the sentence before asks for, and the preparation the next sentence says can make the trip unneeded",
+   "link": "And train"
+  },
+  {
+   "s": "Sometimes people find that when they prepare to purify themselves and open up to love, they don't even end up needing the experience itself.",
+   "his": true
+  },
+  {
+   "s": "The work is already done.",
+   "his": true
+  }
+ ],
+ "checked": [],
+ "placement": "his preparation paragraph, between \"spiritual breakthroughs.\" and \"Sometimes people find that when they prepare to purify themselves and open up to love\"; \"it\" is the love the next sentence names",
+ "opens": {
+  "first_sentence": "Set up the space you'll be in, and decide ahead of time what would make you call for outside help.",
+  "why_reading": "it tells someone planning a session what to set up and decide before it, which is what they came to this section for"
+ },
+ "same_point": "none: read the section from its heading to the next for this point; only Demons, Jinn, Entities, and Shadow Forces says to train love beforehand, and someone planning reads this section",
+ "needed": {
+  "reader": "a fresh Haiku agent given tools/humanization/needed_read_brief.md with the paragraph, its heading and what it is for (NEEDED-READ.raw.md beside this receipt, item 3)",
+  "unneeded": [
+   "Sometimes people find that when they prepare to purify themselves and open up to love, they don't even end up needing the experience itself.",
+   "The work is already done."
+  ],
+  "kept": {
+   "Sometimes people find that when they prepare to purify themselves and open up to love, they don't even end up needing the experience itself.": "they learn that preparing to open up to love can be the whole work, which the Kenya story right after shows; it is his sentence (round 24), his to cut",
+   "The work is already done.": "they see that the preparation itself can be the healing, as the Kenya story right after shows; a fresh reader found the story unclear without it (humanize/h33-20261108/RESULTS.md); it is his sentence (round 24), his to cut"
+  }
+ },
+ "questions": {
+  "Q1": "PASS: the act first (train), then what to send love to",
+  "Q2": "PASS: it says what to do and when: before the session",
+  "Q3": "PASS: the three things to send love to, named",
+  "Q4": "PASS: \"inner child\" is the guide's term, explained in Hand on Heart and Gratitude and his inner child guide",
+  "Q5": "PASS: \"And\" adds the practice to the intentions before it; \"it\" is the love the next sentence names",
+  "Q6": "PASS: intentions, how to prepare them, what preparing can do",
+  "Q7": "PASS: for someone planning, before the session",
+  "Q8": "PASS: a preparation, in the preparation paragraph",
+  "Q9": "PASS: one practice in one sentence, its list cut to three"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ },
+ "his_whose": "his own: his round-24 version of Give the Session a Beginning and an End, as the guide has it (2026-11-08 15:01 UTC, 'themself' fixed)"
+}

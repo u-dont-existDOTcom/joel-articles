@@ -1,0 +1,96 @@
+{
+ "format": "joel-suggestion-review-answers-v1",
+ "review_id": "bad-trips-r31",
+ "title": "Bad Trips Guide, Round 31",
+ "git_file": "articles/bad-trips/review/r31/REVIEW-R31.html",
+ "article": {
+  "file": "articles/bad-trips/review/r31/PAGE-R31.md",
+  "sha256": "2fb3325dbc879b5a984af0ae4705432aba381096e3705bb81946172e9c239341"
+ },
+ "built": "2026-11-09",
+ "generator": "suggestion_review.py 1.10 (2026-11-07)",
+ "exported_at": "2026-11-09T18:59:05.811Z",
+ "counts": {
+  "approved": 2,
+  "rejected": 0,
+  "revise": 1,
+  "pending": 1
+ },
+ "items": [
+  {
+   "id": "AFT-PLACE",
+   "type": "structure",
+   "title": "1. Paranoia and derealization: in the support section, or where they are?",
+   "where": "What Kind of Aftermath Is This?, P7",
+   "advice": "ask",
+   "status": "answered",
+   "question": "Bring in mental-health support when: now comes right after What Kind of Aftermath Is This?, which you said would make moving these two there an easy choice. How each option would read:\n\nA (your idea): both move under the support list, after its six lines, as you wrote them, and your aftermath list keeps one line where they were:\n    - Derealization and depersonalization, paranoia or psychosis-like beliefs: see Bring in mental-health support, right below.\nand the support section ends:\n    - Derealization and depersonalization (when the world, or you yourself, feel unreal): Is it due to isolation? Rumination (which often goes along with isolation)? Peer and family support are crucial to combat those. Some things that tend to help are related to reconnecting with the feelings in your body: taking walks in nature (with bare feet for grounding to the Earth), doing gentle yin yoga, and Somatic Experiencing, a therapy that works through body sensations.\n    - Paranoia or psychosis-like beliefs: Here we gotta be careful because this can spiral out of control and get dangerous quickly. I'd seek professional support while utilizing the relatively safe and natural antipsychotics mentioned in this guide, like DMSO, syrian rue OIL, and niacin.\nPro: the two kinds most likely to need a professional sit with the lines on when to bring one in. Con: that list says when to get help, and your two items say what helps, so it becomes two kinds of list; and a reader a week on still looks in the aftermath list first (the fresh readers did), then has to follow the line.\n\nB: only paranoia moves, with the same kind of line left in your list. Your paranoia item says to bring in professional support; your derealization item's help is all things the reader can do (people, walks, yin yoga, Somatic Experiencing), so it stays with the other kinds. Pro: each kind sits with what it asks for. Con: the support list still changes what it is, for one item.\n\nC (my pick): both stay where they are, and the support list now follows them. Pro: nothing moves; readers find them where they look first; your paranoia item already says to seek professional support, and the next thing they read is when to. Con: the two kinds that may need a professional sit just above the support list rather than in it.",
+   "your_version": "",
+   "comment": "c",
+   "my_version": "",
+   "before": "",
+   "history": [],
+   "updated": "2026-11-09T18:58:45.750Z"
+  },
+  {
+   "id": "MW-ALONE",
+   "type": "method",
+   "title": "Alone at 3 a.m.: your method for someone with no sitter",
+   "where": "Alone at 3 a.m., P2",
+   "advice": "approve",
+   "status": "revise",
+   "your_version": "While you wait, put one hand on your heart and the other on your solar plexus just under your chest, and say to yourself: \"This feeling is allowed to move through. I can love the part of me that feels it.\"",
+   "comment": "belly must be an ai error, it's funny it keeps changing that",
+   "my_version": "While you wait, put one hand on your heart and the other on your belly, and say to yourself: \"This feeling is allowed to move through. I can love the part of me that feels it.\"",
+   "before": "",
+   "history": [
+    {
+     "from": "pending",
+     "to": "revise",
+     "at": "2026-11-09T18:56:49.290Z"
+    }
+   ],
+   "updated": "2026-11-09T18:57:27.493Z"
+  },
+  {
+   "id": "MW-BREATH",
+   "type": "method",
+   "title": "Grounding Menu, Breath: \"I can love the part of me that feels it.\"",
+   "where": "Grounding Menu: Choose One or Two Things, P19",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "Whisper: \"This is a wave. I can love the part of me that feels it.\"",
+   "before": "Whisper: \"This is a wave.\"",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-09T18:56:36.738Z"
+    }
+   ],
+   "updated": "2026-11-09T18:56:36.738Z"
+  },
+  {
+   "id": "MW-PREP",
+   "type": "method",
+   "title": "Planning a Trip or Ceremony?: train love before you need it",
+   "where": "Planning a Trip or Ceremony? Give It a Beginning and an End, P3",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "Set up the space you'll be in, and decide ahead of time what would make you call for outside help. Go in curious about what might come up, along with gentle intentions, not harboring demands for revelations, buried memories, good cries or spiritual breakthroughs. And train before you need it, sending love to a frightening image, to someone you hate (without approving of what they did), and to the inner child. Sometimes people find that when they prepare to purify themselves and open up to love, they don't even end up needing the experience itself. The work is already done.",
+   "before": "Set up the space you'll be in, and decide ahead of time what would make you call for outside help. Go in curious about what might come up, along with gentle intentions, not harboring demands for revelations, buried memories, good cries or spiritual breakthroughs. Sometimes people find that when they prepare to purify themselves and open up to love, they don't even end up needing the experience itself. The work is already done.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-09T18:59:03.219Z"
+    }
+   ],
+   "updated": "2026-11-09T18:59:03.219Z"
+  }
+ ]
+}

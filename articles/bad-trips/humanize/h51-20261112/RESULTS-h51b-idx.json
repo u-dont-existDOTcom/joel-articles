@@ -1,0 +1,84 @@
+{
+ "seize-c11": [
+  "Human Written",
+  0,
+  272,
+  "1d90cd9d-7014-4d9b-b19f-e49424a87f94",
+  "2026-11-12T22:55:37.334Z",
+  [
+   [
+    "Human",
+    "High",
+    40,
+    0,
+    251,
+    "Active Seizure\nTime the "
+   ],
+   [
+    "Human",
+    "Medium",
+    4,
+    251,
+    280,
+    "- Loosen any tight cloth"
+   ],
+   [
+    "Human",
+    "High",
+    60,
+    280,
+    604,
+    "- Turn them gently onto "
+   ],
+   [
+    "Human",
+    "Medium",
+    6,
+    604,
+    645,
+    "- Their breathing gets s"
+   ],
+   [
+    "Human",
+    "High",
+    162,
+    645,
+    1592,
+    "- Their lips turn blue o"
+   ]
+  ]
+ ],
+ "callp-c4": [
+  "AI Generated",
+  1,
+  75,
+  "14de8a4b-0a31-4cf0-9be6-db18bb676461",
+  "2026-11-12T22:55:27.787Z",
+  [
+   [
+    "AI-Generated",
+    "Low",
+    42,
+    0,
+    216,
+    "Call medics if any of th"
+   ],
+   [
+    "AI-Generated",
+    "Medium",
+    21,
+    216,
+    342,
+    "- Their lips turn blue o"
+   ],
+   [
+    "AI-Generated",
+    "Low",
+    12,
+    342,
+    406,
+    "- They injure their head"
+   ]
+  ]
+ ]
+}

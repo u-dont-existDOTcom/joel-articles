@@ -1,0 +1,77 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-20",
+ "text_sha256": "99267f1bf38f85b8d99a7cde4fab99b76ec1006c687b15336fc5e780f2fb2565",
+ "text": "When somebody says, \"I am God, so I can kill,\" take it as a sign they could really hurt someone. To lead them back to not hurting anyone, start from what they believe, like the lines below do by saying God is in everyone. Arguing (\"No you're not,\" \"That's delusional\") can make them dig in to prove they're God. And if you nod along as if hurting someone could be spiritually fine, they might hear it as permission.",
+ "section": "For the Person Helping: When What They Say Turns Toward Harm",
+ "reader": "someone sitting with a tripping friend who has just said something like \"I am God, so I can kill\", reading what to do right now, before the script that follows",
+ "sentences": [
+  {
+   "s": "When somebody says, \"I am God, so I can kill,\" take it as a sign they could really hurt someone.",
+   "payoff": "they take the words as a sign their friend could really hurt someone",
+   "follows": "the heading names the case; this says what it means the moment they hear it"
+  },
+  {
+   "s": "To lead them back to not hurting anyone, start from what they believe, like the lines below do by saying God is in everyone.",
+   "payoff": "they know what to do with it: to lead the friend back to not hurting anyone, start from the friend's own belief, the way the script below does with \"God is in everyone\"",
+   "follows": "after what it means, what to do about it",
+   "link": "To lead them back"
+  },
+  {
+   "s": "Arguing (\"No you're not,\" \"That's delusional\") can make them dig in to prove they're God.",
+   "payoff": "they know not to argue (\"No you're not\"), since it can make the friend dig in to prove they're God",
+   "follows": "the first easy mistake, after the way to go",
+   "link": "none: what not to do, which the reader expects after what to do"
+  },
+  {
+   "s": "And if you nod along as if hurting someone could be spiritually fine, they might hear it as permission.",
+   "payoff": "they know not to nod along either, since the friend might hear it as permission",
+   "follows": "the other mistake, the opposite of arguing",
+   "link": "And if you nod along"
+  }
+ ],
+ "checked": [],
+ "placement": "first paragraph under \"When What They Say Turns Toward Harm\", before the script (\"Non-combative philosophical grounding\") and the lines after it, which \"the lines below\" points to",
+ "opens": {
+  "first_sentence": "When somebody says, \"I am God, so I can kill,\" take it as a sign they could really hurt someone.",
+  "why_reading": "it names the moment they are in (a friend saying \"I am God, so I can kill\") and says what it means"
+ },
+ "same_point": "none: read the section from its heading to the next for how to take the statement and what not to do: the script after it gives the words to say, and \"When talk of harm continues\" says what to do when the script doesn't work; only this paragraph says how to take it and the two mistakes",
+ "needed": {
+  "reader": "a fresh agent (Sonnet) given tools/humanization/needed_read_brief.md with only the text, its heading and what it is for (reads/need-d01-harm-1.txt; the draft it read: reads/read-text-d01-harm-1.txt)",
+  "unneeded": [],
+  "kept": {}
+ },
+ "his_fixes": {
+  "reader": "a fresh agent (Sonnet) given tools/humanization/his_fixes_brief.md, the eleven ways, with the text one sentence a line (reads/his-d01-harm-1.txt; the draft it read: reads/read-text-d01-harm-1.txt)",
+  "marked": [],
+  "kept": {}
+ },
+ "fit": {
+  "reader": "a fresh agent (Sonnet) given tools/humanization/fit_read_brief.md, the universal version (reads/fit-d01-harm-1.txt; the draft it read: reads/read-text-d01-harm-1.txt)",
+  "marked": [],
+  "kept": {}
+ },
+ "questions": {
+  "Q1": "PASS: the payoff first in the second sentence too (\"To lead them back to not hurting anyone, start from what they believe\", his Hunter fix, lesson 20c); the sign, what to do, the two mistakes",
+  "Q2": "PASS: take it as a sign, start from what they believe, lead them back; arguing and nodding along each with what it can do",
+  "Q3": "PASS: \"they could really hurt someone\" (the panel: \"someone could get hurt\" was vague about who); \"the lines below do by saying God is in everyone\" (the read against his fixes: \"when they say\" could be the friend)",
+  "Q4": "PASS: no term a high-school graduate wouldn't know; \"status fight\" said as \"a fight over who's right\"",
+  "Q5": "PASS: the second sentence says what to do with the sign; the third turns to what not to do",
+  "Q6": "PASS: what it means, what to do, what not to do: the order a helper needs it in",
+  "Q7": "PASS: each sentence is about this friend saying this now",
+  "Q8": "PASS: one paragraph, one statement and how to answer it",
+  "Q9": "PASS: the two mistakes in two sentences, as the read against his fixes asked of c01"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

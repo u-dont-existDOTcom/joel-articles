@@ -1,0 +1,134 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-19",
+ "text_sha256": "a02e9d9e71b65136a7f9c0890212bdc6b9ec2851458ade713375e252a01f08df",
+ "text": "Once their jaw tenses, I'd make that their last dose of MDMA, since more only adds to the toxicity, and get them to slow down and cool off. I'd also watch how much plain water they drink. If they're downing bottle after bottle, even a single normal dose raises the risk of their sodium dropping too low, so give them an electrolyte drink to sip when they're thirsty instead. Low sodium tends to show up as a headache that keeps getting worse, often with throwing up or confusion, and low potassium can leave their muscles so weak they can barely stand, or their heartbeat feeling irregular (palpitations). Call medics for any of these, and get them there right away for a seizure or collapse.",
+ "section": "MDMA: Jaw Tension Is the Magnesium Alarm",
+ "reader": "someone with a friend (or themselves) on MDMA whose jaw has tensed up, after the author's magnesium chloride method and his second wife's story of critically low potassium, deciding what else to do and what to watch for",
+ "sentences": [
+  {
+   "s": "Once their jaw tenses, I'd make that their last dose of MDMA, since more only adds to the toxicity, and get them to slow down and cool off.",
+   "payoff": "they make the jaw tension their friend's last dose and get them to slow down and cool off, knowing more MDMA only adds to the toxicity",
+   "follows": "his paragraph before: magnesium first for jaw tension, and the toxicity he names; this is what else to do"
+  },
+  {
+   "s": "I'd also watch how much plain water they drink.",
+   "payoff": "they keep an eye on how much plain water their friend drinks",
+   "follows": "the first risk after the dose, in his first person",
+   "link": "I'd also watch"
+  },
+  {
+   "s": "If they're downing bottle after bottle, even a single normal dose raises the risk of their sodium dropping too low, so give them an electrolyte drink to sip when they're thirsty instead.",
+   "payoff": "they give an electrolyte drink to sip when thirsty if their friend is downing bottle after bottle, since even one normal dose can then drop sodium",
+   "follows": "what decides the risk first (lesson 19a), then the finding, then what to do",
+   "link": "If they're downing"
+  },
+  {
+   "s": "Low sodium tends to show up as a headache that keeps getting worse, often with throwing up or confusion, and low potassium can leave their muscles so weak they can barely stand, or their heartbeat feeling irregular (palpitations).",
+   "payoff": "they know how low sodium and low potassium tend to show up, past what MDMA does anyway",
+   "follows": "the signs of the two risks, sodium's just named and potassium's from his paragraph before",
+   "link": "Low sodium tends"
+  },
+  {
+   "s": "Call medics for any of these, and get them there right away for a seizure or collapse.",
+   "payoff": "they call medics for any of these, and get them there right away for a seizure or collapse",
+   "follows": "one call for every sign above, the most serious last",
+   "link": "Call medics"
+  }
+ ],
+ "checked": [
+  {
+   "point": "the trial the paragraph links (PubMed 39546312, Atila et al. 2024)",
+   "found": "four placebo-controlled trials, 96 healthy volunteers given one 100 or 125 mg dose; low sodium in 30 (31%), all of them among the 81 whose drinking was not limited, none of the 15 whose drinking was",
+   "still_needed": "yes: they know one normal dose can drop sodium when someone drinks a lot of plain water, so they have them sip an electrolyte drink; the number goes (the needed read)",
+   "fate": "changed"
+  },
+  {
+   "point": "the kidney review the paragraph linked (PubMed 27917269, Bora et al. 2016)",
+   "found": "acute kidney injury from rhabdomyolysis, malignant hypertension and necrotizing vasculitis; fatal cases from hyponatremia, hyperthermia and rhabdomyolysis",
+   "still_needed": "yes: they know MDMA can injure the kidneys, which the next paragraph (B120) says with the same review now linked on its \"acute kidney injury\"; here it went, so the paragraphs don't say it twice",
+   "fate": "changed"
+  }
+ ],
+ "placement": "MDMA: Jaw Tension Is the Magnesium Alarm, after his second wife's story (B118) and before the kidney paragraph (B120)",
+ "opens": {
+  "first_sentence": "Once their jaw tenses, I'd make that their last dose of MDMA, since more only adds to the toxicity, and get them to slow down and cool off.",
+  "why_reading": "it tells someone whose friend's jaw has tensed on MDMA what to do now and which signs mean medics"
+ },
+ "same_point": "B120 says MDMA can cause acute kidney injury, with the review linked there now; the guide's call list names a seizure and a collapse in general; this paragraph says them for MDMA with what each can mean",
+ "needed": {
+  "reader": "a fresh agent given tools/humanization/needed_read_brief.md with only the text, its heading and what it is for (reads/need-mdma-c5.txt) (it read the text before the fixes below: reads/read-text-mdma-c5.txt)",
+  "unneeded": [],
+  "kept": {}
+ },
+ "his_fixes": {
+  "reader": "a fresh agent given tools/humanization/his_fixes_brief.md with the text, one sentence a line (reads/his-mdma-c5.txt) (it read the text before the fixes below: reads/read-text-mdma-c5.txt)",
+  "marked": [
+   {
+    "s": "I'd also watch how much plain water they drink, because if it's a lot, even a single normal dose raises the risk of their sodium dropping too low (an electrolyte drink, sipped when they're thirsty, is better).",
+    "difference": "1, 4",
+    "draft": "mdma-c5 as read"
+   },
+   {
+    "s": "A headache that keeps getting worse, especially with throwing up or confusion, is how low sodium often shows up, and that's when I'd call medics.",
+    "difference": "2",
+    "draft": "mdma-c5 as read"
+   },
+   {
+    "s": "Muscles that keep getting weaker, or a heart that starts skipping beats (palpitations), can mean their potassium is low, which is what they found in my second wife, so that's a call to medics too.",
+    "difference": "1, 2, 4",
+    "draft": "mdma-c5 as read"
+   },
+   {
+    "s": "And a seizure or collapse means MDMA toxicity has turned into an emergency, so get medics there right away.",
+    "difference": "2, 6",
+    "draft": "mdma-c5 as read"
+   }
+  ],
+  "kept": {}
+ },
+ "fit": {
+  "reader": "a fresh agent given tools/humanization/fit_read_brief.md, the universal version (reads/fit-mdma-c5.txt) (it read the text before the fixes below: reads/read-text-mdma-c5.txt)",
+  "marked": [
+   {
+    "s": "Once their jaw tenses, I'd make that their last dose of MDMA and get them to slow down and cool off.",
+    "found": "ANYWAY"
+   },
+   {
+    "s": "I'd also watch how much plain water they drink, because if it's a lot, even a single normal dose raises the risk of their sodium dropping too low (an electrolyte drink, sipped when they're thirsty, is better).",
+    "found": "CAN'T TELL"
+   },
+   {
+    "s": "A headache that keeps getting worse, especially with throwing up or confusion, is how low sodium often shows up, and that's when I'd call medics.",
+    "found": "ANYWAY"
+   },
+   {
+    "s": "Muscles that keep getting weaker, or a heart that starts skipping beats (palpitations), can mean their potassium is low, which is what they found in my second wife, so that's a call to medics too.",
+    "found": "ANYWAY, CAN'T TELL"
+   }
+  ],
+  "kept": {}
+ },
+ "questions": {
+  "Q1": "PASS: the last dose and why first; what decides the sodium risk before the finding (lesson 19a); the signs, then one call",
+  "Q2": "PASS: get them to slow down and cool off, have them sip, call medics: the helper's acts",
+  "Q3": "PASS: \"an electrolyte drink\", \"when they're thirsty\", \"keeps getting worse\", \"keeps coming back\"",
+  "Q4": "PASS: no term left unexplained (\"palpitations\" a word the guide uses throughout)",
+  "Q5": "PASS: each sign leads to what to do; the seizure line turns on \"And if\"",
+  "Q6": "PASS: stop and cool, then water, then the signs from milder to the seizure",
+  "Q7": "PASS: each bears on a friend on MDMA with a tense jaw",
+  "Q8": "PASS: the sodium signs together, the potassium signs together",
+  "Q9": "PASS: one idea a sentence; the two electrolytes' signs side by side in one"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

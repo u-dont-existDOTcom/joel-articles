@@ -1,0 +1,1816 @@
+{
+ "about": "Joel, 2026-11-21 13:07 UTC: \"in that approach you should recommend how to improve the guide so the real readers will also know where they would look for the sections\". Five blind card sorts filed every section of the 4 November text under the heading a reader thought it belongs to (runs 3, 4, 5, 5b and 6 in ../t133-order/, each with a different frame). Where most of them would look under a different part or role than the one it sits in now, a real reader may look there too: that place needs a pointer, or its part a line saying what it holds.",
+ "outline_now": [
+  {
+   "key": "N001",
+   "level": 1,
+   "name": "Understanding Reparenting"
+  },
+  {
+   "key": "S002",
+   "level": 2,
+   "name": "Céline on the Inner Child"
+  },
+  {
+   "key": "N002",
+   "level": 2,
+   "name": "Chicken-and-Egg Problem"
+  },
+  {
+   "key": "N003",
+   "level": 2,
+   "name": "Five Stages of Reparenting"
+  },
+  {
+   "key": "N004",
+   "level": 2,
+   "name": "My Journey"
+  },
+  {
+   "key": "N005",
+   "level": 1,
+   "name": "Safety and Readiness"
+  },
+  {
+   "key": "N006",
+   "level": 2,
+   "name": "Dip Your Toes In First"
+  },
+  {
+   "key": "N007",
+   "level": 2,
+   "name": "Your Body May Need Love"
+  },
+  {
+   "key": "N008",
+   "level": 3,
+   "name": "Therapy Stirs Things Up"
+  },
+  {
+   "key": "N009",
+   "level": 3,
+   "name": "“No. I Hate Myself.”"
+  },
+  {
+   "key": "N010",
+   "level": 2,
+   "name": "When You’re the Danger"
+  },
+  {
+   "key": "N011",
+   "level": 3,
+   "name": "Ill Will & Loving-Kindness"
+  },
+  {
+   "key": "N012",
+   "level": 2,
+   "name": "If You Want to Kill Yourself"
+  },
+  {
+   "key": "N013",
+   "level": 3,
+   "name": "The Spiritual Side"
+  },
+  {
+   "key": "N014",
+   "level": 3,
+   "name": "This Precious Human Life"
+  },
+  {
+   "key": "S016",
+   "level": 3,
+   "name": ""
+  },
+  {
+   "key": "N015",
+   "level": 1,
+   "name": "Building Your Inner Adult"
+  },
+  {
+   "key": "N016",
+   "level": 2,
+   "name": "Borrowed Adulthood"
+  },
+  {
+   "key": "N017",
+   "level": 3,
+   "name": "Borrow, Don’t Sell Out"
+  },
+  {
+   "key": "N018",
+   "level": 3,
+   "name": "Signs of Manipulation"
+  },
+  {
+   "key": "N019",
+   "level": 3,
+   "name": "One Skill at a Time"
+  },
+  {
+   "key": "N020",
+   "level": 3,
+   "name": "Noticing Counts"
+  },
+  {
+   "key": "N021",
+   "level": 2,
+   "name": "The Protector"
+  },
+  {
+   "key": "N022",
+   "level": 3,
+   "name": "Talk to the hand!✋🏿"
+  },
+  {
+   "key": "N023",
+   "level": 3,
+   "name": "Making It Intentional"
+  },
+  {
+   "key": "N024",
+   "level": 3,
+   "name": "Protect Them From You"
+  },
+  {
+   "key": "N025",
+   "level": 3,
+   "name": "The Parent You Inherited"
+  },
+  {
+   "key": "N026",
+   "level": 4,
+   "name": "Reframe the Critic"
+  },
+  {
+   "key": "N075",
+   "level": 3,
+   "name": "Answer the Disciplinarian"
+  },
+  {
+   "key": "N027",
+   "level": 3,
+   "name": "Earning trust, day to day"
+  },
+  {
+   "key": "N028",
+   "level": 2,
+   "name": "The Nurturer"
+  },
+  {
+   "key": "N029",
+   "level": 3,
+   "name": "Love Before Trust ❤️"
+  },
+  {
+   "key": "N030",
+   "level": 3,
+   "name": "If Love Isn’t Coming Yet"
+  },
+  {
+   "key": "N031",
+   "level": 3,
+   "name": "Borrow Someone’s Love"
+  },
+  {
+   "key": "N032",
+   "level": 3,
+   "name": "Borrow the Love You Give"
+  },
+  {
+   "key": "N069",
+   "level": 3,
+   "name": "Shame Says “Unlovable”"
+  },
+  {
+   "key": "N070",
+   "level": 4,
+   "name": "“And So That’s the Way It Happened!”"
+  },
+  {
+   "key": "N071",
+   "level": 3,
+   "name": "Forgiving, Not Forgetting"
+  },
+  {
+   "key": "N072",
+   "level": 4,
+   "name": "Forgiving Yourself"
+  },
+  {
+   "key": "N033",
+   "level": 3,
+   "name": "Show Up Just for Joy"
+  },
+  {
+   "key": "N034",
+   "level": 3,
+   "name": "Goodwill: A Smaller Door"
+  },
+  {
+   "key": "S041",
+   "level": 3,
+   "name": "Divine Love: Bigger Door"
+  },
+  {
+   "key": "N045",
+   "level": 2,
+   "name": "The Inner Guide"
+  },
+  {
+   "key": "N050",
+   "level": 3,
+   "name": "Ready for the Guide?"
+  },
+  {
+   "key": "N051",
+   "level": 3,
+   "name": "Spoil or Clamp Down?"
+  },
+  {
+   "key": "S045",
+   "level": 3,
+   "name": "Borrow a Guide to Build It"
+  },
+  {
+   "key": "N046",
+   "level": 4,
+   "name": "Borrow Hindsight"
+  },
+  {
+   "key": "N047",
+   "level": 4,
+   "name": "You Did It Well Before"
+  },
+  {
+   "key": "N073",
+   "level": 3,
+   "name": "Re-do Trauma Memories"
+  },
+  {
+   "key": "N074",
+   "level": 4,
+   "name": "Discipline Done Right?"
+  },
+  {
+   "key": "N048",
+   "level": 3,
+   "name": "Healthy Mind, Not Perfect"
+  },
+  {
+   "key": "N043",
+   "level": 3,
+   "name": "Toward Divine Love"
+  },
+  {
+   "key": "N035",
+   "level": 4,
+   "name": "Ask God for a Loan 🫶🏿"
+  },
+  {
+   "key": "N037",
+   "level": 5,
+   "name": "Mo' Money, Mo' Problems"
+  },
+  {
+   "key": "N044",
+   "level": 4,
+   "name": "The Joy In Sorrow"
+  },
+  {
+   "key": "N049",
+   "level": 4,
+   "name": "You Belong Everywhere"
+  },
+  {
+   "key": "N038",
+   "level": 3,
+   "name": "Invite Your Little One In"
+  },
+  {
+   "key": "N039",
+   "level": 4,
+   "name": "A Heart to Child Loop"
+  },
+  {
+   "key": "N040",
+   "level": 3,
+   "name": "Betrayed by a Teacher"
+  },
+  {
+   "key": "S057",
+   "level": 3,
+   "name": ""
+  },
+  {
+   "key": "N052",
+   "level": 1,
+   "name": "Practice With Your Little One"
+  },
+  {
+   "key": "N053",
+   "level": 2,
+   "name": "Start With What Shows Up"
+  },
+  {
+   "key": "N041",
+   "level": 2,
+   "name": "Make a Simple Vow"
+  },
+  {
+   "key": "N042",
+   "level": 3,
+   "name": "Remind Yourself"
+  },
+  {
+   "key": "N054",
+   "level": 2,
+   "name": "No Inner Monologue?"
+  },
+  {
+   "key": "N055",
+   "level": 2,
+   "name": "Childhood Photos, Gently"
+  },
+  {
+   "key": "N056",
+   "level": 2,
+   "name": "Journal With Each Hand"
+  },
+  {
+   "key": "N057",
+   "level": 3,
+   "name": "Which thoughts to talk to"
+  },
+  {
+   "key": "N058",
+   "level": 3,
+   "name": "If no answer comes"
+  },
+  {
+   "key": "N059",
+   "level": 3,
+   "name": "If you do get an answer"
+  },
+  {
+   "key": "N060",
+   "level": 3,
+   "name": "If it tells you to act"
+  },
+  {
+   "key": "N062",
+   "level": 2,
+   "name": "Catch the Hook Early"
+  },
+  {
+   "key": "N064",
+   "level": 2,
+   "name": "A Passing Feeling"
+  },
+  {
+   "key": "N061",
+   "level": 3,
+   "name": "If it’s anxiety"
+  },
+  {
+   "key": "N063",
+   "level": 2,
+   "name": "Gentle Mantra Meditation"
+  },
+  {
+   "key": "N065",
+   "level": 2,
+   "name": "Morning & Night Practice"
+  },
+  {
+   "key": "N066",
+   "level": 2,
+   "name": "Close the Session"
+  },
+  {
+   "key": "N076",
+   "level": 1,
+   "name": "When Practice Gets Hard"
+  },
+  {
+   "key": "N077",
+   "level": 2,
+   "name": "When It Feels Fake"
+  },
+  {
+   "key": "N079",
+   "level": 2,
+   "name": "No Clear Child Yet?"
+  },
+  {
+   "key": "N080",
+   "level": 2,
+   "name": "Real but Shallow?"
+  },
+  {
+   "key": "N087",
+   "level": 2,
+   "name": "The Urge to Escape"
+  },
+  {
+   "key": "N088",
+   "level": 3,
+   "name": "Physical Pain?"
+  },
+  {
+   "key": "N089",
+   "level": 4,
+   "name": "Listen to Your Body!"
+  },
+  {
+   "key": "N081",
+   "level": 2,
+   "name": "Healing or Checking?"
+  },
+  {
+   "key": "N082",
+   "level": 2,
+   "name": "Is It Helping?"
+  },
+  {
+   "key": "N083",
+   "level": 2,
+   "name": "When to Change Strategy"
+  },
+  {
+   "key": "N084",
+   "level": 3,
+   "name": "How Many Tries?"
+  },
+  {
+   "key": "N085",
+   "level": 3,
+   "name": "Right Steps, No Results?"
+  },
+  {
+   "key": "N086",
+   "level": 3,
+   "name": "If you’d rather stop"
+  },
+  {
+   "key": "N090",
+   "level": 1,
+   "name": "Altered States"
+  },
+  {
+   "key": "N091",
+   "level": 2,
+   "name": "Therapy or Escapism?"
+  },
+  {
+   "key": "N078",
+   "level": 3,
+   "name": "Altered Can Make It Real"
+  },
+  {
+   "key": "N102",
+   "level": 2,
+   "name": "Attacked by a Demon?"
+  },
+  {
+   "key": "N103",
+   "level": 3,
+   "name": "Spirit Attacks Teach Love"
+  },
+  {
+   "key": "N092",
+   "level": 2,
+   "name": "What to Do With a Peak"
+  },
+  {
+   "key": "N093",
+   "level": 2,
+   "name": "Losing Touch With Reality"
+  },
+  {
+   "key": "N094",
+   "level": 3,
+   "name": "If a past trip went badly"
+  },
+  {
+   "key": "N095",
+   "level": 3,
+   "name": "Is Paranoia a Warning?"
+  },
+  {
+   "key": "N096",
+   "level": 3,
+   "name": "Mania or Psychosis Risk"
+  },
+  {
+   "key": "N097",
+   "level": 3,
+   "name": "Who counts as trusted"
+  },
+  {
+   "key": "N098",
+   "level": 3,
+   "name": "Confused After Trips?"
+  },
+  {
+   "key": "N099",
+   "level": 3,
+   "name": "Quitting Meds or Alcohol"
+  },
+  {
+   "key": "N100",
+   "level": 3,
+   "name": "What you mix"
+  },
+  {
+   "key": "N104",
+   "level": 3,
+   "name": "Life’s a trip also"
+  },
+  {
+   "key": "N101",
+   "level": 2,
+   "name": "My Trips Came Too Soon"
+  },
+  {
+   "key": "S108",
+   "level": 2,
+   "name": ""
+  },
+  {
+   "key": "N105",
+   "level": 1,
+   "name": "Reparenting in Real Life"
+  },
+  {
+   "key": "N106",
+   "level": 2,
+   "name": "Play and Your Preferences"
+  },
+  {
+   "key": "N107",
+   "level": 3,
+   "name": "Play Is Part of the Work"
+  },
+  {
+   "key": "N108",
+   "level": 3,
+   "name": "From Survival to Play"
+  },
+  {
+   "key": "N109",
+   "level": 3,
+   "name": "Let the Child Be Bad at It"
+  },
+  {
+   "key": "N110",
+   "level": 2,
+   "name": "Keeping Your Own Ground"
+  },
+  {
+   "key": "N111",
+   "level": 3,
+   "name": "Belonging Bargains"
+  },
+  {
+   "key": "N112",
+   "level": 4,
+   "name": "Four Pairs That Hook"
+  },
+  {
+   "key": "N113",
+   "level": 3,
+   "name": "Practicing Differentiation"
+  },
+  {
+   "key": "N132",
+   "level": 3,
+   "name": "A Break From Family"
+  },
+  {
+   "key": "N114",
+   "level": 3,
+   "name": "Guilty for Being Happy?"
+  },
+  {
+   "key": "N115",
+   "level": 2,
+   "name": "Finding Your People"
+  },
+  {
+   "key": "N117",
+   "level": 3,
+   "name": "Connecting Genuinely"
+  },
+  {
+   "key": "N118",
+   "level": 3,
+   "name": "Open Up at Your Pace"
+  },
+  {
+   "key": "N119",
+   "level": 4,
+   "name": "Before You Tell Secrets"
+  },
+  {
+   "key": "N068",
+   "level": 3,
+   "name": "How To Let People In"
+  },
+  {
+   "key": "N120",
+   "level": 3,
+   "name": "Ask What They Need"
+  },
+  {
+   "key": "N122",
+   "level": 3,
+   "name": "Dating While You Heal"
+  },
+  {
+   "key": "N135",
+   "level": 3,
+   "name": "The Love Has to Move"
+  },
+  {
+   "key": "N121",
+   "level": 3,
+   "name": "Hearthwork: Take Turns"
+  },
+  {
+   "key": "N136",
+   "level": 2,
+   "name": "Finding a Therapist"
+  },
+  {
+   "key": "N137",
+   "level": 3,
+   "name": "Reparenting Therapists"
+  },
+  {
+   "key": "N138",
+   "level": 3,
+   "name": "Licensed Therapists"
+  },
+  {
+   "key": "N139",
+   "level": 3,
+   "name": "Before You Choose"
+  },
+  {
+   "key": "N140",
+   "level": 3,
+   "name": "AI therapy"
+  },
+  {
+   "key": "N123",
+   "level": 2,
+   "name": "Speaking Up in Conflict"
+  },
+  {
+   "key": "N124",
+   "level": 3,
+   "name": "If Hurt or Threatened"
+  },
+  {
+   "key": "N125",
+   "level": 3,
+   "name": "Aim Your Words"
+  },
+  {
+   "key": "N127",
+   "level": 3,
+   "name": "Write It. Don’t Send It Yet."
+  },
+  {
+   "key": "N128",
+   "level": 3,
+   "name": "If You Did Hurt Them"
+  },
+  {
+   "key": "N129",
+   "level": 3,
+   "name": "If They Can’t Hear You"
+  },
+  {
+   "key": "N130",
+   "level": 4,
+   "name": "Can They Change?"
+  },
+  {
+   "key": "N131",
+   "level": 4,
+   "name": "Less Safe With Them?"
+  },
+  {
+   "key": "N133",
+   "level": 2,
+   "name": "Between Old & New Lives"
+  },
+  {
+   "key": "N134",
+   "level": 3,
+   "name": "Missing Someone"
+  },
+  {
+   "key": "N141",
+   "level": 1,
+   "name": "Conclusion and Appendix"
+  },
+  {
+   "key": "N142",
+   "level": 2,
+   "name": "Worthy of Love. Always."
+  },
+  {
+   "key": "N143",
+   "level": 2,
+   "name": "Appendix"
+  },
+  {
+   "key": "N144",
+   "level": 3,
+   "name": "Similar Therapies"
+  },
+  {
+   "key": "N145",
+   "level": 3,
+   "name": "Schema Therapy"
+  },
+  {
+   "key": "N146",
+   "level": 3,
+   "name": "Internal Family Systems"
+  },
+  {
+   "key": "N147",
+   "level": 3,
+   "name": "My Framework’s Roots"
+  },
+  {
+   "key": "N148",
+   "level": 3,
+   "name": "Teachers and Resources"
+  }
+ ],
+ "sections_readers_look_elsewhere": [
+  {
+   "id": "N035",
+   "S": "S050",
+   "section": "Ask God for a Loan 🫶🏿",
+   "merged_into": null,
+   "sits_in": {
+    "part": "Building Your Inner Adult",
+    "under": "The Inner Guide"
+   },
+   "readers_look": {
+    "part": "Building Your Inner Adult",
+    "under": "The Nurturer",
+    "readings": 3
+   },
+   "elsewhere_readings": 3,
+   "of": 5,
+   "by_run": [
+    {
+     "run": "run 3",
+     "looks": {
+      "part": "Building Your Inner Adult",
+      "under": "The Nurturer"
+     }
+    },
+    {
+     "run": "run 4",
+     "looks": {
+      "part": "Building Your Inner Adult",
+      "under": "The Nurturer"
+     }
+    },
+    {
+     "run": "run 5",
+     "looks": {
+      "part": "Building Your Inner Adult",
+      "under": "The Nurturer"
+     }
+    },
+    {
+     "run": "run 5b",
+     "looks": null
+    },
+    {
+     "run": "run 6",
+     "looks": null
+    }
+   ]
+  },
+  {
+   "id": "N039",
+   "S": "S055",
+   "section": "A Heart to Child Loop",
+   "merged_into": null,
+   "sits_in": {
+    "part": "Building Your Inner Adult",
+    "under": "The Inner Guide"
+   },
+   "readers_look": {
+    "part": "Building Your Inner Adult",
+    "under": "The Nurturer",
+    "readings": 5
+   },
+   "elsewhere_readings": 5,
+   "of": 5,
+   "by_run": [
+    {
+     "run": "run 3",
+     "looks": {
+      "part": "Building Your Inner Adult",
+      "under": "The Nurturer"
+     }
+    },
+    {
+     "run": "run 4",
+     "looks": {
+      "part": "Building Your Inner Adult",
+      "under": "The Nurturer"
+     }
+    },
+    {
+     "run": "run 5",
+     "looks": {
+      "part": "Building Your Inner Adult",
+      "under": "The Nurturer"
+     }
+    },
+    {
+     "run": "run 5b",
+     "looks": {
+      "part": "Building Your Inner Adult",
+      "under": "The Nurturer"
+     }
+    },
+    {
+     "run": "run 6",
+     "looks": {
+      "part": "Building Your Inner Adult",
+      "under": "The Nurturer"
+     }
+    }
+   ]
+  },
+  {
+   "id": "N041",
+   "S": "S060",
+   "section": "Make a Simple Vow",
+   "merged_into": null,
+   "sits_in": {
+    "part": "Practice With Your Little One",
+    "under": "Make a Simple Vow"
+   },
+   "readers_look": {
+    "part": "Building Your Inner Adult",
+    "under": "The Protector",
+    "readings": 3
+   },
+   "elsewhere_readings": 5,
+   "of": 5,
+   "by_run": [
+    {
+     "run": "run 3",
+     "looks": {
+      "part": "Building Your Inner Adult",
+      "under": "The Protector"
+     }
+    },
+    {
+     "run": "run 4",
+     "looks": {
+      "part": "Building Your Inner Adult",
+      "under": "The Protector"
+     }
+    },
+    {
+     "run": "run 5",
+     "looks": {
+      "part": "Building Your Inner Adult",
+      "under": "The Nurturer"
+     }
+    },
+    {
+     "run": "run 5b",
+     "looks": {
+      "part": "Building Your Inner Adult",
+      "under": "The Nurturer"
+     }
+    },
+    {
+     "run": "run 6",
+     "looks": {
+      "part": "Building Your Inner Adult",
+      "under": "The Protector"
+     }
+    }
+   ]
+  },
+  {
+   "id": "N054",
+   "S": "S062",
+   "section": "No Inner Monologue?",
+   "merged_into": null,
+   "sits_in": {
+    "part": "Practice With Your Little One",
+    "under": "No Inner Monologue?"
+   },
+   "readers_look": {
+    "part": "Practice With Your Little One",
+    "under": "Start With What Shows Up",
+    "readings": 1
+   },
+   "elsewhere_readings": 3,
+   "of": 5,
+   "by_run": [
+    {
+     "run": "run 3",
+     "looks": null
+    },
+    {
+     "run": "run 4",
+     "looks": null
+    },
+    {
+     "run": "run 5",
+     "looks": {
+      "part": "Practice With Your Little One",
+      "under": "Start With What Shows Up"
+     }
+    },
+    {
+     "run": "run 5b",
+     "looks": {
+      "part": "Building Your Inner Adult",
+      "under": "The Inner Guide"
+     }
+    },
+    {
+     "run": "run 6",
+     "looks": {
+      "part": "When Practice Gets Hard",
+      "under": "No Clear Child Yet?"
+     }
+    }
+   ]
+  },
+  {
+   "id": "N055",
+   "S": "S063",
+   "section": "Childhood Photos, Gently",
+   "merged_into": null,
+   "sits_in": {
+    "part": "Practice With Your Little One",
+    "under": "Childhood Photos, Gently"
+   },
+   "readers_look": {
+    "part": "When Practice Gets Hard",
+    "under": "No Clear Child Yet?",
+    "readings": 2
+   },
+   "elsewhere_readings": 3,
+   "of": 5,
+   "by_run": [
+    {
+     "run": "run 3",
+     "looks": null
+    },
+    {
+     "run": "run 4",
+     "looks": null
+    },
+    {
+     "run": "run 5",
+     "looks": {
+      "part": "When Practice Gets Hard",
+      "under": "No Clear Child Yet?"
+     }
+    },
+    {
+     "run": "run 5b",
+     "looks": {
+      "part": "Building Your Inner Adult",
+      "under": "The Inner Guide"
+     }
+    },
+    {
+     "run": "run 6",
+     "looks": {
+      "part": "When Practice Gets Hard",
+      "under": "No Clear Child Yet?"
+     }
+    }
+   ]
+  },
+  {
+   "id": "N056",
+   "S": "S064",
+   "section": "Journal With Each Hand",
+   "merged_into": null,
+   "sits_in": {
+    "part": "Practice With Your Little One",
+    "under": "Journal With Each Hand"
+   },
+   "readers_look": {
+    "part": "Practice With Your Little One",
+    "under": "No Inner Monologue?",
+    "readings": 3
+   },
+   "elsewhere_readings": 3,
+   "of": 5,
+   "by_run": [
+    {
+     "run": "run 3",
+     "looks": {
+      "part": "Practice With Your Little One",
+      "under": "No Inner Monologue?"
+     }
+    },
+    {
+     "run": "run 4",
+     "looks": {
+      "part": "Practice With Your Little One",
+      "under": "No Inner Monologue?"
+     }
+    },
+    {
+     "run": "run 5",
+     "looks": null
+    },
+    {
+     "run": "run 5b",
+     "looks": {
+      "part": "Practice With Your Little One",
+      "under": "No Inner Monologue?"
+     }
+    },
+    {
+     "run": "run 6",
+     "looks": null
+    }
+   ]
+  },
+  {
+   "id": "N058",
+   "S": "S066",
+   "section": "If no answer comes",
+   "merged_into": null,
+   "sits_in": {
+    "part": "Practice With Your Little One",
+    "under": "Journal With Each Hand"
+   },
+   "readers_look": {
+    "part": "Practice With Your Little One",
+    "under": "A Passing Feeling",
+    "readings": 2
+   },
+   "elsewhere_readings": 3,
+   "of": 5,
+   "by_run": [
+    {
+     "run": "run 3",
+     "looks": null
+    },
+    {
+     "run": "run 4",
+     "looks": null
+    },
+    {
+     "run": "run 5",
+     "looks": {
+      "part": "Practice With Your Little One",
+      "under": "A Passing Feeling"
+     }
+    },
+    {
+     "run": "run 5b",
+     "looks": {
+      "part": "Practice With Your Little One",
+      "under": "Start With What Shows Up"
+     }
+    },
+    {
+     "run": "run 6",
+     "looks": {
+      "part": "Practice With Your Little One",
+      "under": "A Passing Feeling"
+     }
+    }
+   ]
+  },
+  {
+   "id": "N061",
+   "S": "S071",
+   "section": "If it’s anxiety",
+   "merged_into": null,
+   "sits_in": {
+    "part": "Practice With Your Little One",
+    "under": "A Passing Feeling"
+   },
+   "readers_look": {
+    "part": "Practice With Your Little One",
+    "under": "Journal With Each Hand",
+    "readings": 5
+   },
+   "elsewhere_readings": 5,
+   "of": 5,
+   "by_run": [
+    {
+     "run": "run 3",
+     "looks": {
+      "part": "Practice With Your Little One",
+      "under": "Journal With Each Hand"
+     }
+    },
+    {
+     "run": "run 4",
+     "looks": {
+      "part": "Practice With Your Little One",
+      "under": "Journal With Each Hand"
+     }
+    },
+    {
+     "run": "run 5",
+     "looks": {
+      "part": "Practice With Your Little One",
+      "under": "Journal With Each Hand"
+     }
+    },
+    {
+     "run": "run 5b",
+     "looks": {
+      "part": "Practice With Your Little One",
+      "under": "Journal With Each Hand"
+     }
+    },
+    {
+     "run": "run 6",
+     "looks": {
+      "part": "Practice With Your Little One",
+      "under": "Journal With Each Hand"
+     }
+    }
+   ]
+  },
+  {
+   "id": "N062",
+   "S": "S069",
+   "section": "Catch the Hook Early",
+   "merged_into": null,
+   "sits_in": {
+    "part": "Practice With Your Little One",
+    "under": "Catch the Hook Early"
+   },
+   "readers_look": {
+    "part": "Practice With Your Little One",
+    "under": "A Passing Feeling",
+    "readings": 4
+   },
+   "elsewhere_readings": 4,
+   "of": 5,
+   "by_run": [
+    {
+     "run": "run 3",
+     "looks": null
+    },
+    {
+     "run": "run 4",
+     "looks": {
+      "part": "Practice With Your Little One",
+      "under": "A Passing Feeling"
+     }
+    },
+    {
+     "run": "run 5",
+     "looks": {
+      "part": "Practice With Your Little One",
+      "under": "A Passing Feeling"
+     }
+    },
+    {
+     "run": "run 5b",
+     "looks": {
+      "part": "Practice With Your Little One",
+      "under": "A Passing Feeling"
+     }
+    },
+    {
+     "run": "run 6",
+     "looks": {
+      "part": "Practice With Your Little One",
+      "under": "A Passing Feeling"
+     }
+    }
+   ]
+  },
+  {
+   "id": "N063",
+   "S": "S072",
+   "section": "Gentle Mantra Meditation",
+   "merged_into": null,
+   "sits_in": {
+    "part": "Practice With Your Little One",
+    "under": "Gentle Mantra Meditation"
+   },
+   "readers_look": {
+    "part": "Practice With Your Little One",
+    "under": "A Passing Feeling",
+    "readings": 4
+   },
+   "elsewhere_readings": 5,
+   "of": 5,
+   "by_run": [
+    {
+     "run": "run 3",
+     "looks": {
+      "part": "Practice With Your Little One",
+      "under": "Catch the Hook Early"
+     }
+    },
+    {
+     "run": "run 4",
+     "looks": {
+      "part": "Practice With Your Little One",
+      "under": "A Passing Feeling"
+     }
+    },
+    {
+     "run": "run 5",
+     "looks": {
+      "part": "Practice With Your Little One",
+      "under": "A Passing Feeling"
+     }
+    },
+    {
+     "run": "run 5b",
+     "looks": {
+      "part": "Practice With Your Little One",
+      "under": "A Passing Feeling"
+     }
+    },
+    {
+     "run": "run 6",
+     "looks": {
+      "part": "Practice With Your Little One",
+      "under": "A Passing Feeling"
+     }
+    }
+   ]
+  },
+  {
+   "id": "N064",
+   "S": "S070",
+   "section": "A Passing Feeling",
+   "merged_into": null,
+   "sits_in": {
+    "part": "Practice With Your Little One",
+    "under": "A Passing Feeling"
+   },
+   "readers_look": {
+    "part": "Practice With Your Little One",
+    "under": "Catch the Hook Early",
+    "readings": 3
+   },
+   "elsewhere_readings": 3,
+   "of": 5,
+   "by_run": [
+    {
+     "run": "run 3",
+     "looks": {
+      "part": "Practice With Your Little One",
+      "under": "Catch the Hook Early"
+     }
+    },
+    {
+     "run": "run 4",
+     "looks": null
+    },
+    {
+     "run": "run 5",
+     "looks": {
+      "part": "Practice With Your Little One",
+      "under": "Catch the Hook Early"
+     }
+    },
+    {
+     "run": "run 5b",
+     "looks": {
+      "part": "Practice With Your Little One",
+      "under": "Catch the Hook Early"
+     }
+    },
+    {
+     "run": "run 6",
+     "looks": null
+    }
+   ]
+  },
+  {
+   "id": "N070",
+   "S": "S036",
+   "section": "“And So That’s the Way It Happened!”",
+   "merged_into": null,
+   "sits_in": {
+    "part": "Building Your Inner Adult",
+    "under": "The Nurturer"
+   },
+   "readers_look": {
+    "part": "Building Your Inner Adult",
+    "under": "The Inner Guide",
+    "readings": 3
+   },
+   "elsewhere_readings": 3,
+   "of": 5,
+   "by_run": [
+    {
+     "run": "run 3",
+     "looks": {
+      "part": "Building Your Inner Adult",
+      "under": "The Inner Guide"
+     }
+    },
+    {
+     "run": "run 4",
+     "looks": {
+      "part": "Building Your Inner Adult",
+      "under": "The Inner Guide"
+     }
+    },
+    {
+     "run": "run 5",
+     "looks": null
+    },
+    {
+     "run": "run 5b",
+     "looks": {
+      "part": "Building Your Inner Adult",
+      "under": "The Inner Guide"
+     }
+    },
+    {
+     "run": "run 6",
+     "looks": null
+    }
+   ]
+  },
+  {
+   "id": "N075",
+   "S": "S078",
+   "section": "Answer the Disciplinarian",
+   "merged_into": null,
+   "sits_in": {
+    "part": "Building Your Inner Adult",
+    "under": "The Protector"
+   },
+   "readers_look": {
+    "part": "Building Your Inner Adult",
+    "under": "The Inner Guide",
+    "readings": 3
+   },
+   "elsewhere_readings": 3,
+   "of": 5,
+   "by_run": [
+    {
+     "run": "run 3",
+     "looks": {
+      "part": "Building Your Inner Adult",
+      "under": "The Inner Guide"
+     }
+    },
+    {
+     "run": "run 4",
+     "looks": null
+    },
+    {
+     "run": "run 5",
+     "looks": {
+      "part": "Building Your Inner Adult",
+      "under": "The Inner Guide"
+     }
+    },
+    {
+     "run": "run 5b",
+     "looks": {
+      "part": "Building Your Inner Adult",
+      "under": "The Inner Guide"
+     }
+    },
+    {
+     "run": "run 6",
+     "looks": null
+    }
+   ]
+  },
+  {
+   "id": "N078",
+   "S": "S094",
+   "section": "Altered Can Make It Real",
+   "merged_into": null,
+   "sits_in": {
+    "part": "Altered States",
+    "under": "Therapy or Escapism?"
+   },
+   "readers_look": {
+    "part": "When Practice Gets Hard",
+    "under": "When It Feels Fake",
+    "readings": 5
+   },
+   "elsewhere_readings": 5,
+   "of": 5,
+   "by_run": [
+    {
+     "run": "run 3",
+     "looks": {
+      "part": "When Practice Gets Hard",
+      "under": "When It Feels Fake"
+     }
+    },
+    {
+     "run": "run 4",
+     "looks": {
+      "part": "When Practice Gets Hard",
+      "under": "When It Feels Fake"
+     }
+    },
+    {
+     "run": "run 5",
+     "looks": {
+      "part": "When Practice Gets Hard",
+      "under": "When It Feels Fake"
+     }
+    },
+    {
+     "run": "run 5b",
+     "looks": {
+      "part": "When Practice Gets Hard",
+      "under": "When It Feels Fake"
+     }
+    },
+    {
+     "run": "run 6",
+     "looks": {
+      "part": "When Practice Gets Hard",
+      "under": "When It Feels Fake"
+     }
+    }
+   ]
+  },
+  {
+   "id": "N082",
+   "S": "S087",
+   "section": "Is It Helping?",
+   "merged_into": null,
+   "sits_in": {
+    "part": "When Practice Gets Hard",
+    "under": "Is It Helping?"
+   },
+   "readers_look": {
+    "part": "When Practice Gets Hard",
+    "under": "Healing or Checking?",
+    "readings": 3
+   },
+   "elsewhere_readings": 3,
+   "of": 5,
+   "by_run": [
+    {
+     "run": "run 3",
+     "looks": {
+      "part": "When Practice Gets Hard",
+      "under": "Healing or Checking?"
+     }
+    },
+    {
+     "run": "run 4",
+     "looks": null
+    },
+    {
+     "run": "run 5",
+     "looks": {
+      "part": "When Practice Gets Hard",
+      "under": "Healing or Checking?"
+     }
+    },
+    {
+     "run": "run 5b",
+     "looks": {
+      "part": "When Practice Gets Hard",
+      "under": "Healing or Checking?"
+     }
+    },
+    {
+     "run": "run 6",
+     "looks": null
+    }
+   ]
+  },
+  {
+   "id": "N092",
+   "S": "S097",
+   "section": "What to Do With a Peak",
+   "merged_into": null,
+   "sits_in": {
+    "part": "Altered States",
+    "under": "What to Do With a Peak"
+   },
+   "readers_look": {
+    "part": "Altered States",
+    "under": "Therapy or Escapism?",
+    "readings": 4
+   },
+   "elsewhere_readings": 4,
+   "of": 5,
+   "by_run": [
+    {
+     "run": "run 3",
+     "looks": {
+      "part": "Altered States",
+      "under": "Therapy or Escapism?"
+     }
+    },
+    {
+     "run": "run 4",
+     "looks": null
+    },
+    {
+     "run": "run 5",
+     "looks": {
+      "part": "Altered States",
+      "under": "Therapy or Escapism?"
+     }
+    },
+    {
+     "run": "run 5b",
+     "looks": {
+      "part": "Altered States",
+      "under": "Therapy or Escapism?"
+     }
+    },
+    {
+     "run": "run 6",
+     "looks": {
+      "part": "Altered States",
+      "under": "Therapy or Escapism?"
+     }
+    }
+   ]
+  },
+  {
+   "id": "N093",
+   "S": "S098",
+   "section": "Losing Touch With Reality",
+   "merged_into": null,
+   "sits_in": {
+    "part": "Altered States",
+    "under": "Losing Touch With Reality"
+   },
+   "readers_look": {
+    "part": "Altered States",
+    "under": "Therapy or Escapism?",
+    "readings": 5
+   },
+   "elsewhere_readings": 5,
+   "of": 5,
+   "by_run": [
+    {
+     "run": "run 3",
+     "looks": {
+      "part": "Altered States",
+      "under": "Therapy or Escapism?"
+     }
+    },
+    {
+     "run": "run 4",
+     "looks": {
+      "part": "Altered States",
+      "under": "Therapy or Escapism?"
+     }
+    },
+    {
+     "run": "run 5",
+     "looks": {
+      "part": "Altered States",
+      "under": "Therapy or Escapism?"
+     }
+    },
+    {
+     "run": "run 5b",
+     "looks": {
+      "part": "Altered States",
+      "under": "Therapy or Escapism?"
+     }
+    },
+    {
+     "run": "run 6",
+     "looks": {
+      "part": "Altered States",
+      "under": "Therapy or Escapism?"
+     }
+    }
+   ]
+  },
+  {
+   "id": "N097",
+   "S": "S102",
+   "section": "Who counts as trusted",
+   "merged_into": null,
+   "sits_in": {
+    "part": "Altered States",
+    "under": "Losing Touch With Reality"
+   },
+   "readers_look": {
+    "part": "Altered States",
+    "under": "Therapy or Escapism?",
+    "readings": 3
+   },
+   "elsewhere_readings": 3,
+   "of": 5,
+   "by_run": [
+    {
+     "run": "run 3",
+     "looks": {
+      "part": "Altered States",
+      "under": "Therapy or Escapism?"
+     }
+    },
+    {
+     "run": "run 4",
+     "looks": {
+      "part": "Altered States",
+      "under": "Therapy or Escapism?"
+     }
+    },
+    {
+     "run": "run 5",
+     "looks": null
+    },
+    {
+     "run": "run 5b",
+     "looks": {
+      "part": "Altered States",
+      "under": "Therapy or Escapism?"
+     }
+    },
+    {
+     "run": "run 6",
+     "looks": null
+    }
+   ]
+  },
+  {
+   "id": "N101",
+   "S": "S107",
+   "section": "My Trips Came Too Soon",
+   "merged_into": null,
+   "sits_in": {
+    "part": "Altered States",
+    "under": "My Trips Came Too Soon"
+   },
+   "readers_look": {
+    "part": "Altered States",
+    "under": "Therapy or Escapism?",
+    "readings": 3
+   },
+   "elsewhere_readings": 3,
+   "of": 5,
+   "by_run": [
+    {
+     "run": "run 3",
+     "looks": null
+    },
+    {
+     "run": "run 4",
+     "looks": null
+    },
+    {
+     "run": "run 5",
+     "looks": {
+      "part": "Altered States",
+      "under": "Therapy or Escapism?"
+     }
+    },
+    {
+     "run": "run 5b",
+     "looks": {
+      "part": "Altered States",
+      "under": "Therapy or Escapism?"
+     }
+    },
+    {
+     "run": "run 6",
+     "looks": {
+      "part": "Altered States",
+      "under": "Therapy or Escapism?"
+     }
+    }
+   ]
+  },
+  {
+   "id": "N104",
+   "S": "S106",
+   "section": "Life’s a trip also",
+   "merged_into": null,
+   "sits_in": {
+    "part": "Altered States",
+    "under": "Losing Touch With Reality"
+   },
+   "readers_look": {
+    "part": "Altered States",
+    "under": "Attacked by a Demon?",
+    "readings": 4
+   },
+   "elsewhere_readings": 4,
+   "of": 5,
+   "by_run": [
+    {
+     "run": "run 3",
+     "looks": {
+      "part": "Altered States",
+      "under": "Attacked by a Demon?"
+     }
+    },
+    {
+     "run": "run 4",
+     "looks": null
+    },
+    {
+     "run": "run 5",
+     "looks": {
+      "part": "Altered States",
+      "under": "Attacked by a Demon?"
+     }
+    },
+    {
+     "run": "run 5b",
+     "looks": {
+      "part": "Altered States",
+      "under": "Attacked by a Demon?"
+     }
+    },
+    {
+     "run": "run 6",
+     "looks": {
+      "part": "Altered States",
+      "under": "Attacked by a Demon?"
+     }
+    }
+   ]
+  },
+  {
+   "id": "N126",
+   "S": null,
+   "section": "Being Your Own Advocate With Doctors",
+   "merged_into": "Physical Pain?",
+   "sits_in": {
+    "part": "When Practice Gets Hard",
+    "under": "The Urge to Escape"
+   },
+   "readers_look": {
+    "part": "Reparenting in Real Life",
+    "under": "Speaking Up in Conflict",
+    "readings": 3
+   },
+   "elsewhere_readings": 5,
+   "of": 5,
+   "by_run": [
+    {
+     "run": "run 3",
+     "looks": {
+      "part": "Reparenting in Real Life",
+      "under": "Speaking Up in Conflict"
+     }
+    },
+    {
+     "run": "run 4",
+     "looks": {
+      "part": "Reparenting in Real Life",
+      "under": null
+     }
+    },
+    {
+     "run": "run 5",
+     "looks": {
+      "part": "Reparenting in Real Life",
+      "under": "Speaking Up in Conflict"
+     }
+    },
+    {
+     "run": "run 5b",
+     "looks": {
+      "part": "Building Your Inner Adult",
+      "under": "The Protector"
+     }
+    },
+    {
+     "run": "run 6",
+     "looks": {
+      "part": "Reparenting in Real Life",
+      "under": "Speaking Up in Conflict"
+     }
+    }
+   ]
+  }
+ ]
+}

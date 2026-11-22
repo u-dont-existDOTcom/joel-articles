@@ -22,7 +22,7 @@ Every paragraph and every section reads Human in Pangram, with the meaning kept 
 
 ## Current checkpoint
 
-`humanize/HUMANIZED-SO-FAR.md` (8de00b80, after his answers of 2026-11-08 15:45 UTC on the science of Parts 2 and 3: SC-97 approved, `humanize/fix-20261108/sci-p23/APPLIED-X1108C.json`) is his post with the standard typographic swap, his versions and the science corrections he approved, section by section through Part 2. The potassium card, revised after GPT's critique and corrected again after his questions to GPT, is on his page (`humanize/fix-20261108/sci-p23/REVIEW-X1108E.md`, SC-106c); after it, the protocol is read as a whole against the settled science, then the rest is humanized (lesson neuro-2026-11-08f). Nothing has been changed in his post yet.
+`humanize/HUMANIZED-SO-FAR.md` (027122dc, after his message of 2026-11-22 17:39 UTC: his answers 24 to 33, `humanize/fix-20261108/x1122a/APPLIED-X1122A.json`) is his post with the standard typographic swap, his versions and the science corrections he approved, section by section through Part 3's potassium step. Next, the protocol is read as a whole against the settled science (`humanize/fix-20261108/coherence/EXTRACT.md`), then the rest is humanized (lesson neuro-2026-11-08f). Nothing has been changed in his post yet.
 
 ## Remaining
 
@@ -30,7 +30,7 @@ The AI windows of every section, rewritten and checked; his cards; his post upda
 
 ## Blockers / unresolved
 
-One card on Neuro De-Armoring Cards, 8 November (5) (`humanize/fix-20261108/sci-p23/REVIEW-X1108E.md`); no open questions (`humanize/OWNER-QUESTIONS.md`). The coherence read goes on meanwhile where it doesn't depend on it.
+No question waits on him. His answers 16a and 17 wait on one line of mine at the top of Weeks 3–5 (`humanize/fix-20261108/x1120a/texts_x1120a.py` W35) reading Human High by itself; his new warnings (lion's mane and ashwagandha, agmatine, 5-HTP) wait on their sources and their text (`humanize/fix-20261108/x1122a/WARNINGS-BRIEF.md`). Every contradiction in `humanize/fix-20261108/coherence/EXTRACT.md` has a fate (`CONTRADICTIONS-FATES.json`). Every turn starts by reading the cards page's stored answers (lesson neuro-2026-11-13b).
 
 ## Evidence / artifacts
 
@@ -38,4 +38,4 @@ One card on Neuro De-Armoring Cards, 8 November (5) (`humanize/fix-20261108/sci-
 
 ## Next safe action
 
-`humanize/HANDOFF-neuro-de-armoring.md`, Next step: his answers to questions 3 and 4 and the two cards; then the warnings cards; then the rest of the article one paragraph at a time (gates E343, E344). The master is unchanged (his post as it stands).
+`humanize/HANDOFF-neuro-de-armoring.md`, Next step: the cards page's stored answers, then the Weeks 3–5 line's receipt and check; his new warnings; the contradictions check run again over the new text; then the protocol's other contradictions (`humanize/fix-20261108/coherence/EXTRACT.md`); then the rest of the article one paragraph at a time (gates E343, E344). The master is unchanged (his post as it stands).

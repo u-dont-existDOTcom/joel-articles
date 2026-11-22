@@ -1,0 +1,42 @@
+{
+ "about": "Each turn's mailbox check (tools/humanization/lane_mailbox.py; AGENTS.md, \"Suggested fixes from other projects\"). Newest last.",
+ "places": {
+  "uda-lane": "this repository's lane in universal-dev-architecture (suggested-fixes/joel-articles/), against docs/suggested-fixes-ledger.md",
+  "repo": "new issues and pull requests here, and new comments and reviews on any of them, replies on our own included",
+  "notes": "edits others made to the lane's handoff notes and owner questions pages since its last turn",
+  "runtime": "the messages the session's runtime queued for it"
+ },
+ "checks": [
+  {
+   "turn": "2026-11-20T21:49Z",
+   "lines_of_work": [
+    "inner child guide"
+   ],
+   "places": [
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "since 18:27 UTC: #453, #454 (bad trips) and #455 (this lane's turn 132) merged into main and taken in; no new issues; open pull requests otherwise unchanged since 2026-11-15"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "t132 HANDOFF.md and OWNER-QUESTIONS.md as this lane left them at 18:41 UTC"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "no queued notifications; one fetch of the live post waited for Joel's approval and got none (he may be away)"
+    },
+    {
+     "place": "uda-lane",
+     "status": "unreachable",
+     "failed": "attaching universal-dev-architecture (add_repo, push access) refused in this session by the auto-mode classifier (Unauthorized Access), 21:50 UTC; the read clone was refused the same way at 18:28",
+     "retry": "first thing next turn"
+    }
+   ],
+   "items": [],
+   "recorded_utc": "2026-11-20T21:58Z"
+  }
+ ]
+}

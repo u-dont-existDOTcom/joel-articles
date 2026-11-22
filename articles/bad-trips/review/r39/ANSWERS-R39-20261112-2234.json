@@ -1,0 +1,41 @@
+{
+ "format": "joel-suggestion-review-answers-v1",
+ "review_id": "bad-trips-r39",
+ "title": "Bad Trips Guide, Round 39",
+ "git_file": "articles/bad-trips/review/r39/REVIEW-R39.html",
+ "article": {
+  "file": "articles/bad-trips/review/r39/PAGE-R39.md",
+  "sha256": "98fcc2b8e9878546b721dd212c652c841a018ad2bbcac05189ec905416e4e474"
+ },
+ "built": "2026-11-12",
+ "generator": "suggestion_review.py 1.11 (2026-11-11)",
+ "exported_at": "2026-11-12T22:34:10.601Z",
+ "counts": {
+  "approved": 0,
+  "rejected": 0,
+  "revise": 1,
+  "pending": 0
+ },
+ "items": [
+  {
+   "id": "TEACH-EVID",
+   "type": "teach",
+   "title": "1. My Brain Feels Damaged: why you trust DMSO, and how far the evidence goes",
+   "where": "If Someone Says \"My Brain Feels Damaged\": DMSO + Humic Acid + Electrolytes First, P11",
+   "advice": "edit",
+   "status": "revise",
+   "your_version": "If Someone Says \"My Brain Feels Damaged\": DMSO + Humic Acid + Electrolytes First\n\nI believe, based on my experience and those of others I've heard from, as well as the books I've read on this, that DMSO works better for most acute brain damage than anything else readily available. The clinical evidence is incomplete, but it leans this way. In animals, when given after a stroke, it shrank the area of the brain that died (which is a good thing). In one human trial, some clot stroke patients seemed to recover better on DMSO, and doctors have used it in a small series of patients to bring down dangerous pressure inside the skull. But more relevant to the drug overdose issue this article deals with, DMSO calms NMDA- and AMPA-mediated excitotoxicity that kills brain cells.",
+   "comment": "removed some redundancy, but didn't flip it: https://www.pangram.com/history/56efb022-691c-41b4-8988-17a852a9cb29?ucc=4rq5Ko7gBiW&utm_source=pangram_share&utm_medium=copy_link\n\ndon't say \"the same way\" when you can say \"that way\", that one change reduced confidence of AI label: https://www.pangram.com/history/54067b21-9dfb-4413-865c-0db98123223a?ucc=4rq5Ko7gBiW&utm_source=pangram_share&utm_medium=copy_link\n\ni then rephrased that sentence to sound less ai and that helped a lot: https://www.pangram.com/history/06a157dd-e6e1-49b9-bb63-3b4097748c03?ucc=4rq5Ko7gBiW&utm_source=pangram_share&utm_medium=copy_link\n\nI made the animal research sentence read better, but didn't help pangram: https://www.pangram.com/history/0bde92a9-fd05-4749-8e88-57c7760791ff?ucc=4rq5Ko7gBiW&utm_source=pangram_share&utm_medium=copy_link\n\ni didn't like that you said \"may have improved\" we need to have some actual understanding of what this is trying to say, like why would you say may have? did they improve, how large was the effect? did some improve and others didn't? \n\nnext i changed a later \"it\" to \"DMSO\" because it was too far from DMSO to understand the reference. that didn't help yet: https://www.pangram.com/history/384bec78-a41a-49c6-8c57-a1c75227dcab?ucc=4rq5Ko7gBiW&utm_source=pangram_share&utm_medium=copy_link\n\ni explained why i believe, that helped 10% more but only by expanding the green area with what i wrote: https://www.pangram.com/history/a82dd1e1-dae4-4e57-8808-2e5b3d3ccf59?ucc=4rq5Ko7gBiW&utm_source=pangram_share&utm_medium=copy_link\nand btw you can link my dmso guide when it mentions my experience and the books i've read: dmso.u-dont-exist.com\n\n|i brought the payoff quicker in the human trial sentence, that helped some: https://www.pangram.com/history/5a67e03b-4e12-44b8-a533-07ad8fb08781?ucc=4rq5Ko7gBiW&utm_source=pangram_share&utm_medium=copy_link\n\nremoved \"preliminary trial\" as that is a bit too much for this, and removed \"to ordinary people\" because i don't think drs have better stuff than dmso either which is why they are testing it out, but  that didn't affect pangram tho: https://www.pangram.com/history/38a2878e-b88c-4434-a8c3-ea4d4e9405a7?ucc=4rq5Ko7gBiW&utm_source=pangram_share&utm_medium=copy_link\n\nnow i explained the last sentence is the most relevant, that helped some more (but not there): https://www.pangram.com/history/59df023c-08cf-4101-8e29-e394dfdf7a6c?ucc=4rq5Ko7gBiW&utm_source=pangram_share&utm_medium=copy_link\n\noh, i forgot to remove \"after a stroke\" since drug overdose is not \"after a stroke\" so that made no sense now. that helped some more: https://www.pangram.com/history/6515954d-03b9-4642-ac60-56401d740a22?ucc=4rq5Ko7gBiW&utm_source=pangram_share&utm_medium=copy_link\n\nok now i explained that shrinking the dead brain areas is a good thing (shrinking brain sounds bad on a cursory read lol), and it flipped it all human: https://www.pangram.com/history/52e06325-3c2b-40f8-ada3-e2a11dcfd597?ucc=4rq5Ko7gBiW&utm_source=pangram_share&utm_medium=copy_link\n\noh there was an extra \"the\" i forgot to remove, that brought human conf up: https://www.pangram.com/history/83287d14-0a4b-4985-9f20-ce3346e53521?ucc=4rq5Ko7gBiW&utm_source=pangram_share&utm_medium=copy_link\n\nnow i tried to integrate the clearly higher academic register at the end with \"via\" instead of parens, that boosted conf again (tho not there): https://www.pangram.com/history/25549498-f747-45a6-8c64-2cb6371c9f7c?ucc=4rq5Ko7gBiW&utm_source=pangram_share&utm_medium=copy_link\n\nnow it's fully high conf after i integrated that part better and reduced redundancy by doing so: https://www.pangram.com/history/5b09da6c-d520-4922-bcbf-fb670e5c60a5?ucc=4rq5Ko7gBiW&utm_source=pangram_share&utm_medium=copy_link\n\nok then the other issue is I have a lot of DMSO evidence but nothing on humic acid. there is a lot of research on humic acid improving brain function, you can just say (see humic acid evidence here and link to humicacid.u-dont-exist.com ) after the p13 sentence ends. ",
+   "my_version": "I believe DMSO works better for stroke and most acute brain damage than anything else readily available to ordinary people. That judgment is stronger than the clinical evidence, but the evidence is not empty: a preliminary human ischemic-stroke trial reported possible neurological benefit; a small human series used DMSO for intracranial hypertension; and animal stroke research found substantial infarct reduction even when treatment began after ischemia. DMSO also suppresses NMDA- and AMPA-mediated excitotoxicity.",
+   "before": "I believe DMSO works better for stroke and most acute brain damage than anything else readily available to ordinary people. That judgment is stronger than the clinical evidence, but the evidence is not empty: a preliminary human ischemic-stroke trial reported possible neurological benefit; a small human series used DMSO for intracranial hypertension; and animal stroke research found substantial infarct reduction even when treatment began after ischemia. DMSO also suppresses NMDA- and AMPA-mediated excitotoxicity.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "revise",
+     "at": "2026-11-12T21:29:21.666Z"
+    }
+   ],
+   "updated": "2026-11-12T22:34:06.452Z"
+  }
+ ]
+}

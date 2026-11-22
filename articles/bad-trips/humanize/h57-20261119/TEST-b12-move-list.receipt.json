@@ -1,0 +1,125 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-19",
+ "text_sha256": "36a4207627142f4711b388318d148b8ed78abec5933e3e3e720c9775c0c646d1",
+ "text": "Eat simple healthy food, such as fruit, when you can.\nWalk slowly with a clear-headed person in a safe environment.\nGoing outside can help too, if it's somewhere quiet with nothing high to fall from, away from roads and water.\nAvoid strenuous exercise if you're overheating or have chest pain, and hold off too if you feel faint or badly confused. Skip exercise too if you've taken a stimulant or an unknown mixture, or have any other medical concern.",
+ "section": "Grounding Menu: Choose One or Two Things (Ordinary world)",
+ "reader": "someone with a friend in a hard trip that's starting to ease, looking for one simple grounding thing for them to do",
+ "sentences": [
+  {
+   "s": "Eat simple healthy food, such as fruit, when you can.",
+   "payoff": "they offer simple food, like fruit, when the friend can eat",
+   "follows": "the first thing from the ordinary world"
+  },
+  {
+   "s": "Walk slowly with a clear-headed person in a safe environment.",
+   "payoff": "they go for a slow walk with someone clear-headed, somewhere safe",
+   "follows": "the second thing",
+   "link": "none: a new item of the list, which the reader expects after the one before"
+  },
+  {
+   "s": "Going outside can help too, if it's somewhere quiet with nothing high to fall from, away from roads and water.",
+   "payoff": "they take the friend outside if it's quiet, with nothing high to fall from, away from roads and water",
+   "follows": "the third thing",
+   "link": "too"
+  },
+  {
+   "s": "Avoid strenuous exercise if you're overheating or have chest pain, and hold off too if you feel faint or badly confused.",
+   "payoff": "they skip hard exercise if the friend is overheating, has chest pain, feels faint or is badly confused",
+   "follows": "the limit on moving",
+   "link": "none: a new item of the list, which the reader expects after the one before"
+  },
+  {
+   "s": "Skip exercise too if you've taken a stimulant or an unknown mixture, or have any other medical concern.",
+   "payoff": "they skip exercise too after a stimulant or an unknown mixture, or with any other medical concern",
+   "follows": "more cases for the same limit",
+   "link": "Skip exercise too"
+  }
+ ],
+ "checked": [],
+ "placement": "the Grounding Menu's Ordinary world list, after its Smell and Music parts",
+ "opens": {
+  "first_sentence": "Eat simple healthy food, such as fruit, when you can.",
+  "why_reading": "it gives someone with a friend coming down something simple to do: eat"
+ },
+ "same_point": "none: read the Grounding Menu from its heading to the next for food, walking and exercise: only this list",
+ "needed": {
+  "reader": "a fresh agent (Sonnet) given tools/humanization/needed_read_brief.md with only the text, its heading and what it is for (reads/need-b12-move-list.txt; the draft it read: reads/read-text-b12-move-list.txt)",
+  "unneeded": [],
+  "kept": {}
+ },
+ "his_fixes": {
+  "reader": "a fresh agent (Sonnet) given tools/humanization/his_fixes_brief.md, the ten ways, with the text one sentence a line (reads/his-b12-move-list.txt; the draft it read: reads/read-text-b12-move-list.txt)",
+  "marked": [
+   {
+    "s": "Walk slowly with a clear-headed person in a safe environment.",
+    "difference": "4"
+   },
+   {
+    "s": "Going outside can help too, if it's somewhere quiet with nothing high to fall from, away from roads and water.",
+    "difference": "1"
+   },
+   {
+    "s": "Going outside can help too, if it's somewhere quiet with nothing high to fall from, away from roads and water.",
+    "difference": "4"
+   },
+   {
+    "s": "Avoid strenuous exercise if you're overheating or have chest pain, and hold off too if you feel faint or badly confused.",
+    "difference": "1"
+   },
+   {
+    "s": "The same goes if you've taken a stimulant or an unknown mixture, or have any other medical concern.",
+    "difference": "4"
+   },
+   {
+    "s": "The same goes if you've taken a stimulant or an unknown mixture, or have any other medical concern.",
+    "difference": "10"
+   }
+  ],
+  "kept": {
+   "Walk slowly with a clear-headed person in a safe environment.": "the walk's place is said in the next item, with what to avoid; a list item each",
+   "Going outside can help too, if it's somewhere quiet with nothing high to fall from, away from roads and water.": "each condition is short and says what to avoid; \"water\" here is rivers, lakes and pools outdoors, read with roads and heights",
+   "Avoid strenuous exercise if you're overheating or have chest pain, and hold off too if you feel faint or badly confused.": "each sign is short and the action is one: skip strenuous exercise",
+   "The same goes if you've taken a stimulant or an unknown mixture, or have any other medical concern.": "changed: \"The same goes\" now says what to skip (exercise), and whose concern"
+  }
+ },
+ "fit": {
+  "reader": "a fresh agent (Sonnet) given tools/humanization/fit_read_brief.md, the universal version (reads/fit-b12-move-list.txt; the draft it read: reads/read-text-b12-move-list.txt)",
+  "marked": [
+   {
+    "s": "Avoid strenuous exercise if you're overheating or have chest pain, and hold off too if you feel faint or badly confused.",
+    "found": "ANYWAY, CAN'T TELL, FROM, MISREAD"
+   },
+   {
+    "s": "The same goes if you've taken a stimulant or an unknown mixture, or have any other medical concern.",
+    "found": "CAN'T TELL, MISREAD"
+   }
+  ],
+  "kept": {
+   "Avoid strenuous exercise if you're overheating or have chest pain, and hold off too if you feel faint or badly confused.": "hard exercise is what it limits, not the walk above it; \"badly confused\" is beyond the trip's usual confusion, which the word \"badly\" says",
+   "The same goes if you've taken a stimulant or an unknown mixture, or have any other medical concern.": "changed: \"The same goes\" now says what to skip; an unknown mixture is when they don't know what was taken"
+  }
+ },
+ "questions": {
+  "Q1": "PASS: each item opens on the thing to do or skip",
+  "Q2": "PASS: eat, walk, go outside, skip exercise: the reader's acts",
+  "Q3": "PASS: \"exercise\" named where \"The same goes\" pointed two ways",
+  "Q4": "N/A: no term a high-school graduate wouldn't know",
+  "Q5": "PASS: a list; \"too\", \"if\", \"Skip exercise too if\"",
+  "Q6": "PASS: food, walking, outside, then the limit on exercise",
+  "Q7": "PASS: each bears on what to do with a friend coming down",
+  "Q8": "PASS: each item is an ordinary-world thing to do or skip",
+  "Q9": "PASS: one condition set a sentence"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

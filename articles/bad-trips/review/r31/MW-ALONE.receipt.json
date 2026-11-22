@@ -1,0 +1,56 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-09",
+ "text_sha256": "bd52d07fbd9a17f3a9ff13693ea071af42027463141aef925e812c43fa3dbc34",
+ "text": "While you wait, put one hand on your heart and the other on your belly, and say to yourself: \"This feeling is allowed to move through. I can love the part of me that feels it.\"",
+ "section": "Alone at 3 a.m.",
+ "reader": "someone alone in the night, mid-trip and scared, who has just sent a message to a calm person and is waiting",
+ "sentences": [
+  {
+   "s": "While you wait, put one hand on your heart and the other on your belly, and say to yourself: \"This feeling is allowed to move through.",
+   "payoff": "they have something to do with their hands and words while they wait: a hand on the heart and one on the belly, and a line that lets the feeling pass",
+   "follows": "it fills the wait after the message the line before has them send",
+   "link": "While you wait"
+  },
+  {
+   "s": "I can love the part of me that feels it.\"",
+   "payoff": "they turn toward the frightened part of themselves with love instead of fighting it, the guide's method for fear, when nobody is there to bring it",
+   "follows": "the second line of the same self-talk",
+   "link": "none: it is the next line of the same quoted self-talk, so it needs no words tying it to the one before"
+  }
+ ],
+ "checked": [],
+ "placement": "Alone at 3 a.m., right after \"Send the human-anchor script.\" and before the movement lines; \"While you wait\" points to the reply to that message",
+ "opens": {
+  "first_sentence": "While you wait, put one hand on your heart and the other on your belly, and say to yourself: \"This feeling is allowed to move through.",
+  "why_reading": "it tells someone alone and waiting what they can do for themselves right now, so they read on"
+ },
+ "same_point": "none: read the section from its heading to the next for these points; it says the lamp, the keys, the message and movement, and nothing about what to do with the feeling itself. For the Person Helping has the same self-talk for the helper (this one is for someone alone)",
+ "needed": {
+  "reader": "a fresh Haiku agent given tools/humanization/needed_read_brief.md with the paragraph, its heading and what it is for (NEEDED-READ.raw.md beside this receipt, item 1)",
+  "unneeded": [],
+  "kept": {}
+ },
+ "questions": {
+  "Q1": "PASS: the act first (a hand on the heart and the belly), then the words to say",
+  "Q2": "PASS: each act is something the reader does themselves, for themselves",
+  "Q3": "PASS: which hand where, and the exact words",
+  "Q4": "PASS: no term a reader wouldn't know",
+  "Q5": "PASS: \"While you wait\" ties it to the message the section has just had them send",
+  "Q6": "PASS: after the message, before the movement lines, as the night goes",
+  "Q7": "PASS: for this reader now, alone and scared",
+  "Q8": "PASS: in the alone section, about being alone",
+  "Q9": "PASS: two lines of self-talk, one hand placement each"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

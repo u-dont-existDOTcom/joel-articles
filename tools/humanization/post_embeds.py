@@ -10,11 +10,19 @@ list comes from the post itself: save its page (the browser's, signed in or not)
 
   python3 tools/humanization/post_embeds.py POST.html [--article ARTICLE.md]
 
-Each line: the kind (picture, video, audio, post card), its id or address, and the end of the paragraph before it. With
---article, each one the article's IMAGE and EMBED notes (article_images.py) don't name, by its id or address, is
-listed as MISSING, and the exit is 1."""
+Each line: the kind (picture, video, audio, post card, instagram), its id or address, and the end of the paragraph before
+it. With --article, each one the article's IMAGE and EMBED notes (article_images.py) don't name, by its id or address, is
+listed as MISSING, and the exit is 1.
+
+Lesson embeds-2026-11-21a. Instagram embeds were missing from this list, and three of the 18 in Joel's posts were dead on
+2026-11-21: deleted, private or restricted on Instagram, which Substack shows its readers as a blank 520px box with no
+link. With --instagram, the last line is the call to paste into an instagram.com page, after tools/humanization/
+instagram_alive.js, to read which of the post's Instagram embeds are still live:
+
+  python3 tools/humanization/post_embeds.py POST.html --instagram"""
 import argparse
 import html as htmlmod
+import json
 import pathlib
 import re
 import sys
@@ -23,9 +31,14 @@ import sys
 # no data-component-name; and "<p" must be a whole tag name, or a picture's own <picture> tag reads as a paragraph that runs
 # to the next </p>, past the video after it: bad trips turn 4 (2026-11-04), where his pasted post's four videos were
 # missing from the list.
-BLOCK = re.compile(r'<(p|h[1-6])(?=[\s>])[^>]*>(.*?)</\1>|data-component-name="([A-Za-z0-9]+)"|class="(youtube-wrap)"', re.S)
+# An Instagram embed is marked "InstagramToDOM" in the published page, with its id in data-attrs; in his pasted editor HTML
+# it is class="react-renderer node-instagram", and Substack's frame (class="instagram-embed-frame") holds the id only inside
+# its data: address, percent-encoded (lesson embeds-2026-11-21a).
+BLOCK = re.compile(r'<(p|h[1-6])(?=[\s>])[^>]*>(.*?)</\1>|data-component-name="([A-Za-z0-9]+)"'
+                   r'|class="(youtube-wrap|react-renderer node-instagram|instagram-embed-frame)"', re.S)
 KINDS = {'Image2ToDOM': 'picture', 'VideoEmbedPlayer': 'video', 'AudioEmbedPlayer': 'audio', 'Youtube2ToDOM': 'video',
-         'DigestPostEmbed': 'post card', 'EmbeddedPostToDOM': 'post card', 'youtube-wrap': 'video'}
+         'DigestPostEmbed': 'post card', 'EmbeddedPostToDOM': 'post card', 'youtube-wrap': 'video',
+         'InstagramToDOM': 'instagram', 'react-renderer node-instagram': 'instagram', 'instagram-embed-frame': 'instagram'}
 
 
 def body_of(page):
@@ -42,7 +55,8 @@ def ref_of(kind, ctx):
     pats = {'picture': r'images%2F([0-9a-f]{8}-[0-9a-f-]{27,}[^%"&]*?)(?:"|%|&| )',
             'video': r'videoId(?:&quot;|"):(?:&quot;|")([A-Za-z0-9_-]{11})|media-upload-id="([0-9a-f-]{36})"',
             'audio': r'/audio/upload/([0-9a-f-]{36})|mediaUploadId(?:&quot;|"):(?:&quot;|")([0-9a-f-]{36})',
-            'post card': r'href="(https?://[^"/]+/p/[a-z0-9-]+)|canonical_url(?:&quot;|"):(?:&quot;|")(https?://[^&"]+/p/[a-z0-9-]+)'}
+            'post card': r'href="(https?://[^"/]+/p/[a-z0-9-]+)|canonical_url(?:&quot;|"):(?:&quot;|")(https?://[^&"]+/p/[a-z0-9-]+)',
+            'instagram': r'instagram_id(?:&quot;|"):(?:&quot;|")([A-Za-z0-9_-]+)|instagram\.com%2Fp%2F([A-Za-z0-9_-]+)%2F'}
     m = re.search(pats[kind], ctx)
     return next((g for g in m.groups() if g), '') if m else ''
 
@@ -92,6 +106,14 @@ def embeds(page):
     return out
 
 
+def instagram_call(found):
+    """The line to paste into an instagram.com page after instagram_alive.js: which of these posts are still live."""
+    ids = list(dict.fromkeys(r for k, r, _ in found if k == 'instagram' and r))
+    if not ids:
+        return 'no Instagram embeds'
+    return 'await instagramAlive(%s)' % json.dumps(ids)
+
+
 def missing(found, md):
     """The embeds whose id or address no IMAGE or EMBED note of the article names."""
     notes = ' '.join(re.findall(r'<!--\s*(?:IMAGE|EMBED)\s+(\S+)', md))
@@ -102,11 +124,14 @@ def main(argv=None):
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument('post')
     ap.add_argument('--article')
+    ap.add_argument('--instagram', action='store_true', help='end with the instagram_alive.js call for its Instagram embeds')
     a = ap.parse_args(argv)
     found = embeds(pathlib.Path(a.post).read_text(encoding='utf-8'))
     for kind, ref, before in found:
         print('%-9s %-48s after: ...%s' % (kind, ref or '(no id found)', before[-70:]))
     print('%d in the post' % len(found))
+    if a.instagram:
+        print(instagram_call(found))
     if not a.article:
         return 0
     gone = missing(found, pathlib.Path(a.article).read_text(encoding='utf-8'))

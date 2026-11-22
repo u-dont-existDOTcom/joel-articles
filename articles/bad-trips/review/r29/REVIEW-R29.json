@@ -1,0 +1,119 @@
+{
+ "format": "joel-suggestion-review-v1",
+ "review_id": "bad-trips-r29",
+ "title": "Bad Trips Guide, Round 29",
+ "intro": [
+  "Round 29 (2026-11-09). The word-for-sense read of the whole guide is done: three fresh readers, a third each, asked of every word whether it's the word meant, and the read was tested with errors I planted where they couldn't see the list. They found all nine, so what they didn't flag can be trusted too ([what each finding was, and what came of it](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261105/articles/bad-trips/humanize/h38-20261109/sense-read/RESULTS.md)).",
+  "Three slips were in the guide's drafted text, so I fixed them: the medics heading is now \"Call medics for:\" (the line under its list already says the remedies can begin while help is arranged), \"Test them\" under Stillness or Movement? now says \"Test stillness and movement\", and the list after \"Don't take more\" now goes \"cannabis or ketamine, do intense breathwork, fast, ...\", since breathwork and fasting aren't taken. Two are in paragraphs you wrote yourself, and they're these two cards. Three stay as they are: \"often mistaken as shadow work\" is your round-1 wording, \"the first thread\" is the poster's thread of the two you link, and a \"2.\" that looked stray was only in my copy for the readers."
+ ],
+ "git_file": "articles/bad-trips/review/r29/REVIEW-R29.html",
+ "article": {
+  "file": "articles/bad-trips/review/r29/PAGE-R29.md",
+  "sha256": "14d8dc41ccb0190ea24216609360a8cf9c584ae40872efe395cf33390e9e2ae9"
+ },
+ "built": "2026-11-09",
+ "links": {
+  "guide": "https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261105/articles/bad-trips/GUIDE-SO-FAR.md",
+  "guide_label": "the guide as it stands",
+  "check": "https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261105/articles/bad-trips/review/r29/REVIEW-R29.md",
+  "review": "https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/bad-trips-20261105/articles/bad-trips/review/r29/REVIEW-R29.md"
+ },
+ "types": {
+  "plain": {
+   "label": "Said plainly",
+   "about": "AI lines said plainly, each with its reason, the way he fixes his own windows"
+  },
+  "structure": {
+   "label": "Structure",
+   "about": "how the quick version and the long version split the guide, and where a part goes"
+  },
+  "repeat": {
+   "label": "Said twice",
+   "about": "a point the guide already makes elsewhere: one copy goes, the other stays"
+  },
+  "safety": {
+   "label": "Safety in one place",
+   "about": "a caution or call-for-help line said in several places, or one that changes nothing a reader does"
+  },
+  "question": {
+   "label": "Your call",
+   "about": "something only you can decide or know"
+  },
+  "sense": {
+   "label": "Says what it means",
+   "about": "a term explained where it is first used, or a word that says what to do"
+  },
+  "belief": {
+   "label": "Your belief back",
+   "about": "a sentence of your post that said why, cut in an earlier round, put back where it bears on what the reader does"
+  },
+  "typo": {
+   "label": "Typo",
+   "about": "a word in your own paragraph spelled differently from how you spell it elsewhere, with the fix in place"
+  },
+  "teach": {
+   "label": "Teach me",
+   "about": "a paragraph that reads AI in every wording I tried, whose shape many stuck paragraphs share: how you would say it teaches me how to say them (you asked for these on 2026-11-07)"
+  }
+ },
+ "suggestions": [
+  {
+   "id": "TYPO-AYA",
+   "type": "typo",
+   "advice": "approve",
+   "title": "Metta NMT Sniffer: \"ayahauasca\" to \"ayahuasca\"",
+   "whose": "his own: the sniffer-stick paragraph, as he wrote it in his post of 3 November",
+   "owner_text": "his own: his sniffer-stick paragraph, with the word spelled the way he spells it two sentences later",
+   "what": "\"But when I'm on ayahauasca or loveyhuasca\" becomes \"But when I'm on ayahuasca or loveyhuasca\".",
+   "why": "A typo that has been there since your post: two sentences later the paragraph has \"It turns regular ayahuasca into loveyhuasca even.\"",
+   "stays": "Everything else in the paragraph, word for word.",
+   "deciding": "Approve fixes the spelling; Reject keeps it as it is.",
+   "advice_note": "Approve.",
+   "ask_because": "his own: your sniffer-stick paragraph, from your post of 3 November",
+   "found_by": "the word-for-sense read of the whole guide: a fresh reader for each third, tested with errors I planted where they couldn't see the list (all nine found)",
+   "edits": [
+    {
+     "block": 136,
+     "before": "As explained in my loveyhuasca guide, this little sniffer stick that you smell gives people 30-60 minutes (or more) of peace even when they are sober and just anxious. People tell me it's saved their life from crippling anxiety. I have a survey here they can post at. But when I'm on ayahauasca or loveyhuasca, not only is it calming and nice, but actually opens my heart chakra considerably. Before this, loveyhuasca was kind of hit or miss for me on the love part. It turns regular ayahuasca into loveyhuasca even. You can get these directly from me. It's a bunch of stuff in the formula, but one of the things in here you can buy directly on Amazon for super cheap right now and it works also very well:",
+     "after": "As explained in my loveyhuasca guide, this little sniffer stick that you smell gives people 30-60 minutes (or more) of peace even when they are sober and just anxious. People tell me it's saved their life from crippling anxiety. I have a survey here they can post at. But when I'm on ayahuasca or loveyhuasca, not only is it calming and nice, but actually opens my heart chakra considerably. Before this, loveyhuasca was kind of hit or miss for me on the love part. It turns regular ayahuasca into loveyhuasca even. You can get these directly from me. It's a bunch of stuff in the formula, but one of the things in here you can buy directly on Amazon for super cheap right now and it works also very well:"
+    }
+   ],
+   "spans": [
+    {
+     "block": 136,
+     "start": 284,
+     "end": 294
+    }
+   ]
+  },
+  {
+   "id": "TYPO-HYPER",
+   "type": "typo",
+   "advice": "approve",
+   "title": "Some Remedies Require More Caution: \"hyper intelligent\" to \"hyperintelligent\"",
+   "whose": "his own: the humic acid paragraph, as he wrote it in his post of 3 November",
+   "owner_text": "his own: his humic acid paragraph, with the word spelled the way its first sentence spells it",
+   "what": "\"Smelling it does not produce that hyper intelligent state\" becomes \"Smelling it does not produce that hyperintelligent state\", the way the paragraph's first sentence has it (\"can produce a hyperintelligent state for me\").",
+   "why": "One spelling for the one state, so the reader sees it's the same state both times.",
+   "stays": "Everything else in the paragraph, word for word.",
+   "deciding": "Approve makes the two the same; Reject keeps both as they are.",
+   "advice_note": "Approve.",
+   "ask_because": "his own: your humic acid paragraph, from your post of 3 November",
+   "found_by": "the word-for-sense read of the whole guide: a fresh reader for each third, tested with errors I planted where they couldn't see the list (all nine found)",
+   "edits": [
+    {
+     "block": 181,
+     "before": "Humic acid when eaten, can produce a hyperintelligent state for me. From the outside that may look manic, and it could destabilize somebody prone to mania or without meditation training. I wouldn't use it casually during a bad trip. Smelling it does not produce that hyper intelligent state but does feel relaxing and very beneficial for brain health, so I'd start with that.",
+     "after": "Humic acid when eaten, can produce a hyperintelligent state for me. From the outside that may look manic, and it could destabilize somebody prone to mania or without meditation training. I wouldn't use it casually during a bad trip. Smelling it does not produce that hyperintelligent state but does feel relaxing and very beneficial for brain health, so I'd start with that."
+    }
+   ],
+   "spans": [
+    {
+     "block": 181,
+     "start": 267,
+     "end": 284
+    }
+   ]
+  }
+ ]
+}

@@ -18,6 +18,142 @@ From an account with Desktop Commander connected to the laptop: "Continue my neu
 
 ## START HERE
 
+- **2026-11-22, after his message of 17:39 UTC: no question open; three pieces of work wait.** HUMANIZED-SO-FAR.md is
+  027122dc, with his answers 24 to 33 in (`fix-20261108/x1122a/APPLIED-X1122A.json`); his message word for word:
+  `fix-20261108/joel-20261122-1739-message.txt`. **Every turn, first**: the cards page's stored answers (ArtifactData
+  `list`, collection "decisions", https://claude.ai/artifact/9nENpt9AEJCB43a9Wy5jqn; lesson 13b) and the answers in his
+  message (questions page https://claude.ai/artifact/8cWv5mbXY8y53RL1nhvzky, version 29). **Next, in order**: (1) the
+  Weeks 3–5 line for his 16a and 17, as the bullet below says (receipt, prediction, Pangram check by itself, then by
+  script, and items 2.2 and 2.3 to "answered"); (2) his new warnings, `x1122a/WARNINGS-BRIEF.md`: sources on both sides
+  first, then the text, the reads and the check; (3) the contradictions check over the article again
+  (`tools/humanization/contradictions.py brief`, a fresh reader, then the fates), since his elliptica line, his agmatine
+  paragraph and his showers line are new text (the Weeks 3–5 showers line still alternates hot and cold, while his answer
+  says hot for numbness). Dose figures stay out of replies.
+- **2026-11-20, after his message of 17:05 UTC: questions 24 to 33 wait on him; one line of mine waits on its check.**
+  HUMANIZED-SO-FAR.md is 9c001fcb, with 15a, 19a, 20, 21b and 22a in (`fix-20261108/x1120a/APPLIED-X1120A.json`); his
+  message word for word: `fix-20261108/joel-20261120-1705-message.txt`. **Every turn, first**: the cards page's stored
+  answers (ArtifactData `list`, collection "decisions", https://claude.ai/artifact/9nENpt9AEJCB43a9Wy5jqn; lesson 13b) and
+  the answers in his message (questions page https://claude.ai/artifact/8cWv5mbXY8y53RL1nhvzky, version 28). **Next, his
+  16a and 17**: `x1120a/texts_x1120a.py` W35 goes at the top of Weeks 3–5 (after the line starting `Weeks 3–5: The
+  Dynorphin Void`, before `Protocol:Reduce or stop phosphatidylserine here.`). Its fourth reads are in `x1120a/*/w35d`
+  (needed: the list it points to follows it in the article, and S3 implies keeping the pairs on separate days; his fixes:
+  S1 ways 1 and 10, S3 10, S4 10, S5 4 and 5; fit: S1, S3, S4, S5). Make the smallest changes those ask, then the receipt
+  (`sense_receipt.py`, as `x1113b/build_sp54h.py` builds one), the prediction (`pangram_ledger.py predict` with --receipt
+  and --humanized; the payoff note now has to say how each sentence leads with what the reader gets), a Pangram check by
+  itself in his browser (paste `tools/humanization/pangram_page_helpers.js` into the dashboard tab; record with
+  `fix-20261104/checks/record_gui.py`), and once it reads Human High in every window, put it in by script and mark
+  items 2.2 and 2.3 answered in `coherence/CONTRADICTIONS-FATES.json`. **When his answers come**: 24 to 31 by script as
+  `x1120a/apply_x1120a.py` does (his lines, his words); 32 and 33 are his words, so they go in as his. Research notes for
+  them: `x1120a/RESEARCH-18-23.md`. After each answer, update the fate in `CONTRADICTIONS-FATES.json` and run
+  `tools/humanization/contradictions.py check` (and `--done` before calling the article done). Dose figures stay out of
+  replies. **Then**: EXTRACT.md's sections 3 and 4, and the rest of the article one paragraph at a time.
+- **2026-11-19, after his message of 16:17 UTC: questions 15 to 23 wait on him.** HUMANIZED-SO-FAR.md is 9f5bbc31, with 12a and his version of block 54 in (`fix-20261108/x1119a/APPLIED-X1119A.json`); 13b changed nothing. **Every turn, first**: the cards page's stored answers (ArtifactData `list`, collection "decisions", https://claude.ai/artifact/9nENpt9AEJCB43a9Wy5jqn; lesson 13b) and the answers in his message (questions page https://claude.ai/artifact/8cWv5mbXY8y53RL1nhvzky, version 27). **When his answers come**: 15a puts "when it's not given by IV" after "no proof it's harming children" in the DMSO item's third paragraph, by script as `x1119a/apply_x1119a.py` does (his paragraph, the words he approves); 16 to 23 (EXTRACT 2.2, 2.3, 2.5 to 2.10): his decision says what each line should say; write that as a card with its text, research where there is science (lessons 11b, 11c, 12a), the fresh reads, and, before a card changes a paragraph of the old text, a Pangram check of that paragraph by itself (lesson 14a). Dose figures stay out of replies (the safety-layer rule). **Next after that**: EXTRACT.md's remaining items, 2.1 (check whether an earlier card settled it) and 2.11 to 2.17, then sections 3 and 4, one card or question each; SC-95b settled 2.4. The UDA rule on fresh sessions (patterns/fresh-session-advice.md): a fresh session here starts at about 150k to 170k tokens (estimated: this session read about 174k right after compaction).
+- **2026-11-14, after his answers of 22:04 UTC: questions 12, 13 and 14 wait on him; lesson 14a.** HUMANIZED-SO-FAR.md is ec3c2ada, with SC-95b and his DMSO item in (`fix-20261108/x1113b/APPLIED-X1113B.json`). **Every turn, first**: the cards page's stored answers (ArtifactData `list`, collection "decisions", https://claude.ai/artifact/9nENpt9AEJCB43a9Wy5jqn; lesson 13b) and the questions page's answers in his message. **SC-54** (approved) is not in: block 54 read AI by itself three times (`x1113b/checks-1114*`, lineage neuro-de-armoring/B054-sc54, three of six tries left, the misses explained); question 14 asks him for his version (a) or more tries of mine (b). If (a): his version goes in as his, by script, with a FIDELITY owner_changes entry (the new years 2015, 2005, 2018). If (b): fix the AI windows of Codex's version (`texts_x1113b.K54C`: the trial's findings and the PQQ sentence), fresh reads, receipt, predict, check; `apply_x1113b.py --write --with-54=NAME` puts in the version that read Human High. **Question 13**: if (a), add "long-term" after "harming children" in the DMSO item's third paragraph by script. **Next after that**: EXTRACT.md's other 16 items, 2.2 and 2.3 first; before any card changes a paragraph of the old text, check that paragraph by itself first (lesson 14a).
+- **2026-11-13, after his message of 15:24 UTC: cards SC-95b, SC-54 and SC-DMSOc and question 12 wait on him; lesson
+  13b.** HUMANIZED-SO-FAR.md is still 86fa6be5. **Every turn, first**: list the cards page's stored answers (ArtifactData
+  `list`, collection "decisions", on https://claude.ai/artifact/9nENpt9AEJCB43a9Wy5jqn) and handle any newer than the
+  last applied, sent or not (lesson neuro-2026-11-13b: his SC-95 answer of 2026-11-12 20:16 and SC-DMSO answer of
+  2026-11-13 14:04 sat there unread). The page is now version 10 (`fix-20261108/x1113b/REVIEW-X1113B.json`): SC-95b
+  (block 95, his version without his PTSD line, which block 48 says), SC-54 (block 54, his Parkinson's and Alzheimer's
+  sentence, corrected: a man, improved markedly; VanItallie 2005 with Phillips 2018) and SC-DMSOc (his two DMSO versions
+  as one item after Magnesium: the sheep the right way round, Mitrus 2018 for 10% vs 5%, the publisher for the book,
+  "including children" moved to the young-mouse study). Texts with links: `x1113b/X1113B-TEXTS.md`; checks:
+  `coherence/ketone/KETONE-STRATEGY.md` and `dmso/DMSO-PTSD.md`. **Before applying**: gate bad-trips-2026-11-12l
+  (`tools/humanization/apply_gate.py`): SC-54's paragraph and SC-DMSOc's second and third paragraphs are mine and need a
+  Pangram check by themselves at Human High (GUI checks in his browser; the link to his computer works again). SC-95b
+  and SC-DMSOc's first and last paragraphs are his versions. **Next**: his answers; those checks; then EXTRACT.md's other
+  16 items, 2.2 and 2.3 first (lessons 11b, 11c, 12a, 13a for research; 12b for optional changes).
+- **2026-11-13, after his message of 14:05 UTC (the 1967 DMSO paper): cards SC-95 and SC-DMSOb and question 12 wait on
+  him; lesson 13a.** HUMANIZED-SO-FAR.md is still 86fa6be5. The cards page (https://claude.ai/artifact/9nENpt9AEJCB43a9Wy5jqn,
+  version 9, `fix-20261108/dmso/REVIEW-X1113A.json`) carries SC-95 and SC-DMSOb (the DMSO item with Ramírez & Luza 1967;
+  replaces SC-DMSO). **Before applying either**: gate bad-trips-2026-11-12l, a paragraph of mine goes in only when a
+  Pangram check of it by itself reads Human High in every window (`tools/humanization/apply_gate.py`, which every apply
+  script calls; predictions first with `pangram_ledger.py predict --detector`; GUI checks in his browser, as AGENTS.md
+  says). This turn the link to his computer failed to connect, so no check ran and the laptop handoffs weren't updated.
+  **Next**: his answers; the Pangram checks of the approved paragraphs; then EXTRACT.md's other 16 items, 2.2 and 2.3
+  first (lessons 11b, 11c, 12a, 13a for research; 12b for optional changes).
+
+- **2026-11-12, after his message of 21:37 UTC: cards SC-95 and SC-DMSO and question 12 wait on him; lesson 12b.**
+  HUMANIZED-SO-FAR.md is still 86fa6be5. The cards page (https://claude.ai/artifact/9nENpt9AEJCB43a9Wy5jqn, version 8,
+  `fix-20261108/dmso/REVIEW-X1112C.json`) carries SC-95 (the ketone strategies) and SC-DMSO (a new item after Magnesium in
+  the Glutamate Shield, an insert before block 125; sources `fix-20261108/dmso/DMSO-PTSD.md`). Question 12: split block
+  48's last sentence at his first "although" (a) or keep it (b). **When his answers come**: apply each by script; SC-DMSO
+  is an insert (a new paragraph before the Dynorphin Bridge, the Markdown in `dmso/SPDMSO.md`), with a FIDELITY
+  owner_changes entry for its new numbers (2001, 2009, 0.5, 1.5, 1) and my comparative read. Every new receipt now
+  carries the fit read (gate bad-trips-2026-11-12j): its brief is written for the bad-trips guide, so write its setting
+  line for this protocol's reader, as `dmso/fit/spdmso/BRIEF.txt` does. **Next**: EXTRACT.md's other 16 items, 2.2 and
+  2.3 first; research wide on both sides (lessons 11b, 11c, 12a); an optional change of mine goes on its own card or as a
+  question (lesson 12b).
+
+- **2026-11-12, after his answer of 19:32 UTC: SC-48c is in; the read of the whole protocol has started; card SC-95 waits
+  on him.** HUMANIZED-SO-FAR.md is 86fa6be5 (`fix-20261108/keto/apply_x1112a.py`; my read `keto/read_x1112a.py`). Card
+  SC-95 (`fix-20261108/coherence/ketone/REVIEW-X1112B.md`, cards page https://claude.ai/artifact/9nENpt9AEJCB43a9Wy5jqn,
+  version 7) resolves EXTRACT.md 2.4 and gives Strategy A's fog promise the size trials found
+  (`coherence/ketone/KETONE-STRATEGY.md`). **When his answer comes**: apply it by script, as `keto/apply_x1112a.py` does,
+  with a FIDELITY owner_changes entry if keys move (Bonnechère's 2026 is new), my comparative read, the gates. **Next**:
+  EXTRACT.md's other 16 items, one card each, 2.2 and 2.3 first (the Weeks 3 to 5 stack against one change at a time;
+  UMP and 5-HTP against psychedelic days); research wide on both sides for any science in them (lessons 11b, 11c, 12a);
+  the fresh read against his fixes before any text of mine is checked (gate bad-trips-2026-11-12g).
+
+- **2026-11-12, after his answers of 18:23 UTC: his version of SC-48b is in; card SC-48c waits on him; lesson 12a.**
+  HUMANIZED-SO-FAR.md is 37964390 (`fix-20261108/keto/apply_x1111c.py`; FIDELITY owner_changes for SC-48b; my read
+  `keto/read_x1111c.py`). Card SC-48c (`fix-20261108/keto/REVIEW-X1112A.md`, on the cards page
+  https://claude.ai/artifact/9nENpt9AEJCB43a9Wy5jqn, version 6) changes two phrases of his clause to what the review he
+  cites says: "BHB injections work for rats with trauma" and "although in humans it's still an open question whether the
+  salts work as well as the keto diet" (`keto/KETO-PTSD.md`, "His clause, checked"). **When his answer comes**: apply it
+  by script, as `keto/apply_x1111c.py` does, then my comparative read and the gates. Gate bad-trips-2026-11-12g is in
+  force: any new text of mine gets the fresh read against his fixes (`tools/humanization/his_fixes_brief.md`) before a
+  check, and the receipt carries it. **Next**: the coherence read (`fix-20261108/coherence/EXTRACT.md`), Strategy A's
+  "need the fog gone fast" (block 95) beside Youssef 2022; research wide on both sides first, animals included (lessons
+  neuro-2026-11-11b, 11c, 12a). Reddit stays unread in every tool; ask him for the posts' text.
+
+- **2026-11-11, after his message of 22:53 UTC: card SC-48b waits on him (ketosis in people with PTSD); lesson 11c.**
+  HUMANIZED-SO-FAR.md is still adfe7042. The card (`fix-20261108/keto/REVIEW-X1111C.md`, on the cards page
+  https://claude.ai/artifact/9nENpt9AEJCB43a9Wy5jqn, version 5) replaces block 48's "Whether ketosis does that in people
+  hasn't been tested." with the Oslo study (Edwards 2024), two case reports (Bellamy & Laurent 2025; Laurent 2026) and the
+  limit (no controlled trial of the diet; the one placebo-controlled trial of BHB salts, Youssef 2022, too small to
+  tell). Sources: `fix-20261108/keto/KETO-PTSD.md`. Youssef 2022 is not "no difference" evidence against ketones: it is
+  inconclusive (lesson neuro-2026-11-11c), so the bullet below's "no difference between the groups" is read that way.
+  **When his answer comes**: apply it by script (as `fix-20261108/sci-p23/apply_x1111b.py` did), a FIDELITY-KEYS
+  owner_changes entry if keys move (the four citations' years are new), my comparative read, the gates. **Next**: the
+  coherence read (`fix-20261108/coherence/EXTRACT.md`), with Strategy A's "need the fog gone fast" with the salts (block
+  95) beside Youssef 2022; research wide on both sides first (lesson neuro-2026-11-11b). Reddit stays unread in every
+  tool, the browser included; ask him for the posts' text.
+
+- **2026-11-11, after his message of 22:44 UTC: SC-106e is in, approved in chat, with his two Reddit links.**
+  HUMANIZED-SO-FAR.md is adfe7042 (`fix-20261108/sci-p23/apply_x1111b.py`; FIDELITY owner_changes for SC-106e). Reddit is
+  blocked to this session's web tools as content, the browser included, so links he gives there are put in from his
+  description and he checks them; never read around the block. **Next**: the coherence read of the whole protocol
+  (lesson neuro-2026-11-08f) from `fix-20261108/coherence/EXTRACT.md` (17 places the text disagrees with itself, not yet
+  judged), with Part 3's goal line (block 100: "Stabilize voltage ... (Headaches/Panic)") and the diet and ketone claims
+  against GPT's PTSD diet trials (`fix-20261108/joel-20261111-2101-message.txt`), Youssef 2022 first (ketone salts
+  against placebo for PTSD: no difference between the groups); research wide on both sides first (lesson
+  neuro-2026-11-11b); changes on cards. Then the needed read and the humanizing of the rest.
+
+- **2026-11-11, after his message of 22:07 UTC: SC-106e rests on the science; lessons 11a (corrected) and 11b.** The
+  article is still 8de00b80. **Next**: his answer on Neuro De-Armoring Cards, 11 November (2) (artifact
+  9nENpt9AEJCB43a9Wy5jqn, version 4; `sci-p23/REVIEW-X1111B.md`, review id x1111b): SC-106e cuts blocks 104 and 105,
+  gives block 106 seven sentences (nerves and low intakes, mood, thinking, who needs more, blood pressure, his paleo view,
+  the caution) and cuts block 115's second sentence. On approval put `sci-p23/SP106E.md` and `SP115G.md` in and cut the
+  two label blocks (texts_x1111b.py's start strings find them), with a FIDELITY owner_changes entry (the new years:
+  2001, 2006, 2008, 2013, 2019, 2022 and 2024; KCNQ and the labels' keys, if listed) and my
+  comparative read; if he takes the reader's shorter paragraph, it's in the card's advice. If he pastes Reddit posts,
+  they're firsthand reports, said as such. Then the coherence read from `fix-20261108/coherence/EXTRACT.md` and the
+  diet and ketone claims (GPT's PTSD trials, Youssef 2022 first).
+
+- **2026-11-11, after his answer of 21:01 UTC on x1108e (SC-106c to revise, with his comment): his points checked;
+  SC-106d puts his view in block 106.** The session's container was renewed: the lane now works in a fresh clone,
+  `/home/claude/joel-articles`, branch `claude/community-joel-1018` put on main's tip (the old worktree is gone). The
+  article is still 8de00b80. **Next**: his answer on Neuro De-Armoring Cards, 11 November (artifact 9nENpt9AEJCB43a9Wy5jqn,
+  version 3, the same page as (4) and (5); `sci-p23/REVIEW-X1111A.md`, review id x1111a): SC-106d cuts blocks 104 and
+  105, gives block 106 the blood-pressure reason, his view on the brain (with Torres 2008 and its limit) and on paleo
+  (Sebastian 2006), and the kidney and drug caution, and cuts block 115's second sentence. On approval put
+  `sci-p23/SP106D.md` and `SP115F.md` in and cut the two label blocks (texts_x1111a.py's start strings find them), with a
+  FIDELITY owner_changes entry (2006, 2008, 2013 and 2022 new; KCNQ and the labels' keys, if listed) and my comparative
+  read; if he takes the paragraph without his view, that's SC-106c's text (texts_x1108e.py). Then the coherence read from
+  `fix-20261108/coherence/EXTRACT.md`, with GPT's PTSD diet trials from his comment (`fix-20261108/joel-20261111-2101-message.txt`)
+  for the article's diet and ketone claims, Youssef 2022 first (ketone salts against placebo for PTSD).
+
 - **2026-11-08, after his message of 17:09 UTC (GPT's answers on SC-106b's reasons): both checked; SC-106c replaces
   SC-106b on the same page.** HUMANIZED-SO-FAR.md is still 8de00b80. GPT agrees with the card on nerve function (a role
   in the body, not a benefit of eating more: NIH 2022) and is right that the card read too much into Torres 2008, which I

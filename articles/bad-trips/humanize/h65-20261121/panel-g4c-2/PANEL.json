@@ -1,0 +1,62 @@
+{
+ "readers": [
+  "haiku",
+  "sonnet"
+ ],
+ "sentences": [
+  "Keep them still in a calm room.",
+  "They're already overstimulated, so I'd clear out the crowd and stop any arguing.",
+  "Pacing or exercising to \"burn it off\" only makes more heat, and it raises the risk of their muscles breaking down into the blood, which hurts the kidneys (rhabdomyolysis).",
+  "If they feel a strong urge to keep moving (akathisia), I'd stay with them and talk them into keeping still anyway.",
+  "Give fluids only if they're fully alert, able to swallow and not vomiting, and then just small sips of an electrolyte drink.",
+  "But if they're confused, vomiting or sleepy, I wouldn't push anything into them, not even pills or charcoal, since they could choke.",
+  "The same goes if they might have a seizure."
+ ],
+ "flagged": {
+  "1": [],
+  "2": [
+   "haiku",
+   "sonnet"
+  ],
+  "3": [
+   "haiku",
+   "sonnet"
+  ],
+  "4": [
+   "haiku",
+   "sonnet"
+  ],
+  "5": [
+   "haiku",
+   "sonnet"
+  ],
+  "6": [
+   "haiku",
+   "sonnet"
+  ],
+  "7": [
+   "haiku",
+   "sonnet"
+  ]
+ },
+ "agreed": [
+  2,
+  3,
+  4,
+  5,
+  6,
+  7
+ ],
+ "whole": {
+  "haiku": [
+   "The paragraph is built as a set of matched pairs, each safe action followed by a \"But if...\" or \"Give fluids only if...\" contrast, and the sentences run at an even length with no digressions or loose ends, which reads like a polished list of care rules rather than a person's uneven account."
+  ],
+  "sonnet": [
+   "The paragraph is built as an even run of well-formed sentences, each one a condition followed by an action or a reason, with little variation in length or texture. Its first-person \"I'd\" gives it a voice, but the voice stays calm, complete and evenly hedged throughout, with no stumbles, tangents or uneven emphasis."
+  ]
+ },
+ "human_clean": [
+  "Keep them still in a calm room.",
+  "burn it off"
+ ]
+}

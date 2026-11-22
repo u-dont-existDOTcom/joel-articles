@@ -102,6 +102,27 @@ PARAGRAPH_FROM = '2026-11-07'
 # Gate neuro-2026-11-08a: from this day a receipt for a text of mine carries a fresh reader's "needed" read, and a
 # sentence that read says the reader doesn't need is cut unless "kept" says what the reader does with it.
 NEEDED_FROM = '2026-11-08'
+# Gate bad-trips-2026-11-12g: from this day a receipt for a text of mine carries a fresh reader's read against his fixes
+# (tools/humanization/his_fixes_brief.md, the eight ways his 112 fixes differ from the drafts he fixed), and each sentence
+# that read marks is changed before the check, or "kept" says why it stays. Joel, 2026-11-12 14:45 UTC: "have you
+# systematically looked at all of the fixes i've shown you and what are the idfferences in how you write vs how i fix?"
+HIS_FIXES_FROM = '2026-11-12'
+# Gate bad-trips-2026-11-12j: from this day a receipt for a text of mine carries a fresh reader's fit read
+# (tools/humanization/fit_read_brief.md: for each line that says what to look for or do, whether it is true anyway of
+# someone tripping or overdosing, whether a friend could tell, whether it is a rule from another setting), and each line
+# it marks is changed before the check, or "kept" says why it fits. Joel, 2026-11-12 19:44 UTC, after cutting "It's their
+# first seizure" and "Check if their vision has changed" from texts every fresh read had passed: "we need to have a
+# better sense check in general". The receipts make writes carry the field from that hour; a receipt made before it with
+# no field is read as it was.
+FIT_FROM = '2026-11-13'
+# Lesson bad-trips-2026-11-22a (Joel, 2026-11-22 17:21 UTC, on my sentence after "Serotonin syndrome comes from too much
+# serotonin, so I'd stop anything suspected of adding more": "S2 doesn't follow from S1. you really don't see that? what's
+# connecting them? even "So" would connect", and on "Even if they take an antidepressant every day ...": "I'm reading like 20
+# words before I understand why I'm reading them"): from receipts made on this day, the words that tie a sentence to the one
+# before come at its start, within its first LINK_START_WORDS words ("So", "It doesn't matter if", "And while you might
+# think", "Although"), not somewhere after the reader has started wondering; "none: why" stays for a new step.
+LINK_START_FROM = '2026-11-22'
+LINK_START_WORDS = 5
 READER_USE = re.compile(r'^\s*(yes\s*:\s*)?they\b\s+\S.{20,}', re.I | re.S)
 HIS_OWN = re.compile(r'^\s*his own\s*:\s*\S.{8,}', re.I | re.S)
 NOT_HIS = ('--his is only for what Joel wrote himself, before any humanizing: give --whose "his own: what and where". His '
@@ -200,6 +221,8 @@ def make(text, section='', reader='', his_text='', whose=''):
         'opens': {'first_sentence': (sentences(text) or [''])[0], 'why_reading': ''},
         'same_point': '',
         'needed': {'reader': '', 'unneeded': [], 'kept': {}},
+        'his_fixes': {'reader': '', 'marked': [], 'kept': {}},
+        'fit': {'reader': '', 'marked': [], 'kept': {}},
         'questions': {q: '' for q in QUESTIONS},
         'question_text': QUESTIONS,
     }, **({'his_whose': whose} if his else {}))
@@ -250,6 +273,13 @@ def check(text, receipt):
                          'reader\'s case ("One reason to think about, is that", "So to address that"); if there are '
                          'none, the sentence needs them, or "none: why" (gate neuro-2026-11-06b; Joel: "it was not '
                          'giving the payoff at the start")' % s)
+            elif (receipt.get('made') or '') >= LINK_START_FROM:
+                before = len(re.findall(r"[\w'’-]+", full[:full.lower().index(link.lower())]))
+                if before >= LINK_START_WORDS:
+                    p.append('link for "%s": the words that tie it to the one before ("%s") come after %d words; put '
+                             'the tie at the start, where the reader asks why they are reading it ("So", "It doesn\'t '
+                             'matter if", "And while you might think"; lesson bad-trips-2026-11-22a; Joel: "even \'So\' '
+                             'would connect"), or say "none: why" for a new step' % (s, link, before))
     for c in receipt.get('checked', []):
         for k in ('point', 'found', 'still_needed', 'fate'):
             if not (c.get(k) or '').strip():
@@ -289,6 +319,10 @@ def check(text, receipt):
                      'bit redundant")')
     if mine and ('needed' in receipt or (receipt.get('made') or '') >= NEEDED_FROM):
         p += needed_problems(text, receipt)
+    if mine and ('his_fixes' in receipt or (receipt.get('made') or '') >= HIS_FIXES_FROM):
+        p += his_fixes_problems(text, receipt)
+    if mine and ('fit' in receipt or (receipt.get('made') or '') >= FIT_FROM):
+        p += fit_problems(text, receipt)
     qs = receipt.get('questions') or {}
     for q in QUESTIONS:
         a = (qs.get(q) or '').strip()
@@ -327,6 +361,53 @@ def needed_problems(text, receipt):
         if a.lower().startswith('yes') and not READER_USE.match(a):
             p.append('checked: "%s" says it is still needed; say what the reader does with it ("yes: they ..."), '
                      'not why the claim holds; %s' % ((c.get('point') or '?')[:50], why))
+    return p
+
+
+def his_fixes_problems(text, receipt):
+    """Gate bad-trips-2026-11-12g: a fresh reader's read against his fixes is there, and every sentence it marks is gone from
+    the text or kept with the reason it stays."""
+    p = []
+    why = ('a marked sentence reads the way his fixes change (tools/humanization/his_fixes_brief.md); change it before the '
+           'check, or say why it stays (Joel, 2026-11-12: "when i look at how you try to implement my fixes, it\'s laughable")')
+    h = receipt.get('his_fixes') or {}
+    if len((h.get('reader') or '').strip()) < 10:
+        p.append('his_fixes: say who read the text against his fixes (a fresh reader given tools/humanization/his_fixes_brief.md '
+                 'and the text, one sentence a line), and list in "marked" each sentence they marked with its number, or [] if '
+                 'none; ' + why)
+    have = sentences(text)
+    kept = h.get('kept') or {}
+    for m in h.get('marked') or []:
+        u = ((m.get('s') if isinstance(m, dict) else m) or '').strip()
+        if not u:
+            continue
+        if any(u in x or x in u for x in have) and len((kept.get(u) or '').strip()) < 25:
+            p.append('his_fixes: "%s" was marked (%s) and is still in the text; %s' % (
+                u[:70], (m.get('difference') if isinstance(m, dict) else '') or '?', why))
+    return p
+
+
+def fit_problems(text, receipt):
+    """Gate bad-trips-2026-11-12j: a fresh reader's fit read is there, and every line it marks is gone from the text or kept
+    with the reason it fits."""
+    p = []
+    why = ('a marked line may be true anyway of someone tripping or overdosing, something a friend couldn\'t tell, or a rule '
+           'from another setting (tools/humanization/fit_read_brief.md); change it before the check, or say why it fits '
+           '(Joel, 2026-11-12: "we need to have a better sense check in general")')
+    h = receipt.get('fit') or {}
+    if len((h.get('reader') or '').strip()) < 10:
+        p.append('fit: say who read the text for fit (a fresh reader given tools/humanization/fit_read_brief.md and the '
+                 'text, one line a line), and list in "marked" each line they marked with what they found, or [] if none; '
+                 + why)
+    have = sentences(text)
+    kept = h.get('kept') or {}
+    for m in h.get('marked') or []:
+        u = ((m.get('s') if isinstance(m, dict) else m) or '').strip()
+        if not u:
+            continue
+        if any(u in x or x in u for x in have) and len((kept.get(u) or '').strip()) < 25:
+            p.append('fit: "%s" was marked (%s) and is still in the text; %s' % (
+                u[:70], (m.get('found') if isinstance(m, dict) else '') or '?', why))
     return p
 
 

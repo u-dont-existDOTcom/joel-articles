@@ -1,0 +1,121 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-19",
+ "text_sha256": "b556c3331e10428d16fd84f444370853179ac2d7adc7d322d5c54e5bdb9c6c22",
+ "text": "Shadow work to me is neither BDSM nor \"feeding your demons.\" It means bringing loving awareness to the parts of the mind built in fear, pain, humiliation, rejection, and survival. Inner-child reparenting, giving yourself the parenting you missed, is central to this work. Most negative mind-states aren't some error in your philosophy, they're just young parts of you that are still waiting for love and protection and permission, and for the explanation nobody ever gave them.",
+ "section": "Shadow Work",
+ "reader": "someone whose trip brought up frightening parts of their mind, starting the guide's shadow work part to understand what happened",
+ "sentences": [
+  {
+   "s": "Shadow work to me is neither BDSM nor \"feeding your demons.\"",
+   "payoff": "they know shadow work here isn't a sexual practice or indulging dark urges",
+   "follows": "the part opens on what it means by shadow work"
+  },
+  {
+   "s": "It means bringing loving awareness to the parts of the mind built in fear, pain, humiliation, rejection, and survival.",
+   "payoff": "they know what it is: bringing loving awareness to the parts of the mind formed in fear, pain and rejection",
+   "follows": "the definition after what it isn't",
+   "link": "It means"
+  },
+  {
+   "s": "Inner-child reparenting, giving yourself the parenting you missed, is central to this work.",
+   "payoff": "they know the main method is inner-child reparenting, giving yourself the parenting you missed",
+   "follows": "how it's done",
+   "link": "this work"
+  },
+  {
+   "s": "Most negative mind-states aren't some error in your philosophy, they're just young parts of you that are still waiting for love and protection and permission, and for the explanation nobody ever gave them.",
+   "payoff": "they see a negative mind-state as a young part of them waiting for love and protection, not a flaw in their thinking",
+   "follows": "what reparenting is for",
+   "link": "young parts of you"
+  }
+ ],
+ "checked": [],
+ "placement": "the first paragraph under the Shadow Work part's heading (round 32's SHADOW-START b)",
+ "opens": {
+  "first_sentence": "Shadow work to me is neither BDSM nor \"feeding your demons.\"",
+  "why_reading": "it tells someone whose trip brought up frightening parts of their mind what this guide means by shadow work"
+ },
+ "same_point": "none: read Shadow Work from its heading to the next for what shadow work is: only this paragraph defines it",
+ "needed": {
+  "reader": "a fresh agent (Sonnet) given tools/humanization/needed_read_brief.md with only the text, its heading and what it is for (reads/need-b13-shadow-def.txt; the draft it read: reads/read-text-b13-shadow-def.txt)",
+  "unneeded": [],
+  "kept": {}
+ },
+ "his_fixes": {
+  "reader": "a fresh agent (Sonnet) given tools/humanization/his_fixes_brief.md, the ten ways, with the text one sentence a line (reads/his-b13-shadow-def.txt; the draft it read: reads/read-text-b13-shadow-def.txt)",
+  "marked": [
+   {
+    "s": "Shadow work to me is neither BDSM nor \"feeding your demons.",
+    "difference": "3"
+   },
+   {
+    "s": "It means bringing loving awareness to the parts of the mind built in fear, pain, humiliation, rejection, and survival.",
+    "difference": "1, 4"
+   },
+   {
+    "s": "Inner-child reparenting is central to it.",
+    "difference": "10, 4"
+   },
+   {
+    "s": "Most negative mind-states aren't some error in your philosophy, they're just young parts of you that are still waiting for love and protection and permission, and for the explanation nobody ever gave them.",
+    "difference": "3, 1, 6"
+   }
+  ],
+  "kept": {
+   "Shadow work to me is neither BDSM nor \"feeding your demons.": "his round-32 opening of the part (SHADOW-START), which says what the reader may think it is; his words stay",
+   "It means bringing loving awareness to the parts of the mind built in fear, pain, humiliation, rejection, and survival.": "the definition; each word names a feeling the parts were formed in, which the reader may recognize",
+   "Inner-child reparenting is central to it.": "changed: \"it\" now \"this work\", and the term explained where it is used",
+   "Most negative mind-states aren't some error in your philosophy, they're just young parts of you that are still waiting for love and protection and permission, and for the explanation nobody ever gave them.": "what reparenting does with those parts; the contrast answers a worry the reader really has (that something is wrong with their thinking)"
+  }
+ },
+ "fit": {
+  "reader": "a fresh agent (Sonnet) given tools/humanization/fit_read_brief.md, the universal version (reads/fit-b13-shadow-def.txt; the draft it read: reads/read-text-b13-shadow-def.txt)",
+  "marked": [
+   {
+    "s": "Shadow work to me is neither BDSM nor \"feeding your demons.",
+    "found": "FROM, MISREAD"
+   },
+   {
+    "s": "It means bringing loving awareness to the parts of the mind built in fear, pain, humiliation, rejection, and survival.",
+    "found": "CAN'T TELL"
+   },
+   {
+    "s": "Inner-child reparenting is central to it.",
+    "found": "FROM, MISREAD"
+   },
+   {
+    "s": "Most negative mind-states aren't some error in your philosophy, they're just young parts of you that are still waiting for love and protection and permission, and for the explanation nobody ever gave them.",
+    "found": "CAN'T TELL, MISREAD"
+   }
+  ],
+  "kept": {
+   "Shadow work to me is neither BDSM nor \"feeding your demons.": "his opening of the part, which names two ideas a reader may have heard (round 32)",
+   "It means bringing loving awareness to the parts of the mind built in fear, pain, humiliation, rejection, and survival.": "how to bring loving awareness is what the sections after it teach; this paragraph says what it is",
+   "Inner-child reparenting is central to it.": "changed: the term explained where it is used (giving yourself the parenting you missed)",
+   "Most negative mind-states aren't some error in your philosophy, they're just young parts of you that are still waiting for love and protection and permission, and for the explanation nobody ever gave them.": "what the parts are waiting for (love, protection, permission) says how to treat them; the sections after it say how"
+  }
+ },
+ "questions": {
+  "Q1": "PASS: what it isn't, what it is, how, what for",
+  "Q2": "N/A: a definition, no instruction",
+  "Q3": "PASS: \"this work\" names what \"it\" pointed to two ways",
+  "Q4": "PASS: \"inner-child reparenting\" explained where it is used",
+  "Q5": "PASS: \"It means\", \"is central to this work\", \"Most negative mind-states\"",
+  "Q6": "PASS: what it is first, then how, then what for",
+  "Q7": "PASS: each bears on understanding what happened in their mind",
+  "Q8": "N/A: no list",
+  "Q9": "PASS: one idea a sentence"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

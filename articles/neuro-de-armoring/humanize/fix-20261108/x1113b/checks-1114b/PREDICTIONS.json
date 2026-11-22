@@ -1,0 +1,13 @@
+[
+ {
+  "key": "sp54h",
+  "name": "SC-54 humanized: the same facts and citations, try 2",
+  "lineage": "neuro-de-armoring/B054-sc54",
+  "scope": "paragraph",
+  "words": 153,
+  "call": "Human",
+  "chance": 0.55,
+  "why": "tells: one long joined Parkinson's sentence with two citations, \"the parts of the cell that burn fuel\"; human: the parenthesis opened, \"just fine\", \"did more for tiredness and thinking problems\", \", but\" joins, the Newport sentence unchanged (Human High in try 1)",
+  "sha256": "192e443f5ed5e53f1ca4e3ead59284afe677c5fd3315b562e016f5c114990274"
+ }
+]

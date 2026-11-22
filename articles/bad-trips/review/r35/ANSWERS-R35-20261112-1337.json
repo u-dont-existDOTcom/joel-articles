@@ -1,0 +1,56 @@
+{
+ "format": "joel-suggestion-review-answers-v1",
+ "review_id": "bad-trips-r35",
+ "title": "Bad Trips Guide, Round 35",
+ "git_file": "articles/bad-trips/review/r35/REVIEW-R35.html",
+ "article": {
+  "file": "articles/bad-trips/review/r35/PAGE-R35.md",
+  "sha256": "080978274e7478e36cd5ce81e1af08e8d1911effed1b26c78f146a3c44748e1f"
+ },
+ "built": "2026-11-12",
+ "generator": "suggestion_review.py 1.11 (2026-11-11)",
+ "exported_at": "2026-11-12T13:37:05.177Z",
+ "counts": {
+  "approved": 0,
+  "rejected": 0,
+  "revise": 1,
+  "pending": 1
+ },
+ "items": [
+  {
+   "id": "BODY-ONCE",
+   "type": "question",
+   "title": "1. The body's warning signs: said in two places?",
+   "where": "Risk of Harm: When Peer Support Isn't Enough, P2",
+   "advice": "ask",
+   "status": "answered",
+   "question": "Your Risk of Harm paragraph says \"If their body is flashing warning signs like severe overheating (not just regular sweating), severe insomnia, or trouble breathing ... reach out\", and the Call medics list just above it has \"Trouble breathing, blue or gray lips, or respiratory depression\" and \"Dangerous overheating, severe rigidity, or clonus with fever\". How each option would read:\n\nA (my pick): both stay as they are. Your paragraph says when to reach out at all; the list says which signs need an ambulance, with what your examples don't have (blue or gray lips, slow breathing, rigid muscles, jerking muscles with a fever). Pro: no safety sign is lost. Con: overheating and trouble breathing show up twice, a few lines apart.\n\nB: the list keeps only what your paragraph doesn't say: \"Blue or gray lips, or respiratory depression\" and \"Severe rigidity, or clonus with fever\". Pro: each sign is said once. Con: someone scanning the list for when to call medics won't find \"trouble breathing\" or \"overheating\" there.",
+   "your_version": "",
+   "comment": "my paragraph should not say anything that should be going in that  above list. so cut this section or move it up/merge it",
+   "my_version": "",
+   "before": "",
+   "history": [],
+   "updated": "2026-11-12T13:15:49.194Z"
+  },
+  {
+   "id": "TEACH-ORAL",
+   "type": "teach",
+   "title": "2. Recent Oral Toxic Ingestion: what to do when someone swallowed too much",
+   "where": "Recent Oral Toxic Ingestion, P1",
+   "advice": "edit",
+   "status": "revise",
+   "your_version": "\"Overdose\" is too vague to choose a remedy. Figure out how much of what was swallowed and how long ago, then see what the body is doing: are they suffering from slow and shallow breathing (respiratory depression, from from opioids, benzos and alcohol)? Or is it rapid breathing, heart rate, and agitation, signs of stimulant toxicity? Do you see symptoms of serotonin toxicity, like seizure, dangerous overheating, tremor? Do they have vomiting or diarrhea beyond what they can handle? Some of these symptoms are also normal, like vomiting and diarrhea, which are helpful in undoing an overdose, up to a point. Slow breathing is normal with iboga, but if cardiac irregularities come along with it, that's an extra danger sign. ",
+   "comment": "try 1, fixed some redundancy but still ai: https://www.pangram.com/history/9624711d-e475-4fc4-b47c-857463d7e72e?ucc=4rq5Ko7gBiW&utm_source=pangram_share&utm_medium=copy_link\n\ntry 2, mixed. explained symptoms and overlap better; https://www.pangram.com/history/4dfa4929-ad26-4b5a-866f-56c4e6f6ba2d?ucc=4rq5Ko7gBiW&utm_source=pangram_share&utm_medium=copy_link\n\ntry 3 i fixed the vague repetitive \"different from is different from\" phrasing, now it's is human but not yet high conf: https://www.pangram.com/history/9adb5e7a-9068-4686-b92e-245efa649a0d?ucc=4rq5Ko7gBiW&utm_source=pangram_share&utm_medium=copy_link\n\n\ntry 4, high conf human, changed comma to and, https://www.pangram.com/history/98298677-6b10-4a75-861d-6368c62f1fea?ucc=4rq5Ko7gBiW&utm_source=pangram_share&utm_medium=copy_link\n\nnow putting back the symptoms that don't overlap which you cut:\n\nso i went back to the original one and fixed that one, now it's high conf human https://www.pangram.com/history/7e898f05-9c97-4f23-9513-cfca78be8905?ucc=4rq5Ko7gBiW&utm_source=pangram_share&utm_medium=copy_link\n",
+   "my_version": "\"Overdose\" is too vague to choose a remedy. Ask what was swallowed, how much, when, and what the body is actually doing: respiratory depression, stimulant toxicity, serotonin toxicity, seizure, dangerous overheating, cardiovascular symptoms, severe agitation, objective neurological dysfunction, vomiting, diarrhea, or something else.",
+   "before": "\"Overdose\" is too vague to choose a remedy. Ask what was swallowed, how much, when, and what the body is actually doing: respiratory depression, stimulant toxicity, serotonin toxicity, seizure, dangerous overheating, cardiovascular symptoms, severe agitation, objective neurological dysfunction, vomiting, diarrhea, or something else.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "revise",
+     "at": "2026-11-12T13:24:13.329Z"
+    }
+   ],
+   "updated": "2026-11-12T13:37:01.735Z"
+  }
+ ]
+}

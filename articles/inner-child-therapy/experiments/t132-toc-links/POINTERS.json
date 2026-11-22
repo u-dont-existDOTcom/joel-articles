@@ -1,0 +1,313 @@
+[
+ {
+  "in": "S013",
+  "phrase": "see my later section “ Compassion Exit? ,”",
+  "sentence": "If this is due to physical pain, see my later section “ Compassion Exit? ,” for an alternative plan that’s more natural and healthy.",
+  "target": "S084x",
+  "target_heading": "Compassionate Exit?",
+  "name_matches": false,
+  "direction_ok": true,
+  "already_linked": null,
+  "confidence": "high"
+ },
+ {
+  "in": "S013",
+  "phrase": "more on that in Noticing Counts, further on",
+  "sentence": "As for the internal psychology of it, when the part that wants to die feels like all of you, go ahead and notice who’s doing the noticing (more on that in Noticing Counts, further on), or borrow an adult from the adult lending library in your head :).",
+  "target": "S022",
+  "target_heading": "Noticing Counts",
+  "name_matches": true,
+  "direction_ok": true,
+  "already_linked": null,
+  "confidence": "high"
+ },
+ {
+  "in": "S031",
+  "phrase": "like the Chicken and Egg problem",
+  "sentence": "Love and trust are reciprocal and intertangled, like the Chicken and Egg problem.",
+  "target": "S003",
+  "target_heading": "The Chicken-and-Egg Problem",
+  "name_matches": true,
+  "direction_ok": true,
+  "already_linked": null,
+  "confidence": "high"
+ },
+ {
+  "in": "S031",
+  "phrase": "Apply the Mr. Rogers reframing trick here as well.",
+  "sentence": "Apply the Mr. Rogers reframing trick here as well.",
+  "target": "S028",
+  "target_heading": "Reframing attacks as unskillful attempts to help",
+  "name_matches": false,
+  "direction_ok": true,
+  "already_linked": null,
+  "confidence": "high"
+ },
+ {
+  "in": "S041",
+  "phrase": "in the next section",
+  "sentence": "This is what the Inner Guide can bring you to, which will be discussed in the next section after the foundational guidance.",
+  "target": [
+   "S042",
+   "S049"
+  ],
+  "target_heading": [
+   "The Inner Guide: Becoming Your Own Shepherd",
+   "Guide Yourself To Divine Love"
+  ],
+  "name_matches": null,
+  "direction_ok": true,
+  "already_linked": null,
+  "confidence": "medium"
+ },
+ {
+  "in": "S046",
+  "phrase": "Use Hindsight to Re-do Traumatic Memories In A Healther Way",
+  "sentence": "We can also Use Hindsight to Re-do Traumatic Memories In A Healther Way , which is a section further down (or check the Table of Contents on the left).",
+  "target": "S076",
+  "target_heading": "Use hindsight to “re-do” traumatic memories in a healthier way",
+  "name_matches": true,
+  "direction_ok": true,
+  "already_linked": null,
+  "confidence": "high"
+ },
+ {
+  "in": "S059",
+  "phrase": "“Noticing Counts” above",
+  "sentence": "Remember what we learned in “Noticing Counts” above.",
+  "target": "S022",
+  "target_heading": "Noticing Counts",
+  "name_matches": true,
+  "direction_ok": true,
+  "already_linked": null,
+  "confidence": "high"
+ },
+ {
+  "in": "S070",
+  "phrase": "we get deeper into that further on",
+  "sentence": "In that case, sometimes it helps to meditate or talk with a good unbiased therapist who can help you see if there’s some avoidance of differentiation (we get deeper into that further on).",
+  "target": [
+   "S114",
+   "S117"
+  ],
+  "target_heading": [
+   "Differentiation: Keeping Your Own Ground",
+   "Practicing Differentiation"
+  ],
+  "name_matches": null,
+  "direction_ok": true,
+  "already_linked": null,
+  "confidence": "medium"
+ },
+ {
+  "in": "S072",
+  "phrase": "If the hook is stuck a bit deeper in your mouth",
+  "sentence": "If the hook is stuck a bit deeper in your mouth and you’re flailing around like a fish out of water, gentle mantra meditation or self-hypnosis (which overlap a lot) are some tools that can really calm your nervous system down.",
+  "target": "S069",
+  "target_heading": "Catch the Hook Before the Story Takes Over",
+  "name_matches": null,
+  "direction_ok": true,
+  "already_linked": null,
+  "confidence": "low"
+ },
+ {
+  "in": "S076",
+  "phrase": "from Borrow Hindsight",
+  "sentence": "Once you’ve got your cast of perfected future characters (from Borrow Hindsight) in your mind, you can also go back to earlier traumatic memories and relive them in a better way.",
+  "target": "S046",
+  "target_heading": "Borrow Hindsight",
+  "name_matches": true,
+  "direction_ok": true,
+  "already_linked": null,
+  "confidence": "high"
+ },
+ {
+  "in": "S081",
+  "phrase": "“Untangling the Belonging Bargains” further on",
+  "sentence": "We get deeper into finding and building that self in “Untangling the Belonging Bargains” further on.",
+  "target": "S115",
+  "target_heading": "Untangling the Belonging Bargains",
+  "name_matches": true,
+  "direction_ok": true,
+  "already_linked": null,
+  "confidence": "high"
+ },
+ {
+  "in": "S084x",
+  "phrase": "As mentioned in “If You Want to Kill Yourself,”",
+  "sentence": "As mentioned in “If You Want to Kill Yourself,” I don’t take suicide lightly, because I believe the mind state at death is the most important factor determining the what happens after.",
+  "target": "S013",
+  "target_heading": "If You Want to Kill Yourself",
+  "name_matches": true,
+  "direction_ok": true,
+  "already_linked": null,
+  "confidence": "high"
+ },
+ {
+  "in": "S094",
+  "phrase": "the “Altered States Can Deepen Therapy or Escapism” section further on",
+  "sentence": "I have more advice on using psychedelics with the therapy in the “Altered States Can Deepen Therapy or Escapism” section further on.",
+  "target": "S093",
+  "target_heading": "Altered States Can Deepen Therapy or Escapism",
+  "name_matches": true,
+  "direction_ok": false,
+  "already_linked": null,
+  "confidence": "high"
+ },
+ {
+  "in": "S095",
+  "phrase": "In the previous section",
+  "sentence": "In the previous section, I made it sound like you actually can put off intense altered states until you’re ready, but some of them are involuntary.",
+  "target": [
+   "S093",
+   "S094"
+  ],
+  "target_heading": [
+   "Altered States Can Deepen Therapy or Escapism",
+   "For some people, reparenting starts feeling real in an altered state"
+  ],
+  "name_matches": null,
+  "direction_ok": true,
+  "already_linked": null,
+  "confidence": "medium"
+ },
+ {
+  "in": "S097",
+  "phrase": "Ask God for a Loan",
+  "sentence": "If not, that peak was less the love we’re after here than “I’ll be grateful once I’ve got it all,” the gratitude with conditions from Ask God for a Loan.",
+  "target": "S050",
+  "target_heading": "Ask God for a Loan 🫶🏿",
+  "name_matches": true,
+  "direction_ok": true,
+  "already_linked": null,
+  "confidence": "high"
+ },
+ {
+  "in": "S127",
+  "phrase": "Hearthwork",
+  "sentence": "This is part of why I connect inner-child pl/ork with Hearthwork and with building community .",
+  "target": "S128",
+  "target_heading": "Hearthwork: Taking Turns Lending & Borrowing Adulthood",
+  "name_matches": true,
+  "direction_ok": true,
+  "already_linked": null,
+  "confidence": "low"
+ },
+ {
+  "in": "S128",
+  "phrase": "borrowed adulthood practice",
+  "sentence": "It also helps us with the borrowed adulthood practice.",
+  "target": "S018",
+  "target_heading": "Borrow the Adult To Become the Adult",
+  "name_matches": false,
+  "direction_ok": null,
+  "already_linked": null,
+  "confidence": "low"
+ },
+ {
+  "in": "S096",
+  "phrase": "borrowed adulthood",
+  "sentence": "Borrowing support like that is basically borrowed adulthood.",
+  "target": "S018",
+  "target_heading": "Borrow the Adult To Become the Adult",
+  "name_matches": false,
+  "direction_ok": null,
+  "already_linked": null,
+  "confidence": "low"
+ },
+ {
+  "in": "S130",
+  "phrase": "in the Appendix",
+  "sentence": "Inner Child Reparenting therapists do exist, and you can find them, although they often are not licensed, and I don’t know of any central directory, nor of any protocol they’d have in common (aside from Lucia C’s, in the Appendix).",
+  "target": [
+   "S146",
+   "S147"
+  ],
+  "target_heading": [
+   "Appendix",
+   "How This Relates to Similar Therapies"
+  ],
+  "name_matches": true,
+  "direction_ok": true,
+  "already_linked": null,
+  "confidence": "medium"
+ },
+ {
+  "in": "S131",
+  "phrase": "I’ll talk more about those in the appendix.",
+  "sentence": "I’ll talk more about those in the appendix.",
+  "target": [
+   "S148",
+   "S149"
+  ],
+  "target_heading": [
+   "Schema Therapy",
+   "Internal Family Systems (IFS)"
+  ],
+  "name_matches": null,
+  "direction_ok": true,
+  "already_linked": null,
+  "confidence": "medium"
+ },
+ {
+  "in": "S145",
+  "phrase": "“Your Loan is PRE-APPROVED!”",
+  "sentence": "And the love you’re worthy of is the same love as back in “Your Loan is PRE-APPROVED!”, the Divine Love that can start as a little spark of relief when you give thanks.",
+  "target": "S050",
+  "target_heading": "Ask God for a Loan 🫶🏿",
+  "name_matches": false,
+  "direction_ok": true,
+  "already_linked": null,
+  "confidence": "high"
+ },
+ {
+  "in": "S148",
+  "phrase": "back in Your Loan is PRE-APPROVED!",
+  "sentence": "Her book barely mentions gratitude, and for me that’s the door to the bigger love back in Your Loan is PRE-APPROVED!",
+  "target": "S050",
+  "target_heading": "Ask God for a Loan 🫶🏿",
+  "name_matches": false,
+  "direction_ok": true,
+  "already_linked": null,
+  "confidence": "high"
+ },
+ {
+  "in": "S148",
+  "phrase": "more on that in the next section",
+  "sentence": "IFS goes overboard the other way, in my opinion (more on that in the next section).",
+  "target": "S149",
+  "target_heading": "Internal Family Systems (IFS)",
+  "name_matches": null,
+  "direction_ok": true,
+  "already_linked": null,
+  "confidence": "high"
+ },
+ {
+  "in": "S148",
+  "phrase": "borrowed adulthood",
+  "sentence": "All that sounds like my Nurturer, Protector and Guide by other names, and since the therapist’s version becomes yours bit by bit, it’s borrowed adulthood too.",
+  "target": "S018",
+  "target_heading": "Borrow the Adult To Become the Adult",
+  "name_matches": false,
+  "direction_ok": null,
+  "already_linked": null,
+  "confidence": "low"
+ },
+ {
+  "in": "S149",
+  "phrase": "My guide also talks about entity attachments",
+  "sentence": "My guide also talks about entity attachments, but I don’t believe that’s reason to start another internal war.",
+  "target": [
+   "S095",
+   "S096"
+  ],
+  "target_heading": [
+   "Everyone has altered states: Prepare now",
+   "Using spiritual attack for spiritual gain"
+  ],
+  "name_matches": null,
+  "direction_ok": true,
+  "already_linked": null,
+  "confidence": "low"
+ }
+]

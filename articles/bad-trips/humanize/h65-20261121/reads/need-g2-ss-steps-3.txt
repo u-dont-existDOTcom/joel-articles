@@ -1,0 +1,37 @@
+NEEDS:
+S1: First step: stop anything that raises serotonin, and the sentence says what that means so the reader can spot it.
+S2: Lets the reader recognize antidepressants (SSRI, SNRI, MAOI) as something to stop.
+S3: Lets the reader recognize tramadol and linezolid as something to stop.
+S4: Tells the reader not to give another dose of MDMA or any stimulant.
+S5: Lets the reader recognize 5-HTP, St John's wort and SAM-e as something to stop.
+S6: Lets the reader recognize harmala and ayahuasca-type MAOIs as something to stop.
+S7: Lets the reader recognize DXM cough syrup as something to stop.
+S8: The act: if the person is fully alert and can swallow, give cyproheptadine early (if the reader has it).
+S9: nothing
+S10: Implies the act: don't hold back the other steps while waiting on the medicine; do everything else regardless.
+S11: Call emergency help and arrange transport.
+S12: Don't drive the person themselves, so someone else drives or an ambulance comes.
+S13: Call poison control if the mix is unknown, after help is on the way.
+S14: Heading of the cooling step: cool them, but don't delay transport for it.
+S15: Move them to a cool room and remove extra clothing.
+S16: The cooling methods: fan, cool damp cloths, wrapped ice packs at neck, armpits or groin.
+S17: Don't use a bath if they're confused, seizing or very weak.
+S18: Implies: don't bother with a fever reducer, it won't help and wastes time.
+S19: Heading of the next step: keep the room calm and the person still.
+S20: Keep crowds and arguments away.
+S21: Don't have them pace or exercise, because it makes heat and risks muscle damage.
+S22: Implies the act: stay with them and help them keep still even if they feel a strong urge to move.
+S23: Give fluids only if fully alert and not vomiting, and only small sips of an electrolyte drink.
+S24: Don't force fluids, food, pills or charcoal on a confused, vomiting, sleepy or seizure-prone person, since they could choke.
+S25: Heading of the last step: gather what the ER will need.
+S26: Collect pill bottles and packages.
+S27: Write down exactly what they took, how much and when, including last dose and recently raised doses.
+S28: Include supplements and recreational drugs.
+S29: Take temperature, pulse and blood pressure if possible.
+S30: Implies: don't give niacin, even though the reader may reach for it as the trip killer.
+S31: Implies: don't give DMSO either.
+S32: nothing
+
+UNNEEDED:
+- S9: So far, the evidence for this med has only been case reports, and a recent review found them insufficient to show that it works. — The reader gives cyproheptadine or not the same way with or without it; S10 can say "don't wait on it" and still tell them to do the other steps.
+- S32: Once they're fully alert, I'd consider magnesium chloride by mouth, as in the MDMA section above, especially for MDMA-related jaw tension or muscle twitching. — It is an optional extra that points to another section, treats a symptom rather than the emergency, and sits against the earlier warnings about giving pills; the reader can wait for help without it.

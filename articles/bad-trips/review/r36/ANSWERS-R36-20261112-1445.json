@@ -1,0 +1,61 @@
+{
+ "format": "joel-suggestion-review-answers-v1",
+ "review_id": "bad-trips-r36",
+ "title": "Bad Trips Guide, Round 36",
+ "git_file": "articles/bad-trips/review/r36/REVIEW-R36.html",
+ "article": {
+  "file": "articles/bad-trips/review/r36/PAGE-R36.md",
+  "sha256": "abd862e0befc6bc833f3a91bbe6b7c16e95ada464946696eca82d0ed3b8e4497"
+ },
+ "built": "2026-11-12",
+ "generator": "suggestion_review.py 1.11 (2026-11-11)",
+ "exported_at": "2026-11-12T14:45:53.299Z",
+ "counts": {
+  "approved": 0,
+  "rejected": 0,
+  "revise": 1,
+  "pending": 1
+ },
+ "items": [
+  {
+   "id": "MEDICAL-HOW",
+   "type": "question",
+   "title": "1. The rest of the medical part: a whole version a round, or a line or two for each section?",
+   "where": "Acute Medical and Neurological Rescue, P1",
+   "advice": "ask",
+   "status": "answered",
+   "question": "Nine sections of the medical part read AI in the first batch and haven't been fixed: Call medics for, Who to Contact, Acute Medical and Neurological Rescue (these two paragraphs), My Brain Feels Damaged, Active Seizure's first part, MDMA's jaw tension, Chest Pain, Recent Oral Toxic Ingestion's charcoal and poison control paragraphs, and Serotonin Syndrome. How each option would go:\n\nA: as now: one teaching card a round, and I carry what you do to the others and test them. Pro: you write one section a round. Con: my carries of your two medical versions read AI in all eight tries, so so far only the section you write turns Human.\n\nB (my pick): next round, a short box for each of those sections, for a line or two of your own there: what you've seen, what you'd do, or what you think of the standard advice. I build each section around what you write and test it. Pro: the whole part in a round or two, and it's how my fixes went Human in the remedies, where something you wrote was near (Nausea Smoothers, DMSO, the ocean water). Con: untried on clinical text; a section that still reads AI comes back to you as a teaching card.",
+   "your_version": "",
+   "comment": "a\nyou shouldn't need my opinions on stuff in order to pass. my opinions are extra. have you systematically looked at all of the fixes i've shown you and what are the idfferences in how you write vs how i fix?because when i look at how you try to implement my fixes, it's laughable, like you're not really learning much. you still use a lot of ai patterns like \"this is different. that's different, this other thing is also different\" and \"x but not y\" and so forth, like you're not even trying",
+   "my_version": "",
+   "before": "",
+   "history": [],
+   "updated": "2026-11-12T14:12:12.301Z"
+  },
+  {
+   "id": "TEACH-SS",
+   "type": "teach",
+   "title": "2. Suspected Serotonin Syndrome: how to recognize it",
+   "where": "Recognizing serotonin toxicity, P1",
+   "advice": "edit",
+   "status": "revise",
+   "your_version": "Recognizing serotonin toxicity\n\nWe can use the same Hunter criteria that clinicians use to diagnose serotonin syndrome. One or more of the these patterns makes the diagnosis more likely:\nSpontaneous clonus: involuntary rhythmic muscle spasms, with no stimulation needed to set it off, would be one full pattern\nInducible clonus, spasms set off by stretching/flexing a muscle, plus agitation or sweating would be counted as one pattern altogether.\nOcular clonus (rapid involuntary eye movements) plus agitation or sweating, another pattern together. \nAnother is tremor (shaking) along with hyperreflexia (abnormally brisk reflexes). \nLastly, Hypertonia (muscular rigidity) with fever above 38°C (100.4°F), as well as ocular or inducible clonus.\n\nSo if you see any of these patterns, call medics.",
+   "comment": "my first attempt clarified and reduced redundancy, still ai: https://www.pangram.com/history/52abd79e-d76e-4c59-9df6-77ed439ae19d?ucc=4rq5Ko7gBiW&utm_source=pangram_share&utm_medium=copy_link\n\nmade it read better by explaining closer to the term and clarifying what counts as a pattern, as well as varying the phrasing used a bit, now it's nearly all full conf humanb: https://www.pangram.com/history/54dd2f4b-c72a-4b40-817e-3f94f7dada88?ucc=4rq5Ko7gBiW&utm_source=pangram_share&utm_medium=copy_link\n\nnow it's all high conf human: https://www.pangram.com/history/9e32c090-a4bd-4353-abcc-f56393b6b644?ucc=4rq5Ko7gBiW&utm_source=pangram_share&utm_medium=copy_link",
+   "my_version": "Clinicians often use the Hunter criteria. One or more of the following patterns makes serotonin toxicity more likely:\n\nSpontaneous clonus: involuntary rhythmic muscle contractions and relaxations occurring without stimulation.\n\nInducible clonus plus agitation or sweating.\n\nOcular clonus plus agitation or sweating: rapid rhythmic involuntary eye movements.\n\nTremor plus hyperreflexia: shaking together with abnormally brisk reflexes.\n\nHypertonia plus fever: rigidity with temperature above 38°C (100.4°F), together with ocular or inducible clonus.\n\nThis is a recognition aid rather than a command to wait for every criterion before acting. Dangerous heat, rigidity, clonus, confusion, or rapid worsening deserves medical help.",
+   "before": "Clinicians often use the Hunter criteria. One or more of the following patterns makes serotonin toxicity more likely:\n\nSpontaneous clonus: involuntary rhythmic muscle contractions and relaxations occurring without stimulation.\n\nInducible clonus plus agitation or sweating.\n\nOcular clonus plus agitation or sweating: rapid rhythmic involuntary eye movements.\n\nTremor plus hyperreflexia: shaking together with abnormally brisk reflexes.\n\nHypertonia plus fever: rigidity with temperature above 38°C (100.4°F), together with ocular or inducible clonus.\n\nThis is a recognition aid rather than a command to wait for every criterion before acting. Dangerous heat, rigidity, clonus, confusion, or rapid worsening deserves medical help.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "rejected",
+     "at": "2026-11-12T14:19:21.596Z"
+    },
+    {
+     "from": "rejected",
+     "to": "revise",
+     "at": "2026-11-12T14:19:22.268Z"
+    }
+   ],
+   "updated": "2026-11-12T14:45:50.401Z"
+  }
+ ]
+}

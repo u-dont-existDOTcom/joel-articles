@@ -1,0 +1,77 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-11",
+ "text_sha256": "a78fde70b49936e2c749149dab1399e9be515df3549864bed49627240321529d",
+ "text": "When a trip is too strong, touching ocean water can be extremely soothing. Touching the outside of a bottle doesn't do it. Direct contact with the water seems to matter, even when the water has been stored in a bottle.\n\nIt feels grounding and cooling, and there's something organizing about it too that I don't get from DMSO or my other remedies. I don't understand the mechanism, I just know that again and again it's felt like a powerful natural remedy for a trip that's too intense.",
+ "section": "Ocean Water to calm & protect the energetic field; Shungite, Aged Ozonated-Charcoal Water, or Boiled Charcoal Water",
+ "reader": "someone whose trip is too strong, deciding whether touching ocean water or a charcoal water could steady it, and how each differs",
+ "sentences": [
+  {
+   "s": "When a trip is too strong, touching ocean water can be extremely soothing.",
+   "payoff": "they touch ocean water when the trip is too strong",
+   "follows": "how to use it"
+  },
+  {
+   "s": "Touching the outside of a bottle doesn't do it.",
+   "payoff": "they know touching the bottle doesn't do it",
+   "follows": "what does not work",
+   "link": "Touching the outside of a bottle"
+  },
+  {
+   "s": "Direct contact with the water seems to matter, even when the water has been stored in a bottle.",
+   "payoff": "they put their hands in the water itself, bottled or not",
+   "follows": "what does",
+   "link": "Direct contact with the water"
+  },
+  {
+   "s": "It feels grounding and cooling, and there's something organizing about it too that I don't get from DMSO or my other remedies.",
+   "payoff": "they know what it feels like and that it is not the same as his other remedies",
+   "follows": "what the touch does",
+   "link": "It feels"
+  },
+  {
+   "s": "I don't understand the mechanism, I just know that again and again it's felt like a powerful natural remedy for a trip that's too intense.",
+   "payoff": "they know he can't say why, only that it has worked again and again for a trip that's too intense",
+   "follows": "what he knows of it",
+   "link": "I don't understand the mechanism"
+  }
+ ],
+ "checked": [],
+ "placement": "Mental Stabilizers, after the essential oils and DMSO: the waters, ocean water first and the charcoal waters compared with it (checked here by itself with the paragraph it leans on, E343, E349)",
+ "opens": {
+  "first_sentence": "When a trip is too strong, touching ocean water can be extremely soothing.",
+  "why_reading": "it tells someone whose trip is too strong that touching ocean water can soothe it"
+ },
+ "same_point": "none: read the section from Ocean Water to the next heading for the waters; zeolite is its own section before",
+ "needed": {
+  "reader": "a fresh Haiku agent given tools/humanization/needed_read_brief.md with the unit, its heading and what it is for (NEEDED-READ.md, h42-22); this paragraph test is part of that unit, read there in place",
+  "unneeded": [
+   "I don't understand the mechanism, I just know that again and again it's felt like a powerful natural remedy for a trip that's too intense."
+  ],
+  "kept": {
+   "I don't understand the mechanism, I just know that again and again it's felt like a powerful natural remedy for a trip that's too intense.": "they try it because it has worked for him again and again, knowing nobody can tell them why (his words 'I don't understand the mechanism' are a fidelity key, W056)"
+  }
+ },
+ "questions": {
+  "Q1": "PASS: each sentence opens on its point (\"Ocean water is\", \"When a trip is too strong\", \"It feels\")",
+  "Q2": "PASS: the instruction (touch the water itself) is the reader's own act",
+  "Q3": "PASS: \"Quinton Medical Seawater\", \"the outside of a bottle\", \"water ozonated with ordinary rock charcoal\" say which",
+  "Q4": "PASS: the remedies named are the guide's own from the sections before",
+  "Q5": "PASS: \"also\", \"even when\", \"because\" and \"while\" say each relation",
+  "Q6": "PASS: what it is, how to use it, what it does, then the waters like it",
+  "Q7": "PASS: each fact bears on whether and how they use it now",
+  "Q8": "PASS: the waters are all stabilizers that keep the trip",
+  "Q9": "PASS: one step a sentence"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

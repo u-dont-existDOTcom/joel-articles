@@ -1,6 +1,6 @@
 # Inner Child article: questions for Joel
 
-Last updated 2026-10-26 (turns 82 to 115). **Open questions: none.** For you to do: go through the docx of round 8's spots and send it back, and merge pull request #255. To answer a question, reply in chat with its number and a letter, like `75: A`, or in your own words.
+Last updated 2026-11-21 (turn 140). No open questions: 111 to 117 are answered. The to-do entries below date from turn 115 (26 October) and weren't rechecked this turn, except pull request #255, which you merged on 3 November. To answer a question, reply in chat with its number and a letter, like `111: A`, or in your own words.
 
 🟣 a question for you · 🟠 for you to do · 🔵 next or in progress · 🟢 done or decided
 
@@ -8,9 +8,86 @@ The published page, a view of this file rebuilt after every change ([questions_p
 
 ## Open questions
 
-None right now.
+### 🟢 117. Do away with Healing Old Patterns? (turn 138)
+
+What's left in it is Re-do Trauma Memories (with Discipline Done Right?) and Answer the Disciplinarian, about 970 words.
+
+- **A** (my suggestion): Re-do Trauma Memories goes in the Guide as an h3 right after Borrow a Guide to Build It, with Discipline Done Right? as its h4. It opens "Once you've got your cast of perfected future characters (from Borrow Hindsight)", and Borrow Hindsight already sends readers to it, "a section further down"; that line becomes a one-line lead-in. Answer the Disciplinarian goes under the Protector as an h3 right after The Parent You Inherited: it answers the voice that section calls "a critic, or a warden with rules", and protection blocks.
+- **B**: both into the Guide, Answer the Disciplinarian as an h3 after Spoil or Clamp Down? (routines kept without harshness).
+- **C**: keep Healing Old Patterns, for GPT's reason: the core role sections stay shorter.
+
+The Guide would grow from about 3,100 words to 3,900 (A) or 4,050 (B), and the Protector from 1,200 to 1,350 (A). Every new heading fits whole in the sidebar at those levels. Nothing links to Healing Old Patterns itself, and the moved sections keep their anchors. Answer A, B or C, or in your own words.
+
+Answered 2026-11-21 13:07 UTC: A ("yes, implement your suggestions for the moves"). The moves aren't in the post yet: this session couldn't open your post's editor (a safety check blocked it), so the steps went to you in chat; see "For you to do" below. Of five card-sort readings of Answer the Disciplinarian, 2 put it beside The Parent You Inherited, as A does, and 3 beside Discipline Done Right?; the [recommendations for readers](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/inner-child-therapy/experiments/t139-readers/RECOMMENDATIONS.md) add a pointer from there.
+
+### 🟢 116. What is Healing Old Patterns for? (turn 137)
+
+It's the one part of the guide I can't find defined in the article or in your answers so far ([what I checked, and where the others are answered](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/inner-child-therapy/experiments/t137-questions/ASKED.md)). Your answer to 114 says what it isn't: "just a catch all category which is not important enough to deal with such a primary obstacle". And the opening gives noticing old patterns to the whole Inner Adult ("That grown-up notices the old patterns and practices better ways of responding"), so from the article alone, all three roles' work sounds like healing old patterns.
+
+What is the part for, and what should go there rather than under the Protector, the Nurturer or the Guide? A line or two in your own words is plenty. It goes into the frame for the next sort with your answers to 114 and 115 and the article's own descriptions.
+
+Answered 2026-11-21 01:47 UTC: "yes all 3 roles are for healing old patterns, that's true. this section is basically where we have decided to put techniques that don't seem to fit cleanly into just one role". You've moved most of its sections into their roles, so little is left, and you're weighing doing away with it: question 117. The definition is in the [contents order brief](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/tools/humanization/contents_order_brief.md), and the sort's runs 5 and 5b used it ([run 5](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/inner-child-therapy/experiments/t133-order/RESULTS-5.md), [run 5b](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/inner-child-therapy/experiments/t133-order/RESULTS-5B.md)).
+
+### 🟢 115. Three of your moves the sort still can't explain (turn 135)
+
+1. You put the spiritual sections under the Guide: Invite Your Little One In, How Much Happiness Do You Know Is Possible?, When the Spiritual Relationship Hurts. Divine love is love, so why the Guide and not the Nurturer? Is it that the Guide directs toward what's possible, and the Nurturer gives the love that's already there?
+2. Borrow Hindsight and Remember When You Already Did It Well went under Between Spoiling and Clamping Down. Are they tools for keeping that balance, so a tool goes under the problem it solves?
+3. How Distrust Reproduces went under Finding People and Building Trust. Because a reader meets distrust when they're finding people, so it goes where it comes up?
+
+Answer in your own words, or just "yes" where my guess is right; each answer goes into the frame for the next run.
+
+Answered 2026-11-20 23:22 UTC: 1, "the nurturer doesn't give divine love, they give the love of the nurturer [...] divine love is beyond taking care of someone [...] it's infinite, it's unspeakable"; 2, my question was wrong: Borrow Hindsight and You Did It Well Before went under "Borrow a Guide to Build It", the heading you added (my scorer had named the nearest older heading, and I passed it on without checking); 3, yes. All three are now in the [contents order brief](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/tools/humanization/contents_order_brief.md). On 1: the text does draw the line, and the difference isn't hard for a model. The sorts missed it because of their frame: on 4 November the Nurturer had no text of its own, so the model that described each role for the sort went by the headings under it and gave the Nurturer "a spiritual source" and "what happiness is possible". The brief now asks the author about every part and role the guide doesn't define, before any sort ([the doubt check](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/inner-child-therapy/experiments/t133-order/DOUBT.md), second section).
+
+### 🟢 114. What does each role's work include, in your view? (turn 134)
+
+You asked for a contents test that could get closer to your own reorganization of 4 to 14 November. Three tries didn't ([RESULTS.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/inner-child-therapy/experiments/t133-order/RESULTS.md), [RESULTS-2.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/inner-child-therapy/experiments/t133-order/RESULTS-2.md), [RESULTS-3.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/inner-child-therapy/experiments/t133-order/RESULTS-3.md)). Even sorting the shuffled sections blind, every reader put shame and forgiveness under Healing Old Patterns, where you put them under the Nurturer. Your view of what each role does isn't in the text, so no reader can find it.
+
+In a few lines each, in your words: what belongs to the Protector, the Nurturer and the Guide, and what makes something a practice rather than one role's work? Say especially the parts a reader wouldn't guess, like why shame and forgiveness are the Nurturer's. Those lines become the frame for the next run, and for organizing your other guides.
+
+Answered 2026-11-20 23:03 UTC: "love accepts. protection blocks. guide directs. shame and forgiveness need acceptance"; a catch-all part isn't the home for a primary obstacle; a practice goes under a role only when the role must do it, otherwise where the flow lands. With your words in the frame, the blind sort put shame and forgiveness under the Nurturer and gave the best order score yet ([RESULTS-4.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/inner-child-therapy/experiments/t133-order/RESULTS-4.md)). Your words are now part of the [contents order brief](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/tools/humanization/contents_order_brief.md).
+
+### 🟢 113. Two small things about your heading picks (turn 133)
+
+Why does **"Earning trust, day to day"** stay lower case while its siblings are in Title Case, and why does **"Shame Says “Unlovable”"** keep its quote marks? If you can't say why, a guess like "it sounded right" helps too: the headings brief learns from it.
+
+Answered 2026-11-20 22:32 UTC: every heading follows one rule, and "Unlovable" is in quote marks because it's what shame says. The rule is AP title case (rule 7 of the [headings brief](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/tools/humanization/headings_brief.md)), and words someone or something says take quote marks (rule 10).
+
+### 🟢 112. Why did you pick these five headings? (turn 132)
+
+You asked for instructions that would produce your heading picks, and said to ask where it wasn't clear why you picked something. Three fresh writers (Fable, Sonnet, GPT) named all 147 headings with the new [headings brief](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/tools/humanization/headings_brief.md); Fable came closest, the same as yours or close on 134 ([RESULTS.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/inner-child-therapy/experiments/t132-toc-links/RESULTS.md)). On these five, all three missed what yours says. For each, **A** is my reading of why you picked it; answer A, or say why in your own words, and the brief takes your reason as its rule.
+
+1. **"“No. I Hate Myself.”"** (they wrote "The Part That Came Here"). A: a section that answers something readers say to themselves gets their words, in quotes.
+2. **"Attacked by a Demon?"** (they wrote "Prepare for Altered States"). A: name the situation the reader comes with, as they'd put it, not the section's advice.
+3. **"If They Can't Hear You"** (they wrote "Others Have Hooks Too"). A: the same, the reader's situation rather than the section's explanation.
+4. **"Spirit Attacks Teach Love"** (they wrote "Gain from Spiritual Attack"). A: name the specific payoff, not a general one.
+5. **"Altered States"** (they wrote "Altered States & Intensives"). A: a part's heading names its main subject only.
+
+Answered 2026-11-20 21:49 UTC (your words are in [JOEL-20261120-2149.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/inner-child-therapy/experiments/t133-answers/JOEL-20261120-2149.md)): 1, the reader's question, objection or curiosity, not a summary (and Opus wrote it, which I should have looked up); 2, your pick was wrong, now "Prepare for Altered States Now"; 3 and 4, yes; 5, now "Altered States & Meditating Intensely". The [headings brief](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/tools/humanization/headings_brief.md) says all of it now, as rules 3, 5 and 8.
+
+### 🟢 111. Which headings go in your post for the narrow sidebar? (turns 130 and 131)
+
+Answered 2026-11-20 16:39 UTC: your own picks, set in the post exactly as you chose them in turn 132 (live since 17:06 UTC).
+
+Substack's sidebar cuts off 105 of the guide's 147 listed headings. Opus renamed them to fit on 16 November (turn 130), and Fable checked that work on 17 November (turn 131, [CHECK.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/inner-child-therapy/experiments/t131-toc-check/CHECK.md)). Fresh readers went to the right section first on about 54 of 68 situations with any renamed version, against about 46 with your sidebar as it is. Your order stays in every option.
+
+The page shows every option as the sidebar would, heading by heading, with the reason for each change, and saves what you pick: https://claude.ai/artifact/RjHcYbik7oU9VdHcru1tB6
+
+- **A. Fable's pick** ([PROPOSAL-FABLE-FINAL.json](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/inner-child-therapy/experiments/t131-toc-check/PROPOSAL-FABLE-FINAL.json)): Opus's pick with 39 headings changed, mostly to keep more of your own words and your lower case, and one small heading added (Ugly Thoughts Happen, under Healthy Mind, Not Perfect). Four headings stay whole on purpose, cut in the sidebar, because the whole phrase is yours to keep.
+- **B. Opus's pick** ([PROPOSAL-PICK.json](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/inner-child-therapy/experiments/t130-toc/PROPOSAL-PICK.json)): every cut heading but one renamed to fit, 17 of them GPT's.
+- **C. Your own picks from the page:** press Copy my answers there and paste them in the chat.
+- **D. Leave the headings as they are.**
+
+My pick is A, or C if you've changed some on the page. I'm sure renaming helps readers find things. Between A and B the readers can't tell the difference, so that choice is about your voice. Two smaller things ride along and are on the page as cards: whether to add the one heading, and whether you want one capital style everywhere (about 30 of your headings are lower-case today; A keeps the capitals you wrote).
+
+Nothing goes into your post until you say so. When it does, the words in the text that name a renamed heading change with it (four of them already point to the wrong place in the live post).
 
 ## For you to do (no decision needed)
+
+### 🟢 The moves of question 117 in the post (turn 139, done in turn 140)
+
+This session couldn't open your post's editor, so the moves are yours to make, or tell me to try again. In the Substack editor: delete the Healing Old Patterns heading and the divider just above it; cut Re-do Trauma Memories through the end of Discipline Done Right? and paste it after You Did It Well Before (before Healthy Mind, Not Perfect), as Heading 3 and Heading 4; cut Answer the Disciplinarian and its text (not the divider after it) and paste it after Reframe the Critic (before Earning trust, day to day), as Heading 3; fix "Healther" in Borrow Hindsight's link if it's still there; update the post with email off. Once they're in, I update the section catalog.
+
+Done 2026-11-21 13:35 UTC, with your OK of 13:31 ("retry it now i'm here i can approve"): the moves are in the live post, with no word added or changed (Borrow Hindsight's link already read "Healthier"), updated with email off and read back, and the section catalog follows the post ([the record](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/inner-child-therapy/experiments/t140-moves/UPDATED.json)).
 
 > [!WARNING]
 > Comes back every turn. My merges are refused by the safety check, so it stays yours.
@@ -19,7 +96,7 @@ None right now.
 
 The [docx](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t115-docx/inner-child-spots-round8.docx) is the whole guide as round 8 read it. My pass is in it as tracked changes: accept or reject each one (one you leave as it is, I'll take as accepted). The shaded spots are what round 8 read below Human, high that the pass didn't change, most of them your words, each with a comment giving its reading and round 6's. Track Changes is on, so whatever you type shows as yours. Send it back in chat, and I'll put everything in for round 9. ([PASS.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/handoff/claude-dangerous-adult-20260924-1631/articles/inner-child-therapy/experiments/t115-pass/PASS.md) says what the pass did and why.)
 
-### 🟠 Merge pull request #255 (turn 115)
+### 🟢 Pull request #255: merged by you on 2026-11-03 (turn 115's to-do, checked in turn 131)
 
 The lane's [pull request #255](https://github.com/u-dont-existDOTcom/joel-articles/pull/255) holds this turn: round 8 read, lesson E276 (Inner Child), the pass and its checks, and the docx. Open it, then click "Merge pull request" and "Confirm merge". That takes about a minute, and the page then says "Merged". (You merged #252, turns 113 and 114.)
 

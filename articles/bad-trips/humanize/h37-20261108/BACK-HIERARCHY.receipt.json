@@ -1,0 +1,49 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-08",
+ "text_sha256": "46acb0430582ff97bfe975f32e5b0874b1aa0a54af467628af008e8221e45fec",
+ "text": "The hierarchy appears before the mystical sections because love doesn't require us to ignore the body.",
+ "section": "My Acute Rescue Hierarchy",
+ "reader": "someone in or helping with a bad trip, reading why the guide's rescue order puts the body first",
+ "sentences": [
+  {
+   "s": "The hierarchy appears before the mystical sections because love doesn't require us to ignore the body.",
+   "payoff": "they see why the rescue order puts the body first: love doesn't mean ignoring the body, so they don't skip the body to process the trip",
+   "follows": "it follows \"The body is part of the spiritual field.\" and gives the reason the body comes before the guide's spiritual sections"
+  }
+ ],
+ "checked": [],
+ "placement": "My Acute Rescue Hierarchy, its own paragraph after \"A horrible thought isn't automatically a revelation. ... The body is part of the spiritual field.\" (from his post of 2026-11-03, where it sat in the same opening)",
+ "opens": {
+  "first_sentence": "The hierarchy appears before the mystical sections because love doesn't require us to ignore the body.",
+  "why_reading": "it answers why a guide about love and shadow work starts with the body"
+ },
+ "same_point": "none: read the section from its heading to the next; \"The body is part of the spiritual field.\" says the body belongs to the spiritual; this says why the order puts it first",
+ "needed": {
+  "reader": "a fresh Haiku agent given tools/humanization/needed_read_brief.md with the paragraph, its heading and what it is for (beliefs/NEEDED-READ.md beside this receipt)",
+  "unneeded": [],
+  "kept": {}
+ },
+ "questions": {
+  "Q1": "PASS: the sentence opens on the order and gives its reason in the same sentence",
+  "Q2": "PASS: no instruction; it is the reason for the order the reader follows",
+  "Q3": "PASS: \"the mystical sections\" are the guide's shadow-work and spiritual sections that follow",
+  "Q4": "PASS: \"hierarchy\" is the section's own heading; \"mystical\" a reader can take from the sections it names",
+  "Q5": "PASS: \"because\" carries the reason",
+  "Q6": "PASS: after the body is called part of the spiritual field, the reason the body comes first",
+  "Q7": "PASS: this reader is deciding whether to process the trip or tend the body first",
+  "Q8": "PASS: one claim",
+  "Q9": "PASS: one sentence, said whole"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

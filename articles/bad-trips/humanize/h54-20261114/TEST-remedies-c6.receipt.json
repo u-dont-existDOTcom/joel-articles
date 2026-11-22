@@ -1,0 +1,121 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-14",
+ "text_sha256": "889157eff69a42a9de0ab59506cbb3044f6a1d5b74c7b09a5d1db55fbfdf324d",
+ "text": "Creatine Is Blissful and Good for the Brain\n\nI just discovered that smelling creatine (NOT snorting it, people keep thinking I mean snorting when I say smell) is incredible for brain health while high on psychedelics. Just hold the open container near your nose and breathe in gently: it's very blissful, and it fixes posture instantly. Like DMSO, it seems to strongly protect the brain from inflammation.\n\nMango Leaf Tea Relaxes Without Killing the Trip\n\nMango leaf tea is super relaxing and very blissful, so brew some and smell it while it's hot.",
+ "section": "Mental Stabilizers That Don't Abort the Trip: creatine and mango leaf tea",
+ "reader": "someone whose trip, or a friend's, is too intense, looking for something to smell that calms it without ending it and is good for the brain, deciding what to get or use",
+ "sentences": [
+  {
+   "s": "Creatine Is Blissful and Good for the Brain",
+   "payoff": "they know what the entry is and that creatine is good for the brain",
+   "follows": "the next stabilizer after humic acid, another thing to smell that his sniffer now holds"
+  },
+  {
+   "s": "I just discovered that smelling creatine (NOT snorting it, people keep thinking I mean snorting when I say smell) is incredible for brain health while high on psychedelics.",
+   "payoff": "they know smelling creatine, not snorting it, helps the brain while high: his discovery, in his words",
+   "follows": "the heading's claim said as his experience, with the misreading answered inside it",
+   "link": "I just discovered"
+  },
+  {
+   "s": "Just hold the open container near your nose and breathe in gently: it's very blissful, and it fixes posture instantly.",
+   "payoff": "they hold the open container near the nose and breathe in gently, for its bliss and posture",
+   "follows": "how to do it, joined to what it does",
+   "link": "Just hold the open container"
+  },
+  {
+   "s": "Like DMSO, it seems to strongly protect the brain from inflammation.",
+   "payoff": "they know why it's good for the brain, and that it works like DMSO",
+   "follows": "the brain health the entry opens on",
+   "link": "Like DMSO"
+  },
+  {
+   "s": "Mango Leaf Tea Relaxes Without Killing the Trip",
+   "payoff": "they know the next entry is mango leaf tea, and that it calms without ending the trip",
+   "follows": "another thing to smell",
+   "link": "none: another thing to smell"
+  },
+  {
+   "s": "Mango leaf tea is super relaxing and very blissful, so brew some and smell it while it's hot.",
+   "payoff": "they brew it and smell it hot, for its relaxing bliss",
+   "follows": "the reason first, joined with so, as his fixes do",
+   "link": "Mango leaf tea is super relaxing"
+  }
+ ],
+ "checked": [],
+ "placement": "Mental Stabilizers That Don't Abort the Trip, after Humic Acid and before the essential oils: the three things of his sniffer's formula that can be bought on Amazon, which the sniffer's last sentence now names",
+ "opens": {
+  "first_sentence": "Creatine Is Blissful and Good for the Brain",
+  "why_reading": "it tells someone looking for something to smell in a hard trip that creatine calms and helps the brain"
+ },
+ "same_point": "none: the sniffer's paragraph names both as now in its formula, which is said there once; read the part from its heading to the next for creatine and mango leaf tea",
+ "needed": {
+  "reader": "a fresh agent given tools/humanization/needed_read_brief.md with only the text, its heading and what it is for (reads/need-remedies-c2.txt)",
+  "unneeded": [
+   "It's very blissful, and it fixes my posture instantly.",
+   "Like DMSO, it seems to be highly neuroprotective against neuroinflammation."
+  ],
+  "kept": {}
+ },
+ "his_fixes": {
+  "reader": "a fresh agent given tools/humanization/his_fixes_brief.md with the text, one sentence a line (reads/his-remedies-c2.txt)",
+  "marked": [
+   {
+    "s": "Smelling creatine is incredible for brain health while I'm high on psychedelics.",
+    "difference": "4",
+    "draft": "remedies-c2"
+   },
+   {
+    "s": "Like DMSO, it seems to be highly neuroprotective against neuroinflammation.",
+    "difference": "1",
+    "draft": "remedies-c2"
+   },
+   {
+    "s": "It's a super relaxing herbal remedy, and very blissful.",
+    "difference": "2, 6, 8",
+    "draft": "remedies-c2"
+   }
+  ],
+  "kept": {}
+ },
+ "fit": {
+  "reader": "a fresh agent given tools/humanization/fit_read_brief.md, the universal version (reads/fit-remedies-c2.txt)",
+  "marked": [
+   {
+    "s": "Smelling creatine is incredible for brain health while I'm high on psychedelics.",
+    "found": "FROM"
+   },
+   {
+    "s": "When I say smell, I mean smell: people keep thinking I mean snorting it.",
+    "found": "CAN'T TELL"
+   },
+   {
+    "s": "Like DMSO, it seems to be highly neuroprotective against neuroinflammation.",
+    "found": "FROM"
+   }
+  ],
+  "kept": {}
+ },
+ "questions": {
+  "Q1": "PASS: each entry opens on what to do or what it does; the snorting misreading answered right after \"smelling\"",
+  "Q2": "PASS: \"Brew mango leaf tea and smell it while it's hot\": the reader's acts",
+  "Q3": "PASS: creatine, smell not snort, mango leaf tea while hot",
+  "Q4": "PASS: \"neuroprotective\" and \"neuroinflammation\" as his words beside DMSO, which the guide explains",
+  "Q5": "PASS: \"When I say smell\", \"Like DMSO\", \"It's a super relaxing\" each turn on the line before",
+  "Q6": "PASS: what it is, how to take it, what it does, why",
+  "Q7": "PASS: each line bears on what to get or use in a hard trip",
+  "Q8": "PASS: both are things to smell that calm a trip without ending it, in this part",
+  "Q9": "PASS: one thing a sentence"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

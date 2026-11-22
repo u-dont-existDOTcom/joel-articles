@@ -1,0 +1,65 @@
+{
+ "readers": [
+  "codex",
+  "haiku",
+  "sonnet"
+ ],
+ "sentences": [
+  "The Fix: If the brain is burning less sugar, we give it another fuel.",
+  "Ketones are its backup fuel, and brains that take up less glucose (as in early Alzheimer's) still take up ketones normally (Cunnane, et al, 2016).",
+  "And one man's Alzheimer's improved markedly on coconut oil, and later on a ketone drink (Newport, et al, 2015).",
+  "In Parkinson's too, one small study with no comparison group showed large improvement on a ketogenic diet (VanItallie, et al, 2005).",
+  "In a bigger trial against a low-fat diet, the keto diet eased fatigue, sleepiness and thinking problems more, but movement improved about the same on both (Phillips, et al, 2018).",
+  "PQQ made mouse cells build more mitochondria, the parts of the cell that burn fuel (Chowanadisai, et al, 2010); whether it does that in the human brain hasn't been shown."
+ ],
+ "flagged": {
+  "1": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ],
+  "2": [
+   "sonnet"
+  ],
+  "3": [
+   "sonnet"
+  ],
+  "4": [
+   "haiku",
+   "sonnet"
+  ],
+  "5": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ],
+  "6": [
+   "codex",
+   "haiku",
+   "sonnet"
+  ]
+ },
+ "agreed": [
+  1,
+  4,
+  5,
+  6
+ ],
+ "whole": {
+  "codex": [
+   "The repeated movement from finding to citation to qualification gives the paragraph a regular, assembled rhythm, while its consistently simplified vocabulary suggests deliberate polishing. These are weak stylistic cues shared by human science writing; they cannot establish AI involvement."
+  ],
+  "haiku": [
+   "The paragraph is metronomic, with nearly every sentence following the same claim-plus-citation pattern at similar length, and its voice is impersonal and even-tempered, built as a tidy label, mechanism, then evidence sequence. That evenness reads machine-made, though an editor smoothing a human draft could produce the same effect."
+  ],
+  "sonnet": [
+   "The paragraph is built as a steady march of study-per-sentence, each with the same claim, qualifier and citation pattern, and the sentences are similar in length and tone with little personal voice. It is orderly and even-handed in a way that reads assembled rather than spoken."
+  ]
+ },
+ "human_clean": [
+  "In Parkinson's too",
+  "In Parkinson's too",
+  "In Parkinson's too",
+  "PQQ made mouse cells build more mitochondria"
+ ]
+}

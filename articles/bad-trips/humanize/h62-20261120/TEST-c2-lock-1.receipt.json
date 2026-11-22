@@ -1,0 +1,110 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-20",
+ "text_sha256": "def8e7f5e35d1f6d9a8d833f658deef6cda2b4460f12d092aff9971aff8091e9",
+ "text": "Put yourself on an action lock: nothing life-changing for 24–72 hours.\n\nUntil you have slept and eaten, maybe don't drive, travel, break up, make up, quit your job, confess everything, confront or accuse that list of people you've been meaning to... Think twice before sending whatever ridiculous message you're planning on to Judge Amos, posting that revelation you'll forget tomorrow, giving away your BMW, buying a new BMW. After you decide that you are permanently enlightened or permanently damaged, and you explained the whole universe to your parents in 42 seconds, you can still change your mind the next day.",
+ "section": "No Rash Actions: Visions Are Not Commands",
+ "reader": "someone on a trip, or the friend with them, who is sure something has to be done tonight (quit a job, tell the family everything, send the message) and is reading whether to",
+ "sentences": [
+  {
+   "s": "Put yourself on an action lock: nothing life-changing for 24–72 hours.",
+   "payoff": "they hold off on anything life-changing (quitting, breaking up, confessing everything) for one to three days, however sure they feel tonight",
+   "follows": "the paragraph before says the urgency is part of the state and acting on it isn't safe; this is what to do instead, the rule and how long it lasts"
+  },
+  {
+   "s": "Until you have slept and eaten, maybe don't drive, travel, break up, make up, quit your job, confess everything, confront or accuse that list of people you've been meaning to...",
+   "his": true
+  },
+  {
+   "s": "Think twice before sending whatever ridiculous message you're planning on to Judge Amos, posting that revelation you'll forget tomorrow, giving away your BMW, buying a new BMW.",
+   "his": true
+  },
+  {
+   "s": "After you decide that you are permanently enlightened or permanently damaged, and you explained the whole universe to your parents in 42 seconds, you can still change your mind the next day.",
+   "his": true
+  }
+ ],
+ "checked": [],
+ "placement": "in place of \"Put yourself on a 24-72 hour action lock.\" (B317), right after No Rash Actions' opening paragraph (B316: the urgency is part of the state, and acting on it isn't safe) and before his list of what waits until they've slept and eaten (B318); the line says the longer clock, his list the shorter (his C2 answer a: two clocks, each where it belongs)",
+ "opens": {
+  "first_sentence": "Put yourself on an action lock: nothing life-changing for 24–72 hours.",
+  "why_reading": "it tells someone sure they must act tonight the rule for their case: nothing life-changing, and for how long"
+ },
+ "same_point": "none: read the section from its heading to the next for the points (the urgency is the state; the lock; his list of what waits until they've slept and eaten; writing it down and going over it with one grounded person); the sleep-and-eat clock is his list's, so the line says only the 24-72 hours, and the night's lines elsewhere (tomorrow's notebook, the anchor script, the triage app) keep tomorrow or morning",
+ "needed": {
+  "reader": "a fresh agent (Sonnet) given tools/humanization/needed_read_brief.md with only the text, its heading and what it is for (reads/need-c2-lock-1.txt; the draft it read: reads/read-text-c2-lock-1.txt)",
+  "unneeded": [],
+  "kept": {}
+ },
+ "his_fixes": {
+  "reader": "a fresh agent (Sonnet) given tools/humanization/his_fixes_brief.md, the twelve ways, with the text one sentence a line (reads/his-c2-lock-1.txt; the draft it read: reads/read-text-c2-lock-1.txt)",
+  "marked": [
+   {
+    "s": "Put yourself on an action lock: nothing big until you've slept and eaten, and nothing life-changing for 24–72 hours.",
+    "difference": "1, 4"
+   },
+   {
+    "s": "Until you have slept and eaten, maybe don't drive, travel, break up, make up, quit your job, confess everything, confront or accuse that list of people you've been meaning to...",
+    "difference": "1, 12"
+   },
+   {
+    "s": "Think twice before sending whatever ridiculous message you're planning on to Judge Amos, posting that revelation you'll forget tomorrow, giving away your BMW, buying a new BMW.",
+    "difference": "4, 12"
+   },
+   {
+    "s": "After you decide that you are permanently enlightened or permanently damaged, and you explained the whole universe to your parents in 42 seconds, you can still change your mind the next day.",
+    "difference": "6, 10"
+   }
+  ],
+  "kept": {
+   "Until you have slept and eaten, maybe don't drive, travel, break up, make up, quit your job, confess everything, confront or accuse that list of people you've been meaning to...": "his own words (his round-23 version of the list of don'ts, card TEACH-DONTS, Pangram e1537940, Human High alone, as he sent it; OWNER-EDITS r23-teach-donts), not part of this change; its other mark, restating the lock line's \"until you've slept and eaten\" as if new, is answered in the lock line, which no longer says it",
+   "Think twice before sending whatever ridiculous message you're planning on to Judge Amos, posting that revelation you'll forget tomorrow, giving away your BMW, buying a new BMW.": "his own words (his round-23 version of the list of don'ts, card TEACH-DONTS, Pangram e1537940, Human High alone, as he sent it; OWNER-EDITS r23-teach-donts), not part of this change; his examples of what to think twice about, in his voice",
+   "After you decide that you are permanently enlightened or permanently damaged, and you explained the whole universe to your parents in 42 seconds, you can still change your mind the next day.": "his own words (his round-23 version of the list of don'ts, card TEACH-DONTS, Pangram e1537940, Human High alone, as he sent it; OWNER-EDITS r23-teach-donts), not part of this change; \"change your mind\" is about the conclusions it names (enlightened, damaged, the universe explained), and the acts are held by the lock line"
+  }
+ },
+ "fit": {
+  "reader": "a fresh agent (Sonnet) given tools/humanization/fit_read_brief.md, the universal version (reads/fit-c2-lock-1.txt; the draft it read: reads/read-text-c2-lock-1.txt)",
+  "marked": [
+   {
+    "s": "Until you have slept and eaten, maybe don't drive, travel, break up, make up, quit your job, confess everything, confront or accuse that list of people you've been meaning to...",
+    "found": "MISREAD"
+   },
+   {
+    "s": "Think twice before sending whatever ridiculous message you're planning on to Judge Amos, posting that revelation you'll forget tomorrow, giving away your BMW, buying a new BMW.",
+    "found": "MISREAD"
+   },
+   {
+    "s": "After you decide that you are permanently enlightened or permanently damaged, and you explained the whole universe to your parents in 42 seconds, you can still change your mind the next day.",
+    "found": "MISREAD"
+   }
+  ],
+  "kept": {
+   "Until you have slept and eaten, maybe don't drive, travel, break up, make up, quit your job, confess everything, confront or accuse that list of people you've been meaning to...": "his own words (his round-23 version of the list of don'ts, card TEACH-DONTS, Pangram e1537940, Human High alone, as he sent it; OWNER-EDITS r23-teach-donts), not part of this change; the lock line before it is the firm rule, and his \"maybe\" is his voice on the examples",
+   "Think twice before sending whatever ridiculous message you're planning on to Judge Amos, posting that revelation you'll forget tomorrow, giving away your BMW, buying a new BMW.": "his own words (his round-23 version of the list of don'ts, card TEACH-DONTS, Pangram e1537940, Human High alone, as he sent it; OWNER-EDITS r23-teach-donts), not part of this change; quitting and confessing are life-changing, which the lock line now holds for 24-72 hours, so they aren't exempt",
+   "After you decide that you are permanently enlightened or permanently damaged, and you explained the whole universe to your parents in 42 seconds, you can still change your mind the next day.": "his own words (his round-23 version of the list of don'ts, card TEACH-DONTS, Pangram e1537940, Human High alone, as he sent it; OWNER-EDITS r23-teach-donts), not part of this change; it is about the conclusions (permanently enlightened or damaged), not the acts, which the lock line holds"
+  }
+ },
+ "questions": {
+  "Q1": "PASS: the rule first (\"Put yourself on an action lock\"), then what it holds and for how long; his list after it says what waits until they've slept and eaten",
+  "Q2": "PASS: something the reader does (\"Put yourself on\"), for what the paragraph before says: acting on the state's urgency isn't safe",
+  "Q3": "PASS: \"nothing life-changing\", with his list after it naming the things (quit your job, break up, confess everything); \"24-72 hours\" says how long",
+  "Q4": "PASS: \"action lock\" said by what it holds (\"nothing life-changing for 24-72 hours\")",
+  "Q5": "PASS: the lock follows the paragraph before (acting on the urgency isn't safe), and his list follows the lock with the shorter clock (\"Until you have slept and eaten\")",
+  "Q6": "PASS: the rule, then the examples; the longer clock in the rule, the shorter in his list",
+  "Q7": "PASS: for someone sure they must act tonight, how long to wait is their case",
+  "Q8": "N/A: no group of mine in the text; the list is his",
+  "Q9": "PASS: one clock in the line; his answer's \"nothing big until you've slept and eaten\" is left to his list, which already says it (the read against his fixes marked the two limits packed in one line, and his list restating the first)"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ },
+ "his_whose": "his own: his round-23 version of No Rash Actions' list of don'ts (card TEACH-DONTS, Pangram e1537940, Human High alone), as he sent it (OWNER-EDITS r23-teach-donts)"
+}

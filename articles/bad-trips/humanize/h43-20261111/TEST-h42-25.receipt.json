@@ -1,0 +1,159 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-11",
+ "text_sha256": "6031e095772523555db6c054a537c2f86d5b5ff6566a7e602bd60605950e6614",
+ "text": "I do not yet have data showing that pes-caprae aborts MDMA. MDMA remains a separate branch centered on magnesium, temperature, sodium, potassium, hydration, serotonin toxicity, seizure, and cardiovascular symptoms.\n\nA Final Trip Killer: Niacin (a Form of Vitamin B3)\n\nFlushing niacin has effectively aborted trips for me and friends, although I dislike it compared with beach morning glory.\n\nI include it because most people don't have access to Ipomoea pes-caprae, although I supply it. Niacin has been used for decades by orthomolecular doctors for psychotic conditions and seems to act both like a natural benzodiazepine and an antipsychotic. The clinical literature is discussed in Niacin: The Real Story by Abram Hoffer, M.D.\n\nSide effects:\n\nNiacin flush: itchy sunburn-like heat. This is normal, although some people find it intolerable and others enjoy it.\nHeartburn in sensitive stomachs or after too much at once.\nDrowsiness, usually with terrible sleep quality.\nHigher or repeated doses can create real risk, especially with liver problems, alcohol, medications, or sensitive physiology.\n\nOther forms of vitamin B3 seem less reliable for relaxation. Niacinamide sometimes relaxes people and sometimes creates hyperfocus, depending on their state. Avoid sustained-release niacin and the useless non-flush hexanicotinate form.\n\nEven once the body is stable and those tools have done what they can, somebody still needs to sit with whatever the altered mind has opened up, the fear or grief, an old memory, a sudden certainty...",
+ "section": "When the Goal Is to Stop a Psychedelic Trip (2 of 2): A Final Trip Killer: Niacin (a Form of Vitamin B3)",
+ "reader": "someone who wants a trip to end, without beach morning glory to hand, deciding whether to use flushing niacin, what it feels like and what to avoid",
+ "sentences": [
+  {
+   "s": "I do not yet have data showing that pes-caprae aborts MDMA.",
+   "payoff": "they know beach morning glory is not shown to end MDMA",
+   "follows": "it ends the part on beach morning glory"
+  },
+  {
+   "s": "MDMA remains a separate branch centered on magnesium, temperature, sodium, potassium, hydration, serotonin toxicity, seizure, and cardiovascular symptoms.",
+   "payoff": "they know MDMA has its own branch, with what it centers on",
+   "follows": "where MDMA goes instead",
+   "link": "MDMA remains"
+  },
+  {
+   "s": "A Final Trip Killer: Niacin (a Form of Vitamin B3)",
+   "payoff": "they know the last trip killer is niacin",
+   "follows": "the next heading",
+   "link": "none: a heading, naming the next remedy"
+  },
+  {
+   "s": "Flushing niacin has effectively aborted trips for me and friends, although I dislike it compared with beach morning glory.",
+   "payoff": "they know flushing niacin has ended trips for him and friends, though he prefers beach morning glory",
+   "follows": "it opens the remedy under its heading",
+   "link": "none: the first sentence under its heading"
+  },
+  {
+   "s": "I include it because most people don't have access to Ipomoea pes-caprae, although I supply it.",
+   "payoff": "they know why it is here: most people lack beach morning glory",
+   "follows": "why it is included",
+   "link": "I include it because"
+  },
+  {
+   "s": "Niacin has been used for decades by orthomolecular doctors for psychotic conditions and seems to act both like a natural benzodiazepine and an antipsychotic.",
+   "payoff": "they know doctors have used it for psychosis and how it seems to act",
+   "follows": "what is behind it",
+   "link": "Niacin has been used"
+  },
+  {
+   "s": "The clinical literature is discussed in Niacin: The Real Story by Abram Hoffer, M.D.",
+   "payoff": "they know where to read the clinical literature",
+   "follows": "where the evidence is",
+   "link": "The clinical literature"
+  },
+  {
+   "s": "Side effects:",
+   "payoff": "they know the side effects come next",
+   "follows": "after what it does",
+   "link": "none: a label in the remedy"
+  },
+  {
+   "s": "Niacin flush: itchy sunburn-like heat.",
+   "payoff": "they know the flush feels like an itchy sunburn heat",
+   "follows": "the first side effect",
+   "link": "none: the first item under its label"
+  },
+  {
+   "s": "This is normal, although some people find it intolerable and others enjoy it.",
+   "payoff": "they know the flush is normal and some hate it",
+   "follows": "what to make of it",
+   "link": "This is normal"
+  },
+  {
+   "s": "Heartburn in sensitive stomachs or after too much at once.",
+   "payoff": "they know it can cause heartburn",
+   "follows": "the next side effect",
+   "link": "none: a list item, the next one under its label"
+  },
+  {
+   "s": "Drowsiness, usually with terrible sleep quality.",
+   "payoff": "they know it brings drowsiness with poor sleep",
+   "follows": "the next side effect",
+   "link": "none: a list item, the next one under its label"
+  },
+  {
+   "s": "Higher or repeated doses can create real risk, especially with liver problems, alcohol, medications, or sensitive physiology.",
+   "payoff": "they keep to small single doses, especially with liver problems, alcohol or medicines",
+   "follows": "the risk",
+   "link": "none: a list item, the next one under its label"
+  },
+  {
+   "s": "Other forms of vitamin B3 seem less reliable for relaxation.",
+   "payoff": "they know other forms of B3 relax less reliably",
+   "follows": "which form to use",
+   "link": "Other forms of vitamin B3"
+  },
+  {
+   "s": "Niacinamide sometimes relaxes people and sometimes creates hyperfocus, depending on their state.",
+   "payoff": "they know niacinamide can relax or focus depending on the state",
+   "follows": "one of those forms",
+   "link": "Niacinamide"
+  },
+  {
+   "s": "Avoid sustained-release niacin and the useless non-flush hexanicotinate form.",
+   "payoff": "they avoid sustained-release and non-flush niacin",
+   "follows": "which forms to avoid",
+   "link": "Avoid"
+  },
+  {
+   "s": "Even once the body is stable and those tools have done what they can, somebody still needs to sit with whatever the altered mind has opened up, the fear or grief, an old memory, a sudden certainty...",
+   "payoff": "they know that once the body is settled, someone still needs to sit with what the trip opened up, which is where tripsitting begins",
+   "follows": "the end of the remedies, handing on to tripsitting",
+   "link": "Even once the body is stable"
+  }
+ ],
+ "checked": [],
+ "placement": "the end of When the Goal Is to Stop a Psychedelic Trip, and of the remedies: niacin last, then the bridge to tripsitting",
+ "opens": {
+  "first_sentence": "I do not yet have data showing that pes-caprae aborts MDMA.",
+  "why_reading": "it tells someone who wanted beach morning glory for MDMA that it is not shown to work there"
+ },
+ "same_point": "none: read the section from its niacin heading to the next for niacin; the bridge is said once, here",
+ "needed": {
+  "reader": "a fresh Haiku agent given tools/humanization/needed_read_brief.md with the unit, its heading and what it is for (NEEDED-READ.md, h42-25)",
+  "unneeded": [
+   "I do not yet have data showing that pes-caprae aborts MDMA.",
+   "MDMA remains a separate branch centered on magnesium, temperature, sodium, potassium, hydration, serotonin toxicity, seizure, and cardiovascular symptoms.",
+   "A Final Trip Killer: Niacin (a Form of Vitamin B3)",
+   "Niacin has been used for decades by orthomolecular doctors for psychotic conditions and seems to act both like a natural benzodiazepine and an antipsychotic.",
+   "The clinical literature is discussed in Niacin: The Real Story by Abram Hoffer, M.D.",
+   "Other forms of vitamin B3 seem less reliable for relaxation."
+  ],
+  "kept": {
+   "I do not yet have data showing that pes-caprae aborts MDMA.": "they don't count on beach morning glory to end MDMA (the end of the part before; the unit begins mid-section)",
+   "MDMA remains a separate branch centered on magnesium, temperature, sodium, potassium, hydration, serotonin toxicity, seizure, and cardiovascular symptoms.": "they go to the MDMA branch instead when it's MDMA, knowing what it centers on",
+   "A Final Trip Killer: Niacin (a Form of Vitamin B3)": "they find the remedy by its heading; it is the heading itself, typed with the unit",
+   "Niacin has been used for decades by orthomolecular doctors for psychotic conditions and seems to act both like a natural benzodiazepine and an antipsychotic.": "they know why niacin can end a trip at all (it seems to act like a calming drug and an antipsychotic) and that doctors have used it for decades, his reason to trust it",
+   "The clinical literature is discussed in Niacin: The Real Story by Abram Hoffer, M.D.": "they can check the evidence for themselves in the book he names before relying on it",
+   "Other forms of vitamin B3 seem less reliable for relaxation.": "they use flushing niacin rather than another B3 form, the point the next two lines make exact"
+  }
+ },
+ "questions": {
+  "Q1": "PASS: each sentence opens on its point; the bridge opens on when it applies",
+  "Q2": "PASS: the instructions (avoid sustained-release and non-flush forms) are the reader's own acts",
+  "Q3": "PASS: \"flushing niacin\", \"sustained-release niacin\", \"non-flush hexanicotinate\" say which",
+  "Q4": "PASS: niacin is explained in its heading (a form of vitamin B3); niacinamide as another form",
+  "Q5": "PASS: \"because\", \"although\" and \"Even once\" say each relation",
+  "Q6": "PASS: what it does, why it is here, side effects, forms, then the hand-off",
+  "Q7": "PASS: each fact bears on whether and how they use niacin now",
+  "Q8": "PASS: niacin is a trip killer; the bridge belongs at the end of the remedies",
+  "Q9": "PASS: one step a sentence"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}
