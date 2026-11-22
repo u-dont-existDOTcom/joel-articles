@@ -18,6 +18,17 @@ From an account with Desktop Commander connected to the laptop: "Continue my neu
 
 ## START HERE
 
+- **2026-11-22, after his message of 17:39 UTC: no question open; three pieces of work wait.** HUMANIZED-SO-FAR.md is
+  027122dc, with his answers 24 to 33 in (`fix-20261108/x1122a/APPLIED-X1122A.json`); his message word for word:
+  `fix-20261108/joel-20261122-1739-message.txt`. **Every turn, first**: the cards page's stored answers (ArtifactData
+  `list`, collection "decisions", https://claude.ai/artifact/9nENpt9AEJCB43a9Wy5jqn; lesson 13b) and the answers in his
+  message (questions page https://claude.ai/artifact/8cWv5mbXY8y53RL1nhvzky, version 29). **Next, in order**: (1) the
+  Weeks 3–5 line for his 16a and 17, as the bullet below says (receipt, prediction, Pangram check by itself, then by
+  script, and items 2.2 and 2.3 to "answered"); (2) his new warnings, `x1122a/WARNINGS-BRIEF.md`: sources on both sides
+  first, then the text, the reads and the check; (3) the contradictions check over the article again
+  (`tools/humanization/contradictions.py brief`, a fresh reader, then the fates), since his elliptica line, his agmatine
+  paragraph and his showers line are new text (the Weeks 3–5 showers line still alternates hot and cold, while his answer
+  says hot for numbness). Dose figures stay out of replies.
 - **2026-11-20, after his message of 17:05 UTC: questions 24 to 33 wait on him; one line of mine waits on its check.**
   HUMANIZED-SO-FAR.md is 9c001fcb, with 15a, 19a, 20, 21b and 22a in (`fix-20261108/x1120a/APPLIED-X1120A.json`); his
   message word for word: `fix-20261108/joel-20261120-1705-message.txt`. **Every turn, first**: the cards page's stored

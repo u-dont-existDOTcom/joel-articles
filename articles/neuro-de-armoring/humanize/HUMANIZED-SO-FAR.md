@@ -179,7 +179,7 @@ Who this is for: 5-HTP is not for every depressed person either. It could help, 
 
 Scott took 100 mg 5-HTP sublingually at night, with 10–20 mg P5P sublingually in the morning. The P5P isn't there as a stimulant, but as the active form of vitamin B6, which the enzyme that turns 5-HTP into serotonin (aromatic amino-acid decarboxylase) needs. He's genetically slow-COMT, making him sensitive to too much P5P.
 
-If you're sensitive, start lower and do the trial with just 50mg 5-HTP at night for 2–3 nights, then go up to 100mg if 50mg was clearly helpful and not causing side effects. You can also add 10–20mg P5P in the morning, like Scott did, especially if the 5-HTP felt like it "almost worked," as that could be a sign it wasn't converting cleanly over to serotonin. Don't do the trial at the same time as the other suggested regimen changes (like UMP, agmatine, D-serine, psychedelics, or prescription medication changes), since the point is to see whether the 5-HTP itself is doing anything. If it's the right tool, the first things you'll usually notice are your mood or sleep quality improves, you have less nighttime rumination, and your dreams become more vivid or memorable.
+If you're sensitive, start lower and do the trial with just 50mg 5-HTP at night for 2–3 nights, then go up to 100mg if 50mg was clearly helpful and not causing side effects, and stay on it as long as it benefits you. You can also add 10–20mg P5P in the morning, like Scott did, especially if the 5-HTP felt like it "almost worked," as that could be a sign it wasn't converting cleanly over to serotonin. Don't do the trial at the same time as the other suggested regimen changes (like UMP, agmatine, D-serine, psychedelics, or prescription medication changes), since the point is to see whether the 5-HTP itself is doing anything. If it's the right tool, the first things you'll usually notice are your mood or sleep quality improves, you have less nighttime rumination, and your dreams become more vivid or memorable.
 
 Side effects / stop signs: The most dangerous symptoms to watch out for are diagnostic of serotonin syndrome, which can be deadly if untreated: agitation + sweating + diarrhea + tremor/clonus + fever, confusion, fast heart rate, or unstable blood pressure. Other stop signs include less dangerous symptoms (some of which are part of serotonin syndrome, but not dangerous alone) like nausea, stomach discomfort, loose stools, headache, vivid or intense dreams, insomnia, sweating, tremor, anxiety, irritability, emotional agitation, or a too-bright / hypomanic feeling.
 
@@ -225,7 +225,7 @@ Avocado: ~700-900 mg.
 
 Coconut Water: ~600 mg per cup.
 
-The Strategy: Eat 2 large potatoes and 2 cups of greens every single day.
+The Strategy: Eat 2 large potatoes and 2 cups of greens every single day. That gets you close to the target, and the rest comes from your other food.
 
 If on Deep Fix, Strategy B (Keto Diet): [***See my Keto Adaptation Guide for electrolytes.***](http://ketoflu.u-dont-exist.com/)
 
@@ -247,6 +247,8 @@ Cycle rule: use it as a 7–14 day anxiety-phase experiment, not a forever basel
 
 Timing rule: avoid agmatine on D-Serine/DCS-style reconsolidation days, or keep it at least 12–24 hours away from the session.
 
+Agmatine with psychedelics is more complicated, and I can't say to take it with them or not. People's reports differ: some say it makes a trip or roll stronger while capping the euphoria, others that it weakens it. A friend of mine finds it gives a lot of the introspective benefits he gets from iboga, and that the two go well together, although I haven't heard of that from others. I don't notice much from it myself, aside from, I think, a lower ceiling on euphoria. I wouldn't use it unless a trip gets too stormy, but you can try the combination to see if it's worthwhile for you. Everyone's different.
+
 Magnesium Glycinate: 400mg (Night). *The "Plug" for the anxiety channel.*
 
 DMSO (99.9%): Smell it, as in the Fog table below. In rat brain cells in a dish, DMSO at 0.5 to 1.5% quickly turned down the signals glutamate sends through its NMDA and AMPA receptors, and the calcium they let in. It also kept glutamate from killing the cells ([Lu & Mattson, 2001](https://pubmed.ncbi.nlm.nih.gov/11421595/)). Back in 1967, doctors in Lima injected it into the muscles of 42 psychiatric inpatients, and nine of them had severe anxiety or obsessive-compulsive disorder. Within days they grew calmer, and the acute cases went home sooner than 16 patients with similar diagnoses who got the usual treatments of the time, such as electroshock, insulin comas and tranquilizers ([Ramírez & Luza, 1967](https://doi.org/10.1111/j.1749-6632.1967.tb34937.x)). There was no placebo, though, and the patients they were compared with weren't picked at random.
@@ -267,11 +269,13 @@ Uridine Monophosphate: The more targeted option when the Void looks like dopamin
 
 The Stack: Microdose Iboga Nasal Spray (Bypasses digestion, quicker effect). Read my [iboga microdosing guide](http://ibogamicroprotocol.u-dont-exist.com/) to keep safe. While shrooms are often better for a functional mood brightener effect, iboga is its own kind of therapist that shows you what you need to see in a non-threatening way.
 
-Female Iboga: For "Numbness/Fog" (Anima).
+Female Iboga: For "Emotional Numbness" (Anima).
 
-Male Iboga: For "Helplessness/Relapse" (Animus).
+Male Iboga: For "Brain Fog/Helplessness/Relapse" (Animus).
 
-Shrooms: Hillbilly or Mazatapec strains are some of the best (0.1g - 0.2g).
+Tabernanthe elliptica ("bisexual" or "healer" iboga): an iboga cousin with many iboga alkaloids. In my experience it's the best of both worlds, but lower potency than regular iboga, and it doesn't feel as trancey. Try elliptica first for microdosing: in my experience it's more functional, more clear-headed, and often better for mood.
+
+Shrooms: Hillbilly or Mazatapec strains are some of the best (100-300mg, though some strains are much more potent).
 
 ## Part 4: THE JAMMER (Acute Symptom Management)
 
@@ -295,15 +299,15 @@ Step 3: Apply the Jammer: Now use Tetris or the "Color-Path Connect" game to ove
 
 [image 5](https://substackcdn.com/image/fetch/$s_!hkoq!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6b6016a4-5f84-4559-b2e8-24a72d1175cb_1448x1086.png)
 
-Advanced tactic: The D-Serine Memory Re-consolidator. While L-Serine provides the building blocks for myelin, taking D-Serine (700mg–1400mg) on an empty stomach 45 minutes before a de-armoring session acts as a "memory (re)consolidator" which can cement the benefits of therapies like EMDR which aim to rewire the affective tone of memories.
+Advanced tactic: The D-Serine Memory Re-consolidator. While L-Serine provides the building blocks for myelin, taking D-Serine (700mg–1400mg) on an empty stomach before a de-armoring session acts as a "memory (re)consolidator" which can cement the benefits of therapies like EMDR which aim to rewire the affective tone of memories.
 
 D-serine has shown efficacy in studies where it was used to augment exposure therapy for treating a variety of conditions such as social anxiety, PTSD, and fear of public speaking. The idea is that it facilitates the consolidation of the newly formed memory of how the anticipated negative consequences of the exposure to what you fear didn't actually happen. Some studies ssuggested that d-serine is more effective at this when the practice exposure to what you fear ends on a positive note as opposed to a negative one. Again, all d-serine is doing is making it easier to consolidate the memory of the experience into a long-term memory.
 
 Use L-Serine for daily maintenance and background hardware support.
 
-Use D-Serine for acute sessions where you need to "force" memory reconsolidation. [Best price from LifeLab](https://www.lifelabsupplements.com/d-serine). You should take it 45 minutes or so after taking PQQ & Ketones so that your brain is fueled when the D-serine starts working.
+Use D-Serine for acute sessions where you need to "force" memory reconsolidation. [Best price from LifeLab](https://www.lifelabsupplements.com/d-serine). Take PQQ & Ketones first, the D-serine about 45 minutes later, and start the session about 45 minutes after that, so that your brain is fueled when the D-serine starts working.
 
-Warning: High doses of D-Serine damaged the kidneys in rat studies, so it carries a kidney caution, though kidney problems have been rare in human studies. Do not exceed 30mg/kg and ensure high water intake.
+Warning: High doses of D-Serine damaged the kidneys in rat studies, so it carries a kidney caution, though kidney problems have been rare in human studies. Do not exceed 30mg/kg, even when that's less than the dose above, as it is for anyone under about 47 kg (104 lb), and ensure high water intake.
 
 ### Scenario B: The "Fog"
 
@@ -335,13 +339,13 @@ Activate the "Inner Father": If you are lacking discipline, try a male iboga nas
 
 ## Part 5: THE TIMELINE (The 8-Week Path)
 
-Weeks 1–2: The Glutamate Storm (Anxiety Phase)Protocol:Self-care: Hot & cold showers, alternating, ending on cold. *No hot showers if heart rate elevated or heart-rate-variability reduced.*
+Weeks 1–2: The Glutamate Storm (Anxiety Phase)Protocol:Self-care: Cold showers for anxiety, though hot showers might also help, so you can experiment, and many people find hot baths especially good for anxiety (especially with Epsom salt). *No hot showers if heart rate elevated or heart-rate-variability reduced.* My [breathwork page](http://breathwork.u-dont-exist.com/) can help a lot with anxiety and mood too.
 
 Supplement daily:
 
 Phosphatidylserine about 400 mg earlier in the day only if you fit the high-cortisol profile + 1 cup broccoli sprouts + Magnesium Glycinate 400 mg + NAC 1.8–2.4 g divided.
 
-Optional add-on: Agmatine Sulfate 250–500 mg AM, increasing to 500 mg twice daily only if it clearly reduces the hot/itchy/reactive state without flattening mood. Cap at 1 g/day in this protocol. Do not add agmatine on the same day you start PS, start D-Serine, change NAC dose, begin keto, microdose, or introduce any other major variable.
+Optional add-on: Agmatine Sulfate 250–500 mg in the morning or early afternoon for 3 days, then increasing to 500 mg twice daily only if it clearly reduces the hot/itchy/reactive state without flattening mood. Cap at 1 g/day in this protocol. Do not add agmatine on the same day you start PS, start D-Serine, change NAC dose, begin keto, microdose, or introduce any other major variable.
 
 If PS leaves you flat OR more wired, you're not a high-cortisol responder--drop it. If agmatine leaves you flat, anhedonic, dizzy, nauseous, sleepless, irritable, or more craving-prone--drop it.
 
@@ -357,9 +361,9 @@ Also stop agmatine here unless it is unmistakably helping acute glutamate storms
 
 UMP trial if the Void looks like DAWS: 150–300 mg UMP in the morning with food for 3–7 days, with choline + DHA/EPA in place. Best fit: low dreams, weak visuals, high psychedelic tolerance, dopamine-agonist withdrawal history, ketamine/LSD craving, or dopamine-hit chasing. Do not take UMP on psychedelic days, and assume old psychedelic doses may become too strong if sensitivity returns.
 
-5-HTP trial if the bottleneck looks serotonergic: 50–100 mg at night for 2–3 nights, with optional P5P 10–20 mg in the morning. Best fit: poor sleep, low mood warmth, nighttime rumination, or TPH2-style serotonin synthesis bottleneck. Do not use with serotonergic medications/supplements, ayahuasca/harmalas, iboga, MDMA, DXM, tramadol, or same-day psychedelics.
+5-HTP trial if the bottleneck looks serotonergic: 50 mg at night for 2–3 nights, then 100 mg if that clearly helped without side effects, for as long as it benefits you, with optional P5P 10–20 mg in the morning. Best fit: poor sleep, low mood warmth, nighttime rumination, or TPH2-style serotonin synthesis bottleneck. Do not use with serotonergic medications/supplements, ayahuasca/harmalas, iboga, MDMA, DXM, tramadol, or same-day psychedelics.
 
-Hot & cold showers, alternating, ending on cold). *No hot showers if heart rate elevated or heart-rate-variability reduced*. Reduce or stop phosphatidylserine here--you don't want to suppress an already-flattened system. Micro-dose Male Iboga (if heart is ok).
+Hot & cold showers, alternating, ending on cold). *No hot showers if heart rate elevated or heart-rate-variability reduced*. Micro-dose Tabernanthe elliptica or Male Iboga (if heart is ok: an ECG is how to know).
 
 Transition: Consider moving to Strategy B (Keto Diet) for long-term repair (Autophagy) now that the acute storm has passed.
 
@@ -367,7 +371,7 @@ Rescue:
 
 *If Foggy:* Inhale DMSO + Drink BHB.
 
-*If Numb:* Micro-dose Male Iboga and/or Hillybilly/Mazatapec shrooms.
+*If Numb:* Micro-dose Tabernanthe elliptica or Female Iboga, and/or Hillybilly/Mazatapec shrooms.
 
 Week 8+: The BaselineState: DeltaFosB degraded, if the animal timelines carry over. Hardware reset complete.
 

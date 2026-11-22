@@ -2684,6 +2684,22 @@
    "numbers_new": [
     "400mg"
    ]
+  },
+  {
+   "by": "fix-20261108/joel-20261122-1739-message.txt, answers 25, 26a, 28a and 29a, applied by fix-20261108/x1122a/apply_x1122a.py",
+   "why": "25: the strains line takes his range in place of 0.1g-0.2g (and says some strains are much more potent); 26a: Weeks 1-2's agmatine starts as its section does (3 days); 28a: the D-serine cap wins under about 47 kg (104 lb); 29a: the 5-HTP trial in Weeks 3-5 follows its section (50mg, then 100mg), so its range 50-100mg goes",
+   "numbers_lost": [
+    "50-100mg",
+    "0.1g-0.2g"
+   ],
+   "numbers_new": [
+    "100-300mg",
+    "100mg",
+    "104",
+    "3days",
+    "47kg",
+    "50mg"
+   ]
   }
  ],
  "warning_words": {

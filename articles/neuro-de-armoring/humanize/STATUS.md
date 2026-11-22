@@ -1,5 +1,23 @@
 # Status: neuro de-armoring humanization (newest on top)
 
+## 2026-11-22, his message of 17:39 UTC: his answers 24 to 33 in; his new warnings next
+
+His message word for word: `fix-20261108/joel-20261122-1739-message.txt`. **The mailbox first** ("2026-11-22 17:39"):
+main c506134a8 merged (bad-trips and inner child lessons of 20 and 21 November: up to ten tries for a paragraph on the
+right track, each sentence saying how it follows from the one before, AP title case for headings, section links
+catalogued, a reading quiz before Pangram in bad-trips; the Instagram embeds check); this lane's 452 merged on
+2026-11-20; the cards page's stored answers unchanged; no notifications.
+
+- **In** (`fix-20261108/x1122a/apply_x1122a.py`, `APPLIED-X1122A.json`; HUMANIZED-SO-FAR.md 9c001fcb to 027122dc): 32b,
+  33b, 24a, 25, 26a, 27a, 28a, 29a, 30a, 31a (with his breathwork page; its address redirects to his breathwork post on
+  his Substack). My comparison read (`x1122a/read-1122/`); FIDELITY owner_changes for 25, 26a, 28a and 29a. Fidelity
+  PASS, comparison gate PASS. Every contradiction of EXTRACT section 2 now has a fate: 13 answered, 2 applying (16a, 17),
+  1 settled, 1 not a conflict.
+- **Lion's mane and ashwagandha**: the article advises neither. **His new warnings**: `x1122a/WARNINGS-BRIEF.md` (what to
+  check on both sides, and where each goes).
+- **Waiting**: the Weeks 3–5 line's check (16a, 17), his warnings, and the contradictions check over the new text (his
+  elliptica line, his agmatine paragraph, the showers line). No question open. Delegations: none. Predictions: none.
+
 ## 2026-11-20, his message of 17:05 UTC: 15a, 19a, 20, 21b, 22a in; the contradictions check made standard; questions 24 to 33
 
 His message word for word: `fix-20261108/joel-20261120-1705-message.txt` (15a, 16a, 17 in his words, 18 with his iboga
