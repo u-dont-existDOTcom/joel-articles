@@ -1,0 +1,15 @@
+{
+  "post": "https://ibogaqueen.substack.com/p/did-psychedelics-turn-you-lgbtqcia",
+  "post_id": 176460933,
+  "what": "The two Instagram embed nodes as they were in the post's draft before 2026-11-22 17:28 UTC, when each became a captionedImage of its IG-meta cover with the caption '@account on Instagram'. To undo: in the editor, replace each of those captionedImage nodes with the node below (same place: top-level blocks 3 and 20).",
+  "nodes": [
+    {"top_level_index": 3, "after_text": "In a recent IG vid, Mattha Busby summarized some research on this topic ...",
+     "node": {"type": "instagram", "attrs": {"instagram_id": "DP464qoCoND", "title": "A post shared by @matthabusby", "author_name": "matthabusby",
+       "thumbnail_url": "https://substack-post-media.s3.amazonaws.com/public/images/__ss-rehost__IG-snapshot-DP464qoCoND.jpg",
+       "like_count": null, "comment_count": null, "profile_pic_url": null, "follower_count": null, "timestamp": null, "belowTheFold": false}}},
+    {"top_level_index": 20, "after_text": "Here we have people who lost their gender dysphoria and de-transitioned after a shroom trip:",
+     "node": {"type": "instagram", "attrs": {"instagram_id": "DTwLkregXm7", "title": "Jordan Sather on Instagram: \"There’s a reason the Powers That B…", "author_name": "@jordan_sather_",
+       "thumbnail_url": "https://substack-post-media.s3.amazonaws.com/public/images/__ss-rehost__IG-meta-DTwLkregXm7.jpg",
+       "like_count": null, "comment_count": null, "profile_pic_url": null, "follower_count": null, "timestamp": null, "belowTheFold": false}}}
+  ]
+}
