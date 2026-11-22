@@ -119,6 +119,41 @@
     }
    ],
    "recorded_utc": "2026-11-08T17:30Z"
+  },
+  {
+   "turn": "2026-11-22T22:24Z",
+   "lines_of_work": [
+    "romance article"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "UDA main 3d79cc8; no new suggested-fixes items for joel-articles since 2026-11-08"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "main merged here (210 commits from other lanes); no new romance issues or comments; pull request 401 still open with label hold"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no edits by anyone else to articles/romance since 2026-11-08 17:31"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "his message of 22:24 UTC: the Medium page's answers (59 revised, 3 rejected), rules asked for (whole context on pages, cuts shown clearly), the BPD video, the nobodytobe links, lessons and a test of them"
+    }
+   ],
+   "items": [
+    {
+     "item": "pull request 401 (hold)",
+     "outcome": "the hold label was this session's own; rule bad-trips-2026-11-14a says push with neither flag, so it goes and the workflow merges it"
+    }
+   ],
+   "recorded_utc": "2026-11-22T22:36Z"
   }
  ]
 }

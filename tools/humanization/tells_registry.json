@@ -3175,6 +3175,54 @@
     }
    ],
    "reason": "whether advice fits its case is meaning, and Pangram can't see it: a fresh reader given tools/humanization/his_fixes_brief.md (its seventeenth way) reads each instruction against the rest of the text and the reader's situation"
+  },
+  {
+   "id": "J78",
+   "tell": "a short line standing alone: a two-to-six-word sentence that sums up, labels or turns between longer ones",
+   "kind": "judgment",
+   "sources": [
+    {
+     "file": "docs/lessons/2026-11-22-2224-romance.md",
+     "quote": "the ai tell is the short plain statements. feels robotic. I am robot. I like food. I drink water. I speak English."
+    }
+   ],
+   "reason": "whether a short line is a summing-up or turn (the tell) or speech or a question in a story (not the tell) is meaning: a fresh reader given tools/humanization/his_fixes_brief.md (its eighteenth way)"
+  },
+  {
+   "id": "J79",
+   "tell": "three of a kind, or a question inside another: a list of three, a list of category words, or questions where one is part of another or two overlap",
+   "kind": "judgment",
+   "sources": [
+    {
+     "file": "docs/lessons/2026-11-22-2224-romance.md",
+     "quote": "to whom and how publicly overlapped. plus list of 3"
+    }
+   ],
+   "reason": "whether two items or questions overlap, and which carry the point, is meaning: a fresh reader given tools/humanization/his_fixes_brief.md (its nineteenth way)"
+  },
+  {
+   "id": "J80",
+   "tell": "a sentence about the article or a section that isn't true where it stands",
+   "kind": "judgment",
+   "sources": [
+    {
+     "file": "docs/lessons/2026-11-22-2224-romance.md",
+     "quote": "it's not true ... not everything has been that at this point"
+    }
+   ],
+   "reason": "whether a summing-up of the text holds needs a reader of what comes before it: a fresh reader given tools/humanization/his_fixes_brief.md (its twentieth way)"
+  },
+  {
+   "id": "J81",
+   "tell": "a label for the thing instead of the thing: a concept named for what happened, an abstract noun that acts, a question about categories, \"announcing\"",
+   "kind": "judgment",
+   "sources": [
+    {
+     "file": "docs/lessons/2026-11-22-2224-romance.md",
+     "quote": "that other ai tell of an abstract concept doing something"
+    }
+   ],
+   "reason": "whether a sentence says the thing or a label for it is meaning: a fresh reader given tools/humanization/his_fixes_brief.md (its twenty-first way)"
   }
  ]
 }

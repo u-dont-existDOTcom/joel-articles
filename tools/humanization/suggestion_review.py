@@ -28,6 +28,10 @@ are project-sources/review-form-controls.css, inlined (the 2026-10-23 white-on-w
 REVIEW.json (the lane's build script writes it; see find_quote, block_text and cut_text for its helpers):
   {"format": "joel-suggestion-review-v1", "review_id", "title", "intro": [paragraphs], "git_file": the page's file,
    "article": {"file": repo-relative Markdown, "sha256"}, "built", "links": {"guide", "review"} (GitHub pages to name),
+   "whole" (needed on pages built from 2026-11-22, lesson romance-2026-11-22a): {"file", "sha256"} of the whole article
+   the page shows; the page's Markdown is that article, every block in order, with its IMAGE and EMBED notes shown as
+   boxes with their links, and leaves out only long stretches (at least 8 paragraphs and 800 words, no card in them)
+   between a <!-- CUT --> and a <!-- /CUT --> line, which the page shows as a box he can open,
    "fine_grained" (optional): his words and when, where an author asked to approve each change himself; its cards then
    need no "ask_because",
    "types": {key: {"label", "about"}},
@@ -111,7 +115,7 @@ from html_links import join_split_links  # noqa: E402  (a pasted post card's lin
 TEMPLATE = HERE / 'suggestion_review_template.html'
 FORM_CSS = ROOT / 'project-sources' / 'review-form-controls.css'
 FORMAT = 'joel-suggestion-review-v1'
-GENERATOR = 'suggestion_review.py 1.11 (2026-11-11)'
+GENERATOR = 'suggestion_review.py 1.12 (2026-11-22)'
 ID_OK = re.compile(r'^[A-Za-z0-9][A-Za-z0-9.\-]{0,80}$')
 # a Pangram result's page (2026-11-02, Joel on the hypnosis guide's cards: "why are you not giving me the pangram link so
 # i can see? always give me the links", and "you didn't check if your changes passed.. they didn't. don't waste my time")
@@ -130,6 +134,22 @@ ASK_FROM = '2026-11-07'
 SENSE_FROM = '2026-11-07'
 SENSE_OK = re.compile(r'^\s*\S.{19,}', re.S)
 LIST_FROM = '2026-11-07'   # reviews built from this day: a stretch to edit on a list covers every item (bad-trips-2026-11-07k)
+# Lesson romance-2026-11-22a (Joel, 2026-11-22 22:24 UTC, after a page that showed only its 62 card paragraphs: "it would
+# have helped if you just had the whole page so i could see the whole context, make that a rule from now on to show me all
+# the context so the part i am looking at makes sense pls" and "make it more clear when you cut parts out (which should
+# not happen unless it would take up a lot of space, like don't cut out one paragraph to save space, that's just annoying
+# now i have to look at the orig article). make that a repo rule"). From this day a page names the whole article it shows
+# ("whole": {"file", "sha256"}) and shows every block of it in order, its pictures and videos as boxes with their links
+# where they sit. A stretch may be left out only when it is long (CUT_MIN_BLOCKS blocks and CUT_MIN_WORDS words, with no
+# card in it), between a <!-- CUT --> line and a <!-- /CUT --> line; the page shows it as a box that says what is left out
+# and opens to show it, so he never has to go to the original.
+WHOLE_FROM = '2026-11-22'
+CUT_MIN_BLOCKS = 8
+CUT_MIN_WORDS = 800
+CUT_START = re.compile(r'^\s*<!--\s*CUT\s*-->\s*$')
+CUT_END = re.compile(r'^\s*<!--\s*/CUT\s*-->\s*$')
+NOTE_RE = re.compile(r'<!--\s*(IMAGE|EMBED)\s+(\S+)\s*:\s*(.*?)\s*-->', re.S)
+YT_ID = re.compile(r'(?:youtube(?:-nocookie)?\.com/(?:embed/|watch\?v=|shorts/)|youtu\.be/)([A-Za-z0-9_-]{11})')
 ASK_OK = re.compile(r'^\s*(meaning|downside|his own)\s*:\s*\S.{9,}', re.I | re.S)
 FINE_OK = re.compile(r'^\s*\S.{14,}', re.S)
 YOURS_WORDS = re.compile(r"\byour (?:own )?(?:words|sentences?|lines?|phrasings?|wording)\b|\byours to (?:change|fix|edit|"
@@ -190,16 +210,43 @@ def native_of(kind, segs, text):
     return None
 
 
-def blocks(md):
+def blocks(md, whole=False):
     """The article's visible blocks in order: dicts with kind, level, marker, segs, text (plain, as a reader reads it),
     pn (its P-number, or None for a heading), section (the nearest heading above), path (the headings above it).
     The Markdown is read the way render_article_so_far.py reads it (a split post card joined first), so the P-numbers
-    are the ones on his other pages."""
+    are the ones on his other pages.
+
+    With WHOLE (pages built from WHOLE_FROM): each IMAGE or EMBED note is a block too (kind "embed": url, note, desc),
+    and the blocks between a <!-- CUT --> and a <!-- /CUT --> line are one block of kind "cut", holding them in "inner"."""
     raw = re.split(r'\n\s*\n', join_split_links(md))
     out, heads = [], []
+    cut = None
+
+    def put(entry):
+        if cut is not None:
+            cut.append(entry)
+        else:
+            entry['i'] = len(out)
+            out.append(entry)
+
     for b, pn in para_numbers.number_blocks(raw):
+        if whole and CUT_START.match(b):
+            cut = []
+            continue
+        if whole and CUT_END.match(b):
+            if cut is not None:
+                out.append({'i': len(out), 'kind': 'cut', 'level': 0, 'marker': '', 'segs': [], 'native': None,
+                            'text': '', 'pn': None, 'section': heads[-1][1] if heads else '',
+                            'path': [h[1] for h in heads], 'inner': cut})
+            cut = None
+            continue
         v = para_numbers.visible(b)
         if not v:
+            if whole:
+                for m in NOTE_RE.finditer(b):
+                    put({'kind': 'embed', 'level': 0, 'marker': '', 'segs': [], 'native': None, 'text': '',
+                         'pn': None, 'section': heads[-1][1] if heads else '', 'path': [h[1] for h in heads],
+                         'note': m.group(1), 'url': m.group(2), 'desc': ' '.join(m.group(3).split())})
             continue
         v = re.sub(r'\s*\n\s*', ' ', v)
         kind, level, marker, body = 'p', 0, '', v
@@ -217,10 +264,56 @@ def blocks(md):
         native = native_of(kind, segs, ''.join(x['t'] for x in segs))
         if level:
             heads = [h for h in heads if h[0] < level] + [(level, ''.join(x['t'] for x in segs))]
-        out.append({'i': len(out), 'kind': kind, 'level': level, 'marker': marker, 'segs': segs, 'native': native,
-                    'text': ''.join(x['t'] for x in segs), 'pn': pn,
-                    'section': heads[-1][1] if heads else '', 'path': [h[1] for h in heads]})
+        put({'kind': kind, 'level': level, 'marker': marker, 'segs': segs, 'native': native,
+             'text': ''.join(x['t'] for x in segs), 'pn': pn,
+             'section': heads[-1][1] if heads else '', 'path': [h[1] for h in heads]})
     return out
+
+
+def flat_blocks(bl):
+    """BL with every cut opened: the blocks in the article's order."""
+    out = []
+    for b in bl:
+        out += b['inner'] if b['kind'] == 'cut' else [b]
+    return out
+
+
+def whole_problems(review, bl):
+    """Lesson romance-2026-11-22a: a page built from WHOLE_FROM shows the whole article it names in "whole", every block
+    in order, and leaves out only long stretches, in a CUT box."""
+    if not re.match(r'^\d{4}-\d{2}-\d{2}', review.get('built') or '') or review['built'] < WHOLE_FROM:
+        return []
+    said = ('Joel, 2026-11-22: "make that a rule from now on to show me all the context so the part i am looking at '
+            'makes sense"')
+    w = review.get('whole') or {}
+    if not w.get('file'):
+        return ['the page must name the whole article it shows, in "whole": {"file", "sha256"}, and show every block of '
+                'it (%s)' % said]
+    path = ROOT / w['file']
+    if not path.exists():
+        return ['"whole": no such file %s' % w['file']]
+    text = path.read_text(encoding='utf-8')
+    if hashlib.sha256(text.encode('utf-8')).hexdigest() != w.get('sha256'):
+        return ['"whole": %s changed since the page was built: build it again' % w['file']]
+    probs = []
+    norm = lambda t: ' '.join(t.split())
+    want = [norm(b['text']) for b in flat_blocks(blocks(text, whole=True)) if b['kind'] != 'embed']
+    have = [norm(b['text']) for b in flat_blocks(bl) if b['kind'] != 'embed']
+    if want != have:
+        k = next((j for j, (a, b) in enumerate(zip(want, have)) if a != b), min(len(want), len(have)))
+        probs.append('the page leaves out or changes the whole article\'s block %d ("%s"): every block shows, or sits in '
+                     'a CUT box (%s)' % (k + 1, (want[k] if k < len(want) else '(the end)')[:60], said))
+    for b in bl:
+        if b['kind'] != 'cut':
+            continue
+        n = sum(1 for x in b['inner'] if x['kind'] != 'embed')
+        words = sum(len(x['text'].split()) for x in b['inner'])
+        if n < CUT_MIN_BLOCKS or words < CUT_MIN_WORDS:
+            probs.append('a stretch of %d blocks (%d words) is left out after "%s": only a long one may be, at least %d '
+                         'blocks and %d words (Joel, 2026-11-22: "don\'t cut out one paragraph to save space, that\'s just '
+                         'annoying now i have to look at the orig article")' % (n, words, b['section'], CUT_MIN_BLOCKS,
+                                                                                CUT_MIN_WORDS))
+    return probs
 
 
 def block_text(bl, i):
@@ -487,7 +580,7 @@ def list_problems(review, bl):
 
 def check(review, bl):
     """Problems with REVIEW against the article's blocks: [message]."""
-    probs, ids = [], set()
+    probs, ids = whole_problems(review, bl), set()
     n = len(bl)
     for s in review['suggestions']:
         sid = s.get('id', '?')
@@ -717,7 +810,56 @@ def block_inner(b, marks):
     return ''.join(out)
 
 
+def embed_html(b):
+    """A picture or video as a box with its link where it sits (lesson romance-2026-11-22a): never a player, which a page
+    can't be sure to show (Joel, 2026-11-22: "the BPD splitting vid broke in this page"). A YouTube video links to its
+    youtube.com watch page."""
+    url, note = b['url'], b['note']
+    m = YT_ID.search(url)
+    if m:
+        url, what = 'https://www.youtube.com/watch?v=' + m.group(1), 'Video'
+    elif 'instagram.com' in url:
+        what = 'Instagram post'
+    elif note == 'IMAGE':
+        what = 'Picture'
+    else:
+        what = 'Embed'
+    desc = (' — %s' % esc(b['desc'])) if b.get('desc') else ''
+    link = ('<a href="%s" target="_blank" rel="noopener noreferrer">%s</a>' % (esc(url), esc(url))
+            if url.startswith('http') else esc(url))
+    return ('<div class="blk embed-blk" id="b%s" data-b="%s" style="border:1px solid #9ca3af;border-radius:8px;'
+            'padding:6px 10px;margin:10px 0;font-size:.9em"><b>%s</b>%s<br>%s</div>'
+            % (b.get('i', ''), b.get('i', ''), what, desc, link))
+
+
+def cut_html(b):
+    """A long stretch left out (lesson romance-2026-11-22a): a box that says what is left out and opens to show it."""
+    inner = [x for x in b['inner']]
+    texts = [x for x in inner if x['kind'] != 'embed']
+    words = sum(len(x['text'].split()) for x in inner)
+    first = first_words(texts[0]['text'], 10) if texts else ''
+    last = ' '.join(texts[-1]['text'].split()[-10:]) if texts else ''
+    body = []
+    for x in inner:
+        if x['kind'] == 'embed':
+            body.append(embed_html(x))
+        elif x['level']:
+            body.append('<h%d>%s</h%d>' % (min(x['level'] + 1, 6), esc(x['text']), min(x['level'] + 1, 6)))
+        else:
+            body.append('<p>%s%s</p>' % (('<span class="pn">%s</span>' % esc(x['pn'])) if x.get('pn') else '',
+                                         esc(x['text'])))
+    return ('<details class="blk cut-blk" id="b%d" data-b="%d" style="border:2px dashed #b45309;background:#fff7ed;'
+            'color:#1f2937;border-radius:8px;padding:8px 12px;margin:14px 0"><summary style="cursor:pointer"><b>Left out '
+            'here to save space: %d paragraphs, %d words</b>, from &ldquo;%s&rdquo; to &ldquo;&hellip;%s&rdquo;. '
+            'Click to show them.</summary>%s</details>'
+            % (b['i'], b['i'], len(texts), words, esc(first), esc(last), '\n'.join(body)))
+
+
 def block_html(b, marks):
+    if b['kind'] == 'embed':
+        return embed_html(b)
+    if b['kind'] == 'cut':
+        return cut_html(b)
     loc = esc(b['pn'] or '')
     if b['native']:
         body = '<span class="native">[%s]</span>' % esc(b['native'])
@@ -1030,7 +1172,8 @@ def load(review_path):
     if sha != review['article']['sha256']:
         raise SystemExit('the article changed since REVIEW.json was built (%s, not %s): build it again'
                          % (sha[:12], review['article']['sha256'][:12]))
-    return review, md, blocks(md)
+    built = review.get('built') or ''
+    return review, md, blocks(md, whole=bool(re.match(r'^\d{4}-\d{2}-\d{2}', built)) and built >= WHOLE_FROM)
 
 
 def main(argv=None):
