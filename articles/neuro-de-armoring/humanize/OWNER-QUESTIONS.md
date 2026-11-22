@@ -1,7 +1,7 @@
 # Neuro de-armoring: what I need from Joel
 
-Last updated 2026-11-20, after your message of 17:05 UTC.
-**Open questions: 10.** **For you to do**: nothing besides the questions; your answers 15a, 19a, 20, 21b and 22a are in.
+Last updated 2026-11-22, after your message of 17:39 UTC.
+**Open questions: 0.** **For you to do**: nothing; your answers 24 to 33 are in.
 
 Colours: 🟣 a question for you; 🟠 something for you to do; 🔵 next or in progress; 🟢 done or decided.
 
@@ -9,105 +9,6 @@ The master copy of this page is [this file in Git](https://github.com/u-dont-exi
 can read and update it. Every file it points to is a link.
 
 ## Open questions
-
-**🟣 32. Your iboga answer (18) as text: does it go in like this?** In the iboga list, your words, with the Weeks 3–5
-lines to match:
-
-> Female Iboga: For "Emotional Numbness" (Anima).
-> Male Iboga: For "Brain Fog/Helplessness/Relapse" (Animus).
-> Tabernanthe elliptica ("bisexual" or "healer" iboga): an iboga cousin with many iboga alkaloids, the best of both worlds
-> but lower potency than regular iboga, and it doesn't feel as trancey. Try elliptica first for microdosing: it's more
-> functional, more clear-headed, and often better for mood. Male iboga seems to be closest to what is mainly studied.
-
-Weeks 3–5: "Micro-dose Tabernanthe elliptica or Male Iboga (if heart is ok)." and "*If Numb:* Micro-dose Tabernanthe
-elliptica or Female Iboga, and/or Hillybilly/Mazatapec shrooms."
-
-What the sources show ([the research](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/x1120a/RESEARCH-18-23.md)): no paper on elliptica's alkaloids or potency (PubMed has none), and the only
-page I found calling it "bisexual" or "healer" iboga, with its lower potency and clear head, is your own Substack.
-Botanists don't split iboga into male and female plants; in the Bwiti interviews I found, male and female are initiation
-rites. Research mostly uses ibogaine itself (or noribogaine), not a plant type, so nothing backs "closest to what is mainly
-studied". Iboga's heart risk comes from its alkaloids (QT prolongation and dangerous heart rhythms, even in people with no heart
-condition, and deaths), so "if heart is ok" covers elliptica too, and an ECG is how to know. Your Substack also calls male iboga "almost surely
-more cardiotoxic".
-
-- a) Put it in as above.
-- b) Put it in saying elliptica's potency and feel are from experience ("in my experience ..."), without "closest to what
-  is mainly studied", and with "(if heart is ok: an ECG is how to know)". (My pick: it says only what's known.)
-- c) Your words.
-
-**🟣 33. Your agmatine answer (23) as text: does it go in like this?** After agmatine's timing rule, your words:
-
-> Agmatine with psychedelics is more complicated, and I can't say to take it with them or not. People report it can make a
-> trip or an MDMA roll stronger while putting a ceiling on the euphoria. A friend of mine finds it gives a lot of the
-> introspective benefits he gets from iboga, and that the two go well together, although I haven't heard of that from
-> others. I don't notice much from it myself, aside from, I think, a lower ceiling on euphoria. I wouldn't use it unless a
-> trip gets too stormy, but you can try the combination to see if it's worthwhile for you. Everyone's different.
-
-What the forums and studies show ([the research](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/x1120a/RESEARCH-18-23.md)): the one forum thread I could open on agmatine with MDMA leans the
-other way (one person felt less intensity, one no change, one said it smoothed the rough edges). In rats, agmatine weakened
-methamphetamine's effects and its rise in body temperature, and calmed amphetamine and ketamine's activity. One rat study
-found ibogaine shares some of its felt effects with drugs acting where agmatine acts, and agmatine overlapped a little:
-some support for your friend. There's no study of agmatine with MDMA, psilocybin or LSD, and none on safety. The timing
-line for D-serine and DCS days stays as it is (it's about learning sessions, not trips) unless you say otherwise.
-
-- a) Put it in as above.
-- b) Put it in with "People's reports differ: some say it makes a trip or roll stronger while capping the euphoria, others
-  that it weakens it." (My pick: that's what the reports I found say.)
-- c) Your words.
-
-**🟣 24. Say "Reduce or stop phosphatidylserine here" once in Weeks 3–5?** With your answer 21b, the phase says it twice:
-in its Protocol line, with the reason, and again in the showers line.
-
-- a) Keep only the Protocol line's. (My pick: it has the reason.)
-- b) Keep both.
-
-**🟣 25. Which mushroom microdose range?** Your line on the best strains gives one range and no frequency; the Scenario C
-line gives a range with a higher top and says daily ([the lines](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/coherence/EXTRACT.md), item 2.1).
-
-- a) The first matches the second (its range, daily).
-- b) The second matches the first.
-- c) Your words.
-
-**🟣 26. How does agmatine start?** The agmatine section says to start in the morning or early afternoon for 3 days; Weeks
-1–2 says mornings only, with no 3-day step ([the lines](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/coherence/EXTRACT.md), item 2.11).
-
-- a) Weeks 1–2 follows the agmatine section.
-- b) The agmatine section follows Weeks 1–2.
-
-**🟣 27. In what order do PQQ, ketones, D-serine and the session go?** One line has D-serine on an empty stomach 45
-minutes before the session, another 45 minutes after PQQ and ketones, and the PQQ line puts PQQ in the morning with
-ketones ([the lines](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/coherence/EXTRACT.md), item 2.12).
-
-- a) One order, said once: PQQ and ketones, D-serine about 45 minutes later, the session about 45 minutes after that.
-- b) Your order.
-
-**🟣 28. D-serine: the dose against the per-kilo cap?** The dose is a fixed range, but the cap is per kilo of body weight,
-so for anyone under about 47 kg (104 lb) the top of the range goes over the cap ([the lines](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/coherence/EXTRACT.md), item 2.13).
-
-- a) Say the cap wins: lighter people stay under it. (My pick: otherwise a light reader who follows the dose breaks your
-  cap.)
-- b) Your words.
-
-**🟣 29. The 5-HTP trial: how long at each step?** The 5-HTP section starts low for 2–3 nights and goes up only if that
-clearly helped, with no length for the second step; Weeks 3–5 gives 2–3 nights for the whole range ([the lines](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/coherence/EXTRACT.md),
-item 2.14).
-
-- a) Weeks 3–5 follows the 5-HTP section, and you say how long the second step lasts.
-- b) Your words.
-
-**🟣 30. The potassium food plan falls short of its target.** By the article's own figures, the daily potatoes and greens
-come to about 4,450 mg, under the 4,700 mg target ([the lines](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/coherence/EXTRACT.md), item 2.15).
-
-- a) Say the plan gets you close, and the rest comes from your other food. (My pick.)
-- b) Add a food that makes up the rest (which one?).
-- c) Your words.
-
-**🟣 31. Hot and cold showers in the anxiety phase?** Showers come in as a tool for the numb Void (Scenario C), but Weeks
-1–2, where the aim is to cool the system, schedules them too ([the lines](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/coherence/EXTRACT.md), item 2.17).
-
-- a) They belong in both: say what they do in the anxiety phase.
-- b) Only in the Void: Weeks 1–2 drops them.
-- c) Your words.
 
 - 🟢 **11, answered ("11yes add that")**: Zhong 2023 is cited after Vialou in your paragraph, with Nestler 2008 back
   beside them (below).
@@ -117,6 +18,19 @@ come to about 4,450 mg, under the 4,700 mg target ([the lines](https://github.co
 ## For you to do
 
 - 🟢 **Nothing on the cards page**: SC-95b, SC-DMSOc and your version of SC-54 are in.
+
+## Your answers of 2026-11-22 17:39 UTC, and what I did
+
+- 🟢 **In, by script** ([what went in](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/neuro-de-armoring/humanize/fix-20261108/x1122a/APPLIED-X1122A.json)): 32b, the iboga list with your elliptica line (its potency
+  and feel as your experience) and the Weeks 3–5 iboga lines, with "(if heart is ok: an ECG is how to know)"; 33b, your
+  agmatine paragraph with "People's reports differ"; 24a; 25, your range and "some strains are much more potent"; 26a; 27a,
+  the order said once in the D-serine section; 28a; 29a, "as long as it benefits you" in the 5-HTP section and in Weeks
+  3–5; 30a; 31a, your showers and baths line for Weeks 1–2, with your [breathwork page](http://breathwork.u-dont-exist.com/).
+- 🟢 **Lion's mane and ashwagandha**: the article advises neither anywhere.
+- 🔵 **Your new warnings** (lion's mane and ashwagandha, with SSRIs and finasteride as the known cases; agmatine and 5-HTP,
+  weeks of anhedonia in rare reports): next, checked against what's reported on both sides, then written and checked in
+  Pangram like any text of mine.
+- 🔵 **16a and 17** still wait on their line's check; then the contradictions check runs again over the new text.
 
 ## Your answers of 2026-11-20 17:05 UTC, and what I did
 
