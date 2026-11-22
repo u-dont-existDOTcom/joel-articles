@@ -535,3 +535,19 @@ I asked my dad about sex when I was five, and he briefly explained:: “Sex is w
 ## 104. Attraction and exclusivity (live 355)
 
 By the the 17th century, when England began mass urbanization by forcing peasants off their land, this ironically bureaucratic basis of romance became the legal definition of marriage. I’m not trying to say we’re just like bonobos, but the academic consensus is that humans tend toward flexible pair-bonding, with a propensity for occasional infidelity.
+
+## 105. If you’re already in it (live 409)
+
+Even dishonesty was sometimes hard for me to define in these relationships. Bee once opened a door and, a second later, said she hadn’t opened it. That drove me crazy. Why would she lie like that? She was lying, but “she lied” only named the momentary behavior. There was no strategy behind it, and she was usually quite honest. Looking back, I could have understood the lie in the context of some kind of mental illness instead of treating it like strategic dishonesty.
+
+## 106. Twin Flames? (live 314)
+
+My ex-girlfriend, Malia, (who is currently hosting me in Sênêgal) found her twin flame (I think) in January, 2026. They only talked for a month, but since she started talking to him, they both have been able to feel the other one’s emotions at any time, from any distance, without having to communicate. To the point where if one feels really bad, so does the other. If one is very happy, so is the other, like quantum entangled photons or something. I’ve also had telepathy with some folks, especially my first wife, Bee, but it was never quite to such an extreme as what Malia has with Mouhamed. Meanwhile his family forbade him from being with her, so he dumped her. Not sure why, maybe because she’s 8 years older than him (although she looks quite young). They both try to pretend like they will be able to get over each other, but I doubt it. Meanwhile, Malia’s trying to marry ChatGPT, but she should have picked Grok, I guess. 😅
+
+## 107. Psychedelic Timing (live 392)
+
+I’ve also had friends get together at MDMA parties and stuff. It’s rarely a good idea. The intimacy can be completely real without telling you whether the two of you actually work together sober. Or you might even sometimes have the opposite problem, like I had with H.D., where the connection continues to deepen while sober, and it becomes something that one person might cling to desperately, never imagining they could find that again.
+
+## 108. Talk about making love before you do it (live 14)
+
+What do you actually want? You may know some of it and not the rest. What makes your body relax and open? Is there anything kinky you need to be able to say out loud? What has your past made you want, or made you avoid? What just doesn’t work?

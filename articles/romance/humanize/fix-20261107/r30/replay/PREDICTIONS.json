@@ -1,0 +1,104 @@
+{
+ "about": "The blind rewrites of r30/replay/OUT.md, each checked by itself in the Pangram web app (his main account, the app browser pane). Predictions written before the checks: call and my chance of a 100% Human result.",
+ "written_utc": "2026-11-22T23:55Z",
+ "items": [
+  {
+   "key": "replay-M-4",
+   "sha256": "2ea0e6b2fb3f974c4516f6b0734df9d0f7f23f6230deb0b3893e6e83843444e5",
+   "words": 54,
+   "call": "Human",
+   "chance": 0.6
+  },
+  {
+   "key": "replay-M-73",
+   "sha256": "e584863d7f02c5b290ac284cf2434f49f0977dbaaef414504f6fd9534526f6ca",
+   "words": 89,
+   "call": "Human",
+   "chance": 0.6
+  },
+  {
+   "key": "replay-M-119",
+   "sha256": "23b72e4d59b4197f5b1ffc946e04cb04aa3cb630236a98d5b104d8b83e0a290c",
+   "words": 48,
+   "call": "Human",
+   "chance": 0.7
+  },
+  {
+   "key": "replay-M-125",
+   "sha256": "1fac84bd88ec3b5229d5fd4f469a840999523ce8491f0ee8abbfe3ceb90db730",
+   "words": 63,
+   "call": "Human",
+   "chance": 0.55
+  },
+  {
+   "key": "replay-M-149",
+   "sha256": "a4bd74597c47409922971651c2b349af1ea9e768305463e922d7751f7ea7e9c6",
+   "words": 63,
+   "call": "Human",
+   "chance": 0.65
+  },
+  {
+   "key": "replay-M-160",
+   "sha256": "56a04156d7e2e84a2aad9dcf7d80e84bf89414b80dc830087b804f5185c59fc4",
+   "words": 57,
+   "call": "Human",
+   "chance": 0.6
+  },
+  {
+   "key": "replay-M-214",
+   "sha256": "b9ad387cca8c34a0d97dc04b6e876ce9e129a0fa6da1adc6916d2aea9307cffe",
+   "words": 46,
+   "call": "Human",
+   "chance": 0.55
+  },
+  {
+   "key": "replay-M-252",
+   "sha256": "64f8995c7d02a4e846461951c714c7cdf30476361d60a47fa05907dfb43e13ea",
+   "words": 46,
+   "call": "Human",
+   "chance": 0.65
+  },
+  {
+   "key": "replay-M-253",
+   "sha256": "e52eef533d2dc934e7a30fb162510ec2134b1398105647375889f2d11c653ca4",
+   "words": 22,
+   "call": "Human",
+   "chance": 0.5
+  },
+  {
+   "key": "replay-M-343",
+   "sha256": "571eafca781e6a861f6b1fb796b0a29ffe88bf90c5af9bc9498482d3d720d503",
+   "words": 87,
+   "call": "Human",
+   "chance": 0.5
+  },
+  {
+   "key": "replay-M-346",
+   "sha256": "740a7ad1e2b2c39c214ae0178d04941dc46b380ad957ef40400ab27332ab53b2",
+   "words": 60,
+   "call": "AI",
+   "chance": 0.35
+  },
+  {
+   "key": "replay-M-361",
+   "sha256": "c3f3fc47ec8fddf2a0cd58ff4ab6c2e1f0b685f7883cf93d9aa77126711a0486",
+   "words": 53,
+   "call": "Human",
+   "chance": 0.65
+  },
+  {
+   "key": "replay-M-409",
+   "sha256": "99c106cdac2bfe9e006ba37d576b527fa707067701de6775ce7c05a2bd4630fd",
+   "words": 84,
+   "call": "Human",
+   "chance": 0.6
+  },
+  {
+   "key": "replay-M-437",
+   "sha256": "9d36c233c78e3fc7f626130405ebf7096178e7ea772537000f0b6f8866f13f53",
+   "words": 102,
+   "call": "Human",
+   "chance": 0.55
+  }
+ ]
+}

@@ -1,0 +1,60 @@
+{
+ "about": "His answers on the fifth page (2026-11-22 23:43 UTC, review/teach-20261122/ANSWERS-T5.json) as a layer over the\nfixed version, after r30's: HIS-T5.json, which whole/build.py applies.",
+ "answers": "review/teach-20261122/ANSWERS-T5.json",
+ "links": [],
+ "embeds": [],
+ "changes": [
+  {
+   "card": "M-409",
+   "kind": "para",
+   "live": 409,
+   "before": "Even dishonesty was sometimes hard for me to define in these relationships. Bee once opened a door and, a second later, said she hadn’t opened it. That drove me crazy! I mean, why would she lie like that? On the other hand, although she was technically lying, there was no strategy behind it, and she was usually quite honest. Non-strategic lying is literally diagnosed as \"pathological lying,\" so I should have seen it more like an illness than a failure of virtue.",
+   "after": [
+    "Even dishonesty was sometimes hard for me to define in these relationships. Bee once opened a door and, a second later, said she hadn’t opened it. That drove me crazy! I mean, why would she lie like that? On the other hand, although she was technically lying, there was no strategy behind it, and she was usually quite honest. Non-strategic lying is literally defined as \"pathological lying,\" so I should have seen it more like an illness than a failure of virtue."
+   ],
+   "comment": "change diagnosed to defined then",
+   "his_checks": [],
+   "was": "literally diagnosed as",
+   "now": "literally defined as"
+  },
+  {
+   "card": "live 314",
+   "kind": "para",
+   "live": 314,
+   "before": "My ex-girlfriend, Malia, (who is currently hosting me in Sênêgal) found her twin flame (I think) in January, 2026. They only talked for a month, but since she started talking to him, they both have been able to feel the other one’s emotions at any time, from any distance, without having to communicate. To the point where if one feels really bad, so does the other. If one is very happy, so is the other, like quantum entangled photons or something. I’ve also had telepathy with some folks, especially my first wife, Bee, but it was never quite to such an extreme as what Malia has with Mouhamed. Meanwhile his family forbade him from being with her, so he dumped her. Not sure why, maybe because she’s 8 years older than him (although she looks quite young). They both try to pretend like they will be able to get over each other, but I doubt it. Meanwhile, Malia’s trying to marry ChatGPT, but she should have picked Grok, I guess. 😅",
+   "after": [
+    "My ex-girlfriend, Malia, (who is currently hosting me in Sênêgal) found her twin flame (I think) in January, 2026. They only talked for a month, but since she started talking to him, they both have been able to feel the other one’s emotions at any time, from any distance, without having to communicate. To the point where if one feels really bad, so does the other. If one is very happy, so is the other, like quantum entangled photons or something. I’ve also had telepathy with some folks, especially my second wife, Bee, but it was never quite to such an extreme as what Malia has with Mouhamed. Meanwhile his family forbade him from being with her, so he dumped her. Not sure why, maybe because she’s 8 years older than him (although she looks quite young). They both try to pretend like they will be able to get over each other, but I doubt it. Meanwhile, Malia’s trying to marry ChatGPT, but she should have picked Grok, I guess. 😅"
+   ],
+   "comment": "2nd wife",
+   "his_checks": [],
+   "was": "especially my first wife, Bee",
+   "now": "especially my second wife, Bee"
+  },
+  {
+   "card": "live 392",
+   "kind": "para",
+   "live": 392,
+   "before": "I’ve also had friends get together at MDMA parties and stuff. It’s rarely a good idea. The intimacy can be completely real without telling you whether the two of you actually work together sober. Or you might even sometimes have the opposite problem, like I had with H.D., where the connection continues to deepen while sober, and it becomes something that one person might cling to desperately, never imagining they could find that again.",
+   "after": [
+    "I’ve also had friends get together at MDMA parties and stuff. It’s rarely a good idea. The intimacy can be completely real without telling you whether the two of you actually work together sober. Or you might even sometimes have the opposite problem, like I had with H., where the connection continues to deepen while sober, and it becomes something that one person might cling to desperately, never imagining they could find that again."
+   ],
+   "comment": "if that's the case then we can put HD back to H",
+   "his_checks": [],
+   "was": "like I had with H.D., where",
+   "now": "like I had with H., where"
+  },
+  {
+   "card": "M-14",
+   "kind": "para",
+   "live": 14,
+   "before": "What do you actually want? Women are kind of notorious for proudly not knowing what they want, and pressuring men into making it look like they know what they want. But everyone should know, for themselves, what they want, regardless of gender norm pressure. So what have you learned from your past desires, fulfilled or not? (I learned that sex isn't everything, but it still counts for a lot.) Do certain things make your body relax and open? Is there anything kinky you need to feel comfortable saying out loud?",
+   "after": [
+    "What do you actually want? Women are kind of notorious for proudly not knowing what they want, and pressuring men into making it look like men know what they want. But everyone should know, for themselves, what they want, regardless of gender norm pressure. So what have you learned from your past desires, fulfilled or not? (I learned that sex isn't everything, but it still counts for a lot.) Do certain things make your body relax and open? Is there anything kinky you need to feel comfortable saying out loud?"
+   ],
+   "comment": "no i meant and pressuring men into making it look like men know what they want, how can i say that lol",
+   "his_checks": [],
+   "was": "pressuring men into making it look like they know what they want.",
+   "now": "pressuring men into making it look like men know what they want."
+  }
+ ]
+}

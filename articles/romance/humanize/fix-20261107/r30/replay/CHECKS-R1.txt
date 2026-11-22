@@ -1,0 +1,17 @@
+# Round 1 of the blind test, each rewrite checked by itself in the Pangram web app (his main account, the Claude app's
+# browser pane), 2026-11-22 23:58 to 2026-11-23 00:04 UTC; predictions in PREDICTIONS.json, written first.
+# Under 50 words the check takes the next paragraph too (119, 214), and 252 and 253 go together.
+# key | history uuid | label | document confidence | % AI | windows (H/A: label, H/M/L: confidence, words)
+replay-M-4|e94aa2a2-a55f-456d-a46e-8fc7234049b9|Human|High|0|H:H56
+replay-M-73|18aaaff3-a2e3-4585-b59c-3efc3fcd20c2|Mixed|Medium|59.3|H:H26 H:L13 A:L21 A:M31
+replay-M-119+next|29a51eec-77b1-473a-9447-3d48d9aac2e7|Human|High|0|H:H117
+replay-M-125|c3fb7c58-a57d-4578-9b47-0a219cf710bc|AI|High|100|A:H55 A:M12
+replay-M-149|905b1dae-d6d6-4a83-bbbf-d90b868785c9|Human|High|0|H:H70
+replay-M-160|5b04ff1a-42e7-4044-b24c-81f1f82e4312|Human|High|0|H:H57
+replay-M-214+next|ed4bc254-0634-445f-a1c6-b3ddaf75304c|Human|Low|0|H:H48 H:M24 H:L11
+replay-M-252+253|785f4cde-8a0c-4e02-ace9-011fa3996dbd|Human|Low|3.1|H:L48 H:L22
+replay-M-343|b1699e1b-c760-47b0-8695-e37510e0c429|AI|Medium|100|A:M35 A:H26 A:M17 A:H15
+replay-M-346|0bfa46e8-7b65-42ae-b3f8-7a9439bc966b|AI|Low|100|A:L28 A:H33
+replay-M-361|a79cb89c-f2dc-4d93-9289-537ee5e4c83d|Human|High|0|H:H54
+replay-M-409|198bda69-6af3-4723-9f4d-233c63d6a9f7|Human|High|0|H:H85
+replay-M-437|c2f89628-6e3b-41be-98c1-996924e5511b|Mixed|Low|30.2|H:H40 H:L34 A:L33
