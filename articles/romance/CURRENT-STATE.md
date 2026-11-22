@@ -1,6 +1,6 @@
 # Romance current state
 
-Updated: 2026-11-08
+Updated: 2026-11-22
 
 ## Goal
 
@@ -136,12 +136,41 @@ with his OK and no email.
   `review/teach-20261108/REVIEW-T4.md`): 62 paragraphs, 70 windows, each with the tells I see and a fresh sense read's
   finding (`review/teach-20261108/sense-t4/`: "traditonal" in 173, "natural" twice in 338).
 
+- 2026-11-22 (his message of 22:24 UTC, `humanize/fix-20261107/r30/`): his Medium-page answers saved word for word
+  (`review/teach-20261108/MESSAGE-T4-20261122-2224.md`, `ANSWERS-T4.json`, matched against the page's database item by
+  item): 59 versions in as he wrote them (`r30/HIS-T4.json`, laid over the checks' replacements by `whole/build.py`),
+  three cards rejected as Pangram bugs (264, 338, 405), eleven obvious slips fixed and listed (`r30/README.md`), and
+  his new "Two Pillars" 332 in place of the locked live paragraph (his own decision; `OWNER-LOCKS.json` still holds the
+  old master's text, which this lane doesn't edit). His links: "breathwork" to breathwork.u-dont-exist.com, "Systema
+  breathing" to his Systema video, the Instagram reel at 149 (live) after its paragraph for the live update. The live
+  post's copy of 2026-11-22 is in `humanize/fix-20261107/live-check/LIVE-POST-BLOCKS-20261122.jsonl` (all 457 paragraphs
+  match LIVE-INDEX.txt), and the whole fixed article is one file, `humanize/fix-20261107/whole/FIXED.md` (20,927 words).
+  The BPD splitting video in the post is the right one (pvN8QgGatew), public and allowed in embeds, and plays in the
+  post in the app's browser: where it broke for him is asked in chat. Lessons `docs/lessons/2026-11-22-2224-romance.md`
+  (romance-2026-11-22a to e): marking pages show the whole article (suggestion_review.py 1.12), what doesn't make sense
+  is fixed or named to him, every section is checked by itself (E307, missed on this article), four new ways in the
+  read against his fixes (18 to 21). The fifth page, the whole article with two questions on his own new sentences:
+  [the page](https://claude.ai/artifact/DByVjvbstJ9UmFnSsK2dyc), `review/teach-20261122/REVIEW-T5.md` (four questions:
+  M-14's "they", M-409's "literally diagnosed", "my first wife, Bee" against Ann, "H.D." against "H."). His "other junk
+  like this?": four fresh readers reported 84 passages as bad as the old "Romance Shouldn't Be Adjudicated"; vetted, 11
+  are real and 33 partly, clustered in "Slow & steady" to "Different levels in different domains" and in the closing
+  advice from "Psychedelic Timing" to "Tough Love"; none of those in his own voice is real (`r30/junk/VETTED.md`). The
+  blind test of the lessons (`r30/replay/RESULTS.md`): a fresh writer with them fixed 5 of 14 of his paragraphs his way,
+  half-fixed 5, missed 4 (lists of three kept, vague questions kept, details added), so the brief got three more lines
+  (lesson romance-2026-11-22f). Pangram: Claude in Chrome wasn't connected and the app's browser pane is signed out of
+  Pangram, so none of his 75 links could be read and no check ran (asked in chat).
+
 ## Next step
 
-His answers on the Medium page. With them: each of his versions into the fixed version and checked in its section (the
-"traditonal" typo fixed either way); then the drafts re-pasted with every change since r27 and their secret links made,
-for his last whole-article check. Then his post is updated with his OK (no email), 366's link to Esther Perel's post
-carried into the editor and the "Updated" date set. Waits on him: the merge of pull request 401, and the Medium page.
+Waits on Pangram access (he signs in to pangram.com in the app's browser pane, or Claude in Chrome is connected): read
+his 75 history links into the ledger (the 14 on his nobodytobe account when he signs in there); check every section by
+itself (E307), about 70, in the web app; fix the 11 real and 33 partly real passages of `r30/junk/VETTED.md` that are
+in model text, sense first (the read against his fixes, ways 1 to 21, on each new version), each fix checked by itself
+and in its section; check the 14 blind rewrites of `r30/replay/` by themselves. His answers on the fifth page (four
+questions) go in as he writes them. Then the drafts re-pasted for his last whole-article check;
+then his post is updated with his OK (no email): 366's link to Esther Perel's post carried into the editor, the reel
+embedded after 149, the typography swap, and the "Updated" date set. Pull request 401's "hold" label (this session's
+own, 2026-11-08) is gone: the workflow merges it.
 
 ### Before 2026-11-07 (the registered master, as recorded then)
 

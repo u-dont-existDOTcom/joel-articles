@@ -122,7 +122,8 @@ that still reads the first way.
    or two overlap ("how much you say, and to whom, and how publicly"; "How dependable are we?" after questions that
    already ask it). He keeps the items that carry the point, gives one a case from life ("why you spend hours playing
    with your cat"), and turns a question into its real options ("Is that a pattern, or just life getting in the way
-   normally?"). His words: "too much of a listicle", "we don't need 3".
+   normally?"). His words: "too much of a listicle", "we don't need 3". A fix that keeps all three items in one sentence
+   still reads this way: the blind test of 2026-11-22 kept three items in three of four lists (lesson romance-2026-11-22f).
 
 20. **A sentence about the text itself that isn't true where it stands.** A summing-up of what the article or the
    section has said so far ("Everything I've been putting forward so far has leaned toward honesty, closeness, and
@@ -135,7 +136,12 @@ that still reads the first way.
    we need a serious talk?"). He says the thing itself: "Non-strategic lying is literally diagnosed as 'pathological
    lying'", "her jealousy wasn't about what I was doing then and there", "Is that, in and of itself, a betrayal, since
    it's not under our control?" (2026-11-22: "sort of vagued and weird, didn't really understand like what was it trying
-   to actuually say"). "Announcing" is one of these words ("another ai tell").
+   to actuually say"). "Announcing" is one of these words ("another ai tell"). A question the reader couldn't answer as
+   asked is this way too: mark it, and say what the real question is.
+
+When the text is a rewrite of another, also mark every detail, reason or line it adds that the text it rewrites and its
+section don't already hold (lesson romance-2026-11-22f: a blind rewrite added "my month with a bad knee", a month he never
+gave; his rule: "don't confabulate things about my life").
 
 THE DRAFT (what it is for: [one line: what the reader is about to do with it]):
 [the text, one sentence a line, numbered S1, S2, ...]
