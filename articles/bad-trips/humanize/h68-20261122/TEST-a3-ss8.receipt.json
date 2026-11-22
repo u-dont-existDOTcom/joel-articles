@@ -1,0 +1,187 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-22",
+ "text_sha256": "23c58cd4474120ba3ca7893cb3adeb25b700e86811cc4297384f73fcaab1e98b",
+ "text": "While you wait, you might think of this guide's other remedies, like niacin for ending a trip or DMSO for brain injuries, seizures and chest pain, but I wouldn't use either one here. Niacin is actually unsafe with serotonin syndrome, since at the doses used to end a trip it can cause flushing, dizziness and low blood pressure (NIH). I'd also leave out this guide's Syrian rue oil for now: made at home it has almost none of the harmala alkaloids, but I couldn't find any research on it with MDMA, so it could help or harm here. Magnesium chloride is the one I would consider, since many people with serotonin syndrome run low on magnesium (a nursing review). If they're fully alert and able to swallow, I'd give it by mouth, especially with MDMA-related jaw tension or muscle activity (the amounts are in MDMA: Magnesium Alarm, above). Topical magnesium chloride if they're not able to swallow.",
+ "section": "Act Now on SS",
+ "reader": "the friend of someone who shows signs of serotonin syndrome (MDMA on top of an antidepressant: twitching muscles, sweating, a racing heart), who has just read 'So if you see any of these patterns, call medics.' and now does these steps while help comes",
+ "sentences": [
+  {
+   "s": "While you wait, you might think of this guide's other remedies, like niacin for ending a trip or DMSO for brain injuries, seizures and chest pain, but I wouldn't use either one here.",
+   "payoff": "they leave niacin and DMSO out, knowing why those come up here",
+   "follows": "the remedies they may reach for while they wait"
+  },
+  {
+   "s": "Niacin is actually unsafe with serotonin syndrome, since at the doses used to end a trip it can cause flushing, dizziness and low blood pressure (NIH).",
+   "payoff": "they know niacin is unsafe here and what it would do to their friend",
+   "follows": "why not niacin, the one just named",
+   "link": "Niacin"
+  },
+  {
+   "s": "I'd also leave out this guide's Syrian rue oil for now: made at home it has almost none of the harmala alkaloids, but I couldn't find any research on it with MDMA, so it could help or harm here.",
+   "payoff": "they leave out the Syrian rue oil too, knowing it is different from the brews of step 1 but unstudied with MDMA",
+   "follows": "the other remedy of this guide they may reach for",
+   "link": "also"
+  },
+  {
+   "s": "Magnesium chloride is the one I would consider, since many people with serotonin syndrome run low on magnesium (a nursing review).",
+   "payoff": "they know magnesium is the remedy he would consider here, and why",
+   "follows": "the remedy that fits, after the ones to leave out",
+   "link": "Magnesium chloride is the one"
+  },
+  {
+   "s": "If they're fully alert and able to swallow, I'd give it by mouth, especially with MDMA-related jaw tension or muscle activity (the amounts are in MDMA: Magnesium Alarm, above).",
+   "payoff": "they give it by mouth when their friend can swallow, and know where the amounts are",
+   "follows": "how to give it",
+   "link": "If they're fully alert"
+  },
+  {
+   "s": "Topical magnesium chloride if they're not able to swallow.",
+   "his": true
+  }
+ ],
+ "checked": [
+  {
+   "point": "niacin at trip-ending doses can cause flushing, dizziness and low blood pressure",
+   "found": "NIH Office of Dietary Supplements, Niacin fact sheet for consumers (ods.od.nih.gov/factsheets/Niacin-Consumer/): 30 mg or more of nicotinic acid can cause flushing and dizziness; doses of 1,000 mg a day or more can cause low blood pressure",
+   "still_needed": "yes: they leave niacin out, knowing what it would do",
+   "fate": "kept"
+  },
+  {
+   "point": "many people with serotonin syndrome run low on magnesium",
+   "found": "Horn, Jordan, Davis and Thompson, \"Serotonin syndrome: When medications don't mix\", Nursing Made Incredibly Easy 2013 (doi.org/10.1097/01.NME.0000432871.59839.f3), which he sent: \"many patients with serotonin syndrome are prone to episodes of hypomagnesemia\"",
+   "still_needed": "yes: they see why magnesium, of all the remedies, is the one to consider",
+   "fate": "kept"
+  }
+ ],
+ "placement": "step 8 of the eight steps under \"Act Now on SS\" (B136), the last, with his line on topical magnesium at its end; a proposal on round 50, since it frames his answers in my words",
+ "opens": {
+  "first_sentence": "While you wait, you might think of this guide's other remedies, like niacin for ending a trip or DMSO for brain injuries, seizures and chest pain, but I wouldn't use either one here.",
+  "why_reading": "it tells the friend which of this guide's remedies to leave out while they wait, and the one he would consider"
+ },
+ "same_point": "none: read the section from its heading to the next (Serotonin Syndrome (SS)?, How to Check for SS, Act Now on SS); this guide's remedies are named only here in the steps",
+ "needed": {
+  "reader": "a fresh agent (Sonnet) given tools/humanization/needed_read_brief.md with the whole list, his versions and my two additions, its heading, the line before it and what it is for (reads/need-a2-ss-steps.txt; the round before: reads/need-a1-ss-steps.txt)",
+  "unneeded": [
+   "Niacin is actually unsafe with serotonin syndrome, since at the doses used to end a trip it can cause flushing, dizziness and low blood pressure (NIH).",
+   "If they still show the signs of low electrolytes from MDMA:",
+   "Magnesium Alarm above, they may need a hypertonic electrolyte drink with more magnesium and potassium than a normal one, which can be as simple as a normal one with a bit of extra salt, potassium and magnesium thrown in, or a salty potato soup with some Epsom salt."
+  ],
+  "kept": {
+   "Niacin is actually unsafe with serotonin syndrome, since at the doses used to end a trip it can cause flushing, dizziness and low blood pressure (NIH).": "they leave niacin out even though this guide praises it, because they now know what it would do to their friend; readers asked why in every round, and his SS-ASKED answer (c) gives the reason"
+  }
+ },
+ "his_fixes": {
+  "reader": "a fresh agent (Sonnet) given tools/humanization/his_fixes_brief.md, its seventeen ways, with the whole list one sentence a line (reads/his-a2-ss-steps.txt; the round before: reads/his-a1-ss-steps.txt)",
+  "marked": [
+   {
+    "s": "Most people won't have it at home anyway, since in the US it needs a prescription (a telehealth doctor might write one quickly), and only some countries sell it without one.",
+    "difference": "1, 7"
+   },
+   {
+    "s": "If they still show the signs of low electrolytes from MDMA:",
+    "difference": "1, 4, 17"
+   },
+   {
+    "s": "Magnesium Alarm above, they may need a hypertonic electrolyte drink with more magnesium and potassium than a normal one, which can be as simple as a normal one with a bit of extra salt, potassium and magnesium thrown in, or a salty potato soup with some Epsom salt.",
+    "difference": "1, 4, 17"
+   },
+   {
+    "s": "While you wait, you might think of this guide's other remedies, like niacin for ending a trip or DMSO for brain injuries, seizures and chest pain, but I wouldn't use either one here.",
+    "difference": "14"
+   },
+   {
+    "s": "I'd also leave out this guide's Syrian rue oil for now: made at home it has almost none of the harmala alkaloids and might even help, but I couldn't find any research on it with MDMA.",
+    "difference": "1, 9, 10, 17"
+   },
+   {
+    "s": "Magnesium chloride is the one I would consider, since many people with serotonin syndrome run low on magnesium (a nursing review).",
+    "difference": "7"
+   },
+   {
+    "s": "If they're fully alert and able to swallow, I'd give it by mouth, especially with MDMA-related jaw tension or muscle activity (the amounts are in MDMA:",
+    "difference": "4, 7"
+   },
+   {
+    "s": "Magnesium Alarm, above).",
+    "difference": "4, 7"
+   },
+   {
+    "s": "Topical magnesium chloride if they're not able to swallow.",
+    "difference": "15, 16"
+   }
+  ],
+  "kept": {
+   "While you wait, you might think of this guide's other remedies, like niacin for ending a trip or DMSO for brain injuries, seizures and chest pain, but I wouldn't use either one here.": "it read Human High by itself as part of step 8 (6f055cb9); DMSO's reason is a question to him on round 50 (I don't have one)",
+   "Magnesium chloride is the one I would consider, since many people with serotonin syndrome run low on magnesium (a nursing review).": "the finding is the reason he gave (his SS-ASKED answer d, with the nursing review he sent), and the sentence opens on its payoff, the remedy to consider",
+   "If they're fully alert and able to swallow, I'd give it by mouth, especially with MDMA-related jaw tension or muscle activity (the amounts are in MDMA:": "his remedy and its condition; the amounts and the kidney caution are in his MDMA: Magnesium Alarm section, linked",
+   "Magnesium Alarm, above).": "his remedy and its condition; the amounts and the kidney caution are in his MDMA: Magnesium Alarm section, linked",
+   "Topical magnesium chloride if they're not able to swallow.": "his own words: his own: his line on topical magnesium chloride, added in his round-49 revision of step 8 (card SS-STEP8), kept as he wrote them"
+  }
+ },
+ "fit": {
+  "reader": "a fresh agent (Sonnet) given tools/humanization/fit_read_brief.md, the universal version, with the whole list (reads/fit-a2-ss-steps.txt; the round before: reads/fit-a1-ss-steps.txt)",
+  "marked": [
+   {
+    "s": "It doesn't matter if they are prescribed an antidepressant (an SSRI like Prozac, or an SNRI or MAOI), it's too risky right now.",
+    "found": "MISREAD"
+   },
+   {
+    "s": "If they still show the signs of low electrolytes from MDMA:",
+    "found": "CAN'T TELL, FROM"
+   },
+   {
+    "s": "Magnesium Alarm above, they may need a hypertonic electrolyte drink with more magnesium and potassium than a normal one, which can be as simple as a normal one with a bit of extra salt, potassium and magnesium thrown in, or a salty potato soup with some Epsom salt.",
+    "found": "CAN'T TELL, FROM, MISREAD"
+   },
+   {
+    "s": "Keep track of how their breathing is doing, as that's one of the main indicators of how dangerous the seizure is, according to the CDC.",
+    "found": "CAN'T TELL, FROM, MISREAD"
+   },
+   {
+    "s": "I'd also leave out this guide's Syrian rue oil for now: made at home it has almost none of the harmala alkaloids and might even help, but I couldn't find any research on it with MDMA.",
+    "found": "MISREAD"
+   },
+   {
+    "s": "If they're fully alert and able to swallow, I'd give it by mouth, especially with MDMA-related jaw tension or muscle activity (the amounts are in MDMA:",
+    "found": "CAN'T TELL, FROM"
+   },
+   {
+    "s": "Magnesium Alarm, above).",
+    "found": "CAN'T TELL, FROM"
+   },
+   {
+    "s": "Topical magnesium chloride if they're not able to swallow.",
+    "found": "CAN'T TELL, MISREAD"
+   }
+  ],
+  "kept": {
+   "If they're fully alert and able to swallow, I'd give it by mouth, especially with MDMA-related jaw tension or muscle activity (the amounts are in MDMA:": "the amounts stay in his MDMA: Magnesium Alarm section, linked; repeating his dosing here would repeat the guide, which he said not to do (\"make sure we are not repeating the same stuff\")",
+   "Magnesium Alarm, above).": "the amounts stay in his MDMA: Magnesium Alarm section, linked; repeating his dosing here would repeat the guide, which he said not to do (\"make sure we are not repeating the same stuff\")",
+   "Topical magnesium chloride if they're not able to swallow.": "his own words: his own: his line on topical magnesium chloride, added in his round-49 revision of step 8 (card SS-STEP8), kept as he wrote them"
+  }
+ },
+ "questions": {
+  "Q1": "PASS: each sentence opens on why it is there: what they may reach for, the reason, the remedy that fits",
+  "Q2": "PASS: every instruction is something the friend does or leaves out, with why",
+  "Q3": "PASS: which remedies, which oil, which form of magnesium, where the amounts are",
+  "Q4": "PASS: the remedies are this guide's own, named by what the guide uses them for; harmala explained in step 1",
+  "Q5": "PASS: each sentence ties to the one before at its start (\"And\", \"Niacin\", \"also\", \"Magnesium chloride is the one\")",
+  "Q6": "PASS: what to leave out, then what to consider, then how",
+  "Q7": "PASS: every fact is one a reader asked about, answered from his answers",
+  "Q8": "PASS: the remedies to leave out together, then magnesium",
+  "Q9": "PASS: one point a sentence, his payoff first"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ },
+ "his_whose": "his own: his line on topical magnesium chloride, added in his round-49 revision of step 8 (card SS-STEP8)"
+}
