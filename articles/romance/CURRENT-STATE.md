@@ -169,8 +169,9 @@ in model text, sense first (the read against his fixes, ways 1 to 21, on each ne
 and in its section; check the 14 blind rewrites of `r30/replay/` by themselves. His answers on the fifth page (four
 questions) go in as he writes them. Then the drafts re-pasted for his last whole-article check;
 then his post is updated with his OK (no email): 366's link to Esther Perel's post carried into the editor, the reel
-embedded after 149, the typography swap, and the "Updated" date set. Pull request 401's "hold" label (this session's
-own, 2026-11-08) is gone: the workflow merges it.
+embedded after 149, the typography swap, and the "Updated" date set. Pull request 401 keeps its "hold" label: this
+session's auto mode refused a push that would let the workflow merge its shared rules and tools into main, so it waits
+for his merge click (the lessons, the whole-page rule and suggestion_review.py 1.12 reach other lanes when it merges).
 
 ### Before 2026-11-07 (the registered master, as recorded then)
 
