@@ -1,6 +1,6 @@
 # The fixed version: every changed paragraph
 
-The live post ("Romance Advice I Wish My Parents Taught Me") with each section's and spot's best tested text in place (`assemble.py`, `build.py`), and his own versions from his answers over them (`../r30/HIS-T4.json`, his Medium page of 2026-11-22). Paragraph numbers are the post page's paragraph list (`LIVE-INDEX.txt`). "Two Pillars" 332 is his own new version (it was the owner lock). 128 changes, 155 live paragraphs changed.
+The live post ("Romance Advice I Wish My Parents Taught Me") with each section's and spot's best tested text in place (`assemble.py`, `build.py`), and his own versions from his answers over them (`../r30/HIS-T4.json`, his Medium page of 2026-11-22). Paragraph numbers are the post page's paragraph list (`LIVE-INDEX.txt`). "Two Pillars" 332 is his own new version (it was the owner lock). 129 changes, 155 live paragraphs changed.
 
 ## 1. S1 (live 28)
 
@@ -1650,4 +1650,16 @@ Read by his answer his word back in 440 (HIS-T6.json): [result](https://www.pang
 **New:**
 
 > Spiritual practice during an ending is critical, but don’t use it to get around the feelings. Pray for your ex’s wellbeing. Remember what was real and good, and don’t use your pain as permission to hate them. Avoid the New Age belief that everyone is simply a mirror of you. Of course, we do partly mirror one another, but each person was formed by plenty that had nothing to do with you. No matter how enlightened the Buddha was, his cousin Devadatta still kept trying to kill him: looking honestly at your part doesn’t erase theirs. Sometimes it helps to ask, “What would Mr. Rogers do?” (if you’re old enough to remember that show).
+
+## 129. Tough Love (live 455)
+
+Read by my tested change R36-455 (MINE-R36.json): [result](https://www.pangram.com/history/7d938af3-9db2-4af5-aab9-78d28ea6e517).
+
+**Live:**
+
+> Bear, sex can be what you do when you’re older and find a friend you love in a super special way that makes you want to raise children together. Don’t imagine you love each other just because you want each other. Don’t feel pressure to promise what your heart will feel. Let the love and bond it produces blossom honestly as your hearts sync. Learn about each other before getting too close, and make sure to keep friends and community around who know both of you.
+
+**New:**
+
+> Bear, sex can be what you do when you’re older and find a friend you love in a super special way that makes you want to raise children together. Don’t imagine you love each other just because you want each other. Don’t feel pressure to promise what your heart will feel. Let the love and bond it produces blossom genuinely as your hearts sync. Learn about each other before getting too close, and make sure to keep friends and community around who know both of you.
 

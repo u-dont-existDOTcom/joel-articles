@@ -615,3 +615,7 @@ I do believe two people can choose sexual exclusivity honestly. They can admit t
 ## 128. After leaving (live 440)
 
 Spiritual practice during an ending is critical, but don’t use it to get around the feelings. Pray for your ex’s wellbeing. Remember what was real and good, and don’t use your pain as permission to hate them. Avoid the New Age belief that everyone is simply a mirror of you. Of course, we do partly mirror one another, but each person was formed by plenty that had nothing to do with you. No matter how enlightened the Buddha was, his cousin Devadatta still kept trying to kill him: looking honestly at your part doesn’t erase theirs. Sometimes it helps to ask, “What would Mr. Rogers do?” (if you’re old enough to remember that show).
+
+## 129. Tough Love (live 455)
+
+Bear, sex can be what you do when you’re older and find a friend you love in a super special way that makes you want to raise children together. Don’t imagine you love each other just because you want each other. Don’t feel pressure to promise what your heart will feel. Let the love and bond it produces blossom genuinely as your hearts sync. Learn about each other before getting too close, and make sure to keep friends and community around who know both of you.
