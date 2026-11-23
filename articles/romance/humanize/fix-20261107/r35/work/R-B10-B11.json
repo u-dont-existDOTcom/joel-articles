@@ -1,0 +1,107 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-23",
+ "text_sha256": "19490af133e3a201df5e5ddee31c9917938cccfd063639492034dc664f532d8f",
+ "text": "Most people fail this test: what would I want if she herself thought she’d be happier with somebody else? The first reaction is horror, but if they can get past it, wanting her and wanting her to be happy stop fighting each other. Being wanted is part of what makes me want someone, so if she’d be happier with somebody else, I’d want her less anyway.\n\nI still have to go through that horror, because I can’t wait until I know I’m wanted before I let her know I want her, and if we both do that, nothing gets started. Once we’re together I still can’t wait to be sure I’m wanted. If I start feeling less wanted, I may pull back, and she feels me pulling back and starts feeling less wanted herself, so she pulls back too.",
+ "section": "What we mean by “love” ❤️",
+ "reader": "someone reading an essay on romance for advice they can use in their own dating and relationships",
+ "sentences": [
+  {
+   "s": "Most people fail this test: what would I want if she herself thought she’d be happier with somebody else?",
+   "payoff": "they ask themselves the test question and see why most people fail it.",
+   "follows": "it opens the text with the test, which 'this test' says the paragraph before introduced.",
+   "link": "Most people fail this test"
+  },
+  {
+   "s": "The first reaction is horror, but if they can get past it, wanting her and wanting her to be happy stop fighting each other.",
+   "payoff": "they expect horror as the normal first reaction and know it can be got past.",
+   "follows": "it gives the reaction to the question just asked.",
+   "link": "The first reaction is horror"
+  },
+  {
+   "s": "Being wanted is part of what makes me want someone, so if she’d be happier with somebody else, I’d want her less anyway.",
+   "payoff": "they see that wanting her and wanting her happy stop fighting because being wanted is part of their own wanting.",
+   "follows": "it says why the two stop fighting once past the horror.",
+   "link": "Being wanted is part of"
+  },
+  {
+   "s": "I still have to go through that horror, because I can’t wait until I know I’m wanted before I let her know I want her, and if we both do that, nothing gets started.",
+   "payoff": "they go through the horror and show they want someone before they know they are wanted back.",
+   "follows": "it turns from the test to the problem of acting, and 'that horror' points at S2.",
+   "link": "I still have to go through"
+  },
+  {
+   "s": "Once we’re together I still can’t wait to be sure I’m wanted.",
+   "payoff": "they understand the same waiting trap goes on after the relationship has started.",
+   "follows": "it carries S4 from getting started to being together.",
+   "link": "Once we’re together I still"
+  },
+  {
+   "s": "If I start feeling less wanted, I may pull back, and she feels me pulling back and starts feeling less wanted herself, so she pulls back too.",
+   "payoff": "they can spot the pulling-back loop in their own relationship.",
+   "follows": "it shows what waiting to be sure does once two people are together.",
+   "link": "If I start feeling less wanted"
+  }
+ ],
+ "checked": [],
+ "placement": "It sits mid-section after a paragraph that sets up the test ('this test'), so S1 depends on that paragraph; from there it follows in order from test to horror to why to acting to the loop.",
+ "opens": {
+  "first_sentence": "Most people fail this test: what would I want if she herself thought she’d be happier with somebody else?",
+  "why_reading": "It tells this reader that a test of their own love exists and that most people fail it, which makes them want the answer."
+ },
+ "same_point": "none: read the section from its heading to the next for this passage's point; no other paragraph of it makes it",
+ "needed": {
+  "reader": "a fresh Sonnet reader given tools/humanization/needed_read_brief.md and the text with its heading",
+  "unneeded": [],
+  "kept": {}
+ },
+ "his_fixes": {
+  "reader": "the same fresh reader given tools/humanization/his_fixes_brief.md and the text one sentence a line",
+  "marked": [
+   {
+    "s": "Most people fail this test: what would I want if she herself thought she’d be happier with somebody else?",
+    "difference": "way 10: 'this test' depends on the paragraph before and a quick reader may not know which test."
+   },
+   {
+    "s": "I still have to go through that horror, because I can’t wait until I know I’m wanted before I let her know I want her, and if we both do that, nothing gets started.",
+    "difference": "way 1: three ideas in one sentence; his way gives the waiting, the mutual stalemate and the horror each a clause."
+   },
+   {
+    "s": "Once we’re together I still can’t wait to be sure I’m wanted.",
+    "difference": "way 10: 'to be sure' could mean sure she wants me or sure of the relationship; say sure I'm wanted."
+   }
+  ],
+  "kept": {
+   "Most people fail this test: what would I want if she herself thought she’d be happier with somebody else?": "a reader's call on the fix, kept: the passage now says what it means in its place, which is what the vetted problem asked; the card shows it to him",
+   "I still have to go through that horror, because I can’t wait until I know I’m wanted before I let her know I want her, and if we both do that, nothing gets started.": "a reader's call on the fix, kept: the passage now says what it means in its place, which is what the vetted problem asked; the card shows it to him",
+   "Once we’re together I still can’t wait to be sure I’m wanted.": "a reader's call on the fix, kept: the passage now says what it means in its place, which is what the vetted problem asked; the card shows it to him"
+  }
+ },
+ "fit": {
+  "reader": "the same fresh reader given tools/humanization/fit_read_brief.md and the text one line a line",
+  "marked": [],
+  "kept": {}
+ },
+ "questions": {
+  "Q1": "PASS: S1 opens on the test the reader is about to take; 'this test' depends on the paragraph before.",
+  "Q2": "N/A: no instructions, only a described test and a loop.",
+  "Q3": "PASS: 'that horror' and 'pull back' name the specific reaction and act.",
+  "Q4": "PASS: 'that horror' in S4 points at S2 and 'wanted' is explained in S3.",
+  "Q5": "PASS: S3 'so', S4 'because' and S6 'and' each carry their claim; S5 'still' ties to S4.",
+  "Q6": "PASS: test, reaction, reason, act, same trap later, loop.",
+  "Q7": "PASS: each sentence helps a reader deciding whether to show interest or pull back.",
+  "Q8": "N/A: nothing is sorted into groups.",
+  "Q9": "PASS: S4 and S6 each hold a chain but every step has its small words ('because', 'so')."
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

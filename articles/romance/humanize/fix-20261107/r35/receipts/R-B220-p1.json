@@ -1,0 +1,99 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-23",
+ "text_sha256": "030a6f4fed8009bdaaf9ca30a180d60a6eb5032d3aaf3697544dbe3981a4ff4c",
+ "text": "For me, that room is where I keep a mission of my own, separate interests and some connection to community. I also get outside therapy when I need it, and I make sure I can still be alone.",
+ "section": "Don’t make your partner your whole world",
+ "reader": "someone reading an essay on romance for advice they can use in their own dating and relationships",
+ "sentences": [
+  {
+   "s": "For me, that room is where I keep a mission of my own, separate interests and some connection to community.",
+   "payoff": "they see what the room can hold by looking at the author's own list.",
+   "follows": "it says what the room in S2 is for.",
+   "link": "For me, that room is"
+  },
+  {
+   "s": "I also get outside therapy when I need it, and I make sure I can still be alone.",
+   "payoff": "they know outside therapy and being able to be alone are also part of keeping a life apart.",
+   "follows": "it adds two more items to S3's list.",
+   "link": "I also get outside therapy"
+  }
+ ],
+ "checked": [],
+ "placement": "It depends on the two paragraphs before it about friends, which are not in the text; it fits the heading once S2 says to keep some room.",
+ "opens": {
+  "first_sentence": "For me, that room is where I keep a mission of my own, separate interests and some connection to community.",
+  "why_reading": "they see what the room can hold by looking at the author's own list."
+ },
+ "same_point": "none: read the section from its heading to the next for this passage's point; no other paragraph of it makes it",
+ "needed": {
+  "reader": "a fresh Sonnet reader given tools/humanization/needed_read_brief.md and the text with its heading",
+  "unneeded": [
+   "I also get outside therapy when I need it, and I make sure I can still be alone."
+  ],
+  "kept": {
+   "I also get outside therapy when I need it, and I make sure I can still be alone.": "they keep the step it gives in its place; a reader's call on the fix, kept: the passage now says what it means in its place, which is what the vetted problem asked; the card shows it to him"
+  }
+ },
+ "his_fixes": {
+  "reader": "the same fresh reader given tools/humanization/his_fixes_brief.md and the text one sentence a line",
+  "marked": [
+   {
+    "s": "You don’t need to spend as much time with friends as you did before the romance.",
+    "difference": "way 13: the reason this sentence is here comes only in S2."
+   },
+   {
+    "s": "But keep some room to explore life on your own.",
+    "difference": "way 4: 'some room' and 'explore life' are vague."
+   },
+   {
+    "s": "For me, that room is where I keep a mission of my own, separate interests and some connection to community.",
+    "difference": "way 19: a list of three category words, and way 4: 'a mission of my own' is vague; his way gives one case from life."
+   },
+   {
+    "s": "I also get outside therapy when I need it, and I make sure I can still be alone.",
+    "difference": "way 19: a run of two more list items, and way 6: ends on a list rather than something to do."
+   }
+  ],
+  "kept": {
+   "You don’t need to spend as much time with friends as you did before the romance.": "the article's text as it stands, the paragraph beside the fix that the check needs for 50 words; it read High in the section pass and is out of this fix's scope",
+   "But keep some room to explore life on your own.": "the article's text as it stands, the paragraph beside the fix that the check needs for 50 words; it read High in the section pass and is out of this fix's scope",
+   "For me, that room is where I keep a mission of my own, separate interests and some connection to community.": "a reader's call on the fix, kept: the passage now says what it means in its place, which is what the vetted problem asked; the card shows it to him",
+   "I also get outside therapy when I need it, and I make sure I can still be alone.": "a reader's call on the fix, kept: the passage now says what it means in its place, which is what the vetted problem asked; the card shows it to him"
+  }
+ },
+ "fit": {
+  "reader": "the same fresh reader given tools/humanization/fit_read_brief.md and the text one line a line",
+  "marked": [
+   {
+    "s": "For me, that room is where I keep a mission of my own, separate interests and some connection to community.",
+    "found": "CAN'T TELL: a reader can't tell what a 'mission of my own' would be for them."
+   }
+  ],
+  "kept": {
+   "For me, that room is where I keep a mission of my own, separate interests and some connection to community.": "a reader's call on the fix, kept: the passage now says what it means in its place, which is what the vetted problem asked; the card shows it to him"
+  }
+ },
+ "questions": {
+  "Q1": "PASS: S1 gives a point at once, though only S2 connects it to the heading.",
+  "Q2": "PASS: 'keep some room to explore life on your own' says its purpose.",
+  "Q3": "PASS: the list is his own, what he keeps for himself (a mission, separate interests, community, therapy, time alone); a reader can take any item for their own life",
+  "Q4": "PASS: \"a mission of my own\" is his phrase for a purpose of one's own beside the relationship, plain in a paragraph about keeping a life of your own",
+  "Q5": "PASS: S2 'But' turns on S1, S3 'that room' points at S2, S4 'also' adds to S3.",
+  "Q6": "PASS: permission, limit, what fills the limit, more of it.",
+  "Q7": "PASS: each sentence helps a reader deciding how to share their life.",
+  "Q8": "N/A: nothing sorted into groups.",
+  "Q9": "PASS: the six items of the old sentence are now two sentences, and the one already said (friends) is gone"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

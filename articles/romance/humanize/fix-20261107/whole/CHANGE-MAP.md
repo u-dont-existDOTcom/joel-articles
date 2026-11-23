@@ -1,6 +1,6 @@
 # The fixed version: every changed paragraph
 
-The live post ("Romance Advice I Wish My Parents Taught Me") with each section's and spot's best tested text in place (`assemble.py`, `build.py`), and his own versions from his answers over them (`../r30/HIS-T4.json`, his Medium page of 2026-11-22). Paragraph numbers are the post page's paragraph list (`LIVE-INDEX.txt`). "Two Pillars" 332 is his own new version (it was the owner lock). 115 changes, 146 live paragraphs changed.
+The live post ("Romance Advice I Wish My Parents Taught Me") with each section's and spot's best tested text in place (`assemble.py`, `build.py`), and his own versions from his answers over them (`../r30/HIS-T4.json`, his Medium page of 2026-11-22). Paragraph numbers are the post page's paragraph list (`LIVE-INDEX.txt`). "Two Pillars" 332 is his own new version (it was the owner lock). 116 changes, 147 live paragraphs changed.
 
 ## 1. S1 (live 28)
 
@@ -1495,4 +1495,16 @@ Read by my tested change R34-455 (MINE-R34.json): [result](https://www.pangram.c
 **New:**
 
 > Bear, sex can be what you do when you’re older and find a friend you love in a super special way that makes you want to raise children together. Don’t imagine you love each other just because you want each other. Don’t feel pressure to promise what your heart will feel. Let the love and bond it produces blossom in its own time as your hearts sync. Learn about each other before getting too close, and make sure to keep friends and community around who know both of you.
+
+## 116. What I gained from loss (live 447)
+
+Read by my tested change R35-B473 (MINE-R35.json): [result](https://www.pangram.com/history/94c7ee64-1b37-41ff-adc3-28cf7f748057).
+
+**Live:**
+
+> Too many people judge a relationship only by the result, so start measuring what you actually learned from it instead. Relationships are a process of growth in many dimensions. The result is not only whether you stayed together.
+
+**New:**
+
+> Too many people judge a relationship only by whether they stayed together. Relationships are a process of growth in many dimensions, so start measuring what you actually learned from yours.
 

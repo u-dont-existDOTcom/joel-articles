@@ -1,0 +1,83 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-23",
+ "text_sha256": "d10714463745044e3fbb62e722e5fe88f2c1f9a2836023504b0deeb87e9db775",
+ "text": "Before you think about how to leave, settle whether you’re leaving, and whether counseling is worth trying first.",
+ "section": "Ending consciously",
+ "reader": "someone reading an essay on romance for advice they can use in their own dating and relationships",
+ "sentences": [
+  {
+   "s": "Before you think about how to leave, settle whether you’re leaving, and whether counseling is worth trying first.",
+   "payoff": "they settle whether they are leaving, and whether to try counseling, before they plan how.",
+   "follows": "it opens the section 'Ending consciously' with the order of decisions.",
+   "link": "Before you think about how"
+  }
+ ],
+ "checked": [],
+ "placement": "It makes sense where it stands: the first paragraph under the heading, with the decision first and the reasons next.",
+ "opens": {
+  "first_sentence": "Before you think about how to leave, settle whether you’re leaving, and whether counseling is worth trying first.",
+  "why_reading": "It tells the reader to decide whether to leave before planning how, which is the section's order."
+ },
+ "same_point": "S4 repeats S3, that if you no longer want the relationship counseling can't help, and S2 says the same from the duty side.",
+ "needed": {
+  "reader": "a fresh Sonnet reader given tools/humanization/needed_read_brief.md and the text with its heading",
+  "unneeded": [
+   "No amount of counseling will fix something that has nothing at the base of it."
+  ],
+  "kept": {
+   "No amount of counseling will fix something that has nothing at the base of it.": "they keep the step it gives in its place; the article's text as it stands, the paragraph beside the fix that the check needs for 50 words; it read High in the section pass and is out of this fix's scope"
+  }
+ },
+ "his_fixes": {
+  "reader": "the same fresh reader given tools/humanization/his_fixes_brief.md and the text one sentence a line",
+  "marked": [
+   {
+    "s": "You don’t owe it to them to try counseling unless you also owe it to yourself.",
+    "difference": "way 3: a 'don't... unless' contrast, and way 10: 'them' and 'it' could mean other things."
+   },
+   {
+    "s": "No amount of counseling will fix something that has nothing at the base of it.",
+    "difference": "way 6: ends on a line that sounds wise, way 16: says S3 again, and way 21: 'nothing at the base of it' is abstract; his way says it is love that is missing."
+   }
+  ],
+  "kept": {
+   "You don’t owe it to them to try counseling unless you also owe it to yourself.": "the article's text as it stands, the paragraph beside the fix that the check needs for 50 words; it read High in the section pass and is out of this fix's scope",
+   "No amount of counseling will fix something that has nothing at the base of it.": "the article's text as it stands, the paragraph beside the fix that the check needs for 50 words; it read High in the section pass and is out of this fix's scope"
+  }
+ },
+ "fit": {
+  "reader": "the same fresh reader given tools/humanization/fit_read_brief.md and the text one line a line",
+  "marked": [
+   {
+    "s": "No amount of counseling will fix something that has nothing at the base of it.",
+    "found": "MISREAD: read quickly it may discourage counseling for everyone, and the reader can't tell what 'nothing at the base' is."
+   }
+  ],
+  "kept": {
+   "No amount of counseling will fix something that has nothing at the base of it.": "the article's text as it stands, the paragraph beside the fix that the check needs for 50 words; it read High in the section pass and is out of this fix's scope"
+  }
+ },
+ "questions": {
+  "Q1": "PASS: S1 opens on the decision the reader faces.",
+  "Q2": "PASS: 'settle whether' and 'go' say their purpose, to decide before acting.",
+  "Q3": "PASS: 'counseling' and 'leaving' are specific.",
+  "Q4": "N/A: \"nothing at the base of it\" is in the paragraph after the fix, his text, unchanged and out of this fix's scope",
+  "Q5": "PASS: S2 follows S1's counseling, S3 answers the whether, S4 gives the reason.",
+  "Q6": "PASS: decision, duty, condition, reason.",
+  "Q7": "PASS: each sentence helps a reader deciding to leave.",
+  "Q8": "N/A: nothing sorted into groups.",
+  "Q9": "PASS: one step a sentence."
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}
