@@ -1580,6 +1580,15 @@ def main():
                      'saying DMSO 3x in a row"): say "it" where the reader can\'t lose the thread' % sorted(same76)[0],
                      ' / '.join(ss[i76:i76 + 3]))
                 break
+        # O78 (Joel, 2026-11-23 19:13 UTC, on my step 7 of the serotonin steps: "i also wouldn't start 2 sentences in a row
+        # with And (s4+s5)"; lesson bad-trips-2026-11-23d). Two sentences in a row that open on "And", one of them mine: his
+        # versions keep the "And" where the tie is ("And tell medics how much you gave.") and tie the other another way.
+        for i78 in range(len(nss) - 1):
+            if all(re.match(r"\W*And\b", nss[k]) for k in (i78, i78 + 1)) and any(mine_s[i78:i78 + 2]):
+                flag('FAIL', 'O78 two sentences in a row open on "And" (Joel 2026-11-23: "i also wouldn\'t start 2 sentences in a '
+                     'row with And"): keep the "And" where the tie is and tie the other sentence another way ("Then", "So", '
+                     'or what it follows from)', ' / '.join(ss[i78:i78 + 2]))
+                break
         if len(para69) >= 2:
             flag('FAIL', 'O69 two correction or contrast frames in one paragraph of mine (none of his 112 versions has two; Joel '
                  '2026-11-12: ""x but not y" and so forth"): keep at most the one that answers a worry the reader really has',

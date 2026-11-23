@@ -239,6 +239,123 @@
      "mine": "not sure",
      "why": "\"But\" ties it, and each act follows from the wearing off, but two acts in one sentence, the second with its own condition"
     }
+   ],
+   "his": {
+    "1": "right",
+    "2": "right",
+    "3": "right",
+    "4": "wrong",
+    "5": "wrong",
+    "6": "right",
+    "7": "right",
+    "8": "wrong",
+    "9": "right"
+   },
+   "missed": [
+    5,
+    8
+   ],
+   "his_notes": {
+    "1": "right: \"yes it does sound ai, and yes it is a bit unclear also like you said why just start there and then what?\"; and \"don't put space between the number and the unit i told you that before\" (the linter's O67 has had it since 2026-11-04; my quiz lines never went through the linter)",
+    "2": "right (\"ok\"), with \"what about potassium?\"",
+    "3": "right: \"potato broth especially for potassium right? didn't i mention that before? and yeah dosing is important to think about\"",
+    "4": "my doubt (two reasons) wasn't the problem: \"i think it sounds fairly human, that whole para actually passed pangram hum high ... however, it's not clear in s4 about whether potassium would be depleted or increased by mdma, so i'd clarify that\"",
+    "5": "\"i think alone s5 should clarify what you're waiting for (an ambulance), as now it's not clear. i also wouldn't start 2 sentences in a row with And (s4+s5)\"",
+    "7": "right: \"a bit unclear here ... or just remove the narcan reference since there are also other brand names even in US\"",
+    "8": "\"hard to understand what \"one\" at the end refers to ... also this is coming in after what it's referencing ... so when i read it, i'm not sure why you're saying this at first ... i would move the logic back so it's right up front. i keep telling you this all the time\"",
+    "9": "right that something was off, for another reason: \"they wake up is not clear, what are you talking about? ... you didn't say that they'd be asleep or unconscious, you said slow shallow breathing\""
+   },
+   "his_words": "scored in his QUIZ-2 comment of 2026-11-23 18:43 UTC (review/r50/ANSWERS-R50-20261123-1913.json); \"it took many little edits before i got it all to human high on pangram ... i tested after every single change, and all of them were required\" (his checks: review/r50/HIS-CHECKS-R50.md)",
+   "pangram": {
+    "S2 to S4 (step 6)": "by itself: Human High 99 (4cfa0e97)",
+    "S2 to S6 (step 6 with step 7's two lines)": "mixed: S4 AI Low 40, S5 Human Medium 17, S6 Human Low 27 (0c6fc34a); his fixes: Human High 143 (4a7e5382)",
+    "S7 to S9 (naloxone)": "as I had it: AI Generated, AI High 90 (fcb0a12e); his version after 13 checks: Human High 99 (73e392f4)"
+   }
+  },
+  {
+   "id": "QUIZ-3",
+   "round": "r51",
+   "card": "QUIZ-3",
+   "passage": "my new lines on round 51: step 5's tapping, step 6 from your answers, step 8's DMSO and magnesium lines, the sodium lines proposed for MDMA: Magnesium Alarm (humanize/h69-20261123/TEST-a5-ss.txt, DRAFT-sodium.md)",
+   "written": "2026-11-23 19:28 UTC, before any Pangram check of these lines; read once by three fresh readers (needed, against his fixes, fit), their marks answered",
+   "reading": [
+    {
+     "n": 1,
+     "step": "step 5",
+     "s": "But if they feel a strong urge to keep moving (akathisia), I'd have them tap their fingertips on their head instead (the Emotional Freedom Technique), which can soothe that urge without the over-activity risk.",
+     "mine": "not sure",
+     "why": "\"instead\" ties it to the pacing just ruled out, and each term comes after its plain words, but two asides in brackets in one sentence may read like terms dropped in"
+    },
+    {
+     "n": 2,
+     "step": "step 6",
+     "s": "That can be as simple as a salty potato broth with some magnesium chloride flakes stirred in, since potatoes are full of potassium.",
+     "mine": "not sure",
+     "why": "\"That\" ties it and the broth comes first, your idea with its reason, but a reader waiting for an ambulance may not have time to cook potatoes, and \"some\" is still no amount"
+    },
+    {
+     "n": 3,
+     "step": "step 6",
+     "s": "If you don't have the flakes, Epsom salt works too, although it causes diarrhea more easily.",
+     "mine": "reads right",
+     "why": "the tie at the start answers what the reader will ask next, then your trade-off in your words"
+    },
+    {
+     "n": 4,
+     "step": "step 6",
+     "s": "Whatever you give, give it slowly to see how it affects them, since their potassium could be running low or high: MDMA can drain it, but muscles breaking down into the blood can push it up.",
+     "mine": "not sure",
+     "why": "the act comes first, your \"slowly\", and the reason says which way potassium goes, as you asked, but the colon packs both directions after the act"
+    },
+    {
+     "n": 5,
+     "step": "step 6",
+     "s": "So I'd stick to food like the potato broth for potassium, since too much pure potassium is dangerous for anyone.",
+     "mine": "reads right",
+     "why": "\"So\" ties it to the line before, the act first, and the reason is the one you gave"
+    },
+    {
+     "n": 6,
+     "step": "step 8",
+     "s": "DMSO, though, seems to help prevent seizures, so if there's any sign of an overdose, I'd start by having them smell it, or rub a little on a clean patch of skin, mixed with about 30% water if it makes the skin itch.",
+     "mine": "not sure",
+     "why": "\"though\" ties it to niacin and the reason comes first, your order, but the sentence carries a condition and two ways to give it with a third condition on the second"
+    },
+    {
+     "n": 7,
+     "step": "step 8",
+     "s": "Then I'd use more, a little at a time, as long as it seems to help, since seizures have happened when a lot of DMSO went straight into the blood with stem cell infusions.",
+     "mine": "not sure",
+     "why": "\"Then\" ties it, but the reason is a hospital case far from a skin rub, and the reader has to work out why it means going slowly"
+    },
+    {
+     "n": 8,
+     "step": "step 8",
+     "s": "Magnesium chloride is the other one I'd use, since many people with serotonin syndrome run low on magnesium.",
+     "mine": "reads right",
+     "why": "\"the other one\" ties it to DMSO, your line with the one word that changed"
+    },
+    {
+     "n": 9,
+     "step": "step 8",
+     "s": "If they're not able to swallow, I'd rub magnesium chloride on their skin instead, dissolved in a little water, or Epsom salt if that's all you have, though Epsom salt gets through the skin less well.",
+     "mine": "not sure",
+     "why": "the condition is the reader's case and the act comes right after it, but three additions follow the act"
+    },
+    {
+     "n": 10,
+     "step": "MDMA: Magnesium Alarm",
+     "s": "Women are most at risk of this: at one rave, about one in four women who took MDMA had low sodium, against 3% of men.",
+     "mine": "reads right",
+     "why": "\"of this\" ties it to the low sodium just named, the claim first and then the numbers that show it"
+    },
+    {
+     "n": 11,
+     "step": "MDMA: Magnesium Alarm",
+     "s": "To tell whether too much water is the problem, ask whether they've drunk a lot, and look for bloating, puffy hands, or rings that feel tight.",
+     "mine": "not sure",
+     "why": "the purpose opens the sentence, which says why to read on, but it delays the act by eight words"
+    }
    ]
   }
  ]

@@ -1,0 +1,51 @@
+NEEDS:
+S1: nothing (the list number "1."; it only marks where step 1 starts, which the reader needs to follow the order)
+S2: the first act: stop every serotonin-raising substance now
+S3: which common things to withhold (MDMA and stimulants, DXM cough syrup, tramadol, linezolid)
+S4: tells me to hold even a prescribed antidepressant for now (act: don't give the next dose)
+S5: tells me to give no more ayahuasca or Syrian rue (harmala brews)
+S6: tells me to check for supplements (5-HTP, St John's wort, SAM-e) and withhold them
+S7: act: give cyproheptadine early, but only if they are fully alert and can swallow
+S8: how far to trust cyproheptadine (weak evidence); implies don't count on it, and it sets up S9
+S9: act: do the other steps anyway, don't wait on the med
+S10: tells me not to burn time hunting for it; if I can't get it, skip it, and a telehealth doctor may write it quickly
+S11: the dose to give an adult (12mg, then 2mg every 2 hours, max 32mg per 24 hours)
+S12: act: tell the medics how much I gave
+S13: act: ask for an ambulance, and why (it can turn fast to seizures or overheating)
+S14: act: don't drive them to the ER myself, and why
+S15: act: call poison control if I don't know what was mixed
+S16: nothing (the list number "4."; it only marks where step 4 starts)
+S17: why cooling comes first (muscle heat is the dangerous part); it motivates S18 to S21
+S18: act: cool place, strip extra clothes, fan over cool damp cloths
+S19: act: wrapped ice packs at neck, armpits and groin if they still feel hot
+S20: act: don't use a cold bath, and why
+S21: act: don't bother with Tylenol or ibuprofen, they won't touch this heat
+S22: nothing (the list number "5.")
+S23: act: clear the crowd, stop arguments
+S24: act: don't let them pace or exercise to burn it off (the heat and the muscle breakdown are the reason)
+S25: act: if they can't stop moving, have them tap fingertips on their head instead
+S26: nothing (the list number "6.")
+S27: act: fluids only if alert, swallowing and not vomiting, and then only small sips of electrolyte drink. Wording problem: "Overstimulating also dehydrates them" has no subject that makes sense ("overstimulation")
+S28: points me back to the MDMA low-electrolyte signs so I can check for them (the sentence is cut in two by the link, so it ends on "MDMA:")
+S29: finishes S28: if those signs are there, give a hypertonic drink with more magnesium and potassium than a normal one
+S30: act: the recipe (salty potato broth with magnesium chloride flakes)
+S31: act: Epsom salt if I have no flakes, and what to expect (diarrhea)
+S32: act: give it slowly and watch how they react, because potassium can run too low or too high
+S33: act: potassium from food, never pure potassium
+S34: nothing (the list number "7.")
+S35: act: gather pill bottles and packages before the ambulance comes
+S36: act: write down how much of each they took and when, street drugs and supplements included
+S37: act: if a seizure starts, go to the Active Seizure first aid
+S38: act: after a seizure, watch their breathing and tell the medics whether it got better or worse (the CDC clause only supports why)
+S39: nothing (the list number "8.")
+S40: act: do not use niacin here, and why (flushing, dizziness, low blood pressure); needed because the guide recommends it elsewhere and I might reach for it
+S41: act: DMSO to smell or rub on clean skin, with 30% water if it itches. Wording problem: "if there's any sign they took too much" doesn't say too much of what (MDMA? DMSO?), so I can't tell when to start
+S42: act: raise the DMSO dose slowly and stop raising it when it stops helping (the stem cell case report is only the reason)
+S43: act: do not use the Syrian rue oil here (the rest only admits there's no research)
+S44: act: give magnesium chloride too
+S45: act: if alert and able to swallow, give it by mouth, especially with jaw tension or muscle activity; amounts are in the Magnesium Alarm section (the sentence is cut by the link, so it ends on "MDMA:")
+S46: finishes S45: where the amounts are ("Magnesium Alarm ... above")
+S47: act: if they can't swallow, rub topical magnesium chloride on the skin, or Epsom salt if that's all I have. Wording problem: it has no verb ("Topical magnesium chloride if..."), and it doesn't say how to use Epsom salt (on the skin or by mouth)
+
+UNNEEDED:
+- none. Every sentence either gives an act, tells me what not to do, or gives the reason I need to follow an act. Weakest, kept because of the act they imply: S8 (how weak the evidence is; implies don't count on the med), S43 (implies don't use the oil, though step 1 already bans harmala brews). The three wording problems that need fixing, not cutting, are S27 ("Overstimulating" with no subject), S41 ("took too much" of what) and S47 (no verb, and no route for Epsom salt).

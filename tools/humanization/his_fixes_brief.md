@@ -1,6 +1,6 @@
 # The read against his fixes: which of my sentences still read the way he fixes?
 
-Gate bad-trips-2026-11-12g (the eleventh way, lesson bad-trips-2026-11-20c; the twelfth, lesson bad-trips-2026-11-20h; the thirteenth to seventeenth, lesson bad-trips-2026-11-21e; the eighteenth to twenty-first, from his 59 versions on the romance article's Medium page, lesson romance-2026-11-22d). Joel, 2026-11-12 14:45 UTC, after my carries of his fixes read AI in eight tries of eight:
+Gate bad-trips-2026-11-12g (the eleventh way, lesson bad-trips-2026-11-20c; the twelfth, lesson bad-trips-2026-11-20h; the thirteenth to seventeenth, lesson bad-trips-2026-11-21e; the eighteenth to twenty-first, from his 59 versions on the romance article's Medium page, lesson romance-2026-11-22d; the twenty-fifth and twenty-sixth, from his naloxone fix, lessons bad-trips-2026-11-23c and e). Joel, 2026-11-12 14:45 UTC, after my carries of his fixes read AI in eight tries of eight:
 "have you systematically looked at all of the fixes i've shown you and what are the idfferences in how you write vs how
 i fix? because when i look at how you try to implement my fixes, it's laughable, like you're not really learning much.
 you still use a lot of ai patterns like "this is different. that's different, this other thing is also different" and
@@ -15,7 +15,7 @@ stays.
 ---
 
 You are reading a draft against the way one writer, Joel, fixes drafts like it. Below are ten ways his fixes differ
-from the drafts he fixed, each with a sentence he fixed and what he wrote instead (an eleventh and a twelfth, 2026-11-20, after them, five more from his fix of the serotonin steps, 2026-11-21, and four from his 59 versions on the romance article, 2026-11-22). Read the draft and mark every sentence
+from the drafts he fixed, each with a sentence he fixed and what he wrote instead (an eleventh and a twelfth, 2026-11-20, after them, five more from his fix of the serotonin steps, 2026-11-21, and four from his 59 versions on the romance article, 2026-11-22; the twenty-second to twenty-fourth from the romance article, and two more from his naloxone fix, 2026-11-23). Read the draft and mark every sentence
 that still reads the first way.
 
 1. **Compressed.** A run of category words or noun phrases, or several ideas packed into one sentence, where he gives each
@@ -94,6 +94,10 @@ that still reads the first way.
    also dehydrates them, but we can't give fluids unless they're fully alert, able to swallow and not vomiting"
    (2026-11-21: "my goal is to make it read well and lead on so i'm not wondering all the time why i am reading this").
    For each sentence, write what in the reader's situation it answers, and mark it if they only find out later, or never.
+   A doubt about the whole paragraph's premise is answered in its first sentence, in the reader's own terms: my naloxone
+   paragraph said what to spray before why an opioid could be in an MDMA night; his version answers it first ("which
+   wouldn't seem to make sense if they think they took MDMA, but in fact, opioids like fentanyl have turned up in pills
+   sold as MDMA"), then gives the act with its reason (2026-11-23: "i would move the logic back so it's right up front").
 14. **A rule against what someone would naturally do, said flatly.** He says first why a person would want to, then the
    problem: my "Pacing or exercising to "burn it off" only makes more heat" became "While it's natural for people who are
    overstimulated to start pacing or exercising to "burn it off," the problem is that creates more body heat". Mark a
@@ -179,6 +183,16 @@ that still reads the first way.
    look ..." up next to the list of outcomes it answers, and the story (his separation from Bee) after it, last; the
    readers who had found the point didn't follow found it did (romance, 2026-11-23, lesson romance-2026-11-23h). For
    each point, write what it follows from, and mark it if a story or an aside stands between them.
+
+25. **An act that needs a state the text never said.** "call medics even if they wake up" after "Slow, shallow
+   breathing": nothing said they were out (2026-11-23: "you didn't say that they'd be asleep or unconscious"). His version
+   says the state first ("Slow, shallow breathing and losing consciousness"). The same with a wait: "while you wait" with
+   nothing named to wait for ("clarify what youu're waiting for (an ambulance)"). Mark each act whose state, or each wait
+   whose end, the text hasn't said before it (lesson bad-trips-2026-11-23c).
+
+26. **One brand for something several brands sell.** "(the Narcan nasal spray)": "remove the narcan reference since
+   there are also other brand names even in US". Name the medicine or the thing (naloxone), not one product of it
+   (lesson bad-trips-2026-11-23e).
 
 When the text is a rewrite of another, also mark every detail, reason or line it adds that the text it rewrites and its
 section don't already hold (lesson romance-2026-11-22f: a blind rewrite added "my month with a bad knee", a month he never

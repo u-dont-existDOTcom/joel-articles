@@ -337,6 +337,12 @@ class LinkAtTheStart(unittest.TestCase):
         p = R.check(self.LATE, self.receipt(self.LATE, 'of course, but also', '2026-11-21'))
         self.assertFalse(any('come after' in x for x in p), p)
 
+    def test_a_link_address_before_the_tie_is_not_counted(self):
+        # turn 61: "[DMSO](https://.../dmso), though" counted the address's words and refused a tie at word two
+        s1 = "Niacin is unsafe with serotonin syndrome, since it can drop the blood pressure."
+        text = s1 + " [DMSO](https://ibogaqueen.substack.com/i/170920118/dmso), though, seems to help prevent seizures."
+        self.assertFalse(any('come after' in x for x in R.check(text, self.receipt(text, 'though', '2026-11-23'))))
+
     def test_none_with_a_reason_still_passes(self):
         r = self.receipt(self.LATE, 'none: a new step, which the reader expects after the one before', '2026-11-22')
         self.assertFalse(any(x.startswith('link for') for x in R.check(self.LATE, r)))
