@@ -1,0 +1,23 @@
+{
+ "about": "Round 5 of the blind test (lesson romance-2026-11-23h, his standing rule of 2026-11-22 23:43 UTC): B257 and B442, the two passages he fixed on the sixth page, each in its section as it stood before his fix, with the reader's flag the r35 fixer had; a Fable writer given BRIEF.md (round 4's brief with way 10's new lines, way 24 and rule 4, illustrated outside the test) wrote OUT.md in 33 seconds. Each rewrite checked by itself; predictions written and committed before the checks.",
+ "items": [
+  {
+   "key": "fable5-B257",
+   "sha256": "91a8727fcc6528a03a89935a54c21aada810a179b48d40f10dd67dc8c782132c",
+   "words": 69,
+   "call": "AI",
+   "chance": 0.35,
+   "why": "it restates the question (\"Then the question is whether ...\") as my r35 tries did (55% AI), after judging the reader's \"which question?\" flag right, against rule 4; \"where to start\" fixes the bare \"it\" his way, and the condition-first opener is new",
+   "text": "But once a partner has become the default caregiver and that’s taken for granted, it’s time to bring in other support, or the romance could collapse under the burden. Then the question is whether the romance actually does need less intensity, becomes friendship, or ends. Asking that question out loud is usually where to start, though I can’t answer it for others (and couldn’t always answer it for myself)."
+  },
+  {
+   "key": "fable5-B442",
+   "sha256": "6e638eb854f4288b95ad34509455583a0a711e5ad8dddc9fcd7774c3343d83b6",
+   "words": 101,
+   "call": "AI",
+   "chance": 0.4,
+   "why": "it follows his order (the point after the list, the Bee story last as one sentence) and names what \"won't look\" and \"it\" leave out, but it joins the opening into \"it's unfair, because honesty is its own reward and won't produce ...\", the \"because\" join my r35 try had (72% AI), and puts \"honestly\" in the point",
+   "text": "Many people ask this question of honesty, but it’s unfair, because honesty is its own reward and won’t produce a certain outcome. It might repair the relationship, open it, turn the romance into friendship, preserve the family through separation, or show you that ending it is better. But if the other person won’t look at the relationship honestly, you can’t make the honesty mutual, and then you have to decide what you can live with. Temporary separation helped Bee and I, and it also became more permanent, although I’ve always thought maybe we would get back together in a few decades."
+  }
+ ]
+}

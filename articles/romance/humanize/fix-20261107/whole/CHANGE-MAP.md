@@ -1,6 +1,6 @@
 # The fixed version: every changed paragraph
 
-The live post ("Romance Advice I Wish My Parents Taught Me") with each section's and spot's best tested text in place (`assemble.py`, `build.py`), and his own versions from his answers over them (`../r30/HIS-T4.json`, his Medium page of 2026-11-22). Paragraph numbers are the post page's paragraph list (`LIVE-INDEX.txt`). "Two Pillars" 332 is his own new version (it was the owner lock). 116 changes, 147 live paragraphs changed.
+The live post ("Romance Advice I Wish My Parents Taught Me") with each section's and spot's best tested text in place (`assemble.py`, `build.py`), and his own versions from his answers over them (`../r30/HIS-T4.json`, his Medium page of 2026-11-22). Paragraph numbers are the post page's paragraph list (`LIVE-INDEX.txt`). "Two Pillars" 332 is his own new version (it was the owner lock). 128 changes, 155 live paragraphs changed.
 
 ## 1. S1 (live 28)
 
@@ -1507,4 +1507,147 @@ Read by my tested change R35-B473 (MINE-R35.json): [result](https://www.pangram.
 **New:**
 
 > Too many people judge a relationship only by whether they stayed together. Relationships are a process of growth in many dimensions, so start measuring what you actually learned from yours.
+
+## 117. What we mean by “love” ❤️ (live 6)
+
+Read by his answer J-B10 (HIS-T6.json): [result](https://www.pangram.com/history/46351c02-95e5-41d5-8044-3413fb07cc47).
+
+**Live:**
+
+> Most people fail this test: what would I want if she herself thought she’d be happier with somebody else? But if they can get past the initial horror, the conflict starts to fall apart. Being wanted is part of what makes me want someone.
+
+**New:**
+
+> Most people fail this test: what would I want if she herself thought she’d be happier with somebody else? The first reaction is horror, but if they can get past it, wanting her and wanting her to be happy stop fighting each other. Being wanted is part of what makes me want someone, so if she’d be happier with somebody else, I’d want her less anyway.
+
+## 118. What we mean by “love” ❤️ (live 7)
+
+Read by his answer J-B10 (HIS-T6.json): [result](https://www.pangram.com/history/46351c02-95e5-41d5-8044-3413fb07cc47).
+
+**Live:**
+
+> But the horror is unavoidable, because I can’t wait until I know I’m wanted before I let her know I want her. If we both do that, nothing gets started. And it doesn’t stop being true once we’re together. If I start feeling less wanted, I may pull back. She feels me pulling back and starts feeling less wanted herself, then she pulls back too.
+
+**New:**
+
+> I still have to go through that horror, because I can’t wait until I know I’m wanted before I let her know I want her, and if we both do that, nothing gets started. Once we’re together I still can’t wait to be sure I’m wanted. If I start feeling less wanted, I may pull back, and she feels me pulling back and starts feeling less wanted herself, so she pulls back too.
+
+## 119. It always goes deeper (live 74)
+
+Read by his answer J-B84 (HIS-T6.json): [result](https://www.pangram.com/history/c12ff059-dc9e-432d-bc7f-bddb2219ebaf).
+
+**Live:**
+
+> What makes me desirable is not the same question as what makes me loved when I temporarily stop being desirable in that particular way.
+
+**New:**
+
+
+## 120. Slow & steady isn’t KO’d yet (live 192)
+
+Read by his answer J-B201 (HIS-T6.json): [result](https://www.pangram.com/history/ef1f216b-1b56-4d93-8744-c471e85a5933).
+
+**Live:**
+
+> So go slowly if you can. Just don’t imagine that means you know everything. You learn what you can before sex. Sex itself tells you other things.
+
+**New:**
+
+> Go slowly if you can, then, and learn what you can about each other before sex, but there are things you’ll only find out once you’re having it, like how your bodies respond to each other.
+
+## 121. Don’t make your partner your whole world (live 213)
+
+Read by his answer J-B220 (HIS-T6.json): [result](https://www.pangram.com/history/b7aa8694-67eb-4170-9bb3-3ef562c34919).
+
+**Live:**
+
+> For me, that also means keeping close friends, outside therapy when I need it, a mission of my own, separate interests, some connection to community, and the ability to be alone.
+
+**New:**
+
+> For me, that room is where I keep a mission of my own, separate interests and some connection to community. I also get outside therapy when I need it, and I make sure I can still be alone.
+
+## 122. Attraction and exclusivity (live 355)
+
+Read by his answer J-B379 (HIS-T6.json): [result](https://www.pangram.com/history/2b637949-e160-4da0-a203-c7a0332a367d).
+
+**Live:**
+
+> By the the 17th century, when England began mass urbanization by forcing peasants off their land, this ironically bureaucratic basis of romance became the legal definition of marriage. I’m not trying to say we’re just like bonobos, but the academic consensus is that humans tend toward flexible pair-bonding, with a propensity for occasional infidelity.
+
+**New:**
+
+> Ironically, sexclusivity, which we treat as the basis of romance, started out as that kind of bureaucratic record-keeping. By the 17th century, when England began mass urbanization by forcing peasants off their land, it became the legal definition of marriage. As for what comes naturally to us underneath that law, I’m not trying to say we’re just like bonobos, but the academic consensus is that humans tend toward flexible pair-bonding, with a propensity for occasional infidelity.
+
+## 123. Psychedelic Timing (live 390)
+
+Read by his answer J-B412 (HIS-T6.json): [result](https://www.pangram.com/history/74a3b94f-ed02-4fc4-9fd8-44aeb688bb8c).
+
+**Live:**
+
+> Before I say anything good about psychedelics for relationships, the warning has to come first. I don’t think sexual consent should be negotiated for the first time while high. The drug is changing how safe, loving, open, and connected everything feels. Advance planning doesn’t turn getting high and starting a relationship into a safe procedure. People need that warning before they take it, because once you’re inside that feeling, sober caveats may sound ridiculous.
+
+**New:**
+
+> I’m putting the warning before anything good I say about psychedelics for relationships, because people need to hear it before they take anything. I don’t think sexual consent should be negotiated for the first time while high, when the drug is changing how safe, loving, open, and connected everything feels. And even if the two of you plan it all in advance, getting high and starting a relationship is still a risk.
+
+## 124. Ending consciously (live 427)
+
+Read by his answer J-B453 (HIS-T6.json): [result](https://www.pangram.com/history/ab01adee-1d7d-4259-a060-215bce4186e2).
+
+**Live:**
+
+> Whether to leave and how to leave are separate questions.
+
+**New:**
+
+> Before you think about how to leave, settle whether you’re leaving, and whether counseling is worth trying first.
+
+## 125. What will honesty produce? (live 419)
+
+Read by his answer Q-B442 (HIS-T6.json): [result](https://www.pangram.com/history/48952c2b-ff84-4e2c-97f8-c6bff836ceac).
+
+**Live:**
+
+> Many people ask this question of honesty, but it’s unfair. Honesty doesn’t produce a certain outcome. It is its own reward. It might repair the relationship, open it, turn the romance into friendship, preserve the family through separation, or show you that ending it is better. Temporary separation helped Bee and I. It also became more permanent, although I’ve always thought maybe we would get back together in a few decades. If the other person won’t look, you can’t make it mutual. Then you have to decide what you can live with.
+
+**New:**
+
+> Many people ask this question of honesty, but it’s unfair. Honesty doesn’t produce a certain outcome. It is its own reward. It might repair the relationship, open it, turn the romance into friendship, preserve the family through separation, or show you that ending it is better. Of course, if the other person won’t look at the truth, you can’t make honesty a mutual value. Then you have to decide what you can live with. Temporary separation helped Bee and I, although it became less temporary as time went on, but I’ve always thought maybe we would get back together in a few decades.
+
+## 126. Different levels in different domains can be complementary (live 250)
+
+Read by his answer Q-B257 (HIS-T6.json): [result](https://www.pangram.com/history/126e846d-7968-4de2-a5ba-4124a5685dae).
+
+**Live:**
+
+> Once one person has become the default caregiver and that’s taken for granted, it’s time to bring in other support, lest the romance collapse under the burden. Maybe the romance actually does need less intensity, maybe it becomes friendship, or maybe it ends. I can’t answer that for others, and I couldn’t always answer it for myself, but asking the question out loud is usually where it starts.
+
+**New:**
+
+> It’s time to bring in other support once a partner has become the default caregiver and that’s taken for granted, or the romance could collapse under the burden. Maybe the romance actually does need less intensity, maybe it becomes friendship, or maybe it ends. Asking that question out loud is the first step in figuring it out, but I can’t answer it for others, and couldn’t always answer it for myself.
+
+## 127. Jealousy on trial (live 366)
+
+Read by his answer his word back in 366 (HIS-T6.json): [result](https://www.pangram.com/history/5a4b81cd-deb8-48c9-97c2-8d1e0fa089f3).
+
+**Live:**
+
+> I do believe two people can choose sexual exclusivity honestly. They can admit that attraction to other people exists and decide not to act on it each day.
+
+**New:**
+
+> I do believe two people can choose sexual exclusivity honestly. They can admit that attraction to other people exists and decide not to act on it each day. And even better than simply suppressing it, they can put it to work. I agree with Esther Perel, who writes that this sexual energy felt outside the relationship can be used and redirected into the relationship to make it more alive.
+
+## 128. After leaving (live 440)
+
+Read by his answer his word back in 440 (HIS-T6.json): [result](https://www.pangram.com/history/f72e86ef-fd45-4fa2-934d-14e776d8021a).
+
+**Live:**
+
+> Spiritual practice during an ending is critical, but don’t use it to get around the feelings. Pray for your ex’s wellbeing. Remember what was real and good, and don’t use your pain as permission to hate them. Avoid the New Age belief that everyone is simply a mirror of you. No, that isn’t true. We partly mirror one another, but each person was formed by plenty that had nothing to do with you. No matter how enlightened the Buddha was, his cousin Devadatta still kept trying to kill him. Looking honestly at your part doesn’t erase theirs. Sometimes it helps to ask, “What would Mr. Rogers do?” (if you’re old enough to remember that show).
+
+**New:**
+
+> Spiritual practice during an ending is critical, but don’t use it to get around the feelings. Pray for your ex’s wellbeing. Remember what was real and good, and don’t use your pain as permission to hate them. Avoid the New Age belief that everyone is simply a mirror of you. Of course, we do partly mirror one another, but each person was formed by plenty that had nothing to do with you. No matter how enlightened the Buddha was, his cousin Devadatta still kept trying to kill him: looking honestly at your part doesn’t erase theirs. Sometimes it helps to ask, “What would Mr. Rogers do?” (if you’re old enough to remember that show).
 

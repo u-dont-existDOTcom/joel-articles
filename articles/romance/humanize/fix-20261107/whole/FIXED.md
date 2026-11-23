@@ -18,9 +18,9 @@ Then we use the same word for romantic love (eros): "I want us to be special to 
 
 A good relationship must have both kinds of love at once. Too often, the trouble is there’s a whole lot of I want you and hardly any I want you to be happy.
 
-Most people fail this test: what would I want if she herself thought she’d be happier with somebody else? But if they can get past the initial horror, the conflict starts to fall apart. Being wanted is part of what makes me want someone.
+Most people fail this test: what would I want if she herself thought she’d be happier with somebody else? The first reaction is horror, but if they can get past it, wanting her and wanting her to be happy stop fighting each other. Being wanted is part of what makes me want someone, so if she’d be happier with somebody else, I’d want her less anyway.
 
-But the horror is unavoidable, because I can’t wait until I know I’m wanted before I let her know I want her. If we both do that, nothing gets started. And it doesn’t stop being true once we’re together. If I start feeling less wanted, I may pull back. She feels me pulling back and starts feeling less wanted herself, then she pulls back too.
+I still have to go through that horror, because I can’t wait until I know I’m wanted before I let her know I want her, and if we both do that, nothing gets started. Once we’re together I still can’t wait to be sure I’m wanted. If I start feeling less wanted, I may pull back, and she feels me pulling back and starts feeling less wanted herself, so she pulls back too.
 
 Agape or divine love does two jobs at once to rescue erotic love. First, most obviously, it keeps eros from becoming totally selfish and fickle by making the other person’s happiness part of the wanting: I want you because I know you’ll be happy with me. Second, it gives eros a landing pad. When two people pull away because eros seems unreciprocated for a moment, the backdrop of actual, genuine care, keeps the couple from simply abandoning each other, and then they might even rekindle the eros when they see that it’s based on something deeper.
 
@@ -167,8 +167,6 @@ I had wondered for years how much a woman would love me if I couldn’t really p
 I got a smaller and much less romantic test later. Bee gave me some shoes to try that didn’t fit. I wore them for a day, and somehow my knee ended up messed up for about a month. She did nurse me, but a bit reluctantly. She also kept suggesting it was partly in my head, or not really that bad. I get it, neither of us could believe one day in the wrong shoes could do that, but it still felt like she was brushing me off because she wanted my knee to be fine.
 
 Some women are fixer types, which can create the opposite pattern. Before me, Bee had housed and supported a boyfriend who was totally broke and crazy, for a while. Later she blamed herself for staying through that, and I agree, it wasn't appropriate. It's not the same as helping carry somebody through a temporary incapacity, like she did with my knee.
-
-What makes me desirable is not the same question as what makes me loved when I temporarily stop being desirable in that particular way.
 
 #### And deeper is the point
 
@@ -404,7 +402,7 @@ The strangest part was that Bee’s body kept opening more while consciously she
 
 Women are always demanding to know why I love them. Apparently they’re allowed not to know. Those double-standards really bug me, but I also understand our brains work differently. So that’s another thing to learn about over time in a relationship, and it sometimes hits you unexpectedly.
 
-So go slowly if you can. Just don’t imagine that means you know everything. You learn what you can before sex. Sex itself tells you other things.
+Go slowly if you can, then, and learn what you can about each other before sex, but there are things you’ll only find out once you’re having it, like how your bodies respond to each other.
 
 # The Relationship As Crucible
 
@@ -442,7 +440,7 @@ So don’t let your world get so small. Don’t abandon your friends unless they
 
 You don’t need to spend as much time with friends as you did before the romance. But keep some room to explore life on your own.
 
-For me, that also means keeping close friends, outside therapy when I need it, a mission of my own, separate interests, some connection to community, and the ability to be alone.
+For me, that room is where I keep a mission of my own, separate interests and some connection to community. I also get outside therapy when I need it, and I make sure I can still be alone.
 
 Toft also points out that a man can get feminine energy from nature, music, poetry, art, flowers, food, and other parts of life. I agree, it's not fair to myself or to my girlfriend/wife if she has to be my only source of beauty, softness, sensuality, and inspiration.
 
@@ -518,7 +516,7 @@ I could teach these women about loving and reparenting their inner child, Buddhi
 
 When it works, we take turns, me teaching one day and learning the next, and that’s healthy.
 
-It’s time to bring in other support once a partner has become the default caregiver and that’s taken for granted, or the romance could collapse under the burden. Maybe the romance actually does need less intensity, maybe it becomes friendship, or maybe it ends. Asking the question out loud is usually where it starts, though I can’t answer it for others (and couldn’t always answer it for myself).
+It’s time to bring in other support once a partner has become the default caregiver and that’s taken for granted, or the romance could collapse under the burden. Maybe the romance actually does need less intensity, maybe it becomes friendship, or maybe it ends. Asking that question out loud is the first step in figuring it out, but I can’t answer it for others, and couldn’t always answer it for myself.
 
 The next two sections are about masculine–feminine polarity and Twin Flames. If neither is relevant to you, skip ahead to Two Pillars Don’t Hold The Roof Up.
 
@@ -764,7 +762,7 @@ Where did the idea of promising to have romantic interest in your partner come f
 
 It’s hard to find sexually monogamous animals; have you ever looked? And as it turns out, we humans aren’t a natural exception to the rule, either. Plenty of tribal cultures were (and some still are) much looser about this, while still generally retaining the primary-partner “social monogamy.” Sexclusivity started gaining sway around the time we started planting crops and owning land. That’s when it made sense to keep track of how to keep our land in the family bloodline.
 
-By the 17th century, when England began mass urbanization by forcing peasants off their land, this ironically bureaucratic basis of romance became the legal definition of marriage. I’m not trying to say we’re just like bonobos, but the academic consensus is that humans tend toward flexible pair-bonding, with a propensity for occasional infidelity.
+Ironically, sexclusivity, which we treat as the basis of romance, started out as that kind of bureaucratic record-keeping. By the 17th century, when England began mass urbanization by forcing peasants off their land, it became the legal definition of marriage. As for what comes naturally to us underneath that law, I’m not trying to say we’re just like bonobos, but the academic consensus is that humans tend toward flexible pair-bonding, with a propensity for occasional infidelity.
 
 ### Jealousy on trial
 
@@ -790,7 +788,7 @@ Instead of stewing in jealousy and throwing out microaggressions now and then, s
 
 Maybe he really is neglecting you or wanting to be with someone else. Maybe the “attention” was one glance and your baseline insecurity inflated it into a threat that it wasn’t. That part should not be projected onto your partner. Every couple has to work out for themselves what actually feels healthy.
 
-I do believe two people can choose sexual exclusivity without pretending. They can admit that attraction to other people exists and decide not to act on it each day. And even better than simply suppressing it, they can put it to work. I agree with Esther Perel, who writes that this sexual energy felt outside the relationship can be used and redirected into the relationship to make it more alive.
+I do believe two people can choose sexual exclusivity honestly. They can admit that attraction to other people exists and decide not to act on it each day. And even better than simply suppressing it, they can put it to work. I agree with Esther Perel, who writes that this sexual energy felt outside the relationship can be used and redirected into the relationship to make it more alive.
 
 Imagine if you and your partner both saw those outside attractions as beneficial energy sources rather than a threat to your relationship. It sure would beat beating around the bush because of fear and jealousy. You can start playing around with opening up about the minor, momentary attractions, rather than wait in hiding until a serious crush is dramatically confessed.
 
@@ -830,7 +828,7 @@ Psychedelics can make this same problem of idealization much stronger.
 
 This section will be relevant to some readers and easy for others to skip.
 
-Before I say anything good about psychedelics for relationships, the warning has to come first. I don’t think sexual consent should be negotiated for the first time while high. The drug is changing how safe, loving, open, and connected everything feels. Advance planning doesn’t turn getting high and starting a relationship into a safe procedure. People need that warning before they take it, because once you’re inside that feeling, sober caveats may sound ridiculous.
+I’m putting the warning before anything good I say about psychedelics for relationships, because people need to hear it before they take anything. I don’t think sexual consent should be negotiated for the first time while high, when the drug is changing how safe, loving, open, and connected everything feels. And even if the two of you plan it all in advance, getting high and starting a relationship is still a risk.
 
 Starting a relationship through psychedelics has another danger. Key and I met and then spent a few days taking iboga with friends. We got to know each other very deeply that way, and that was great. But it was especially her higher self I was getting to know. I tend to idealize people even sober, and that gets worse when I’m high. It was still beautiful to see the real higher self potential in her, I’m not denying that. But that information didn’t help me understand how we would get along in normal life.
 
@@ -892,7 +890,7 @@ What they say is also partly true: “The only one you can change is yourself.�
 
 ## What will honesty produce?
 
-Many people ask this question of honesty, but it’s unfair. Honesty doesn’t produce a certain outcome. It is its own reward. It might repair the relationship, open it, turn the romance into friendship, preserve the family through separation, or show you that ending it is better. Temporary separation helped Bee and I. It also became more permanent, although I’ve always thought maybe we would get back together in a few decades. If the other person won’t look, you can’t make it mutual. Then you have to decide what you can live with.
+Many people ask this question of honesty, but it’s unfair. Honesty doesn’t produce a certain outcome. It is its own reward. It might repair the relationship, open it, turn the romance into friendship, preserve the family through separation, or show you that ending it is better. Of course, if the other person won’t look at the truth, you can’t make honesty a mutual value. Then you have to decide what you can live with. Temporary separation helped Bee and I, although it became less temporary as time went on, but I’ve always thought maybe we would get back together in a few decades.
 
 # Children
 
@@ -914,7 +912,7 @@ I know I sound like a broken record, like my dad, but still: It takes a village.
 
 <!-- EMBED https://www.youtube.com/watch?v=SitT9ojqV1U : a YouTube video -->
 
-Whether to leave and how to leave are separate questions.
+Before you think about how to leave, settle whether you’re leaving, and whether counseling is worth trying first.
 
 You don’t owe it to them to try counseling unless you also owe it to yourself. If you actually don’t want a good relationship with them anymore, go. No amount of counseling will fix something that has nothing at the base of it.
 
@@ -940,7 +938,7 @@ Once you’re out, you can see things you genuinely couldn’t see while you wer
 
 Sometimes the easiest story is that they were fake all along, because it explains everything. Grab it only if it really is the simplest explanation of what happened. People who aren’t heavily invested in seeing your innocence can help you tell, and a therapist, pastor, or even a stranger may see the evidence more clearly than a lifelong friend. Even the curiosity itself can be therapeutic for you.
 
-Spiritual practice during an ending is critical, but don’t use it to get around the feelings. Pray for your ex’s wellbeing. Remember what was real and good, and don’t use your pain as permission to hate them. Avoid the New Age belief that everyone is simply a mirror of you. Of course, we do partly mirror one another, but each person was formed by plenty that had nothing to do with you. No matter how enlightened the Buddha was, his cousin Devadatta still kept trying to kill him: admitting your part doesn’t erase theirs. Sometimes it helps to ask, “What would Mr. Rogers do?” (if you’re old enough to remember that show).
+Spiritual practice during an ending is critical, but don’t use it to get around the feelings. Pray for your ex’s wellbeing. Remember what was real and good, and don’t use your pain as permission to hate them. Avoid the New Age belief that everyone is simply a mirror of you. Of course, we do partly mirror one another, but each person was formed by plenty that had nothing to do with you. No matter how enlightened the Buddha was, his cousin Devadatta still kept trying to kill him: looking honestly at your part doesn’t erase theirs. Sometimes it helps to ask, “What would Mr. Rogers do?” (if you’re old enough to remember that show).
 
 I also learned that public demonization doesn’t always have to be the last chapter, even if things ended on that bitter note. If you avoid contact forever, they might never apologize and learn honesty. But it can help to keep distance for a while until cooler heads prevail. On the other hand, it can be tempting to let them back into your life after a private apology, and especially after a public one, but keep in mind you deserve a stable love. You’re not a yo-yo.
 
