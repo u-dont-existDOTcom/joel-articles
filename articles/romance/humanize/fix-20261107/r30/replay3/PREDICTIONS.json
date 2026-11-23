@@ -1,0 +1,50 @@
+{
+ "about": "Round 3 of the blind test: the rewrites of OUT.md (round 2's brief with ways 19, 21 and 22 changed and way 23 added), each checked by itself in the Pangram web app (his main account, the app browser pane). Written by a Sonnet writer: three Opus writers started for this round gave no answer in 20 to 27 minutes each. Texts under 50 words take a neighbour: 214 the paragraph after it (as in rounds 1 and 2), 252 and 253 together. Predictions written before the checks: call and my chance of a 100% Human result.",
+ "items": [
+  {
+   "key": "replay3-M-73",
+   "sha256": "13dbf8bf2cd953fff88467b237ae69111bfe7cd45714662b2a0f68bc46a3dfa6",
+   "words": 80,
+   "call": "AI",
+   "chance": 0.3,
+   "why": "kept the \"is different from becoming the permanent support system\" sentence that read AI in round 2, and added \"again and again\"",
+   "text": "Before me, Bee had also stayed with a boyfriend who was totally broke and crazy, and she supported him for a while. Later she blamed herself for staying with him through all that, and I agree. Helping carry somebody through a temporary incapacity, like my knee, is a different thing from becoming the permanent support system for a man who won’t take responsibility. Some women are fixer types, and they can end up in that second spot again and again."
+  },
+  {
+   "key": "replay3-M-214+next",
+   "sha256": "82f42fd6175a94160cd96b6faf091cd48ffcd375efffc41d6a25bb11621d6fbc",
+   "words": 74,
+   "call": "AI",
+   "chance": 0.4,
+   "why": "one long sentence with a colon; the next paragraph read AI (Medium) beside round 2's rewrite",
+   "text": "A man can get feminine energy from nature, music, poetry, art, flowers, food, and other parts of life, as Toft also points out, and I like that idea: a girlfriend shouldn’t have to be my only source of beauty and softness.\n\nWhen I’m already overwhelmed and suddenly announce, “I need time for myself!” it can easily sound like I need time away from her. So I’d rather make alone time normal from early on."
+  },
+  {
+   "key": "replay3-M-252+253",
+   "sha256": "7175420006e397785747057a2bd8948b9882211c03035635d22a193f1f83aeaa",
+   "words": 55,
+   "call": "AI",
+   "chance": 0.45,
+   "why": "\"those three don’t by themselves explain\" still points back; round 2's near version read AI (High), round 1's Human (Low)",
+   "text": "So far I’ve been putting forward honesty, closeness, and equal dignity, which I believe in for basically any type of relationship, but those three don’t by themselves explain why two people still want to tear each other’s clothes off each night.\n\nStill, for me, feeling safe doesn’t spark desire, but it makes space for it."
+  },
+  {
+   "key": "replay3-M-346",
+   "sha256": "8a143d81ae0ce1c84f8f83100e3fd5fbc5cb354affec448ab30cbef11b58ef52",
+   "words": 65,
+   "call": "AI",
+   "chance": 0.35,
+   "why": "the vague question became a statement, which breaks the run, but the last two questions read AI (High) in round 2",
+   "text": "And the biggie: what happens if one of us falls in love with someone else? We’d need to say what counts as betrayal and what’s just a sign we need a serious talk. If our lives change, can we honestly sit down and rethink the agreement? And if we split up, what do we still owe each other (and our kids, if we have any)?"
+  },
+  {
+   "key": "replay3-flaws-126+127",
+   "sha256": "da74ac16b5d682660d4d327055f63b6fea4a55d59b649dfb7f748707590f1940",
+   "words": 78,
+   "call": "AI",
+   "chance": 0.4,
+   "why": "\"Then ask whether ...\" is close to my try 4, which the tell panel still flagged; the frame and the folded consequence follow way 23",
+   "text": "Look at the most recent conflicts and ask if you were able to regulate yourself during them. What did you do to the other person, and how did you repair the damage afterward? Then ask whether your judgment has gotten better or you keep falling for the same thing again, and what your friends or exes would say.\n\nAnd if you shut down, did that mean you stopped talking to your partner for days, so they felt abandoned?"
+  }
+ ]
+}

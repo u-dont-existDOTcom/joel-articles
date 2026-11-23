@@ -4072,6 +4072,16 @@
           "path": "articles/romance/humanize/fix-20261107/r33/work/c4.txt",
           "sha256": "aaa627443f591cb7a2629bba390fdd9a81812ad450764382c7143c799a3aa3ec",
           "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r30/replay3/OUT.md",
+          "sha256": "d87b6da46a327f326b1c9d46701a360ce7c3286fd26526139f537d8fd9099588",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r30/replay3/PREDICTIONS.json",
+          "sha256": "ec5661241b0a449527c693fd6867f64d482a88612107f9f7344e44b40dcf86af",
+          "role": "humanization_working_record"
         }
       ]
     },
