@@ -248,6 +248,17 @@ def refusals(recs, rec, text=None):
                                                        or (rec.get('words') or 0) > 1200) and not (rec.get('paid_ok') or '').strip():
         out.append('%d words through the API: a half, a whole article or anything over 1,200 words goes through a temporary '
                    'Substack draft and its secret preview link, free (E218, E325); --paid-ok only with his words' % (rec.get('words') or 0))
+    # Joel, 2026-11-03 22:02 UTC: "we don't do whole article checks with pangram GUI ... i have a free route for those. you
+    # can do a section check in the GUI tho, like 5-6 paragraphs or so". The contents lane checked the whole Nirvana post in
+    # the web app six times on 2026-11-23 (about 930 of his credits) because only the API was refused here (toc-2026-11-23d).
+    det = (rec.get('detector') or '').lower()
+    if ('web app' in det or 'pangram.com' in det or re.search(r'\bgui\b', det)) and 'substack' not in det \
+            and (scope == 'article' or (rec.get('words') or 0) > 1200) and not (rec.get('paid_ok') or '').strip():
+        out.append('%s of %d words in the web app: a whole article, or anything over 1,200 words, is checked free on Substack '
+                   '(the live post itself when it is the text, or a temporary draft and its secret preview link, which he '
+                   'runs his extension on), never in the web app; a section of 5 or 6 paragraphs can go there '
+                   '(toc-2026-11-23d; --paid-ok only with his words)' % ('a whole article' if scope == 'article' else 'a '
+                                                                          + scope, rec.get('words') or 0))
     if scope not in CAPS:
         out.append('scope must be one of %s' % ', '.join(sorted(CAPS)))
         return out
@@ -1075,7 +1086,8 @@ def main(argv=None):
     p.add_argument('--detector', default='Pangram 4.1 (web app)')
     p.add_argument('--shading-expected')
     p.add_argument('--emulate-share', type=float)
-    p.add_argument('--paid-ok', help="Joel's words allowing a text over 1,200 words through the paid API (E218, E325)")
+    p.add_argument('--paid-ok', help="Joel's words allowing a whole article or a text over 1,200 words through the paid API "
+                                     "or the web app (E218, E325, toc-2026-11-23d)")
     p.add_argument('--narrowed', help='a section or stretch whose last try read AI or Mixed: the paragraph lineages checked '
                    'since, each by itself (Joel, 2026-11-04: narrow it down to para level first; E343)')
     p.add_argument('--panel', help='a paragraph that has read AI or Mixed twice: the tell panel\'s PANEL.md on the text, '
