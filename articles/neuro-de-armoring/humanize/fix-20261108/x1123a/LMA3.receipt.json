@@ -1,0 +1,106 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-23",
+ "text_sha256": "2ab850ae6f5b9397eb5bec67d51c2e88c96a97bff437d62bc4c4482c56683ead",
+ "text": "Lion's Mane & Ashwagandha: Lots of people take these for focus and stress, but I'd leave both out. People say these herbs left them with anhedonia (when nothing feels good anymore) and sexual dysfunction that persisted even after they stopped, in rare cases reported on forums and YouTube. Nobody has studied these effects in the two herbs yet, but regulators already warn that SSRIs and finasteride can leave the same kind behind.",
+ "section": "A Complete Guide to Bio-De-Armoring, the warnings: a new item after the Cognitive Warning",
+ "reader": "an adult with trauma reading the warnings at the top before starting, who may already take lion's mane or ashwagandha, or be thinking of adding them for focus or stress",
+ "sentences": [
+  {
+   "s": "Lion's Mane & Ashwagandha: Lots of people take these for focus and stress, but I'd leave both out.",
+   "payoff": "they learn why people take these two and that he'd leave both out, so they do",
+   "follows": "it is the next item of the warnings, the first about a supplement the protocol doesn't use"
+  },
+  {
+   "s": "People say these herbs left them with anhedonia (when nothing feels good anymore) and sexual dysfunction that persisted even after they stopped, in rare cases reported on forums and YouTube.",
+   "payoff": "they learn what the rare reports describe: anhedonia, explained where the article first uses it, and sexual dysfunction that lasted after stopping, and where the reports come from",
+   "follows": "it says why to leave them out, after the advice",
+   "link": "People say these herbs"
+  },
+  {
+   "s": "Nobody has studied these effects in the two herbs yet, but regulators already warn that SSRIs and finasteride can leave the same kind behind.",
+   "payoff": "they learn how far the reports go (not studied) and that the same kind of lasting harm is one regulators already recognize for SSRIs and finasteride, so the rare reports are worth heeding",
+   "follows": "it weighs the reports the sentence before gives",
+   "link": "Nobody has studied these effects"
+  }
+ ],
+ "checked": [
+  {
+   "point": "rare reports of lasting anhedonia and sexual dysfunction after lion's mane and ashwagandha",
+   "found": "no trial or case report found; trials report mostly mild side effects; the reports are community ones (his finding), as x1122a/WARNINGS-SOURCES.md says",
+   "still_needed": "yes: they learn to leave both out, from reports said as reports",
+   "fate": "kept"
+  },
+  {
+   "point": "regulators warn about the same kind of lasting effect after SSRIs and finasteride",
+   "found": "the EMA recognized lasting sexual dysfunction after SSRIs and SNRIs in June 2019; the FDA added sexual problems continuing after stopping to finasteride's labels in 2011 and 2012 (x1122a/WARNINGS-SOURCES.md)",
+   "still_needed": "yes: they learn the kind of harm the reports describe is one regulators already recognize",
+   "fate": "kept"
+  }
+ ],
+ "placement": "a new item of the warnings at the top, after the Cognitive Warning and before the Agmatine Warning, so its \"anhedonia\" is the article's first and is said in plain words there; the agmatine and 5-HTP lines after it can then use the word",
+ "opens": {
+  "first_sentence": "Lion's Mane & Ashwagandha: Lots of people take these for focus and stress, but I'd leave both out.",
+  "why_reading": "they learn the protocol's advice on two popular supplements they may be taking or considering, and why"
+ },
+ "same_point": "read the section from its heading to the next for lion's mane and ashwagandha: no other item names them, and the article advises neither anywhere (checked 2026-11-22)",
+ "needed": {
+  "reader": "a fresh reader (Haiku, 2026-11-23) given tools/humanization/needed_read_brief.md and only the text, one sentence a line, before the new sentence was revised (x1123a/reads-lma2.md)",
+  "unneeded": [
+   "Nobody has studied it yet, but SSRIs and finasteride can do the same thing, and regulators already warn about that."
+  ],
+  "kept": {
+   "Nobody has studied it yet, but SSRIs and finasteride can do the same thing, and regulators already warn about that.": "they learn the lasting harm the reports describe is a kind regulators already recognize for drugs (his point in his message), so they take rare reports seriously enough to leave the herbs out; LMA3 names its referents and says it as what regulators warn about"
+  }
+ },
+ "his_fixes": {
+  "reader": "a fresh reader (Haiku, 2026-11-23) given tools/humanization/his_fixes_brief.md and only the text, one sentence a line, before the new sentence was revised (x1123a/reads-lma2.md)",
+  "marked": [
+   {
+    "s": "In rare cases reported on forums and YouTube, people say they were left with anhedonia (when nothing feels good anymore) and sexual dysfunction that persisted even after they stopped.",
+    "difference": "11"
+   },
+   {
+    "s": "Nobody has studied it yet, but SSRIs and finasteride can do the same thing, and regulators already warn about that.",
+    "difference": "7, 10"
+   }
+  ],
+  "kept": {}
+ },
+ "fit": {
+  "reader": "a fresh reader (Haiku, 2026-11-23) given tools/humanization/fit_read_brief.md and only the text, one sentence a line, before the new sentence was revised (x1123a/reads-lma2.md)",
+  "marked": [
+   {
+    "s": "In rare cases reported on forums and YouTube, people say they were left with anhedonia (when nothing feels good anymore) and sexual dysfunction that persisted even after they stopped.",
+    "found": "anyway: a numb reader may feel nothing is good already; can't tell: from the herb or the trauma"
+   },
+   {
+    "s": "Nobody has studied it yet, but SSRIs and finasteride can do the same thing, and regulators already warn about that.",
+    "found": "from: drug-regulation text; misread: an SSRI user alarmed"
+   }
+  ],
+  "kept": {}
+ },
+ "questions": {
+  "Q1": "PASS: each sentence opens on its point",
+  "Q2": "PASS: each instruction says what it is for in the reader's terms (why not to start them, what to stop for)",
+  "Q3": "PASS: each thing is named exactly",
+  "Q4": "PASS: each unfamiliar term is said in plain words where it is first used",
+  "Q5": "PASS: each \"and\", \"so\" and \"but\" turns on the clause before it",
+  "Q6": "PASS: the claim, then what the evidence shows, then its limit",
+  "Q7": "PASS: each fact is about the reader's own symptom or the tool they are deciding on",
+  "Q8": "N/A: no group or list inside this paragraph",
+  "Q9": "PASS: one step a clause, with the small words that carry the relation kept"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

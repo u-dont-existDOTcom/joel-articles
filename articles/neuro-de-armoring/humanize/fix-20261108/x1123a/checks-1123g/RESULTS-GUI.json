@@ -1,0 +1,56 @@
+{
+ "detector": "Pangram 4.1 (web app, his account, in the desktop app's browser pane)",
+ "results": {
+  "lma": {
+   "uuid": "50622455-2e3a-482e-ac66-0ae461f68592",
+   "at": "2026-11-23T13:08:58.419453-05:00",
+   "headline": "AI Detected",
+   "ai": 0.9345587491989136,
+   "words": 81,
+   "windows": [
+    [
+     "AI-Generated",
+     "Low",
+     29,
+     "Lion's Mane & Ashwagandha: Lion's mane for focus and ashwagandha for stress are popular, but I don't advise either one, and this protocol doesn't use them."
+    ],
+    [
+     "AI-Generated",
+     "High",
+     52,
+     "People on forums and YouTube report rare cases where they were left with anhedonia (when nothing feels good anymore) and sexual problems for months after they stopped taking them. These lasting effects haven't been studied yet, but they're the same kind that regulators already warn can follow SSRIs and finasteride."
+    ]
+   ]
+  },
+  "agm": {
+   "uuid": "1eea33ab-e9b9-4bd4-b32d-0489aec27358",
+   "at": "2026-11-23T13:09:08.124296-05:00",
+   "headline": "AI Generated",
+   "ai": 1.0,
+   "words": 72,
+   "windows": [
+    [
+     "AI-Generated",
+     "High",
+     72,
+     "Stop immediately if it causes flatness, anhedonia, emotional blunting, new depression, agitation, insomnia, dizziness, palpitations, nausea, loose stools, diarrhea, or increased craving. Only the stomach problems showed up in the human trials, but the flatness happens in practice, so do not \"push through\" numbness. In rare reports, the anhedonia lasted for weeks after people stopped taking it. If agmatine makes the world more gray, it is the wrong tool for that phase."
+    ]
+   ]
+  },
+  "htp": {
+   "uuid": "e48362d5-bcae-42d3-ab11-2965f7404666",
+   "at": "2026-11-23T13:09:18.954091-05:00",
+   "headline": "Human Written",
+   "ai": 0.0,
+   "words": 95,
+   "windows": [
+    [
+     "Human",
+     "High",
+     95,
+     "Side effects / stop signs: The most dangerous symptoms to watch out for are diagnostic of serotonin syndrome, which can be deadly if untreated: agitation + sweating + diarrhea + tremor/clonus + fever, confusion, fast heart rate, or unstable blood pressure. Other stop signs include less dangerous symptoms (some of which are part of serotonin syndrome, but not dangerous alone) like nausea, stomach discomfort, loose stools, headache, vivid or intense dreams, insomnia, sweating, tremor, anxiety, irritability, emotional agitation, or a too-bright / hypomanic feeling. And rarely, people report anhedonia that goes on for weeks after they stop 5-HTP."
+    ]
+   ]
+  }
+ }
+}

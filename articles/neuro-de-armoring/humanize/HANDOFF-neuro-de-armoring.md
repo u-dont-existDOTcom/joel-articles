@@ -18,6 +18,39 @@ From an account with Desktop Commander connected to the laptop: "Continue my neu
 
 ## START HERE
 
+- **2026-11-23, after his message of 17:25 UTC: questions 34 to 56 and card W35 wait on him; two of his warnings are in
+  progress.** HUMANIZED-SO-FAR.md is a3dfdecd, with his 5-HTP warning in (`fix-20261108/x1123a/APPLIED-X1123A.json`; it
+  read Human High by itself, https://www.pangram.com/history/e48362d5-bcae-42d3-ab11-2965f7404666). **Every turn, first**:
+  the cards page's stored answers (ArtifactData `list`, collection "decisions",
+  https://claude.ai/artifact/9nENpt9AEJCB43a9Wy5jqn, version 1795456787-f2b3, card W35; lesson 13b) and the answers in
+  his message (questions page https://claude.ai/artifact/8cWv5mbXY8y53RL1nhvzky, version 32, 1795459052-8a50).
+  **What this turn did**: (1) the Weeks 3–5 line for his 16a and 17 used its six tries by itself
+  (`x1120a/texts_x1120a.py` W35E to W35R, `x1120a/checks-1123` to `-1123f`, the tell panel in `x1120a/panel-w35p`; the best, try 3, every window High but one Medium), so it is card W35 (`x1123a/REVIEW-X1123A.md`, built by
+  `x1123a/build_x1123a.py`). **When his version comes**: it goes in by script as his, at the top of Weeks 3–5 (after the
+  line starting `Weeks 3–5: The Dynorphin Void`, before `Protocol:Reduce or stop phosphatidylserine here.`), with "the
+  5-HTP section" as an anchor link (lesson toc-2026-11-23b), then old items 2.2 and 2.3
+  (`fix-20261108/coherence/CONTRADICTIONS-FATES.json`) and x1123a item 6 go to "answered". (2) His warnings
+  (`x1122a/WARNINGS-SOURCES.md`, both sides): 5-HTP in; **lion's mane and ashwagandha** (`x1123a/texts_x1123a.py` LMA3, a new
+  item between the Cognitive Warning's second paragraph and the Agmatine Warning) read AI twice by itself
+  (`x1123a/checks-1123g`, `-1123h`; ledger #193 and #196; 2 of 6 tries), so next is the tell panel
+  (`tools/humanization/tell_panel.py prompt`), then the fixes until it reads right, then try 3; **agmatine**
+  (`texts_x1123a.py` AGM_ADD, after "so do not "push through" numbness." in the stop-signs paragraph at the top) made that
+  paragraph read 100% AI High (model text, mine to fix, E373), and question 35 asks about that very paragraph's list, so
+  it is rewritten once he answers 35, with his sentence in, and checked by itself. His rule of 2026-11-23 in the project's
+  memory: he fixes a passage to read right and flow first, without thinking of Pangram, and checks only once it is fully
+  right, since a half-fixed text's results swing. (3) The contradictions check, run again
+  (`fix-20261108/coherence/x1123a/`: BRIEF.txt, EXTRACT.md with 35 items, FATES.json, CHECK.md): 4 explained, 2 answered,
+  2 applying (item 6, card W35; item 29, his 26a: Weeks 1–2's agmatine line says "once or twice daily" like line 240, to
+  go in with his next answers, checked by itself), 3 not a conflict (listed on his page for him to overrule), 24 as
+  questions 34 to 55; question 56 is his 31a against the Weeks 3–5 showers line (the bullet of 2026-11-22). The old
+  fates file's 2.10 was wrong (his 23 was about psychedelics): now question 42. `record_gui.py` (fix-20261104/checks)
+  writes windows as dicts now, so `apply_gate.py` can read them. **When his answers come**: each answer becomes its text
+  change by script, the way `x1122a/apply_x1122a.py` does; a changed paragraph of model text is checked by itself first
+  (lesson 14a); his own words go in as he says them; then `contradictions.py check ... --done` over x1123a.
+  Each section the questions page names links to its anchor on the live post (lesson toc-2026-11-23b,
+  `x1123a/section_links_x1123a.py`); the post's 25 anchors, read on the rendered page this turn, all match
+  `tools/humanization/section_links.py` slugs, including the headings with ; ( ) and / it marks UNCHECKED
+  (`x1123a/live_anchors_20261123.txt`). Dose figures stay out of replies.
 - **2026-11-22, after his message of 17:39 UTC: no question open; three pieces of work wait.** HUMANIZED-SO-FAR.md is
   027122dc, with his answers 24 to 33 in (`fix-20261108/x1122a/APPLIED-X1122A.json`); his message word for word:
   `fix-20261108/joel-20261122-1739-message.txt`. **Every turn, first**: the cards page's stored answers (ArtifactData

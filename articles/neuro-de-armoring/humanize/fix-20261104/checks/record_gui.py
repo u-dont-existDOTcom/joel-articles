@@ -42,7 +42,10 @@ def main():
         assert open_p and open_p['key'] == p['key'], ('no open prediction for', p['key'])
         rec = pl.result_rec(open_p, verdict, link, {'headline': r['headline'], 'ai_fraction': r['ai'], 'words_read': r['words'],
                                                      'detector': got['detector'], 'at': r['at']})
-        rec['windows'] = ['%s, %s, %d' % (w[0].replace('AI-Generated', 'AI'), w[1], w[2]) for w in r['windows']]
+        # windows as dicts, with each window's text (2026-11-23: as strings, apply_gate.py and the near-miss rule in
+        # pangram_ledger.py read no windows at all, and the 5-HTP warning's Human High check was refused)
+        rec['windows'] = [{'label': w[0].replace('AI-Generated', 'AI'), 'confidence': w[1], 'words': w[2], 'text': w[3]}
+                          for w in r['windows']]
         out.append(rec)
         pct = '%.1f%% AI' % (r['ai'] * 100)
         rows.append((p, r, link, verdict, pct, rec['right']))

@@ -1,0 +1,151 @@
+{
+ "article": "articles/neuro-de-armoring/humanize/HUMANIZED-SO-FAR.md",
+ "extract": "articles/neuro-de-armoring/humanize/fix-20261108/coherence/x1123a/EXTRACT.md",
+ "about": "the contradictions check run again over the whole article, 2026-11-23 (gate neuro-2026-11-20a; his message of 2026-11-23 17:25 UTC: \"then the contradictions check again\"); the article read was HUMANIZED-SO-FAR.md a3dfdecd",
+ "items": {
+  "1": {
+   "fate": "not-a-conflict",
+   "note": "line 21 is about the dopamine of excitement, novelty and the chase (line 23 names romance and high-stakes drama); the Void's spark (lines 324-336) comes from hot and cold showers and microdoses, which are neither. Listed on his questions page under 'Not contradictions after all', for him to overrule"
+  },
+  "2": {
+   "fate": "question",
+   "ref": "OWNER-QUESTIONS.md, question 34"
+  },
+  "3": {
+   "fate": "question",
+   "ref": "OWNER-QUESTIONS.md, question 35"
+  },
+  "4": {
+   "fate": "not-a-conflict",
+   "note": "lines 35 and 326 are about using UMP or 5-HTP to make a trip stronger; line 174 is about psychedelic sensitivity coming back in someone whose tolerance was abnormally high (line 164), which is why it says to lower the old dose. Listed on his questions page under 'Not contradictions after all'"
+  },
+  "5": {
+   "fate": "question",
+   "ref": "OWNER-QUESTIONS.md, question 36"
+  },
+  "6": {
+   "fate": "applying",
+   "ref": "his answer 17 (old item 2.3): the Weeks 3-5 line, x1120a/texts_x1120a.py W35R, six Pangram tries by itself (x1120a/checks-1123 to -1123f), card W35 on the cards page (x1123a/REVIEW-X1123A.md) for his version"
+  },
+  "7": {
+   "fate": "question",
+   "ref": "OWNER-QUESTIONS.md, question 37"
+  },
+  "8": {
+   "fate": "explained",
+   "ref": "line 41, \"(well, alongside)\""
+  },
+  "9": {
+   "fate": "question",
+   "ref": "OWNER-QUESTIONS.md, question 38",
+   "note": "the 10-20 minutes of the Color-Path game (line 126) is a visual task, not trauma processing; the open part is when the D-Serine sessions (line 302) may start, since line 55 drops long sessions only 'temporarily'"
+  },
+  "10": {
+   "fate": "question",
+   "ref": "OWNER-QUESTIONS.md, question 39"
+  },
+  "11": {
+   "fate": "question",
+   "ref": "OWNER-QUESTIONS.md, question 38"
+  },
+  "12": {
+   "fate": "explained",
+   "ref": "line 89 (D-Serine/DCS against agmatine); for magnesium, line 83: it plugs the channel while the cell is at rest, the plug a learning signal lifts"
+  },
+  "13": {
+   "fate": "question",
+   "ref": "OWNER-QUESTIONS.md, question 40",
+   "note": "PubMed and ClinicalTrials.gov, 2026-11-23: no trial of D-serine added to exposure therapy; one small trial of D-serine alone in chronic PTSD (Heresco-Levy 2009, NCT00215878, doi 10.1017/S1461145709000339) and mouse fear-extinction studies (Balu 2018, doi 10.1016/j.biopsych.2017.08.012); the social anxiety and public speaking exposure trials used DCS"
+  },
+  "14": {
+   "fate": "question",
+   "ref": "OWNER-QUESTIONS.md, question 41",
+   "note": "leucine was cut on his word (card SB-42, fix-20261107/sci/x1107a/ANSWERS-X1107A-20261107-1310.json: 'forum evidence goes against the use of leucine, so cut it'), so 'Leu' leaves the Rescue line whatever he answers"
+  },
+  "15": {
+   "fate": "question",
+   "ref": "OWNER-QUESTIONS.md, question 41"
+  },
+  "16": {
+   "fate": "explained",
+   "ref": "line 246, \"use it as a 7-14 day anxiety-phase experiment, not a forever baseline\""
+  },
+  "17": {
+   "fate": "question",
+   "ref": "OWNER-QUESTIONS.md, question 42",
+   "note": "old item 2.10 (question 23): his answer 23 was about agmatine with psychedelics and went in as 33b, so the timing lines were never decided; the old fates file said answered by 33b, corrected"
+  },
+  "18": {
+   "fate": "question",
+   "ref": "OWNER-QUESTIONS.md, question 43"
+  },
+  "19": {
+   "fate": "question",
+   "ref": "OWNER-QUESTIONS.md, question 44"
+  },
+  "20": {
+   "fate": "question",
+   "ref": "OWNER-QUESTIONS.md, question 45"
+  },
+  "21": {
+   "fate": "question",
+   "ref": "OWNER-QUESTIONS.md, question 46"
+  },
+  "22": {
+   "fate": "question",
+   "ref": "OWNER-QUESTIONS.md, question 47"
+  },
+  "23": {
+   "fate": "answered",
+   "ref": "his answer 20 (old item 2.6), fix-20261108/x1120a/APPLIED-X1120A.json"
+  },
+  "24": {
+   "fate": "question",
+   "ref": "OWNER-QUESTIONS.md, question 48"
+  },
+  "25": {
+   "fate": "question",
+   "ref": "OWNER-QUESTIONS.md, question 49"
+  },
+  "26": {
+   "fate": "question",
+   "ref": "OWNER-QUESTIONS.md, question 50"
+  },
+  "27": {
+   "fate": "question",
+   "ref": "OWNER-QUESTIONS.md, question 51"
+  },
+  "28": {
+   "fate": "question",
+   "ref": "OWNER-QUESTIONS.md, question 52"
+  },
+  "29": {
+   "fate": "applying",
+   "ref": "his answer 26a (Weeks 1-2 follows the agmatine section), fix-20261108/x1122a/APPLIED-X1122A.json: line 348's 'twice daily' follows line 240's 'once or twice daily' too, unless he says otherwise; the changed line goes in with the next set of his answers, checked by itself"
+  },
+  "30": {
+   "fate": "question",
+   "ref": "OWNER-QUESTIONS.md, question 53"
+  },
+  "31": {
+   "fate": "question",
+   "ref": "OWNER-QUESTIONS.md, question 54"
+  },
+  "32": {
+   "fate": "answered",
+   "ref": "his answer 28a (old item 2.13), fix-20261108/x1122a/APPLIED-X1122A.json"
+  },
+  "33": {
+   "fate": "explained",
+   "ref": "line 342, his answer 31a: \"*No hot showers if heart rate elevated or heart-rate-variability reduced.*\""
+  },
+  "34": {
+   "fate": "not-a-conflict",
+   "note": "both can hold: line 332 gives the reason a cold finish ends the Void routine (a short stress signal), and line 342, his answer 31a, says people use cold showers against anxiety; neither forbids the other. Listed on his questions page under 'Not contradictions after all'"
+  },
+  "35": {
+   "fate": "question",
+   "ref": "OWNER-QUESTIONS.md, question 55"
+  }
+ }
+}
