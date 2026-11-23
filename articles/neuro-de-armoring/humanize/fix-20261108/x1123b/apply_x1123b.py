@@ -45,7 +45,7 @@ W35 = ("So you can tell what each new thing does, add them one at a time, starti
        "combos if you want and see how it feels. If you're too numb to tell, compare your sleep and dreams on the nights "
        "after each kind of day. Mushrooms act on serotonin too, just not the way iboga does, so stop the 5-HTP if you get "
        "any of the stop signs [the 5-HTP section](" + HTP + ") lists.")
-DSERINE_HEADING = '### D-Serine for a Planned Session'
+DSERINE_HEADING = '### D-Serine Sessions'
 
 # (answer, old words, new words): each old string must be in the article exactly once
 EDITS = [

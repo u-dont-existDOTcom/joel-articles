@@ -63,7 +63,7 @@ of day", but with "on a microdose day and a day without" gone, nothing before it
   linked to it. Your check: [Human Written, one window, High](https://www.pangram.com/history/dd9b04f2-605a-4d05-a1fc-256ad186a83e).
 - 🟢 **34 to 56 are in, by script** ([what went in](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261108/x1123b/APPLIED-X1123B.json)): 34 in your words ("psychoactive stacks
   (anything that works on the brain)"), 35a (one list of agmatine's stop signs at the top, the other two point to it),
-  36a, 37a, 38a (the D-Serine tactic is its own section after Scenario C, "D-Serine for a Planned Session", and its "acute
+  36a, 37a, 38a (the D-Serine tactic is its own section after Scenario C, "D-Serine Sessions" (short enough for the contents sidebar; say if you'd rather other words), and its "acute
   sessions" became planned ones), 39a, 40b (with "The idea is that it" now "The idea is that D-serine", since the
   sentence before it went), 41a, 42a, 43b ("entering the Void" too), 44a to 55a, 56b; and your 26a's "once or twice daily"
   in Weeks 1–2's agmatine line. Each section the new words name links to it. The fidelity check and the comparison read

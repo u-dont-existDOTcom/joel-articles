@@ -325,7 +325,7 @@ Fun with fungi: If the showers aren't enough, you can microdose Hillbilly or Maz
 
 Activate the "Inner Father": If you are lacking discipline, try a male iboga nasal spray micro-dose. 1 spray (equal to about 150mg of bark) in the morning, as it lasts 12 hours. Make sure to check all the dangerous iboga drug interactions. Full [iboga guide here](http://iboga.u-dont-exist.com/).
 
-### D-Serine for a Planned Session
+### D-Serine Sessions
 
 Advanced tactic: The D-Serine Memory Re-consolidator, for a planned session once you can stay under [the red line](https://ibogaqueen.substack.com/i/181671197/a-the-metabolic-red-line) through one, whatever the week. While L-Serine provides the building blocks for myelin, taking D-Serine (700mg–1400mg) on an empty stomach (no meal; the PQQ and ketones are fine) before a de-armoring session acts as a "memory (re)consolidator" which can cement the benefits of therapies like EMDR which aim to rewire the affective tone of memories.
 
