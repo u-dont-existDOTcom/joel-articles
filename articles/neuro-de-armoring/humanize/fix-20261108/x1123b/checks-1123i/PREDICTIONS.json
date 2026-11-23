@@ -1,0 +1,24 @@
+[
+ {
+  "key": "agm4",
+  "name": "Agmatine's stop signs, try 2 (the one full list, his warning in, rebuilt from the reads)",
+  "lineage": "neuro-de-armoring/W-AGM",
+  "scope": "paragraph",
+  "words": 133,
+  "call": "Human",
+  "chance": 0.5,
+  "why": "see the ledger record",
+  "sha256": "a119cae49a217aa7ab6ae8fed296ec72b102ea872858a493c36379a8db6c4a90"
+ },
+ {
+  "key": "lma5",
+  "name": "Lion's mane and ashwagandha item, try 3 (after the tell panel)",
+  "lineage": "neuro-de-armoring/W-LMA",
+  "scope": "paragraph",
+  "words": 72,
+  "call": "Human",
+  "chance": 0.5,
+  "why": "see the ledger record",
+  "sha256": "38dc42f655df68b290bf3391c79ac280ca5531ece0a642763b18de896a907599"
+ }
+]

@@ -1688,6 +1688,53 @@
     }
    ],
    "recorded_utc": "2026-11-23T18:38Z"
+  },
+  {
+   "turn": "2026-11-23T20:40Z",
+   "lines_of_work": [
+    "neuro de-armoring"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "AGENTS.md 7ef0bfc and LESSON-INDEX 62d9a9f unchanged (main 3d79cc81, checked again at 21:24 UTC); the lane's six suggested-fix items, all in the ledger"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "main at a8320818, merged here: this lane's 493 merged at 18:42 UTC; since then contents 497, 499, 500 and bad-trips 496, 498, with shared changes read (AGENTS.md on 'honestly', FIXING-AN-ARTICLE on Pangram's extension leaving headings out, lessons bad-trips 23a-g, romance 23e-h, toc 23c-e, his_fixes_brief ways 22 to 26, tells_lint O77); no new issues or comments. Checked again at 21:24 UTC: this lane's 501 merged at 20:56 UTC (main 1a9f3e45, fast-forwarded here), nothing else new"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no edits by others to the handoff or the questions page; the cards page's stored answers: card W35 revised with his version at 20:11 UTC, read from his export in his message; checked again at 21:24 UTC: nothing newer, no answers on the new cards yet"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "no queued notifications (checked again at 21:24 UTC)"
+    }
+   ],
+   "items": [
+    {
+     "item": "card W35",
+     "outcome": "his version in as he wrote it (his check: Human High), with the 5-HTP section linked"
+    },
+    {
+     "item": "questions 34 to 56",
+     "outcome": "all in by script (APPLIED-X1123B.json), fidelity PASS, comparison read PASS; every contradiction has its answer (check --done PASS)"
+    },
+    {
+     "item": "follow-ups",
+     "outcome": "questions 57 to 61 on his questions page (version 35)"
+    },
+    {
+     "item": "his lion's mane and agmatine warnings",
+     "outcome": "every try of mine read AI by itself (five and three), so both are teaching cards W-LMA and W-AGM on the cards page (version 1795468726-4260) for his versions"
+    }
+   ],
+   "recorded_utc": "2026-11-23T21:25Z"
   }
  ]
 }

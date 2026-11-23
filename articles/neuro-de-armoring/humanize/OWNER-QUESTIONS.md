@@ -1,8 +1,8 @@
 # Neuro de-armoring: what I need from Joel
 
-Last updated 2026-11-23, after your message of 17:25 UTC.
-**Open questions: 23** (34 to 56, from the contradictions check run again and your answer 31a). **For you to do**: card W35 on the cards
-page, your version of the Weeks 3–5 line.
+Last updated 2026-11-23, after your message of 20:40 UTC.
+**Open questions: 5** (57 to 61, small ones your answers left). **For you to do**: cards W-LMA and W-AGM on the cards
+page, your two warnings; your version of the Weeks 3–7 line and your answers 34 to 56 are in.
 
 Colours: 🟣 a question for you; 🟠 something for you to do; 🔵 next or in progress; 🟢 done or decided.
 
@@ -11,218 +11,43 @@ can read and update it. Every file it points to is a link.
 
 ## Open questions
 
-The contradictions check ran again over the whole article: a fresh reader found 35 pairs of statements that can't both
-hold ([the list](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261108/coherence/x1123a/EXTRACT.md), [what became of each](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261108/coherence/x1123a/CHECK.md)). The article explains 4 of them, your answers settled 2, 2 wait on
-work of mine for your answers (below), 3 turned out not to be contradictions (after the questions), and the other 24 are
-questions 34 to 55; question 56 comes from your answer 31a. Each has my pick where I have one: if most are right, answer "picks" and name only the ones you'd
-change (like "picks, but 38b, 43: your words").
+**🟣 57. D-serine "more effective" when a session ends well: that was DCS too.** With your 40b, the D-serine section's
+next sentence says some studies found D-serine works better when the exposure ends on a positive note. Those studies
+were of DCS ([Smits, et al, 2013](https://pmc.ncbi.nlm.nih.gov/articles/PMC3747985), which the science part already cites
+for it: "DCS (and maybe D-serine)").
 
-**🟣 34. Agmatine with psychedelics: what does "psych" mean in the warning?** [The warning at the top](https://ibogaqueen.substack.com/i/181671197/a-complete-guide-to-bio-de-armoring) says not to use
-agmatine with other complex "psych" stacks without a physician who can weigh the interactions; your paragraph (33b) says
-you can try it with a trip; [Weeks 1–2](https://ibogaqueen.substack.com/i/181671197/part-5-the-timeline-the-8-week-path) says not to add it on a day you microdose ([the lines](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261108/coherence/x1123a/EXTRACT.md), item 2).
-
-- a) Psychiatric drugs: the warning says "psychiatric drug stacks", and the Weeks 1–2 line stays, since it's about the day
-  you start agmatine. (My pick: then all three hold, and it matches your answer 23.)
-- b) Psychedelics too: your paragraph says to try agmatine with a trip only with such a physician.
+- a) It goes too, for the same reason as your 40b. (My pick.)
+- b) It says DCS: "Some studies suggested that DCS is more effective at this ...".
 - c) Your words.
 
-**🟣 35. Agmatine's stop signs: one list, said once?** [The warning at the top](https://ibogaqueen.substack.com/i/181671197/a-complete-guide-to-bio-de-armoring), [the Shield's cycle rule](https://ibogaqueen.substack.com/i/181671197/2-the-glutamate-shield-anxiety) and [Weeks 1–2](https://ibogaqueen.substack.com/i/181671197/part-5-the-timeline-the-8-week-path) each
-list them, and each list has signs the others leave out (palpitations and new depression only in the first, apathy only in
-the second, no stomach signs in the third) ([the lines](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261108/coherence/x1123a/EXTRACT.md), item 3).
+**🟣 58. Zinc and L-serine in the daily list: how much?** With your 41a, [Weeks 1–2](https://ibogaqueen.substack.com/i/181671197/part-5-the-timeline-the-8-week-path)'s daily list now has "Magnesium
+Glycinate 400 mg with zinc at night + L-Serine", but the article gives no amount for either anywhere (the old Repair Stack
+didn't either). No pick: they're your amounts.
 
-- a) One list with every sign from the three, in the warning at the top; the other two say to stop at any of its stop
-  signs. (My pick: said once, with nothing lost.)
-- b) The same full list in all three places.
+- a) Your amounts.
+- b) No amounts, as now.
+
+**🟣 59. Scenario C's "Mechanism:" line now names no mechanism.** With your 43b it starts "Mechanism: You feel "dead."
+You need to force a spark." ([Scenario C](https://ibogaqueen.substack.com/i/181671197/scenario-c-the-void)).
+
+- a) "Mechanism: DeltaFosB is still holding the armor (see [section C](https://ibogaqueen.substack.com/i/181671197/c-the-hardened-circuit-dynorphin-and-deltafosb))." (My pick: it's what your
+  section C paragraph says keeps the learning from clicking.)
+- b) The label goes: the line starts "You feel "dead.""
 - c) Your words.
 
-**🟣 36. 5-HTP with serotonergic drugs or iboga: never, or after a clinician's review?** [The warning at the top](https://ibogaqueen.substack.com/i/181671197/a-complete-guide-to-bio-de-armoring) allows it
-after a clinician's review (and near iboga, after a medical review of the whole plan); [the 5-HTP line in the Shield](https://ibogaqueen.substack.com/i/181671197/2-the-glutamate-shield-anxiety) and
-[Weeks 3–5](https://ibogaqueen.substack.com/i/181671197/part-5-the-timeline-the-8-week-path) say never, with no exception ([the lines](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261108/coherence/x1123a/EXTRACT.md), item 5).
+**🟣 60. "The Dynorphin Bridge"?** The Void's add-ons in [the Glutamate Shield](https://ibogaqueen.substack.com/i/181671197/2-the-glutamate-shield-anxiety) still go by "The Dynorphin Bridge
+(Apathy / DAWS-pattern Void)".
 
-- a) Never: the warning at the top drops its two review clauses. (My pick: it matches the other two lines and your answer
-  17, "except iboga with 5htp, no".)
-- b) After a clinician's review: the other two lines say so too.
-- c) Your words.
-
-**🟣 37. "4 specific problems", but five sections (A to E)?** [The opening](https://ibogaqueen.substack.com/i/181671197/psychology-is-the-software-biology-is-the-hardware) says the protocol goes after 4 problems; [Part 1](https://ibogaqueen.substack.com/i/181671197/part-1-the-science-why-we-do-this)
-has five lettered sections and doesn't say which four ([the lines](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261108/coherence/x1123a/EXTRACT.md), item 7).
-
-- a) Five: "go after 5 specific neuro-biological problems (A to E below)". (My pick: each section is one thing that goes
-  wrong.)
-- b) A is the rule behind the other four: the opening says so.
-- c) Your words.
-
-**🟣 38. When, and in what state, is a D-Serine session?** [The science](https://ibogaqueen.substack.com/i/181671197/b-the-overheating-cpu-glutamate-excitotoxicity) says processing trauma above the red line adds
-armor, and that a session that ends overwhelmed can lock the fear in; [the opening](https://ibogaqueen.substack.com/i/181671197/psychology-is-the-software-biology-is-the-hardware) drops long sessions "temporarily", with
-no end given; and the D-Serine tactic sits in [Scenario A](https://ibogaqueen.substack.com/i/181671197/scenario-a-the-glutamate-storm), the Glutamate Storm, whose instruction is for when the wave hits
-([the lines](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261108/coherence/x1123a/EXTRACT.md), items 9 and 11). The 10–20 minutes of the Color-Path game isn't trauma processing, so that part holds.
-
-- a) The D-Serine tactic gets its own short section after the scenarios, for a planned session once you can stay under the
-  red line through one, whatever the week. (My pick: that's the article's own rule, and it says when "temporarily" ends.)
-- b) It stays in Scenario A, saying it's for a planned session once the storm has passed.
-- c) Your words.
-
-**🟣 39. Section B repeats section A's red line, hedged: keep one?** [Section A](https://ibogaqueen.substack.com/i/181671197/a-the-metabolic-red-line) says it flatly (a raised heart rate shifts
-blood away from the cortex, and DeltaFosB is the armor); [a paragraph in section B](https://ibogaqueen.substack.com/i/181671197/b-the-overheating-cpu-glutamate-excitotoxicity), also called "The Metabolic Red Line",
-says Perry's data "proves" it, then gives the same points as "often", "may" and "the research isn't settled" ([the lines](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261108/coherence/x1123a/EXTRACT.md), item 10).
-
-- a) B's copy goes, and the two things in it that A lacks move to A: the "window of tolerance" many trauma therapies keep
-  to, and that the DeltaFosB research isn't settled. (My pick: said once, with nothing lost.)
-- b) Keep both, with A hedged like B.
-- c) Your words.
-
-**🟣 40. Has D-serine itself been tested with exposure therapy?** [The science part](https://ibogaqueen.substack.com/i/181671197/b-the-overheating-cpu-glutamate-excitotoxicity) says the drug tested alongside exposure
-therapy is DCS, not D-serine; [Scenario A](https://ibogaqueen.substack.com/i/181671197/scenario-a-the-glutamate-storm) says D-serine itself has worked in exposure-therapy studies of social anxiety, PTSD
-and fear of public speaking ([the lines](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261108/coherence/x1123a/EXTRACT.md), item 13). What I found in PubMed and ClinicalTrials.gov: the exposure-therapy trials for social
-anxiety and public speaking used DCS. D-serine itself has one small trial in chronic PTSD, where it was given on its own,
-without exposure therapy (anxiety scores fell, and the PTSD scale trended better: [Heresco-Levy, et al,
-2009](https://doi.org/10.1017/S1461145709000339)), and mouse studies where it helped fear extinction ([Balu, et al,
-2018](https://doi.org/10.1016/j.biopsych.2017.08.012)).
-
-- a) Scenario A says what's known: exposure therapy was tested with DCS, and D-serine has one small PTSD trial on its own
-  and the mouse studies. (My pick: it's what the studies show.)
-- b) That sentence goes, since the science part already says it.
-- c) Your words.
-
-**🟣 41. L-serine and the Repair Stack: daily, or for attacks?** Leucine is out by your SB-42 cut, so "Leu" leaves the
-[Weeks 1–2 Rescue line](https://ibogaqueen.substack.com/i/181671197/part-5-the-timeline-the-8-week-path)'s "Repair Stack (Zn/Leu/Ser)" either way. That leaves zinc and L-serine for acute attacks, while the
-[science part](https://ibogaqueen.substack.com/i/181671197/b-the-overheating-cpu-glutamate-excitotoxicity) has zinc as the Lock with magnesium, and [Scenario A](https://ibogaqueen.substack.com/i/181671197/scenario-a-the-glutamate-storm) says L-serine is for daily maintenance, yet neither is in
-the daily list ([the lines](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261108/coherence/x1123a/EXTRACT.md), items 14 and 15).
-
-- a) Daily: zinc goes with the nightly magnesium, L-serine joins the daily list, and the Rescue line drops the stack. (My
-  pick: Scenario A already says daily.)
-- b) For attacks: the Rescue line says "zinc + L-serine", and "daily maintenance" goes from Scenario A.
-- c) Your words.
-
-**🟣 42. Agmatine before a session: one timing rule?** Your answer 23 was about agmatine with psychedelics (it went in as
-33b), so this part of question 23 is still open. One line says not to take agmatine "immediately before" a session for
-reconsolidation, with no gap given, while [the timing rule](https://ibogaqueen.substack.com/i/181671197/2-the-glutamate-shield-anxiety) says to avoid it that whole day or keep it hours away from the
-session ([the lines](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261108/coherence/x1123a/EXTRACT.md), item 17).
-
-- a) The first line points to the timing rule. (My pick: one rule, said once.)
-- b) Keep both as they are.
-
-**🟣 43. If dynorphin clears quickly, what keeps the Void going for weeks?** [Your paragraph in section C](https://ibogaqueen.substack.com/i/181671197/c-the-hardened-circuit-dynorphin-and-deltafosb) says dynorphin
-clears relatively quickly and DeltaFosB is what keeps the learning from clicking; [the timeline](https://ibogaqueen.substack.com/i/181671197/part-5-the-timeline-the-8-week-path) calls Weeks 3–5 "The
-Dynorphin Void", and [Scenario C](https://ibogaqueen.substack.com/i/181671197/scenario-c-the-void) says "The Dynorphin block is active" ([the lines](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261108/coherence/x1123a/EXTRACT.md), item 18). No pick: it's your science.
-
-- a) The names stay, and Weeks 3–5 says the Void outlasts the dynorphin because DeltaFosB still holds the armor, as your
-  paragraph has it.
-- b) "Dynorphin" leaves the Void's names: Weeks 3–5 is "The Void (Depression Phase)", and Scenario C drops "The Dynorphin
-  block is active".
-- c) Your words.
-
-**🟣 44. SSRIs: trials "mixed", then "don't work"?** [The trials paragraph](https://ibogaqueen.substack.com/i/181671197/c-the-hardened-circuit-dynorphin-and-deltafosb) says results in veterans have been mixed since;
-the next asks why these drugs don't work on calcified PTSD ([the lines](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261108/coherence/x1123a/EXTRACT.md), item 19).
-
-- a) The question matches the trials: "Why do these drugs so often fail on calcified PTSD?" (My pick.)
-- b) Keep it as it is.
-- c) Your words.
-
-**🟣 45. [Week 8+](https://ibogaqueen.substack.com/i/181671197/part-5-the-timeline-the-8-week-path): "Hardware reset complete"?** [The science part](https://ibogaqueen.substack.com/i/181671197/c-the-hardened-circuit-dynorphin-and-deltafosb) says DeltaFosB fades slowly, the same fears keep making
-more, and nobody has tested whether iboga or psilocybin loosen it; Week 8+ says it's degraded "if the animal timelines carry
-over", then "Hardware reset complete" ([the lines](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261108/coherence/x1123a/EXTRACT.md), item 20).
-
-- a) "Hardware reset complete" goes, and the "if" stays. (My pick: then the line says only what's known.)
+- a) "The Void Bridge". (My pick: your 43b took "Dynorphin" out of the Void's names.)
 - b) Keep it.
-- c) Your words.
 
-**🟣 46. The Jammer: right after a trigger, or after Steps 1 and 2?** [Section E](https://ibogaqueen.substack.com/i/181671197/e-the-save-button-memory-reconsolidation) says to play the game for 10–20 minutes
-immediately after a trigger; [Scenario A](https://ibogaqueen.substack.com/i/181671197/scenario-a-the-glutamate-storm) puts it third, after five minutes of rhythm and once your heart rate is back to
-normal ([the lines](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261108/coherence/x1123a/EXTRACT.md), item 21).
+**🟣 61. Your Weeks 3–7 line: "each kind of day"?** [Your line](https://ibogaqueen.substack.com/i/181671197/part-5-the-timeline-the-8-week-path) ends "compare your sleep and dreams on the nights after each kind
+of day", but with "on a microdose day and a day without" gone, nothing before it says what the two kinds are.
 
-- a) Section E says to play it as soon as your heart rate is back down after a trigger (Scenario A's Steps 1 and 2). (My
-  pick: Scenario A's order comes with its reason, rhythm first.)
-- b) Scenario A plays the game first.
-- c) Your words.
+- a) "... on the nights after a microdose day and a day without." (My pick: I'd check it again by itself, since your
+  version read High as it is.)
+- b) Keep it as you wrote it.
 
-**🟣 47. Cortisol before ketones, or BHB salts for everyone from week 1?** [Part 2](https://ibogaqueen.substack.com/i/181671197/fixing-atp-signaling-if-cortisol-isnt-high) says to address cortisol before ketones,
-and gives PQQ with ketones as the path when cortisol isn't high; [Weeks 1–2](https://ibogaqueen.substack.com/i/181671197/part-5-the-timeline-the-8-week-path) starts everyone on BHB salts, in the same list as
-PS ([the lines](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261108/coherence/x1123a/EXTRACT.md), item 22).
-
-- a) Weeks 1–2 says it: if you're the high-cortisol type, start PS first and add the BHB salts once you know how PS sits;
-  if not, take PQQ with the salts from the start. (My pick: it's what Part 2 says, one change at a time.)
-- b) Part 2's "before ketones" means first in importance, not first in time: it says so, and Weeks 1–2 stays.
-- c) Your words.
-
-**🟣 48. 5-HTP: the lower start for everyone, or only if you're sensitive?** [The 5-HTP section](https://ibogaqueen.substack.com/i/181671197/serotonin-bottleneck-pattern-5-htp-low-dose-p5p) starts lower only "if
-you're sensitive" (otherwise at Scott's dose); [Weeks 3–5](https://ibogaqueen.substack.com/i/181671197/part-5-the-timeline-the-8-week-path) starts everyone lower ([the lines](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261108/coherence/x1123a/EXTRACT.md), item 24).
-
-- a) Everyone starts lower: the 5-HTP section drops "If you're sensitive". (My pick: the trial then reads the same in both
-  places, and it costs a couple of nights.)
-- b) Only if you're sensitive: Weeks 3–5 says so.
-- c) Your words.
-
-**🟣 49. Vivid dreams on 5-HTP: a good sign, or a stop sign?** [The 5-HTP section](https://ibogaqueen.substack.com/i/181671197/serotonin-bottleneck-pattern-5-htp-low-dose-p5p) names more vivid or memorable dreams as a
-sign it's the right tool; the next paragraph lists vivid or intense dreams as a stop sign ([the lines](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261108/coherence/x1123a/EXTRACT.md), item 25).
-
-- a) The stop sign becomes "dreams so intense they disturb your sleep", and vivid dreams stay a good sign. (My pick.)
-- b) Your words.
-
-**🟣 50. One name for each ketone strategy?** [Part 2](https://ibogaqueen.substack.com/i/181671197/fixing-atp-signaling-if-cortisol-isnt-high) calls them "Crisis Mode" and "Resilience Mode", and Strategy A's diet
-"a standard low-sugar diet"; [the Shield's headings](https://ibogaqueen.substack.com/i/181671197/1-electrolytes-choose-your-path) say "Quick Fix" and "Deep Fix", and "Standard Diet" ([the lines](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261108/coherence/x1123a/EXTRACT.md), item 26).
-
-- a) "Crisis Mode" and "Resilience Mode" everywhere, and "Low-Sugar Diet" in the Shield's heading. (My pick: Part 2 is
-  where they're explained.)
-- b) "Quick Fix" and "Deep Fix" everywhere.
-- c) Your words.
-
-**🟣 51. The long-run diet: strict keto, or low carb with keto seasons?** [Part 2](https://ibogaqueen.substack.com/i/181671197/fixing-atp-signaling-if-cortisol-isnt-high) gives Strategy B, strict keto, as the
-long-run plan; [Week 8+](https://ibogaqueen.substack.com/i/181671197/part-5-the-timeline-the-8-week-path) says to keep up low carb, with keto only seasonally ([the lines](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261108/coherence/x1123a/EXTRACT.md), item 27).
-
-- a) Part 2 says strict keto is for the repair weeks, and low carb with keto seasons is for after them. (My pick: then both
-  hold.)
-- b) Strict keto stays the long-run plan: Week 8+ says so.
-- c) Your words.
-
-**🟣 52. The potato as "the King of Potassium"?** [The same list](https://ibogaqueen.substack.com/i/181671197/1-electrolytes-choose-your-path) gives beet greens and salmon more potassium than the
-potato ([the lines](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261108/coherence/x1123a/EXTRACT.md), item 28).
-
-- a) The label goes. (My pick: the numbers beside it say otherwise.)
-- b) Your words.
-
-**🟣 53. [Weeks 3–5](https://ibogaqueen.substack.com/i/181671197/part-5-the-timeline-the-8-week-path): "The anxiety stops", yet agmatine stays for storms?** The phase's State line says the anxiety stops,
-and its Transition line says the acute storm has passed, while your 22a rule keeps agmatine in this phase if it's still
-helping acute glutamate storms ([the lines](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261108/coherence/x1123a/EXTRACT.md), item 30).
-
-- a) The State line says "The anxiety mostly stops", and the Transition line "now that the worst of the storm has
-  passed". (My pick: then your rule has storms to be for.)
-- b) Your words.
-
-**🟣 54. D-serine "on an empty stomach", after PQQ and ketones?** [Scenario A](https://ibogaqueen.substack.com/i/181671197/scenario-a-the-glutamate-storm) says to take it on an empty stomach, and your
-order (27a) has PQQ and ketones 45 minutes before it ([the lines](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261108/coherence/x1123a/EXTRACT.md), item 31).
-
-- a) "On an empty stomach (no meal; the PQQ and ketones are fine)". (My pick.)
-- b) Your words.
-
-**🟣 55. "The 8-Week Path" skips weeks 6 and 7.** [Its stages](https://ibogaqueen.substack.com/i/181671197/part-5-the-timeline-the-8-week-path) are Weeks 1–2, Weeks 3–5 and Week 8+ ([the lines](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261108/coherence/x1123a/EXTRACT.md), item 35).
-
-- a) The Void phase runs to the baseline: "Weeks 3–7". (My pick: Week 8 stays where the DeltaFosB line puts it.)
-- b) The baseline starts sooner: "Week 6+".
-- c) Your words.
-
-**🟣 56. Hot showers for numbness (your 31a)?** Your answer 31a says you'd use hot showers when someone feels numb and
-cold for anxiety. [Weeks 1–2](https://ibogaqueen.substack.com/i/181671197/part-5-the-timeline-the-8-week-path) now says that for anxiety, but Weeks 3–5, the numb phase, still alternates hot and cold ending
-on cold, as Scenario C's Void routine does (three minutes hot, one minute cold, three times) ([Weeks 3–5's line](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/HUMANIZED-SO-FAR.md?plain=1#L366),
-[Scenario C's routine](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/HUMANIZED-SO-FAR.md?plain=1#L328-L334)). No pick: it's your practice.
-
-- a) Both stay: the routine is mostly hot already, and Weeks 3–5 says so ("Hot & cold showers, mostly hot, ending on
-  cold").
-- b) Weeks 3–5 says hot showers for the numbness, and Scenario C's routine stays as the stronger option.
-- c) Your words.
-
-- 🟢 **Not contradictions after all** (say if you see one otherwise): starving the brain of excitement [at the top](https://ibogaqueen.substack.com/i/181671197/a-complete-guide-to-bio-de-armoring) and the
-  [Void's](https://ibogaqueen.substack.com/i/181671197/scenario-c-the-void) "force a spark" (the first is about the dopamine of novelty and the chase, like romance and drama; the spark comes
-  from showers and microdoses); "not trip enhancers" and [UMP's](https://ibogaqueen.substack.com/i/181671197/dopamine-receptor-burnout-daws-pattern-uridine-monophosphate) hoped-for return of psychedelic sensitivity (the first is
-  about making a trip stronger, the second about tolerance coming back down in someone whose tolerance was abnormally high,
-  which is why it says to lower the old dose); cold as a stress spike in the Void and your cold showers for anxiety (one
-  is why cold ends the Void routine, the other what people use it for, and neither forbids the other).
-- 🟢 **Explained in the text, or settled by your answers**: biology before psychology ("well, alongside"), D-serine against
-  the NMDA brakes, agmatine not being a daily nutrient (the 7–14 day experiment), and heat against hot baths (your "No hot
-  showers if heart rate elevated"); the mackerel's PS (your 20) and the D-serine cap (your 28a).
-- 🔵 **Waiting on work of mine for your answers**: the Weeks 3–5 line (your 17: card W35, below), and the agmatine dose
-  in Weeks 1–2 saying "once or twice daily" like the agmatine section, since your 26a has Weeks 1–2 follow it (unless you
-  say otherwise); that line goes in with your next answers, checked by itself.
 - 🟢 **11, answered ("11yes add that")**: Zhong 2023 is cited after Vialou in your paragraph, with Nestler 2008 back
   beside them (below).
 - 🟢 **9 and 10, answered by your paragraph**: DeltaFosB stays the armor, and what it does is keep the learning from
@@ -230,33 +55,54 @@ on cold, as Scenario C's Void routine does (three minutes hot, one minute cold, 
 
 ## For you to do
 
-- 🟠 **Card W35 on the [cards page](https://claude.ai/artifact/9nENpt9AEJCB43a9Wy5jqn)** ([the card as a page](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261108/x1123a/REVIEW-X1123A.md)): your version of
-  the Weeks 3–5 line for your 16a and 17. I can't find any more AI tells in it, and I see some human tells, like your own
-  "there isn't enough data" and "to see how it feels", "don't take 5-HTP at all" and "If you're too numb to tell". Can you
-  help show me the tells I'm missing? It goes in as yours.
+- 🟠 **Cards W-LMA and W-AGM on the [cards page](https://claude.ai/artifact/9nENpt9AEJCB43a9Wy5jqn)** ([the cards as a page](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261108/x1123c/REVIEW-X1123C.md)): your lion's mane
+  and ashwagandha warning, and [agmatine's stop signs](https://ibogaqueen.substack.com/i/181671197/a-complete-guide-to-bio-de-armoring) with your lasting-anhedonia warning. Every try of mine read AI by
+  itself, five and three of them, each window High but the lion's mane item's first sentence (Low). I can't find any more
+  AI tells in them, and I see some human tells, like your own "not advising" and "it's something to keep in mind", and "or
+  you just stop caring". Can you help show me the tells I'm missing? Your versions go in as yours.
+
+## Your answers of 2026-11-23 20:40 UTC, and what I did
+
+- 🟢 **Your Weeks 3–7 line (card W35) is in as you wrote it**, at the top of the Void phase, with "the 5-HTP section"
+  linked to it. Your check: [Human Written, one window, High](https://www.pangram.com/history/dd9b04f2-605a-4d05-a1fc-256ad186a83e).
+- 🟢 **34 to 56 are in, by script** ([what went in](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261108/x1123b/APPLIED-X1123B.json)): 34 in your words ("psychoactive stacks
+  (anything that works on the brain)"), 35a (one list of agmatine's stop signs at the top, the other two point to it),
+  36a, 37a, 38a (the D-Serine tactic is its own section after Scenario C, "D-Serine Sessions" (short enough for the contents sidebar; say if you'd rather other words), and its "acute
+  sessions" became planned ones), 39a, 40b (with "The idea is that it" now "The idea is that D-serine", since the
+  sentence before it went), 41a, 42a, 43b ("entering the Void" too), 44a to 55a, 56b; and your 26a's "once or twice daily"
+  in Weeks 1–2's agmatine line. Each section the new words name links to it. The fidelity check and the comparison read
+  pass ([the read](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261108/x1123b/read-1123b/READER.md)).
+- 🟢 **Every contradiction now has its answer**: the check passes with nothing waiting on you
+  ([what became of each](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261108/coherence/x1123a/CHECK.md)). Questions 57 to 61 are what your answers left.
+- 🟠 **Agmatine's stop signs with your lasting-anhedonia warning: card W-AGM.** Three versions, each by itself, one
+  window AI High: [the post's paragraph](https://ibogaqueen.substack.com/i/181671197/a-complete-guide-to-bio-de-armoring) with the sentence added [100% AI](https://www.pangram.com/history/1eea33ab-e9b9-4bd4-b32d-0489aec27358), my rewrite from the fresh reads
+  [100% AI](https://www.pangram.com/history/ce4e4e6a-64fb-467d-8750-2ed33891c429), and one without the checklist the tell panel named [100% AI](https://www.pangram.com/history/4cc32d25-7fb2-41a2-a63f-21802c947517).
+- 🟠 **Lion's mane and ashwagandha: card W-LMA.** Five tries, each by itself: [93.5% AI](https://www.pangram.com/history/50622455-2e3a-482e-ac66-0ae461f68592) and [98.1% AI](https://www.pangram.com/history/e169798f-7c09-4000-befc-1ddd7642b40e)
+  (AI Low, AI High), then [100% AI](https://www.pangram.com/history/f7a711fe-ad7c-40d4-be5a-5f2e3f60a684) (High), [100% AI](https://www.pangram.com/history/f39c1285-a963-4dc0-982b-ddfe3bc2dfff) and [100% AI](https://www.pangram.com/history/069a4bf5-d703-4126-8fe1-aa7542f70790) (AI Low, AI High), the last in your
+  own phrases from your message.
 
 ## Your message of 2026-11-23 17:25 UTC, and what I did
 
-- 🟠 **The Weeks 3–5 line, checked by itself: six tries, none Human High in every window, so it's card W35** (above).
+- 🟢 **The Weeks 3–5 line, checked by itself: six tries, none Human High in every window, so it was card W35**, and your
+  version is in (above).
   Try 1 [AI Detected, 76% AI](https://www.pangram.com/history/236e28ea-f8e6-494c-a722-7f6f9cff7331) (AI Low, Human Low, AI Medium, AI High, AI Medium); try 2
   [Human Written](https://www.pangram.com/history/e5176e60-7a61-4e7d-b207-2a59adff9392) (Human High, Medium, Low, Medium); try 3 [Human
   Written](https://www.pangram.com/history/fefcb049-c5e8-46eb-9eca-fc4ffd645f98) (High, Medium, High), the closest; try 4 [Human
   Written](https://www.pangram.com/history/dac12965-24f9-4ad6-9595-652036780499) (High, Medium, High); try 5 [Human
   Written](https://www.pangram.com/history/56c14834-60a8-45c3-a6bb-a3dceaf51bb9) (High, Low, Medium); try 6 [Mostly Human Written, 3% AI](https://www.pangram.com/history/811ba601-3400-4e8e-a9ef-9b677089f177)
-  (Medium, High, Low, Low, Medium). Your 16a and 17 count as done once your version is in.
+  (Medium, High, Low, Low, Medium). With your version in, 16a and 17 are done.
 - 🟢 **Your 5-HTP warning is in**: the [5-HTP stop signs](https://ibogaqueen.substack.com/i/181671197/serotonin-bottleneck-pattern-5-htp-low-dose-p5p) end "And rarely, people report anhedonia that goes on for weeks
   after they stop 5-HTP." By itself, that paragraph read [Human Written, every window High](https://www.pangram.com/history/e48362d5-bcae-42d3-ab11-2965f7404666)
   ([what went in](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261108/x1123a/APPLIED-X1123A.json)).
-- 🔵 **Lion's mane and ashwagandha**: a new item before [the agmatine warning](https://ibogaqueen.substack.com/i/181671197/a-complete-guide-to-bio-de-armoring), saying you'd leave both out, with the rare
+- 🟠 **Lion's mane and ashwagandha, now card W-LMA (above)**: a new item before [the agmatine warning](https://ibogaqueen.substack.com/i/181671197/a-complete-guide-to-bio-de-armoring), saying you'd leave both out, with the rare
   reports of lasting anhedonia and sexual dysfunction, and SSRIs and finasteride as the known cases. Two tries read AI by
   themselves: [AI Detected, 93.5% AI](https://www.pangram.com/history/50622455-2e3a-482e-ac66-0ae461f68592) (AI Low, AI High) and [AI Detected, 98.1% AI](https://www.pangram.com/history/e169798f-7c09-4000-befc-1ddd7642b40e)
-  (AI Low, AI High). Next: a fresh panel reads it for the tells I'm missing, I fix it until it reads right, and only then
-  check it again.
-- 🔵 **Agmatine's warning**: its sentence goes in the stop-signs paragraph [at the top](https://ibogaqueen.substack.com/i/181671197/a-complete-guide-to-bio-de-armoring), which read [AI Generated, 100% AI,
+  (AI Low, AI High).
+- 🟠 **Agmatine's warning, now card W-AGM (above)**: its sentence goes in the stop-signs paragraph [at the top](https://ibogaqueen.substack.com/i/181671197/a-complete-guide-to-bio-de-armoring), which read [AI Generated, 100% AI,
   High](https://www.pangram.com/history/1eea33ab-e9b9-4bd4-b32d-0489aec27358) with it. That paragraph is model text, so it's mine to fix, and it's the one question 35 asks
   about, so I rewrite it once you've answered 35, with your sentence in, and check it then.
 - 🟢 **What's reported on both sides** for the warnings: [the sources](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261108/x1122a/WARNINGS-SOURCES.md).
-- 🟢 **The contradictions check, run again**: questions 34 to 55 above ([what became of each pair](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261108/coherence/x1123a/CHECK.md)). It also
+- 🟢 **The contradictions check, run again**: questions 34 to 55, answered at 20:40 ([what became of each pair](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261108/coherence/x1123a/CHECK.md)). It also
   found that my old note on question 23 was wrong: I'd marked it answered by 33b, but your answer 23 was about
   psychedelics, so question 42 asks it again.
 
@@ -268,10 +114,9 @@ on cold, as Scenario C's Void routine does (three minutes hot, one minute cold, 
   the order said once in the D-serine section; 28a; 29a, "as long as it benefits you" in the 5-HTP section and in Weeks
   3–5; 30a; 31a, your showers and baths line for Weeks 1–2, with your [breathwork page](http://breathwork.u-dont-exist.com/).
 - 🟢 **Lion's mane and ashwagandha**: the article advises neither anywhere.
-- 🔵 **Your new warnings** (lion's mane and ashwagandha, with SSRIs and finasteride as the known cases; agmatine and 5-HTP,
-  weeks of anhedonia in rare reports): the 5-HTP one is in; the other two are in progress (your message of 23 November,
-  above).
-- 🟠 **16a and 17**: their line used its six tries, so it's card W35 for your version (above).
+- 🟠 **Your new warnings** (lion's mane and ashwagandha, with SSRIs and finasteride as the known cases; agmatine and 5-HTP,
+  weeks of anhedonia in rare reports): the 5-HTP one is in; the other two are cards W-LMA and W-AGM (above).
+- 🟢 **16a and 17**: their line used its six tries, so it was card W35, and your version is in (above).
 
 ## Your answers of 2026-11-20 17:05 UTC, and what I did
 

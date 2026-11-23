@@ -2700,6 +2700,59 @@
     "47kg",
     "50mg"
    ]
+  },
+  {
+   "by": "fix-20261108/joel-20261123-2040-message.txt, answers 34 to 56, and card W35 (his version, fix-20261108/x1123a/ANSWERS-X1123A-20261123-2011.json), applied by fix-20261108/x1123b/apply_x1123b.py",
+   "why": "36a: 5-HTP is never combined with serotonin-raising drugs or used near ayahuasca/harmalas or iboga, so both review clauses go; 35a: the cycle rule's stop signs point to the one full list in the agmatine warning; 43b: the Void loses 'Dynorphin' in its names ('entering the Void', 'Weeks 3-7: The Void'); 44a: 'Why do these drugs so often fail on calcified PTSD?'; 53a: 'The anxiety mostly stops'; 55a: the Void phase runs Weeks 3-7; 37a: 5 problems, A to E; 46a: Scenario A's Steps 1 and 2; 51a: Strategy B's paragraph names the repair weeks (Weeks 3-7) and Week 8+",
+   "numbers_lost": [
+    "Weeks3-5"
+   ],
+   "numbers_new": [
+    "1",
+    "2",
+    "5",
+    "Week8+",
+    "Weeks3-7",
+    "Weeks3-7"
+   ],
+   "keys_lost": {
+    "W014": [
+     [
+      "without clinician review"
+     ]
+    ],
+    "W016": [
+     [
+      "unless"
+     ]
+    ],
+    "W024": [
+     [
+      "don't"
+     ],
+     [
+      "work"
+     ]
+    ],
+    "W059": [
+     [
+      "poor fit"
+     ]
+    ],
+    "W060": [
+     [
+      "appears"
+     ]
+    ],
+    "W078": [
+     [
+      "stops"
+     ],
+     [
+      "Weeks 3-5"
+     ]
+    ]
+   }
   }
  ],
  "warning_words": {

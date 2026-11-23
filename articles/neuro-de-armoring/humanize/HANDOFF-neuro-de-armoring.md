@@ -18,6 +18,33 @@ From an account with Desktop Commander connected to the laptop: "Continue my neu
 
 ## START HERE
 
+- **2026-11-23, after his message of 20:40 UTC: his version of the Weeks 3–7 line and his answers 34 to 56 are in;
+  questions 57 to 61 and teaching cards W-LMA and W-AGM wait on him.** HUMANIZED-SO-FAR.md is 47086992 (`fix-20261108/x1123b/apply_x1123b.py`,
+  `APPLIED-X1123B.json`); his message word for word: `fix-20261108/joel-20261123-2040-message.txt`; the card's export:
+  `x1123a/ANSWERS-X1123A-20261123-2011.json` (his check of his line: Human Written, one window, High,
+  https://www.pangram.com/history/dd9b04f2-605a-4d05-a1fc-256ad186a83e). Fidelity PASS (owner_changes entry for x1123b),
+  comparison read PASS (`x1123b/read-1123b/`, finding R1: Scenario C's Mechanism line, question 59). Both fates files pass
+  `contradictions.py check --done`. The D-Serine tactic is now its own section, `### D-Serine Sessions` (fits the contents
+  sidebar; "D-Serine for a Planned Session" was cut off), after Scenario C. The new words' section mentions link to the
+  live post's anchors; when the article goes into his post, build its section-link catalog (`section_links.py build`),
+  and the new heading's anchor is d-serine-sessions. Every turn, first: the cards page's stored answers and his message
+  (questions page https://claude.ai/artifact/8cWv5mbXY8y53RL1nhvzky, version 35, 1795468954-a78f; cards page
+  https://claude.ai/artifact/9nENpt9AEJCB43a9Wy5jqn, version 1795468726-4260, review neuro-de-armoring-cards-20261123-x1123c,
+  ArtifactData collection "decisions"). **When his answers to 57 to 61 come**: in by script the same way; 61a changes his
+  checked line, so check it again by itself. **His two other warnings are teaching cards** (`fix-20261108/x1123c/build_x1123c.py`
+  → `REVIEW-X1123C.md`, .json, .html; every try of mine read AI by itself, so the cards ask for his version in his
+  help-request words): **W-LMA**, lion's mane and ashwagandha, a new item inserted before block 14 (the Agmatine Warning),
+  after block 13 ("The armored brain projects…"); five tries (`x1123b/texts_x1123b.py` LMA to LMA8; ledger #193, #196,
+  #198, #199, #201; 5 of 6 used), the last https://www.pangram.com/history/069a4bf5-d703-4126-8fe1-aa7542f70790 (AI Low,
+  then AI High). **W-AGM**, block 16 (the stop-signs paragraph at the top) with his lasting-anhedonia sentence in; three
+  versions (AGM_ADD, AGM4, AGM7; ledger #194, #197, #200; 3 of 6 used), each 100% AI with one High window, the last
+  https://www.pangram.com/history/4cc32d25-7fb2-41a2-a63f-21802c947517. The reads are `x1123b/reads-agm2.md`,
+  `reads-agm3.md`, `reads-lma4.md`, `reads-agm5-lma6.md`; the tell panels `x1123b/panel-lma3/`, `panel-agm6/` (both named
+  my checklists and explainer register: glosses, "Stop too if…", summing-up closes); receipts `x1123b/*.receipt.json`;
+  checks `x1123b/checks-1123i` to `-1123k`. **When his versions come**: in by script as his, like W35 (W-AGM replaces
+  block 16; W-LMA goes in before the Agmatine Warning), with obvious corrections only; a version he hasn't checked gets
+  checked by itself; then the comparison read and fidelity entry. Then the contradictions check once more over the
+  changed article before publishing (lesson neuro-2026-11-20a: after a big change).
 - **2026-11-23, after his message of 17:25 UTC: questions 34 to 56 and card W35 wait on him; two of his warnings are in
   progress.** HUMANIZED-SO-FAR.md is a3dfdecd, with his 5-HTP warning in (`fix-20261108/x1123a/APPLIED-X1123A.json`; it
   read Human High by itself, https://www.pangram.com/history/e48362d5-bcae-42d3-ab11-2965f7404666). **Every turn, first**:

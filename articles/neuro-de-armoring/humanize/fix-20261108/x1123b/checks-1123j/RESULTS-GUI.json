@@ -1,0 +1,26 @@
+{
+ "detector": "Pangram 4.1 (web app, his account, in the desktop app's browser pane)",
+ "results": {
+  "lma7": {
+   "uuid": "f39c1285-a963-4dc0-982b-ddfe3bc2dfff",
+   "at": "2026-11-23T16:12:59.185232-05:00",
+   "headline": "AI Generated",
+   "ai": 0.9999997615814209,
+   "words": 94,
+   "windows": [
+    [
+     "AI-Generated",
+     "Low",
+     21,
+     "Lion's Mane & Ashwagandha: I'm not advising either one, even though lots of people take them for focus and stress."
+    ],
+    [
+     "AI-Generated",
+     "High",
+     73,
+     "That's because in rare cases people on forums and YouTube say they were left with anhedonia (when nothing feels good anymore) and sexual dysfunction that stuck around even after they stopped taking them, which some call post-ashwa or post-lion's mane syndrome. The same thing is a known risk with SSRI antidepressants and finasteride, the hair-loss drug, so these reports aren't as far-fetched as they might sound."
+    ]
+   ]
+  }
+ }
+}

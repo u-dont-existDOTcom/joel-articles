@@ -1,5 +1,29 @@
 # Status: neuro de-armoring humanization (newest on top)
 
+## 2026-11-23, his message of 20:40 UTC: his Weeks 3–7 line and his answers 34 to 56 in; questions 57 to 61; cards W-LMA and W-AGM
+
+His message word for word: `fix-20261108/joel-20261123-2040-message.txt` (the cards page's export, card W35 revised with
+his version and his check, Human Written, one window, High; then "34 psychoactive, anything that works on the brain / 35 a /
+... / 56 b"). **The mailbox first** ("2026-11-23 20:40"): UDA AGENTS.md and LESSON-INDEX unchanged (main 3d79cc81); main
+a8320818 merged (this lane's 493; contents 497, 499, 500; bad-trips 496, 498; the shared changes read); no new issues or
+comments; no notifications. Checked again before the last push: this lane's 501 merged at 20:56 UTC, nothing else new.
+
+- **In** (`fix-20261108/x1123b/apply_x1123b.py`, `APPLIED-X1123B.json`; HUMANIZED-SO-FAR.md a3dfdecd to 47086992): his W35
+  line at the top of the Void phase (now Weeks 3–7), 34 in his words, 35a to 56b, and his 26a's "once or twice daily" in
+  Weeks 1–2. The D-Serine tactic is its own section, `### D-Serine Sessions`, after Scenario C. Fidelity PASS (an
+  owner_changes entry), comparison read PASS (`x1123b/read-1123b/`, finding R1 is question 59), both fates files pass
+  `contradictions.py check --done`.
+- **Questions 57 to 61**, what his answers left, on his questions page (version 35).
+- **His two other warnings are teaching cards** (`fix-20261108/x1123c/REVIEW-X1123C.md`, cards page version
+  1795468726-4260): W-LMA, lion's mane and ashwagandha (five tries, all AI by itself; ledger #193, #196, #198, #199, #201),
+  and W-AGM, the stop-signs paragraph at the top with his lasting-anhedonia sentence (three versions, each 100% AI with one
+  High window; #194, #197, #200). The fresh reads (`x1123b/reads-*.md`) pushed my drafts into an explainer's register, and
+  both tell panels (`x1123b/panel-lma3`, `panel-agm6`) named my checklists; SKILL.md's fifth and sixth fixes say such lists
+  in my words read AI however framed, so the cards ask for his versions.
+- **Waiting on him**: questions 57 to 61, cards W-LMA and W-AGM. Delegations: fresh Fable readers (needed, his fixes, fit)
+  on AGM2, AGM3, AGM5, LMA4 and LMA6; two tell panels (Sonnet, Haiku, Fable). Predictions: #197 to #201 (#197 and #198
+  missed, explained as shape).
+
 ## 2026-11-23, his message of 17:25 UTC: card W35, his 5-HTP warning in, the contradictions check again (questions 34 to 56)
 
 His message: "GH handoff: [Neuro de-armoring handoff](...) – Next: the Pangram check of the new Weeks 3–5 line on its own,
