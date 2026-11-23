@@ -66,6 +66,16 @@ for e in plan['sections']:
             sec(e['id']), e['held']['his_pick'], e['held']['why'].split('(')[-1].rstrip(')'),
             {'S055': 'Medium with its first sentence', 'S060': 'High'}[e['id']],
             'moved after ' + sec('S056') + ', as he said' if e['id'] == 'S060' else 'stayed where it was'))
+md += ['', '## Found after publishing, waiting on him', '',
+       'The whole check of the post as published ([NB-toc-live#41](%s)) read his flashbacks section\'s first two sentences as AI, '
+       'Low and High (18 and 21 words), in its new place after %s; at the end of the post they had read Human High, and the '
+       'section read High by itself. With the section back at the end, after %s and without "Appendix", the whole post reads '
+       'Human Written with one AI window ([NB-toc-live-END#43](%s)), against three in the post as it was this morning '
+       '([NB-toc-before#34](%s)). That version is saved in the editor as a draft, not published: the app blocked my click on '
+       '"Update now", so it waits for his OK. The one AI window left is "Stream entry’s greatest prize is a “release date”..." '
+       '(21 words, Low), under %s, which read Human High in its section.' % (
+           results['NB-toc-live#41']['link'], sec('S056'), sec('S058'), results['NB-toc-live-END#43']['link'],
+           results['NB-toc-before#34']['link'], sec('S051'))]
 md += ['', '## Headings', '', '| Section | His heading before | Now | Whose |', '|---|---|---|---|'] + rows
 md += ['', '## Structure and lines (his answers)', '',
        '- "Realization Isn\'t Enough" (###) is gone: its text sits under %s, with %s still under it as ###.' % (sec('S022'), sec('S024')),
@@ -86,7 +96,9 @@ what = {'NB-toc-whole#32': 'the whole post with his picks (before the two holds)
         'NB-toc-S015#33': 'the S015 fix with its heading', 'NB-toc-S051#35': 'Who Gets Reborn? in its section',
         'NB-toc-S051-before#38': 'the same section as it was', 'NB-toc-S055#36': 'his pick Did It Work or Go Wrong? in its section',
         'NB-toc-S055-before#39': 'the same section as it was', 'NB-toc-S060#37': 'his pick Is It Safe When "I" Vanish? in its section',
-        'NB-toc-S060-before#40': 'the same section as it was'}
+        'NB-toc-S060-before#40': 'the same section as it was', 'NB-toc-live#41': 'the post as published at 18:01:47 UTC',
+        'NB-toc-live-END-APPENDIX#42': 'the same with the flashbacks section back at the end under Appendix',
+        'NB-toc-live-END#43': 'the same with the flashbacks section at the end, no Appendix (the saved draft)'}
 for k in what:
     r = results.get(k)
     if r:

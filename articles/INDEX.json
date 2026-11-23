@@ -69836,7 +69836,7 @@
         },
         "current_state": {
           "path": "articles/nibbana/CURRENT-STATE.md",
-          "sha256": "bf7e25c8eef3be6ff5017f1a7d2d679baf33a40638f401f41a7c4b8891a4de62"
+          "sha256": "eb329655f921c32469749df07f2c4d9e3a7b0427f39118ea0c44da59b9f237a3"
         }
       },
       "review": {
@@ -70145,7 +70145,7 @@
         },
         {
           "path": "articles/nibbana/humanize/pangram-ledger.jsonl",
-          "sha256": "320b962d69870d9d49710ae7e4c33d4d1cb36d6987186752fa2c972efdd67677",
+          "sha256": "5adea051142c6e755ab182a8d8dae4108dd843a364ac5daf5f148d2148eb27cd",
           "role": "humanization_working_record"
         },
         {
@@ -72310,7 +72310,7 @@
         },
         {
           "path": "articles/nibbana/experiments/toc-20261123/APPLIED.md",
-          "sha256": "a510516b906a4151adf8415ddfd08604c9db65ca8c224a3c974550861d9c0cac",
+          "sha256": "077cba0b94ff16fed22915c934df895e7e4ab74ac93c01242b6a87d06d9e36c1",
           "role": "humanization_working_record"
         },
         {
@@ -72325,12 +72325,22 @@
         },
         {
           "path": "articles/nibbana/experiments/toc-20261123/make_applied.py",
-          "sha256": "0f4a8a9b439ed2986fa6995b99a5edf3dcdcb58f933727e2aef9d7421e96af05",
+          "sha256": "581a953eae2a3bfe67d80ea3fea01d75930fec847fcd41c148641185807732fe",
           "role": "humanization_working_record"
         },
         {
           "path": "articles/nibbana/experiments/toc-20261123/pangram/WHOLE-LIVE-1801.txt",
           "sha256": "57015b7173d8f8acd8427a9455bf59c31759996f0d197c2c5e39b0cd8614cffa",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/nibbana/experiments/toc-20261123/pangram/WHOLE-LIVE-END-APPENDIX.txt",
+          "sha256": "4f9a1f1e70583a1c1d5ab128b7579ed4f0a14503dc27796de58c1fff01ad3162",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/nibbana/experiments/toc-20261123/pangram/WHOLE-LIVE-END.txt",
+          "sha256": "dade1c0abbe4b6f8d8d616e100d37733f303a26cd3979bb09c370456042827be",
           "role": "humanization_working_record"
         }
       ]
