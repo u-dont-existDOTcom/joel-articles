@@ -1,0 +1,5 @@
+# Round 5 of the blind test, each rewrite by itself in the Pangram web app (his main account, the app's browser pane),
+# 2026-11-23 19:50 to 19:51 UTC; predictions in PREDICTIONS.json, written and committed first (9b3155e0).
+# key | history uuid | label | document confidence | % AI | windows | prediction | right
+fable5-B257|4a466ef6-514a-4879-9e57-4c326500f6c0|Human|High|0|H:H73|AI 0.35|MISS
+fable5-B442|f233a20b-3168-4910-a729-8a193134335b|Human|High|0|H:H106|AI 0.4|MISS

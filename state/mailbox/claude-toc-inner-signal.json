@@ -1,0 +1,41 @@
+{
+ "about": "Each turn's mailbox check (tools/humanization/lane_mailbox.py; AGENTS.md, \"Suggested fixes from other projects\"). Newest last.",
+ "places": {
+  "uda-lane": "this repository's lane in universal-dev-architecture (suggested-fixes/joel-articles/), against docs/suggested-fixes-ledger.md",
+  "repo": "new issues and pull requests here, and new comments and reviews on any of them, replies on our own included",
+  "notes": "edits others made to the lane's handoff notes and owner questions pages since its last turn",
+  "runtime": "the messages the session's runtime queued for it"
+ },
+ "checks": [
+  {
+   "turn": "2026-11-23T19:42Z",
+   "lines_of_work": [
+    "contents of the very long posts: the Self-Hypnosis guide's contents test (steps 1 and 2), started the same turn as the Nirvana headings"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "6 items in suggested-fixes/joel-articles/ (public clone, fetched again this turn), all already in docs/suggested-fixes-ledger.md; nothing new"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "since 2026-11-23 19:42 UTC: pull requests 494 and 497 (this lane), 495 (romance), 496 and 498 (bad trips) merged; no comments or reviews on any; no new issues"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "the laptop note toc-long-articles.md is as this lane left it this turn (updated after 497)"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "no queued notifications"
+    }
+   ],
+   "items": [],
+   "recorded_utc": "2026-11-23T20:23Z"
+  }
+ ]
+}

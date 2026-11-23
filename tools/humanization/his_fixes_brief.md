@@ -1,6 +1,6 @@
 # The read against his fixes: which of my sentences still read the way he fixes?
 
-Gate bad-trips-2026-11-12g (the eleventh way, lesson bad-trips-2026-11-20c; the twelfth, lesson bad-trips-2026-11-20h; the thirteenth to seventeenth, lesson bad-trips-2026-11-21e; the eighteenth to twenty-first, from his 59 versions on the romance article's Medium page, lesson romance-2026-11-22d). Joel, 2026-11-12 14:45 UTC, after my carries of his fixes read AI in eight tries of eight:
+Gate bad-trips-2026-11-12g (the eleventh way, lesson bad-trips-2026-11-20c; the twelfth, lesson bad-trips-2026-11-20h; the thirteenth to seventeenth, lesson bad-trips-2026-11-21e; the eighteenth to twenty-first, from his 59 versions on the romance article's Medium page, lesson romance-2026-11-22d; the twenty-fifth and twenty-sixth, from his naloxone fix, lessons bad-trips-2026-11-23c and e). Joel, 2026-11-12 14:45 UTC, after my carries of his fixes read AI in eight tries of eight:
 "have you systematically looked at all of the fixes i've shown you and what are the idfferences in how you write vs how
 i fix? because when i look at how you try to implement my fixes, it's laughable, like you're not really learning much.
 you still use a lot of ai patterns like "this is different. that's different, this other thing is also different" and
@@ -15,7 +15,7 @@ stays.
 ---
 
 You are reading a draft against the way one writer, Joel, fixes drafts like it. Below are ten ways his fixes differ
-from the drafts he fixed, each with a sentence he fixed and what he wrote instead (an eleventh and a twelfth, 2026-11-20, after them, five more from his fix of the serotonin steps, 2026-11-21, and four from his 59 versions on the romance article, 2026-11-22). Read the draft and mark every sentence
+from the drafts he fixed, each with a sentence he fixed and what he wrote instead (an eleventh and a twelfth, 2026-11-20, after them, five more from his fix of the serotonin steps, 2026-11-21, and four from his 59 versions on the romance article, 2026-11-22; the twenty-second to twenty-fourth from the romance article, and two more from his naloxone fix, 2026-11-23). Read the draft and mark every sentence
 that still reads the first way.
 
 1. **Compressed.** A run of category words or noun phrases, or several ideas packed into one sentence, where he gives each
@@ -61,8 +61,16 @@ that still reads the first way.
    works" (a weak drug, or weak evidence?) into "insufficient to show that it works", "that's their last dose" into "that
    should be their last dose", "If confusion or headache worsens" into "If their confusion or headache worsens", and
    added "it means" to say what a sign means; each one, checked alone, made Pangram read more of the paragraph human
-   (2026-11-19). For every such word, write what it could mean here, and mark it if a quick reader could take it either
-   way.
+   (2026-11-19). A stock phrase whose "it" names nothing is this way too: he fixed "Asking the question out loud is
+   usually where it starts" into "Asking that question out loud is the first step in figuring it out", "If the other
+   person won't look, you can't make it mutual" into "if the other person won't look at the truth, you can't make
+   honesty a mutual value", and "Temporary separation helped Bee and I. It also became more permanent" (the separation,
+   or honesty?) into one sentence, "although it became less temporary as time went on"; he named each with words the
+   passage already had, and added nothing (romance, 2026-11-23, lesson romance-2026-11-23h). A run of "maybe ..."
+   possibilities just before "that question" is the question, with or without a question mark ("i don't think the
+   question is so hard to understand after maybe this or maybe that"); saying it again as "whether ..." says it twice,
+   which is what the blind rewrite of that passage did. For every such word, write what it could mean here, and mark it
+   if a quick reader could take it either way.
 11. **The means before the payoff.** A sentence that opens on the tool, the source or the method, and only then says
    what the reader gets from it. He fixed "We can use the same Hunter criteria that clinicians use to diagnose
    serotonin syndrome." into "To diagnose serotonin syndrome, we can use the Hunter criteria, the same checklist
@@ -86,6 +94,10 @@ that still reads the first way.
    also dehydrates them, but we can't give fluids unless they're fully alert, able to swallow and not vomiting"
    (2026-11-21: "my goal is to make it read well and lead on so i'm not wondering all the time why i am reading this").
    For each sentence, write what in the reader's situation it answers, and mark it if they only find out later, or never.
+   A doubt about the whole paragraph's premise is answered in its first sentence, in the reader's own terms: my naloxone
+   paragraph said what to spray before why an opioid could be in an MDMA night; his version answers it first ("which
+   wouldn't seem to make sense if they think they took MDMA, but in fact, opioids like fentanyl have turned up in pills
+   sold as MDMA"), then gives the act with its reason (2026-11-23: "i would move the logic back so it's right up front").
 14. **A rule against what someone would naturally do, said flatly.** He says first why a person would want to, then the
    problem: my "Pacing or exercising to "burn it off" only makes more heat" became "While it's natural for people who are
    overstimulated to start pacing or exercising to "burn it off," the problem is that creates more body heat". Mark a
@@ -143,7 +155,10 @@ that still reads the first way.
    to actuually say"). "Announcing" is one of these words ("another ai tell"), and so is "honestly" where a specific
    word would say how: in a blind rewrite of the paragraph he fixed, "can we sit down and honestly rethink what we agreed
    to?" read 67% AI and the same text with his word, "compassionately", read 0% (romance, 2026-11-23, lesson
-   romance-2026-11-23e). A question the reader couldn't answer as asked is this way too: mark it, and say what the real
+   romance-2026-11-23e). That word fit that sentence; "honestly" is overused, not banned: where it is one too many, a
+   real synonym ("genuinely", "authentically") or the word for what the sentence means, and where it is the exact word
+   and the only one nearby, it stays (Joel, 2026-11-23: "honestly is also ok sometimes just it's overused"; lesson
+   romance-2026-11-23g). A question the reader couldn't answer as asked is this way too: mark it, and say what the real
    question is.
 
 22. **A pivot that points back without naming what.** "But none of that by itself explains why two people still want to
@@ -162,6 +177,22 @@ that still reads the first way.
    paragraph's own frame (the reader's own record, not "if you tell me"), and its consequence is folded into the same
    question. Turning the questions into reported ones ("Then ask whether your judgment has gotten better ...") read AI
    every time it was tried (lessons romance-2026-11-23b, c and d).
+
+24. **A point after the story that interrupts it.** A general point that answers a list or a question, put after a
+   personal story told in between, so it reads as if it followed from the story. He moved "If the other person won't
+   look ..." up next to the list of outcomes it answers, and the story (his separation from Bee) after it, last; the
+   readers who had found the point didn't follow found it did (romance, 2026-11-23, lesson romance-2026-11-23h). For
+   each point, write what it follows from, and mark it if a story or an aside stands between them.
+
+25. **An act that needs a state the text never said.** "call medics even if they wake up" after "Slow, shallow
+   breathing": nothing said they were out (2026-11-23: "you didn't say that they'd be asleep or unconscious"). His version
+   says the state first ("Slow, shallow breathing and losing consciousness"). The same with a wait: "while you wait" with
+   nothing named to wait for ("clarify what youu're waiting for (an ambulance)"). Mark each act whose state, or each wait
+   whose end, the text hasn't said before it (lesson bad-trips-2026-11-23c).
+
+26. **One brand for something several brands sell.** "(the Narcan nasal spray)": "remove the narcan reference since
+   there are also other brand names even in US". Name the medicine or the thing (naloxone), not one product of it
+   (lesson bad-trips-2026-11-23e).
 
 When the text is a rewrite of another, also mark every detail, reason or line it adds that the text it rewrites and its
 section don't already hold (lesson romance-2026-11-22f: a blind rewrite added "my month with a bad knee", a month he never

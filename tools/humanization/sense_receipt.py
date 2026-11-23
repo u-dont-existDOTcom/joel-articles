@@ -274,7 +274,10 @@ def check(text, receipt):
                          'none, the sentence needs them, or "none: why" (gate neuro-2026-11-06b; Joel: "it was not '
                          'giving the payoff at the start")' % s)
             elif (receipt.get('made') or '') >= LINK_START_FROM:
-                before = len(re.findall(r"[\w'’-]+", full[:full.lower().index(link.lower())]))
+                # a link's address is not words the reader reads: count what comes before the tie with [text](url)
+                # read as text (turn 61: "[DMSO](https://...), though" counted the address's words)
+                head = re.sub(r'\]\([^)]*\)', ']', full[:full.lower().index(link.lower())])
+                before = len(re.findall(r"[\w'’-]+", head))
                 if before >= LINK_START_WORDS:
                     p.append('link for "%s": the words that tie it to the one before ("%s") come after %d words; put '
                              'the tie at the start, where the reader asks why they are reading it ("So", "It doesn\'t '

@@ -1209,11 +1209,11 @@
   {
    "id": "r35-body-once",
    "status": "applied",
-   "what": "His Risk of Harm paragraph keeps only his catch-all; its body signs merged into the Call medics list: \"(not just regular sweating)\" on the overheating line, \"Severe insomnia\" a line of its own (round 35, card BODY-ONCE; review/r35/apply_r35.py)",
+   "what": "His Risk of Harm paragraph keeps only his catch-all; its body signs merged into the Call medics list: \"(not just regular sweating)\" on the overheating line, \"Severe insomnia\" a line of its own (round 35, card BODY-ONCE; review/r35/apply_r35.py) | 2026-11-23 19:13 UTC: his ADVICE-CALL answer on round 50 (\"agree with all\") made the line \"No sleep for days\" (r50-advice-call)",
    "joel": "2026-11-12 13:37:05 UTC: round 35's export, BODY-ONCE: \"my paragraph should not say anything that should be going in that above list. so cut this section or move it up/merge it\"",
    "must_contain_exact": [
     "- Dangerous overheating (not just regular sweating), severe rigidity, or clonus with fever",
-    "- Severe insomnia",
+    "- No sleep for days",
     "If for whatever reason you feel like this is more than you can handle, reach out."
    ],
    "must_not_contain": [
@@ -1762,14 +1762,14 @@
   {
    "id": "r48-teach-ss",
    "status": "applied",
-   "what": "his steps 5 and 6 of Act Now on SS in whole, from his TEACH-SS-STEPS version, with one obvious correction (the comma after \"Since\" out); the old step 5 and 6 text and the \"Don't force fluids, food, pills, or charcoal\" sentence out, his change (review/r48/apply_r48.py)",
+   "what": "his steps 5 and 6 of Act Now on SS in whole, from his TEACH-SS-STEPS version, with one obvious correction (the comma after \"Since\" out); the old step 5 and 6 text and the \"Don't force fluids, food, pills, or charcoal\" sentence out, his change (review/r48/apply_r48.py) | 2026-11-23 19:13 UTC: his round-50 answers replace the fidgeting with his tapping (SS-ASKED-2 e) and his drink line with his SS-DRINK and QUIZ-2 notes (r50-ss-steps); this check now holds his openings of steps 5 and 6 | 2026-11-23 19:13 UTC: step 6 after his first sentence is now from his SS-DRINK and QUIZ-2 notes (r50-ss-steps)",
    "joel": "2026-11-21 15:57 UTC: his round-48 export (articles/bad-trips/review/r48/ANSWERS-R48-20261121-1557.json), card TEACH-SS-STEPS: \"now i fixed the last part, it was redundant and also i think not giving the correct medical advice, now all human high\"",
    "applied_by": "review/r48/apply_r48.py",
    "must_contain_exact": [
     "5. Since they're already overstimulated, it helps to clear out the crowd and stop any arguing.",
     "the problem is that creates more body heat, and it raises the risk of their muscles breaking down into the blood, which hurts the kidneys (rhabdomyolysis).",
-    "I'd have them do some fidgeting (especially of the calf muscle, flexing the feet), which can soothe that urge without the over-activity risk.",
-    "6. Overstimulating also dehydrates them, but we can't give fluids unless they're fully alert, able to swallow and not vomiting, and then just small sips of an electrolyte drink (a hypertonic one, more concentrated than an ordinary one, may be required if they still have symptoms of lack of electrolytes)."
+    "5. Since they're already overstimulated, it helps to clear out the crowd and stop any arguing.",
+    "6. Overstimulating also dehydrates them, but we can't give fluids unless they're fully alert, able to swallow and not vomiting, and then just small sips of an electrolyte drink."
    ],
    "must_not_contain": [
     "Keep stimulation low and prevent exertion.",
@@ -1796,7 +1796,7 @@
   {
    "id": "r49-his-steps",
    "status": "applied",
-   "what": "his round-49 versions of the serotonin steps, whole: steps 1, 3 and 4 from his Pangram checks (4cdb8dad, 418788ec, 89fd3d40), step 7 from his QUIZ-1 comment (the raised-dose line cut, breathing instead of the readings, \"they took\" as he asked), and his line in step 8 (review/r49/apply_r49.py)",
+   "what": "his round-49 versions of the serotonin steps, whole: steps 1, 3 and 4 from his Pangram checks (4cdb8dad, 418788ec, 89fd3d40), step 7 from his QUIZ-1 comment (the raised-dose line cut, breathing instead of the readings, \"they took\" as he asked), and his line in step 8 (review/r49/apply_r49.py) | 2026-11-23 19:13 UTC: his breathing line now follows the seizure first aid in the same sentence (his QUIZ-2 marks on step 7; r50-ss-steps) | 2026-11-23 19:13 UTC: his line goes on with his Epsom salt answer (\"or Epsom salt if that's all you have\", r50-ss-steps)",
    "joel": "2026-11-22 17:21 UTC: his round-49 export (articles/bad-trips/review/r49/ANSWERS-R49-20261122-1721.json), QUIZ-1 and SS-STEP8",
    "applied_by": "review/r49/apply_r49.py",
    "must_contain_exact": [
@@ -1805,8 +1805,8 @@
     "Since bodily overheating is the most dangerous part of serotonin syndrome",
     "Although a cold bath would cool them faster, they could slip under and breathe in water",
     "could work by reducing body heat in general, they don't work on the heat generated by muscles.",
-    "Keep track of how their breathing is doing, as that's one of the main indicators of how dangerous the seizure is",
-    "Topical magnesium chloride if they're not able to swallow."
+    "keep track of how their breathing is doing afterward, as that's one of the main indicators of how dangerous the seizure is",
+    "Topical magnesium chloride if they're not able to swallow"
    ],
    "must_not_contain": [
     "If they raised the dose of anything lately",
@@ -1819,15 +1819,74 @@
   {
    "id": "r49-asked-answers",
    "status": "applied",
-   "what": "his SS-ASKED answers carried into the serotonin steps: (a) getting cyproheptadine, at the end of his step 2; (c) why niacin is unsafe, (d) why magnesium, with the review he sent, and (e) the Syrian rue oil, in step 8, his topical magnesium line kept (review/r49/apply_r49_answers.py)",
+   "what": "his SS-ASKED answers carried into the serotonin steps: (a) getting cyproheptadine, at the end of his step 2; (c) why niacin is unsafe, (d) why magnesium, with the review he sent, and (e) the Syrian rue oil, in step 8, his topical magnesium line kept (review/r49/apply_r49_answers.py) | 2026-11-23 19:13 UTC: step 8 now names niacin first and DMSO as one to use (his SS-ASKED-2 answer c; r50-ss-steps) | 2026-11-23 19:13 UTC: with DMSO now one to use, magnesium chloride is \"the other one\" (r50-ss-steps) | 2026-11-23 19:13 UTC: as in r49-his-steps",
    "joel": "2026-11-22 17:21 UTC: his round-49 export (articles/bad-trips/review/r49/ANSWERS-R49-20261122-1721.json), SS-ASKED",
    "applied_by": "review/r49/apply_r49_answers.py",
    "must_contain_exact": [
     "And most people won't have it at home anyway, since it needs a prescription in the US",
-    "Niacin is actually unsafe with serotonin syndrome, since at the doses used to end a trip",
+    "it's actually unsafe with serotonin syndrome, since at the doses used to end a trip",
     "I'd also leave out this guide's Syrian rue oil for now",
-    "Magnesium chloride is the one I would consider, since many people with serotonin syndrome run low on magnesium",
-    "Topical magnesium chloride if they're not able to swallow."
+    "Magnesium chloride is the other one I'd use, since many people with serotonin syndrome run low on magnesium",
+    "Topical magnesium chloride if they're not able to swallow"
+   ]
+  },
+  {
+   "id": "r50-ss-steps",
+   "status": "applied",
+   "what": "the serotonin steps from his round-50 answers, each as it read Human through the API on his laptop (humanize/h69-20261123/RESULTS.md): step 2 with his dose lines (QUIZ-2), step 5 with his tapping (SS-ASKED-2 e), step 6 from his SS-DRINK and QUIZ-2 notes, step 7 with the seizure first aid and his breathing line, step 8 with his DMSO answer and his Epsom salt (review/r50/apply_r50.py)",
+   "joel": "2026-11-23 19:13 UTC: his round-50 export (articles/bad-trips/review/r50/ANSWERS-R50-20261123-1913.json), QUIZ-2, SS-DRINK and SS-ASKED-2",
+   "applied_by": "review/r50/apply_r50.py",
+   "must_contain_exact": [
+    "say to give an adult 12mg to start, then 2mg every 2 hours if symptoms persist, up to 32mg per 24 hours. And tell medics how much you gave.",
+    "I'd have them do some tapping (the Emotional Freedom Technique, fingers tapping the head)",
+    "That can be as simple as a salty potato broth with some magnesium chloride flakes stirred in",
+    "If you don't have the flakes, Epsom salt works too, although it causes diarrhea more easily.",
+    "And if they have a seizure before the ambulance gets there, I'd do the first aid in",
+    "seems to help prevent seizures, so if there's any sign of an overdose, I'd have them smell it",
+    "or Epsom salt if that's all you have, though Epsom salt gets through the skin less well."
+   ],
+   "must_not_contain": [
+    "do some fidgeting (especially of the calf muscle, flexing the feet)",
+    "but I wouldn't use either one here",
+    "with stem cell infusions"
+   ]
+  },
+  {
+   "id": "r50-naloxone",
+   "status": "applied",
+   "what": "his naloxone paragraph after the Call Medics For list, whole, as his check 73e392f4 read it (Human High 99; review/r50/HIS-NALOXONE.txt, read back from his history)",
+   "joel": "2026-11-23 19:13 UTC: his QUIZ-2 comment on round 50 (articles/bad-trips/review/r50/ANSWERS-R50-20261123-1913.json), with his Pangram link",
+   "applied_by": "review/r50/apply_r50.py",
+   "must_contain_exact": [
+    "Slow, shallow breathing and losing consciousness can indicate an opioid overdose, which wouldn't seem to make sense if they think they took MDMA, but in fact, opioids like fentanyl have turned up in pills sold as MDMA. Luckily, opioid overdoses are the easiest thing to treat. Naloxone reverses them safely, so if you have it, spray it into a nostril right away. But naloxone can wear off before the opioid does, so call medics even if it works to wake them up, and if their breathing slows again before help comes, give the second spray in the pack."
+   ]
+  },
+  {
+   "id": "r50-advice-call",
+   "status": "applied",
+   "what": "\"No sleep for days\" in the Call Medics For list and \"acting on a delusion\" in If Someone Might Get Hurt",
+   "joel": "2026-11-23 19:13 UTC: ADVICE-CALL on round 50, \"agree with all\" (articles/bad-trips/review/r50/ANSWERS-R50-20261123-1913.json)",
+   "applied_by": "review/r50/apply_r50.py",
+   "must_contain_exact": [
+    "- No sleep for days",
+    "acting on a delusion"
+   ],
+   "must_not_contain": [
+    "- Severe insomnia",
+    "acting delusional"
+   ]
+  },
+  {
+   "id": "r50-ozone-repeat",
+   "status": "applied",
+   "what": "the crying baby paragraph says the ozone point once: \"No ozone gas was present, only the water.\"",
+   "joel": "2026-11-23 19:13 UTC: REPEATS on round 50, \"yes agree\" (articles/bad-trips/review/r50/ANSWERS-R50-20261123-1913.json)",
+   "applied_by": "review/r50/apply_r50.py",
+   "must_contain_exact": [
+    "No ozone gas was present, only the water."
+   ],
+   "must_not_contain": [
+    "the residual ozone had dissipated"
    ]
   }
  ]

@@ -28,10 +28,11 @@ class Ledger(unittest.TestCase):
         return str(p)
 
     def predict(self, body, lineage='P1', scope='paragraph', call='Human', diagnosis=None, tells=('a list of three',), key=None,
-                narrowed=None, panel=None):
+                narrowed=None, panel=None, paid_ok=None):
         argv = ['predict', self.ledger, '--his', 'his own: a test text of Joel\'s', '--lineage', lineage, '--scope', scope, '--text', self.text(body), '--call', call,
                 '--chance', '0.6' if call == 'Human' else '0.4'] + (['--key', key] if key else []) + \
-            (['--narrowed', narrowed] if narrowed else []) + (['--panel', panel] if panel else [])
+            (['--narrowed', narrowed] if narrowed else []) + (['--panel', panel] if panel else []) + \
+            (['--paid-ok', paid_ok] if paid_ok else [])
         for t in tells:
             argv += ['--tells', t]
         if diagnosis:
@@ -179,11 +180,27 @@ class Ledger(unittest.TestCase):
             self.assertEqual(sub('w%d' % i, decides='whether the fixes hold'), 0)
             self.result('w%d' % i, 'Mixed')
         self.assertEqual(sub('w3'), 2)   # past two, and no --decides
-        self.assertEqual(self.predict('a1', lineage='A', scope='article'), 0)
+        # a pangram.com article check only goes with his words (toc-2026-11-23d), and then keeps the cap of two
+        ok = 'his words allowing it'
+        self.assertEqual(self.predict('a1', lineage='A', scope='article', paid_ok=ok), 0)
         self.result('a1', 'Mixed')
-        self.assertEqual(self.predict('a2', lineage='A', scope='article', diagnosis='fixed'), 0)
+        self.assertEqual(self.predict('a2', lineage='A', scope='article', diagnosis='fixed', paid_ok=ok), 0)
         self.result('a2', 'Mixed')
-        self.assertEqual(self.predict('a3', lineage='A', scope='article', diagnosis='fixed again'), 2)
+        self.assertEqual(self.predict('a3', lineage='A', scope='article', diagnosis='fixed again', paid_ok=ok), 2)
+
+    def test_a_whole_article_never_goes_through_the_web_app(self):
+        """Joel, 2026-11-03 22:02 UTC: "we don't do whole article checks with pangram GUI ... i have a free route for those.
+        you can do a section check in the GUI tho, like 5-6 paragraphs or so". On 2026-11-23 the contents lane checked the
+        whole Nirvana post in the web app six times, since only the API was refused (toc-2026-11-23d)."""
+        self.assertEqual(self.predict('the whole post', lineage='W', scope='article'), 2)   # the default detector is the web app
+        long_section = ' '.join(['word'] * 1300)
+        self.assertEqual(self.predict(long_section, lineage='S', scope='section'), 2)
+        self.assertEqual(self.predict(' '.join(['word'] * 600), lineage='S2', scope='section'), 0)   # 5 or 6 paragraphs
+        free = ['predict', self.ledger, '--his', "his own: a test text of Joel's", '--lineage', 'W2', '--scope', 'article',
+                '--text', self.text('the whole post, live'), '--call', 'Human', '--chance', '0.6', '--tells', 'x',
+                '--decides', 'whether the heading keeps its body High',
+                '--detector', 'Pangram 4.1, his extension (Brave) on the live Substack post (free)']
+        self.assertEqual(L.main(free), 0)
 
     def test_a_retry_after_a_failure_needs_a_diagnosis(self):
         self.predict('v1')

@@ -1,0 +1,19 @@
+{
+ "about": "My tested change of 2026-11-23 after his message of 19:36 UTC (\"authentically, genuinely, those are more real synonyms\"): 455's \"in its own time\" (r34), a word about when where the sentence meant how, became the real synonym of \"honestly\", \"genuinely\"; read Human High by itself (ledger romance-r34-p487 try 2). A layer after HIS-T6.json.",
+ "whose": "mine",
+ "changes": [
+  {
+   "card": "R36-455",
+   "kind": "para",
+   "live": 455,
+   "before": "Bear, sex can be what you do when you’re older and find a friend you love in a super special way that makes you want to raise children together. Don’t imagine you love each other just because you want each other. Don’t feel pressure to promise what your heart will feel. Let the love and bond it produces blossom in its own time as your hearts sync. Learn about each other before getting too close, and make sure to keep friends and community around who know both of you.",
+   "after": [
+    "Bear, sex can be what you do when you’re older and find a friend you love in a super special way that makes you want to raise children together. Don’t imagine you love each other just because you want each other. Don’t feel pressure to promise what your heart will feel. Let the love and bond it produces blossom genuinely as your hearts sync. Learn about each other before getting too close, and make sure to keep friends and community around who know both of you."
+   ],
+   "his_checks": [
+    "https://www.pangram.com/history/7d938af3-9db2-4af5-aab9-78d28ea6e517"
+   ],
+   "why": "his message of 2026-11-23 19:36 UTC: genuinely and authentically are the real synonyms of \"honestly\"; \"in its own time\" had said when, where the sentence meant how"
+  }
+ ]
+}

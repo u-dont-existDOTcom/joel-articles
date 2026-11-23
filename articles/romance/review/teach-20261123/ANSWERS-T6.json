@@ -1,0 +1,206 @@
+{
+ "format": "joel-suggestion-review-answers-v1",
+ "review_id": "romance-t6",
+ "title": "Romance Advice I Wish My Parents Taught Me: the passages that didn’t make sense",
+ "git_file": "articles/romance/review/teach-20261123/REVIEW-T6.html",
+ "article": {
+  "file": "articles/romance/humanize/fix-20261107/whole/FIXED.md",
+  "sha256": "d90ed858a5f3f01f86bd028dee214db103341d79e0294dde08b4ab0b3cbec044"
+ },
+ "built": "2026-11-23",
+ "generator": "suggestion_review.py 1.12 (2026-11-22)",
+ "exported_at": "2026-11-23T19:36:10.729Z",
+ "counts": {
+  "approved": 7,
+  "rejected": 0,
+  "revise": 0,
+  "pending": 3
+ },
+ "items": [
+  {
+   "id": "J-B10",
+   "type": "sense",
+   "title": "Which conflict falls apart, and why the horror stays",
+   "where": "What we mean by “love” ❤️, P5",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "Most people fail this test: what would I want if she herself thought she’d be happier with somebody else? The first reaction is horror, but if they can get past it, wanting her and wanting her to be happy stop fighting each other. Being wanted is part of what makes me want someone, so if she’d be happier with somebody else, I’d want her less anyway.\n\nI still have to go through that horror, because I can’t wait until I know I’m wanted before I let her know I want her, and if we both do that, nothing gets started. Once we’re together I still can’t wait to be sure I’m wanted. If I start feeling less wanted, I may pull back, and she feels me pulling back and starts feeling less wanted herself, so she pulls back too.",
+   "before": "Most people fail this test: what would I want if she herself thought she’d be happier with somebody else? But if they can get past the initial horror, the conflict starts to fall apart. Being wanted is part of what makes me want someone.\n\nBut the horror is unavoidable, because I can’t wait until I know I’m wanted before I let her know I want her. If we both do that, nothing gets started. And it doesn’t stop being true once we’re together. If I start feeling less wanted, I may pull back. She feels me pulling back and starts feeling less wanted herself, then she pulls back too.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-23T19:15:23.632Z"
+    }
+   ],
+   "updated": "2026-11-23T19:15:23.632Z"
+  },
+  {
+   "id": "J-B84",
+   "type": "sense",
+   "title": "Cut the one-line summary after the knee story",
+   "where": "It always goes deeper, P6",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "(cut: What makes me desirable is not the same question as …)",
+   "before": "What makes me desirable is not the same question as what makes me loved when I temporarily stop being desirable in that particular way.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-23T19:15:34.550Z"
+    }
+   ],
+   "updated": "2026-11-23T19:15:34.550Z"
+  },
+  {
+   "id": "J-B201",
+   "type": "sense",
+   "title": "One sentence instead of four short lines",
+   "where": "Slow & steady isn’t KO’d yet, P7",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "Go slowly if you can, then, and learn what you can about each other before sex, but there are things you’ll only find out once you’re having it, like how your bodies respond to each other.",
+   "before": "So go slowly if you can. Just don’t imagine that means you know everything. You learn what you can before sex. Sex itself tells you other things.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-23T19:15:48.770Z"
+    }
+   ],
+   "updated": "2026-11-23T19:15:48.770Z"
+  },
+  {
+   "id": "J-B220",
+   "type": "sense",
+   "title": "The list without the friends the paragraphs before already cover",
+   "where": "Don’t make your partner your whole world, P5",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "For me, that room is where I keep a mission of my own, separate interests and some connection to community. I also get outside therapy when I need it, and I make sure I can still be alone.",
+   "before": "For me, that also means keeping close friends, outside therapy when I need it, a mission of my own, separate interests, some connection to community, and the ability to be alone.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-23T19:16:52.825Z"
+    }
+   ],
+   "updated": "2026-11-23T19:16:52.825Z"
+  },
+  {
+   "id": "J-B379",
+   "type": "sense",
+   "title": "\"This ironically bureaucratic basis of romance\" named",
+   "where": "Attraction and exclusivity, P2",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "Ironically, sexclusivity, which we treat as the basis of romance, started out as that kind of bureaucratic record-keeping. By the 17th century, when England began mass urbanization by forcing peasants off their land, it became the legal definition of marriage. As for what comes naturally to us underneath that law, I’m not trying to say we’re just like bonobos, but the academic consensus is that humans tend toward flexible pair-bonding, with a propensity for occasional infidelity.",
+   "before": "By the 17th century, when England began mass urbanization by forcing peasants off their land, this ironically bureaucratic basis of romance became the legal definition of marriage. I’m not trying to say we’re just like bonobos, but the academic consensus is that humans tend toward flexible pair-bonding, with a propensity for occasional infidelity.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-23T19:23:27.196Z"
+    }
+   ],
+   "updated": "2026-11-23T19:23:27.196Z"
+  },
+  {
+   "id": "J-B412",
+   "type": "sense",
+   "title": "The warning, without the line it repeats later",
+   "where": "Psychedelic Timing, P2",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "I’m putting the warning before anything good I say about psychedelics for relationships, because people need to hear it before they take anything. I don’t think sexual consent should be negotiated for the first time while high, when the drug is changing how safe, loving, open, and connected everything feels. And even if the two of you plan it all in advance, getting high and starting a relationship is still a risk.",
+   "before": "Before I say anything good about psychedelics for relationships, the warning has to come first. I don’t think sexual consent should be negotiated for the first time while high. The drug is changing how safe, loving, open, and connected everything feels. Advance planning doesn’t turn getting high and starting a relationship into a safe procedure. People need that warning before they take it, because once you’re inside that feeling, sober caveats may sound ridiculous.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-23T19:23:32.867Z"
+    }
+   ],
+   "updated": "2026-11-23T19:23:32.867Z"
+  },
+  {
+   "id": "J-B453",
+   "type": "sense",
+   "title": "The opening line of \"Ending consciously\" leads somewhere",
+   "where": "Ending consciously, P1",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "Before you think about how to leave, settle whether you’re leaving, and whether counseling is worth trying first.",
+   "before": "Whether to leave and how to leave are separate questions.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-23T19:35:21.601Z"
+    }
+   ],
+   "updated": "2026-11-23T19:35:21.601Z"
+  },
+  {
+   "id": "Q-B442",
+   "type": "ask",
+   "title": "\"If the other person won’t look\": look at what?",
+   "where": "What will honesty produce?, P1",
+   "advice": "ask",
+   "status": "answered",
+   "question": "Two readers found that \"It is its own reward\" is a cliché and that \"If the other person won’t look, you can’t make it mutual\" doesn’t follow from the Bee story before it; a third read also found \"It also became more permanent\" reads as if the separation, not honesty, is the subject. My fix (it spelled out that any of those outcomes takes both people, and that the other person has to look at the truth with you) read AI by itself (https://www.pangram.com/history/2267fb23-7b39-47a6-9295-77ca69fefb79), so I’m trying again. If you’d like to say in a line what \"won’t look\" means here, or rewrite it, I’ll take it from there.",
+   "your_version": "",
+   "comment": "high conf hum: https://www.pangram.com/history/48952c2b-ff84-4e2c-97f8-c6bff836ceac?ucc=4rq5Ko7gBiW&utm_source=pangram_share&utm_medium=copy_link\n\nMany people ask this question of honesty, but it’s unfair. Honesty doesn’t produce a certain outcome. It is its own reward. It might repair the relationship, open it, turn the romance into friendship, preserve the family through separation, or show you that ending it is better. Of course, if the other person won’t look at the truth, you can’t make honesty a mutual value. Then you have to decide what you can live with. Temporary separation helped Bee and I, although it became less temporary as time went on, but I’ve always thought maybe we would get back together in a few decades. ",
+   "my_version": "",
+   "before": "",
+   "history": [],
+   "updated": "2026-11-23T19:35:08.415Z"
+  },
+  {
+   "id": "Q-B480",
+   "type": "ask",
+   "title": "\"The myths ... become real because we co-create them\"",
+   "where": "Tough Love, P6",
+   "advice": "ask",
+   "status": "answered",
+   "question": "Two readers found \"The myths around romantic love become real because we co-create them\" opaque. My fix (\"We’re the ones who make the myths around romantic love real, by living as if they were true\", with the four myths rebuilt) read AI by itself (https://www.pangram.com/history/9ad8bbbb-f6aa-4716-9179-ddd3d7ff5127); next I try changing only that first sentence and keeping the rest as the post has it. If you mean something more by \"co-create\", say so in a line.",
+   "your_version": "",
+   "comment": "makes sense to me as is",
+   "my_version": "",
+   "before": "",
+   "history": [],
+   "updated": "2026-11-23T19:36:06.093Z"
+  },
+  {
+   "id": "Q-B257",
+   "type": "ask",
+   "title": "\"Asking the question out loud\": which question?",
+   "where": "Different levels in different domains can be complementary, P8",
+   "advice": "ask",
+   "status": "answered",
+   "question": "Two readers found \"Asking the question out loud is usually where it starts\" names no question. My fixes named it (whether the romance needs less intensity, should become a friendship, or should end): the first read Human with a Low window (https://www.pangram.com/history/d05b3f9e-b70a-4eeb-8519-84aa6300e405), the next AI (https://www.pangram.com/history/049a89d6-54c5-40e3-a273-5e1ce4bb45f8). I’m trying again; if you’d word the question differently, say how.",
+   "your_version": "",
+   "comment": "i don't think the question is so hard to understand after maybe this or maybe that. but what i found vague was \"where it starts\". i fixed it, now human high conf all: https://www.pangram.com/history/126e846d-7968-4de2-a5ba-4124a5685dae?ucc=4rq5Ko7gBiW&utm_source=pangram_share&utm_medium=copy_link\n\nIt’s time to bring in other support once a partner has become the default caregiver and that’s taken for granted, or the romance could collapse under the burden. Maybe the romance actually does need less intensity, maybe it becomes friendship, or maybe it ends. Asking that question out loud is the first step in figuring it out, but I can’t answer it for others, and couldn’t always answer it for myself.",
+   "my_version": "",
+   "before": "",
+   "history": [],
+   "updated": "2026-11-23T19:22:05.726Z"
+  }
+ ]
+}

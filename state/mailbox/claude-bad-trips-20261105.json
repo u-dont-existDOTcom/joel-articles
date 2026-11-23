@@ -2463,6 +2463,41 @@
     }
    ],
    "recorded_utc": "2026-11-22T17:24Z"
+  },
+  {
+   "turn": "2026-11-23T19:15Z",
+   "lines_of_work": [
+    "bad trips guide"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "live default branch 3d79cc8 (unchanged; read-only clone re-fetched at 20:05 UTC); suggested-fixes lane: the same six items, all in the ledger"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "pull requests 476 to 494 from other lanes (contents, neuro de-armoring, romance), all merged; this lane's 479 merged; no new issues, comments or reviews on this lane's pull requests since"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no edits by others to this lane's handoff note, questions page or state since 479"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "no queued notifications; his round-50 export of 19:13 UTC (with the serotonin syndrome and low magnesium PDF again) and his message: quiz or Pangram, the API has credits, sections linked where mentioned, the ToC width"
+    }
+   ],
+   "items": [
+    {
+     "item": "his round-50 export and message of 19:13 UTC",
+     "outcome": "this turn: every new text checked through the Pangram API with his key, then his answers in (steps 2, 5 to 8, his naloxone paragraph, three approved edits); 35 section links; the ToC re-measured; quiz or Pangram answered with the numbers; lessons for every lane; round 51 out"
+    }
+   ],
+   "recorded_utc": "2026-11-23T20:05Z"
   }
  ]
 }

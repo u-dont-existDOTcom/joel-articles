@@ -373,6 +373,27 @@ class ReceiptTests(unittest.TestCase):
 
 
 
+class UnitSpaceTests(unittest.TestCase):
+    """Lesson bad-trips-2026-11-23a: "don't put space between the number and the unit i told you that before"."""
+
+    def card(self, question):
+        return {'id': 'QUIZ-2', 'advice': 'ask', 'type': 'ask', 'question': question, 'spans': []}
+
+    def test_a_card_from_today_with_12_mg_is_refused(self):
+        rv = {'built': R.UNITS_FROM, 'suggestions': [self.card('S1: "I\'d give an adult 12 mg to start."')]}
+        probs = R.unit_problems(rv)
+        self.assertEqual(len(probs), 1)
+        self.assertIn('"12 mg"', probs[0])
+
+    def test_12mg_and_older_pages_pass(self):
+        self.assertEqual(R.unit_problems({'built': R.UNITS_FROM, 'suggestions': [self.card('give an adult 12mg, then 2mg every 2 hours')]}), [])
+        self.assertEqual(R.unit_problems({'built': '2026-11-22', 'suggestions': [self.card('12 mg')]}), [])
+
+    def test_a_range_and_mcg_are_read_too(self):
+        probs = R.unit_problems({'built': R.UNITS_FROM, 'suggestions': [self.card('100-200 mcg a day')]})
+        self.assertEqual(len(probs), 1)
+
+
 if __name__ == '__main__':
     unittest.main()
 

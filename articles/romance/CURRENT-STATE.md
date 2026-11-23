@@ -206,14 +206,23 @@ with his OK and no email.
   whose rewrite read AI (Low), as a card that cuts the line; the three (B257, B442, B480) whose fixes read AI are
   questions on it while the tries go on. (The commit of 76fd3fc8 counted eight read High: B84's cut rests on his own
   check of the paragraph before it, not a new one.)
+- 2026-11-23 19:36 UTC (his sixth-page answers, and "you can't just switch honestly for compassionately always that's
+  working sometimes, but like authentically, genuinely, those are more real synonyms, and honestly is also ok sometimes
+  just it's overused"). The seven cards he approved and his own versions of B442 and B257 are in the fixed version
+  (`humanize/fix-20261107/r36/HIS-T6.json`); B480 stays as the post has it ("makes sense to me as is"), on the new
+  keep-as-is list (`whole/KEEP-AS-IS.json`). "honestly" is overused, not banned (lesson romance-2026-11-23g; O77, W132,
+  way 21, AGENTS.md): his own word is back in 366 and 440, and 455 says "genuinely", Human High by itself. His two
+  versions became way 24 and new lines of way 10 (lesson h); a Fable writer given them rewrote both passages blind, and
+  both read Human High (`r30/replay5/RESULTS.md`). The fourteen sections that changed since the section pass were
+  rechecked: thirteen Human High, and "Talk about making love", part 2, Human with three Medium one-sentence windows and
+  no Low one (`r36/README.md`). His record now counts answered questions as answered (`approval_record.py`).
 
 ## Next step
 
-His answers on the sixth page go in as he gives them. Three passages (B257, B442, B480) get their next tries from the
-post's own text, changing only the problem phrase (the near-miss rule), then the tell panel with Codex. Then the 33
-partly real passages of `r30/junk/VETTED.md`, the same way; the sections their fixes touch get one recheck each. Then
-the drafts re-pasted for his last whole-article check; then his post is updated with his OK (no email): 366's link to
-Esther Perel's post, the reel embedded after 149, the typography swap and the "Updated" date.
+The 33 partly real passages of `r30/junk/VETTED.md`, the way his sixth-page versions show (lesson romance-2026-11-23h):
+change only the flagged words, with words the passage already has, and add nothing; the sections their fixes touch get
+one recheck each. Then the drafts re-pasted for his last whole-article check; then his post is updated with his OK (no
+email): 366's link to Esther Perel's post, the reel embedded after 149, the typography swap and the "Updated" date.
 
 ### Before 2026-11-07 (the registered master, as recorded then)
 

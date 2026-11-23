@@ -53,6 +53,16 @@ class RecordTests(unittest.TestCase):
         self.assertEqual(rec['cut']['notes'][0]['comment'], "didn't need to ask me for this")
         self.assertEqual(rec['structure']['pushback'][0]['status'], 'rejected')
 
+    def test_an_answered_question_counts_as_answered_with_what_he_wrote(self):
+        d = self.root / 'articles' / 'demo' / 'review' / 'r3'
+        d.mkdir(parents=True)
+        (d / 'ANSWERS-R3.json').write_text(json.dumps(answers('demo-r3', '2026-11-23T19:36:10Z', [
+            item('Q1', 'ask', 'answered', 'makes sense to me as is'), item('Q2', 'ask', 'pending')])), encoding='utf-8')
+        rec = A.record(self.root)['demo']
+        self.assertEqual((rec['ask']['answered'], rec['ask']['pending']), (1, 1))
+        self.assertEqual(rec['ask']['notes'][0]['comment'], 'makes sense to me as is')
+        self.assertIn('1 answered, 1 unanswered', A.type_line('ask', rec['ask']))
+
     def test_answers_read_from_a_published_page_take_type_and_title_from_its_review(self):
         d = self.root / 'articles' / 'demo' / 'review' / 'r2'
         d.mkdir(parents=True)

@@ -1,0 +1,114 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-23",
+ "text_sha256": "de460d73c42b3547171271bf1ba1d7d02dcc1ebed8f0c818deea988f218aa209",
+ "text": "While you wait, you might think of [niacin](https://ibogaqueen.substack.com/i/170920118/niacin-flushes-trips-out), which this guide uses for ending a trip, but it's actually unsafe with serotonin syndrome, since at the doses used to end a trip it can cause flushing, dizziness and low blood pressure ([NIH](https://ods.od.nih.gov/factsheets/Niacin-Consumer/)). [DMSO](https://ibogaqueen.substack.com/i/170920118/dmso), though, seems to help prevent seizures, so if there's any sign of an overdose, I'd have them smell it, or rub a little on a clean patch of skin (add 30% water if it makes the skin itch), then slowly use more as long as it seems to help. I'd also leave out this guide's [Syrian rue oil](https://ibogaqueen.substack.com/i/170920118/syrian-rue-oil-gentler) for now: made at home it has almost none of the harmala alkaloids, but I couldn't find any research on it with MDMA, so it could help or harm here. Magnesium chloride is the other one I'd use, since many people with serotonin syndrome run low on magnesium ([a nursing review](https://doi.org/10.1097/01.NME.0000432871.59839.f3)). If they're fully alert and able to swallow, I'd give it by mouth, especially with MDMA-related jaw tension or twitching, since those can be signs they're running low (the amounts are in [MDMA: Magnesium Alarm](https://ibogaqueen.substack.com/i/170920118/mdma-magnesium-alarm), above). Topical magnesium chloride if they're not able to swallow, or Epsom salt if that's all you have, though Epsom salt gets through the skin less well.",
+ "section": "Act Now on SS",
+ "reader": "a friend sitting with someone who took MDMA on top of their antidepressant and now has twitching muscles, sweating and a racing heart; they have called an ambulance and read what to do while they wait",
+ "sentences": [
+  {
+   "s": "While you wait, you might think of [niacin](https://ibogaqueen.substack.com/i/170920118/niacin-flushes-trips-out), which this guide uses for ending a trip, but it's actually unsafe with serotonin syndrome, since at the doses used to end a trip it can cause flushing, dizziness and low blood pressure ([NIH](https://ods.od.nih.gov/factsheets/Niacin-Consumer/)).",
+   "payoff": "they leave niacin out, knowing why it is unsafe here",
+   "follows": "what they may reach for while they wait"
+  },
+  {
+   "s": "[DMSO](https://ibogaqueen.substack.com/i/170920118/dmso), though, seems to help prevent seizures, so if there's any sign of an overdose, I'd have them smell it, or rub a little on a clean patch of skin (add 30% water if it makes the skin itch), then slowly use more as long as it seems to help.",
+   "payoff": "they start DMSO by smell or on the skin if there is any sign of an overdose",
+   "follows": "niacin, just ruled out",
+   "link": "though"
+  },
+  {
+   "s": "I'd also leave out this guide's [Syrian rue oil](https://ibogaqueen.substack.com/i/170920118/syrian-rue-oil-gentler) for now: made at home it has almost none of the harmala alkaloids, but I couldn't find any research on it with MDMA, so it could help or harm here.",
+   "payoff": "they leave out the oil too",
+   "follows": "the remedies they may reach for",
+   "link": "also"
+  },
+  {
+   "s": "Magnesium chloride is the other one I'd use, since many people with serotonin syndrome run low on magnesium ([a nursing review](https://doi.org/10.1097/01.NME.0000432871.59839.f3)).",
+   "payoff": "they know magnesium is the other remedy to use, and why",
+   "follows": "DMSO, the first one",
+   "link": "the other one"
+  },
+  {
+   "s": "If they're fully alert and able to swallow, I'd give it by mouth, especially with MDMA-related jaw tension or twitching, since those can be signs they're running low (the amounts are in [MDMA: Magnesium Alarm](https://ibogaqueen.substack.com/i/170920118/mdma-magnesium-alarm), above).",
+   "payoff": "they give it by mouth when their friend can swallow, sooner if the jaw is tense or the muscles twitch, and know where the amounts are",
+   "follows": "how to give it",
+   "link": "If they're fully alert"
+  },
+  {
+   "s": "Topical magnesium chloride if they're not able to swallow, or Epsom salt if that's all you have, though Epsom salt gets through the skin less well.",
+   "payoff": "they put it on the skin when their friend can't swallow, or Epsom salt",
+   "follows": "the case just before, turned around",
+   "link": "Topical"
+  }
+ ],
+ "checked": [
+  {
+   "point": "DMSO may help prevent seizures; start by smell or on the skin, mixed with about 30% water if it itches, and raise it slowly",
+   "found": "his SS-ASKED-2 answer (c) of 2026-11-23 19:07 UTC: \"it looks possible that DMSO could actually help during a seizure -- definitely seems to prevent seizures, so i'd give it before a seizure if there's any indication of an overdose, starting with smelling it and/or rubbing it on a clean patch of skin (add 30% water if it makes skin itchy), and just follow the general guidance of seeing if it helps as you slowly increase the dose\"",
+   "still_needed": "yes: they know how to start it and how to go on",
+   "fate": "kept"
+  },
+  {
+   "point": "seizures have happened during stem cell infusions with DMSO in them",
+   "found": "A case of dimethyl sulfoxide-induced seizure in multiple myeloma (PMC11880447): a seizure during the infusion of DMSO-cryopreserved stem cells; his answer: \"stem cell transfusions with more dmso had more seizures\"",
+   "still_needed": "yes: they go slowly because of it",
+   "fate": "kept"
+  }
+ ],
+ "placement": "step 8 of the eight steps under \"Act Now on SS\" (B136), the last",
+ "opens": {
+  "first_sentence": "While you wait, you might think of [niacin](https://ibogaqueen.substack.com/i/170920118/niacin-flushes-trips-out), which this guide uses for ending a trip, but it's actually unsafe with serotonin syndrome, since at the doses used to end a trip it can cause flushing, dizziness and low blood pressure ([NIH](https://ods.od.nih.gov/factsheets/Niacin-Consumer/)).",
+  "why_reading": "it tells the friend which of this guide's remedies to leave out and which to use while they wait"
+ },
+ "same_point": "none: read the section from its heading to the next (Serotonin Syndrome (SS)?, How to Check for SS, Act Now on SS); the signs and the magnesium amounts are linked to MDMA: Magnesium Alarm, not said again",
+ "needed": {
+  "reader": "a fresh agent (Sonnet) given tools/humanization/needed_read_brief.md with the whole list, its heading, the line before it and what it is for (reads/need-a5-ss.txt), on version one (TEST-a5-ss-v1.txt)",
+  "unneeded": [],
+  "kept": {}
+ },
+ "his_fixes": {
+  "reader": "a fresh agent (Sonnet) given tools/humanization/his_fixes_brief.md, its seventeen ways, with the whole list one sentence a line (reads/his-a5-ss.txt), on version one",
+  "marked": [
+   {
+    "s": "While you wait, you might think of [niacin](https://ibogaqueen.substack.com/i/170920118/niacin-flushes-trips-out), which this guide uses for ending a trip, but it's actually unsafe with serotonin syndrome, since at the doses used to end a trip it can cause flushing, dizziness and low blood pressure ([NIH](https://ods.od.nih.gov/factsheets/Niacin-Consumer/)).",
+    "difference": "19"
+   },
+   {
+    "s": "I'd also leave out this guide's [Syrian rue oil](https://ibogaqueen.substack.com/i/170920118/syrian-rue-oil-gentler) for now: made at home it has almost none of the harmala alkaloids, but I couldn't find any research on it with MDMA, so it could help or harm here.",
+    "difference": "1, 2, 4, 14"
+   }
+  ],
+  "kept": {
+   "While you wait, you might think of [niacin](https://ibogaqueen.substack.com/i/170920118/niacin-flushes-trips-out), which this guide uses for ending a trip, but it's actually unsafe with serotonin syndrome, since at the doses used to end a trip it can cause flushing, dizziness and low blood pressure ([NIH](https://ods.od.nih.gov/factsheets/Niacin-Consumer/)).": "his niacin reason (answer c of round 49), the list of three as he gave it",
+   "I'd also leave out this guide's [Syrian rue oil](https://ibogaqueen.substack.com/i/170920118/syrian-rue-oil-gentler) for now: made at home it has almost none of the harmala alkaloids, but I couldn't find any research on it with MDMA, so it could help or harm here.": "his oil answer is still open (round 51 asks again); this line read Human High in step 8 (a3c02dd9)"
+  }
+ },
+ "fit": {
+  "reader": "a fresh agent (Sonnet) given tools/humanization/fit_read_brief.md, the universal version, with the whole list (reads/fit-a5-ss.txt), on version one",
+  "marked": [],
+  "kept": {}
+ },
+ "questions": {
+  "Q1": "PASS: each sentence opens on why it is there: the urge, the drink, what to do if, how to give it, the remedy",
+  "Q2": "PASS: every instruction is something the friend does or leaves out, with why",
+  "Q3": "PASS: which drink, which salt, which remedy, what to tell the medics",
+  "Q4": "PASS: the remedies are this guide's own, linked to their sections; terms come after their plain words",
+  "Q5": "PASS: each sentence ties to the one before at its start (But, still, That, If you don't have, Whatever, So, Then, though, the other one)",
+  "Q6": "PASS: in the order a helper needs it",
+  "Q7": "PASS: every fact is one he gave or a source says",
+  "Q8": "PASS: one remedy a sentence or two",
+  "Q9": "PASS: the payoff first"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

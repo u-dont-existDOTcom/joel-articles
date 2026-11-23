@@ -1374,9 +1374,14 @@ def main():
             # O77 (Joel, 2026-11-23 17:27 UTC: "honestly is a high freq ai word i think you already should know that. so if
             # another word fits we can use that"; lesson romance-2026-11-23f). In the romance blind test, "can we sit down and
             # honestly rethink what we agreed to?" read 67% AI and the same paragraph with his word, "compassionately", 0%.
+            # Overused, not banned (Joel, 2026-11-23 19:36 UTC: "you can't just switch honestly for compassionately always
+            # that's working sometimes, but like authentically, genuinely, those are more real synonyms, and honestly is also ok
+            # sometimes just it's overused"; lesson romance-2026-11-23g).
             if re.search(r"\bhonestly\b", n, re.I):
-                flag('REVIEW', 'O77 "honestly" (Joel 2026-11-23: "honestly is a high freq ai word ... if another word fits we can '
-                     'use that"): say how, with the word that fits, the way he did ("compassionately"), or leave it out', s)
+                flag('REVIEW', 'O77 "honestly" (Joel 2026-11-23: "honestly is also ok sometimes just it\'s overused"): keep it '
+                     'where it is the exact word and the only one nearby; otherwise a real synonym ("genuinely", '
+                     '"authentically") or the word for what the sentence means ("compassionately" fit one sentence of his, '
+                     'not every one)', s)
             # O67 (E357; Joel, 2026-11-04 18:09 UTC, on the 5-HTP trial: "removed spaces before "mg" and that helped a bit ...
             # don't think i've seen humans put spaces there")
             if re.search(r"(?<![\w.])\d+(?:[.,]\d+)?(?:\s*[\u2013-]\s*\d+(?:[.,]\d+)?)?\s+(?:mg|mcg)\b", s):
@@ -1574,6 +1579,15 @@ def main():
                 flag('REVIEW', 'O76 "%s" in three sentences in a row (Joel 2026-11-19: "now less certain about it being ai, after not '
                      'saying DMSO 3x in a row"): say "it" where the reader can\'t lose the thread' % sorted(same76)[0],
                      ' / '.join(ss[i76:i76 + 3]))
+                break
+        # O78 (Joel, 2026-11-23 19:13 UTC, on my step 7 of the serotonin steps: "i also wouldn't start 2 sentences in a row
+        # with And (s4+s5)"; lesson bad-trips-2026-11-23d). Two sentences in a row that open on "And", one of them mine: his
+        # versions keep the "And" where the tie is ("And tell medics how much you gave.") and tie the other another way.
+        for i78 in range(len(nss) - 1):
+            if all(re.match(r"\W*And\b", nss[k]) for k in (i78, i78 + 1)) and any(mine_s[i78:i78 + 2]):
+                flag('FAIL', 'O78 two sentences in a row open on "And" (Joel 2026-11-23: "i also wouldn\'t start 2 sentences in a '
+                     'row with And"): keep the "And" where the tie is and tie the other sentence another way ("Then", "So", '
+                     'or what it follows from)', ' / '.join(ss[i78:i78 + 2]))
                 break
         if len(para69) >= 2:
             flag('FAIL', 'O69 two correction or contrast frames in one paragraph of mine (none of his 112 versions has two; Joel '

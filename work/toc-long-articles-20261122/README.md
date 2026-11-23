@@ -45,29 +45,41 @@ the sidebar shows each), `<slug>.CONTENTS.json` (for `toc_check.py`) and `<slug>
    bad-trips-2026-11-09f), built with `tools/humanization/contents_picks_page.py` (his own-words box shows the sidebar's
    cut-off; lesson toc-2026-11-23a), with the link plan for every section the text mentions (lesson toc-2026-11-23b).
 7. Apply: `section_links.py build` a `SECTION-LINKS.json`, rename through `section_links.py rename`, fix the sentences on
-   either side of each renamed heading (gate inner-child-2026-11-20d), and a heading with new words reads Human High in
-   Pangram before it goes into his post.
+   either side of each renamed heading (gate inner-child-2026-11-20d), and the body text the change touched (a sentence
+   fixed beside a heading, a line set on its own, a moved section) reads as high in Pangram as before: in its section,
+   without the heading, and a moved section in one whole-post check too, the free way (his extension on the live post
+   as it was and on a temporary draft's secret preview link), never the web app, which is for a section of 5 or 6
+   paragraphs (lesson toc-2026-11-23d: the Nirvāna run's six whole checks there cost about 930 credits). A rename alone
+   changes no window in his extension, which leaves headings out, and a heading's own window may read Low (lessons
+   toc-2026-11-23c and e).
 
 ## Order and next step
 
 Joel picked the Nirvāna guide first (2026-11-23 14:37 UTC: "ok start with the nirvana guide ToC").
 
-1. **Nirvāna: in his post since 2026-11-23 18:01:47 UTC.** His picks and six answers (17:24 UTC), checked in Pangram
-   section by section, and 13 links to sections: [APPLIED.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/nibbana/experiments/toc-20261123/APPLIED.md);
+1. **Nirvāna: done on 2026-11-23** (his picks at 18:01 UTC, the flashbacks section back at the end at 19:39, his two
+   second-pick headings at 19:46): [APPLIED.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/nibbana/experiments/toc-20261123/APPLIED.md);
    the test and every heading's reason: [RESULTS.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/nibbana/experiments/toc-20261123/RESULTS.md).
-   **Waiting on him, first:** the whole check of the post as published (NB-toc-live#41) read the flashbacks section's
-   first two sentences as AI (one High) after its move into the manual; back at the end without "Appendix" they read
-   Human High and the post has one AI window (NB-toc-live-END#43). That version is saved as a draft in the editor, not
-   published (the app blocked the click on "Update now"); his OK publishes it.
-   **Then:** two of his picks read Human Low in their sections ("Did It Work or Go Wrong?" and "Is It Safe When
-   "I" Vanish?"), so those two sections keep their old headings, cut off in the sidebar, until he picks again. Offered:
-   Fable's "Did It Work? Is It Safe?" or his own words for the first; 'Vanishing "I": Dangerous?' (readers found it 4 of
-   4), "Disappearing Flashbacks?" (his words) or his own words for the second. Each goes through Pangram in its section
-   first, then `section_links.py rename` against `articles/nibbana/SECTION-LINKS.json` and the editor.
+   Left with him: one free run of his extension on the live post, to see how the body reads in his route (the three
+   body windows that read lower in my web-app checks did so only because those texts kept the headings, which the
+   extension leaves out: lesson toc-2026-11-23e).
 2. Then the Self-Hypnosis guide (the most headings and the most cut off, 90 of 164, and 43 h1s, two of them notes rather
    than sections: "How to use this very large guide", "The table of contents is hiding on the left"), Escuelitas, Romance.
    Build its picks page with `tools/humanization/contents_picks_page.py`, run the section-link check with the contents
    test (lesson toc-2026-11-23b), and check the picks in Pangram section by section before they go in.
+   **Started 2026-11-23:** step 1 done (no PARALLEL-WRITE-LOCK.json; the article's last commit on main is of 11-12 and no
+   branch works on it; its `master.html` is of September, behind the live post, last updated 2026-11-20, v. 7.0, so the
+   contents work starts from the live post, as Nirvāna's did). Step 2 done the same day, on the live post (165 sections,
+   164 in the sidebar, 90 cut off, 29,554 words): [RESULTS.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/inner-signal/experiments/toc-20261123/RESULTS.md).
 
-Next step: his OK on the saved draft (or keeping his move), and his answer on the two Nirvāna headings; then steps 1 and 2 for the Self-Hypnosis guide, from
-`articles/inner-signal/`.
+Next step: his extension's result page for the live Nirvāna post, when he sends it (record it with
+`tools/humanization/pangram_feed_read.js` against NB-toc-ext-live#48). For the Self-Hypnosis guide, step 3 is done
+(Fable's names, `articles/inner-signal/experiments/toc-20261123/PROPOSAL-FABLE.json`: 152 of 164 renamed, many only to
+title case, none cut off where 90 are now, levels and order kept; its notes on what renaming can't fix are
+`PROPOSAL-FABLE-NOTES.md`, for him). Step 4 next: `toc_check.py PROPOSAL-FABLE.json --reads reads --name NOW-SIDEBAR`
+lists the repeats and hard headings that each need a fate (the readers' hard lines are in `reads/HARD-*.txt`), read
+against the brief's list of misses; then the pick read by fresh readers (step 5) and his picks page (step 6). Its
+contents test of 2026-11-23
+([RESULTS.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/inner-signal/experiments/toc-20261123/RESULTS.md):
+54 and 56 of 64 situations right on the first try with the sidebar, 56 with whole headings, 58 found in two tries
+each, and 29 headings called hard, among them the two notes at the top and the empty parents), then steps 4 to 6.
