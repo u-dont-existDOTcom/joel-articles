@@ -1,0 +1,127 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-23",
+ "text_sha256": "55375f4f82d07be5eb8fb3f31d2bed0ed3e7d4e6c1f28c824bc15778cb069d61",
+ "text": "Bear, sex can be what you do when you’re older and find a friend you love in a super special way that makes you want to raise children together. Don’t imagine you love each other just because you want each other. Don’t feel pressure to promise what your heart will feel. Let the love and bond it produces blossom in its own time as your hearts sync. Learn about each other before getting too close, and make sure to keep friends and community around who know both of you.",
+ "section": "Tough Love",
+ "reader": "someone reading an essay on romance for advice they can use in their own dating and relationships",
+ "sentences": [
+  {
+   "s": "Bear, sex can be what you do when you’re older and find a friend you love in a super special way that makes you want to raise children together.",
+   "payoff": "they learn the author's view that sex belongs later, with a friend they love, and not as the first step.",
+   "follows": "the heading 'Tough Love' sets up blunt advice, and this opens it by addressing someone as 'Bear'.",
+   "link": "none: opens the section with an address"
+  },
+  {
+   "s": "Don’t imagine you love each other just because you want each other.",
+   "payoff": "they stop reading their desire for someone as proof of love.",
+   "follows": "it states the mistake the first sentence's order of friendship, love, then sex avoids.",
+   "link": "Don’t imagine you love"
+  },
+  {
+   "s": "Don’t feel pressure to promise what your heart will feel.",
+   "payoff": "they feel free not to promise love or a future before they feel it.",
+   "follows": "it adds a second pressure to resist, one step on from mistaking desire for love.",
+   "link": "Don’t feel pressure to"
+  },
+  {
+   "s": "Let the love and bond it produces blossom in its own time as your hearts sync.",
+   "payoff": "they know to wait for love to come on its own instead of forcing it.",
+   "follows": "it turns from what not to do (S3) to what to allow.",
+   "link": "Let the love and bond"
+  },
+  {
+   "s": "Learn about each other before getting too close, and make sure to keep friends and community around who know both of you.",
+   "payoff": "they have two things to do: learn about the person first and keep friends and community around who know both of them.",
+   "follows": "it gives the practical steps that let love grow in its own time (S4).",
+   "link": "Learn about each other before"
+  }
+ ],
+ "checked": [],
+ "placement": "It sits under 'Tough Love' as direct advice to a young person about sex and love, so the reader gets the blunt version before it is softened.",
+ "opens": {
+  "first_sentence": "Bear, sex can be what you do when you’re older and find a friend you love in a super special way that makes you want to raise children together.",
+  "why_reading": "It tells the reader, by addressing 'Bear', that this is advice to someone younger, and says when sex fits, so they read on for what to do about it."
+ },
+ "same_point": "S4 says again S3's point, that love and its promises shouldn't be forced and will come in time.",
+ "needed": {
+  "reader": "a fresh Sonnet reader given tools/humanization/needed_read_brief.md and the text with its heading",
+  "unneeded": [
+   "Let the love and bond it produces blossom in its own time as your hearts sync."
+  ],
+  "kept": {
+   "Let the love and bond it produces blossom in its own time as your hearts sync.": "they learn not to force the feeling or fake it, which is the letter's point after \"Don’t feel pressure to promise\"; this is the sentence the one-word change is in"
+  }
+ },
+ "his_fixes": {
+  "reader": "the same fresh reader given tools/humanization/his_fixes_brief.md and the text one sentence a line",
+  "marked": [
+   {
+    "s": "Bear, sex can be what you do when you’re older and find a friend you love in a super special way that makes you want to raise children together.",
+    "difference": "way 10: 'Bear' could be a pet name or the reader, and way 5: it opens on a rule rather than the reader's own case; also way 1: several ideas in one sentence."
+   },
+   {
+    "s": "Don’t imagine you love each other just because you want each other.",
+    "difference": "way 3: a 'don't X just because Y' contrast where it could say what to check, and way 14: it doesn't say why someone would take wanting for love."
+   },
+   {
+    "s": "Don’t feel pressure to promise what your heart will feel.",
+    "difference": "way 15: a don't with nothing to do instead, and way 21: 'what your heart will feel' is abstract; he would say what to say to a partner who asks for a promise."
+   },
+   {
+    "s": "Let the love and bond it produces blossom in its own time as your hearts sync.",
+    "difference": "way 21: abstract nouns that act ('the love and bond it produces blossom', 'your hearts sync') where he says the thing itself, and way 17: advice nobody can carry out."
+   },
+   {
+    "s": "Learn about each other before getting too close, and make sure to keep friends and community around who know both of you.",
+    "difference": "way 19: a pair of items in a list shape with 'friends and community' overlapping, and way 6: it ends on a summing-up of what to do, though it is a real instruction."
+   }
+  ],
+  "kept": {
+   "Bear, sex can be what you do when you’re older and find a friend you love in a super special way that makes you want to raise children together.": "the article's text as it stands: only the word \"honestly\" changed in this paragraph, and the section it sits in read Human with 0% AI in the section pass; this sentence is for the vetted-junk pass, not this one-word change",
+   "Don’t imagine you love each other just because you want each other.": "the article's text as it stands: only the word \"honestly\" changed in this paragraph, and the section it sits in read Human with 0% AI in the section pass; this sentence is for the vetted-junk pass, not this one-word change",
+   "Don’t feel pressure to promise what your heart will feel.": "the article's text as it stands: only the word \"honestly\" changed in this paragraph, and the section it sits in read Human with 0% AI in the section pass; this sentence is for the vetted-junk pass, not this one-word change",
+   "Let the love and bond it produces blossom in its own time as your hearts sync.": "the article's text as it stands: only the word \"honestly\" changed in this paragraph, and the section it sits in read Human with 0% AI in the section pass; this sentence is for the vetted-junk pass, not this one-word change",
+   "Learn about each other before getting too close, and make sure to keep friends and community around who know both of you.": "the article's text as it stands: only the word \"honestly\" changed in this paragraph, and the section it sits in read Human with 0% AI in the section pass; this sentence is for the vetted-junk pass, not this one-word change"
+  }
+ },
+ "fit": {
+  "reader": "the same fresh reader given tools/humanization/fit_read_brief.md and the text one line a line",
+  "marked": [
+   {
+    "s": "Bear, sex can be what you do when you’re older and find a friend you love in a super special way that makes you want to raise children together.",
+    "found": "MISREAD / FROM: addressing 'Bear' and 'super special way' reads like a message to a child, not to an adult dating, and 'raise children together' narrows the case."
+   },
+   {
+    "s": "Let the love and bond it produces blossom in its own time as your hearts sync.",
+    "found": "CAN'T TELL: the reader can't tell what to do, and 'it produces' has no clear object."
+   }
+  ],
+  "kept": {
+   "Bear, sex can be what you do when you’re older and find a friend you love in a super special way that makes you want to raise children together.": "the article's text as it stands: only the word \"honestly\" changed in this paragraph, and the section it sits in read Human with 0% AI in the section pass; this sentence is for the vetted-junk pass, not this one-word change",
+   "Let the love and bond it produces blossom in its own time as your hearts sync.": "the article's text as it stands: only the word \"honestly\" changed in this paragraph, and the section it sits in read Human with 0% AI in the section pass; this sentence is for the vetted-junk pass, not this one-word change"
+  }
+ },
+ "questions": {
+  "Q1": "PASS: the paragraph before names Bear (\"my son, Bear\"), so the reader knows whom the letter speaks to",
+  "Q2": "PASS: S3 and S4 tell the son not to promise feelings and to let the bond grow at its own pace, which is what he can do",
+  "Q3": "PASS: 'sex', 'love' and 'want' name the cases.",
+  "Q4": "PASS: \"the love and bond it produces\" is the bond sex can grow between two people who want to raise children together (S1); \"as your hearts sync\" is his image, plain in a letter to his son",
+  "Q5": "PASS: S2 to S5 each follow from the one before, from the mistake, the pressure, the allowance and the steps.",
+  "Q6": "PASS: the view, the mistakes, then what to do.",
+  "Q7": "PASS: each sentence helps a reader deciding when to be sexual with someone, apart from S4.",
+  "Q8": "N/A: nothing is sorted into groups.",
+  "Q9": "PASS: S5 gives two steps, learning about each other and keeping friends around, joined because both protect the start of a relationship"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

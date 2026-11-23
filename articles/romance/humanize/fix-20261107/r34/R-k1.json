@@ -1,0 +1,114 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-23",
+ "text_sha256": "1ebc0b3e5e3deae6339993b501035748b12815fa20f83d43c3c1586bd9885c9e",
+ "text": "You may not know all the answers yet. “I don’t know, but I’m willing to find out with you” is a perfectly good answer.\n\nAnd what is sex for each of you? One person may mainly think of bonding while the other thinks of play. Sometimes it may feel sacred; another time it may just be how you come down from a bad day. It doesn’t have to mean the same thing every time.",
+ "section": "Talk about making love before you do it",
+ "reader": "someone reading an essay on romance for advice they can use in their own dating and relationships",
+ "sentences": [
+  {
+   "s": "You may not know all the answers yet.",
+   "payoff": "they stop treating missing answers as a reason to avoid the talk about sex.",
+   "follows": "the heading tells them to talk before making love, and this lowers the bar for starting that talk.",
+   "link": "none: opens the paragraph after its heading"
+  },
+  {
+   "s": "“I don’t know, but I’m willing to find out with you” is a perfectly good answer.",
+   "payoff": "they have a ready sentence to say when their partner asks something they can't answer yet.",
+   "follows": "it gives the concrete answer that sentence 1 says is acceptable.",
+   "link": "“I don’t know, but I’m willing"
+  },
+  {
+   "s": "And what is sex for each of you?",
+   "payoff": "they see the question the two of them are meant to talk about, what sex means to each.",
+   "follows": "it moves from not having answers to naming what the answers are about.",
+   "link": "And what is sex for each"
+  },
+  {
+   "s": "One person may mainly think of bonding while the other thinks of play.",
+   "payoff": "they see that one partner's bonding and the other's play are different answers that can sit side by side.",
+   "follows": "it gives a first possible difference between two people's answers to the question just asked.",
+   "link": "none: example answering the question"
+  },
+  {
+   "s": "Sometimes it may feel sacred; another time it may just be how you come down from a bad day.",
+   "payoff": "they see that even one person's answer shifts from time to time, so they ask again instead of assuming.",
+   "follows": "it adds that a single person's meaning varies, after the difference between two people.",
+   "link": "Sometimes it may feel"
+  },
+  {
+   "s": "It doesn’t have to mean the same thing every time.",
+   "payoff": "they stop expecting one fixed meaning from themselves or their partner.",
+   "follows": "it states the conclusion of the two examples before it.",
+   "link": "It doesn’t have to mean"
+  }
+ ],
+ "checked": [],
+ "placement": "It opens the section on talking before sex, which is where a reader who is about to be intimate needs to know what to ask and that not knowing is fine.",
+ "opens": {
+  "first_sentence": "You may not know all the answers yet.",
+  "why_reading": "It tells the reader they don't need answers yet, so they read on to learn what the question is."
+ },
+ "same_point": "S6 restates S5's point that the meaning of sex varies, as a summary.",
+ "needed": {
+  "reader": "a fresh Sonnet reader given tools/humanization/needed_read_brief.md and the text with its heading",
+  "unneeded": [],
+  "kept": {}
+ },
+ "his_fixes": {
+  "reader": "the same fresh reader given tools/humanization/his_fixes_brief.md and the text one sentence a line",
+  "marked": [
+   {
+    "s": "And what is sex for each of you?",
+    "difference": "way 13: it opens on a question without saying what in the reader's situation calls for it, and way 21: 'what is sex' is a question about a category the reader couldn't answer as asked; the real question is what sex means to each of them and what each wants from it."
+   },
+   {
+    "s": "One person may mainly think of bonding while the other thinks of play.",
+    "difference": "way 2: it and the next sentence share one 'one/other ... may' shape of paired examples."
+   },
+   {
+    "s": "It doesn’t have to mean the same thing every time.",
+    "difference": "way 6: it ends on a summing-up line, and way 18: a short plain line standing alone; his way would end on what to do, such as asking again each time."
+   }
+  ],
+  "kept": {
+   "And what is sex for each of you?": "the article's text as it stands: only the word \"honestly\" changed in this paragraph, and the section it sits in read Human with 0% AI in the section pass; this sentence is for the vetted-junk pass, not this one-word change",
+   "One person may mainly think of bonding while the other thinks of play.": "the article's text as it stands: only the word \"honestly\" changed in this paragraph, and the section it sits in read Human with 0% AI in the section pass; this sentence is for the vetted-junk pass, not this one-word change",
+   "It doesn’t have to mean the same thing every time.": "the article's text as it stands: only the word \"honestly\" changed in this paragraph, and the section it sits in read Human with 0% AI in the section pass; this sentence is for the vetted-junk pass, not this one-word change"
+  }
+ },
+ "fit": {
+  "reader": "the same fresh reader given tools/humanization/fit_read_brief.md and the text one line a line",
+  "marked": [
+   {
+    "s": "You may not know all the answers yet.",
+    "found": "CAN'T TELL / MISREAD: it opens with 'the answers' before any question has been asked, so a quick reader doesn't know answers to what until S3."
+   }
+  ],
+  "kept": {
+   "You may not know all the answers yet.": "the article's text as it stands: only the word \"honestly\" changed in this paragraph, and the section it sits in read Human with 0% AI in the section pass; this sentence is for the vetted-junk pass, not this one-word change"
+  }
+ },
+ "questions": {
+  "Q1": "PASS: S1 opens on the reader's own state (not knowing the answers), and S2 gives the reply straight away.",
+  "Q2": "N/A: there are no instructions beyond saying the sentence in quotes, whose purpose S1 states.",
+  "Q3": "PASS: 'sex' and 'bonding' versus 'play' name the cases (S4).",
+  "Q4": "PASS: 'the answers' is answered by S3's question; 'sacred' and 'come down from a bad day' are plain.",
+  "Q5": "PASS: each sentence extends the one before (S3 asks, S4 and S5 answer, S6 concludes), and 'it' in S5 and S6 means sex.",
+  "Q6": "PASS: permission not to know, then the question, then examples, then the takeaway.",
+  "Q7": "PASS: every sentence helps someone about to talk with a partner about sex.",
+  "Q8": "N/A: nothing is sorted into groups.",
+  "Q9": "PASS: one step a sentence in plain verbs."
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

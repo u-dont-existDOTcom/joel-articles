@@ -1,0 +1,174 @@
+{
+ "k1": {
+  "sentences": [
+   {"payoff": "they stop treating missing answers as a reason to avoid the talk about sex.", "follows": "the heading tells them to talk before making love, and this lowers the bar for starting that talk.", "link": "none: opens the paragraph after its heading"},
+   {"payoff": "they have a ready sentence to say when their partner asks something they can't answer yet.", "follows": "it gives the concrete answer that sentence 1 says is acceptable.", "link": "“I don’t know, but I’m willing"},
+   {"payoff": "they see the question the two of them are meant to talk about, what sex means to each.", "follows": "it moves from not having answers to naming what the answers are about.", "link": "And what is sex for each"},
+   {"payoff": "they see that one partner's bonding and the other's play are different answers that can sit side by side.", "follows": "it gives a first possible difference between two people's answers to the question just asked.", "link": "none: example answering the question"},
+   {"payoff": "they see that even one person's answer shifts from time to time, so they ask again instead of assuming.", "follows": "it adds that a single person's meaning varies, after the difference between two people.", "link": "Sometimes it may feel"},
+   {"payoff": "they stop expecting one fixed meaning from themselves or their partner.", "follows": "it states the conclusion of the two examples before it.", "link": "It doesn’t have to mean"}
+  ],
+  "placement": "It opens the section on talking before sex, which is where a reader who is about to be intimate needs to know what to ask and that not knowing is fine.",
+  "why_reading": "It tells the reader they don't need answers yet, so they read on to learn what the question is.",
+  "same_point": "S6 restates S5's point that the meaning of sex varies, as a summary.",
+  "questions": {
+   "Q1": "PASS: S1 opens on the reader's own state (not knowing the answers), and S2 gives the reply straight away.",
+   "Q2": "N/A: there are no instructions beyond saying the sentence in quotes, whose purpose S1 states.",
+   "Q3": "PASS: 'sex' and 'bonding' versus 'play' name the cases (S4).",
+   "Q4": "PASS: 'the answers' is answered by S3's question; 'sacred' and 'come down from a bad day' are plain.",
+   "Q5": "PASS: each sentence extends the one before (S3 asks, S4 and S5 answer, S6 concludes), and 'it' in S5 and S6 means sex.",
+   "Q6": "PASS: permission not to know, then the question, then examples, then the takeaway.",
+   "Q7": "PASS: every sentence helps someone about to talk with a partner about sex.",
+   "Q8": "N/A: nothing is sorted into groups.",
+   "Q9": "PASS: one step a sentence in plain verbs."
+  },
+  "needed": {"unneeded": []},
+  "his_fixes": {"marked": [
+   {"s": "And what is sex for each of you?", "difference": "way 13: it opens on a question without saying what in the reader's situation calls for it, and way 21: 'what is sex' is a question about a category the reader couldn't answer as asked; the real question is what sex means to each of them and what each wants from it."},
+   {"s": "One person may mainly think of bonding while the other thinks of play.", "difference": "way 2: it and the next sentence share one 'one/other ... may' shape of paired examples."},
+   {"s": "It doesn’t have to mean the same thing every time.", "difference": "way 6: it ends on a summing-up line, and way 18: a short plain line standing alone; his way would end on what to do, such as asking again each time."}
+  ]},
+  "fit": {"marked": [
+   {"s": "You may not know all the answers yet.", "found": "CAN'T TELL / MISREAD: it opens with 'the answers' before any question has been asked, so a quick reader doesn't know answers to what until S3."}
+  ]}
+ },
+ "k2": {
+  "sentences": [
+   {"payoff": "they learn that choosing exclusivity is a position they can hold honestly, which frames what follows.", "follows": "the heading puts jealousy on trial, and this gives the author's verdict on whether exclusivity can work.", "link": "none: opens the section on the author's position"},
+   {"payoff": "they learn what exclusivity without pretending looks like: admit the attraction and decide each day not to act.", "follows": "it explains what 'without pretending' means in the sentence before.", "link": "none: explains the previous sentence"},
+   {"payoff": "they learn that the attraction can be put to use, which gives them something to do with it besides fighting it.", "follows": "it goes past the decision not to act (S2) to what else they can do with the attraction.", "link": "And even better than simply"},
+   {"payoff": "they get a named authority who backs the idea and a direction, to turn that energy toward their partner.", "follows": "it supports the claim of S3 and says where the energy goes.", "link": "none: backs up the previous claim"}
+  ],
+  "placement": "It sits in the jealousy section as the author's answer to whether exclusivity can work, so the reader gets the position before the technique.",
+  "why_reading": "It states Joel's position that exclusivity can be real, so the reader reads on for how.",
+  "same_point": "S4 says again S3's point that the attraction can be put to use, adding the source and the direction (into the relationship).",
+  "questions": {
+   "Q1": "PASS: S1 states the point first; S4 names the source after the claim it supports.",
+   "Q2": "N/A: nothing is an instruction beyond what the sentences say can be done.",
+   "Q3": "PASS: 'sexual exclusivity' and 'attraction to other people' name the case.",
+   "Q4": "FAIL: 'put it to work' in S3 and 'used and redirected' in S4 don't say how, and 'it' in S3 could be the attraction or the suppressing.",
+   "Q5": "PASS: S2 explains S1, S3 extends S2 with 'even better', S4 supports S3, and 'it' mostly points at attraction.",
+   "Q6": "PASS: position, what it means, a better use, then the source.",
+   "Q7": "PASS: each sentence helps a reader deciding whether to stay exclusive.",
+   "Q8": "N/A: nothing is sorted into groups.",
+   "Q9": "PASS: one step a sentence."
+  },
+  "needed": {"unneeded": []},
+  "his_fixes": {"marked": [
+   {"s": "And even better than simply suppressing it, they can put it to work.", "difference": "way 3: it contrasts with 'simply suppressing' where it could just say what to do, and way 10: 'it' could be the attraction or the suppressing, and 'put it to work' doesn't say how."},
+   {"s": "I agree with Esther Perel, who writes that this sexual energy felt outside the relationship can be used and redirected into the relationship to make it more alive.", "difference": "way 11: it opens on the authority before the payoff, and way 5: it opens on an authority with the reader outside it; his way would say first that the energy can be redirected into the relationship to make it more alive, then name Perel. Also way 21: 'used and redirected' doesn't say what the reader does."},
+   {"s": "They can admit that attraction to other people exists and decide not to act on it each day.", "difference": "way 8: it joins two steps with 'and' where he would split admit from decide, and way 10: 'it' could point at attraction or exists."}
+  ]},
+  "fit": {"marked": [
+   {"s": "And even better than simply suppressing it, they can put it to work.", "found": "CAN'T TELL: it doesn't say how to put attraction to work, so the reader can't act on it right then."},
+   {"s": "I agree with Esther Perel, who writes that this sexual energy felt outside the relationship can be used and redirected into the relationship to make it more alive.", "found": "CAN'T TELL: 'redirected into the relationship' gives no way to do it; MISREAD: 'this sexual energy' points back at attraction without naming it."}
+  ]}
+ },
+ "k3": {
+  "sentences": [
+   {"payoff": "they learn the author advises against handling conflict privately to save face, so they consider telling someone.", "follows": "the heading is about conflict that stays hidden, and this takes the position against keeping it private.", "link": "none: opens the section on the author's position"},
+   {"payoff": "they learn that having no friend to turn to is the real problem and worth fixing.", "follows": "it states the condition under which the advice of S1 can't be followed.", "link": "If you don’t have friends"},
+   {"payoff": "they learn the condition for bringing a friend in: aim at helping the conflict, not at winning approval.", "follows": "it turns from having friends (S2) to how to use them.", "link": "But do it fairly"},
+   {"payoff": "they know to tell the friend the other side and expect a friend who hears both before judging.", "follows": "it says what 'fairly' means in S3.", "link": "Both people should get a chance"}
+  ],
+  "placement": "It follows the heading about gaslighting in the dark as the remedy, taking conflicts out of privacy, so the reader has something to do about their own interpretation being the only one.",
+  "why_reading": "It tells the reader the author disagrees with working things out privately, so they read on for what to do instead.",
+  "same_point": "none",
+  "questions": {
+   "Q1": "PASS: S1 states the point, and S2 to S4 follow on it.",
+   "Q2": "FAIL: S1 never says what the alternative to privacy is (bring friends in), so the purpose of S3's 'do it fairly' is only inferred.",
+   "Q3": "PASS: 'friends who can help with the conflict' names the case.",
+   "Q4": "FAIL: 'do it' in S3 has no stated object, and 'validating' in S4 is not explained.",
+   "Q5": "PASS: S2 follows from the position of S1 (but see Q4 on S3), and S4 spells out S3.",
+   "Q6": "PASS: position, the case with no friends, how to do it, then the rule.",
+   "Q7": "PASS: each sentence helps someone deciding whether and how to talk to friends about a conflict.",
+   "Q8": "N/A: nothing is sorted into groups.",
+   "Q9": "PASS: one step a sentence."
+  },
+  "needed": {"unneeded": []},
+  "his_fixes": {"marked": [
+   {"s": "Many say it’s best to save face and work things out privately, but I’d disagree.", "difference": "way 3: it contrasts with what many say before the author's own advice; his way would say what to do (bring in friends) first. Also way 5: it opens on a rule the reader is outside of."},
+   {"s": "But do it fairly, with the goal of helping the conflict, not just getting approval for your own interpretation.", "difference": "way 10: 'do it' could mean working it out privately or involving friends because the paragraph never says to involve friends, way 22: the pivot doesn't name what it points back at, and way 3: 'not just getting approval' is a contrast where the sentence could say the goal."},
+   {"s": "If you don’t have friends who can help with the conflict, then you’re really stuck (and you might wanna find some new friends).", "difference": "way 15: 'you're really stuck' leaves the reader with nothing to do except in a parenthesis, and way 2: this and S1 both open with a framing sentence."},
+   {"s": "Both people should get a chance to speak, and good friends should hear both sides before validating either.", "difference": "way 21: 'validating' names a concept where it could say what the friend does, and way 16: it says again 'fairly' as a rule turned around."}
+  ]},
+  "fit": {"marked": [
+   {"s": "But do it fairly, with the goal of helping the conflict, not just getting approval for your own interpretation.", "found": "MISREAD / CAN'T TELL: 'do it' has no stated object, since the text never says to tell friends, so a quick reader doesn't know what to do fairly."}
+  ]}
+ },
+ "k4": {
+  "sentences": [
+   {"payoff": "they see spiritual practice as a support during a breakup that must not replace feeling the feelings.", "follows": "the heading is about after the relationship ends, and this opens with how the reader's spiritual life fits that time.", "link": "none: opens the section"},
+   {"payoff": "they have a concrete practice to do, wishing the ex well.", "follows": "it gives one example of the spiritual practice named in S1.", "link": "none: example of the practice in S1"},
+   {"payoff": "they remember what was good and don't treat their pain as a reason to hate.", "follows": "it adds a second practice and a limit on what the pain justifies.", "link": "Remember what was real"},
+   {"payoff": "they know to watch for the idea that everything that happened is their own reflection.", "follows": "it turns from what to do to a belief to avoid.", "link": "Avoid the New Age belief"},
+   {"payoff": "they get a fair version of the mirror idea and a reason the extreme version is wrong.", "follows": "it grants what is true in the belief of S4 before limiting it.", "link": "Of course, we do partly"},
+   {"payoff": "they see by an example that owning their part of the breakup doesn't excuse what their ex did.", "follows": "it gives a case showing the limit set in S5.", "link": "none: example for the previous sentence"},
+   {"payoff": "they have a simple question to ask themselves when they don't know how to act toward the ex.", "follows": "it adds one more way to decide how to act, after the cautions.", "link": "Sometimes it helps to ask"}
+  ],
+  "placement": "It sits in the section on after leaving because the reader is dealing with an ex and needs guidance on how to hold the ending spiritually without bypassing feelings.",
+  "why_reading": "It tells the reader that spiritual practice matters now, with a warning, so they read on for what the practice is and what to avoid.",
+  "same_point": "S6 partly repeats S5's point that each person has causes not about you, by giving a case.",
+  "questions": {
+   "Q1": "PASS: S1 states the point, and each later sentence adds under it.",
+   "Q2": "PASS: S3 gives a purpose for remembering what was good (not hating), and S1 gives one for the caution; S2 'pray' gives none beyond S1.",
+   "Q3": "PASS: 'the New Age belief that everyone is simply a mirror' names the case.",
+   "Q4": "PASS: Devadatta is explained by what he did, and 'use it to get around the feelings' is understandable from context.",
+   "Q5": "PASS: S5 'Of course' grants S4's belief, S6 supports S5, and 'it' in S1 and S3 is clear.",
+   "Q6": "FAIL: S7's Mr. Rogers question comes after the mirror argument and doesn't follow from it; it would sit nearer S2 and S3.",
+   "Q7": "PASS: each sentence helps someone coping with an ex, apart from S7 for a reader who doesn't know the show.",
+   "Q8": "N/A: nothing is sorted into groups.",
+   "Q9": "FAIL: S6 packs the Buddha, his enlightenment, his cousin, the attempts and the lesson into one sentence."
+  },
+  "needed": {"unneeded": ["Sometimes it helps to ask, “What would Mr. Rogers do?” (if you’re old enough to remember that show)."]},
+  "his_fixes": {"marked": [
+   {"s": "Spiritual practice during an ending is critical, but don’t use it to get around the feelings.", "difference": "way 3: 'critical, but don't' is a correcting pair, and way 10: 'it' could be the ending or the practice."},
+   {"s": "Pray for your ex’s wellbeing.", "difference": "way 13: it opens on what to do without saying what in the reader's situation calls for it, and way 18: a short line standing alone."},
+   {"s": "Remember what was real and good, and don’t use your pain as permission to hate them.", "difference": "way 3: 'and don't use ... permission' is a contrast, and way 14: it doesn't say why someone would want to hate, which he would say first."},
+   {"s": "Avoid the New Age belief that everyone is simply a mirror of you.", "difference": "way 14: a rule against something natural, said flatly without why someone would hold it, and way 18: a short line."},
+   {"s": "Of course, we do partly mirror one another, but each person was formed by plenty that had nothing to do with you.", "difference": "way 3: it is a correcting 'partly ... but' pair, and way 21: 'formed by plenty' is vague."},
+   {"s": "No matter how enlightened the Buddha was, his cousin Devadatta still kept trying to kill him: admitting your part doesn’t erase theirs.", "difference": "way 3: it ends on 'doesn't erase theirs', a correcting contrast, and way 6: it ends on a line that sounds wise rather than on what to do; way 1 also: several ideas in one sentence."},
+   {"s": "Sometimes it helps to ask, “What would Mr. Rogers do?” (if you’re old enough to remember that show).", "difference": "way 17: a reader who doesn't remember the show can't use it, and way 6: it ends the paragraph on a quip."}
+  ]},
+  "fit": {"marked": [
+   {"s": "Spiritual practice during an ending is critical, but don’t use it to get around the feelings.", "found": "CAN'T TELL: 'spiritual practice' isn't said, so a reader without one doesn't know what it means for them."},
+   {"s": "Pray for your ex’s wellbeing.", "found": "FROM: assumes a reader who prays, though the text hasn't said this is for any one belief."},
+   {"s": "Sometimes it helps to ask, “What would Mr. Rogers do?” (if you’re old enough to remember that show).", "found": "CAN'T TELL: a reader who doesn't know the show can't answer the question."}
+  ]}
+ },
+ "k5": {
+  "sentences": [
+   {"payoff": "they learn the author's view that sex belongs later, with a friend they love, and not as the first step.", "follows": "the heading 'Tough Love' sets up blunt advice, and this opens it by addressing someone as 'Bear'.", "link": "none: opens the section with an address"},
+   {"payoff": "they stop reading their desire for someone as proof of love.", "follows": "it states the mistake the first sentence's order of friendship, love, then sex avoids.", "link": "Don’t imagine you love"},
+   {"payoff": "they feel free not to promise love or a future before they feel it.", "follows": "it adds a second pressure to resist, one step on from mistaking desire for love.", "link": "Don’t feel pressure to"},
+   {"payoff": "they know to wait for love to come on its own instead of forcing it.", "follows": "it turns from what not to do (S3) to what to allow.", "link": "Let the love and bond"},
+   {"payoff": "they have two things to do: learn about the person first and keep friends and community around who know both of them.", "follows": "it gives the practical steps that let love grow in its own time (S4).", "link": "Learn about each other before"}
+  ],
+  "placement": "It sits under 'Tough Love' as direct advice to a young person about sex and love, so the reader gets the blunt version before it is softened.",
+  "why_reading": "It tells the reader, by addressing 'Bear', that this is advice to someone younger, and says when sex fits, so they read on for what to do about it.",
+  "same_point": "S4 says again S3's point, that love and its promises shouldn't be forced and will come in time.",
+  "questions": {
+   "Q1": "FAIL: 'Bear' is never explained, so the reader works out who is being addressed before the point, and the point lands only after the address.",
+   "Q2": "FAIL: S3 and S4 don't say what the pressure or the blossoming is for, in the reader's terms.",
+   "Q3": "PASS: 'sex', 'love' and 'want' name the cases.",
+   "Q4": "FAIL: 'as your hearts sync' and 'the love and bond it produces' are not said in plain terms, and 'it' in S4 has no clear object.",
+   "Q5": "PASS: S2 to S5 each follow from the one before, from the mistake, the pressure, the allowance and the steps.",
+   "Q6": "PASS: the view, the mistakes, then what to do.",
+   "Q7": "PASS: each sentence helps a reader deciding when to be sexual with someone, apart from S4.",
+   "Q8": "N/A: nothing is sorted into groups.",
+   "Q9": "FAIL: S5 packs two steps into one sentence."
+  },
+  "needed": {"unneeded": ["Let the love and bond it produces blossom in its own time as your hearts sync."]},
+  "his_fixes": {"marked": [
+   {"s": "Bear, sex can be what you do when you’re older and find a friend you love in a super special way that makes you want to raise children together.", "difference": "way 10: 'Bear' could be a pet name or the reader, and way 5: it opens on a rule rather than the reader's own case; also way 1: several ideas in one sentence."},
+   {"s": "Don’t imagine you love each other just because you want each other.", "difference": "way 3: a 'don't X just because Y' contrast where it could say what to check, and way 14: it doesn't say why someone would take wanting for love."},
+   {"s": "Don’t feel pressure to promise what your heart will feel.", "difference": "way 15: a don't with nothing to do instead, and way 21: 'what your heart will feel' is abstract; he would say what to say to a partner who asks for a promise."},
+   {"s": "Let the love and bond it produces blossom in its own time as your hearts sync.", "difference": "way 21: abstract nouns that act ('the love and bond it produces blossom', 'your hearts sync') where he says the thing itself, and way 17: advice nobody can carry out."},
+   {"s": "Learn about each other before getting too close, and make sure to keep friends and community around who know both of you.", "difference": "way 19: a pair of items in a list shape with 'friends and community' overlapping, and way 6: it ends on a summing-up of what to do, though it is a real instruction."}
+  ]},
+  "fit": {"marked": [
+   {"s": "Bear, sex can be what you do when you’re older and find a friend you love in a super special way that makes you want to raise children together.", "found": "MISREAD / FROM: addressing 'Bear' and 'super special way' reads like a message to a child, not to an adult dating, and 'raise children together' narrows the case."},
+   {"s": "Let the love and bond it produces blossom in its own time as your hearts sync.", "found": "CAN'T TELL: the reader can't tell what to do, and 'it produces' has no clear object."}
+  ]}
+ }
+}

@@ -1371,6 +1371,12 @@ def main():
             if re.search(r"\bmatters\b(?! to me| for me)", n, re.I) and not re.search(r"\b(?:still|what) matters\b", n, re.I):
                 flag('REVIEW', 'O66 "matters" (Joel 2026-11-04: "super extremely portable, can mean almost anything ... don\'t use it '
                      'if a more specific word would give more sense"): say what it does', s)
+            # O77 (Joel, 2026-11-23 17:27 UTC: "honestly is a high freq ai word i think you already should know that. so if
+            # another word fits we can use that"; lesson romance-2026-11-23f). In the romance blind test, "can we sit down and
+            # honestly rethink what we agreed to?" read 67% AI and the same paragraph with his word, "compassionately", 0%.
+            if re.search(r"\bhonestly\b", n, re.I):
+                flag('REVIEW', 'O77 "honestly" (Joel 2026-11-23: "honestly is a high freq ai word ... if another word fits we can '
+                     'use that"): say how, with the word that fits, the way he did ("compassionately"), or leave it out', s)
             # O67 (E357; Joel, 2026-11-04 18:09 UTC, on the 5-HTP trial: "removed spaces before "mg" and that helped a bit ...
             # don't think i've seen humans put spaces there")
             if re.search(r"(?<![\w.])\d+(?:[.,]\d+)?(?:\s*[\u2013-]\s*\d+(?:[.,]\d+)?)?\s+(?:mg|mcg)\b", s):

@@ -3247,6 +3247,19 @@
     }
    ],
    "reason": "which question an example belongs with, and what frame a paragraph has, is meaning: a fresh reader given tools/humanization/his_fixes_brief.md (its twenty-third way)"
+  },
+  {
+   "id": "W132",
+   "tell": "\"honestly\" (\"honestly is a high freq ai word\")",
+   "kind": "mechanical",
+   "sources": [
+    {
+     "file": "docs/lessons/2026-11-23-0100-romance.md",
+     "quote": "honestly is a high freq ai word i think you already should know that"
+    }
+   ],
+   "rule": "O77",
+   "example": "If our lives change, can we sit down and honestly rethink what we agreed to? And if we split up, what do we still owe each other?"
   }
  ]
 }
