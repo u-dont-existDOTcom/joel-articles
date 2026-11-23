@@ -1,6 +1,6 @@
 # Romance current state
 
-Updated: 2026-11-22
+Updated: 2026-11-23
 
 ## Goal
 
@@ -159,19 +159,33 @@ with his OK and no email.
   half-fixed 5, missed 4 (lists of three kept, vague questions kept, details added), so the brief got three more lines
   (lesson romance-2026-11-22f). Pangram: Claude in Chrome wasn't connected and the app's browser pane is signed out of
   Pangram, so none of his 75 links could be read and no check ran (asked in chat).
+- 2026-11-22 23:43 to 2026-11-23 UTC (his message: "i signed into pangram in your cloud browser on my main acct", his
+  rule to test every lesson blind on the paragraphs he fixed, and his fifth-page answers). His four answers are in
+  (`r31/HIS-T5.json`): Q-14 in his own words ("pressuring men into making it look like men know what they want"),
+  "literally defined as" (409), "my second wife, Bee" (314), "H." again for H.D. (392). His 75 Pangram links all read
+  from his main account (`r30/HIS-CHECKS.txt`); none needed his nobodytobe account. His rule is in `AGENTS.md`
+  (lesson romance-2026-11-22h). The blind test, round 1 (`r30/replay/RESULTS.md`): 6 of 14 rewrites read Human High by
+  themselves; round 2 with "add nothing" (`r30/replay2/RESULTS.md`): 2 more High (125, 343) and 437 Human with a Medium
+  window, so 8 of 14 High over both rounds; the four still short (73, 214, 252 with 253, 346) point to three ways the
+  brief didn't say (lesson romance-2026-11-23a), which round 3 tests (`r30/replay3/`). The section pass (E307,
+  `r32/`): 93 sections by themselves, 92 Human with 0% AI (72 High in every window, 20 with Medium windows only), all
+  in the ledger. The one Mixed section, "The conversation about flaws" (`r33/README.md`): its opener joined and in the
+  fixed version (High with the next paragraph); its end left as it stands after three tries read worse than it, the
+  tell panel's rule for the next draft (a Codex writer from his laptop) refused by this session's safety check, so it
+  goes on the next page (lesson romance-2026-11-23b). Every push this turn was held back by the auto-mode refusal
+  below; the work is in the bundle sent in chat.
 
 ## Next step
 
-Waits on Pangram access (he signs in to pangram.com in the app's browser pane, or Claude in Chrome is connected): read
-his 75 history links into the ledger (the 14 on his nobodytobe account when he signs in there); check every section by
-itself (E307), about 70, in the web app; fix the 11 real and 33 partly real passages of `r30/junk/VETTED.md` that are
-in model text, sense first (the read against his fixes, ways 1 to 21, on each new version), each fix checked by itself
-and in its section; check the 14 blind rewrites of `r30/replay/` by themselves. His answers on the fifth page (four
-questions) go in as he writes them. Then the drafts re-pasted for his last whole-article check;
-then his post is updated with his OK (no email): 366's link to Esther Perel's post carried into the editor, the reel
-embedded after 149, the typography swap, and the "Updated" date set. Pull request 401 keeps its "hold" label: this
-session's auto mode refused a push that would let the workflow merge its shared rules and tools into main, so it waits
-for his merge click (the lessons, the whole-page rule and suggestion_review.py 1.12 reach other lanes when it merges).
+The junk fixes first: the 11 real and 33 partly real passages of `r30/junk/VETTED.md` that are in model text, sense
+first (the read against his fixes, ways 1 to 21 and the three of round 2), each fix checked by itself and in its
+section, with round 3's lessons from the blind test (`r30/replay3/`) and the next blind round on whatever they teach. Then
+his next marking page (the whole article): those fixes that change meaning or are his words, and the end of "The
+conversation about flaws" as a teaching card with its three tries. Then the drafts re-pasted for his last whole-article
+check; then his post is updated with his OK (no email): 366's link to Esther Perel's post, the reel embedded after
+149, the typography swap and the "Updated" date. Pull request 401 keeps its "hold" label: this session's auto mode
+refused every push this turn (the branch's pull request would merge its shared rules and tools into main by itself), so
+the work waits for his merge or his word on how to push it.
 
 ### Before 2026-11-07 (the registered master, as recorded then)
 

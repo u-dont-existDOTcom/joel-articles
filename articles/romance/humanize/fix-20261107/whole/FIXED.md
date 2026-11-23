@@ -262,7 +262,7 @@ If they’re nasty to their friends, family, or other people, assume they will e
 
 ### The conversation about flaws
 
-Card games and social gatherings don’t tell you everything, but I wouldn’t ask someone out of the blue, “What did you do wrong in your past relationships?” That would be a pretty weird date.
+Card games and social gatherings don’t tell you everything, but asking someone out of the blue, “What did you do wrong in your past relationships?” would make for a pretty weird date.
 
 At the right time, though, in the right way (especially if they bring it up tangentially), I would ask about their past relationships, especially the recent ones. If every story ends with everything being the other person’s fault, I’d ask, “Okay, so what lessons did you find for yourself?”
 

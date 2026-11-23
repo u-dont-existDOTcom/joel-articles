@@ -551,3 +551,7 @@ I’ve also had friends get together at MDMA parties and stuff. It’s rarely a 
 ## 108. Talk about making love before you do it (live 14)
 
 What do you actually want? You may know some of it and not the rest. What makes your body relax and open? Is there anything kinky you need to be able to say out loud? What has your past made you want, or made you avoid? What just doesn’t work?
+
+## 109. The conversation about flaws (live 122)
+
+Card games and social gatherings don’t tell you everything, but I wouldn’t ask someone out of the blue, “What did you do wrong in your past relationships?” That would be a pretty weird date.

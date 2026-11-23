@@ -535,3 +535,7 @@ I’ve also had friends get together at MDMA parties and stuff. It’s rarely a 
 ## 108. Talk about making love before you do it (live 14)
 
 What do you actually want? Women are kind of notorious for proudly not knowing what they want, and pressuring men into making it look like men know what they want. But everyone should know, for themselves, what they want, regardless of gender norm pressure. So what have you learned from your past desires, fulfilled or not? (I learned that sex isn't everything, but it still counts for a lot.) Do certain things make your body relax and open? Is there anything kinky you need to feel comfortable saying out loud?
+
+## 109. The conversation about flaws (live 122)
+
+Card games and social gatherings don’t tell you everything, but asking someone out of the blue, “What did you do wrong in your past relationships?” would make for a pretty weird date.

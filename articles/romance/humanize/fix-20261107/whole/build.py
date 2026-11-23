@@ -44,7 +44,7 @@ for n, o in enumerate(P['ops'], 1):
 # (live-check/LIVE-POST-BLOCKS-20261122.jsonl), checked against LIVE-INDEX.txt like the rest.
 json.dump({str(k): v for k, v in sorted(repl.items())}, open(HERE / 'REPLACEMENTS-CHECKS.json', 'w', encoding='utf-8'),
           ensure_ascii=False, indent=1)   # the checks' replacements alone, which the layers are made against
-LAYERS = [HERE.parent / 'r30' / 'HIS-T4.json', HERE.parent / 'r31' / 'HIS-T5.json']
+LAYERS = [HERE.parent / 'r30' / 'HIS-T4.json', HERE.parent / 'r31' / 'HIS-T5.json', HERE.parent / 'r33' / 'MINE-R33.json']
 POST = {}
 for line in (HERE.parent / 'live-check' / 'LIVE-POST-BLOCKS-20261122.jsonl').read_text(encoding='utf-8').splitlines():
     r = json.loads(line)
@@ -85,7 +85,7 @@ for layer in LAYERS:
             if a not in LIVE:
                 LIVE[a] = POST[a]['text']
                 assert hashlib.sha256(norm(LIVE[a]).encode('utf-8')).hexdigest()[:12] == idx[a], a
-        cmap.append({'n': len(cmap) + 1, 'check': 'his answer %s (%s)' % (ch['card'], layer.name),
+        cmap.append({'n': len(cmap) + 1, 'check': ('my tested change %s (%s)' if L.get('whose') == 'mine' else 'his answer %s (%s)') % (ch['card'], layer.name),
                      'section': SECTION.get(lv[0], ''), 'result': (ch.get('his_checks') or [''])[-1],
                      'live_paragraphs': lv, 'live': [LIVE[a] for a in lv], 'new': list(ch['after']),
                      'before_in_fixed': ch.get('before', '')})

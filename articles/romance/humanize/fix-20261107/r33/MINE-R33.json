@@ -1,0 +1,19 @@
+{
+ "about": "My tested changes as a layer over the checks' replacements and his answers (whole/build.py applies it after r31/HIS-T5.json). 2026-11-23: the section pass (r32) read \"The conversation about flaws\" Mixed, 13% AI, with its opener Human (Low); the opener joined to its closing quip read Human High with the paragraph after it.",
+ "whose": "mine",
+ "changes": [
+  {
+   "card": "R33-122",
+   "kind": "para",
+   "live": 122,
+   "before": "Card games and social gatherings don’t tell you everything, but I wouldn’t ask someone out of the blue, “What did you do wrong in your past relationships?” That would be a pretty weird date.",
+   "after": [
+    "Card games and social gatherings don’t tell you everything, but asking someone out of the blue, “What did you do wrong in your past relationships?” would make for a pretty weird date."
+   ],
+   "his_checks": [
+    "https://www.pangram.com/history/117c28bb-36bd-4190-acdb-db70001fbcfc"
+   ],
+   "why": "the closing quip \"That would be a pretty weird date.\" stood alone (way 18) and the \"but\" didn't contrast; joined, the \"but\" turns from what games can't show to why the blunt question is wrong; read Human High with the next paragraph (ledger romance-r33-p122#247)"
+  }
+ ]
+}

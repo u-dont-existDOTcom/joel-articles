@@ -1,6 +1,6 @@
 # The fixed version: every changed paragraph
 
-The live post ("Romance Advice I Wish My Parents Taught Me") with each section's and spot's best tested text in place (`assemble.py`, `build.py`), and his own versions from his answers over them (`../r30/HIS-T4.json`, his Medium page of 2026-11-22). Paragraph numbers are the post page's paragraph list (`LIVE-INDEX.txt`). "Two Pillars" 332 is his own new version (it was the owner lock). 108 changes, 143 live paragraphs changed.
+The live post ("Romance Advice I Wish My Parents Taught Me") with each section's and spot's best tested text in place (`assemble.py`, `build.py`), and his own versions from his answers over them (`../r30/HIS-T4.json`, his Medium page of 2026-11-22). Paragraph numbers are the post page's paragraph list (`LIVE-INDEX.txt`). "Two Pillars" 332 is his own new version (it was the owner lock). 109 changes, 144 live paragraphs changed.
 
 ## 1. S1 (live 28)
 
@@ -1409,4 +1409,16 @@ Read by his answer M-14 (HIS-T5.json).
 **New:**
 
 > What do you actually want? Women are kind of notorious for proudly not knowing what they want, and pressuring men into making it look like men know what they want. But everyone should know, for themselves, what they want, regardless of gender norm pressure. So what have you learned from your past desires, fulfilled or not? (I learned that sex isn't everything, but it still counts for a lot.) Do certain things make your body relax and open? Is there anything kinky you need to feel comfortable saying out loud?
+
+## 109. The conversation about flaws (live 122)
+
+Read by my tested change R33-122 (MINE-R33.json): [result](https://www.pangram.com/history/117c28bb-36bd-4190-acdb-db70001fbcfc).
+
+**Live:**
+
+> Card games and social gatherings don’t tell you everything, but I wouldn’t ask someone out of the blue, “What did you do wrong in your past relationships?” That would be a pretty weird date.
+
+**New:**
+
+> Card games and social gatherings don’t tell you everything, but asking someone out of the blue, “What did you do wrong in your past relationships?” would make for a pretty weird date.
 
