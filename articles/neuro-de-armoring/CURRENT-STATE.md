@@ -22,7 +22,7 @@ Every paragraph and every section reads Human in Pangram, with the meaning kept 
 
 ## Current checkpoint
 
-`humanize/HUMANIZED-SO-FAR.md` (a3dfdecd, after his message of 2026-11-23 17:25 UTC: his 5-HTP warning in, `humanize/fix-20261108/x1123a/APPLIED-X1123A.json`; before it his answers 24 to 33, `humanize/fix-20261108/x1122a/APPLIED-X1122A.json`) is his post with the standard typographic swap, his versions and the science corrections he approved, section by section through Part 3's potassium step. The contradictions check ran again on 2026-11-23 (`humanize/fix-20261108/coherence/x1123a/`, 35 items, every one with a fate): questions 34 to 56 and card W35 (the Weeks 3–5 line) wait on him, then the rest is humanized (lesson neuro-2026-11-08f). Nothing has been changed in his post yet.
+`humanize/HUMANIZED-SO-FAR.md` (47086992, after his message of 2026-11-23 20:40 UTC: his Weeks 3–7 line and his answers 34 to 56 in, `humanize/fix-20261108/x1123b/APPLIED-X1123B.json`; before it his 5-HTP warning, `humanize/fix-20261108/x1123a/APPLIED-X1123A.json`) is his post with the standard typographic swap, his versions and the science corrections he approved, section by section through Part 3's potassium step. The contradictions check ran again on 2026-11-23 (`humanize/fix-20261108/coherence/x1123a/`, 35 items): every one now has its answer. Questions 57 to 61 (what his answers left) and teaching cards W-LMA and W-AGM (his lion's mane and agmatine warnings, `humanize/fix-20261108/x1123c/REVIEW-X1123C.md`) wait on him; then the contradictions check once more over the changed article, then the rest is humanized (lesson neuro-2026-11-08f). Nothing has been changed in his post yet.
 
 ## Remaining
 

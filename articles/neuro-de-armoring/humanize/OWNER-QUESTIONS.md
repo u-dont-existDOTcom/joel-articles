@@ -1,8 +1,8 @@
 # Neuro de-armoring: what I need from Joel
 
 Last updated 2026-11-23, after your message of 20:40 UTC.
-**Open questions: 5** (57 to 61, small ones your answers left). **For you to do**: nothing besides them; your version of
-the Weeks 3–7 line and your answers 34 to 56 are in.
+**Open questions: 5** (57 to 61, small ones your answers left). **For you to do**: cards W-LMA and W-AGM on the cards
+page, your two warnings; your version of the Weeks 3–7 line and your answers 34 to 56 are in.
 
 Colours: 🟣 a question for you; 🟠 something for you to do; 🔵 next or in progress; 🟢 done or decided.
 
@@ -55,7 +55,11 @@ of day", but with "on a microdose day and a day without" gone, nothing before it
 
 ## For you to do
 
-- 🟢 **Nothing besides questions 57 to 61**: card W35 is done, your version is in.
+- 🟠 **Cards W-LMA and W-AGM on the [cards page](https://claude.ai/artifact/9nENpt9AEJCB43a9Wy5jqn)** ([the cards as a page](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261108/x1123c/REVIEW-X1123C.md)): your lion's mane
+  and ashwagandha warning, and [agmatine's stop signs](https://ibogaqueen.substack.com/i/181671197/a-complete-guide-to-bio-de-armoring) with your lasting-anhedonia warning. Every try of mine read AI by
+  itself, five and three of them, each window High but the lion's mane item's first sentence (Low). I can't find any more
+  AI tells in them, and I see some human tells, like your own "not advising" and "it's something to keep in mind", and "or
+  you just stop caring". Can you help show me the tells I'm missing? Your versions go in as yours.
 
 ## Your answers of 2026-11-23 20:40 UTC, and what I did
 
@@ -70,28 +74,31 @@ of day", but with "on a microdose day and a day without" gone, nothing before it
   pass ([the read](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261108/x1123b/read-1123b/READER.md)).
 - 🟢 **Every contradiction now has its answer**: the check passes with nothing waiting on you
   ([what became of each](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261108/coherence/x1123a/CHECK.md)). Questions 57 to 61 are what your answers left.
-- 🔵 **Agmatine's lasting-anhedonia sentence** goes in the stop-signs paragraph your 35a just changed: I fix that
-  paragraph for sense and flow first, then check it by itself.
-- 🔵 **Lion's mane and ashwagandha**: a fresh panel reads it for the tells I'm missing, then the same.
+- 🟠 **Agmatine's stop signs with your lasting-anhedonia warning: card W-AGM.** Three versions, each by itself, one
+  window AI High: [the post's paragraph](https://ibogaqueen.substack.com/i/181671197/a-complete-guide-to-bio-de-armoring) with the sentence added [100% AI](https://www.pangram.com/history/1eea33ab-e9b9-4bd4-b32d-0489aec27358), my rewrite from the fresh reads
+  [100% AI](https://www.pangram.com/history/ce4e4e6a-64fb-467d-8750-2ed33891c429), and one without the checklist the tell panel named [100% AI](https://www.pangram.com/history/4cc32d25-7fb2-41a2-a63f-21802c947517).
+- 🟠 **Lion's mane and ashwagandha: card W-LMA.** Five tries, each by itself: [93.5% AI](https://www.pangram.com/history/50622455-2e3a-482e-ac66-0ae461f68592) and [98.1% AI](https://www.pangram.com/history/e169798f-7c09-4000-befc-1ddd7642b40e)
+  (AI Low, AI High), then [100% AI](https://www.pangram.com/history/f7a711fe-ad7c-40d4-be5a-5f2e3f60a684) (High), [100% AI](https://www.pangram.com/history/f39c1285-a963-4dc0-982b-ddfe3bc2dfff) and [100% AI](https://www.pangram.com/history/069a4bf5-d703-4126-8fe1-aa7542f70790) (AI Low, AI High), the last in your
+  own phrases from your message.
 
 ## Your message of 2026-11-23 17:25 UTC, and what I did
 
-- 🟠 **The Weeks 3–5 line, checked by itself: six tries, none Human High in every window, so it's card W35** (above).
+- 🟢 **The Weeks 3–5 line, checked by itself: six tries, none Human High in every window, so it was card W35**, and your
+  version is in (above).
   Try 1 [AI Detected, 76% AI](https://www.pangram.com/history/236e28ea-f8e6-494c-a722-7f6f9cff7331) (AI Low, Human Low, AI Medium, AI High, AI Medium); try 2
   [Human Written](https://www.pangram.com/history/e5176e60-7a61-4e7d-b207-2a59adff9392) (Human High, Medium, Low, Medium); try 3 [Human
   Written](https://www.pangram.com/history/fefcb049-c5e8-46eb-9eca-fc4ffd645f98) (High, Medium, High), the closest; try 4 [Human
   Written](https://www.pangram.com/history/dac12965-24f9-4ad6-9595-652036780499) (High, Medium, High); try 5 [Human
   Written](https://www.pangram.com/history/56c14834-60a8-45c3-a6bb-a3dceaf51bb9) (High, Low, Medium); try 6 [Mostly Human Written, 3% AI](https://www.pangram.com/history/811ba601-3400-4e8e-a9ef-9b677089f177)
-  (Medium, High, Low, Low, Medium). Your 16a and 17 count as done once your version is in.
+  (Medium, High, Low, Low, Medium). With your version in, 16a and 17 are done.
 - 🟢 **Your 5-HTP warning is in**: the [5-HTP stop signs](https://ibogaqueen.substack.com/i/181671197/serotonin-bottleneck-pattern-5-htp-low-dose-p5p) end "And rarely, people report anhedonia that goes on for weeks
   after they stop 5-HTP." By itself, that paragraph read [Human Written, every window High](https://www.pangram.com/history/e48362d5-bcae-42d3-ab11-2965f7404666)
   ([what went in](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261108/x1123a/APPLIED-X1123A.json)).
-- 🔵 **Lion's mane and ashwagandha**: a new item before [the agmatine warning](https://ibogaqueen.substack.com/i/181671197/a-complete-guide-to-bio-de-armoring), saying you'd leave both out, with the rare
+- 🟠 **Lion's mane and ashwagandha, now card W-LMA (above)**: a new item before [the agmatine warning](https://ibogaqueen.substack.com/i/181671197/a-complete-guide-to-bio-de-armoring), saying you'd leave both out, with the rare
   reports of lasting anhedonia and sexual dysfunction, and SSRIs and finasteride as the known cases. Two tries read AI by
   themselves: [AI Detected, 93.5% AI](https://www.pangram.com/history/50622455-2e3a-482e-ac66-0ae461f68592) (AI Low, AI High) and [AI Detected, 98.1% AI](https://www.pangram.com/history/e169798f-7c09-4000-befc-1ddd7642b40e)
-  (AI Low, AI High). Next: a fresh panel reads it for the tells I'm missing, I fix it until it reads right, and only then
-  check it again.
-- 🔵 **Agmatine's warning**: its sentence goes in the stop-signs paragraph [at the top](https://ibogaqueen.substack.com/i/181671197/a-complete-guide-to-bio-de-armoring), which read [AI Generated, 100% AI,
+  (AI Low, AI High).
+- 🟠 **Agmatine's warning, now card W-AGM (above)**: its sentence goes in the stop-signs paragraph [at the top](https://ibogaqueen.substack.com/i/181671197/a-complete-guide-to-bio-de-armoring), which read [AI Generated, 100% AI,
   High](https://www.pangram.com/history/1eea33ab-e9b9-4bd4-b32d-0489aec27358) with it. That paragraph is model text, so it's mine to fix, and it's the one question 35 asks
   about, so I rewrite it once you've answered 35, with your sentence in, and check it then.
 - 🟢 **What's reported on both sides** for the warnings: [the sources](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261108/x1122a/WARNINGS-SOURCES.md).
@@ -107,10 +114,9 @@ of day", but with "on a microdose day and a day without" gone, nothing before it
   the order said once in the D-serine section; 28a; 29a, "as long as it benefits you" in the 5-HTP section and in Weeks
   3–5; 30a; 31a, your showers and baths line for Weeks 1–2, with your [breathwork page](http://breathwork.u-dont-exist.com/).
 - 🟢 **Lion's mane and ashwagandha**: the article advises neither anywhere.
-- 🔵 **Your new warnings** (lion's mane and ashwagandha, with SSRIs and finasteride as the known cases; agmatine and 5-HTP,
-  weeks of anhedonia in rare reports): the 5-HTP one is in; the other two are in progress (your message of 23 November,
-  above).
-- 🟠 **16a and 17**: their line used its six tries, so it's card W35 for your version (above).
+- 🟠 **Your new warnings** (lion's mane and ashwagandha, with SSRIs and finasteride as the known cases; agmatine and 5-HTP,
+  weeks of anhedonia in rare reports): the 5-HTP one is in; the other two are cards W-LMA and W-AGM (above).
+- 🟢 **16a and 17**: their line used its six tries, so it was card W35, and your version is in (above).
 
 ## Your answers of 2026-11-20 17:05 UTC, and what I did
 

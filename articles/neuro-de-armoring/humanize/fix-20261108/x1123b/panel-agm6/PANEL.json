@@ -1,0 +1,70 @@
+{
+ "readers": [
+  "fable",
+  "haiku",
+  "sonnet"
+ ],
+ "sentences": [
+  "Agmatine can leave you flat and numb, which people do report even though the human trials only found stomach problems.",
+  "So keep checking yourself against how you were before you started.",
+  "Am I flatter or more depressed, so the things I enjoy don't feel good anymore, or I've stopped caring about them?",
+  "Am I more irritable, and sleeping worse?",
+  "Do I have dizziness, palpitations (a pounding heart), nausea or loose stools?",
+  "And if you're quitting something, are the cravings stronger?",
+  "If the answer to any of these is yes, stop taking agmatine, and don't push through the numbness hoping it'll settle like side effects sometimes do, since a few people say it hung on for weeks after they stopped."
+ ],
+ "flagged": {
+  "1": [
+   "fable",
+   "haiku",
+   "sonnet"
+  ],
+  "2": [
+   "haiku",
+   "sonnet"
+  ],
+  "3": [
+   "fable",
+   "sonnet"
+  ],
+  "4": [
+   "fable",
+   "sonnet"
+  ],
+  "5": [
+   "fable",
+   "haiku",
+   "sonnet"
+  ],
+  "6": [
+   "sonnet"
+  ],
+  "7": [
+   "fable",
+   "haiku",
+   "sonnet"
+  ]
+ },
+ "agreed": [
+  1,
+  2,
+  3,
+  4,
+  5,
+  7
+ ],
+ "whole": {
+  "fable": [
+   "It is built as a template: claim, instruction, four parallel self-check questions sorted by category (mood, irritability and sleep, body, cravings), then a rule and a caveat. That even coverage and the matching \"Am I / Am I / Do I / are the\" openings read more machine-made than any single phrase."
+  ],
+  "haiku": [
+   "The paragraph's rhythm is very even: a run of parallel self-check questions followed by a neat verdict and caution, with the voice a generic, reassuring \"you\" adviser. That tidy symmetry is what reads machine-made, more than any single word."
+  ],
+  "sonnet": [
+   "The paragraph follows a predictable pattern: it states the risk, tells the reader to monitor themselves, runs through a checklist of symptom questions, and ends with a clear stop rule plus a caveat. The sentences are fairly even and tidy, and the voice moves between \"you\" and \"I\" in a way that is built to be helpful rather than lived."
+  ]
+ },
+ "human_clean": [
+  "flat and numb"
+ ]
+}
