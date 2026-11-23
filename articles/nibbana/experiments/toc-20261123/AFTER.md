@@ -610,7 +610,7 @@ The farther unification loosens, the less useful you become for normal tasks. Th
 
 Yfw you thought I was kidding about meditating while skydiving.
 
-### Did It Work or Go Wrong?
+### What Counts as Success, Confusion, or Danger
 
 Here’s what success actually feels like for me when the loosening works:
 
@@ -632,7 +632,7 @@ In a calm moment, I can still get maybe a 1% taste – a release valve I didn’
 
 Try it somewhere safe. Was it only an experience, or did it bring insight or realization? Did anything remain: less selfishness, fewer delusions, more love?
 
-## Is It Safe When "I" Vanish?
+## Are disappearing flashbacks dangerous or cool?
 
 For roughly fifteen years I have also had semi-random micro-disappearances in which the felt “I” vanishes. Each instance includes, in varying proportions, a high-pitched nāda-like inner sound, bliss, and a dissolution of the felt self. Still not unweaving, but a potential gate into it, as with any sensation that goes direct. Nāda is a Sanskrit word for sound; some Hindu contemplative traditions use it for an inwardly perceived sound. Sometimes the sound dominates. Sometimes the dissolution & bliss do. This is the closest traditional comparison I know.
 
