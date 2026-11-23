@@ -1,0 +1,6 @@
+# The typography test: round 3's Sonnet rewrites that read AI or Mixed, checked again with straight quote marks
+# (2026-11-23 17:00 UTC; predictions in PREDICTIONS.json, committed first: 4298d2be, 50b6b4a0).
+# key | history uuid | label | document confidence | % AI | windows | the same text with curly marks
+typo3-M-346|66b14dcb-0e09-441c-ba54-544062247d78|Mixed|Low|78.2|H:L15 A:M20 A:H32|curly: Mixed 76.8, H:L15 A:M20 A:H32
+typo3-M-214+next|bf670de9-15d9-428e-9d70-f1b45abf895a|Mixed|High|45|H:H42 A:M13 A:H22|curly: Mixed 45, H:M42 A:H35
+# Result: no label changed; the straight marks moved 214's own window from Medium to High and left 346 as it was.

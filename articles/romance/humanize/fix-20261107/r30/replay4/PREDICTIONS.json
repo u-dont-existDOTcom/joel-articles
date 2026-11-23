@@ -1,0 +1,14 @@
+{
+ "about": "Round 4 of the blind test: M-346 alone, round 3's brief with one exception to rule 3 (the reason a question is asked may be said when the paragraph already implies it), a Fable writer (16 seconds). Checked by itself; prediction written before the check.",
+ "items": [
+  {
+   "key": "fable4-M-346",
+   "sha256": "42d6b5d325afa9d2ed675455540b325904292798265b21c68b948e72ea894e0d",
+   "words": 60,
+   "call": "AI",
+   "chance": 0.4,
+   "why": "the betrayal question now asks the dilemma of this case, as his fix did, but without his reason (\"since it's not under our control\"); the last two questions read AI (High) in every round",
+   "text": "And the biggie: if one of us falls in love with someone else, is that already a betrayal, or a sign we need a serious talk? If our lives change, can we sit down and honestly rethink what we agreed to? And if we split up, what do we still owe each other (and our kids, if we have any)?"
+  }
+ ]
+}

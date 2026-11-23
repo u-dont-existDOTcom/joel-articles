@@ -1,0 +1,9 @@
+# Round 3 again with a Fable writer, each rewrite checked by itself in the Pangram web app (his main account, the app's
+# browser pane), 2026-11-23 17:01 to 17:02 UTC; predictions in PREDICTIONS-FABLE.json, written and committed first (d9305881).
+# key | history uuid | label | document confidence | % AI | windows | prediction | right
+fable3-M-73|91de6949-e207-483d-b7b9-cf221d152761|Human|High|0|H:H84|Human 0.5|right
+fable3-M-214+next|095d62c8-0740-4195-b89f-b4ff5a991b59|Mixed|High|49.9|H:H36 A:H24 A:M11|AI 0.3|right
+fable3-M-252+253|4dde1af9-1594-4142-8a21-794ee6662614|Human|High|0|H:H65|Human 0.5|right
+fable3-M-346|37e3133e-8611-4885-a85b-c403bac06adb|Mixed|Low|79.9|H:L15 A:M15 A:H39|AI 0.35|right
+fable3-flaws-126+127|bf701281-9f3d-4ea9-b0f5-979dadc24199|Human|Medium|0|H:H56 H:M21|Human 0.5|right
+# predictions right: 5 of 5; Brier 0.192
