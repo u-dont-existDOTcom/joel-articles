@@ -1,0 +1,2295 @@
+{
+ "key": "EXPECTED-REVIEWED.json",
+ "reads": {
+  "READ-FABLE-1.md": {
+   "tally": {
+    "right": 32,
+    "near": 1,
+    "wrong": 3,
+    "missing": 0,
+    "guess": 12,
+    "found": 34,
+    "unmatched": []
+   },
+   "per": {
+    "1": {
+     "first": "S028",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "2": {
+     "first": "S009",
+     "next": "S006",
+     "kind": "right",
+     "sure": true
+    },
+    "3": {
+     "first": "S001",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "4": {
+     "first": "S010",
+     "next": "S044",
+     "kind": "right",
+     "sure": true
+    },
+    "5": {
+     "first": "S022",
+     "next": "S046",
+     "kind": "near",
+     "sure": false
+    },
+    "6": {
+     "first": "S054",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "7": {
+     "first": "S060",
+     "next": "S055",
+     "kind": "wrong",
+     "sure": true
+    },
+    "8": {
+     "first": "S060",
+     "next": "S055",
+     "kind": "right",
+     "sure": false
+    },
+    "9": {
+     "first": "S031",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "10": {
+     "first": "S050",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "11": {
+     "first": "S047",
+     "next": "S050",
+     "kind": "right",
+     "sure": false
+    },
+    "12": {
+     "first": "S048",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "13": {
+     "first": "S049",
+     "next": "S048",
+     "kind": "right",
+     "sure": false
+    },
+    "14": {
+     "first": "S051",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "15": {
+     "first": "S016",
+     "next": "S017",
+     "kind": "right",
+     "sure": false
+    },
+    "16": {
+     "first": "S018",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "17": {
+     "first": "S012",
+     "next": "S011",
+     "kind": "right",
+     "sure": false
+    },
+    "18": {
+     "first": "S013",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "19": {
+     "first": "S057",
+     "next": "S013",
+     "kind": "right",
+     "sure": true
+    },
+    "20": {
+     "first": "S038",
+     "next": "S043",
+     "kind": "right",
+     "sure": true
+    },
+    "21": {
+     "first": "S022",
+     "next": "S023",
+     "kind": "wrong",
+     "sure": false
+    },
+    "22": {
+     "first": "S034",
+     "next": "S035",
+     "kind": "right",
+     "sure": true
+    },
+    "23": {
+     "first": "S037",
+     "next": "S053",
+     "kind": "right",
+     "sure": false
+    },
+    "24": {
+     "first": "S050",
+     "next": "S020",
+     "kind": "right",
+     "sure": false
+    },
+    "25": {
+     "first": "S003",
+     "next": "S004",
+     "kind": "right",
+     "sure": true
+    },
+    "26": {
+     "first": "S015",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "27": {
+     "first": "S024",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "28": {
+     "first": "S033",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "29": {
+     "first": "S009",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "30": {
+     "first": "S026",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "31": {
+     "first": "S053",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "32": {
+     "first": "S025",
+     "next": "S040",
+     "kind": "right",
+     "sure": false
+    },
+    "33": {
+     "first": "S029",
+     "next": "S030",
+     "kind": "right",
+     "sure": true
+    },
+    "34": {
+     "first": "S008",
+     "next": "S037",
+     "kind": "right",
+     "sure": false
+    },
+    "35": {
+     "first": "S032",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "36": {
+     "first": "S046",
+     "next": "S014",
+     "kind": "wrong",
+     "sure": false
+    }
+   }
+  },
+  "READ-NOW-FULL-1.md": {
+   "tally": {
+    "right": 29,
+    "near": 2,
+    "wrong": 5,
+    "missing": 0,
+    "guess": 14,
+    "found": 30,
+    "unmatched": []
+   },
+   "per": {
+    "1": {
+     "first": "S028",
+     "next": "S052",
+     "kind": "right",
+     "sure": false
+    },
+    "2": {
+     "first": "S006",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "3": {
+     "first": "S001",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "4": {
+     "first": "S044",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "5": {
+     "first": "S022",
+     "next": "S047",
+     "kind": "near",
+     "sure": false
+    },
+    "6": {
+     "first": "S054",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "7": {
+     "first": "S055",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "8": {
+     "first": "S060",
+     "next": "S055",
+     "kind": "right",
+     "sure": false
+    },
+    "9": {
+     "first": "S031",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "10": {
+     "first": "S050",
+     "next": "S047",
+     "kind": "right",
+     "sure": false
+    },
+    "11": {
+     "first": "S047",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "12": {
+     "first": "S048",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "13": {
+     "first": "S049",
+     "next": "S050",
+     "kind": "right",
+     "sure": false
+    },
+    "14": {
+     "first": "S048",
+     "next": "S049",
+     "kind": "near",
+     "sure": false
+    },
+    "15": {
+     "first": "S016",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "16": {
+     "first": "S018",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "17": {
+     "first": "S031",
+     "next": "S029",
+     "kind": "wrong",
+     "sure": false
+    },
+    "18": {
+     "first": "S013",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "19": {
+     "first": "S057",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "20": {
+     "first": "S038",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "21": {
+     "first": "S022",
+     "next": "S023",
+     "kind": "wrong",
+     "sure": false
+    },
+    "22": {
+     "first": "S034",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "23": {
+     "first": "S037",
+     "next": "S053",
+     "kind": "right",
+     "sure": false
+    },
+    "24": {
+     "first": "S030",
+     "next": "S029",
+     "kind": "wrong",
+     "sure": false
+    },
+    "25": {
+     "first": "S003",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "26": {
+     "first": "S015",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "27": {
+     "first": "S024",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "28": {
+     "first": "S012",
+     "next": "S011",
+     "kind": "wrong",
+     "sure": false
+    },
+    "29": {
+     "first": "S009",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "30": {
+     "first": "S026",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "31": {
+     "first": "S053",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "32": {
+     "first": "S040",
+     "next": "S038",
+     "kind": "right",
+     "sure": false
+    },
+    "33": {
+     "first": "S030",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "34": {
+     "first": "S008",
+     "next": "S037",
+     "kind": "right",
+     "sure": false
+    },
+    "35": {
+     "first": "S032",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "36": {
+     "first": "S046",
+     "next": "S044",
+     "kind": "wrong",
+     "sure": false
+    }
+   }
+  },
+  "READ-NOW-SIDEBAR-1.md": {
+   "tally": {
+    "right": 29,
+    "near": 1,
+    "wrong": 6,
+    "missing": 0,
+    "guess": 17,
+    "found": 34,
+    "unmatched": []
+   },
+   "per": {
+    "1": {
+     "first": "S028",
+     "next": "S029",
+     "kind": "right",
+     "sure": false
+    },
+    "2": {
+     "first": "S007",
+     "next": "S009",
+     "kind": "wrong",
+     "sure": false
+    },
+    "3": {
+     "first": "S001",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "4": {
+     "first": "S044",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "5": {
+     "first": "S022",
+     "next": "S024",
+     "kind": "near",
+     "sure": false
+    },
+    "6": {
+     "first": "S054",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "7": {
+     "first": "S019",
+     "next": "S054",
+     "kind": "wrong",
+     "sure": false
+    },
+    "8": {
+     "first": "S060",
+     "next": "S055",
+     "kind": "right",
+     "sure": false
+    },
+    "9": {
+     "first": "S031",
+     "next": "S052",
+     "kind": "right",
+     "sure": false
+    },
+    "10": {
+     "first": "S050",
+     "next": "S055",
+     "kind": "right",
+     "sure": false
+    },
+    "11": {
+     "first": "S047",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "12": {
+     "first": "S048",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "13": {
+     "first": "S049",
+     "next": "S050",
+     "kind": "right",
+     "sure": false
+    },
+    "14": {
+     "first": "S051",
+     "next": "S052",
+     "kind": "right",
+     "sure": false
+    },
+    "15": {
+     "first": "S016",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "16": {
+     "first": "S018",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "17": {
+     "first": "S031",
+     "next": "S050",
+     "kind": "wrong",
+     "sure": false
+    },
+    "18": {
+     "first": "S013",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "19": {
+     "first": "S057",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "20": {
+     "first": "S038",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "21": {
+     "first": "S022",
+     "next": "S046",
+     "kind": "wrong",
+     "sure": false
+    },
+    "22": {
+     "first": "S034",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "23": {
+     "first": "S037",
+     "next": "S053",
+     "kind": "right",
+     "sure": false
+    },
+    "24": {
+     "first": "S055",
+     "next": "S050",
+     "kind": "wrong",
+     "sure": false
+    },
+    "25": {
+     "first": "S003",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "26": {
+     "first": "S015",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "27": {
+     "first": "S024",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "28": {
+     "first": "S033",
+     "next": "S012",
+     "kind": "right",
+     "sure": false
+    },
+    "29": {
+     "first": "S009",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "30": {
+     "first": "S026",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "31": {
+     "first": "S053",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "32": {
+     "first": "S040",
+     "next": "S043",
+     "kind": "right",
+     "sure": false
+    },
+    "33": {
+     "first": "S030",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "34": {
+     "first": "S008",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "35": {
+     "first": "S036",
+     "next": "S032",
+     "kind": "right",
+     "sure": false
+    },
+    "36": {
+     "first": "S046",
+     "next": "S011",
+     "kind": "wrong",
+     "sure": false
+    }
+   }
+  },
+  "READ-NOW-SIDEBAR-2.md": {
+   "tally": {
+    "right": 28,
+    "near": 1,
+    "wrong": 7,
+    "missing": 0,
+    "guess": 15,
+    "found": 30,
+    "unmatched": []
+   },
+   "per": {
+    "1": {
+     "first": "S028",
+     "next": "S052",
+     "kind": "right",
+     "sure": false
+    },
+    "2": {
+     "first": "S007",
+     "next": null,
+     "kind": "wrong",
+     "sure": true
+    },
+    "3": {
+     "first": "S001",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "4": {
+     "first": "S044",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "5": {
+     "first": "S022",
+     "next": "S024",
+     "kind": "near",
+     "sure": false
+    },
+    "6": {
+     "first": "S054",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "7": {
+     "first": "S022",
+     "next": "S019",
+     "kind": "wrong",
+     "sure": false
+    },
+    "8": {
+     "first": "S060",
+     "next": "S053",
+     "kind": "right",
+     "sure": false
+    },
+    "9": {
+     "first": "S031",
+     "next": "S017",
+     "kind": "right",
+     "sure": false
+    },
+    "10": {
+     "first": "S050",
+     "next": "S055",
+     "kind": "right",
+     "sure": false
+    },
+    "11": {
+     "first": "S047",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "12": {
+     "first": "S048",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "13": {
+     "first": "S050",
+     "next": "S049",
+     "kind": "wrong",
+     "sure": false
+    },
+    "14": {
+     "first": "S051",
+     "next": "S052",
+     "kind": "right",
+     "sure": false
+    },
+    "15": {
+     "first": "S016",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "16": {
+     "first": "S018",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "17": {
+     "first": "S031",
+     "next": "S050",
+     "kind": "wrong",
+     "sure": false
+    },
+    "18": {
+     "first": "S013",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "19": {
+     "first": "S057",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "20": {
+     "first": "S038",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "21": {
+     "first": "S045",
+     "next": "S022",
+     "kind": "wrong",
+     "sure": false
+    },
+    "22": {
+     "first": "S034",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "23": {
+     "first": "S037",
+     "next": "S053",
+     "kind": "right",
+     "sure": false
+    },
+    "24": {
+     "first": "S055",
+     "next": "S050",
+     "kind": "wrong",
+     "sure": false
+    },
+    "25": {
+     "first": "S003",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "26": {
+     "first": "S015",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "27": {
+     "first": "S024",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "28": {
+     "first": "S014",
+     "next": "S026",
+     "kind": "wrong",
+     "sure": false
+    },
+    "29": {
+     "first": "S009",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "30": {
+     "first": "S026",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "31": {
+     "first": "S053",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "32": {
+     "first": "S040",
+     "next": "S043",
+     "kind": "right",
+     "sure": false
+    },
+    "33": {
+     "first": "S030",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "34": {
+     "first": "S008",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "35": {
+     "first": "S032",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "36": {
+     "first": "S011",
+     "next": "S046",
+     "kind": "right",
+     "sure": false
+    }
+   }
+  },
+  "READ-PICK-1.md": {
+   "tally": {
+    "right": 31,
+    "near": 1,
+    "wrong": 4,
+    "missing": 0,
+    "guess": 12,
+    "found": 36,
+    "unmatched": []
+   },
+   "per": {
+    "1": {
+     "first": "S028",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "2": {
+     "first": "S006",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "3": {
+     "first": "S001",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "4": {
+     "first": "S010",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "5": {
+     "first": "S022",
+     "next": "S047",
+     "kind": "near",
+     "sure": false
+    },
+    "6": {
+     "first": "S054",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "7": {
+     "first": "S055",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "8": {
+     "first": "S055",
+     "next": "S060",
+     "kind": "wrong",
+     "sure": false
+    },
+    "9": {
+     "first": "S031",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "10": {
+     "first": "S050",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "11": {
+     "first": "S047",
+     "next": "S050",
+     "kind": "right",
+     "sure": false
+    },
+    "12": {
+     "first": "S048",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "13": {
+     "first": "S049",
+     "next": "S048",
+     "kind": "right",
+     "sure": false
+    },
+    "14": {
+     "first": "S051",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "15": {
+     "first": "S016",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "16": {
+     "first": "S018",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "17": {
+     "first": "S012",
+     "next": "S011",
+     "kind": "right",
+     "sure": false
+    },
+    "18": {
+     "first": "S013",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "19": {
+     "first": "S057",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "20": {
+     "first": "S038",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "21": {
+     "first": "S023",
+     "next": "S046",
+     "kind": "wrong",
+     "sure": false
+    },
+    "22": {
+     "first": "S034",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "23": {
+     "first": "S037",
+     "next": "S060",
+     "kind": "right",
+     "sure": false
+    },
+    "24": {
+     "first": "S050",
+     "next": "S030",
+     "kind": "right",
+     "sure": false
+    },
+    "25": {
+     "first": "S003",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "26": {
+     "first": "S015",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "27": {
+     "first": "S024",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "28": {
+     "first": "S033",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "29": {
+     "first": "S006",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "30": {
+     "first": "S026",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "31": {
+     "first": "S060",
+     "next": "S037",
+     "kind": "wrong",
+     "sure": false
+    },
+    "32": {
+     "first": "S025",
+     "next": "S040",
+     "kind": "right",
+     "sure": false
+    },
+    "33": {
+     "first": "S029",
+     "next": "S030",
+     "kind": "right",
+     "sure": false
+    },
+    "34": {
+     "first": "S008",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "35": {
+     "first": "S032",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "36": {
+     "first": "S046",
+     "next": "S014",
+     "kind": "wrong",
+     "sure": false
+    }
+   }
+  },
+  "READ-PICK-2.md": {
+   "tally": {
+    "right": 30,
+    "near": 2,
+    "wrong": 4,
+    "missing": 0,
+    "guess": 15,
+    "found": 33,
+    "unmatched": []
+   },
+   "per": {
+    "1": {
+     "first": "S028",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "2": {
+     "first": "S006",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "3": {
+     "first": "S001",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "4": {
+     "first": "S010",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "5": {
+     "first": "S022",
+     "next": "S046",
+     "kind": "near",
+     "sure": false
+    },
+    "6": {
+     "first": "S054",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "7": {
+     "first": "S055",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "8": {
+     "first": "S055",
+     "next": "S022",
+     "kind": "wrong",
+     "sure": false
+    },
+    "9": {
+     "first": "S031",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "10": {
+     "first": "S050",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "11": {
+     "first": "S047",
+     "next": "S050",
+     "kind": "right",
+     "sure": false
+    },
+    "12": {
+     "first": "S048",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "13": {
+     "first": "S049",
+     "next": "S048",
+     "kind": "right",
+     "sure": false
+    },
+    "14": {
+     "first": "S051",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "15": {
+     "first": "S016",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "16": {
+     "first": "S018",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "17": {
+     "first": "S012",
+     "next": "S011",
+     "kind": "right",
+     "sure": false
+    },
+    "18": {
+     "first": "S013",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "19": {
+     "first": "S057",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "20": {
+     "first": "S038",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "21": {
+     "first": "S023",
+     "next": "S022",
+     "kind": "wrong",
+     "sure": false
+    },
+    "22": {
+     "first": "S034",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "23": {
+     "first": "S037",
+     "next": "S032",
+     "kind": "right",
+     "sure": false
+    },
+    "24": {
+     "first": "S050",
+     "next": "S020",
+     "kind": "right",
+     "sure": false
+    },
+    "25": {
+     "first": "S003",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "26": {
+     "first": "S015",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "27": {
+     "first": "S024",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "28": {
+     "first": "S011",
+     "next": "S033",
+     "kind": "wrong",
+     "sure": false
+    },
+    "29": {
+     "first": "S009",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "30": {
+     "first": "S026",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "31": {
+     "first": "S032",
+     "next": "S037",
+     "kind": "near",
+     "sure": false
+    },
+    "32": {
+     "first": "S040",
+     "next": "S025",
+     "kind": "right",
+     "sure": false
+    },
+    "33": {
+     "first": "S030",
+     "next": "S029",
+     "kind": "right",
+     "sure": false
+    },
+    "34": {
+     "first": "S008",
+     "next": "S007",
+     "kind": "right",
+     "sure": false
+    },
+    "35": {
+     "first": "S032",
+     "next": "S036",
+     "kind": "right",
+     "sure": false
+    },
+    "36": {
+     "first": "S046",
+     "next": "S014",
+     "kind": "wrong",
+     "sure": false
+    }
+   }
+  },
+  "READ-PICK2-1.md": {
+   "tally": {
+    "right": 35,
+    "near": 1,
+    "wrong": 0,
+    "missing": 0,
+    "guess": 13,
+    "found": 36,
+    "unmatched": []
+   },
+   "per": {
+    "1": {
+     "first": "S028",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "2": {
+     "first": "S006",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "3": {
+     "first": "S001",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "4": {
+     "first": "S010",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "5": {
+     "first": "S022",
+     "next": "S047",
+     "kind": "near",
+     "sure": false
+    },
+    "6": {
+     "first": "S054",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "7": {
+     "first": "S055",
+     "next": "S060",
+     "kind": "right",
+     "sure": false
+    },
+    "8": {
+     "first": "S060",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "9": {
+     "first": "S031",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "10": {
+     "first": "S050",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "11": {
+     "first": "S047",
+     "next": "S020",
+     "kind": "right",
+     "sure": false
+    },
+    "12": {
+     "first": "S048",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "13": {
+     "first": "S049",
+     "next": "S048",
+     "kind": "right",
+     "sure": false
+    },
+    "14": {
+     "first": "S051",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "15": {
+     "first": "S016",
+     "next": "S020",
+     "kind": "right",
+     "sure": false
+    },
+    "16": {
+     "first": "S018",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "17": {
+     "first": "S012",
+     "next": "S011",
+     "kind": "right",
+     "sure": false
+    },
+    "18": {
+     "first": "S013",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "19": {
+     "first": "S057",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "20": {
+     "first": "S038",
+     "next": "S043",
+     "kind": "right",
+     "sure": false
+    },
+    "21": {
+     "first": "S046",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "22": {
+     "first": "S034",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "23": {
+     "first": "S037",
+     "next": "S053",
+     "kind": "right",
+     "sure": false
+    },
+    "24": {
+     "first": "S050",
+     "next": "S030",
+     "kind": "right",
+     "sure": false
+    },
+    "25": {
+     "first": "S003",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "26": {
+     "first": "S015",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "27": {
+     "first": "S024",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "28": {
+     "first": "S033",
+     "next": "S011",
+     "kind": "right",
+     "sure": false
+    },
+    "29": {
+     "first": "S006",
+     "next": "S009",
+     "kind": "right",
+     "sure": false
+    },
+    "30": {
+     "first": "S026",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "31": {
+     "first": "S053",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "32": {
+     "first": "S040",
+     "next": "S025",
+     "kind": "right",
+     "sure": false
+    },
+    "33": {
+     "first": "S029",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "34": {
+     "first": "S008",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "35": {
+     "first": "S032",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "36": {
+     "first": "S014",
+     "next": "S011",
+     "kind": "right",
+     "sure": false
+    }
+   }
+  },
+  "READ-PICK2-2.md": {
+   "tally": {
+    "right": 34,
+    "near": 1,
+    "wrong": 1,
+    "missing": 0,
+    "guess": 12,
+    "found": 35,
+    "unmatched": []
+   },
+   "per": {
+    "1": {
+     "first": "S028",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "2": {
+     "first": "S006",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "3": {
+     "first": "S001",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "4": {
+     "first": "S010",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "5": {
+     "first": "S022",
+     "next": "S007",
+     "kind": "near",
+     "sure": false
+    },
+    "6": {
+     "first": "S054",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "7": {
+     "first": "S055",
+     "next": "S060",
+     "kind": "right",
+     "sure": false
+    },
+    "8": {
+     "first": "S060",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "9": {
+     "first": "S031",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "10": {
+     "first": "S050",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "11": {
+     "first": "S047",
+     "next": "S050",
+     "kind": "right",
+     "sure": false
+    },
+    "12": {
+     "first": "S048",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "13": {
+     "first": "S049",
+     "next": "S048",
+     "kind": "right",
+     "sure": false
+    },
+    "14": {
+     "first": "S051",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "15": {
+     "first": "S016",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "16": {
+     "first": "S018",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "17": {
+     "first": "S012",
+     "next": "S011",
+     "kind": "right",
+     "sure": false
+    },
+    "18": {
+     "first": "S013",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "19": {
+     "first": "S057",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "20": {
+     "first": "S038",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "21": {
+     "first": "S046",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "22": {
+     "first": "S034",
+     "next": "S035",
+     "kind": "right",
+     "sure": false
+    },
+    "23": {
+     "first": "S037",
+     "next": "S053",
+     "kind": "right",
+     "sure": false
+    },
+    "24": {
+     "first": "S050",
+     "next": "S029",
+     "kind": "right",
+     "sure": false
+    },
+    "25": {
+     "first": "S003",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "26": {
+     "first": "S015",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "27": {
+     "first": "S024",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "28": {
+     "first": "S011",
+     "next": "S033",
+     "kind": "wrong",
+     "sure": false
+    },
+    "29": {
+     "first": "S009",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "30": {
+     "first": "S026",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "31": {
+     "first": "S053",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "32": {
+     "first": "S040",
+     "next": "S025",
+     "kind": "right",
+     "sure": false
+    },
+    "33": {
+     "first": "S029",
+     "next": "S030",
+     "kind": "right",
+     "sure": false
+    },
+    "34": {
+     "first": "S008",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "35": {
+     "first": "S032",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "36": {
+     "first": "S011",
+     "next": "S014",
+     "kind": "right",
+     "sure": false
+    }
+   }
+  },
+  "READ-PICK3-1.md": {
+   "tally": {
+    "right": 34,
+    "near": 1,
+    "wrong": 1,
+    "missing": 0,
+    "guess": 15,
+    "found": 35,
+    "unmatched": []
+   },
+   "per": {
+    "1": {
+     "first": "S028",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "2": {
+     "first": "S006",
+     "next": "S009",
+     "kind": "right",
+     "sure": false
+    },
+    "3": {
+     "first": "S001",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "4": {
+     "first": "S010",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "5": {
+     "first": "S022",
+     "next": "S047",
+     "kind": "near",
+     "sure": false
+    },
+    "6": {
+     "first": "S054",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "7": {
+     "first": "S055",
+     "next": "S056",
+     "kind": "right",
+     "sure": false
+    },
+    "8": {
+     "first": "S060",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "9": {
+     "first": "S031",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "10": {
+     "first": "S050",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "11": {
+     "first": "S047",
+     "next": "S050",
+     "kind": "right",
+     "sure": false
+    },
+    "12": {
+     "first": "S048",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "13": {
+     "first": "S049",
+     "next": "S048",
+     "kind": "right",
+     "sure": false
+    },
+    "14": {
+     "first": "S051",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "15": {
+     "first": "S016",
+     "next": "S020",
+     "kind": "right",
+     "sure": false
+    },
+    "16": {
+     "first": "S018",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "17": {
+     "first": "S046",
+     "next": "S044",
+     "kind": "wrong",
+     "sure": false
+    },
+    "18": {
+     "first": "S013",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "19": {
+     "first": "S057",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "20": {
+     "first": "S038",
+     "next": "S043",
+     "kind": "right",
+     "sure": false
+    },
+    "21": {
+     "first": "S046",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "22": {
+     "first": "S034",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "23": {
+     "first": "S037",
+     "next": "S053",
+     "kind": "right",
+     "sure": false
+    },
+    "24": {
+     "first": "S050",
+     "next": "S007",
+     "kind": "right",
+     "sure": false
+    },
+    "25": {
+     "first": "S003",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "26": {
+     "first": "S015",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "27": {
+     "first": "S024",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "28": {
+     "first": "S033",
+     "next": "S011",
+     "kind": "right",
+     "sure": false
+    },
+    "29": {
+     "first": "S006",
+     "next": "S009",
+     "kind": "right",
+     "sure": false
+    },
+    "30": {
+     "first": "S026",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "31": {
+     "first": "S053",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "32": {
+     "first": "S025",
+     "next": "S040",
+     "kind": "right",
+     "sure": false
+    },
+    "33": {
+     "first": "S029",
+     "next": "S030",
+     "kind": "right",
+     "sure": true
+    },
+    "34": {
+     "first": "S008",
+     "next": "S037",
+     "kind": "right",
+     "sure": false
+    },
+    "35": {
+     "first": "S032",
+     "next": "S036",
+     "kind": "right",
+     "sure": true
+    },
+    "36": {
+     "first": "S011",
+     "next": "S014",
+     "kind": "right",
+     "sure": false
+    }
+   }
+  },
+  "READ-PICK3-2.md": {
+   "tally": {
+    "right": 35,
+    "near": 1,
+    "wrong": 0,
+    "missing": 0,
+    "guess": 14,
+    "found": 36,
+    "unmatched": []
+   },
+   "per": {
+    "1": {
+     "first": "S028",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "2": {
+     "first": "S006",
+     "next": "S007",
+     "kind": "right",
+     "sure": false
+    },
+    "3": {
+     "first": "S001",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "4": {
+     "first": "S044",
+     "next": "S010",
+     "kind": "right",
+     "sure": false
+    },
+    "5": {
+     "first": "S022",
+     "next": "S023",
+     "kind": "near",
+     "sure": false
+    },
+    "6": {
+     "first": "S054",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "7": {
+     "first": "S055",
+     "next": "S060",
+     "kind": "right",
+     "sure": false
+    },
+    "8": {
+     "first": "S060",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "9": {
+     "first": "S031",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "10": {
+     "first": "S050",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "11": {
+     "first": "S047",
+     "next": "S050",
+     "kind": "right",
+     "sure": false
+    },
+    "12": {
+     "first": "S048",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "13": {
+     "first": "S049",
+     "next": "S048",
+     "kind": "right",
+     "sure": false
+    },
+    "14": {
+     "first": "S051",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "15": {
+     "first": "S016",
+     "next": "S020",
+     "kind": "right",
+     "sure": false
+    },
+    "16": {
+     "first": "S018",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "17": {
+     "first": "S012",
+     "next": "S011",
+     "kind": "right",
+     "sure": false
+    },
+    "18": {
+     "first": "S013",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "19": {
+     "first": "S057",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "20": {
+     "first": "S038",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "21": {
+     "first": "S046",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "22": {
+     "first": "S034",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "23": {
+     "first": "S053",
+     "next": "S037",
+     "kind": "right",
+     "sure": false
+    },
+    "24": {
+     "first": "S050",
+     "next": "S020",
+     "kind": "right",
+     "sure": false
+    },
+    "25": {
+     "first": "S003",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "26": {
+     "first": "S015",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "27": {
+     "first": "S024",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "28": {
+     "first": "S033",
+     "next": "S011",
+     "kind": "right",
+     "sure": false
+    },
+    "29": {
+     "first": "S009",
+     "next": "S006",
+     "kind": "right",
+     "sure": false
+    },
+    "30": {
+     "first": "S026",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "31": {
+     "first": "S053",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "32": {
+     "first": "S025",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "33": {
+     "first": "S029",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "34": {
+     "first": "S008",
+     "next": null,
+     "kind": "right",
+     "sure": true
+    },
+    "35": {
+     "first": "S032",
+     "next": "S036",
+     "kind": "right",
+     "sure": false
+    },
+    "36": {
+     "first": "S011",
+     "next": "S014",
+     "kind": "right",
+     "sure": false
+    }
+   }
+  }
+ }
+}

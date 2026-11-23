@@ -49,8 +49,20 @@ the sidebar shows each), `<slug>.CONTENTS.json` (for `toc_check.py`) and `<slug>
 
 ## Order and next step
 
-1. The Self-Hypnosis guide: the most headings and the most cut off (90 of 164), and 43 h1s, two of them notes rather than
-   sections ("How to use this very large guide", "The table of contents is hiding on the left").
-2. Escuelitas, 3. Nirvāna, 4. Romance.
+Joel picked the Nirvāna guide first (2026-11-23 14:37 UTC: "ok start with the nirvana guide ToC").
 
-Next step: step 1 and 2 for the Self-Hypnosis guide, from `articles/inner-signal/`.
+1. **Nirvāna: steps 1 to 6 done on 2026-11-23; waiting for his picks.** The run, its scores and every heading's reason:
+   [RESULTS.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/nibbana/experiments/toc-20261123/RESULTS.md).
+   His picks page ([artifact](https://claude.ai/artifact/Qpakjn8EsNMD54T4iBb19M), a view of RESULTS.md, published from
+   the account this lane ran in) saves to its database (`answers/joel`, read with `db_get`) and in his browser; "Copy my
+   answers" gives the same JSON for the chat, with the heading text of every pick and his answers to six structure
+   questions. Fresh readers: 34 and 35 of 36 situations right on the first try with the proposal (0 and 1 wrong), against
+   28 and 29 (6 and 7 wrong) with the live contents; 38 of 60 headings are cut off live, none in the proposal.
+2. Then the Self-Hypnosis guide (the most headings and the most cut off, 90 of 164, and 43 h1s, two of them notes rather
+   than sections: "How to use this very large guide", "The table of contents is hiding on the left"), Escuelitas, Romance.
+
+Next step: when his Nirvāna answers come (the page's database, or JSON in the chat), step 7 for Nirvāna: rename by
+script from the post's live HTML (no link anywhere points into its sections, checked on 2026-11-23 across all 101 other
+posts), the sentence fixes his answers call for, new heading words checked in Pangram, the post's "Updated" date, and the
+sidebar checked on the live post. Structure moves (a parent dropped, a level changed) only where he says so. Then steps 1
+and 2 for the Self-Hypnosis guide, from `articles/inner-signal/`.
