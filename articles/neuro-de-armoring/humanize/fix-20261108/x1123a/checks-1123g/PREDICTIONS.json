@@ -1,0 +1,35 @@
+[
+ {
+  "key": "lma",
+  "name": "Lion's mane and ashwagandha item",
+  "lineage": "neuro-de-armoring/W-LMA",
+  "scope": "paragraph",
+  "words": 76,
+  "call": "Human",
+  "chance": 0.5,
+  "why": "see the ledger record",
+  "sha256": "c049f651eeae5713ba726999571db4ac8d098a1ea062acf50aa7a16036f899ed"
+ },
+ {
+  "key": "agm",
+  "name": "Agmatine's stop line with the lasting-anhedonia sentence",
+  "lineage": "neuro-de-armoring/W-AGM",
+  "scope": "paragraph",
+  "words": 72,
+  "call": "AI",
+  "chance": 0.3,
+  "why": "see the ledger record",
+  "sha256": "91aa744fed525df410374845d0524a9ab49fb492c5905824dee106a5eeaed6db"
+ },
+ {
+  "key": "htp",
+  "name": "5-HTP's stop signs with the lingering-anhedonia sentence",
+  "lineage": "neuro-de-armoring/W-HTP",
+  "scope": "paragraph",
+  "words": 98,
+  "call": "Human",
+  "chance": 0.5,
+  "why": "see the ledger record",
+  "sha256": "7a82ffa8c49ff426fbe71c6a78d4f32d655d2ca6f4cb401e2cf53199345fd617"
+ }
+]

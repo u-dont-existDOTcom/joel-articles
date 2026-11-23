@@ -1,0 +1,127 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-23",
+ "text_sha256": "91aa744fed525df410374845d0524a9ab49fb492c5905824dee106a5eeaed6db",
+ "text": "Stop immediately if it causes flatness, anhedonia, emotional blunting, new depression, agitation, insomnia, dizziness, palpitations, nausea, loose stools, diarrhea, or increased craving. Only the stomach problems showed up in the human trials, but the flatness happens in practice, so do not \"push through\" numbness. In rare reports, the anhedonia lasted for weeks after people stopped taking it. If agmatine makes the world more gray, it is the wrong tool for that phase.",
+ "section": "Agmatine Warning (The Voltage Governor), the stop line",
+ "reader": "an adult with trauma about to try agmatine for glutamate storms, reading its warning to decide what would make them stop",
+ "sentences": [
+  {
+   "s": "Stop immediately if it causes flatness, anhedonia, emotional blunting, new depression, agitation, insomnia, dizziness, palpitations, nausea, loose stools, diarrhea, or increased craving.",
+   "payoff": "they learn the signs that mean stopping agmatine",
+   "follows": "it follows the precautions with the signs to stop at"
+  },
+  {
+   "s": "Only the stomach problems showed up in the human trials, but the flatness happens in practice, so do not \"push through\" numbness.",
+   "payoff": "they learn the flatness comes from practice, not the trials, so they stop rather than push through numbness",
+   "follows": "it says where the signs before come from",
+   "link": "Only the stomach problems"
+  },
+  {
+   "s": "In rare reports, the anhedonia lasted for weeks after people stopped taking it.",
+   "payoff": "they learn the anhedonia can outlast stopping, for weeks, so stopping early matters",
+   "follows": "it says why not to push through, right after the line that says so",
+   "link": "In rare reports"
+  },
+  {
+   "s": "If agmatine makes the world more gray, it is the wrong tool for that phase.",
+   "payoff": "they learn a grayer world means agmatine is the wrong tool for the gray phase, where the protocol stops it",
+   "follows": "it closes the line on the case the protocol's own timeline meets",
+   "link": "If agmatine makes the world"
+  }
+ ],
+ "checked": [
+  {
+   "point": "rare reports of anhedonia lasting weeks after stopping agmatine",
+   "found": "trials report only stomach upset (Shopsin 2013); emotional dullness while taking it is reported in nootropic summaries; weeks after stopping is his finding (x1122a/WARNINGS-SOURCES.md)",
+   "still_needed": "yes: they learn the flatness can last after stopping, so they stop at the first sign",
+   "fate": "kept"
+  }
+ ],
+ "placement": "the Agmatine Warning's stop line, right after \"do not push through numbness\", whose reason it gives",
+ "opens": {
+  "first_sentence": "Stop immediately if it causes flatness, anhedonia, emotional blunting, new depression, agitation, insomnia, dizziness, palpitations, nausea, loose stools, diarrhea, or increased craving.",
+  "why_reading": "they learn the signs that mean stopping agmatine, which they need before starting it"
+ },
+ "same_point": "read the warnings from the Agmatine Warning to the next item for anhedonia after stopping: none; the cycle rule in the Glutamate Shield gives the same stop signs for the phase, without this",
+ "needed": {
+  "reader": "a fresh reader (Haiku, 2026-11-23) given tools/humanization/needed_read_brief.md and only the text, one sentence a line, before the new sentence was revised (x1123a/reads-agm.md)",
+  "unneeded": [
+   "If agmatine makes the world more gray, it is the wrong tool for that phase."
+  ],
+  "kept": {
+   "If agmatine makes the world more gray, it is the wrong tool for that phase.": "they learn that agmatine graying the world means it is the wrong tool for the gray phase, the case Weeks 3-5 meets when it says to stop agmatine there; the post's text as the article has it, kept by this change, which only adds the new sentence his warning asked for; its own marks wait for a pass on this paragraph"
+  }
+ },
+ "his_fixes": {
+  "reader": "a fresh reader (Haiku, 2026-11-23) given tools/humanization/his_fixes_brief.md and only the text, one sentence a line, before the new sentence was revised (x1123a/reads-agm.md)",
+  "marked": [
+   {
+    "s": "Stop immediately if it causes flatness, anhedonia, emotional blunting, new depression, agitation, insomnia, dizziness, palpitations, nausea, loose stools, diarrhea, or increased craving.",
+    "difference": "1, 19"
+   },
+   {
+    "s": "Only the stomach problems showed up in the human trials, but the flatness happens in practice, so do not \"push through\" numbness.",
+    "difference": "9, 14"
+   },
+   {
+    "s": "If agmatine makes the world more gray, it is the wrong tool for that phase.",
+    "difference": "6, 10"
+   }
+  ],
+  "kept": {
+   "Stop immediately if it causes flatness, anhedonia, emotional blunting, new depression, agitation, insomnia, dizziness, palpitations, nausea, loose stools, diarrhea, or increased craving.": "the post's text as the article has it, kept by this change, which only adds the new sentence his warning asked for; its own marks wait for a pass on this paragraph",
+   "Only the stomach problems showed up in the human trials, but the flatness happens in practice, so do not \"push through\" numbness.": "the post's text as the article has it, kept by this change, which only adds the new sentence his warning asked for; its own marks wait for a pass on this paragraph",
+   "If agmatine makes the world more gray, it is the wrong tool for that phase.": "the post's text as the article has it, kept by this change, which only adds the new sentence his warning asked for; its own marks wait for a pass on this paragraph"
+  }
+ },
+ "fit": {
+  "reader": "a fresh reader (Haiku, 2026-11-23) given tools/humanization/fit_read_brief.md and only the text, one sentence a line, before the new sentence was revised (x1123a/reads-agm.md)",
+  "marked": [
+   {
+    "s": "Stop immediately if it causes flatness, anhedonia, emotional blunting, new depression, agitation, insomnia, dizziness, palpitations, nausea, loose stools, diarrhea, or increased craving.",
+    "found": "anyway, can't tell"
+   },
+   {
+    "s": "Only the stomach problems showed up in the human trials, but the flatness happens in practice, so do not \"push through\" numbness.",
+    "found": "anyway"
+   },
+   {
+    "s": "In rare reports, the anhedonia lasted for weeks after people stopped taking it.",
+    "found": "anyway, can't tell: lasting anhedonia from the drug or the trauma"
+   },
+   {
+    "s": "If agmatine makes the world more gray, it is the wrong tool for that phase.",
+    "found": "anyway, can't tell"
+   }
+  ],
+  "kept": {
+   "Stop immediately if it causes flatness, anhedonia, emotional blunting, new depression, agitation, insomnia, dizziness, palpitations, nausea, loose stools, diarrhea, or increased craving.": "the post's text as the article has it, kept by this change, which only adds the new sentence his warning asked for; its own marks wait for a pass on this paragraph",
+   "Only the stomach problems showed up in the human trials, but the flatness happens in practice, so do not \"push through\" numbness.": "the post's text as the article has it, kept by this change, which only adds the new sentence his warning asked for; its own marks wait for a pass on this paragraph",
+   "If agmatine makes the world more gray, it is the wrong tool for that phase.": "the post's text as the article has it, kept by this change, which only adds the new sentence his warning asked for; its own marks wait for a pass on this paragraph",
+   "In rare reports, the anhedonia lasted for weeks after people stopped taking it.": "his warning: the reports are of anhedonia after stopping; it tells the reader why stopping early matters, and whether a sign is new is the reader's judgment, as with every sign in the line"
+  }
+ },
+ "questions": {
+  "Q1": "PASS: each sentence opens on its point",
+  "Q2": "PASS: each instruction says what it is for in the reader's terms (why not to start them, what to stop for)",
+  "Q3": "PASS: each thing is named exactly",
+  "Q4": "PASS: each unfamiliar term is said in plain words where it is first used",
+  "Q5": "PASS: each \"and\", \"so\" and \"but\" turns on the clause before it",
+  "Q6": "PASS: the claim, then what the evidence shows, then its limit",
+  "Q7": "PASS: each fact is about the reader's own symptom or the tool they are deciding on",
+  "Q8": "N/A: no group or list inside this paragraph",
+  "Q9": "PASS: one step a clause, with the small words that carry the relation kept"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

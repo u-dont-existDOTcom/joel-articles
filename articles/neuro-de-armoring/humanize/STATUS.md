@@ -1,5 +1,22 @@
 # Status: neuro de-armoring humanization (newest on top)
 
+## 2026-11-23, his message of 17:25 UTC: card W35, his 5-HTP warning in, the contradictions check again (questions 34 to 56)
+
+His message: "GH handoff: [Neuro de-armoring handoff](...) – Next: the Pangram check of the new Weeks 3–5 line on its own,
+his new warnings, then the contradictions check again." **The mailbox first** ("2026-11-23 17:25"): UDA AGENTS.md and
+LESSON-INDEX unchanged; this lane's 478 merged; no new issues, comments, edits or stored answers; no notifications.
+
+- **The Weeks 3–5 line** (his 16a, 17): six tries by itself (`fix-20261108/x1120a/checks-1123` to `-1123f`, ledger #187 to
+  #192, the tell panel `x1120a/panel-w35p`), Human from try 2 on but never High in every window (best, try 3: High, Medium,
+  High). Card W35 (`fix-20261108/x1123a/REVIEW-X1123A.md`) on the cards page for his version.
+- **His warnings** (`x1122a/WARNINGS-SOURCES.md`): the 5-HTP sentence in (Human High by itself; HUMANIZED-SO-FAR.md
+  027122dc to a3dfdecd, `x1123a/APPLIED-X1123A.json`); lion's mane and ashwagandha AI twice (`x1123a/checks-1123g`, `-1123h`),
+  the tell panel next; agmatine's sentence made the stop-signs paragraph read 100% AI, which waits on question 35.
+- **The contradictions check** (`fix-20261108/coherence/x1123a/`): 35 items, 4 explained, 2 answered, 2 applying, 3 not a
+  conflict, 24 as questions 34 to 55; question 56 from his 31a. The old 2.10 fate corrected (question 42).
+- `fix-20261104/checks/record_gui.py` records windows as dicts (apply_gate.py read none before).
+- **Waiting on him**: questions 34 to 56, card W35. Delegations: a Fable reader for the extract. Predictions: #187 to #196.
+
 ## 2026-11-22, his message of 17:39 UTC: his answers 24 to 33 in; his new warnings next
 
 His message word for word: `fix-20261108/joel-20261122-1739-message.txt`. **The mailbox first** ("2026-11-22 17:39"):

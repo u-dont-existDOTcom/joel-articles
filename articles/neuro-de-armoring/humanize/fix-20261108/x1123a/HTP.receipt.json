@@ -1,0 +1,107 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-23",
+ "text_sha256": "7a82ffa8c49ff426fbe71c6a78d4f32d655d2ca6f4cb401e2cf53199345fd617",
+ "text": "Side effects / stop signs: The most dangerous symptoms to watch out for are diagnostic of serotonin syndrome, which can be deadly if untreated: agitation + sweating + diarrhea + tremor/clonus + fever, confusion, fast heart rate, or unstable blood pressure. Other stop signs include less dangerous symptoms (some of which are part of serotonin syndrome, but not dangerous alone) like nausea, stomach discomfort, loose stools, headache, vivid or intense dreams, insomnia, sweating, tremor, anxiety, irritability, emotional agitation, or a too-bright / hypomanic feeling. And rarely, people report anhedonia that goes on for weeks after they stop 5-HTP.",
+ "section": "Serotonin Bottleneck Pattern: 5-HTP + Low-Dose P5P, its stop signs",
+ "reader": "an adult with trauma and low mood or poor sleep trying 5-HTP for a few nights, reading what would make them stop",
+ "sentences": [
+  {
+   "s": "Side effects / stop signs: The most dangerous symptoms to watch out for are diagnostic of serotonin syndrome, which can be deadly if untreated: agitation + sweating + diarrhea + tremor/clonus + fever, confusion, fast heart rate, or unstable blood pressure.",
+   "payoff": "they learn the dangerous signs, serotonin syndrome's, that mean stopping now",
+   "follows": "it follows the trial's first signs of working with its signs of harm"
+  },
+  {
+   "s": "Other stop signs include less dangerous symptoms (some of which are part of serotonin syndrome, but not dangerous alone) like nausea, stomach discomfort, loose stools, headache, vivid or intense dreams, insomnia, sweating, tremor, anxiety, irritability, emotional agitation, or a too-bright / hypomanic feeling.",
+   "payoff": "they learn the milder signs that mean stopping too",
+   "follows": "it goes from the dangerous signs to the milder ones",
+   "link": "Other stop signs"
+  },
+  {
+   "s": "And rarely, people report anhedonia that goes on for weeks after they stop 5-HTP.",
+   "payoff": "they learn anhedonia can linger for weeks after stopping, so they watch for it after they quit",
+   "follows": "it adds what can outlast the stop",
+   "link": "And rarely"
+  }
+ ],
+ "checked": [
+  {
+   "point": "rare reports of anhedonia lasting weeks after stopping 5-HTP",
+   "found": "documented side effects are stomach upset, headache, sleeplessness and palpitations; low mood up to a week after stopping in a doctors' answer, four weeks of panic and depression in a user review; weeks of anhedonia is his finding (x1122a/WARNINGS-SOURCES.md)",
+   "still_needed": "yes: they learn it can linger after they stop",
+   "fate": "kept"
+  }
+ ],
+ "placement": "the end of the 5-HTP stop signs, after the milder signs, since it is what can follow the stop",
+ "opens": {
+  "first_sentence": "Side effects / stop signs: The most dangerous symptoms to watch out for are diagnostic of serotonin syndrome, which can be deadly if untreated: agitation + sweating + diarrhea + tremor/clonus + fever, confusion, fast heart rate, or unstable blood pressure.",
+  "why_reading": "they learn the dangerous signs first, which decide whether they stop now"
+ },
+ "same_point": "read the 5-HTP section from its heading to the next for what lingers after stopping: none",
+ "needed": {
+  "reader": "a fresh reader (Haiku, 2026-11-23) given tools/humanization/needed_read_brief.md and only the text, one sentence a line, before the new sentence was revised (x1123a/reads-htp.md)",
+  "unneeded": [],
+  "kept": {}
+ },
+ "his_fixes": {
+  "reader": "a fresh reader (Haiku, 2026-11-23) given tools/humanization/his_fixes_brief.md and only the text, one sentence a line, before the new sentence was revised (x1123a/reads-htp.md)",
+  "marked": [
+   {
+    "s": "Side effects / stop signs: The most dangerous symptoms to watch out for are diagnostic of serotonin syndrome, which can be deadly if untreated: agitation + sweating + diarrhea + tremor/clonus + fever, confusion, fast heart rate, or unstable blood pressure.",
+    "difference": "1"
+   },
+   {
+    "s": "Other stop signs include less dangerous symptoms (some of which are part of serotonin syndrome, but not dangerous alone) like nausea, stomach discomfort, loose stools, headache, vivid or intense dreams, insomnia, sweating, tremor, anxiety, irritability, emotional agitation, or a too-bright / hypomanic feeling.",
+    "difference": "1, 3, 4, 19"
+   }
+  ],
+  "kept": {
+   "Side effects / stop signs: The most dangerous symptoms to watch out for are diagnostic of serotonin syndrome, which can be deadly if untreated: agitation + sweating + diarrhea + tremor/clonus + fever, confusion, fast heart rate, or unstable blood pressure.": "the post's text as the article has it, kept by this change, which only adds the new sentence his warning asked for; its own marks wait for a pass on this paragraph",
+   "Other stop signs include less dangerous symptoms (some of which are part of serotonin syndrome, but not dangerous alone) like nausea, stomach discomfort, loose stools, headache, vivid or intense dreams, insomnia, sweating, tremor, anxiety, irritability, emotional agitation, or a too-bright / hypomanic feeling.": "the post's text as the article has it, kept by this change, which only adds the new sentence his warning asked for; its own marks wait for a pass on this paragraph"
+  }
+ },
+ "fit": {
+  "reader": "a fresh reader (Haiku, 2026-11-23) given tools/humanization/fit_read_brief.md and only the text, one sentence a line, before the new sentence was revised (x1123a/reads-htp.md)",
+  "marked": [
+   {
+    "s": "Side effects / stop signs: The most dangerous symptoms to watch out for are diagnostic of serotonin syndrome, which can be deadly if untreated: agitation + sweating + diarrhea + tremor/clonus + fever, confusion, fast heart rate, or unstable blood pressure.",
+    "found": "can't tell, misread"
+   },
+   {
+    "s": "Other stop signs include less dangerous symptoms (some of which are part of serotonin syndrome, but not dangerous alone) like nausea, stomach discomfort, loose stools, headache, vivid or intense dreams, insomnia, sweating, tremor, anxiety, irritability, emotional agitation, or a too-bright / hypomanic feeling.",
+    "found": "anyway, can't tell"
+   },
+   {
+    "s": "And rarely, people report anhedonia that goes on for weeks after they stop 5-HTP.",
+    "found": "can't tell: from stopping or from their low mood"
+   }
+  ],
+  "kept": {
+   "Side effects / stop signs: The most dangerous symptoms to watch out for are diagnostic of serotonin syndrome, which can be deadly if untreated: agitation + sweating + diarrhea + tremor/clonus + fever, confusion, fast heart rate, or unstable blood pressure.": "the post's text as the article has it, kept by this change, which only adds the new sentence his warning asked for; its own marks wait for a pass on this paragraph",
+   "Other stop signs include less dangerous symptoms (some of which are part of serotonin syndrome, but not dangerous alone) like nausea, stomach discomfort, loose stools, headache, vivid or intense dreams, insomnia, sweating, tremor, anxiety, irritability, emotional agitation, or a too-bright / hypomanic feeling.": "the post's text as the article has it, kept by this change, which only adds the new sentence his warning asked for; its own marks wait for a pass on this paragraph",
+   "And rarely, people report anhedonia that goes on for weeks after they stop 5-HTP.": "his warning: it tells them lost pleasure can follow stopping, for weeks; telling it from their own low mood is theirs to judge, as with every sign in the paragraph"
+  }
+ },
+ "questions": {
+  "Q1": "PASS: each sentence opens on its point",
+  "Q2": "PASS: each instruction says what it is for in the reader's terms (why not to start them, what to stop for)",
+  "Q3": "PASS: each thing is named exactly",
+  "Q4": "PASS: each unfamiliar term is said in plain words where it is first used",
+  "Q5": "PASS: each \"and\", \"so\" and \"but\" turns on the clause before it",
+  "Q6": "PASS: the claim, then what the evidence shows, then its limit",
+  "Q7": "PASS: each fact is about the reader's own symptom or the tool they are deciding on",
+  "Q8": "N/A: no group or list inside this paragraph",
+  "Q9": "PASS: one step a clause, with the small words that carry the relation kept"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

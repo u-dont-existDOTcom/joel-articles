@@ -1655,39 +1655,39 @@
     {
      "place": "uda-lane",
      "status": "read",
-     "found": "AGENTS.md 7ef0bfc and LESSON-INDEX 62d9a9f unchanged (main 3d79cc81); the lane's six suggested-fix items, all in the ledger"
+     "found": "AGENTS.md 7ef0bfc and LESSON-INDEX 62d9a9f unchanged (main 3d79cc81, rechecked 18:40 UTC); the lane's six suggested-fix items, all in the ledger"
     },
     {
      "place": "repo",
      "status": "read",
-     "found": "main at 7d31d74d: this lane's 478 merged on 2026-11-22 at 17:53; bad-trips 479, Nirvana contents 480 and romance 401 and 481 merged since; no new issues or comments; this lane has no open pull request"
+     "found": "main at 01830f8c: this lane's 488 merged at 18:04 UTC (the mid-turn save); Nirvana contents 489, 491, 492 and romance 490 merged since, none touching shared rules or tools; no new issues or comments; open pull requests unchanged (this lane's old 309 still open)"
     },
     {
      "place": "notes",
      "status": "read",
-     "found": "no edits by others to this lane's handoff or questions page; the cards page's stored answers unchanged (newest 2026-11-14 22:04)"
+     "found": "no edits by others to this lane's handoff or questions page; the cards page's stored answers unchanged (newest 2026-11-14 22:04, none on card W35 yet)"
     },
     {
      "place": "runtime",
      "status": "read",
-     "found": "no queued notifications"
+     "found": "no queued notifications (checked again 18:40 UTC)"
     }
    ],
    "items": [
     {
      "item": "the Weeks 3-5 line (16a, 17)",
-     "outcome": "six tries spent below Human High in every window (best try 3); card W35 on the cards page for his version"
+     "outcome": "six tries spent below Human High in every window (best try 3: High, Medium, High); card W35 on the cards page for his version"
     },
     {
      "item": "his new warnings",
-     "outcome": "sources on both sides read (x1122a/WARNINGS-SOURCES.md); drafts, reads and checks next"
+     "outcome": "5-HTP sentence in (Human High by itself, HUMANIZED-SO-FAR.md a3dfdecd); lion's mane and ashwagandha AI twice, the tell panel next; agmatine's sentence made its paragraph read 100% AI, rewritten once he answers question 35"
     },
     {
      "item": "contradictions check",
-     "outcome": "after the warnings, over the whole article"
+     "outcome": "run again: 35 items, every one with a fate (4 explained, 2 answered, 2 applying, 3 not a conflict, 24 as questions 34 to 55); question 56 from his 31a; questions page version 32"
     }
    ],
-   "recorded_utc": "2026-11-23T18:01Z"
+   "recorded_utc": "2026-11-23T18:38Z"
   }
  ]
 }

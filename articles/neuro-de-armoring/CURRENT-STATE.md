@@ -22,7 +22,7 @@ Every paragraph and every section reads Human in Pangram, with the meaning kept 
 
 ## Current checkpoint
 
-`humanize/HUMANIZED-SO-FAR.md` (027122dc, after his message of 2026-11-22 17:39 UTC: his answers 24 to 33, `humanize/fix-20261108/x1122a/APPLIED-X1122A.json`) is his post with the standard typographic swap, his versions and the science corrections he approved, section by section through Part 3's potassium step. Next, the protocol is read as a whole against the settled science (`humanize/fix-20261108/coherence/EXTRACT.md`), then the rest is humanized (lesson neuro-2026-11-08f). Nothing has been changed in his post yet.
+`humanize/HUMANIZED-SO-FAR.md` (a3dfdecd, after his message of 2026-11-23 17:25 UTC: his 5-HTP warning in, `humanize/fix-20261108/x1123a/APPLIED-X1123A.json`; before it his answers 24 to 33, `humanize/fix-20261108/x1122a/APPLIED-X1122A.json`) is his post with the standard typographic swap, his versions and the science corrections he approved, section by section through Part 3's potassium step. The contradictions check ran again on 2026-11-23 (`humanize/fix-20261108/coherence/x1123a/`, 35 items, every one with a fate): questions 34 to 56 and card W35 (the Weeks 3–5 line) wait on him, then the rest is humanized (lesson neuro-2026-11-08f). Nothing has been changed in his post yet.
 
 ## Remaining
 
