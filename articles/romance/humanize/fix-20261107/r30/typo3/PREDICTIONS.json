@@ -1,5 +1,5 @@
 {
- "about": "The typography test: round 3's three rewrites that read AI or Mixed, checked again with straight quote marks, the way his own versions were typed and the way the typographic swap will publish them (his rule: curly quote marks straightened; \"the curly apostrophes are an AI tell\"). Nothing else changed. Predictions before the checks: call and my chance of a 100% Human result.",
+ "about": "The typography test: round 3's three rewrites that read AI or Mixed, checked again with straight quote marks, the way his own versions were typed and the way the typographic swap will publish them (his rule: curly quote marks straightened; \"the curly apostrophes are an AI tell\"). Nothing else changed. Predictions before the checks: call and my chance of a 100% Human result. The flaws rewrite has no quote marks, so it is the same text and is left out.",
  "items": [
   {
    "key": "typo3-M-214+next",
@@ -18,15 +18,6 @@
    "call": "AI",
    "chance": 0.25,
    "text": "And the biggie: what happens if one of us falls in love with someone else? We'd need to say what counts as betrayal and what's just a sign we need a serious talk. If our lives change, can we honestly sit down and rethink the agreement? And if we split up, what do we still owe each other (and our kids, if we have any)?"
-  },
-  {
-   "key": "typo3-flaws-126+127",
-   "curly_key": "replay3-flaws-126+127",
-   "sha256": "da74ac16b5d682660d4d327055f63b6fea4a55d59b649dfb7f748707590f1940",
-   "words": 78,
-   "call": "AI",
-   "chance": 0.15,
-   "text": "Look at the most recent conflicts and ask if you were able to regulate yourself during them. What did you do to the other person, and how did you repair the damage afterward? Then ask whether your judgment has gotten better or you keep falling for the same thing again, and what your friends or exes would say.\n\nAnd if you shut down, did that mean you stopped talking to your partner for days, so they felt abandoned?"
   }
  ]
 }
