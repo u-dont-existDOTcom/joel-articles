@@ -8,12 +8,12 @@
    "ref": "his answer 25, fix-20261108/x1122a/APPLIED-X1122A.json"
   },
   "2.2": {
-   "fate": "applying",
-   "ref": "his answer 16a; the line (x1120a/texts_x1120a.py W35R) used its six Pangram tries by itself (the best, try 3, every window High but one Medium: x1120a/checks-1123c) and is card W35 on the cards page (x1123a/REVIEW-X1123A.md) for his version"
+   "fate": "answered",
+   "ref": "his answer 16a: his version of the Weeks 3-5 line (card W35), fix-20261108/x1123b/APPLIED-X1123B.json"
   },
   "2.3": {
-   "fate": "applying",
-   "ref": "his answer 17; the same line and card as 2.2 (x1123a, card W35)"
+   "fate": "answered",
+   "ref": "his answer 17: the same line, card W35, fix-20261108/x1123b/APPLIED-X1123B.json"
   },
   "2.4": {
    "fate": "settled",
@@ -40,8 +40,8 @@
    "ref": "his answer 22a, fix-20261108/x1120a/APPLIED-X1120A.json"
   },
   "2.10": {
-   "fate": "question",
-   "ref": "OWNER-QUESTIONS.md, question 42 (x1123a item 17). Corrected 2026-11-23: it was marked answered by 33b, but his answer 23 was about agmatine with psychedelics (it went in as 33b), so which timing line holds was never decided; question 42 asks question 23's choice again"
+   "fate": "answered",
+   "ref": "his answer 42a (question 23 asked again), fix-20261108/x1123b/APPLIED-X1123B.json"
   },
   "2.11": {
    "fate": "answered",

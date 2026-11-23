@@ -28,17 +28,17 @@ The armored brain projects its own internal threat level onto neutral faces. You
 
 Agmatine Warning (The Voltage Governor): Agmatine is not a basic nutrient like magnesium or a membrane nutrient like phosphatidylcholine. It is a multi-target neuromodulator that can affect NMDA/glutamate signaling, imidazoline/alpha-2 adrenergic tone, nitric-oxide pathways, and opioid reward/tolerance.
 
-Precautions/Side Effects: Do not use concurrently with opioids and/or kratom (will reduce tolerance), clonidine and/or guanfacine, blood pressure lowering medications (including nitrates and PDE-5 inhibitors), or other complex "psych" stacks without having a physician competent to consider the likelihoods of problematic interactions. Not recommended for use in pregnancy or breast-feeding. Use with extreme caution in those with a prior psychotic episode, lower end blood pressure, or kidney or liver issues.
+Precautions/Side Effects: Do not use concurrently with opioids and/or kratom (will reduce tolerance), clonidine and/or guanfacine, blood pressure lowering medications (including nitrates and PDE-5 inhibitors), or other complex psychoactive stacks (anything that works on the brain) without having a physician competent to consider the likelihoods of problematic interactions. Not recommended for use in pregnancy or breast-feeding. Use with extreme caution in those with a prior psychotic episode, lower end blood pressure, or kidney or liver issues.
 
-Stop immediately if it causes flatness, anhedonia, emotional blunting, new depression, agitation, insomnia, dizziness, palpitations, nausea, loose stools, diarrhea, or increased craving. Only the stomach problems showed up in the human trials, but the flatness happens in practice, so do not "push through" numbness. If agmatine makes the world more gray, it is the wrong tool for that phase.
+Stop immediately if it causes flatness, anhedonia, apathy, emotional blunting, new depression, agitation, irritability, insomnia, dizziness, palpitations, nausea, loose stools, diarrhea, or increased craving. Only the stomach problems showed up in the human trials, but the flatness happens in practice, so do not "push through" numbness. If agmatine makes the world more gray, it is the wrong tool for that phase.
 
-Uridine & 5-HTP Warning for Psychedelic Users: These are not "trip enhancers." They are repair-oriented levers that, in practice, can change brain sensitivity quickly. 5-HTP is serotonergic because it is a direct serotonin precursor. Do not combine it with SSRIs, SNRIs, MAOIs, linezolid, lithium, tramadol, methadone, fentanyl, DXM, MDMA, St. John's wort, SAM-e, L-tryptophan, or other serotonin-raising stacks without clinician review. Be especially conservative around ayahuasca / harmalas because MAO-A inhibition can amplify serotonin load, and around iboga / ibogaine because ibogaine and noribogaine interact with serotonin transport biology and already carry serious cardiac and neurological risk.
+Uridine & 5-HTP Warning for Psychedelic Users: These are not "trip enhancers." They are repair-oriented levers that, in practice, can change brain sensitivity quickly. 5-HTP is serotonergic because it is a direct serotonin precursor. Do not combine it with SSRIs, SNRIs, MAOIs, linezolid, lithium, tramadol, methadone, fentanyl, DXM, MDMA, St. John's wort, SAM-e, L-tryptophan, or other serotonin-raising stacks. Be especially conservative around ayahuasca / harmalas because MAO-A inhibition can amplify serotonin load, and around iboga / ibogaine because ibogaine and noribogaine interact with serotonin transport biology and already carry serious cardiac and neurological risk.
 
-Rule: do not take 5-HTP on the same day as psychedelics, and do not use it anywhere near ayahuasca/harmalas or iboga unless the whole medicine plan has been medically reviewed. Uridine is not serotonergic, but it may still change dream vividness, visual sensitivity, craving, and psychedelic tolerance; that's from experience, like Scott's below, not from studies. Do not take UMP on the same day as psychedelics; if sensitivity changes, assume your old psychedelic dose may now be too high.
+Rule: do not take 5-HTP on the same day as psychedelics, and do not use it anywhere near ayahuasca/harmalas or iboga. Uridine is not serotonergic, but it may still change dream vividness, visual sensitivity, craving, and psychedelic tolerance; that's from experience, like Scott's below, not from studies. Do not take UMP on the same day as psychedelics; if sensitivity changes, assume your old psychedelic dose may now be too high.
 
 ## Psychology is the Software; Biology is the Hardware.
 
-Have you done years of CBT or EMDR and yet you still get triggered and freeze or blow up? One reason to think about, is that standard therapy is trying to rewrite the "code" (your thoughts and behaviors), while the "motherboard" (the brain's physical structure and chemistry) is often overheating or damaged, and code doesn't run well on a motherboard like that. So to address that, I've designed this protocol to go after 4 specific neuro-biological problems before you go working on the psychology (well, alongside).
+Have you done years of CBT or EMDR and yet you still get triggered and freeze or blow up? One reason to think about, is that standard therapy is trying to rewrite the "code" (your thoughts and behaviors), while the "motherboard" (the brain's physical structure and chemistry) is often overheating or damaged, and code doesn't run well on a motherboard like that. So to address that, I've designed this protocol to go after 5 specific neuro-biological problems ([A to E below](https://ibogaqueen.substack.com/i/181671197/part-1-the-science-why-we-do-this)) before you go working on the psychology (well, alongside).
 
 The "Underpinning" Principle Dr. Bruce Perry compares treating trauma to building a house. Standard CBT & EMDR style therapies attempt to "decorate" the house (changing thoughts/behaviors in the Cortex) while the foundation (the Brainstem) is crumbling. You cannot hang curtains in a collapsing house.
 
@@ -64,13 +64,11 @@ Before applying the tools, you must understand what actually goes wrong in the b
 
 If you've tried to talk yourself out of a trigger and couldn't, that's because anatomy overrides intellect. Dr. Perry describes a "Metabolic Red Line" for the traumatized brain: once your resting heart rate goes up or your heart-rate variability drops (a state of "Fear"), blood flow shifts away from the Cortex, which does logic and reasoning, and down to the Brainstem, which runs survival.
 
-So if you try to process trauma while you're above this red line, you're adding to the armor instead of taking it off. In that state your functional IQ drops a lot, and the Nucleus Accumbens gets flooded with the catecholamines that transcribe new DeltaFosB proteins, the "armor" itself.
+So if you try to process trauma while you're above this red line, you're adding to the armor instead of taking it off. That's why many trauma therapies emphasize staying within a manageable "window of tolerance" rather than overwhelming activation. In that state your functional IQ drops a lot, and the Nucleus Accumbens gets flooded with the catecholamines that transcribe new DeltaFosB proteins, the "armor" itself (DeltaFosB may be the master switch, but the research isn't settled).
 
 #### B. The "Overheating" CPU: Glutamate Excitotoxicity
 
 The Problem: Glutamate is the brain's primary excitatory neurotransmitter. In states of stress, the brain floods with Glutamate. This is the "voltage spike"--the engine is redlining.
-
-The Metabolic Red Line: We often assume we can 'think' our way out of trauma, but Dr. Bruce Perry's data proves that anatomy overrides intellect. When trauma survivors become highly dysregulated, prefrontal cortical functioning often decreases while survival-oriented neural systems become more dominant. In this state, learning and memory processes may favor reinforcement of existing fear networks rather than integration of traumatic material. For this reason many trauma therapies emphasize staying within a manageable "window of tolerance" rather than overwhelming activation. You can often tell when you're dysregulated by noticing if your heart is beating faster or if your heart-rate variability declines. DeltaFosB may be the master switch, but the research isn't settled.
 
 The Mechanism: When glutamate floods into the neuron, it jams open the NMDA "doors" (receptors), which allows calcium to flood in. Calcium at such high levels caused by stress can injure the neurons. Possibly as a protective mechanism, those neurons have been observed (in rats) to pull back their complex interactions with other neurons for up to two weeks after a stressful event ([Bonifacino, et al, 2023](https://www.nature.com/articles/s41398-023-02366-w)). It's theorized that chronic stress on neurons also makes them more vulnerable to other toxic insults ([Conrad, 2008](https://pmc.ncbi.nlm.nih.gov/articles/PMC2746750/)), which is kind of common sense. What does all that feel like? Although popular neuroscience doesn't communicate this well, neurotransmitters affect different brain regions differently. Under chronic stress, glutamate rises in the part of the amygdala that flags threats ([Wilson, 2015](https://pmc.ncbi.nlm.nih.gov/articles/PMC4721288)), producing anxiety, rage, all that good stuff. Block the NMDA receptors there, and anxious behaviour drops in animals ([Boyle, 2013](https://pmc.ncbi.nlm.nih.gov/articles/PMC3670432)).
 
@@ -86,7 +84,7 @@ The Repair (L-Serine): Your brain makes D-Serine out of L-Serine ([Wolosker, et 
 
 The Governor (Agmatine): Agmatine is the optional "voltage governor." It may help when the problem is not just excess glutamate in the synapse, but NMDA/GluN2B over-reactivity--the hot, itchy, reactive, pain-y, rumination-heavy version of the Glutamate Storm. It is not a daily foundation nutrient. It is a state-dependent brake.
 
-Important conflict: do not use agmatine as a same-session companion to D-Serine/DCS-style exposure or EMDR work. D-Serine/DCS-style tools are meant to support NMDA-dependent learning and memory updating; agmatine partially brakes NMDA activity. Use agmatine for storm control, not immediately before a session where the goal is deliberate reconsolidation.
+Important conflict: do not use agmatine as a same-session companion to D-Serine/DCS-style exposure or EMDR work. D-Serine/DCS-style tools are meant to support NMDA-dependent learning and memory updating; agmatine partially brakes NMDA activity. Use agmatine for storm control, and keep it away from a session where the goal is deliberate reconsolidation ([its timing rule](https://ibogaqueen.substack.com/i/181671197/2-the-glutamate-shield-anxiety) says how far).
 
 #### C. The "Hardened" Circuit: Dynorphin & DeltaFosB
 
@@ -95,7 +93,7 @@ Even though dynorphin clears relatively quickly, allowing us the motivation to l
 
 Why Standard Meds Failed You If you have tried SSRIs (antidepressants) and failed, you are not crazy. In a small trial of male combat veterans with severe, long-term PTSD, Prozac did no better than a placebo ([Hertzberg, et al, 2000](https://scholars.duke.edu/publication/759904)). Trials in veterans have been mixed since, yet the VA still recommends sertraline and paroxetine ([VA/DoD, 2023](https://pubmed.ncbi.nlm.nih.gov/38408360/)). And the side effects are well-known, including anhedonia, zombification, and sexual dysfunction.
 
-Why don't these drugs work on calcified PTSD? Because even if they did work for mood by modulating serotonin transmission, PTSD is not a mood disorder. That's a bit like putting some Bengay on a broken leg. This protocol tries to get at the underpinnings of the problem. The ketone BHB blocks enzymes called HDACs ([Shimazu, et al, 2013](https://escholarship.org/uc/item/4w889738)), and in mice that couldn't hold on to extinction learning (learning that a cue is now safe), an HDAC blocker made the new learning last ([Whittle & Singewald, 2014](https://pmc.ncbi.nlm.nih.gov/articles/PMC3961057)). In people with PTSD, the first small study of a keto diet with BHB supplements found that both people who finished its four weeks improved, by 20 and 10 points on the standard 80-point PTSD checklist, which its authors call clinically meaningful ([Edwards, et al, 2024](https://pubmed.ncbi.nlm.nih.gov/39588043/)). In two case reports, women whose PTSD hadn't responded to treatment were nearly or fully free of symptoms after months on the diet ([Bellamy & Laurent, 2025](https://pubmed.ncbi.nlm.nih.gov/40626225/); [Laurent, 2026](https://pubmed.ncbi.nlm.nih.gov/41783812/)). No controlled trial of the diet has been done yet, and the one placebo-controlled trial of BHB supplements alone was too small to tell either way ([Youssef, et al, 2022](https://pubmed.ncbi.nlm.nih.gov/36282607/)). But we can see some astounding BHB salt reviews on forums, like for [brain injury repair](https://www.reddit.com/r/keto/comments/1fmu0po/ketone_supplements_insanely_good/), and BHB injections work for rats with trauma, although in humans it's still an open question whether the salts work as well as the keto diet ([Engelhardt, et al, 2026](https://www.frontiersin.org/journals/psychiatry/articles/10.3389/fpsyt.2026.1854499/full)).
+Why do these drugs so often fail on calcified PTSD? Because even if they did work for mood by modulating serotonin transmission, PTSD is not a mood disorder. That's a bit like putting some Bengay on a broken leg. This protocol tries to get at the underpinnings of the problem. The ketone BHB blocks enzymes called HDACs ([Shimazu, et al, 2013](https://escholarship.org/uc/item/4w889738)), and in mice that couldn't hold on to extinction learning (learning that a cue is now safe), an HDAC blocker made the new learning last ([Whittle & Singewald, 2014](https://pmc.ncbi.nlm.nih.gov/articles/PMC3961057)). In people with PTSD, the first small study of a keto diet with BHB supplements found that both people who finished its four weeks improved, by 20 and 10 points on the standard 80-point PTSD checklist, which its authors call clinically meaningful ([Edwards, et al, 2024](https://pubmed.ncbi.nlm.nih.gov/39588043/)). In two case reports, women whose PTSD hadn't responded to treatment were nearly or fully free of symptoms after months on the diet ([Bellamy & Laurent, 2025](https://pubmed.ncbi.nlm.nih.gov/40626225/); [Laurent, 2026](https://pubmed.ncbi.nlm.nih.gov/41783812/)). No controlled trial of the diet has been done yet, and the one placebo-controlled trial of BHB supplements alone was too small to tell either way ([Youssef, et al, 2022](https://pubmed.ncbi.nlm.nih.gov/36282607/)). But we can see some astounding BHB salt reviews on forums, like for [brain injury repair](https://www.reddit.com/r/keto/comments/1fmu0po/ketone_supplements_insanely_good/), and BHB injections work for rats with trauma, although in humans it's still an open question whether the salts work as well as the keto diet ([Engelhardt, et al, 2026](https://www.frontiersin.org/journals/psychiatry/articles/10.3389/fpsyt.2026.1854499/full)).
 
 Double click to interact with video
 
@@ -123,7 +121,7 @@ Trace a Path: Find every blue object in the room and mentally draw a line connec
 
 Add Complexity: Now, mentally "rotate" those objects in your mind or imagine them changing into a different shape (e.g., "That blue chair is now a blue cube").
 
-The Goal: You must do this for 10–20 minutes immediately after a trigger to "jam" the memory reconsolidation.
+The Goal: You must do this for 10–20 minutes as soon as your heart rate is back down after a trigger ([Scenario A](https://ibogaqueen.substack.com/i/181671197/scenario-a-the-glutamate-storm)'s Steps 1 and 2), to "jam" the memory reconsolidation.
 
 +1
 
@@ -179,9 +177,9 @@ Who this is for: 5-HTP is not for every depressed person either. It could help, 
 
 Scott took 100 mg 5-HTP sublingually at night, with 10–20 mg P5P sublingually in the morning. The P5P isn't there as a stimulant, but as the active form of vitamin B6, which the enzyme that turns 5-HTP into serotonin (aromatic amino-acid decarboxylase) needs. He's genetically slow-COMT, making him sensitive to too much P5P.
 
-If you're sensitive, start lower and do the trial with just 50mg 5-HTP at night for 2–3 nights, then go up to 100mg if 50mg was clearly helpful and not causing side effects, and stay on it as long as it benefits you. You can also add 10–20mg P5P in the morning, like Scott did, especially if the 5-HTP felt like it "almost worked," as that could be a sign it wasn't converting cleanly over to serotonin. Don't do the trial at the same time as the other suggested regimen changes (like UMP, agmatine, D-serine, psychedelics, or prescription medication changes), since the point is to see whether the 5-HTP itself is doing anything. If it's the right tool, the first things you'll usually notice are your mood or sleep quality improves, you have less nighttime rumination, and your dreams become more vivid or memorable.
+Start lower and do the trial with just 50mg 5-HTP at night for 2–3 nights, then go up to 100mg if 50mg was clearly helpful and not causing side effects, and stay on it as long as it benefits you. You can also add 10–20mg P5P in the morning, like Scott did, especially if the 5-HTP felt like it "almost worked," as that could be a sign it wasn't converting cleanly over to serotonin. Don't do the trial at the same time as the other suggested regimen changes (like UMP, agmatine, D-serine, psychedelics, or prescription medication changes), since the point is to see whether the 5-HTP itself is doing anything. If it's the right tool, the first things you'll usually notice are your mood or sleep quality improves, you have less nighttime rumination, and your dreams become more vivid or memorable.
 
-Side effects / stop signs: The most dangerous symptoms to watch out for are diagnostic of serotonin syndrome, which can be deadly if untreated: agitation + sweating + diarrhea + tremor/clonus + fever, confusion, fast heart rate, or unstable blood pressure. Other stop signs include less dangerous symptoms (some of which are part of serotonin syndrome, but not dangerous alone) like nausea, stomach discomfort, loose stools, headache, vivid or intense dreams, insomnia, sweating, tremor, anxiety, irritability, emotional agitation, or a too-bright / hypomanic feeling. And rarely, people report anhedonia that goes on for weeks after they stop 5-HTP.
+Side effects / stop signs: The most dangerous symptoms to watch out for are diagnostic of serotonin syndrome, which can be deadly if untreated: agitation + sweating + diarrhea + tremor/clonus + fever, confusion, fast heart rate, or unstable blood pressure. Other stop signs include less dangerous symptoms (some of which are part of serotonin syndrome, but not dangerous alone) like nausea, stomach discomfort, loose stools, headache, dreams so intense they disturb your sleep, insomnia, sweating, tremor, anxiety, irritability, emotional agitation, or a too-bright / hypomanic feeling. And rarely, people report anhedonia that goes on for weeks after they stop 5-HTP.
 
 [Serotonin syndrome](https://medlineplus.gov/ency/article/007272.htm) usually comes from mixing 5-HTP casually with anything else that raises serotonin, like antidepressants or MAOIs. Reviews keep warning about the risk with 5-HTP, like [this case report](https://pmc.ncbi.nlm.nih.gov/articles/PMC5580516/), where a young guy on sertraline (an antidepressant) took 5-HTP with a whole pile of weight-loss and energy supplements before a workout, and ended up with serotonin syndrome so bad that surgeons had to cut open both of his legs and his forearm to relieve the pressure! Luckily he recovered. If you're doing psychedelics, avoid 5-HTP on your psychedelic days, and be especially strict around ayahuasca's [harmala MAOI chemistry](https://pmc.ncbi.nlm.nih.gov/articles/PMC7678905/) and around iboga or ibogaine.
 
@@ -193,7 +191,7 @@ Your ketone strategy decides how you handle salt, since the salts bring their ow
 
 [image 3](https://substackcdn.com/image/fetch/$s_!8q8r!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fddfc5f6a-2896-48cf-a63e-f42157ac505e_641x420.png)
 
-For the long run there's Strategy B, the "Resilience Mode", a keto diet with carbs under 20g/day so your liver makes the ketones itself. That only works if fat becomes your fuel, so eat fat until you're full. Don't fill up on lean protein like chicken breast instead, since your body can only take so much protein: past about a third of your calories it can make you sick ([Bilsborough & Mann, 2006](https://pubmed.ncbi.nlm.nih.gov/16779921/)), so the rest of your energy has to come from fat. Switching over often brings on the keto flu, and to avoid it, refer to my [Keto Adaptation Guide](http://ketoflu.u-dont-exist.com/).
+For the repair weeks (Weeks 3–7 of [the timeline](https://ibogaqueen.substack.com/i/181671197/part-5-the-timeline-the-8-week-path)) there's Strategy B, the "Resilience Mode", a keto diet with carbs under 20g/day so your liver makes the ketones itself. That only works if fat becomes your fuel, so eat fat until you're full. Don't fill up on lean protein like chicken breast instead, since your body can only take so much protein: past about a third of your calories it can make you sick ([Bilsborough & Mann, 2006](https://pubmed.ncbi.nlm.nih.gov/16779921/)), so the rest of your energy has to come from fat. Switching over often brings on the keto flu, and to avoid it, refer to my [Keto Adaptation Guide](http://ketoflu.u-dont-exist.com/). Low carb, with keto seasons, is for after them (Week 8+).
 
 [image 4](https://substackcdn.com/image/fetch/$s_!Gd-0!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3f50e963-b7ee-4211-8c03-1748bbef3507_631x378.png)
 
@@ -203,7 +201,7 @@ Goal: Stabilize voltage to prevent the "Biological Crash" (Headaches/Panic).
 
 ### 1. Electrolytes (Choose Your Path)
 
-If on Quick Fix, Strategy A (BHB Salts / Standard Diet):Sodium: Standard intake. DO NOT load extra salt (Risk of High Blood Pressure).
+If on Crisis Mode, Strategy A (BHB Salts / Low-Sugar Diet):Sodium: Standard intake. DO NOT load extra salt (Risk of High Blood Pressure).
 
 Potassium:
 
@@ -215,7 +213,7 @@ The Source: Food Only. (Supplements are limited to 99mg, and bigger doses need a
 
 The Menu (The "Shield" Foods):
 
-Potato (Baked with skin): ~925 mg (The King of Potassium).
+Potato (Baked with skin): ~925 mg.
 
 Beet Greens (Cooked): ~1,300 mg per cup.
 
@@ -227,7 +225,7 @@ Coconut Water: ~600 mg per cup.
 
 The Strategy: Eat 2 large potatoes and 2 cups of greens every single day. That gets you close to the target, and the rest comes from your other food.
 
-If on Deep Fix, Strategy B (Keto Diet): [***See my Keto Adaptation Guide for electrolytes.***](http://ketoflu.u-dont-exist.com/)
+If on Resilience Mode, Strategy B (Keto Diet): [***See my Keto Adaptation Guide for electrolytes.***](http://ketoflu.u-dont-exist.com/)
 
 ### 2. The Glutamate Shield (Anxiety):
 
@@ -241,9 +239,9 @@ Agmatine Sulfate (Optional Trial): Start with 250–500 mg in the morning or ear
 
 Best fit: Glutamate Storm + rumination/compulsion + inflammatory or neuropathic "pain-y" body state.
 
-Poor fit: already numb, low-drive, depressed, dissociated, low blood pressure, sedated, or entering the Dynorphin Void.
+Poor fit: already numb, low-drive, depressed, dissociated, low blood pressure, sedated, or entering the Void.
 
-Cycle rule: use it as a 7–14 day anxiety-phase experiment, not a forever baseline, unless it is unmistakably helping acute glutamate storms without worsening flatness. Stop if flatness, anhedonia, apathy, irritability, insomnia, dizziness, nausea, loose stools, diarrhea, or increased craving appears.
+Cycle rule: use it as a 7–14 day anxiety-phase experiment, not a forever baseline, unless it is unmistakably helping acute glutamate storms without worsening flatness. Stop at any of the stop signs in [the Agmatine Warning at the top](https://ibogaqueen.substack.com/i/181671197/a-complete-guide-to-bio-de-armoring).
 
 Timing rule: avoid agmatine on D-Serine/DCS-style reconsolidation days, or keep it at least 12–24 hours away from the session.
 
@@ -299,16 +297,6 @@ Step 3: Apply the Jammer: Now use Tetris or the "Color-Path Connect" game to ove
 
 [image 5](https://substackcdn.com/image/fetch/$s_!hkoq!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6b6016a4-5f84-4559-b2e8-24a72d1175cb_1448x1086.png)
 
-Advanced tactic: The D-Serine Memory Re-consolidator. While L-Serine provides the building blocks for myelin, taking D-Serine (700mg–1400mg) on an empty stomach before a de-armoring session acts as a "memory (re)consolidator" which can cement the benefits of therapies like EMDR which aim to rewire the affective tone of memories.
-
-D-serine has shown efficacy in studies where it was used to augment exposure therapy for treating a variety of conditions such as social anxiety, PTSD, and fear of public speaking. The idea is that it facilitates the consolidation of the newly formed memory of how the anticipated negative consequences of the exposure to what you fear didn't actually happen. Some studies ssuggested that d-serine is more effective at this when the practice exposure to what you fear ends on a positive note as opposed to a negative one. Again, all d-serine is doing is making it easier to consolidate the memory of the experience into a long-term memory.
-
-Use L-Serine for daily maintenance and background hardware support.
-
-Use D-Serine for acute sessions where you need to "force" memory reconsolidation. [Best price from LifeLab](https://www.lifelabsupplements.com/d-serine). Take PQQ & Ketones first, the D-serine about 45 minutes later, and start the session about 45 minutes after that, so that your brain is fueled when the D-serine starts working.
-
-Warning: High doses of D-Serine damaged the kidneys in rat studies, so it carries a kidney caution, though kidney problems have been rare in human studies. Do not exceed 30mg/kg, even when that's less than the dose above, as it is for anyone under about 47 kg (104 lb), and ensure high water intake.
-
 ### Scenario B: The "Fog"
 
 Symptoms: Confusion, Disassociation, Low Energy, "Lagging."
@@ -321,7 +309,7 @@ Mechanism: Hypometabolism (Low Fuel) or Toxicity (Static).
 
 Symptoms: Numbness, Boredom, "I want to Relapse."
 
-Mechanism: The Dynorphin block is active. You feel "dead." You need to force a spark. We will utilize the science of hot and cold showers as a vascular pump, and plant medicine as needed:
+Mechanism: You feel "dead." You need to force a spark. We will utilize the science of hot and cold showers as a vascular pump, and plant medicine as needed:
 
 First-Line Void Add-Ons: If the Void has a DAWS / D2-D3 burnout flavor, trial UMP before chasing more stimulation. If the Void is mainly sleep + serotonin bottleneck, trial 5-HTP at night. Do not start both together, and do not use either to force stronger psychedelic effects.
 
@@ -337,23 +325,37 @@ Fun with fungi: If the showers aren't enough, you can microdose Hillbilly or Maz
 
 Activate the "Inner Father": If you are lacking discipline, try a male iboga nasal spray micro-dose. 1 spray (equal to about 150mg of bark) in the morning, as it lasts 12 hours. Make sure to check all the dangerous iboga drug interactions. Full [iboga guide here](http://iboga.u-dont-exist.com/).
 
+### D-Serine for a Planned Session
+
+Advanced tactic: The D-Serine Memory Re-consolidator, for a planned session once you can stay under [the red line](https://ibogaqueen.substack.com/i/181671197/a-the-metabolic-red-line) through one, whatever the week. While L-Serine provides the building blocks for myelin, taking D-Serine (700mg–1400mg) on an empty stomach (no meal; the PQQ and ketones are fine) before a de-armoring session acts as a "memory (re)consolidator" which can cement the benefits of therapies like EMDR which aim to rewire the affective tone of memories.
+
+The idea is that D-serine facilitates the consolidation of the newly formed memory of how the anticipated negative consequences of the exposure to what you fear didn't actually happen. Some studies suggested that d-serine is more effective at this when the practice exposure to what you fear ends on a positive note as opposed to a negative one. Again, all d-serine is doing is making it easier to consolidate the memory of the experience into a long-term memory.
+
+Use L-Serine for daily maintenance and background hardware support.
+
+Use D-Serine for planned sessions where you need to "force" memory reconsolidation. [Best price from LifeLab](https://www.lifelabsupplements.com/d-serine). Take PQQ & Ketones first, the D-serine about 45 minutes later, and start the session about 45 minutes after that, so that your brain is fueled when the D-serine starts working.
+
+Warning: High doses of D-Serine damaged the kidneys in rat studies, so it carries a kidney caution, though kidney problems have been rare in human studies. Do not exceed 30mg/kg, even when that's less than the dose above, as it is for anyone under about 47 kg (104 lb), and ensure high water intake.
+
 ## Part 5: THE TIMELINE (The 8-Week Path)
 
 Weeks 1–2: The Glutamate Storm (Anxiety Phase)Protocol:Self-care: Cold showers for anxiety, though hot showers might also help, so you can experiment, and many people find hot baths especially good for anxiety (especially with Epsom salt). *No hot showers if heart rate elevated or heart-rate-variability reduced.* My [breathwork page](http://breathwork.u-dont-exist.com/) can help a lot with anxiety and mood too.
 
 Supplement daily:
 
-Phosphatidylserine about 400 mg earlier in the day only if you fit the high-cortisol profile + 1 cup broccoli sprouts + Magnesium Glycinate 400 mg + NAC 1.8–2.4 g divided.
+Phosphatidylserine about 400 mg earlier in the day only if you fit the high-cortisol profile + 1 cup broccoli sprouts + Magnesium Glycinate 400 mg with zinc at night + L-Serine + NAC 1.8–2.4 g divided.
 
-Optional add-on: Agmatine Sulfate 250–500 mg in the morning or early afternoon for 3 days, then increasing to 500 mg twice daily only if it clearly reduces the hot/itchy/reactive state without flattening mood. Cap at 1 g/day in this protocol. Do not add agmatine on the same day you start PS, start D-Serine, change NAC dose, begin keto, microdose, or introduce any other major variable.
+Optional add-on: Agmatine Sulfate 250–500 mg in the morning or early afternoon for 3 days, then increasing to 500 mg once or twice daily only if it clearly reduces the hot/itchy/reactive state without flattening mood. Cap at 1 g/day in this protocol. Do not add agmatine on the same day you start PS, start D-Serine, change NAC dose, begin keto, microdose, or introduce any other major variable.
 
-If PS leaves you flat OR more wired, you're not a high-cortisol responder--drop it. If agmatine leaves you flat, anhedonic, dizzy, nauseous, sleepless, irritable, or more craving-prone--drop it.
+If PS leaves you flat OR more wired, you're not a high-cortisol responder--drop it. If agmatine gives you any of its stop signs ([the Agmatine Warning at the top](https://ibogaqueen.substack.com/i/181671197/a-complete-guide-to-bio-de-armoring))--drop it.
 
-Fuel: Start with BHB Salts (Strategy A) to manage initial fog.
+Fuel: BHB Salts (Strategy A) manage the initial fog. If you're the high-cortisol type, start PS first and add the salts once you know how PS sits; if not, take PQQ with the salts from the start.
 
-Rescue: "The Fire" + [Chantress Seba](https://www.youtube.com/channel/UCM9H6pHyg-J2eEZdX6wU_Dw) or other [music ](http://music.u-dont-exist.com/)+ The Repair Stack (Zn/Leu/Ser) + Tetris/Color Path for acute attacks.
+Rescue: "The Fire" + [Chantress Seba](https://www.youtube.com/channel/UCM9H6pHyg-J2eEZdX6wU_Dw) or other [music ](http://music.u-dont-exist.com/)+ Tetris/Color Path for acute attacks.
 
-Weeks 3–5: The Dynorphin Void (Depression Phase)State: The anxiety stops, but the world turns gray/boring.
+Weeks 3–7: The Void (Depression Phase)State: The anxiety mostly stops, but the world turns gray/boring.
+
+So you can tell what each new thing does, add them one at a time, starting with the UMP trial and working down the list below to the keto diet. 5-HTP could help your mood here, though iboga acts on serotonin too, so don't take 5-HTP at all while you're microdosing iboga or elliptica. There isn't enough data to say you should or shouldn't use UMP with any microdose, nor whether 5-HTP would be good with a mushroom microdose, so try those combos if you want and see how it feels. If you're too numb to tell, compare your sleep and dreams on the nights after each kind of day. Mushrooms act on serotonin too, just not the way iboga does, so stop the 5-HTP if you get any of the stop signs [the 5-HTP section](https://ibogaqueen.substack.com/i/181671197/serotonin-bottleneck-pattern-5-htp-low-dose-p5p) lists.
 
 Protocol:Reduce or stop phosphatidylserine here. This phase is low-drive and gray by design--you do *not* want to keep blunting cortisol in an already-flattened system, or you'll deepen the numbness. PS was for the anxiety phase; the Void phase needs the opposite. (If you never felt the wired/high-cortisol state in Weeks 1–2, you probably shouldn't have been on PS at all.)
 
@@ -363,9 +365,9 @@ UMP trial if the Void looks like DAWS: 150–300 mg UMP in the morning with food
 
 5-HTP trial if the bottleneck looks serotonergic: 50 mg at night for 2–3 nights, then 100 mg if that clearly helped without side effects, for as long as it benefits you, with optional P5P 10–20 mg in the morning. Best fit: poor sleep, low mood warmth, nighttime rumination, or TPH2-style serotonin synthesis bottleneck. Do not use with serotonergic medications/supplements, ayahuasca/harmalas, iboga, MDMA, DXM, tramadol, or same-day psychedelics.
 
-Hot & cold showers, alternating, ending on cold). *No hot showers if heart rate elevated or heart-rate-variability reduced*. Micro-dose Tabernanthe elliptica or Male Iboga (if heart is ok: an ECG is how to know).
+Hot showers for the numbness, with [Scenario C](https://ibogaqueen.substack.com/i/181671197/scenario-c-the-void)'s hot and cold routine as the stronger option. *No hot showers if heart rate elevated or heart-rate-variability reduced*. Micro-dose Tabernanthe elliptica or Male Iboga (if heart is ok: an ECG is how to know).
 
-Transition: Consider moving to Strategy B (Keto Diet) for long-term repair (Autophagy) now that the acute storm has passed.
+Transition: Consider moving to Strategy B (Keto Diet) for long-term repair (Autophagy) now that the worst of the storm has passed.
 
 Rescue:
 
@@ -373,7 +375,7 @@ Rescue:
 
 *If Numb:* Micro-dose Tabernanthe elliptica or Female Iboga, and/or Hillybilly/Mazatapec shrooms.
 
-Week 8+: The BaselineState: DeltaFosB degraded, if the animal timelines carry over. Hardware reset complete.
+Week 8+: The BaselineState: DeltaFosB degraded, if the animal timelines carry over.
 
 Maintenance: Cycle off NAC. Maintain metabolic flexibility (Low Carb/Seasonally Keto).
 
