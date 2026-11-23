@@ -71372,6 +71372,301 @@
           "path": "articles/nibbana/humanize/fix-20261024/n9/answers_2340.py",
           "sha256": "31d2ab539a559586b59c10b92745a041996aa0456becae8754707a86f479dfc0",
           "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/nibbana/experiments/toc-20261123/ARTICLE-SECTIONS.md",
+          "sha256": "965234ec4ec6b61270edb7d20a62a9c7a31eadd119e0e5e082356d34143d932a",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/nibbana/experiments/toc-20261123/BRIEF.md",
+          "sha256": "e1b29d1a3943c8afc0534d167b40d0ae32ee5c81f9bc5fc2f44f92be59e17c42",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/nibbana/experiments/toc-20261123/CONTENTS-NOW.json",
+          "sha256": "c2b0fd1af6696c0220a8ee9043ee711d47de15d49b7bc606d681d58b5be8e5ad",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/nibbana/experiments/toc-20261123/EXPECTED-REVIEWED.json",
+          "sha256": "e3a729a779d907dacb65625c39a11e92d7c13b9c6e79b7cb341fb899a6d6bd75",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/nibbana/experiments/toc-20261123/EXPECTED.json",
+          "sha256": "2238d5fa7c77a98b7b33897742891ee0e32a41b61ae39fcb4ce35d6fa6d2d77a",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/nibbana/experiments/toc-20261123/FATES-FABLE.json",
+          "sha256": "3e18cd04f6cfe4166429baa2328ac799a0924e2724ecf0d14714a95470e6ba7c",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/nibbana/experiments/toc-20261123/FATES-PICK.json",
+          "sha256": "3e18cd04f6cfe4166429baa2328ac799a0924e2724ecf0d14714a95470e6ba7c",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/nibbana/experiments/toc-20261123/FATES-PICK2.json",
+          "sha256": "cb122eb24c8ba4646ed41ef965d019e62c4401fcd4b347196d7aa72976894b04",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/nibbana/experiments/toc-20261123/FATES-PICK3.json",
+          "sha256": "cb122eb24c8ba4646ed41ef965d019e62c4401fcd4b347196d7aa72976894b04",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/nibbana/experiments/toc-20261123/LINES-FABLE.json",
+          "sha256": "a40a3ded4293a6708ecbe9933f88950e1ab9ed2fb160bc7e48a89142ecce132b",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/nibbana/experiments/toc-20261123/LINES-FINAL.json",
+          "sha256": "a40a3ded4293a6708ecbe9933f88950e1ab9ed2fb160bc7e48a89142ecce132b",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/nibbana/experiments/toc-20261123/LINES-NOW-FULL.json",
+          "sha256": "a40a3ded4293a6708ecbe9933f88950e1ab9ed2fb160bc7e48a89142ecce132b",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/nibbana/experiments/toc-20261123/LINES-NOW-SIDEBAR.json",
+          "sha256": "a40a3ded4293a6708ecbe9933f88950e1ab9ed2fb160bc7e48a89142ecce132b",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/nibbana/experiments/toc-20261123/LINES-NOW.json",
+          "sha256": "a40a3ded4293a6708ecbe9933f88950e1ab9ed2fb160bc7e48a89142ecce132b",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/nibbana/experiments/toc-20261123/LINES-PICK.json",
+          "sha256": "a40a3ded4293a6708ecbe9933f88950e1ab9ed2fb160bc7e48a89142ecce132b",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/nibbana/experiments/toc-20261123/LINES-PICK2.json",
+          "sha256": "a40a3ded4293a6708ecbe9933f88950e1ab9ed2fb160bc7e48a89142ecce132b",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/nibbana/experiments/toc-20261123/LINES-PICK3.json",
+          "sha256": "a40a3ded4293a6708ecbe9933f88950e1ab9ed2fb160bc7e48a89142ecce132b",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/nibbana/experiments/toc-20261123/LIVE-BODY-20261123.html",
+          "sha256": "cbe5880804b29503bca3e012f5d5df084954ed5980d857c2d4b613b4d8334a5b",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/nibbana/experiments/toc-20261123/LIVE-POST-META.json",
+          "sha256": "28ecf11161719cb2dd70a098179e9934fff0393207eb3ffec21009f42ac3beda",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/nibbana/experiments/toc-20261123/PAGE-OPTIONS.json",
+          "sha256": "f61ef5425b99641e5b1eb1a0ae400604f609a591e333cddb43dad595ecc1fd2e",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/nibbana/experiments/toc-20261123/PICKS-PAGE.html",
+          "sha256": "dd1d92ec4f125b3c64623d93735cc3e5369eb2ff091dc173ef2e5f533529ab22",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/nibbana/experiments/toc-20261123/PROPOSAL-FABLE-NOTES.md",
+          "sha256": "eeaa418964314160e8e454ac64b9fba017c727635357d1f39d6e2eca82cbe0b5",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/nibbana/experiments/toc-20261123/PROPOSAL-FABLE.json",
+          "sha256": "c1a400109aa5450befb52ff0fcd34b4ec41cdf36f9e15a259b74ecacc2ab6d45",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/nibbana/experiments/toc-20261123/PROPOSAL-FINAL.json",
+          "sha256": "1c48cfd7cd03fed176f90b0bebf32bd571c93cc59fa129946a8f673bf47c8e35",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/nibbana/experiments/toc-20261123/PROPOSAL-PICK.json",
+          "sha256": "17d1ac07f64f4d94af1c1fae832051a61058430956446fb0815272c64b41b929",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/nibbana/experiments/toc-20261123/PROPOSAL-PICK2.json",
+          "sha256": "f5d9ab2ad2738f1f534605d4ee5b9ffc668b1ac0e1976db44b052a4be7b361f0",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/nibbana/experiments/toc-20261123/PROPOSAL-PICK3.json",
+          "sha256": "cd3c42005d060ad723fc678cdb3d510e654da0bab2fdaddad0dbdb83604d6d3b",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/nibbana/experiments/toc-20261123/RESULTS.md",
+          "sha256": "2234bf364d71fa607630b8c8199178d07c757211e2a4bcd3677b1266efdec277",
+          "role": "detector_experiment_result"
+        },
+        {
+          "path": "articles/nibbana/experiments/toc-20261123/SCORES.json",
+          "sha256": "cd67f2cd9bb9a26beaf84355ed1846630cb94ee4edef25fd50c39ac5612e8a46",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/nibbana/experiments/toc-20261123/SECTION-LINKS-NOW.json",
+          "sha256": "32377b0d5d9399a55df75922d39f8922954b100d45b720f509294bf5355a1d2b",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/nibbana/experiments/toc-20261123/SECTIONS.json",
+          "sha256": "b0ffc8fbad4bc3ac56daec47b26375e014488ee7e3b4cdee0f23ff30fc751798",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/nibbana/experiments/toc-20261123/SITUATIONS.md",
+          "sha256": "923924a5a59ebba9092a292f45b1d7f5ee2dedf99e71e248875bfac6eac8634a",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/nibbana/experiments/toc-20261123/TEXT-NO-HEADINGS.md",
+          "sha256": "22f9d56190f6b108b025c2e117d169f67a1ca3a6031a4ddfa2b3dc8ecf001be1",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/nibbana/experiments/toc-20261123/TOC-FABLE-SIDEBAR.md",
+          "sha256": "a7e46e32e8e32d54cb6e49d944a8d4f7bb719f758a6f399aa3b443bbdd69bb78",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/nibbana/experiments/toc-20261123/TOC-FINAL-SIDEBAR.md",
+          "sha256": "11e6696c44c9a28d8d14fef42d622c3f663db3241d6b8820a1a7399145ad2db5",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/nibbana/experiments/toc-20261123/TOC-NOW-FULL.md",
+          "sha256": "ff5f5d47cea8df6e88dee3eeac3ca0c10f732d8f9fc4292f7a9804123d315207",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/nibbana/experiments/toc-20261123/TOC-NOW-SIDEBAR.md",
+          "sha256": "56ede8db8d775219ed5a2fe0407687803409e0d2696ed04990207f781983993a",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/nibbana/experiments/toc-20261123/TOC-PICK-SIDEBAR.md",
+          "sha256": "4b3660ad74b6b73c2b0952159623b18de61f7a0661c993fe85544ea1e8125ceb",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/nibbana/experiments/toc-20261123/TOC-PICK2-SIDEBAR.md",
+          "sha256": "a5f75b9e04259571d26415255752c38c0031d3879daf6c6417c3626092308eee",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/nibbana/experiments/toc-20261123/TOC-PICK3-SIDEBAR.md",
+          "sha256": "49c953e24ddfbc23f4fff1a23b51eaafa0b25f6865a38f78944c2d7adf872427",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/nibbana/experiments/toc-20261123/make_files.py",
+          "sha256": "915affbdf4ae80c9ad9d8b29bda6f427f4a8f3e408561de909bd1cdc2de54952",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/nibbana/experiments/toc-20261123/make_page.py",
+          "sha256": "338db2c3ef120aa79713d47cb498a5d7969a753432149a8c4ccfe3f94f8217ef",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/nibbana/experiments/toc-20261123/make_results.py",
+          "sha256": "0f0763a5e0f7e9d0e3c5fe2edba3ba5e88a0633e71ef3d32267f5729bb769160",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/nibbana/experiments/toc-20261123/make_toc.py",
+          "sha256": "31281e27abab8bf6413b312ae769cf4c4bebf7b57ab13ab9070cc2f13f68aba0",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/nibbana/experiments/toc-20261123/reads/READ-FABLE-1.md",
+          "sha256": "d130324c509d2b60fecc978fc5cd007937614104cb3bb821431b89409b085da3",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/nibbana/experiments/toc-20261123/reads/READ-NOW-FULL-1.md",
+          "sha256": "e0b1ddc976245b750e245819c2608f11845e845020ac40cc48bbb4b554c1e081",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/nibbana/experiments/toc-20261123/reads/READ-NOW-SIDEBAR-1.md",
+          "sha256": "bdff982e8879ca5fedf73b881de7cd62c789740782156c31bd28c812e095664d",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/nibbana/experiments/toc-20261123/reads/READ-NOW-SIDEBAR-2.md",
+          "sha256": "e33ceda7da32567dd0143e9b303d604f77208e60fc957d8322291e0871119483",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/nibbana/experiments/toc-20261123/reads/READ-PICK-1.md",
+          "sha256": "a0de0d1392bbd532abb34a3193b55f0d2f70c5dba7599c5ec37fb2024229278b",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/nibbana/experiments/toc-20261123/reads/READ-PICK-2.md",
+          "sha256": "8574d4a1a90e7a51b72ca2479e06e20865816052eab8d65eb91e0db43ab7161d",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/nibbana/experiments/toc-20261123/reads/READ-PICK2-1.md",
+          "sha256": "bef29e015a35759f48c1f24bc7d750b4fed7302db8661b7a792d2564b148a16d",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/nibbana/experiments/toc-20261123/reads/READ-PICK2-2.md",
+          "sha256": "1975aff38751b4be0161f3d92fdd2cbc83df060748e66de0b301fd150ae54474",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/nibbana/experiments/toc-20261123/reads/READ-PICK3-1.md",
+          "sha256": "07c3be1aefd1e48a0c9ea0ce2d48b85e95c9484ddee125fede5d3654aa8e3168",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/nibbana/experiments/toc-20261123/reads/READ-PICK3-2.md",
+          "sha256": "3940e982dc237fff516123751430659f1f17f5529a377e645b966b3738f868cc",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/nibbana/experiments/toc-20261123/reads/superseded/READ-NOW-FULL-1.md",
+          "sha256": "32e8f5c83352f9201bf626eb1d905ff93c8b28797dc16d1b320ad6e7ae538881",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/nibbana/experiments/toc-20261123/reads/superseded/READ-NOW-SIDEBAR-1.md",
+          "sha256": "19c8886559a814431237ee53d3eef18f48a2df3c28609d78f1909b2a98cf6f4a",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/nibbana/experiments/toc-20261123/reads/superseded/READ-NOW-SIDEBAR-2.md",
+          "sha256": "270a10ff8471f7565445f97aca2dc824a57d2458d2fe58787c6041fc1fe3f140",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/nibbana/experiments/toc-20261123/reads/superseded/README.md",
+          "sha256": "24281ae828da520842ec001ee794e0eee120a19be740ab80241625d8741eb242",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/nibbana/experiments/toc-20261123/score_reads.py",
+          "sha256": "e363fc77d6a128b3b1626559c5086da5624b9ebcc0c4c24df884050838e1d136",
+          "role": "humanization_working_record"
         }
       ]
     },

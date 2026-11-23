@@ -1,0 +1,1 @@
+These three reads saw two headings misparsed ("Awareness es" for "Awarenesses", and a space before a comma in the asaṅkhata heading). They are kept for the record and replaced by the reads in the folder above.

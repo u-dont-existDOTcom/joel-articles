@@ -1,0 +1,535 @@
+[
+ {
+  "id": "S001",
+  "level": 1,
+  "heading": "Introduction & Navigation",
+  "was": "Introduction & Navigation",
+  "kind": "kept",
+  "fable": "Introduction & Navigation"
+ },
+ {
+  "id": "S002",
+  "level": 1,
+  "heading": "Why Did I Write This?",
+  "was": "Why Did I Write This?",
+  "kind": "kept",
+  "fable": "Why Did I Write This?"
+ },
+ {
+  "id": "S003",
+  "level": 1,
+  "heading": "My Crazy Wonderful Life",
+  "was": "My Crazy Wonderful Life",
+  "kind": "kept",
+  "fable": "My Crazy Wonderful Life"
+ },
+ {
+  "id": "S004",
+  "level": 2,
+  "heading": "The Weight of the World",
+  "was": "Realizing the world we live in",
+  "kind": "reader",
+  "why": "His own phrase from the section's first line; the title-cased original is cut, and this names what the section is about (his grief for the world, activism, teaching).",
+  "fable": "The Weight of the World"
+ },
+ {
+  "id": "S005",
+  "level": 2,
+  "heading": "My First Psychedelics",
+  "was": "Time for A Radical Change of Mind",
+  "kind": "opus",
+  "why": "Fable's 'Ayahuasca Blew My Mind' names one of the three; the section has weed, mushrooms and ayahuasca, and a reader with a mushroom question looks for psychedelics.",
+  "fable": "Ayahuasca Blew My Mind"
+ },
+ {
+  "id": "S006",
+  "level": 2,
+  "heading": "The Afterglow Wore Off",
+  "was": "When the Afterglow Wore Off",
+  "kind": "fit",
+  "why": "Was cut; dropping 'When' fits and says the same.",
+  "fable": "The Afterglow Wore Off"
+ },
+ {
+  "id": "S007",
+  "level": 2,
+  "heading": "Enlightened or Deluded?",
+  "was": "Was I enlightened or deluded?",
+  "kind": "fit",
+  "why": "Was cut; the question itself fits.",
+  "fable": "Enlightened or Deluded?"
+ },
+ {
+  "id": "S008",
+  "level": 3,
+  "heading": "Loving-Kindness (Mettā)",
+  "was": "🫶🏿 May All Beings Be Loving, Peaceful & Free 🫶🏿",
+  "kind": "reader",
+  "why": "Was cut after 'May All Beings Be Lov…', so the sidebar never said this is where he starts loving-kindness meditation. Names the practice in the reader's word plus his Pāli.",
+  "fable": "Loving-Kindness (Mettā)"
+ },
+ {
+  "id": "S009",
+  "level": 2,
+  "heading": "Useless Peak States?",
+  "was": "A Peak State Can Be Useless Or Worse",
+  "kind": "opus",
+  "why": "Keeps his claim ('A Peak State Can Be Useless Or Worse'); Fable's 'Peak States Don't Stick' says something his heading didn't.",
+  "fable": "Peak States Don't Stick"
+ },
+ {
+  "id": "S010",
+  "level": 2,
+  "heading": "Why Monks Stay Vague",
+  "was": "What Else Could the Buddha Give Me?",
+  "kind": "reader",
+  "why": "Was cut. The section answers why the books give lists and monastics won't describe their own experience (the Vinaya rules); that is the question a reader brings.",
+  "fable": "Why Monks Stay Vague"
+ },
+ {
+  "id": "S011",
+  "level": 2,
+  "heading": "The Map Past Oneness",
+  "was": "Then I Found The Map Past Oneness",
+  "kind": "fit",
+  "why": "Was cut; his phrase without 'Then I Found'.",
+  "fable": "The Map Past Oneness"
+ },
+ {
+  "id": "S012",
+  "level": 2,
+  "heading": "The Suttas on Unification",
+  "was": "What the Suttas Say About Unification",
+  "kind": "fit",
+  "why": "Was cut; same promise, shorter.",
+  "fable": "The Suttas on Unification"
+ },
+ {
+  "id": "S013",
+  "level": 2,
+  "heading": "The Bāhiya Sutta",
+  "was": "AtR pointed me to the Bāhiya Sutta",
+  "kind": "fit",
+  "why": "Was cut before the sutta's name showed; the name is what a reader looks for.",
+  "fable": "The Bāhiya Sutta"
+ },
+ {
+  "id": "S014",
+  "level": 3,
+  "heading": "Dōgen's Myriad Things",
+  "was": "The Myriad Things Experience Themselves",
+  "kind": "reader",
+  "why": "Was cut. Adds the name a reader would look for (Dōgen) and keeps his 'myriad things'.",
+  "fable": "Dōgen's Myriad Things"
+ },
+ {
+  "id": "S015",
+  "level": 2,
+  "heading": "Desperate Like Bāhiya",
+  "was": "Desperation Did The Trick For Me & Bāhiya",
+  "kind": "opus",
+  "why": "Keeps Bāhiya in the heading, so the first line ('both of us were really desperate') still has someone to mean; Fable's 'Desperation Did the Trick' would need that line changed.",
+  "fable": "Desperation Did the Trick"
+ },
+ {
+  "id": "S016",
+  "level": 2,
+  "heading": "The Room Event",
+  "was": "The Room Event",
+  "kind": "kept",
+  "fable": "The Room Event"
+ },
+ {
+  "id": "S017",
+  "level": 3,
+  "heading": "Nibbāna Is Unimaginable",
+  "was": "Nibbāna is describable but unimaginable",
+  "kind": "fit",
+  "why": "Was cut. 'Describable, Unimaginable' is tight; the unimaginable half is the section's point (the fish and air).",
+  "fable": "Nibbāna Is Unimaginable"
+ },
+ {
+  "id": "S018",
+  "level": 3,
+  "heading": "Enlightened Fingers",
+  "was": "Your fingers are already enlightened, but your hand is deluded.",
+  "kind": "fit",
+  "why": "Was cut. Keeps his joke in two words; the full sentence can't fit an h3.",
+  "fable": "Enlightened Fingers"
+ },
+ {
+  "id": "S019",
+  "level": 3,
+  "heading": "Two Scopes of Nibbāna",
+  "was": "Body-Limited and Body-Uncontained Nibbāna",
+  "kind": "reader",
+  "why": "Was cut, and both coinages together can't fit. The section says the two events differ only in scope; the coinages are defined in its first lines.",
+  "fable": "Two Scopes of Nibbāna"
+ },
+ {
+  "id": "S020",
+  "level": 2,
+  "heading": "Stream Entered",
+  "was": "Stream entered",
+  "kind": "case",
+  "why": "Capital only.",
+  "fable": "Stream Entered"
+ },
+ {
+  "id": "S021",
+  "level": 1,
+  "heading": "The Enlightenment Manual",
+  "was": "The Enlightenment Manual",
+  "kind": "kept",
+  "fable": "The Enlightenment Manual"
+ },
+ {
+  "id": "S022",
+  "level": 2,
+  "heading": "Spiritual Bypass Warning",
+  "was": "Spiritual Bypass Warning",
+  "kind": "kept",
+  "fable": "Spiritual Bypass Warning"
+ },
+ {
+  "id": "S023",
+  "level": 3,
+  "heading": "Realization Isn't Enough",
+  "was": "Spiritual realization isn’t enough these days",
+  "kind": "fit",
+  "why": "Was cut, and repeated the parent's 'Spiritual' on the next line.",
+  "fable": "Realization Isn't Enough"
+ },
+ {
+  "id": "S024",
+  "level": 3,
+  "heading": "Friends Are Everything",
+  "was": "Spiritual friends are everything",
+  "kind": "fit",
+  "why": "Was cut, and repeated 'Spiritual' three lines running.",
+  "fable": "Friends Are Everything"
+ },
+ {
+  "id": "S025",
+  "level": 2,
+  "heading": "What's Next After Death?",
+  "was": "What’s Next?",
+  "kind": "reader",
+  "why": "Alone in a manual's contents 'What's Next?' reads as 'next steps'; the section asks what comes after death (rebirth).",
+  "fable": "What's Next After Death?"
+ },
+ {
+  "id": "S026",
+  "level": 2,
+  "heading": "What Is \"Already Perfect\"?",
+  "was": "What “Already Perfect” Means",
+  "kind": "fit",
+  "why": "Was cut by a few letters; same question, fits.",
+  "fable": "What Is \"Already Perfect\"?"
+ },
+ {
+  "id": "S027",
+  "level": 2,
+  "heading": "Free Will vs Conditions",
+  "was": "Free Will Vs Conditions",
+  "kind": "case",
+  "why": "Lower-case 'vs' (heading_case.py).",
+  "fable": "Free Will vs Conditions"
+ },
+ {
+  "id": "S028",
+  "level": 2,
+  "heading": "What \"Nibbāna\" Means",
+  "was": "What “Nibbāna” Is Actually Saying",
+  "kind": "fit",
+  "why": "Was cut; the section is about the word's meaning (unbinding).",
+  "fable": "What \"Nibbāna\" Means"
+ },
+ {
+  "id": "S029",
+  "level": 2,
+  "heading": "Nibbāna's Volume Knobs",
+  "was": "Nibbāna Has Volume & Tuning Knobs",
+  "kind": "fit",
+  "why": "Was cut; keeps his knobs.",
+  "fable": "Nibbāna's Volume Knobs"
+ },
+ {
+  "id": "S030",
+  "level": 3,
+  "heading": "My Nibbāna Taxonomy",
+  "was": "My Nibbāna Taxonomy",
+  "kind": "kept",
+  "fable": "My Nibbāna Taxonomy"
+ },
+ {
+  "id": "S031",
+  "level": 2,
+  "heading": "Is Nibbāna an Experience?",
+  "was": "Nibbāna is a meditative state and attainment",
+  "kind": "reader",
+  "why": "Was cut. The objection the section answers ('nibbāna isn't an experience, just an attainment'), as the reader would ask it.",
+  "fable": "Is Nibbāna an Experience?"
+ },
+ {
+  "id": "S032",
+  "level": 2,
+  "heading": "Contact Builds a World",
+  "was": "How Contact Builds a World",
+  "kind": "fit",
+  "why": "Fitted only tightly; without 'How' it fits with room and says the same.",
+  "fable": "Contact Builds a World"
+ },
+ {
+  "id": "S033",
+  "level": 3,
+  "heading": "Awareness Is Plural",
+  "was": "Awarenesses",
+  "kind": "retest",
+  "why": "Back to Fable's heading. Situation 28 (a teacher says everything is one universal awareness: how does the Buddha's view differ?) went elsewhere for 2 of 4 readers who saw 'What Awareness Means', and right (sure) for the reader who saw 'Awareness Is Plural'. The section's point is the plural (his heading 'Awarenesses'; 'this one-versus-many question ultimately separates Buddhism from prior teachings and new-age spirituality').",
+  "fable": "Awareness Is Plural",
+  "pick1": "What Awareness Means"
+ },
+ {
+  "id": "S034",
+  "level": 3,
+  "heading": "Ignorance Is the Root",
+  "was": "Ignorance is the root",
+  "kind": "case",
+  "why": "Capitals only.",
+  "fable": "Ignorance Is the Root"
+ },
+ {
+  "id": "S035",
+  "level": 3,
+  "heading": "Why the Tangle Is Heavy",
+  "was": "Why the Tangle Is Heavy",
+  "kind": "kept",
+  "fable": "Why the Tangle Is Heavy"
+ },
+ {
+  "id": "S036",
+  "level": 3,
+  "heading": "Binding Makes the Mind",
+  "was": "Binding Assembles the Mind",
+  "kind": "fit",
+  "why": "Was cut by one word; 'Makes' for 'Assembles' fits, and doesn't echo 'Builds' in the parent on the line above.",
+  "fable": "Binding Makes the Mind"
+ },
+ {
+  "id": "S037",
+  "level": 3,
+  "heading": "Capacity for Suffering",
+  "was": "The Capacity for Suffering",
+  "kind": "fit",
+  "why": "Fitted only tightly; without 'The' it fits with room.",
+  "fable": "Capacity for Suffering"
+ },
+ {
+  "id": "S038",
+  "level": 2,
+  "heading": "Nibbāna as Light Flows",
+  "was": "The Theory of Light Flows As Nibbāna",
+  "kind": "fit",
+  "why": "Was cut; same claim without 'The Theory of'.",
+  "fable": "Nibbāna as Light Flows"
+ },
+ {
+  "id": "S039",
+  "level": 3,
+  "heading": "Sutta Light Language",
+  "was": "Light Language Like Chantress Seba Never Seen Before!",
+  "kind": "reader",
+  "why": "Was cut, and the Chantress Seba joke doesn't tell a sidebar reader this is the light imagery in the suttas. Keeps his 'light language' pun.",
+  "fable": "Sutta Light Language"
+ },
+ {
+  "id": "S040",
+  "level": 3,
+  "heading": "Go Into the Light",
+  "was": "Go Into The Light",
+  "kind": "case",
+  "why": "Lower-case 'the'.",
+  "fable": "Go Into the Light"
+ },
+ {
+  "id": "S041",
+  "level": 3,
+  "heading": "Isn't It \"Unconditioned\"?",
+  "was": "But isn’t nibbāna asaṅkhata, or “unconditioned”?",
+  "kind": "fit",
+  "why": "Was cut before the key word; the objection in the reader's words, with the word in quote marks.",
+  "fable": "Isn't It \"Unconditioned\"?"
+ },
+ {
+  "id": "S042",
+  "level": 3,
+  "heading": "Why Light Isn't Fabricated",
+  "was": "If nibbāna is “unfabricated,” is light also?",
+  "kind": "retest",
+  "why": "Fresh readers of the first pick: 2 of 2 readers called 'Isn't It \"Unconditioned\"?' and 'Is Light Unfabricated?' the same question ('unconditioned' and 'unfabricated' translate the same Pali word). Naming what this section argues (a photon has no parts to assemble or decay) leaves the line before as the objection and this one as the answer.",
+  "fable": "Is Light Unfabricated?",
+  "pick1": "Is Light Unfabricated?"
+ },
+ {
+  "id": "S043",
+  "level": 3,
+  "heading": "Light Has No Time",
+  "was": "Light is unestablished, with no time, no reference point, like nibbāna",
+  "kind": "fit",
+  "why": "Was cut (70 characters). Names the Einstein parallel the section opens with; 'or Place' makes it tight.",
+  "fable": "Light Has No Time"
+ },
+ {
+  "id": "S044",
+  "level": 2,
+  "heading": "What the Books Never Say",
+  "was": "What the Books Never Made Clear",
+  "kind": "fit",
+  "why": "Was cut; 'Never Made Clear' is tight even without 'Clear'.",
+  "fable": "What the Books Never Say"
+ },
+ {
+  "id": "S045",
+  "level": 2,
+  "heading": "How the Teaching Faded",
+  "was": "How the Experiential Key Can Fade",
+  "kind": "opus",
+  "why": "Says what faded; 'How the Meaning Faded' doesn't say whose meaning.",
+  "fable": "How the Meaning Faded"
+ },
+ {
+  "id": "S046",
+  "level": 2,
+  "heading": "The Risk of Skipping Ahead",
+  "was": "A Map Can Save Years – and Create Counterfeits",
+  "kind": "retest",
+  "why": "Fresh readers of the first pick: situation 21 (does publishing this let people skip the groundwork?) failed with every version (6 of 6 readers), and 'Maps' in this heading pulled situation 36 (which maps are worth using?) away from S011 (4 of 6 readers). His own question in the section: 'What happens when we lay out the stages in a way that allows anyone to skip ahead to the answer?'",
+  "fable": "Maps Make Counterfeits",
+  "pick1": "Maps: Shortcut or Fake?"
+ },
+ {
+  "id": "S047",
+  "level": 2,
+  "heading": "AtR's Authentication Culture",
+  "was": "AtR’s Authentication Culture",
+  "kind": "case",
+  "fable": "AtR’s Authentication Culture",
+  "why": "Straight apostrophe (your heading style); words as you have them."
+ },
+ {
+  "id": "S048",
+  "level": 2,
+  "heading": "What Is Stream Entry?",
+  "was": "Entering The Stream To End Rebirth",
+  "kind": "reader",
+  "why": "Was cut. The section defines stream entry; that is the reader's question. Its children carry the rebirth part.",
+  "fable": "What Is Stream Entry?"
+ },
+ {
+  "id": "S049",
+  "level": 3,
+  "heading": "Practice Outlasts Death",
+  "was": "Practice can carry into a future life",
+  "kind": "fit",
+  "why": "Was cut; same point in three words.",
+  "fable": "Practice Outlasts Death"
+ },
+ {
+  "id": "S050",
+  "level": 3,
+  "heading": "Am I a Stream-Enterer?",
+  "was": "Stream-entry requires more than a 2-factor authentication key",
+  "kind": "reader",
+  "why": "Was cut. The section is his checklist for testing a claim to stream entry; the reader's question for it.",
+  "fable": "Am I a Stream-Enterer?"
+ },
+ {
+  "id": "S051",
+  "level": 3,
+  "heading": "Who Gets Reborn?",
+  "was": "Ending the dream of saṃsāra",
+  "kind": "reader",
+  "why": "Was cut. The question the section answers (rebirth with no self); 'dream of saṃsāra' named the next section's image.",
+  "fable": "Who Gets Reborn?"
+ },
+ {
+  "id": "S052",
+  "level": 3,
+  "heading": "Waking From the Dream",
+  "was": "Why nibbāna is “awakening”",
+  "kind": "reader",
+  "why": "Was cut. The section is the dream analogy for awakening; keeps 'awakening' as an image and fits.",
+  "fable": "Waking From the Dream"
+ },
+ {
+  "id": "S053",
+  "level": 2,
+  "heading": "Science Can't Settle This",
+  "was": "Science Can’t Settle This, but You Can Test It",
+  "kind": "retest",
+  "why": "Back to Fable's heading. Fresh readers of the first pick: situation 31 (does science support this?) went wrong with 'How to Test It Yourself' (1 wrong, 1 near), but right for all 4 readers who saw 'Science' in the heading. The section's own words are all about science; the test sits in its three children, which readers found anyway (situation 6 right for all 6 readers).",
+  "fable": "Science Can't Settle This",
+  "pick1": "How to Test It Yourself"
+ },
+ {
+  "id": "S054",
+  "level": 3,
+  "heading": "Try a Tiny Bit of Nibbāna",
+  "was": "Try a Tiny Bit of Nibbāna",
+  "kind": "kept",
+  "fable": "Try a Tiny Bit of Nibbāna"
+ },
+ {
+  "id": "S055",
+  "level": 3,
+  "heading": "Did It Work or Go Wrong?",
+  "was": "What Counts as Success, Confusion, or Danger",
+  "kind": "opus",
+  "why": "His rule: 'safe' only where it can't be misread; this names success and danger without it.",
+  "fable": "Did It Work? Is It Safe?"
+ },
+ {
+  "id": "S056",
+  "level": 3,
+  "heading": "What Remains Afterward",
+  "was": "What Remains Afterward",
+  "kind": "kept",
+  "fable": "What Remains Afterward"
+ },
+ {
+  "id": "S057",
+  "level": 2,
+  "heading": "A Cow Killed Bāhiya",
+  "was": "Bāhiya Got Enlightened and Then a Cow Killed Him",
+  "kind": "opus",
+  "why": "Keeps his joke whole; Fable's 'Then a Cow Killed Bāhiya' starts with a 'Then' that hangs.",
+  "fable": "Then a Cow Killed Bāhiya"
+ },
+ {
+  "id": "S058",
+  "level": 2,
+  "heading": "Come and See for Yourself!",
+  "was": "Come and See for Yourself!",
+  "kind": "kept",
+  "fable": "Come and See for Yourself!"
+ },
+ {
+  "id": "S059",
+  "level": 1,
+  "heading": "Appendix",
+  "was": "Appendix",
+  "kind": "kept",
+  "fable": "Appendix"
+ },
+ {
+  "id": "S060",
+  "level": 2,
+  "heading": "Vanishing \"I\": Dangerous?",
+  "was": "Are disappearing flashbacks dangerous or cool?",
+  "kind": "retest",
+  "why": "Fresh readers of the first pick: situation 8 (self drops out while cycling: dangerous?) went to S055 for both readers once 'safe'/'dangerous' left this heading; all 4 readers who saw 'dangerous' (current) or 'safe' (Fable) found it. 'Dangerous' is his own word from his heading ('Are disappearing flashbacks dangerous or cool?'), and 'the felt \"I\" vanishes' is his line; no 'safe' (his rule).",
+  "fable": "Is It Safe When \"I\" Vanish?",
+  "pick1": "When the \"I\" Vanishes"
+ }
+]

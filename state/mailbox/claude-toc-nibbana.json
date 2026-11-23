@@ -1,0 +1,41 @@
+{
+ "about": "Each turn's mailbox check (tools/humanization/lane_mailbox.py; AGENTS.md, \"Suggested fixes from other projects\"). Newest last.",
+ "places": {
+  "uda-lane": "this repository's lane in universal-dev-architecture (suggested-fixes/joel-articles/), against docs/suggested-fixes-ledger.md",
+  "repo": "new issues and pull requests here, and new comments and reviews on any of them, replies on our own included",
+  "notes": "edits others made to the lane's handoff notes and owner questions pages since its last turn",
+  "runtime": "the messages the session's runtime queued for it"
+ },
+ "checks": [
+  {
+   "turn": "2026-11-23T14:37Z",
+   "lines_of_work": [
+    "contents of the very long posts (Nirvana first)"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "6 items in suggested-fixes/joel-articles/, all already in docs/suggested-fixes-ledger.md; nothing new"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "since 2026-11-22 17:40 UTC: pull requests 478 (neuro) and 479 (bad trips) merged, neither addressed to this lane; no comments on this lane's 476 and 477; no new issues"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "the laptop note toc-long-articles.md is as this lane left it; no questions page yet"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "no queued notifications"
+    }
+   ],
+   "items": [],
+   "recorded_utc": "2026-11-23T14:39Z"
+  }
+ ]
+}
