@@ -45,9 +45,13 @@ the sidebar shows each), `<slug>.CONTENTS.json` (for `toc_check.py`) and `<slug>
    bad-trips-2026-11-09f), built with `tools/humanization/contents_picks_page.py` (his own-words box shows the sidebar's
    cut-off; lesson toc-2026-11-23a), with the link plan for every section the text mentions (lesson toc-2026-11-23b).
 7. Apply: `section_links.py build` a `SECTION-LINKS.json`, rename through `section_links.py rename`, fix the sentences on
-   either side of each renamed heading (gate inner-child-2026-11-20d), and the body text around each renamed heading reads
-   as high in Pangram as before, in its section and in one whole-post check; the heading's own window may read Low
-   (lesson toc-2026-11-23c).
+   either side of each renamed heading (gate inner-child-2026-11-20d), and the body text the change touched (a sentence
+   fixed beside a heading, a line set on its own, a moved section) reads as high in Pangram as before: in its section,
+   without the heading, and a moved section in one whole-post check too, the free way (his extension on the live post
+   as it was and on a temporary draft's secret preview link), never the web app, which is for a section of 5 or 6
+   paragraphs (lesson toc-2026-11-23d: the Nirvāna run's six whole checks there cost about 930 credits). A rename alone
+   changes no window in his extension, which leaves headings out, and a heading's own window may read Low (lessons
+   toc-2026-11-23c and e).
 
 ## Order and next step
 
@@ -56,12 +60,14 @@ Joel picked the Nirvāna guide first (2026-11-23 14:37 UTC: "ok start with the n
 1. **Nirvāna: done on 2026-11-23** (his picks at 18:01 UTC, the flashbacks section back at the end at 19:39, his two
    second-pick headings at 19:46): [APPLIED.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/nibbana/experiments/toc-20261123/APPLIED.md);
    the test and every heading's reason: [RESULTS.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/nibbana/experiments/toc-20261123/RESULTS.md).
-   Left with him: three body windows of his read lower than that morning (one AI Low, under Who Gets Reborn?; two
-   mid-section Medium to Low), offered with a heading to test for the first.
+   Left with him: one free run of his extension on the live post, to see how the body reads in his route (the three
+   body windows that read lower in my web-app checks did so only because those texts kept the headings, which the
+   extension leaves out: lesson toc-2026-11-23e).
 2. Then the Self-Hypnosis guide (the most headings and the most cut off, 90 of 164, and 43 h1s, two of them notes rather
    than sections: "How to use this very large guide", "The table of contents is hiding on the left"), Escuelitas, Romance.
    Build its picks page with `tools/humanization/contents_picks_page.py`, run the section-link check with the contents
    test (lesson toc-2026-11-23b), and check the picks in Pangram section by section before they go in.
 
-Next step: his answer on the Who Gets Reborn? window, if he wants it tested; then steps 1 and 2 for the Self-Hypnosis guide, from
+Next step: his extension's result page for the live Nirvāna post, when he sends it (record it with
+`tools/humanization/pangram_feed_read.js`); then steps 1 and 2 for the Self-Hypnosis guide, from
 `articles/inner-signal/`.

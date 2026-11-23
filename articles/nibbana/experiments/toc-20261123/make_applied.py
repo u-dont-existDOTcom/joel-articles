@@ -66,14 +66,22 @@ md = ['# His contents picks, in the post (2026-11-23)', '',
       'Low, the body text must read High (lesson toc-2026-11-23c). Both bodies read High, and the whole post with them '
       '([NB-toc-final#46](%s)) has nothing below High in either section.' % (sec('S055'), results['NB-toc-S055#44']['link'],
       sec('S060'), results['NB-toc-S060#45']['link'], results['NB-toc-final#46']['link']), '',
-      '## Body text that reads lower than in the morning', '',
-      'The whole post as it is now ([NB-toc-final#46](%s): 47 Human High, 41 Medium, 7 Low, 1 AI Low) against the post '
-      'that morning ([NB-toc-before#34](%s): 49 High, 43 Medium, 7 Low, 3 AI Low). The three AI windows of the morning '
-      'read Human Medium now; three body windows of his read lower:' % (results['NB-toc-final#46']['link'], results['NB-toc-before#34']['link']), '',
-      '- "Stream entry’s greatest prize is a “release date”..." (21 words), the first sentence under %s: High in the morning, AI Low now. The new heading splits it into a window of its own.' % sec('S051'),
+      '## Three body windows that read lower in my checks only', '',
+      'In the whole post as it is now ([NB-toc-final#46](%s): 47 Human High, 41 Medium, 7 Low, 1 AI Low) against the post '
+      'that morning ([NB-toc-before#34](%s): 49 High, 43 Medium, 7 Low, 3 AI Low), the morning\'s three AI windows read Human '
+      'Medium now, and three body windows of his read lower:' % (results['NB-toc-final#46']['link'], results['NB-toc-before#34']['link']), '',
+      '- "Stream entry’s greatest prize is a “release date”..." (21 words), the first sentence under %s: High in the morning, AI Low now, as a window of its own.' % sec('S051'),
       '- "A false attainment claim brings Pārājika 4..." (12 words), mid-section in %s: Medium, now Low.' % sec('S010'),
       '- "I believe the Dhammapada is right to call unbinding the foremost ease..." (30 words), mid-section in %s: Medium, now Low.' % sec('S017'),
-      '', 'The last two are mid-section, away from any changed heading: the whole post is split into windows differently.']
+      '', 'None of their words changed. They read lower because these check texts kept the headings, and a renamed heading '
+      'moves where the windows split. Pangram\'s extension, the way his posts are checked (free, on the post itself), leaves '
+      'headings out: its October readings of this post go from one section\'s last sentence straight to the next one\'s '
+      'first, and none of the 60 headings of that morning is a line in them ([RESULT-20261020.json]'
+      '(https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/nibbana/humanize/RESULT-20261020.json), '
+      '[recheck5](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/nibbana/humanize/fix-20261023/recheck5/RESULT.json)). '
+      'So there the renames change no window (lesson toc-2026-11-23e); one run of his extension on the live post shows it, '
+      'free. These six whole-post checks also went through the web app, about 930 of his credits, where his rule sends a '
+      'whole post the free way (lesson toc-2026-11-23d).']
 md += ['', '## Headings', '', '| Section | His heading before | Now | Whose |', '|---|---|---|---|'] + rows
 md += ['', '## Structure and lines (his answers)', '',
        '- "Realization Isn\'t Enough" (###) is gone: its text sits under %s, with %s still under it as ###.' % (sec('S022'), sec('S024')),
