@@ -18,6 +18,21 @@ From an account with Desktop Commander connected to the laptop: "Continue my neu
 
 ## START HERE
 
+- **2026-11-23, after his message of 20:40 UTC: his version of the Weeks 3–7 line and his answers 34 to 56 are in;
+  questions 57 to 61 wait on him.** HUMANIZED-SO-FAR.md is 47086992 (`fix-20261108/x1123b/apply_x1123b.py`,
+  `APPLIED-X1123B.json`); his message word for word: `fix-20261108/joel-20261123-2040-message.txt`; the card's export:
+  `x1123a/ANSWERS-X1123A-20261123-2011.json` (his check of his line: Human Written, one window, High,
+  https://www.pangram.com/history/dd9b04f2-605a-4d05-a1fc-256ad186a83e). Fidelity PASS (owner_changes entry for x1123b),
+  comparison read PASS (`x1123b/read-1123b/`, finding R1: Scenario C's Mechanism line, question 59). Both fates files pass
+  `contradictions.py check --done`. The D-Serine tactic is now its own section, `### D-Serine Sessions` (fits the contents
+  sidebar; "D-Serine for a Planned Session" was cut off), after Scenario C. The new words' section mentions link to the
+  live post's anchors; when the article goes into his post, build its section-link catalog (`section_links.py build`),
+  and the new heading's anchor is d-serine-sessions. Every turn, first: the cards page's stored answers and his message
+  (questions page https://claude.ai/artifact/8cWv5mbXY8y53RL1nhvzky, version 34, 1795467233-1c4d). **When his answers
+  to 57 to 61 come**: in by script the same way; 61a changes his checked line, so check it again by itself. **Next, mine**:
+  agmatine's lasting-anhedonia sentence in the stop-signs paragraph his 35a changed (block 16, model text: fix it for sense
+  and flow, then check by itself), and lion's mane and ashwagandha (the tell panel, then fixes, then try 3); then the
+  contradictions check once more over the changed article before publishing (lesson neuro-2026-11-20a: after a big change).
 - **2026-11-23, after his message of 17:25 UTC: questions 34 to 56 and card W35 wait on him; two of his warnings are in
   progress.** HUMANIZED-SO-FAR.md is a3dfdecd, with his 5-HTP warning in (`fix-20261108/x1123a/APPLIED-X1123A.json`; it
   read Human High by itself, https://www.pangram.com/history/e48362d5-bcae-42d3-ab11-2965f7404666). **Every turn, first**:

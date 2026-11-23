@@ -1,0 +1,55 @@
+{
+ "format": "compare-read-record-v1",
+ "article": "HUMANIZED-SO-FAR.md after his card W35 and his answers of 2026-11-23 20:40 UTC (34 to 56): each changed paragraph read beside its words before (READER.md)",
+ "coverage": [
+  "0142acd6a6775d80",
+  "19f8686dbac21d6f",
+  "1f637c36b2858c74",
+  "24e210ea4df55705",
+  "25c7b4d03d63b28e",
+  "349a69b25045d135",
+  "35115b7181faed70",
+  "4f27663f42e409c3",
+  "50ab6703f49fc0ac",
+  "5e922fa857bcd52e",
+  "5ee41f7d1cec01ef",
+  "5ef68237133fe2af",
+  "645c53126cc978ec",
+  "71c1bb9bb6da5cb2",
+  "72cd842131221b42",
+  "73ca86b1616fce96",
+  "81234edb74fa25b9",
+  "8c11537e87034ebe",
+  "9b20eb3749bc6be3",
+  "a0819c8b2192de4e",
+  "a6c18fc7b9c166da",
+  "a94cd7f1ee130733",
+  "c4377169c97259fe",
+  "c4379998408ada74",
+  "d2dbed19e2c3f6dc",
+  "e8560f54a6998be0",
+  "e9910da286a6c73f",
+  "f4b59e50b143f3c6",
+  "f51e8ae13bc00277",
+  "fbc369976d8f1541",
+  "fd3acdeb0c544946"
+ ],
+ "findings": [
+  {
+   "id": "R1",
+   "severity": 2,
+   "kind": "lost",
+   "block_hashes": [
+    "71c1bb9bb6da5cb2"
+   ],
+   "now": "Mechanism: You feel \"dead.\" You need to force a spark. We will utilize the science of hot and cold showers as a vascular pump, and plant medicine as needed:",
+   "same_as_original": false
+  }
+ ],
+ "dispositions": {
+  "R1": [
+   "his",
+   "his answer 43b dropped 'The Dynorphin block is active', so Scenario C's Mechanism line names no mechanism now; question 59 asks him whether it should name one (DeltaFosB, as section C has it)"
+  ]
+ }
+}
