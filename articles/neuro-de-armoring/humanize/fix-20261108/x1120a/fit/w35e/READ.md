@@ -1,0 +1,2 @@
+- S3: ANYWAY - / CAN'T TELL yes, the reader can't tell whether the psychedelic-day warning applies to their microdose, since the line itself says there isn't enough data to say. / FROM - / MISREAD -
+- S4: ANYWAY - / CAN'T TELL yes, "see how each feels" asks a numb, gray reader to judge how a supplement feels, which they may not be able to do. / FROM - / MISREAD yes, "you can try each way" reads as permission to take UMP or 5-HTP on a microdose day, which the earlier rule forbids.

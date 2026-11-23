@@ -9,11 +9,11 @@
   },
   "2.2": {
    "fate": "applying",
-   "ref": "his answer 16a; fix-20261108/x1120a/texts_x1120a.py W35 waits on its receipt and its Pangram check by itself (reads in x1120a/*/w35d)"
+   "ref": "his answer 16a; the line (x1120a/texts_x1120a.py W35R) used its six Pangram tries by itself (the best, try 3, every window High but one Medium: x1120a/checks-1123c) and is card W35 on the cards page (x1123a/REVIEW-X1123A.md) for his version"
   },
   "2.3": {
    "fate": "applying",
-   "ref": "his answer 17; the same line as 2.2 (texts_x1120a.W35)"
+   "ref": "his answer 17; the same line and card as 2.2 (x1123a, card W35)"
   },
   "2.4": {
    "fate": "settled",
