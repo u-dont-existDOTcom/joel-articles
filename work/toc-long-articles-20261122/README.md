@@ -45,29 +45,23 @@ the sidebar shows each), `<slug>.CONTENTS.json` (for `toc_check.py`) and `<slug>
    bad-trips-2026-11-09f), built with `tools/humanization/contents_picks_page.py` (his own-words box shows the sidebar's
    cut-off; lesson toc-2026-11-23a), with the link plan for every section the text mentions (lesson toc-2026-11-23b).
 7. Apply: `section_links.py build` a `SECTION-LINKS.json`, rename through `section_links.py rename`, fix the sentences on
-   either side of each renamed heading (gate inner-child-2026-11-20d), and a heading with new words reads Human High in
-   Pangram before it goes into his post.
+   either side of each renamed heading (gate inner-child-2026-11-20d), and the body text around each renamed heading reads
+   as high in Pangram as before, in its section and in one whole-post check; the heading's own window may read Low
+   (lesson toc-2026-11-23c).
 
 ## Order and next step
 
 Joel picked the Nirvāna guide first (2026-11-23 14:37 UTC: "ok start with the nirvana guide ToC").
 
-1. **Nirvāna: in his post since 2026-11-23 18:01:47 UTC.** His picks and six answers (17:24 UTC), checked in Pangram
-   section by section, and 13 links to sections: [APPLIED.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/nibbana/experiments/toc-20261123/APPLIED.md);
+1. **Nirvāna: done on 2026-11-23** (his picks at 18:01 UTC, the flashbacks section back at the end at 19:39, his two
+   second-pick headings at 19:46): [APPLIED.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/nibbana/experiments/toc-20261123/APPLIED.md);
    the test and every heading's reason: [RESULTS.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/nibbana/experiments/toc-20261123/RESULTS.md).
-   **Waiting on him, first:** the whole check of the post as published (NB-toc-live#41) read the flashbacks section's
-   first two sentences as AI (one High) after its move into the manual; back at the end without "Appendix" they read
-   Human High and the post has one AI window (NB-toc-live-END#43). That version is saved as a draft in the editor, not
-   published (the app blocked the click on "Update now"); his OK publishes it.
-   **Then:** two of his picks read Human Low in their sections ("Did It Work or Go Wrong?" and "Is It Safe When
-   "I" Vanish?"), so those two sections keep their old headings, cut off in the sidebar, until he picks again. Offered:
-   Fable's "Did It Work? Is It Safe?" or his own words for the first; 'Vanishing "I": Dangerous?' (readers found it 4 of
-   4), "Disappearing Flashbacks?" (his words) or his own words for the second. Each goes through Pangram in its section
-   first, then `section_links.py rename` against `articles/nibbana/SECTION-LINKS.json` and the editor.
+   Left with him: three body windows of his read lower than that morning (one AI Low, under Who Gets Reborn?; two
+   mid-section Medium to Low), offered with a heading to test for the first.
 2. Then the Self-Hypnosis guide (the most headings and the most cut off, 90 of 164, and 43 h1s, two of them notes rather
    than sections: "How to use this very large guide", "The table of contents is hiding on the left"), Escuelitas, Romance.
    Build its picks page with `tools/humanization/contents_picks_page.py`, run the section-link check with the contents
    test (lesson toc-2026-11-23b), and check the picks in Pangram section by section before they go in.
 
-Next step: his OK on the saved draft (or keeping his move), and his answer on the two Nirvāna headings; then steps 1 and 2 for the Self-Hypnosis guide, from
+Next step: his answer on the Who Gets Reborn? window, if he wants it tested; then steps 1 and 2 for the Self-Hypnosis guide, from
 `articles/inner-signal/`.

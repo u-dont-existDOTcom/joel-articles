@@ -41,12 +41,12 @@ whose = {'own': 'his own words', 'fable': "Fable's", 'now': 'his, kept'}
 picks = ans['picks']
 rows = []
 for e in plan['sections']:
-    if not e['heading'] or (e['heading'] == e['was'] and e['level'] == e['was_level']):
-        continue
-    if 'held' in e:
+    if not e['heading'] or (e['heading'] == e['was'] and e['level'] == e['was_level'] and 'held' not in e):
         continue
     who = whose.get(picks.get(e['id']), 'the proposal')
-    if e['heading'] == e['was']:
+    if 'held' in e:
+        who = 'his own words (his second pick, 19:46 UTC)'
+    if e['heading'] == e['was'] and 'held' not in e:
         who = 'his words, a new level'
     lvl = '' if e['level'] == e['was_level'] else ' (now %s, was %s)' % ('#' * e['level'], '#' * e['was_level'])
     rows.append('| %s | %s | %s%s | %s |' % (e['id'], e['was'].replace('|', '\\|'), sec(e['id']), lvl, who))
@@ -57,31 +57,29 @@ md = ['# His contents picks, in the post (2026-11-23)', '',
       '([apply_in_editor.js](%sexperiments/toc-20261123/apply_in_editor.js), from [PLAN.json](%sexperiments/toc-20261123/PLAN.json)). '
       'Checked afterwards on the live post: all 58 headings and their levels as planned, every heading has its anchor, '
       'and every new link lands on a heading.' % (GIT, POST, GIT, GIT), '',
-      '## Two of his picks wait for him', '',
-      'Both read below High in Pangram in their sections, so they kept their headings (his rule: nothing goes in below High '
-      'confidence). The section itself moved where he said.', '']
-for e in plan['sections']:
-    if 'held' in e:
-        md.append('- %s: his pick "%s" read Human Low (%s); his heading as it is reads %s. Its section %s.' % (
-            sec(e['id']), e['held']['his_pick'], e['held']['why'].split('(')[-1].rstrip(')'),
-            {'S055': 'Medium with its first sentence', 'S060': 'High'}[e['id']],
-            'moved after ' + sec('S056') + ', as he said' if e['id'] == 'S060' else 'stayed where it was'))
-md += ['', '## Found after publishing, waiting on him', '',
-       'The whole check of the post as published ([NB-toc-live#41](%s)) read his flashbacks section\'s first two sentences as AI, '
-       'Low and High (18 and 21 words), in its new place after %s; at the end of the post they had read Human High, and the '
-       'section read High by itself. With the section back at the end, after %s and without "Appendix", the whole post reads '
-       'Human Written with one AI window ([NB-toc-live-END#43](%s)), against three in the post as it was this morning '
-       '([NB-toc-before#34](%s)). That version is saved in the editor as a draft, not published: the app blocked my click on '
-       '"Update now", so it waits for his OK. The one AI window left is "Stream entry’s greatest prize is a “release date”..." '
-       '(21 words, Low), under %s, which read Human High in its section.' % (
-           results['NB-toc-live#41']['link'], sec('S056'), sec('S058'), results['NB-toc-live-END#43']['link'],
-           results['NB-toc-before#34']['link'], sec('S051'))]
+      '## Later that evening', '',
+      '- 19:39 UTC: he published the draft that put %s back at the end, after %s: moved into the manual, its first two '
+      'sentences had read AI in the whole check ([NB-toc-live#41](%s), one window with High confidence); at the end they read '
+      'Human High ([NB-toc-live-END#43](%s)).' % (sec('S060'), sec('S058'), results['NB-toc-live#41']['link'], results['NB-toc-live-END#43']['link']),
+      '- 19:46 UTC: his second picks for the two headings whose first picks had read Human Low as windows of their own, '
+      '%s ([NB-toc-S055#44](%s)) and %s ([NB-toc-S060#45](%s)); his ruling (19:42 UTC): the heading\'s own window may read '
+      'Low, the body text must read High (lesson toc-2026-11-23c). Both bodies read High, and the whole post with them '
+      '([NB-toc-final#46](%s)) has nothing below High in either section.' % (sec('S055'), results['NB-toc-S055#44']['link'],
+      sec('S060'), results['NB-toc-S060#45']['link'], results['NB-toc-final#46']['link']), '',
+      '## Body text that reads lower than in the morning', '',
+      'The whole post as it is now ([NB-toc-final#46](%s): 47 Human High, 41 Medium, 7 Low, 1 AI Low) against the post '
+      'that morning ([NB-toc-before#34](%s): 49 High, 43 Medium, 7 Low, 3 AI Low). The three AI windows of the morning '
+      'read Human Medium now; three body windows of his read lower:' % (results['NB-toc-final#46']['link'], results['NB-toc-before#34']['link']), '',
+      '- "Stream entry’s greatest prize is a “release date”..." (21 words), the first sentence under %s: High in the morning, AI Low now. The new heading splits it into a window of its own.' % sec('S051'),
+      '- "A false attainment claim brings Pārājika 4..." (12 words), mid-section in %s: Medium, now Low.' % sec('S010'),
+      '- "I believe the Dhammapada is right to call unbinding the foremost ease..." (30 words), mid-section in %s: Medium, now Low.' % sec('S017'),
+      '', 'The last two are mid-section, away from any changed heading: the whole post is split into windows differently.']
 md += ['', '## Headings', '', '| Section | His heading before | Now | Whose |', '|---|---|---|---|'] + rows
 md += ['', '## Structure and lines (his answers)', '',
        '- "Realization Isn\'t Enough" (###) is gone: its text sits under %s, with %s still under it as ###.' % (sec('S022'), sec('S024')),
        '- %s and %s are ## now; %s sits under %s.' % (sec('S008'), sec('S018'), sec('S019'), sec('S018')),
        '- %s opens with his blessing, "🫶🏿 May All Beings Be Loving, Peaceful & Free 🫶🏿", and %s with "Your fingers are already enlightened, but your hand is deluded."' % (sec('S008'), sec('S018')),
-       '- "Appendix" is gone; its one section, %s, follows %s.' % (sec('S060'), sec('S056')),
+       '- "Appendix" is gone; its one section, %s, is at the end, after %s (see 19:39 above).' % (sec('S060'), sec('S058')),
        '- In %s, "both of us were really desperate" is now "both Bāhiya and I were really desperate": the heading he picked no longer says "For Me & Bāhiya" (rule 9).' % sec('S015'),
        '', '## Links to sections (gate inner-child-2026-11-20c)', '', '| In | Words | Goes to |', '|---|---|---|']
 for l in cat['links']:
@@ -98,7 +96,9 @@ what = {'NB-toc-whole#32': 'the whole post with his picks (before the two holds)
         'NB-toc-S055-before#39': 'the same section as it was', 'NB-toc-S060#37': 'his pick Is It Safe When "I" Vanish? in its section',
         'NB-toc-S060-before#40': 'the same section as it was', 'NB-toc-live#41': 'the post as published at 18:01:47 UTC',
         'NB-toc-live-END-APPENDIX#42': 'the same with the flashbacks section back at the end under Appendix',
-        'NB-toc-live-END#43': 'the same with the flashbacks section at the end, no Appendix (the saved draft)'}
+        'NB-toc-live-END#43': 'the same with the flashbacks section at the end, no Appendix (his publish, 19:39)',
+        'NB-toc-S055#44': 'his second pick Checking If It Worked in its section', 'NB-toc-S060#45': 'his second pick Disappearing Flashbacks? in its section',
+        'NB-toc-final#46': 'the whole post with both (published 19:46)'}
 for k in what:
     r = results.get(k)
     if r:

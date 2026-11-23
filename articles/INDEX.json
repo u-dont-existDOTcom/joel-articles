@@ -70145,7 +70145,7 @@
         },
         {
           "path": "articles/nibbana/humanize/pangram-ledger.jsonl",
-          "sha256": "5adea051142c6e755ab182a8d8dae4108dd843a364ac5daf5f148d2148eb27cd",
+          "sha256": "d4d341da3fcb707bf97158cd6838861a81e4ae6c7d1f2eb2776c267fe799d5fd",
           "role": "humanization_working_record"
         },
         {
@@ -72305,12 +72305,12 @@
         },
         {
           "path": "articles/nibbana/SECTION-LINKS.json",
-          "sha256": "f452a210a8193c65ea24816056fb9cbbfeef113be505ed523706fc805d9a1a8c",
+          "sha256": "049b0f84277206ff5960886a60aeee644b34dfb608ffd821e29198062f42427b",
           "role": "humanization_working_record"
         },
         {
           "path": "articles/nibbana/experiments/toc-20261123/APPLIED.md",
-          "sha256": "077cba0b94ff16fed22915c934df895e7e4ab74ac93c01242b6a87d06d9e36c1",
+          "sha256": "a79bd9b5d8abc202afaf6d29f977af8af0508815b321115f2e86169942081f9f",
           "role": "humanization_working_record"
         },
         {
@@ -72325,7 +72325,7 @@
         },
         {
           "path": "articles/nibbana/experiments/toc-20261123/make_applied.py",
-          "sha256": "581a953eae2a3bfe67d80ea3fea01d75930fec847fcd41c148641185807732fe",
+          "sha256": "75bc8e18329cb295c7cc3ec8a472b033e8e40c3bfe13f63e203dd8ac0d16e27c",
           "role": "humanization_working_record"
         },
         {
@@ -72341,6 +72341,21 @@
         {
           "path": "articles/nibbana/experiments/toc-20261123/pangram/WHOLE-LIVE-END.txt",
           "sha256": "dade1c0abbe4b6f8d8d616e100d37733f303a26cd3979bb09c370456042827be",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/nibbana/experiments/toc-20261123/pangram/SEC-S055-his.txt",
+          "sha256": "891ec6e48c30c98fbe35a1705b0586c39eae31e191a54cf71960263675625bb8",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/nibbana/experiments/toc-20261123/pangram/SEC-S060-his.txt",
+          "sha256": "4cd94f6470aa95ada6a78ae69c175e3cf991e8c5dbfbd33b864d265cbf0928b5",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/nibbana/experiments/toc-20261123/pangram/WHOLE-FINAL.txt",
+          "sha256": "7f4aa2dd987bbaa1bb3aa819f161e4d4f6d432ac3ab547a3b28244dec90ad751",
           "role": "humanization_working_record"
         }
       ]
