@@ -115,7 +115,7 @@ from html_links import join_split_links  # noqa: E402  (a pasted post card's lin
 TEMPLATE = HERE / 'suggestion_review_template.html'
 FORM_CSS = ROOT / 'project-sources' / 'review-form-controls.css'
 FORMAT = 'joel-suggestion-review-v1'
-GENERATOR = 'suggestion_review.py 1.12 (2026-11-22)'
+GENERATOR = 'suggestion_review.py 1.13 (2026-11-23)'
 ID_OK = re.compile(r'^[A-Za-z0-9][A-Za-z0-9.\-]{0,80}$')
 # a Pangram result's page (2026-11-02, Joel on the hypnosis guide's cards: "why are you not giving me the pangram link so
 # i can see? always give me the links", and "you didn't check if your changes passed.. they didn't. don't waste my time")
@@ -144,6 +144,13 @@ LIST_FROM = '2026-11-07'   # reviews built from this day: a stretch to edit on a
 # card in it), between a <!-- CUT --> line and a <!-- /CUT --> line; the page shows it as a box that says what is left out
 # and opens to show it, so he never has to go to the original.
 WHOLE_FROM = '2026-11-22'
+# Lesson bad-trips-2026-11-23a (Joel, 2026-11-23 19:13 UTC, on round 50's quiz, where my lines read "12 mg" and "2 mg":
+# "don't put space between the number and the unit i told you that before"). The linter's O67 has flagged "12 mg" in the
+# guide since 2026-11-04, but what a card shows him (the quiz's lines, a question's wording) never went through it. From
+# this day every text a card shows him is read for it.
+UNITS_FROM = '2026-11-23'
+UNIT_SPACE = re.compile(r"(?<![\w.])\d+(?:[.,]\d+)?(?:\s*[\u2013-]\s*\d+(?:[.,]\d+)?)?\s+(?:mg|mcg)\b")
+UNIT_FIELDS = ('title', 'question', 'why', 'stays', 'advice_note', 'card_after', 'after', 'sense', 'options')
 CUT_MIN_BLOCKS = 8
 CUT_MIN_WORDS = 800
 CUT_START = re.compile(r'^\s*<!--\s*CUT\s*-->\s*$')
@@ -578,6 +585,28 @@ def list_problems(review, bl):
                 break
     return probs
 
+
+def unit_problems(review):
+    """Lesson bad-trips-2026-11-23a. On pages built from UNITS_FROM, no text a card shows him puts a space between a number
+    and "mg" or "mcg" ("12mg", the way he writes it; tells_lint.py O67 reads the article itself)."""
+    built = review.get('built') or ''
+    if not re.match(r'\d{4}-\d{2}-\d{2}', built) or built[:10] < UNITS_FROM:
+        return []
+    probs = []
+    for s in review['suggestions']:
+        for field in UNIT_FIELDS:
+            v = s.get(field)
+            texts = [v] if isinstance(v, str) else [x.get('text', '') if isinstance(x, dict) else str(x)
+                                                    for x in v] if isinstance(v, list) else []
+            for tx in texts:
+                m = UNIT_SPACE.search(tx or '')
+                if m:
+                    probs.append('%s: "%s" in its %s: no space between the number and the unit ("12mg"; lesson '
+                                 'bad-trips-2026-11-23a; Joel, 2026-11-23: "don\'t put space between the number and the '
+                                 'unit i told you that before")' % (s.get('id', '?'), m.group(0), field))
+                    break
+    return probs
+
 def check(review, bl):
     """Problems with REVIEW against the article's blocks: [message]."""
     probs, ids = whole_problems(review, bl), set()
@@ -671,6 +700,7 @@ def check(review, bl):
     probs += ask_problems(review)
     probs += sense_problems(review)
     probs += list_problems(review, bl)
+    probs += unit_problems(review)
     return probs
 
 

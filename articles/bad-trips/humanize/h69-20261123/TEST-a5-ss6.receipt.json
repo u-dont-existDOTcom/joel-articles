@@ -1,0 +1,115 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-23",
+ "text_sha256": "88ae5ee1d279f2c4e5c31703e540e9cc14c17d1489f80c13f43bc17cb79a25fb",
+ "text": "Overstimulating also dehydrates them, but we can't give fluids unless they're fully alert, able to swallow and not vomiting, and then just small sips of an electrolyte drink. If they still show the signs of low electrolytes from [MDMA: Magnesium Alarm](https://ibogaqueen.substack.com/i/170920118/mdma-magnesium-alarm) above, they may need **a hypertonic electrolyte drink with more magnesium and potassium than a normal one**. That can be as simple as a salty potato broth with some magnesium chloride flakes stirred in, since potatoes are full of potassium. If you don't have the flakes, Epsom salt works too, although it causes diarrhea more easily. Whatever you give, give it slowly to see how it affects them, since their potassium could be running low or high: MDMA can drain it, but muscles breaking down into the blood can push it up. So I'd stick to food like the potato broth for potassium, since too much pure potassium is dangerous for anyone.",
+ "section": "Act Now on SS",
+ "reader": "a friend sitting with someone who took MDMA on top of their antidepressant and now has twitching muscles, sweating and a racing heart; they have called an ambulance and read what to do while they wait",
+ "sentences": [
+  {
+   "s": "Overstimulating also dehydrates them, but we can't give fluids unless they're fully alert, able to swallow and not vomiting, and then just small sips of an electrolyte drink.",
+   "his": true
+  },
+  {
+   "s": "If they still show the signs of low electrolytes from [MDMA: Magnesium Alarm](https://ibogaqueen.substack.com/i/170920118/mdma-magnesium-alarm) above, they may need **a hypertonic electrolyte drink with more magnesium and potassium than a normal one**.",
+   "payoff": "they know when the stronger drink is needed and what it is",
+   "follows": "the drink just named",
+   "link": "still"
+  },
+  {
+   "s": "That can be as simple as a salty potato broth with some magnesium chloride flakes stirred in, since potatoes are full of potassium.",
+   "payoff": "they can make one from what they have",
+   "follows": "the drink just named",
+   "link": "That"
+  },
+  {
+   "s": "If you don't have the flakes, Epsom salt works too, although it causes diarrhea more easily.",
+   "payoff": "they use Epsom salt if that is what they have, knowing it loosens the bowels more",
+   "follows": "the flakes just named",
+   "link": "If you don't have the flakes"
+  },
+  {
+   "s": "Whatever you give, give it slowly to see how it affects them, since their potassium could be running low or high: MDMA can drain it, but muscles breaking down into the blood can push it up.",
+   "payoff": "they give it slowly and watch, because potassium could be off either way",
+   "follows": "whatever they just made",
+   "link": "Whatever you give"
+  },
+  {
+   "s": "So I'd stick to food like the potato broth for potassium, since too much pure potassium is dangerous for anyone.",
+   "payoff": "they get potassium from the broth, not a pure powder",
+   "follows": "the risk just named",
+   "link": "So"
+  }
+ ],
+ "checked": [
+  {
+   "point": "potatoes carry potassium; Epsom salt causes more diarrhea than magnesium chloride; potassium can run low or high after MDMA; too much pure potassium is dangerous",
+   "found": "his QUIZ-2 and SS-DRINK answers of 2026-11-23: \"potato broth especially for potassium right?\"; \"epsom salts ... do tend to cause more diarrhea than mag chloride but can be used still\"; \"Hyperkalemia however is very common in mdma overdoses from rhabdomyolysis, although can also be hypo\"; \"nobody should be directly consuming too much pure potassium, that's dangerous regardless\"",
+   "still_needed": "yes: they know what to make and how to give it",
+   "fate": "kept"
+  }
+ ],
+ "placement": "step 6 of the eight steps under \"Act Now on SS\" (B136)",
+ "opens": {
+  "first_sentence": "Overstimulating also dehydrates them, but we can't give fluids unless they're fully alert, able to swallow and not vomiting, and then just small sips of an electrolyte drink.",
+  "why_reading": "it tells the friend what to drink and how to give it"
+ },
+ "same_point": "none: read the section from its heading to the next (Serotonin Syndrome (SS)?, How to Check for SS, Act Now on SS); the signs and the magnesium amounts are linked to MDMA: Magnesium Alarm, not said again",
+ "needed": {
+  "reader": "a fresh agent (Sonnet) given tools/humanization/needed_read_brief.md with the whole list, its heading, the line before it and what it is for (reads/need-a5-ss.txt), on version one (TEST-a5-ss-v1.txt)",
+  "unneeded": [],
+  "kept": {}
+ },
+ "his_fixes": {
+  "reader": "a fresh agent (Sonnet) given tools/humanization/his_fixes_brief.md, its seventeen ways, with the whole list one sentence a line (reads/his-a5-ss.txt), on version one",
+  "marked": [
+   {
+    "s": "That can be as simple as a salty potato broth with some magnesium chloride flakes stirred in, since potatoes are full of potassium.",
+    "difference": "4, 7"
+   },
+   {
+    "s": "If you don't have the flakes, Epsom salt works too, although it causes diarrhea more easily.",
+    "difference": "17"
+   }
+  ],
+  "kept": {
+   "That can be as simple as a salty potato broth with some magnesium chloride flakes stirred in, since potatoes are full of potassium.": "his recipe (potato broth, magnesium); the amounts are a question to him on round 51",
+   "If you don't have the flakes, Epsom salt works too, although it causes diarrhea more easily.": "his trade-off in his words (\"can be used still\")"
+  }
+ },
+ "fit": {
+  "reader": "a fresh agent (Sonnet) given tools/humanization/fit_read_brief.md, the universal version, with the whole list (reads/fit-a5-ss.txt), on version one",
+  "marked": [
+   {
+    "s": "That can be as simple as a salty potato broth with some magnesium chloride flakes stirred in, since potatoes are full of potassium.",
+    "found": "CAN'T TELL"
+   }
+  ],
+  "kept": {
+   "That can be as simple as a salty potato broth with some magnesium chloride flakes stirred in, since potatoes are full of potassium.": "his recipe (potato broth, magnesium); the amounts are a question to him on round 51"
+  }
+ },
+ "questions": {
+  "Q1": "PASS: each sentence opens on why it is there: the urge, the drink, what to do if, how to give it, the remedy",
+  "Q2": "PASS: every instruction is something the friend does or leaves out, with why",
+  "Q3": "PASS: which drink, which salt, which remedy, what to tell the medics",
+  "Q4": "PASS: the remedies are this guide's own, linked to their sections; terms come after their plain words",
+  "Q5": "PASS: each sentence ties to the one before at its start (But, still, That, If you don't have, Whatever, So, Then, though, the other one)",
+  "Q6": "PASS: in the order a helper needs it",
+  "Q7": "PASS: every fact is one he gave or a source says",
+  "Q8": "PASS: one remedy a sentence or two",
+  "Q9": "PASS: the payoff first"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ },
+ "his_whose": "his own: his step 6 of round 48, its first sentence as he wrote it"
+}

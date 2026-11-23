@@ -15,7 +15,7 @@ stays.
 ---
 
 You are reading a draft against the way one writer, Joel, fixes drafts like it. Below are ten ways his fixes differ
-from the drafts he fixed, each with a sentence he fixed and what he wrote instead (an eleventh and a twelfth, 2026-11-20, after them, five more from his fix of the serotonin steps, 2026-11-21, and four from his 59 versions on the romance article, 2026-11-22). Read the draft and mark every sentence
+from the drafts he fixed, each with a sentence he fixed and what he wrote instead (an eleventh and a twelfth, 2026-11-20, after them, five more from his fix of the serotonin steps, 2026-11-21, and four from his 59 versions on the romance article, 2026-11-22; the twenty-second and twenty-third from the romance article, and two more from his naloxone fix, 2026-11-23). Read the draft and mark every sentence
 that still reads the first way.
 
 1. **Compressed.** A run of category words or noun phrases, or several ideas packed into one sentence, where he gives each
@@ -86,6 +86,10 @@ that still reads the first way.
    also dehydrates them, but we can't give fluids unless they're fully alert, able to swallow and not vomiting"
    (2026-11-21: "my goal is to make it read well and lead on so i'm not wondering all the time why i am reading this").
    For each sentence, write what in the reader's situation it answers, and mark it if they only find out later, or never.
+   A doubt about the whole paragraph's premise is answered in its first sentence, in the reader's own terms: my naloxone
+   paragraph said what to spray before why an opioid could be in an MDMA night; his version answers it first ("which
+   wouldn't seem to make sense if they think they took MDMA, but in fact, opioids like fentanyl have turned up in pills
+   sold as MDMA"), then gives the act with its reason (2026-11-23: "i would move the logic back so it's right up front").
 14. **A rule against what someone would naturally do, said flatly.** He says first why a person would want to, then the
    problem: my "Pacing or exercising to "burn it off" only makes more heat" became "While it's natural for people who are
    overstimulated to start pacing or exercising to "burn it off," the problem is that creates more body heat". Mark a
@@ -162,6 +166,16 @@ that still reads the first way.
    paragraph's own frame (the reader's own record, not "if you tell me"), and its consequence is folded into the same
    question. Turning the questions into reported ones ("Then ask whether your judgment has gotten better ...") read AI
    every time it was tried (lessons romance-2026-11-23b, c and d).
+
+24. **An act that needs a state the text never said.** "call medics even if they wake up" after "Slow, shallow
+   breathing": nothing said they were out (2026-11-23: "you didn't say that they'd be asleep or unconscious"). His version
+   says the state first ("Slow, shallow breathing and losing consciousness"). The same with a wait: "while you wait" with
+   nothing named to wait for ("clarify what youu're waiting for (an ambulance)"). Mark each act whose state, or each wait
+   whose end, the text hasn't said before it (lesson bad-trips-2026-11-23c).
+
+25. **One brand for something several brands sell.** "(the Narcan nasal spray)": "remove the narcan reference since
+   there are also other brand names even in US". Name the medicine or the thing (naloxone), not one product of it
+   (lesson bad-trips-2026-11-23e).
 
 When the text is a rewrite of another, also mark every detail, reason or line it adds that the text it rewrites and its
 section don't already hold (lesson romance-2026-11-22f: a blind rewrite added "my month with a bad knee", a month he never
