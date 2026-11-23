@@ -200,10 +200,12 @@ with his OK and no email.
   (`r30/typo3/`). Lesson romance-2026-11-23e.
 - 2026-11-23 17:27 UTC (his message: "honestly is a high freq ai word ... so if another word fits we can use that";
   "continue"). The article's five uses of "honestly" got the word that fits, each Human High by itself (`r34/`); the
-  linter flags it (O77, W132; lesson romance-2026-11-23f). The eleven vetted junk passages (`r35/README.md`): eight
-  fixes read Human High by themselves; B473 went in without a card, seven are cards on the sixth marking page
-  (https://claude.ai/artifact/MZidQtzYFkWfAd1snh75zu, `review/teach-20261123/REVIEW-T6.md`), and three (B257, B442,
-  B480) whose fixes read AI are questions on it while the tries go on.
+  linter flags it (O77, W132; lesson romance-2026-11-23f). The eleven vetted junk passages (`r35/README.md`): seven
+  fixes read Human High by themselves; B473 of them went in without a card, and the other six are cards on the sixth
+  marking page (https://claude.ai/artifact/MZidQtzYFkWfAd1snh75zu, `review/teach-20261123/REVIEW-T6.md`), with B84,
+  whose rewrite read AI (Low), as a card that cuts the line; the three (B257, B442, B480) whose fixes read AI are
+  questions on it while the tries go on. (The commit of 76fd3fc8 counted eight read High: B84's cut rests on his own
+  check of the paragraph before it, not a new one.)
 
 ## Next step
 
