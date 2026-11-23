@@ -72,3 +72,20 @@ Then the questions change for me: if the romance changes, which parts are still 
 
 These are just a few questions I could think of to start the ball rolling, but be creative and see what you come up with! You can make a card game out of this and have some fun with it. If there’s real love, it will survive a bit of honest curiosity. And again, community can make all of this a lot less scary.
 
+## Item 6
+
+### The conversation about flaws
+
+Card games and social gatherings don’t tell you everything, but asking someone out of the blue, “What did you do wrong in your past relationships?” would make for a pretty weird date.
+
+At the right time, though, in the right way (especially if they bring it up tangentially), I would ask about their past relationships, especially the recent ones. If every story ends with everything being the other person’s fault, I’d ask, “Okay, so what lessons did you find for yourself?”
+
+“I have baggage” isn't as useful as learning what you're having trouble with now. What might make it hard for you to function well in a relationship?
+
+I’d want both of us to be honest about how effective we actually are at handling our own issues. What addictions or impulsive behaviors can’t we reliably control? What are we probably going to ask forgiveness for more than once? That tells me more than either of us proclaiming that we’re healed.
+
+>>> FIX (these two paragraphs together; you may reorder their sentences and split or join them): Look at the most recent conflicts and ask if you were able to regulate yourself during them. What did you do to the other person, and how did you repair the damage afterward? Has your judgment gotten better, or do you keep falling for the same stuff? What would your friends or exes say? / And if you tell me you shut down, okay, what does that mean: did you stop talking to your partner for days, and did they feel abandoned?
+
+#### My flaws
+
+My own list isn’t especially flattering: I’m impulsive, and I idealize too much, although I don’t demonize anyone either. (the next section, context only)

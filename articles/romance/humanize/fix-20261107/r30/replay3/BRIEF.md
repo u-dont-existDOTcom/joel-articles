@@ -161,6 +161,13 @@ THE WAYS
    illustration, not his: "But none of that explains why she left." would become "But the money trouble doesn't
    explain why she left.")
 
+23. **A run of questions.** Three or more questions in a row, or a paragraph that is almost all questions, reads like
+   a worksheet. He orders them by what they're about (an example sits right after the question it shows; the question
+   about the long run comes last), keeps one frame (if the paragraph has the reader looking at their own record, a
+   follow-up speaks to the reader's own experience, not to an interview with someone else), says in a plain statement
+   between them why the next question matters when the text already implies it, and puts a consequence into the same
+   question instead of a second question built like the first.
+
 Words he has said read as AI in his writing: "doesn't prove" or "isn't proof of"; "X does not Y" statements; "matters"
 where a more specific word says more; "one ordinary"; "quietly"; "if it's safe" (say what safe means).
 
