@@ -1,6 +1,6 @@
 # The read against his fixes: which of my sentences still read the way he fixes?
 
-Gate bad-trips-2026-11-12g (the eleventh way, lesson bad-trips-2026-11-20c; the twelfth, lesson bad-trips-2026-11-20h; the thirteenth to seventeenth, lesson bad-trips-2026-11-21e; the eighteenth to twenty-first, from his 59 versions on the romance article's Medium page, lesson romance-2026-11-22d; the twenty-fifth and twenty-sixth, from his naloxone fix, lessons bad-trips-2026-11-23c and e). Joel, 2026-11-12 14:45 UTC, after my carries of his fixes read AI in eight tries of eight:
+Gate bad-trips-2026-11-12g (the eleventh way, lesson bad-trips-2026-11-20c; the twelfth, lesson bad-trips-2026-11-20h; the thirteenth to seventeenth, lesson bad-trips-2026-11-21e; the eighteenth to twenty-first, from his 59 versions on the romance article's Medium page, lesson romance-2026-11-22d; the twenty-fifth and twenty-sixth, from his naloxone fix, lessons bad-trips-2026-11-23c and e; the twenty-seventh, lesson bad-trips-2026-11-23h). Joel, 2026-11-12 14:45 UTC, after my carries of his fixes read AI in eight tries of eight:
 "have you systematically looked at all of the fixes i've shown you and what are the idfferences in how you write vs how
 i fix? because when i look at how you try to implement my fixes, it's laughable, like you're not really learning much.
 you still use a lot of ai patterns like "this is different. that's different, this other thing is also different" and
@@ -15,7 +15,7 @@ stays.
 ---
 
 You are reading a draft against the way one writer, Joel, fixes drafts like it. Below are ten ways his fixes differ
-from the drafts he fixed, each with a sentence he fixed and what he wrote instead (an eleventh and a twelfth, 2026-11-20, after them, five more from his fix of the serotonin steps, 2026-11-21, and four from his 59 versions on the romance article, 2026-11-22; the twenty-second to twenty-fourth from the romance article, and two more from his naloxone fix, 2026-11-23). Read the draft and mark every sentence
+from the drafts he fixed, each with a sentence he fixed and what he wrote instead (an eleventh and a twelfth, 2026-11-20, after them, five more from his fix of the serotonin steps, 2026-11-21, and four from his 59 versions on the romance article, 2026-11-22; the twenty-second to twenty-fourth from the romance article, two more from his naloxone fix and one from his round-51 marks, 2026-11-23). Read the draft and mark every sentence
 that still reads the first way.
 
 1. **Compressed.** A run of category words or noun phrases, or several ideas packed into one sentence, where he gives each
@@ -54,7 +54,9 @@ that still reads the first way.
    (preventative treatment)." first ("i flipped it high conf human by moving the payoff earlier about whether they are
    about to read something relevant or not", 2026-11-19). He writes a study's finding in the simple past ("started", not
    "had started"), and doesn't name the same thing in three sentences in a row.
-
+   His mark on a rave study's numbers dropped into a paragraph (2026-11-23: "sounds like an ai study finding
+   injection"): his way says the claim, then what it rests on, in plain words ("Women are most at risk of this, based on
+   results we have from one study done at raves, where ...").
 10. **Could be read two ways.** A pointer word ("it", "this", "that", "they") that could point at two things, a word that
    could describe two things, a statement that is really an instruction, a sign with nobody's name on it. He fixed "the
    evidence for it" (the drug, or the review just named?) into "the evidence for this med", "too weak to show that it
@@ -87,7 +89,8 @@ that still reads the first way.
    paragraph about asking into "If they did permit touch, stop as soon as they say stop." (Medium to High; it "didn't
    follow from the first section"). For each sentence, write how it follows from the one before (the next step, the
    other way, the case where the answer was yes), and mark it if nothing in it says so.
-
+   A "So" has to follow: after "Their potassium could be running low or high", my "So I'd stick to food like the potato
+   broth for potassium" was "a non-sequitir" (2026-11-23): if it may be high, why give any? Say what the "So" rests on.
 13. **Leaves the reader wondering why they're reading it.** A sentence or step that opens on what to do, or on a fact,
    before saying what in the situation calls for it. He opened the fluids step on why fluids come up at all, tied to the
    step before: my "Give fluids only if they're fully alert, able to swallow and not vomiting" became his "Overstimulating
@@ -107,19 +110,27 @@ that still reads the first way.
    became "I'd have them do some fidgeting (especially of the calf muscle, flexing the feet), which can soothe that urge
    without the over-activity risk." Mark each instruction the reader couldn't do, and each don't that leaves them
    nothing to do.
+   And advice a person will actually take: "magnesium chloride tastes terrible, so maybe a lot of people would rather
+   die than eat it", "nobody wants to eat epsom salt either"; his fix put it on the skin, and chips for a broth nobody
+   has time to cook (2026-11-23).
 16. **Said twice: a lead line the rest says again, or a rule said again the other way round.** He cut my opener "Keep
    them still in a calm room." (the sentences after it say how) and my "But if they're confused, vomiting or sleepy, I
    wouldn't push anything into them ..." after "Give fluids only if they're fully alert, able to swallow and not
    vomiting" (the same condition turned inside out). Cutting the opener was one of the two changes that took the steps
    from AI to Human High ("it still was AI until i removed the redundant first sentence"). Mark a first sentence that the
    rest repeats, and a sentence that turns a condition just given around.
+   One subject split across places is the same fault: magnesium came up in step 6, in step 8 and in his MDMA section
+   ("is that the 3rd or 4th time?", "is there no way to keep it with the previous mention?"); everything about it goes
+   with its first mention (2026-11-23).
 17. **Advice that isn't right here.** Advice carried over from another case, or that another part contradicts. My "not
    even pills or charcoal" in the fluids step went: the step before it gives a pill (cyproheptadine) to anyone fully
    alert and able to swallow, and charcoal isn't part of serotonin syndrome care (2026-11-21: "the advice i think was not
    quite correct medically altho pangram wouldn't know that part"). Read each instruction against the rest of the text
    and the reader's situation, and mark it if something else in the text contradicts it, it doesn't fit this case, or a
    reader without training couldn't do it safely.
-
+   Guidance from another case carried over unchecked counts: my "bloated but not thirsty" came from the guidelines for
+   hikers, and "the exercise guidance doesn't fully apply to mdma because people on mdma can feel thirsty even when they
+   need salt" (2026-11-23).
 18. **A short line standing alone.** A sentence of two to six words that sums up, labels or turns, between longer ones:
    "It's philosophical.", "That was my mistake.", "I like that idea.", "Based on what?", "That wasn't the whole story.",
    "Everything." He joins it to the sentence it belongs to, or gives it what only this writer would say there: "It's
@@ -193,6 +204,10 @@ that still reads the first way.
 26. **One brand for something several brands sell.** "(the Narcan nasal spray)": "remove the narcan reference since
    there are also other brand names even in US". Name the medicine or the thing (naloxone), not one product of it
    (lesson bad-trips-2026-11-23e).
+
+27. **What not to do before what to do.** A step that opens on the remedy to leave out, then gives the one to use:
+   "i'd give them the things TO DO first, then the things not to do after, doesn't that make more sense? so DMSO
+   before niacin" (2026-11-23). Mark a don't that comes before the do it sits beside (lesson bad-trips-2026-11-23h).
 
 When the text is a rewrite of another, also mark every detail, reason or line it adds that the text it rewrites and its
 section don't already hold (lesson romance-2026-11-22f: a blind rewrite added "my month with a bad knee", a month he never
