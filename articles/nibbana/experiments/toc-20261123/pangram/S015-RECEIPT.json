@@ -1,0 +1,109 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-23",
+ "text_sha256": "239a9d3a4690f67f42a6abcd84351330cbcb70dcff56840a4feed398f6a27115",
+ "text": "Desperation Did the Trick\n\nInterestingly, both Bāhiya and I were really desperate for an end to suffering right now. That seems to have been key for us, although we did have a bunch of preparation as well.\n\nSome people go to retreats hoping to experience what happened to me. I couldn’t afford that, but luckily being broke helped more (as it did for the Buddha). So did a severely unstable marriage that made me feel I had completely failed at life!",
+ "section": "Desperation Did the Trick",
+ "reader": "a reader who has just read The Pithy Bāhiya Sutta (Bāhiya begs the Buddha to teach him right now, and is freed on the spot) and a short Dōgen quote, and opens this section from the sidebar: who was desperate, and did desperation help?",
+ "sentences": [
+  {
+   "s": "Desperation Did the Trick",
+   "payoff": "names what this section says got him and Bāhiya there, so a reader asking whether desperation helps finds it",
+   "follows": "opens the section after The Pithy Bāhiya Sutta and Dōgen's lines, which tell of an awakening on the spot; this names what made it possible"
+  },
+  {
+   "s": "Interestingly, both Bāhiya and I were really desperate for an end to suffering right now.",
+   "payoff": "says who was desperate, Bāhiya (whose plea the section before tells) and the author, so the reader learns both started from wanting an end to suffering now",
+   "follows": "answers the heading: desperation is the trick it names",
+   "link": "both Bāhiya and I"
+  },
+  {
+   "s": "That seems to have been key for us, although we did have a bunch of preparation as well.",
+   "payoff": "tells the reader desperation was the key, though not alone: there was preparation too",
+   "follows": "turns from the fact (they were desperate) to what it did (key)",
+   "link": "That seems to have been key for us"
+  },
+  {
+   "s": "Some people go to retreats hoping to experience what happened to me.",
+   "payoff": "sets up the contrast for the reader who hopes a retreat will do it",
+   "follows": "moves from Bāhiya and him to readers who go to retreats for this",
+   "link": "Some people go to retreats"
+  },
+  {
+   "s": "I couldn’t afford that, but luckily being broke helped more (as it did for the Buddha).",
+   "payoff": "tells the reader what pushed him instead of a retreat: being broke, as renouncing wealth did for the Buddha",
+   "follows": "answers the line before: he couldn't afford a retreat",
+   "link": "I couldn’t afford that"
+  },
+  {
+   "s": "So did a severely unstable marriage that made me feel I had completely failed at life!",
+   "payoff": "the second push: a marriage so unstable he felt he had failed at life",
+   "follows": "adds a second thing that helped to the being broke of the line before",
+   "link": "So did"
+  }
+ ],
+ "checked": [],
+ "placement": "the first two paragraphs of Desperation Did the Trick, after The Pithy Bāhiya Sutta and Things Know Themselves (Dōgen); 'both Bāhiya and I' points back to Bāhiya, whose story the section before tells, now that the heading no longer says 'For Me & Bāhiya'",
+ "opens": {
+  "first_sentence": "Desperation Did the Trick",
+  "why_reading": "a reader at the end of their rope learns at once that desperation helped both Bāhiya and the author, the question they opened this section with"
+ },
+ "same_point": "none: read the section from its heading to The Room Unwove for desperation and preparation; this is the only place it says desperation was key",
+ "needed": {
+  "reader": "a fresh Sonnet reader that saw only this text, the section before in a line, and what the section is for, with tools/humanization/needed_read_brief.md (pangram/S015-READS.md, part 1)",
+  "unneeded": [],
+  "kept": {}
+ },
+ "his_fixes": {
+  "reader": "the same fresh reader with tools/humanization/his_fixes_brief.md (pangram/S015-READS.md, part 2)",
+  "marked": [
+   "Interestingly, both Bāhiya and I were really desperate for an end to suffering right now.",
+   "That seems to have been key for us, although we did have a bunch of preparation as well.",
+   "Some people go to retreats hoping to experience what happened to me.",
+   "I couldn’t afford that, but luckily being broke helped more (as it did for the Buddha).",
+   "So did a severely unstable marriage that made me feel I had completely failed at life!"
+  ],
+  "kept": {
+   "Interestingly, both Bāhiya and I were really desperate for an end to suffering right now.": "the marks are on his words around the fix ('Interestingly', 'right now'); the space before the full stop it saw was my extraction, not in the post (the post has <em>right now</em>.). his published words, unchanged here: this edit changes only the referent his heading pick needs ('both of us' to 'both Bāhiya and I'); rewording his sentences isn't part of a contents edit, and a point worth raising goes to him on a card",
+   "That seems to have been key for us, although we did have a bunch of preparation as well.": "his published words, unchanged here: this edit changes only the referent his heading pick needs ('both of us' to 'both Bāhiya and I'); rewording his sentences isn't part of a contents edit, and a point worth raising goes to him on a card",
+   "Some people go to retreats hoping to experience what happened to me.": "his published words, unchanged here: this edit changes only the referent his heading pick needs ('both of us' to 'both Bāhiya and I'); rewording his sentences isn't part of a contents edit, and a point worth raising goes to him on a card",
+   "I couldn’t afford that, but luckily being broke helped more (as it did for the Buddha).": "his published words, unchanged here: this edit changes only the referent his heading pick needs ('both of us' to 'both Bāhiya and I'); rewording his sentences isn't part of a contents edit, and a point worth raising goes to him on a card",
+   "So did a severely unstable marriage that made me feel I had completely failed at life!": "his published words, unchanged here: this edit changes only the referent his heading pick needs ('both of us' to 'both Bāhiya and I'); rewording his sentences isn't part of a contents edit, and a point worth raising goes to him on a card"
+  }
+ },
+ "fit": {
+  "reader": "the same fresh reader with tools/humanization/fit_read_brief.md (pangram/S015-READS.md, part 3)",
+  "marked": [
+   "That seems to have been key for us, although we did have a bunch of preparation as well.",
+   "I couldn’t afford that, but luckily being broke helped more (as it did for the Buddha).",
+   "So did a severely unstable marriage that made me feel I had completely failed at life!"
+  ],
+  "kept": {
+   "That seems to have been key for us, although we did have a bunch of preparation as well.": "his published words, unchanged here: this edit changes only the referent his heading pick needs ('both of us' to 'both Bāhiya and I'); rewording his sentences isn't part of a contents edit, and a point worth raising goes to him on a card",
+   "I couldn’t afford that, but luckily being broke helped more (as it did for the Buddha).": "his published words, unchanged here: this edit changes only the referent his heading pick needs ('both of us' to 'both Bāhiya and I'); rewording his sentences isn't part of a contents edit, and a point worth raising goes to him on a card",
+   "So did a severely unstable marriage that made me feel I had completely failed at life!": "his published words, unchanged here: this edit changes only the referent his heading pick needs ('both of us' to 'both Bāhiya and I'); rewording his sentences isn't part of a contents edit, and a point worth raising goes to him on a card"
+  }
+ },
+ "questions": {
+  "Q1": "PASS: the first line says who was desperate ('both Bāhiya and I') right under the heading that names desperation",
+  "Q2": "N/A: no instruction in this text",
+  "Q3": "PASS: 'Bāhiya' says which one; 'retreats', 'being broke' and 'a severely unstable marriage' are the things themselves",
+  "Q4": "PASS: no term a high-school graduate wouldn't know; Bāhiya is introduced in the section before",
+  "Q5": "PASS: 'That seems to have been key' turns on the desperation, 'I couldn’t afford that' answers the retreats, 'So did' adds the marriage to what helped",
+  "Q6": "PASS: who was desperate, what it did, then what pushed him, in the order a reader asks",
+  "Q7": "PASS: the section's reader is at the end of their rope; each fact says what helped someone in that state",
+  "Q8": "N/A: no grouped items",
+  "Q9": "PASS: one step a sentence; 'So did' carries its relation to 'helped more'"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

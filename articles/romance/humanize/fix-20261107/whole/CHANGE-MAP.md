@@ -1,6 +1,6 @@
 # The fixed version: every changed paragraph
 
-The live post ("Romance Advice I Wish My Parents Taught Me") with each section's and spot's best tested text in place (`assemble.py`, `build.py`), and his own versions from his answers over them (`../r30/HIS-T4.json`, his Medium page of 2026-11-22). Paragraph numbers are the post page's paragraph list (`LIVE-INDEX.txt`). "Two Pillars" 332 is his own new version (it was the owner lock). 110 changes, 144 live paragraphs changed.
+The live post ("Romance Advice I Wish My Parents Taught Me") with each section's and spot's best tested text in place (`assemble.py`, `build.py`), and his own versions from his answers over them (`../r30/HIS-T4.json`, his Medium page of 2026-11-22). Paragraph numbers are the post page's paragraph list (`LIVE-INDEX.txt`). "Two Pillars" 332 is his own new version (it was the owner lock). 115 changes, 146 live paragraphs changed.
 
 ## 1. S1 (live 28)
 
@@ -1435,4 +1435,64 @@ Read by his answer T6-126 (HIS-FLAWS.json): [result](https://www.pangram.com/his
 
 > Look at the most recent conflicts and ask if you were able to regulate yourself during them. What did you do to the other person, and how did you repair the damage afterward? Not doing can be just as bad as overdoing. If conflict makes you shut down, does it mean you stop talking to your partner for days, leaving them feeling abandoned?
 > Has your judgment gotten better, or would your friends or exes say you keep falling for the same stuff?
+
+## 111. Talk about making love before you do it (live 15)
+
+Read by my tested change R34-15 (MINE-R34.json): [result](https://www.pangram.com/history/6e62affc-4b31-47ee-8a0e-c6bb4375e2ad).
+
+**Live:**
+
+> You may not know all the answers yet. “I don’t know, but I’m willing to find out honestly with you” is a perfectly good answer.
+
+**New:**
+
+> You may not know all the answers yet. “I don’t know, but I’m willing to find out with you” is a perfectly good answer.
+
+## 112. Jealousy on trial (live 366)
+
+Read by my tested change R34-366 (MINE-R34.json): [result](https://www.pangram.com/history/699fd06f-a3d2-4f20-b377-800388309d57).
+
+**Live:**
+
+> I do believe two people can choose sexual exclusivity honestly. They can admit that attraction to other people exists and decide not to act on it each day.
+
+**New:**
+
+> I do believe two people can choose sexual exclusivity without pretending. They can admit that attraction to other people exists and decide not to act on it each day. And even better than simply suppressing it, they can put it to work. I agree with Esther Perel, who writes that this sexual energy felt outside the relationship can be used and redirected into the relationship to make it more alive.
+
+## 113. Gaslighting in the dark (live 433)
+
+Read by my tested change R34-433 (MINE-R34.json): [result](https://www.pangram.com/history/5b60e8dc-f824-457a-8801-3917dceaf802).
+
+**Live:**
+
+> Many say it’s best to save face and work things out privately, but I’d disagree. If you don’t have friends who can help with the conflict, then you’re really stuck (and you might wanna find some new friends). But do it honestly, with the goal of helping the conflict, not just getting approval for your own interpretation. Both people should have a chance to speak, and good friends shouldn’t automatically validate either side.
+
+**New:**
+
+> Many say it’s best to save face and work things out privately, but I’d disagree. If you don’t have friends who can help with the conflict, then you’re really stuck (and you might wanna find some new friends). But do it fairly, with the goal of helping the conflict, not just getting approval for your own interpretation. Both people should get a chance to speak, and good friends should hear both sides before validating either.
+
+## 114. After leaving (live 440)
+
+Read by my tested change R34-440 (MINE-R34.json): [result](https://www.pangram.com/history/20e4c4cb-205c-435f-8c40-226203293699).
+
+**Live:**
+
+> Spiritual practice during an ending is critical, but don’t use it to get around the feelings. Pray for your ex’s wellbeing. Remember what was real and good, and don’t use your pain as permission to hate them. Avoid the New Age belief that everyone is simply a mirror of you. No, that isn’t true. We partly mirror one another, but each person was formed by plenty that had nothing to do with you. No matter how enlightened the Buddha was, his cousin Devadatta still kept trying to kill him. Looking honestly at your part doesn’t erase theirs. Sometimes it helps to ask, “What would Mr. Rogers do?” (if you’re old enough to remember that show).
+
+**New:**
+
+> Spiritual practice during an ending is critical, but don’t use it to get around the feelings. Pray for your ex’s wellbeing. Remember what was real and good, and don’t use your pain as permission to hate them. Avoid the New Age belief that everyone is simply a mirror of you. Of course, we do partly mirror one another, but each person was formed by plenty that had nothing to do with you. No matter how enlightened the Buddha was, his cousin Devadatta still kept trying to kill him: admitting your part doesn’t erase theirs. Sometimes it helps to ask, “What would Mr. Rogers do?” (if you’re old enough to remember that show).
+
+## 115. Tough Love (live 455)
+
+Read by my tested change R34-455 (MINE-R34.json): [result](https://www.pangram.com/history/83d71f3b-0a4b-4223-8a04-ac722915d97c).
+
+**Live:**
+
+> Bear, sex can be what you do when you’re older and find a friend you love in a super special way that makes you want to raise children together. Don’t imagine you love each other just because you want each other. Don’t feel pressure to promise what your heart will feel. Let the love and bond it produces blossom honestly as your hearts sync. Learn about each other before getting too close, and make sure to keep friends and community around who know both of you.
+
+**New:**
+
+> Bear, sex can be what you do when you’re older and find a friend you love in a super special way that makes you want to raise children together. Don’t imagine you love each other just because you want each other. Don’t feel pressure to promise what your heart will feel. Let the love and bond it produces blossom in its own time as your hearts sync. Learn about each other before getting too close, and make sure to keep friends and community around who know both of you.
 

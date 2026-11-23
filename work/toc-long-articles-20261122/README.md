@@ -42,7 +42,8 @@ the sidebar shows each), `<slug>.CONTENTS.json` (for `toc_check.py`) and `<slug>
 5. Check the pick with fresh readers (gates inner-child-2026-11-17a to g); a model's reorganization is only a proposal,
    move by move, after asking him what each part holds (gate inner-child-2026-11-20a).
 6. His picks on a page, each option shown as it would look, with your pick and how sure you are (gate
-   bad-trips-2026-11-09f).
+   bad-trips-2026-11-09f), built with `tools/humanization/contents_picks_page.py` (his own-words box shows the sidebar's
+   cut-off; lesson toc-2026-11-23a), with the link plan for every section the text mentions (lesson toc-2026-11-23b).
 7. Apply: `section_links.py build` a `SECTION-LINKS.json`, rename through `section_links.py rename`, fix the sentences on
    either side of each renamed heading (gate inner-child-2026-11-20d), and a heading with new words reads Human High in
    Pangram before it goes into his post.

@@ -245,7 +245,7 @@
         },
         {
           "path": "articles/romance/humanize/pangram-ledger.jsonl",
-          "sha256": "4c3b269e2cee346a259f9143ff4df93112392cb7aab1cf66d3d3b9e86ad15939",
+          "sha256": "328fe73b1a09d7c700d139f0fee4981757e373d00bdb502fda5b5f580094c501",
           "role": "humanization_working_record"
         },
         {
@@ -1845,17 +1845,17 @@
         },
         {
           "path": "articles/romance/humanize/fix-20261107/whole/CHANGE-MAP.json",
-          "sha256": "87dd342f63f3de9f746d2825bfd2dacb58b720951106a6d43636f435e26d3893",
+          "sha256": "b43a0db7ed05bbb400b8ec68c73d9517ce1af07bb1c24e6626a62c0290404d46",
           "role": "humanization_working_record"
         },
         {
           "path": "articles/romance/humanize/fix-20261107/whole/CHANGE-MAP.md",
-          "sha256": "c0279c32f9bc9451b810962bb265533bef5dd23848df072c2262d610fe32e656",
+          "sha256": "a30d624fdd984522bd84f7391a5c8b275bea5ec6bc4ccc76d7315ddae47a7115",
           "role": "humanization_working_record"
         },
         {
           "path": "articles/romance/humanize/fix-20261107/whole/LIVE-CHANGED.json",
-          "sha256": "84f0ce6c5f638b27dea35b431c60fe31307ea97c113311f472390f51782d945b",
+          "sha256": "b91b4b25ffa6b114da7def8ab0ed3585337617b0d29f2b8e5531098157de82b6",
           "role": "humanization_working_record"
         },
         {
@@ -1865,7 +1865,7 @@
         },
         {
           "path": "articles/romance/humanize/fix-20261107/whole/ORIGINAL-CHANGED.md",
-          "sha256": "619a39d1d8876420727a27398b35f2275768ce401f21e19a25e2b48c342a8de5",
+          "sha256": "a13fa467252aa44c7184313f53939bc8639ad3cf45756c8d2470328a424439e9",
           "role": "humanization_working_record"
         },
         {
@@ -1885,12 +1885,12 @@
         },
         {
           "path": "articles/romance/humanize/fix-20261107/whole/REPLACEMENTS.json",
-          "sha256": "0fd77245c2f6428b631cdd0a68da19f0f20300909fd3e68700ab8b7667cbf797",
+          "sha256": "200d4103a8a97805a51dafbd4fbfb9d1a091aaf691f9bbbd6bf7907eeb6fedf4",
           "role": "humanization_working_record"
         },
         {
           "path": "articles/romance/humanize/fix-20261107/whole/REWRITE-CHANGED.md",
-          "sha256": "6e17508e4fd74ee754e2b4a31600087886ccad7e4ad803a3c3b326b1f2718dee",
+          "sha256": "2288f21ee37f551b9731f542a29dc0477dd0d913fdcaa14a34539b0b75df4d31",
           "role": "humanization_working_record"
         },
         {
@@ -1900,7 +1900,7 @@
         },
         {
           "path": "articles/romance/humanize/fix-20261107/whole/build.py",
-          "sha256": "320cdd0c501d5fd39d11db2620fd733f29dff0d1c60b2f3e5de294538bcb31e3",
+          "sha256": "cfe84f550f23516a5af2a883563df6170be5bd4aa03c4fbdd8346c59204fa77e",
           "role": "humanization_working_record"
         },
         {
@@ -3220,7 +3220,7 @@
         },
         {
           "path": "articles/romance/humanize/fix-20261107/whole/FIXED.md",
-          "sha256": "a03c5f9ef87a17ec9b1353c1d1f7e3557c1c050a104b9cae5031f3f59a62ade4",
+          "sha256": "c78f384efe2e39bb6d03e739cd342e268e15113f8cbcce0a7d25ea8052189536",
           "role": "humanization_working_record"
         },
         {
@@ -4146,6 +4146,76 @@
         {
           "path": "articles/romance/humanize/fix-20261107/r30/replay4/CHECKS-R4.txt",
           "sha256": "cb6f94cdca17adea7d4cd496647e19498866650ac0e87c15e03b561b580a9f93",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r34/FILL.json",
+          "sha256": "7ba3702d96093859ff9b3ea10b4f9cde40ace33d62345a0a38d38b1d532922b9",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r34/MINE-R34.json",
+          "sha256": "a53fe2d01aac5c7fa1eb9f350b7a9e2f9c32f2e48ba56c7e4b2bda03ff4aa1a3",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r34/R-k1.json",
+          "sha256": "7336d8706dcba99f9fd1672bea84b6ab1c5d40e174735fd0aedf25dbaeadacd3",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r34/R-k2.json",
+          "sha256": "6c2098c030dd19bce2a33371abc496d649c36cede61c114da1efc503551287ac",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r34/R-k3.json",
+          "sha256": "f380a28d23be92c19749dca234ca73fea6a7ffe30d802726c1c0fe1f4e574b4e",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r34/R-k4.json",
+          "sha256": "5493dd67b13c74ab30ff0d76e0c75d441977736ad6743f9b0fe1553c103fa00c",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r34/R-k5.json",
+          "sha256": "c6885f085d06016312de8fd5dbc1af2757c0a677b031443c6b3396fb4a2d965b",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r34/README.md",
+          "sha256": "1b870041c419734bf6eacce32bceb32d5283a0f0abbe645f821d1b2ae46ba470",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r34/RESULTS.json",
+          "sha256": "7b43db52fe330901d98a15be45b6b2e468d91d5601af3d9118514b76f46578d2",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r34/texts/k1.txt",
+          "sha256": "931faa613423aa1e2d9ecd01c164d86ebf5222b7af3fe480dab43f9e480ae547",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r34/texts/k2.txt",
+          "sha256": "e936ba90d68d2a9136e95cd2b933615e40a2db99fa6ab293afd53c6e760b9c5c",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r34/texts/k3.txt",
+          "sha256": "6960d71e3f6f834d9a0600aa6b7c0346a08591459abeeb663726ff47862d912a",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r34/texts/k4.txt",
+          "sha256": "2ea8c9f7259437bc05ea98cfffbd748a87d90b73d423e922ba28a77f1a608965",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r34/texts/k5.txt",
+          "sha256": "7dc57b10f4eff60a13f80eae6d5af15ed5b7171a141e26a1e8c7c8fc690371f6",
           "role": "humanization_working_record"
         }
       ]
@@ -69730,7 +69800,7 @@
         },
         {
           "path": "articles/nibbana/humanize/pangram-ledger.jsonl",
-          "sha256": "93e0b18a618baec592374beee7412b3dc2625be9b02ed7934938a0883e474f41",
+          "sha256": "d1588ddf2882802d6323e5d97d1b61d55852da1805d0804c8f231fc7b96f0922",
           "role": "humanization_working_record"
         },
         {
@@ -71580,7 +71650,7 @@
         },
         {
           "path": "articles/nibbana/experiments/toc-20261123/PICKS-PAGE.html",
-          "sha256": "dd1d92ec4f125b3c64623d93735cc3e5369eb2ff091dc173ef2e5f533529ab22",
+          "sha256": "bab09a2aa10c2aa84a192f28ed79269e32c8ddc5eb334af7442fb1cc926ace6b",
           "role": "humanization_working_record"
         },
         {
@@ -71685,7 +71755,7 @@
         },
         {
           "path": "articles/nibbana/experiments/toc-20261123/make_page.py",
-          "sha256": "338db2c3ef120aa79713d47cb498a5d7969a753432149a8c4ccfe3f94f8217ef",
+          "sha256": "ce0801675b627a3bcf699dc684817f6cf9da1a3eb15323f469ef071010650ad0",
           "role": "humanization_working_record"
         },
         {
@@ -71771,6 +71841,66 @@
         {
           "path": "articles/nibbana/experiments/toc-20261123/score_reads.py",
           "sha256": "e363fc77d6a128b3b1626559c5086da5624b9ebcc0c4c24df884050838e1d136",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/nibbana/experiments/toc-20261123/AFTER.md",
+          "sha256": "3892fdd8b2b4425c9566cc21b58112ceaf3415d3195d03afbe9df11fa62847f0",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/nibbana/experiments/toc-20261123/BEFORE.md",
+          "sha256": "6ad342ce57561298b19e4d99885860a5b77aa577b66b1ababd63a71859a6e6fd",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/nibbana/experiments/toc-20261123/PLAN.json",
+          "sha256": "da71d4ecde21938afd5aead7e8d3b5fca3e9cf793cd5c439fd9670131fe1cb2e",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/nibbana/experiments/toc-20261123/answers/JOEL-20261123-1724.json",
+          "sha256": "65774c75b7e5aef596b467944c1538422dfde620af2800ced88f2ce9b12e8583",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/nibbana/experiments/toc-20261123/apply_plan.py",
+          "sha256": "43e2b238efe770a3622eaa91521a4a6f11322815104e2e21c954b62138e5ede1",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/nibbana/experiments/toc-20261123/pangram/S015-AFTER.txt",
+          "sha256": "239a9d3a4690f67f42a6abcd84351330cbcb70dcff56840a4feed398f6a27115",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/nibbana/experiments/toc-20261123/pangram/S015-HIS.txt",
+          "sha256": "6b57cee2633433d7ff22ba5930c5b73ac1ac053b302efff4c2d3394248bda5ce",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/nibbana/experiments/toc-20261123/pangram/S015-READS.md",
+          "sha256": "f3a47ad8fd3a263088ae8b2fbace53700597343433f3bb910fe1a5ea41025c17",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/nibbana/experiments/toc-20261123/pangram/S015-RECEIPT.json",
+          "sha256": "19e97802157b3e24207dd80cee6f76e3e7e280eb9c060dac1578e9289d8a9fc0",
+          "role": "editorial_receipt"
+        },
+        {
+          "path": "articles/nibbana/experiments/toc-20261123/pangram/WHOLE-AFTER.txt",
+          "sha256": "a9e412d72469b01b186d4593f1ce53de13c4bf5a0b31de16e0799771da55574f",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/nibbana/experiments/toc-20261123/check_texts.py",
+          "sha256": "4b544b4e8f105a0bfb1089bfd26d25563deacc27d311c59bea6deeb15543746c",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/nibbana/experiments/toc-20261123/pangram/WHOLE-BEFORE.txt",
+          "sha256": "09d75f51d2cb9bd20e57547e5ad8ec75eac6b6a064161e700b22404cf51da56a",
           "role": "humanization_working_record"
         }
       ]

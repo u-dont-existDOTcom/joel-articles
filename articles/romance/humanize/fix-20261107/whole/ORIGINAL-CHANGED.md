@@ -561,3 +561,23 @@ Card games and social gatherings don’t tell you everything, but I wouldn’t a
 The most recent conflicts are the best place to look. Were you able to regulate at all during the conflict? What did you do to the other person? How did you repair afterward? What did you learn? Has your judgment gotten better, or do you keep falling for the same stuff?
 
 I’d also want to know what their friends or exes would say, because people aren’t always the best judges of their own progress.
+
+## 111. Talk about making love before you do it (live 15)
+
+You may not know all the answers yet. “I don’t know, but I’m willing to find out honestly with you” is a perfectly good answer.
+
+## 112. Jealousy on trial (live 366)
+
+I do believe two people can choose sexual exclusivity honestly. They can admit that attraction to other people exists and decide not to act on it each day.
+
+## 113. Gaslighting in the dark (live 433)
+
+Many say it’s best to save face and work things out privately, but I’d disagree. If you don’t have friends who can help with the conflict, then you’re really stuck (and you might wanna find some new friends). But do it honestly, with the goal of helping the conflict, not just getting approval for your own interpretation. Both people should have a chance to speak, and good friends shouldn’t automatically validate either side.
+
+## 114. After leaving (live 440)
+
+Spiritual practice during an ending is critical, but don’t use it to get around the feelings. Pray for your ex’s wellbeing. Remember what was real and good, and don’t use your pain as permission to hate them. Avoid the New Age belief that everyone is simply a mirror of you. No, that isn’t true. We partly mirror one another, but each person was formed by plenty that had nothing to do with you. No matter how enlightened the Buddha was, his cousin Devadatta still kept trying to kill him. Looking honestly at your part doesn’t erase theirs. Sometimes it helps to ask, “What would Mr. Rogers do?” (if you’re old enough to remember that show).
+
+## 115. Tough Love (live 455)
+
+Bear, sex can be what you do when you’re older and find a friend you love in a super special way that makes you want to raise children together. Don’t imagine you love each other just because you want each other. Don’t feel pressure to promise what your heart will feel. Let the love and bond it produces blossom honestly as your hearts sync. Learn about each other before getting too close, and make sure to keep friends and community around who know both of you.

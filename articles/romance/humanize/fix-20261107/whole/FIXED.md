@@ -38,7 +38,7 @@ What I eventually took from my dad’s advice was a bigger question: would we li
 
 What do you actually want? Women are kind of notorious for proudly not knowing what they want, and pressuring men into making it look like men know what they want. But everyone should know, for themselves, what they want, regardless of gender norm pressure. So what have you learned from your past desires, fulfilled or not? (I learned that sex isn't everything, but it still counts for a lot.) Do certain things make your body relax and open? Is there anything kinky you need to feel comfortable saying out loud?
 
-You may not know all the answers yet. “I don’t know, but I’m willing to find out honestly with you” is a perfectly good answer.
+You may not know all the answers yet. “I don’t know, but I’m willing to find out with you” is a perfectly good answer.
 
 And what is sex for each of you? One person may mainly think of bonding while the other thinks of play. Sometimes it may feel sacred; another time it may just be how you come down from a bad day. It doesn’t have to mean the same thing every time.
 
@@ -790,7 +790,7 @@ Instead of stewing in jealousy and throwing out microaggressions now and then, s
 
 Maybe he really is neglecting you or wanting to be with someone else. Maybe the “attention” was one glance and your baseline insecurity inflated it into a threat that it wasn’t. That part should not be projected onto your partner. Every couple has to work out for themselves what actually feels healthy.
 
-I do believe two people can choose sexual exclusivity honestly. They can admit that attraction to other people exists and decide not to act on it each day. And even better than simply suppressing it, they can put it to work. I agree with Esther Perel, who writes that this sexual energy felt outside the relationship can be used and redirected into the relationship to make it more alive.
+I do believe two people can choose sexual exclusivity without pretending. They can admit that attraction to other people exists and decide not to act on it each day. And even better than simply suppressing it, they can put it to work. I agree with Esther Perel, who writes that this sexual energy felt outside the relationship can be used and redirected into the relationship to make it more alive.
 
 Imagine if you and your partner both saw those outside attractions as beneficial energy sources rather than a threat to your relationship. It sure would beat beating around the bush because of fear and jealousy. You can start playing around with opening up about the minor, momentary attractions, rather than wait in hiding until a serious crush is dramatically confessed.
 
@@ -926,7 +926,7 @@ Do you have irreconcilable memories of key events? I did with both my first and 
 
 There’s no way to resolve a situation where one person remembers that you ruined her life on purpose, while you remember that she was having a manic episode and had to be committed for her own safety. We also didn’t have mutual friends who could corroborate what happened—only friends on each side who were partial.
 
-Many say it’s best to save face and work things out privately, but I’d disagree. If you don’t have friends who can help with the conflict, then you’re really stuck (and you might wanna find some new friends). But do it honestly, with the goal of helping the conflict, not just getting approval for your own interpretation. Both people should get a chance to speak, and good friends should hear both sides before validating either.
+Many say it’s best to save face and work things out privately, but I’d disagree. If you don’t have friends who can help with the conflict, then you’re really stuck (and you might wanna find some new friends). But do it fairly, with the goal of helping the conflict, not just getting approval for your own interpretation. Both people should get a chance to speak, and good friends should hear both sides before validating either.
 
 I can believe a friend’s experience and still tell them that my ability to know what is really going on is extremely limited. If someone says, “I don’t have all the evidence,” I trust their thinking more. Living in community would help because your friends would not only hear two stories afterward. Sometimes they would actually see how the two of you treat each other when you argue.
 
@@ -940,7 +940,7 @@ Once you’re out, you can see things you genuinely couldn’t see while you wer
 
 Sometimes the easiest story is that they were fake all along, because it explains everything. Grab it only if it really is the simplest explanation of what happened. People who aren’t heavily invested in seeing your innocence can help you tell, and a therapist, pastor, or even a stranger may see the evidence more clearly than a lifelong friend. Even the curiosity itself can be therapeutic for you.
 
-Spiritual practice during an ending is critical, but don’t use it to get around the feelings. Pray for your ex’s wellbeing. Remember what was real and good, and don’t use your pain as permission to hate them. Avoid the New Age belief that everyone is simply a mirror of you. Of course, we do partly mirror one another, but each person was formed by plenty that had nothing to do with you. No matter how enlightened the Buddha was, his cousin Devadatta still kept trying to kill him: looking honestly at your part doesn’t erase theirs. Sometimes it helps to ask, “What would Mr. Rogers do?” (if you’re old enough to remember that show).
+Spiritual practice during an ending is critical, but don’t use it to get around the feelings. Pray for your ex’s wellbeing. Remember what was real and good, and don’t use your pain as permission to hate them. Avoid the New Age belief that everyone is simply a mirror of you. Of course, we do partly mirror one another, but each person was formed by plenty that had nothing to do with you. No matter how enlightened the Buddha was, his cousin Devadatta still kept trying to kill him: admitting your part doesn’t erase theirs. Sometimes it helps to ask, “What would Mr. Rogers do?” (if you’re old enough to remember that show).
 
 I also learned that public demonization doesn’t always have to be the last chapter, even if things ended on that bitter note. If you avoid contact forever, they might never apologize and learn honesty. But it can help to keep distance for a while until cooler heads prevail. On the other hand, it can be tempting to let them back into your life after a private apology, and especially after a public one, but keep in mind you deserve a stable love. You’re not a yo-yo.
 
@@ -972,6 +972,6 @@ The myths around romantic love become real because we co-create them. We act as 
 
 It might be that I wrote this whole article for my son, Bear, who sadly, I last saw when he was about five, right before he was supposed to get the Rosenblum sex talk.
 
-Bear, sex can be what you do when you’re older and find a friend you love in a super special way that makes you want to raise children together. Don’t imagine you love each other just because you want each other. Don’t feel pressure to promise what your heart will feel. Let the love and bond it produces blossom honestly as your hearts sync. Learn about each other before getting too close, and make sure to keep friends and community around who know both of you.
+Bear, sex can be what you do when you’re older and find a friend you love in a super special way that makes you want to raise children together. Don’t imagine you love each other just because you want each other. Don’t feel pressure to promise what your heart will feel. Let the love and bond it produces blossom in its own time as your hearts sync. Learn about each other before getting too close, and make sure to keep friends and community around who know both of you.
 
 I believe Rumi was right: A sacred relationship will open and purify your hearts regardless of whether it ends.

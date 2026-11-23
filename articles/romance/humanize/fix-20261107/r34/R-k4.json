@@ -1,0 +1,154 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-23",
+ "text_sha256": "7cae795c5259fd7bc07718a66a4ac076773cb02af8dde0fab1b0108c72d81d69",
+ "text": "Spiritual practice during an ending is critical, but don’t use it to get around the feelings. Pray for your ex’s wellbeing. Remember what was real and good, and don’t use your pain as permission to hate them. Avoid the New Age belief that everyone is simply a mirror of you. Of course, we do partly mirror one another, but each person was formed by plenty that had nothing to do with you. No matter how enlightened the Buddha was, his cousin Devadatta still kept trying to kill him: admitting your part doesn’t erase theirs. Sometimes it helps to ask, “What would Mr. Rogers do?” (if you’re old enough to remember that show).",
+ "section": "After leaving",
+ "reader": "someone reading an essay on romance for advice they can use in their own dating and relationships",
+ "sentences": [
+  {
+   "s": "Spiritual practice during an ending is critical, but don’t use it to get around the feelings.",
+   "payoff": "they see spiritual practice as a support during a breakup that must not replace feeling the feelings.",
+   "follows": "the heading is about after the relationship ends, and this opens with how the reader's spiritual life fits that time.",
+   "link": "none: it opens the paragraph's new step, what to do spiritually during an ending, after the practical steps of the paragraph before"
+  },
+  {
+   "s": "Pray for your ex’s wellbeing.",
+   "payoff": "they have a concrete practice to do, wishing the ex well.",
+   "follows": "it gives one example of the spiritual practice named in S1.",
+   "link": "none: example of the practice in S1"
+  },
+  {
+   "s": "Remember what was real and good, and don’t use your pain as permission to hate them.",
+   "payoff": "they remember what was good and don't treat their pain as a reason to hate.",
+   "follows": "it adds a second practice and a limit on what the pain justifies.",
+   "link": "Remember what was real"
+  },
+  {
+   "s": "Avoid the New Age belief that everyone is simply a mirror of you.",
+   "payoff": "they know to watch for the idea that everything that happened is their own reflection.",
+   "follows": "it turns from what to do to a belief to avoid.",
+   "link": "Avoid the New Age belief"
+  },
+  {
+   "s": "Of course, we do partly mirror one another, but each person was formed by plenty that had nothing to do with you.",
+   "payoff": "they get a fair version of the mirror idea and a reason the extreme version is wrong.",
+   "follows": "it grants what is true in the belief of S4 before limiting it.",
+   "link": "Of course, we do partly"
+  },
+  {
+   "s": "No matter how enlightened the Buddha was, his cousin Devadatta still kept trying to kill him: admitting your part doesn’t erase theirs.",
+   "payoff": "they see by an example that owning their part of the breakup doesn't excuse what their ex did.",
+   "follows": "it gives a case showing the limit set in S5.",
+   "link": "none: example for the previous sentence"
+  },
+  {
+   "s": "Sometimes it helps to ask, “What would Mr. Rogers do?” (if you’re old enough to remember that show).",
+   "payoff": "they have a simple question to ask themselves when they don't know how to act toward the ex.",
+   "follows": "it adds one more way to decide how to act, after the cautions.",
+   "link": "Sometimes it helps to ask"
+  }
+ ],
+ "checked": [],
+ "placement": "It sits in the section on after leaving because the reader is dealing with an ex and needs guidance on how to hold the ending spiritually without bypassing feelings.",
+ "opens": {
+  "first_sentence": "Spiritual practice during an ending is critical, but don’t use it to get around the feelings.",
+  "why_reading": "It tells the reader that spiritual practice matters now, with a warning, so they read on for what the practice is and what to avoid."
+ },
+ "same_point": "S6 partly repeats S5's point that each person has causes not about you, by giving a case.",
+ "needed": {
+  "reader": "a fresh Sonnet reader given tools/humanization/needed_read_brief.md and the text with its heading",
+  "unneeded": [
+   "Sometimes it helps to ask, “What would Mr. Rogers do?” (if you’re old enough to remember that show)."
+  ],
+  "kept": {
+   "Sometimes it helps to ask, “What would Mr. Rogers do?” (if you’re old enough to remember that show).": "they keep a light, usable test for how to act toward an ex; it is his own sentence (his answer of 2026-11-22), kept as he wrote it"
+  }
+ },
+ "his_fixes": {
+  "reader": "the same fresh reader given tools/humanization/his_fixes_brief.md and the text one sentence a line",
+  "marked": [
+   {
+    "s": "Spiritual practice during an ending is critical, but don’t use it to get around the feelings.",
+    "difference": "way 3: 'critical, but don't' is a correcting pair, and way 10: 'it' could be the ending or the practice."
+   },
+   {
+    "s": "Pray for your ex’s wellbeing.",
+    "difference": "way 13: it opens on what to do without saying what in the reader's situation calls for it, and way 18: a short line standing alone."
+   },
+   {
+    "s": "Remember what was real and good, and don’t use your pain as permission to hate them.",
+    "difference": "way 3: 'and don't use ... permission' is a contrast, and way 14: it doesn't say why someone would want to hate, which he would say first."
+   },
+   {
+    "s": "Avoid the New Age belief that everyone is simply a mirror of you.",
+    "difference": "way 14: a rule against something natural, said flatly without why someone would hold it, and way 18: a short line."
+   },
+   {
+    "s": "Of course, we do partly mirror one another, but each person was formed by plenty that had nothing to do with you.",
+    "difference": "way 3: it is a correcting 'partly ... but' pair, and way 21: 'formed by plenty' is vague."
+   },
+   {
+    "s": "No matter how enlightened the Buddha was, his cousin Devadatta still kept trying to kill him: admitting your part doesn’t erase theirs.",
+    "difference": "way 3: it ends on 'doesn't erase theirs', a correcting contrast, and way 6: it ends on a line that sounds wise rather than on what to do; way 1 also: several ideas in one sentence."
+   },
+   {
+    "s": "Sometimes it helps to ask, “What would Mr. Rogers do?” (if you’re old enough to remember that show).",
+    "difference": "way 17: a reader who doesn't remember the show can't use it, and way 6: it ends the paragraph on a quip."
+   }
+  ],
+  "kept": {
+   "Spiritual practice during an ending is critical, but don’t use it to get around the feelings.": "the article's text as it stands: only the word \"honestly\" changed in this paragraph, and the section it sits in read Human with 0% AI in the section pass; this sentence is for the vetted-junk pass, not this one-word change",
+   "Pray for your ex’s wellbeing.": "the article's text as it stands: only the word \"honestly\" changed in this paragraph, and the section it sits in read Human with 0% AI in the section pass; this sentence is for the vetted-junk pass, not this one-word change",
+   "Remember what was real and good, and don’t use your pain as permission to hate them.": "the article's text as it stands: only the word \"honestly\" changed in this paragraph, and the section it sits in read Human with 0% AI in the section pass; this sentence is for the vetted-junk pass, not this one-word change",
+   "Avoid the New Age belief that everyone is simply a mirror of you.": "the article's text as it stands: only the word \"honestly\" changed in this paragraph, and the section it sits in read Human with 0% AI in the section pass; this sentence is for the vetted-junk pass, not this one-word change",
+   "Of course, we do partly mirror one another, but each person was formed by plenty that had nothing to do with you.": "the article's text as it stands: only the word \"honestly\" changed in this paragraph, and the section it sits in read Human with 0% AI in the section pass; this sentence is for the vetted-junk pass, not this one-word change",
+   "No matter how enlightened the Buddha was, his cousin Devadatta still kept trying to kill him: admitting your part doesn’t erase theirs.": "the article's text as it stands: only the word \"honestly\" changed in this paragraph, and the section it sits in read Human with 0% AI in the section pass; this sentence is for the vetted-junk pass, not this one-word change",
+   "Sometimes it helps to ask, “What would Mr. Rogers do?” (if you’re old enough to remember that show).": "the article's text as it stands: only the word \"honestly\" changed in this paragraph, and the section it sits in read Human with 0% AI in the section pass; this sentence is for the vetted-junk pass, not this one-word change"
+  }
+ },
+ "fit": {
+  "reader": "the same fresh reader given tools/humanization/fit_read_brief.md and the text one line a line",
+  "marked": [
+   {
+    "s": "Spiritual practice during an ending is critical, but don’t use it to get around the feelings.",
+    "found": "CAN'T TELL: 'spiritual practice' isn't said, so a reader without one doesn't know what it means for them."
+   },
+   {
+    "s": "Pray for your ex’s wellbeing.",
+    "found": "FROM: assumes a reader who prays, though the text hasn't said this is for any one belief."
+   },
+   {
+    "s": "Sometimes it helps to ask, “What would Mr. Rogers do?” (if you’re old enough to remember that show).",
+    "found": "CAN'T TELL: a reader who doesn't know the show can't answer the question."
+   }
+  ],
+  "kept": {
+   "Spiritual practice during an ending is critical, but don’t use it to get around the feelings.": "the article's text as it stands: only the word \"honestly\" changed in this paragraph, and the section it sits in read Human with 0% AI in the section pass; this sentence is for the vetted-junk pass, not this one-word change",
+   "Pray for your ex’s wellbeing.": "the article's text as it stands: only the word \"honestly\" changed in this paragraph, and the section it sits in read Human with 0% AI in the section pass; this sentence is for the vetted-junk pass, not this one-word change",
+   "Sometimes it helps to ask, “What would Mr. Rogers do?” (if you’re old enough to remember that show).": "the article's text as it stands: only the word \"honestly\" changed in this paragraph, and the section it sits in read Human with 0% AI in the section pass; this sentence is for the vetted-junk pass, not this one-word change"
+  }
+ },
+ "questions": {
+  "Q1": "PASS: S1 states the point, and each later sentence adds under it.",
+  "Q2": "PASS: S3 gives a purpose for remembering what was good (not hating), and S1 gives one for the caution; S2 'pray' gives none beyond S1.",
+  "Q3": "PASS: 'the New Age belief that everyone is simply a mirror' names the case.",
+  "Q4": "PASS: Devadatta is explained by what he did, and 'use it to get around the feelings' is understandable from context.",
+  "Q5": "PASS: S5 'Of course' grants S4's belief, S6 supports S5, and 'it' in S1 and S3 is clear.",
+  "Q6": "PASS: his own order (his answer of 2026-11-22): the Mr. Rogers question closes the paragraph as a practical test after the reasons, which is where he put it",
+  "Q7": "PASS: each sentence helps someone coping with an ex, apart from S7 for a reader who doesn't know the show.",
+  "Q8": "N/A: nothing is sorted into groups.",
+  "Q9": "PASS: S6 is one illustration and its point, joined by a colon, as he wrote it"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}
