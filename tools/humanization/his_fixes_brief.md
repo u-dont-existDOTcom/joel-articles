@@ -66,8 +66,11 @@ that still reads the first way.
    person won't look, you can't make it mutual" into "if the other person won't look at the truth, you can't make
    honesty a mutual value", and "Temporary separation helped Bee and I. It also became more permanent" (the separation,
    or honesty?) into one sentence, "although it became less temporary as time went on"; he named each with words the
-   passage already had, and added nothing (romance, 2026-11-23, lesson romance-2026-11-23h). For every such word, write
-   what it could mean here, and mark it if a quick reader could take it either way.
+   passage already had, and added nothing (romance, 2026-11-23, lesson romance-2026-11-23h). A run of "maybe ..."
+   possibilities just before "that question" is the question, with or without a question mark ("i don't think the
+   question is so hard to understand after maybe this or maybe that"); saying it again as "whether ..." says it twice,
+   which is what the blind rewrite of that passage did. For every such word, write what it could mean here, and mark it
+   if a quick reader could take it either way.
 11. **The means before the payoff.** A sentence that opens on the tool, the source or the method, and only then says
    what the reader gets from it. He fixed "We can use the same Hunter criteria that clinicians use to diagnose
    serotonin syndrome." into "To diagnose serotonin syndrome, we can use the Hunter criteria, the same checklist
