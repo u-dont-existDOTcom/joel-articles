@@ -1,0 +1,490 @@
+{
+ "post": {
+  "base": "https://ibogaqueen.substack.com",
+  "id": "209400477",
+  "title": "What If Everything Is Already Perfect? (v2.2)"
+ },
+ "source": "Built 2026-11-23 by experiments/toc-20261123/build_catalog.py from his contents picks as published at 18:01:47 UTC: headings and anchors read from the live page, links from PLAN.json (all 13 checked on the live page: each lands on a heading)",
+ "headings": [
+  {
+   "id": "S001",
+   "level": 1,
+   "text": "Introduction & Navigation",
+   "anchor": "introduction-and-navigation"
+  },
+  {
+   "id": "S002",
+   "level": 1,
+   "text": "Why Did I Write This?",
+   "anchor": "why-did-i-write-this"
+  },
+  {
+   "id": "S003",
+   "level": 1,
+   "text": "My Crazy Wonderful Life",
+   "anchor": "my-crazy-wonderful-life"
+  },
+  {
+   "id": "S004",
+   "level": 2,
+   "text": "The Weight of the World",
+   "anchor": "the-weight-of-the-world"
+  },
+  {
+   "id": "S005",
+   "level": 2,
+   "text": "Ayahuasca Blew My Mind",
+   "anchor": "ayahuasca-blew-my-mind"
+  },
+  {
+   "id": "S006",
+   "level": 2,
+   "text": "The Afterglow Wore Off",
+   "anchor": "the-afterglow-wore-off"
+  },
+  {
+   "id": "S007",
+   "level": 2,
+   "text": "Enlightened or Deluded?",
+   "anchor": "enlightened-or-deluded"
+  },
+  {
+   "id": "S008",
+   "level": 2,
+   "text": "Loving-Kindness (Mettā)",
+   "anchor": "loving-kindness-metta"
+  },
+  {
+   "id": "S009",
+   "level": 2,
+   "text": "Useless Peak States?",
+   "anchor": "useless-peak-states"
+  },
+  {
+   "id": "S010",
+   "level": 2,
+   "text": "Why Monks Stay Vague",
+   "anchor": "why-monks-stay-vague"
+  },
+  {
+   "id": "S011",
+   "level": 2,
+   "text": "The Map Past Oneness",
+   "anchor": "the-map-past-oneness"
+  },
+  {
+   "id": "S012",
+   "level": 2,
+   "text": "The Suttas on Unification",
+   "anchor": "the-suttas-on-unification"
+  },
+  {
+   "id": "S013",
+   "level": 2,
+   "text": "The Pithy Bāhiya Sutta",
+   "anchor": "the-pithy-bahiya-sutta"
+  },
+  {
+   "id": "S014",
+   "level": 3,
+   "text": "Things Know Themselves",
+   "anchor": "things-know-themselves"
+  },
+  {
+   "id": "S015",
+   "level": 2,
+   "text": "Desperation Did the Trick",
+   "anchor": "desperation-did-the-trick"
+  },
+  {
+   "id": "S016",
+   "level": 2,
+   "text": "The Room Unwove",
+   "anchor": "the-room-unwove"
+  },
+  {
+   "id": "S017",
+   "level": 3,
+   "text": "Is Nibbāna Unimaginable?",
+   "anchor": "is-nibbana-unimaginable"
+  },
+  {
+   "id": "S018",
+   "level": 2,
+   "text": "Enlightened Fingers",
+   "anchor": "enlightened-fingers"
+  },
+  {
+   "id": "S019",
+   "level": 3,
+   "text": "Two Scopes of Nibbāna",
+   "anchor": "two-scopes-of-nibbana"
+  },
+  {
+   "id": "S020",
+   "level": 2,
+   "text": "Stream Entered",
+   "anchor": "stream-entered"
+  },
+  {
+   "id": "S021",
+   "level": 1,
+   "text": "The Enlightenment Manual",
+   "anchor": "the-enlightenment-manual"
+  },
+  {
+   "id": "S022",
+   "level": 2,
+   "text": "Spiritual Bypass Warning",
+   "anchor": "spiritual-bypass-warning"
+  },
+  {
+   "id": "S024",
+   "level": 3,
+   "text": "Friends Are Everything",
+   "anchor": "friends-are-everything"
+  },
+  {
+   "id": "S025",
+   "level": 2,
+   "text": "What's Next After Death?",
+   "anchor": "whats-next-after-death"
+  },
+  {
+   "id": "S026",
+   "level": 2,
+   "text": "What Is \"Already Perfect\"?",
+   "anchor": "what-is-already-perfect"
+  },
+  {
+   "id": "S027",
+   "level": 2,
+   "text": "Free Will vs Conditions",
+   "anchor": "free-will-vs-conditions"
+  },
+  {
+   "id": "S028",
+   "level": 2,
+   "text": "What \"Nibbāna\" Means",
+   "anchor": "what-nibbana-means"
+  },
+  {
+   "id": "S029",
+   "level": 2,
+   "text": "Nibbāna's Volume Knobs",
+   "anchor": "nibbanas-volume-knobs"
+  },
+  {
+   "id": "S030",
+   "level": 3,
+   "text": "My Nibbāna Taxonomy",
+   "anchor": "my-nibbana-taxonomy"
+  },
+  {
+   "id": "S031",
+   "level": 2,
+   "text": "Is Nibbāna an Experience?",
+   "anchor": "is-nibbana-an-experience"
+  },
+  {
+   "id": "S032",
+   "level": 2,
+   "text": "Contact Builds a World",
+   "anchor": "contact-builds-a-world"
+  },
+  {
+   "id": "S033",
+   "level": 3,
+   "text": "Awareness Is Plural",
+   "anchor": "awareness-is-plural"
+  },
+  {
+   "id": "S034",
+   "level": 3,
+   "text": "Ignorance Is the Root",
+   "anchor": "ignorance-is-the-root"
+  },
+  {
+   "id": "S035",
+   "level": 3,
+   "text": "Why the Tangle Is Heavy",
+   "anchor": "why-the-tangle-is-heavy"
+  },
+  {
+   "id": "S036",
+   "level": 3,
+   "text": "Binding Makes the Mind",
+   "anchor": "binding-makes-the-mind"
+  },
+  {
+   "id": "S037",
+   "level": 3,
+   "text": "Capacity for Suffering",
+   "anchor": "capacity-for-suffering"
+  },
+  {
+   "id": "S038",
+   "level": 2,
+   "text": "Nibbāna as Light Flows",
+   "anchor": "nibbana-as-light-flows"
+  },
+  {
+   "id": "S039",
+   "level": 3,
+   "text": "Sutta Light Language",
+   "anchor": "sutta-light-language"
+  },
+  {
+   "id": "S040",
+   "level": 3,
+   "text": "Go Into the Light",
+   "anchor": "go-into-the-light"
+  },
+  {
+   "id": "S041",
+   "level": 3,
+   "text": "Isn't It \"Unconditioned\"?",
+   "anchor": "isnt-it-unconditioned"
+  },
+  {
+   "id": "S042",
+   "level": 3,
+   "text": "Light's Also Unfabricated",
+   "anchor": "lights-also-unfabricated"
+  },
+  {
+   "id": "S043",
+   "level": 3,
+   "text": "Light Has No Time",
+   "anchor": "light-has-no-time"
+  },
+  {
+   "id": "S044",
+   "level": 2,
+   "text": "What the Books Never Say",
+   "anchor": "what-the-books-never-say"
+  },
+  {
+   "id": "S045",
+   "level": 2,
+   "text": "How the Teaching Faded",
+   "anchor": "how-the-teaching-faded"
+  },
+  {
+   "id": "S046",
+   "level": 2,
+   "text": "Maps Make Counterfeits",
+   "anchor": "maps-make-counterfeits"
+  },
+  {
+   "id": "S047",
+   "level": 2,
+   "text": "AtR's Authentication Culture",
+   "anchor": "atrs-authentication-culture"
+  },
+  {
+   "id": "S048",
+   "level": 2,
+   "text": "Stream Entry Ends Rebirth",
+   "anchor": "stream-entry-ends-rebirth"
+  },
+  {
+   "id": "S049",
+   "level": 3,
+   "text": "Practice Outlasts Death",
+   "anchor": "practice-outlasts-death"
+  },
+  {
+   "id": "S050",
+   "level": 3,
+   "text": "Am I a Stream-Enterer?",
+   "anchor": "am-i-a-stream-enterer"
+  },
+  {
+   "id": "S051",
+   "level": 3,
+   "text": "Who Gets Reborn?",
+   "anchor": "who-gets-reborn"
+  },
+  {
+   "id": "S052",
+   "level": 3,
+   "text": "Waking From the Dream",
+   "anchor": "waking-from-the-dream"
+  },
+  {
+   "id": "S053",
+   "level": 2,
+   "text": "Science Can't Settle This",
+   "anchor": "science-cant-settle-this"
+  },
+  {
+   "id": "S054",
+   "level": 3,
+   "text": "Try a Tiny Bit of Nibbāna",
+   "anchor": "try-a-tiny-bit-of-nibbana"
+  },
+  {
+   "id": "S055",
+   "level": 3,
+   "text": "What Counts as Success, Confusion, or Danger",
+   "anchor": "what-counts-as-success-confusion-or-danger"
+  },
+  {
+   "id": "S056",
+   "level": 3,
+   "text": "What Remains Afterward",
+   "anchor": "what-remains-afterward"
+  },
+  {
+   "id": "S060",
+   "level": 2,
+   "text": "Are disappearing flashbacks dangerous or cool?",
+   "anchor": "are-disappearing-flashbacks-dangerous-or-cool"
+  },
+  {
+   "id": "S057",
+   "level": 2,
+   "text": "Then a Cow Killed Bāhiya",
+   "anchor": "then-a-cow-killed-bahiya"
+  },
+  {
+   "id": "S058",
+   "level": 2,
+   "text": "Come and See for Yourself!",
+   "anchor": "come-and-see-for-yourself"
+  }
+ ],
+ "links": [
+  {
+   "in": "S001",
+   "text": "The Enlightenment Manual",
+   "target": "S021",
+   "href": "https://ibogaqueen.substack.com/i/209400477/the-enlightenment-manual"
+  },
+  {
+   "in": "S011",
+   "text": "partial untying",
+   "target": "S030",
+   "href": "https://ibogaqueen.substack.com/i/209400477/my-nibbana-taxonomy"
+  },
+  {
+   "in": "S016",
+   "text": "the fingers event",
+   "target": "S018",
+   "href": "https://ibogaqueen.substack.com/i/209400477/enlightened-fingers"
+  },
+  {
+   "in": "S019",
+   "text": "the room itself unweaving",
+   "target": "S016",
+   "href": "https://ibogaqueen.substack.com/i/209400477/the-room-unwove"
+  },
+  {
+   "in": "S019",
+   "text": "those terms more carefully below",
+   "target": "S048",
+   "href": "https://ibogaqueen.substack.com/i/209400477/stream-entry-ends-rebirth"
+  },
+  {
+   "in": "S025",
+   "text": "that evidence later on",
+   "target": "S051",
+   "href": "https://ibogaqueen.substack.com/i/209400477/who-gets-reborn"
+  },
+  {
+   "in": "S029",
+   "text": "the guided meditation later in this article",
+   "target": "S054",
+   "href": "https://ibogaqueen.substack.com/i/209400477/try-a-tiny-bit-of-nibbana"
+  },
+  {
+   "in": "S034",
+   "text": "the Bāhiya Sutta",
+   "target": "S013",
+   "href": "https://ibogaqueen.substack.com/i/209400477/the-pithy-bahiya-sutta"
+  },
+  {
+   "in": "S039",
+   "text": "the Bāhiya Sutta",
+   "target": "S013",
+   "href": "https://ibogaqueen.substack.com/i/209400477/the-pithy-bahiya-sutta"
+  },
+  {
+   "in": "S039",
+   "text": "I quoted earlier",
+   "target": "S033",
+   "href": "https://ibogaqueen.substack.com/i/209400477/awareness-is-plural"
+  },
+  {
+   "in": "S052",
+   "text": "the lucid dreaming analogy I made earlier",
+   "target": "S020",
+   "href": "https://ibogaqueen.substack.com/i/209400477/stream-entered"
+  },
+  {
+   "in": "S057",
+   "text": "the lovely Bāhiya Sutta",
+   "target": "S013",
+   "href": "https://ibogaqueen.substack.com/i/209400477/the-pithy-bahiya-sutta"
+  },
+  {
+   "in": "S058",
+   "text": "as I said earlier in the essay",
+   "target": "S035",
+   "href": "https://ibogaqueen.substack.com/i/209400477/why-the-tangle-is-heavy"
+  }
+ ],
+ "unlinked_on_purpose": [
+  {
+   "in": "S004",
+   "text": "the weight of the world",
+   "why": "the heading takes its words from this line, its own first line"
+  },
+  {
+   "in": "S017",
+   "text": "before the room event",
+   "why": "the room event is this subsection's own parent, the line above it in the contents"
+  },
+  {
+   "in": "S019",
+   "text": "I call the fingers event body-limited nibbāna and the room event",
+   "why": "the fingers event is this subsection's parent; the room event is linked once already in this section"
+  },
+  {
+   "in": "S019",
+   "text": "which I analyze further down",
+   "why": "no single section: the analysis runs through the manual"
+  },
+  {
+   "in": "S025",
+   "text": "In the video below",
+   "why": "a video in the same section"
+  },
+  {
+   "in": "S037",
+   "text": "the capacity for suffering",
+   "why": "the section's own words"
+  },
+  {
+   "in": "S039",
+   "text": "nibbāna as light flows",
+   "why": "its own parent's heading, the line above in the contents"
+  },
+  {
+   "in": "S040",
+   "text": "go into the light",
+   "why": "the section's own words"
+  },
+  {
+   "in": "S057",
+   "text": "because I told you a sound heard itself",
+   "why": "the section links the Bāhiya Sutta section once already, in its first line"
+  },
+  {
+   "in": "S058",
+   "text": "come and see for yourself",
+   "why": "the section's own words"
+  }
+ ]
+}

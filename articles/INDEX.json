@@ -69836,7 +69836,7 @@
         },
         "current_state": {
           "path": "articles/nibbana/CURRENT-STATE.md",
-          "sha256": "795317a117e9e5f8801e1dd7ed3f56a14dfee2690a503125511a8054d87e24d7"
+          "sha256": "bf7e25c8eef3be6ff5017f1a7d2d679baf33a40638f401f41a7c4b8891a4de62"
         }
       },
       "review": {
@@ -72030,7 +72030,7 @@
         },
         {
           "path": "articles/nibbana/experiments/toc-20261123/RESULTS.md",
-          "sha256": "2234bf364d71fa607630b8c8199178d07c757211e2a4bcd3677b1266efdec277",
+          "sha256": "03a0cf65f63f4bf580554d6f6b6319afc8088f540bfa508ba342b9e4721f4f86",
           "role": "detector_experiment_result"
         },
         {
@@ -72105,7 +72105,7 @@
         },
         {
           "path": "articles/nibbana/experiments/toc-20261123/make_results.py",
-          "sha256": "0f0763a5e0f7e9d0e3c5fe2edba3ba5e88a0633e71ef3d32267f5729bb769160",
+          "sha256": "667489722f12112d240d239de631464834500d85868700535360b60fef9c3b38",
           "role": "humanization_working_record"
         },
         {
@@ -72301,6 +72301,31 @@
         {
           "path": "articles/nibbana/experiments/toc-20261123/pangram/SEC-SPECS.json",
           "sha256": "e700c12b4f6f43b1cefcb89aae087ad7beb72cf5932c10e23dda26e5a2963a57",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/nibbana/SECTION-LINKS.json",
+          "sha256": "f452a210a8193c65ea24816056fb9cbbfeef113be505ed523706fc805d9a1a8c",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/nibbana/experiments/toc-20261123/APPLIED.md",
+          "sha256": "a510516b906a4151adf8415ddfd08604c9db65ca8c224a3c974550861d9c0cac",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/nibbana/experiments/toc-20261123/LIVE-ANCHORS-20261123.json",
+          "sha256": "ee68e148651738b766dce7614a036cf29110657383ce2f6c42d947aecbb13e35",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/nibbana/experiments/toc-20261123/build_catalog.py",
+          "sha256": "130a8c4c2b08c4aaffd167370cce86bcf5fc64b667622bcfa3fad779c7db92ed",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/nibbana/experiments/toc-20261123/make_applied.py",
+          "sha256": "0f4a8a9b439ed2986fa6995b99a5edf3dcdcb58f933727e2aef9d7421e96af05",
           "role": "humanization_working_record"
         }
       ]
