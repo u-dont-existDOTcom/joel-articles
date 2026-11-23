@@ -1,0 +1,99 @@
+{
+ "format": "joel-suggestion-review-v1",
+ "review_id": "romance-t5",
+ "built": "2026-11-22",
+ "title": "Romance Advice I Wish My Parents Taught Me: the whole article with your answers in",
+ "intro": [
+  "The whole article as it reads now, with your 59 versions from the Medium page in (two of them with a question below, on your own words, and two questions on names in the live text). Every paragraph, picture and video is here in order: nothing is left out. Your other versions went in as you wrote them, with only obvious slips fixed (listed in the chat)."
+ ],
+ "git_file": "articles/romance/review/teach-20261122/REVIEW-T5.html",
+ "article": {
+  "file": "articles/romance/humanize/fix-20261107/whole/FIXED.md",
+  "sha256": "12bee7ff0d008a204a4a11b578135dd2f60f1835adc86f4bf10bda33e8bfed0c"
+ },
+ "whole": {
+  "file": "articles/romance/humanize/fix-20261107/whole/FIXED.md",
+  "sha256": "12bee7ff0d008a204a4a11b578135dd2f60f1835adc86f4bf10bda33e8bfed0c"
+ },
+ "links": {
+  "guide": "https://ibogaqueen.substack.com/p/romance-advice-i-wish-my-parents",
+  "guide_label": "your live post",
+  "review": "https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/romance-20261108/articles/romance/review/teach-20261122/REVIEW-T5.md"
+ },
+ "types": {
+  "ask": {
+   "label": "Questions on your words",
+   "about": "only you can answer: your own new sentences"
+  }
+ },
+ "suggestions": [
+  {
+   "id": "Q-14",
+   "type": "ask",
+   "title": "Who is \"they\" here?",
+   "advice": "ask",
+   "question": "In your new sentence \"Women are kind of notorious for proudly not knowing what they want, and pressuring men into making it look like they know what they want\", the second \"they\" can be read as the men or as the women. Which do you mean? My reading: the men are pushed to act as if they know what she wants. If so, it could say \"and pressuring men to act like they know what she wants.\" Your words go in as you answer.",
+   "why": "A fresh reader could take the sentence two ways, and it is your own sentence (your answer M-14).",
+   "advice_note": "My pick: \"and pressuring men to act like they know what she wants\", if that is what you meant.",
+   "whose": "his own: his answer on the Medium page, 2026-11-22",
+   "spans": [
+    {
+     "block": 19,
+     "start": 99,
+     "end": 163
+    }
+   ]
+  },
+  {
+   "id": "Q-409",
+   "type": "ask",
+   "title": "\"Literally diagnosed\": not quite",
+   "advice": "ask",
+   "question": "Your new sentence says non-strategic lying \"is literally diagnosed as 'pathological lying.'\" Pathological lying is a real clinical term, but it is not a diagnosis in the DSM-5: psychiatrists treat it as a feature of other conditions, and researchers have argued it should become one (StatPearls, \"Pseudologia Fantastica\", 2026: https://pubmed.ncbi.nlm.nih.gov/39163430/ ; Curtis and Hart, \"Pathological Lying: Theoretical and Empirical Support for a Diagnostic Entity\": https://pmc.ncbi.nlm.nih.gov/articles/PMC9176035/). It could say \"Non-strategic lying is what psychiatrists call 'pathological lying,'\" and keep your point. Which do you want?",
+   "why": "A point in your own words that a reader could check and find overstated (gate E348).",
+   "advice_note": "My pick: \"Non-strategic lying is what psychiatrists call 'pathological lying,'\" (your point stays: it is closer to an illness than a failure of virtue).",
+   "whose": "his own: his answer on the Medium page, 2026-11-22",
+   "spans": [
+    {
+     "block": 432,
+     "start": 327,
+     "end": 372
+    }
+   ]
+  },
+  {
+   "id": "Q-314",
+   "type": "ask",
+   "title": "Bee or Ann as your first wife?",
+   "advice": "ask",
+   "question": "This paragraph (as your live post has it) says \"I’ve also had telepathy with some folks, especially my first wife, Bee\", but the article calls Ann your first wife twice (\"like my first wife, Ann\" in your new Twin Flames paragraph, and \"I took my first wife, Ann, to two counselors\" further on). Which is it here: Ann, or Bee as \"my ex, Bee\"?",
+   "why": "A fact about your life that the article says two ways; only you know which is right.",
+   "advice_note": "If Bee is meant: \"especially my ex, Bee\". If Ann: \"especially my first wife, Ann\".",
+   "whose": "his own: his answer on the Medium page, 2026-11-22",
+   "spans": [
+    {
+     "block": 331,
+     "start": 492,
+     "end": 521
+    }
+   ]
+  },
+  {
+   "id": "Q-392",
+   "type": "ask",
+   "title": "\"H.D.\" or \"H.\"?",
+   "advice": "ask",
+   "question": "Everywhere else she is \"H.\", and her story (the connection that kept deepening) is the one you tell under Two Pillars. Here the live post has \"H.D.\" Is that a slip for \"H.\", or a different person?",
+   "why": "A name, so I’m not changing it without you.",
+   "advice_note": "My guess: a slip, so \"H.\" here too.",
+   "whose": "his own: his answer on the Medium page, 2026-11-22",
+   "spans": [
+    {
+     "block": 414,
+     "start": 251,
+     "end": 278
+    }
+   ]
+  }
+ ]
+}

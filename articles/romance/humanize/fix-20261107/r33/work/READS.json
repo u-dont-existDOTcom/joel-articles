@@ -1,0 +1,22 @@
+{
+ "P1": {
+  "needed": {"unneeded": []},
+  "his_fixes": {"marked": []},
+  "fit": {"marked": []}
+ },
+ "P5": {
+  "needed": {"unneeded": []},
+  "his_fixes": {"marked": [
+   {"s": "Look at the most recent conflicts and ask if you were able to regulate yourself during them.", "difference": "way 10: \"you\" and \"the most recent conflicts\" could be the reader's own or the other person's, and the heading is about asking someone else; \"regulate yourself\" is also vague about what counts"},
+   {"s": "Has your judgment gotten better, or do you keep falling for the same stuff, and would your friends or exes agree?", "difference": "way 19: a run of questions where one sits inside another (better judgment / same stuff / friends or exes agree); way 1: several ideas packed into one sentence; way 4: \"the same stuff\" is vague about what repeats"}
+  ]},
+  "fit": {"marked": [
+   {"s": "Look at the most recent conflicts and ask if you were able to regulate yourself during them.", "found": "MISREAD / CAN'T TELL: \"you\" reads as the reader's own conflicts, but the paragraph is for looking at someone else's recent conflicts; the reader can't see them and it is unclear whose self-regulation is being asked about"}
+  ]}
+ },
+ "P6": {
+  "needed": {"unneeded": []},
+  "his_fixes": {"marked": []},
+  "fit": {"marked": []}
+ }
+}

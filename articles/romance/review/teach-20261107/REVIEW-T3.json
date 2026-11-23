@@ -1,0 +1,73 @@
+{
+ "format": "joel-suggestion-review-v1",
+ "review_id": "romance-teach-t3",
+ "title": "Romance Advice I Wish My Parents Taught Me: one list to teach me from, and a question",
+ "intro": [
+  "Your whole-article check read both halves Human Written. Of the eight windows it read AI or Low, seven now read Human at Medium or High in their sections; my message has the links.",
+  "This page has the one I can’t fix, a list of what can go wrong on a first night, and one question about your new jealousy paragraphs. Press Edit it on the first and write it the way you’d say it."
+ ],
+ "git_file": "articles/romance/review/teach-20261107/REVIEW-T3.html",
+ "article": {
+  "file": "articles/romance/review/teach-20261107/PAGE-T3.md",
+  "sha256": "8c955219f94d92021d5357df7d511f9494a7a5efaa0e776266cfb214e2d95db7"
+ },
+ "built": "2026-11-08",
+ "links": {
+  "guide": "https://ibogaqueen.substack.com/p/romance-advice-i-wish-my-parents",
+  "guide_label": "your live post",
+  "review": "https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/romance/review/teach-20261107/REVIEW-T3.md"
+ },
+ "types": {
+  "teach": {
+   "label": "Teach me",
+   "about": "a paragraph that reads AI in every wording I tried: how you would say it teaches me how to say the rest"
+  },
+  "question": {
+   "label": "Question",
+   "about": "a choice about your own words"
+  }
+ },
+ "suggestions": [
+  {
+   "id": "TEACH-SLOW-LIST",
+   "type": "teach",
+   "advice": "edit",
+   "whose": "he asked: Joel, 2026-11-07 12:08 UTC, in the bad trips lane (gate bad-trips-2026-11-07c makes it every lane's rule): \"if you can't figure out how to humanize things, give me the top most important paragraphs (usually 1 or 2) that youu think i could teach you from that would help you humanize the rest, and give me your best tries on those to fix.\"",
+   "keep_label": "skip this one",
+   "title": "What twenty years of knowing someone can’t tell you about the first night",
+   "reading": "In your whole-article check (draft A, [the result](https://www.pangram.com/feed/87029c8c-313d-436c-b885-e76466096da6)): Human Low on its two list sentences, though the section read Human with no Low by itself ([#96](https://www.pangram.com/history/c71291d2-3fc7-444b-a538-44647109f8b8)).",
+   "tested": "1. As your live post has it, one sentence with five items: the section read [34% AI](https://www.pangram.com/history/db9d87a7-249e-44f8-a1e3-2facc9bc1b6c).\n\n2. Split in two sentences (the version above): the section read [Human, no Low](https://www.pangram.com/history/c71291d2-3fc7-444b-a538-44647109f8b8), and your whole check read it Low.\n\n3. Particular things, two to a sentence (\"Maybe their smell turns you off, or one of you wants it every day while the other is happy with once a month. Your kinks might not line up either, or one person is sexually shut down, or your bodies just don’t click.\"): [19.8% AI](https://www.pangram.com/history/04f1b37e-4be3-45f7-b25e-4a8036f35803), AI Medium on those two sentences.\n\n4. Cut to two items, joined to the opener, with an ending that ties back (\"... that the polarity isn’t there: maybe their smell turns you off, or one of you wants it every day and the other once a month, and twenty years of talking would never have told you that.\"): [25% AI](https://www.pangram.com/history/c94b9077-c339-4424-bd97-11e0ff0c9cae).",
+   "why": "A list of what can go wrong reads AI however I shape it: as one sentence, as two, cut to two items, or with particular things in it. Your fixes for lists (bad-trips-2026-11-07j, romance-2026-11-07a) lifted every other list in this post; this one I can’t get past Low.",
+   "sense": "A fresh reader read my last two versions of it for what its reader needs (the r28 receipts): nothing unclear; they found the list's second sentence more of the same, which my fourth try cut, and that read worse.",
+   "advice_note": "Edit it: write the paragraph the way you’d say it. What it says has to stay: you can know someone for years and still find on the first night that the polarity isn’t there, for reasons no amount of knowing them could have shown you (smell or touch, how often each of you wants sex, kinks, one person shut down, bodies that don’t connect: as many of these as you want to keep).",
+   "spans": [
+    {
+     "block": 12,
+     "start": 0,
+     "end": 253
+    }
+   ]
+  },
+  {
+   "id": "ASK-FRIEND-TWICE",
+   "type": "question",
+   "advice": "ask",
+   "whose": "his own words, in two places",
+   "title": "Your college friend with four girlfriends is told twice",
+   "question": "Your new jealousy paragraph tells him (\"like my one poly college friend who boasted about having 4 girlfriends, but admitted to me that he felt deeply unhappy\"), and Labels already does (\"In college I had a friend with four girlfriends ... “No, I’m miserable, dude. I feel empty inside.”\"). Keep both, cut one, or have the jealousy one point back (\"like the college friend with four girlfriends I mentioned earlier\")?",
+   "why": "A reader meets the same friend twice, about 330 paragraphs apart, each time as if for the first time. Both places use him for a different point (in Labels: the one getting more of what he wants isn’t happier; in Jealousy: polyamory as a way to escape intimacy), so I won’t cut either without you. My advice: keep Labels as it is and have the jealousy one point back.",
+   "spans": [
+    {
+     "block": 3,
+     "start": 130,
+     "end": 236
+    },
+    {
+     "block": 29,
+     "start": 57,
+     "end": 175
+    }
+   ]
+  }
+ ]
+}

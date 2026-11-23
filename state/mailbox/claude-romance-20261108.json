@@ -1,0 +1,224 @@
+{
+ "about": "Each turn's mailbox check (tools/humanization/lane_mailbox.py; AGENTS.md, \"Suggested fixes from other projects\"). Newest last.",
+ "places": {
+  "uda-lane": "this repository's lane in universal-dev-architecture (suggested-fixes/joel-articles/), against docs/suggested-fixes-ledger.md",
+  "repo": "new issues and pull requests here, and new comments and reviews on any of them, replies on our own included",
+  "notes": "edits others made to the lane's handoff notes and owner questions pages since its last turn",
+  "runtime": "the messages the session's runtime queued for it"
+ },
+ "checks": [
+  {
+   "turn": "2026-11-08T15:07Z",
+   "lines_of_work": [
+    "romance article"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "UDA main b6185f7, unchanged since the last romance check (2026-11-07 18:08); its joel-articles lane as that check found it"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "main at 718224105 (#393 merged 11:23); no new romance issues or pull requests; the bad trips lane's branch already holds his round 24 answers (ANSWERS-R24-20261108-1501.json), so they were left to it"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no edits by anyone else to articles/romance since 2026-11-07 23:39"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "his message of 15:07 UTC with the T2 answers and the S17 correction"
+    }
+   ],
+   "items": [
+    {
+     "item": "his T2 answer and the doubled 'example'",
+     "outcome": "his jealousy version in (#135), S17 fixed (#136), Idealization's Low windows fixed (#143), drafts A and B re-pasted and their secret links made"
+    }
+   ],
+   "recorded_utc": "2026-11-08T15:57Z"
+  },
+  {
+   "turn": "2026-11-08T16:47Z",
+   "lines_of_work": [
+    "romance article"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "UDA main 841f579, as read at this turn's start"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "main merged again before pushing (other lanes' merges only)"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no edits by anyone else to articles/romance"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "his message of 16:47 UTC"
+    }
+   ],
+   "items": [
+    {
+     "item": "his whole-article results",
+     "outcome": "seven of eight weak windows fixed (r28); Slow & steady 181 and the college friend on the third marking page"
+    },
+    {
+     "item": "push access",
+     "outcome": "attached; branch pushed, pull request 401 open with label hold (self-merge refused by this session's auto mode)"
+    }
+   ],
+   "recorded_utc": "2026-11-08T17:03Z"
+  },
+  {
+   "turn": "2026-11-08T17:20Z",
+   "lines_of_work": [
+    "romance article"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "UDA main 841f579, unchanged since 16:47"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "main merged here; no new romance issues, pull requests or comments"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no edits by anyone else to articles/romance"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "his message of 17:20 UTC: the third page's answers and his ask for the Medium windows"
+    }
+   ],
+   "items": [
+    {
+     "item": "his third page's answers",
+     "outcome": "Slow & steady and the college friend in (r29)"
+    },
+    {
+     "item": "show me any more medium sections",
+     "outcome": "the fourth marking page, 62 paragraphs"
+    }
+   ],
+   "recorded_utc": "2026-11-08T17:30Z"
+  },
+  {
+   "turn": "2026-11-22T22:24Z",
+   "lines_of_work": [
+    "romance article"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "UDA main 3d79cc8; no new suggested-fixes items for joel-articles since 2026-11-08"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "main merged here (210 commits from other lanes); no new romance issues or comments; pull request 401 still open with label hold"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no edits by anyone else to articles/romance since 2026-11-08 17:31"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "his message of 22:24 UTC: the Medium page's answers (59 revised, 3 rejected), rules asked for (whole context on pages, cuts shown clearly), the BPD video, the nobodytobe links, lessons and a test of them"
+    }
+   ],
+   "items": [
+    {
+     "item": "pull request 401 (hold)",
+     "outcome": "the hold label was this session's own; rule bad-trips-2026-11-14a says push with neither flag, so it goes and the workflow merges it"
+    }
+   ],
+   "recorded_utc": "2026-11-22T22:36Z"
+  },
+  {
+   "turn": "2026-11-22T23:43Z",
+   "lines_of_work": [
+    "romance article"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "UDA main 3d79cc8, unchanged since 22:24"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "main unchanged since 22:24; no new romance issues or comments"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no edits by anyone else to articles/romance or the romance handoff note"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "his message of 23:43 UTC: Pangram signed in on his main account in the cloud browser; a standing rule (apply each lesson blind to the paragraphs he fixed and check them in Pangram); his four answers on the fifth page"
+    }
+   ],
+   "items": [],
+   "recorded_utc": "2026-11-22T23:44Z"
+  },
+  {
+   "turn": "2026-11-23T15:35Z",
+   "lines_of_work": [
+    "romance"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "suggested-fixes/joel-articles/ on main 3d79cc8: six items, all already in docs/suggested-fixes-ledger.md; nothing new"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "pull request 401 (REST API; GraphQL is closed to this session): open, label hold, head fc18a21d, no comments or reviews since 2026-11-22 22:00 UTC; no other issue or pull request of this lane updated since; #480 (toc-nibbana) merged itself at 15:28 UTC"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "laptop handoff note ~/claude-acceptance-transfer/handoffs/romance-article.md unchanged since my write at 2026-11-23 01:07 UTC"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "no queued notifications besides the stray placeholder trigger read last turn"
+    }
+   ],
+   "items": [
+    {
+     "item": "his message 2026-11-23 15:35 UTC",
+     "outcome": "push retried with his word; bundle remade for his joel-articles clone; his flaws-section fix read from his Pangram history and put in; the live post re-read for his new images; his OK for Codex recorded"
+    }
+   ],
+   "recorded_utc": "2026-11-23T15:37Z"
+  }
+ ]
+}

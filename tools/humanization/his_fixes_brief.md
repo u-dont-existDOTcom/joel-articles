@@ -1,6 +1,6 @@
 # The read against his fixes: which of my sentences still read the way he fixes?
 
-Gate bad-trips-2026-11-12g (the eleventh way, lesson bad-trips-2026-11-20c; the twelfth, lesson bad-trips-2026-11-20h; the thirteenth to seventeenth, lesson bad-trips-2026-11-21e). Joel, 2026-11-12 14:45 UTC, after my carries of his fixes read AI in eight tries of eight:
+Gate bad-trips-2026-11-12g (the eleventh way, lesson bad-trips-2026-11-20c; the twelfth, lesson bad-trips-2026-11-20h; the thirteenth to seventeenth, lesson bad-trips-2026-11-21e; the eighteenth to twenty-first, from his 59 versions on the romance article's Medium page, lesson romance-2026-11-22d). Joel, 2026-11-12 14:45 UTC, after my carries of his fixes read AI in eight tries of eight:
 "have you systematically looked at all of the fixes i've shown you and what are the idfferences in how you write vs how
 i fix? because when i look at how you try to implement my fixes, it's laughable, like you're not really learning much.
 you still use a lot of ai patterns like "this is different. that's different, this other thing is also different" and
@@ -15,7 +15,7 @@ stays.
 ---
 
 You are reading a draft against the way one writer, Joel, fixes drafts like it. Below are ten ways his fixes differ
-from the drafts he fixed, each with a sentence he fixed and what he wrote instead (an eleventh and a twelfth, 2026-11-20, after them, and five more from his fix of the serotonin steps, 2026-11-21). Read the draft and mark every sentence
+from the drafts he fixed, each with a sentence he fixed and what he wrote instead (an eleventh and a twelfth, 2026-11-20, after them, five more from his fix of the serotonin steps, 2026-11-21, and four from his 59 versions on the romance article, 2026-11-22). Read the draft and mark every sentence
 that still reads the first way.
 
 1. **Compressed.** A run of category words or noun phrases, or several ideas packed into one sentence, where he gives each
@@ -107,6 +107,62 @@ that still reads the first way.
    quite correct medically altho pangram wouldn't know that part"). Read each instruction against the rest of the text
    and the reader's situation, and mark it if something else in the text contradicts it, it doesn't fit this case, or a
    reader without training couldn't do it safely.
+
+18. **A short line standing alone.** A sentence of two to six words that sums up, labels or turns, between longer ones:
+   "It's philosophical.", "That was my mistake.", "I like that idea.", "Based on what?", "That wasn't the whole story.",
+   "Everything." He joins it to the sentence it belongs to, or gives it what only this writer would say there: "It's
+   philosophical, and it bites."; "But could I explain that to an objective friend?"; "But that wasn't even really 1% of
+   the whole story." (2026-11-22: "the ai tell is the short plain statements. feels robotic"; "pangram hates those short
+   lines, they are becoming Ai territory sadly"). A line of speech, or a question in a story, isn't this way ("Then what?
+   You block her?").
+
+19. **Three of a kind, or a question inside another.** A list of three items, clauses or short sentences ("We're twin
+   flames. She knows my motives. I'm Lord Krishna."), a list of category words ("share a home, raise children, support
+   each other financially, take care of each other, maybe have sex"), or a run of questions where one is part of another
+   or two overlap ("how much you say, and to whom, and how publicly"; "How dependable are we?" after questions that
+   already ask it). He keeps the items that carry the point, gives one a case from life ("why you spend hours playing
+   with your cat"), and turns a question into its real options ("Is that a pattern, or just life getting in the way
+   normally?"). His words: "too much of a listicle", "we don't need 3". A fix that keeps all three items in one sentence
+   still reads this way: the blind test of 2026-11-22 kept three items in three of four lists (lesson romance-2026-11-22f).
+   A list of concrete things from life is not this way ("nature, music, poetry, art, flowers, food"): he kept it whole,
+   and cutting it to two read Human (Low) where keeping it read High; an item goes only where it overlaps another or is
+   part of it, and the point it carries stays ("coerced" in "abused, coerced, or seriously deceived" is a kind of harm,
+   not a repeat) (lesson romance-2026-11-23a).
+
+20. **A sentence about the text itself that isn't true where it stands.** A summing-up of what the article or the
+   section has said so far ("Everything I've been putting forward so far has leaned toward honesty, closeness, and
+   equal dignity"). Read it against what comes before it in the draft; he changed it to what is true ("Much of this
+   article so far has leaned toward ...": "it's not true ... not everything has been that at this point").
+
+21. **A label for the thing instead of the thing.** A sentence that names a concept for what happened ("'she lied' only
+   named the momentary behavior"), an abstract noun that acts ("safety gives the space for desire"; "her jealousy was not
+   simply tracking what I was doing"), or a question about categories ("What counts as betrayal, and what's just a sign
+   we need a serious talk?"). He says the thing itself: "Non-strategic lying is literally diagnosed as 'pathological
+   lying'", "her jealousy wasn't about what I was doing then and there", "Is that, in and of itself, a betrayal, since
+   it's not under our control?" (2026-11-22: "sort of vagued and weird, didn't really understand like what was it trying
+   to actuually say"). "Announcing" is one of these words ("another ai tell"). A question the reader couldn't answer as
+   asked is this way too: mark it, and say what the real question is.
+
+22. **A pivot that points back without naming what.** "But none of that by itself explains why two people still want to
+   tear each other's clothes off" points back at a list of values; he named it ("that liberal modern philosophy fails to
+   explain why"). In the blind test the pivot left as "none of that" read AI (High); named ("those three don't by
+   themselves explain") it read Human with the turn after it kept whole ("feeling safe doesn't spark desire, but it makes
+   space for it") (lessons romance-2026-11-23a and d).
+
+23. **A run of questions.** Three or more questions in a row, or a paragraph that is almost all questions, reads like
+   a worksheet; in the romance article's flaws section it read AI at the end of nine questions in four paragraphs, though
+   the same paragraphs read Human by themselves. He kept almost every word and changed their order and frame: the
+   example went beside the question it belongs with ("If conflict makes you shut down, does it mean you stop talking to
+   your partner for days, leaving them feeling abandoned?" next to "What did you do to the other person, and how did you
+   repair the damage afterward?"), the long-view question went last as its own paragraph, one plain statement between
+   them says why the next question matters ("Not doing can be just as bad as overdoing."), the example is asked in the
+   paragraph's own frame (the reader's own record, not "if you tell me"), and its consequence is folded into the same
+   question. Turning the questions into reported ones ("Then ask whether your judgment has gotten better ...") read AI
+   every time it was tried (lessons romance-2026-11-23b, c and d).
+
+When the text is a rewrite of another, also mark every detail, reason or line it adds that the text it rewrites and its
+section don't already hold (lesson romance-2026-11-22f: a blind rewrite added "my month with a bad knee", a month he never
+gave; his rule: "don't confabulate things about my life").
 
 THE DRAFT (what it is for: [one line: what the reader is about to do with it]):
 [the text, one sentence a line, numbered S1, S2, ...]

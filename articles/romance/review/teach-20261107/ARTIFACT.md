@@ -14,3 +14,11 @@ The marking page for Jealousy 367 to 369, published from the same account as a v
 (its cards as text: [REVIEW-T2.md](REVIEW-T2.md); the sense read: [SENSE-T2.md](SENSE-T2.md)):
 [the page](https://claude.ai/artifact/RjjBGVXfTRX2uuPoqw2EM4) (slug c8528f06-6333-416a-8976-850c5d05cf67, version
 1794094511-1c55, capabilities db, user and downloads, as T1's).
+
+## T3: one list to teach me from, and a question (2026-11-08 17:02 UTC)
+
+After his whole-article check, the one window I couldn't fix ("Slow & steady" 181, its list) and a question on his own
+words (the college friend with four girlfriends, told in Labels and again in his new 369), published from this
+account as a view of [REVIEW-T3.html](REVIEW-T3.html) (its cards as text: [REVIEW-T3.md](REVIEW-T3.md)):
+[the page](https://claude.ai/artifact/CjEzvMG4wFZDxmqrvwjaGC) (capabilities db, user and downloads, as T1's and T2's;
+its decisions store read empty after publishing).

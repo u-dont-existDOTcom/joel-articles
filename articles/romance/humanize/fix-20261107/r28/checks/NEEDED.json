@@ -1,0 +1,40 @@
+{
+ "r28-bundling": {
+  "unneeded": [
+   "I’m not trying to bring bundling back."
+  ],
+  "kept": {
+   "I’m not trying to bring bundling back.": "they don't read the bundling story as advice to bring it back; the next sentence's \"just\" leans on it"
+  }
+ },
+ "r28-ptsd": {
+  "unneeded": [
+   "With Bee, the main issues were the BPD and that her aunts had badly witchcrafted her as a child.",
+   "She would tell you the same."
+  ],
+  "kept": {
+   "With Bee, the main issues were the BPD and that her aunts had badly witchcrafted her as a child.": "they see his own case, where the father-figure dynamic wasn't the main problem (his story and his word, \"witchcrafted\")",
+   "She would tell you the same.": "they hear that Bee herself would agree, so it isn't only his side"
+  }
+ },
+ "r28-slow": {
+  "unneeded": [
+   "Your kinks might not line up either, or one person is sexually shut down, or your bodies just don’t click."
+  ],
+  "kept": {
+   "Your kinks might not line up either, or one person is sexually shut down, or your bodies just don’t click.": "they see the rest of the range of what can be wrong, the live post's list, which a reader may find their own case in"
+  }
+ },
+ "r28-pillars": {
+  "unneeded": [
+   "That’s a pretty terrible time to be trying to run the rest of life with two people."
+  ],
+  "kept": {
+   "That’s a pretty terrible time to be trying to run the rest of life with two people.": "they feel the timing: the couple is split from each other's friends just when life needs running (the live post's sentence)"
+  }
+ },
+ "r28-slow-b": {
+  "unneeded": [],
+  "kept": {}
+ }
+}

@@ -1,0 +1,25 @@
+{
+ "parts": [
+  {
+   "part": 1,
+   "blocks": [
+    0,
+    7
+   ],
+   "expected": 8,
+   "read": 8,
+   "missing": [],
+   "missing_ranges": [],
+   "outside": [],
+   "planted": 2,
+   "found": 2,
+   "missed": [],
+   "findings": 2
+  }
+ ],
+ "planted": 2,
+ "found": 2,
+ "recall": 1.0,
+ "reads_complete": true,
+ "trusted": true
+}

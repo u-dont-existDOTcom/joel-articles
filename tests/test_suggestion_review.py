@@ -375,3 +375,64 @@ class ReceiptTests(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
+
+class WholePageTests(unittest.TestCase):
+    """Lesson romance-2026-11-22a (Joel, 2026-11-22 22:24 UTC): "it would have helped if you just had the whole page so i
+    could see the whole context, make that a rule from now on" and "make it more clear when you cut parts out (which should
+    not happen unless it would take up a lot of space, like don't cut out one paragraph to save space"."""
+
+    def setUp(self):
+        import tempfile
+        self.tmp = pathlib.Path(tempfile.mkdtemp())
+        paras = ['Paragraph number %d says one thing and then another thing, with enough words in it to count as a '
+                 'long paragraph for the cut rule, which wants many words before it lets a stretch go. ' % k * 1
+                 + 'More words follow here so each one is long. ' * 8 for k in range(12)]
+        self.paras = paras
+        self.whole = '# Title\n\n' + '\n\n'.join(paras[:2]) + \
+            '\n\n<!-- EMBED https://www.youtube-nocookie.com/embed/pvN8QgGatew : a video -->\n\n' + \
+            '\n\n'.join(paras[2:]) + '\n'
+        (self.tmp / 'whole.md').write_text(self.whole, encoding='utf-8')
+        import hashlib
+        self.wsha = hashlib.sha256(self.whole.encode('utf-8')).hexdigest()
+
+    def rv(self, whole=True):
+        r = review([])
+        r['built'] = R.WHOLE_FROM
+        if whole:
+            r['whole'] = {'file': str(self.tmp / 'whole.md'), 'sha256': self.wsha}
+        return r
+
+    def test_a_page_from_today_names_the_whole_article(self):
+        bl = R.blocks(self.whole, whole=True)
+        self.assertTrue(any('"whole"' in p for p in R.whole_problems(self.rv(whole=False), bl)))
+        self.assertEqual(R.whole_problems(self.rv(), bl), [])
+
+    def test_a_page_that_drops_a_paragraph_is_refused(self):
+        page_md = self.whole.replace(self.paras[5] + '\n\n', '')
+        probs = R.whole_problems(self.rv(), R.blocks(page_md, whole=True))
+        self.assertTrue(any('leaves out' in p for p in probs), probs)
+
+    def test_a_short_cut_is_refused_and_a_long_one_shows_as_a_box_that_opens(self):
+        short = self.whole.replace(self.paras[5], '<!-- CUT -->\n\n' + self.paras[5] + '\n\n<!-- /CUT -->')
+        probs = R.whole_problems(self.rv(), R.blocks(short, whole=True))
+        self.assertTrue(any('only a long one may be' in p for p in probs), probs)
+        body = '\n\n'.join(self.paras[2:11])
+        long_md = self.whole.replace(body, '<!-- CUT -->\n\n' + body + '\n\n<!-- /CUT -->')
+        bl = R.blocks(long_md, whole=True)
+        self.assertEqual(R.whole_problems(self.rv(), bl), [])
+        cut = [b for b in bl if b['kind'] == 'cut']
+        self.assertEqual(len(cut), 1)
+        h = R.block_html(cut[0], [])
+        self.assertIn('Left out here to save space: 9 paragraphs', h)
+        self.assertIn('<details', h)
+        self.assertIn('Paragraph number 2 says', h)
+
+    def test_a_video_shows_as_a_box_with_its_youtube_link(self):
+        bl = R.blocks(self.whole, whole=True)
+        emb = [b for b in bl if b['kind'] == 'embed']
+        self.assertEqual(len(emb), 1)
+        h = R.block_html(emb[0], [])
+        self.assertIn('https://www.youtube.com/watch?v=pvN8QgGatew', h)
+        self.assertNotIn('<iframe', h)
+        # pages built before the rule keep their old blocks, so their spans still point where they did
+        self.assertFalse(any(b['kind'] == 'embed' for b in R.blocks(self.whole)))

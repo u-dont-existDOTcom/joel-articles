@@ -1,0 +1,41 @@
+{
+ "format": "joel-suggestion-review-answers-v1",
+ "review_id": "romance-teach-t2",
+ "title": "Romance Advice I Wish My Parents Taught Me: the jealousy paragraphs to teach me from",
+ "git_file": "articles/romance/review/teach-20261107/REVIEW-T2.html",
+ "article": {
+  "file": "articles/romance/review/teach-20261107/PAGE-T2.md",
+  "sha256": "a697fcc546024b19ca6a258a1c7b31d07815c9e0e645ef083405450d22c38c25"
+ },
+ "built": "2026-11-07",
+ "generator": "suggestion_review.py 1.10 (2026-11-07)",
+ "exported_at": "2026-11-08T12:24:41.960Z",
+ "counts": {
+  "approved": 0,
+  "rejected": 0,
+  "revise": 1,
+  "pending": 0
+ },
+ "items": [
+  {
+   "id": "TEACH-JEALOUSY-POLY",
+   "type": "teach",
+   "title": "Mentioning attractions, promises of exclusivity, and how polyamory can be dishonest too",
+   "where": "Jealousy on trial, P11",
+   "advice": "edit",
+   "status": "revise",
+   "your_version": "I do believe two people can choose sexual exclusivity honestly. They can admit that attraction to other people exists and decide not to act on it each day. And even better simply suppressing it, I agree with Esther Perel, [who writes](https://estherperel.substack.com/p/en-plus-when-you-come-alive-outside) that this sexual energy felt outside the relationship can be used and redirected into the relationship to make it more alive. \n\nImagine if you and your partner both saw those outside attractions as beneficial energy sources rather than a threat to your relationship. It sure would beat beating around the bush because of fear and jealousy. You can start playing around with opening up about the minor, momentary attractions, rather than wait in hiding until a serious crush is dramatically confessed.\n\nLots of couples promise forever to each other and nobody else. Look around at how many actually live that way. On the other hand, in a polyamorous relationship, the boundaries might be more negotiable, but then somebody has to sit down and negotiate them, down to who gets to stay the night. That can end up sometimes creating more drama than it's worth.\n\nPolyamory can also be a way of escaping deeper intimacy, too, like my one poly college friend who boasted about having 4 girlfriends, but admitted to me that he felt deeply unhappy. Or it can be a way of escaping guilt, like when someone keeps cheating until they finally \"come out of the closet\" as poly, as if that solves their prior dishonesty. But they are right to finally come clean and hopefully avoid that dishonesty in future.\n\nI learned most of this by screwing it up. Some of it I just thought through, and I’m still not sure about all of it.",
+   "comment": "i re-did all of it, now human high conf: https://www.pangram.com/history/8f1e5924-1921-4136-8815-d09f45d295e5?ucc=AyfvimuzkWB&utm_source=pangram_share&utm_medium=copy_link\n\n",
+   "my_version": "I would rather make every attraction possible to mention casually, including the low-stakes ones. If only the serious attractions are supposed to be disclosed, each disclosure becomes such a major event that people are less likely to say anything at all.\n\nA foundational, permanent, exclusive romantic partnership is promised far more often than it is actually lived. In a polyamorous relationship the boundaries might be more negotiable, but that actually means negotiating is required.\n\nThat’s not to say that polyamory is automatically better, because it can be dishonest too. These days, I believe it is often a way to cope with an inability to connect deeply with one person, or a way to admit a lack of self-control without necessarily doing the self-development that would make the arrangement ethical. If you can’t do monogamy, saying so is still more honest than pretending you can. Sometimes the pretending does more damage than an outside connection would have.",
+   "before": "I would rather make every attraction possible to mention casually, including the low-stakes ones. If only the serious attractions are supposed to be disclosed, each disclosure becomes such a major event that people are less likely to say anything at all.\n\nA foundational, permanent, exclusive romantic partnership is promised far more often than it is actually lived. In a polyamorous relationship the boundaries might be more negotiable, but that actually means negotiating is required.\n\nThat’s not to say that polyamory is automatically better, because it can be dishonest too. These days, I believe it is often a way to cope with an inability to connect deeply with one person, or a way to admit a lack of self-control without necessarily doing the self-development that would make the arrangement ethical. If you can’t do monogamy, saying so is still more honest than pretending you can. Sometimes the pretending does more damage than an outside connection would have.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "revise",
+     "at": "2026-11-08T12:23:28.851Z"
+    }
+   ],
+   "updated": "2026-11-08T12:24:11.236Z"
+  }
+ ]
+}

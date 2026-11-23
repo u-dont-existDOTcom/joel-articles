@@ -1,0 +1,43 @@
+{
+ "readers": [
+  "haiku",
+  "sonnet"
+ ],
+ "sentences": [
+  "Look at the most recent conflicts and ask if you were able to regulate yourself during them.",
+  "What did you do to the other person, and how did you repair the damage afterward?",
+  "Then ask whether your judgment has gotten better or you keep falling for the same stuff, and what your friends or exes would say.",
+  "And if you tell me you shut down, okay, what does that mean: did you stop talking to your partner for days, and did they feel abandoned?"
+ ],
+ "flagged": {
+  "1": [
+   "haiku",
+   "sonnet"
+  ],
+  "2": [
+   "haiku",
+   "sonnet"
+  ],
+  "3": [
+   "haiku",
+   "sonnet"
+  ],
+  "4": [
+   "sonnet"
+  ]
+ },
+ "agreed": [
+  1,
+  2,
+  3
+ ],
+ "whole": {
+  "haiku": [
+   "The paragraph is a run of parallel questions with evenly weighted clauses, which gives it a tidy, coached cadence. Its voice is generic self-help coaching, though a few concrete details break that up."
+  ],
+  "sonnet": [
+   "The paragraph is built as a sequence of self-interrogation questions, each one a clean, evenly weighted prompt, so the rhythm is regular and the structure reads like a coaching worksheet. The voice stays uniformly instructive and composed, with no tangents, specifics or personal anecdote to break the pattern."
+  ]
+ },
+ "human_clean": []
+}

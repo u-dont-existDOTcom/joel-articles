@@ -1,0 +1,21 @@
+{
+ "about": "His message of 2026-11-22 23:43 UTC, word for word: \"i signed into pangram in your cloud browser on my main acct\" / \"make sure whenever you learn lessons in this repo you see if you can apply them to pass pangram on the paragraphs that i fixed yourself without seeing my fixes exactly.\" Then the page's export, below.",
+ "format": "joel-suggestion-review-answers-v1",
+ "review_id": "romance-t5",
+ "title": "Romance Advice I Wish My Parents Taught Me: the whole article with your answers in",
+ "git_file": "articles/romance/review/teach-20261122/REVIEW-T5.html",
+ "article": {
+  "file": "articles/romance/humanize/fix-20261107/whole/FIXED.md",
+  "sha256": "12bee7ff0d008a204a4a11b578135dd2f60f1835adc86f4bf10bda33e8bfed0c"
+ },
+ "built": "2026-11-22",
+ "generator": "suggestion_review.py 1.12 (2026-11-22)",
+ "exported_at": "2026-11-22T23:43:19.667Z",
+ "counts": {"approved": 0, "rejected": 0, "revise": 0, "pending": 4},
+ "items": [
+  {"id": "Q-14", "type": "ask", "title": "Who is \"they\" here?", "where": "Talk about making love before you do it, P4", "advice": "ask", "status": "answered", "your_version": "", "comment": "no i meant and pressuring men into making it look like men know what they want, how can i say that lol", "my_version": "", "before": "", "history": [], "updated": "2026-11-22T23:41:11.716Z"},
+  {"id": "Q-409", "type": "ask", "title": "\"Literally diagnosed\": not quite", "where": "If you’re already in it, P4", "advice": "ask", "status": "answered", "your_version": "", "comment": "change diagnosed to defined then", "my_version": "", "before": "", "history": [], "updated": "2026-11-22T23:43:09.365Z"},
+  {"id": "Q-314", "type": "ask", "title": "Bee or Ann as your first wife?", "where": "Twin Flames?, P2", "advice": "ask", "status": "answered", "your_version": "", "comment": "2nd wife", "my_version": "", "before": "", "history": [], "updated": "2026-11-22T23:41:30.820Z"},
+  {"id": "Q-392", "type": "ask", "title": "\"H.D.\" or \"H.\"?", "where": "Psychedelic Timing, P4", "advice": "ask", "status": "answered", "your_version": "", "comment": "oh, i had changed her to H.D. because i had put H. for my other friend in therapycircle, heidi. but i guess then maybe i removed heidi so if that's the case then we can put HD back to H ", "my_version": "", "before": "", "history": [], "updated": "2026-11-22T23:42:16.670Z"}
+ ]
+}

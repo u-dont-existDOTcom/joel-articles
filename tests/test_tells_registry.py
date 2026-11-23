@@ -96,8 +96,12 @@ class RegistryShape(unittest.TestCase):
         # 2026-11-19 15:15 UTC (bad-trips-2026-11-19b); J72 (a sentence not connected to the one before: the other
         # alternative, the next case) from his round-45 answer of 2026-11-20 18:20 UTC (bad-trips-2026-11-20h); J73 to J77
         # (a step that leaves the reader wondering why, a flat rule against a natural impulse, a don't with nothing to do,
-        # said twice, advice that isn't right here) from his round-48 answer of 2026-11-21 15:57 UTC (bad-trips-2026-11-21e)
-        self.assertEqual(len(ids), 208)
+        # said twice, advice that isn't right here) from his round-48 answer of 2026-11-21 15:57 UTC (bad-trips-2026-11-21e);
+        # J78 to J81 (a short line standing alone, three of a kind or a question inside another, a sentence about the text
+        # that isn't true where it stands, a label for the thing) from his romance Medium-page answers of 2026-11-22 22:24
+        # UTC (romance-2026-11-22d); J82 and J83 (a pivot that points back without naming what, a run of questions) from the
+        # blind test's rounds 2 and 3 and his fix of the romance flaws section, 2026-11-23 (romance-2026-11-23a to d)
+        self.assertEqual(len(ids), 214)
         self.assertEqual(len(set(ids)), len(ids))
         self.assertEqual(sum(t['kind'] == 'mechanical' for t in TELLS), 131)
         for t in TELLS:

@@ -1,0 +1,72 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-23",
+ "text_sha256": "c0b747dab1991852625c5174bf08d3b5a444e2cd879fa130910bc484a181a629",
+ "text": "Card games and social gatherings don’t tell you everything, but asking someone out of the blue, “What did you do wrong in your past relationships?” would make for a pretty weird date.\n\nAt the right time, though, in the right way (especially if they bring it up tangentially), I would ask about their past relationships, especially the recent ones. If every story ends with everything being the other person’s fault, I’d ask, “Okay, so what lessons did you find for yourself?”",
+ "section": "The conversation about flaws",
+ "reader": "someone dating who wants to learn how a new partner handles their flaws and conflicts, without interrogating them on a date",
+ "sentences": [
+  {
+   "s": "Card games and social gatherings don’t tell you everything, but asking someone out of the blue, “What did you do wrong in your past relationships?” would make for a pretty weird date.",
+   "payoff": "the reader learns that the games and gatherings they have been using won't show them everything, and that the obvious fix, asking straight out about past mistakes on a date, is the wrong one, so they look for the better way the next paragraph gives",
+   "follows": "it turns from the section before, on card games and social gatherings as ways to get to know someone, to what those can't show: how someone handles their own flaws",
+   "link": "Card games and social gatherings"
+  },
+  {
+   "s": "At the right time, though, in the right way (especially if they bring it up tangentially), I would ask about their past relationships, especially the recent ones.",
+   "payoff": "the reader learns when and how to raise past relationships instead: at the right moment, gently, best when the other person brings it up, and about the recent ones",
+   "follows": "it answers the sentence before: if the blunt question is wrong, here is the way to ask",
+   "link": "At the right time, though"
+  },
+  {
+   "s": "If every story ends with everything being the other person’s fault, I’d ask, “Okay, so what lessons did you find for yourself?”",
+   "payoff": "the reader gets the warning sign to listen for, every story blaming the other person, and the one question that tests it",
+   "follows": "it says what to listen for once they are talking about past relationships",
+   "link": "If every story ends with everything being the other person’s fault"
+  }
+ ],
+ "checked": [],
+ "placement": "The first paragraph opens the section right after the card-games section it turns from. The last two close the section's run on recent conflicts, after the honesty paragraph (\"both of us\"); the last one's \"And\" continues the questions before it with one answer they could get. Same-topic paragraphs stay together in the order the reader asks: when to ask, what to ask, what to look for, one follow-up.",
+ "opens": {
+  "first_sentence": "Card games and social gatherings don’t tell you everything, but asking someone out of the blue, “What did you do wrong in your past relationships?” would make for a pretty weird date.",
+  "why_reading": "it tells the reader that the games and gatherings they've been using won't show them everything, and that the obvious direct question is a mistake, so they want the better way that follows"
+ },
+ "same_point": "No other paragraph in the section makes the first paragraph's point (the direct question is the wrong way). The judgment question and \"ask forgiveness for more than once\" both touch repeated mistakes, the one about the record, the other about what's to come; the shut-down example is the section's only one.",
+ "needed": {
+  "reader": "a fresh Sonnet reader given tools/humanization/needed_read_brief.md and each changed paragraph alone (the first, the fifth and the sixth), with the heading and what the paragraph is for",
+  "unneeded": [],
+  "kept": {}
+ },
+ "his_fixes": {
+  "reader": "the same fresh reader given tools/humanization/his_fixes_brief.md and each changed paragraph one sentence a line; the fifth paragraph's third sentence was read again after it changed (its first version was marked way 19, a question inside another, and went)",
+  "marked": [],
+  "kept": {}
+ },
+ "fit": {
+  "reader": "the same fresh reader given tools/humanization/fit_read_brief.md and each changed paragraph one line a line",
+  "marked": [],
+  "kept": {}
+ },
+ "questions": {
+  "Q1": "PASS: each paragraph opens on its point: the first on what games can't show, the fifth on where to look, the last on \"if you tell me you shut down\"",
+  "Q2": "N/A: no instructions to a helper; these are questions the reader asks a partner or themselves",
+  "Q3": "PASS: \"the most recent conflicts\", \"stopped talking to your partner for days\", \"addictions or impulsive behaviors\" say which thing exactly",
+  "Q4": "PASS: no term a high-school graduate wouldn't know; \"regulate yourself\" is plain in a section about conflicts",
+  "Q5": "PASS: the first paragraph's \"but\" turns from what games can't show to why the blunt question is wrong; \"though\" answers it with the right time; the last \"And\" adds one answer to the questions before it",
+  "Q6": "PASS: the order follows the reader: what games can't show, when to ask, what to ask, what to look for, one follow-up",
+  "Q7": "PASS: every line is about the reader's own case, a new partner's flaws and conflicts while dating",
+  "Q8": "N/A: no grouped items",
+  "Q9": "PASS: one question to a sentence; the last sentence's two parts are one follow-up (what shutting down meant, and what it did to the partner)"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

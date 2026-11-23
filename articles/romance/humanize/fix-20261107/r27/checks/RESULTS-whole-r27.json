@@ -1,0 +1,88 @@
+{
+ "about": "His whole-article check of the fixed version (r27), his Pangram 4.1 extension on the two drafts' secret links, 2026-11-08 16:47 UTC. Read back from each result page's props (tools/humanization/pangram_feed_read.js's way); the checked text's SHA-256 equals each secret link's rendered text (DRAFTS.json r27), so each read exactly the built text.",
+ "A": {
+  "link": "https://www.pangram.com/feed/87029c8c-313d-436c-b885-e76466096da6",
+  "headline": "Human Written",
+  "fraction_ai": 0.0016947436379268765,
+  "words": 11272,
+  "document_confidence": "High",
+  "text_sha256": "d50958a656a1270f1688b52cbe21228dcb21b02ca94f2dd474438fa36a04bc2e",
+  "built_text_sha256": "4abc6ef110a09d8c00904d6e073cfa617bd3cff785ebfdadc108197d8269239e",
+  "weak_windows": [
+   {
+    "label": "AI-Generated",
+    "confidence": "Low",
+    "words": 34,
+    "live": 38,
+    "text": "Here’s the funny thing many people don’t understand: labels don’t create commitment, but they can still expose whether two people think they’re in the same relationship, which matters a lot."
+   },
+   {
+    "label": "Human",
+    "confidence": "Low",
+    "words": 34,
+    "live": 72,
+    "text": "I get why, since neither of us could believe one day in the wrong shoes could do that, but it still felt dismissive, like part of her just wanted my knee to be fine."
+   },
+   {
+    "label": "Human",
+    "confidence": "Low",
+    "words": 43,
+    "live": 103,
+    "text": "Well, it didn’t exactly solve the problem. In late-eighteenth-century New England, where lots of couples bundled, 30–40 percent of brides were already pregnant on their wedding day, so it wasn’t a very reliable way to keep courtship nonsexual."
+   },
+   {
+    "label": "Human",
+    "confidence": "Low",
+    "words": 18,
+    "live": 157,
+    "text": "That dynamic alone isn’t necessarily the main problem: a lot of women have seen me that way."
+   },
+   {
+    "label": "Human",
+    "confidence": "Low",
+    "words": 26,
+    "live": 175,
+    "text": "Sometimes I actually learned something, and sometimes nothing changed except that now I’m attached, so the new certainty is just harder for me to question."
+   },
+   {
+    "label": "Human",
+    "confidence": "Low",
+    "words": 29,
+    "live": 181,
+    "text": "Touch or smell can feel wrong, or your desire levels or kinks don’t fit. Maybe one person is sexually shut down, or the bodies just don’t connect."
+   }
+  ],
+  "other": "every other window Human, High or Medium (Medium windows mostly 3 to 12 words; the longest 69, on 125's questions)"
+ },
+ "B": {
+  "link": "https://www.pangram.com/feed/5b03d47c-4290-42e5-8693-688418a08a68",
+  "headline": "Human Written",
+  "fraction_ai": 1.4081575017144132e-08,
+  "words": 9747,
+  "document_confidence": "High",
+  "text_sha256": "9f2383ac27bff3b82ba5c13c24c56f7b8ebaa44ca5fcf07d61f85d8b117d5a07",
+  "built_text_sha256": "7ba708889297b2a5422c52cef99b7f239096cfb19c84beb2e5bf1153142958f1",
+  "words_by_kind": {
+   "Human High": 9320,
+   "Human Medium": 318,
+   "Human Low": 33
+  },
+  "weak_windows": [
+   {
+    "label": "Human",
+    "confidence": "Low",
+    "words": 27,
+    "live": 331,
+    "text": "I’ve noticed in my own relationships that whenever a serious issue arises, both of us tend to turn to our separate circles of friends for support."
+   },
+   {
+    "label": "Human",
+    "confidence": "Low",
+    "words": 6,
+    "live": null,
+    "text": "There isn’t one perfect arrangement."
+   }
+  ]
+ },
+ "predictions": "written before his check in r27/README.md: Human for each, 0.45 for a 100% Human result. Both read Human Written, with Low windows, as predicted. Not in the ledger: its article predictions need the drafts' text in this folder (E354), which wasn't carried out of the browser."
+}

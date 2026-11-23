@@ -1,0 +1,9 @@
+# Round 3 of the blind test, each rewrite checked by itself in the Pangram web app (his main account, the Claude app's
+# browser pane), 2026-11-23 16:04 to 16:05 UTC; predictions in PREDICTIONS.json, written and committed first (d5205dc3).
+# key | history uuid | label | document confidence | % AI | windows | prediction | right
+replay3-M-73|c65e536b-e589-4439-9a44-f53c3ae94c17|Human|High|0|H:H81|AI 0.3|MISS
+replay3-M-214+next|4a5f3b06-48ad-422d-a7c0-37b3187dddc0|Mixed|Medium|45|H:M42 A:H35|AI 0.4|right
+replay3-M-252+253|da5c670e-0a19-4fb1-a60e-0fe1de260e23|Human|Medium|0|H:H44 H:M15|AI 0.45|MISS
+replay3-M-346|33ef19a3-6b9b-4ef2-aa54-a3d51fba9718|Mixed|Low|76.8|H:L15 A:M20 A:H32|AI 0.35|right
+replay3-flaws-126+127|5fa5bc28-a67f-45b7-86c5-d31211495094|AI|Medium|100|A:M33 A:H45|AI 0.4|right
+# predictions right: 3 of 5; Brier 0.247

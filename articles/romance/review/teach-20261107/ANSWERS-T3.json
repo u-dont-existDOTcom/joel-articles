@@ -1,0 +1,45 @@
+{
+ "format": "joel-suggestion-review-answers-v1",
+ "review_id": "romance-teach-t3",
+ "title": "Romance Advice I Wish My Parents Taught Me: one list to teach me from, and a question",
+ "git_file": "articles/romance/review/teach-20261107/REVIEW-T3.html",
+ "article": {
+  "file": "articles/romance/review/teach-20261107/PAGE-T3.md",
+  "sha256": "8c955219f94d92021d5357df7d511f9494a7a5efaa0e776266cfb214e2d95db7"
+ },
+ "built": "2026-11-08",
+ "generator": "suggestion_review.py 1.10 (2026-11-07)",
+ "exported_at": "2026-11-08T17:19:38.734Z",
+ "counts": {"approved": 0, "rejected": 0, "revise": 1, "pending": 1},
+ "items": [
+  {
+   "id": "TEACH-SLOW-LIST",
+   "type": "teach",
+   "title": "What twenty years of knowing someone can’t tell you about the first night",
+   "where": "Slow & steady, P2",
+   "advice": "edit",
+   "status": "revise",
+   "your_version": "Going slowly can show you how somebody’s moods wibble and wobble over time, how they treat you and other people, but it can’t tell you how good the sex will be or how either of you will act afterward. You can know somebody for 20 years and then discover on the first night that the polarity isn’t there. Touch or smell can feel wrong, or your desire levels or kinks don’t match up. \n\nSome of those things might get better if both partners are committed to helping each other through it, but sometimes bad sexual fit still feels like, “Let’s just be friends!” Saying, “The sex isn’t working for me,” might sound like, “I only love you if the sex is good.” But that vague love word again needs clarifying. Universal love is the basis of any good relationship of any kind. It doesn’t make someone special the way romance does. Romantic love generally needs good sex too, or else we’re basically just friends who care deeply about each other.",
+   "comment": "my first try fixed most of it, one medium section remained: https://www.pangram.com/history/9c843a77-96e5-48b1-b8e3-6aee3f47ee14?ucc=AyfvimuzkWB&utm_source=pangram_share&utm_medium=copy_link\n\nfixed it: \nhttps://www.pangram.com/history/e05bf34d-fbdd-454a-a6c3-c7abde583a56?ucc=AyfvimuzkWB&utm_source=pangram_share&utm_medium=copy_link",
+   "my_version": "You can know somebody for twenty years and then discover on the first night that the polarity isn’t there. Touch or smell can feel wrong, or your desire levels or kinks don’t fit. Maybe one person is sexually shut down, or the bodies just don’t connect.",
+   "before": "You can know somebody for twenty years and then discover on the first night that the polarity isn’t there. Touch or smell can feel wrong, or your desire levels or kinks don’t fit. Maybe one person is sexually shut down, or the bodies just don’t connect.",
+   "history": [{"from": "pending", "to": "revise", "at": "2026-11-08T17:09:17.146Z"}],
+   "updated": "2026-11-08T17:19:31.828Z"
+  },
+  {
+   "id": "ASK-FRIEND-TWICE",
+   "type": "question",
+   "title": "Your college friend with four girlfriends is told twice",
+   "where": "Labels Are Descriptive, Not Prescriptive, P3",
+   "advice": "ask",
+   "status": "answered",
+   "question": "Your new jealousy paragraph tells him (\"like my one poly college friend who boasted about having 4 girlfriends, but admitted to me that he felt deeply unhappy\"), and Labels already does (\"In college I had a friend with four girlfriends ... “No, I’m miserable, dude. I feel empty inside.”\"). Keep both, cut one, or have the jealousy one point back (\"like the college friend with four girlfriends I mentioned earlier\")?",
+   "your_version": "",
+   "comment": "agree with your plan",
+   "my_version": "",
+   "before": "",
+   "history": [],
+   "updated": "2026-11-08T17:05:44.443Z"
+  }
+ ]
+}

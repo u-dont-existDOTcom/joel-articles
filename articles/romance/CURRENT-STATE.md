@@ -1,6 +1,6 @@
 # Romance current state
 
-Updated: 2026-11-07
+Updated: 2026-11-23
 
 ## Goal
 
@@ -106,6 +106,101 @@ with his OK and no email.
   paragraphs (`whole/`); my compare read of the new ones (147, 148, 151, 285 to 287) found one softened point, 148's
   "rewriting the whole past", now carried by "faking it all along", and 285's "cuteness", now carried by "play the
   damsel"; the word-for-sense read of the new paragraphs waits for the jealousy answer, with the whole-article check.
+
+- 2026-11-08 (his message of 15:07 UTC, `humanize/fix-20261107/r27/`): his T2 answer saved
+  (`review/teach-20261107/ANSWERS-T2.json`): he rewrote all of Jealousy 366 to 370 ([Human, High, alone](https://www.pangram.com/history/8f1e5924-1921-4136-8815-d09f45d295e5)).
+  With three slips fixed (a missing "than", "also ... too", a curly apostrophe) the section read
+  [Human, 0% AI, one Medium window on the live 361](https://www.pangram.com/history/d00216d9-49ef-4351-bfd1-df2165ff14da) (#135).
+  His correction of S17 ("the couple I really liked as an example"): the section read [one Human High window](https://www.pangram.com/history/2c67fdaa-6753-4d00-8f49-0f66f7d286d5) (#136).
+  "Beware idealization": its five Low windows of #132 fixed; 14% AI on the first try (#138), then
+  [Human, High and Medium, no Low](https://www.pangram.com/history/1ef0b91c-6a89-4c35-b4b9-c46f1f54276d) (#143), after
+  the compare read put 151's ending back to his boundary. Lessons: `docs/lessons/2026-11-08-1507-romance.md`
+  (romance-2026-11-08a to c); the sense-read brief now names a doubled word that isn't next to its twin. The fixed
+  version (46 changes, 88 paragraphs) has no window a smaller check read AI or Low; drafts A and B were re-pasted and
+  their secret links rendered the built text exactly (`whole/DRAFTS.json`). The whole-article check went to him.
+
+- 2026-11-08 (his message of 16:47 UTC): his yes to 366's fix ("they can put it to work.", #137) is in. His
+  whole-article check read both halves Human Written (A [0.17% AI](https://www.pangram.com/feed/87029c8c-313d-436c-b885-e76466096da6),
+  B [~0%](https://www.pangram.com/feed/5b03d47c-4290-42e5-8693-688418a08a68), document confidence High), with one AI Low
+  and seven Low windows (`humanize/fix-20261107/r27/checks/RESULTS-whole-r27.json`). Six of the seven sections they sat
+  in now read Human with no Low (`humanize/fix-20261107/r28/`, #144 to #148, #150) and are in the fixed version; "Slow &
+  steady" 181 read AI in both my tries (#149, #151) and went to him on the third marking page
+  ([the page](https://claude.ai/artifact/CjEzvMG4wFZDxmqrvwjaGC), `review/teach-20261107/REVIEW-T3.md`), with a question
+  on the college friend his new 369 retells from Labels. Push access granted; pull request 401 holds both turns' work
+  (labelled "hold": this session's auto mode refused a self-merge into main).
+
+- 2026-11-08 (his message of 17:20 UTC, `humanize/fix-20261107/r29/`): his third page's answers in: "Slow & steady"
+  as he rewrote it ([one Human High window](https://www.pangram.com/history/e05bf34d-fbdd-454a-a6c3-c7abde583a56), #153),
+  and 369 pointing back to the college friend Labels tells (#152, Human, High and one Medium). Lesson romance-2026-11-08d.
+  On his ask to see every Medium window, the fourth marking page ([the page](https://claude.ai/artifact/AXKm7ijCpHzVwQ4mQUYi5Q),
+  `review/teach-20261108/REVIEW-T4.md`): 62 paragraphs, 70 windows, each with the tells I see and a fresh sense read's
+  finding (`review/teach-20261108/sense-t4/`: "traditonal" in 173, "natural" twice in 338).
+
+- 2026-11-22 (his message of 22:24 UTC, `humanize/fix-20261107/r30/`): his Medium-page answers saved word for word
+  (`review/teach-20261108/MESSAGE-T4-20261122-2224.md`, `ANSWERS-T4.json`, matched against the page's database item by
+  item): 59 versions in as he wrote them (`r30/HIS-T4.json`, laid over the checks' replacements by `whole/build.py`),
+  three cards rejected as Pangram bugs (264, 338, 405), eleven obvious slips fixed and listed (`r30/README.md`), and
+  his new "Two Pillars" 332 in place of the locked live paragraph (his own decision; `OWNER-LOCKS.json` still holds the
+  old master's text, which this lane doesn't edit). His links: "breathwork" to breathwork.u-dont-exist.com, "Systema
+  breathing" to his Systema video, the Instagram reel at 149 (live) after its paragraph for the live update. The live
+  post's copy of 2026-11-22 is in `humanize/fix-20261107/live-check/LIVE-POST-BLOCKS-20261122.jsonl` (all 457 paragraphs
+  match LIVE-INDEX.txt), and the whole fixed article is one file, `humanize/fix-20261107/whole/FIXED.md` (20,927 words).
+  The BPD splitting video in the post is the right one (pvN8QgGatew), public and allowed in embeds, and plays in the
+  post in the app's browser: where it broke for him is asked in chat. Lessons `docs/lessons/2026-11-22-2224-romance.md`
+  (romance-2026-11-22a to e): marking pages show the whole article (suggestion_review.py 1.12), what doesn't make sense
+  is fixed or named to him, every section is checked by itself (E307, missed on this article), four new ways in the
+  read against his fixes (18 to 21). The fifth page, the whole article with two questions on his own new sentences:
+  [the page](https://claude.ai/artifact/DByVjvbstJ9UmFnSsK2dyc), `review/teach-20261122/REVIEW-T5.md` (four questions:
+  M-14's "they", M-409's "literally diagnosed", "my first wife, Bee" against Ann, "H.D." against "H."). His "other junk
+  like this?": four fresh readers reported 84 passages as bad as the old "Romance Shouldn't Be Adjudicated"; vetted, 11
+  are real and 33 partly, clustered in "Slow & steady" to "Different levels in different domains" and in the closing
+  advice from "Psychedelic Timing" to "Tough Love"; none of those in his own voice is real (`r30/junk/VETTED.md`). The
+  blind test of the lessons (`r30/replay/RESULTS.md`): a fresh writer with them fixed 5 of 14 of his paragraphs his way,
+  half-fixed 5, missed 4 (lists of three kept, vague questions kept, details added), so the brief got three more lines
+  (lesson romance-2026-11-22f). Pangram: Claude in Chrome wasn't connected and the app's browser pane is signed out of
+  Pangram, so none of his 75 links could be read and no check ran (asked in chat).
+- 2026-11-22 23:43 to 2026-11-23 UTC (his message: "i signed into pangram in your cloud browser on my main acct", his
+  rule to test every lesson blind on the paragraphs he fixed, and his fifth-page answers). His four answers are in
+  (`r31/HIS-T5.json`): Q-14 in his own words ("pressuring men into making it look like men know what they want"),
+  "literally defined as" (409), "my second wife, Bee" (314), "H." again for H.D. (392). His 75 Pangram links all read
+  from his main account (`r30/HIS-CHECKS.txt`); none needed his nobodytobe account. His rule is in `AGENTS.md`
+  (lesson romance-2026-11-22h). The blind test, round 1 (`r30/replay/RESULTS.md`): 6 of 14 rewrites read Human High by
+  themselves; round 2 with "add nothing" (`r30/replay2/RESULTS.md`): 2 more High (125, 343) and 437 Human with a Medium
+  window, so 8 of 14 High over both rounds; the four still short (73, 214, 252 with 253, 346) point to three ways the
+  brief didn't say (lesson romance-2026-11-23a), which round 3 tests (`r30/replay3/`). The section pass (E307,
+  `r32/`): 93 sections by themselves, 92 Human with 0% AI (72 High in every window, 20 with Medium windows only), all
+  in the ledger. The one Mixed section, "The conversation about flaws" (`r33/README.md`): its opener joined and in the
+  fixed version (High with the next paragraph); its end left as it stands after three tries read worse than it, the
+  tell panel's rule for the next draft (a Codex writer from his laptop) refused by this session's safety check, so it
+  goes on the next page (lesson romance-2026-11-23b). Every push this turn was held back by the auto-mode refusal
+  below; the work is in the bundle sent in chat.
+- 2026-11-23 15:35 UTC (his message: the pushes should merge by the robot; his bundle fetch failed; "i approve codex
+  sure"; he added pictures to the post and the splitting video shows again; his fix of "The conversation about flaws").
+  The push went through this time (pull request 401, ca6f3eae); taking off its "hold" label so the lane workflow merges
+  it was refused by this session's safety check, so he removes the label or merges it. His bundle fetch had run in his
+  askrigor clone, which lacks this repository's commits; with the push it isn't needed. His OK for Codex on his laptop
+  (the tell panel's reader and its other-family writer) is recorded here. The post now has five more pictures (alt texts
+  "if she likes me its a red flag", "brain heart and penis asking what's the plan", "when she understands you because you
+  don't understand yourself", "self help for men", "lying to avoid conflict"); its text is unchanged since 2026-11-22
+  (`humanize/fix-20261107/live-check/LIVE-POST-BLOCKS-20261123.jsonl`, which the fixed version is now built from, so its
+  Markdown has them). His flaws fix is in (`r33/HIS-FLAWS.json`), and the section with it and my opener reads Human High
+  (0% AI, one Medium window): every section of the article now reads Human with no Low window. Lesson romance-2026-11-23c
+  (a run of questions: order, one plain statement, one frame); round 3 of the blind test runs it on that stretch too.
+  Round 3 of the blind test (`r30/replay3/RESULTS.md`, a Sonnet writer after three Opus writers gave no answer): over
+  the three rounds 9 of his 14 paragraphs read Human High by themselves from the lessons alone and two more Human with a
+  Medium window; 346 (the dilemma question) and the flaws stretch (reported questions) still read AI (lesson
+  romance-2026-11-23d). `tools/humanization/his_fixes_brief.md` has ways 22 and 23 and the concrete-list line in way 19
+  (tells J82 and J83).
+
+## Next step
+
+The junk fixes first: the 11 real and 33 partly real passages of `r30/junk/VETTED.md` that are in model text, sense
+first (the read against his fixes, ways 1 to 21 and the three of round 2), each fix checked by itself and in its
+section, with round 3's lessons from the blind test (`r30/replay3/`) and the next blind round on whatever they teach. Then
+his next marking page (the whole article): those fixes that change meaning or are his words. Then the drafts re-pasted for his last whole-article
+check; then his post is updated with his OK (no email): 366's link to Esther Perel's post, the reel embedded after
+149, the typography swap and the "Updated" date. Pull request 401 is pushed; its "hold" label (from the refused pushes) is his to take off, since this session's safety
+check refused to, and the lane workflow then merges it.
 
 ### Before 2026-11-07 (the registered master, as recorded then)
 

@@ -1,0 +1,22 @@
+[
+ {
+  "block": 27,
+  "text": "And even better than simply suppressing it, I agree with Esther Perel",
+  "kind": "broken",
+  "what": "The comparison \"even better than simply suppressing it\" has nothing to attach to; the sentence reads as if \"I agree\" is better than suppressing, with the better option missing.",
+  "fix": "And even better than simply suppressing it is what Esther Perel writes, and I agree with her: this sexual energy",
+  "confidence": "likely",
+  "readers": [
+   1
+  ],
+  "reports": [
+   {
+    "reader": 1,
+    "kind": "broken",
+    "what": "The comparison \"even better than simply suppressing it\" has nothing to attach to; the sentence reads as if \"I agree\" is better than suppressing, with the better option missing.",
+    "fix": "And even better than simply suppressing it is what Esther Perel writes, and I agree with her: this sexual energy",
+    "confidence": "likely"
+   }
+  ]
+ }
+]

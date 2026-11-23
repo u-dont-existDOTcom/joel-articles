@@ -1,0 +1,104 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-08",
+ "text_sha256": "bf0c8fc7b944f2f913a841e29e316399363af0e77c74654de791c94a0d608f39",
+ "text": "Going slowly can show you how somebody’s moods wibble and wobble over time, how they treat you and other people, but it can’t tell you how good the sex will be or how either of you will act afterward. You can know somebody for 20 years and then discover on the first night that the polarity isn’t there. Touch or smell can feel wrong, or your desire levels or kinks don’t match up.\n\nSome of those things might get better if both partners are committed to helping each other through it, but sometimes bad sexual fit still feels like, “Let’s just be friends!” Saying, “The sex isn’t working for me,” might sound like, “I only love you if the sex is good.” But that vague love word again needs clarifying. Universal love is the basis of any good relationship of any kind. It doesn’t make someone special the way romance does. Romantic love generally needs good sex too, or else we’re basically just friends who care deeply about each other.",
+ "section": "Slow & steady may win the race, but turtles have problems too!",
+ "reader": "Someone deciding whether to go slowly with a new partner, and what going slowly can and can't tell them about sexual fit.",
+ "sentences": [
+  {
+   "s": "Going slowly can show you how somebody’s moods wibble and wobble over time, how they treat you and other people, but it can’t tell you how good the sex will be or how either of you will act afterward.",
+   "payoff": "the reader learns going slowly shows moods and how someone treats people, but not how the sex will be",
+   "follows": "the section heading"
+  },
+  {
+   "s": "You can know somebody for 20 years and then discover on the first night that the polarity isn’t there.",
+   "payoff": "the reader learns twenty years can still end in finding no polarity on the first night",
+   "follows": "what going slowly can't tell",
+   "link": "20 years"
+  },
+  {
+   "s": "Touch or smell can feel wrong, or your desire levels or kinks don’t match up.",
+   "payoff": "the reader learns what can be wrong: touch, smell, desire levels, kinks",
+   "follows": "no polarity",
+   "link": "Touch or smell"
+  },
+  {
+   "s": "Some of those things might get better if both partners are committed to helping each other through it, but sometimes bad sexual fit still feels like, “Let’s just be friends!”",
+   "payoff": "the reader learns some of that can improve with commitment, and sometimes it ends as friendship",
+   "follows": "the list of what can be wrong",
+   "link": "Some of those things"
+  },
+  {
+   "s": "Saying, “The sex isn’t working for me,” might sound like, “I only love you if the sex is good.”",
+   "payoff": "the reader learns saying the sex isn't working can sound like conditional love",
+   "follows": "just being friends",
+   "link": "Saying"
+  },
+  {
+   "s": "But that vague love word again needs clarifying.",
+   "payoff": "the reader learns the word love needs clarifying here",
+   "follows": "conditional love",
+   "link": "that vague love word"
+  },
+  {
+   "s": "Universal love is the basis of any good relationship of any kind.",
+   "payoff": "the reader learns universal love is the basis of any good relationship",
+   "follows": "clarifying love",
+   "link": "Universal love"
+  },
+  {
+   "s": "It doesn’t make someone special the way romance does.",
+   "payoff": "the reader learns universal love doesn't make someone special the way romance does",
+   "follows": "universal love",
+   "link": "It doesn’t make someone special"
+  },
+  {
+   "s": "Romantic love generally needs good sex too, or else we’re basically just friends who care deeply about each other.",
+   "payoff": "the reader learns romantic love needs good sex too, or it's deep friendship",
+   "follows": "romance's specialness",
+   "link": "Romantic love"
+  }
+ ],
+ "checked": [
+  {
+   "point": "181's list, Low in his whole check",
+   "found": "RESULTS-whole-r27.json",
+   "still_needed": "yes: they get what can be wrong on the first night, in his words",
+   "fate": "changed"
+  }
+ ],
+ "placement": "The whole section, 180 to 184, as his T3 answer has it.",
+ "opens": {
+  "first_sentence": "Going slowly can show you how somebody’s moods wibble and wobble over time, how they treat you and other people, but it can’t tell you how good the sex will be or how either of you will act afterward.",
+  "why_reading": "It tells the reader what going slowly can't tell them about sexual fit."
+ },
+ "same_point": "none: read the section from its heading to the next for these points; each is made once, here",
+ "needed": {
+  "reader": "his own answer; the fresh sense read of it (this turn) found nothing",
+  "unneeded": [],
+  "kept": {}
+ },
+ "questions": {
+  "Q1": "PASS: his words, as he wrote them in his T3 answer",
+  "Q2": "PASS: his words, as he wrote them in his T3 answer",
+  "Q3": "PASS: his words, as he wrote them in his T3 answer",
+  "Q4": "PASS: his words, as he wrote them in his T3 answer",
+  "Q5": "PASS: his words, as he wrote them in his T3 answer",
+  "Q6": "PASS: his words, as he wrote them in his T3 answer",
+  "Q7": "PASS: his words, as he wrote them in his T3 answer",
+  "Q8": "PASS: his words, as he wrote them in his T3 answer",
+  "Q9": "PASS: his words, as he wrote them in his T3 answer"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

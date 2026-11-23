@@ -1,0 +1,13 @@
+# Round 2 of the blind test, each rewrite checked by itself in the Pangram web app (his main account, the Claude app's
+# browser pane), 2026-11-23 00:33 to 00:35 UTC; predictions in PREDICTIONS.json, written first (commits bbd927fc, 7e0f5851).
+# Under 50 words the check takes a neighbour: 125 the paragraph before it, 214 the paragraph after it, 252 and 253 together.
+# key | history uuid | label | document confidence | % AI | windows (H/A: label, H/M/L: confidence, words) | prediction | right
+replay2-M-73|53794e29-8e5c-46fd-b614-ee6aa13d74f4|Mixed|Low|41.8|H:H19 H:M11 H:L12 A:L27|Human 0.5|MISS
+replay2-prev+M-125|8509d079-fced-4a3e-889e-a55b0a5d4239|Human|High|0.0|H:H76|AI 0.35|MISS
+replay2-M-214+next|c2d2d3c5-2147-46f9-afdc-647e59d98225|Mixed|Low|50.1|H:L36 A:M35|Human 0.7|MISS
+replay2-M-252+253|d84b2b09-0763-4822-bd77-69248654ef8a|AI|High|100|A:H44 A:M9|Human 0.5|MISS
+replay2-M-343|51e08156-a7c4-4ecc-8561-6763d3393a94|Human|High|0.0|H:H94|AI 0.3|MISS
+replay2-M-346|76f05eb5-e2af-4b86-9af5-dae6c9b916b4|Mixed|Low|75.4|H:L15 A:M15 A:H31|AI 0.15|right
+replay2-M-437|cd942a4d-3ed8-4018-95ec-acb7f69feee7|Human|Medium|0.0|H:H47 H:M19|Human 0.55|right
+# predictions right: 2 of 7
+# Brier score of the chances: 0.304 (0.25 is a coin at 0.5)
