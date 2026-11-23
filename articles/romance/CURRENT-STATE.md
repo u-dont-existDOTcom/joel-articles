@@ -191,6 +191,13 @@ with his OK and no email.
   Medium window; 346 (the dilemma question) and the flaws stretch (reported questions) still read AI (lesson
   romance-2026-11-23d). `tools/humanization/his_fixes_brief.md` has ways 22 and 23 and the concrete-list line in way 19
   (tells J82 and J83).
+- 2026-11-23 16:58 UTC (his message: why Opus wasn't working, Fable, whether Sonnet is good enough; he merged pull
+  request 401). Opus agents answer in seconds but never finished the blind test with the full brief (five tries, up to
+  27 minutes); Fable answered in 45 seconds and wrote the best rewrites (`r30/replay3/MODELS.md`), so blind writers are
+  Fable now (`AGENTS.md`). With Fable, round 3 has 73 and 252 with 253 Human High, 214's own window High and the flaws
+  stretch Human (High, Medium); 346 still read AI until one word of his, "compassionately" for "honestly", took it to 0%
+  (`r30/replay4/`; way 21 of `tools/humanization/his_fixes_brief.md`). Straight quote marks changed no label
+  (`r30/typo3/`). Lesson romance-2026-11-23e.
 
 ## Next step
 

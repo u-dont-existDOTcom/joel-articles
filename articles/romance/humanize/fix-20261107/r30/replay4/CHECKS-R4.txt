@@ -1,0 +1,6 @@
+# Round 4 of the blind test and one diagnostic check, each by itself in the Pangram web app (his main account, the app's
+# browser pane), 2026-11-23 17:05 to 17:06 UTC; predictions in PREDICTIONS.json, written and committed first (c4518f0c, 27e35e01).
+# key | history uuid | label | document confidence | % AI | windows | prediction | right
+fable4-M-346|1c517bcf-92a0-4b83-bf90-59a6d811d052|Mixed|Low|67.2|H:L26 A:M15 A:H19|AI 0.4|right
+diag4-M-346-compassionately|032efdc2-fdc9-4306-8618-7b7826337826|Human|Low|0|H:H26 H:M15 H:L19|AI 0.4|MISS
+# The diagnostic changes one word of round 4's text, "honestly" to "compassionately" (his word in his fix): 67% AI to 0%.

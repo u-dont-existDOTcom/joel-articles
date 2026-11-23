@@ -26,7 +26,7 @@
         },
         "current_state": {
           "path": "articles/romance/CURRENT-STATE.md",
-          "sha256": "d3dc71380dcf00403e8106729146a3091eddad7ce85e94a6fba3f2cc3e623dfa"
+          "sha256": "4536228819d43ed1bfcba48ecd708f0887262c15b4a70489e8068895fb9a4654"
         }
       },
       "review": {
@@ -4136,6 +4136,16 @@
         {
           "path": "articles/romance/humanize/fix-20261107/r30/typo3/CHECKS.txt",
           "sha256": "3be48aa6e20b75dcb8b5d9c218289f484fe08b8a265a33df17645736fdee5088",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r30/replay3/MODELS.md",
+          "sha256": "ec13f3027a360f170b7e0f0f7db2f4e27255b6616e324945d239d36bd118b850",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r30/replay4/CHECKS-R4.txt",
+          "sha256": "cb6f94cdca17adea7d4cd496647e19498866650ac0e87c15e03b561b580a9f93",
           "role": "humanization_working_record"
         }
       ]
