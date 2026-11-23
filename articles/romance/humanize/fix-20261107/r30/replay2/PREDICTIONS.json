@@ -1,69 +1,69 @@
 {
- "about": "Round 2 of the blind test: the rewrites of OUT.md (the brief with rule 3, \"add nothing\"), each checked by itself in the Pangram web app (his main account, the app browser pane). Texts under 50 words take a neighbour: 125 the paragraph before it (30 words, shorter than the one after), 214 the paragraph after it (as in round 1), 252 and 253 together. Predictions written before the checks: call and my chance of a 100% Human result. These are test texts that do not go into the article, so they stay out of pangram-ledger.jsonl, which takes a making-sense receipt for a text of mine; round 1 did the same.",
+ "about": "Round 2 of the blind test: the rewrites of OUT.md (the brief with rule 3, \"add nothing\"), each checked by itself in the Pangram web app (his main account, the app browser pane). Texts under 50 words take a neighbour: 125 the paragraph before it (30 words, shorter than the one after), 214 the paragraph after it (as in round 1), 252 and 253 together. Predictions written before the checks: call and my chance of a 100% Human result. These are test texts that do not go into the article, so they stay out of pangram-ledger.jsonl, which takes a making-sense receipt for a text of mine; round 1 did the same. The rewriter typed straight apostrophes; they were made curly (as in the article and in round 1's texts) before any check, with the predictions unchanged.",
  "written_utc": "2026-11-23T00:09Z",
  "items": [
   {
    "key": "replay2-M-73",
-   "sha256": "f11a37d64dccce93febf9b20a2e48d7cf3bc3fbce056a4e787aea57fd1f7dbe5",
+   "sha256": "5b614d3f5ce843e8f8162cf1c4643f4cb0f1e3a0ef3480182552629039e9e886",
    "words": 68,
    "call": "Human",
    "chance": 0.5,
    "why": "no added detail this time, but the \"is different from\" sentence his check read Medium stays, and \"flip the provider role around\" is new wording",
-   "text": "Before me, Bee had also supported a totally broke and crazy boyfriend, and stayed with him for a while. Later she blamed herself for staying through that, and I agree. Some women are fixer types, which can flip the provider role around. But helping carry somebody through a temporary incapacity, like my knee, is different from becoming the permanent support system for a man who won't take responsibility."
+   "text": "Before me, Bee had also supported a totally broke and crazy boyfriend, and stayed with him for a while. Later she blamed herself for staying through that, and I agree. Some women are fixer types, which can flip the provider role around. But helping carry somebody through a temporary incapacity, like my knee, is different from becoming the permanent support system for a man who won’t take responsibility."
   },
   {
    "key": "replay2-prev+M-125",
-   "sha256": "beeb9e5105348bcc25632592afb058ccf027ae441cad3c4f55a29da4d841f101",
+   "sha256": "c58fe2d0cd3b27717e0d0b060f6d2e0929e7805a9270c86a50cd0c9376262d4e",
    "words": 73,
    "call": "AI",
    "chance": 0.35,
    "why": "keeps round 1's \"honest about X, which tells me more than Y\" frame, which read AI High there; the paragraph before it adds \"tells me\" again",
-   "text": "“I have baggage” tells me almost nothing. What are you having trouble with now? What might make it hard for you to function well in a relationship?\n\nI'd want both of us to be honest about our own issues, which tells me more than either of us announcing that we're healed. What addictions or impulsive behaviors can't we reliably control, and what are we probably going to ask forgiveness for more than once?"
+   "text": "“I have baggage” tells me almost nothing. What are you having trouble with now? What might make it hard for you to function well in a relationship?\n\nI’d want both of us to be honest about our own issues, which tells me more than either of us announcing that we’re healed. What addictions or impulsive behaviors can’t we reliably control, and what are we probably going to ask forgiveness for more than once?"
   },
   {
    "key": "replay2-M-214+next",
-   "sha256": "3c5a0ae926d993334a408d32f43325675836d62d5ed4cf7b0dfc0c16143d023f",
+   "sha256": "4923e3f277559f3e154f6d7e1f3364557b8014351596d3291e9ab89187bae37f",
    "words": 67,
    "call": "Human",
    "chance": 0.7,
    "why": "round 1 read 0% AI; the next paragraph's last sentence (11 words) was the Low window there and is unchanged",
-   "text": "And I like Toft's point that a man can get feminine energy from nature, music, and other parts of life, so a girlfriend shouldn't have to be my only source of beauty and sensuality.\n\nWhen I’m already overwhelmed and suddenly announce, “I need time for myself!” it can easily sound like I need time away from her. So I’d rather make alone time normal from early on."
+   "text": "And I like Toft’s point that a man can get feminine energy from nature, music, and other parts of life, so a girlfriend shouldn’t have to be my only source of beauty and sensuality.\n\nWhen I’m already overwhelmed and suddenly announce, “I need time for myself!” it can easily sound like I need time away from her. So I’d rather make alone time normal from early on."
   },
   {
    "key": "replay2-M-252+253",
-   "sha256": "b7d7592e4e80049cd579b6832249bcc9f0cf24d37c07a1ebc1a7eeb0a5be6dde",
+   "sha256": "23ffb9b36b56647a4ddf8f4636d7e344009aa1c182cdfecdfa106df953cd9c73",
    "words": 51,
    "call": "Human",
    "chance": 0.5,
    "why": "round 1 read 3.1% AI with two Low windows; this keeps the list of three (\"honesty, closeness, and equal dignity\")",
-   "text": "So far I've leaned toward honesty, closeness, and equal dignity, and I do believe in them for basically any type of relationship. But none of that by itself explains why two people still want to tear each other's clothes off every night.\n\nFor me, though, feeling safe makes room for desire."
+   "text": "So far I’ve leaned toward honesty, closeness, and equal dignity, and I do believe in them for basically any type of relationship. But none of that by itself explains why two people still want to tear each other’s clothes off every night.\n\nFor me, though, feeling safe makes room for desire."
   },
   {
    "key": "replay2-M-343",
-   "sha256": "3a900c83da8854fb1a1f123a4b7e47528afe47b1872033bb385e67cfaf846829",
+   "sha256": "1d25bbed6523a5285be579dbfd3782c3b5b83aa419eec359ade3a82cfded1f69",
    "words": 88,
    "call": "AI",
    "chance": 0.3,
    "why": "the list of wants is still there, which his fix cut and round 1 kept (AI, Medium)",
-   "text": "Sometimes what two people want is much more practical. They want to share a home and raise children, take care of each other, financially too, maybe have sex, without pretending it all depends on overwhelming romantic love. I'd call that a practical partnership, and there's nothing inherently wrong with it if both people know that's what they're doing. But I suspect they've simply never been in love, so they don't expect to be, and their arrangement becomes a problem if one of them ever does fall for someone."
+   "text": "Sometimes what two people want is much more practical. They want to share a home and raise children, take care of each other, financially too, maybe have sex, without pretending it all depends on overwhelming romantic love. I’d call that a practical partnership, and there’s nothing inherently wrong with it if both people know that’s what they’re doing. But I suspect they’ve simply never been in love, so they don’t expect to be, and their arrangement becomes a problem if one of them ever does fall for someone."
   },
   {
    "key": "replay2-M-346",
-   "sha256": "00720647bbbbfa06e6c49465f3019de3c13b9ae144087dcebe76512558eab3d6",
+   "sha256": "4f136df33cac1676492826f61119eb7497f9a76ead39c41ebd5bc6107f2c41bc",
    "words": 60,
    "call": "AI",
    "chance": 0.15,
    "why": "almost the text as it stood, which read all AI in his check; the vague betrayal question stays",
-   "text": "And the biggie: what happens if one of us falls in love with someone else? What counts as betrayal, and what's just a sign we need a serious talk? If our lives change, can we sit down and honestly rethink the agreement? And in a breakup, what do we still owe each other (and our kids, if we have any)?"
+   "text": "And the biggie: what happens if one of us falls in love with someone else? What counts as betrayal, and what’s just a sign we need a serious talk? If our lives change, can we sit down and honestly rethink the agreement? And in a breakup, what do we still owe each other (and our kids, if we have any)?"
   },
   {
    "key": "replay2-M-437",
-   "sha256": "ee90617442cf3ff6e73e2caada9fb081293296986b69f175c8525005e84f3774",
+   "sha256": "6d502d87d5cf1b9c9711458576fceaab951638477e6f7f862ac96b4ac1cda689",
    "words": 63,
    "call": "Human",
    "chance": 0.55,
    "why": "the text as it stood read Human High alone; this rewords the first two sentences more than his fix did",
-   "text": "Often times the aftermath is even worse than the breakup. When you tell people about the relationship, I'd avoid demonizing your ex publicly, but I don't think that means hiding the truth to save face. Sometimes the truth is you were abused or seriously deceived. So how much you say, and how publicly, really depends on what happened and why you're telling people."
+   "text": "Often times the aftermath is even worse than the breakup. When you tell people about the relationship, I’d avoid demonizing your ex publicly, but I don’t think that means hiding the truth to save face. Sometimes the truth is you were abused or seriously deceived. So how much you say, and how publicly, really depends on what happened and why you’re telling people."
   }
  ]
 }
