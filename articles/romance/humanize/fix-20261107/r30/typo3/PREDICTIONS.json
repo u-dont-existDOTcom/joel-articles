@@ -1,0 +1,23 @@
+{
+ "about": "The typography test: round 3's three rewrites that read AI or Mixed, checked again with straight quote marks, the way his own versions were typed and the way the typographic swap will publish them (his rule: curly quote marks straightened; \"the curly apostrophes are an AI tell\"). Nothing else changed. Predictions before the checks: call and my chance of a 100% Human result. The flaws rewrite has no quote marks, so it is the same text and is left out.",
+ "items": [
+  {
+   "key": "typo3-M-214+next",
+   "curly_key": "replay3-M-214+next",
+   "sha256": "0c124d1c705eb2ccd5642f5517613c7223aab2759752efde444845528f9e70b1",
+   "words": 74,
+   "call": "AI",
+   "chance": 0.3,
+   "text": "A man can get feminine energy from nature, music, poetry, art, flowers, food, and other parts of life, as Toft also points out, and I like that idea: a girlfriend shouldn't have to be my only source of beauty and softness.\n\nWhen I'm already overwhelmed and suddenly announce, \"I need time for myself!\" it can easily sound like I need time away from her. So I'd rather make alone time normal from early on."
+  },
+  {
+   "key": "typo3-M-346",
+   "curly_key": "replay3-M-346",
+   "sha256": "ed75b5dd58dcdd1cd5494e3b29a93c9dd2f382e9ba9aa3c3f30f9a90931ac485",
+   "words": 65,
+   "call": "AI",
+   "chance": 0.25,
+   "text": "And the biggie: what happens if one of us falls in love with someone else? We'd need to say what counts as betrayal and what's just a sign we need a serious talk. If our lives change, can we honestly sit down and rethink the agreement? And if we split up, what do we still owe each other (and our kids, if we have any)?"
+  }
+ ]
+}

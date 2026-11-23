@@ -140,8 +140,11 @@ that still reads the first way.
    we need a serious talk?"). He says the thing itself: "Non-strategic lying is literally diagnosed as 'pathological
    lying'", "her jealousy wasn't about what I was doing then and there", "Is that, in and of itself, a betrayal, since
    it's not under our control?" (2026-11-22: "sort of vagued and weird, didn't really understand like what was it trying
-   to actuually say"). "Announcing" is one of these words ("another ai tell"). A question the reader couldn't answer as
-   asked is this way too: mark it, and say what the real question is.
+   to actuually say"). "Announcing" is one of these words ("another ai tell"), and so is "honestly" where a specific
+   word would say how: in a blind rewrite of the paragraph he fixed, "can we sit down and honestly rethink what we agreed
+   to?" read 67% AI and the same text with his word, "compassionately", read 0% (romance, 2026-11-23, lesson
+   romance-2026-11-23e). A question the reader couldn't answer as asked is this way too: mark it, and say what the real
+   question is.
 
 22. **A pivot that points back without naming what.** "But none of that by itself explains why two people still want to
    tear each other's clothes off" points back at a list of values; he named it ("that liberal modern philosophy fails to

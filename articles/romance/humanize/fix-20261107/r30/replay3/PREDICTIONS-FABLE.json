@@ -1,0 +1,50 @@
+{
+ "about": "Round 3 again with a Fable writer (Claude Fable 5.1), the same brief and paragraphs, bounded to a short answer (it answered in 45 seconds). Each rewrite checked by itself, curly quote marks as in rounds 1 to 3. Predictions written before the checks.",
+ "items": [
+  {
+   "key": "fable3-M-73",
+   "sha256": "52be578583dd2d9876bd3e332de4328c7c50218adb2b5ff71e43d5a2d6511710",
+   "words": 81,
+   "call": "Human",
+   "chance": 0.5,
+   "why": "the contrast now names Bee's own case; Sonnet's version of this paragraph read High",
+   "text": "Before me, Bee had also stayed with a boyfriend who was totally broke and crazy, and she supported him for a while. Later she blamed herself for staying through that, and I think she’s right. Carrying somebody while he’s temporarily out of action, like me with my knee, is one thing, but she had become the permanent support for a man who wouldn’t take responsibility. Some women are fixer types, and that can make them stay with a man like that."
+  },
+  {
+   "key": "fable3-M-214+next",
+   "sha256": "ac3cd35960eb2eaf1f27a2d5ebb42713690c8b3327229278e3ea9d61290bbca2",
+   "words": 67,
+   "call": "AI",
+   "chance": 0.3,
+   "why": "the next paragraph read AI beside every rewrite of 214 so far",
+   "text": "I also like Toft’s idea that a man can get feminine energy from nature, music, poetry, art, flowers and food, so a girlfriend doesn’t have to be my only source of beauty and softness.\n\nWhen I’m already overwhelmed and suddenly announce, “I need time for myself!” it can easily sound like I need time away from her. So I’d rather make alone time normal from early on."
+  },
+  {
+   "key": "fable3-M-252+253",
+   "sha256": "509d7cfc1c005b1a96cdf1c6a35c66ed5d738b4dc920ab1678955025d0ef5f62",
+   "words": 61,
+   "call": "Human",
+   "chance": 0.5,
+   "why": "the pivot names what it points back to and both halves of the turn stay, as in Sonnet's, which read Human with a Medium window",
+   "text": "So far I’ve mostly been arguing for honesty and closeness, with equal dignity for both people. I do believe in those basically for any type of relationship, but honesty and closeness by themselves won’t make two people still want to tear each other’s clothes off each night.\n\nFor me, that safety won’t spark desire, but it does give desire some space."
+  },
+  {
+   "key": "fable3-M-346",
+   "sha256": "4cea0d86aea4f8e2e735f94cfc298ef43fa98194a1f12385e67d0ccd074608bc",
+   "words": 68,
+   "call": "AI",
+   "chance": 0.35,
+   "why": "the betrayal question now asks about this case, but the last question read AI (High) in every round",
+   "text": "And the biggie: what happens if one of us falls in love with someone else? Would we call that a betrayal, or just a sign we need a serious talk? I’d also want to know that we can honestly sit down and rethink the agreement when our lives change. And if we split up, what do we still owe each other (and our kids, if we have any)?"
+  },
+  {
+   "key": "fable3-flaws-126+127",
+   "sha256": "80ab4b2247f00f4b5abedea4c1a39e1fad4473de146bc971e42b25d73ab03439",
+   "words": 77,
+   "call": "Human",
+   "chance": 0.5,
+   "why": "reordered the way his fix was, kept the spoken \"okay, what does that mean:\", the long-view question last; but no plain statement and a three-part last question",
+   "text": "Look at your most recent conflicts and ask if you were able to regulate yourself during them. If you shut down, okay, what does that mean: did you stop talking to your partner for days, and did they feel abandoned? What did you do to the other person, and how did you repair the damage afterward?\n\nHas your judgment gotten better, or do you keep falling for the same stuff, and would your friends or exes agree?"
+  }
+ ]
+}
