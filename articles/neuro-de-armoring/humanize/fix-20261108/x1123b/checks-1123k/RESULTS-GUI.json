@@ -1,0 +1,41 @@
+{
+ "detector": "Pangram 4.1 (web app, his account, in the desktop app's browser pane)",
+ "results": {
+  "agm7": {
+   "uuid": "4cc32d25-7fb2-41a2-a63f-21802c947517",
+   "at": "2026-11-23T16:16:22.441487-05:00",
+   "headline": "AI Generated",
+   "ai": 1.0,
+   "words": 102,
+   "windows": [
+    [
+     "AI-Generated",
+     "High",
+     102,
+     "Agmatine can leave you flat and numb--people do get that in practice, even if the human trials only turned up stomach problems--so stop it right away if you notice you're flatter or more depressed than before you started, things stop feeling good, or you just stop caring. Same if it winds you up instead (more irritable, can't sleep), or you get dizziness, palpitations, nausea, loose stools or stronger cravings. Unfortunately a few people say the numbness hung on for weeks after they quit, so don't push through it hoping it'll settle like side effects sometimes do."
+    ]
+   ]
+  },
+  "lma8": {
+   "uuid": "069a4bf5-d703-4126-8fe1-aa7542f70790",
+   "at": "2026-11-23T16:16:33.027342-05:00",
+   "headline": "AI Generated",
+   "ai": 0.9999958872795105,
+   "words": 76,
+   "windows": [
+    [
+     "AI-Generated",
+     "Low",
+     11,
+     "Lion's Mane & Ashwagandha: I'm not advising either of these."
+    ],
+    [
+     "AI-Generated",
+     "High",
+     65,
+     "They're popular for focus and stress, but unfortunately some people report anhedonia (when nothing feels good anymore) and sexual dysfunction that hangs around even after they stop taking them--people call it post-ashwa or post-lion's mane syndrome. It's rare, but it's the same kind of thing SSRIs and finasteride can do, so it's something to keep in mind."
+    ]
+   ]
+  }
+ }
+}

@@ -1,0 +1,24 @@
+[
+ {
+  "key": "agm7",
+  "name": "Agmatine's stop signs, try 3 (no checklist, his words)",
+  "lineage": "neuro-de-armoring/W-AGM",
+  "scope": "paragraph",
+  "words": 96,
+  "call": "AI",
+  "chance": 0.4,
+  "why": "see the ledger record",
+  "sha256": "af81a2a55cb3c7a160fa9fe22415c231240df711449a23f5b4fd6d69876ea24b"
+ },
+ {
+  "key": "lma8",
+  "name": "Lion's mane and ashwagandha item, try 5 (his own phrases)",
+  "lineage": "neuro-de-armoring/W-LMA",
+  "scope": "paragraph",
+  "words": 67,
+  "call": "AI",
+  "chance": 0.4,
+  "why": "see the ledger record",
+  "sha256": "c5e42165d9591fdd7093c4581250abf66f88613355950e57280163f02a6f0ddb"
+ }
+]

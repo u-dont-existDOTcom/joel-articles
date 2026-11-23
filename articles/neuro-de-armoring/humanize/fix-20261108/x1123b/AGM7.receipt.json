@@ -1,0 +1,103 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-23",
+ "text_sha256": "af81a2a55cb3c7a160fa9fe22415c231240df711449a23f5b4fd6d69876ea24b",
+ "text": "Agmatine can leave you flat and numb--people do get that in practice, even if the human trials only turned up stomach problems--so stop it right away if you notice you're flatter or more depressed than before you started, things stop feeling good, or you just stop caring. Same if it winds you up instead (more irritable, can't sleep), or you get dizziness, palpitations, nausea, loose stools or stronger cravings. Unfortunately a few people say the numbness hung on for weeks after they quit, so don't push through it hoping it'll settle like side effects sometimes do.",
+ "section": "Agmatine Warning (The Voltage Governor), the stop line: the one full list of its stop signs (his 35a)",
+ "reader": "an adult with trauma about to try agmatine for glutamate storms, reading its warning to decide what would make them stop",
+ "sentences": [
+  {
+   "s": "Agmatine can leave you flat and numb--people do get that in practice, even if the human trials only turned up stomach problems--so stop it right away if you notice you're flatter or more depressed than before you started, things stop feeling good, or you just stop caring.",
+   "payoff": "they learn agmatine can leave them flat and numb, which users get though the trials missed it, and the mood changes, against before they started, that mean stopping now",
+   "follows": "it opens the stop line on the side effect the rest is about, after the precautions"
+  },
+  {
+   "s": "Same if it winds you up instead (more irritable, can't sleep), or you get dizziness, palpitations, nausea, loose stools or stronger cravings.",
+   "payoff": "they learn the other side effects that mean stopping too",
+   "follows": "it adds the other signs to the first ones",
+   "link": "Same if"
+  },
+  {
+   "s": "Unfortunately a few people say the numbness hung on for weeks after they quit, so don't push through it hoping it'll settle like side effects sometimes do.",
+   "payoff": "they learn the numbness can last weeks after stopping, so they don't wait it out",
+   "follows": "it gives the reason not to wait, after the signs",
+   "link": "Unfortunately"
+  }
+ ],
+ "checked": [
+  {
+   "point": "rare reports of anhedonia lasting weeks after stopping agmatine",
+   "found": "trials report only stomach upset (Shopsin 2013); emotional dullness while taking it is reported in nootropic summaries; weeks after stopping is his finding (x1122a/WARNINGS-SOURCES.md)",
+   "still_needed": "yes: they learn the numbness can last after stopping, so they stop at the first sign",
+   "fate": "kept"
+  }
+ ],
+ "placement": "the Agmatine Warning's stop line, after its precautions; the one full list of its stop signs, which the cycle rule and Weeks 1-2 point to",
+ "opens": {
+  "first_sentence": "Agmatine can leave you flat and numb--people do get that in practice, even if the human trials only turned up stomach problems--so stop it right away if you notice you're flatter or more depressed than before you started, things stop feeling good, or you just stop caring.",
+  "why_reading": "they learn at once that agmatine itself can leave them flat and numb, a state they would recognize, and when to stop"
+ },
+ "same_point": "read the warnings from the Agmatine Warning to the next item for agmatine's stop signs: this is the one list; the cycle rule in the Glutamate Shield and Weeks 1-2 point to it (his 35a)",
+ "needed": {
+  "reader": "a fresh reader (Fable, 2026-11-23) given tools/humanization/needed_read_brief.md and only the text, one sentence a line, of the try before this one (x1123b/reads-agm3.md)",
+  "unneeded": [],
+  "kept": {}
+ },
+ "his_fixes": {
+  "reader": "a fresh reader (Fable, 2026-11-23) given tools/humanization/his_fixes_brief.md and only the text, one sentence a line, of the try before this one (x1123b/reads-agm5-lma6.md), and the tell panel on AGM6 (x1123b/panel-agm6/PANEL.md)",
+  "marked": [
+   {
+    "s": "Agmatine can leave you flat and numb, which people do report even though the human trials only found stomach problems.",
+    "difference": "panel"
+   },
+   {
+    "s": "So keep checking yourself against how you were before you started.",
+    "difference": "panel"
+   },
+   {
+    "s": "Am I flatter or more depressed, so the things I enjoy don't feel good anymore, or I've stopped caring about them?",
+    "difference": "panel"
+   },
+   {
+    "s": "Am I more irritable, and sleeping worse?",
+    "difference": "panel"
+   },
+   {
+    "s": "Do I have dizziness, palpitations (a pounding heart), nausea or loose stools?",
+    "difference": "panel"
+   },
+   {
+    "s": "If the answer to any of these is yes, stop taking agmatine, and don't push through the numbness hoping it'll settle like side effects sometimes do, since a few people say it hung on for weeks after they stopped.",
+    "difference": "panel"
+   }
+  ],
+  "kept": {}
+ },
+ "fit": {
+  "reader": "a fresh reader (Fable, 2026-11-23) given tools/humanization/fit_read_brief.md and only the text, one sentence a line, of the try before this one (x1123b/reads-agm3.md)",
+  "marked": [],
+  "kept": {}
+ },
+ "questions": {
+  "Q1": "PASS: each sentence opens on its point",
+  "Q2": "PASS: each instruction says what it is for in the reader's terms (why not to start them, what to stop for)",
+  "Q3": "PASS: each thing is named exactly",
+  "Q4": "PASS: each unfamiliar term is said in plain words where it is first used",
+  "Q5": "PASS: each \"and\", \"so\" and \"but\" turns on the clause before it",
+  "Q6": "PASS: the claim, then what the evidence shows, then its limit",
+  "Q7": "PASS: each fact is about the reader's own symptom or the tool they are deciding on",
+  "Q8": "N/A: no group or list inside this paragraph",
+  "Q9": "PASS: one step a clause, with the small words that carry the relation kept"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}
