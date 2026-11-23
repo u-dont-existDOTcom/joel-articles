@@ -31,6 +31,12 @@ for i, (was, now, why) in FIXES.items():
     assert HEAD[i] == was
     HEAD[i] = now
 LEVEL = {'S008': 2, 'S018': 2}
+# His picks for these two read below High in Pangram in their sections (gate: nothing goes in below High; Joel, 2026-11-21:
+# "make sure you don't add anything that hasn't passed pangram with high conf"), so they keep their headings until he picks
+# again: NB-toc-S055#36 (the heading alone, Human Low; his heading read Medium) and NB-toc-S060#37 (Human Low, 45 words;
+# his heading read High).
+HOLD = {'S055': 'his pick "Did It Work or Go Wrong?" read Human Low by itself in its section (NB-toc-S055#36)',
+        'S060': 'his pick "Is It Safe When \"I\" Vanish?" read Human Low with its first sentences (NB-toc-S060#37)'}
 DROP_HEADING = {'S023': 'his answer: its text sits under "Spiritual Bypass Warning"',
                 'S059': 'his answer: "Appendix" goes and its one section moves into the manual'}
 MOVE = {'S060': 'S056'}  # move S060 to right after S056
@@ -88,7 +94,9 @@ def main():
     for i in order():
         s = S[i]
         e = {'id': i, 'was': s['heading'], 'was_level': s['level'], 'level': LEVEL.get(i, s['level']),
-             'heading': None if i in DROP_HEADING else HEAD[i]}
+             'heading': None if i in DROP_HEADING else (s['heading'] if i in HOLD else HEAD[i])}
+        if i in HOLD:
+            e['held'] = {'his_pick': HEAD[i], 'why': HOLD[i]}
         if i in DROP_HEADING:
             e['drop_heading'] = DROP_HEADING[i]
         if i in MOVE:
@@ -132,6 +140,24 @@ def main():
                 out.append(text.strip())
         return '\n\n'.join(out) + '\n'
     before = [{'id': s['id']} for s in SEC if s['id'] != 'S000']
+    ops = {'rename': [], 'drop': [], 'move': [], 'insert': [], 'edit': [], 'links': [], 'expected_headings': []}
+    after_head = {e['id']: e['heading'] for e in plan}
+    for e in plan:
+        if e['heading'] is None:
+            ops['drop'].append({'id': e['id'], 'text': e['was'], 'level': e['was_level']})
+            continue
+        ops['expected_headings'].append([e['level'], e['heading']])
+        if e['heading'] != e['was'] or e['level'] != e['was_level']:
+            ops['rename'].append({'id': e['id'], 'from': e['was'], 'from_level': e['was_level'], 'to': e['heading'], 'to_level': e['level']})
+        if 'moved_after' in e:
+            nxt = plan[plan.index(e) + 1]['id']
+            ops['move'].append({'id': e['id'], 'heading': e['heading'], 'before': after_head[nxt]})
+        if 'open_line' in e:
+            ops['insert'].append({'id': e['id'], 'heading': e['heading'], 'text': e['open_line']})
+        if 'text_edit' in e:
+            ops['edit'].append({'id': e['id'], 'from': e['text_edit']['from'], 'to': e['text_edit']['to']})
+    ops['links'] = [{'find': l['find'], 'words': l['words'], 'href': l['href']} for l in links]
+    json.dump(ops, open(os.path.join(HERE, 'EDITOR-OPS.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
     open(os.path.join(HERE, 'BEFORE.md'), 'w', encoding='utf-8').write(md(before, False))
     open(os.path.join(HERE, 'AFTER.md'), 'w', encoding='utf-8').write(md(plan, True))
     n = sum(1 for e in plan if e['heading'] and e['heading'] != e['was'])

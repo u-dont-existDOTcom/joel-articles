@@ -1,0 +1,316 @@
+{
+ "format": "joel-suggestion-review-v1",
+ "review_id": "romance-t6",
+ "built": "2026-11-23",
+ "title": "Romance Advice I Wish My Parents Taught Me: the passages that didn’t make sense",
+ "intro": [
+  "The whole article as it reads now. Two readers went through it for passages that don’t make sense or follow, and eleven held up as real. Each card below is my fix of one of them, tested in Pangram by itself; these seven cut or change something, so each needs your decision. One more fix kept the meaning and is already in (in \"What I gained from loss\"). Three whose fixes read AI so far are here as questions: I keep trying them, and a line from you on what they mean helps. Every paragraph, picture and video is here in order: nothing is left out."
+ ],
+ "git_file": "articles/romance/review/teach-20261123/REVIEW-T6.html",
+ "article": {
+  "file": "articles/romance/humanize/fix-20261107/whole/FIXED.md",
+  "sha256": "d90ed858a5f3f01f86bd028dee214db103341d79e0294dde08b4ab0b3cbec044"
+ },
+ "whole": {
+  "file": "articles/romance/humanize/fix-20261107/whole/FIXED.md",
+  "sha256": "d90ed858a5f3f01f86bd028dee214db103341d79e0294dde08b4ab0b3cbec044"
+ },
+ "links": {
+  "guide": "https://ibogaqueen.substack.com/p/romance-advice-i-wish-my-parents",
+  "guide_label": "your live post",
+  "review": "https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/romance-20261108/articles/romance/review/teach-20261123/REVIEW-T6.md"
+ },
+ "types": {
+  "sense": {
+   "label": "Doesn’t make sense or follow",
+   "about": "two readers found it hard to follow; my fix, tested"
+  },
+  "ask": {
+   "label": "Doesn’t follow yet",
+   "about": "my fix reads AI so far; I keep trying, and a line from you helps"
+  }
+ },
+ "suggestions": [
+  {
+   "id": "J-B10",
+   "type": "sense",
+   "title": "Which conflict falls apart, and why the horror stays",
+   "advice": "approve",
+   "spans": [
+    {
+     "block": 10,
+     "start": 151,
+     "end": 184
+    },
+    {
+     "block": 11,
+     "start": 0,
+     "end": 29
+    }
+   ],
+   "edits": [
+    {
+     "block": 10,
+     "before": "Most people fail this test: what would I want if she herself thought she’d be happier with somebody else? But if they can get past the initial horror, the conflict starts to fall apart. Being wanted is part of what makes me want someone.",
+     "after": "Most people fail this test: what would I want if she herself thought she’d be happier with somebody else? The first reaction is horror, but if they can get past it, wanting her and wanting her to be happy stop fighting each other. Being wanted is part of what makes me want someone, so if she’d be happier with somebody else, I’d want her less anyway."
+    },
+    {
+     "block": 11,
+     "before": "But the horror is unavoidable, because I can’t wait until I know I’m wanted before I let her know I want her. If we both do that, nothing gets started. And it doesn’t stop being true once we’re together. If I start feeling less wanted, I may pull back. She feels me pulling back and starts feeling less wanted herself, then she pulls back too.",
+     "after": "I still have to go through that horror, because I can’t wait until I know I’m wanted before I let her know I want her, and if we both do that, nothing gets started. Once we’re together I still can’t wait to be sure I’m wanted. If I start feeling less wanted, I may pull back, and she feels me pulling back and starts feeling less wanted herself, so she pulls back too."
+    }
+   ],
+   "what": "The two paragraphs say which conflict falls apart (wanting her, and wanting her to be happy) and why (being wanted is part of wanting her), and the horror now follows from getting past it.",
+   "why": "Two readers found \"the conflict starts to fall apart\" skips a step (which conflict, and why), and \"But the horror is unavoidable\" answers something nobody said.",
+   "stays": "The test question, the horror, waiting to be wanted, and the pulling-back spiral, in your order.",
+   "advice_note": "My pick: use it. It reads Human High by itself.",
+   "deciding": "whether the reason it now spells out is the one you meant",
+   "found_by": "the junk read of 2026-11-22 (four fresh readers) and its vetting by a fifth (r30/junk/VETTED.md, B10-B11)",
+   "reading": "The section, in the section pass of 2026-11-23: Human, High (https://www.pangram.com/history/ce4cf6d9-1ada-4549-825d-6eed5a923cda).",
+   "tested": "The fix by itself: Human (Human High), https://www.pangram.com/history/46351c02-95e5-41d5-8044-3413fb07cc47.",
+   "ask_because": "meaning: it spells out the reason the old text left to infer (\"so if she’d be happier with somebody else, I’d want her less anyway\").",
+   "receipt": [
+    "articles/romance/humanize/fix-20261107/r35/receipts/R-B10-B11-p1.json",
+    "articles/romance/humanize/fix-20261107/r35/receipts/R-B10-B11-p2.json"
+   ]
+  },
+  {
+   "id": "J-B84",
+   "type": "sense",
+   "title": "Cut the one-line summary after the knee story",
+   "advice": "approve",
+   "spans": [
+    {
+     "block": 85,
+     "start": 24,
+     "end": 71
+    }
+   ],
+   "edits": [
+    {
+     "block": 85,
+     "before": "What makes me desirable is not the same question as what makes me loved when I temporarily stop being desirable in that particular way.",
+     "after": ""
+    }
+   ],
+   "what": "Cut the line. Your paragraph before it then ends the section (\"It’s not the same as helping carry somebody through a temporary incapacity, like she did with my knee.\").",
+   "why": "It sums up in general words what your paragraph before already says, and \"in that particular way\" is vague. My rewrite of it (\"What I still want to know is whether she’ll love me through a stretch when I’m the one who needs carrying.\") read AI (Low) at the end of your paragraph (https://www.pangram.com/history/f608150a-fd08-4934-bc08-cd6ff00470e6), so the cut is my pick.",
+   "stays": "Your paragraph before it, as you wrote it.",
+   "advice_note": "My pick: cut it.",
+   "deciding": "whether anything is lost by ending the section on your knee paragraph",
+   "found_by": "the junk read of 2026-11-22 (four fresh readers) and its vetting by a fifth (r30/junk/VETTED.md, B84)",
+   "reading": "The section, in the section pass of 2026-11-23: Human, High (https://www.pangram.com/history/428203f6-7b7d-4808-a382-f6afb05484ad).",
+   "tested": "Your paragraph before it, which would end the section, read Human, High by itself in your own check (https://www.pangram.com/history/c12ff059-dc9e-432d-bc7f-bddb2219ebaf).",
+   "ask_because": "downside: a sentence of the post goes; its point is in your paragraph before it.",
+   "approve_label": "cut it"
+  },
+  {
+   "id": "J-B201",
+   "type": "sense",
+   "title": "One sentence instead of four short lines",
+   "advice": "approve",
+   "spans": [
+    {
+     "block": 203,
+     "start": 111,
+     "end": 144
+    }
+   ],
+   "edits": [
+    {
+     "block": 203,
+     "before": "So go slowly if you can. Just don’t imagine that means you know everything. You learn what you can before sex. Sex itself tells you other things.",
+     "after": "Go slowly if you can, then, and learn what you can about each other before sex, but there are things you’ll only find out once you’re having it, like how your bodies respond to each other."
+    }
+   ],
+   "what": "The four short lines become one sentence, and \"other things\" says what: how your bodies respond to each other.",
+   "why": "The four lines restate the section in short pieces, and \"Sex itself tells you other things\" names nothing.",
+   "stays": "Go slowly; learn what you can before sex; some things only sex shows.",
+   "advice_note": "My pick: use it. It reads Human High with the paragraph before it.",
+   "deciding": "whether one sentence carries what the four short lines did",
+   "found_by": "the junk read of 2026-11-22 (four fresh readers) and its vetting by a fifth (r30/junk/VETTED.md, B201)",
+   "reading": "The section, in the section pass of 2026-11-23: Human, High (https://www.pangram.com/history/f462375c-9d8d-4964-9c4c-0fe5d71a8cac).",
+   "tested": "The fix by itself with the paragraph before it: Human (Human High), https://www.pangram.com/history/ef1f216b-1b56-4d93-8744-c471e85a5933.",
+   "ask_because": "downside: \"Just don’t imagine that means you know everything.\" goes; the paragraph before already says it (\"it sometimes hits you unexpectedly\").",
+   "receipt": [
+    "articles/romance/humanize/fix-20261107/r35/receipts/R-B201-p1.json"
+   ]
+  },
+  {
+   "id": "J-B220",
+   "type": "sense",
+   "title": "The list without the friends the paragraphs before already cover",
+   "advice": "approve",
+   "spans": [
+    {
+     "block": 222,
+     "start": 32,
+     "end": 62
+    }
+   ],
+   "edits": [
+    {
+     "block": 222,
+     "before": "For me, that also means keeping close friends, outside therapy when I need it, a mission of my own, separate interests, some connection to community, and the ability to be alone.",
+     "after": "For me, that room is where I keep a mission of my own, separate interests and some connection to community. I also get outside therapy when I need it, and I make sure I can still be alone."
+    }
+   ],
+   "what": "The six-item list becomes two sentences, without \"keeping close friends\".",
+   "why": "It was a six-item inventory in one shape, and its first item repeats the two paragraphs before (\"Don’t abandon your friends ...\").",
+   "stays": "A mission of your own, separate interests, community, therapy when you need it, being able to be alone.",
+   "advice_note": "My pick: use it. It reads Human High with the paragraph before it.",
+   "deciding": "whether the list without friends still says what you keep for yourself",
+   "found_by": "the junk read of 2026-11-22 (four fresh readers) and its vetting by a fifth (r30/junk/VETTED.md, B220)",
+   "reading": "The section, in the section pass of 2026-11-23: Human, High (https://www.pangram.com/history/094d9f82-b749-4be4-82b0-24890b3cbd0d).",
+   "tested": "The fix by itself with the paragraph before it: Human (Human High), https://www.pangram.com/history/b7aa8694-67eb-4170-9bb3-3ef562c34919.",
+   "ask_because": "downside: \"keeping close friends\" goes from the list; the paragraphs before say it.",
+   "receipt": [
+    "articles/romance/humanize/fix-20261107/r35/receipts/R-B220-p1.json"
+   ]
+  },
+  {
+   "id": "J-B379",
+   "type": "sense",
+   "title": "\"This ironically bureaucratic basis of romance\" named",
+   "advice": "approve",
+   "spans": [
+    {
+     "block": 383,
+     "start": 94,
+     "end": 139
+    }
+   ],
+   "edits": [
+    {
+     "block": 383,
+     "before": "By the 17th century, when England began mass urbanization by forcing peasants off their land, this ironically bureaucratic basis of romance became the legal definition of marriage. I’m not trying to say we’re just like bonobos, but the academic consensus is that humans tend toward flexible pair-bonding, with a propensity for occasional infidelity.",
+     "after": "Ironically, sexclusivity, which we treat as the basis of romance, started out as that kind of bureaucratic record-keeping. By the 17th century, when England began mass urbanization by forcing peasants off their land, it became the legal definition of marriage. As for what comes naturally to us underneath that law, I’m not trying to say we’re just like bonobos, but the academic consensus is that humans tend toward flexible pair-bonding, with a propensity for occasional infidelity."
+    }
+   ],
+   "what": "The sentence names what was bureaucratic (sexclusivity starting as the land record-keeping of the paragraph before) and the bonobo line gets a lead-in.",
+   "why": "\"This ironically bureaucratic basis of romance\" had no clear referent, and the bonobo sentence didn’t connect to the first.",
+   "stays": "The 17th century, England, the peasants, marriage law, the bonobos, the academic consensus.",
+   "advice_note": "My pick: use it. It reads Human High by itself.",
+   "deciding": "whether \"sexclusivity started out as that kind of bureaucratic record-keeping\" is what you meant",
+   "found_by": "the junk read of 2026-11-22 (four fresh readers) and its vetting by a fifth (r30/junk/VETTED.md, B379)",
+   "reading": "The section, in the section pass of 2026-11-23: Human, High (https://www.pangram.com/history/717b0511-50ce-42c5-8057-1e2cfe6021d9).",
+   "tested": "The fix by itself: Human (Human High), https://www.pangram.com/history/2b637949-e160-4da0-a203-c7a0332a367d.",
+   "ask_because": "meaning: it says outright that sexclusivity started as that record-keeping, which the old sentence only implied.",
+   "receipt": [
+    "articles/romance/humanize/fix-20261107/r35/receipts/R-B379-p1.json"
+   ]
+  },
+  {
+   "id": "J-B412",
+   "type": "sense",
+   "title": "The warning, without the line it repeats later",
+   "advice": "approve",
+   "spans": [
+    {
+     "block": 416,
+     "start": 254,
+     "end": 283
+    }
+   ],
+   "edits": [
+    {
+     "block": 416,
+     "before": "Before I say anything good about psychedelics for relationships, the warning has to come first. I don’t think sexual consent should be negotiated for the first time while high. The drug is changing how safe, loving, open, and connected everything feels. Advance planning doesn’t turn getting high and starting a relationship into a safe procedure. People need that warning before they take it, because once you’re inside that feeling, sober caveats may sound ridiculous.",
+     "after": "I’m putting the warning before anything good I say about psychedelics for relationships, because people need to hear it before they take anything. I don’t think sexual consent should be negotiated for the first time while high, when the drug is changing how safe, loving, open, and connected everything feels. And even if the two of you plan it all in advance, getting high and starting a relationship is still a risk."
+    }
+   ],
+   "what": "The warning comes first with its reason, and \"even if the two of you plan it all in advance\" replaces the line that answered nothing.",
+   "why": "\"Advance planning doesn’t turn ... into a safe procedure\" rebuts something nobody said, and \"sober caveats may sound ridiculous\" says what the section says again a few paragraphs on.",
+   "stays": "The warning first, consent not negotiated for the first time while high, how the drug changes what feels safe and open.",
+   "advice_note": "My pick: use it. It reads Human High by itself.",
+   "deciding": "whether the later paragraph covers the cut line well enough",
+   "found_by": "the junk read of 2026-11-22 (four fresh readers) and its vetting by a fifth (r30/junk/VETTED.md, B412)",
+   "reading": "The section, in the section pass of 2026-11-23: Human, High (https://www.pangram.com/history/b8244fd4-1b31-4f5c-b9a7-f20335bc966e).",
+   "tested": "The fix by itself: Human (Human High), https://www.pangram.com/history/74a3b94f-ed02-4fc4-9fd8-44aeb688bb8c.",
+   "ask_because": "downside: \"sober caveats may sound ridiculous\" goes; the section says it later (\"you won’t necessarily be interested in sober advice when you’re high\").",
+   "receipt": [
+    "articles/romance/humanize/fix-20261107/r35/receipts/R-B412-p1.json"
+   ]
+  },
+  {
+   "id": "J-B453",
+   "type": "sense",
+   "title": "The opening line of \"Ending consciously\" leads somewhere",
+   "advice": "approve",
+   "spans": [
+    {
+     "block": 458,
+     "start": 0,
+     "end": 56
+    }
+   ],
+   "edits": [
+    {
+     "block": 458,
+     "before": "Whether to leave and how to leave are separate questions.",
+     "after": "Before you think about how to leave, settle whether you’re leaving, and whether counseling is worth trying first."
+    }
+   ],
+   "what": "The one-line thesis becomes the first step: settle whether you’re leaving, and whether counseling is worth trying first.",
+   "why": "It was a one-line thesis, and the paragraphs after it answer only \"whether\", so \"how to leave\" hung.",
+   "stays": "Whether before how; the counseling paragraphs after it.",
+   "advice_note": "My pick: use it. It reads Human High with the paragraph after it.",
+   "deciding": "whether pointing to counseling here is right for the opening line",
+   "found_by": "the junk read of 2026-11-22 (four fresh readers) and its vetting by a fifth (r30/junk/VETTED.md, B453)",
+   "reading": "The section, in the section pass of 2026-11-23: Human, High (https://www.pangram.com/history/e904b489-bd18-45b6-8d80-db2d9f4c807b).",
+   "tested": "The fix by itself with the paragraph after it: Human (Human High), https://www.pangram.com/history/ab01adee-1d7d-4259-a060-215bce4186e2.",
+   "ask_because": "meaning: it now points to counseling as part of deciding whether to leave.",
+   "receipt": [
+    "articles/romance/humanize/fix-20261107/r35/receipts/R-B453-p1.json"
+   ]
+  },
+  {
+   "id": "Q-B442",
+   "type": "ask",
+   "title": "\"If the other person won’t look\": look at what?",
+   "advice": "ask",
+   "question": "Two readers found that \"It is its own reward\" is a cliché and that \"If the other person won’t look, you can’t make it mutual\" doesn’t follow from the Bee story before it; a third read also found \"It also became more permanent\" reads as if the separation, not honesty, is the subject. My fix (it spelled out that any of those outcomes takes both people, and that the other person has to look at the truth with you) read AI by itself (https://www.pangram.com/history/2267fb23-7b39-47a6-9295-77ca69fefb79), so I’m trying again. If you’d like to say in a line what \"won’t look\" means here, or rewrite it, I’ll take it from there.",
+   "why": "A passage that doesn’t follow, whose clear version reads AI so far (gate E291: the clear version stays the goal).",
+   "advice_note": "I keep trying next turn either way.",
+   "spans": [
+    {
+     "block": 447,
+     "start": 429,
+     "end": 459
+    }
+   ]
+  },
+  {
+   "id": "Q-B480",
+   "type": "ask",
+   "title": "\"The myths ... become real because we co-create them\"",
+   "advice": "ask",
+   "question": "Two readers found \"The myths around romantic love become real because we co-create them\" opaque. My fix (\"We’re the ones who make the myths around romantic love real, by living as if they were true\", with the four myths rebuilt) read AI by itself (https://www.pangram.com/history/9ad8bbbb-f6aa-4716-9179-ddd3d7ff5127); next I try changing only that first sentence and keeping the rest as the post has it. If you mean something more by \"co-create\", say so in a line.",
+   "why": "A sentence that doesn’t say what it means, whose clear version reads AI so far.",
+   "advice_note": "I keep trying next turn either way.",
+   "spans": [
+    {
+     "block": 485,
+     "start": 31,
+     "end": 68
+    }
+   ]
+  },
+  {
+   "id": "Q-B257",
+   "type": "ask",
+   "title": "\"Asking the question out loud\": which question?",
+   "advice": "ask",
+   "question": "Two readers found \"Asking the question out loud is usually where it starts\" names no question. My fixes named it (whether the romance needs less intensity, should become a friendship, or should end): the first read Human with a Low window (https://www.pangram.com/history/d05b3f9e-b70a-4eeb-8519-84aa6300e405), the next AI (https://www.pangram.com/history/049a89d6-54c5-40e3-a273-5e1ce4bb45f8). I’m trying again; if you’d word the question differently, say how.",
+   "why": "A sentence that doesn’t say what it means, whose clear version doesn’t read Human High yet.",
+   "advice_note": "I keep trying next turn either way.",
+   "spans": [
+    {
+     "block": 260,
+     "start": 262,
+     "end": 290
+    }
+   ]
+  }
+ ]
+}

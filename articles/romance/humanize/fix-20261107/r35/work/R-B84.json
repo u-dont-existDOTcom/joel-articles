@@ -1,0 +1,108 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-23",
+ "text_sha256": "825ae5aee26c2c123ffd51645c44972c109a9fe503201191f0a571a341f483a3",
+ "text": "Some women are fixer types, which can create the opposite pattern. Before me, Bee had housed and supported a boyfriend who was totally broke and crazy, for a while. Later she blamed herself for staying through that, and I agree, it wasn't appropriate. It's not the same as helping carry somebody through a temporary incapacity, like she did with my knee.\n\nWhat I still want to know is whether she’ll love me through a stretch when I’m the one who needs carrying.",
+ "section": "It always goes deeper",
+ "reader": "someone reading an essay on romance for advice they can use in their own dating and relationships",
+ "sentences": [
+  {
+   "s": "Some women are fixer types, which can create the opposite pattern.",
+   "payoff": "they learn to watch for a partner who fixes people, a pattern that goes the other way from the one before.",
+   "follows": "it follows the paragraph before by naming 'the opposite pattern', which that paragraph must have described.",
+   "link": "none: opens the section's next case and points back through 'the opposite pattern', beyond its first six words"
+  },
+  {
+   "s": "Before me, Bee had housed and supported a boyfriend who was totally broke and crazy, for a while.",
+   "payoff": "they see a concrete case of a fixer in Bee, who supported a broke and unstable boyfriend.",
+   "follows": "it gives the example of a fixer type.",
+   "link": "Before me, Bee had housed"
+  },
+  {
+   "s": "Later she blamed herself for staying through that, and I agree, it wasn't appropriate.",
+   "payoff": "they learn that even a fixer saw the staying as a mistake, so it isn't a model to copy.",
+   "follows": "it gives Bee's own later verdict on S2.",
+   "link": "Later she blamed herself"
+  },
+  {
+   "s": "It's not the same as helping carry somebody through a temporary incapacity, like she did with my knee.",
+   "payoff": "they can tell supporting a person who needs a rescuer from carrying a partner through a temporary setback.",
+   "follows": "it draws the line after S3 between that staying and the knee.",
+   "link": "It's not the same as"
+  },
+  {
+   "s": "What I still want to know is whether she’ll love me through a stretch when I’m the one who needs carrying.",
+   "payoff": "they see what he still wants to find out: whether she would love him when he is the one who needs help, as he helped carry others",
+   "follows": "it turns the paragraph before's \"helping carry somebody through a temporary incapacity\" around to himself",
+   "link": "What I still want to know"
+  }
+ ],
+ "checked": [],
+ "placement": "It stands after a paragraph about a first pattern, so S1 is read against that paragraph; once past S1 the order is case, verdict, distinction, open question.",
+ "opens": {
+  "first_sentence": "Some women are fixer types, which can create the opposite pattern.",
+  "why_reading": "It tells the reader a different kind of partner, the fixer, makes a different problem, but not which pattern it is the opposite of."
+ },
+ "same_point": "'like with my knee' appears in both S4 and S5, and both say staying through a temporary stretch is good.",
+ "needed": {
+  "reader": "a fresh Sonnet reader given tools/humanization/needed_read_brief.md and the text with its heading",
+  "unneeded": [],
+  "kept": {}
+ },
+ "his_fixes": {
+  "reader": "the same fresh reader given tools/humanization/his_fixes_brief.md and the text one sentence a line",
+  "marked": [
+   {
+    "s": "Some women are fixer types, which can create the opposite pattern.",
+    "difference": "way 22: 'the opposite pattern' points back without naming it; name the pattern."
+   },
+   {
+    "s": "It's not the same as helping carry somebody through a temporary incapacity, like she did with my knee.",
+    "difference": "way 3: 'It's not the same as' contrast and way 10: 'It' could be the housing or the staying."
+   },
+   {
+    "s": "What I still want to know is whether she’ll love me through a stretch when I can’t provide, like with my knee.",
+    "difference": "way 4: 'provide' does not say what, and way 16: 'like with my knee' says again what S4 just said."
+   }
+  ],
+  "kept": {
+   "Some women are fixer types, which can create the opposite pattern.": "the article's text as it stands, the paragraph beside the fix that the check needs for 50 words; it read High in the section pass and is out of this fix's scope",
+   "It's not the same as helping carry somebody through a temporary incapacity, like she did with my knee.": "the article's text as it stands, the paragraph beside the fix that the check needs for 50 words; it read High in the section pass and is out of this fix's scope",
+   "What I still want to know is whether she’ll love me through a stretch when I can’t provide, like with my knee.": "the article's text as it stands, the paragraph beside the fix that the check needs for 50 words; it read High in the section pass and is out of this fix's scope"
+  }
+ },
+ "fit": {
+  "reader": "the same fresh reader given tools/humanization/fit_read_brief.md and the text one line a line",
+  "marked": [
+   {
+    "s": "What I still want to know is whether she’ll love me through a stretch when I can’t provide, like with my knee.",
+    "found": "MISREAD: read quickly 'provide' sounds like money, while the knee means physical help."
+   }
+  ],
+  "kept": {
+   "What I still want to know is whether she’ll love me through a stretch when I can’t provide, like with my knee.": "the article's text as it stands, the paragraph beside the fix that the check needs for 50 words; it read High in the section pass and is out of this fix's scope"
+  }
+ },
+ "questions": {
+  "Q1": "PASS: S1 gives the pattern first, though 'the opposite pattern' needs the paragraph before.",
+  "Q2": "N/A: no instructions.",
+  "Q3": "PASS: 'can't provide' is narrower than before and the knee makes it readable, though it still doesn't say provide what (money, physical help).",
+  "Q4": "PASS: 'fixer types' is explained by the Bee example in S2.",
+  "Q5": "PASS: S4 'It' reads as her staying through that (S3); S5 follows by turning to what he wants.",
+  "Q6": "PASS: case, her verdict, distinction, his question.",
+  "Q7": "PASS: the reader learns to distinguish rescuing from supporting a temporary setback.",
+  "Q8": "N/A: nothing sorted into groups.",
+  "Q9": "PASS: one step each, plain verbs."
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

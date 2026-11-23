@@ -1,0 +1,665 @@
+{
+ "rename": [
+  {
+   "id": "S004",
+   "from": "Realizing the world we live in",
+   "from_level": 2,
+   "to": "The Weight of the World",
+   "to_level": 2
+  },
+  {
+   "id": "S005",
+   "from": "Time for A Radical Change of Mind",
+   "from_level": 2,
+   "to": "Ayahuasca Blew My Mind",
+   "to_level": 2
+  },
+  {
+   "id": "S006",
+   "from": "When the Afterglow Wore Off",
+   "from_level": 2,
+   "to": "The Afterglow Wore Off",
+   "to_level": 2
+  },
+  {
+   "id": "S007",
+   "from": "Was I enlightened or deluded?",
+   "from_level": 2,
+   "to": "Enlightened or Deluded?",
+   "to_level": 2
+  },
+  {
+   "id": "S008",
+   "from": "🫶🏿 May All Beings Be Loving, Peaceful & Free 🫶🏿",
+   "from_level": 3,
+   "to": "Loving-Kindness (Mettā)",
+   "to_level": 2
+  },
+  {
+   "id": "S009",
+   "from": "A Peak State Can Be Useless Or Worse",
+   "from_level": 2,
+   "to": "Useless Peak States?",
+   "to_level": 2
+  },
+  {
+   "id": "S010",
+   "from": "What Else Could the Buddha Give Me?",
+   "from_level": 2,
+   "to": "Why Monks Stay Vague",
+   "to_level": 2
+  },
+  {
+   "id": "S011",
+   "from": "Then I Found The Map Past Oneness",
+   "from_level": 2,
+   "to": "The Map Past Oneness",
+   "to_level": 2
+  },
+  {
+   "id": "S012",
+   "from": "What the Suttas Say About Unification",
+   "from_level": 2,
+   "to": "The Suttas on Unification",
+   "to_level": 2
+  },
+  {
+   "id": "S013",
+   "from": "AtR pointed me to the Bāhiya Sutta",
+   "from_level": 2,
+   "to": "The Pithy Bāhiya Sutta",
+   "to_level": 2
+  },
+  {
+   "id": "S014",
+   "from": "The Myriad Things Experience Themselves",
+   "from_level": 3,
+   "to": "Things Know Themselves",
+   "to_level": 3
+  },
+  {
+   "id": "S015",
+   "from": "Desperation Did The Trick For Me & Bāhiya",
+   "from_level": 2,
+   "to": "Desperation Did the Trick",
+   "to_level": 2
+  },
+  {
+   "id": "S016",
+   "from": "The Room Event",
+   "from_level": 2,
+   "to": "The Room Unwove",
+   "to_level": 2
+  },
+  {
+   "id": "S017",
+   "from": "Nibbāna is describable but unimaginable",
+   "from_level": 3,
+   "to": "Is Nibbāna Unimaginable?",
+   "to_level": 3
+  },
+  {
+   "id": "S018",
+   "from": "Your fingers are already enlightened, but your hand is deluded.",
+   "from_level": 3,
+   "to": "Enlightened Fingers",
+   "to_level": 2
+  },
+  {
+   "id": "S019",
+   "from": "Body-Limited and Body-Uncontained Nibbāna",
+   "from_level": 3,
+   "to": "Two Scopes of Nibbāna",
+   "to_level": 3
+  },
+  {
+   "id": "S020",
+   "from": "Stream entered",
+   "from_level": 2,
+   "to": "Stream Entered",
+   "to_level": 2
+  },
+  {
+   "id": "S024",
+   "from": "Spiritual friends are everything",
+   "from_level": 3,
+   "to": "Friends Are Everything",
+   "to_level": 3
+  },
+  {
+   "id": "S025",
+   "from": "What’s Next?",
+   "from_level": 2,
+   "to": "What's Next After Death?",
+   "to_level": 2
+  },
+  {
+   "id": "S026",
+   "from": "What “Already Perfect” Means",
+   "from_level": 2,
+   "to": "What Is \"Already Perfect\"?",
+   "to_level": 2
+  },
+  {
+   "id": "S027",
+   "from": "Free Will Vs Conditions",
+   "from_level": 2,
+   "to": "Free Will vs Conditions",
+   "to_level": 2
+  },
+  {
+   "id": "S028",
+   "from": "What “Nibbāna” Is Actually Saying",
+   "from_level": 2,
+   "to": "What \"Nibbāna\" Means",
+   "to_level": 2
+  },
+  {
+   "id": "S029",
+   "from": "Nibbāna Has Volume & Tuning Knobs",
+   "from_level": 2,
+   "to": "Nibbāna's Volume Knobs",
+   "to_level": 2
+  },
+  {
+   "id": "S031",
+   "from": "Nibbāna is a meditative state and attainment",
+   "from_level": 2,
+   "to": "Is Nibbāna an Experience?",
+   "to_level": 2
+  },
+  {
+   "id": "S032",
+   "from": "How Contact Builds a World",
+   "from_level": 2,
+   "to": "Contact Builds a World",
+   "to_level": 2
+  },
+  {
+   "id": "S033",
+   "from": "Awarenesses",
+   "from_level": 3,
+   "to": "Awareness Is Plural",
+   "to_level": 3
+  },
+  {
+   "id": "S034",
+   "from": "Ignorance is the root",
+   "from_level": 3,
+   "to": "Ignorance Is the Root",
+   "to_level": 3
+  },
+  {
+   "id": "S036",
+   "from": "Binding Assembles the Mind",
+   "from_level": 3,
+   "to": "Binding Makes the Mind",
+   "to_level": 3
+  },
+  {
+   "id": "S037",
+   "from": "The Capacity for Suffering",
+   "from_level": 3,
+   "to": "Capacity for Suffering",
+   "to_level": 3
+  },
+  {
+   "id": "S038",
+   "from": "The Theory of Light Flows As Nibbāna",
+   "from_level": 2,
+   "to": "Nibbāna as Light Flows",
+   "to_level": 2
+  },
+  {
+   "id": "S039",
+   "from": "Light Language Like Chantress Seba Never Seen Before!",
+   "from_level": 3,
+   "to": "Sutta Light Language",
+   "to_level": 3
+  },
+  {
+   "id": "S040",
+   "from": "Go Into The Light",
+   "from_level": 3,
+   "to": "Go Into the Light",
+   "to_level": 3
+  },
+  {
+   "id": "S041",
+   "from": "But isn’t nibbāna asaṅkhata, or “unconditioned”?",
+   "from_level": 3,
+   "to": "Isn't It \"Unconditioned\"?",
+   "to_level": 3
+  },
+  {
+   "id": "S042",
+   "from": "If nibbāna is “unfabricated,” is light also?",
+   "from_level": 3,
+   "to": "Light's Also Unfabricated",
+   "to_level": 3
+  },
+  {
+   "id": "S043",
+   "from": "Light is unestablished, with no time, no reference point, like nibbāna",
+   "from_level": 3,
+   "to": "Light Has No Time",
+   "to_level": 3
+  },
+  {
+   "id": "S044",
+   "from": "What the Books Never Made Clear",
+   "from_level": 2,
+   "to": "What the Books Never Say",
+   "to_level": 2
+  },
+  {
+   "id": "S045",
+   "from": "How the Experiential Key Can Fade",
+   "from_level": 2,
+   "to": "How the Teaching Faded",
+   "to_level": 2
+  },
+  {
+   "id": "S046",
+   "from": "A Map Can Save Years – and Create Counterfeits",
+   "from_level": 2,
+   "to": "Maps Make Counterfeits",
+   "to_level": 2
+  },
+  {
+   "id": "S047",
+   "from": "AtR’s Authentication Culture",
+   "from_level": 2,
+   "to": "AtR's Authentication Culture",
+   "to_level": 2
+  },
+  {
+   "id": "S048",
+   "from": "Entering The Stream To End Rebirth",
+   "from_level": 2,
+   "to": "Stream Entry Ends Rebirth",
+   "to_level": 2
+  },
+  {
+   "id": "S049",
+   "from": "Practice can carry into a future life",
+   "from_level": 3,
+   "to": "Practice Outlasts Death",
+   "to_level": 3
+  },
+  {
+   "id": "S050",
+   "from": "Stream-entry requires more than a 2-factor authentication key",
+   "from_level": 3,
+   "to": "Am I a Stream-Enterer?",
+   "to_level": 3
+  },
+  {
+   "id": "S051",
+   "from": "Ending the dream of saṃsāra",
+   "from_level": 3,
+   "to": "Who Gets Reborn?",
+   "to_level": 3
+  },
+  {
+   "id": "S052",
+   "from": "Why nibbāna is “awakening”",
+   "from_level": 3,
+   "to": "Waking From the Dream",
+   "to_level": 3
+  },
+  {
+   "id": "S053",
+   "from": "Science Can’t Settle This, but You Can Test It",
+   "from_level": 2,
+   "to": "Science Can't Settle This",
+   "to_level": 2
+  },
+  {
+   "id": "S057",
+   "from": "Bāhiya Got Enlightened and Then a Cow Killed Him",
+   "from_level": 2,
+   "to": "Then a Cow Killed Bāhiya",
+   "to_level": 2
+  }
+ ],
+ "drop": [
+  {
+   "id": "S023",
+   "text": "Spiritual realization isn’t enough these days",
+   "level": 3
+  },
+  {
+   "id": "S059",
+   "text": "Appendix",
+   "level": 1
+  }
+ ],
+ "move": [
+  {
+   "id": "S060",
+   "heading": "Are disappearing flashbacks dangerous or cool?",
+   "before": "Then a Cow Killed Bāhiya"
+  }
+ ],
+ "insert": [
+  {
+   "id": "S008",
+   "heading": "Loving-Kindness (Mettā)",
+   "text": "🫶🏿 May All Beings Be Loving, Peaceful & Free 🫶🏿"
+  },
+  {
+   "id": "S018",
+   "heading": "Enlightened Fingers",
+   "text": "Your fingers are already enlightened, but your hand is deluded."
+  }
+ ],
+ "edit": [
+  {
+   "id": "S015",
+   "from": "Interestingly, both of us were really desperate",
+   "to": "Interestingly, both Bāhiya and I were really desperate"
+  }
+ ],
+ "links": [
+  {
+   "find": "The Enlightenment Manual then",
+   "words": "The Enlightenment Manual",
+   "href": "https://ibogaqueen.substack.com/i/209400477/the-enlightenment-manual"
+  },
+  {
+   "find": "what I’ll explain later as partial untying",
+   "words": "partial untying",
+   "href": "https://ibogaqueen.substack.com/i/209400477/my-nibbana-taxonomy"
+  },
+  {
+   "find": "the fingers event I’ll tell you about below",
+   "words": "the fingers event",
+   "href": "https://ibogaqueen.substack.com/i/209400477/enlightened-fingers"
+  },
+  {
+   "find": "the room itself unweaving",
+   "words": "the room itself unweaving",
+   "href": "https://ibogaqueen.substack.com/i/209400477/the-room-unwove"
+  },
+  {
+   "find": "those terms more carefully below",
+   "words": "those terms more carefully below",
+   "href": "https://ibogaqueen.substack.com/i/209400477/stream-entry-ends-rebirth"
+  },
+  {
+   "find": "that evidence later on",
+   "words": "that evidence later on",
+   "href": "https://ibogaqueen.substack.com/i/209400477/who-gets-reborn"
+  },
+  {
+   "find": "the guided meditation later in this article",
+   "words": "the guided meditation later in this article",
+   "href": "https://ibogaqueen.substack.com/i/209400477/try-a-tiny-bit-of-nibbana"
+  },
+  {
+   "find": "Amaro translation of the Bāhiya Sutta",
+   "words": "the Bāhiya Sutta",
+   "href": "https://ibogaqueen.substack.com/i/209400477/the-pithy-bahiya-sutta"
+  },
+  {
+   "find": "the Bāhiya Sutta, repeats",
+   "words": "the Bāhiya Sutta",
+   "href": "https://ibogaqueen.substack.com/i/209400477/the-pithy-bahiya-sutta"
+  },
+  {
+   "find": "passage I quoted earlier",
+   "words": "I quoted earlier",
+   "href": "https://ibogaqueen.substack.com/i/209400477/awareness-is-plural"
+  },
+  {
+   "find": "the lucid dreaming analogy I made earlier",
+   "words": "the lucid dreaming analogy I made earlier",
+   "href": "https://ibogaqueen.substack.com/i/209400477/stream-entered"
+  },
+  {
+   "find": "the lovely Bāhiya Sutta",
+   "words": "the lovely Bāhiya Sutta",
+   "href": "https://ibogaqueen.substack.com/i/209400477/the-pithy-bahiya-sutta"
+  },
+  {
+   "find": "as I said earlier in the essay",
+   "words": "as I said earlier in the essay",
+   "href": "https://ibogaqueen.substack.com/i/209400477/why-the-tangle-is-heavy"
+  }
+ ],
+ "expected_headings": [
+  [
+   1,
+   "Introduction & Navigation"
+  ],
+  [
+   1,
+   "Why Did I Write This?"
+  ],
+  [
+   1,
+   "My Crazy Wonderful Life"
+  ],
+  [
+   2,
+   "The Weight of the World"
+  ],
+  [
+   2,
+   "Ayahuasca Blew My Mind"
+  ],
+  [
+   2,
+   "The Afterglow Wore Off"
+  ],
+  [
+   2,
+   "Enlightened or Deluded?"
+  ],
+  [
+   2,
+   "Loving-Kindness (Mettā)"
+  ],
+  [
+   2,
+   "Useless Peak States?"
+  ],
+  [
+   2,
+   "Why Monks Stay Vague"
+  ],
+  [
+   2,
+   "The Map Past Oneness"
+  ],
+  [
+   2,
+   "The Suttas on Unification"
+  ],
+  [
+   2,
+   "The Pithy Bāhiya Sutta"
+  ],
+  [
+   3,
+   "Things Know Themselves"
+  ],
+  [
+   2,
+   "Desperation Did the Trick"
+  ],
+  [
+   2,
+   "The Room Unwove"
+  ],
+  [
+   3,
+   "Is Nibbāna Unimaginable?"
+  ],
+  [
+   2,
+   "Enlightened Fingers"
+  ],
+  [
+   3,
+   "Two Scopes of Nibbāna"
+  ],
+  [
+   2,
+   "Stream Entered"
+  ],
+  [
+   1,
+   "The Enlightenment Manual"
+  ],
+  [
+   2,
+   "Spiritual Bypass Warning"
+  ],
+  [
+   3,
+   "Friends Are Everything"
+  ],
+  [
+   2,
+   "What's Next After Death?"
+  ],
+  [
+   2,
+   "What Is \"Already Perfect\"?"
+  ],
+  [
+   2,
+   "Free Will vs Conditions"
+  ],
+  [
+   2,
+   "What \"Nibbāna\" Means"
+  ],
+  [
+   2,
+   "Nibbāna's Volume Knobs"
+  ],
+  [
+   3,
+   "My Nibbāna Taxonomy"
+  ],
+  [
+   2,
+   "Is Nibbāna an Experience?"
+  ],
+  [
+   2,
+   "Contact Builds a World"
+  ],
+  [
+   3,
+   "Awareness Is Plural"
+  ],
+  [
+   3,
+   "Ignorance Is the Root"
+  ],
+  [
+   3,
+   "Why the Tangle Is Heavy"
+  ],
+  [
+   3,
+   "Binding Makes the Mind"
+  ],
+  [
+   3,
+   "Capacity for Suffering"
+  ],
+  [
+   2,
+   "Nibbāna as Light Flows"
+  ],
+  [
+   3,
+   "Sutta Light Language"
+  ],
+  [
+   3,
+   "Go Into the Light"
+  ],
+  [
+   3,
+   "Isn't It \"Unconditioned\"?"
+  ],
+  [
+   3,
+   "Light's Also Unfabricated"
+  ],
+  [
+   3,
+   "Light Has No Time"
+  ],
+  [
+   2,
+   "What the Books Never Say"
+  ],
+  [
+   2,
+   "How the Teaching Faded"
+  ],
+  [
+   2,
+   "Maps Make Counterfeits"
+  ],
+  [
+   2,
+   "AtR's Authentication Culture"
+  ],
+  [
+   2,
+   "Stream Entry Ends Rebirth"
+  ],
+  [
+   3,
+   "Practice Outlasts Death"
+  ],
+  [
+   3,
+   "Am I a Stream-Enterer?"
+  ],
+  [
+   3,
+   "Who Gets Reborn?"
+  ],
+  [
+   3,
+   "Waking From the Dream"
+  ],
+  [
+   2,
+   "Science Can't Settle This"
+  ],
+  [
+   3,
+   "Try a Tiny Bit of Nibbāna"
+  ],
+  [
+   3,
+   "What Counts as Success, Confusion, or Danger"
+  ],
+  [
+   3,
+   "What Remains Afterward"
+  ],
+  [
+   2,
+   "Are disappearing flashbacks dangerous or cool?"
+  ],
+  [
+   2,
+   "Then a Cow Killed Bāhiya"
+  ],
+  [
+   2,
+   "Come and See for Yourself!"
+  ]
+ ]
+}

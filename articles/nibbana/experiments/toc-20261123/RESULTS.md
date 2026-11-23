@@ -2,6 +2,8 @@
 
 For [What If Everything Is Already Perfect? (v2.2)](https://ibogaqueen.substack.com/p/what-if-everything-is-already-perfect-bdc). Run the way the Inner Child and bad trips contents were done ([how](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/docs/FIXING-AN-ARTICLE.md), section 3). Nothing on the post has changed yet.
 
+**In the post since 2026-11-23 18:01 UTC:** your picks, your six answers and 13 section links; two of your picks wait for you because they read below High in Pangram ([APPLIED.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/nibbana/experiments/toc-20261123/APPLIED.md)).
+
 **Your picks page:** [https://claude.ai/artifact/Qpakjn8EsNMD54T4iBb19M](https://claude.ai/artifact/Qpakjn8EsNMD54T4iBb19M). Pick a heading for each section and answer the six questions; your answers save there.
 
 ## What fresh readers found

@@ -1,0 +1,348 @@
+{
+ "B84": {
+  "sentences": [
+   {
+    "payoff": "they learn to watch for a partner who fixes people, a pattern that goes the other way from the one before.",
+    "follows": "it follows the paragraph before by naming 'the opposite pattern', which that paragraph must have described.",
+    "link": "none: opens the section's next case and points back through 'the opposite pattern', beyond its first six words"
+   },
+   {
+    "payoff": "they see a concrete case of a fixer in Bee, who supported a broke and unstable boyfriend.",
+    "follows": "it gives the example of a fixer type.",
+    "link": "Before me, Bee had housed"
+   },
+   {
+    "payoff": "they learn that even a fixer saw the staying as a mistake, so it isn't a model to copy.",
+    "follows": "it gives Bee's own later verdict on S2.",
+    "link": "Later she blamed herself"
+   },
+   {
+    "payoff": "they can tell supporting a person who needs a rescuer from carrying a partner through a temporary setback.",
+    "follows": "it draws the line after S3 between that staying and the knee.",
+    "link": "It's not the same as"
+   },
+   {
+    "payoff": "they see what he still wants to find out: whether she would love him when he is the one who needs help, as he helped carry others",
+    "follows": "it turns the paragraph before's \"helping carry somebody through a temporary incapacity\" around to himself",
+    "link": "What I still want to know"
+   }
+  ],
+  "placement": "It stands after a paragraph about a first pattern, so S1 is read against that paragraph; once past S1 the order is case, verdict, distinction, open question.",
+  "why_reading": "It tells the reader a different kind of partner, the fixer, makes a different problem, but not which pattern it is the opposite of.",
+  "same_point": "'like with my knee' appears in both S4 and S5, and both say staying through a temporary stretch is good.",
+  "questions": {
+   "Q1": "PASS: S1 gives the pattern first, though 'the opposite pattern' needs the paragraph before.",
+   "Q2": "N/A: no instructions.",
+   "Q3": "PASS: 'can't provide' is narrower than before and the knee makes it readable, though it still doesn't say provide what (money, physical help).",
+   "Q4": "PASS: 'fixer types' is explained by the Bee example in S2.",
+   "Q5": "PASS: S4 'It' reads as her staying through that (S3); S5 follows by turning to what he wants.",
+   "Q6": "PASS: case, her verdict, distinction, his question.",
+   "Q7": "PASS: the reader learns to distinguish rescuing from supporting a temporary setback.",
+   "Q8": "N/A: nothing sorted into groups.",
+   "Q9": "PASS: one step each, plain verbs."
+  },
+  "needed": {
+   "unneeded": []
+  },
+  "his_fixes": {
+   "marked": [
+    {
+     "s": "Some women are fixer types, which can create the opposite pattern.",
+     "difference": "way 22: 'the opposite pattern' points back without naming it; name the pattern."
+    },
+    {
+     "s": "It's not the same as helping carry somebody through a temporary incapacity, like she did with my knee.",
+     "difference": "way 3: 'It's not the same as' contrast and way 10: 'It' could be the housing or the staying."
+    },
+    {
+     "s": "What I still want to know is whether she’ll love me through a stretch when I can’t provide, like with my knee.",
+     "difference": "way 4: 'provide' does not say what, and way 16: 'like with my knee' says again what S4 just said."
+    }
+   ]
+  },
+  "fit": {
+   "marked": [
+    {
+     "s": "What I still want to know is whether she’ll love me through a stretch when I can’t provide, like with my knee.",
+     "found": "MISREAD: read quickly 'provide' sounds like money, while the knee means physical help."
+    }
+   ]
+  }
+ },
+ "B201": {
+  "sentences": [
+   {
+    "payoff": "they recognise a familiar complaint and see that one partner is being asked to explain their love.",
+    "follows": "it opens a new complaint under a heading about going slowly, and what it follows from is not stated.",
+    "link": "none: starts a new step, with no tie to the heading"
+   },
+   {
+    "payoff": "they see that the other side may be allowed not to know why they love.",
+    "follows": "it sets the other side of S1.",
+    "link": "Apparently they’re allowed not to"
+   },
+   {
+    "payoff": "they know the author finds the double standard annoying but accepts that brains work differently.",
+    "follows": "it reacts to S1 and S2 together.",
+    "link": "Those double-standards really bug me"
+   },
+   {
+    "payoff": "they learn that how each person knows their love is something to find out over time and can surprise them.",
+    "follows": "it draws a lesson from S3, though 'that' could mean the double standard or the brain difference.",
+    "link": "So that’s another thing to learn"
+   },
+   {
+    "payoff": "they go slowly and learn what they can before sex, knowing some things only show up once having it.",
+    "follows": "'then' now says it is a conclusion from S4's learning over time.",
+    "link": "Go slowly if you can, then"
+   }
+  ],
+  "placement": "It sits under a heading about slow and steady, and S1 to S4 are a gripe about explaining love that leads to the advice in S5 only through 'then'; it depends on the section before for why this complaint is here.",
+  "why_reading": "It tells the reader only that women ask why he loves them, not why that matters to their own dating, so the reader doesn't yet know what it is for.",
+  "same_point": "S4 'learn about over time' and S5 'learn what you can about each other' say the same, that some things come out slowly.",
+  "questions": {
+   "Q1": "FAIL: S1 to S4 open on a gripe and the advice reaches the reader only in S5.",
+   "Q2": "PASS: 'go slowly' is given with its purpose, to learn about each other before sex.",
+   "Q3": "PASS: 'sex' and 'bodies respond' are specific.",
+   "Q4": "PASS: 'double-standards' is explained by S1 and S2.",
+   "Q5": "PASS: S5 'then' now carries the link to S4; S4 'that' still reads best as the not-knowing in S2 and S3.",
+   "Q6": "PASS: complaint, reaction, lesson, advice.",
+   "Q7": "FAIL: S2 and S3 vent about a double standard that gives a dating reader nothing to do.",
+   "Q8": "N/A: nothing sorted into groups.",
+   "Q9": "PASS: S5 is long but each step has its small words."
+  },
+  "needed": {
+   "unneeded": [
+    "Apparently they’re allowed not to know.",
+    "Those double-standards really bug me, but I also understand our brains work differently."
+   ]
+  },
+  "his_fixes": {
+   "marked": [
+    {
+     "s": "Women are always demanding to know why I love them.",
+     "difference": "way 13: opens on a complaint before saying what in the reader's case calls for it."
+    },
+    {
+     "s": "Apparently they’re allowed not to know.",
+     "difference": "way 18: a short line of six words standing alone; join it to S1."
+    },
+    {
+     "s": "Those double-standards really bug me, but I also understand our brains work differently.",
+     "difference": "way 3: 'bug me, but I also understand' contrast, and way 21: 'double-standards' labels S1 and S2 instead of saying them."
+    },
+    {
+     "s": "So that’s another thing to learn about over time in a relationship, and it sometimes hits you unexpectedly.",
+     "difference": "way 10: 'that' could point at the brain difference or the double standard, and way 21: 'another thing to learn' is a label."
+    }
+   ]
+  },
+  "fit": {
+   "marked": [
+    {
+     "s": "Those double-standards really bug me, but I also understand our brains work differently.",
+     "found": "MISREAD: a quick read takes it as blaming women, and the reader can't tell which brain difference it means."
+    },
+    {
+     "s": "So that’s another thing to learn about over time in a relationship, and it sometimes hits you unexpectedly.",
+     "found": "CAN'T TELL: the reader can't tell what 'that' is or what to look for."
+    }
+   ]
+  }
+ },
+ "B379": {
+  "sentences": [
+   {
+    "payoff": "they see that the exclusivity they treat as the basis of romance began as paperwork, so it is a rule and not a natural fact.",
+    "follows": "it carries on from the paragraph before, which 'that kind of bureaucratic record-keeping' says described a record-keeping use of marriage.",
+    "link": "Ironically, sexclusivity, which we treat"
+   },
+   {
+    "payoff": "they see when the record-keeping turned into the legal definition of marriage, and the history that did it.",
+    "follows": "it gives the next step in S1's history, with the time marker 'By the 17th century' following 'started out'.",
+    "link": "none: new step, tied by the time marker 'By the 17th century' beyond its first words"
+   },
+   {
+    "payoff": "they know that under the law, humans tend toward flexible pair-bonding and occasional infidelity, so these urges aren't a sign something is wrong with them.",
+    "follows": "it turns from the law in S2 to what people are like underneath it.",
+    "link": "As for what comes naturally to"
+   }
+  ],
+  "placement": "It depends on the paragraph before it, which introduced the bureaucratic record-keeping S1 calls 'that kind', and fits under the heading as the history behind exclusivity.",
+  "why_reading": "'Ironically' tells the reader that what they treat as romance's basis began as paperwork.",
+  "same_point": "none",
+  "questions": {
+   "Q1": "PASS: S1 opens on the point, that exclusivity began as record-keeping; it needs the paragraph before.",
+   "Q2": "N/A: no instructions.",
+   "Q3": "PASS: 'sexclusivity' and 'flexible pair-bonding' are specific.",
+   "Q4": "PASS: 'sexclusivity' is a coinage the sentence explains, and 'that law' in S3 now follows S2's legal definition.",
+   "Q5": "PASS: S2 'it' follows S1 and S3 'As for' turns from law to nature, though S2 'it' could be record-keeping or sexclusivity.",
+   "Q6": "PASS: origin, law, then what comes before the law.",
+   "Q7": "PASS: the 17th-century detail is background, but the point serves a reader asking whether exclusivity is natural.",
+   "Q8": "N/A: nothing sorted into groups.",
+   "Q9": "PASS: split into three sentences, one step each."
+  },
+  "needed": {
+   "unneeded": []
+  },
+  "his_fixes": {
+   "marked": [
+    {
+     "s": "Ironically, sexclusivity, which we treat as the basis of romance, started out as that kind of bureaucratic record-keeping.",
+     "difference": "way 22: 'that kind of bureaucratic record-keeping' points back without naming it."
+    },
+    {
+     "s": "By the 17th century, when England began mass urbanization by forcing peasants off their land, it had become the legal definition of marriage.",
+     "difference": "way 10: 'it' could be the record-keeping or sexclusivity, and 'had become' is not his simple past (way 9)."
+    },
+    {
+     "s": "As for what comes naturally to us underneath that law, I’m not trying to say we’re just like bonobos, but the academic consensus is that humans tend toward flexible pair-bonding, with a propensity for occasional infidelity.",
+     "difference": "way 3: 'I'm not trying to say X, but Y' contrast."
+    }
+   ]
+  },
+  "fit": {
+   "marked": [
+    {
+     "s": "As for what comes naturally to us underneath that law, I’m not trying to say we’re just like bonobos, but the academic consensus is that humans tend toward flexible pair-bonding, with a propensity for occasional infidelity.",
+     "found": "MISREAD: read quickly it can sound like permission to cheat or an authority being invoked for it."
+    }
+   ]
+  }
+ },
+ "B442": {
+  "sentences": [
+   {
+    "payoff": "they stop judging honesty by what it will produce and treat it as worth having anyway.",
+    "follows": "it answers the heading's question by calling it unfair, with 'this question' pointing at the heading.",
+    "link": "Many people ask this question"
+   },
+   {
+    "payoff": "they see the range of places honesty can lead, from repair to ending.",
+    "follows": "it spells out the 'very different places' of S1.",
+    "link": "It might repair the relationship"
+   },
+   {
+    "payoff": "they see a real case where honesty led to a separation that helped.",
+    "follows": "it gives the author's own case of one of S2's outcomes.",
+    "link": "With Bee and me, it led"
+   },
+   {
+    "payoff": "they know none of the outcomes works without the partner, so if the partner won't look, they decide what they can live with.",
+    "follows": "it turns from outcomes to the condition they need, and 'those outcomes' points at S2 and S3.",
+    "link": "Any of those outcomes takes both"
+   }
+  ],
+  "placement": "It makes sense where it stands: the heading asks a question, S1 reframes it and the rest answers; S4 refers to the Bee case in S3.",
+  "why_reading": "It tells the reader that asking what honesty will produce is an unfair question, because honesty is worth having whatever follows.",
+  "same_point": "S1 'very different places' is spelled out by S2; no other repeat.",
+  "questions": {
+   "Q1": "PASS: S1 states the point under a heading that asks the question.",
+   "Q2": "PASS: 'decide what you can live with' has its reason in the sentence.",
+   "Q3": "PASS: the outcomes in S2 are named.",
+   "Q4": "PASS: 'make it an open one' now says the relationship becomes an open one.",
+   "Q5": "PASS: S3 'With Bee and me' follows S2, S4 'those outcomes' and 'though... so' carry their claims.",
+   "Q6": "PASS: reframe, range, case, condition.",
+   "Q7": "PASS: each sentence helps a reader deciding whether to be honest.",
+   "Q8": "N/A: nothing sorted into groups.",
+   "Q9": "PASS: S2 is a list of five outcomes but each is a plain verb phrase."
+  },
+  "needed": {
+   "unneeded": []
+  },
+  "his_fixes": {
+   "marked": [
+    {
+     "s": "Many people ask this question of honesty, but it’s unfair, because honesty is worth having whatever it leads to, and it can lead to very different places.",
+     "difference": "way 10: 'it' appears as the question and as honesty."
+    },
+    {
+     "s": "It might repair the relationship, make it an open one, turn the romance into friendship, preserve the family through separation, or show you that ending it is better.",
+     "difference": "way 19: a list of five in one sentence; his way keeps the items that carry the point."
+    },
+    {
+     "s": "With Bee and me, it led to a temporary separation, which helped us, and that separation then became more permanent, although I’ve always thought maybe we would get back together in a few decades.",
+     "difference": "way 1: three steps in one sentence, with 'separation' named twice."
+    },
+    {
+     "s": "Any of those outcomes takes both of you, though, so if the other person won’t look at the truth with you, you can’t make it mutual, and then you have to decide what you can live with.",
+     "difference": "way 10: 'it' in 'make it mutual' could be honesty or the outcome."
+    }
+   ]
+  },
+  "fit": {
+   "marked": []
+  }
+ },
+ "B473": {
+  "sentences": [
+   {
+    "payoff": "they see that closeness and being understood can exist without falling in love.",
+    "follows": "it opens the section on what was gained with a specific thing learned, though 'H.' needs earlier mention.",
+    "link": "From H., I learned that"
+   },
+   {
+    "payoff": "they see that the relationship still gave something lasting, the support.",
+    "follows": "it extends S1 to what remains valued.",
+    "link": "I still treasure the support"
+   },
+   {
+    "payoff": "they see that judging a relationship only by whether it lasted is common and a mistake.",
+    "follows": "it turns from his case to the reader's, and the link to S2 is the staying together that did not happen.",
+    "link": "none: turns from his case to the reader's"
+   },
+   {
+    "payoff": "they start measuring what they learned from their own relationships instead of whether they stayed.",
+    "follows": "it gives the alternative to S3's measure.",
+    "link": "Relationships are a process of"
+   }
+  ],
+  "placement": "It depends on an earlier mention of H., and the heading 'loss' tells the reader the relationship ended; after that it runs lesson, value, mistake, alternative.",
+  "why_reading": "It tells the reader something specific Joel took from a relationship that ended, closeness without love.",
+  "same_point": "none: S3 gives the mistake and S4 the alternative, though 'process of growth' and 'what you learned' overlap a little.",
+  "questions": {
+   "Q1": "PASS: S1 gives the lesson first.",
+   "Q2": "PASS: 'start measuring what you actually learned' has its reason in the sentence.",
+   "Q3": "FAIL: 'growth in many dimensions' names a whole kind, and the reader can't tell which.",
+   "Q4": "PASS: 'H.' is a person the text before introduced.",
+   "Q5": "PASS: the heading's 'loss' ties S3 to S1 and S2; S4 follows S3 as the alternative.",
+   "Q6": "PASS: lesson, value, mistake, alternative.",
+   "Q7": "PASS: S3 and S4 give the reader a different test for their own relationships.",
+   "Q8": "N/A: nothing sorted into groups.",
+   "Q9": "PASS: split into one step a sentence."
+  },
+  "needed": {
+   "unneeded": [
+    "I still treasure the support we gave/give each other."
+   ]
+  },
+  "his_fixes": {
+   "marked": [
+    {
+     "s": "From H., I learned that I can be extremely close to someone and feel completely understood and supported without actually falling in love.",
+     "difference": "way 3: 'close... without actually falling in love' is a contrast pair."
+    },
+    {
+     "s": "I still treasure the support we gave/give each other.",
+     "difference": "way 6: ends on a feeling that sums up, with no use to the reader (way 7)."
+    },
+    {
+     "s": "Too many people judge a relationship only by whether they stayed together.",
+     "difference": "way 12: nothing in it says how it follows from S2."
+    },
+    {
+     "s": "Relationships are a process of growth in many dimensions, so start measuring what you actually learned from yours.",
+     "difference": "way 21: 'a process of growth in many dimensions' labels it instead of saying it."
+    }
+   ]
+  },
+  "fit": {
+   "marked": [
+    {
+     "s": "Relationships are a process of growth in many dimensions, so start measuring what you actually learned from yours.",
+     "found": "CAN'T TELL: the reader can't tell how to measure what they learned."
+    }
+   ]
+  }
+ }
+}

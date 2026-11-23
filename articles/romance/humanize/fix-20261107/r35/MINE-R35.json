@@ -1,0 +1,19 @@
+{
+ "about": "My tested sense fixes of 2026-11-23 that keep the meaning (the vetted junk read, r30/junk/VETTED.md), each Human High by itself (ledger batch romance-r35). A layer after r34/MINE-R34.json; the fixes that change or cut something are on the sixth marking page.",
+ "whose": "mine",
+ "changes": [
+  {
+   "card": "R35-B473",
+   "kind": "para",
+   "live": 447,
+   "before": "Too many people judge a relationship only by the result, so start measuring what you actually learned from it instead. Relationships are a process of growth in many dimensions. The result is not only whether you stayed together.",
+   "after": [
+    "Too many people judge a relationship only by whether they stayed together. Relationships are a process of growth in many dimensions, so start measuring what you actually learned from yours."
+   ],
+   "his_checks": [
+    "https://www.pangram.com/history/94c7ee64-1b37-41ff-adc3-28cf7f748057"
+   ],
+   "why": "one point said three times (the vetted junk read, B473, REAL), said once; read Human High with the paragraph before it"
+  }
+ ]
+}

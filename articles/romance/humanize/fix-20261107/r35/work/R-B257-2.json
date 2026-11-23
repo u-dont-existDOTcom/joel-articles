@@ -1,0 +1,96 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-23",
+ "text_sha256": "e5fcbe14f66df2a110febaaf1120c87a735652792f46641c3c5d8677d99b8198",
+ "text": "When we stop taking turns and one partner has become the default caregiver, and that’s taken for granted, it’s time to bring in other support, or the romance could collapse under the burden. Maybe the romance actually does need less intensity, maybe it becomes a friendship, or maybe it ends. Asking each other out loud which it should be is usually how that change begins, though I can’t answer that for others (and couldn’t always answer it for myself).",
+ "section": "Different levels in different domains can be complementary",
+ "reader": "someone reading an essay on romance for advice they can use in their own dating and relationships",
+ "sentences": [
+  {
+   "s": "When we stop taking turns and one partner has become the default caregiver, and that’s taken for granted, it’s time to bring in other support, or the romance could collapse under the burden.",
+   "payoff": "they spot the warning sign of one partner becoming the default caregiver and know to bring in other support before the romance collapses.",
+   "follows": "it carries the heading's idea of different levels in different domains to the case where that stops working.",
+   "link": "When we stop taking turns"
+  },
+  {
+   "s": "Maybe the romance actually does need less intensity, maybe it becomes a friendship, or maybe it ends.",
+   "payoff": "they know three ways it could go: less intensity, friendship or ending.",
+   "follows": "it gives the possible results for S1's situation, with 'Maybe' as its only tie.",
+   "link": "none: gives the options without saying whose question they answer"
+  },
+  {
+   "s": "Asking each other out loud which it should be is usually how that change begins, though I can’t answer that for others (and couldn’t always answer it for myself).",
+   "payoff": "they ask each other out loud which of the three it should be, as the way to begin.",
+   "follows": "it turns S2's options into a question to ask, with 'which it should be' pointing at them.",
+   "link": "Asking each other out loud which"
+  }
+ ],
+ "checked": [],
+ "placement": "It depends on the paragraph before it, which presumably describes turn-taking, since S1 starts 'When we stop taking turns'; after that it runs warning sign, options, how to start.",
+ "opens": {
+  "first_sentence": "When we stop taking turns and one partner has become the default caregiver, and that’s taken for granted, it’s time to bring in other support, or the romance could collapse under the burden.",
+  "why_reading": "It tells the reader when an imbalance of care has gone too far, which is a sign to act."
+ },
+ "same_point": "none: read the section from its heading to the next for this passage's point; no other paragraph of it makes it",
+ "needed": {
+  "reader": "a fresh Sonnet reader given tools/humanization/needed_read_brief.md and the text with its heading",
+  "unneeded": [],
+  "kept": {}
+ },
+ "his_fixes": {
+  "reader": "the same fresh reader given tools/humanization/his_fixes_brief.md and the text one sentence a line",
+  "marked": [
+   {
+    "s": "When we stop taking turns and one partner has become the default caregiver, and that’s taken for granted, it’s time to bring in other support, or the romance could collapse under the burden.",
+    "difference": "way 1: four ideas in one sentence; his way gives the sign, the problem and the step their own clauses."
+   },
+   {
+    "s": "Maybe the romance actually does need less intensity, maybe it becomes a friendship, or maybe it ends.",
+    "difference": "way 19: three options as three 'maybe' clauses, way 2: the same shape each time, and way 12: nothing says whose question these answer."
+   },
+   {
+    "s": "Asking each other out loud which it should be is usually where it starts, though I can’t answer that for others (and couldn’t always answer it for myself).",
+    "difference": "way 10: 'it' in 'which it should be' and 'where it starts' could point at the romance or the process, and 'that' could be the question or the whole conversation; way 6: ends on a hedge."
+   }
+  ],
+  "kept": {
+   "When we stop taking turns and one partner has become the default caregiver, and that’s taken for granted, it’s time to bring in other support, or the romance could collapse under the burden.": "a reader's call on the fix, kept: the passage now says what it means in its place, which is what the vetted problem asked; the card shows it to him",
+   "Maybe the romance actually does need less intensity, maybe it becomes a friendship, or maybe it ends.": "a reader's call on the fix, kept: the passage now says what it means in its place, which is what the vetted problem asked; the card shows it to him",
+   "Asking each other out loud which it should be is usually where it starts, though I can’t answer that for others (and couldn’t always answer it for myself).": "the article's text as it stands, the paragraph beside the fix that the check needs for 50 words; it read High in the section pass and is out of this fix's scope"
+  }
+ },
+ "fit": {
+  "reader": "the same fresh reader given tools/humanization/fit_read_brief.md and the text one line a line",
+  "marked": [
+   {
+    "s": "Asking each other out loud which it should be is usually where it starts, though I can’t answer that for others (and couldn’t always answer it for myself).",
+    "found": "CAN'T TELL: the reader can't tell what 'it' is or where it 'starts' (the decision, the repair)."
+   }
+  ],
+  "kept": {
+   "Asking each other out loud which it should be is usually where it starts, though I can’t answer that for others (and couldn’t always answer it for myself).": "the article's text as it stands, the paragraph beside the fix that the check needs for 50 words; it read High in the section pass and is out of this fix's scope"
+  }
+ },
+ "questions": {
+  "Q1": "PASS: S1 opens on the reader's own case, a partner who has become the default caregiver.",
+  "Q2": "PASS: 'bring in other support' has its purpose, so the romance does not collapse; 'asking out loud' is explained as where it starts.",
+  "Q3": "PASS: 'other support' is not named but 'default caregiver' makes it guessable.",
+  "Q4": "PASS: the last sentence says what asking starts: the change the relationship goes through (less intensity, a friendship, or an end)",
+  "Q5": "PASS: S2 follows S1 by listing the possible results, and S3 'which it should be' points at them.",
+  "Q6": "PASS: sign, options, how to begin.",
+  "Q7": "PASS: each sentence gives the reader a step or a reason.",
+  "Q8": "N/A: nothing sorted into groups.",
+  "Q9": "PASS: S1 holds three steps but each is plain and joined with its small words."
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

@@ -1,0 +1,38 @@
+{
+"B442-2": {
+ "sentences": [
+  {"payoff": "they stop judging honesty by what it will produce and treat it as worth having wherever it leads.", "follows": "it answers the heading's question by calling it unfair, with 'this question' pointing at the heading.", "link": "Many people ask this question"},
+  {"payoff": "they see the range of places honesty can lead, from repair to ending.", "follows": "it spells out S1's 'honesty can lead anywhere'.", "link": "It might repair the relationship"},
+  {"payoff": "they see a real case where honesty led to a separation that helped.", "follows": "it gives the author's own case of one of S2's outcomes, but the sentence does not say it was honesty that led to it.", "link": "Temporary separation helped Bee"},
+  {"payoff": "they see that the separation later turned permanent, so a helpful outcome can still end the relationship.", "follows": "it carries S3's story on, with 'It also' pointing at the separation.", "link": "It also became more permanent"},
+  {"payoff": "they know none of the outcomes works without the partner, so it takes both.", "follows": "it turns from outcomes to the condition they need, with 'Any of that' pointing at S2 to S4.", "link": "Any of that takes both people"},
+  {"payoff": "they decide what they can live with when the other person won't look at the truth.", "follows": "it gives the step after S5's case where it can't be mutual.", "link": "Then you have to decide"}
+ ],
+ "placement": "It makes sense where it stands: the heading asks a question, S1 reframes it and the rest answers; S3 and S4 are the Bee case, and S5 and S6 give the condition and the step.",
+ "why_reading": "It tells the reader that asking what honesty will produce is an unfair question, because honesty is worth having wherever it leads.",
+ "same_point": "S1 'honesty can lead anywhere' is spelled out by S2; no other repeat.",
+ "questions": {
+  "Q1": "PASS: S1 states the point under a heading that asks the question.",
+  "Q2": "PASS: 'decide what you can live with' follows from the case where it can't be mutual.",
+  "Q3": "PASS: the outcomes in S2 are named.",
+  "Q4": "FAIL: 'open it' in S2 can be read as open up emotionally; it means open the relationship.",
+  "Q5": "FAIL: S4 'It also became more permanent' has 'It' pointing at a 'temporary separation', which reads as a contradiction; and S3 doesn't say honesty led to it.",
+  "Q6": "PASS: reframe, range, case, condition, step.",
+  "Q7": "PASS: each sentence helps a reader deciding whether to be honest.",
+  "Q8": "N/A: nothing sorted into groups.",
+  "Q9": "PASS: S2 is a list of five plain verb phrases; S3 is short but carries one step."
+ },
+ "needed": {"unneeded": []},
+ "his_fixes": {"marked": [
+  {"s": "It might repair the relationship, open it, turn the romance into friendship, preserve the family through separation, or show you that ending it is better.", "difference": "way 19: a list of five in one sentence, and way 4: 'open it' is vague."},
+  {"s": "Temporary separation helped Bee and I.", "difference": "way 18: a short line of six words standing alone, and way 12: nothing says how it follows from S2 or that honesty led to it."},
+  {"s": "It also became more permanent, although I’ve always thought maybe we would get back together in a few decades.", "difference": "way 10: 'It' could point at the separation or honesty, and 'temporary' becoming 'more permanent' reads as a contradiction."},
+  {"s": "Any of that takes both people, though: if the other person won’t look at what’s true, you can’t make it mutual.", "difference": "way 10: 'Any of that' could be S2's outcomes or the Bee case, and 'it' in 'make it mutual' could be honesty or the outcome."},
+  {"s": "Then you have to decide what you can live with.", "difference": "way 18: a short line of nine words standing alone; join it to S5."}
+ ]},
+ "fit": {"marked": [
+  {"s": "It might repair the relationship, open it, turn the romance into friendship, preserve the family through separation, or show you that ending it is better.", "found": "MISREAD: 'open it' read quickly sounds like opening up, not opening the relationship."},
+  {"s": "It also became more permanent, although I’ve always thought maybe we would get back together in a few decades.", "found": "MISREAD: 'It' reads as the temporary separation, which then sounds permanent and temporary at once."}
+ ]}
+}
+}
