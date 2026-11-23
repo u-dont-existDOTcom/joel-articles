@@ -1,5 +1,5 @@
 {
- "about": "Round 4 of the blind test: M-346 alone, round 3's brief with one exception to rule 3 (the reason a question is asked may be said when the paragraph already implies it), a Fable writer (16 seconds). Checked by itself; prediction written before the check.",
+ "about": "Round 4 of the blind test: M-346 alone, round 3's brief with one exception to rule 3 (the reason a question is asked may be said when the paragraph already implies it), a Fable writer (16 seconds). Checked by itself; prediction written before the check. Then one diagnostic check (not blind): the same text with his one-word change \"honestly\" to \"compassionately\".",
  "items": [
   {
    "key": "fable4-M-346",
@@ -9,6 +9,15 @@
    "chance": 0.4,
    "why": "the betrayal question now asks the dilemma of this case, as his fix did, but without his reason (\"since it's not under our control\"); the last two questions read AI (High) in every round",
    "text": "And the biggie: if one of us falls in love with someone else, is that already a betrayal, or a sign we need a serious talk? If our lives change, can we sit down and honestly rethink what we agreed to? And if we split up, what do we still owe each other (and our kids, if we have any)?"
+  },
+  {
+   "key": "diag4-M-346-compassionately",
+   "sha256": "9c0a4ec4baadab6066cdbc737be7cef86d2d7926c31226a14cb70f3e791b9a4d",
+   "words": 60,
+   "call": "AI",
+   "chance": 0.4,
+   "why": "a diagnostic, not a blind rewrite: round 4's text with one word of his fix (\"honestly\" became \"compassionately\" in his version), to see whether that word is what reads AI in the last two questions, which read AI in every round while his version read High",
+   "text": "And the biggie: if one of us falls in love with someone else, is that already a betrayal, or a sign we need a serious talk? If our lives change, can we sit down and compassionately rethink what we agreed to? And if we split up, what do we still owe each other (and our kids, if we have any)?"
   }
  ]
 }
