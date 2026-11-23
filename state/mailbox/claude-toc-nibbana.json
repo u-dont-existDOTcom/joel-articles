@@ -36,6 +36,36 @@
    ],
    "items": [],
    "recorded_utc": "2026-11-23T14:39Z"
+  },
+  {
+   "turn": "2026-11-23T17:24Z",
+   "lines_of_work": [
+    "contents of the very long posts: Nirvana picks applied"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "6 items in suggested-fixes/joel-articles/ (read through a public clone; this session's GitHub login can't read that repository), all already in docs/suggested-fixes-ledger.md; nothing new"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "since 2026-11-23 14:39 UTC: pull requests 480 (this lane, merged 15:28), 481 and 401 (romance) merged or closed, neither addressed to this lane; no comments or reviews; no new issues"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "the laptop note toc-long-articles.md is as this lane left it at 15:2x UTC; the picks page's answers came in Joel's message (JSON saved 17:23:56 UTC)"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "no queued notifications"
+    }
+   ],
+   "items": [],
+   "recorded_utc": "2026-11-23T17:28Z"
   }
  ]
 }
