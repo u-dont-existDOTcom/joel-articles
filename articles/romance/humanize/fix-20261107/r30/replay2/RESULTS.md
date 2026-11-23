@@ -57,6 +57,6 @@ don't, and each fails where his fix did something the brief doesn't yet say:
 
 My predictions were right 2 times of 7 (Brier 0.304, worse than a coin): I expected round 1's AI readings to hold for 125
 and 343, and the near-Human readings to hold for 214 and 252. Round 3 tests the three changes these misses point to
-([../replay3/README.md](../replay3/README.md)): a list of concrete things from life stays whole; a two-part question
+([../replay3/RESULTS.md](../replay3/RESULTS.md)): a list of concrete things from life stays whole; a two-part question
 whose second half nobody could answer becomes the dilemma itself; and a contrast or pivot said in general words keeps its
 concrete half and names what it points back to.

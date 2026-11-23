@@ -26,7 +26,7 @@
         },
         "current_state": {
           "path": "articles/romance/CURRENT-STATE.md",
-          "sha256": "ffeecd6ce6dc7cf7e421a4e6e1b6830b1628060e1f1c0014290f39e2cef81cc1"
+          "sha256": "d3dc71380dcf00403e8106729146a3091eddad7ce85e94a6fba3f2cc3e623dfa"
         }
       },
       "review": {
@@ -3345,7 +3345,7 @@
         },
         {
           "path": "articles/romance/humanize/fix-20261107/r30/replay2/RESULTS.md",
-          "sha256": "a71ea550e22327242c29892652720464c7fc8441f97527ee04dc6d40c58bf8ae",
+          "sha256": "0da01f69689a7614571be8ce03e173fbf7bb32f75272a183409045102f19a596",
           "role": "humanization_working_record"
         },
         {
@@ -4039,11 +4039,6 @@
           "role": "humanization_working_record"
         },
         {
-          "path": "articles/romance/humanize/fix-20261107/r30/replay3/README.md",
-          "sha256": "af8582eca9fc4f0894634e198538a26e73e17f54b2dac65b080daf269e9085bb",
-          "role": "humanization_working_record"
-        },
-        {
           "path": "articles/romance/humanize/fix-20261107/live-check/LIVE-POST-BLOCKS-20261123.jsonl",
           "sha256": "7bca463d091c6085fcfdc08483786ac521053d8f8f4e459026827a710c4d4ddc",
           "role": "humanization_working_record"
@@ -4081,6 +4076,16 @@
         {
           "path": "articles/romance/humanize/fix-20261107/r30/replay3/PREDICTIONS.json",
           "sha256": "ec5661241b0a449527c693fd6867f64d482a88612107f9f7344e44b40dcf86af",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r30/replay3/CHECKS-R3.txt",
+          "sha256": "00e0b94be1d34167b198f6dc1e74540c8714715323d3db7baafcbc2504363805",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r30/replay3/RESULTS.md",
+          "sha256": "8aa153912055a66ea23750c433061aa444933249af0fdda6a038aaa5a6b01853",
           "role": "humanization_working_record"
         }
       ]

@@ -3223,6 +3223,30 @@
     }
    ],
    "reason": "whether a sentence says the thing or a label for it is meaning: a fresh reader given tools/humanization/his_fixes_brief.md (its twenty-first way)"
+  },
+  {
+   "id": "J82",
+   "tell": "a pivot that points back (\"none of that\", \"all of that\") without naming what it points back to",
+   "kind": "judgment",
+   "sources": [
+    {
+     "file": "docs/lessons/2026-11-23-0100-romance.md",
+     "quote": "his fixes keep the concrete half and name what the pivot points back to"
+    }
+   ],
+   "reason": "what a pointer points back to, and whether naming it helps, is meaning: a fresh reader given tools/humanization/his_fixes_brief.md (its twenty-second way)"
+  },
+  {
+   "id": "J83",
+   "tell": "a run of questions: three or more in a row, or a paragraph almost all questions, fixed by their order, one plain statement and one frame, not by reported questions",
+   "kind": "judgment",
+   "sources": [
+    {
+     "file": "docs/lessons/2026-11-23-0100-romance.md",
+     "quote": "a run of questions is fixed by its order, one plain statement and one frame, not by plainer questions"
+    }
+   ],
+   "reason": "which question an example belongs with, and what frame a paragraph has, is meaning: a fresh reader given tools/humanization/his_fixes_brief.md (its twenty-third way)"
   }
  ]
 }

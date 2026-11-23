@@ -124,6 +124,10 @@ that still reads the first way.
    with your cat"), and turns a question into its real options ("Is that a pattern, or just life getting in the way
    normally?"). His words: "too much of a listicle", "we don't need 3". A fix that keeps all three items in one sentence
    still reads this way: the blind test of 2026-11-22 kept three items in three of four lists (lesson romance-2026-11-22f).
+   A list of concrete things from life is not this way ("nature, music, poetry, art, flowers, food"): he kept it whole,
+   and cutting it to two read Human (Low) where keeping it read High; an item goes only where it overlaps another or is
+   part of it, and the point it carries stays ("coerced" in "abused, coerced, or seriously deceived" is a kind of harm,
+   not a repeat) (lesson romance-2026-11-23a).
 
 20. **A sentence about the text itself that isn't true where it stands.** A summing-up of what the article or the
    section has said so far ("Everything I've been putting forward so far has leaned toward honesty, closeness, and
@@ -138,6 +142,23 @@ that still reads the first way.
    it's not under our control?" (2026-11-22: "sort of vagued and weird, didn't really understand like what was it trying
    to actuually say"). "Announcing" is one of these words ("another ai tell"). A question the reader couldn't answer as
    asked is this way too: mark it, and say what the real question is.
+
+22. **A pivot that points back without naming what.** "But none of that by itself explains why two people still want to
+   tear each other's clothes off" points back at a list of values; he named it ("that liberal modern philosophy fails to
+   explain why"). In the blind test the pivot left as "none of that" read AI (High); named ("those three don't by
+   themselves explain") it read Human with the turn after it kept whole ("feeling safe doesn't spark desire, but it makes
+   space for it") (lessons romance-2026-11-23a and d).
+
+23. **A run of questions.** Three or more questions in a row, or a paragraph that is almost all questions, reads like
+   a worksheet; in the romance article's flaws section it read AI at the end of nine questions in four paragraphs, though
+   the same paragraphs read Human by themselves. He kept almost every word and changed their order and frame: the
+   example went beside the question it belongs with ("If conflict makes you shut down, does it mean you stop talking to
+   your partner for days, leaving them feeling abandoned?" next to "What did you do to the other person, and how did you
+   repair the damage afterward?"), the long-view question went last as its own paragraph, one plain statement between
+   them says why the next question matters ("Not doing can be just as bad as overdoing."), the example is asked in the
+   paragraph's own frame (the reader's own record, not "if you tell me"), and its consequence is folded into the same
+   question. Turning the questions into reported ones ("Then ask whether your judgment has gotten better ...") read AI
+   every time it was tried (lessons romance-2026-11-23b, c and d).
 
 When the text is a rewrite of another, also mark every detail, reason or line it adds that the text it rewrites and its
 section don't already hold (lesson romance-2026-11-22f: a blind rewrite added "my month with a bad knee", a month he never

@@ -186,6 +186,11 @@ with his OK and no email.
   Markdown has them). His flaws fix is in (`r33/HIS-FLAWS.json`), and the section with it and my opener reads Human High
   (0% AI, one Medium window): every section of the article now reads Human with no Low window. Lesson romance-2026-11-23c
   (a run of questions: order, one plain statement, one frame); round 3 of the blind test runs it on that stretch too.
+  Round 3 of the blind test (`r30/replay3/RESULTS.md`, a Sonnet writer after three Opus writers gave no answer): over
+  the three rounds 9 of his 14 paragraphs read Human High by themselves from the lessons alone and two more Human with a
+  Medium window; 346 (the dilemma question) and the flaws stretch (reported questions) still read AI (lesson
+  romance-2026-11-23d). `tools/humanization/his_fixes_brief.md` has ways 22 and 23 and the concrete-list line in way 19
+  (tells J82 and J83).
 
 ## Next step
 
