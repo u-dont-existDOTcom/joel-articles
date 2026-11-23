@@ -1,0 +1,23 @@
+{
+ "about": "His fix of the end of \"The conversation about flaws\" (live 126 and 127), from his Pangram check of 2026-11-23 15:33 UTC (his message of 15:35: \"i fixed the conversation about flaws, it's high conf hum now, had to re-arrange so it flowed more naturally\"). The text is the check's own, read from his history; his line break there is the paragraph break.",
+ "whose": "his",
+ "changes": [
+  {
+   "card": "T6-126",
+   "kind": "run",
+   "live": [
+    126,
+    127
+   ],
+   "before": "The most recent conflicts are the best place to look. Were you able to regulate at all during the conflict? What did you do to the other person? How did you repair afterward? What did you learn? Has your judgment gotten better, or do you keep falling for the same stuff?\n\nI’d also want to know what their friends or exes would say, because people aren’t always the best judges of their own progress.",
+   "after": [
+    "Look at the most recent conflicts and ask if you were able to regulate yourself during them. What did you do to the other person, and how did you repair the damage afterward? Not doing can be just as bad as overdoing. If conflict makes you shut down, does it mean you stop talking to your partner for days, leaving them feeling abandoned?",
+    "Has your judgment gotten better, or would your friends or exes say you keep falling for the same stuff?"
+   ],
+   "his_checks": [
+    "https://www.pangram.com/history/e7fa9711-caf2-469b-9c1a-6f4422e6ec39"
+   ],
+   "comment": "i fixed the conversation about flaws, it's high conf hum now, had to re-arrange so it flowed more naturally"
+  }
+ ]
+}

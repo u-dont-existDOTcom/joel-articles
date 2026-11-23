@@ -15,7 +15,7 @@ pretty weird date." With the paragraph after it:
 [Human, High](https://www.pangram.com/history/117c28bb-36bd-4190-acdb-db70001fbcfc) (ledger romance-r33-p122#247). It
 is a layer, [MINE-R33.json](MINE-R33.json), that `../whole/build.py` applies after his answers.
 
-**The end (live 126 and 127): three tries, none better than the text as it stands; left as it is.** Each try is the
+**The end (live 126 and 127): three tries of mine, none better than the text as it stood; then his fix (below).** Each try is the
 pair checked by itself (127 is 27 words), predictions first in the ledger (lineage romance-r33-p126):
 
 | Try | What changed | Pangram |
@@ -34,6 +34,29 @@ draft that turned his two last questions into one "Then ask whether ..." sentenc
 rule for two failed drafts is a writer of another family (Codex, from his laptop), and this session's safety check
 refused to run Codex on his laptop ("Unsanctioned Communication"), so the next draft for this stretch goes to him on the
 next marking page with these tries, unless he lets a session run Codex there.
+
+**His fix (2026-11-23 15:35 UTC: "i fixed the conversation about flaws, it's high conf hum now, had to re-arrange so it
+flowed more naturally").** [Human, High](https://www.pangram.com/history/e7fa9711-caf2-469b-9c1a-6f4422e6ec39), read
+from his history and in the fixed version as a layer ([HIS-FLAWS.json](HIS-FLAWS.json)):
+
+> Look at the most recent conflicts and ask if you were able to regulate yourself during them. What did you do to the
+> other person, and how did you repair the damage afterward? Not doing can be just as bad as overdoing. If conflict
+> makes you shut down, does it mean you stop talking to your partner for days, leaving them feeling abandoned?
+>
+> Has your judgment gotten better, or would your friends or exes say you keep falling for the same stuff?
+
+What it did that my tries didn't: it moved the shut-down question up beside the harm and the repair it belongs with, and
+put the long-view question last as its own paragraph (my try 1's joined question, which read AI where I had put it);
+it broke the run of questions with one plain statement of why the next question matters ("Not doing can be just as bad
+as overdoing."); it asked the shut-down question of the reader's own record ("If conflict makes you shut down"), the
+frame the paragraph already had, where the old text interviewed a date ("if you tell me you shut down"); and it put the
+consequence into the same question ("leaving them feeling abandoned") instead of a second question built like the
+first. Lesson romance-2026-11-23c.
+
+**The section again, with my opener and his end:** [Human, High](https://www.pangram.com/history/dd319996-2440-46c1-8d80-73e1e132add4)
+(0% AI; High 113 words, Medium 20 on "I’d want both of us to be honest about how effective we actually are at handling
+our own issues.", High 117), ledger romance-e307-26#251. So every section of the article now reads Human with no Low
+window.
 
 The receipts, the fresh readers' reads and the texts are in [work/](work/); every check is in the ledger
 (`../../pangram-ledger.jsonl`, batch romance-r33).

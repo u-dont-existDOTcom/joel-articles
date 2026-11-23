@@ -1,0 +1,21 @@
+{
+ "needed": {"unneeded": [
+  "Not doing can be just as bad as overdoing."
+ ]},
+ "his_fixes": {"marked": [
+  {"s": "At the right time, though, in the right way (especially if they bring it up tangentially), I would ask about their past relationships, especially the recent ones.", "difference": "way 1: three qualifiers (right time, right way, tangentially) plus a second \"especially\" packed into one sentence; way 4: \"the right time\" and \"the right way\" never say what counts"},
+  {"s": "“I have baggage” isn't as useful as learning what you're having trouble with now.", "difference": "way 3: \"X isn't as useful as Y\" comparison where it could say what to learn; way 21: \"baggage\" is a label for the thing"},
+  {"s": "What might make it hard for you to function well in a relationship?", "difference": "way 4: \"function well\" is vague about what counts (what actually goes wrong)"},
+  {"s": "I’d want both of us to be honest about how effective we actually are at handling our own issues.", "difference": "way 5: opens on what the author would want, announcing a preference before the point; way 21: \"how effective we actually are at handling our own issues\" is an abstract label instead of the thing itself"},
+  {"s": "What are we probably going to ask forgiveness for more than once?", "difference": "way 2: same \"What ... we ...?\" shape as the question before it"},
+  {"s": "That tells me more than either of us proclaiming that we’re healed.", "difference": "way 6: ends the paragraph on a wise-sounding summing-up line; way 3: \"more than ... proclaiming\" is a contrast where it could say what to do"},
+  {"s": "Look at the most recent conflicts and ask if you were able to regulate yourself during them.", "difference": "way 10: \"you\" and \"the most recent conflicts\" could be the reader's own or the other person's; way 4: \"regulate yourself\" is vague about what counts"},
+  {"s": "Not doing can be just as bad as overdoing.", "difference": "way 4: \"not doing\" and \"overdoing\" never say what; way 6: a wise-sounding line; way 12: stands alone, not connected to the repair question before it; way 3: a pair set against each other"},
+  {"s": "If conflict makes you shut down, does it mean you stop talking to your partner for days, leaving them feeling abandoned?", "difference": "way 21: \"does it mean\" asks what a label stands for; way 1: \"leaving them feeling abandoned\" hangs a second idea on the first"},
+  {"s": "Has your judgment gotten better, or would your friends or exes say you keep falling for the same stuff?", "difference": "way 4: \"the same stuff\" is vague about what repeats; way 12: new paragraph opens with nothing saying how it follows from the conflict paragraph before it"}
+ ]},
+ "fit": {"marked": [
+  {"s": "Look at the most recent conflicts and ask if you were able to regulate yourself during them.", "found": "MISREAD / CAN'T TELL: \"you\" reads as the reader's own conflicts, but the section is about a new partner's conflicts; unclear whose self-regulation is asked about and whom the reader asks"},
+  {"s": "Not doing can be just as bad as overdoing.", "found": "CAN'T TELL / MISREAD: it doesn't say what \"not doing\" means (not repairing? not reacting?), so the reader can't tell what to look for or ask; it could also be read as about the conflict itself"}
+ ]}
+}

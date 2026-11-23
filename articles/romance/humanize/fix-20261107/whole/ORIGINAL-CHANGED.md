@@ -555,3 +555,9 @@ What do you actually want? You may know some of it and not the rest. What makes 
 ## 109. The conversation about flaws (live 122)
 
 Card games and social gatherings don’t tell you everything, but I wouldn’t ask someone out of the blue, “What did you do wrong in your past relationships?” That would be a pretty weird date.
+
+## 110. The conversation about flaws (live 126, 127)
+
+The most recent conflicts are the best place to look. Were you able to regulate at all during the conflict? What did you do to the other person? How did you repair afterward? What did you learn? Has your judgment gotten better, or do you keep falling for the same stuff?
+
+I’d also want to know what their friends or exes would say, because people aren’t always the best judges of their own progress.

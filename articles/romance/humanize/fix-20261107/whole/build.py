@@ -44,15 +44,15 @@ for n, o in enumerate(P['ops'], 1):
 # (live-check/LIVE-POST-BLOCKS-20261122.jsonl), checked against LIVE-INDEX.txt like the rest.
 json.dump({str(k): v for k, v in sorted(repl.items())}, open(HERE / 'REPLACEMENTS-CHECKS.json', 'w', encoding='utf-8'),
           ensure_ascii=False, indent=1)   # the checks' replacements alone, which the layers are made against
-LAYERS = [HERE.parent / 'r30' / 'HIS-T4.json', HERE.parent / 'r31' / 'HIS-T5.json', HERE.parent / 'r33' / 'MINE-R33.json']
+LAYERS = [HERE.parent / 'r30' / 'HIS-T4.json', HERE.parent / 'r31' / 'HIS-T5.json', HERE.parent / 'r33' / 'MINE-R33.json', HERE.parent / 'r33' / 'HIS-FLAWS.json']
 POST = {}
-for line in (HERE.parent / 'live-check' / 'LIVE-POST-BLOCKS-20261122.jsonl').read_text(encoding='utf-8').splitlines():
+for line in (HERE.parent / 'live-check' / 'LIVE-POST-BLOCKS-20261123.jsonl').read_text(encoding='utf-8').splitlines():
     r = json.loads(line)
     if r.get('n') is not None:
         POST[r['n']] = r
 SECTION = {}
 _head = ''
-for line in (HERE.parent / 'live-check' / 'LIVE-POST-BLOCKS-20261122.jsonl').read_text(encoding='utf-8').splitlines():
+for line in (HERE.parent / 'live-check' / 'LIVE-POST-BLOCKS-20261123.jsonl').read_text(encoding='utf-8').splitlines():
     r = json.loads(line)
     if r['tag'] in ('H1', 'H2', 'H3', 'H4'):
         _head = r['text']

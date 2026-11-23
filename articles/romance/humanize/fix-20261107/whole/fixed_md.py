@@ -20,7 +20,7 @@ ap.add_argument('--repl', default='REPLACEMENTS.json', help='the replacements to
 ap.add_argument('--no-layer', action='store_true', help='without his answers\' links and embed')
 ap.add_argument('--out', default='FIXED.md')
 A = ap.parse_args()
-POSTF = HERE.parent / 'live-check' / 'LIVE-POST-BLOCKS-20261122.jsonl'
+POSTF = HERE.parent / 'live-check' / 'LIVE-POST-BLOCKS-20261123.jsonl'
 recs = [json.loads(l) for l in POSTF.read_text(encoding='utf-8').splitlines()]
 REPL = {int(k): v for k, v in json.loads((HERE / A.repl).read_text(encoding='utf-8')).items()}
 LAYER = json.loads((HERE.parent / 'r30' / 'HIS-T4.json').read_text(encoding='utf-8'))

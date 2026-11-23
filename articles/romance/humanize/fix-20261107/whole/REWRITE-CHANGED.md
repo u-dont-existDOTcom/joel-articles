@@ -539,3 +539,9 @@ What do you actually want? Women are kind of notorious for proudly not knowing w
 ## 109. The conversation about flaws (live 122)
 
 Card games and social gatherings don’t tell you everything, but asking someone out of the blue, “What did you do wrong in your past relationships?” would make for a pretty weird date.
+
+## 110. The conversation about flaws (live 126, 127)
+
+Look at the most recent conflicts and ask if you were able to regulate yourself during them. What did you do to the other person, and how did you repair the damage afterward? Not doing can be just as bad as overdoing. If conflict makes you shut down, does it mean you stop talking to your partner for days, leaving them feeling abandoned?
+
+Has your judgment gotten better, or would your friends or exes say you keep falling for the same stuff?

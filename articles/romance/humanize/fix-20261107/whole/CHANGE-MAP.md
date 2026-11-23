@@ -1,6 +1,6 @@
 # The fixed version: every changed paragraph
 
-The live post ("Romance Advice I Wish My Parents Taught Me") with each section's and spot's best tested text in place (`assemble.py`, `build.py`), and his own versions from his answers over them (`../r30/HIS-T4.json`, his Medium page of 2026-11-22). Paragraph numbers are the post page's paragraph list (`LIVE-INDEX.txt`). "Two Pillars" 332 is his own new version (it was the owner lock). 109 changes, 144 live paragraphs changed.
+The live post ("Romance Advice I Wish My Parents Taught Me") with each section's and spot's best tested text in place (`assemble.py`, `build.py`), and his own versions from his answers over them (`../r30/HIS-T4.json`, his Medium page of 2026-11-22). Paragraph numbers are the post page's paragraph list (`LIVE-INDEX.txt`). "Two Pillars" 332 is his own new version (it was the owner lock). 110 changes, 144 live paragraphs changed.
 
 ## 1. S1 (live 28)
 
@@ -134,7 +134,7 @@ Read by romance-low-peek#67: [result](https://www.pangram.com/history/9ce25ef1-6
 
 > A card game can create its own little high too. If we spend two hours telling each other things nobody else knows, we may feel incredibly understood and close, but that may mean the game worked without telling us whether the relationship will.
 
-## 11. The conversation about flaws (live 126, 127, 128)
+## 11. The conversation about flaws (live 126, 127, 128) (partly replaced by T6-126)
 
 Read by romance-low-convo#107: [result](https://www.pangram.com/history/604fea38-50fe-4d76-b994-152e3c0a33c0).
 
@@ -904,7 +904,7 @@ Read by his answer M-125 (HIS-T4.json): [result](https://www.pangram.com/history
 
 > I’d want both of us to be honest about how effective we actually are at handling our own issues. What addictions or impulsive behaviors can’t we reliably control? What are we probably going to ask forgiveness for more than once? That tells me more than either of us proclaiming that we’re healed.
 
-## 69. The conversation about flaws (live 126)
+## 69. The conversation about flaws (live 126) (replaced by T6-126)
 
 Read by his answer M-126 (HIS-T4.json): [result](https://www.pangram.com/history/79f2b9f3-e4d8-4502-b704-21122c54b2ae).
 
@@ -1421,4 +1421,18 @@ Read by my tested change R33-122 (MINE-R33.json): [result](https://www.pangram.c
 **New:**
 
 > Card games and social gatherings don’t tell you everything, but asking someone out of the blue, “What did you do wrong in your past relationships?” would make for a pretty weird date.
+
+## 110. The conversation about flaws (live 126, 127)
+
+Read by his answer T6-126 (HIS-FLAWS.json): [result](https://www.pangram.com/history/e7fa9711-caf2-469b-9c1a-6f4422e6ec39).
+
+**Live:**
+
+> The most recent conflicts are the best place to look. Were you able to regulate at all during the conflict? What did you do to the other person? How did you repair afterward? What did you learn? Has your judgment gotten better, or do you keep falling for the same stuff?
+> I’d also want to know what their friends or exes would say, because people aren’t always the best judges of their own progress.
+
+**New:**
+
+> Look at the most recent conflicts and ask if you were able to regulate yourself during them. What did you do to the other person, and how did you repair the damage afterward? Not doing can be just as bad as overdoing. If conflict makes you shut down, does it mean you stop talking to your partner for days, leaving them feeling abandoned?
+> Has your judgment gotten better, or would your friends or exes say you keep falling for the same stuff?
 

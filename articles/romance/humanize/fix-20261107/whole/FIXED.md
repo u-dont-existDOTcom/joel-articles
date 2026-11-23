@@ -108,6 +108,8 @@ You don’t have to be completely healed, but the present-day adult has to be ab
 
 A good relationship can teach you self-love too, which is part of the problem: you may need one most when you’re least capable of creating a good one, recognizing one, or keeping it good. It depends what each of you are ready for and have the resources for. [Here’s a video that can help understand the long process](https://www.youtube.com/watch?v=wT0dze2vnb0).
 
+<!-- IMAGE https://substackcdn.com/image/fetch/$s_!9p2h!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F969c7836-6308-481f-8ed6-498dbe32cf6f_1080x1356.png : a picture in the post, if she likes me its a red flag -->
+
 ### I wasn’t ready, but I was lucky
 
 At twenty, I thought I was totally fine until I became enamored with Alba. She was Dominican, and warm in a way I didn’t understand. Kissing your BFF on the lips was normal to her. I thought she was in love with me. She did love me and wanted me living with her, but not in the way I wanted. The confusion threw me into a horrible spell for years. I was even a bit suicidal while living with her.
@@ -232,6 +234,8 @@ Well, it didn’t exactly solve the problem: in late-1700s New England, where lo
 
 For me, the window of objectivity starts closing abruptly once it seems like sex will definitely be happening soon and I’m flowing with that timeline. I begin idealizing her more, and after sex I may suddenly feel unable to leave because maybe she’s pregnant, etc.
 
+<!-- IMAGE https://substackcdn.com/image/fetch/$s_!mj6F!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0cb409f8-4c63-4f18-8712-de86c4f3a5cb_1079x1338.png : a picture in the post, brain heart and penis asking what's the plan -->
+
 Maybe I’m not representative of the modern degen dating scene. If you’re quite numb and used to casual sex, perhaps the window closes later, or even never. But for me, this is the pattern, and it seems like it would be healthy in a healthy, natural, small society.
 
 The attachment theory part comes from my own experience and from reading I’ve done. Sex turns on bonding chemistry in our brain (like oxytocin, dopamine, vasopressin) that usually helps us form attachments, so that we don't just abandon our children.
@@ -270,9 +274,9 @@ At the right time, though, in the right way (especially if they bring it up tang
 
 I’d want both of us to be honest about how effective we actually are at handling our own issues. What addictions or impulsive behaviors can’t we reliably control? What are we probably going to ask forgiveness for more than once? That tells me more than either of us proclaiming that we’re healed.
 
-Look at the most recent conflicts and ask if you were able to regulate yourself during them. What did you do to the other person, and how did you repair the damage afterward? Has your judgment gotten better, or do you keep falling for the same stuff? What would your friends or exes say?
+Look at the most recent conflicts and ask if you were able to regulate yourself during them. What did you do to the other person, and how did you repair the damage afterward? Not doing can be just as bad as overdoing. If conflict makes you shut down, does it mean you stop talking to your partner for days, leaving them feeling abandoned?
 
-And if you tell me you shut down, okay, what does that mean: did you stop talking to your partner for days, and did they feel abandoned?
+Has your judgment gotten better, or would your friends or exes say you keep falling for the same stuff?
 
 #### My flaws
 
@@ -470,6 +474,8 @@ I already said before dating that the present-day adult has to be able to parent
 
 It can get pretty entitled when you expect your partner to know what you need without being told. You may barely see your own pattern, and then deny it instead of taking responsibility when they point it out.
 
+<!-- IMAGE https://substackcdn.com/image/fetch/$s_!GtO2!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F40f1ed69-ad01-4241-bf77-046ceb2ee525_1080x1398.png : a picture in the post, when she understands you because you don't understand yourself -->
+
 ### Some babies grow up faster
 
 While different maturity levels are to be expected to some degree, it can get out of hand at the extremes. What I noticed in all of my most intimate relationships was that when one person was always the child and the other is always the therapist, guru, doctor, or dad, then it’s too unequal, and eventually there will be some kind of pendulum swing or backlash. When I became consistently the responsible one, that also made me responsible for everything that went wrong, not to mention the unhealthy clinginess, jealousy, and all the rest which went along with that dynamic.
@@ -603,6 +609,8 @@ That's the way we can invite each other to play our unique roles rather than huf
 When a woman doesn’t know how to gently invite a man to lead, she may manufacture a crisis until the man is forced to take charge to get the same outward result.
 
 Unfortunately, I’ve seen a lot of the latter.
+
+<!-- IMAGE https://substackcdn.com/image/fetch/$s_!GNat!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F920c95a5-ee72-41ec-b25f-3592d904fa46_1079x1350.png : a picture in the post, self help for men -->
 
 ## Fantasy
 
@@ -865,6 +873,8 @@ With Bee and Key, the biggest thing sitting underneath everything was trust. The
 Even dishonesty was sometimes hard for me to define in these relationships. Bee once opened a door and, a second later, said she hadn’t opened it. That drove me crazy! I mean, why would she lie like that? On the other hand, although she was technically lying, there was no strategy behind it, and she was usually quite honest. Non-strategic lying is literally defined as "pathological lying," so I should have seen it more like an illness than a failure of virtue.
 
 Some things were less mysterious: they were acting as if the trust problem wasn’t there because they still wanted the relationship. Attractions to other people sometimes went unsaid too, and sometimes got imagined from nowhere. Some people keep a relationship like this going for a long time, just sweeping everything under the rug.
+
+<!-- IMAGE https://substackcdn.com/image/fetch/$s_!UllG!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F791c76a8-a333-4b27-839e-b1a4b019124d_1079x1356.png : a picture in the post, lying to avoid conflict -->
 
 On the other hand, sometimes I was more honest than my partner could handle, which was its own kind of damage. Ask whether both of you actually want to prioritize radical honesty, first. But the other person also can’t keep saying “not now” forever and think that’s going to save the relationship.
 

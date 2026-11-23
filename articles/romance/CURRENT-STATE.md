@@ -174,18 +174,28 @@ with his OK and no email.
   tell panel's rule for the next draft (a Codex writer from his laptop) refused by this session's safety check, so it
   goes on the next page (lesson romance-2026-11-23b). Every push this turn was held back by the auto-mode refusal
   below; the work is in the bundle sent in chat.
+- 2026-11-23 15:35 UTC (his message: the pushes should merge by the robot; his bundle fetch failed; "i approve codex
+  sure"; he added pictures to the post and the splitting video shows again; his fix of "The conversation about flaws").
+  The push went through this time (pull request 401, ca6f3eae); taking off its "hold" label so the lane workflow merges
+  it was refused by this session's safety check, so he removes the label or merges it. His bundle fetch had run in his
+  askrigor clone, which lacks this repository's commits; with the push it isn't needed. His OK for Codex on his laptop
+  (the tell panel's reader and its other-family writer) is recorded here. The post now has five more pictures (alt texts
+  "if she likes me its a red flag", "brain heart and penis asking what's the plan", "when she understands you because you
+  don't understand yourself", "self help for men", "lying to avoid conflict"); its text is unchanged since 2026-11-22
+  (`humanize/fix-20261107/live-check/LIVE-POST-BLOCKS-20261123.jsonl`, which the fixed version is now built from, so its
+  Markdown has them). His flaws fix is in (`r33/HIS-FLAWS.json`), and the section with it and my opener reads Human High
+  (0% AI, one Medium window): every section of the article now reads Human with no Low window. Lesson romance-2026-11-23c
+  (a run of questions: order, one plain statement, one frame); round 3 of the blind test runs it on that stretch too.
 
 ## Next step
 
 The junk fixes first: the 11 real and 33 partly real passages of `r30/junk/VETTED.md` that are in model text, sense
 first (the read against his fixes, ways 1 to 21 and the three of round 2), each fix checked by itself and in its
 section, with round 3's lessons from the blind test (`r30/replay3/`) and the next blind round on whatever they teach. Then
-his next marking page (the whole article): those fixes that change meaning or are his words, and the end of "The
-conversation about flaws" as a teaching card with its three tries. Then the drafts re-pasted for his last whole-article
+his next marking page (the whole article): those fixes that change meaning or are his words. Then the drafts re-pasted for his last whole-article
 check; then his post is updated with his OK (no email): 366's link to Esther Perel's post, the reel embedded after
-149, the typography swap and the "Updated" date. Pull request 401 keeps its "hold" label: this session's auto mode
-refused every push this turn (the branch's pull request would merge its shared rules and tools into main by itself), so
-the work waits for his merge or his word on how to push it.
+149, the typography swap and the "Updated" date. Pull request 401 is pushed; its "hold" label (from the refused pushes) is his to take off, since this session's safety
+check refused to, and the lane workflow then merges it.
 
 ### Before 2026-11-07 (the registered master, as recorded then)
 
