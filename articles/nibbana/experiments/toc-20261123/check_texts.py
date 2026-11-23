@@ -98,8 +98,13 @@ def main():
     before = '\n\n'.join(sum(([R[i]['heading']] + R[i]['lines'] for i in sorted(R) if i != 'S000'), []))  # the live text
     s015 = text([e for e in plan if e['id'] == 'S015'], fix=True, first_lines=2)
     os.makedirs(os.path.join(HERE, 'pangram'), exist_ok=True)
-    for name, t in [('WHOLE-AFTER.txt', whole), ('S015-AFTER.txt', s015), ('WHOLE-BEFORE.txt', before)]:
-        open(os.path.join(HERE, 'pangram', name), 'w', encoding='utf-8').write(t)
+    live = text(plan, fix=True)                       # the post as published at 18:01:47 UTC (the two held headings as they were)
+    for name, t in [('WHOLE-AFTER.txt', whole), ('S015-AFTER.txt', s015), ('WHOLE-BEFORE.txt', before), ('WHOLE-LIVE-1801.txt', live)]:
+        path = os.path.join(HERE, 'pangram', name)
+        if os.path.exists(path) and open(path, encoding='utf-8').read() != t:
+            print(name, 'kept as checked (a Pangram check was run on it; PLAN.json has changed since)')
+            continue
+        open(path, 'w', encoding='utf-8').write(t)
         print(name, len(t.split()), 'words', hashlib.sha256(t.encode()).hexdigest(),
               'spaces before punctuation:', len(re.findall(r' [.,;:!?](?=\s|$)', t)))
 

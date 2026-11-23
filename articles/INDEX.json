@@ -70145,7 +70145,7 @@
         },
         {
           "path": "articles/nibbana/humanize/pangram-ledger.jsonl",
-          "sha256": "7c09fa40d09ed399a18f9ffb8c04b1a7cd1fc2959d3f8fbf09ba18bebd24f5cf",
+          "sha256": "320b962d69870d9d49710ae7e4c33d4d1cb36d6987186752fa2c972efdd67677",
           "role": "humanization_working_record"
         },
         {
@@ -72240,7 +72240,7 @@
         },
         {
           "path": "articles/nibbana/experiments/toc-20261123/check_texts.py",
-          "sha256": "4b544b4e8f105a0bfb1089bfd26d25563deacc27d311c59bea6deeb15543746c",
+          "sha256": "b901fb772bbecd89424f3fec5e05e3cbcd85cb6853b336448614add1aab500e2",
           "role": "humanization_working_record"
         },
         {
@@ -72326,6 +72326,11 @@
         {
           "path": "articles/nibbana/experiments/toc-20261123/make_applied.py",
           "sha256": "0f4a8a9b439ed2986fa6995b99a5edf3dcdcb58f933727e2aef9d7421e96af05",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/nibbana/experiments/toc-20261123/pangram/WHOLE-LIVE-1801.txt",
+          "sha256": "57015b7173d8f8acd8427a9455bf59c31759996f0d197c2c5e39b0cd8614cffa",
           "role": "humanization_working_record"
         }
       ]
