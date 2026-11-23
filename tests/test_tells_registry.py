@@ -100,10 +100,11 @@ class RegistryShape(unittest.TestCase):
         # J78 to J81 (a short line standing alone, three of a kind or a question inside another, a sentence about the text
         # that isn't true where it stands, a label for the thing) from his romance Medium-page answers of 2026-11-22 22:24
         # UTC (romance-2026-11-22d); J82 and J83 (a pivot that points back without naming what, a run of questions) from the
-        # blind test's rounds 2 and 3 and his fix of the romance flaws section, 2026-11-23 (romance-2026-11-23a to d)
-        self.assertEqual(len(ids), 214)
+        # blind test's rounds 2 and 3 and his fix of the romance flaws section, 2026-11-23 (romance-2026-11-23a to d); W132
+        # (O77, "honestly") from his message of 2026-11-23 17:27 UTC (romance-2026-11-23f)
+        self.assertEqual(len(ids), 215)
         self.assertEqual(len(set(ids)), len(ids))
-        self.assertEqual(sum(t['kind'] == 'mechanical' for t in TELLS), 131)
+        self.assertEqual(sum(t['kind'] == 'mechanical' for t in TELLS), 132)
         for t in TELLS:
             with self.subTest(id=t['id']):
                 self.assertIn(t['kind'], ('mechanical', 'judgment'))

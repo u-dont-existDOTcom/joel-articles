@@ -1,0 +1,107 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-23",
+ "text_sha256": "b394dc4657082b8a3b29ab794d1aba51751aa747205dd20fa7c8b79a8755b2dd",
+ "text": "Many say it’s best to save face and work things out privately, but I’d disagree. If you don’t have friends who can help with the conflict, then you’re really stuck (and you might wanna find some new friends). But do it fairly, with the goal of helping the conflict, not just getting approval for your own interpretation. Both people should get a chance to speak, and good friends should hear both sides before validating either.",
+ "section": "Gaslighting in the dark",
+ "reader": "someone reading an essay on romance for advice they can use in their own dating and relationships",
+ "sentences": [
+  {
+   "s": "Many say it’s best to save face and work things out privately, but I’d disagree.",
+   "payoff": "they learn the author advises against handling conflict privately to save face, so they consider telling someone.",
+   "follows": "the heading is about conflict that stays hidden, and this takes the position against keeping it private.",
+   "link": "none: opens the section on the author's position"
+  },
+  {
+   "s": "If you don’t have friends who can help with the conflict, then you’re really stuck (and you might wanna find some new friends).",
+   "payoff": "they learn that having no friend to turn to is the real problem and worth fixing.",
+   "follows": "it states the condition under which the advice of S1 can't be followed.",
+   "link": "If you don’t have friends"
+  },
+  {
+   "s": "But do it fairly, with the goal of helping the conflict, not just getting approval for your own interpretation.",
+   "payoff": "they learn the condition for bringing a friend in: aim at helping the conflict, not at winning approval.",
+   "follows": "it turns from having friends (S2) to how to use them.",
+   "link": "But do it fairly"
+  },
+  {
+   "s": "Both people should get a chance to speak, and good friends should hear both sides before validating either.",
+   "payoff": "they know to tell the friend the other side and expect a friend who hears both before judging.",
+   "follows": "it says what 'fairly' means in S3.",
+   "link": "Both people should get a chance"
+  }
+ ],
+ "checked": [],
+ "placement": "It follows the heading about gaslighting in the dark as the remedy, taking conflicts out of privacy, so the reader has something to do about their own interpretation being the only one.",
+ "opens": {
+  "first_sentence": "Many say it’s best to save face and work things out privately, but I’d disagree.",
+  "why_reading": "It tells the reader the author disagrees with working things out privately, so they read on for what to do instead."
+ },
+ "same_point": "none: read the section from its heading to the next for getting friends' help with a conflict and hearing both sides; no other paragraph of it makes that point",
+ "needed": {
+  "reader": "a fresh Sonnet reader given tools/humanization/needed_read_brief.md and the text with its heading",
+  "unneeded": [],
+  "kept": {}
+ },
+ "his_fixes": {
+  "reader": "the same fresh reader given tools/humanization/his_fixes_brief.md and the text one sentence a line",
+  "marked": [
+   {
+    "s": "Many say it’s best to save face and work things out privately, but I’d disagree.",
+    "difference": "way 3: it contrasts with what many say before the author's own advice; his way would say what to do (bring in friends) first. Also way 5: it opens on a rule the reader is outside of."
+   },
+   {
+    "s": "But do it fairly, with the goal of helping the conflict, not just getting approval for your own interpretation.",
+    "difference": "way 10: 'do it' could mean working it out privately or involving friends because the paragraph never says to involve friends, way 22: the pivot doesn't name what it points back at, and way 3: 'not just getting approval' is a contrast where the sentence could say the goal."
+   },
+   {
+    "s": "If you don’t have friends who can help with the conflict, then you’re really stuck (and you might wanna find some new friends).",
+    "difference": "way 15: 'you're really stuck' leaves the reader with nothing to do except in a parenthesis, and way 2: this and S1 both open with a framing sentence."
+   },
+   {
+    "s": "Both people should get a chance to speak, and good friends should hear both sides before validating either.",
+    "difference": "way 21: 'validating' names a concept where it could say what the friend does, and way 16: it says again 'fairly' as a rule turned around."
+   }
+  ],
+  "kept": {
+   "Many say it’s best to save face and work things out privately, but I’d disagree.": "the article's text as it stands: only the word \"honestly\" changed in this paragraph, and the section it sits in read Human with 0% AI in the section pass; this sentence is for the vetted-junk pass, not this one-word change",
+   "But do it fairly, with the goal of helping the conflict, not just getting approval for your own interpretation.": "the article's text as it stands: only the word \"honestly\" changed in this paragraph, and the section it sits in read Human with 0% AI in the section pass; this sentence is for the vetted-junk pass, not this one-word change",
+   "If you don’t have friends who can help with the conflict, then you’re really stuck (and you might wanna find some new friends).": "the article's text as it stands: only the word \"honestly\" changed in this paragraph, and the section it sits in read Human with 0% AI in the section pass; this sentence is for the vetted-junk pass, not this one-word change",
+   "Both people should get a chance to speak, and good friends should hear both sides before validating either.": "the article's text as it stands: only the word \"honestly\" changed in this paragraph, and the section it sits in read Human with 0% AI in the section pass; this sentence is for the vetted-junk pass, not this one-word change"
+  }
+ },
+ "fit": {
+  "reader": "the same fresh reader given tools/humanization/fit_read_brief.md and the text one line a line",
+  "marked": [
+   {
+    "s": "But do it fairly, with the goal of helping the conflict, not just getting approval for your own interpretation.",
+    "found": "MISREAD / CAN'T TELL: 'do it' has no stated object, since the text never says to tell friends, so a quick reader doesn't know what to do fairly."
+   }
+  ],
+  "kept": {
+   "But do it fairly, with the goal of helping the conflict, not just getting approval for your own interpretation.": "the article's text as it stands: only the word \"honestly\" changed in this paragraph, and the section it sits in read Human with 0% AI in the section pass; this sentence is for the vetted-junk pass, not this one-word change"
+  }
+ },
+ "questions": {
+  "Q1": "PASS: S1 states the point, and S2 to S4 follow on it.",
+  "Q2": "PASS: S2 says to bring in friends who can help with the conflict, so S3's \"do it fairly\" is that: telling them in a way that helps the conflict, not to win approval",
+  "Q3": "PASS: 'friends who can help with the conflict' names the case.",
+  "Q4": "PASS: \"do it\" is getting friends' help with the conflict (S2); \"validating\" is a common word here for taking one person's side, which S4's \"hear both sides\" makes plain",
+  "Q5": "PASS: S2 follows from the position of S1 (but see Q4 on S3), and S4 spells out S3.",
+  "Q6": "PASS: position, the case with no friends, how to do it, then the rule.",
+  "Q7": "PASS: each sentence helps someone deciding whether and how to talk to friends about a conflict.",
+  "Q8": "N/A: nothing is sorted into groups.",
+  "Q9": "PASS: one step a sentence."
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

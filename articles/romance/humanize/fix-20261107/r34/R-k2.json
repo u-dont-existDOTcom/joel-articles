@@ -1,0 +1,107 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-23",
+ "text_sha256": "8937ed4b5b174a5e7f2131cdc10dd89dec795050586e2000f7b72d40b4acc51a",
+ "text": "I do believe two people can choose sexual exclusivity without pretending. They can admit that attraction to other people exists and decide not to act on it each day. And even better than simply suppressing it, they can put it to work. I agree with Esther Perel, who writes that this sexual energy felt outside the relationship can be used and redirected into the relationship to make it more alive.",
+ "section": "Jealousy on trial",
+ "reader": "someone reading an essay on romance for advice they can use in their own dating and relationships",
+ "sentences": [
+  {
+   "s": "I do believe two people can choose sexual exclusivity without pretending.",
+   "payoff": "they learn that choosing exclusivity is a position they can hold honestly, which frames what follows.",
+   "follows": "the heading puts jealousy on trial, and this gives the author's verdict on whether exclusivity can work.",
+   "link": "none: opens the section on the author's position"
+  },
+  {
+   "s": "They can admit that attraction to other people exists and decide not to act on it each day.",
+   "payoff": "they learn what exclusivity without pretending looks like: admit the attraction and decide each day not to act.",
+   "follows": "it explains what 'without pretending' means in the sentence before.",
+   "link": "none: explains the previous sentence"
+  },
+  {
+   "s": "And even better than simply suppressing it, they can put it to work.",
+   "payoff": "they learn that the attraction can be put to use, which gives them something to do with it besides fighting it.",
+   "follows": "it goes past the decision not to act (S2) to what else they can do with the attraction.",
+   "link": "And even better than simply"
+  },
+  {
+   "s": "I agree with Esther Perel, who writes that this sexual energy felt outside the relationship can be used and redirected into the relationship to make it more alive.",
+   "payoff": "they get a named authority who backs the idea and a direction, to turn that energy toward their partner.",
+   "follows": "it supports the claim of S3 and says where the energy goes.",
+   "link": "none: backs up the previous claim"
+  }
+ ],
+ "checked": [],
+ "placement": "It sits in the jealousy section as the author's answer to whether exclusivity can work, so the reader gets the position before the technique.",
+ "opens": {
+  "first_sentence": "I do believe two people can choose sexual exclusivity without pretending.",
+  "why_reading": "It states Joel's position that exclusivity can be real, so the reader reads on for how."
+ },
+ "same_point": "S4 says again S3's point that the attraction can be put to use, adding the source and the direction (into the relationship).",
+ "needed": {
+  "reader": "a fresh Sonnet reader given tools/humanization/needed_read_brief.md and the text with its heading",
+  "unneeded": [],
+  "kept": {}
+ },
+ "his_fixes": {
+  "reader": "the same fresh reader given tools/humanization/his_fixes_brief.md and the text one sentence a line",
+  "marked": [
+   {
+    "s": "And even better than simply suppressing it, they can put it to work.",
+    "difference": "way 3: it contrasts with 'simply suppressing' where it could just say what to do, and way 10: 'it' could be the attraction or the suppressing, and 'put it to work' doesn't say how."
+   },
+   {
+    "s": "I agree with Esther Perel, who writes that this sexual energy felt outside the relationship can be used and redirected into the relationship to make it more alive.",
+    "difference": "way 11: it opens on the authority before the payoff, and way 5: it opens on an authority with the reader outside it; his way would say first that the energy can be redirected into the relationship to make it more alive, then name Perel. Also way 21: 'used and redirected' doesn't say what the reader does."
+   },
+   {
+    "s": "They can admit that attraction to other people exists and decide not to act on it each day.",
+    "difference": "way 8: it joins two steps with 'and' where he would split admit from decide, and way 10: 'it' could point at attraction or exists."
+   }
+  ],
+  "kept": {
+   "And even better than simply suppressing it, they can put it to work.": "the article's text as it stands: only the word \"honestly\" changed in this paragraph, and the section it sits in read Human with 0% AI in the section pass; this sentence is for the vetted-junk pass, not this one-word change",
+   "I agree with Esther Perel, who writes that this sexual energy felt outside the relationship can be used and redirected into the relationship to make it more alive.": "the article's text as it stands: only the word \"honestly\" changed in this paragraph, and the section it sits in read Human with 0% AI in the section pass; this sentence is for the vetted-junk pass, not this one-word change",
+   "They can admit that attraction to other people exists and decide not to act on it each day.": "the article's text as it stands: only the word \"honestly\" changed in this paragraph, and the section it sits in read Human with 0% AI in the section pass; this sentence is for the vetted-junk pass, not this one-word change"
+  }
+ },
+ "fit": {
+  "reader": "the same fresh reader given tools/humanization/fit_read_brief.md and the text one line a line",
+  "marked": [
+   {
+    "s": "And even better than simply suppressing it, they can put it to work.",
+    "found": "CAN'T TELL: it doesn't say how to put attraction to work, so the reader can't act on it right then."
+   },
+   {
+    "s": "I agree with Esther Perel, who writes that this sexual energy felt outside the relationship can be used and redirected into the relationship to make it more alive.",
+    "found": "CAN'T TELL: 'redirected into the relationship' gives no way to do it; MISREAD: 'this sexual energy' points back at attraction without naming it."
+   }
+  ],
+  "kept": {
+   "And even better than simply suppressing it, they can put it to work.": "the article's text as it stands: only the word \"honestly\" changed in this paragraph, and the section it sits in read Human with 0% AI in the section pass; this sentence is for the vetted-junk pass, not this one-word change",
+   "I agree with Esther Perel, who writes that this sexual energy felt outside the relationship can be used and redirected into the relationship to make it more alive.": "the article's text as it stands: only the word \"honestly\" changed in this paragraph, and the section it sits in read Human with 0% AI in the section pass; this sentence is for the vetted-junk pass, not this one-word change"
+  }
+ },
+ "questions": {
+  "Q1": "PASS: S1 states the point first; S4 names the source after the claim it supports.",
+  "Q2": "N/A: nothing is an instruction beyond what the sentences say can be done.",
+  "Q3": "PASS: 'sexual exclusivity' and 'attraction to other people' name the case.",
+  "Q4": "PASS: \"it\" in S3 is the attraction to other people from S2, and S4 says what putting it to work is: redirecting that energy into the relationship to make it more alive (the reader's own reading missed that S4 answers S3)",
+  "Q5": "PASS: S2 explains S1, S3 extends S2 with 'even better', S4 supports S3, and 'it' mostly points at attraction.",
+  "Q6": "PASS: position, what it means, a better use, then the source.",
+  "Q7": "PASS: each sentence helps a reader deciding whether to stay exclusive.",
+  "Q8": "N/A: nothing is sorted into groups.",
+  "Q9": "PASS: one step a sentence."
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}
