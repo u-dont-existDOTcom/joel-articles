@@ -95,9 +95,10 @@ def main():
             out += b[:first_lines] if first_lines else b
         return '\n\n'.join(out)
     whole = text(plan, fix=False)                     # S015's first line as he has it: its fix is checked by itself
+    before = '\n\n'.join(sum(([R[i]['heading']] + R[i]['lines'] for i in sorted(R) if i != 'S000'), []))  # the live text
     s015 = text([e for e in plan if e['id'] == 'S015'], fix=True, first_lines=2)
     os.makedirs(os.path.join(HERE, 'pangram'), exist_ok=True)
-    for name, t in [('WHOLE-AFTER.txt', whole), ('S015-AFTER.txt', s015)]:
+    for name, t in [('WHOLE-AFTER.txt', whole), ('S015-AFTER.txt', s015), ('WHOLE-BEFORE.txt', before)]:
         open(os.path.join(HERE, 'pangram', name), 'w', encoding='utf-8').write(t)
         print(name, len(t.split()), 'words', hashlib.sha256(t.encode()).hexdigest(),
               'spaces before punctuation:', len(re.findall(r' [.,;:!?](?=\s|$)', t)))
