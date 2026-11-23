@@ -70495,6 +70495,46 @@
           "path": "articles/inner-signal/experiments/toc-20261123/score_reads.py",
           "sha256": "e363fc77d6a128b3b1626559c5086da5624b9ebcc0c4c24df884050838e1d136",
           "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/experiments/toc-20261123/FABLE-TASK.md",
+          "sha256": "6091b22560b0eb7c36da70104f9ad021eb477d0549912deec79c9f4aeb20a298",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/experiments/toc-20261123/LINES-NOW-FULL.json",
+          "sha256": "1eaeba3f5aec33a6fe9302cdf363205a17d0d5794eea0c86e8c0149081093653",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/experiments/toc-20261123/LINES-NOW-SIDEBAR.json",
+          "sha256": "1eaeba3f5aec33a6fe9302cdf363205a17d0d5794eea0c86e8c0149081093653",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/experiments/toc-20261123/PROPOSAL-FABLE-NOTES.md",
+          "sha256": "432eca7c9b97e6da71c31f2ebf292958129496f174ed7bf176c035fb16f7e38e",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/experiments/toc-20261123/PROPOSAL-FABLE.json",
+          "sha256": "52dd586c4f6e114aea9a5fc5ae4ae624be0bdd9af3e1dbe3f0a9fd1b6495ce6c",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/experiments/toc-20261123/reads/HARD-NOW-FULL-1.txt",
+          "sha256": "45cdbadf87d3ba41e752755dbff49ec994b3d5b00e12c8ff3807d9898158f64e",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/experiments/toc-20261123/reads/HARD-NOW-SIDEBAR-1.txt",
+          "sha256": "ee7571c32c14267e620a72249c0828c3de549e40a1da719a58e38c344fd2d91c",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/experiments/toc-20261123/reads/HARD-NOW-SIDEBAR-2.txt",
+          "sha256": "5c155bf30d1bafdddaac781a3145f3ef3a46b6f026a984857828b20287cf981c",
+          "role": "humanization_working_record"
         }
       ]
     },
