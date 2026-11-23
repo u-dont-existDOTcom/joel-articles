@@ -4092,6 +4092,16 @@
           "path": "articles/romance/humanize/fix-20261107/r30/typo3/PREDICTIONS.json",
           "sha256": "df2d9763c218042a8e4f76c9593f03febf06307586367cd2b5cbe3d7880f47b6",
           "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r30/replay3/OUT-FABLE.md",
+          "sha256": "2ba7a7ca5a17be6e56154868348898cf546d12e953c972fd3551ef0218bcc566",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r30/replay3/PREDICTIONS-FABLE.json",
+          "sha256": "17293ac898f946a18a47cf8a6b47f29beb7e3433b9d9f7a8573cfd302f1a7549",
+          "role": "humanization_working_record"
         }
       ]
     },
