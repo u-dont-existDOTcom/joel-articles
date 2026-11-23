@@ -101,8 +101,9 @@ class RegistryShape(unittest.TestCase):
         # that isn't true where it stands, a label for the thing) from his romance Medium-page answers of 2026-11-22 22:24
         # UTC (romance-2026-11-22d); J82 and J83 (a pivot that points back without naming what, a run of questions) from the
         # blind test's rounds 2 and 3 and his fix of the romance flaws section, 2026-11-23 (romance-2026-11-23a to d); W132
-        # (O77, "honestly") from his message of 2026-11-23 17:27 UTC (romance-2026-11-23f)
-        self.assertEqual(len(ids), 215)
+        # (O77, "honestly") from his message of 2026-11-23 17:27 UTC (romance-2026-11-23f); J84 (a point after the story
+        # that interrupts it) from his sixth-page versions of 2026-11-23 19:36 UTC (romance-2026-11-23h)
+        self.assertEqual(len(ids), 216)
         self.assertEqual(len(set(ids)), len(ids))
         self.assertEqual(sum(t['kind'] == 'mechanical' for t in TELLS), 132)
         for t in TELLS:

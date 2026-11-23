@@ -1,0 +1,176 @@
+{
+ "about": "His answers on the sixth page (2026-11-23 19:36 UTC, review/teach-20261123/ANSWERS-T6.json) as a layer over the\nfixed version, after r35's: HIS-T6.json, which whole/build.py applies.",
+ "answers": "review/teach-20261123/ANSWERS-T6.json",
+ "links": [],
+ "embeds": [],
+ "changes": [
+  {
+   "card": "J-B10",
+   "kind": "para",
+   "live": 6,
+   "before": "Most people fail this test: what would I want if she herself thought she’d be happier with somebody else? But if they can get past the initial horror, the conflict starts to fall apart. Being wanted is part of what makes me want someone.",
+   "after": [
+    "Most people fail this test: what would I want if she herself thought she’d be happier with somebody else? The first reaction is horror, but if they can get past it, wanting her and wanting her to be happy stop fighting each other. Being wanted is part of what makes me want someone, so if she’d be happier with somebody else, I’d want her less anyway."
+   ],
+   "comment": "approved",
+   "his_checks": [
+    "https://www.pangram.com/history/46351c02-95e5-41d5-8044-3413fb07cc47"
+   ],
+   "title": "Which conflict falls apart, and why the horror stays"
+  },
+  {
+   "card": "J-B10",
+   "kind": "para",
+   "live": 7,
+   "before": "But the horror is unavoidable, because I can’t wait until I know I’m wanted before I let her know I want her. If we both do that, nothing gets started. And it doesn’t stop being true once we’re together. If I start feeling less wanted, I may pull back. She feels me pulling back and starts feeling less wanted herself, then she pulls back too.",
+   "after": [
+    "I still have to go through that horror, because I can’t wait until I know I’m wanted before I let her know I want her, and if we both do that, nothing gets started. Once we’re together I still can’t wait to be sure I’m wanted. If I start feeling less wanted, I may pull back, and she feels me pulling back and starts feeling less wanted herself, so she pulls back too."
+   ],
+   "comment": "approved",
+   "his_checks": [
+    "https://www.pangram.com/history/46351c02-95e5-41d5-8044-3413fb07cc47"
+   ],
+   "title": "Which conflict falls apart, and why the horror stays"
+  },
+  {
+   "card": "J-B84",
+   "kind": "para",
+   "live": 74,
+   "before": "What makes me desirable is not the same question as what makes me loved when I temporarily stop being desirable in that particular way.",
+   "after": [],
+   "comment": "approved",
+   "his_checks": [
+    "https://www.pangram.com/history/c12ff059-dc9e-432d-bc7f-bddb2219ebaf"
+   ],
+   "title": "Cut the one-line summary after the knee story"
+  },
+  {
+   "card": "J-B201",
+   "kind": "para",
+   "live": 192,
+   "before": "So go slowly if you can. Just don’t imagine that means you know everything. You learn what you can before sex. Sex itself tells you other things.",
+   "after": [
+    "Go slowly if you can, then, and learn what you can about each other before sex, but there are things you’ll only find out once you’re having it, like how your bodies respond to each other."
+   ],
+   "comment": "approved",
+   "his_checks": [
+    "https://www.pangram.com/history/ef1f216b-1b56-4d93-8744-c471e85a5933"
+   ],
+   "title": "One sentence instead of four short lines"
+  },
+  {
+   "card": "J-B220",
+   "kind": "para",
+   "live": 213,
+   "before": "For me, that also means keeping close friends, outside therapy when I need it, a mission of my own, separate interests, some connection to community, and the ability to be alone.",
+   "after": [
+    "For me, that room is where I keep a mission of my own, separate interests and some connection to community. I also get outside therapy when I need it, and I make sure I can still be alone."
+   ],
+   "comment": "approved",
+   "his_checks": [
+    "https://www.pangram.com/history/b7aa8694-67eb-4170-9bb3-3ef562c34919"
+   ],
+   "title": "The list without the friends the paragraphs before already cover"
+  },
+  {
+   "card": "J-B379",
+   "kind": "para",
+   "live": 355,
+   "before": "By the 17th century, when England began mass urbanization by forcing peasants off their land, this ironically bureaucratic basis of romance became the legal definition of marriage. I’m not trying to say we’re just like bonobos, but the academic consensus is that humans tend toward flexible pair-bonding, with a propensity for occasional infidelity.",
+   "after": [
+    "Ironically, sexclusivity, which we treat as the basis of romance, started out as that kind of bureaucratic record-keeping. By the 17th century, when England began mass urbanization by forcing peasants off their land, it became the legal definition of marriage. As for what comes naturally to us underneath that law, I’m not trying to say we’re just like bonobos, but the academic consensus is that humans tend toward flexible pair-bonding, with a propensity for occasional infidelity."
+   ],
+   "comment": "approved",
+   "his_checks": [
+    "https://www.pangram.com/history/2b637949-e160-4da0-a203-c7a0332a367d"
+   ],
+   "title": "\"This ironically bureaucratic basis of romance\" named"
+  },
+  {
+   "card": "J-B412",
+   "kind": "para",
+   "live": 390,
+   "before": "Before I say anything good about psychedelics for relationships, the warning has to come first. I don’t think sexual consent should be negotiated for the first time while high. The drug is changing how safe, loving, open, and connected everything feels. Advance planning doesn’t turn getting high and starting a relationship into a safe procedure. People need that warning before they take it, because once you’re inside that feeling, sober caveats may sound ridiculous.",
+   "after": [
+    "I’m putting the warning before anything good I say about psychedelics for relationships, because people need to hear it before they take anything. I don’t think sexual consent should be negotiated for the first time while high, when the drug is changing how safe, loving, open, and connected everything feels. And even if the two of you plan it all in advance, getting high and starting a relationship is still a risk."
+   ],
+   "comment": "approved",
+   "his_checks": [
+    "https://www.pangram.com/history/74a3b94f-ed02-4fc4-9fd8-44aeb688bb8c"
+   ],
+   "title": "The warning, without the line it repeats later"
+  },
+  {
+   "card": "J-B453",
+   "kind": "para",
+   "live": 427,
+   "before": "Whether to leave and how to leave are separate questions.",
+   "after": [
+    "Before you think about how to leave, settle whether you’re leaving, and whether counseling is worth trying first."
+   ],
+   "comment": "approved",
+   "his_checks": [
+    "https://www.pangram.com/history/ab01adee-1d7d-4259-a060-215bce4186e2"
+   ],
+   "title": "The opening line of \"Ending consciously\" leads somewhere"
+  },
+  {
+   "card": "Q-B442",
+   "kind": "para",
+   "live": 419,
+   "before": "Many people ask this question of honesty, but it’s unfair. Honesty doesn’t produce a certain outcome. It is its own reward. It might repair the relationship, open it, turn the romance into friendship, preserve the family through separation, or show you that ending it is better. Temporary separation helped Bee and I. It also became more permanent, although I’ve always thought maybe we would get back together in a few decades. If the other person won’t look, you can’t make it mutual. Then you have to decide what you can live with.",
+   "after": [
+    "Many people ask this question of honesty, but it’s unfair. Honesty doesn’t produce a certain outcome. It is its own reward. It might repair the relationship, open it, turn the romance into friendship, preserve the family through separation, or show you that ending it is better. Of course, if the other person won’t look at the truth, you can’t make honesty a mutual value. Then you have to decide what you can live with. Temporary separation helped Bee and I, although it became less temporary as time went on, but I’ve always thought maybe we would get back together in a few decades."
+   ],
+   "comment": "high conf hum: https://www.pangram.com/history/48952c2b-ff84-4e2c-97f8-c6bff836ceac?ucc=4rq5Ko7gBiW&utm_source=pangram_share&utm_medium=copy_link",
+   "his_checks": [
+    "https://www.pangram.com/history/48952c2b-ff84-4e2c-97f8-c6bff836ceac"
+   ],
+   "title": "\"If the other person won’t look\": look at what?"
+  },
+  {
+   "card": "Q-B257",
+   "kind": "para",
+   "live": 250,
+   "before": "It’s time to bring in other support once a partner has become the default caregiver and that’s taken for granted, or the romance could collapse under the burden. Maybe the romance actually does need less intensity, maybe it becomes friendship, or maybe it ends. Asking the question out loud is usually where it starts, though I can’t answer it for others (and couldn’t always answer it for myself).",
+   "after": [
+    "It’s time to bring in other support once a partner has become the default caregiver and that’s taken for granted, or the romance could collapse under the burden. Maybe the romance actually does need less intensity, maybe it becomes friendship, or maybe it ends. Asking that question out loud is the first step in figuring it out, but I can’t answer it for others, and couldn’t always answer it for myself."
+   ],
+   "comment": "i don't think the question is so hard to understand after maybe this or maybe that. but what i found vague was \"where it starts\". i fixed it, now human high conf all: https://www.pangram.com/history/126e846d-7968-4de2-a5ba-4124a5685dae?ucc=4rq5Ko7gBiW&utm_source=pangram_share&utm_medium=copy_link",
+   "his_checks": [
+    "https://www.pangram.com/history/126e846d-7968-4de2-a5ba-4124a5685dae"
+   ],
+   "title": "\"Asking the question out loud\": which question?"
+  },
+  {
+   "card": "his word back in 366",
+   "kind": "para",
+   "live": 366,
+   "before": "I do believe two people can choose sexual exclusivity without pretending. They can admit that attraction to other people exists and decide not to act on it each day. And even better than simply suppressing it, they can put it to work. I agree with Esther Perel, who writes that this sexual energy felt outside the relationship can be used and redirected into the relationship to make it more alive.",
+   "after": [
+    "I do believe two people can choose sexual exclusivity honestly. They can admit that attraction to other people exists and decide not to act on it each day. And even better than simply suppressing it, they can put it to work. I agree with Esther Perel, who writes that this sexual energy felt outside the relationship can be used and redirected into the relationship to make it more alive."
+   ],
+   "comment": "honestly is also ok sometimes just it's overused (his message of 2026-11-23 19:36 UTC); his own sentence, as his check read it",
+   "his_checks": [
+    "https://www.pangram.com/history/8f1e5924-1921-4136-8815-d09f45d295e5",
+    "https://www.pangram.com/history/5a4b81cd-deb8-48c9-97c2-8d1e0fa089f3"
+   ],
+   "was": "r34 R34-366"
+  },
+  {
+   "card": "his word back in 440",
+   "kind": "para",
+   "live": 440,
+   "before": "Spiritual practice during an ending is critical, but don’t use it to get around the feelings. Pray for your ex’s wellbeing. Remember what was real and good, and don’t use your pain as permission to hate them. Avoid the New Age belief that everyone is simply a mirror of you. Of course, we do partly mirror one another, but each person was formed by plenty that had nothing to do with you. No matter how enlightened the Buddha was, his cousin Devadatta still kept trying to kill him: admitting your part doesn’t erase theirs. Sometimes it helps to ask, “What would Mr. Rogers do?” (if you’re old enough to remember that show).",
+   "after": [
+    "Spiritual practice during an ending is critical, but don’t use it to get around the feelings. Pray for your ex’s wellbeing. Remember what was real and good, and don’t use your pain as permission to hate them. Avoid the New Age belief that everyone is simply a mirror of you. Of course, we do partly mirror one another, but each person was formed by plenty that had nothing to do with you. No matter how enlightened the Buddha was, his cousin Devadatta still kept trying to kill him: looking honestly at your part doesn’t erase theirs. Sometimes it helps to ask, “What would Mr. Rogers do?” (if you’re old enough to remember that show)."
+   ],
+   "comment": "honestly is also ok sometimes just it's overused (his message of 2026-11-23 19:36 UTC); his own sentence, as his check read it",
+   "his_checks": [
+    "https://www.pangram.com/history/42b7f544-83cb-4879-8bf8-ad977962888d",
+    "https://www.pangram.com/history/f72e86ef-fd45-4fa2-934d-14e776d8021a"
+   ],
+   "was": "r34 R34-440"
+  }
+ ]
+}
