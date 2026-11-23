@@ -73,8 +73,13 @@ Joel picked the Nirvāna guide first (2026-11-23 14:37 UTC: "ok start with the n
    164 in the sidebar, 90 cut off, 29,554 words): [RESULTS.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/inner-signal/experiments/toc-20261123/RESULTS.md).
 
 Next step: his extension's result page for the live Nirvāna post, when he sends it (record it with
-`tools/humanization/pangram_feed_read.js` against NB-toc-ext-live#48). For the Self-Hypnosis guide, step 3: new names
-with `tools/humanization/headings_brief.md` (Fable), from its contents test of 2026-11-23
+`tools/humanization/pangram_feed_read.js` against NB-toc-ext-live#48). For the Self-Hypnosis guide, step 3 is done
+(Fable's names, `articles/inner-signal/experiments/toc-20261123/PROPOSAL-FABLE.json`: 152 of 164 renamed, many only to
+title case, none cut off where 90 are now, levels and order kept; its notes on what renaming can't fix are
+`PROPOSAL-FABLE-NOTES.md`, for him). Step 4 next: `toc_check.py PROPOSAL-FABLE.json --reads reads --name NOW-SIDEBAR`
+lists the repeats and hard headings that each need a fate (the readers' hard lines are in `reads/HARD-*.txt`), read
+against the brief's list of misses; then the pick read by fresh readers (step 5) and his picks page (step 6). Its
+contents test of 2026-11-23
 ([RESULTS.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/inner-signal/experiments/toc-20261123/RESULTS.md):
 54 and 56 of 64 situations right on the first try with the sidebar, 56 with whole headings, 58 found in two tries
 each, and 29 headings called hard, among them the two notes at the top and the empty parents), then steps 4 to 6.
