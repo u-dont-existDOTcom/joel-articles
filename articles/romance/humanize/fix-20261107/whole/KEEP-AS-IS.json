@@ -1,0 +1,67 @@
+{
+ "format": "joel-keep-as-is-v1",
+ "article": "articles/romance/humanize/fix-20261107/whole/FIXED.md",
+ "keep": [
+  {
+   "id": "K-B480",
+   "kind": "choice",
+   "quote": "The myths around romantic love become real because we co-create them.",
+   "what": "Two readers of the vetted junk read found it opaque, and my clearer version read AI; he finds it clear as it is.",
+   "joel": "makes sense to me as is",
+   "when": "2026-11-23 19:36 UTC",
+   "where": "sixth marking page, Q-B480 (review/teach-20261123/ANSWERS-T6.json)",
+   "basis": "his answer"
+  },
+  {
+   "id": "K-B442-reward",
+   "kind": "choice",
+   "quote": "It is its own reward.",
+   "what": "Two readers called it a cliché; his own version of the paragraph, written after the question named that, keeps it.",
+   "joel": "",
+   "when": "2026-11-23 19:36 UTC",
+   "where": "sixth marking page, Q-B442: his version",
+   "basis": "his answer"
+  },
+  {
+   "id": "K-B257-question",
+   "kind": "choice",
+   "quote": "Asking that question out loud",
+   "what": "Readers asked which question; the three maybes just before it are the question (he fixed \"where it starts\" instead).",
+   "joel": "i don't think the question is so hard to understand after maybe this or maybe that. but what i found vague was \"where it starts\"",
+   "when": "2026-11-23 19:36 UTC",
+   "where": "sixth marking page, Q-B257",
+   "basis": "his answer"
+  },
+  {
+   "id": "K-366-honestly",
+   "kind": "choice",
+   "quote": "choose sexual exclusivity honestly",
+   "what": "\"honestly\" is overused (linter O77), but this is his own sentence (his version of TEACH-JEALOUSY-POLY), and the article has only his two uses of it.",
+   "joel": "honestly is also ok sometimes just it's overused",
+   "when": "2026-11-23 19:36 UTC",
+   "where": "his message of 19:36 UTC; r36/HIS-T6.json",
+   "basis": "my reading, not asked"
+  },
+  {
+   "id": "K-440-honestly",
+   "kind": "choice",
+   "quote": "looking honestly at your part",
+   "what": "\"honestly\" is overused (linter O77), but it is the exact word here and in his own version (M-440, his check Human High), and the article has only his two uses of it.",
+   "joel": "honestly is also ok sometimes just it's overused",
+   "when": "2026-11-23 19:36 UTC",
+   "where": "his message of 19:36 UTC; r36/HIS-T6.json",
+   "basis": "my reading, not asked"
+  }
+ ],
+ "cuts": [
+  {
+   "id": "C-B84",
+   "quote": "What makes me desirable is not the same question as what makes me loved",
+   "what": "The one-line summary after the knee story; his paragraph before it ends the section.",
+   "joel": "",
+   "when": "2026-11-23 19:36 UTC",
+   "where": "sixth marking page, J-B84",
+   "basis": "his approval of a card that cut it"
+  }
+ ]
+}

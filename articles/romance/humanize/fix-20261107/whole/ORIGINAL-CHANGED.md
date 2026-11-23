@@ -585,3 +585,55 @@ Bear, sex can be what you do when you’re older and find a friend you love in a
 ## 116. What I gained from loss (live 447)
 
 Too many people judge a relationship only by the result, so start measuring what you actually learned from it instead. Relationships are a process of growth in many dimensions. The result is not only whether you stayed together.
+
+## 117. What we mean by “love” ❤️ (live 6)
+
+Most people fail this test: what would I want if she herself thought she’d be happier with somebody else? But if they can get past the initial horror, the conflict starts to fall apart. Being wanted is part of what makes me want someone.
+
+## 118. What we mean by “love” ❤️ (live 7)
+
+But the horror is unavoidable, because I can’t wait until I know I’m wanted before I let her know I want her. If we both do that, nothing gets started. And it doesn’t stop being true once we’re together. If I start feeling less wanted, I may pull back. She feels me pulling back and starts feeling less wanted herself, then she pulls back too.
+
+## 119. It always goes deeper (live 74)
+
+What makes me desirable is not the same question as what makes me loved when I temporarily stop being desirable in that particular way.
+
+## 120. Slow & steady isn’t KO’d yet (live 192)
+
+So go slowly if you can. Just don’t imagine that means you know everything. You learn what you can before sex. Sex itself tells you other things.
+
+## 121. Don’t make your partner your whole world (live 213)
+
+For me, that also means keeping close friends, outside therapy when I need it, a mission of my own, separate interests, some connection to community, and the ability to be alone.
+
+## 122. Attraction and exclusivity (live 355)
+
+By the the 17th century, when England began mass urbanization by forcing peasants off their land, this ironically bureaucratic basis of romance became the legal definition of marriage. I’m not trying to say we’re just like bonobos, but the academic consensus is that humans tend toward flexible pair-bonding, with a propensity for occasional infidelity.
+
+## 123. Psychedelic Timing (live 390)
+
+Before I say anything good about psychedelics for relationships, the warning has to come first. I don’t think sexual consent should be negotiated for the first time while high. The drug is changing how safe, loving, open, and connected everything feels. Advance planning doesn’t turn getting high and starting a relationship into a safe procedure. People need that warning before they take it, because once you’re inside that feeling, sober caveats may sound ridiculous.
+
+## 124. Ending consciously (live 427)
+
+Whether to leave and how to leave are separate questions.
+
+## 125. What will honesty produce? (live 419)
+
+Many people ask this question of honesty, but it’s unfair. Honesty doesn’t produce a certain outcome. It is its own reward. It might repair the relationship, open it, turn the romance into friendship, preserve the family through separation, or show you that ending it is better. Temporary separation helped Bee and I. It also became more permanent, although I’ve always thought maybe we would get back together in a few decades. If the other person won’t look, you can’t make it mutual. Then you have to decide what you can live with.
+
+## 126. Different levels in different domains can be complementary (live 250)
+
+Once one person has become the default caregiver and that’s taken for granted, it’s time to bring in other support, lest the romance collapse under the burden. Maybe the romance actually does need less intensity, maybe it becomes friendship, or maybe it ends. I can’t answer that for others, and I couldn’t always answer it for myself, but asking the question out loud is usually where it starts.
+
+## 127. Jealousy on trial (live 366)
+
+I do believe two people can choose sexual exclusivity honestly. They can admit that attraction to other people exists and decide not to act on it each day.
+
+## 128. After leaving (live 440)
+
+Spiritual practice during an ending is critical, but don’t use it to get around the feelings. Pray for your ex’s wellbeing. Remember what was real and good, and don’t use your pain as permission to hate them. Avoid the New Age belief that everyone is simply a mirror of you. No, that isn’t true. We partly mirror one another, but each person was formed by plenty that had nothing to do with you. No matter how enlightened the Buddha was, his cousin Devadatta still kept trying to kill him. Looking honestly at your part doesn’t erase theirs. Sometimes it helps to ask, “What would Mr. Rogers do?” (if you’re old enough to remember that show).
+
+## 129. Tough Love (live 455)
+
+Bear, sex can be what you do when you’re older and find a friend you love in a super special way that makes you want to raise children together. Don’t imagine you love each other just because you want each other. Don’t feel pressure to promise what your heart will feel. Let the love and bond it produces blossom honestly as your hearts sync. Learn about each other before getting too close, and make sure to keep friends and community around who know both of you.

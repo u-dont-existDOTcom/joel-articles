@@ -3249,13 +3249,33 @@
    "reason": "which question an example belongs with, and what frame a paragraph has, is meaning: a fresh reader given tools/humanization/his_fixes_brief.md (its twenty-third way)"
   },
   {
+   "id": "J84",
+   "tell": "a point that answers a list or a question put after a personal story told in between, so it reads as if it followed from the story; and a fix of a flagged passage that explains more than the flagged words needed",
+   "kind": "judgment",
+   "sources": [
+    {
+     "file": "docs/lessons/2026-11-23-1936-romance.md",
+     "quote": "put a point next to what it follows from, and a story that illustrates it after it"
+    }
+   ],
+   "reason": "what a point follows from, and which words of a flagged passage are the problem, is meaning: a fresh reader given tools/humanization/his_fixes_brief.md (its twenty-fourth way)"
+  },
+  {
    "id": "W132",
-   "tell": "\"honestly\" (\"honestly is a high freq ai word\")",
+   "tell": "\"honestly\" (\"honestly is also ok sometimes just it's overused\": a real synonym, \"genuinely\" or \"authentically\", or the word for what is meant, where it is one too many)",
    "kind": "mechanical",
    "sources": [
     {
      "file": "docs/lessons/2026-11-23-0100-romance.md",
      "quote": "honestly is a high freq ai word i think you already should know that"
+    },
+    {
+     "file": "docs/lessons/2026-11-23-1936-romance.md",
+     "quote": "you can't just switch honestly for compassionately always that's working sometimes, but like authentically, genuinely, those are more real synonyms, and honestly is also ok sometimes just it's overused"
+    },
+    {
+     "file": "AGENTS.md",
+     "quote": "`honestly` is one of these too"
     }
    ],
    "rule": "O77",

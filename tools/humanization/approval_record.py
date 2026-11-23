@@ -27,7 +27,10 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
 FORMAT = 'joel-suggestion-review-answers-v1'
-DECIDED = ('approved', 'revise', 'rejected')
+# 'answered': a question (an "ask" card) he answered in its comment box; the marking page exports that status for it
+# (suggestion_review_template.html), so counting it as unanswered misread his record (romance, 2026-11-23: three
+# answered questions of the sixth page showed as "7 unanswered")
+DECIDED = ('approved', 'revise', 'rejected', 'answered')
 ALWAYS_N = 5
 
 
@@ -104,11 +107,12 @@ def record(root=ROOT, article=None):
     for (art, rid, cid), it in sorted(latest(root, article).items()):
         st = it.get('status') if it.get('status') in DECIDED else 'pending'
         e = rec.setdefault(art, {}).setdefault(it.get('type') or '?', {'approved': 0, 'revise': 0, 'rejected': 0,
-                                                                        'pending': 0, 'pushback': [], 'notes': []})
+                                                                        'answered': 0, 'pending': 0, 'pushback': [],
+                                                                        'notes': []})
         e[st] += 1
         if st in ('revise', 'rejected'):
             e['pushback'].append({k: it.get(k) for k in keep})
-        elif st == 'approved' and (it.get('comment') or '').strip():
+        elif st in ('approved', 'answered') and (it.get('comment') or '').strip():
             e['notes'].append({k: it.get(k) for k in keep})
     return rec
 
@@ -121,6 +125,8 @@ def always_approved(entry):
 def type_line(t, e):
     answered = e['approved'] + e['revise'] + e['rejected']
     s = '%s: %d approved, %d revised, %d rejected' % (t, e['approved'], e['revise'], e['rejected'])
+    if e.get('answered'):
+        s += ', %d answered' % e['answered']
     if e['pending']:
         s += ', %d unanswered' % e['pending']
     if always_approved(e):
@@ -153,7 +159,8 @@ def report(rec, detail):
                 if (it.get('your_version') or '').strip():
                     out.append('      his version: "%s"' % clip(it['your_version']))
             for it in e['notes']:
-                out.append('  APPROVED with a comment, %s, %s %s: "%s"' % (t, it['review_id'], it['id'], clip(it['comment'])))
+                out.append('  %s with a comment, %s, %s %s: "%s"' % ('ANSWERED' if it['status'] == 'answered' else 'APPROVED', t,
+                                                                   it['review_id'], it['id'], clip(it['comment'])))
     return out
 
 

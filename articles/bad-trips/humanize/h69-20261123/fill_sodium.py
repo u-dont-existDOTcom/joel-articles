@@ -21,7 +21,7 @@ READER = ('a friend at a festival with someone who took MDMA a few hours ago, wh
           'a lot of water, reading what to do')
 NEED = ('a fresh agent (Sonnet) given tools/humanization/needed_read_brief.md with the whole paragraph, its heading and what '
         'it is for (reads/need-%s.txt), on version one (TEST-a6-sodium-v1.txt)' % READ)
-HISF = ('a fresh agent (Sonnet) given tools/humanization/his_fixes_brief.md, its twenty-three ways, with the paragraph one '
+HISF = ('a fresh agent (Sonnet) given tools/humanization/his_fixes_brief.md, its twenty-three ways (twenty-six from 2026-11-23), with the paragraph one '
         'sentence a line (reads/his-%s.txt), on version one' % READ)
 FIT = ('a fresh agent (Sonnet) given tools/humanization/fit_read_brief.md, the universal version, with the paragraph '
        '(reads/fit-%s.txt), on version one' % READ)
