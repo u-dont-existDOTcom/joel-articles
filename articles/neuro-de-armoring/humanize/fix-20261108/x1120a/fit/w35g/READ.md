@@ -1,0 +1,1 @@
+- S3: ANYWAY - / CAN'T TELL - / FROM - / MISREAD yes, read quickly, "there isn't enough data yet to say whether the warnings ... apply" can sound like the warnings don't apply on microdose days, which would reassure before a later line says which.

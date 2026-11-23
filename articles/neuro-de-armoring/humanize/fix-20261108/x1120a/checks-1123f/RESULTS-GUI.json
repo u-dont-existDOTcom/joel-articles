@@ -1,0 +1,44 @@
+{
+ "detector": "Pangram 4.1 (web app, his account, in the desktop app's browser pane)",
+ "results": {
+  "w35r": {
+   "uuid": "811ba601-3400-4e8e-a9ef-9b677089f177",
+   "at": "2026-11-23T12:56:35.410007-05:00",
+   "headline": "Mostly Human Written",
+   "ai": 0.03430633991956711,
+   "words": 168,
+   "windows": [
+    [
+     "Human",
+     "Medium",
+     30,
+     "So you can tell what each new thing does, add them one at a time, starting with the UMP trial and working down the list below to the keto diet."
+    ],
+    [
+     "Human",
+     "High",
+     28,
+     "5-HTP could help your mood here, though iboga acts on serotonin too, so don't take 5-HTP at all while you're microdosing iboga or elliptica."
+    ],
+    [
+     "Human",
+     "Low",
+     61,
+     "But if you want UMP with any microdose, or 5-HTP with a mushroom microdose, there isn't enough data yet to say whether the warnings against taking these supplements on psychedelic days apply to microdose days. For now, you can try the one you want each way, on a microdose day and a day without, to see how it feels."
+    ],
+    [
+     "Human",
+     "Low",
+     20,
+     "If you're too numb to tell, compare your sleep and dreams on the nights after each kind of day."
+    ],
+    [
+     "Human",
+     "Medium",
+     29,
+     "Mushrooms act on serotonin too, just not the way iboga does, so stop the 5-HTP if you get any of the stop signs the 5-HTP section lists."
+    ]
+   ]
+  }
+ }
+}

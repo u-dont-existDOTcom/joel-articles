@@ -1,7 +1,7 @@
 """Writes the fresh readers' briefs for x1120a's text of mine (texts_x1120a.W35): the needed read, the read against his
 fixes and the fit read, from the briefs in tools/humanization as they are on this branch.
 
-  python3 articles/neuro-de-armoring/humanize/fix-20261108/x1120a/make_briefs_x1120a.py
+  python3 articles/neuro-de-armoring/humanize/fix-20261108/x1120a/make_briefs_x1120a.py [KEY NAME]
 """
 import pathlib
 import sys
@@ -14,9 +14,11 @@ import sense_receipt as S  # noqa: E402
 import texts_x1120a as T  # noqa: E402
 
 TOOLS = ROOT / 'tools' / 'humanization'
-KEY = 'w35d'  # the reads of texts_x1120a.W35 (w35, w35b and w35c hold the reads of W35A, W35B and W35C)
+# the reads of each version: w35, w35b, w35c and w35d hold the reads of W35A, W35B, W35C and W35; w35e of W35E
+# (2026-11-23). Give the key and the text's name: python3 make_briefs_x1120a.py w35e W35E
+KEY, NAME = (sys.argv[1], sys.argv[2]) if len(sys.argv) > 2 else ('w35e', 'W35E')
 D = dict(
-    text=T.W35,
+    text=getattr(T, NAME),
     heading='Weeks 3–5: The Dynorphin Void (Depression Phase)',
     for_='the reader starting the Weeks 3-5 phase learns to start its new supplements, microdoses and diet one at a time, '
          'and what to do about UMP and 5-HTP on the days they microdose',

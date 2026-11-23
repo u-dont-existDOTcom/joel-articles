@@ -1,0 +1,139 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-23",
+ "text_sha256": "e6e5e5536a56d565ddf12717259d2a987aabb4f0aedd827be21ec557d9cd58de",
+ "text": "So you can tell what each change does, add the new things in this phase one at a time, starting with the UMP trial and working down the list below to the keto diet. 5-HTP could help your mood here, though iboga acts on serotonin too, so don't take 5-HTP at all while you're microdosing iboga or elliptica. But if you want UMP with any microdose, or 5-HTP with a mushroom microdose, there isn't enough data yet to say whether the warnings against taking them on psychedelic days apply. Until there is, you can try the supplement each way, on days you microdose and on days you don't, and see how each feels. If the numbness makes that hard to tell, your sleep and dreams on those nights are easier to compare. Like iboga, mushrooms act on serotonin, so stop the 5-HTP if you get any of the stop signs the 5-HTP section lists.",
+ "section": "Weeks 3–5: The Dynorphin Void (Depression Phase), a new first line",
+ "reader": "someone with trauma in the numb, gray phase of weeks 3 to 5 (the \"Void\"), about to start its UMP and 5-HTP trials, an iboga, elliptica or mushroom microdose and the keto diet, who needs to know in what order, and whether UMP or 5-HTP can go with a microdose day",
+ "sentences": [
+  {
+   "s": "So you can tell what each change does, add the new things in this phase one at a time, starting with the UMP trial and working down the list below to the keto diet.",
+   "payoff": "they learn to add the phase's new things one at a time, in the order the list below gives them, from the UMP trial to the keto diet, so they can tell which change did what",
+   "follows": "it opens the plan the heading and its State line set up (\"the world turns gray/boring\"), before the list it puts in order"
+  },
+  {
+   "s": "5-HTP could help your mood here, though iboga acts on serotonin too, so don't take 5-HTP at all while you're microdosing iboga or elliptica.",
+   "payoff": "they learn the one pairing that is a firm no, 5-HTP while microdosing iboga or elliptica, and why (iboga acts on serotonin too), so they leave 5-HTP out for as long as they microdose iboga",
+   "follows": "once the order is set, the first thing the reader asks is what may go together; the firm no comes first",
+   "link": "could help your mood here"
+  },
+  {
+   "s": "But if you want UMP with any microdose, or 5-HTP with a mushroom microdose, there isn't enough data yet to say whether the warnings against taking them on psychedelic days apply.",
+   "payoff": "they learn that for UMP with a microdose, or 5-HTP with a mushroom microdose, nobody can say yet whether the psychedelic-day warnings apply, so a microdose day is neither ruled out nor cleared",
+   "follows": "it turns from the one settled pairing to the ones that are not",
+   "link": "But if you want"
+  },
+  {
+   "s": "Until there is, you can try the supplement each way, on days you microdose and on days you don't, and see how each feels.",
+   "payoff": "they learn what to do about the unknown: try the supplement on days they microdose and on days they don't, and compare (his answer 17: \"people can try each way to see how it feels\")",
+   "follows": "it answers the unknown the sentence before states",
+   "link": "Until there"
+  },
+  {
+   "s": "If the numbness makes that hard to tell, your sleep and dreams on those nights are easier to compare.",
+   "payoff": "they learn what to compare when they can't feel much: how they sleep and dream, the first changes the UMP and 5-HTP sections say to expect",
+   "follows": "it answers what a numb reader can't do in the sentence before, \"see how each feels\"",
+   "link": "If the numbness makes that hard to tell"
+  },
+  {
+   "s": "Like iboga, mushrooms act on serotonin, so stop the 5-HTP if you get any of the stop signs the 5-HTP section lists.",
+   "payoff": "they learn why 5-HTP with mushrooms needs watching and when to stop it: at any stop sign the 5-HTP section lists",
+   "follows": "it closes the mushroom pairing's trial with its one hard limit, tied back to the reason given for iboga",
+   "link": "Like iboga"
+  }
+ ],
+ "checked": [
+  {
+   "point": "iboga acts on serotonin (S2)",
+   "found": "ibogaine and its metabolite noribogaine block the serotonin transporter, the pump SSRIs also block (Bulling et al. 2012, J Biol Chem, PMC3365767; Coleman et al. 2019, Nature, PMC6750207)",
+   "still_needed": "yes: they learn why 5-HTP with iboga is a firm no, so they keep the two apart",
+   "fate": "kept"
+  },
+  {
+   "point": "mushrooms act on serotonin (S6)",
+   "found": "psilocybin's active form, psilocin, is an agonist at many serotonin receptors, mainly 5-HT2A (Ling et al. 2022, CNS Drugs, PMID 34791625)",
+   "still_needed": "yes: they learn why 5-HTP with mushrooms needs watching, so they stop it at its stop signs",
+   "fate": "kept"
+  },
+  {
+   "point": "elliptica with 5-HTP (S2)",
+   "found": "the article calls Tabernanthe elliptica \"healer\" iboga, \"an iboga cousin with many iboga alkaloids\" (his 32b line); his answer 17 bars iboga with 5-HTP, and S2 reads that as covering elliptica, named in the turn's report for him to undo",
+   "still_needed": "yes: they learn where 5-HTP stands with the microdose the article says to try first",
+   "fate": "kept"
+  },
+  {
+   "point": "sleep and dreams as what to compare (S5)",
+   "found": "the 5-HTP section: \"the first things you'll usually notice are your mood or sleep quality improves, you have less nighttime rumination, and your dreams become more vivid\"; the UMP section: \"Vivid dreams ... are the hoped-for benefits of UMP\"",
+   "still_needed": "yes: they learn what to compare when they can't feel much",
+   "fate": "kept"
+  }
+ ],
+ "placement": "a new first line under the Weeks 3–5 heading and its State line, before \"Protocol:Reduce or stop phosphatidylserine here.\": the order it gives and its microdose rules cover the whole list after it (the UMP trial, the 5-HTP trial, the showers and microdose line, the keto transition), so it comes before that list; its first \"So\" points to the plan the heading opens",
+ "opens": {
+  "first_sentence": "So you can tell what each change does, add the new things in this phase one at a time, starting with the UMP trial and working down the list below to the keto diet.",
+  "why_reading": "they learn how to start the phase's new things so they can tell which one does what, which they need before starting any of the trials and microdoses listed below"
+ },
+ "same_point": "read the section from its heading (Weeks 3–5) to the next (Week 8+) for one-at-a-time and for UMP or 5-HTP with psychedelics. The 5-HTP line's \"Do not use with ... iboga\" says S2's no; S2 keeps it because his answer 17 gives it as the one microdose exception, and a reader who thinks a microdose doesn't count would miss it; that line stays for its other items. The UMP line's \"Do not take UMP on psychedelic days\" and the 5-HTP line's \"same-day psychedelics\" are the warnings S3 points to, kept where they are. No other paragraph of the section gives the order or the microdose rule",
+ "needed": {
+  "reader": "a fresh reader (Haiku, 2026-11-23) given tools/humanization/needed_read_brief.md and only the text W35E, one sentence a line (x1120a/needed/w35e/READ.md)",
+  "unneeded": [],
+  "kept": {}
+ },
+ "his_fixes": {
+  "reader": "a fresh reader (Haiku, 2026-11-23) given tools/humanization/his_fixes_brief.md and only the text W35E, one sentence a line (x1120a/his-fixes/w35e/READ.md)",
+  "marked": [
+   {
+    "s": "If you're microdosing iboga or elliptica, don't take 5-HTP at all.",
+    "difference": "14"
+   },
+   {
+    "s": "Until there is, you can try each way, taking the supplement once on a microdose day and once on a day without a microdose, and see how each feels.",
+    "difference": "4"
+   },
+   {
+    "s": "Since mushrooms and 5-HTP both act on serotonin, stop the 5-HTP if it brings on any of the stop signs listed in its section.",
+    "difference": "10"
+   }
+  ],
+  "kept": {}
+ },
+ "fit": {
+  "reader": "a fresh reader (Haiku, 2026-11-23) given tools/humanization/fit_read_brief.md and only the text W35E, one sentence a line (x1120a/fit/w35e/READ.md)",
+  "marked": [
+   {
+    "s": "But if you want UMP with any microdose, or 5-HTP with a mushroom microdose, there isn't enough data yet to say whether the warnings below about psychedelic days apply.",
+    "found": "can't tell: whether the psychedelic-day warning covers their microdose, since the line says the data can't say"
+   },
+   {
+    "s": "Until there is, you can try each way, taking the supplement once on a microdose day and once on a day without a microdose, and see how each feels.",
+    "found": "can't tell: a numb reader judging how a supplement feels; misread: the try reads as leave the earlier rule forbids"
+   }
+  ],
+  "kept": {
+   "But if you want UMP with any microdose, or 5-HTP with a mushroom microdose, there isn't enough data yet to say whether the warnings against taking them on psychedelic days apply.": "the unknown is his answer to question 17 (\"there isn't enough data to make a suggestion about this\"); the line says it so the reader neither assumes the warnings cover a microdose nor that they don't, and S4 gives the act",
+   "Until there is, you can try the supplement each way, on days you microdose and on days you don't, and see how each feels.": "the try is his answer 17 (\"people can try each way to see how it feels\"), and S3 says why the warnings don't settle it; S5 now gives a numb reader sleep and dreams to compare"
+  }
+ },
+ "questions": {
+  "Q1": "PASS: each sentence opens on what the reader gets or the case it answers: the reason for the order (S1), why they would want 5-HTP (S2), their own pairing (S3), the unknown (S4), their numbness (S5), the mushroom link (S6)",
+  "Q2": "PASS: each instruction says what it is for in the reader's terms: one at a time to tell what each change does; no 5-HTP with iboga because both act on serotonin; try each way because the data can't say; stop 5-HTP at its stop signs because mushrooms act on serotonin too",
+  "Q3": "PASS: the list is named by its ends (the UMP trial, the keto diet), the pairings by what they are (UMP with any microdose, 5-HTP with a mushroom microdose), the warnings by what they say, the stop signs by the section that lists them",
+  "Q4": "PASS: UMP, 5-HTP, elliptica and microdosing are explained in their own sections earlier in the article (the uridine and 5-HTP sections, the iboga list), which this line follows; serotonin is named as what they act on",
+  "Q5": "PASS: \"though\" turns on the help 5-HTP could give, \"so\" on the shared serotonin; \"But\" turns from the firm no to the unknown; \"Until there is\" on the missing data; \"If ... that\" on \"see how each feels\"; \"Like iboga\" and \"so\" on the reason in S2",
+  "Q6": "PASS: the order of the list first, then what may go together: the firm no, the unknown, what to do about it, how a numb reader can tell, and the limit",
+  "Q7": "PASS: each fact is about the supplements and microdoses this phase gives them",
+  "Q8": "N/A: no group or list inside this paragraph; the two pairings in S3 are the two his answer leaves open",
+  "Q9": "PASS: one step a clause, with \"though\", \"so\", \"But\", \"Until\" and \"Like\" carrying each relation"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}
