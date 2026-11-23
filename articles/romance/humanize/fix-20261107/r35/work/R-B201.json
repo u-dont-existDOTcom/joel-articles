@@ -1,0 +1,124 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-23",
+ "text_sha256": "011e0190f28759e9bc5c25105481b855e42296777b5d247adc0a8278ea2d2a00",
+ "text": "Women are always demanding to know why I love them. Apparently they’re allowed not to know. Those double-standards really bug me, but I also understand our brains work differently. So that’s another thing to learn about over time in a relationship, and it sometimes hits you unexpectedly.\n\nGo slowly if you can, then, and learn what you can about each other before sex, but there are things you’ll only find out once you’re having it, like how your bodies respond to each other.",
+ "section": "Slow & steady isn’t KO’d yet",
+ "reader": "someone reading an essay on romance for advice they can use in their own dating and relationships",
+ "sentences": [
+  {
+   "s": "Women are always demanding to know why I love them.",
+   "payoff": "they recognise a familiar complaint and see that one partner is being asked to explain their love.",
+   "follows": "it opens a new complaint under a heading about going slowly, and what it follows from is not stated.",
+   "link": "none: starts a new step, with no tie to the heading"
+  },
+  {
+   "s": "Apparently they’re allowed not to know.",
+   "payoff": "they see that the other side may be allowed not to know why they love.",
+   "follows": "it sets the other side of S1.",
+   "link": "Apparently they’re allowed not to"
+  },
+  {
+   "s": "Those double-standards really bug me, but I also understand our brains work differently.",
+   "payoff": "they know the author finds the double standard annoying but accepts that brains work differently.",
+   "follows": "it reacts to S1 and S2 together.",
+   "link": "Those double-standards really bug me"
+  },
+  {
+   "s": "So that’s another thing to learn about over time in a relationship, and it sometimes hits you unexpectedly.",
+   "payoff": "they learn that how each person knows their love is something to find out over time and can surprise them.",
+   "follows": "it draws a lesson from S3, though 'that' could mean the double standard or the brain difference.",
+   "link": "So that’s another thing to learn"
+  },
+  {
+   "s": "Go slowly if you can, then, and learn what you can about each other before sex, but there are things you’ll only find out once you’re having it, like how your bodies respond to each other.",
+   "payoff": "they go slowly and learn what they can before sex, knowing some things only show up once having it.",
+   "follows": "'then' now says it is a conclusion from S4's learning over time.",
+   "link": "Go slowly if you can, then"
+  }
+ ],
+ "checked": [],
+ "placement": "It sits under a heading about slow and steady, and S1 to S4 are a gripe about explaining love that leads to the advice in S5 only through 'then'; it depends on the section before for why this complaint is here.",
+ "opens": {
+  "first_sentence": "Women are always demanding to know why I love them.",
+  "why_reading": "It tells the reader only that women ask why he loves them, not why that matters to their own dating, so the reader doesn't yet know what it is for."
+ },
+ "same_point": "S4 'learn about over time' and S5 'learn what you can about each other' say the same, that some things come out slowly.",
+ "needed": {
+  "reader": "a fresh Sonnet reader given tools/humanization/needed_read_brief.md and the text with its heading",
+  "unneeded": [
+   "Apparently they’re allowed not to know.",
+   "Those double-standards really bug me, but I also understand our brains work differently."
+  ],
+  "kept": {
+   "Apparently they’re allowed not to know.": "they keep the step it gives in its place; the article's text as it stands, the paragraph beside the fix that the check needs for 50 words; it read High in the section pass and is out of this fix's scope",
+   "Those double-standards really bug me, but I also understand our brains work differently.": "they keep the step it gives in its place; the article's text as it stands, the paragraph beside the fix that the check needs for 50 words; it read High in the section pass and is out of this fix's scope"
+  }
+ },
+ "his_fixes": {
+  "reader": "the same fresh reader given tools/humanization/his_fixes_brief.md and the text one sentence a line",
+  "marked": [
+   {
+    "s": "Women are always demanding to know why I love them.",
+    "difference": "way 13: opens on a complaint before saying what in the reader's case calls for it."
+   },
+   {
+    "s": "Apparently they’re allowed not to know.",
+    "difference": "way 18: a short line of six words standing alone; join it to S1."
+   },
+   {
+    "s": "Those double-standards really bug me, but I also understand our brains work differently.",
+    "difference": "way 3: 'bug me, but I also understand' contrast, and way 21: 'double-standards' labels S1 and S2 instead of saying them."
+   },
+   {
+    "s": "So that’s another thing to learn about over time in a relationship, and it sometimes hits you unexpectedly.",
+    "difference": "way 10: 'that' could point at the brain difference or the double standard, and way 21: 'another thing to learn' is a label."
+   }
+  ],
+  "kept": {
+   "Women are always demanding to know why I love them.": "the article's text as it stands, the paragraph beside the fix that the check needs for 50 words; it read High in the section pass and is out of this fix's scope",
+   "Apparently they’re allowed not to know.": "the article's text as it stands, the paragraph beside the fix that the check needs for 50 words; it read High in the section pass and is out of this fix's scope",
+   "Those double-standards really bug me, but I also understand our brains work differently.": "the article's text as it stands, the paragraph beside the fix that the check needs for 50 words; it read High in the section pass and is out of this fix's scope",
+   "So that’s another thing to learn about over time in a relationship, and it sometimes hits you unexpectedly.": "the article's text as it stands, the paragraph beside the fix that the check needs for 50 words; it read High in the section pass and is out of this fix's scope"
+  }
+ },
+ "fit": {
+  "reader": "the same fresh reader given tools/humanization/fit_read_brief.md and the text one line a line",
+  "marked": [
+   {
+    "s": "Those double-standards really bug me, but I also understand our brains work differently.",
+    "found": "MISREAD: a quick read takes it as blaming women, and the reader can't tell which brain difference it means."
+   },
+   {
+    "s": "So that’s another thing to learn about over time in a relationship, and it sometimes hits you unexpectedly.",
+    "found": "CAN'T TELL: the reader can't tell what 'that' is or what to look for."
+   }
+  ],
+  "kept": {
+   "Those double-standards really bug me, but I also understand our brains work differently.": "the article's text as it stands, the paragraph beside the fix that the check needs for 50 words; it read High in the section pass and is out of this fix's scope",
+   "So that’s another thing to learn about over time in a relationship, and it sometimes hits you unexpectedly.": "the article's text as it stands, the paragraph beside the fix that the check needs for 50 words; it read High in the section pass and is out of this fix's scope"
+  }
+ },
+ "questions": {
+  "Q1": "N/A: S1 to S4 are the paragraph before the fix, his text unchanged and out of this fix's scope; the fix (S5) opens on its advice",
+  "Q2": "PASS: 'go slowly' is given with its purpose, to learn about each other before sex.",
+  "Q3": "PASS: 'sex' and 'bodies respond' are specific.",
+  "Q4": "PASS: 'double-standards' is explained by S1 and S2.",
+  "Q5": "PASS: S5 'then' now carries the link to S4; S4 'that' still reads best as the not-knowing in S2 and S3.",
+  "Q6": "PASS: complaint, reaction, lesson, advice.",
+  "Q7": "N/A: S2 and S3 are the paragraph before the fix, his text unchanged; the fix gives the reader what to do (go slowly, and what only sex teaches)",
+  "Q8": "N/A: nothing sorted into groups.",
+  "Q9": "PASS: S5 is long but each step has its small words."
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

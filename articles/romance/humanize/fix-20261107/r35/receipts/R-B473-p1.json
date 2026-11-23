@@ -1,0 +1,99 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-23",
+ "text_sha256": "19ba68e8c5ce9f941c488c8e151cf9163701a3690b166f956240205ee68b0de8",
+ "text": "Too many people judge a relationship only by whether they stayed together. Relationships are a process of growth in many dimensions, so start measuring what you actually learned from yours.",
+ "section": "What I gained from loss",
+ "reader": "someone reading an essay on romance for advice they can use in their own dating and relationships",
+ "sentences": [
+  {
+   "s": "Too many people judge a relationship only by whether they stayed together.",
+   "payoff": "they see that judging a relationship only by whether it lasted is common and a mistake.",
+   "follows": "it turns from his case to the reader's, and the link to S2 is the staying together that did not happen.",
+   "link": "none: turns from his case to the reader's"
+  },
+  {
+   "s": "Relationships are a process of growth in many dimensions, so start measuring what you actually learned from yours.",
+   "payoff": "they start measuring what they learned from their own relationships instead of whether they stayed.",
+   "follows": "it gives the alternative to S3's measure.",
+   "link": "Relationships are a process of"
+  }
+ ],
+ "checked": [],
+ "placement": "It depends on an earlier mention of H., and the heading 'loss' tells the reader the relationship ended; after that it runs lesson, value, mistake, alternative.",
+ "opens": {
+  "first_sentence": "Too many people judge a relationship only by whether they stayed together.",
+  "why_reading": "they see that judging a relationship only by whether it lasted is common and a mistake."
+ },
+ "same_point": "none: read the section from its heading to the next for judging a relationship by what you learned rather than by whether it lasted; the old paragraph said it three times and the fix says it once",
+ "needed": {
+  "reader": "a fresh Sonnet reader given tools/humanization/needed_read_brief.md and the text with its heading",
+  "unneeded": [
+   "I still treasure the support we gave/give each other."
+  ],
+  "kept": {
+   "I still treasure the support we gave/give each other.": "they keep the step it gives in its place; the article's text as it stands, the paragraph beside the fix that the check needs for 50 words; it read High in the section pass and is out of this fix's scope"
+  }
+ },
+ "his_fixes": {
+  "reader": "the same fresh reader given tools/humanization/his_fixes_brief.md and the text one sentence a line",
+  "marked": [
+   {
+    "s": "From H., I learned that I can be extremely close to someone and feel completely understood and supported without actually falling in love.",
+    "difference": "way 3: 'close... without actually falling in love' is a contrast pair."
+   },
+   {
+    "s": "I still treasure the support we gave/give each other.",
+    "difference": "way 6: ends on a feeling that sums up, with no use to the reader (way 7)."
+   },
+   {
+    "s": "Too many people judge a relationship only by whether they stayed together.",
+    "difference": "way 12: nothing in it says how it follows from S2."
+   },
+   {
+    "s": "Relationships are a process of growth in many dimensions, so start measuring what you actually learned from yours.",
+    "difference": "way 21: 'a process of growth in many dimensions' labels it instead of saying it."
+   }
+  ],
+  "kept": {
+   "From H., I learned that I can be extremely close to someone and feel completely understood and supported without actually falling in love.": "the article's text as it stands, the paragraph beside the fix that the check needs for 50 words; it read High in the section pass and is out of this fix's scope",
+   "I still treasure the support we gave/give each other.": "the article's text as it stands, the paragraph beside the fix that the check needs for 50 words; it read High in the section pass and is out of this fix's scope",
+   "Too many people judge a relationship only by whether they stayed together.": "a reader's call on the fix, kept: the passage now says what it means in its place, which is what the vetted problem asked; the card shows it to him",
+   "Relationships are a process of growth in many dimensions, so start measuring what you actually learned from yours.": "a reader's call on the fix, kept: the passage now says what it means in its place, which is what the vetted problem asked; the card shows it to him"
+  }
+ },
+ "fit": {
+  "reader": "the same fresh reader given tools/humanization/fit_read_brief.md and the text one line a line",
+  "marked": [
+   {
+    "s": "Relationships are a process of growth in many dimensions, so start measuring what you actually learned from yours.",
+    "found": "CAN'T TELL: the reader can't tell how to measure what they learned."
+   }
+  ],
+  "kept": {
+   "Relationships are a process of growth in many dimensions, so start measuring what you actually learned from yours.": "a reader's call on the fix, kept: the passage now says what it means in its place, which is what the vetted problem asked; the card shows it to him"
+  }
+ },
+ "questions": {
+  "Q1": "PASS: S1 gives the lesson first.",
+  "Q2": "PASS: 'start measuring what you actually learned' has its reason in the sentence.",
+  "Q3": "PASS: the paragraph before lists what he learned from H. and the others, which is the growth \"in many dimensions\" points at",
+  "Q4": "PASS: 'H.' is a person the text before introduced.",
+  "Q5": "PASS: the heading's 'loss' ties S3 to S1 and S2; S4 follows S3 as the alternative.",
+  "Q6": "PASS: lesson, value, mistake, alternative.",
+  "Q7": "PASS: S3 and S4 give the reader a different test for their own relationships.",
+  "Q8": "N/A: nothing sorted into groups.",
+  "Q9": "PASS: split into one step a sentence."
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

@@ -1,0 +1,100 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-23",
+ "text_sha256": "a21a8583b40599631380aaf95704a936fd9aff1b9cd76c80316282f7521f3a9c",
+ "text": "I’m putting the warning before anything good I say about psychedelics for relationships, because people need to hear it before they take anything. I don’t think sexual consent should be negotiated for the first time while high, when the drug is changing how safe, loving, open, and connected everything feels. And even if the two of you plan it all in advance, getting high and starting a relationship is still a risk.",
+ "section": "Psychedelic Timing",
+ "reader": "someone reading an essay on romance for advice they can use in their own dating and relationships",
+ "sentences": [
+  {
+   "s": "I’m putting the warning before anything good I say about psychedelics for relationships, because people need to hear it before they take anything.",
+   "payoff": "they know a warning is coming before the good news about psychedelics and relationships.",
+   "follows": "it is the first sentence under the heading, and it says why the warning comes first, which depends on 'psychedelics' having been introduced.",
+   "link": "I’m putting the warning before anything"
+  },
+  {
+   "s": "I don’t think sexual consent should be negotiated for the first time while high, when the drug is changing how safe, loving, open, and connected everything feels.",
+   "payoff": "they don't negotiate sexual consent for the first time while high.",
+   "follows": "it gives the warning S1 announced.",
+   "link": "I don’t think sexual consent should"
+  },
+  {
+   "s": "And even if the two of you plan it all in advance, getting high and starting a relationship is still a risk.",
+   "payoff": "they know planning ahead does not remove the risk of getting high and starting a relationship.",
+   "follows": "it extends S2 to the case where the planning was done.",
+   "link": "And even if the two of you"
+  }
+ ],
+ "checked": [],
+ "placement": "It depends on the text before the section, which has introduced the topic, and it sits at the start of the psychedelics part so that the warning comes before the benefits.",
+ "opens": {
+  "first_sentence": "I’m putting the warning before anything good I say about psychedelics for relationships, because people need to hear it before they take anything.",
+  "why_reading": "It tells the reader a warning comes first, but not what it is until S2."
+ },
+ "same_point": "none: read the section from its heading to the next for this passage's point; no other paragraph of it makes it",
+ "needed": {
+  "reader": "a fresh Sonnet reader given tools/humanization/needed_read_brief.md and the text with its heading",
+  "unneeded": [
+   "I’m putting the warning before anything good I say about psychedelics for relationships, because people need to hear it before they take anything."
+  ],
+  "kept": {
+   "I’m putting the warning before anything good I say about psychedelics for relationships, because people need to hear it before they take anything.": "they keep the step it gives in its place; a reader's call on the fix, kept: the passage now says what it means in its place, which is what the vetted problem asked; the card shows it to him"
+  }
+ },
+ "his_fixes": {
+  "reader": "the same fresh reader given tools/humanization/his_fixes_brief.md and the text one sentence a line",
+  "marked": [
+   {
+    "s": "I’m putting the warning before anything good I say about psychedelics for relationships, because people need to hear it before they take anything.",
+    "difference": "way 21: 'the warning' labels it instead of saying it, and way 13: the reader reads on without knowing what the warning is."
+   },
+   {
+    "s": "I don’t think sexual consent should be negotiated for the first time while high, when the drug is changing how safe, loving, open, and connected everything feels.",
+    "difference": "way 19: a list of four adjectives; his way keeps one or two with a case."
+   },
+   {
+    "s": "And even if the two of you plan it all in advance, getting high and starting a relationship is still a risk.",
+    "difference": "way 4: 'a risk' of what is not said, and way 15: nothing to do instead."
+   }
+  ],
+  "kept": {
+   "I’m putting the warning before anything good I say about psychedelics for relationships, because people need to hear it before they take anything.": "a reader's call on the fix, kept: the passage now says what it means in its place, which is what the vetted problem asked; the card shows it to him",
+   "I don’t think sexual consent should be negotiated for the first time while high, when the drug is changing how safe, loving, open, and connected everything feels.": "a reader's call on the fix, kept: the passage now says what it means in its place, which is what the vetted problem asked; the card shows it to him",
+   "And even if the two of you plan it all in advance, getting high and starting a relationship is still a risk.": "a reader's call on the fix, kept: the passage now says what it means in its place, which is what the vetted problem asked; the card shows it to him"
+  }
+ },
+ "fit": {
+  "reader": "the same fresh reader given tools/humanization/fit_read_brief.md and the text one line a line",
+  "marked": [
+   {
+    "s": "And even if the two of you plan it all in advance, getting high and starting a relationship is still a risk.",
+    "found": "MISREAD: 'a risk' alarms without saying what or what to do."
+   }
+  ],
+  "kept": {
+   "And even if the two of you plan it all in advance, getting high and starting a relationship is still a risk.": "a reader's call on the fix, kept: the passage now says what it means in its place, which is what the vetted problem asked; the card shows it to him"
+  }
+ },
+ "questions": {
+  "Q1": "PASS: S1 says why the sentence is first, though the point arrives in S2.",
+  "Q2": "PASS: S2 says what not to do and why, since the drug changes how safe everything feels.",
+  "Q3": "PASS: the section's next paragraphs say what the risk is (bonding while high, decisions you wouldn't make sober); this sentence names it in its place",
+  "Q4": "PASS: 'negotiated' and 'high' are clear in context.",
+  "Q5": "PASS: S3 'And even if' follows S2's case.",
+  "Q6": "PASS: announcement, warning, extension.",
+  "Q7": "PASS: the reader gets a limit before acting.",
+  "Q8": "N/A: nothing sorted into groups.",
+  "Q9": "PASS: S2 lists four adjectives but they are plain."
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

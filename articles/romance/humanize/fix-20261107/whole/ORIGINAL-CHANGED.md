@@ -581,3 +581,7 @@ Spiritual practice during an ending is critical, but don’t use it to get aroun
 ## 115. Tough Love (live 455)
 
 Bear, sex can be what you do when you’re older and find a friend you love in a super special way that makes you want to raise children together. Don’t imagine you love each other just because you want each other. Don’t feel pressure to promise what your heart will feel. Let the love and bond it produces blossom honestly as your hearts sync. Learn about each other before getting too close, and make sure to keep friends and community around who know both of you.
+
+## 116. What I gained from loss (live 447)
+
+Too many people judge a relationship only by the result, so start measuring what you actually learned from it instead. Relationships are a process of growth in many dimensions. The result is not only whether you stayed together.

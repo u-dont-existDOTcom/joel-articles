@@ -954,7 +954,7 @@ Key repeated a lot of that, which is why I fell in love with her. I learned some
 
 From H., I learned that I can be extremely close to someone and feel completely understood and supported without actually falling in love. I still treasure the support we gave/give each other.
 
-Too many people judge a relationship only by the result, so start measuring what you actually learned from it instead. Relationships are a process of growth in many dimensions. The result is not only whether you stayed together.
+Too many people judge a relationship only by whether they stayed together. Relationships are a process of growth in many dimensions, so start measuring what you actually learned from yours.
 
 # Tough Love
 

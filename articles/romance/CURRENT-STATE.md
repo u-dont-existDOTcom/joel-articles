@@ -198,16 +198,20 @@ with his OK and no email.
   stretch Human (High, Medium); 346 still read AI until one word of his, "compassionately" for "honestly", took it to 0%
   (`r30/replay4/`; way 21 of `tools/humanization/his_fixes_brief.md`). Straight quote marks changed no label
   (`r30/typo3/`). Lesson romance-2026-11-23e.
+- 2026-11-23 17:27 UTC (his message: "honestly is a high freq ai word ... so if another word fits we can use that";
+  "continue"). The article's five uses of "honestly" got the word that fits, each Human High by itself (`r34/`); the
+  linter flags it (O77, W132; lesson romance-2026-11-23f). The eleven vetted junk passages (`r35/README.md`): eight
+  fixes read Human High by themselves; B473 went in without a card, seven are cards on the sixth marking page
+  (https://claude.ai/artifact/MZidQtzYFkWfAd1snh75zu, `review/teach-20261123/REVIEW-T6.md`), and three (B257, B442,
+  B480) whose fixes read AI are questions on it while the tries go on.
 
 ## Next step
 
-The junk fixes first: the 11 real and 33 partly real passages of `r30/junk/VETTED.md` that are in model text, sense
-first (the read against his fixes, ways 1 to 21 and the three of round 2), each fix checked by itself and in its
-section, with round 3's lessons from the blind test (`r30/replay3/`) and the next blind round on whatever they teach. Then
-his next marking page (the whole article): those fixes that change meaning or are his words. Then the drafts re-pasted for his last whole-article
-check; then his post is updated with his OK (no email): 366's link to Esther Perel's post, the reel embedded after
-149, the typography swap and the "Updated" date. Pull request 401 is pushed; its "hold" label (from the refused pushes) is his to take off, since this session's safety
-check refused to, and the lane workflow then merges it.
+His answers on the sixth page go in as he gives them. Three passages (B257, B442, B480) get their next tries from the
+post's own text, changing only the problem phrase (the near-miss rule), then the tell panel with Codex. Then the 33
+partly real passages of `r30/junk/VETTED.md`, the same way; the sections their fixes touch get one recheck each. Then
+the drafts re-pasted for his last whole-article check; then his post is updated with his OK (no email): 366's link to
+Esther Perel's post, the reel embedded after 149, the typography swap and the "Updated" date.
 
 ### Before 2026-11-07 (the registered master, as recorded then)
 

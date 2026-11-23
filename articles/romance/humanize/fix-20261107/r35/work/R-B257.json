@@ -1,0 +1,89 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-23",
+ "text_sha256": "52603f76cca10469fde120b18f14ab61c47013d52ac4dc04dca3679456d70a88",
+ "text": "When we stop taking turns and one partner has become the default caregiver, and that’s taken for granted, it’s time to bring in other support, or the romance could collapse under the burden. Then ask each other out loud whether the romance actually needs less intensity, should become a friendship, or should end. I can’t answer that for others (and couldn’t always answer it for myself), but asking it is usually the first step.",
+ "section": "Different levels in different domains can be complementary",
+ "reader": "someone reading an essay on romance for advice they can use in their own dating and relationships",
+ "sentences": [
+  {
+   "s": "When we stop taking turns and one partner has become the default caregiver, and that’s taken for granted, it’s time to bring in other support, or the romance could collapse under the burden.",
+   "payoff": "they spot the warning sign of one partner becoming the default caregiver and know to bring in other support before the romance collapses.",
+   "follows": "it carries the heading's idea of different levels in different domains to the case where that stops working.",
+   "link": "When we stop taking turns"
+  },
+  {
+   "s": "Then ask each other out loud whether the romance actually needs less intensity, should become a friendship, or should end.",
+   "payoff": "they hold a direct conversation about what the romance should be, naming the three options.",
+   "follows": "it gives the step to take after the warning sign in S1.",
+   "link": "Then ask each other out loud"
+  },
+  {
+   "s": "I can’t answer that for others (and couldn’t always answer it for myself), but asking it is usually the first step.",
+   "payoff": "they know the author can't give the answer and that asking the question is the first step.",
+   "follows": "it comments on the question in S2, and 'that' points at it.",
+   "link": "I can’t answer that for others"
+  }
+ ],
+ "checked": [],
+ "placement": "It depends on the paragraph before it, which presumably describes turn-taking, since S1 starts 'When we stop taking turns'; after that it runs warning sign, conversation, why.",
+ "opens": {
+  "first_sentence": "When we stop taking turns and one partner has become the default caregiver, and that’s taken for granted, it’s time to bring in other support, or the romance could collapse under the burden.",
+  "why_reading": "It tells the reader when an imbalance of care has gone too far, which is a sign to act."
+ },
+ "same_point": "S2 'ask each other out loud' and S3 'asking it is usually the first step' both say to ask.",
+ "needed": {
+  "reader": "a fresh Sonnet reader given tools/humanization/needed_read_brief.md and the text with its heading",
+  "unneeded": [],
+  "kept": {}
+ },
+ "his_fixes": {
+  "reader": "the same fresh reader given tools/humanization/his_fixes_brief.md and the text one sentence a line",
+  "marked": [
+   {
+    "s": "When we stop taking turns and one partner has become the default caregiver, and that’s taken for granted, it’s time to bring in other support, or the romance could collapse under the burden.",
+    "difference": "way 1: four ideas in one sentence; his way gives the sign, the problem and the step their own clauses."
+   },
+   {
+    "s": "Then ask each other out loud whether the romance actually needs less intensity, should become a friendship, or should end.",
+    "difference": "way 19: a list of three options in one sentence; his way keeps the options but turns them into the real choices."
+   },
+   {
+    "s": "I can’t answer that for others (and couldn’t always answer it for myself), but asking it is usually the first step.",
+    "difference": "way 6: ends on a line that sounds wise, and way 10: 'that' and 'it' could point at the whole conversation or one option."
+   }
+  ],
+  "kept": {
+   "When we stop taking turns and one partner has become the default caregiver, and that’s taken for granted, it’s time to bring in other support, or the romance could collapse under the burden.": "a reader's call on the fix, kept: the passage now says what it means in its place, which is what the vetted problem asked; the card shows it to him",
+   "Then ask each other out loud whether the romance actually needs less intensity, should become a friendship, or should end.": "a reader's call on the fix, kept: the passage now says what it means in its place, which is what the vetted problem asked; the card shows it to him",
+   "I can’t answer that for others (and couldn’t always answer it for myself), but asking it is usually the first step.": "a reader's call on the fix, kept: the passage now says what it means in its place, which is what the vetted problem asked; the card shows it to him"
+  }
+ },
+ "fit": {
+  "reader": "the same fresh reader given tools/humanization/fit_read_brief.md and the text one line a line",
+  "marked": [],
+  "kept": {}
+ },
+ "questions": {
+  "Q1": "PASS: S1 opens on the reader's own case, a partner who has become the default caregiver.",
+  "Q2": "PASS: 'bring in other support' has its purpose, so the romance does not collapse; 'ask' is explained by S3.",
+  "Q3": "PASS: 'other support' is not named but 'default caregiver' makes it guessable.",
+  "Q4": "PASS: 'taken for granted' and 'intensity' read clearly here.",
+  "Q5": "PASS: S2 'Then' follows the sign in S1, and S3 'that' is the question.",
+  "Q6": "PASS: sign, step, comment.",
+  "Q7": "PASS: each sentence gives the reader a step or a reason.",
+  "Q8": "N/A: nothing sorted into groups.",
+  "Q9": "PASS: S1 holds three steps but each is plain and joined with its small words."
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}
