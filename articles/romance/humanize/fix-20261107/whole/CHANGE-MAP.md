@@ -1,6 +1,6 @@
 # The fixed version: every changed paragraph
 
-The live post ("Romance Advice I Wish My Parents Taught Me") with each section's and spot's best tested text in place (`assemble.py`, `build.py`), and his own versions from his answers over them (`../r30/HIS-T4.json`, his Medium page of 2026-11-22). Paragraph numbers are the post page's paragraph list (`LIVE-INDEX.txt`). "Two Pillars" 332 is his own new version (it was the owner lock). 129 changes, 155 live paragraphs changed.
+The live post ("Romance Advice I Wish My Parents Taught Me") with each section's and spot's best tested text in place (`assemble.py`, `build.py`), and his own versions from his answers over them (`../r30/HIS-T4.json`, his Medium page of 2026-11-22). Paragraph numbers are the post page's paragraph list (`LIVE-INDEX.txt`). "Two Pillars" 332 is his own new version (it was the owner lock). 132 changes, 158 live paragraphs changed.
 
 ## 1. S1 (live 28)
 
@@ -1662,4 +1662,40 @@ Read by my tested change R36-455 (MINE-R36.json): [result](https://www.pangram.c
 **New:**
 
 > Bear, sex can be what you do when you’re older and find a friend you love in a super special way that makes you want to raise children together. Don’t imagine you love each other just because you want each other. Don’t feel pressure to promise what your heart will feel. Let the love and bond it produces blossom genuinely as your hearts sync. Learn about each other before getting too close, and make sure to keep friends and community around who know both of you.
+
+## 130. Talk about making love before you do it (live 16)
+
+Read by his answer his S05 fix (HIS-S05.json): [result](https://www.pangram.com/history/4028a476-97bc-4504-961b-dd80a7192238).
+
+**Live:**
+
+> And what is sex for each of you? One person may mainly think of bonding while the other thinks of play. Sometimes it may feel sacred; another time it may just be how you come down from a bad day. It doesn’t have to mean the same thing every time.
+
+**New:**
+
+> And what is sex for each of you? One person may mainly think of bonding while for the other, it's play. Sometimes it may feel sacred; another time it may just be how you come down from a bad day. It doesn’t have to mean the same thing every time nor score over 10 on a woman's magazine sex quiz consistently. But it's important for partners to be on the same page about how the sex is helping their relationship overall.
+
+## 131. Talk about making love before you do it (live 17)
+
+Read by his answer his S05 fix (HIS-S05.json): [result](https://www.pangram.com/history/4028a476-97bc-4504-961b-dd80a7192238).
+
+**Live:**
+
+> It’s important to talk about sexual compatibility before getting undressed, even if that kills the vibe. Or even especially if it does kill the vibe, actually, since that’s a red flag if talking ruins things. And this applies whether you’re leaning too libertine or too traditional. And once you are undressed, the communication doesn’t stop there either. Can you feel comfortable with each other enough to express what turns you on, what this means to you, and what you’re unsure about? It’s that psychological trust & intimacy that builds the bridge between “having sex” and “making love.”
+
+**New:**
+
+> So talk about sexual compatibility before getting undressed. If that kills the vibe, even better in my book, since I'd be suspicious of a vibe that's ruined by genuine communication. This applies whether you’re leaning too libertine or too traditional. And once you are undressed, the communication doesn’t stop there either. Can you feel comfortable with each other enough to express what turns you on, what this means to you, and what you’re unsure about? It’s that psychological trust & intimacy that builds the bridge between “having sex” and “making love.”
+
+## 132. Talk about making love before you do it (live 18)
+
+Read by his answer his S05 fix (HIS-S05.json): [result](https://www.pangram.com/history/4028a476-97bc-4504-961b-dd80a7192238).
+
+**Live:**
+
+> I remember reading a Christian magazine’s letter from a newlywed Christian woman who found out that her husband didn’t have much interest in sex after she saved herself for marriage. He trapped her, because he knew she would not feel good about divorce due to the religion. Of course, it didn’t have to be nefarious. I had a relationship with E. that was a bit like that about 15yrs ago. She wanted sex once a week, and it was driving me nuts because my libido was thru the roof. She also had no interest in trying to take a safe herb or supplement to increase her desire. Of course everyone does change over time as well. If our libidos later diverge, it’s better to talk about what we’d do before either person is already hurt.
+
+**New:**
+
+> I remember reading a Christian magazine’s letter from a newlywed Christian woman who found out that her husband didn’t have much interest in sex after she saved herself for marriage. He trapped her, because he knew she would not feel good about divorce due to the religion. Of course, it didn’t have to be nefarious. I had a relationship with E. that was a bit like that about 15yrs ago. She wanted sex once a week, and it was driving me nuts because my libido was thru the roof. She also had no interest in trying to take a safe herb or supplement to increase her desire. Of course everyone does change over time as well, so that's one more reason to think about the relationship together before anyone gets their feelings hurt.
 

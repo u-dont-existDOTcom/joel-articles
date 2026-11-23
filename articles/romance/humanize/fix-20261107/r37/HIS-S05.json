@@ -1,0 +1,47 @@
+{
+ "about": "His fix of \"Talk about making love before you do it\", part 2 (2026-11-23 23:49 UTC: \"actually i don't like the medium\nwindows ... i fixed that talk about making love section\"), as a layer after r36: HIS-S05.json. his-s05.txt is the text of\nhis check, https://www.pangram.com/history/4028a476-97bc-4504-961b-dd80a7192238 (Human High, one window, 344 words), byte\nfor byte (SHA-256 c04b9ee4df3a6840...). Its first paragraph is the fixed version's 15 unchanged; 16 to 18 are his.",
+ "answers": "his message of 2026-11-23 23:49 UTC",
+ "links": [],
+ "embeds": [],
+ "changes": [
+  {
+   "card": "his S05 fix",
+   "kind": "para",
+   "live": 16,
+   "before": "And what is sex for each of you? One person may mainly think of bonding while the other thinks of play. Sometimes it may feel sacred; another time it may just be how you come down from a bad day. It doesn’t have to mean the same thing every time.",
+   "after": [
+    "And what is sex for each of you? One person may mainly think of bonding while for the other, it's play. Sometimes it may feel sacred; another time it may just be how you come down from a bad day. It doesn’t have to mean the same thing every time nor score over 10 on a woman's magazine sex quiz consistently. But it's important for partners to be on the same page about how the sex is helping their relationship overall."
+   ],
+   "his_checks": [
+    "https://www.pangram.com/history/4028a476-97bc-4504-961b-dd80a7192238"
+   ],
+   "comment": "actually i don't like the medium windows ... i often find the medium windows indicate other issues also. i fixed that talk about making love section"
+  },
+  {
+   "card": "his S05 fix",
+   "kind": "para",
+   "live": 17,
+   "before": "It’s important to talk about sexual compatibility before getting undressed, even if that kills the vibe. Or even especially if it does kill the vibe, actually, since that’s a red flag if talking ruins things. And this applies whether you’re leaning too libertine or too traditional. And once you are undressed, the communication doesn’t stop there either. Can you feel comfortable with each other enough to express what turns you on, what this means to you, and what you’re unsure about? It’s that psychological trust & intimacy that builds the bridge between “having sex” and “making love.”",
+   "after": [
+    "So talk about sexual compatibility before getting undressed. If that kills the vibe, even better in my book, since I'd be suspicious of a vibe that's ruined by genuine communication. This applies whether you’re leaning too libertine or too traditional. And once you are undressed, the communication doesn’t stop there either. Can you feel comfortable with each other enough to express what turns you on, what this means to you, and what you’re unsure about? It’s that psychological trust & intimacy that builds the bridge between “having sex” and “making love.”"
+   ],
+   "his_checks": [
+    "https://www.pangram.com/history/4028a476-97bc-4504-961b-dd80a7192238"
+   ],
+   "comment": "actually i don't like the medium windows ... i often find the medium windows indicate other issues also. i fixed that talk about making love section"
+  },
+  {
+   "card": "his S05 fix",
+   "kind": "para",
+   "live": 18,
+   "before": "I remember reading a Christian magazine’s letter from a newlywed Christian woman who found out that her husband didn’t have much interest in sex after she saved herself for marriage. He trapped her, because he knew she would not feel good about divorce due to the religion. Of course, it didn’t have to be nefarious. I had a relationship with E. that was a bit like that about 15yrs ago. She wanted sex once a week, and it was driving me nuts because my libido was thru the roof. She also had no interest in trying to take a safe herb or supplement to increase her desire. Of course everyone does change over time as well. If our libidos later diverge, it’s better to talk about what we’d do before either person is already hurt.",
+   "after": [
+    "I remember reading a Christian magazine’s letter from a newlywed Christian woman who found out that her husband didn’t have much interest in sex after she saved herself for marriage. He trapped her, because he knew she would not feel good about divorce due to the religion. Of course, it didn’t have to be nefarious. I had a relationship with E. that was a bit like that about 15yrs ago. She wanted sex once a week, and it was driving me nuts because my libido was thru the roof. She also had no interest in trying to take a safe herb or supplement to increase her desire. Of course everyone does change over time as well, so that's one more reason to think about the relationship together before anyone gets their feelings hurt."
+   ],
+   "his_checks": [
+    "https://www.pangram.com/history/4028a476-97bc-4504-961b-dd80a7192238"
+   ],
+   "comment": "actually i don't like the medium windows ... i often find the medium windows indicate other issues also. i fixed that talk about making love section"
+  }
+ ]
+}

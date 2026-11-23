@@ -637,3 +637,15 @@ Spiritual practice during an ending is critical, but don’t use it to get aroun
 ## 129. Tough Love (live 455)
 
 Bear, sex can be what you do when you’re older and find a friend you love in a super special way that makes you want to raise children together. Don’t imagine you love each other just because you want each other. Don’t feel pressure to promise what your heart will feel. Let the love and bond it produces blossom honestly as your hearts sync. Learn about each other before getting too close, and make sure to keep friends and community around who know both of you.
+
+## 130. Talk about making love before you do it (live 16)
+
+And what is sex for each of you? One person may mainly think of bonding while the other thinks of play. Sometimes it may feel sacred; another time it may just be how you come down from a bad day. It doesn’t have to mean the same thing every time.
+
+## 131. Talk about making love before you do it (live 17)
+
+It’s important to talk about sexual compatibility before getting undressed, even if that kills the vibe. Or even especially if it does kill the vibe, actually, since that’s a red flag if talking ruins things. And this applies whether you’re leaning too libertine or too traditional. And once you are undressed, the communication doesn’t stop there either. Can you feel comfortable with each other enough to express what turns you on, what this means to you, and what you’re unsure about? It’s that psychological trust & intimacy that builds the bridge between “having sex” and “making love.”
+
+## 132. Talk about making love before you do it (live 18)
+
+I remember reading a Christian magazine’s letter from a newlywed Christian woman who found out that her husband didn’t have much interest in sex after she saved herself for marriage. He trapped her, because he knew she would not feel good about divorce due to the religion. Of course, it didn’t have to be nefarious. I had a relationship with E. that was a bit like that about 15yrs ago. She wanted sex once a week, and it was driving me nuts because my libido was thru the roof. She also had no interest in trying to take a safe herb or supplement to increase her desire. Of course everyone does change over time as well. If our libidos later diverge, it’s better to talk about what we’d do before either person is already hurt.

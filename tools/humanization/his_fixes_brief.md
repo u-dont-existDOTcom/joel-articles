@@ -27,6 +27,9 @@ that still reads the first way.
    connector, a term in brackets at the same place in each, or the same comparing word ("is a different problem from ...,
    and both are different from ..."). He builds each one differently: "would be one full pattern", "would be counted as one
    pattern altogether", "another pattern together", "Another is ... along with ...", "Lastly, ... as well as ...".
+   A sentence whose two halves mirror each other is this way too: "One person may mainly think of bonding while the
+   other thinks of play" (a Medium window) became "One person may mainly think of bonding while for the other, it's
+   play" (romance, 2026-11-23, lesson romance-2026-11-23i).
 3. **Correcting or contrasting.** "X does not mean Y; it means Z", "a Y rather than a Z", "not X but Y", "X but not Y",
    "isn't X, it's Y", or a pair set against each other ("severely altered but physically stable"), where the sentence
    could say the thing itself. He fixed "This is a recognition aid rather than a command to wait for every criterion
@@ -46,7 +49,12 @@ that still reads the first way.
    PAYOFF" and added "Slow breathing is normal with iboga, but if cardiac irregularities come along with it, that's an
    extra danger sign."
 8. **Joined and worded the way a model joins and words.** Two short sentences he would join with ", but" or "so"; a comma
-   pair he writes with "and" ("Slow and shallow", not "Slow, shallow"); "one" where "a" would do.
+   pair he writes with "and" ("Slow and shallow", not "Slow, shallow"); "one" where "a" would do. A piece of advice
+   added after the line it follows from, "Of course everyone does change over time as well. If our libidos later diverge,
+   it's better to talk about what we'd do before either person is already hurt." (a Medium window), became one sentence:
+   "Of course everyone does change over time as well, so that's one more reason to think about the relationship
+   together before anyone gets their feelings hurt." "It's important to talk about X ..." became "So talk about X ...",
+   tied to the paragraph before (lesson romance-2026-11-23i).
 9. **The findings before whether they bear on the reader's case.** He says first what decides whether what follows applies
    to the reader, and puts the limit there, never in a clause hung on a finding. My "When they gave DMSO to rats for three
    days before a heart attack, those rats lost ... though that study didn't try giving it after the attack had started"
@@ -126,7 +134,11 @@ that still reads the first way.
    philosophical, and it bites."; "But could I explain that to an objective friend?"; "But that wasn't even really 1% of
    the whole story." (2026-11-22: "the ai tell is the short plain statements. feels robotic"; "pangram hates those short
    lines, they are becoming Ai territory sadly"). A line of speech, or a question in a story, isn't this way ("Then what?
-   You block her?").
+   You block her?"). A plain line that ends a paragraph is this way too, even at nine or ten words: "It doesn't have to
+   mean the same thing every time." (a Medium window) went on, in his version, with what only he would say ("nor score
+   over 10 on a woman's magazine sex quiz consistently") and then the point the paragraph is for, which the next one
+   acts on ("But it's important for partners to be on the same page about how the sex is helping their relationship
+   overall."; lesson romance-2026-11-23i).
 
 19. **Three of a kind, or a question inside another.** A list of three items, clauses or short sentences ("We're twin
    flames. She knows my motives. I'm Lord Krishna."), a list of category words ("share a home, raise children, support
