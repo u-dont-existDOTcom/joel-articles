@@ -123421,7 +123421,7 @@
         },
         {
           "path": "articles/bad-trips/humanize/pangram-ledger.jsonl",
-          "sha256": "54001c28242b8886617306e6d03493fb8e8501baf3fb660db4680199fe9c216a",
+          "sha256": "4b3c757985cbd7486baae4231424a366949358379f309e8e207b141d70804472",
           "role": "humanization_working_record"
         },
         {
@@ -144092,6 +144092,46 @@
         {
           "path": "articles/bad-trips/review/r51/cards_r51.py",
           "sha256": "d50ab1653315365b4e52542280dc5208a8ddc25856d4ae61900093f6e3d47f15",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/bad-trips/humanize/h69-20261123/FINAL-T61.md",
+          "sha256": "306c4908b972004189ebad5ea753d00ed4dbc3d3612e6f7147bee3006761b2b4",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/bad-trips/humanize/h69-20261123/RESULTS-h69f.json",
+          "sha256": "6494584fd0708ff7f3e61368074e4a45a15f38f6bf81fcf2ebfb2e1b0ca489a7",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/bad-trips/humanize/h69-20261123/TEXTS-h69f.json",
+          "sha256": "84f1441dd8985eec9c11b8c2ec2db3e6432652d4c59759108815443e9887fcac",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/bad-trips/humanize/h69-20261123/replay/BRIEF.md",
+          "sha256": "ff27889e3f25fe680a20100ae06c5a7704a321ece44ce441dcf14f186eff07f4",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/bad-trips/humanize/h69-20261123/replay/OUT.md",
+          "sha256": "fc6f9bcf4adaba6c800feea1a14aa3f124a77ca098f64a5a2c641bf14dc6e4a8",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/bad-trips/humanize/h69-20261123/replay/PARA.md",
+          "sha256": "088bd95624994bfb78a7e5cae1453a81fcb757887165eba3bf1df98a3f142096",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/bad-trips/humanize/h69-20261123/replay/RESULTS.md",
+          "sha256": "ce5f6e3b121dde065cbd206f68be8e69d64460b4508630b7ff51af6771f90a40",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/bad-trips/humanize/h69-20261123/replay/TEST-replay-nalox.txt",
+          "sha256": "fc6f9bcf4adaba6c800feea1a14aa3f124a77ca098f64a5a2c641bf14dc6e4a8",
           "role": "humanization_working_record"
         }
       ]
