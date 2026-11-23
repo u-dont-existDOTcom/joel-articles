@@ -1,0 +1,469 @@
+[
+ {
+  "id": "S001",
+  "level": 1,
+  "heading": "Introduction & Navigation",
+  "was": "Introduction & Navigation",
+  "kind": "kept"
+ },
+ {
+  "id": "S002",
+  "level": 1,
+  "heading": "Why Did I Write This?",
+  "was": "Why Did I Write This?",
+  "kind": "kept"
+ },
+ {
+  "id": "S003",
+  "level": 1,
+  "heading": "My Crazy Wonderful Life",
+  "was": "My Crazy Wonderful Life",
+  "kind": "kept"
+ },
+ {
+  "id": "S004",
+  "level": 2,
+  "heading": "The Weight of the World",
+  "was": "Realizing the world we live in",
+  "kind": "reader",
+  "why": "His own phrase from the section's first line; the title-cased original is cut, and this names what the section is about (his grief for the world, activism, teaching)."
+ },
+ {
+  "id": "S005",
+  "level": 2,
+  "heading": "Ayahuasca Blew My Mind",
+  "was": "Time for A Radical Change of Mind",
+  "kind": "reader",
+  "why": "Was cut. A reader looking for the psychedelics story can't find it under 'Radical Change of Mind'; the section builds to the ayahuasca trip where 'my mind exploded'."
+ },
+ {
+  "id": "S006",
+  "level": 2,
+  "heading": "The Afterglow Wore Off",
+  "was": "When the Afterglow Wore Off",
+  "kind": "fit",
+  "why": "Was cut; dropping 'When' fits and says the same."
+ },
+ {
+  "id": "S007",
+  "level": 2,
+  "heading": "Enlightened or Deluded?",
+  "was": "Was I enlightened or deluded?",
+  "kind": "fit",
+  "why": "Was cut; the question itself fits."
+ },
+ {
+  "id": "S008",
+  "level": 3,
+  "heading": "Loving-Kindness (Mettā)",
+  "was": "🫶🏿 May All Beings Be Loving, Peaceful & Free 🫶🏿",
+  "kind": "reader",
+  "why": "Was cut after 'May All Beings Be Lov…', so the sidebar never said this is where he starts loving-kindness meditation. Names the practice in the reader's word plus his Pāli."
+ },
+ {
+  "id": "S009",
+  "level": 2,
+  "heading": "Peak States Don't Stick",
+  "was": "A Peak State Can Be Useless Or Worse",
+  "kind": "reader",
+  "why": "Was cut. States the section's point (peaks don't reliably transform people); the section shows 'useless' but nothing 'worse'. Fits with room, where 'Peak States Can Be Useless' is tight."
+ },
+ {
+  "id": "S010",
+  "level": 2,
+  "heading": "Why Monks Stay Vague",
+  "was": "What Else Could the Buddha Give Me?",
+  "kind": "reader",
+  "why": "Was cut. The section answers why the books give lists and monastics won't describe their own experience (the Vinaya rules); that is the question a reader brings."
+ },
+ {
+  "id": "S011",
+  "level": 2,
+  "heading": "The Map Past Oneness",
+  "was": "Then I Found The Map Past Oneness",
+  "kind": "fit",
+  "why": "Was cut; his phrase without 'Then I Found'."
+ },
+ {
+  "id": "S012",
+  "level": 2,
+  "heading": "The Suttas on Unification",
+  "was": "What the Suttas Say About Unification",
+  "kind": "fit",
+  "why": "Was cut; same promise, shorter."
+ },
+ {
+  "id": "S013",
+  "level": 2,
+  "heading": "The Bāhiya Sutta",
+  "was": "AtR pointed me to the Bāhiya Sutta",
+  "kind": "fit",
+  "why": "Was cut before the sutta's name showed; the name is what a reader looks for."
+ },
+ {
+  "id": "S014",
+  "level": 3,
+  "heading": "Dōgen's Myriad Things",
+  "was": "The Myriad Things Experience Themselves",
+  "kind": "reader",
+  "why": "Was cut. Adds the name a reader would look for (Dōgen) and keeps his 'myriad things'."
+ },
+ {
+  "id": "S015",
+  "level": 2,
+  "heading": "Desperation Did the Trick",
+  "was": "Desperation Did The Trick For Me & Bāhiya",
+  "kind": "fit",
+  "why": "Was cut; 'for me & Bāhiya' is in the first line of the section."
+ },
+ {
+  "id": "S016",
+  "level": 2,
+  "heading": "The Room Event",
+  "was": "The Room Event",
+  "kind": "kept"
+ },
+ {
+  "id": "S017",
+  "level": 3,
+  "heading": "Nibbāna Is Unimaginable",
+  "was": "Nibbāna is describable but unimaginable",
+  "kind": "fit",
+  "why": "Was cut. 'Describable, Unimaginable' is tight; the unimaginable half is the section's point (the fish and air)."
+ },
+ {
+  "id": "S018",
+  "level": 3,
+  "heading": "Enlightened Fingers",
+  "was": "Your fingers are already enlightened, but your hand is deluded.",
+  "kind": "fit",
+  "why": "Was cut. Keeps his joke in two words; the full sentence can't fit an h3."
+ },
+ {
+  "id": "S019",
+  "level": 3,
+  "heading": "Two Scopes of Nibbāna",
+  "was": "Body-Limited and Body-Uncontained Nibbāna",
+  "kind": "reader",
+  "why": "Was cut, and both coinages together can't fit. The section says the two events differ only in scope; the coinages are defined in its first lines."
+ },
+ {
+  "id": "S020",
+  "level": 2,
+  "heading": "Stream Entered",
+  "was": "Stream entered",
+  "kind": "case",
+  "why": "Capital only."
+ },
+ {
+  "id": "S021",
+  "level": 1,
+  "heading": "The Enlightenment Manual",
+  "was": "The Enlightenment Manual",
+  "kind": "kept"
+ },
+ {
+  "id": "S022",
+  "level": 2,
+  "heading": "Spiritual Bypass Warning",
+  "was": "Spiritual Bypass Warning",
+  "kind": "kept"
+ },
+ {
+  "id": "S023",
+  "level": 3,
+  "heading": "Realization Isn't Enough",
+  "was": "Spiritual realization isn’t enough these days",
+  "kind": "fit",
+  "why": "Was cut, and repeated the parent's 'Spiritual' on the next line."
+ },
+ {
+  "id": "S024",
+  "level": 3,
+  "heading": "Friends Are Everything",
+  "was": "Spiritual friends are everything",
+  "kind": "fit",
+  "why": "Was cut, and repeated 'Spiritual' three lines running."
+ },
+ {
+  "id": "S025",
+  "level": 2,
+  "heading": "What's Next After Death?",
+  "was": "What’s Next?",
+  "kind": "reader",
+  "why": "Alone in a manual's contents 'What's Next?' reads as 'next steps'; the section asks what comes after death (rebirth)."
+ },
+ {
+  "id": "S026",
+  "level": 2,
+  "heading": "What Is \"Already Perfect\"?",
+  "was": "What “Already Perfect” Means",
+  "kind": "fit",
+  "why": "Was cut by a few letters; same question, fits."
+ },
+ {
+  "id": "S027",
+  "level": 2,
+  "heading": "Free Will vs Conditions",
+  "was": "Free Will Vs Conditions",
+  "kind": "case",
+  "why": "Lower-case 'vs' (heading_case.py)."
+ },
+ {
+  "id": "S028",
+  "level": 2,
+  "heading": "What \"Nibbāna\" Means",
+  "was": "What “Nibbāna” Is Actually Saying",
+  "kind": "fit",
+  "why": "Was cut; the section is about the word's meaning (unbinding)."
+ },
+ {
+  "id": "S029",
+  "level": 2,
+  "heading": "Nibbāna's Volume Knobs",
+  "was": "Nibbāna Has Volume & Tuning Knobs",
+  "kind": "fit",
+  "why": "Was cut; keeps his knobs."
+ },
+ {
+  "id": "S030",
+  "level": 3,
+  "heading": "My Nibbāna Taxonomy",
+  "was": "My Nibbāna Taxonomy",
+  "kind": "kept"
+ },
+ {
+  "id": "S031",
+  "level": 2,
+  "heading": "Is Nibbāna an Experience?",
+  "was": "Nibbāna is a meditative state and attainment",
+  "kind": "reader",
+  "why": "Was cut. The objection the section answers ('nibbāna isn't an experience, just an attainment'), as the reader would ask it."
+ },
+ {
+  "id": "S032",
+  "level": 2,
+  "heading": "Contact Builds a World",
+  "was": "How Contact Builds a World",
+  "kind": "fit",
+  "why": "Fitted only tightly; without 'How' it fits with room and says the same."
+ },
+ {
+  "id": "S033",
+  "level": 3,
+  "heading": "Awareness Is Plural",
+  "was": "Awareness es",
+  "kind": "reader",
+  "why": "'Awareness es' relies on italics the sidebar doesn't show and reads as a typo there; this says its point."
+ },
+ {
+  "id": "S034",
+  "level": 3,
+  "heading": "Ignorance Is the Root",
+  "was": "Ignorance is the root",
+  "kind": "case",
+  "why": "Capitals only."
+ },
+ {
+  "id": "S035",
+  "level": 3,
+  "heading": "Why the Tangle Is Heavy",
+  "was": "Why the Tangle Is Heavy",
+  "kind": "kept"
+ },
+ {
+  "id": "S036",
+  "level": 3,
+  "heading": "Binding Makes the Mind",
+  "was": "Binding Assembles the Mind",
+  "kind": "fit",
+  "why": "Was cut by one word; 'Makes' for 'Assembles' fits, and doesn't echo 'Builds' in the parent on the line above."
+ },
+ {
+  "id": "S037",
+  "level": 3,
+  "heading": "Capacity for Suffering",
+  "was": "The Capacity for Suffering",
+  "kind": "fit",
+  "why": "Fitted only tightly; without 'The' it fits with room."
+ },
+ {
+  "id": "S038",
+  "level": 2,
+  "heading": "Nibbāna as Light Flows",
+  "was": "The Theory of Light Flows As Nibbāna",
+  "kind": "fit",
+  "why": "Was cut; same claim without 'The Theory of'."
+ },
+ {
+  "id": "S039",
+  "level": 3,
+  "heading": "Sutta Light Language",
+  "was": "Light Language Like Chantress Seba Never Seen Before!",
+  "kind": "reader",
+  "why": "Was cut, and the Chantress Seba joke doesn't tell a sidebar reader this is the light imagery in the suttas. Keeps his 'light language' pun."
+ },
+ {
+  "id": "S040",
+  "level": 3,
+  "heading": "Go Into the Light",
+  "was": "Go Into The Light",
+  "kind": "case",
+  "why": "Lower-case 'the'."
+ },
+ {
+  "id": "S041",
+  "level": 3,
+  "heading": "Isn't It \"Unconditioned\"?",
+  "was": "But isn’t nibbāna asaṅkhata , or “unconditioned”?",
+  "kind": "fit",
+  "why": "Was cut before the key word; the objection in the reader's words, with the word in quote marks."
+ },
+ {
+  "id": "S042",
+  "level": 3,
+  "heading": "Is Light Unfabricated?",
+  "was": "If nibbāna is “unfabricated,” is light also?",
+  "kind": "fit",
+  "why": "Was cut; the question alone fits."
+ },
+ {
+  "id": "S043",
+  "level": 3,
+  "heading": "Light Has No Time",
+  "was": "Light is unestablished, with no time, no reference point, like nibbāna",
+  "kind": "fit",
+  "why": "Was cut (70 characters). Names the Einstein parallel the section opens with; 'or Place' makes it tight."
+ },
+ {
+  "id": "S044",
+  "level": 2,
+  "heading": "What the Books Never Say",
+  "was": "What the Books Never Made Clear",
+  "kind": "fit",
+  "why": "Was cut; 'Never Made Clear' is tight even without 'Clear'."
+ },
+ {
+  "id": "S045",
+  "level": 2,
+  "heading": "How the Meaning Faded",
+  "was": "How the Experiential Key Can Fade",
+  "kind": "reader",
+  "why": "Was cut. 'Experiential key' needs the text to parse; the section says the words survived while the understanding faded."
+ },
+ {
+  "id": "S046",
+  "level": 2,
+  "heading": "Maps Make Counterfeits",
+  "was": "A Map Can Save Years – and Create Counterfeits",
+  "kind": "fit",
+  "why": "Was cut; both halves can't fit, so this keeps the half that is the section's warning, in his word."
+ },
+ {
+  "id": "S047",
+  "level": 2,
+  "heading": "AtR’s Authentication Culture",
+  "was": "AtR’s Authentication Culture",
+  "kind": "kept"
+ },
+ {
+  "id": "S048",
+  "level": 2,
+  "heading": "What Is Stream Entry?",
+  "was": "Entering The Stream To End Rebirth",
+  "kind": "reader",
+  "why": "Was cut. The section defines stream entry; that is the reader's question. Its children carry the rebirth part."
+ },
+ {
+  "id": "S049",
+  "level": 3,
+  "heading": "Practice Outlasts Death",
+  "was": "Practice can carry into a future life",
+  "kind": "fit",
+  "why": "Was cut; same point in three words."
+ },
+ {
+  "id": "S050",
+  "level": 3,
+  "heading": "Am I a Stream-Enterer?",
+  "was": "Stream-entry requires more than a 2-factor authentication key",
+  "kind": "reader",
+  "why": "Was cut. The section is his checklist for testing a claim to stream entry; the reader's question for it."
+ },
+ {
+  "id": "S051",
+  "level": 3,
+  "heading": "Who Gets Reborn?",
+  "was": "Ending the dream of saṃsāra",
+  "kind": "reader",
+  "why": "Was cut. The question the section answers (rebirth with no self); 'dream of saṃsāra' named the next section's image."
+ },
+ {
+  "id": "S052",
+  "level": 3,
+  "heading": "Waking From the Dream",
+  "was": "Why nibbāna is “awakening”",
+  "kind": "reader",
+  "why": "Was cut. The section is the dream analogy for awakening; keeps 'awakening' as an image and fits."
+ },
+ {
+  "id": "S053",
+  "level": 2,
+  "heading": "Science Can't Settle This",
+  "was": "Science Can’t Settle This, but You Can Test It",
+  "kind": "fit",
+  "why": "Was cut right after these words; the children say the test."
+ },
+ {
+  "id": "S054",
+  "level": 3,
+  "heading": "Try a Tiny Bit of Nibbāna",
+  "was": "Try a Tiny Bit of Nibbāna",
+  "kind": "kept"
+ },
+ {
+  "id": "S055",
+  "level": 3,
+  "heading": "Did It Work? Is It Safe?",
+  "was": "What Counts as Success, Confusion, or Danger",
+  "kind": "reader",
+  "why": "Was cut. The two questions a reader has after trying the practice, which the section answers."
+ },
+ {
+  "id": "S056",
+  "level": 3,
+  "heading": "What Remains Afterward",
+  "was": "What Remains Afterward",
+  "kind": "kept"
+ },
+ {
+  "id": "S057",
+  "level": 2,
+  "heading": "Then a Cow Killed Bāhiya",
+  "was": "Bāhiya Got Enlightened and Then a Cow Killed Him",
+  "kind": "fit",
+  "why": "Was cut before the cow, so the joke never showed; this keeps the cow and the 'then'."
+ },
+ {
+  "id": "S058",
+  "level": 2,
+  "heading": "Come and See for Yourself!",
+  "was": "Come and See for Yourself!",
+  "kind": "kept"
+ },
+ {
+  "id": "S059",
+  "level": 1,
+  "heading": "Appendix",
+  "was": "Appendix",
+  "kind": "kept"
+ },
+ {
+  "id": "S060",
+  "level": 2,
+  "heading": "Is It Safe When \"I\" Vanish?",
+  "was": "Are disappearing flashbacks dangerous or cool?",
+  "kind": "reader",
+  "why": "Was cut. 'Disappearing flashbacks' can't be parsed in the sidebar (flashbacks that disappear?); the section is about moments when the felt 'I' vanishes, on a bike or driving."
+ }
+]

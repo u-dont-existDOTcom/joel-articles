@@ -1,0 +1,590 @@
+{
+ "about": "Reviewed against the full text: each named section checked to really answer its situation, and the whole text searched for missed ones.",
+ "situations": {
+  "1": {
+   "right": [
+    "S028"
+   ],
+   "also": [
+    "S019"
+   ]
+  },
+  "2": {
+   "right": [
+    "S006"
+   ],
+   "also": [
+    "S009",
+    "S005",
+    "S017"
+   ]
+  },
+  "3": {
+   "right": [
+    "S001"
+   ],
+   "also": [
+    "S021",
+    "S023"
+   ]
+  },
+  "4": {
+   "right": [
+    "S010"
+   ],
+   "also": [
+    "S044",
+    "S045",
+    "S016"
+   ]
+  },
+  "5": {
+   "right": [
+    "S023"
+   ],
+   "also": [
+    "S047"
+   ]
+  },
+  "6": {
+   "right": [
+    "S054"
+   ],
+   "also": [
+    "S055",
+    "S056"
+   ]
+  },
+  "7": {
+   "right": [
+    "S055"
+   ],
+   "also": [
+    "S054",
+    "S056"
+   ]
+  },
+  "8": {
+   "right": [
+    "S060"
+   ],
+   "also": [
+    "S054"
+   ]
+  },
+  "9": {
+   "right": [
+    "S031"
+   ],
+   "also": [
+    "S011"
+   ]
+  },
+  "10": {
+   "right": [
+    "S050"
+   ],
+   "also": [
+    "S048",
+    "S046"
+   ]
+  },
+  "11": {
+   "right": [
+    "S047"
+   ],
+   "also": [
+    "S050"
+   ]
+  },
+  "12": {
+   "right": [
+    "S048"
+   ],
+   "also": [
+    "S049",
+    "S052",
+    "S051"
+   ]
+  },
+  "13": {
+   "right": [
+    "S049"
+   ],
+   "also": [
+    "S048"
+   ]
+  },
+  "14": {
+   "right": [
+    "S051"
+   ],
+   "also": [
+    "S036"
+   ]
+  },
+  "15": {
+   "right": [
+    "S016"
+   ],
+   "also": [
+    "S017",
+    "S020"
+   ]
+  },
+  "16": {
+   "right": [
+    "S018"
+   ],
+   "also": [
+    "S019",
+    "S030"
+   ]
+  },
+  "17": {
+   "right": [
+    "S012"
+   ],
+   "also": [
+    "S011"
+   ]
+  },
+  "18": {
+   "right": [
+    "S013"
+   ],
+   "also": [
+    "S038",
+    "S057"
+   ]
+  },
+  "19": {
+   "right": [
+    "S057"
+   ],
+   "also": [
+    "S058",
+    "S013"
+   ]
+  },
+  "20": {
+   "right": [
+    "S043"
+   ],
+   "also": [
+    "S042",
+    "S041",
+    "S035",
+    "S038"
+   ]
+  },
+  "21": {
+   "right": [
+    "S046"
+   ],
+   "also": [
+    "S057",
+    "S010"
+   ]
+  },
+  "22": {
+   "right": [
+    "S034"
+   ],
+   "also": [
+    "S035",
+    "S036"
+   ]
+  },
+  "23": {
+   "right": [
+    "S037"
+   ],
+   "also": [
+    "S053"
+   ]
+  },
+  "24": {
+   "right": [
+    "S020"
+   ],
+   "also": [
+    "S048",
+    "S047",
+    "S050"
+   ]
+  },
+  "25": {
+   "right": [
+    "S003",
+    "S004"
+   ],
+   "also": []
+  },
+  "26": {
+   "right": [
+    "S015"
+   ],
+   "also": [
+    "S020",
+    "S025",
+    "S025"
+   ]
+  },
+  "27": {
+   "right": [
+    "S024"
+   ],
+   "also": []
+  },
+  "28": {
+   "right": [
+    "S033"
+   ],
+   "also": [
+    "S007",
+    "S027",
+    "S027",
+    "S044"
+   ]
+  },
+  "29": {
+   "right": [
+    "S009"
+   ],
+   "also": [
+    "S006",
+    "S046"
+   ]
+  },
+  "30": {
+   "right": [
+    "S026"
+   ],
+   "also": [
+    "S027",
+    "S024",
+    "S023"
+   ]
+  },
+  "31": {
+   "right": [
+    "S053"
+   ],
+   "also": [
+    "S037"
+   ]
+  },
+  "32": {
+   "right": [
+    "S040"
+   ],
+   "also": [
+    "S039",
+    "S016",
+    "S026",
+    "S025"
+   ]
+  },
+  "33": {
+   "right": [
+    "S029"
+   ],
+   "also": [
+    "S030",
+    "S054"
+   ]
+  },
+  "34": {
+   "right": [
+    "S008"
+   ],
+   "also": [
+    "S001",
+    "S023"
+   ]
+  },
+  "35": {
+   "right": [
+    "S032"
+   ],
+   "also": [
+    "S036",
+    "S038",
+    "S028",
+    "S034"
+   ]
+  },
+  "36": {
+   "right": [
+    "S011",
+    "S014"
+   ],
+   "also": [
+    "S047",
+    "S007",
+    "S012"
+   ]
+  }
+ },
+ "changes": [
+  {
+   "situation": "1",
+   "change": "removed",
+   "id": "S030",
+   "why": "Taxonomy of nibbana types says nothing on the word's origin"
+  },
+  {
+   "situation": "2",
+   "change": "added also",
+   "id": "S017",
+   "why": "Says psychedelic trips give unity, not nibbana: bears on whether the experience was real"
+  },
+  {
+   "situation": "2",
+   "change": "removed",
+   "id": "S007",
+   "why": "Describes the seeker marketplace, does not address whether the drug experience was real"
+  },
+  {
+   "situation": "4",
+   "change": "added also",
+   "id": "S016",
+   "why": "Gives the plain description of what the goal felt like"
+  },
+  {
+   "situation": "5",
+   "change": "removed",
+   "id": "S024",
+   "why": "Community/mirror passage does not help tell real from fake teachers"
+  },
+  {
+   "situation": "7",
+   "change": "added also",
+   "id": "S056",
+   "why": "Reassures that unification usually returns afterward"
+  },
+  {
+   "situation": "9",
+   "change": "removed",
+   "id": "S030",
+   "why": "Does not speak to the experience-or-not dispute"
+  },
+  {
+   "situation": "9",
+   "change": "added also",
+   "id": "S011",
+   "why": "Reports the AtR view that nibbana is not an experience and the author's disagreement"
+  },
+  {
+   "situation": "14",
+   "change": "removed",
+   "id": "S025",
+   "why": "Only raises rebirth as a cycle; no account of who is reborn"
+  },
+  {
+   "situation": "14",
+   "change": "removed",
+   "id": "S052",
+   "why": "Dream analogy for seven lives, not about who is reborn"
+  },
+  {
+   "situation": "14",
+   "change": "added also",
+   "id": "S036",
+   "why": "Chariot analogy: a 'being' is an assembly with no permanent self"
+  },
+  {
+   "situation": "15",
+   "change": "removed",
+   "id": "S019",
+   "why": "Term definitions and summary, not the story of the experience"
+  },
+  {
+   "situation": "15",
+   "change": "added also",
+   "id": "S020",
+   "why": "What was left afterward in the author's life"
+  },
+  {
+   "situation": "16",
+   "change": "added also",
+   "id": "S030",
+   "why": "Defines body-limited nibbana, the fingers event"
+  },
+  {
+   "situation": "18",
+   "change": "removed",
+   "id": "S014",
+   "why": "Dogen quote is not the Bahiya teaching"
+  },
+  {
+   "situation": "18",
+   "change": "added also",
+   "id": "S057",
+   "why": "Gives the rest of the Bahiya story"
+  },
+  {
+   "situation": "20",
+   "change": "removed",
+   "id": "S039",
+   "why": "Light in the suttas, no physics link"
+  },
+  {
+   "situation": "20",
+   "change": "added also",
+   "id": "S035",
+   "why": "Binding energy and mass in physics tied to suffering"
+  },
+  {
+   "situation": "20",
+   "change": "added also",
+   "id": "S038",
+   "why": "Physics 101: solidity is electromagnetic, tied to nibbana"
+  },
+  {
+   "situation": "21",
+   "change": "removed",
+   "id": "S047",
+   "why": "About AtR's authentication culture, not whether to publish"
+  },
+  {
+   "situation": "21",
+   "change": "added also",
+   "id": "S010",
+   "why": "Explains monastic secrecy rules and why teachers stay vague"
+  },
+  {
+   "situation": "23",
+   "change": "removed",
+   "id": "S050",
+   "why": "Rubric for judging stream entry, not about split-brain or suffering"
+  },
+  {
+   "situation": "23",
+   "change": "added also",
+   "id": "S053",
+   "why": "Mentions people functioning with no felt controller and split-brain findings"
+  },
+  {
+   "situation": "24",
+   "change": "added also",
+   "id": "S047",
+   "why": "Frank suffered much less yet was not stream entry: bears on whether feeling better counts"
+  },
+  {
+   "situation": "24",
+   "change": "added also",
+   "id": "S050",
+   "why": "Rubric for judging whether an opening is stream entry"
+  },
+  {
+   "situation": "25",
+   "change": "removed",
+   "id": "S002",
+   "why": "About why he writes, not his upbringing"
+  },
+  {
+   "situation": "26",
+   "change": "added also",
+   "id": "S025",
+   "why": "Says deepest realizations came when fed up with life"
+  },
+  {
+   "situation": "27",
+   "change": "removed",
+   "id": "S023",
+   "why": "About reparenting and bypassing, not isolation"
+  },
+  {
+   "situation": "28",
+   "change": "added also",
+   "id": "S027",
+   "why": "Argues monist 'everything is One' is mistaken and gives the Buddha's flows view"
+  },
+  {
+   "situation": "28",
+   "change": "added also",
+   "id": "S044",
+   "why": "Says consciousness-first Advaita fails because consciousness and mind-body support each other"
+  },
+  {
+   "situation": "29",
+   "change": "added also",
+   "id": "S006",
+   "why": "Afterglow lasted 1-2 weeks, then faded"
+  },
+  {
+   "situation": "29",
+   "change": "added also",
+   "id": "S046",
+   "why": "Nibbana without preparation leaves nothing lasting"
+  },
+  {
+   "situation": "30",
+   "change": "removed",
+   "id": "S025",
+   "why": "Only passing mention of 'perfect'"
+  },
+  {
+   "situation": "30",
+   "change": "added also",
+   "id": "S024",
+   "why": "Says friends help you see everything is perfect while still supporting you"
+  },
+  {
+   "situation": "30",
+   "change": "added also",
+   "id": "S023",
+   "why": "Warns that transcendence without shadow work becomes spiritual bypassing"
+  },
+  {
+   "situation": "31",
+   "change": "removed",
+   "id": "S040",
+   "why": "Death-light traditions, not science"
+  },
+  {
+   "situation": "32",
+   "change": "added also",
+   "id": "S026",
+   "why": "Dying man's final insight that everything is already perfect"
+  },
+  {
+   "situation": "32",
+   "change": "added also",
+   "id": "S025",
+   "why": "Death, rebirth and meeting his dying father"
+  },
+  {
+   "situation": "35",
+   "change": "added also",
+   "id": "S028",
+   "why": "Fastening of sensory flows into one consciousness, self and world"
+  },
+  {
+   "situation": "35",
+   "change": "added also",
+   "id": "S034",
+   "why": "Flows tangling into one world and what keeps them tangled"
+  },
+  {
+   "situation": "36",
+   "change": "added right",
+   "id": "S014",
+   "why": "Dogen, the Zen teacher, on the same event, is the direct answer"
+  },
+  {
+   "situation": "36",
+   "change": "added also",
+   "id": "S007",
+   "why": "Assesses the BatGap/modern marketplace teachers"
+  },
+  {
+   "situation": "36",
+   "change": "added also",
+   "id": "S012",
+   "why": "Says most BatGap and Liberation Unleashed claimants settle into oneness"
+  }
+ ]
+}
