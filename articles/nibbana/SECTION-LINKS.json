@@ -4,7 +4,7 @@
   "id": "209400477",
   "title": "What If Everything Is Already Perfect? (v2.2)"
  },
- "source": "Built 2026-11-23 by experiments/toc-20261123/build_catalog.py from his contents picks as published at 18:01:47 UTC: headings and anchors read from the live page, links from PLAN.json (all 13 checked on the live page: each lands on a heading)",
+ "source": "Built 2026-11-23 by experiments/toc-20261123/build_catalog.py from his contents picks as published at 18:01:47 UTC: headings and anchors read from the live page, links from PLAN.json (all 13 checked on the live page: each lands on a heading); at 19:39 UTC he published the flashbacks section back at the end, and at 19:46 UTC his headings \"Checking If It Worked\" (S055) and \"Disappearing Flashbacks?\" (S060), each through section_links.py rename (no links to change)",
  "headings": [
   {
    "id": "S001",
@@ -327,20 +327,14 @@
   {
    "id": "S055",
    "level": 3,
-   "text": "What Counts as Success, Confusion, or Danger",
-   "anchor": "what-counts-as-success-confusion-or-danger"
+   "text": "Checking If It Worked",
+   "anchor": "checking-if-it-worked"
   },
   {
    "id": "S056",
    "level": 3,
    "text": "What Remains Afterward",
    "anchor": "what-remains-afterward"
-  },
-  {
-   "id": "S060",
-   "level": 2,
-   "text": "Are disappearing flashbacks dangerous or cool?",
-   "anchor": "are-disappearing-flashbacks-dangerous-or-cool"
   },
   {
    "id": "S057",
@@ -353,6 +347,12 @@
    "level": 2,
    "text": "Come and See for Yourself!",
    "anchor": "come-and-see-for-yourself"
+  },
+  {
+   "id": "S060",
+   "level": 2,
+   "text": "Disappearing Flashbacks?",
+   "anchor": "disappearing-flashbacks"
   }
  ],
  "links": [
