@@ -1,0 +1,36 @@
+{
+ "format": "joel-suggestion-review-answers-v1",
+ "review_id": "bad-trips-r53",
+ "title": "Bad Trips Guide, Round 53",
+ "git_file": "articles/bad-trips/review/r53/REVIEW-R53.html",
+ "article": {
+  "file": "articles/bad-trips/review/r53/PAGE-R53.md",
+  "sha256": "7e0cb19db54faa5060ecbc429f413d725f17662003e7ec4afbd548da5901b636"
+ },
+ "built": "2026-11-24",
+ "generator": "suggestion_review.py 1.13 (2026-11-23)",
+ "exported_at": "2026-11-24T14:20:26.268Z",
+ "counts": {
+  "approved": 0,
+  "rejected": 0,
+  "revise": 0,
+  "pending": 1
+ },
+ "items": [
+  {
+   "id": "MAPS-SETTING",
+   "type": "question",
+   "title": "1. Your dance paragraph: the MAPS trials",
+   "where": "MDMA: Magnesium Alarm, P6",
+   "advice": "ask",
+   "status": "answered",
+   "question": "Your new paragraph says real MDMA \"isn't the kind people want to dance on, which is why you don't see people in the MAPS trials of MDMA therapy saying \"I NEED TO DANCE!\" No, they're sitting there doing the therapy\".\nWhat I found: in those sessions people settle into a comfortable position and are encouraged to put on eyeshades and listen to a set playlist, turned inward, and the trial's own write-up contrasts that with recreational use, which it describes as focused outward ([the trial's therapy description](https://psychiatryonline.org/doi/suppl/10.1176/appi.ajp.20230681/suppl_file/appi.ajp.20230681.ds001.pdf)). One of my fresh readers, reading as someone going to a festival, said the same: the trials are a clinic setting, not a festival.\na) Keep it as it is.\nb) Say the setting is part of it, in your words in the box.\nc) Cut the MAPS line and let \"I can barely move\" carry it.",
+   "your_version": "",
+   "comment": "It's not because of the setting. i've been in the same exact setting takign different mdma, some makes you want to dance, some makes you almost incapable of moving",
+   "my_version": "",
+   "before": "",
+   "history": [],
+   "updated": "2026-11-24T14:20:20.981Z"
+  }
+ ]
+}

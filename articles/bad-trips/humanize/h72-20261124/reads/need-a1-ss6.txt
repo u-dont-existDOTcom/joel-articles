@@ -1,0 +1,17 @@
+NEEDS:
+S1: The rule for fluids: only if fully alert, able to swallow and not vomiting, and then only small sips of an electrolyte drink. Without it the reader might force fluids on someone who could choke or vomit.
+S2: First half of one sentence that the link title's colon has split in two ("If they still show the signs of low electrolytes from MDMA: Magnesium Alarm above"). It tells the reader which signs to check for and where the list is, to decide whether a normal drink is enough. Needs S3 to make sense.
+S3: Tells the reader that if those signs persist, a normal electrolyte drink is not enough and they should give extra salt, potassium and magnesium. This starts the "what to give" part.
+S4: What to give for salt and potassium (salty potato chips, no cooking, as many as they want).
+S5: Implies the act "don't give potassium pills, powders or supplements; chips only". It is the safety limit on S4.
+S6: Implies "don't assume potassium is low and keep pushing it; it may be high". It sets up the stop rule in S8.
+S7: Only the reason potassium can be low or high (MDMA, muscle breakdown). The reader acts on S6 and S8 without it. See UNNEEDED.
+S8: The stop rule: if they start vomiting or get diarrhea, stop the chips. The reader needs this. The last clause ("and they drain the potassium out again") is muddled: "they" could mean the friend or the symptoms, and vomiting that drains potassium seems to argue for more chips, not fewer. The reader can do the act without that clause.
+S9: Implies "give magnesium to any friend with serotonin syndrome, not only when MDMA signs show". It is the reason S10 applies broadly, so it is needed.
+S10: How to give magnesium: stir a handful of magnesium chloride flakes into a little water and rub it on the skin, because it tastes too bad to drink.
+S11: What to use if there are no flakes (Epsom salt, magnesium sulfate, works less well), and that it is not table salt, so the reader doesn't confuse them.
+S12: The option to take magnesium chloride by mouth if they can stand the taste, especially with jaw tension or twitching, and where the amounts are. The reader needs this to give a dose by mouth. Like S2 it is split by the link title's colon.
+S13: The second half of S12's split link ("Magnesium Alarm, above"). It tells the reader where to find the amounts, so it is needed.
+
+UNNEEDED:
+- S7: "MDMA drains potassium, while muscle breaking down into the blood pushes it up." — This only explains why potassium can be low or high. S6 already says it could be high and S8 gives the stop rule, so the reader can lose it. If it goes, S6 should end in a full stop instead of a colon.

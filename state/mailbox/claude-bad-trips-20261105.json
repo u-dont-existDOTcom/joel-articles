@@ -2568,6 +2568,41 @@
     }
    ],
    "recorded_utc": "2026-11-24T01:30Z"
+  },
+  {
+   "turn": "2026-11-24T14:20Z",
+   "lines_of_work": [
+    "bad trips guide"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "live default branch 3d79cc8 (unchanged; read-only clone re-fetched at 14:21 UTC); suggested-fixes lane: the same six items, all in the ledger"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "pull requests 509 to 512 from the romance lane merged, and this lane's 508; no new issues, comments or reviews on this lane's pull requests"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no edits by others to this lane's handoff note, questions page or state since 508"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "his round-53 export of 14:20 UTC: MAPS-SETTING answered in a comment"
+    }
+   ],
+   "items": [
+    {
+     "item": "his round-53 export of 14:20 UTC",
+     "outcome": "this turn: his answer that the setting isn't the reason, checked through the API before it goes in; then the Medium windows of steps 6 and 8"
+    }
+   ],
+   "recorded_utc": "2026-11-24T14:22Z"
   }
  ]
 }
