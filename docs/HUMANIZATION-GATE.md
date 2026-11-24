@@ -1492,6 +1492,9 @@ His message: `articles/inner-signal/humanize/fix-20261026/joel-20261026-1243-mes
   both went when the one thing a reader could take two ways was fixed in the first of them (a dose said as "the doses
   used to end a trip" in a sentence that had already said "for ending a trip"), the other sentence untouched. The ledger's
   near-miss rule refused the rewrite of both that I tried first (lesson bad-trips-2026-11-24g).
+  Where a window stays AI in every try and its words are a warning's fidelity keys ("toxicity", "intervention",
+  "broader"), saying them plainer is the owner's call: the paragraph goes to him as a teaching card naming the held
+  words, with the tries and what they read, and the text stays his until he answers (lesson bad-trips-2026-11-24k).
 - **E279. A word of his that a sample drops goes back before the gate.** Batch 481 (the guide's Emulate versions of 24
   stretches at less than High) lost five of its drafts in the gate's first round, each on one word or mark: Emulate
   dropped his "genuinely" ("two genuinely safe routes"), his "still" ("What boundaries are still needed?"), his
