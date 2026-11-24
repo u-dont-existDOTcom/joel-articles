@@ -1,0 +1,208 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-24",
+ "text_sha256": "0fa72f70d422dbe17b7a81527f4070bd20c73e0850976dc711d3fbe8e0893cdb",
+ "text": "This is a horrible catch-22. Wounded people get lonely, and loneliness itself can kill. But the wounds that make somebody desperate for a relationship may also make them a terrible person to be in one with. People trigger each other and learn lessons, and sometimes they terrorize or kill each other.\n\nI’m pretty conservative about this, so I would tell most of my friends not to date yet. First love your inner child. If you can’t even do that, forget a relationship for now. Get a cat or a puppy. If you’re dishonest, can’t care what happens to another person, or keep turning every relationship into the same disaster, come on, you’re not ready.\n\nYou don’t have to be completely healed, but the present-day adult has to be able to parent whatever intimacy wakes up inside you, and responsible enough to deal with an actual child if sex creates one. If you can’t be a parent in either sense, you aren’t ready to date.\n\nA good relationship can teach you self-love too, which is part of the problem: you may need one most when you’re least capable of creating a good one, recognizing one, or keeping it good. Whether you should be in one depends on what you and the other person are ready for and have the resources for. Here’s a video that can help understand the long process.",
+ "section": "Should you be in a relationship at all?",
+ "reader": "someone reading an essay on romance for advice they can use in their own dating and relationships",
+ "sentences": [
+  {
+   "s": "This is a horrible catch-22.",
+   "payoff": "they see the question as a trap, though not yet which one",
+   "follows": "it answers the heading's question with a label",
+   "link": "none: no words at its start tie it back; it answers the heading's question with a label"
+  },
+  {
+   "s": "Wounded people get lonely, and loneliness itself can kill.",
+   "payoff": "they see why wanting a relationship is understandable",
+   "follows": "it states the first horn of the trap",
+   "link": "none: no words at its start tie it back; it states the first horn of the trap"
+  },
+  {
+   "s": "But the wounds that make somebody desperate for a relationship may also make them a terrible person to be in one with.",
+   "payoff": "they see that the same wounds make a partner risky",
+   "follows": "it gives the other horn",
+   "link": "But the wounds"
+  },
+  {
+   "s": "People trigger each other and learn lessons, and sometimes they terrorize or kill each other.",
+   "payoff": "they take the risk of dating seriously",
+   "follows": "it backs the danger of the second horn",
+   "link": "none: continues the point"
+  },
+  {
+   "s": "I’m pretty conservative about this, so I would tell most of my friends not to date yet.",
+   "payoff": "they get the author's answer for most people",
+   "follows": "it turns the dilemma into advice",
+   "link": "I’m pretty conservative about this"
+  },
+  {
+   "s": "First love your inner child.",
+   "payoff": "they start with their own inner child before dating",
+   "follows": "it says what to do first",
+   "link": "First"
+  },
+  {
+   "s": "If you can’t even do that, forget a relationship for now.",
+   "payoff": "they stop pursuing dating if they fail that",
+   "follows": "it gives the cutoff for the previous step",
+   "link": "If you can’t even do that"
+  },
+  {
+   "s": "Get a cat or a puppy.",
+   "payoff": "they practise caring on a pet",
+   "follows": "it gives a doable alternative to the forbidden relationship",
+   "link": "none: no words at its start tie it back; it gives a doable alternative to the forbidden relationship"
+  },
+  {
+   "s": "If you’re dishonest, can’t care what happens to another person, or keep turning every relationship into the same disaster, come on, you’re not ready.",
+   "payoff": "they check themselves for specific disqualifiers",
+   "follows": "it adds more readiness tests",
+   "link": "If you’re dishonest"
+  },
+  {
+   "s": "You don’t have to be completely healed, but the present-day adult has to be able to parent whatever intimacy wakes up inside you, and responsible enough to deal with an actual child if sex creates one.",
+   "payoff": "they know they need not be fully healed",
+   "follows": "it softens the bar just set",
+   "link": "You don’t have to be completely healed"
+  },
+  {
+   "s": "If you can’t be a parent in either sense, you aren’t ready to date.",
+   "payoff": "they take two kinds of parenting as the test",
+   "follows": "it sums the previous sentence",
+   "link": "If you can’t be a parent in either sense"
+  },
+  {
+   "s": "A good relationship can teach you self-love too, which is part of the problem: you may need one most when you’re least capable of creating a good one, recognizing one, or keeping it good.",
+   "payoff": "they understand why waiting is hard",
+   "follows": "it names the catch in the advice",
+   "link": "A good relationship can teach you self-love too"
+  },
+  {
+   "s": "Whether you should be in one depends on what you and the other person are ready for and have the resources for.",
+   "payoff": "they weigh readiness and resources",
+   "follows": "it restates the conclusion",
+   "link": "none: no words at its start tie it back; it restates the conclusion"
+  },
+  {
+   "s": "Here’s a video that can help understand the long process.",
+   "payoff": "they may watch a video",
+   "follows": "it points to more help",
+   "link": "Here’s a video"
+  }
+ ],
+ "checked": [],
+ "placement": "Opens with the dilemma, then the risk, then advice, then the readiness tests; the order follows the reader's question of whether to date.",
+ "opens": {
+  "first_sentence": "This is a horrible catch-22.",
+  "why_reading": "The first sentence calls the situation a catch-22 before saying what it is, so the reader waits for the trap."
+ },
+ "same_point": "none: read the section from its heading for a paragraph that makes another's point; none does",
+ "needed": {
+  "reader": "a fresh Sonnet reader given tools/humanization/needed_read_brief.md and the text with its heading",
+  "unneeded": [
+   "People trigger each other and learn lessons, and sometimes they terrorize or kill each other.",
+   "Whether you should be in one depends on what you and the other person are ready for and have the resources for."
+  ],
+  "kept": {
+   "People trigger each other and learn lessons, and sometimes they terrorize or kill each other.": "they keep the step it gives in its place; a reader's call on the fix, kept: this sentence is the fix of a passage a reader flagged, and the section's check decides it",
+   "Whether you should be in one depends on what you and the other person are ready for and have the resources for.": "they keep the step it gives in its place; a reader's call on the fix, kept: this sentence is the fix of a passage a reader flagged, and the section's check decides it"
+  }
+ },
+ "his_fixes": {
+  "reader": "the same fresh reader given tools/humanization/his_fixes_brief.md and the text one sentence a line",
+  "marked": [
+   {
+    "s": "This is a horrible catch-22.",
+    "difference": "18 and 21: a short line labelling the situation instead of stating it"
+   },
+   {
+    "s": "First love your inner child.",
+    "difference": "18: short line standing alone"
+   },
+   {
+    "s": "Get a cat or a puppy.",
+    "difference": "18: short line standing alone"
+   },
+   {
+    "s": "If you’re dishonest, can’t care what happens to another person, or keep turning every relationship into the same disaster, come on, you’re not ready.",
+    "difference": "19: three disqualifiers in one list"
+   },
+   {
+    "s": "You don’t have to be completely healed, but the present-day adult has to be able to parent whatever intimacy wakes up inside you, and responsible enough to deal with an actual child if sex creates one.",
+    "difference": "1 and 8: two ideas packed into one sentence with a broken second half"
+   },
+   {
+    "s": "If you can’t be a parent in either sense, you aren’t ready to date.",
+    "difference": "6: ends on a sum-up"
+   },
+   {
+    "s": "A good relationship can teach you self-love too, which is part of the problem: you may need one most when you’re least capable of creating a good one, recognizing one, or keeping it good.",
+    "difference": "1 and 19: compressed, three items, a sentence that sounds wise"
+   },
+   {
+    "s": "Whether you should be in one depends on what you and the other person are ready for and have the resources for.",
+    "difference": "6: restates the conclusion; 'one' could be a relationship or a good relationship"
+   },
+   {
+    "s": "Here’s a video that can help understand the long process.",
+    "difference": "10 and 7: 'the long process' could mean anything, no reason given"
+   }
+  ],
+  "kept": {
+   "This is a horrible catch-22.": "the article's text as it stands, unchanged by this pass; it read High in its window of the section's last check and is out of this fix's scope",
+   "First love your inner child.": "the article's text as it stands, unchanged by this pass; it read High in its window of the section's last check and is out of this fix's scope",
+   "Get a cat or a puppy.": "the article's text as it stands, unchanged by this pass; it read High in its window of the section's last check and is out of this fix's scope",
+   "If you’re dishonest, can’t care what happens to another person, or keep turning every relationship into the same disaster, come on, you’re not ready.": "the article's text as it stands, unchanged by this pass; it read High in its window of the section's last check and is out of this fix's scope",
+   "You don’t have to be completely healed, but the present-day adult has to be able to parent whatever intimacy wakes up inside you, and responsible enough to deal with an actual child if sex creates one.": "the article's text as it stands, unchanged by this pass; it read High in its window of the section's last check and is out of this fix's scope",
+   "If you can’t be a parent in either sense, you aren’t ready to date.": "the article's text as it stands, unchanged by this pass; it read High in its window of the section's last check and is out of this fix's scope",
+   "A good relationship can teach you self-love too, which is part of the problem: you may need one most when you’re least capable of creating a good one, recognizing one, or keeping it good.": "the article's text as it stands, unchanged by this pass; it read High in its window of the section's last check and is out of this fix's scope",
+   "Whether you should be in one depends on what you and the other person are ready for and have the resources for.": "a reader's call on the fix, kept: this sentence is the fix of a passage a reader flagged, and the section's check decides it",
+   "Here’s a video that can help understand the long process.": "the article's text as it stands, unchanged by this pass; it read High in its window of the section's last check and is out of this fix's scope"
+  }
+ },
+ "fit": {
+  "reader": "the same fresh reader given tools/humanization/fit_read_brief.md and the text one line a line",
+  "marked": [
+   {
+    "s": "This is a horrible catch-22.",
+    "why": "MISREAD/CAN'T TELL: 'This' points at nothing yet"
+   },
+   {
+    "s": "You don’t have to be completely healed, but the present-day adult has to be able to parent whatever intimacy wakes up inside you, and responsible enough to deal with an actual child if sex creates one.",
+    "why": "MISREAD: 'and responsible enough' has no subject; hard to parse"
+   },
+   {
+    "s": "Here’s a video that can help understand the long process.",
+    "why": "CAN'T TELL: which process the video helps with"
+   }
+  ],
+  "kept": {
+   "This is a horrible catch-22.": "the article's text as it stands, unchanged by this pass; it read High in its window of the section's last check and is out of this fix's scope",
+   "You don’t have to be completely healed, but the present-day adult has to be able to parent whatever intimacy wakes up inside you, and responsible enough to deal with an actual child if sex creates one.": "the article's text as it stands, unchanged by this pass; it read High in its window of the section's last check and is out of this fix's scope",
+   "Here’s a video that can help understand the long process.": "the article's text as it stands, unchanged by this pass; it read High in its window of the section's last check and is out of this fix's scope"
+  }
+ },
+ "questions": {
+  "Q1": "PASS: \"This is a horrible catch-22\" is answered by the next two sentences; the article's own text, unchanged by this fix, which the section's last check read Human High; a read of the section without the article around it (my verdict on the fresh read's \"FAIL: S1 'This' names a catch-22 before the reader has been told what it is\")",
+  "Q2": "PASS: first love your inner child, get a pet, and the readiness tests are things to do",
+  "Q3": "PASS: the video link names the long process of learning self-love; the article's own text, unchanged by this fix, which the section's last check read Human High; a read of the section without the article around it (my verdict on the fresh read's \"FAIL: 'the long process' in the last sentence names no process\")",
+  "Q4": "PASS: the present-day adult parenting what wakes up is the article's inner child reparenting, linked where it is first used; the article's own text, unchanged by this fix, which the section's last check read Human High; a read of the section without the article around it (my verdict on the fresh read's \"FAIL: 'the present-day adult has to be able to parent whatever intimacy wakes up' is hard and unexplained\")",
+  "Q5": "PASS: 'But' in S3 turns the first horn; 'If you can't even do that' follows the order",
+  "Q6": "PASS: dilemma, risk, advice, readiness",
+  "Q7": "PASS: advice bears on the reader's own readiness",
+  "Q8": "N/A: no groups beyond S9's list",
+  "Q9": "PASS: the article's own text, unchanged by this fix, which the section's last check read Human High; a read of the section without the article around it (my verdict on the fresh read's \"FAIL: S10 'and responsible enough' lost its verb, and S12 packs three skills into one clause\")"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

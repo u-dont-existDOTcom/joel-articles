@@ -1,0 +1,661 @@
+{
+ "r38-10-should-you-be-in-a-relationship-at-all": {
+  "sentences": [
+   {
+    "payoff": "they see the question as a trap, though not yet which one",
+    "follows": "it answers the heading's question with a label",
+    "link": "none: opens the section"
+   },
+   {
+    "payoff": "they see why wanting a relationship is understandable",
+    "follows": "it states the first horn of the trap",
+    "link": "none: no tie word"
+   },
+   {
+    "payoff": "they see that the same wounds make a partner risky",
+    "follows": "it gives the other horn",
+    "link": "But the wounds"
+   },
+   {
+    "payoff": "they take the risk of dating seriously",
+    "follows": "it backs the danger of the second horn",
+    "link": "none: continues the point"
+   },
+   {
+    "payoff": "they get the author's answer for most people",
+    "follows": "it turns the dilemma into advice",
+    "link": "I’m pretty conservative about this"
+   },
+   {
+    "payoff": "they start with their own inner child before dating",
+    "follows": "it says what to do first",
+    "link": "First"
+   },
+   {
+    "payoff": "they stop pursuing dating if they fail that",
+    "follows": "it gives the cutoff for the previous step",
+    "link": "If you can’t even do that"
+   },
+   {
+    "payoff": "they practise caring on a pet",
+    "follows": "it gives a doable alternative to the forbidden relationship",
+    "link": "none: next instruction"
+   },
+   {
+    "payoff": "they check themselves for specific disqualifiers",
+    "follows": "it adds more readiness tests",
+    "link": "If you’re dishonest"
+   },
+   {
+    "payoff": "they know they need not be fully healed",
+    "follows": "it softens the bar just set",
+    "link": "You don’t have to be completely healed"
+   },
+   {
+    "payoff": "they take two kinds of parenting as the test",
+    "follows": "it sums the previous sentence",
+    "link": "If you can’t be a parent in either sense"
+   },
+   {
+    "payoff": "they understand why waiting is hard",
+    "follows": "it names the catch in the advice",
+    "link": "A good relationship can teach you self-love too"
+   },
+   {
+    "payoff": "they weigh readiness and resources",
+    "follows": "it restates the conclusion",
+    "link": "none: restates"
+   },
+   {
+    "payoff": "they may watch a video",
+    "follows": "it points to more help",
+    "link": "Here’s a video"
+   }
+  ],
+  "placement": "Opens with the dilemma, then the risk, then advice, then the readiness tests; the order follows the reader's question of whether to date.",
+  "why_reading": "The first sentence calls the situation a catch-22 before saying what it is, so the reader waits for the trap.",
+  "same_point": "none: read the section from its heading for a paragraph that makes another's point; none does",
+  "questions": {
+   "Q1": "FAIL: S1 'This' names a catch-22 before the reader has been told what it is",
+   "Q2": "PASS: first love your inner child, get a pet, and the readiness tests are things to do",
+   "Q3": "FAIL: 'the long process' in the last sentence names no process",
+   "Q4": "FAIL: 'the present-day adult has to be able to parent whatever intimacy wakes up' is hard and unexplained",
+   "Q5": "PASS: 'But' in S3 turns the first horn; 'If you can't even do that' follows the order",
+   "Q6": "PASS: dilemma, risk, advice, readiness",
+   "Q7": "PASS: advice bears on the reader's own readiness",
+   "Q8": "N/A: no groups beyond S9's list",
+   "Q9": "FAIL: S10 'and responsible enough' lost its verb, and S12 packs three skills into one clause"
+  },
+  "needed": {
+   "unneeded": [
+    "People trigger each other and learn lessons, and sometimes they terrorize or kill each other.",
+    "Whether you should be in one depends on what you and the other person are ready for and have the resources for."
+   ]
+  },
+  "his_fixes": {
+   "marked": [
+    {
+     "s": "This is a horrible catch-22.",
+     "difference": "18 and 21: a short line labelling the situation instead of stating it"
+    },
+    {
+     "s": "First love your inner child.",
+     "difference": "18: short line standing alone"
+    },
+    {
+     "s": "Get a cat or a puppy.",
+     "difference": "18: short line standing alone"
+    },
+    {
+     "s": "If you’re dishonest, can’t care what happens to another person, or keep turning every relationship into the same disaster, come on, you’re not ready.",
+     "difference": "19: three disqualifiers in one list"
+    },
+    {
+     "s": "You don’t have to be completely healed, but the present-day adult has to be able to parent whatever intimacy wakes up inside you, and responsible enough to deal with an actual child if sex creates one.",
+     "difference": "1 and 8: two ideas packed into one sentence with a broken second half"
+    },
+    {
+     "s": "If you can’t be a parent in either sense, you aren’t ready to date.",
+     "difference": "6: ends on a sum-up"
+    },
+    {
+     "s": "A good relationship can teach you self-love too, which is part of the problem: you may need one most when you’re least capable of creating a good one, recognizing one, or keeping it good.",
+     "difference": "1 and 19: compressed, three items, a sentence that sounds wise"
+    },
+    {
+     "s": "Whether you should be in one depends on what you and the other person are ready for and have the resources for.",
+     "difference": "6: restates the conclusion; 'one' could be a relationship or a good relationship"
+    },
+    {
+     "s": "Here’s a video that can help understand the long process.",
+     "difference": "10 and 7: 'the long process' could mean anything, no reason given"
+    }
+   ]
+  },
+  "fit": {
+   "marked": [
+    {
+     "s": "This is a horrible catch-22.",
+     "why": "MISREAD/CAN'T TELL: 'This' points at nothing yet"
+    },
+    {
+     "s": "You don’t have to be completely healed, but the present-day adult has to be able to parent whatever intimacy wakes up inside you, and responsible enough to deal with an actual child if sex creates one.",
+     "why": "MISREAD: 'and responsible enough' has no subject; hard to parse"
+    },
+    {
+     "s": "Here’s a video that can help understand the long process.",
+     "why": "CAN'T TELL: which process the video helps with"
+    }
+   ]
+  }
+ },
+ "r38-29-things-get-tricky-fast": {
+  "sentences": [
+   {
+    "payoff": "they notice that withdrawing from friends is a pattern",
+    "follows": "it opens by saying what is tricky",
+    "link": "none: opens the section"
+   },
+   {
+    "payoff": "they see why questions stop coming",
+    "follows": "it gives the result of isolation",
+    "link": "none: no tie word"
+   },
+   {
+    "payoff": "they recognise how problems get waved away",
+    "follows": "it gives an example of the same slide",
+    "link": "none: next example"
+   },
+   {
+    "payoff": "they know withdrawing can be fair and a friend need not hear everything",
+    "follows": "it limits the claim",
+    "link": "Sometimes withdrawing isn’t wrong"
+   },
+   {
+    "payoff": "they are told to watch for it",
+    "follows": "it states the lesson of the limit",
+    "link": "It’s just important"
+   },
+   {
+    "payoff": "they find people who know both partners",
+    "follows": "it gives the fix with a reason",
+    "link": "It doesn’t help if"
+   },
+   {
+    "payoff": "they know more is coming",
+    "follows": "it ends the section",
+    "link": "none: signoff"
+   }
+  ],
+  "placement": "Problem first, an example, a limit, then the fix; sensible.",
+  "why_reading": "The first sentence says a visible pattern in couples, so the reader checks their own.",
+  "same_point": "none: read the section from its heading for a paragraph that makes another's point; none does",
+  "questions": {
+   "Q1": "FAIL: S5 and S7 say nothing before pointing at 'what is happening' and 'that'",
+   "Q2": "PASS: find people who know both of you",
+   "Q3": "FAIL: S5 'what is happening' and S7 'that' are vague",
+   "Q4": "FAIL: 'romantic dyad' is unexplained jargon",
+   "Q5": "FAIL: S4 is not tied to S3 except by 'Sometimes'",
+   "Q6": "PASS",
+   "Q7": "PASS",
+   "Q8": "N/A",
+   "Q9": "FAIL: S3 and S6 pack several steps in one long sentence"
+  },
+  "needed": {
+   "unneeded": [
+    "It’s just important to realize what is happening.",
+    "I’ll come back to that."
+   ]
+  },
+  "his_fixes": {
+   "marked": [
+    {
+     "s": "Couples withdraw from friends who aren’t supportive of the romantic dyad, and they also stop telling friends the whole truth.",
+     "difference": "4: 'romantic dyad' is vague about who"
+    },
+    {
+     "s": "Sharp questions start to feel rude.",
+     "difference": "18: short line standing alone"
+    },
+    {
+     "s": "An obvious problem dissolves into, “but I love her,” and right when both people most need a view from outside, the small world of the relationship starts feeling more real than the rest of life.",
+     "difference": "1: packs two ideas into a long sentence"
+    },
+    {
+     "s": "Sometimes withdrawing isn’t wrong: telling your friend, “Can you believe what my girlfriend is doing to me?” can be a privacy violation.",
+     "difference": "3: contrast with 'isn't wrong'"
+    },
+    {
+     "s": "It’s just important to realize what is happening.",
+     "difference": "18 and 10: short line, 'what is happening' could be several things"
+    },
+    {
+     "s": "It doesn’t help if she tells her friends her side while I tell mine mine, so we need people who actually know both of us over time, well enough that the relationship isn’t the only reality in the room.",
+     "difference": "1 and 8: long run-on with 'mine mine'"
+    },
+    {
+     "s": "I’ll come back to that.",
+     "difference": "18 and 20: a short pointer line that names nothing"
+    }
+   ]
+  },
+  "fit": {
+   "marked": [
+    {
+     "s": "Couples withdraw from friends who aren’t supportive of the romantic dyad, and they also stop telling friends the whole truth.",
+     "why": "CAN'T TELL: 'romantic dyad' is not a word a reader knows"
+    },
+    {
+     "s": "It’s just important to realize what is happening.",
+     "why": "MISREAD: 'what is happening' is not named"
+    },
+    {
+     "s": "It doesn’t help if she tells her friends her side while I tell mine mine, so we need people who actually know both of us over time, well enough that the relationship isn’t the only reality in the room.",
+     "why": "MISREAD: 'tells her friends her side while I tell mine mine' reads as a typo"
+    }
+   ]
+  }
+ },
+ "r38-44-don-t-make-your-partner-your-whole-world-p1": {
+  "sentences": [
+   {
+    "payoff": "they see the in-love state from inside",
+    "follows": "it opens the section with the premise",
+    "link": "none: opens the section"
+   },
+   {
+    "payoff": "they see the pull to drop everything",
+    "follows": "it extends the opening",
+    "link": "Everything else"
+   },
+   {
+    "payoff": "they see a mild fight against it",
+    "follows": "it qualifies the drop",
+    "link": "I still try"
+   },
+   {
+    "payoff": "they learn one reason it feels so good",
+    "follows": "it explains the paradise",
+    "link": "Part of why that little paradise"
+   },
+   {
+    "payoff": "they see it as a risk",
+    "follows": "it gives the cost of the reason",
+    "link": "This makes you"
+   },
+   {
+    "payoff": "they keep healing practices going",
+    "follows": "it says what to do",
+    "link": "It is wonderful"
+   },
+   {
+    "payoff": "they see the cost of skipping them",
+    "follows": "it gives the consequence",
+    "link": "Otherwise"
+   },
+   {
+    "payoff": "they act on the section's point",
+    "follows": "it sums the advice",
+    "link": "So don’t"
+   },
+   {
+    "payoff": "they keep friends",
+    "follows": "it gives the concrete step",
+    "link": "Don’t abandon your friends"
+   },
+   {
+    "payoff": "they ask why the friends bother them",
+    "follows": "it covers the exception",
+    "link": "And if they aren’t"
+   },
+   {
+    "payoff": "they check friend quality",
+    "follows": "it asks the first why",
+    "link": "Are they bad friends"
+   },
+   {
+    "payoff": "they check for romantic interest",
+    "follows": "it adds a second case",
+    "link": "Are they slyly"
+   },
+   {
+    "payoff": "they check their own relationship",
+    "follows": "it adds the third",
+    "link": "Or is the relationship"
+   },
+   {
+    "payoff": "they know friend time may shrink",
+    "follows": "it limits the advice",
+    "link": "You don’t need"
+   },
+   {
+    "payoff": "they keep some independent life",
+    "follows": "it ends with the balance",
+    "link": "But keep some room"
+   }
+  ],
+  "placement": "Premise, reason, cost, advice, questions, a limit; sensible.",
+  "why_reading": "The first sentence names the state the reader may be in.",
+  "same_point": "S8 and S15 both say keep some outside life: 'So don’t let your world get so small' and 'keep some room to explore life on your own'.",
+  "questions": {
+   "Q1": "PASS: opens on the in-love state",
+   "Q2": "PASS: friends, practices, questions are things to do",
+   "Q3": "FAIL: S10 'they' could be the friends or the couple",
+   "Q4": "FAIL: 'reparenting' unexplained here",
+   "Q5": "FAIL: S5 'This' could be the freedom from parenting yourself or the paradise",
+   "Q6": "PASS",
+   "Q7": "PASS",
+   "Q8": "FAIL: S12 slyly interested in one of you does not fit 'bad friends' group neatly",
+   "Q9": "FAIL: S6 packs five practices"
+  },
+  "needed": {
+   "unneeded": [
+    "So don’t let your world get so small."
+   ]
+  },
+  "his_fixes": {
+   "marked": [
+    {
+     "s": "Everything else drops away.",
+     "difference": "18: short line"
+    },
+    {
+     "s": "This makes you soft and weak, kinda like a sweet treat or heroin.",
+     "difference": "10 and 21: 'This' ambiguous; abstract and 'soft and weak' labels"
+    },
+    {
+     "s": "It is wonderful to have their love and support, but don’t let that bring you away from your own self-love, reparenting, meditation, yoga, and other healing practices that keep you independently healthy.",
+     "difference": "19: list of five practices; 7"
+    },
+    {
+     "s": "So don’t let your world get so small.",
+     "difference": "6: a sum-up line"
+    },
+    {
+     "s": "And if they aren’t, ask why.",
+     "difference": "10: 'they' could be friends or the couple"
+    },
+    {
+     "s": "Are they bad friends?",
+     "difference": "19 and 23: three questions in a row"
+    },
+    {
+     "s": "Are they slyly interested in one of you romantically?",
+     "difference": "19 and 23"
+    },
+    {
+     "s": "Or is the relationship so weak that it can’t handle anybody with an outside view?",
+     "difference": "19 and 23"
+    },
+    {
+     "s": "But keep some room to explore life on your own.",
+     "difference": "6: ends on a wise line"
+    }
+   ]
+  },
+  "fit": {
+   "marked": [
+    {
+     "s": "This makes you soft and weak, kinda like a sweet treat or heroin.",
+     "why": "MISREAD: 'This makes you soft and weak' - 'this' is unclear and comparison to heroin may alarm"
+    },
+    {
+     "s": "And if they aren’t, ask why.",
+     "why": "MISREAD: 'they' unclear"
+    }
+   ]
+  }
+ },
+ "r38-51-different-levels-in-different-domains-ca-p2": {
+  "sentences": [
+   {
+    "payoff": "they see what he gave",
+    "follows": "it opens the paragraph on his side",
+    "link": "none: opens the section"
+   },
+   {
+    "payoff": "they see what the women gave",
+    "follows": "it gives the other side",
+    "link": "They could pull me"
+   },
+   {
+    "payoff": "they see mutual teaching as healthy",
+    "follows": "it states the result of both",
+    "link": "When it works"
+   },
+   {
+    "payoff": "they know when to bring support",
+    "follows": "it says when imbalance turns bad",
+    "link": "It’s time to bring"
+   },
+   {
+    "payoff": "they see three possible outcomes",
+    "follows": "it follows the warning",
+    "link": "Maybe the romance"
+   },
+   {
+    "payoff": "they know to ask the question aloud",
+    "follows": "it gives a next step",
+    "link": "Asking that question"
+   },
+   {
+    "payoff": "they know the next sections",
+    "follows": "it points ahead",
+    "link": "none: new topic"
+   },
+   {
+    "payoff": "they may skip ahead",
+    "follows": "it gives the choice",
+    "link": "If neither"
+   }
+  ],
+  "placement": "Pattern first, then the risk when it tips, then navigation.",
+  "why_reading": "First sentence says the domain of strength, tied to the heading.",
+  "same_point": "none: read the section from its heading for a paragraph that makes another's point; none does",
+  "questions": {
+   "Q1": "PASS",
+   "Q2": "FAIL: S4 says time to bring support but not what or from whom",
+   "Q3": "FAIL: 'that question' has no question before it",
+   "Q4": "FAIL: 'Twin Flames' and 'polarity' unexplained",
+   "Q5": "FAIL: S6 follows S5 only through a missing question",
+   "Q6": "PASS",
+   "Q7": "PASS",
+   "Q8": "N/A",
+   "Q9": "FAIL: S4 packs a condition, a fix and a threat"
+  },
+  "needed": {
+   "unneeded": []
+  },
+  "his_fixes": {
+   "marked": [
+    {
+     "s": "It’s time to bring in other support once a partner has become the default caregiver and that’s taken for granted, or the romance could collapse under the burden.",
+     "difference": "1 and 10: compressed 'taken for granted'"
+    },
+    {
+     "s": "Maybe the romance actually does need less intensity, maybe it becomes friendship, or maybe it ends.",
+     "difference": "19: three possible outcomes in a row"
+    },
+    {
+     "s": "Asking that question out loud is the first step in figuring it out, but I can’t answer it for others, and couldn’t always answer it for myself.",
+     "difference": "10 and 21: 'that question' and 'it' point at nothing; 18"
+    },
+    {
+     "s": "The next two sections are about masculine–feminine polarity and Twin Flames.",
+     "difference": "20: sentence about the text itself"
+    },
+    {
+     "s": "If neither is relevant to you, skip ahead to Two Pillars Don’t Hold The Roof Up.",
+     "difference": "20 and 5"
+    }
+   ]
+  },
+  "fit": {
+   "marked": [
+    {
+     "s": "Asking that question out loud is the first step in figuring it out, but I can’t answer it for others, and couldn’t always answer it for myself.",
+     "why": "MISREAD: 'that question' has no question before it"
+    },
+    {
+     "s": "It’s time to bring in other support once a partner has become the default caregiver and that’s taken for granted, or the romance could collapse under the burden.",
+     "why": "CAN'T TELL: what other support means"
+    }
+   ]
+  }
+ },
+ "r38-89-gaslighting-in-the-dark": {
+  "sentences": [
+   {
+    "payoff": "they check their own marriage for the same",
+    "follows": "it opens by asking the reader",
+    "link": "none: opens the section"
+   },
+   {
+    "payoff": "they see he has been there",
+    "follows": "it answers his own question",
+    "link": "I did"
+   },
+   {
+    "payoff": "they get the first story",
+    "follows": "it begins the example",
+    "link": "none: story"
+   },
+   {
+    "payoff": "they see a professional saying split",
+    "follows": "it continues the story",
+    "link": "The male counselor"
+   },
+   {
+    "payoff": "they see why resolving is impossible",
+    "follows": "it explains why",
+    "link": "There’s no way"
+   },
+   {
+    "payoff": "they see a missing resource",
+    "follows": "it adds a second reason",
+    "link": "We also"
+   },
+   {
+    "payoff": "they see he dissents from common advice",
+    "follows": "it turns to advice",
+    "link": "Many say"
+   },
+   {
+    "payoff": "they learn the cost of having no friends",
+    "follows": "it follows his dissent",
+    "link": "If you don’t"
+   },
+   {
+    "payoff": "they ask friends fairly",
+    "follows": "it gives the how",
+    "link": "But ask those friends"
+   },
+   {
+    "payoff": "they hear both sides",
+    "follows": "it gives the rule of fair asking",
+    "link": "Both people"
+   },
+   {
+    "payoff": "they hold their view loosely",
+    "follows": "it gives his practice",
+    "link": "I can believe"
+   },
+   {
+    "payoff": "they trust humble people",
+    "follows": "it adds a sign of good thinkers",
+    "link": "If someone says"
+   },
+   {
+    "payoff": "they see community as a fix",
+    "follows": "it extends the friends point",
+    "link": "Living in community"
+   },
+   {
+    "payoff": "they see friends can witness",
+    "follows": "it continues the previous",
+    "link": "Sometimes they"
+   },
+   {
+    "payoff": "they know when to stay",
+    "follows": "it changes to leaving rules",
+    "link": "If you’ve been there"
+   },
+   {
+    "payoff": "they know the romance is not saved",
+    "follows": "it limits the stay advice",
+    "link": "You may need"
+   }
+  ],
+  "placement": "Question, story, why it fails, advice with friends, then leaving; the last two sentences shift to another topic.",
+  "why_reading": "It asks the reader a question about their own memories so they check themselves.",
+  "same_point": "S10 and S11 both say friends should hear both sides and hold their view loosely; S14 repeats S13 partly.",
+  "questions": {
+   "Q1": "FAIL: S15 and S16 switch to crisis and leaving with no signpost",
+   "Q2": "PASS: asking friends fairly is doable",
+   "Q3": "FAIL: S9 'those friends' follows S8 'if you don't have friends'",
+   "Q4": "PASS",
+   "Q5": "FAIL: S9 'But ask those friends' contradicts S8's no friends",
+   "Q6": "FAIL: S12 sits between friend advice and community",
+   "Q7": "FAIL: S5 details a story the reader may not share",
+   "Q8": "N/A",
+   "Q9": "FAIL: S15 packs three conditions"
+  },
+  "needed": {
+   "unneeded": [
+    "If someone says, “I don’t have all the evidence,” I trust their thinking more."
+   ]
+  },
+  "his_fixes": {
+   "marked": [
+    {
+     "s": "I did with both my first and second wives.",
+     "difference": "18: short line"
+    },
+    {
+     "s": "There’s no way to resolve a situation where one person remembers that you ruined her life on purpose, while you remember that she was having a manic episode and had to be committed for her own safety.",
+     "difference": "1: packs several accusations"
+    },
+    {
+     "s": "But ask those friends for help fairly, with the goal of resolving the conflict, not just getting approval for your own interpretation.",
+     "difference": "12 and 10: 'those friends' not tied to the one before"
+    },
+    {
+     "s": "I can believe a friend’s experience and still tell them that my ability to know what is really going on is extremely limited.",
+     "difference": "3: 'believe but still tell them'"
+    },
+    {
+     "s": "If someone says, “I don’t have all the evidence,” I trust their thinking more.",
+     "difference": "7: true but no use"
+    },
+    {
+     "s": "Living in community would help because your friends would not only hear two stories afterward.",
+     "difference": "1 and 21: 'would not only hear two stories'"
+    },
+    {
+     "s": "If you’ve been there for someone, don’t abandon them in a crisis unless it’s unsafe for you to stay or they’re creating the crisis to keep you, or they aren’t willing to help themself.",
+     "difference": "1 and 8: packs three conditions, 'themself'"
+    },
+    {
+     "s": "You may need to arrange other care, but that’s no reason to pretend the romance still has a future.",
+     "difference": "6: ends on a wise line"
+    }
+   ]
+  },
+  "fit": {
+   "marked": [
+    {
+     "s": "But ask those friends for help fairly, with the goal of resolving the conflict, not just getting approval for your own interpretation.",
+     "why": "MISREAD: 'those friends' after 'If you don’t have friends' reads as a contradiction"
+    },
+    {
+     "s": "If you’ve been there for someone, don’t abandon them in a crisis unless it’s unsafe for you to stay or they’re creating the crisis to keep you, or they aren’t willing to help themself.",
+     "why": "CAN'T TELL: a reader in crisis couldn't judge these three conditions"
+    },
+    {
+     "s": "Living in community would help because your friends would not only hear two stories afterward.",
+     "why": "CAN'T TELL: 'hear two stories afterward' not clear"
+    }
+   ]
+  }
+ }
+}

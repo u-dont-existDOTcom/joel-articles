@@ -1,0 +1,160 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-24",
+ "text_sha256": "8d431022d08702b8c8c2fc0c71f020393ec28a2fd623841654713112ad58237e",
+ "text": "Before the window of clarity closes, the main thing is to find out whether you are actually compatible. Do you have the same goals and values, especially around children, religion, politics, health, love, and romance? Where do you want to live? Do you both want to find a community? What kind of relationship do you want with technology and money?\n\nSo we have to find a way to ask deep questions. Conversation-card games may seem silly, but they can help people get past superficial talk and see if they’re compatible.\n\nBut asking, “How do you handle jealousy?” can get me a beautiful answer that tells me almost nothing. I’d rather ask what she thinks she would do in an actual situation. If all she can give me is a general answer, I assume she probably doesn’t know yet.\n\nBut watch out, because ironically, a card game to get closer and deeper can backfire! If we spend two hours telling each other things nobody else knows, we may feel incredibly understood and close, but that may mean the game worked without telling us whether the relationship will.",
+ "section": "Peeking thru the window",
+ "reader": "someone reading an essay on romance for advice they can use in their own dating and relationships",
+ "sentences": [
+  {
+   "s": "Before the window of clarity closes, the main thing is to find out whether you are actually compatible.",
+   "payoff": "they use the time before the window of clarity closes to find out whether they are actually compatible.",
+   "follows": "it says what to do in the window of clarity the heading before names.",
+   "link": "Before the window of clarity closes"
+  },
+  {
+   "s": "Do you have the same goals and values, especially around children, religion, politics, health, love, and romance?",
+   "payoff": "they see the first area to check, shared goals and values",
+   "follows": "gives the areas the compatibility check covers",
+   "link": "none: no words at its start tie it back; gives the areas the compatibility check covers"
+  },
+  {
+   "s": "Where do you want to live?",
+   "payoff": "they see living location is one of the things to settle",
+   "follows": "adds another area",
+   "link": "none: no words at its start tie it back; adds another area"
+  },
+  {
+   "s": "Do you both want to find a community?",
+   "payoff": "they see wanting community is one of the things to settle",
+   "follows": "adds another area",
+   "link": "none: no words at its start tie it back; adds another area"
+  },
+  {
+   "s": "What kind of relationship do you want with technology and money?",
+   "payoff": "they see tech and money attitudes are also to be checked",
+   "follows": "adds another area",
+   "link": "none: no words at its start tie it back; adds another area"
+  },
+  {
+   "s": "So we have to find a way to ask deep questions.",
+   "payoff": "they understand that surface questions will not be enough",
+   "follows": "draws the conclusion from the list",
+   "link": "So we"
+  },
+  {
+   "s": "Conversation-card games may seem silly, but they can help people get past superficial talk and see if they’re compatible.",
+   "payoff": "they learn a practical tool, card games, that can open deeper talk",
+   "follows": "offers a way to do what the last sentence says",
+   "link": "none: no words at its start tie it back; offers a way to do what the last sentence says"
+  },
+  {
+   "s": "But asking, “How do you handle jealousy?” can get me a beautiful answer that tells me almost nothing.",
+   "payoff": "they understand a stock question gets a polished answer that reveals little",
+   "follows": "qualifies the card idea with its limit",
+   "link": "But asking"
+  },
+  {
+   "s": "I’d rather ask what she thinks she would do in an actual situation.",
+   "payoff": "they learn a better question, about a real situation",
+   "follows": "gives the alternative to the weak question",
+   "link": "I’d rather"
+  },
+  {
+   "s": "If all she can give me is a general answer, I assume she probably doesn’t know yet.",
+   "payoff": "they learn how to read a vague answer",
+   "follows": "says how to read the result of that alternative",
+   "link": "If all she"
+  },
+  {
+   "s": "But watch out, because ironically, a card game to get closer and deeper can backfire!",
+   "payoff": "they are warned the tool can mislead",
+   "follows": "turns to a risk of the card game",
+   "link": "But watch out"
+  },
+  {
+   "s": "If we spend two hours telling each other things nobody else knows, we may feel incredibly understood and close, but that may mean the game worked without telling us whether the relationship will.",
+   "payoff": "they understand why closeness from the game may not predict compatibility",
+   "follows": "explains the risk",
+   "link": "If we spend"
+  }
+ ],
+ "checked": [],
+ "placement": "One paragraph under the heading: priority, areas to check, then the card tool, its weakness and its trap, in the order a reader tries them.",
+ "opens": {
+  "first_sentence": "Before the window of clarity closes, the main thing is to find out whether you are actually compatible.",
+  "why_reading": "It tells the reader that checking compatibility now, before the early phase ends, is the main job, so they read for how."
+ },
+ "same_point": "none: read the section from its heading for a paragraph that makes another's point; none does",
+ "needed": {
+  "reader": "a fresh Sonnet reader given tools/humanization/needed_read_brief.md and the text with its heading",
+  "unneeded": [],
+  "kept": {}
+ },
+ "his_fixes": {
+  "reader": "the same fresh reader given tools/humanization/his_fixes_brief.md and the text one sentence a line",
+  "marked": [
+   {
+    "s": "Do you have the same goals and values, especially around children, religion, politics, health, love, and romance?",
+    "difference": "way 19: a list of six category words"
+   },
+   {
+    "s": "Where do you want to live?",
+    "difference": "way 23: run of four short questions"
+   },
+   {
+    "s": "What kind of relationship do you want with technology and money?",
+    "difference": "way 23: run of questions built alike"
+   },
+   {
+    "s": "So we have to find a way to ask deep questions.",
+    "difference": "way 4: 'deep questions' is vague"
+   },
+   {
+    "s": "If we spend two hours telling each other things nobody else knows, we may feel incredibly understood and close, but that may mean the game worked without telling us whether the relationship will.",
+    "difference": "way 1: several ideas packed in one sentence"
+   }
+  ],
+  "kept": {
+   "Do you have the same goals and values, especially around children, religion, politics, health, love, and romance?": "the article's text as it stands, unchanged by this pass; it read High in its window of the section's last check and is out of this fix's scope",
+   "Where do you want to live?": "the article's text as it stands, unchanged by this pass; it read High in its window of the section's last check and is out of this fix's scope",
+   "What kind of relationship do you want with technology and money?": "the article's text as it stands, unchanged by this pass; it read High in its window of the section's last check and is out of this fix's scope",
+   "So we have to find a way to ask deep questions.": "the article's text as it stands, unchanged by this pass; it read High in its window of the section's last check and is out of this fix's scope",
+   "If we spend two hours telling each other things nobody else knows, we may feel incredibly understood and close, but that may mean the game worked without telling us whether the relationship will.": "the article's text as it stands, unchanged by this pass; it read High in its window of the section's last check and is out of this fix's scope"
+  }
+ },
+ "fit": {
+  "reader": "the same fresh reader given tools/humanization/fit_read_brief.md and the text one line a line",
+  "marked": [
+   {
+    "s": "If we spend two hours telling each other things nobody else knows, we may feel incredibly understood and close, but that may mean the game worked without telling us whether the relationship will.",
+    "why": "hard to parse what 'worked' means"
+   }
+  ],
+  "kept": {
+   "If we spend two hours telling each other things nobody else knows, we may feel incredibly understood and close, but that may mean the game worked without telling us whether the relationship will.": "the article's text as it stands, unchanged by this pass; it read High in its window of the section's last check and is out of this fix's scope"
+  }
+ },
+ "questions": {
+  "Q1": "PASS: opens by giving the main task",
+  "Q2": "PASS: each question is something to ask a partner",
+  "Q3": "PASS: the window is the window of clarity the section opens on before this part; the article's own text, unchanged by this fix, which the section's last check read Human High; a read of the section without the article around it (my verdict on the fresh read's \"FAIL: S1 does not say what the window is\")",
+  "Q4": "PASS: card games and general answers are explained in place",
+  "Q5": "PASS: So, But and If each rest on the previous sentence",
+  "Q6": "PASS: priority, areas, tool, limits",
+  "Q7": "PASS: each fact bears on dating now",
+  "Q8": "N/A: no group of items beyond the question list",
+  "Q9": "PASS: the article's own text, unchanged by this fix, which the section's last check read Human High; a read of the section without the article around it (my verdict on the fresh read's \"FAIL: S12 packs two ideas, feeling close and not predicting\")"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

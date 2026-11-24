@@ -1,0 +1,221 @@
+{
+"r38-09-labels-are-descriptive-not-prescriptive": {
+ "sentences": [
+  {"payoff":"they see what a label can and can't tell them about whether the other person is in the same relationship","follows":"opens the section by saying what the heading's claim means for labels","link":"none: opens the section"},
+  {"payoff":"they understand that commitment comes from depth, so they look for depth rather than a title","follows":"states the point the label example was leading to","link":"none: restates the point as a new claim"},
+  {"payoff":"they see what depth looks like in practice: sharing longings and fears","follows":"gives the concrete case of the depth just named","link":"If we spend"},
+  {"payoff":"they stop expecting or asking for written promises and treat them as a warning","follows":"draws the consequence of the depth example for promises","link":"that"},
+  {"payoff":"they learn that loving words without real talk are a warning sign","follows":"gives the mirror case of words with no depth","link":"an even more obvious red flag"},
+  {"payoff":"they suspect that an arrangement that looks fulfilling to one partner may not be","follows":"moves from words versus depth to one-sided arrangements","link":"none: new point about unequal arrangements"},
+  {"payoff":"they get a concrete case of someone with many partners who isn't doing well","follows":"illustrates the one-sided arrangement with a friend","link":"none: opens a story"},
+  {"payoff":"they see the question that cut through the boasting","follows":"next step of the story","link":"I asked him"},
+  {"payoff":"they hear the friend's answer, which shows the arrangement didn't make him happy","follows":"answers the question just asked","link":"He said"},
+  {"payoff":"they know Joel isn't setting rules for others and read his view as one view","follows":"steps back from the story to frame what follows","link":"none: turns from story to opinion"},
+  {"payoff":"they hear what Joel does say: defenders of casual sex tend to skip the costs","follows":"states the view the previous line allowed","link":"I can say"},
+  {"payoff":"they understand why honest casual sex is hard: owning up to all costs is a huge conversation","follows":"gives the reason behind the claim about not being honest","link":"all that"},
+  {"payoff":"they understand why that conversation usually doesn't happen","follows":"draws the consequence of the conversation being too big","link":"Which is why"},
+  {"payoff":"they know where Joel thinks honest casual sex can exist, and that elsewhere it's near impossible","follows":"concludes the argument with the limit","link":"none: conclusion"},
+  {"payoff":"they know what to look for if they want freer love: a community where people aren't disposable","follows":"gives the alternative to the impossible case","link":"If you want"},
+  {"payoff":"they know such communities attract wounded people, so they don't assume safety","follows":"qualifies the alternative just given","link":"But"}
+ ],
+ "placement":"The section opens with the label claim, moves to depth and red flags, then to the friend story, then to casual sex and the community option, each paragraph's idea leading to the next.",
+ "why_reading":"It tells the reader that a boyfriend or girlfriend label may not show whether both are in the same relationship, which speaks to anyone who has been unsure where they stand.",
+ "same_point":"none: read the section from its heading for a paragraph that makes another's point; none does",
+ "questions":{"Q1":"PASS: each sentence follows from the one before and the reader can tell what point it serves","Q2":"PASS: the instructions (talk deeply, find a community) are things the reader can do","Q3":"FAIL: 'all that' in the changed sentence doesn't name the costs the sentence before listed","Q4":"PASS: terms like free-love community and poly are clear from context","Q5":"PASS: 'Which is why' and 'But' rest on the sentence before","Q6":"PASS: order moves from label to depth to casual sex to community","Q7":"PASS: facts serve a reader weighing casual sex or labels","Q8":"FAIL: the Winiecki detail at the end is a source note, not advice","Q9":"FAIL: the changed sentence compresses the whole list of costs into 'all that'"},
+ "needed": {"unneeded":["But if the community is specifically designed to prioritize free love, you might find it attracts people who have traumas that produce trouble with connecting deeply, as ex-Tamera leader, Martin Winiecki wrote about after leaving recently."]},
+ "his_fixes": {"marked":[
+  {"s":"True commitment grows out of relational depth, not a label we put on it.","difference":"way 3: 'X, not Y' contrast where the sentence could say the thing itself"},
+  {"s":"I can’t decide what is okay for anybody else.","difference":"way 18: a short line standing alone"},
+  {"s":"The full conversation about all that is so big that almost nobody would have casual sex if they took it seriously.","difference":"way 10 and 22: 'all that' points back without naming what"},
+  {"s":"Which is why almost nobody has the full conversation.","difference":"way 18: short line of summing up; way 6: wise-sounding"},
+  {"s":"I can say that most people who defend casual sex are not being very honest with themselves about pregnancy, attachment, or what they might owe the person afterward.","difference":"way 19: a list of three category items"},
+  {"s":"If you want something closer to “casual love-making” without quite so many ways to damage each other, you probably need to find a free-love community where the people aren’t disposable, the bonds can be acknowledged, and any children have a village.","difference":"way 19: three clauses built alike"}
+ ]},
+ "fit": {"marked":[
+  {"s":"The full conversation about all that is so big that almost nobody would have casual sex if they took it seriously.","why":"'all that' doesn't say what; a quick reader may not link it to pregnancy, attachment and what they owe"},
+  {"s":"But if the community is specifically designed to prioritize free love, you might find it attracts people who have traumas that produce trouble with connecting deeply, as ex-Tamera leader, Martin Winiecki wrote about after leaving recently.","why":"Tamera and Winiecki are unexplained names to a reader seeking advice"}
+ ]}
+},
+"r38-25-peeking-thru-the-window-p2": {
+ "sentences": [
+  {"payoff":"they try the person in their own social settings and watch for faked enjoyment","follows":"continues the section's ways of watching a person","link":"also"},
+  {"payoff":"they test whether the person fits into their normal solo routine","follows":"gives another observation test after the party and activities","link":"none: new test"},
+  {"payoff":"they get a concrete picture of what discomfort looks like in the test","follows":"gives an example of what could feel weird","link":"none: example"},
+  {"payoff":"they know to watch for boredom or wanting to leave","follows":"second example of the weird feeling","link":"none: another example"},
+  {"payoff":"they watch for the person's flaws, not only the good side","follows":"turns from fit to seeing the whole person","link":"too"},
+  {"payoff":"they treat a person with no flaws as a warning","follows":"states what absence of flaws means","link":"If there is no negative side"},
+  {"payoff":"they test a person's spiritual self-story against a hard moment","follows":"gives a specific check of the person's story","link":"none: new check"},
+  {"payoff":"they ask how long the person has been healing","follows":"continues checking the self-story with a timeline","link":"none: next question"},
+  {"payoff":"they know jealousy and similar traits show only under stress, so early looking has limits","follows":"states the limit of the checks above","link":"none: turns to the limit"},
+  {"payoff":"they see the catch: by the time you see it you're already stuck, so they should look sooner","follows":"jokes about the consequence of the previous line","link":"By then"},
+  {"payoff":"they learn to trust a small warning feeling","follows":"moves to what to do when evidence is thin","link":"none: new point"},
+  {"payoff":"they know to ask the question when the feeling shows up and they want to ignore it","follows":"says what to do with the feeling","link":"that \"wait\""},
+  {"payoff":"they predict how the person will treat them from how they treat others","follows":"adds one more evidence source","link":"none: new rule"},
+  {"payoff":"they understand why they might not look for a healthy adult in the first place","follows":"explains attraction to the inner-child part","link":"none: new explanation"},
+  {"payoff":"they are told to check for a healthy adult before bonding","follows":"gives the action that the attraction explanation calls for","link":"But"}
+ ],
+ "placement":"Testing and watching come first, then the limit of testing and the gut feeling, then treatment of others, and the section ends on the inner-child explanation and the adult check, which is the point of it all.",
+ "why_reading":"It gives the reader a way to see how the person acts in their real life before getting attached.",
+ "same_point":"S9 (stress shows traits late) and S15 (find out before you're bonded) both press on the timing of finding out, but they say different things.",
+ "questions":{"Q1":"PASS: the first sentence says why the section's checks matter","Q2":"PASS: the instructions are things a reader can do","Q3":"FAIL: 'the healing story' and 'the spiritual story' aren't introduced before the questions","Q4":"FAIL: 'inner-child part' isn't explained where used","Q5":"FAIL: 'So' isn't used, but S9 to S11 doesn't say how the 'wait' feeling follows from late-showing traits","Q6":"PASS: order mostly moves from tests to limits to gut to the adult check","Q7":"FAIL: S14 explains attraction but doesn't say what to do with it until S15","Q8":"FAIL: the cat example sits oddly with the adult checks","Q9":"FAIL: the changed sentence packs jealousy, abandonment, possessiveness and a story into one sentence"},
+ "needed": {"unneeded":["By then, of course, you’re stressed and entangled. 😆"]},
+ "his_fixes": {"marked":[
+  {"s":"Are they wondering why you spend hours playing with your cat?","difference":"way 23: a run of questions"},
+  {"s":"Do they look bored, like they’d rather just hit you up later for some fun?","difference":"way 23: a run of questions"},
+  {"s":"How recent is the healing story—two months or two years?","difference":"way 23: one question among many; way 21: 'healing story' as a label"},
+  {"s":"You may not see their jealousy, abandonment, and possessiveness, or whether the “I’m so much better than I used to be” story survives, until there is stress and entanglement.","difference":"way 19: list of three; way 1: several ideas packed in one sentence"},
+  {"s":"By then, of course, you’re stressed and entangled. 😆","difference":"way 18: short line standing alone"},
+  {"s":"If there is no negative side, that’s a red flag for fakery.","difference":"way 3: reads like a rule stated flatly"}
+ ]},
+ "fit": {"marked":[
+  {"s":"You may not see their jealousy, abandonment, and possessiveness, or whether the “I’m so much better than I used to be” story survives, until there is stress and entanglement.","why":"if it only shows under stress, the reader can't tell what they could do now, and the line leaves them with no action"},
+  {"s":"Ask whether the spiritual story they tell about themselves survives an inconvenient PMS afternoon.","why":"a reader may not know whose PMS or how to test it"},
+  {"s":"By then, of course, you’re stressed and entangled. 😆","why":"could be read as brushing off the advice the section just gave"}
+ ]}
+},
+"r38-34-seeing-idealization-right": {
+ "sentences": [
+  {"payoff":"they know that seeing potential in someone doesn't permit assuming it; they must ask","follows":"opens the section by saying what to do with the idealized view","link":"none: opens the section"},
+  {"payoff":"they get words to say to the person","follows":"gives the script for the asking","link":"none: begins the script"},
+  {"payoff":"they get the question that invites the person to join","follows":"finishes the script","link":"none: continues the script"},
+  {"payoff":"they know to drop it when the answer is no","follows":"says what to do if the answer is no","link":"If she says no"},
+  {"payoff":"they understand that pushing on is fantasy","follows":"adds the reason to forget it","link":"none: adds the reason"},
+  {"payoff":"they know to ask what is blocking her","follows":"says what to do when the answer is yes","link":"If she says yes"},
+  {"payoff":"they check whether the block is more than they can handle","follows":"the first thing to figure out about the block","link":"none: question about the block"},
+  {"payoff":"they check whether she mainly needs support","follows":"gives the other option about the block","link":"Or"},
+  {"payoff":"they accept that helping each other grow is a partner's job","follows":"gives the principle behind the questions","link":"none: general point"},
+  {"payoff":"they ask who else would do it","follows":"challenges the reader to consider alternatives","link":"none: question"},
+  {"payoff":"they consider parents as an option","follows":"first alternative to the question","link":"none: example"},
+  {"payoff":"they see parents can't do it","follows":"answers why not parents","link":"You’re already grown"},
+  {"payoff":"they choose a partner who helps them grow","follows":"concludes the argument for partners","link":"Everybody else"},
+  {"payoff":"they find a song line that backs the approach","follows":"supports the point with a quote","link":"none: citation"},
+  {"payoff":"they know to watch for cases where demands are needed for something severe","follows":"qualifies the advice to support and believe","link":"Although"}
+ ],
+ "placement":"The script and the yes/no branches come first because the reader is about to act, then the reasons partners should do this, then a citation, and last the exception.",
+ "why_reading":"It tells the reader what to do when they see something in a person that she hasn't lived yet.",
+ "same_point":"none: read the section from its heading for a paragraph that makes another's point; none does",
+ "questions":{"Q1":"PASS: the first sentence says what the section is about","Q2":"PASS: instructions are things the reader can do","Q3":"FAIL: 'something severe' and 'demand or boundary' don't say what severe means","Q4":"PASS: terms are plain","Q5":"FAIL: the last sentence's 'Although' turns on the whole section, not on the quote right before it","Q6":"FAIL: the exception comes after a quote, away from the advice it qualifies","Q7":"PASS: the facts serve the reader's decisions","Q8":"PASS: items fit","Q9":"FAIL: the last sentence packs a condition and two acts in a short line"},
+ "needed": {"unneeded":["You’re in la la land.","Your mom and dad?","You’re already grown to them."]},
+ "his_fixes": {"marked":[
+  {"s":"Although if something severe is happening, sometimes a demand or boundary is necessary too.","difference":"way 12 and 28: not connected to the sentence before and out of place after the quote; way 4: vague on what counts as severe"},
+  {"s":"You’re in la la land.","difference":"way 18: a short line standing alone"},
+  {"s":"Who else is going to do it?","difference":"way 23: a run of short questions"},
+  {"s":"Your mom and dad?","difference":"way 18: a short line standing alone"},
+  {"s":"You’re already grown to them.","difference":"way 18: a short line standing alone"}
+ ]},
+ "fit": {"marked":[
+  {"s":"Although if something severe is happening, sometimes a demand or boundary is necessary too.","why":"a reader can't tell what counts as severe or what a demand or boundary would be, and it follows a song quote"},
+  {"s":"Like the FM Laeti song down in the Twin Flames section says, “Inspire her to see the best in herself, actualize that.”","why":"points to a later section the reader hasn't reached"}
+ ]}
+},
+"r38-47-babies-growing-up-again": {
+ "sentences": [
+  {"payoff":"they learn the standard rises with self-knowledge rather than requiring healing first","follows":"opens the section by saying what readiness for a relationship means","link":"none: opens the section"},
+  {"payoff":"they see why drama attracts at first and why it stops working","follows":"explains where the raised standards come from","link":"none: explanation"},
+  {"payoff":"they get the minimum: honesty, real effort, and no blaming others","follows":"gives the least that must be there","link":"At the very least"},
+  {"payoff":"they remember the readiness to parent their own inner child comes before dating","follows":"recalls an earlier point to introduce the next","link":"I already said"},
+  {"payoff":"they know the relationship reveals more of what's hidden","follows":"says what happens once together","link":"Once you’re together"},
+  {"payoff":"they learn what reparenting means and to avoid using a partner to do it","follows":"explains the term the earlier sentences used","link":"none: defines the term"},
+  {"payoff":"they see an example of expecting a partner to read their mind","follows":"gives one case of hiring the partner","link":"none: example"},
+  {"payoff":"they see another example: denying a pattern when named","follows":"gives a second case","link":"You may"}
+ ],
+ "placement":"Readiness and standards come first, then the earlier point and the relationship stage, then the definition and two examples, because the reader needs the standard before the how.",
+ "why_reading":"It tells the reader they don't need to be fully healed, so they can read on to see what's required.",
+ "same_point":"S4 repeats a point made earlier in the article.",
+ "questions":{"Q1":"PASS: the first sentence answers a doubt","Q2":"PASS: acts are things a reader can do","Q3":"PASS: items named","Q4":"FAIL: 'the crucible' isn't explained","Q5":"FAIL: S5 'that stuff' doesn't say what stuff, and S4 to S5 doesn't say how it follows","Q6":"FAIL: S6 defines reparenting after it was used in S4","Q7":"PASS: serves the reader","Q8":"PASS","Q9":"FAIL: 'Once you’re together, more of that stuff comes out' compresses the idea"},
+ "needed": {"unneeded":["Maybe at first we need the drama to access our primal emotions, but after years of that, we’re exhausted by what we previously hoped to find."]},
+ "his_fixes": {"marked":[
+  {"s":"I already said that before dating, the present-day adult has to be able to parent whatever intimacy wakes up inside you.","difference":"way 20: a sentence about the text itself; way 21: abstract labels"},
+  {"s":"Once you’re together, more of that stuff comes out.","difference":"way 4: vague about what stuff; way 18: short line"},
+  {"s":"Inner-child reparenting means parenting the child part instead of surreptitiously hiring the partner for the job.","difference":"way 3: contrasts 'X instead of Y'"},
+  {"s":"At the very least, there needs to be honesty, real effort at improving, and some ability to stop blaming everybody else for your own problems.","difference":"way 19: list of three"}
+ ]},
+ "fit": {"marked":[
+  {"s":"I already said that before dating, the present-day adult has to be able to parent whatever intimacy wakes up inside you.","why":"reader can't find where it was said and may not know what wakes up"},
+  {"s":"Once you’re together, more of that stuff comes out.","why":"'that stuff' unclear"},
+  {"s":"Nobody has to be completely healed before entering a relationship, but I think that as we learn more about ourselves through the crucible, we should naturally raise our standards.","why":"'the crucible' is unexplained"}
+ ]}
+},
+"r38-74-jealousy-on-trial-p2": {
+ "sentences": [
+  {"payoff":"they see jealousy as insecurity that may be signal or old script","follows":"opens by saying what jealousy is","link":"none: opens the section"},
+  {"payoff":"they see it can become self-fulfilling either way","follows":"adds a risk to the above","link":"either way"},
+  {"payoff":"they know to say the insecurity out loud, not hide it behind anger","follows":"gives the action that answers the risk","link":"Instead of"},
+  {"payoff":"they know a script follows for monogamous couples","follows":"introduces the script","link":"none: introduces the script"},
+  {"payoff":"they get words to name the feeling","follows":"begins the script","link":"none: script"},
+  {"payoff":"they ask for a talk","follows":"script continues","link":"none: script"},
+  {"payoff":"they ask the real question about the other person's interest","follows":"script continues","link":"none: script"},
+  {"payoff":"they learn to caution a partner about an irreversible choice","follows":"script ends","link":"none: script"},
+  {"payoff":"they accept it may be real neglect","follows":"returns from script to checking the facts","link":"Maybe"},
+  {"payoff":"they accept the threat may be their own inflation","follows":"gives the other possibility","link":"Maybe"},
+  {"payoff":"they don't project their baseline insecurity on the partner","follows":"concludes from the second possibility","link":"That part"},
+  {"payoff":"they know the line on healthy attention is a couple's own to find","follows":"turns to the limits of the question","link":"none: new point"},
+  {"payoff":"they know exclusivity can be an honest choice","follows":"states Joel's belief on exclusivity","link":"none: new point"},
+  {"payoff":"they see how honesty about attraction works inside exclusivity","follows":"explains how it can be done","link":"They"},
+  {"payoff":"they see using attraction is better than suppressing it","follows":"adds the better option","link":"And even better"},
+  {"payoff":"they see an authority supporting redirecting the energy","follows":"backs up the point with a source","link":"none: source"}
+ ],
+ "placement":"Jealousy's meaning and the script come first, then the check on facts, then the limit, then exclusivity and use of attraction, which moves from handling a feeling to a way of living.",
+ "why_reading":"It tells the reader jealousy may be a real signal or an old script, so they know to look at their case.",
+ "same_point":"none: read the section from its heading for a paragraph that makes another's point; none does",
+ "questions":{"Q1":"PASS","Q2":"PASS: the script is something a reader can do","Q3":"PASS","Q4":"FAIL: 'microaggressions' and 'baseline insecurity' aren't explained","Q5":"FAIL: S12 doesn't follow from S11, which was about projection","Q6":"FAIL: exclusivity and Perel come after a point about couples working it out, breaking the thread","Q7":"PASS","Q8":"PASS","Q9":"FAIL: S12 compresses 'attention' and 'healthy' into one sentence"},
+ "needed": {"unneeded":["Although, either way, it can become a self-fulfilling prophecy."]},
+ "his_fixes": {"marked":[
+  {"s":"How much attention to other people actually feels healthy is something every couple has to work out for themselves.","difference":"way 12: not connected to the sentence before; way 6: ends on a wise-sounding line"},
+  {"s":"Although, either way, it can become a self-fulfilling prophecy.","difference":"way 10: 'it' could point to jealousy or insecurity or the relationship"},
+  {"s":"That part should not be projected onto your partner.","difference":"way 10: 'That part' could be taken two ways; way 3"},
+  {"s":"Can we talk about it?","difference":"way 23: a run of questions in the script"},
+  {"s":"Do you really want to explore things with her?","difference":"way 23: a run of questions"}
+ ]},
+ "fit": {"marked":[
+  {"s":"How much attention to other people actually feels healthy is something every couple has to work out for themselves.","why":"appears right after a warning about projection, so a reader can't tell what to do"},
+  {"s":"That part should not be projected onto your partner.","why":"'that part' unclear"}
+ ]}
+},
+"r38-92-tough-love-p1": {
+ "sentences": [
+  {"payoff":"they learn what makes romance work isn't easy to sell","follows":"opens the section with its claim","link":"none: opens the section"},
+  {"payoff":"they see the joke that Joel can't sell a fix","follows":"gives the example of not marketable","link":"none: example"},
+  {"payoff":"they take it as a joke","follows":"finishes the joke","link":"none: finishes the joke"},
+  {"payoff":"they see why working romance is rare: it was suspected of destabilizing","follows":"gives the reason the working things are not marketable","link":"none: new claim"},
+  {"payoff":"they learn of a book that makes this point","follows":"gives a source for the claim","link":"that point"},
+  {"payoff":"they know who the author was and her culture","follows":"introduces the author","link":"Somé"},
+  {"payoff":"they see how her people see marriage","follows":"gives her culture's view","link":"her people"},
+  {"payoff":"they know her people distrust romance","follows":"adds the link to the claim","link":"They’re"},
+  {"payoff":"they see the idea that the relationship matters more than the egos","follows":"turns to what fits Joel's point","link":"But"},
+  {"payoff":"they get her name for it","follows":"names the idea","link":"She"},
+  {"payoff":"they get a picture of what the spirit is","follows":"explains the term","link":"That spirit"},
+  {"payoff":"they know it can't be commanded","follows":"states a property of the spirit","link":"Nobody can"},
+  {"payoff":"they know to serve it and listen for its changes","follows":"gives the action","link":"At our best"},
+  {"payoff":"they know presumption pushes it away","follows":"warns what to avoid","link":"When we"},
+  {"payoff":"they see Joel's parents agreed on community and service","follows":"connects to Joel's upbringing","link":"My parents"},
+  {"payoff":"they learn his parents weren't romantic","follows":"adds a contrast","link":"They were also"},
+  {"payoff":"they see what he wished for","follows":"adds his feeling","link":"I actually"},
+  {"payoff":"they learn his parents believed everyone was basically good","follows":"gives their view","link":"Like Somé"},
+  {"payoff":"they see what he learned and what he didn't","follows":"gives the result of the upbringing","link":"So"},
+  {"payoff":"they accept that real pathology exists","follows":"states his later realization","link":"none: new point"},
+  {"payoff":"they see how pathology festers","follows":"gives the cause","link":"But"},
+  {"payoff":"they see the culture seals couples together","follows":"explains the environment","link":"none: explanation"},
+  {"payoff":"they see the sealed room is meant to meet every need","follows":"says what the culture expects","link":"It"},
+  {"payoff":"they see the failure is blamed on the couple","follows":"ends with the culture's response","link":"Then"}
+ ],
+ "placement":"The claim, then the book and its idea, then his parents' view, then his later realization about pathology and culture, because each follows from the one before.",
+ "why_reading":"It tells the reader that what makes romance work is hard and unsellable, which suits anyone looking for a quick fix.",
+ "same_point":"none: read the section from its heading for a paragraph that makes another's point; none does",
+ "questions":{"Q1":"PASS","Q2":"N/A: no instructions","Q3":"PASS","Q4":"FAIL: 'spirit of the relationship' and 'hermetically seals' aren't explained","Q5":"FAIL: S18 doesn't follow clearly from S17","Q6":"PASS","Q7":"FAIL: the Dagara background is not needed by this reader","Q8":"PASS","Q9":"FAIL: S11 packs several ideas"},
+ "needed": {"unneeded":["Somé came from the Dagara tribe in Burkina Faso.","(Just kidding, click here!)"]},
+ "his_fixes": {"marked":[
+  {"s":"That spirit is like the universe living its desire to know itself through us, which might be why we see ourselves in ways we couldn’t imagine before.","difference":"way 21: abstract noun that acts; way 1: several ideas in one sentence"},
+  {"s":"Like Somé, they wore rose-colored glasses too and taught me that everybody was basically good.","difference":"way 10: 'Like Somé' ties to the wrong thing"},
+  {"s":"A romance that actually works is rare, and that’s probably why romantic love has been seen with suspicion as a destabilizing force throughout history.","difference":"way 7: true but not helping the reader"},
+  {"s":"But pathology festers when the environment is perfect for it.","difference":"way 18: short line; way 21"},
+  {"s":"They’re suspicious of romance.","difference":"way 18: a short line standing alone"},
+  {"s":"Nobody can command the spirit to remain.","difference":"way 18: short line"}
+ ]},
+ "fit": {"marked":[
+  {"s":"Like Somé, they wore rose-colored glasses too and taught me that everybody was basically good.","why":"nothing earlier says Somé wore rose-colored glasses, so 'too' has nothing to point to"},
+  {"s":"That spirit is like the universe living its desire to know itself through us, which might be why we see ourselves in ways we couldn’t imagine before.","why":"abstract, a reader can't tell what it means for their relationship"},
+  {"s":"A romance that actually works is rare, and that’s probably why romantic love has been seen with suspicion as a destabilizing force throughout history.","why":"'that's why' links rarity to suspicion in a way that could be read backwards"}
+ ]}
+}
+}
