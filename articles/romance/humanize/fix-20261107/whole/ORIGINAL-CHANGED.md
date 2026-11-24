@@ -749,3 +749,61 @@ Living alone is easy in so many ways. I can make my bed whenever I want. When I 
 ## 157. From flow to nitty gritty (live 199)
 
 Living alone is easy in so many ways. I can make my bed whenever I want. When I have a girlfriend, making the bed in the morning can become one of the ways I show her I love her. If I don’t do it well, somehow it may become a bad omen that I don’t care about her.
+
+## 158. Can Casual Sex or a Situationship Actually Be Honest? (live 28)
+
+That may be candid about what you expect now. It doesn’t settle what either of you will owe if the act creates something neither of you expected. Sex can make a child. If this girl gets pregnant, she’s gonna call you. Then what? You block her? Agree to child support? Try to convince her to abort if she thinks abortion is killing her child? Or vice versa. My first girlfriend, a diehard Baptist, aborted and told me a year later, because she “didn’t want to trap” me. This is what penetrative sex can do. No contraception is perfect.
+
+## 159. And deeper is the point (live 76)
+
+Beyond all that practical stuff, sex is extremely important for building and renewing the connection. I also think that if two people aren’t having sex, it becomes hard to explain how they’re different from regular friends. There is a real contradiction here. I don’t think it needs to be solved into a rule.
+
+## 160. The conversation about flaws (live 125)
+
+I’d want both of us to be honest about how effective we actually are at handling our own issues. What addictions or impulsive behaviors can’t we reliably control? How dependable are we? What are we probably going to ask forgiveness for more than once? That tells me more than either of us announcing that we’re healed.
+
+## 161. My flaws (live 135)
+
+That was my mistake. Their meditations may have helped them a lot. I still had no idea how either woman would act when a relationship got ugly. If somebody starts with enough trauma, huge progress can still leave a lot unresolved.
+
+## 162. Beware idealization in either direction (live 149)
+
+I’ve learned to get nervous when somebody knows too much about me too soon. We’re twin flames. She knows my motives. I’m Lord Krishna. Okay, maybe I really am way better than the other guys she’s found. But if she hasn’t found anything about me that bothers her yet, she hasn’t found all of me.
+
+## 163. Beware idealization in either direction (live 150)
+
+For example, I still love women I’ve loved before. Sometimes I talk about them because I’m thinking about them. I’m not trying to make her jealous. If she can’t handle that I still love them, she isn’t ready for me.
+
+## 164. If slow isn’t realistic for you (live 171)
+
+Phone or video first can help. So can meeting around other people and deciding beforehand that we aren’t going home together. Islamic and conservative Christian cultures put much stronger barriers around a man and woman being alone before marriage. I don’t accept their helicoptering solution, but they noticed something real. We don’t live in tribes anymore, where people around us might know both of us well enough to slow this down.
+
+## 165. Muses & Directors (live 264)
+
+I find the intuitive mind incredibly sexy, because I can’t fully follow it. During sex, some of the most “womanly” women I’ve loved have gone through psychic experiences, memories that felt like past lives, and things I had no idea how to explain. One time, Bee said she almost got enlightened, but I came too fast. Woops...
+
+## 166. Two Pillars Don’t Hold The Roof Up (live 338)
+
+H. taught me another part of the same dyad problem. I learned not to treat what either of us thought the relationship was as a guarantee of what it would remain, because feelings can and usually do change over time. In our case, the relationship continued to naturally deepen while our outside relationships often felt more shallow, so it was natural for the dependency to increase. She was never into monogamy, but that didn’t stop her from becoming possessive once she found someone really worth keeping. And then she began demonizing me when I refused to be possessed. Because we did not have a shared community capable of supporting us, her friends heard her side and affirmed her truth. The accusations couldn’t have survived among people who knew us both.
+
+## 167. If you’re already in it (live 409)
+
+Even dishonesty was sometimes hard for me to define in these relationships. Bee once opened a door and, a second later, said she hadn’t opened it. That drove me crazy. Why would she lie like that? She was lying, but “she lied” only named the momentary behavior. There was no strategy behind it, and she was usually quite honest. Looking back, I could have understood the lie in the context of some kind of mental illness instead of treating it like strategic dishonesty.
+
+## 168. Two Pillars Don’t Hold The Roof Up (live 330, 331, 332, 333, 334, 335)
+
+Even if I found my twin flame, she’d still be one person. The polarity could be perfect and we’d still need other people around us.
+
+Let me show you how this looked for me. I’ve noticed in my own relationships that whenever a serious issue arises, both of us tend to turn to our separate circles of friends for support. Then I resent the one-sided story she’s telling, she resents the one-sided story I’m telling. Some of the friends may even be exes who want us to break up, and eventually neither of us wants to talk to the other’s friends anymore. That’s a pretty terrible time to be trying to run the rest of life with two people. Housing, money, children, health, emotional crises—if one person goes down, the other becomes the whole backup system. Who even has time for the relationship itself at that point?
+
+Maybe an unusually strong couple can get away without much outside support. I think that’s rare. But often, a friend who actually knows us both sees the dysfunctional pattern before either of us does. On the other hand, If both people are falling apart, there is only so much anyone else can do.
+
+Separate confidants can be helpful and harmful. Sometimes you need privacy from your partner and somewhere else to say what you’re feeling. But if your confidant doesn’t have a good connection with your partner, the conversation can turn into an echo chamber very easily.
+
+Having the same confidant creates the opposite problem: now you may not have a release valve when you want privacy from your partner. There isn’t one perfect arrangement.
+
+If you do have separate confidants, you need enough emotional maturity to remember they will automatically be biased toward you. Take what they say with a grain of salt. They are hearing a partial story, usually while you’re upset, and they may be trying to protect you rather than understand the relationship fairly.
+
+## 169. From flow to nitty gritty (live 199)
+
+Living alone is easy in so many ways. I can make my bed whenever I want. When I have a girlfriend, making the bed in the morning can become one of the ways I show her I love her. If I don’t do it well, somehow it may become a bad omen that I don’t care about her.

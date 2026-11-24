@@ -1,6 +1,6 @@
 # The read against his fixes: which of my sentences still read the way he fixes?
 
-Gate bad-trips-2026-11-12g (the eleventh way, lesson bad-trips-2026-11-20c; the twelfth, lesson bad-trips-2026-11-20h; the thirteenth to seventeenth, lesson bad-trips-2026-11-21e; the eighteenth to twenty-first, from his 59 versions on the romance article's Medium page, lesson romance-2026-11-22d; the twenty-fifth and twenty-sixth, from his naloxone fix, lessons bad-trips-2026-11-23c and e; the twenty-seventh, lesson bad-trips-2026-11-23h). Joel, 2026-11-12 14:45 UTC, after my carries of his fixes read AI in eight tries of eight:
+Gate bad-trips-2026-11-12g (the eleventh way, lesson bad-trips-2026-11-20c; the twelfth, lesson bad-trips-2026-11-20h; the thirteenth to seventeenth, lesson bad-trips-2026-11-21e; the eighteenth to twenty-first, from his 59 versions on the romance article's Medium page, lesson romance-2026-11-22d; the twenty-fifth and twenty-sixth, from his naloxone fix, lessons bad-trips-2026-11-23c and e; the twenty-seventh, lesson bad-trips-2026-11-23h; the twenty-eighth, from his fix of the romance article's Two Pillars section, lesson romance-2026-11-24a). Joel, 2026-11-12 14:45 UTC, after my carries of his fixes read AI in eight tries of eight:
 "have you systematically looked at all of the fixes i've shown you and what are the idfferences in how you write vs how
 i fix? because when i look at how you try to implement my fixes, it's laughable, like you're not really learning much.
 you still use a lot of ai patterns like "this is different. that's different, this other thing is also different" and
@@ -15,7 +15,7 @@ stays.
 ---
 
 You are reading a draft against the way one writer, Joel, fixes drafts like it. Below are ten ways his fixes differ
-from the drafts he fixed, each with a sentence he fixed and what he wrote instead (an eleventh and a twelfth, 2026-11-20, after them, five more from his fix of the serotonin steps, 2026-11-21, and four from his 59 versions on the romance article, 2026-11-22; the twenty-second to twenty-fourth from the romance article, two more from his naloxone fix and one from his round-51 marks, 2026-11-23). Read the draft and mark every sentence
+from the drafts he fixed, each with a sentence he fixed and what he wrote instead (an eleventh and a twelfth, 2026-11-20, after them, five more from his fix of the serotonin steps, 2026-11-21, and four from his 59 versions on the romance article, 2026-11-22; the twenty-second to twenty-fourth from the romance article, two more from his naloxone fix and one from his round-51 marks, 2026-11-23, and one from his Two Pillars fix, 2026-11-24). Read the draft and mark every sentence
 that still reads the first way.
 
 1. **Compressed.** A run of category words or noun phrases, or several ideas packed into one sentence, where he gives each
@@ -229,6 +229,21 @@ that still reads the first way.
 27. **What not to do before what to do.** A step that opens on the remedy to leave out, then gives the one to use:
    "i'd give them the things TO DO first, then the things not to do after, doesn't that make more sense? so DMSO
    before niacin" (2026-11-23). Mark a don't that comes before the do it sits beside (lesson bad-trips-2026-11-23h).
+
+28. **Points out of their natural order, and lines the section doesn't need.** When a section's Medium windows survive
+   every rewording, map its points and what each answers, then put each where it belongs, and read each sentence for
+   whether the section's argument needs it. His fix of "Two Pillars Don't Hold The Roof Up" (2026-11-24, after three
+   word-only tries read worse): the exception went up next to the claim it qualifies, with the reason it holds ("There's
+   almost always going to be some points in a relationship when understanding between partners breaks down"); an
+   announcing lead-in ("Here's how this looks for me:") went; the advice came right where the story puts us ("we each
+   run to our own friends for support. Separate/non-mutual confidants can be helpful and harmful."); a label ("the
+   conversation can turn into an echo chamber") and a rule said again ("remember they will automatically be biased toward
+   you") went, the condition joined to its reasons ("But if your confidant doesn't have a good connection with your
+   partner, they're only hearing your side ..."); the story ended on what it shows, in place of a line pointing back
+   and a list of what else falls on one partner ("So then at that point when we actually need the most help, we suddenly
+   become the most isolated."); the friend who knows both went next to the shared confidant's downside; the limit went
+   last. Blind writers given this as the order got the section from AI to Human but not to High: they kept a list and a
+   label, and couldn't add what only he could, the reason and the point from his experience (lesson romance-2026-11-24a).
 
 When the text is a rewrite of another, also mark every detail, reason or line it adds that the text it rewrites and its
 section don't already hold (lesson romance-2026-11-22f: a blind rewrite added "my month with a bad knee", a month he never

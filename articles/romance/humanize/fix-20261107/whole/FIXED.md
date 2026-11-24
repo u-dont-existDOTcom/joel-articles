@@ -66,7 +66,7 @@ Your body doesn’t know that you picked someone up at a bar and agreed it was o
 
 “I don’t know whether I want something serious with you. I’m not pretending I do. I’d still like to have sex.”
 
-That’s honest about what you want tonight, but don't forget that tonight is enough time to make a baby. If this girl gets pregnant, she’s gonna call you. Then what? You block her? Agree to child support? Try to convince her to abort if she thinks abortion is killing her child? My first girlfriend, a diehard Baptist, aborted our child and told me a year later, because she “didn’t want to trap” me. I'm still shocked and saddened about that, 20 years later (assuming it was true). This is what penetrative sex can do. No contraception is perfect.
+That’s honest about what you want tonight, but don't forget that tonight is enough time to make a baby. If this girl gets pregnant, she’s gonna call you, and then what? You block her, or you agree to child support? Try to convince her to abort if she thinks abortion is killing her child? My first girlfriend, a diehard Baptist, aborted our child and told me a year later, because she “didn’t want to trap” me. I'm still shocked and saddened about that, 20 years later (assuming it was true). This is what penetrative sex can do. No contraception is perfect.
 
 The STI part is easy: say what you know, or say you don’t know. Feelings aren’t as easy, unless you’re both really numb or robotic about sex.
 
@@ -170,7 +170,7 @@ Some women are fixer types, which can create the opposite pattern. Before me, Be
 
 #### And deeper is the point
 
-Beyond all that practical stuff, sex is extremely important for building and renewing the connection. I also think that if two people aren’t having sex, it becomes hard to explain how they’re different from regular friends. But if the connection gets deep enough, sex appeal stops being the basis of the relationship. You don’t stop loving the person because she got old, he lost his job, one of you got sick, or sex became impossible.
+Beyond all that practical stuff, sex is extremely important for building and renewing the connection. I also think that if two people aren’t having sex, it becomes hard to explain how they’re different from regular friends. But if the connection gets deep enough, sex appeal isn’t the basis of the relationship anymore. You don’t stop loving the person because she got old, he lost his job, one of you got sick, or sex became impossible.
 
 Sometimes they may even want you to find sexual satisfaction elsewhere if they can’t give it, because they love you and want you to be happy. Or maybe they don’t, and you can’t make giving you that freedom a test of whether they love you.
 
@@ -270,7 +270,7 @@ At the right time, though, in the right way (especially if they bring it up tang
 
 “I have baggage” isn't as useful as learning what you're having trouble with now. What might make it hard for you to function well in a relationship?
 
-I’d want both of us to be honest about how effective we actually are at handling our own issues. What addictions or impulsive behaviors can’t we reliably control? What are we probably going to ask forgiveness for more than once? That tells me more than either of us proclaiming that we’re healed.
+I’d want both of us to be honest about how well we actually handle our own issues. What addictions or impulsive behaviors can’t we reliably control? What are we probably going to ask forgiveness for more than once? That tells me more than either of us proclaiming that we’re healed.
 
 Look at the most recent conflicts and ask if you were able to regulate yourself during them. What did you do to the other person, and how did you repair the damage afterward? Not doing can be just as bad as overdoing. If conflict makes you shut down, does it mean you stop talking to your partner for days, leaving them feeling abandoned?
 
@@ -288,7 +288,7 @@ Key was an inner-child therapist and Reiki healer. Both Key and Bee were extreme
 
 I saw all that and thought anyone with that much spiritual depth and curiosity must already be far along on the path.
 
-We see what we want to see. Their meditations may have helped them a lot, but I still had no idea how either woman would act when a relationship got ugly. If somebody starts with enough trauma, huge progress can still leave a lot unresolved.
+We see what we want to see. Their meditations may have helped them a lot, but I still had no idea how either woman would act when a relationship got ugly, because if somebody starts with enough trauma, huge progress can still leave a lot unresolved.
 
 On my side, the blind spot is that I have trouble understanding where people are at mentally and emotionally. A partner may agree with everything I say and then tell me later, “Didn’t you understand I was FAWNING?”
 
@@ -318,11 +318,11 @@ When the BPD splitting kicks in, she goes from “you’re perfect” to “you�
 
 <!-- EMBED https://www.youtube.com/watch?v=pvN8QgGatew : a YouTube video -->
 
-I’ve learned to get nervous when somebody "knows" too much about me/us too soon. You know how it goes: "We’re twin flames!" "I’m Lord Krishna and she's Radha!" Okay, maybe I really am way better than the other guys she’s found. But if she hasn’t found anything about me that bothers her yet, she hasn’t found all of me.
+I’ve learned to get nervous when somebody "knows" too much about me/us too soon. You know how it goes: “We’re twin flames!” or “I’m Lord Krishna and she’s Radha!” Okay, maybe I really am way better than the other guys she’s found. But if she hasn’t found anything about me that bothers her yet, she hasn’t found all of me.
 
 <!-- EMBED https://www.instagram.com/reel/Dfd1gZGN3cZ : Instagram reel he asked for here (2026-11-22) -->
 
-For example, I still love women I’ve loved before. Sometimes I talk about them... because I’m thinking about them, and I don't want to hide it. I’m not trying to make my current partner jealous. If she can’t handle the truth that I still love them, she isn’t ready for me.
+For example, I still love women I’ve loved before, and sometimes I talk about them, with no intention of making my current partner jealous, just because I’m thinking about them and I don’t want to hide it. If she can’t handle the truth that I still love them, she isn’t ready for me.
 
 If she says, “Can you talk less about your exes?” Well, yes, I'll happily oblige, since maybe I do talk about them too much sometimes. But I'm hoping that doesn't mean she also wants to pretend I'm not thinking of them just because I don't blast it out loud. And I also can't stand the double standard if she's talking about her exes while I can't talk about mine.
 
@@ -364,7 +364,7 @@ I pretty much always intend to wait long enough to have this conversation and fi
 
 So my main strategy has been to avoid heat-of-the-moment situations until I’m ready. Avoiding those situations has definitely saved me from having ten times the body count, but it doesn’t work reliably, because the invitation that leads there often starts out small, like “Hey, wanna go do something together?” Maybe she wants me to come to an event, a meditation teaching, or a walk in nature.
 
-Phone or video first can help, as can meeting up around other people and deciding beforehand that we aren’t going home together. Islamic and conservative Christian cultures put much stronger barriers around a man and woman being alone before marriage. I don’t accept their helicoptering solution, but they noticed something real. We don’t live in tribes anymore, where people around us might know both of us well enough to slow this down.
+Phone or video first can help, as can meeting up around other people and deciding beforehand that we aren’t going home together. Islamic and conservative Christian cultures put much stronger barriers than these around a man and woman being alone before marriage. I don’t accept their helicoptering solution, but they noticed something real. We don’t live in tribes anymore, where people around us might know both of us well enough to slow this down.
 
 ### Just in case
 
@@ -418,7 +418,7 @@ Being in a relationship showed me how vulnerable I actually am when I open my he
 
 Living alone is easy in so many ways, like I can make my bed whenever I want. When I have a girlfriend, making the bed in the morning can become one of the ways I show her I love her. If I don’t do it well, somehow it may become a bad omen that I don’t care about her, which is a lot of emotional weight for a bed.
 
-Dealing with somebody else’s emotional insecurities can also be exhausting. It’s easy to feel free when I don’t have to do that, especially since I’m a bit of an introvert and 10% autistic. All that works wonderfully until I’m in a romantic relationship and suddenly I’m expected to read her mind, even her silences, and check in constantly, without manipulating her with all that expert “management.”
+Dealing with somebody else’s emotional insecurities can also be exhausting. It’s easy to feel free when I don’t have to do that, especially since I’m a bit of an introvert and 10% autistic. All that works wonderfully until I’m in a romantic relationship and suddenly I’m expected to mind-read, silences included, and check in constantly, without ever manipulating her. Bee would accuse me of manipulating her even when I was making an effort not to, and ironically, she actually wanted me to manipulate her more.
 
 <!-- IMAGE https://substackcdn.com/image/fetch/$s_!ccfu!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F869227b2-15fa-4f6a-a0df-d3830188e79c_1448x1086.png : a picture in the post -->
 
@@ -546,7 +546,7 @@ In ordinary life, I sometimes think of the woman as the engine and myself as the
 
 I help give it direction and make it operational.
 
-I find the intuitive mind incredibly sexy, because I can’t fully follow it. During sex, some of the most “womanly” women I’ve loved have gone through psychic experiences, memories that felt like past lives, and things I had no idea how to explain. One time, Bee said she almost got enlightened, but I came too fast. Woops...
+I find the intuitive mind incredibly sexy, because I can’t fully follow it. During sex, some of the most “womanly” women I’ve loved have gone through psychic experiences, memories that felt like past lives, and things I had no idea how to explain. One time, Bee said she almost got enlightened, but woops, I came too fast.
 
 <!-- IMAGE https://substackcdn.com/image/fetch/$s_!klpY!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0c1e891c-2682-4c93-9fe3-9908ab267033_1448x1086.png : a picture in the post -->
 
@@ -706,25 +706,23 @@ This goes back to what I said in “doing Idealization right:” If you really l
 
 # Two Pillars Don’t Hold The Roof Up
 
-Even if I found my twin flame, she’d still be one person. The polarity could be perfect and we’d still need other people around us.
+Even if I found my twin flame, she’d still be one person. The polarity could be perfect, but we’d still need other people around us. Maybe an unusually strong couple can get away without much outside support, but I think that’s rare. There's almost always going to be some points in a relationship when understanding between partners breaks down.
 
-Here’s how this looks for me: whenever something serious comes up in my relationships, we each run to our own friends for support. Then I resent the one-sided story she’s telling, she resents the one-sided story I’m telling. Some of the friends may even be exes who want us to break up, and eventually neither of us wants to talk to the other’s friends anymore. That’s a pretty terrible time to be trying to run the rest of life with two people. If one person goes down, the other becomes the whole backup system for housing, money, children, health, and emotional crises. Who even has time for the relationship itself at that point?
+Whenever something serious comes up in my relationships, we each run to our own friends for support. Separate/non-mutual confidants can be helpful and harmful. Sometimes you need privacy from your partner and somewhere else to say what you’re feeling (not to mention somewhere else to sleep if it comes to that one night). But if your confidant doesn’t have a good connection with your partner, they’re only hearing your side, usually while you’re upset, and they may just be trying to protect you, so take what they say with a grain of salt.
+
+Then I resent the one-sided story she’s telling, and she resents the one-sided story I’m telling. Some of the friends may even be exes who want us to break up, and eventually neither of us wants to talk to the other’s friends anymore. So then at that point when we actually need the most help, we suddenly become the most isolated.
+
+Ideally, a friend who actually knows us both sees the dysfunctional pattern before either of us does. But having the same confidant creates the opposite problem: now you may not have a release valve when you want privacy from your partner, so neither way is perfect.
+
+And if both people are really falling apart, sometimes there is only so much anyone else can do to help.
 
 <!-- IMAGE https://substackcdn.com/image/fetch/$s_!XaRO!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7271b56d-9ca6-4837-bcad-729f291be821_1448x1086.png : a picture in the post -->
-
-Maybe an unusually strong couple can get away without much outside support, but I think that’s rare. Often, a friend who actually knows us both sees the dysfunctional pattern before either of us does. On the other hand, If both people are falling apart, there is only so much anyone else can do.
-
-Separate confidants can be helpful and harmful. Sometimes you need privacy from your partner and somewhere else to say what you’re feeling. But if your confidant doesn’t have a good connection with your partner, the conversation can turn into an echo chamber very easily.
-
-Having the same confidant creates the opposite problem: now you may not have a release valve when you want privacy from your partner, so neither way is perfect.
-
-If you do have separate confidants, you need enough emotional maturity to remember they will automatically be biased toward you. They’re only hearing your side, usually while you’re upset, and they may just be trying to protect you, so take what they say with a grain of salt.
 
 I lived all the permutations of this with Bee, except that we never lived in community. I suspect if we had, we might still be together. She would not have been capable of demonizing me when everyone already knew both of us and knew I wasn’t a narcissistic abuser. It would have contained all the insanity. Baseless accusations only work with friends who only know one side.
 
 Commune friends could also have helped her in ways I couldn’t, because she was projecting onto me, which made me the wrong person to help her see beyond the projection. And it’s actually natural to be a bit BPD when your entire survival depends on one person, because if they aren’t perfect, and especially if you need a lot of support, how will you survive? One fairly normal but large flaw in them could make your life really difficult. We were left alone inside something that needed other people around it, and that’s what’s happening to most people these days.
 
-H. taught me another part of the same dyad problem. I learned not to treat what either of us thought the relationship was as a guarantee of what it would remain, because feelings can and usually do change over time. In our case, the relationship continued to naturally deepen while our outside relationships often felt more shallow, so it was natural for the dependency to increase. She was never into monogamy, but that didn’t stop her from becoming possessive once she found someone really worth keeping. And then she began demonizing me when I refused to be possessed. Because we did not have a shared community capable of supporting us, her friends heard her side and affirmed her truth. The accusations couldn’t have survived among people who knew us both.
+With H., I learned another part of the same dyad problem: not to treat what either of us thought the relationship was as a guarantee of what it would remain, because feelings can and usually do change over time. In our case, the relationship continued to naturally deepen while our outside relationships often felt more shallow, so it was natural for the dependency to increase. She was never into monogamy, but that didn’t stop her from becoming possessive once she found someone really worth keeping. And then she began demonizing me when I refused to be possessed. Because we did not have a shared community capable of supporting us, her friends heard her side and affirmed her truth.
 
 So if you don’t have a real community already, what can you do about it practically, right now?
 
@@ -866,7 +864,7 @@ I wish I had a special method for fixing that. Mostly I learned the obvious thin
 
 With Bee and Key, the biggest thing sitting underneath everything was trust. They wanted to be with me and would say they trusted me, but really they didn’t trust me, themself, or anyone else. It was all or nothing: blind trust, or none. I kept saying, “It’s not possible to have a relationship without trust.” I think that rigidity came from trauma and never really growing up.
 
-Even dishonesty was sometimes hard for me to define in these relationships. Bee once opened a door and, a second later, said she hadn’t opened it. That drove me crazy! I mean, why would she lie like that? On the other hand, although she was technically lying, there was no strategy behind it, and she was usually quite honest. Non-strategic lying is literally defined as "pathological lying," so I should have seen it more like an illness than a failure of virtue.
+Even dishonesty was sometimes hard for me to define in these relationships. Bee once opened a door and, a second later, said she hadn’t opened it. That drove me crazy, because why would she lie like that? On the other hand, although she was technically lying, there was no strategy behind it, and she was usually quite honest. Non-strategic lying is literally defined as "pathological lying," so I should have seen it more like an illness than a failure of virtue.
 
 Some things were less mysterious: they were acting as if the trust problem wasn’t there because they still wanted the relationship. Attractions to other people sometimes went unsaid too, and sometimes got imagined from nowhere. Some people keep a relationship like this going for a long time, just sweeping everything under the rug.
 

@@ -105,8 +105,10 @@ class RegistryShape(unittest.TestCase):
         # that interrupts it) from his sixth-page versions of 2026-11-23 19:36 UTC (romance-2026-11-23h); W133 (O78, two
         # sentences in a row opening on "And") from his round-50 answer of 2026-11-23 19:13 UTC (bad-trips-2026-11-23d); J85
         # and J86 (the state an act needs, one brand for a medicine) from the same answer (bad-trips-2026-11-23c and e), and
-        # J87 (what not to do before what to do) from his round-51 answer of 23:35 UTC (bad-trips-2026-11-23h)
-        self.assertEqual(len(ids), 220)
+        # J87 (what not to do before what to do) from his round-51 answer of 23:35 UTC (bad-trips-2026-11-23h); J88 (points
+        # out of their natural order, lines the section doesn't need) from his Two Pillars fix, his seventh-page answer of
+        # 2026-11-24 02:06 UTC (romance-2026-11-24a)
+        self.assertEqual(len(ids), 221)
         self.assertEqual(len(set(ids)), len(ids))
         self.assertEqual(sum(t['kind'] == 'mechanical' for t in TELLS), 133)
         for t in TELLS:

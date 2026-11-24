@@ -1,0 +1,19 @@
+{
+ "about": "My tested change of 2026-11-24 (r38): section 42's last clause from his answer to Q-42; a layer after r38/HIS-T7.json.",
+ "whose": "mine",
+ "changes": [
+  {
+   "card": "R38-42",
+   "kind": "para",
+   "live": 199,
+   "before": "Dealing with somebody else’s emotional insecurities can also be exhausting. It’s easy to feel free when I don’t have to do that, especially since I’m a bit of an introvert and 10% autistic. All that works wonderfully until I’m in a romantic relationship and suddenly I’m expected to read her mind, even her silences, and check in constantly, without manipulating her with all that expert “management.”",
+   "after": [
+    "Dealing with somebody else’s emotional insecurities can also be exhausting. It’s easy to feel free when I don’t have to do that, especially since I’m a bit of an introvert and 10% autistic. All that works wonderfully until I’m in a romantic relationship and suddenly I’m expected to mind-read, silences included, and check in constantly, without ever manipulating her. Bee would accuse me of manipulating her even when I was making an effort not to, and ironically, she actually wanted me to manipulate her more."
+   ],
+   "his_checks": [
+    "https://www.pangram.com/history/2d6004a1-e6e4-4270-9f50-2fb4f96c8d13"
+   ],
+   "why": "the clause a reader couldn't parse, said from his answer to Q-42 (seventh page), with his story as its case"
+  }
+ ]
+}

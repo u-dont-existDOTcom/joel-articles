@@ -228,12 +228,20 @@ with his OK and no email.
   questions on it: 42's last clause is junk-read B210, which a reader couldn't parse (its best try is in, High 108 words
   and Medium 35); every change to 67 read worse. Lesson romance-2026-11-23j records what the pass showed (one-word and
   short lines standing alone; a list said as parallel clauses reading AI).
+- 2026-11-24 02:06 UTC (his seventh-page answers, `review/teach-20261124/ANSWERS-T7.json`). The nine cards he approved
+  are in (`humanize/fix-20261107/r38/HIS-T7.json`), and his own fix of "Two Pillars", part 1 ("damn this was an absolute
+  disaster. i fixed it"; his check Human High, one window), from the text his check holds (`r38/his-67.txt`). His answer
+  to Q-42 says what the clause meant; said plainly, with his story of Bee in his words, section 42 read Human High
+  (`r38/MINE-R38.json`). Every one of the fixed version's 93 section checks now reads Human High in every window, 91 in
+  my checks and 05 and 67 in his (`r38/README.md`). His Two Pillars fix, tested blind: the order alone read AI (47%),
+  and with leave to cut unneeded lines Human with Medium and Low windows (`r30/replay7/`, `r30/replay8/`); lesson
+  romance-2026-11-24a and way 28 of the brief say what his fix did and where a blind writer stops; lesson b, that a
+  clause a reader can't parse is fixed by its meaning, his to give.
 
 ## Next step
 
-His seventh-page answers (`review/teach-20261124/`): the cards he approves go in, and his lines on 42 and 67 start their
-next tries. Then the 33 partly real passages of `r30/junk/VETTED.md` (27 of them outside the sections of the Medium
-pass), the way his sixth-page versions show (lesson romance-2026-11-23h):
+The 33 partly real passages of `r30/junk/VETTED.md` (B210 is now fixed from his answer to Q-42; first, which of the
+rest still stand in the fixed version), the way his sixth-page versions show (lesson romance-2026-11-23h):
 change only the flagged words, with words the passage already has, and add nothing; the sections their fixes touch get
 one recheck each. Then the drafts re-pasted for his last whole-article check; then his post is updated with his OK (no
 email): 366's link to Esther Perel's post, the reel embedded after 149, the typography swap and the "Updated" date.
