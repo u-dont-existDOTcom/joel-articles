@@ -14,7 +14,7 @@ A Medium window is now work to do, not done (AGENTS.md, docs/HUMANIZATION-GATE.m
   plain closing line on into the paragraph's point, joined trailing advice with "so", turned "It's important to talk
   about X" into "So talk about X", and dropped the first of two "And" openers.
 - Blind round 6 (`../r30/replay6/`): a fresh writer given the brief without his examples rewrote the section from my
-  marks: [Human, High, one window](https://www.pangram.com/history/745a5170-75e0-44a4-a9d1-4e1a9d5e0c6b).
+  marks: [Human, High, one window](https://www.pangram.com/history/745a5170-eafc-4663-9869-a829bc62c423).
 
 ## The Medium pass: 21 sections
 
