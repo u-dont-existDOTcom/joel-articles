@@ -1,0 +1,99 @@
+{
+ "format": "joel-suggestion-review-v1",
+ "review_id": "romance-t9",
+ "built": "2026-11-24",
+ "title": "Romance Advice I Wish My Parents Taught Me: four questions",
+ "intro": [
+  "The whole article as it reads now, with your new opening of “Primal attraction”, J-B54 and Senegal in. A fresh reader read the whole article for statements that pull against each other: of seven, three the article already explains, two weren’t real (a pointer with the wrong section name, now fixed, and the FM Laeti song, which is one of the videos), and two need your answer on what you meant. The other two questions are words a reader stumbled on. Every paragraph, picture and video is here in order: nothing is left out."
+ ],
+ "git_file": "articles/romance/review/teach-20261124c/REVIEW-T9.html",
+ "article": {
+  "file": "articles/romance/humanize/fix-20261107/whole/FIXED.md",
+  "sha256": "f990bc0b8cf2771a2494ed80f85b31515afb57bc315af7115fb42d3505e81b50"
+ },
+ "whole": {
+  "file": "articles/romance/humanize/fix-20261107/whole/FIXED.md",
+  "sha256": "f990bc0b8cf2771a2494ed80f85b31515afb57bc315af7115fb42d3505e81b50"
+ },
+ "links": {
+  "guide": "https://ibogaqueen.substack.com/p/romance-advice-i-wish-my-parents",
+  "guide_label": "your live post",
+  "review": "https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/romance-20261108/articles/romance/review/teach-20261124c/REVIEW-T9.md"
+ },
+ "types": {
+  "meaning": {
+   "label": "What do you mean?",
+   "about": "a reader couldn’t tell; a line from you is enough"
+  }
+ },
+ "suggestions": [
+  {
+   "id": "Q-C1",
+   "type": "meaning",
+   "title": "Promising help: a red flag, or an honest vow?",
+   "advice": "ask",
+   "question": "A fresh reader of the whole article found two places that pull against each other. In “Labels Are Descriptive, Not Prescriptive”: “I don’t need to promise that on paper, and if I did, that would be more like a red flag.” In “Which marriage vows are honest?”: “you can promise actions if you really believe you’re capable of delivering them”, like “to keep showing up emotionally”. So is promising to be there a red flag, or an honest vow? My reading: the red flag is a promise standing in for the closeness that should make it unnecessary, while an honest vow promises actions on top of that closeness. If that’s it, a few words in the Labels paragraph could say so, and I’ll test them in its section.",
+   "why": "The contradictions check (a fresh reader of the whole article), item 1: the article doesn’t say how the two fit.",
+   "stays": "The sentence as it is, until your answer.",
+   "advice_note": "A line on how they fit is enough.",
+   "spans": [
+    {
+     "block": 45,
+     "start": 197,
+     "end": 285
+    }
+   ]
+  },
+  {
+   "id": "Q-C7",
+   "type": "meaning",
+   "title": "Who sets the direction?",
+   "advice": "ask",
+   "question": "In “Muses & Directors” you’re the steering wheel (“I help give it direction and make it operational”), and women want you to say “This is where I want to go”. But in between: “she sees the Big Picture, and I help fill in the details to make our plan workable.” The reader couldn’t tell who sets the direction. My guess: she sees where life could go, and you choose the route and propose the plan. If that’s it, a few words could say so, and I’ll test them in the section.",
+   "why": "The contradictions check, item 7: the article doesn’t say how the two fit.",
+   "stays": "The sentence as it is, until your answer.",
+   "advice_note": "A line on who does what is enough.",
+   "spans": [
+    {
+     "block": 283,
+     "start": 0,
+     "end": 117
+    }
+   ]
+  },
+  {
+   "id": "Q-S5",
+   "type": "meaning",
+   "title": "“In modern years”?",
+   "advice": "ask",
+   "question": "In your new opening of “Primal attraction”, a fresh reader stumbled on “the gender wars have gone to real extremes in modern years”: the usual phrase is “in recent years”. Keep yours, or change it? (Your new opening read Human High in both of its checks as you wrote it.)",
+   "why": "The word-for-sense read of your new opening (all three planted errors found), block 5.",
+   "stays": "The sentence as it is, until your answer.",
+   "advice_note": "Keep it or change it: either is fine with me.",
+   "spans": [
+    {
+     "block": 267,
+     "start": 764,
+     "end": 801
+    }
+   ]
+  },
+  {
+   "id": "Q-S12",
+   "type": "meaning",
+   "title": "“Worth doing” or “worth living”?",
+   "advice": "ask",
+   "question": "The same reader read “She brings inspiration, beauty, intuition, creativity, and this feeling that life is worth doing” (“Muses & Directors”) as a slip for “worth living”. Did you mean “worth doing”?",
+   "why": "The word-for-sense read of your new opening and the paragraphs around it, block 12.",
+   "stays": "The sentence as it is, until your answer.",
+   "advice_note": "If you meant it, it stays.",
+   "spans": [
+    {
+     "block": 274,
+     "start": 210,
+     "end": 247
+    }
+   ]
+  }
+ ]
+}

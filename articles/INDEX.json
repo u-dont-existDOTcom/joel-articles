@@ -26,7 +26,7 @@
         },
         "current_state": {
           "path": "articles/romance/CURRENT-STATE.md",
-          "sha256": "6d1eb226c1801d589f1e14481d91bfd572d65413fa5a79627a3c42545ffcd2e5"
+          "sha256": "74c61e65ba4669e1791a5b7917b7beaf7103fd67111c496778d304c6766f7803"
         }
       },
       "review": {
@@ -245,7 +245,7 @@
         },
         {
           "path": "articles/romance/humanize/pangram-ledger.jsonl",
-          "sha256": "faf74dab493220d45c20a822814f82439365b38bfecd42c0b5c08d07e46ddbfd",
+          "sha256": "e5f0e6efdaed9b7702223461ef12b18fa11d850a60c480535599cb2f1aefac3e",
           "role": "humanization_working_record"
         },
         {
@@ -1845,17 +1845,17 @@
         },
         {
           "path": "articles/romance/humanize/fix-20261107/whole/CHANGE-MAP.json",
-          "sha256": "7eee8b25f72c142e108326e6ebf53689829bf665d0fcf02e743b10f7685d4d73",
+          "sha256": "569217a44329af13318220940dc46ca41a0ac4e31221681880d4dbf25492feb9",
           "role": "humanization_working_record"
         },
         {
           "path": "articles/romance/humanize/fix-20261107/whole/CHANGE-MAP.md",
-          "sha256": "d525f948a0b6f33f11f7a279f2a30a6c65c2cf4957bed72ef36990374175fd06",
+          "sha256": "a3fd289e4b696f728469bea7cc1187353945b1ab03fe6e4eb17978cd81ec88a1",
           "role": "humanization_working_record"
         },
         {
           "path": "articles/romance/humanize/fix-20261107/whole/LIVE-CHANGED.json",
-          "sha256": "b4f07eb92ee17b3e12cb9ef5d398d5b0e06942704600593cbd0f740e2adf4667",
+          "sha256": "07760150997e95fa5b0cbf13a6d1619aaebeb4184dd8a251f4f7eac418bf0e60",
           "role": "humanization_working_record"
         },
         {
@@ -1865,7 +1865,7 @@
         },
         {
           "path": "articles/romance/humanize/fix-20261107/whole/ORIGINAL-CHANGED.md",
-          "sha256": "cb09845284bf12b2fa8983ac094024cdcb2a0bdc921546b2976607ca5c530f65",
+          "sha256": "2cb9de08c22d7dea31731e73e49d5c6121f9f2ee895f12ac12e1179b0dd9c5bf",
           "role": "humanization_working_record"
         },
         {
@@ -1885,12 +1885,12 @@
         },
         {
           "path": "articles/romance/humanize/fix-20261107/whole/REPLACEMENTS.json",
-          "sha256": "d6d44e2f6d0ab6ce69aafb6f0113858ede3b8812396a6d92b692f8c2e2be066b",
+          "sha256": "cffde3a32439e981c290d4b43fb5ae0828ba20c3409c7510bb9876def79fd7ce",
           "role": "humanization_working_record"
         },
         {
           "path": "articles/romance/humanize/fix-20261107/whole/REWRITE-CHANGED.md",
-          "sha256": "72a9d4591114a6e7d4294456345bcc0620366266148abdf9a557643ebb320b90",
+          "sha256": "96ee092ccecda2c1227b411c9ad2dd9ba7818d1ac62a223f76c34be19141d4ca",
           "role": "humanization_working_record"
         },
         {
@@ -1900,7 +1900,7 @@
         },
         {
           "path": "articles/romance/humanize/fix-20261107/whole/build.py",
-          "sha256": "f0c8d2e59ec49c337f5c1f2edc006574cf16105a9921a3019871d77746ab498f",
+          "sha256": "14f532f95c5a5da47aef5ce139a2f455215d7e533966eb142bfaa29e22a4ee2c",
           "role": "humanization_working_record"
         },
         {
@@ -3220,7 +3220,7 @@
         },
         {
           "path": "articles/romance/humanize/fix-20261107/whole/FIXED.md",
-          "sha256": "2ce087856e4f5f81e6a9bfce0fba8ba914e426b0f6a41391160b131cf86f2bbc",
+          "sha256": "f990bc0b8cf2771a2494ed80f85b31515afb57bc315af7115fb42d3505e81b50",
           "role": "humanization_working_record"
         },
         {
@@ -3230,7 +3230,7 @@
         },
         {
           "path": "articles/romance/humanize/fix-20261107/whole/fixed_md.py",
-          "sha256": "e3cbd5d1953f5ad9290fda066218ba4249329d5e2bde9953f8f7690bd7478b43",
+          "sha256": "b9a1721daeb8cd59bcd8af7adc062a3bf508b3b828246b88eff557e658372c91",
           "role": "humanization_working_record"
         },
         {
@@ -5125,7 +5125,7 @@
         },
         {
           "path": "articles/romance/humanize/fix-20261107/whole/KEEP-AS-IS.json",
-          "sha256": "aad54a299ace1ea49ef9a0f006452fa31df9efd9ebeaefa915bcbb0706f0c33d",
+          "sha256": "dc2f1731974311cc3ba265b0ad1b9d7ba71d23ea813d85eee7aa75271edc542e",
           "role": "humanization_working_record"
         },
         {
@@ -7931,6 +7931,666 @@
         {
           "path": "articles/romance/humanize/fix-20261107/r39/sense/reads/READ-3.json",
           "sha256": "16415d51575174d621b6ea06177b74dbb5310d214e5a4d65258c1eecb2242cea",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r40/CARD-GAME.md",
+          "sha256": "bb4a5f7a8585712fb818f605137a0860ac102ba2e54e8a0ac0a55acde81debf5",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r40/CHANGED.json",
+          "sha256": "17aab452b0757af593b1423c288a1b3589d795d55baecf2a60ef1e70b0b0a2ec",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r40/HIS-T9.json",
+          "sha256": "7588c6523208a6c6406d58ae7f433fa369b9523bfdecdc371302bebe993edacc",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r40/README.md",
+          "sha256": "6d7da0619387fcbbe1bbd9ef89124707f3fed3239ded01cce2438c7b08b68b5f",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r40/RESULTS-1.json",
+          "sha256": "efb860dd897b55fc080482e0e9f4f635da8cf5fc1edcf652b813a04f0b16c011",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r40/RESULTS-2.json",
+          "sha256": "170a81b7bad84b2d7163442089a70de17f70027031ea47c1a4a7899f45ba570f",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r40/RESULTS-whole-r39.json",
+          "sha256": "d2ba047e740595d46d31974047710157128a8e670d63bab53650210fd3ea3f3c",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r40/SECTIONS.json",
+          "sha256": "397028a9edceb715924f00748be758e3a4904c3c740d994fd8ea119de0c5242f",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r40/UNREAD.json",
+          "sha256": "18c10e185e6defe84b3dac2726e096292ba8f8872f55bcc857bdfa47a9e5f581",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r40/apply_t9.py",
+          "sha256": "9797733c82f67c63908ed5af63e3455480e05c9a6a6f7fa80f4de9a20e82ba2f",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r40/checks/CHECK-r40-01-also-check-out-my-free-couples-card-game.txt",
+          "sha256": "70b33155914e1b5faee07cd9e3c81499f9a290532c783aec49e3d7d56b13db5c",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r40/checks/CHECK-r40-02-what-we-mean-by-love-p1.txt",
+          "sha256": "d0b89bb1ef42648aaf4e9233a065cddadc3c0bff2da088dc14fdb83f1a9c6c4f",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r40/checks/CHECK-r40-03-what-we-mean-by-love-p2.txt",
+          "sha256": "875cc09110f0543ccbfda19df1282e6e8e4b99c0ae22201bde124f0e915625a7",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r40/checks/CHECK-r40-04-talk-about-making-love-before-you-do-it-p1.txt",
+          "sha256": "43ce86c87345417894b8c61e2ee1cdd9252928af489898c8157d40bdf1b312b3",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r40/checks/CHECK-r40-05-talk-about-making-love-before-you-do-it-p2.txt",
+          "sha256": "4e065de85c667df0ed33e27dc0ec92e6dbc0e8d5f9c1031ba9358b690589728d",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r40/checks/CHECK-r40-06-affection-and-the-simmer.txt",
+          "sha256": "19c10dc667ba37917f5c1960776fea55f1de334bf2635c53d6469ccc0d5f6413",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r40/checks/CHECK-r40-07-can-casual-sex-or-a-situationship-actual.txt",
+          "sha256": "31a93f8aafdad7ff40100dd0ebd45e030eecdd904e57205b45ce2dd90fb34cf7",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r40/checks/CHECK-r40-08-situationships.txt",
+          "sha256": "cda0dd4c593cd2cf62570d10bfb5a5e8d69c3e5b772c0a52bdce554278425873",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r40/checks/CHECK-r40-09-labels-are-descriptive-not-prescriptive.txt",
+          "sha256": "3d3851213f20a96a0114f46c78d681a35f3aa1b8d33129f1cb583b4dca52c275",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r40/checks/CHECK-r40-10-should-you-be-in-a-relationship-at-all.txt",
+          "sha256": "0fa72f70d422dbe17b7a81527f4070bd20c73e0850976dc711d3fbe8e0893cdb",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r40/checks/CHECK-r40-11-i-wasn-t-ready-but-i-was-lucky.txt",
+          "sha256": "8c0c04de2946d50526eba5909a5323b184bf56e053b9023778887e47a4b0dfa2",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r40/checks/CHECK-r40-12-spirituality-to-bypass-intimacy-p1.txt",
+          "sha256": "01aeae035ef859bef9eea186444cb018e97e437ccdf82d9c218a669fbf5c46d7",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r40/checks/CHECK-r40-13-spirituality-to-bypass-intimacy-p2.txt",
+          "sha256": "4c96382f3339451149498244451862fde0732679af8a3893993f81f335312e57",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r40/checks/CHECK-r40-14-practical-partnerships.txt",
+          "sha256": "5a9470680a1ac20d249bcef9e583d7b6aab4780b299cf170d355a995b8fd7b82",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r40/checks/CHECK-r40-15-it-always-goes-deeper.txt",
+          "sha256": "59d43363fc909a563a9dd582ed495a9d05fdbcc2f33564d3bab9c4fa265bf472",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r40/checks/CHECK-r40-16-and-deeper-is-the-point.txt",
+          "sha256": "41e2613f05a4f279332c54c1efbd975ff8f4bf986010961c0187a9344d16a153",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r40/checks/CHECK-r40-17-how-to-find-a-partner.txt",
+          "sha256": "65a03b183f93436cc218ab1e90765f811fc624e14b3c516792b226899531a8db",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r40/checks/CHECK-r40-18-long-distance.txt",
+          "sha256": "4f93f24f15ad5f70d3761167ec0fc755e4dfb8b7e6b1652260bac07d7bb0ab41",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r40/checks/CHECK-r40-19-dating-app-horror-show-p1.txt",
+          "sha256": "9eafffd553ee45721520e51214bea48e25b97ab43fdb6c63f19968cc202e590d",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r40/checks/CHECK-r40-20-dating-app-horror-show-p2.txt",
+          "sha256": "ce07190599346d6b055400e6b911f26dba22c659ca768fd9827252b7c2f5f54d",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r40/checks/CHECK-r40-21-community-makes-the-match.txt",
+          "sha256": "c9fa0a096fd56c7e36669b3223a4f55b6ea4df29e39888cbfdf1156141e7198e",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r40/checks/CHECK-r40-22-the-missing-middle.txt",
+          "sha256": "bbe53ced13728b31b1a31710dc2be25f0d9798d967cf8302040690123eda2ded",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r40/checks/CHECK-r40-23-the-window-of-clarity-and-how-it-closes.txt",
+          "sha256": "9b70141e7c1e88ef8378dda51cb2c4863f8da892d501f114ebe0b1c7c0e393e5",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r40/checks/CHECK-r40-24-peeking-thru-the-window-p1.txt",
+          "sha256": "8d431022d08702b8c8c2fc0c71f020393ec28a2fd623841654713112ad58237e",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r40/checks/CHECK-r40-25-peeking-thru-the-window-p2.txt",
+          "sha256": "99e142141fa42a47b79b16f19e23a81326b663b657ac111b3b7d5c40ced2441b",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r40/checks/CHECK-r40-26-the-conversation-about-flaws.txt",
+          "sha256": "c2c5566d0cd7145add97ff01099b4ef4a1a445d089376a9635668bf57ef910bc",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r40/checks/CHECK-r40-27-my-flaws-p1.txt",
+          "sha256": "2447c8e9bc063872585555160c8628c7da60cec7a28cc8e63c09771465d3d722",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r40/checks/CHECK-r40-28-my-flaws-p2.txt",
+          "sha256": "9c8f1368749965c44bed85c56c4399144a8107c80afa82eecb0d5f28f04a62d3",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r40/checks/CHECK-r40-29-things-get-tricky-fast.txt",
+          "sha256": "155c5063825e90aef47098bd0f86983a4f2cbe1b6903b9b1a148c4c0877312b9",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r40/checks/CHECK-r40-30-beware-idealization-in-either-direction-p1.txt",
+          "sha256": "b758a07bedbd06339425b6971ea65ecf4e1ef487ba4ea5184496fa23143b5c64",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r40/checks/CHECK-r40-31-beware-idealization-in-either-direction-p2.txt",
+          "sha256": "d669639c740bc8762f0574738c78f727b8b17fd138f42d003584d1a012eeac52",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r40/checks/CHECK-r40-32-anti-ptsd-can-be-just-as-dangerous-as-pt-p1.txt",
+          "sha256": "4664f44e52022f17d5f6b30b13e1711ddd5c0627585ac2f0903a77de696ecbaa",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r40/checks/CHECK-r40-33-anti-ptsd-can-be-just-as-dangerous-as-pt-p2.txt",
+          "sha256": "262466d2d9818833577898aa98d7ad66e088f33dfc87d1d2e7567517779ddfc2",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r40/checks/CHECK-r40-34-seeing-idealization-right.txt",
+          "sha256": "ecb8c968fb52284a3c86ad816f9dd8959c52d39863b8a67104be62060d1fa2e1",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r40/checks/CHECK-r40-35-if-slow-isn-t-realistic-for-you.txt",
+          "sha256": "8becbcd8388facddf070dd93fe75cf4f0b8d7b942644db793ad6380b5bfceddf",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r40/checks/CHECK-r40-36-just-in-case.txt",
+          "sha256": "e8a545fcf5599546ee43886ed801d1b7cda9f4b9a3eb97250b996d95fa57c770",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r40/checks/CHECK-r40-37-holding-up-a-leaky-dam.txt",
+          "sha256": "91317ccd2d31c62c4d4552ad72e722e6687f3717b2a03733f1f7b79c6ecfc793",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r40/checks/CHECK-r40-38-slow-steady-may-win-the-race-but-turtles.txt",
+          "sha256": "bf0c8fc7b944f2f913a841e29e316399363af0e77c74654de791c94a0d608f39",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r40/checks/CHECK-r40-39-slow-steady-isn-t-ko-d-yet-p1.txt",
+          "sha256": "389735ebf0c8b6c31a21625e8b441c2870bb43ba770335ecf7824229759929d4",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r40/checks/CHECK-r40-40-slow-steady-isn-t-ko-d-yet-p2.txt",
+          "sha256": "3c1d15f95bc92ddff5257e5c7de9843d29d266733769e1556e3794bdaf354842",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r40/checks/CHECK-r40-41-the-relationship-as-crucible.txt",
+          "sha256": "b86ad912a6cdb5eaf826302ff089de665a9bdf3489c6867566bf58c508200a73",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r40/checks/CHECK-r40-42-from-flow-to-nitty-gritty.txt",
+          "sha256": "03cb4382a1435311d6673f62b429c243ac32beff152a5cc813a35abc933a4f55",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r40/checks/CHECK-r40-43-reverting-to-babyhood.txt",
+          "sha256": "6233bfac4d0fc92b3b5c76dd98536b2a29854e7def36c071e14b4becee9f517e",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r40/checks/CHECK-r40-44-don-t-make-your-partner-your-whole-world-p1.txt",
+          "sha256": "718daf8cd2824338649e36bcea20475d2c16f2f48b45038ebb7d1157966679f0",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r40/checks/CHECK-r40-45-don-t-make-your-partner-your-whole-world-p2.txt",
+          "sha256": "67918b937dc207f6fda928df21de431f4744ca1bd7efcb64d034f74f3c8ffc08",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r40/checks/CHECK-r40-46-disconnect-to-connect.txt",
+          "sha256": "13c03f6b5bc35e844cdba2e00be1614ca25cf49d6711670641e0a371cdb0e115",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r40/checks/CHECK-r40-47-babies-growing-up-again.txt",
+          "sha256": "a6a3f254352a4a64fa8451f77c863a24388bede2cd1a968579c44ce75feb89f4",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r40/checks/CHECK-r40-48-some-babies-grow-up-faster-p1.txt",
+          "sha256": "0207e2a1454724d07dd98589006135e08ae633e731b2d7cd50824ed737b4101a",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r40/checks/CHECK-r40-49-some-babies-grow-up-faster-p2.txt",
+          "sha256": "f3cf05026c6128f6095d04ea3be7266ac2e8bc7ced3aa4ff1bd0513f3af77052",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r40/checks/CHECK-r40-50-different-levels-in-different-domains-ca-p1.txt",
+          "sha256": "2d603a4ba167597ecdf354b1f783d982c6439965194f410c68e6127d0396c29e",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r40/checks/CHECK-r40-51-different-levels-in-different-domains-ca-p2.txt",
+          "sha256": "62b1cb39ae31a01315f8addcf642163716823a9d7f227103480d9c53756759be",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r40/checks/CHECK-r40-52-primal-attraction-channeling-the-divine--p1.txt",
+          "sha256": "8471a868be2c80d1180a771a491f7d5825ded029621055208c9980e02584dfa4",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r40/checks/CHECK-r40-53-primal-attraction-channeling-the-divine--p2.txt",
+          "sha256": "7a565a51695a11bbde53f5e7e2c9e3d830e31ae33cba8484600b200905d73264",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r40/checks/CHECK-r40-54-muses-directors-p1.txt",
+          "sha256": "e939aed4538df4212c868062bfec4d458f0ab92ee65b47c5af02802ee90c6919",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r40/checks/CHECK-r40-55-muses-directors-p2.txt",
+          "sha256": "4e36273629c6250ccfab1fdd1d0157772e46e9383569f45ec47e5ccca5944081",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r40/checks/CHECK-r40-56-muses-directors-p3.txt",
+          "sha256": "590178e756da4a19b578c1c723411dcae36e0a596c01294d7b64433060eb31ec",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r40/checks/CHECK-r40-57-desire-is-expressed-differently-for-men-.txt",
+          "sha256": "28b7dd2aca8867d978ef0db0b0f613f544d62b8ad4383715678bc401ee4e2ee0",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r40/checks/CHECK-r40-58-romance-shouldn-t-be-adjudicated-p1.txt",
+          "sha256": "bdf1ce426cc54cd72d2b4d2d8936abdb29d1252c16d0bc245bcd41501248f42d",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r40/checks/CHECK-r40-59-romance-shouldn-t-be-adjudicated-p2.txt",
+          "sha256": "84605179708707e1b755e935a090aaec48f4685128310a250951295e570dc7cc",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r40/checks/CHECK-r40-60-fantasy.txt",
+          "sha256": "ddc22fb72a5dadbacb5a9a5adeec96adf7361174be3004216cf226b6c7564765",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r40/checks/CHECK-r40-61-the-queen-of-orgasms.txt",
+          "sha256": "c2462f9bba151204ab901a4e4cab6093314d0d4f4e2d257baedfbaa28bf64a30",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r40/checks/CHECK-r40-62-can-making-love-be-a-spiritual-practice-p1.txt",
+          "sha256": "45df2c708c7d56ebb2a4ae71c972dd30b7803d55fb04da2fbe6c0d7ab964bbe4",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r40/checks/CHECK-r40-63-can-making-love-be-a-spiritual-practice-p2.txt",
+          "sha256": "e8fbb0c51aaa09e9f56a994e4095b76bcfe999e4c606692fef0892748ae8f3f7",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r40/checks/CHECK-r40-64-twin-flames.txt",
+          "sha256": "888af4daf688c3e6e9dcbb86787b0c3025ed1a8a1407a4ccfd68d51e1db83762",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r40/checks/CHECK-r40-65-what-two-twin-flames-taught-me.txt",
+          "sha256": "799a08e30d283bb56107d739a0345d19fa5fe76444c661f69f3737973fdfe883",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r40/checks/CHECK-r40-66-de-ontologizing-twin-flames-ftw.txt",
+          "sha256": "319e492fb374cc5c8fbb7c634397b688d9f973fb264fe0a7aaff40bd2240f991",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r40/checks/CHECK-r40-67-two-pillars-don-t-hold-the-roof-up-p1.txt",
+          "sha256": "80eb1785baf37800519c75a720ff11c70d4c81ec0b2e81cc9abe83bbfb8d78ce",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r40/checks/CHECK-r40-68-two-pillars-don-t-hold-the-roof-up-p2.txt",
+          "sha256": "74538cdb5507019f60e6c9ed4a797ff17f0a8998e14f26060f9578f47008b1f8",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r40/checks/CHECK-r40-69-what-are-you-actually-choosing-together-p1.txt",
+          "sha256": "08ac36166ac4d78993aee176bb986e7fd0466241a02359753b6b4b479f4e19fd",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r40/checks/CHECK-r40-70-what-are-you-actually-choosing-together-p2.txt",
+          "sha256": "e4259b527f9bdd48025c3d689f4320c8bda38ffe800133094c75da760036fdb1",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r40/checks/CHECK-r40-71-which-marriage-vows-are-honest.txt",
+          "sha256": "c90cfde786f675541e509d3ee38dbb63fad570f8a51862ebfded6c16336b79fa",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r40/checks/CHECK-r40-72-attraction-and-exclusivity.txt",
+          "sha256": "ed900b068e24efb744ac74a966a4a1e5c48389a0c3f19d1a9d46a2ea3c373b08",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r40/checks/CHECK-r40-73-jealousy-on-trial-p1.txt",
+          "sha256": "8eb499b873c6d0b2c6a2955548e2711743537712692becc9301814a8d488634f",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r40/checks/CHECK-r40-74-jealousy-on-trial-p2.txt",
+          "sha256": "a79ebdec5b9767c04e805f760864d9bb22f055cfc067368c7783bf825cadee07",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r40/checks/CHECK-r40-75-jealousy-on-trial-p3.txt",
+          "sha256": "56262c0494cafcbe4c13cf213979b76419ff69ca9f7f6f964161c2e3cc08d210",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r40/checks/CHECK-r40-76-doing-it-consciously-imagination-as-a-di-p1.txt",
+          "sha256": "41df5609f8e8255c454757678f6e46ab8df052c9449f604e1e39fbd006627fa7",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r40/checks/CHECK-r40-77-doing-it-consciously-imagination-as-a-di-p2.txt",
+          "sha256": "5a499c4de6e6a78e0b0f1d875bb6cf34ee78a052a9603bf660c6725e5a5b420c",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r40/checks/CHECK-r40-78-psychedelic-timing.txt",
+          "sha256": "d04291fa8c30146dbc1c0e404ebed5bf4558a257378428e1e7f4675124d19000",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r40/checks/CHECK-r40-79-returning-to-the-heart-to-get-unstuck.txt",
+          "sha256": "abdeecd159b776260e795fafac9cee531e997edb11287bf9c91398750938a8fc",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r40/checks/CHECK-r40-80-measuring-the-benefits.txt",
+          "sha256": "8a07c46b093353fa8521f3b26cc78cc230613b1abcab684706aaac5ade949f9c",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r40/checks/CHECK-r40-81-why-all-of-this-sounds-artificial.txt",
+          "sha256": "645db9a8f1235e89687d904627f7653de0ba56b3b2747f9d1d1d5b2bfb9f8ea6",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r40/checks/CHECK-r40-82-if-you-re-already-in-it-p1.txt",
+          "sha256": "51f9325156842358f5ee4520f41e650fdea1f1a7b883b65e1fa0e46256920271",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r40/checks/CHECK-r40-83-if-you-re-already-in-it-p2.txt",
+          "sha256": "54e7826b114e6627eb0c943d881eb535fa932dffa839a9a0f5188ddce8f3de2e",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r40/checks/CHECK-r40-84-outside-help-can-sometimes-break-the-loo.txt",
+          "sha256": "80f0e0b194f5f29c71b08fb04c2979a145b6cfbeb90d2d3c6a47d7c4185f1190",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r40/checks/CHECK-r40-85-what-will-honesty-produce.txt",
+          "sha256": "c3f8e5812a49a4beb0e10e20ff3bc14095b863ec12c0f4f9e51581413e089fda",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r40/checks/CHECK-r40-86-children-p1.txt",
+          "sha256": "3d1baa557c0e8015defecd33d5282ce4f0f03d1c1b34ddbc1e518263c6e1ff7f",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r40/checks/CHECK-r40-87-children-p2.txt",
+          "sha256": "8345ac4892c6589df5a6e8337c7e4013b17e00709301261406faac985dbd879a",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r40/checks/CHECK-r40-88-ending-consciously.txt",
+          "sha256": "1bb4a05dde4236889c79c07bd2c52066b5c5e00eaa23a44cab1d46cbb26a10b1",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r40/checks/CHECK-r40-89-gaslighting-in-the-dark.txt",
+          "sha256": "7efdf321a2fe66165b0cfd4c476c412df10764038bf7fa9705076b9b9a4271d2",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r40/checks/CHECK-r40-90-after-leaving.txt",
+          "sha256": "93271da6e8dc25d244793c8d7e6b561ef1d63b014cad49e81a92113386664556",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r40/checks/CHECK-r40-91-what-i-gained-from-loss.txt",
+          "sha256": "4bb43394fed2e3478a395126ae961677bce1d8607dddc256e437f90203aa1f6e",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r40/checks/CHECK-r40-92-tough-love-p1.txt",
+          "sha256": "c242ccc2fcacc2004b3c858952be63712e31953694fa2aca01501aa10a863ffa",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r40/checks/CHECK-r40-93-tough-love-p2.txt",
+          "sha256": "3d729ec4b626f25fcfbfb41494aa422d4cf773268a56c876b325f7d70bce4042",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r40/contradictions/BRIEF.txt",
+          "sha256": "b7beb92b0ffcc6b3730fcbcb2e1801b3a2a65f95beef501fb6fcd72e7500f76f",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r40/contradictions/EXTRACT.md",
+          "sha256": "afadfbaf3b82eef2c578c7fc2295cd0e7726342741a205ede0f954374b1d4061",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r40/contradictions/FATES.json",
+          "sha256": "6085f51c79e5a26327d427ee609e8e43f4ddf80b0569ecdd80b88a382dcca086",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r40/deont/R-66.json",
+          "sha256": "76375e8bde398f2eeda2ab383d8bced4cdcf3f7560343d7e8a1d36449a0139b5",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r40/deont/receipt.py",
+          "sha256": "1ad122630053584e311758c6edc466672470a5862fb8cbeb53a3245a2c0c4189",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r40/his-primal.txt",
+          "sha256": "f5a42385dad45144f63a638c35c98562f8ebc0a8c97ee6ae1c0deea810ef09e0",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r40/predict_r40.py",
+          "sha256": "e3f1a28801d020d3616a9e0fbd14f09a5ef8e84ab9e32943824d5a381a76fc02",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r40/primal/R-52.json",
+          "sha256": "086df65c15ef4dd339657b506d80af31dc3aab44f3200eca21029b330e235676",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r40/primal/R-53.json",
+          "sha256": "9c32b0b395e94bcff13bff38153baf3ac4ec3d00fb8c7e7a9627dffdf91b9243",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r40/primal/receipts.py",
+          "sha256": "8f395676e46cd5286f3c201f25f9c96fcf40c95babb751eb5a75ba6988beb6c9",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r40/sections.py",
+          "sha256": "e20fb6815798c586cb9993bb75430ddf1a480cc2769c8db1b43ef6f967e1615d",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r40/sense/BRIEF.md",
+          "sha256": "2b452ac2ca519978ca496af44b2bd38c536612f56a21e785195e1e17cbdc8f0e",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r40/sense/CANARIES.json",
+          "sha256": "f0b9e13052c0874a80895a1d7703063be85eabc0870a2b6c6478537692bd81f7",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r40/sense/FINDINGS-RAW.json",
+          "sha256": "5a1774a494c9571aafb5afeec87fcc3b6e644a91418025f993b631a0ab098acc",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r40/sense/META.json",
+          "sha256": "d9f58eb17ebf43bc3e774e81831804fea90c35d85bd49d4412f1e8f78baa414d",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r40/sense/PRIMAL-NEW.md",
+          "sha256": "64d6b4f17e99f0ae8ef8c692c6f8bc3b19472b02b3cec359052adf2c373add82",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r40/sense/SCORE.json",
+          "sha256": "f8b305a6dc3069c70dafd67f9500ee68479da51682bc384b6d8033bfaea03a77",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r40/sense/TASKS.json",
+          "sha256": "617be54785de6c8bb0af88fd200e7f573cbf95a7ce332ba394863248318377af",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r40/sense/TRACE.md",
+          "sha256": "d8a5114a2cce190c06b1e648181e0c4e9ca2c3cd2d686beac7485145ea9ac8af",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r40/sense/parts/PART-1.md",
+          "sha256": "e0e7d548116984ee986cfeb177d64b4ebf38a1bda9352151e54abc0c5a81c1dd",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r40/sense/reads/READ-1.json",
+          "sha256": "da3848dc884b59657d46dfcad23d96b84bfc64fa1b6bf7592cfa57826f261d5c",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r40/twin/R-r40-64-twin-flames.json",
+          "sha256": "7719e8dd388f4ef01da17fb7d76ce2826825e8f7b91b710a4ad392e98dacc1f7",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/humanize/fix-20261107/r40/twin/receipt.py",
+          "sha256": "d201c6a077e1225b8e42abe6781b8393f39f47f0d12d2caaec3b0762c2b621cc",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/review/teach-20261124c/ARTIFACT.md",
+          "sha256": "9887877c5ae3f555b650a97426848f2718f7e425bf1a271ce68be739a002efe5",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/review/teach-20261124c/REVIEW-T9.artifact.html",
+          "sha256": "ff262caa20c8d3a693e8e2514781ea65a271a8f446e25af3352d8706b97d139f",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/review/teach-20261124c/REVIEW-T9.html",
+          "sha256": "a6ea49d0bbc77c90afdd98a73fa3095f01161d6fe6851d5bd2c641835c184c38",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/review/teach-20261124c/REVIEW-T9.json",
+          "sha256": "35085637084136448ca4c0d453f6a29e716d81ee2b7f02a1fecd3c2bbbe6cb75",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/review/teach-20261124c/REVIEW-T9.md",
+          "sha256": "de3b7b361d293ac063788a814c41acc062337f8a7a9afbc734d248a23bb18cd5",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/romance/review/teach-20261124c/build_t9.py",
+          "sha256": "de73815c8161dfc203e2d7f8b9f6845a865cc4ad136c77064bae49b6a0ee17f4",
           "role": "humanization_working_record"
         }
       ]
