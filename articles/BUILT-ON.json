@@ -10,6 +10,11 @@
       "when": "2026-11-24 21:05 UTC",
       "where": "the contents lane (work/toc-long-articles-20261122/README.md)",
       "words": "this article is highly tied into my inner child article and somatic articles, so whenever i change those you should also think to merge the changes into this one (and i shouldn't have to tell you this either, right?)"
+    },
+    {
+      "when": "2026-11-24 16:23 UTC",
+      "where": "the romance lane (articles/romance/humanize/fix-20261107/r40/CARD-GAME.md)",
+      "words": "i'd also like to update the romance card game, can you find that on the vps and update it based on anything it's missing from the article (esp sincei just added this part, and i had clarified some other thigns)?"
     }
   ],
   "edges": [
@@ -49,6 +54,23 @@
       "last_brought_in_line": null,
       "note": "the repository's copy of the somatic guide (articles/somatic-therapies/master.html) is older than the live post: the live post has a Systema section that the copy has no heading for",
       "next": "the catch-up, with the inner child one: the live somatic post first, then these sections"
+    },
+    {
+      "source": "romance",
+      "built_on_it": "love-honestly",
+      "registered": false,
+      "names": "the romance guide (Romance Advice I Wish My Parents Taught Me) -> his couples card game \"Love, Honestly\" (an app, not a post: the repository u-dont-existDOTcom/love-honestly; live as the /love-honestly/ page of his innerself site)",
+      "his_words": ["2026-11-24 16:23 UTC"],
+      "sections": {
+        "ids": "every card names the article section it draws on (its \"Article source\" line)",
+        "how_found": "the deck itself; on 2026-11-24 a fresh reader read all 95 cards of v0.5.4 against the article (articles/romance/humanize/fix-20261107/r42/game-audit/AUDIT.json), and every card's section names were compared with the article's headings"
+      },
+      "last_brought_in_line": {
+        "what": "v0.6.0, built 2026-11-24 against the article as fixed through r41 (17 new cards, 19 cards' \"why\" or section line corrected); a candidate until he approves it (articles/romance/humanize/fix-20261107/r40/CARD-GAME.md)",
+        "live": "v0.5.4 is what his site serves until v0.6.0 is approved, vendored into the innerself site and deployed"
+      },
+      "how_changes_carry": "it is a game, so Pangram's rules don't apply: when the article gains or changes a point, a renamed section or a cut line, the cards that draw on it are checked; new or changed card texts go to him to approve; a new version is then built by the love-honestly repository's rule (versions/<version>/) and deployed only with his OK",
+      "next": "his word on v0.6.0; after that, each romance turn that changes the article checks the cards that name the changed section"
     }
   ]
 }

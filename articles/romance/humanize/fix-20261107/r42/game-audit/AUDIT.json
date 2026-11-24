@@ -1,0 +1,121 @@
+{
+  "read": [
+    "love-01","love-02","love-03","love-04","love-05","love-aging-beauty",
+    "sex-01","sex-02","sex-03","sex-04","sex-05","sex-affection-simmer","sex-barometer","sex-developed-compatibility",
+    "ordinary-01","ordinary-02","ordinary-03","ordinary-04","ordinary-05","ordinary-long-distance-evidence","ordinary-listen-or-solve",
+    "life-design-01","life-design-02","life-design-03","life-design-04","life-design-05","life-design-long-distance-01","life-design-long-distance-02",
+    "conflict-01","conflict-02","conflict-03","conflict-04","conflict-05","conflict-06",
+    "trust-01","trust-02","trust-03","trust-04","trust-05",
+    "inner-child-01","inner-child-02","inner-child-03","inner-child-04","inner-child-05",
+    "community-01","community-02","community-03","community-04","community-05","community-06","community-07",
+    "promises-01","promises-02","promises-03","promises-04","promises-05",
+    "children-01","children-02","children-03","children-04","children-05",
+    "clarity-01","clarity-02","clarity-03","clarity-04","clarity-05","clarity-06",
+    "endings-01","endings-02","endings-03","endings-04","endings-05",
+    "polarity-01","polarity-02","polarity-03","polarity-04","polarity-05","polarity-insecurity-double-bind",
+    "altered-01","altered-02","altered-03","altered-04","altered-05",
+    "love-spiritual-practice","spiritual-bypass-intimacy","spiritual-relationship-spirit","spiritual-twin-flame-model",
+    "rhythm-evidence","rhythm-reverse","rhythm-appreciation","rhythm-pink-elephant","rhythm-ordinary-time","rhythm-strongest-case","rhythm-outside-view","rhythm-body-check"
+  ],
+  "findings": [
+    {
+      "id": "polarity-01",
+      "kind": "stale",
+      "field": "why",
+      "card_says": "The guide says female success or lower male income is not inherently the problem. The problem appears when money or competence becomes “my house, my rules,” domination, humiliation, uselessness, or enforced shrinking.",
+      "article": "not found",
+      "note": "Nothing in the article discusses female success, lower male income, money or education as rank, or a 'my house, my rules' dynamic; Muses & Directors only says (line 259) “If she micromanages, I start feeling useless.”",
+      "confidence": "sure"
+    },
+    {
+      "id": "rhythm-pink-elephant",
+      "kind": "stale",
+      "field": "why",
+      "card_says": "The article recommends starting with the largest unspoken issue when a relationship is already stuck.",
+      "article": "not found",
+      "note": "'If you’re already in it' (lines 395-403) describes stuck couples sweeping things under the rug and saying “not now” but never recommends starting with the largest unspoken issue.",
+      "confidence": "likely"
+    },
+    {
+      "id": "ordinary-02",
+      "kind": "stale",
+      "field": "why",
+      "card_says": "The article shows how small response delays can activate much younger parts of the mind and acquire outsized meaning.",
+      "article": "not found",
+      "note": "The only response-delay material is line 157 (“Why does she contact me only sometimes? Is that a pattern, or just life getting in the way normally?”), which does not link delays to younger parts of the mind; younger-part activation appears separately at line 201.",
+      "confidence": "likely"
+    },
+    {
+      "id": "ordinary-02",
+      "kind": "section",
+      "field": "source",
+      "card_says": "Are you ready for the crucible?",
+      "article": "line 192: # The Relationship As Crucible",
+      "note": "No heading 'Are you ready for the crucible?' exists now; the crucible material sits under 'The Relationship As Crucible' (with subsections 'From flow to nitty gritty' and 'Reverting to babyhood').",
+      "confidence": "likely"
+    },
+    {
+      "id": "ordinary-04",
+      "kind": "section",
+      "field": "source",
+      "card_says": "Are you ready for the crucible?",
+      "article": "line 197: ### From flow to nitty gritty (under line 192: # The Relationship As Crucible; the making-the-bed example is line 198)",
+      "note": "The making-the-bed material sits under 'From flow to nitty gritty' within 'The Relationship As Crucible', not under a heading 'Are you ready for the crucible?'.",
+      "confidence": "likely"
+    },
+    {
+      "id": "conflict-03",
+      "kind": "section",
+      "field": "source",
+      "card_says": "Are you ready for the crucible?",
+      "article": "line 212: #### Disconnect to connect (line 215: “my mind may understand that my partner is going through something difficult ... but my body still feels dragged down”)",
+      "note": "The body-reaction material now sits under 'Disconnect to connect' (inside 'Don’t make your partner your whole world'), not under 'Are you ready for the crucible?'.",
+      "confidence": "likely"
+    },
+    {
+      "id": "conflict-06",
+      "kind": "section",
+      "field": "source",
+      "card_says": "Should you be in a relationship at all?; Are you ready for the crucible?",
+      "article": "line 192: # The Relationship As Crucible (the terrorizing/controlling warning is line 194)",
+      "note": "The second named section no longer exists; the terrorize/control warning sits under 'The Relationship As Crucible' (the first named section, line 48, also has it at line 49).",
+      "confidence": "likely"
+    },
+    {
+      "id": "inner-child-01",
+      "kind": "section",
+      "field": "source",
+      "card_says": "Are you ready for the crucible?",
+      "article": "line 200: ### Reverting to babyhood (under line 192: # The Relationship As Crucible)",
+      "note": "The young-wounds-reappearing material sits under 'Reverting to babyhood' (and 'Babies growing up again'), not a heading 'Are you ready for the crucible?'.",
+      "confidence": "likely"
+    },
+    {
+      "id": "rhythm-body-check",
+      "kind": "section",
+      "field": "source",
+      "card_says": "Are you ready for the crucible?; consent throughout",
+      "article": "line 192: # The Relationship As Crucible",
+      "note": "No heading 'Are you ready for the crucible?' exists now; the nearest current heading is 'The Relationship As Crucible' (body material at line 215 under 'Disconnect to connect').",
+      "confidence": "likely"
+    },
+    {
+      "id": "sex-developed-compatibility",
+      "kind": "section",
+      "field": "source",
+      "card_says": "Sexual compatibility can develop between particular people",
+      "article": "line 184: #### Slow & steady isn’t KO’d yet (line 188: “some sexual responsiveness seems to be co-created between particular people”)",
+      "note": "This reads like a former heading in the article's style; the material now sits under 'Slow & steady isn’t KO’d yet' (and its parent 'Slow & steady may win the race, but turtles have problems too!').",
+      "confidence": "likely"
+    },
+    {
+      "id": "inner-child-03",
+      "kind": "section",
+      "field": "source",
+      "card_says": "When partners have different maturity levels; role-play versus role capture",
+      "article": "line 224: ### Some babies grow up faster (line 225: “While different maturity levels are to be expected to some degree...”)",
+      "note": "No heading 'When partners have different maturity levels' exists now; the material sits under 'Some babies grow up faster' (and 'Different levels in different domains can be complementary'); the 'role-play versus role capture' half reads as a loose topic.",
+      "confidence": "likely"
+    }
+  ]
+}

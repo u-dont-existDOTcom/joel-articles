@@ -1,0 +1,1073 @@
+You are checking a couples conversation card game against the article it is based on. The article was revised this
+month; the game's cards were written from an older version. Each card has a PROMPT, a FOLLOW-UP, a WHY (shown to players
+under "Why this card?", usually saying what "the article" or "the guide" says) and a SOURCE (shown as "Article source:",
+naming the article's section or topic).
+
+Your one job: find every card that no longer matches the article as it is now. Go card by card, all of them; don't skim.
+For each card, look for what its WHY (and its PROMPT, FOLLOW-UP or EXPERIMENT, where they state something as the article's)
+says the article says, and find it in the article below. Report a card when:
+- stale: the WHY attributes to the article a statement, example, phrase or position that the article no longer contains
+  (quote the card's words; say "not found" after you have looked through the whole article for it, its paraphrases too);
+- contradicted: the article now says something that goes against what the card says it says (quote both);
+- section: the SOURCE names a section that is not one of the article's headings now (lines starting with #), when a
+  heading of that name plainly used to exist; give the current heading the material sits under. A SOURCE that is a
+  loose topic description and never looked like a heading is not a finding.
+Don't report: a WHY that makes its own general point without attributing it to the article; wording differences where
+the article still says the same thing; style. Don't rewrite cards and don't judge whether a card is good. Use only the
+article below, no outside knowledge.
+
+Write your result with a single Write call to `articles/romance/humanize/fix-20261107/r42/game-audit/AUDIT.json`, as JSON:
+{"read": ["every card id you checked, in order"],
+ "findings": [{"id": "card id", "kind": "stale" | "contradicted" | "section", "field": "why" | "source" | "prompt" | "followUp" | "experiment",
+               "card_says": "the exact words of the card", "article": "line N: the exact words of the article, or \"not found\"",
+               "note": "one sentence", "confidence": "sure" | "likely"}]}
+Read only this file, run no commands, don't use the web. Reply with one line: how many cards you checked and how many findings.
+
+=== THE CARDS (95) ===
+
+### love-01  (topic: love)
+PROMPT: Imagine your partner is offered a path that may genuinely make them happier but would take them far away from you. What do you want for them, and what do you want for yourself?
+FOLLOW-UP: Where do those two answers conflict? Say the selfish part and the selfless part without pretending either one is absent.
+WHY: The article treats romantic wanting and selfless care as different forms of love that a good relationship must hold at once.
+SOURCE: What we mean by “love”
+
+### love-02  (topic: love)
+PROMPT: Think of a recent moment when you felt less wanted. What did you actually do next: reach, withdraw, test, perform, become cold, or pretend not to care?
+FOLLOW-UP: What response from your partner would interrupt that loop without requiring them to read your mind?
+WHY: Feeling unwanted can make both people pull back until a temporary dip in eros starts looking like abandonment.
+SOURCE: What we mean by “love”
+
+### love-03  (topic: love)
+PROMPT: What first made your partner desirable to you—beauty, sexuality, competence, care, status, provision, protection, creativity, or something else—and what do you love now that is not reducible to that function?
+FOLLOW-UP: What ordinary evidence suggests the bond survives when that quality is temporarily absent, without pretending the quality played no role in attraction?
+WHY: What makes someone desirable is not the same question as what makes them loved when they temporarily stop being desirable in that particular way. Practical attraction can coexist with real love.
+SOURCE: Agape, eros, practical motives, and durable love
+EXPERIMENT: For one week, each person openly notices one moment when the partner’s usual desirable function is absent or unnecessary and one moment when care remains. Tell each other this is observation, not a test. Revisit what attraction and love each seemed to depend on.
+
+### love-04  (topic: love)
+PROMPT: Imagine that illness, aging, depression, unemployment, disability, or another temporary crisis means one person cannot provide, protect, perform, earn, look attractive, regulate, or caretake as usual. Which parts of the bond would you expect to survive?
+FOLLOW-UP: What evidence do you already have about how each person responds during temporary incapacity? Where is the line between loving support and indefinitely rescuing someone who refuses responsibility?
+WHY: Durable love may carry a partner through temporary loss of a valued function. That does not require pretending every burden is limitless or turning refusal of adult responsibility into permanent rescue.
+SOURCE: What we mean by “love”; practical partnership; durable support
+EXPERIMENT: Each person brings one real example of temporary incapacity and one example of adult responsibility being refused or avoided. Compare what support actually happened, what was sustainable, and what boundary would apply now. Use a current low-stakes example for one week if ordinary evidence is still missing.
+
+### love-05  (topic: love)
+PROMPT: Right now, does this relationship contain more “I want you” or more “I want you to be happy”? Give one concrete example of each.
+FOLLOW-UP: What would bring the two forms of love into better balance without reducing either desire or freedom?
+WHY: The article argues that eros without care becomes selfish, while care without particular desire may become friendship.
+SOURCE: What we mean by “love”
+
+### love-aging-beauty  (topic: love)
+PROMPT: What form of your partner’s beauty do you notice now that you could not have noticed when you first met?
+FOLLOW-UP: When did you last communicate that in a way they could actually receive, without turning it into a demand that they reassure you back?
+WHY: Desire and reassurance can evolve with age instead of relying only on the original fantasy or the appearance that first created attraction.
+SOURCE: Affection, attractiveness, and new forms of beauty
+EXPERIMENT: Each person communicates one newly perceived form of the other’s beauty in a specific, unforced way. Do not demand a reciprocal compliment. Revisit whether it landed as warmth, pressure, disbelief, embarrassment, or ordinary appreciation.
+
+### sex-01  (topic: sex)
+PROMPT: Before either of you is naked, what sexual truth or compatibility question would be hardest to raise because it might kill the vibe, disappoint the other person, or expose a mismatch?
+FOLLOW-UP: If an honest conversation about sex ruins the mood or the connection, what information would that give you rather than treating the ruined vibe as the problem?
+WHY: The guide treats talking about sexual compatibility before undressing as part of making love. Waiting for marriage or being sexually open-minded does not remove the need to find out whether the conversation itself is possible.
+SOURCE: Talk about making love before you do it
+EXPERIMENT: Have one clothed, sober compatibility conversation before the next sexual situation. Each person names one desire, mismatch, uncertainty, or boundary that could disappoint the other. Do not use sex as the test. Revisit whether the conversation increased trust, exposed a real mismatch, or became difficult merely because honesty interrupted the fantasy.
+
+### sex-02  (topic: sex)
+PROMPT: Imagine one of you wants sex much more often for the next six months. What pattern do you fear: pressure, rejection, resentment, avoidance, duty sex, or silence?
+FOLLOW-UP: What does each person do to remain connected to their own body, imagination, and desire, and what time or energy would you protect rather than quietly asking the other person to manufacture erotic life?
+WHY: Sex drives change independently. A partner’s responsiveness matters, but each person also has some responsibility for staying sexually alive and for keeping erotic connection from receiving only the exhausted leftovers of the schedule.
+SOURCE: Talk about making love; sexual self-responsibility and protected erotic time
+EXPERIMENT: Protect one mutually chosen block of erotic time. The agreement is for presence and honest attention, not a required sexual act, arousal response, or orgasm. Revisit whether anticipation, pressure, and connection changed.
+
+### sex-03  (topic: sex)
+PROMPT: Do you distinguish “having sex” from “making love”? If so, what makes the difference for you—deep care, psychological trust, presence, tenderness, sacredness, erotic intensity, or something else—and do you prefer one or different things at different times?
+FOLLOW-UP: What level of connection are you hoping to build toward sexually? Are you interested in eventually exploring cervical sex or whole-body cervical pleasure together, curious but unsure, or not interested?
+WHY: The guide uses making love for two people who care deeply and feel profoundly connected using their bodies as part of that connection, while sex can also be play or a physical act. It also treats cervical sex as a possible deeper erotic direction, not an obligation or universal goal.
+SOURCE: Talk about making love before you do it; The Queen of Orgasms
+EXPERIMENT: Have this conversation clothed and sober. Each person describes one experience they would call sex, one they would call making love, and whether cervical sex is a shared future curiosity. The experiment is whether you can understand the difference without pressuring anyone to perform it; no sexual act is required.
+
+### sex-04  (topic: sex)
+PROMPT: Picture being fully aroused and physically exposed, then realizing you want to stop or change what is happening. What makes honesty easy or difficult in that moment?
+FOLLOW-UP: What response from your partner would teach your body that changing course is safe rather than disappointing or dangerous?
+WHY: Bodies fitting is not enough; the article asks whether honesty survives the moment of maximum exposure.
+SOURCE: Talk about making love before you do it
+
+### sex-05  (topic: sex)
+PROMPT: Imagine sex creates an attachment, pregnancy, health issue, or emotional obligation neither of you expected. What responsibility would you believe you had afterward?
+FOLLOW-UP: Where might your answers differ even if both of you were sincere beforehand?
+WHY: The article argues that present consent does not automatically settle every consequence sex may create later.
+SOURCE: Can casual sex or a situationship actually be honest?
+
+### sex-affection-simmer  (topic: sex)
+PROMPT: Which is harder in this relationship: letting affectionate touch end without sex, or keeping an erotic current alive when sex is not happening?
+FOLLOW-UP: Name one kind of touch that should feel completely agenda-free and one kind of flirtation that would make you feel wanted without creating an obligation.
+WHY: Affection becomes unsafe when every touch escalates; desire can fade when no touch, flirtation, or communication carries erotic charge between encounters.
+SOURCE: Affection without agenda and the erotic simmer
+EXPERIMENT: For seven days, each person initiates at least one clearly agenda-free affectionate touch and one honest flirtation. No touch or flirtation creates an obligation to have sex, continue touching, or respond in kind. Revisit whether pressure, warmth, and desire changed.
+
+### sex-barometer  (topic: sex)
+PROMPT: If your sexual connection has changed, what else changed around the same time?
+FOLLOW-UP: Look beyond sex too: did touch, flirting, play, dancing, laughter, warmth, health, stress, medication, time, or feeling wanted change? Which explanation has actual evidence, and which is emotionally satisfying but untested?
+WHY: The guide treats a sudden sexual change as a warning light worth investigating before it quietly becomes the new normal. Sex reflects the wider relationship and body, but it is not a diagnostic test and one cause should not be assumed merely because it fits a preferred story.
+SOURCE: Affection and the simmer; If you’re already in it
+EXPERIMENT: Pick one plausible, reversible factor around warmth, time, stress, health, affection, or erotic attention and change only that for one week. Do not use sexual performance as a demand or diagnostic test. Revisit what changed, what did not, and which competing explanations remain open.
+
+### sex-developed-compatibility  (topic: sex)
+PROMPT: Which parts of sexual compatibility feel immediately discovered, and which parts might develop only through trust, receiving, communication, and time?
+FOLLOW-UP: What would count as encouraging development, and what would count as evidence that the mismatch is real enough to stop rather than treating improvement as an obligation?
+WHY: Sexual response can be co-created between particular people, while some mismatch remains real. Sexual chemistry alone cannot supply shared values, friendship, or a workable life.
+SOURCE: Sexual compatibility can develop between particular people
+EXPERIMENT: Choose one concrete, mutually wanted change in pacing, communication, receiving, or setting. Test it without treating improvement as an obligation or body response as evidence that anyone should stay. Revisit after enough ordinary experience to learn something.
+
+### ordinary-01  (topic: ordinary)
+PROMPT: Imagine an ordinary Tuesday together: work, chores, phones, food, tiredness, and no special date. Where would being together feel easy, and where might friction appear?
+FOLLOW-UP: Which part of that scene is based on evidence from real time together, and which part is still fantasy?
+WHY: Ten profound conversations do not show what somebody is like when bored, irritated, or doing ordinary life.
+SOURCE: Starting on the right foot; imagination as discernment
+
+### ordinary-02  (topic: ordinary)
+PROMPT: One of you takes a day to answer a message. What story is the other person most likely to tell themself about the delay?
+FOLLOW-UP: What communication pattern would respect autonomy without feeding avoidable insecurity?
+WHY: The article shows how small response delays can activate much younger parts of the mind and acquire outsized meaning.
+SOURCE: Are you ready for the crucible?
+
+### ordinary-03  (topic: ordinary)
+PROMPT: If you began spending nearly every night together, what would tell you that closeness was becoming entanglement faster than knowledge was growing?
+FOLLOW-UP: Name one boundary or scheduled check-in that would preserve information you lose by moving in too quickly.
+WHY: The article compares immediate cohabitation to entering a common-law marriage before discussing what it means.
+SOURCE: If slow isn’t realistic for you
+
+### ordinary-04  (topic: ordinary)
+PROMPT: Choose one tiny household habit that could start carrying far more emotional meaning than it deserves. What might each person imagine it proves?
+FOLLOW-UP: How would you separate the practical request from the fear or longing attached to it?
+WHY: In the crucible, even making the bed can become evidence that a partner does or does not care.
+SOURCE: Are you ready for the crucible?
+
+### ordinary-05  (topic: ordinary)
+PROMPT: How much recurring alone time would help each of you remain a whole person rather than waiting until overwhelm produces “I need space”?
+FOLLOW-UP: Outside the relationship, what still gives you beauty, softness, sensuality, inspiration, purpose, or relief—nature, music, art, food, friends, spiritual practice, work, or something else?
+WHY: The guide recommends making solitude normal and keeping other sources of meaning and nourishment alive. A partner should not have to be the only source of beauty, softness, sensuality, inspiration, support, or purpose.
+SOURCE: Don’t make your partner your whole world
+EXPERIMENT: Each person protects one small recurring source of nourishment outside the relationship this week—such as nature, music, art, friendship, spiritual practice, or a personal project—and one block of ordinary alone time. Revisit whether independence made closeness feel warmer, more distant, or simply less burdened.
+
+### ordinary-long-distance-evidence  (topic: ordinary)
+PROMPT: What do you know about each other only because you have spent ordinary in-person time together, and what are you still mostly inferring from calls, messages, or romantic visits?
+FOLLOW-UP: What in-person situations do you still need to see: boring weekdays, chores, illness, travel stress, friends or family, money decisions, conflict, or simply sharing space without an agenda?
+WHY: Distance can deepen conversation while reducing exposure to ordinary behavior. The less time two people are physically together, the more parts of compatibility remain lightly tested or unknown.
+SOURCE: Long distance; Peeking thru the window
+EXPERIMENT: On the next in-person visit, reserve at least half a day for normal life—work, errands, chores, cooking, downtime, or seeing ordinary friends—instead of making the whole visit a date or vacation. Agree openly that this is ordinary-life evidence, not a secret test, and revisit what became easier or harder to understand.
+
+### ordinary-listen-or-solve  (topic: ordinary)
+PROMPT: When you bring a problem to your partner, how can they tell whether you want help solving it or mostly want to be heard?
+FOLLOW-UP: Which mistake happens more often here: offering unwanted solutions, or listening when the person actually wanted action? Listening never requires accepting intimidation, false accusation, coercion, or retaliation.
+WHY: Emotional meaning can be missed when every statement becomes a logic problem, but listening does not require abandoning reality. The article’s poetry/prose observation describes modes rather than rigid sexes.
+SOURCE: Poetry, prose, listening, and solving
+EXPERIMENT: Before responding to three real complaints, ask: “Do you want help figuring this out, or do you mostly want me to listen?” Stop the exercise if either person is afraid to answer honestly. Revisit whether either person felt more understood or more frustrated.
+
+### life-design-01  (topic: life-design)
+PROMPT: Where do you each want to live, and what kind of relationship do you want with money, technology, health practices, work, and community?
+FOLLOW-UP: Choose the one domain where a values mismatch would most alter daily life, then describe an actual decision it would affect.
+WHY: The article treats compatibility as shared life architecture, not merely chemistry or a list of attractive traits.
+SOURCE: Starting on the right foot
+
+### life-design-02  (topic: life-design)
+PROMPT: Fast-forward five years. What has each person gained, given up, or postponed for the relationship, and where could resentment quietly accumulate?
+FOLLOW-UP: Which sacrifice would need explicit recognition or renegotiation before it became a moral debt?
+WHY: Imagination becomes useful when it continues past the romantic opening into trade-offs and accumulated costs.
+SOURCE: Imagination as a discernment tool
+
+### life-design-03  (topic: life-design)
+PROMPT: What shared purpose could matter to both of you beyond preserving the relationship itself?
+FOLLOW-UP: What is one small action you could take together that would connect the relationship to that wider purpose?
+WHY: A shared purpose and wider field reduce the pressure on romance to supply all meaning and activity.
+SOURCE: Two pillars don’t hold the roof up
+
+### life-design-04  (topic: life-design)
+PROMPT: Would you still choose this partnership if it offered reliable care, home, family, and teamwork but never became overwhelming romantic love?
+FOLLOW-UP: Which person would be more likely to feel they had settled if a powerful attraction appeared later?
+WHY: The article distinguishes honest practical partnership from romance without declaring the practical form morally inferior.
+SOURCE: What are you actually choosing together?
+
+### life-design-05  (topic: life-design)
+PROMPT: Name one incompatibility that love alone probably cannot solve. Is it present here, merely possible, or clearly absent?
+FOLLOW-UP: What evidence would change your current judgment rather than simply reassure you?
+WHY: The article resists turning love into a universal solvent for conflicting values, capacities, or visions of life.
+SOURCE: Starting on the right foot; conscious agreements
+
+### life-design-long-distance-01  (topic: life-design)
+PROMPT: How much long distance would you actually want in a relationship, if any? Is it something you would choose, tolerate temporarily for this person, or maybe prefer because full-time in-person intimacy feels harder?
+FOLLOW-UP: How long would still feel okay—weeks, months, a year—and how often would you need to be physically together for the relationship to feel real and nourishing?
+WHY: Long distance can be profoundly romantic when two people prefer each other across distance, but wanting the person is not the same as wanting the arrangement. Couples need to compare their real tolerance instead of assuming distance means the same thing to both.
+SOURCE: Long distance
+EXPERIMENT: Each person independently names the longest comfortable interval between in-person time and the longest total period they would accept without a concrete plan to close the distance. Compare the answers, name any real mismatch, and set a future review date rather than turning today’s answer into a permanent vow.
+
+### life-design-long-distance-02  (topic: life-design)
+PROMPT: If one of you were offered a much better job, study opportunity, family duty, or adventure far away, how would you weigh that opportunity against being physically together?
+FOLLOW-UP: What date or condition would turn “temporary distance” into a concrete plan to reunite, relocate, alternate locations, or reconsider the relationship?
+WHY: The guide treats physical togetherness as a relationship value in its own right. When both people ultimately want an in-person life, indefinite distance should not become the default simply because no one named a reunion condition.
+SOURCE: Long distance
+EXPERIMENT: Run one realistic distance scenario using actual dates, travel time, money, work constraints, visas or family obligations where relevant. Make a provisional reunion or review plan together. The experiment is whether the trade-offs can be made concrete without either person pretending a sacrifice is free.
+
+### conflict-01  (topic: conflict)
+PROMPT: Take your most recent meaningful conflict and describe the sequence of actions, not just each person’s interpretation. What happened first, next, and last?
+FOLLOW-UP: At which exact point could either person realistically have changed the trajectory?
+WHY: Recent behavior under stress reveals more than announcing that one is healed, calm, or good at communication.
+SOURCE: The conversation about flaws
+
+### conflict-02  (topic: conflict)
+PROMPT: After conflict, what does repair look like in your actual behavior: apology, touch, explanation, changed action, time, outside help, or something else?
+FOLLOW-UP: What kind of attempted repair tends to make things worse even when the intention is good?
+WHY: The article asks what people did to one another and how they repaired, not merely what lesson they claim to have learned.
+SOURCE: The conversation about flaws
+
+### conflict-03  (topic: conflict)
+PROMPT: When your partner is distressed, what happens in your body before your best reasoning is available—shallow breath, collapse, urgency, anger, numbness, or something else?
+FOLLOW-UP: Which practice or person outside the couple helps you regulate without making your partner responsible for your whole nervous system?
+WHY: Understanding another person mentally does not stop the body from becoming fragile, reactive, or overwhelmed.
+SOURCE: Are you ready for the crucible?
+
+### conflict-04  (topic: conflict)
+PROMPT: Is there a conflict where you remember key events so differently that ordinary compromise cannot reach the same reality?
+FOLLOW-UP: What evidence, witness, or structured process could clarify the disagreement—and what would you do if no shared account emerges?
+WHY: The article treats irreconcilable memories as a distinct problem that goodwill or better wording may not solve.
+SOURCE: Ending consciously
+
+### conflict-05  (topic: conflict)
+PROMPT: Imagine you are trapped in the same argument for the third time. Who could both of you call before the conflict becomes a formal crisis?
+FOLLOW-UP: What quality would make that person or process credible to both of you rather than an ally for one side?
+WHY: Outside help can break a loop quickly when both people respect the helper enough to hear something new.
+SOURCE: Outside help can sometimes break the loop fast
+
+### conflict-06  (topic: conflict)
+PROMPT: When does a relationship problem stop being a mutual crucible and become unsafe because honesty, refusal, or leaving may bring fear or retaliation?
+FOLLOW-UP: What independent support or safety step belongs before any more couples dialogue in that situation?
+WHY: The article says some people do not merely trigger each other; sometimes one person terrorizes or controls the other, which cannot be reduced to shared communication failure.
+SOURCE: Should you be in a relationship at all?; Are you ready for the crucible?
+
+### trust-01  (topic: trust)
+PROMPT: What does trust mean to you if it is neither blind faith nor constant surveillance? Describe one behavior that increases it and one that reduces it.
+FOLLOW-UP: How should trust change when evidence changes without becoming all-or-nothing?
+WHY: The article rejects a trauma-driven choice between blind trust and no trust at all.
+SOURCE: If you’re already in it
+
+### trust-02  (topic: trust)
+PROMPT: Your partner gives another person noticeably more attention at a gathering. What do you feel, what do you infer, and what do you say?
+FOLLOW-UP: Separate the observable event from the insecurity, remembered script, and genuine relationship risk.
+WHY: Jealousy can be childhood insecurity, accurate information, or both; hiding it behind anger makes the distinction harder.
+SOURCE: Attraction and exclusivity
+
+### trust-03  (topic: trust)
+PROMPT: What level of attraction to another person should be easy to mention casually, and what level requires a serious conversation?
+FOLLOW-UP: How would you avoid making disclosure either a weapon or such a major event that honesty becomes less likely?
+WHY: The article prefers ordinary honesty about attraction while recognizing that every couple must negotiate its own boundaries.
+SOURCE: Attraction and exclusivity
+
+### trust-04  (topic: trust)
+PROMPT: Where is the line between healthy privacy and secrecy in this relationship—for messages, friendships, fantasies, therapy, money, or time alone?
+FOLLOW-UP: Name one thing each person may keep private and one thing that would become deceptive if withheld.
+WHY: Couples need private release valves, but hidden parallel lives can make trust impossible.
+SOURCE: Two pillars don’t hold the roof up; conscious agreements
+
+### trust-05  (topic: trust)
+PROMPT: When you agree, go quiet, or say “it’s fine,” how could your partner tell whether you mean it, are fawning, are shutting down, or need time?
+FOLLOW-UP: What responsibility belongs to the person reacting internally, and what reasonable check-in belongs to the partner?
+WHY: The article refuses mind-reading while acknowledging that trauma responses can make spoken agreement unreliable.
+SOURCE: The conversation about flaws
+
+### inner-child-01  (topic: inner-child)
+PROMPT: Think of a small relationship event that activates a much younger part of you. How old does that part feel, and what does it expect your partner to do?
+FOLLOW-UP: What can your present-day adult do first so the partner is not quietly hired to parent that part alone?
+WHY: The article treats relationship as a place where very young needs reappear and require self-reparenting as well as care.
+SOURCE: Are you ready for the crucible?
+
+### inner-child-02  (topic: inner-child)
+PROMPT: Which practice, friendship, therapy, meditation, or body-based support became less consistent because the relationship felt soothing?
+FOLLOW-UP: What would restarting it protect in both the individual and the relationship?
+WHY: A romantic paradise can let people stop parenting themselves and then blame the partner when regulation collapses.
+SOURCE: Don’t make your partner your whole world
+
+### inner-child-03  (topic: inner-child)
+PROMPT: Which child/parent, teacher/student, patient/helper, daddy/little, or similar roles are playful and consensual here, and where has a role started carrying real adult responsibility?
+FOLLOW-UP: Which roles are chosen play, and which adult responsibilities must never transfer to the other person? Include the reverse failure in which one partner quietly becomes Mom, Dad, therapist, guru, doctor, or permanent rescuer.
+WHY: Role-play can be affectionate, erotic, comforting, and chosen. Role capture occurs when one person stops carrying adult responsibility and the relationship hardens into permanent parent and child.
+SOURCE: When partners have different maturity levels; role-play versus role capture
+EXPERIMENT: Name the playful roles you both actively choose and write no transcript. Then agree aloud on two adult responsibilities that remain with each person. Observe for one week whether responsibility drifts, and bring in outside support rather than making the romantic partner the permanent parent.
+
+### inner-child-04  (topic: inner-child)
+PROMPT: What are you probably going to ask forgiveness for more than once, despite sincere effort and self-awareness?
+FOLLOW-UP: What evidence would show that this is an actively managed limitation rather than an excuse dressed as honesty?
+WHY: Specific current limitations reveal more than saying “I have baggage” or presenting a completed healing story.
+SOURCE: The conversation about flaws
+
+### inner-child-05  (topic: inner-child)
+PROMPT: Choose one healing story you tell about yourself. Is the evidence two months old, two years old, or tested across several stressful situations?
+FOLLOW-UP: What kind of conflict would most fairly test whether that growth is durable?
+WHY: Huge progress can coexist with large unresolved problems, especially when the starting burden was severe.
+SOURCE: Starting on the right foot; the conversation about flaws
+
+### community-01  (topic: community)
+PROMPT: When each of you tells separate friends about a conflict, how do those friends’ partial loyalties alter what happens next?
+FOLLOW-UP: What rule could preserve private support while reducing one-sided echo chambers?
+WHY: Separate confidants can help, but friends who know only one side often harden incompatible stories.
+SOURCE: Two pillars don’t hold the roof up
+
+### community-02  (topic: community)
+PROMPT: If a close friend dislikes your partner, how would you determine whether the friend sees a real danger, has a hidden motive, or simply resists your changing life?
+FOLLOW-UP: What evidence would make you listen more closely rather than automatically defending either relationship?
+WHY: Outside views can protect clarity, but friends may also be partial, jealous, romantic, or simply wrong.
+SOURCE: Don’t make your partner your whole world
+
+### community-03  (topic: community)
+PROMPT: Who currently knows both of you well enough to notice patterns, care about both people, and challenge either person fairly?
+FOLLOW-UP: What is one concrete way to deepen that shared relationship instead of maintaining two separate social worlds?
+WHY: A couple is more resilient when support people know both partners rather than receiving stories after the fact.
+SOURCE: Two pillars don’t hold the roof up
+
+### community-04  (topic: community)
+PROMPT: When your partner is in pain and you have become the wrong person to comfort them, who else can reliably enter the situation?
+FOLLOW-UP: What would make asking for that help feel normal rather than like failure or betrayal?
+WHY: Community changes what the dyad must carry and lets another person help when projection makes the partner ineffective.
+SOURCE: Two pillars don’t hold the roof up
+
+### community-05  (topic: community)
+PROMPT: What friendships, groups, elders, peer counselors, or shared projects could make your relationship less socially sealed over the next three months?
+FOLLOW-UP: Which first step is small enough to happen rather than remaining an ideal of “community someday”?
+WHY: The article advises starting where you are by mutualizing friendships and building shared purpose now.
+SOURCE: Two pillars don’t hold the roof up
+
+### community-06  (topic: community)
+PROMPT: Would either of you actually like to live in an intentional community or commune someday, or do you want strong community around a more private home? What kind of setting sounds like home?
+FOLLOW-UP: Compare the values and environment that matter most: rural or urban, privacy or shared life, children, spirituality, money and work, food and health, technology, ecology, governance, and relationship norms. Which are non-negotiable and which are flexible?
+WHY: The guide treats community as more than a support network. For some couples it is part of the life they hope to build, and vague agreement on “community” can hide radically different visions of daily life.
+SOURCE: Community makes the match; Two Pillars Don’t Hold The Roof Up
+EXPERIMENT: Each person independently names three must-have community qualities and three deal-breakers, then compare them aloud. Choose one real intentional community that roughly matches and inspect its public structure together or talk with a member. Revisit which values became clearer; do not treat the community as a test you can secretly pass or fail.
+
+### community-07  (topic: community)
+PROMPT: When would you want to start exploring or visiting intentional communities together? If you already have, which one came closest to fitting and what made it feel different?
+FOLLOW-UP: What did the closest and worst fits teach you about place, social atmosphere, governance, children, work, privacy, sexuality or relationship norms, and ordinary daily life? What would make the next visit worth scheduling?
+WHY: The guide proposes visiting communities together as both life planning and a powerful way to get to know each other. A real place exposes preferences and interactions that an abstract wish for “community” does not.
+SOURCE: Community makes the match
+EXPERIMENT: Within the next month, choose one plausible intentional community and either visit it, attend an open day, or arrange a real conversation with a resident or organizer. If you have already visited several, use the experiment to choose the next best candidate. Schedule a review of what each person liked, disliked, and learned about the life you want.
+
+### promises-01  (topic: promises)
+PROMPT: Which future actions can you honestly promise, and which feelings would be dishonest to guarantee?
+FOLLOW-UP: Rewrite one familiar romantic vow as a concrete commitment you believe you could actually keep.
+WHY: The article argues that actions may be promised, while future romantic feeling cannot be commanded by a vow.
+SOURCE: Which marriage vows are honest?
+
+### promises-02  (topic: promises)
+PROMPT: When you say “we’re together,” what future does each of you hear inside those words—sex, exclusivity, home, money, children, caregiving, or simply exploration?
+FOLLOW-UP: Name the assumption most likely to remain invisible until one person feels betrayed.
+WHY: Two people can flow inside the same label while privately imagining radically different arrangements.
+SOURCE: What are you actually choosing together?
+
+### promises-03  (topic: promises)
+PROMPT: If one person’s needs, health, identity, location, or feelings change substantially, which agreements are open to renegotiation and which remain obligations?
+FOLLOW-UP: How would you distinguish honest revision from rewriting the deal only after taking its benefits?
+WHY: A humble romance can make real plans without pretending the heart or circumstances will remain fixed forever.
+SOURCE: What are you actually choosing together?
+
+### promises-04  (topic: promises)
+PROMPT: What happens if one of you falls in love with somebody else? Which action would count as betrayal, and which event would require an honest conversation rather than punishment?
+FOLLOW-UP: Would your answer differ between attraction, secrecy, emotional intimacy, sex, and leaving?
+WHY: The article asks couples to discuss the possibility directly instead of treating permanent feeling as guaranteed.
+SOURCE: What are you actually choosing together?; attraction and exclusivity
+
+### promises-05  (topic: promises)
+PROMPT: If the romance ended, what support, truthfulness, caregiving, financial responsibility, or family continuity would you still believe you owed each other?
+FOLLOW-UP: Which obligations come from explicit agreements, and which come from the depth of what you built together?
+WHY: The article asks what remains when feelings change rather than making continued romance the only measure of loyalty.
+SOURCE: What are you actually choosing together?; ending consciously
+
+### children-01  (topic: children)
+PROMPT: Imagine a terrible breakup after having children. What would each of you need to do to preserve civil co-parenting and the child’s bond with the other parent?
+FOLLOW-UP: Which conflict pattern in either of you could make that promise hardest to keep?
+WHY: The article calls civil co-parenting after romance the actual long-term commitment parents are making.
+SOURCE: Children
+
+### children-02  (topic: children)
+PROMPT: Choose the child-rearing issue most likely to divide you: school, screens, vaccines, religion, freedom, food, gender, sexuality, discipline, or something else.
+FOLLOW-UP: Describe a real decision at age five or fifteen rather than only stating your general value.
+WHY: The article uses imagined future conflicts to expose differences that romance can keep pleasantly abstract.
+SOURCE: Imagination as a discernment tool
+
+### children-03  (topic: children)
+PROMPT: If one of you became a parental figure to the other person’s child and the romance ended, what relationship should continue?
+FOLLOW-UP: How would you protect the child’s attachment without pretending the former couple still belongs together?
+WHY: The article argues that stepchildren attach to parental figures and should not lose them automatically with the marriage.
+SOURCE: Children
+
+### children-04  (topic: children)
+PROMPT: Who besides the two of you could reliably help raise, protect, teach, or comfort a child if one parent became sick, absent, or overwhelmed?
+FOLLOW-UP: What would you need to build now for that village to be real rather than ceremonial language?
+WHY: The article treats the isolated nuclear family as a fragile container whose romantic instability can spill directly onto children.
+SOURCE: Children; two pillars don’t hold the roof up
+
+### children-05  (topic: children)
+PROMPT: Ask the two questions at the center of the article’s inherited advice: Would we like to raise children together? Are we ready?
+FOLLOW-UP: Answer readiness separately for emotional stability, practical support, shared values, community, and willingness—not merely desire.
+WHY: The article begins and ends with choosing a friend one could raise children with, while adding everything the childhood advice omitted.
+SOURCE: Opening; closing advice to Bear
+
+### clarity-01  (topic: clarity)
+PROMPT: What flaw or limitation have you actually observed in your partner, and how does it affect you without proving that the whole person is bad?
+FOLLOW-UP: What would healthy improvement look like, and what would be an attempt to remodel them into your fantasy?
+WHY: Seeing no flaw is treated as evidence that idealization or incomplete knowledge is still operating.
+SOURCE: Beware idealization in either direction
+
+### clarity-02  (topic: clarity)
+PROMPT: What is your version of “anti-PTSD”—the hopeful pattern that makes you expect this person or situation to be the beautiful exception?
+FOLLOW-UP: How can you keep openness and warmth while checking the evidence that hope is tempted to ignore?
+WHY: The article warns that chronic benefit of the doubt can be as dangerous as chronic expectation of harm.
+SOURCE: Anti-PTSD can be just as dangerous as PTSD
+
+### clarity-03  (topic: clarity)
+PROMPT: Which beautiful quality or “higher self” in your partner might be real potential without yet being dependable everyday behavior?
+FOLLOW-UP: What ordinary-life evidence would show that the potential is becoming a stable capacity?
+WHY: The article distinguishes genuinely seeing someone’s depth from confusing their best state with their whole functioning.
+SOURCE: Beware idealization; Twin Flames; psychedelics in discernment
+
+### clarity-04  (topic: clarity)
+PROMPT: Recall a small “wait” feeling you had about the relationship. What question were you tempted not to ask because you wanted things to work?
+FOLLOW-UP: Ask the question now without treating the feeling itself as proof of guilt or danger.
+WHY: The article treats a subtle hesitation as a reason to investigate before attachment turns possibility into certainty.
+SOURCE: Starting on the right foot
+
+### clarity-05  (topic: clarity)
+PROMPT: What would a fair-minded ex, close friend, or family member say is difficult about being in a relationship with you?
+FOLLOW-UP: Which part do you accept, reject, or remain uncertain about—and what evidence supports that judgment?
+WHY: People are not always reliable judges of their own progress, patterns, or impact on others.
+SOURCE: The conversation about flaws
+
+### clarity-06  (topic: clarity)
+PROMPT: What would an intermediate courtship stage look like if you wanted to explore tenderness and attraction without sex, cohabitation, or pretending you already had a life bond?
+FOLLOW-UP: What shared setting, social structure, or boundary would make it more reliable than private willpower—and what could still go wrong?
+WHY: The guide uses old bundling as an imperfect historical example of the missing middle: courting couples could be physically close without intending sex, yet the practice still coexisted with substantial premarital pregnancy. The point is not to revive bundling but to design a better contained stage before entanglement.
+SOURCE: The Missing Middle
+EXPERIMENT: Choose one date or shared activity that allows real tenderness and attraction while explicitly excluding sex, going home together, or making a new life commitment that night. If possible, keep it inside an ordinary social setting rather than total isolation. Revisit whether the boundary preserved clarity, created pressure, or revealed that the supposed middle was already sliding toward entanglement.
+
+### endings-01  (topic: endings)
+PROMPT: If leaving began to feel right, how would you distinguish “I do not want this relationship anymore” from “I still want it but cannot keep living this pattern”?
+FOLLOW-UP: Which answer would make counseling relevant, and which would make counseling a delay rather than a remedy?
+WHY: The article separates whether to leave from how to leave and rejects counseling as a compulsory ritual.
+SOURCE: Ending consciously
+
+### endings-02  (topic: endings)
+PROMPT: If this romance changed into friendship, co-parenting, mentorship, or no contact, what part of your care would you want to preserve?
+FOLLOW-UP: What boundary would keep preserved love from becoming a disguised attempt to resume the relationship?
+WHY: Agape may remain even when the romantic form no longer should.
+SOURCE: What we mean by “love”; ending consciously
+
+### endings-03  (topic: endings)
+PROMPT: After a breakup, what truth would need to be told, to whom, and for what purpose? What would become public demonization rather than honest protection?
+FOLLOW-UP: How could each person acknowledge uncertainty and their own partial perspective while still naming serious harm?
+WHY: The article rejects both public character assassination and hiding important truth merely to save face.
+SOURCE: After leaving
+
+### endings-04  (topic: endings)
+PROMPT: How would you remember what was real and good without using that goodness to deny harm or make reunion obligatory?
+FOLLOW-UP: What spiritual or reflective practice would help you feel grief without turning pain into hatred?
+WHY: The article recommends preserving love and perspective without spiritual bypassing or erasing the other person’s responsibility.
+SOURCE: After leaving
+
+### endings-05  (topic: endings)
+PROMPT: What has this relationship already taught you that would remain valuable even if staying together were not the final result?
+FOLLOW-UP: Name one lesson about yourself, one about partnership, and one about the conditions that help love survive.
+WHY: The article measures relationships partly by growth and revelation rather than only by whether they lasted.
+SOURCE: What I gained from loss
+
+### polarity-01  (topic: polarity)
+PROMPT: Has money, education, social status, or practical competence become a rank inside this relationship?
+FOLLOW-UP: Does the higher earner or more competent person start to feel more entitled to make the decisions? Does the other person feel reduced, useless, or tempted to demand that success shrink? Can both people receive help or direction without turning it into rank?
+WHY: The guide says female success or lower male income is not inherently the problem. The problem appears when money or competence becomes “my house, my rules,” domination, humiliation, uselessness, or enforced shrinking.
+SOURCE: Muses & Directors; Romance Shouldn’t Be Adjudicated
+EXPERIMENT: Choose one real decision where the usual expert or higher-status person listens first and the other person proposes a direction. Either person may decline the role experiment. Revisit whether it produced respect, resentment, relief, useful correction, uselessness, or performance.
+
+### polarity-02  (topic: polarity)
+PROMPT: Describe a way one partner can invite leadership, guidance, surrender, or support without manufacturing a crisis or pretending helplessness.
+FOLLOW-UP: What wording would make the invitation feel chosen rather than drafted into a role?
+WHY: Invitational polarity is presented as more authentic than forcing a partner to prove masculinity, femininity, or competence.
+SOURCE: Romance Shouldn’t Be Adjudicated
+
+### polarity-03  (topic: polarity)
+PROMPT: When does being needed feel attractive and meaningful, and when does neediness turn one person into the other’s emotional regulator?
+FOLLOW-UP: How can pursuit remain strong without making satisfaction or self-control the partner’s responsibility?
+WHY: The article describes masculine need partly as being needed while warning that unregulated pursuit can dissolve attraction.
+SOURCE: Desire is expressed differently for men & women
+
+### polarity-04  (topic: polarity)
+PROMPT: What fantasy could be safe and exciting precisely because both people know it is play rather than a real-life request or entitlement?
+FOLLOW-UP: What consent signal, stop condition, and aftercare would keep the real person more important than the role?
+WHY: The article treats fantasy as a way to intensify polarity inside genuine safety while keeping consent fully real.
+SOURCE: Fantasy section
+
+### polarity-05  (topic: polarity)
+PROMPT: Does greater safety make desire more available between you, or does closeness sometimes flatten the contrast that desire needs?
+FOLLOW-UP: What form of difference, initiative, mystery, or independent life could renew attraction without using withdrawal as manipulation?
+WHY: The article asks whether polarity can stay alive inside safety rather than manufacturing danger to produce desire.
+SOURCE: Primal attraction
+
+### polarity-insecurity-double-bind  (topic: polarity)
+PROMPT: Which feels more dangerous to you here: being too needy, or needing nobody? Being too emotional, or becoming unreachable? Being admired for beauty, or fearing that beauty is all your partner sees?
+FOLLOW-UP: Which side do you perform when insecure, and what would receiving care without losing adulthood look like? Use this as private self-identification, not as a claim about what women or men must feel.
+WHY: Opposite defenses can protect the same insecurity. Performing helplessness and refusing all receiving can both prevent care from becoming ordinary, chosen, and adult.
+SOURCE: Insecurity double binds and receiving
+EXPERIMENT: Each person asks for one small form of care they could have done alone. The request creates no debt and may be declined. Revisit whether receiving felt warm, indebted, weak, controlling, performative, or ordinary.
+
+### altered-01  (topic: altered)
+PROMPT: Think of an insight you understood together in an altered state but later lost in ordinary consciousness. What exactly failed to transfer?
+FOLLOW-UP: What sober behavior, written reminder, or scheduled conversation would count as genuine integration?
+WHY: The article names state-dependent learning as the reason profound understanding may not survive the return to sobriety.
+SOURCE: Psychedelics in relationship discernment
+
+### altered-02  (topic: altered)
+PROMPT: After an unusually intimate psychedelic experience, what would you need to observe while sober, bored, irritated, jealous, or making a difficult decision?
+FOLLOW-UP: How long would you delay a major promise so ordinary evidence has time to appear?
+WHY: Intimacy can be completely real while still revealing very little about practical compatibility.
+SOURCE: Psychedelics in relationship discernment
+
+### altered-03  (topic: altered)
+PROMPT: Which sexual boundaries or relationship decisions should be settled before taking MDMA or another strongly connecting drug so you are not negotiating them for the first time while high?
+FOLLOW-UP: Which sexual, romantic, cohabitation, or exclusivity choices should be revisited sober no matter how completely real the intimacy felt?
+WHY: The guide puts the warning before the benefits: the drug changes how safe, loving, open, and connected everything feels. Advance planning does not turn getting high and starting a relationship into a safe procedure.
+SOURCE: Psychedelic Timing
+EXPERIMENT: Before any altered-state situation, discuss the sexual and relationship boundaries that should not be negotiated for the first time while high. Afterward, make no major promise merely because the intimacy felt real. Revisit any sexual, exclusivity, cohabitation, or relationship-form decision sober after ordinary life has returned.
+
+### altered-04  (topic: altered)
+PROMPT: Which part of your partner appears most clearly in altered states, and what everyday capacity would be required to live that potential consistently?
+FOLLOW-UP: How will you appreciate the glimpse without confusing it with a finished personality?
+WHY: The article values access to a higher self while refusing to treat that state as complete evidence about ordinary functioning.
+SOURCE: Psychedelics in relationship discernment; Twin Flames
+
+### altered-05  (topic: altered)
+PROMPT: Design a sober ritual for discussing one issue kindly: setting, timing, opening words, and what happens if either person becomes defensive.
+FOLLOW-UP: What would show a week later that the ritual changed communication rather than only producing one beautiful evening?
+WHY: The article treats altered states as optional aids; the durable goal is non-combative communication in normal life.
+SOURCE: Psychedelics in relationship discernment
+
+### love-spiritual-practice  (topic: spiritual)
+PROMPT: What has being in this relationship shown you that meditation, therapy, or solitary practice did not?
+FOLLOW-UP: Has any sexual or intimate experience changed how you live afterward, or was its meaning mostly inside the moment? Sex is not required for awakening, and intensity is not proof of integration.
+WHY: The guide treats household relationship and lovemaking as potentially serious spiritual practice without making sex a requirement or confusing an intense state with durable awakening. Ordinary conduct shows what integrated.
+SOURCE: The Relationship As Crucible; Can making love be a spiritual practice?
+EXPERIMENT: Choose one insight from relationship or intimacy and embody it through one ordinary action during the next week. Do not recreate a sexual high or ask anyone to certify enlightenment. Revisit whether the insight changed behavior.
+
+### spiritual-bypass-intimacy  (topic: spiritual)
+PROMPT: What might spiritual practice be helping you cope with rather than actually solve—a need for touch, sex, partnership, intimacy, or being deeply known?
+FOLLOW-UP: How would you tell genuinely contented celibacy or solitude from repression, avoidance, or an ignored inner-child need? Wanting intimacy is not automatically a spiritual failure.
+WHY: The guide describes using spirituality to cope with unavailable intimacy. Practice may genuinely help while also making an unmet need easier to tolerate without actually resolving it.
+SOURCE: Spirituality to bypass intimacy
+EXPERIMENT: For one week, when loneliness, sexual desire, or longing for closeness appears, notice whether practice changes the desire itself, changes only the distress around it, or helps you understand the need more clearly. Do not date or have sex as a test. Revisit what became clearer without grading celibacy or partnership as spiritually superior.
+
+### spiritual-relationship-spirit  (topic: spiritual)
+PROMPT: If neither of you owns the relationship and both of you are supposed to serve it, what would serving it require from each of you right now?
+FOLLOW-UP: Would serving it mean more honesty, repair, community, space, a changed agreement, or even ending? How would you distinguish that from calling your own preference “Spirit”?
+WHY: Sobonfu Somé calls this the spirit of the relationship. You cannot command it to stay the same. Serving it may mean helping the relationship change instead of treating continuation as the only good outcome.
+SOURCE: Tough Love; The Spirit of Intimacy
+EXPERIMENT: Each person chooses one small action that they believe serves the relationship’s health but is not simply their preferred outcome, and says it aloud before doing it. Revisit after one week. If the relationship is unsafe, do not use spiritual language, sacrifice, or “serving the relationship” as a reason for staying.
+
+### spiritual-twin-flame-model  (topic: spiritual)
+PROMPT: If the phrase “Twin Flame” means anything to you, what does it mean: one destined person, a rare sacred or archetypal connection that could happen with more than one person, something else, or nothing at all?
+FOLLOW-UP: If your definitions differ, what practical expectation changes—exclusivity, permanence, tolerance of flaws, whether leaving is imaginable, or whether you could love deeply again?
+WHY: The guide de-ontologizes Twin Flames after two profound relationships: the sacred connection may be real without proving there is only one possible person. Different definitions can quietly create very different rules for a relationship.
+SOURCE: Twin Flames?; De-ontologizing Twin Flames FTW
+EXPERIMENT: Each person names one ordinary behavior that would make a sacred-relationship claim more credible and one belief they refuse to use as proof that they must stay. Revisit after a normal disagreement or disappointing day. The point is to see what the belief does in ordinary life, not to settle the metaphysics.
+
+### rhythm-evidence  (topic: rhythm)
+PROMPT: Evidence card: choose an answer either person gave earlier and replace the general claim with one specific recent event.
+FOLLOW-UP: What part of the original answer becomes stronger, weaker, or more complicated when the example is included?
+WHY: The game follows the article’s preference for observed behavior over polished self-description.
+SOURCE: Starting on the right foot; the conversation about flaws
+
+### rhythm-reverse  (topic: rhythm)
+PROMPT: Reverse card: answer the last question as you think your partner would answer it. Let them correct you without defending your guess.
+FOLLOW-UP: What did you understand accurately, and what part of their inner world were you filling in from your own?
+WHY: Prediction exposes both familiarity and projection while correction practices being known more precisely.
+SOURCE: Imagination as discernment; mind-reading limits
+
+### rhythm-appreciation  (topic: rhythm)
+PROMPT: Appreciation card: tell your partner something beautiful you see in them that does not depend on them agreeing with you or meeting a need.
+FOLLOW-UP: Name the ordinary moment that made you believe this quality is real.
+WHY: Deep appreciation is healthiest when it sees a real person rather than rewarding a useful role or fantasy.
+SOURCE: Agape; beware idealization
+
+### rhythm-pink-elephant  (topic: rhythm)
+PROMPT: Pink-elephant card: name the most important thing both of you know is present but have been organizing the conversation around not saying.
+FOLLOW-UP: Can both people stay with the subject for five minutes without immediately forcing a decision?
+WHY: The article recommends starting with the largest unspoken issue when a relationship is already stuck.
+SOURCE: If you’re already in it
+
+### rhythm-ordinary-time  (topic: rhythm)
+PROMPT: Ordinary-time card: plan one mundane activity that will show how you function together without romance, novelty, or performance carrying the scene.
+FOLLOW-UP: What will you observe without turning the activity into a hidden test your partner cannot knowingly take?
+WHY: Ordinary time supplies information that even many profound conversations cannot provide.
+SOURCE: Starting on the right foot
+
+### rhythm-strongest-case  (topic: rhythm)
+PROMPT: Strongest-case card: each person states the most reasonable version of the other person’s position before giving their own.
+FOLLOW-UP: Did either person feel more accurately represented by the other than by their own first defensive story?
+WHY: Understanding is not the same as agreement, but a conflict cannot improve while each person argues with a caricature.
+SOURCE: Outside help; non-combative communication
+
+### rhythm-outside-view  (topic: rhythm)
+PROMPT: Outside-view card: imagine a fair person who knows and cares about both of you watched the last month. What pattern might they name?
+FOLLOW-UP: Who in real life could provide that view without automatically taking one side?
+WHY: A shared social field can see patterns that disappear inside the sealed reality of the couple.
+SOURCE: Two pillars don’t hold the roof up
+
+### rhythm-body-check  (topic: rhythm)
+PROMPT: Body-check card: pause for three breaths. Each person names one physical sensation and whether they want to continue, soften, skip, or stop.
+FOLLOW-UP: What would help the next card remain curious rather than becoming an endurance test?
+WHY: Honesty includes the body and the right to change course when openness starts becoming dysregulation.
+SOURCE: Are you ready for the crucible?; consent throughout
+
+=== THE ARTICLE AS IT IS NOW (one numbered line per paragraph or heading) ===
+
+1: # Interactive GPT guide-based convo here.
+2: # Also check out my free Couples card game app based on the guide.
+3: Share
+4: I asked my dad about sex when I was five, and he briefly explained: “Sex is what you do when you are older and you find a friend you want to have children with.” It was a good tip, but it left out the whole question of romance: why that friend rather than one of the others, what problems people have in relationships, and how to prevent or handle them. I can’t expect my dad to have developed a whole guide to all that, because that wasn’t his main mission. So I ended up learning most of it the hard way, and this is what I’d like to pass on to my kids, although by the time they read it, the existence of natural humans, romance, and love might be long forgotten, for all I know. This guide isn’t universally applicable for everyone even now, since it comes from my particular life experience (including influences I’ve had from friends & research). I’m a straight man, and I’m writing from relationships I’ve had with women, so she and her are going to show up a lot. Most of this has nothing specifically to do with being male or straight. The Primal Attraction section is the exception, because there I’m specifically talking about the man-woman dynamic I’ve actually lived.
+5: # What we mean by “love” ❤️
+6: English isn’t a scientific language when it comes to love. This leads to a lot of romantic confusion because we don’t have one word for one meaning.
+7: One meaning is selfless love—what contemplative traditions call agape, metta, loving-kindness, divine love, and so forth. In Buddhist metta practice you sit there wishing, “May all beings be at ease, pure of heart, and free.” It’s not about them being yours.
+8: Then we use the same word for romantic love (eros): "I want us to be special to each other, with our lives entangled. I want us to pay a lot of attention to each other and to desire each other sexually." I don’t think there’s anything fake or shameful about this.
+9: A good relationship must have both kinds of love at once. Too often, the trouble is there’s a whole lot of I want you and hardly any I want you to be happy.
+10: Most people fail this test: what would I want if she herself thought she’d be happier with somebody else? The first reaction is horror, but if they can get past it, wanting her and wanting her to be happy stop fighting each other. Being wanted is part of what makes me want someone, so if she’d be happier with somebody else, I’d want her less anyway.
+11: I still have to go through that horror, because I can’t wait until I know I’m wanted before I let her know I want her, and if we both do that, nothing gets started. Once we’re together I still can’t wait to be sure I’m wanted. If I start feeling less wanted, I may pull back, and she feels me pulling back and starts feeling less wanted herself, so she pulls back too.
+12: Agape or divine love does two jobs at once to rescue erotic love. First, most obviously, it keeps eros from becoming totally selfish and fickle by making the other person’s happiness part of the wanting: I want you because I know you’ll be happy with me. Second, it gives eros a landing pad. When two people pull away because eros seems unreciprocated for a moment, the backdrop of actual, genuine care, keeps the couple from simply abandoning each other, and then they might even rekindle the eros when they see that it’s based on something deeper.
+13: Eros can help build the agape too. It has a drive to it: it keeps pulling me toward this particular person, and over time that closeness can grow an agape that survives the drive itself.
+14: That drive can weaken for reasons that aren’t really my fault. I can get old, sick, depressed, or grieving, and I would hope the agape is deep enough that she sticks by me through some of that even if it puts strain on eros. But if I just get bored with life, stop having much of a life outside her, and make her responsible for nearly all my warmth, meaning, reassurance, and excitement, that’s different. I don’t get to be shocked if she wants me less.
+15: # Talk about making love before you do it
+16: From here on, when I say making love, I’m talking about two people who care about each other deeply and feel super connected, using their bodies as part of that connection. If you’ve never experienced this, it may be like trying to explain the taste of an orange. If you don’t know what love is, you don’t know. That’s another conversation, and I’d suggest reading my inner child reparenting guide.
+17: Having sex is just the physical act, whether that deeper connection is there or not. But sometimes it can create the connection also.
+18: What I eventually took from my dad’s advice was a bigger question: would we like to raise children together, and are we ready for that? If we can really talk about raising children together, most of the other important questions come up on their own. What would sex mean between us? What kind of life do you and I want? What kind of life would we want for our child?
+19: What do you actually want? Women are kind of notorious for proudly not knowing what they want, and pressuring men into making it look like men know what they want. But everyone should know, for themselves, what they want, regardless of gender norm pressure. So what have you learned from your past desires, fulfilled or not? (I learned that sex isn't everything, but it still counts for a lot.) Do certain things make your body relax and open? Is there anything kinky you need to feel comfortable saying out loud?
+20: You may not know all the answers yet. “I don’t know, but I’m willing to find out with you” is a perfectly good answer.
+21: And what is sex for each of you? One person may mainly think of bonding while for the other, it's play. Sometimes it may feel sacred; another time it may just be how you come down from a bad day. It doesn’t have to mean the same thing every time nor score over 10 on a woman's magazine sex quiz consistently. But it's important for partners to be on the same page about how the sex is helping their relationship overall.
+22: So talk about sexual compatibility before getting undressed. If that kills the vibe, even better in my book, since I'd be suspicious of a vibe that's ruined by genuine communication. This applies whether you’re leaning too libertine or too traditional. And once you are undressed, the communication doesn’t stop there either. Can you feel comfortable with each other enough to express what turns you on, what this means to you, and what you’re unsure about? It’s that psychological trust & intimacy that builds the bridge between “having sex” and “making love.”
+23: I remember reading a Christian magazine’s letter from a newlywed Christian woman who found out that her husband didn’t have much interest in sex after she saved herself for marriage. He trapped her, because he knew she would not feel good about divorce due to the religion. Of course, it didn’t have to be nefarious. I had a relationship with E. that was a bit like that about 15yrs ago. She wanted sex once a week, and it was driving me nuts because my libido was thru the roof. She also had no interest in trying to take a safe herb or supplement to increase her desire. Of course everyone does change over time as well, so that's one more reason to think about the relationship together before anyone gets their feelings hurt.
+24: ## Affection and the simmer
+25: Doug Toft, who has been married for fifty years, has a useful list called 50 Things I Learned from 50 Years of Marriage. One of his points is to touch his wife without an agenda. A hug, cuddle, kiss, or back rub should sometimes be allowed to end right there. If every affectionate touch becomes a bid for sex, affection itself can start feeling like pressure.
+26: Kim Anami calls the sexual current between encounters “the simmer”. Maybe she texts from work, “I can’t wait to touch you.” Maybe he tells her what he wants to do later. If we supposedly want each other but hardly ever flirt or let each other know it, that’s called taking each other for granted. Great sex probably isn’t going to materialize out of nowhere at bedtime just based on the flirting you did 5 years ago.
+27: It shouldn’t become relationship homework, either: “Hey babe, Kim Anami told me to flirt with you more.”
+28: And if our sex life suddenly changes, keep some curiosity about why rather than automatically going with the flow and creating a potential “new normal.” Maybe we’re pissed off at each other. Maybe one of us doesn’t feel wanted. Maybe somebody’s sick, stressed, on a new medication, whatever.
+29: I also don’t want my partner to have to manufacture my desire for me. And if sex is one of the main things separating our relationship from friendship, giving it whatever exhausted scraps are left after everything else seems pretty dumb.
+30: ## Can Casual Sex or a Situationship Actually Be Honest?
+31: Your body doesn’t know that you picked someone up at a bar and agreed it was only for fun. Then the next morning, you’re wondering why they didn’t call. Well, not getting pulled in any further is the best outcome still available, actually, since you just played Russian Roulette with a potential life bond to a stranger.
+32: “I don’t know whether I want something serious with you. I’m not pretending I do. I’d still like to have sex.”
+33: That’s honest about what you want tonight, but don't forget that tonight is enough time to make a baby. If this girl gets pregnant, she’s gonna call you, and then what? You block her, or you agree to child support? Try to convince her to abort if she thinks abortion is killing her child? My first girlfriend, a diehard Baptist, aborted our child and told me a year later, because she “didn’t want to trap” me. I'm still shocked and saddened about that, 20 years later (assuming it was true). This is what penetrative sex can do. No contraception is perfect.
+34: The STI part is easy: say what you know, or say you don’t know. Feelings aren’t as easy, unless you’re both really numb or robotic about sex.
+35: You have to care what happens to the person afterward. Otherwise you’re using and abusing them for pleasure. Maybe they’re using you too. Congratulations, now it’s mutual.
+36: A lot of “I only want fun” really means, “This is the only version of the relationship that gets me laid.” Sometimes I know I’m hoping it turns into love. Sometimes I only find out I was hoping that when it doesn’t.
+37: ### Situationships
+38: And then there’s the situationship, which is hard to define because that’s basically the point. Usually it’s a happenstance relationship based on sex. There’s less communication, and what communication exists is more superficial. Yet it is obviously some kind of relationship even while one or both people refuse to name it. You’re regularly having sex, going out together, spending time alone together, and doing things you wouldn’t do with a regular friend, so it feels like it’s filling a relationship void, but only accidentally and occasionally—maybe just enough to keep you from looking for anything deeper.
+39: It can go either way, but often the man wants to keep things undefined while the woman wants a big diamond ring, partly because she’s the one risking pregnancy (and maybe she can at least sell the ring later if things don't work out). Whoever keeps things undefined gets the fun without the responsibility, supposedly, but people still get pregnant and attached, whatever they call the relationship. And the one who's trying to keep things undefined still ends up with the existential void another superficial fix creates.
+40: They might ask, “Why are you making this heavy?” As if it's all your fault. But instead of taking that personally, you can re-frame it as if they said: "Don’t you want the fun? Are you about to give up what we've got?" My answer to that would be something like: "I’m trying to understand whether this is really fulfilling me or if it’s so superficial that the void it's filling keeps getting deeper."
+41: I had something sort of like that with H., although ours was much deeper than what people normally mean by situationship, and painfully uneven. We were (and still are) BFFs, and spent nearly all our time together. She was falling in love with me, and I wasn’t falling in love with her. She felt more like a sister to me, partly because I’m not attracted to white women.
+42: ### Labels Are Descriptive, Not Prescriptive
+43: You can call someone your boyfriend or girlfriend for years and still have one foot out the door, but at least the word shows pretty fast whether you both think you’re in the same relationship.
+44: True commitment grows out of relational depth, not a label we put on it. If we spend hours telling each other our deepest longings and fears, then I’ll naturally be ready to help when you need me. I don’t need to promise that on paper, and if a promise had to stand in for that closeness, that would be more like a red flag. If someone says “I love you, I feel you, I’m here for you,” yet they hardly ever talk to you about what matters, that’s an even more obvious red flag.
+45: The person getting more of what they want may think the arrangement is fulfilling, but usually they’re just less aware that it isn’t. In college I had a friend with four girlfriends who boasted about it to girls while trying to get a fifth. I asked him, “But are you really happy?” He said, “No, dude, I’m miserable and empty inside.”
+46: I can’t decide what is okay for anybody else. I can say that most people who defend casual sex are not being very honest with themselves about pregnancy, attachment, or what they might owe the person afterward, a conversation so big that almost nobody would have casual sex if they took it seriously, which is why almost nobody has the full conversation.
+47: Outside a loving poly community or tribe, I think honest casual sex is almost impossible. If you want something closer to “casual love-making” without quite so many ways to damage each other, you probably need to find a free-love community where the people aren’t disposable, the bonds can be acknowledged, and any children have a village. But if the community is specifically designed to prioritize free love, you might find it attracts people who have traumas that produce trouble with connecting deeply, as ex-Tamera leader, Martin Winiecki wrote about after leaving recently.
+48: # Should you be in a relationship at all?
+49: This is a horrible catch-22. Wounded people get lonely, and loneliness itself can kill. But the wounds that make somebody desperate for a relationship may also make them a terrible person to be in one with. People trigger each other and learn lessons, and sometimes they terrorize or kill each other.
+50: I’m pretty conservative about this, so I would tell most of my friends not to date yet. First love your inner child. If you can’t even do that, forget a relationship for now. Get a cat or a puppy. If you’re dishonest, can’t care what happens to another person, or keep turning every relationship into the same disaster, come on, you’re not ready.
+51: You don’t have to be completely healed, but the present-day adult has to be able to parent whatever intimacy wakes up inside you, and responsible enough to deal with an actual child if sex creates one. If you can’t be a parent in either sense, you aren’t ready to date.
+52: A good relationship can teach you self-love too, which is part of the problem: you may need one most when you’re least capable of creating a good one, recognizing one, or keeping it good. Whether you should be in one depends on what you and the other person are ready for and have the resources for. Here’s a video that can help understand the long process.
+53: ### I wasn’t ready, but I was lucky
+54: At twenty, I thought I was totally fine until I became enamored with Alba. She was Dominican, and warm in a way I didn’t understand. Kissing your BFF on the lips was normal to her. I thought she was in love with me. She did love me and wanted me living with her, but not in the way I wanted. The confusion threw me into a horrible spell for years. I was even a bit suicidal while living with her.
+55: Then Bee cracked me open. My second wife and I were about as in love as two people could be, considering that every other day she would demonize me because of BPD. Before Bee, I didn’t know what In Love meant. Nobody knows until it happens. It’s a completely different kind of reality. It’s spiritual.
+56: Did it heal her? We still can’t understand. During our two years together, it seemed to stabilize and heal some things while provoking her demons even more. Did it heal me? The relationship almost killed me, but I would never undo it. I still love her so much. I haven’t spoken with her in a year, but I love sending her love.
+57: Relationships ALWAYS reveal what I can’t see. Suddenly my latent selfishness sprouts up. The depth that is actually available versus the depth I idealize. The other person’s selfishness and dishonesty and superficiality. How deeply I really love. How deep my illusions go. Whether my spirituality survives contact with another human being.
+58: ### Spirituality to bypass intimacy
+59: I’ve used spirituality as a replacement for intimacy a lot because intimacy was simply unavailable. As a boy and young man, I was so deprived of female touch that it was driving me insane. Meditation sometimes helped me cope better with the deprivation, but it wasn’t a cure. I remember once as I was entering into an ayahuasca ego death, I said, “Actually, I really just want a girlfriend.” Right then, the crazy trip abruptly ended, and a voice said, “Ok then go find one.” Nobody believes this story when I tell it.
+60: I don’t believe most people can be truly happy celibate. People generally aren’t so serious about spiritual liberation that giving up sex and partnership for life makes sense. The Buddha didn’t advise everyone to become monastics.
+61: If becoming a monastic genuinely makes you happier and more peaceful, stay. It might work for some very advanced people, or if your sexual desire is already low, or you’re old, etc.
+62: But how do you know what you’re not aware of? Inner-child reparenting and self-hypnosis can help a lot with that, because often the inner child is being ignored while the adult is feeling some kind of liberation.
+63: And if you’re so happy and free, what happens when you’re alone in a room with a super beautiful girl and she wants you? Or vice versa for women. Do you feel like you’re losing some control, and does that scare you?
+64: Bhante Gunaratana, a famous Buddhist teacher, tells a story like this in his autobiography. A super beautiful girl at a retreat he was teaching snuck into his room and waited for him in bed, naked. He went nuts and started screaming at her “Get out!” at the top of his lungs. Obviously he was still repressing something, and she was adept at unintentionally uncovering it.
+65: Robes do nothing. I was mildly molested in public by the abbot of one of Thailand’s largest Buddhist retreat centers. In Thailand, parents have very good reasons not to leave children alone with monks. Tibet is worse.
+66: Forced celibacy doesn’t magically abolish anyone’s sexuality. For most people, it eventually just makes them more perverted, since they have no legitimate way to express it.
+67: Some people become monks for practical reasons too. In a poor country, they're given free food, free shelter and massive unearned respect, without any expectation that they have to hold down a job or raise a family. And even where the free food doesn’t matter as much, like in some wealthy area of the West, a guy who was a nobody as a layman gets to be Venerable Nobody, and people bow to him as he preaches how they can also become Nobody some day.
+68: Of course, Mr. Nobody may sincerely want liberation, too. People can want several things at once.
+69: ### Practical partnerships
+70: I’ve traveled the world as a (white) guy from a first-world country. Many women have wanted to marry me partly because they figured I could improve their status and comfort. That always makes me feel sad and lonely to think about, but yeah, I know it’s to be expected. The funniest time was when a female police officer in India said we should marry because we were both the same age. 😜
+71: It’s reasonable for a woman to want support, since after all, she has to provide for her potential children, but it muddies the waters for me. I’m not stupid; I understand that she might really love me while still wanting money, stability, children, a visa, a home, etc. Men aren’t a different species, although sometimes I think I might be. A man can really love a woman for who she is while also seeing her as a source of sex, children, social legitimacy, or help running the house.
+72: And hey, sometimes being objectified is kinda sexy, too. Men like to be objectified to a certain degree as providers and defenders, just as women often like being seen as sex dolls by the men they want. Being wanted that way feels good, but feeling held is important as well.
+73: But I don’t want to be just a provider-and-defender machine, because that’s vulnerable to hypergamy. I wanna know that if I fall ill or lose my job, I can count on my wife still. Guys want a ride-or-die chick. A woman also wants to know that when she gets old, sick, or no longer looks like the fantasy that first attracted her man, he will still happily stay.
+74: #### It always goes deeper
+75: And the question is more than just a practical one. It’s philosophical, and it bites. Men have this (often subconscious) insecurity when they're trying to take on the provider role... they're wondering, "how much does she love *me* vs how much does she love *what I can do for her*?"
+76: I don’t need the answer to be that what I provide has nothing to do with it. Maybe she likes that I’m competent, protective, useful, and can make things happen. I definitely like her beauty and her sexuality. I just want what we have to grow bigger than whatever first made us want each other. Because as Bee always said, “You’re either going up, or going down.”
+77: I had wondered for years how much a woman would love me if I couldn’t really provide for her. Then Bee told me, “I would rather be with you in the forest than with any other man in a mansion.” That’s what made me fall in love with her.
+78: I got a smaller and much less romantic test later. Bee gave me some shoes to try that didn’t fit. I wore them for a day, and somehow my knee ended up messed up for about a month. She did nurse me, but a bit reluctantly. She also kept suggesting it was partly in my head, or not really that bad. I get it, neither of us could believe one day in the wrong shoes could do that, but it still felt like she was brushing me off because she wanted my knee to be fine.
+79: Some women are fixer types, which can create the opposite pattern. Before me, Bee had housed and supported a boyfriend who was totally broke and crazy, for a while. Later she blamed herself for staying through that, and I agree, it wasn't appropriate. It's not the same as helping carry somebody through a temporary incapacity, like she did with my knee.
+80: #### And deeper is the point
+81: Beyond all that practical stuff, sex is extremely important for building and renewing the connection. I also think that if two people aren’t having sex, it becomes hard to explain how they’re different from regular friends. But if the connection gets deep enough, sex appeal isn’t the basis of the relationship anymore. You don’t stop loving the person because she got old, he lost his job, one of you got sick, or sex became impossible.
+82: Sometimes they may even want you to find sexual satisfaction elsewhere if they can’t give it, because they love you and want you to be happy. Or maybe they don’t, and you can’t make giving you that freedom a test of whether they love you.
+83: ## How to find a partner
+84: (Insert OKCupid sponsorship here)
+85: Looking for a partner is arguably backward, and can work against you. You can’t help looking if you want one, but once you start seeing every new person as a potential partner, you perform for them and they perform for you. Try to see people for who they are before you think of them that way. Actually it was Bee who kept drilling this into me: “You see a pretty girl, but you don’t see the ugly stuff she’s dealing with inside.”
+86: On the other hand, if you aren’t looking for one, then you also aren’t filtering & comparing potential matches, which makes you more vulnerable to someone who targets you with their love bombs, not to mention the potentially good matches may slip thru the cracks of indifference.
+87: Maybe a good compromise is to look for people that match you without directly looking for a romantic match. Join a local group that fits your interests. Go forage for wild plants, meditate, hike, study philosophy, whatever. At least you have fun, learn something, and maybe make some friends even if nobody attractive shows up.
+88: ### Long distance
+89: I don’t think anyone wants to have a long-distance relationship, unless they’re not ready for a real in-person one, or it just so happens that their dream partner is currently far away. There is something super romantic about preferring one person no matter the distance. But it’s also not something we evolved to feel fulfilled by. And the less you’re physically together, the less you actually know each other. And actually, I would find it more romantic for my partner to say, “Let’s be together at any cost, physically” rather than “You should go take that better job and I’ll stay here.”
+90: If you’re just starting one of these, I’d suggest you ask your partner about how long they are comfortable maintaining distance, to see if it really matches what you want. If you’re already in a relationship of any type, it’s worth discussing how much distance you’d tolerate and for how long.
+91: ### Dating App Horror Show
+92: I would never recommend dating apps based on my own experience, although I suppose it depends on the person. Maybe you don’t care much about spirituality or anything, you’re not unique and don’t care if they are, you just “like big butts and you cannot lie,” and they want the same sort of thing. Then maybe the app fits what you’re looking for. 😅
+93: Case in point, OKCupid didn’t tell me my first wife was going to try to kill me and my family, take my son, and then put me on child support that I can’t pay and wouldn’t pay on principle if I could. That was the worst choice I ever made, even though I still love my son and I’m happy he was born.
+94: On the other hand, the app did give me information that I ignored because she was cute and interested in me. Her OKCupid profile almost made her sound like a prostitute, or at least someone who liked casual sex. Both turned out to be true. But once she started chatting with me and I saw the nice photos, I thought maybe she had been joking in the profile or something.
+95: These days almost nobody even has a profile. They just have photos, which is showing you something too.
+96: Ok wait, Judge not, lest ye be judged... An app could be fine as an introduction if you use it as a proper gate. Assume 99.99% of the people there are a bad match for you. If you’re just going to get excited by every cute guy or girl who hits you up, forget it. That’s such an easy way to find a weirdo, a psycho, a mooch, a faker, or whatever. Those people are easy enough to find in modern society in person anyway.
+97: I always tell young guys especially: don’t worry about not finding a girl, since finding the wrong one is what should scare you. And girls, you’re usually pickier, but you still need to think twice, because a lot of you go for guys who aren’t respectful or mature.
+98: I’m almost embarrassed to admit, but I recently tried Hinge again for a few days while I was in Kenya after my last breakup. I was getting something like a hundred girls interested in my profile every day, so I looked through a lot of profiles. Some were cute but none seemed deep, so the app worked as the gate I said it could be.
+99: ### Community makes the match
+100: Sometimes when you don’t go looking, others go looking for you! Some time in my teen years, my dad decided I needed a girlfriend. This was long before dating apps, so he suggested we put up posters around the neighborhood advertising me as eligible for girls to date. I was horrified and we dropped the idea. That gives you some idea of the mildly autistic background I’m coming from: we didn’t understand people. That’s why it might seem absurd the level to which I’m trying here to help you understand what perhaps is already obvious. 😅
+101: The advantage of meeting through your community, unlike through an app, is that you see someone over time, as do others in your circle. You see how they act when they aren’t on a date and what happens when they’re irritated, bored, jealous, and generally not getting what they want.
+102: Community also supports you regardless of who your baby daddy may be, and you aren’t desperate for just any kind of closeness because hopefully the community already fulfills most of that need.
+103: But if you don’t have community, the move is to find someone who is also looking for one that would interest you both. You can visit communities together (like Tree & Julia’s YT), or at least make a real plan to eventually live in one together. It’s a wide world, and traveling around looking at possible communities is a supremely good way to get to know someone.
+104: On the other hand, you may end up having sex too fast if you’re traveling together, but I’d still rather have sex with someone who’s trying to find a commune with me than someone I met at a party.
+105: ### The Missing Middle
+106: Modern life barely has an intermediate stage between being interested in somebody and getting sexually entangled. One old example is bundling, a mostly extinct practice now especially associated with the Amish, even though it existed much more widely. Courting couples could spend the night together in bed, usually clothed, with the idea that they could talk and be close without having sex, which sounds a lot like the missing middle I’m talking about.
+107: Well, it didn’t exactly solve the problem: in late-1700s New England, where lots of couples bundled, 30–40 percent of brides were already pregnant on their wedding day. I’m not trying to bring bundling back. I just think we need some stage that everybody recognizes, where two people can explore tenderness and attraction without immediately sliding toward sex, moving in together, and a life bond.
+108: # Starting on the right foot
+109: ## The window of clarity, and how it closes
+110: For me, the window of objectivity starts closing abruptly once it seems like sex will definitely be happening soon and I’m flowing with that timeline. I begin idealizing her more, and after sex I may suddenly feel unable to leave because maybe she’s pregnant, etc.
+111: Maybe I’m not representative of the modern degen dating scene. If you’re quite numb and used to casual sex, perhaps the window closes later, or even never. But for me, this is the pattern, and it seems like it would be healthy in a healthy, natural, small society.
+112: The attachment theory part comes from my own experience and from reading I’ve done. Sex turns on bonding chemistry in our brain (like oxytocin, dopamine, vasopressin) that usually helps us form attachments, so that we don't just abandon our children.
+113: - People call oxytocin the “love hormone,” as if getting more attached should make you feel closer and safer. And if closeness was safe when you were little, maybe it does feel a bit like coming home, but if you were neglected, abused, or if your mom or dad or closest people disappeared on you, then you might deep down disbelieve that you're worthy of anyone staying with you. And then you can get more attached *and* more freaked out or suspicious about them leaving, and you might even go into fight or flight mode.
+114: - There are several main types of brain chemistries that people have, and they determine part of what attracts us, according to Helen Fisher’s research:
+115: ### Peeking thru the window
+116: Before the window of clarity closes, the main thing is to find out whether you are actually compatible. Do you have the same goals and values, especially around children, religion, politics, health, love, and romance? Where do you want to live? Do you both want to find a community? What kind of relationship do you want with technology and money?
+117: So we have to find a way to ask deep questions. Conversation-card games may seem silly, but they can help people get past superficial talk and see if they’re compatible.
+118: But asking, “How do you handle jealousy?” can get me a beautiful answer that tells me almost nothing. I’d rather ask what she thinks she would do in an actual situation. If all she can give me is a general answer, I assume she probably doesn’t know yet.
+119: But watch out, because ironically, a card game to get closer and deeper can backfire! If we spend two hours telling each other things nobody else knows, we may feel incredibly understood and close, but that may mean the game worked without telling us whether the relationship will.
+120: You can also bring the person to a party, around your friends and family and see how they act, or take them to activities you enjoy and see if they really enjoy them too (although if they seem to enjoy every single one of them, they might be pretending). Try doing what you would normally do in your day alone, but with them, and see if it feels weird. Are they wondering why you spend hours playing with your cat? Do they look bored, like they’d rather just hit you up later for some fun?
+121: See their negative side first too. If there is no negative side, that’s a red flag for fakery. Ask whether the spiritual story they tell about themselves survives an inconvenient PMS afternoon. How recent is the healing story—two months or two years? You may not see their jealousy, abandonment and possessiveness until there is stress and entanglement, and that’s also when you find out whether the “I’m so much better than I used to be” story survives. By then, of course, you’re stressed and entangled. 😆
+122: Sometimes the only thing I have is a little “wait” feeling. If I'm about to ignore a question because I really want this to work, that "wait" is enough reason for me to ask the question before I keep going.
+123: If they’re nasty to their friends, family, or other people, assume they will eventually be nasty to you. We mostly seem to get attracted to the inner-child part because we’re coming from our inner child and we want to have fun. But you also need to find out whether there is a healthy adult there before you’re too bonded to want the answer.
+124: ### The conversation about flaws
+125: Card games and social gatherings don’t tell you everything, but asking someone out of the blue, “What did you do wrong in your past relationships?” would make for a pretty weird date.
+126: At the right time, though, in the right way (especially if they bring it up tangentially), I would ask about their past relationships, especially the recent ones. If every story ends with everything being the other person’s fault, I’d ask, “Okay, so what lessons did you find for yourself?”
+127: “I have baggage” isn't as useful as learning what you're having trouble with now. What might make it hard for you to function well in a relationship?
+128: I’d want both of us to be honest about how well we actually handle our own issues. What addictions or impulsive behaviors can’t we reliably control? What are we probably going to ask forgiveness for more than once? That tells me more than either of us proclaiming that we’re healed.
+129: Look at the most recent conflicts and ask if you were able to regulate yourself during them. What did you do to the other person, and how did you repair the damage afterward? Not doing can be just as bad as overdoing. If conflict makes you shut down, does it mean you stop talking to your partner for days, leaving them feeling abandoned?
+130: Has your judgment gotten better, or would your friends or exes say you keep falling for the same stuff?
+131: #### My flaws
+132: My own list isn’t especially flattering: I’m impulsive, and I idealize too much, although I don’t demonize. I’m very open and not very private. I care more about honesty than the standard romantic ideal. I still love my exes. After being deeply in love, I have overly high expectations, so I’m hard to please with a basic relationship.
+133: I’m also extremely unique and have deeply held convictions many people won’t agree with. I’m anti-vax, anti-money, anti-civilization, etc. And I’m not yet living the way I want to live (astrology predicts I will by 2030 😃).
+134: A woman should know that before she starts fitting me into the life or fantasy she already planned.
+135: Key was an inner-child therapist and Reiki healer. Both Key and Bee were extremely curious and open-minded, which I loved about them. They were open to spiritual experiences, very connected to childlike wonder, and were always seeing what they needed to work on. They both meditated a lot.
+136: I saw all that and thought anyone with that much spiritual depth and curiosity must already be far along on the path.
+137: We see what we want to see. Their meditations may have helped them a lot, but I still had no idea how either woman would act when a relationship got ugly, because if somebody starts with enough trauma, huge progress can still leave a lot unresolved.
+138: On my side, the blind spot is that I have trouble understanding where people are at mentally and emotionally. A partner may agree with everything I say and then tell me later, “Didn’t you understand I was FAWNING?”
+139: No, I really didn’t. If you’re fawning, tell me when you can, because I can’t know what’s happening in your head just from how obvious it feels to you.
+140: ## Things get tricky fast
+141: Couples withdraw from friends who aren’t supportive of the romantic dyad, and they also stop telling friends the whole truth. Sharp questions start to feel rude. An obvious problem dissolves into, “but I love her,” and right when both people most need a view from outside, the small world of the relationship starts feeling more real than the rest of life.
+142: Sometimes withdrawing isn’t wrong: telling your friend, “Can you believe what my girlfriend is doing to me?” can be a privacy violation. It’s just important to realize what is happening.
+143: It doesn’t help if she tells her friends her side while I tell mine mine, so we need people who actually know both of us over time, well enough that the relationship isn’t the only reality in the room. I’ll come back to that.
+144: ## Beware idealization in either direction
+145: Idealization can be pathological, but it can also come very close to real deep love and appreciation. That’s why it’s so easy to get confused.
+146: So far in my life the main experiences of this have been with Bee and Key. They’re also the two women I’ve actually been in love with, which is probably not a coincidence. Both of them saw me as their knight in shining armor, and that brought out this divine-feminine beauty in them that made me into a real love slave. I’m not Superman out here trying to “save a hoe.” There’s just a natural director/muse dynamic that sometimes plays out in an exaggerated way.
+147: She shouldn’t need a knight in shining armor to bring that beauty out, though, because it’s a bad shortcut to the divine archetypes.
+148: You can legitimately see someone as amazing when you don’t need anything back from seeing them that way. Once you start identifying with the way you see them, like she’s perfect and I’m the one destiny finally sent to find her, you’re already lost in the sauce.
+149: The degree of idealization also predicts the degree of demonization for me, so much that I use it almost like a clinical diagnosis in my own life. If a woman says, “You’re such a great guy. Of course you have flaws like anyone, but I love you,” that sounds healthy. If she says, “You’re perfect, I can’t find any flaw,” I’m already running.
+150: When the BPD splitting kicks in, she goes from “you’re perfect” to “you’re a fraud,” first in private and then in front of everybody. Suddenly she can see every flaw I have, and decides I was faking it all along. Sometimes she ends up accusing me of thinking I’m perfect, when she’s the one who used to say I was.
+151: I’ve learned to get nervous when somebody "knows" too much about me/us too soon. You know how it goes: “We’re twin flames!” or “I’m Lord Krishna and she’s Radha!” Okay, maybe I really am way better than the other guys she’s found. But if she hasn’t found anything about me that bothers her yet, she hasn’t found all of me.
+152: For example, I still love women I’ve loved before, and sometimes I talk about them, with no intention of making my current partner jealous, just because I’m thinking about them and I don’t want to hide it. If she can’t handle the truth that I still love them, she isn’t ready for me.
+153: If she says, “Can you talk less about your exes?” Well, yes, I'll happily oblige, since maybe I do talk about them too much sometimes. But I'm hoping that doesn't mean she also wants to pretend I'm not thinking of them just because I don't blast it out loud. And I also can't stand the double standard if she's talking about her exes while I can't talk about mine.
+154: ### Anti-PTSD Can Be Just As Dangerous As PTSD
+155: When I’m in love, I see everything just from the love angle. I should probably admit that before I give anybody more advice.
+156: A friend in my TherapyCircle chat was talking about PTSD recently, and I said, “I have anti-PTSD.” I coined it as a joke, but even though it feels nice to have Anti-PTSD, it can leave me at more risk than if I had PTSD. Instead of expecting danger, I keep expecting each new woman and each new situation to finally be the beautiful exception. I see the good and I give the benefit of the doubt long after I should have doubted the benefit. Then the false positive resolves into the same old pattern and gives me actual PTSD, like Ping Pong.
+157: I grew up assuming the best of everybody because that’s what my parents taught me. Now I’m trying to be more suspicious and check for red flags before I’m alone with somebody I badly want to please. Why does she contact me only sometimes? Is that a pattern, or just life getting in the way normally? Is she communicating enough for me to really know her interest level and what’s underneath it? Would my twin flame behave like this? That last one's my peculiar question. Not everybody is searching for somebody who will naturally channel the divine in their presence.
+158: My second marriage to Bee is the clearest example. I knew within a week of her visiting that she saw me as her father. I didn’t know where that might lead, and it seemed like the only avenue to her heart, so I went with it.
+159: A lot of women have seen me that way, and I don't necessarily see it as pathological. The question is whether they can hold it lightly, playfully, or whether it turns into something all-enveloping, and they start taking everything they feel about their dad out on me as if I’m actually him. With Bee, the main issues were the BPD and that her aunts had badly witchcrafted her as a child (which she saw as underlying the BPD).
+160: She loved me openly and intensely and seemed to understand me spiritually. Most of all, there was the forest-and-mansion line I mentioned earlier that made it feel unconditional. Best drug I ever had.
+161: I don’t know whether that unconditional love ended up being true. I think it was true in a part of her, and it may also have been the BPD idealization. You have to look at everything from multiple angles. But when you’re in love, you see everything from the love angle. That’s the reality shift I’m talking about. The love angle is great if the ground underneath the relationship is prepared for it, but if the rose-colored glasses go on when you’re with the wrong person, they make it even harder to understand what’s real.
+162: So I became the father in a relationship where I wanted an equally responsible playmate. Part of what happened may have been that she eventually grew up, and a daughter who grows up leaves home. But that wasn't even really 1% of the whole story. The two years in-between contained enough insanity for several lifetimes.
+163: Looking back, I’m grateful I loved her. For three months after we broke up, I trained myself to replace missing her with loving her, and now, any time I think of her, I feel so much joy and love, which I send her way.
+164: That doesn’t mean I’d advise somebody to knowingly enter a dangerous relationship because it may be worth it. Going in, it helps to recognize your pattern and stop idealizing, without becoming suspicious and closed, so you have some idea what you’re getting into.
+165: ### Seeing idealization right
+166: You can see something in a person before she fully lives it, but then you have to ask her:
+167: “I see this in you, and I think it’s special. Do you wanna reach for it together?”
+168: If she says no, forget it. You’re in la la land. If she says yes, ask what is blocking her. Is the block more than you can handle? Or does she mostly need somebody to join her on the journey and believe in her?
+169: Partners should help each other grow. Who else is going to do it, your mom and dad? You’re already grown to them. Everybody else will usually be a smaller influence, so you’d better choose someone who helps you grow well. Like the FM Laeti song down in the Twin Flames section says, “Inspire her to see the best in herself, actualize that,” though if something severe is happening, sometimes a demand or boundary is necessary too.
+170: ## If slow isn’t realistic for you
+171: I pretty much always intend to wait long enough to have this conversation and figure out who I’m dealing with. Then the heat of the moment hits and I want her to think of me as the guy who pleases her, not the guy who makes her think twice about wanting pleasure.
+172: So my main strategy has been to avoid heat-of-the-moment situations until I’m ready. Avoiding those situations has definitely saved me from having ten times the body count, but it doesn’t work reliably, because the invitation that leads there often starts out small, like “Hey, wanna go do something together?” Maybe she wants me to come to an event, a meditation teaching, or a walk in nature.
+173: Phone or video first can help, as can meeting up around other people and deciding beforehand that we aren’t going home together. Islamic and conservative Christian cultures put much stronger barriers than these around a man and woman being alone before marriage. I don’t accept their helicoptering solution, but they noticed something real. We don’t live in tribes anymore, where people around us might know both of us well enough to slow this down.
+174: ### Just in case
+175: We’re human though, so expecting perfect behavior is a recipe for disaster. That’s where Gandarusa comes in for men. It’s a traditional Indonesian contraceptive herb that looks about 99% effective, with health benefits (including libido and for HIV), and rarely any side effects. You have to take it daily and it takes a month to become effective. But attachment starts before pregnancy anyway, so even with contraception, I can still get emotionally attached to somebody I barely know.
+176: ### Holding up a leaky dam
+177: Once I’m attached, “I’m taking a chance on her” starts turning into “she’s the right person” after we’ve been together for a while. But could I explain that to an objective friend? Sometimes I actually learned something about her, but other times all that changed is I’m attached now, and that just makes me less likely to question it.
+178: If I have sex with somebody quickly, that’s a reason not to move in quickly too, and to keep seeing friends, have some kind of community around the relationship, and pick actual dates to ask how it’s going. Moving in together right away is basically getting into a common-law marriage without discussing it, and it’s too easy for me to assume the relationship is going well just because we’re already entangled.
+179: I can know I want her much faster than I can know whether I want to raise children with her, live in community with her, or build a life with her.
+180: At some point one of you will ask, “Why am I special to you? Why are you with me and not somebody else?” If the answer is basically, “We had sex and got hitched?” I don’t know, that’s a damn shame.
+181: ### Slow & steady may win the race, but turtles have problems too!
+182: Going slowly can show you how somebody’s moods wibble and wobble over time, how they treat you and other people, but it can’t tell you how good the sex will be or how either of you will act afterward. You can know somebody for 20 years and then discover on the first night that the polarity isn’t there. Touch or smell can feel wrong, or your desire levels or kinks don’t match up.
+183: Some of those things might get better if both partners are committed to helping each other through it, but sometimes bad sexual fit still feels like, “Let’s just be friends!” Saying, “The sex isn’t working for me,” might sound like, “I only love you if the sex is good.” But that vague love word again needs clarifying. Universal love is the basis of any good relationship of any kind. It doesn’t make someone special the way romance does. Romantic love generally needs good sex too, or else we’re basically just friends who care deeply about each other.
+184: #### Slow & steady isn’t KO’d yet
+185: Slow and steady might still apply after the shock of the first night together. At the beginning of my sexual relationship with Bee, she told me, “You’re going to get a lot better at sex.” (God forbid I tell a woman that.) Funny thing is, I don’t think I did. She got much better at receiving me.
+186: About eighteen months later, she could orgasm almost immediately from penetration without foreplay, have dozens of orgasms in 5 minutes, and squirt so much we were flooding the bed. We were often making love for at least four hours a day. The rest of the day was spent doing laundry loads.
+187: After we broke up, I was extremely curious whether that would simply transfer to another man. Last year she told me that in the five years since me, she had tried having sex with somebody else once. It felt so bad that she stopped after about a minute.
+188: So “trainable” doesn’t quite describe what I mean. Some sexual abilities can obviously be trained, but some sexual responsiveness seems to be co-created between particular people.
+189: The strangest part was that Bee’s body kept opening more while consciously she was trusting me less and becoming more sure that she wanted to separate. She used to say, “I can’t stand you! but I LOVE you and I don’t know why!”
+190: Women are always demanding to know why I love them. Apparently they’re allowed not to know. Those double-standards really bug me, but I also understand our brains work differently. So that’s another thing to learn about over time in a relationship, and it sometimes hits you unexpectedly.
+191: Go slowly if you can, then, and learn what you can about each other before sex, but there are things you’ll only find out once you’re having it, like how your bodies respond to each other.
+192: # The Relationship As Crucible
+193: It was during my first marriage that I read about Dr. David Schnarch’s Crucible Approach in Passionate Marriage. Schnarch saw marriage as a natural “people-growing process.” His idea of differentiation was learning to hold onto yourself while staying close, especially when intimacy brings anxiety and unresolved problems to the surface, which is definitely what relationship has done to me.
+194: One warning before I romanticize the crucible too much: sometimes (as in my first marriage) this isn’t two wounded people triggering each other but one person terrorizing or controlling the other. If you’re scared to say no or tell the truth, or of what happens if you leave, that’s way past a mutual communication exercise, so get other people involved and think about safety first.
+195: Toft sees the crucible of his marriage as his main spiritual practice. He also continues his meditation, yoga, prayer, and church activities, but sees them as secondary. I understand what he means, because it’s much easier for me to feel spiritually advanced when nobody is close enough to expose the parts of me that aren’t.
+196: Being in a relationship showed me how vulnerable I actually am when I open my heart. It’s really easy to feel invulnerable and strong when you’re alone, or even just with friends. Taking off the masks and showing your inner child is a gamble, but it’s required if you want to go deeper in yourself and deeper with another person.
+197: ### From flow to nitty gritty
+198: Living alone is easy in so many ways, like I can make my bed whenever I want. When I have a girlfriend, making the bed in the morning can become one of the ways I show her I love her. If I don’t do it well, somehow it may become a bad omen that I don’t care about her, which is a lot of emotional weight for a bed.
+199: Dealing with somebody else’s emotional insecurities can also be exhausting. It’s easy to feel free when I don’t have to do that, especially since I’m a bit of an introvert and 10% autistic. All that works wonderfully until I’m in a romantic relationship and suddenly I’m expected to mind-read, silences included, and check in constantly, without ever manipulating her. Bee would accuse me of manipulating her even when I was making an effort not to, and ironically, she actually wanted me to manipulate her more.
+200: ### Reverting to babyhood
+201: Relationship may activate wounds that were already there. Sometimes it may open a level of the heart that is simply very young and vulnerable, whether you knew there was a wound there or not. You become like a baby again. There’s a reason lovers call each other “baby.” And after all, Christ said "unless you change and become like little children, you will never enter the kingdom of heaven" (Matthew 18:3). Well, the Kingdom of Heaven may require extensive therapy to arrive at if being a baby was difficult the first time for either of us.
+202: As mentioned with Bee, but also with Key, and H., there was always some sense that they were remembering how their dad treated them and judging me according to how close to him—or different from him—I was. That put me in a tough position. I want to play the role they need in some way, but I want to hold onto the actual reality of me being me, with no need for putting on a show.
+203: ### Don’t make your partner your whole world
+204: When I’m in love, my partner is my everything. Everything else drops away. I still try to make some time for friends, but really all I want to do is be with her.
+205: Part of why that little paradise feels like a magical wonderland is that you can suddenly stop parenting yourself now that you have someone who’s fully got your back. This makes you soft and weak, kinda like a sweet treat or heroin. It is wonderful to have their love and support, but don’t let that bring you away from your own self-love, reparenting, meditation, yoga, and other healing practices that keep you independently healthy. Otherwise, you’ll end up blaming them when you feel bad.
+206: So don’t let your world get so small. Don’t abandon your friends unless they really aren’t good for the relationship. And if they aren’t, ask why. Are they bad friends? Are they slyly interested in one of you romantically? Or is the relationship so weak that it can’t handle anybody with an outside view?
+207: You don’t need to spend as much time with friends as you did before the romance. But keep some room to explore life on your own.
+208: For me, that room is where I keep a mission of my own, separate interests and some connection to community. I also get outside therapy when I need it, and I make sure I can still be alone.
+209: Toft also points out that a man can get feminine energy from nature, music, poetry, art, flowers, food, and other parts of life. I agree, it's not fair to myself or to my girlfriend/wife if she has to be my only source of beauty, softness, sensuality, and inspiration.
+210: When I’m already overwhelmed and suddenly announce, “I need time for myself!” it can easily sound like I need time away from her. It's always better to have some balance from the get-go rather than as a reaction after you see something is unsustainable, so make alone time normal from early on.
+211: And bring each other out into the world. Meet other folks together and explore new places, don’t just disappear into each other.
+212: #### Disconnect to connect
+213: Self-reflection is a good place to start, but it can’t see what it can’t see. Your partner is also usually trying to keep you, so they have an ulterior motive, as sweet and expected as it may be.
+214: That’s why I recommend peer counseling outside the couple. If my partner is the only person I bring all my pain to, she also ends up carrying whatever I do when I still don’t understand it.
+215: I also have to deal with what happens in my body: my mind may understand that my partner is going through something difficult and that I don’t have to be dragged down with her, but my body still feels dragged down, fragile, and sensitive. My breathing gets shallow, and it becomes extremely hard to feel okay while she is in pain.
+216: Crying helps a lot, but it may actually be harder for men once they are in a relationship because they are expected to be the shoulder everybody else cries on. That is another reason to have a peer counselor.
+217: Crying also contains a type of automatic erratic breathwork. And breathwork is one of the easiest ways I know to calm down. Reduced breathing or just continuous/circular Systema breathing is especially useful to me when my partner is getting me upset and flustered with drama. Sometimes she’s deliberately trying to do that, and other times it’s hard to tell, although if I'm stuck thinking about what's on purpose I'm already lost. I explain more of the body-based therapy options in my Somatic Modalities guide.
+218: Meditation is also helpful, but for most people, I would still put inner-child reparenting, peer counseling, and body-based work first, or make those the main things they meditate on. Many people say they cannot meditate or have not gotten to that stage yet, and meditation without grounding in those approaches can easily be a road into spiritual bypassing.
+219: ### Babies growing up again
+220: Nobody has to be completely healed before entering a relationship, but I think that as we learn more about ourselves through the crucible, we should naturally raise our standards. Maybe at first we need the drama to access our primal emotions, but after years of that, we’re exhausted by what we previously hoped to find.
+221: At the very least, there needs to be honesty, real effort at improving, and some ability to stop blaming everybody else for your own problems.
+222: I already said that before dating, the present-day adult has to be able to parent whatever intimacy wakes up inside you. Once you’re together, more of that stuff comes out. Inner-child reparenting means parenting the child part instead of surreptitiously hiring the partner for the job.
+223: It can get pretty entitled when you expect your partner to know what you need without being told. You may barely see your own pattern, and then deny it instead of taking responsibility when they point it out.
+224: ### Some babies grow up faster
+225: While different maturity levels are to be expected to some degree, it can get out of hand at the extremes. What I noticed in all of my most intimate relationships was that when one person was always the child and the other is always the therapist, guru, doctor, or dad, then it’s too unequal, and eventually there will be some kind of pendulum swing or backlash. When I became consistently the responsible one, that also made me responsible for everything that went wrong, not to mention the unhealthy clinginess, jealousy, and all the rest which went along with that dynamic.
+226: Toft says, “She’s not a girl,” and “She’s not your mother.” I agree with the warning, but I’d qualify the first sentence. A lot of women enjoy a daddy/little-girl dimension with a man they trust, and I don’t see a reason to deny them that. It can be affectionate, erotic, comforting, or playful.
+227: The problem is when the role takes over the relationship. She can be my little girl sometimes without becoming my child. She still has to remain responsible for her life and keep reparenting herself.
+228: It can run the other way too. If she has to calm me down every time I’m upset, and on top of that organize my life and keep me functional, then I’ve made her Mom.
+229: All three women told me at some point that they felt like my patient, and I couldn’t exactly argue with them. They asked me about almost every medical, mental-health, and practical problem:
+230: “I’m sick. What should I take?”
+231: “I’m sad, what should I do?”
+232: I usually had some idea, so of course I answered, but enough moments become a pattern.
+233: Key at first asked me innocently, “Can you be my guru?” I told her, “I’m not anyone’s guru, but we can learn from each other.” A few months later, she was telling me she was much more spiritually advanced than me. I asked, “Do you recall asking me to be your guru?” She said, “Wow, I must have been really confused back then!”
+234: I also have to admit, I can become condescending when somebody stops taking responsibility for their behavior. I find that intolerable. If someone tells me, “I feel like your patient,” we both have to look at what we’re doing.
+235: I know what happens on my side. Helping feels good, and so does being needed. A lot of the time I really did have the answer or the perspective they needed, so of course they kept asking me. I also had to look at whether they were trying to take care of themselves without me.
+236: ### Different levels in different domains can be complementary
+237: According to myself, I was ahead of Bee, Key, and H. in maturity, emotional stability, self-love, and self-awareness. I also had advantages they didn’t, including a happier childhood and more moolah. As you might imagine, all of that affected the balance between us.
+238: They were all ahead of me in childlike wonder and fascinating creative intuition, which is what attracted me. Sometimes their intuition was wrong and they trusted it too much, but I still loved that quality in them, since I tend to be more analytical.
+239: They were also all more social than me. They could organize people for a ceremony or group gathering very easily. I felt like I needed that if I ever wanted to start a commune, because I’m more introverted.
+240: I’m good at talking to people when there’s a purpose. I’m not as good at rousing everybody up and encouraging them to do things or go places with me, because I tend to feel that everyone should simply do as they please.
+241: So I do believe in mutual coaching and complementarity.
+242: I could teach these women about loving and reparenting their inner child, Buddhism, meditation, and other things I understood better. They could pull me into life more, show me where I wasn’t seeing people, and sometimes be the skeptic when I was seeing the best in someone and missing their hidden motives.
+243: When it works, we take turns, me teaching one day and learning the next, and that’s healthy.
+244: It’s time to bring in other support once a partner has become the default caregiver and that’s taken for granted, or the romance could collapse under the burden. Maybe the romance actually does need less intensity, maybe it becomes friendship, or maybe it ends. Asking that question out loud is the first step in figuring it out, but I can’t answer it for others, and couldn’t always answer it for myself.
+245: The next two sections are about masculine–feminine polarity and Twin Flames. If neither is relevant to you, skip ahead to Two Pillars Don’t Hold The Roof Up.
+246: # Primal attraction: channeling the Divine Masculine & Feminine
+247: Much of this article so far has leaned toward equality of responsibilities and mutual respect. I do believe in that kind of fairness and balance in relationships in general, but that liberal modern philosophy fails to explain why two people still want to tear each other’s clothes off each night.
+248: For me, feeling safe gives the space for desire, but it clearly isn't sufficient to spark it. When I feel safe with a woman, we can actually tell each other our fantasies without worrying that the other is going to be horrified or weaponize it later. We can imagine pregnancy and really enjoy the thought that we might be making a baby, rather than imagining I’m ejaculating into a condom and hoping nothing happens. Whenever I was scared of getting a woman pregnant, the sex was usually much more boring.
+249: So why is it that a lot of relationship advice says desire needs distance, mystery, withholding, maybe even separate homes? I suspect they are compensating for a lack of expressed difference while together. The more safety there is, the more closeness there is, the more polarity there needs to be to keep things alive and poppin’.
+250: One controversial example of the polarity-seeking is that a lot of women want to feel that their man is dangerous in some way, but preferably dangerous towards anyone who might harm her. Beauty and the Beast is a “tale as old as time” for a reason. And this can sometimes be a basis for what they call "shit-testing," since how would you know if your man is powerful until you test him with a fight or disrespect?
+251: One evolutionary reason for this, as Cooper explains in this Red Pill "man-o-sphere" video above, is that human history is full of wars, and thus, we are descendants of war brides taken by victors. So the women who *weren't* attracted to the most powerful and dangerous men would be least likely to reproduce, in many cases. Cooper tells men that the depressing truth is, women are, by nature, hypergamous, always looking to trade up for a more powerful man, so men need to find ways to stand out from the crowd. As you can see in the comments on the vid, the idea of playing this role to keep a woman is actually so depressing for many men that they decide to abandon romance altogether and become hermits ("for safety and legal reasons"). And the gender wars have gone to real extremes in recent years, maybe most exemplified in South Korea.
+252: What I would say to that depressing take is, Cooper is sort of right, but he doesn't go far enough. Anyone can watch his video and then do the things he says to do and thus stand out from the crowd like he does (until everyone does). But that's superficial posturing, and he even proudly shows how he postures with carefully planned photo shoots for his social media, avoiding the "soy boy smile" which is actually his natural one.
+253: I believe the real way for someone to stand out, is to be their unique, authentic, beautiful (no-)self, because there's no competition there. Nobody can ever beat me at being me (especially since I don't exist!). Cooper might retort that's simply not what attracts women on average, and again, I'd concede that point, because I'm not interested in average women and the superficial connections I'd have with them. On the other hand, one thing that I've noticed is that many women are very attracted not precisely to confidence in general, but rather to a specific type of confidence which is produced by deep relaxation/flow state. When I've been at my most relaxed, I've literally had beautiful women stop their cars in the middle of the road to ask me to get in (thankfully, I didn't, but it was tempting).
+254: I think the key in life in general is to understand that human psychology, in general, is quite nasty, but the ugliness is only dust covering the gem inside us which every spiritual tradition points to. It is by touching the divine ocean of the heart that we can relate to each other from above the animalistic mind and the ancestral trauma. It doesn't mean we suddenly find unattractive people to be attractive, but I do find that as I have matured spiritually and emotionally, I've lost interest in 99% of the women I previously saw as attractive, because now I'm seeing their ego before I get in too deep. And while it's hard to sell this idea of greater selectivity to someone who already can't find a mate, I personally prefer to be alone than to settle for just another pretty war bride.
+255: So while Cooper thinks it's a constant struggle to stay on top, so your mate will continue desiring you more than anyone else, I'm saying that the best mate you could ever hope for is the one who will know after connecting with you over time, that they will never be able to replace you and the love connection they share with you.
+256: Having explained my objections to lowering romantic expectations to the common denominator, I do agree with Cooper that men and women should have contrasting roles to the extent they find that natural.
+257: ## Muses & Directors
+258: I don’t think equality means dividing every role 50/50.
+259: I think of the woman as the engine, and myself as the steering wheel. I get motivation from her, and then I give her energy direction and make it operational. She is the life force. She brings inspiration, beauty, intuition, creativity, and this feeling that life is worth doing (since there quite literally is no future for life without women procreating). Not that I have none of those qualities myself, but I enjoy supporting a woman to embody them. If she micromanages, I start feeling useless. She might have a better idea, or just not want to do it, but she still wants me to take initiative, even if it all looks like a game to anyone on the outside.
+260: I find the intuitive mind incredibly sexy, because I can’t fully follow it. During sex, some of the most “womanly” women I’ve loved have gone through psychic experiences, memories that felt like past lives, and things I had no idea how to explain. One time, Bee said she almost got enlightened, but I came too fast. Woops...
+261: Key could sometimes start talking and somehow teleport me outside the galaxy. I don’t know how else to describe it. Her voice would become so beautiful that I would shed tears that felt super liberating.
+262: Bee could bring out something similar--she could be talking to me for hours on end, but instead of trying to mute her with the TV remote, I felt I was in a timeless dimension of love.
+263: Maybe women are poetry and men are prose.
+264: Some women barely have that poetic quality, and artistic men can live much closer to it. I’m referring more to feminine vs masculine archetypes. What attracts me is the feminine intuitive leap, because it’s hard for me to understand, seems often absurd, yet many times may turn out more accurate than what I could have figured. I hope this feminine quality can be treasured by all girls as they grow, without falling into helplessness or chaos that over-relying on it without calibration could create. Boys should also maintain their access to this, even if it’s not primary.
+265: This polarity is attracting, but it also shows up in arguments. Toft says that after fifty years of marriage, sometimes his wife wants to talk while he wants to fix, a la Men are From Mars, Women are from Venus. I recognize that as well. So I ask, “Do you want me to help figure this out, or do you mostly want me to listen?” Listening doesn’t mean I’m gonna be a doormat tho. If I start listening to her demonize me, that’s the Crucible safety problem I already talked about.
+266: ## Desire is expressed differently for men & women
+267: Women often show wanting directly, unabashedly, and seductively so. They ask the man to do things for them, even when they could do it themselves, and they know it!
+268: Men tend to show their wanting through providing, fixing, heavy labor, or trying to become indispensable. Not because men are less needy, but their neediness partly consists of being needed. Emotionally, women express their needs more, but this also allows them to get supported more often and by a wider social net. Men, on the other hand, tend to keep their needs to themselves or put them all onto their woman, especially when it comes to the need for a confidant.
+269: If a man is too needy, it tends to turn women off. The way women see it, a man should be in control of himself and able to satisfy his own basic needs. After all, how is he supposed to provide for somebody else if he can’t manage himself?
+270: It’s not that male pursuit is a turn-off to women (assuming they are interested in the man), but they want to see that the man can pursue strongly while staying grounded. The polarity evaporates when he keeps reaching without satisfaction, loses control of himself, or makes the woman responsible for regulating his emotions.
+271: ## Romance Shouldn’t Be Adjudicated
+272: The moment I have to prove that I’m the man, something has already become fake, which I hate. Then it's like I have to defend the identity every time I'm not leading the way confidently & correctly, or god forbid if I need help or I cry!
+273: I'm not really like that, and I do like to decide things together. Bee once called me her “wife” because of that. I don’t recommend that as a polarity exercise, by the way.  🫣
+274: But I do have a masculine side, and when a woman appreciates that masculine side of me, it tends to come out by itself even more.
+275: And women also shouldn't have to perform softness, or cute helplessness every minute to prove their femininity. Surrender means so much more when she *could* take control, but she doesn't, like an offering in trust.
+276: But in some sense, being the one who's supposed to be more childish can be even harder than having the more responsible gender role. She may worry that I don’t find her young and beautiful enough, or that she’s too emotional, difficult, and needy. Then she can over-correct, pulling back into needing nobody, and make receiving care or letting her man lead feel like weakness.
+277: Toft says that after fifty years he still tells his wife she’s beautiful, including finding new kinds of beauty as she ages.
+278: Anami talks a lot about women needing to learn to receive a man's help, leadership, or attempts at giving her pleasure, without feeling like it costs them their agency. Sometimes that’s as ordinary as a woman who knows perfectly well how to drive asking me to drive, because she likes how it feels not to.
+279: As her man, I can help her come into her femininity by, for example, asking, “Honey, how do you see this intuitively?” And that's actually one of the powerful sides of femininity, so it can be a good bridge also if she's a bit stuck in masculine mode. And then she might ask me to help think through the practical side to lift me up and help me shine.
+280: That's the way we can invite each other to play our unique roles rather than huff and puff in disappointment. Would you rather go to a party where you were invited or a war you got drafted into?
+281: When a woman doesn’t know how to gently invite a man to lead, she may manufacture a crisis until the man is forced to take charge to get the same outward result.
+282: Unfortunately, I’ve seen a lot of the latter.
+283: ## Fantasy
+284: Inside real safety, people can turn the polarity dial all the way to the right.
+285: Fantasy is one of the best ways to experiment with that. Domination fantasies are common in many forms, and they enable extreme masculine-feminine polarity without actual harm, because the real person still has consent and can stop.
+286: Nobody is entitled to another person’s fantasies. They’re private until the person decides to share one, and when somebody does, it can be an extraordinary act of trust.
+287: Esther Perel makes the distinction that fantasy is play rather than a real-life request. So someone with a rape fantasy isn’t asking to actually be raped.
+288: A couple can keep a fantasy in their heads, or they can agree to act some part of it out.
+289: Fantasy should also add to arousal, not be the only way to get there, because I want to be able to enjoy the actual woman and the actual experience too.
+290: ## The Queen of Orgasms
+291: Most people are not even aware of how incredible sex can be when the polarity, trust, love & safety are all where they should be. Women have shown me that the cervix can open during sex and become intensely pleasurable for both of us. After you experience cervical sex, regular sex doesn’t even seem like it’s really “sex” anymore. It seems more like foreplay.
+292: However, I’ve not yet very deeply “researched” these experiments, because “life” often got in the way, and building up to this actually takes a lot of “work” (ahem..).
+293: Women describe cervical and whole-body orgasms as something very different from building friction toward release—more like being taken over by a profound energy running through the whole body.
+294: Although the peanut gallery critics and lazy fact-checkers often cry fiction on this topic, it actually has been documented in studies, and that laboratory evidence shows it’s a real and distinct thing in the body. Kim Anami, Diana Richardson, and other popular educators and promoters of cervical orgasms further claim that these can provide days of afterglow, as well as spiritual and physical healings.
+295: ## Can making love be a spiritual practice?
+296: I’m Buddhist, and the early Buddhist texts have nothing on tantric sex as a path to awakening, but plenty of the people they show getting seriously awakened were lay people.
+297: In DN 16, the Buddha talks about people who had died in the town of Nādikā and mentions 510 lay stream-enterers, 96 once-returners, and more than fifty lay non-returners, the first three of the four stages of awakening.
+298: SN 55.24 has an almost comic complaint: when the Buddha declared Sarakāni a stream-enterer, other Sakyans grumbled, in effect, “Who isn’t a stream-enterer these days?”
+299: And when the married couple Nakulapitā and Nakulamātā asked the Buddha how they could remain together in future lives, AN 4.55 gave this advice:
+300: “When both husband and wife are faithful and generous, restraintful, living righteously, speaking pleasant words to each other—they come together in the future, sharing the same desires and living in bliss.”
+301: Marriage, sex, and household life aren't automatically in conflict with serious spiritual development.
+302: Kim Anami goes even further: she says sexual energy itself, when used properly, can heal you and wake you up spiritually along with your beloved.
+303: She’s also collected a ton of stories from students who say the effects spilled out of the bedroom into the rest of their life, with better health, more rewarding careers, checks rolling in, and creativity flowing out like nobody's business. Her jade-egg practice is a preliminary training for the cervical O, as it strengthens the pelvic floor while also engaging your attention to the sensations down there. No partner required for the jade egg phase.
+304: Brad and Pam Keene are the couple I really liked as an example of how her method works. Pam explained that her Kundalini process completed while they were making love and opened her into a lasting universal-consciousness awakening. She later helped Brad awaken too, so the marriage itself became part of the path.
+305: # Twin Flames?
+306: Earlier, I mentioned the divine feminine and divine masculine energies that you can channel to keep eroticism alive. But there’s really something more special about the in-love paradise that Twin Flames (TFs) experience than a simple Divine Masculine + Divine Feminine formula. Maybe a better way to put it, as my friend Cody says, is Yin/Yang, which still has the masculine/feminine in it, but allows for a more broad type of complementary symbiosis since each contains the seed of the other.
+307: My ex-girlfriend, Malia, (who is currently hosting me in Senegal) found her twin flame (I think) in January, 2026. They only talked for a month, but since she started talking to him, they both have been able to feel the other one’s emotions at any time, from any distance, without having to communicate. To the point where if one feels really bad, so does the other. If one is very happy, so is the other, like quantum entangled photons or something. I’ve also had telepathy with some folks, especially my second wife, Bee, but it was never quite to such an extreme as what Malia has with Mouhamed. Meanwhile his family forbade him from being with her, so he dumped her. Not sure why, maybe because she’s 8 years older than him (although she looks quite young). They both try to pretend like they will be able to get over each other, but I doubt it. Meanwhile, Malia’s trying to marry ChatGPT, but she should have picked Grok, I guess. 😅
+308: Note: I am really afraid how many people are falling in love with their AI “girlfriend” or “boyfriend.” But oh well, I guess those folks aren’t ready for a real relationship.. maybe if they would read this guide…
+309: Back to the topic. There are a ton of people who don’t want to believe in twin flame theory because they haven’t found someone they could call their twin flame. That’s fine, and I am not trying to rock their boat. They might be the people who suggest that you should marry your best friend (or “soul mate” in the TF lingo). Then there are the folks who are deep in the TF theory, believing there is literally one person on Earth who is made for you. I’m also not trying to rock their boat. But I do want to tell my story.
+310: I used to fall into the former camp, then into the latter camp, and now that I’ve experienced two twin flame relationships, I’ve jumped into a new camp I never knew existed.
+311: ## What two Twin Flames taught me
+312: I used to think there was absolutely no way I could ever fall deeply in love with another woman after my 2nd wife, Bee. No other woman ever connected to me on such a deeply spiritual and deeply feminine level. I always said, “Bee is the ultimate woman in every sense.” But I also suspected I felt that way because of what I conceived a woman should be, and because of the shape of my own inner being. I could list her qualities which made me feel that way, but the sum total of the qualities would not produce what she represented. There was something deep and ineffable that I connected to with her. I truly understood the belief that your TF is really a half of your own soul (or of your own mind-stream in Buddhist terminology).
+313: I wish I had a video to show you of me and Bee, but she was very camera-shy, and the only video that’s online of her is from when she graduated high school, but I still see the divinity in her in that short clip where she is the only one expressing that she wants to save others from going through what she’s gone through. I did make a video about how I learned to love her instead of missing her after we parted ways in 2020.
+314: Then, in 2026, I met another Ultimate Woman, who even called herself “WOMAN” on her whatsapp profile, which I thought was hilarious and maybe a sign for me. You can see the video we made together while in love:
+315: Falling in love with Key really blew my mind. How could it be possible to fall in love with a different woman? I thought Bee was my forever, only Twin. The conclusion seemed inexorable to me: Bee could not have been the only person on Earth with whom I could experience this. Key did not share that conclusion. But if both partners can accept it, I think de-ontologizing Twin Flames actually allows for a deeper sacred relationship.
+316: ## De-ontologizing Twin Flames FTW 💗
+317: This part might seem unromantic to the TF community, but if people understood this, it would actually lead to much deeper unions and deeper love, in my opinion. I’ve basically synthesized the dialectic between the romance pragmatists who don’t believe in fairy tales and the fairy tale idealists who can’t understand why their relationships never work. If only I could find a woman who was on this same page with me. 😅
+318: Basically, the Twin Flame experience is not about two unique people who must find each other against all odds. Well, they are uniquely matched in some ways, that’s true. But what’s really unique is that they are able to connect to each other’s deepest, most vulnerable corner of the heart.
+319: When Key felt understood by me and safe with me during that first month, she would naturally slip into her divine-feminine sacred-partner archetype. Bee did the same every other day. In that state I was the ultimate treasure in the universe to them, and they seemed able to reside safely in every part of their minds and hearts. The safety brought out their infinite cuteness, beauty, innocence, gratitude, inspiration, creativity, and even a particular voice that emblematized all of it. It made me like a love-slave with no sense of free will!
+320: Anyway, if we don’t understand that the Twin Flame is an energy that a person can access… if we conflate the person’s egoic flaws that actually annoy us with their deepest, truest, most beautiful self, then we end up playing John Legend on loop like my first wife, Ann, who held me up to this standard, wondering why I didn’t praise her for her imperfections:
+321: Ok, I’m not trying to bash John Legend nor All of Me. It’s one of the most beautiful, most hopeless romantic songs in history. And there’s a part of it which really does apply to what I’m talking about because for your partner to feel truly safe with you, they have to know you accept all of them. But there’s a toxic part there which is that if you just accept everything, you’re a yes man, a doormat, nothing actually special, and you’re inviting them to shit-test you.
+322: This goes back to what I said in “Seeing idealization right:” If you really loved them, more than just wanting to enjoy them or keep them, you’d want to be a good influence on them. That means showing them the infinite appreciation you have for their divine, inner-child-higher self, and holding their hand to gently guide them back to that deeply authentic part of themself when they get off track—if that is where they want to go. Making it clear that that’s why you’re in love with them. Not because they are imperfect, not because you’re crazy and desperate. You accept the imperfect person and help them move toward the part of themselves they chose, because you want to “Make them move with confidence” like the Faker song “Talk is cheap.”
+323: # Two Pillars Don’t Hold The Roof Up
+324: Even if I found my twin flame, she’d still be one person. The polarity could be perfect, but we’d still need other people around us. Maybe an unusually strong couple can get away without much outside support, but I think that’s rare. There's almost always going to be some points in a relationship when understanding between partners breaks down.
+325: Whenever something serious comes up in my relationships, we each run to our own friends for support. Separate/non-mutual confidants can be helpful and harmful. Sometimes you need privacy from your partner and somewhere else to say what you’re feeling (not to mention somewhere else to sleep if it comes to that one night). But if your confidant doesn’t have a good connection with your partner, they’re only hearing your side, usually while you’re upset, and they may just be trying to protect you, so take what they say with a grain of salt.
+326: Then I resent the one-sided story she’s telling, and she resents the one-sided story I’m telling. Some of the friends may even be exes who want us to break up, and eventually neither of us wants to talk to the other’s friends anymore. So then at that point when we actually need the most help, we suddenly become the most isolated.
+327: Ideally, a friend who actually knows us both sees the dysfunctional pattern before either of us does. But having the same confidant creates the opposite problem: now you may not have a release valve when you want privacy from your partner, so neither way is perfect.
+328: And if both people are really falling apart, sometimes there is only so much anyone else can do to help.
+329: I lived all the permutations of this with Bee, except that we never lived in community. I suspect if we had, we might still be together. She would not have been capable of demonizing me when everyone already knew both of us and knew I wasn’t a narcissistic abuser. It would have contained all the insanity. Baseless accusations only work with friends who only know one side.
+330: Commune friends could also have helped her in ways I couldn’t, because she was projecting onto me, which made me the wrong person to help her see beyond the projection. And it’s actually natural to be a bit BPD when your entire survival depends on one person, because if they aren’t perfect, and especially if you need a lot of support, how will you survive? One fairly normal but large flaw in them could make your life really difficult. We were left alone inside something that needed other people around it, and that’s what’s happening to most people these days.
+331: With H., I learned another part of the same dyad problem: not to treat what either of us thought the relationship was as a guarantee of what it would remain, because feelings can and usually do change over time. In our case, the relationship continued to naturally deepen while our outside relationships often felt more shallow, so it was natural for the dependency to increase. She was never into monogamy, but that didn’t stop her from becoming possessive once she found someone really worth keeping. And then she began demonizing me when I refused to be possessed. Because we did not have a shared community capable of supporting us, her friends heard her side and affirmed her truth.
+332: So if you don’t have a real community already, what can you do about it practically, right now?
+333: Make as much community as you can wherever you are, like going to Meetups together and making deep friendships as a couple. Find some shared purpose beyond maintaining the relationship. Introduce your old friends to your partner and try to mutualize those friendships as much as possible, so they aren’t experienced as slyly antagonistic or partial to one side. You don’t need to spend all your time together, but two completely separate social worlds will automatically start taking sides when something goes wrong.
+334: # What are you actually choosing together?
+335: A lot of romantic pain starts with two lovey bunnies entering one of the biggest arrangements of their lives without ever discussing their ideas, dreams, and fears about it.
+336: When we say, “We’re together,” what does that mean exactly? I can hear a whole future in those two words—sex, exclusivity, living together, money, children, caregiving. She might mean, “We really like each other; let’s see what happens.” I actually like letting a relationship flow with some parts left unnamed, but the problem is when we’re using the same words for two different futures.
+337: Sometimes what two people want is a practical partnership: sharing a home, rearing kids and taking care of each other. Many people in the world actually believe sex is part of that practical arrangement, and they don't think romance has to be the basis of all that. There’s nothing inherently wrong with that arrangement if both people know that’s what they’re doing. But I suspect they simply have never been in love, so they don’t have that expectation. And that becomes a problem if they ever do fall for someone.
+338: Another honest option is a romance with humility, even if romance and humility seem to clash. Two people really are in love and want to build something together, and they can choose exclusivity, shack up, have children, and plan a life, as long as nobody pretends they can guarantee what either heart will feel ten years later.
+339: Then the questions change for me: if the romance changes, which parts are still supposed to remain? Are we promising actions (or low-key pretending to promise permanent feelings)? Which needs are we still going to meet outside the relationship?
+340: And the biggie: what happens if one of us falls in love with someone else? Is that, in and of itself, a betrayal, since it's not under our control? If our lives change, can we compassionately sit down and rethink the agreement? And if we split up, what do we still owe each other (and our kids, if we have any)?
+341: These are just a few questions I could think of to start the ball rolling, but be creative and see what you come up with! You can make a card game out of this and have some fun with it. If there’s real love, it will survive a bit of honest curiosity. And again, community can make all of this a lot less scary.
+342: ## Which marriage vows are honest?
+343: Conventional marriage vows are dishonest and inept, and most people know it. You can’t promise how you’ll feel in the future, but you can promise actions if you really believe you’re capable of delivering them. So for example, you could promise to tell the truth, to keep showing up emotionally, to support the children, or whatever else you genuinely believe you can do even if your feelings change. More importantly, though, if you do keep those promises, it's quite likely that your connection will deepen, so it's not like we truly have no control of future feelings, but just not completely, directly or unilaterally.
+344: We also find something like my warning in the New & Old Testaments. Ecclesiastes 5:4–6 says it is better not to make a vow than to make one and fail to keep it, and that if you then tell the priest you didn’t mean what you promised, God will be angry and destroy your work.
+345: Matthew 5:33–37 and James 5:12 make the wedding vow itself look even more suspicious (to me, anyway): let your “Yes” be “Yes” and your “No” be “No,” and anything beyond that comes from evil.
+346: Where did the idea of promising to have romantic interest in your partner come from, anyway? It turns out it never existed in any culture I’m aware of until the 19th century, when people in England began citing romance as their reason for marriage. That trend has continued evolving like a snowball until today. But what our ancestors knew was not wrong: You can sign a contract about what you’ll do, but feelings aren’t contractual.
+347: ### Attraction and exclusivity
+348: It’s hard to find sexually monogamous animals; have you ever looked? And as it turns out, we humans aren’t a natural exception to the rule, either. Plenty of tribal cultures were (and some still are) much looser about this, while still generally retaining the primary-partner “social monogamy.” Sexclusivity started gaining sway around the time we started planting crops and owning land. That’s when it made sense to keep track of how to keep our land in the family bloodline.
+349: Ironically, sexclusivity, which we treat as the basis of romance, started out as that kind of bureaucratic record-keeping. By the 17th century, when England began mass urbanization by forcing peasants off their land, it became the legal definition of marriage. As for what comes naturally to us underneath that law, I’m not trying to say we’re just like bonobos, but the academic consensus is that humans tend toward flexible pair-bonding, with a propensity for occasional infidelity.
+350: ### Jealousy on trial
+351: These days, even the brief inkling of attraction to another person becomes almost a sure sign that sexual infidelity is next. That’s why I felt I had no choice but to address the issue head on when B. wanted to marry me. I told her, “I can’t fully commit to you if I’m still attracted to other women, so before I do, let’s see if I can fix that.”
+352: I meditated for a while and surprised my own self to find something like a switch in my mind. It felt like evolutionary programming around whether I had found my life mate and true love. I asked myself, “Is she the one?”
+353: The inner Magic 8 Ball came back YES, and I flipped off the mate-finding switch.
+354: It worked about 99% of the time. I was no longer interested in other women, aside from one extremely beautiful girl who grabbed my attention once.
+355: That amazed me, although B. never quite believed the switch was real. She even started hallucinating that I was looking at or talking to other women when I wasn’t. So her jealousy wasn't about what I was doing then and there. More likely it was insecure attachment from childhood trying to justify its continued existence.
+356: Jealousy is always insecurity, but sometimes that insecurity can be an important indicator that the relationship actually is not secure, rather than just a remembered script from childhood. Although, either way, it can become a self-fulfilling prophecy.
+357: Instead of stewing in jealousy and throwing out microaggressions now and then, speak your heart without hiding the insecurity behind anger, as in the above video I found on IG. In a monogamous relationship, you might say:
+358: “I notice you pay attention to this other girl more than me, and it makes me feel unloved and insecure. Can we talk about it? Do you really want to explore things with her? If so that’s fine, but don’t make the decision lightly, because it’s irreversible.”
+359: Maybe he really is neglecting you or wanting to be with someone else. Maybe the “attention” was one glance and your baseline insecurity inflated it into a threat that it wasn’t. That part should not be projected onto your partner. Every couple has to work out for themselves what actually feels healthy.
+360: I do believe two people can choose sexual exclusivity honestly. They can admit that attraction to other people exists and decide not to act on it each day. And even better than simply suppressing it, they can put it to work. I agree with Esther Perel, who writes that this sexual energy felt outside the relationship can be used and redirected into the relationship to make it more alive.
+361: Imagine if you and your partner both saw those outside attractions as beneficial energy sources rather than a threat to your relationship. It sure would beat beating around the bush because of fear and jealousy. You can start playing around with opening up about the minor, momentary attractions, rather than wait in hiding until a serious crush is dramatically confessed.
+362: Lots of couples promise forever to each other and nobody else. Look around at how many actually live that way. On the other hand, in a polyamorous relationship, the boundaries might be more negotiable, but then somebody has to sit down and negotiate them, down to who gets to stay the night. That can end up sometimes creating more drama than it's worth.
+363: Polyamory can also be a way of escaping deeper intimacy, like the college friend with four girlfriends I mentioned earlier. Or it can be a way of escaping guilt, like when someone keeps cheating until they finally "come out of the closet" as poly, as if that solves their prior dishonesty. But they are right to finally come clean and hopefully avoid that dishonesty in future.
+364: # Doing it consciously 🧭
+365: I learned most of this by screwing it up. Some of it I just thought through, and I'm still not sure about all of it.
+366: ## Imagination as a discernment tool
+367: We all fantasize about a new exciting person we just met, right? The useful thing about the fantasy is that it shows me what I want. But I usually make the mistake of playing out just the first part of the fantasy. So I might start with the regular lovey sexy stuff, and that’s fine because that’s what’s drawing me in. Then after that, when I have a bit of wisdom available, I continue onto the mundane and difficult scenes. I’m not trying to force anything or oppose anything. I just try to open my eyes when they want to close, ignore, look away. Here’s my checklist:
+368: - What’s it feel like after we have sex? Do we feel comfortable and happy about that, or do we feel guilty that we gave in to temptation too quickly and now there’s some weird feelings? Name the feelings and explore.
+369: - How about a week into the relationship? What’s starting to get annoying perhaps? What are we trying not to say and not to notice?
+370: - Get in the ring before the ring gets on you. Let’s imagine we have a real fight about money, jealousy, or something else important. What do we do to handle the conflict?
+371: - Fast forward. Now we’ve got kids. What might be the values conflicts in how we raise them? Schools, screen time, vaxxes, religion, helicoptering vs freedom, food, gender & sexual orientation issues.
+372: - Rewind: what if we disagree on having kids?
+373: - Fast forward five years: what has each of us gained or given up, and do we have any resentment about it?
+374: This isn’t to make predictions and we’re not consulting the magic 8 ball nor doing Istikhara rituals here. I mean you can do that too if you want. Distinguish between fears and what really seems likely just as you do between wishes and reality.
+375: If every scene is beautiful, consider that you may be, and almost certainly are, still rehearsing the relationship you want. There’s nothing wrong with expecting the best, but it takes work to get there in a wise way.
+376: And if psychedelics are involved, every scene can look even more beautiful, which makes this same problem of idealization much stronger.
+377: ## Psychedelic Timing
+378: This section will be relevant to some readers and easy for others to skip.
+379: I’m putting the warning before anything good I say about psychedelics for relationships, because people need to hear it before they take anything. I don’t think sexual consent should be negotiated for the first time while high, when the drug is changing how safe, loving, open, and connected everything feels. And even if the two of you plan it all in advance, getting high and starting a relationship is still a risk.
+380: Starting a relationship through psychedelics has another danger. Key and I met and then spent a few days taking iboga with friends. We got to know each other very deeply that way, and that was great. But it was especially her higher self I was getting to know. I tend to idealize people even sober, and that gets worse when I’m high. It was still beautiful to see the real higher self potential in her, I’m not denying that. But that information didn’t help me understand how we would get along in normal life.
+381: I’ve also had friends get together at MDMA parties and stuff. It’s rarely a good idea. The intimacy can be completely real without telling you whether the two of you actually work together sober. Or you might even sometimes have the opposite problem, like I had with H., where the connection continues to deepen while sober, and it becomes something that one person might cling to desperately, never imagining they could find that again.
+382: The obvious advice is to wait before making large promises and spend time together sober, around other people, and in ordinary situations. Write down what each of you learned, do some peer counseling, check with friends to see if you’re too pie-in-the-sky. But the problem is, you won’t necessarily be interested in sober advice when you’re high. You’re “beyond all that.” And the high can continue after sobriety because intimacy itself is like rose-colored glasses.
+383: ### Returning to the heart to get unstuck
+384: Psychedelics, especially certain types of shrooms, very pure LSD, very pure therapeutic-grade MDMA, ayahuasca, loveyhuasca haoma, and iboga, can be extremely useful when a couple is trapped in defensive stories.
+385: With Bee and Key, there were many times when we could argue forever sober, then take something and finally understand each other. It could feel like we were telepathically synced. Instead of each person defending their version, we directly understood what the other was perceiving, feeling, misunderstanding.
+386: But the problem is most people are lazy about integrating what they learn during this window of clarity. We enjoyed the understanding while it lasted, and then the same defensive story would resurface later. In neuroscience, this is called state-dependent learning. What you learn in altered states doesn’t automatically translate into your normal sober mind state without the work to do that.
+387: ### Measuring the benefits
+388: Probably one of the most important benefits we can hope to get long term from any therapy is the ability to express what we feel in a non-combative way. Otherwise, people tend to ping pong between not expressing or downplaying their feelings and expressing them combatively. MDMA can make this temporarily much easier because all the problems can look so small and silly. The question is what happens when you’re sober again.
+389: So I would say the therapy worked if a week or two later, you and your partner can comfortably say, “Honey, I’m feeling unappreciated right now. I know you’re not trying to make me feel that way, and maybe you feel like I’m making you feel that way, but I’d like us to take some time soon to discuss the issue beneath this in a kinder way. What do you say?”
+390: If you don’t have a partner, you can do the same thing with whoever you tend to have trouble relating with, in a less lovey way but still with compassion.
+391: It’s not always possible in that moment to change a defensive posture into non-defensive loving communication. That’s why I suggest setting a time soon with a nice intention, like a ritual. Sober is fine. You can put some rose petals around you or something to build the feeling, or play some song you both like.
+392: ## Why all of this sounds artificial
+393: By now you’re probably thinking all of this sounds terribly artificial: is anyone actually going to do scheduled check-ins, delayed cohabitation, conversations about hypothetical disasters, imagination exercises, not to mention resisting the heat-of-the-moment stuff and continuing your own reparenting practices when a warm body is available to do some of the soothing?
+394: Well, yeah, it is painfully artificial, because in a healthy communal society, the couple would have access to witnesses, elders, friends, and other emotional outlets and resources. Most of us these days don’t have that, so we’re trying to recreate consciously and clumsily some of what the wider field would have done without a checklist.
+395: # If you’re already in it
+396: Most of this article is about what to do before jumping head first into head over shoulders. But if you’re already married with children, advice about slowing down arrives a little late.
+397: I wish I had a special method for fixing that. Mostly I learned the obvious thing the hard way: one person can’t fix the relationship (unless they’re the main problem in it).
+398: With Bee and Key, the biggest thing sitting underneath everything was trust. They wanted to be with me and would say they trusted me, but really they didn’t trust me, themself, or anyone else. It was all or nothing: blind trust, or none. I kept saying, “It’s not possible to have a relationship without trust.” I think that rigidity came from trauma and never really growing up.
+399: Even dishonesty was sometimes hard for me to define in these relationships. Bee once opened a door and, a second later, said she hadn’t opened it. That drove me crazy, because why would she lie like that? On the other hand, although she was technically lying, there was no strategy behind it, and she was usually quite honest. Non-strategic lying is literally defined as "pathological lying," so I should have seen it more like an illness than a failure of virtue.
+400: Some things were less mysterious: they were acting as if the trust problem wasn’t there because they still wanted the relationship. Attractions to other people sometimes went unsaid too, and sometimes got imagined from nowhere. Some people keep a relationship like this going for a long time, just sweeping everything under the rug.
+401: On the other hand, sometimes I was more honest than my partner could handle, which was its own kind of damage. Ask whether both of you actually want to prioritize radical honesty, first. But the other person also can’t keep saying “not now” forever and think that’s going to save the relationship.
+402: If the two of you are stuck in that “not now,” that’s when you need agape the most, because the best thing for both of you may not be holding onto the relationship pattern you originally committed to or dreamt of.
+403: When did you two last dance? And not the “we dance around our problems” joke (LOL).. If that’s where things are at, ouch, the trust is out the window. I know that one from experience with my first 2 wives and K, too. That generally marks the point of no return, so try not to wait for that. Because once you’re there, as my dad explained a thousand times whenever we had a visitor, unconscious resentment begins to snowball, and we feel colder together than alone. Pretty soon, old Romeo & Juliette might get wandering eye syndrome.
+404: ## Outside help can sometimes break the loop fast
+405: Bee and I were once desperately misunderstanding each other, so we called my friend Eshwar, the only friend of mine whom she respected. He told a related story about something that had happened with his sister. Somehow, Bee immediately understood what I had been trying to say. It was like magic.
+406: So, don’t think of outside help as a formal last resort. I think of it as a part of building community when we learn to rely on each other for this kind of intimate, real-life support. It could be calling up a mutual friend, peer counselor, couples therapist, doing Imago dialogue, Restorative Circle, and/or joining a men’s or women’s group. The key is that both people need to respect the person or process enough to hear something new.
+407: What they say is also partly true: “The only one you can change is yourself.” Not fully true, because we do have influence, and changing ourself does ripple out. Restart whatever you stopped doing because the relationship was soothing you: inner-child reparenting, meditation, body practices, peer counseling.
+408: ## What will honesty produce?
+409: Many people ask this question of honesty, but it’s unfair. Honesty doesn’t produce a certain outcome. It is its own reward. It might repair the relationship, open it, turn the romance into friendship, preserve the family through separation, or show you that ending it is better. Of course, if the other person won’t look at the truth, you can’t make honesty a mutual value. Then you have to decide what you can live with. Temporary separation helped Bee and I, although it became less temporary as time went on, but I’ve always thought maybe we would get back together in a few decades.
+410: # Children
+411: I think everyone generally agrees that parents have more responsibility to children than they do to each other, since children can’t take care of themselves.
+412: Before having or adopting children, sit down for an imagination session to figure out whether you two lovebirds can preserve some civil co-parenting capacity after a terrible breakup. That’s the actual long-term commitment.
+413: When it comes to stepchildren, even if they aren’t technically your children, they still become attached. If you’ve been acting as their parent for years, it’s not right to vanish from their life just because the marriage ended. You don’t have legal parental rights, but you can stay a mentor or close friend, and hopefully your partner would agree with this. When children have parental figures come and go, it can damage their ability to have securely attached relationships as adults.
+414: It’s standard advice to never recruit children into the adult war. They get their own relationship with the other parent. However, this was particularly difficult during my first marriage, because Ann was very much unfit at the time to care for our son, Bear. I did fight for custody, but, as my lawyer told me, there was no point, because men generally lose. Eventually I exhausted my options for fighting, and I was left with weekly supervised visits.
+415: Ann was brainwashing Bear into believing that I was “breaking his bones” at these visits even though he didn’t know what bones were. That’s when I told him I had to stop the visits before I end up in jail. So it was for my protection, but his as well, because if he realizes one day his dad is in jail because his mom manipulated him into telling a dangerous story, that could really wreck him.
+416: As it is now, he may miss me, but he is well cared for (I think) by his grandmother, and probably soon he’ll seek me out when he gets his own phone.
+417: I know I sound like a broken record, like my dad, but still: It takes a village. The nuclear family, built on parents’ romance, can often be the worst arrangement for children. If there’s trouble in paradise, parents will try to protect the kids by hiding their tension. But the truth is, children absorb that unresolved tension and integrate it into their very being. In a community, romance is one bond among several, and adult stability for children doesn’t rise and fall with it.
+418: # Ending consciously
+419: Before you think about how to leave, settle whether you’re leaving, and whether counseling is worth trying first.
+420: You don’t owe it to them to try counseling unless you also owe it to yourself. If you actually don’t want a good relationship with them anymore, go. No amount of counseling will fix something that has nothing at the base of it.
+421: If you love them and wish it could work, ask if they feel the same, and then go to counseling. On the other hand, even when you love each other, sometimes you already know the issue is beyond what counseling could fix.
+422: ### Gaslighting in the dark
+423: Do you have irreconcilable memories of key events? I did with both my first and second wives. I took my first wife, Ann, to two counselors. The male counselor eventually told us, “I’ve never told anyone this, but you guys need to split up for at least six months.”
+424: There’s no way to resolve a situation where one person remembers that you ruined her life on purpose, while you remember that she was having a manic episode and had to be committed for her own safety. We also didn’t have mutual friends who could corroborate what happened—only friends on each side who were partial.
+425: Many say it’s best to save face and work things out privately, but I’d disagree. If you don’t have friends who can help with the conflict, then you’re really stuck (and you might wanna find some new friends). And when you do ask friends for help, do it fairly, with the goal of resolving the conflict, not just getting approval for your own interpretation: both people should get a chance to speak, and good friends should hear both sides before validating either.
+426: I can believe a friend’s experience and still tell them that my ability to know what is really going on is extremely limited. If someone says, “I don’t have all the evidence,” I trust their thinking more. Living in community would help because your friends would not only hear two stories afterward. Sometimes they would actually see how the two of you treat each other when you argue.
+427: If you’ve been there for someone, don’t abandon them in a crisis unless it’s unsafe for you to stay or they’re creating the crisis to keep you, or they aren’t willing to help themself. You may need to arrange other care, but that’s no reason to pretend the romance still has a future.
+428: ## After leaving
+429: Often times the breakup is hard, but the aftermath is worse. Public demonization should be avoided, but I don’t think that means hiding the truth about the relationship to save face. Sometimes, the truth is that you were abused, coerced, or seriously deceived. So how much you say, and to whom, really depends on what happened and why you’re telling people.
+430: Once you’re out, you can see things you genuinely couldn’t see while you were bonded. Look at what you contributed to how things turned out. And don’t paint your ex as a cartoon villain: try to understand whatever was true in their perspective too, including the conflicts they were carrying inside themselves.
+431: Sometimes the easiest story is that they were fake all along, because it explains everything. Grab it only if it really is the simplest explanation of what happened, and even the curiosity about that can be therapeutic for you. People who aren’t heavily invested in seeing your innocence can help you tell, and a therapist, pastor, or even a stranger may see the evidence more clearly than a lifelong friend.
+432: Spiritual practice during an ending is critical, but don’t use it to get around the feelings. Pray for your ex’s wellbeing. Remember what was real and good, and don’t use your pain as permission to hate them. Avoid the New Age belief that everyone is simply a mirror of you. Of course, we do partly mirror one another, but each person was formed by plenty that had nothing to do with you. No matter how enlightened the Buddha was, his cousin Devadatta still kept trying to kill him: looking honestly at your part doesn’t erase theirs. Sometimes it helps to ask, “What would Mr. Rogers do?” (if you’re old enough to remember that show).
+433: I also learned that public demonization doesn’t always have to be the last chapter, even if things ended on that bitter note. If you avoid contact forever, they might never apologize and learn honesty. But it can help to keep distance for a while until cooler heads prevail. On the other hand, it can be tempting to let them back into your life after a private apology, and especially after a public one, but keep in mind you deserve a stable love. You’re not a yo-yo.
+434: ## What I gained from loss
+435: At this point, I can say I’m better off because of what happened with Bee, Key, and H., without pretending every part of those relationships was beneficial or destined. Loss taught me things love alone never would, or to paraphrase Rumi, “You must keep breaking your heart until it stays open.” (The real quote: “The reed must be torn from its bed, cut, hollowed out, and pierced with holes (wounded) before it can channel the breath of the musician into music.”)
+436: From Bee, I learned what it means for me to be really in love. I learned the kind of woman I actually want: deeply spiritual, sensitive, creative, unique, somebody who inspires me and makes me question everything.
+437: Key repeated a lot of that, which is why I fell in love with her. I learned some of the same harsh lessons from both of them: don’t take openness and curiosity to be fully good. They can also indicate that someone hasn’t developed their own sense of self or opinions, or enough inner adult.
+438: From H., I learned that I can be extremely close to someone and feel completely understood and supported without actually falling in love. I still treasure the support we gave/give each other.
+439: Too many people judge a relationship only by whether they stayed together. Relationships are a process of growth in many dimensions, so start measuring what you actually learned from yours.
+440: # Tough Love
+441: Romantic love is not easy, and the things that actually make it work are not very marketable. I can’t sell you the fix with one click or one monthly subscription to my love class. (Just kidding, click here!)
+442: A passionate romantic relationship that’s also stable is rare, and that’s probably why romantic love has been seen with suspicion as a destabilizing force throughout history. One of the best books that makes that point today might be the one I was reading with Key: The Spirit of Intimacy, by Sobonfu Somé. Somé came from the Dagara tribe in Burkina Faso. To her people, marriage is an arranged, ritualized spiritual and communal responsibility, and they’re suspicious of romance. But one of her ideas fits what I’m trying to say: the relationship is bigger and more important than the egos in it. She calls it the spirit of the relationship.
+443: That spirit is like the universe living its desire to know itself through us, which might be why we see ourselves in ways we couldn’t imagine before. Nobody can command the spirit to remain. At our best, we serve it and listen for what Spirit wants to change. When we start thinking we own it or deserve it, that presumptuousness tends to push it away.
+444: My parents agreed with Somé that community matters and that we serve Spirit. They were also not romantic, though they were loving and poly. I actually wished they were in love with each other, I guess, although I couldn’t have articulated that since I didn’t even have that concept at the time. And like Somé, who saw everyone as naturally good in their natural environment, flowing with life the way our ancestors showed us, they trusted the universe, rose-colored glasses and all, and taught me that everybody was basically good. So I learned something about love and community, but not how hard romance is without a community around it, or how much damage basically good people can do when their fears, trauma, and undeveloped parts take over.
+445: It took me many decades to figure out what probably everyone else already knows: real private pathology exists. But pathology festers when the environment is perfect for it. The dominant culture hermetically seals two people together and calls that a luxurious privacy. It tells them that sealed room should provide all the fresh air you’d get from a lover, family, community, therapist, and so on. Then it treats the predictable failure as privately caused as well, like mold that grows out of nowhere.
+446: The myths around romantic love become real because we co-create them. We act as though jealousy proves love, permanent feelings can be promised, conflict should stay hidden, and the relationship failed if it ended. Then we suffer inside ideas that were never natural laws, and we walk blindly into our first, second, third, fourth, and fifth marriages!
+447: It might be that I wrote this whole article for my son, Bear, who sadly, I last saw when he was about five, right before he was supposed to get the Rosenblum sex talk.
+448: Bear, sex can be what you do when you’re older and find a friend you love in a super special way that makes you want to raise children together. Don’t imagine you love each other just because you want each other. Don’t feel pressure to promise what your heart will feel. Let the love and bond it produces blossom genuinely as your hearts sync. Learn about each other before getting too close, and make sure to keep friends and community around who know both of you.
+449: I believe Rumi was right: A sacred relationship will open and purify your hearts regardless of whether it ends.

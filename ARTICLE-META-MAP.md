@@ -27,7 +27,7 @@ flowchart LR
     somatic -->|"built on: its changes carry over"| hypnosis
 ```
 
-An arrow means the post it points to is built on the other (`articles/BUILT-ON.json` holds the sections and when each was last brought in line): a change to the source goes into the post built on it, through that post's own humanization rules, or to Joel, in the same turn (`docs/FIXING-AN-ARTICLE.md`, section 1, item 6). His Hearthwork guide is built on the Inner Child guide too; it isn't registered here yet, so it has no box.
+An arrow means the post it points to is built on the other (`articles/BUILT-ON.json` holds the sections and when each was last brought in line): a change to the source goes into the post built on it, through that post's own humanization rules, or to Joel, in the same turn (`docs/FIXING-AN-ARTICLE.md`, section 1, item 6). His Hearthwork guide is built on the Inner Child guide too; it isn't registered here yet, so it has no box. His couples card game "Love, Honestly" is built on the Romance guide (Joel, 2026-11-24 16:23 UTC: "update it based on anything it's missing from the article"); it is an app in its own repository, not a post, so it has no box either, and its cards carry over by its own rule (his approval of each card, then a new version).
 
 Romance and Somatic Therapies are registered working articles. No direct cross-article edge between them is currently established. Add relationship edges only when a real and useful editorial relationship is confirmed; do not infer one from generic topic overlap.
 

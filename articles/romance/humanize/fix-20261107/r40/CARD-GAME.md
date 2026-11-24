@@ -10,7 +10,7 @@ we could combine it with the AI interactive guide in a claude artifact?"
   his innerself site on the Netcup VPS, whose canonical address is https://innerself.love/love-honestly/.
 - It is "Love, Honestly" v0.5.4: one self-contained page (no network requests; progress kept only in the player's
   browser), 87 cards and 8 special cards in 15 categories, each card naming the article section it comes from.
-- Its source: the private repository u-dont-existDOTcom/love-honestly (`public/index.html`, SHA-256 0bf9d9d2…), which
+- Its source: the private repository u-dont-existDOTcom/love-honestly ([the app file](https://github.com/u-dont-existDOTcom/love-honestly/blob/main/public/index.html), SHA-256 0bf9d9d2…), which
   serves as preserved source; production is the `/love-honestly/` route of u-dont-existDOTcom/innerself. Its rules: the
   app file isn't edited in place; a new version needs his OK, a new version number and checksum, and a deploy he
   authorizes.
@@ -75,7 +75,8 @@ card is in the deck's form (prompt, follow-up, and the "why" the game shows unde
   "Romance Shouldn't Be Adjudicated" warns that once a role has to be proven, something has already become fake. Its
   source: "Romance Shouldn't Be Adjudicated".
 
-## Second batch, for his approval (2026-11-24)
+## Second batch: approved (his message of 2026-11-24 21:31 UTC: "looks all good, i assume you are making sure they are
+only used when relevant right, not every card relevant at every stage for ppl... that's already part of the game")
 
 The deck already covers many of the sections it doesn't name (jealousy at a gathering, fawning, irreconcilable memories,
 the tiny household habit, alone time, integration after altered states, the sober ritual, the twin flame idea). These
@@ -140,8 +141,87 @@ twelve cover what it doesn't, his clarifications of this week included.
     year? *Why:* The guide says a passionate romantic relationship that's also stable is rare, which is probably why
     romantic love has been distrusted as a destabilizing force throughout history.
 
-## Then
+## The next version, built for him to try (2026-11-24, after his message of 21:31 UTC)
 
-With his word on the second batch, the game's next version (the 87 cards, these 17 new ones and the three corrections) is
-built as a new file with its own version number and checksum, checked, and deployed to the innerself site only with his
-OK.
+"Love, Honestly" v0.6.0, a candidate: [the pull request in his love-honestly repository](https://github.com/u-dont-existDOTcom/love-honestly/pull/2), a draft that is merged
+only when he approves the version, and [its change list](https://github.com/u-dont-existDOTcom/love-honestly/blob/claude/v0.6.0-article-update/versions/v0.6.0/CHANGES.md) with every card, correction and reason. The file went to
+him in chat to open in a browser (the same bytes as [the app file on the pull request's branch](https://github.com/u-dont-existDOTcom/love-honestly/blob/claude/v0.6.0-article-update/public/index.html), SHA-256 441a4cc9...). Nothing on his site changed.
+
+### His question: is each card only dealt where it is relevant?
+
+Yes, and it was already how the game works. A card is dealt only when the chosen route is one of the card's routes, its
+depth is at or below the couple's "How deep?" choice, and its topic is ticked. Each new card got its routes and a depth:
+
+| Card | Topic | Depth | Routes |
+|---|---|---|---|
+| Testing each other | Attraction & Polarity | Deep | Building a life, Honest reset, Full journey |
+| Posturing or you? | Attraction & Polarity | Deep | all four |
+| The relaxed kind of confidence | Attraction & Polarity | Warm | all four |
+| Irreplaceable, not competing | Love & Wanting | Deep | Building a life, Honest reset, Full journey |
+| Engine and steering wheel | Attraction & Polarity | Warm | Building a life, Honest reset, Full journey |
+| The undefined thing | Seeing Clearly | Deep | Getting closer, Honest reset, Full journey |
+| Before "partner" | Seeing Clearly | Warm | all four |
+| What you already knew | Seeing Clearly | Deep | all four |
+| When the window closes | Seeing Clearly | Deep | Getting closer, Full journey |
+| Why me? | Love & Wanting | Unfiltered | Building a life, Honest reset, Full journey |
+| Swallow it or throw it | Conflict & Repair | Deep | all four |
+| What honesty might open | What Remains | Unfiltered | Honest reset, Full journey |
+| The switch | Trust & Jealousy | Unfiltered | Building a life, Honest reset, Full journey |
+| Toward love, or around it? | Trust & Jealousy | Unfiltered | all four |
+| A promise doing closeness's job | Promises & Change | Deep | all four |
+| Basically good people | Inner Child & Growth | Deep | all four |
+| Passionate and stable | Love & Wanting | Deep | Building a life, Honest reset, Full journey |
+
+- Left off "Getting closer": the cards that assume a history together (testing each other, feeling irreplaceable, who
+  brings the spark, "Why are you with each other", the switch "since choosing each other", passionate and stable).
+- "When the window closes" is about a new person: "Getting closer" and the full journey only. "What honesty might open"
+  sits with the other "What Remains" cards: "Honest reset" and the full journey.
+- Five of the 17 are in topics that begin unticked, as the game already had it: the four "Attraction & Polarity" cards
+  (an optional topic; the guide itself says that section can be skipped) and "What honesty might open" ("What Remains").
+- Checked on the built file: in 28,800 dealt games (every route, depth, length, with the usual topics and with all) no
+  card appeared off its route, above the chosen depth or from an unticked topic, and each new card appeared on every
+  route and depth it belongs to and nowhere else.
+
+### What changed beyond the 17 cards
+
+- Six "why" lines were reworded after his approval, because the approved form called the author "he" and the deck names
+  nobody (it says "the guide"): love-03, "What you already knew", "When the window closes", "The switch", "Toward love, or
+  around it?", "Basically good people". The approved and the final form of each are in the change list.
+- A fresh reader (Sonnet) read all 95 existing cards against the article as it is now ([its findings](../r42/game-audit/AUDIT.json), [the round's record](../r42/README.md)): 11 findings.
+  Two "why" lines said things the article doesn't say and were rewritten from what it does say: the pink-elephant card
+  ("The article recommends starting with the largest unspoken issue...") and the slow-reply card ("...small response
+  delays can activate much younger parts of the mind..."). Fifteen cards named a section by a title the article no
+  longer has (six of them "Are you ready for the crucible?"); they now name the current section. Eight of the fifteen
+  are the reader's findings; seven came from comparing every card's section names with the article's headings.
+- No existing question or follow-up changed. Styles, markup, the engine and the interface are byte for byte v0.5.4, and a
+  game saved under v0.5.4 still opens.
+
+### His thought: a control for how deep people want to go
+
+The game has it: "How deep?" on the setup screen, three steps (Warm, Deep, Unfiltered), Deep preset. Its weak spots:
+
+- The steps aren't explained anywhere, and a card doesn't show its step.
+- Warm has almost nothing in it: 6 of the 87 cards, 9 of the 104 now (7 with the usual topics; 5 on "Getting closer"). A
+  Warm game is nearly the same every time.
+- The choice is made before any card is seen. During a game the only ways out of a hard card are to skip it, pause, or
+  finish early.
+
+### Ideas put to him (2026-11-24)
+
+1. A batch of Warm cards from the guide's gentler parts, for his approval, and a line under "How deep?" saying what each
+   step means.
+2. "A lighter one instead" beside "Skip this card": swaps the card for a Warm one on the same topic.
+3. Remember, on the phone only, which cards a couple has played, so the next game brings new ones first.
+4. A shared code so two phones deal the same game, for long-distance couples (the deal already comes from a seed, so no
+   server is needed).
+5. A route for one person: readers who are single, or whose partner won't play.
+6. A plain-words pass on the older cards, which are longer and more abstract than the new ones.
+
+### Still to do, each with his word
+
+1. His OK on the version (or his changes to it); then the pull request is merged.
+2. The innerself site vendors the new file (a new folder beside v0.5.4, its checksum and path, `npm test`). Tried in a
+   scratch copy on 2026-11-24: the site's build and test passed, and the built page without the site's two inserted
+   blocks was the new file byte for byte.
+3. The site is deployed through Coolify with his go-ahead, and the live page is compared with the build.
+4. Not run: the love-honestly repository's container gate, which needs Docker (none in the workspace).
