@@ -1,0 +1,86 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-24",
+ "text_sha256": "76d573278b13106bdbe5683ff1aa9e2fe30375e9d5d3f02563a8a0d4f4ea78d6",
+ "text": "With MDMA, I treat meaningful jaw tension as the earliest warning that the body needs more magnesium. Nobody has tested this in a trial that I know of, so it's from what I've seen again and again: everyone I know who took enough magnesium chloride for the jaw tension to fully release avoided the other complications I've seen in people who let the tension keep going.",
+ "section": "MDMA: Magnesium Alarm",
+ "reader": "a friend at a festival with someone who took MDMA a few hours ago, whose jaw has started to clench and grind, with magnesium chloride flakes in their bag, reading what to do",
+ "sentences": [
+  {
+   "s": "With MDMA, I treat meaningful jaw tension as the earliest warning that the body needs more magnesium.",
+   "payoff": "they read a clenching jaw as the body asking for magnesium",
+   "follows": "the heading, MDMA: Magnesium Alarm"
+  },
+  {
+   "s": "Nobody has tested this in a trial that I know of, so it's from what I've seen again and again: everyone I know who took enough magnesium chloride for the jaw tension to fully release avoided the other complications I've seen in people who let the tension keep going.",
+   "payoff": "they know the alarm rests on what the writer has seen, and what it spared people",
+   "follows": "the warning just said",
+   "link": "Nobody has tested this"
+  }
+ ],
+ "checked": [
+  {
+   "point": "meaningful jaw tension on MDMA is the earliest warning the body needs more magnesium; from field experience, not a trial; everyone who took enough for the jaw to release avoided the other complications",
+   "found": "his post as of 2026-11-03 (original.md), the paragraph as it stood in the guide before this turn: \"With MDMA, I treat meaningful jaw tension as the earliest warning ... This comes from repeated field experience rather than a direct clinical trial. Everyone I know who has taken enough magnesium chloride to make the jaw tension fully release has avoided the other complications I have seen\"",
+   "still_needed": "yes: they read the jaw tension as the alarm, knowing what it rests on",
+   "fate": "kept"
+  }
+ ],
+ "placement": "the first paragraph of MDMA: Magnesium Alarm (B114), right under its heading",
+ "opens": {
+  "first_sentence": "With MDMA, I treat meaningful jaw tension as the earliest warning that the body needs more magnesium.",
+  "why_reading": "it tells the friend what a clenching jaw on MDMA means: the body needs more magnesium"
+ },
+ "same_point": "none: read the section from its heading to the next; magnesium's amounts are said once, here, and step 6 of the serotonin steps points to them; overheating and the electrolytes are said in his paragraph on what to do and in the kidney paragraph, each for its own reader",
+ "needed": {
+  "reader": "a fresh agent (Sonnet) given tools/humanization/needed_read_brief.md (reads/need-a1-sec.txt), on version one of the whole section",
+  "unneeded": [],
+  "kept": {}
+ },
+ "his_fixes": {
+  "reader": "a fresh agent (Sonnet) given tools/humanization/his_fixes_brief.md, its twenty-eight ways (reads/his-a1-sec.txt), on version one of the whole section",
+  "marked": [
+   {
+    "s": "With MDMA, I treat meaningful jaw tension as the earliest warning that the body needs more magnesium.",
+    "difference": "4"
+   }
+  ],
+  "kept": {
+   "With MDMA, I treat meaningful jaw tension as the earliest warning that the body needs more magnesium.": "kept in version two: the mark is answered in the sentences around it, or the words carry a dose, an event or a warning of his post that stays word for word"
+  }
+ },
+ "fit": {
+  "reader": "a fresh agent (Sonnet) given tools/humanization/fit_read_brief.md (reads/fit-a1-sec.txt), on version one of the whole section",
+  "marked": [
+   {
+    "s": "With MDMA, I treat meaningful jaw tension as the earliest warning that the body needs more magnesium.",
+    "found": "ANYWAY, CAN'T TELL"
+   }
+  ],
+  "kept": {
+   "With MDMA, I treat meaningful jaw tension as the earliest warning that the body needs more magnesium.": "kept in version two: the mark is answered in the sentences around it, or the words carry a dose, an event or a warning of his post that stays word for word"
+  }
+ },
+ "questions": {
+  "Q1": "PASS: each sentence opens on why it is there",
+  "Q2": "PASS: what the writer does and what the friend should do are said as acts",
+  "Q3": "PASS: the amounts, and what changes them",
+  "Q4": "PASS: terms come with their plain words (rhabdomyolysis, the muscle breakdown)",
+  "Q5": "PASS: each sentence ties to the one before at its start",
+  "Q6": "PASS: the alarm, the amounts, the trade, the wider emergency, then the kidney care",
+  "Q7": "PASS: every fact is the post's or a source's, and the doses are word for word",
+  "Q8": "PASS: one point a sentence",
+  "Q9": "PASS: the payoff first"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

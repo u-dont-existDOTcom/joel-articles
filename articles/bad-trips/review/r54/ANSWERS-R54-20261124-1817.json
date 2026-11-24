@@ -1,0 +1,36 @@
+{
+ "format": "joel-suggestion-review-answers-v1",
+ "review_id": "bad-trips-r54",
+ "title": "Bad Trips Guide, Round 54",
+ "git_file": "articles/bad-trips/review/r54/REVIEW-R54.html",
+ "article": {
+  "file": "articles/bad-trips/review/r54/PAGE-R54.md",
+  "sha256": "395f2030de5f5732b87319f5516dac8104b2225a5ada287e813487bc32be9061"
+ },
+ "built": "2026-11-24",
+ "generator": "suggestion_review.py 1.13 (2026-11-23)",
+ "exported_at": "2026-11-24T18:17:42.367Z",
+ "counts": {
+  "approved": 0,
+  "rejected": 0,
+  "revise": 0,
+  "pending": 1
+ },
+ "items": [
+  {
+   "id": "POTASSIUM-DRAIN",
+   "type": "question",
+   "title": "1. Your step 6: the second half of your potassium note",
+   "where": "Act Now on SS, P6",
+   "advice": "ask",
+   "status": "answered",
+   "question": "You wrote: \"with high potassium they are more likely to have vomiting and diarrhea (which then causes hypokalemia as it removes potassium)\". Step 6 said that as \"High potassium also brings on vomiting and diarrhea, which then drain it again, so if those start, I'd stop the chips\", and that sentence was the step's Medium window.\nWhat the three fresh readers found, each in the same place: the draining says the friend is losing potassium, which reads as a reason to give more chips, not to stop them. So the line now says the act first and leaves the draining out: \"So if they start vomiting or get diarrhea, I'd stop the chips, since too much potassium brings those on and the chips have to stop either way while they're being sick.\" The step reads Human High in one window that way.\na) Leave it out, since the step already says potassium can be running high as well as low.\nb) Put it back, in your words in the box, and I'll check it before it goes in.\nc) Say it where the swing is, in the sentence before.",
+   "your_version": "",
+   "comment": "a",
+   "my_version": "",
+   "before": "",
+   "history": [],
+   "updated": "2026-11-24T18:17:38.712Z"
+  }
+ ]
+}
