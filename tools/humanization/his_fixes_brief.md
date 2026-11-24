@@ -134,7 +134,10 @@ that still reads the first way.
    philosophical, and it bites."; "But could I explain that to an objective friend?"; "But that wasn't even really 1% of
    the whole story." (2026-11-22: "the ai tell is the short plain statements. feels robotic"; "pangram hates those short
    lines, they are becoming Ai territory sadly"). A line of speech, or a question in a story, isn't this way ("Then what?
-   You block her?"). A plain line that ends a paragraph is this way too, even at nine or ten words: "It doesn't have to
+   You block her?"). (In its section that pair read Medium, 2026-11-24; whether it runs on is his call, card M-07 of the
+   romance article's seventh page.) A one-word sentence, an interjection ("Woops...") or an initial that opens a sentence
+   ("H. taught me"), is a window of its own in Pangram; inside the sentence it belongs to, it read High (lesson
+   romance-2026-11-23j). A plain line that ends a paragraph is this way too, even at nine or ten words: "It doesn't have to
    mean the same thing every time." (a Medium window) went on, in his version, with what only he would say ("nor score
    over 10 on a woman's magazine sex quiz consistently") and then the point the paragraph is for, which the next one
    acts on ("But it's important for partners to be on the same page about how the sex is helping their relationship
@@ -147,7 +150,10 @@ that still reads the first way.
    already ask it). He keeps the items that carry the point, gives one a case from life ("why you spend hours playing
    with your cat"), and turns a question into its real options ("Is that a pattern, or just life getting in the way
    normally?"). His words: "too much of a listicle", "we don't need 3". A fix that keeps all three items in one sentence
-   still reads this way: the blind test of 2026-11-22 kept three items in three of four lists (lesson romance-2026-11-22f).
+   still reads this way: the blind test of 2026-11-22 kept three items in three of four lists (lesson romance-2026-11-22f),
+   and a list of five said as three clauses built alike in one sentence ("covering the housing and the money, looking
+   after the children and handling whatever health or emotional crisis comes up") read AI there (lesson
+   romance-2026-11-23j).
    A list of concrete things from life is not this way ("nature, music, poetry, art, flowers, food"): he kept it whole,
    and cutting it to two read Human (Low) where keeping it read High; an item goes only where it overlaps another or is
    part of it, and the point it carries stays ("coerced" in "abused, coerced, or seriously deceived" is a kind of harm,
