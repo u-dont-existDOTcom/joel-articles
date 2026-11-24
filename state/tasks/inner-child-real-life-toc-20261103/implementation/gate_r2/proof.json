@@ -1,0 +1,73 @@
+{
+  "schema": "JOEL_OWNER_DELIVERY_ADMITTED_V1",
+  "candidate_sha256": "71dcc4e680ec277d57db07b6e7c399ceaad5204d00505e5e190b432c58b5ddfd",
+  "context_sha256": "1bc222ff5f78e4601d912ea6b9a821efc21c690e950df93393a8fea3e902aa30",
+  "source_sha256": "d970550b257b1aedc0f342ad7cc117b90b31585b1eb011685e4fb312b54defce",
+  "inventory_sha256": "512ba9966b464de682eba7afb959025fa516e0baad489aedd5cca6d81c31d7b5",
+  "lint_verdict": "REVIEW",
+  "linter_sha256": "7c46478a4d8541a86c3674775519a79e27f164f300dee2dad82924ef76cdf87a",
+  "lint_stdout_sha256": "b8ff4742d10d1ee72adec573e331d258d6b8c2a40c85456bff26c190550ab3e8",
+  "lint_findings": [
+    {
+      "label": "B4/E15 list or packed sentence",
+      "examples": [
+        "Even once, whether or not it brings up old stuff, get safe first, which is not a small thing at all, I know."
+      ],
+      "disposition": "JUSTIFIED_KEEP"
+    },
+    {
+      "label": "D9 follows the source order",
+      "examples": [
+        "1/1 paragraphs follow the source's points in its order (agreement 1.00); fine if each part notices something; check T13 and T09 in the tell ledger"
+      ],
+      "disposition": "JUSTIFIED_KEEP"
+    },
+    {
+      "label": "O45 a safety line (Joel 2026-10-23: \"all the extra extra ridiculous safety language which gets repeated everywhere\"; \"let's never make those mistakes again pls\"; E250 (Inner Child)): it stays only if it changes what the reader does right here, isn't a sometimes-true point said as a rule, and the article doesn't already say it",
+      "examples": [
+        "Even once, whether or not it brings up old stuff, get safe first, which is not a small thing at all, I know."
+      ],
+      "disposition": "JUSTIFIED_KEEP"
+    }
+  ],
+  "tell_ledger_counts": {
+    "ABSENT": 32,
+    "PRESENT_JUSTIFIED": 1,
+    "UNCERTAIN": 0,
+    "total": 33
+  },
+  "justified_tells": [
+    "T21"
+  ],
+  "reviews": {
+    "preservation": {
+      "path": "preservation.json",
+      "sha256": "b01e4b0752211b922eecbe872c2033e37c81f87b0baa2ed2196fe4603a7e595a",
+      "reviewer": {
+        "name": "ChatGPT preservation reviewer",
+        "context_id": "/root/odt_preservation_review",
+        "origin": "Fresh source-only collaboration context"
+      }
+    },
+    "cold_read_1": {
+      "path": "cold_read_1.json",
+      "sha256": "c080f197bd98b8db9676351eade8c2273fa09dd02c480867a00d6ae87263fe18",
+      "reviewer": {
+        "name": "ChatGPT fresh cold reader",
+        "context_id": "/root/odt_cold_one",
+        "origin": "Separate fresh collaboration context with source, candidate and natural context"
+      }
+    },
+    "cold_read_2": {
+      "path": "cold_read_2.json",
+      "sha256": "bf4f5ba751219902e79bacd7a8b5571b8348f88baa88a9e6c7b78f589fc4113e",
+      "reviewer": {
+        "name": "ChatGPT fresh cold reader",
+        "context_id": "/root/odt_cold_two",
+        "origin": "Separate fresh collaboration context with source, candidate and natural context"
+      }
+    }
+  },
+  "manifest_sha256": "3e6dd22d5905f0a893559085f263c587a98c03bc227b6aca4129a4317f0952b1",
+  "verified_at_utc": "2026-11-03T16:48:47.252801+00:00"
+}

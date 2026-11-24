@@ -1,0 +1,23 @@
+{
+  "schema": "JOEL_COLD_REVIEW_V1",
+  "role": "preservation",
+  "source_sha256": "d970550b257b1aedc0f342ad7cc117b90b31585b1eb011685e4fb312b54defce",
+  "candidate_sha256": "71dcc4e680ec277d57db07b6e7c399ceaad5204d00505e5e190b432c58b5ddfd",
+  "context_sha256": "1bc222ff5f78e4601d912ea6b9a821efc21c690e950df93393a8fea3e902aa30",
+  "verdict": "PASS",
+  "unresolved": [],
+  "reviewer": {
+    "name": "ChatGPT preservation reviewer",
+    "context_id": "/root/odt_preservation_review",
+    "origin": "Fresh source-only collaboration context"
+  },
+  "evidence": "Compared the literal source and candidate files and read the candidate in the complete frozen chapter context. The source heading \"If they've actually hurt or threatened you\" becomes \"If Someone Has Actually Hurt or Threatened You\"; this makes the person explicit after the move away from the previous relationship subsection. The body changes only \"old stuff or not\" to \"whether or not it brings up old stuff\". \"Even once\", \"get safe first\", and the entire acknowledgement \"which is not a small thing at all, I know\" remain source wording. The revision retains the threshold, prior-experience qualification, instruction, and author acknowledgement; it invents no event, personal fact, diagnosis, or named-entity claim.\n\nThe unit is the first H3 of Speaking Up and Handling Conflict. Its \"someone\" does not automatically identify the romantic partner in the preceding section. Its \"it\" refers to being hurt or threatened in the heading. The later meditation paragraph remains under If a Relationship Keeps Making You Feel Less Safe, so the assembled chapter does not make reflection or emotional regulation a prerequisite for responding to actual harm or a threat. These findings resolve the referent concern C02 without adding a new bridge or changing the source's advice.\n\nB4/E15 is accepted as retained source structure: one sentence contains the once-only threshold, the old-experience qualification, the immediate action, and the author's acknowledgement. T21 is a legitimate source-retained packed sentence here; removing any clause to smooth the cadence would lose a specifically preserved source function. The added words only make the existing qualification intelligible at its new location. This is not a fresh list of unrelated obligations.\n\nD9 is accepted because there is one source sentence whose action and qualifying clauses need to stay together. Source-order agreement is expected in this conservative repair. No outline-based ordering change, artificial scene, or equal-weight sequence was introduced; T09 and T13 are not established by the matching order of this one-paragraph unit.\n\nO45 is accepted because the approved structural plan explicitly retains this source branch before the conflict practices. It changes the immediate action at this location: the reader addressed by the actual-harm/threat heading gets safe before the later regulation and reflection material. Earlier disclosure safeguards address the danger involved in telling difficult material; they do not perform this branch-selection function at the start of the conflict section. The repair adds no general safety paragraph and does not strengthen the source into a new medical or legal rule.\n\nThe source phrase \"old stuff\" is retained rather than newly invented therapeutic abstraction (T06); the heading and repaired relation explain its local meaning. The source's \"I know\" is not a new personal claim (T01/C03). The local direction and acknowledgement are source-earned, not added coach language (T22). No new generic bridge, forced ending, aphoristic contrast, or incidental detail was introduced. All three admission lint labels were assessed individually. Both the candidate and source hashes were computed from the exact reviewed bytes, and this gate's context is byte-identical to revised.md. No preservation or flow issue remains in this unit.",
+  "resolved_tell_ids": [
+    "T21"
+  ],
+  "resolved_lint_labels": [
+    "B4/E15 list or packed sentence",
+    "D9 follows the source order",
+    "O45 a safety line (Joel 2026-10-23: \"all the extra extra ridiculous safety language which gets repeated everywhere\"; \"let's never make those mistakes again pls\"; E250 (Inner Child)): it stays only if it changes what the reader does right here, isn't a sometimes-true point said as a rule, and the article doesn't already say it"
+  ]
+}
