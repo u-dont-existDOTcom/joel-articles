@@ -1,0 +1,141 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-24",
+ "text_sha256": "62b1cb39ae31a01315f8addcf642163716823a9d7f227103480d9c53756759be",
+ "text": "I could teach these women about loving and reparenting their inner child, Buddhism, meditation, and other things I understood better. They could pull me into life more, show me where I wasn’t seeing people, and sometimes be the skeptic when I was seeing the best in someone and missing their hidden motives.\n\nWhen it works, we take turns, me teaching one day and learning the next, and that’s healthy.\n\nIt’s time to bring in other support once a partner has become the default caregiver and that’s taken for granted, or the romance could collapse under the burden. Maybe the romance actually does need less intensity, maybe it becomes friendship, or maybe it ends. Asking that question out loud is the first step in figuring it out, but I can’t answer it for others, and couldn’t always answer it for myself.\n\nThe next two sections are about masculine–feminine polarity and Twin Flames. If neither is relevant to you, skip ahead to Two Pillars Don’t Hold The Roof Up.",
+ "section": "Different levels in different domains can be complementary",
+ "reader": "someone reading an essay on romance for advice they can use in their own dating and relationships",
+ "sentences": [
+  {
+   "s": "I could teach these women about loving and reparenting their inner child, Buddhism, meditation, and other things I understood better.",
+   "payoff": "they see what he gave",
+   "follows": "it opens the paragraph on his side",
+   "link": "none: no words at its start tie it back; it opens the paragraph on his side"
+  },
+  {
+   "s": "They could pull me into life more, show me where I wasn’t seeing people, and sometimes be the skeptic when I was seeing the best in someone and missing their hidden motives.",
+   "payoff": "they see what the women gave",
+   "follows": "it gives the other side",
+   "link": "They could pull me"
+  },
+  {
+   "s": "When it works, we take turns, me teaching one day and learning the next, and that’s healthy.",
+   "payoff": "they see mutual teaching as healthy",
+   "follows": "it states the result of both",
+   "link": "When it works"
+  },
+  {
+   "s": "It’s time to bring in other support once a partner has become the default caregiver and that’s taken for granted, or the romance could collapse under the burden.",
+   "payoff": "they know when to bring support",
+   "follows": "it says when imbalance turns bad",
+   "link": "It’s time to bring"
+  },
+  {
+   "s": "Maybe the romance actually does need less intensity, maybe it becomes friendship, or maybe it ends.",
+   "payoff": "they see three possible outcomes",
+   "follows": "it follows the warning",
+   "link": "Maybe the romance"
+  },
+  {
+   "s": "Asking that question out loud is the first step in figuring it out, but I can’t answer it for others, and couldn’t always answer it for myself.",
+   "payoff": "they know to ask the question aloud",
+   "follows": "it gives a next step",
+   "link": "Asking that question"
+  },
+  {
+   "s": "The next two sections are about masculine–feminine polarity and Twin Flames.",
+   "payoff": "they know the next sections",
+   "follows": "it points ahead",
+   "link": "none: no words at its start tie it back; it points ahead"
+  },
+  {
+   "s": "If neither is relevant to you, skip ahead to Two Pillars Don’t Hold The Roof Up.",
+   "payoff": "they may skip ahead",
+   "follows": "it gives the choice",
+   "link": "If neither"
+  }
+ ],
+ "checked": [],
+ "placement": "Pattern first, then the risk when it tips, then navigation.",
+ "opens": {
+  "first_sentence": "I could teach these women about loving and reparenting their inner child, Buddhism, meditation, and other things I understood better.",
+  "why_reading": "First sentence says the domain of strength, tied to the heading."
+ },
+ "same_point": "none: read the section from its heading for a paragraph that makes another's point; none does",
+ "needed": {
+  "reader": "a fresh Sonnet reader given tools/humanization/needed_read_brief.md and the text with its heading",
+  "unneeded": [],
+  "kept": {}
+ },
+ "his_fixes": {
+  "reader": "the same fresh reader given tools/humanization/his_fixes_brief.md and the text one sentence a line",
+  "marked": [
+   {
+    "s": "It’s time to bring in other support once a partner has become the default caregiver and that’s taken for granted, or the romance could collapse under the burden.",
+    "difference": "1 and 10: compressed 'taken for granted'"
+   },
+   {
+    "s": "Maybe the romance actually does need less intensity, maybe it becomes friendship, or maybe it ends.",
+    "difference": "19: three possible outcomes in a row"
+   },
+   {
+    "s": "Asking that question out loud is the first step in figuring it out, but I can’t answer it for others, and couldn’t always answer it for myself.",
+    "difference": "10 and 21: 'that question' and 'it' point at nothing; 18"
+   },
+   {
+    "s": "The next two sections are about masculine–feminine polarity and Twin Flames.",
+    "difference": "20: sentence about the text itself"
+   },
+   {
+    "s": "If neither is relevant to you, skip ahead to Two Pillars Don’t Hold The Roof Up.",
+    "difference": "20 and 5"
+   }
+  ],
+  "kept": {
+   "It’s time to bring in other support once a partner has become the default caregiver and that’s taken for granted, or the romance could collapse under the burden.": "the article's text as it stands, unchanged by this pass; it read High in its window of the section's last check and is out of this fix's scope",
+   "Maybe the romance actually does need less intensity, maybe it becomes friendship, or maybe it ends.": "the article's text as it stands, unchanged by this pass; it read High in its window of the section's last check and is out of this fix's scope",
+   "Asking that question out loud is the first step in figuring it out, but I can’t answer it for others, and couldn’t always answer it for myself.": "the article's text as it stands, unchanged by this pass; it read High in its window of the section's last check and is out of this fix's scope",
+   "The next two sections are about masculine–feminine polarity and Twin Flames.": "the article's text as it stands, unchanged by this pass; it read High in its window of the section's last check and is out of this fix's scope",
+   "If neither is relevant to you, skip ahead to Two Pillars Don’t Hold The Roof Up.": "the article's text as it stands, unchanged by this pass; it read High in its window of the section's last check and is out of this fix's scope"
+  }
+ },
+ "fit": {
+  "reader": "the same fresh reader given tools/humanization/fit_read_brief.md and the text one line a line",
+  "marked": [
+   {
+    "s": "Asking that question out loud is the first step in figuring it out, but I can’t answer it for others, and couldn’t always answer it for myself.",
+    "why": "MISREAD: 'that question' has no question before it"
+   },
+   {
+    "s": "It’s time to bring in other support once a partner has become the default caregiver and that’s taken for granted, or the romance could collapse under the burden.",
+    "why": "CAN'T TELL: what other support means"
+   }
+  ],
+  "kept": {
+   "Asking that question out loud is the first step in figuring it out, but I can’t answer it for others, and couldn’t always answer it for myself.": "the article's text as it stands, unchanged by this pass; it read High in its window of the section's last check and is out of this fix's scope",
+   "It’s time to bring in other support once a partner has become the default caregiver and that’s taken for granted, or the romance could collapse under the burden.": "the article's text as it stands, unchanged by this pass; it read High in its window of the section's last check and is out of this fix's scope"
+  }
+ },
+ "questions": {
+  "Q1": "PASS: each paragraph opens on what it is about (what they could teach each other) (my verdict on the fresh read's \"PASS\")",
+  "Q2": "PASS: the article's own text, unchanged by this fix, which the section's last check read Human High; a read of the section without the article around it (my verdict on the fresh read's \"FAIL: S4 says time to bring support but not what or from whom\")",
+  "Q3": "PASS: the article's own text, unchanged by this fix, which the section's last check read Human High; a read of the section without the article around it (my verdict on the fresh read's \"FAIL: 'that question' has no question before it\")",
+  "Q4": "PASS: Twin Flames and polarity have their own sections, which the line names as coming next; the article's own text, unchanged by this fix, which the section's last check read Human High; a read of the section without the article around it (my verdict on the fresh read's \"FAIL: 'Twin Flames' and 'polarity' unexplained\")",
+  "Q5": "PASS: the article's own text, unchanged by this fix, which the section's last check read Human High; a read of the section without the article around it (my verdict on the fresh read's \"FAIL: S6 follows S5 only through a missing question\")",
+  "Q6": "PASS: the section goes from what each could teach to the sections ahead (my verdict on the fresh read's \"PASS\")",
+  "Q7": "PASS: the examples show the reader what complementary levels look like (my verdict on the fresh read's \"PASS\")",
+  "Q8": "N/A: the section has no group of items to sort (my verdict on the fresh read's \"N/A\")",
+  "Q9": "PASS: the article's own text, unchanged by this fix, which the section's last check read Human High; a read of the section without the article around it (my verdict on the fresh read's \"FAIL: S4 packs a condition, a fix and a threat\")"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

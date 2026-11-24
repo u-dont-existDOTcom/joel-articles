@@ -92,7 +92,7 @@ True commitment grows out of relational depth, not a label we put on it. If we s
 
 The person getting more of what they want may think the arrangement is fulfilling, but usually they’re just less aware that it isn’t. In college I had a friend with four girlfriends who boasted about it to girls while trying to get a fifth. I asked him, “But are you really happy?” He said, “No, dude, I’m miserable and empty inside.”
 
-The full conversation is so big that almost nobody would have casual sex if they took it seriously. Which is why almost nobody has the full conversation. I can’t decide what is okay for anybody else. I can say that most people who defend casual sex are not being very honest with themselves about pregnancy, attachment, or what they might owe the person afterward.
+I can’t decide what is okay for anybody else. I can say that most people who defend casual sex are not being very honest with themselves about pregnancy, attachment, or what they might owe the person afterward, a conversation so big that almost nobody would have casual sex if they took it seriously. Which is why almost nobody has the full conversation.
 
 Outside a loving poly community or tribe, I think honest casual sex is almost impossible. If you want something closer to “casual love-making” without quite so many ways to damage each other, you probably need to find a free-love community where the people aren’t disposable, the bonds can be acknowledged, and any children have a village. But if the community is specifically designed to prioritize free love, you might find it attracts people who have traumas that produce trouble with connecting deeply, as ex-Tamera leader, Martin Winiecki [wrote about](https://www.facebook.com/martin.winiecki/posts/pfbid02V7nrbc7VLgPyLe91si9ximruTC7kwx2XjPBzUmUTnYr6sPViCPaTa7BxD2wmHAaJl) after leaving recently.
 
@@ -246,7 +246,7 @@ The attachment theory part comes from my own experience and from reading I’ve 
 
 ### Peeking thru the window
 
-Before the wisdom window closes, the main thing is to find out whether you are actually compatible. Do you have the same goals and values, especially around children, religion, politics, health, love, and romance? Where do you want to live? Do you both want to find a community? What kind of relationship do you want with technology and money?
+Before the window of clarity closes, the main thing is to find out whether you are actually compatible. Do you have the same goals and values, especially around children, religion, politics, health, love, and romance? Where do you want to live? Do you both want to find a community? What kind of relationship do you want with technology and money?
 
 So we have to find a way to ask deep questions. [Conversation-card games](https://innerself.love/blog/romance-card-game/) may seem silly, but they can help people get past superficial talk and see if they’re compatible.
 
@@ -256,7 +256,7 @@ But watch out, because ironically, a card game to get closer and deeper can back
 
 You can also bring the person to a party, around your friends and family and see how they act, or take them to activities you enjoy and see if they really enjoy them too (although if they seem to enjoy every single one of them, they might be pretending). Try doing what you would normally do in your day alone, but with them, and see if it feels weird. Are they wondering why you spend hours playing with your cat? Do they look bored, like they’d rather just hit you up later for some fun?
 
-See their negative side first too. If there is no negative side, that’s a red flag for fakery. Ask whether the spiritual story they tell about themselves survives an inconvenient PMS afternoon. How recent is the healing story—two months or two years? Jealousy, abandonment, possessiveness, and the “I’m so much better than I used to be” story may not be understood until there is stress and entanglement. By then, of course, you’re stressed and entangled. 😆
+See their negative side first too. If there is no negative side, that’s a red flag for fakery. Ask whether the spiritual story they tell about themselves survives an inconvenient PMS afternoon. How recent is the healing story—two months or two years? You may not see their jealousy, abandonment and possessiveness until there is stress and entanglement, and that’s also when you find out whether the “I’m so much better than I used to be” story survives. By then, of course, you’re stressed and entangled. 😆
 
 Sometimes the only thing I have is a little “wait” feeling. If I'm about to ignore a question because I really want this to work, that "wait" is enough reason for me to ask the question before I keep going.
 
@@ -296,7 +296,7 @@ No, I really didn’t. If you’re fawning, tell me when you can, because I can�
 
 ## Things get tricky fast
 
-Couples withdraw from friends who aren’t supportive of the romantic dyad, and they also stop telling friends the whole truth. Sharp questions start to feel rude. An obvious problem dissolves into, “but I love her,” and the small world of the relationship starts feeling more real than the rest of life, right when both people most need a view from outside it.
+Couples withdraw from friends who aren’t supportive of the romantic dyad, and they also stop telling friends the whole truth. Sharp questions start to feel rude. An obvious problem dissolves into, “but I love her,” and right when both people most need a view from outside, the small world of the relationship starts feeling more real than the rest of life.
 
 Sometimes withdrawing isn’t wrong: telling your friend, “Can you believe what my girlfriend is doing to me?” can be a privacy violation. It’s just important to realize what is happening.
 
@@ -340,13 +340,13 @@ A lot of women have seen me that way, and I don't necessarily see it as patholog
 
 She loved me openly and intensely and seemed to understand me spiritually. Most of all, there was the forest-and-mansion line I mentioned earlier that made it feel unconditional. Best drug I ever had.
 
-I don’t know whether that unconditional love ended up being true. I think it was true in a part of her, and it may also have been the BPD idealization. You have to look at everything from multiple angles. But when you’re in love, you see everything from the love angle. That’s the reality shift I’m talking about. It’s great if the ground underneath is prepared for it. If the rose-colored glasses go on when you’re with the wrong person, they make it even harder to understand what’s real.
+I don’t know whether that unconditional love ended up being true. I think it was true in a part of her, and it may also have been the BPD idealization. You have to look at everything from multiple angles. But when you’re in love, you see everything from the love angle. That’s the reality shift I’m talking about. The love angle is great if the ground underneath the relationship is prepared for it, but if the rose-colored glasses go on when you’re with the wrong person, they make it even harder to understand what’s real.
 
 So I became the father in a relationship where I wanted an equally responsible playmate. Part of what happened may have been that she eventually grew up, and a daughter who grows up leaves home. But that wasn't even really 1% of the whole story. The two years in-between contained enough insanity for several lifetimes.
 
 Looking back, I’m grateful I loved her. For three months after we broke up, [I trained myself to replace missing her with loving her](https://ibogaqueen.substack.com/p/i-ate-loveyhuasca-every-day-for-90), and now, any time I think of her, I feel so much joy and love, which I send her way.
 
-That doesn’t mean I’d advise somebody to knowingly enter a dangerous relationship because it may be worth it. Going in, it helps to recognize your pattern, stop idealizing without becoming suspicious and closed, and have some idea what you’re getting into.
+That doesn’t mean I’d advise somebody to knowingly enter a dangerous relationship because it may be worth it. Going in, it helps to recognize your pattern and stop idealizing, without becoming suspicious and closed, so you have some idea what you’re getting into.
 
 ### Seeing idealization right
 
@@ -356,7 +356,7 @@ You can see something in a person before she fully lives it, but then you have t
 
 If she says no, forget it. You’re in la la land. If she says yes, ask what is blocking her. Is the block more than you can handle? Or does she mostly need somebody to join her on the journey and believe in her?
 
-Partners should help each other grow. Who else is going to do it? Your mom and dad? You’re already grown to them. Everybody else will usually be a smaller influence, so you’d better choose someone who helps you grow well. Like the FM Laeti song down in the Twin Flames section says, “Inspire her to see the best in herself, actualize that.” If something severe is happening, sometimes a demand or boundary is necessary too.
+Partners should help each other grow. Who else is going to do it, your mom and dad? You’re already grown to them. Everybody else will usually be a smaller influence, so you’d better choose someone who helps you grow well. Like the FM Laeti song down in the Twin Flames section says, “Inspire her to see the best in herself, actualize that,” though if something severe is happening, sometimes a demand or boundary is necessary too.
 
 ## If slow isn’t realistic for you
 
@@ -458,15 +458,15 @@ Crying helps a lot, but it may actually be harder for men once they are in a rel
 
 Crying also contains a type of automatic erratic breathwork. And [breathwork](https://breathwork.u-dont-exist.com/) is one of the easiest ways I know to calm down. Reduced breathing or just continuous/circular [Systema breathing](https://www.youtube.com/shorts/Nar2-nvomAk) is especially useful to me when my partner is getting me upset and flustered with drama. Sometimes she’s deliberately trying to do that, and other times it’s hard to tell, although if I'm stuck thinking about what's on purpose I'm already lost. I explain more of the body-based therapy options in my [Somatic Modalities guide](https://ibogaqueen.substack.com/p/somatic-modalities-strategic-sequencing).
 
-Meditation is also helpful, but for most people, I would still put inner-child reparenting, peer counseling, and body-based work first or make them primary meditation targets. Many people say they cannot meditate or have not gotten to that stage yet, and meditation without grounding in those approaches can easily be a road into [spiritual bypassing](http://goenka.u-dont-exist.com/).
+Meditation is also helpful, but for most people, I would still put inner-child reparenting, peer counseling, and body-based work first, or make those the main things they meditate on. Many people say they cannot meditate or have not gotten to that stage yet, and meditation without grounding in those approaches can easily be a road into [spiritual bypassing](http://goenka.u-dont-exist.com/).
 
 ### Babies growing up again
 
-Nobody has to be completely healed before entering a relationship. And I think that as we learn more about ourselves through the crucible, we should naturally raise our standards. Maybe at first we need the drama to access our primal emotions, but after years of that, we’re exhausted by what we previously hoped to find.
+Nobody has to be completely healed before entering a relationship, but I think that as we learn more about ourselves through the crucible, we should naturally raise our standards. Maybe at first we need the drama to access our primal emotions, but after years of that, we’re exhausted by what we previously hoped to find.
 
 At the very least, there needs to be honesty, real effort at improving, and some ability to stop blaming everybody else for your own problems.
 
-I already said before dating that the present-day adult has to be able to parent whatever intimacy wakes up inside you. Once you’re together, more of that stuff comes out. [Inner-child reparenting](https://innerchild.u-dont-exist.com/) means parenting the child part instead of surreptitiously hiring the partner for the job.
+I already said that before dating, the present-day adult has to be able to parent whatever intimacy wakes up inside you. Once you’re together, more of that stuff comes out. [Inner-child reparenting](https://innerchild.u-dont-exist.com/) means parenting the child part instead of surreptitiously hiring the partner for the job.
 
 It can get pretty entitled when you expect your partner to know what you need without being told. You may barely see your own pattern, and then deny it instead of taking responsibility when they point it out.
 
@@ -662,7 +662,7 @@ Brad and Pam Keene are the couple I really liked as an example of how her method
 
 <!-- IMAGE https://substackcdn.com/image/fetch/$s_!XTcH!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fabc295d2-f1ec-414c-83e0-c4df99fe5de3_1024x1535.png : a picture in the post -->
 
-In the previous section, I mentioned the divine feminine and divine masculine energies that you can channel to keep eroticism alive. But there’s really something more special about the in-love paradise that Twin Flames (TFs) experience than a simple Divine Masculine + Divine Feminine formula. Maybe a better way to put it, as my friend Cody says, is Yin/Yang, which still has the masculine/feminine in it, but allows for a more broad type of complementary symbiosis since, each contains the seed of the other.
+Earlier, I mentioned the divine feminine and divine masculine energies that you can channel to keep eroticism alive. But there’s really something more special about the in-love paradise that Twin Flames (TFs) experience than a simple Divine Masculine + Divine Feminine formula. Maybe a better way to put it, as my friend Cody says, is Yin/Yang, which still has the masculine/feminine in it, but allows for a more broad type of complementary symbiosis since each contains the seed of the other.
 
 My ex-girlfriend, Malia, (who is currently hosting me in Sênêgal) found her twin flame (I think) in January, 2026. They only talked for a month, but since she started talking to him, they both have been able to feel the other one’s emotions at any time, from any distance, without having to communicate. To the point where if one feels really bad, so does the other. If one is very happy, so is the other, like quantum entangled photons or something. I’ve also had telepathy with some folks, especially my second wife, Bee, but it was never quite to such an extreme as what Malia has with Mouhamed. Meanwhile his family forbade him from being with her, so he dumped her. Not sure why, maybe because she’s 8 years older than him (although she looks quite young). They both try to pretend like they will be able to get over each other, but I doubt it. Meanwhile, Malia’s trying to marry ChatGPT, but she should have picked Grok, I guess. 😅
 
@@ -920,7 +920,7 @@ Do you have irreconcilable memories of key events? I did with both my first and 
 
 There’s no way to resolve a situation where one person remembers that you ruined her life on purpose, while you remember that she was having a manic episode and had to be committed for her own safety. We also didn’t have mutual friends who could corroborate what happened—only friends on each side who were partial.
 
-Many say it’s best to save face and work things out privately, but I’d disagree. If you don’t have friends who can help with the conflict, then you’re really stuck (and you might wanna find some new friends). But do it fairly, with the goal of helping the conflict, not just getting approval for your own interpretation. Both people should get a chance to speak, and good friends should hear both sides before validating either.
+Many say it’s best to save face and work things out privately, but I’d disagree. If you don’t have friends who can help with the conflict, then you’re really stuck (and you might wanna find some new friends). And when you do ask friends for help, do it fairly, with the goal of resolving the conflict, not just getting approval for your own interpretation: both people should get a chance to speak, and good friends should hear both sides before validating either.
 
 I can believe a friend’s experience and still tell them that my ability to know what is really going on is extremely limited. If someone says, “I don’t have all the evidence,” I trust their thinking more. Living in community would help because your friends would not only hear two stories afterward. Sometimes they would actually see how the two of you treat each other when you argue.
 
@@ -932,7 +932,7 @@ Often times the breakup is hard, but the aftermath is worse. Public demonization
 
 Once you’re out, you can see things you genuinely couldn’t see while you were bonded. Look at what you contributed to how things turned out. And don’t paint your ex as a cartoon villain: try to understand whatever was true in their perspective too, including the conflicts they were carrying inside themselves.
 
-Sometimes the easiest story is that they were fake all along, because it explains everything. Grab it only if it really is the simplest explanation of what happened. People who aren’t heavily invested in seeing your innocence can help you tell, and a therapist, pastor, or even a stranger may see the evidence more clearly than a lifelong friend. Even the curiosity itself can be therapeutic for you.
+Sometimes the easiest story is that they were fake all along, because it explains everything. Grab it only if it really is the simplest explanation of what happened, and even the curiosity about that can be therapeutic for you. People who aren’t heavily invested in seeing your innocence can help you tell, and a therapist, pastor, or even a stranger may see the evidence more clearly than a lifelong friend.
 
 Spiritual practice during an ending is critical, but don’t use it to get around the feelings. Pray for your ex’s wellbeing. Remember what was real and good, and don’t use your pain as permission to hate them. Avoid the New Age belief that everyone is simply a mirror of you. Of course, we do partly mirror one another, but each person was formed by plenty that had nothing to do with you. No matter how enlightened the Buddha was, his cousin Devadatta still kept trying to kill him: looking honestly at your part doesn’t erase theirs. Sometimes it helps to ask, “What would Mr. Rogers do?” (if you’re old enough to remember that show).
 
@@ -954,9 +954,9 @@ Too many people judge a relationship only by whether they stayed together. Relat
 
 Romantic love is not easy, and the things that actually make it work are not very marketable. I can’t sell you the fix with one click or one monthly subscription to my love class. (Just kidding, click here!)
 
-A relationship like this is rare, and that’s probably why romantic love has been seen with suspicion as a destabilizing force throughout history. One of the best books that makes that point today might be the one I was reading with Key: The Spirit of Intimacy, by Sobonfu Somé. Somé came from the Dagara tribe in Burkina Faso. To her people, marriage is an arranged, ritualized spiritual and communal responsibility. They’re suspicious of romance. But one of her ideas fits what I’m trying to say: the relationship is bigger and more important than the egos in it. She calls it the spirit of the relationship.
+A relationship like this is rare, and that’s probably why romantic love has been seen with suspicion as a destabilizing force throughout history. One of the best books that makes that point today might be the one I was reading with Key: The Spirit of Intimacy, by Sobonfu Somé. Somé came from the Dagara tribe in Burkina Faso. To her people, marriage is an arranged, ritualized spiritual and communal responsibility, and they’re suspicious of romance. But one of her ideas fits what I’m trying to say: the relationship is bigger and more important than the egos in it. She calls it the spirit of the relationship.
 
-That spirit is like the universe living its desire to know itself through us, which might be why we see ourselves in ways we can’t imagine prior. Nobody can command the spirit to remain. At our best, we serve it and listen for what Spirit wants to change. When we start thinking we own it or deserve it, that presumptuousness tends to push it away.
+That spirit is like the universe living its desire to know itself through us, which might be why we see ourselves in ways we couldn’t imagine before. Nobody can command the spirit to remain. At our best, we serve it and listen for what Spirit wants to change. When we start thinking we own it or deserve it, that presumptuousness tends to push it away.
 
 My parents agreed with Somé that community matters and that we serve Spirit. They were also not romantic, though they were loving and poly. I actually wished they were in love with each other, I guess, although I couldn’t have articulated that since I didn’t even have that concept at the time. Also reminiscent of Somé, they also wore rose-colored glasses and taught me that everybody was basically good. So I learned something about love and community, but not how hard romance is without a community around it, or how much damage basically good people can do when their fears, trauma, and undeveloped parts take over.
 

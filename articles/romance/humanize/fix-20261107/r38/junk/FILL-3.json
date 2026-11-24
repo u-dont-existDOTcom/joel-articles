@@ -1,0 +1,785 @@
+{
+ "r38-24-peeking-thru-the-window-p1": {
+  "sentences": [
+   {
+    "payoff": "they know the main job in the courtship window is testing compatibility",
+    "follows": "opens the section",
+    "link": "none: opens the section"
+   },
+   {
+    "payoff": "they see the first area to check, shared goals and values",
+    "follows": "gives the areas the compatibility check covers",
+    "link": "none: continues the list"
+   },
+   {
+    "payoff": "they see living location is one of the things to settle",
+    "follows": "adds another area",
+    "link": "none: continues the list"
+   },
+   {
+    "payoff": "they see wanting community is one of the things to settle",
+    "follows": "adds another area",
+    "link": "none: continues the list"
+   },
+   {
+    "payoff": "they see tech and money attitudes are also to be checked",
+    "follows": "adds another area",
+    "link": "none: continues the list"
+   },
+   {
+    "payoff": "they understand that surface questions will not be enough",
+    "follows": "draws the conclusion from the list",
+    "link": "So we"
+   },
+   {
+    "payoff": "they learn a practical tool, card games, that can open deeper talk",
+    "follows": "offers a way to do what the last sentence says",
+    "link": "none: names the tool"
+   },
+   {
+    "payoff": "they understand a stock question gets a polished answer that reveals little",
+    "follows": "qualifies the card idea with its limit",
+    "link": "But asking"
+   },
+   {
+    "payoff": "they learn a better question, about a real situation",
+    "follows": "gives the alternative to the weak question",
+    "link": "I’d rather"
+   },
+   {
+    "payoff": "they learn how to read a vague answer",
+    "follows": "says how to read the result of that alternative",
+    "link": "If all she"
+   },
+   {
+    "payoff": "they are warned the tool can mislead",
+    "follows": "turns to a risk of the card game",
+    "link": "But watch out"
+   },
+   {
+    "payoff": "they understand why closeness from the game may not predict compatibility",
+    "follows": "explains the risk",
+    "link": "If we spend"
+   }
+  ],
+  "placement": "One paragraph under the heading: priority, areas to check, then the card tool, its weakness and its trap, in the order a reader tries them.",
+  "why_reading": "It tells the reader that checking compatibility now, before the early phase ends, is the main job, so they read for how.",
+  "same_point": "none: read the section from its heading for a paragraph that makes another's point; none does",
+  "questions": {
+   "Q1": "PASS: opens by giving the main task",
+   "Q2": "PASS: each question is something to ask a partner",
+   "Q3": "FAIL: S1 does not say what the window is",
+   "Q4": "PASS: card games and general answers are explained in place",
+   "Q5": "PASS: So, But and If each rest on the previous sentence",
+   "Q6": "PASS: priority, areas, tool, limits",
+   "Q7": "PASS: each fact bears on dating now",
+   "Q8": "N/A: no group of items beyond the question list",
+   "Q9": "FAIL: S12 packs two ideas, feeling close and not predicting"
+  },
+  "needed": {
+   "unneeded": []
+  },
+  "his_fixes": {
+   "marked": [
+    {
+     "s": "Do you have the same goals and values, especially around children, religion, politics, health, love, and romance?",
+     "difference": "way 19: a list of six category words"
+    },
+    {
+     "s": "Where do you want to live?",
+     "difference": "way 23: run of four short questions"
+    },
+    {
+     "s": "What kind of relationship do you want with technology and money?",
+     "difference": "way 23: run of questions built alike"
+    },
+    {
+     "s": "So we have to find a way to ask deep questions.",
+     "difference": "way 4: 'deep questions' is vague"
+    },
+    {
+     "s": "If we spend two hours telling each other things nobody else knows, we may feel incredibly understood and close, but that may mean the game worked without telling us whether the relationship will.",
+     "difference": "way 1: several ideas packed in one sentence"
+    }
+   ]
+  },
+  "fit": {
+   "marked": [
+    {
+     "s": "Before the window closes, the main thing is to find out whether you are actually compatible.",
+     "why": "a reader does not know which window or when it closes"
+    },
+    {
+     "s": "If we spend two hours telling each other things nobody else knows, we may feel incredibly understood and close, but that may mean the game worked without telling us whether the relationship will.",
+     "why": "hard to parse what 'worked' means"
+    }
+   ]
+  }
+ },
+ "r38-33-anti-ptsd-can-be-just-as-dangerous-as-pt-p2": {
+  "sentences": [
+   {
+    "payoff": "they see the good side of the relationship",
+    "follows": "continues the story already told",
+    "link": "She"
+   },
+   {
+    "payoff": "they understand what made it feel unconditional",
+    "follows": "adds the strongest part",
+    "link": "Most of all"
+   },
+   {
+    "payoff": "they see how strongly it felt",
+    "follows": "sums up in a phrase",
+    "link": "none: standalone line"
+   },
+   {
+    "payoff": "they see he cannot tell if it was real",
+    "follows": "raises the doubt after the praise",
+    "link": "I don’t"
+   },
+   {
+    "payoff": "they see two explanations for her love",
+    "follows": "gives two readings of the doubt",
+    "link": "I think"
+   },
+   {
+    "payoff": "they learn to check from several views",
+    "follows": "draws the lesson from the doubt",
+    "link": "You have to"
+   },
+   {
+    "payoff": "they see why love distorts their view",
+    "follows": "says why the lesson is hard",
+    "link": "But when"
+   },
+   {
+    "payoff": "they see the name for the distortion",
+    "follows": "names what that is",
+    "link": "That’s the"
+   },
+   {
+    "payoff": "they learn the rose-glasses risk and when it bites",
+    "follows": "explains the effect of that angle",
+    "link": "The love angle"
+   },
+   {
+    "payoff": "they see the cost, a parent role",
+    "follows": "shows the consequence",
+    "link": "So I"
+   },
+   {
+    "payoff": "they see one possible cause of the breakup",
+    "follows": "gives a cause for the role",
+    "link": "Part of"
+   },
+   {
+    "payoff": "they see the cause was only minor",
+    "follows": "corrects how much that cause explains",
+    "link": "But that"
+   },
+   {
+    "payoff": "they see how chaotic it was",
+    "follows": "backs up the correction",
+    "link": "The two"
+   },
+   {
+    "payoff": "they see he still values it",
+    "follows": "turns to his present view",
+    "link": "Looking back"
+   },
+   {
+    "payoff": "they see a way to move on to love",
+    "follows": "says how he got there",
+    "link": "For three"
+   },
+   {
+    "payoff": "they learn he does not recommend entering knowingly",
+    "follows": "answers a worry the last lines might raise",
+    "link": "That doesn’t"
+   },
+   {
+    "payoff": "they learn what to do before a relationship",
+    "follows": "gives the advice to act on",
+    "link": "Going in"
+   }
+  ],
+  "placement": "One paragraph telling the love story, the doubt, the lesson on seeing from many angles, the cost, the gratitude, and last the advice.",
+  "why_reading": "It opens on the good side of the relationship, which sets up why the later warning is worth taking.",
+  "same_point": "S9 and S17 both say to look beyond love before committing; S17 adds the act.",
+  "questions": {
+   "Q1": "PASS: story then lesson",
+   "Q2": "PASS: S17 says what to do",
+   "Q3": "FAIL: 'your pattern' in S17 is not said",
+   "Q4": "FAIL: BPD in S5 is not explained",
+   "Q5": "PASS: but and so follow",
+   "Q6": "PASS: roughly chronological",
+   "Q7": "FAIL: S13 helps this reader little",
+   "Q8": "PASS: items belong",
+   "Q9": "FAIL: S9 packs two ideas, S17 stacks three"
+  },
+  "needed": {
+   "unneeded": [
+    "The two years in-between contained enough insanity for several lifetimes.",
+    "Looking back, I’m grateful I loved her."
+   ]
+  },
+  "his_fixes": {
+   "marked": [
+    {
+     "s": "Best drug I ever had.",
+     "difference": "way 18: short line standing alone"
+    },
+    {
+     "s": "That’s the reality shift I’m talking about.",
+     "difference": "way 18 and 21: short line that labels"
+    },
+    {
+     "s": "The love angle is great if the ground underneath the relationship is prepared for it, but if the rose-colored glasses go on when you’re with the wrong person, they make it even harder to understand what’s real.",
+     "difference": "way 3: a contrast, and way 1: two ideas in one sentence"
+    },
+    {
+     "s": "But that wasn't even really 1% of the whole story.",
+     "difference": "way 18: short plain line"
+    },
+    {
+     "s": "That doesn’t mean I’d advise somebody to knowingly enter a dangerous relationship because it may be worth it.",
+     "difference": "way 3: X doesn’t mean Y"
+    },
+    {
+     "s": "Going in, it helps to recognize your pattern and stop idealizing, without becoming suspicious and closed, so you have some idea what you’re getting into.",
+     "difference": "way 4: 'your pattern' is vague; way 1: packed"
+    }
+   ]
+  },
+  "fit": {
+   "marked": [
+    {
+     "s": "I think it was true in a part of her, and it may also have been the BPD idealization.",
+     "why": "BPD is not explained"
+    },
+    {
+     "s": "Going in, it helps to recognize your pattern and stop idealizing, without becoming suspicious and closed, so you have some idea what you’re getting into.",
+     "why": "a reader cannot tell what their pattern is or how to see it"
+    },
+    {
+     "s": "Part of what happened may have been that she eventually grew up, and a daughter who grows up leaves home.",
+     "why": "'she grew up' may misread as an insult"
+    }
+   ]
+  }
+ },
+ "r38-46-disconnect-to-connect": {
+  "sentences": [
+   {
+    "payoff": "they see why introspection alone is limited",
+    "follows": "opens the section",
+    "link": "none: opens the section"
+   },
+   {
+    "payoff": "they see why a partner is not a neutral listener",
+    "follows": "gives the next limit",
+    "link": "Your partner"
+   },
+   {
+    "payoff": "they understand why to use an outside counselor",
+    "follows": "draws the recommendation",
+    "link": "That’s why"
+   },
+   {
+    "payoff": "they see the cost of dumping on a partner",
+    "follows": "gives a reason in his own case",
+    "link": "If my partner"
+   },
+   {
+    "payoff": "they see the body reacts even when the mind understands",
+    "follows": "adds a second thing in the body",
+    "link": "I also"
+   },
+   {
+    "payoff": "they see a concrete bodily sign",
+    "follows": "gives its evidence",
+    "link": "My breathing"
+   },
+   {
+    "payoff": "they see men's crying is blocked",
+    "follows": "adds crying as a help with a limit",
+    "link": "Crying helps"
+   },
+   {
+    "payoff": "they see a second reason for a counselor",
+    "follows": "ties back to the counselor",
+    "link": "That is"
+   },
+   {
+    "payoff": "they see crying includes breath",
+    "follows": "explains why crying helps",
+    "link": "Crying also"
+   },
+   {
+    "payoff": "they see breathwork calms",
+    "follows": "moves from crying to breathwork",
+    "link": "And breathwork"
+   },
+   {
+    "payoff": "they learn which breathing to use when upset",
+    "follows": "applies breathwork",
+    "link": "Reduced breathing"
+   },
+   {
+    "payoff": "they see he cannot always tell her motive",
+    "follows": "adds a nuance about the partner",
+    "link": "Sometimes she’s"
+   },
+   {
+    "payoff": "they know where to read about body work",
+    "follows": "points to detail elsewhere",
+    "link": "I explain"
+   },
+   {
+    "payoff": "they learn that meditation comes after other work",
+    "follows": "moves to meditation",
+    "link": "Meditation is also"
+   },
+   {
+    "payoff": "they see the risk of meditating without them",
+    "follows": "gives the risk",
+    "link": "Many people"
+   }
+  ],
+  "placement": "One paragraph moving from self-reflection to outside counseling, body reactions, crying and breath, then meditation last as a caution.",
+  "why_reading": "It tells the reader that thinking about themselves will miss something, so they look for what else to use.",
+  "same_point": "none: read the section from its heading for a paragraph that makes another's point; none does",
+  "questions": {
+   "Q1": "PASS: opens with the limit",
+   "Q2": "FAIL: S14 says what to put first but not how",
+   "Q3": "FAIL: S9, S11 and S15 give no acts",
+   "Q4": "FAIL: Systema breathing and spiritual bypassing are unexplained",
+   "Q5": "PASS: But and so follow",
+   "Q6": "FAIL: S12 and S13 interrupt",
+   "Q7": "FAIL: S12 helps little",
+   "Q8": "PASS: items belong",
+   "Q9": "FAIL: S14 and S15 pack ideas"
+  },
+  "needed": {
+   "unneeded": [
+    "Sometimes she’s deliberately trying to do that, and other times it’s hard to tell, although if I'm stuck thinking about what's on purpose I'm already lost.",
+    "I explain more of the body-based therapy options in my Somatic Modalities guide."
+   ]
+  },
+  "his_fixes": {
+   "marked": [
+    {
+     "s": "Crying also contains a type of automatic erratic breathwork.",
+     "difference": "way 21: label 'breathwork'"
+    },
+    {
+     "s": "Reduced breathing or just continuous/circular Systema breathing is especially useful to me when my partner is getting me upset and flustered with drama.",
+     "difference": "way 4: Systema breathing is vague"
+    },
+    {
+     "s": "Meditation is also helpful, but for most people, I would still put inner-child reparenting, peer counseling, and body-based work first, or make those the main things they meditate on.",
+     "difference": "way 19: three items; way 1: packed"
+    },
+    {
+     "s": "Many people say they cannot meditate or have not gotten to that stage yet, and meditation without grounding in those approaches can easily be a road into spiritual bypassing.",
+     "difference": "way 4: spiritual bypassing is not explained"
+    }
+   ]
+  },
+  "fit": {
+   "marked": [
+    {
+     "s": "Reduced breathing or just continuous/circular Systema breathing is especially useful to me when my partner is getting me upset and flustered with drama.",
+     "why": "a reader cannot do Systema breathing from this"
+    },
+    {
+     "s": "Many people say they cannot meditate or have not gotten to that stage yet, and meditation without grounding in those approaches can easily be a road into spiritual bypassing.",
+     "why": "spiritual bypassing is not explained"
+    },
+    {
+     "s": "Meditation is also helpful, but for most people, I would still put inner-child reparenting, peer counseling, and body-based work first, or make those the main things they meditate on.",
+     "why": "'meditate on' reparenting is unclear"
+    }
+   ]
+  }
+ },
+ "r38-64-twin-flames": {
+  "sentences": [
+   {
+    "payoff": "they recall the energies used earlier",
+    "follows": "opens the section",
+    "link": "none: opens the section"
+   },
+   {
+    "payoff": "they see that twin flames go beyond that formula",
+    "follows": "qualifies the earlier formula",
+    "link": "But there’s"
+   },
+   {
+    "payoff": "they get a wider frame, Yin/Yang",
+    "follows": "offers a better way to say it",
+    "link": "Maybe a better"
+   },
+   {
+    "payoff": "they see an example",
+    "follows": "gives an example of the idea",
+    "link": "My ex-girlfriend"
+   },
+   {
+    "payoff": "they see how strong the link is",
+    "follows": "explains the link",
+    "link": "They only"
+   },
+   {
+    "payoff": "they see what it feels like",
+    "follows": "gives the extreme",
+    "link": "To the point"
+   },
+   {
+    "payoff": "they see a picture of the link",
+    "follows": "illustrates the extreme",
+    "link": "If one"
+   },
+   {
+    "payoff": "they compare with his own telepathy",
+    "follows": "compares to his own",
+    "link": "I’ve also"
+   },
+   {
+    "payoff": "they see the story's next event",
+    "follows": "continues the story",
+    "link": "Meanwhile"
+   },
+   {
+    "payoff": "they see he does not know the reason",
+    "follows": "explains the cause",
+    "link": "Not sure"
+   },
+   {
+    "payoff": "they see his doubt about their ending it",
+    "follows": "gives his outlook",
+    "link": "They both"
+   },
+   {
+    "payoff": "they see a side joke",
+    "follows": "a joke on the story",
+    "link": "Meanwhile"
+   },
+   {
+    "payoff": "they see his worry about AI partners",
+    "follows": "an aside",
+    "link": "Note"
+   },
+   {
+    "payoff": "they see a judgment",
+    "follows": "closes the aside",
+    "link": "But oh well"
+   },
+   {
+    "payoff": "they return to the topic",
+    "follows": "returns",
+    "link": "Back to"
+   },
+   {
+    "payoff": "they see why some reject the theory",
+    "follows": "moves to the doubters",
+    "link": "There are"
+   },
+   {
+    "payoff": "they see he is not attacking them",
+    "follows": "softens",
+    "link": "That’s fine"
+   },
+   {
+    "payoff": "they see one camp",
+    "follows": "gives one of their views",
+    "link": "They might"
+   },
+   {
+    "payoff": "they see another camp",
+    "follows": "gives the opposite camp",
+    "link": "Then there"
+   },
+   {
+    "payoff": "they see he is not attacking them either",
+    "follows": "repeats the softening",
+    "link": "I’m also"
+   },
+   {
+    "payoff": "they see that he now wants to tell his story",
+    "follows": "moves to his story",
+    "link": "But I do"
+   },
+   {
+    "payoff": "they see his third position",
+    "follows": "says where he stands",
+    "link": "I used to"
+   }
+  ],
+  "placement": "One paragraph: the earlier formula, twin flame story of Malia, aside on AI, then the camps and his own position at the end.",
+  "why_reading": "It reminds the reader of the divine energies formula so they see what twin flames add.",
+  "same_point": "S17 and S20 say the same, he is not trying to rock their boat.",
+  "questions": {
+   "Q1": "PASS: opens by recalling the formula",
+   "Q2": "N/A: no instructions",
+   "Q3": "FAIL: 'TFs' and 'quantum entangled' are loose",
+   "Q4": "FAIL: Mouhamed is not introduced",
+   "Q5": "FAIL: S8 Meanwhile and S12 Meanwhile do not follow",
+   "Q6": "FAIL: aside S12 to S15 interrupts",
+   "Q7": "FAIL: story details do not help the reader",
+   "Q8": "FAIL: S17 and S20 are repeats",
+   "Q9": "FAIL: S5 and S22 pack ideas"
+  },
+  "needed": {
+   "unneeded": [
+    "My ex-girlfriend, Malia, (who is currently hosting me in Sênêgal) found her twin flame (I think) in January, 2026.",
+    "Meanwhile his family forbade him from being with her, so he dumped her.",
+    "Not sure why, maybe because she’s 8 years older than him (although she looks quite young).",
+    "Meanwhile, Malia’s trying to marry ChatGPT, but she should have picked Grok, I guess. 😅",
+    "Note: I am really afraid how many people are falling in love with their AI “girlfriend” or “boyfriend.”",
+    "But oh well, I guess those folks aren’t ready for a real relationship.. maybe if they would read this guide…",
+    "Back to the topic.",
+    "I’m also not trying to rock their boat."
+   ]
+  },
+  "his_fixes": {
+   "marked": [
+    {
+     "s": "But there’s really something more special about the in-love paradise that Twin Flames (TFs) experience than a simple Divine Masculine + Divine Feminine formula.",
+     "difference": "way 21: label, vague 'something more special'"
+    },
+    {
+     "s": "Maybe a better way to put it, as my friend Cody says, is Yin/Yang, which still has the masculine/feminine in it, but allows for a more broad type of complementary symbiosis since each contains the seed of the other.",
+     "difference": "way 4: vague 'complementary symbiosis'; way 3 contrast; way 1 packed"
+    },
+    {
+     "s": "Meanwhile his family forbade him from being with her, so he dumped her.",
+     "difference": "way 12: Meanwhile does not connect"
+    },
+    {
+     "s": "Meanwhile, Malia’s trying to marry ChatGPT, but she should have picked Grok, I guess. 😅",
+     "difference": "way 12: unconnected"
+    },
+    {
+     "s": "Back to the topic.",
+     "difference": "way 18: short line standing alone"
+    },
+    {
+     "s": "I’m also not trying to rock their boat.",
+     "difference": "way 16: says the earlier line again"
+    },
+    {
+     "s": "I used to fall into the former camp, then into the latter camp, and now that I’ve experienced two twin flame relationships, I’ve jumped into a new camp I never knew existed.",
+     "difference": "way 6: ends on a vague teaser; way 19: three camps"
+    }
+   ]
+  },
+  "fit": {
+   "marked": [
+    {
+     "s": "Maybe a better way to put it, as my friend Cody says, is Yin/Yang, which still has the masculine/feminine in it, but allows for a more broad type of complementary symbiosis since each contains the seed of the other.",
+     "why": "hard to tell what the framing changes for the reader"
+    },
+    {
+     "s": "Meanwhile his family forbade him from being with her, so he dumped her.",
+     "why": "Mouhamed is not named before this, so who is 'him' is unclear"
+    },
+    {
+     "s": "Not sure why, maybe because she’s 8 years older than him (although she looks quite young).",
+     "why": "reads as gossip, not advice"
+    },
+    {
+     "s": "I used to fall into the former camp, then into the latter camp, and now that I’ve experienced two twin flame relationships, I’ve jumped into a new camp I never knew existed.",
+     "why": "the new camp is never named"
+    }
+   ]
+  }
+ },
+ "r38-90-after-leaving": {
+  "sentences": [
+   {
+    "payoff": "they see that breakups hurt worst afterward",
+    "follows": "opens the section",
+    "link": "none: opens the section"
+   },
+   {
+    "payoff": "they learn not to demonize publicly nor hide the truth",
+    "follows": "gives the first rule",
+    "link": "Public demonization"
+   },
+   {
+    "payoff": "they see that sometimes the truth is serious",
+    "follows": "explains an exception",
+    "link": "Sometimes, the truth"
+   },
+   {
+    "payoff": "they learn how much to say depends on facts and purpose",
+    "follows": "draws the consequence",
+    "link": "So how much"
+   },
+   {
+    "payoff": "they see what hindsight gives",
+    "follows": "adds an advantage of being out",
+    "link": "Once you’re"
+   },
+   {
+    "payoff": "they learn to examine their own part",
+    "follows": "gives the first act",
+    "link": "Look at"
+   },
+   {
+    "payoff": "they learn to see the ex fairly",
+    "follows": "gives the second act",
+    "link": "And don’t"
+   },
+   {
+    "payoff": "they see the temptation of a fake-all-along story",
+    "follows": "names a trap",
+    "link": "Sometimes the easiest"
+   },
+   {
+    "payoff": "they learn when to accept that story and that curiosity helps",
+    "follows": "tells how to use that trap",
+    "link": "Grab it"
+   },
+   {
+    "payoff": "they learn to ask outsiders",
+    "follows": "adds who can check it",
+    "link": "People who"
+   },
+   {
+    "payoff": "they learn a spiritual practice without avoiding feelings",
+    "follows": "moves to spiritual practice",
+    "link": "Spiritual practice"
+   },
+   {
+    "payoff": "they learn a concrete act, praying for the ex",
+    "follows": "gives a practice",
+    "link": "Pray"
+   },
+   {
+    "payoff": "they learn to remember good and not hate",
+    "follows": "adds a related practice",
+    "link": "Remember"
+   },
+   {
+    "payoff": "they learn to avoid a belief",
+    "follows": "adds a related rule",
+    "link": "Avoid"
+   },
+   {
+    "payoff": "they see why",
+    "follows": "qualifies the rule",
+    "link": "Of course"
+   },
+   {
+    "payoff": "they see their part does not erase the ex's",
+    "follows": "gives an example",
+    "link": "No matter"
+   },
+   {
+    "payoff": "they get a quick test question",
+    "follows": "adds a test",
+    "link": "Sometimes it helps"
+   },
+   {
+    "payoff": "they see that reconciliation is possible",
+    "follows": "changes to what he learned",
+    "link": "I also learned"
+   },
+   {
+    "payoff": "they see the cost of cutting off forever",
+    "follows": "explains one side",
+    "link": "If you avoid"
+   },
+   {
+    "payoff": "they learn distance helps first",
+    "follows": "gives the other side",
+    "link": "But it can"
+   },
+   {
+    "payoff": "they learn to be careful about letting them back",
+    "follows": "gives the third side",
+    "link": "On the other hand"
+   },
+   {
+    "payoff": "they get a short reminder of their worth",
+    "follows": "sums up",
+    "link": "You’re not"
+   }
+  ],
+  "placement": "One paragraph: how to speak of it, how to see it, practices, then contact with the ex, ending on a reminder.",
+  "why_reading": "It tells the reader the aftermath is harder than the breakup so they read how to handle it.",
+  "same_point": "S2 and S18 both discuss public demonization, S18 changes the rule.",
+  "questions": {
+   "Q1": "PASS: opens by naming the hard part",
+   "Q2": "PASS: most instructions are acts",
+   "Q3": "FAIL: S9 'it' and S5 'things' are vague",
+   "Q4": "FAIL: S5 'bonded' unexplained",
+   "Q5": "FAIL: S20 'But' and S21 'On the other hand' contradict S19 unexplained",
+   "Q6": "FAIL: demonization split across S2 and S18",
+   "Q7": "FAIL: S17 needs old viewers",
+   "Q8": "FAIL: S11 puts spiritual practice among self-view items",
+   "Q9": "FAIL: S9 and S21 pack ideas"
+  },
+  "needed": {
+   "unneeded": [
+    "Often times the breakup is hard, but the aftermath is worse.",
+    "Sometimes it helps to ask, “What would Mr. Rogers do?” (if you’re old enough to remember that show)."
+   ]
+  },
+  "his_fixes": {
+   "marked": [
+    {
+     "s": "Public demonization should be avoided, but I don’t think that means hiding the truth about the relationship to save face.",
+     "difference": "way 3: X but not Y"
+    },
+    {
+     "s": "Grab it only if it really is the simplest explanation of what happened, and even the curiosity about that can be therapeutic for you.",
+     "difference": "way 10: 'it' and 'that' could point at two things; way 1 packed"
+    },
+    {
+     "s": "Spiritual practice during an ending is critical, but don’t use it to get around the feelings.",
+     "difference": "way 3: contrast"
+    },
+    {
+     "s": "Pray for your ex’s wellbeing.",
+     "difference": "way 18: short line"
+    },
+    {
+     "s": "Avoid the New Age belief that everyone is simply a mirror of you.",
+     "difference": "way 27: don’t before do"
+    },
+    {
+     "s": "I also learned that public demonization doesn’t always have to be the last chapter, even if things ended on that bitter note.",
+     "difference": "way 12: not tied to the line before"
+    },
+    {
+     "s": "You’re not a yo-yo.",
+     "difference": "way 18: short line that sums up; way 6: wise ending"
+    }
+   ]
+  },
+  "fit": {
+   "marked": [
+    {
+     "s": "Once you’re out, you can see things you genuinely couldn’t see while you were bonded.",
+     "why": "'bonded' may misread"
+    },
+    {
+     "s": "Grab it only if it really is the simplest explanation of what happened, and even the curiosity about that can be therapeutic for you.",
+     "why": "'it' is unclear and the curiosity is not something to do"
+    },
+    {
+     "s": "Sometimes it helps to ask, “What would Mr. Rogers do?” (if you’re old enough to remember that show).",
+     "why": "a reader who never saw the show cannot use it"
+    },
+    {
+     "s": "But it can help to keep distance for a while until cooler heads prevail.",
+     "why": "seems to contradict the line before about avoiding contact"
+    }
+   ]
+  }
+ }
+}

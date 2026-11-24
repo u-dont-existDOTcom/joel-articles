@@ -51,3 +51,9 @@ below High.
 
 `r37/sections.py` wrote this round's cut over `r37/checks/` before r38 had its own copy; r37's files were put back from
 Git, and both scripts now refuse to write over an existing `checks/` folder without `--again`.
+
+## The junk pass (same turn)
+
+The 21 partly real passages that still stood, fixed his way and checked in their 16 sections, all Human High in every
+window: [junk/README.md](junk/README.md). 14 fixes are in (`junk/MINE-R38J.json`); three are cards on the eighth marking
+page with two questions (https://claude.ai/artifact/BfqATtsRc1ciJZSfmAjv8f).

@@ -1,6 +1,6 @@
 # The fixed version: every changed paragraph
 
-The live post ("Romance Advice I Wish My Parents Taught Me") with each section's and spot's best tested text in place (`assemble.py`, `build.py`), and his own versions from his answers over them (`../r30/HIS-T4.json`, his Medium page of 2026-11-22). Paragraph numbers are the post page's paragraph list (`LIVE-INDEX.txt`). "Two Pillars" 332 is his own new version (it was the owner lock). 169 changes, 184 live paragraphs changed.
+The live post ("Romance Advice I Wish My Parents Taught Me") with each section's and spot's best tested text in place (`assemble.py`, `build.py`), and his own versions from his answers over them (`../r30/HIS-T4.json`, his Medium page of 2026-11-22). Paragraph numbers are the post page's paragraph list (`LIVE-INDEX.txt`). "Two Pillars" 332 is his own new version (it was the owner lock). 184 changes, 195 live paragraphs changed.
 
 ## 1. S1 (live 28)
 
@@ -2150,4 +2150,184 @@ Read by my tested change R38-42 (MINE-R38.json): [result](https://www.pangram.co
 **New:**
 
 > Dealing with somebody else’s emotional insecurities can also be exhausting. It’s easy to feel free when I don’t have to do that, especially since I’m a bit of an introvert and 10% autistic. All that works wonderfully until I’m in a romantic relationship and suddenly I’m expected to mind-read, silences included, and check in constantly, without ever manipulating her. Bee would accuse me of manipulating her even when I was making an effort not to, and ironically, she actually wanted me to manipulate her more.
+
+## 170. Labels Are Descriptive, Not Prescriptive (live 41)
+
+Read by my tested change R38J-09 (MINE-R38J.json): [result](https://www.pangram.com/history/d350c49e-7388-4195-9c0e-d68d1a7d06c1).
+
+**Live:**
+
+> The full conversation is so big that almost nobody would have casual sex if they took it seriously. Which is why almost nobody has the full conversation. I can’t decide what is okay for anybody else. I can say that most people who defend casual sex are not being very honest with themselves about pregnancy, attachment, or what they might owe the person afterward.
+
+**New:**
+
+> I can’t decide what is okay for anybody else. I can say that most people who defend casual sex are not being very honest with themselves about pregnancy, attachment, or what they might owe the person afterward, a conversation so big that almost nobody would have casual sex if they took it seriously. Which is why almost nobody has the full conversation.
+
+## 171. Peeking thru the window (live 113)
+
+Read by my tested change R38J-24 (MINE-R38J.json): [result](https://www.pangram.com/history/83f2bd73-ac4a-45e6-a812-25d6593e9d78).
+
+**Live:**
+
+> Before the wisdom window closes, the main thing is to find out whether you are actually compatible. Do you have the same goals and values, especially around children, religion, politics, health, love, and romance? Where do you want to live? Do you both want to find a community? What kind of relationship do you want with technology and money?
+
+**New:**
+
+> Before the window of clarity closes, the main thing is to find out whether you are actually compatible. Do you have the same goals and values, especially around children, religion, politics, health, love, and romance? Where do you want to live? Do you both want to find a community? What kind of relationship do you want with technology and money?
+
+## 172. Peeking thru the window (live 118)
+
+Read by my tested change R38J-25 (MINE-R38J.json): [result](https://www.pangram.com/history/389d4b27-460e-41f4-95d1-b7a19ebcc09a).
+
+**Live:**
+
+> See their negative side first too. If there is no negative side, that’s a red flag for fakery. Ask whether the spiritual story they tell about themselves survives an inconvenient PMS afternoon. How recent is the healing story—two months or two years? Jealousy, abandonment, possessiveness, and the “I’m so much better than I used to be” story may not be understood until there is stress and entanglement. By then, of course, you’re stressed and entangled. 😆
+
+**New:**
+
+> See their negative side first too. If there is no negative side, that’s a red flag for fakery. Ask whether the spiritual story they tell about themselves survives an inconvenient PMS afternoon. How recent is the healing story—two months or two years? You may not see their jealousy, abandonment and possessiveness until there is stress and entanglement, and that’s also when you find out whether the “I’m so much better than I used to be” story survives. By then, of course, you’re stressed and entangled. 😆
+
+## 173. Things get tricky fast (live 139)
+
+Read by my tested change R38J-29 (MINE-R38J.json): [result](https://www.pangram.com/history/8d300648-e283-4b37-842c-ff05f7caeaf5).
+
+**Live:**
+
+> Couples withdraw from friends who aren’t supportive of the romantic dyad, and they also stop telling friends the whole truth. Sharp questions start to feel rude. An obvious problem dissolves into, “but I love her,” and the small world of the relationship starts feeling more real than the rest of life. The relationship can close off at exactly the point when both people most need a view from outside it.
+
+**New:**
+
+> Couples withdraw from friends who aren’t supportive of the romantic dyad, and they also stop telling friends the whole truth. Sharp questions start to feel rude. An obvious problem dissolves into, “but I love her,” and right when both people most need a view from outside, the small world of the relationship starts feeling more real than the rest of life.
+
+## 174. Anti-PTSD Can Be Just As Dangerous As PTSD (live 159)
+
+Read by my tested change R38J-33 (MINE-R38J.json): [result](https://www.pangram.com/history/f6992267-1ad3-4d02-812b-4b8049fc7455).
+
+**Live:**
+
+> I don’t know whether that unconditional love ended up being true. I think it was true in a part of her, and it may also have been the BPD idealization. You have to look at everything from multiple angles. But when you’re in love, you see everything from the love angle. That’s the reality shift I’m talking about. It’s great if the ground underneath is prepared for it. If the rose-colored glasses go on when you’re with the wrong person, they make it even harder to understand what’s real.
+
+**New:**
+
+> I don’t know whether that unconditional love ended up being true. I think it was true in a part of her, and it may also have been the BPD idealization. You have to look at everything from multiple angles. But when you’re in love, you see everything from the love angle. That’s the reality shift I’m talking about. The love angle is great if the ground underneath the relationship is prepared for it, but if the rose-colored glasses go on when you’re with the wrong person, they make it even harder to understand what’s real.
+
+## 175. Anti-PTSD Can Be Just As Dangerous As PTSD (live 162)
+
+Read by my tested change R38J-33 (MINE-R38J.json): [result](https://www.pangram.com/history/f6992267-1ad3-4d02-812b-4b8049fc7455).
+
+**Live:**
+
+> That doesn’t mean I’d advise somebody to knowingly enter a dangerous relationship because it may be worth it. Going in, it helps to recognize your pattern, stop idealizing without becoming suspicious and closed, and have some idea what you’re getting into.
+
+**New:**
+
+> That doesn’t mean I’d advise somebody to knowingly enter a dangerous relationship because it may be worth it. Going in, it helps to recognize your pattern and stop idealizing, without becoming suspicious and closed, so you have some idea what you’re getting into.
+
+## 176. Seeing idealization right (live 167)
+
+Read by my tested change R38J-34 (MINE-R38J.json): [result](https://www.pangram.com/history/4fca819f-3ceb-4696-9101-4cad8af7c8ae).
+
+**Live:**
+
+> Partners should help each other grow. Who else is going to do it? Your mom and dad? You’re already grown to them. Everybody else will usually be a smaller influence, so you’d better choose someone who helps you grow well. Like the FM Laeti song down in the Twin Flames section says, “Inspire her to see the best in herself, actualize that.” If something severe is happening, sometimes a demand or boundary is necessary too.
+
+**New:**
+
+> Partners should help each other grow. Who else is going to do it, your mom and dad? You’re already grown to them. Everybody else will usually be a smaller influence, so you’d better choose someone who helps you grow well. Like the FM Laeti song down in the Twin Flames section says, “Inspire her to see the best in herself, actualize that,” though if something severe is happening, sometimes a demand or boundary is necessary too.
+
+## 177. Disconnect to connect (live 224)
+
+Read by my tested change R38J-46 (MINE-R38J.json): [result](https://www.pangram.com/history/8adb74f8-50a4-44bb-bc10-a791b91a8969).
+
+**Live:**
+
+> Meditation is also helpful. For most people, I would still put inner-child reparenting, peer counseling, and body-based work first or make them primary meditation targets. Many people say they cannot meditate or have not gotten to that stage yet. Meditation without grounding in those approaches can easily be a road into spiritual bypassing.
+
+**New:**
+
+> Meditation is also helpful, but for most people, I would still put inner-child reparenting, peer counseling, and body-based work first, or make those the main things they meditate on. Many people say they cannot meditate or have not gotten to that stage yet, and meditation without grounding in those approaches can easily be a road into spiritual bypassing.
+
+## 178. Babies growing up again (live 226)
+
+Read by my tested change R38J-47 (MINE-R38J.json): [result](https://www.pangram.com/history/6581e774-d26b-4cff-b3f5-0dae7f0746b3).
+
+**Live:**
+
+> Nobody has to be completely healed before entering a relationship. And I think that as we learn more about ourselves through the crucible, we should naturally raise our standards. Maybe at first we need the drama to access our primal emotions, but after years of that, we’re exhausted by what we previously hoped to find.
+
+**New:**
+
+> Nobody has to be completely healed before entering a relationship, but I think that as we learn more about ourselves through the crucible, we should naturally raise our standards. Maybe at first we need the drama to access our primal emotions, but after years of that, we’re exhausted by what we previously hoped to find.
+
+## 179. Babies growing up again (live 228)
+
+Read by my tested change R38J-47 (MINE-R38J.json): [result](https://www.pangram.com/history/6581e774-d26b-4cff-b3f5-0dae7f0746b3).
+
+**Live:**
+
+> I already said before dating that the present-day adult has to be able to parent whatever intimacy wakes up inside you. Once you’re together, more of that stuff comes out. Inner-child reparenting means parenting the child part instead of surreptitiously hiring the partner for the job.
+
+**New:**
+
+> I already said that before dating, the present-day adult has to be able to parent whatever intimacy wakes up inside you. Once you’re together, more of that stuff comes out. Inner-child reparenting means parenting the child part instead of surreptitiously hiring the partner for the job.
+
+## 180. Twin Flames? (live 313)
+
+Read by my tested change R38J-64 (MINE-R38J.json): [result](https://www.pangram.com/history/02df440f-5b80-48d2-aa8f-33d2ced8a343).
+
+**Live:**
+
+> In the previous section, I mentioned the divine feminine and divine masculine energies that you can channel to keep eroticism alive. But there’s really something more special about the in-love paradise that Twin Flames (TFs) experience than a simple Divine Masculine + Divine Feminine formula. Maybe a better way to put it, as my friend Cody says, is Yin/Yang, which still has the masculine/feminine in it, but allows for a more broad type of complementary symbiosis since, each contains the seed of the other.
+
+**New:**
+
+> Earlier, I mentioned the divine feminine and divine masculine energies that you can channel to keep eroticism alive. But there’s really something more special about the in-love paradise that Twin Flames (TFs) experience than a simple Divine Masculine + Divine Feminine formula. Maybe a better way to put it, as my friend Cody says, is Yin/Yang, which still has the masculine/feminine in it, but allows for a more broad type of complementary symbiosis since each contains the seed of the other.
+
+## 181. Gaslighting in the dark (live 433)
+
+Read by my tested change R38J-89 (MINE-R38J.json): [result](https://www.pangram.com/history/62a78ddb-899a-4516-97bc-07c037572eac).
+
+**Live:**
+
+> Many say it’s best to save face and work things out privately, but I’d disagree. If you don’t have friends who can help with the conflict, then you’re really stuck (and you might wanna find some new friends). But do it honestly, with the goal of helping the conflict, not just getting approval for your own interpretation. Both people should have a chance to speak, and good friends shouldn’t automatically validate either side.
+
+**New:**
+
+> Many say it’s best to save face and work things out privately, but I’d disagree. If you don’t have friends who can help with the conflict, then you’re really stuck (and you might wanna find some new friends). And when you do ask friends for help, do it fairly, with the goal of resolving the conflict, not just getting approval for your own interpretation: both people should get a chance to speak, and good friends should hear both sides before validating either.
+
+## 182. After leaving (live 439)
+
+Read by my tested change R38J-90 (MINE-R38J.json): [result](https://www.pangram.com/history/8078da4a-e14e-412d-9a7c-f81454fe4558).
+
+**Live:**
+
+> Sometimes the easiest story is that they were fake all along. Don’t grab that story just because it makes everything easier to explain, and don’t reject it if it really is the most parsimonious explanation. Ask people who aren’t heavily invested in seeing your innocence. A therapist, pastor, or even a stranger may see the evidence more clearly than a lifelong friend. Even the curiosity itself can be therapeutic for you.
+
+**New:**
+
+> Sometimes the easiest story is that they were fake all along, because it explains everything. Grab it only if it really is the simplest explanation of what happened, and even the curiosity about that can be therapeutic for you. People who aren’t heavily invested in seeing your innocence can help you tell, and a therapist, pastor, or even a stranger may see the evidence more clearly than a lifelong friend.
+
+## 183. Tough Love (live 449)
+
+Read by my tested change R38J-92 (MINE-R38J.json): [result](https://www.pangram.com/history/85106123-7f10-4138-b9bd-ccb72ddfc237).
+
+**Live:**
+
+> A relationship like this is rare, and that’s probably why romantic love has been seen with suspicion as a destabilizing force throughout history. One of the best books that makes that point today might be the one I was reading with Key: The Spirit of Intimacy, by Sobonfu Somé. Somé came from the Dagara tribe in Burkina Faso. To her people, marriage is an arranged, ritualized spiritual and communal responsibility. They’re suspicious of romance. But one of her ideas fits what I’m trying to say: the relationship is bigger and more important than the egos in it. She calls it the spirit of the relationship.
+
+**New:**
+
+> A relationship like this is rare, and that’s probably why romantic love has been seen with suspicion as a destabilizing force throughout history. One of the best books that makes that point today might be the one I was reading with Key: The Spirit of Intimacy, by Sobonfu Somé. Somé came from the Dagara tribe in Burkina Faso. To her people, marriage is an arranged, ritualized spiritual and communal responsibility, and they’re suspicious of romance. But one of her ideas fits what I’m trying to say: the relationship is bigger and more important than the egos in it. She calls it the spirit of the relationship.
+
+## 184. Tough Love (live 450)
+
+Read by my tested change R38J-92 (MINE-R38J.json): [result](https://www.pangram.com/history/85106123-7f10-4138-b9bd-ccb72ddfc237).
+
+**Live:**
+
+> That spirit is like the universe living its desire to know itself through us, which might be why we see ourselves in ways we can’t imagine prior. Nobody can command the spirit to remain. At our best, we serve it and listen for what Spirit wants to change. When we start thinking we own it or deserve it, that presumptuousness tends to push it away.
+
+**New:**
+
+> That spirit is like the universe living its desire to know itself through us, which might be why we see ourselves in ways we couldn’t imagine before. Nobody can command the spirit to remain. At our best, we serve it and listen for what Spirit wants to change. When we start thinking we own it or deserve it, that presumptuousness tends to push it away.
 

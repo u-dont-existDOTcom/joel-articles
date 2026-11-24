@@ -237,13 +237,18 @@ with his OK and no email.
   and with leave to cut unneeded lines Human with Medium and Low windows (`r30/replay7/`, `r30/replay8/`); lesson
   romance-2026-11-24a and way 28 of the brief say what his fix did and where a blind writer stops; lesson b, that a
   clause a reader can't parse is fixed by its meaning, his to give.
+- 2026-11-24 (same turn): the junk pass. Of the 30 partly real passages of `r30/junk/VETTED.md`, 21 still stood; fixed his
+  way (only the flagged words, nothing added) and checked in their 16 sections, all read Human High in every window, four
+  after a second try that joined a short line the fix had left by itself (`humanize/fix-20261107/r38/junk/README.md`,
+  lesson romance-2026-11-24c). 14 fixes keep the meaning and are in (`r38/junk/MINE-R38J.json`); three are cards on the
+  eighth marking page (https://claude.ai/artifact/BfqATtsRc1ciJZSfmAjv8f, `review/teach-20261124b/REVIEW-T8.md`), with
+  two questions on what he meant (B476, B478); B391 stays as it was. Every section check of the fixed version reads Human
+  High in every window.
 
 ## Next step
 
-The 33 partly real passages of `r30/junk/VETTED.md` (B210 is now fixed from his answer to Q-42; first, which of the
-rest still stand in the fixed version), the way his sixth-page versions show (lesson romance-2026-11-23h):
-change only the flagged words, with words the passage already has, and add nothing; the sections their fixes touch get
-one recheck each. Then the drafts re-pasted for his last whole-article check; then his post is updated with his OK (no
+His eighth-page answers (`review/teach-20261124b/`): the cards he approves go in, and his lines on B476 and B478 start
+their fixes. Then the drafts re-pasted for his last whole-article check; then his post is updated with his OK (no
 email): 366's link to Esther Perel's post, the reel embedded after 149, the typography swap and the "Updated" date.
 
 ### Before 2026-11-07 (the registered master, as recorded then)

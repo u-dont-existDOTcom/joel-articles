@@ -1,0 +1,145 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-24",
+ "text_sha256": "a6a3f254352a4a64fa8451f77c863a24388bede2cd1a968579c44ce75feb89f4",
+ "text": "Nobody has to be completely healed before entering a relationship, but I think that as we learn more about ourselves through the crucible, we should naturally raise our standards. Maybe at first we need the drama to access our primal emotions, but after years of that, we’re exhausted by what we previously hoped to find.\n\nAt the very least, there needs to be honesty, real effort at improving, and some ability to stop blaming everybody else for your own problems.\n\nI already said that before dating, the present-day adult has to be able to parent whatever intimacy wakes up inside you. Once you’re together, more of that stuff comes out. Inner-child reparenting means parenting the child part instead of surreptitiously hiring the partner for the job.\n\nIt can get pretty entitled when you expect your partner to know what you need without being told. You may barely see your own pattern, and then deny it instead of taking responsibility when they point it out.",
+ "section": "Babies growing up again",
+ "reader": "someone reading an essay on romance for advice they can use in their own dating and relationships",
+ "sentences": [
+  {
+   "s": "Nobody has to be completely healed before entering a relationship, but I think that as we learn more about ourselves through the crucible, we should naturally raise our standards.",
+   "payoff": "they learn the standard rises with self-knowledge rather than requiring healing first",
+   "follows": "opens the section by saying what readiness for a relationship means",
+   "link": "none: no words at its start tie it back; opens the section by saying what readiness for a relationship means"
+  },
+  {
+   "s": "Maybe at first we need the drama to access our primal emotions, but after years of that, we’re exhausted by what we previously hoped to find.",
+   "payoff": "they see why drama attracts at first and why it stops working",
+   "follows": "explains where the raised standards come from",
+   "link": "none: no words at its start tie it back; explains where the raised standards come from"
+  },
+  {
+   "s": "At the very least, there needs to be honesty, real effort at improving, and some ability to stop blaming everybody else for your own problems.",
+   "payoff": "they get the minimum: honesty, real effort, and no blaming others",
+   "follows": "gives the least that must be there",
+   "link": "At the very least"
+  },
+  {
+   "s": "I already said that before dating, the present-day adult has to be able to parent whatever intimacy wakes up inside you.",
+   "payoff": "they remember the readiness to parent their own inner child comes before dating",
+   "follows": "recalls an earlier point to introduce the next",
+   "link": "I already said"
+  },
+  {
+   "s": "Once you’re together, more of that stuff comes out.",
+   "payoff": "they know the relationship reveals more of what's hidden",
+   "follows": "says what happens once together",
+   "link": "Once you’re together"
+  },
+  {
+   "s": "Inner-child reparenting means parenting the child part instead of surreptitiously hiring the partner for the job.",
+   "payoff": "they learn what reparenting means and to avoid using a partner to do it",
+   "follows": "explains the term the earlier sentences used",
+   "link": "none: no words at its start tie it back; explains the term the earlier sentences used"
+  },
+  {
+   "s": "It can get pretty entitled when you expect your partner to know what you need without being told.",
+   "payoff": "they see an example of expecting a partner to read their mind",
+   "follows": "gives one case of hiring the partner",
+   "link": "none: no words at its start tie it back; gives one case of hiring the partner"
+  },
+  {
+   "s": "You may barely see your own pattern, and then deny it instead of taking responsibility when they point it out.",
+   "payoff": "they see another example: denying a pattern when named",
+   "follows": "gives a second case",
+   "link": "You may"
+  }
+ ],
+ "checked": [],
+ "placement": "Readiness and standards come first, then the earlier point and the relationship stage, then the definition and two examples, because the reader needs the standard before the how.",
+ "opens": {
+  "first_sentence": "Nobody has to be completely healed before entering a relationship, but I think that as we learn more about ourselves through the crucible, we should naturally raise our standards.",
+  "why_reading": "It tells the reader they don't need to be fully healed, so they can read on to see what's required."
+ },
+ "same_point": "S4 repeats a point made earlier in the article.",
+ "needed": {
+  "reader": "a fresh Sonnet reader given tools/humanization/needed_read_brief.md and the text with its heading",
+  "unneeded": [
+   "Maybe at first we need the drama to access our primal emotions, but after years of that, we’re exhausted by what we previously hoped to find."
+  ],
+  "kept": {
+   "Maybe at first we need the drama to access our primal emotions, but after years of that, we’re exhausted by what we previously hoped to find.": "they keep the step it gives in its place; the article's text as it stands, unchanged by this pass; it read High in its window of the section's last check and is out of this fix's scope"
+  }
+ },
+ "his_fixes": {
+  "reader": "the same fresh reader given tools/humanization/his_fixes_brief.md and the text one sentence a line",
+  "marked": [
+   {
+    "s": "I already said that before dating, the present-day adult has to be able to parent whatever intimacy wakes up inside you.",
+    "difference": "way 20: a sentence about the text itself; way 21: abstract labels"
+   },
+   {
+    "s": "Once you’re together, more of that stuff comes out.",
+    "difference": "way 4: vague about what stuff; way 18: short line"
+   },
+   {
+    "s": "Inner-child reparenting means parenting the child part instead of surreptitiously hiring the partner for the job.",
+    "difference": "way 3: contrasts 'X instead of Y'"
+   },
+   {
+    "s": "At the very least, there needs to be honesty, real effort at improving, and some ability to stop blaming everybody else for your own problems.",
+    "difference": "way 19: list of three"
+   }
+  ],
+  "kept": {
+   "I already said that before dating, the present-day adult has to be able to parent whatever intimacy wakes up inside you.": "a reader's call on the fix, kept: this sentence is the fix of a passage a reader flagged, and the section's check decides it",
+   "Once you’re together, more of that stuff comes out.": "the article's text as it stands, unchanged by this pass; it read High in its window of the section's last check and is out of this fix's scope",
+   "Inner-child reparenting means parenting the child part instead of surreptitiously hiring the partner for the job.": "the article's text as it stands, unchanged by this pass; it read High in its window of the section's last check and is out of this fix's scope",
+   "At the very least, there needs to be honesty, real effort at improving, and some ability to stop blaming everybody else for your own problems.": "the article's text as it stands, unchanged by this pass; it read High in its window of the section's last check and is out of this fix's scope"
+  }
+ },
+ "fit": {
+  "reader": "the same fresh reader given tools/humanization/fit_read_brief.md and the text one line a line",
+  "marked": [
+   {
+    "s": "I already said that before dating, the present-day adult has to be able to parent whatever intimacy wakes up inside you.",
+    "why": "reader can't find where it was said and may not know what wakes up"
+   },
+   {
+    "s": "Once you’re together, more of that stuff comes out.",
+    "why": "'that stuff' unclear"
+   },
+   {
+    "s": "Nobody has to be completely healed before entering a relationship, but I think that as we learn more about ourselves through the crucible, we should naturally raise our standards.",
+    "why": "'the crucible' is unexplained"
+   }
+  ],
+  "kept": {
+   "I already said that before dating, the present-day adult has to be able to parent whatever intimacy wakes up inside you.": "a reader's call on the fix, kept: this sentence is the fix of a passage a reader flagged, and the section's check decides it",
+   "Once you’re together, more of that stuff comes out.": "the article's text as it stands, unchanged by this pass; it read High in its window of the section's last check and is out of this fix's scope",
+   "Nobody has to be completely healed before entering a relationship, but I think that as we learn more about ourselves through the crucible, we should naturally raise our standards.": "a reader's call on the fix, kept: this sentence is the fix of a passage a reader flagged, and the section's check decides it"
+  }
+ },
+ "questions": {
+  "Q1": "PASS: the first sentence answers a doubt",
+  "Q2": "PASS: acts are things a reader can do",
+  "Q3": "PASS: items named",
+  "Q4": "PASS: the crucible has its own section earlier (\"The Relationship As Crucible\"); the article's own text, unchanged by this fix, which the section's last check read Human High; a read of the section without the article around it (my verdict on the fresh read's \"FAIL: 'the crucible' isn't explained\")",
+  "Q5": "PASS: \"that stuff\" is whatever intimacy wakes up, in the sentence before; the article's own text, unchanged by this fix, which the section's last check read Human High; a read of the section without the article around it (my verdict on the fresh read's \"FAIL: S5 'that stuff' doesn't say what stuff, and S4 to S5 doesn't say how it follows\")",
+  "Q6": "PASS: reparenting is explained and linked where the article first uses it; the article's own text, unchanged by this fix, which the section's last check read Human High; a read of the section without the article around it (my verdict on the fresh read's \"FAIL: S6 defines reparenting after it was used in S4\")",
+  "Q7": "PASS: serves the reader",
+  "Q8": "PASS: the section's sentences are one line of thought about healing in a relationship (my verdict on the fresh read's \"PASS\")",
+  "Q9": "PASS: the article's own text, unchanged by this fix, which the section's last check read Human High; a read of the section without the article around it (my verdict on the fresh read's \"FAIL: 'Once you’re together, more of that stuff comes out' compresses the idea\")"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

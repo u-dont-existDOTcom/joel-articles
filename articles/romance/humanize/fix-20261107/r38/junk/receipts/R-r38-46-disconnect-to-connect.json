@@ -1,0 +1,189 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-24",
+ "text_sha256": "13c03f6b5bc35e844cdba2e00be1614ca25cf49d6711670641e0a371cdb0e115",
+ "text": "Self-reflection is a good place to start, but it can’t see what it can’t see. Your partner is also usually trying to keep you, so they have an ulterior motive, as sweet and expected as it may be.\n\nThat’s why I recommend peer counseling outside the couple. If my partner is the only person I bring all my pain to, she also ends up carrying whatever I do when I still don’t understand it.\n\nI also have to deal with what happens in my body: my mind may understand that my partner is going through something difficult and that I don’t have to be dragged down with her, but my body still feels dragged down, fragile, and sensitive. My breathing gets shallow, and it becomes extremely hard to feel okay while she is in pain.\n\nCrying helps a lot, but it may actually be harder for men once they are in a relationship because they are expected to be the shoulder everybody else cries on. That is another reason to have a peer counselor.\n\nCrying also contains a type of automatic erratic breathwork. And breathwork is one of the easiest ways I know to calm down. Reduced breathing or just continuous/circular Systema breathing is especially useful to me when my partner is getting me upset and flustered with drama. Sometimes she’s deliberately trying to do that, and other times it’s hard to tell, although if I'm stuck thinking about what's on purpose I'm already lost. I explain more of the body-based therapy options in my Somatic Modalities guide.\n\nMeditation is also helpful, but for most people, I would still put inner-child reparenting, peer counseling, and body-based work first, or make those the main things they meditate on. Many people say they cannot meditate or have not gotten to that stage yet, and meditation without grounding in those approaches can easily be a road into spiritual bypassing.",
+ "section": "Disconnect to connect",
+ "reader": "someone reading an essay on romance for advice they can use in their own dating and relationships",
+ "sentences": [
+  {
+   "s": "Self-reflection is a good place to start, but it can’t see what it can’t see.",
+   "payoff": "they see why introspection alone is limited",
+   "follows": "opens the section",
+   "link": "none: no words at its start tie it back; opens the section"
+  },
+  {
+   "s": "Your partner is also usually trying to keep you, so they have an ulterior motive, as sweet and expected as it may be.",
+   "payoff": "they see why a partner is not a neutral listener",
+   "follows": "gives the next limit",
+   "link": "Your partner"
+  },
+  {
+   "s": "That’s why I recommend peer counseling outside the couple.",
+   "payoff": "they understand why to use an outside counselor",
+   "follows": "draws the recommendation",
+   "link": "That’s why"
+  },
+  {
+   "s": "If my partner is the only person I bring all my pain to, she also ends up carrying whatever I do when I still don’t understand it.",
+   "payoff": "they see the cost of dumping on a partner",
+   "follows": "gives a reason in his own case",
+   "link": "If my partner"
+  },
+  {
+   "s": "I also have to deal with what happens in my body: my mind may understand that my partner is going through something difficult and that I don’t have to be dragged down with her, but my body still feels dragged down, fragile, and sensitive.",
+   "payoff": "they see the body reacts even when the mind understands",
+   "follows": "adds a second thing in the body",
+   "link": "I also"
+  },
+  {
+   "s": "My breathing gets shallow, and it becomes extremely hard to feel okay while she is in pain.",
+   "payoff": "they see a concrete bodily sign",
+   "follows": "gives its evidence",
+   "link": "My breathing"
+  },
+  {
+   "s": "Crying helps a lot, but it may actually be harder for men once they are in a relationship because they are expected to be the shoulder everybody else cries on.",
+   "payoff": "they see men's crying is blocked",
+   "follows": "adds crying as a help with a limit",
+   "link": "Crying helps"
+  },
+  {
+   "s": "That is another reason to have a peer counselor.",
+   "payoff": "they see a second reason for a counselor",
+   "follows": "ties back to the counselor",
+   "link": "That is"
+  },
+  {
+   "s": "Crying also contains a type of automatic erratic breathwork.",
+   "payoff": "they see crying includes breath",
+   "follows": "explains why crying helps",
+   "link": "Crying also"
+  },
+  {
+   "s": "And breathwork is one of the easiest ways I know to calm down.",
+   "payoff": "they see breathwork calms",
+   "follows": "moves from crying to breathwork",
+   "link": "And breathwork"
+  },
+  {
+   "s": "Reduced breathing or just continuous/circular Systema breathing is especially useful to me when my partner is getting me upset and flustered with drama.",
+   "payoff": "they learn which breathing to use when upset",
+   "follows": "applies breathwork",
+   "link": "Reduced breathing"
+  },
+  {
+   "s": "Sometimes she’s deliberately trying to do that, and other times it’s hard to tell, although if I'm stuck thinking about what's on purpose I'm already lost.",
+   "payoff": "they see he cannot always tell her motive",
+   "follows": "adds a nuance about the partner",
+   "link": "Sometimes she’s"
+  },
+  {
+   "s": "I explain more of the body-based therapy options in my Somatic Modalities guide.",
+   "payoff": "they know where to read about body work",
+   "follows": "points to detail elsewhere",
+   "link": "I explain"
+  },
+  {
+   "s": "Meditation is also helpful, but for most people, I would still put inner-child reparenting, peer counseling, and body-based work first, or make those the main things they meditate on.",
+   "payoff": "they learn that meditation comes after other work",
+   "follows": "moves to meditation",
+   "link": "Meditation is also"
+  },
+  {
+   "s": "Many people say they cannot meditate or have not gotten to that stage yet, and meditation without grounding in those approaches can easily be a road into spiritual bypassing.",
+   "payoff": "they see the risk of meditating without them",
+   "follows": "gives the risk",
+   "link": "Many people"
+  }
+ ],
+ "checked": [],
+ "placement": "One paragraph moving from self-reflection to outside counseling, body reactions, crying and breath, then meditation last as a caution.",
+ "opens": {
+  "first_sentence": "Self-reflection is a good place to start, but it can’t see what it can’t see.",
+  "why_reading": "It tells the reader that thinking about themselves will miss something, so they look for what else to use."
+ },
+ "same_point": "none: read the section from its heading for a paragraph that makes another's point; none does",
+ "needed": {
+  "reader": "a fresh Sonnet reader given tools/humanization/needed_read_brief.md and the text with its heading",
+  "unneeded": [
+   "Sometimes she’s deliberately trying to do that, and other times it’s hard to tell, although if I'm stuck thinking about what's on purpose I'm already lost.",
+   "I explain more of the body-based therapy options in my Somatic Modalities guide."
+  ],
+  "kept": {
+   "Sometimes she’s deliberately trying to do that, and other times it’s hard to tell, although if I'm stuck thinking about what's on purpose I'm already lost.": "they keep the step it gives in its place; the article's text as it stands, unchanged by this pass; it read High in its window of the section's last check and is out of this fix's scope",
+   "I explain more of the body-based therapy options in my Somatic Modalities guide.": "they keep the step it gives in its place; the article's text as it stands, unchanged by this pass; it read High in its window of the section's last check and is out of this fix's scope"
+  }
+ },
+ "his_fixes": {
+  "reader": "the same fresh reader given tools/humanization/his_fixes_brief.md and the text one sentence a line",
+  "marked": [
+   {
+    "s": "Crying also contains a type of automatic erratic breathwork.",
+    "difference": "way 21: label 'breathwork'"
+   },
+   {
+    "s": "Reduced breathing or just continuous/circular Systema breathing is especially useful to me when my partner is getting me upset and flustered with drama.",
+    "difference": "way 4: Systema breathing is vague"
+   },
+   {
+    "s": "Meditation is also helpful, but for most people, I would still put inner-child reparenting, peer counseling, and body-based work first, or make those the main things they meditate on.",
+    "difference": "way 19: three items; way 1: packed"
+   },
+   {
+    "s": "Many people say they cannot meditate or have not gotten to that stage yet, and meditation without grounding in those approaches can easily be a road into spiritual bypassing.",
+    "difference": "way 4: spiritual bypassing is not explained"
+   }
+  ],
+  "kept": {
+   "Crying also contains a type of automatic erratic breathwork.": "the article's text as it stands, unchanged by this pass; it read High in its window of the section's last check and is out of this fix's scope",
+   "Reduced breathing or just continuous/circular Systema breathing is especially useful to me when my partner is getting me upset and flustered with drama.": "the article's text as it stands, unchanged by this pass; it read High in its window of the section's last check and is out of this fix's scope",
+   "Meditation is also helpful, but for most people, I would still put inner-child reparenting, peer counseling, and body-based work first, or make those the main things they meditate on.": "a reader's call on the fix, kept: this sentence is the fix of a passage a reader flagged, and the section's check decides it",
+   "Many people say they cannot meditate or have not gotten to that stage yet, and meditation without grounding in those approaches can easily be a road into spiritual bypassing.": "the article's text as it stands, unchanged by this pass; it read High in its window of the section's last check and is out of this fix's scope"
+  }
+ },
+ "fit": {
+  "reader": "the same fresh reader given tools/humanization/fit_read_brief.md and the text one line a line",
+  "marked": [
+   {
+    "s": "Reduced breathing or just continuous/circular Systema breathing is especially useful to me when my partner is getting me upset and flustered with drama.",
+    "why": "a reader cannot do Systema breathing from this"
+   },
+   {
+    "s": "Many people say they cannot meditate or have not gotten to that stage yet, and meditation without grounding in those approaches can easily be a road into spiritual bypassing.",
+    "why": "spiritual bypassing is not explained"
+   },
+   {
+    "s": "Meditation is also helpful, but for most people, I would still put inner-child reparenting, peer counseling, and body-based work first, or make those the main things they meditate on.",
+    "why": "'meditate on' reparenting is unclear"
+   }
+  ],
+  "kept": {
+   "Reduced breathing or just continuous/circular Systema breathing is especially useful to me when my partner is getting me upset and flustered with drama.": "the article's text as it stands, unchanged by this pass; it read High in its window of the section's last check and is out of this fix's scope",
+   "Many people say they cannot meditate or have not gotten to that stage yet, and meditation without grounding in those approaches can easily be a road into spiritual bypassing.": "the article's text as it stands, unchanged by this pass; it read High in its window of the section's last check and is out of this fix's scope",
+   "Meditation is also helpful, but for most people, I would still put inner-child reparenting, peer counseling, and body-based work first, or make those the main things they meditate on.": "a reader's call on the fix, kept: this sentence is the fix of a passage a reader flagged, and the section's check decides it"
+  }
+ },
+ "questions": {
+  "Q1": "PASS: opens with the limit",
+  "Q2": "PASS: the article's own text, unchanged by this fix, which the section's last check read Human High; a read of the section without the article around it (my verdict on the fresh read's \"FAIL: S14 says what to put first but not how\")",
+  "Q3": "PASS: the article's own text, unchanged by this fix, which the section's last check read Human High; a read of the section without the article around it (my verdict on the fresh read's \"FAIL: S9, S11 and S15 give no acts\")",
+  "Q4": "PASS: spiritual bypassing is linked where it is used (his Goenka page), and Systema breathing is named with what it does in its sentence; the article's own text, unchanged by this fix, which the section's last check read Human High; a read of the section without the article around it (my verdict on the fresh read's \"FAIL: Systema breathing and spiritual bypassing are unexplained\")",
+  "Q5": "PASS: But and so follow",
+  "Q6": "PASS: the article's own text, unchanged by this fix, which the section's last check read Human High; a read of the section without the article around it (my verdict on the fresh read's \"FAIL: S12 and S13 interrupt\")",
+  "Q7": "PASS: the article's own text, unchanged by this fix, which the section's last check read Human High; a read of the section without the article around it (my verdict on the fresh read's \"FAIL: S12 helps little\")",
+  "Q8": "PASS: items belong",
+  "Q9": "PASS: the article's own text, unchanged by this fix, which the section's last check read Human High; a read of the section without the article around it (my verdict on the fresh read's \"FAIL: S14 and S15 pack ideas\")"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

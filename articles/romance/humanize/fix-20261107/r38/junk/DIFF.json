@@ -1,0 +1,340 @@
+{
+ "r38-09-labels-are-descriptive-not-prescriptive": {
+  "items": [
+   "B47"
+  ],
+  "heading": "Labels Are Descriptive, Not Prescriptive",
+  "gone": [
+   "The full conversation is so big that almost nobody would have casual sex if they took it seriously.",
+   "I can say that most people who defend casual sex are not being very honest with themselves about pregnancy, attachment, or what they might owe the person afterward."
+  ],
+  "new": [
+   "I can say that most people who defend casual sex are not being very honest with themselves about pregnancy, attachment, or what they might owe the person afterward, a conversation so big that almost nobody would have casual sex if they took it seriously."
+  ],
+  "unmarked_changed": [],
+  "judged": "- B47: real. Way 10 (and 24): “The full conversation” names nothing yet; what the conversation is about (pregnancy, attachment, what they might owe the person afterward) only comes two sentences later, and the friend story stands in between. Fixed by order: the sentence that names the subjects goes first, and “about all that” points at it.",
+  "meaning": "- B47: kept (same sentences, reordered; “about all that” added to name the conversation)",
+  "words": [
+   345,
+   343
+  ]
+ },
+ "r38-10-should-you-be-in-a-relationship-at-all": {
+  "items": [
+   "B50",
+   "B54"
+  ],
+  "heading": "Should you be in a relationship at all?",
+  "gone": [
+   "People don’t only trigger each other and learn lessons.",
+   "Sometimes they terrorize or kill each other.",
+   "It depends what each of you are ready for and have the resources for."
+  ],
+  "new": [
+   "People trigger each other and learn lessons, and sometimes they terrorize or kill each other.",
+   "Whether you should be in one depends on what you and the other person are ready for and have the resources for."
+  ],
+  "unmarked_changed": [
+   "Sometimes they terrorize or kill each other."
+  ],
+  "judged": "- B50: real. Way 3 and 18: “don’t only X. Sometimes Y.” corrects a view nobody stated, and ends the paragraph on a short punch line. Joined into one plain sentence.\n- B54: real. Way 10: “It” could be the relationship teaching you, or whether you should be in one (the heading’s question); “each of you” has nobody before it. Named with the heading’s words and “another person” from the second paragraph.",
+  "meaning": "- B50: kept\n- B54: kept, if “It” was the heading’s question (whether to be in a relationship); if he meant whether the relationship can teach you self-love, changed: that",
+  "words": [
+   223,
+   230
+  ]
+ },
+ "r38-24-peeking-thru-the-window-p1": {
+  "items": [
+   "B123"
+  ],
+  "heading": "Peeking thru the window",
+  "gone": [
+   "Before the wisdom window closes, the main thing is to find out whether you are actually compatible."
+  ],
+  "new": [
+   "Before the window of clarity closes, the main thing is to find out whether you are actually compatible."
+  ],
+  "unmarked_changed": [],
+  "judged": "- B123: real. Way 10: “wisdom window” is another name for the window the heading already names, so a reader could take it for a second window. The heading’s own word is enough.",
+  "meaning": "- B123: kept",
+  "words": [
+   185,
+   184
+  ]
+ },
+ "r38-25-peeking-thru-the-window-p2": {
+  "items": [
+   "B128"
+  ],
+  "heading": "Peeking thru the window",
+  "gone": [
+   "Jealousy, abandonment, possessiveness, and the “I’m so much better than I used to be” story may not be understood until there is stress and entanglement."
+  ],
+  "new": [
+   "You may not see their jealousy, abandonment and possessiveness until there is stress and entanglement, and that’s also when you find out whether the “I’m so much better than I used to be” story survives."
+  ],
+  "unmarked_changed": [],
+  "judged": "- B128: real. Way 4 and 1: “may not be understood” has nobody doing it, and the list mixes three traits with a story, which is checked a different way (the paragraph already asks whether the story “survives”). Gave it “you” and “their”, and gave the story its own clause.",
+  "meaning": "- B128: kept",
+  "words": [
+   274,
+   284
+  ]
+ },
+ "r38-29-things-get-tricky-fast": {
+  "items": [
+   "B148"
+  ],
+  "heading": "Things get tricky fast",
+  "gone": [
+   "An obvious problem dissolves into, “but I love her,” and the small world of the relationship starts feeling more real than the rest of life, right when both people most need a view from outside it."
+  ],
+  "new": [
+   "An obvious problem dissolves into, “but I love her,” and right when both people most need a view from outside, the small world of the relationship starts feeling more real than the rest of life."
+  ],
+  "unmarked_changed": [],
+  "judged": "- B148: real. Way 6: the sentence ends on the wise-sounding clause (“right when both people most need a view from outside it”). Moved that clause to the middle so the sentence ends on what happens.",
+  "meaning": "- B148: kept",
+  "words": [
+   136,
+   135
+  ]
+ },
+ "r38-33-anti-ptsd-can-be-just-as-dangerous-as-pt-p2": {
+  "items": [
+   "B170",
+   "B173"
+  ],
+  "heading": "Anti-PTSD Can Be Just As Dangerous As PTSD",
+  "gone": [
+   "It’s great if the ground underneath is prepared for it.",
+   "If the rose-colored glasses go on when you’re with the wrong person, they make it even harder to understand what’s real.",
+   "Going in, it helps to recognize your pattern, stop idealizing without becoming suspicious and closed, and have some idea what you’re getting into."
+  ],
+  "new": [
+   "The love angle is great if the ground underneath the relationship is prepared for it, but if the rose-colored glasses go on when you’re with the wrong person, they make it even harder to understand what’s real.",
+   "Going in, it helps to recognize your pattern and stop idealizing, without becoming suspicious and closed, so you have some idea what you’re getting into."
+  ],
+  "unmarked_changed": [
+   "If the rose-colored glasses go on when you’re with the wrong person, they make it even harder to understand what’s real."
+  ],
+  "judged": "- B170: real. Way 10 and 8: “It” could be the reality shift, the love angle or being in love, and “the ground underneath” is under nothing named. Named both with the paragraph’s words, and joined it with “but” to the sentence it sets up.\n- B173: real. Way 19: three pieces of advice in a row, and the third (“have some idea what you’re getting into”) is what the first two give you. Kept all three, with the third as the result.",
+  "meaning": "- B170: kept\n- B173: kept (the third item now reads as what the first two are for)",
+  "words": [
+   262,
+   270
+  ]
+ },
+ "r38-34-seeing-idealization-right": {
+  "items": [
+   "B178"
+  ],
+  "heading": "Seeing idealization right",
+  "gone": [
+   "Like the FM Laeti song down in the Twin Flames section says, “Inspire her to see the best in herself, actualize that.”",
+   "If something severe is happening, sometimes a demand or boundary is necessary too."
+  ],
+  "new": [
+   "Like the FM Laeti song down in the Twin Flames section says, “Inspire her to see the best in herself, actualize that,” though if something severe is happening, sometimes a demand or boundary is necessary too."
+  ],
+  "unmarked_changed": [],
+  "judged": "- B178: real. Way 12: after a paragraph on inspiring her, the caveat stands alone as if it were a new point. One word says how it follows (the other way, when inspiring isn’t the case).",
+  "meaning": "- B178: kept",
+  "words": [
+   155,
+   156
+  ]
+ },
+ "r38-44-don-t-make-your-partner-your-whole-world-p1": {
+  "items": [
+   "B217"
+  ],
+  "heading": "Don’t make your partner your whole world",
+  "gone": [
+   "That little paradise is wonderful, but it contains the seed of its own destruction.",
+   "Part of why it feels like a magical wonderland is that you can suddenly stop parenting yourself now that you have someone who’s fully got your back."
+  ],
+  "new": [
+   "Part of why that little paradise feels like a magical wonderland is that you can suddenly stop parenting yourself now that you have someone who’s fully got your back."
+  ],
+  "unmarked_changed": [
+   "Part of why it feels like a magical wonderland is that you can suddenly stop parenting yourself now that you have someone who’s fully got your back."
+  ],
+  "judged": "- B217 (first sentence): real. Way 6 and 16: “contains the seed of its own destruction” is a line that sounds wise, and the rest of the paragraph says the same thing in his own terms (soft and weak, then blaming them). The line goes; “that little paradise” joins the next sentence. Cut line: “is wonderful, but it contains the seed of its own destruction”.\n- B217 (second sentence): not real once the first “wonderful, but” is gone; it is the only one left and it carries the advice. Left as it is.",
+  "meaning": "- B217 (first): kept (the cut line repeated what the paragraph says)\n- B217 (second): left as it is",
+  "words": [
+   209,
+   197
+  ]
+ },
+ "r38-46-disconnect-to-connect": {
+  "items": [
+   "B230"
+  ],
+  "heading": "Disconnect to connect",
+  "gone": [
+   "Meditation is also helpful, but for most people, I would still put inner-child reparenting, peer counseling, and body-based work first or make them primary meditation targets."
+  ],
+  "new": [
+   "Meditation is also helpful, but for most people, I would still put inner-child reparenting, peer counseling, and body-based work first, or make those the main things they meditate on."
+  ],
+  "unmarked_changed": [],
+  "judged": "- B230: real. Way 1: “primary meditation targets” is a packed noun phrase; it means meditating mainly on those three. Given its own clause.",
+  "meaning": "- B230: kept",
+  "words": [
+   313,
+   316
+  ]
+ },
+ "r38-47-babies-growing-up-again": {
+  "items": [
+   "B232",
+   "B234"
+  ],
+  "heading": "Babies growing up again",
+  "gone": [
+   "Nobody has to be completely healed before entering a relationship.",
+   "And I think that as we learn more about ourselves through the crucible, we should naturally raise our standards.",
+   "I already said before dating that the present-day adult has to be able to parent whatever intimacy wakes up inside you."
+  ],
+  "new": [
+   "Nobody has to be completely healed before entering a relationship, but I think that as we learn more about ourselves through the crucible, we should naturally raise our standards.",
+   "I already said that before dating, the present-day adult has to be able to parent whatever intimacy wakes up inside you."
+  ],
+  "unmarked_changed": [
+   "And I think that as we learn more about ourselves through the crucible, we should naturally raise our standards."
+  ],
+  "judged": "- B232: partly real. Saying it again this many sections later is fine as a reminder, but standing alone it reads as a new rule (way 16), with “And I think” starting a second sentence (way 8). Joined, so it leads into the point about standards.\n- B234: the reader was wrong that it wasn’t said, but the word order is real. Way 10: “I already said before dating that” reads as when he said it. Moved “that”.",
+  "meaning": "- B232: kept (“And” became “but”)\n- B234: kept",
+  "words": [
+   164,
+   164
+  ]
+ },
+ "r38-51-different-levels-in-different-domains-ca-p2": {
+  "items": [
+   "B255"
+  ],
+  "heading": "Different levels in different domains can be complementary",
+  "gone": [
+   "They could pull me into life more, show me where I was missing people, and sometimes be the skeptic when I was seeing the best in someone and missing their hidden motives."
+  ],
+  "new": [
+   "They could pull me into life more, show me where I wasn’t seeing people, and sometimes be the skeptic when I was seeing the best in someone and missing their hidden motives."
+  ],
+  "unmarked_changed": [],
+  "judged": "- B255: real. Way 10: “missing people” could be longing for them or not noticing them, and “missing” comes again in the same sentence with the second sense. Used “seeing”, which the sentence already has.",
+  "meaning": "- B255: kept, if “missing people” meant not noticing them (it’s his to confirm)",
+  "words": [
+   167,
+   167
+  ]
+ },
+ "r38-64-twin-flames": {
+  "items": [
+   "B330"
+  ],
+  "heading": "Twin Flames?",
+  "gone": [
+   "In the previous section, I mentioned the divine feminine and divine masculine energies that you can channel to keep eroticism alive.",
+   "Maybe a better way to put it, as my friend Cody says, is Yin/Yang, which still has the masculine/feminine in it, but allows for a more broad type of complementary symbiosis since, each contains the seed of the other."
+  ],
+  "new": [
+   "Earlier, I mentioned the divine feminine and divine masculine energies that you can channel to keep eroticism alive.",
+   "Maybe a better way to put it, as my friend Cody says, is Yin/Yang, which still has the masculine/feminine in it, but allows for a more broad type of complementary symbiosis since each contains the seed of the other."
+  ],
+  "unmarked_changed": [],
+  "judged": "- B330 (first sentence): real. Way 20: “In the previous section” isn’t true where it stands if the divine-energies part is several sections back. “Earlier” is true either way.\n- B330 (third sentence): real, a stray comma in “since, each”. Nothing else changed.",
+  "meaning": "- B330 (first): kept\n- B330 (third): kept",
+  "words": [
+   428,
+   425
+  ]
+ },
+ "r38-74-jealousy-on-trial-p2": {
+  "items": [
+   "B391"
+  ],
+  "heading": "Jealousy on trial",
+  "gone": [
+   "Every couple has to work out for themselves what actually feels healthy."
+  ],
+  "new": [
+   "How much attention to other people actually feels healthy is something every couple has to work out for themselves."
+  ],
+  "unmarked_changed": [],
+  "judged": "- B391: real. Way 4 and 6: “what actually feels healthy” doesn’t say healthy what, so it reads as a summing-up that could close any paragraph. Here it is about attention to other people, which is the paragraph’s subject and leads into the next one on exclusivity. Named it with the paragraph’s words.",
+  "meaning": "- B391: kept, but narrower: it now says what the couple works out (attention to other people). If he meant it more widely, changed: that",
+  "words": [
+   242,
+   249
+  ]
+ },
+ "r38-89-gaslighting-in-the-dark": {
+  "items": [
+   "B459"
+  ],
+  "heading": "Gaslighting in the dark",
+  "gone": [
+   "But do it fairly, with the goal of helping the conflict, not just getting approval for your own interpretation."
+  ],
+  "new": [
+   "And when you do ask friends for help, do it fairly, with the goal of resolving the conflict, not just getting approval for your own interpretation."
+  ],
+  "unmarked_changed": [],
+  "judged": "- B459: real. Way 10: “do it” has no act before it (the sentence before is about not having friends), and “helping the conflict” could mean feeding it. Named the act with the paragraph’s words and used “resolve” from the paragraph above. The “not just ...” stays: it answers a worry the reader really has.",
+  "meaning": "- B459: kept",
+  "words": [
+   300,
+   307
+  ]
+ },
+ "r38-90-after-leaving": {
+  "items": [
+   "B465"
+  ],
+  "heading": "After leaving",
+  "gone": [
+   "Grab it only if it really is the simplest explanation of what happened.",
+   "Even the curiosity itself can be therapeutic for you."
+  ],
+  "new": [
+   "Grab it only if it really is the simplest explanation of what happened, and even the curiosity about that can be therapeutic for you."
+  ],
+  "unmarked_changed": [
+   "Grab it only if it really is the simplest explanation of what happened."
+  ],
+  "judged": "- B465: real. Way 6, 18 and 10: a short line that ends the paragraph, and “the curiosity” names no curiosity the paragraph mentioned. It belongs with the sentence about checking whether the easy story is the simplest explanation, so it moved up and joined that one, with “about that” as its object.",
+  "meaning": "- B465: kept (now tied to being curious about what really happened)",
+  "words": [
+   381,
+   383
+  ]
+ },
+ "r38-92-tough-love-p1": {
+  "items": [
+   "B476",
+   "B477",
+   "B478"
+  ],
+  "heading": "Tough Love",
+  "gone": [
+   "A relationship like this is rare, and that’s probably why romantic love has been seen with suspicion as a destabilizing force throughout history.",
+   "That spirit is like the universe living its desire to know itself through us, which might be why we see ourselves in ways we can’t imagine prior.",
+   "Also reminiscent of Somé, they also wore rose-colored glasses and taught me that everybody was basically good."
+  ],
+  "new": [
+   "A romance that actually works is rare, and that’s probably why romantic love has been seen with suspicion as a destabilizing force throughout history.",
+   "That spirit is like the universe living its desire to know itself through us, which might be why we see ourselves in ways we couldn’t imagine before.",
+   "They also wore rose-colored glasses and taught me that everybody was basically good."
+  ],
+  "unmarked_changed": [],
+  "judged": "- B476: real. Way 10: “A relationship like this” has no relationship before it; the paragraph above only talks about romantic love and what makes it work. Named it with those words. The leap to history is his claim and stays.\n- B477: real. “can’t imagine prior” is garbled (tense and “prior”). The spirit/Spirit switch I left: “Spirit” comes back in the next paragraph (“we serve Spirit”) as the larger thing, so it may be his distinction; worth asking him.\n- B478: real. Way 8: “Also ... also” twice, and “reminiscent of” is a label where “Like” says it. The link to Somé stays unexplained; explaining it would add something he didn’t write.",
+  "meaning": "- B476: kept\n- B477: kept\n- B478: kept",
+  "words": [
+   397,
+   396
+  ]
+ }
+}

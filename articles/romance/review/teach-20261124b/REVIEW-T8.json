@@ -1,0 +1,176 @@
+{
+ "format": "joel-suggestion-review-v1",
+ "review_id": "romance-t8",
+ "built": "2026-11-24",
+ "title": "Romance Advice I Wish My Parents Taught Me: the passages that didn’t quite make sense",
+ "intro": [
+  "The whole article as it reads now. Of the passages the readers found partly real, 21 still stood, and I fixed them the way your sixth-page versions did: only the flagged words, with words the passage already has, and nothing added. Every section with a fix read Human High in every window, each checked by itself. 14 fixes keep the meaning and are in; three might change it and are the cards below; two need a line from you on what they mean. Every section of the article now reads Human High in every window. Every paragraph, picture and video is here in order: nothing is left out."
+ ],
+ "git_file": "articles/romance/review/teach-20261124b/REVIEW-T8.html",
+ "article": {
+  "file": "articles/romance/humanize/fix-20261107/whole/FIXED.md",
+  "sha256": "7e302ab22f1fec7964364c74cf153d592923bbfde38e60e5b3499874d82dade2"
+ },
+ "whole": {
+  "file": "articles/romance/humanize/fix-20261107/whole/FIXED.md",
+  "sha256": "7e302ab22f1fec7964364c74cf153d592923bbfde38e60e5b3499874d82dade2"
+ },
+ "links": {
+  "guide": "https://ibogaqueen.substack.com/p/romance-advice-i-wish-my-parents",
+  "guide_label": "your live post",
+  "review": "https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/romance-20261108/articles/romance/review/teach-20261124b/REVIEW-T8.md"
+ },
+ "types": {
+  "sense": {
+   "label": "Didn’t make sense or follow",
+   "about": "a reader flagged it; my fix, tested in its section"
+  },
+  "meaning": {
+   "label": "What do you mean?",
+   "about": "a reader couldn’t tell what it points to; a line from you is enough"
+  }
+ },
+ "suggestions": [
+  {
+   "id": "J-B54",
+   "type": "sense",
+   "title": "What “It depends” on",
+   "advice": "approve",
+   "spans": [
+    {
+     "block": 50,
+     "start": 207,
+     "end": 307
+    },
+    {
+     "block": 54,
+     "start": 188,
+     "end": 257
+    }
+   ],
+   "edits": [
+    {
+     "block": 50,
+     "before": "This is a horrible catch-22. Wounded people get lonely, and loneliness itself can kill. But the wounds that make somebody desperate for a relationship may also make them a terrible person to be in one with. People don’t only trigger each other and learn lessons. Sometimes they terrorize or kill each other.",
+     "after": "This is a horrible catch-22. Wounded people get lonely, and loneliness itself can kill. But the wounds that make somebody desperate for a relationship may also make them a terrible person to be in one with. People trigger each other and learn lessons, and sometimes they terrorize or kill each other."
+    },
+    {
+     "block": 54,
+     "before": "A good relationship can teach you self-love too, which is part of the problem: you may need one most when you’re least capable of creating a good one, recognizing one, or keeping it good. It depends what each of you are ready for and have the resources for. Here’s a video that can help understand the long process.",
+     "after": "A good relationship can teach you self-love too, which is part of the problem: you may need one most when you’re least capable of creating a good one, recognizing one, or keeping it good. Whether you should be in one depends on what you and the other person are ready for and have the resources for. Here’s a video that can help understand the long process."
+    }
+   ],
+   "what": "“It depends what each of you are ready for” says what depends on it: “Whether you should be in one depends on what you and the other person are ready for and have the resources for.” And the two short lines before, “People don’t only trigger each other and learn lessons. Sometimes they terrorize or kill each other.”, become one sentence: “People trigger each other and learn lessons, and sometimes they terrorize or kill each other.”",
+   "why": "A reader couldn’t tell what “It” was, and “each of you” came from nowhere (B54); the two short lines read as a model’s punch close (B50).",
+   "stays": "The catch-22, your advice to friends, the self-love problem and the video.",
+   "deciding": "whether “It” was the heading’s question, whether you should be in a relationship at all",
+   "advice_note": "My pick: use it, if “It” is the heading’s question.",
+   "found_by": "the junk read of 2026-11-22 (four fresh readers) and its vetting by a fifth (r30/junk/VETTED.md, B50, B54)",
+   "reading": "The section as it is: Human High in every window (https://www.pangram.com/history/ef127915-359a-42b1-a576-06217eef8f79).",
+   "tested": "The section with these changes: Human High in every window (https://www.pangram.com/history/14dd222c-80ab-4081-8c71-22c7f7b8ef8a).",
+   "ask_because": "meaning: I read “It” as the heading’s question; if you meant whether a relationship can teach you self-love, the new sentence says something else",
+   "receipt": [
+    "articles/romance/humanize/fix-20261107/r38/junk/para/R-J-B54-43.json",
+    "articles/romance/humanize/fix-20261107/r38/junk/para/R-J-B54-46.json"
+   ]
+  },
+  {
+   "id": "J-B217",
+   "type": "sense",
+   "title": "“The seed of its own destruction”",
+   "advice": "approve",
+   "spans": [
+    {
+     "block": 217,
+     "start": 0,
+     "end": 104
+    }
+   ],
+   "edits": [
+    {
+     "block": 217,
+     "before": "That little paradise is wonderful, but it contains the seed of its own destruction. Part of why it feels like a magical wonderland is that you can suddenly stop parenting yourself now that you have someone who’s fully got your back. This makes you soft and weak, kinda like a sweet treat or heroin. It is wonderful to have their love and support, but don’t let that bring you away from your own self-love, reparenting, meditation, yoga, and other healing practices that keep you independently healthy. Otherwise, you’ll end up blaming them when you feel bad.",
+     "after": "Part of why that little paradise feels like a magical wonderland is that you can suddenly stop parenting yourself now that you have someone who’s fully got your back. This makes you soft and weak, kinda like a sweet treat or heroin. It is wonderful to have their love and support, but don’t let that bring you away from your own self-love, reparenting, meditation, yoga, and other healing practices that keep you independently healthy. Otherwise, you’ll end up blaming them when you feel bad."
+    }
+   ],
+   "what": "The line “That little paradise is wonderful, but it contains the seed of its own destruction.” goes, and the next sentence names the paradise: “Part of why that little paradise feels like a magical wonderland is ...”.",
+   "why": "A reader read the line as a model’s aphorism (B217); the paragraph after it shows how the paradise undoes itself (you stop parenting yourself, go soft, and end up blaming them).",
+   "stays": "The heroin joke, the practices, and “Otherwise, you’ll end up blaming them when you feel bad.”",
+   "deciding": "whether the paragraph still says the paradise undoes itself without the line that says so",
+   "advice_note": "My pick: use it. The section reads Human High with it.",
+   "found_by": "the junk read of 2026-11-22 (four fresh readers) and its vetting by a fifth (r30/junk/VETTED.md, B217)",
+   "reading": "The section as it is: Human High in every window (https://www.pangram.com/history/b0e21840-e26e-47d0-b7e5-3a021edebaa6).",
+   "tested": "The section with this change: Human High in every window (https://www.pangram.com/history/48f4f1be-52c4-4b12-bfcc-fd3a822766a4).",
+   "ask_because": "meaning: the paragraph loses the line that says the paradise undoes itself; the rest shows how",
+   "receipt": [
+    "articles/romance/humanize/fix-20261107/r38/junk/para/R-J-B217-210.json"
+   ]
+  },
+  {
+   "id": "J-B255",
+   "type": "sense",
+   "title": "“Where I wasn’t seeing people”",
+   "advice": "approve",
+   "spans": [
+    {
+     "block": 256,
+     "start": 169,
+     "end": 203
+    }
+   ],
+   "edits": [
+    {
+     "block": 256,
+     "before": "I could teach these women about loving and reparenting their inner child, Buddhism, meditation, and other things I understood better. They could pull me into life more, show me where I was missing people, and sometimes be the skeptic when I was seeing the best in someone and missing their hidden motives.",
+     "after": "I could teach these women about loving and reparenting their inner child, Buddhism, meditation, and other things I understood better. They could pull me into life more, show me where I wasn’t seeing people, and sometimes be the skeptic when I was seeing the best in someone and missing their hidden motives."
+    }
+   ],
+   "what": "“show me where I was missing people” becomes “show me where I wasn’t seeing people”.",
+   "why": "A reader could take “missing people” as longing for them, next to “missing their hidden motives” in the same sentence (B255).",
+   "stays": "Everything else in the paragraph.",
+   "deciding": "whether “missing people” meant not seeing them clearly",
+   "advice_note": "My pick: use it, if that is what you meant.",
+   "found_by": "the junk read of 2026-11-22 (four fresh readers) and its vetting by a fifth (r30/junk/VETTED.md, B255)",
+   "reading": "The section as it is: Human High in every window (https://www.pangram.com/history/8d39d55d-de90-469c-8300-7ab12604de33).",
+   "tested": "The section with this change: Human High in every window (https://www.pangram.com/history/d76c7885-a0df-4467-ab2e-66c7100182cc).",
+   "ask_because": "meaning: “missing people” could mean longing for them; I read it as not seeing them",
+   "receipt": [
+    "articles/romance/humanize/fix-20261107/r38/junk/para/R-J-B255-248.json"
+   ]
+  },
+  {
+   "id": "Q-B476",
+   "type": "meaning",
+   "title": "A relationship like what?",
+   "advice": "ask",
+   "question": "“Tough Love” opens its second paragraph: “A relationship like this is rare, and that’s probably why romantic love has been seen with suspicion as a destabilizing force throughout history.” A reader couldn’t tell what “like this” points back to, since the paragraph before is about love not being marketable. What kind of relationship do you mean? My guess: a romance that actually works. If that is it, it could say “A romance that actually works is rare”, and I’ll test it in its section.",
+   "why": "The vetted junk read, B476: “A relationship like this” has nothing before it to point to.",
+   "stays": "The sentence as it is, until your answer.",
+   "advice_note": "A line on what “like this” means is enough.",
+   "spans": [
+    {
+     "block": 478,
+     "start": 0,
+     "end": 32
+    }
+   ]
+  },
+  {
+   "id": "Q-B478",
+   "type": "meaning",
+   "title": "Reminiscent of Somé how?",
+   "advice": "ask",
+   "question": "“Also reminiscent of Somé, they also wore rose-colored glasses and taught me that everybody was basically good.” A reader couldn’t see what in Somé this recalls: the section says her people distrust romance and that the relationship is bigger than the egos in it, not that she saw everybody as good. What is the link? If you don’t need it, it could say “They also wore rose-colored glasses and taught me that everybody was basically good.”",
+   "why": "The vetted junk read, B478: the Somé link isn’t explained, and “also” comes twice.",
+   "stays": "The sentence as it is, until your answer.",
+   "advice_note": "A line on the link is enough; I’ll fix it from your answer and test it.",
+   "spans": [
+    {
+     "block": 480,
+     "start": 295,
+     "end": 356
+    }
+   ]
+  }
+ ]
+}

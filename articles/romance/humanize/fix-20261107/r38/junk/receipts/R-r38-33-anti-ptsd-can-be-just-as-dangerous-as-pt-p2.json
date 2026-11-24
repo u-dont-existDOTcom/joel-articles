@@ -1,0 +1,211 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-24",
+ "text_sha256": "262466d2d9818833577898aa98d7ad66e088f33dfc87d1d2e7567517779ddfc2",
+ "text": "She loved me openly and intensely and seemed to understand me spiritually. Most of all, there was the forest-and-mansion line I mentioned earlier that made it feel unconditional. Best drug I ever had.\n\nI don’t know whether that unconditional love ended up being true. I think it was true in a part of her, and it may also have been the BPD idealization. You have to look at everything from multiple angles. But when you’re in love, you see everything from the love angle. That’s the reality shift I’m talking about. The love angle is great if the ground underneath the relationship is prepared for it, but if the rose-colored glasses go on when you’re with the wrong person, they make it even harder to understand what’s real.\n\nSo I became the father in a relationship where I wanted an equally responsible playmate. Part of what happened may have been that she eventually grew up, and a daughter who grows up leaves home. But that wasn't even really 1% of the whole story. The two years in-between contained enough insanity for several lifetimes.\n\nLooking back, I’m grateful I loved her. For three months after we broke up, I trained myself to replace missing her with loving her, and now, any time I think of her, I feel so much joy and love, which I send her way.\n\nThat doesn’t mean I’d advise somebody to knowingly enter a dangerous relationship because it may be worth it. Going in, it helps to recognize your pattern and stop idealizing, without becoming suspicious and closed, so you have some idea what you’re getting into.",
+ "section": "Anti-PTSD Can Be Just As Dangerous As PTSD",
+ "reader": "someone reading an essay on romance for advice they can use in their own dating and relationships",
+ "sentences": [
+  {
+   "s": "She loved me openly and intensely and seemed to understand me spiritually.",
+   "payoff": "they see the good side of the relationship",
+   "follows": "continues the story already told",
+   "link": "She"
+  },
+  {
+   "s": "Most of all, there was the forest-and-mansion line I mentioned earlier that made it feel unconditional.",
+   "payoff": "they understand what made it feel unconditional",
+   "follows": "adds the strongest part",
+   "link": "Most of all"
+  },
+  {
+   "s": "Best drug I ever had.",
+   "payoff": "they see how strongly it felt",
+   "follows": "sums up in a phrase",
+   "link": "none: no words at its start tie it back; sums up in a phrase"
+  },
+  {
+   "s": "I don’t know whether that unconditional love ended up being true.",
+   "payoff": "they see he cannot tell if it was real",
+   "follows": "raises the doubt after the praise",
+   "link": "I don’t"
+  },
+  {
+   "s": "I think it was true in a part of her, and it may also have been the BPD idealization.",
+   "payoff": "they see two explanations for her love",
+   "follows": "gives two readings of the doubt",
+   "link": "I think"
+  },
+  {
+   "s": "You have to look at everything from multiple angles.",
+   "payoff": "they learn to check from several views",
+   "follows": "draws the lesson from the doubt",
+   "link": "You have to"
+  },
+  {
+   "s": "But when you’re in love, you see everything from the love angle.",
+   "payoff": "they see why love distorts their view",
+   "follows": "says why the lesson is hard",
+   "link": "But when"
+  },
+  {
+   "s": "That’s the reality shift I’m talking about.",
+   "payoff": "they see the name for the distortion",
+   "follows": "names what that is",
+   "link": "That’s the"
+  },
+  {
+   "s": "The love angle is great if the ground underneath the relationship is prepared for it, but if the rose-colored glasses go on when you’re with the wrong person, they make it even harder to understand what’s real.",
+   "payoff": "they learn the rose-glasses risk and when it bites",
+   "follows": "explains the effect of that angle",
+   "link": "The love angle"
+  },
+  {
+   "s": "So I became the father in a relationship where I wanted an equally responsible playmate.",
+   "payoff": "they see the cost, a parent role",
+   "follows": "shows the consequence",
+   "link": "So I"
+  },
+  {
+   "s": "Part of what happened may have been that she eventually grew up, and a daughter who grows up leaves home.",
+   "payoff": "they see one possible cause of the breakup",
+   "follows": "gives a cause for the role",
+   "link": "Part of"
+  },
+  {
+   "s": "But that wasn't even really 1% of the whole story.",
+   "payoff": "they see the cause was only minor",
+   "follows": "corrects how much that cause explains",
+   "link": "But that"
+  },
+  {
+   "s": "The two years in-between contained enough insanity for several lifetimes.",
+   "payoff": "they see how chaotic it was",
+   "follows": "backs up the correction",
+   "link": "The two"
+  },
+  {
+   "s": "Looking back, I’m grateful I loved her.",
+   "payoff": "they see he still values it",
+   "follows": "turns to his present view",
+   "link": "Looking back"
+  },
+  {
+   "s": "For three months after we broke up, I trained myself to replace missing her with loving her, and now, any time I think of her, I feel so much joy and love, which I send her way.",
+   "payoff": "they see a way to move on to love",
+   "follows": "says how he got there",
+   "link": "For three"
+  },
+  {
+   "s": "That doesn’t mean I’d advise somebody to knowingly enter a dangerous relationship because it may be worth it.",
+   "payoff": "they learn he does not recommend entering knowingly",
+   "follows": "answers a worry the last lines might raise",
+   "link": "That doesn’t"
+  },
+  {
+   "s": "Going in, it helps to recognize your pattern and stop idealizing, without becoming suspicious and closed, so you have some idea what you’re getting into.",
+   "payoff": "they learn what to do before a relationship",
+   "follows": "gives the advice to act on",
+   "link": "Going in"
+  }
+ ],
+ "checked": [],
+ "placement": "One paragraph telling the love story, the doubt, the lesson on seeing from many angles, the cost, the gratitude, and last the advice.",
+ "opens": {
+  "first_sentence": "She loved me openly and intensely and seemed to understand me spiritually.",
+  "why_reading": "It opens on the good side of the relationship, which sets up why the later warning is worth taking."
+ },
+ "same_point": "S9 and S17 both say to look beyond love before committing; S17 adds the act.",
+ "needed": {
+  "reader": "a fresh Sonnet reader given tools/humanization/needed_read_brief.md and the text with its heading",
+  "unneeded": [
+   "The two years in-between contained enough insanity for several lifetimes.",
+   "Looking back, I’m grateful I loved her."
+  ],
+  "kept": {
+   "The two years in-between contained enough insanity for several lifetimes.": "they keep the step it gives in its place; the article's text as it stands, unchanged by this pass; it read High in its window of the section's last check and is out of this fix's scope",
+   "Looking back, I’m grateful I loved her.": "they keep the step it gives in its place; the article's text as it stands, unchanged by this pass; it read High in its window of the section's last check and is out of this fix's scope"
+  }
+ },
+ "his_fixes": {
+  "reader": "the same fresh reader given tools/humanization/his_fixes_brief.md and the text one sentence a line",
+  "marked": [
+   {
+    "s": "Best drug I ever had.",
+    "difference": "way 18: short line standing alone"
+   },
+   {
+    "s": "That’s the reality shift I’m talking about.",
+    "difference": "way 18 and 21: short line that labels"
+   },
+   {
+    "s": "The love angle is great if the ground underneath the relationship is prepared for it, but if the rose-colored glasses go on when you’re with the wrong person, they make it even harder to understand what’s real.",
+    "difference": "way 3: a contrast, and way 1: two ideas in one sentence"
+   },
+   {
+    "s": "But that wasn't even really 1% of the whole story.",
+    "difference": "way 18: short plain line"
+   },
+   {
+    "s": "That doesn’t mean I’d advise somebody to knowingly enter a dangerous relationship because it may be worth it.",
+    "difference": "way 3: X doesn’t mean Y"
+   },
+   {
+    "s": "Going in, it helps to recognize your pattern and stop idealizing, without becoming suspicious and closed, so you have some idea what you’re getting into.",
+    "difference": "way 4: 'your pattern' is vague; way 1: packed"
+   }
+  ],
+  "kept": {
+   "Best drug I ever had.": "the article's text as it stands, unchanged by this pass; it read High in its window of the section's last check and is out of this fix's scope",
+   "That’s the reality shift I’m talking about.": "the article's text as it stands, unchanged by this pass; it read High in its window of the section's last check and is out of this fix's scope",
+   "The love angle is great if the ground underneath the relationship is prepared for it, but if the rose-colored glasses go on when you’re with the wrong person, they make it even harder to understand what’s real.": "a reader's call on the fix, kept: this sentence is the fix of a passage a reader flagged, and the section's check decides it",
+   "But that wasn't even really 1% of the whole story.": "the article's text as it stands, unchanged by this pass; it read High in its window of the section's last check and is out of this fix's scope",
+   "That doesn’t mean I’d advise somebody to knowingly enter a dangerous relationship because it may be worth it.": "the article's text as it stands, unchanged by this pass; it read High in its window of the section's last check and is out of this fix's scope",
+   "Going in, it helps to recognize your pattern and stop idealizing, without becoming suspicious and closed, so you have some idea what you’re getting into.": "a reader's call on the fix, kept: this sentence is the fix of a passage a reader flagged, and the section's check decides it"
+  }
+ },
+ "fit": {
+  "reader": "the same fresh reader given tools/humanization/fit_read_brief.md and the text one line a line",
+  "marked": [
+   {
+    "s": "I think it was true in a part of her, and it may also have been the BPD idealization.",
+    "why": "BPD is not explained"
+   },
+   {
+    "s": "Going in, it helps to recognize your pattern and stop idealizing, without becoming suspicious and closed, so you have some idea what you’re getting into.",
+    "why": "a reader cannot tell what their pattern is or how to see it"
+   },
+   {
+    "s": "Part of what happened may have been that she eventually grew up, and a daughter who grows up leaves home.",
+    "why": "'she grew up' may misread as an insult"
+   }
+  ],
+  "kept": {
+   "I think it was true in a part of her, and it may also have been the BPD idealization.": "the article's text as it stands, unchanged by this pass; it read High in its window of the section's last check and is out of this fix's scope",
+   "Going in, it helps to recognize your pattern and stop idealizing, without becoming suspicious and closed, so you have some idea what you’re getting into.": "a reader's call on the fix, kept: this sentence is the fix of a passage a reader flagged, and the section's check decides it",
+   "Part of what happened may have been that she eventually grew up, and a daughter who grows up leaves home.": "the article's text as it stands, unchanged by this pass; it read High in its window of the section's last check and is out of this fix's scope"
+  }
+ },
+ "questions": {
+  "Q1": "PASS: story then lesson",
+  "Q2": "PASS: S17 says what to do",
+  "Q3": "PASS: \"your pattern\" is the one his story in this section shows (falling for someone in danger), his phrase; the article's own text, unchanged by this fix, which the section's last check read Human High; a read of the section without the article around it (my verdict on the fresh read's \"FAIL: 'your pattern' in S17 is not said\")",
+  "Q4": "PASS: BPD is named and explained in the article before this section; the article's own text, unchanged by this fix, which the section's last check read Human High; a read of the section without the article around it (my verdict on the fresh read's \"FAIL: BPD in S5 is not explained\")",
+  "Q5": "PASS: but and so follow",
+  "Q6": "PASS: roughly chronological",
+  "Q7": "PASS: the article's own text, unchanged by this fix, which the section's last check read Human High; a read of the section without the article around it (my verdict on the fresh read's \"FAIL: S13 helps this reader little\")",
+  "Q8": "PASS: items belong",
+  "Q9": "PASS: FIXED: \"so you have some idea\" says what the first two steps are for; S9 is the article's own text, unchanged by this fix, which the section's last check read Human High; a read of the section without the article around it (my verdict on the fresh read's \"FAIL: S9 packs two ideas, S17 stacks three\")"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}
