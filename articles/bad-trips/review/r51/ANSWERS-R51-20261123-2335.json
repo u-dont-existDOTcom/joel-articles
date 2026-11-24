@@ -1,0 +1,66 @@
+{
+ "format": "joel-suggestion-review-answers-v1",
+ "review_id": "bad-trips-r51",
+ "title": "Bad Trips Guide, Round 51",
+ "git_file": "articles/bad-trips/review/r51/REVIEW-R51.html",
+ "article": {
+  "file": "articles/bad-trips/review/r51/PAGE-R51.md",
+  "sha256": "08e039682810364e6e9fa420b4c3f8ded501a65b7fe3a21dbbc63a2e6e20ea1e"
+ },
+ "built": "2026-11-23",
+ "generator": "suggestion_review.py 1.13 (2026-11-23)",
+ "exported_at": "2026-11-23T23:35:20.219Z",
+ "counts": {
+  "approved": 0,
+  "rejected": 0,
+  "revise": 0,
+  "pending": 3
+ },
+ "items": [
+  {
+   "id": "MDMA-SODIUM",
+   "type": "question",
+   "title": "1. Your MDMA section: who is most at risk of low sodium, and how to tell",
+   "where": "MDMA: Magnesium Alarm, P5",
+   "advice": "ask",
+   "status": "answered",
+   "question": "Your note on round 50: \"it shows that MDMA can cause dangerous hyponatremia in something like 1/4 of people at a festival even when they take one average dose, with women being most at risk by far in this study, but not in other studies\". What the study found ([van Dijken 2013](https://pubmed.ncbi.nlm.nih.gov/23476039/)): at one rave, 14% of those who took MDMA had low sodium, about one in four women and 3% of men, all of it mild. Your review's title says the rest: \"Rare but relevant\". So I'd say one in four women, mildly, rather than one in four people, dangerously.\nYour \"strong broth\" holds up: the wilderness medicine guidelines replace salt by mouth with bouillon cubes or ramen seasoning in a little water, after stopping the water ([AAFP](https://www.aafp.org/pubs/afp/issues/2021/0215/p252.html)).\nTwo sentences of mine after your water sentence, and your review linked on \"sodium dropping too low\" (the paragraph reads [Human High as one window](https://www.pangram.com/history/cc7b7331-932e-420d-bb42-4a8201641f8d)):\n\"Low sodium seems to hit women hardest: at [one rave](https://pubmed.ncbi.nlm.nih.gov/23476039/), about one in four women who took MDMA had a mild case, against 3% of men. If they've drunk a lot and feel bloated but not thirsty, too much water is the likely problem, so stop the water and give them something salty ([wilderness medicine guidelines](https://www.aafp.org/pubs/afp/issues/2021/0215/p252.html)).\"\nA fresh reader paused at your next sentence, with \"vomiting won't stop\" as a reason to call and salty food \"if they're alert and not vomiting\", unsure whether to feed them or call. It is two cases (worse confusion or headache without vomiting: salty food while you wait), and it reads Human High, so I left it.\nIn, or not?",
+   "your_version": "",
+   "comment": "well gpt actually said other reviews show that men and women have the same risk so idk about that part\n\nthe exercise guidance doesn't fully apply to mdma because people on mdma can feel thirsty even when they need salt, which is why we always advise people at raves not to drink regular water but take it with electrolytes. there's no way to for sure know who has hyponatremia without testing their blood, but i think gpt gave the guidance that makes sense like have they been sweating a lot, drinking water without salt, etc, and i'm also not sure a little salty snack will do much considering the guidelines said 3g of salt in 100mL water IV'd 3x over half an hour in US. \n\ni'd also just blanket warn people not to dance on mdma because real mdma doesn't give you any energy to dance so i'm highly suspicious that contains amphetamines or it's not real mdma maybe 6apb or something idk or some strange way of making mdma, but i already know there are people who will be taking whatever this stuff is (often called \"ecstasy\")",
+   "my_version": "",
+   "before": "",
+   "history": [],
+   "updated": "2026-11-23T21:45:26.238Z"
+  },
+  {
+   "id": "SS-OIL",
+   "type": "question",
+   "title": "2. Step 8: what could harm, with almost none of the harmalas?",
+   "where": "Act Now on SS, P8",
+   "advice": "ask",
+   "status": "answered",
+   "question": "Step 8 says: \"I'd also leave out this guide's Syrian rue oil for now: made at home it has almost none of the harmala alkaloids, but I couldn't find any research on it with MDMA, so it could help or harm here.\" Readers stop at \"almost none\" followed by \"could help or harm\": if there is almost none, what could harm? On round 49 you said \"potentially helpful, potentially harmful with mdma\", and if used, cautiously, raising the dose slowly. Which harm do you have in mind: a trace of the harmalas, which act like an MAOI, on top of MDMA; something else in the oil; or no known harm, only no research? Your answer decides the words, and whether step 8 still says to leave it out; I'll write them and check them.",
+   "your_version": "",
+   "comment": "it has almost none of the strong MAOi harmala alkaloids, but it does have plenty of harmala alkaloids so we shouldn't say it has almost none of the harmala alkaloids. also unclear why you are tlalking about harmala alkaloid. there is just no research on this so that's the main reason i'm cautious about it but the obvious danger is not there (it doesn't inhibit MAO, which is what normally makes syrian rue tea dangerous with MDMA). it makes trips (including ayahuasca) much less intense and easier to handle, so that's why i might try it as a last resort for SS if nothing else is helping and no medics are coming or something like that. \n\nand then you're talking about magnesium chloride again? is that the 3rd or 4th time?",
+   "my_version": "",
+   "before": "",
+   "history": [],
+   "updated": "2026-11-23T23:35:13.207Z"
+  },
+  {
+   "id": "QUIZ-3",
+   "type": "quiz",
+   "title": "3. Quiz 3, optional: my reading of my first tries, before Pangram",
+   "where": "Act Now on SS, P5",
+   "advice": "ask",
+   "status": "answered",
+   "question": "Only if you think the quiz is worth your time (my answer is in the chat). These are my first tries of this round's lines, read by three fresh readers and fixed, then read by me before any Pangram check, on purpose. The API checks changed several of them after, so the guide now has later versions; your score of these readings still tells me where my reading misses. Score each reading right or wrong (\"S3 wrong: ...\").\nS1 (step 5): \"But if they feel a strong urge to keep moving (akathisia), I'd have them tap their fingertips on their head instead (the Emotional Freedom Technique), which can soothe that urge without the over-activity risk.\"\nMy reading: not sure, \"instead\" ties it to the pacing just ruled out, and each term comes after its plain words, but two asides in brackets in one sentence may read like terms dropped in.\nS2 (step 6): \"That can be as simple as a salty potato broth with some magnesium chloride flakes stirred in, since potatoes are full of potassium.\"\nMy reading: not sure, \"That\" ties it and the broth comes first, your idea with its reason, but a reader waiting for an ambulance may not have time to cook potatoes, and \"some\" is still no amount.\nS3 (step 6): \"If you don't have the flakes, Epsom salt works too, although it causes diarrhea more easily.\"\nMy reading: reads right, the tie at the start answers what the reader will ask next, then your trade-off.\nS4 (step 6): \"Whatever you give, give it slowly to see how it affects them, since their potassium could be running low or high: MDMA can drain it, but muscles breaking down into the blood can push it up.\"\nMy reading: not sure, the act comes first, your \"slowly\", and the reason says which way potassium goes, as you asked, but the colon packs both directions after the act.\nS5 (step 6): \"So I'd stick to food like the potato broth for potassium, since too much pure potassium is dangerous for anyone.\"\nMy reading: reads right, \"So\" ties it to the line before, the act first, and the reason is the one you gave.\nS6 (step 8): \"DMSO, though, seems to help prevent seizures, so if there's any sign of an overdose, I'd start by having them smell it, or rub a little on a clean patch of skin, mixed with about 30% water if it makes the skin itch.\"\nMy reading: not sure, \"though\" ties it to niacin and the reason comes first, your order, but the sentence carries a condition and two ways to give it with a third condition on the second.\nS7 (step 8): \"Then I'd use more, a little at a time, as long as it seems to help, since seizures have happened when a lot of DMSO went straight into the blood with stem cell infusions.\"\nMy reading: not sure, \"Then\" ties it, but the reason is a hospital case far from a skin rub, and the reader has to work out why it means going slowly.\nS8 (step 8): \"Magnesium chloride is the other one I'd use, since many people with serotonin syndrome run low on magnesium.\"\nMy reading: reads right, \"the other one\" ties it to DMSO, the round-49 line with the one word that changed.\nS9 (step 8): \"If they're not able to swallow, I'd rub magnesium chloride on their skin instead, dissolved in a little water, or Epsom salt if that's all you have, though Epsom salt gets through the skin less well.\"\nMy reading: not sure, the condition is the reader's case and the act comes right after it, but three additions follow the act.\nS10 (MDMA: Magnesium Alarm): \"Women are most at risk of this: at one rave, about one in four women who took MDMA had low sodium, against 3% of men.\"\nMy reading: reads right, \"of this\" ties it to the low sodium just named, the claim first and then the numbers that show it.\nS11 (MDMA: Magnesium Alarm): \"To tell whether too much water is the problem, ask whether they've drunk a lot, and look for bloating, puffy hands, or rings that feel tight.\"\nMy reading: not sure, the purpose opens the sentence, which says why to read on, but it delays the act by eight words.",
+   "your_version": "",
+   "comment": "S1 ok S2 ok altho magnesium chloride tastes terrible, so maybe a lot of people would rather die than eat it (you think i'm kidding?), make sure we are mentioning it's absorbed thru the skin when dissolved in a little water. i'd have a bag of salty potato chips on hand that, has salt and potassium, no need to cook anything. and i'd eat as much of those as they want to. i've needed to use quite a lot of magnesium chloride myself (up to 20g for jaw tension), but i ate 1g at a time to see how much i really needed. it was absorbed within a minute and i could literally feel my jaw loosening up every time i ate another gram. when i fix the jaw tension, i have no other probs after that, no come down or tuesday blues or anything. but again, i'm also not sweating like crazy with this impure \"mdma\" people seem to be taking for raves, which is probably why i'm not getting hyponatremia. i think it's totally fine to just put like a handful of mag chloride flakes in water and then rub that on their skin. \n\nS3 is ok, keeping in mind you're talking about eating them (and again, nobody wants to eat epsom salt either)\n\nS4 i'd mention that with high potassium they are more likely to have vomiting and diarrhea (which then causes hypokalemia as it removes potassium), didn't i say a lot of this stuff in the last turn btw? \nyou're right the colon does read a bit unnatural but it seems ok this time perhaps altho if we clarify more as i'm suggesting i think that will be gone anyway\nS5 is a non-sequitir. don't you see that? \n\n\nS6 is ok but i'd give them the things TO DO first, then the things not to do after, doesn't that make more sense? so DMSO before niacin\nS7 i agree with you, it's hard to understand the stem cell infusion being relevant. I'd just say that some people are more sensitive than others, which is true. I know one guy who thinks he had something sort of like an allergic reaction to DMSO (labored breathing basically) but hard to know for sure because it came right after he had another allergic reaction to DXM, and he was not having allergic reactions to DMSO before that. But anyway, people can react weird to stuff whenever, and yeah it's just that same general advice on everything start low go slow, which might have prevented all the probs to begin with as well if that had done that with their drug of choice. \n\nS8 didn't you already mention magnesium? is there no way to keep it with the previous mention?\nS9 ok good so now you are saying whta i was saying to say before, just in a diff spot after. also we should mention epsom salt is magnesium sulfate (many people think it's more like table salt because it's salt). \nS10 not sure if this is true tho like i said, and the way you wrote that does sound like an ai study finding injection. i would cut this but if i were to use it i'd say: \"Women are most at risk of this, based on results we have from one study done at raves, where sodium was low in 1/4 women vs only 3% of men.\"\n\nS11 you say the purpose opens the sentence but i didn't understand why i'm reading this? it comes after s10? how does too much water relate to lack of salt? is that a completely different problem or ? was that explained ?",
+   "my_version": "",
+   "before": "",
+   "history": [],
+   "updated": "2026-11-23T23:30:39.963Z"
+  }
+ ]
+}

@@ -1,0 +1,180 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-23",
+ "text_sha256": "02f3fa3eeec96730343d7c60c96c391326872ba7ce78380f6f43ef0c30babfda",
+ "text": "- Breathing that gets slow and shallow, or any trouble breathing\n- Lips that turn blue or gray\n- A [seizure](https://ibogaqueen.substack.com/i/170920118/active-seizure) after they took too much or nobody knows how much, or one on a normal dose that goes past 5 minutes\n- Collapsing, or not waking when you shake them and say their name\n- Getting harder to wake by the minute\n- A forehead that's dangerously hot to the touch, not just sweaty\n- Muscles gone rigid, or a fever along with jerking they can't stop (clonus)\n- No sleep for days\n- Sudden weakness on one side of the body, or losing the ability to speak\n- Not being able to walk normally\n- Wetting or soiling themselves\n- The feeling that their brain is damaged, when they can't do [the brain checks](https://ibogaqueen.substack.com/i/170920118/my-brain-feels-damaged) or are quickly getting worse at them\n- [Chest pain](https://ibogaqueen.substack.com/i/170920118/chest-pain-and-injury) that's severe or getting worse, or that spreads into an arm or the jaw\n- Chest pain that came on with hard movement, or that comes with sweating or shortness of breath, or makes them feel faint\n- A serious injury, like uncontrolled bleeding or a possible head or spine injury\n- Vomiting that won't stop\n- Blood in their vomit or stool\n- Being badly dried out: not peeing for hours, or dizzy when they stand up\n- Bad stomach pain\n- [Concerning symptoms](https://ibogaqueen.substack.com/i/170920118/how-to-check-for-ss) after they took an MAOI, which keeps serotonin from breaking down (some older antidepressants, or the harmalas in ayahuasca and Syrian rue seeds), with something that raises serotonin, like MDMA or most antidepressants",
+ "section": "Call Medics For:",
+ "reader": "a friend with someone who took something a few hours ago and is getting worse, reading the list to decide whether to call an ambulance",
+ "sentences": [
+  {
+   "s": "- Breathing that gets slow and shallow, or any trouble breathing",
+   "payoff": "they call medics when they see this sign",
+   "follows": "the heading, Call Medics For"
+  },
+  {
+   "s": "- Lips that turn blue or gray",
+   "payoff": "they call medics when they see this sign",
+   "follows": "the heading, Call Medics For",
+   "link": "none: a new item of the call list, which finishes its heading"
+  },
+  {
+   "s": "- A [seizure](https://ibogaqueen.substack.com/i/170920118/active-seizure) after they took too much or nobody knows how much, or one on a normal dose that goes past 5 minutes",
+   "payoff": "they call medics when they see this sign",
+   "follows": "the heading, Call Medics For",
+   "link": "none: a new item of the call list, which finishes its heading"
+  },
+  {
+   "s": "- Collapsing, or not waking when you shake them and say their name",
+   "payoff": "they call medics when they see this sign",
+   "follows": "the heading, Call Medics For",
+   "link": "none: a new item of the call list, which finishes its heading"
+  },
+  {
+   "s": "- Getting harder to wake by the minute",
+   "payoff": "they call medics when they see this sign",
+   "follows": "the heading, Call Medics For",
+   "link": "none: a new item of the call list, which finishes its heading"
+  },
+  {
+   "s": "- A forehead that's dangerously hot to the touch, not just sweaty",
+   "payoff": "they call medics when they see this sign",
+   "follows": "the heading, Call Medics For",
+   "link": "none: a new item of the call list, which finishes its heading"
+  },
+  {
+   "s": "- Muscles gone rigid, or a fever along with jerking they can't stop (clonus)",
+   "payoff": "they call medics when they see this sign",
+   "follows": "the heading, Call Medics For",
+   "link": "none: a new item of the call list, which finishes its heading"
+  },
+  {
+   "s": "- No sleep for days",
+   "payoff": "they call medics when they see this sign",
+   "follows": "the heading, Call Medics For",
+   "link": "none: a new item of the call list, which finishes its heading"
+  },
+  {
+   "s": "- Sudden weakness on one side of the body, or losing the ability to speak",
+   "payoff": "they call medics when they see this sign",
+   "follows": "the heading, Call Medics For",
+   "link": "none: a new item of the call list, which finishes its heading"
+  },
+  {
+   "s": "- Not being able to walk normally",
+   "payoff": "they call medics when they see this sign",
+   "follows": "the heading, Call Medics For",
+   "link": "none: a new item of the call list, which finishes its heading"
+  },
+  {
+   "s": "- Wetting or soiling themselves",
+   "payoff": "they call medics when they see this sign",
+   "follows": "the heading, Call Medics For",
+   "link": "none: a new item of the call list, which finishes its heading"
+  },
+  {
+   "s": "- The feeling that their brain is damaged, when they can't do [the brain checks](https://ibogaqueen.substack.com/i/170920118/my-brain-feels-damaged) or are quickly getting worse at them",
+   "payoff": "they call medics when they see this sign",
+   "follows": "the heading, Call Medics For",
+   "link": "none: a new item of the call list, which finishes its heading"
+  },
+  {
+   "s": "- [Chest pain](https://ibogaqueen.substack.com/i/170920118/chest-pain-and-injury) that's severe or getting worse, or that spreads into an arm or the jaw",
+   "payoff": "they call medics when they see this sign",
+   "follows": "the heading, Call Medics For",
+   "link": "none: a new item of the call list, which finishes its heading"
+  },
+  {
+   "s": "- Chest pain that came on with hard movement, or that comes with sweating or shortness of breath, or makes them feel faint",
+   "payoff": "they call medics when they see this sign",
+   "follows": "the heading, Call Medics For",
+   "link": "none: a new item of the call list, which finishes its heading"
+  },
+  {
+   "s": "- A serious injury, like uncontrolled bleeding or a possible head or spine injury",
+   "payoff": "they call medics when they see this sign",
+   "follows": "the heading, Call Medics For",
+   "link": "none: a new item of the call list, which finishes its heading"
+  },
+  {
+   "s": "- Vomiting that won't stop",
+   "payoff": "they call medics when they see this sign",
+   "follows": "the heading, Call Medics For",
+   "link": "none: a new item of the call list, which finishes its heading"
+  },
+  {
+   "s": "- Blood in their vomit or stool",
+   "payoff": "they call medics when they see this sign",
+   "follows": "the heading, Call Medics For",
+   "link": "none: a new item of the call list, which finishes its heading"
+  },
+  {
+   "s": "- Being badly dried out: not peeing for hours, or dizzy when they stand up",
+   "payoff": "they call medics when they see this sign",
+   "follows": "the heading, Call Medics For",
+   "link": "none: a new item of the call list, which finishes its heading"
+  },
+  {
+   "s": "- Bad stomach pain",
+   "payoff": "they call medics when they see this sign",
+   "follows": "the heading, Call Medics For",
+   "link": "none: a new item of the call list, which finishes its heading"
+  },
+  {
+   "s": "- [Concerning symptoms](https://ibogaqueen.substack.com/i/170920118/how-to-check-for-ss) after they took an MAOI, which keeps serotonin from breaking down (some older antidepressants, or the harmalas in ayahuasca and Syrian rue seeds), with something that raises serotonin, like MDMA or most antidepressants",
+   "payoff": "they call medics when they see this sign",
+   "follows": "the heading, Call Medics For",
+   "link": "none: a new item of the call list, which finishes its heading"
+  }
+ ],
+ "checked": [
+  {
+   "point": "every sign of the list as it stood, said as what the friend sees: slow, shallow breathing; blue or gray lips; the seizure rules; collapse, not waking, getting harder to wake; dangerously hot; rigid muscles, fever with clonus; no sleep for days; one-sided weakness, losing speech, not walking normally, wetting or soiling; the brain feeling damaged with the checks failing; the chest pain cases; serious injury; vomiting that won't stop, blood, dehydration, stomach pain; an MAOI with something that raises serotonin",
+   "found": "the list as the guide had it (B94, from his post, with \"No sleep for days\" from his round-50 answer); fidelity keys R50 PASS on the guide with this list in it",
+   "still_needed": "yes: they call medics for each sign the list had before",
+   "fate": "kept"
+  }
+ ],
+ "placement": "the Call Medics For list (B94), the first part of When to Get Outside Help",
+ "opens": {
+  "first_sentence": "- Breathing that gets slow and shallow, or any trouble breathing",
+  "why_reading": "it tells the friend which signs mean calling medics now"
+ },
+ "same_point": "none: read the section from its heading to the next; magnesium is now said once in the steps (step 6), with its amounts in MDMA: Magnesium Alarm, which step 6 points to",
+ "needed": {
+  "reader": "a fresh agent (Sonnet) given tools/humanization/needed_read_brief.md (reads/need-a1-call.txt), on version one",
+  "unneeded": [],
+  "kept": {}
+ },
+ "his_fixes": {
+  "reader": "a fresh agent (Sonnet) given tools/humanization/his_fixes_brief.md, its twenty-six ways (reads/his-a1-call.txt), on version one",
+  "marked": [],
+  "kept": {}
+ },
+ "fit": {
+  "reader": "a fresh agent (Sonnet) given tools/humanization/fit_read_brief.md (reads/fit-a1-call.txt), on version one",
+  "marked": [],
+  "kept": {}
+ },
+ "questions": {
+  "Q1": "PASS: each sentence opens on why it is there",
+  "Q2": "PASS: every instruction is something the friend does or leaves out, with why",
+  "Q3": "PASS: what to give, how, and when to stop",
+  "Q4": "PASS: terms come with their plain words (Epsom salt is magnesium sulfate)",
+  "Q5": "PASS: each sentence ties to the one before at its start",
+  "Q6": "PASS: what to do first, then what not to do, then the last resort",
+  "Q7": "PASS: every fact is one he gave or a source says",
+  "Q8": "PASS: one point a sentence",
+  "Q9": "PASS: the payoff first"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

@@ -1,0 +1,96 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-23",
+ "text_sha256": "af28f1b42b160b0b5dcde6bac61dddb4c3fdbcc4d4aebc7c8323b958cbcf07b9",
+ "text": "Since a seizure is one of the main dangers while you wait, I'd use [DMSO](https://ibogaqueen.substack.com/i/170920118/dmso), which seems to help prevent them, going by people's reports rather than studies: at any sign of an overdose, have them smell it or rub a little on a clean patch of skin (with 30% water if the skin itches), then use a little more at a time, since some people react more strongly than others. You might also think of [niacin](https://ibogaqueen.substack.com/i/170920118/niacin-flushes-trips-out), which this guide uses for ending a trip, but it's unsafe with serotonin syndrome, since at the doses used to end a trip it can cause flushing and low blood pressure ([NIH](https://ods.od.nih.gov/factsheets/Niacin-Consumer/)). The other remedy I'd keep for a last resort, if nothing else is helping and no medics are coming, is [Syrian rue oil](https://ibogaqueen.substack.com/i/170920118/syrian-rue-oil-gentler), since it makes trips, ayahuasca included, much less intense. The oil isn't the Syrian rue brew from step 1, which blocks MAO and is dangerous with MDMA for that reason, but nobody has studied the oil with MDMA either.",
+ "section": "Act Now on SS",
+ "reader": "a friend sitting with someone who took MDMA on top of their antidepressant and now has twitching muscles, sweating and a racing heart; they have called an ambulance and read what to do while they wait",
+ "sentences": [
+  {
+   "s": "Since a seizure is one of the main dangers while you wait, I'd use [DMSO](https://ibogaqueen.substack.com/i/170920118/dmso), which seems to help prevent them, going by people's reports rather than studies: at any sign of an overdose, have them smell it or rub a little on a clean patch of skin (with 30% water if the skin itches), then use a little more at a time, since some people react more strongly than others.",
+   "payoff": "they use DMSO and know how",
+   "follows": "the seizure in step 7"
+  },
+  {
+   "s": "You might also think of [niacin](https://ibogaqueen.substack.com/i/170920118/niacin-flushes-trips-out), which this guide uses for ending a trip, but it's unsafe with serotonin syndrome, since at the doses used to end a trip it can cause flushing and low blood pressure ([NIH](https://ods.od.nih.gov/factsheets/Niacin-Consumer/)).",
+   "payoff": "they leave niacin out",
+   "follows": "DMSO just named",
+   "link": "also"
+  },
+  {
+   "s": "The other remedy I'd keep for a last resort, if nothing else is helping and no medics are coming, is [Syrian rue oil](https://ibogaqueen.substack.com/i/170920118/syrian-rue-oil-gentler), since it makes trips, ayahuasca included, much less intense.",
+   "payoff": "they keep Syrian rue oil for a last resort",
+   "follows": "niacin just named",
+   "link": "The other remedy"
+  },
+  {
+   "s": "The oil isn't the Syrian rue brew from step 1, which blocks MAO and is dangerous with MDMA for that reason, but nobody has studied the oil with MDMA either.",
+   "payoff": "they know step 1 meant the brew, and that the oil is unstudied with MDMA",
+   "follows": "the oil just named",
+   "link": "The oil"
+  }
+ ],
+ "checked": [
+  {
+   "point": "DMSO seems to help prevent seizures, by people's reports; start low, since some people react more strongly",
+   "found": "his SS-ASKED-2 answer (c) of round 50 (\"definitely seems to prevent seizures\", from \"the forum signal\"); his QUIZ-3 answer: \"I'd just say that some people are more sensitive than others ... start low go slow\"",
+   "still_needed": "yes: they know how to start DMSO and how fast to add more",
+   "fate": "kept"
+  },
+  {
+   "point": "niacin at trip-ending doses can cause flushing and low blood pressure",
+   "found": "NIH Office of Dietary Supplements, Niacin fact sheet (ods.od.nih.gov/factsheets/Niacin-Consumer)",
+   "still_needed": "yes: they leave niacin out while they wait",
+   "fate": "kept"
+  },
+  {
+   "point": "Syrian rue oil does not block MAO, unlike the brew, makes trips much less intense, and is unstudied with MDMA: a last resort if nothing helps and no medics come",
+   "found": "his SS-OIL answer of 2026-11-23 23:35 UTC (\"it doesn't inhibit MAO, which is what normally makes syrian rue tea dangerous with MDMA\"; \"it makes trips (including ayahuasca) much less intense\"; \"a last resort for SS if nothing else is helping and no medics are coming\"; \"there is just no research on this\"); his section Syrian Rue Oil: Gentler",
+   "still_needed": "yes: they know when the oil is worth trying",
+   "fate": "kept"
+  }
+ ],
+ "placement": "step 8 of the eight steps under \"Act Now on SS\" (B136), the last",
+ "opens": {
+  "first_sentence": "Since a seizure is one of the main dangers while you wait, I'd use [DMSO](https://ibogaqueen.substack.com/i/170920118/dmso), which seems to help prevent them, going by people's reports rather than studies: at any sign of an overdose, have them smell it or rub a little on a clean patch of skin (with 30% water if the skin itches), then use a little more at a time, since some people react more strongly than others.",
+  "why_reading": "it tells the friend which of this guide's remedies to use, which to leave out, and which to keep for a last resort"
+ },
+ "same_point": "none: read the section from its heading to the next; magnesium is now said once in the steps (step 6), with its amounts in MDMA: Magnesium Alarm, which step 6 points to",
+ "needed": {
+  "reader": "a fresh agent (Sonnet) given tools/humanization/needed_read_brief.md (reads/need-a1-ss.txt), on version one",
+  "unneeded": [],
+  "kept": {}
+ },
+ "his_fixes": {
+  "reader": "a fresh agent (Sonnet) given tools/humanization/his_fixes_brief.md, its twenty-six ways (reads/his-a1-ss.txt), on version one",
+  "marked": [],
+  "kept": {}
+ },
+ "fit": {
+  "reader": "a fresh agent (Sonnet) given tools/humanization/fit_read_brief.md (reads/fit-a1-ss.txt), on version one",
+  "marked": [],
+  "kept": {}
+ },
+ "questions": {
+  "Q1": "PASS: each sentence opens on why it is there",
+  "Q2": "PASS: every instruction is something the friend does or leaves out, with why",
+  "Q3": "PASS: what to give, how, and when to stop",
+  "Q4": "PASS: terms come with their plain words (Epsom salt is magnesium sulfate)",
+  "Q5": "PASS: each sentence ties to the one before at its start",
+  "Q6": "PASS: what to do first, then what not to do, then the last resort",
+  "Q7": "PASS: every fact is one he gave or a source says",
+  "Q8": "PASS: one point a sentence",
+  "Q9": "PASS: the payoff first"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

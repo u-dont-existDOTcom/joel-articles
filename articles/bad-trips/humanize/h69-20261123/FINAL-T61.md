@@ -1,10 +1,10 @@
-Mon 23 Nov 2026, 20:09:30 (UTC+00:00, Africa/Nouakchott) · total turn time 53m31s–54m30s (from 19:15)
+Mon 23 Nov 2026, 20:15:06 (UTC+00:00, Africa/Nouakchott) · total turn time 59m07s–1h00m06s (from 19:15)
 
 **Quiz or Pangram?** Both helped, in different ways, and the API credits change which one should cost you time.
 
 - The quiz taught me what to look for. Across quizzes 1 and 2, my "not sure" was right 8 times out of 9, but my "reads right" was right only 7 times out of 16. So I can tell when I'm unsure, but not when I'm wrong. The lessons from your marks (the tie at the start, the payoff first, the doubt answered where it comes up) carried over: with them applied first, 2 of my 5 new steps read Human High on their first API check.
-- Pangram shows whether a fix worked, and where. Your naloxone paragraph took your 13 checks to go from my AI High 90 to [Human High 99](https://www.pangram.com/history/73e392f4-d32e-46d3-82c5-0cc0894c0a06). This turn, 14 API checks got every new text to Human High without you.
-- Pangram flags a window but can't say why, and your marks can. Against Pangram's windows, my quiz 3 readings landed about where they did against your marks: "not sure" fell on a window below High 4 times out of 6, and "reads right" on a High window 2 times out of 3.
+- Pangram shows whether a fix worked, and where. Your naloxone paragraph took your 13 checks to go from my AI High 90 to [Human High 99](https://www.pangram.com/history/73e392f4-d32e-46d3-82c5-0cc0894c0a06). This turn, 11 API checks took every text I wrote to Human High, without you.
+- Pangram flags a window but can't say why, and your marks can. They also don't flag the same sentences. Scored against Pangram's windows instead of your marks, my quiz 3 readings came out differently: "not sure" fell on a window below High 4 times out of 6, and "reads right" on a High window 2 times out of 3.
 
 My suggestion: from now on I run every check myself through the API and record my readings next to Pangram's windows each time. The quiz then goes to you only now and then, kept short, when Pangram flags something I can't explain. Quiz 3 is on round 51 as optional.
 

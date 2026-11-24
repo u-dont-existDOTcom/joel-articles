@@ -1,0 +1,50 @@
+NEEDS:
+S1: step number marker (steps 1 to 5 and 7 are the writer's own and stay)
+S2: step 1: stop anything that adds serotonin
+S3: step 1: names the common culprits to withhold (MDMA, stimulants, DXM, tramadol, linezolid)
+S4: step 1: don't give a prescribed antidepressant dose right now
+S5: step 1: no more ayahuasca or harmala brews
+S6: step 1: check for supplements (5-HTP, St John's wort, SAM-e) and withhold them
+S7: step 2: give cyproheptadine early if alert and able to swallow
+S8: step 2: what the evidence for cyproheptadine is (case reports, weak review); implies it is not proven, so don't count on it
+S9: step 2: don't wait on the drug before doing the other steps
+S10: step 2: tells the reader whether they can get it (prescription, telehealth)
+S11: step 2: the dose to give
+S12: step 2: tell medics how much was given
+S13: step 3: ask for an ambulance, not a car trip, because they can get worse fast
+S14: step 3: don't drive them yourself, and why
+S15: step 3: call poison control while waiting if the substances are unknown
+S16: step number marker
+S17: step 4: the reason to cool them (overheating is the main danger)
+S18: step 4: how to cool them (cool place, fewer clothes, fan, damp cloths)
+S19: step 4: ice packs in cloth at neck, armpits, groin
+S20: step 4: no cold bath, and why
+S21: step 4: don't rely on Tylenol or ibuprofen
+S22: step number marker
+S23: step 5: clear the crowd and stop arguing
+S24: step 5: don't let them pace or exercise, and why
+S25: step 5: for the urge to keep moving, have them tap
+S26: step number marker for step 6
+S27: step 6: give fluids only if alert, able to swallow and not vomiting, small sips of electrolyte drink (first sentence, stays)
+S28: step 6: starts the condition for needing more than a normal electrolyte drink (low-electrolyte signs from MDMA); cut in two by the link title, reads as one sentence with S29
+S29: step 6: if those signs are there, give more salt, potassium and magnesium than a normal drink has
+S30: step 6: what to give for salt and potassium (potato chips, as many as they want); note "as many as they want" sits against the warning that potassium may run high, so the reader may be unsure whether to limit the chips
+S31: step 6: tells the reader their potassium level is unknown (low or high), which is why S33 limits the form it comes in; ends on a colon that only S32 closes
+S32: step 6: gives the mechanisms for low and high potassium; the reader can't act on them and S33 needs only "it could be either"
+S33: step 6: give potassium only in food, never pills or powder
+S34: step 6: why magnesium goes on the skin (low in many people with SS, magnesium chloride tastes bad); implies use the skin route
+S35: step 6: how to apply magnesium on the skin (flakes in water, or Epsom salt as a weaker fallback)
+S36: step 6: oral option and amount (a gram at a time) for people who can stand the taste, especially with jaw tension or twitching; cut in two by the link title, reads as one sentence with S37
+S37: step 6: points to where the amounts are given
+S38: step number marker
+S39: step 7: gather pill bottles and packages for the ER
+S40: step 7: write down how much of each and when
+S41: step 7: seizure first aid and watch breathing afterward
+S42: step number marker for step 8
+S43: step 8: use DMSO (smell or rub on skin, dilute if itchy, more as needed), since it seems to prevent seizures
+S44: step 8: don't use niacin here, though the guide uses it to end a trip, because of low blood pressure and dizziness
+S45: step 8: Syrian rue oil is a different thing from the brew in step 1, so step 1 doesn't ban it, and it eases the trip
+S46: step 8: use the oil only as a last resort, when nothing helps and no medics are coming, since it is untested with MDMA
+
+UNNEEDED:
+- S32: [MDMA can drain it, muscles breaking down into the blood push it up, and high potassium brings on vomiting and diarrhea, which then drain it again.] — the reader only needs S31's "low or high" and S33's "so only in food"; this chain of causes is not something they can act on, and the claim that high potassium brings on vomiting and diarrhea is shaky. If it goes, S31 should end with a full stop instead of a colon.
