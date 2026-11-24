@@ -42,7 +42,8 @@ the sidebar shows each), `<slug>.CONTENTS.json` (for `toc_check.py`) and `<slug>
 5. Check the pick with fresh readers (gates inner-child-2026-11-17a to g); a model's reorganization is only a proposal,
    move by move, after asking him what each part holds (gate inner-child-2026-11-20a).
 6. His picks on a page, each option shown as it would look, with your pick and how sure you are (gate
-   bad-trips-2026-11-09f), built with `tools/humanization/contents_picks_page.py` (his own-words box shows the sidebar's
+   bad-trips-2026-11-09f), built with `tools/humanization/contents_picks_page.py` (a copy made to test it is built with
+   "test": true and ends its turn pointing to his page, lesson toc-2026-11-24c; his own-words box shows the sidebar's
    cut-off; lesson toc-2026-11-23a), with the link plan for every section the text mentions (lesson toc-2026-11-23b).
 7. Apply: `section_links.py build` a `SECTION-LINKS.json`, rename through `section_links.py rename`, fix the sentences on
    either side of each renamed heading (gate inner-child-2026-11-20d), and the body text the change touched (a sentence
@@ -62,7 +63,9 @@ Joel picked the Nirvāna guide first (2026-11-23 14:37 UTC: "ok start with the n
    the test and every heading's reason: [RESULTS.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/nibbana/experiments/toc-20261123/RESULTS.md).
    His extension on the live post (2026-11-23 23:50 UTC, NB-toc-ext-live#48): Human Written, 100% Human, 52 High, 43
    Medium, 8 Low windows, no heading in its text; the three windows that read lower in my web-app checks read High
-   there (lesson toc-2026-11-23e), as does every sentence this lane changed.
+   there (lesson toc-2026-11-23e), as does every sentence this lane changed. The 51 windows below High are short
+   pieces between the long High ones; on the post his extension shows it all High (Joel, 2026-11-24 21:35 UTC:
+   "nirvana post reads all high conf on substack"), so they are recorded and closed (lesson toc-2026-11-24d).
 2. Then the Self-Hypnosis guide (the most headings and the most cut off, 90 of 164, and 43 h1s, two of them notes rather
    than sections: "How to use this very large guide", "The table of contents is hiding on the left"), Escuelitas, Romance.
    Build its picks page with `tools/humanization/contents_picks_page.py`, run the section-link check with the contents
@@ -78,12 +81,16 @@ the record he pasted at 14:18; the page stopped taking his clicks and was fixed 
 its record, `articles/inner-signal/experiments/toc-20261123/RESULTS.md`, last section). The record he pasted at 21:05
 UTC came from the TEST copy (https://claude.ai/artifact/SaNBVtX4AyqYV7mRaJTvHA holds my test clicks,
 S001 "now", S042 and S043 own words, and now only points to his page); his own page still holds S011 and S015 in his
-words, and he carries on from S122 there.
+words. **Nothing of his needs redoing** (his question of 21:35 UTC; `answers/JOEL-20261124-2135.md`): a heading
+left on the proposal is not stored, both records show the proposals from S035 on, and he carries on from where he
+stopped (S122) on his page, or says he is done with the headings. The page was republished at 21:49 UTC so that his
+answers are merged with the saved ones, never replaced (lesson toc-2026-11-24c; it has its own store name now).
 His 15 answers on Fable's notes set the structure (2026-11-24 01:04 UTC: `answers/JOEL-20261124-0104.md`, STRUCTURE.json):
 five headings go, three change level, four groups move, the audit merges into Appendix F, appendices take letters only.
 His 21:05 note on S122 adds Systema's continuous breathing beside Buteyko breathing: text change T7 (two linked
-sentences, the Systema video and the somatic guide's Systema section), and S122's proposal is now "Buteyko & Systema"
-(PICK3 files; the page asks him about T7's words).
+sentences, the Systema video and the somatic guide's Systema section). S122's heading stays "Breathe Less (Buteyko)",
+the title in what he sent (21:35 UTC: "i already gave a title at s122 check what i sent you"); my "Buteyko & Systema"
+of 21:09 is withdrawn, and the page's note on T7 asks nothing.
 **Before the edit, the catch-up with the posts it is built on** (lesson toc-2026-11-24b, `articles/BUILT-ON.json`): he
 said on 2026-11-20 that the hypnosis guide is built on the inner child guide, and on 2026-11-24 21:05 that it is built
 on the somatic guide too, and the September sync (r03) never reached the live post. Compare S017-S034, S070-S072, S113,

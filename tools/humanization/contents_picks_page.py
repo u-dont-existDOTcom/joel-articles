@@ -13,8 +13,13 @@ What it does and why:
   toc-2026-11-23a; Joel, 2026-11-23 17:24 UTC: "I told you before but i'd still like to have some visible maker for
   "your own words" where it would show me how long it can be").
 - It declares the artifact's database, saves every change there, one write at a time, with the heading text of every
-  pick and not only which column was clicked; answers saved only in this browser go up to the database when it opens; and
-  "Copy my answers" gives the same record as JSON for the chat (lesson bad-trips-2026-11-21c). Declare it after the first
+  pick and not only which column was clicked; and "Copy my answers" gives the same record as JSON for the chat (lesson
+  bad-trips-2026-11-21c). His answers are never replaced wholesale (lesson toc-2026-11-24c): every change carries its
+  time, the database's answers come in only where they are at least as new as this browser's, each save reads the
+  database first, and what he picks before it connects goes up when it does.
+- A copy made to test the page is built with "test": true in PAGE-OPTIONS.json (and "real": his page's address): it
+  gets a red TEST COPY banner, its own title and its own store, and the turn that made it ends with it pointing to his
+  page (lesson toc-2026-11-24c). Declare it after the first
   publish: capabilities {"db": {"rules": [{"path": "", "read": "view", "write": "admin"}]}}.
 - Options with the same text merge into one choice, so a pick is never split between two identical buttons.
 
@@ -47,9 +52,15 @@ def main(run_dir, opts_path, out_path):
         E = {e['id']: e for e in json.load(open(os.path.join(run_dir, meta['file']), encoding='utf-8'))}
         opts[key] = {'label': meta['label'], 'entries': [{'id': i, 'level': E[i]['level'], 'heading': E[i]['heading'],
                                                            'kind': E[i].get('kind', '')} for i in (e['id'] for e in now)]}
+    test = bool(O.get('test'))   # a copy made to test the page: its own title, banner and store, never his (lesson toc-2026-11-24c)
+    if test:
+        O = dict(O, title='TEST COPY, not your page: ' + O['title'], store=O['store'] + '-TEST')
     data = {'now': now, 'options': opts, 'pick': O.get('pick', {}), 'notes': O.get('notes', {}), 'room': ts.ROOM,
             'scores': O['scores'], 'questions': O.get('questions', []), 'store': O['store'], 'kinds': O.get('kinds', {})}
     page = T.replace('__TITLE__', html.escape(O['title'])).replace('__SUB__', html.escape(O['sub'])).replace('__PRIMARY__', O.get('primary', 'pick'))
+    page = page.replace('__BANNER__', '<p class="testcopy">TEST COPY. This is not your page: nothing you pick here counts.'
+                        + (' Your page: <a href="%s">%s</a>.' % (html.escape(O['real']), html.escape(O['real'])) if O.get('real') else '')
+                        + '</p>' if test else '')
     page = page.replace('__DATA__', json.dumps(data, ensure_ascii=False).replace('</', '<\\/'))
     open(out_path, 'w', encoding='utf-8').write(page)
     print('page', out_path, len(page))
@@ -105,8 +116,9 @@ textarea{min-height:70px}.saved{font:13px/1.4 Inter,system-ui,sans-serif;color:v
 .ownbox.cut .cutline{border-left-color:var(--bad)}
 .ownst{display:block;margin-top:4px;font:12px/1.35 Inter,system-ui,sans-serif;color:var(--faint)}.ownst b{font-weight:600}
 .ownst.fits b{color:var(--ok)}.ownst.tight b{color:var(--warn)}.ownst.cut b{color:var(--bad)}
+.testcopy{background:#b3261e;color:#fff;font:600 17px/1.4 Inter,system-ui,sans-serif;padding:12px 16px;border-radius:8px;position:sticky;top:0;z-index:9}.testcopy a{color:#fff}
 </style></head><body><main>
-<h1>__TITLE__</h1>
+__BANNER__<h1>__TITLE__</h1>
 <p class="sub">__SUB__</p>
 <div class="q" id="question"></div>
 <h2>What fresh readers found</h2><div id="scores"></div>
@@ -132,9 +144,9 @@ const KEYS = Object.keys(D.options);
 const byId = {}; D.now.forEach(e => byId[e.id] = {now: e});
 KEYS.forEach(k => D.options[k].entries.forEach(e => byId[e.id][k] = e));
 const STORE_KEY = D.store;
-let ans = {picks: {}, own: {}, answers: {}, comment: ''};
+let ans = {picks: {}, own: {}, answers: {}, comment: '', at: {}};
 let local = null;
-try { const s = localStorage.getItem(STORE_KEY); if (s) { local = JSON.parse(s); ans = Object.assign(ans, local); } } catch (e) {}
+try { const s = localStorage.getItem(STORE_KEY); if (s) { local = JSON.parse(s); ans = Object.assign(ans, local); if (!ans.at) ans.at = {}; } } catch (e) {}
 let doc = null;
 const cv = document.createElement('canvas').getContext('2d');
 function measure(t){ cv.font = '400 15px Inter'; return cv.measureText(t).width; }
@@ -168,7 +180,7 @@ function esc(s){ return String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt
 function pickOf(id){ return ans.picks[id] || D.pick[id] || 'now'; }
 function choice(id){ const p = pickOf(id); if (p === 'own') return (ans.own[id] || byId[id].now.heading); return (byId[id][p] || byId[id].now).heading; }
 function differs(id){ return KEYS.some(k => byId[id][k] && byId[id][k].heading !== byId[id].now.heading); }
-function record(){ return {page: STORE_KEY, saved: new Date().toISOString(), picks: ans.picks, own: ans.own, answers: ans.answers, comment: ans.comment,
+function record(){ return {page: STORE_KEY, saved: new Date().toISOString(), picks: ans.picks, own: ans.own, answers: ans.answers, comment: ans.comment, at: ans.at,
   headings: Object.fromEntries(D.now.map(e => [e.id, choice(e.id)])), changed: D.now.filter(e => choice(e.id) !== e.heading).map(e => ({id: e.id, was: e.heading, now: choice(e.id)}))}; }
 function menu(title, entries, from){
   const rows = entries.map(e => `<div class="row l${e.level}${from && from[e.id] !== e.heading ? ' changed' : ''}"><div class="lab">${esc(e.heading)}</div></div>`).join('');
@@ -217,20 +229,56 @@ function drawQs(){
   D.questions.forEach(q => { h += `<div class="item"><div class="top"><span>${esc(q.id)}</span></div><div class="why" style="font-size:15px;color:var(--ink)">${q.text}</div><textarea data-q="${esc(q.id)}" placeholder="Your answer">${esc(ans.answers[q.id] || '')}</textarea></div>`; });
   document.getElementById('qs').innerHTML = h;
 }
-let writing = false, dirty = false, timer = null;
+// His answers are never replaced wholesale (lesson toc-2026-11-24c). Until 2026-11-24 this page swapped everything it held
+// for the store's copy when the store connected, and wrote its whole copy back on every save, so a pick made before the
+// store connected, or in another tab or on another device, could be lost without a word. Now every change carries its
+// time (ans.at), the store's answers come in only where they are at least as new as this browser's, and each save reads
+// the store first.
+function stamp(k){ ans.at[k] = Date.now(); }
+function fromSnap(snap){ return snap && (snap.data ? snap.data() : snap); }
+function takeIn(v){
+  const vat = v.at || {}, ids = new Set(); let other = false;
+  [['picks', 'p:'], ['own', 'o:'], ['answers', 'q:']].forEach(([f, pre]) => { const src = v[f] || {};
+    Object.keys(src).forEach(k => { const theirs = vat[pre + k] || 0, mine = ans.at[pre + k] || 0;
+      if (theirs < mine) return;
+      if (theirs) ans.at[pre + k] = theirs;
+      if (ans[f][k] !== src[k]) { ans[f][k] = src[k]; if (f === 'answers') other = true; else ids.add(k); } }); });
+  if ((vat.c || 0) >= (ans.at.c || 0)) { if (vat.c) ans.at.c = vat.c; if ((v.comment || '') !== (ans.comment || '')) { ans.comment = v.comment || ''; other = true; } }
+  return {ids: Array.from(ids), other: other};
+}
+function applyItem(id){
+  const e = byId[id] && byId[id].now; if (!e) return;
+  const p = pickOf(id), t = p === 'own' ? null : (byId[id][p] || e).heading;
+  document.querySelectorAll(`input[name="p-${id}"]`).forEach(r => { r.checked = r.value === 'own' ? p === 'own' : (t !== null && (byId[id][r.value] || e).heading === t); });
+  const inp = document.querySelector(`input[data-own="${id}"]`);
+  if (inp && document.activeElement !== inp) { inp.value = ans.own[id] || '';
+    const st = ownStatus(inp.value, e.level), el = document.getElementById('st-' + id), ob = document.getElementById('ob-' + id);
+    if (el) { el.className = 'ownst ' + st.cls; el.innerHTML = st.html; }
+    if (ob) { ob.classList.toggle('cut', st.cls === 'cut'); placeLine(ob); } }
+  updateItem(id);
+}
+function show(ch){
+  ch.ids.forEach(applyItem);
+  if (ch.other) { document.querySelectorAll('textarea[data-q]').forEach(t => { if (document.activeElement !== t) t.value = ans.answers[t.dataset.q] || ''; });
+    const c = document.getElementById('comment'); if (c && document.activeElement !== c) c.value = ans.comment || ''; }
+  if (ch.ids.length) drawBars();
+}
+function canon(a){ return JSON.stringify([a.picks || {}, a.own || {}, a.answers || {}].map(o => Object.keys(o).sort().map(k => [k, o[k]])).concat([a.comment || ''])); }
+let writing = false, dirty = false, timer = null, waiting = false, connecting = true;
 function flush(){
-  if (!doc) return;
+  if (!doc) { waiting = true; return; }
   if (writing) { dirty = true; return; }
   writing = true; dirty = false;
   const s = document.getElementById('saved');
-  doc.set(record()).then(() => { s.textContent = 'Saved'; }).catch(() => { s.textContent = 'Saved in this browser only'; })
+  doc.get().then(snap => { const v = fromSnap(snap); if (v && v.picks) show(takeIn(v)); return doc.set(record()); })
+    .then(() => { s.textContent = 'Saved'; }).catch(() => { s.textContent = 'Saved in this browser only: copy your answers before you leave'; })
     .finally(() => { writing = false; if (dirty) flush(); });
 }
 function save(){
   try { localStorage.setItem(STORE_KEY, JSON.stringify(ans)); } catch (e) {}
   const s = document.getElementById('saved');
   if (doc) { s.textContent = 'Saving…'; clearTimeout(timer); timer = setTimeout(flush, 500); }
-  else s.textContent = 'Saved in this browser';
+  else { waiting = true; s.textContent = connecting ? 'Saved in this browser; it goes to your saved answers when they connect' : 'Saved in this browser only: copy your answers before you leave'; }
 }
 // A pick updates its own heading in place (lesson toc-2026-11-24a): rebuilding every heading on each click, as this page
 // did until 2026-11-24, threw away the box being typed in, so a first click into "Your own words" lost what came next,
@@ -241,17 +289,17 @@ function updateItem(id){
 }
 document.addEventListener('change', ev => { const t = ev.target;
   if (t.type === 'radio' && t.name.startsWith('p-')) {
-    const id = t.name.slice(2); ans.picks[id] = t.value; save(); updateItem(id); drawBars();
+    const id = t.name.slice(2); ans.picks[id] = t.value; stamp('p:' + id); save(); updateItem(id); drawBars();
     if (t.value === 'own') { const inp = document.querySelector(`input[data-own="${id}"]`); if (inp && document.activeElement !== inp) inp.focus(); }
   } });
 window.addEventListener('error', ev => { const s = document.getElementById('saved');
   if (s) s.textContent = 'Something broke on this page (' + (ev.message || 'error') + '): copy your answers and tell Claude'; });
 document.addEventListener('input', ev => { const t = ev.target;
-  if (t.dataset && t.dataset.own) { ans.own[t.dataset.own] = t.value; ans.picks[t.dataset.own] = 'own'; showOwn(t.dataset.own, +t.dataset.level, t.value); save(); drawBars(); }
-  if (t.dataset && t.dataset.q) { ans.answers[t.dataset.q] = t.value; save(); }
-  if (t.id === 'comment') { ans.comment = t.value; save(); } });
+  if (t.dataset && t.dataset.own) { ans.own[t.dataset.own] = t.value; ans.picks[t.dataset.own] = 'own'; stamp('o:' + t.dataset.own); stamp('p:' + t.dataset.own); showOwn(t.dataset.own, +t.dataset.level, t.value); save(); drawBars(); }
+  if (t.dataset && t.dataset.q) { ans.answers[t.dataset.q] = t.value; stamp('q:' + t.dataset.q); save(); }
+  if (t.id === 'comment') { ans.comment = t.value; stamp('c'); save(); } });
 function redraw(){ const y = window.scrollY; drawItems(); drawBars(); window.scrollTo(0, y); }
-document.querySelectorAll('[data-all]').forEach(b => b.addEventListener('click', () => { const k = b.dataset.all; D.now.forEach(e => { ans.picks[e.id] = (k === 'now' || byId[e.id][k]) ? k : 'now'; }); save(); redraw(); }));
+document.querySelectorAll('[data-all]').forEach(b => b.addEventListener('click', () => { const k = b.dataset.all; D.now.forEach(e => { ans.picks[e.id] = (k === 'now' || byId[e.id][k]) ? k : 'now'; stamp('p:' + e.id); }); save(); redraw(); }));
 document.getElementById('copy').addEventListener('click', async () => {
   const out = JSON.stringify(record());
   try { await navigator.clipboard.writeText(out); document.getElementById('saved').textContent = 'Copied: paste it into the chat'; }
@@ -265,16 +313,19 @@ function draw(){ drawBars(); drawItems(); drawQs(); }
 draw();
 if (document.fonts && document.fonts.ready) document.fonts.ready.then(draw);
 (async () => {
+  const st = document.getElementById('saved');
   try {
-    for (let i = 0; i < 30 && !(window.claude && window.claude.use); i++) await new Promise(r => setTimeout(r, 100));
-    if (!window.claude || !window.claude.use) return;
-    const db = await window.claude.use('db'); if (!db) return;
-    doc = db.doc('answers/joel');
-    const snap = await doc.get();
-    const v = snap && (snap.data ? snap.data() : snap);
-    if (v && v.picks) { ans = Object.assign(ans, {picks: v.picks, own: v.own || {}, answers: v.answers || {}, comment: v.comment || ''}); document.getElementById('comment').value = ans.comment; draw(); document.getElementById('saved').textContent = 'Your answers are back'; }
-    else if (local && Object.keys(local.picks || {}).length) { await doc.set(record()); document.getElementById('saved').textContent = 'Saved what this browser had'; }
-  } catch (e) { doc = null; }
+    for (let i = 0; i < 600 && !(window.claude && window.claude.use); i++) await new Promise(r => setTimeout(r, 100));
+    if (!window.claude || !window.claude.use) throw new Error('no store');
+    const db = await window.claude.use('db'); if (!db) throw new Error('no store');
+    const d = db.doc('answers/joel');
+    const v = fromSnap(await d.get());
+    doc = d; connecting = false;
+    if (v && v.picks) { show(takeIn(v)); st.textContent = 'Your answers are back';
+      if (waiting || canon(ans) !== canon(v)) { waiting = false; flush(); } }
+    else if (waiting || Object.keys(ans.picks).length || Object.keys(ans.own).length || Object.keys(ans.answers).length || ans.comment) { waiting = false; flush(); }
+  } catch (e) { doc = null; connecting = false;
+    st.textContent = 'Not connected to your saved answers: what you pick here is saved in this browser only. Copy your answers before you leave.'; }
 })();
 </script></body></html>"""
 

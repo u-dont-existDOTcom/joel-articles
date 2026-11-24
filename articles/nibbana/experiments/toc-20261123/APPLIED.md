@@ -19,6 +19,8 @@ None of their words changed. They read lower because these check texts kept the 
 
 **His extension on the live post** (2026-11-23 23:50 UTC, [the result](https://www.pangram.com/feed/da110b46-92ee-4096-b923-36759b09bde3), recorded as NB-toc-ext-live#48 in [RESULT-EXT-LIVE-20261123.json](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/nibbana/experiments/toc-20261123/pangram/RESULT-EXT-LIVE-20261123.json)): Human Written, 100% Human, all 15,624 words, 103 windows: 52 Human High, 43 Medium, 8 Low, no AI window. No heading is a line of its text. The three windows above read Human High there (499, 1,705 and 424 words), and so does every sentence this lane changed (the blessing and fingers lines, "both Bāhiya and I", the flashbacks section's first sentences). The 8 Low windows are 4 to 52 words each, all in text the contents work didn't touch.
 
+**What he sees on the post** (Joel, 2026-11-24 21:35 UTC, to my question whether the 51 windows below High count under his every-window-High rule): "nirvana post reads all high conf on substack, it's not the same as when you check on pangram gui, doesn't seem to check the headings". On the post his extension shows it all High. The 51 are short pieces between the long High windows (1 to 52 words each, 648 of the 15,528 words in the windows; Medium at 0.90 to 0.99, Low at 0.67 to 0.90), listed in [WINDOWS-EXT-LIVE-20261123.txt](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/nibbana/experiments/toc-20261123/pangram/WINDOWS-EXT-LIVE-20261123.txt): recorded, not work to do, and not raised with him again (lesson toc-2026-11-24d). The contents work on this post is done.
+
 ## Headings
 
 | Section | His heading before | Now | Whose |

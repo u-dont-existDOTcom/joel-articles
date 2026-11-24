@@ -74638,7 +74638,7 @@
         },
         {
           "path": "articles/inner-signal/experiments/toc-20261123/PAGE-OPTIONS.json",
-          "sha256": "c2c75465ad61c793d311ce1525c9f4f9168a9f1d70cdcdcae37fb1a70cc97594",
+          "sha256": "dbfe167bd5d5e49e1227818969a69a69b4dba9a21fd1cdc5cac0c1d47660aaa7",
           "role": "humanization_working_record"
         },
         {
@@ -74658,7 +74658,7 @@
         },
         {
           "path": "articles/inner-signal/experiments/toc-20261123/PICKS-PAGE.html",
-          "sha256": "d2a65698e018a5bc8ec65623d3adc379916b6f9d99797aa710800190e4fc5080",
+          "sha256": "2b7e3e9dadf56c22e4396b0e24ca4da59aa9b32a574a4a59b9b78f614e7bbf58",
           "role": "humanization_working_record"
         },
         {
@@ -74713,12 +74713,12 @@
         },
         {
           "path": "articles/inner-signal/experiments/toc-20261123/make_page_options.py",
-          "sha256": "1e1228304f322bba69eb5fbc172627a0628af538bce245d326220b0b49ec6ba2",
+          "sha256": "cf6814339ba5a29295bf52d862204793e44e6dd21df96802326b628b9518e419",
           "role": "humanization_working_record"
         },
         {
           "path": "articles/inner-signal/experiments/toc-20261123/make_pick.py",
-          "sha256": "65ece8f2c51afa3ca3e0c60119cd9428eaeea84cd348ec542373bdae3c484513",
+          "sha256": "edcda56891b9d4b6a2736ad81b059d7601dd2d168173075af5dcad1194efbf86",
           "role": "humanization_working_record"
         },
         {
@@ -74788,27 +74788,37 @@
         },
         {
           "path": "articles/inner-signal/experiments/toc-20261123/PICK3-FOR-PAGE.json",
-          "sha256": "7b5241de56fa3d4dd66db0efdca7ce12b1ef699d77e2d8b3151ad92f09b18c06",
+          "sha256": "93c22d09acf7b88df14a850cfc3462212442e8496c75d8b34949ccf91cd6e159",
           "role": "humanization_working_record"
         },
         {
           "path": "articles/inner-signal/experiments/toc-20261123/PICK3-PAGE-OPTION.json",
-          "sha256": "9792e04c0660e67d1595bd13f9669094bd82dc3928551f22344e323c3c591972",
+          "sha256": "6b6fd4373baa7873fc4a1583a6f76e95b73279af1e84534d9de8803a1275bdcc",
           "role": "humanization_working_record"
         },
         {
           "path": "articles/inner-signal/experiments/toc-20261123/PROPOSAL-PICK3.json",
-          "sha256": "514371a519ed69ba713aff83b82b9e0b4049c05b93261b0a14bd7a05bd184b90",
+          "sha256": "86047756a8e0b81d7372c69779bd91d2f98cfede0f1a7495cbb002d096b51a42",
           "role": "humanization_working_record"
         },
         {
           "path": "articles/inner-signal/experiments/toc-20261123/TOC-PICK3-SIDEBAR.md",
-          "sha256": "fdaa046cf84dfaf6669de9327af343a8f017a29921e3ebb8129c166a8f5158c1",
+          "sha256": "dd8bfa2691008e92a59126dd4b4ad9473c8715ce676ada860b63f37eab57ec21",
           "role": "humanization_working_record"
         },
         {
           "path": "articles/inner-signal/experiments/toc-20261123/answers/JOEL-20261124-2105.md",
-          "sha256": "84d312fd592f96dc33f5bcdd0fcbed714567bceea148126ffdca113b717b7ec9",
+          "sha256": "49e884fb36e23451f275ad3c0eaf1a4e42a01f62a55a12443249c0247c9b8c0f",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/experiments/toc-20261123/answers/JOEL-20261124-2105-record-from-test-copy.json",
+          "sha256": "7f448513806d1b3c4da84e6aadeaaabc0f2813dd4578b2278c5c935a81e2758a",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/experiments/toc-20261123/answers/JOEL-20261124-2135.md",
+          "sha256": "e0513625dacf88dd0064d79d3b063a7f9c6c2cec9aef28d270c34dfb883289f1",
           "role": "humanization_working_record"
         }
       ]
@@ -77310,7 +77320,7 @@
         },
         {
           "path": "articles/nibbana/experiments/toc-20261123/APPLIED.md",
-          "sha256": "502429a7abc77dd83a9ebf295f307b48ab5bde96a53fe751be1b1f85b157a5c0",
+          "sha256": "c6fcfb2a98c42ff05b0696e7b330e958d94d4e1c13e576217fd1b3cd111fe16a",
           "role": "humanization_working_record"
         },
         {
