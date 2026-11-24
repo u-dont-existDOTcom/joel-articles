@@ -152,6 +152,11 @@ class ContentRepositoryValidationTests(unittest.TestCase):
         (self.root / "articles/AGENTS.md").symlink_to("../detached-agents.md")
         self.assertIn("index.reserved-symlink", self.codes(validate_repository(self.root)))
 
+    def test_the_built_on_registry_is_a_reserved_file_not_an_article(self) -> None:
+        self.write_index([])
+        self.write("articles/BUILT-ON.json", '{"edges": []}\n')
+        self.assertNotIn("index.unregistered-content", self.codes(validate_repository(self.root)))
+
     def test_non_incubator_cannot_have_an_empty_article_registry(self) -> None:
         self.write_index([], status="active")
         self.assertIn("index.articles.empty", self.codes(validate_repository(self.root)))

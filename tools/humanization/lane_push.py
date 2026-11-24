@@ -212,9 +212,37 @@ def pull_request(title, body_file):
 
 
 SHARED_PREFIXES = ('tools/', 'docs/', 'tests/', 'scripts/', '.github/')
-SHARED_FILES = ('AGENTS.md', 'SKILL.md')
+SHARED_FILES = ('AGENTS.md', 'SKILL.md', 'articles/AGENTS.md', 'articles/BUILT-ON.json', 'ARTICLE-META-MAP.md')
 NOT_SHARED = ('state/MAILBOX.json', 'articles/INDEX.json')   # every lane writes these; their merges are mechanical
 HOOK = REPO / 'tools' / 'humanization' / 'git-hooks' / 'pre-push'
+
+
+BUILT_ON = REPO / 'articles' / 'BUILT-ON.json'
+
+
+def built_on_lines(article, path=None):
+    """What the pushed article is built on, and what is built on it (articles/BUILT-ON.json), printed at every push so
+    neither side's lane has to be told (lesson toc-2026-11-24b; Joel, 2026-11-24 21:05 UTC: "whenever i change those
+    you should also think to merge the changes into this one (and i shouldn't have to tell you this either, right?)")."""
+    try:
+        edges = json.loads(pathlib.Path(path or BUILT_ON).read_text(encoding='utf-8')).get('edges', [])
+    except (OSError, ValueError, AttributeError):
+        return []
+    out = []
+    for e in edges:
+        src, dst = e.get('source'), e.get('built_on_it')
+        last = e.get('last_brought_in_line')
+        last = (last.get('what') if isinstance(last, dict) else last) or 'never recorded'
+        where = (e.get('sections') or {}).get('ids') or 'sections not listed yet'
+        if article == src:
+            out.append('%s is built on %s%s: carry this turn\'s changes to %s into it, or put them to Joel '
+                       '(docs/FIXING-AN-ARTICLE.md, section 1, item 6; articles/BUILT-ON.json)'
+                       % (dst, src, '' if e.get('registered', True) else ' (not registered here yet)', src))
+        elif article == dst:
+            out.append('%s is built on %s (%s); last brought in line: %s. Before its next edit, bring in what changed in %s '
+                       'since then (docs/FIXING-AN-ARTICLE.md, section 1, item 6; articles/BUILT-ON.json)'
+                       % (dst, src, where, last, src))
+    return out
 
 
 def shared(paths):
@@ -630,6 +658,8 @@ def main(argv=None):
                                    ', %d gone from the index' % gone if gone else '', ', index hash commit' if fixed else ''))
     if r.stderr.strip():
         print(r.stderr.strip()[-1500:])
+    for line in built_on_lines(a.article):
+        print('BUILT ON: ' + line)
     if a.pr:
         print('pull request', pull_request(a.pr, a.pr_body))
     print(mergeable())

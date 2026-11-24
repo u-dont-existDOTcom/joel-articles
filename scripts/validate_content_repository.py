@@ -650,7 +650,8 @@ def _validate_content_inventory(
         if isinstance(article, dict) and article.get("id") in registered_paths:
             registered_paths[article["id"]].update(_registered_article_paths(article))
 
-    reserved_article_files = {"articles/INDEX.json", "articles/AGENTS.md"}
+    # BUILT-ON.json: which posts are built on which (lesson toc-2026-11-24b), a registry beside INDEX.json
+    reserved_article_files = {"articles/INDEX.json", "articles/AGENTS.md", "articles/BUILT-ON.json"}
     article_files: list[str] = []
     for path in _tracked_or_present_files(root):
         relative = path.relative_to(root).as_posix()

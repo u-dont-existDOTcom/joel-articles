@@ -17,8 +17,8 @@ E = html.escape
 
 def main():
     now = J('CONTENTS-NOW.json')
-    pick = {e['id']: e for e in J('PICK2-FOR-PAGE.json')}
-    order = [e['id'] for e in J('PROPOSAL-PICK2.json')]
+    pick = {e['id']: e for e in J('PICK3-FOR-PAGE.json')}
+    order = [e['id'] for e in J('PROPOSAL-PICK3.json')]
     st = J('STRUCTURE.json')
     fates = J('FATES-PICK2.json')
     head = {e['id']: e['heading'] for e in pick.values()}
@@ -34,7 +34,7 @@ def main():
         else:
             p['kind'] = 'mine' if p['by'] == 'mine' else 'fable'
         shown.append(p)
-    json.dump(shown, open(os.path.join(HERE, 'PICK2-PAGE-OPTION.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
+    json.dump(shown, open(os.path.join(HERE, 'PICK3-PAGE-OPTION.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
     notes = {}
     for e in now:
         i, p, bits = e['id'], pick[e['id']], []
@@ -75,6 +75,10 @@ def main():
          'section already says there are lots of appendices with extra tools. With “Appendix I: Sleep hypnosis” goes its line '
          '(“%s”): “Sleep Induction” links the same Nimja playlist. J and K become I and J, and “All sources used are in Appendix '
          'K” becomes “Appendix J”.' % (E(T['T2']['before']), E(T['T4']['before']))},
+        {'id': 'Your S122 note: Systema', 'text': 'The guide didn\'t mention Systema anywhere yet. After your Buteyko lines, '
+         'this, with its two links (the video you named as the best, and the Systema section of your somatic post):<blockquote>'
+         + E(T['T7']['after_added']) + '</blockquote>The proposal for its heading is now “Buteyko & Systema”, so the sidebar '
+         'names both. Keep it like this, or tell me what to change.'},
         {'id': 'What the readers of the proposal still found', 'text': 'Things renaming can\'t fix, for you to decide or leave: '
          '“The Inner Adult’s Three Jobs” now holds ten sections, only three of them jobs (your answers 4 and 9); “Daily Life Is '
          'the Feedback” sits under “When to Get Outside Help” though it is about every day; “Find a Hypnotist Who Fits” and '
@@ -100,7 +104,7 @@ def main():
     O = {'title': 'Self-Hypnosis guide: your contents picks',
          'sub': 'For “Inner Signal Guide to Self-Hypnosis (& APP)”, 2026-11-24. Your picks save as you go.',
          'store': 'inner-signal-toc-20261124', 'primary': 'pick',
-         'options': {'pick': {'label': 'Proposed', 'file': 'PICK2-PAGE-OPTION.json'},
+         'options': {'pick': {'label': 'Proposed', 'file': 'PICK3-PAGE-OPTION.json'},
                      'fable': {'label': 'Fable\'s first version', 'file': 'PROPOSAL-FABLE.json'}},
          'pick': {p['id']: ('pick' if p['kind'] in ('fable', 'mine', 'case', 'dropped') else 'now') for p in shown},
          'notes': notes,
