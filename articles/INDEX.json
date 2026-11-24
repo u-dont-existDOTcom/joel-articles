@@ -72005,7 +72005,7 @@
         },
         {
           "path": "articles/nibbana/humanize/pangram-ledger.jsonl",
-          "sha256": "af21633100d636107f7087d1d978e2a744dfab1909f621990d78c8ed777752c6",
+          "sha256": "51677ad07cc608d3cda504115c9295acc9547f35a819cf4fd53a78dad97cc9e7",
           "role": "humanization_working_record"
         },
         {
@@ -74170,7 +74170,7 @@
         },
         {
           "path": "articles/nibbana/experiments/toc-20261123/APPLIED.md",
-          "sha256": "5aafc86a32ace7abcf890f724007ccd1429abdefca5c471939558baa4af38ef0",
+          "sha256": "502429a7abc77dd83a9ebf295f307b48ab5bde96a53fe751be1b1f85b157a5c0",
           "role": "humanization_working_record"
         },
         {
@@ -74185,7 +74185,7 @@
         },
         {
           "path": "articles/nibbana/experiments/toc-20261123/make_applied.py",
-          "sha256": "dc7d72e8d13ed4af13a0003a35c8dbc8a4dfa5709a7646dbd665ad7b64684a8b",
+          "sha256": "f5edd68ec27da06a7510e46b73f5c7c01ea94ca672a4ce1efe9ef6f4b6ad4c41",
           "role": "humanization_working_record"
         },
         {
@@ -74221,6 +74221,16 @@
         {
           "path": "articles/nibbana/experiments/toc-20261123/pangram/WHOLE-FINAL-NO-HEADINGS.txt",
           "sha256": "aefa28c9e0a0396fc08c4ed7e13b03f0f22c402a04e51e452391d8709e56fa92",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/nibbana/experiments/toc-20261123/pangram/RESULT-EXT-LIVE-20261123.json",
+          "sha256": "1769ba15aee55fd23b73f1f9e496b1315fbd26e9c5e8c72b6115a796a601182b",
+          "role": "detector_experiment_result"
+        },
+        {
+          "path": "articles/nibbana/experiments/toc-20261123/pangram/WINDOWS-EXT-LIVE-20261123.txt",
+          "sha256": "4553bece3aec92abdd0dd3c5c5d5b6cf3786901459a63f513b24b4a5ae5c0ccd",
           "role": "humanization_working_record"
         }
       ]
