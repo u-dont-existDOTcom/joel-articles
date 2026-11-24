@@ -508,6 +508,61 @@
     }
    ],
    "recorded_utc": "2026-11-24T16:26Z"
+  },
+  {
+   "turn": "2026-11-24T18:14Z",
+   "lines_of_work": [
+    "romance"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "suggested-fixes/joel-articles on 3d79cc8: six items, all in docs/suggested-fixes-ledger.md; nothing new"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "since 16:55 UTC: my own PR 517 merged; no new issues, comments or reviews"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "the laptop handoff note is as I left it at 17:00 UTC"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "his message of 18:14 UTC: his ninth-page answers (Q-C1 my reading is right; Q-C7 his own version of Muses & Directors; Q-S5 change it; Q-S12 worth doing meant); no point checking the drafts until we are done; the game stays private, not an artifact"
+    }
+   ],
+   "items": [
+    {
+     "item": "Q-C1",
+     "outcome": "a few words in the Labels paragraph say it, checked in its section"
+    },
+    {
+     "item": "Q-C7, his version of the section",
+     "outcome": "goes in as his words, read for sense and checked in its section"
+    },
+    {
+     "item": "Q-S5",
+     "outcome": "in recent years, checked in its section"
+    },
+    {
+     "item": "Q-S12",
+     "outcome": "worth doing stays, on the keep-as-is list"
+    },
+    {
+     "item": "drafts",
+     "outcome": "pasted again only when everything is done"
+    },
+    {
+     "item": "the card game",
+     "outcome": "a new private version: the new and corrected cards go to him to approve first"
+    }
+   ],
+   "recorded_utc": "2026-11-24T18:15Z"
   }
  ]
 }

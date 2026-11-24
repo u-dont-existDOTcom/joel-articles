@@ -1,6 +1,6 @@
 # The fixed version: every changed paragraph
 
-The live post ("Romance Advice I Wish My Parents Taught Me") with each section's and spot's best tested text in place (`assemble.py`, `build.py`), and his own versions from his answers over them (`../r30/HIS-T4.json`, his Medium page of 2026-11-22). Paragraph numbers are the post page's paragraph list (`LIVE-INDEX.txt`). "Two Pillars" 332 is his own new version (it was the owner lock). 194 changes, 207 live paragraphs changed.
+The live post ("Romance Advice I Wish My Parents Taught Me") with each section's and spot's best tested text in place (`assemble.py`, `build.py`), and his own versions from his answers over them (`../r30/HIS-T4.json`, his Medium page of 2026-11-22). Paragraph numbers are the post page's paragraph list (`LIVE-INDEX.txt`). "Two Pillars" 332 is his own new version (it was the owner lock). 200 changes, 218 live paragraphs changed.
 
 ## 1. S1 (live 28)
 
@@ -383,7 +383,7 @@ Read by romance-s14#21: [result](https://www.pangram.com/history/00a0bde5-3141-4
 
 > So can a couple keep the polarity alive inside the safety?
 
-## 29. Muses & Directors (live 262)
+## 29. Muses & Directors (live 262) (replaced by Q-C7)
 
 Read by romance-low-muses#81: [result](https://www.pangram.com/history/1b274e26-0435-4cbc-91dc-ef55eb6da89e).
 
@@ -1962,7 +1962,7 @@ Read by my tested change R37-20-p3 (MINE-R37.json): [result](https://www.pangram
 
 > I’m almost embarrassed to admit, but I recently tried Hinge again for a few days while I was in Kenya after my last breakup. I was getting something like a hundred girls interested in my profile every day, so I looked through a lot of profiles. Some were cute but none seemed deep, so the app worked as the gate I said it could be.
 
-## 155. Muses & Directors (live 275)
+## 155. Muses & Directors (live 275) (replaced by Q-C7)
 
 Read by my tested change R37-56-p4 (MINE-R37.json): [result](https://www.pangram.com/history/93a6dff5-998a-493c-b5e5-8636e2584adf).
 
@@ -2082,7 +2082,7 @@ Read by his answer M-35 (HIS-T7.json): [result](https://www.pangram.com/history/
 
 > Phone or video first can help, as can meeting up around other people and deciding beforehand that we aren’t going home together. Islamic and conservative Christian cultures put much stronger barriers than these around a man and woman being alone before marriage. I don’t accept their helicoptering solution, but they noticed something real. We don’t live in tribes anymore, where people around us might know both of us well enough to slow this down.
 
-## 165. Muses & Directors (live 264)
+## 165. Muses & Directors (live 264) (replaced by Q-C7)
 
 Read by his answer M-54 (HIS-T7.json): [result](https://www.pangram.com/history/1b906fcb-7099-4a0e-8948-7d0db749969b).
 
@@ -2465,4 +2465,94 @@ Read by his answer PRIMAL-2 (HIS-T9.json).
 > I think the key in life in general is to understand that human psychology, in general, is quite nasty, but the ugliness is only dust covering the gem inside us which every spiritual tradition points to. It is by touching the divine ocean of the heart that we can relate to each other from above the animalistic mind and the ancestral trauma. It doesn't mean we suddenly find unattractive people to be attractive, but I do find that as I have matured spiritually and emotionally, I've lost interest in 99% of the women I previously saw as attractive, because now I'm seeing their ego before I get in too deep. And while it's hard to sell this idea of greater selectivity to someone who already can't find a mate, I personally prefer to be alone than to settle for just another pretty war bride.
 > So while Cooper thinks it's a constant struggle to stay on top, so your mate will continue desiring you more than anyone else, I'm saying that the best mate you could ever hope for is the one who will know after connecting with you over time, that they will never be able to replace you and the love connection they share with you.
 > Having explained my objections to lowering romantic expectations to the common denominator, I do agree with Cooper that men and women should have contrasting roles to the extent they find that natural.
+
+## 195. Muses & Directors (live 262, 263, 264)
+
+Read by his answer Q-C7 (HIS-P9.json).
+
+**Live:**
+
+> In ordinary life, I sometimes think of the woman as the engine and myself as the steering wheel. I get motivation from her. She is the life force. She brings inspiration, beauty, intuition, creativity, and this feeling that life is worth doing.
+> I help give it direction and make it operational.
+> I find the intuitive mind incredibly sexy, because I can’t fully follow it. During sex, some of the most “womanly” women I’ve loved have gone through psychic experiences, memories that felt like past lives, and things I had no idea how to explain. One time, Bee said she almost got enlightened, but I came too fast. Woops...
+
+**New:**
+
+> I don’t think equality means dividing every role 50/50.
+> I think of the woman as the engine, and myself as the steering wheel. I get motivation from her, and then I give her energy direction and make it operational. She is the life force. She brings inspiration, beauty, intuition, creativity, and this feeling that life is worth doing (since there quite literally is no future for life without women procreating). Not that I have none of those qualities myself, but I enjoy supporting a woman to embody them. If she micromanages, I start feeling useless. She might have a better idea, or just not want to do it, but she still wants me to take initiative, even if it all looks like a game to anyone on the outside.
+> I find the intuitive mind incredibly sexy, because I can’t fully follow it. During sex, some of the most “womanly” women I’ve loved have gone through psychic experiences, memories that felt like past lives, and things I had no idea how to explain. One time, Bee said she almost got enlightened, but I came too fast. Woops...
+
+## 196. Muses & Directors (live 265, 266, 267, 268, 269, 270, 271, 272, 273, 274, 275)
+
+Read by his answer Q-C7 (HIS-P9.json).
+
+**Live:**
+
+> Key could sometimes start talking and somehow teleport me outside the galaxy. I don’t know how else to describe it. Her voice would become so beautiful that I would shed tears that felt super liberating.
+> Bee could bring out something similar--she could be talking to me for hours on end, but instead of trying to mute her with the TV remote, I felt I was in a timeless dimension of love.
+> Maybe women are poetry and men are prose.
+> Some women barely have that poetic quality, and artistic men can live much closer to it. I’m referring more to feminine vs masculine archetypes. What attracts me is the feminine intuitive leap, because it’s hard for me to understand, seems often absurd, yet many times may turn out more accurate than what I could have figured. I hope this feminine quality can be treasured by all girls as they grow, without falling into helplessness or chaos that over-relying on it without calibration could create. Boys should also maintain their access to this, even if it’s not primary.
+> This polarity is attracting, but it also shows up in arguments. Toft says that after fifty years of marriage, sometimes his wife wants to talk while he wants to fix, a la Men are From Mars, Women are from Venus. I recognize that as well. So I ask, “Do you want me to help figure this out, or do you mostly want me to listen?” Listening doesn’t mean I’m gonna be a doormat tho. If I start listening to her demonize me, that’s the Crucible safety problem I already talked about.
+> Where I like the polarity is when she sees the Big Picture, and I help fill in the details to make our plan workable. If she micromanages, I start feeling useless. If she earns more than me, although that’s not inherently problematic, it often becomes so, because she will naturally start to feel like she is the one who should make the decisions (”My house, my rules”).
+> She may know much more than I do about some particular field, including a traditionally non-feminine one, and in that case I want her help. “Honey, let me help you with this,” can be very sexy, until helping turns into doing everything for me and I start feeling useless.
+> In my experience, women often prefer me to say directly:
+> “This is where I want to go. This is what I think we should do. Are you game?”
+> She might have a better idea, or just not want to do it, but she still wants me to take initiative.
+> I don’t think equality means dividing every role 50/50. If I like driving and she likes cooking, great. If she’s way better at something, she’ll probably do more of it. When I’m leading, I still want to know what she sees. Mandar obedeciendo—Lead by following—as the Zapatistas say.
+
+**New:**
+
+> Key could sometimes start talking and somehow teleport me outside the galaxy. I don’t know how else to describe it. Her voice would become so beautiful that I would shed tears that felt super liberating.
+> Bee could bring out something similar--she could be talking to me for hours on end, but instead of trying to mute her with the TV remote, I felt I was in a timeless dimension of love.
+> Maybe women are poetry and men are prose.
+> Some women barely have that poetic quality, and artistic men can live much closer to it. I’m referring more to feminine vs masculine archetypes. What attracts me is the feminine intuitive leap, because it’s hard for me to understand, seems often absurd, yet many times may turn out more accurate than what I could have figured. I hope this feminine quality can be treasured by all girls as they grow, without falling into helplessness or chaos that over-relying on it without calibration could create. Boys should also maintain their access to this, even if it’s not primary.
+> This polarity is attracting, but it also shows up in arguments. Toft says that after fifty years of marriage, sometimes his wife wants to talk while he wants to fix, a la Men are From Mars, Women are from Venus. I recognize that as well. So I ask, “Do you want me to help figure this out, or do you mostly want me to listen?” Listening doesn’t mean I’m gonna be a doormat tho. If I start listening to her demonize me, that’s the Crucible safety problem I already talked about.
+
+## 197. Primal attraction: channeling the Divine Masculine & Feminine (live 260)
+
+Read by his answer Q-S5 (HIS-P9.json).
+
+**Live:**
+
+> The real question is whether polarity stays alive inside the safety.
+
+**New:**
+
+> One evolutionary reason for this, as Cooper explains in this Red Pill "man-o-sphere" video above, is that human history is full of wars, and thus, we are descendants of war brides taken by victors. So the women who *weren't* attracted to the most powerful and dangerous men would be least likely to reproduce, in many cases. Cooper tells men that the depressing truth is, women are, by nature, hypergamous, always looking to trade up for a more powerful man, so men need to find ways to stand out from the crowd. As you can see in the comments on the vid, the idea of playing this role to keep a woman is actually so depressing for many men that they decide to abandon romance altogether and become hermits ("for safety and legal reasons"). And the gender wars have gone to real extremes in recent years, maybe most exemplified in South Korea.
+
+## 198. Labels Are Descriptive, Not Prescriptive (live 39)
+
+Read by my tested change Q-C1 (MINE-R41.json).
+
+**Live:**
+
+> True commitment grows out of relational depth, not a label. If we spend hours telling each other our deepest longings, fears, and problems, I’ll naturally be ready to help when you need me. I don’t need to promise that on paper. If someone says “I love you, I feel you, I’m here for you,” yet they hardly ever talk to you about what matters, that’s a red flag.
+
+**New:**
+
+> True commitment grows out of relational depth, not a label we put on it. If we spend hours telling each other our deepest longings and fears, then I’ll naturally be ready to help when you need me. I don’t need to promise that on paper, and if a promise had to stand in for that closeness, that would be more like a red flag. If someone says “I love you, I feel you, I’m here for you,” yet they hardly ever talk to you about what matters, that’s an even more obvious red flag.
+
+## 199. Labels Are Descriptive, Not Prescriptive (live 41)
+
+Read by my tested change R41-09 (MINE-R41.json).
+
+**Live:**
+
+> The full conversation is so big that almost nobody would have casual sex if they took it seriously. Which is why almost nobody has the full conversation. I can’t decide what is okay for anybody else. I can say that most people who defend casual sex are not being very honest with themselves about pregnancy, attachment, or what they might owe the person afterward.
+
+**New:**
+
+> I can’t decide what is okay for anybody else. I can say that most people who defend casual sex are not being very honest with themselves about pregnancy, attachment, or what they might owe the person afterward, a conversation so big that almost nobody would have casual sex if they took it seriously, which is why almost nobody has the full conversation.
+
+## 200. Labels Are Descriptive, Not Prescriptive (live 38)
+
+Read by my tested change R41-09-opener (MINE-R41.json): [result](https://www.pangram.com/history/48b96e7c-c31f-437b-809a-d16edc5b57e3).
+
+**Live:**
+
+> Here’s the funny thing many people don’t understand: labels don’t create commitment. They can still expose whether two people think they’re in the same relationship, which matters a lot.
+
+**New:**
+
+> You can call someone your boyfriend or girlfriend for years and still have one foot out the door, but at least the word shows pretty fast whether you both think you’re in the same relationship.
 

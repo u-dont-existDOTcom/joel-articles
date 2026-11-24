@@ -1,0 +1,41 @@
+{
+ "about": "Q-C1 of the ninth page (\"right you are correct\"): my reading said in the Labels paragraph.",
+ "whose": "mine",
+ "changes": [
+  {
+   "card": "Q-C1",
+   "kind": "para",
+   "live": 39,
+   "before": "True commitment grows out of relational depth, not a label we put on it. If we spend hours telling each other our deepest longings and fears, then I’ll naturally be ready to help when you need me. I don’t need to promise that on paper, and if I did, that would be more like a red flag. If someone says “I love you, I feel you, I’m here for you,” yet they hardly ever talk to you about what matters, that’s an even more obvious red flag.",
+   "after": [
+    "True commitment grows out of relational depth, not a label we put on it. If we spend hours telling each other our deepest longings and fears, then I’ll naturally be ready to help when you need me. I don’t need to promise that on paper, and if a promise had to stand in for that closeness, that would be more like a red flag. If someone says “I love you, I feel you, I’m here for you,” yet they hardly ever talk to you about what matters, that’s an even more obvious red flag."
+   ],
+   "comment": "right you are correct",
+   "his_checks": []
+  },
+  {
+   "card": "R41-09",
+   "kind": "para",
+   "live": 41,
+   "before": "I can’t decide what is okay for anybody else. I can say that most people who defend casual sex are not being very honest with themselves about pregnancy, attachment, or what they might owe the person afterward, a conversation so big that almost nobody would have casual sex if they took it seriously. Which is why almost nobody has the full conversation.",
+   "after": [
+    "I can’t decide what is okay for anybody else. I can say that most people who defend casual sex are not being very honest with themselves about pregnancy, attachment, or what they might owe the person afterward, a conversation so big that almost nobody would have casual sex if they took it seriously, which is why almost nobody has the full conversation."
+   ],
+   "comment": "a short line run on into its sentence (way 18), after a Medium window",
+   "his_checks": []
+  },
+  {
+   "card": "R41-09-opener",
+   "kind": "para",
+   "live": 38,
+   "before": "Here’s the funny thing about labels: you can call someone your boyfriend or girlfriend for years and still have one foot out the door, but the word at least shows pretty fast whether you both think you’re in the same relationship.",
+   "after": [
+    "You can call someone your boyfriend or girlfriend for years and still have one foot out the door, but at least the word shows pretty fast whether you both think you’re in the same relationship."
+   ],
+   "comment": "the announcing opener cut, after a Low window",
+   "his_checks": [
+    "https://www.pangram.com/history/48b96e7c-c31f-437b-809a-d16edc5b57e3"
+   ]
+  }
+ ]
+}

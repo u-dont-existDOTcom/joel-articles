@@ -86,13 +86,13 @@ I had something sort of like that with H., although ours was much deeper than wh
 
 ### Labels Are Descriptive, Not Prescriptive
 
-Here’s the funny thing about labels: you can call someone your boyfriend or girlfriend for years and still have one foot out the door, but the word at least shows pretty fast whether you both think you’re in the same relationship.
+You can call someone your boyfriend or girlfriend for years and still have one foot out the door, but at least the word shows pretty fast whether you both think you’re in the same relationship.
 
-True commitment grows out of relational depth, not a label we put on it. If we spend hours telling each other our deepest longings and fears, then I’ll naturally be ready to help when you need me. I don’t need to promise that on paper, and if I did, that would be more like a red flag. If someone says “I love you, I feel you, I’m here for you,” yet they hardly ever talk to you about what matters, that’s an even more obvious red flag.
+True commitment grows out of relational depth, not a label we put on it. If we spend hours telling each other our deepest longings and fears, then I’ll naturally be ready to help when you need me. I don’t need to promise that on paper, and if a promise had to stand in for that closeness, that would be more like a red flag. If someone says “I love you, I feel you, I’m here for you,” yet they hardly ever talk to you about what matters, that’s an even more obvious red flag.
 
 The person getting more of what they want may think the arrangement is fulfilling, but usually they’re just less aware that it isn’t. In college I had a friend with four girlfriends who boasted about it to girls while trying to get a fifth. I asked him, “But are you really happy?” He said, “No, dude, I’m miserable and empty inside.”
 
-I can’t decide what is okay for anybody else. I can say that most people who defend casual sex are not being very honest with themselves about pregnancy, attachment, or what they might owe the person afterward, a conversation so big that almost nobody would have casual sex if they took it seriously. Which is why almost nobody has the full conversation.
+I can’t decide what is okay for anybody else. I can say that most people who defend casual sex are not being very honest with themselves about pregnancy, attachment, or what they might owe the person afterward, a conversation so big that almost nobody would have casual sex if they took it seriously, which is why almost nobody has the full conversation.
 
 Outside a loving poly community or tribe, I think honest casual sex is almost impossible. If you want something closer to “casual love-making” without quite so many ways to damage each other, you probably need to find a free-love community where the people aren’t disposable, the bonds can be acknowledged, and any children have a village. But if the community is specifically designed to prioritize free love, you might find it attracts people who have traumas that produce trouble with connecting deeply, as ex-Tamera leader, Martin Winiecki [wrote about](https://www.facebook.com/martin.winiecki/posts/pfbid02V7nrbc7VLgPyLe91si9ximruTC7kwx2XjPBzUmUTnYr6sPViCPaTa7BxD2wmHAaJl) after leaving recently.
 
@@ -532,7 +532,7 @@ One controversial example of the polarity-seeking is that a lot of women want to
 
 <!-- EMBED https://www.youtube.com/watch?v=ZsFKlxVUYG8&lc=UgyyYliXeP0RFOYaePh4AaABAg : the YouTube video he put here (2026-11-24), Cooper's; his link opens a comment under it -->
 
-One evolutionary reason for this, as Cooper explains in this Red Pill "man-o-sphere" video above, is that human history is full of wars, and thus, we are descendants of war brides taken by victors. So the women who *weren't* attracted to the most powerful and dangerous men would be least likely to reproduce, in many cases. Cooper tells men that the depressing truth is, women are, by nature, hypergamous, always looking to trade up for a more powerful man, so men need to find ways to stand out from the crowd. As you can see in the comments on the vid, the idea of playing this role to keep a woman is actually so depressing for many men that they decide to abandon romance altogether and become hermits ("for safety and legal reasons"). And the gender wars have gone to real extremes in modern years, [maybe most exemplified in South Korea](https://www.youtube.com/watch?v=6ZIIn3zKaFE).
+One evolutionary reason for this, as Cooper explains in this Red Pill "man-o-sphere" video above, is that human history is full of wars, and thus, we are descendants of war brides taken by victors. So the women who *weren't* attracted to the most powerful and dangerous men would be least likely to reproduce, in many cases. Cooper tells men that the depressing truth is, women are, by nature, hypergamous, always looking to trade up for a more powerful man, so men need to find ways to stand out from the crowd. As you can see in the comments on the vid, the idea of playing this role to keep a woman is actually so depressing for many men that they decide to abandon romance altogether and become hermits ("for safety and legal reasons"). And the gender wars have gone to real extremes in recent years, [maybe most exemplified in South Korea](https://www.youtube.com/watch?v=6ZIIn3zKaFE).
 
 What I would say to that depressing take is, Cooper is sort of right, but he doesn't go far enough. Anyone can watch his video and then do the things he says to do and thus stand out from the crowd like he does (until everyone does). But that's superficial posturing, and he even proudly shows how he postures with carefully planned photo shoots for his social media, avoiding the "soy boy smile" which is actually his natural one.
 
@@ -546,11 +546,11 @@ Having explained my objections to [lowering romantic expectations](https://www.y
 
 ## Muses & Directors
 
-In ordinary life, I sometimes think of the woman as the engine and myself as the steering wheel, and I get motivation from her. She is the life force. She brings inspiration, beauty, intuition, creativity, and this feeling that life is worth doing.
+I don’t think equality means dividing every role 50/50.
 
-I help give it direction and make it operational.
+I think of the woman as the engine, and myself as the steering wheel. I get motivation from her, and then I give her energy direction and make it operational. She is the life force. She brings inspiration, beauty, intuition, creativity, and this feeling that life is worth doing (since there quite literally is no future for life without women procreating). Not that I have none of those qualities myself, but I enjoy supporting a woman to embody them. If she micromanages, I start feeling useless. She might have a better idea, or just not want to do it, but she still wants me to take initiative, even if it all looks like a game to anyone on the outside.
 
-I find the intuitive mind incredibly sexy, because I can’t fully follow it. During sex, some of the most “womanly” women I’ve loved have gone through psychic experiences, memories that felt like past lives, and things I had no idea how to explain. One time, Bee said she almost got enlightened, but woops, I came too fast.
+I find the intuitive mind incredibly sexy, because I can’t fully follow it. During sex, some of the most “womanly” women I’ve loved have gone through psychic experiences, memories that felt like past lives, and things I had no idea how to explain. One time, Bee said she almost got enlightened, but I came too fast. Woops...
 
 <!-- IMAGE https://substackcdn.com/image/fetch/$s_!klpY!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0c1e891c-2682-4c93-9fe3-9908ab267033_1448x1086.png : a picture in the post -->
 
@@ -563,18 +563,6 @@ Maybe women are poetry and men are prose.
 Some women barely have that poetic quality, and artistic men can live much closer to it. I’m referring more to feminine vs masculine archetypes. What attracts me is the feminine intuitive leap, because it’s hard for me to understand, seems often absurd, yet many times may turn out more accurate than what I could have figured. I hope this feminine quality can be treasured by all girls as they grow, without falling into helplessness or chaos that over-relying on it without calibration could create. Boys should also maintain their access to this, even if it’s not primary.
 
 This polarity is attracting, but it also shows up in arguments. Toft says that after fifty years of marriage, sometimes his wife wants to talk while he wants to fix, a la Men are From Mars, Women are from Venus. I recognize that as well. So I ask, “Do you want me to help figure this out, or do you mostly want me to listen?” Listening doesn’t mean I’m gonna be a doormat tho. If I start listening to her demonize me, that’s the Crucible safety problem I already talked about.
-
-Where I like the polarity is when she sees the Big Picture, and I help fill in the details to make our plan workable. If she micromanages, I start feeling useless. If she earns more than me, although that’s not inherently problematic, it often becomes so, because she will naturally start to feel like she is the one who should make the decisions (”My house, my rules”).
-
-She may know much more than I do about some particular field, including a traditionally non-feminine one, and in that case I want her help. “Honey, let me help you with this,” can be very sexy, until helping turns into doing everything for me and I start feeling useless.
-
-In my experience, women often prefer me to say directly:
-
-“This is where I want to go. This is what I think we should do. Are you game?”
-
-She might have a better idea, or just not want to do it, but she still wants me to take initiative.
-
-I don’t think equality means dividing every role 50/50, so if I like driving and for her it’s cooking, great. If she’s way better at something, she’ll probably do more of it. Even when I’m the one leading, I still want to know what she sees, or as the Zapatistas say, Mandar obedeciendo—Lead by following.
 
 ## Desire is expressed differently for men & women
 

@@ -3,9 +3,9 @@
  "extract": "articles/romance/humanize/fix-20261107/r40/contradictions/EXTRACT.md",
  "items": {
   "1": {
-   "fate": "question",
-   "ref": "Q-C1 on the ninth marking page (articles/romance/review/teach-20261124c/REVIEW-T9.md)",
-   "note": "Labels says a promise of help on paper would be a red flag; the vows section says an honest vow promises actions like showing up emotionally. Which holds, or how they fit, is his to say."
+   "fate": "answered",
+   "ref": "r41/MINE-R41.json, Q-C1 (his answer: \"right you are correct\")",
+   "note": "the Labels paragraph now says the red flag is a promise that has to stand in for the closeness; the section read Human High (https://www.pangram.com/history/48b96e7c-c31f-437b-809a-d16edc5b57e3)"
   },
   "2": {
    "fate": "explained",
@@ -33,9 +33,9 @@
    "note": "the FM Laeti song is one of the videos embedded in the Twin Flames section, which the reader saw only as addresses (the master of 2026-08-24 had the song beside this sentence, \"the FM Laeti song here\", and the live post moved it down); the Faker song is another song the section quotes in its text"
   },
   "7": {
-   "fate": "question",
-   "ref": "Q-C7 on the ninth marking page (articles/romance/review/teach-20261124c/REVIEW-T9.md)",
-   "note": "Muses & Directors has him giving the direction (the steering wheel; \"This is where I want to go\") and her seeing the Big Picture while he fills in the details. How they fit is his to say."
+   "fate": "answered",
+   "ref": "r41/HIS-P9.json, Q-C7 (his own version of Muses & Directors)",
+   "note": "his version has him as the steering wheel and drops \"she sees the Big Picture\"; its two checks: https://www.pangram.com/history/f9100f55-95ba-4e00-9c3d-8201b9e4e732 (High, with his one-word \"Woops...\" Medium) and https://www.pangram.com/history/c976f2cb-09ae-4830-8c5f-28c40277834a (High)"
   }
  }
 }

@@ -1,0 +1,22 @@
+[
+ {
+  "block": 8,
+  "text": "this feeling that life is worth doing",
+  "kind": "wrong-word",
+  "what": "Life is \"worth living\", not \"worth doing\"; the parenthesis about the future of life points to living.",
+  "fix": "this feeling that life is worth living",
+  "confidence": "likely",
+  "readers": [
+   1
+  ],
+  "reports": [
+   {
+    "reader": 1,
+    "kind": "wrong-word",
+    "what": "Life is \"worth living\", not \"worth doing\"; the parenthesis about the future of life points to living.",
+    "fix": "this feeling that life is worth living",
+    "confidence": "likely"
+   }
+  ]
+ }
+]

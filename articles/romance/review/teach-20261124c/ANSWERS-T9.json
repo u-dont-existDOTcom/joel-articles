@@ -1,0 +1,81 @@
+{
+ "format": "joel-suggestion-review-answers-v1",
+ "review_id": "romance-t9",
+ "title": "Romance Advice I Wish My Parents Taught Me: four questions",
+ "git_file": "articles/romance/review/teach-20261124c/REVIEW-T9.html",
+ "article": {
+  "file": "articles/romance/humanize/fix-20261107/whole/FIXED.md",
+  "sha256": "f990bc0b8cf2771a2494ed80f85b31515afb57bc315af7115fb42d3505e81b50"
+ },
+ "built": "2026-11-24",
+ "generator": "suggestion_review.py 1.13 (2026-11-23)",
+ "exported_at": "2026-11-24T18:12:45.046Z",
+ "counts": {
+  "approved": 0,
+  "rejected": 0,
+  "revise": 0,
+  "pending": 4
+ },
+ "items": [
+  {
+   "id": "Q-C1",
+   "type": "meaning",
+   "title": "Promising help: a red flag, or an honest vow?",
+   "where": "Labels Are Descriptive, Not Prescriptive, P2",
+   "advice": "ask",
+   "status": "answered",
+   "question": "A fresh reader of the whole article found two places that pull against each other. In “Labels Are Descriptive, Not Prescriptive”: “I don’t need to promise that on paper, and if I did, that would be more like a red flag.” In “Which marriage vows are honest?”: “you can promise actions if you really believe you’re capable of delivering them”, like “to keep showing up emotionally”. So is promising to be there a red flag, or an honest vow? My reading: the red flag is a promise standing in for the closeness that should make it unnecessary, while an honest vow promises actions on top of that closeness. If that’s it, a few words in the Labels paragraph could say so, and I’ll test them in its section.",
+   "your_version": "",
+   "comment": "right you are correct",
+   "my_version": "",
+   "before": "",
+   "history": [],
+   "updated": "2026-11-24T17:05:20.194Z"
+  },
+  {
+   "id": "Q-C7",
+   "type": "meaning",
+   "title": "Who sets the direction?",
+   "where": "Muses & Directors, P9",
+   "advice": "ask",
+   "status": "answered",
+   "question": "In “Muses & Directors” you’re the steering wheel (“I help give it direction and make it operational”), and women want you to say “This is where I want to go”. But in between: “she sees the Big Picture, and I help fill in the details to make our plan workable.” The reader couldn’t tell who sets the direction. My guess: she sees where life could go, and you choose the route and propose the plan. If that’s it, a few words could say so, and I’ll test them in the section.",
+   "your_version": "",
+   "comment": "this whole section was messed up, i hope other sections don't read as bad. i fixed it:\n\n\n\nI don’t think equality means dividing every role 50/50. \n\n I think of the woman as the engine, and myself as the steering wheel. I get motivation from her, and then I give her energy direction and make it operational. She is the life force. She brings inspiration, beauty, intuition, creativity, and this feeling that life is worth doing (since there quite literally is no future for life without women procreating). Not that I have none of those qualities myself, but I enjoy supporting a woman to embody them. If she micromanages, I start feeling useless. She might have a better idea, or just not want to do it, but she still wants me to take initiative, even if it all looks like a game to anyone on the outside. \n\nI find the intuitive mind incredibly sexy, because I can’t fully follow it. During sex, some of the most “womanly” women I’ve loved have gone through psychic experiences, memories that felt like past lives, and things I had no idea how to explain. One time, Bee said she almost got enlightened, but I came too fast. Woops...\n\nKey could sometimes start talking and somehow teleport me outside the galaxy. I don’t know how else to describe it. Her voice would become so beautiful that I would shed tears that felt super liberating.\n\nBee could bring out something similar--she could be talking to me for hours on end, but instead of trying to mute her with the TV remote, I felt I was in a timeless dimension of love.\n\nMaybe women are poetry and men are prose.\n\nSome women barely have that poetic quality, and artistic men can live much closer to it. I’m referring more to feminine vs masculine archetypes. What attracts me is the feminine intuitive leap, because it’s hard for me to understand, seems often absurd, yet many times may turn out more accurate than what I could have figured. I hope this feminine quality can be treasured by all girls as they grow, without falling into helplessness or chaos that over-relying on it without calibration could create. Boys should also maintain their access to this, even if it’s not primary.\n\nThis polarity is attracting, but it also shows up in arguments. Toft says that after fifty years of marriage, sometimes his wife wants to talk while he wants to fix, a la Men are From Mars, Women are from Venus. I recognize that as well. So I ask, “Do you want me to help figure this out, or do you mostly want me to listen?” Listening doesn’t mean I’m gonna be a doormat tho. If I start listening to her demonize me, that’s the Crucible safety problem I already talked about.\n",
+   "my_version": "",
+   "before": "",
+   "history": [],
+   "updated": "2026-11-24T18:12:33.684Z"
+  },
+  {
+   "id": "Q-S5",
+   "type": "meaning",
+   "title": "“In modern years”?",
+   "where": "Primal attraction: channeling the Divine Masculine & Feminine, P5",
+   "advice": "ask",
+   "status": "answered",
+   "question": "In your new opening of “Primal attraction”, a fresh reader stumbled on “the gender wars have gone to real extremes in modern years”: the usual phrase is “in recent years”. Keep yours, or change it? (Your new opening read Human High in both of its checks as you wrote it.)",
+   "your_version": "",
+   "comment": "change it",
+   "my_version": "",
+   "before": "",
+   "history": [],
+   "updated": "2026-11-24T17:05:36.499Z"
+  },
+  {
+   "id": "Q-S12",
+   "type": "meaning",
+   "title": "“Worth doing” or “worth living”?",
+   "where": "Muses & Directors, P1",
+   "advice": "ask",
+   "status": "answered",
+   "question": "The same reader read “She brings inspiration, beauty, intuition, creativity, and this feeling that life is worth doing” (“Muses & Directors”) as a slip for “worth living”. Did you mean “worth doing”?",
+   "your_version": "",
+   "comment": "i meant doing as it's more active than living",
+   "my_version": "",
+   "before": "",
+   "history": [],
+   "updated": "2026-11-24T17:06:04.844Z"
+  }
+ ]
+}
