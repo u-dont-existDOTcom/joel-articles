@@ -32,7 +32,13 @@ def main():
         if r.get('type') == 'result' and r.get('prediction') in preds and r.get('prediction') not in voided:
             p = preds[r['prediction']]
             if p.get('text'):
-                checked.append((r.get('at') or p.get('at') or '', norm(p['text']), r, p))
+                # (turn 67) older results carry a time of day only ('21:07:12'), which sorted after every dated one, so a
+                # section check of 2026-11-11 counted as later than a by-itself check of 2026-11-24 (lesson
+                # bad-trips-2026-11-24y): a result's time counts only when it has its date, else the prediction's does
+                at = r.get('at') or ''
+                if not re.match(r'\d{4}-\d{2}-\d{2}', at):
+                    at = p.get('at') or ''
+                checked.append((at, norm(p['text']), r, p))
     checked.sort(key=lambda x: x[0])
     heading, rows = '', []
     for b in blocks:
@@ -59,7 +65,7 @@ def main():
         rows.append((worst, b['id'], heading, len(t.split()), shown, p.get('lineage', ''), (r.get('link') or '')))
     rows.sort(key=lambda x: (-x[0], x[1]))
     kinds = {3: 'AI window', 2: 'Low window', 1: 'Medium window', 0: 'no check of these words'}
-    out = ['# What is left (turn 65, 2026-11-24): the guide\'s blocks below Human High or with no check of their words', '',
+    out = ['# What is left (as of the ledger\'s last result): the guide\'s blocks below Human High or with no check of their words', '',
            '%d blocks of 8 words or more; %d left.' % (sum(1 for b in blocks if not b['kind'].startswith('h') and len(norm(b['md']).split()) >= 8), len(rows)), '',
            '| Block | Section | Words | Why | Latest reading | Lineage |', '|---|---|---|---|---|---|']
     for w, bid, h, n, shown, lin, link in rows:

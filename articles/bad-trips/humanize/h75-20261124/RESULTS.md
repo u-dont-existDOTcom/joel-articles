@@ -42,7 +42,29 @@ points and their even weight. Changing that means deciding which point leads and
 paragraphs around, his lines) in the panel's folder, and `tell_panel.py rewrite-prompt` read them as readers' replies.
 They are in [their own folder](https://github.com/u-dont-existDOTcom/joel-articles/tree/main/articles/bad-trips/humanize/h75-20261124/rewrite-b120), and the brief was rebuilt before any writer saw it.
 
+## The next five on the list, each by itself as it stands
+
+Each had only readings inside section checks. By itself, through the API, with its prediction first:
+
+| Block | Section | The API | My call |
+|---|---|---|---|
+| B111, magnesium, DMSO and CBD during a seizure | Seizure: What Else Helps | [Human High 87, one window](https://www.pangram.com/history/e2e90101-4127-45cd-acf8-db5aa934890f): done | AI at 0.30, a miss |
+| B133, the five patterns | How to Check for SS | [Human High 82, one window](https://www.pangram.com/history/6d78093f-18c6-467b-9d77-015394d39638): done | AI at 0.25, a miss |
+| B127, activated charcoal | Swallowed Too Much? | [AI Generated: High 52, Medium 2](https://www.pangram.com/history/954b40f7-6e83-440d-bef6-a258a79fd1a5) | AI at 0.10, right |
+| B127 with B128, poison control (41 words, so with its neighbour) | Swallowed Too Much? | [AI Generated: High 95, one window](https://www.pangram.com/history/862a4a34-aeee-4b38-921d-64db9367992b) | AI at 0.10, right |
+| B130, the section's opening | Serotonin Syndrome (SS)? | [AI Generated: Low 20 on its first sentence, High 31 on the rest](https://www.pangram.com/history/c068929c-f8fb-444a-b182-12ce7bf2d60a) | AI at 0.15, right |
+
+B127, B128 and B130 are his post's text with no version of his on record (the guide's record of his edits holds none of
+their sentences), so they are mine to try next: three fresh reads and the tell panel, one small-fix try each, and a
+card the same turn for any that stays below High (lesson bad-trips-2026-11-24w). Both misses were paragraphs with his
+own asides in them ("a lot of CBD is fake or very dilute", "Another is tremor (shaking) along with ..."): a paragraph
+that read AI inside a section check can read High by itself, so the by-itself check comes before any try, as in turn 49.
+
 ## What is left
 
-[The list](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/bad-trips/humanize/h75-20261124/LEFT.md): the blocks not yet Human High by themselves, regenerated after this turn's changes. In MDMA:
-Magnesium Alarm only B120 is left.
+[The list](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/bad-trips/humanize/h75-20261124/LEFT.md): **139 of 222 blocks**, regenerated after this turn's
+checks. The count had been overstated since turn 65 (160, then 157): the map took each block's latest check by sorting
+the results' times as text, and older results carry a time of day only ("21:07:12"), which sorted after every dated
+one, so a section check of 2026-11-11 counted as later than a by-itself check of this month. A result's time now counts
+only when it has its date (lesson bad-trips-2026-11-24y; the fix is in the map itself). In MDMA: Magnesium Alarm only
+B120 is left.
