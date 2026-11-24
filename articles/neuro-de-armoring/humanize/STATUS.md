@@ -1,5 +1,26 @@
 # Status: neuro de-armoring humanization (newest on top)
 
+## 2026-11-24, his message of 21:43 UTC: answers 62a to 65a in; his line Human High; the contradictions check closed; lessons of his two fixes and their blind test; what is left computed
+
+His message word for word: `fix-20261108/joel-20261124-2143-message.txt` ("62 a 63 a 64 a 65  a"). **The mailbox first**
+("2026-11-24 21:43"): UDA AGENTS.md and LESSON-INDEX unchanged (main 3d79cc81); main 32e8f260 merged (this lane's 520;
+romance 521, bad trips 522 and 524, contents 523), with the shared changes read (FIXING-AN-ARTICLE item 6 and
+`articles/BUILT-ON.json`: this article is on neither side of an edge; HUMANIZATION-GATE on held words that aren't his;
+his_fixes_brief examples of 24 November; lane_push's built-on lines and its note on missing trailers; lessons bad-trips
+24n to x, toc 24b); no new issues or comments; the cards page's store unchanged since 18:40 UTC; no notifications.
+
+- **In** (`fix-20261108/x1124b/apply_x1124b.py`, `APPLIED-X1124B.json`; HUMANIZED-SO-FAR.md 580b8a82 to 386bad86): 62a
+  (three places), 63a, 64a (six lines), 65a (his sentence moved up; "how a combo feels" added for the referent). His
+  Weeks 3-7 line by itself: Human Written, one window, High (ledger #203). Fidelity PASS, comparison read PASS,
+  keep-as-is C9, C10, K1; `contradictions.py check --done` PASS over `coherence/x1124a`.
+- **Lessons neuro-2026-11-24a to f** (`docs/lessons/2026-11-24-1847-neuro.md`) from his W-LMA and W-AGM fixes, a turn
+  late, with the blind test (`x1124b/replay/RESULTS.md`): 0 of 2 at Human High (#204 missed, explained as shape; #205
+  right).
+- **What is left**: `coverage.py` and `LEFT.md`: 141 paragraphs, 14 Human High by themselves, 69 below, 58 never checked
+  as they stand.
+- **Waiting on him**: nothing. Next: the humanizing pass, from the warnings at the top. Delegations: one fresh Fable
+  writer (the blind test). Predictions: #203 (right), #204 (miss), #205 (right).
+
 ## 2026-11-24, his message of 18:47 UTC: cards W-LMA and W-AGM and answers 57 to 61 in; the contradictions check again; questions 62 to 65
 
 His message word for word: `fix-20261108/joel-20261124-1847-message.txt` (the cards page's export, both cards revised with

@@ -1,0 +1,47 @@
+{
+ "detector": "Pangram 4.1 (web app, his account, in the desktop app's browser pane)",
+ "results": {
+  "bl-lma": {
+   "uuid": "b542fab2-ca5c-4288-a6be-b4525bfd9af3",
+   "at": "2026-11-24T16:55:21.573098-05:00",
+   "headline": "AI Generated",
+   "ai": 1.0,
+   "words": 84,
+   "windows": [
+    [
+     "AI-Generated",
+     "High",
+     84,
+     "Lion's Mane & Ashwagandha: I'm not advising the mushroom lion's mane or the herb ashwagandha, even though they're popular for focus and stress, because some people report anhedonia (nothing feels good) and sexual dysfunction that hang around even after they stop taking them. What people call post-ashwa or post-lion's mane syndrome is rare, but it's the same kind of thing SSRI antidepressants and the hair-loss drug finasteride can do, so I'd keep it in mind."
+    ]
+   ]
+  },
+  "bl-agm": {
+   "uuid": "b14e73e9-e7e9-4c52-a25c-b689225415b8",
+   "at": "2026-11-24T16:55:33.974476-05:00",
+   "headline": "AI Detected",
+   "ai": 0.7856440544128418,
+   "words": 102,
+   "windows": [
+    [
+     "AI-Generated",
+     "Medium",
+     46,
+     "I'd stop agmatine right away if you notice you're flatter or more depressed than before you started, things stop feeling good or you stop caring, because people who take it do report going numb like that (the human trials only turned up stomach problems)."
+    ],
+    [
+     "AI-Generated",
+     "High",
+     30,
+     "I wouldn't push through it hoping it'll settle like side effects sometimes do, because a few of them say the numbness hung on for weeks after they quit."
+    ],
+    [
+     "Human",
+     "Low",
+     26,
+     "I'd also stop if it winds you up instead (more irritable, can't sleep) or you get dizziness, palpitations, nausea, loose stools or stronger cravings."
+    ]
+   ]
+  }
+ }
+}

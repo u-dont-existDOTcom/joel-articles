@@ -2774,6 +2774,15 @@
      ]
     ]
    }
+  },
+  {
+   "by": "fix-20261108/joel-20261124-2143-message.txt, answers 62a, 63a, 64a and 65a, applied by fix-20261108/x1124b/apply_x1124b.py",
+   "why": "62a: the red line's test reads the same in its three places (back down to your usual resting rate, and under 90 BPM), so Scenario A's Step 2 now names the number too; 63a, 64a, 65a: words only",
+   "numbers_lost": [],
+   "numbers_new": [
+    "90"
+   ],
+   "keys_lost": {}
   }
  ],
  "warning_words": {

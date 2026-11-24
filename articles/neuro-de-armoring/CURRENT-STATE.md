@@ -22,7 +22,7 @@ Every paragraph and every section reads Human in Pangram, with the meaning kept 
 
 ## Current checkpoint
 
-`humanize/HUMANIZED-SO-FAR.md` (580b8a82, after his message of 2026-11-24 18:47 UTC: his lion's mane and agmatine warnings and his answers 57 to 61 in, `humanize/fix-20261108/x1124a/APPLIED-X1124A.json`; before it his Weeks 3–7 line and his answers 34 to 56, `humanize/fix-20261108/x1123b/APPLIED-X1123B.json`) is his post with the standard typographic swap, his versions and the science corrections he approved, section by section through Part 3's potassium step. The contradictions check ran again on 2026-11-24 over the changed article (`humanize/fix-20261108/coherence/x1124a/`, 24 items, every one with a fate): questions 62 to 65 wait on him; then the rest is humanized (lesson neuro-2026-11-08f). The cuts he meant are on `humanize/KEEP-AS-IS.json`. Nothing has been changed in his post yet.
+`humanize/HUMANIZED-SO-FAR.md` (386bad86, after his message of 2026-11-24 21:43 UTC: his answers 62a to 65a in, `humanize/fix-20261108/x1124b/APPLIED-X1124B.json`; before it his lion's mane and agmatine warnings and his answers 57 to 61, `humanize/fix-20261108/x1124a/APPLIED-X1124A.json`) is his post with the standard typographic swap, his versions, the science corrections he approved and his answers to every contradiction the two checks found (`humanize/fix-20261108/coherence/x1124a/CHECK.md`: every item with its answer). The article makes sense as a whole now; what is left is the humanizing: `humanize/LEFT.md`, computed by `humanize/coverage.py` (141 paragraphs: 14 Human High by themselves at their present words, 69 last read below that, 58 never checked as they stand). The cuts he meant and a wording of his to keep are on `humanize/KEEP-AS-IS.json`. Nothing has been changed in his post yet.
 
 ## Remaining
 
@@ -30,7 +30,7 @@ The AI windows of every section, rewritten and checked; his cards; his post upda
 
 ## Blockers / unresolved
 
-No question waits on him. His answers 16a and 17 wait on one line of mine at the top of Weeks 3–5 (`humanize/fix-20261108/x1120a/texts_x1120a.py` W35) reading Human High by itself; his new warnings (lion's mane and ashwagandha, agmatine, 5-HTP) wait on their sources and their text (`humanize/fix-20261108/x1122a/WARNINGS-BRIEF.md`). Every contradiction in `humanize/fix-20261108/coherence/EXTRACT.md` has a fate (`CONTRADICTIONS-FATES.json`). Every turn starts by reading the cards page's stored answers (lesson neuro-2026-11-13b).
+No question waits on him and nothing is open on the cards page. Every turn starts by reading the mailbox, the cards page's stored answers (https://claude.ai/artifact/9nENpt9AEJCB43a9Wy5jqn, collection "decisions") and his message against the questions page (`humanize/OWNER-QUESTIONS.md`, https://claude.ai/artifact/8cWv5mbXY8y53RL1nhvzky).
 
 ## Evidence / artifacts
 
@@ -38,4 +38,4 @@ No question waits on him. His answers 16a and 17 wait on one line of mine at the
 
 ## Next safe action
 
-`humanize/HANDOFF-neuro-de-armoring.md`, Next step: the cards page's stored answers, then the Weeks 3–5 line's receipt and check; his new warnings; the contradictions check run again over the new text; then the protocol's other contradictions (`humanize/fix-20261108/coherence/EXTRACT.md`); then the rest of the article one paragraph at a time (gates E343, E344). The master is unchanged (his post as it stands).
+`humanize/HANDOFF-neuro-de-armoring.md`, Next step: the humanizing pass over what `humanize/LEFT.md` lists, a section at a time from the warnings at the top, each paragraph fixed for sense and flow first and then checked by itself (lessons neuro-2026-11-24a to f, `docs/lessons/2026-11-24-1847-neuro.md`). The master is unchanged (his post as it stands).
