@@ -1,0 +1,100 @@
+{
+ "format": "joel-suggestion-review-v1",
+ "review_id": "bad-trips-r54",
+ "title": "Bad Trips Guide, Round 54",
+ "intro": [
+  "Round 54 (2026-11-24). Your round-53 answer is in: the setting isn't what decides, so the sentence goes where it is the evidence for your suspicion of the pills, right after \"I can barely move\", couch lock ([Human High, one window](https://www.pangram.com/history/cbfb1b52-ceb9-4daa-99a9-d5d1793ac726)). Each point of your answer has its fate in [the record](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/bad-trips/review/r53/RESULTS-R53.md).",
+  "Steps 6 and 8 under Act Now on SS have no Medium window left: step 6 ([Human High, one window](https://www.pangram.com/history/912c56b9-750f-46bb-b953-b1432b6e5d0f)) and step 8 ([Human High, one window](https://www.pangram.com/history/e124ac32-130a-4d69-9315-0a04fbd514e2)). Step 8 took one small fix: its niacin line said \"at the doses used to end a trip\" in a sentence that had already said \"for ending a trip\", and \"at that dose\" took both of its Medium windows. Your oil and brew sentence never changed.",
+  "Step 6 cost you half a sentence, which is the question below. What I took from your answer is in the repo for every lane ([the lessons](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/docs/lessons/2026-11-24-1420-bad-trips.md))."
+ ],
+ "git_file": "articles/bad-trips/review/r54/REVIEW-R54.html",
+ "article": {
+  "file": "articles/bad-trips/review/r54/PAGE-R54.md",
+  "sha256": "395f2030de5f5732b87319f5516dac8104b2225a5ada287e813487bc32be9061"
+ },
+ "built": "2026-11-24",
+ "whole": {
+  "file": "articles/bad-trips/review/r54/PAGE-R54.md",
+  "sha256": "395f2030de5f5732b87319f5516dac8104b2225a5ada287e813487bc32be9061"
+ },
+ "links": {
+  "guide": "https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/bad-trips/GUIDE-SO-FAR.md",
+  "guide_label": "the guide as it stands",
+  "check": "https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/bad-trips/review/r54/REVIEW-R54.md",
+  "review": "https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/bad-trips/review/r54/REVIEW-R54.md"
+ },
+ "types": {
+  "plain": {
+   "label": "Said plainly",
+   "about": "AI lines said plainly, each with its reason, the way he fixes his own windows"
+  },
+  "structure": {
+   "label": "Structure",
+   "about": "how the quick version and the long version split the guide, and where a part goes"
+  },
+  "repeat": {
+   "label": "Said twice",
+   "about": "a point the guide already makes elsewhere: one copy goes, the other stays"
+  },
+  "safety": {
+   "label": "Safety in one place",
+   "about": "a caution or call-for-help line said in several places, or one that changes nothing a reader does"
+  },
+  "question": {
+   "label": "Your call",
+   "about": "something only you can decide or know"
+  },
+  "sense": {
+   "label": "Says what it means",
+   "about": "a term explained where it is first used, or a word that says what to do"
+  },
+  "belief": {
+   "label": "Your belief back",
+   "about": "a sentence of your post that said why, cut in an earlier round, put back where it bears on what the reader does"
+  },
+  "method": {
+   "label": "Your method where it is used",
+   "about": "a line the guide already has, put where the reader uses it in trouble (your METHOD-WHERE answer, round 28)"
+  },
+  "notes": {
+   "label": "Your notes, placed",
+   "about": "what you sent in a comment, put where it belongs in the guide, as you sent it"
+  },
+  "typo": {
+   "label": "Typo",
+   "about": "a word in your own paragraph spelled differently from how you spell it elsewhere, with the fix in place"
+  },
+  "boilerplate": {
+   "label": "Boilerplate",
+   "about": "standard advice a model added that carries none of your method and no safety point a reader needs, shown as the section would read without it (your round-32 note)"
+  },
+  "quiz": {
+   "label": "Quiz",
+   "about": "my reading of my own sentences, written before any Pangram check, for you to score (your suggestion of 2026-11-21)"
+  },
+  "teach": {
+   "label": "Teach me",
+   "about": "a paragraph that reads AI in every wording I tried, whose shape many stuck paragraphs share: how you would say it teaches me how to say them (you asked for these on 2026-11-07)"
+  }
+ },
+ "suggestions": [
+  {
+   "id": "POTASSIUM-DRAIN",
+   "type": "question",
+   "advice": "ask",
+   "title": "1. Your step 6: the second half of your potassium note",
+   "whose": "his own: his QUIZ-3 answer of round 51, on high potassium bringing on vomiting and diarrhea",
+   "question": "You wrote: \"with high potassium they are more likely to have vomiting and diarrhea (which then causes hypokalemia as it removes potassium)\". Step 6 said that as \"High potassium also brings on vomiting and diarrhea, which then drain it again, so if those start, I'd stop the chips\", and that sentence was the step's Medium window.\nWhat the three fresh readers found, each in the same place: the draining says the friend is losing potassium, which reads as a reason to give more chips, not to stop them. So the line now says the act first and leaves the draining out: \"So if they start vomiting or get diarrhea, I'd stop the chips, since too much potassium brings those on and the chips have to stop either way while they're being sick.\" The step reads Human High in one window that way.\na) Leave it out, since the step already says potassium can be running high as well as low.\nb) Put it back, in your words in the box, and I'll check it before it goes in.\nc) Say it where the swing is, in the sentence before.",
+   "why": "it is your point, and half of it came out to clear the Medium window",
+   "stays": "step 6 as it now reads, without the draining",
+   "advice_note": "a: the reader does the same thing either way, and the sentence before already says potassium can go either way",
+   "spans": [
+    {
+     "block": 132,
+     "start": 0,
+     "end": 1446
+    }
+   ]
+  }
+ ]
+}

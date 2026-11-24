@@ -1488,6 +1488,10 @@ His message: `articles/inner-signal/humanize/fix-20261026/joel-20261026-1243-mes
   page (`docs/FIXING-AN-ARTICLE.md` 6.14). A Medium window in prose is work to do, not done (Joel, 2026-11-23 23:49 UTC:
   "i often find the medium windows indicate other issues also"; lesson romance-2026-11-23i): his fix of three in one
   romance section changed each sentence's form, a mirrored pair, a short closing line, a trailing piece of advice.
+  A Medium window is not always in the sentence it covers: step 8 of the bad trips guide's serotonin steps had two, and
+  both went when the one thing a reader could take two ways was fixed in the first of them (a dose said as "the doses
+  used to end a trip" in a sentence that had already said "for ending a trip"), the other sentence untouched. The ledger's
+  near-miss rule refused the rewrite of both that I tried first (lesson bad-trips-2026-11-24g).
 - **E279. A word of his that a sample drops goes back before the gate.** Batch 481 (the guide's Emulate versions of 24
   stretches at less than High) lost five of its drafts in the gate's first round, each on one word or mark: Emulate
   dropped his "genuinely" ("two genuinely safe routes"), his "still" ("What boundaries are still needed?"), his

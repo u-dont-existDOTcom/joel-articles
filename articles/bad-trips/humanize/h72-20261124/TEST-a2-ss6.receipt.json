@@ -1,0 +1,183 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-24",
+ "text_sha256": "5114db88574642aaca54504921462d425da65ca1d221577ff0ca32a3edcb653e",
+ "text": "Overstimulating also dehydrates them, but we can't give fluids unless they're fully alert, able to swallow and not vomiting, and then just small sips of an electrolyte drink. If they still show the signs of low electrolytes from [MDMA: Magnesium Alarm](https://ibogaqueen.substack.com/i/170920118/mdma-magnesium-alarm) above, they may need **more salt, potassium and magnesium than a normal electrolyte drink has**. Salty potato chips give the salt and the potassium with nothing to cook, so I'd let them eat as many as they want. That's the only way I'd give potassium, since too much pure potassium is dangerous for anyone. Their potassium could be running high as well as low, though: MDMA can drain it, but muscles breaking down into the blood push it up. So if they start vomiting or get diarrhea, I'd stop the chips, since too much potassium brings those on and the chips have to stop either way while they're being sick. Magnesium also runs low in many people with serotonin syndrome ([a nursing review](https://doi.org/10.1097/01.NME.0000432871.59839.f3)). Magnesium chloride tastes too bad for most people to drink, but the skin absorbs it, so I'd stir a handful of magnesium chloride flakes into a little water and rub the mix on their skin. If you don't have the flakes, Epsom salt, which is magnesium sulfate rather than a kind of table salt, works the same way, just less well. If they can stand the taste, they can also take magnesium chloride by mouth, especially with MDMA-related jaw tension or twitching (the amounts are in [MDMA: Magnesium Alarm](https://ibogaqueen.substack.com/i/170920118/mdma-magnesium-alarm), above).",
+ "section": "Act Now on SS",
+ "reader": "a friend sitting with someone who took MDMA on top of their antidepressant and now has twitching muscles, sweating and a racing heart; they have called an ambulance and read what to do while they wait",
+ "sentences": [
+  {
+   "s": "Overstimulating also dehydrates them, but we can't give fluids unless they're fully alert, able to swallow and not vomiting, and then just small sips of an electrolyte drink.",
+   "his": true
+  },
+  {
+   "s": "If they still show the signs of low electrolytes from [MDMA: Magnesium Alarm](https://ibogaqueen.substack.com/i/170920118/mdma-magnesium-alarm) above, they may need **more salt, potassium and magnesium than a normal electrolyte drink has**.",
+   "payoff": "they know when the friend needs more than a drink",
+   "follows": "the drink just named",
+   "link": "If they still show"
+  },
+  {
+   "s": "Salty potato chips give the salt and the potassium with nothing to cook, so I'd let them eat as many as they want.",
+   "payoff": "they give salty chips, as many as wanted",
+   "follows": "the salt and potassium just named",
+   "link": "Salty"
+  },
+  {
+   "s": "That's the only way I'd give potassium, since too much pure potassium is dangerous for anyone.",
+   "payoff": "they give potassium only in food",
+   "follows": "the chips just named",
+   "link": "That's"
+  },
+  {
+   "s": "Their potassium could be running high as well as low, though: MDMA can drain it, but muscles breaking down into the blood push it up.",
+   "payoff": "they know potassium can go either way",
+   "follows": "the potassium just named",
+   "link": "Their potassium"
+  },
+  {
+   "s": "So if they start vomiting or get diarrhea, I'd stop the chips, since too much potassium brings those on and the chips have to stop either way while they're being sick.",
+   "payoff": "they stop the chips at the first vomiting or diarrhea",
+   "follows": "the potassium that may be running high, just named",
+   "link": "So if they start"
+  },
+  {
+   "s": "Magnesium also runs low in many people with serotonin syndrome ([a nursing review](https://doi.org/10.1097/01.NME.0000432871.59839.f3)).",
+   "payoff": "they know to give magnesium too",
+   "follows": "the salt and potassium just named",
+   "link": "Magnesium also"
+  },
+  {
+   "s": "Magnesium chloride tastes too bad for most people to drink, but the skin absorbs it, so I'd stir a handful of magnesium chloride flakes into a little water and rub the mix on their skin.",
+   "payoff": "they put it on the skin instead of making them drink it",
+   "follows": "the magnesium just named",
+   "link": "Magnesium chloride"
+  },
+  {
+   "s": "If you don't have the flakes, Epsom salt, which is magnesium sulfate rather than a kind of table salt, works the same way, just less well.",
+   "payoff": "they use Epsom salt the same way",
+   "follows": "the flakes just named",
+   "link": "If you don't have"
+  },
+  {
+   "s": "If they can stand the taste, they can also take magnesium chloride by mouth, especially with MDMA-related jaw tension or twitching (the amounts are in [MDMA: Magnesium Alarm](https://ibogaqueen.substack.com/i/170920118/mdma-magnesium-alarm), above).",
+   "payoff": "they can give it by mouth too, with the amounts",
+   "follows": "the taste just named",
+   "link": "If they can stand the taste"
+  }
+ ],
+ "checked": [
+  {
+   "point": "salty potato chips give salt and potassium with nothing to cook, as many as they want",
+   "found": "his QUIZ-3 answer of 2026-11-23 23:35 UTC: \"i'd have a bag of salty potato chips on hand that, has salt and potassium, no need to cook anything. and i'd eat as much of those as they want to\"",
+   "still_needed": "yes: they give salt and potassium without cooking",
+   "fate": "kept"
+  },
+  {
+   "point": "too much potassium brings on vomiting and diarrhea, so the chips stop when those start",
+   "found": "his QUIZ-3 answer: \"with high potassium they are more likely to have vomiting and diarrhea (which then causes hypokalemia as it removes potassium)\"; round 50: \"nausea and diarrhea are more indicative of hyper\"",
+   "still_needed": "yes: they stop the chips at the first sign",
+   "fate": "kept"
+  },
+  {
+   "point": "the second half of his note, that the vomiting and diarrhea then drain potassium again, is out of this step",
+   "found": "his QUIZ-3 answer's parenthesis (\"which then causes hypokalemia as it removes potassium\"); the three fresh reads on version one each stumbled on it: that draining argues for more potassium, not less, and \"they\" could be the friend or the signs (reads/his-a1-ss6.txt S8, reads/need-a1-ss6.txt S8, reads/fit-a1-ss6.txt S8), and its sentence was the step's Medium window",
+   "still_needed": "no: they do the same thing either way, and the step already says potassium can run high as well as low",
+   "fate": "cut"
+  },
+  {
+   "point": "magnesium chloride tastes terrible and the skin absorbs it from a handful of flakes in a little water; Epsom salt is magnesium sulfate and gets through the skin less well",
+   "found": "his QUIZ-3 answer: \"magnesium chloride tastes terrible ... make sure we are mentioning it's absorbed thru the skin when dissolved in a little water\"; \"epsom salt is magnesium sulfate\"",
+   "still_needed": "yes: they give magnesium a way the friend will take",
+   "fate": "kept"
+  },
+  {
+   "point": "many people with serotonin syndrome run low on magnesium",
+   "found": "the nursing review he sent on round 49 (doi.org/10.1097/01.NME.0000432871.59839.f3)",
+   "still_needed": "yes: they give magnesium as well as salt and potassium",
+   "fate": "kept"
+  }
+ ],
+ "placement": "step 6 of the eight steps under \"Act Now on SS\" (B136)",
+ "opens": {
+  "first_sentence": "Overstimulating also dehydrates them, but we can't give fluids unless they're fully alert, able to swallow and not vomiting, and then just small sips of an electrolyte drink.",
+  "why_reading": "it tells the friend what to give for salt, potassium and magnesium, how, and when to stop"
+ },
+ "same_point": "none: read the section from its heading to the next; magnesium is said once in the steps (step 6), with its amounts in MDMA: Magnesium Alarm, which step 6 points to, and the dance line once, in the paragraph after his MDMA paragraph",
+ "needed": {
+  "reader": "a fresh agent (Sonnet) given tools/humanization/needed_read_brief.md (reads/need-a1-ss6.txt), on version one",
+  "unneeded": [],
+  "kept": {}
+ },
+ "his_fixes": {
+  "reader": "a fresh agent (Sonnet) given tools/humanization/his_fixes_brief.md, its twenty-eight ways (reads/his-a1-ss6.txt), on version one",
+  "marked": [
+   {
+    "s": "Salty potato chips give the salt and the potassium with nothing to cook, so I'd let them eat as many as they want.",
+    "difference": "17"
+   },
+   {
+    "s": "That's the only way I'd give potassium, since too much pure potassium is dangerous for anyone.",
+    "difference": "10"
+   },
+   {
+    "s": "Magnesium also runs low in many people with serotonin syndrome ([a nursing review](https://doi.org/10.1097/01.NME.0000432871.59839.f3)).",
+    "difference": "12"
+   },
+   {
+    "s": "Magnesium chloride tastes too bad for most people to drink, but the skin absorbs it, so I'd stir a handful of magnesium chloride flakes into a little water and rub the mix on their skin.",
+    "difference": "4"
+   },
+   {
+    "s": "If you don't have the flakes, Epsom salt, which is magnesium sulfate rather than a kind of table salt, works the same way, just less well.",
+    "difference": "3"
+   }
+  ],
+  "kept": {
+   "Salty potato chips give the salt and the potassium with nothing to cook, so I'd let them eat as many as they want.": "kept in version two: it read High in its window last turn, and the mark is answered in the sentences around it or is his view as he said it",
+   "That's the only way I'd give potassium, since too much pure potassium is dangerous for anyone.": "kept in version two: it read High in its window last turn, and the mark is answered in the sentences around it or is his view as he said it",
+   "Magnesium also runs low in many people with serotonin syndrome ([a nursing review](https://doi.org/10.1097/01.NME.0000432871.59839.f3)).": "kept in version two: it read High in its window last turn, and the mark is answered in the sentences around it or is his view as he said it",
+   "Magnesium chloride tastes too bad for most people to drink, but the skin absorbs it, so I'd stir a handful of magnesium chloride flakes into a little water and rub the mix on their skin.": "kept in version two: it read High in its window last turn, and the mark is answered in the sentences around it or is his view as he said it",
+   "If you don't have the flakes, Epsom salt, which is magnesium sulfate rather than a kind of table salt, works the same way, just less well.": "kept in version two: it read High in its window last turn, and the mark is answered in the sentences around it or is his view as he said it"
+  }
+ },
+ "fit": {
+  "reader": "a fresh agent (Sonnet) given tools/humanization/fit_read_brief.md (reads/fit-a1-ss6.txt), on version one",
+  "marked": [
+   {
+    "s": "Salty potato chips give the salt and the potassium with nothing to cook, so I'd let them eat as many as they want.",
+    "found": "CAN'T TELL, MISREAD"
+   },
+   {
+    "s": "Magnesium chloride tastes too bad for most people to drink, but the skin absorbs it, so I'd stir a handful of magnesium chloride flakes into a little water and rub the mix on their skin.",
+    "found": "CAN'T TELL"
+   }
+  ],
+  "kept": {
+   "Salty potato chips give the salt and the potassium with nothing to cook, so I'd let them eat as many as they want.": "kept in version two: it read High in its window last turn, and the mark is answered in the sentences around it or is his view as he said it",
+   "Magnesium chloride tastes too bad for most people to drink, but the skin absorbs it, so I'd stir a handful of magnesium chloride flakes into a little water and rub the mix on their skin.": "kept in version two: it read High in its window last turn, and the mark is answered in the sentences around it or is his view as he said it"
+  }
+ },
+ "questions": {
+  "Q1": "PASS: each sentence opens on why it is there",
+  "Q2": "PASS: every instruction is something the friend does or leaves out, with why",
+  "Q3": "PASS: what to do, and the signs that change it",
+  "Q4": "PASS: terms come with their plain words (MAO, the enzyme that clears serotonin)",
+  "Q5": "PASS: each sentence ties to the one before at its start",
+  "Q6": "PASS: what to give or do first, then what to stop, then the last resort",
+  "Q7": "PASS: every fact is one he gave or a source says, and his view is said as his",
+  "Q8": "PASS: one point a sentence",
+  "Q9": "PASS: the payoff first"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ },
+ "his_whose": "his own: his step 6 of round 48, its first sentence as he wrote it"
+}

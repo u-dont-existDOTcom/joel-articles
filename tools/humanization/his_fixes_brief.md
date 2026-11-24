@@ -38,6 +38,10 @@ that still reads the first way.
 4. **Vague about who, what, or what counts.** He fixed "whatever could hurt somebody" into "Anything that could let
    someone hurt themselves", "water" into "pools of water", "adjunct" into "adjunct remedy", and spelled out that each
    combination "would be counted as one pattern altogether".
+   A dose or amount said as the case it came from is this way too: "since at the doses used to end a trip it can cause
+   flushing and low blood pressure", in a sentence that had already said "which this guide uses for ending a trip", left
+   the reader with no amount; "at that dose" took the step's two Medium windows at once (bad trips, 2026-11-24, lesson
+   bad-trips-2026-11-24g).
 5. **Opening on a rule or an authority, with the reader outside it.** He fixed "Clinicians often use the Hunter criteria"
    into "We can use the same Hunter criteria that clinicians use", "Get urgent help when somebody may harm themselves"
    into "the moment you think they might hurt themselves or anybody else, get urgent help", "Dim the lights. Lower the

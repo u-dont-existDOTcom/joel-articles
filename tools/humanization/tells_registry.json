@@ -3341,6 +3341,18 @@
     }
    ],
    "reason": "which point a sentence answers, where it belongs and whether the argument needs it is meaning: a fresh reader given tools/humanization/his_fixes_brief.md (its twenty-eighth way) maps the points and marks the ones out of place or not needed"
+  },
+  {
+   "id": "J89",
+   "tell": "a dose or amount named as the case it came from (\"at the doses used to end a trip\") where the sentence has already named that case, so the reader has no amount in front of them",
+   "kind": "judgment",
+   "sources": [
+    {
+     "file": "docs/lessons/2026-11-24-1420-bad-trips.md",
+     "quote": "a Medium window is not always in the sentence it covers"
+    }
+   ],
+   "reason": "whether the reader already has the case in front of them, and what the amount points at, is meaning: a fresh reader given tools/humanization/fit_read_brief.md marks what they cannot tell"
   }
  ]
 }

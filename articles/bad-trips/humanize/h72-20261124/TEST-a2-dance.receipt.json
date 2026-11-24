@@ -1,0 +1,202 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-24",
+ "text_sha256": "a656bf5a470e17fc18ef36dc02ea9acfe19305820d5b7e91a0155d2378fc4f79",
+ "text": "That's why I'd tell everyone not to dance on MDMA at all, however good the music is, since dancing makes the heat and the sweat that drain their salt. And really, what's the point of MDMA if someone wants to dance? For that they can take some San Pedro cactus or mescaline, which is way way safer, and still very therapeutic. Real MDMA, the kind that's therapeutic and helps people access very early childhood trauma, possibly better than San Pedro can in some cases, isn't the kind people want to dance on, which is why you don't see people in the MAPS trials of MDMA therapy saying \"I NEED TO DANCE!\" No, they're sitting there doing the therapy, and even if the science isn't clear on this yet, I and everyone I know are totally clear about what the real thing feels like. It's not like \"I don't feel like dancing\", it's like \"I can barely move\", couch lock. And in the same exact setting, the pills have gone both ways on me: some had me wanting to dance, and some left me in that couch lock. So if a pill makes someone feel like dancing, I'm highly suspicious that it contains amphetamines, or that it isn't real MDMA at all, maybe 6-APB, a similar drug. That might also be why women get low sodium far more often than men outside the lab, where what people take as \"MDMA\" is ecstasy, while a [lab study](https://pmc.ncbi.nlm.nih.gov/articles/PMC4923534/) that gave people pure MDMA and water found no difference between them. Then again, the lab dosed everyone by their weight, and at a festival a small woman takes the same pill as a big guy, so she's getting a lot more for her size.",
+ "section": "MDMA: Magnesium Alarm",
+ "reader": "someone about to go to a festival with friends who plan to take MDMA and dance all night, reading this the day before",
+ "sentences": [
+  {
+   "s": "That's why I'd tell everyone not to dance on MDMA at all, however good the music is, since dancing makes the heat and the sweat that drain their salt.",
+   "payoff": "they keep their friends from dancing on MDMA",
+   "follows": "the overheating and the low sodium just named"
+  },
+  {
+   "s": "And really, what's the point of MDMA if someone wants to dance?",
+   "payoff": "they see the writer's case against MDMA for dancing",
+   "follows": "the no dancing just said",
+   "link": "And really"
+  },
+  {
+   "s": "For that they can take some San Pedro cactus or mescaline, which is way way safer, and still very therapeutic.",
+   "payoff": "they know what the writer would take to dance instead",
+   "follows": "the question just asked",
+   "link": "For that"
+  },
+  {
+   "s": "Real MDMA, the kind that's therapeutic and helps people access very early childhood trauma, possibly better than San Pedro can in some cases, isn't the kind people want to dance on, which is why you don't see people in the MAPS trials of MDMA therapy saying \"I NEED TO DANCE!\"",
+   "payoff": "they know what the writer says real MDMA is like",
+   "follows": "the MDMA of the question",
+   "link": "Real MDMA"
+  },
+  {
+   "s": "No, they're sitting there doing the therapy, and even if the science isn't clear on this yet, I and everyone I know are totally clear about what the real thing feels like.",
+   "payoff": "they know the writer's view rests on his and his friends' experience",
+   "follows": "the trials just named",
+   "link": "No, they're sitting there"
+  },
+  {
+   "s": "It's not like \"I don't feel like dancing\", it's like \"I can barely move\", couch lock.",
+   "payoff": "they know what the writer means by not wanting to dance",
+   "follows": "what the real thing feels like, just named",
+   "link": "It's not like"
+  },
+  {
+   "s": "And in the same exact setting, the pills have gone both ways on me: some had me wanting to dance, and some left me in that couch lock.",
+   "payoff": "they know it is the pill and not the place that decides, so their own urge to dance says something about the pill",
+   "follows": "the couch lock just named",
+   "link": "And in the same exact setting"
+  },
+  {
+   "s": "So if a pill makes someone feel like dancing, I'm highly suspicious that it contains amphetamines, or that it isn't real MDMA at all, maybe 6-APB, a similar drug.",
+   "payoff": "they know the writer suspects a pill that makes someone feel like dancing",
+   "follows": "the pills that went both ways, just named",
+   "link": "So if a pill"
+  },
+  {
+   "s": "That might also be why women get low sodium far more often than men outside the lab, where what people take as \"MDMA\" is ecstasy, while a [lab study](https://pmc.ncbi.nlm.nih.gov/articles/PMC4923534/) that gave people pure MDMA and water found no difference between them.",
+   "payoff": "they know the field and the lab disagree on women, and the writer's reading of it",
+   "follows": "the suspect pills just named",
+   "link": "That might also be why"
+  },
+  {
+   "s": "Then again, the lab dosed everyone by their weight, and at a festival a small woman takes the same pill as a big guy, so she's getting a lot more for her size.",
+   "payoff": "they know the lab differed in another way, so a small friend gets more from the same pill",
+   "follows": "the lab just named",
+   "link": "Then again, the lab"
+  }
+ ],
+ "checked": [
+  {
+   "point": "the setting isn't what decides: in the same setting, some pills had him wanting to dance and some left him in couch lock",
+   "found": "his MAPS-SETTING answer of 2026-11-24 14:20 UTC: \"It's not because of the setting. i've been in the same exact setting takign different mdma, some makes you want to dance, some makes you almost incapable of moving\"",
+   "still_needed": "yes: they read their own urge to dance as something about the pill, not the place",
+   "fate": "kept"
+  },
+  {
+   "point": "real MDMA is couch lock, not dancing energy; a pill that makes someone feel like dancing may have amphetamines or another drug in it; San Pedro or mescaline is way safer for dancing and still therapeutic",
+   "found": "his DANCE-ENERGY answer of 2026-11-24 01:25 UTC; his round-51 note (\"i'm highly suspicious that contains amphetamines or it's not real mdma maybe 6apb\"); kept as his view after round 52's card gave him what the studies show (Kolbrich 2008: energy ratings rise with the dose)",
+   "still_needed": "yes: they hear the writer's case before they decide to dance on it",
+   "fate": "kept"
+  },
+  {
+   "point": "in a lab study where people took pure MDMA and drank water, women's sodium dropped no more than men's; the lab dosed by body weight",
+   "found": "Baggott et al. 2016 (PMC4923534): 1.5 mg per kg; \"There was a trend for women to have lower baseline serum sodium than men, but there were no significant interactions with drug condition\"; his WOMEN-RISK answer of round 52 asked for the field vs lab note here",
+   "still_needed": "yes: they know the field and the lab disagree, and that a smaller body takes more from the same pill",
+   "fate": "kept"
+  }
+ ],
+ "placement": "the paragraph after his MDMA paragraph (B119), whose last sentence names overheating among what brings on a seizure or collapse; its \"That's why\" turns on that sentence and on the salt the paragraph is about; before the kidney paragraph (B120)",
+ "opens": {
+  "first_sentence": "That's why I'd tell everyone not to dance on MDMA at all, however good the music is, since dancing makes the heat and the sweat that drain their salt.",
+  "why_reading": "it tells someone going to dance on MDMA why not to, what the writer would take instead, and what he thinks a pill that makes someone feel like dancing says about it"
+ },
+ "same_point": "none: read the section from its heading to the next; magnesium is said once in the steps (step 6), with its amounts in MDMA: Magnesium Alarm, which step 6 points to, and the dance line once, in the paragraph after his MDMA paragraph",
+ "needed": {
+  "reader": "a fresh agent (Sonnet) given tools/humanization/needed_read_brief.md (reads/need-a1-dance.txt), on version one",
+  "unneeded": [],
+  "kept": {}
+ },
+ "his_fixes": {
+  "reader": "a fresh agent (Sonnet) given tools/humanization/his_fixes_brief.md, its twenty-eight ways (reads/his-a1-dance.txt), on version one",
+  "marked": [
+   {
+    "s": "For that they can take some San Pedro cactus or mescaline, which is way way safer, and still very therapeutic.",
+    "difference": "4"
+   },
+   {
+    "s": "Real MDMA, the kind that's therapeutic and helps people access very early childhood trauma, possibly better than San Pedro can in some cases, isn't the kind people want to dance on, which is why you don't see people in the MAPS trials of MDMA therapy saying \"I NEED TO DANCE!\"",
+    "difference": "1, 3"
+   },
+   {
+    "s": "No, they're sitting there doing the therapy, and even if the science isn't clear on this yet, I and everyone I know are totally clear about what the real thing feels like.",
+    "difference": "3, 10, 21"
+   },
+   {
+    "s": "It's not like \"I don't feel like dancing\", it's like \"I can barely move\", couch lock.",
+    "difference": "3"
+   },
+   {
+    "s": "So if a pill makes someone feel like dancing, I'm highly suspicious that it contains amphetamines, or that it isn't real MDMA at all, maybe 6-APB, a similar drug.",
+    "difference": "7, 19"
+   },
+   {
+    "s": "That might also be why women get low sodium far more often than men outside the lab, where what people take as \"MDMA\" is ecstasy, while a [lab study](https://pmc.ncbi.nlm.nih.gov/articles/PMC4923534/) that gave people pure MDMA and water found no difference between them.",
+    "difference": "1, 3, 9, 10, 12"
+   },
+   {
+    "s": "Then again, the lab dosed everyone by their weight, and at a festival a small woman takes the same pill as a big guy, so she's getting a lot more for her size.",
+    "difference": "3"
+   }
+  ],
+  "kept": {
+   "For that they can take some San Pedro cactus or mescaline, which is way way safer, and still very therapeutic.": "kept in version two: it read High in its window last turn, and the mark is answered in the sentences around it or is his view as he said it",
+   "Real MDMA, the kind that's therapeutic and helps people access very early childhood trauma, possibly better than San Pedro can in some cases, isn't the kind people want to dance on, which is why you don't see people in the MAPS trials of MDMA therapy saying \"I NEED TO DANCE!\"": "kept in version two: it read High in its window last turn, and the mark is answered in the sentences around it or is his view as he said it",
+   "No, they're sitting there doing the therapy, and even if the science isn't clear on this yet, I and everyone I know are totally clear about what the real thing feels like.": "kept in version two: it read High in its window last turn, and the mark is answered in the sentences around it or is his view as he said it",
+   "It's not like \"I don't feel like dancing\", it's like \"I can barely move\", couch lock.": "kept in version two: it read High in its window last turn, and the mark is answered in the sentences around it or is his view as he said it",
+   "So if a pill makes someone feel like dancing, I'm highly suspicious that it contains amphetamines, or that it isn't real MDMA at all, maybe 6-APB, a similar drug.": "kept in version two: it read High in its window last turn, and the mark is answered in the sentences around it or is his view as he said it",
+   "That might also be why women get low sodium far more often than men outside the lab, where what people take as \"MDMA\" is ecstasy, while a [lab study](https://pmc.ncbi.nlm.nih.gov/articles/PMC4923534/) that gave people pure MDMA and water found no difference between them.": "kept in version two: it read High in its window last turn, and the mark is answered in the sentences around it or is his view as he said it",
+   "Then again, the lab dosed everyone by their weight, and at a festival a small woman takes the same pill as a big guy, so she's getting a lot more for her size.": "kept in version two: it read High in its window last turn, and the mark is answered in the sentences around it or is his view as he said it"
+  }
+ },
+ "fit": {
+  "reader": "a fresh agent (Sonnet) given tools/humanization/fit_read_brief.md (reads/fit-a1-dance.txt), on version one",
+  "marked": [
+   {
+    "s": "For that they can take some San Pedro cactus or mescaline, which is way way safer, and still very therapeutic.",
+    "found": "CAN'T TELL, MISREAD"
+   },
+   {
+    "s": "Real MDMA, the kind that's therapeutic and helps people access very early childhood trauma, possibly better than San Pedro can in some cases, isn't the kind people want to dance on, which is why you don't see people in the MAPS trials of MDMA therapy saying \"I NEED TO DANCE!\"",
+    "found": "FROM"
+   },
+   {
+    "s": "No, they're sitting there doing the therapy, and even if the science isn't clear on this yet, I and everyone I know are totally clear about what the real thing feels like.",
+    "found": "CAN'T TELL"
+   },
+   {
+    "s": "It's not like \"I don't feel like dancing\", it's like \"I can barely move\", couch lock.",
+    "found": "CAN'T TELL"
+   },
+   {
+    "s": "So if a pill makes someone feel like dancing, I'm highly suspicious that it contains amphetamines, or that it isn't real MDMA at all, maybe 6-APB, a similar drug.",
+    "found": "ANYWAY, CAN'T TELL, MISREAD"
+   },
+   {
+    "s": "That might also be why women get low sodium far more often than men outside the lab, where what people take as \"MDMA\" is ecstasy, while a [lab study](https://pmc.ncbi.nlm.nih.gov/articles/PMC4923534/) that gave people pure MDMA and water found no difference between them.",
+    "found": "CAN'T TELL, MISREAD"
+   }
+  ],
+  "kept": {
+   "For that they can take some San Pedro cactus or mescaline, which is way way safer, and still very therapeutic.": "kept in version two: it read High in its window last turn, and the mark is answered in the sentences around it or is his view as he said it",
+   "Real MDMA, the kind that's therapeutic and helps people access very early childhood trauma, possibly better than San Pedro can in some cases, isn't the kind people want to dance on, which is why you don't see people in the MAPS trials of MDMA therapy saying \"I NEED TO DANCE!\"": "kept in version two: it read High in its window last turn, and the mark is answered in the sentences around it or is his view as he said it",
+   "No, they're sitting there doing the therapy, and even if the science isn't clear on this yet, I and everyone I know are totally clear about what the real thing feels like.": "kept in version two: it read High in its window last turn, and the mark is answered in the sentences around it or is his view as he said it",
+   "It's not like \"I don't feel like dancing\", it's like \"I can barely move\", couch lock.": "kept in version two: it read High in its window last turn, and the mark is answered in the sentences around it or is his view as he said it",
+   "So if a pill makes someone feel like dancing, I'm highly suspicious that it contains amphetamines, or that it isn't real MDMA at all, maybe 6-APB, a similar drug.": "kept in version two: it read High in its window last turn, and the mark is answered in the sentences around it or is his view as he said it",
+   "That might also be why women get low sodium far more often than men outside the lab, where what people take as \"MDMA\" is ecstasy, while a [lab study](https://pmc.ncbi.nlm.nih.gov/articles/PMC4923534/) that gave people pure MDMA and water found no difference between them.": "kept in version two: it read High in its window last turn, and the mark is answered in the sentences around it or is his view as he said it"
+  }
+ },
+ "questions": {
+  "Q1": "PASS: each sentence opens on why it is there",
+  "Q2": "PASS: every instruction is something the friend does or leaves out, with why",
+  "Q3": "PASS: what to do, and the signs that change it",
+  "Q4": "PASS: terms come with their plain words (MAO, the enzyme that clears serotonin)",
+  "Q5": "PASS: each sentence ties to the one before at its start",
+  "Q6": "PASS: what to give or do first, then what to stop, then the last resort",
+  "Q7": "PASS: every fact is one he gave or a source says, and his view is said as his",
+  "Q8": "PASS: one point a sentence",
+  "Q9": "PASS: the payoff first"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ },
+ "his_whose": "his own: his DANCE-ENERGY answer of round 52 and his MAPS-SETTING answer of round 53 (2026-11-24 14:20 UTC)"
+}
