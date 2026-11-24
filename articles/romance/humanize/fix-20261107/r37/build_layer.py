@@ -15,6 +15,19 @@ FIX = HERE.parent
 M = HERE / 'medium'
 norm = lambda s: re.sub(r'\s+', ' ', s).strip()
 repl = {int(k): v for k, v in json.loads((FIX / 'whole' / 'REPLACEMENTS.json').read_text(encoding='utf-8')).items()}
+# whole/REPLACEMENTS.json holds this layer too once whole/build.py has run with it: take it back out, so the changes are
+# made against the fixed version as it was before this layer (HIS-S05.json the last layer under it)
+if (HERE / 'MINE-R37.json').exists():
+    for ch in reversed(json.loads((HERE / 'MINE-R37.json').read_text(encoding='utf-8'))['changes']):
+        now = repl.get(ch['live'])
+        if now is None:
+            continue
+        if ch['after']:
+            k = now.index(ch['after'][0])
+            repl[ch['live']] = now[:k] + [ch['before']] + now[k + 1:]
+        else:
+            assert now == [], (ch['live'], now)
+            repl[ch['live']] = [ch['before']]
 post = {}
 for line in (FIX / 'live-check' / 'LIVE-POST-BLOCKS-20261123.jsonl').read_text(encoding='utf-8').splitlines():
     r = json.loads(line)
@@ -47,7 +60,7 @@ DONE = {
     'r36-12-spirituality-to-bypass-intimacy-p1': ('texts', 'https://www.pangram.com/history/3063201e-8884-4008-b625-09bddfcfca7a', {}),
     'r36-16-and-deeper-is-the-point': ('t3', 'https://www.pangram.com/history/0b928214-0ed5-43e5-b495-f68bfc7028b9', {0: 'M-16'}),
     'r36-26-the-conversation-about-flaws': ('texts', 'https://www.pangram.com/history/39e78fb6-8b3e-4692-bec6-4cc4f261b23f', {3: 'M-26'}),
-    'r36-28-my-flaws-p2': ('t3', 'https://www.pangram.com/history/bd788843-ff5f-417c-9242-5aeee7123f33', {1: 'M-28', 2: 'M-28', 3: 'M-28'}),
+    'r36-28-my-flaws-p2': ('t3', 'https://www.pangram.com/history/bd788843-ff5f-417c-9242-5aeee7123f33', {1: 'M-28'}),  # only live 135 is his (M-135); 136 and 137 are model text
     'r36-30-beware-idealization-in-either-direction-p1': ('texts', 'https://www.pangram.com/history/00f004a8-9c64-4a96-9276-3d2458624496', {}),
     'r36-31-beware-idealization-in-either-direction-p2': ('texts', 'https://www.pangram.com/history/8d070089-ca59-4476-a372-f3fbe75cb711', {1: 'M-31', 2: 'M-31'}),
     'r36-35-if-slow-isn-t-realistic-for-you': ('texts', 'https://www.pangram.com/history/1867a533-baa4-4926-af33-d26bf54676fb', {2: 'M-35'}),
@@ -62,10 +75,16 @@ DONE = {
     'r36-83-if-you-re-already-in-it-p2': ('texts', 'https://www.pangram.com/history/862385ed-24c1-44dd-aa3f-865e4b685b0a', {}),
 }
 EXTRA = json.loads((HERE / 'LATE.json').read_text(encoding='utf-8')) if (HERE / 'LATE.json').exists() else {}
+# A section still below High in its best try, which read better than the article's text: the try's changed paragraphs
+# go in (listed by index), and the card asks what only he can answer. 42: try 3 (f38b40b6: High 108, Medium 35), the
+# opening joined to its first example (its window High in tries 2 and 3) and two phrases of the last sentence made plain;
+# with only the opening in, the last sentence as r32 has it read Low (a9a6e65c). What its last clause means waits for his
+# answer (the seventh page's question Q-42).
+PARTIAL = {'r36-42-from-flow-to-nitty-gritty': ('t5', 'https://www.pangram.com/history/f38b40b6-a828-4341-b2d1-4f125588379e', [0, 1])}
 for k, v in EXTRA.items():
     DONE[k] = (v[0], v[1], {int(a): b for a, b in v[2].items()})
 mine, cards = [], {}
-for key, (where, link, his) in DONE.items():
+for key, (where, link, his) in list(DONE.items()) + [(k, (v[0], v[1], {})) for k, v in PARTIAL.items()]:
     old = [p for p in (FIX / 'r36' / 'checks' / ('CHECK-%s.txt' % key)).read_text(encoding='utf-8').split('\n\n')]
     new = [p for p in (M / where / ('%s.txt' % key)).read_text(encoding='utf-8').split('\n\n')]
     if len(old) == len(new):
@@ -75,6 +94,8 @@ for key, (where, link, his) in DONE.items():
         j = next(i for i in range(len(new)) if old[i] != new[i])
         pairs = [(j, old[j], new[j]), (j + 1, old[j + 1], None)] + [
             (i + 1, o, n) for i, (o, n) in enumerate(zip(old[j + 2:], new[j + 1:]), start=j + 1) if o != n]
+    if key in PARTIAL:
+        pairs = [x for x in pairs if x[0] in PARTIAL[key][2]]
     for i, o, n in pairs:
         live, idx = live_of(o)
         before = cur(live)[idx]

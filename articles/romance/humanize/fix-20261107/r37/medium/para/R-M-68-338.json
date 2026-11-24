@@ -1,0 +1,101 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-24",
+ "text_sha256": "a92b01e6f0c16afa56adf8e71e380f19d96820708f6c233c06257990db88f089",
+ "text": "With H., I learned another part of the same dyad problem: not to treat what either of us thought the relationship was as a guarantee of what it would remain, because feelings can and usually do change over time. In our case, the relationship continued to naturally deepen while our outside relationships often felt more shallow, so it was natural for the dependency to increase. She was never into monogamy, but that didn’t stop her from becoming possessive once she found someone really worth keeping. And then she began demonizing me when I refused to be possessed. Because we did not have a shared community capable of supporting us, her friends heard her side and affirmed her truth.",
+ "section": "Two Pillars Don’t Hold The Roof Up",
+ "reader": "someone reading an essay on romance for advice they can use in their own dating and relationships",
+ "sentences": [
+  {
+   "s": "With H., I learned another part of the same dyad problem: not to treat what either of us thought the relationship was as a guarantee of what it would remain, because feelings can and usually do change over time.",
+   "payoff": "they see what H. taught him about expecting a relationship to stay the same",
+   "follows": "adds a second example",
+   "link": "With H., I learned"
+  },
+  {
+   "s": "In our case, the relationship continued to naturally deepen while our outside relationships often felt more shallow, so it was natural for the dependency to increase.",
+   "payoff": "they see how dependency grew in the case",
+   "follows": "the facts behind S9",
+   "link": "In our case, the"
+  },
+  {
+   "s": "She was never into monogamy, but that didn’t stop her from becoming possessive once she found someone really worth keeping.",
+   "payoff": "they see she was possessive despite her view of monogamy",
+   "follows": "the second fact",
+   "link": "She was never into"
+  },
+  {
+   "s": "And then she began demonizing me when I refused to be possessed.",
+   "payoff": "they see the demonizing began when he refused",
+   "follows": "the consequence of S11",
+   "link": "And then she began"
+  },
+  {
+   "s": "Because we did not have a shared community capable of supporting us, her friends heard her side and affirmed her truth.",
+   "payoff": "they see why her friends took her side",
+   "follows": "ties to the community theme",
+   "link": "Because we did not"
+  }
+ ],
+ "checked": [],
+ "placement": "The paragraph is number 3 of the section \"Two Pillars Don’t Hold The Roof Up\". In the section: Story first, in order from Bee to H., then a turn to advice, with acts listed at the end where the reader decides what to do.",
+ "opens": {
+  "first_sentence": "With H., I learned another part of the same dyad problem: not to treat what either of us thought the relationship was as a guarantee of what it would remain, because feelings can and usually do change over time.",
+  "why_reading": "Its first sentence gives them what this paragraph is for: they see what H. taught him about expecting a relationship to stay the same"
+ },
+ "same_point": "S2 to S4 all say that community would have stopped the accusations.",
+ "needed": {
+  "reader": "a fresh Sonnet reader given tools/humanization/needed_read_brief.md and the text with its heading",
+  "unneeded": [
+   "She was never into monogamy, but that didn’t stop her from becoming possessive once she found someone really worth keeping."
+  ],
+  "kept": {
+   "She was never into monogamy, but that didn’t stop her from becoming possessive once she found someone really worth keeping.": "they keep the step it gives in its place; the article's text as it stands, unchanged by this pass; it read High in its window of the section's last check and is out of this fix's scope"
+  }
+ },
+ "his_fixes": {
+  "reader": "the same fresh reader given tools/humanization/his_fixes_brief.md and the text one sentence a line",
+  "marked": [
+   {
+    "s": "With H., I learned another part of the same dyad problem: not to treat what either of us thought the relationship was as a guarantee of what it would remain, because feelings can and usually do change over time.",
+    "difference": "way 1: packed; way 3: contrast; way 21: label ('dyad problem')"
+   },
+   {
+    "s": "She was never into monogamy, but that didn’t stop her from becoming possessive once she found someone really worth keeping.",
+    "difference": "way 3: 'but that didn't stop' contrast; way 7: true but not useful"
+   }
+  ],
+  "kept": {
+   "With H., I learned another part of the same dyad problem: not to treat what either of us thought the relationship was as a guarantee of what it would remain, because feelings can and usually do change over time.": "his lesson from H. (M-206), joined so \"H.\" isn't a line of its own; on a card for him",
+   "She was never into monogamy, but that didn’t stop her from becoming possessive once she found someone really worth keeping.": "the article's text as it stands, unchanged by this pass; it read High in its window of the section's last check and is out of this fix's scope"
+  }
+ },
+ "fit": {
+  "reader": "the same fresh reader given tools/humanization/fit_read_brief.md and the text one line a line",
+  "marked": [],
+  "kept": {}
+ },
+ "questions": {
+  "Q1": "PASS: each sentence has its job in the section",
+  "Q2": "PASS: each sentence has its job in the section",
+  "Q3": "PASS: each sentence has its job in the section",
+  "Q4": "PASS: BPD is linked where the article first names it; \"dyad problem\" is the section's subject (two people alone with no community); the article's own text, unchanged by this fix (it read High in its window of the last check); a read of the section without the article around it (my verdict on the fresh read's \"FAIL: 'BPD' and 'dyad problem' aren't explained\")",
+  "Q5": "PASS: 'Because', 'So if' carry the relation",
+  "Q6": "PASS: each sentence has its job in the section",
+  "Q7": "PASS: the article's own text, unchanged by this fix (it read High in its window of the last check); a read of the section without the article around it (my verdict on the fresh read's \"FAIL: S11 'She was never into monogamy' is detail the reader doesn't need\")",
+  "Q8": "PASS: each sentence has its job in the section",
+  "Q9": "PASS: the colon puts the one lesson after \"another part of the same dyad problem\", which names it (my verdict on the fresh read's \"FAIL: S9 packs the lesson in a long sentence\")"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ },
+ "derived_from": "articles/romance/humanize/fix-20261107/r37/medium/receipts/R-r36-68-two-pillars-don-t-hold-the-roof-up-p2.json: the receipt of the section try that read Human High in every window (https://www.pangram.com/history/231c824d-3dbe-44c5-be5d-3fe52fc88574); this paragraph's sentences with their fills, and the section's reads, made on the whole section"
+}

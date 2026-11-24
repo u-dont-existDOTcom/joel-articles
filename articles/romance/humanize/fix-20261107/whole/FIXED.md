@@ -290,9 +290,9 @@ I saw all that and thought anyone with that much spiritual depth and curiosity m
 
 We see what we want to see. Their meditations may have helped them a lot, but I still had no idea how either woman would act when a relationship got ugly. If somebody starts with enough trauma, huge progress can still leave a lot unresolved.
 
-My own blind spot is that I have trouble understanding where people are at mentally and emotionally. A partner may agree with everything I say and then tell me later, “Didn’t you understand I was FAWNING?”
+On my side, the blind spot is that I have trouble understanding where people are at mentally and emotionally. A partner may agree with everything I say and then tell me later, “Didn’t you understand I was FAWNING?”
 
-No, I really didn’t. If you’re fawning, tell me when you can, because I can’t know what’s happening in your head just because it feels obvious to you.
+No, I really didn’t. If you’re fawning, tell me when you can, because I can’t know what’s happening in your head just from how obvious it feels to you.
 
 ## Things get tricky fast
 
@@ -416,9 +416,9 @@ Being in a relationship showed me how vulnerable I actually am when I open my he
 
 ### From flow to nitty gritty
 
-Living alone is easy in so many ways. I can make my bed whenever I want. When I have a girlfriend, making the bed in the morning can become one of the ways I show her I love her. If I don’t do it well, somehow it may become a bad omen that I don’t care about her, which is a lot of emotional weight for a bed.
+Living alone is easy in so many ways, like I can make my bed whenever I want. When I have a girlfriend, making the bed in the morning can become one of the ways I show her I love her. If I don’t do it well, somehow it may become a bad omen that I don’t care about her, which is a lot of emotional weight for a bed.
 
-Dealing with somebody else’s emotional insecurities can also be exhausting. It’s easy to feel free when I don’t have to do that, especially since I’m a bit of an introvert and 10% autistic. All that works wonderfully until I’m in a romantic relationship and suddenly I’m expected to mind-read, silences included, and check in constantly, without manipulating based on all that expert “management.”
+Dealing with somebody else’s emotional insecurities can also be exhausting. It’s easy to feel free when I don’t have to do that, especially since I’m a bit of an introvert and 10% autistic. All that works wonderfully until I’m in a romantic relationship and suddenly I’m expected to read her mind, even her silences, and check in constantly, without manipulating her with all that expert “management.”
 
 <!-- IMAGE https://substackcdn.com/image/fetch/$s_!ccfu!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F869227b2-15fa-4f6a-a0df-d3830188e79c_1448x1086.png : a picture in the post -->
 

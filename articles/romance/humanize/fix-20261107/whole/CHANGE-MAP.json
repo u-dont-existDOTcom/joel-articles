@@ -2277,6 +2277,38 @@
  },
  {
   "n": 135,
+  "check": "my tested change R37-28-p3 (MINE-R37.json)",
+  "section": "My flaws",
+  "result": "https://www.pangram.com/history/bd788843-ff5f-417c-9242-5aeee7123f33",
+  "live_paragraphs": [
+   136
+  ],
+  "live": [
+   "My own blind spot is that I have trouble understanding where people are at mentally and emotionally. A partner may agree with everything I say and then tell me later, “Didn’t you understand I was FAWNING?”"
+  ],
+  "new": [
+   "On my side, the blind spot is that I have trouble understanding where people are at mentally and emotionally. A partner may agree with everything I say and then tell me later, “Didn’t you understand I was FAWNING?”"
+  ],
+  "before_in_fixed": "My own blind spot is that I have trouble understanding where people are at mentally and emotionally. A partner may agree with everything I say and then tell me later, “Didn’t you understand I was FAWNING?”"
+ },
+ {
+  "n": 136,
+  "check": "my tested change R37-28-p4 (MINE-R37.json)",
+  "section": "My flaws",
+  "result": "https://www.pangram.com/history/bd788843-ff5f-417c-9242-5aeee7123f33",
+  "live_paragraphs": [
+   137
+  ],
+  "live": [
+   "No, I really didn’t. If you’re fawning, tell me when you can, because I can’t know what’s happening in your head just because it feels obvious to you."
+  ],
+  "new": [
+   "No, I really didn’t. If you’re fawning, tell me when you can, because I can’t know what’s happening in your head just from how obvious it feels to you."
+  ],
+  "before_in_fixed": "No, I really didn’t. If you’re fawning, tell me when you can, because I can’t know what’s happening in your head just because it feels obvious to you."
+ },
+ {
+  "n": 137,
   "check": "my tested change R37-30-p4 (MINE-R37.json)",
   "section": "Beware idealization in either direction",
   "result": "https://www.pangram.com/history/00f004a8-9c64-4a96-9276-3d2458624496",
@@ -2292,7 +2324,7 @@
   "before_in_fixed": "Legitimately seeing someone as amazing doesn’t depend on what the seeing gives you. You’re already lost in the sauce once you start identifying with the way you see them, like she’s perfect, this is destiny, I’m the one who finally found her."
  },
  {
-  "n": 136,
+  "n": 138,
   "check": "my tested change R37-35-p2 (MINE-R37.json)",
   "section": "If slow isn’t realistic for you",
   "result": "https://www.pangram.com/history/1867a533-baa4-4926-af33-d26bf54676fb",
@@ -2308,7 +2340,7 @@
   "before_in_fixed": "So my main strategy has been to avoid heat-of-the-moment situations until I’m ready. That has definitely saved me from having ten times the body count, but it doesn’t work reliably because the request often starts out small. “Hey, wanna go do something together?” Maybe she wants me to come to an event, a meditation teaching, or a walk in nature."
  },
  {
-  "n": 137,
+  "n": 139,
   "check": "my tested change R37-41-p1 (MINE-R37.json)",
   "section": "The Relationship As Crucible",
   "result": "https://www.pangram.com/history/cb39187a-38cb-431c-a1ed-1af24036df11",
@@ -2324,7 +2356,7 @@
   "before_in_fixed": "It was during my first marriage that I read about Dr. David Schnarch’s Crucible Approach in Passionate Marriage. Schnarch saw marriage as a natural “people-growing process.” His idea of differentiation was learning to hold onto yourself while staying close, especially when intimacy brings anxiety and unresolved problems to the surface."
  },
  {
-  "n": 138,
+  "n": 140,
   "check": "my tested change R37-41-p2 (MINE-R37.json)",
   "section": "The Relationship As Crucible",
   "result": "https://www.pangram.com/history/cb39187a-38cb-431c-a1ed-1af24036df11",
@@ -2338,7 +2370,7 @@
   "before_in_fixed": "That’s definitely what relationship has done to me."
  },
  {
-  "n": 139,
+  "n": 141,
   "check": "my tested change R37-41-p3 (MINE-R37.json)",
   "section": "The Relationship As Crucible",
   "result": "https://www.pangram.com/history/cb39187a-38cb-431c-a1ed-1af24036df11",
@@ -2354,7 +2386,7 @@
   "before_in_fixed": "One warning before I romanticize the crucible too much: sometimes (as in my first marriage) this isn’t two wounded people triggering each other but one person terrorizing or controlling the other. If you’re scared to say no or tell the truth, or scared of what happens if you leave, don’t treat that as a mutual communication exercise—get other people involved and think about safety first."
  },
  {
-  "n": 140,
+  "n": 142,
   "check": "my tested change R37-41-p4 (MINE-R37.json)",
   "section": "The Relationship As Crucible",
   "result": "https://www.pangram.com/history/cb39187a-38cb-431c-a1ed-1af24036df11",
@@ -2370,7 +2402,7 @@
   "before_in_fixed": "Toft sees the crucible of his marriage as his main spiritual practice. He also continues his meditation, yoga, prayer, and church activities, but sees them as secondary. I understand what he means. It’s much easier for me to feel spiritually advanced when nobody is close enough to expose the parts of me that aren’t."
  },
  {
-  "n": 141,
+  "n": 143,
   "check": "my tested change R37-49-p1 (MINE-R37.json)",
   "section": "Some babies grow up faster",
   "result": "https://www.pangram.com/history/892aceae-c811-45d4-9d4b-d915b0a6e7ca",
@@ -2386,7 +2418,7 @@
   "before_in_fixed": "“I’m sad. What should I do?”"
  },
  {
-  "n": 142,
+  "n": 144,
   "check": "my tested change R37-68-p5 (MINE-R37.json)",
   "section": "Two Pillars Don’t Hold The Roof Up",
   "result": "https://www.pangram.com/history/231c824d-3dbe-44c5-be5d-3fe52fc88574",
@@ -2402,7 +2434,7 @@
   "before_in_fixed": "Make as much community as you can wherever you are. Go to Meetups together. Make deep friendships together. Find some shared purpose beyond maintaining the relationship. Introduce your old friends to your partner and try to mutualize those friendships as much as possible, so they aren’t experienced as slyly antagonistic or partial to one side. You don’t need to spend all your time together, but two completely separate social worlds will automatically start taking sides when something goes wrong."
  },
  {
-  "n": 143,
+  "n": 145,
   "check": "my tested change R37-71-p2 (MINE-R37.json)",
   "section": "Which marriage vows are honest?",
   "result": "https://www.pangram.com/history/0be19217-8018-41f2-bd98-6d20fc089ac8",
@@ -2418,7 +2450,7 @@
   "before_in_fixed": "We also find something like my warning in the New & Old Testaments. Ecclesiastes 5:4–6 says it is better not to make a vow than to make one and fail to keep it. If you tell the priest you didn’t mean what you promised, the passage warns that God will be angry and destroy your work."
  },
  {
-  "n": 144,
+  "n": 146,
   "check": "my tested change R37-77-p1 (MINE-R37.json)",
   "section": "Imagination as a discernment tool",
   "result": "https://www.pangram.com/history/b0977a4a-7599-4289-ab03-9322ea1d97a7",
@@ -2434,7 +2466,7 @@
   "before_in_fixed": "Rewind. What if we disagree on having kids?"
  },
  {
-  "n": 145,
+  "n": 147,
   "check": "my tested change R37-77-p2 (MINE-R37.json)",
   "section": "Imagination as a discernment tool",
   "result": "https://www.pangram.com/history/b0977a4a-7599-4289-ab03-9322ea1d97a7",
@@ -2450,7 +2482,7 @@
   "before_in_fixed": "Fast forward five years. What has each of us gained or given up, and do we have any resentment about it?"
  },
  {
-  "n": 146,
+  "n": 148,
   "check": "my tested change R37-77-p5 (MINE-R37.json)",
   "section": "Imagination as a discernment tool",
   "result": "https://www.pangram.com/history/b0977a4a-7599-4289-ab03-9322ea1d97a7",
@@ -2466,7 +2498,7 @@
   "before_in_fixed": "Psychedelics can make this same problem of idealization much stronger."
  },
  {
-  "n": 147,
+  "n": 149,
   "check": "my tested change R37-81-p1 (MINE-R37.json)",
   "section": "Why all of this sounds artificial",
   "result": "https://www.pangram.com/history/ea848794-d8b1-456d-84a3-56fab928d798",
@@ -2482,7 +2514,7 @@
   "before_in_fixed": "By now this probably sounds terribly artificial. Is anyone actually going to do scheduled check-ins, delayed cohabitation, conversations about hypothetical disasters, imagination exercises, not to mention resisting the heat-of-the-moment stuff and continuing your own reparenting practices when a warm body is available to do some of the soothing?"
  },
  {
-  "n": 148,
+  "n": 150,
   "check": "my tested change R37-81-p2 (MINE-R37.json)",
   "section": "Why all of this sounds artificial",
   "result": "https://www.pangram.com/history/ea848794-d8b1-456d-84a3-56fab928d798",
@@ -2498,7 +2530,7 @@
   "before_in_fixed": "Well, yeah. It is painfully artificial. In a healthy communal society, the couple would have access to witnesses, elders, friends, and other emotional outlets and resources. Most of us these days don’t have that, so we’re trying to recreate consciously and clumsily some of what the wider field would have done without a checklist."
  },
  {
-  "n": 149,
+  "n": 151,
   "check": "my tested change R37-83-p3 (MINE-R37.json)",
   "section": "If you’re already in it",
   "result": "https://www.pangram.com/history/862385ed-24c1-44dd-aa3f-865e4b685b0a",
@@ -2514,7 +2546,7 @@
   "before_in_fixed": "This is the time for agape to shine, because the best thing for both of you may not be holding onto the relationship pattern you originally committed to or dreamt of."
  },
  {
-  "n": 150,
+  "n": 152,
   "check": "my tested change R37-83-p4 (MINE-R37.json)",
   "section": "If you’re already in it",
   "result": "https://www.pangram.com/history/862385ed-24c1-44dd-aa3f-865e4b685b0a",
@@ -2530,7 +2562,7 @@
   "before_in_fixed": "When did you two last dance? And not the “we dance around our problems” joke (LOL).. If that’s where things are at, the trust is out the window. Ouch. I know that one from experience with my first 2 wives and K, too. That generally marks the point of no return, so try not to wait for that. Because once you’re there, as my dad explained a thousand times whenever we had a visitor, unconscious resentment begins to snowball, and we feel colder together than alone. Pretty soon, old Romeo & Juliette might get wandering eye syndrome."
  },
  {
-  "n": 151,
+  "n": 153,
   "check": "my tested change R37-20-p2 (MINE-R37.json)",
   "section": "Dating App Horror Show",
   "result": "https://www.pangram.com/history/7f97aa81-692d-4e92-bda4-d7325dc40908",
@@ -2546,7 +2578,7 @@
   "before_in_fixed": "I always tell young guys especially: don’t worry about not finding a girl. Worry about finding the wrong girl. Girls are usually more selective, but they still need to think twice, because they often go for guys who aren’t respectful or mature."
  },
  {
-  "n": 152,
+  "n": 154,
   "check": "my tested change R37-20-p3 (MINE-R37.json)",
   "section": "Dating App Horror Show",
   "result": "https://www.pangram.com/history/7f97aa81-692d-4e92-bda4-d7325dc40908",
@@ -2562,7 +2594,7 @@
   "before_in_fixed": "I’m almost embarrassed to admit, but I recently tried Hinge again for a few days while I was in Kenya after my last breakup. I was getting something like a hundred girls interested in my profile every day, so I looked through a lot of profiles. Some were cute but none seemed deep. So the app did tell me something useful."
  },
  {
-  "n": 153,
+  "n": 155,
   "check": "my tested change R37-56-p4 (MINE-R37.json)",
   "section": "Muses & Directors",
   "result": "https://www.pangram.com/history/93a6dff5-998a-493c-b5e5-8636e2584adf",
@@ -2576,5 +2608,37 @@
    "I don’t think equality means dividing every role 50/50, so if I like driving and for her it’s cooking, great. If she’s way better at something, she’ll probably do more of it. Even when I’m the one leading, I still want to know what she sees, or as the Zapatistas say, Mandar obedeciendo—Lead by following."
   ],
   "before_in_fixed": "I don’t think equality means dividing every role 50/50. If I like driving and she likes cooking, great. If she’s way better at something, she’ll probably do more of it. When I’m leading, I still want to know what she sees. Mandar obedeciendo—Lead by following—as the Zapatistas say."
+ },
+ {
+  "n": 156,
+  "check": "my tested change R37-42-p1 (MINE-R37.json)",
+  "section": "From flow to nitty gritty",
+  "result": "https://www.pangram.com/history/f38b40b6-a828-4341-b2d1-4f125588379e",
+  "live_paragraphs": [
+   199
+  ],
+  "live": [
+   "Living alone is easy in so many ways. I can make my bed whenever I want. When I have a girlfriend, making the bed in the morning can become one of the ways I show her I love her. If I don’t do it well, somehow it may become a bad omen that I don’t care about her."
+  ],
+  "new": [
+   "Living alone is easy in so many ways, like I can make my bed whenever I want. When I have a girlfriend, making the bed in the morning can become one of the ways I show her I love her. If I don’t do it well, somehow it may become a bad omen that I don’t care about her, which is a lot of emotional weight for a bed."
+  ],
+  "before_in_fixed": "Living alone is easy in so many ways. I can make my bed whenever I want. When I have a girlfriend, making the bed in the morning can become one of the ways I show her I love her. If I don’t do it well, somehow it may become a bad omen that I don’t care about her, which is a lot of emotional weight for a bed."
+ },
+ {
+  "n": 157,
+  "check": "my tested change R37-42-p2 (MINE-R37.json)",
+  "section": "From flow to nitty gritty",
+  "result": "https://www.pangram.com/history/f38b40b6-a828-4341-b2d1-4f125588379e",
+  "live_paragraphs": [
+   199
+  ],
+  "live": [
+   "Living alone is easy in so many ways. I can make my bed whenever I want. When I have a girlfriend, making the bed in the morning can become one of the ways I show her I love her. If I don’t do it well, somehow it may become a bad omen that I don’t care about her."
+  ],
+  "new": [
+   "Dealing with somebody else’s emotional insecurities can also be exhausting. It’s easy to feel free when I don’t have to do that, especially since I’m a bit of an introvert and 10% autistic. All that works wonderfully until I’m in a romantic relationship and suddenly I’m expected to read her mind, even her silences, and check in constantly, without manipulating her with all that expert “management.”"
+  ],
+  "before_in_fixed": "Dealing with somebody else’s emotional insecurities can also be exhausting. It’s easy to feel free when I don’t have to do that, especially since I’m a bit of an introvert and 10% autistic. All that works wonderfully until I’m in a romantic relationship and suddenly I’m expected to mind-read, silences included, and check in constantly, without manipulating based on all that expert “management.”"
  }
 ]

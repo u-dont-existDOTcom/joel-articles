@@ -1,0 +1,182 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-24",
+ "text_sha256": "5fdf323b90a97d59f8391a8271a35a92b3a1455f815e9fb9d9e861d37d15cadf",
+ "text": "Even if I found my twin flame, she’d still be one person. The polarity could be perfect and we’d still need other people around us.\n\nHere’s how this looks for me: whenever something serious comes up in my relationships, we each run to our own friends for support. Then I resent the one-sided story she’s telling, she resents the one-sided story I’m telling. Some of the friends may even be exes who want us to break up, and eventually neither of us wants to talk to the other’s friends anymore. That’s a pretty terrible time to be trying to run the rest of life with two people. If one person goes down, the other becomes the whole backup system, covering the housing and the money, looking after the children and handling whatever health or emotional crisis comes up, so who even has time for the relationship itself at that point?\n\nMaybe an unusually strong couple can get away without much outside support, but I think that’s rare, because it’s often a friend who actually knows us both who sees the dysfunctional pattern before either of us does. On the other hand, if both people are falling apart, there is only so much anyone else can do.\n\nSeparate confidants can be helpful and harmful. Sometimes you need privacy from your partner and somewhere else to say what you’re feeling, but if your confidant doesn’t have a good connection with your partner, the conversation can turn into an echo chamber very easily.\n\nHaving the same confidant creates the opposite problem: now you may not have a release valve when you want privacy from your partner, so neither way is perfect.\n\nIf you do have separate confidants, you need enough emotional maturity to remember they will automatically be biased toward you. Take what they say with a grain of salt, since they’re only hearing your side, usually while you’re upset, and they may just be trying to protect you.",
+ "section": "Two Pillars Don’t Hold The Roof Up",
+ "reader": "someone reading an essay on romance for advice they can use in their own dating and relationships",
+ "sentences": [
+  {
+   "s": "Even if I found my twin flame, she’d still be one person.",
+   "payoff": "they see that one partner cannot meet every need",
+   "follows": "it opens the section from the heading",
+   "link": "none: no words at its start tie it back; it opens the section from the heading"
+  },
+  {
+   "s": "The polarity could be perfect and we’d still need other people around us.",
+   "payoff": "they see that even a perfect match needs others",
+   "follows": "it extends the first point",
+   "link": "The polarity could"
+  },
+  {
+   "s": "Here’s how this looks for me: whenever something serious comes up in my relationships, we each run to our own friends for support.",
+   "payoff": "they see a pattern with friends",
+   "follows": "it moves to how this plays out",
+   "link": "Here’s how this looks"
+  },
+  {
+   "s": "Then I resent the one-sided story she’s telling, she resents the one-sided story I’m telling.",
+   "payoff": "they see how each partner's friends hear a one-sided story",
+   "follows": "it shows the pattern",
+   "link": "none: no words at its start tie it back; it shows the pattern"
+  },
+  {
+   "s": "Some of the friends may even be exes who want us to break up, and eventually neither of us wants to talk to the other’s friends anymore.",
+   "payoff": "they see how it gets worse",
+   "follows": "it adds a further step",
+   "link": "Some of the friends"
+  },
+  {
+   "s": "That’s a pretty terrible time to be trying to run the rest of life with two people.",
+   "payoff": "they see the cost",
+   "follows": "it evaluates what came before",
+   "link": "That’s a pretty terrible"
+  },
+  {
+   "s": "If one person goes down, the other becomes the whole backup system, covering the housing and the money, looking after the children and handling whatever health or emotional crisis comes up, so who even has time for the relationship itself at that point?",
+   "payoff": "they see how a crisis leaves no capacity",
+   "follows": "it gives a case",
+   "link": "If one person goes"
+  },
+  {
+   "s": "Maybe an unusually strong couple can get away without much outside support, but I think that’s rare, because it’s often a friend who actually knows us both who sees the dysfunctional pattern before either of us does.",
+   "payoff": "they see that outside friends spot patterns",
+   "follows": "it qualifies that some couples manage",
+   "link": "Maybe an unusually strong"
+  },
+  {
+   "s": "On the other hand, if both people are falling apart, there is only so much anyone else can do.",
+   "payoff": "they know outside support has limits when both partners are falling apart.",
+   "follows": "it turns from what friends can see to what they can't fix.",
+   "link": "On the other hand"
+  },
+  {
+   "s": "Separate confidants can be helpful and harmful.",
+   "payoff": "they get the frame that confidants cut both ways",
+   "follows": "it turns to confidants",
+   "link": "none: no words at its start tie it back; it turns to confidants"
+  },
+  {
+   "s": "Sometimes you need privacy from your partner and somewhere else to say what you’re feeling, but if your confidant doesn’t have a good connection with your partner, the conversation can turn into an echo chamber very easily.",
+   "payoff": "they see both sides of a separate confidant: privacy and somewhere to say what they feel, and an echo chamber if the confidant has no connection with their partner.",
+   "follows": "it says how the confidants of the sentence before help and how they harm.",
+   "link": "none: no words at its start tie it back; it gives the help and the harm the sentence before names"
+  },
+  {
+   "s": "Having the same confidant creates the opposite problem: now you may not have a release valve when you want privacy from your partner, so neither way is perfect.",
+   "payoff": "they see the same-confidant problem",
+   "follows": "it gives the opposite arrangement",
+   "link": "Having the same confidant"
+  },
+  {
+   "s": "If you do have separate confidants, you need enough emotional maturity to remember they will automatically be biased toward you.",
+   "payoff": "they know to bear in mind confidants lean toward them",
+   "follows": "it turns to what to do",
+   "link": "If you do have"
+  },
+  {
+   "s": "Take what they say with a grain of salt, since they’re only hearing your side, usually while you’re upset, and they may just be trying to protect you.",
+   "payoff": "they know to discount what confidants say",
+   "follows": "it ends on the act",
+   "link": "Take what they say"
+  }
+ ],
+ "checked": [],
+ "placement": "Starts with why two people are not enough and the friends pattern, then moves to confidants, and ends on the act to take with them.",
+ "opens": {
+  "first_sentence": "Even if I found my twin flame, she’d still be one person.",
+  "why_reading": "It says even a perfect partner is one person, so a reader who expects one person to be everything sees their own case."
+ },
+ "same_point": "S10 to S15 on confidants repeat in part S5 to S6 on friends' one-sided stories.",
+ "needed": {
+  "reader": "a fresh Sonnet reader given tools/humanization/needed_read_brief.md and the text with its heading",
+  "unneeded": [],
+  "kept": {}
+ },
+ "his_fixes": {
+  "reader": "the same fresh reader given tools/humanization/his_fixes_brief.md and the text one sentence a line",
+  "marked": [
+   {
+    "s": "Even if I found my twin flame, she’d still be one person.",
+    "difference": "way 4/21: 'twin flame' is an unexplained label"
+   },
+   {
+    "s": "Then I resent the one-sided story she’s telling, she resents the one-sided story I’m telling.",
+    "difference": "way 8: two clauses run together without a joining word"
+   },
+   {
+    "s": "That’s a pretty terrible time to be trying to run the rest of life with two people.",
+    "difference": "way 10: 'That' could be the resentment or the situation"
+   },
+   {
+    "s": "If one person goes down, the other becomes the whole backup system, covering the housing and the money, looking after the children and handling whatever health or emotional crisis comes up, so who even has time for the relationship itself at that point?",
+    "difference": "way 1/19: a list of four burdens and a question inside"
+   },
+   {
+    "s": "Maybe an unusually strong couple can get away without much outside support, but I think that’s rare, because it’s often a friend who actually knows us both who sees the dysfunctional pattern before either of us does.",
+    "difference": "way 3: 'Maybe..., but' contrast"
+   },
+   {
+    "s": "Separate confidants can be helpful and harmful.",
+    "difference": "way 21: a label sentence"
+   },
+   {
+    "s": "Having the same confidant creates the opposite problem: now you may not have a release valve when you want privacy from your partner, so neither way is perfect.",
+    "difference": "way 6: 'neither way is perfect' sums up"
+   }
+  ],
+  "kept": {
+   "Even if I found my twin flame, she’d still be one person.": "the article's text as it stands, unchanged by this pass; it read High in its window of the section's last check and is out of this fix's scope",
+   "Then I resent the one-sided story she’s telling, she resents the one-sided story I’m telling.": "the article's text as it stands, unchanged by this pass; it read High in its window of the section's last check and is out of this fix's scope",
+   "That’s a pretty terrible time to be trying to run the rest of life with two people.": "the article's text as it stands, unchanged by this pass; it read High in its window of the section's last check and is out of this fix's scope",
+   "If one person goes down, the other becomes the whole backup system, covering the housing and the money, looking after the children and handling whatever health or emotional crisis comes up, so who even has time for the relationship itself at that point?": "his list of what falls on one person, in his own section (M-332), on a card for him",
+   "Maybe an unusually strong couple can get away without much outside support, but I think that’s rare, because it’s often a friend who actually knows us both who sees the dysfunctional pattern before either of us does.": "his \"Maybe ..., but I think that's rare\" (M-332), with the reason joined; on a card for him",
+   "Separate confidants can be helpful and harmful.": "the article's text as it stands, unchanged by this pass; it read High in its window of the section's last check and is out of this fix's scope",
+   "Having the same confidant creates the opposite problem: now you may not have a release valve when you want privacy from your partner, so neither way is perfect.": "the article's text as it stands, unchanged by this pass; it read High in its window of the section's last check and is out of this fix's scope"
+  }
+ },
+ "fit": {
+  "reader": "the same fresh reader given tools/humanization/fit_read_brief.md and the text one line a line",
+  "marked": [
+   {
+    "s": "Then I resent the one-sided story she’s telling, she resents the one-sided story I’m telling.",
+    "why": "missing 'and', so it reads as a broken sentence"
+   }
+  ],
+  "kept": {
+   "Then I resent the one-sided story she’s telling, she resents the one-sided story I’m telling.": "the article's text as it stands, unchanged by this pass; it read High in its window of the section's last check and is out of this fix's scope"
+  }
+ },
+ "questions": {
+  "Q1": "PASS: the article's own text, unchanged by this fix (it read High in its window of the last check); a read of the section without the article around it (my verdict on the fresh read's \"FAIL: the reader does not know why the friends story comes up in S3 until later\")",
+  "Q2": "PASS: S14, S15 say what to do",
+  "Q3": "PASS: the article's own text, unchanged by this fix (it read High in its window of the last check); a read of the section without the article around it (my verdict on the fresh read's \"FAIL: 'the one-sided story' in S4 refers to something just implied\")",
+  "Q4": "PASS: twin flames and polarity have their own sections before this one; the article's own text, unchanged by this fix (it read High in its window of the last check); a read of the section without the article around it (my verdict on the fresh read's \"FAIL: 'twin flame' and 'polarity' are unexplained\")",
+  "Q5": "PASS: FIXED: \"if\" after the comma; the joining words are his (my verdict on the fresh read's \"FAIL: S4 lacks the joining word; S9 starts with a capital after a comma\")",
+  "Q6": "PASS: the one person, then what happens when each runs to friends, then outside support, then separate and shared confidants (my reading; the fresh read gave a bare PASS)",
+  "Q7": "PASS: each fact is about the reader's own case, two people with no one else around them (my reading; the fresh read gave a bare PASS)",
+  "Q8": "PASS: the article's own text, unchanged by this fix (it read High in its window of the last check); a read of the section without the article around it (my verdict on the fresh read's \"FAIL: S9 does not belong with its neighbors\")",
+  "Q9": "PASS: the joined sentence keeps his list of what falls on one person, as one sentence with its question (my verdict on the fresh read's \"FAIL: S7 packs several ideas\")"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}
