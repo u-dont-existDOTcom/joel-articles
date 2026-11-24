@@ -1,0 +1,105 @@
+{
+ "format": "joel-suggestion-review-answers-v1",
+ "review_id": "romance-t8",
+ "title": "Romance Advice I Wish My Parents Taught Me: the passages that didn’t quite make sense",
+ "git_file": "articles/romance/review/teach-20261124b/REVIEW-T8.html",
+ "article": {
+  "file": "articles/romance/humanize/fix-20261107/whole/FIXED.md",
+  "sha256": "7e302ab22f1fec7964364c74cf153d592923bbfde38e60e5b3499874d82dade2"
+ },
+ "built": "2026-11-24",
+ "generator": "suggestion_review.py 1.13 (2026-11-23)",
+ "exported_at": "2026-11-24T12:34:46.651Z",
+ "counts": {
+  "approved": 2,
+  "rejected": 0,
+  "revise": 0,
+  "pending": 3
+ },
+ "items": [
+  {
+   "id": "J-B54",
+   "type": "sense",
+   "title": "What “It depends” on",
+   "where": "Should you be in a relationship at all?, P1",
+   "advice": "approve",
+   "status": "pending",
+   "your_version": "",
+   "comment": "",
+   "my_version": "This is a horrible catch-22. Wounded people get lonely, and loneliness itself can kill. But the wounds that make somebody desperate for a relationship may also make them a terrible person to be in one with. People trigger each other and learn lessons, and sometimes they terrorize or kill each other.\n\nA good relationship can teach you self-love too, which is part of the problem: you may need one most when you’re least capable of creating a good one, recognizing one, or keeping it good. Whether you should be in one depends on what you and the other person are ready for and have the resources for. Here’s a video that can help understand the long process.",
+   "before": "This is a horrible catch-22. Wounded people get lonely, and loneliness itself can kill. But the wounds that make somebody desperate for a relationship may also make them a terrible person to be in one with. People don’t only trigger each other and learn lessons. Sometimes they terrorize or kill each other.\n\nA good relationship can teach you self-love too, which is part of the problem: you may need one most when you’re least capable of creating a good one, recognizing one, or keeping it good. It depends what each of you are ready for and have the resources for. Here’s a video that can help understand the long process.",
+   "history": [],
+   "updated": ""
+  },
+  {
+   "id": "J-B217",
+   "type": "sense",
+   "title": "“The seed of its own destruction”",
+   "where": "Don’t make your partner your whole world, P2",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "Part of why that little paradise feels like a magical wonderland is that you can suddenly stop parenting yourself now that you have someone who’s fully got your back. This makes you soft and weak, kinda like a sweet treat or heroin. It is wonderful to have their love and support, but don’t let that bring you away from your own self-love, reparenting, meditation, yoga, and other healing practices that keep you independently healthy. Otherwise, you’ll end up blaming them when you feel bad.",
+   "before": "That little paradise is wonderful, but it contains the seed of its own destruction. Part of why it feels like a magical wonderland is that you can suddenly stop parenting yourself now that you have someone who’s fully got your back. This makes you soft and weak, kinda like a sweet treat or heroin. It is wonderful to have their love and support, but don’t let that bring you away from your own self-love, reparenting, meditation, yoga, and other healing practices that keep you independently healthy. Otherwise, you’ll end up blaming them when you feel bad.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-24T11:23:40.711Z"
+    }
+   ],
+   "updated": "2026-11-24T11:23:40.713Z"
+  },
+  {
+   "id": "J-B255",
+   "type": "sense",
+   "title": "“Where I wasn’t seeing people”",
+   "where": "Different levels in different domains can be complementary, P6",
+   "advice": "approve",
+   "status": "approved",
+   "your_version": "",
+   "comment": "",
+   "my_version": "I could teach these women about loving and reparenting their inner child, Buddhism, meditation, and other things I understood better. They could pull me into life more, show me where I wasn’t seeing people, and sometimes be the skeptic when I was seeing the best in someone and missing their hidden motives.",
+   "before": "I could teach these women about loving and reparenting their inner child, Buddhism, meditation, and other things I understood better. They could pull me into life more, show me where I was missing people, and sometimes be the skeptic when I was seeing the best in someone and missing their hidden motives.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "approved",
+     "at": "2026-11-24T11:23:50.336Z"
+    }
+   ],
+   "updated": "2026-11-24T11:23:50.336Z"
+  },
+  {
+   "id": "Q-B476",
+   "type": "meaning",
+   "title": "A relationship like what?",
+   "where": "Tough Love, P2",
+   "advice": "ask",
+   "status": "answered",
+   "question": "“Tough Love” opens its second paragraph: “A relationship like this is rare, and that’s probably why romantic love has been seen with suspicion as a destabilizing force throughout history.” A reader couldn’t tell what “like this” points back to, since the paragraph before is about love not being marketable. What kind of relationship do you mean? My guess: a romance that actually works. If that is it, it could say “A romance that actually works is rare”, and I’ll test it in its section.",
+   "your_version": "",
+   "comment": "yes, i mean a passionate romantic relationship that's also stable",
+   "my_version": "",
+   "before": "",
+   "history": [],
+   "updated": "2026-11-24T11:30:53.126Z"
+  },
+  {
+   "id": "Q-B478",
+   "type": "meaning",
+   "title": "Reminiscent of Somé how?",
+   "where": "Tough Love, P4",
+   "advice": "ask",
+   "status": "answered",
+   "question": "“Also reminiscent of Somé, they also wore rose-colored glasses and taught me that everybody was basically good.” A reader couldn’t see what in Somé this recalls: the section says her people distrust romance and that the relationship is bigger than the egos in it, not that she saw everybody as good. What is the link? If you don’t need it, it could say “They also wore rose-colored glasses and taught me that everybody was basically good.”",
+   "your_version": "",
+   "comment": "because Somé saw the universe as good, saw everyone as naturally good when in their natural environment/flowing with life the way our ancestors showed us. so both my parents and Somé were like that, trusting the universe",
+   "my_version": "",
+   "before": "",
+   "history": [],
+   "updated": "2026-11-24T12:34:30.481Z"
+  }
+ ]
+}
