@@ -523,7 +523,9 @@ def open_work(ledger, since):
             continue
         last = results[done[-1]['id']]
         ws = [w for w in last.get('windows') or [] if isinstance(w, dict)]
-        if ws and all(w.get('label') == 'Human' and w.get('confidence') == 'High' for w in ws):
+        # a window's label is "Human" from the web app's reader and "Human Written" from the API (pangram_api.py), as the
+        # ledger's own checks allow (startswith); turn 63's two High checks through the API were counted open
+        if ws and all(str(w.get('label') or '').startswith('Human') and w.get('confidence') == 'High' for w in ws):
             continue
         shown = '%s (%s)' % (last.get('headline') or last.get('verdict'),
                              ', '.join('%s %s' % (w.get('label'), w.get('confidence')) for w in ws))

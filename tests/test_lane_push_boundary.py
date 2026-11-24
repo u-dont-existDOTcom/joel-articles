@@ -58,6 +58,21 @@ class OpenWork(unittest.TestCase):
         left = P.open_work(ledger(self.RECS[2:]), '2026-11-13T14:56Z')
         self.assertEqual(left, [])
 
+    def test_the_apis_human_written_label_counts_as_human(self):
+        # turn 63 (2026-11-24): both checks read "Human Written, High" through the API, one window each, and the gate
+        # counted them open, since it compared the label with "Human" exactly
+        recs = [
+            {'type': 'prediction', 'id': 'api#1', 'lineage': 'api', 'at': '2026-11-24T01:45:00Z'},
+            {'type': 'result', 'prediction': 'api#1', 'headline': 'Human Written',
+             'windows': [{'label': 'Human Written', 'confidence': 'High', 'words': 270}]},
+            {'type': 'prediction', 'id': 'med#1', 'lineage': 'med', 'at': '2026-11-24T01:45:01Z'},
+            {'type': 'result', 'prediction': 'med#1', 'headline': 'Human Written',
+             'windows': [{'label': 'Human Written', 'confidence': 'High', 'words': 125},
+                         {'label': 'Human Written', 'confidence': 'Medium', 'words': 22}]},
+        ]
+        left = P.open_work(ledger(recs), '2026-11-24T01:26Z')
+        self.assertEqual([(l, n) for l, n, _ in left], [('med', 1)])
+
     def test_the_push_names_a_boundary(self):
         a = P.parser().parse_args(['subject', '--article', 'none-such', '--mailbox', '2026-11-13T14:56Z'])
         P.boundary_gate(a)   # no ledger for the article: nothing to say

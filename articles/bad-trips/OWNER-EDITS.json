@@ -1890,7 +1890,7 @@
   {
    "id": "r51-answers",
    "status": "applied",
-   "what": "his round-51 answers in the guide, each as it read Human through the API on his laptop (humanize/h70-20261123/RESULTS.md): step 6 (salty potato chips, potassium only in food, high potassium and vomiting, magnesium on the skin, Epsom salt is magnesium sulfate, step 8's magnesium moved here), step 8 (DMSO first, niacin, the oil as a last resort set apart from the brew), his MDMA paragraph (no dancing, why plain water lowers sodium, how much salt) (review/r51/apply_r51.py)",
+   "what": "his round-51 answers in the guide, each as it read Human through the API on his laptop (humanize/h70-20261123/RESULTS.md): step 6 (salty potato chips, potassium only in food, high potassium and vomiting, magnesium on the skin, Epsom salt is magnesium sulfate, step 8's magnesium moved here), step 8 (DMSO first, niacin, the oil as a last resort set apart from the brew), his MDMA paragraph (no dancing, why plain water lowers sodium, how much salt) (review/r51/apply_r51.py) | 2026-11-24 01:25 UTC: his DANCE-ENERGY answer on round 52 (\"Real MDMA ... is NOT the kind of mdma that people want to dance on\"): the line moved to the paragraph after (R52-DANCE), without \"it's natural to want to dance on MDMA\" (r52-answers) | 2026-11-24 01:25 UTC: the same why in fewer words, its window having read Medium (r52-answers; AGENTS.md: a Medium window is work to do)",
    "joel": "2026-11-23 23:35 UTC: his round-51 export (articles/bad-trips/review/r51/ANSWERS-R51-20261123-2335.json), MDMA-SODIUM, SS-OIL and QUIZ-3",
    "applied_by": "review/r51/apply_r51.py",
    "must_contain_exact": [
@@ -1899,8 +1899,8 @@
     "Magnesium chloride tastes too bad for most people to drink, but the skin absorbs it",
     "The oil isn't the Syrian rue brew from step 1, which blocks MAO",
     "if nothing else is helping and no medics are coming",
-    "While it's natural to want to dance on MDMA, I'd tell everyone not to dance at all",
-    "Plain water is the risk because MDMA makes the body hold on to water",
+    "I'd tell everyone not to dance on MDMA at all",
+    "Plain water is the risk because the drug keeps them from peeing out the extra",
     "three or four bouillon cubes in half a cup of water"
    ],
    "must_not_contain": [
@@ -1910,6 +1910,28 @@
     "Low sodium seems to hit women hardest",
     "feel bloated but not thirsty",
     "almost none of the harmala alkaloids"
+   ]
+  },
+  {
+   "id": "r52-answers",
+   "status": "applied",
+   "what": "his round-52 answers in the guide, each as it read through the API on his laptop (humanize/h71-20261124/RESULTS.md): his MDMA paragraph (B119) with his sentence that women are most at risk and what it rests on; the paragraph after it (R52-DANCE): no dancing on MDMA, San Pedro or mescaline for dancing, real MDMA as couch lock, a pill that makes someone feel like dancing as one he suspects, and the lab study his WOMEN-RISK answer asked to note, with the other way the lab differed (review/r52/apply_r52.py)",
+   "joel": "2026-11-24 01:25 UTC: his round-52 export (articles/bad-trips/review/r52/ANSWERS-R52-20261124-0126.json), WOMEN-RISK and DANCE-ENERGY",
+   "applied_by": "review/r52/apply_r52.py",
+   "must_contain_exact": [
+    "Women are most at risk of this, based on the results we have",
+    "sodium was mildly low in 1 in 4 of the women on ecstasy vs only 3% of the men",
+    "with women at four times the odds",
+    "San Pedro cactus or mescaline, which is way way safer, and still very therapeutic",
+    "isn't the kind people want to dance on",
+    "I NEED TO DANCE!",
+    "It's not like \"I don't feel like dancing\", it's like \"I can barely move\", couch lock",
+    "I'm highly suspicious that it contains amphetamines",
+    "a lab study that gave people pure MDMA and water found no difference between them",
+    "the lab dosed everyone by their weight, and at a festival a small woman takes the same pill as a big guy"
+   ],
+   "must_not_contain": [
+    "While it's natural to want to dance on MDMA"
    ]
   }
  ]
