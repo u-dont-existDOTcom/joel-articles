@@ -44,6 +44,14 @@ can read and update it. Every file it points to is a link.
 - 🟢 **Every contradiction has its answer**: the check passes with nothing waiting on you
   ([what became of each](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261108/coherence/x1124a/CHECK.md)). The comparison read and the fidelity check pass
   ([the read](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261108/x1124b/read-1124b/READER.md)).
+- 🟢 **The lessons from your two fixes of 18:40 UTC, a turn late, with their blind test**
+  ([the lessons](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/docs/lessons/2026-11-24-1847-neuro.md), [the test](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261108/x1124b/replay/RESULTS.md)).
+  A fresh writer that never saw your versions rewrote my last tries from the lessons alone, and neither read Human
+  High: [100% AI, one window, High](https://www.pangram.com/history/b542fab2-ca5c-4288-a6be-b4525bfd9af3) and
+  [78.6% AI: AI Medium, AI High, Human Low](https://www.pangram.com/history/b14e73e9-e7e9-4c52-a25c-b689225415b8). It
+  made your moves of order (the stance joined to its reason, the warning beside the numbness) but applied the other
+  rules everywhere: a gloss on every name where you wrote one word, "herbs", and "I'd" opening every sentence where
+  your stance comes once. So each rule now carries its limit.
 - 🔵 **Next, mine: humanizing what is left.** Counted from the article as it stands ([what is left](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/LEFT.md)): of 141
   paragraphs, 14 read Human High by themselves at their present words, 69 last read below that, and 58 have no check of
   their present words. I start with the warnings [at the top](https://ibogaqueen.substack.com/i/181671197/a-complete-guide-to-bio-de-armoring) and go a section at a time: fix each paragraph

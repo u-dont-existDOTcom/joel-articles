@@ -37,7 +37,7 @@ From an account with Desktop Commander connected to the laptop: "Continue my neu
   words or more: 14 Human High by themselves at their present words, 69 last read below that, 58 never checked as they
   stand). **Every turn, first**: the mailbox, the cards page's stored answers (`db_query` on collection "decisions",
   `updated` after the last turn, so the old long answers aren't read again; nothing is open there) and his message
-  (questions page https://claude.ai/artifact/8cWv5mbXY8y53RL1nhvzky, version 37, 1795557119-11b5). **Next: the humanizing
+  (questions page https://claude.ai/artifact/8cWv5mbXY8y53RL1nhvzky, version 38, 1795557708-9eee). **Next: the humanizing
   pass, a section at a time, starting with the warnings at the top** (LEFT.md, "A Complete Guide to Bio-De-Armoring", 11
   left). For each paragraph of model text: the needed read, the read against his fixes and the fit read by fresh Fable
   readers (briefs as `x1124a/make_briefs_x1124a.py` makes them), fix it until it reads right and flows (his rule of
