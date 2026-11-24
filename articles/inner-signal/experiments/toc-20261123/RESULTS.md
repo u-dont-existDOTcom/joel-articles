@@ -9,6 +9,10 @@ Step 2 of the contents lane ([the method and order](https://github.com/u-dont-ex
 | [READ-NOW-FULL-1](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/inner-signal/experiments/toc-20261123/reads/READ-NOW-FULL-1.md) | whole headings | 56 | 3 | 5 | 19 | 58 |
 | [READ-NOW-SIDEBAR-1](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/inner-signal/experiments/toc-20261123/reads/READ-NOW-SIDEBAR-1.md) | as the sidebar shows it | 54 | 4 | 6 | 27 | 58 |
 | [READ-NOW-SIDEBAR-2](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/inner-signal/experiments/toc-20261123/reads/READ-NOW-SIDEBAR-2.md) | as the sidebar shows it | 56 | 0 | 8 | 20 | 58 |
+| [READ-PICK-1](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/inner-signal/experiments/toc-20261123/reads/READ-PICK-1.md) | first proposal (sidebar) | 57 | 0 | 7 | 23 | 60 |
+| [READ-PICK-2](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/inner-signal/experiments/toc-20261123/reads/READ-PICK-2.md) | first proposal (sidebar) | 57 | 3 | 4 | 26 | 60 |
+| [READ-PICK2-1](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/inner-signal/experiments/toc-20261123/reads/READ-PICK2-1.md) | proposal on his page (sidebar) | 56 | 2 | 6 | 25 | 59 |
+| [READ-PICK2-2](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/inner-signal/experiments/toc-20261123/reads/READ-PICK2-2.md) | proposal on his page (sidebar) | 58 | 1 | 5 | 21 | 61 |
 
 ## Situations the sidebar readers missed
 
@@ -35,32 +39,54 @@ Each heading with how many reads called it hard, how the sidebar shows it, and o
 
 | Section | Heading | Sidebar | Reads | One reason |
 |---|---|---|---|---|
-| S008 | # The Most Extreme Example | fits | 3 | "The Most Extreme Example" doesn't say of what, and sits as a top-level heading |
-| S023 | # Working with your inner child | fits | 3 | Parent with 0 words and a name that repeats line 18 |
-| S041 | ## Overly Confusing Isn't Automatically Good | cut: "Overly Confusing Isn't Aut…" | 3 | "Overly Confusing Isn't Automatically Good" is a first child under Induction, reads like a note, and pushes "Before you begin" down |
-| S055 | # Let the next response guide you | cut: "Let the next response guide …" | 3 | Sibling of line 54 at the same level, so the exercise and its follow-up look unrelated |
+| S055 | # Let the next response guide you | cut: "Let the next response guide …" | 7 | Sibling of line 54 at the same level, so the exercise and its follow-up look unrelated |
+| S008 | # The Most Extreme Example | fits | 6 | "The Most Extreme Example" doesn't say of what, and sits as a top-level heading |
+| S023 | # Working with your inner child | fits | 5 | Parent with 0 words and a name that repeats line 18 |
+| S067 | # Capacity before content | fits | 5 | "Capacity before content" is abstract and misplaced between the weekly practice and Troubleshooting |
+| S106 | ## Sensory, state, and strategy tools | cut: "Sensory, state, and strateg…" | 5 | Zero words and cut off; unclear relation to "The four NLP layers" above it. |
+| S017 | ## Sometimes start with the whole | cut: "Sometimes start with the …" | 4 | "Sometimes start with the whole" doesn't say the whole of what |
+| S018 | # The inner child, the guards, and the inner adult’s three jobs | cut: "The inner child, the guards, …" | 4 | The inner child, the guards and the three jobs are promised here but the three jobs are under 23, which has 0 words |
+| S041 | ## Overly Confusing Isn't Automatically Good | cut: "Overly Confusing Isn't Aut…" | 4 | "Overly Confusing Isn't Automatically Good" is a first child under Induction, reads like a note, and pushes "Before you begin" down |
+| S089 | ## Survey and consultation | fits | 4 | "Survey and consultation" is unclear whether it is research, paid help, or contact with the author |
+| S105 | ### Pattern 10: Meta Model questions — the de-hypnosis tool | cut: "Pattern 10: Meta Model q…" | 4 | Meta Model is not a Milton pattern, yet it is numbered as Pattern 10 under the Milton Model |
+| S028 | ## Working with your guards | fits | 3 | "Working With Your Guards" does not say who the guards are, and it overlaps "The Protector" and "Protect, Then Stand Down". |
+| S030 | ## Protection that knows when to stop scanning | cut: "Protection that knows whe…" | 3 | "Protect, Then Stand Down" reads as a repeat of "The Protector" (19) and sits as a "job" though it is not one. |
+| S086 | ## Your functioning in ordinary life is the feedback | cut: "Your functioning in ordinar…" | 3 | "Your functioning in ordinary life is the feedback" is vague about feedback on what |
+| S109 | ### Using synchronicity as your own wake-up bell | cut: "Using synchronicity as y…" | 3 | Synchronicity is long and isn't an NLP tool, in a list of short techniques |
+| S131 | ## Finding a hypnotist who can work with you | cut: "Finding a hypnotist who ca…" | 3 | A hypnotist-finding section under "Self-trust, outside guidance, and oracle-like states" |
+| S133 | ## The council — internal first, then outward | cut: "The council — internal first…" | 3 | "Take It to the Council" gives no clue what the council is, and it sits beside "Find a Hypnotist Who Fits" under a self-trust parent. |
 | S144 | ### The General Rule | fits | 3 | "The General Rule" sounds general but sits at level 3 under one subsection |
 | S147 | # Appendix I: Sleep hypnosis | fits | 3 | "Appendix I: Sleep hypnosis" has 8 words and competes with "Sleep induction" (47) |
 | S001 | # How to use this very large guide | cut: "How to use this very large g…" | 2 | Note to the reader, not a section, and cut off; says nothing about content. |
 | S002 | # The table of contents is hiding on the left | cut: "The table of contents is hidi…" | 2 | Note to the reader whose text is cut off; I can't tell what it says or why it's a section. |
-| S017 | ## Sometimes start with the whole | cut: "Sometimes start with the …" | 2 | "Sometimes start with the whole" doesn't say the whole of what |
-| S018 | # The inner child, the guards, and the inner adult’s three jobs | cut: "The inner child, the guards, …" | 2 | The inner child, the guards and the three jobs are promised here but the three jobs are under 23, which has 0 words |
+| S057 | ### Notice, meaning, and your thoughts on the meaning | cut: "Notice, meaning, and yo…" | 2 | "Notice, meaning, and your thoughts on the meaning" can be read two ways |
 | S064 | ### Throughout the exercise | fits | 2 | "Throughout the exercise" is level 3 under the ending section but sounds like it covers everything |
-| S067 | # Capacity before content | fits | 2 | "Capacity before content" is abstract and misplaced between the weekly practice and Troubleshooting |
-| S109 | ### Using synchronicity as your own wake-up bell | cut: "Using synchronicity as y…" | 2 | Synchronicity is long and isn't an NLP tool, in a list of short techniques |
+| S068 | # Troubleshooting | fits | 2 | Zero-word parent for 14 one-liner problems; many look like stubs. |
+| S087 | # Closing | fits | 2 | "Closing" says nothing. |
 | S119 | # Appendix C: The extended de-hypnosis checklist | cut: "Appendix C: The extended d…" | 2 | "Appendix C: The extended d…" is cut off; can't tell what is extended (daydream? discussion?). |
+| S127 | ## Inner child love | fits | 2 | "Inner Child Love" in the anxiety appendix doesn't say what it is. |
+| S130 | # Appendix F: Self-trust, outside guidance, and oracle-like states | cut: "Appendix F: Self-trust, outsi…" | 2 | "Appendix F: Self-trust, outsi…" holds hypnotist-finding, the council and forgiveness, so I can't tell what it is for |
 | S013 | # What to Use Self-Hypnosis For, and What Not To | cut: "What to Use Self-Hypnosis …" | 1 | "What to Use Self-Hypnosis …" is cut off, so I can't tell whether it is "for" or "not for" |
+| S014 | # Forget the left-brain/right-brain cartoon | cut: "Forget the left-brain/right-br…" | 1 | "The Left/Right Brain Cartoon" is playful, and I can't tell what it will give me. |
+| S019 | ## When the adult role is not available yet | cut: "When the adult role is not …" | 1 | No Adult Yet? Borrow One is a key fix but is hidden under Three Jobs after the three jobs end. |
 | S021 | ## Love doesn’t have to wait for trust | cut: "Love doesn’t have to wait f…" | 1 | Cut off ("Love doesn’t have to wait f…"); and is next to the "Instead of blame" at the same level with no sign what job each does. |
+| S029 | ## Your inherited parent script | fits | 1 | "Your Inherited Parent Script" is the answer to the "parent's voice" problem but sits under "Guards" far from "Is “Your Voice” Really Yours?". |
 | S031 | ## Inner child reparenting | fits | 1 | "Inner child reparenting" is the whole guide's topic; it doesn't say what is distinct here |
-| S057 | ### Notice, meaning, and your thoughts on the meaning | cut: "Notice, meaning, and yo…" | 1 | "Notice, meaning, and your thoughts on the meaning" can be read two ways |
-| S068 | # Troubleshooting | fits | 1 | Zero-word parent for 14 one-liner problems; many look like stubs. |
+| S032 | ## Don’t rush the repair | fits | 1 | "Take the Repair Slowly": repair of what? |
+| S034 | ## Non-dominant hand dialogue | cut: "Non-dominant hand dialog…" | 1 | "Other-Hand Dialogue" only makes sense once you know it is writing. |
+| S037 | # De-hypnosis: wake up inside the influence | cut: "De-hypnosis: wake up insid…" | 1 | "De-Hypnosis: Wake Up" could mean leaving a trance or shaking off outside influence, and it duplicates the Checklist (119) and "Come All the Way Back". |
+| S042 | ## Before you begin | fits | 1 | "Before You Begin" (506 words) reads as a note and doesn't say what to settle. |
+| S043 | ## Sober induction: 3–5 minutes | cut: "Sober induction: 3–5 minut…" | 1 | "Sober Induction" does not say what "sober" means or when to use it, though it is the one I would pick for an awake, scattered reader. |
+| S051 | ## A shortcut back into hypnosis | cut: "A shortcut back into hypno…" | 1 | A Shortcut Back In is one of three places for the cue (also lines 108, 110 to 111), with no way to tell them apart. |
 | S077 | ## You become too blissful or diffuse | cut: "You become too blissful or…" | 1 | Bliss vs. numbness reading, and overlaps with line 80 (spiritual bypass). |
 | S085 | ## Methods to explore with a trained person present | cut: "Methods to explore with a …" | 1 | A list of methods under "needs more support" doesn't say whether to use or avoid them |
-| S086 | ## Your functioning in ordinary life is the feedback | cut: "Your functioning in ordinar…" | 1 | "Your functioning in ordinary life is the feedback" is vague about feedback on what |
-| S089 | ## Survey and consultation | fits | 1 | "Survey and consultation" is unclear whether it is research, paid help, or contact with the author |
 | S090 | # Appendices | fits | 1 | "Appendices" is an empty-looking level-1 parent while every appendix is a sibling |
-| S105 | ### Pattern 10: Meta Model questions — the de-hypnosis tool | cut: "Pattern 10: Meta Model q…" | 1 | Meta Model is not a Milton pattern, yet it is numbered as Pattern 10 under the Milton Model |
-| S106 | ## Sensory, state, and strategy tools | cut: "Sensory, state, and strateg…" | 1 | Zero words and cut off; unclear relation to "The four NLP layers" above it. |
-| S130 | # Appendix F: Self-trust, outside guidance, and oracle-like states | cut: "Appendix F: Self-trust, outsi…" | 1 | "Appendix F: Self-trust, outsi…" holds hypnotist-finding, the council and forgiveness, so I can't tell what it is for |
-| S131 | ## Finding a hypnotist who can work with you | cut: "Finding a hypnotist who ca…" | 1 | A hypnotist-finding section under "Self-trust, outside guidance, and oracle-like states" |
+| S094 | ## The four NLP layers | fits | 1 | The Four Layers: layers of what? |
+| S118 | ## Running the whole NLP sequence | cut: "Running the whole NLP se…" | 1 | "The Whole Sequence": the whole sequence of what? |
 | S134 | ## Forgiveness without bypass | fits | 1 | Forgiveness under oracle states, adjacent to 135, which repeats it |
+| S157 | ## 9. No-trance inner contact | fits | 1 | "9. No-Trance Inner Contact" is in the induction library, though it is not an induction. |
+| S159 | ## Learning, entering, and returning | cut: "Learning, entering, and ret…" | 1 | "Learning, Entry & Return" says nothing about which sources |
+
+## The proposal and his page (2026-11-24)
+
+His 15 answers to Fable's notes ([his answers](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/inner-signal/experiments/toc-20261123/answers/JOEL-20261124-0104.md)) set the structure: five headings go, three change level, four groups move ([STRUCTURE.json](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/inner-signal/experiments/toc-20261123/STRUCTURE.json)). The proposal is Fable's names with 19 of mine ([PROPOSAL-PICK2.json](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/inner-signal/experiments/toc-20261123/PROPOSAL-PICK2.json)); every heading the readers marked, and every repeat, has a fate ([FATES-PICK2.json](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/inner-signal/experiments/toc-20261123/FATES-PICK2.json)). The proposal's readers above scored it with the key mapped to where the merged and dropped sections' text goes ([EXPECTED-PICK.json](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/inner-signal/experiments/toc-20261123/EXPECTED-PICK.json)). The text changes his answers call for ([TEXT-CHANGES.json](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/inner-signal/experiments/toc-20261123/TEXT-CHANGES.json)) and the 35 links ([LINK-PLAN.json](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/inner-signal/experiments/toc-20261123/LINK-PLAN.json)) are on his page: https://claude.ai/artifact/U816NLPQPjxSHZMMaZ4iAk

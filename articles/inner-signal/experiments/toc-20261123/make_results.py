@@ -17,6 +17,10 @@ POST = 'https://ibogaqueen.substack.com/p/guide-to-self-hypnosis-and-app-includi
 
 def main():
     S = json.load(open(os.path.join(HERE, 'SCORES.json'), encoding='utf-8'))
+    for extra in ('SCORES-PICK.json', 'SCORES-PICK2.json'):   # the proposals' reads, scored with EXPECTED-PICK.json
+        if os.path.exists(os.path.join(HERE, extra)):
+            X = json.load(open(os.path.join(HERE, extra), encoding='utf-8'))['reads']
+            S['reads'].update({f: r for f, r in X.items() if f.startswith('READ-PICK')})
     C = json.load(open(os.path.join(HERE, 'CONTENTS-NOW.json'), encoding='utf-8'))
     lines = {n['n']: n['id'] for n in json.load(open(os.path.join(HERE, 'LINES-NOW.json')))}
     by_id = {e['id']: e for e in C}
@@ -39,7 +43,7 @@ def main():
     for f, r in S['reads'].items():
         t = r['tally']
         name = re.match(r'READ-(.+)-(\d+)\.md$', f)
-        what = {'NOW-SIDEBAR': 'as the sidebar shows it', 'NOW-FULL': 'whole headings'}.get(name.group(1), name.group(1))
+        what = {'NOW-SIDEBAR': 'as the sidebar shows it', 'NOW-FULL': 'whole headings', 'PICK': 'first proposal (sidebar)', 'PICK2': 'proposal on his page (sidebar)'}.get(name.group(1), name.group(1))
         out.append('| [%s](%sreads/%s) | %s | %d | %d | %d | %d | %d |' % (f[:-3], GH, f, what, t['right'], t['near'],
                                                                         t['wrong'], t['guess'], t['found']))
     # the situations most readers missed, with where they looked
@@ -65,7 +69,9 @@ def main():
     for f in S['reads']:
         for m in re.finditer(r'^\s*[-*]?\s*`?HARD:\s*(\d+)\s*\|\s*(.+?)`?\s*$', open(os.path.join(HERE, 'reads', f),
                                                                                    encoding='utf-8').read(), re.M):
-            sid = lines.get(int(m.group(1)))
+            nm = re.match(r'READ-(.+)-\d+\.md$', f).group(1)
+            lf = os.path.join(HERE, 'LINES-%s.json' % ('NOW' if nm.startswith('NOW') else nm))
+            sid = {x['n']: x['id'] for x in json.load(open(lf))}.get(int(m.group(1)))
             if sid:
                 hard[sid].append((f[:-3], m.group(2).strip()))
     out += ['', '## Headings the readers called hard', '',
@@ -77,6 +83,14 @@ def main():
         out.append('| %s | %s %s | %s | %d | %s |' % (sid, '#' * e['level'], e['heading'],
                                                       'fits' if fits else 'cut: "%s"' % shown, len(rs),
                                                       rs[0][1].replace('|', '/')))
+    out += ['', '## The proposal and his page (2026-11-24)', '',
+            'His 15 answers to Fable\'s notes ([his answers](%sanswers/JOEL-20261124-0104.md)) set the structure: five headings go, '
+            'three change level, four groups move ([STRUCTURE.json](%sSTRUCTURE.json)). The proposal is Fable\'s names with 19 of mine '
+            '([PROPOSAL-PICK2.json](%sPROPOSAL-PICK2.json)); every heading the readers marked, and every repeat, has a fate '
+            '([FATES-PICK2.json](%sFATES-PICK2.json)). The proposal\'s readers above scored it with the key mapped to where the '
+            'merged and dropped sections\' text goes ([EXPECTED-PICK.json](%sEXPECTED-PICK.json)). The text changes his answers call '
+            'for ([TEXT-CHANGES.json](%sTEXT-CHANGES.json)) and the %d links ([LINK-PLAN.json](%sLINK-PLAN.json)) are on his page: '
+            'https://claude.ai/artifact/U816NLPQPjxSHZMMaZ4iAk' % (GH, GH, GH, GH, GH, GH, len(json.load(open(os.path.join(HERE, 'LINK-PLAN.json'), encoding='utf-8'))['links']), GH)]
     open(os.path.join(HERE, 'RESULTS.md'), 'w', encoding='utf-8').write('\n'.join(out) + '\n')
     print('RESULTS.md: %d reads, %d situations missed by a sidebar reader, %d headings called hard' % (
         len(S['reads']), len(miss), len(hard)))

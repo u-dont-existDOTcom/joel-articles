@@ -1,0 +1,520 @@
+{
+ "about": "Reviewed against the full text of TEXT-NO-HEADINGS.md. Started from the first key, which was written from each section's own text; 'right' is the section that answers the need most directly, 'also' lists sections that cover part of it or the same ground from another side. Remapped for the pick: a dropped or merged heading's section counts as the section its text goes to.",
+ "situations": {
+  "1": {
+   "right": [
+    "S004"
+   ],
+   "also": [
+    "S001"
+   ]
+  },
+  "2": {
+   "right": [
+    "S005"
+   ],
+   "also": [
+    "S163"
+   ]
+  },
+  "3": {
+   "right": [
+    "S012"
+   ],
+   "also": []
+  },
+  "4": {
+   "right": [
+    "S015"
+   ],
+   "also": [
+    "S130"
+   ]
+  },
+  "5": {
+   "right": [
+    "S013"
+   ],
+   "also": [
+    "S084",
+    "S085",
+    "S130"
+   ]
+  },
+  "6": {
+   "right": [
+    "S017"
+   ],
+   "also": [
+    "S016"
+   ]
+  },
+  "7": {
+   "right": [
+    "S007",
+    "S037"
+   ],
+   "also": []
+  },
+  "8": {
+   "right": [
+    "S038"
+   ],
+   "also": [
+    "S039",
+    "S119"
+   ]
+  },
+  "9": {
+   "right": [
+    "S131"
+   ],
+   "also": [
+    "S039"
+   ]
+  },
+  "10": {
+   "right": [
+    "S161"
+   ],
+   "also": []
+  },
+  "11": {
+   "right": [
+    "S158"
+   ],
+   "also": [
+    "S012",
+    "S014",
+    "S160"
+   ]
+  },
+  "12": {
+   "right": [
+    "S117"
+   ],
+   "also": [
+    "S083",
+    "S098",
+    "S100"
+   ]
+  },
+  "13": {
+   "right": [
+    "S018"
+   ],
+   "also": [
+    "S087",
+    "S082",
+    "S026"
+   ]
+  },
+  "14": {
+   "right": [
+    "S019"
+   ],
+   "also": []
+  },
+  "15": {
+   "right": [
+    "S021"
+   ],
+   "also": [
+    "S071",
+    "S082"
+   ]
+  },
+  "16": {
+   "right": [
+    "S022"
+   ],
+   "also": [
+    "S135"
+   ]
+  },
+  "17": {
+   "right": [
+    "S024"
+   ],
+   "also": [
+    "S127"
+   ]
+  },
+  "18": {
+   "right": [
+    "S034"
+   ],
+   "also": []
+  },
+  "19": {
+   "right": [
+    "S026"
+   ],
+   "also": []
+  },
+  "20": {
+   "right": [
+    "S027"
+   ],
+   "also": []
+  },
+  "21": {
+   "right": [
+    "S028"
+   ],
+   "also": [
+    "S072"
+   ]
+  },
+  "22": {
+   "right": [
+    "S029"
+   ],
+   "also": [
+    "S070"
+   ]
+  },
+  "23": {
+   "right": [
+    "S031"
+   ],
+   "also": [
+    "S136"
+   ]
+  },
+  "24": {
+   "right": [
+    "S032"
+   ],
+   "also": [
+    "S062"
+   ]
+  },
+  "25": {
+   "right": [
+    "S035"
+   ],
+   "also": []
+  },
+  "26": {
+   "right": [
+    "S036"
+   ],
+   "also": [
+    "S035"
+   ]
+  },
+  "27": {
+   "right": [
+    "S042"
+   ],
+   "also": [
+    "S083"
+   ]
+  },
+  "28": {
+   "right": [
+    "S043"
+   ],
+   "also": [
+    "S040"
+   ]
+  },
+  "29": {
+   "right": [
+    "S045"
+   ],
+   "also": [
+    "S046"
+   ]
+  },
+  "30": {
+   "right": [
+    "S047"
+   ],
+   "also": [
+    "S047"
+   ]
+  },
+  "31": {
+   "right": [
+    "S048"
+   ],
+   "also": []
+  },
+  "32": {
+   "right": [
+    "S051"
+   ],
+   "also": [
+    "S108"
+   ]
+  },
+  "33": {
+   "right": [
+    "S052"
+   ],
+   "also": []
+  },
+  "34": {
+   "right": [
+    "S053"
+   ],
+   "also": []
+  },
+  "35": {
+   "right": [
+    "S056"
+   ],
+   "also": [
+    "S055"
+   ]
+  },
+  "36": {
+   "right": [
+    "S058"
+   ],
+   "also": []
+  },
+  "37": {
+   "right": [
+    "S060"
+   ],
+   "also": []
+  },
+  "38": {
+   "right": [
+    "S063"
+   ],
+   "also": []
+  },
+  "39": {
+   "right": [
+    "S065"
+   ],
+   "also": []
+  },
+  "40": {
+   "right": [
+    "S066"
+   ],
+   "also": []
+  },
+  "41": {
+   "right": [
+    "S067"
+   ],
+   "also": [
+    "S078",
+    "S071"
+   ]
+  },
+  "42": {
+   "right": [
+    "S070"
+   ],
+   "also": [
+    "S076"
+   ]
+  },
+  "43": {
+   "right": [
+    "S073",
+    "S074"
+   ],
+   "also": [
+    "S121",
+    "S127",
+    "S128"
+   ]
+  },
+  "44": {
+   "right": [
+    "S153"
+   ],
+   "also": [
+    "S049"
+   ]
+  },
+  "45": {
+   "right": [
+    "S077"
+   ],
+   "also": []
+  },
+  "46": {
+   "right": [
+    "S080"
+   ],
+   "also": []
+  },
+  "47": {
+   "right": [
+    "S081"
+   ],
+   "also": []
+  },
+  "48": {
+   "right": [
+    "S084"
+   ],
+   "also": [
+    "S143",
+    "S073",
+    "S086"
+   ]
+  },
+  "49": {
+   "right": [
+    "S085"
+   ],
+   "also": [
+    "S083",
+    "S067"
+   ]
+  },
+  "50": {
+   "right": [
+    "S088"
+   ],
+   "also": []
+  },
+  "51": {
+   "right": [
+    "S089"
+   ],
+   "also": []
+  },
+  "52": {
+   "right": [
+    "S091"
+   ],
+   "also": [
+    "S092"
+   ]
+  },
+  "53": {
+   "right": [
+    "S092"
+   ],
+   "also": [
+    "S119",
+    "S036"
+   ]
+  },
+  "54": {
+   "right": [
+    "S095"
+   ],
+   "also": [
+    "S096"
+   ]
+  },
+  "55": {
+   "right": [
+    "S107"
+   ],
+   "also": []
+  },
+  "56": {
+   "right": [
+    "S109"
+   ],
+   "also": [
+    "S110"
+   ]
+  },
+  "57": {
+   "right": [
+    "S111"
+   ],
+   "also": [
+    "S143"
+   ]
+  },
+  "58": {
+   "right": [
+    "S112"
+   ],
+   "also": []
+  },
+  "59": {
+   "right": [
+    "S129"
+   ],
+   "also": [
+    "S045"
+   ]
+  },
+  "60": {
+   "right": [
+    "S131"
+   ],
+   "also": [
+    "S131"
+   ]
+  },
+  "61": {
+   "right": [
+    "S133"
+   ],
+   "also": [
+    "S132"
+   ]
+  },
+  "62": {
+   "right": [
+    "S134"
+   ],
+   "also": []
+  },
+  "63": {
+   "right": [
+    "S139"
+   ],
+   "also": [
+    "S140",
+    "S142",
+    "S143",
+    "S138",
+    "S141",
+    "S145"
+   ]
+  },
+  "64": {
+   "right": [
+    "S157"
+   ],
+   "also": []
+  }
+ },
+ "changes": [
+  "1: added S001 to also, the intro points a newcomer to the Quick start first",
+  "5: added S130 to also, it says when skilled outside support is better than self-hypnosis",
+  "7: moved S037 to right, it answers how ads, screens and charismatic people shape you as directly as S007",
+  "8: added S119 to also, its questions test whether something is pushing you",
+  "11: added S012, S014, S160 to also, they separate evidence from the author's own framing",
+  "12: added S083, S098, S100 to also, they state what he refuses to do with NLP and the ethical limits on embeds and presuppositions",
+  "13: added S087, S082, S026 to also, they say what trustworthiness takes day to day (small kept promises, protective actions)",
+  "15: added S071, S082 to also, they give things to ask or do when the child doubts you",
+  "16: added S135 to also, it covers self-forgiveness and taking responsibility for the regret",
+  "17: added S127 to also, it is the hand-on-heart and solar plexus practice with the words to say",
+  "21: added S072 to also, it covers talking to a guard in the way",
+  "26: added S035 to also, it covers losing yourself to belong and the questions to ask",
+  "29: added S046 to also, it gives a hand-movement and alertness fix for drifting",
+  "32: added S108 to also, it covers anchoring a usable state for easy return",
+  "41: added S078, S071 to also, they are the 'don't pry' and 'what would you need to trust me' responses",
+  "42: added S076 to also, it answers performing versus communion",
+  "43: added S074 to right (open eyes, ground, end the deeper practice) and S127, S128 to also, direct self-care steps",
+  "44: added S049 to also, it covers picking a place inside and who talks first",
+  "48: added S073, S144, S086 to also, they list the warning signs and the general rule for when to stop",
+  "49: added S083 and S067 to also, they warn against forcing memories and say imagery is not literal",
+  "53: added S119, S036 to also, they cover telling influence and belonging from your own guidance",
+  "54: added S096 to also, it gives the pace-and-lead wording for anxiety",
+  "57: added S143 to also, it covers when signs and messages mean getting help",
+  "59: added S045 to also, it asks what daydreaming is doing for you and whether you avoid something",
+  "60: added S120 to also, its interview questions suit choosing a practitioner",
+  "62: dropped S135 from also, it is about forgiving yourself, not people who hurt you",
+  "63: added S138, S141, S145 to also, they cover what the presence is and what to say"
+ ]
+}
