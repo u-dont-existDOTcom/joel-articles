@@ -108,7 +108,7 @@ class RegistryShape(unittest.TestCase):
         # J87 (what not to do before what to do) from his round-51 answer of 23:35 UTC (bad-trips-2026-11-23h); J88 (points
         # out of their natural order, lines the section doesn't need) from his Two Pillars fix, his seventh-page answer of
         # 2026-11-24 02:06 UTC (romance-2026-11-24a)
-        self.assertEqual(len(ids), 222)
+        self.assertEqual(len(ids), 223)
         self.assertEqual(len(set(ids)), len(ids))
         self.assertEqual(sum(t['kind'] == 'mechanical' for t in TELLS), 133)
         for t in TELLS:

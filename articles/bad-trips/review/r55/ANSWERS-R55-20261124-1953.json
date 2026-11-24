@@ -1,0 +1,61 @@
+{
+ "format": "joel-suggestion-review-answers-v1",
+ "review_id": "bad-trips-r55",
+ "title": "Bad Trips Guide, Round 55",
+ "git_file": "articles/bad-trips/review/r55/REVIEW-R55.html",
+ "article": {
+  "file": "articles/bad-trips/review/r55/PAGE-R55.md",
+  "sha256": "e80570c51ccb768c147ad4bd2db3380492cdef96542cdb4e90e451819cf04e37"
+ },
+ "built": "2026-11-24",
+ "generator": "suggestion_review.py 1.13 (2026-11-23)",
+ "exported_at": "2026-11-24T19:53:20.012Z",
+ "counts": {
+  "approved": 0,
+  "rejected": 0,
+  "revise": 2,
+  "pending": 0
+ },
+ "items": [
+  {
+   "id": "TEACH-JAW",
+   "type": "teach",
+   "title": "1. MDMA: Magnesium Alarm, the first paragraph: what a tense jaw means, and what you have seen",
+   "where": "MDMA: Magnesium Alarm, P1",
+   "advice": "edit",
+   "status": "revise",
+   "your_version": "With MDMA, I treat jaw tension as the earliest warning that the body needs more magnesium. I don't have studies to back this up, but everyone I know who has taken enough magnesium chloride to make the jaw tension fully release has avoided the MDMA toxicity symptoms they get otherwise.",
+   "comment": "idk where \"meaningful\" came from, i didn' tput that in so it must be ai slop. \n\nanyway your versions were redudnant. the version above is human high conf: https://www.pangram.com/history/6c2c336b-29ae-4e51-84dd-b9ad137979d5?ucc=4rq5Ko7gBiW&utm_source=pangram_share&utm_medium=copy_link\n\n and here's another human high conf version just for comparison: https://www.pangram.com/history/e9fd7d96-ed16-43d6-b424-d82a34d3ffad?ucc=4rq5Ko7gBiW&utm_source=pangram_share&utm_medium=copy_link\n\n\nhave we made sure to explain why i use magnesium chloride though? it absorbs faster and better than any other form, so you can see how it's helping usually within a minute. ",
+   "my_version": "With MDMA, I treat meaningful jaw tension as the earliest warning that the body needs more magnesium. This comes from repeated field experience rather than a direct clinical trial. Everyone I know who has taken enough magnesium chloride to make the jaw tension fully release has avoided the other complications I have seen when people let that tension continue.",
+   "before": "With MDMA, I treat meaningful jaw tension as the earliest warning that the body needs more magnesium. This comes from repeated field experience rather than a direct clinical trial. Everyone I know who has taken enough magnesium chloride to make the jaw tension fully release has avoided the other complications I have seen when people let that tension continue.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "revise",
+     "at": "2026-11-24T19:07:46.157Z"
+    }
+   ],
+   "updated": "2026-11-24T19:22:16.467Z"
+  },
+  {
+   "id": "TEACH-WIFE",
+   "type": "teach",
+   "title": "2. MDMA: Magnesium Alarm, your second wife's story and what you took from it",
+   "where": "MDMA: Magnesium Alarm, P4",
+   "advice": "edit",
+   "status": "revise",
+   "your_version": "My second wife had severe convulsions after an MDMA overdose. At the hospital,  they figured out what caused that: her potassium was found to be critically low, and IV potassium was the only treatment they gave her. That experience is what leads me to treat serious MDMA toxicity as a broader electrolyte emergency, although magnesium is still the first and most useful supplement to give once the jaw tenses, since potassium gets depleted after magnesium.",
+   "comment": "first i took out the part inbetween em dashes, that helped a bit: https://www.pangram.com/history/5c9e11f6-5af2-4689-819f-33e41cd108b0?ucc=4rq5Ko7gBiW&utm_source=pangram_share&utm_medium=copy_link\n\nnow i connected sentence 1 to 2 which flipped 2 human: https://www.pangram.com/history/f84ab3ca-1353-4903-ba30-f9265a69c857?ucc=4rq5Ko7gBiW&utm_source=pangram_share&utm_medium=copy_link\n\nso i had to change \"even though\" to \"although\" to flip the next part human: https://www.pangram.com/history/8b6673c9-7e7d-4499-a4bd-a37a693ef9d1?ucc=4rq5Ko7gBiW&utm_source=pangram_share&utm_medium=copy_link\n\nmakes sense and reads better because even though implies a stronger contrast than a subset of a broader treatment implies.  (there were other changes but they didn't flip it, but although also didn't flip it without them)\n\nthen i clarified that magnesium depletion can deplete potassium, and i changed intervention which is vague to more clear, \"supplement to give\" and it's all high conf: \n\nhttps://www.pangram.com/history/38fe09f7-fb03-4064-9826-18b99bc8515f?ucc=4rq5Ko7gBiW&utm_source=pangram_share&utm_medium=copy_link",
+   "my_version": "My second wife had severe convulsions after an MDMA overdose. At the hospital, her potassium was found to be critically low--described to me as essentially zero--and IV potassium was the only treatment they gave her. That experience is why I treat serious MDMA toxicity as a broader electrolyte emergency, even though magnesium is the first and most useful early intervention when jaw tension appears.",
+   "before": "My second wife had severe convulsions after an MDMA overdose. At the hospital, her potassium was found to be critically low--described to me as essentially zero--and IV potassium was the only treatment they gave her. That experience is why I treat serious MDMA toxicity as a broader electrolyte emergency, even though magnesium is the first and most useful early intervention when jaw tension appears.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "revise",
+     "at": "2026-11-24T19:22:41.277Z"
+    }
+   ],
+   "updated": "2026-11-24T19:53:15.515Z"
+  }
+ ]
+}

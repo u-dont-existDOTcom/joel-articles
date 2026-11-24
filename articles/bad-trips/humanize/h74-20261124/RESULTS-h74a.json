@@ -1,0 +1,41 @@
+{
+ "his-b114": [
+  "Human Written",
+  0.0,
+  50,
+  "Human Written, High, 51",
+  "2026-11-24T20:00:34Z",
+  "/666cad89-a4a1-4634-ab63-6d1029124be3",
+  []
+ ],
+ "his-b118": [
+  "Human Written",
+  0.0,
+  75,
+  "Human Written, High, 37; Human Written, Medium, 38",
+  "2026-11-24T20:00:41Z",
+  "/590654bf-e074-4d55-aa0f-3d3ea076bd37",
+  []
+ ],
+ "blind-b114": [
+  "AI Generated",
+  1.0,
+  58,
+  "AI-Generated, Medium, 17; AI-Generated, High, 41",
+  "2026-11-24T20:00:46Z",
+  "/78f6a5f0-0741-486e-9130-a62a6c6348a8",
+  [
+   "AI-Generated Medium (17 words): With MDMA, I treat meaningful jaw tension as the earliest warning that the body needs more magnesium.",
+   "AI-Generated High (41 words): No clinical trial has tested this directly, but everyone I know who has taken enough magnesium chloride to make their jaw tension fully release has avoided the convulsions and other electrolyte emergencies I have seen when people let that tension continue."
+  ]
+ ],
+ "blind-b118": [
+  "Human Written",
+  0.0,
+  67,
+  "Human Written, High, 67",
+  "2026-11-24T20:00:54Z",
+  "/9cd7ae31-9cba-446c-8ad8-d55257ef87a5",
+  []
+ ]
+}

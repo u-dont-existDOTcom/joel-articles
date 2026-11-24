@@ -1,0 +1,76 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-24",
+ "text_sha256": "a1e8257905cc61d90f170eb70e43a8ba077d9cb7356f81b23a23926874c4b198",
+ "text": "My second wife had severe convulsions after an MDMA overdose. At the hospital, they figured out what caused that: her potassium was found to be critically low, and IV potassium was the only treatment they gave her. That experience is what leads me to treat serious MDMA toxicity as a broader electrolyte emergency, although magnesium is still the first and most useful supplement to give once the jaw tenses, since potassium gets depleted once magnesium runs low.",
+ "section": "MDMA: Magnesium Alarm",
+ "reader": "a friend at a festival with someone who took MDMA a few hours ago, whose jaw has started to clench and grind, with magnesium chloride flakes in their bag, reading what to do",
+ "sentences": [
+  {
+   "s": "My second wife had severe convulsions after an MDMA overdose.",
+   "his": true
+  },
+  {
+   "s": "At the hospital, they figured out what caused that: her potassium was found to be critically low, and IV potassium was the only treatment they gave her.",
+   "his": true
+  },
+  {
+   "s": "That experience is what leads me to treat serious MDMA toxicity as a broader electrolyte emergency, although magnesium is still the first and most useful supplement to give once the jaw tenses, since potassium gets depleted once magnesium runs low.",
+   "payoff": "they treat serious MDMA toxicity as more than a magnesium problem, give magnesium first, and know why potassium follows it",
+   "follows": "his wife's potassium, just named",
+   "link": "That experience"
+  }
+ ],
+ "checked": [
+  {
+   "point": "magnesium deficiency makes the body lose potassium, so potassium follows magnesium",
+   "found": "his TEACH-WIFE comment of 2026-11-24 19:53 UTC: \"i clarified that magnesium depletion can deplete potassium\"; Huang and Kuo 2007 (PubMed 17804670): magnesium deficiency \"exacerbates potassium wasting by increasing distal potassium secretion\"; the fit read of this turn (reads/fit-a1-sec.txt S12): \"after magnesium\" can read as the magnesium causing the potassium loss",
+   "still_needed": "yes: they know giving magnesium is not what drains the potassium",
+   "fate": "changed"
+  }
+ ],
+ "placement": "the fourth paragraph of MDMA: Magnesium Alarm (B118), his own; one phrase of mine in its last sentence, offered to him on round 56",
+ "opens": {
+  "first_sentence": "My second wife had severe convulsions after an MDMA overdose.",
+  "why_reading": "it tells the friend why serious MDMA toxicity is about more than magnesium, from what happened to the writer's second wife"
+ },
+ "same_point": "none: read the section from its heading to the next; potassium is said here and in his paragraph after it, each for its own sign",
+ "needed": {
+  "reader": "a fresh agent (Sonnet) given tools/humanization/needed_read_brief.md (reads/need-a1-sec.txt), on version one of the whole section",
+  "unneeded": [],
+  "kept": {}
+ },
+ "his_fixes": {
+  "reader": "a fresh agent (Sonnet) given tools/humanization/his_fixes_brief.md (reads/his-a1-sec.txt), on version one of the whole section",
+  "marked": [],
+  "kept": {}
+ },
+ "fit": {
+  "reader": "a fresh agent (Sonnet) given tools/humanization/fit_read_brief.md (reads/fit-a1-sec.txt), on version one of the whole section",
+  "marked": [],
+  "kept": {}
+ },
+ "questions": {
+  "Q1": "PASS: one phrase changed in his sentence, to the meaning he gave in his comment",
+  "Q2": "PASS: one phrase changed in his sentence, to the meaning he gave in his comment",
+  "Q3": "PASS: one phrase changed in his sentence, to the meaning he gave in his comment",
+  "Q4": "PASS: one phrase changed in his sentence, to the meaning he gave in his comment",
+  "Q5": "PASS: one phrase changed in his sentence, to the meaning he gave in his comment",
+  "Q6": "PASS: one phrase changed in his sentence, to the meaning he gave in his comment",
+  "Q7": "PASS: one phrase changed in his sentence, to the meaning he gave in his comment",
+  "Q8": "PASS: one phrase changed in his sentence, to the meaning he gave in his comment",
+  "Q9": "PASS: one phrase changed in his sentence, to the meaning he gave in his comment"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ },
+ "his_whose": "his own: his round-55 version of his second wife's paragraph (TEACH-WIFE, 2026-11-24 19:53 UTC)"
+}
