@@ -1,0 +1,51 @@
+{
+ "format": "joel-suggestion-review-answers-v1",
+ "review_id": "bad-trips-r52",
+ "title": "Bad Trips Guide, Round 52",
+ "git_file": "articles/bad-trips/review/r52/REVIEW-R52.html",
+ "article": {
+  "file": "articles/bad-trips/review/r52/PAGE-R52.md",
+  "sha256": "fd04154d9b3547d24130a0716773adc055ab39c039ca38707dc062bd81cdffb4"
+ },
+ "built": "2026-11-23",
+ "generator": "suggestion_review.py 1.13 (2026-11-23)",
+ "exported_at": "2026-11-24T01:25:47.753Z",
+ "counts": {
+  "approved": 0,
+  "rejected": 0,
+  "revise": 0,
+  "pending": 2
+ },
+ "items": [
+  {
+   "id": "WOMEN-RISK",
+   "type": "question",
+   "title": "1. Your MDMA section: do women get a sentence?",
+   "where": "MDMA: Magnesium Alarm, P5",
+   "advice": "ask",
+   "status": "answered",
+   "question": "You wrote that GPT found other reviews give men and women the same risk, and you'd cut my sentence, or use yours: \"Women are most at risk of this, based on results we have from one study done at raves, where sodium was low in 1/4 women vs only 3% of men.\"\nWhat I found: in a controlled study where people took MDMA and drank water, women's sodium did not drop more than men's ([Baggott 2016](https://pmc.ncbi.nlm.nih.gov/articles/PMC4923534/)). Outside the lab it goes the other way: among MDMA cases reported to California's poison control, women had four times the odds of low sodium and higher odds of a coma from it ([Rosenson 2007](https://pubmed.ncbi.nlm.nih.gov/17084942)), and most of the severe and fatal cases in the reports are young women.\na) Your sentence, after \"so have them sip an electrolyte drink when they're thirsty instead\", with the poison control numbers added as what it rests on.\nb) Leave it out.\nIf (a), I'll write it from your sentence and check it before it goes in.",
+   "your_version": "",
+   "comment": "ah that's so interesting that might also relate to what i'm talking about. they might have used real MDMA int he study while in the festival they're using \"MDMA\" (ecstasy). you can make a note about the difference between the field vs lab studies then bc that supports what i'm saying",
+   "my_version": "",
+   "before": "",
+   "history": [],
+   "updated": "2026-11-24T01:25:43.171Z"
+  },
+  {
+   "id": "DANCE-ENERGY",
+   "type": "question",
+   "title": "2. Your MDMA section: why not to dance",
+   "where": "MDMA: Magnesium Alarm, P5",
+   "advice": "ask",
+   "status": "answered",
+   "question": "Your paragraph now says: \"While it's natural to want to dance on MDMA, I'd tell everyone not to dance at all, since dancing makes the heat and the sweat that drain their salt.\" You also wrote: \"real mdma doesn't give you any energy to dance so i'm highly suspicious that contains amphetamines or it's not real mdma maybe 6apb\".\nWhat I found: in controlled studies of pure MDMA, people's ratings of their energy go up with the dose ([Kolbrich 2008](https://pmc.ncbi.nlm.nih.gov/articles/PMC2587205)), and MDMA shows \"some effects commonly associated with stimulant drugs\" ([Harris 2002](https://pubmed.ncbi.nlm.nih.gov/12172693/)). So I left your reason about the pills out of the guide for now.\na) Keep the line as it is, with the heat and the sweat as the reason.\nb) Add your suspicion as yours, for example: \"In my experience pure MDMA doesn't make me want to dance, so a pill that does may have something else in it.\" I'd check it before it goes in.\nc) Something else: say it in the box.",
+   "your_version": "",
+   "comment": "yeah i'd say really what is the point of MDMA? if you want to dance you can take some san pedro cactus or mescaline, which is way way safer, and still very therapeutic. \nReal MDMA, the kind that's therapeutic and helps people access very early childhood trauma possibly better than San Pedro can in some cases, is NOT the kind of mdma that people want to dance on, which is why you don't see people in MAPS trials saying \"I NEED TO DANCE!\" no, they are sitting there doing the therapy. I don't care if the science isn't clear on this yet but I and everyone I know are totally clear about this. It's not like \"I don't feel like dancing\" it's like \"I can barely move\", couch lock. ",
+   "my_version": "",
+   "before": "",
+   "history": [],
+   "updated": "2026-11-24T01:24:09.174Z"
+  }
+ ]
+}

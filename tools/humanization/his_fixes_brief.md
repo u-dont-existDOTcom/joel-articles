@@ -188,7 +188,10 @@ that still reads the first way.
    real synonym ("genuinely", "authentically") or the word for what the sentence means, and where it is the exact word
    and the only one nearby, it stays (Joel, 2026-11-23: "honestly is also ok sometimes just it's overused"; lesson
    romance-2026-11-23g). A question the reader couldn't answer as asked is this way too: mark it, and say what the real
-   question is.
+   question is. So is a caveat said as what a study couldn't show: "The lab also dosed everyone by their weight, though,
+   so it couldn't show how much harder the same pill hits a smaller body." ended a paragraph as its only AI window, and
+   the case itself, "at a festival a small woman takes the same pill as a big guy, so she's getting a lot more for her
+   size", read High (bad trips, 2026-11-24, lesson bad-trips-2026-11-24c).
 
 22. **A pivot that points back without naming what.** "But none of that by itself explains why two people still want to
    tear each other's clothes off" points back at a list of values; he named it ("that liberal modern philosophy fails to
