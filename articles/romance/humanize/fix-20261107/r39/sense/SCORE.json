@@ -1,0 +1,57 @@
+{
+ "parts": [
+  {
+   "part": 1,
+   "blocks": [
+    0,
+    65
+   ],
+   "expected": 66,
+   "read": 66,
+   "missing": [],
+   "missing_ranges": [],
+   "outside": [],
+   "planted": 3,
+   "found": 3,
+   "missed": [],
+   "findings": 4
+  },
+  {
+   "part": 2,
+   "blocks": [
+    66,
+    140
+   ],
+   "expected": 75,
+   "read": 75,
+   "missing": [],
+   "missing_ranges": [],
+   "outside": [],
+   "planted": 3,
+   "found": 3,
+   "missed": [],
+   "findings": 6
+  },
+  {
+   "part": 3,
+   "blocks": [
+    141,
+    199
+   ],
+   "expected": 59,
+   "read": 59,
+   "missing": [],
+   "missing_ranges": [],
+   "outside": [],
+   "planted": 3,
+   "found": 3,
+   "missed": [],
+   "findings": 11
+  }
+ ],
+ "planted": 9,
+ "found": 9,
+ "recall": 1.0,
+ "reads_complete": true,
+ "trusted": true
+}

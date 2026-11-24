@@ -30,7 +30,10 @@
     .map(b => b.toString(16).padStart(2, '0')).join('');
   // the page's paragraph list has the Share button at the top but not the Subscribe button at the end, and its text has a
   // line break where the editor has <br>
-  const els = Array.from(body.querySelectorAll('p, li, h2, h3, h4'));
+  // an empty paragraph (a blank line the editor keeps; his update of 2026-11-23 left four, by the embeds he added) has
+  // no text, isn't in the index, and is removed with the other empty blocks below, so it isn't counted
+  const els = Array.from(body.querySelectorAll('p, li, h2, h3, h4'))
+    .filter(e => e.tagName !== 'P' || norm(e.textContent) || e.querySelector('img, iframe'));
   while (els.length > index.length && els[els.length - 1].classList.contains('button-wrapper')) els.pop();
   const seen = e => { const c = e.cloneNode(true); c.querySelectorAll('br').forEach(br => br.replaceWith('\n')); return c.textContent; };
   if (els.length !== index.length) return 'refused: the post has ' + els.length + ' paragraphs, the index ' + index.length;

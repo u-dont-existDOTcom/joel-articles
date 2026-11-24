@@ -1,0 +1,242 @@
+[
+ {
+  "block": 11,
+  "text": "nor score over 10 on a",
+  "kind": "meaningless",
+  "what": "\"score over 10\" is an odd phrase; probably meant \"score 10 out of 10\" or similar, and \"nor\" after \"doesn't have to mean\" is also awkward.",
+  "fix": "or score 10 out of 10 on a",
+  "confidence": "likely",
+  "readers": [
+   1
+  ],
+  "reports": [
+   {
+    "reader": 1,
+    "kind": "meaningless",
+    "what": "\"score over 10\" is an odd phrase; probably meant \"score 10 out of 10\" or similar, and \"nor\" after \"doesn't have to mean\" is also awkward.",
+    "fix": "or score 10 out of 10 on a",
+    "confidence": "likely"
+   }
+  ]
+ },
+ {
+  "block": 74,
+  "text": "A lot of women have seen me that way",
+  "kind": "broken",
+  "what": "\"that way\" has no clear antecedent in the preceding block (seeing him as divine/a father figure is not stated).",
+  "fix": "A lot of women have seen me as a father figure",
+  "confidence": "likely",
+  "readers": [
+   2
+  ],
+  "reports": [
+   {
+    "reader": 2,
+    "kind": "broken",
+    "what": "\"that way\" has no clear antecedent in the preceding block (seeing him as divine/a father figure is not stated).",
+    "fix": "A lot of women have seen me as a father figure",
+    "confidence": "likely"
+   }
+  ]
+ },
+ {
+  "block": 103,
+  "text": "don’t let that bring you away from your own self-love",
+  "kind": "wrong-word",
+  "what": "\"bring you away from\" is odd; \"pull you away from\" is meant.",
+  "fix": "don’t let that pull you away from your own self-love",
+  "confidence": "likely",
+  "readers": [
+   2
+  ],
+  "reports": [
+   {
+    "reader": 2,
+    "kind": "wrong-word",
+    "what": "\"bring you away from\" is odd; \"pull you away from\" is meant.",
+    "fix": "don’t let that pull you away from your own self-love",
+    "confidence": "likely"
+   }
+  ]
+ },
+ {
+  "block": 104,
+  "text": "For me, that room is where I keep a mission of my own",
+  "kind": "broken",
+  "what": "\"that room\" has nothing to point at in the previous block (no room mentioned).",
+  "fix": "For me, leaving room for myself means keeping a mission of my own",
+  "confidence": "likely",
+  "readers": [
+   2
+  ],
+  "reports": [
+   {
+    "reader": 2,
+    "kind": "broken",
+    "what": "\"that room\" has nothing to point at in the previous block (no room mentioned).",
+    "fix": "For me, leaving room for myself means keeping a mission of my own",
+    "confidence": "likely"
+   }
+  ]
+ },
+ {
+  "block": 143,
+  "text": "hosting me in Sênêgal",
+  "kind": "slip",
+  "what": "Country name is misspelled; it is Sénégal (or Senegal).",
+  "fix": "hosting me in Sénégal",
+  "confidence": "likely",
+  "readers": [
+   3
+  ],
+  "reports": [
+   {
+    "reader": 3,
+    "kind": "slip",
+    "what": "Country name is misspelled; it is Sénégal (or Senegal).",
+    "fix": "hosting me in Sénégal",
+    "confidence": "likely"
+   }
+  ]
+ },
+ {
+  "block": 159,
+  "text": "Conventional marriage vows are dishonest and inept",
+  "kind": "wrong-word",
+  "what": "\"inept\" does not fit vows that promise feelings; something like \"unrealistic\" or \"unwise\" seems meant.",
+  "fix": "Conventional marriage vows are dishonest and unrealistic",
+  "confidence": "likely",
+  "readers": [
+   3
+  ],
+  "reports": [
+   {
+    "reader": 3,
+    "kind": "wrong-word",
+    "what": "\"inept\" does not fit vows that promise feelings; something like \"unrealistic\" or \"unwise\" seems meant.",
+    "fix": "Conventional marriage vows are dishonest and unrealistic",
+    "confidence": "likely"
+   }
+  ]
+ },
+ {
+  "block": 162,
+  "text": "started out as that kind of bureaucratic record-keeping",
+  "kind": "broken",
+  "what": "\"that kind\" points back to nothing in the preceding text, so the sentence has no antecedent.",
+  "fix": "started out as a kind of bureaucratic record-keeping",
+  "confidence": "likely",
+  "readers": [
+   3
+  ],
+  "reports": [
+   {
+    "reader": 3,
+    "kind": "broken",
+    "what": "\"that kind\" points back to nothing in the preceding text, so the sentence has no antecedent.",
+    "fix": "started out as a kind of bureaucratic record-keeping",
+    "confidence": "likely"
+   }
+  ]
+ },
+ {
+  "block": 164,
+  "text": "That amazed me, although B. never quite believed the switch was real.",
+  "kind": "broken",
+  "what": "\"That\" and \"the switch\" have nothing to point at; the heading and the previous block do not set up any switch.",
+  "fix": "",
+  "confidence": "likely",
+  "readers": [
+   3
+  ],
+  "reports": [
+   {
+    "reader": 3,
+    "kind": "broken",
+    "what": "\"That\" and \"the switch\" have nothing to point at; the heading and the previous block do not set up any switch.",
+    "fix": "",
+    "confidence": "likely"
+   }
+  ]
+ },
+ {
+  "block": 180,
+  "text": "as my dad explained a thousand times whenever we had a visitor",
+  "kind": "meaningless",
+  "what": "The link between his dad explaining something to visitors and the point about resentment snowballing is unclear.",
+  "fix": "",
+  "confidence": "likely",
+  "readers": [
+   3
+  ],
+  "reports": [
+   {
+    "reader": 3,
+    "kind": "meaningless",
+    "what": "The link between his dad explaining something to visitors and the point about resentment snowballing is unclear.",
+    "fix": "",
+    "confidence": "likely"
+   }
+  ]
+ },
+ {
+  "block": 180,
+  "text": "joke (LOL)..",
+  "kind": "slip",
+  "what": "Doubled full stop after the parenthesis.",
+  "fix": "joke (LOL).",
+  "confidence": "sure",
+  "readers": [
+   3
+  ],
+  "reports": [
+   {
+    "reader": 3,
+    "kind": "slip",
+    "what": "Doubled full stop after the parenthesis.",
+    "fix": "joke (LOL).",
+    "confidence": "sure"
+   }
+  ]
+ },
+ {
+  "block": 180,
+  "text": "old Romeo & Juliette",
+  "kind": "slip",
+  "what": "Juliet is misspelled.",
+  "fix": "old Romeo & Juliet",
+  "confidence": "likely",
+  "readers": [
+   3
+  ],
+  "reports": [
+   {
+    "reader": 3,
+    "kind": "slip",
+    "what": "Juliet is misspelled.",
+    "fix": "old Romeo & Juliet",
+    "confidence": "likely"
+   }
+  ]
+ },
+ {
+  "block": 185,
+  "text": "Gaslighting in the dark",
+  "kind": "contradiction",
+  "what": "Heading promises gaslighting but the section is about asking friends for help fairly and not saving face.",
+  "fix": "",
+  "confidence": "likely",
+  "readers": [
+   3
+  ],
+  "reports": [
+   {
+    "reader": 3,
+    "kind": "contradiction",
+    "what": "Heading promises gaslighting but the section is about asking friends for help fairly and not saving face.",
+    "fix": "",
+    "confidence": "likely"
+   }
+  ]
+ }
+]
