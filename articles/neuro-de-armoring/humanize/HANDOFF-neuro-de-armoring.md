@@ -18,6 +18,38 @@ From an account with Desktop Commander connected to the laptop: "Continue my neu
 
 ## START HERE
 
+- **2026-11-24, after his message of 21:43 UTC ("62 a 63 a 64 a 65 a"): no question is open, every contradiction has its
+  answer, and the humanizing of what is left starts next.** HUMANIZED-SO-FAR.md is 386bad86
+  (`fix-20261108/x1124b/apply_x1124b.py`, `APPLIED-X1124B.json`); his message: `fix-20261108/joel-20261124-2143-message.txt`.
+  62a: the red line's test reads "back down to your usual resting rate, and under 90 BPM" in its three places; 63a: the
+  agmatine bracket leaves out what the protocol pairs it with; 64a: six lines (the five the question named and the Shield's
+  5-HTP line, which had the 5-HTP trial's words) say "a psychedelic trip"; 65a: in his Weeks 3-7 line his last sentence
+  sits right after "see how it feels", and the numbness test says "too numb to tell how a combo feels" (my three words,
+  for the referent the move took away; told to him). That line read Human Written, one window of 154 words, High by
+  itself (ledger #203, lineage W35-his, `x1124b/checks-1124b`, https://www.pangram.com/history/8c9d1b0f-f972-4aee-9792-b631f960a2c2).
+  Fidelity PASS (owner_changes entry), comparison read PASS (`x1124b/read-1124b/`), `contradictions.py check --done` PASS
+  over `coherence/x1124a` (CHECK.md rewritten), keep-as-is list C1 to C10 and K1 (his "nor whether"). **The lessons of his
+  W-LMA and W-AGM fixes, written a turn late with their blind test**: `docs/lessons/2026-11-24-1847-neuro.md`
+  (neuro-2026-11-24a to f) and `x1124b/replay/` (BRIEF.md, OUT.md, RESULTS.md; ledger #204, #205): 0 of 2 blind rewrites
+  at Human High; the moves of order carried, and rules given without their limits were applied everywhere (a gloss on
+  every name, "I'd" opening every sentence). **What is left is computed**: `python3
+  articles/neuro-de-armoring/humanize/coverage.py --md articles/neuro-de-armoring/humanize/LEFT.md` (141 paragraphs of 8
+  words or more: 14 Human High by themselves at their present words, 69 last read below that, 58 never checked as they
+  stand). **Every turn, first**: the mailbox, the cards page's stored answers (`db_query` on collection "decisions",
+  `updated` after the last turn, so the old long answers aren't read again; nothing is open there) and his message
+  (questions page https://claude.ai/artifact/8cWv5mbXY8y53RL1nhvzky, version 37, 1795557119-11b5). **Next: the humanizing
+  pass, a section at a time, starting with the warnings at the top** (LEFT.md, "A Complete Guide to Bio-De-Armoring", 11
+  left). For each paragraph of model text: the needed read, the read against his fixes and the fit read by fresh Fable
+  readers (briefs as `x1124a/make_briefs_x1124a.py` makes them), fix it until it reads right and flows (his rule of
+  2026-11-23: sense first, Pangram only once it is fully right), receipt, prediction, then the check by itself in the web
+  app (`window.__run` in the browser pane's "seed" tab, results read from his history by SHA-256, `record_gui.py`). Apply
+  lessons neuro-2026-11-24a to f with their limits: the stance joined to its reason once; one word for what a thing is,
+  once; a warning beside what it is about; each state said once; the source in the sentence; the fact before the
+  instruction it leads to. A paragraph under 50 words is checked with a neighbour. Never take something important out to
+  pass; fidelity keys hold each warning's meaning (a held word that isn't his may change where the meaning survives:
+  lesson bad-trips-2026-11-24n). Spent tries go to him as a teaching card the same turn, asked in his words. Done is every
+  window High (AGENTS.md since 2026-11-24; a Medium window is work to do). A fresh session is the better place to start
+  the pass: this one is long. Dose figures stay out of replies.
 - **2026-11-24, after his message of 18:47 UTC: his versions on cards W-LMA and W-AGM and his answers 57 to 61 are in;
   questions 62 to 65 wait on him.** HUMANIZED-SO-FAR.md is 580b8a82 (`fix-20261108/x1124a/apply_x1124a.py`, then
   `revise_n58b.py` and `fix_typo_x1124a.py`; `APPLIED-X1124A.json`); his message word for word:

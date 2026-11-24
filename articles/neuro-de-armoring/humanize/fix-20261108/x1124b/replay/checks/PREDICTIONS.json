@@ -1,0 +1,24 @@
+[
+ {
+  "key": "bl-lma",
+  "name": "Blind rewrite of the lion's mane item (replay)",
+  "lineage": "neuro-de-armoring/W-LMA-blind (replay x1124b)",
+  "scope": "paragraph",
+  "words": 75,
+  "call": "Human",
+  "chance": 0.5,
+  "why": "see the ledger record",
+  "sha256": "682db74d002bd73ff113c669b7d08349fb63f37881c2c6c5a924c4dcb88da8e1"
+ },
+ {
+  "key": "bl-agm",
+  "name": "Blind rewrite of agmatine's stop signs (replay)",
+  "lineage": "neuro-de-armoring/W-AGM-blind (replay x1124b)",
+  "scope": "paragraph",
+  "words": 96,
+  "call": "AI",
+  "chance": 0.4,
+  "why": "see the ledger record",
+  "sha256": "2cf9cd3ddfa6638513ee6efbad7a079b8cccff0adba0c8d9a2edd4761ef49fb8"
+ }
+]

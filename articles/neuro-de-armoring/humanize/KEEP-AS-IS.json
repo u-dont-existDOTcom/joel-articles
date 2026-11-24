@@ -1,7 +1,18 @@
 {
  "format": "joel-keep-as-is-v1",
  "article": "articles/neuro-de-armoring/humanize/HUMANIZED-SO-FAR.md",
- "keep": [],
+ "keep": [
+  {
+   "id": "K1",
+   "kind": "voice",
+   "quote": "nor whether 5-HTP would be good with a mushroom microdose",
+   "what": "a fresh reader marked \"should or shouldn't ..., nor whether\" as a join to fix (\"or whether\"); it is his wording, in his version of the Weeks 3-7 line on card W35, which he checked himself, and the line read Human Written, one window, High again with it on 2026-11-24",
+   "joel": "",
+   "when": "2026-11-24",
+   "where": "card W35 (fix-20261108/x1123a/ANSWERS-X1123A-20261123-2011.json); the read: fix-20261108/x1124a/needed/l61/READ.md",
+   "basis": "my reading, not asked"
+  }
+ ],
  "cuts": [
   {
    "id": "C1",
@@ -73,6 +84,24 @@
    "joel": "43b, 60a",
    "when": "2026-11-24 18:47 UTC",
    "where": "questions 43 and 60 (fix-20261108/joel-20261124-1847-message.txt)",
+   "basis": "his answer"
+  },
+  {
+   "id": "C9",
+   "quote": "heart rate is within normal range",
+   "what": "Scenario A's Step 2's old test for being back under the red line; the test now reads the same in its three places (back down to your usual resting rate, and under 90 BPM)",
+   "joel": "62 a",
+   "when": "2026-11-24 21:43 UTC",
+   "where": "question 62 (fix-20261108/joel-20261124-2143-message.txt)",
+   "basis": "his answer"
+  },
+  {
+   "id": "C10",
+   "quote": "psychedelic days",
+   "what": "the old wording of the lines that forbid 5-HTP or UMP on a psychedelic day; they say a trip now, since a microdose day isn't one and his Weeks 3-7 line covers microdoses",
+   "joel": "64 a",
+   "when": "2026-11-24 21:43 UTC",
+   "where": "question 64 (fix-20261108/joel-20261124-2143-message.txt)",
    "basis": "his answer"
   }
  ]

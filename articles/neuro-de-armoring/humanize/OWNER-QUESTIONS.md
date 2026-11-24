@@ -1,9 +1,8 @@
 # Neuro de-armoring: what I need from Joel
 
-Last updated 2026-11-24, after your message of 18:47 UTC.
-**Open questions: 4** (62 to 65: three from the contradictions check, run again over the changed article, and one from
-the fresh reads of your Weeks 3–7 line). **For you to do**: nothing besides them; your two warnings and your answers 57
-to 61 are in.
+Last updated 2026-11-24, after your message of 21:43 UTC.
+**Open questions: 0.** **For you to do**: nothing. Your answers 62 to 65 are in, and every contradiction the check found
+has its answer. Next is mine: humanizing what is left, a section at a time.
 
 Colours: 🟣 a question for you; 🟠 something for you to do; 🔵 next or in progress; 🟢 done or decided.
 
@@ -12,44 +11,7 @@ can read and update it. Every file it points to is a link.
 
 ## Open questions
 
-**🟣 62. Which heart-rate test is the red line's?** The article gives it three ways: [section A](https://ibogaqueen.substack.com/i/181671197/a-the-metabolic-red-line) says you're over the
-line "once your resting heart rate goes up or your heart-rate variability drops"; [Scenario A](https://ibogaqueen.substack.com/i/181671197/scenario-a-the-glutamate-storm)'s Step 2 says "once
-your heart rate is within normal range"; and the Cognitive Warning [at the top](https://ibogaqueen.substack.com/i/181671197/a-complete-guide-to-bio-de-armoring) and [Scenario C](https://ibogaqueen.substack.com/i/181671197/scenario-c-the-void) say "below 90
-BPM".
-
-- a) The same test in each place: back down to your own usual resting rate, and under 90 BPM. (My pick: section A's test
-  is about your own rate, and the number is one a reader can check.)
-- b) Under 90 BPM everywhere.
-- c) Your words.
-
-**🟣 63. Agmatine with "anything that works on the brain".** With your 34, the warning [at the top](https://ibogaqueen.substack.com/i/181671197/a-complete-guide-to-bio-de-armoring) says not to use
-agmatine with "other complex psychoactive stacks (anything that works on the brain)" without a physician. But
-[Weeks 1–2](https://ibogaqueen.substack.com/i/181671197/part-5-the-timeline-the-8-week-path) adds it to the protocol's own daily stack (PS, NAC, magnesium, L-serine), and your paragraph in
-[the Glutamate Shield](https://ibogaqueen.substack.com/i/181671197/2-the-glutamate-shield-anxiety) says you can try it with psychedelics.
-
-- a) "... or other complex psychoactive stacks (anything that works on the brain, beyond what this protocol pairs it
-  with) ...". (My pick: your 34 stays for everything else.)
-- b) Keep it, and Weeks 1–2's add-on and your Shield paragraph say to have a physician too.
-- c) Your words.
-
-**🟣 64. Is a microdose day a "psychedelic day"?** Five lines say no 5-HTP or UMP on psychedelic days: the rule [at the
-top](https://ibogaqueen.substack.com/i/181671197/a-complete-guide-to-bio-de-armoring), [the 5-HTP section](https://ibogaqueen.substack.com/i/181671197/serotonin-bottleneck-pattern-5-htp-low-dose-p5p), the UMP line in [the Glutamate Shield](https://ibogaqueen.substack.com/i/181671197/2-the-glutamate-shield-anxiety), and the UMP and 5-HTP trials in
-[Weeks 3–7](https://ibogaqueen.substack.com/i/181671197/part-5-the-timeline-the-8-week-path). Your Weeks 3–7 line lets the reader try UMP with any microdose and 5-HTP with a mushroom microdose,
-and [Scenario C](https://ibogaqueen.substack.com/i/181671197/scenario-c-the-void) has the mushroom microdose daily.
-
-- a) No: those five lines mean a trip, and say so ("on the same day as a psychedelic trip"); your line covers
-  microdoses. (My pick: it's what your line already does.)
-- b) Yes: your line's two combos go, and Scenario C's daily microdose can't go with UMP or 5-HTP.
-- c) Your words.
-
-**🟣 65. Your Weeks 3–7 line: the caution for 5-HTP with mushrooms comes after the numbness test.** All three fresh
-readers of [your line](https://ibogaqueen.substack.com/i/181671197/part-5-the-timeline-the-8-week-path) ([one](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261108/x1124a/needed/l61/READ.md), [two](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261108/x1124a/fit/l61/READ.md), [three](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261108/x1124a/his-fixes/l61/READ.md))
-read "try those combos if you want and see how it feels" as an all-clear, since its caution ("Mushrooms act on serotonin
-too ... so stop the 5-HTP if you get any of the stop signs ...") only comes after "If you're too numb to tell ...".
-
-- a) Your last sentence moves up to right after "see how it feels", and the numbness test ends the line. (My pick; I'd
-  check the line by itself then, with 61a's words in.)
-- b) Keep the order.
+- 🟢 **No question is open.**
 
 - 🟢 **Not contradictions, from this check** (say if you see one otherwise): the keto diet in Weeks 3–7 ([your 51a](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261108/x1123b/APPLIED-X1123B.json) says
   Strategy B is there for those weeks, Weeks 3–7 says to consider it then, and your line adds it last; "Drink BHB" is a
@@ -65,7 +27,27 @@ too ... so stop the 5-HTP if you get any of the stop signs ...") only comes afte
 
 ## For you to do
 
-- 🟢 **Nothing besides questions 62 to 65.**
+- 🟢 **Nothing.**
+
+## Your answers of 2026-11-24 21:43 UTC, and what I did
+
+- 🟢 **62a, 63a, 64a and 65a are in, by script** ([what went in](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261108/x1124b/APPLIED-X1124B.json)). 62a: the red
+  line's test reads the same in the Cognitive Warning [at the top](https://ibogaqueen.substack.com/i/181671197/a-complete-guide-to-bio-de-armoring), [Scenario A](https://ibogaqueen.substack.com/i/181671197/scenario-a-the-glutamate-storm)'s Step 2 and
+  [Scenario C](https://ibogaqueen.substack.com/i/181671197/scenario-c-the-void). 63a: the agmatine warning leaves out what the protocol pairs it with. 64a: the lines that forbade
+  5-HTP or UMP on a psychedelic day say a trip. There were six, not five: the 5-HTP line in [the Glutamate Shield](https://ibogaqueen.substack.com/i/181671197/2-the-glutamate-shield-anxiety)
+  had the same words as the 5-HTP trial in [Weeks 3–7](https://ibogaqueen.substack.com/i/181671197/part-5-the-timeline-the-8-week-path), so it changed with them.
+- 🟢 **65a, with three words added.** Your last sentence now comes right after "see how it feels", and the numbness
+  test ends [your line](https://ibogaqueen.substack.com/i/181671197/part-5-the-timeline-the-8-week-path). With the caution between them, "If you're too numb to tell" sat next to the stop signs,
+  where it could be read as too numb to tell a stop sign, so it says "too numb to tell how a combo feels". Say if you'd
+  rather other words. By itself, the line reads [Human Written, one window, High](https://www.pangram.com/history/8c9d1b0f-f972-4aee-9792-b631f960a2c2),
+  with 61a's words in.
+- 🟢 **Every contradiction has its answer**: the check passes with nothing waiting on you
+  ([what became of each](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261108/coherence/x1124a/CHECK.md)). The comparison read and the fidelity check pass
+  ([the read](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261108/x1124b/read-1124b/READER.md)).
+- 🔵 **Next, mine: humanizing what is left.** Counted from the article as it stands ([what is left](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/LEFT.md)): of 141
+  paragraphs, 14 read Human High by themselves at their present words, 69 last read below that, and 58 have no check of
+  their present words. I start with the warnings [at the top](https://ibogaqueen.substack.com/i/181671197/a-complete-guide-to-bio-de-armoring) and go a section at a time: fix each paragraph
+  until it reads right and flows, then check it by itself.
 
 ## Your answers of 2026-11-24 18:47 UTC, and what I did
 
@@ -86,8 +68,8 @@ too ... so stop the 5-HTP if you get any of the stop signs ...") only comes afte
   and the stomach limit before the trials' amount. Two sources back what you said the studies show (Mahmood 2007 on
   the gut, Levine 2017 for the trials). By itself the note reads [Human Written, one window,
   High](https://www.pangram.com/history/e4a2f944-6b5c-43df-aa67-38935185dcc3).
-- 🟢 **59a, 60a and 61a are in**, and "you cerebral cortex" in [Scenario A](https://ibogaqueen.substack.com/i/181671197/scenario-a-the-glutamate-storm)'s Step 2 is "your". 61a's check waits on 64
-  and 65, which change the same line: one check once it's settled.
+- 🟢 **59a, 60a and 61a are in**, and "you cerebral cortex" in [Scenario A](https://ibogaqueen.substack.com/i/181671197/scenario-a-the-glutamate-storm)'s Step 2 is "your". 61a's check waited on 64
+  and 65, which changed the same line; it's done (above).
 - 🟢 **The cuts you meant are on this article's [keep-as-is list](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/KEEP-AS-IS.json)** (your 36a, 39a, 40b, 41a and
   43b, and the old last line of agmatine's stop signs), so no later pass puts them back.
 - 🟢 **The contradictions check, run again** over the changed article ([what became of each](https://github.com/u-dont-existDOTcom/joel-articles/blob/claude/community-joel-1018/articles/neuro-de-armoring/humanize/fix-20261108/coherence/x1124a/CHECK.md)):

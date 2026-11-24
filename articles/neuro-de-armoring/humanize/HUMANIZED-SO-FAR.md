@@ -24,19 +24,19 @@ The Rule: Seek "Boring Love" (parallel play, reading next to someone, safe touch
 
 Cognitive Warning: As you de-armor, you will feel naked and exposed. You will assume everyone can see your anxiety. Dr. Nicholas Epley, [*Mindwise*](https://www.amazon.com/Mindwise-Misunderstand-Others-Think-Believe/dp/030774356X), calls this the "Illusion of Transparency."
 
-The armored brain projects its own internal threat level onto neutral faces. You will think people are judging you; in reality, they are just thinking about themselves. Rule: During this protocol, do not trust your social intuition. It is calibrated to "Threat," not "Truth." Assume you are misreading every room until your heart rate is below 90 BPM.
+The armored brain projects its own internal threat level onto neutral faces. You will think people are judging you; in reality, they are just thinking about themselves. Rule: During this protocol, do not trust your social intuition. It is calibrated to "Threat," not "Truth." Assume you are misreading every room until your heart rate is back down to your usual resting rate, and under 90 BPM.
 
 Lion's Mane & Ashwagandha: I'm not advising either of these, even though they're popular herbs for focus and stress, because some people report anhedonia (no desire) and sexual dysfunction long after they stop taking them. Post-ashwa and post-lion's mane syndrome are rare, but it's the same kind of thing SSRIs and finasteride can do, so it's something to keep in mind.
 
 Agmatine Warning (The Voltage Governor): Agmatine is not a basic nutrient like magnesium or a membrane nutrient like phosphatidylcholine. It is a multi-target neuromodulator that can affect NMDA/glutamate signaling, imidazoline/alpha-2 adrenergic tone, nitric-oxide pathways, and opioid reward/tolerance.
 
-Precautions/Side Effects: Do not use concurrently with opioids and/or kratom (will reduce tolerance), clonidine and/or guanfacine, blood pressure lowering medications (including nitrates and PDE-5 inhibitors), or other complex psychoactive stacks (anything that works on the brain) without having a physician competent to consider the likelihoods of problematic interactions. Not recommended for use in pregnancy or breast-feeding. Use with extreme caution in those with a prior psychotic episode, lower end blood pressure, or kidney or liver issues.
+Precautions/Side Effects: Do not use concurrently with opioids and/or kratom (will reduce tolerance), clonidine and/or guanfacine, blood pressure lowering medications (including nitrates and PDE-5 inhibitors), or other complex psychoactive stacks (anything that works on the brain, beyond what this protocol pairs it with) without having a physician competent to consider the likelihoods of problematic interactions. Not recommended for use in pregnancy or breast-feeding. Use with extreme caution in those with a prior psychotic episode, lower end blood pressure, or kidney or liver issues.
 
 Agmatine can leave some folks flat and numb, according to reports online (although in the human studies we've only seen stomach problems), so stop it right away if you notice you're flatter or more depressed than before you started. I wouldn't push through that signal, because a few people say the numbness hung on for weeks after they quit, so it's not like one of those side effects that you'd only feel at first. Also stop if agmatine winds you up instead (more irritable, can't sleep), or you get dizziness, palpitations, nausea, loose stools or stronger cravings.
 
 Uridine & 5-HTP Warning for Psychedelic Users: These are not "trip enhancers." They are repair-oriented levers that, in practice, can change brain sensitivity quickly. 5-HTP is serotonergic because it is a direct serotonin precursor. Do not combine it with SSRIs, SNRIs, MAOIs, linezolid, lithium, tramadol, methadone, fentanyl, DXM, MDMA, St. John's wort, SAM-e, L-tryptophan, or other serotonin-raising stacks. Be especially conservative around ayahuasca / harmalas because MAO-A inhibition can amplify serotonin load, and around iboga / ibogaine because ibogaine and noribogaine interact with serotonin transport biology and already carry serious cardiac and neurological risk.
 
-Rule: do not take 5-HTP on the same day as psychedelics, and do not use it anywhere near ayahuasca/harmalas or iboga. Uridine is not serotonergic, but it may still change dream vividness, visual sensitivity, craving, and psychedelic tolerance; that's from experience, like Scott's below, not from studies. Do not take UMP on the same day as psychedelics; if sensitivity changes, assume your old psychedelic dose may now be too high.
+Rule: do not take 5-HTP on the same day as a psychedelic trip, and do not use it anywhere near ayahuasca/harmalas or iboga. Uridine is not serotonergic, but it may still change dream vividness, visual sensitivity, craving, and psychedelic tolerance; that's from experience, like Scott's below, not from studies. Do not take UMP on the same day as a psychedelic trip; if sensitivity changes, assume your old psychedelic dose may now be too high.
 
 ## Psychology is the Software; Biology is the Hardware.
 
@@ -183,7 +183,7 @@ Start lower and do the trial with just 50mg 5-HTP at night for 2–3 nights, the
 
 Side effects / stop signs: The most dangerous symptoms to watch out for are diagnostic of serotonin syndrome, which can be deadly if untreated: agitation + sweating + diarrhea + tremor/clonus + fever, confusion, fast heart rate, or unstable blood pressure. Other stop signs include less dangerous symptoms (some of which are part of serotonin syndrome, but not dangerous alone) like nausea, stomach discomfort, loose stools, headache, dreams so intense they disturb your sleep, insomnia, sweating, tremor, anxiety, irritability, emotional agitation, or a too-bright / hypomanic feeling. And rarely, people report anhedonia that goes on for weeks after they stop 5-HTP.
 
-[Serotonin syndrome](https://medlineplus.gov/ency/article/007272.htm) usually comes from mixing 5-HTP casually with anything else that raises serotonin, like antidepressants or MAOIs. Reviews keep warning about the risk with 5-HTP, like [this case report](https://pmc.ncbi.nlm.nih.gov/articles/PMC5580516/), where a young guy on sertraline (an antidepressant) took 5-HTP with a whole pile of weight-loss and energy supplements before a workout, and ended up with serotonin syndrome so bad that surgeons had to cut open both of his legs and his forearm to relieve the pressure! Luckily he recovered. If you're doing psychedelics, avoid 5-HTP on your psychedelic days, and be especially strict around ayahuasca's [harmala MAOI chemistry](https://pmc.ncbi.nlm.nih.gov/articles/PMC7678905/) and around iboga or ibogaine.
+[Serotonin syndrome](https://medlineplus.gov/ency/article/007272.htm) usually comes from mixing 5-HTP casually with anything else that raises serotonin, like antidepressants or MAOIs. Reviews keep warning about the risk with 5-HTP, like [this case report](https://pmc.ncbi.nlm.nih.gov/articles/PMC5580516/), where a young guy on sertraline (an antidepressant) took 5-HTP with a whole pile of weight-loss and energy supplements before a workout, and ended up with serotonin syndrome so bad that surgeons had to cut open both of his legs and his forearm to relieve the pressure! Luckily he recovered. If you're doing psychedelics, avoid 5-HTP on the same day as a trip, and be especially strict around ayahuasca's [harmala MAOI chemistry](https://pmc.ncbi.nlm.nih.gov/articles/PMC7678905/) and around iboga or ibogaine.
 
 ### Fixing ATP Signaling if Cortisol Isn't High
 
@@ -261,9 +261,9 @@ My experience and that of those I know and have read about, is that it has immen
 
 The Void Bridge (Apathy / DAWS-pattern Void):Cordyceps mushrooms: A gentle vitality tool for some people, especially when the Void is mostly fatigue and low respiratory/mitochondrial drive.
 
-Uridine Monophosphate: The more targeted option when the Void looks like dopamine-receptor burnout: low dreams, low visuals, high psychedelic tolerance, dopamine-agonist withdrawal history, or ketamine/LSD chasing. Use UMP as a 3–7 day morning trial with choline + DHA/EPA in place. Do not take it on psychedelic days.
+Uridine Monophosphate: The more targeted option when the Void looks like dopamine-receptor burnout: low dreams, low visuals, high psychedelic tolerance, dopamine-agonist withdrawal history, or ketamine/LSD chasing. Use UMP as a 3–7 day morning trial with choline + DHA/EPA in place. Do not take it on the same day as a psychedelic trip.
 
-5-HTP: Not a dopamine tool. Use only when the parallel problem looks like low serotonin / poor sleep / TPH2 bottleneck. Do not combine with serotonergic medications, ayahuasca/harmalas, iboga, MDMA, DXM, tramadol, or same-day psychedelics.
+5-HTP: Not a dopamine tool. Use only when the parallel problem looks like low serotonin / poor sleep / TPH2 bottleneck. Do not combine with serotonergic medications, ayahuasca/harmalas, iboga, MDMA, DXM, tramadol, or a same-day psychedelic trip.
 
 ### 3. The "Nuclear Option" (Ethnobotanical)
 
@@ -293,7 +293,7 @@ Anatomy overrides intellect. If your heart rate is elevated or heart-rate-variab
 
 Step 1: Rhythmic Regulation (Brainstem): Perform 5 minutes of rhythmic, repetitive sensory input--walking, drumming on your thighs, or rhythmic "Therapeutic Sighing".
 
-Step 2: Check Your Baseline: Once your heart rate is within normal range, your cerebral cortex is receptive. Phosphatidylserine (PS, see Part 2) is a daily baseline agent that lowers how often and how hard these storms hit; it's not an in-the-moment tool.
+Step 2: Check Your Baseline: Once your heart rate is back down to your usual resting rate, and under 90 BPM, your cerebral cortex is receptive. Phosphatidylserine (PS, see Part 2) is a daily baseline agent that lowers how often and how hard these storms hit; it's not an in-the-moment tool.
 
 Step 3: Apply the Jammer: Now use Tetris or the "Color-Path Connect" game to overwrite the visual memory
 
@@ -317,7 +317,7 @@ First-Line Void Add-Ons: If the Void has a DAWS / D2-D3 burnout flavor, trial UM
 
 Hot (3 Minutes): As hot as you can safely handle. This relaxes muscles and induces mild hyperthermia, signaling the body to start producing repair proteins (HSPs/PI31).
 
-The Metabolic Red Line: If your resting heart rate is elevated or HRV reduced, do NOT use high heat yet. Heat mimics exercise and will raise your heart rate further, which can re-enforce your "armor". Stick to lukewarm-to-cold until your baseline heart rate is below 90 BPM.
+The Metabolic Red Line: If your resting heart rate is elevated or HRV reduced, do NOT use high heat yet. Heat mimics exercise and will raise your heart rate further, which can re-enforce your "armor". Stick to lukewarm-to-cold until your heart rate is back down to your usual resting rate, and under 90 BPM.
 
 Cold (1 Minute): Turn it to max cold. This provides the acute stress spike needed to activate the transport motors (p38 MAPK).
 
@@ -359,15 +359,15 @@ Rescue: "The Fire" + [Chantress Seba](https://www.youtube.com/channel/UCM9H6pHyg
 
 Weeks 3–7: The Void (Depression Phase)State: The anxiety mostly stops, but the world turns gray/boring.
 
-So you can tell what each new thing does, add them one at a time, starting with the UMP trial and working down the list below to the keto diet. 5-HTP could help your mood here, though iboga acts on serotonin too, so don't take 5-HTP at all while you're microdosing iboga or elliptica. There isn't enough data to say you should or shouldn't use UMP with any microdose, nor whether 5-HTP would be good with a mushroom microdose, so try those combos if you want and see how it feels. If you're too numb to tell, compare your sleep and dreams on the nights after a microdose day and a day without. Mushrooms act on serotonin too, just not the way iboga does, so stop the 5-HTP if you get any of the stop signs [the 5-HTP section](https://ibogaqueen.substack.com/i/181671197/serotonin-bottleneck-pattern-5-htp-low-dose-p5p) lists.
+So you can tell what each new thing does, add them one at a time, starting with the UMP trial and working down the list below to the keto diet. 5-HTP could help your mood here, though iboga acts on serotonin too, so don't take 5-HTP at all while you're microdosing iboga or elliptica. There isn't enough data to say you should or shouldn't use UMP with any microdose, nor whether 5-HTP would be good with a mushroom microdose, so try those combos if you want and see how it feels. Mushrooms act on serotonin too, just not the way iboga does, so stop the 5-HTP if you get any of the stop signs [the 5-HTP section](https://ibogaqueen.substack.com/i/181671197/serotonin-bottleneck-pattern-5-htp-low-dose-p5p) lists. If you're too numb to tell how a combo feels, compare your sleep and dreams on the nights after a microdose day and a day without.
 
 Protocol:Reduce or stop phosphatidylserine here. This phase is low-drive and gray by design--you do *not* want to keep blunting cortisol in an already-flattened system, or you'll deepen the numbness. PS was for the anxiety phase; the Void phase needs the opposite. (If you never felt the wired/high-cortisol state in Weeks 1–2, you probably shouldn't have been on PS at all.)
 
 Also stop agmatine here unless it is unmistakably helping acute glutamate storms without worsening flatness. The Void phase is already low-drive and gray; agmatine can over-brake the system in the same direction.
 
-UMP trial if the Void looks like DAWS: 150–300 mg UMP in the morning with food for 3–7 days, with choline + DHA/EPA in place. Best fit: low dreams, weak visuals, high psychedelic tolerance, dopamine-agonist withdrawal history, ketamine/LSD craving, or dopamine-hit chasing. Do not take UMP on psychedelic days, and assume old psychedelic doses may become too strong if sensitivity returns.
+UMP trial if the Void looks like DAWS: 150–300 mg UMP in the morning with food for 3–7 days, with choline + DHA/EPA in place. Best fit: low dreams, weak visuals, high psychedelic tolerance, dopamine-agonist withdrawal history, ketamine/LSD craving, or dopamine-hit chasing. Do not take UMP on the same day as a psychedelic trip, and assume old psychedelic doses may become too strong if sensitivity returns.
 
-5-HTP trial if the bottleneck looks serotonergic: 50 mg at night for 2–3 nights, then 100 mg if that clearly helped without side effects, for as long as it benefits you, with optional P5P 10–20 mg in the morning. Best fit: poor sleep, low mood warmth, nighttime rumination, or TPH2-style serotonin synthesis bottleneck. Do not use with serotonergic medications/supplements, ayahuasca/harmalas, iboga, MDMA, DXM, tramadol, or same-day psychedelics.
+5-HTP trial if the bottleneck looks serotonergic: 50 mg at night for 2–3 nights, then 100 mg if that clearly helped without side effects, for as long as it benefits you, with optional P5P 10–20 mg in the morning. Best fit: poor sleep, low mood warmth, nighttime rumination, or TPH2-style serotonin synthesis bottleneck. Do not use with serotonergic medications/supplements, ayahuasca/harmalas, iboga, MDMA, DXM, tramadol, or a same-day psychedelic trip.
 
 Hot showers for the numbness, with [Scenario C](https://ibogaqueen.substack.com/i/181671197/scenario-c-the-void)'s hot and cold routine as the stronger option. *No hot showers if heart rate elevated or heart-rate-variability reduced*. Micro-dose Tabernanthe elliptica or Male Iboga (if heart is ok: an ECG is how to know).
 
