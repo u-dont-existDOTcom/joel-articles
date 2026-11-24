@@ -1,0 +1,14 @@
+{
+ "about": "Round 8 of the blind test (his standing rule): the same section and marks as round 7, with what round 7 missed said in general words (round 7: AI 47%, https://www.pangram.com/history/70006aef-fd88-4cbe-9846-4e9dad3d00de): rule 2 lets the writer cut a point the section's argument doesn't need and name it, rule 4 says a fourth fix that moved points but kept every line read worse too, and way 25 adds where advice goes, a label whose reasons follow, a rule said again, and a line that names both sides. A Fable writer wrote OUT.md in 39 seconds. The check is the section as the writer left it, by itself; the prediction was written and committed first.",
+ "items": [
+  {
+   "key": "fable8-S67",
+   "sha256": "2b1c2e2161d74d0b34cde95cb4ee181782b42cff0769941456b31889050c11d7",
+   "words": 264,
+   "call": "Human",
+   "chance": 0.6,
+   "why": "it cuts the announcing lead-in, the pointing-back line, the how-bad question and the restated rule, joins the condition to its reasons, keeps the line that names both sides, and puts the limit last, as his fix did; but it keeps the five-item backup list (now ending the first paragraph) and the echo-chamber label, and puts the story after the confidants, so I expect Human with a window below High on the list or the confidants paragraph; Human High in every window at 0.35",
+   "text": "Even if I found my twin flame, she’d still be one person. The polarity could be perfect and we’d still need other people around us. Maybe an unusually strong couple can get away without much outside support, but I think that’s rare. If one person goes down, the other becomes the whole backup system for housing, money, children, health, and emotional crises.\n\nSeparate confidants can be helpful and harmful. Sometimes you need privacy from your partner and somewhere else to say what you’re feeling. But if your confidant doesn’t have a good connection with your partner, the conversation can turn into an echo chamber very easily. Whenever something serious comes up in my relationships, we each run to our own friends for support. Then I resent the one-sided story she’s telling, she resents the one-sided story I’m telling. Some of the friends may even be exes who want us to break up, and eventually neither of us wants to talk to the other’s friends anymore.\n\nSo if you do have separate confidants, you need enough emotional maturity to remember they’re only hearing your side, usually while you’re upset, and they may just be trying to protect you, so take what they say with a grain of salt.\n\nOften, a friend who actually knows us both sees the dysfunctional pattern before either of us does. But with the same confidant you may not have a release valve when you want privacy from your partner, so neither way is perfect. And if both people are falling apart, there is only so much anyone else can do."
+  }
+ ]
+}

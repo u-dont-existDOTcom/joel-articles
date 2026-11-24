@@ -1,6 +1,6 @@
 # The fixed version: every changed paragraph
 
-The live post ("Romance Advice I Wish My Parents Taught Me") with each section's and spot's best tested text in place (`assemble.py`, `build.py`), and his own versions from his answers over them (`../r30/HIS-T4.json`, his Medium page of 2026-11-22). Paragraph numbers are the post page's paragraph list (`LIVE-INDEX.txt`). "Two Pillars" 332 is his own new version (it was the owner lock). 168 changes, 184 live paragraphs changed.
+The live post ("Romance Advice I Wish My Parents Taught Me") with each section's and spot's best tested text in place (`assemble.py`, `build.py`), and his own versions from his answers over them (`../r30/HIS-T4.json`, his Medium page of 2026-11-22). Paragraph numbers are the post page's paragraph list (`LIVE-INDEX.txt`). "Two Pillars" 332 is his own new version (it was the owner lock). 169 changes, 184 live paragraphs changed.
 
 ## 1. S1 (live 28)
 
@@ -2138,4 +2138,16 @@ Read by his answer Q-67 (HIS-T7.json): [result](https://www.pangram.com/history/
 > Then I resent the one-sided story she’s telling, and she resents the one-sided story I’m telling. Some of the friends may even be exes who want us to break up, and eventually neither of us wants to talk to the other’s friends anymore. So then at that point when we actually need the most help, we suddenly become the most isolated.
 > Ideally, a friend who actually knows us both sees the dysfunctional pattern before either of us does. But having the same confidant creates the opposite problem: now you may not have a release valve when you want privacy from your partner, so neither way is perfect.
 > And if both people are really falling apart, sometimes there is only so much anyone else can do to help.
+
+## 169. From flow to nitty gritty (live 199)
+
+Read by my tested change R38-42 (MINE-R38.json): [result](https://www.pangram.com/history/2d6004a1-e6e4-4270-9f50-2fb4f96c8d13).
+
+**Live:**
+
+> Living alone is easy in so many ways. I can make my bed whenever I want. When I have a girlfriend, making the bed in the morning can become one of the ways I show her I love her. If I don’t do it well, somehow it may become a bad omen that I don’t care about her.
+
+**New:**
+
+> Dealing with somebody else’s emotional insecurities can also be exhausting. It’s easy to feel free when I don’t have to do that, especially since I’m a bit of an introvert and 10% autistic. All that works wonderfully until I’m in a romantic relationship and suddenly I’m expected to mind-read, silences included, and check in constantly, without ever manipulating her. Bee would accuse me of manipulating her even when I was making an effort not to, and ironically, she actually wanted me to manipulate her more.
 

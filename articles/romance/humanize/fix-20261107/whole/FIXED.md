@@ -418,7 +418,7 @@ Being in a relationship showed me how vulnerable I actually am when I open my he
 
 Living alone is easy in so many ways, like I can make my bed whenever I want. When I have a girlfriend, making the bed in the morning can become one of the ways I show her I love her. If I don’t do it well, somehow it may become a bad omen that I don’t care about her, which is a lot of emotional weight for a bed.
 
-Dealing with somebody else’s emotional insecurities can also be exhausting. It’s easy to feel free when I don’t have to do that, especially since I’m a bit of an introvert and 10% autistic. All that works wonderfully until I’m in a romantic relationship and suddenly I’m expected to read her mind, even her silences, and check in constantly, without manipulating her with all that expert “management.”
+Dealing with somebody else’s emotional insecurities can also be exhausting. It’s easy to feel free when I don’t have to do that, especially since I’m a bit of an introvert and 10% autistic. All that works wonderfully until I’m in a romantic relationship and suddenly I’m expected to mind-read, silences included, and check in constantly, without ever manipulating her. Bee would accuse me of manipulating her even when I was making an effort not to, and ironically, she actually wanted me to manipulate her more.
 
 <!-- IMAGE https://substackcdn.com/image/fetch/$s_!ccfu!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F869227b2-15fa-4f6a-a0df-d3830188e79c_1448x1086.png : a picture in the post -->
 

@@ -803,3 +803,7 @@ Separate confidants can be helpful and harmful. Sometimes you need privacy from 
 Having the same confidant creates the opposite problem: now you may not have a release valve when you want privacy from your partner. There isn’t one perfect arrangement.
 
 If you do have separate confidants, you need enough emotional maturity to remember they will automatically be biased toward you. Take what they say with a grain of salt. They are hearing a partial story, usually while you’re upset, and they may be trying to protect you rather than understand the relationship fairly.
+
+## 169. From flow to nitty gritty (live 199)
+
+Living alone is easy in so many ways. I can make my bed whenever I want. When I have a girlfriend, making the bed in the morning can become one of the ways I show her I love her. If I don’t do it well, somehow it may become a bad omen that I don’t care about her.

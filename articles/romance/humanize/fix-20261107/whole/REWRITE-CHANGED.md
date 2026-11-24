@@ -781,3 +781,7 @@ Then I resent the one-sided story she’s telling, and she resents the one-sided
 Ideally, a friend who actually knows us both sees the dysfunctional pattern before either of us does. But having the same confidant creates the opposite problem: now you may not have a release valve when you want privacy from your partner, so neither way is perfect.
 
 And if both people are really falling apart, sometimes there is only so much anyone else can do to help.
+
+## 169. From flow to nitty gritty (live 199)
+
+Dealing with somebody else’s emotional insecurities can also be exhausting. It’s easy to feel free when I don’t have to do that, especially since I’m a bit of an introvert and 10% autistic. All that works wonderfully until I’m in a romantic relationship and suddenly I’m expected to mind-read, silences included, and check in constantly, without ever manipulating her. Bee would accuse me of manipulating her even when I was making an effort not to, and ironically, she actually wanted me to manipulate her more.
