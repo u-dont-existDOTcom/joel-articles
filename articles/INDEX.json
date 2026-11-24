@@ -128452,7 +128452,7 @@
         },
         "current_state": {
           "path": "articles/bad-trips/CURRENT-STATE.md",
-          "sha256": "ad855754f789d7aac80ff2aa59658c1a8a3bd6b9ed75fa6d25821ad3d7d5a86d"
+          "sha256": "b873a24438e23b1bcd95ea519d4365abce3df59eb1b3626338dad11463b29659"
         }
       },
       "review": {
@@ -128481,7 +128481,7 @@
         },
         {
           "path": "articles/bad-trips/HANDOFF-bad-trips.md",
-          "sha256": "8474c6332489cc067664da23ebac85589a608df901ad992b45be3a4e51b90bb3",
+          "sha256": "8cbe84d93d1da484db03229f51d1135f94209a525661a89b993adaacebcf4abd",
           "role": "humanization_working_record"
         },
         {
@@ -128541,7 +128541,7 @@
         },
         {
           "path": "articles/bad-trips/humanize/pangram-ledger.jsonl",
-          "sha256": "3998d486fe34de1826f2b95e59133d6220a7b59958461045dc23310b32c341ad",
+          "sha256": "944fb6ef427bbb35fe96b14db7f2a5406dde36886d0a7410cd5d3c6afd9e0c0c",
           "role": "humanization_working_record"
         },
         {
@@ -150231,7 +150231,7 @@
         },
         {
           "path": "articles/bad-trips/humanize/h73-20261124/coverage.py",
-          "sha256": "853e2b1fab4fcb0abcd66657126c8d832d204b78396171472cc1e800d0c88b97",
+          "sha256": "a53ef5d056998031f04cfe76b10d30310b739399da6d06bb5039007696b9c5a1",
           "role": "humanization_working_record"
         },
         {
@@ -150726,7 +150726,7 @@
         },
         {
           "path": "articles/bad-trips/humanize/h75-20261124/LEFT.md",
-          "sha256": "ca625e86368179ff0dd1a9b4db348f509366257fc5e8761e8e57e43abd1a8e37",
+          "sha256": "a9280c5c4be14bb99572a2f16ee7ecf79718ea5156b2dbea655163003e7bc4ca",
           "role": "humanization_working_record"
         },
         {
@@ -150756,7 +150756,7 @@
         },
         {
           "path": "articles/bad-trips/humanize/h75-20261124/RESULTS.md",
-          "sha256": "5d9822f6f115963e110fe8e8f0bcd24b6d833e807e36ee970fe06b0786288b4d",
+          "sha256": "f2d9e36c0921870c6e19b85730f1bcbf3bbdb7f8822a3ca152527a51079df426",
           "role": "humanization_working_record"
         },
         {
@@ -150942,6 +150942,41 @@
         {
           "path": "articles/bad-trips/review/r57/cards_r57.py",
           "sha256": "7a4eb2ad1a99a0122be30a7be4f78879e3e3b3951ccd39478af55d4d58a277dd",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/bad-trips/humanize/h75-20261124/RESULTS-h75c.json",
+          "sha256": "a892acbf2683f7a5bd6d233a5822c31324665622b7ae9ce85c6a4c37d502e9c8",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/bad-trips/humanize/h75-20261124/TEST-asis-b111.txt",
+          "sha256": "f8555b1eb8fbc8f17c38a1805a58cb3ceb82407d45f64fd3cd3a3c46cff0921d",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/bad-trips/humanize/h75-20261124/TEST-asis-b127-b128.txt",
+          "sha256": "06a6aa557d5c181eea99938a5b657e8766c9abfbe3c428c5577116808eb45f51",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/bad-trips/humanize/h75-20261124/TEST-asis-b127.txt",
+          "sha256": "4430d1eca8bfc427e36147a026609ac9910c88b071c29dc2433d50e447cc01db",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/bad-trips/humanize/h75-20261124/TEST-asis-b130.txt",
+          "sha256": "ca40ffb150973c8624732eb454fbffe6b7eb2fe9b6c92110410d8813d450c8e0",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/bad-trips/humanize/h75-20261124/TEST-asis-b133.txt",
+          "sha256": "0e55d3d3b263828086297d7864af9eff32052397ef8fcaf6e59a88ce38df48bc",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/bad-trips/humanize/h75-20261124/TEXTS-h75c.json",
+          "sha256": "915fd96b1ceb6d3ef4a2bd0e37698a35eba6dcc516369eb49456de7a05f08a13",
           "role": "humanization_working_record"
         }
       ]
