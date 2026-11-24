@@ -1,0 +1,3 @@
+With MDMA, I treat meaningful jaw tension as the earliest warning that the body needs more magnesium. No clinical trial has tested this directly, but everyone I know who has taken enough magnesium chloride to make their jaw tension fully release has avoided the convulsions and other electrolyte emergencies I have seen when people let that tension continue.
+
+My second wife had severe convulsions after an MDMA overdose. Her potassium was critically low when the hospital tested it. They described it to me as essentially zero, and IV potassium was the only treatment they gave her. So I treat serious MDMA toxicity as an emergency of all the electrolytes, although magnesium is the first and most useful one to give early, when jaw tension appears.

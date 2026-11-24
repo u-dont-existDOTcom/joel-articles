@@ -1950,6 +1950,29 @@
     "which then drain it again",
     "at the doses used to end a trip"
    ]
+  },
+  {
+   "id": "r55-answers",
+   "status": "applied",
+   "what": "his round-55 versions of the MDMA section's first paragraph (B114, TEACH-JAW) and of his second wife's paragraph (B118, TEACH-WIFE), each as his checks had them (6c2c336b; 38fe09f7, one double space made single); B115 with why magnesium chloride, from his TEACH-JAW question, Human High 109 in one window through the API (af5fd4f9); B117 from the post's text with the ways of his round-55 fixes, Human High 62 in one window (686d3bd1) (review/r55/apply_r55.py; humanize/h74-20261124/RESULTS.md)",
+   "joel": "2026-11-24 19:53 UTC: his round-55 export (articles/bad-trips/review/r55/ANSWERS-R55-20261124-1953.json), TEACH-JAW and TEACH-WIFE",
+   "applied_by": "review/r55/apply_r55.py",
+   "must_contain_exact": [
+    "With MDMA, I treat jaw tension as the earliest warning that the body needs more magnesium.",
+    "I don't have studies to back this up, but everyone I know who has taken enough magnesium chloride",
+    "has avoided the MDMA toxicity symptoms they get otherwise",
+    "At the hospital, they figured out what caused that:",
+    "That experience is what leads me to treat serious MDMA toxicity as a broader electrolyte emergency, although magnesium is still the first and most useful supplement to give once the jaw tenses",
+    "since potassium gets depleted after magnesium",
+    "I use it mostly because it absorbs far better than magnesium oxide",
+    "so you can see how it's helping, usually within a minute",
+    "I don't mind a little less euphoria"
+   ],
+   "must_not_contain": [
+    "meaningful jaw tension",
+    "described to me as essentially zero",
+    "most useful early intervention"
+   ]
   }
  ]
 }

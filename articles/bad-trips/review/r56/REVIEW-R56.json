@@ -1,0 +1,118 @@
+{
+ "format": "joel-suggestion-review-v1",
+ "review_id": "bad-trips-r56",
+ "title": "Bad Trips Guide, Round 56",
+ "intro": [
+  "Round 56 (2026-11-24). Both of your versions are in as your checks had them. You were right about \"meaningful\": it was in the post, which a model drafted in parts, and I was wrong to call it a word of yours that the fidelity check held. It is now a cut you meant, and the lesson says whose a word is comes from your versions and answers, never from the check. Each point has its fate in [the record](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/bad-trips/review/r55/RESULTS-R55.md).",
+  "Why magnesium chloride is now in your amounts paragraph: \"I use it mostly because it absorbs far better than magnesium oxide, so you can see how it's helping, usually within a minute.\" It read [Human High in one window](https://www.pangram.com/history/af5fd4f9-ee90-40f4-8bf5-cedf55c61914) on the sixth try, the last two fixes being your ways (the two reasons apart, and \"And\" tying the diarrhea line to yours). The softer-peak paragraph also reads [Human High](https://www.pangram.com/history/686d3bd1-6132-4f5c-b3d9-bec01f8f8455). Every check is in [the record](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/bad-trips/humanize/h74-20261124/RESULTS.md).",
+  "Your fixes are in the repo for every lane ([the lessons](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/docs/lessons/2026-11-24-1953-bad-trips.md)), and a fresh writer that never saw your versions took your second wife's paragraph to Human High from them alone ([the blind test](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/bad-trips/humanize/h74-20261124/replay/RESULTS.md))."
+ ],
+ "git_file": "articles/bad-trips/review/r56/REVIEW-R56.html",
+ "article": {
+  "file": "articles/bad-trips/review/r56/PAGE-R56.md",
+  "sha256": "fa1a37cc9955f05d607cd3017af96c564494c6c3a25a94640228372f21834f2b"
+ },
+ "built": "2026-11-24",
+ "whole": {
+  "file": "articles/bad-trips/review/r56/PAGE-R56.md",
+  "sha256": "fa1a37cc9955f05d607cd3017af96c564494c6c3a25a94640228372f21834f2b"
+ },
+ "links": {
+  "guide": "https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/bad-trips/GUIDE-SO-FAR.md",
+  "guide_label": "the guide as it stands",
+  "check": "https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/bad-trips/review/r56/REVIEW-R56.md",
+  "review": "https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/bad-trips/review/r56/REVIEW-R56.md"
+ },
+ "types": {
+  "plain": {
+   "label": "Said plainly",
+   "about": "AI lines said plainly, each with its reason, the way he fixes his own windows"
+  },
+  "structure": {
+   "label": "Structure",
+   "about": "how the quick version and the long version split the guide, and where a part goes"
+  },
+  "repeat": {
+   "label": "Said twice",
+   "about": "a point the guide already makes elsewhere: one copy goes, the other stays"
+  },
+  "safety": {
+   "label": "Safety in one place",
+   "about": "a caution or call-for-help line said in several places, or one that changes nothing a reader does"
+  },
+  "question": {
+   "label": "Your call",
+   "about": "something only you can decide or know"
+  },
+  "sense": {
+   "label": "Says what it means",
+   "about": "a term explained where it is first used, or a word that says what to do"
+  },
+  "belief": {
+   "label": "Your belief back",
+   "about": "a sentence of your post that said why, cut in an earlier round, put back where it bears on what the reader does"
+  },
+  "method": {
+   "label": "Your method where it is used",
+   "about": "a line the guide already has, put where the reader uses it in trouble (your METHOD-WHERE answer, round 28)"
+  },
+  "notes": {
+   "label": "Your notes, placed",
+   "about": "what you sent in a comment, put where it belongs in the guide, as you sent it"
+  },
+  "typo": {
+   "label": "Typo",
+   "about": "a word in your own paragraph spelled differently from how you spell it elsewhere, with the fix in place"
+  },
+  "boilerplate": {
+   "label": "Boilerplate",
+   "about": "standard advice a model added that carries none of your method and no safety point a reader needs, shown as the section would read without it (your round-32 note)"
+  },
+  "quiz": {
+   "label": "Quiz",
+   "about": "my reading of my own sentences, written before any Pangram check, for you to score (your suggestion of 2026-11-21)"
+  },
+  "teach": {
+   "label": "Teach me",
+   "about": "a paragraph that reads AI in every wording I tried, whose shape many stuck paragraphs share: how you would say it teaches me how to say them (you asked for these on 2026-11-07)"
+  }
+ },
+ "suggestions": [
+  {
+   "id": "CHLORIDE-CLAIM",
+   "type": "question",
+   "advice": "ask",
+   "title": "1. Your amounts paragraph: why magnesium chloride",
+   "whose": "his own: his TEACH-JAW comment of round 55 (\"it absorbs faster and better than any other form, so you can see how it's helping usually within a minute\")",
+   "question": "You wrote that magnesium chloride \"absorbs faster and better than any other form\". The study the sentence links ([Firoz and Graber 2001](https://pubmed.ncbi.nlm.nih.gov/11794633/)) found magnesium oxide poorly absorbed (4%%), and chloride, lactate and aspartate absorbed about equally well, and I found no study comparing how fast the forms act. So the guide says: \"I use it mostly because it absorbs far better than magnesium oxide, so you can see how it's helping, usually within a minute\", with the minute as what you see.\na) Keep it as it is.\nb) Say \"any other form\" anyway, as your experience, in your words in the box.\nc) Something else: say it in the box.",
+   "why": "it is your claim, and the source only backs part of it",
+   "stays": "the sentence as it is",
+   "advice_note": "a: it says what the study shows, and your minute stays yours",
+   "spans": [
+    {
+     "block": 95,
+     "start": 0,
+     "end": 610
+    }
+   ]
+  },
+  {
+   "id": "WIFE-LAST",
+   "type": "question",
+   "advice": "ask",
+   "title": "2. Your second wife's paragraph: its last phrase",
+   "whose": "his own: his TEACH-WIFE version of round 55, its last sentence",
+   "question": "Your version is in as you wrote it. Two things about its last phrase, \"since potassium gets depleted after magnesium\":\nA fresh reader took \"after magnesium\" as the magnesium causing the potassium loss, which could scare someone off the very thing you tell them to give. What you meant holds: low magnesium makes the kidneys lose potassium ([Huang and Kuo 2007](https://pubmed.ncbi.nlm.nih.gov/17804670/)).\nAnd in the API your paragraph reads [High in one window](https://www.pangram.com/history/9a72854c-b5a3-4515-a622-b4a2ae99b9b6) only with the double space you pasted after \"At the hospital,\"; with one space, the way a published page shows it, its last sentence reads [Medium](https://www.pangram.com/history/590654bf-e074-4d55-aa0f-3d3ea076bd37). With \"since potassium gets depleted once magnesium runs low\", it reads [Human High in one window](https://www.pangram.com/history/e74a7e6b-7047-4e54-af54-64070d2b5879) with one space.\na) \"since potassium gets depleted once magnesium runs low\".\nb) Keep yours.\nc) Your own words in the box.",
+   "why": "it is your sentence, and the change is one phrase of it",
+   "stays": "your version as it is",
+   "advice_note": "a: it says what you meant, and it reads High as the page will show it",
+   "spans": [
+    {
+     "block": 97,
+     "start": 0,
+     "end": 455
+    }
+   ]
+  }
+ ]
+}

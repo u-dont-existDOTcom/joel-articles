@@ -23,6 +23,9 @@ that still reads the first way.
    toxicity, seizure, dangerous overheating, cardiovascular symptoms, ..." into "are they suffering from slow and shallow
    breathing (respiratory depression, from opioids, benzos and alcohol)? Or is it rapid breathing, heart rate, and
    agitation, signs of stimulant toxicity?"
+   An aside set off by dashes inside a sentence that already carries its point is this way too: taking out "--described to
+   me as essentially zero--" was the first of his four checked fixes of his second wife's paragraph (2026-11-24, lesson
+   bad-trips-2026-11-24o).
 2. **Built the same way as its neighbours.** Items or sentences that repeat one shape: the same opening, the same
    connector, a term in brackets at the same place in each, or the same comparing word ("is a different problem from ...,
    and both are different from ..."). He builds each one differently: "would be one full pattern", "would be counted as one
@@ -35,6 +38,9 @@ that still reads the first way.
    could say the thing itself. He fixed "This is a recognition aid rather than a command to wait for every criterion
    before acting." into "So if you see any of these patterns, call medics." Mark it unless the contrast answers a worry
    the reader really has ("Just because it's unplanned doesn't mean it will be more shocking" is his).
+   A contrast word stronger than the relation it marks is this way too. He changed "even though" to "although" in "a
+   broader electrolyte emergency, although magnesium is still the first and most useful supplement to give", since "even
+   though implies a stronger contrast than a subset of a broader treatment implies" (2026-11-24, lesson bad-trips-2026-11-24o).
 4. **Vague about who, what, or what counts.** He fixed "whatever could hurt somebody" into "Anything that could let
    someone hurt themselves", "water" into "pools of water", "adjunct" into "adjunct remedy", and spelled out that each
    combination "would be counted as one pattern altogether".
@@ -42,6 +48,9 @@ that still reads the first way.
    flushing and low blood pressure", in a sentence that had already said "which this guide uses for ending a trip", left
    the reader with no amount; "at that dose" took the step's two Medium windows at once (bad trips, 2026-11-24, lesson
    bad-trips-2026-11-24g).
+   "the first and most useful early intervention" became "the first and most useful supplement to give", and "the other
+   complications I have seen" became "the MDMA toxicity symptoms they get otherwise" (2026-11-24: "i changed intervention
+   which is vague to more clear"; lessons bad-trips-2026-11-24o and p).
 5. **Opening on a rule or an authority, with the reader outside it.** He fixed "Clinicians often use the Hunter criteria"
    into "We can use the same Hunter criteria that clinicians use", "Get urgent help when somebody may harm themselves"
    into "the moment you think they might hurt themselves or anybody else, get urgent help", "Dim the lights. Lower the
@@ -103,6 +112,10 @@ that still reads the first way.
    other way, the case where the answer was yes), and mark it if nothing in it says so.
    A "So" has to follow: after "Their potassium could be running low or high", my "So I'd stick to food like the potato
    broth for potassium" was "a non-sequitir" (2026-11-23): if it may be high, why give any? Say what the "So" rests on.
+   His "At the hospital, they figured out what caused that: her potassium was found to be critically low" tied a story's
+   second sentence to its first, which "flipped 2 human" (2026-11-24, lesson bad-trips-2026-11-24o); "And magnesium chloride
+   is less likely to cause diarrhea ..." after his line about his own diarrhea took the last Medium window of that
+   paragraph (lesson bad-trips-2026-11-24q).
 13. **Leaves the reader wondering why they're reading it.** A sentence or step that opens on what to do, or on a fact,
    before saying what in the situation calls for it. He opened the fluids step on why fluids come up at all, tied to the
    step before: my "Give fluids only if they're fully alert, able to swallow and not vomiting" became his "Overstimulating
@@ -134,6 +147,9 @@ that still reads the first way.
    One subject split across places is the same fault: magnesium came up in step 6, in step 8 and in his MDMA section
    ("is that the 3rd or 4th time?", "is there no way to keep it with the previous mention?"); everything about it goes
    with its first mention (2026-11-23).
+   A limit said, then said again as what the evidence is: "Nobody has tested this in a trial that I know of, so it's from
+   what I've seen myself" became his "I don't have studies to back this up, but everyone I know who ..." ("your versions
+   were redundant", 2026-11-24, lesson bad-trips-2026-11-24p).
 17. **Advice that isn't right here.** Advice carried over from another case, or that another part contradicts. My "not
    even pills or charcoal" in the fluids step went: the step before it gives a pill (cyproheptadine) to anyone fully
    alert and able to swallow, and charcoal isn't part of serotonin syndrome care (2026-11-21: "the advice i think was not

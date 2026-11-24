@@ -3353,6 +3353,18 @@
     }
    ],
    "reason": "whether the reader already has the case in front of them, and what the amount points at, is meaning: a fresh reader given tools/humanization/fit_read_brief.md marks what they cannot tell"
+  },
+  {
+   "id": "J90",
+   "tell": "a contrast word stronger than the relation it marks (\"even though\" where one thing is part of the other, the first step of a broader treatment)",
+   "kind": "judgment",
+   "sources": [
+    {
+     "file": "docs/lessons/2026-11-24-1953-bad-trips.md",
+     "quote": "since \"even\n  though implies a stronger contrast than a subset of a broader treatment implies\""
+    }
+   ],
+   "reason": "how strong the relation between two clauses is, opposition or a part of a whole, is meaning: a fresh reader given tools/humanization/his_fixes_brief.md (its third way)"
   }
  ]
 }

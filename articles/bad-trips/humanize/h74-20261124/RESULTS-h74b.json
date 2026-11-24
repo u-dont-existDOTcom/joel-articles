@@ -1,0 +1,44 @@
+{
+ "a2-b115": [
+  "AI Assisted",
+  0.0,
+  106,
+  "Human Written, High, 43; AI-Assisted, Low, 24; AI-Assisted, Low, 18; AI-Assisted, Medium, 24",
+  "2026-11-24T20:03:53Z",
+  "/59518a51-ab5c-466e-b7ee-4b12b407d77d",
+  [
+   "AI-Assisted Low (24 words): I use magnesium chloride because it's absorbed far better than magnesium oxide, and I can usually see it start helping within a minute.",
+   "AI-Assisted Low (18 words): Around twenty grams is fine for my gut, and I've only had diarrhea above about forty grams.",
+   "AI-Assisted Medium (24 words): Magnesium chloride is also less likely to cause diarrhea than several other kinds of magnesium, including the ones people take on purpose as laxatives."
+  ]
+ ],
+ "a2-b117": [
+  "Human Written",
+  0.0,
+  63,
+  "Human Written, High, 37; Human Written, Low, 29",
+  "2026-11-24T20:03:59Z",
+  "/cc038ec8-3049-46ba-b14a-a0c0234403ec",
+  []
+ ],
+ "a2-b120": [
+  "AI Generated",
+  1.0,
+  117,
+  "AI-Generated, High, 124",
+  "2026-11-24T20:04:06Z",
+  "/e2566e53-84ec-45c7-880d-87b8cbdcecda",
+  [
+   "AI-Generated High (124 words): the whole paragraph"
+  ]
+ ],
+ "his-b118ds": [
+  "Human Written",
+  0.0,
+  75,
+  "Human Written, High, 75",
+  "2026-11-24T20:04:13Z",
+  "/9a72854c-b5a3-4515-a622-b4a2ae99b9b6",
+  []
+ ]
+}
