@@ -73393,7 +73393,7 @@
         },
         {
           "path": "articles/inner-signal/experiments/toc-20261123/PICKS-PAGE.html",
-          "sha256": "45f9e96798bfca64ecee5d0ac589e658011174180ce973baf5a0dd9214f7fb57",
+          "sha256": "b3d4fcaaa45ab3923ddda5ec113fd5fa516ab3fddc6b7f89890e794cf470f3ff",
           "role": "humanization_working_record"
         },
         {
@@ -73504,6 +73504,16 @@
         {
           "path": "articles/inner-signal/experiments/toc-20261123/reads/READ-PICK2-2.md",
           "sha256": "f0b42c1746044fcac9ec8e5305b852ba94ba10d755d7c9d84f16c122610925c2",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/experiments/toc-20261123/answers/JOEL-20261124-1418-partial.json",
+          "sha256": "68a710282075fc495eefcbad9674b70c9db3632b14d53a875cf909be300d10ad",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/experiments/toc-20261123/answers/JOEL-20261124-1418.md",
+          "sha256": "eb8f076f6543eec38ddb605ec4dce049b923b7ce3f981238abe204a73a84285d",
           "role": "humanization_working_record"
         }
       ]

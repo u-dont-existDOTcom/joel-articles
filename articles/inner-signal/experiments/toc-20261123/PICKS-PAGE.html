@@ -175,8 +175,20 @@ function save(){
   if (doc) { s.textContent = 'Saving…'; clearTimeout(timer); timer = setTimeout(flush, 500); }
   else s.textContent = 'Saved in this browser';
 }
+// A pick updates its own heading in place (lesson toc-2026-11-24a): rebuilding every heading on each click, as this page
+// did until 2026-11-24, threw away the box being typed in, so a first click into "Your own words" lost what came next,
+// and on his 164-heading page the clicks stopped taking ("now it won't let me make any selection").
+function updateItem(id){
+  const it = document.getElementById('i-' + id); if (!it) return;
+  it.querySelectorAll('.ch label').forEach(l => { const r = l.querySelector('input[type=radio]'); l.classList.toggle('sel', !!(r && r.checked)); });
+}
 document.addEventListener('change', ev => { const t = ev.target;
-  if (t.type === 'radio' && t.name.startsWith('p-')) { ans.picks[t.name.slice(2)] = t.value; save(); redraw(); } });
+  if (t.type === 'radio' && t.name.startsWith('p-')) {
+    const id = t.name.slice(2); ans.picks[id] = t.value; save(); updateItem(id); drawBars();
+    if (t.value === 'own') { const inp = document.querySelector(`input[data-own="${id}"]`); if (inp && document.activeElement !== inp) inp.focus(); }
+  } });
+window.addEventListener('error', ev => { const s = document.getElementById('saved');
+  if (s) s.textContent = 'Something broke on this page (' + (ev.message || 'error') + '): copy your answers and tell Claude'; });
 document.addEventListener('input', ev => { const t = ev.target;
   if (t.dataset && t.dataset.own) { ans.own[t.dataset.own] = t.value; ans.picks[t.dataset.own] = 'own'; showOwn(t.dataset.own, +t.dataset.level, t.value); save(); drawBars(); }
   if (t.dataset && t.dataset.q) { ans.answers[t.dataset.q] = t.value; save(); }
