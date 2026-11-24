@@ -44,7 +44,7 @@ for n, o in enumerate(P['ops'], 1):
 # (live-check/LIVE-POST-BLOCKS-20261122.jsonl), checked against LIVE-INDEX.txt like the rest.
 json.dump({str(k): v for k, v in sorted(repl.items())}, open(HERE / 'REPLACEMENTS-CHECKS.json', 'w', encoding='utf-8'),
           ensure_ascii=False, indent=1)   # the checks' replacements alone, which the layers are made against
-LAYERS = [HERE.parent / 'r30' / 'HIS-T4.json', HERE.parent / 'r31' / 'HIS-T5.json', HERE.parent / 'r33' / 'MINE-R33.json', HERE.parent / 'r33' / 'HIS-FLAWS.json', HERE.parent / 'r34' / 'MINE-R34.json', HERE.parent / 'r35' / 'MINE-R35.json', HERE.parent / 'r36' / 'HIS-T6.json', HERE.parent / 'r36' / 'MINE-R36.json', HERE.parent / 'r37' / 'HIS-S05.json', HERE.parent / 'r37' / 'MINE-R37.json', HERE.parent / 'r38' / 'HIS-T7.json', HERE.parent / 'r38' / 'MINE-R38.json', HERE.parent / 'r38' / 'junk' / 'MINE-R38J.json', HERE.parent / 'r39' / 'HIS-T8.json', HERE.parent / 'r39' / 'MINE-R39.json']
+LAYERS = [HERE.parent / 'r30' / 'HIS-T4.json', HERE.parent / 'r31' / 'HIS-T5.json', HERE.parent / 'r33' / 'MINE-R33.json', HERE.parent / 'r33' / 'HIS-FLAWS.json', HERE.parent / 'r34' / 'MINE-R34.json', HERE.parent / 'r35' / 'MINE-R35.json', HERE.parent / 'r36' / 'HIS-T6.json', HERE.parent / 'r36' / 'MINE-R36.json', HERE.parent / 'r37' / 'HIS-S05.json', HERE.parent / 'r37' / 'MINE-R37.json', HERE.parent / 'r38' / 'HIS-T7.json', HERE.parent / 'r38' / 'MINE-R38.json', HERE.parent / 'r38' / 'junk' / 'MINE-R38J.json', HERE.parent / 'r39' / 'HIS-T8.json', HERE.parent / 'r39' / 'MINE-R39.json', HERE.parent / 'r40' / 'HIS-T9.json']
 POST = {}
 for line in (HERE.parent / 'live-check' / 'LIVE-POST-BLOCKS-20261123.jsonl').read_text(encoding='utf-8').splitlines():
     r = json.loads(line)

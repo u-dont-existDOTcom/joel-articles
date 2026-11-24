@@ -883,3 +883,41 @@ A relationship like this is rare, and that’s probably why romantic love has be
 ## 188. Tough Love (live 451)
 
 My parents agreed with Somé that community matters and that we serve Spirit. They were also not romantic, though they were loving and poly. I actually wished they were in love with each other, I guess, although I couldn’t have articulated that since I didn’t even have that concept at the time. Also reminiscent of Somé, they also wore rose-colored glasses and taught me that everybody was basically good. So I learned something about love and community, but not how hard romance is without a community around it, or how much damage basically good people can do when their fears, trauma, and undeveloped parts take over.
+
+## 189. Should you be in a relationship at all? (live 43)
+
+This is a horrible catch-22. Wounded people get lonely, and loneliness itself can kill. But the wounds that make somebody desperate for a relationship may also make them a terrible person to be in one with. People don’t only trigger each other and learn lessons. Sometimes they terrorize or kill each other.
+
+## 190. Should you be in a relationship at all? (live 46)
+
+A good relationship can teach you self-love too, which is part of the problem: you may need one most when you’re least capable of creating a good one, recognizing one, or keeping it good. It depends what each of you are ready for and have the resources for. Here’s a video that can help understand the long process.
+
+## 191. Twin Flames? (live 314)
+
+My ex-girlfriend, Malia, (who is currently hosting me in Sênêgal) found her twin flame (I think) in January, 2026. They only talked for a month, but since she started talking to him, they both have been able to feel the other one’s emotions at any time, from any distance, without having to communicate. To the point where if one feels really bad, so does the other. If one is very happy, so is the other, like quantum entangled photons or something. I’ve also had telepathy with some folks, especially my first wife, Bee, but it was never quite to such an extreme as what Malia has with Mouhamed. Meanwhile his family forbade him from being with her, so he dumped her. Not sure why, maybe because she’s 8 years older than him (although she looks quite young). They both try to pretend like they will be able to get over each other, but I doubt it. Meanwhile, Malia’s trying to marry ChatGPT, but she should have picked Grok, I guess. 😅
+
+## 192. De-ontologizing Twin Flames FTW 💗 (live 329)
+
+This goes back to what I said in “doing Idealization right:” If you really loved them, more than just wanting to enjoy them or keep them, you’d want to be a good influence on them. That means showing them the infinite appreciation you have for their divine, inner-child-higher self, and holding their hand to gently guide them back to that deeply authentic part of themself when they get off track—if that is where they want to go. Making it clear that that’s why you’re in love with them. Not because they are imperfect, not because you’re crazy and desperate. You accept the imperfect person and help them move toward the part of themselves they chose, because you want to “Make them move with confidence” like the Faker song “Talk is cheap.”
+
+## 193. Primal attraction: channeling the Divine Masculine & Feminine (live 252, 253, 254, 255, 256, 257, 258, 259)
+
+Everything I’ve been putting forward so far has leaned toward honesty, closeness, and equal dignity. I do believe in that basically for any type of relationship, but none of that by itself explains why two people still want to tear each other’s clothes off each night.
+
+For me, safety gives the space for desire, even if it doesn’t spark it.
+
+When I feel safe with a woman, we can actually tell each other our fantasies without worrying that the other is going to be horrified or weaponize it later. We can imagine pregnancy and really enjoy the thought that we might be making a baby, rather than imagining I’m ejaculating into a condom and hoping nothing happens.
+
+Whenever I was scared of getting a woman pregnant, the sex was usually much more boring.
+
+So why is it that a lot of relationship advice says desire needs distance, mystery, withholding, maybe even separate homes? I suspect they are compensating for a lack of expressed difference while together.
+
+The more safety there is, the more closeness there is, the more polarity there needs to be to keep things alive and poppin’.
+
+Some women may only get turned on by pathology and danger. A woman may also feel her man has become so feminine that there is no contrast left.
+
+A lot of women want to feel that the man is dangerous in some way, but preferably in an exciting and defending way rather than threatening. Beauty and the Beast is a “tale as old as time” for a reason.
+
+## 194. Primal attraction: channeling the Divine Masculine & Feminine (live 260)
+
+The real question is whether polarity stays alive inside the safety.

@@ -1,0 +1,42 @@
+[
+ {
+  "block": 5,
+  "text": "gender wars have gone to real extremes in modern years",
+  "kind": "wrong-word",
+  "what": "\"modern years\" is not idiomatic; \"recent years\" is meant.",
+  "fix": "gender wars have gone to real extremes in recent years",
+  "confidence": "likely",
+  "readers": [
+   1
+  ],
+  "reports": [
+   {
+    "reader": 1,
+    "kind": "wrong-word",
+    "what": "\"modern years\" is not idiomatic; \"recent years\" is meant.",
+    "fix": "gender wars have gone to real extremes in recent years",
+    "confidence": "likely"
+   }
+  ]
+ },
+ {
+  "block": 12,
+  "text": "this feeling that life is worth doing",
+  "kind": "wrong-word",
+  "what": "Life is \"worth living\", not \"worth doing\".",
+  "fix": "this feeling that life is worth living",
+  "confidence": "likely",
+  "readers": [
+   1
+  ],
+  "reports": [
+   {
+    "reader": 1,
+    "kind": "wrong-word",
+    "what": "Life is \"worth living\", not \"worth doing\".",
+    "fix": "this feeling that life is worth living",
+    "confidence": "likely"
+   }
+  ]
+ }
+]

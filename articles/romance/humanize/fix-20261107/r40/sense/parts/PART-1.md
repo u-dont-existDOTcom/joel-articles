@@ -1,0 +1,31 @@
+# Part 1 of the article: blocks 0 to 13
+
+## The part to read
+
+[0] # Primal attraction: channeling the Divine Masculine & Feminine
+
+[1] Much of this article so far has leaned toward equality of responsibilities and mutual respect. I do believe in that kind of fairness and balance in relationships in general, but that liberal modern philosophy fails to explain why two people still want to tear each other’s clothes off each night.
+
+[2] For me, feeling safe gives the space for desire, but it clearly isn't sufficient to spark it. When I feel safe with a woman, we can actually tell each other our fantasies without worrying that the other is going to be horrified or weaponize it later. We can imagine pregnancy and really enjoy the thought that we might be making a baby, rather than imagining I’m ejaculating into a condom and hoping nothing happens. Whenever I was scared of getting a woman pregnant, the sex was usually much more boring.
+
+[3] So why is it that a lot of relationship advise says desire needs distance, mystery, withholding, maybe even separate homes? I suspect they are compensating for a lack of expressed difference while together. The more safety there is, the more closeness there is, the more polarity there needs to be to keep things alive and poppin’.
+
+[4] One controversial example of the polarity-seeking is that a lot of women want to feel that their man is dangerous in some way, but preferably dangerous towards anyone who might harm her. Beauty and the Beast is a “tale as old as time” for a reason. And this can sometimes be a basis for what they call "shit-testing," since how would you know if your man is powerful until you test him with a fight or disrespect?
+
+[5] One evolutionary reason for this, as Cooper explains in this Red Pill "man-o-sphere" video above, is that human history is full of wars, and thus, we are descendants of war brides taken by victors. So the women who weren't attracted to the most powerful and dangerous men would be least likely to reproduce, in many cases. Cooper tells men that the depressing truth is, women are, by nature, hypergamous, always looking to trade up for a more powerful man, so men need to find ways to stand out from the crowd. As you can see in the comments on the vid, the idea of playing this role to keep a woman is actually so depressing for many men that they decide to abandon romance altogether and become hermits ("for safety and legal reasons"). And the gender wars have gone to real extremes in modern years, maybe most exemplified in South Korea.
+
+[6] What I would say to that depressing take is, Cooper is sort of right, but he doesn't go far enough. Anyone can watch his video and than do the things he says to do and thus stand out from the crowd like he does (until everyone does). But that's superficial posturing, and he even proudly shows how he postures with carefully planned photo shoots for his social media, avoiding the "soy boy smile" which is actually his natural one.
+
+[7] I believe the real way for someone to stand out, is to be their unique, authentic, beautiful (no-)self, because there's no competition there. Nobody can ever beat me at being me (especially since I don't exist!). Cooper might retort that's simply not what attracts women on average, and again, I'd concede that point, because I'm not interested in average women and the superficial connections I'd have with them. On the other hand, one thing that I've noticed is that many women are very attracted not precisely to confidence in general, but rather to a specific type of confidence which is produced by deep relaxation/flow state. When I've been at my most relaxed, I've literally had beautiful women stop their cars in the middle of the road to ask me to get in (thankfully, I didn't, but it was tempting).
+
+[8] I think the key in life in general is to understand that human psychology, in general, is quite nasty, but the ugliness is only dust covering the gem inside us which every spiritual tradition points to. It is by touching the divine ocean of the heart that we can relate to each other from above the animalistic mind and the ancestral trauma. It doesn't mean we suddenly find unattractive people to be attractive, but I do find that as I have matured spiritually and emotionally, I've lost interest in 99% of the women I previously saw as attractive, because now I'm seeing their ego before I get in too deep. And while it's hard to sell this idea of greater selectivity to someone who already can't find a mate, I personally prefer to be alone than to settle for just another pretty war bride.
+
+[9] So while Cooper thinks it's a constant struggle to stray on top, so your mate will continue desiring you more than anyone else, I'm saying that the best mate you could ever hope for is the one who will know after connecting with you over time, that they will never be able to replace you and the love connection they share with you.
+
+[10] Having explained my objections to lowering romantic expectations to the common denominator, I do agree with Cooper that men and women should have contrasting roles to the extent they find that natural.
+
+[11] ## Muses & Directors
+
+[12] In ordinary life, I sometimes think of the woman as the engine and myself as the steering wheel, and I get motivation from her. She is the life force. She brings inspiration, beauty, intuition, creativity, and this feeling that life is worth doing.
+
+[13] I help give it direction and make it operational.

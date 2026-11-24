@@ -255,12 +255,21 @@ with his OK and no email.
   lead model itself, found five severity-1 snags, each kept with its reason (`r39/compare/DISPOSITIONS.json`). Drafts A
   and B pasted again at 12:56 UTC from e07b733f; each secret link's rendered text matched (`whole/DRAFTS.json`, "r39").
   The builder now leaves out the four empty paragraphs his update of 2026-11-23 left by the embeds.
+- 2026-11-24 16:23 UTC (his message: his whole-article check of the r39 drafts, J-B54 approved, "senegal should be
+  corrected", the double full stop kept, his new opening of "Primal attraction", and the card game). Both drafts read
+  Human with every window Human; three one-sentence windows of his live text read Medium at window edges
+  (`humanize/fix-20261107/r40/RESULTS-whole-r39.json`). J-B54, Senegal, his new opening (live 252 to 260, with his video
+  and links) and a pointer's section name are in (`r40/HIS-T9.json`); their sections read Human High, and every section
+  check of the fixed version does. The first contradictions check: seven items, three explained, two not real, two to
+  him; with two words a reader stumbled on, they are the ninth marking page (https://claude.ai/artifact/U6WQyL8B7ELEdDzHYbBeHk,
+  `review/teach-20261124c/REVIEW-T9.md`). The card game, "Love, Honestly" on his innerself site: `r40/CARD-GAME.md`.
 
 ## Next step
 
-His whole-article check on the two secret links (given in chat on 2026-11-24, kept out of Git; `whole/DRAFTS.json`):
-every window must read High, and any window below High is fixed and checked again in its section. J-B54, if he decides
-it. Then his post is updated with his OK (no email): 366's link to Esther Perel's post, the reel embedded after 149, the
+His whole-article check of the drafts pasted again with r40's changes (`whole/DRAFTS.json`, entry "r40"; the links go to
+him in chat): every window must read High, and any window below High is worked on in its section. His answers on the ninth
+page (Q-C1, Q-C7, Q-S5, Q-S12). His choice for the card game (`r40/CARD-GAME.md`). Then his post is updated with his OK
+(no email): 366's link to Esther Perel's post, the reel embedded after 149, his new opening's video and links, the
 typography swap and the "Updated" date; he deletes the two drafts.
 
 ### Before 2026-11-07 (the registered master, as recorded then)

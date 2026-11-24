@@ -24,6 +24,12 @@ POSTF = HERE.parent / 'live-check' / 'LIVE-POST-BLOCKS-20261123.jsonl'
 recs = [json.loads(l) for l in POSTF.read_text(encoding='utf-8').splitlines()]
 REPL = {int(k): v for k, v in json.loads((HERE / A.repl).read_text(encoding='utf-8')).items()}
 LAYER = json.loads((HERE.parent / 'r30' / 'HIS-T4.json').read_text(encoding='utf-8'))
+# r40: his message of 2026-11-24 brought links and a video with his new opening of "Primal attraction" (r40/HIS-T9.json)
+for _extra in [HERE.parent / 'r40' / 'HIS-T9.json']:
+    if _extra.exists():
+        _L = json.loads(_extra.read_text(encoding='utf-8'))
+        LAYER = {'links': LAYER['links'] + _L.get('links', []), 'changes': LAYER['changes'] + _L['changes'],
+                 'embeds': LAYER['embeds'] + _L.get('embeds', [])}
 if A.no_layer:
     LAYER = {'links': [], 'changes': [], 'embeds': []}
 extra_links = {}
@@ -35,7 +41,7 @@ for ch in LAYER['changes']:
         card_of[n] = ch['card']
 embed_after = {}
 for e in LAYER['embeds']:
-    embed_after.setdefault(int(e['card'][2:]), []).append(e)
+    embed_after.setdefault(int(e.get('after_live') or e['card'][2:]), []).append(e)
 
 
 def linked(text, links):
@@ -92,7 +98,7 @@ for k, r in enumerate(recs):
     else:
         lines.append(('- ' if tag == 'LI' else '') + linked(text, [tuple(l) for l in r.get('links', [])]))
     for e in embed_after.get(n, []):
-        lines.append('<!-- EMBED %s : Instagram reel he asked for here (2026-11-22) -->' % e['url'])
+        lines.append('<!-- EMBED %s : %s -->' % (e['url'], e.get('note') or 'Instagram reel he asked for here (2026-11-22)'))
 
 md = '\n\n'.join(lines) + '\n'
 (HERE / A.out).write_text(md, encoding='utf-8')

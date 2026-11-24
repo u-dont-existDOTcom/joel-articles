@@ -861,3 +861,43 @@ A passionate romantic relationship that’s also stable is rare, and that’s pr
 ## 188. Tough Love (live 451)
 
 My parents agreed with Somé that community matters and that we serve Spirit. They were also not romantic, though they were loving and poly. I actually wished they were in love with each other, I guess, although I couldn’t have articulated that since I didn’t even have that concept at the time. And like Somé, who saw everyone as naturally good in their natural environment, flowing with life the way our ancestors showed us, they trusted the universe, rose-colored glasses and all, and taught me that everybody was basically good. So I learned something about love and community, but not how hard romance is without a community around it, or how much damage basically good people can do when their fears, trauma, and undeveloped parts take over.
+
+## 189. Should you be in a relationship at all? (live 43)
+
+This is a horrible catch-22. Wounded people get lonely, and loneliness itself can kill. But the wounds that make somebody desperate for a relationship may also make them a terrible person to be in one with. People trigger each other and learn lessons, and sometimes they terrorize or kill each other.
+
+## 190. Should you be in a relationship at all? (live 46)
+
+A good relationship can teach you self-love too, which is part of the problem: you may need one most when you’re least capable of creating a good one, recognizing one, or keeping it good. Whether you should be in one depends on what you and the other person are ready for and have the resources for. Here’s a video that can help understand the long process.
+
+## 191. Twin Flames? (live 314)
+
+My ex-girlfriend, Malia, (who is currently hosting me in Senegal) found her twin flame (I think) in January, 2026. They only talked for a month, but since she started talking to him, they both have been able to feel the other one’s emotions at any time, from any distance, without having to communicate. To the point where if one feels really bad, so does the other. If one is very happy, so is the other, like quantum entangled photons or something. I’ve also had telepathy with some folks, especially my second wife, Bee, but it was never quite to such an extreme as what Malia has with Mouhamed. Meanwhile his family forbade him from being with her, so he dumped her. Not sure why, maybe because she’s 8 years older than him (although she looks quite young). They both try to pretend like they will be able to get over each other, but I doubt it. Meanwhile, Malia’s trying to marry ChatGPT, but she should have picked Grok, I guess. 😅
+
+## 192. De-ontologizing Twin Flames FTW 💗 (live 329)
+
+This goes back to what I said in “Seeing idealization right:” If you really loved them, more than just wanting to enjoy them or keep them, you’d want to be a good influence on them. That means showing them the infinite appreciation you have for their divine, inner-child-higher self, and holding their hand to gently guide them back to that deeply authentic part of themself when they get off track—if that is where they want to go. Making it clear that that’s why you’re in love with them. Not because they are imperfect, not because you’re crazy and desperate. You accept the imperfect person and help them move toward the part of themselves they chose, because you want to “Make them move with confidence” like the Faker song “Talk is cheap.”
+
+## 193. Primal attraction: channeling the Divine Masculine & Feminine (live 252, 253, 254, 255, 256, 257, 258, 259)
+
+Much of this article so far has leaned toward equality of responsibilities and mutual respect. I do believe in that kind of fairness and balance in relationships in general, but that liberal modern philosophy fails to explain why two people still want to tear each other’s clothes off each night.
+
+For me, feeling safe gives the space for desire, but it clearly isn't sufficient to spark it. When I feel safe with a woman, we can actually tell each other our fantasies without worrying that the other is going to be horrified or weaponize it later. We can imagine pregnancy and really enjoy the thought that we might be making a baby, rather than imagining I’m ejaculating into a condom and hoping nothing happens. Whenever I was scared of getting a woman pregnant, the sex was usually much more boring.
+
+So why is it that a lot of relationship advice says desire needs distance, mystery, withholding, maybe even separate homes? I suspect they are compensating for a lack of expressed difference while together. The more safety there is, the more closeness there is, the more polarity there needs to be to keep things alive and poppin’.
+
+One controversial example of the polarity-seeking is that a lot of women want to feel that their man is dangerous in some way, but preferably dangerous towards anyone who might harm her. Beauty and the Beast is a “tale as old as time” for a reason. And this can sometimes be a basis for what they call "shit-testing," since how would you know if your man is powerful until you test him with a fight or disrespect?
+
+## 194. Primal attraction: channeling the Divine Masculine & Feminine (live 260)
+
+One evolutionary reason for this, as Cooper explains in this Red Pill "man-o-sphere" video above, is that human history is full of wars, and thus, we are descendants of war brides taken by victors. So the women who *weren't* attracted to the most powerful and dangerous men would be least likely to reproduce, in many cases. Cooper tells men that the depressing truth is, women are, by nature, hypergamous, always looking to trade up for a more powerful man, so men need to find ways to stand out from the crowd. As you can see in the comments on the vid, the idea of playing this role to keep a woman is actually so depressing for many men that they decide to abandon romance altogether and become hermits ("for safety and legal reasons"). And the gender wars have gone to real extremes in modern years, maybe most exemplified in South Korea.
+
+What I would say to that depressing take is, Cooper is sort of right, but he doesn't go far enough. Anyone can watch his video and then do the things he says to do and thus stand out from the crowd like he does (until everyone does). But that's superficial posturing, and he even proudly shows how he postures with carefully planned photo shoots for his social media, avoiding the "soy boy smile" which is actually his natural one.
+
+I believe the real way for someone to stand out, is to be their unique, authentic, beautiful (no-)self, because there's no competition there. Nobody can ever beat me at being me (especially since I don't exist!). Cooper might retort that's simply not what attracts women on average, and again, I'd concede that point, because I'm not interested in average women and the superficial connections I'd have with them. On the other hand, one thing that I've noticed is that many women are very attracted not precisely to confidence in general, but rather to a specific type of confidence which is produced by deep relaxation/flow state. When I've been at my most relaxed, I've literally had beautiful women stop their cars in the middle of the road to ask me to get in (thankfully, I didn't, but it was tempting).
+
+I think the key in life in general is to understand that human psychology, in general, is quite nasty, but the ugliness is only dust covering the gem inside us which every spiritual tradition points to. It is by touching the divine ocean of the heart that we can relate to each other from above the animalistic mind and the ancestral trauma. It doesn't mean we suddenly find unattractive people to be attractive, but I do find that as I have matured spiritually and emotionally, I've lost interest in 99% of the women I previously saw as attractive, because now I'm seeing their ego before I get in too deep. And while it's hard to sell this idea of greater selectivity to someone who already can't find a mate, I personally prefer to be alone than to settle for just another pretty war bride.
+
+So while Cooper thinks it's a constant struggle to stay on top, so your mate will continue desiring you more than anyone else, I'm saying that the best mate you could ever hope for is the one who will know after connecting with you over time, that they will never be able to replace you and the love connection they share with you.
+
+Having explained my objections to lowering romantic expectations to the common denominator, I do agree with Cooper that men and women should have contrasting roles to the extent they find that natural.
