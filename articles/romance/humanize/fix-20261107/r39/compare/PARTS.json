@@ -1,0 +1,100 @@
+{
+ "rewrite": "articles/romance/humanize/fix-20261107/r39/compare/REWRITE-MINE-SINCE-R27.md",
+ "original": "articles/romance/humanize/fix-20261107/r39/compare/ORIGINAL-MINE-SINCE-R27.md",
+ "parts": [
+  {
+   "part": 1,
+   "rewrite_words": 1302,
+   "original_words": 1252,
+   "first": "The paragraphs I changed since r27, as the fixed version has them",
+   "last": "Slow & steady may win the race, but turtles have problems too!",
+   "rewrite_blocks": [
+    0,
+    42
+   ],
+   "coverage": [
+    "c339663a33ce602d",
+    "c3a2d9ede3ff093f",
+    "79cd1e3019328923",
+    "f03d3087f980d498",
+    "cf336dcc0860c5c1",
+    "99a165f753cb6d2a",
+    "e7fc0f05a7772387",
+    "bb110fa2a272a58e",
+    "b3d3b351b38c6e5d",
+    "bb345bc7546b797a",
+    "5f419a73f9e82add",
+    "ac331466bb1f44b9",
+    "846794d8d4430b6d",
+    "b3fb9fcb23f5c820",
+    "e04b8e34e699ed21",
+    "546c5fc2d6f5f3ce",
+    "2c28b4e645f23f4e",
+    "c45a6b5aae9e8e8b",
+    "97c8d4563bcdd546",
+    "c63dae7305ae6de3",
+    "6846c54882fef18c",
+    "16f432029acead0b",
+    "1dd1da9069a998ff",
+    "29be1568e4863af1",
+    "0f68622b48902074",
+    "4d8f42b40668b954"
+   ]
+  },
+  {
+   "part": 2,
+   "rewrite_words": 1318,
+   "original_words": 1195,
+   "first": "The Relationship As Crucible",
+   "last": "What I gained from loss",
+   "rewrite_blocks": [
+    43,
+    83
+   ],
+   "coverage": [
+    "af3e8561aa0417a6",
+    "2ab2c1a80191093f",
+    "7069e3a2815eccbe",
+    "149702b8c722d1c8",
+    "8af57111e39f89bc",
+    "d1091a648b3509a3",
+    "dbbefbe3b4167ef2",
+    "ad07cb147d59ea9e",
+    "67f004b48000bf12",
+    "9ec53179dae2028f",
+    "8869bbed55e0dd44",
+    "890610c25a67851f",
+    "09a016ae564192d8",
+    "0547afff830b448e",
+    "5695e0e41d9a9692",
+    "e511eec894ff5282",
+    "f5ffb6f1a5f9740c",
+    "a64170ae353c4e14",
+    "73cf2df20b718cc5",
+    "7a7ace647be8b594",
+    "8d485544514da7d8",
+    "a715d927ed57ab87",
+    "0bfe590641fe5b58",
+    "c8c54126c934bb23",
+    "c77a34f5ad88ee99"
+   ]
+  },
+  {
+   "part": 3,
+   "rewrite_words": 387,
+   "original_words": 362,
+   "first": "Tough Love",
+   "last": "Tough Love",
+   "rewrite_blocks": [
+    84,
+    88
+   ],
+   "coverage": [
+    "81b8b1e7301c3964",
+    "a991c42a54daa2c0",
+    "3b10e7d214fc2aab",
+    "e5e6ff2b8c9bee06"
+   ]
+  }
+ ]
+}

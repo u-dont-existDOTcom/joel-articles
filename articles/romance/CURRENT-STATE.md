@@ -249,12 +249,19 @@ with his OK and no email.
   his answers, in his words (a passionate romantic relationship that's also stable; Somé and his parents trusting the
   universe): "Tough Love" read Human High, one window (`r39/MINE-R39.json`, `r39/README.md`). Every section check of the
   fixed version (93, 21,101 words) reads Human High in every window.
+- 2026-11-24 (same turn): the reads of everything changed since the drafts were last pasted (r27). The word-for-sense
+  read (150 paragraphs, three fresh readers, 9 of 9 planted errors found) left nothing to fix: its twelve other findings
+  are his own words or fine in place (`r39/sense/TRACE.md`). The compare read of the 53 paragraphs I last wrote, by the
+  lead model itself, found five severity-1 snags, each kept with its reason (`r39/compare/DISPOSITIONS.json`). Drafts A
+  and B pasted again at 12:56 UTC from e07b733f; each secret link's rendered text matched (`whole/DRAFTS.json`, "r39").
+  The builder now leaves out the four empty paragraphs his update of 2026-11-23 left by the embeds.
 
 ## Next step
 
-J-B54, if he decides it. The word-for-sense read and the compare read of the paragraphs changed since the drafts were
-last pasted (r27), then the two temporary drafts re-pasted for his last whole-article check (`whole/DRAFTS.json`,
-`whole/build_draft.js`), each secret link's rendered text checked; then his post is updated with his OK (no email): 366's link to Esther Perel's post, the reel embedded after 149, the typography swap and the "Updated" date.
+His whole-article check on the two secret links (given in chat on 2026-11-24, kept out of Git; `whole/DRAFTS.json`):
+every window must read High, and any window below High is fixed and checked again in its section. J-B54, if he decides
+it. Then his post is updated with his OK (no email): 366's link to Esther Perel's post, the reel embedded after 149, the
+typography swap and the "Updated" date; he deletes the two drafts.
 
 ### Before 2026-11-07 (the registered master, as recorded then)
 

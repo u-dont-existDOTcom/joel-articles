@@ -1,0 +1,16 @@
+{"part": 3,
+ "read": [141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,158,159,160,161,162,163,164,165,166,167,168,169,170,171,172,173,174,175,176,177,178,179,180,181,182,183,184,185,186,187,188,189,190,191,192,193,194,195,196,197,198,199],
+ "findings": [
+  {"block": 143, "text": "it was never quiet to such an extreme", "kind": "wrong-word", "what": "\"quiet\" stands where \"quite\" is meant.", "fix": "it was never quite to such an extreme", "confidence": "sure"},
+  {"block": 143, "text": "hosting me in Sênêgal", "kind": "slip", "what": "Country name is misspelled; it is Sénégal (or Senegal).", "fix": "hosting me in Sénégal", "confidence": "likely"},
+  {"block": 159, "text": "Conventional marriage vows are dishonest and inept", "kind": "wrong-word", "what": "\"inept\" does not fit vows that promise feelings; something like \"unrealistic\" or \"unwise\" seems meant.", "fix": "Conventional marriage vows are dishonest and unrealistic", "confidence": "likely"},
+  {"block": 162, "text": "started out as that kind of bureaucratic record-keeping", "kind": "broken", "what": "\"that kind\" points back to nothing in the preceding text, so the sentence has no antecedent.", "fix": "started out as a kind of bureaucratic record-keeping", "confidence": "likely"},
+  {"block": 164, "text": "That amazed me, although B. never quite believed the switch was real.", "kind": "broken", "what": "\"That\" and \"the switch\" have nothing to point at; the heading and the previous block do not set up any switch.", "fix": "", "confidence": "likely"},
+  {"block": 178, "text": "an illness then a failure of virtue", "kind": "slip", "what": "\"then\" should be \"than\" in a comparison.", "fix": "an illness than a failure of virtue", "confidence": "sure"},
+  {"block": 180, "text": "joke (LOL)..", "kind": "slip", "what": "Doubled full stop after the parenthesis.", "fix": "joke (LOL).", "confidence": "sure"},
+  {"block": 180, "text": "old Romeo & Juliette", "kind": "slip", "what": "Juliet is misspelled.", "fix": "old Romeo & Juliet", "confidence": "likely"},
+  {"block": 180, "text": "as my dad explained a thousand times whenever we had a visitor", "kind": "meaningless", "what": "The link between his dad explaining something to visitors and the point about resentment snowballing is unclear.", "fix": "", "confidence": "likely"},
+  {"block": 185, "text": "Gaslighting in the dark", "kind": "contradiction", "what": "Heading promises gaslighting but the section is about asking friends for help fairly and not saving face.", "fix": "", "confidence": "likely"},
+  {"block": 191, "text": "if you’re oily enough to remember that show", "kind": "wrong-word", "what": "\"oily\" stands where \"old\" is meant (old enough to remember Mr. Rogers).", "fix": "if you’re old enough to remember that show", "confidence": "sure"}
+ ],
+ "notes": "Blocks 164 and 179 open with references (the switch, that not now) whose setup may sit in blocks cut from this part; 192 says demonization does not have to be the last chapter right after 188 says it should be avoided, which reads slightly off but is not clearly wrong."}

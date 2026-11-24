@@ -1,0 +1,283 @@
+{
+ "summary": {
+  "readers_missing": [],
+  "totals": {
+   "1": {
+    "parsed": 2,
+    "total_line": 2
+   },
+   "2": {
+    "parsed": 3,
+    "total_line": 3
+   },
+   "3": {
+    "parsed": 0,
+    "total_line": 0
+   }
+  },
+  "findings": 5,
+  "by_severity": {
+   "1": 5
+  },
+  "by_kind": {
+   "unclear": 3,
+   "vaguer": 1,
+   "lost": 1
+  },
+  "same_as_original": [],
+  "owner_words": [],
+  "not_found": [],
+  "paragraphs": 55,
+  "paragraphs_hit": {
+   "1": 4,
+   "2": 0,
+   "3": 0
+  }
+ },
+ "findings": [
+  {
+   "id": "F1.1",
+   "part": 1,
+   "now": "I can say that most people who defend casual sex are not being very honest with themselves about pregnancy, attachment, or what they might owe the person afterward, a conversation so big that almost nobody would have casual sex if they took it seriously.",
+   "published": "The full conversation is so big that almost nobody would have casual sex if they took it seriously.",
+   "kind": "unclear",
+   "severity": 1,
+   "why": "\"a conversation\" stands in apposition to a list of three topics, so the reader has to supply \"the talk about all that\" before \"the full conversation\" in the next sentence lands.",
+   "now_found": 1.0,
+   "now_blocks": [
+    5
+   ],
+   "where": [
+    "Labels Are Descriptive, Not Prescriptive, P2"
+   ],
+   "block_hashes": [
+    "79cd1e3019328923"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    5
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": {
+    "sha": "eacbf0ab",
+    "date": "2026-11-24",
+    "subject": "Romance r38 junk pass: 21 partly real passages fixed his way, all 16 sections Human High; 14 fixes in, the eighth marking page (three cards,"
+   },
+   "changes": [
+    {
+     "sha": "eacbf0ab",
+     "date": "2026-11-24",
+     "subject": "Romance r38 junk pass: 21 partly real passages fixed his way, all 16 sections Human High; 14 fixes in, the eighth marking page (three cards,",
+     "dropped": [
+      "The full conversation is so big that almost nobody would have casual sex if they took it seriously.",
+      "I can say that most people who defend casual sex are not being very honest with themselves about pregnancy, attachment, or what they might owe the person afterward."
+     ],
+     "added": [
+      "I can say that most people who defend casual sex are not being very honest with themselves about pregnancy, attachment, or what they might owe the person afterward, a conversation so big that almost nobody would have casual sex if they took it seriously."
+     ]
+    },
+    {
+     "sha": "45be352e",
+     "date": "2026-11-22",
+     "subject": "Romance r30: his Medium-page answers in, the whole fixed article as one file, the whole-page rule for marking pages, four new ways in the re",
+     "first_seen": true,
+     "text": "The full conversation is so big that almost nobody would have casual sex if they took it seriously. Which is why almost nobody has the full conversation. I can’t decide what is okay for anybody else. I can say that most people who defend casual sex are not being very honest with themselves about pregnancy, attachment, or what they might owe the person afterward."
+    }
+   ]
+  },
+  {
+   "id": "F1.2",
+   "part": 1,
+   "now": "I get it, neither of us could believe one day in the wrong shoes could do that, but it still felt like she was brushing me off because she wanted my knee to be fine.",
+   "published": "I understood why—neither of us could believe one day in the wrong shoes could do that—but it still felt dismissive, and maybe partly reflected what she wanted to be true.",
+   "kind": "vaguer",
+   "severity": 1,
+   "why": "the published \"maybe partly\" hedge on her motive is gone, so her wish now reads as the whole reason, though \"it still felt like\" keeps it his impression.",
+   "now_found": 1.0,
+   "now_blocks": [
+    9
+   ],
+   "where": [
+    "It always goes deeper, P1"
+   ],
+   "block_hashes": [
+    "cf336dcc0860c5c1"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    9
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": {
+    "sha": "45be352e",
+    "date": "2026-11-22",
+    "subject": "Romance r30: his Medium-page answers in, the whole fixed article as one file, the whole-page rule for marking pages, four new ways in the re"
+   },
+   "changes": [
+    {
+     "sha": "45be352e",
+     "date": "2026-11-22",
+     "subject": "Romance r30: his Medium-page answers in, the whole fixed article as one file, the whole-page rule for marking pages, four new ways in the re",
+     "first_seen": true,
+     "text": "I got a smaller and much less romantic test later. Bee gave me some shoes to try that didn’t fit. I wore them for a day, and somehow my knee ended up messed up for about a month. She did nurse me, but a bit reluctantly. She also kept suggesting it was partly in my head, or not really that bad. I get it, neither of us could believe one day in the wrong shoes could do that, but it still felt like she was brushing me off because she wanted my knee to be fine."
+    }
+   ]
+  },
+  {
+   "id": "F2.1",
+   "part": 2,
+   "now": "Well, yeah, it is painfully artificial, because in a healthy communal society, the couple would have access to witnesses, elders, friends, and other emotional outlets and resources.",
+   "published": "Well, yeah. It is painfully artificial. In a healthy communal society, the couple would have access to witnesses, elders, friends, and other emotional outlets and resources.",
+   "kind": "unclear",
+   "severity": 1,
+   "why": "\"because\" gives the counterfactual as the reason it is artificial; the actual reason, that most of us lack those things, only arrives in the next sentence.",
+   "now_found": 1.0,
+   "now_blocks": [
+    74
+   ],
+   "where": [
+    "Why all of this sounds artificial, P2"
+   ],
+   "block_hashes": [
+    "7a7ace647be8b594"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    72
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": {
+    "sha": "e566fb3e",
+    "date": "2026-11-24",
+    "subject": "Romance r37: fourth tries recorded (20 and 56 Human High); the Medium-pass layer MINE-R37 in (21 paragraph changes); r36's check texts put b"
+   },
+   "changes": [
+    {
+     "sha": "e566fb3e",
+     "date": "2026-11-24",
+     "subject": "Romance r37: fourth tries recorded (20 and 56 Human High); the Medium-pass layer MINE-R37 in (21 paragraph changes); r36's check texts put b",
+     "dropped": [
+      "Well, yeah.",
+      "It is painfully artificial.",
+      "In a healthy communal society, the couple would have access to witnesses, elders, friends, and other emotional outlets and resources."
+     ],
+     "added": [
+      "Well, yeah, it is painfully artificial, because in a healthy communal society, the couple would have access to witnesses, elders, friends, and other emotional outlets and resources."
+     ]
+    },
+    {
+     "sha": "45be352e",
+     "date": "2026-11-22",
+     "subject": "Romance r30: his Medium-page answers in, the whole fixed article as one file, the whole-page rule for marking pages, four new ways in the re",
+     "first_seen": true,
+     "text": "Well, yeah. It is painfully artificial. In a healthy communal society, the couple would have access to witnesses, elders, friends, and other emotional outlets and resources. Most of us these days don’t have that, so we’re trying to recreate consciously and clumsily some of what the wider field would have done without a checklist."
+    }
+   ]
+  },
+  {
+   "id": "F2.2",
+   "part": 2,
+   "now": "Grab it only if it really is the simplest explanation of what happened, and even the curiosity about that can be therapeutic for you.",
+   "published": "Don’t grab that story just because it makes everything easier to explain, and don’t reject it if it really is the most parsimonious explanation.",
+   "kind": "lost",
+   "severity": 1,
+   "why": "the published two-sided warning (don't grab it for convenience, don't reject it when it is the simplest) becomes a one-sided condition, and \"the curiosity about that\" has a loose referent.",
+   "now_found": 1.0,
+   "now_blocks": [
+    81
+   ],
+   "where": [
+    "After leaving, P1"
+   ],
+   "block_hashes": [
+    "c8c54126c934bb23"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    79
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": {
+    "sha": "eacbf0ab",
+    "date": "2026-11-24",
+    "subject": "Romance r38 junk pass: 21 partly real passages fixed his way, all 16 sections Human High; 14 fixes in, the eighth marking page (three cards,"
+   },
+   "changes": [
+    {
+     "sha": "eacbf0ab",
+     "date": "2026-11-24",
+     "subject": "Romance r38 junk pass: 21 partly real passages fixed his way, all 16 sections Human High; 14 fixes in, the eighth marking page (three cards,",
+     "dropped": [
+      "Grab it only if it really is the simplest explanation of what happened.",
+      "Even the curiosity itself can be therapeutic for you."
+     ],
+     "added": [
+      "Grab it only if it really is the simplest explanation of what happened, and even the curiosity about that can be therapeutic for you."
+     ]
+    },
+    {
+     "sha": "45be352e",
+     "date": "2026-11-22",
+     "subject": "Romance r30: his Medium-page answers in, the whole fixed article as one file, the whole-page rule for marking pages, four new ways in the re",
+     "first_seen": true,
+     "text": "Sometimes the easiest story is that they were fake all along, because it explains everything. Grab it only if it really is the simplest explanation of what happened. People who aren’t heavily invested in seeing your innocence can help you tell, and a therapist, pastor, or even a stranger may see the evidence more clearly than a lifelong friend. Even the curiosity itself can be therapeutic for you."
+    }
+   ]
+  },
+  {
+   "id": "F2.3",
+   "part": 2,
+   "now": "People who aren’t heavily invested in seeing your innocence can help you tell, and a therapist, pastor, or even a stranger may see the evidence more clearly than a lifelong friend.",
+   "published": "Ask people who aren’t heavily invested in seeing your innocence.",
+   "kind": "unclear",
+   "severity": 1,
+   "why": "\"help you tell\" leaves its object, whether the fake-all-along story is true, for the reader to supply.",
+   "now_found": 1.0,
+   "now_blocks": [
+    81
+   ],
+   "where": [
+    "After leaving, P1"
+   ],
+   "block_hashes": [
+    "c8c54126c934bb23"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    79
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": {
+    "sha": "45be352e",
+    "date": "2026-11-22",
+    "subject": "Romance r30: his Medium-page answers in, the whole fixed article as one file, the whole-page rule for marking pages, four new ways in the re"
+   },
+   "changes": [
+    {
+     "sha": "eacbf0ab",
+     "date": "2026-11-24",
+     "subject": "Romance r38 junk pass: 21 partly real passages fixed his way, all 16 sections Human High; 14 fixes in, the eighth marking page (three cards,",
+     "dropped": [
+      "Grab it only if it really is the simplest explanation of what happened.",
+      "Even the curiosity itself can be therapeutic for you."
+     ],
+     "added": [
+      "Grab it only if it really is the simplest explanation of what happened, and even the curiosity about that can be therapeutic for you."
+     ]
+    },
+    {
+     "sha": "45be352e",
+     "date": "2026-11-22",
+     "subject": "Romance r30: his Medium-page answers in, the whole fixed article as one file, the whole-page rule for marking pages, four new ways in the re",
+     "first_seen": true,
+     "text": "Sometimes the easiest story is that they were fake all along, because it explains everything. Grab it only if it really is the simplest explanation of what happened. People who aren’t heavily invested in seeing your innocence can help you tell, and a therapist, pastor, or even a stranger may see the evidence more clearly than a lifelong friend. Even the curiosity itself can be therapeutic for you."
+    }
+   ]
+  }
+ ]
+}

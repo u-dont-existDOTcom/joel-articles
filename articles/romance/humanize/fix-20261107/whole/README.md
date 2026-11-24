@@ -25,6 +25,8 @@ them.
   embeds and buttons are left out of the drafts: Pangram's check reads paragraphs and list items only. A changed
   paragraph's inline formatting (links, bold) isn't carried into the draft; the live update will merge the new words into
   the editor HTML (`tools/humanization/substack_merge.py`).
+  An empty paragraph in the live post (his update of 2026-11-23 left four, by the embeds he added) has no text and
+  isn't in the index, so the builder leaves it out of its count (r39).
 - `DRAFTS.json`: the two temporary drafts made with it (draft A to "Primal attraction", draft B from there), each one's
   checked text's SHA-256, and the rendered check of each secret link (both matched). The links themselves stay out of Git.
   The whole-article check waits until every window a smaller check read AI reads Human in a later smaller check (gate

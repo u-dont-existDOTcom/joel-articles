@@ -1,0 +1,135 @@
+{
+ "format": "compare-read-record-v1",
+ "article": "articles/romance/humanize/fix-20261107/r39/compare/REWRITE-MINE-SINCE-R27.md",
+ "coverage": [
+  "0547afff830b448e",
+  "09a016ae564192d8",
+  "0bfe590641fe5b58",
+  "0f68622b48902074",
+  "149702b8c722d1c8",
+  "16f432029acead0b",
+  "1dd1da9069a998ff",
+  "29be1568e4863af1",
+  "2ab2c1a80191093f",
+  "2c28b4e645f23f4e",
+  "3b10e7d214fc2aab",
+  "4d8f42b40668b954",
+  "546c5fc2d6f5f3ce",
+  "5695e0e41d9a9692",
+  "5f419a73f9e82add",
+  "67f004b48000bf12",
+  "6846c54882fef18c",
+  "7069e3a2815eccbe",
+  "73cf2df20b718cc5",
+  "79cd1e3019328923",
+  "7a7ace647be8b594",
+  "81b8b1e7301c3964",
+  "846794d8d4430b6d",
+  "8869bbed55e0dd44",
+  "890610c25a67851f",
+  "8af57111e39f89bc",
+  "8d485544514da7d8",
+  "97c8d4563bcdd546",
+  "99a165f753cb6d2a",
+  "9ec53179dae2028f",
+  "a64170ae353c4e14",
+  "a715d927ed57ab87",
+  "a991c42a54daa2c0",
+  "ac331466bb1f44b9",
+  "ad07cb147d59ea9e",
+  "af3e8561aa0417a6",
+  "b3d3b351b38c6e5d",
+  "b3fb9fcb23f5c820",
+  "bb110fa2a272a58e",
+  "bb345bc7546b797a",
+  "c339663a33ce602d",
+  "c3a2d9ede3ff093f",
+  "c45a6b5aae9e8e8b",
+  "c63dae7305ae6de3",
+  "c77a34f5ad88ee99",
+  "c8c54126c934bb23",
+  "cf336dcc0860c5c1",
+  "d1091a648b3509a3",
+  "dbbefbe3b4167ef2",
+  "e04b8e34e699ed21",
+  "e511eec894ff5282",
+  "e5e6ff2b8c9bee06",
+  "e7fc0f05a7772387",
+  "f03d3087f980d498",
+  "f5ffb6f1a5f9740c"
+ ],
+ "findings": [
+  {
+   "id": "F1.1",
+   "severity": 1,
+   "kind": "unclear",
+   "block_hashes": [
+    "79cd1e3019328923"
+   ],
+   "now": "I can say that most people who defend casual sex are not being very honest with themselves about pregnancy, attachment, or what they might owe the person afterward, a conversation so big that almost nobody would have casual sex if they took it seriously.",
+   "same_as_original": false
+  },
+  {
+   "id": "F1.2",
+   "severity": 1,
+   "kind": "vaguer",
+   "block_hashes": [
+    "cf336dcc0860c5c1"
+   ],
+   "now": "I get it, neither of us could believe one day in the wrong shoes could do that, but it still felt like she was brushing me off because she wanted my knee to be fine.",
+   "same_as_original": false
+  },
+  {
+   "id": "F2.1",
+   "severity": 1,
+   "kind": "unclear",
+   "block_hashes": [
+    "7a7ace647be8b594"
+   ],
+   "now": "Well, yeah, it is painfully artificial, because in a healthy communal society, the couple would have access to witnesses, elders, friends, and other emotional outlets and resources.",
+   "same_as_original": false
+  },
+  {
+   "id": "F2.2",
+   "severity": 1,
+   "kind": "lost",
+   "block_hashes": [
+    "c8c54126c934bb23"
+   ],
+   "now": "Grab it only if it really is the simplest explanation of what happened, and even the curiosity about that can be therapeutic for you.",
+   "same_as_original": false
+  },
+  {
+   "id": "F2.3",
+   "severity": 1,
+   "kind": "unclear",
+   "block_hashes": [
+    "c8c54126c934bb23"
+   ],
+   "now": "People who aren’t heavily invested in seeing your innocence can help you tell, and a therapist, pastor, or even a stranger may see the evidence more clearly than a lifelong friend.",
+   "same_as_original": false
+  }
+ ],
+ "dispositions": {
+  "F1.1": [
+   "kept",
+   "severity 1: the appositive's referent is the three topics just listed, and the next sentence names it 'the full conversation'; the sense read (r39/sense) passed the paragraph and the section reads Human High."
+  ],
+  "F1.2": [
+   "kept",
+   "severity 1: 'it still felt like' keeps her motive as his impression, which is what the published 'maybe partly' did; this wording has been in every draft since r27, through his whole-article check and his later pages."
+  ],
+  "F2.1": [
+   "kept",
+   "severity 1: the next sentence ('Most of us these days don't have that') completes the reason before the paragraph ends; the published order is the same."
+  ],
+  "F2.2": [
+   "kept",
+   "severity 1: 'only if it really is' still allows the story when it is the simplest explanation, so the published balance holds; 'that' is the sentence's own question, whether it is."
+  ],
+  "F2.3": [
+   "kept",
+   "severity 1: 'tell' follows straight on the sentence before, whether the story is the simplest explanation, and the second half says what such people see."
+  ]
+ }
+}
