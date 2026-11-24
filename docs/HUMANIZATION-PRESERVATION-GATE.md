@@ -301,3 +301,9 @@ This gate is an **adaptation/composition**, not a claimed novel formal method. I
 - text-style-transfer research that treats content preservation separately from style and naturalness and cautions against relying on a single automatic similarity metric.
 
 Design/rationale and bounded prior-art scan: `HUMANIZATION-PRESERVATION-GATE-DESIGN-2026-08-22.md`.
+
+## Worked owner correction: do not protect an unsolicited model disclaimer (2026-10-25)
+
+In a model-created grief-and-care baseline, the sentence “That is a description of an experience, and it is not evidence for any particular physiological mechanism” was copied into the preservation requirements, then paraphrased in the candidate. Joel expressly rejected it: the paragraph did not make a physiological-mechanism claim requiring that defense. Delete the aside without replacement; the candidate paraphrase “Experiences like that aren’t evidence for any particular physiological mechanism” is covered by the same correction.
+
+The provenance of a preservation unit matters. Presence in a model-generated starting draft is not evidence that Joel requires it. An owner deletion supersedes the old local constraint; do not treat the deletion as a fidelity failure or restore it under different wording. This is an exact worked example of the existing least-necessary-qualification and skeptical-aftercare rules, not a general instruction to remove substantive caveats or practical safety conditions. The rest of the candidate is not approved by this local correction.
