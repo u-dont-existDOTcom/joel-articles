@@ -1,0 +1,150 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-24",
+ "text_sha256": "ecb8c968fb52284a3c86ad816f9dd8959c52d39863b8a67104be62060d1fa2e1",
+ "text": "You can see something in a person before she fully lives it, but then you have to ask her:\n\n“I see this in you, and I think it’s special. Do you wanna reach for it together?”\n\nIf she says no, forget it. You’re in la la land. If she says yes, ask what is blocking her. Is the block more than you can handle? Or does she mostly need somebody to join her on the journey and believe in her?\n\nPartners should help each other grow. Who else is going to do it, your mom and dad? You’re already grown to them. Everybody else will usually be a smaller influence, so you’d better choose someone who helps you grow well. Like the FM Laeti song down in the Twin Flames section says, “Inspire her to see the best in herself, actualize that,” though if something severe is happening, sometimes a demand or boundary is necessary too.",
+ "section": "Seeing idealization right",
+ "reader": "someone reading an essay on romance for advice they can use in their own dating and relationships",
+ "sentences": [
+  {
+   "s": "You can see something in a person before she fully lives it, but then you have to ask her:",
+   "payoff": "they know that seeing potential in someone doesn't permit assuming it; they must ask",
+   "follows": "opens the section by saying what to do with the idealized view",
+   "link": "none: no words at its start tie it back; opens the section by saying what to do with the idealized view"
+  },
+  {
+   "s": "“I see this in you, and I think it’s special.",
+   "payoff": "they get words to say to the person",
+   "follows": "gives the script for the asking",
+   "link": "none: no words at its start tie it back; gives the script for the asking"
+  },
+  {
+   "s": "Do you wanna reach for it together?”",
+   "payoff": "they get the question that invites the person to join",
+   "follows": "finishes the script",
+   "link": "none: continues the script"
+  },
+  {
+   "s": "If she says no, forget it.",
+   "payoff": "they know to drop it when the answer is no",
+   "follows": "says what to do if the answer is no",
+   "link": "If she says no"
+  },
+  {
+   "s": "You’re in la la land.",
+   "payoff": "they understand that pushing on is fantasy",
+   "follows": "adds the reason to forget it",
+   "link": "none: no words at its start tie it back; adds the reason to forget it"
+  },
+  {
+   "s": "If she says yes, ask what is blocking her.",
+   "payoff": "they know to ask what is blocking her",
+   "follows": "says what to do when the answer is yes",
+   "link": "If she says yes"
+  },
+  {
+   "s": "Is the block more than you can handle?",
+   "payoff": "they check whether the block is more than they can handle",
+   "follows": "the first thing to figure out about the block",
+   "link": "none: question about the block"
+  },
+  {
+   "s": "Or does she mostly need somebody to join her on the journey and believe in her?",
+   "payoff": "they check whether she mainly needs support",
+   "follows": "gives the other option about the block",
+   "link": "Or"
+  },
+  {
+   "s": "Partners should help each other grow.",
+   "payoff": "they accept that helping each other grow is a partner's job",
+   "follows": "gives the principle behind the questions",
+   "link": "none: no words at its start tie it back; gives the principle behind the questions"
+  },
+  {
+   "s": "Who else is going to do it, your mom and dad?",
+   "payoff": "they see that no one but a partner is placed to help them grow as adults.",
+   "follows": "it asks who else would help them grow, after the claim that partners should.",
+   "link": "Who else is going"
+  },
+  {
+   "s": "You’re already grown to them.",
+   "payoff": "they see parents can't do it",
+   "follows": "answers why not parents",
+   "link": "You’re already grown"
+  },
+  {
+   "s": "Everybody else will usually be a smaller influence, so you’d better choose someone who helps you grow well.",
+   "payoff": "they choose a partner who helps them grow",
+   "follows": "concludes the argument for partners",
+   "link": "Everybody else"
+  },
+  {
+   "s": "Like the FM Laeti song down in the Twin Flames section says, “Inspire her to see the best in herself, actualize that,” though if something severe is happening, sometimes a demand or boundary is necessary too.",
+   "payoff": "they inspire a partner to grow, and know that when something severe is happening a demand or boundary may be needed too.",
+   "follows": "it gives the song's line for helping each other grow, with its limit in the same sentence.",
+   "link": "Like the FM Laeti song"
+  }
+ ],
+ "checked": [],
+ "placement": "The script and the yes/no branches come first because the reader is about to act, then the reasons partners should do this, then a citation, and last the exception.",
+ "opens": {
+  "first_sentence": "You can see something in a person before she fully lives it, but then you have to ask her:",
+  "why_reading": "It tells the reader what to do when they see something in a person that she hasn't lived yet."
+ },
+ "same_point": "none: read the section from its heading for a paragraph that makes another's point; none does",
+ "needed": {
+  "reader": "a fresh Sonnet reader given tools/humanization/needed_read_brief.md and the text with its heading",
+  "unneeded": [
+   "You’re in la la land.",
+   "You’re already grown to them."
+  ],
+  "kept": {
+   "You’re in la la land.": "they keep the step it gives in its place; the article's text as it stands, unchanged by this pass; it read High in its window of the section's last check and is out of this fix's scope",
+   "You’re already grown to them.": "they keep the step it gives in its place; the article's text as it stands, unchanged by this pass; it read High in its window of the section's last check and is out of this fix's scope"
+  }
+ },
+ "his_fixes": {
+  "reader": "the same fresh reader given tools/humanization/his_fixes_brief.md and the text one sentence a line",
+  "marked": [
+   {
+    "s": "You’re in la la land.",
+    "difference": "way 18: a short line standing alone"
+   },
+   {
+    "s": "You’re already grown to them.",
+    "difference": "way 18: a short line standing alone"
+   }
+  ],
+  "kept": {
+   "You’re in la la land.": "the article's text as it stands, unchanged by this pass; it read High in its window of the section's last check and is out of this fix's scope",
+   "You’re already grown to them.": "the article's text as it stands, unchanged by this pass; it read High in its window of the section's last check and is out of this fix's scope"
+  }
+ },
+ "fit": {
+  "reader": "the same fresh reader given tools/humanization/fit_read_brief.md and the text one line a line",
+  "marked": [],
+  "kept": {}
+ },
+ "questions": {
+  "Q1": "PASS: the first sentence says what the section is about",
+  "Q2": "PASS: instructions are things the reader can do",
+  "Q3": "PASS: \"something severe\" is his limit on inspiring, kept in his words; the article's own text, unchanged by this fix, which the section's last check read Human High; a read of the section without the article around it (my verdict on the fresh read's \"FAIL: 'something severe' and 'demand or boundary' don't say what severe means\")",
+  "Q4": "PASS: terms are plain",
+  "Q5": "PASS: FIXED: the limit now joins the song's line it qualifies, with \"though\" (my verdict on the fresh read's \"FAIL: the last sentence's 'Although' turns on the whole section, not on the quote right before it\")",
+  "Q6": "PASS: FIXED: the limit sits in the sentence of the advice it qualifies (my verdict on the fresh read's \"FAIL: the exception comes after a quote, away from the advice it qualifies\")",
+  "Q7": "PASS: the facts serve the reader's decisions",
+  "Q8": "PASS: items fit",
+  "Q9": "PASS: FIXED: the condition and its acts are one clause joined to the advice (my verdict on the fresh read's \"FAIL: the last sentence packs a condition and two acts in a short line\")"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}
