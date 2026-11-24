@@ -281,5 +281,5 @@ for s in review['suggestions']:
     out += ['**Now:**', ''] + ['> ' + e['before'] for e in s['edits']] + ['']
     out += ['**Would read:**', ''] + ['> ' + (e['after'] or '(cut)') for e in s['edits']] + ['']
     out += [s['why'], '', 'Pangram: ' + s['reading'] + ' ' + s['tested'], '', '**' + s['advice_note'] + '**', '']
-(HERE / 'REVIEW-T7.md').write_text('\n'.join(out) + '\n', encoding='utf-8')
+(HERE / 'REVIEW-T7.md').write_text('\n'.join(out).rstrip('\n') + '\n', encoding='utf-8')
 print('REVIEW-T7: %d blocks, %d cards, %d bytes' % (len(bl), len(review['suggestions']), len(html)))

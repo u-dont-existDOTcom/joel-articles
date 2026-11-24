@@ -163,4 +163,3 @@ The first part of “Two Pillars Don’t Hold The Roof Up” reads Medium in thr
 Before this pass: Human, three Medium windows (https://www.pangram.com/history/b6427065-aaad-4e21-a31b-3ee2f7d5249d). My tries: a word or two (Low windows, https://www.pangram.com/history/a3e48bae-3eaf-48c1-bd33-6e1f169956c5); the helpful-and-harmful line folded into the next and the last two sentences joined (a Low window and two Medium, https://www.pangram.com/history/3e4993ed-d619-4715-904a-cd3e33bf3cf1); the blind writer’s rewrite of the first and last windows (14% AI, https://www.pangram.com/history/d8299b57-d9d7-4b96-9b4f-6413f0b6c912).
 
 **A line on what’s off is enough; I’ll do the rewrite and test it.**
-
