@@ -72,8 +72,9 @@ Joel picked the Nirvāna guide first (2026-11-23 14:37 UTC: "ok start with the n
    contents work starts from the live post, as Nirvāna's did). Step 2 done the same day, on the live post (165 sections,
    164 in the sidebar, 90 cut off, 29,554 words): [RESULTS.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/inner-signal/experiments/toc-20261123/RESULTS.md).
 
-Next step: for the Self-Hypnosis guide, his answers on the picks page (https://claude.ai/artifact/U816NLPQPjxSHZMMaZ4iAk,
-published 2026-11-24 01:23 UTC; its record, `articles/inner-signal/experiments/toc-20261123/RESULTS.md`, last section).
+Next step: for the Self-Hypnosis guide, the rest of his answers on the picks page (https://claude.ai/artifact/U816NLPQPjxSHZMMaZ4iAk,
+published 2026-11-24 01:23 UTC; his picks up to S034 are in, `answers/JOEL-20261124-1418.md`, and only those count of
+the record he pasted; the page stopped taking his clicks and was fixed at 14:26 UTC, lesson toc-2026-11-24a; its record, `articles/inner-signal/experiments/toc-20261123/RESULTS.md`, last section).
 His 15 answers on Fable's notes set the structure (2026-11-24 01:04 UTC: `answers/JOEL-20261124-0104.md`, STRUCTURE.json):
 five headings go, three change level, four groups move, the audit merges into Appendix F, appendices take letters only.
 When his picks come: check each text change in its section in the web app (TEXT-CHANGES.json: S001 with S002's lines,
