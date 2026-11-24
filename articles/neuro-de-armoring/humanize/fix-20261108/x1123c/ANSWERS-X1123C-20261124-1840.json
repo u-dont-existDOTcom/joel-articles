@@ -1,0 +1,61 @@
+{
+ "format": "joel-suggestion-review-answers-v1",
+ "review_id": "neuro-de-armoring-cards-20261123-x1123c",
+ "title": "Neuro De-Armoring Cards, 23 November (2): two of your warnings, for you to teach me",
+ "git_file": "articles/neuro-de-armoring/humanize/fix-20261108/x1123c/REVIEW-X1123C.html",
+ "article": {
+  "file": "articles/neuro-de-armoring/humanize/HUMANIZED-SO-FAR.md",
+  "sha256": "4708699200e1d10433f84a7be48d04c65758c352a712ab91e3cfffaf68bdbc4f"
+ },
+ "built": "2026-11-23T21:18:28Z",
+ "generator": "suggestion_review.py 1.13 (2026-11-23)",
+ "exported_at": "2026-11-24T18:40:06.808Z",
+ "counts": {
+  "approved": 0,
+  "rejected": 0,
+  "revise": 2,
+  "pending": 0
+ },
+ "items": [
+  {
+   "id": "W-LMA",
+   "type": "teach",
+   "title": "Lion's mane and ashwagandha: your warning, five tries, all AI",
+   "where": "above A Complete Guide to Bio-De-Armoring, P8",
+   "advice": "approve",
+   "status": "revise",
+   "your_version": "Lion's Mane & Ashwagandha: I'm not advising either of these, even though they're popular herbs for focus and stress, because some people report anhedonia (no desire) and sexual dysfunction long after they stop taking them. Post-ashwa and post-lion's mane syndrome are rare, but it's the same kind of thing SSRIs and finasteride can do, so it's something to keep in mind.",
+   "comment": "here's my first attempt that reduced AI confidence level, basically trying to make the points faster: https://www.pangram.com/history/e8bbd7a1-a04b-40f6-9bcd-54b789bad815?ucc=4rq5Ko7gBiW&utm_source=pangram_share&utm_medium=copy_link\n\nclarified they are herbs, that helped flip  that part human: https://www.pangram.com/history/04bff64d-2281-41c4-8abe-2bd3e49407eb?ucc=4rq5Ko7gBiW&utm_source=pangram_share&utm_medium=copy_link\n\nnow i merged the next 2 sentences so they don't seem like islands, and it's all high conf hum: https://www.pangram.com/history/37022ca4-704b-48af-a7d3-150d3700c3c2?ucc=4rq5Ko7gBiW&utm_source=pangram_share&utm_medium=copy_link",
+   "my_version": "Lion's Mane & Ashwagandha: I'm not advising either of these. They're popular for focus and stress, but unfortunately some people report anhedonia (when nothing feels good anymore) and sexual dysfunction that hangs around even after they stop taking them--people call it post-ashwa or post-lion's mane syndrome. It's rare, but it's the same kind of thing SSRIs and finasteride can do, so it's something to keep in mind.",
+   "before": "",
+   "history": [
+    {
+     "from": "pending",
+     "to": "revise",
+     "at": "2026-11-24T18:19:05.005Z"
+    }
+   ],
+   "updated": "2026-11-24T18:33:06.248Z"
+  },
+  {
+   "id": "W-AGM",
+   "type": "teach",
+   "title": "Agmatine's stop signs with your lasting-anhedonia warning: three tries, all AI",
+   "where": "A Complete Guide to Bio-De-Armoring, P10",
+   "advice": "approve",
+   "status": "revise",
+   "your_version": "Agmatine can leave some folks flat and numb, according to reports online (although in the human studies we've only seen stomach problems), so stop it right away if you notice you're flatter or more depressed than before you started. I wouldn't push through that signal, because a few people say the numbness hung on for weeks after they quit, so it's not like one of those side effects that you'd only feel at first. Also stop if agmatine winds you up instead (more irritable, can't sleep), or you get dizziness, palpitations, nausea, loose stools or stronger cravings. ",
+   "comment": "now hum high conf: https://www.pangram.com/history/2406fb09-5b1d-4236-b141-e1becf296cf9?ucc=4rq5Ko7gBiW&utm_source=pangram_share&utm_medium=copy_link\n\nyou had some redundancy, ideas were broken up, and islanded",
+   "my_version": "Agmatine can leave you flat and numb--people do get that in practice, even if the human trials only turned up stomach problems--so stop it right away if you notice you're flatter or more depressed than before you started, things stop feeling good, or you just stop caring. Same if it winds you up instead (more irritable, can't sleep), or you get dizziness, palpitations, nausea, loose stools or stronger cravings. Unfortunately a few people say the numbness hung on for weeks after they quit, so don't push through it hoping it'll settle like side effects sometimes do.",
+   "before": "Stop immediately if it causes flatness, anhedonia, apathy, emotional blunting, new depression, agitation, irritability, insomnia, dizziness, palpitations, nausea, loose stools, diarrhea, or increased craving. Only the stomach problems showed up in the human trials, but the flatness happens in practice, so do not \"push through\" numbness. If agmatine makes the world more gray, it is the wrong tool for that phase.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "revise",
+     "at": "2026-11-24T18:33:28.102Z"
+    }
+   ],
+   "updated": "2026-11-24T18:40:01.056Z"
+  }
+ ]
+}

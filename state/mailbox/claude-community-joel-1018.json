@@ -1735,6 +1735,53 @@
     }
    ],
    "recorded_utc": "2026-11-23T21:25Z"
+  },
+  {
+   "turn": "2026-11-24T18:47Z",
+   "lines_of_work": [
+    "neuro de-armoring"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "AGENTS.md 7ef0bfc and LESSON-INDEX 62d9a9f unchanged (main 3d79cc81, checked again at 19:09 UTC); the lane's six suggested-fix items, all in the ledger"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "main at 72eaa476, merged here: this lane's 502 merged at 21:28 UTC on 23 November; since then romance 504 to 518, bad trips 503 to 519, contents 505 to 514, with the shared changes read (AGENTS.md's done rule: every window High, a Medium window is work to do; HUMANIZATION-GATE on warning keys that read AI; his_fixes_brief ways 27 and 28; lessons bad-trips 23h-o and 24a-m, romance 23i-j and 24a-c, toc 24a; lane_push counting the API's High windows); no new issues or comments (checked again at 19:09 UTC)"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "no edits by others to the handoff or the questions page; the cards page's stored answers: W-LMA revised at 18:33 UTC and W-AGM at 18:40 UTC with his versions, the same as his export in the message"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "no queued notifications (checked again at 19:09 UTC)"
+    }
+   ],
+   "items": [
+    {
+     "item": "cards W-LMA and W-AGM",
+     "outcome": "his versions in exactly as he checked them (Human Written, one window, High each), the W-AGM one less its trailing space"
+    },
+    {
+     "item": "answers 57 to 61",
+     "outcome": "in by script (APPLIED-X1124A.json): 57 names DCS with section B's hedge, his question answered (section B says it); 58 his note after the Weeks 1-2 list, fitted after three fresh reads, Human High by itself; 59a, 60a, 61a"
+    },
+    {
+     "item": "the contradictions check, again",
+     "outcome": "24 items, every one with a fate (coherence/x1124a/CHECK.md); questions 62 to 64"
+    },
+    {
+     "item": "follow-ups",
+     "outcome": "questions 62 to 65 on his questions page (version 36); his Weeks 3-7 line's check waits on 64 and 65"
+    }
+   ],
+   "recorded_utc": "2026-11-24T19:09Z"
   }
  ]
 }

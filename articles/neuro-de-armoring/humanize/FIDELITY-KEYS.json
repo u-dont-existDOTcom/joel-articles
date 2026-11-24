@@ -2753,6 +2753,27 @@
      ]
     ]
    }
+  },
+  {
+   "by": "fix-20261108/joel-20261124-1847-message.txt, answers 57 to 61, and cards W-LMA and W-AGM (his versions, fix-20261108/x1123c/ANSWERS-X1123C-20261124-1840.json), applied by fix-20261108/x1124a/apply_x1124a.py",
+   "why": "W-AGM: his version of the agmatine stop-signs paragraph as he checked it (Human Written, one window, High: https://www.pangram.com/history/2406fb09-5b1d-4236-b141-e1becf296cf9); its \"I wouldn't push through that signal, because a few people say the numbness hung on for weeks after they quit\" carries W011 in his words. 58: his amounts and notes for zinc carnosine, copper and L-serine, after the Weeks 1-2 list (Mahmood 2007, Levine 2017 for what he says the studies show). W-LMA: his lion's mane and ashwagandha item (Human Written, one window, High: https://www.pangram.com/history/37022ca4-704b-48af-a7d3-150d3700c3c2). 57, 59a, 60a, 61a: words only.",
+   "numbers_lost": [],
+   "numbers_new": [
+    "1-2mg",
+    "16mg",
+    "2007",
+    "2017",
+    "30g",
+    "5-15g",
+    "75mg"
+   ],
+   "keys_lost": {
+    "W011": [
+     [
+      "do not"
+     ]
+    ]
+   }
   }
  ],
  "warning_words": {
