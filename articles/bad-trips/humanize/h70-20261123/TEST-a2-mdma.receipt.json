@@ -1,0 +1,141 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-23",
+ "text_sha256": "e49ab64bb30f1aa7533044c4e794aaf92f6acfaf11669dfe9e1960399204f7f5",
+ "text": "Once their jaw tenses, that should be their last dose of MDMA, so get them to slow down and cool off. While it's natural to want to dance on MDMA, I'd tell everyone not to dance at all, since dancing makes the heat and the sweat that drain their salt. If they drink a lot of plain water, [even a single normal MDMA dose](https://pubmed.ncbi.nlm.nih.gov/39546312/) raises the risk of their sodium dropping too low, so have them sip an electrolyte drink when they're thirsty instead. Plain water is the risk because MDMA makes the body hold on to water, which thins out the salt left in their blood, all the more after they've sweated a lot. The following indicators would justify calling medics: If their confusion or headache worsens, or vomiting won't stop (sodium might be too low by then for an electrolyte drink to fix; while you wait for medics, if they're alert and not vomiting, give them something very salty instead, like strong broth). That has to be a lot of salt, more than a snack gives: [guidelines for hikers who drank too much water](https://www.aafp.org/pubs/afp/issues/2021/0215/p252.html) use three or four bouillon cubes in half a cup of water. If their muscles keep getting weaker or their heart palpitations keep getting stronger, that could be from dangerously low potassium, like my second wife had. A [seizure](https://ibogaqueen.substack.com/i/170920118/active-seizure) or collapse can result from low sodium, magnesium or potassium, and can also come from overheating or MDMA toxicity.",
+ "section": "MDMA: Magnesium Alarm",
+ "reader": "a friend at a festival with someone who took MDMA a few hours ago and has been dancing, whose jaw is tight and who has been drinking a lot of water, reading what to do",
+ "sentences": [
+  {
+   "s": "Once their jaw tenses, that should be their last dose of MDMA, so get them to slow down and cool off.",
+   "his": true
+  },
+  {
+   "s": "While it's natural to want to dance on MDMA, I'd tell everyone not to dance at all, since dancing makes the heat and the sweat that drain their salt.",
+   "payoff": "they keep their friend from dancing",
+   "follows": "the slowing down just named",
+   "link": "While it's natural"
+  },
+  {
+   "s": "If they drink a lot of plain water, [even a single normal MDMA dose](https://pubmed.ncbi.nlm.nih.gov/39546312/) raises the risk of their sodium dropping too low, so have them sip an electrolyte drink when they're thirsty instead.",
+   "his": true
+  },
+  {
+   "s": "Plain water is the risk because MDMA makes the body hold on to water, which thins out the salt left in their blood, all the more after they've sweated a lot.",
+   "payoff": "they know why plain water lowers sodium",
+   "follows": "the plain water just named",
+   "link": "Plain water"
+  },
+  {
+   "s": "The following indicators would justify calling medics: If their confusion or headache worsens, or vomiting won't stop (sodium might be too low by then for an electrolyte drink to fix; while you wait for medics, if they're alert and not vomiting, give them something very salty instead, like strong broth).",
+   "payoff": "they know the signs that call for medics and what to give meanwhile",
+   "follows": "the risk just named",
+   "link": "The following indicators"
+  },
+  {
+   "s": "That has to be a lot of salt, more than a snack gives: [guidelines for hikers who drank too much water](https://www.aafp.org/pubs/afp/issues/2021/0215/p252.html) use three or four bouillon cubes in half a cup of water.",
+   "payoff": "they know how much salt",
+   "follows": "the salty food just named",
+   "link": "That"
+  },
+  {
+   "s": "If their muscles keep getting weaker or their heart palpitations keep getting stronger, that could be from dangerously low potassium, like my second wife had.",
+   "his": true
+  },
+  {
+   "s": "A [seizure](https://ibogaqueen.substack.com/i/170920118/active-seizure) or collapse can result from low sodium, magnesium or potassium, and can also come from overheating or MDMA toxicity.",
+   "his": true
+  }
+ ],
+ "checked": [
+  {
+   "point": "dancing makes heat and sweat that drain salt; he would tell everyone not to dance on MDMA",
+   "found": "his MDMA-SODIUM answer of 2026-11-23 23:35 UTC: \"i'd also just blanket warn people not to dance on mdma\"",
+   "still_needed": "yes: they keep their friend from dancing",
+   "fate": "kept"
+  },
+  {
+   "point": "MDMA makes the body hold on to water, so plain water lowers sodium",
+   "found": "Baggott et al. 2016 (PMC4923534): \"MDMA potentiated the ability of water to lower serum sodium\"; MDMA hyponatremia is thought to combine inappropriate antidiuretic hormone with hypotonic fluid intake",
+   "still_needed": "yes: they know why plain water is the risk",
+   "fate": "kept"
+  },
+  {
+   "point": "the field amount of salt by mouth: three or four bouillon cubes in half a cup of water",
+   "found": "AAFP summary of the Wilderness Medical Society guidelines on exercise-associated hyponatremia: \"three to four bouillon cubes or three ramen seasoning packets per 125 mL of water\"; severe cases get 100 mL IV boluses of hypertonic saline, up to three",
+   "still_needed": "yes: they know a snack is too little",
+   "fate": "kept"
+  }
+ ],
+ "placement": "his MDMA: Magnesium Alarm paragraph (B119)",
+ "opens": {
+  "first_sentence": "Once their jaw tenses, that should be their last dose of MDMA, so get them to slow down and cool off.",
+  "why_reading": "it tells the friend what to do once the jaw tenses, why plain water is a risk, and when to call medics"
+ },
+ "same_point": "none: read the section from its heading to the next; magnesium is now said once in the steps (step 6), with its amounts in MDMA: Magnesium Alarm, which step 6 points to",
+ "needed": {
+  "reader": "a fresh agent (Sonnet) given tools/humanization/needed_read_brief.md (reads/need-a1-mdma.txt), on version one",
+  "unneeded": [],
+  "kept": {}
+ },
+ "his_fixes": {
+  "reader": "a fresh agent (Sonnet) given tools/humanization/his_fixes_brief.md, its twenty-six ways (reads/his-a1-mdma.txt), on version one",
+  "marked": [
+   {
+    "s": "A [seizure](https://ibogaqueen.substack.com/i/170920118/active-seizure) or collapse can result from low sodium, magnesium or potassium, and can also come from overheating or MDMA toxicity.",
+    "difference": "7"
+   }
+  ],
+  "kept": {
+   "A [seizure](https://ibogaqueen.substack.com/i/170920118/active-seizure) or collapse can result from low sodium, magnesium or potassium, and can also come from overheating or MDMA toxicity.": "his own words, kept as he wrote them; what the read found is said in the turn's report"
+  }
+ },
+ "fit": {
+  "reader": "a fresh agent (Sonnet) given tools/humanization/fit_read_brief.md (reads/fit-a1-mdma.txt), on version one",
+  "marked": [
+   {
+    "s": "Once their jaw tenses, that should be their last dose of MDMA, so get them to slow down and cool off.",
+    "found": "ANYWAY"
+   },
+   {
+    "s": "If their muscles keep getting weaker or their heart palpitations keep getting stronger, that could be from dangerously low potassium, like my second wife had.",
+    "found": "ANYWAY, CAN'T TELL, FROM"
+   },
+   {
+    "s": "A [seizure](https://ibogaqueen.substack.com/i/170920118/active-seizure) or collapse can result from low sodium, magnesium or potassium, and can also come from overheating or MDMA toxicity.",
+    "found": "CAN'T TELL, FROM"
+   }
+  ],
+  "kept": {
+   "Once their jaw tenses, that should be their last dose of MDMA, so get them to slow down and cool off.": "his own words, kept as he wrote them; what the read found is said in the turn's report",
+   "If their muscles keep getting weaker or their heart palpitations keep getting stronger, that could be from dangerously low potassium, like my second wife had.": "his own words, kept as he wrote them; what the read found is said in the turn's report",
+   "A [seizure](https://ibogaqueen.substack.com/i/170920118/active-seizure) or collapse can result from low sodium, magnesium or potassium, and can also come from overheating or MDMA toxicity.": "his own words, kept as he wrote them; what the read found is said in the turn's report"
+  }
+ },
+ "questions": {
+  "Q1": "PASS: each sentence opens on why it is there",
+  "Q2": "PASS: every instruction is something the friend does or leaves out, with why",
+  "Q3": "PASS: what to give, how, and when to stop",
+  "Q4": "PASS: terms come with their plain words (Epsom salt is magnesium sulfate)",
+  "Q5": "PASS: each sentence ties to the one before at its start",
+  "Q6": "PASS: what to do first, then what not to do, then the last resort",
+  "Q7": "PASS: every fact is one he gave or a source says",
+  "Q8": "PASS: one point a sentence",
+  "Q9": "PASS: the payoff first"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ },
+ "his_whose": "his own: his MDMA: Magnesium Alarm paragraph (B119, round 42, MED-MDMA)",
+ "late_ok": {
+  "Plain water": "his sentence before it first says plain water is the risk and stays as he wrote it; the why comes right after it, where he asked \"how does too much water relate to lack of salt?\""
+ }
+}

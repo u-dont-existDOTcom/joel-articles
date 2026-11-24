@@ -21,8 +21,9 @@ Each window's confidence is given as Pangram gave it.
 | Call Medics For with "No sleep for days" (ADVICE-CALL) | 1 | AI High 166, the whole list | [check](https://www.pangram.com/history/cfcc2d1a-1654-4d83-8a0f-92b833e438ea) |
 
 The call list went in as he approved it: the change is one line, and the list read AI before it. It goes on the humanize
-list whole (next turn), as a model's list he fixed once (his f6b4e35a read Human High 102 on 2026-11-13) with lines added
-since.
+list whole (next turn), as a model's list from his post. (Corrected in turn 62: his f6b4e35a, Human, is his Active
+Seizure call list, not this one; this list was never his. It was said in his seizure list's way in turn 62, Human High
+249: humanize/h70-20261123/RESULTS.md.)
 
 ## The misses, and what moved each
 

@@ -1209,10 +1209,10 @@
   {
    "id": "r35-body-once",
    "status": "applied",
-   "what": "His Risk of Harm paragraph keeps only his catch-all; its body signs merged into the Call medics list: \"(not just regular sweating)\" on the overheating line, \"Severe insomnia\" a line of its own (round 35, card BODY-ONCE; review/r35/apply_r35.py) | 2026-11-23 19:13 UTC: his ADVICE-CALL answer on round 50 (\"agree with all\") made the line \"No sleep for days\" (r50-advice-call)",
+   "what": "His Risk of Harm paragraph keeps only his catch-all; its body signs merged into the Call medics list: \"(not just regular sweating)\" on the overheating line, \"Severe insomnia\" a line of its own (round 35, card BODY-ONCE; review/r35/apply_r35.py) | 2026-11-23 19:13 UTC: his ADVICE-CALL answer on round 50 (\"agree with all\") made the line \"No sleep for days\" (r50-advice-call) | 2026-11-23 23:53 UTC (turn 62): the call list said line by line the way his Active Seizure call list says its signs (f6b4e35a), every sign kept, Human High 249 by itself (humanize/h70-20261123/RESULTS.md)",
    "joel": "2026-11-12 13:37:05 UTC: round 35's export, BODY-ONCE: \"my paragraph should not say anything that should be going in that above list. so cut this section or move it up/merge it\"",
    "must_contain_exact": [
-    "- Dangerous overheating (not just regular sweating), severe rigidity, or clonus with fever",
+    "- A forehead that's dangerously hot to the touch, not just sweaty",
     "- No sleep for days",
     "If for whatever reason you feel like this is more than you can handle, reach out."
    ],
@@ -1315,10 +1315,10 @@
   {
    "id": "r38b-call-seizure",
    "status": "applied",
-   "what": "The Call medics list's seizure line says what his Active Seizure call list says, \"A convulsive seizure lasting over 5 minutes\", without the first seizure and the repeated seizures he cut there (review/r38/apply_r38b.py; shown to him in the turn's report); 2026-11-12 22:34 UTC: the same line as his Active Seizure call list now says it, an overdose seizure and the 5 minutes for a seizure on a normal dose (humanize/h51-20261112/apply_h51.py)",
+   "what": "The Call medics list's seizure line says what his Active Seizure call list says, \"A convulsive seizure lasting over 5 minutes\", without the first seizure and the repeated seizures he cut there (review/r38/apply_r38b.py; shown to him in the turn's report); 2026-11-12 22:34 UTC: the same line as his Active Seizure call list now says it, an overdose seizure and the 5 minutes for a seizure on a normal dose (humanize/h51-20261112/apply_h51.py) | 2026-11-23 23:53 UTC (turn 62): the call list said line by line the way his Active Seizure call list says its signs (f6b4e35a), every sign kept, Human High 249 by itself (humanize/h70-20261123/RESULTS.md)",
    "joel": "2026-11-12 19:44 UTC, the same message (\"it was giving some wrong advice\")",
    "must_contain_exact": [
-    "- A seizure after taking too much (or an unknown amount), or one on a normal dose lasting over 5 minutes"
+    "after they took too much or nobody knows how much, or one on a normal dose that goes past 5 minutes"
    ],
    "must_not_contain": [
     "or a first or substantially different seizure"
@@ -1520,11 +1520,11 @@
   {
    "id": "r42-med-mdma",
    "status": "applied",
-   "what": "MDMA paragraph's two medical fixes (round 42, MED-MDMA): something very salty while waiting for medics if alert and not vomiting, in place of \"too late for an easy fix\"; low sodium, magnesium or potassium in the seizure line",
+   "what": "MDMA paragraph's two medical fixes (round 42, MED-MDMA): something very salty while waiting for medics if alert and not vomiting, in place of \"too late for an easy fix\"; low sodium, magnesium or potassium in the seizure line | 2026-11-23 23:35 UTC: his MDMA-SODIUM answer on round 51 (\"i'm also not sure a little salty snack will do much\"): the snacks out, the amount said after it (r51-answers)",
    "joel": "approved card MED-MDMA, 2026-11-19 16:05 UTC, after his message of 15:41 UTC (\"what about hypertonic fluids? wouldn't it make sense unless they aren't able to keep it down or swallow?\")",
    "applied_by": "review/r42/ANSWERS-R42-20261119-1606.json, put in by review/r42/apply_r42.py",
    "must_contain": [
-    "give them something very salty instead, like strong broth or salty snacks",
+    "give them something very salty instead, like strong broth",
     "A seizure or collapse can result from low sodium, magnesium or potassium"
    ],
    "must_not_contain": [
@@ -1796,7 +1796,7 @@
   {
    "id": "r49-his-steps",
    "status": "applied",
-   "what": "his round-49 versions of the serotonin steps, whole: steps 1, 3 and 4 from his Pangram checks (4cdb8dad, 418788ec, 89fd3d40), step 7 from his QUIZ-1 comment (the raised-dose line cut, breathing instead of the readings, \"they took\" as he asked), and his line in step 8 (review/r49/apply_r49.py) | 2026-11-23 19:13 UTC: his breathing line now follows the seizure first aid in the same sentence (his QUIZ-2 marks on step 7; r50-ss-steps) | 2026-11-23 19:13 UTC: his line goes on with his Epsom salt answer (\"or Epsom salt if that's all you have\", r50-ss-steps)",
+   "what": "his round-49 versions of the serotonin steps, whole: steps 1, 3 and 4 from his Pangram checks (4cdb8dad, 418788ec, 89fd3d40), step 7 from his QUIZ-1 comment (the raised-dose line cut, breathing instead of the readings, \"they took\" as he asked), and his line in step 8 (review/r49/apply_r49.py) | 2026-11-23 19:13 UTC: his breathing line now follows the seizure first aid in the same sentence (his QUIZ-2 marks on step 7; r50-ss-steps) | 2026-11-23 19:13 UTC: his line goes on with his Epsom salt answer (\"or Epsom salt if that's all you have\", r50-ss-steps) | 2026-11-23 23:35 UTC: his QUIZ-3 answer on round 51 (\"it's totally fine to just put like a handful of mag chloride flakes in water and then rub that on their skin\"); the magnesium is in step 6 now, as he asked (r51-answers)",
    "joel": "2026-11-22 17:21 UTC: his round-49 export (articles/bad-trips/review/r49/ANSWERS-R49-20261122-1721.json), QUIZ-1 and SS-STEP8",
    "applied_by": "review/r49/apply_r49.py",
    "must_contain_exact": [
@@ -1806,7 +1806,7 @@
     "Although a cold bath would cool them faster, they could slip under and breathe in water",
     "could work by reducing body heat in general, they don't work on the heat generated by muscles.",
     "keep track of how their breathing is doing afterward, as that's one of the main indicators of how dangerous the seizure is",
-    "Topical magnesium chloride if they're not able to swallow"
+    "I'd stir a handful of magnesium chloride flakes into a little water and rub the mix on their skin"
    ],
    "must_not_contain": [
     "If they raised the dose of anything lately",
@@ -1819,31 +1819,29 @@
   {
    "id": "r49-asked-answers",
    "status": "applied",
-   "what": "his SS-ASKED answers carried into the serotonin steps: (a) getting cyproheptadine, at the end of his step 2; (c) why niacin is unsafe, (d) why magnesium, with the review he sent, and (e) the Syrian rue oil, in step 8, his topical magnesium line kept (review/r49/apply_r49_answers.py) | 2026-11-23 19:13 UTC: step 8 now names niacin first and DMSO as one to use (his SS-ASKED-2 answer c; r50-ss-steps) | 2026-11-23 19:13 UTC: with DMSO now one to use, magnesium chloride is \"the other one\" (r50-ss-steps) | 2026-11-23 19:13 UTC: as in r49-his-steps",
+   "what": "his SS-ASKED answers carried into the serotonin steps: (a) getting cyproheptadine, at the end of his step 2; (c) why niacin is unsafe, (d) why magnesium, with the review he sent, and (e) the Syrian rue oil, in step 8, his topical magnesium line kept (review/r49/apply_r49_answers.py) | 2026-11-23 19:13 UTC: step 8 now names niacin first and DMSO as one to use (his SS-ASKED-2 answer c; r50-ss-steps) | 2026-11-23 19:13 UTC: with DMSO now one to use, magnesium chloride is \"the other one\" (r50-ss-steps) | 2026-11-23 19:13 UTC: as in r49-his-steps | 2026-11-23 23:35 UTC: step 8 now gives DMSO first and niacin after it, his QUIZ-3 order (r51-answers) | 2026-11-23 23:35 UTC: his SS-OIL answer on round 51: the oil as a last resort, set apart from the brew (r51-answers) | 2026-11-23 23:35 UTC: the magnesium moved to step 6, as he asked (r51-answers) | 2026-11-23 23:35 UTC: as in r49-his-steps",
    "joel": "2026-11-22 17:21 UTC: his round-49 export (articles/bad-trips/review/r49/ANSWERS-R49-20261122-1721.json), SS-ASKED",
    "applied_by": "review/r49/apply_r49_answers.py",
    "must_contain_exact": [
     "And most people won't have it at home anyway, since it needs a prescription in the US",
-    "it's actually unsafe with serotonin syndrome, since at the doses used to end a trip",
-    "I'd also leave out this guide's Syrian rue oil for now",
-    "Magnesium chloride is the other one I'd use, since many people with serotonin syndrome run low on magnesium",
-    "Topical magnesium chloride if they're not able to swallow"
+    "it's unsafe with serotonin syndrome, since at the doses used to end a trip",
+    "The other remedy I'd keep for a last resort",
+    "Magnesium also runs low in many people with serotonin syndrome"
    ]
   },
   {
    "id": "r50-ss-steps",
    "status": "applied",
-   "what": "the serotonin steps from his round-50 answers, each as it read Human through the API on his laptop (humanize/h69-20261123/RESULTS.md): step 2 with his dose lines (QUIZ-2), step 5 with his tapping (SS-ASKED-2 e), step 6 from his SS-DRINK and QUIZ-2 notes, step 7 with the seizure first aid and his breathing line, step 8 with his DMSO answer and his Epsom salt (review/r50/apply_r50.py)",
+   "what": "the serotonin steps from his round-50 answers, each as it read Human through the API on his laptop (humanize/h69-20261123/RESULTS.md): step 2 with his dose lines (QUIZ-2), step 5 with his tapping (SS-ASKED-2 e), step 6 from his SS-DRINK and QUIZ-2 notes, step 7 with the seizure first aid and his breathing line, step 8 with his DMSO answer and his Epsom salt (review/r50/apply_r50.py) | 2026-11-23 23:35 UTC: his QUIZ-3 answer on round 51: chips, no cooking (r51-answers) | 2026-11-23 23:35 UTC: his QUIZ-3 answer: on the skin, and Epsom salt is magnesium sulfate (r51-answers) | 2026-11-23 23:35 UTC: his QUIZ-3 answer: the things to do first, DMSO before niacin (r51-answers) | 2026-11-23 23:35 UTC: the skin line is in step 6 now (r51-answers)",
    "joel": "2026-11-23 19:13 UTC: his round-50 export (articles/bad-trips/review/r50/ANSWERS-R50-20261123-1913.json), QUIZ-2, SS-DRINK and SS-ASKED-2",
    "applied_by": "review/r50/apply_r50.py",
    "must_contain_exact": [
     "say to give an adult 12mg to start, then 2mg every 2 hours if symptoms persist, up to 32mg per 24 hours. And tell medics how much you gave.",
     "I'd have them do some tapping (the Emotional Freedom Technique, fingers tapping the head)",
-    "That can be as simple as a salty potato broth with some magnesium chloride flakes stirred in",
-    "If you don't have the flakes, Epsom salt works too, although it causes diarrhea more easily.",
+    "Salty potato chips give the salt and the potassium with nothing to cook",
+    "If you don't have the flakes, Epsom salt, which is magnesium sulfate rather than a kind of table salt, works the same way, just less well.",
     "And if they have a seizure before the ambulance gets there, I'd do the first aid in",
-    "seems to help prevent seizures, so if there's any sign of an overdose, I'd have them smell it",
-    "or Epsom salt if that's all you have, though Epsom salt gets through the skin less well."
+    "which seems to help prevent them, going by people's reports rather than studies: at any sign of an overdose, have them smell it"
    ],
    "must_not_contain": [
     "do some fidgeting (especially of the calf muscle, flexing the feet)",
@@ -1887,6 +1885,31 @@
    ],
    "must_not_contain": [
     "the residual ozone had dissipated"
+   ]
+  },
+  {
+   "id": "r51-answers",
+   "status": "applied",
+   "what": "his round-51 answers in the guide, each as it read Human through the API on his laptop (humanize/h70-20261123/RESULTS.md): step 6 (salty potato chips, potassium only in food, high potassium and vomiting, magnesium on the skin, Epsom salt is magnesium sulfate, step 8's magnesium moved here), step 8 (DMSO first, niacin, the oil as a last resort set apart from the brew), his MDMA paragraph (no dancing, why plain water lowers sodium, how much salt) (review/r51/apply_r51.py)",
+   "joel": "2026-11-23 23:35 UTC: his round-51 export (articles/bad-trips/review/r51/ANSWERS-R51-20261123-2335.json), MDMA-SODIUM, SS-OIL and QUIZ-3",
+   "applied_by": "review/r51/apply_r51.py",
+   "must_contain_exact": [
+    "so I'd let them eat as many as they want",
+    "High potassium also brings on vomiting and diarrhea, which then drain it again",
+    "Magnesium chloride tastes too bad for most people to drink, but the skin absorbs it",
+    "The oil isn't the Syrian rue brew from step 1, which blocks MAO",
+    "if nothing else is helping and no medics are coming",
+    "While it's natural to want to dance on MDMA, I'd tell everyone not to dance at all",
+    "Plain water is the risk because MDMA makes the body hold on to water",
+    "three or four bouillon cubes in half a cup of water"
+   ],
+   "must_not_contain": [
+    "salty potato broth",
+    "or salty snacks",
+    "with stem cell infusions",
+    "Low sodium seems to hit women hardest",
+    "feel bloated but not thirsty",
+    "almost none of the harmala alkaloids"
    ]
   }
  ]

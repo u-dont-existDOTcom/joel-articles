@@ -3293,6 +3293,42 @@
    ],
    "rule": "O78",
    "example": "I'd also jot down how much of each they took and when. And if they have a seizure while you wait, do the first aid above. And tell the medics whether their breathing got better or worse afterward."
+  },
+  {
+   "id": "J85",
+   "tell": "an act that needs a state the text never said (wake up, with nothing saying they were out), or a wait with nothing named to wait for",
+   "kind": "judgment",
+   "sources": [
+    {
+     "file": "docs/lessons/2026-11-23-1915-bad-trips.md",
+     "quote": "The state an act depends on is said before the act."
+    }
+   ],
+   "reason": "whether a state an act depends on was said before it is meaning: a fresh reader given tools/humanization/his_fixes_brief.md (its twenty-fifth way)"
+  },
+  {
+   "id": "J86",
+   "tell": "one brand named for a medicine or thing that several brands sell",
+   "kind": "judgment",
+   "sources": [
+    {
+     "file": "docs/lessons/2026-11-23-1915-bad-trips.md",
+     "quote": "The medicine is named, not one brand of it."
+    }
+   ],
+   "reason": "whether a name is a brand and whether others sell the same thing is knowledge and meaning: a fresh reader given tools/humanization/his_fixes_brief.md (its twenty-sixth way)"
+  },
+  {
+   "id": "J87",
+   "tell": "what not to do before what to do: a step that opens on the remedy to leave out, then gives the one to use",
+   "kind": "judgment",
+   "sources": [
+    {
+     "file": "docs/lessons/2026-11-23-2335-bad-trips.md",
+     "quote": "The things to do come first, then the things not to do."
+    }
+   ],
+   "reason": "which part of a step is a do and which a don't is meaning: a fresh reader given tools/humanization/his_fixes_brief.md (its twenty-seventh way)"
   }
  ]
 }

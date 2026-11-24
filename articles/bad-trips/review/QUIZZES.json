@@ -356,7 +356,52 @@
      "mine": "not sure",
      "why": "the purpose opens the sentence, which says why to read on, but it delays the act by eight words"
     }
-   ]
+   ],
+   "his": {
+    "1": "wrong",
+    "2": "right",
+    "3": "right",
+    "4": "right",
+    "5": "wrong",
+    "6": "wrong",
+    "7": "right",
+    "8": "wrong",
+    "9": "wrong",
+    "10": "wrong",
+    "11": "right"
+   },
+   "missed": [
+    5,
+    8,
+    10
+   ],
+   "his_notes": {
+    "1": "wrong: \"S1 ok\"",
+    "2": "right: \"ok altho magnesium chloride tastes terrible ... i'd have a bag of salty potato chips on hand that, has salt and potassium, no need to cook anything\" (my doubt was the cooking)",
+    "3": "right: \"S3 is ok, keeping in mind you're talking about eating them (and again, nobody wants to eat epsom salt either)\"",
+    "4": "right: \"you're right the colon does read a bit unnatural\"; and \"i'd mention that with high potassium they are more likely to have vomiting and diarrhea (which then causes hypokalemia as it removes potassium), didn't i say a lot of this stuff in the last turn btw?\"",
+    "5": "wrong: \"S5 is a non-sequitir. don't you see that?\"",
+    "6": "wrong: \"S6 is ok but i'd give them the things TO DO first, then the things not to do after ... so DMSO before niacin\"",
+    "7": "right: \"i agree with you, it's hard to understand the stem cell infusion being relevant. I'd just say that some people are more sensitive than others\"",
+    "8": "wrong: \"didn't you already mention magnesium? is there no way to keep it with the previous mention?\"",
+    "9": "wrong: \"ok good\"; and \"we should mention epsom salt is magnesium sulfate\"",
+    "10": "wrong: \"not sure if this is true tho like i said, and the way you wrote that does sound like an ai study finding injection. i would cut this\"",
+    "11": "right: \"i didn't understand why i'm reading this? it comes after s10? how does too much water relate to lack of salt? ... was that explained ?\""
+   },
+   "his_words": "S1 ok S2 ok altho magnesium chloride tastes terrible, so maybe a lot of people would rather die than eat it (you think i'm kidding?), make sure we are mentioning it's absorbed thru the skin when dissolved in a little water. i'd have a bag of salty potato chips on hand that, has salt and potassium, no need to cook anything. and i'd eat as much of those as they want to. i've needed to use quite a lot of magnesium chloride myself (up to 20g for jaw tension), but i ate 1g at a time to see how much i really needed. it was absorbed within a minute and i could literally feel my jaw loosening up every time i ate another gram. when i fix the jaw tension, i have no other probs after that, no come down or tuesday blues or anything. but again, i'm also not sweating like crazy with this impure \"mdma\" people seem to be taking for raves, which is probably why i'm not getting hyponatremia. i think it's totally fine to just put like a handful of mag chloride flakes in water and then rub that on their skin. \n\nS3 is ok, keeping in mind you're talking about eating them (and again, nobody wants to eat epsom salt either)\n\nS4 i'd mention that with high potassium they are more likely to have vomiting and diarrhea (which then causes hypokalemia as it removes potassium), didn't i say a lot of this stuff in the last turn btw? \nyou're right the colon does read a bit unnatural but it seems ok this time perhaps altho if we clarify more as i'm suggesting i think that will be gone anyway\nS5 is a non-sequitir. don't you see that? \n\n\nS6 is ok but i'd give them the things TO DO first, then the things not to do after, doesn't that make more sense? so DMSO before niacin\nS7 i agree with you, it's hard to understand the stem cell infusion being relevant. I'd just say that some people are more sensitive than others, which is true. I know one guy who thinks he had something sort of like an allergic reaction to DMSO (labored breathing basically) but hard to know for sure because it came right after he had another allergic reaction to DXM, and he was not having allergic reactions to DMSO before that. But anyway, people can react weird to stuff whenever, and yeah it's just that same general advice on everything start low go slow, which might have prevented all the probs to begin with as well if that had done that with their drug of choice. \n\nS8 didn't you already mention magnesium? is there no way to keep it with the previous mention?\nS9 ok good so now you are saying whta i was saying to say before, just in a diff spot after. also we should mention epsom salt is magnesium sulfate (many people think it's more like table salt because it's salt). \nS10 not sure if this is true tho like i said, and the way you wrote that does sound like an ai study finding injection. i would cut this but if i were to use it i'd say: \"Women are most at risk of this, based on results we have from one study done at raves, where sodium was low in 1/4 women vs only 3% of men.\"\n\nS11 you say the purpose opens the sentence but i didn't understand why i'm reading this? it comes after s10? how does too much water relate to lack of salt? is that a completely different problem or ? was that explained ?",
+   "pangram": {
+    "1": "AI Low (9f614e86)",
+    "2": "Human High (275f1d65, the whole step)",
+    "3": "Human High (275f1d65)",
+    "4": "Human High (275f1d65)",
+    "5": "Human High (275f1d65)",
+    "6": "Human Low (e19fdfe6)",
+    "7": "AI Medium (e19fdfe6)",
+    "8": "AI Low (e19fdfe6, with the oil line)",
+    "9": "AI Medium (e19fdfe6)",
+    "10": "not checked (version one of the sodium lines)",
+    "11": "not checked"
+   }
   }
  ]
 }
