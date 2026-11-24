@@ -867,3 +867,19 @@ A relationship like this is rare, and that’s probably why romantic love has be
 ## 184. Tough Love (live 450)
 
 That spirit is like the universe living its desire to know itself through us, which might be why we see ourselves in ways we can’t imagine prior. Nobody can command the spirit to remain. At our best, we serve it and listen for what Spirit wants to change. When we start thinking we own it or deserve it, that presumptuousness tends to push it away.
+
+## 185. Don’t make your partner your whole world (live 210)
+
+That little paradise is wonderful, but it contains the seed of its own destruction. Part of why it feels like a magical wonderland is that you can suddenly stop parenting yourself now that you have someone who’s fully got your back. This makes you soft and weak, kinda like a sweet treat or heroin. It is wonderful to have their love and support, but don’t let that bring you away from your own self-love, reparenting, meditation, yoga, and other healing practices that keep you independently healthy. Otherwise, you’ll end up blaming them when you feel bad.
+
+## 186. Different levels in different domains can be complementary (live 248)
+
+I could teach these women about loving and reparenting their inner child, Buddhism, meditation, and other things I understood better. They could pull me into life more, show me where I was missing people, and sometimes be the skeptic when I was seeing the best in someone and missing their hidden motives.
+
+## 187. Tough Love (live 449)
+
+A relationship like this is rare, and that’s probably why romantic love has been seen with suspicion as a destabilizing force throughout history. One of the best books that makes that point today might be the one I was reading with Key: The Spirit of Intimacy, by Sobonfu Somé. Somé came from the Dagara tribe in Burkina Faso. To her people, marriage is an arranged, ritualized spiritual and communal responsibility. They’re suspicious of romance. But one of her ideas fits what I’m trying to say: the relationship is bigger and more important than the egos in it. She calls it the spirit of the relationship.
+
+## 188. Tough Love (live 451)
+
+My parents agreed with Somé that community matters and that we serve Spirit. They were also not romantic, though they were loving and poly. I actually wished they were in love with each other, I guess, although I couldn’t have articulated that since I didn’t even have that concept at the time. Also reminiscent of Somé, they also wore rose-colored glasses and taught me that everybody was basically good. So I learned something about love and community, but not how hard romance is without a community around it, or how much damage basically good people can do when their fears, trauma, and undeveloped parts take over.

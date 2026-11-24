@@ -244,12 +244,17 @@ with his OK and no email.
   eighth marking page (https://claude.ai/artifact/BfqATtsRc1ciJZSfmAjv8f, `review/teach-20261124b/REVIEW-T8.md`), with
   two questions on what he meant (B476, B478); B391 stays as it was. Every section check of the fixed version reads Human
   High in every window.
+- 2026-11-24 12:34 UTC (his eighth-page answers, `review/teach-20261124b/ANSWERS-T8.json`). J-B217 and J-B255 approved
+  and in (`humanize/fix-20261107/r39/HIS-T8.json`); J-B54 left undecided, so it stays as it was. B476 and B478 said from
+  his answers, in his words (a passionate romantic relationship that's also stable; Somé and his parents trusting the
+  universe): "Tough Love" read Human High, one window (`r39/MINE-R39.json`, `r39/README.md`). Every section check of the
+  fixed version (93, 21,101 words) reads Human High in every window.
 
 ## Next step
 
-His eighth-page answers (`review/teach-20261124b/`): the cards he approves go in, and his lines on B476 and B478 start
-their fixes. Then the drafts re-pasted for his last whole-article check; then his post is updated with his OK (no
-email): 366's link to Esther Perel's post, the reel embedded after 149, the typography swap and the "Updated" date.
+J-B54, if he decides it. The word-for-sense read and the compare read of the paragraphs changed since the drafts were
+last pasted (r27), then the two temporary drafts re-pasted for his last whole-article check (`whole/DRAFTS.json`,
+`whole/build_draft.js`), each secret link's rendered text checked; then his post is updated with his OK (no email): 366's link to Esther Perel's post, the reel embedded after 149, the typography swap and the "Updated" date.
 
 ### Before 2026-11-07 (the registered master, as recorded then)
 
