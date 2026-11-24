@@ -785,3 +785,63 @@ And if both people are really falling apart, sometimes there is only so much any
 ## 169. From flow to nitty gritty (live 199)
 
 Dealing with somebody else’s emotional insecurities can also be exhausting. It’s easy to feel free when I don’t have to do that, especially since I’m a bit of an introvert and 10% autistic. All that works wonderfully until I’m in a romantic relationship and suddenly I’m expected to mind-read, silences included, and check in constantly, without ever manipulating her. Bee would accuse me of manipulating her even when I was making an effort not to, and ironically, she actually wanted me to manipulate her more.
+
+## 170. Labels Are Descriptive, Not Prescriptive (live 41)
+
+I can’t decide what is okay for anybody else. I can say that most people who defend casual sex are not being very honest with themselves about pregnancy, attachment, or what they might owe the person afterward, a conversation so big that almost nobody would have casual sex if they took it seriously. Which is why almost nobody has the full conversation.
+
+## 171. Peeking thru the window (live 113)
+
+Before the window of clarity closes, the main thing is to find out whether you are actually compatible. Do you have the same goals and values, especially around children, religion, politics, health, love, and romance? Where do you want to live? Do you both want to find a community? What kind of relationship do you want with technology and money?
+
+## 172. Peeking thru the window (live 118)
+
+See their negative side first too. If there is no negative side, that’s a red flag for fakery. Ask whether the spiritual story they tell about themselves survives an inconvenient PMS afternoon. How recent is the healing story—two months or two years? You may not see their jealousy, abandonment and possessiveness until there is stress and entanglement, and that’s also when you find out whether the “I’m so much better than I used to be” story survives. By then, of course, you’re stressed and entangled. 😆
+
+## 173. Things get tricky fast (live 139)
+
+Couples withdraw from friends who aren’t supportive of the romantic dyad, and they also stop telling friends the whole truth. Sharp questions start to feel rude. An obvious problem dissolves into, “but I love her,” and right when both people most need a view from outside, the small world of the relationship starts feeling more real than the rest of life.
+
+## 174. Anti-PTSD Can Be Just As Dangerous As PTSD (live 159)
+
+I don’t know whether that unconditional love ended up being true. I think it was true in a part of her, and it may also have been the BPD idealization. You have to look at everything from multiple angles. But when you’re in love, you see everything from the love angle. That’s the reality shift I’m talking about. The love angle is great if the ground underneath the relationship is prepared for it, but if the rose-colored glasses go on when you’re with the wrong person, they make it even harder to understand what’s real.
+
+## 175. Anti-PTSD Can Be Just As Dangerous As PTSD (live 162)
+
+That doesn’t mean I’d advise somebody to knowingly enter a dangerous relationship because it may be worth it. Going in, it helps to recognize your pattern and stop idealizing, without becoming suspicious and closed, so you have some idea what you’re getting into.
+
+## 176. Seeing idealization right (live 167)
+
+Partners should help each other grow. Who else is going to do it, your mom and dad? You’re already grown to them. Everybody else will usually be a smaller influence, so you’d better choose someone who helps you grow well. Like the FM Laeti song down in the Twin Flames section says, “Inspire her to see the best in herself, actualize that,” though if something severe is happening, sometimes a demand or boundary is necessary too.
+
+## 177. Disconnect to connect (live 224)
+
+Meditation is also helpful, but for most people, I would still put inner-child reparenting, peer counseling, and body-based work first, or make those the main things they meditate on. Many people say they cannot meditate or have not gotten to that stage yet, and meditation without grounding in those approaches can easily be a road into spiritual bypassing.
+
+## 178. Babies growing up again (live 226)
+
+Nobody has to be completely healed before entering a relationship, but I think that as we learn more about ourselves through the crucible, we should naturally raise our standards. Maybe at first we need the drama to access our primal emotions, but after years of that, we’re exhausted by what we previously hoped to find.
+
+## 179. Babies growing up again (live 228)
+
+I already said that before dating, the present-day adult has to be able to parent whatever intimacy wakes up inside you. Once you’re together, more of that stuff comes out. Inner-child reparenting means parenting the child part instead of surreptitiously hiring the partner for the job.
+
+## 180. Twin Flames? (live 313)
+
+Earlier, I mentioned the divine feminine and divine masculine energies that you can channel to keep eroticism alive. But there’s really something more special about the in-love paradise that Twin Flames (TFs) experience than a simple Divine Masculine + Divine Feminine formula. Maybe a better way to put it, as my friend Cody says, is Yin/Yang, which still has the masculine/feminine in it, but allows for a more broad type of complementary symbiosis since each contains the seed of the other.
+
+## 181. Gaslighting in the dark (live 433)
+
+Many say it’s best to save face and work things out privately, but I’d disagree. If you don’t have friends who can help with the conflict, then you’re really stuck (and you might wanna find some new friends). And when you do ask friends for help, do it fairly, with the goal of resolving the conflict, not just getting approval for your own interpretation: both people should get a chance to speak, and good friends should hear both sides before validating either.
+
+## 182. After leaving (live 439)
+
+Sometimes the easiest story is that they were fake all along, because it explains everything. Grab it only if it really is the simplest explanation of what happened, and even the curiosity about that can be therapeutic for you. People who aren’t heavily invested in seeing your innocence can help you tell, and a therapist, pastor, or even a stranger may see the evidence more clearly than a lifelong friend.
+
+## 183. Tough Love (live 449)
+
+A relationship like this is rare, and that’s probably why romantic love has been seen with suspicion as a destabilizing force throughout history. One of the best books that makes that point today might be the one I was reading with Key: The Spirit of Intimacy, by Sobonfu Somé. Somé came from the Dagara tribe in Burkina Faso. To her people, marriage is an arranged, ritualized spiritual and communal responsibility, and they’re suspicious of romance. But one of her ideas fits what I’m trying to say: the relationship is bigger and more important than the egos in it. She calls it the spirit of the relationship.
+
+## 184. Tough Love (live 450)
+
+That spirit is like the universe living its desire to know itself through us, which might be why we see ourselves in ways we couldn’t imagine before. Nobody can command the spirit to remain. At our best, we serve it and listen for what Spirit wants to change. When we start thinking we own it or deserve it, that presumptuousness tends to push it away.

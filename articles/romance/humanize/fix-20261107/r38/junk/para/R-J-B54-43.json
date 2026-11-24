@@ -1,0 +1,97 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-24",
+ "text_sha256": "acecf7cb8082a298042c4aa28c23abc600db86f0a56b4e1661de41389f127aeb",
+ "text": "This is a horrible catch-22. Wounded people get lonely, and loneliness itself can kill. But the wounds that make somebody desperate for a relationship may also make them a terrible person to be in one with. People trigger each other and learn lessons, and sometimes they terrorize or kill each other.",
+ "section": "Should you be in a relationship at all?",
+ "reader": "someone reading an essay on romance for advice they can use in their own dating and relationships",
+ "sentences": [
+  {
+   "s": "This is a horrible catch-22.",
+   "payoff": "they see the question as a trap, though not yet which one",
+   "follows": "it answers the heading's question with a label",
+   "link": "none: no words at its start tie it back; it answers the heading's question with a label"
+  },
+  {
+   "s": "Wounded people get lonely, and loneliness itself can kill.",
+   "payoff": "they see why wanting a relationship is understandable",
+   "follows": "it states the first horn of the trap",
+   "link": "none: no words at its start tie it back; it states the first horn of the trap"
+  },
+  {
+   "s": "But the wounds that make somebody desperate for a relationship may also make them a terrible person to be in one with.",
+   "payoff": "they see that the same wounds make a partner risky",
+   "follows": "it gives the other horn",
+   "link": "But the wounds"
+  },
+  {
+   "s": "People trigger each other and learn lessons, and sometimes they terrorize or kill each other.",
+   "payoff": "they take the risk of dating seriously",
+   "follows": "it backs the danger of the second horn",
+   "link": "none: continues the point"
+  }
+ ],
+ "checked": [],
+ "placement": "The paragraph is number 1 of the section \"Should you be in a relationship at all?\". In the section: Opens with the dilemma, then the risk, then advice, then the readiness tests; the order follows the reader's question of whether to date.",
+ "opens": {
+  "first_sentence": "This is a horrible catch-22.",
+  "why_reading": "Its first sentence gives them what this paragraph is for: they see the question as a trap, though not yet which one"
+ },
+ "same_point": "none: read the section from its heading for a paragraph that makes another's point; none does",
+ "needed": {
+  "reader": "a fresh Sonnet reader given tools/humanization/needed_read_brief.md and the text with its heading",
+  "unneeded": [
+   "People trigger each other and learn lessons, and sometimes they terrorize or kill each other."
+  ],
+  "kept": {
+   "People trigger each other and learn lessons, and sometimes they terrorize or kill each other.": "they keep the step it gives in its place; a reader's call on the fix, kept: this sentence is the fix of a passage a reader flagged, and the section's check decides it"
+  }
+ },
+ "his_fixes": {
+  "reader": "the same fresh reader given tools/humanization/his_fixes_brief.md and the text one sentence a line",
+  "marked": [
+   {
+    "s": "This is a horrible catch-22.",
+    "difference": "18 and 21: a short line labelling the situation instead of stating it"
+   }
+  ],
+  "kept": {
+   "This is a horrible catch-22.": "the article's text as it stands, unchanged by this pass; it read High in its window of the section's last check and is out of this fix's scope"
+  }
+ },
+ "fit": {
+  "reader": "the same fresh reader given tools/humanization/fit_read_brief.md and the text one line a line",
+  "marked": [
+   {
+    "s": "This is a horrible catch-22.",
+    "why": "MISREAD/CAN'T TELL: 'This' points at nothing yet"
+   }
+  ],
+  "kept": {
+   "This is a horrible catch-22.": "the article's text as it stands, unchanged by this pass; it read High in its window of the section's last check and is out of this fix's scope"
+  }
+ },
+ "questions": {
+  "Q1": "PASS: \"This is a horrible catch-22\" is answered by the next two sentences; the article's own text, unchanged by this fix, which the section's last check read Human High; a read of the section without the article around it (my verdict on the fresh read's \"FAIL: S1 'This' names a catch-22 before the reader has been told what it is\")",
+  "Q2": "PASS: first love your inner child, get a pet, and the readiness tests are things to do",
+  "Q3": "PASS: the video link names the long process of learning self-love; the article's own text, unchanged by this fix, which the section's last check read Human High; a read of the section without the article around it (my verdict on the fresh read's \"FAIL: 'the long process' in the last sentence names no process\")",
+  "Q4": "PASS: the present-day adult parenting what wakes up is the article's inner child reparenting, linked where it is first used; the article's own text, unchanged by this fix, which the section's last check read Human High; a read of the section without the article around it (my verdict on the fresh read's \"FAIL: 'the present-day adult has to be able to parent whatever intimacy wakes up' is hard and unexplained\")",
+  "Q5": "PASS: 'But' in S3 turns the first horn; 'If you can't even do that' follows the order",
+  "Q6": "PASS: dilemma, risk, advice, readiness",
+  "Q7": "PASS: advice bears on the reader's own readiness",
+  "Q8": "N/A: no groups beyond S9's list",
+  "Q9": "PASS: the article's own text, unchanged by this fix, which the section's last check read Human High; a read of the section without the article around it (my verdict on the fresh read's \"FAIL: S10 'and responsible enough' lost its verb, and S12 packs three skills into one clause\")"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ },
+ "derived_from": "articles/romance/humanize/fix-20261107/r38/junk/receipts/R-r38-10-should-you-be-in-a-relationship-at-all.json: the receipt of the section try that read Human High in every window (https://www.pangram.com/history/14dd222c-80ab-4081-8c71-22c7f7b8ef8a); this paragraph's sentences with their fills, and the section's reads, made on the whole section"
+}
