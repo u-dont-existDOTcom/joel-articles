@@ -1,6 +1,6 @@
 # Romance current state
 
-Updated: 2026-11-23
+Updated: 2026-11-24
 
 ## Goal
 
@@ -216,10 +216,24 @@ with his OK and no email.
   both read Human High (`r30/replay5/RESULTS.md`). The fourteen sections that changed since the section pass were
   rechecked: thirteen Human High, and "Talk about making love", part 2, Human with three Medium one-sentence windows and
   no Low one (`r36/README.md`). His record now counts answered questions as answered (`approval_record.py`).
+- 2026-11-23 23:49 UTC ("actually i don't like the medium windows ... i often find the medium windows indicate other
+  issues also. i fixed that talk about making love section"). A Medium window is work to do, not done (AGENTS.md, the
+  gate's E278, lesson romance-2026-11-23i). His fix of section 05 is in (`humanize/fix-20261107/r37/HIS-S05.json`, his
+  check Human High); a Fable writer given lesson i without his version took the section to Human High
+  (`r30/replay6/RESULTS.md`). The Medium pass on the other 21 sections (`r37/README.md`, every check linked): 19 read
+  Human High in every window. Ten changed only model text and are in (`r37/MINE-R37.json`, with the model parts of the
+  other nine); nine change his fourth-page versions or a line he kept there (two he had called a Pangram bug) and are
+  cards on the seventh marking page (https://claude.ai/artifact/2YcdQ9tPPdAeEV1ZtU13NW, `review/teach-20261124/REVIEW-T7.md`).
+  "From flow to nitty gritty" (42) and "Two Pillars", part 1 (67) are still below High after three tries each and are
+  questions on it: 42's last clause is junk-read B210, which a reader couldn't parse (its best try is in, High 108 words
+  and Medium 35); every change to 67 read worse. Lesson romance-2026-11-23j records what the pass showed (one-word and
+  short lines standing alone; a list said as parallel clauses reading AI).
 
 ## Next step
 
-The 33 partly real passages of `r30/junk/VETTED.md`, the way his sixth-page versions show (lesson romance-2026-11-23h):
+His seventh-page answers (`review/teach-20261124/`): the cards he approves go in, and his lines on 42 and 67 start their
+next tries. Then the 33 partly real passages of `r30/junk/VETTED.md` (27 of them outside the sections of the Medium
+pass), the way his sixth-page versions show (lesson romance-2026-11-23h):
 change only the flagged words, with words the passage already has, and add nothing; the sections their fixes touch get
 one recheck each. Then the drafts re-pasted for his last whole-article check; then his post is updated with his OK (no
 email): 366's link to Esther Perel's post, the reel embedded after 149, the typography swap and the "Updated" date.

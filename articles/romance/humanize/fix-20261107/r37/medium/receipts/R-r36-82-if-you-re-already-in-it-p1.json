@@ -1,0 +1,186 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-24",
+ "text_sha256": "51f9325156842358f5ee4520f41e650fdea1f1a7b883b65e1fa0e46256920271",
+ "text": "Most of this article is about what to do before jumping head first into head over shoulders. But if you’re already married with children, advice about slowing down arrives a little late.\n\nI wish I had a special method for fixing that. Mostly I learned the obvious thing the hard way: one person can’t fix the relationship (unless they’re the main problem in it).\n\nWith Bee and Key, the biggest thing sitting underneath everything was trust. They wanted to be with me and would say they trusted me, but really they didn’t trust me, themself, or anyone else. It was all or nothing: blind trust, or none. I kept saying, “It’s not possible to have a relationship without trust.” I think that rigidity came from trauma and never really growing up.\n\nEven dishonesty was sometimes hard for me to define in these relationships. Bee once opened a door and, a second later, said she hadn’t opened it. That drove me crazy, because why would she lie like that? On the other hand, although she was technically lying, there was no strategy behind it, and she was usually quite honest. Non-strategic lying is literally defined as \"pathological lying,\" so I should have seen it more like an illness than a failure of virtue.",
+ "section": "If you’re already in it",
+ "reader": "someone reading an essay on romance for advice they can use in their own dating and relationships",
+ "sentences": [
+  {
+   "s": "Most of this article is about what to do before jumping head first into head over shoulders.",
+   "payoff": "they see the article's advice may come too late for them",
+   "follows": "opens the heading's case",
+   "link": "none: no words at its start tie it back; opens the heading's case"
+  },
+  {
+   "s": "But if you’re already married with children, advice about slowing down arrives a little late.",
+   "payoff": "they see their own case named",
+   "follows": "contrasts with the earlier advice",
+   "link": "none: no words at its start tie it back; contrasts with the earlier advice"
+  },
+  {
+   "s": "I wish I had a special method for fixing that.",
+   "payoff": "they learn there is no special method",
+   "follows": "admits the limits of advice",
+   "link": "none: no words at its start tie it back; admits the limits of advice"
+  },
+  {
+   "s": "Mostly I learned the obvious thing the hard way: one person can’t fix the relationship (unless they’re the main problem in it).",
+   "payoff": "they learn that one person can't fix it",
+   "follows": "gives what he did learn",
+   "link": "Mostly I learned"
+  },
+  {
+   "s": "With Bee and Key, the biggest thing sitting underneath everything was trust.",
+   "payoff": "they see the root cause named",
+   "follows": "opens his example",
+   "link": "none: no words at its start tie it back; opens his example"
+  },
+  {
+   "s": "They wanted to be with me and would say they trusted me, but really they didn’t trust me, themself, or anyone else.",
+   "payoff": "they see how the partners spoke and acted",
+   "follows": "describes how trust failed",
+   "link": "They"
+  },
+  {
+   "s": "It was all or nothing: blind trust, or none.",
+   "payoff": "they see all-or-nothing trust",
+   "follows": "describes the trust problem",
+   "link": "It was all"
+  },
+  {
+   "s": "I kept saying, “It’s not possible to have a relationship without trust.”",
+   "payoff": "they see his own words",
+   "follows": "adds his part",
+   "link": "none: no words at its start tie it back; adds his part"
+  },
+  {
+   "s": "I think that rigidity came from trauma and never really growing up.",
+   "payoff": "they see where the rigidity may have come from",
+   "follows": "gives a cause",
+   "link": "that rigidity"
+  },
+  {
+   "s": "Even dishonesty was sometimes hard for me to define in these relationships.",
+   "payoff": "they see that dishonesty is hard to define",
+   "follows": "moves from trust to honesty",
+   "link": "Even dishonesty"
+  },
+  {
+   "s": "Bee once opened a door and, a second later, said she hadn’t opened it.",
+   "payoff": "they see an example",
+   "follows": "illustrates the definition problem",
+   "link": "none: no words at its start tie it back; illustrates the definition problem"
+  },
+  {
+   "s": "That drove me crazy, because why would she lie like that?",
+   "payoff": "they see his reaction",
+   "follows": "says what the example did to him",
+   "link": "That drove me crazy"
+  },
+  {
+   "s": "On the other hand, although she was technically lying, there was no strategy behind it, and she was usually quite honest.",
+   "payoff": "they see another view",
+   "follows": "qualifies the reaction",
+   "link": "On the other hand"
+  },
+  {
+   "s": "Non-strategic lying is literally defined as \"pathological lying,\" so I should have seen it more like an illness than a failure of virtue.",
+   "payoff": "they see a better way to name it",
+   "follows": "draws the lesson from the example",
+   "link": "none: no words at its start tie it back; draws the lesson from the example"
+  }
+ ],
+ "checked": [],
+ "placement": "One paragraph: article scope, then admission of no method, then the trust example, then the honesty example, then the lesson.",
+ "opens": {
+  "first_sentence": "Most of this article is about what to do before jumping head first into head over shoulders.",
+  "why_reading": "It says the earlier advice may be late, so a reader already married sees this part is for them."
+ },
+ "same_point": "none: read the section from its heading for a paragraph that makes another's point; none does",
+ "needed": {
+  "reader": "a fresh Sonnet reader given tools/humanization/needed_read_brief.md and the text with its heading",
+  "unneeded": [
+   "I wish I had a special method for fixing that."
+  ],
+  "kept": {
+   "I wish I had a special method for fixing that.": "they keep the step it gives in its place; the article's text as it stands, unchanged by this pass; it read High in its window of the section's last check and is out of this fix's scope"
+  }
+ },
+ "his_fixes": {
+  "reader": "the same fresh reader given tools/humanization/his_fixes_brief.md and the text one sentence a line",
+  "marked": [
+   {
+    "s": "Most of this article is about what to do before jumping head first into head over shoulders.",
+    "difference": "20: a statement about the whole article that may not be true here; 4: 'head over shoulders' is vague"
+   },
+   {
+    "s": "They wanted to be with me and would say they trusted me, but really they didn’t trust me, themself, or anyone else.",
+    "difference": "19: three of a kind ('me, themself, or anyone else'); 3: 'would say ... but really didn't'"
+   },
+   {
+    "s": "It was all or nothing: blind trust, or none.",
+    "difference": "18: a short line standing alone"
+   },
+   {
+    "s": "That drove me crazy, because why would she lie like that?",
+    "difference": "21: question the reader can't answer"
+   },
+   {
+    "s": "Non-strategic lying is literally defined as \"pathological lying,\" so I should have seen it more like an illness than a failure of virtue.",
+    "difference": "3: 'more like an illness than a failure of virtue' contrasts"
+   }
+  ],
+  "kept": {
+   "Most of this article is about what to do before jumping head first into head over shoulders.": "the article's text as it stands, unchanged by this pass; it read High in its window of the section's last check and is out of this fix's scope",
+   "They wanted to be with me and would say they trusted me, but really they didn’t trust me, themself, or anyone else.": "the article's text as it stands, unchanged by this pass; it read High in its window of the section's last check and is out of this fix's scope",
+   "It was all or nothing: blind trust, or none.": "the article's text as it stands, unchanged by this pass; it read High in its window of the section's last check and is out of this fix's scope",
+   "That drove me crazy, because why would she lie like that?": "his line (M-409); the join goes to him on a card, with keeping it as it was",
+   "Non-strategic lying is literally defined as \"pathological lying,\" so I should have seen it more like an illness than a failure of virtue.": "the article's text as it stands, unchanged by this pass; it read High in its window of the section's last check and is out of this fix's scope"
+  }
+ },
+ "fit": {
+  "reader": "the same fresh reader given tools/humanization/fit_read_brief.md and the text one line a line",
+  "marked": [
+   {
+    "s": "Most of this article is about what to do before jumping head first into head over shoulders.",
+    "why": "'head over shoulders' reads as a garbled idiom"
+   },
+   {
+    "s": "With Bee and Key, the biggest thing sitting underneath everything was trust.",
+    "why": "Bee and Key are not introduced"
+   },
+   {
+    "s": "Non-strategic lying is literally defined as \"pathological lying,\" so I should have seen it more like an illness than a failure of virtue.",
+    "why": "labelling a partner as having a clinical lying disorder the reader cannot judge"
+   }
+  ],
+  "kept": {
+   "Most of this article is about what to do before jumping head first into head over shoulders.": "the article's text as it stands, unchanged by this pass; it read High in its window of the section's last check and is out of this fix's scope",
+   "With Bee and Key, the biggest thing sitting underneath everything was trust.": "the article's text as it stands, unchanged by this pass; it read High in its window of the section's last check and is out of this fix's scope",
+   "Non-strategic lying is literally defined as \"pathological lying,\" so I should have seen it more like an illness than a failure of virtue.": "the article's text as it stands, unchanged by this pass; it read High in its window of the section's last check and is out of this fix's scope"
+  }
+ },
+ "questions": {
+  "Q1": "PASS: it says the case is for readers already in it",
+  "Q2": "PASS: the article's own text, unchanged by this fix (it read High in its window of the last check); a read of the section without the article around it (my verdict on the fresh read's \"FAIL: S12 doesn't say what to do\")",
+  "Q3": "PASS: the article's own text, unchanged by this fix (it read High in its window of the last check); a read of the section without the article around it (my verdict on the fresh read's \"FAIL: 'head over shoulders' for the idiom is garbled, Bee and Key are unnamed\")",
+  "Q4": "PASS: the article's own text, unchanged by this fix (it read High in its window of the last check); a read of the section without the article around it (my verdict on the fresh read's \"FAIL: 'Non-strategic lying' is defined only after use\")",
+  "Q5": "PASS: connectives tie",
+  "Q6": "PASS: story order",
+  "Q7": "PASS: the article's own text, unchanged by this fix (it read High in its window of the last check); a read of the section without the article around it (my verdict on the fresh read's \"FAIL: S4 mixes his story and the reader's\")",
+  "Q8": "PASS: items fit",
+  "Q9": "PASS: the article's own text, unchanged by this fix (it read High in its window of the last check); a read of the section without the article around it (my verdict on the fresh read's \"FAIL: S13 packs a definition and a judgment\")"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

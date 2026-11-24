@@ -1,0 +1,233 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-24",
+ "text_sha256": "74538cdb5507019f60e6c9ed4a797ff17f0a8998e14f26060f9578f47008b1f8",
+ "text": "I lived all the permutations of this with Bee, except that we never lived in community. I suspect if we had, we might still be together. She would not have been capable of demonizing me when everyone already knew both of us and knew I wasn’t a narcissistic abuser. It would have contained all the insanity. Baseless accusations only work with friends who only know one side.\n\nCommune friends could also have helped her in ways I couldn’t, because she was projecting onto me, which made me the wrong person to help her see beyond the projection. And it’s actually natural to be a bit BPD when your entire survival depends on one person, because if they aren’t perfect, and especially if you need a lot of support, how will you survive? One fairly normal but large flaw in them could make your life really difficult. We were left alone inside something that needed other people around it, and that’s what’s happening to most people these days.\n\nWith H., I learned another part of the same dyad problem: not to treat what either of us thought the relationship was as a guarantee of what it would remain, because feelings can and usually do change over time. In our case, the relationship continued to naturally deepen while our outside relationships often felt more shallow, so it was natural for the dependency to increase. She was never into monogamy, but that didn’t stop her from becoming possessive once she found someone really worth keeping. And then she began demonizing me when I refused to be possessed. Because we did not have a shared community capable of supporting us, her friends heard her side and affirmed her truth.\n\nSo if you don’t have a real community already, what can you do about it practically, right now?\n\nMake as much community as you can wherever you are, like going to Meetups together and making deep friendships as a couple. Find some shared purpose beyond maintaining the relationship. Introduce your old friends to your partner and try to mutualize those friendships as much as possible, so they aren’t experienced as slyly antagonistic or partial to one side. You don’t need to spend all your time together, but two completely separate social worlds will automatically start taking sides when something goes wrong.",
+ "section": "Two Pillars Don’t Hold The Roof Up",
+ "reader": "someone reading an essay on romance for advice they can use in their own dating and relationships",
+ "sentences": [
+  {
+   "s": "I lived all the permutations of this with Bee, except that we never lived in community.",
+   "payoff": "they see that the author lived the problem fully, minus community",
+   "follows": "opens the section after its heading",
+   "link": "none: no words at its start tie it back; opens the section after its heading"
+  },
+  {
+   "s": "I suspect if we had, we might still be together.",
+   "payoff": "they see what he thinks community could have done",
+   "follows": "consequence of S0",
+   "link": "I suspect if we"
+  },
+  {
+   "s": "She would not have been capable of demonizing me when everyone already knew both of us and knew I wasn’t a narcissistic abuser.",
+   "payoff": "they see how community would have blocked demonizing",
+   "follows": "explains S1",
+   "link": "She would not have"
+  },
+  {
+   "s": "It would have contained all the insanity.",
+   "payoff": "they see community as containment",
+   "follows": "draws the result from S2",
+   "link": "It would have contained"
+  },
+  {
+   "s": "Baseless accusations only work with friends who only know one side.",
+   "payoff": "they see why accusations need isolation",
+   "follows": "states the mechanism behind S2",
+   "link": "Baseless accusations only work"
+  },
+  {
+   "s": "Commune friends could also have helped her in ways I couldn’t, because she was projecting onto me, which made me the wrong person to help her see beyond the projection.",
+   "payoff": "they see a second benefit: others could help her",
+   "follows": "adds to community's benefits",
+   "link": "Commune friends could also"
+  },
+  {
+   "s": "And it’s actually natural to be a bit BPD when your entire survival depends on one person, because if they aren’t perfect, and especially if you need a lot of support, how will you survive?",
+   "payoff": "they see why depending on one person causes fear",
+   "follows": "explains why she needed help",
+   "link": "And it’s actually natural"
+  },
+  {
+   "s": "One fairly normal but large flaw in them could make your life really difficult.",
+   "payoff": "they see how one flaw can be hard",
+   "follows": "consequence of S6",
+   "link": "One fairly normal but"
+  },
+  {
+   "s": "We were left alone inside something that needed other people around it, and that’s what’s happening to most people these days.",
+   "payoff": "they see that most people today are in the same position",
+   "follows": "generalizes from his case",
+   "link": "We were left alone"
+  },
+  {
+   "s": "With H., I learned another part of the same dyad problem: not to treat what either of us thought the relationship was as a guarantee of what it would remain, because feelings can and usually do change over time.",
+   "payoff": "they see what H. taught him about expecting a relationship to stay the same",
+   "follows": "adds a second example",
+   "link": "With H., I learned"
+  },
+  {
+   "s": "In our case, the relationship continued to naturally deepen while our outside relationships often felt more shallow, so it was natural for the dependency to increase.",
+   "payoff": "they see how dependency grew in the case",
+   "follows": "the facts behind S9",
+   "link": "In our case, the"
+  },
+  {
+   "s": "She was never into monogamy, but that didn’t stop her from becoming possessive once she found someone really worth keeping.",
+   "payoff": "they see she was possessive despite her view of monogamy",
+   "follows": "the second fact",
+   "link": "She was never into"
+  },
+  {
+   "s": "And then she began demonizing me when I refused to be possessed.",
+   "payoff": "they see the demonizing began when he refused",
+   "follows": "the consequence of S11",
+   "link": "And then she began"
+  },
+  {
+   "s": "Because we did not have a shared community capable of supporting us, her friends heard her side and affirmed her truth.",
+   "payoff": "they see why her friends took her side",
+   "follows": "ties to the community theme",
+   "link": "Because we did not"
+  },
+  {
+   "s": "So if you don’t have a real community already, what can you do about it practically, right now?",
+   "payoff": "they ask what they can do about community now",
+   "follows": "turns from story to advice",
+   "link": "So if you don’t have"
+  },
+  {
+   "s": "Make as much community as you can wherever you are, like going to Meetups together and making deep friendships as a couple.",
+   "payoff": "they know to build community together",
+   "follows": "first act answering S14",
+   "link": "none: no words at its start tie it back; first act answering S14"
+  },
+  {
+   "s": "Find some shared purpose beyond maintaining the relationship.",
+   "payoff": "they know to find shared purpose",
+   "follows": "second act",
+   "link": "none: no words at its start tie it back; second act"
+  },
+  {
+   "s": "Introduce your old friends to your partner and try to mutualize those friendships as much as possible, so they aren’t experienced as slyly antagonistic or partial to one side.",
+   "payoff": "they know to blend friend groups so they aren't taking sides",
+   "follows": "third act",
+   "link": "none: no words at its start tie it back; third act"
+  },
+  {
+   "s": "You don’t need to spend all your time together, but two completely separate social worlds will automatically start taking sides when something goes wrong.",
+   "payoff": "they know they needn't be together always but separate worlds take sides",
+   "follows": "gives the reason for S17",
+   "link": "You don’t need to"
+  }
+ ],
+ "checked": [],
+ "placement": "Story first, in order from Bee to H., then a turn to advice, with acts listed at the end where the reader decides what to do.",
+ "opens": {
+  "first_sentence": "I lived all the permutations of this with Bee, except that we never lived in community.",
+  "why_reading": "It tells the reader that a lack of community was what was missing, which is the heart of their question."
+ },
+ "same_point": "S2 to S4 all say that community would have stopped the accusations.",
+ "needed": {
+  "reader": "a fresh Sonnet reader given tools/humanization/needed_read_brief.md and the text with its heading",
+  "unneeded": [
+   "She was never into monogamy, but that didn’t stop her from becoming possessive once she found someone really worth keeping.",
+   "I suspect if we had, we might still be together."
+  ],
+  "kept": {
+   "She was never into monogamy, but that didn’t stop her from becoming possessive once she found someone really worth keeping.": "they keep the step it gives in its place; the article's text as it stands, unchanged by this pass; it read High in its window of the section's last check and is out of this fix's scope",
+   "I suspect if we had, we might still be together.": "they keep the step it gives in its place; the article's text as it stands, unchanged by this pass; it read High in its window of the section's last check and is out of this fix's scope"
+  }
+ },
+ "his_fixes": {
+  "reader": "the same fresh reader given tools/humanization/his_fixes_brief.md and the text one sentence a line",
+  "marked": [
+   {
+    "s": "It would have contained all the insanity.",
+    "difference": "way 18: short line; way 10: 'It' could mean community or the accusation"
+   },
+   {
+    "s": "Baseless accusations only work with friends who only know one side.",
+    "difference": "way 18/6: sounds wise"
+   },
+   {
+    "s": "With H., I learned another part of the same dyad problem: not to treat what either of us thought the relationship was as a guarantee of what it would remain, because feelings can and usually do change over time.",
+    "difference": "way 1: packed; way 3: contrast; way 21: label ('dyad problem')"
+   },
+   {
+    "s": "She was never into monogamy, but that didn’t stop her from becoming possessive once she found someone really worth keeping.",
+    "difference": "way 3: 'but that didn't stop' contrast; way 7: true but not useful"
+   },
+   {
+    "s": "Find some shared purpose beyond maintaining the relationship.",
+    "difference": "way 15: instruction the reader couldn't carry out without an example"
+   },
+   {
+    "s": "Make as much community as you can wherever you are, like going to Meetups together and making deep friendships as a couple.",
+    "difference": "way 2: same shape as S16 and S17"
+   },
+   {
+    "s": "You don’t need to spend all your time together, but two completely separate social worlds will automatically start taking sides when something goes wrong.",
+    "difference": "way 3: contrast pair; way 6: ends on warning"
+   },
+   {
+    "s": "And it’s actually natural to be a bit BPD when your entire survival depends on one person, because if they aren’t perfect, and especially if you need a lot of support, how will you survive?",
+    "difference": "way 21: label BPD; way 23: question inside; way 1: compressed"
+   }
+  ],
+  "kept": {
+   "It would have contained all the insanity.": "the article's text as it stands, unchanged by this pass; it read High in its window of the section's last check and is out of this fix's scope",
+   "Baseless accusations only work with friends who only know one side.": "the article's text as it stands, unchanged by this pass; it read High in its window of the section's last check and is out of this fix's scope",
+   "With H., I learned another part of the same dyad problem: not to treat what either of us thought the relationship was as a guarantee of what it would remain, because feelings can and usually do change over time.": "his lesson from H. (M-206), joined so \"H.\" isn't a line of its own; on a card for him",
+   "She was never into monogamy, but that didn’t stop her from becoming possessive once she found someone really worth keeping.": "the article's text as it stands, unchanged by this pass; it read High in its window of the section's last check and is out of this fix's scope",
+   "Find some shared purpose beyond maintaining the relationship.": "the article's text as it stands, unchanged by this pass; it read High in its window of the section's last check and is out of this fix's scope",
+   "Make as much community as you can wherever you are, like going to Meetups together and making deep friendships as a couple.": "one instruction with two examples, where the section had three short lines; the next sentences go on to other steps",
+   "You don’t need to spend all your time together, but two completely separate social worlds will automatically start taking sides when something goes wrong.": "the article's text as it stands, unchanged by this pass; it read High in its window of the section's last check and is out of this fix's scope",
+   "And it’s actually natural to be a bit BPD when your entire survival depends on one person, because if they aren’t perfect, and especially if you need a lot of support, how will you survive?": "the article's text as it stands, unchanged by this pass; it read High in its window of the section's last check and is out of this fix's scope"
+  }
+ },
+ "fit": {
+  "reader": "the same fresh reader given tools/humanization/fit_read_brief.md and the text one line a line",
+  "marked": [
+   {
+    "s": "And it’s actually natural to be a bit BPD when your entire survival depends on one person, because if they aren’t perfect, and especially if you need a lot of support, how will you survive?",
+    "why": "'a bit BPD' sounds like a diagnosis of the ex, and the reader is unsure whether it is a slur or an explanation"
+   },
+   {
+    "s": "Commune friends could also have helped her in ways I couldn’t, because she was projecting onto me, which made me the wrong person to help her see beyond the projection.",
+    "why": "'Commune friends' appears though the text says they never lived in community"
+   },
+   {
+    "s": "Find some shared purpose beyond maintaining the relationship.",
+    "why": "the reader can't tell what purpose to pick"
+   }
+  ],
+  "kept": {
+   "And it’s actually natural to be a bit BPD when your entire survival depends on one person, because if they aren’t perfect, and especially if you need a lot of support, how will you survive?": "the article's text as it stands, unchanged by this pass; it read High in its window of the section's last check and is out of this fix's scope",
+   "Commune friends could also have helped her in ways I couldn’t, because she was projecting onto me, which made me the wrong person to help her see beyond the projection.": "the article's text as it stands, unchanged by this pass; it read High in its window of the section's last check and is out of this fix's scope",
+   "Find some shared purpose beyond maintaining the relationship.": "the article's text as it stands, unchanged by this pass; it read High in its window of the section's last check and is out of this fix's scope"
+  }
+ },
+ "questions": {
+  "Q1": "PASS: each sentence has its job in the section",
+  "Q2": "PASS: each sentence has its job in the section",
+  "Q3": "PASS: each sentence has its job in the section",
+  "Q4": "PASS: BPD is linked where the article first names it; \"dyad problem\" is the section's subject (two people alone with no community); the article's own text, unchanged by this fix (it read High in its window of the last check); a read of the section without the article around it (my verdict on the fresh read's \"FAIL: 'BPD' and 'dyad problem' aren't explained\")",
+  "Q5": "PASS: 'Because', 'So if' carry the relation",
+  "Q6": "PASS: each sentence has its job in the section",
+  "Q7": "PASS: the article's own text, unchanged by this fix (it read High in its window of the last check); a read of the section without the article around it (my verdict on the fresh read's \"FAIL: S11 'She was never into monogamy' is detail the reader doesn't need\")",
+  "Q8": "PASS: each sentence has its job in the section",
+  "Q9": "PASS: the colon puts the one lesson after \"another part of the same dyad problem\", which names it (my verdict on the fresh read's \"FAIL: S9 packs the lesson in a long sentence\")"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

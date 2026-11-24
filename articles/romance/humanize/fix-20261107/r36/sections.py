@@ -12,6 +12,9 @@ import pathlib
 import re
 
 HERE = pathlib.Path(__file__).resolve().parent
+import sys
+if (HERE / 'checks').exists() and '--again' not in sys.argv:
+    sys.exit('r36/checks holds the texts r36 checked; run r37/sections.py for the current cut (or --again to rewrite them)')
 md = (HERE.parent / 'whole' / 'FIXED.md').read_text(encoding='utf-8')
 blocks = [b.strip() for b in re.split(r'\n\s*\n', md) if b.strip()]
 vis = lambda b: re.sub(r'<!--.*?-->', '', b, flags=re.S).strip()

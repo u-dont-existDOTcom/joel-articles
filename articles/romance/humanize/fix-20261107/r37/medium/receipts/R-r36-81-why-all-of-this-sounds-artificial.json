@@ -1,0 +1,101 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-24",
+ "text_sha256": "645db9a8f1235e89687d904627f7653de0ba56b3b2747f9d1d1d5b2bfb9f8ea6",
+ "text": "By now you’re probably thinking all of this sounds terribly artificial: is anyone actually going to do scheduled check-ins, delayed cohabitation, conversations about hypothetical disasters, imagination exercises, not to mention resisting the heat-of-the-moment stuff and continuing your own reparenting practices when a warm body is available to do some of the soothing?\n\nWell, yeah, it is painfully artificial, because in a healthy communal society, the couple would have access to witnesses, elders, friends, and other emotional outlets and resources. Most of us these days don’t have that, so we’re trying to recreate consciously and clumsily some of what the wider field would have done without a checklist.",
+ "section": "Why all of this sounds artificial",
+ "reader": "someone reading an essay on romance for advice they can use in their own dating and relationships",
+ "sentences": [
+  {
+   "s": "By now you’re probably thinking all of this sounds terribly artificial: is anyone actually going to do scheduled check-ins, delayed cohabitation, conversations about hypothetical disasters, imagination exercises, not to mention resisting the heat-of-the-moment stuff and continuing your own reparenting practices when a warm body is available to do some of the soothing?",
+   "payoff": "they see their own doubt voiced: is anyone going to do all this",
+   "follows": "opens the section by answering its heading with the reader's own objection",
+   "link": "none: no words at its start tie it back; opens the section by answering its heading with the reader's own objection"
+  },
+  {
+   "s": "Well, yeah, it is painfully artificial, because in a healthy communal society, the couple would have access to witnesses, elders, friends, and other emotional outlets and resources.",
+   "payoff": "they hear it is artificial, and why",
+   "follows": "answers the question in S0",
+   "link": "Well, yeah, it is"
+  },
+  {
+   "s": "Most of us these days don’t have that, so we’re trying to recreate consciously and clumsily some of what the wider field would have done without a checklist.",
+   "payoff": "they see why they have to do it consciously",
+   "follows": "explains the artificiality by what's missing today",
+   "link": "Most of us these days"
+  }
+ ],
+ "checked": [],
+ "placement": "A three-sentence section: the reader's objection first, the admission second, the reason third.",
+ "opens": {
+  "first_sentence": "By now you’re probably thinking all of this sounds terribly artificial: is anyone actually going to do scheduled check-ins, delayed cohabitation, conversations about hypothetical disasters, imagination exercises, not to mention resisting the heat-of-the-moment stuff and continuing your own reparenting practices when a warm body is available to do some of the soothing?",
+  "why_reading": "It speaks the reader's likely doubt that the practices are too much, so they read on to see the answer."
+ },
+ "same_point": "none: read the section from its heading for a paragraph that makes another's point; none does",
+ "needed": {
+  "reader": "a fresh Sonnet reader given tools/humanization/needed_read_brief.md and the text with its heading",
+  "unneeded": [],
+  "kept": {}
+ },
+ "his_fixes": {
+  "reader": "the same fresh reader given tools/humanization/his_fixes_brief.md and the text one sentence a line",
+  "marked": [
+   {
+    "s": "By now you’re probably thinking all of this sounds terribly artificial: is anyone actually going to do scheduled check-ins, delayed cohabitation, conversations about hypothetical disasters, imagination exercises, not to mention resisting the heat-of-the-moment stuff and continuing your own reparenting practices when a warm body is available to do some of the soothing?",
+    "difference": "way 19: a list of category words; way 1: compressed; way 23: a question inside another; way 5/10"
+   },
+   {
+    "s": "Well, yeah, it is painfully artificial, because in a healthy communal society, the couple would have access to witnesses, elders, friends, and other emotional outlets and resources.",
+    "difference": "way 19: list of four; way 6: ends on a wise-sounding line"
+   },
+   {
+    "s": "Most of us these days don’t have that, so we’re trying to recreate consciously and clumsily some of what the wider field would have done without a checklist.",
+    "difference": "way 6: ends on a wise-sounding line; way 21: 'the wider field' is a label"
+   }
+  ],
+  "kept": {
+   "By now you’re probably thinking all of this sounds terribly artificial: is anyone actually going to do scheduled check-ins, delayed cohabitation, conversations about hypothetical disasters, imagination exercises, not to mention resisting the heat-of-the-moment stuff and continuing your own reparenting practices when a warm body is available to do some of the soothing?": "the list is his question, naming practices earlier sections set out; the fix joined only the line before it",
+   "Well, yeah, it is painfully artificial, because in a healthy communal society, the couple would have access to witnesses, elders, friends, and other emotional outlets and resources.": "his point: it is artificial because the community that would make it natural is missing; the list is his",
+   "Most of us these days don’t have that, so we’re trying to recreate consciously and clumsily some of what the wider field would have done without a checklist.": "the article's text as it stands, unchanged by this pass; it read High in its window of the section's last check and is out of this fix's scope"
+  }
+ },
+ "fit": {
+  "reader": "the same fresh reader given tools/humanization/fit_read_brief.md and the text one line a line",
+  "marked": [
+   {
+    "s": "Most of us these days don’t have that, so we’re trying to recreate consciously and clumsily some of what the wider field would have done without a checklist.",
+    "why": "'the wider field' and 'checklist' are not explained, and the reader may not know whether that is bad"
+   },
+   {
+    "s": "Well, yeah, it is painfully artificial, because in a healthy communal society, the couple would have access to witnesses, elders, friends, and other emotional outlets and resources.",
+    "why": "'painfully artificial' may read as admitting the advice is bad"
+   }
+  ],
+  "kept": {
+   "Most of us these days don’t have that, so we’re trying to recreate consciously and clumsily some of what the wider field would have done without a checklist.": "the article's text as it stands, unchanged by this pass; it read High in its window of the section's last check and is out of this fix's scope",
+   "Well, yeah, it is painfully artificial, because in a healthy communal society, the couple would have access to witnesses, elders, friends, and other emotional outlets and resources.": "his point: it is artificial because the community that would make it natural is missing; the list is his"
+  }
+ },
+ "questions": {
+  "Q1": "PASS: S0 names the doubt the reader has",
+  "Q2": "N/A: no instructions here",
+  "Q3": "PASS: each sentence has its job in the section",
+  "Q4": "PASS: each practice is one an earlier section of the article sets out (\"By now\" says so) (my verdict on the fresh read's \"FAIL: 'delayed cohabitation', 'imagination exercises', 'reparenting' aren't explained here\")",
+  "Q5": "PASS: each sentence has its job in the section",
+  "Q6": "PASS: each sentence has its job in the section",
+  "Q7": "PASS: each sentence has its job in the section",
+  "Q8": "PASS: each sentence has its job in the section",
+  "Q9": "PASS: the list is his question, unchanged; the fix joined the line before it (my verdict on the fresh read's \"FAIL: S0 packs six practices into one question\")"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

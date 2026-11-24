@@ -1,0 +1,86 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-24",
+ "text_sha256": "72327e98551e144ba92de7e16d5253f2c6a42d67bc5950093b7d23441978c5ac",
+ "text": "Beyond all that practical stuff, sex is extremely important for building and renewing the connection. I also think that if two people aren’t having sex, it becomes hard to explain how they’re different from regular friends. But if the connection gets deep enough, sex appeal isn’t the basis of the relationship anymore. You don’t stop loving the person because she got old, he lost his job, one of you got sick, or sex became impossible.",
+ "section": "And deeper is the point",
+ "reader": "someone reading an essay on romance for advice they can use in their own dating and relationships",
+ "sentences": [
+  {
+   "s": "Beyond all that practical stuff, sex is extremely important for building and renewing the connection.",
+   "payoff": "they treat sex as part of how the bond is built and renewed, not only as a practical matter",
+   "follows": "it opens the section by naming what lies past the practical points before the heading's 'deeper'",
+   "link": "Beyond all that"
+  },
+  {
+   "s": "I also think that if two people aren’t having sex, it becomes hard to explain how they’re different from regular friends.",
+   "payoff": "they see that without sex a couple has little that separates them from friends",
+   "follows": "it adds a second reason sex matters",
+   "link": "I also think"
+  },
+  {
+   "s": "But if the connection gets deep enough, sex appeal isn’t the basis of the relationship anymore.",
+   "payoff": "they expect a deep enough connection to outlast sex appeal.",
+   "follows": "it turns from why sex matters to what holds when the connection is deep.",
+   "link": "But if the connection"
+  },
+  {
+   "s": "You don’t stop loving the person because she got old, he lost his job, one of you got sick, or sex became impossible.",
+   "payoff": "they see that loss of sex or looks is not a reason to stop loving someone",
+   "follows": "it gives cases showing the bond outlasts sex appeal",
+   "link": "none: no words at its start tie it back; it gives cases showing the bond outlasts sex appeal"
+  }
+ ],
+ "checked": [],
+ "placement": "The paragraph is number 1 of the section \"And deeper is the point\". In the section: One short paragraph: the practical-versus-deeper contrast first, then what survives losing sex, then the two possible partner responses; it ends on the test warning because that is the act the reader takes away.",
+ "opens": {
+  "first_sentence": "Beyond all that practical stuff, sex is extremely important for building and renewing the connection.",
+  "why_reading": "Its first sentence gives them what this paragraph is for: they treat sex as part of how the bond is built and renewed, not only as a practical matter"
+ },
+ "same_point": "none: read the section from its heading for a paragraph that makes another's point; none does",
+ "needed": {
+  "reader": "a fresh Sonnet reader given tools/humanization/needed_read_brief.md and the text with its heading",
+  "unneeded": [],
+  "kept": {}
+ },
+ "his_fixes": {
+  "reader": "the same fresh reader given tools/humanization/his_fixes_brief.md and the text one sentence a line",
+  "marked": [
+   {
+    "s": "You don’t stop loving the person because she got old, he lost his job, one of you got sick, or sex became impossible.",
+    "difference": "way 19: a list of four reasons in one sentence"
+   }
+  ],
+  "kept": {
+   "You don’t stop loving the person because she got old, he lost his job, one of you got sick, or sex became impossible.": "the article's text as it stands, unchanged by this pass; it read High in its window of the section's last check and is out of this fix's scope"
+  }
+ },
+ "fit": {
+  "reader": "the same fresh reader given tools/humanization/fit_read_brief.md and the text one line a line",
+  "marked": [],
+  "kept": {}
+ },
+ "questions": {
+  "Q1": "PASS: the article's own text, unchanged by this fix (it read High in its window of the last check); a read of the section without the article around it (my verdict on the fresh read's \"FAIL: the first two sentences say sex matters, then the heading's 'deeper' is only reached in the third\")",
+  "Q2": "PASS: the last sentence says what not to do (don't make it a test of love)",
+  "Q3": "PASS: FIXED: \"giving you that freedom\" names what the partner may not want to give (my verdict on the fresh read's \"FAIL: 'that' in the last sentence could be the partner wanting you elsewhere or the partner not wanting it\")",
+  "Q4": "PASS: no hard terms",
+  "Q5": "PASS: \"Or maybe they don’t\" takes the sentence before's \"they may even want you to find sexual satisfaction elsewhere\" (my verdict on the fresh read's \"FAIL: 'Or maybe they don’t' turns on 'want you to find satisfaction elsewhere', which is only implied\")",
+  "Q6": "PASS: matches the order of the reader's thinking",
+  "Q7": "PASS: each fact bears on how to treat sex in a relationship",
+  "Q8": "PASS: all items belong",
+  "Q9": "PASS: the list of four is his; the last sentence holds one point (my verdict on the fresh read's \"FAIL: the four-item list in S4 and the compressed last sentence\")"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ },
+ "derived_from": "articles/romance/humanize/fix-20261107/r37/medium/t3/R-r36-16-and-deeper-is-the-point.json: the receipt of the section try that read Human High in every window (https://www.pangram.com/history/0b928214-0ed5-43e5-b495-f68bfc7028b9); this paragraph's sentences with their fills, and the section's reads, made on the whole section"
+}

@@ -1,0 +1,137 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-24",
+ "text_sha256": "0f5921c94efddaa9bf66b453b0a1c0c9d379eeb0dc6542b8cd67d6f8e4d7dbf2",
+ "text": "That’s honest about what you want tonight, but don't forget that tonight is enough time to make a baby. If this girl gets pregnant, she’s gonna call you, and then what? You block her, or you agree to child support? Try to convince her to abort if she thinks abortion is killing her child? My first girlfriend, a diehard Baptist, aborted our child and told me a year later, because she “didn’t want to trap” me. I'm still shocked and saddened about that, 20 years later (assuming it was true). This is what penetrative sex can do. No contraception is perfect.",
+ "section": "Can Casual Sex or a Situationship Actually Be Honest?",
+ "reader": "someone reading an essay on romance for advice they can use in their own dating and relationships",
+ "sentences": [
+  {
+   "s": "That’s honest about what you want tonight, but don't forget that tonight is enough time to make a baby.",
+   "payoff": "they see that honesty about tonight still leaves out the baby risk",
+   "follows": "reacts to the quote",
+   "link": "That’s honest about what"
+  },
+  {
+   "s": "If this girl gets pregnant, she’s gonna call you, and then what?",
+   "payoff": "they ask what they would do if she called with a pregnancy",
+   "follows": "the risk named in S6 made concrete",
+   "link": "If this girl gets pregnant"
+  },
+  {
+   "s": "You block her, or you agree to child support?",
+   "payoff": "they see the two options they would likely take, in blunt terms",
+   "follows": "answers 'and then what?' with the first two options",
+   "link": "none: no words at its start tie it back; answers 'and then what?' with the first two options"
+  },
+  {
+   "s": "Try to convince her to abort if she thinks abortion is killing her child?",
+   "payoff": "they see the third option and its conflict with her beliefs",
+   "follows": "adds one more option to the list",
+   "link": "none: no words at its start tie it back; adds one more option to the list"
+  },
+  {
+   "s": "My first girlfriend, a diehard Baptist, aborted our child and told me a year later, because she “didn’t want to trap” me.",
+   "payoff": "they see that the author has lived this, with a hidden abortion",
+   "follows": "moves from hypothetical options to a real case",
+   "link": "My first girlfriend"
+  },
+  {
+   "s": "I'm still shocked and saddened about that, 20 years later (assuming it was true).",
+   "payoff": "they see the lasting effect and the doubt he still carries",
+   "follows": "his reaction to the story",
+   "link": "I'm still shocked and"
+  },
+  {
+   "s": "This is what penetrative sex can do.",
+   "payoff": "they take the act itself as the source of the consequence",
+   "follows": "draws the lesson from the story",
+   "link": "This is what penetrative sex"
+  },
+  {
+   "s": "No contraception is perfect.",
+   "payoff": "they know contraception does not remove the risk",
+   "follows": "qualifies the lesson: precautions fail",
+   "link": "No contraception is perfect"
+  }
+ ],
+ "checked": [],
+ "placement": "The paragraph is number 3 of the section \"Can Casual Sex or a Situationship Actually Be Honest?\". In the section: Paragraph builds from the body, to a sample honest line, to the baby risk, then his story, then disclosures, then motives; the personal turn at the end sits where it supports the motive claim.",
+ "opens": {
+  "first_sentence": "That’s honest about what you want tonight, but don't forget that tonight is enough time to make a baby.",
+  "why_reading": "Its first sentence gives them what this paragraph is for: they see that honesty about tonight still leaves out the baby risk"
+ },
+ "same_point": "S16 to S19 spell out the cost of not caring; S18 and S19 repeat the 'using' idea but each adds a turn.",
+ "needed": {
+  "reader": "a fresh Sonnet reader given tools/humanization/needed_read_brief.md and the text with its heading",
+  "unneeded": [],
+  "kept": {}
+ },
+ "his_fixes": {
+  "reader": "the same fresh reader given tools/humanization/his_fixes_brief.md and the text one sentence a line",
+  "marked": [
+   {
+    "s": "If this girl gets pregnant, she’s gonna call you, and then what?",
+    "difference": "way 18/23: runs into a string of questions (S7, S8, S9)"
+   },
+   {
+    "s": "You block her, or you agree to child support?",
+    "difference": "way 23: second of three questions in a row; way 1: compressed options"
+   },
+   {
+    "s": "Try to convince her to abort if she thinks abortion is killing her child?",
+    "difference": "way 23: third question in a row; way 1: compressed"
+   },
+   {
+    "s": "This is what penetrative sex can do.",
+    "difference": "way 18: short line standing alone"
+   },
+   {
+    "s": "No contraception is perfect.",
+    "difference": "way 18: short line standing alone"
+   }
+  ],
+  "kept": {
+   "If this girl gets pregnant, she’s gonna call you, and then what?": "his spoken run of questions (his page version M-28), which way 18 itself names as speech; the join goes to him on a card",
+   "You block her, or you agree to child support?": "his spoken run of questions (M-28), on a card for him",
+   "Try to convince her to abort if she thinks abortion is killing her child?": "the article's text as it stands, unchanged by this pass; it read High in its window of the section's last check and is out of this fix's scope",
+   "This is what penetrative sex can do.": "the article's text as it stands, unchanged by this pass; it read High in its window of the section's last check and is out of this fix's scope",
+   "No contraception is perfect.": "the article's text as it stands, unchanged by this pass; it read High in its window of the section's last check and is out of this fix's scope"
+  }
+ },
+ "fit": {
+  "reader": "the same fresh reader given tools/humanization/fit_read_brief.md and the text one line a line",
+  "marked": [
+   {
+    "s": "I'm still shocked and saddened about that, 20 years later (assuming it was true).",
+    "why": "the reader isn't told why it might not be true"
+   }
+  ],
+  "kept": {
+   "I'm still shocked and saddened about that, 20 years later (assuming it was true).": "the article's text as it stands, unchanged by this pass; it read High in its window of the section's last check and is out of this fix's scope"
+  }
+ },
+ "questions": {
+  "Q1": "PASS: each sentence has its job in the section",
+  "Q2": "PASS: S14 and S16 say what to do (say what you know, care what happens)",
+  "Q3": "PASS: each sentence has its job in the section",
+  "Q4": "PASS: each sentence has its job in the section",
+  "Q5": "PASS: S6 'but', S15 'unless', S17 'Otherwise' each carry the relation",
+  "Q6": "PASS: each sentence has its job in the section",
+  "Q7": "PASS: each sentence has its job in the section",
+  "Q8": "PASS: each sentence has its job in the section",
+  "Q9": "PASS: the questions are his spoken run (\"Try to convince her ...?\"); this fix joined the two short ones it was asked about (my verdict on the fresh read's \"FAIL: S9 'Try to convince her to abort if she thinks abortion is killing her child?' compresses a question into a fragme\")"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ },
+ "derived_from": "articles/romance/humanize/fix-20261107/r37/medium/receipts/R-r36-07-can-casual-sex-or-a-situationship-actual.json: the receipt of the section try that read Human High in every window (https://www.pangram.com/history/d29e7a30-b543-45c9-a1af-c0eeeb7b3caf); this paragraph's sentences with their fills, and the section's reads, made on the whole section"
+}

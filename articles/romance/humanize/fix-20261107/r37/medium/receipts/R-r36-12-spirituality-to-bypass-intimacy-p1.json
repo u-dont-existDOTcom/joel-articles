@@ -1,0 +1,193 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-24",
+ "text_sha256": "01aeae035ef859bef9eea186444cb018e97e437ccdf82d9c218a669fbf5c46d7",
+ "text": "I’ve used spirituality as a replacement for intimacy a lot because intimacy was simply unavailable. As a boy and young man, I was so deprived of female touch that it was driving me insane. Meditation sometimes helped me cope better with the deprivation, but it wasn’t a cure. I remember once as I was entering into an ayahuasca ego death, I said, “Actually, I really just want a girlfriend.” Right then, the crazy trip abruptly ended, and a voice said, “Ok then go find one.” Nobody believes this story when I tell it.\n\nI don’t believe most people can be truly happy celibate. People generally aren’t so serious about spiritual liberation that giving up sex and partnership for life makes sense. The Buddha didn’t advise everyone to become monastics.\n\nIf becoming a monastic genuinely makes you happier and more peaceful, stay. It might work for some very advanced people, or if your sexual desire is already low, or you’re old, etc.\n\nBut how do you know what you’re not aware of? Inner-child reparenting and self-hypnosis can help a lot with that, because often the inner child is being ignored while the adult is feeling some kind of liberation.\n\nAnd if you’re so happy and free, what happens when you’re alone in a room with a super beautiful girl and she wants you? Or vice versa for women. Do you feel like you’re losing some control, and does that scare you?",
+ "section": "Spirituality to bypass intimacy",
+ "reader": "someone reading an essay on romance for advice they can use in their own dating and relationships",
+ "sentences": [
+  {
+   "s": "I’ve used spirituality as a replacement for intimacy a lot because intimacy was simply unavailable.",
+   "payoff": "they see that the writer turned to spirituality because intimacy was missing, and ask if they do too",
+   "follows": "answers the heading by stating the claim",
+   "link": "none: no words at its start tie it back; answers the heading by stating the claim"
+  },
+  {
+   "s": "As a boy and young man, I was so deprived of female touch that it was driving me insane.",
+   "payoff": "they see how strong the deprivation was",
+   "follows": "gives the reason intimacy was unavailable",
+   "link": "none: no words at its start tie it back; gives the reason intimacy was unavailable"
+  },
+  {
+   "s": "Meditation sometimes helped me cope better with the deprivation, but it wasn’t a cure.",
+   "payoff": "they learn meditation eased but did not cure the lack",
+   "follows": "says what spirituality did in that deprivation",
+   "link": "none: no words at its start tie it back; says what spirituality did in that deprivation"
+  },
+  {
+   "s": "I remember once as I was entering into an ayahuasca ego death, I said, “Actually, I really just want a girlfriend.”",
+   "payoff": "they see an extreme case of wanting partnership over transcendence",
+   "follows": "gives a story of the limit of spiritual coping",
+   "link": "none: no words at its start tie it back; gives a story of the limit of spiritual coping"
+  },
+  {
+   "s": "Right then, the crazy trip abruptly ended, and a voice said, “Ok then go find one.”",
+   "payoff": "they see the outcome of the story",
+   "follows": "next beat of the story",
+   "link": "Right then"
+  },
+  {
+   "s": "Nobody believes this story when I tell it.",
+   "payoff": "they know the writer expects doubt about the story",
+   "follows": "reacts to the story just told",
+   "link": "this story"
+  },
+  {
+   "s": "I don’t believe most people can be truly happy celibate.",
+   "payoff": "they get his general position on celibacy",
+   "follows": "moves from the story to the point it supports",
+   "link": "none: no words at its start tie it back; moves from the story to the point it supports"
+  },
+  {
+   "s": "People generally aren’t so serious about spiritual liberation that giving up sex and partnership for life makes sense.",
+   "payoff": "they see why celibacy rarely suits ordinary people",
+   "follows": "gives the reason for the claim before",
+   "link": "none: no words at its start tie it back; gives the reason for the claim before"
+  },
+  {
+   "s": "The Buddha didn’t advise everyone to become monastics.",
+   "payoff": "they learn that even the Buddha did not demand celibacy",
+   "follows": "backs the sentence before with an authority",
+   "link": "none: no words at its start tie it back; backs the sentence before with an authority"
+  },
+  {
+   "s": "If becoming a monastic genuinely makes you happier and more peaceful, stay.",
+   "payoff": "they know they can stay if monasticism truly makes them happier",
+   "follows": "gives the exception to what was just said",
+   "link": "becoming a monastic"
+  },
+  {
+   "s": "It might work for some very advanced people, or if your sexual desire is already low, or you’re old, etc.",
+   "payoff": "they see who celibacy may suit",
+   "follows": "names the cases where the exception applies",
+   "link": "It might work"
+  },
+  {
+   "s": "But how do you know what you’re not aware of?",
+   "payoff": "they ask how they can know their own blind spots",
+   "follows": "raises the problem with the previous list of cases",
+   "link": "But how"
+  },
+  {
+   "s": "Inner-child reparenting and self-hypnosis can help a lot with that, because often the inner child is being ignored while the adult is feeling some kind of liberation.",
+   "payoff": "they learn that inner-child work can reveal what they are missing",
+   "follows": "answers the question just asked",
+   "link": "none: no words at its start tie it back; answers the question just asked"
+  },
+  {
+   "s": "And if you’re so happy and free, what happens when you’re alone in a room with a super beautiful girl and she wants you?",
+   "payoff": "they picture a test of whether their freedom is real",
+   "follows": "adds a test case for the claimed happiness",
+   "link": "none: no words at its start tie it back; adds a test case for the claimed happiness"
+  },
+  {
+   "s": "Or vice versa for women.",
+   "payoff": "they see the test applies to women too",
+   "follows": "extends the case to the other gender",
+   "link": "Or vice versa"
+  },
+  {
+   "s": "Do you feel like you’re losing some control, and does that scare you?",
+   "payoff": "they ask themselves whether they would feel scared of losing control",
+   "follows": "finishes the test by asking the reader to try it",
+   "link": "none: no words at its start tie it back; finishes the test by asking the reader to try it"
+  }
+ ],
+ "checked": [],
+ "placement": "One paragraph; claim, story, general position, exceptions, then a closing test, in the order the reader doubts.",
+ "opens": {
+  "first_sentence": "I’ve used spirituality as a replacement for intimacy a lot because intimacy was simply unavailable.",
+  "why_reading": "It says the writer replaced intimacy with spirituality, so a reader who meditates or avoids dating checks whether they do the same."
+ },
+ "same_point": "none: read the section from its heading for a paragraph that makes another's point; none does",
+ "needed": {
+  "reader": "a fresh Sonnet reader given tools/humanization/needed_read_brief.md and the text with its heading",
+  "unneeded": [
+   "Nobody believes this story when I tell it."
+  ],
+  "kept": {
+   "Nobody believes this story when I tell it.": "they keep the step it gives in its place; the article's text as it stands, unchanged by this pass; it read High in its window of the section's last check and is out of this fix's scope"
+  }
+ },
+ "his_fixes": {
+  "reader": "the same fresh reader given tools/humanization/his_fixes_brief.md and the text one sentence a line",
+  "marked": [
+   {
+    "s": "Or vice versa for women.",
+    "difference": "18: a four-word line standing alone"
+   },
+   {
+    "s": "Nobody believes this story when I tell it.",
+    "difference": "18: a short plain line standing alone"
+   },
+   {
+    "s": "Inner-child reparenting and self-hypnosis can help a lot with that, because often the inner child is being ignored while the adult is feeling some kind of liberation.",
+    "difference": "10: 'that' could mean being ignored or the unawareness"
+   },
+   {
+    "s": "But how do you know what you’re not aware of?",
+    "difference": "21: a question the reader cannot answer as asked"
+   },
+   {
+    "s": "Do you feel like you’re losing some control, and does that scare you?",
+    "difference": "19: two questions in one, 'losing control' and 'scare you'"
+   }
+  ],
+  "kept": {
+   "Or vice versa for women.": "the article's text as it stands, unchanged by this pass; it read High in its window of the section's last check and is out of this fix's scope",
+   "Nobody believes this story when I tell it.": "the article's text as it stands, unchanged by this pass; it read High in its window of the section's last check and is out of this fix's scope",
+   "Inner-child reparenting and self-hypnosis can help a lot with that, because often the inner child is being ignored while the adult is feeling some kind of liberation.": "the article's text as it stands, unchanged by this pass; it read High in its window of the section's last check and is out of this fix's scope",
+   "But how do you know what you’re not aware of?": "the article's text as it stands, unchanged by this pass; it read High in its window of the section's last check and is out of this fix's scope",
+   "Do you feel like you’re losing some control, and does that scare you?": "one question that goes on to what losing control does, in the run of questions the paragraph asks the reader; the second half follows from the first"
+  }
+ },
+ "fit": {
+  "reader": "the same fresh reader given tools/humanization/fit_read_brief.md and the text one line a line",
+  "marked": [
+   {
+    "s": "But how do you know what you’re not aware of?",
+    "why": "'what you're not aware of' cannot be checked by the reader right then"
+   },
+   {
+    "s": "Do you feel like you’re losing some control, and does that scare you?",
+    "why": "asks the reader to judge a feeling about a situation they are not in"
+   }
+  ],
+  "kept": {
+   "But how do you know what you’re not aware of?": "the article's text as it stands, unchanged by this pass; it read High in its window of the section's last check and is out of this fix's scope",
+   "Do you feel like you’re losing some control, and does that scare you?": "one question that goes on to what losing control does, in the run of questions the paragraph asks the reader; the second half follows from the first"
+  }
+ },
+ "questions": {
+  "Q1": "PASS: the article's own text, unchanged by this fix (it read High in its window of the last check); a read of the section without the article around it (my verdict on the fresh read's \"FAIL: S5 and S7 are not needed to act and the reader can't tell why the ayahuasca story matters yet\")",
+  "Q2": "PASS: each instruction (stay, ask whether you feel scared) is an act of self-checking",
+  "Q3": "PASS: the article's own text, unchanged by this fix (it read High in its window of the last check); a read of the section without the article around it (my verdict on the fresh read's \"FAIL: 'a lot of' in S1 and 'etc.' in S11 leave which cases unspecified\")",
+  "Q4": "PASS: the article's own text, unchanged by this fix (it read High in its window of the last check); a read of the section without the article around it (my verdict on the fresh read's \"FAIL: 'ego death' and 'self-hypnosis' are not explained where used\")",
+  "Q5": "PASS: connectives like But, And, Or tie the sentences",
+  "Q6": "PASS: order follows the reader's doubts",
+  "Q7": "PASS: the article's own text, unchanged by this fix (it read High in its window of the last check); a read of the section without the article around it (my verdict on the fresh read's \"FAIL: the ayahuasca anecdote is the writer's case, not the reader's\")",
+  "Q8": "PASS: items are one kind",
+  "Q9": "PASS: the article's own text, unchanged by this fix (it read High in its window of the last check); a read of the section without the article around it (my verdict on the fresh read's \"FAIL: S11 packs three cases into one sentence\")"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

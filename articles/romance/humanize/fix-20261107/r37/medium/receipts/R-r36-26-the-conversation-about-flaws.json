@@ -1,0 +1,162 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-24",
+ "text_sha256": "c2c5566d0cd7145add97ff01099b4ef4a1a445d089376a9635668bf57ef910bc",
+ "text": "Card games and social gatherings don’t tell you everything, but asking someone out of the blue, “What did you do wrong in your past relationships?” would make for a pretty weird date.\n\nAt the right time, though, in the right way (especially if they bring it up tangentially), I would ask about their past relationships, especially the recent ones. If every story ends with everything being the other person’s fault, I’d ask, “Okay, so what lessons did you find for yourself?”\n\n“I have baggage” isn't as useful as learning what you're having trouble with now. What might make it hard for you to function well in a relationship?\n\nI’d want both of us to be honest about how well we actually handle our own issues. What addictions or impulsive behaviors can’t we reliably control? What are we probably going to ask forgiveness for more than once? That tells me more than either of us proclaiming that we’re healed.\n\nLook at the most recent conflicts and ask if you were able to regulate yourself during them. What did you do to the other person, and how did you repair the damage afterward? Not doing can be just as bad as overdoing. If conflict makes you shut down, does it mean you stop talking to your partner for days, leaving them feeling abandoned?\n\nHas your judgment gotten better, or would your friends or exes say you keep falling for the same stuff?",
+ "section": "The conversation about flaws",
+ "reader": "someone reading an essay on romance for advice they can use in their own dating and relationships",
+ "sentences": [
+  {
+   "s": "Card games and social gatherings don’t tell you everything, but asking someone out of the blue, “What did you do wrong in your past relationships?” would make for a pretty weird date.",
+   "payoff": "they learn not to ask the blunt question on a date",
+   "follows": "gives the first caution under the heading",
+   "link": "none: no words at its start tie it back; gives the first caution under the heading"
+  },
+  {
+   "s": "At the right time, though, in the right way (especially if they bring it up tangentially), I would ask about their past relationships, especially the recent ones.",
+   "payoff": "they learn when and how to ask about past relationships",
+   "follows": "gives the better way after the caution",
+   "link": "At the right time"
+  },
+  {
+   "s": "If every story ends with everything being the other person’s fault, I’d ask, “Okay, so what lessons did you find for yourself?”",
+   "payoff": "they have a follow-up question for one-sided stories",
+   "follows": "next case of what the person says",
+   "link": "If every story"
+  },
+  {
+   "s": "“I have baggage” isn't as useful as learning what you're having trouble with now.",
+   "payoff": "they see which answer is vague",
+   "follows": "says what an answer should not be",
+   "link": "none: no words at its start tie it back; says what an answer should not be"
+  },
+  {
+   "s": "What might make it hard for you to function well in a relationship?",
+   "payoff": "they get a better question to ask",
+   "follows": "replaces the vague answer with a question",
+   "link": "none: no words at its start tie it back; replaces the vague answer with a question"
+  },
+  {
+   "s": "I’d want both of us to be honest about how well we actually handle our own issues.",
+   "payoff": "they ask how well each of them really handles their own issues, not how healed they feel.",
+   "follows": "it says what the conversation about flaws should cover after the card games that don't show it.",
+   "link": "I’d want both of us"
+  },
+  {
+   "s": "What addictions or impulsive behaviors can’t we reliably control?",
+   "payoff": "they name the addictions or impulsive behaviors they can't reliably control.",
+   "follows": "it asks the question the honesty of the sentence before is about.",
+   "link": "What addictions or impulsive"
+  },
+  {
+   "s": "What are we probably going to ask forgiveness for more than once?",
+   "payoff": "they get a second concrete question",
+   "follows": "continues the examples of mutual honesty",
+   "link": "none: no words at its start tie it back; continues the examples of mutual honesty"
+  },
+  {
+   "s": "That tells me more than either of us proclaiming that we’re healed.",
+   "payoff": "they trust an honest list of what they can't control over a claim of being healed.",
+   "follows": "\"That\" is the answer to the question just before.",
+   "link": "That tells me more"
+  },
+  {
+   "s": "Look at the most recent conflicts and ask if you were able to regulate yourself during them.",
+   "payoff": "they know to check their own recent conflicts",
+   "follows": "turns the reader to their own record",
+   "link": "none: no words at its start tie it back; turns the reader to their own record"
+  },
+  {
+   "s": "What did you do to the other person, and how did you repair the damage afterward?",
+   "payoff": "they get two questions about harm and repair",
+   "follows": "says what to look for in the conflicts",
+   "link": "none: no words at its start tie it back; says what to look for in the conflicts"
+  },
+  {
+   "s": "Not doing can be just as bad as overdoing.",
+   "payoff": "they see that failing to act also counts",
+   "follows": "adds a limit to the question before",
+   "link": "Not doing"
+  },
+  {
+   "s": "If conflict makes you shut down, does it mean you stop talking to your partner for days, leaving them feeling abandoned?",
+   "payoff": "they get an example of not doing",
+   "follows": "gives the case for 'not doing'",
+   "link": "If conflict makes"
+  },
+  {
+   "s": "Has your judgment gotten better, or would your friends or exes say you keep falling for the same stuff?",
+   "payoff": "they ask whether their judgment improved",
+   "follows": "moves from conflict to long-view of choices",
+   "link": "none: no words at its start tie it back; moves from conflict to long-view of choices"
+  }
+ ],
+ "checked": [],
+ "placement": "One block: dating conversation, then mutual honesty, then self-check at the end; the self-check last because it needs the earlier questions.",
+ "opens": {
+  "first_sentence": "Card games and social gatherings don’t tell you everything, but asking someone out of the blue, “What did you do wrong in your past relationships?” would make for a pretty weird date.",
+  "why_reading": "It says the blunt question is awkward on a date, so the reader sees there is a better way to find out."
+ },
+ "same_point": "none: read the section from its heading for a paragraph that makes another's point; none does",
+ "needed": {
+  "reader": "a fresh Sonnet reader given tools/humanization/needed_read_brief.md and the text with its heading",
+  "unneeded": [],
+  "kept": {}
+ },
+ "his_fixes": {
+  "reader": "the same fresh reader given tools/humanization/his_fixes_brief.md and the text one sentence a line",
+  "marked": [
+   {
+    "s": "“I have baggage” isn't as useful as learning what you're having trouble with now.",
+    "difference": "3: 'isn't as useful as' sets one thing against another"
+   },
+   {
+    "s": "If conflict makes you shut down, does it mean you stop talking to your partner for days, leaving them feeling abandoned?",
+    "difference": "23: one of a run of questions; the paragraph is almost all questions"
+   },
+   {
+    "s": "Has your judgment gotten better, or would your friends or exes say you keep falling for the same stuff?",
+    "difference": "23: another question ending the run"
+   }
+  ],
+  "kept": {
+   "“I have baggage” isn't as useful as learning what you're having trouble with now.": "the article's text as it stands, unchanged by this pass; it read High in its window of the section's last check and is out of this fix's scope",
+   "If conflict makes you shut down, does it mean you stop talking to your partner for days, leaving them feeling abandoned?": "the article's text as it stands, unchanged by this pass; it read High in its window of the section's last check and is out of this fix's scope",
+   "Has your judgment gotten better, or would your friends or exes say you keep falling for the same stuff?": "the article's text as it stands, unchanged by this pass; it read High in its window of the section's last check and is out of this fix's scope"
+  }
+ },
+ "fit": {
+  "reader": "the same fresh reader given tools/humanization/fit_read_brief.md and the text one line a line",
+  "marked": [
+   {
+    "s": "What are we probably going to ask forgiveness for more than once?",
+    "why": "a reader cannot tell what they will need to ask forgiveness for on a first date"
+   }
+  ],
+  "kept": {
+   "What are we probably going to ask forgiveness for more than once?": "the article's text as it stands, unchanged by this pass; it read High in its window of the section's last check and is out of this fix's scope"
+  }
+ },
+ "questions": {
+  "Q1": "PASS: each sentence asks something the reader can use",
+  "Q2": "PASS: asking, honesty, checking are actions",
+  "Q3": "PASS: FIXED: the question stays as his version has it, and \"That tells me more\" points at it, the sentence before (my verdict on the fresh read's \"FAIL: 'those' answers in S7 points at questions two sentences back\")",
+  "Q4": "PASS: the article's own text, unchanged by this fix (it read High in its window of the last check); a read of the section without the article around it (my verdict on the fresh read's \"FAIL: 'regulate yourself' is not explained\")",
+  "Q5": "PASS: but S6 'ask forgiveness more than once' needs a link to flaws",
+  "Q6": "PASS: personal then reader-focused order",
+  "Q7": "PASS: facts help the reader's dating",
+  "Q8": "PASS: all items are questions or tests",
+  "Q9": "PASS: the article's own text, unchanged by this fix (it read High in its window of the last check); a read of the section without the article around it (my verdict on the fresh read's \"FAIL: S11 packs consequence into a conditional question\")"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

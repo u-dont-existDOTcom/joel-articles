@@ -1485,7 +1485,9 @@ His message: `articles/inner-signal/humanize/fix-20261026/joel-20261026-1243-mes
   (Low)", and `tools/humanization/window_confidence.py` lists every window that isn't High-confidence Human with its place
   and whose words, as the next work. Most Medium windows are lines of a few words (a list letter, "Yes.", a short script
   line), which no rewording makes long enough to be sure of; whether to change that form is his call, on the questions
-  page (`docs/FIXING-AN-ARTICLE.md` 6.14).
+  page (`docs/FIXING-AN-ARTICLE.md` 6.14). A Medium window in prose is work to do, not done (Joel, 2026-11-23 23:49 UTC:
+  "i often find the medium windows indicate other issues also"; lesson romance-2026-11-23i): his fix of three in one
+  romance section changed each sentence's form, a mirrored pair, a short closing line, a trailing piece of advice.
 - **E279. A word of his that a sample drops goes back before the gate.** Batch 481 (the guide's Emulate versions of 24
   stretches at less than High) lost five of its drafts in the gate's first round, each on one word or mark: Emulate
   dropped his "genuinely" ("two genuinely safe routes"), his "still" ("What boundaries are still needed?"), his

@@ -1,0 +1,925 @@
+{
+ "r36-07-can-casual-sex-or-a-situationship-actual": {
+  "sentences": [
+   {
+    "payoff": "they see that a casual agreement doesn't switch off bodily attachment",
+    "follows": "answers the heading's question: no, because the body ignores the agreement",
+    "link": "none: opens the section"
+   },
+   {
+    "payoff": "they picture the usual aftermath and see it in their own hookups",
+    "follows": "next step after the night: the morning-after feeling",
+    "link": "Then the next morning"
+   },
+   {
+    "payoff": "they accept that avoiding further attachment is the best they can hope for after a one-night stand",
+    "follows": "explains why the morning-after wondering is the outcome to aim for",
+    "link": "Well, not getting pulled"
+   },
+   {
+    "payoff": "they hear the disclaimer they might say",
+    "follows": "moves from the outcome to the honest line one could say",
+    "link": "none: opens a quoted line"
+   },
+   {
+    "payoff": "they hear the second half of the disclaimer",
+    "follows": "continues the quoted line",
+    "link": "I’m not pretending I"
+   },
+   {
+    "payoff": "they hear what the honest line asks for",
+    "follows": "finishes the quoted line",
+    "link": "none: continues the quote"
+   },
+   {
+    "payoff": "they see that honesty about tonight still leaves out the baby risk",
+    "follows": "reacts to the quote",
+    "link": "That’s honest about what"
+   },
+   {
+    "payoff": "they ask what they would do if she called with a pregnancy",
+    "follows": "the risk named in S6 made concrete",
+    "link": "If this girl gets pregnant"
+   },
+   {
+    "payoff": "they see the two options they would likely take, in blunt terms",
+    "follows": "answers 'and then what?' with the first two options",
+    "link": "none: continues the question with options"
+   },
+   {
+    "payoff": "they see the third option and its conflict with her beliefs",
+    "follows": "adds one more option to the list",
+    "link": "none: adds an option"
+   },
+   {
+    "payoff": "they see that the author has lived this, with a hidden abortion",
+    "follows": "moves from hypothetical options to a real case",
+    "link": "My first girlfriend"
+   },
+   {
+    "payoff": "they see the lasting effect and the doubt he still carries",
+    "follows": "his reaction to the story",
+    "link": "I'm still shocked and"
+   },
+   {
+    "payoff": "they take the act itself as the source of the consequence",
+    "follows": "draws the lesson from the story",
+    "link": "This is what penetrative sex"
+   },
+   {
+    "payoff": "they know contraception does not remove the risk",
+    "follows": "qualifies the lesson: precautions fail",
+    "link": "No contraception is perfect"
+   },
+   {
+    "payoff": "they know the STI disclosure is a simple one",
+    "follows": "turns from pregnancy to the other disclosures",
+    "link": "The STI part is"
+   },
+   {
+    "payoff": "they see that feelings are the hard disclosure",
+    "follows": "contrasts with the easy STI one",
+    "link": "Feelings aren’t as easy"
+   },
+   {
+    "payoff": "they see that caring about the person afterward is the cost of sex",
+    "follows": "explains why feelings are not easy",
+    "link": "none: states the reason directly"
+   },
+   {
+    "payoff": "they see what skipping that care amounts to",
+    "follows": "consequence of not caring",
+    "link": "Otherwise you’re using"
+   },
+   {
+    "payoff": "they consider that the other person may be doing the same",
+    "follows": "adds the other side of the exchange",
+    "link": "Maybe they’re using you"
+   },
+   {
+    "payoff": "they see the sarcastic result of mutual using",
+    "follows": "follows from both using each other",
+    "link": "none: sarcastic reaction to the one before"
+   },
+   {
+    "payoff": "they notice a stated 'only fun' may be a way to get sex",
+    "follows": "moves to the motive behind the disclaimer",
+    "link": "none: new claim"
+   },
+   {
+    "payoff": "they see that the author is not exempt",
+    "follows": "self-example of the motive just given",
+    "link": "Sometimes I know"
+   },
+   {
+    "payoff": "they see the author found his hope only afterward",
+    "follows": "second half of his self-example",
+    "link": "Sometimes I only find"
+   }
+  ],
+  "placement": "Paragraph builds from the body, to a sample honest line, to the baby risk, then his story, then disclosures, then motives; the personal turn at the end sits where it supports the motive claim.",
+  "why_reading": "It says the body ignores the agreement, so a reader in a casual arrangement sees their own case right away.",
+  "same_point": "S16 to S19 spell out the cost of not caring; S18 and S19 repeat the 'using' idea but each adds a turn.",
+  "questions": {
+   "Q1": "PASS: each sentence has its job in the section",
+   "Q2": "PASS: S14 and S16 say what to do (say what you know, care what happens)",
+   "Q3": "PASS: each sentence has its job in the section",
+   "Q4": "PASS: each sentence has its job in the section",
+   "Q5": "PASS: S6 'but', S15 'unless', S17 'Otherwise' each carry the relation",
+   "Q6": "PASS: each sentence has its job in the section",
+   "Q7": "PASS: each sentence has its job in the section",
+   "Q8": "PASS: each sentence has its job in the section",
+   "Q9": "FAIL: S9 'Try to convince her to abort if she thinks abortion is killing her child?' compresses a question into a fragment; S13 and S12 are very short"
+  },
+  "needed": {
+   "unneeded": [
+    "Maybe they’re using you too.",
+    "Congratulations, now it’s mutual."
+   ]
+  },
+  "his_fixes": {
+   "marked": [
+    {
+     "s": "If this girl gets pregnant, she’s gonna call you, and then what?",
+     "difference": "way 18/23: runs into a string of questions (S7, S8, S9)"
+    },
+    {
+     "s": "You block her, or you agree to child support?",
+     "difference": "way 23: second of three questions in a row; way 1: compressed options"
+    },
+    {
+     "s": "Try to convince her to abort if she thinks abortion is killing her child?",
+     "difference": "way 23: third question in a row; way 1: compressed"
+    },
+    {
+     "s": "This is what penetrative sex can do.",
+     "difference": "way 18: short line standing alone"
+    },
+    {
+     "s": "No contraception is perfect.",
+     "difference": "way 18: short line standing alone"
+    },
+    {
+     "s": "Otherwise you’re using and abusing them for pleasure.",
+     "difference": "way 3: reads as a sweeping label; way 21: label"
+    },
+    {
+     "s": "Congratulations, now it’s mutual.",
+     "difference": "way 18: short line standing alone, sums up with a quip"
+    },
+    {
+     "s": "Sometimes I know I’m hoping it turns into love.",
+     "difference": "way 2: mirrors the next sentence"
+    },
+    {
+     "s": "Sometimes I only find out I was hoping that when it doesn’t.",
+     "difference": "way 2: mirrors the previous sentence"
+    }
+   ]
+  },
+  "fit": {
+   "marked": [
+    {
+     "s": "Well, not getting pulled in any further is the best outcome still available, actually, since you just played Russian Roulette with a potential life bond to a stranger.",
+     "why": "it says the best outcome is not being pulled in, yet the heading asks about honesty, and the Russian Roulette image could alarm"
+    },
+    {
+     "s": "Congratulations, now it’s mutual.",
+     "why": "sounds like praise at first read"
+    },
+    {
+     "s": "I'm still shocked and saddened about that, 20 years later (assuming it was true).",
+     "why": "the reader isn't told why it might not be true"
+    }
+   ]
+  }
+ },
+ "r36-20-dating-app-horror-show-p2": {
+  "sentences": [
+   {
+    "payoff": "they take a stance of not judging app users harshly",
+    "follows": "answers the heading by softening it",
+    "link": "none: opens the section"
+   },
+   {
+    "payoff": "they see the app can work as an introduction if used as a gate",
+    "follows": "answers the heading: it can be fine",
+    "link": "none: states the section's claim"
+   },
+   {
+    "payoff": "they set their own filter at nearly everyone being a bad match",
+    "follows": "tells how to use the gate",
+    "link": "none: states how to be a gate"
+   },
+   {
+    "payoff": "they see excitement over every cute match defeats the gate",
+    "follows": "the case that breaks the rule in S2",
+    "link": "If you’re just going"
+   },
+   {
+    "payoff": "they know the risk is meeting weirdos and fakers",
+    "follows": "consequence of getting excited by everyone",
+    "link": "That’s such an easy"
+   },
+   {
+    "payoff": "they see the same types are around offline, so the app isn't the cause",
+    "follows": "limits the alarm in S4",
+    "link": "Those people are easy"
+   },
+   {
+    "payoff": "they carry the advice that wrong partners are the scary outcome",
+    "follows": "follows from S5: the danger is the wrong person, not loneliness",
+    "link": "I always tell young guys"
+   },
+   {
+    "payoff": "they see women should be selective too",
+    "follows": "adds the other half of the audience",
+    "link": "Girls are usually more"
+   },
+   {
+    "payoff": "they see he is not above using an app",
+    "follows": "moves from advice to his own use",
+    "link": "I’m almost embarrassed to"
+   },
+   {
+    "payoff": "they see the volume of matches to be sorted",
+    "follows": "his experience supports the 99.99% claim",
+    "link": "I was getting something"
+   },
+   {
+    "payoff": "they see that the filter made the app useful for him",
+    "follows": "closes with what the gate told him",
+    "link": "Some were cute but"
+   }
+  ],
+  "placement": "A short opening stance, the gate rule, why it matters, then his own use of the app to show it, ending on the useful finding.",
+  "why_reading": "It tells a reader who is about to judge app users, or be judged, to hold off, which frames what follows.",
+  "same_point": "none: read the section from its heading for a paragraph that makes another's point; none does",
+  "questions": {
+   "Q1": "PASS: each sentence has its job in the section",
+   "Q2": "PASS: each sentence has its job in the section",
+   "Q3": "PASS: each sentence has its job in the section",
+   "Q4": "FAIL: 'used as a gate' (S10) leans on the metaphor; 'gate' is introduced in S1 as 'a proper gate' without saying it means a filter",
+   "Q5": "PASS: each sentence has its job in the section",
+   "Q6": "PASS: gate rule, danger, then his use",
+   "Q7": "FAIL: S0 'Judge not, lest ye be judged' does not help the reader decide anything and S8 'in Kenya' adds nothing",
+   "Q8": "PASS: each sentence has its job in the section",
+   "Q9": "PASS: each sentence has its job in the section"
+  },
+  "needed": {
+   "unneeded": [
+    "Ok wait, Judge not, lest ye be judged...",
+    "I’m almost embarrassed to admit, but I recently tried Hinge again for a few days while I was in Kenya after my last breakup."
+   ]
+  },
+  "his_fixes": {
+   "marked": [
+    {
+     "s": "Assume 99.99% of the people there are a bad match for you.",
+     "difference": "way 4: vague about what counts; a made-up figure"
+    },
+    {
+     "s": "That’s such an easy way to find a weirdo, a psycho, a mooch, a faker, or whatever.",
+     "difference": "way 19: list of category words; way 1: compressed"
+    },
+    {
+     "s": "Those people are easy enough to find in modern society in person anyway.",
+     "difference": "way 10: 'Those people' and 'anyway' could point back in two ways"
+    },
+    {
+     "s": "Some were cute but none seemed deep, so used as a gate, the app did tell me something useful.",
+     "difference": "way 11: means ('used as a gate') before payoff; way 6: ends on a wise-sounding line; payoff is not stated (what was useful)"
+    },
+    {
+     "s": "Ok wait, Judge not, lest ye be judged...",
+     "difference": "way 18: short line standing alone; way 13: reader wonders why they are reading it"
+    }
+   ]
+  },
+  "fit": {
+   "marked": [
+    {
+     "s": "Ok wait, Judge not, lest ye be judged...",
+     "why": "it reads as a reproach to the reader about judging, before the section says why"
+    },
+    {
+     "s": "Some were cute but none seemed deep, so used as a gate, the app did tell me something useful.",
+     "why": "the reader isn't told what the useful thing was"
+    },
+    {
+     "s": "Assume 99.99% of the people there are a bad match for you.",
+     "why": "the reader cannot know the figure, and may read it as literal"
+    }
+   ]
+  }
+ },
+ "r36-30-beware-idealization-in-either-direction-p1": {
+  "sentences": [
+   {
+    "payoff": "they see idealization as both a danger and close to real love",
+    "follows": "opens the section and answers its heading",
+    "link": "none: opens the section"
+   },
+   {
+    "payoff": "they see why they can't easily tell the two apart",
+    "follows": "consequence of the two being close",
+    "link": "That’s why it’s so"
+   },
+   {
+    "payoff": "they learn the author has examples and who they are",
+    "follows": "moves from the claim to his experience",
+    "link": "So far in my"
+   },
+   {
+    "payoff": "they link those examples to actual love",
+    "follows": "adds why the two women matter",
+    "link": "They’re also the two"
+   },
+   {
+    "payoff": "they see what idealization looked like with them, and its cost to him",
+    "follows": "explains the pattern in his life",
+    "link": "Both of them saw"
+   },
+   {
+    "payoff": "they see he is not claiming to be a rescuer",
+    "follows": "corrects a reading of S4",
+    "link": "I’m not Superman out"
+   },
+   {
+    "payoff": "they see the dynamic is natural and sometimes exaggerated",
+    "follows": "states what the dynamic is",
+    "link": "There’s just a natural"
+   },
+   {
+    "payoff": "they see that she doesn't need a knight and that relying on one is a shortcut",
+    "follows": "his judgment of the dynamic",
+    "link": "She shouldn’t need a"
+   },
+   {
+    "payoff": "they get a test: seeing someone as amazing is fine, but identifying with the way you see them is the trouble",
+    "follows": "the line between healthy and pathological idealization",
+    "link": "none: states the line"
+   },
+   {
+    "payoff": "they see the extent of idealization as a predictor of later demonization",
+    "follows": "extends from the test to what follows",
+    "link": "The degree of idealization"
+   },
+   {
+    "payoff": "they hear a healthy example",
+    "follows": "opens the example comparing two statements",
+    "link": "If a woman says"
+   },
+   {
+    "payoff": "they see the healthy statement completed",
+    "follows": "finishes the quote",
+    "link": "Of course you have"
+   },
+   {
+    "payoff": "they see the warning example and his response",
+    "follows": "contrasts with the healthy one",
+    "link": "If she says, “You’re perfect"
+   }
+  ],
+  "placement": "Claim and difficulty first, then his two cases, then the line between healthy and unhealthy, then the sign of it in what a woman says.",
+  "why_reading": "It says idealization can be pathological yet close to real love, so a reader unsure about their own feelings reads on.",
+  "same_point": "S7 and S8 both state when seeing someone as special turns bad (needing a knight; identifying with the way you see them).",
+  "questions": {
+   "Q1": "PASS: each sentence has its job in the section",
+   "Q2": "PASS: each sentence has its job in the section",
+   "Q3": "PASS: each sentence has its job in the section",
+   "Q4": "FAIL: 'lost in the sauce', 'love slave', 'divine archetypes', 'director/muse dynamic' are not explained where used",
+   "Q5": "PASS: each sentence has its job in the section",
+   "Q6": "PASS: each sentence has its job in the section",
+   "Q7": "PASS: each sentence has its job in the section",
+   "Q8": "FAIL: S5 doesn't belong with the others",
+   "Q9": "FAIL: S8 packs three ideas (legit seeing, need nothing back, identifying) into one long sentence; S5 'save a hoe' left unexplained"
+  },
+  "needed": {
+   "unneeded": [
+    "She shouldn’t need a knight in shining armor to bring that beauty out, though, because it’s a bad shortcut to the divine archetypes.",
+    "I’m not Superman out here trying to “save a hoe.”"
+   ]
+  },
+  "his_fixes": {
+   "marked": [
+    {
+     "s": "You can legitimately see someone as amazing when you don’t need anything back from seeing them that way, but you’re already lost in the sauce once you start identifying with the way you see them, like she’s perfect and I’m the one destiny finally sent to find her.",
+     "difference": "way 1: several ideas packed in one sentence; way 3: contrast pair; way 21: label ('identifying with the way you see them')"
+    },
+    {
+     "s": "That’s why it’s so easy to get confused.",
+     "difference": "way 10: 'That' could point to either idea; way 18: short line"
+    },
+    {
+     "s": "They’re also the two women I’ve actually been in love with, which is probably not a coincidence.",
+     "difference": "way 6: wise-sounding aside"
+    },
+    {
+     "s": "She shouldn’t need a knight in shining armor to bring that beauty out, though, because it’s a bad shortcut to the divine archetypes.",
+     "difference": "way 21: abstract noun phrase 'divine archetypes'; way 10: 'it' unclear"
+    },
+    {
+     "s": "I’m not Superman out here trying to “save a hoe.”",
+     "difference": "way 3: corrects a reading"
+    }
+   ]
+  },
+  "fit": {
+   "marked": [
+    {
+     "s": "Both of them saw me as their knight in shining armor, and that brought out this divine-feminine beauty in them that made me into a real love slave.",
+     "why": "'love slave' reads as a claim of being controlled while the next lines say it is natural"
+    },
+    {
+     "s": "I’m not Superman out here trying to “save a hoe.”",
+     "why": "the phrase may jar or be misread as an insult to women"
+    },
+    {
+     "s": "you’re already lost in the sauce",
+     "why": "slang whose meaning a reader may have to guess"
+    },
+    {
+     "s": "She shouldn’t need a knight in shining armor to bring that beauty out, though, because it’s a bad shortcut to the divine archetypes.",
+     "why": "a reader can't tell which shortcut or archetypes are meant"
+    }
+   ]
+  }
+ },
+ "r36-41-the-relationship-as-crucible": {
+  "sentences": [
+   {
+    "payoff": "they learn where the author met the crucible idea",
+    "follows": "opens the section and names the source",
+    "link": "none: opens the section"
+   },
+   {
+    "payoff": "they get Schnarch's view of marriage as growth",
+    "follows": "what the crucible approach says",
+    "link": "none: continues from the source"
+   },
+   {
+    "payoff": "they get what differentiation means and that he has felt it",
+    "follows": "explains a term in S1",
+    "link": "none: new sentence defining his idea"
+   },
+   {
+    "payoff": "they know the idea can hide abuse and to treat it differently",
+    "follows": "adds a limit before the idea is romanticized",
+    "link": "One warning before"
+   },
+   {
+    "payoff": "they know what to do if they are scared: get others involved, think about safety",
+    "follows": "gives the act the warning in S3 calls for",
+    "link": "If you’re scared to"
+   },
+   {
+    "payoff": "they learn Toft's view that marriage is his practice",
+    "follows": "returns from the warning to the idea",
+    "link": "none: opens a new example"
+   },
+   {
+    "payoff": "they see he keeps other practices but ranks them lower",
+    "follows": "adds to Toft's view",
+    "link": "He also continues"
+   },
+   {
+    "payoff": "they see how this fits the author's own experience",
+    "follows": "connects Toft to the author",
+    "link": "I understand what he"
+   },
+   {
+    "payoff": "they see what the relationship showed him",
+    "follows": "the proof of S7",
+    "link": "Being in a relationship"
+   },
+   {
+    "payoff": "they see why it's easy to feel strong alone",
+    "follows": "supports S8",
+    "link": "It’s really easy to"
+   },
+   {
+    "payoff": "they see that dropping masks is risky but needed to go deeper",
+    "follows": "the conclusion of the section",
+    "link": "none: concludes with the point"
+   }
+  ],
+  "placement": "Source and idea first, then the warning right after, then Toft's example, then the author's own experience, ending on what the reader has to risk.",
+  "why_reading": "It names a specific book and approach, so a reader in a hard marriage sees whether the crucible framing might apply to them.",
+  "same_point": "none: read the section from its heading for a paragraph that makes another's point; none does",
+  "questions": {
+   "Q1": "PASS: each sentence has its job in the section",
+   "Q2": "PASS: each sentence has its job in the section",
+   "Q3": "PASS: each sentence has its job in the section",
+   "Q4": "FAIL: 'differentiation' is defined only as 'holding onto yourself while staying close'; 'Toft' is introduced in S5 without who he is",
+   "Q5": "PASS: each sentence has its job in the section",
+   "Q6": "FAIL: S5 introduces Toft without saying who he is or why he follows Schnarch",
+   "Q7": "PASS: each sentence has its job in the section",
+   "Q8": "PASS: each sentence has its job in the section",
+   "Q9": "FAIL: S2 is long with a clause that adds the author's experience"
+  },
+  "needed": {
+   "unneeded": [
+    "He also continues his meditation, yoga, prayer, and church activities, but sees them as secondary."
+   ]
+  },
+  "his_fixes": {
+   "marked": [
+    {
+     "s": "His idea of differentiation was learning to hold onto yourself while staying close, especially when intimacy brings anxiety and unresolved problems to the surface, which is definitely what relationship has done to me.",
+     "difference": "way 1: packed with several ideas; way 21: abstract term 'differentiation'"
+    },
+    {
+     "s": "One warning before I romanticize the crucible too much: sometimes (as in my first marriage) this isn’t two wounded people triggering each other but one person terrorizing or controlling the other.",
+     "difference": "way 3: 'isn't X but Y'"
+    },
+    {
+     "s": "Toft sees the crucible of his marriage as his main spiritual practice.",
+     "difference": "way 10/22: 'Toft' appears without who he is; way 12: not connected to sentence before"
+    },
+    {
+     "s": "He also continues his meditation, yoga, prayer, and church activities, but sees them as secondary.",
+     "difference": "way 19: list of category words"
+    },
+    {
+     "s": "I understand what he means, because it’s much easier for me to feel spiritually advanced when nobody is close enough to expose the parts of me that aren’t.",
+     "difference": "way 3: contrast pair"
+    },
+    {
+     "s": "Taking off the masks and showing your inner child is a gamble, but it’s required if you want to go deeper in yourself and deeper with another person.",
+     "difference": "way 6: ends on a wise-sounding line"
+    }
+   ]
+  },
+  "fit": {
+   "marked": [
+    {
+     "s": "Toft sees the crucible of his marriage as his main spiritual practice.",
+     "why": "the reader doesn't know who Toft is"
+    },
+    {
+     "s": "If you’re scared to say no or tell the truth, or of what happens if you leave, that’s way past a mutual communication exercise, so get other people involved and think about safety first.",
+     "why": "'other people' could mean friends, police or a therapist; the reader can't tell which"
+    },
+    {
+     "s": "He also continues his meditation, yoga, prayer, and church activities, but sees them as secondary.",
+     "why": "'He' could be Schnarch or Toft"
+    }
+   ]
+  }
+ },
+ "r36-54-muses-directors-p1": {
+  "sentences": [
+   {
+    "payoff": "they get the picture of the woman as engine and the man as steering wheel",
+    "follows": "opens the section with the model",
+    "link": "none: opens the section"
+   },
+   {
+    "payoff": "they see what the woman supplies",
+    "follows": "explains the engine image",
+    "link": "none: expands the image"
+   },
+   {
+    "payoff": "they see the list of what she brings",
+    "follows": "continues with the details",
+    "link": "She brings inspiration"
+   },
+   {
+    "payoff": "they see his role",
+    "follows": "contrasts with S1 to complete the picture",
+    "link": "I help give it"
+   },
+   {
+    "payoff": "they see he finds intuition attractive because he can't follow it",
+    "follows": "moves from roles to what draws him",
+    "link": "I find the intuitive"
+   },
+   {
+    "payoff": "they get examples of what it looked like during sex",
+    "follows": "gives concrete cases of the intuitive mind",
+    "link": "During sex"
+   },
+   {
+    "payoff": "they get a story of a joke",
+    "follows": "an example from Bee",
+    "link": "One time, Bee said"
+   },
+   {
+    "payoff": "they get another example from Key",
+    "follows": "another example",
+    "link": "Key could sometimes start"
+   },
+   {
+    "payoff": "they see that he cannot explain it",
+    "follows": "comment on S7",
+    "link": "I don’t know how"
+   },
+   {
+    "payoff": "they see the effect on him",
+    "follows": "describes what the effect was",
+    "link": "Her voice would become"
+   },
+   {
+    "payoff": "they get Bee's example and the contrast to ordinary talk",
+    "follows": "adds Bee to match Key",
+    "link": "Bee could bring out"
+   }
+  ],
+  "placement": "Model first, then what draws him, then examples with each of the two women in turn.",
+  "why_reading": "It gives the reader a picture to hold, so they can see if the roles fit their own relationship.",
+  "same_point": "S1 and S2 both state what the woman brings.",
+  "questions": {
+   "Q1": "PASS: the heading is the model",
+   "Q2": "N/A: no instructions",
+   "Q3": "PASS: each sentence has its job in the section",
+   "Q4": "FAIL: 'psychic experiences' and 'timeless dimension' are not explained",
+   "Q5": "PASS: each sentence has its job in the section",
+   "Q6": "PASS: each sentence has its job in the section",
+   "Q7": "FAIL: the examples are about his experience and give the reader little they can use",
+   "Q8": "PASS: each sentence has its job in the section",
+   "Q9": "PASS: each sentence has its job in the section"
+  },
+  "needed": {
+   "unneeded": [
+    "One time, Bee said she almost got enlightened, but I came too fast... woops!",
+    "I don’t know how else to describe it."
+   ]
+  },
+  "his_fixes": {
+   "marked": [
+    {
+     "s": "She is the life force.",
+     "difference": "way 18: short line standing alone; way 21: label"
+    },
+    {
+     "s": "She brings inspiration, beauty, intuition, creativity, and this feeling that life is worth doing.",
+     "difference": "way 19: list of category words"
+    },
+    {
+     "s": "I don’t know how else to describe it.",
+     "difference": "way 18: short line standing alone"
+    },
+    {
+     "s": "One time, Bee said she almost got enlightened, but I came too fast... woops!",
+     "difference": "way 7: true but no use to the reader"
+    },
+    {
+     "s": "During sex, some of the most “womanly” women I’ve loved have gone through psychic experiences, memories that felt like past lives, and things I had no idea how to explain.",
+     "difference": "way 19: three of a kind"
+    }
+   ]
+  },
+  "fit": {
+   "marked": [
+    {
+     "s": "One time, Bee said she almost got enlightened, but I came too fast... woops!",
+     "why": "a joke that undercuts the serious paragraph and a reader may be unsure whether to take it seriously"
+    },
+    {
+     "s": "Key could sometimes start talking and somehow teleport me outside the galaxy.",
+     "why": "read at face value it sounds literal; the reader has to guess it means a feeling"
+    },
+    {
+     "s": "In ordinary life, I sometimes think of the woman as the engine and myself as the steering wheel, and I get motivation from her.",
+     "why": "assumes the reader is a man in a relationship with a woman"
+    }
+   ]
+  }
+ },
+ "r36-68-two-pillars-don-t-hold-the-roof-up-p2": {
+  "sentences": [
+   {
+    "payoff": "they see that the author lived the problem fully, minus community",
+    "follows": "opens the section after its heading",
+    "link": "none: opens the section"
+   },
+   {
+    "payoff": "they see what he thinks community could have done",
+    "follows": "consequence of S0",
+    "link": "I suspect if we"
+   },
+   {
+    "payoff": "they see how community would have blocked demonizing",
+    "follows": "explains S1",
+    "link": "She would not have"
+   },
+   {
+    "payoff": "they see community as containment",
+    "follows": "draws the result from S2",
+    "link": "It would have contained"
+   },
+   {
+    "payoff": "they see why accusations need isolation",
+    "follows": "states the mechanism behind S2",
+    "link": "Baseless accusations only work"
+   },
+   {
+    "payoff": "they see a second benefit: others could help her",
+    "follows": "adds to community's benefits",
+    "link": "Commune friends could also"
+   },
+   {
+    "payoff": "they see why depending on one person causes fear",
+    "follows": "explains why she needed help",
+    "link": "And it’s actually natural"
+   },
+   {
+    "payoff": "they see how one flaw can be hard",
+    "follows": "consequence of S6",
+    "link": "One fairly normal but"
+   },
+   {
+    "payoff": "they see that most people today are in the same position",
+    "follows": "generalizes from his case",
+    "link": "We were left alone"
+   },
+   {
+    "payoff": "they see what H. taught him about expecting a relationship to stay the same",
+    "follows": "adds a second example",
+    "link": "With H., I learned"
+   },
+   {
+    "payoff": "they see how dependency grew in the case",
+    "follows": "the facts behind S9",
+    "link": "In our case, the"
+   },
+   {
+    "payoff": "they see she was possessive despite her view of monogamy",
+    "follows": "the second fact",
+    "link": "She was never into"
+   },
+   {
+    "payoff": "they see the demonizing began when he refused",
+    "follows": "the consequence of S11",
+    "link": "And then she began"
+   },
+   {
+    "payoff": "they see why her friends took her side",
+    "follows": "ties to the community theme",
+    "link": "Because we did not"
+   },
+   {
+    "payoff": "they ask what they can do about community now",
+    "follows": "turns from story to advice",
+    "link": "So if you don’t have"
+   },
+   {
+    "payoff": "they know to build community together",
+    "follows": "first act answering S14",
+    "link": "none: answers the question"
+   },
+   {
+    "payoff": "they know to find shared purpose",
+    "follows": "second act",
+    "link": "none: next act"
+   },
+   {
+    "payoff": "they know to blend friend groups so they aren't taking sides",
+    "follows": "third act",
+    "link": "none: next act"
+   },
+   {
+    "payoff": "they know they needn't be together always but separate worlds take sides",
+    "follows": "gives the reason for S17",
+    "link": "You don’t need to"
+   }
+  ],
+  "placement": "Story first, in order from Bee to H., then a turn to advice, with acts listed at the end where the reader decides what to do.",
+  "why_reading": "It tells the reader that a lack of community was what was missing, which is the heart of their question.",
+  "same_point": "S2 to S4 all say that community would have stopped the accusations.",
+  "questions": {
+   "Q1": "PASS: each sentence has its job in the section",
+   "Q2": "PASS: each sentence has its job in the section",
+   "Q3": "PASS: each sentence has its job in the section",
+   "Q4": "FAIL: 'BPD' and 'dyad problem' aren't explained",
+   "Q5": "PASS: 'Because', 'So if' carry the relation",
+   "Q6": "PASS: each sentence has its job in the section",
+   "Q7": "FAIL: S11 'She was never into monogamy' is detail the reader doesn't need",
+   "Q8": "PASS: each sentence has its job in the section",
+   "Q9": "FAIL: S9 packs the lesson in a long sentence"
+  },
+  "needed": {
+   "unneeded": [
+    "She was never into monogamy, but that didn’t stop her from becoming possessive once she found someone really worth keeping.",
+    "I suspect if we had, we might still be together."
+   ]
+  },
+  "his_fixes": {
+   "marked": [
+    {
+     "s": "It would have contained all the insanity.",
+     "difference": "way 18: short line; way 10: 'It' could mean community or the accusation"
+    },
+    {
+     "s": "Baseless accusations only work with friends who only know one side.",
+     "difference": "way 18/6: sounds wise"
+    },
+    {
+     "s": "With H., I learned another part of the same dyad problem: not to treat what either of us thought the relationship was as a guarantee of what it would remain, because feelings can and usually do change over time.",
+     "difference": "way 1: packed; way 3: contrast; way 21: label ('dyad problem')"
+    },
+    {
+     "s": "She was never into monogamy, but that didn’t stop her from becoming possessive once she found someone really worth keeping.",
+     "difference": "way 3: 'but that didn't stop' contrast; way 7: true but not useful"
+    },
+    {
+     "s": "Find some shared purpose beyond maintaining the relationship.",
+     "difference": "way 15: instruction the reader couldn't carry out without an example"
+    },
+    {
+     "s": "Make as much community as you can wherever you are, like going to Meetups together and making deep friendships as a couple.",
+     "difference": "way 2: same shape as S16 and S17"
+    },
+    {
+     "s": "You don’t need to spend all your time together, but two completely separate social worlds will automatically start taking sides when something goes wrong.",
+     "difference": "way 3: contrast pair; way 6: ends on warning"
+    },
+    {
+     "s": "And it’s actually natural to be a bit BPD when your entire survival depends on one person, because if they aren’t perfect, and especially if you need a lot of support, how will you survive?",
+     "difference": "way 21: label BPD; way 23: question inside; way 1: compressed"
+    }
+   ]
+  },
+  "fit": {
+   "marked": [
+    {
+     "s": "And it’s actually natural to be a bit BPD when your entire survival depends on one person, because if they aren’t perfect, and especially if you need a lot of support, how will you survive?",
+     "why": "'a bit BPD' sounds like a diagnosis of the ex, and the reader is unsure whether it is a slur or an explanation"
+    },
+    {
+     "s": "Commune friends could also have helped her in ways I couldn’t, because she was projecting onto me, which made me the wrong person to help her see beyond the projection.",
+     "why": "'Commune friends' appears though the text says they never lived in community"
+    },
+    {
+     "s": "Find some shared purpose beyond maintaining the relationship.",
+     "why": "the reader can't tell what purpose to pick"
+    }
+   ]
+  }
+ },
+ "r36-81-why-all-of-this-sounds-artificial": {
+  "sentences": [
+   {
+    "payoff": "they see their own doubt voiced: is anyone going to do all this",
+    "follows": "opens the section by answering its heading with the reader's own objection",
+    "link": "none: opens the section"
+   },
+   {
+    "payoff": "they hear it is artificial, and why",
+    "follows": "answers the question in S0",
+    "link": "Well, yeah, it is"
+   },
+   {
+    "payoff": "they see why they have to do it consciously",
+    "follows": "explains the artificiality by what's missing today",
+    "link": "Most of us these days"
+   }
+  ],
+  "placement": "A three-sentence section: the reader's objection first, the admission second, the reason third.",
+  "why_reading": "It speaks the reader's likely doubt that the practices are too much, so they read on to see the answer.",
+  "same_point": "none: read the section from its heading for a paragraph that makes another's point; none does",
+  "questions": {
+   "Q1": "PASS: S0 names the doubt the reader has",
+   "Q2": "N/A: no instructions here",
+   "Q3": "PASS: each sentence has its job in the section",
+   "Q4": "FAIL: 'delayed cohabitation', 'imagination exercises', 'reparenting' aren't explained here",
+   "Q5": "PASS: each sentence has its job in the section",
+   "Q6": "PASS: each sentence has its job in the section",
+   "Q7": "PASS: each sentence has its job in the section",
+   "Q8": "PASS: each sentence has its job in the section",
+   "Q9": "FAIL: S0 packs six practices into one question"
+  },
+  "needed": {
+   "unneeded": []
+  },
+  "his_fixes": {
+   "marked": [
+    {
+     "s": "By now you’re probably thinking all of this sounds terribly artificial: is anyone actually going to do scheduled check-ins, delayed cohabitation, conversations about hypothetical disasters, imagination exercises, not to mention resisting the heat-of-the-moment stuff and continuing your own reparenting practices when a warm body is available to do some of the soothing?",
+     "difference": "way 19: a list of category words; way 1: compressed; way 23: a question inside another; way 5/10"
+    },
+    {
+     "s": "Well, yeah, it is painfully artificial, because in a healthy communal society, the couple would have access to witnesses, elders, friends, and other emotional outlets and resources.",
+     "difference": "way 19: list of four; way 6: ends on a wise-sounding line"
+    },
+    {
+     "s": "Most of us these days don’t have that, so we’re trying to recreate consciously and clumsily some of what the wider field would have done without a checklist.",
+     "difference": "way 6: ends on a wise-sounding line; way 21: 'the wider field' is a label"
+    }
+   ]
+  },
+  "fit": {
+   "marked": [
+    {
+     "s": "Most of us these days don’t have that, so we’re trying to recreate consciously and clumsily some of what the wider field would have done without a checklist.",
+     "why": "'the wider field' and 'checklist' are not explained, and the reader may not know whether that is bad"
+    },
+    {
+     "s": "Well, yeah, it is painfully artificial, because in a healthy communal society, the couple would have access to witnesses, elders, friends, and other emotional outlets and resources.",
+     "why": "'painfully artificial' may read as admitting the advice is bad"
+    }
+   ]
+  }
+ }
+}

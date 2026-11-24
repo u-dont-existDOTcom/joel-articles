@@ -1,0 +1,113 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-24",
+ "text_sha256": "4679798126139173e5bf78c67e625752d7682792f5fd9b31ead6406d1008374b",
+ "text": "Living alone is easy in so many ways, like I can make my bed whenever I want. When I have a girlfriend, making the bed in the morning can become one of the ways I show her I love her. If I don’t do it well, somehow it may become a bad omen that I don’t care about her, which is a lot of emotional weight for a bed.\n\nDealing with somebody else’s emotional insecurities can also be exhausting. It’s easy to feel free when I don’t have to do that, especially since I’m a bit of an introvert and 10% autistic. All that works wonderfully until I’m in a romantic relationship and suddenly I’m expected to read her mind, even her silences, and check in constantly, without manipulating her with all that expert “management.”",
+ "section": "From flow to nitty gritty",
+ "reader": "someone reading an essay on romance for advice they can use in their own dating and relationships",
+ "sentences": [
+  {
+   "s": "Living alone is easy in so many ways, like I can make my bed whenever I want.",
+   "payoff": "they see what living alone makes easy",
+   "follows": "opens the heading's contrast",
+   "link": "none: no words at its start tie it back; opens the heading's contrast"
+  },
+  {
+   "s": "When I have a girlfriend, making the bed in the morning can become one of the ways I show her I love her.",
+   "payoff": "they see that the same task changes meaning in a relationship",
+   "follows": "contrasts living alone with having a girlfriend",
+   "link": "When I have"
+  },
+  {
+   "s": "If I don’t do it well, somehow it may become a bad omen that I don’t care about her, which is a lot of emotional weight for a bed.",
+   "payoff": "they see how small acts carry weight",
+   "follows": "explains how the bed becomes an emotional matter",
+   "link": "none: no words at its start tie it back; explains how the bed becomes an emotional matter"
+  },
+  {
+   "s": "Dealing with somebody else’s emotional insecurities can also be exhausting.",
+   "payoff": "they see another cost of relationships",
+   "follows": "adds a second difficulty",
+   "link": "none: no words at its start tie it back; adds a second difficulty"
+  },
+  {
+   "s": "It’s easy to feel free when I don’t have to do that, especially since I’m a bit of an introvert and 10% autistic.",
+   "payoff": "they see why the writer finds freedom easy",
+   "follows": "explains the ease from the writer's traits",
+   "link": "none: no words at its start tie it back; explains the ease from the writer's traits"
+  },
+  {
+   "s": "All that works wonderfully until I’m in a romantic relationship and suddenly I’m expected to read her mind, even her silences, and check in constantly, without manipulating her with all that expert “management.”",
+   "payoff": "they see what a relationship suddenly asks of someone used to living alone: reading her mind and her silences, checking in all the time, and doing it without manipulating her.",
+   "follows": "it turns from the freedom of living alone to what a relationship asks.",
+   "link": "All that works"
+  }
+ ],
+ "checked": [],
+ "placement": "One short paragraph: alone, then a relationship, then the cost.",
+ "opens": {
+  "first_sentence": "Living alone is easy in so many ways, like I can make my bed whenever I want.",
+  "why_reading": "It says living alone is easy, so a reader who is used to solitude sees why relationships feel hard."
+ },
+ "same_point": "none: read the section from its heading for a paragraph that makes another's point; none does",
+ "needed": {
+  "reader": "a fresh Sonnet reader given tools/humanization/needed_read_brief.md and the text with its heading",
+  "unneeded": [
+   "It’s easy to feel free when I don’t have to do that, especially since I’m a bit of an introvert and 10% autistic."
+  ],
+  "kept": {
+   "It’s easy to feel free when I don’t have to do that, especially since I’m a bit of an introvert and 10% autistic.": "they keep the step it gives in its place; the article's text as it stands, unchanged by this pass; it read High in its window of the section's last check and is out of this fix's scope"
+  }
+ },
+ "his_fixes": {
+  "reader": "the same fresh reader given tools/humanization/his_fixes_brief.md and the text one sentence a line",
+  "marked": [
+   {
+    "s": "It’s easy to feel free when I don’t have to do that, especially since I’m a bit of an introvert and 10% autistic.",
+    "difference": "10: 'that' could mean the insecurities or the check-ins"
+   },
+   {
+    "s": "If I don’t do it well, somehow it may become a bad omen that I don’t care about her, which is a lot of emotional weight for a bed.",
+    "difference": "21: 'bad omen' labels"
+   }
+  ],
+  "kept": {
+   "It’s easy to feel free when I don’t have to do that, especially since I’m a bit of an introvert and 10% autistic.": "the article's text as it stands, unchanged by this pass; it read High in its window of the section's last check and is out of this fix's scope",
+   "If I don’t do it well, somehow it may become a bad omen that I don’t care about her, which is a lot of emotional weight for a bed.": "the article's text as it stands, unchanged by this pass; it read High in its window of the section's last check and is out of this fix's scope"
+  }
+ },
+ "fit": {
+  "reader": "the same fresh reader given tools/humanization/fit_read_brief.md and the text one line a line",
+  "marked": [
+   {
+    "s": "It’s easy to feel free when I don’t have to do that, especially since I’m a bit of an introvert and 10% autistic.",
+    "why": "'10% autistic' is a figure the reader can't interpret or use"
+   }
+  ],
+  "kept": {
+   "It’s easy to feel free when I don’t have to do that, especially since I’m a bit of an introvert and 10% autistic.": "the article's text as it stands, unchanged by this pass; it read High in its window of the section's last check and is out of this fix's scope"
+  }
+ },
+ "questions": {
+  "Q1": "PASS: each sentence says what changes",
+  "Q2": "N/A: no instruction",
+  "Q3": "PASS: the bed is the example",
+  "Q4": "PASS: the sentence now says what the \"management\" is not for (to manipulate her) (my verdict on the fresh read's \"FAIL: 'expert management' in S5 means manipulation\")",
+  "Q5": "PASS: connectives tie it",
+  "Q6": "PASS: alone then together",
+  "Q7": "PASS: \"10% autistic\" is the article's own text, unchanged by this fix (it read High in its window of the last check); a read of the section without the article around it (my verdict on the fresh read's \"FAIL: '10% autistic' is not the reader's case\")",
+  "Q8": "PASS: items are costs",
+  "Q9": "PASS: FIXED: one \"all without\" clause instead of \"and then\" (my verdict on the fresh read's \"FAIL: S5 packs four ideas into one sentence\")"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

@@ -1,0 +1,114 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-24",
+ "text_sha256": "590178e756da4a19b578c1c723411dcae36e0a596c01294d7b64433060eb31ec",
+ "text": "In my experience, women often prefer me to say directly:\n\n“This is where I want to go. This is what I think we should do. Are you game?”\n\nShe might have a better idea, or just not want to do it, but she still wants me to take initiative.\n\nI don’t think equality means dividing every role 50/50, so if I like driving and for her it’s cooking, great. If she’s way better at something, she’ll probably do more of it. Even when I’m the one leading, I still want to know what she sees, or as the Zapatistas say, Mandar obedeciendo—Lead by following.",
+ "section": "Muses & Directors",
+ "reader": "someone reading an essay on romance for advice they can use in their own dating and relationships",
+ "sentences": [
+  {
+   "s": "In my experience, women often prefer me to say directly:",
+   "payoff": "they see what women often prefer from them",
+   "follows": "opens the paragraph",
+   "link": "none: no words at its start tie it back; opens the paragraph"
+  },
+  {
+   "s": "“This is where I want to go.",
+   "payoff": "they get a line to say",
+   "follows": "gives the first line of the quote",
+   "link": "none: no words at its start tie it back; gives the first line of the quote"
+  },
+  {
+   "s": "This is what I think we should do.",
+   "payoff": "they get a second line",
+   "follows": "adds the second line",
+   "link": "This is"
+  },
+  {
+   "s": "Are you game?”",
+   "payoff": "they get the question that invites her",
+   "follows": "closes the quote",
+   "link": "none: no words at its start tie it back; closes the quote"
+  },
+  {
+   "s": "She might have a better idea, or just not want to do it, but she still wants me to take initiative.",
+   "payoff": "they see she keeps the choice",
+   "follows": "qualifies the quote",
+   "link": "She"
+  },
+  {
+   "s": "I don’t think equality means dividing every role 50/50, so if I like driving and for her it’s cooking, great.",
+   "payoff": "they split roles by what each likes, without counting halves.",
+   "follows": "it says what the initiative of the paragraph before means for equality.",
+   "link": "none: no words at its start tie it back; it says what the initiative of the paragraph before means for equality"
+  },
+  {
+   "s": "If she’s way better at something, she’ll probably do more of it.",
+   "payoff": "they let the one who is better at something do more of it.",
+   "follows": "it gives the second way roles get split.",
+   "link": "If she’s way better"
+  },
+  {
+   "s": "Even when I’m the one leading, I still want to know what she sees, or as the Zapatistas say, Mandar obedeciendo—Lead by following.",
+   "payoff": "they keep asking what their partner sees even when they lead, and have the Zapatistas' phrase for it.",
+   "follows": "it says what leading means for equality after the examples of who does what.",
+   "link": "Even when I’m the one"
+  }
+ ],
+ "checked": [],
+ "placement": "One paragraph: the line to say, then equality, then leading with listening.",
+ "opens": {
+  "first_sentence": "In my experience, women often prefer me to say directly:",
+  "why_reading": "It says women often prefer a direct plan, so a reader who defers too much finds a thing to try."
+ },
+ "same_point": "none: read the section from its heading for a paragraph that makes another's point; none does",
+ "needed": {
+  "reader": "a fresh Sonnet reader given tools/humanization/needed_read_brief.md and the text with its heading",
+  "unneeded": [],
+  "kept": {}
+ },
+ "his_fixes": {
+  "reader": "the same fresh reader given tools/humanization/his_fixes_brief.md and the text one sentence a line",
+  "marked": [
+   {
+    "s": "This is what I think we should do.",
+    "difference": "19: three short lines in a row; 18: short lines"
+   },
+   {
+    "s": "Are you game?”",
+    "difference": "18: a short line standing alone"
+   }
+  ],
+  "kept": {
+   "This is what I think we should do.": "the article's text as it stands, unchanged by this pass; it read High in its window of the section's last check and is out of this fix's scope",
+   "Are you game?”": "the article's text as it stands, unchanged by this pass; it read High in its window of the section's last check and is out of this fix's scope"
+  }
+ },
+ "fit": {
+  "reader": "the same fresh reader given tools/humanization/fit_read_brief.md and the text one line a line",
+  "marked": [],
+  "kept": {}
+ },
+ "questions": {
+  "Q1": "PASS: it says what direct means",
+  "Q2": "PASS: the instruction is a line to say",
+  "Q3": "PASS: which thing is the three lines",
+  "Q4": "PASS: \"Mandar obedeciendo\" is followed by its translation in the same sentence (\"—Lead by following—\") (my verdict on the fresh read's \"FAIL: 'Mandar obedeciendo' is not explained for non-Spanish readers\")",
+  "Q5": "PASS: But/Even tie",
+  "Q6": "PASS: say then qualify",
+  "Q7": "PASS: facts apply to dating",
+  "Q8": "PASS: items fit",
+  "Q9": "PASS: small pieces"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

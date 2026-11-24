@@ -1,0 +1,173 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-24",
+ "text_sha256": "b86ad912a6cdb5eaf826302ff089de665a9bdf3489c6867566bf58c508200a73",
+ "text": "It was during my first marriage that I read about Dr. David Schnarch’s Crucible Approach in Passionate Marriage. Schnarch saw marriage as a natural “people-growing process.” His idea of differentiation was learning to hold onto yourself while staying close, especially when intimacy brings anxiety and unresolved problems to the surface, which is definitely what relationship has done to me.\n\nOne warning before I romanticize the crucible too much: sometimes (as in my first marriage) this isn’t two wounded people triggering each other but one person terrorizing or controlling the other. If you’re scared to say no or tell the truth, or of what happens if you leave, that’s way past a mutual communication exercise, so get other people involved and think about safety first.\n\nToft sees the crucible of his marriage as his main spiritual practice. He also continues his meditation, yoga, prayer, and church activities, but sees them as secondary. I understand what he means, because it’s much easier for me to feel spiritually advanced when nobody is close enough to expose the parts of me that aren’t.\n\nBeing in a relationship showed me how vulnerable I actually am when I open my heart. It’s really easy to feel invulnerable and strong when you’re alone, or even just with friends. Taking off the masks and showing your inner child is a gamble, but it’s required if you want to go deeper in yourself and deeper with another person.",
+ "section": "The Relationship As Crucible",
+ "reader": "someone reading an essay on romance for advice they can use in their own dating and relationships",
+ "sentences": [
+  {
+   "s": "It was during my first marriage that I read about Dr. David Schnarch’s Crucible Approach in Passionate Marriage.",
+   "payoff": "they learn where the author met the crucible idea",
+   "follows": "opens the section and names the source",
+   "link": "none: no words at its start tie it back; opens the section and names the source"
+  },
+  {
+   "s": "Schnarch saw marriage as a natural “people-growing process.”",
+   "payoff": "they get Schnarch's view of marriage as growth",
+   "follows": "what the crucible approach says",
+   "link": "none: no words at its start tie it back; what the crucible approach says"
+  },
+  {
+   "s": "His idea of differentiation was learning to hold onto yourself while staying close, especially when intimacy brings anxiety and unresolved problems to the surface, which is definitely what relationship has done to me.",
+   "payoff": "they get what differentiation means and that he has felt it",
+   "follows": "explains a term in S1",
+   "link": "none: no words at its start tie it back; explains a term in S1"
+  },
+  {
+   "s": "One warning before I romanticize the crucible too much: sometimes (as in my first marriage) this isn’t two wounded people triggering each other but one person terrorizing or controlling the other.",
+   "payoff": "they know the idea can hide abuse and to treat it differently",
+   "follows": "adds a limit before the idea is romanticized",
+   "link": "One warning before"
+  },
+  {
+   "s": "If you’re scared to say no or tell the truth, or of what happens if you leave, that’s way past a mutual communication exercise, so get other people involved and think about safety first.",
+   "payoff": "they know what to do if they are scared: get others involved, think about safety",
+   "follows": "gives the act the warning in S3 calls for",
+   "link": "If you’re scared to"
+  },
+  {
+   "s": "Toft sees the crucible of his marriage as his main spiritual practice.",
+   "payoff": "they learn Toft's view that marriage is his practice",
+   "follows": "returns from the warning to the idea",
+   "link": "none: no words at its start tie it back; returns from the warning to the idea"
+  },
+  {
+   "s": "He also continues his meditation, yoga, prayer, and church activities, but sees them as secondary.",
+   "payoff": "they see he keeps other practices but ranks them lower",
+   "follows": "adds to Toft's view",
+   "link": "He also continues"
+  },
+  {
+   "s": "I understand what he means, because it’s much easier for me to feel spiritually advanced when nobody is close enough to expose the parts of me that aren’t.",
+   "payoff": "they see how this fits the author's own experience",
+   "follows": "connects Toft to the author",
+   "link": "I understand what he"
+  },
+  {
+   "s": "Being in a relationship showed me how vulnerable I actually am when I open my heart.",
+   "payoff": "they see what the relationship showed him",
+   "follows": "the proof of S7",
+   "link": "Being in a relationship"
+  },
+  {
+   "s": "It’s really easy to feel invulnerable and strong when you’re alone, or even just with friends.",
+   "payoff": "they see why it's easy to feel strong alone",
+   "follows": "supports S8",
+   "link": "It’s really easy to"
+  },
+  {
+   "s": "Taking off the masks and showing your inner child is a gamble, but it’s required if you want to go deeper in yourself and deeper with another person.",
+   "payoff": "they see that dropping masks is risky but needed to go deeper",
+   "follows": "the conclusion of the section",
+   "link": "none: no words at its start tie it back; the conclusion of the section"
+  }
+ ],
+ "checked": [],
+ "placement": "Source and idea first, then the warning right after, then Toft's example, then the author's own experience, ending on what the reader has to risk.",
+ "opens": {
+  "first_sentence": "It was during my first marriage that I read about Dr. David Schnarch’s Crucible Approach in Passionate Marriage.",
+  "why_reading": "It names a specific book and approach, so a reader in a hard marriage sees whether the crucible framing might apply to them."
+ },
+ "same_point": "none: read the section from its heading for a paragraph that makes another's point; none does",
+ "needed": {
+  "reader": "a fresh Sonnet reader given tools/humanization/needed_read_brief.md and the text with its heading",
+  "unneeded": [
+   "He also continues his meditation, yoga, prayer, and church activities, but sees them as secondary."
+  ],
+  "kept": {
+   "He also continues his meditation, yoga, prayer, and church activities, but sees them as secondary.": "they keep the step it gives in its place; the article's text as it stands, unchanged by this pass; it read High in its window of the section's last check and is out of this fix's scope"
+  }
+ },
+ "his_fixes": {
+  "reader": "the same fresh reader given tools/humanization/his_fixes_brief.md and the text one sentence a line",
+  "marked": [
+   {
+    "s": "His idea of differentiation was learning to hold onto yourself while staying close, especially when intimacy brings anxiety and unresolved problems to the surface, which is definitely what relationship has done to me.",
+    "difference": "way 1: packed with several ideas; way 21: abstract term 'differentiation'"
+   },
+   {
+    "s": "One warning before I romanticize the crucible too much: sometimes (as in my first marriage) this isn’t two wounded people triggering each other but one person terrorizing or controlling the other.",
+    "difference": "way 3: 'isn't X but Y'"
+   },
+   {
+    "s": "Toft sees the crucible of his marriage as his main spiritual practice.",
+    "difference": "way 10/22: 'Toft' appears without who he is; way 12: not connected to sentence before"
+   },
+   {
+    "s": "He also continues his meditation, yoga, prayer, and church activities, but sees them as secondary.",
+    "difference": "way 19: list of category words"
+   },
+   {
+    "s": "I understand what he means, because it’s much easier for me to feel spiritually advanced when nobody is close enough to expose the parts of me that aren’t.",
+    "difference": "way 3: contrast pair"
+   },
+   {
+    "s": "Taking off the masks and showing your inner child is a gamble, but it’s required if you want to go deeper in yourself and deeper with another person.",
+    "difference": "way 6: ends on a wise-sounding line"
+   }
+  ],
+  "kept": {
+   "His idea of differentiation was learning to hold onto yourself while staying close, especially when intimacy brings anxiety and unresolved problems to the surface, which is definitely what relationship has done to me.": "the definition is the article's own; the clause joins his line to what it points back to instead of standing alone (way 18)",
+   "One warning before I romanticize the crucible too much: sometimes (as in my first marriage) this isn’t two wounded people triggering each other but one person terrorizing or controlling the other.": "the article's text as it stands, unchanged by this pass; it read High in its window of the section's last check and is out of this fix's scope",
+   "Toft sees the crucible of his marriage as his main spiritual practice.": "the article's text as it stands, unchanged by this pass; it read High in its window of the section's last check and is out of this fix's scope",
+   "He also continues his meditation, yoga, prayer, and church activities, but sees them as secondary.": "the article's text as it stands, unchanged by this pass; it read High in its window of the section's last check and is out of this fix's scope",
+   "I understand what he means, because it’s much easier for me to feel spiritually advanced when nobody is close enough to expose the parts of me that aren’t.": "no contrast frame: \"because\" gives the reason he understands Toft",
+   "Taking off the masks and showing your inner child is a gamble, but it’s required if you want to go deeper in yourself and deeper with another person.": "the article's text as it stands, unchanged by this pass; it read High in its window of the section's last check and is out of this fix's scope"
+  }
+ },
+ "fit": {
+  "reader": "the same fresh reader given tools/humanization/fit_read_brief.md and the text one line a line",
+  "marked": [
+   {
+    "s": "Toft sees the crucible of his marriage as his main spiritual practice.",
+    "why": "the reader doesn't know who Toft is"
+   },
+   {
+    "s": "If you’re scared to say no or tell the truth, or of what happens if you leave, that’s way past a mutual communication exercise, so get other people involved and think about safety first.",
+    "why": "'other people' could mean friends, police or a therapist; the reader can't tell which"
+   },
+   {
+    "s": "He also continues his meditation, yoga, prayer, and church activities, but sees them as secondary.",
+    "why": "'He' could be Schnarch or Toft"
+   }
+  ],
+  "kept": {
+   "Toft sees the crucible of his marriage as his main spiritual practice.": "the article's text as it stands, unchanged by this pass; it read High in its window of the section's last check and is out of this fix's scope",
+   "If you’re scared to say no or tell the truth, or of what happens if you leave, that’s way past a mutual communication exercise, so get other people involved and think about safety first.": "\"other people\" is the article's own phrase; who they are depends on the reader's case, and the section says community and friends",
+   "He also continues his meditation, yoga, prayer, and church activities, but sees them as secondary.": "the article's text as it stands, unchanged by this pass; it read High in its window of the section's last check and is out of this fix's scope"
+  }
+ },
+ "questions": {
+  "Q1": "PASS: each sentence has its job in the section",
+  "Q2": "PASS: each sentence has its job in the section",
+  "Q3": "PASS: each sentence has its job in the section",
+  "Q4": "PASS: Doug Toft is introduced early in the article (\"Doug Toft, who has been married for fifty years, has a useful list called 50 Things ...\"); differentiation is defined in its sentence (my verdict on the fresh read's \"FAIL: 'differentiation' is defined only as 'holding onto yourself while staying close'; 'Toft' is introduced in S5 witho\")",
+  "Q5": "PASS: each sentence has its job in the section",
+  "Q6": "PASS: Toft follows Schnarch as a second married writer who sees the crucible as practice; the article introduced him before (my verdict on the fresh read's \"FAIL: S5 introduces Toft without saying who he is or why he follows Schnarch\")",
+  "Q7": "PASS: each sentence has its job in the section",
+  "Q8": "PASS: each sentence has its job in the section",
+  "Q9": "PASS: the clause \"which is definitely what relationship has done to me\" is his line, joined to what it points back to instead of standing alone (way 18) (my verdict on the fresh read's \"FAIL: S2 is long with a clause that adds the author's experience\")"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}
