@@ -1,0 +1,10 @@
+{
+ "about": "His own Pangram checks of his versions on cards W-LMA and W-AGM (links in his card comments, exported 2026-11-24 18:40 UTC), read back from his history through the web app's API on 2026-11-24 by the lead session: each check's text (its SHA-256), headline, and every window with its confidence.",
+ "detector": "Pangram 4.1 (web app, his account)",
+ "checks": [
+  {"card": "W-LMA", "uuid": "e8bbd7a1-a04b-40f6-9bcd-54b789bad815", "his_note": "my first attempt that reduced AI confidence level, basically trying to make the points faster", "text_sha256": "5d4964ef4c98aa4f0d6dae1c543246c78ba995aaa4f07f852a5466b122cd02eb", "headline": "AI Generated", "ai": 0.9999, "windows": [["AI-Generated", "Low", 36], ["AI-Generated", "Medium", 11], ["AI-Generated", "High", 24]]},
+  {"card": "W-LMA", "uuid": "04bff64d-2281-41c4-8abe-2bd3e49407eb", "his_note": "clarified they are herbs, that helped flip that part human", "text_sha256": "1cdc88bdeae0145607674a4fc650cb7c05fbb39dd70d0e33e4b3a6aeda6fbe3f", "headline": "AI Detected", "ai": 0.4248, "windows": [["Human", "High", 37], ["AI-Generated", "Low", 11], ["AI-Generated", "Medium", 24]]},
+  {"card": "W-LMA", "uuid": "37022ca4-704b-48af-a7d3-150d3700c3c2", "his_note": "now i merged the next 2 sentences so they don't seem like islands, and it's all high conf hum", "text_sha256": "fc9503e7ea78fcd0a2e0d50fdba4ab531158756e11a99fd9b9cf2b0bfe3f83d8", "headline": "Human Written", "ai": 0.0, "windows": [["Human", "High", 68]], "is_his_version": true},
+  {"card": "W-AGM", "uuid": "2406fb09-5b1d-4236-b141-e1becf296cf9", "his_note": "now hum high conf ... you had some redundancy, ideas were broken up, and islanded", "text_sha256": "9ee2f6e3fa8c931a2762fa0f9c904ae40e229ccff65de8923f172b2dbdddaa75", "headline": "Human Written", "ai": 0.0, "windows": [["Human", "High", 103]], "is_his_version": true}
+ ]
+}

@@ -18,6 +18,28 @@ From an account with Desktop Commander connected to the laptop: "Continue my neu
 
 ## START HERE
 
+- **2026-11-24, after his message of 18:47 UTC: his versions on cards W-LMA and W-AGM and his answers 57 to 61 are in;
+  questions 62 to 65 wait on him.** HUMANIZED-SO-FAR.md is 580b8a82 (`fix-20261108/x1124a/apply_x1124a.py`, then
+  `revise_n58b.py` and `fix_typo_x1124a.py`; `APPLIED-X1124A.json`); his message word for word:
+  `fix-20261108/joel-20261124-1847-message.txt`; the cards' export: `x1123c/ANSWERS-X1123C-20261124-1840.json`, and his own
+  checks read back with their windows: `x1123c/HIS-CHECKS-20261124.json` (both versions Human Written, one window, High; each
+  text went in exactly as he checked it, the W-AGM one less its trailing space). 57: section B does say D-serine is
+  extrapolated from DCS, so the D-Serine section's sentence names DCS with section B's "(and maybe d-serine)" and links it
+  (say if he'd rather it go). 58: his note after the Weeks 1-2 list, fitted again after three fresh reads (`x1124a/needed`,
+  `his-fixes`, `fit`, key n58), with Mahmood 2007 and Levine 2017; it read Human Written, one window of 127 words, High
+  (ledger #202, `x1124a/checks-1124a`, https://www.pangram.com/history/e4a2f944-6b5c-43df-aa67-38935185dcc3). Fidelity PASS
+  (an owner_changes entry), comparison read PASS (`x1124a/read-1124a/`), and the article's first keep-as-is list,
+  `humanize/KEEP-AS-IS.json` (AGENTS.md; lesson bad-trips-2026-11-24j): the cuts he meant, C1 to C8. **The contradictions
+  check ran again** (`fix-20261108/coherence/x1124a/`: BRIEF.txt, a fresh Fable reader's EXTRACT.md with 24 items, FATES.json,
+  CHECK.md): 5 answered, 9 explained, 6 not a conflict (listed on his page for him to overrule), 4 questions: 62 (items 3,
+  heart-rate test), 63 (item 4, agmatine with "anything that works on the brain"), 64 (items 5 and 7, is a microdose day a
+  psychedelic day). 65 comes from the three fresh reads of his Weeks 3-7 line (key l61): the 5-HTP-with-mushrooms caution
+  comes after the numbness test. **Every turn, first**: the cards page's stored answers (nothing open there now) and his
+  message (questions page https://claude.ai/artifact/8cWv5mbXY8y53RL1nhvzky, version 36, 1795547331-91ad). **When his answers
+  to 62 to 65 come**: in by script the way `x1124a/apply_x1124a.py` does; then check his Weeks 3-7 line by itself (61a's words
+  are in it, and 64 and 65 may change it: receipt from the l61 reads, `x1124a/texts_x1124a.py` L61), then `contradictions.py
+  check ... --done` over x1124a, and the questions' cuts on the keep-as-is list. Then the article makes sense, and the
+  humanizing of every section can start (lesson neuro-2026-11-08f; his rule of 2026-11-23: sense first, Pangram after).
 - **2026-11-23, after his message of 20:40 UTC: his version of the Weeks 3–7 line and his answers 34 to 56 are in;
   questions 57 to 61 and teaching cards W-LMA and W-AGM wait on him.** HUMANIZED-SO-FAR.md is 47086992 (`fix-20261108/x1123b/apply_x1123b.py`,
   `APPLIED-X1123B.json`); his message word for word: `fix-20261108/joel-20261123-2040-message.txt`; the card's export:

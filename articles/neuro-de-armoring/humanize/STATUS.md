@@ -1,5 +1,25 @@
 # Status: neuro de-armoring humanization (newest on top)
 
+## 2026-11-24, his message of 18:47 UTC: cards W-LMA and W-AGM and answers 57 to 61 in; the contradictions check again; questions 62 to 65
+
+His message word for word: `fix-20261108/joel-20261124-1847-message.txt` (the cards page's export, both cards revised with
+his versions and his checks; then 57 to 61). **The mailbox first** ("2026-11-24 18:47"): UDA AGENTS.md and LESSON-INDEX
+unchanged (main 3d79cc81); main 72eaa476 merged (this lane's 502; romance 504 to 518, bad trips 503 to 519, contents
+505 to 514), with the shared changes read: AGENTS.md's done rule (every window High; a Medium window is work to do),
+HUMANIZATION-GATE on warning keys that read AI, his_fixes_brief ways 27 and 28, the lessons of 23 and 24 November (every
+point of his answer gets a fate; one subject in one place; a cut he approves goes on the keep-as-is list); no new issues or
+comments; no notifications.
+
+- **In** (`fix-20261108/x1124a/apply_x1124a.py`, `revise_n58b.py`, `fix_typo_x1124a.py`, `APPLIED-X1124A.json`;
+  HUMANIZED-SO-FAR.md 47086992 to 580b8a82): his W-LMA and W-AGM versions as he checked them (Human Written, one window,
+  High each: `x1123c/HIS-CHECKS-20261124.json`); 57 (DCS named, with section B's hedge); 58 (his note after the Weeks 1-2
+  list, every point placed, fitted again after three fresh reads; Human Written, one window, High: ledger #202); 59a, 60a,
+  61a; "you cerebral cortex" fixed. Fidelity PASS, comparison read PASS, keep-as-is list started (`humanize/KEEP-AS-IS.json`).
+- **The contradictions check** (`fix-20261108/coherence/x1124a/`): 24 items; 5 answered, 9 explained, 6 not a conflict, 4
+  questions (62 to 64); 65 from the fresh reads of his Weeks 3-7 line, whose check waits on 64 and 65.
+- **Waiting on him**: questions 62 to 65. Delegations: a fresh Fable reader for the extract; six fresh Fable readers
+  (needed, his fixes, fit) on his Weeks 3-7 line and the 58 note. Predictions: #202 (right).
+
 ## 2026-11-23, his message of 20:40 UTC: his Weeks 3–7 line and his answers 34 to 56 in; questions 57 to 61; cards W-LMA and W-AGM
 
 His message word for word: `fix-20261108/joel-20261123-2040-message.txt` (the cards page's export, card W35 revised with

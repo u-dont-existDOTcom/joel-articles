@@ -1,0 +1,12 @@
+MARKED:
+- S2: 10, 4 — "iboga acts on serotonin too": nothing has said 5-HTP acts on serotonin, so "too" has nothing to point at, and "here" names no phase or state. His way says the thing first (5-HTP raises serotonin, and so does iboga), then the don't.
+- S2: 12 — nothing says how it follows from S1 (adding things one at a time); it starts 5-HTP as a new point. His way ties it to the list ("When you get to 5-HTP ...").
+- S3: 16, 28 — 5-HTP with a mushroom microdose is opened here and finished in S5, with S4 between them. His way keeps everything about that combination at its first mention, right after the iboga rule in S2.
+- S3: 11, 8 — opens on the source ("There isn't enough data to say ...") and only then gives what the reader can do; "should or shouldn't ..., nor whether" is a model's join. His way: what to do first ("You can try UMP with any microdose ..."), then that nobody has data on it.
+- S3: 10 — "see how it feels": "it" could be the combo, the microdose or their mood; and "those combos" covers two different cases, one of which S5 then puts a condition on.
+- S4: 10, 4 — "too numb to tell" what (whether the combo helps, or how it feels)? "a day without" could mean without the microdose or without the new thing; comparing microdose days with none tests the microdose, not the thing just added. His way names what is being compared.
+- S4: 13 — doesn't say why sleep and dreams are what to look at when numb (they show a change the reader can't feel while awake); the reader finds out never.
+- S5: 28, 12 — comes after the numbness step but belongs with S3's mushroom-and-5-HTP sentence; nothing in it says how it follows from S4. It also qualifies S3's "try those combos if you want" two sentences late.
+- S5: 3 — "too, just not the way iboga does" is a contrast in place of the thing itself: say what the difference means for the reader (why 5-HTP is allowed with mushrooms but not with iboga).
+- S5: 12, 7 — the "so" doesn't follow: "act on serotonin differently" doesn't lead to "stop if you get the stop signs". It also sends the reader to another section for the signs; name at least one here.
+- S1: none

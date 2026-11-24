@@ -26,11 +26,13 @@ Cognitive Warning: As you de-armor, you will feel naked and exposed. You will as
 
 The armored brain projects its own internal threat level onto neutral faces. You will think people are judging you; in reality, they are just thinking about themselves. Rule: During this protocol, do not trust your social intuition. It is calibrated to "Threat," not "Truth." Assume you are misreading every room until your heart rate is below 90 BPM.
 
+Lion's Mane & Ashwagandha: I'm not advising either of these, even though they're popular herbs for focus and stress, because some people report anhedonia (no desire) and sexual dysfunction long after they stop taking them. Post-ashwa and post-lion's mane syndrome are rare, but it's the same kind of thing SSRIs and finasteride can do, so it's something to keep in mind.
+
 Agmatine Warning (The Voltage Governor): Agmatine is not a basic nutrient like magnesium or a membrane nutrient like phosphatidylcholine. It is a multi-target neuromodulator that can affect NMDA/glutamate signaling, imidazoline/alpha-2 adrenergic tone, nitric-oxide pathways, and opioid reward/tolerance.
 
 Precautions/Side Effects: Do not use concurrently with opioids and/or kratom (will reduce tolerance), clonidine and/or guanfacine, blood pressure lowering medications (including nitrates and PDE-5 inhibitors), or other complex psychoactive stacks (anything that works on the brain) without having a physician competent to consider the likelihoods of problematic interactions. Not recommended for use in pregnancy or breast-feeding. Use with extreme caution in those with a prior psychotic episode, lower end blood pressure, or kidney or liver issues.
 
-Stop immediately if it causes flatness, anhedonia, apathy, emotional blunting, new depression, agitation, irritability, insomnia, dizziness, palpitations, nausea, loose stools, diarrhea, or increased craving. Only the stomach problems showed up in the human trials, but the flatness happens in practice, so do not "push through" numbness. If agmatine makes the world more gray, it is the wrong tool for that phase.
+Agmatine can leave some folks flat and numb, according to reports online (although in the human studies we've only seen stomach problems), so stop it right away if you notice you're flatter or more depressed than before you started. I wouldn't push through that signal, because a few people say the numbness hung on for weeks after they quit, so it's not like one of those side effects that you'd only feel at first. Also stop if agmatine winds you up instead (more irritable, can't sleep), or you get dizziness, palpitations, nausea, loose stools or stronger cravings.
 
 Uridine & 5-HTP Warning for Psychedelic Users: These are not "trip enhancers." They are repair-oriented levers that, in practice, can change brain sensitivity quickly. 5-HTP is serotonergic because it is a direct serotonin precursor. Do not combine it with SSRIs, SNRIs, MAOIs, linezolid, lithium, tramadol, methadone, fentanyl, DXM, MDMA, St. John's wort, SAM-e, L-tryptophan, or other serotonin-raising stacks. Be especially conservative around ayahuasca / harmalas because MAO-A inhibition can amplify serotonin load, and around iboga / ibogaine because ibogaine and noribogaine interact with serotonin transport biology and already carry serious cardiac and neurological risk.
 
@@ -257,7 +259,7 @@ Nebulized DMSO with heparin (a blood thinner) has been shown to cut the lung dam
 
 My experience and that of those I know and have read about, is that it has immense brain benefits, turning bad trips good instantly, giving relaxed alertness, more intelligence, brighter mood (especially when nebulized). When I nebulize it, within a minute, my brain feels crystal clean and super blissed out (much more bliss than other routes). But when used too close to bedtime or too much, it can reduce sleep, so it's best taken in the morning, and reduce the dose if you notice you're sleeping less. If it is killing my neurons, I'm pretty sure it's killing the trash ones that should be going out anyway. My dad used DMSO for decades and was healthy and mentally sharp into his old age.
 
-The Dynorphin Bridge (Apathy / DAWS-pattern Void):Cordyceps mushrooms: A gentle vitality tool for some people, especially when the Void is mostly fatigue and low respiratory/mitochondrial drive.
+The Void Bridge (Apathy / DAWS-pattern Void):Cordyceps mushrooms: A gentle vitality tool for some people, especially when the Void is mostly fatigue and low respiratory/mitochondrial drive.
 
 Uridine Monophosphate: The more targeted option when the Void looks like dopamine-receptor burnout: low dreams, low visuals, high psychedelic tolerance, dopamine-agonist withdrawal history, or ketamine/LSD chasing. Use UMP as a 3–7 day morning trial with choline + DHA/EPA in place. Do not take it on psychedelic days.
 
@@ -291,7 +293,7 @@ Anatomy overrides intellect. If your heart rate is elevated or heart-rate-variab
 
 Step 1: Rhythmic Regulation (Brainstem): Perform 5 minutes of rhythmic, repetitive sensory input--walking, drumming on your thighs, or rhythmic "Therapeutic Sighing".
 
-Step 2: Check Your Baseline: Once your heart rate is within normal range, you cerebral cortex is receptive. Phosphatidylserine (PS, see Part 2) is a daily baseline agent that lowers how often and how hard these storms hit; it's not an in-the-moment tool.
+Step 2: Check Your Baseline: Once your heart rate is within normal range, your cerebral cortex is receptive. Phosphatidylserine (PS, see Part 2) is a daily baseline agent that lowers how often and how hard these storms hit; it's not an in-the-moment tool.
 
 Step 3: Apply the Jammer: Now use Tetris or the "Color-Path Connect" game to overwrite the visual memory
 
@@ -309,7 +311,7 @@ Mechanism: Hypometabolism (Low Fuel) or Toxicity (Static).
 
 Symptoms: Numbness, Boredom, "I want to Relapse."
 
-Mechanism: You feel "dead." You need to force a spark. We will utilize the science of hot and cold showers as a vascular pump, and plant medicine as needed:
+Mechanism: DeltaFosB is still holding the armor (see [section C](https://ibogaqueen.substack.com/i/181671197/c-the-hardened-circuit-dynorphin-and-deltafosb)). You feel "dead." You need to force a spark. We will utilize the science of hot and cold showers as a vascular pump, and plant medicine as needed:
 
 First-Line Void Add-Ons: If the Void has a DAWS / D2-D3 burnout flavor, trial UMP before chasing more stimulation. If the Void is mainly sleep + serotonin bottleneck, trial 5-HTP at night. Do not start both together, and do not use either to force stronger psychedelic effects.
 
@@ -329,7 +331,7 @@ Activate the "Inner Father": If you are lacking discipline, try a male iboga nas
 
 Advanced tactic: The D-Serine Memory Re-consolidator, for a planned session once you can stay under [the red line](https://ibogaqueen.substack.com/i/181671197/a-the-metabolic-red-line) through one, whatever the week. While L-Serine provides the building blocks for myelin, taking D-Serine (700mg–1400mg) on an empty stomach (no meal; the PQQ and ketones are fine) before a de-armoring session acts as a "memory (re)consolidator" which can cement the benefits of therapies like EMDR which aim to rewire the affective tone of memories.
 
-The idea is that D-serine facilitates the consolidation of the newly formed memory of how the anticipated negative consequences of the exposure to what you fear didn't actually happen. Some studies suggested that d-serine is more effective at this when the practice exposure to what you fear ends on a positive note as opposed to a negative one. Again, all d-serine is doing is making it easier to consolidate the memory of the experience into a long-term memory.
+The idea is that D-serine facilitates the consolidation of the newly formed memory of how the anticipated negative consequences of the exposure to what you fear didn't actually happen. Some studies suggested that [DCS](https://ibogaqueen.substack.com/i/181671197/b-the-overheating-cpu-glutamate-excitotoxicity) (and maybe d-serine) is more effective at this when the practice exposure to what you fear ends on a positive note as opposed to a negative one. Again, all d-serine is doing is making it easier to consolidate the memory of the experience into a long-term memory.
 
 Use L-Serine for daily maintenance and background hardware support.
 
@@ -345,6 +347,8 @@ Supplement daily:
 
 Phosphatidylserine about 400 mg earlier in the day only if you fit the high-cortisol profile + 1 cup broccoli sprouts + Magnesium Glycinate 400 mg with zinc at night + L-Serine + NAC 1.8–2.4 g divided.
 
+For the zinc, I'd use zinc carnosine, since it's better tolerated than other forms of zinc and also helps repair leaky gut ([Mahmood, et al, 2007](https://pmc.ncbi.nlm.nih.gov/articles/PMC1856764)). A standard dose is up to 75 mg a day, which holds 16 mg of elemental zinc, and if it causes nausea, take less at a time. Zinc can lower your copper over time, so I'd also take 1–2 mg of elemental copper a day, as copper gluconate or citrate (not cupric oxide, which is poorly absorbed). For L-serine, I'd do 5–15 g a day, depending how it feels. Higher doses bring more GI distress, though up to 30 g a day has been used in trials for neurodegenerative conditions ([Levine, et al, 2017](https://doi.org/10.1080/21678421.2016.1221971)).
+
 Optional add-on: Agmatine Sulfate 250–500 mg in the morning or early afternoon for 3 days, then increasing to 500 mg once or twice daily only if it clearly reduces the hot/itchy/reactive state without flattening mood. Cap at 1 g/day in this protocol. Do not add agmatine on the same day you start PS, start D-Serine, change NAC dose, begin keto, microdose, or introduce any other major variable.
 
 If PS leaves you flat OR more wired, you're not a high-cortisol responder--drop it. If agmatine gives you any of its stop signs ([the Agmatine Warning at the top](https://ibogaqueen.substack.com/i/181671197/a-complete-guide-to-bio-de-armoring))--drop it.
@@ -355,7 +359,7 @@ Rescue: "The Fire" + [Chantress Seba](https://www.youtube.com/channel/UCM9H6pHyg
 
 Weeks 3–7: The Void (Depression Phase)State: The anxiety mostly stops, but the world turns gray/boring.
 
-So you can tell what each new thing does, add them one at a time, starting with the UMP trial and working down the list below to the keto diet. 5-HTP could help your mood here, though iboga acts on serotonin too, so don't take 5-HTP at all while you're microdosing iboga or elliptica. There isn't enough data to say you should or shouldn't use UMP with any microdose, nor whether 5-HTP would be good with a mushroom microdose, so try those combos if you want and see how it feels. If you're too numb to tell, compare your sleep and dreams on the nights after each kind of day. Mushrooms act on serotonin too, just not the way iboga does, so stop the 5-HTP if you get any of the stop signs [the 5-HTP section](https://ibogaqueen.substack.com/i/181671197/serotonin-bottleneck-pattern-5-htp-low-dose-p5p) lists.
+So you can tell what each new thing does, add them one at a time, starting with the UMP trial and working down the list below to the keto diet. 5-HTP could help your mood here, though iboga acts on serotonin too, so don't take 5-HTP at all while you're microdosing iboga or elliptica. There isn't enough data to say you should or shouldn't use UMP with any microdose, nor whether 5-HTP would be good with a mushroom microdose, so try those combos if you want and see how it feels. If you're too numb to tell, compare your sleep and dreams on the nights after a microdose day and a day without. Mushrooms act on serotonin too, just not the way iboga does, so stop the 5-HTP if you get any of the stop signs [the 5-HTP section](https://ibogaqueen.substack.com/i/181671197/serotonin-bottleneck-pattern-5-htp-low-dose-p5p) lists.
 
 Protocol:Reduce or stop phosphatidylserine here. This phase is low-drive and gray by design--you do *not* want to keep blunting cortisol in an already-flattened system, or you'll deepen the numbness. PS was for the anxiety phase; the Void phase needs the opposite. (If you never felt the wired/high-cortisol state in Weeks 1–2, you probably shouldn't have been on PS at all.)
 

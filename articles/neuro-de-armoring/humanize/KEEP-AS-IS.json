@@ -1,0 +1,79 @@
+{
+ "format": "joel-keep-as-is-v1",
+ "article": "articles/neuro-de-armoring/humanize/HUMANIZED-SO-FAR.md",
+ "keep": [],
+ "cuts": [
+  {
+   "id": "C1",
+   "quote": "it is the wrong tool for that phase",
+   "what": "the agmatine stop-signs paragraph's old last line ('If agmatine makes the world more gray, it is the wrong tool for that phase.'), left out of his version of the paragraph; its stop signs and the push-through warning carry what the reader does",
+   "joel": "his version on card W-AGM, with \"you had some redundancy, ideas were broken up, and islanded\"",
+   "when": "2026-11-24 18:40 UTC",
+   "where": "card W-AGM (fix-20261108/x1123c/ANSWERS-X1123C-20261124-1840.json)",
+   "basis": "his answer"
+  },
+  {
+   "id": "C2",
+   "quote": "D-serine has shown efficacy in studies where it was used to augment exposure therapy",
+   "what": "the D-serine tactic's sentence claiming D-serine trials with exposure therapy; those trials were of DCS, which section B says",
+   "joel": "40b",
+   "when": "2026-11-23 20:40 UTC",
+   "where": "question 40 (fix-20261108/joel-20261123-2040-message.txt)",
+   "basis": "his answer"
+  },
+  {
+   "id": "C3",
+   "quote": "We often assume we can 'think' our way out of trauma",
+   "what": "section B's copy of the red line paragraph; section A holds the red line, with its window of tolerance and DeltaFosB caveat moved there",
+   "joel": "39a",
+   "when": "2026-11-23 20:40 UTC",
+   "where": "question 39 (fix-20261108/joel-20261123-2040-message.txt)",
+   "basis": "his answer"
+  },
+  {
+   "id": "C4",
+   "quote": "The Repair Stack (Zn/Leu/Ser)",
+   "what": "the Weeks 1-2 Rescue line's Repair Stack; zinc and L-serine went to the daily list, leucine was cut on his word (card SB-42)",
+   "joel": "41a",
+   "when": "2026-11-23 20:40 UTC",
+   "where": "question 41 (fix-20261108/joel-20261123-2040-message.txt)",
+   "basis": "his answer"
+  },
+  {
+   "id": "C5",
+   "quote": "serotonin-raising stacks without clinician review",
+   "what": "the 5-HTP warning's review clause: 5-HTP is never combined with these, so no review makes it fine",
+   "joel": "36a",
+   "when": "2026-11-23 20:40 UTC",
+   "where": "question 36 (fix-20261108/joel-20261123-2040-message.txt)",
+   "basis": "his answer"
+  },
+  {
+   "id": "C6",
+   "quote": "unless the whole medicine plan has been medically reviewed",
+   "what": "the 5-HTP rule's review clause for ayahuasca/harmalas or iboga: no 5-HTP anywhere near them",
+   "joel": "36a",
+   "when": "2026-11-23 20:40 UTC",
+   "where": "question 36 (fix-20261108/joel-20261123-2040-message.txt)",
+   "basis": "his answer"
+  },
+  {
+   "id": "C7",
+   "quote": "The Dynorphin block is active",
+   "what": "Scenario C's old mechanism; the Void lost 'Dynorphin' in its names, and its Mechanism line now names DeltaFosB (59a)",
+   "joel": "43b",
+   "when": "2026-11-23 20:40 UTC",
+   "where": "question 43 (fix-20261108/joel-20261123-2040-message.txt)",
+   "basis": "his answer"
+  },
+  {
+   "id": "C8",
+   "quote": "The Dynorphin Void",
+   "what": "the Void's old name in the timeline, Scenario C and the Shield; 'The Dynorphin Bridge' became 'The Void Bridge' (60a)",
+   "joel": "43b, 60a",
+   "when": "2026-11-24 18:47 UTC",
+   "where": "questions 43 and 60 (fix-20261108/joel-20261124-1847-message.txt)",
+   "basis": "his answer"
+  }
+ ]
+}

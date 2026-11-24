@@ -1,0 +1,112 @@
+{
+ "about": "his cards W-LMA and W-AGM (his versions, exported 2026-11-24 18:40 UTC) and his answers 57 to 61 (his message of 2026-11-24 18:47 UTC)",
+ "message": "../joel-20261124-1847-message.txt",
+ "cards": "../x1123c/ANSWERS-X1123C-20261124-1840.json",
+ "his_checks": {
+  "W-LMA": [
+   "https://www.pangram.com/history/e8bbd7a1-a04b-40f6-9bcd-54b789bad815 (AI Generated, 99.99% AI: AI Low, AI Medium, AI High)",
+   "https://www.pangram.com/history/04bff64d-2281-41c4-8abe-2bd3e49407eb (AI Detected, 42% AI: Human High, AI Low, AI Medium)",
+   "https://www.pangram.com/history/37022ca4-704b-48af-a7d3-150d3700c3c2 (Human Written, one window of 68 words, High): the text that went in"
+  ],
+  "W-AGM": [
+   "https://www.pangram.com/history/2406fb09-5b1d-4236-b141-e1becf296cf9 (Human Written, one window of 103 words, High): the text that went in, less its trailing space"
+  ]
+ },
+ "whose": "his versions as he checked them; his words for 58, fitted after the list; the words of the options he picked for 59a to 61a; for 57, section B's own words",
+ "answer_57": "his \"right ... i'm extrapolating d-serine results mostly from DCS, didn't it say that?\": it does, in section B (\"DCS (and maybe D-serine) helps that stick\", Smits 2013), so the sentence keeps the point and says what was tested, with the extrapolation as section B puts it",
+ "points_58": [
+  {
+   "point": "I'd use zinc carnosine",
+   "went": "the note: \"For the zinc, I'd use zinc carnosine\""
+  },
+  {
+   "point": "up to 75mg daily (16mg elemental zinc) which is a standard dose",
+   "went": "the note, as he said it"
+  },
+  {
+   "point": "this form also helps repair leaky gut",
+   "went": "the note, with Mahmood 2007 (37.5 mg twice daily kept healthy volunteers' gut permeability from rising on indomethacin)"
+  },
+  {
+   "point": "zinc should be taken with copper (1-2mg elemental, avoid cupric oxide, use copper gluconate or citrate)",
+   "went": "the note, as he said it"
+  },
+  {
+   "point": "zinc carnosine is better trolerated than other forms of zinc, but if it causes nausea take less at a time",
+   "went": "the note, joined to the zinc carnosine sentences before copper (\"trolerated\" spelled right)"
+  },
+  {
+   "point": "L-serine I'd do 5-15g depending how it feels",
+   "went": "the note: \"For L-serine, I'd do 5–15 g, depending how it feels.\""
+  },
+  {
+   "point": "Up to 30g has been used in trials for neurodegenerative conditions, but more GI distress at higher doses",
+   "went": "the note, with Levine 2017 (the ALS phase I trial: up to 15 g twice daily; two of 20 left with stomach problems) for the trials, and \"with\" for the grammar"
+  }
+ ],
+ "w_agm_signs": "his version names flat and numb, flatter or more depressed, wound up (more irritable, can't sleep), dizziness, palpitations, nausea, loose stools and stronger cravings; the old list's \"anhedonia\", \"apathy\" and \"emotional blunting\" are in his \"flat and numb\" and \"flatter\", \"diarrhea\" in \"loose stools\" (his note: \"you had some redundancy\")",
+ "applied": [
+  {
+   "answer": "57",
+   "old": "Some studies suggested that d-serine is more effective at this",
+   "new": "Some studies suggested that [DCS](https://ibogaqueen.substack.com/i/181671197/b-the-overheating-cpu-glutamate-excitotoxicity) (and maybe d-serine) is more effective at this"
+  },
+  {
+   "answer": "59a",
+   "old": "Mechanism: You feel \"dead.\"",
+   "new": "Mechanism: DeltaFosB is still holding the armor (see [section C](https://ibogaqueen.substack.com/i/181671197/c-the-hardened-circuit-dynorphin-and-deltafosb)). You feel \"dead.\""
+  },
+  {
+   "answer": "60a",
+   "old": "The Dynorphin Bridge (Apathy / DAWS-pattern Void):",
+   "new": "The Void Bridge (Apathy / DAWS-pattern Void):"
+  },
+  {
+   "answer": "61a",
+   "old": "on the nights after each kind of day.",
+   "new": "on the nights after a microdose day and a day without."
+  },
+  {
+   "answer": "W-AGM",
+   "old": "Stop immediately if it causes flatness, anhedonia, apathy, emotional blunting, new depression, agitation, irritability, insomnia, dizziness, palpitations, nausea, loose stools, diarrhea, or increased craving. Only the stomach problems showed up in the human trials, but the flatness happens in practice, so do not \"push through\" numbness. If agmatine makes the world more gray, it is the wrong tool for that phase.",
+   "new": "Agmatine can leave some folks flat and numb, according to reports online (although in the human studies we've only seen stomach problems), so stop it right away if you notice you're flatter or more depressed than before you started. I wouldn't push through that signal, because a few people say the numbness hung on for weeks after they quit, so it's not like one of those side effects that you'd only feel at first. Also stop if agmatine winds you up instead (more irritable, can't sleep), or you get dizziness, palpitations, nausea, loose stools or stronger cravings."
+  },
+  {
+   "answer": "W-LMA",
+   "inserted": "Lion's Mane & Ashwagandha: I'm not advising either of these, even though they're popular herbs for focus and stress, because some people report anhedonia (no desire) and sexual dysfunction long after they stop taking them. Post-ashwa and post-lion's mane syndrome are rare, but it's the same kind of thing SSRIs and finasteride can do, so it's something to keep in mind.",
+   "before": "Agmatine Warning (The Voltage Governor): Agmatine is not a b"
+  },
+  {
+   "answer": "58",
+   "inserted": "For the zinc, I'd use zinc carnosine, up to 75 mg daily (16 mg elemental zinc), which is a standard dose. This form also helps repair leaky gut ([Mahmood, et al, 2007](https://pmc.ncbi.nlm.nih.gov/articles/PMC1856764)), and it's better tolerated than other forms of zinc, but if it causes nausea, take less at a time. Zinc should be taken with copper (1–2 mg elemental; avoid cupric oxide, and use copper gluconate or citrate). For L-serine, I'd do 5–15 g, depending how it feels. Up to 30 g has been used in trials for neurodegenerative conditions ([Levine, et al, 2017](https://doi.org/10.1080/21678421.2016.1221971)), but with more GI distress at higher doses.",
+   "after": "the Weeks 1-2 daily list"
+  }
+ ],
+ "before_sha256": "4708699200e1d10433f84a7be48d04c65758c352a712ab91e3cfffaf68bdbc4f",
+ "after_sha256": "580b8a82a1131da86a1d1677f0bba2ad3b07f903dfae150bc376a69a763d4a9d",
+ "revised_58": {
+  "by": "revise_n58b.py",
+  "reads": [
+   "needed/n58/READ.md",
+   "his-fixes/n58/READ.md",
+   "fit/n58/READ.md"
+  ],
+  "old": "For the zinc, I'd use zinc carnosine, up to 75 mg daily (16 mg elemental zinc), which is a standard dose. This form also helps repair leaky gut ([Mahmood, et al, 2007](https://pmc.ncbi.nlm.nih.gov/articles/PMC1856764)), and it's better tolerated than other forms of zinc, but if it causes nausea, take less at a time. Zinc should be taken with copper (1–2 mg elemental; avoid cupric oxide, and use copper gluconate or citrate). For L-serine, I'd do 5–15 g, depending how it feels. Up to 30 g has been used in trials for neurodegenerative conditions ([Levine, et al, 2017](https://doi.org/10.1080/21678421.2016.1221971)), but with more GI distress at higher doses.",
+  "new": "For the zinc, I'd use zinc carnosine, since it's better tolerated than other forms of zinc and also helps repair leaky gut ([Mahmood, et al, 2007](https://pmc.ncbi.nlm.nih.gov/articles/PMC1856764)). A standard dose is up to 75 mg a day, which holds 16 mg of elemental zinc, and if it causes nausea, take less at a time. Zinc can lower your copper over time, so I'd also take 1–2 mg of elemental copper a day, as copper gluconate or citrate (not cupric oxide, which is poorly absorbed). For L-serine, I'd do 5–15 g a day, depending how it feels. Higher doses bring more GI distress, though up to 30 g a day has been used in trials for neurodegenerative conditions ([Levine, et al, 2017](https://doi.org/10.1080/21678421.2016.1221971)).",
+  "added": [
+   "the reason for this form beside the choice (his \"better tolerated\", moved up)",
+   "\"which holds 16 mg of elemental zinc\": what the 75 mg holds",
+   "why copper: zinc can lower copper over time; \"a day\" for its amount; cupric oxide \"poorly absorbed\" as the reason to avoid it",
+   "\"a day\" for L-serine and its trials' 30 g",
+   "the stomach limit said before the 30 g, which read as permission"
+  ]
+ },
+ "obvious": [
+  {
+   "old": "Once your heart rate is within normal range, you cerebral cortex",
+   "new": "Once your heart rate is within normal range, your cerebral cortex",
+   "where": "Scenario A, Step 2",
+   "by": "fix_typo_x1124a.py"
+  }
+ ]
+}
