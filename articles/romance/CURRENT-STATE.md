@@ -269,14 +269,19 @@ with his OK and no email.
   line was run on and its opener started on the case (`humanize/fix-20261107/r41/README.md`). The contradictions check is
   done. Every section check reads Human High in every window except his one-word "Woops...". First batch of new and
   corrected cards for the game: `r40/CARD-GAME.md`.
+- 2026-11-24 19:58 UTC ("cards look good, you could keep the money card"): the first batch of cards is approved, and
+  polarity-01 is kept with a "why" that no longer says the guide says it. The second batch (twelve cards for what the deck
+  doesn't cover yet, his clarifications of this week included) is in `humanize/fix-20261107/r40/CARD-GAME.md` for his
+  approval.
 
 ## Next step
 
-His word on the first batch of cards (`r40/CARD-GAME.md`), then the rest of the cards the same way, then the game's new
-version built and deployed with his OK. When nothing else is pending: the drafts pasted again for his whole-article check
-(not before: "no point checking the drafts until we are done"), then his post updated with his OK (no email): 366's link
-to Esther Perel's post, the reel embedded after 149, his new opening's video and links, the typography swap and the
-"Updated" date; he deletes the two drafts.
+His word on the second batch of cards (`r40/CARD-GAME.md`); then the game's next version built as a new file (its own
+version number and checksum, the love-honestly repository's rule), checked, and deployed to the innerself site with his
+OK. When nothing else is pending: the drafts pasted again for his whole-article check (not before: "no point checking the
+drafts until we are done"), then his post updated with his OK (no email): 366's link to Esther Perel's post, the reel
+embedded after 149, his new opening's video and links, the typography swap and the "Updated" date; he deletes the two
+drafts.
 
 ### Before 2026-11-07 (the registered master, as recorded then)
 
