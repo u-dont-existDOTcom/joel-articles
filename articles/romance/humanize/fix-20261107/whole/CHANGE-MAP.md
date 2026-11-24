@@ -1,6 +1,6 @@
 # The fixed version: every changed paragraph
 
-The live post ("Romance Advice I Wish My Parents Taught Me") with each section's and spot's best tested text in place (`assemble.py`, `build.py`), and his own versions from his answers over them (`../r30/HIS-T4.json`, his Medium page of 2026-11-22). Paragraph numbers are the post page's paragraph list (`LIVE-INDEX.txt`). "Two Pillars" 332 is his own new version (it was the owner lock). 132 changes, 158 live paragraphs changed.
+The live post ("Romance Advice I Wish My Parents Taught Me") with each section's and spot's best tested text in place (`assemble.py`, `build.py`), and his own versions from his answers over them (`../r30/HIS-T4.json`, his Medium page of 2026-11-22). Paragraph numbers are the post page's paragraph list (`LIVE-INDEX.txt`). "Two Pillars" 332 is his own new version (it was the owner lock). 153 changes, 178 live paragraphs changed.
 
 ## 1. S1 (live 28)
 
@@ -1698,4 +1698,255 @@ Read by his answer his S05 fix (HIS-S05.json): [result](https://www.pangram.com/
 **New:**
 
 > I remember reading a Christian magazine’s letter from a newlywed Christian woman who found out that her husband didn’t have much interest in sex after she saved herself for marriage. He trapped her, because he knew she would not feel good about divorce due to the religion. Of course, it didn’t have to be nefarious. I had a relationship with E. that was a bit like that about 15yrs ago. She wanted sex once a week, and it was driving me nuts because my libido was thru the roof. She also had no interest in trying to take a safe herb or supplement to increase her desire. Of course everyone does change over time as well, so that's one more reason to think about the relationship together before anyone gets their feelings hurt.
+
+## 133. Spirituality to bypass intimacy (live 57)
+
+Read by my tested change R37-12-p5 (MINE-R37.json): [result](https://www.pangram.com/history/3063201e-8884-4008-b625-09bddfcfca7a).
+
+**Live:**
+
+> And if you’re so happy and free, what happens when you’re alone in a room with a super beautiful girl and she wants you? Or vice versa for women. Do you feel like you’re losing some control? Are you afraid?
+
+**New:**
+
+> And if you’re so happy and free, what happens when you’re alone in a room with a super beautiful girl and she wants you? Or vice versa for women. Do you feel like you’re losing some control, and does that scare you?
+
+## 134. And deeper is the point (live 78)
+
+Read by my tested change R37-16-p2 (MINE-R37.json): [result](https://www.pangram.com/history/0b928214-0ed5-43e5-b495-f68bfc7028b9).
+
+**Live:**
+
+> Sometimes they may even want you to find sexual satisfaction elsewhere if they can’t give it, because they love you and want you to be happy. Maybe they don’t. Nobody is owed that as proof of love.
+
+**New:**
+
+> Sometimes they may even want you to find sexual satisfaction elsewhere if they can’t give it, because they love you and want you to be happy. Or maybe they don’t, and you can’t make giving you that freedom a test of whether they love you.
+
+## 135. Beware idealization in either direction (live 146)
+
+Read by my tested change R37-30-p4 (MINE-R37.json): [result](https://www.pangram.com/history/00f004a8-9c64-4a96-9276-3d2458624496).
+
+**Live:**
+
+> Legitimately seeing someone as amazing doesn’t depend on what the seeing gives you. Once you start identifying with the way you see them—she’s perfect, this is destiny, I’m the one who finally found her—you’re already lost in the sauce.
+
+**New:**
+
+> You can legitimately see someone as amazing when you don’t need anything back from seeing them that way. Once you start identifying with the way you see them, like she’s perfect and I’m the one destiny finally sent to find her, you’re already lost in the sauce.
+
+## 136. If slow isn’t realistic for you (live 170)
+
+Read by my tested change R37-35-p2 (MINE-R37.json): [result](https://www.pangram.com/history/1867a533-baa4-4926-af33-d26bf54676fb).
+
+**Live:**
+
+> So my main strategy has been to avoid heat-of-the-moment situations until I’m ready. That has definitely saved me from having ten times the body count, but it doesn’t work reliably because the request often starts out small. “Hey, wanna go do something together?” Maybe she wants me to come to an event, a meditation teaching, or a walk in nature.
+
+**New:**
+
+> So my main strategy has been to avoid heat-of-the-moment situations until I’m ready. Avoiding those situations has definitely saved me from having ten times the body count, but it doesn’t work reliably, because the invitation that leads there often starts out small, like “Hey, wanna go do something together?” Maybe she wants me to come to an event, a meditation teaching, or a walk in nature.
+
+## 137. The Relationship As Crucible (live 193)
+
+Read by my tested change R37-41-p1 (MINE-R37.json): [result](https://www.pangram.com/history/cb39187a-38cb-431c-a1ed-1af24036df11).
+
+**Live:**
+
+> It was during my first marriage that I read about Dr. David Schnarch’s Crucible Approach in Passionate Marriage. Schnarch saw marriage as a natural “people-growing process.” His idea of differentiation was learning to hold onto yourself while staying close, especially when intimacy brings anxiety and unresolved problems to the surface.
+
+**New:**
+
+> It was during my first marriage that I read about Dr. David Schnarch’s Crucible Approach in Passionate Marriage. Schnarch saw marriage as a natural “people-growing process.” His idea of differentiation was learning to hold onto yourself while staying close, especially when intimacy brings anxiety and unresolved problems to the surface, which is definitely what relationship has done to me.
+
+## 138. The Relationship As Crucible (live 194)
+
+Read by my tested change R37-41-p2 (MINE-R37.json): [result](https://www.pangram.com/history/cb39187a-38cb-431c-a1ed-1af24036df11).
+
+**Live:**
+
+> That’s definitely what relationship has done to me.
+
+**New:**
+
+
+## 139. The Relationship As Crucible (live 195)
+
+Read by my tested change R37-41-p3 (MINE-R37.json): [result](https://www.pangram.com/history/cb39187a-38cb-431c-a1ed-1af24036df11).
+
+**Live:**
+
+> One warning before I romanticize the crucible too much: sometimes (as in my first marriage) this isn’t two wounded people triggering each other but one person terrorizing or controlling the other. If you’re scared to say no or tell the truth, or scared of what happens if you leave, don’t treat that as a mutual communication exercise—get other people involved and think about safety first.
+
+**New:**
+
+> One warning before I romanticize the crucible too much: sometimes (as in my first marriage) this isn’t two wounded people triggering each other but one person terrorizing or controlling the other. If you’re scared to say no or tell the truth, or of what happens if you leave, that’s way past a mutual communication exercise, so get other people involved and think about safety first.
+
+## 140. The Relationship As Crucible (live 196)
+
+Read by my tested change R37-41-p4 (MINE-R37.json): [result](https://www.pangram.com/history/cb39187a-38cb-431c-a1ed-1af24036df11).
+
+**Live:**
+
+> Toft sees the crucible of his marriage as his main spiritual practice. He also continues his meditation, yoga, prayer, and church activities, but sees them as secondary. I understand what he means. It’s much easier for me to feel spiritually advanced when nobody is close enough to expose the parts of me that aren’t.
+
+**New:**
+
+> Toft sees the crucible of his marriage as his main spiritual practice. He also continues his meditation, yoga, prayer, and church activities, but sees them as secondary. I understand what he means, because it’s much easier for me to feel spiritually advanced when nobody is close enough to expose the parts of me that aren’t.
+
+## 141. Some babies grow up faster (live 237)
+
+Read by my tested change R37-49-p1 (MINE-R37.json): [result](https://www.pangram.com/history/892aceae-c811-45d4-9d4b-d915b0a6e7ca).
+
+**Live:**
+
+> “I’m sad. What should I do?”
+
+**New:**
+
+> “I’m sad, what should I do?”
+
+## 142. Two Pillars Don’t Hold The Roof Up (live 340)
+
+Read by my tested change R37-68-p5 (MINE-R37.json): [result](https://www.pangram.com/history/231c824d-3dbe-44c5-be5d-3fe52fc88574).
+
+**Live:**
+
+> Make as much community as you can wherever you are. Go to Meetups together. Make deep friendships together. Find some shared purpose beyond maintaining the relationship. Introduce your old friends to your partner and try to mutualize those friendships as much as possible, so they aren’t experienced as slyly antagonistic or partial to one side. You don’t need to spend all your time together, but two completely separate social worlds will automatically start taking sides when something goes wrong.
+
+**New:**
+
+> Make as much community as you can wherever you are, like going to Meetups together and making deep friendships as a couple. Find some shared purpose beyond maintaining the relationship. Introduce your old friends to your partner and try to mutualize those friendships as much as possible, so they aren’t experienced as slyly antagonistic or partial to one side. You don’t need to spend all your time together, but two completely separate social worlds will automatically start taking sides when something goes wrong.
+
+## 143. Which marriage vows are honest? (live 350)
+
+Read by my tested change R37-71-p2 (MINE-R37.json): [result](https://www.pangram.com/history/0be19217-8018-41f2-bd98-6d20fc089ac8).
+
+**Live:**
+
+> We also find something like my warning in the New & Old Testaments. Ecclesiastes 5:4–6 says it is better not to make a vow than to make one and fail to keep it. If you tell the priest you didn’t mean what you promised, the passage warns that God will be angry and destroy your work.
+
+**New:**
+
+> We also find something like my warning in the New & Old Testaments. Ecclesiastes 5:4–6 says it is better not to make a vow than to make one and fail to keep it, and that if you then tell the priest you didn’t mean what you promised, God will be angry and destroy your work.
+
+## 144. Imagination as a discernment tool (live 381)
+
+Read by my tested change R37-77-p1 (MINE-R37.json): [result](https://www.pangram.com/history/b0977a4a-7599-4289-ab03-9322ea1d97a7).
+
+**Live:**
+
+> Rewind. What if we disagree on having kids?
+
+**New:**
+
+> Rewind: what if we disagree on having kids?
+
+## 145. Imagination as a discernment tool (live 383)
+
+Read by my tested change R37-77-p2 (MINE-R37.json): [result](https://www.pangram.com/history/b0977a4a-7599-4289-ab03-9322ea1d97a7).
+
+**Live:**
+
+> Fast forward five years. What has each of us gained or given up, and do we have any resentment about it?
+
+**New:**
+
+> Fast forward five years: what has each of us gained or given up, and do we have any resentment about it?
+
+## 146. Imagination as a discernment tool (live 387)
+
+Read by my tested change R37-77-p5 (MINE-R37.json): [result](https://www.pangram.com/history/b0977a4a-7599-4289-ab03-9322ea1d97a7).
+
+**Live:**
+
+> Psychedelics can make this same problem of idealization much stronger.
+
+**New:**
+
+> And if psychedelics are involved, every scene can look even more beautiful, which makes this same problem of idealization much stronger.
+
+## 147. Why all of this sounds artificial (live 404)
+
+Read by my tested change R37-81-p1 (MINE-R37.json): [result](https://www.pangram.com/history/ea848794-d8b1-456d-84a3-56fab928d798).
+
+**Live:**
+
+> By now this probably sounds terribly artificial. Is anyone actually going to do scheduled check-ins, delayed cohabitation, conversations about hypothetical disasters, imagination exercises, not to mention resisting the heat-of-the-moment stuff and continuing your own reparenting practices when a warm body is available to do some of the soothing?
+
+**New:**
+
+> By now you’re probably thinking all of this sounds terribly artificial: is anyone actually going to do scheduled check-ins, delayed cohabitation, conversations about hypothetical disasters, imagination exercises, not to mention resisting the heat-of-the-moment stuff and continuing your own reparenting practices when a warm body is available to do some of the soothing?
+
+## 148. Why all of this sounds artificial (live 405)
+
+Read by my tested change R37-81-p2 (MINE-R37.json): [result](https://www.pangram.com/history/ea848794-d8b1-456d-84a3-56fab928d798).
+
+**Live:**
+
+> Well, yeah. It is painfully artificial. In a healthy communal society, the couple would have access to witnesses, elders, friends, and other emotional outlets and resources. Most of us these days don’t have that, so we’re trying to recreate consciously and clumsily some of what the wider field would have done without a checklist.
+
+**New:**
+
+> Well, yeah, it is painfully artificial, because in a healthy communal society, the couple would have access to witnesses, elders, friends, and other emotional outlets and resources. Most of us these days don’t have that, so we’re trying to recreate consciously and clumsily some of what the wider field would have done without a checklist.
+
+## 149. If you’re already in it (live 412)
+
+Read by my tested change R37-83-p3 (MINE-R37.json): [result](https://www.pangram.com/history/862385ed-24c1-44dd-aa3f-865e4b685b0a).
+
+**Live:**
+
+> This is the time for agape to shine, because the best thing for both of you may not be holding onto the relationship pattern you originally committed to or dreamt of.
+
+**New:**
+
+> If the two of you are stuck in that “not now,” that’s when you need agape the most, because the best thing for both of you may not be holding onto the relationship pattern you originally committed to or dreamt of.
+
+## 150. If you’re already in it (live 413)
+
+Read by my tested change R37-83-p4 (MINE-R37.json): [result](https://www.pangram.com/history/862385ed-24c1-44dd-aa3f-865e4b685b0a).
+
+**Live:**
+
+> When did you two last dance? And not the “we dance around our problems” joke (LOL).. If that’s where things are at, the trust is out the window. Ouch. I know that one from experience with my first 2 wives and K, too. That generally marks the point of no return, so try not to wait for that. Because once you’re there, as my dad explained a thousand times whenever we had a visitor, unconscious resentment begins to snowball, and we feel colder together than alone. Pretty soon, old Romeo & Juliette might get wandering eye syndrome.
+
+**New:**
+
+> When did you two last dance? And not the “we dance around our problems” joke (LOL).. If that’s where things are at, ouch, the trust is out the window. I know that one from experience with my first 2 wives and K, too. That generally marks the point of no return, so try not to wait for that. Because once you’re there, as my dad explained a thousand times whenever we had a visitor, unconscious resentment begins to snowball, and we feel colder together than alone. Pretty soon, old Romeo & Juliette might get wandering eye syndrome.
+
+## 151. Dating App Horror Show (live 93)
+
+Read by my tested change R37-20-p2 (MINE-R37.json): [result](https://www.pangram.com/history/7f97aa81-692d-4e92-bda4-d7325dc40908).
+
+**Live:**
+
+> I always tell young guys especially: don’t worry about not finding a girl. Worry about finding the wrong girl. Girls are usually more selective, but they still need to think twice, because they often go for guys who aren’t respectful or mature.
+
+**New:**
+
+> I always tell young guys especially: don’t worry about not finding a girl, since finding the wrong one is what should scare you. And girls, you’re usually pickier, but you still need to think twice, because a lot of you go for guys who aren’t respectful or mature.
+
+## 152. Dating App Horror Show (live 94)
+
+Read by my tested change R37-20-p3 (MINE-R37.json): [result](https://www.pangram.com/history/7f97aa81-692d-4e92-bda4-d7325dc40908).
+
+**Live:**
+
+> I’m almost embarrassed to admit, but I recently tried Hinge again for a few days while I was in Kenya after my last breakup. I was getting something like a hundred girls interested in my profile every day, so I looked through a lot of profiles. Some were cute but none seemed deep. So the app did tell me something useful.
+
+**New:**
+
+> I’m almost embarrassed to admit, but I recently tried Hinge again for a few days while I was in Kenya after my last breakup. I was getting something like a hundred girls interested in my profile every day, so I looked through a lot of profiles. Some were cute but none seemed deep, so the app worked as the gate I said it could be.
+
+## 153. Muses & Directors (live 275)
+
+Read by my tested change R37-56-p4 (MINE-R37.json): [result](https://www.pangram.com/history/93a6dff5-998a-493c-b5e5-8636e2584adf).
+
+**Live:**
+
+> I don’t think equality means dividing every role 50/50. If I like driving and she likes cooking, great. If she’s way better at something, she’ll probably do more of it. When I’m leading, I still want to know what she sees. Mandar obedeciendo—Lead by following—as the Zapatistas say.
+
+**New:**
+
+> I don’t think equality means dividing every role 50/50, so if I like driving and for her it’s cooking, great. If she’s way better at something, she’ll probably do more of it. Even when I’m the one leading, I still want to know what she sees, or as the Zapatistas say, Mandar obedeciendo—Lead by following.
 

@@ -649,3 +649,87 @@ It’s important to talk about sexual compatibility before getting undressed, ev
 ## 132. Talk about making love before you do it (live 18)
 
 I remember reading a Christian magazine’s letter from a newlywed Christian woman who found out that her husband didn’t have much interest in sex after she saved herself for marriage. He trapped her, because he knew she would not feel good about divorce due to the religion. Of course, it didn’t have to be nefarious. I had a relationship with E. that was a bit like that about 15yrs ago. She wanted sex once a week, and it was driving me nuts because my libido was thru the roof. She also had no interest in trying to take a safe herb or supplement to increase her desire. Of course everyone does change over time as well. If our libidos later diverge, it’s better to talk about what we’d do before either person is already hurt.
+
+## 133. Spirituality to bypass intimacy (live 57)
+
+And if you’re so happy and free, what happens when you’re alone in a room with a super beautiful girl and she wants you? Or vice versa for women. Do you feel like you’re losing some control? Are you afraid?
+
+## 134. And deeper is the point (live 78)
+
+Sometimes they may even want you to find sexual satisfaction elsewhere if they can’t give it, because they love you and want you to be happy. Maybe they don’t. Nobody is owed that as proof of love.
+
+## 135. Beware idealization in either direction (live 146)
+
+Legitimately seeing someone as amazing doesn’t depend on what the seeing gives you. Once you start identifying with the way you see them—she’s perfect, this is destiny, I’m the one who finally found her—you’re already lost in the sauce.
+
+## 136. If slow isn’t realistic for you (live 170)
+
+So my main strategy has been to avoid heat-of-the-moment situations until I’m ready. That has definitely saved me from having ten times the body count, but it doesn’t work reliably because the request often starts out small. “Hey, wanna go do something together?” Maybe she wants me to come to an event, a meditation teaching, or a walk in nature.
+
+## 137. The Relationship As Crucible (live 193)
+
+It was during my first marriage that I read about Dr. David Schnarch’s Crucible Approach in Passionate Marriage. Schnarch saw marriage as a natural “people-growing process.” His idea of differentiation was learning to hold onto yourself while staying close, especially when intimacy brings anxiety and unresolved problems to the surface.
+
+## 138. The Relationship As Crucible (live 194)
+
+That’s definitely what relationship has done to me.
+
+## 139. The Relationship As Crucible (live 195)
+
+One warning before I romanticize the crucible too much: sometimes (as in my first marriage) this isn’t two wounded people triggering each other but one person terrorizing or controlling the other. If you’re scared to say no or tell the truth, or scared of what happens if you leave, don’t treat that as a mutual communication exercise—get other people involved and think about safety first.
+
+## 140. The Relationship As Crucible (live 196)
+
+Toft sees the crucible of his marriage as his main spiritual practice. He also continues his meditation, yoga, prayer, and church activities, but sees them as secondary. I understand what he means. It’s much easier for me to feel spiritually advanced when nobody is close enough to expose the parts of me that aren’t.
+
+## 141. Some babies grow up faster (live 237)
+
+“I’m sad. What should I do?”
+
+## 142. Two Pillars Don’t Hold The Roof Up (live 340)
+
+Make as much community as you can wherever you are. Go to Meetups together. Make deep friendships together. Find some shared purpose beyond maintaining the relationship. Introduce your old friends to your partner and try to mutualize those friendships as much as possible, so they aren’t experienced as slyly antagonistic or partial to one side. You don’t need to spend all your time together, but two completely separate social worlds will automatically start taking sides when something goes wrong.
+
+## 143. Which marriage vows are honest? (live 350)
+
+We also find something like my warning in the New & Old Testaments. Ecclesiastes 5:4–6 says it is better not to make a vow than to make one and fail to keep it. If you tell the priest you didn’t mean what you promised, the passage warns that God will be angry and destroy your work.
+
+## 144. Imagination as a discernment tool (live 381)
+
+Rewind. What if we disagree on having kids?
+
+## 145. Imagination as a discernment tool (live 383)
+
+Fast forward five years. What has each of us gained or given up, and do we have any resentment about it?
+
+## 146. Imagination as a discernment tool (live 387)
+
+Psychedelics can make this same problem of idealization much stronger.
+
+## 147. Why all of this sounds artificial (live 404)
+
+By now this probably sounds terribly artificial. Is anyone actually going to do scheduled check-ins, delayed cohabitation, conversations about hypothetical disasters, imagination exercises, not to mention resisting the heat-of-the-moment stuff and continuing your own reparenting practices when a warm body is available to do some of the soothing?
+
+## 148. Why all of this sounds artificial (live 405)
+
+Well, yeah. It is painfully artificial. In a healthy communal society, the couple would have access to witnesses, elders, friends, and other emotional outlets and resources. Most of us these days don’t have that, so we’re trying to recreate consciously and clumsily some of what the wider field would have done without a checklist.
+
+## 149. If you’re already in it (live 412)
+
+This is the time for agape to shine, because the best thing for both of you may not be holding onto the relationship pattern you originally committed to or dreamt of.
+
+## 150. If you’re already in it (live 413)
+
+When did you two last dance? And not the “we dance around our problems” joke (LOL).. If that’s where things are at, the trust is out the window. Ouch. I know that one from experience with my first 2 wives and K, too. That generally marks the point of no return, so try not to wait for that. Because once you’re there, as my dad explained a thousand times whenever we had a visitor, unconscious resentment begins to snowball, and we feel colder together than alone. Pretty soon, old Romeo & Juliette might get wandering eye syndrome.
+
+## 151. Dating App Horror Show (live 93)
+
+I always tell young guys especially: don’t worry about not finding a girl. Worry about finding the wrong girl. Girls are usually more selective, but they still need to think twice, because they often go for guys who aren’t respectful or mature.
+
+## 152. Dating App Horror Show (live 94)
+
+I’m almost embarrassed to admit, but I recently tried Hinge again for a few days while I was in Kenya after my last breakup. I was getting something like a hundred girls interested in my profile every day, so I looked through a lot of profiles. Some were cute but none seemed deep. So the app did tell me something useful.
+
+## 153. Muses & Directors (live 275)
+
+I don’t think equality means dividing every role 50/50. If I like driving and she likes cooking, great. If she’s way better at something, she’ll probably do more of it. When I’m leading, I still want to know what she sees. Mandar obedeciendo—Lead by following—as the Zapatistas say.

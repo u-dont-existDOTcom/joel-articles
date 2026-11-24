@@ -132,7 +132,7 @@ If becoming a monastic genuinely makes you happier and more peaceful, stay. It m
 
 But how do you know what you’re not aware of? [Inner-child reparenting](http://innerchild.u-dont-exist.com/) and [self-hypnosis](http://hypnosis.u-dont-exist.com/) can help a lot with that, because often the inner child is being ignored while the adult is feeling some kind of liberation.
 
-And if you’re so happy and free, what happens when you’re alone in a room with a super beautiful girl and she wants you? Or vice versa for women. Do you feel like you’re losing some control? Are you afraid?
+And if you’re so happy and free, what happens when you’re alone in a room with a super beautiful girl and she wants you? Or vice versa for women. Do you feel like you’re losing some control, and does that scare you?
 
 Bhante Gunaratana, a famous Buddhist teacher, tells a story like this in [his autobiography](https://www.amazon.com/Journey-Mindfulness-Autobiography-Bhante-G/dp/0861713478). A super beautiful girl at a retreat he was teaching snuck into his room and waited for him in bed, naked. He went nuts and started screaming at her “Get out!” at the top of his lungs. Obviously he was still repressing something, and she was adept at unintentionally uncovering it.
 
@@ -172,7 +172,7 @@ Some women are fixer types, which can create the opposite pattern. Before me, Be
 
 Beyond all that practical stuff, sex is extremely important for building and renewing the connection. I also think that if two people aren’t having sex, it becomes hard to explain how they’re different from regular friends. But if the connection gets deep enough, sex appeal stops being the basis of the relationship. You don’t stop loving the person because she got old, he lost his job, one of you got sick, or sex became impossible.
 
-Sometimes they may even want you to find sexual satisfaction elsewhere if they can’t give it, because they love you and want you to be happy. Maybe they don’t. Nobody is owed that as proof of love.
+Sometimes they may even want you to find sexual satisfaction elsewhere if they can’t give it, because they love you and want you to be happy. Or maybe they don’t, and you can’t make giving you that freedom a test of whether they love you.
 
 ## How to find a partner
 
@@ -202,9 +202,9 @@ These days almost nobody even has a profile. They just have photos, which is sho
 
 Ok wait, Judge not, lest ye be judged... An app could be fine as an introduction if you use it as a proper gate. Assume 99.99% of the people there are a bad match for you. If you’re just going to get excited by every cute guy or girl who hits you up, forget it. That’s such an easy way to find a weirdo, a psycho, a mooch, a faker, or whatever. Those people are easy enough to find in modern society in person anyway.
 
-I always tell young guys especially: don’t worry about not finding a girl. Worry about finding the wrong girl. Girls are usually more selective, but they still need to think twice, because they often go for guys who aren’t respectful or mature.
+I always tell young guys especially: don’t worry about not finding a girl, since finding the wrong one is what should scare you. And girls, you’re usually pickier, but you still need to think twice, because a lot of you go for guys who aren’t respectful or mature.
 
-I’m almost embarrassed to admit, but I recently tried Hinge again for a few days while I was in Kenya after my last breakup. I was getting something like a hundred girls interested in my profile every day, so I looked through a lot of profiles. Some were cute but none seemed deep. So the app did tell me something useful.
+I’m almost embarrassed to admit, but I recently tried Hinge again for a few days while I was in Kenya after my last breakup. I was getting something like a hundred girls interested in my profile every day, so I looked through a lot of profiles. Some were cute but none seemed deep, so the app worked as the gate I said it could be.
 
 ### Community makes the match
 
@@ -310,7 +310,7 @@ So far in my life the main experiences of this have been with Bee and Key. They�
 
 She shouldn’t need a knight in shining armor to bring that beauty out, though, because it’s a bad shortcut to the divine archetypes.
 
-Legitimately seeing someone as amazing doesn’t depend on what the seeing gives you. You’re already lost in the sauce once you start identifying with the way you see them, like she’s perfect, this is destiny, I’m the one who finally found her.
+You can legitimately see someone as amazing when you don’t need anything back from seeing them that way. Once you start identifying with the way you see them, like she’s perfect and I’m the one destiny finally sent to find her, you’re already lost in the sauce.
 
 The degree of idealization also predicts the degree of demonization for me, so much that I use it almost like a clinical diagnosis in my own life. If a woman says, “You’re such a great guy. Of course you have flaws like anyone, but I love you,” that sounds healthy. If she says, “You’re perfect, I can’t find any flaw,” I’m already running.
 
@@ -362,7 +362,7 @@ Partners should help each other grow. Who else is going to do it? Your mom and d
 
 I pretty much always intend to wait long enough to have this conversation and figure out who I’m dealing with. Then the heat of the moment hits and I want her to think of me as the guy who pleases her, not the guy who makes her think twice about wanting pleasure.
 
-So my main strategy has been to avoid heat-of-the-moment situations until I’m ready. That has definitely saved me from having ten times the body count, but it doesn’t work reliably because the request often starts out small. “Hey, wanna go do something together?” Maybe she wants me to come to an event, a meditation teaching, or a walk in nature.
+So my main strategy has been to avoid heat-of-the-moment situations until I’m ready. Avoiding those situations has definitely saved me from having ten times the body count, but it doesn’t work reliably, because the invitation that leads there often starts out small, like “Hey, wanna go do something together?” Maybe she wants me to come to an event, a meditation teaching, or a walk in nature.
 
 Phone or video first can help, as can meeting up around other people and deciding beforehand that we aren’t going home together. Islamic and conservative Christian cultures put much stronger barriers around a man and woman being alone before marriage. I don’t accept their helicoptering solution, but they noticed something real. We don’t live in tribes anymore, where people around us might know both of us well enough to slow this down.
 
@@ -406,13 +406,11 @@ Go slowly if you can, then, and learn what you can about each other before sex, 
 
 # The Relationship As Crucible
 
-It was during my first marriage that I read about Dr. David Schnarch’s Crucible Approach in [Passionate Marriage](https://www.crucible4points.com/books/passionate-marriage/). Schnarch saw marriage as a natural “people-growing process.” His idea of differentiation was learning to hold onto yourself while staying close, especially when intimacy brings anxiety and unresolved problems to the surface.
+It was during my first marriage that I read about Dr. David Schnarch’s Crucible Approach in [Passionate Marriage](https://www.crucible4points.com/books/passionate-marriage/). Schnarch saw marriage as a natural “people-growing process.” His idea of differentiation was learning to hold onto yourself while staying close, especially when intimacy brings anxiety and unresolved problems to the surface, which is definitely what relationship has done to me.
 
-That’s definitely what relationship has done to me.
+One warning before I romanticize the crucible too much: sometimes (as in my first marriage) this isn’t two wounded people triggering each other but one person terrorizing or controlling the other. If you’re scared to say no or tell the truth, or of what happens if you leave, that’s way past a mutual communication exercise, so get other people involved and think about safety first.
 
-One warning before I romanticize the crucible too much: sometimes (as in my first marriage) this isn’t two wounded people triggering each other but one person terrorizing or controlling the other. If you’re scared to say no or tell the truth, or scared of what happens if you leave, don’t treat that as a mutual communication exercise—get other people involved and think about safety first.
-
-Toft sees the crucible of his marriage as his main spiritual practice. He also continues his meditation, yoga, prayer, and church activities, but sees them as secondary. I understand what he means. It’s much easier for me to feel spiritually advanced when nobody is close enough to expose the parts of me that aren’t.
+Toft sees the crucible of his marriage as his main spiritual practice. He also continues his meditation, yoga, prayer, and church activities, but sees them as secondary. I understand what he means, because it’s much easier for me to feel spiritually advanced when nobody is close enough to expose the parts of me that aren’t.
 
 Being in a relationship showed me how vulnerable I actually am when I open my heart. It’s really easy to feel invulnerable and strong when you’re alone, or even just with friends. Taking off the masks and showing your inner child is a gamble, but it’s required if you want to go deeper in yourself and deeper with another person.
 
@@ -488,7 +486,7 @@ All three women told me at some point that they felt like my patient, and I coul
 
 “I’m sick. What should I take?”
 
-“I’m sad. What should I do?”
+“I’m sad, what should I do?”
 
 I usually had some idea, so of course I answered, but enough moments become a pattern.
 
@@ -572,7 +570,7 @@ In my experience, women often prefer me to say directly:
 
 She might have a better idea, or just not want to do it, but she still wants me to take initiative.
 
-I don’t think equality means dividing every role 50/50. If I like driving and she likes cooking, great. If she’s way better at something, she’ll probably do more of it. When I’m leading, I still want to know what she sees. Mandar obedeciendo—Lead by following—[as the Zapatistas say.](http://community.u-dont-exist.com/)
+I don’t think equality means dividing every role 50/50, so if I like driving and for her it’s cooking, great. If she’s way better at something, she’ll probably do more of it. Even when I’m the one leading, I still want to know what she sees, or as the Zapatistas say, Mandar obedeciendo—Lead by following.
 
 ## Desire is expressed differently for men & women
 
@@ -730,7 +728,7 @@ H. taught me another part of the same dyad problem. I learned not to treat what 
 
 So if you don’t have a real community already, what can you do about it practically, right now?
 
-Make as much community as you can wherever you are. Go to Meetups together. Make deep friendships together. Find some shared purpose beyond maintaining the relationship. Introduce your old friends to your partner and try to mutualize those friendships as much as possible, so they aren’t experienced as slyly antagonistic or partial to one side. You don’t need to spend all your time together, but two completely separate social worlds will automatically start taking sides when something goes wrong.
+Make as much community as you can wherever you are, like going to Meetups together and making deep friendships as a couple. Find some shared purpose beyond maintaining the relationship. Introduce your old friends to your partner and try to mutualize those friendships as much as possible, so they aren’t experienced as slyly antagonistic or partial to one side. You don’t need to spend all your time together, but two completely separate social worlds will automatically start taking sides when something goes wrong.
 
 # What are you actually choosing together?
 
@@ -752,7 +750,7 @@ These are just a few questions I could think of to start the ball rolling, but b
 
 Conventional marriage vows are dishonest and inept, and most people know it. You can’t promise how you’ll feel in the future, but you can promise actions if you really believe you’re capable of delivering them. So for example, you could promise to tell the truth, to keep showing up emotionally, to support the children, or whatever else you genuinely believe you can do even if your feelings change. More importantly, though, if you do keep those promises, it's quite likely that your connection will deepen, so it's not like we truly have no control of future feelings, but just not completely, directly or unilaterally.
 
-We also find something like my warning in the New & Old Testaments. Ecclesiastes 5:4–6 says it is better not to make a vow than to make one and fail to keep it. If you tell the priest you didn’t mean what you promised, the passage warns that God will be angry and destroy your work.
+We also find something like my warning in the New & Old Testaments. Ecclesiastes 5:4–6 says it is better not to make a vow than to make one and fail to keep it, and that if you then tell the priest you didn’t mean what you promised, God will be angry and destroy your work.
 
 Matthew 5:33–37 and James 5:12 make the wedding vow itself look even more suspicious (to me, anyway): let your “Yes” be “Yes” and your “No” be “No,” and anything beyond that comes from evil.
 
@@ -812,9 +810,9 @@ We all fantasize about a new exciting person we just met, right? The useful thin
 
 - Fast forward. Now we’ve got kids. What might be the values conflicts in how we raise them? Schools, screen time, vaxxes, religion, helicoptering vs freedom, food, gender & sexual orientation issues.
 
-- Rewind. What if we disagree on having kids?
+- Rewind: what if we disagree on having kids?
 
-- Fast forward five years. What has each of us gained or given up, and do we have any resentment about it?
+- Fast forward five years: what has each of us gained or given up, and do we have any resentment about it?
 
 <!-- IMAGE https://substackcdn.com/image/fetch/$s_!cs0J!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F890f4ff0-4132-4670-b20f-2f1f4b1c6ba6_1448x1086.png : a picture in the post -->
 
@@ -822,7 +820,7 @@ This isn’t to make predictions and we’re not consulting the magic 8 ball nor
 
 If every scene is beautiful, consider that you may be, and almost certainly are, still rehearsing the relationship you want. There’s nothing wrong with expecting the best, but it takes work to get there in a wise way.
 
-Psychedelics can make this same problem of idealization much stronger.
+And if psychedelics are involved, every scene can look even more beautiful, which makes this same problem of idealization much stronger.
 
 ## Psychedelic Timing
 
@@ -856,9 +854,9 @@ It’s not always possible in that moment to change a defensive posture into non
 
 ## Why all of this sounds artificial
 
-By now this probably sounds terribly artificial. Is anyone actually going to do scheduled check-ins, delayed cohabitation, conversations about hypothetical disasters, imagination exercises, not to mention resisting the heat-of-the-moment stuff and continuing your own reparenting practices when a warm body is available to do some of the soothing?
+By now you’re probably thinking all of this sounds terribly artificial: is anyone actually going to do scheduled check-ins, delayed cohabitation, conversations about hypothetical disasters, imagination exercises, not to mention resisting the heat-of-the-moment stuff and continuing your own reparenting practices when a warm body is available to do some of the soothing?
 
-Well, yeah. It is painfully artificial. In a healthy communal society, the couple would have access to witnesses, elders, friends, and other emotional outlets and resources. Most of us these days don’t have that, so we’re trying to recreate consciously and clumsily some of what the wider field would have done without a checklist.
+Well, yeah, it is painfully artificial, because in a healthy communal society, the couple would have access to witnesses, elders, friends, and other emotional outlets and resources. Most of us these days don’t have that, so we’re trying to recreate consciously and clumsily some of what the wider field would have done without a checklist.
 
 # If you’re already in it
 
@@ -876,9 +874,9 @@ Some things were less mysterious: they were acting as if the trust problem wasn�
 
 On the other hand, sometimes I was more honest than my partner could handle, which was its own kind of damage. Ask whether both of you actually want to prioritize radical honesty, first. But the other person also can’t keep saying “not now” forever and think that’s going to save the relationship.
 
-This is the time for agape to shine, because the best thing for both of you may not be holding onto the relationship pattern you originally committed to or dreamt of.
+If the two of you are stuck in that “not now,” that’s when you need agape the most, because the best thing for both of you may not be holding onto the relationship pattern you originally committed to or dreamt of.
 
-When did you two last dance? And not the “we dance around our problems” joke (LOL).. If that’s where things are at, the trust is out the window. Ouch. I know that one from experience with my first 2 wives and K, too. That generally marks the point of no return, so try not to wait for that. Because once you’re there, as my dad explained a thousand times whenever we had a visitor, unconscious resentment begins to snowball, and we feel colder together than alone. Pretty soon, old Romeo & Juliette might get wandering eye syndrome.
+When did you two last dance? And not the “we dance around our problems” joke (LOL).. If that’s where things are at, ouch, the trust is out the window. I know that one from experience with my first 2 wives and K, too. That generally marks the point of no return, so try not to wait for that. Because once you’re there, as my dad explained a thousand times whenever we had a visitor, unconscious resentment begins to snowball, and we feel colder together than alone. Pretty soon, old Romeo & Juliette might get wandering eye syndrome.
 
 ## Outside help can sometimes break the loop fast
 
