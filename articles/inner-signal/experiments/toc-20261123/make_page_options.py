@@ -77,8 +77,8 @@ def main():
          'K” becomes “Appendix J”.' % (E(T['T2']['before']), E(T['T4']['before']))},
         {'id': 'Your S122 note: Systema', 'text': 'The guide didn\'t mention Systema anywhere yet. After your Buteyko lines, '
          'this, with its two links (the video you named as the best, and the Systema section of your somatic post):<blockquote>'
-         + E(T['T7']['after_added']) + '</blockquote>The proposal for its heading is now “Buteyko & Systema”, so the sidebar '
-         'names both. Keep it like this, or tell me what to change.'},
+         + E(T['T7']['after_added']) + '</blockquote>Its heading stays “Breathe Less (Buteyko)”, the one in the answers you '
+         'sent. Nothing to answer here unless you want different words.'},
         {'id': 'What the readers of the proposal still found', 'text': 'Things renaming can\'t fix, for you to decide or leave: '
          '“The Inner Adult’s Three Jobs” now holds ten sections, only three of them jobs (your answers 4 and 9); “Daily Life Is '
          'the Feedback” sits under “When to Get Outside Help” though it is about every day; “Find a Hypnotist Who Fits” and '
@@ -103,7 +103,7 @@ def main():
     ren = sum(1 for p in shown if p['kind'] in ('fable', 'mine', 'case'))
     O = {'title': 'Self-Hypnosis guide: your contents picks',
          'sub': 'For “Inner Signal Guide to Self-Hypnosis (& APP)”, 2026-11-24. Your picks save as you go.',
-         'store': 'inner-signal-toc-20261124', 'primary': 'pick',
+         'store': 'inner-signal-toc-20261124-b', 'primary': 'pick',   # a new store name on 2026-11-24 21:5x: the test copy had shared the first (lesson toc-2026-11-24c)
          'options': {'pick': {'label': 'Proposed', 'file': 'PICK3-PAGE-OPTION.json'},
                      'fable': {'label': 'Fable\'s first version', 'file': 'PROPOSAL-FABLE.json'}},
          'pick': {p['id']: ('pick' if p['kind'] in ('fable', 'mine', 'case', 'dropped') else 'now') for p in shown},
