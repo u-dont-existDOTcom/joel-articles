@@ -1,0 +1,285 @@
+{
+ "about": "Every place the guide's text points to another of its sections, linked to that section's anchor (gate inner-child-2026-11-20c, lesson toc-2026-11-23b); where the text quotes a heading by name, the name follows the heading he picks. The anchors come from the final headings, so the links go in with the renames.",
+ "links": [
+  {
+   "n": 1,
+   "in": "S001",
+   "text": "Quick start section",
+   "to": "S004",
+   "name_follows_heading": false,
+   "note": ""
+  },
+  {
+   "n": 2,
+   "in": "S001",
+   "text": "one of the inductions",
+   "to": "S040",
+   "name_follows_heading": false,
+   "note": ""
+  },
+  {
+   "n": 3,
+   "in": "S001",
+   "text": "the whole return sequence",
+   "to": "S053",
+   "name_follows_heading": false,
+   "note": ""
+  },
+  {
+   "n": 4,
+   "in": "S001",
+   "text": "“Let the next response guide you”",
+   "to": "S055",
+   "name_follows_heading": true,
+   "note": ""
+  },
+  {
+   "n": 5,
+   "in": "S001",
+   "text": "daily",
+   "to": "S065",
+   "name_follows_heading": false,
+   "note": ""
+  },
+  {
+   "n": 6,
+   "in": "S001",
+   "text": "weekly",
+   "to": "S066",
+   "name_follows_heading": false,
+   "note": ""
+  },
+  {
+   "n": 7,
+   "in": "S001",
+   "text": "Appendix K",
+   "to": "S158",
+   "name_follows_heading": false,
+   "note": ""
+  },
+  {
+   "n": 8,
+   "in": "S003",
+   "text": "inner child reparenting",
+   "to": "S031",
+   "name_follows_heading": false,
+   "note": ""
+  },
+  {
+   "n": 9,
+   "in": "S004",
+   "text": "Come all the way back",
+   "to": "S053",
+   "name_follows_heading": false,
+   "note": ""
+  },
+  {
+   "n": 10,
+   "in": "S024",
+   "text": "Sober induction",
+   "to": "S043",
+   "name_follows_heading": false,
+   "note": ""
+  },
+  {
+   "n": 11,
+   "in": "S028",
+   "text": "your inherited parent script",
+   "to": "S029",
+   "name_follows_heading": false,
+   "note": ""
+  },
+  {
+   "n": 12,
+   "in": "S035",
+   "text": "your inherited parent script",
+   "to": "S029",
+   "name_follows_heading": false,
+   "note": ""
+  },
+  {
+   "n": 13,
+   "in": "S040",
+   "text": "Already trancey? Stabilize before dipping deeper.",
+   "to": "S044",
+   "name_follows_heading": true,
+   "note": ""
+  },
+  {
+   "n": 14,
+   "in": "S042",
+   "text": "Appendix B",
+   "to": "S093",
+   "name_follows_heading": false,
+   "note": ""
+  },
+  {
+   "n": 15,
+   "in": "S042",
+   "text": "Let the next response guide you",
+   "to": "S055",
+   "name_follows_heading": true,
+   "note": ""
+  },
+  {
+   "n": 16,
+   "in": "S042",
+   "text": "When you're already trancey",
+   "to": "S044",
+   "name_follows_heading": true,
+   "note": ""
+  },
+  {
+   "n": 17,
+   "in": "S042",
+   "text": "Come all the way back",
+   "to": "S053",
+   "name_follows_heading": true,
+   "note": ""
+  },
+  {
+   "n": 18,
+   "in": "S043",
+   "text": "the two-hand practice",
+   "to": "S024",
+   "name_follows_heading": false,
+   "note": ""
+  },
+  {
+   "n": 19,
+   "in": "S063",
+   "text": "Come all the way back",
+   "to": "S053",
+   "name_follows_heading": true,
+   "note": ""
+  },
+  {
+   "n": 20,
+   "in": "S065",
+   "text": "A shortcut back into hypnosis",
+   "to": "S051",
+   "name_follows_heading": true,
+   "note": ""
+  },
+  {
+   "n": 21,
+   "in": "S067",
+   "text": "When this needs more support than a guide can provide",
+   "to": "S084",
+   "name_follows_heading": true,
+   "note": ""
+  },
+  {
+   "n": 22,
+   "in": "S070",
+   "text": "your inherited parent script",
+   "to": "S029",
+   "name_follows_heading": false,
+   "note": ""
+  },
+  {
+   "n": 23,
+   "in": "S073",
+   "text": "Appendix D",
+   "to": "S121",
+   "name_follows_heading": false,
+   "note": ""
+  },
+  {
+   "n": 24,
+   "in": "S076",
+   "text": "the two-hand practice",
+   "to": "S024",
+   "name_follows_heading": false,
+   "note": ""
+  },
+  {
+   "n": 25,
+   "in": "S079",
+   "text": "Appendix E",
+   "to": "S129",
+   "name_follows_heading": false,
+   "note": "in the new sentence"
+  },
+  {
+   "n": 26,
+   "in": "S091",
+   "text": "the core prompts",
+   "to": "S092",
+   "name_follows_heading": false,
+   "note": ""
+  },
+  {
+   "n": 27,
+   "in": "S092",
+   "text": "Appendix B",
+   "to": "S093",
+   "name_follows_heading": false,
+   "note": ""
+  },
+  {
+   "n": 28,
+   "in": "S108",
+   "text": "A shortcut back into hypnosis",
+   "to": "S051",
+   "name_follows_heading": true,
+   "note": ""
+  },
+  {
+   "n": 29,
+   "in": "S118",
+   "text": "Come all the way back",
+   "to": "S053",
+   "name_follows_heading": true,
+   "note": ""
+  },
+  {
+   "n": 30,
+   "in": "S127",
+   "text": "the two-hand practice",
+   "to": "S024",
+   "name_follows_heading": false,
+   "note": ""
+  },
+  {
+   "n": 31,
+   "in": "S127",
+   "text": "Working with your inner child",
+   "to": "S023",
+   "name_follows_heading": true,
+   "note": ""
+  },
+  {
+   "n": 32,
+   "in": "S130",
+   "text": "Using synchronicity as your own wake-up bell",
+   "to": "S109",
+   "name_follows_heading": true,
+   "note": ""
+  },
+  {
+   "n": 33,
+   "in": "S132",
+   "text": "the council",
+   "to": "S133",
+   "name_follows_heading": false,
+   "note": ""
+  },
+  {
+   "n": 34,
+   "in": "S136",
+   "text": "the inner child reparenting section",
+   "to": "S031",
+   "name_follows_heading": false,
+   "note": ""
+  },
+  {
+   "n": 35,
+   "in": "S143",
+   "text": "Daily Life Is the Feedback",
+   "to": "S086",
+   "name_follows_heading": true,
+   "note": "in the new sentence"
+  }
+ ]
+}

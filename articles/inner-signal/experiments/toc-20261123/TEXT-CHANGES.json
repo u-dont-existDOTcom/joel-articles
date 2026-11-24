@@ -1,0 +1,69 @@
+[
+ {
+  "id": "T1",
+  "answer": 1,
+  "section": "S001",
+  "kind": "his words, moved",
+  "before": "(its own section) Substack kinda hides the table of contents until you move the mouse toward the left side of the page. It'll be really helpful for this guide as it's a long one.",
+  "after": "The same two sentences, as the last paragraph of “How to Use This Huge Guide”, and its “Appendix K” becomes “Appendix J” (answer 8).",
+  "check": "S001 with them, in its section"
+ },
+ {
+  "id": "T2",
+  "answer": 2,
+  "section": "S090",
+  "kind": "removed",
+  "before": "Note: You can skip this section and just use the main path. This is additional info to help you be more precise and safe, and some additional scripts for other situations.",
+  "after": "(gone, with the heading: “How to Use This Huge Guide” already says there are lots of appendices with extra tools)"
+ },
+ {
+  "id": "T3",
+  "answer": 7,
+  "section": "S143",
+  "kind": "my sentence from his",
+  "before": "“The General Rule” (h3): The General Rule is: if you find that what you're doing is making you more loving, more grounded, more relational, more honest, more functional, then it's probably OK to keep doing it gently. But if it's making you more paranoid, sleepless, grandiose, isolated or scared, or things feel more and more unreal, stop going deeper and get help.",
+  "after": "One sentence at the end of “Could It Be Psychosis?”: The general rule is the one in “Daily Life Is the Feedback” [link]: if what you're doing is making you more paranoid, sleepless, grandiose, isolated or scared, or things feel more and more unreal, stop going deeper and get help.",
+  "check": "S143 with it, in its section"
+ },
+ {
+  "id": "T4",
+  "answer": 8,
+  "section": "S147",
+  "kind": "removed",
+  "before": "For sleep, try using this playlist by Nimja .",
+  "after": "(gone, with the heading: “Sleep Induction” links the same Nimja playlist)"
+ },
+ {
+  "id": "T5",
+  "answer": 11,
+  "section": "S079",
+  "kind": "my sentence, after yours in “You get anxious”",
+  "before": "Sit up and open your eyes, and ask yourself, “What are you avoiding doing in the real world by doing this?”",
+  "after": "Sit up and open your eyes, and ask yourself, “What are you avoiding doing in the real world by doing this?” For more on daydreaming, see Appendix E [link].",
+  "check": "S079 with it"
+ },
+ {
+  "id": "T6",
+  "answer": 10,
+  "section": "S131",
+  "kind": "his words, merged",
+  "before": "“Hypnosis-specific audit” (Appendix C) and “Finding a hypnotist who can work with you” (Appendix F), as they are",
+  "after_block_inserted_before": "You should be able to be firmly encouraged, but not forced to continue if you don't want to.",
+  "inserted": [
+   "Before you let a hypnotic recording or a live hypnotist put manipulative suggestions into your skull, interview them a bit more:",
+   "First, what are they going to do to bring you under? And if you react negatively to something, will they pause to change the script? Make sure they are fine with stopping the whole thing.",
+   "And how are they deciding it's working? Just because you seem \"out of it\" shouldn't be a green light. Are they using sneaky moves to get past your adult judgement, like putting you into identity roles (including age regression)? Walking you down obedience ladders? Your desire for belonging also shouldn't be used for that.",
+   "Keep in mind though, you can only answer those last questions by reading the script first. You can't expect them to know what your adult judgement would accept, so make that clear ahead of time.",
+   "Will they tell you before they use techniques that affect your memory or behaviors after the session? Like fractionation or cues.",
+   "Are they low-key using your body signals to prove their theories? Like oh your hand dropped real fast, so you ARE gay.",
+   "And when it's time to come out, will they tell you clearly that the session is over, so you get your normal waking, walking self back?",
+   "If any answer they give you is wishy washy, beware. Ask for the exact script (or the methods used since they probably aren't exactly reading a script). If they don't want to give the secrets away, walk right out that door."
+  ],
+  "afterwards_starts": "Then afterwards, check how well your critical thinking is working when you look back on how it went, and check in about what was actually done, regardless of what you might call the method.",
+  "changes": [
+   "“interview them a bit:” becomes “interview them a bit more:”, since your three lists now come first",
+   "“After it’s over, check how well your critical thinking is working when you look back on how it went.” joins the start of your “Then afterwards” paragraph"
+  ],
+  "check": "the merged section, in the web app (about 560 words)"
+ }
+]
