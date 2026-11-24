@@ -263,14 +263,20 @@ with his OK and no email.
   check of the fixed version does. The first contradictions check: seven items, three explained, two not real, two to
   him; with two words a reader stumbled on, they are the ninth marking page (https://claude.ai/artifact/U6WQyL8B7ELEdDzHYbBeHk,
   `review/teach-20261124c/REVIEW-T9.md`). The card game, "Love, Honestly" on his innerself site: `r40/CARD-GAME.md`.
+- 2026-11-24 18:14 UTC (his ninth-page answers, `review/teach-20261124c/ANSWERS-T9.json`; "no point checking the drafts
+  until we are done"; the game stays private). His version of "Muses & Directors" (Q-C7), "in recent years" (Q-S5) and
+  "worth doing" kept (Q-S12) are in; Q-C1 said in the Labels paragraph, whose section then read Human High after its short
+  line was run on and its opener started on the case (`humanize/fix-20261107/r41/README.md`). The contradictions check is
+  done. Every section check reads Human High in every window except his one-word "Woops...". First batch of new and
+  corrected cards for the game: `r40/CARD-GAME.md`.
 
 ## Next step
 
-His whole-article check of the drafts pasted again with r40's changes (`whole/DRAFTS.json`, entry "r40"; the links go to
-him in chat): every window must read High, and any window below High is worked on in its section. His answers on the ninth
-page (Q-C1, Q-C7, Q-S5, Q-S12). His choice for the card game (`r40/CARD-GAME.md`). Then his post is updated with his OK
-(no email): 366's link to Esther Perel's post, the reel embedded after 149, his new opening's video and links, the
-typography swap and the "Updated" date; he deletes the two drafts.
+His word on the first batch of cards (`r40/CARD-GAME.md`), then the rest of the cards the same way, then the game's new
+version built and deployed with his OK. When nothing else is pending: the drafts pasted again for his whole-article check
+(not before: "no point checking the drafts until we are done"), then his post updated with his OK (no email): 366's link
+to Esther Perel's post, the reel embedded after 149, his new opening's video and links, the typography swap and the
+"Updated" date; he deletes the two drafts.
 
 ### Before 2026-11-07 (the registered master, as recorded then)
 
