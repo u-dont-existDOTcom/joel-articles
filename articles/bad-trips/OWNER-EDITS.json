@@ -1963,8 +1963,6 @@
     "has avoided the MDMA toxicity symptoms they get otherwise",
     "At the hospital, they figured out what caused that:",
     "That experience is what leads me to treat serious MDMA toxicity as a broader electrolyte emergency, although magnesium is still the first and most useful supplement to give once the jaw tenses",
-    "since potassium gets depleted after magnesium",
-    "I use it mostly because it absorbs far better than magnesium oxide",
     "so you can see how it's helping, usually within a minute",
     "I don't mind a little less euphoria"
    ],
@@ -1972,6 +1970,36 @@
     "meaningful jaw tension",
     "described to me as essentially zero",
     "most useful early intervention"
+   ],
+   "replaced_by_r56": [
+    {
+     "was": "since potassium gets depleted after magnesium",
+     "why": "replaced by his round-56 choice (a), WIFE-LAST: \"since potassium gets depleted once magnesium runs low\"",
+     "when": "2026-11-24 21:26 UTC"
+    },
+    {
+     "was": "I use it mostly because it absorbs far better than magnesium oxide",
+     "why": "replaced by his round-56 answer, CHLORIDE-CLAIM: the source out, the claim as what he knows works best",
+     "when": "2026-11-24 21:26 UTC"
+    }
+   ]
+  },
+  {
+   "id": "r56-answers",
+   "status": "applied",
+   "what": "his round-56 answers: the absorption study's link out of the amounts paragraph (B115), with his claim said as what he knows works best, in the words of his round-55 comment, Human High 118 in one window through the API (f330e220); and his second wife's paragraph (B118) ending \"since potassium gets depleted once magnesium runs low\", his choice (a), Human High 77 in one window (e74a7e6b) (review/r56/apply_r56.py; humanize/h75-20261124/RESULTS.md)",
+   "joel": "2026-11-24 21:26 UTC: his round-56 export (articles/bad-trips/review/r56/ANSWERS-R56-20261124-2126.json). CHLORIDE-CLAIM: \"remove the source then if there's no source, but i definitely can't recommend using anything other than what i know works best\"; WIFE-LAST: \"a\"",
+   "applied_by": "review/r56/apply_r56.py",
+   "must_contain_exact": [
+    "I use it mostly because it's what I know works best: it absorbs faster and better than any other form, so you can see how it's helping, usually within a minute.",
+    "since potassium gets depleted once magnesium runs low"
+   ],
+   "must_not_contain": [
+    "far better than magnesium oxide",
+    "gets depleted after magnesium"
+   ],
+   "must_not_link": [
+    "https://pubmed.ncbi.nlm.nih.gov/11794633"
    ]
   }
  ]

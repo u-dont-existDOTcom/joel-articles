@@ -373,6 +373,23 @@ class ReceiptTests(unittest.TestCase):
 
 
 
+class DoubledPercentTests(unittest.TestCase):
+    """Lesson bad-trips-2026-11-24t: round 56's question showed him "(4%%)", a string never %-formatted."""
+
+    def card(self, question):
+        return {'id': 'CHLORIDE-CLAIM', 'advice': 'ask', 'type': 'ask', 'question': question, 'spans': []}
+
+    def test_a_doubled_percent_in_a_card_or_the_intro_is_refused(self):
+        rv = {'built': R.PERCENT_FROM, 'intro': ['96%% on 2026-11-11'], 'suggestions': [self.card('found magnesium oxide poorly absorbed (4%%)')]}
+        probs = R.percent_problems(rv)
+        self.assertEqual(len(probs), 2)
+        self.assertIn('CHLORIDE-CLAIM: its question', probs[1])
+
+    def test_a_single_percent_and_older_pages_pass(self):
+        self.assertEqual(R.percent_problems({'built': R.PERCENT_FROM, 'suggestions': [self.card('poorly absorbed (4%)')]}), [])
+        self.assertEqual(R.percent_problems({'built': '2026-11-24', 'suggestions': [self.card('(4%%)')]}), [])
+
+
 class UnitSpaceTests(unittest.TestCase):
     """Lesson bad-trips-2026-11-23a: "don't put space between the number and the unit i told you that before"."""
 

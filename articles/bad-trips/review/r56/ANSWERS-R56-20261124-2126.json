@@ -1,0 +1,51 @@
+{
+ "format": "joel-suggestion-review-answers-v1",
+ "review_id": "bad-trips-r56",
+ "title": "Bad Trips Guide, Round 56",
+ "git_file": "articles/bad-trips/review/r56/REVIEW-R56.html",
+ "article": {
+  "file": "articles/bad-trips/review/r56/PAGE-R56.md",
+  "sha256": "fa1a37cc9955f05d607cd3017af96c564494c6c3a25a94640228372f21834f2b"
+ },
+ "built": "2026-11-24",
+ "generator": "suggestion_review.py 1.13 (2026-11-23)",
+ "exported_at": "2026-11-24T21:26:24.331Z",
+ "counts": {
+  "approved": 0,
+  "rejected": 0,
+  "revise": 0,
+  "pending": 2
+ },
+ "items": [
+  {
+   "id": "CHLORIDE-CLAIM",
+   "type": "question",
+   "title": "1. Your amounts paragraph: why magnesium chloride",
+   "where": "MDMA: Magnesium Alarm, P2",
+   "advice": "ask",
+   "status": "answered",
+   "question": "You wrote that magnesium chloride \"absorbs faster and better than any other form\". The study the sentence links ([Firoz and Graber 2001](https://pubmed.ncbi.nlm.nih.gov/11794633/)) found magnesium oxide poorly absorbed (4%%), and chloride, lactate and aspartate absorbed about equally well, and I found no study comparing how fast the forms act. So the guide says: \"I use it mostly because it absorbs far better than magnesium oxide, so you can see how it's helping, usually within a minute\", with the minute as what you see.\na) Keep it as it is.\nb) Say \"any other form\" anyway, as your experience, in your words in the box.\nc) Something else: say it in the box.",
+   "your_version": "",
+   "comment": "remove the source then if there's no source, but i definitely can't recommend using anything other than what i know works best",
+   "my_version": "",
+   "before": "",
+   "history": [],
+   "updated": "2026-11-24T21:25:47.853Z"
+  },
+  {
+   "id": "WIFE-LAST",
+   "type": "question",
+   "title": "2. Your second wife's paragraph: its last phrase",
+   "where": "MDMA: Magnesium Alarm, P4",
+   "advice": "ask",
+   "status": "answered",
+   "question": "Your version is in as you wrote it. Two things about its last phrase, \"since potassium gets depleted after magnesium\":\nA fresh reader took \"after magnesium\" as the magnesium causing the potassium loss, which could scare someone off the very thing you tell them to give. What you meant holds: low magnesium makes the kidneys lose potassium ([Huang and Kuo 2007](https://pubmed.ncbi.nlm.nih.gov/17804670/)).\nAnd in the API your paragraph reads [High in one window](https://www.pangram.com/history/9a72854c-b5a3-4515-a622-b4a2ae99b9b6) only with the double space you pasted after \"At the hospital,\"; with one space, the way a published page shows it, its last sentence reads [Medium](https://www.pangram.com/history/590654bf-e074-4d55-aa0f-3d3ea076bd37). With \"since potassium gets depleted once magnesium runs low\", it reads [Human High in one window](https://www.pangram.com/history/e74a7e6b-7047-4e54-af54-64070d2b5879) with one space.\na) \"since potassium gets depleted once magnesium runs low\".\nb) Keep yours.\nc) Your own words in the box.",
+   "your_version": "",
+   "comment": "a",
+   "my_version": "",
+   "before": "",
+   "history": [],
+   "updated": "2026-11-24T21:26:21.672Z"
+  }
+ ]
+}

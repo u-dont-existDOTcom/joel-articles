@@ -78,5 +78,17 @@ class OpenWork(unittest.TestCase):
         P.boundary_gate(a)   # no ledger for the article: nothing to say
 
 
+class TrailerNote(unittest.TestCase):
+    """Lesson bad-trips-2026-11-24v: four turns' commits went out without their trailer lines; the variable was set in an
+    earlier command."""
+
+    def test_a_claude_session_without_trailers_is_told(self):
+        self.assertIn('NO TRAILERS', P.trailer_note({'CLAUDE_CODE_SESSION_ID': 'abc'}))
+
+    def test_trailers_set_or_another_runner_say_nothing(self):
+        self.assertEqual(P.trailer_note({'CLAUDE_CODE_SESSION_ID': 'abc', 'LANE_COMMIT_TRAILERS': 'Co-Authored-By: x'}), '')
+        self.assertEqual(P.trailer_note({}), '')
+
+
 if __name__ == '__main__':
     unittest.main()

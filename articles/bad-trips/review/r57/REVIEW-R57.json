@@ -1,0 +1,102 @@
+{
+ "format": "joel-suggestion-review-v1",
+ "review_id": "bad-trips-r57",
+ "title": "Bad Trips Guide, Round 57",
+ "intro": [
+  "Round 57 (2026-11-24). Both of your answers are in. The absorption study's link is out, and the sentence says your claim as what you know: \"I use it mostly because it's what I know works best: it absorbs faster and better than any other form, so you can see how it's helping, usually within a minute.\" The paragraph reads [Human High in one window](https://www.pangram.com/history/f330e220-03a5-4821-9919-6427d4660e2a). Your second wife's paragraph ends \"since potassium gets depleted once magnesium runs low\" and reads [Human High in one window](https://www.pangram.com/history/e74a7e6b-7047-4e54-af54-64070d2b5879). Each point has its fate in [the record](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/bad-trips/review/r56/RESULTS-R56.md).",
+  "Round 56's first question showed you a doubled percent sign after the 4. That was a slip in how I built the card, and the page tool now refuses one.",
+  "One paragraph of the MDMA section still reads AI, the kidney one, and it is the card below. Every other paragraph of the section reads Human High by itself ([every check](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/bad-trips/humanize/h75-20261124/RESULTS.md)). After it the work goes down [the list of what is left](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/bad-trips/humanize/h75-20261124/LEFT.md)."
+ ],
+ "git_file": "articles/bad-trips/review/r57/REVIEW-R57.html",
+ "article": {
+  "file": "articles/bad-trips/review/r57/PAGE-R57.md",
+  "sha256": "bbc597eab8d2036fc90b8ab35d1f87f9ec94e71a00e69d13b1541d96bd609f84"
+ },
+ "built": "2026-11-24",
+ "whole": {
+  "file": "articles/bad-trips/review/r57/PAGE-R57.md",
+  "sha256": "bbc597eab8d2036fc90b8ab35d1f87f9ec94e71a00e69d13b1541d96bd609f84"
+ },
+ "links": {
+  "guide": "https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/bad-trips/GUIDE-SO-FAR.md",
+  "guide_label": "the guide as it stands",
+  "check": "https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/bad-trips/review/r57/REVIEW-R57.md",
+  "review": "https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/bad-trips/review/r57/REVIEW-R57.md"
+ },
+ "types": {
+  "plain": {
+   "label": "Said plainly",
+   "about": "AI lines said plainly, each with its reason, the way he fixes his own windows"
+  },
+  "structure": {
+   "label": "Structure",
+   "about": "how the quick version and the long version split the guide, and where a part goes"
+  },
+  "repeat": {
+   "label": "Said twice",
+   "about": "a point the guide already makes elsewhere: one copy goes, the other stays"
+  },
+  "safety": {
+   "label": "Safety in one place",
+   "about": "a caution or call-for-help line said in several places, or one that changes nothing a reader does"
+  },
+  "question": {
+   "label": "Your call",
+   "about": "something only you can decide or know"
+  },
+  "sense": {
+   "label": "Says what it means",
+   "about": "a term explained where it is first used, or a word that says what to do"
+  },
+  "belief": {
+   "label": "Your belief back",
+   "about": "a sentence of your post that said why, cut in an earlier round, put back where it bears on what the reader does"
+  },
+  "method": {
+   "label": "Your method where it is used",
+   "about": "a line the guide already has, put where the reader uses it in trouble (your METHOD-WHERE answer, round 28)"
+  },
+  "notes": {
+   "label": "Your notes, placed",
+   "about": "what you sent in a comment, put where it belongs in the guide, as you sent it"
+  },
+  "typo": {
+   "label": "Typo",
+   "about": "a word in your own paragraph spelled differently from how you spell it elsewhere, with the fix in place"
+  },
+  "boilerplate": {
+   "label": "Boilerplate",
+   "about": "standard advice a model added that carries none of your method and no safety point a reader needs, shown as the section would read without it (your round-32 note)"
+  },
+  "quiz": {
+   "label": "Quiz",
+   "about": "my reading of my own sentences, written before any Pangram check, for you to score (your suggestion of 2026-11-21)"
+  },
+  "teach": {
+   "label": "Teach me",
+   "about": "a paragraph that reads AI in every wording I tried, whose shape many stuck paragraphs share: how you would say it teaches me how to say them (you asked for these on 2026-11-07)"
+  }
+ },
+ "suggestions": [
+  {
+   "id": "TEACH-KIDNEY",
+   "type": "teach",
+   "advice": "edit",
+   "whose": "he asked: Joel, 2026-11-08 17:22 UTC: \"give me your best tries and what would teach you the best and i'll do that\"; 2026-11-14 22:08 UTC: \"didn't understand why you gave me no cards and quit working tho\"",
+   "keep_label": "skip this one",
+   "title": "1. MDMA: Magnesium Alarm, the kidney paragraph: the last one in the section that reads AI",
+   "reading": "By itself, the paragraph as your post has it reads [AI Generated, High, in one window](https://www.pangram.com/history/df3704bf-5de7-4067-aa11-f5b231f3e310).",
+   "tested": "Five tries of mine by three methods, each keeping your five points in your order.\n\nTries 1 and 2 (turn 65), the warnings reworded: [Mixed](https://www.pangram.com/history/258a5b17-a2da-49d3-8da5-86655418be03), with your first two sentences Human Low and the rest AI, then [AI Generated](https://www.pangram.com/history/230891b4-4860-4f70-aa2b-f80f19baecb2) after one clause changed.\n\nTry 3 (turn 66), from your text with the ways of your round-55 fixes: [AI Generated](https://www.pangram.com/history/e2566e53-84ec-45c7-880d-87b8cbdcecda).\n\nTry 4 (this turn), a small fix for each of the four sentences two fresh readers agreed on: \"... But they should be far more worried about the MDMA, since MDMA can cause acute kidney injury and rhabdomyolysis, on top of the overheating and dangerous electrolyte shifts. That makes kidney impairment a strong reason not to take MDMA, although once they've taken it, they still shouldn't sit there with worsening jaw tension. I just wouldn't tell somebody with serious kidney impairment to copy my one-gram-per-minute approach blindly, since that's a higher-risk situation where they should get help sooner.\" [AI Generated](https://www.pangram.com/history/7afc3e5b-d752-4d67-bf4c-41045d98fb45).\n\nTry 5, another writer's rewrite from those readers' notes, in short plain statements: \"... Kidney impairment is a strong reason to skip MDMA altogether. Once someone has taken it and their jaw tension is getting worse, the kidneys are no reason to sit there with it. Someone with serious kidney impairment should not copy my one-gram-per-minute approach blindly. Treat the situation as higher-risk and get help sooner.\" [AI Generated](https://www.pangram.com/history/f880b3a3-fb7c-4da4-828b-80b9f6bba5cf).",
+   "sense": "Two fresh readers ([their notes](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/bad-trips/humanize/h75-20261124/panel-b120/PANEL.md)) flagged four of its five sentences and said the same thing about the whole: a caution, a pivot, a list of risks, a contrast and a closing disclaimer, each given the same weight. Readers of the section also asked \"get help sooner\" than what, and one read \"not a reason to sit there with worsening jaw tension\" as \"kidney problems are no reason to hold back magnesium\", which your next sentence then takes back.",
+   "why": "Rewording each sentence didn't move the reading, so what reads AI is the order of the points and their even weight. Changing that means choosing which point leads, and saying what you'd have someone with bad kidneys do differently. I can't write that for you: it is a medical caution, and anything I added would be my advice under your name. How you'd say a caution also teaches me the guide's other cautions.",
+   "advice_note": "Edit it: what you'd tell someone with impaired kidneys whose jaw is tensing on MDMA, in your words and your order. If you can say what \"get help sooner\" means for them, or what you'd change about the one gram per minute, that answers both readers.",
+   "spans": [
+    {
+     "block": 100,
+     "start": 0,
+     "end": 596
+    }
+   ]
+  }
+ ]
+}
