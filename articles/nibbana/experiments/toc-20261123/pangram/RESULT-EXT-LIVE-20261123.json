@@ -1,0 +1,49 @@
+{
+ "feed_uuid": "da110b46-92ee-4096-b923-36759b09bde3",
+ "link": "https://www.pangram.com/feed/da110b46-92ee-4096-b923-36759b09bde3",
+ "created_at": "2026-11-23T18:50:49.609145-05:00",
+ "domain": "substack",
+ "content_type": "long_post",
+ "prediction_short": "Human",
+ "headline": "Human Written",
+ "version": "4.1",
+ "confidence_policy_id": "pangram-4.1-calibrated-accuracy-v2",
+ "fraction_ai": 2.7802318669500892e-08,
+ "fraction_human": 1,
+ "num_ai_segments": 0,
+ "num_human_segments": 101,
+ "word_count": 15624,
+ "task_id": "cfcfb57d-4265-413a-8e1c-0187985c2704",
+ "text_sha256": "0d6fbde07ab72f27822b795b1a34d61f028973bc1da449912e07174dc2a29113",
+ "text_chars_js": 89887,
+ "windows": 103,
+ "windows_by_confidence": {
+  "H H": 52,
+  "H L": 8,
+  "H M": 43
+ },
+ "windows_file": "WINDOWS-EXT-LIVE-20261123.txt (label,confidence,start,end,words,ai_likelihood,calibrated_confidence; label H or A, confidence H, M or L; one window per ';')",
+ "headings_in_text": "none of the post's headings is a line of the checked text (it starts 'Hello Lovey Bunny!!' and ends with the flashbacks section's last sentence)",
+ "changed_by_this_lane": {
+  "blessing line (S008)": "Human High (1705 words)",
+  "fingers line (S018)": "Human High (260 words)",
+  "'both Bāhiya and I' (S015)": "Human High (1398 words)",
+  "flashbacks section's first sentences (S060)": "Human High (55 words)"
+ },
+ "three_windows_of_lesson_e": {
+  "Stream entry’s greatest prize... (under Who Gets Reborn?)": "Human High (499 words)",
+  "A false attainment claim brings Pārājika 4... (Why Monks Stay Vague)": "Human High (1705 words)",
+  "I believe the Dhammapada is right... (Is Nibbāna Unimaginable?)": "Human High (424 words)"
+ },
+ "low_windows": [
+  "...They mistook those states for enlightenment; the Buddha saw that they weren’t liberating by thems... (29 words)",
+  "...ow on its way out. I’ll define those terms mor... (8)",
+  "...ive Forever” campaign. This question of rebirth became personal (10)",
+  "... than strict etymology. The suttas already speak in ta... (9)",
+  "...hing was being unwoven. And since the suttas keep talking in tangles, knots, and nets, I don’t think that weav... (21)",
+  "...strange as that sounds. That (4)",
+  "...he objects in that world. Near-death experiences made “go into the light” a familia... (13)",
+  "...nderstanding of causality. AN 3.87 ties the stage to ending identity view, uncertainty about the path, and gra... (52)"
+ ],
+ "read": "tools/humanization/pangram_feed_read.js (main at a83208186c9d) in the desktop app's browser pane, 2026-11-24 after his message of 01:04 UTC; the checked text itself is not saved here, only its SHA-256"
+}

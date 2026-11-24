@@ -81,7 +81,7 @@ md = ['# His contents picks, in the post (2026-11-23)', '',
       '[recheck5](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/nibbana/humanize/fix-20261023/recheck5/RESULT.json)). '
       'So there the renames change no window (lesson toc-2026-11-23e); one run of his extension on the live post shows it, '
       'free. These six whole-post checks also went through the web app, about 930 of his credits, where his rule sends a '
-      'whole post the free way (lesson toc-2026-11-23d).']
+      'whole post the free way (lesson toc-2026-11-23d).', '', '**His extension on the live post** (2026-11-23 23:50 UTC, [the result](https://www.pangram.com/feed/da110b46-92ee-4096-b923-36759b09bde3), recorded as NB-toc-ext-live#48 in [RESULT-EXT-LIVE-20261123.json](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/nibbana/experiments/toc-20261123/pangram/RESULT-EXT-LIVE-20261123.json)): Human Written, 100% Human, all 15,624 words, 103 windows: 52 Human High, 43 Medium, 8 Low, no AI window. No heading is a line of its text. The three windows above read Human High there (499, 1,705 and 424 words), and so does every sentence this lane changed (the blessing and fingers lines, "both Bāhiya and I", the flashbacks section\'s first sentences). The 8 Low windows are 4 to 52 words each, all in text the contents work didn\'t touch.']
 md += ['', '## Headings', '', '| Section | His heading before | Now | Whose |', '|---|---|---|---|'] + rows
 md += ['', '## Structure and lines (his answers)', '',
        '- "Realization Isn\'t Enough" (###) is gone: its text sits under %s, with %s still under it as ###.' % (sec('S022'), sec('S024')),

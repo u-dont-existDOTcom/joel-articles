@@ -60,9 +60,9 @@ Joel picked the Nirvāna guide first (2026-11-23 14:37 UTC: "ok start with the n
 1. **Nirvāna: done on 2026-11-23** (his picks at 18:01 UTC, the flashbacks section back at the end at 19:39, his two
    second-pick headings at 19:46): [APPLIED.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/nibbana/experiments/toc-20261123/APPLIED.md);
    the test and every heading's reason: [RESULTS.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/nibbana/experiments/toc-20261123/RESULTS.md).
-   Left with him: one free run of his extension on the live post, to see how the body reads in his route (the three
-   body windows that read lower in my web-app checks did so only because those texts kept the headings, which the
-   extension leaves out: lesson toc-2026-11-23e).
+   His extension on the live post (2026-11-23 23:50 UTC, NB-toc-ext-live#48): Human Written, 100% Human, 52 High, 43
+   Medium, 8 Low windows, no heading in its text; the three windows that read lower in my web-app checks read High
+   there (lesson toc-2026-11-23e), as does every sentence this lane changed.
 2. Then the Self-Hypnosis guide (the most headings and the most cut off, 90 of 164, and 43 h1s, two of them notes rather
    than sections: "How to use this very large guide", "The table of contents is hiding on the left"), Escuelitas, Romance.
    Build its picks page with `tools/humanization/contents_picks_page.py`, run the section-link check with the contents
@@ -72,8 +72,7 @@ Joel picked the Nirvāna guide first (2026-11-23 14:37 UTC: "ok start with the n
    contents work starts from the live post, as Nirvāna's did). Step 2 done the same day, on the live post (165 sections,
    164 in the sidebar, 90 cut off, 29,554 words): [RESULTS.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/inner-signal/experiments/toc-20261123/RESULTS.md).
 
-Next step: his extension's result page for the live Nirvāna post, when he sends it (record it with
-`tools/humanization/pangram_feed_read.js` against NB-toc-ext-live#48). For the Self-Hypnosis guide, step 3 is done
+Next step: for the Self-Hypnosis guide, step 3 is done
 (Fable's names, `articles/inner-signal/experiments/toc-20261123/PROPOSAL-FABLE.json`: 152 of 164 renamed, many only to
 title case, none cut off where 90 are now, levels and order kept; its notes on what renaming can't fix are
 `PROPOSAL-FABLE-NOTES.md`, for him). Step 4 next: `toc_check.py PROPOSAL-FABLE.json --reads reads --name NOW-SIDEBAR`
