@@ -606,6 +606,57 @@
     }
    ],
    "recorded_utc": "2026-11-24T19:59Z"
+  },
+  {
+   "turn": "2026-11-24T21:31Z",
+   "lines_of_work": [
+    "romance"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "suggested-fixes/joel-articles on 3d79cc8: six items, all in docs/suggested-fixes-ledger.md; nothing new. suggested-fixes/love-honestly (the game's repository): one item, 2026-10-31-mailbox-every-turn, an owner request not yet in that repository's ledger"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "joel-articles since 20:05 UTC: other lanes' merges only, no new issues, comments or reviews; love-honestly: its one pull request (#1) merged, no open issues or comments"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "the laptop handoff note is as I left it at 20:05 UTC"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "his message of 21:31 UTC: the second batch looks all good; he assumes each card is only used when relevant to a couple's stage (already part of the game); asks for other ideas to make the game better; thinks it should have a slider for how deep people want to go, since some questions can be difficult"
+    }
+   ],
+   "items": [
+    {
+     "item": "second batch of cards",
+     "outcome": "approved: all 17 new cards and the three corrections go into the game's next version, each with its routes and depth"
+    },
+    {
+     "item": "cards only when relevant",
+     "outcome": "confirmed and done: each new card gets the routes (stages) it belongs to"
+    },
+    {
+     "item": "depth slider",
+     "outcome": "the game already has it (How deep?: Warm, Deep, Unfiltered); checked what each level offers and reported"
+    },
+    {
+     "item": "ideas to make the game better",
+     "outcome": "given in the report, from a read of the game's code"
+    },
+    {
+     "item": "love-honestly lane item 2026-10-31-mailbox-every-turn",
+     "outcome": "adopted in the version branch: the AGENTS.md section replaced with the exact text, recorded in its ledger"
+    }
+   ],
+   "recorded_utc": "2026-11-24T21:37Z"
   }
  ]
 }

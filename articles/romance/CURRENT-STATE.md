@@ -273,15 +273,24 @@ with his OK and no email.
   polarity-01 is kept with a "why" that no longer says the guide says it. The second batch (twelve cards for what the deck
   doesn't cover yet, his clarifications of this week included) is in `humanize/fix-20261107/r40/CARD-GAME.md` for his
   approval.
+- 2026-11-24 21:31 UTC ("looks all good, i assume you are making sure they are only used when relevant right ... and if you
+  have any other ideas to make game better lmk ... it should prob have a slider control for like how deep people want to
+  go"): the second batch is approved. The game's next version, "Love, Honestly" v0.6.0, is built as a candidate in his
+  love-honestly repository (a draft pull request, merged only when he approves the version) and went to him as a file to
+  try: 17 new cards, each dealt only on its routes and at or above its depth, and 19 existing cards corrected in their
+  "why" or section line after a fresh reader read all 95 against the article as it is now. Nothing on his site changed.
+  The game already has the depth choice he thought of ("How deep?": Warm, Deep, Unfiltered); what it lacks is Warm cards
+  (9 of 104). Six ideas went to him. `articles/BUILT-ON.json` now says the game is built on this article. The record:
+  `humanize/fix-20261107/r42/README.md` and `r40/CARD-GAME.md`. Nothing in the article changed this round.
 
 ## Next step
 
-His word on the second batch of cards (`r40/CARD-GAME.md`); then the game's next version built as a new file (its own
-version number and checksum, the love-honestly repository's rule), checked, and deployed to the innerself site with his
-OK. When nothing else is pending: the drafts pasted again for his whole-article check (not before: "no point checking the
-drafts until we are done"), then his post updated with his OK (no email): 366's link to Esther Perel's post, the reel
-embedded after 149, his new opening's video and links, the typography swap and the "Updated" date; he deletes the two
-drafts.
+His word on the game's v0.6.0 (`r40/CARD-GAME.md`, "Still to do"): then its pull request is merged, the innerself site
+vendors the new file, and the site is deployed with his go-ahead. His pick among the six ideas, if any. From now on, a
+turn that changes the article checks the cards that name the changed section (`articles/BUILT-ON.json`). When nothing else
+is pending: the drafts pasted again for his whole-article check (not before: "no point checking the drafts until we are
+done"), then his post updated with his OK (no email): 366's link to Esther Perel's post, the reel embedded after 149, his
+new opening's video and links, the typography swap and the "Updated" date; he deletes the two drafts.
 
 ### Before 2026-11-07 (the registered master, as recorded then)
 
