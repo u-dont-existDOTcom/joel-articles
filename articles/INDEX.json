@@ -74638,7 +74638,7 @@
         },
         {
           "path": "articles/inner-signal/experiments/toc-20261123/PAGE-OPTIONS.json",
-          "sha256": "7e9d06e6cb000d386d8157d2125ec1723efb57d27385ffa02391c45258c02123",
+          "sha256": "c2c75465ad61c793d311ce1525c9f4f9168a9f1d70cdcdcae37fb1a70cc97594",
           "role": "humanization_working_record"
         },
         {
@@ -74658,7 +74658,7 @@
         },
         {
           "path": "articles/inner-signal/experiments/toc-20261123/PICKS-PAGE.html",
-          "sha256": "b3d4fcaaa45ab3923ddda5ec113fd5fa516ab3fddc6b7f89890e794cf470f3ff",
+          "sha256": "d2a65698e018a5bc8ec65623d3adc379916b6f9d99797aa710800190e4fc5080",
           "role": "humanization_working_record"
         },
         {
@@ -74688,7 +74688,7 @@
         },
         {
           "path": "articles/inner-signal/experiments/toc-20261123/TEXT-CHANGES.json",
-          "sha256": "80bbe4068727a3e41e6f6ee28fa15d75d94de026d33a5fa25a74504103346925",
+          "sha256": "dc586a50266b31472542a7bddc4ba71b895a59744acaa953e29ac37801ddb42b",
           "role": "humanization_working_record"
         },
         {
@@ -74713,12 +74713,12 @@
         },
         {
           "path": "articles/inner-signal/experiments/toc-20261123/make_page_options.py",
-          "sha256": "b5a90b4f80b76149dc37fef33cca81031afd2da462637976875855c2c09b7ff8",
+          "sha256": "1e1228304f322bba69eb5fbc172627a0628af538bce245d326220b0b49ec6ba2",
           "role": "humanization_working_record"
         },
         {
           "path": "articles/inner-signal/experiments/toc-20261123/make_pick.py",
-          "sha256": "0fc739c6c57965413a79cad2d561ba29d9d2a645f7355124e614d3d32fc77795",
+          "sha256": "65ece8f2c51afa3ca3e0c60119cd9428eaeea84cd348ec542373bdae3c484513",
           "role": "humanization_working_record"
         },
         {
@@ -74779,6 +74779,36 @@
         {
           "path": "articles/inner-signal/experiments/toc-20261123/answers/JOEL-20261124-1418.md",
           "sha256": "eb8f076f6543eec38ddb605ec4dce049b923b7ce3f981238abe204a73a84285d",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/experiments/toc-20261123/LINES-PICK3.json",
+          "sha256": "1b4f352ac707e7d62a0962e89d209f982eacb455abf1d4740531a1aa6eab2fb9",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/experiments/toc-20261123/PICK3-FOR-PAGE.json",
+          "sha256": "7b5241de56fa3d4dd66db0efdca7ce12b1ef699d77e2d8b3151ad92f09b18c06",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/experiments/toc-20261123/PICK3-PAGE-OPTION.json",
+          "sha256": "9792e04c0660e67d1595bd13f9669094bd82dc3928551f22344e323c3c591972",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/experiments/toc-20261123/PROPOSAL-PICK3.json",
+          "sha256": "514371a519ed69ba713aff83b82b9e0b4049c05b93261b0a14bd7a05bd184b90",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/experiments/toc-20261123/TOC-PICK3-SIDEBAR.md",
+          "sha256": "fdaa046cf84dfaf6669de9327af343a8f017a29921e3ebb8129c166a8f5158c1",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/experiments/toc-20261123/answers/JOEL-20261124-2105.md",
+          "sha256": "84d312fd592f96dc33f5bcdd0fcbed714567bceea148126ffdca113b717b7ec9",
           "role": "humanization_working_record"
         }
       ]

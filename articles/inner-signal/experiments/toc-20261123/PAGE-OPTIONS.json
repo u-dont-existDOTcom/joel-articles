@@ -6,7 +6,7 @@
  "options": {
   "pick": {
    "label": "Proposed",
-   "file": "PICK2-PAGE-OPTION.json"
+   "file": "PICK3-PAGE-OPTION.json"
   },
   "fable": {
    "label": "Fable's first version",
@@ -297,7 +297,7 @@
   "S119": "Your answer 12; your words without &quot;extended&quot;.",
   "S120": "<b>Goes</b> (answer 10: merged into &quot;Find a Hypnotist Who Fits&quot; in Appendix F).",
   "S121": "Your answer 12; your words.",
-  "S122": "his was cut off; the text&#x27;s own first words",
+  "S122": "Names both practices, now that the section adds Systema&#x27;s continuous breathing (your message of 2026-11-24 21:05 UTC); its neighbours are method names too (EFT Tapping, Somatic Experiencing, Gendlin Focusing). &quot;Buteyko &amp; Systema Breathing&quot; is cut off.",
   "S123": "title case only",
   "S126": "“Body Supports” doesn&#x27;t say what it holds<br>Readers: its parent says body first, and this says how",
   "S127": "title case only<br>Readers: his &#x27;Inner Child Love&#x27;, in the anxiety appendix where he put it",
@@ -366,6 +366,10 @@
   {
    "id": "Your answers 2 and 8: what goes",
    "text": "With the “Appendices” heading goes its note (“Note: You can skip this section and just use the main path. This is additional info to help you be more precise and safe, and some additional scripts for other situations.”), since your first section already says there are lots of appendices with extra tools. With “Appendix I: Sleep hypnosis” goes its line (“For sleep, try using this playlist by Nimja .”): “Sleep Induction” links the same Nimja playlist. J and K become I and J, and “All sources used are in Appendix K” becomes “Appendix J”."
+  },
+  {
+   "id": "Your S122 note: Systema",
+   "text": "The guide didn't mention Systema anywhere yet. After your Buteyko lines, this, with its two links (the video you named as the best, and the Systema section of your somatic post):<blockquote>Try Systema&#x27;s continuous breathing too: besides relaxing you, it can take you deeper into trance and flow states. This is the best video on it I&#x27;ve seen so far, and my somatic guide explains it more.</blockquote>The proposal for its heading is now “Buteyko & Systema”, so the sidebar names both. Keep it like this, or tell me what to change."
   },
   {
    "id": "What the readers of the proposal still found",

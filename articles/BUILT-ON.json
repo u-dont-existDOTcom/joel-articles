@@ -1,0 +1,54 @@
+{
+  "about": "Posts built on other posts. When a source post changes, the posts built on it are brought in line with it: the lane that changes the source carries the change over, or puts it to Joel, in the same turn. A lane working on a built-on post first checks what changed in its sources since it was last brought in line, so the post is edited once. Each change goes through the humanization rules of the post it lands in: a changed paragraph is checked by itself and goes in only at Human High (tools/humanization/apply_gate.py); his own words go to him; the post on Substack is updated only with his yes (gate E323). A paragraph that reads Human High now and would only gain a fact may be better left with a link to the source than rewritten. docs/FIXING-AN-ARTICLE.md (section 1, item 6) gives the steps; tools/humanization/lane_push.py prints the entries for the article it pushes; ARTICLE-META-MAP.md draws them. This is the BUILT-ON list of the Substack-system lane's design (docs/proposals/2026-11-20-substack-system-HANDOFF.md): extend this file, don't start another.",
+  "his_words": [
+    {
+      "when": "2026-11-20 23:40 UTC",
+      "where": "docs/proposals/2026-11-20-substack-system-HANDOFF.md",
+      "words": "my hypnosis guide and my hearthwork guide are heavily based on my inner child guide. when i update my inner child guide, those should also be updated (but carefully so as not to break pangram score if they are humanized already)"
+    },
+    {
+      "when": "2026-11-24 21:05 UTC",
+      "where": "the contents lane (work/toc-long-articles-20261122/README.md)",
+      "words": "this article is highly tied into my inner child article and somatic articles, so whenever i change those you should also think to merge the changes into this one (and i shouldn't have to tell you this either, right?)"
+    }
+  ],
+  "edges": [
+    {
+      "source": "inner-child-therapy",
+      "built_on_it": "inner-signal",
+      "names": "the inner child guide (innerchild.u-dont-exist.com) -> the Self-Hypnosis guide (hypnosis.u-dont-exist.com, post 202810155)",
+      "his_words": ["2026-11-20 23:40 UTC", "2026-11-24 21:05 UTC"],
+      "sections": {
+        "ids": "S017-S034, S070-S072, S113, S127, S130, S133-S136, S158, S162",
+        "how_found": "a first list from the live post's headings and links (articles/inner-signal/experiments/toc-20261123/SECTIONS.json, live post of 2026-11-23) and the sections the September sync changed (articles/inner-signal/sync-r03/PATCHES-R03.json); the catch-up confirms it"
+      },
+      "last_brought_in_line": {
+        "what": "r03, 2026-09-11: 24 edits synced against the inner child guide as it was on 2026-09-11 (articles/inner-signal/source/inner-child-owner-20260911.md)",
+        "in_the_live_post": "checked 2026-11-24 against the live post of 2026-11-23: none of r03's wording is in it (one of its edits only changed dashes); 4 short passages still read as they did before r03, and the other 19 have been reworded since, so whether their content came over needs a read"
+      },
+      "next": "the catch-up: compare these sections of the live post with the inner child guide as it is now, and bring the changes in before the post's next edit (the contents lane's one editor transaction)"
+    },
+    {
+      "source": "inner-child-therapy",
+      "built_on_it": "hearthwork",
+      "registered": false,
+      "names": "the inner child guide -> the Hearthwork guide (not registered in this repository yet)",
+      "his_words": ["2026-11-20 23:40 UTC"],
+      "last_brought_in_line": null,
+      "next": "when the Hearthwork guide is registered, list its sections built on the inner child guide and when they were last brought in line"
+    },
+    {
+      "source": "somatic-therapies",
+      "built_on_it": "inner-signal",
+      "names": "the somatic guide (somatic.u-dont-exist.com, post 201523223) -> the Self-Hypnosis guide",
+      "his_words": ["2026-11-24 21:05 UTC"],
+      "sections": {
+        "ids": "S121-S126, S149-S151",
+        "how_found": "a first list from the live post's headings and links (Appendix D's body-first methods, which name the somatic guide's practices, and the breath and body inductions); the catch-up confirms it"
+      },
+      "last_brought_in_line": null,
+      "note": "the repository's copy of the somatic guide (articles/somatic-therapies/master.html) is older than the live post: the live post has a Systema section that the copy has no heading for",
+      "next": "the catch-up, with the inner child one: the live somatic post first, then these sections"
+    }
+  ]
+}

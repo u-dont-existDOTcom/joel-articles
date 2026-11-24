@@ -68,7 +68,10 @@ The proposal's B, plus:
   section-links file if it has one), PASSAGES (each passage two posts share, its home, where else it is used, what it
   depends on), and two new ones from his answers: **BUILT-ON** (which sections of which post are built on which sections
   of another: hypnosis and Hearthwork on inner child first) and **TOPICS** (each topic his posts cover, and the post and
-  section that covers it).
+  section that covers it). BUILT-ON has started, as [articles/BUILT-ON.json](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/BUILT-ON.json)
+  (the contents lane, 2026-11-24, lesson toc-2026-11-24b, after he added the somatic guide as a source of the hypnosis
+  guide and asked why he had to say it again): extend that file rather than starting another, and `lane_push.py` already
+  prints its entries for the article it pushes.
 - **The check**, in every article pass (code finds the candidates, a fresh model judges each in its sentence): a mention
   with no link or the wrong one; another post named without its link; a shared passage that has drifted from its home; a
   section whose source changed since it was last brought in line (BUILT-ON); and a new point on a topic another post

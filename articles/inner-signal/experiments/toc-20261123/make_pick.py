@@ -25,6 +25,7 @@ MINE = {
     'S032': ("Don't Rush the Repair", 'Your words, which fit; Fable made them positive, and readers asked "repair of what?" of both.'),
     'S034': ('Write With Your Other Hand', 'Says it is writing; a reader of the first pick: "Other-Hand Dialogue only makes sense once you know it is writing".'),
     'S037': ('Wake Up Inside the Influence', 'Your words, which fit once "De-hypnosis:" goes; a reader of the first pick read "De-Hypnosis: Wake Up" as leaving a trance.'),
+    'S122': ('Buteyko & Systema', 'Names both practices, now that the section adds Systema\'s continuous breathing (your message of 2026-11-24 21:05 UTC); its neighbours are method names too (EFT Tapping, Somatic Experiencing, Gendlin Focusing). "Buteyko & Systema Breathing" is cut off.'),
     'S118': ('The Whole NLP Sequence', 'Your words ("Running the whole NLP sequence"); "The Whole Sequence" left readers asking "of what?".'),
     'S023': ('Inner Child Practices', 'With the three jobs and the guards moved out (your answer 4), what stays under it is the '
              'practices: the two-hand practice, reparenting in hypnosis, the slow repair, play and rest, the other-hand '

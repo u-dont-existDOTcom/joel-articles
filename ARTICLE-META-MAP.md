@@ -23,7 +23,11 @@ flowchart LR
     neuro["Neuro De-Armoring — working source master, humanization started"]
     badtrips["Bad Trips — working source master, dedup and humanization started"]
     gut["Healing the Gut — working source master, structure and humanization requested"]
+    innerchild -->|"built on: its changes carry over"| hypnosis
+    somatic -->|"built on: its changes carry over"| hypnosis
 ```
+
+An arrow means the post it points to is built on the other (`articles/BUILT-ON.json` holds the sections and when each was last brought in line): a change to the source goes into the post built on it, through that post's own humanization rules, or to Joel, in the same turn (`docs/FIXING-AN-ARTICLE.md`, section 1, item 6). His Hearthwork guide is built on the Inner Child guide too; it isn't registered here yet, so it has no box.
 
 Romance and Somatic Therapies are registered working articles. No direct cross-article edge between them is currently established. Add relationship edges only when a real and useful editorial relationship is confirmed; do not infer one from generic topic overlap.
 
@@ -31,7 +35,7 @@ Inner Child Therapy is registered as a working source authority. Its current raw
 
 Inner Signal is registered from the explicitly identified owner editor source and authorized sleep-only derivative. Its app-reference research remains distinct from article authority and actual app implementation.
 
-Inner Signal r03 synchronized its companion-method content against Joel's 2026-09-11 inner-child companion snapshot (`articles/inner-signal/source/inner-child-owner-20260911.md`), which predates the 2026-09-20 registered Inner Child Therapy master. That is a recorded source dependency, not an owner-confirmed editorial edge, so no Mermaid edge is drawn yet. Whether later Inner Child source edits require an Inner Signal re-synchronization is an open owner question.
+Inner Signal r03 synchronized its companion-method content against Joel's 2026-09-11 inner-child companion snapshot (`articles/inner-signal/source/inner-child-owner-20260911.md`), which predates the 2026-09-20 registered Inner Child Therapy master. Joel settled the dependency on 2026-11-20 23:40 UTC ("my hypnosis guide and my hearthwork guide are heavily based on my inner child guide. when i update my inner child guide, those should also be updated (but carefully so as not to break pangram score if they are humanized already)") and added the Somatic Therapies guide on 2026-11-24 21:05 UTC ("this article is highly tied into my inner child article and somatic articles, so whenever i change those you should also think to merge the changes into this one"), so both edges are drawn. r03 never reached the live post: checked on 2026-11-24, none of its wording is in the post of 2026-11-23, so the next edit of the Self-Hypnosis guide starts with a catch-up against both sources as they are now.
 
 Nibbāna is registered from Joel's exact 2026-09-28 current Substack editor body at `articles/nibbana/master.html`. Its pre-registration AI/hybrid and humanization lineage remains under `archive/nibbana-pre-registration-2026-08/` as historical provenance only. The current master has mixed authorship provenance by Joel's direct statement; Pangram-passing status is detector evidence, not an authorship classification. No cross-article Mermaid edge is drawn merely because the article links to Inner Child, Community, or other Joel work.
 
