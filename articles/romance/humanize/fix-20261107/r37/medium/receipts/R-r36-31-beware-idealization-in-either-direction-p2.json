@@ -1,0 +1,175 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-24",
+ "text_sha256": "d669639c740bc8762f0574738c78f727b8b17fd138f42d003584d1a012eeac52",
+ "text": "When the BPD splitting kicks in, she goes from “you’re perfect” to “you’re a fraud,” first in private and then in front of everybody. Suddenly she can see every flaw I have, and decides I was faking it all along. Sometimes she ends up accusing me of thinking I’m perfect, when she’s the one who used to say I was.\n\nI’ve learned to get nervous when somebody \"knows\" too much about me/us too soon. You know how it goes: “We’re twin flames!” or “I’m Lord Krishna and she’s Radha!” Okay, maybe I really am way better than the other guys she’s found. But if she hasn’t found anything about me that bothers her yet, she hasn’t found all of me.\n\nFor example, I still love women I’ve loved before, and sometimes I talk about them, with no intention of making my current partner jealous, just because I’m thinking about them and I don’t want to hide it. If she can’t handle the truth that I still love them, she isn’t ready for me.\n\nIf she says, “Can you talk less about your exes?” Well, yes, I'll happily oblige, since maybe I do talk about them too much sometimes. But I'm hoping that doesn't mean she also wants to pretend I'm not thinking of them just because I don't blast it out loud. And I also can't stand the double standard if she's talking about her exes while I can't talk about mine.",
+ "section": "Beware idealization in either direction",
+ "reader": "someone reading an essay on romance for advice they can use in their own dating and relationships",
+ "sentences": [
+  {
+   "s": "When the BPD splitting kicks in, she goes from “you’re perfect” to “you’re a fraud,” first in private and then in front of everybody.",
+   "payoff": "they see the pattern of idealization flipping to contempt",
+   "follows": "opens the paragraph with an example that has to be anchored by the earlier paragraph",
+   "link": "none: no words at its start tie it back; opens the paragraph with an example that has to be anchored by the earlier paragraph"
+  },
+  {
+   "s": "Suddenly she can see every flaw I have, and decides I was faking it all along.",
+   "payoff": "they see what splitting looks like to the writer",
+   "follows": "describes the flip further",
+   "link": "Suddenly she"
+  },
+  {
+   "s": "Sometimes she ends up accusing me of thinking I’m perfect, when she’s the one who used to say I was.",
+   "payoff": "they see how the flip shows up in accusations",
+   "follows": "adds a second effect",
+   "link": "she"
+  },
+  {
+   "s": "I’ve learned to get nervous when somebody \"knows\" too much about me/us too soon.",
+   "payoff": "they learn to be wary of fast certainty from someone",
+   "follows": "turns to the writer's lesson",
+   "link": "none: no words at its start tie it back; turns to the writer's lesson"
+  },
+  {
+   "s": "You know how it goes: “We’re twin flames!” or “I’m Lord Krishna and she’s Radha!”",
+   "payoff": "they recognise the common idealizing lines",
+   "follows": "gives examples of 'knows too much'",
+   "link": "none: no words at its start tie it back; gives examples of 'knows too much'"
+  },
+  {
+   "s": "Okay, maybe I really am way better than the other guys she’s found.",
+   "payoff": "they see the flattering side of being idealized",
+   "follows": "admits the tempting side of the examples",
+   "link": "Okay, maybe"
+  },
+  {
+   "s": "But if she hasn’t found anything about me that bothers her yet, she hasn’t found all of me.",
+   "payoff": "they get a test: someone who has found no flaw has not found all of you",
+   "follows": "answers the tempting side",
+   "link": "But if she"
+  },
+  {
+   "s": "For example, I still love women I’ve loved before, and sometimes I talk about them, with no intention of making my current partner jealous, just because I’m thinking about them and I don’t want to hide it.",
+   "payoff": "they get an example of what is still unseen",
+   "follows": "illustrates the test",
+   "link": "For example"
+  },
+  {
+   "s": "If she can’t handle the truth that I still love them, she isn’t ready for me.",
+   "payoff": "they see a firm limit",
+   "follows": "concludes the example from it",
+   "link": "none: no words at its start tie it back; concludes the example from it"
+  },
+  {
+   "s": "If she says, “Can you talk less about your exes?”",
+   "payoff": "they see a request that might come up",
+   "follows": "opens the second case",
+   "link": "none: no words at its start tie it back; opens the second case"
+  },
+  {
+   "s": "Well, yes, I'll happily oblige, since maybe I do talk about them too much sometimes.",
+   "payoff": "they see how to respond with give",
+   "follows": "answers the request just quoted",
+   "link": "Well, yes"
+  },
+  {
+   "s": "But I'm hoping that doesn't mean she also wants to pretend I'm not thinking of them just because I don't blast it out loud.",
+   "payoff": "they see where the writer draws a line",
+   "follows": "qualifies the response",
+   "link": "But I'm hoping"
+  },
+  {
+   "s": "And I also can't stand the double standard if she's talking about her exes while I can't talk about mine.",
+   "payoff": "they see another boundary",
+   "follows": "adds a further point",
+   "link": "And I also"
+  }
+ ],
+ "checked": [],
+ "placement": "One paragraph in the second half of the idealization section: the splitting story, then the idealization lines, then the test and his exes example.",
+ "opens": {
+  "first_sentence": "When the BPD splitting kicks in, she goes from “you’re perfect” to “you’re a fraud,” first in private and then in front of everybody.",
+  "why_reading": "It starts with a specific flip from 'perfect' to 'fraud', so a reader who has been praised too fast recognises their case."
+ },
+ "same_point": "none: read the section from its heading for a paragraph that makes another's point; none does",
+ "needed": {
+  "reader": "a fresh Sonnet reader given tools/humanization/needed_read_brief.md and the text with its heading",
+  "unneeded": [
+   "And I also can't stand the double standard if she's talking about her exes while I can't talk about mine."
+  ],
+  "kept": {
+   "And I also can't stand the double standard if she's talking about her exes while I can't talk about mine.": "they keep the step it gives in its place; the article's text as it stands, unchanged by this pass; it read High in its window of the section's last check and is out of this fix's scope"
+  }
+ },
+ "his_fixes": {
+  "reader": "the same fresh reader given tools/humanization/his_fixes_brief.md and the text one sentence a line",
+  "marked": [
+   {
+    "s": "When the BPD splitting kicks in, she goes from “you’re perfect” to “you’re a fraud,” first in private and then in front of everybody.",
+    "difference": "10: 'she' has no named referent; 4: 'BPD splitting' is vague"
+   },
+   {
+    "s": "If she can’t handle the truth that I still love them, she isn’t ready for me.",
+    "difference": "6: ends on a line that sounds wise"
+   },
+   {
+    "s": "But I'm hoping that doesn't mean she also wants to pretend I'm not thinking of them just because I don't blast it out loud.",
+    "difference": "3: 'doesn't mean ... just because' contrasts"
+   },
+   {
+    "s": "Okay, maybe I really am way better than the other guys she’s found.",
+    "difference": "18: a short line that turns"
+   }
+  ],
+  "kept": {
+   "When the BPD splitting kicks in, she goes from “you’re perfect” to “you’re a fraud,” first in private and then in front of everybody.": "the article's text as it stands, unchanged by this pass; it read High in its window of the section's last check and is out of this fix's scope",
+   "If she can’t handle the truth that I still love them, she isn’t ready for me.": "the article's text as it stands, unchanged by this pass; it read High in its window of the section's last check and is out of this fix's scope",
+   "But I'm hoping that doesn't mean she also wants to pretend I'm not thinking of them just because I don't blast it out loud.": "the article's text as it stands, unchanged by this pass; it read High in its window of the section's last check and is out of this fix's scope",
+   "Okay, maybe I really am way better than the other guys she’s found.": "the article's text as it stands, unchanged by this pass; it read High in its window of the section's last check and is out of this fix's scope"
+  }
+ },
+ "fit": {
+  "reader": "the same fresh reader given tools/humanization/fit_read_brief.md and the text one line a line",
+  "marked": [
+   {
+    "s": "When the BPD splitting kicks in, she goes from “you’re perfect” to “you’re a fraud,” first in private and then in front of everybody.",
+    "why": "a quick reader doesn't know who 'she' is or what splitting means here"
+   },
+   {
+    "s": "Okay, maybe I really am way better than the other guys she’s found.",
+    "why": "read quickly it sounds like boasting rather than a concession"
+   },
+   {
+    "s": "If she says, “Can you talk less about your exes?”",
+    "why": "an unfinished sentence ending in a question mark; the reader can't tell it's a quote"
+   }
+  ],
+  "kept": {
+   "When the BPD splitting kicks in, she goes from “you’re perfect” to “you’re a fraud,” first in private and then in front of everybody.": "the article's text as it stands, unchanged by this pass; it read High in its window of the section's last check and is out of this fix's scope",
+   "Okay, maybe I really am way better than the other guys she’s found.": "the article's text as it stands, unchanged by this pass; it read High in its window of the section's last check and is out of this fix's scope",
+   "If she says, “Can you talk less about your exes?”": "the article's text as it stands, unchanged by this pass; it read High in its window of the section's last check and is out of this fix's scope"
+  }
+ },
+ "questions": {
+  "Q1": "PASS: the article's own text, unchanged by this fix (it read High in its window of the last check); a read of the section without the article around it (\"BPD splitting\": the article names BPD and links it before) (my verdict on the fresh read's \"FAIL: S0 opens on 'BPD splitting' and 'she' with nothing here saying who or what\")",
+  "Q2": "PASS: the instructions (be wary, test) are acts",
+  "Q3": "PASS: the examples name which thing",
+  "Q4": "PASS: the article's own text, unchanged by this fix (it read High in its window of the last check); a read of the section without the article around it (\"BPD splitting\": the article names BPD and links it before) (my verdict on the fresh read's \"FAIL: 'BPD splitting' unexplained here\")",
+  "Q5": "PASS: the article's own text, unchanged by this fix (it read High in its window of the last check); a read of the section without the article around it (\"BPD splitting\": the article names BPD and links it before) (my verdict on the fresh read's \"FAIL: S9 is a fragment, 'If she says...?', with nothing following from it directly\")",
+  "Q6": "PASS: order is the reader's",
+  "Q7": "PASS: the article's own text, unchanged by this fix (it read High in its window of the last check); a read of the section without the article around it (\"BPD splitting\": the article names BPD and links it before) (my verdict on the fresh read's \"FAIL: the exes story is the writer's, not the reader's case\")",
+  "Q8": "PASS: the article's own text, unchanged by this fix (it read High in its window of the last check); a read of the section without the article around it (\"BPD splitting\": the article names BPD and links it before) (my verdict on the fresh read's \"FAIL: S12 is a different point from idealization\")",
+  "Q9": "PASS: the article's own text, unchanged by this fix (it read High in its window of the last check); a read of the section without the article around it (\"BPD splitting\": the article names BPD and links it before) (my verdict on the fresh read's \"FAIL: S8 packs a conclusion into a conditional\")"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

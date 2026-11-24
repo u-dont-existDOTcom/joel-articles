@@ -1,0 +1,807 @@
+{
+ "r36-12-spirituality-to-bypass-intimacy-p1": {
+  "sentences": [
+   {
+    "payoff": "they see that the writer turned to spirituality because intimacy was missing, and ask if they do too",
+    "follows": "answers the heading by stating the claim",
+    "link": "none: opens the section"
+   },
+   {
+    "payoff": "they see how strong the deprivation was",
+    "follows": "gives the reason intimacy was unavailable",
+    "link": "none: ties by topic only"
+   },
+   {
+    "payoff": "they learn meditation eased but did not cure the lack",
+    "follows": "says what spirituality did in that deprivation",
+    "link": "none: ties by topic only"
+   },
+   {
+    "payoff": "they see an extreme case of wanting partnership over transcendence",
+    "follows": "gives a story of the limit of spiritual coping",
+    "link": "none: opens a story"
+   },
+   {
+    "payoff": "they see the outcome of the story",
+    "follows": "next beat of the story",
+    "link": "Right then"
+   },
+   {
+    "payoff": "they know the writer expects doubt about the story",
+    "follows": "reacts to the story just told",
+    "link": "this story"
+   },
+   {
+    "payoff": "they get his general position on celibacy",
+    "follows": "moves from the story to the point it supports",
+    "link": "none: turns to the general claim"
+   },
+   {
+    "payoff": "they see why celibacy rarely suits ordinary people",
+    "follows": "gives the reason for the claim before",
+    "link": "none: states a reason"
+   },
+   {
+    "payoff": "they learn that even the Buddha did not demand celibacy",
+    "follows": "backs the sentence before with an authority",
+    "link": "none: new support"
+   },
+   {
+    "payoff": "they know they can stay if monasticism truly makes them happier",
+    "follows": "gives the exception to what was just said",
+    "link": "becoming a monastic"
+   },
+   {
+    "payoff": "they see who celibacy may suit",
+    "follows": "names the cases where the exception applies",
+    "link": "It might work"
+   },
+   {
+    "payoff": "they ask how they can know their own blind spots",
+    "follows": "raises the problem with the previous list of cases",
+    "link": "But how"
+   },
+   {
+    "payoff": "they learn that inner-child work can reveal what they are missing",
+    "follows": "answers the question just asked",
+    "link": "none: 'that' comes after five words"
+   },
+   {
+    "payoff": "they picture a test of whether their freedom is real",
+    "follows": "adds a test case for the claimed happiness",
+    "link": "And if you're"
+   },
+   {
+    "payoff": "they see the test applies to women too",
+    "follows": "extends the case to the other gender",
+    "link": "Or vice versa"
+   },
+   {
+    "payoff": "they ask themselves whether they would feel scared of losing control",
+    "follows": "finishes the test by asking the reader to try it",
+    "link": "none: asks the test question of the reader"
+   }
+  ],
+  "placement": "One paragraph; claim, story, general position, exceptions, then a closing test, in the order the reader doubts.",
+  "why_reading": "It says the writer replaced intimacy with spirituality, so a reader who meditates or avoids dating checks whether they do the same.",
+  "same_point": "none: read the section from its heading for a paragraph that makes another's point; none does",
+  "questions": {
+   "Q1": "FAIL: S5 and S7 are not needed to act and the reader can't tell why the ayahuasca story matters yet",
+   "Q2": "PASS: each instruction (stay, ask whether you feel scared) is an act of self-checking",
+   "Q3": "FAIL: 'a lot of' in S1 and 'etc.' in S11 leave which cases unspecified",
+   "Q4": "FAIL: 'ego death' and 'self-hypnosis' are not explained where used",
+   "Q5": "PASS: connectives like But, And, Or tie the sentences",
+   "Q6": "PASS: order follows the reader's doubts",
+   "Q7": "FAIL: the ayahuasca anecdote is the writer's case, not the reader's",
+   "Q8": "PASS: items are one kind",
+   "Q9": "FAIL: S11 packs three cases into one sentence"
+  },
+  "needed": {
+   "unneeded": [
+    "Nobody believes this story when I tell it."
+   ]
+  },
+  "his_fixes": {
+   "marked": [
+    {
+     "s": "Or vice versa for women.",
+     "difference": "18: a four-word line standing alone"
+    },
+    {
+     "s": "Nobody believes this story when I tell it.",
+     "difference": "18: a short plain line standing alone"
+    },
+    {
+     "s": "Inner-child reparenting and self-hypnosis can help a lot with that, because often the inner child is being ignored while the adult is feeling some kind of liberation.",
+     "difference": "10: 'that' could mean being ignored or the unawareness"
+    },
+    {
+     "s": "But how do you know what you’re not aware of?",
+     "difference": "21: a question the reader cannot answer as asked"
+    },
+    {
+     "s": "Do you feel like you’re losing some control, and does that scare you?",
+     "difference": "19: two questions in one, 'losing control' and 'scare you'"
+    }
+   ]
+  },
+  "fit": {
+   "marked": [
+    {
+     "s": "But how do you know what you’re not aware of?",
+     "why": "'what you're not aware of' cannot be checked by the reader right then"
+    },
+    {
+     "s": "Do you feel like you’re losing some control, and does that scare you?",
+     "why": "asks the reader to judge a feeling about a situation they are not in"
+    }
+   ]
+  }
+ },
+ "r36-26-the-conversation-about-flaws": {
+  "sentences": [
+   {
+    "payoff": "they learn not to ask the blunt question on a date",
+    "follows": "gives the first caution under the heading",
+    "link": "none: opens the section"
+   },
+   {
+    "payoff": "they learn when and how to ask about past relationships",
+    "follows": "gives the better way after the caution",
+    "link": "At the right time"
+   },
+   {
+    "payoff": "they have a follow-up question for one-sided stories",
+    "follows": "next case of what the person says",
+    "link": "If every story"
+   },
+   {
+    "payoff": "they see which answer is vague",
+    "follows": "says what an answer should not be",
+    "link": "none: contrasts with the answer"
+   },
+   {
+    "payoff": "they get a better question to ask",
+    "follows": "replaces the vague answer with a question",
+    "link": "none: asks directly"
+   },
+   {
+    "payoff": "they learn to set honesty about their own control issues as a mutual rule",
+    "follows": "says what to ask for from both sides",
+    "link": "both of us"
+   },
+   {
+    "payoff": "they get a second concrete question",
+    "follows": "continues the examples of mutual honesty",
+    "link": "none: adds a question"
+   },
+   {
+    "payoff": "they see why this answer beats claims of being healed",
+    "follows": "explains why the questions are worth asking",
+    "link": "Answers like those"
+   },
+   {
+    "payoff": "they know to check their own recent conflicts",
+    "follows": "turns the reader to their own record",
+    "link": "none: turns to self-check"
+   },
+   {
+    "payoff": "they get two questions about harm and repair",
+    "follows": "says what to look for in the conflicts",
+    "link": "none: unfolds the check"
+   },
+   {
+    "payoff": "they see that failing to act also counts",
+    "follows": "adds a limit to the question before",
+    "link": "Not doing"
+   },
+   {
+    "payoff": "they get an example of not doing",
+    "follows": "gives the case for 'not doing'",
+    "link": "If conflict makes"
+   },
+   {
+    "payoff": "they ask whether their judgment improved",
+    "follows": "moves from conflict to long-view of choices",
+    "link": "none: final question"
+   }
+  ],
+  "placement": "One block: dating conversation, then mutual honesty, then self-check at the end; the self-check last because it needs the earlier questions.",
+  "why_reading": "It says the blunt question is awkward on a date, so the reader sees there is a better way to find out.",
+  "same_point": "none: read the section from its heading for a paragraph that makes another's point; none does",
+  "questions": {
+   "Q1": "PASS: each sentence asks something the reader can use",
+   "Q2": "PASS: asking, honesty, checking are actions",
+   "Q3": "FAIL: 'those' answers in S7 points at questions two sentences back",
+   "Q4": "FAIL: 'regulate yourself' is not explained",
+   "Q5": "PASS: but S6 'ask forgiveness more than once' needs a link to flaws",
+   "Q6": "PASS: personal then reader-focused order",
+   "Q7": "PASS: facts help the reader's dating",
+   "Q8": "PASS: all items are questions or tests",
+   "Q9": "FAIL: S11 packs consequence into a conditional question"
+  },
+  "needed": {
+   "unneeded": []
+  },
+  "his_fixes": {
+   "marked": [
+    {
+     "s": "“I have baggage” isn't as useful as learning what you're having trouble with now.",
+     "difference": "3: 'isn't as useful as' sets one thing against another"
+    },
+    {
+     "s": "Answers like those tell me more than either of us proclaiming that we’re healed.",
+     "difference": "3: 'tell me more than either of us proclaiming' contrasts; 21: 'proclaiming' labels instead of saying"
+    },
+    {
+     "s": "If conflict makes you shut down, does it mean you stop talking to your partner for days, leaving them feeling abandoned?",
+     "difference": "23: one of a run of questions; the paragraph is almost all questions"
+    },
+    {
+     "s": "Has your judgment gotten better, or would your friends or exes say you keep falling for the same stuff?",
+     "difference": "23: another question ending the run"
+    }
+   ]
+  },
+  "fit": {
+   "marked": [
+    {
+     "s": "What are we probably going to ask forgiveness for more than once?",
+     "why": "a reader cannot tell what they will need to ask forgiveness for on a first date"
+    }
+   ]
+  }
+ },
+ "r36-31-beware-idealization-in-either-direction-p2": {
+  "sentences": [
+   {
+    "payoff": "they see the pattern of idealization flipping to contempt",
+    "follows": "opens the paragraph with an example that has to be anchored by the earlier paragraph",
+    "link": "none: opens the paragraph; 'she' is not introduced here"
+   },
+   {
+    "payoff": "they see what splitting looks like to the writer",
+    "follows": "describes the flip further",
+    "link": "Suddenly she"
+   },
+   {
+    "payoff": "they see how the flip shows up in accusations",
+    "follows": "adds a second effect",
+    "link": "she"
+   },
+   {
+    "payoff": "they learn to be wary of fast certainty from someone",
+    "follows": "turns to the writer's lesson",
+    "link": "none: turns to the lesson"
+   },
+   {
+    "payoff": "they recognise the common idealizing lines",
+    "follows": "gives examples of 'knows too much'",
+    "link": "none: gives the examples"
+   },
+   {
+    "payoff": "they see the flattering side of being idealized",
+    "follows": "admits the tempting side of the examples",
+    "link": "Okay, maybe"
+   },
+   {
+    "payoff": "they get a test: someone who has found no flaw has not found all of you",
+    "follows": "answers the tempting side",
+    "link": "But if she"
+   },
+   {
+    "payoff": "they get an example of what is still unseen",
+    "follows": "illustrates the test",
+    "link": "For example"
+   },
+   {
+    "payoff": "they see a firm limit",
+    "follows": "concludes the example from it",
+    "link": "If she can't"
+   },
+   {
+    "payoff": "they see a request that might come up",
+    "follows": "opens the second case",
+    "link": "none: fragment that opens the case"
+   },
+   {
+    "payoff": "they see how to respond with give",
+    "follows": "answers the request just quoted",
+    "link": "Well, yes"
+   },
+   {
+    "payoff": "they see where the writer draws a line",
+    "follows": "qualifies the response",
+    "link": "But I'm hoping"
+   },
+   {
+    "payoff": "they see another boundary",
+    "follows": "adds a further point",
+    "link": "And I also"
+   }
+  ],
+  "placement": "One paragraph in the second half of the idealization section: the splitting story, then the idealization lines, then the test and his exes example.",
+  "why_reading": "It starts with a specific flip from 'perfect' to 'fraud', so a reader who has been praised too fast recognises their case.",
+  "same_point": "none: read the section from its heading for a paragraph that makes another's point; none does",
+  "questions": {
+   "Q1": "FAIL: S0 opens on 'BPD splitting' and 'she' with nothing here saying who or what",
+   "Q2": "PASS: the instructions (be wary, test) are acts",
+   "Q3": "PASS: the examples name which thing",
+   "Q4": "FAIL: 'BPD splitting' unexplained here",
+   "Q5": "FAIL: S9 is a fragment, 'If she says...?', with nothing following from it directly",
+   "Q6": "PASS: order is the reader's",
+   "Q7": "FAIL: the exes story is the writer's, not the reader's case",
+   "Q8": "FAIL: S12 is a different point from idealization",
+   "Q9": "FAIL: S8 packs a conclusion into a conditional"
+  },
+  "needed": {
+   "unneeded": [
+    "And I also can't stand the double standard if she's talking about her exes while I can't talk about mine."
+   ]
+  },
+  "his_fixes": {
+   "marked": [
+    {
+     "s": "When the BPD splitting kicks in, she goes from “you’re perfect” to “you’re a fraud,” first in private and then in front of everybody.",
+     "difference": "10: 'she' has no named referent; 4: 'BPD splitting' is vague"
+    },
+    {
+     "s": "If she can’t handle the truth that I still love them, she isn’t ready for me.",
+     "difference": "6: ends on a line that sounds wise"
+    },
+    {
+     "s": "But I'm hoping that doesn't mean she also wants to pretend I'm not thinking of them just because I don't blast it out loud.",
+     "difference": "3: 'doesn't mean ... just because' contrasts"
+    },
+    {
+     "s": "Okay, maybe I really am way better than the other guys she’s found.",
+     "difference": "18: a short line that turns"
+    }
+   ]
+  },
+  "fit": {
+   "marked": [
+    {
+     "s": "When the BPD splitting kicks in, she goes from “you’re perfect” to “you’re a fraud,” first in private and then in front of everybody.",
+     "why": "a quick reader doesn't know who 'she' is or what splitting means here"
+    },
+    {
+     "s": "Okay, maybe I really am way better than the other guys she’s found.",
+     "why": "read quickly it sounds like boasting rather than a concession"
+    },
+    {
+     "s": "If she says, “Can you talk less about your exes?”",
+     "why": "an unfinished sentence ending in a question mark; the reader can't tell it's a quote"
+    }
+   ]
+  }
+ },
+ "r36-42-from-flow-to-nitty-gritty": {
+  "sentences": [
+   {
+    "payoff": "they see what living alone makes easy",
+    "follows": "opens the heading's contrast",
+    "link": "none: opens the section"
+   },
+   {
+    "payoff": "they see that the same task changes meaning in a relationship",
+    "follows": "contrasts living alone with having a girlfriend",
+    "link": "When I have"
+   },
+   {
+    "payoff": "they see how small acts carry weight",
+    "follows": "explains how the bed becomes an emotional matter",
+    "link": "If I don't do it"
+   },
+   {
+    "payoff": "they see another cost of relationships",
+    "follows": "adds a second difficulty",
+    "link": "also"
+   },
+   {
+    "payoff": "they see why the writer finds freedom easy",
+    "follows": "explains the ease from the writer's traits",
+    "link": "do that"
+   },
+   {
+    "payoff": "they see the cost of relationship demands",
+    "follows": "finishes the contrast between freedom and demands",
+    "link": "That freedom"
+   }
+  ],
+  "placement": "One short paragraph: alone, then a relationship, then the cost.",
+  "why_reading": "It says living alone is easy, so a reader who is used to solitude sees why relationships feel hard.",
+  "same_point": "none: read the section from its heading for a paragraph that makes another's point; none does",
+  "questions": {
+   "Q1": "PASS: each sentence says what changes",
+   "Q2": "N/A: no instruction",
+   "Q3": "PASS: the bed is the example",
+   "Q4": "FAIL: 'expert management' in S5 means manipulation",
+   "Q5": "PASS: connectives tie it",
+   "Q6": "PASS: alone then together",
+   "Q7": "FAIL: '10% autistic' is not the reader's case",
+   "Q8": "PASS: items are costs",
+   "Q9": "FAIL: S5 packs four ideas into one sentence"
+  },
+  "needed": {
+   "unneeded": [
+    "It’s easy to feel free when I don’t have to do that, especially since I’m a bit of an introvert and 10% autistic."
+   ]
+  },
+  "his_fixes": {
+   "marked": [
+    {
+     "s": "That freedom works wonderfully until I’m in a romantic relationship, and suddenly I’m expected to read her mind, silences included, and check in constantly, and then I’m not allowed to use all that expert “management” to manipulate her.",
+     "difference": "1: packs mind-reading, silences, constant check-ins and no manipulation into one sentence; 19: a list of three"
+    },
+    {
+     "s": "It’s easy to feel free when I don’t have to do that, especially since I’m a bit of an introvert and 10% autistic.",
+     "difference": "10: 'that' could mean the insecurities or the check-ins"
+    },
+    {
+     "s": "If I don’t do it well, somehow it may become a bad omen that I don’t care about her, which is a lot of emotional weight for a bed.",
+     "difference": "21: 'bad omen' labels"
+    }
+   ]
+  },
+  "fit": {
+   "marked": [
+    {
+     "s": "It’s easy to feel free when I don’t have to do that, especially since I’m a bit of an introvert and 10% autistic.",
+     "why": "'10% autistic' is a figure the reader can't interpret or use"
+    },
+    {
+     "s": "That freedom works wonderfully until I’m in a romantic relationship, and suddenly I’m expected to read her mind, silences included, and check in constantly, and then I’m not allowed to use all that expert “management” to manipulate her.",
+     "why": "'expert management to manipulate her' reads as an admission, MISREAD quickly"
+    }
+   ]
+  }
+ },
+ "r36-56-muses-directors-p3": {
+  "sentences": [
+   {
+    "payoff": "they see what women often prefer from them",
+    "follows": "opens the paragraph",
+    "link": "none: opens the section"
+   },
+   {
+    "payoff": "they get a line to say",
+    "follows": "gives the first line of the quote",
+    "link": "none: continues the quote"
+   },
+   {
+    "payoff": "they get a second line",
+    "follows": "adds the second line",
+    "link": "This is"
+   },
+   {
+    "payoff": "they get the question that invites her",
+    "follows": "closes the quote",
+    "link": "none: closes the quote"
+   },
+   {
+    "payoff": "they see she keeps the choice",
+    "follows": "qualifies the quote",
+    "link": "She"
+   },
+   {
+    "payoff": "they see initiative fits equality",
+    "follows": "answers the worry from leading",
+    "link": "that goes against equality"
+   },
+   {
+    "payoff": "they see how roles divide by strength",
+    "follows": "explains what equality looks like",
+    "link": "If I like"
+   },
+   {
+    "payoff": "they see that leading still means asking",
+    "follows": "adds the limit on leading",
+    "link": "Even when"
+   },
+   {
+    "payoff": "they get a slogan for the stance",
+    "follows": "summarises the paragraph",
+    "link": "none: adds a closing line"
+   }
+  ],
+  "placement": "One paragraph: the line to say, then equality, then leading with listening.",
+  "why_reading": "It says women often prefer a direct plan, so a reader who defers too much finds a thing to try.",
+  "same_point": "none: read the section from its heading for a paragraph that makes another's point; none does",
+  "questions": {
+   "Q1": "PASS: it says what direct means",
+   "Q2": "PASS: the instruction is a line to say",
+   "Q3": "PASS: which thing is the three lines",
+   "Q4": "FAIL: 'Mandar obedeciendo' is not explained for non-Spanish readers",
+   "Q5": "PASS: But/Even tie",
+   "Q6": "PASS: say then qualify",
+   "Q7": "PASS: facts apply to dating",
+   "Q8": "PASS: items fit",
+   "Q9": "PASS: small pieces"
+  },
+  "needed": {
+   "unneeded": [
+    "Mandar obedeciendo—Lead by following—as the Zapatistas say."
+   ]
+  },
+  "his_fixes": {
+   "marked": [
+    {
+     "s": "This is what I think we should do.",
+     "difference": "19: three short lines in a row; 18: short lines"
+    },
+    {
+     "s": "Are you game?”",
+     "difference": "18: a short line standing alone"
+    },
+    {
+     "s": "Mandar obedeciendo—Lead by following—as the Zapatistas say.",
+     "difference": "6: ends on a line that sounds wise"
+    }
+   ]
+  },
+  "fit": {
+   "marked": [
+    {
+     "s": "Mandar obedeciendo—Lead by following—as the Zapatistas say.",
+     "why": "a foreign-language slogan the reader cannot parse quickly"
+    }
+   ]
+  }
+ },
+ "r36-71-which-marriage-vows-are-honest": {
+  "sentences": [
+   {
+    "payoff": "they see his verdict on marriage vows",
+    "follows": "opens with the claim the heading asks about",
+    "link": "none: opens the section"
+   },
+   {
+    "payoff": "they see what can honestly be promised",
+    "follows": "gives the reason for the verdict",
+    "link": "none: states the reason"
+   },
+   {
+    "payoff": "they get examples of promises that can be kept",
+    "follows": "gives examples of S1's actions",
+    "link": "So for example"
+   },
+   {
+    "payoff": "they see keeping promises can deepen connection",
+    "follows": "adds the better reason",
+    "link": "More importantly, though"
+   },
+   {
+    "payoff": "they see the Bible agrees",
+    "follows": "turns to the scriptural support",
+    "link": "We also find"
+   },
+   {
+    "payoff": "they see one passage against breaking vows",
+    "follows": "gives the first passage",
+    "link": "none: names the first passage"
+   },
+   {
+    "payoff": "they see a second passage against vows",
+    "follows": "gives the second passage",
+    "link": "none: names the second passage"
+   },
+   {
+    "payoff": "they ask where promising love came from",
+    "follows": "turns to the history",
+    "link": "none: opens the history"
+   },
+   {
+    "payoff": "they learn that romantic marriage is recent",
+    "follows": "answers the question",
+    "link": "It turns out"
+   },
+   {
+    "payoff": "they see that the trend continued",
+    "follows": "continues the history",
+    "link": "That trend"
+   },
+   {
+    "payoff": "they get the conclusion that feelings aren't contractual",
+    "follows": "draws the point from the history",
+    "link": "But what our ancestors"
+   }
+  ],
+  "placement": "One block: claim, what to promise, scripture, history, conclusion; the conclusion last because it rests on both.",
+  "why_reading": "It says conventional vows are dishonest, so a reader about to write vows sees they can write better ones.",
+  "same_point": "none: read the section from its heading for a paragraph that makes another's point; none does",
+  "questions": {
+   "Q1": "PASS: it states the verdict",
+   "Q2": "PASS: the instruction is to promise actions",
+   "Q3": "FAIL: S4 'my warning' names no earlier warning",
+   "Q4": "FAIL: 'inept' unexplained, 'snowball' loose",
+   "Q5": "PASS: connectives tie",
+   "Q6": "FAIL: S4-6 scripture sits between the advice and its history",
+   "Q7": "FAIL: S9 doesn't help the reader act",
+   "Q8": "PASS: all items fit",
+   "Q9": "FAIL: S3 packs two points with 'not completely, directly or unilaterally'"
+  },
+  "needed": {
+   "unneeded": [
+    "That trend has continued evolving like a snowball until today."
+   ]
+  },
+  "his_fixes": {
+   "marked": [
+    {
+     "s": "You can’t promise how you’ll feel in the future, but you can promise actions if you really believe you’re capable of delivering them.",
+     "difference": "3: 'can't ... but can' pairs"
+    },
+    {
+     "s": "So for example, you could promise to tell the truth, to keep showing up emotionally, to support the children, or whatever else you genuinely believe you can do even if your feelings change.",
+     "difference": "19: a list of three promises"
+    },
+    {
+     "s": "More importantly, though, if you do keep those promises, it's quite likely that your connection will deepen, so it's not like we truly have no control of future feelings, but just not completely, directly or unilaterally.",
+     "difference": "3: 'not like we truly have no control, but just not completely'; 8: long joined"
+    },
+    {
+     "s": "We also find something like my warning in the New & Old Testaments.",
+     "difference": "10: 'my warning' could point to several things; 21: label"
+    },
+    {
+     "s": "Ecclesiastes 5:4–6 says it is better not to make a vow than to make one and fail to keep it, and that if you then tell the priest you didn’t mean what you promised, God will be angry and destroy your work.",
+     "difference": "1: packs two claims"
+    },
+    {
+     "s": "Matthew 5:33–37 and James 5:12 make the wedding vow itself look even more suspicious (to me, anyway): let your “Yes” be “Yes” and your “No” be “No,” and anything beyond that comes from evil.",
+     "difference": "1: compressed"
+    },
+    {
+     "s": "But what our ancestors knew was not wrong: You can sign a contract about what you’ll do, but feelings aren’t contractual.",
+     "difference": "3: 'X, but feelings aren't Y'; 6: ends on a line that sounds wise"
+    }
+   ]
+  },
+  "fit": {
+   "marked": [
+    {
+     "s": "We also find something like my warning in the New & Old Testaments.",
+     "why": "nothing earlier is called a warning"
+    },
+    {
+     "s": "Matthew 5:33–37 and James 5:12 make the wedding vow itself look even more suspicious (to me, anyway): let your “Yes” be “Yes” and your “No” be “No,” and anything beyond that comes from evil.",
+     "why": "read quickly 'comes from evil' alarms"
+    }
+   ]
+  }
+ },
+ "r36-82-if-you-re-already-in-it-p1": {
+  "sentences": [
+   {
+    "payoff": "they see the article's advice may come too late for them",
+    "follows": "opens the heading's case",
+    "link": "none: opens the section"
+   },
+   {
+    "payoff": "they see their own case named",
+    "follows": "contrasts with the earlier advice",
+    "link": "But if you're already"
+   },
+   {
+    "payoff": "they learn there is no special method",
+    "follows": "admits the limits of advice",
+    "link": "none: ties by topic only"
+   },
+   {
+    "payoff": "they learn that one person can't fix it",
+    "follows": "gives what he did learn",
+    "link": "Mostly I learned"
+   },
+   {
+    "payoff": "they see the root cause named",
+    "follows": "opens his example",
+    "link": "none: opens the example; Bee and Key unintroduced"
+   },
+   {
+    "payoff": "they see how the partners spoke and acted",
+    "follows": "describes how trust failed",
+    "link": "They"
+   },
+   {
+    "payoff": "they see all-or-nothing trust",
+    "follows": "describes the trust problem",
+    "link": "It was all"
+   },
+   {
+    "payoff": "they see his own words",
+    "follows": "adds his part",
+    "link": "none: gives his quote"
+   },
+   {
+    "payoff": "they see where the rigidity may have come from",
+    "follows": "gives a cause",
+    "link": "that rigidity"
+   },
+   {
+    "payoff": "they see that dishonesty is hard to define",
+    "follows": "moves from trust to honesty",
+    "link": "Even dishonesty"
+   },
+   {
+    "payoff": "they see an example",
+    "follows": "illustrates the definition problem",
+    "link": "none: opens an example"
+   },
+   {
+    "payoff": "they see his reaction",
+    "follows": "says what the example did to him",
+    "link": "That drove me crazy"
+   },
+   {
+    "payoff": "they see another view",
+    "follows": "qualifies the reaction",
+    "link": "On the other hand"
+   },
+   {
+    "payoff": "they see a better way to name it",
+    "follows": "draws the lesson from the example",
+    "link": "none: ties to 'no strategy'"
+   }
+  ],
+  "placement": "One paragraph: article scope, then admission of no method, then the trust example, then the honesty example, then the lesson.",
+  "why_reading": "It says the earlier advice may be late, so a reader already married sees this part is for them.",
+  "same_point": "none: read the section from its heading for a paragraph that makes another's point; none does",
+  "questions": {
+   "Q1": "PASS: it says the case is for readers already in it",
+   "Q2": "FAIL: S12 doesn't say what to do",
+   "Q3": "FAIL: 'head over shoulders' for the idiom is garbled, Bee and Key are unnamed",
+   "Q4": "FAIL: 'Non-strategic lying' is defined only after use",
+   "Q5": "PASS: connectives tie",
+   "Q6": "PASS: story order",
+   "Q7": "FAIL: S4 mixes his story and the reader's",
+   "Q8": "PASS: items fit",
+   "Q9": "FAIL: S13 packs a definition and a judgment"
+  },
+  "needed": {
+   "unneeded": [
+    "I wish I had a special method for fixing that."
+   ]
+  },
+  "his_fixes": {
+   "marked": [
+    {
+     "s": "Most of this article is about what to do before jumping head first into head over shoulders.",
+     "difference": "20: a statement about the whole article that may not be true here; 4: 'head over shoulders' is vague"
+    },
+    {
+     "s": "They wanted to be with me and would say they trusted me, but really they didn’t trust me, themself, or anyone else.",
+     "difference": "19: three of a kind ('me, themself, or anyone else'); 3: 'would say ... but really didn't'"
+    },
+    {
+     "s": "It was all or nothing: blind trust, or none.",
+     "difference": "18: a short line standing alone"
+    },
+    {
+     "s": "That drove me crazy, because why would she lie like that?",
+     "difference": "21: question the reader can't answer"
+    },
+    {
+     "s": "Non-strategic lying is literally defined as \"pathological lying,\" so I should have seen it more like an illness than a failure of virtue.",
+     "difference": "3: 'more like an illness than a failure of virtue' contrasts"
+    }
+   ]
+  },
+  "fit": {
+   "marked": [
+    {
+     "s": "Most of this article is about what to do before jumping head first into head over shoulders.",
+     "why": "'head over shoulders' reads as a garbled idiom"
+    },
+    {
+     "s": "With Bee and Key, the biggest thing sitting underneath everything was trust.",
+     "why": "Bee and Key are not introduced"
+    },
+    {
+     "s": "Non-strategic lying is literally defined as \"pathological lying,\" so I should have seen it more like an illness than a failure of virtue.",
+     "why": "labelling a partner as having a clinical lying disorder the reader cannot judge"
+    }
+   ]
+  }
+ }
+}

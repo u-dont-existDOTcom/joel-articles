@@ -1,0 +1,183 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-24",
+ "text_sha256": "b758a07bedbd06339425b6971ea65ecf4e1ef487ba4ea5184496fa23143b5c64",
+ "text": "Idealization can be pathological, but it can also come very close to real deep love and appreciation. That’s why it’s so easy to get confused.\n\nSo far in my life the main experiences of this have been with Bee and Key. They’re also the two women I’ve actually been in love with, which is probably not a coincidence. Both of them saw me as their knight in shining armor, and that brought out this divine-feminine beauty in them that made me into a real love slave. I’m not Superman out here trying to “save a hoe.” There’s just a natural director/muse dynamic that sometimes plays out in an exaggerated way.\n\nShe shouldn’t need a knight in shining armor to bring that beauty out, though, because it’s a bad shortcut to the divine archetypes.\n\nYou can legitimately see someone as amazing when you don’t need anything back from seeing them that way. Once you start identifying with the way you see them, like she’s perfect and I’m the one destiny finally sent to find her, you’re already lost in the sauce.\n\nThe degree of idealization also predicts the degree of demonization for me, so much that I use it almost like a clinical diagnosis in my own life. If a woman says, “You’re such a great guy. Of course you have flaws like anyone, but I love you,” that sounds healthy. If she says, “You’re perfect, I can’t find any flaw,” I’m already running.",
+ "section": "Beware idealization in either direction",
+ "reader": "someone reading an essay on romance for advice they can use in their own dating and relationships",
+ "sentences": [
+  {
+   "s": "Idealization can be pathological, but it can also come very close to real deep love and appreciation.",
+   "payoff": "they see idealization as both a danger and close to real love",
+   "follows": "opens the section and answers its heading",
+   "link": "none: no words at its start tie it back; opens the section and answers its heading"
+  },
+  {
+   "s": "That’s why it’s so easy to get confused.",
+   "payoff": "they see why they can't easily tell the two apart",
+   "follows": "consequence of the two being close",
+   "link": "That’s why it’s so"
+  },
+  {
+   "s": "So far in my life the main experiences of this have been with Bee and Key.",
+   "payoff": "they learn the author has examples and who they are",
+   "follows": "moves from the claim to his experience",
+   "link": "So far in my"
+  },
+  {
+   "s": "They’re also the two women I’ve actually been in love with, which is probably not a coincidence.",
+   "payoff": "they link those examples to actual love",
+   "follows": "adds why the two women matter",
+   "link": "They’re also the two"
+  },
+  {
+   "s": "Both of them saw me as their knight in shining armor, and that brought out this divine-feminine beauty in them that made me into a real love slave.",
+   "payoff": "they see what idealization looked like with them, and its cost to him",
+   "follows": "explains the pattern in his life",
+   "link": "Both of them saw"
+  },
+  {
+   "s": "I’m not Superman out here trying to “save a hoe.”",
+   "payoff": "they see he is not claiming to be a rescuer",
+   "follows": "corrects a reading of S4",
+   "link": "I’m not Superman out"
+  },
+  {
+   "s": "There’s just a natural director/muse dynamic that sometimes plays out in an exaggerated way.",
+   "payoff": "they see the dynamic is natural and sometimes exaggerated",
+   "follows": "states what the dynamic is",
+   "link": "There’s just a natural"
+  },
+  {
+   "s": "She shouldn’t need a knight in shining armor to bring that beauty out, though, because it’s a bad shortcut to the divine archetypes.",
+   "payoff": "they see that she doesn't need a knight and that relying on one is a shortcut",
+   "follows": "his judgment of the dynamic",
+   "link": "She shouldn’t need a"
+  },
+  {
+   "s": "You can legitimately see someone as amazing when you don’t need anything back from seeing them that way.",
+   "payoff": "they can tell seeing someone as amazing apart from needing something back from it.",
+   "follows": "it says when the idealizing of the sentence before can be healthy.",
+   "link": "none: no words at its start tie it back; it says when the idealizing of the sentence before can be healthy"
+  },
+  {
+   "s": "Once you start identifying with the way you see them, like she’s perfect and I’m the one destiny finally sent to find her, you’re already lost in the sauce.",
+   "payoff": "they notice the moment their picture of someone has become part of who they think they are.",
+   "follows": "it gives the other side of the sentence before: when the seeing turns into idealizing.",
+   "link": "Once you start"
+  },
+  {
+   "s": "The degree of idealization also predicts the degree of demonization for me, so much that I use it almost like a clinical diagnosis in my own life.",
+   "payoff": "they see the extent of idealization as a predictor of later demonization",
+   "follows": "extends from the test to what follows",
+   "link": "The degree of idealization"
+  },
+  {
+   "s": "If a woman says, “You’re such a great guy.",
+   "payoff": "they hear a healthy example",
+   "follows": "opens the example comparing two statements",
+   "link": "If a woman says"
+  },
+  {
+   "s": "Of course you have flaws like anyone, but I love you,” that sounds healthy.",
+   "payoff": "they see the healthy statement completed",
+   "follows": "finishes the quote",
+   "link": "Of course you have"
+  },
+  {
+   "s": "If she says, “You’re perfect, I can’t find any flaw,” I’m already running.",
+   "payoff": "they see the warning example and his response",
+   "follows": "contrasts with the healthy one",
+   "link": "If she says, “You’re perfect"
+  }
+ ],
+ "checked": [],
+ "placement": "Claim and difficulty first, then his two cases, then the line between healthy and unhealthy, then the sign of it in what a woman says.",
+ "opens": {
+  "first_sentence": "Idealization can be pathological, but it can also come very close to real deep love and appreciation.",
+  "why_reading": "It says idealization can be pathological yet close to real love, so a reader unsure about their own feelings reads on."
+ },
+ "same_point": "S7 and S8 both state when seeing someone as special turns bad (needing a knight; identifying with the way you see them).",
+ "needed": {
+  "reader": "a fresh Sonnet reader given tools/humanization/needed_read_brief.md and the text with its heading",
+  "unneeded": [
+   "She shouldn’t need a knight in shining armor to bring that beauty out, though, because it’s a bad shortcut to the divine archetypes.",
+   "I’m not Superman out here trying to “save a hoe.”"
+  ],
+  "kept": {
+   "She shouldn’t need a knight in shining armor to bring that beauty out, though, because it’s a bad shortcut to the divine archetypes.": "they keep the step it gives in its place; the article's text as it stands, unchanged by this pass; it read High in its window of the section's last check and is out of this fix's scope",
+   "I’m not Superman out here trying to “save a hoe.”": "they keep the step it gives in its place; the article's text as it stands, unchanged by this pass; it read High in its window of the section's last check and is out of this fix's scope"
+  }
+ },
+ "his_fixes": {
+  "reader": "the same fresh reader given tools/humanization/his_fixes_brief.md and the text one sentence a line",
+  "marked": [
+   {
+    "s": "That’s why it’s so easy to get confused.",
+    "difference": "way 10: 'That' could point to either idea; way 18: short line"
+   },
+   {
+    "s": "They’re also the two women I’ve actually been in love with, which is probably not a coincidence.",
+    "difference": "way 6: wise-sounding aside"
+   },
+   {
+    "s": "She shouldn’t need a knight in shining armor to bring that beauty out, though, because it’s a bad shortcut to the divine archetypes.",
+    "difference": "way 21: abstract noun phrase 'divine archetypes'; way 10: 'it' unclear"
+   },
+   {
+    "s": "I’m not Superman out here trying to “save a hoe.”",
+    "difference": "way 3: corrects a reading"
+   }
+  ],
+  "kept": {
+   "That’s why it’s so easy to get confused.": "the article's text as it stands, unchanged by this pass; it read High in its window of the section's last check and is out of this fix's scope",
+   "They’re also the two women I’ve actually been in love with, which is probably not a coincidence.": "the article's text as it stands, unchanged by this pass; it read High in its window of the section's last check and is out of this fix's scope",
+   "She shouldn’t need a knight in shining armor to bring that beauty out, though, because it’s a bad shortcut to the divine archetypes.": "the article's text as it stands, unchanged by this pass; it read High in its window of the section's last check and is out of this fix's scope",
+   "I’m not Superman out here trying to “save a hoe.”": "the article's text as it stands, unchanged by this pass; it read High in its window of the section's last check and is out of this fix's scope"
+  }
+ },
+ "fit": {
+  "reader": "the same fresh reader given tools/humanization/fit_read_brief.md and the text one line a line",
+  "marked": [
+   {
+    "s": "Both of them saw me as their knight in shining armor, and that brought out this divine-feminine beauty in them that made me into a real love slave.",
+    "why": "'love slave' reads as a claim of being controlled while the next lines say it is natural"
+   },
+   {
+    "s": "I’m not Superman out here trying to “save a hoe.”",
+    "why": "the phrase may jar or be misread as an insult to women"
+   },
+   {
+    "s": "She shouldn’t need a knight in shining armor to bring that beauty out, though, because it’s a bad shortcut to the divine archetypes.",
+    "why": "a reader can't tell which shortcut or archetypes are meant"
+   }
+  ],
+  "kept": {
+   "Both of them saw me as their knight in shining armor, and that brought out this divine-feminine beauty in them that made me into a real love slave.": "the article's text as it stands, unchanged by this pass; it read High in its window of the section's last check and is out of this fix's scope",
+   "I’m not Superman out here trying to “save a hoe.”": "the article's text as it stands, unchanged by this pass; it read High in its window of the section's last check and is out of this fix's scope",
+   "She shouldn’t need a knight in shining armor to bring that beauty out, though, because it’s a bad shortcut to the divine archetypes.": "the article's text as it stands, unchanged by this pass; it read High in its window of the section's last check and is out of this fix's scope"
+  }
+ },
+ "questions": {
+  "Q1": "PASS: each sentence has its job in the section",
+  "Q2": "PASS: each sentence has its job in the section",
+  "Q3": "PASS: each sentence has its job in the section",
+  "Q4": "PASS: \"lost in the sauce\", \"love slave\", \"director/muse\" are his own terms; the article sets out the director and muse in its own section; the article's own text, unchanged by this fix (it read High in its window of the last check); a read of the section without the article around it (my verdict on the fresh read's \"FAIL: 'lost in the sauce', 'love slave', 'divine archetypes', 'director/muse dynamic' are not explained where used\")",
+  "Q5": "PASS: each sentence has its job in the section",
+  "Q6": "PASS: each sentence has its job in the section",
+  "Q7": "PASS: each sentence has its job in the section",
+  "Q8": "PASS: the article's own text, unchanged by this fix (it read High in its window of the last check); a read of the section without the article around it (my verdict on the fresh read's \"FAIL: S5 doesn't belong with the others\")",
+  "Q9": "PASS: the joined sentence holds one contrast with \"but\" and one example after \"like\", the way he joins (way 8); \"save a hoe\" is the article's own text, unchanged by this fix (it read High in its window of the last check); a read of the section without the article around it (my verdict on the fresh read's \"FAIL: S8 packs three ideas (legit seeing, need nothing back, identifying) into one long sentence; S5 'save a hoe' left u\")"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

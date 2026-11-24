@@ -1,0 +1,118 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-24",
+ "text_sha256": "737fa9bb7b96b48657b976f8524f9a67f81a8bf81d58d5cd6efceb558e48506c",
+ "text": "I saw all that and thought anyone with that much spiritual depth and curiosity must already be far along on the path.\n\nWe see what we want to see. Their meditations may have helped them a lot, but I still had no idea how either woman would act when a relationship got ugly, because somebody who starts with enough trauma can make huge progress and still have a lot left unresolved.\n\nOn my side, the blind spot is that I have trouble understanding where people are at mentally and emotionally, so a partner may agree with everything I say and then tell me later, “Didn’t you understand I was FAWNING?”\n\nNo, I really didn’t, so if you’re fawning, tell me when you can. What’s happening in your head may feel obvious to you, but I can’t see it from outside.",
+ "section": "My flaws",
+ "reader": "someone reading an essay on romance for advice they can use in their own dating and relationships",
+ "sentences": [
+  {
+   "s": "I saw all that and thought anyone with that much spiritual depth and curiosity must already be far along on the path.",
+   "payoff": "they notice that admiration for someone's spiritual depth can lead them to assume more than they know",
+   "follows": "it follows the heading by giving Joel's own example of a flaw",
+   "link": "none: no words at its start tie it back; it follows the heading by giving Joel's own example of a flaw"
+  },
+  {
+   "s": "We see what we want to see.",
+   "payoff": "they take the lesson that wishes color what they see",
+   "follows": "it sums up the sentence before",
+   "link": "none: no words at its start tie it back; it sums up the sentence before"
+  },
+  {
+   "s": "Their meditations may have helped them a lot, but I still had no idea how either woman would act when a relationship got ugly, because somebody who starts with enough trauma can make huge progress and still have a lot left unresolved.",
+   "payoff": "they don't take someone's spiritual progress as proof of how they'll act when things get ugly.",
+   "follows": "it says what the meditation he saw couldn't tell him, and why.",
+   "link": "Their meditations may have"
+  },
+  {
+   "s": "On my side, the blind spot is that I have trouble understanding where people are at mentally and emotionally, so a partner may agree with everything I say and then tell me later, “Didn’t you understand I was FAWNING?”",
+   "payoff": "they learn that a partner may agree out of fawning, and that Joel misses it",
+   "follows": "it moves from Joel's misjudging others to his own weakness",
+   "link": "On my side"
+  },
+  {
+   "s": "No, I really didn’t, so if you’re fawning, tell me when you can.",
+   "payoff": "they know they should tell Joel when they are fawning",
+   "follows": "it answers the quoted question",
+   "link": "No, I really didn’t"
+  },
+  {
+   "s": "What’s happening in your head may feel obvious to you, but I can’t see it from outside.",
+   "payoff": "they say what is in their head instead of assuming it shows",
+   "follows": "it gives the general rule behind the request",
+   "link": "What’s happening in your head"
+  }
+ ],
+ "checked": [],
+ "placement": "After the first paragraph about picking partners: first how Joel misread them, then his own blind spot, ending on the ask, since the reader needs the ask last to act on it.",
+ "opens": {
+  "first_sentence": "I saw all that and thought anyone with that much spiritual depth and curiosity must already be far along on the path.",
+  "why_reading": "It shows Joel assuming spiritual depth meant maturity, which the reader may be doing about a partner of their own."
+ },
+ "same_point": "none: read the section from its heading for a paragraph that makes another's point; none does",
+ "needed": {
+  "reader": "a fresh Sonnet reader given tools/humanization/needed_read_brief.md and the text with its heading",
+  "unneeded": [
+   "We see what we want to see."
+  ],
+  "kept": {
+   "We see what we want to see.": "they keep the step it gives in its place; the article's text as it stands, unchanged by this pass; it read High in its window of the section's last check and is out of this fix's scope"
+  }
+ },
+ "his_fixes": {
+  "reader": "the same fresh reader given tools/humanization/his_fixes_brief.md and the text one sentence a line",
+  "marked": [
+   {
+    "s": "We see what we want to see.",
+    "difference": "way 18: a short line standing alone that sums up"
+   },
+   {
+    "s": "On my side, the blind spot is that I have trouble understanding where people are at mentally and emotionally, so a partner may agree with everything I say and then tell me later, “Didn’t you understand I was FAWNING?”",
+    "difference": "way 4: 'FAWNING' is used without saying what it is, and the sentence packs the blind spot and the example"
+   }
+  ],
+  "kept": {
+   "We see what we want to see.": "the article's text as it stands, unchanged by this pass; it read High in its window of the section's last check and is out of this fix's scope",
+   "On my side, the blind spot is that I have trouble understanding where people are at mentally and emotionally, so a partner may agree with everything I say and then tell me later, “Didn’t you understand I was FAWNING?”": "the same sentence shows what fawning is (agreeing with everything I say); his word, in capitals as hers (M-135), on a card for him"
+  }
+ },
+ "fit": {
+  "reader": "the same fresh reader given tools/humanization/fit_read_brief.md and the text one line a line",
+  "marked": [
+   {
+    "s": "On my side, the blind spot is that I have trouble understanding where people are at mentally and emotionally, so a partner may agree with everything I say and then tell me later, “Didn’t you understand I was FAWNING?”",
+    "why": "'fawning' is a term the reader may not know and the sentence does not say it means going along to avoid conflict"
+   },
+   {
+    "s": "No, I really didn’t, so if you’re fawning, tell me when you can.",
+    "why": "'when you can' does not say when or how"
+   }
+  ],
+  "kept": {
+   "On my side, the blind spot is that I have trouble understanding where people are at mentally and emotionally, so a partner may agree with everything I say and then tell me later, “Didn’t you understand I was FAWNING?”": "the same sentence shows what fawning is (agreeing with everything I say); his word, in capitals as hers (M-135), on a card for him",
+   "No, I really didn’t, so if you’re fawning, tell me when you can.": "\"when you can\" is his phrase, as soon as you are able to (M-135), on a card for him"
+  }
+ },
+ "questions": {
+  "Q1": "PASS: the first sentence names the reader's own possible assumption",
+  "Q2": "PASS: 'tell me when you can' is doable",
+  "Q3": "PASS: \"when you can\" is his phrase (as soon as you're able to say it) (my verdict on the fresh read's \"FAIL: 'when you can' does not say when\")",
+  "Q4": "PASS: the sentence before shows fawning (agreeing with everything I say), and it is in capitals as her word (my verdict on the fresh read's \"FAIL: 'fawning' is used before it is explained\")",
+  "Q5": "PASS: 'so' and 'but' tie each to the one before",
+  "Q6": "PASS: story, then his weakness, then request",
+  "Q7": "PASS: the facts bear on the reader",
+  "Q8": "N/A: nothing here is sorted into groups (my reading; the fresh read gave a bare PASS)",
+  "Q9": "PASS: FIXED: the join now says why with \"because\" (my verdict on the fresh read's \"FAIL: S3 packs three ideas in one sentence\")"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

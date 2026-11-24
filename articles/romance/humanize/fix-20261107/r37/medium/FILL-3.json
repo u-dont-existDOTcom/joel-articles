@@ -1,0 +1,798 @@
+{
+ "r36-16-and-deeper-is-the-point": {
+  "sentences": [
+   {
+    "payoff": "they treat sex as part of how the bond is built and renewed, not only as a practical matter",
+    "follows": "it opens the section by naming what lies past the practical points before the heading's 'deeper'",
+    "link": "Beyond all that"
+   },
+   {
+    "payoff": "they see that without sex a couple has little that separates them from friends",
+    "follows": "it adds a second reason sex matters",
+    "link": "I also think"
+   },
+   {
+    "payoff": "they understand that a deep enough bond no longer rests on sex appeal",
+    "follows": "it turns from why sex matters to what lasts when it is gone",
+    "link": "But if the connection"
+   },
+   {
+    "payoff": "they see that loss of sex or looks is not a reason to stop loving someone",
+    "follows": "it gives cases showing the bond outlasts sex appeal",
+    "link": "none: continues the point by example"
+   },
+   {
+    "payoff": "they consider that a loving partner might accept sex elsewhere",
+    "follows": "it follows the case where sex becomes impossible",
+    "link": "Sometimes they may even"
+   },
+   {
+    "payoff": "they stop using a partner's answer on this as proof of love",
+    "follows": "it gives the other possible answer to the one before",
+    "link": "Or maybe they don’t"
+   }
+  ],
+  "placement": "One short paragraph: the practical-versus-deeper contrast first, then what survives losing sex, then the two possible partner responses; it ends on the test warning because that is the act the reader takes away.",
+  "why_reading": "It says sex matters beyond the practical, so a reader weighing how much sex matters in their own relationship keeps reading.",
+  "same_point": "none: read the section from its heading for a paragraph that makes another's point; none does",
+  "questions": {
+   "Q1": "FAIL: the first two sentences say sex matters, then the heading's 'deeper' is only reached in the third",
+   "Q2": "PASS: the last sentence says what not to do (don't make it a test of love)",
+   "Q3": "FAIL: 'that' in the last sentence could be the partner wanting you elsewhere or the partner not wanting it",
+   "Q4": "PASS: no hard terms",
+   "Q5": "FAIL: 'Or maybe they don’t' turns on 'want you to find satisfaction elsewhere', which is only implied",
+   "Q6": "PASS: matches the order of the reader's thinking",
+   "Q7": "PASS: each fact bears on how to treat sex in a relationship",
+   "Q8": "PASS: all items belong",
+   "Q9": "FAIL: the four-item list in S4 and the compressed last sentence"
+  },
+  "needed": {
+   "unneeded": []
+  },
+  "his_fixes": {
+   "marked": [
+    {
+     "s": "You don’t stop loving the person because she got old, he lost his job, one of you got sick, or sex became impossible.",
+     "difference": "way 19: a list of four reasons in one sentence"
+    },
+    {
+     "s": "Or maybe they don’t, and you can’t make that a test of whether they love you.",
+     "difference": "way 10: 'that' could be the partner's wish or the partner's lack of it"
+    }
+   ]
+  },
+  "fit": {
+   "marked": [
+    {
+     "s": "Or maybe they don’t, and you can’t make that a test of whether they love you.",
+     "why": "'Or maybe they don’t' is read quickly as 'maybe they don't love you', the opposite of what is meant"
+    }
+   ]
+  }
+ },
+ "r36-28-my-flaws-p2": {
+  "sentences": [
+   {
+    "payoff": "they notice that admiration for someone's spiritual depth can lead them to assume more than they know",
+    "follows": "it follows the heading by giving Joel's own example of a flaw",
+    "link": "none: opens the section"
+   },
+   {
+    "payoff": "they take the lesson that wishes color what they see",
+    "follows": "it sums up the sentence before",
+    "link": "none: sums up"
+   },
+   {
+    "payoff": "they accept that meditation or progress does not show how someone handles conflict",
+    "follows": "it qualifies the first sentence with what the admiration didn't prove",
+    "link": "Their meditations may"
+   },
+   {
+    "payoff": "they learn that a partner may agree out of fawning, and that Joel misses it",
+    "follows": "it moves from Joel's misjudging others to his own weakness",
+    "link": "On my side"
+   },
+   {
+    "payoff": "they know they should tell Joel when they are fawning",
+    "follows": "it answers the quoted question",
+    "link": "No, I really didn’t"
+   },
+   {
+    "payoff": "they say what is in their head instead of assuming it shows",
+    "follows": "it gives the general rule behind the request",
+    "link": "What’s happening in your head"
+   }
+  ],
+  "placement": "After the first paragraph about picking partners: first how Joel misread them, then his own blind spot, ending on the ask, since the reader needs the ask last to act on it.",
+  "why_reading": "It shows Joel assuming spiritual depth meant maturity, which the reader may be doing about a partner of their own.",
+  "same_point": "none: read the section from its heading for a paragraph that makes another's point; none does",
+  "questions": {
+   "Q1": "PASS: the first sentence names the reader's own possible assumption",
+   "Q2": "PASS: 'tell me when you can' is doable",
+   "Q3": "FAIL: 'when you can' does not say when",
+   "Q4": "FAIL: 'fawning' is used before it is explained",
+   "Q5": "PASS: 'so' and 'but' tie each to the one before",
+   "Q6": "PASS: story, then his weakness, then request",
+   "Q7": "PASS: the facts bear on the reader",
+   "Q8": "PASS",
+   "Q9": "FAIL: S3 packs three ideas in one sentence"
+  },
+  "needed": {
+   "unneeded": [
+    "We see what we want to see."
+   ]
+  },
+  "his_fixes": {
+   "marked": [
+    {
+     "s": "We see what we want to see.",
+     "difference": "way 18: a short line standing alone that sums up"
+    },
+    {
+     "s": "Their meditations may have helped them a lot, but I still had no idea how either woman would act when a relationship got ugly, and somebody who starts with enough trauma can make huge progress and still have a lot left unresolved.",
+     "difference": "way 1/3: three ideas and a 'but' contrast in one sentence"
+    },
+    {
+     "s": "On my side, the blind spot is that I have trouble understanding where people are at mentally and emotionally, so a partner may agree with everything I say and then tell me later, “Didn’t you understand I was FAWNING?”",
+     "difference": "way 4: 'FAWNING' is used without saying what it is, and the sentence packs the blind spot and the example"
+    }
+   ]
+  },
+  "fit": {
+   "marked": [
+    {
+     "s": "On my side, the blind spot is that I have trouble understanding where people are at mentally and emotionally, so a partner may agree with everything I say and then tell me later, “Didn’t you understand I was FAWNING?”",
+     "why": "'fawning' is a term the reader may not know and the sentence does not say it means going along to avoid conflict"
+    },
+    {
+     "s": "No, I really didn’t, so if you’re fawning, tell me when you can.",
+     "why": "'when you can' does not say when or how"
+    }
+   ]
+  }
+ },
+ "r36-35-if-slow-isn-t-realistic-for-you": {
+  "sentences": [
+   {
+    "payoff": "they see that Joel plans to wait but the plan fails in the moment",
+    "follows": "it follows the heading by naming the usual plan",
+    "link": "none: opens the section"
+   },
+   {
+    "payoff": "they recognize the pull to please that overrides the plan",
+    "follows": "it explains why the plan fails",
+    "link": "Then the heat of the moment"
+   },
+   {
+    "payoff": "they learn to avoid heat-of-the-moment situations",
+    "follows": "it draws the strategy from the failure",
+    "link": "So my main strategy"
+   },
+   {
+    "payoff": "they learn that avoiding is only partly reliable because it starts with a small invitation",
+    "follows": "it gives the limit of the strategy",
+    "link": "Avoiding them has"
+   },
+   {
+    "payoff": "they see what such an invitation looks like",
+    "follows": "it gives examples of the small invitation",
+    "link": "none: gives examples"
+   },
+   {
+    "payoff": "they have things to do: call first, meet around others, decide not to go home together",
+    "follows": "it moves from the problem to what helps",
+    "link": "Phone or video first"
+   },
+   {
+    "payoff": "they see these steps as mild versions of strict religious barriers",
+    "follows": "it names where the steps come from",
+    "link": "Those are light"
+   },
+   {
+    "payoff": "they take the idea that the barrier-makers saw a real problem without accepting their fix",
+    "follows": "it follows the comparison with a judgment",
+    "link": "I don’t accept"
+   },
+   {
+    "payoff": "they understand why they have to build the slowing-down themselves",
+    "follows": "it gives the reason barriers are needed now",
+    "link": "We don’t live in tribes"
+   }
+  ],
+  "placement": "A story of the failing plan, then the strategy, its limit, the practical steps, then the history behind them; the steps sit mid-section so the reader reaches them after seeing why they are needed.",
+  "why_reading": "It admits the plan to wait often fails, so a reader who fails the same way expects help.",
+  "same_point": "none: read the section from its heading for a paragraph that makes another's point; none does",
+  "questions": {
+   "Q1": "PASS: opens with the reader's likely situation",
+   "Q2": "PASS: the steps are doable",
+   "Q3": "FAIL: 'them' and 'this' in S4 and S9 are loose",
+   "Q4": "FAIL: 'body count' and 'helicoptering' are unexplained",
+   "Q5": "FAIL: S7 and S8 do not say what 'those' and 'their' are",
+   "Q6": "PASS",
+   "Q7": "FAIL: the religious cultures do not help this reader",
+   "Q8": "FAIL: S5 lists three events as if equal",
+   "Q9": "FAIL: S6 is compressed"
+  },
+  "needed": {
+   "unneeded": [
+    "Those are light versions of the much stronger barriers that Islamic and conservative Christian cultures put around a man and woman being alone before marriage.",
+    "I don’t accept their helicoptering solution, but they noticed something real."
+   ]
+  },
+  "his_fixes": {
+   "marked": [
+    {
+     "s": "Avoiding them has definitely saved me from having ten times the body count, but it doesn’t work reliably, because the invitation that leads there often starts out small, like “Hey, wanna go do something together?”",
+     "difference": "way 10: 'them' could be the situations or the people; and it packs the benefit and its limit"
+    },
+    {
+     "s": "Maybe she wants me to come to an event, a meditation teaching, or a walk in nature.",
+     "difference": "way 19: three events in a row"
+    },
+    {
+     "s": "Those are light versions of the much stronger barriers that Islamic and conservative Christian cultures put around a man and woman being alone before marriage.",
+     "difference": "way 10: 'Those' could be the steps or the strategy; way 5: opens on a cultural authority"
+    },
+    {
+     "s": "I don’t accept their helicoptering solution, but they noticed something real.",
+     "difference": "way 3: 'I don’t accept..., but they noticed' contrast; way 21: 'helicoptering solution' is a label"
+    },
+    {
+     "s": "We don’t live in tribes anymore, where people around us might know both of us well enough to slow this down.",
+     "difference": "way 6: ends on a general line and 'this' is vague"
+    }
+   ]
+  },
+  "fit": {
+   "marked": [
+    {
+     "s": "Those are light versions of the much stronger barriers that Islamic and conservative Christian cultures put around a man and woman being alone before marriage.",
+     "why": "FROM: Islamic and conservative Christian cultures do not describe the reader's dating situation"
+    },
+    {
+     "s": "I don’t accept their helicoptering solution, but they noticed something real.",
+     "why": "'helicoptering' is unexplained and reads as a loaded jab"
+    },
+    {
+     "s": "Avoiding them has definitely saved me from having ten times the body count, but it doesn’t work reliably, because the invitation that leads there often starts out small, like “Hey, wanna go do something together?”",
+     "why": "'ten times the body count' is a claim the reader cannot check"
+    }
+   ]
+  }
+ },
+ "r36-49-some-babies-grow-up-faster-p2": {
+  "sentences": [
+   {
+    "payoff": "they see a typical request that starts the pattern",
+    "follows": "it opens the paragraph, but no one is named as speaking",
+    "link": "none: opens the section"
+   },
+   {
+    "payoff": "they see that helping repeatedly sets up a dependence",
+    "follows": "it responds to the quoted request",
+    "link": "I usually had"
+   },
+   {
+    "payoff": "they see a concrete case of the pattern",
+    "follows": "it moves from the general pattern to an example",
+    "link": "Key at first"
+   },
+   {
+    "payoff": "they see Joel declining the role",
+    "follows": "it continues the story",
+    "link": "I told her"
+   },
+   {
+    "payoff": "they see the change over time",
+    "follows": "it follows the refusal with what happened",
+    "link": "A few months later"
+   },
+   {
+    "payoff": "they see Joel testing her memory",
+    "follows": "it continues the story",
+    "link": "I asked, “Do you"
+   },
+   {
+    "payoff": "they see how she handled it",
+    "follows": "it gives her reply",
+    "link": "She said, “Wow"
+   },
+   {
+    "payoff": "they accept that Joel can turn condescending",
+    "follows": "it moves from the story to his own flaw",
+    "link": "I also have to admit"
+   },
+   {
+    "payoff": "they learn he reacts strongly to lost responsibility",
+    "follows": "it follows the flaw with its trigger",
+    "link": "none: short follow-on"
+   },
+   {
+    "payoff": "they see the signal to look at their own pattern",
+    "follows": "it gives the useful sign",
+    "link": "If someone tells me"
+   },
+   {
+    "payoff": "they understand Joel's side is involved",
+    "follows": "it turns to the helper's part",
+    "link": "none: short follow-on"
+   },
+   {
+    "payoff": "they see why helping is rewarding",
+    "follows": "it gives the reason",
+    "link": "none: explains the line before"
+   },
+   {
+    "payoff": "they see why the pattern lasts",
+    "follows": "it adds the other half",
+    "link": "A lot of the time"
+   },
+   {
+    "payoff": "they are told to check whether the other person is building their own self-care",
+    "follows": "it ends on what to do",
+    "link": "I also had to look"
+   }
+  ],
+  "placement": "The quoted request opens, then a story, then Joel's own part; the story sits before the lesson so the reader sees the pattern first.",
+  "why_reading": "The first line is a quote with no speaker, so the reader cannot yet tell whether it is theirs or a partner's.",
+  "same_point": "none: read the section from its heading for a paragraph that makes another's point; none does",
+  "questions": {
+   "Q1": "FAIL: the first line has no speaker",
+   "Q2": "PASS: S10 and S14 say what to look at",
+   "Q3": "FAIL: 'what happens on my side' does not say what",
+   "Q4": "PASS: no hard terms",
+   "Q5": "FAIL: S9, S11 follow loosely",
+   "Q6": "PASS",
+   "Q7": "PASS: Joel's own part helps",
+   "Q8": "PASS",
+   "Q9": "FAIL: S9 and S11 are short lines carrying a large idea"
+  },
+  "needed": {
+   "unneeded": [
+    "I find that intolerable."
+   ]
+  },
+  "his_fixes": {
+   "marked": [
+    {
+     "s": "“I’m sad, what should I do?”",
+     "difference": "way 13/18: a bare quote with no speaker, the reader doesn't know why they read it"
+    },
+    {
+     "s": "I usually had some idea, so of course I answered, but enough moments become a pattern.",
+     "difference": "way 21: 'enough moments become a pattern' is a label for the thing"
+    },
+    {
+     "s": "I find that intolerable.",
+     "difference": "way 18: a short line standing alone"
+    },
+    {
+     "s": "I know what happens on my side.",
+     "difference": "way 18: a short line, and way 10: 'what happens on my side' is vague"
+    },
+    {
+     "s": "A lot of the time I really did have the answer or the perspective they needed, so of course they kept asking me.",
+     "difference": "way 3: 'so of course' joins a reason that mirrors the earlier sentence"
+    }
+   ]
+  },
+  "fit": {
+   "marked": [
+    {
+     "s": "“I’m sad, what should I do?”",
+     "why": "the quote has no speaker, so it reads as the reader's own question or a partner's"
+    },
+    {
+     "s": "I also had to look at whether they were trying to take care of themselves without me.",
+     "why": "'without me' could mean without his help or in his absence"
+    }
+   ]
+  }
+ },
+ "r36-67-two-pillars-don-t-hold-the-roof-up-p1": {
+  "sentences": [
+   {
+    "payoff": "they see that one partner cannot meet every need",
+    "follows": "it opens the section from the heading",
+    "link": "none: opens the section"
+   },
+   {
+    "payoff": "they see that even a perfect match needs others",
+    "follows": "it extends the first point",
+    "link": "The polarity could"
+   },
+   {
+    "payoff": "they see a pattern with friends",
+    "follows": "it moves to how this plays out",
+    "link": "Here’s how this looks"
+   },
+   {
+    "payoff": "they see how each partner's friends hear a one-sided story",
+    "follows": "it shows the pattern",
+    "link": "none: no connector"
+   },
+   {
+    "payoff": "they see how it gets worse",
+    "follows": "it adds a further step",
+    "link": "Some of the friends"
+   },
+   {
+    "payoff": "they see the cost",
+    "follows": "it evaluates what came before",
+    "link": "That’s a pretty terrible"
+   },
+   {
+    "payoff": "they see how a crisis leaves no capacity",
+    "follows": "it gives a case",
+    "link": "If one person goes"
+   },
+   {
+    "payoff": "they see that outside friends spot patterns",
+    "follows": "it qualifies that some couples manage",
+    "link": "Maybe an unusually strong"
+   },
+   {
+    "payoff": "they see friends can't fix two people falling apart",
+    "follows": "it adds the limit",
+    "link": "On the other hand"
+   },
+   {
+    "payoff": "they get the frame that confidants cut both ways",
+    "follows": "it turns to confidants",
+    "link": "none: heading for the next part"
+   },
+   {
+    "payoff": "they see one benefit",
+    "follows": "it gives the first half",
+    "link": "They’re helpful when"
+   },
+   {
+    "payoff": "they see the harm",
+    "follows": "it gives the other half",
+    "link": "But if your confidant"
+   },
+   {
+    "payoff": "they see the same-confidant problem",
+    "follows": "it gives the opposite arrangement",
+    "link": "Having the same confidant"
+   },
+   {
+    "payoff": "they know to bear in mind confidants lean toward them",
+    "follows": "it turns to what to do",
+    "link": "If you do have"
+   },
+   {
+    "payoff": "they know to discount what confidants say",
+    "follows": "it ends on the act",
+    "link": "Take what they say"
+   }
+  ],
+  "placement": "Starts with why two people are not enough and the friends pattern, then moves to confidants, and ends on the act to take with them.",
+  "why_reading": "It says even a perfect partner is one person, so a reader who expects one person to be everything sees their own case.",
+  "same_point": "S10 to S15 on confidants repeat in part S5 to S6 on friends' one-sided stories.",
+  "questions": {
+   "Q1": "FAIL: the reader does not know why the friends story comes up in S3 until later",
+   "Q2": "PASS: S14, S15 say what to do",
+   "Q3": "FAIL: 'the one-sided story' in S4 refers to something just implied",
+   "Q4": "FAIL: 'twin flame' and 'polarity' are unexplained",
+   "Q5": "FAIL: S4 lacks the joining word; S9 starts with a capital after a comma",
+   "Q6": "PASS",
+   "Q7": "PASS",
+   "Q8": "FAIL: S9 does not belong with its neighbors",
+   "Q9": "FAIL: S7 packs several ideas"
+  },
+  "needed": {
+   "unneeded": [
+    "On the other hand, If both people are falling apart, there is only so much anyone else can do."
+   ]
+  },
+  "his_fixes": {
+   "marked": [
+    {
+     "s": "Even if I found my twin flame, she’d still be one person.",
+     "difference": "way 4/21: 'twin flame' is an unexplained label"
+    },
+    {
+     "s": "Then I resent the one-sided story she’s telling, she resents the one-sided story I’m telling.",
+     "difference": "way 8: two clauses run together without a joining word"
+    },
+    {
+     "s": "That’s a pretty terrible time to be trying to run the rest of life with two people.",
+     "difference": "way 10: 'That' could be the resentment or the situation"
+    },
+    {
+     "s": "If one person goes down, the other becomes the whole backup system, covering the housing and the money, looking after the children and handling whatever health or emotional crisis comes up, so who even has time for the relationship itself at that point?",
+     "difference": "way 1/19: a list of four burdens and a question inside"
+    },
+    {
+     "s": "Maybe an unusually strong couple can get away without much outside support, but I think that’s rare, because it’s often a friend who actually knows us both who sees the dysfunctional pattern before either of us does.",
+     "difference": "way 3: 'Maybe..., but' contrast"
+    },
+    {
+     "s": "Separate confidants can be helpful and harmful.",
+     "difference": "way 21: a label sentence"
+    },
+    {
+     "s": "They’re helpful when you need privacy from your partner and somewhere else to say what you’re feeling.",
+     "difference": "way 2: built the same as S12 and S13"
+    },
+    {
+     "s": "Having the same confidant creates the opposite problem: now you may not have a release valve when you want privacy from your partner, so neither way is perfect.",
+     "difference": "way 6: 'neither way is perfect' sums up"
+    }
+   ]
+  },
+  "fit": {
+   "marked": [
+    {
+     "s": "Then I resent the one-sided story she’s telling, she resents the one-sided story I’m telling.",
+     "why": "missing 'and', so it reads as a broken sentence"
+    },
+    {
+     "s": "On the other hand, If both people are falling apart, there is only so much anyone else can do.",
+     "why": "'If' is capitalized mid-sentence and the line leaves the reader nothing to do"
+    }
+   ]
+  }
+ },
+ "r36-77-doing-it-consciously-imagination-as-a-di-p2": {
+  "sentences": [
+   {
+    "payoff": "they ask what happens if they disagree on kids",
+    "follows": "it opens a list of imagination tests under the heading",
+    "link": "none: opens the section"
+   },
+   {
+    "payoff": "they ask what the long-run costs would be",
+    "follows": "it gives the next test in the same shape",
+    "link": "Fast forward five years"
+   },
+   {
+    "payoff": "they know the exercise isn't prediction",
+    "follows": "it says what the two questions are not",
+    "link": "This isn’t to make"
+   },
+   {
+    "payoff": "they feel permitted to use rituals",
+    "follows": "it adds a jokey aside",
+    "link": "I mean you can"
+   },
+   {
+    "payoff": "they separate fears from likelihoods",
+    "follows": "it gives the actual skill",
+    "link": "Distinguish between fears"
+   },
+   {
+    "payoff": "they check whether a rosy picture is wishful",
+    "follows": "it gives a test",
+    "link": "If every scene is"
+   },
+   {
+    "payoff": "they accept hope with care",
+    "follows": "it tempers the previous warning",
+    "link": "There’s nothing wrong"
+   },
+   {
+    "payoff": "they see psychedelics worsen idealizing",
+    "follows": "it adds a condition",
+    "link": "And if psychedelics"
+   }
+  ],
+  "placement": "Two imagination questions come first, then what they are not for, then how to judge them, then the psychedelic caveat last because it applies only to some readers.",
+  "why_reading": "It opens with a question about kids, which tells the reader the exercise is checking their own relationship.",
+  "same_point": "none: read the section from its heading for a paragraph that makes another's point; none does",
+  "questions": {
+   "Q1": "FAIL: S1 opens with 'Rewind' and nothing says why",
+   "Q2": "FAIL: S1 and S2 are questions, not an instruction to do",
+   "Q3": "FAIL: 'Rewind' to what point?",
+   "Q4": "FAIL: 'Istikhara' is unexplained",
+   "Q5": "FAIL: S3 turns on 'This' meaning the two questions",
+   "Q6": "PASS",
+   "Q7": "FAIL: the Istikhara and 8 ball asides don't help",
+   "Q8": "PASS",
+   "Q9": "FAIL: S6 packs a hedge inside"
+  },
+  "needed": {
+   "unneeded": [
+    "This isn’t to make predictions and we’re not consulting the magic 8 ball nor doing Istikhara rituals here.",
+    "I mean you can do that too if you want.",
+    "There’s nothing wrong with expecting the best, but it takes work to get there in a wise way."
+   ]
+  },
+  "his_fixes": {
+   "marked": [
+    {
+     "s": "Rewind: what if we disagree on having kids?",
+     "difference": "way 13: opens on a question before saying why"
+    },
+    {
+     "s": "This isn’t to make predictions and we’re not consulting the magic 8 ball nor doing Istikhara rituals here.",
+     "difference": "way 3: 'This isn't..., nor' contrast; Istikhara is unexplained (way 4)"
+    },
+    {
+     "s": "I mean you can do that too if you want.",
+     "difference": "way 18: a short joke line"
+    },
+    {
+     "s": "If every scene is beautiful, consider that you may be, and almost certainly are, still rehearsing the relationship you want.",
+     "difference": "way 3: 'you may be, and almost certainly are' is hedged and contrasting"
+    },
+    {
+     "s": "There’s nothing wrong with expecting the best, but it takes work to get there in a wise way.",
+     "difference": "way 3/6: 'nothing wrong..., but' and ends on a wise line"
+    },
+    {
+     "s": "And if psychedelics are involved, every scene can look even more beautiful, so they make this same problem of idealization much stronger.",
+     "difference": "way 10: 'they' could be the scenes or the psychedelics, and 'this same problem' is a label"
+    }
+   ]
+  },
+  "fit": {
+   "marked": [
+    {
+     "s": "Rewind: what if we disagree on having kids?",
+     "why": "'Rewind' to when? it reads as a command to the reader with no starting point"
+    },
+    {
+     "s": "This isn’t to make predictions and we’re not consulting the magic 8 ball nor doing Istikhara rituals here.",
+     "why": "FROM: Istikhara is another culture's ritual the reader may not know"
+    },
+    {
+     "s": "And if psychedelics are involved, every scene can look even more beautiful, so they make this same problem of idealization much stronger.",
+     "why": "'they' could be scenes or psychedelics"
+    }
+   ]
+  }
+ },
+ "r36-83-if-you-re-already-in-it-p2": {
+  "sentences": [
+   {
+    "payoff": "they see the unspoken trust problem",
+    "follows": "it opens the section from the heading",
+    "link": "none: opens the section"
+   },
+   {
+    "payoff": "they see unspoken attractions",
+    "follows": "it adds another unspoken thing",
+    "link": "Attractions to other people"
+   },
+   {
+    "payoff": "they see couples stay in it",
+    "follows": "it generalizes",
+    "link": "Some people keep"
+   },
+   {
+    "payoff": "they see over-honesty also hurts",
+    "follows": "it gives the opposite failure",
+    "link": "On the other hand"
+   },
+   {
+    "payoff": "they ask whether both truly want radical honesty",
+    "follows": "it gives the first act",
+    "link": "Ask whether both"
+   },
+   {
+    "payoff": "they see that stalling doesn't save it",
+    "follows": "it gives the other side",
+    "link": "But the other person"
+   },
+   {
+    "payoff": "they get a path if stuck: agape",
+    "follows": "it follows from being stuck",
+    "link": "If the two of you"
+   },
+   {
+    "payoff": "they check how close they are",
+    "follows": "it asks a test question",
+    "link": "When did you"
+   },
+   {
+    "payoff": "they know what 'dance' means here",
+    "follows": "it clears a joke",
+    "link": "And not the"
+   },
+   {
+    "payoff": "they see the trust is gone",
+    "follows": "it gives the worse case",
+    "link": "If that’s where"
+   },
+   {
+    "payoff": "they see Joel has been there",
+    "follows": "it adds credibility",
+    "link": "I know that one"
+   },
+   {
+    "payoff": "they know to act before it",
+    "follows": "it gives the act",
+    "link": "That generally marks"
+   },
+   {
+    "payoff": "they see how resentment snowballs",
+    "follows": "it gives the reason",
+    "link": "Because once you’re"
+   },
+   {
+    "payoff": "they see where it ends",
+    "follows": "it closes on an image",
+    "link": "Pretty soon"
+   }
+  ],
+  "placement": "Starts with how couples hide the trust problem, then the honesty act, the stuck case, then the late-stage warning; the warning sits last as it is the worst outcome.",
+  "why_reading": "The first line tells the reader trust problems may be hidden, so they check their own.",
+  "same_point": "none: read the section from its heading for a paragraph that makes another's point; none does",
+  "questions": {
+   "Q1": "FAIL: S1 'less mysterious' points to something never shown",
+   "Q2": "FAIL: 'agape' in S7 is not explained, so the act is unclear",
+   "Q3": "FAIL: 'there', 'that', 'not now' unnamed",
+   "Q4": "FAIL: 'agape' and 'radical honesty' are unexplained",
+   "Q5": "FAIL: S6, S10 and S12 turn on unnamed referents",
+   "Q6": "FAIL: S8 and S9 interrupt",
+   "Q7": "FAIL: the dad aside is no use",
+   "Q8": "PASS",
+   "Q9": "FAIL: S10 packs 'if that's where things are at'"
+  },
+  "needed": {
+   "unneeded": [
+    "And not the “we dance around our problems” joke (LOL)..",
+    "Because once you’re there, as my dad explained a thousand times whenever we had a visitor, unconscious resentment begins to snowball, and we feel colder together than alone.",
+    "Pretty soon, old Romeo & Juliette might get wandering eye syndrome."
+   ]
+  },
+  "his_fixes": {
+   "marked": [
+    {
+     "s": "Some things were less mysterious: they were acting as if the trust problem wasn’t there because they still wanted the relationship.",
+     "difference": "way 22: 'Some things were less mysterious' points back without naming what"
+    },
+    {
+     "s": "But the other person also can’t keep saying “not now” forever and think that’s going to save the relationship.",
+     "difference": "way 10: 'the other person' and 'not now' are unclear"
+    },
+    {
+     "s": "If the two of you are stuck there, that’s when you need agape the most, because the best thing for both of you may not be holding onto the relationship pattern you originally committed to or dreamt of.",
+     "difference": "way 4/21: 'agape' is unexplained and 'there' is vague"
+    },
+    {
+     "s": "When did you two last dance?",
+     "difference": "way 23: a question with no lead-in"
+    },
+    {
+     "s": "If that’s where things are at, ouch, the trust is out the window.",
+     "difference": "way 10: 'that' could be the trust problem or the stuck state; way 18 style cliche"
+    },
+    {
+     "s": "That generally marks the point of no return, so try not to wait for that.",
+     "difference": "way 10: 'That' and 'that' are two pointers"
+    },
+    {
+     "s": "Because once you’re there, as my dad explained a thousand times whenever we had a visitor, unconscious resentment begins to snowball, and we feel colder together than alone.",
+     "difference": "way 5: opens on authority (my dad), way 24: aside interrupts"
+    },
+    {
+     "s": "Pretty soon, old Romeo & Juliette might get wandering eye syndrome.",
+     "difference": "way 6: ends on a wise line"
+    }
+   ]
+  },
+  "fit": {
+   "marked": [
+    {
+     "s": "Some things were less mysterious: they were acting as if the trust problem wasn’t there because they still wanted the relationship.",
+     "why": "'less mysterious' than what: it points back at nothing"
+    },
+    {
+     "s": "If the two of you are stuck there, that’s when you need agape the most, because the best thing for both of you may not be holding onto the relationship pattern you originally committed to or dreamt of.",
+     "why": "'agape' is not explained"
+    },
+    {
+     "s": "If that’s where things are at, ouch, the trust is out the window.",
+     "why": "'that' could be the trust or the stuck state"
+    },
+    {
+     "s": "That generally marks the point of no return, so try not to wait for that.",
+     "why": "'wait for that' is unclear about what the reader should do instead"
+    }
+   ]
+  }
+ }
+}

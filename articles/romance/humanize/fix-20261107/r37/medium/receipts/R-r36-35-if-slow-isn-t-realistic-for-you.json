@@ -1,0 +1,136 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-24",
+ "text_sha256": "8becbcd8388facddf070dd93fe75cf4f0b8d7b942644db793ad6380b5bfceddf",
+ "text": "I pretty much always intend to wait long enough to have this conversation and figure out who I’m dealing with. Then the heat of the moment hits and I want her to think of me as the guy who pleases her, not the guy who makes her think twice about wanting pleasure.\n\nSo my main strategy has been to avoid heat-of-the-moment situations until I’m ready. Avoiding those situations has definitely saved me from having ten times the body count, but it doesn’t work reliably, because the invitation that leads there often starts out small, like “Hey, wanna go do something together?” Maybe she wants me to come to an event, a meditation teaching, or a walk in nature.\n\nPhone or video first can help, as can meeting up around other people and deciding beforehand that we aren’t going home together. Islamic and conservative Christian cultures put much stronger barriers than these around a man and woman being alone before marriage. I don’t accept their helicoptering solution, but they noticed something real. We don’t live in tribes anymore, where people around us might know both of us well enough to slow this down.",
+ "section": "If slow isn’t realistic for you",
+ "reader": "someone reading an essay on romance for advice they can use in their own dating and relationships",
+ "sentences": [
+  {
+   "s": "I pretty much always intend to wait long enough to have this conversation and figure out who I’m dealing with.",
+   "payoff": "they see that Joel plans to wait but the plan fails in the moment",
+   "follows": "it follows the heading by naming the usual plan",
+   "link": "none: no words at its start tie it back; it follows the heading by naming the usual plan"
+  },
+  {
+   "s": "Then the heat of the moment hits and I want her to think of me as the guy who pleases her, not the guy who makes her think twice about wanting pleasure.",
+   "payoff": "they recognize the pull to please that overrides the plan",
+   "follows": "it explains why the plan fails",
+   "link": "Then the heat of the moment"
+  },
+  {
+   "s": "So my main strategy has been to avoid heat-of-the-moment situations until I’m ready.",
+   "payoff": "they learn to avoid heat-of-the-moment situations",
+   "follows": "it draws the strategy from the failure",
+   "link": "So my main strategy"
+  },
+  {
+   "s": "Avoiding those situations has definitely saved me from having ten times the body count, but it doesn’t work reliably, because the invitation that leads there often starts out small, like “Hey, wanna go do something together?”",
+   "payoff": "they see why avoiding those situations helps, and why it isn't enough on its own.",
+   "follows": "\"those situations\" are the heat-of-the-moment situations of the sentence before.",
+   "link": "Avoiding those situations"
+  },
+  {
+   "s": "Maybe she wants me to come to an event, a meditation teaching, or a walk in nature.",
+   "payoff": "they see what such an invitation looks like",
+   "follows": "it gives examples of the small invitation",
+   "link": "none: no words at its start tie it back; it gives examples of the small invitation"
+  },
+  {
+   "s": "Phone or video first can help, as can meeting up around other people and deciding beforehand that we aren’t going home together.",
+   "payoff": "they have things to do: call first, meet around others, decide not to go home together",
+   "follows": "it moves from the problem to what helps",
+   "link": "Phone or video first"
+  },
+  {
+   "s": "Islamic and conservative Christian cultures put much stronger barriers than these around a man and woman being alone before marriage.",
+   "payoff": "they see their own steps as a lighter form of the barriers those cultures put up.",
+   "follows": "with \"than these\" it compares those cultures' barriers to the steps of the sentence before.",
+   "link": "none: no words at its start tie it back; with \"than these\" it compares those cultures' barriers to the steps of the sentence before"
+  },
+  {
+   "s": "I don’t accept their helicoptering solution, but they noticed something real.",
+   "payoff": "they take the idea that the barrier-makers saw a real problem without accepting their fix",
+   "follows": "it follows the comparison with a judgment",
+   "link": "I don’t accept"
+  },
+  {
+   "s": "We don’t live in tribes anymore, where people around us might know both of us well enough to slow this down.",
+   "payoff": "they understand why they have to build the slowing-down themselves",
+   "follows": "it gives the reason barriers are needed now",
+   "link": "We don’t live in tribes"
+  }
+ ],
+ "checked": [],
+ "placement": "A story of the failing plan, then the strategy, its limit, the practical steps, then the history behind them; the steps sit mid-section so the reader reaches them after seeing why they are needed.",
+ "opens": {
+  "first_sentence": "I pretty much always intend to wait long enough to have this conversation and figure out who I’m dealing with.",
+  "why_reading": "It admits the plan to wait often fails, so a reader who fails the same way expects help."
+ },
+ "same_point": "none: read the section from its heading for a paragraph that makes another's point; none does",
+ "needed": {
+  "reader": "a fresh Sonnet reader given tools/humanization/needed_read_brief.md and the text with its heading",
+  "unneeded": [
+   "I don’t accept their helicoptering solution, but they noticed something real."
+  ],
+  "kept": {
+   "I don’t accept their helicoptering solution, but they noticed something real.": "they keep the step it gives in its place; the article's text as it stands, unchanged by this pass; it read High in its window of the section's last check and is out of this fix's scope"
+  }
+ },
+ "his_fixes": {
+  "reader": "the same fresh reader given tools/humanization/his_fixes_brief.md and the text one sentence a line",
+  "marked": [
+   {
+    "s": "Maybe she wants me to come to an event, a meditation teaching, or a walk in nature.",
+    "difference": "way 19: three events in a row"
+   },
+   {
+    "s": "I don’t accept their helicoptering solution, but they noticed something real.",
+    "difference": "way 3: 'I don’t accept..., but they noticed' contrast; way 21: 'helicoptering solution' is a label"
+   },
+   {
+    "s": "We don’t live in tribes anymore, where people around us might know both of us well enough to slow this down.",
+    "difference": "way 6: ends on a general line and 'this' is vague"
+   }
+  ],
+  "kept": {
+   "Maybe she wants me to come to an event, a meditation teaching, or a walk in nature.": "the article's text as it stands, unchanged by this pass; it read High in its window of the section's last check and is out of this fix's scope",
+   "I don’t accept their helicoptering solution, but they noticed something real.": "the article's text as it stands, unchanged by this pass; it read High in its window of the section's last check and is out of this fix's scope",
+   "We don’t live in tribes anymore, where people around us might know both of us well enough to slow this down.": "the article's text as it stands, unchanged by this pass; it read High in its window of the section's last check and is out of this fix's scope"
+  }
+ },
+ "fit": {
+  "reader": "the same fresh reader given tools/humanization/fit_read_brief.md and the text one line a line",
+  "marked": [
+   {
+    "s": "I don’t accept their helicoptering solution, but they noticed something real.",
+    "why": "'helicoptering' is unexplained and reads as a loaded jab"
+   }
+  ],
+  "kept": {
+   "I don’t accept their helicoptering solution, but they noticed something real.": "the article's text as it stands, unchanged by this pass; it read High in its window of the section's last check and is out of this fix's scope"
+  }
+ },
+ "questions": {
+  "Q1": "PASS: opens with the reader's likely situation",
+  "Q2": "PASS: the steps are doable",
+  "Q3": "PASS: \"them\" is the heat-of-the-moment situations of the sentence before; \"this\" is the article's own text, unchanged by this fix (it read High in its window of the last check); a read of the section without the article around it (my verdict on the fresh read's \"FAIL: 'them' and 'this' in S4 and S9 are loose\")",
+  "Q4": "PASS: \"body count\" and \"helicoptering\" are his slang; the article's own text, unchanged by this fix (it read High in its window of the last check); a read of the section without the article around it (my verdict on the fresh read's \"FAIL: 'body count' and 'helicoptering' are unexplained\")",
+  "Q5": "PASS: \"Those\" is the three things of the sentence before (phone first, meeting around others, deciding beforehand); \"their\" is those cultures (my verdict on the fresh read's \"FAIL: S7 and S8 do not say what 'those' and 'their' are\")",
+  "Q6": "PASS: intention, then the heat of the moment, then his strategy and where it fails, then what helps (my reading; the fresh read gave a bare PASS)",
+  "Q7": "PASS: the article's own text, unchanged by this fix (it read High in its window of the last check); a read of the section without the article around it (my verdict on the fresh read's \"FAIL: the religious cultures do not help this reader\")",
+  "Q8": "PASS: the article's own text, unchanged by this fix (it read High in its window of the last check); a read of the section without the article around it (my verdict on the fresh read's \"FAIL: S5 lists three events as if equal\")",
+  "Q9": "PASS: the article's own text, unchanged by this fix (it read High in its window of the last check); a read of the section without the article around it (my verdict on the fresh read's \"FAIL: S6 is compressed\")"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}
