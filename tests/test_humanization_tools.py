@@ -51,6 +51,22 @@ class OwnerEditsExactCharacters(unittest.TestCase):
         self.assertIn('exact characters', fails[0])
 
 
+class OwnerEditsRemovedSource(unittest.TestCase):
+    """Bad trips, 2026-11-24: he had a source taken out ("remove the source then if there's no source") while his claim
+    stayed; the ledger holds the address so no later rewrite links it again, whatever words the link carries."""
+    E = {'id': 'r56', 'what': 'the absorption source out', 'status': 'applied',
+         'must_not_link': ['https://pubmed.ncbi.nlm.nih.gov/11794633']}
+
+    def test_link_back_under_other_words_fails(self):
+        raw = 'It absorbs [better than oxide](https://pubmed.ncbi.nlm.nih.gov/11794633/), usually within a minute.'
+        self.assertEqual(check_owner_edits.check_entry(self.E, check_owner_edits.norm(raw), raw),
+                         ['link still there: https://pubmed.ncbi.nlm.nih.gov/11794633'])
+
+    def test_claim_without_the_link_passes(self):
+        raw = 'It absorbs faster and better than any other form, and [another study](https://pubmed.ncbi.nlm.nih.gov/27917269/) stays.'
+        self.assertEqual(check_owner_edits.check_entry(self.E, check_owner_edits.norm(raw), raw), [])
+
+
 class LinterAbstractAgents(unittest.TestCase):
     def lint(self, text):
         with tempfile.TemporaryDirectory() as d:

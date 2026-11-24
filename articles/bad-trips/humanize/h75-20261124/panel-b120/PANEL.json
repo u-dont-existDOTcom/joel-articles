@@ -1,0 +1,49 @@
+{
+ "readers": [
+  "haiku",
+  "sonnet"
+ ],
+ "sentences": [
+  "People with impaired kidneys do need to be more cautious with large, rapid magnesium doses because they may not clear magnesium normally.",
+  "But they should be far more worried about the MDMA.",
+  "MDMA can cause overheating, rhabdomyolysis, dangerous electrolyte shifts, and acute kidney injury.",
+  "Kidney impairment is a strong reason not to take MDMA--not a reason to sit there with worsening jaw tension after taking it.",
+  "I would not tell somebody with serious kidney impairment to copy my one-gram-per-minute approach blindly; I would tell them to treat the situation as higher-risk and get help sooner."
+ ],
+ "flagged": {
+  "1": [
+   "haiku"
+  ],
+  "2": [
+   "haiku",
+   "sonnet"
+  ],
+  "3": [
+   "haiku",
+   "sonnet"
+  ],
+  "4": [
+   "haiku",
+   "sonnet"
+  ],
+  "5": [
+   "haiku",
+   "sonnet"
+  ]
+ },
+ "agreed": [
+  2,
+  3,
+  4,
+  5
+ ],
+ "whole": {
+  "haiku": [
+   "The paragraph moves in a clean, evenly weighted arc (caution, pivot, warning, alternative advice), and each sentence states its point without wandering or trailing off, which reads more like a polished summary than a voice thinking as it writes. The balance of its clauses gives it away more than any single word does."
+  ],
+  "sonnet": [
+   "The paragraph is built as a neat caution, then a pivot, then a list of risks, then a contrast, then a hedged closing disclaimer. Its rhythm is even and every sentence is polished, so it reads like a model covering all the bases."
+  ]
+ },
+ "human_clean": []
+}

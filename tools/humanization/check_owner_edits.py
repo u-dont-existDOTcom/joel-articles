@@ -25,7 +25,8 @@ The ledger (an article's OWNER-EDITS.json) lists each edit Joel gives and each c
 what a paragraph covers. Each entry has strings the article's visible text must contain,
 must not contain, or must have in order. An entry can also list links (must_link: text and
 url) the article must have; those are checked on the text with comments removed but link
-targets kept. A span (from, to) checks one passage only, for strings it must or must not contain
+targets kept. And it can list addresses no link of the article may point to (must_not_link: the
+start of a URL), for a source he had taken out. A span (from, to) checks one passage only, for strings it must or must not contain
 (2026-10-11: one paragraph mustn't say "get checked" while another section rightly does, about a
 medical warning sign). And it can list strings the article must contain character for character
 (must_contain_exact): the same text, but with its quotes and apostrophes left as they are.
@@ -71,6 +72,9 @@ def check_entry(e, text, raw='', exact=''):
     for l in e.get('must_link', []):
         if ('[%s](%s)' % (l['text'], l['url'])).translate(QUOTES) not in raw:
             fails.append('link missing: [%s](%s)' % (l['text'], l['url']))
+    for u in e.get('must_not_link', []):   # a source Joel had taken out (bad trips, 2026-11-24: "remove the source then if there's no source"): its address must not come back, whatever the link's words
+        if '](%s' % u.translate(QUOTES) in raw:
+            fails.append('link still there: %s' % u)
     for s in e.get('must_contain', []):
         if norm(s) not in text:
             fails.append('missing: "%s"' % s)

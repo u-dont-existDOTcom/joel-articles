@@ -136,12 +136,27 @@ def compare_gate(article, unread_ok=None):
     return ('Unread-ok (the comparison gate failed for %s): %s' % (', '.join(failed), unread_ok)) if failed else ''
 
 
+def trailer_note(env):
+    """Lesson bad-trips-2026-11-24v: a line to print when a Claude session commits without its trailer lines. The bad
+    trips lane's commits of turns 63 to 66 went out without them: the variable had been set in an earlier command, and a
+    shell command's environment doesn't carry to the next one. '' when the trailers are set or no Claude session runs this."""
+    if env.get('LANE_COMMIT_TRAILERS', '').strip():
+        return ''
+    if env.get('CLAUDE_CODE_SESSION_ID') or env.get('CLAUDECODE'):
+        return ('NO TRAILERS: this commit has no attribution lines. Set LANE_COMMIT_TRAILERS in the same command as '
+                'lane_push.py (LANE_COMMIT_TRAILERS=$\'line one\\nline two\' python3 tools/humanization/lane_push.py ...); '
+                'a variable exported in an earlier command is gone (lesson bad-trips-2026-11-24v)')
+    return ''
+
+
 def commit(subject, paths, note=''):
     run(['git', 'add', '-A'] + paths)
     if run(['git', 'diff', '--cached', '--quiet'], check=False).returncode == 0:
         return False
     msg = subject + ('\n\n' + note if note else '')
     trailers = os.environ.get('LANE_COMMIT_TRAILERS', '').strip()
+    if trailer_note(os.environ):
+        print(trailer_note(os.environ))
     if trailers:
         msg += '\n\n' + trailers
     run(['git', 'commit', '-q', '-m', msg])

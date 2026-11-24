@@ -607,6 +607,33 @@ def unit_problems(review):
                     break
     return probs
 
+PERCENT_FROM = '2026-11-25'
+PERCENT_FIELDS = UNIT_FIELDS + ('reading', 'tested')
+
+
+def percent_problems(review):
+    """Lesson bad-trips-2026-11-24t. On pages built from PERCENT_FROM, no text a card or the page's intro shows him holds
+    "%%": round 56's question read "poorly absorbed (4%%)" because its string was written for %-formatting and never
+    formatted, and he was shown the slip."""
+    built = review.get('built') or ''
+    if not re.match(r'\d{4}-\d{2}-\d{2}', built) or built[:10] < PERCENT_FROM:
+        return []
+    probs = []
+    for i, tx in enumerate(review.get('intro') or []):
+        if isinstance(tx, str) and '%%' in tx:
+            probs.append('intro paragraph %d shows "%%%%": a string written for %%-formatting that was never formatted (lesson '
+                         'bad-trips-2026-11-24t)' % (i + 1))
+    for s in review['suggestions']:
+        for field in PERCENT_FIELDS:
+            v = s.get(field)
+            texts = [v] if isinstance(v, str) else [x.get('text', '') if isinstance(x, dict) else str(x)
+                                                    for x in v] if isinstance(v, list) else []
+            if any('%%' in (tx or '') for tx in texts):
+                probs.append('%s: its %s shows "%%%%": a string written for %%-formatting that was never formatted, so he '
+                             'would read "4%%%%" for "4%%" (lesson bad-trips-2026-11-24t)' % (s.get('id', '?'), field))
+    return probs
+
+
 def check(review, bl):
     """Problems with REVIEW against the article's blocks: [message]."""
     probs, ids = whole_problems(review, bl), set()
@@ -701,6 +728,7 @@ def check(review, bl):
     probs += sense_problems(review)
     probs += list_problems(review, bl)
     probs += unit_problems(review)
+    probs += percent_problems(review)
     return probs
 
 

@@ -1,0 +1,114 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-24",
+ "text_sha256": "722e5fef394310e78451d6af9623b6434b54136e326be6b64d36fd2c70e3c850",
+ "text": "**Someone with impaired kidneys does need to be more cautious with a large, rapid magnesium dose, since their kidneys may not clear magnesium normally. But the MDMA should worry them far more.** It can cause overheating and rhabdomyolysis, and it can cause dangerous electrolyte shifts and [acute kidney injury](https://pubmed.ncbi.nlm.nih.gov/27917269/). Kidney impairment is a strong reason to skip MDMA altogether. Once someone has taken it and their jaw tension is getting worse, the kidneys are no reason to sit there with it. Someone with serious kidney impairment should not copy my one-gram-per-minute approach blindly. Treat the situation as higher-risk and get help sooner.",
+ "section": "MDMA: Magnesium Alarm",
+ "reader": "a friend at a festival with someone who took MDMA a few hours ago, whose jaw has started to clench and grind, with magnesium chloride flakes in their bag, reading what to do",
+ "sentences": [
+  {
+   "s": "**Someone with impaired kidneys does need to be more cautious with a large, rapid magnesium dose, since their kidneys may not clear magnesium normally.",
+   "payoff": "they know magnesium needs more care when the kidneys are impaired, and why",
+   "follows": "the section's magnesium doses"
+  },
+  {
+   "s": "But the MDMA should worry them far more.** It can cause overheating and rhabdomyolysis, and it can cause dangerous electrolyte shifts and [acute kidney injury](https://pubmed.ncbi.nlm.nih.gov/27917269/).",
+   "payoff": "they know the MDMA is the bigger danger",
+   "follows": "the magnesium caution just given",
+   "link": "But the MDMA"
+  },
+  {
+   "s": "Kidney impairment is a strong reason to skip MDMA altogether.",
+   "payoff": "they know impaired kidneys are a reason not to take MDMA",
+   "follows": "what MDMA can cause, just listed",
+   "link": "Kidney impairment"
+  },
+  {
+   "s": "Once someone has taken it and their jaw tension is getting worse, the kidneys are no reason to sit there with it.",
+   "payoff": "they know worsening jaw tension still gets treated once the MDMA is taken",
+   "follows": "not taking MDMA, just said",
+   "link": "Once someone has taken it"
+  },
+  {
+   "s": "Someone with serious kidney impairment should not copy my one-gram-per-minute approach blindly.",
+   "payoff": "they know the writer's one-gram-per-minute amounts are not for serious kidney impairment as they stand",
+   "follows": "the jaw tension that still gets treated, just said",
+   "link": "Someone with serious kidney impairment"
+  },
+  {
+   "s": "Treat the situation as higher-risk and get help sooner.",
+   "payoff": "they know to get help sooner in that case",
+   "follows": "serious kidney impairment, just named",
+   "link": "Treat the situation"
+  }
+ ],
+ "checked": [
+  {
+   "point": "people with impaired kidneys need to be more cautious with large, rapid magnesium doses, since they may not clear magnesium normally, and should be far more worried about the MDMA",
+   "found": "his post as of 2026-11-03 (original.md), the paragraph as it stood in the guide before this turn (his bold lead); fidelity key W027 and facts.py hold its words",
+   "still_needed": "yes: they know magnesium needs more care with impaired kidneys, and that the MDMA is the bigger danger",
+   "fate": "kept"
+  },
+  {
+   "point": "MDMA can cause overheating, rhabdomyolysis, dangerous electrolyte shifts and acute kidney injury",
+   "found": "his post as of 2026-11-03 (original.md), the paragraph as it stood in the guide before this turn, with its link to the acute kidney injury study (PubMed 27917269); fidelity key W028 and facts.py hold each term",
+   "still_needed": "yes: they know why the MDMA is the bigger danger to someone whose kidneys are impaired",
+   "fate": "changed"
+  },
+  {
+   "point": "kidney impairment is a strong reason not to take MDMA, and after taking it no reason to sit there with worsening jaw tension",
+   "found": "his post as of 2026-11-03 (original.md), the paragraph as it stood in the guide before this turn, where it is one sentence with a dash aside (\"--not a reason to sit there ...\")",
+   "still_needed": "yes: they know not to leave worsening jaw tension alone because of the kidneys",
+   "fate": "changed"
+  },
+  {
+   "point": "with serious kidney impairment he would not have them copy his one-gram-per-minute approach blindly: the situation is higher-risk and help comes sooner",
+   "found": "his post as of 2026-11-03 (original.md), the paragraph as it stood in the guide before this turn, where it is a mirrored pair (\"I would not tell ...; I would tell them ...\"); fidelity key W029 holds one-gram-per-minute and higher-risk",
+   "still_needed": "yes: they know his amounts are not for serious kidney impairment as they stand, and to get help sooner",
+   "fate": "changed"
+  }
+ ],
+ "placement": "the last paragraph of MDMA: Magnesium Alarm (B120), after the dance paragraph and before Chest Pain and Injury",
+ "opens": {
+  "first_sentence": "**Someone with impaired kidneys does need to be more cautious with a large, rapid magnesium dose, since their kidneys may not clear magnesium normally.",
+  "why_reading": "it tells the friend what changes when someone has impaired kidneys"
+ },
+ "same_point": "none: read the section from its heading to the next; the caution for impaired kidneys is said only here, and overheating and the electrolytes are named here for what the MDMA does to those kidneys",
+ "needed": {
+  "reader": "a fresh agent (Sonnet) given tools/humanization/needed_read_brief.md (../h74-20261124/reads/need-a1-sec.txt), on turn 66's version one of the whole section",
+  "unneeded": [],
+  "kept": {}
+ },
+ "his_fixes": {
+  "reader": "a fresh agent (Sonnet) given tools/humanization/his_fixes_brief.md (../h74-20261124/reads/his-a1-sec.txt), on turn 66's version one of the whole section",
+  "marked": [],
+  "kept": {}
+ },
+ "fit": {
+  "reader": "a fresh agent (Sonnet) given tools/humanization/fit_read_brief.md (../h74-20261124/reads/fit-a1-sec.txt), on turn 66's version one of the whole section",
+  "marked": [],
+  "kept": {}
+ },
+ "questions": {
+  "Q1": "PASS: read against turn 66's three fresh reads of this paragraph (humanize/h74-20261124/reads) and the tell panel on his post's text (panel-b120/PANEL.md); the try answers their marks and adds no dose, reason or advice",
+  "Q2": "PASS: read against turn 66's three fresh reads of this paragraph (humanize/h74-20261124/reads) and the tell panel on his post's text (panel-b120/PANEL.md); the try answers their marks and adds no dose, reason or advice",
+  "Q3": "PASS: read against turn 66's three fresh reads of this paragraph (humanize/h74-20261124/reads) and the tell panel on his post's text (panel-b120/PANEL.md); the try answers their marks and adds no dose, reason or advice",
+  "Q4": "PASS: read against turn 66's three fresh reads of this paragraph (humanize/h74-20261124/reads) and the tell panel on his post's text (panel-b120/PANEL.md); the try answers their marks and adds no dose, reason or advice",
+  "Q5": "PASS: read against turn 66's three fresh reads of this paragraph (humanize/h74-20261124/reads) and the tell panel on his post's text (panel-b120/PANEL.md); the try answers their marks and adds no dose, reason or advice",
+  "Q6": "PASS: read against turn 66's three fresh reads of this paragraph (humanize/h74-20261124/reads) and the tell panel on his post's text (panel-b120/PANEL.md); the try answers their marks and adds no dose, reason or advice",
+  "Q7": "PASS: read against turn 66's three fresh reads of this paragraph (humanize/h74-20261124/reads) and the tell panel on his post's text (panel-b120/PANEL.md); the try answers their marks and adds no dose, reason or advice",
+  "Q8": "PASS: read against turn 66's three fresh reads of this paragraph (humanize/h74-20261124/reads) and the tell panel on his post's text (panel-b120/PANEL.md); the try answers their marks and adds no dose, reason or advice",
+  "Q9": "PASS: read against turn 66's three fresh reads of this paragraph (humanize/h74-20261124/reads) and the tell panel on his post's text (panel-b120/PANEL.md); the try answers their marks and adds no dose, reason or advice"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

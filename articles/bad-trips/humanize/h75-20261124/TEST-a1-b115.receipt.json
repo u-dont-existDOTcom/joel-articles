@@ -1,0 +1,103 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-24",
+ "text_sha256": "0445bd5868f2c3279998b75af7a3c9c3d4bb321306af18ed87ab08d308a5317a",
+ "text": "A token dose may not be enough to make the jaw release. More than once, I've dissolved **Dead Sea magnesium chloride hexahydrate flakes** in water and taken about **one gram per minute by mouth for around twenty minutes** before mine fully released. Around twenty grams is fine for my gut, and I've only had diarrhea above about forty grams. And magnesium chloride is [less likely to cause diarrhea than several other kinds of magnesium](https://pmc.ncbi.nlm.nih.gov/articles/PMC10509448/), including the ones people take on purpose as laxatives. I use it mostly because it's what I know works best: it absorbs faster and better than any other form, so you can see how it's helping, usually within a minute.",
+ "section": "MDMA: Magnesium Alarm",
+ "reader": "a friend at a festival with someone who took MDMA a few hours ago, whose jaw has started to clench and grind, with magnesium chloride flakes in their bag, reading what to do",
+ "sentences": [
+  {
+   "s": "A token dose may not be enough to make the jaw release.",
+   "payoff": "they know a little magnesium may not release the jaw",
+   "follows": "his jaw-release claim just made"
+  },
+  {
+   "s": "More than once, I've dissolved **Dead Sea magnesium chloride hexahydrate flakes** in water and taken about **one gram per minute by mouth for around twenty minutes** before mine fully released.",
+   "payoff": "they know how much magnesium chloride the writer takes, and how",
+   "follows": "the token dose just named",
+   "link": "More than once"
+  },
+  {
+   "s": "Around twenty grams is fine for my gut, and I've only had diarrhea above about forty grams.",
+   "payoff": "they know how much the writer takes before diarrhea",
+   "follows": "the dose just named",
+   "link": "Around twenty grams"
+  },
+  {
+   "s": "And magnesium chloride is [less likely to cause diarrhea than several other kinds of magnesium](https://pmc.ncbi.nlm.nih.gov/articles/PMC10509448/), including the ones people take on purpose as laxatives.",
+   "payoff": "they know this kind is gentler on the gut than others",
+   "follows": "his diarrhea, just named",
+   "link": "And"
+  },
+  {
+   "s": "I use it mostly because it's what I know works best: it absorbs faster and better than any other form, so you can see how it's helping, usually within a minute.",
+   "payoff": "they know why the writer uses this kind, as what he knows works best, and how soon to expect it to help",
+   "follows": "magnesium chloride, just named",
+   "link": "I use it mostly because"
+  }
+ ],
+ "checked": [
+  {
+   "point": "why magnesium chloride: it is what he knows works best; it absorbs faster and better than any other form, and you can see it helping usually within a minute",
+   "found": "his TEACH-JAW comment of round 55 (\"it absorbs faster and better than any other form, so you can see how it's helping usually within a minute\") and his CHLORIDE-CLAIM answer of round 56 (2026-11-24 21:26 UTC): \"remove the source then if there's no source, but i definitely can't recommend using anything other than what i know works best\". Round 56's card had told him what the study shows (Firoz and Graber 2001: oxide poorly absorbed; chloride, lactate and aspartate about equal) and that no study compares speed; the claim stays as his, said as what he knows, and the link is out, as he said",
+   "still_needed": "yes: they know why this kind, and when to expect it to start working",
+   "fate": "changed"
+  },
+  {
+   "point": "his amounts and his gut: about one gram per minute by mouth for around twenty minutes; twenty grams without diarrhea, diarrhea only above about forty",
+   "found": "his post as of 2026-11-03 (original.md), the paragraph as it stood in the guide before this turn; facts.py holds each",
+   "still_needed": "yes: they know a token dose may not release the jaw, and what the writer takes",
+   "fate": "kept"
+  }
+ ],
+ "placement": "the second paragraph of MDMA: Magnesium Alarm (B115), after his paragraph on what the jaw tension means",
+ "opens": {
+  "first_sentence": "A token dose may not be enough to make the jaw release.",
+  "why_reading": "it tells the friend how much magnesium chloride the writer takes, how much his gut tolerates, and why that kind"
+ },
+ "same_point": "none: read the section from its heading to the next; why magnesium chloride is said once, here, with the amounts; overheating and the electrolytes are said in his paragraph on what to do and in the kidney paragraph, each for its own reader",
+ "needed": {
+  "reader": "a fresh agent (Sonnet) given tools/humanization/needed_read_brief.md (../h74-20261124/reads/need-a1-sec.txt), on turn 66's version one of the whole section",
+  "unneeded": [],
+  "kept": {}
+ },
+ "his_fixes": {
+  "reader": "a fresh agent (Sonnet) given tools/humanization/his_fixes_brief.md (../h74-20261124/reads/his-a1-sec.txt), on turn 66's version one of the whole section",
+  "marked": [],
+  "kept": {}
+ },
+ "fit": {
+  "reader": "a fresh agent (Sonnet) given tools/humanization/fit_read_brief.md (../h74-20261124/reads/fit-a1-sec.txt), on turn 66's version one of the whole section",
+  "marked": [
+   {
+    "s": "More than once, I've dissolved **Dead Sea magnesium chloride hexahydrate flakes** in water and taken about **one gram per minute by mouth for around twenty minutes** before mine fully released.",
+    "found": "CAN'T TELL, MISREAD"
+   }
+  ],
+  "kept": {
+   "More than once, I've dissolved **Dead Sea magnesium chloride hexahydrate flakes** in water and taken about **one gram per minute by mouth for around twenty minutes** before mine fully released.": "kept: it read High in its window last turn, and the words carry a dose or an event of his post that stays"
+  }
+ },
+ "questions": {
+  "Q1": "PASS: as turn 66 read it (humanize/h74-20261124), one clause changed to his own words",
+  "Q2": "PASS: as turn 66 read it (humanize/h74-20261124), one clause changed to his own words",
+  "Q3": "PASS: as turn 66 read it (humanize/h74-20261124), one clause changed to his own words",
+  "Q4": "PASS: as turn 66 read it (humanize/h74-20261124), one clause changed to his own words",
+  "Q5": "PASS: as turn 66 read it (humanize/h74-20261124), one clause changed to his own words",
+  "Q6": "PASS: as turn 66 read it (humanize/h74-20261124), one clause changed to his own words",
+  "Q7": "PASS: as turn 66 read it (humanize/h74-20261124), one clause changed to his own words",
+  "Q8": "PASS: as turn 66 read it (humanize/h74-20261124), one clause changed to his own words",
+  "Q9": "PASS: as turn 66 read it (humanize/h74-20261124), one clause changed to his own words"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}
