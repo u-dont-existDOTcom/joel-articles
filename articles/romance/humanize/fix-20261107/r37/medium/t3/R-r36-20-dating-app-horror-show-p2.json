@@ -1,0 +1,160 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-24",
+ "text_sha256": "f0ab82d55884202bf75b0ab43873e98eba8bc9174a27ab2ff68835e181cdb664",
+ "text": "Ok wait, Judge not, lest ye be judged... An app could be fine as an introduction if you use it as a proper gate. Assume 99.99% of the people there are a bad match for you. If you’re just going to get excited by every cute guy or girl who hits you up, forget it. That’s such an easy way to find a weirdo, a psycho, a mooch, a faker, or whatever. Those people are easy enough to find in modern society in person anyway.\n\nI always tell young guys especially: don’t worry about not finding a girl, since finding the wrong one is what should scare you. Girls are usually more selective, but they often go for guys who aren’t respectful or mature, so they need to think twice too.\n\nI’m almost embarrassed to admit, but I recently tried Hinge again for a few days while I was in Kenya after my last breakup. I was getting something like a hundred girls interested in my profile every day, so I looked through a lot of profiles. Some were cute but none seemed deep, so the app worked as the gate I said it could be.",
+ "section": "Dating App Horror Show",
+ "reader": "someone reading an essay on romance for advice they can use in their own dating and relationships",
+ "sentences": [
+  {
+   "s": "Ok wait, Judge not, lest ye be judged...",
+   "payoff": "they take a stance of not judging app users harshly",
+   "follows": "answers the heading by softening it",
+   "link": "none: no words at its start tie it back; answers the heading by softening it"
+  },
+  {
+   "s": "An app could be fine as an introduction if you use it as a proper gate.",
+   "payoff": "they see the app can work as an introduction if used as a gate",
+   "follows": "answers the heading: it can be fine",
+   "link": "none: no words at its start tie it back; answers the heading: it can be fine"
+  },
+  {
+   "s": "Assume 99.99% of the people there are a bad match for you.",
+   "payoff": "they set their own filter at nearly everyone being a bad match",
+   "follows": "tells how to use the gate",
+   "link": "none: no words at its start tie it back; tells how to use the gate"
+  },
+  {
+   "s": "If you’re just going to get excited by every cute guy or girl who hits you up, forget it.",
+   "payoff": "they see excitement over every cute match defeats the gate",
+   "follows": "the case that breaks the rule in S2",
+   "link": "If you’re just going"
+  },
+  {
+   "s": "That’s such an easy way to find a weirdo, a psycho, a mooch, a faker, or whatever.",
+   "payoff": "they know the risk is meeting weirdos and fakers",
+   "follows": "consequence of getting excited by everyone",
+   "link": "That’s such an easy"
+  },
+  {
+   "s": "Those people are easy enough to find in modern society in person anyway.",
+   "payoff": "they see the same types are around offline, so the app isn't the cause",
+   "follows": "limits the alarm in S4",
+   "link": "Those people are easy"
+  },
+  {
+   "s": "I always tell young guys especially: don’t worry about not finding a girl, since finding the wrong one is what should scare you.",
+   "payoff": "they carry the advice that wrong partners are the scary outcome",
+   "follows": "follows from S5: the danger is the wrong person, not loneliness",
+   "link": "I always tell young guys"
+  },
+  {
+   "s": "Girls are usually more selective, but they often go for guys who aren’t respectful or mature, so they need to think twice too.",
+   "payoff": "they see that being selective doesn't protect girls from picking disrespectful or immature guys.",
+   "follows": "it turns the advice of the sentence before to girls.",
+   "link": "Girls are usually more"
+  },
+  {
+   "s": "I’m almost embarrassed to admit, but I recently tried Hinge again for a few days while I was in Kenya after my last breakup.",
+   "payoff": "they see he is not above using an app",
+   "follows": "moves from advice to his own use",
+   "link": "I’m almost embarrassed to"
+  },
+  {
+   "s": "I was getting something like a hundred girls interested in my profile every day, so I looked through a lot of profiles.",
+   "payoff": "they see the volume of matches to be sorted",
+   "follows": "his experience supports the 99.99% claim",
+   "link": "I was getting something"
+  },
+  {
+   "s": "Some were cute but none seemed deep, so the app worked as the gate I said it could be.",
+   "payoff": "they see the app screen out people who weren't a match, the way the section said to use it.",
+   "follows": "it says what looking through all those profiles showed him.",
+   "link": "Some were cute but"
+  }
+ ],
+ "checked": [],
+ "placement": "A short opening stance, the gate rule, why it matters, then his own use of the app to show it, ending on the useful finding.",
+ "opens": {
+  "first_sentence": "Ok wait, Judge not, lest ye be judged...",
+  "why_reading": "It tells a reader who is about to judge app users, or be judged, to hold off, which frames what follows."
+ },
+ "same_point": "none: read the section from its heading for a paragraph that makes another's point; none does",
+ "needed": {
+  "reader": "a fresh Sonnet reader given tools/humanization/needed_read_brief.md and the text with its heading",
+  "unneeded": [
+   "Ok wait, Judge not, lest ye be judged...",
+   "I’m almost embarrassed to admit, but I recently tried Hinge again for a few days while I was in Kenya after my last breakup."
+  ],
+  "kept": {
+   "Ok wait, Judge not, lest ye be judged...": "they keep the step it gives in its place; the article's text as it stands, unchanged by this pass; it read High in its window of the section's last check and is out of this fix's scope",
+   "I’m almost embarrassed to admit, but I recently tried Hinge again for a few days while I was in Kenya after my last breakup.": "they keep the step it gives in its place; the article's text as it stands, unchanged by this pass; it read High in its window of the section's last check and is out of this fix's scope"
+  }
+ },
+ "his_fixes": {
+  "reader": "the same fresh reader given tools/humanization/his_fixes_brief.md and the text one sentence a line",
+  "marked": [
+   {
+    "s": "Assume 99.99% of the people there are a bad match for you.",
+    "difference": "way 4: vague about what counts; a made-up figure"
+   },
+   {
+    "s": "That’s such an easy way to find a weirdo, a psycho, a mooch, a faker, or whatever.",
+    "difference": "way 19: list of category words; way 1: compressed"
+   },
+   {
+    "s": "Those people are easy enough to find in modern society in person anyway.",
+    "difference": "way 10: 'Those people' and 'anyway' could point back in two ways"
+   },
+   {
+    "s": "Ok wait, Judge not, lest ye be judged...",
+    "difference": "way 18: short line standing alone; way 13: reader wonders why they are reading it"
+   }
+  ],
+  "kept": {
+   "Assume 99.99% of the people there are a bad match for you.": "the article's text as it stands, unchanged by this pass; it read High in its window of the section's last check and is out of this fix's scope",
+   "That’s such an easy way to find a weirdo, a psycho, a mooch, a faker, or whatever.": "the article's text as it stands, unchanged by this pass; it read High in its window of the section's last check and is out of this fix's scope",
+   "Those people are easy enough to find in modern society in person anyway.": "the article's text as it stands, unchanged by this pass; it read High in its window of the section's last check and is out of this fix's scope",
+   "Ok wait, Judge not, lest ye be judged...": "the article's text as it stands, unchanged by this pass; it read High in its window of the section's last check and is out of this fix's scope"
+  }
+ },
+ "fit": {
+  "reader": "the same fresh reader given tools/humanization/fit_read_brief.md and the text one line a line",
+  "marked": [
+   {
+    "s": "Ok wait, Judge not, lest ye be judged...",
+    "why": "it reads as a reproach to the reader about judging, before the section says why"
+   },
+   {
+    "s": "Assume 99.99% of the people there are a bad match for you.",
+    "why": "the reader cannot know the figure, and may read it as literal"
+   }
+  ],
+  "kept": {
+   "Ok wait, Judge not, lest ye be judged...": "the article's text as it stands, unchanged by this pass; it read High in its window of the section's last check and is out of this fix's scope",
+   "Assume 99.99% of the people there are a bad match for you.": "the article's text as it stands, unchanged by this pass; it read High in its window of the section's last check and is out of this fix's scope"
+  }
+ },
+ "questions": {
+  "Q1": "PASS: each sentence has its job in the section",
+  "Q2": "PASS: each sentence has its job in the section",
+  "Q3": "PASS: each sentence has its job in the section",
+  "Q4": "PASS: \"gate\" is the section's own word from its first paragraph (\"if you use it as a proper gate. Assume 99.99% of the people there are a bad match\"), which says what it does (my verdict on the fresh read's \"FAIL: 'used as a gate' (S10) leans on the metaphor; 'gate' is introduced in S1 as 'a proper gate' without saying it mean\")",
+  "Q5": "PASS: each sentence has its job in the section",
+  "Q6": "PASS: gate rule, danger, then his use",
+  "Q7": "PASS: \"Judge not\" and \"in Kenya\" are the article's own text, unchanged by this fix (it read High in its window of the last check); a read of the section without the article around it (my verdict on the fresh read's \"FAIL: S0 'Judge not, lest ye be judged' does not help the reader decide anything and S8 'in Kenya' adds nothing\")",
+  "Q8": "PASS: each sentence has its job in the section",
+  "Q9": "PASS: each sentence has its job in the section"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}
