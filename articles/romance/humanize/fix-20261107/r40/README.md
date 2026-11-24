@@ -49,3 +49,10 @@ checks and 05 and 67 in his own.
 ## The card game
 
 [CARD-GAME.md](CARD-GAME.md): where it lives, what its deck is missing, and the question to him.
+
+## The drafts, pasted again
+
+Drafts A and B were cleared and pasted again at 16:51 UTC from commit 2e0335fd, with everything above in
+([DRAFTS.json](../whole/DRAFTS.json), entry "r40"); each secret link's rendered text matched the built text (B's with his
+one double space made single, and the opening quote of his ("for safety and legal reasons") curled the wrong way by the
+editor's paste). The links went to him in chat.
