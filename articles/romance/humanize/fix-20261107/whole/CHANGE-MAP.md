@@ -1,6 +1,6 @@
 # The fixed version: every changed paragraph
 
-The live post ("Romance Advice I Wish My Parents Taught Me") with each section's and spot's best tested text in place (`assemble.py`, `build.py`), and his own versions from his answers over them (`../r30/HIS-T4.json`, his Medium page of 2026-11-22). Paragraph numbers are the post page's paragraph list (`LIVE-INDEX.txt`). "Two Pillars" 332 is his own new version (it was the owner lock). 157 changes, 180 live paragraphs changed.
+The live post ("Romance Advice I Wish My Parents Taught Me") with each section's and spot's best tested text in place (`assemble.py`, `build.py`), and his own versions from his answers over them (`../r30/HIS-T4.json`, his Medium page of 2026-11-22). Paragraph numbers are the post page's paragraph list (`LIVE-INDEX.txt`). "Two Pillars" 332 is his own new version (it was the owner lock). 168 changes, 184 live paragraphs changed.
 
 ## 1. S1 (live 28)
 
@@ -487,7 +487,7 @@ Read by romance-sec-spiritual-sex#136: [result](https://www.pangram.com/history/
 > She’s also collected a ton of stories from students who say the effects spilled out of the bedroom into the rest of their life, with better health, more rewarding careers, checks rolling in, and creativity flowing out like nobody's business. Her jade-egg practice is a preliminary training for the cervical O, as it strengthens the pelvic floor while also engaging your attention to the sensations down there. No partner required for the jade egg phase.
 > Brad and Pam Keene are the couple I really liked as an example of how her method works. Pam explained that her Kundalini process completed while they were making love and opened her into a lasting universal-consciousness awakening. She later helped Brad awaken too, so the marriage itself became part of the path.
 
-## 36. S18 and S19 with 330 to 336 (live 331)
+## 36. S18 and S19 with 330 to 336 (live 331) (replaced by Q-67)
 
 Read by romance-pillars-330-336#150: [result](https://www.pangram.com/history/56fc62b2-dd18-4b8a-bad7-7c769a85f449).
 
@@ -499,7 +499,7 @@ Read by romance-pillars-330-336#150: [result](https://www.pangram.com/history/56
 
 > Here’s how this looks for me: whenever something serious comes up in my relationships, we each run to our own friends for support. Then I resent the one-sided story she’s telling, she resents the one-sided story I’m telling. Some of the friends may even be exes who want us to break up, and eventually neither of us wants to talk to the other’s friends anymore. That’s a pretty terrible time to be trying to run the rest of life with two people. If one person goes down, the other becomes the whole backup system for housing, money, children, health, and emotional crises. Who even has time for the relationship itself at that point?
 
-## 37. S18 and S19 with 330 to 336 (live 334, 335)
+## 37. S18 and S19 with 330 to 336 (live 334, 335) (replaced by Q-67)
 
 Read by romance-pillars-330-336#150: [result](https://www.pangram.com/history/56fc62b2-dd18-4b8a-bad7-7c769a85f449).
 
@@ -1206,7 +1206,7 @@ Read by his answer M-327 (HIS-T4.json).
 
 > Anyway, if we don’t understand that the Twin Flame is an energy that a person can access… if we conflate the person’s egoic flaws that actually annoy us with their deepest, truest, most beautiful self, then we end up playing John Legend on loop like my first wife, Ann, who held me up to this standard, wondering why I didn’t praise her for her imperfections:
 
-## 92. Two Pillars Don’t Hold The Roof Up (live 332)
+## 92. Two Pillars Don’t Hold The Roof Up (live 332) (replaced by Q-67)
 
 Read by his answer M-332 (HIS-T4.json): [result](https://www.pangram.com/history/a3cb8445-b43f-45a1-99e6-1bb510612486).
 
@@ -1997,4 +1997,145 @@ Read by my tested change R37-42-p2 (MINE-R37.json): [result](https://www.pangram
 **New:**
 
 > Dealing with somebody else’s emotional insecurities can also be exhausting. It’s easy to feel free when I don’t have to do that, especially since I’m a bit of an introvert and 10% autistic. All that works wonderfully until I’m in a romantic relationship and suddenly I’m expected to read her mind, even her silences, and check in constantly, without manipulating her with all that expert “management.”
+
+## 158. Can Casual Sex or a Situationship Actually Be Honest? (live 28)
+
+Read by his answer M-07 (HIS-T7.json): [result](https://www.pangram.com/history/d29e7a30-b543-45c9-a1af-c0eeeb7b3caf).
+
+**Live:**
+
+> That may be candid about what you expect now. It doesn’t settle what either of you will owe if the act creates something neither of you expected. Sex can make a child. If this girl gets pregnant, she’s gonna call you. Then what? You block her? Agree to child support? Try to convince her to abort if she thinks abortion is killing her child? Or vice versa. My first girlfriend, a diehard Baptist, aborted and told me a year later, because she “didn’t want to trap” me. This is what penetrative sex can do. No contraception is perfect.
+
+**New:**
+
+> That’s honest about what you want tonight, but don't forget that tonight is enough time to make a baby. If this girl gets pregnant, she’s gonna call you, and then what? You block her, or you agree to child support? Try to convince her to abort if she thinks abortion is killing her child? My first girlfriend, a diehard Baptist, aborted our child and told me a year later, because she “didn’t want to trap” me. I'm still shocked and saddened about that, 20 years later (assuming it was true). This is what penetrative sex can do. No contraception is perfect.
+
+## 159. And deeper is the point (live 76)
+
+Read by his answer M-16 (HIS-T7.json): [result](https://www.pangram.com/history/0b928214-0ed5-43e5-b495-f68bfc7028b9).
+
+**Live:**
+
+> Beyond all that practical stuff, sex is extremely important for building and renewing the connection. I also think that if two people aren’t having sex, it becomes hard to explain how they’re different from regular friends. There is a real contradiction here. I don’t think it needs to be solved into a rule.
+
+**New:**
+
+> Beyond all that practical stuff, sex is extremely important for building and renewing the connection. I also think that if two people aren’t having sex, it becomes hard to explain how they’re different from regular friends. But if the connection gets deep enough, sex appeal isn’t the basis of the relationship anymore. You don’t stop loving the person because she got old, he lost his job, one of you got sick, or sex became impossible.
+
+## 160. The conversation about flaws (live 125)
+
+Read by his answer M-26 (HIS-T7.json): [result](https://www.pangram.com/history/39e78fb6-8b3e-4692-bec6-4cc4f261b23f).
+
+**Live:**
+
+> I’d want both of us to be honest about how effective we actually are at handling our own issues. What addictions or impulsive behaviors can’t we reliably control? How dependable are we? What are we probably going to ask forgiveness for more than once? That tells me more than either of us announcing that we’re healed.
+
+**New:**
+
+> I’d want both of us to be honest about how well we actually handle our own issues. What addictions or impulsive behaviors can’t we reliably control? What are we probably going to ask forgiveness for more than once? That tells me more than either of us proclaiming that we’re healed.
+
+## 161. My flaws (live 135)
+
+Read by his answer M-28 (HIS-T7.json): [result](https://www.pangram.com/history/bd788843-ff5f-417c-9242-5aeee7123f33).
+
+**Live:**
+
+> That was my mistake. Their meditations may have helped them a lot. I still had no idea how either woman would act when a relationship got ugly. If somebody starts with enough trauma, huge progress can still leave a lot unresolved.
+
+**New:**
+
+> We see what we want to see. Their meditations may have helped them a lot, but I still had no idea how either woman would act when a relationship got ugly, because if somebody starts with enough trauma, huge progress can still leave a lot unresolved.
+
+## 162. Beware idealization in either direction (live 149)
+
+Read by his answer M-31 (HIS-T7.json): [result](https://www.pangram.com/history/8d070089-ca59-4476-a372-f3fbe75cb711).
+
+**Live:**
+
+> I’ve learned to get nervous when somebody knows too much about me too soon. We’re twin flames. She knows my motives. I’m Lord Krishna. Okay, maybe I really am way better than the other guys she’s found. But if she hasn’t found anything about me that bothers her yet, she hasn’t found all of me.
+
+**New:**
+
+> I’ve learned to get nervous when somebody "knows" too much about me/us too soon. You know how it goes: “We’re twin flames!” or “I’m Lord Krishna and she’s Radha!” Okay, maybe I really am way better than the other guys she’s found. But if she hasn’t found anything about me that bothers her yet, she hasn’t found all of me.
+
+## 163. Beware idealization in either direction (live 150)
+
+Read by his answer M-31 (HIS-T7.json): [result](https://www.pangram.com/history/8d070089-ca59-4476-a372-f3fbe75cb711).
+
+**Live:**
+
+> For example, I still love women I’ve loved before. Sometimes I talk about them because I’m thinking about them. I’m not trying to make her jealous. If she can’t handle that I still love them, she isn’t ready for me.
+
+**New:**
+
+> For example, I still love women I’ve loved before, and sometimes I talk about them, with no intention of making my current partner jealous, just because I’m thinking about them and I don’t want to hide it. If she can’t handle the truth that I still love them, she isn’t ready for me.
+
+## 164. If slow isn’t realistic for you (live 171)
+
+Read by his answer M-35 (HIS-T7.json): [result](https://www.pangram.com/history/1867a533-baa4-4926-af33-d26bf54676fb).
+
+**Live:**
+
+> Phone or video first can help. So can meeting around other people and deciding beforehand that we aren’t going home together. Islamic and conservative Christian cultures put much stronger barriers around a man and woman being alone before marriage. I don’t accept their helicoptering solution, but they noticed something real. We don’t live in tribes anymore, where people around us might know both of us well enough to slow this down.
+
+**New:**
+
+> Phone or video first can help, as can meeting up around other people and deciding beforehand that we aren’t going home together. Islamic and conservative Christian cultures put much stronger barriers than these around a man and woman being alone before marriage. I don’t accept their helicoptering solution, but they noticed something real. We don’t live in tribes anymore, where people around us might know both of us well enough to slow this down.
+
+## 165. Muses & Directors (live 264)
+
+Read by his answer M-54 (HIS-T7.json): [result](https://www.pangram.com/history/1b906fcb-7099-4a0e-8948-7d0db749969b).
+
+**Live:**
+
+> I find the intuitive mind incredibly sexy, because I can’t fully follow it. During sex, some of the most “womanly” women I’ve loved have gone through psychic experiences, memories that felt like past lives, and things I had no idea how to explain. One time, Bee said she almost got enlightened, but I came too fast. Woops...
+
+**New:**
+
+> I find the intuitive mind incredibly sexy, because I can’t fully follow it. During sex, some of the most “womanly” women I’ve loved have gone through psychic experiences, memories that felt like past lives, and things I had no idea how to explain. One time, Bee said she almost got enlightened, but woops, I came too fast.
+
+## 166. Two Pillars Don’t Hold The Roof Up (live 338)
+
+Read by his answer M-68 (HIS-T7.json): [result](https://www.pangram.com/history/231c824d-3dbe-44c5-be5d-3fe52fc88574).
+
+**Live:**
+
+> H. taught me another part of the same dyad problem. I learned not to treat what either of us thought the relationship was as a guarantee of what it would remain, because feelings can and usually do change over time. In our case, the relationship continued to naturally deepen while our outside relationships often felt more shallow, so it was natural for the dependency to increase. She was never into monogamy, but that didn’t stop her from becoming possessive once she found someone really worth keeping. And then she began demonizing me when I refused to be possessed. Because we did not have a shared community capable of supporting us, her friends heard her side and affirmed her truth. The accusations couldn’t have survived among people who knew us both.
+
+**New:**
+
+> With H., I learned another part of the same dyad problem: not to treat what either of us thought the relationship was as a guarantee of what it would remain, because feelings can and usually do change over time. In our case, the relationship continued to naturally deepen while our outside relationships often felt more shallow, so it was natural for the dependency to increase. She was never into monogamy, but that didn’t stop her from becoming possessive once she found someone really worth keeping. And then she began demonizing me when I refused to be possessed. Because we did not have a shared community capable of supporting us, her friends heard her side and affirmed her truth.
+
+## 167. If you’re already in it (live 409)
+
+Read by his answer M-82 (HIS-T7.json): [result](https://www.pangram.com/history/7a6a097c-d8a6-4c63-af8b-afd18d8193d8).
+
+**Live:**
+
+> Even dishonesty was sometimes hard for me to define in these relationships. Bee once opened a door and, a second later, said she hadn’t opened it. That drove me crazy. Why would she lie like that? She was lying, but “she lied” only named the momentary behavior. There was no strategy behind it, and she was usually quite honest. Looking back, I could have understood the lie in the context of some kind of mental illness instead of treating it like strategic dishonesty.
+
+**New:**
+
+> Even dishonesty was sometimes hard for me to define in these relationships. Bee once opened a door and, a second later, said she hadn’t opened it. That drove me crazy, because why would she lie like that? On the other hand, although she was technically lying, there was no strategy behind it, and she was usually quite honest. Non-strategic lying is literally defined as "pathological lying," so I should have seen it more like an illness than a failure of virtue.
+
+## 168. Two Pillars Don’t Hold The Roof Up (live 330, 331, 332, 333, 334, 335)
+
+Read by his answer Q-67 (HIS-T7.json): [result](https://www.pangram.com/history/1deb924a-6175-4847-95eb-38e1871287c3).
+
+**Live:**
+
+> Even if I found my twin flame, she’d still be one person. The polarity could be perfect and we’d still need other people around us.
+> Let me show you how this looked for me. I’ve noticed in my own relationships that whenever a serious issue arises, both of us tend to turn to our separate circles of friends for support. Then I resent the one-sided story she’s telling, she resents the one-sided story I’m telling. Some of the friends may even be exes who want us to break up, and eventually neither of us wants to talk to the other’s friends anymore. That’s a pretty terrible time to be trying to run the rest of life with two people. Housing, money, children, health, emotional crises—if one person goes down, the other becomes the whole backup system. Who even has time for the relationship itself at that point?
+> Maybe an unusually strong couple can get away without much outside support. I think that’s rare. But often, a friend who actually knows us both sees the dysfunctional pattern before either of us does. On the other hand, If both people are falling apart, there is only so much anyone else can do.
+> Separate confidants can be helpful and harmful. Sometimes you need privacy from your partner and somewhere else to say what you’re feeling. But if your confidant doesn’t have a good connection with your partner, the conversation can turn into an echo chamber very easily.
+> Having the same confidant creates the opposite problem: now you may not have a release valve when you want privacy from your partner. There isn’t one perfect arrangement.
+> If you do have separate confidants, you need enough emotional maturity to remember they will automatically be biased toward you. Take what they say with a grain of salt. They are hearing a partial story, usually while you’re upset, and they may be trying to protect you rather than understand the relationship fairly.
+
+**New:**
+
+> Even if I found my twin flame, she’d still be one person. The polarity could be perfect, but we’d still need other people around us. Maybe an unusually strong couple can get away without much outside support, but I think that’s rare. There's almost always going to be some points in a relationship when understanding between partners breaks down.
+> Whenever something serious comes up in my relationships, we each run to our own friends for support. Separate/non-mutual confidants can be helpful and harmful. Sometimes you need privacy from your partner and somewhere else to say what you’re feeling (not to mention somewhere else to sleep if it comes to that one night). But if your confidant doesn’t have a good connection with your partner, they’re only hearing your side, usually while you’re upset, and they may just be trying to protect you, so take what they say with a grain of salt.
+> Then I resent the one-sided story she’s telling, and she resents the one-sided story I’m telling. Some of the friends may even be exes who want us to break up, and eventually neither of us wants to talk to the other’s friends anymore. So then at that point when we actually need the most help, we suddenly become the most isolated.
+> Ideally, a friend who actually knows us both sees the dysfunctional pattern before either of us does. But having the same confidant creates the opposite problem: now you may not have a release valve when you want privacy from your partner, so neither way is perfect.
+> And if both people are really falling apart, sometimes there is only so much anyone else can do to help.
 

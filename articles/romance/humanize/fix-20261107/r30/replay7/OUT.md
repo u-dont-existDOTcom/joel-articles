@@ -1,0 +1,19 @@
+## Item 1
+MARKED:
+- "If one person goes down, the other becomes..." — way 25: it is the reason two people aren't enough, and it stays right after "run the rest of life with two people", but the question after it stands alone (way 18), so the two are joined with "and".
+- "Who even has time for the relationship itself..." — way 18: a short line that turns, standing alone at the end of the paragraph; joined to the sentence it answers.
+- "Maybe an unusually strong couple can get away..." — way 25: the exception to "we'd still need other people around us", three sentences after the claim it qualifies and after a story in between (way 24); moved up next to the claim.
+- "Often, a friend who actually knows us both sees..." — way 25 (and way 12): the upside of a shared confidant, standing two paragraphs before the shared confidant's downside, and not connected to the sentence before it; moved next to "Having the same confidant" and joined with "but".
+- "Sometimes you need privacy from your partner..." — way 16: the lead line before it ("can be helpful and harmful") only announces what this sentence and the next say; the lead is folded into it with "since", and "and harmful" goes because the "but" sentence says it.
+- "They’re only hearing your side, usually while you’re upset..." — way 25: the reason for the echo chamber, kept from it by the paragraph about a shared confidant; the two separate-confidant paragraphs now sit together, and the limit ("only so much anyone else can do") goes last.
+
+REWRITE:
+# Two Pillars Don’t Hold The Roof Up
+
+Even if I found my twin flame, she’d still be one person. The polarity could be perfect and we’d still need other people around us. Maybe an unusually strong couple can get away without much outside support, but I think that’s rare.
+
+Whenever something serious comes up in my relationships, we each run to our own friends for support. Then I resent the one-sided story she’s telling, she resents the one-sided story I’m telling. Some of the friends may even be exes who want us to break up, and eventually neither of us wants to talk to the other’s friends anymore. That’s a pretty terrible time to be trying to run the rest of life with two people. If one person goes down, the other becomes the whole backup system for housing, money, children, health, and emotional crises, and who even has time for the relationship itself at that point?
+
+Separate confidants can be helpful, since sometimes you need privacy from your partner and somewhere else to say what you’re feeling. But if your confidant doesn’t have a good connection with your partner, the conversation can turn into an echo chamber very easily. If you do have separate confidants, you need enough emotional maturity to remember they will automatically be biased toward you. They’re only hearing your side, usually while you’re upset, and they may just be trying to protect you, so take what they say with a grain of salt.
+
+Often, a friend who actually knows us both sees the dysfunctional pattern before either of us does, but having the same confidant creates the opposite problem: now you may not have a release valve when you want privacy from your partner, so neither way is perfect. And if both people are falling apart, there is only so much anyone else can do.
