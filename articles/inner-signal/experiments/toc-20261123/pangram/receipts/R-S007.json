@@ -1,0 +1,115 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-25",
+ "text_sha256": "dfa0c36ba3567abdfd7befce104a0b2ee264e19ce9b0f6f4ac904760874b9a98",
+ "text": "Hypnotism can happen in a therapist’s office, but it can also happen through music, marketing, religious rituals, sexual chemistry, charismatic authority, social media, grief, fear, political messaging, sense of belonging, fatigue, love, trauma, beauty, etc.\n\nThere are many ways to influence people that never go through their conscious mind. Marketers and interface designers know this perfectly well. In the Federal Trade Commission’s report on “dark patterns,” they describe designs that trick or manipulate consumers. The Organisation for Economic Co-operation and Development (OECD) describes commercial patterns that steer, deceive, coerce, or manipulate people toward choices that may work against their interests.\n\nYou maybe semi-consciously clicked \"Agree\" on the TikTok signup, and now you're suddenly into Death Note animé and worshipping Satan on the down-low while at church. That literally has happened to people I know.\n\nA line associated with the Silva Mind Control tradition says it plainly:\n\n“If you don’t learn to control your mind, someone else will!”\n\nWith self-hypnosis you can train your own mind from the inside, by befriending and listening to the deeper part of your mind.\n\nIf you do let a hypnotist work on you, or listen to a stranger's hypnosis recording, go through the questions in “Find a Hypnotist Who Fits” first.",
+ "section": "Protection From Hypnotists",
+ "reader": "Someone near the start of the guide who wants to know how to keep other people from hypnotizing them: ads, apps, charismatic people; and, for the new sentence, someone who is about to let a hypnotist work on them or to play a hypnosis recording made by a person they don't know, and opens this section to see what to check first.",
+ "sentences": [
+  {
+   "s": "Hypnotism can happen in a therapist’s office, but it can also happen through music, marketing, religious rituals, sexual chemistry, charismatic authority, social media, grief, fear, political messaging, sense of belonging, fatigue, love, trauma, beauty, etc.",
+   "his": true
+  },
+  {
+   "s": "There are many ways to influence people that never go through their conscious mind.",
+   "his": true
+  },
+  {
+   "s": "Marketers and interface designers know this perfectly well.",
+   "his": true
+  },
+  {
+   "s": "In the Federal Trade Commission’s report on “dark patterns,” they describe designs that trick or manipulate consumers.",
+   "his": true
+  },
+  {
+   "s": "The Organisation for Economic Co-operation and Development (OECD) describes commercial patterns that steer, deceive, coerce, or manipulate people toward choices that may work against their interests.",
+   "his": true
+  },
+  {
+   "s": "You maybe semi-consciously clicked \"Agree\" on the TikTok signup, and now you're suddenly into Death Note animé and worshipping Satan on the down-low while at church.",
+   "his": true
+  },
+  {
+   "s": "That literally has happened to people I know.",
+   "his": true
+  },
+  {
+   "s": "A line associated with the Silva Mind Control tradition says it plainly:",
+   "his": true
+  },
+  {
+   "s": "“If you don’t learn to control your mind, someone else will!”",
+   "his": true
+  },
+  {
+   "s": "With self-hypnosis you can train your own mind from the inside, by befriending and listening to the deeper part of your mind.",
+   "his": true
+  },
+  {
+   "s": "If you do let a hypnotist work on you, or listen to a stranger's hypnosis recording, go through the questions in “Find a Hypnotist Who Fits” first.",
+   "payoff": "The reader who is about to let a hypnotist work on them, or to play a hypnosis recording by somebody they don't know, gets the one thing to do first and where it is: the questions to ask the hypnotist and to check the recording against. Those sit far down the guide under a heading, 'Find a Hypnotist Who Fits', that a person with a recording in hand wouldn't think to open.",
+   "follows": "The sentence before says they can train their own mind from the inside with self-hypnosis. 'If you do let a hypnotist work on you' takes the other case, where somebody else does it, which is the case the section's heading names.",
+   "link": "If you do let a hypnotist"
+  }
+ ],
+ "checked": [
+  {
+   "point": "the questions are in “Find a Hypnotist Who Fits”, and they serve for a stranger's recording as well as a hypnotist",
+   "found": "That section in AFTER.md (under 'When to Get Outside Help') has the author's lists of what to ask a hypnotist and what to tell them, then 'Before you let a hypnotic recording or a live hypnotist put manipulative suggestions into your skull, interview them a bit more:' with his audit questions, and 'you can only answer those last questions by reading the script first'. TEXT-CHANGES.json (P1) records that both final readers looked in 'Protection From Hypnotists' for what to check before playing a stranger's recording. He said yes to the sentence (answer 3, 2026-11-25 11:18 UTC).",
+   "still_needed": "yes: they open that section before the session, or before pressing play, and go through its questions, which they would not find from here because its heading doesn't mention recordings",
+   "fate": "kept"
+  }
+ ],
+ "placement": "Last paragraph of 'Protection From Hypnotists', after 'With self-hypnosis you can train your own mind from the inside ...' and before the heading 'The Most Extreme Example'. The section says how much hypnotizing goes on around the reader and gives self-hypnosis as the answer; this adds, last, the case its heading promises and the section otherwise leaves out: letting a hypnotist or a stranger's recording in anyway. It comes after the self-hypnosis sentence because 'If you do let' turns on it (doing it yourself, then letting someone else). 'the questions' points to the linked section; the sentence has no 'also', 'this' or 'as for'.",
+ "opens": {
+  "first_sentence": "Hypnotism can happen in a therapist’s office, but it can also happen through music, marketing, religious rituals, sexual chemistry, charismatic authority, social media, grief, fear, political messaging, sense of belonging, fatigue, love, trauma, beauty, etc.",
+  "why_reading": "The first sentence tells the reader that the hypnotists they came to be protected from aren't only in a therapist's office: hypnotism reaches them through music, marketing, social media, grief, love and the rest. So it is already their own case, and they read on for how it works on them and what to do about it."
+ },
+ "same_point": "none: read the section from its heading to the next for anything on what to check before a hypnotist or a recording; nothing else in it says so. The questions themselves are said once in the guide, in 'Find a Hypnotist Who Fits', and this sentence sends the reader there and does not say them again.",
+ "needed": {
+  "reader": "a fresh reader (subagent, 2026-11-25), given tools/humanization/needed_read_brief.md with the section, its heading and what it is for: the reader wants to know how to keep others from hypnotizing them, and may be about to see a hypnotist or play a stranger's recording",
+  "needs": {
+   "S1-S7 (his)": "to see that being hypnotized by others is already happening to them, with cases they know",
+   "S8-S10 (his)": "the section's answer: learn to work with your own mind, by self-hypnosis",
+   "S11 (new)": "what to do before letting a hypnotist or a stranger's recording work on them, and where the checks are; it is the only line in the section that bears on an actual hypnotist"
+  },
+  "unneeded": [],
+  "kept": {}
+ },
+ "his_fixes": {
+  "reader": "a fresh reader (subagent, 2026-11-25), given tools/humanization/his_fixes_brief.md and the text one sentence a line (what it is for: protecting yourself from being hypnotized by others). The author's own sentences were read as the text around the new one and are not marked.",
+  "marked": [],
+  "kept": {},
+  "note": "Read for 12 (connected to the sentence before?): 'If you do let' takes the other case after 'With self-hypnosis you can train your own mind'. For 10: 'first' can only mean before the session or the listening. For 13: the if-clause names the reader's situation before the instruction. Not marked."
+ },
+ "fit": {
+  "reader": "a fresh reader (subagent, 2026-11-25), given tools/humanization/fit_read_brief.md. WHAT IT IS: an early section of a long self-hypnosis guide, about how other people's influence gets past the conscious mind. YOUR MOMENT: I have a session booked with a hypnotist, or a hypnosis recording I found online, and I opened this section to see how to protect myself first.",
+  "marked": [],
+  "kept": {},
+  "note": "CAN'T TELL read for the recording: I can't question a recording, but the linked section says to read its script first and what to look for, so the line sends me somewhere I can act. Not marked."
+ },
+ "questions": {
+  "Q1": "PASS: the if-clause comes first and names whose case this is (you let a hypnotist work on you, or listen to a stranger's hypnosis recording), so the reader knows at once whether the sentence is for them; the instruction follows.",
+  "Q2": "PASS: 'go through the questions ... first' is something the reader does, said as an act. What it is for is the section's own subject, under the heading 'Protection From Hypnotists': the questions are the protection for someone who lets a hypnotist in. The sentence doesn't say that again in its own words.",
+  "Q3": "PASS: 'a stranger's hypnosis recording', not 'recordings' or 'audio'; 'the questions in “Find a Hypnotist Who Fits”', one named section and a link, not 'the questions below' or 'later in the guide'.",
+  "Q4": "PASS: 'work on you' is hypnotize you, in the section's sense; 'first' is before the session or before listening; no term needs explaining ('hypnotist' and 'hypnosis' are the guide's subject, defined in the section before).",
+  "Q5": "PASS: 'If you do let a hypnotist work on you' turns on the sentence before, 'With self-hypnosis you can train your own mind from the inside': the 'do' marks the other case, somebody else doing it.",
+  "Q6": "PASS: the section's own answer first (train your own mind), then the other case; the pointer comes last, after everything this section says, so the reader isn't sent away in the middle of it.",
+  "Q7": "PASS: the reader who opens 'Protection From Hypnotists' with a session booked or a recording in hand gets the one thing in the section that bears on that; the two final readers recorded in TEXT-CHANGES.json (P1) looked here for it.",
+  "Q8": "PASS: two cases are put together, a live hypnotist and a stranger's recording, and both belong: the linked section's questions are written for both ('a hypnotic recording or a live hypnotist').",
+  "Q9": "PASS: one condition with its two cases and one instruction; the small words are there ('If you do', 'or', 'in', 'first')."
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ },
+ "his_whose": "his own: Protection From Hypnotists of the live post"
+}

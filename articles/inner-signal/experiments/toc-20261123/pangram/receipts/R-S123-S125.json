@@ -1,0 +1,128 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-25",
+ "text_sha256": "a5b34a6633fe66543d6e21ddfd3d6c8493578582ea6777a2561e28dbe977be6a",
+ "text": "With EFT (Emotional Freedom Techniques, or tapping), you tap gently on your body while you say something like, “Even though I have this anxiety, I am willing to be kind to the part of me that is afraid,” and you stay with what you feel. There isn’t a ton of evidence for EFT, but there are some studies on anxiety. A 2025 systematic review found 7 randomized controlled trials for anxiety disorders, and noted that EFT was more effective than no intervention in several of them, though it isn't one of the first-line therapies for anxiety.\n\nIf you would like more information about somatic experiencing, or even a free intro session for paid subscribers, please see my somatic guide. In somatic experiencing (SE), you are not digging into the trauma. You learn to track. So you might start by tracking, by discovering where the activation is, where a neutral place is, and then whether you can move your attention from one to the other, very slowly, like a snail.\n\nFocusing is another approach where you work with your body. You might say to yourself, “What is the felt sense of this whole anxiety?” Don’t answer with your head; let your body come up with a vague sense of the whole anxiety. Then ask, “What would this felt sense like me to know?” Try a word or a phrase and see how well it fits the felt sense. But also see if what the word or phrase says is true of the situation. The word may feel ok, but say something that doesn’t fit the situation, or vice versa.",
+ "section": "EFT Tapping / Somatic Experiencing / Gendlin Focusing (three sections of Appendix D: Anxiety, Body First, headings left out; the changed sentence opens Somatic Experiencing)",
+ "reader": "Someone anxious who has done the breathing in Appendix D and is looking over three more body-first methods (tapping, somatic experiencing, focusing) to pick one to try alone or to learn with a person; they read the post on Substack, where some are paid subscribers and most are not.",
+ "sentences": [
+  {
+   "s": "With EFT (Emotional Freedom Techniques, or tapping), you tap gently on your body while you say something like, “Even though I have this anxiety, I am willing to be kind to the part of me that is afraid,” and you stay with what you feel.",
+   "his": true
+  },
+  {
+   "s": "There isn’t a ton of evidence for EFT, but there are some studies on anxiety.",
+   "his": true
+  },
+  {
+   "s": "A 2025 systematic review found 7 randomized controlled trials for anxiety disorders, and noted that EFT was more effective than no intervention in several of them, though it isn't one of the first-line therapies for anxiety.",
+   "his": true
+  },
+  {
+   "s": "If you would like more information about somatic experiencing, or even a free intro session for paid subscribers, please see my somatic guide.",
+   "payoff": "They know where to go for more on somatic experiencing than this short section gives, and that a free first session can be had there. The three added words tell them before they click who gets it free: a paid subscriber knows it is theirs to book, and a free reader goes for the information and doesn't look for a session that isn't open to them.",
+   "follows": "It opens the section 'Somatic Experiencing', whose heading is left out of this text, exactly where the author's own sentence opens it; the EFT paragraph before it belongs to the section above. Inside the sentence, 'for paid subscribers' comes straight after 'a free intro session', the thing it limits.",
+   "link": "none: it is the first sentence under its own heading, 'Somatic Experiencing' (left out of this text), so it starts a new section and doesn't follow from the EFT sentence before it"
+  },
+  {
+   "s": "In somatic experiencing (SE), you are not digging into the trauma.",
+   "his": true
+  },
+  {
+   "s": "You learn to track.",
+   "his": true
+  },
+  {
+   "s": "So you might start by tracking, by discovering where the activation is, where a neutral place is, and then whether you can move your attention from one to the other, very slowly, like a snail.",
+   "his": true
+  },
+  {
+   "s": "Focusing is another approach where you work with your body.",
+   "his": true
+  },
+  {
+   "s": "You might say to yourself, “What is the felt sense of this whole anxiety?”",
+   "his": true
+  },
+  {
+   "s": "Don’t answer with your head; let your body come up with a vague sense of the whole anxiety.",
+   "his": true
+  },
+  {
+   "s": "Then ask, “What would this felt sense like me to know?”",
+   "his": true
+  },
+  {
+   "s": "Try a word or a phrase and see how well it fits the felt sense.",
+   "his": true
+  },
+  {
+   "s": "But also see if what the word or phrase says is true of the situation.",
+   "his": true
+  },
+  {
+   "s": "The word may feel ok, but say something that doesn’t fit the situation, or vice versa.",
+   "his": true
+  }
+ ],
+ "checked": [
+  {
+   "point": "the free intro session is for paid subscribers",
+   "found": "His somatic guide as it stood on 2026-11-25 (catchup/SOMATIC-LIVE-20261125.md) says so twice: 'paid subscribers to my substack can get free intro sessions for some of these therapies' (Free Intro Sessions!) and 'as a paid subscriber on my substack, you're eligible for one free SE intro session with Hâle' (Try Somatic Experiencing for FREE!). He approved adding the words here (answer 9, 2026-11-25 11:18 UTC: 'yes').",
+   "still_needed": "yes: they know before they click whether the free session is open to them, so a paid subscriber goes and books it and a free reader goes only for the information",
+   "fate": "kept"
+  }
+ ],
+ "placement": "First sentence of 'Somatic Experiencing' (its heading is left out of this text), where the author's own sentence stands; nothing moved. The three words go right after 'a free intro session', the thing they limit, and before 'please see my somatic guide', so the reader has the condition before the instruction. The sentence has no 'also', 'this' or 'as for'; 'my somatic guide' will be the link.",
+ "opens": {
+  "first_sentence": "With EFT (Emotional Freedom Techniques, or tapping), you tap gently on your body while you say something like, “Even though I have this anxiety, I am willing to be kind to the part of me that is afraid,” and you stay with what you feel.",
+  "why_reading": "The text's first sentence opens 'EFT Tapping', the first of the three sections: it tells the anxious reader in one sentence what they would actually do with EFT (tap gently on the body, say a line that begins 'Even though I have this anxiety', stay with what they feel), so they can tell whether it is something they would try. The changed sentence opens the next section, 'Somatic Experiencing', on the author's pointer to his somatic guide."
+ },
+ "same_point": "none: read the three sections, from 'EFT Tapping' to the end of 'Gendlin Focusing', for the free session or who it is for; it is said only in this sentence. Outside them, 'Breathe, Relax & Flow' links the same guide for Systema (another section of it) and says nothing of sessions. The somatic guide itself says who the session is for, which is where the three words come from.",
+ "needed": {
+  "reader": "a fresh reader (subagent, 2026-11-25), given tools/humanization/needed_read_brief.md with the three sections, their headings and what each is for; for 'Somatic Experiencing': the anxious reader is about to decide whether to try tracking by themselves or to go and learn it with someone",
+  "needs": {
+   "S1-S3 (EFT Tapping, his)": "what tapping is, a line to say, and how far the evidence goes",
+   "S4 (Somatic Experiencing, his but for three words)": "where to get more and a first session; 'for paid subscribers' tells them whether the free session is theirs",
+   "S5-S7 (Somatic Experiencing, his)": "what somatic experiencing asks of them and a first thing to track",
+   "S8-S14 (Gendlin Focusing, his)": "the two questions to ask the body and how to test the word that comes"
+  },
+  "unneeded": [],
+  "kept": {}
+ },
+ "his_fixes": {
+  "reader": "a fresh reader (subagent, 2026-11-25), given tools/humanization/his_fixes_brief.md and the text one sentence a line (what it is for: picking a body-first method to try). The author's own sentences were read as the text around the changed one and are not marked; in the changed sentence only the three added words are the editor's.",
+  "marked": [],
+  "kept": {},
+  "note": "Read for 10 (could 'for paid subscribers' be taken with 'more information' too?): the words follow 'a free intro session' directly and 'free ... for paid subscribers' is the usual way to say it, so a quick reader takes it with the session. Not marked."
+ },
+ "fit": {
+  "reader": "a fresh reader (subagent, 2026-11-25), given tools/humanization/fit_read_brief.md. WHAT IT IS: three short sections of an appendix on anxiety in a self-hypnosis guide published on Substack, each naming a body-first method. YOUR MOMENT: I am anxious, I am looking for a method to try, and I read the post as a free subscriber.",
+  "marked": [],
+  "kept": {},
+  "note": "MISREAD read both ways. Without the three words, 'or even a free intro session' would have told me I could have one; with them I know it is for paid subscribers before I click. 'Free' beside 'paid' did not confuse on a quick read."
+ },
+ "questions": {
+  "Q1": "PASS: the sentence is the author's and opens on why a reader would want it ('If you would like more information about somatic experiencing, or even a free intro session'); the three added words sit with the session they limit, before the instruction, so the reader knows whose offer it is before being sent to the other guide.",
+  "Q2": "PASS: 'please see my somatic guide' is something the reader does, and the if-clause before it says what for (more information, or a free first session).",
+  "Q3": "PASS: this is what the change is for: 'a free intro session' named a session anyone could have, and 'for paid subscribers' names whose it is.",
+  "Q4": "PASS: 'paid subscribers' is Substack's own term, which the reader of a Substack post sees on the page; 'intro session' is a first session of somatic experiencing, named in the same clause. What somatic experiencing is comes in the author's next sentence, as he wrote it; the edit doesn't touch that order.",
+  "Q5": "PASS: it opens its section and follows from the heading 'Somatic Experiencing'; inside it, 'or even' adds to 'more information', and 'for paid subscribers' follows the session it limits.",
+  "Q6": "PASS: the order is the author's (the pointer, then what somatic experiencing is, then how to start); the three words come at the point where the reader is weighing the offer.",
+  "Q7": "PASS: an anxious reader deciding whether to learn somatic experiencing with someone finds out that the free session is real and who it is for, before clicking through.",
+  "Q8": "N/A: the changed sentence sorts nothing into groups.",
+  "Q9": "PASS: three words, with the 'for' that carries the relation; the sentence stays one offer and one instruction."
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ },
+ "his_whose": "his own: EFT Tapping, Somatic Experiencing and Gendlin Focusing of the live post"
+}

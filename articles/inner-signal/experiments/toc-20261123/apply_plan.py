@@ -39,12 +39,14 @@ EDITS = [
     ('T6c', 'S131', 'Then afterwards, check in about what was actually done',
      'Then afterwards, check how well your critical thinking is working when you look back on how it went, and check in '
      'about what was actually done', 'answer 10'),
-    ('Q7', 'S122', 'Breathe in small amounts through your nose and let it out quietly, through your nose too.',
-     'By simply pursing your lips together on exhale, you can slow down your exhale. Slower exhales, combined with not '
-     'breathing more on inhales, lead to overall reduction in breathing. That slight oxygen hunger feels a bit anxiogenic '
-     'for the first 20 seconds or so, but after that, you’ll feel much calmer.',
-     'his answer of 2026-11-25 11:18 ("7 b": the somatic guide\'s way here too): the nose-out sentence becomes the three '
-     'sentences of his somatic guide\'s Breathwork section, word for word; the rest of his paragraph stays'),
+    ('T7', 'S122', 'Can you make your breathing very quiet? If you feel bad',
+     'Can you make your breathing very quiet? Try the continuous breathing from Systema (a Russian martial art) too: it '
+     'helps not just with relaxing, but with getting into trance and flow states more deeply. You can learn it from the '
+     'best video on it I\'ve seen so far, and my somatic guide explains it more. If you feel bad',
+     'his note of 2026-11-24 21:05 UTC: Systema\'s continuous breathing beside the Buteyko lines; inside his paragraph, '
+     'before his stop line, so that line covers both (a fresh reader, 2026-11-25). His answer 7 b (the somatic guide\'s '
+     'way of breathing less) is on the marking page, not in this edit: swapping the sentences left two of his that no '
+     'longer fit'),
     ('Q8', 'S019', 'The longer version of this exercise can be found in my', 'There is more on borrowed adulthood in my',
      'his answer of 2026-11-25 11:18 ("8 a"): the inner child guide no longer has the adult hat exercise; the sentence '
      'points to its "Borrowed Adulthood" section'),
@@ -71,13 +73,6 @@ NEW_P = [
                     ['”: if what you\'re doing is making you more paranoid, sleepless, grandiose, isolated or scared, or '
                      'things feel more and more unreal, stop going deeper and get help.', None]],
      'answer 7: "The General Rule" goes; this sentence keeps every warning sign of his'),
-    ('T7', 'S122', [['Try the continuous breathing from Systema (a Russian martial art) too: it helps not just with relaxing, '
-                     'but with getting into trance and flow states more deeply. You can learn it from ', None],
-                    ['the best video on it I\'ve seen so far', 'https://www.youtube.com/shorts/Nar2-nvomAk'],
-                    [', and ', None],
-                    ['my somatic guide explains it more', 'https://ibogaqueen.substack.com/i/201523223/systema-circular-breathing-and-compassionate-relaxing-martial-arts'],
-                    ['.', None]],
-     'his note of 2026-11-24 21:05 UTC: Systema\'s continuous breathing beside the Buteyko lines'),
 ]
 NEW_P.append(('P1', 'S007', [['If you do let a hypnotist work on you, or listen to a stranger\'s hypnosis recording, go through the questions in “', None],
                           ['Find a Hypnotist Who Fits', 'S131'], ['” first.', None]],
@@ -198,6 +193,9 @@ def main(pointer=False):
     plan_links = [(l['n'], l['in'], LINK_WORDS_AFTER.get(l['n'], l['text']), l['to']) for l in J('LINK-PLAN.json')['links'] if l['n'] not in (25, 35)]
     plan_links += [(25, 'S079', 'Appendix E', 'S129')]
     plan_links += [(36 + k, w, t, to) for k, (w, t, to, _) in enumerate(MORE_LINKS)]
+    plan_links += [(40, 'S122', "the best video on it I've seen so far", 'https://www.youtube.com/shorts/Nar2-nvomAk'),
+                   (41, 'S122', 'my somatic guide explains it more',
+                    'https://ibogaqueen.substack.com/i/201523223/systema-circular-breathing-and-compassionate-relaxing-martial-arts')]
     plan_links += [(39, 'S019', 'Inner Child Self-Love Reparenting Guide', 'https://ibogaqueen.substack.com/i/189761959/borrowed-adulthood')]
     all_after = [text_after(k) for k in used]
     for num, where, words, to in plan_links:

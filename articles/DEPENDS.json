@@ -1,0 +1,1282 @@
+{
+ "about": "The passages in Joel's guides that make the same point: each point has a home (article, section, exact words) and its uses, the passages elsewhere that repeat it, put it in their own words, point to it or differ from it, each with its state, and a point of kind \"link\" is a section of a post and the links to it. When you edit a passage, run `python3 tools/humanization/depends.py check`: it lists every quote that is no longer found, with the passages to re-read; bring those in line or put them to Joel, then record the new words and state here (`add` registers a new pair, `list --write` makes the page articles/DEPENDS.md). \"texts\" names the copy each article's quotes are checked in, the one that had the most of them on 2026-11-25: the saved copies of the live posts, since the registered masters are behind the posts (masters: 2 of inner-signal's 50 quotes, 0 of inner-child-therapy's 33, 0 of somatic-therapies' 17; live copies: 50, 33 and 17; nibbana's master has no \"Who Gets Reborn?\" heading and its saved live text does), so point \"texts\" at a newer saved copy when there is one, or drop the entry once the master is brought up to its post.",
+ "his_words": [
+  {
+   "when": "2026-11-25 11:18 UTC",
+   "words": "make sure we have a common reference point for the things that are common, in our github version control system for the articles rigth, or some way to know when one thing changes that another thing is dependent on in same article or diff article."
+  }
+ ],
+ "texts": {
+  "inner-signal": "articles/inner-signal/experiments/toc-20261123/LIVE-BODY-20261123.html",
+  "inner-child-therapy": "articles/inner-signal/experiments/toc-20261123/catchup/SECTIONS-inner-child-20261125.json",
+  "somatic-therapies": "articles/inner-signal/experiments/toc-20261123/catchup/SECTIONS-somatic-20261125.json",
+  "nibbana": "articles/nibbana/experiments/toc-20261123/pangram/WHOLE-FINAL.txt"
+ },
+ "points": [
+  {
+   "id": "C01",
+   "what": "Borrowed adulthood: the pointer to a longer version of the hat exercise, which the inner child guide no longer has",
+   "kind": "passage",
+   "home": {
+    "article": "inner-child-therapy",
+    "section": "Chicken-and-Egg Problem",
+    "section_id": "S003",
+    "quote": "Maybe you copy one small thing you’ve seen them do, or imagine them there when they’re not, and try one piece yourself while they’re still helping with the rest. That’s what I mean by borrowed adulthood."
+   },
+   "uses": [
+    {
+     "article": "inner-signal",
+     "section": "When the adult role is not available yet",
+     "section_id": "S019",
+     "quote": "The longer version of this exercise can be found in my Inner Child Self-Love Reparenting Guide .",
+     "relation": "differs",
+     "state": "his to settle",
+     "as_of": "2026-11-25",
+     "note": "dropped in source (matters: high); the catch-up suggests: ask the author"
+    }
+   ],
+   "from": "the catch-up of 2026-11-25 (articles/inner-signal/experiments/toc-20261123/catchup/CATCHUP-INNER-CHILD.json), item C01"
+  },
+  {
+   "id": "C02",
+   "what": "Substances with this work: the signs that mean stop and don't repeat it, and when to see a professional",
+   "kind": "passage",
+   "home": {
+    "article": "inner-child-therapy",
+    "section": "If a past trip went badly",
+    "section_id": "S102",
+    "quote": "If you go manic, psychotic (by which I mean losing your sense of reality to the point of posing a risk to yourself or others), get super paranoid, or end up worse afterward than before, those are signs to reconsider trying the same thing again, and try to figure out why that happened. Don’t try again until you understand what would make it safe."
+   },
+   "uses": [
+    {
+     "article": "inner-signal",
+     "section": "Appendix G: Altered states",
+     "section_id": "S136",
+     "quote": "I’m not saying you should use substances, but many people have used them when they first did self-hypnosis, contacted their inner child, or talked to their Higher Self.",
+     "relation": "differs",
+     "state": "left as it is",
+     "as_of": "2026-11-25",
+     "note": "caveat (matters: high); the catch-up suggests: link to the source section"
+    }
+   ],
+   "from": "the catch-up of 2026-11-25 (articles/inner-signal/experiments/toc-20261123/catchup/CATCHUP-INNER-CHILD.json), item C02"
+  },
+  {
+   "id": "C03",
+   "what": "Whether just not hitting back already takes warmth, or only trust does",
+   "kind": "passage",
+   "home": {
+    "article": "inner-child-therapy",
+    "section": "If Love Isn’t Coming Yet",
+    "section_id": "S033",
+    "quote": "That’s enough to start being the adult, even if it isn’t enough yet for them to trust you. That takes warmth, and if there isn’t any yet, borrow some."
+   },
+   "uses": [
+    {
+     "article": "inner-signal",
+     "section": "Love doesn’t have to wait for trust",
+     "section_id": "S021",
+     "quote": "Just not hitting back is enough to start being the adult, even if it isn't enough yet for them to trust you. Even that takes some warmth, and if you don't have any yet, borrow some from someone who's been good to you, or from an adult you imagine.",
+     "relation": "differs",
+     "state": "his to settle",
+     "as_of": "2026-11-25",
+     "note": "contradiction (matters: medium); the catch-up suggests: ask the author"
+    }
+   ],
+   "from": "the catch-up of 2026-11-25 (articles/inner-signal/experiments/toc-20261123/catchup/CATCHUP-INNER-CHILD.json), item C03"
+  },
+  {
+   "id": "C04",
+   "what": "When the little one resists: meet it with love, or listen to the refusal",
+   "kind": "passage",
+   "home": {
+    "article": "inner-child-therapy",
+    "section": "Invite Your Little One In",
+    "section_id": "S059",
+    "quote": "They might go numb, or call BS on that. If so, they might just need to see if you’re actually humble enough, and grateful enough for them, to listen to their rejection, be patient, and be open to the possibility that your Higher View is missing the trees for the forest."
+   },
+   "uses": [
+    {
+     "article": "inner-signal",
+     "section": "The two-hand practice",
+     "section_id": "S024",
+     "quote": "If you feel resistance, just meet it with love. If you feel or see something, just meet that with love as well.",
+     "relation": "differs",
+     "state": "behind",
+     "as_of": "2026-11-25",
+     "note": "dropped in source (matters: medium); the catch-up suggests: carry over"
+    }
+   ],
+   "from": "the catch-up of 2026-11-25 (articles/inner-signal/experiments/toc-20261123/catchup/CATCHUP-INNER-CHILD.json), item C04"
+  },
+  {
+   "id": "C05",
+   "what": "The Higher Self has no specific wisdom (that can be followed mechanically)",
+   "kind": "passage",
+   "home": {
+    "article": "inner-child-therapy",
+    "section": "Internal Family Systems",
+    "section_id": "S151",
+    "quote": "But where I part ways with IFS is I don’t think the Higher Self has any specific wisdom that can be followed mechanically."
+   },
+   "uses": [
+    {
+     "article": "inner-signal",
+     "section": "Sometimes start with the whole",
+     "section_id": "S017",
+     "quote": "And I don’t think the Higher Self has any specific wisdom.",
+     "relation": "differs",
+     "state": "behind",
+     "as_of": "2026-11-25",
+     "note": "clearer in source (matters: medium); the catch-up suggests: carry over"
+    }
+   ],
+   "from": "the catch-up of 2026-11-25 (articles/inner-signal/experiments/toc-20261123/catchup/CATCHUP-INNER-CHILD.json), item C05"
+  },
+  {
+   "id": "C06",
+   "what": "Sorting out what a part is, or not spending long on what to call it",
+   "kind": "passage",
+   "home": {
+    "article": "inner-child-therapy",
+    "section": "Which thoughts to talk to",
+    "section_id": "S070",
+    "quote": "I wouldn’t spend long deciding what to call each part you meet."
+   },
+   "uses": [
+    {
+     "article": "inner-signal",
+     "section": "Sometimes start with the whole",
+     "section_id": "S017",
+     "quote": "When something specific comes up, that’s the time to sort out what it is.",
+     "relation": "differs",
+     "state": "his to settle",
+     "as_of": "2026-11-25",
+     "note": "contradiction (matters: medium); the catch-up suggests: ask the author"
+    }
+   ],
+   "from": "the catch-up of 2026-11-25 (articles/inner-signal/experiments/toc-20261123/catchup/CATCHUP-INNER-CHILD.json), item C06"
+  },
+  {
+   "id": "C07",
+   "what": "The order of the three adult functions: safety first, then love, then guidance",
+   "kind": "passage",
+   "home": {
+    "article": "inner-child-therapy",
+    "section": "One Skill at a Time",
+    "section_id": "S021",
+    "quote": "While all of these super powers should be developed alongside each other, the inner child’s receptivity will naturally follow this order: first he/she wants to feel safe (Protector), then, building on that safety, feel loved (Nurturer), and then building on the safety & love, trust allows the little one to be eager to take guidance, and that’s where Guide-building comes in."
+   },
+   "uses": [
+    {
+     "article": "inner-signal",
+     "section": "The Guide",
+     "section_id": "S027",
+     "quote": "Start with whatever adult function you can connect to, but most of us need enough Nurturer and Protector first, before the Guide.",
+     "relation": "differs",
+     "state": "his to settle",
+     "as_of": "2026-11-25",
+     "note": "changed step (matters: medium); the catch-up suggests: ask the author"
+    }
+   ],
+   "from": "the catch-up of 2026-11-25 (articles/inner-signal/experiments/toc-20261123/catchup/CATCHUP-INNER-CHILD.json), item C07"
+  },
+  {
+   "id": "C08",
+   "what": "The Guide: someone you ask for direction, or a job you do yourself",
+   "kind": "passage",
+   "home": {
+    "article": "inner-child-therapy",
+    "section": "The Inner Guide",
+    "section_id": "S044",
+    "quote": "As the Guide, you choose what your little one learns and what it gets to experience, and you hold standards, the way a good parent would."
+   },
+   "uses": [
+    {
+     "article": "inner-signal",
+     "section": "The Guide",
+     "section_id": "S027",
+     "quote": "Ask them for help with directing your life.",
+     "relation": "differs",
+     "state": "his to settle",
+     "as_of": "2026-11-25",
+     "note": "clearer in source (matters: medium); the catch-up suggests: ask the author"
+    }
+   ],
+   "from": "the catch-up of 2026-11-25 (articles/inner-signal/experiments/toc-20261123/catchup/CATCHUP-INNER-CHILD.json), item C08"
+  },
+  {
+   "id": "C09",
+   "what": "A critical voice may also be trying to protect you, or pointing at a real problem",
+   "kind": "passage",
+   "home": {
+    "article": "inner-child-therapy",
+    "section": "The Parent You Inherited",
+    "section_id": "S027",
+    "quote": "Keep in mind that while a critical voice might be that inherited parent script, or any outside influence with no concern for your welfare, it could also be trying to protect you from rejection or failure. It may be pointing to a real problem, but in a cruel way."
+   },
+   "uses": [
+    {
+     "article": "inner-signal",
+     "section": "Your inherited parent script",
+     "section_id": "S029",
+     "quote": "Often this script acts as a critic or warden, telling your inner child not to cry or complain.",
+     "relation": "differs",
+     "state": "behind",
+     "as_of": "2026-11-25",
+     "note": "new point (matters: medium); the catch-up suggests: carry over"
+    }
+   ],
+   "from": "the catch-up of 2026-11-25 (articles/inner-signal/experiments/toc-20261123/catchup/CATCHUP-INNER-CHILD.json), item C09"
+  },
+  {
+   "id": "C10",
+   "what": "Which thoughts to look into, and which to let go (a stray thought, a worry that only wants reassurance)",
+   "kind": "passage",
+   "home": {
+    "article": "inner-child-therapy",
+    "section": "Which thoughts to talk to",
+    "section_id": "S070",
+    "quote": "Let a stray thought go as just thinking, and come back to the room you’re in. A worry that just keeps asking to be reassured can go the same way, unless it’s your little one asking."
+   },
+   "uses": [
+    {
+     "article": "inner-signal",
+     "section": "Working with your guards",
+     "section_id": "S028",
+     "quote": "Still, notice it, and then look at what might be going on.",
+     "relation": "differs",
+     "state": "behind",
+     "as_of": "2026-11-25",
+     "note": "caveat (matters: medium); the catch-up suggests: carry over"
+    }
+   ],
+   "from": "the catch-up of 2026-11-25 (articles/inner-signal/experiments/toc-20261123/catchup/CATCHUP-INNER-CHILD.json), item C10"
+  },
+  {
+   "id": "C11",
+   "what": "Going back to reconnect with your little one, and when going back turns into checking for certainty",
+   "kind": "passage",
+   "home": {
+    "article": "inner-child-therapy",
+    "section": "Healing or Checking?",
+    "section_id": "S088",
+    "quote": "Going back to reconnect with your little one is normal parenting/reparenting, but returning to lick the same wound over and over can become a search for certainty in an inherently uncertain existence."
+   },
+   "uses": [
+    {
+     "article": "inner-signal",
+     "section": "Don’t rush the repair",
+     "section_id": "S032",
+     "quote": "G. Stop and rest before the caring turns into another performance, and reconnect with them later to see what was helpful.",
+     "relation": "differs",
+     "state": "behind",
+     "as_of": "2026-11-25",
+     "note": "caveat (matters: medium); the catch-up suggests: carry over"
+    }
+   ],
+   "from": "the catch-up of 2026-11-25 (articles/inner-signal/experiments/toc-20261123/catchup/CATCHUP-INNER-CHILD.json), item C11"
+  },
+  {
+   "id": "C12",
+   "what": "Before the repair: prepare some privacy, or call somebody first if being left alone was what hurt",
+   "kind": "passage",
+   "home": {
+    "article": "inner-child-therapy",
+    "section": "Dip Your Toes In First",
+    "section_id": "S007",
+    "quote": "If being alone was a big part of what hurt during your childhood, I’d call somebody now, mess and all, since reaching toward people is part of taking care of your little one too. Even if you don’t have someone you know who wants to listen, there are warmlines for this (not hotlines unless it’s an emergency)."
+   },
+   "uses": [
+    {
+     "article": "inner-signal",
+     "section": "Don’t rush the repair",
+     "section_id": "S032",
+     "quote": "A. Prepare yourself to tend to them with some privacy, but still able to access support if needed.",
+     "relation": "differs",
+     "state": "behind",
+     "as_of": "2026-11-25",
+     "note": "caveat (matters: medium); the catch-up suggests: carry over"
+    }
+   ],
+   "from": "the catch-up of 2026-11-25 (articles/inner-signal/experiments/toc-20261123/catchup/CATCHUP-INNER-CHILD.json), item C12"
+  },
+  {
+   "id": "C13",
+   "what": "No inner voice or child to talk to: work with what you notice, and don't invent one",
+   "kind": "passage",
+   "home": {
+    "article": "inner-child-therapy",
+    "section": "No Inner Monologue?",
+    "section_id": "S067",
+    "quote": "If you don’t hear a little kid talking in your head, don’t invent one. Actually, this is one place where the usual inner-child prompt to “ask your little one what they need” can get confusing, because “ask” sounds like you’re supposed to ask a question and then wait for a second voice to answer."
+   },
+   "uses": [
+    {
+     "article": "inner-signal",
+     "section": "The inner child will not appear",
+     "section_id": "S072",
+     "quote": "Even if there isn’t a child part that you can talk to, you can work with whatever you are aware of.",
+     "relation": "differs",
+     "state": "behind",
+     "as_of": "2026-11-25",
+     "note": "caveat (matters: medium); the catch-up suggests: carry over"
+    }
+   ],
+   "from": "the catch-up of 2026-11-25 (articles/inner-signal/experiments/toc-20261123/catchup/CATCHUP-INNER-CHILD.json), item C13"
+  },
+  {
+   "id": "C14",
+   "what": "When an answer tells you to act: the test for it, and that anything big or hard to undo waits",
+   "kind": "passage",
+   "home": {
+    "article": "inner-child-therapy",
+    "section": "If it tells you to act",
+    "section_id": "S073",
+    "quote": "I’d only do it if it’s loving and leaves you free. It should make sense, too. Even then, anything big or hard to undo can wait until you’re calm and you’ve checked it against what you actually know."
+   },
+   "uses": [
+    {
+     "article": "inner-signal",
+     "section": "The subconscious will not answer",
+     "section_id": "S071",
+     "quote": "There may not be an answer that will help you.",
+     "relation": "differs",
+     "state": "behind",
+     "as_of": "2026-11-25",
+     "note": "caveat (matters: medium); the catch-up suggests: carry over"
+    }
+   ],
+   "from": "the catch-up of 2026-11-25 (articles/inner-signal/experiments/toc-20261123/catchup/CATCHUP-INNER-CHILD.json), item C14"
+  },
+  {
+   "id": "C15",
+   "what": "A memory that feels real in an altered state isn't proof that it happened",
+   "kind": "passage",
+   "home": {
+    "article": "inner-child-therapy",
+    "section": "Altered Can Make It Real",
+    "section_id": "S096",
+    "quote": "Old memories might come up too. They can feel totally real, but that alone doesn’t prove they happened."
+   },
+   "uses": [
+    {
+     "article": "inner-signal",
+     "section": "Inner child reparenting",
+     "section_id": "S031",
+     "quote": "It can be an image, a posture, a voice, a memory, an emotion, etc.",
+     "relation": "differs",
+     "state": "behind",
+     "as_of": "2026-11-25",
+     "note": "caveat (matters: medium); the catch-up suggests: carry over"
+    }
+   ],
+   "from": "the catch-up of 2026-11-25 (articles/inner-signal/experiments/toc-20261123/catchup/CATCHUP-INNER-CHILD.json), item C15"
+  },
+  {
+   "id": "C16",
+   "what": "Taking counsel without handing someone your power: the test for the person, and the signs of manipulation",
+   "kind": "passage",
+   "home": {
+    "article": "inner-child-therapy",
+    "section": "Borrow, Don’t Sell Out",
+    "section_id": "S019",
+    "quote": "But they can know things you don’t and still be wrong for you to follow too much. The test is whether the relationship makes you more grounded, truthful, and free."
+   },
+   "uses": [
+    {
+     "article": "inner-signal",
+     "section": "The council — internal first, then outward",
+     "section_id": "S133",
+     "quote": "Seeking counsel can slide into abdicating to an authority figure without you noticing.",
+     "relation": "differs",
+     "state": "behind",
+     "as_of": "2026-11-25",
+     "note": "caveat (matters: medium); the catch-up suggests: carry over"
+    }
+   ],
+   "from": "the catch-up of 2026-11-25 (articles/inner-signal/experiments/toc-20261123/catchup/CATCHUP-INNER-CHILD.json), item C16"
+  },
+  {
+   "id": "C17",
+   "what": "Forgiving doesn't have to come before getting safe, setting boundaries or getting better",
+   "kind": "passage",
+   "home": {
+    "article": "inner-child-therapy",
+    "section": "Forgiving, Not Forgetting",
+    "section_id": "S038",
+    "quote": "And you don’t have to forgive first to get safe, set boundaries, hold someone accountable, get justice or get better."
+   },
+   "uses": [
+    {
+     "article": "inner-signal",
+     "section": "Forgiveness without bypass",
+     "section_id": "S134",
+     "quote": "It has to come from a place of understanding, otherwise it can be bypassing.",
+     "relation": "differs",
+     "state": "behind",
+     "as_of": "2026-11-25",
+     "note": "new point (matters: medium); the catch-up suggests: carry over"
+    }
+   ],
+   "from": "the catch-up of 2026-11-25 (articles/inner-signal/experiments/toc-20261123/catchup/CATCHUP-INNER-CHILD.json), item C17"
+  },
+  {
+   "id": "C18",
+   "what": "Who borrowed adulthood and the three adult functions come from (the credits)",
+   "kind": "passage",
+   "home": {
+    "article": "inner-child-therapy",
+    "section": "My Framework’s Roots",
+    "section_id": "S152",
+    "quote": "My inner child reparenting framework developed through the teachers and collaborators credited below and my own practice."
+   },
+   "uses": [
+    {
+     "article": "inner-signal",
+     "section": "Inner-child care and adult capacities",
+     "section_id": "S162",
+     "quote": "The sequence for doing this with borrowed adulthood and the arrangement of 3 functions of adulthood , etc, is not from these authors, however.",
+     "relation": "differs",
+     "state": "his to settle",
+     "as_of": "2026-11-25",
+     "note": "new point (matters: medium); the catch-up suggests: ask the author"
+    }
+   ],
+   "from": "the catch-up of 2026-11-25 (articles/inner-signal/experiments/toc-20261123/catchup/CATCHUP-INNER-CHILD.json), item C18"
+  },
+  {
+   "id": "C19",
+   "what": "The question that ends the love-before-trust script: what feels unsafe, or what makes the love feel unreal",
+   "kind": "passage",
+   "home": {
+    "article": "inner-child-therapy",
+    "section": "Love Before Trust ❤️",
+    "section_id": "S032",
+    "quote": "Tell me what makes the love feel unreal to you."
+   },
+   "uses": [
+    {
+     "article": "inner-signal",
+     "section": "Love doesn’t have to wait for trust",
+     "section_id": "S021",
+     "quote": "Tell me what feels unsafe.",
+     "relation": "differs",
+     "state": "behind",
+     "as_of": "2026-11-25",
+     "note": "changed step (matters: low); the catch-up suggests: carry over"
+    }
+   ],
+   "from": "the catch-up of 2026-11-25 (articles/inner-signal/experiments/toc-20261123/catchup/CATCHUP-INNER-CHILD.json), item C19"
+  },
+  {
+   "id": "C20",
+   "what": "The question that ends the script for a part that shows up: what's going on, or what can we work on together",
+   "kind": "passage",
+   "home": {
+    "article": "inner-child-therapy",
+    "section": "Start With What Shows Up",
+    "section_id": "S064",
+    "quote": "What can we work on together?"
+   },
+   "uses": [
+    {
+     "article": "inner-signal",
+     "section": "Working with your guards",
+     "section_id": "S028",
+     "quote": "What's going on?",
+     "relation": "differs",
+     "state": "behind",
+     "as_of": "2026-11-25",
+     "note": "changed step (matters: low); the catch-up suggests: carry over"
+    }
+   ],
+   "from": "the catch-up of 2026-11-25 (articles/inner-signal/experiments/toc-20261123/catchup/CATCHUP-INNER-CHILD.json), item C20"
+  },
+  {
+   "id": "C21",
+   "what": "The name of the practice: the two-hand practice here, A Heart to Child Loop there",
+   "kind": "passage",
+   "home": {
+    "article": "inner-child-therapy",
+    "section": "A Heart to Child Loop",
+    "section_id": "S060",
+    "quote": "A Heart to Child Loop"
+   },
+   "uses": [
+    {
+     "article": "inner-signal",
+     "section": "The two-hand practice",
+     "section_id": "S024",
+     "quote": "The two-hand practice",
+     "relation": "differs",
+     "state": "his to settle",
+     "as_of": "2026-11-25",
+     "note": "changed term (matters: low); the catch-up suggests: ask the author"
+    }
+   ],
+   "from": "the catch-up of 2026-11-25 (articles/inner-signal/experiments/toc-20261123/catchup/CATCHUP-INNER-CHILD.json), item C21"
+  },
+  {
+   "id": "C22",
+   "what": "The resentful second voice when the child doubts you, and that the child's checking is fair",
+   "kind": "passage",
+   "home": {
+    "article": "inner-child-therapy",
+    "section": "Love Before Trust ❤️",
+    "section_id": "S032",
+    "quote": "The resentment can be purely visceral: being doubted after you’ve tried feels unfair, but there’s nothing unfair in them checking if you’re really gonna be the rock they need."
+   },
+   "uses": [
+    {
+     "article": "inner-signal",
+     "section": "Instead of blame",
+     "section_id": "S022",
+     "quote": "They may be younger than you are now. Both talk in your grown-up voice, so to your little one they're the same.",
+     "relation": "differs",
+     "state": "behind",
+     "as_of": "2026-11-25",
+     "note": "clearer in source (matters: low); the catch-up suggests: carry over"
+    }
+   ],
+   "from": "the catch-up of 2026-11-25 (articles/inner-signal/experiments/toc-20261123/catchup/CATCHUP-INNER-CHILD.json), item C22"
+  },
+  {
+   "id": "C23",
+   "what": "Asking what they need: every time, or not when it's obvious",
+   "kind": "passage",
+   "home": {
+    "article": "inner-child-therapy",
+    "section": "Ask What They Need",
+    "section_id": "S127",
+    "quote": "Not that you have to make a ritual of asking every time, if it’s obvious what they want."
+   },
+   "uses": [
+    {
+     "article": "inner-signal",
+     "section": "Don’t rush the repair",
+     "section_id": "S032",
+     "quote": "Even if you feel like you already know what they need, ask if they'd prefer warmth, space, verbal reassurance, silence, distance, whatever.",
+     "relation": "differs",
+     "state": "his to settle",
+     "as_of": "2026-11-25",
+     "note": "contradiction (matters: low); the catch-up suggests: ask the author"
+    }
+   ],
+   "from": "the catch-up of 2026-11-25 (articles/inner-signal/experiments/toc-20261123/catchup/CATCHUP-INNER-CHILD.json), item C23"
+  },
+  {
+   "id": "C24",
+   "what": "How self-forgiveness ends: coming back to the fault every so often, or being allowed to stop",
+   "kind": "passage",
+   "home": {
+    "article": "inner-child-therapy",
+    "section": "Forgiving Yourself",
+    "section_id": "S040",
+    "quote": "Then you’re allowed to stop holding yourself hostage, and the responsibility stays."
+   },
+   "uses": [
+    {
+     "article": "inner-signal",
+     "section": "Forgiving yourself",
+     "section_id": "S135",
+     "quote": "Every so often, come back to how you got to be someone who could do that, until you understand the pattern well enough that it can't drive you anymore.",
+     "relation": "differs",
+     "state": "his to settle",
+     "as_of": "2026-11-25",
+     "note": "dropped in source (matters: low); the catch-up suggests: ask the author"
+    }
+   ],
+   "from": "the catch-up of 2026-11-25 (articles/inner-signal/experiments/toc-20261123/catchup/CATCHUP-INNER-CHILD.json), item C24"
+  },
+  {
+   "id": "C25",
+   "what": "Where to borrow warmth from: someone good to you, an imagined adult, or the love you already give others",
+   "kind": "passage",
+   "home": {
+    "article": "inner-child-therapy",
+    "section": "Borrow the Love You Give",
+    "section_id": "S035",
+    "quote": "Just feel that love you can feel for others for a minute, in your body, before you try to redirect anything."
+   },
+   "uses": [
+    {
+     "article": "inner-signal",
+     "section": "Love doesn’t have to wait for trust",
+     "section_id": "S021",
+     "quote": "Even that takes some warmth, and if you don't have any yet, borrow some from someone who's been good to you, or from an adult you imagine.",
+     "relation": "differs",
+     "state": "left as it is",
+     "as_of": "2026-11-25",
+     "note": "new point (matters: low); the catch-up suggests: link to the source section"
+    }
+   ],
+   "from": "the catch-up of 2026-11-25 (articles/inner-signal/experiments/toc-20261123/catchup/CATCHUP-INNER-CHILD.json), item C25"
+  },
+  {
+   "id": "C26",
+   "what": "What to say when \"I love you\" isn't true yet: that you care, or a goodwill wish",
+   "kind": "passage",
+   "home": {
+    "article": "inner-child-therapy",
+    "section": "Goodwill: A Smaller Door",
+    "section_id": "S042",
+    "quote": "And if “I love you” goes flat when said to yourself or your little one, the same goodwill wish can be a stabler place to start."
+   },
+   "uses": [
+    {
+     "article": "inner-signal",
+     "section": "Non-dominant hand dialogue",
+     "section_id": "S034",
+     "quote": "Only say the \"I love you\" part if you can feel it. If you don't feel the love yet, say you care.",
+     "relation": "differs",
+     "state": "behind",
+     "as_of": "2026-11-25",
+     "note": "new point (matters: low); the catch-up suggests: carry over"
+    }
+   ],
+   "from": "the catch-up of 2026-11-25 (articles/inner-signal/experiments/toc-20261123/catchup/CATCHUP-INNER-CHILD.json), item C26"
+  },
+  {
+   "id": "C27",
+   "what": "Spoiling the inner child, and the rule for treats (set times, never cancelled as punishment)",
+   "kind": "passage",
+   "home": {
+    "article": "inner-child-therapy",
+    "section": "Spoil or Clamp Down?",
+    "section_id": "S046",
+    "quote": "Treats and pampering do better at set times, where they can’t get out of hand. They shouldn’t get canceled as a punishment after a bad day, either."
+   },
+   "uses": [
+    {
+     "article": "inner-signal",
+     "section": "The Guide",
+     "section_id": "S027",
+     "quote": "Without the Guide, you can also slide from looking after your inner child into spoiling it: sweets and screens can pass for loving yourself, and so can getting it out of anything hard.",
+     "relation": "differs",
+     "state": "behind",
+     "as_of": "2026-11-25",
+     "note": "new point (matters: low); the catch-up suggests: carry over"
+    }
+   ],
+   "from": "the catch-up of 2026-11-25 (articles/inner-signal/experiments/toc-20261123/catchup/CATCHUP-INNER-CHILD.json), item C27"
+  },
+  {
+   "id": "C28",
+   "what": "Why an inner child may never appear: growing up where belonging meant playing someone else",
+   "kind": "passage",
+   "home": {
+    "article": "inner-child-therapy",
+    "section": "No Clear Child Yet?",
+    "section_id": "S082",
+    "quote": "But if you grew up somewhere you only belonged as long as you played somebody else, like a really controlling family or a strict church, the real one may never have had room to form."
+   },
+   "uses": [
+    {
+     "article": "inner-signal",
+     "section": "The inner child will not appear",
+     "section_id": "S072",
+     "quote": "Work on developing a sense of who you are and reparent yourself as best you can.",
+     "relation": "differs",
+     "state": "behind",
+     "as_of": "2026-11-25",
+     "note": "new point (matters: low); the catch-up suggests: carry over"
+    }
+   ],
+   "from": "the catch-up of 2026-11-25 (articles/inner-signal/experiments/toc-20261123/catchup/CATCHUP-INNER-CHILD.json), item C28"
+  },
+  {
+   "id": "C29",
+   "what": "A peak experience is a reference point, not the bar for ordinary days or proof the healing is done",
+   "kind": "passage",
+   "home": {
+    "article": "inner-child-therapy",
+    "section": "What to Do With a Peak",
+    "section_id": "S097",
+    "quote": "That night can’t be the bar for every morning after, or regular life starts to feel like failing. And gorgeous as it was, it doesn’t mean you’re done healing."
+   },
+   "uses": [
+    {
+     "article": "inner-signal",
+     "section": "Appendix G: Altered states",
+     "section_id": "S136",
+     "quote": "If you've had a similar experience, you know that there is a difference between having experienced it at one point, or only being able to access it in a certain state, and being able to get to it at any point in your life.",
+     "relation": "differs",
+     "state": "behind",
+     "as_of": "2026-11-25",
+     "note": "caveat (matters: low); the catch-up suggests: carry over"
+    }
+   ],
+   "from": "the catch-up of 2026-11-25 (articles/inner-signal/experiments/toc-20261123/catchup/CATCHUP-INNER-CHILD.json), item C29"
+  },
+  {
+   "id": "C30",
+   "what": "Reaching love on a normal day: gratitude as the everyday way in",
+   "kind": "passage",
+   "home": {
+    "article": "inner-child-therapy",
+    "section": "Ask God for a Loan 🫶🏿",
+    "section_id": "S055",
+    "quote": "Genuinely cultivated gratitude (not just empty/forced ritual) is one way to experience divine love for the first time, or to get it back when the feeling fades. I think it’s essential if we want to live in that love instead of occasionally visiting it."
+   },
+   "uses": [
+    {
+     "article": "inner-signal",
+     "section": "Appendix G: Altered states",
+     "section_id": "S136",
+     "quote": "While you're building a way to reach love on a normal day, let that experience you had serve as a reference point for what can happen.",
+     "relation": "differs",
+     "state": "left as it is",
+     "as_of": "2026-11-25",
+     "note": "new point (matters: low); the catch-up suggests: link to the source section"
+    }
+   ],
+   "from": "the catch-up of 2026-11-25 (articles/inner-signal/experiments/toc-20261123/catchup/CATCHUP-INNER-CHILD.json), item C30"
+  },
+  {
+   "id": "C31",
+   "what": "Choosing outside support: what to ask a therapist",
+   "kind": "passage",
+   "home": {
+    "article": "inner-child-therapy",
+    "section": "Before You Choose",
+    "section_id": "S134",
+    "quote": "I’d also want one who doesn’t put ideas in your head, and who understands dissociation, and can explain how they’d treat early sexual trauma if you have it, or whatever your specific trauma is."
+   },
+   "uses": [
+    {
+     "article": "inner-signal",
+     "section": "Appendix F: Self-trust, outside guidance, and oracle-like states",
+     "section_id": "S130",
+     "quote": "If you’re dealing with particularly complicated trauma, blind spots, dissociation, destabilization, or relational wounds that need another nervous system, skilled outside support may be best.",
+     "relation": "differs",
+     "state": "left as it is",
+     "as_of": "2026-11-25",
+     "note": "new point (matters: low); the catch-up suggests: link to the source section"
+    }
+   ],
+   "from": "the catch-up of 2026-11-25 (articles/inner-signal/experiments/toc-20261123/catchup/CATCHUP-INNER-CHILD.json), item C31"
+  },
+  {
+   "id": "C32",
+   "what": "The readiness check before the repair, and the screen for someone who enjoys making others scared or small",
+   "kind": "passage",
+   "home": {
+    "article": "inner-child-therapy",
+    "section": "When You’re the Danger",
+    "section_id": "S011",
+    "quote": "Some people get a little rush out of making somebody scared or small, though. For such folks, inner child therapy is clearly not the place to start."
+   },
+   "uses": [
+    {
+     "article": "inner-signal",
+     "section": "Don’t rush the repair",
+     "section_id": "S032",
+     "quote": "Check how much grown-up you is really in the room first.",
+     "relation": "differs",
+     "state": "left as it is",
+     "as_of": "2026-11-25",
+     "note": "caveat (matters: low); the catch-up suggests: link to the source section"
+    }
+   ],
+   "from": "the catch-up of 2026-11-25 (articles/inner-signal/experiments/toc-20261123/catchup/CATCHUP-INNER-CHILD.json), item C32"
+  },
+  {
+   "id": "C33",
+   "what": "Writing with the non-dominant hand is Lucia Capacchione's method (her book)",
+   "kind": "passage",
+   "home": {
+    "article": "inner-child-therapy",
+    "section": "Journal With Each Hand",
+    "section_id": "S069",
+    "quote": "Lucia Capacchione, an art therapist and seminal inner child therapist, wrote a whole book on this one, The Power of Your Other Hand ."
+   },
+   "uses": [
+    {
+     "article": "inner-signal",
+     "section": "Non-dominant hand dialogue",
+     "section_id": "S034",
+     "quote": "Tell your inner child or guard to write with your nondominant hand, and talk to them with your dominant.",
+     "relation": "differs",
+     "state": "behind",
+     "as_of": "2026-11-25",
+     "note": "new point (matters: low); the catch-up suggests: carry over"
+    }
+   ],
+   "from": "the catch-up of 2026-11-25 (articles/inner-signal/experiments/toc-20261123/catchup/CATCHUP-INNER-CHILD.json), item C33"
+  },
+  {
+   "id": "M01",
+   "what": "How to breathe when breathing less: in and out through the nose, or a slowed out-breath through pursed lips",
+   "kind": "passage",
+   "home": {
+    "article": "somatic-therapies",
+    "section": "Breathwork",
+    "section_id": "S008",
+    "quote": "By simply pursing your lips together on exhale, you can slow down your exhale. Slower exhales, combined with not breathing more on inhales, lead to overall reduction in breathing."
+   },
+   "uses": [
+    {
+     "article": "inner-signal",
+     "section": "Reduced breathing / Buteyko-style breathing",
+     "section_id": "S122",
+     "quote": "Breathe in small amounts through your nose and let it out quietly, through your nose too.",
+     "relation": "differs",
+     "state": "his to settle",
+     "as_of": "2026-11-25",
+     "note": "contradiction (matters: high); the catch-up suggests: ask the author"
+    }
+   ],
+   "from": "the catch-up of 2026-11-25 (articles/inner-signal/experiments/toc-20261123/catchup/CATCHUP-SOMATIC.json), item M01"
+  },
+  {
+   "id": "M02",
+   "what": "Air hunger when breathing less: avoid it, or expect a slight hunger that calms after about 20 seconds",
+   "kind": "passage",
+   "home": {
+    "article": "somatic-therapies",
+    "section": "Breathwork",
+    "section_id": "S008",
+    "quote": "That slight oxygen hunger feels a bit anxiogenic for the first 20 seconds or so, but after that, you’ll feel much calmer."
+   },
+   "uses": [
+    {
+     "article": "inner-signal",
+     "section": "Reduced breathing / Buteyko-style breathing",
+     "section_id": "S122",
+     "quote": "However, please don’t hold your breath until you are air hungry, which can make you more anxious in the short term.",
+     "relation": "differs",
+     "state": "his to settle",
+     "as_of": "2026-11-25",
+     "note": "contradiction (matters: high); the catch-up suggests: ask the author"
+    }
+   ],
+   "from": "the catch-up of 2026-11-25 (articles/inner-signal/experiments/toc-20261123/catchup/CATCHUP-SOMATIC.json), item M02"
+  },
+  {
+   "id": "M03",
+   "what": "EFT tapping: where to tap, and for how long",
+   "kind": "passage",
+   "home": {
+    "article": "somatic-therapies",
+    "section": "EFT / Tapping",
+    "section_id": "S016",
+    "quote": "The Emotional Freedom Technique (EFT) is a very simple anytime anywhere practice that only takes a few seconds or minutes of just lightly tapping on different parts of you head (NOT with a hammer!)."
+   },
+   "uses": [
+    {
+     "article": "inner-signal",
+     "section": "EFT tapping",
+     "section_id": "S123",
+     "quote": "With EFT (Emotional Freedom Techniques, or tapping), you tap gently on your body while you say something like, “Even though I have this anxiety, I am willing to be kind to the part of me that is afraid,” and you stay with what you feel.",
+     "relation": "differs",
+     "state": "his to settle",
+     "as_of": "2026-11-25",
+     "note": "clearer in source (matters: medium); the catch-up suggests: ask the author"
+    }
+   ],
+   "from": "the catch-up of 2026-11-25 (articles/inner-signal/experiments/toc-20261123/catchup/CATCHUP-SOMATIC.json), item M03"
+  },
+  {
+   "id": "M04",
+   "what": "The free Somatic Experiencing intro session: one session, for paid subscribers",
+   "kind": "passage",
+   "home": {
+    "article": "somatic-therapies",
+    "section": "Try Somatic Experiencing for FREE!",
+    "section_id": "S011",
+    "quote": "As mentioned at the top, as a paid subscriber on my substack, you’re eligible for one free SE intro session with Hâle."
+   },
+   "uses": [
+    {
+     "article": "inner-signal",
+     "section": "Somatic Experiencing",
+     "section_id": "S124",
+     "quote": "If you would like more information about somatic experiencing, or even a free intro session, please see my somatic guide .",
+     "relation": "differs",
+     "state": "behind",
+     "as_of": "2026-11-25",
+     "note": "caveat (matters: medium); the catch-up suggests: carry over"
+    }
+   ],
+   "from": "the catch-up of 2026-11-25 (articles/inner-signal/experiments/toc-20261123/catchup/CATCHUP-SOMATIC.json), item M04"
+  },
+  {
+   "id": "M05",
+   "what": "Somatic Experiencing: the closing step after moving attention between the two places (orientation)",
+   "kind": "passage",
+   "home": {
+    "article": "somatic-therapies",
+    "section": "Somatic Experiencing",
+    "section_id": "S009",
+    "quote": "He uses the concepts of titration (going from the shallow end of the pool slowly deeper), pendulation (going in and out of the deep end to learn safety there), and orientation (coming out of the pool, drying off, noticing you’re safe)."
+   },
+   "uses": [
+    {
+     "article": "inner-signal",
+     "section": "Somatic Experiencing",
+     "section_id": "S124",
+     "quote": "So you might start by tracking, by discovering where the activation is, where a neutral place is, and then whether you can move your attention from one to the other, very slowly, like a snail.",
+     "relation": "differs",
+     "state": "behind",
+     "as_of": "2026-11-25",
+     "note": "new point (matters: medium); the catch-up suggests: carry over"
+    }
+   ],
+   "from": "the catch-up of 2026-11-25 (articles/inner-signal/experiments/toc-20261123/catchup/CATCHUP-SOMATIC.json), item M05"
+  },
+  {
+   "id": "M06",
+   "what": "Getting a massage to calm down: styles run from forceful to gentle, so choose the level",
+   "kind": "passage",
+   "home": {
+    "article": "somatic-therapies",
+    "section": "Massage and Energy Transmission",
+    "section_id": "S017",
+    "quote": "Some massage therapies are super aggressive in that domain, like Rolfing , some are fairly aggressive still like Deep Tissue, some are medium-aggressive, like Thai massage, and some, like Swedish Massage, are quite gentle. Choose the level that feels right for you."
+   },
+   "uses": [
+    {
+     "article": "inner-signal",
+     "section": "Body supports",
+     "section_id": "S126",
+     "quote": "Maybe get a massage, or massage a foot, your scalp, a temple, or the back of the neck, the top of a shoulder, etc.",
+     "relation": "differs",
+     "state": "behind",
+     "as_of": "2026-11-25",
+     "note": "new point (matters: medium); the catch-up suggests: carry over"
+    }
+   ],
+   "from": "the catch-up of 2026-11-25 (articles/inner-signal/experiments/toc-20261123/catchup/CATCHUP-SOMATIC.json), item M06"
+  },
+  {
+   "id": "M07",
+   "what": "The working order (body first), and where to go when none of the body work helps: brain health first",
+   "kind": "passage",
+   "home": {
+    "article": "somatic-therapies",
+    "section": "Physical brain health is preliminary",
+    "section_id": "S002",
+    "quote": "If you’re one of those people who finds that none of these therapies work on you, you should consider brain health and neuro-inflammation first."
+   },
+   "uses": [
+    {
+     "article": "inner-signal",
+     "section": "Appendix D: Anxiety — body first",
+     "section_id": "S121",
+     "quote": "Work in this order – first your body, then your inner child, then some inquiry, then some action:",
+     "relation": "differs",
+     "state": "left as it is",
+     "as_of": "2026-11-25",
+     "note": "new point (matters: medium); the catch-up suggests: link to the source section"
+    }
+   ],
+   "from": "the catch-up of 2026-11-25 (articles/inner-signal/experiments/toc-20261123/catchup/CATCHUP-SOMATIC.json), item M07"
+  },
+  {
+   "id": "M08",
+   "what": "What EFT is for: a present-moment reset, not a cure for trauma",
+   "kind": "passage",
+   "home": {
+    "article": "somatic-therapies",
+    "section": "EFT / Tapping",
+    "section_id": "S016",
+    "quote": "It’s not a cure for trauma, but it is a nice present-moment re-orienting button."
+   },
+   "uses": [
+    {
+     "article": "inner-signal",
+     "section": "EFT tapping",
+     "section_id": "S123",
+     "quote": "A 2025 systematic review found 7 randomized controlled trials for anxiety disorders, and noted that EFT was more effective than no intervention in several of them, though it isn't one of the first-line therapies for anxiety.",
+     "relation": "differs",
+     "state": "behind",
+     "as_of": "2026-11-25",
+     "note": "caveat (matters: low); the catch-up suggests: carry over"
+    }
+   ],
+   "from": "the catch-up of 2026-11-25 (articles/inner-signal/experiments/toc-20261123/catchup/CATCHUP-SOMATIC.json), item M08"
+  },
+  {
+   "id": "M09",
+   "what": "How strong the claim for EFT is: little evidence here, \"helps with all kinds of situations\" there",
+   "kind": "passage",
+   "home": {
+    "article": "somatic-therapies",
+    "section": "EFT / Tapping",
+    "section_id": "S016",
+    "quote": "It helps with all kinds of situations."
+   },
+   "uses": [
+    {
+     "article": "inner-signal",
+     "section": "EFT tapping",
+     "section_id": "S123",
+     "quote": "There isn’t a ton of evidence for EFT, but there are some studies on anxiety.",
+     "relation": "differs",
+     "state": "his to settle",
+     "as_of": "2026-11-25",
+     "note": "contradiction (matters: low); the catch-up suggests: ask the author"
+    }
+   ],
+   "from": "the catch-up of 2026-11-25 (articles/inner-signal/experiments/toc-20261123/catchup/CATCHUP-SOMATIC.json), item M09"
+  },
+  {
+   "id": "M10",
+   "what": "Somatic Experiencing on your own goes better after a therapist has shown you",
+   "kind": "passage",
+   "home": {
+    "article": "somatic-therapies",
+    "section": "Try Somatic Experiencing for FREE!",
+    "section_id": "S011",
+    "quote": "SE is a therapy you can do for yourself, but it really helps if you have a therapist first, as with most other therapies."
+   },
+   "uses": [
+    {
+     "article": "inner-signal",
+     "section": "Somatic Experiencing",
+     "section_id": "S124",
+     "quote": "If you would like more information about somatic experiencing, or even a free intro session, please see my somatic guide .",
+     "relation": "differs",
+     "state": "behind",
+     "as_of": "2026-11-25",
+     "note": "caveat (matters: low); the catch-up suggests: carry over"
+    }
+   ],
+   "from": "the catch-up of 2026-11-25 (articles/inner-signal/experiments/toc-20261123/catchup/CATCHUP-SOMATIC.json), item M10"
+  },
+  {
+   "id": "M11",
+   "what": "Shaking can be part of Somatic Experiencing",
+   "kind": "passage",
+   "home": {
+    "article": "somatic-therapies",
+    "section": "Gentle Shaking / TRE",
+    "section_id": "S014",
+    "quote": "Somatic Experiencing can include some bodily shaking if that is what your body seems to want to do for completing the original activation energy."
+   },
+   "uses": [
+    {
+     "article": "inner-signal",
+     "section": "Somatic Experiencing",
+     "section_id": "S124",
+     "quote": "So you might start by tracking, by discovering where the activation is, where a neutral place is, and then whether you can move your attention from one to the other, very slowly, like a snail.",
+     "relation": "differs",
+     "state": "behind",
+     "as_of": "2026-11-25",
+     "note": "new point (matters: low); the catch-up suggests: carry over"
+    }
+   ],
+   "from": "the catch-up of 2026-11-25 (articles/inner-signal/experiments/toc-20261123/catchup/CATCHUP-SOMATIC.json), item M11"
+  },
+  {
+   "id": "M12",
+   "what": "Pairing Somatic Experiencing with self-hypnosis is Joel's own; its founder doesn't use it",
+   "kind": "passage",
+   "home": {
+    "article": "somatic-therapies",
+    "section": "Somatic Experiencing",
+    "section_id": "S009",
+    "quote": "While Levine doesn’t use self-hypnosis in his SE, he has mentioned it can be a valuable fit if done right, which is why I’ve integrated SE into my self-hypnosis guide and app."
+   },
+   "uses": [
+    {
+     "article": "inner-signal",
+     "section": "Somatic Experiencing",
+     "section_id": "S124",
+     "quote": "In somatic experiencing (SE), you are not digging into the trauma.",
+     "relation": "differs",
+     "state": "his to settle",
+     "as_of": "2026-11-25",
+     "note": "new point (matters: low); the catch-up suggests: ask the author"
+    }
+   ],
+   "from": "the catch-up of 2026-11-25 (articles/inner-signal/experiments/toc-20261123/catchup/CATCHUP-SOMATIC.json), item M12"
+  },
+  {
+   "id": "M13",
+   "what": "Massage: a massage first here, your own hands first there (some people can't bear being touched)",
+   "kind": "passage",
+   "home": {
+    "article": "somatic-therapies",
+    "section": "Massage and Energy Transmission",
+    "section_id": "S017",
+    "quote": "On the other hand, not everyone enjoys a massage, and some people are repulsed by being touched. I’d say first try giving yourself a massage, which is also a lot cheaper usually."
+   },
+   "uses": [
+    {
+     "article": "inner-signal",
+     "section": "Body supports",
+     "section_id": "S126",
+     "quote": "Maybe get a massage, or massage a foot, your scalp, a temple, or the back of the neck, the top of a shoulder, etc.",
+     "relation": "differs",
+     "state": "behind",
+     "as_of": "2026-11-25",
+     "note": "changed step (matters: low); the catch-up suggests: carry over"
+    }
+   ],
+   "from": "the catch-up of 2026-11-25 (articles/inner-signal/experiments/toc-20261123/catchup/CATCHUP-SOMATIC.json), item M13"
+  },
+  {
+   "id": "M14",
+   "what": "Zensing (breath with sound) is in the somatic guide's breathwork and not here",
+   "kind": "passage",
+   "home": {
+    "article": "somatic-therapies",
+    "section": "Breathwork",
+    "section_id": "S008",
+    "quote": "There’s also a type of breathwork that synergizes with sound to help you connect with your emotions, called Zensing :"
+   },
+   "uses": [
+    {
+     "article": "inner-signal",
+     "section": "Reduced breathing / Buteyko-style breathing",
+     "section_id": "S122",
+     "quote": "Try breathing less.",
+     "relation": "differs",
+     "state": "his to settle",
+     "as_of": "2026-11-25",
+     "note": "new point (matters: low); the catch-up suggests: ask the author"
+    }
+   ],
+   "from": "the catch-up of 2026-11-25 (articles/inner-signal/experiments/toc-20261123/catchup/CATCHUP-SOMATIC.json), item M14"
+  },
+  {
+   "id": "M15",
+   "what": "Breathe less and stop if dizzy here; the somatic guide's Vagal Blitz is meant to make you lightheaded",
+   "kind": "passage",
+   "home": {
+    "article": "somatic-therapies",
+    "section": "Optional High-Intensity State-Shift and Release Practices",
+    "section_id": "S030",
+    "quote": "Safety note: both of these methods are designed to produce lightheadedness, and both of them may be risky if you have heart disease."
+   },
+   "uses": [
+    {
+     "article": "inner-signal",
+     "section": "Reduced breathing / Buteyko-style breathing",
+     "section_id": "S122",
+     "quote": "If you feel bad, dizzy, or panicky, or have medical issues, stop.",
+     "relation": "differs",
+     "state": "his to settle",
+     "as_of": "2026-11-25",
+     "note": "contradiction (matters: low); the catch-up suggests: ask the author"
+    }
+   ],
+   "from": "the catch-up of 2026-11-25 (articles/inner-signal/experiments/toc-20261123/catchup/CATCHUP-SOMATIC.json), item M15"
+  },
+  {
+   "id": "M16",
+   "what": "The order of the body practices: where Somatic Experiencing and EFT sit",
+   "kind": "passage",
+   "home": {
+    "article": "somatic-therapies",
+    "section": "Somatic Experiencing",
+    "section_id": "S009",
+    "quote": "I put Somatic Experiencing up at the beginning because it helps people to reconnect with their body, to begin to feel it again."
+   },
+   "uses": [
+    {
+     "article": "inner-signal",
+     "section": "Appendix D: Anxiety — body first",
+     "section_id": "S121",
+     "quote": "Work in this order – first your body, then your inner child, then some inquiry, then some action:",
+     "relation": "differs",
+     "state": "his to settle",
+     "as_of": "2026-11-25",
+     "note": "changed step (matters: low); the catch-up suggests: ask the author"
+    }
+   ],
+   "from": "the catch-up of 2026-11-25 (articles/inner-signal/experiments/toc-20261123/catchup/CATCHUP-SOMATIC.json), item M16"
+  },
+  {
+   "id": "M17",
+   "what": "Focusing: the somatic guide has no passage on it to be brought in line with",
+   "kind": "passage",
+   "home": {
+    "article": "somatic-therapies",
+    "section": "Layer 3: Compassionate Exploration of Trauma Feelings Before the Story Comes In",
+    "section_id": "S022",
+    "quote": "After becoming more aware of bodily sensations and doing some cycles of crude discharge/settle, it’s time for some practices that can help you go deeper in a nuanced, loving and gentle way."
+   },
+   "uses": [
+    {
+     "article": "inner-signal",
+     "section": "Gendlin Focusing",
+     "section_id": "S125",
+     "quote": "Focusing is another approach where you work with your body.",
+     "relation": "differs",
+     "state": "his to settle",
+     "as_of": "2026-11-25",
+     "note": "dropped in source (matters: low); the catch-up suggests: ask the author"
+    }
+   ],
+   "from": "the catch-up of 2026-11-25 (articles/inner-signal/experiments/toc-20261123/catchup/CATCHUP-SOMATIC.json), item M17"
+  },
+  {
+   "id": "L01",
+   "what": "The link to the Nirvāna guide's section \"Who Gets Reborn?\" (more on rebirth)",
+   "kind": "link",
+   "home": {
+    "article": "nibbana",
+    "heading": "Who Gets Reborn?",
+    "anchor": "who-gets-reborn"
+   },
+   "uses": [
+    {
+     "article": "inner-signal",
+     "section": "Past Life & Ancestral Trauma",
+     "href": "https://ibogaqueen.substack.com/i/209400477/who-gets-reborn",
+     "words": "more info about rebirth in my nibbana guide",
+     "as_of": "2026-11-25",
+     "note": "to go in: the section is new (his words of 2026-11-25 11:18 UTC) and not in the post yet"
+    }
+   ],
+   "note": "the registered master of nibbana (articles/nibbana/master.html) has no heading \"Who Gets Reborn?\": it is behind the live post, so the heading is checked in the saved text of the live post of 2026-11-23 19:46 UTC (\"texts\") and its anchor in articles/nibbana/SECTION-LINKS.json",
+   "from": "his message of 2026-11-25 11:18 UTC (articles/inner-signal/experiments/toc-20261123/answers/JOEL-20261125-1118-message.txt): the last sentence of his new section links to this section"
+  },
+  {
+   "id": "L02",
+   "what": "The link to the inner child guide's section \"Borrowed Adulthood\"",
+   "kind": "link",
+   "home": {
+    "article": "inner-child-therapy",
+    "heading": "Borrowed Adulthood",
+    "anchor": "borrowed-adulthood"
+   },
+   "uses": [
+    {
+     "article": "inner-signal",
+     "section": "No Adult Yet? Borrow One",
+     "href": "https://ibogaqueen.substack.com/i/189761959/borrowed-adulthood",
+     "words": "Inner Child Self-Love Reparenting Guide",
+     "as_of": "2026-11-25",
+     "note": "to go in with the contents plan (link 39 of articles/inner-signal/experiments/toc-20261123/PLAN.json); in the saved live post of 2026-11-23 these words link to the whole post, and the section's heading is still \"When the adult role is not available yet\""
+    }
+   ],
+   "from": "question 8 of articles/inner-signal/experiments/toc-20261123/QUESTIONS-20261125.md, which his message of 2026-11-25 11:18 UTC answers with \"a\", and link 39 of PLAN.json beside it; see point C01"
+  },
+  {
+   "id": "L03",
+   "what": "The link to the somatic guide's section on Systema breathing",
+   "kind": "link",
+   "home": {
+    "article": "somatic-therapies",
+    "heading": "Systema: circular breathing & compassionate, relaxing martial arts",
+    "anchor": "systema-circular-breathing-and-compassionate-relaxing-martial-arts"
+   },
+   "uses": [
+    {
+     "article": "inner-signal",
+     "section": "Breathe, Relax & Flow",
+     "href": "https://ibogaqueen.substack.com/i/201523223/systema-circular-breathing-and-compassionate-relaxing-martial-arts",
+     "words": "my somatic guide explains it more",
+     "as_of": "2026-11-25",
+     "note": "to go in with text change T7 (articles/inner-signal/experiments/toc-20261123/TEXT-CHANGES.json); in the saved live post of 2026-11-23 the section's heading is still \"Reduced breathing / Buteyko-style breathing\""
+    }
+   ],
+   "note": "somatic-therapies has no section-link catalog, so only the heading is checked; the anchor is the one in TEXT-CHANGES.json (opened on 2026-11-24 according to answers/JOEL-20261124-2105.md) and the one section_links.py slug gives for the heading",
+   "from": "his note of 2026-11-24 21:05 UTC on Systema breathing (articles/inner-signal/experiments/toc-20261123/TEXT-CHANGES.json, T7)"
+  }
+ ]
+}

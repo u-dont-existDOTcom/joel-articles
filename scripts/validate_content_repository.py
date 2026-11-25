@@ -651,7 +651,10 @@ def _validate_content_inventory(
             registered_paths[article["id"]].update(_registered_article_paths(article))
 
     # BUILT-ON.json: which posts are built on which (lesson toc-2026-11-24b), a registry beside INDEX.json
-    reserved_article_files = {"articles/INDEX.json", "articles/AGENTS.md", "articles/BUILT-ON.json"}
+    # DEPENDS.json and DEPENDS.md: which passages are the same point across posts (tools/humanization/depends.py;
+    # Joel, 2026-11-25: "some way to know when one thing changes that another thing is dependent on")
+    reserved_article_files = {"articles/INDEX.json", "articles/AGENTS.md", "articles/BUILT-ON.json",
+                              "articles/DEPENDS.json", "articles/DEPENDS.md"}
     article_files: list[str] = []
     for path in _tracked_or_present_files(root):
         relative = path.relative_to(root).as_posix()

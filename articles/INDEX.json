@@ -57298,7 +57298,7 @@
         },
         {
           "path": "articles/inner-signal/humanize/pangram-ledger.jsonl",
-          "sha256": "fb84d9d4279841cc5183a379b7b6bccfb9928961bed15a45e6e50de2ed6e908a",
+          "sha256": "879fe6f85173ce46ec646c70c99a912e213657a764f3ed7c3186a6bc5f72e617",
           "role": "humanization_working_record"
         },
         {
@@ -74958,7 +74958,7 @@
         },
         {
           "path": "articles/inner-signal/experiments/toc-20261123/AFTER.md",
-          "sha256": "3339f3279547861d578fd76c24bbf7cb7d248455e284a6bf0878955eb3924e52",
+          "sha256": "ac0ff4281c2f15efb832fcc9243aae4c47bee53c73e53213d855a13210e7aeac",
           "role": "humanization_working_record"
         },
         {
@@ -74968,12 +74968,12 @@
         },
         {
           "path": "articles/inner-signal/experiments/toc-20261123/EDITOR-OPS.json",
-          "sha256": "06dd6b36d1f2fc1867b89075d5d2c0ac66e8e6820b8885eeae3b1ce23183f31b",
+          "sha256": "cf88c9a08f5bca011c0be6d526fda9ae728fcab515001b096242518b08cd5b54",
           "role": "humanization_working_record"
         },
         {
           "path": "articles/inner-signal/experiments/toc-20261123/PLAN.json",
-          "sha256": "363394951162b61a03f763d226314c67a75f4585fe75e22e32af3fa2ddb5aa30",
+          "sha256": "e49d98c0c621222384840f977270149df84fbb51ab90d54672272cf32f432a76",
           "role": "humanization_working_record"
         },
         {
@@ -74983,7 +74983,7 @@
         },
         {
           "path": "articles/inner-signal/experiments/toc-20261123/apply_plan.py",
-          "sha256": "8d3c7aff6fb58cd0554d7342b90cdd3c3065769cda86dba0a8b7b03dd79d0000",
+          "sha256": "ca4a6726236898a2078c537f811805a90aa166b90078f13a870d4acfb01ccb0f",
           "role": "humanization_working_record"
         },
         {
@@ -75063,7 +75063,7 @@
         },
         {
           "path": "articles/inner-signal/experiments/toc-20261123/pangram/SEC-S122-after.txt",
-          "sha256": "d23cb85889b9ac0b853a8a54040f52b0dbb8e47f89864f5f5b40ddeb527e317e",
+          "sha256": "7291f07b32f67c668476194158e0d5c51427df47f71f17a1574e00a4048b50df",
           "role": "humanization_working_record"
         },
         {
@@ -75088,7 +75088,7 @@
         },
         {
           "path": "articles/inner-signal/experiments/toc-20261123/pangram/SEC-SPECS.json",
-          "sha256": "f44f9b29814a97ff22aead016c58e41da0ed51a9ef8e63775cbe7740abcb67cb",
+          "sha256": "70be7fcf51d65968c656b6ed476ad47170ab142b81a54c64944ee150d2cb1430",
           "role": "humanization_working_record"
         },
         {
@@ -75159,6 +75159,71 @@
         {
           "path": "articles/inner-signal/experiments/toc-20261123/pangram/receipts/HIS-S143.txt",
           "sha256": "98c6d22bf05034d0322bbf6395a1df6d3a7ccde1bb1b1b5924bd23d4a38752ad",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/experiments/toc-20261123/catchup/CARRYOVERS-DRAFT.json",
+          "sha256": "52a0ef58592d42e6e0d4258b9158676a47d4963a705bd20e60fd6bca293fb5f3",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/experiments/toc-20261123/pangram/SEC-N001-his.txt",
+          "sha256": "77b323eaf62d97ba6651db39a1ccec37dbf2c1aa1ff57806f95ffff183551232",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/experiments/toc-20261123/pangram/SEC-S122-7b-after.txt",
+          "sha256": "369dd02dda3429946e3c6746b0e453fe86c2c0f2e4bb6c6741505bd02a1f8786",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/experiments/toc-20261123/pangram/SEC-S122-7b-swap-tested.txt",
+          "sha256": "d23cb85889b9ac0b853a8a54040f52b0dbb8e47f89864f5f5b40ddeb527e317e",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/experiments/toc-20261123/pangram/receipts/R-S007.json",
+          "sha256": "bcb5608371593d234325aa80554a29131dc328276b48be42836e376b6059dd73",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/experiments/toc-20261123/pangram/receipts/R-S019.json",
+          "sha256": "37b524fcc39dee837bcdccfd6697b2e5de3e2d992599c35dfad6dca5be7722a5",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/experiments/toc-20261123/pangram/receipts/R-S077-S080.json",
+          "sha256": "52fca837e056320a1341d652a49153f5b73d6c3bc2761c8a90b9e9b46bac5959",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/experiments/toc-20261123/pangram/receipts/R-S122-7b-b.json",
+          "sha256": "d01082a9568a2a2bc87a7b09a18b8f704155f9c3e26233793c638b879e5e7df3",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/experiments/toc-20261123/pangram/receipts/R-S122-b.json",
+          "sha256": "8957af91db234635eeb5f17a7eb12e9a9350e169f6fecacd63b2c1256b191ba5",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/experiments/toc-20261123/pangram/receipts/R-S122.json",
+          "sha256": "5801db64b4eb3631f35c4d08d0836fe033bc76e796d3ab0882b0b7943ef5b6d3",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/experiments/toc-20261123/pangram/receipts/R-S123-S125.json",
+          "sha256": "2f3671d0424c68053f80bf38a76066f32ce5fae48095505243cec84267fad6b6",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/experiments/toc-20261123/pangram/receipts/R-S143.json",
+          "sha256": "a84495f494b2b4215b7b41ddec3342361cc711dd41cc6d66c82f91033540ce96",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/experiments/toc-20261123/pangram/record_gui.py",
+          "sha256": "ddb7851aea92aa0730b148315695ba52b06b6e04283cac8e710838f1abba7851",
           "role": "humanization_working_record"
         }
       ]

@@ -1257,11 +1257,11 @@
    "why": "answer 10"
   },
   {
-   "id": "Q7",
+   "id": "T7",
    "in": "S122",
-   "from": "Breathe in small amounts through your nose and let it out quietly, through your nose too.",
-   "to": "By simply pursing your lips together on exhale, you can slow down your exhale. Slower exhales, combined with not breathing more on inhales, lead to overall reduction in breathing. That slight oxygen hunger feels a bit anxiogenic for the first 20 seconds or so, but after that, you’ll feel much calmer.",
-   "why": "his answer of 2026-11-25 11:18 (\"7 b\": the somatic guide's way here too): the nose-out sentence becomes the three sentences of his somatic guide's Breathwork section, word for word; the rest of his paragraph stays"
+   "from": "Can you make your breathing very quiet? If you feel bad",
+   "to": "Can you make your breathing very quiet? Try the continuous breathing from Systema (a Russian martial art) too: it helps not just with relaxing, but with getting into trance and flow states more deeply. You can learn it from the best video on it I've seen so far, and my somatic guide explains it more. If you feel bad",
+   "why": "his note of 2026-11-24 21:05 UTC: Systema's continuous breathing beside the Buteyko lines; inside his paragraph, before his stop line, so that line covers both (a fresh reader, 2026-11-25). His answer 7 b (the somatic guide's way of breathing less) is on the marking page, not in this edit: swapping the sentences left two of his that no longer fit"
   },
   {
    "id": "Q8",
@@ -1368,12 +1368,6 @@
    "ends": "S143",
    "text": "The general rule is the one in “Daily Life Is the Feedback”: if what you're doing is making you more paranoid, sleepless, grandiose, isolated or scared, or things feel more and more unreal, stop going deeper and get help.",
    "why": "answer 7: \"The General Rule\" goes; this sentence keeps every warning sign of his"
-  },
-  {
-   "id": "T7",
-   "ends": "S122",
-   "text": "Try the continuous breathing from Systema (a Russian martial art) too: it helps not just with relaxing, but with getting into trance and flow states more deeply. You can learn it from the best video on it I've seen so far, and my somatic guide explains it more.",
-   "why": "his note of 2026-11-24 21:05 UTC: Systema's continuous breathing beside the Buteyko lines"
   },
   {
    "id": "P1",
@@ -1753,6 +1747,26 @@
    "to": "S131",
    "heading": "Find a Hypnotist Who Fits",
    "href": "#§find-a-hypnotist-who-fits",
+   "unchecked": ""
+  },
+  {
+   "n": 40,
+   "in": "S122",
+   "find": "the best video on it I've seen so far",
+   "words": "the best video on it I've seen so far",
+   "to": "https://www.youtube.com/shorts/Nar2-nvomAk",
+   "heading": "",
+   "href": "https://www.youtube.com/shorts/Nar2-nvomAk",
+   "unchecked": ""
+  },
+  {
+   "n": 41,
+   "in": "S122",
+   "find": "my somatic guide explains it more",
+   "words": "my somatic guide explains it more",
+   "to": "https://ibogaqueen.substack.com/i/201523223/systema-circular-breathing-and-compassionate-relaxing-martial-arts",
+   "heading": "",
+   "href": "https://ibogaqueen.substack.com/i/201523223/systema-circular-breathing-and-compassionate-relaxing-martial-arts",
    "unchecked": ""
   },
   {
