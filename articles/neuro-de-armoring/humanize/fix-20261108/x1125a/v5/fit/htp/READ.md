@@ -1,0 +1,3 @@
+- S1: ANYWAY - / CAN'T TELL yes, "might not act the way you expect" doesn't say stronger or weaker, so I couldn't tell whether to take less of my psychedelic, or how much less / FROM - / MISREAD -
+- S3: ANYWAY - / CAN'T TELL yes, I know my antidepressant by its name, not as an SSRI, SNRI or MAOI, so I couldn't tell whether it's on the list, nor what "other serotonin-raising stacks" covers / FROM - / MISREAD -
+- S4: ANYWAY - / CAN'T TELL yes, "anywhere near" gives no number of days; and since the protocol itself uses iboga or mushroom microdoses, I couldn't tell whether a mushroom microdose counts as "a trip", or how I'd take 5-HTP at all while microdosing iboga / FROM - / MISREAD -

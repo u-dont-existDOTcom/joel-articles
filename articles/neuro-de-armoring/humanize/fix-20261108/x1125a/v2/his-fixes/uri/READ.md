@@ -1,0 +1,4 @@
+MARKED:
+- S1: 1, 4 — six things in one sentence (no serotonin rise, trips hit harder, "visuals included" as an aside, dreams, cravings, the speed); "fewer cravings" doesn't say for what. His way would give what bears on a trip (hits harder, within a day) its own clause and say the rest plainly.
+- S2: 9, 10 — the limit on the evidence comes after the claims it limits; his way says first what it rests on (experience, no studies), then the claim. "this" could be all of S1, "doesn't raise serotonin" included, or only the stronger trips, dreams and cravings.
+- S3: 2, 4, 24 — "do not take UMP on the same day as a psychedelic trip" is the 5-HTP paragraph's rule word for word, just before it; "take less" gives no amount (a little, half?); and the "So" follows from S1 with S2's aside standing between them.

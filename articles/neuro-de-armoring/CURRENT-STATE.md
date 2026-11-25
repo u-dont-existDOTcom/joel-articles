@@ -22,6 +22,8 @@ Every paragraph and every section reads Human in Pangram, with the meaning kept 
 
 ## Current checkpoint
 
+`humanize/HUMANIZED-SO-FAR.md` is a65eaa1b after the turn of his message of 2026-11-25 01:24 UTC: six of the eleven warnings at the top are in, each Human High by itself (`humanize/fix-20261108/x1125a/APPLIED-X1125A.json`); three are teaching cards waiting on him and two short ones are close (`humanize/STATUS.md`, `humanize/LEFT.md`: 20 of 141 paragraphs Human High by themselves). Before that:
+
 `humanize/HUMANIZED-SO-FAR.md` (386bad86, after his message of 2026-11-24 21:43 UTC: his answers 62a to 65a in, `humanize/fix-20261108/x1124b/APPLIED-X1124B.json`; before it his lion's mane and agmatine warnings and his answers 57 to 61, `humanize/fix-20261108/x1124a/APPLIED-X1124A.json`) is his post with the standard typographic swap, his versions, the science corrections he approved and his answers to every contradiction the two checks found (`humanize/fix-20261108/coherence/x1124a/CHECK.md`: every item with its answer). The article makes sense as a whole now; what is left is the humanizing: `humanize/LEFT.md`, computed by `humanize/coverage.py` (141 paragraphs: 14 Human High by themselves at their present words, 69 last read below that, 58 never checked as they stand). The cuts he meant and a wording of his to keep are on `humanize/KEEP-AS-IS.json`. Nothing has been changed in his post yet.
 
 ## Remaining

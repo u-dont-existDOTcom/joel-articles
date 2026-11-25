@@ -1,0 +1,1 @@
+- S2: ANYWAY - / CAN'T TELL - / FROM yes, "whether or not you've ever had an addiction": nothing I've read so far brings up addiction, so the clause reads as carried over from a text about addiction and I can't tell why it's said to me / MISREAD -

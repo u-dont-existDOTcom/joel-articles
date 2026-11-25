@@ -1,0 +1,3 @@
+MARKED:
+- S2: 2, 4 — the two halves open the same way ("Both are illegal ..., and both carry risks"), and "carry risks" / "can affect your heart and nervous system" never say what happens; his way would say "both" once and say in plain words what iboga does to the heart and nerves.
+- S3: 4, 5 — "most medications" doesn't say which count, so a reader taking something that isn't a heart or psychiatric med can't tell whether theirs is one, and the rule opens flat ("Never combine ...") with its reason left behind in S2; his way would start from the reader ("if you take any medication ..."), join it to the reason with "so", and say what counts or where to check theirs.

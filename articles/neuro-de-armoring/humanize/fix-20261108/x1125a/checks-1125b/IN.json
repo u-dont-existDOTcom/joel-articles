@@ -1,0 +1,16 @@
+{
+ "dmso3": {
+  "lineage": "neuro-de-armoring/W-DMSO",
+  "scope": "paragraph",
+  "name": "DMSO Safety, fixed for sense (third version)",
+  "text": "⚠️ CRITICAL MEDICAL DISCLAIMER:DMSO Safety: This protocol has you smell DMSO for anxiety and brain fog. It's a solvent that goes straight through your skin and lungs into your blood, and the thing to watch is what it carries in with it, whether that's something in the bottle or something on you. So you should use 99.9% Pharmaceutical Grade DMSO, ideally in a glass bottle, since it can leach chemicals out of some plastics. It's sold on Amazon and other sites (I've never had a bad batch). Before using it, wash any lotions or other products off your hands and nose. Your lungs count too, so if you're a smoker, breathe in only a little at a time, since it can pull the tar from your lungs into your blood, and stop if you feel weak right afterwards, which is the first sign of that. My full DMSO reference has more on all of this.",
+  "chance": 0.4,
+  "tells": "the label run \"CRITICAL MEDICAL DISCLAIMER:DMSO Safety:\" at the head; the spec sentence \"99.9% Pharmaceutical Grade DMSO, ideally in a glass bottle\"; two \"since\" reasons built alike",
+  "human_tells": "his \"(I've never had a bad batch)\"; \"It's sold on Amazon and other sites\"",
+  "diagnosis": "first check of this paragraph by itself. In the whole-article checks its first sentence read AI High with the headings and its Amazon and clean-hands sentences Human Medium. The post's version named DMSO without saying what it is or why it is in the protocol, and gave three instructions with no reason (grade, glass, \"ensure hands, lungs, and nose are clean\"). This version opens on what the reader will do with it, says the one fact the rules rest on (it carries what is with it into the blood), and puts each rule after it with \"So\", \"Before using it\", \"Your lungs count too\"",
+  "decides": "whether the sense-first version goes into the article, or which of its sentences still reads below High",
+  "receipt": "/home/claude/joel-articles/articles/neuro-de-armoring/humanize/fix-20261108/x1125a/v3/DMSO3.receipt.json",
+  "humanized": "the sense-first pass of 2026-11-25: two rounds of fresh reads (needed, against his fixes, fit) and a version after each; nothing the second round marked is left unanswered",
+  "first_fix": "payoff: the paragraph opens on what the reader will do with DMSO and what for, and the fact every rule rests on comes before the rules; join: the three bare instructions each carry their reason in the same sentence (\"since it can leach ...\", \"so if you're a smoker ...\"); plain: \"solvent\", \"lotions or other products\", \"the tar from your lungs\""
+ }
+}

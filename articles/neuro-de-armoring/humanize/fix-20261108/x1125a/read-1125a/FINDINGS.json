@@ -1,0 +1,528 @@
+{
+ "summary": {
+  "readers_missing": [],
+  "totals": {
+   "1": {
+    "parsed": 19,
+    "total_line": 19
+   }
+  },
+  "findings": 18,
+  "by_severity": {
+   "1": 9,
+   "2": 8,
+   "3": 1
+  },
+  "by_kind": {
+   "unclear": 6,
+   "lost": 8,
+   "garbled": 1,
+   "vaguer": 3
+  },
+  "same_as_original": [
+   "F1.14"
+  ],
+  "owner_words": [],
+  "not_found": [],
+  "paragraphs": 14,
+  "paragraphs_hit": {
+   "1": 8,
+   "2": 4,
+   "3": 1
+  }
+ },
+ "findings": [
+  {
+   "id": "F1.1",
+   "part": 1,
+   "now": "Your lungs count too, so if you're a smoker, breathe in only a little at a time, since it can pull the tar from your lungs into your blood, and stop if you feel weak right afterwards, which is the first sign of that (there's more on all this in my full DMSO reference).",
+   "published": "Ensure hands, lungs, and nose are clean before using. See my full DMSO reference here.",
+   "kind": "unclear",
+   "severity": 1,
+   "why": "\"Your lungs count too\" doesn't say what they count as after a sentence about washing products off hands and nose, and \"that\" at the end sits two clauses away from the tar it points back to.",
+   "now_found": 1.0,
+   "now_blocks": [
+    2
+   ],
+   "where": [
+    "A Complete Guide to Bio-De-Armoring, P2"
+   ],
+   "block_hashes": [
+    "0f70247d13a048a5"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    1
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": null
+  },
+  {
+   "id": "F1.2",
+   "part": 1,
+   "now": "So never combine Iboga with most medications (especially heart & psych meds), and if you take any, check it against my full iboga guide here first (the iboga microdosing protocol is here).",
+   "published": "Never combine Iboga with most medications (especially heart & psych meds). See full iboga guide here, and microdosing protocol here.",
+   "kind": "unclear",
+   "severity": 1,
+   "why": "\"if you take any, check it\" can mean any medication or any iboga, and the singular \"it\" after \"medications\" leaves the reader guessing what gets checked against the guide.",
+   "now_found": 1.0,
+   "now_blocks": [
+    4
+   ],
+   "where": [
+    "A Complete Guide to Bio-De-Armoring, P4"
+   ],
+   "block_hashes": [
+    "b40ab8bd2ad4b56b"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    3
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": null
+  },
+  {
+   "id": "F1.3",
+   "part": 1,
+   "now": "So during this protocol, do not trust your social intuition: assume you are misreading every room, at least until your heart rate is back down to your usual resting rate, and under 90 BPM, since a racing heart means your reasoning brain is offline (see the \"Metabolic Red Line\" below).",
+   "published": "Rule: During this protocol, do not trust your social intuition. It is calibrated to “Threat,” not “Truth.”",
+   "kind": "lost",
+   "severity": 1,
+   "why": "The published reason for the rule, that your social intuition is calibrated to \"Threat,\" not \"Truth,\" is gone, and the Threat/Truth contrast with it.",
+   "now_found": 1.0,
+   "now_blocks": [
+    8
+   ],
+   "where": [
+    "A Complete Guide to Bio-De-Armoring, P8"
+   ],
+   "block_hashes": [
+    "bcb8fc51c28bbef0"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    7
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": null
+  },
+  {
+   "id": "F1.4",
+   "part": 1,
+   "now": "So during this protocol, do not trust your social intuition: assume you are misreading every room, at least until your heart rate is back down to your usual resting rate, and under 90 BPM, since a racing heart means your reasoning brain is offline (see the \"Metabolic Red Line\" below).",
+   "published": "Assume you are misreading every room until your heart rate is below 90 BPM.",
+   "kind": "unclear",
+   "severity": 2,
+   "why": "The single published threshold (below 90 BPM) becomes two joined by \", and\" (your usual resting rate, and under 90 BPM), so a reader can't tell whether both must hold or which one decides when their resting rate is far from 90.",
+   "now_found": 1.0,
+   "now_blocks": [
+    8
+   ],
+   "where": [
+    "A Complete Guide to Bio-De-Armoring, P8"
+   ],
+   "block_hashes": [
+    "bcb8fc51c28bbef0"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    7
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": null
+  },
+  {
+   "id": "F1.5",
+   "part": 1,
+   "now": "Post-ashwa and post-lion's mane syndrome are rare, but it's the same kind of thing SSRIs and finasteride can do, so it's something to keep in mind.",
+   "published": "none",
+   "kind": "unclear",
+   "severity": 1,
+   "why": "\"Post-ashwa\" is an unexplained clipping, the two syndromes are named as if the reader knows them without saying they are the lasting loss of desire from the sentence before, and \"the same kind of thing SSRIs and finasteride can do\" only helps a reader who already knows what that is.",
+   "now_found": 1.0,
+   "now_blocks": [
+    9
+   ],
+   "where": [
+    "A Complete Guide to Bio-De-Armoring, P9"
+   ],
+   "block_hashes": [
+    "0f65f67721696015"
+   ],
+   "pub_found": null,
+   "pub_blocks": [],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": null
+  },
+  {
+   "id": "F1.6",
+   "part": 1,
+   "now": "Do not use concurrently with opioids and/or kratom (will reduce tolerance), clonidine and/or guanfacine, blood pressure lowering medications (including nitrates and PDE-5 inhibitors), or other complex psychoactive stacks (anything that works on the brain, beyond what this protocol pairs it with) without having a physician competent to consider the likelihoods of problematic interactions.",
+   "published": "Do not combine agmatine casually with opioids, kratom, clonidine/guanfacine, blood-pressure medication, nitrates, PDE-5 inhibitors, MAOIs, or complex psychiatric medication stacks without clinician review.",
+   "kind": "garbled",
+   "severity": 2,
+   "why": "The sentence ends on \"without having a physician competent to consider the likelihoods of problematic interactions,\" which has no verb for what the physician does (published: \"without clinician review\"), and unlike the published sentence it never names agmatine.",
+   "now_found": 1.0,
+   "now_blocks": [
+    11
+   ],
+   "where": [
+    "A Complete Guide to Bio-De-Armoring, P11"
+   ],
+   "block_hashes": [
+    "e84c7d7ce19f95d3"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    9
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": null
+  },
+  {
+   "id": "F1.7",
+   "part": 1,
+   "now": "Do not use concurrently with opioids and/or kratom (will reduce tolerance), clonidine and/or guanfacine, blood pressure lowering medications (including nitrates and PDE-5 inhibitors), or other complex psychoactive stacks (anything that works on the brain, beyond what this protocol pairs it with) without having a physician competent to consider the likelihoods of problematic interactions.",
+   "published": "Do not combine agmatine casually with opioids, kratom, clonidine/guanfacine, blood-pressure medication, nitrates, PDE-5 inhibitors, MAOIs, or complex psychiatric medication stacks without clinician review.",
+   "kind": "unclear",
+   "severity": 2,
+   "why": "\"(will reduce tolerance)\" doesn't say tolerance to what or why that is a danger, and \"(anything that works on the brain, beyond what this protocol pairs it with)\" turns \"complex stacks\" into anything at all, with \"it\" unnamed.",
+   "now_found": 1.0,
+   "now_blocks": [
+    11
+   ],
+   "where": [
+    "A Complete Guide to Bio-De-Armoring, P11"
+   ],
+   "block_hashes": [
+    "e84c7d7ce19f95d3"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    9
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": null
+  },
+  {
+   "id": "F1.8",
+   "part": 1,
+   "now": "Do not use concurrently with opioids and/or kratom (will reduce tolerance), clonidine and/or guanfacine, blood pressure lowering medications (including nitrates and PDE-5 inhibitors), or other complex psychoactive stacks (anything that works on the brain, beyond what this protocol pairs it with) without having a physician competent to consider the likelihoods of problematic interactions.",
+   "published": "Do not combine agmatine casually with opioids, kratom, clonidine/guanfacine, blood-pressure medication, nitrates, PDE-5 inhibitors, MAOIs, or complex psychiatric medication stacks without clinician review.",
+   "kind": "lost",
+   "severity": 2,
+   "why": "MAOIs, named in the published list, are no longer named, so a reader on one has only the catch-all \"psychoactive stacks\" to go by.",
+   "now_found": 1.0,
+   "now_blocks": [
+    11
+   ],
+   "where": [
+    "A Complete Guide to Bio-De-Armoring, P11"
+   ],
+   "block_hashes": [
+    "e84c7d7ce19f95d3"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    9
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": null
+  },
+  {
+   "id": "F1.9",
+   "part": 1,
+   "now": "Not recommended for use in pregnancy or breast-feeding.",
+   "published": "Avoid it during pregnancy or breastfeeding, and be especially cautious with bipolar disorder, psychosis history, unstable panic, low blood pressure, kidney/liver disease, or active substance relapse risk.",
+   "kind": "vaguer",
+   "severity": 1,
+   "why": "The published instruction \"Avoid it\" becomes the label phrase \"Not recommended for use,\" a firm rule turned into a hint, in a fragment with no subject.",
+   "now_found": 1.0,
+   "now_blocks": [
+    11
+   ],
+   "where": [
+    "A Complete Guide to Bio-De-Armoring, P11"
+   ],
+   "block_hashes": [
+    "e84c7d7ce19f95d3"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    9
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": null
+  },
+  {
+   "id": "F1.10",
+   "part": 1,
+   "now": "Use with extreme caution in those with a prior psychotic episode, lower end blood pressure, or kidney or liver issues.",
+   "published": "Avoid it during pregnancy or breastfeeding, and be especially cautious with bipolar disorder, psychosis history, unstable panic, low blood pressure, kidney/liver disease, or active substance relapse risk.",
+   "kind": "lost",
+   "severity": 3,
+   "why": "Three of the published conditions are gone (bipolar disorder, unstable panic, active substance relapse risk), so a reader with one of them now gets no caution.",
+   "now_found": 1.0,
+   "now_blocks": [
+    11
+   ],
+   "where": [
+    "A Complete Guide to Bio-De-Armoring, P11"
+   ],
+   "block_hashes": [
+    "e84c7d7ce19f95d3"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    9
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": null
+  },
+  {
+   "id": "F1.11",
+   "part": 1,
+   "now": "Use with extreme caution in those with a prior psychotic episode, lower end blood pressure, or kidney or liver issues.",
+   "published": "Avoid it during pregnancy or breastfeeding, and be especially cautious with bipolar disorder, psychosis history, unstable panic, low blood pressure, kidney/liver disease, or active substance relapse risk.",
+   "kind": "vaguer",
+   "severity": 1,
+   "why": "\"low blood pressure\" becomes \"lower end blood pressure,\" an odd phrase that could mean low blood pressure or just the low side of normal, and \"in those with\" stops addressing the reader.",
+   "now_found": 1.0,
+   "now_blocks": [
+    11
+   ],
+   "where": [
+    "A Complete Guide to Bio-De-Armoring, P11"
+   ],
+   "block_hashes": [
+    "e84c7d7ce19f95d3"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    9
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": null
+  },
+  {
+   "id": "F1.12",
+   "part": 1,
+   "now": "I wouldn't push through that signal, because a few people say the numbness hung on for weeks after they quit, so it's not like one of those side effects that you'd only feel at first.",
+   "published": "Do not “push through” numbness.",
+   "kind": "vaguer",
+   "severity": 1,
+   "why": "The published rule \"Do not push through numbness\" becomes \"I wouldn't push through that signal,\" a firm rule turned into a personal preference.",
+   "now_found": 1.0,
+   "now_blocks": [
+    12
+   ],
+   "where": [
+    "A Complete Guide to Bio-De-Armoring, P12"
+   ],
+   "block_hashes": [
+    "2565b73d6e2870de"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    10
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": null
+  },
+  {
+   "id": "F1.13",
+   "part": 1,
+   "now": "I wouldn't push through that signal, because a few people say the numbness hung on for weeks after they quit, so it's not like one of those side effects that you'd only feel at first.",
+   "published": "If agmatine makes the world more gray, it is the wrong tool for that phase.",
+   "kind": "lost",
+   "severity": 1,
+   "why": "The published point that agmatine making the world more gray means it is \"the wrong tool for that phase\" is not anywhere in NOW's agmatine paragraphs.",
+   "now_found": 1.0,
+   "now_blocks": [
+    12
+   ],
+   "where": [
+    "A Complete Guide to Bio-De-Armoring, P12"
+   ],
+   "block_hashes": [
+    "2565b73d6e2870de"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    10
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": null
+  },
+  {
+   "id": "F1.14",
+   "part": 1,
+   "now": "Do not combine it with SSRIs, SNRIs, MAOIs, linezolid, lithium, tramadol, methadone, fentanyl, DXM, MDMA, St. John's wort, SAM-e, L-tryptophan, or other serotonin-raising stacks.",
+   "published": "Do not combine it with SSRIs, SNRIs, MAOIs, linezolid, lithium, tramadol, methadone, fentanyl, DXM, MDMA, St. John’s wort, SAM-e, L-tryptophan, or other serotonin-raising stacks without clinician review.",
+   "kind": "lost",
+   "severity": 2,
+   "why": "The published condition \"without clinician review\" is dropped, so a conditional rule now reads as an absolute one.",
+   "now_found": 1.0,
+   "now_blocks": [
+    13
+   ],
+   "where": [
+    "A Complete Guide to Bio-De-Armoring, P13"
+   ],
+   "block_hashes": [
+    "8a6c7ef46de6d8cc"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    11
+   ],
+   "same_as_original": true,
+   "owner_words": false,
+   "origin": null
+  },
+  {
+   "id": "F1.15",
+   "part": 1,
+   "now": "Rule: do not take 5-HTP on the same day as a psychedelic trip, and do not use it anywhere near ayahuasca/harmalas or iboga.",
+   "published": "Rule: do not take 5-HTP on the same day as psychedelics, and do not use it anywhere near ayahuasca/harmalas or iboga unless the whole medicine plan has been medically reviewed.",
+   "kind": "lost",
+   "severity": 2,
+   "why": "The published condition \"unless the whole medicine plan has been medically reviewed\" is dropped, so the ayahuasca/iboga rule now reads as absolute.",
+   "now_found": 1.0,
+   "now_blocks": [
+    13
+   ],
+   "where": [
+    "A Complete Guide to Bio-De-Armoring, P13"
+   ],
+   "block_hashes": [
+    "8a6c7ef46de6d8cc"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    12
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": null
+  },
+  {
+   "id": "F1.16",
+   "part": 1,
+   "now": "Rule: do not take 5-HTP on the same day as a psychedelic trip, and do not use it anywhere near ayahuasca/harmalas or iboga.",
+   "published": "Rule: do not take 5-HTP on the same day as psychedelics, and do not use it anywhere near ayahuasca/harmalas or iboga unless the whole medicine plan has been medically reviewed.",
+   "kind": "lost",
+   "severity": 2,
+   "why": "\"on the same day as psychedelics\" becomes \"on the same day as a psychedelic trip,\" which a reader who microdoses (this part links a microdosing protocol) can take as not covering microdose days.",
+   "now_found": 1.0,
+   "now_blocks": [
+    13
+   ],
+   "where": [
+    "A Complete Guide to Bio-De-Armoring, P13"
+   ],
+   "block_hashes": [
+    "8a6c7ef46de6d8cc"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    12
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": null
+  },
+  {
+   "id": "F1.17",
+   "part": 1,
+   "now": "Uridine (the UMP in this protocol) doesn't raise serotonin, so its caution is a different one, and it comes from experience like Scott's below, since I don't have studies on it: within a day of starting it, psychedelics can hit harder, visuals included.",
+   "published": "Uridine is not serotonergic, but it may still change dream vividness, visual sensitivity, craving, and psychedelic tolerance.",
+   "kind": "unclear",
+   "severity": 1,
+   "why": "The warning itself only arrives after the colon, and on the way \"it\" switches from the caution (\"it comes from\") to uridine (\"starting it\") with \"studies on it\" readable either way, and Scott hasn't been introduced.",
+   "now_found": 1.0,
+   "now_blocks": [
+    14
+   ],
+   "where": [
+    "A Complete Guide to Bio-De-Armoring, P14"
+   ],
+   "block_hashes": [
+    "5725b4e2a3ab7011"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    12
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": null
+  },
+  {
+   "id": "F1.18",
+   "part": 1,
+   "now": "So do not take UMP on the same day as a psychedelic trip, and on your first trip after starting it, assume your old psychedelic dose may now be too high and take less.",
+   "published": "Do not take UMP on the same day as psychedelics; if sensitivity changes, assume your old psychedelic dose may now be too high.",
+   "kind": "lost",
+   "severity": 2,
+   "why": "\"psychedelics\" again becomes \"a psychedelic trip,\" and the published condition \"if sensitivity changes\" becomes \"on your first trip after starting it,\" so the rule no longer covers a microdose day or a sensitivity change noticed later.",
+   "now_found": 1.0,
+   "now_blocks": [
+    14
+   ],
+   "where": [
+    "A Complete Guide to Bio-De-Armoring, P14"
+   ],
+   "block_hashes": [
+    "5725b4e2a3ab7011"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    12
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": null
+  },
+  {
+   "id": "F1.19",
+   "part": 1,
+   "now": "It may also make your dreams more vivid and your cravings weaker, which are the benefits you're hoping for.",
+   "published": "Uridine is not serotonergic, but it may still change dream vividness, visual sensitivity, craving, and psychedelic tolerance.",
+   "kind": "lost",
+   "severity": 2,
+   "why": "The published sentence lists dream vividness and craving as things uridine \"may still change\" inside a warning, while NOW fixes their direction and calls them \"the benefits you're hoping for,\" which changes the point and may puzzle a reader who wasn't hoping for vivid dreams.",
+   "now_found": 1.0,
+   "now_blocks": [
+    14
+   ],
+   "where": [
+    "A Complete Guide to Bio-De-Armoring, P14"
+   ],
+   "block_hashes": [
+    "5725b4e2a3ab7011"
+   ],
+   "pub_found": 1.0,
+   "pub_blocks": [
+    12
+   ],
+   "same_as_original": false,
+   "owner_words": false,
+   "origin": null
+  }
+ ]
+}

@@ -1,0 +1,3 @@
+MARKED:
+- S1: 4 — "some blood pressure drugs" doesn't say which, so a reader on one can't tell if theirs counts, and the drugs are said to "hold on to" the potassium themselves; his way would name the kind of drug (or say any blood pressure medicine) and say the body keeps the potassium because of it.
+- S1: 7 — the reason names blood pressure drugs, but the "if" only sends people with kidney disease or heart conditions to a doctor, so a reader on those drugs isn't told to ask, and nothing says what a heart condition has to do with potassium; his way would put the people on those drugs in the "if" and give the heart-condition reader their reason.

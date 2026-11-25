@@ -1,0 +1,1 @@
+- S1: ANYWAY - / CAN'T TELL yes, I take a blood pressure pill and can't tell whether mine is one of "some blood pressure drugs", or which "heart conditions" count / FROM - / MISREAD yes, the "if" names only kidney disease or heart conditions, so if I only take blood pressure pills I read it as not for me, though the reason at the end says those pills can do it
