@@ -60,16 +60,16 @@ NEW_P = [
                     ['”: if what you\'re doing is making you more paranoid, sleepless, grandiose, isolated or scared, or '
                      'things feel more and more unreal, stop going deeper and get help.', None]],
      'answer 7: "The General Rule" goes; this sentence keeps every warning sign of his'),
-    ('T7', 'S122', [['Try Systema\'s continuous breathing too: besides relaxing you, it can take you deeper into trance and '
-                     'flow states. This is ', None],
+    ('T7', 'S122', [['Try the continuous breathing from Systema (a Russian martial art) too: it helps not just with relaxing, '
+                     'but with getting into trance and flow states more deeply. You can learn it from ', None],
                     ['the best video on it I\'ve seen so far', 'https://www.youtube.com/shorts/Nar2-nvomAk'],
                     [', and ', None],
                     ['my somatic guide explains it more', 'https://ibogaqueen.substack.com/i/201523223/systema-circular-breathing-and-compassionate-relaxing-martial-arts'],
                     ['.', None]],
      'his note of 2026-11-24 21:05 UTC: Systema\'s continuous breathing beside the Buteyko lines'),
 ]
-POINTER = ('P1', 'S007', [['Before you let a hypnotist or a stranger\'s recording work on you, go through the questions in “', None],
-                          ['Find a Hypnotist Who Fits', 'S131'], ['”.', None]],
+POINTER = ('P1', 'S007', [['If you do let a hypnotist work on you, or listen to a stranger\'s hypnosis recording, go through the questions in “', None],
+                          ['Find a Hypnotist Who Fits', 'S131'], ['” first.', None]],
            'put to him on 2026-11-25: both final readers looked here for what to check before playing a stranger\'s recording')
 # Section links beyond LINK-PLAN.json, found on 2026-11-25: (section, words to link, target, why)
 MORE_LINKS = [

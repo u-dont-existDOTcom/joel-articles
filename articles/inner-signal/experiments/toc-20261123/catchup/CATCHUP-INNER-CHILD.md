@@ -468,7 +468,7 @@ Inner Child guide [S069, Journal With Each Hand]:
 
 > Lucia Capacchione, an art therapist and seminal inner child therapist, wrote a whole book on this one, The Power of Your Other Hand .
 
-Why it matters: The reader isn't told the two-hand writing method is Lucia Capacchione's, which the source now credits with her book.
+Why it matters: The reader isn't told that writing with the other hand is Lucia Capacchione's method, which the source now credits with her book.
 
 Suggestion: carry over. S034, and the sources list in S162.
 
@@ -479,13 +479,13 @@ Suggestion: carry over. S034, and the sources list in S162.
 | One hand on the chest, one on the solar plexus, love sent down and back | "the two-hand practice" (S024, S127) | "A Heart to Child Loop" (S060) |
 | Written dialogue, one hand for the child and one for the adult | "Non-dominant hand dialogue", "nondominant hand" / "dominant" (S034) | "Journal With Each Hand"; "your other hand" / "the usual hand" (S069) |
 | The third adult job | "the Guide"; other names offered: Leader, Guru, Wise One, Sage, Inner Teacher, Director, Higher Adult (S027) | "The Inner Guide" as heading, "the Guide" in the text; other names offered: the Wise One, Inner Teacher, Guru (S044) |
-| A part that blocks or protects | "guard", "guards", "a child guard part" (S028, S031, S072, S136) | mostly "a part of you that's trying to protect you" or "protective part" (S064, S069, S070, S093, S097); "guard" still in S033, S084, S095, S150, S151 |
+| A part that blocks or protects | "guard", "guards", "a child guard part" (S017, S028, S031, S032, S034, S072, S130, S136) | mostly "a part of you that’s trying to protect you" (S064, S070, S076, S093) or "protective part" (S069, S097); "guard" still in S033, S046, S084, S095, S150, S151 |
 | The rules taken in from parents | "inherited parent script" (S029, S070); "an inherited inner critic" (S019) | "The Parent You Inherited" as heading, "the parent 'script' you inherited", "that inherited parent script" (S027); also "the inherited critic" (S011), "the Inner Critic" / "the Critic" (S029), "the old parent in your head" (S115) |
 | Standing back and observing | "witnessing position", "witnessing" (S017, S019); "Witness" as a perceptual position (S113) | "noticing" ("Noticing Counts", S022); the word "witness" isn't used |
 | The borrowing exercise | "borrowed adulthood" with an "adult hat" and an "apprentice adult" (S019) | "borrowed adulthood", "the borrowed adulthood trick" (S003, S018), "the adult lending library" (S013); no hat or apprentice |
-| The readiness check before a session | step A of "Don't rush the repair" (S032) | "Dip Your Toes In First" (S007) |
-| The younger self | mostly "inner child"; sometimes "little one", "little you" | mostly "little one"; sometimes "inner child", "little you", "little boo" |
-| The adult being built | "inner adult" (S018, S029) | "Inner Adult" (S001), also "inner parent" (S003) and "the grown-up you're building" (S115) |
+| The readiness check before a session | step A of "Don’t rush the repair" (S032) | "Dip Your Toes In First" (S007) |
+| The younger self | mostly "inner child"; sometimes "little one" (S018, S021, S022, S070, S127) | mostly "little one"; "inner child" about half as often |
+| The adult being built | "inner adult" (S018, S024, S029, S033) | "Inner Adult" (S001), also "inner parent" (S003) and "the grown-up you’re building" (S115) |
 | The higher vantage point | "Higher Self", "universal heart", "the sacred whole" (S017) | "Higher/True Self", "Higher View" (S059, S151); the love itself is "Divine Love" (S054, S055) |
 | Forgiving others | "Forgiveness without bypass" (S134) | "Forgiving, Not Forgetting" (S038) |
 

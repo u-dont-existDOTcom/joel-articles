@@ -75,30 +75,33 @@ Joel picked the Nirvāna guide first (2026-11-23 14:37 UTC: "ok start with the n
    contents work starts from the live post, as Nirvāna's did). Step 2 done the same day, on the live post (165 sections,
    164 in the sidebar, 90 cut off, 29,554 words): [RESULTS.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/inner-signal/experiments/toc-20261123/RESULTS.md).
 
-Next step: for the Self-Hypnosis guide, the rest of his answers on the picks page (https://claude.ai/artifact/U816NLPQPjxSHZMMaZ4iAk,
-published 2026-11-24 01:23 UTC; his picks up to S034 are in, `answers/JOEL-20261124-1418.md`, and only those count of
-the record he pasted at 14:18; the page stopped taking his clicks and was fixed at 14:26 UTC, lesson toc-2026-11-24a;
-its record, `articles/inner-signal/experiments/toc-20261123/RESULTS.md`, last section). The record he pasted at 21:05
-UTC came from the TEST copy (https://claude.ai/artifact/SaNBVtX4AyqYV7mRaJTvHA holds my test clicks,
-S001 "now", S042 and S043 own words, and now only points to his page); his own page still holds S011 and S015 in his
-words. **Nothing of his needs redoing** (his question of 21:35 UTC; `answers/JOEL-20261124-2135.md`): a heading
-left on the proposal is not stored, both records show the proposals from S035 on, and he carries on from where he
-stopped (S122) on his page, or says he is done with the headings. The page was republished at 21:49 UTC so that his
-answers are merged with the saved ones, never replaced (lesson toc-2026-11-24c; it has its own store name now).
-His 15 answers on Fable's notes set the structure (2026-11-24 01:04 UTC: `answers/JOEL-20261124-0104.md`, STRUCTURE.json):
-five headings go, three change level, four groups move, the audit merges into Appendix F, appendices take letters only.
-His 21:05 note on S122 adds Systema's continuous breathing beside Buteyko breathing: text change T7 (two linked
-sentences, the Systema video and the somatic guide's Systema section). S122's heading stays "Breathe Less (Buteyko)",
-the title in what he sent (21:35 UTC: "i already gave a title at s122 check what i sent you"); my "Buteyko & Systema"
-of 21:09 is withdrawn, and the page's note on T7 asks nothing.
-**Before the edit, the catch-up with the posts it is built on** (lesson toc-2026-11-24b, `articles/BUILT-ON.json`): he
-said on 2026-11-20 that the hypnosis guide is built on the inner child guide, and on 2026-11-24 21:05 that it is built
-on the somatic guide too, and the September sync (r03) never reached the live post. Compare S017-S034, S070-S072, S113,
-S127, S130, S133-S136, S158 and S162 with the live inner child guide, and S121-S126 and S149-S151 with the live somatic
-guide; each change goes in through this post's humanization rules (checked by itself, in only at Human High) or to him,
-in the same editor transaction as the contents.
-When his picks come: check each text change in its section in the web app (TEXT-CHANGES.json: S001 with S002's lines,
-S143 with the general-rule sentence, S079 with its pointer, the merged S131, T7 in S122), then apply everything in one editor
-transaction (renames, levels, moves, drops, the merge, the 35 links of LINK-PLAN.json with anchors from the final
-headings, the catch-up's changes, as Nirvāna's apply_in_editor.js did), then the whole post the free way in parts (his extension, temporary
-drafts' secret links) for the moved sections.
+**His picks are all in (2026-11-25 01:24 UTC).** [His record and how each answer is read](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/inner-signal/experiments/toc-20261123/answers/JOEL-20261125-0108.md);
+[the contents that goes in](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/inner-signal/experiments/toc-20261123/FINAL-CONTENTS.md) (159 headings, none cut off; `make_final.py`). Two fresh readers found
+61 and 60 of the 64 situations on the first look (the live post: 54 and 56). His answers on the earlier pages
+(`answers/JOEL-20261124-*.md`) are history; the picks page is done with.
+
+Next step, in order:
+
+1. **His answers to [the nine questions](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/inner-signal/experiments/toc-20261123/QUESTIONS-20261125.md)** (each has a default, which goes in where he says
+   nothing; question 6, his words for the past-life section, has none). They change `make_final.py` (structure, the
+   inner-adult heading) and `apply_plan.py` (`--pointer`, the breathing lines, the borrowed-adulthood pointer).
+2. **The carry-overs from the guides it is built on** (the list at the end of the questions page, from
+   `catchup/CATCHUP-INNER-CHILD.md` and `catchup/CATCHUP-SOMATIC.md`): write each in from his own sentences in the
+   source guide, fresh reader against `tools/humanization/his_fixes_brief.md`, making-sense receipt, each checked in
+   its section in the web app, then all of them on the marking page (`tools/humanization/suggestion_review.py`) for
+   his yes. They go into `apply_plan.py` as new paragraphs and edits.
+3. **The section checks still open** (each a sentence of mine in its section, so each needs its receipt before
+   `pangram_ledger.py predict`): `pangram/SEC-S143-after.txt`, `SEC-S077-S080-after.txt`, `SEC-S122-after.txt`, and
+   `SEC-S007-after-pointer.txt` if he says yes to question 3. Done: the merged S131 and S001, both Human Written, one
+   window, High (IS-toc-S131#277, IS-toc-S001#278). Pangram is signed in in the desktop app's browser pane (623
+   credits on 2026-11-25).
+4. **The one editor transaction:** `python3 apply_plan.py` (after `make_final.py`), then in the post's editor tab load
+   `apply_in_editor.js` and `EDITOR-OPS.json`, `window.__applyContents(ops, {dry: true})` until the report shows no
+   errors, no heading differences and only the planned text gone and new, then `{dry: false}`, Update, "Update now"
+   (no email), and the date in the subtitle (gate E323). It has not been run in the editor yet, so the first dry run
+   is also the test of the block fingerprint against the editor's own blocks.
+5. **After it:** `section_links.py build` the post's `SECTION-LINKS.json` from the live post, every new link opened,
+   then the whole post the free way in parts (his extension on temporary drafts' secret links) for the moved sections,
+   and `articles/BUILT-ON.json` gets its `last_brought_in_line`.
+
+Then Escuelitas, Romance (the romance lane is active: it does the edit).
