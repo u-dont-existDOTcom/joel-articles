@@ -9,6 +9,14 @@ import section_links as sl  # noqa: E402
 
 # heading words -> the anchor on the rendered page
 SEEN = {
+    # Self-Hypnosis guide, post 202810155, read on the rendered page on 2026-11-25 after the contents edit: an apostrophe,
+    # curly quotes, a colon, an en dash and a comma are dropped; "&" becomes "and"
+    "You're Better Than the Pros": 'youre-better-than-the-pros',
+    'Is “Your Voice” Really Yours?': 'is-your-voice-really-yours',
+    'Sober Induction: 3–5 Min': 'sober-induction-35-min',
+    'Play & Rest, Adult Present': 'play-and-rest-adult-present',
+    'H: Demons, Jinn & Presences': 'h-demons-jinn-and-presences',
+    'B: Ethical NLP': 'b-ethical-nlp',
     # inner child guide, post 189761959 (turn 132, every link opened on the rendered page)
     'Noticing Counts': 'noticing-counts',
     'Chicken-and-Egg Problem': 'chicken-and-egg-problem',

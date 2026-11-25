@@ -9369,6 +9369,11 @@
           "path": "articles/somatic-therapies/experiments/OWNER-PUBLISHED-V4-2-TEXT-20260925.md",
           "sha256": "35167f154f3c5f1b52f0bcbdb6d0780a6579dc102aa8dbe962b2f3b679ff6d0e",
           "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/somatic-therapies/LIVE-SECTIONS.json",
+          "sha256": "4b2246256263ca8a4ba32516f9db51a248edf684cc47a39d2ea38cd188e2c773",
+          "role": "humanization_working_record"
         }
       ]
     },
@@ -43926,6 +43931,11 @@
           "path": "articles/inner-child-therapy/experiments/t133-answers/JOEL-20261121-1427.md",
           "sha256": "dae398a06d38f2091614c804577f5146b2f4ed3b6470588e2f3e0d2b7dc3f6f4",
           "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-child-therapy/LIVE-SECTIONS.json",
+          "sha256": "a8307b297a4f31efa7f68a4b214a6308b2615458a5e4705982c0146d9906797b",
+          "role": "humanization_working_record"
         }
       ]
     },
@@ -57298,7 +57308,7 @@
         },
         {
           "path": "articles/inner-signal/humanize/pangram-ledger.jsonl",
-          "sha256": "879fe6f85173ce46ec646c70c99a912e213657a764f3ed7c3186a6bc5f72e617",
+          "sha256": "70a8e12cdfdd169385bf654872eb49612576bbd8971c3889f54d366f605afc51",
           "role": "humanization_working_record"
         },
         {
@@ -74513,7 +74523,7 @@
         },
         {
           "path": "articles/inner-signal/experiments/toc-20261123/RESULTS.md",
-          "sha256": "1053e4711e4b949638a2c789808c2cfd56e21c7ac4209b9cd1f965c551592ecc",
+          "sha256": "e04dd36aef1b4da82ad9f22e8106517340755c5d9da64aee2cabf65a26eba329",
           "role": "detector_experiment_result"
         },
         {
@@ -74708,7 +74718,7 @@
         },
         {
           "path": "articles/inner-signal/experiments/toc-20261123/TEXT-CHANGES.json",
-          "sha256": "49d155d35e8ee367fd9e6f347b1d02bf0773f82c188c36699afc519777567f34",
+          "sha256": "05bc81ecf9945ce90f1e00a80244131ebf40fcc4587dce70b0e2cf212d8e7be2",
           "role": "humanization_working_record"
         },
         {
@@ -75224,6 +75234,171 @@
         {
           "path": "articles/inner-signal/experiments/toc-20261123/pangram/record_gui.py",
           "sha256": "ddb7851aea92aa0730b148315695ba52b06b6e04283cac8e710838f1abba7851",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/LIVE-SECTIONS.json",
+          "sha256": "ae99718d9b206a347073070d72d23181d2bc3a5ea4727583ec086afcc8f18776",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/SECTION-LINKS.json",
+          "sha256": "4e918afcb6774b635428e0e5f9a2d6719a04795727eeba0aadd61ed5ffdd9ae7",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/experiments/toc-20261123/APPLIED.md",
+          "sha256": "29d356c12d5043ae1d8a67482dfc1a159d2075f4e41738d6a9a1cc3601c18703",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/experiments/toc-20261123/LIVE-BODY-20261125-after.html",
+          "sha256": "3f76d79ed8cfab0e2564d44b18348caf1d5e87c517a9d60c593016533f2bbfee",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/experiments/toc-20261123/answers/JOEL-20261125-1118.md",
+          "sha256": "599c78b835d4f35b5ca655dfa52a8eecc6073b523f9ee55c3fc24bb0f93763f1",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/experiments/toc-20261123/pangram/carry/IS-carry-S017-C05.txt",
+          "sha256": "ae59779f1508d5dd8c6aeb3b48f630c5943b395a7ff5ebd40d55098d2eaa0fdf",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/experiments/toc-20261123/pangram/carry/IS-carry-S024-C04.txt",
+          "sha256": "f1fea8637a8ebb8cbaf10461cda666c4769db1e179c814803e4a63eb32775f1c",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/experiments/toc-20261123/pangram/carry/IS-carry-S028-C10.txt",
+          "sha256": "3ba2ad1a7d3887216522a220b0710f91a6925a9009911f253540850ba51a8c9f",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/experiments/toc-20261123/pangram/carry/IS-carry-S029-C09.txt",
+          "sha256": "d5070e97410843f489fecea741b2641cadad1e0e310f4c7512878845c8c2bbd1",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/experiments/toc-20261123/pangram/carry/IS-carry-S032-C11-C12.txt",
+          "sha256": "7d927dd4bb692ef823572d255fd2c69081fb546d03b3a99b0f3c9e4f3f74360e",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/experiments/toc-20261123/pangram/carry/IS-carry-S032-C11b-C12.txt",
+          "sha256": "71598d4bbf8fef4b0d633116df2797c07e137df9f4c5d466f063112cdd769638",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/experiments/toc-20261123/pangram/carry/IS-carry-S032-C11b-P.txt",
+          "sha256": "861bdb90c47ecbe166d43c354d8bea24c7efb8b53d12a02fae426e60506f0193",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/experiments/toc-20261123/pangram/carry/IS-carry-S032-C12b-P.txt",
+          "sha256": "de1dc4bcf15eaa17b0a097639aa7717d2aa12c5ffa4d91312346d3dd1fe599aa",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/experiments/toc-20261123/pangram/carry/IS-carry-S072-C13.txt",
+          "sha256": "61704c48fcd55207564a9859e97e03911ff107e107c79dcc246323133c5e1ccf",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/experiments/toc-20261123/pangram/carry/IS-carry-S124-M05.txt",
+          "sha256": "a9ec8441ce0e71e55661658381dde43a2bc0ceb356955aac7e6ca3a0c7ba63e6",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/experiments/toc-20261123/pangram/carry/IS-carry-S126-M06.txt",
+          "sha256": "79e4e7dc689088b039ba0a5f7957addb660d4bda3f77f1b5f62951db481bf5ac",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/experiments/toc-20261123/pangram/carry/IS-carry-S133-C16.txt",
+          "sha256": "2d0a7707483b6479a8d59cb9acab397b866ccb22a420dbd17b71ef5ac7e0d897",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/experiments/toc-20261123/pangram/carry/IS-carry-S134-C17.txt",
+          "sha256": "195a3c9fcec9756b8acdaf70ea1a190af8669f3fe23ad1c98afe90b33439ee04",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/experiments/toc-20261123/pangram/carry/IS-carry-S136-C02.txt",
+          "sha256": "79918d591ebf43356bd65cc330fffc17ec1323963a3a185b879d7b03cb71b21e",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/experiments/toc-20261123/pangram/carry/RESULTS-20261125-b.json",
+          "sha256": "b9ee2321a0d13b61c865c5ad673204de124411d6f83a2dae02d6bea4dc3925a6",
+          "role": "detector_experiment_result"
+        },
+        {
+          "path": "articles/inner-signal/experiments/toc-20261123/pangram/carry/RESULTS-20261125-c.json",
+          "sha256": "b92c2c35b946afe0cbe50b6537c98707e646c772e3e764a9f8a0c83bc425f861",
+          "role": "detector_experiment_result"
+        },
+        {
+          "path": "articles/inner-signal/experiments/toc-20261123/pangram/carry/RESULTS-20261125-d.json",
+          "sha256": "750e873b7eb81342ecb7cee886e78f41d0bf6a9f18ee47cf6623c7ffe58bb49d",
+          "role": "detector_experiment_result"
+        },
+        {
+          "path": "articles/inner-signal/experiments/toc-20261123/pangram/carry/RESULTS-20261125.json",
+          "sha256": "c8336975beedbdfcf3777439a5d12e92fc6ac1ca03132eaa1fb5a22042f60dc2",
+          "role": "detector_experiment_result"
+        },
+        {
+          "path": "articles/inner-signal/experiments/toc-20261123/pangram/carry/SPECS.json",
+          "sha256": "849881290889f8ea1666cb0a18ab69e0c0290bc0ad56d5fd7eda3b2ebee3bf5f",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/experiments/toc-20261123/reads/READ-REVIEW-PAGE-20261125.md",
+          "sha256": "afadde6f6ffdae69388d38617575968f5f4d534c820b3ed00b98defde8066bd9",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/experiments/toc-20261123/review/ARTICLE.md",
+          "sha256": "e146e2961ccd4bee97356b78db915a06dfc5cc512e691ab1b68d1a07eb18af3f",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/experiments/toc-20261123/review/BROWSER-TEST.json",
+          "sha256": "e3e7e68cc0936ec00fb6d44b59e37bb49f7afa8518a299c2ce2692aa01c0f7bb",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/experiments/toc-20261123/review/CARDS.md",
+          "sha256": "ccb66e81f85ad97f09d3a8509656dda3068ec26dad1d9fae1e0e2ffe27288f76",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/experiments/toc-20261123/review/READINGS.json",
+          "sha256": "bbc55a88495ddb9ec94ea16455d88d305b067f4bc68b4752ae02b4df6a10b019",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/experiments/toc-20261123/review/REVIEW-artifact.html",
+          "sha256": "af059390298a2705f4b20f99f59cff7870fc6a94f18943e992552f95a4f16239",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/experiments/toc-20261123/review/REVIEW.html",
+          "sha256": "4fed0a03dd44d83d3415229920bbd9ce0f7a8303fe939d727338a11385d75085",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/experiments/toc-20261123/review/REVIEW.json",
+          "sha256": "2af0c9181b5802f494617ec6cdcc9a78651a12e1990b635590bbff9f633f8c38",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/inner-signal/experiments/toc-20261123/review/build_review.py",
+          "sha256": "612edf29539439f66e09a3697f804f19eebe6d28d3ec31a63391bdb18d78907d",
           "role": "humanization_working_record"
         }
       ]
@@ -77786,6 +77961,11 @@
         {
           "path": "articles/nibbana/experiments/toc-20261123/pangram/WINDOWS-EXT-LIVE-20261123.txt",
           "sha256": "4553bece3aec92abdd0dd3c5c5d5b6cf3786901459a63f513b24b4a5ae5c0ccd",
+          "role": "humanization_working_record"
+        },
+        {
+          "path": "articles/nibbana/LIVE-SECTIONS.json",
+          "sha256": "41cdd6c4e2bacb943b9fe706b54aac12ca27a83919ee4d5b34a719d5d5298b3e",
           "role": "humanization_working_record"
         }
       ]

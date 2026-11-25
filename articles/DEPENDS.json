@@ -1,5 +1,5 @@
 {
- "about": "The passages in Joel's guides that make the same point: each point has a home (article, section, exact words) and its uses, the passages elsewhere that repeat it, put it in their own words, point to it or differ from it, each with its state, and a point of kind \"link\" is a section of a post and the links to it. When you edit a passage, run `python3 tools/humanization/depends.py check`: it lists every quote that is no longer found, with the passages to re-read; bring those in line or put them to Joel, then record the new words and state here (`add` registers a new pair, `list --write` makes the page articles/DEPENDS.md). \"texts\" names the copy each article's quotes are checked in, the one that had the most of them on 2026-11-25: the saved copies of the live posts, since the registered masters are behind the posts (masters: 2 of inner-signal's 50 quotes, 0 of inner-child-therapy's 33, 0 of somatic-therapies' 17; live copies: 50, 33 and 17; nibbana's master has no \"Who Gets Reborn?\" heading and its saved live text does), so point \"texts\" at a newer saved copy when there is one, or drop the entry once the master is brought up to its post.",
+ "about": "The passages in Joel's guides that make the same point: each point has a home (article, section, exact words) and its uses, the passages elsewhere that repeat it, put it in their own words, point to it or differ from it, each with its state, and a point of kind \"link\" is a section of a post and the links to it. When you edit a passage, run `python3 tools/humanization/depends.py check`: it lists every quote that is no longer found, with the passages to re-read; bring those in line or put them to Joel, then record the new words and state here (`add` registers a new pair, `list --write` makes the page articles/DEPENDS.md). \"texts\" names the copy each article's quotes are checked in, the one that had the most of them on 2026-11-25: the saved copies of the live posts, since the registered masters are behind the posts (masters: 2 of inner-signal's 50 quotes, 0 of inner-child-therapy's 33, 0 of somatic-therapies' 17; live copies: 50, 33 and 17; nibbana's master has no \"Who Gets Reborn?\" heading and its saved live text does), so point \"texts\" at a newer saved copy when there is one, or drop the entry once the master is brought up to its post. Each article's words are read in articles/<id>/LIVE-SECTIONS.json, the text of its live post by section, saved again whenever the post is updated or read back (the registered masters are not the live posts: of the 100 quotes first recorded, 2 were found in the masters and all 100 in the live posts). A heading and the links to it inside one post are kept in that post's SECTION-LINKS.json (tools/humanization/section_links.py); this registry holds what crosses sections or posts.",
  "his_words": [
   {
    "when": "2026-11-25 11:18 UTC",
@@ -7,10 +7,10 @@
   }
  ],
  "texts": {
-  "inner-signal": "articles/inner-signal/experiments/toc-20261123/LIVE-BODY-20261123.html",
-  "inner-child-therapy": "articles/inner-signal/experiments/toc-20261123/catchup/SECTIONS-inner-child-20261125.json",
-  "somatic-therapies": "articles/inner-signal/experiments/toc-20261123/catchup/SECTIONS-somatic-20261125.json",
-  "nibbana": "articles/nibbana/experiments/toc-20261123/pangram/WHOLE-FINAL.txt"
+  "inner-signal": "articles/inner-signal/LIVE-SECTIONS.json",
+  "inner-child-therapy": "articles/inner-child-therapy/LIVE-SECTIONS.json",
+  "somatic-therapies": "articles/somatic-therapies/LIVE-SECTIONS.json",
+  "nibbana": "articles/nibbana/LIVE-SECTIONS.json"
  },
  "points": [
   {
@@ -26,13 +26,13 @@
    "uses": [
     {
      "article": "inner-signal",
-     "section": "When the adult role is not available yet",
+     "section": "No Adult Yet? Borrow One",
      "section_id": "S019",
-     "quote": "The longer version of this exercise can be found in my Inner Child Self-Love Reparenting Guide .",
-     "relation": "differs",
-     "state": "his to settle",
+     "quote": "There is more on borrowed adulthood in my Inner Child Self-Love Reparenting Guide.",
+     "relation": "pointer",
+     "state": "in line",
      "as_of": "2026-11-25",
-     "note": "dropped in source (matters: high); the catch-up suggests: ask the author"
+     "note": "his answer 8 a (2026-11-25 11:18): the sentence points to the inner child guide's \"Borrowed Adulthood\"; in the post since 12:00 UTC"
     }
    ],
    "from": "the catch-up of 2026-11-25 (articles/inner-signal/experiments/toc-20261123/catchup/CATCHUP-INNER-CHILD.json), item C01"
@@ -50,7 +50,7 @@
    "uses": [
     {
      "article": "inner-signal",
-     "section": "Appendix G: Altered states",
+     "section": "G: Altered States",
      "section_id": "S136",
      "quote": "I’m not saying you should use substances, but many people have used them when they first did self-hypnosis, contacted their inner child, or talked to their Higher Self.",
      "relation": "differs",
@@ -74,7 +74,7 @@
    "uses": [
     {
      "article": "inner-signal",
-     "section": "Love doesn’t have to wait for trust",
+     "section": "Love First, Trust Later",
      "section_id": "S021",
      "quote": "Just not hitting back is enough to start being the adult, even if it isn't enough yet for them to trust you. Even that takes some warmth, and if you don't have any yet, borrow some from someone who's been good to you, or from an adult you imagine.",
      "relation": "differs",
@@ -98,7 +98,7 @@
    "uses": [
     {
      "article": "inner-signal",
-     "section": "The two-hand practice",
+     "section": "The Two-Hand Practice",
      "section_id": "S024",
      "quote": "If you feel resistance, just meet it with love. If you feel or see something, just meet that with love as well.",
      "relation": "differs",
@@ -122,7 +122,7 @@
    "uses": [
     {
      "article": "inner-signal",
-     "section": "Sometimes start with the whole",
+     "section": "Start From the Whole",
      "section_id": "S017",
      "quote": "And I don’t think the Higher Self has any specific wisdom.",
      "relation": "differs",
@@ -146,7 +146,7 @@
    "uses": [
     {
      "article": "inner-signal",
-     "section": "Sometimes start with the whole",
+     "section": "Start From the Whole",
      "section_id": "S017",
      "quote": "When something specific comes up, that’s the time to sort out what it is.",
      "relation": "differs",
@@ -174,9 +174,9 @@
      "section_id": "S027",
      "quote": "Start with whatever adult function you can connect to, but most of us need enough Nurturer and Protector first, before the Guide.",
      "relation": "differs",
-     "state": "his to settle",
+     "state": "left as it is",
      "as_of": "2026-11-25",
-     "note": "changed step (matters: medium); the catch-up suggests: ask the author"
+     "note": "question 2 of 2026-11-25: his \"yes\" read as the default, b: this guide keeps Nurturer, Protector, Guide, with \"When to Stop Scanning\" right under The Protector"
     }
    ],
    "from": "the catch-up of 2026-11-25 (articles/inner-signal/experiments/toc-20261123/catchup/CATCHUP-INNER-CHILD.json), item C07"
@@ -218,7 +218,7 @@
    "uses": [
     {
      "article": "inner-signal",
-     "section": "Your inherited parent script",
+     "section": "Your Inherited Parent Script",
      "section_id": "S029",
      "quote": "Often this script acts as a critic or warden, telling your inner child not to cry or complain.",
      "relation": "differs",
@@ -242,7 +242,7 @@
    "uses": [
     {
      "article": "inner-signal",
-     "section": "Working with your guards",
+     "section": "Working With Your Guards",
      "section_id": "S028",
      "quote": "Still, notice it, and then look at what might be going on.",
      "relation": "differs",
@@ -266,7 +266,7 @@
    "uses": [
     {
      "article": "inner-signal",
-     "section": "Don’t rush the repair",
+     "section": "Don't Rush the Repair",
      "section_id": "S032",
      "quote": "G. Stop and rest before the caring turns into another performance, and reconnect with them later to see what was helpful.",
      "relation": "differs",
@@ -290,7 +290,7 @@
    "uses": [
     {
      "article": "inner-signal",
-     "section": "Don’t rush the repair",
+     "section": "Don't Rush the Repair",
      "section_id": "S032",
      "quote": "A. Prepare yourself to tend to them with some privacy, but still able to access support if needed.",
      "relation": "differs",
@@ -314,7 +314,7 @@
    "uses": [
     {
      "article": "inner-signal",
-     "section": "The inner child will not appear",
+     "section": "Inner Child Won’t Appear?",
      "section_id": "S072",
      "quote": "Even if there isn’t a child part that you can talk to, you can work with whatever you are aware of.",
      "relation": "differs",
@@ -338,7 +338,7 @@
    "uses": [
     {
      "article": "inner-signal",
-     "section": "The subconscious will not answer",
+     "section": "Subconscious Is Silent?",
      "section_id": "S071",
      "quote": "There may not be an answer that will help you.",
      "relation": "differs",
@@ -362,7 +362,7 @@
    "uses": [
     {
      "article": "inner-signal",
-     "section": "Inner child reparenting",
+     "section": "Reparenting in Hypnosis",
      "section_id": "S031",
      "quote": "It can be an image, a posture, a voice, a memory, an emotion, etc.",
      "relation": "differs",
@@ -386,7 +386,7 @@
    "uses": [
     {
      "article": "inner-signal",
-     "section": "The council — internal first, then outward",
+     "section": "Take It to the Council",
      "section_id": "S133",
      "quote": "Seeking counsel can slide into abdicating to an authority figure without you noticing.",
      "relation": "differs",
@@ -410,7 +410,7 @@
    "uses": [
     {
      "article": "inner-signal",
-     "section": "Forgiveness without bypass",
+     "section": "Forgiving Without Bypass",
      "section_id": "S134",
      "quote": "It has to come from a place of understanding, otherwise it can be bypassing.",
      "relation": "differs",
@@ -434,7 +434,7 @@
    "uses": [
     {
      "article": "inner-signal",
-     "section": "Inner-child care and adult capacities",
+     "section": "Reparenting Therapy",
      "section_id": "S162",
      "quote": "The sequence for doing this with borrowed adulthood and the arrangement of 3 functions of adulthood , etc, is not from these authors, however.",
      "relation": "differs",
@@ -458,7 +458,7 @@
    "uses": [
     {
      "article": "inner-signal",
-     "section": "Love doesn’t have to wait for trust",
+     "section": "Love First, Trust Later",
      "section_id": "S021",
      "quote": "Tell me what feels unsafe.",
      "relation": "differs",
@@ -482,7 +482,7 @@
    "uses": [
     {
      "article": "inner-signal",
-     "section": "Working with your guards",
+     "section": "Working With Your Guards",
      "section_id": "S028",
      "quote": "What's going on?",
      "relation": "differs",
@@ -506,13 +506,13 @@
    "uses": [
     {
      "article": "inner-signal",
-     "section": "The two-hand practice",
+     "section": "The Two-Hand Practice",
      "section_id": "S024",
-     "quote": "The two-hand practice",
+     "quote": "The Two-Hand Practice",
      "relation": "differs",
      "state": "his to settle",
      "as_of": "2026-11-25",
-     "note": "changed term (matters: low); the catch-up suggests: ask the author"
+     "note": "changed term (matters: low); the catch-up suggests: ask the author The heading took title case in the contents edit of 2026-11-25."
     }
    ],
    "from": "the catch-up of 2026-11-25 (articles/inner-signal/experiments/toc-20261123/catchup/CATCHUP-INNER-CHILD.json), item C21"
@@ -530,7 +530,7 @@
    "uses": [
     {
      "article": "inner-signal",
-     "section": "Instead of blame",
+     "section": "Instead of Blame",
      "section_id": "S022",
      "quote": "They may be younger than you are now. Both talk in your grown-up voice, so to your little one they're the same.",
      "relation": "differs",
@@ -554,7 +554,7 @@
    "uses": [
     {
      "article": "inner-signal",
-     "section": "Don’t rush the repair",
+     "section": "Don't Rush the Repair",
      "section_id": "S032",
      "quote": "Even if you feel like you already know what they need, ask if they'd prefer warmth, space, verbal reassurance, silence, distance, whatever.",
      "relation": "differs",
@@ -578,7 +578,7 @@
    "uses": [
     {
      "article": "inner-signal",
-     "section": "Forgiving yourself",
+     "section": "Forgiving Yourself",
      "section_id": "S135",
      "quote": "Every so often, come back to how you got to be someone who could do that, until you understand the pattern well enough that it can't drive you anymore.",
      "relation": "differs",
@@ -602,7 +602,7 @@
    "uses": [
     {
      "article": "inner-signal",
-     "section": "Love doesn’t have to wait for trust",
+     "section": "Love First, Trust Later",
      "section_id": "S021",
      "quote": "Even that takes some warmth, and if you don't have any yet, borrow some from someone who's been good to you, or from an adult you imagine.",
      "relation": "differs",
@@ -626,7 +626,7 @@
    "uses": [
     {
      "article": "inner-signal",
-     "section": "Non-dominant hand dialogue",
+     "section": "Other-Hand Dialogue",
      "section_id": "S034",
      "quote": "Only say the \"I love you\" part if you can feel it. If you don't feel the love yet, say you care.",
      "relation": "differs",
@@ -674,7 +674,7 @@
    "uses": [
     {
      "article": "inner-signal",
-     "section": "The inner child will not appear",
+     "section": "Inner Child Won’t Appear?",
      "section_id": "S072",
      "quote": "Work on developing a sense of who you are and reparent yourself as best you can.",
      "relation": "differs",
@@ -698,7 +698,7 @@
    "uses": [
     {
      "article": "inner-signal",
-     "section": "Appendix G: Altered states",
+     "section": "G: Altered States",
      "section_id": "S136",
      "quote": "If you've had a similar experience, you know that there is a difference between having experienced it at one point, or only being able to access it in a certain state, and being able to get to it at any point in your life.",
      "relation": "differs",
@@ -722,7 +722,7 @@
    "uses": [
     {
      "article": "inner-signal",
-     "section": "Appendix G: Altered states",
+     "section": "G: Altered States",
      "section_id": "S136",
      "quote": "While you're building a way to reach love on a normal day, let that experience you had serve as a reference point for what can happen.",
      "relation": "differs",
@@ -746,7 +746,7 @@
    "uses": [
     {
      "article": "inner-signal",
-     "section": "Appendix F: Self-trust, outside guidance, and oracle-like states",
+     "section": "F: Self-Trust and Guidance",
      "section_id": "S130",
      "quote": "If you’re dealing with particularly complicated trauma, blind spots, dissociation, destabilization, or relational wounds that need another nervous system, skilled outside support may be best.",
      "relation": "differs",
@@ -770,7 +770,7 @@
    "uses": [
     {
      "article": "inner-signal",
-     "section": "Don’t rush the repair",
+     "section": "Don't Rush the Repair",
      "section_id": "S032",
      "quote": "Check how much grown-up you is really in the room first.",
      "relation": "differs",
@@ -794,7 +794,7 @@
    "uses": [
     {
      "article": "inner-signal",
-     "section": "Non-dominant hand dialogue",
+     "section": "Other-Hand Dialogue",
      "section_id": "S034",
      "quote": "Tell your inner child or guard to write with your nondominant hand, and talk to them with your dominant.",
      "relation": "differs",
@@ -818,13 +818,13 @@
    "uses": [
     {
      "article": "inner-signal",
-     "section": "Reduced breathing / Buteyko-style breathing",
+     "section": "Breathe, Relax & Flow",
      "section_id": "S122",
      "quote": "Breathe in small amounts through your nose and let it out quietly, through your nose too.",
      "relation": "differs",
      "state": "his to settle",
      "as_of": "2026-11-25",
-     "note": "contradiction (matters: high); the catch-up suggests: ask the author"
+     "note": "his answer 7 b (the somatic guide's way here too). Swapping the sentences left two of his that no longer fit, so the paragraph as it would read is on the marking page for his yes; not in the post yet"
     }
    ],
    "from": "the catch-up of 2026-11-25 (articles/inner-signal/experiments/toc-20261123/catchup/CATCHUP-SOMATIC.json), item M01"
@@ -842,13 +842,13 @@
    "uses": [
     {
      "article": "inner-signal",
-     "section": "Reduced breathing / Buteyko-style breathing",
+     "section": "Breathe, Relax & Flow",
      "section_id": "S122",
      "quote": "However, please don’t hold your breath until you are air hungry, which can make you more anxious in the short term.",
      "relation": "differs",
      "state": "his to settle",
      "as_of": "2026-11-25",
-     "note": "contradiction (matters: high); the catch-up suggests: ask the author"
+     "note": "his answer 7 b (the somatic guide's way here too). Swapping the sentences left two of his that no longer fit, so the paragraph as it would read is on the marking page for his yes; not in the post yet"
     }
    ],
    "from": "the catch-up of 2026-11-25 (articles/inner-signal/experiments/toc-20261123/catchup/CATCHUP-SOMATIC.json), item M02"
@@ -866,7 +866,7 @@
    "uses": [
     {
      "article": "inner-signal",
-     "section": "EFT tapping",
+     "section": "EFT Tapping",
      "section_id": "S123",
      "quote": "With EFT (Emotional Freedom Techniques, or tapping), you tap gently on your body while you say something like, “Even though I have this anxiety, I am willing to be kind to the part of me that is afraid,” and you stay with what you feel.",
      "relation": "differs",
@@ -892,11 +892,11 @@
      "article": "inner-signal",
      "section": "Somatic Experiencing",
      "section_id": "S124",
-     "quote": "If you would like more information about somatic experiencing, or even a free intro session, please see my somatic guide .",
+     "quote": "If you would like more information about somatic experiencing, or even a free intro session for paid subscribers, please see my somatic guide.",
      "relation": "differs",
-     "state": "behind",
+     "state": "in line",
      "as_of": "2026-11-25",
-     "note": "caveat (matters: medium); the catch-up suggests: carry over"
+     "note": "his answer 9 (yes): \"for paid subscribers\" added; in the post since 12:00 UTC"
     }
    ],
    "from": "the catch-up of 2026-11-25 (articles/inner-signal/experiments/toc-20261123/catchup/CATCHUP-SOMATIC.json), item M04"
@@ -938,7 +938,7 @@
    "uses": [
     {
      "article": "inner-signal",
-     "section": "Body supports",
+     "section": "Calm the Body Directly",
      "section_id": "S126",
      "quote": "Maybe get a massage, or massage a foot, your scalp, a temple, or the back of the neck, the top of a shoulder, etc.",
      "relation": "differs",
@@ -962,7 +962,7 @@
    "uses": [
     {
      "article": "inner-signal",
-     "section": "Appendix D: Anxiety — body first",
+     "section": "D: Anxiety, Body First",
      "section_id": "S121",
      "quote": "Work in this order – first your body, then your inner child, then some inquiry, then some action:",
      "relation": "differs",
@@ -986,7 +986,7 @@
    "uses": [
     {
      "article": "inner-signal",
-     "section": "EFT tapping",
+     "section": "EFT Tapping",
      "section_id": "S123",
      "quote": "A 2025 systematic review found 7 randomized controlled trials for anxiety disorders, and noted that EFT was more effective than no intervention in several of them, though it isn't one of the first-line therapies for anxiety.",
      "relation": "differs",
@@ -1010,7 +1010,7 @@
    "uses": [
     {
      "article": "inner-signal",
-     "section": "EFT tapping",
+     "section": "EFT Tapping",
      "section_id": "S123",
      "quote": "There isn’t a ton of evidence for EFT, but there are some studies on anxiety.",
      "relation": "differs",
@@ -1036,7 +1036,7 @@
      "article": "inner-signal",
      "section": "Somatic Experiencing",
      "section_id": "S124",
-     "quote": "If you would like more information about somatic experiencing, or even a free intro session, please see my somatic guide .",
+     "quote": "If you would like more information about somatic experiencing, or even a free intro session for paid subscribers, please see my somatic guide.",
      "relation": "differs",
      "state": "behind",
      "as_of": "2026-11-25",
@@ -1106,7 +1106,7 @@
    "uses": [
     {
      "article": "inner-signal",
-     "section": "Body supports",
+     "section": "Calm the Body Directly",
      "section_id": "S126",
      "quote": "Maybe get a massage, or massage a foot, your scalp, a temple, or the back of the neck, the top of a shoulder, etc.",
      "relation": "differs",
@@ -1130,7 +1130,7 @@
    "uses": [
     {
      "article": "inner-signal",
-     "section": "Reduced breathing / Buteyko-style breathing",
+     "section": "Breathe, Relax & Flow",
      "section_id": "S122",
      "quote": "Try breathing less.",
      "relation": "differs",
@@ -1154,7 +1154,7 @@
    "uses": [
     {
      "article": "inner-signal",
-     "section": "Reduced breathing / Buteyko-style breathing",
+     "section": "Breathe, Relax & Flow",
      "section_id": "S122",
      "quote": "If you feel bad, dizzy, or panicky, or have medical issues, stop.",
      "relation": "differs",
@@ -1178,7 +1178,7 @@
    "uses": [
     {
      "article": "inner-signal",
-     "section": "Appendix D: Anxiety — body first",
+     "section": "D: Anxiety, Body First",
      "section_id": "S121",
      "quote": "Work in this order – first your body, then your inner child, then some inquiry, then some action:",
      "relation": "differs",

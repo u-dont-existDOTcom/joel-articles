@@ -75,33 +75,46 @@ Joel picked the Nirvāna guide first (2026-11-23 14:37 UTC: "ok start with the n
    contents work starts from the live post, as Nirvāna's did). Step 2 done the same day, on the live post (165 sections,
    164 in the sidebar, 90 cut off, 29,554 words): [RESULTS.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/inner-signal/experiments/toc-20261123/RESULTS.md).
 
-**His picks are all in (2026-11-25 01:24 UTC).** [His record and how each answer is read](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/inner-signal/experiments/toc-20261123/answers/JOEL-20261125-0108.md);
-[the contents that goes in](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/inner-signal/experiments/toc-20261123/FINAL-CONTENTS.md) (159 headings, none cut off; `make_final.py`). Two fresh readers found
-61 and 60 of the 64 situations on the first look (the live post: 54 and 56). His answers on the earlier pages
-(`answers/JOEL-20261124-*.md`) are history; the picks page is done with.
+**The Self-Hypnosis contents is in the post (2026-11-25 12:00:39 UTC).** [What went in, the section checks, every
+heading before and now](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/inner-signal/experiments/toc-20261123/APPLIED.md); his picks ([01:08](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/inner-signal/experiments/toc-20261123/answers/JOEL-20261125-0108.md)) and his answers to
+the nine questions ([11:18](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/inner-signal/experiments/toc-20261123/answers/JOEL-20261125-1118.md)). 159 headings, none cut off; 39 links to its own
+sections, written `#§slug` so they scroll (lesson toc-2026-11-25c; the Nirvāna post's 13 were fixed the same day).
 
-Next step, in order:
+Waiting on him:
 
-1. **His answers to [the nine questions](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/inner-signal/experiments/toc-20261123/QUESTIONS-20261125.md)** (each has a default, which goes in where he says
-   nothing; question 6, his words for the past-life section, has none). They change `make_final.py` (structure, the
-   inner-adult heading) and `apply_plan.py` (`--pointer`, the breathing lines, the borrowed-adulthood pointer).
-2. **The carry-overs from the guides it is built on** (the list at the end of the questions page, from
-   `catchup/CATCHUP-INNER-CHILD.md` and `catchup/CATCHUP-SOMATIC.md`): write each in from his own sentences in the
-   source guide, fresh reader against `tools/humanization/his_fixes_brief.md`, making-sense receipt, each checked in
-   its section in the web app, then all of them on the marking page (`tools/humanization/suggestion_review.py`) for
-   his yes. They go into `apply_plan.py` as new paragraphs and edits.
-3. **The section checks still open** (each a sentence of mine in its section, so each needs its receipt before
-   `pangram_ledger.py predict`): `pangram/SEC-S143-after.txt`, `SEC-S077-S080-after.txt`, `SEC-S122-after.txt`, and
-   `SEC-S007-after-pointer.txt` if he says yes to question 3. Done: the merged S131 and S001, both Human Written, one
-   window, High (IS-toc-S131#277, IS-toc-S001#278). Pangram is signed in in the desktop app's browser pane (623
-   credits on 2026-11-25).
-4. **The one editor transaction:** `python3 apply_plan.py` (after `make_final.py`), then in the post's editor tab load
-   `apply_in_editor.js` and `EDITOR-OPS.json`, `window.__applyContents(ops, {dry: true})` until the report shows no
-   errors, no heading differences and only the planned text gone and new, then `{dry: false}`, Update, "Update now"
-   (no email), and the date in the subtitle (gate E323). It has not been run in the editor yet, so the first dry run
-   is also the test of the block fingerprint against the editor's own blocks.
-5. **After it:** `section_links.py build` the post's `SECTION-LINKS.json` from the live post, every new link opened,
-   then the whole post the free way in parts (his extension on temporary drafts' secret links) for the moved sections,
-   and `articles/BUILT-ON.json` gets its `last_brought_in_line`.
+1. **Question 4, the name of the group that holds the three jobs** (now "The Inner Adult’s Three Jobs"; he offered
+   "Reparenting Your Inner Child" and asked what was wrong with "Working With Your Inner Child", which is the next
+   group's old name, now "Inner Child Practices"). The reply of 2026-11-25 shows him the outline before and after
+   (lesson toc-2026-11-25d). A rename goes through `section_links.py rename` and the next editor transaction.
+2. **[The marking page](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/inner-signal/experiments/toc-20261123/review/CARDS.md)** (`review/build_review.py`; the page is https://claude.ai/artifact/CoLe92k9fUXcTYQkV2HkUB, an artifact published from
+   this account, and CARDS.md is the same cards on GitHub): 12 additions from his inner child and somatic guides
+   (C11 as a question, it read AI in its section twice), 4 places where the guides differ, his new section "Past
+   Life & Ancestral Trauma" with the question it raises against "Do These With a Clinician", and the breathing
+   paragraph for his answer 7 b. His answers come back as the page's JSON; record them in `answers/`, then apply.
+3. **His Pangram extension on the live post**, the whole-post check the free way (lesson toc-2026-11-23d).
+4. **His yes or no to a daily watcher** on GitHub that fetches the live posts and opens an issue when a passage in
+   [articles/DEPENDS.md](https://github.com/u-dont-existDOTcom/joel-articles/blob/main/articles/DEPENDS.md) changed.
+5. A temporary draft is left in his Substack drafts, "TEMP anchor link test (temp, delete after)" (226489495):
+   his to delete, or mine on his word.
+
+Next step for the lane, in order:
+
+1. **Apply his marking-page answers and question 4 in one small editor transaction:** add the approved cards to
+   `apply_plan.py` as edits and new paragraphs (its base becomes `LIVE-BODY-20261125-after.html`; rebuild
+   `EDITOR-OPS.json`), dry run with `apply_in_editor.js` in the post's editor tab until no errors, then apply,
+   Update, "Update now" (no email), and the date in the subtitle (gate E323). New section links are `#§slug`
+   (`section_links.py anchor`); a link to another post keeps its full address.
+2. **After it:** fetch the live post from the laptop (the public post API isn't reachable from the cloud shell),
+   rebuild `articles/inner-signal/LIVE-SECTIONS.json` and `SECTION-LINKS.json`, run
+   `python3 tools/humanization/depends.py check`, update the states in `articles/DEPENDS.json` and set
+   `last_brought_in_line` in `articles/BUILT-ON.json`.
+3. **A later pass, listed so it isn't lost:** "EFT Tapping" and "Gendlin Focusing" in Appendix D read AI by
+   themselves (IS-toc-S123-S125-live#288; "Somatic Experiencing" alone reads High, #298), and five short windows of
+   his in "Your Inherited Parent Script" and "Working With Your Guards" read Medium (RESULTS.md, "The marking page").
+   The inner child post (23) and the bad trips post (42) still have section links in the old form that reloads the
+   page (`section_links.py links` lists them; `tools/humanization/same_post_links.js` fixes them in the editor):
+   their lanes' posts.
+
+Pangram is signed in in the desktop app's browser pane (501 credits left on 2026-11-25, after this turn's checks; a check costs 1 credit per 100 words).
 
 Then Escuelitas, Romance (the romance lane is active: it does the edit).

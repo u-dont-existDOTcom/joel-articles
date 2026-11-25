@@ -98,9 +98,52 @@
   "id": "P1",
   "asked": "2026-11-25, question 3 of QUESTIONS-20261125.md",
   "section": "S007",
-  "kind": "my sentence, pending his yes",
+  "kind": "my sentence; his yes of 2026-11-25 11:18 UTC (question 3)",
   "after_added": "If you do let a hypnotist work on you, or listen to a stranger's hypnosis recording, go through the questions in “Find a Hypnotist Who Fits” first.",
   "why": "both final readers looked in 'Protection From Hypnotists' for what to check before playing a stranger's recording (situation 9); the audit questions are in 'Find a Hypnotist Who Fits' since the merge",
-  "check": "S007 with it, in its section"
+  "check": "S007 with it, in its section",
+  "in_post": "2026-11-25 12:00 UTC",
+  "read": "Human Written, 1 window, High (IS-toc-S007#285)"
+ },
+ {
+  "id": "Q8",
+  "asked": "2026-11-25, question 8 of QUESTIONS-20261125.md; his answer \"8 a\"",
+  "section": "S019",
+  "kind": "pointer changed",
+  "before": "The longer version of this exercise can be found in my Inner Child Self-Love Reparenting Guide.",
+  "after": "There is more on borrowed adulthood in my Inner Child Self-Love Reparenting Guide.",
+  "link": "https://ibogaqueen.substack.com/i/189761959/borrowed-adulthood",
+  "why": "the inner child guide no longer has the adult hat exercise; it has \"Borrowed Adulthood\"",
+  "in_post": "2026-11-25 12:00 UTC",
+  "read": "Human Written, 1 window, High (IS-toc-S019#284)"
+ },
+ {
+  "id": "Q9",
+  "asked": "2026-11-25, question 9; his answer \"9 yes\"",
+  "section": "S124",
+  "kind": "three words added",
+  "before": "or even a free intro session, please see",
+  "after": "or even a free intro session for paid subscribers, please see",
+  "why": "the somatic guide gives one free session to paid subscribers",
+  "in_post": "2026-11-25 12:00 UTC",
+  "read": "the section with its two neighbours reads AI with the words (IS-toc-S123-S125#283) and without them (IS-toc-S123-S125-live#288)"
+ },
+ {
+  "id": "Q7b",
+  "asked": "2026-11-25, question 7; his answer \"7 b\"",
+  "section": "S122",
+  "kind": "paragraph offered on the marking page, not in the post",
+  "after_file": "pangram/SEC-S122-7b-after.txt",
+  "why": "a one-sentence swap left \"Only pause if that's comfortable.\" hanging and two air-hunger sentences reading the other way (reads/READ-NEW-SENTENCES-20261125.md)",
+  "read": "Human Written, 1 window, High (IS-toc-S122-7b#286)"
+ },
+ {
+  "id": "N001",
+  "asked": "his section of 2026-11-25 11:18 UTC, \"Past LIfe & Ancestral Trauma\"",
+  "section": "new, in Appendix G after \"Stabilize, Then Interpret\"",
+  "kind": "his own text, on the marking page, not in the post",
+  "after_file": "pangram/SEC-N001-his.txt",
+  "why": "it says \"you don't necessarily need to have a professional do this either\" where \"Do These With a Clinician\" says trauma-focused regression is for a trauma-informed clinician: his to settle",
+  "read": "Human Written, 1 window, High (IS-toc-N001#279)"
  }
 ]

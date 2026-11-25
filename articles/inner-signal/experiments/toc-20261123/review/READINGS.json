@@ -1,0 +1,62 @@
+{
+ "C02": {
+  "read": "Human Written, 1 window, High (436 words)",
+  "link": "https://www.pangram.com/history/7e7f3a5e-b22f-4850-ad98-8e9836c5e70b",
+  "note": "The whole section as it would read with this in it."
+ },
+ "C04": {
+  "read": "Human Written, 1 window, High (256 words)",
+  "link": "https://www.pangram.com/history/cf3e9922-a90f-4ce3-b3b8-26ffe8199876",
+  "note": "The whole section as it would read with this in it."
+ },
+ "C05": {
+  "read": "Human Written, 1 window, High (375 words)",
+  "link": "https://www.pangram.com/history/c8226367-63ef-4e0f-bd80-c8d437ae8275",
+  "note": "The whole section as it would read with this in it."
+ },
+ "C09": {
+  "read": "Human Written, 3 windows: 2 High, 1 Medium (207 words)",
+  "link": "https://www.pangram.com/history/126f7ad4-6e57-45a6-9172-d3463e1fe514",
+  "note": "The whole section as it would read with the new paragraph, which reads High. The Medium window is four words that were there already: “Don't embarrass us!”"
+ },
+ "C10": {
+  "read": "Human Written, 8 windows: 4 High, 4 Medium (507 words)",
+  "link": "https://www.pangram.com/history/920cb15c-191f-48db-bf8f-09d83a79b921",
+  "note": "The whole section as it would read with the two new sentences, which read High. The four Medium windows are short sentences that were there already: “Use parts language here too, if it helps.”, “Those are not failures.”, “I'm not going to force my way past you.”, and “Then wait and listen patiently. If nothing comes, that's fine for now.”"
+ },
+ "C11": {
+  "read": "Mostly Human Written; this sentence reads AI (Medium) as a window of its own, 20 words",
+  "link": "https://www.pangram.com/history/4347c781-7033-48c1-8ed5-b60cfcb567eb",
+  "note": "That is the whole section with the sentence after step G. Moved into the closing paragraph, after “more supported and connected to yourself.”, it reads AI again, with High confidence, as its own window: [Mostly Human Written](https://www.pangram.com/history/c063ca78-031f-49ab-a1e2-27da5680827f). That closing paragraph by itself, with the sentence in it, reads [Human Written, 1 window, High (89 words)](https://www.pangram.com/history/abdd2618-206c-4602-bed0-0162d5697d7e). Two tries in the section are spent, so it comes to you"
+ },
+ "C12": {
+  "read": "your two sentences read High, inside a Human window of 109 words",
+  "link": "https://www.pangram.com/history/c063ca78-031f-49ab-a1e2-27da5680827f",
+  "note": "The whole section with these two sentences and C11’s one: Mostly Human Written, and the only AI window is C11’s sentence. Step A reads better with them than the section’s other short lines do"
+ },
+ "C13": {
+  "read": "Human Written, 1 window, High (124 words)",
+  "link": "https://www.pangram.com/history/2384482b-9ec3-4e13-9cc0-3a89f9018a6b",
+  "note": "The whole section as it would read with this in it."
+ },
+ "C16": {
+  "read": "Human Written, 1 window, High (213 words)",
+  "link": "https://www.pangram.com/history/799037e2-acdc-4056-9238-b16a4872b62c",
+  "note": "The whole section as it would read with this in it."
+ },
+ "C17": {
+  "read": "Human Written, 1 window, High (181 words)",
+  "link": "https://www.pangram.com/history/c864ef3a-b4ea-45f6-82d7-eb469b59476a",
+  "note": "The whole section as it would read with this in it."
+ },
+ "M05": {
+  "read": "Human Written, 1 window, High (119 words)",
+  "link": "https://www.pangram.com/history/e53b0a79-8f6e-4cdc-8281-4c6591b9dfda",
+  "note": "The section “Somatic Experiencing” by itself as it would read with this sentence in it."
+ },
+ "M06": {
+  "read": "Human Written, 1 window, High (234 words)",
+  "link": "https://www.pangram.com/history/0278d777-cbf4-4ae8-9d09-689ad870d167",
+  "note": "The whole section as it would read with this in it."
+ }
+}
