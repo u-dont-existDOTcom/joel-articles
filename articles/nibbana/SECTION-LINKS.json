@@ -4,7 +4,7 @@
   "id": "209400477",
   "title": "What If Everything Is Already Perfect? (v2.2)"
  },
- "source": "Built 2026-11-23 by experiments/toc-20261123/build_catalog.py from his contents picks as published at 18:01:47 UTC: headings and anchors read from the live page, links from PLAN.json (all 13 checked on the live page: each lands on a heading); at 19:39 UTC he published the flashbacks section back at the end, and at 19:46 UTC his headings \"Checking If It Worked\" (S055) and \"Disappearing Flashbacks?\" (S060), each through section_links.py rename (no links to change)",
+ "source": "Built 2026-11-23 by experiments/toc-20261123/build_catalog.py from his contents picks as published at 18:01:47 UTC: headings and anchors read from the live page, links from PLAN.json (all 13 checked on the live page: each lands on a heading); at 19:39 UTC he published the flashbacks section back at the end, and at 19:46 UTC his headings \"Checking If It Worked\" (S055) and \"Disappearing Flashbacks?\" (S060), each through section_links.py rename (no links to change); links turned into the same-post form on 2026-11-25 (lesson toc-2026-11-25c), checked on the live post: 13 links, none dead",
  "headings": [
   {
    "id": "S001",
@@ -360,79 +360,79 @@
    "in": "S001",
    "text": "The Enlightenment Manual",
    "target": "S021",
-   "href": "https://ibogaqueen.substack.com/i/209400477/the-enlightenment-manual"
+   "href": "#§the-enlightenment-manual"
   },
   {
    "in": "S011",
    "text": "partial untying",
    "target": "S030",
-   "href": "https://ibogaqueen.substack.com/i/209400477/my-nibbana-taxonomy"
+   "href": "#§my-nibbana-taxonomy"
   },
   {
    "in": "S016",
    "text": "the fingers event",
    "target": "S018",
-   "href": "https://ibogaqueen.substack.com/i/209400477/enlightened-fingers"
+   "href": "#§enlightened-fingers"
   },
   {
    "in": "S019",
    "text": "the room itself unweaving",
    "target": "S016",
-   "href": "https://ibogaqueen.substack.com/i/209400477/the-room-unwove"
+   "href": "#§the-room-unwove"
   },
   {
    "in": "S019",
    "text": "those terms more carefully below",
    "target": "S048",
-   "href": "https://ibogaqueen.substack.com/i/209400477/stream-entry-ends-rebirth"
+   "href": "#§stream-entry-ends-rebirth"
   },
   {
    "in": "S025",
    "text": "that evidence later on",
    "target": "S051",
-   "href": "https://ibogaqueen.substack.com/i/209400477/who-gets-reborn"
+   "href": "#§who-gets-reborn"
   },
   {
    "in": "S029",
    "text": "the guided meditation later in this article",
    "target": "S054",
-   "href": "https://ibogaqueen.substack.com/i/209400477/try-a-tiny-bit-of-nibbana"
+   "href": "#§try-a-tiny-bit-of-nibbana"
   },
   {
    "in": "S034",
    "text": "the Bāhiya Sutta",
    "target": "S013",
-   "href": "https://ibogaqueen.substack.com/i/209400477/the-pithy-bahiya-sutta"
+   "href": "#§the-pithy-bahiya-sutta"
   },
   {
    "in": "S039",
    "text": "the Bāhiya Sutta",
    "target": "S013",
-   "href": "https://ibogaqueen.substack.com/i/209400477/the-pithy-bahiya-sutta"
+   "href": "#§the-pithy-bahiya-sutta"
   },
   {
    "in": "S039",
    "text": "I quoted earlier",
    "target": "S033",
-   "href": "https://ibogaqueen.substack.com/i/209400477/awareness-is-plural"
+   "href": "#§awareness-is-plural"
   },
   {
    "in": "S052",
    "text": "the lucid dreaming analogy I made earlier",
    "target": "S020",
-   "href": "https://ibogaqueen.substack.com/i/209400477/stream-entered"
+   "href": "#§stream-entered"
   },
   {
    "in": "S057",
    "text": "the lovely Bāhiya Sutta",
    "target": "S013",
-   "href": "https://ibogaqueen.substack.com/i/209400477/the-pithy-bahiya-sutta"
+   "href": "#§the-pithy-bahiya-sutta"
   },
   {
    "in": "S058",
    "text": "as I said earlier in the essay",
    "target": "S035",
-   "href": "https://ibogaqueen.substack.com/i/209400477/why-the-tangle-is-heavy"
+   "href": "#§why-the-tangle-is-heavy"
   }
  ],
  "unlinked_on_purpose": [

@@ -62,6 +62,8 @@ A line associated with the Silva Mind Control tradition says it plainly:
 
 With self-hypnosis you can train your own mind from the inside, by befriending and listening to the deeper part of your mind.
 
+If you do let a hypnotist work on you, or listen to a stranger's hypnosis recording, go through the questions in “Find a Hypnotist Who Fits” first.
+
 # The Most Extreme Example
 
 I can tell you one shocking personal story that will make you never trust hypnotists again who maintain that you can’t be manipulated through hypnotism:
@@ -158,7 +160,7 @@ Once you have the ability to notice, and to differentiate, you don’t need to k
 
 When something specific comes up, that’s the time to sort out what it is. “Is this my inner child? Or is this a guard? Is this my body? Is this fear? Is this intuition? Is this my social part? Is this divine guidance, or is this my interpretation of divine guidance?”
 
-# Become a Trustworthy Adult
+# The Inner Adult’s Three Jobs
 
 Your inner child won’t trust you right away. It’s not going to be enough for you to meditate, say three nice sentences to the inner child and expect to have its trust. What’s going to help your inner child to trust you is you, the person you are right now, becoming reliable.
 
@@ -190,16 +192,6 @@ A lot of times, inner child work doesn't work because people are doing all the f
 
 If it's hard to bring up the warm stuff, you can always do something to protect your inner child. Make sure it's small enough that you can actually do it. If you're not able to, figure out what's getting in the way of you doing it. Are you scared? Tired? Do you not know how to? Is there a practical thing that's getting in your way? Have you set yourself up to do it in a way that's likely to be successful? It still counts if doing it doesn't make you feel better right away, and checking it off a list doesn't mean it helped.
 
-## The Guide
-
-You can also work with your Guide. Call them whatever you want: Leader, Guru, Wise One, Sage, Inner Teacher, Director, Higher Adult, whatever.
-
-Ask them for help with directing your life. The Guide holds standards, the way a good parent would, and asks hard things of your inner child so it can grow, at its own pace. Your parent’s harsh tone doesn’t come with the job, though, so be careful not to ask for the “tough it out, you don’t have needs, you just need discipline!” kind of direction. Without the Guide, you can also slide from looking after your inner child into spoiling it: sweets and screens can pass for loving yourself, and so can getting it out of anything hard. Ask them for help in directing you to do adult things in a way that takes your needs into account: asking for the help you need, expressing your preferences, letting a safe person see you in an imperfect way, finding ways to get your need for closeness met without punishing someone for their need for space, etc. etc.
-
-Affirmations might be helpful here, too: “We’re not just here to feel good. We’re here to become whole. We’re here to belong to life, not only to people who approve of us. We’re here to serve truth/beauty/love/God/source/nature/the universe/dharma/the Tao/the benefit of all beings,” etc. etc.
-
-Start with whatever adult function you can connect to, but most of us need enough Nurturer and Protector first, before the Guide. Otherwise the Guide just overrules your inner child in the name of something higher (spiritual bypassing, dressed up as direction). Even if you start with protection and can’t do the warmth stuff yet, make sure the direction you’re being led in is appropriate for your inner child’s growth (i.e. not depriving them of things they need, like play or support, etc.)
-
 ## When to Stop Scanning
 
 Do you want to embody your Protector? Then you could practice this:
@@ -216,6 +208,16 @@ verify if it is safe enough (you don't need perfect certainty, just enough real-
 
 stand down and rest (stop scanning once staying on alert isn't helping anymore)
 
+## The Guide
+
+You can also work with your Guide. Call them whatever you want: Leader, Guru, Wise One, Sage, Inner Teacher, Director, Higher Adult, whatever.
+
+Ask them for help with directing your life. The Guide holds standards, the way a good parent would, and asks hard things of your inner child so it can grow, at its own pace. Your parent’s harsh tone doesn’t come with the job, though, so be careful not to ask for the “tough it out, you don’t have needs, you just need discipline!” kind of direction. Without the Guide, you can also slide from looking after your inner child into spoiling it: sweets and screens can pass for loving yourself, and so can getting it out of anything hard. Ask them for help in directing you to do adult things in a way that takes your needs into account: asking for the help you need, expressing your preferences, letting a safe person see you in an imperfect way, finding ways to get your need for closeness met without punishing someone for their need for space, etc. etc.
+
+Affirmations might be helpful here, too: “We’re not just here to feel good. We’re here to become whole. We’re here to belong to life, not only to people who approve of us. We’re here to serve truth/beauty/love/God/source/nature/the universe/dharma/the Tao/the benefit of all beings,” etc. etc.
+
+Start with whatever adult function you can connect to, but most of us need enough Nurturer and Protector first, before the Guide. Otherwise the Guide just overrules your inner child in the name of something higher (spiritual bypassing, dressed up as direction). Even if you start with protection and can’t do the warmth stuff yet, make sure the direction you’re being led in is appropriate for your inner child’s growth (i.e. not depriving them of things they need, like play or support, etc.)
+
 ## No Adult Yet? Borrow One
 
 The problem is that some people do not have access to their adult functions at will. Instead, they may go blank, access an inherited inner critic, or feel like a child part who may be playing at being an adult (what I call forced adulthood). Telling them to just access their adult is like telling a baby bird to just fly.
@@ -230,7 +232,7 @@ Next, put on your adult hat as if you are an apprentice adult, and pick the word
 
 Last, return the adult hat, noticing what you borrowed and what you were able to do on your own (even if it’s only 5%).
 
-The adult hat is only borrowed: the person you borrowed it from stays beside you, and you still make the choice. The longer version of this exercise can be found in my Inner Child Self-Love Reparenting Guide.
+The adult hat is only borrowed: the person you borrowed it from stays beside you, and you still make the choice. There is more on borrowed adulthood in my Inner Child Self-Love Reparenting Guide.
 
 You don’t have to have trustworthy people in your history. Use someone you remember when that helps, or just imagine a good adult whose intention is to take good care of you. See if you can imagine what they would say/do in your situation, with your history, limitations, options, etc. If you can’t imagine a good adult, or just imagining a caring grown-up makes you feel more threatened, or lonelier, start smaller, with the least cruel response you can believe. Once you’ve found something good, try it out instead of repeating the exercise.
 
@@ -650,7 +652,7 @@ You may hear a phrase, feel a body sensation, notice a memory, see a color, be c
 
 Listen to everything and believe nothing automatically.
 
-# Let the Response Guide You
+## Let the Response Guide You
 
 The induction and the inner meeting get you to where you can listen. From there, you answer whatever comes up, and you can't know ahead of time what every part of you is going to say. Read through these sections first, and then put the screen away and try the inner meeting.
 
@@ -1256,7 +1258,7 @@ Work in this order – first your body, then your inner child, then some inquiry
 
 ## Breathe, Relax & Flow
 
-Try breathing less. (There are some good things to be said for slowing your breathing down, if you are breathing too much, or panicked. However, please don’t hold your breath until you are air hungry, which can make you more anxious in the short term.) Breathe in small amounts through your nose and let it out quietly, through your nose too. Only pause if that's comfortable. Can you make your breathing very quiet? If you feel bad, dizzy, or panicky, or have medical issues, stop.
+Try breathing less. (There are some good things to be said for slowing your breathing down, if you are breathing too much, or panicked. However, please don’t hold your breath until you are air hungry, which can make you more anxious in the short term.) By simply pursing your lips together on exhale, you can slow down your exhale. Slower exhales, combined with not breathing more on inhales, lead to overall reduction in breathing. That slight oxygen hunger feels a bit anxiogenic for the first 20 seconds or so, but after that, you’ll feel much calmer. Only pause if that's comfortable. Can you make your breathing very quiet? If you feel bad, dizzy, or panicky, or have medical issues, stop.
 
 Try the continuous breathing from Systema (a Russian martial art) too: it helps not just with relaxing, but with getting into trance and flow states more deeply. You can learn it from the best video on it I've seen so far, and my somatic guide explains it more.
 
@@ -1266,7 +1268,7 @@ With EFT (Emotional Freedom Techniques, or tapping), you tap gently on your body
 
 ## Somatic Experiencing
 
-If you would like more information about somatic experiencing, or even a free intro session, please see my somatic guide. In somatic experiencing (SE), you are not digging into the trauma. You learn to track. So you might start by tracking, by discovering where the activation is, where a neutral place is, and then whether you can move your attention from one to the other, very slowly, like a snail.
+If you would like more information about somatic experiencing, or even a free intro session for paid subscribers, please see my somatic guide. In somatic experiencing (SE), you are not digging into the trauma. You learn to track. So you might start by tracking, by discovering where the activation is, where a neutral place is, and then whether you can move your attention from one to the other, very slowly, like a snail.
 
 ## Gendlin Focusing
 

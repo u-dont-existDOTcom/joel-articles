@@ -24,17 +24,16 @@ ADJUST = {
     'S093': ('B: Ethical NLP', 'his pick of Fable\'s "Appendix B: Ethical NLP", with the letter only, as his answer 12 '
              'gives every appendix ("A: ...", "C: ...")'),
     'S157': ('No-Trance Inner Contact', 'his answer of 2026-11-25: it leaves the induction library, so it loses its number'),
-    'S018': ('Become a Trustworthy Adult', 'his answer of 2026-11-25 ("rethink the heading at least"): the section now '
-             'holds ten sections, three of them the jobs, and all ten are about being the adult the inner child can trust; '
-             'his words ("becoming reliable" in its first paragraph, "become a trustworthy adult" in the Closing). The '
-             'three jobs show right under it: The Nurturer, The Protector, The Guide'),
 }
 # His answer of 2026-11-25 01:08 UTC to "What the readers of the proposal still found", as operations added to STRUCTURE.json
 LEVEL_ADD = {
+    'S055': (2, '2026-11-25 11:18, question 1 ("yes"): an h2 under "The Actual Inner Meeting", with the eight steps after it'),
     'S086': (1, '2026-11-25: "daily life should not be when to get outside help": an h1 of its own, where it stands, '
              'between the outside-help sections and the Closing'),
     'S157': (1, '2026-11-25: out of the induction library, an h1 of its own above the inductions'),
 }
+# 2026-11-25 11:18, question 2 ("yes", read as the default, b): "When to Stop Scanning" right under "The Protector"
+REORDER = {('S025', 'S026', 'S027', 'S030'): ['S025', 'S026', 'S030', 'S027']}
 MOVES_ADD = [
     (['S131'], 'S085', '2026-11-25: "wouldn\'t find a hypnotist go under when to get outside help?": after "Do These With '
      'a Clinician", with the audit merged in (answer 10)'),
@@ -52,7 +51,7 @@ def build():
     dropped = dict(st['dropped'])
     level = {k: tuple(v) for k, v in st['level'].items()}
     level.update(LEVEL_ADD)
-    moves = [tuple(m) for m in st['moves']] + MOVES_ADD
+    moves = [(REORDER.get(tuple(m[0]), m[0]), m[1], m[2]) for m in st['moves']] + MOVES_ADD
     final = {}
     for e in now:
         i = e['id']
@@ -66,8 +65,6 @@ def build():
         why = ''
         if i in ADJUST:
             h, why = ADJUST[i]
-            if i == 'S018':
-                whose = 'mine, 2026-11-25, for him to change'
         lvl = level.get(i, (e['level'], ''))[0]
         ok, shown = ts.shown(h, lvl)[:2]
         assert ok, (i, h, lvl)

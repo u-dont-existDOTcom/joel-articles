@@ -39,6 +39,17 @@ EDITS = [
     ('T6c', 'S131', 'Then afterwards, check in about what was actually done',
      'Then afterwards, check how well your critical thinking is working when you look back on how it went, and check in '
      'about what was actually done', 'answer 10'),
+    ('Q7', 'S122', 'Breathe in small amounts through your nose and let it out quietly, through your nose too.',
+     'By simply pursing your lips together on exhale, you can slow down your exhale. Slower exhales, combined with not '
+     'breathing more on inhales, lead to overall reduction in breathing. That slight oxygen hunger feels a bit anxiogenic '
+     'for the first 20 seconds or so, but after that, you’ll feel much calmer.',
+     'his answer of 2026-11-25 11:18 ("7 b": the somatic guide\'s way here too): the nose-out sentence becomes the three '
+     'sentences of his somatic guide\'s Breathwork section, word for word; the rest of his paragraph stays'),
+    ('Q8', 'S019', 'The longer version of this exercise can be found in my', 'There is more on borrowed adulthood in my',
+     'his answer of 2026-11-25 11:18 ("8 a"): the inner child guide no longer has the adult hat exercise; the sentence '
+     'points to its "Borrowed Adulthood" section'),
+    ('Q9', 'S124', 'or even a free intro session, please see', 'or even a free intro session for paid subscribers, please see',
+     'his answer of 2026-11-25 11:18 ("9 yes"): the somatic guide gives one free session to paid subscribers'),
     # a sentence that names a section by its old heading takes the new name (answer 13; headings brief, rule 9)
     ('N04', 'S001', '“Let the next response guide you” section', '“Let the Response Guide You” section', 'answer 13'),
     ('N13', 'S040', '"Already trancey? Stabilize before dipping deeper."', '"Already Trancey?"', 'answer 13'),
@@ -68,9 +79,10 @@ NEW_P = [
                     ['.', None]],
      'his note of 2026-11-24 21:05 UTC: Systema\'s continuous breathing beside the Buteyko lines'),
 ]
-POINTER = ('P1', 'S007', [['If you do let a hypnotist work on you, or listen to a stranger\'s hypnosis recording, go through the questions in “', None],
+NEW_P.append(('P1', 'S007', [['If you do let a hypnotist work on you, or listen to a stranger\'s hypnosis recording, go through the questions in “', None],
                           ['Find a Hypnotist Who Fits', 'S131'], ['” first.', None]],
-           'put to him on 2026-11-25: both final readers looked here for what to check before playing a stranger\'s recording')
+           'question 3 of 2026-11-25 ("yes"): both final readers looked here for what to check before playing a stranger\'s recording'))
+POINTER = None
 # Section links beyond LINK-PLAN.json, found on 2026-11-25: (section, words to link, target, why)
 MORE_LINKS = [
     ('S039', 'appendix C', 'S119', 'a pointer the plan had missed'),
@@ -82,6 +94,8 @@ LINK_WORDS_AFTER = {4: 'Let the Response Guide You', 13: 'Already Trancey?', 15:
                     17: 'Come All the Way Back', 19: 'Come All the Way Back', 20: 'A Shortcut Back In', 21: 'When to Get Outside Help',
                     28: 'A Shortcut Back In', 29: 'Come All the Way Back', 31: 'Inner Child Practices', 32: 'Synchronicity as a Bell',
                     7: 'Appendix J'}
+# the date in the subtitle changes with the post (gate E323); the version only when he says
+SUBTITLE = ('Last update: Nov 20, 2026', 'Last update: Nov 25, 2026')
 MERGE_BEFORE = 'You should be able to be firmly encouraged'      # S120's paragraphs go in before this block of S131
 PRE_TAKEOVER = {'S157': 'S040'}    # the divider before "Induction" now comes before "No-Trance Inner Contact", right above it
 
@@ -144,7 +158,7 @@ def main(pointer=False):
     for taker, giver in PRE_TAKEOVER.items():
         assert order.index(taker) + 1 == order.index(giver) and sec[taker]['pre'] is None
         sec[taker]['pre'], sec[giver]['pre'] = sec[giver]['pre'], None
-    new_p = list(NEW_P) + ([POINTER] if pointer else [])
+    new_p = list(NEW_P)
     edits = list(EDITS)
     # the new order of blocks
     doc = [{'i': i} for i in sec['S000']['body']]
@@ -161,7 +175,7 @@ def main(pointer=False):
             body[at:at] = [{'i': k} for k in sec['S120']['body']]     # answer 10: the audit, before his "firmly encouraged" line
         for pid, where, segs, _ in new_p:
             if where == i:
-                body.append({'p': [[t, (sl.url(BASE, POST, head[h]) if h and h.startswith('S') else h)] for t, h in segs], 'id': pid})
+                body.append({'p': [[t, (sl.anchor(head[h]) if h and h.startswith('S') else h)] for t, h in segs], 'id': pid})
         doc += body
     for d in ('S090', 'S144', 'S147'):
         gone.update(sec[d]['body'])
@@ -184,10 +198,12 @@ def main(pointer=False):
     plan_links = [(l['n'], l['in'], LINK_WORDS_AFTER.get(l['n'], l['text']), l['to']) for l in J('LINK-PLAN.json')['links'] if l['n'] not in (25, 35)]
     plan_links += [(25, 'S079', 'Appendix E', 'S129')]
     plan_links += [(36 + k, w, t, to) for k, (w, t, to, _) in enumerate(MORE_LINKS)]
+    plan_links += [(39, 'S019', 'Inner Child Self-Love Reparenting Guide', 'https://ibogaqueen.substack.com/i/189761959/borrowed-adulthood')]
     all_after = [text_after(k) for k in used]
     for num, where, words, to in plan_links:
         if to in dropped:
             to = dropped[to][0]
+        outside = to.startswith('http')
         blocks = sec[where]['body'] + (sec['S120']['body'] if where == 'S131' else [])
         hits = [(k, m.start()) for k in blocks for m in re.finditer(re.escape(words), text_after(k))]
         assert len(hits) == 1, (num, where, words, len(hits))
@@ -196,10 +212,10 @@ def main(pointer=False):
         while sum(x.count(t[a:b]) for x in all_after) != 1:
             assert a > 0 or b < len(t), (num, 'no unique context')
             a, b = max(0, a - 12), min(len(t), b + 12)
-        links.append({'n': num, 'in': where, 'find': t[a:b], 'words': words, 'to': to, 'heading': head[to],
-                      'href': sl.url(BASE, POST, head[to]), 'unchecked': sl.unchecked(head[to]) or ''})
+        links.append({'n': num, 'in': where, 'find': t[a:b], 'words': words, 'to': to, 'heading': '' if outside else head[to],
+                      'href': to if outside else sl.anchor(head[to]), 'unchecked': '' if outside else (sl.unchecked(head[to]) or '')})
     expected = [[e['level'], e['heading']] for e in final]
-    ops = {'post': POST, 'blocks': len(B),
+    ops = {'post': POST, 'blocks': len(B), 'subtitle': list(SUBTITLE),
            'fingerprint': [[k, fnv(T[k])] for k in range(len(B)) if K[k] in ('p', 'h1', 'h2', 'h3', 'h4', 'blockquote', 'ul', 'ol') and T[k].strip()],
            'edits': [{'id': e, 'from': a, 'to': b} for e, _, a, b, _ in edits],
            'links': [{'find': l['find'], 'words': l['words'], 'href': l['href']} for l in links],
