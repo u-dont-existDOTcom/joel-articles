@@ -23,6 +23,15 @@ class Gate(unittest.TestCase):
         ok, lines = G.check(recs(('paragraph', PARA, [('Human', 'High', 20)])), PARA)
         self.assertTrue(ok, lines)
 
+    def test_the_api_label_human_written_passes(self):
+        # the API's windows say "Human Written" where the web app's reader says "Human" (lesson bad-trips-2026-11-25e)
+        ok, lines = G.check(recs(('paragraph', PARA, [('Human Written', 'High', 20)])), PARA)
+        self.assertTrue(ok, lines)
+        ok, _ = G.check(recs(('paragraph', PARA, [('Human Written', 'High', 10), ('Human Written', 'Medium', 10)])), PARA)
+        self.assertFalse(ok)
+        ok, _ = G.check(recs(('paragraph', PARA, [('AI-Generated', 'High', 20)])), PARA)
+        self.assertFalse(ok)
+
     def test_a_medium_window_fails(self):
         ok, _ = G.check(recs(('paragraph', PARA, [('Human', 'High', 10), ('Human', 'Medium', 10)])), PARA)
         self.assertFalse(ok)

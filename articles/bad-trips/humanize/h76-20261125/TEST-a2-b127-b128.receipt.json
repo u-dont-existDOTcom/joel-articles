@@ -1,0 +1,136 @@
+{
+ "schema": "SENSE_RECEIPT_V1",
+ "made": "2026-11-25",
+ "text_sha256": "ba1adc76826b51e6718835d34499a3827597b62154321ef51f5ef380b597fcb1",
+ "text": "If they swallowed it [within the last hour or so](https://pmc.ncbi.nlm.nih.gov/articles/PMC6620762/) (slow-release pills leave a few hours more), [activated charcoal](https://ibogaqueen.substack.com/i/170920118/activated-charcoal) may help, since it binds to a lot of drugs in the gut before the body can absorb them. It only helps with what binds to it, which leaves out alcohol and lithium among other things, and it can also adsorb medication they need. I'd only give it to somebody who's fully alert and able to swallow, because anybody who is vomiting, sedated, seizing or otherwise unable to protect their airway could breathe it into their lungs (aspiration).\n\nIf you're unsure charcoal would be of any value to them, poison control may be useful. They're also who to ask when you can't tell what the substance is or what it does in combination with something else they took, or when there may be a delayed risk (the worst coming hours later). I don't treat calling poison control as a mandatory ritual, though, since how useful they are varies by country and by whoever answers. And what they give you is help deciding, so go on with any first aid while you talk to them.",
+ "section": "Swallowed Too Much?",
+ "reader": "the friend of someone who swallowed too much of a drug about an hour ago, with activated charcoal in their bag and a phone, deciding what to do next",
+ "sentences": [
+  {
+   "s": "If they swallowed it [within the last hour or so](https://pmc.ncbi.nlm.nih.gov/articles/PMC6620762/) (slow-release pills leave a few hours more), [activated charcoal](https://ibogaqueen.substack.com/i/170920118/activated-charcoal) may help, since it binds to a lot of drugs in the gut before the body can absorb them.",
+   "payoff": "they know whether charcoal is still worth giving: within about the last hour, longer for slow-release pills, and why it works",
+   "follows": "his paragraph before it, which has them work out what was swallowed and how long ago"
+  },
+  {
+   "s": "It only helps with what binds to it, which leaves out alcohol and lithium among other things, and it can also adsorb medication they need.",
+   "payoff": "they know charcoal is no use for alcohol or lithium, and that it takes up medication the person needs too",
+   "follows": "what charcoal binds, just said",
+   "link": "It only helps"
+  },
+  {
+   "s": "I'd only give it to somebody who's fully alert and able to swallow, because anybody who is vomiting, sedated, seizing or otherwise unable to protect their airway could breathe it into their lungs (aspiration).",
+   "payoff": "they know who can be given charcoal and who can't, and what happens if they give it anyway",
+   "follows": "the charcoal, just described",
+   "link": "I'd only give it"
+  },
+  {
+   "s": "If you're unsure charcoal would be of any value to them, poison control may be useful.",
+   "payoff": "they know who to ask when they can't tell whether charcoal is worth giving",
+   "follows": "the charcoal decision the paragraph before it sets out",
+   "link": "charcoal would be of any value"
+  },
+  {
+   "s": "They're also who to ask when you can't tell what the substance is or what it does in combination with something else they took, or when there may be a delayed risk (the worst coming hours later).",
+   "payoff": "they know the other cases poison control is for: an unknown substance, a combination, a delayed risk",
+   "follows": "poison control, just named",
+   "link": "They're also"
+  },
+  {
+   "s": "I don't treat calling poison control as a mandatory ritual, though, since how useful they are varies by country and by whoever answers.",
+   "payoff": "they know the writer doesn't call every time, and why: it depends on the country and on who answers",
+   "follows": "the cases for calling, just given",
+   "link": "calling poison control"
+  },
+  {
+   "s": "And what they give you is help deciding, so go on with any first aid while you talk to them.",
+   "payoff": "they know the call is for deciding, and that the first aid goes on while they talk",
+   "follows": "how useful the call is, just said",
+   "link": "And what they give you"
+  }
+ ],
+ "checked": [
+  {
+   "point": "activated charcoal may help after a recent oral ingestion of something that binds to it, in a person fully alert enough to swallow",
+   "found": "his post as of 2026-11-03 (original.md), the paragraph as it stood in the guide before this turn, where \"recent\" and \"when the substance binds to it\" give the reader nothing to go by; the review the paragraph cites (Zellner and others 2019, Deutsches Aerzteblatt International, PMC6620762), read on 2026-11-25: give it \"as soon as possible, within the first hour of the ingestion\", timed-release preparations up to 6 hours after; its Box 1 lists what is adsorbed insufficiently or not at all, alcohols and lithium among them. The hour, the slow-release note and the two examples are new in the paragraph, from its own source, so the card asks him",
+   "still_needed": "yes: they decide whether charcoal is worth giving from how long ago it was swallowed and what it was",
+   "fate": "changed"
+  },
+  {
+   "point": "charcoal does not bind every toxin and can adsorb necessary medication",
+   "found": "his post as of 2026-11-03 (original.md), the paragraph as it stood in the guide before this turn; the review the paragraph cites (Zellner and others 2019, Deutsches Aerzteblatt International, PMC6620762), read on 2026-11-25 (Box 1); the remedy entry on activated charcoal says the medication point again with what to do",
+   "still_needed": "yes: they know charcoal is no use for some things and takes up medication the person needs",
+   "fate": "changed"
+  },
+  {
+   "point": "aspiration risk in somebody who is vomiting, sedated, seizing or unable to protect the airway",
+   "found": "his post as of 2026-11-03 (original.md), the paragraph as it stood in the guide before this turn; the review the paragraph cites (Zellner and others 2019, Deutsches Aerzteblatt International, PMC6620762), read on 2026-11-25 (contraindications: impaired consciousness with an inadequate swallowing reflex, the danger of seizures, repeated vomiting). All four cases stay, each a warning of his post, now with what happens (\"could breathe it into their lungs\") and the term after it",
+   "still_needed": "yes: they know who must not be given charcoal",
+   "fate": "changed"
+  },
+  {
+   "point": "poison control may be useful when the substance, the combination, a delayed risk or the value of charcoal is unclear",
+   "found": "his post as of 2026-11-03 (original.md), the paragraph as it stood in the guide before this turn; fidelity key W033 holds \"delayed\", \"risk\" and \"value\". The four cases stay, the charcoal one first, since it ties the call to the paragraph before",
+   "still_needed": "yes: they know when a call to poison control can help them decide",
+   "fate": "changed"
+  },
+  {
+   "point": "he does not treat poison control as a mandatory ritual; its usefulness varies by country and by whoever answers",
+   "found": "his post as of 2026-11-03 (original.md), the paragraph as it stood in the guide before this turn (his stance, in the post's words); the review he cites says a poison control centre or a doctor should be contacted before a layperson gives charcoal, which the card tells him",
+   "still_needed": "yes: they judge the call by where they are and who picks up",
+   "fate": "kept"
+  },
+  {
+   "point": "poison control is decision support, not first aid",
+   "found": "his post as of 2026-11-03 (original.md), the paragraph as it stood in the guide before this turn, where it is a closing line set against a foil; said here as what the reader does (go on with any first aid while talking to them)",
+   "still_needed": "yes: they keep doing the first aid while they call",
+   "fate": "changed"
+  }
+ ],
+ "placement": "the second and third paragraphs of Swallowed Too Much? (B127, B128), after his paragraph on working out what was swallowed, how long ago and what the body is doing, and before Serotonin Syndrome (SS)?",
+ "opens": {
+  "first_sentence": "If they swallowed it [within the last hour or so](https://pmc.ncbi.nlm.nih.gov/articles/PMC6620762/) (slow-release pills leave a few hours more), [activated charcoal](https://ibogaqueen.substack.com/i/170920118/activated-charcoal) may help, since it binds to a lot of drugs in the gut before the body can absorb them.",
+  "why_reading": "it tells the friend when charcoal can help, when not to give it, and what poison control is for"
+ },
+ "same_point": "none: read the section from its heading to the next; when to give charcoal and what poison control is for are said only here. The remedy entry on activated charcoal further down (not this section) says again that it adsorbs medication somebody depends on, with what to do about it, and this paragraph links to it",
+ "needed": {
+  "reader": "a fresh agent (Sonnet) given tools/humanization/needed_read_brief.md (reads/need-a1-swallowed-sec.txt), on my first draft in its section (TEST-a1-swallowed-sec.txt); the checked text answers its marks",
+  "unneeded": [
+   "I don't treat calling poison control as a mandatory ritual, though, since how useful they are varies by country and by whoever answers."
+  ],
+  "kept": {
+   "I don't treat calling poison control as a mandatory ritual, though, since how useful they are varies by country and by whoever answers.": "they know the writer doesn't call poison control every time and why, so they judge the call by where they are and who picks up; it is his stance in the post, which stays where it bears on what the reader does"
+  }
+ },
+ "his_fixes": {
+  "reader": "a fresh agent (Sonnet) given tools/humanization/his_fixes_brief.md (reads/his-a1-swallowed-sec.txt), on my first draft in its section (TEST-a1-swallowed-sec.txt); the checked text answers its marks",
+  "marked": [],
+  "kept": {}
+ },
+ "fit": {
+  "reader": "a fresh agent (Sonnet) given tools/humanization/fit_read_brief.md (reads/fit-a1-swallowed-sec.txt), on my first draft in its section (TEST-a1-swallowed-sec.txt); the checked text answers its marks",
+  "marked": [],
+  "kept": {}
+ },
+ "questions": {
+  "Q1": "PASS: read against the three fresh reads and the tell panel on the text as it stands (reads/*-asis-swallowed-sec.txt, panel-b127/PANEL.md) and the three fresh reads on my first draft (reads/*-a1-swallowed-sec.txt); the his-fixes read of my first draft marked the aspiration sentence (the condition said, then its cases) and the stance sentence (\"mandatory ritual\", a label); both keep their content: the four cases are warnings of his post and the stance is his, with \"calling poison control\" named so \"them\" can't be the medics (the fit read's mark)",
+  "Q2": "PASS: read against the three fresh reads and the tell panel on the text as it stands (reads/*-asis-swallowed-sec.txt, panel-b127/PANEL.md) and the three fresh reads on my first draft (reads/*-a1-swallowed-sec.txt); the his-fixes read of my first draft marked the aspiration sentence (the condition said, then its cases) and the stance sentence (\"mandatory ritual\", a label); both keep their content: the four cases are warnings of his post and the stance is his, with \"calling poison control\" named so \"them\" can't be the medics (the fit read's mark)",
+  "Q3": "PASS: read against the three fresh reads and the tell panel on the text as it stands (reads/*-asis-swallowed-sec.txt, panel-b127/PANEL.md) and the three fresh reads on my first draft (reads/*-a1-swallowed-sec.txt); the his-fixes read of my first draft marked the aspiration sentence (the condition said, then its cases) and the stance sentence (\"mandatory ritual\", a label); both keep their content: the four cases are warnings of his post and the stance is his, with \"calling poison control\" named so \"them\" can't be the medics (the fit read's mark)",
+  "Q4": "PASS: read against the three fresh reads and the tell panel on the text as it stands (reads/*-asis-swallowed-sec.txt, panel-b127/PANEL.md) and the three fresh reads on my first draft (reads/*-a1-swallowed-sec.txt); the his-fixes read of my first draft marked the aspiration sentence (the condition said, then its cases) and the stance sentence (\"mandatory ritual\", a label); both keep their content: the four cases are warnings of his post and the stance is his, with \"calling poison control\" named so \"them\" can't be the medics (the fit read's mark)",
+  "Q5": "PASS: read against the three fresh reads and the tell panel on the text as it stands (reads/*-asis-swallowed-sec.txt, panel-b127/PANEL.md) and the three fresh reads on my first draft (reads/*-a1-swallowed-sec.txt); the his-fixes read of my first draft marked the aspiration sentence (the condition said, then its cases) and the stance sentence (\"mandatory ritual\", a label); both keep their content: the four cases are warnings of his post and the stance is his, with \"calling poison control\" named so \"them\" can't be the medics (the fit read's mark)",
+  "Q6": "PASS: read against the three fresh reads and the tell panel on the text as it stands (reads/*-asis-swallowed-sec.txt, panel-b127/PANEL.md) and the three fresh reads on my first draft (reads/*-a1-swallowed-sec.txt); the his-fixes read of my first draft marked the aspiration sentence (the condition said, then its cases) and the stance sentence (\"mandatory ritual\", a label); both keep their content: the four cases are warnings of his post and the stance is his, with \"calling poison control\" named so \"them\" can't be the medics (the fit read's mark)",
+  "Q7": "PASS: read against the three fresh reads and the tell panel on the text as it stands (reads/*-asis-swallowed-sec.txt, panel-b127/PANEL.md) and the three fresh reads on my first draft (reads/*-a1-swallowed-sec.txt); the his-fixes read of my first draft marked the aspiration sentence (the condition said, then its cases) and the stance sentence (\"mandatory ritual\", a label); both keep their content: the four cases are warnings of his post and the stance is his, with \"calling poison control\" named so \"them\" can't be the medics (the fit read's mark)",
+  "Q8": "PASS: read against the three fresh reads and the tell panel on the text as it stands (reads/*-asis-swallowed-sec.txt, panel-b127/PANEL.md) and the three fresh reads on my first draft (reads/*-a1-swallowed-sec.txt); the his-fixes read of my first draft marked the aspiration sentence (the condition said, then its cases) and the stance sentence (\"mandatory ritual\", a label); both keep their content: the four cases are warnings of his post and the stance is his, with \"calling poison control\" named so \"them\" can't be the medics (the fit read's mark)",
+  "Q9": "PASS: read against the three fresh reads and the tell panel on the text as it stands (reads/*-asis-swallowed-sec.txt, panel-b127/PANEL.md) and the three fresh reads on my first draft (reads/*-a1-swallowed-sec.txt); the his-fixes read of my first draft marked the aspiration sentence (the condition said, then its cases) and the stance sentence (\"mandatory ritual\", a label); both keep their content: the four cases are warnings of his post and the stance is his, with \"calling poison control\" named so \"them\" can't be the medics (the fit read's mark)"
+ },
+ "question_text": {
+  "Q1": "Why am I reading this sentence, and do I know it before I have to work through it? (the point first, in each sentence and each paragraph; a study after the question it answers; a term explained where it is first used, never in a sentence after it)",
+  "Q2": "What is each instruction for, said in the reader's terms, and is it something the helper does (\"have someone go with them\"), not a rule stated as a fact (\"someone goes with them\")?",
+  "Q3": "Which thing exactly? (pools of water, not water; any substance, not anything)",
+  "Q4": "What does each word act on, or mean here? (adjunct remedy; known-genuine) Is every term a high-school graduate wouldn't know (enterocytes, BPC-157) explained once, where it is first used, and common ones (a vitamin) left alone? Is each mechanism explained by what it does in the reader's experience (dopamine \"for motivation (by showing us what is important to pay attention to)\"; DeltaFosB \"preventing that learning from really clicking\"), not by where it sits or what it looks like (\"a chemical blanket\", \"the slower one underneath\")? (E375)",
+  "Q5": "Why does each sentence follow from the one before? (every but, so, because and this has what it turns on)",
+  "Q6": "Is this the order the reader is thinking in, and does each idea sit next to what it continues?",
+  "Q7": "Does each fact help this reader now, in their case (the same kind of thing they face, not just the same topic)?",
+  "Q8": "Does each item belong in the group it is put in?",
+  "Q9": "Is anything compressed? (one step a sentence, the small words that carry the relation, no space before mg)"
+ }
+}

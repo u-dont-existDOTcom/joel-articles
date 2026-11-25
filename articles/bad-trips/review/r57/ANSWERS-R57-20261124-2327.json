@@ -1,0 +1,41 @@
+{
+ "format": "joel-suggestion-review-answers-v1",
+ "review_id": "bad-trips-r57",
+ "title": "Bad Trips Guide, Round 57",
+ "git_file": "articles/bad-trips/review/r57/REVIEW-R57.html",
+ "article": {
+  "file": "articles/bad-trips/review/r57/PAGE-R57.md",
+  "sha256": "bbc597eab8d2036fc90b8ab35d1f87f9ec94e71a00e69d13b1541d96bd609f84"
+ },
+ "built": "2026-11-24",
+ "generator": "suggestion_review.py 1.13 (2026-11-23)",
+ "exported_at": "2026-11-24T23:27:26.065Z",
+ "counts": {
+  "approved": 0,
+  "rejected": 0,
+  "revise": 1,
+  "pending": 0
+ },
+ "items": [
+  {
+   "id": "TEACH-KIDNEY",
+   "type": "teach",
+   "title": "1. MDMA: Magnesium Alarm, the kidney paragraph: the last one in the section that reads AI",
+   "where": "MDMA: Magnesium Alarm, P7",
+   "advice": "edit",
+   "status": "revise",
+   "your_version": "People with impaired kidneys do need to be more cautious with large, rapid magnesium doses because they may not clear magnesium normally. But they should be far more worried about the MDMA. MDMA can cause overheating, rhabdomyolysis, dangerous electrolyte shifts, and acute kidney injury. Kidney impairment is a strong reason not to take MDMA--not a reason to sit there with worsening jaw tension after taking it. I would not tell somebody with serious kidney impairment to copy my one-gram-per-minute approach blindly; I would tell them to treat the situation as higher-risk and get help sooner.",
+   "comment": "i tried many changes but nothing helped pangram until i tied the 2nd sentence to the first (mdma depletes magnesium). now it's 19% human: https://www.pangram.com/history/f7c6b20c-3d0b-4ac0-b917-0b72ec00ab18?ucc=4rq5Ko7gBiW&utm_source=pangram_share&utm_medium=copy_link\n\ni split it in two. now the first part is all human so it must be the last part i'm thinking that needs fixing: https://www.pangram.com/history/821fbea0-f1c3-496e-886c-cebfe6568efa?ucc=4rq5Ko7gBiW&utm_source=pangram_share&utm_medium=copy_link\n\nor possibly they need to connect better\n\nok now i made the 2nd part human by changing the generic \"get help sooner\" to \"get to a hospital ASAP.\"\n\nnow when i put them back together, 2nd part stays human, first part switches to ai: https://www.pangram.com/history/ec21476b-dc76-43fe-ab7a-db4abf097674?ucc=4rq5Ko7gBiW&utm_source=pangram_share&utm_medium=copy_link\n\nok that was my fault i guess bc i had changed dangerous electrolyte shifts to \"other dangerous electrolyte shifts\" since i was thinking magnesium is an electrolyte shift already. but at the end of that list it sounds like electrolyte shifts were part of the list which they were not, so now it's all hum, but first part low con and last part med conff: https://www.pangram.com/history/67d5b425-da7c-420f-8187-80437662f0a1?ucc=4rq5Ko7gBiW&utm_source=pangram_share&utm_medium=copy_link\n\nnow i fixed it better, got the first part to high conf by moving the electrolyte shifts sooner so the reader sees everything together rather than split up. https://www.pangram.com/history/c004c98f-cfc0-4593-a280-102a2e5c8f74?ucc=4rq5Ko7gBiW&utm_source=pangram_share&utm_medium=copy_link\n\ni clarified \"get\" to hospital since they need to be taken there, now it's all high conf: https://www.pangram.com/history/33a4d738-d566-44b0-9fd3-5e6194848e20?ucc=4rq5Ko7gBiW&utm_source=pangram_share&utm_medium=copy_link",
+   "my_version": "People with impaired kidneys do need to be more cautious with large, rapid magnesium doses because they may not clear magnesium normally. But they should be far more worried about the MDMA. MDMA can cause overheating, rhabdomyolysis, dangerous electrolyte shifts, and acute kidney injury. Kidney impairment is a strong reason not to take MDMA--not a reason to sit there with worsening jaw tension after taking it. I would not tell somebody with serious kidney impairment to copy my one-gram-per-minute approach blindly; I would tell them to treat the situation as higher-risk and get help sooner.",
+   "before": "People with impaired kidneys do need to be more cautious with large, rapid magnesium doses because they may not clear magnesium normally. But they should be far more worried about the MDMA. MDMA can cause overheating, rhabdomyolysis, dangerous electrolyte shifts, and acute kidney injury. Kidney impairment is a strong reason not to take MDMA--not a reason to sit there with worsening jaw tension after taking it. I would not tell somebody with serious kidney impairment to copy my one-gram-per-minute approach blindly; I would tell them to treat the situation as higher-risk and get help sooner.",
+   "history": [
+    {
+     "from": "pending",
+     "to": "revise",
+     "at": "2026-11-24T22:56:24.276Z"
+    }
+   ],
+   "updated": "2026-11-24T23:26:53.796Z"
+  }
+ ]
+}

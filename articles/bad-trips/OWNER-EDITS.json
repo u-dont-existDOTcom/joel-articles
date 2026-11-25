@@ -2001,6 +2001,26 @@
    "must_not_link": [
     "https://pubmed.ncbi.nlm.nih.gov/11794633"
    ]
+  },
+  {
+   "id": "r57-answers",
+   "status": "applied",
+   "what": "his round-57 version of the kidney paragraph (B120, TEACH-KIDNEY), whole, as the last of his six checks had it (33a4d738, Human High 115 in one window; review/r57/HIS-CHECKS-R57.md), with his bold lead and the kidney study's link back on its claim; the API reads it Human High 115 in one window (a1673899). And the opening of Serotonin Syndrome (SS)? (B130), mine from his post's text, Human High 116 in one window in two tries (a2d82519) (review/r57/apply_r57.py; humanize/h76-20261125/RESULTS.md)",
+   "joel": "2026-11-24 23:27 UTC: his round-57 export (articles/bad-trips/review/r57/ANSWERS-R57-20261124-2327.json), TEACH-KIDNEY, sent with his message of 2026-11-25 01:24 UTC",
+   "applied_by": "review/r57/apply_r57.py",
+   "must_contain_exact": [
+    "People with impaired kidneys do need to be more cautious with high, rapid magnesium dosing, because they may not clear excess magnesium out well.",
+    "which depletes it (and shifts other electrolytes dangerously)",
+    "not to mention potential muscle breakdown and overheating",
+    "However, if they have already taken the MDMA, I'm not saying they should sit there and let the jaw tension get worse.",
+    "I just wouldn't tell them to copy my gram-per-minute magnesium chloride dosing approach blindly, since that's a higher-risk situation where they should be taken to a hospital ASAP.",
+    "ayahuasca and other MAOI brews (or any other MAOI)",
+    "the rescue measures in those other branches do not necessarily treat it"
+   ],
+   "must_not_contain": [
+    "get help sooner",
+    "not a reason to sit there with worsening jaw tension"
+   ]
   }
  ]
 }

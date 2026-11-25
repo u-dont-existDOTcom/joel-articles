@@ -1,0 +1,62 @@
+{
+ "readers": [
+  "haiku",
+  "sonnet"
+ ],
+ "sentences": [
+  "Activated charcoal may help after some recent oral ingestions when the substance binds to it and the person is fully alert enough to swallow safely.",
+  "It does not bind every toxin, can adsorb necessary medication, and creates aspiration risk in somebody who is vomiting, sedated, seizing, or unable to protect the airway.",
+  "Clinical review.",
+  "Poison control may be useful when the substance, combination, delayed risk, or value of charcoal is unclear.",
+  "I do not treat it as a mandatory ritual; usefulness varies by country and by whoever answers.",
+  "It is decision support, not first aid."
+ ],
+ "flagged": {
+  "1": [
+   "haiku",
+   "sonnet"
+  ],
+  "2": [
+   "haiku",
+   "sonnet"
+  ],
+  "3": [
+   "haiku",
+   "sonnet"
+  ],
+  "4": [
+   "haiku",
+   "sonnet"
+  ],
+  "5": [
+   "haiku",
+   "sonnet"
+  ],
+  "6": [
+   "haiku",
+   "sonnet"
+  ]
+ },
+ "agreed": [
+  1,
+  2,
+  3,
+  4,
+  5,
+  6
+ ],
+ "whole": {
+  "haiku": [
+   "Both paragraphs follow the same arc of a claim, a run of qualifications, then a short closing line, and the sentences are built to similar lengths in a steady, cautious voice, so the piece reads as assembled to a pattern rather than argued from a particular case."
+  ],
+  "sonnet": [
+   "The two paragraphs are built from evenly weighted, similarly sized sentences, each carrying a hedge or a list, and each paragraph ends on a short summarizing line. The voice moves between impersonal clinical prose and one flat first-person sentence, with no concrete scene, anecdote, or particular detail to anchor it."
+  ]
+ },
+ "human_clean": [
+  "I do not treat it as a mandatory ritual",
+  "ritual",
+  "I do not treat it as a mandatory ritual",
+  "ritual,"
+ ]
+}
