@@ -227,7 +227,35 @@ def post_of(answer, url=None):
     return post
 
 
-def fetch_post(post_id, base=PUBLICATION, timeout=30, tries=3, pause=5, urlopen=None, sleep=time.sleep):
+# Where else the same post API answers. On 2026-11-25 the daily job's first run on GitHub got HTTP 403 for all four posts
+# from the publication's own address (Substack refuses GitHub's servers there). Substack's own address serves the same
+# API with the same body_html (read from his laptop the same day: both addresses, two posts, equal sha256).
+ELSEWHERE = ('https://substack.com',)
+
+
+def fetch_post(post_id, base=PUBLICATION, timeout=30, tries=3, pause=5, urlopen=None, sleep=time.sleep,
+               elsewhere=ELSEWHERE):
+    """The post from the publication's address; when that address refuses (HTTP 403), from each address in
+    `elsewhere` in turn. The first refusal is the one raised when none answers, with what the others said added."""
+    try:
+        return _fetch_post(post_id, base, timeout, tries, pause, urlopen, sleep)
+    except FetchError as first:
+        if first.status != 403:
+            raise
+        said = []
+        for other in elsewhere or ():
+            if other.rstrip('/') == base.rstrip('/'):
+                continue
+            try:
+                return _fetch_post(post_id, other, timeout, tries, pause, urlopen, sleep)
+            except FetchError as e:
+                said.append('%s: %s' % (other, e.reason))
+        if said:
+            first.reason = '%s (also tried %s)' % (first.reason, '; '.join(said))
+        raise first
+
+
+def _fetch_post(post_id, base=PUBLICATION, timeout=30, tries=3, pause=5, urlopen=None, sleep=time.sleep):
     """The post as the public API gives it (a dict with body_html), or FetchError.
 
     A network error, a 429 and a 5xx are tried again (tries in all, pause seconds apart, then twice that); any other
