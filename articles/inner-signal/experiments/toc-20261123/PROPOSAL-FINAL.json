@@ -162,11 +162,11 @@
  {
   "id": "S018",
   "level": 1,
-  "heading": "Become a Trustworthy Adult",
+  "heading": "The Inner Adult’s Three Jobs",
   "was": "The inner child, the guards, and the inner adult’s three jobs",
   "was_level": 1,
-  "whose": "mine, 2026-11-25, for him to change",
-  "why": "his answer of 2026-11-25 (\"rethink the heading at least\"): the section now holds ten sections, three of them the jobs, and all ten are about being the adult the inner child can trust; his words (\"becoming reliable\" in its first paragraph, \"become a trustworthy adult\" in the Closing). The three jobs show right under it: The Nurturer, The Protector, The Guide",
+  "whose": "the proposal, left as it was",
+  "why": "",
   "kind": "renamed"
  },
  {
@@ -190,16 +190,6 @@
   "kind": "kept"
  },
  {
-  "id": "S027",
-  "level": 2,
-  "heading": "The Guide",
-  "was": "The Guide",
-  "was_level": 2,
-  "whose": "his heading, kept",
-  "why": "",
-  "kind": "kept"
- },
- {
   "id": "S030",
   "level": 2,
   "heading": "When to Stop Scanning",
@@ -208,6 +198,16 @@
   "whose": "the proposal, left as it was",
   "why": "",
   "kind": "renamed"
+ },
+ {
+  "id": "S027",
+  "level": 2,
+  "heading": "The Guide",
+  "was": "The Guide",
+  "was_level": 2,
+  "whose": "his heading, kept",
+  "why": "",
+  "kind": "kept"
  },
  {
   "id": "S019",
@@ -561,7 +561,7 @@
  },
  {
   "id": "S055",
-  "level": 1,
+  "level": 2,
   "heading": "Let the Response Guide You",
   "was": "Let the next response guide you",
   "was_level": 1,

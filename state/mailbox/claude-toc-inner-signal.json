@@ -186,6 +186,36 @@
    ],
    "items": [],
    "recorded_utc": "2026-11-25T01:28Z"
+  },
+  {
+   "turn": "2026-11-25T11:18Z",
+   "lines_of_work": [
+    "contents of the very long posts: Self-Hypnosis guide"
+   ],
+   "places": [
+    {
+     "place": "uda-lane",
+     "status": "read",
+     "found": "6 items in suggested-fixes/joel-articles/, all in docs/suggested-fixes-ledger.md; nothing new"
+    },
+    {
+     "place": "repo",
+     "status": "read",
+     "found": "open pull requests unchanged since 2026-11-15; pull requests 530 and 531 (this lane) and 532, 533 (romance, neuro) merged; no new issue or comment for this lane"
+    },
+    {
+     "place": "notes",
+     "status": "read",
+     "found": "the laptop handoff note reads as this lane left it on 2026-11-25"
+    },
+    {
+     "place": "runtime",
+     "status": "read",
+     "found": "five GitHub notices about pull requests 530 and 531 read at 02:01 UTC (checks passed, merged); none queued now"
+    }
+   ],
+   "items": [],
+   "recorded_utc": "2026-11-25T11:21Z"
   }
  ]
 }

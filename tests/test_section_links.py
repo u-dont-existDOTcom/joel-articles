@@ -91,7 +91,7 @@ class Catalog(unittest.TestCase):
 
     def cat(self):
         base, post = 'https://x.substack.com', '1'
-        return {'post': {'base': base, 'id': post},
+        return {'post': {'base': base, 'id': post, 'not_sent_yet': True},   # a new post keeps the /i/ form until it is sent
                 'headings': [{'id': 'S1', 'level': 2, 'text': 'Attacked by a Demon?', 'anchor': 'attacked-by-a-demon'},
                              {'id': 'S2', 'level': 2, 'text': 'Noticing Counts', 'anchor': 'noticing-counts'}],
                 'links': [{'in': 'S2', 'text': 'the demon section', 'target': 'S1',
@@ -122,10 +122,41 @@ class Catalog(unittest.TestCase):
         changes = sl.rename(cat, 'Attacked by a Demon?', 'Prepare for Altered States Now')
         self.assertEqual(len(changes), 1)
 
+    def test_inside_its_own_post_a_link_is_the_hash_form(self):
+        # lesson toc-2026-11-25c: an /i/ link to the same post loads the page again; "#§slug" scrolls
+        self.assertEqual(sl.anchor('Attacked by a Demon?'), '#§attacked-by-a-demon')
+        self.assertEqual(sl.anchor('Introduction & Navigation'), '#§introduction-and-navigation')   # read on the Nirvāna post
+        for href in ('#§my-nibbana-taxonomy', '#%C2%A7my-nibbana-taxonomy',
+                     'https://x.substack.com/p/a-post?open=false#%C2%A7my-nibbana-taxonomy',
+                     'https://x.substack.com/i/1/my-nibbana-taxonomy'):
+            self.assertEqual(sl.anchor_of(href), 'my-nibbana-taxonomy')
+        self.assertTrue(sl.same_post('#%C2%A7x') and sl.same_post('#§x') and not sl.same_post('https://x.substack.com/i/1/x'))
+
+    def test_a_sent_posts_own_i_links_are_listed(self):
+        cat = self.cat()
+        cat['post'].pop('not_sent_yet')
+        probs = sl.links_check(cat)
+        self.assertEqual(len(probs), 2)
+        self.assertIn('loads the whole page again', probs[0][1])
+        for ln in cat['links']:
+            ln['href'] = '#§' + sl.anchor_of(ln['href'])
+        self.assertEqual(sl.links_check(cat), [])
+        changes = sl.rename(cat, 'S1', 'Prepare for Altered States Now')      # a rename keeps the form the link has
+        self.assertEqual([(old, new) for _, old, new in changes],
+                         [('#§attacked-by-a-demon', '#§prepare-for-altered-states-now')])
+
+    def test_build_reads_both_forms(self):
+        html = ('<h2>Noticing Counts</h2><p><a href="#§therapy-or-escapism">here</a> and '
+                '<a href="#%C2%A7noticing-counts">up</a> and <a href="#footnote-1">1</a>.</p><h3>Therapy or Escapism?</h3>')
+        cat = sl.build(html, 'https://x.substack.com/', 1)
+        self.assertEqual([ln['href'] for ln in cat['links']], ['#§therapy-or-escapism', '#%C2%A7noticing-counts'])
+        self.assertEqual(sl.links_check(cat), [])
+
     def test_build_from_post_html(self):
         html = ('<h2>Noticing Counts</h2><p>Look <a href="https://x.substack.com/i/1/therapy-or-escapism">here</a> and '
                 '<a href="https://elsewhere.com/a">there</a>.</p><h3>Therapy or Escapism?</h3><p>text</p>')
         cat = sl.build(html, 'https://x.substack.com/', 1, source='test')
+        cat['post']['not_sent_yet'] = True
         self.assertEqual([h['anchor'] for h in cat['headings']], ['noticing-counts', 'therapy-or-escapism'])
         self.assertEqual(cat['links'], [{'in': 'Noticing Counts', 'text': 'here',
                                          'href': 'https://x.substack.com/i/1/therapy-or-escapism'}])

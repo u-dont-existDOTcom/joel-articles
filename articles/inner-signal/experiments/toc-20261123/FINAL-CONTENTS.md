@@ -20,11 +20,11 @@ Your record of 2026-11-25 01:08 UTC ([as you sent it](https://github.com/u-dont-
 | 14 | You're Better Than the Pros | his words | Why doing it myself worked better for me |  |
 | 15 | A Useful Map of the Mind | his heading, title case | A useful map of the mind |  |
 | 16 | &nbsp;&nbsp;&nbsp;&nbsp;Start From the Whole | the proposal, left as it was | Sometimes start with the whole |  |
-| 17 | Become a Trustworthy Adult | mine, 2026-11-25, for him to change | The inner child, the guards, and the inner adult’s three jobs |  |
-| 18 | &nbsp;&nbsp;&nbsp;&nbsp;The Nurturer | his heading, kept |  | moves after “Become a Trustworthy Adult” |
-| 19 | &nbsp;&nbsp;&nbsp;&nbsp;The Protector | his heading, kept |  | moves after “Become a Trustworthy Adult” |
-| 20 | &nbsp;&nbsp;&nbsp;&nbsp;The Guide | his heading, kept |  | moves after “Become a Trustworthy Adult” |
-| 21 | &nbsp;&nbsp;&nbsp;&nbsp;When to Stop Scanning | the proposal, left as it was | Protection that knows when to stop scanning | moves after “Become a Trustworthy Adult” |
+| 17 | The Inner Adult’s Three Jobs | the proposal, left as it was | The inner child, the guards, and the inner adult’s three jobs |  |
+| 18 | &nbsp;&nbsp;&nbsp;&nbsp;The Nurturer | his heading, kept |  | moves after “The Inner Adult’s Three Jobs” |
+| 19 | &nbsp;&nbsp;&nbsp;&nbsp;The Protector | his heading, kept |  | moves after “The Inner Adult’s Three Jobs” |
+| 20 | &nbsp;&nbsp;&nbsp;&nbsp;When to Stop Scanning | the proposal, left as it was | Protection that knows when to stop scanning | moves after “The Inner Adult’s Three Jobs” |
+| 21 | &nbsp;&nbsp;&nbsp;&nbsp;The Guide | his heading, kept |  | moves after “The Inner Adult’s Three Jobs” |
 | 22 | &nbsp;&nbsp;&nbsp;&nbsp;No Adult Yet? Borrow One | the proposal, left as it was | When the adult role is not available yet |  |
 | 23 | &nbsp;&nbsp;&nbsp;&nbsp;Child Speaks, You Steer | the proposal, left as it was | Let the child speak while you define the goal |  |
 | 24 | &nbsp;&nbsp;&nbsp;&nbsp;Love First, Trust Later | the proposal, left as it was | Love doesn’t have to wait for trust |  |
@@ -60,7 +60,7 @@ Your record of 2026-11-25 01:08 UTC ([as you sent it](https://github.com/u-dont-
 | 54 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Turn It Off or Keep It | the proposal, left as it was | Turning the shortcut off, or keeping it |  |
 | 55 | Come All the Way Back | his heading, title case | Come all the way back |  |
 | 56 | The Actual Inner Meeting | his heading, title case | The actual inner meeting |  |
-| 57 | Let the Response Guide You | the proposal, left as it was | Let the next response guide you |  |
+| 57 | &nbsp;&nbsp;&nbsp;&nbsp;Let the Response Guide You | the proposal, left as it was | Let the next response guide you | h2, was h1 |
 | 58 | &nbsp;&nbsp;&nbsp;&nbsp;If Your Mind Objects | the proposal, left as it was | Throughout the exercise | moves after “Let the Response Guide You”; h2, was h3 |
 | 59 | &nbsp;&nbsp;&nbsp;&nbsp;Finding Your Own Words | his heading, title case | Finding your own words |  |
 | 60 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Understand the Meaning | his words | Notice, meaning, and your thoughts on the meaning |  |
@@ -177,4 +177,3 @@ Your record of 2026-11-25 01:08 UTC ([as you sent it](https://github.com/u-dont-
 - “You're Better Than the Pros” (you had “You're Better Than The Pros”): his words; "the" in AP title case (headings brief, rule 7), as recorded on 2026-11-24 14:18.
 - “B: Ethical NLP” (you had “Appendix B: Ethical NLP”): his pick of Fable's "Appendix B: Ethical NLP", with the letter only, as his answer 12 gives every appendix ("A: ...", "C: ...").
 - “No-Trance Inner Contact” (you had “9. No-Trance Inner Contact”): his answer of 2026-11-25: it leaves the induction library, so it loses its number.
-- “Become a Trustworthy Adult” (you had “The Inner Adult’s Three Jobs”): his answer of 2026-11-25 ("rethink the heading at least"): the section now holds ten sections, three of them the jobs, and all ten are about being the adult the inner child can trust; his words ("becoming reliable" in its first paragraph, "become a trustworthy adult" in the Closing). The three jobs show right under it: The Nurturer, The Protector, The Guide.

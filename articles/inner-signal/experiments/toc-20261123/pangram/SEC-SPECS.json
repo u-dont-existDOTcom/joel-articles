@@ -5,6 +5,18 @@
   "words": 147,
   "sha256": "3eaa6100b9c5331d4cb5c5fb1110ea70f02dbf0d334bd014bdf8810ba23c70b4"
  },
+ "S007": {
+  "file": "pangram/SEC-S007-after.txt",
+  "heading": "Protection From Hypnotists",
+  "words": 206,
+  "sha256": "0c1bc9c72182e14f0211bd177ae33cc098d8491e5cd42416850f3ffc8b8da947"
+ },
+ "S019": {
+  "file": "pangram/SEC-S019-after.txt",
+  "heading": "No Adult Yet? Borrow One",
+  "words": 453,
+  "sha256": "d1ebe1f6f1f542e319dbbc674f35fdf61e01168dc3a7b3bca5d3fefb33cd58b4"
+ },
  "S040": {
   "file": "pangram/SEC-S040-after.txt",
   "heading": "Induction: Gather and Soften",
@@ -56,8 +68,14 @@
  "S122": {
   "file": "pangram/SEC-S122-after.txt",
   "heading": "Breathe, Relax & Flow",
-  "words": 133,
-  "sha256": "916f7606755a3632c2146d95424a70362df6530bf5cde533fdca7d5a71255f09"
+  "words": 168,
+  "sha256": "d23cb85889b9ac0b853a8a54040f52b0dbb8e47f89864f5f5b40ddeb527e317e"
+ },
+ "S124": {
+  "file": "pangram/SEC-S124-after.txt",
+  "heading": "Somatic Experiencing",
+  "words": 73,
+  "sha256": "17a720596da44f3d41a2022e59a871517933f1f18faf06fde8bfcf9f8d7f4440"
  },
  "S127": {
   "file": "pangram/SEC-S127-after.txt",

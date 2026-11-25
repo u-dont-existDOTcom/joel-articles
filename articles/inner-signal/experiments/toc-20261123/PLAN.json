@@ -116,7 +116,7 @@
   },
   {
    "id": "S018",
-   "heading": "Become a Trustworthy Adult",
+   "heading": "The Inner Adult’s Three Jobs",
    "level": 1,
    "was": "The inner child, the guards, and the inner adult’s three jobs",
    "was_level": 1
@@ -136,17 +136,17 @@
    "was_level": 2
   },
   {
-   "id": "S027",
-   "heading": "The Guide",
-   "level": 2,
-   "was": "The Guide",
-   "was_level": 2
-  },
-  {
    "id": "S030",
    "heading": "When to Stop Scanning",
    "level": 2,
    "was": "Protection that knows when to stop scanning",
+   "was_level": 2
+  },
+  {
+   "id": "S027",
+   "heading": "The Guide",
+   "level": 2,
+   "was": "The Guide",
    "was_level": 2
   },
   {
@@ -397,7 +397,7 @@
   {
    "id": "S055",
    "heading": "Let the Response Guide You",
-   "level": 1,
+   "level": 2,
    "was": "Let the next response guide you",
    "was_level": 1
   },
@@ -1143,8 +1143,8 @@
    [
     "S025",
     "S026",
-    "S027",
-    "S030"
+    "S030",
+    "S027"
    ],
    "S018",
    "answer 4: the three jobs and the Protector drill go under \"The Inner Adult’s Three Jobs\", right after its own text"
@@ -1200,6 +1200,10 @@
    2,
    "answer 6: moved up and made an h2"
   ],
+  "S055": [
+   2,
+   "2026-11-25 11:18, question 1 (\"yes\"): an h2 under \"The Actual Inner Meeting\", with the eight steps after it"
+  ],
   "S086": [
    1,
    "2026-11-25: \"daily life should not be when to get outside help\": an h1 of its own, where it stands, between the outside-help sections and the Closing"
@@ -1251,6 +1255,27 @@
    "from": "Then afterwards, check in about what was actually done",
    "to": "Then afterwards, check how well your critical thinking is working when you look back on how it went, and check in about what was actually done",
    "why": "answer 10"
+  },
+  {
+   "id": "Q7",
+   "in": "S122",
+   "from": "Breathe in small amounts through your nose and let it out quietly, through your nose too.",
+   "to": "By simply pursing your lips together on exhale, you can slow down your exhale. Slower exhales, combined with not breathing more on inhales, lead to overall reduction in breathing. That slight oxygen hunger feels a bit anxiogenic for the first 20 seconds or so, but after that, you’ll feel much calmer.",
+   "why": "his answer of 2026-11-25 11:18 (\"7 b\": the somatic guide's way here too): the nose-out sentence becomes the three sentences of his somatic guide's Breathwork section, word for word; the rest of his paragraph stays"
+  },
+  {
+   "id": "Q8",
+   "in": "S019",
+   "from": "The longer version of this exercise can be found in my",
+   "to": "There is more on borrowed adulthood in my",
+   "why": "his answer of 2026-11-25 11:18 (\"8 a\"): the inner child guide no longer has the adult hat exercise; the sentence points to its \"Borrowed Adulthood\" section"
+  },
+  {
+   "id": "Q9",
+   "in": "S124",
+   "from": "or even a free intro session, please see",
+   "to": "or even a free intro session for paid subscribers, please see",
+   "why": "his answer of 2026-11-25 11:18 (\"9 yes\"): the somatic guide gives one free session to paid subscribers"
   },
   {
    "id": "N04",
@@ -1349,6 +1374,12 @@
    "ends": "S122",
    "text": "Try the continuous breathing from Systema (a Russian martial art) too: it helps not just with relaxing, but with getting into trance and flow states more deeply. You can learn it from the best video on it I've seen so far, and my somatic guide explains it more.",
    "why": "his note of 2026-11-24 21:05 UTC: Systema's continuous breathing beside the Buteyko lines"
+  },
+  {
+   "id": "P1",
+   "ends": "S007",
+   "text": "If you do let a hypnotist work on you, or listen to a stranger's hypnosis recording, go through the questions in “Find a Hypnotist Who Fits” first.",
+   "why": "question 3 of 2026-11-25 (\"yes\"): both final readers looked here for what to check before playing a stranger's recording"
   }
  ],
  "links": [
@@ -1359,7 +1390,7 @@
    "words": "Quick start section",
    "to": "S004",
    "heading": "Quick Start: Do This First",
-   "href": "https://ibogaqueen.substack.com/i/202810155/quick-start-do-this-first",
+   "href": "#§quick-start-do-this-first",
    "unchecked": ""
   },
   {
@@ -1369,7 +1400,7 @@
    "words": "one of the inductions",
    "to": "S040",
    "heading": "Induction: Gather and Soften",
-   "href": "https://ibogaqueen.substack.com/i/202810155/induction-gather-and-soften",
+   "href": "#§induction-gather-and-soften",
    "unchecked": ""
   },
   {
@@ -1379,7 +1410,7 @@
    "words": "the whole return sequence",
    "to": "S053",
    "heading": "Come All the Way Back",
-   "href": "https://ibogaqueen.substack.com/i/202810155/come-all-the-way-back",
+   "href": "#§come-all-the-way-back",
    "unchecked": ""
   },
   {
@@ -1389,7 +1420,7 @@
    "words": "Let the Response Guide You",
    "to": "S055",
    "heading": "Let the Response Guide You",
-   "href": "https://ibogaqueen.substack.com/i/202810155/let-the-response-guide-you",
+   "href": "#§let-the-response-guide-you",
    "unchecked": ""
   },
   {
@@ -1399,7 +1430,7 @@
    "words": "daily",
    "to": "S065",
    "heading": "The 15-Minute Daily Practice",
-   "href": "https://ibogaqueen.substack.com/i/202810155/the-15-minute-daily-practice",
+   "href": "#§the-15-minute-daily-practice",
    "unchecked": ""
   },
   {
@@ -1409,7 +1440,7 @@
    "words": "weekly",
    "to": "S066",
    "heading": "The Weekly Deeper Practice",
-   "href": "https://ibogaqueen.substack.com/i/202810155/the-weekly-deeper-practice",
+   "href": "#§the-weekly-deeper-practice",
    "unchecked": ""
   },
   {
@@ -1419,7 +1450,7 @@
    "words": "Appendix J",
    "to": "S158",
    "heading": "J: Sources & Further Reading",
-   "href": "https://ibogaqueen.substack.com/i/202810155/j-sources-and-further-reading",
+   "href": "#§j-sources-and-further-reading",
    "unchecked": ""
   },
   {
@@ -1429,7 +1460,7 @@
    "words": "inner child reparenting",
    "to": "S031",
    "heading": "Reparenting in Hypnosis",
-   "href": "https://ibogaqueen.substack.com/i/202810155/reparenting-in-hypnosis",
+   "href": "#§reparenting-in-hypnosis",
    "unchecked": ""
   },
   {
@@ -1439,7 +1470,7 @@
    "words": "Come all the way back",
    "to": "S053",
    "heading": "Come All the Way Back",
-   "href": "https://ibogaqueen.substack.com/i/202810155/come-all-the-way-back",
+   "href": "#§come-all-the-way-back",
    "unchecked": ""
   },
   {
@@ -1449,7 +1480,7 @@
    "words": "Sober induction",
    "to": "S043",
    "heading": "Sober Induction: 3–5 Min",
-   "href": "https://ibogaqueen.substack.com/i/202810155/sober-induction-35-min",
+   "href": "#§sober-induction-35-min",
    "unchecked": [
     "–"
    ]
@@ -1461,7 +1492,7 @@
    "words": "your inherited parent script",
    "to": "S029",
    "heading": "Your Inherited Parent Script",
-   "href": "https://ibogaqueen.substack.com/i/202810155/your-inherited-parent-script",
+   "href": "#§your-inherited-parent-script",
    "unchecked": ""
   },
   {
@@ -1471,7 +1502,7 @@
    "words": "your inherited parent script",
    "to": "S029",
    "heading": "Your Inherited Parent Script",
-   "href": "https://ibogaqueen.substack.com/i/202810155/your-inherited-parent-script",
+   "href": "#§your-inherited-parent-script",
    "unchecked": ""
   },
   {
@@ -1481,7 +1512,7 @@
    "words": "Already Trancey?",
    "to": "S044",
    "heading": "Already Trancey?",
-   "href": "https://ibogaqueen.substack.com/i/202810155/already-trancey",
+   "href": "#§already-trancey",
    "unchecked": ""
   },
   {
@@ -1491,7 +1522,7 @@
    "words": "Appendix B",
    "to": "S093",
    "heading": "B: Ethical NLP",
-   "href": "https://ibogaqueen.substack.com/i/202810155/b-ethical-nlp",
+   "href": "#§b-ethical-nlp",
    "unchecked": ""
   },
   {
@@ -1501,7 +1532,7 @@
    "words": "Let the Response Guide You",
    "to": "S055",
    "heading": "Let the Response Guide You",
-   "href": "https://ibogaqueen.substack.com/i/202810155/let-the-response-guide-you",
+   "href": "#§let-the-response-guide-you",
    "unchecked": ""
   },
   {
@@ -1511,7 +1542,7 @@
    "words": "Already Trancey?",
    "to": "S044",
    "heading": "Already Trancey?",
-   "href": "https://ibogaqueen.substack.com/i/202810155/already-trancey",
+   "href": "#§already-trancey",
    "unchecked": ""
   },
   {
@@ -1521,7 +1552,7 @@
    "words": "Come All the Way Back",
    "to": "S053",
    "heading": "Come All the Way Back",
-   "href": "https://ibogaqueen.substack.com/i/202810155/come-all-the-way-back",
+   "href": "#§come-all-the-way-back",
    "unchecked": ""
   },
   {
@@ -1531,7 +1562,7 @@
    "words": "the two-hand practice",
    "to": "S024",
    "heading": "The Two-Hand Practice",
-   "href": "https://ibogaqueen.substack.com/i/202810155/the-two-hand-practice",
+   "href": "#§the-two-hand-practice",
    "unchecked": ""
   },
   {
@@ -1541,7 +1572,7 @@
    "words": "Come All the Way Back",
    "to": "S053",
    "heading": "Come All the Way Back",
-   "href": "https://ibogaqueen.substack.com/i/202810155/come-all-the-way-back",
+   "href": "#§come-all-the-way-back",
    "unchecked": ""
   },
   {
@@ -1551,7 +1582,7 @@
    "words": "A Shortcut Back In",
    "to": "S051",
    "heading": "A Shortcut Back In",
-   "href": "https://ibogaqueen.substack.com/i/202810155/a-shortcut-back-in",
+   "href": "#§a-shortcut-back-in",
    "unchecked": ""
   },
   {
@@ -1561,7 +1592,7 @@
    "words": "When to Get Outside Help",
    "to": "S084",
    "heading": "When to Get Outside Help",
-   "href": "https://ibogaqueen.substack.com/i/202810155/when-to-get-outside-help",
+   "href": "#§when-to-get-outside-help",
    "unchecked": ""
   },
   {
@@ -1571,7 +1602,7 @@
    "words": "your inherited parent script",
    "to": "S029",
    "heading": "Your Inherited Parent Script",
-   "href": "https://ibogaqueen.substack.com/i/202810155/your-inherited-parent-script",
+   "href": "#§your-inherited-parent-script",
    "unchecked": ""
   },
   {
@@ -1581,7 +1612,7 @@
    "words": "Appendix D",
    "to": "S121",
    "heading": "D: Anxiety, Body First",
-   "href": "https://ibogaqueen.substack.com/i/202810155/d-anxiety-body-first",
+   "href": "#§d-anxiety-body-first",
    "unchecked": ""
   },
   {
@@ -1591,7 +1622,7 @@
    "words": "the two-hand practice",
    "to": "S024",
    "heading": "The Two-Hand Practice",
-   "href": "https://ibogaqueen.substack.com/i/202810155/the-two-hand-practice",
+   "href": "#§the-two-hand-practice",
    "unchecked": ""
   },
   {
@@ -1601,7 +1632,7 @@
    "words": "the core prompts",
    "to": "S092",
    "heading": "Core Prompts",
-   "href": "https://ibogaqueen.substack.com/i/202810155/core-prompts",
+   "href": "#§core-prompts",
    "unchecked": ""
   },
   {
@@ -1611,7 +1642,7 @@
    "words": "Appendix B",
    "to": "S093",
    "heading": "B: Ethical NLP",
-   "href": "https://ibogaqueen.substack.com/i/202810155/b-ethical-nlp",
+   "href": "#§b-ethical-nlp",
    "unchecked": ""
   },
   {
@@ -1621,7 +1652,7 @@
    "words": "A Shortcut Back In",
    "to": "S051",
    "heading": "A Shortcut Back In",
-   "href": "https://ibogaqueen.substack.com/i/202810155/a-shortcut-back-in",
+   "href": "#§a-shortcut-back-in",
    "unchecked": ""
   },
   {
@@ -1631,7 +1662,7 @@
    "words": "Come All the Way Back",
    "to": "S053",
    "heading": "Come All the Way Back",
-   "href": "https://ibogaqueen.substack.com/i/202810155/come-all-the-way-back",
+   "href": "#§come-all-the-way-back",
    "unchecked": ""
   },
   {
@@ -1641,7 +1672,7 @@
    "words": "the two-hand practice",
    "to": "S024",
    "heading": "The Two-Hand Practice",
-   "href": "https://ibogaqueen.substack.com/i/202810155/the-two-hand-practice",
+   "href": "#§the-two-hand-practice",
    "unchecked": ""
   },
   {
@@ -1651,7 +1682,7 @@
    "words": "Inner Child Practices",
    "to": "S023",
    "heading": "Inner Child Practices",
-   "href": "https://ibogaqueen.substack.com/i/202810155/inner-child-practices",
+   "href": "#§inner-child-practices",
    "unchecked": ""
   },
   {
@@ -1661,7 +1692,7 @@
    "words": "Synchronicity as a Bell",
    "to": "S109",
    "heading": "Synchronicity as a Bell",
-   "href": "https://ibogaqueen.substack.com/i/202810155/synchronicity-as-a-bell",
+   "href": "#§synchronicity-as-a-bell",
    "unchecked": ""
   },
   {
@@ -1671,7 +1702,7 @@
    "words": "the council",
    "to": "S133",
    "heading": "Take It to the Council",
-   "href": "https://ibogaqueen.substack.com/i/202810155/take-it-to-the-council",
+   "href": "#§take-it-to-the-council",
    "unchecked": ""
   },
   {
@@ -1681,7 +1712,7 @@
    "words": "the inner child reparenting section",
    "to": "S031",
    "heading": "Reparenting in Hypnosis",
-   "href": "https://ibogaqueen.substack.com/i/202810155/reparenting-in-hypnosis",
+   "href": "#§reparenting-in-hypnosis",
    "unchecked": ""
   },
   {
@@ -1691,7 +1722,7 @@
    "words": "Appendix E",
    "to": "S129",
    "heading": "E: Is Daydreaming Helping?",
-   "href": "https://ibogaqueen.substack.com/i/202810155/e-is-daydreaming-helping",
+   "href": "#§e-is-daydreaming-helping",
    "unchecked": ""
   },
   {
@@ -1701,7 +1732,7 @@
    "words": "appendix C",
    "to": "S119",
    "heading": "C: The De-Hypnosis Checklist",
-   "href": "https://ibogaqueen.substack.com/i/202810155/c-the-de-hypnosis-checklist",
+   "href": "#§c-the-de-hypnosis-checklist",
    "unchecked": ""
   },
   {
@@ -1711,7 +1742,7 @@
    "words": "a no-trance inner contact",
    "to": "S157",
    "heading": "No-Trance Inner Contact",
-   "href": "https://ibogaqueen.substack.com/i/202810155/no-trance-inner-contact",
+   "href": "#§no-trance-inner-contact",
    "unchecked": ""
   },
   {
@@ -1721,7 +1752,17 @@
    "words": "skilled outside support",
    "to": "S131",
    "heading": "Find a Hypnotist Who Fits",
-   "href": "https://ibogaqueen.substack.com/i/202810155/find-a-hypnotist-who-fits",
+   "href": "#§find-a-hypnotist-who-fits",
+   "unchecked": ""
+  },
+  {
+   "n": 39,
+   "in": "S019",
+   "find": "thood in my Inner Child Self-Love Reparenting Guide.",
+   "words": "Inner Child Self-Love Reparenting Guide",
+   "to": "https://ibogaqueen.substack.com/i/189761959/borrowed-adulthood",
+   "heading": "",
+   "href": "https://ibogaqueen.substack.com/i/189761959/borrowed-adulthood",
    "unchecked": ""
   }
  ],
